@@ -1,0 +1,20 @@
+---
+id: zh-stg-2025__par-194
+quelle: zh-stg-2025
+jur: zh
+jahre: [2025]
+typ: gesetz
+titel: "§ 194 StG ZH – b. Ermittlung der Grundlagen"
+artikel: "§ 194"
+seiten: "73"
+qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
+---
+> ZH · Steuerjahr 2025 · StG ZH · Zweiter Teil: Gemeindesteuern › A. Allgemeine Bestimmungen › § 194 StG ZH – b. Ermittlung der Grundlagen · S. 73
+
+### § 194 StG ZH – b. Ermittlung der Grundlagen
+
+§ 194.
+
+**Abs. 1** Das Steueramt der Einschätzungsgemeinde oder, auf sein Verlangen, das kantonale Steueramt ermittelt die Ausscheidungsgrundlagen gestützt auf die Einschätzung für die Staatssteuer und allfällige weitere Erhebungen.
+
+**Abs. 2** Die Bestimmungen über das Einschätzungsverfahren für di e Staatssteuern gelten sinngemäss.

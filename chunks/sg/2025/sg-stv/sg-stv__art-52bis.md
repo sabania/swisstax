@@ -1,0 +1,13 @@
+---
+id: sg-stv__art-52bis
+quelle: sg-stv
+jur: sg
+jahre: [2025, 2026]
+typ: verordnung
+titel: "Art. 52 bis StV SG – …"
+artikel: "Art. 52 bis"
+qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: verordnung}}
+---
+> SG · Steuerjahr 2025/2026 · StV SG · ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern › Art. 52 bis …
+
+### Art. 52 bis StV SG – …

@@ -1,0 +1,50 @@
+[
+{
+"id": "tg-vakp__par-1",
+"titel": "§ 1 VAKP TG – Sozialabzüge",
+"pfad": [
+"§ 1 Sozialabzüge"
+],
+"seiten": [],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "tg-vakp__par-2"
+},
+{
+"id": "tg-vakp__par-2",
+"titel": "§ 2 VAKP TG – Tarifstufen des Einkommenssteuertarifs",
+"pfad": [
+"§ 2 Tarifstufen des Einkommenssteuertarifs"
+],
+"seiten": [],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-vakp__par-1",
+"nachher": "tg-vakp__par-3"
+},
+{
+"id": "tg-vakp__par-3",
+"titel": "§ 3 VAKP TG – Rundungsmethodik",
+"pfad": [
+"§ 3 Rundungsmethodik"
+],
+"seiten": [],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-vakp__par-2",
+"nachher": null
+}
+]

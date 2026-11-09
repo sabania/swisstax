@@ -1,288 +1,444 @@
 [
 {
-"id": "sg-gsv__c0001",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 1",
-"pfad": [],
+"id": "sg-gsv__art-1",
+"titel": "Art. 1 VGS SG – Schätzungsobjekt",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 1 Schätzungsobjekt"
+],
 "seiten": [],
-"artikel": null,
+"artikel": "Art. 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "sg-gsv__c0002"
+"nachher": "sg-gsv__art-2"
 },
 {
-"id": "sg-gsv__c0002",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 2",
-"pfad": [],
-"seiten": [
-1
+"id": "sg-gsv__art-2",
+"titel": "Art. 2 VGS SG – Einteilung der Grundstücke",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 2 Einteilung der Grundstücke"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0001",
-"nachher": "sg-gsv__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-1",
+"nachher": "sg-gsv__art-3"
 },
 {
-"id": "sg-gsv__c0003",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 3",
-"pfad": [],
-"seiten": [
-1
+"id": "sg-gsv__art-3",
+"titel": "Art. 3 VGS SG – Gebäudeversicherung",
+"pfad": [
+"II. Organisation",
+"Art. 3 Gebäudeversicherung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0002",
-"nachher": "sg-gsv__c0004"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-2",
+"nachher": "sg-gsv__art-4"
 },
 {
-"id": "sg-gsv__c0004",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 4",
-"pfad": [],
-"seiten": [
-2
+"id": "sg-gsv__art-4",
+"titel": "Art. 4 VGS SG – Fachdienst für Grundstückschätzung",
+"pfad": [
+"II. Organisation",
+"Art. 4 Fachdienst für Grundstückschätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0003",
-"nachher": "sg-gsv__c0005"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-3",
+"nachher": "sg-gsv__art-5"
 },
 {
-"id": "sg-gsv__c0005",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 5",
-"pfad": [],
-"seiten": [
-2
+"id": "sg-gsv__art-5",
+"titel": "Art. 5 VGS SG – Schätzer",
+"pfad": [
+"II. Organisation",
+"Art. 5 Schätzer"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0004",
-"nachher": "sg-gsv__c0006"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-4",
+"nachher": "sg-gsv__art-6"
 },
 {
-"id": "sg-gsv__c0006",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 6",
-"pfad": [],
-"seiten": [
-2
+"id": "sg-gsv__art-6",
+"titel": "Art. 6 VGS SG – Grundbuchverwalter",
+"pfad": [
+"II. Organisation",
+"Art. 6 Grundbuchverwalter"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 6",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0005",
-"nachher": "sg-gsv__c0007"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-5",
+"nachher": "sg-gsv__art-7"
 },
 {
-"id": "sg-gsv__c0007",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 7",
-"pfad": [],
-"seiten": [
-3
+"id": "sg-gsv__art-7",
+"titel": "Art. 7 VGS SG – Stichtag",
+"pfad": [
+"III. Verfahren",
+"Art. 7 Stichtag"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 7",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0006",
-"nachher": "sg-gsv__c0008"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-6",
+"nachher": "sg-gsv__art-8"
 },
 {
-"id": "sg-gsv__c0008",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 8",
-"pfad": [],
-"seiten": [
-3
+"id": "sg-gsv__art-8",
+"titel": "Art. 8 VGS SG – Schätzungswerte",
+"pfad": [
+"III. Verfahren",
+"Art. 8 Schätzungswerte"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 8",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0007",
-"nachher": "sg-gsv__c0009"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-7",
+"nachher": "sg-gsv__art-9"
 },
 {
-"id": "sg-gsv__c0009",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 9",
-"pfad": [],
-"seiten": [
-4
+"id": "sg-gsv__art-9",
+"titel": "Art. 9 VGS SG – Schätzungsmethode",
+"pfad": [
+"III. Verfahren",
+"Art. 9 Schätzungsmethode"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 9",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0008",
-"nachher": "sg-gsv__c0010"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-8",
+"nachher": "sg-gsv__art-10"
 },
 {
-"id": "sg-gsv__c0010",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 10",
-"pfad": [],
-"seiten": [
-4
+"id": "sg-gsv__art-10",
+"titel": "Art. 10 VGS SG – Mitwirkung von Behörden",
+"pfad": [
+"III. Verfahren",
+"Art. 10 Mitwirkung von Behörden"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 10",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0009",
-"nachher": "sg-gsv__c0011"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-9",
+"nachher": "sg-gsv__art-11"
 },
 {
-"id": "sg-gsv__c0011",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 11",
-"pfad": [],
-"seiten": [
-5
+"id": "sg-gsv__art-11",
+"titel": "Art. 11 VGS SG – Amtsgeheimnis",
+"pfad": [
+"III. Verfahren",
+"Art. 11 Amtsgeheimnis"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 11",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0010",
-"nachher": "sg-gsv__c0012"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-10",
+"nachher": "sg-gsv__art-12"
 },
 {
-"id": "sg-gsv__c0012",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 12",
-"pfad": [],
-"seiten": [
-5
+"id": "sg-gsv__art-12",
+"titel": "Art. 12 VGS SG – Ausstand",
+"pfad": [
+"III. Verfahren",
+"Art. 12 Ausstand"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 12",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0011",
-"nachher": "sg-gsv__c0013"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-11",
+"nachher": "sg-gsv__art-13"
 },
 {
-"id": "sg-gsv__c0013",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 13",
-"pfad": [],
-"seiten": [
-6
+"id": "sg-gsv__art-13",
+"titel": "Art. 13 VGS SG – Staat",
+"pfad": [
+"IV. Kosten",
+"Art. 13 Staat"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 13",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0012",
-"nachher": "sg-gsv__c0014"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-12",
+"nachher": "sg-gsv__art-14"
 },
 {
-"id": "sg-gsv__c0014",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 14",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-gsv__art-14",
+"titel": "Art. 14 VGS SG – Politische Gemeinde",
+"pfad": [
+"IV. Kosten",
+"Art. 14 Politische Gemeinde"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 14",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0013",
-"nachher": "sg-gsv__c0015"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-13",
+"nachher": "sg-gsv__art-15"
 },
 {
-"id": "sg-gsv__c0015",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 15",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-gsv__art-15",
+"titel": "Art. 15 VGS SG – Gebühren",
+"pfad": [
+"IV. Kosten",
+"Art. 15 Gebühren"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 15",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0014",
-"nachher": "sg-gsv__c0016"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-14",
+"nachher": "sg-gsv__art-16"
 },
 {
-"id": "sg-gsv__c0016",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 16",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-gsv__art-16",
+"titel": "Art. 16 VGS SG – Aufhebung bisherigen Rechts",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 16 Aufhebung bisherigen Rechts"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 16",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0015",
-"nachher": "sg-gsv__c0017"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-15",
+"nachher": "sg-gsv__art-17"
 },
 {
-"id": "sg-gsv__c0017",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 17",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-gsv__art-17",
+"titel": "Art. 17 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 17"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 17",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0016",
-"nachher": "sg-gsv__c0018"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-16",
+"nachher": "sg-gsv__art-18"
 },
 {
-"id": "sg-gsv__c0018",
-"titel": "Grundstückschätzungsverordnung SG – Abschnitt 18",
-"pfad": [],
-"seiten": [
-8
+"id": "sg-gsv__art-18",
+"titel": "Art. 18 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 18"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 18",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-gsv__c0017",
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-17",
+"nachher": "sg-gsv__art-19"
+},
+{
+"id": "sg-gsv__art-19",
+"titel": "Art. 19 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 19"
+],
+"seiten": [],
+"artikel": "Art. 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-18",
+"nachher": "sg-gsv__art-20"
+},
+{
+"id": "sg-gsv__art-20",
+"titel": "Art. 20 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 20"
+],
+"seiten": [],
+"artikel": "Art. 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-19",
+"nachher": "sg-gsv__art-21"
+},
+{
+"id": "sg-gsv__art-21",
+"titel": "Art. 21 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 21"
+],
+"seiten": [],
+"artikel": "Art. 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-20",
+"nachher": "sg-gsv__art-22"
+},
+{
+"id": "sg-gsv__art-22",
+"titel": "Art. 22 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 22"
+],
+"seiten": [],
+"artikel": "Art. 22",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-21",
+"nachher": "sg-gsv__art-23"
+},
+{
+"id": "sg-gsv__art-23",
+"titel": "Art. 23 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 23"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-22",
+"nachher": "sg-gsv__art-24"
+},
+{
+"id": "sg-gsv__art-24",
+"titel": "Art. 24 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 24"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-23",
+"nachher": "sg-gsv__art-25"
+},
+{
+"id": "sg-gsv__art-25",
+"titel": "Art. 25 VGS SG",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 25"
+],
+"seiten": [],
+"artikel": "Art. 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-24",
+"nachher": "sg-gsv__art-26"
+},
+{
+"id": "sg-gsv__art-26",
+"titel": "Art. 26 VGS SG – Vollzugsbeginn",
+"pfad": [
+"V. Schlussbestimmungen",
+"Art. 26 Vollzugsbeginn"
+],
+"seiten": [],
+"artikel": "Art. 26",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-gsv__art-25",
 "nachher": null
 }
 ]

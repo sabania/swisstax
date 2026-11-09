@@ -1,0 +1,461 @@
+[
+{
+"id": "tg-schaev__par-1",
+"titel": "§ 1 SchäV TG – Begriff",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 1 Begriff"
+],
+"seiten": [],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "tg-schaev__par-2"
+},
+{
+"id": "tg-schaev__par-2",
+"titel": "§ 2 SchäV TG – Umfang der Schätzung",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 2 Umfang der Schätzung"
+],
+"seiten": [],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-1",
+"nachher": "tg-schaev__par-3"
+},
+{
+"id": "tg-schaev__par-3",
+"titel": "§ 3 SchäV TG – Gesamthafte Neuschätzung",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 3 Gesamthafte Neuschätzung"
+],
+"seiten": [],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-2",
+"nachher": "tg-schaev__par-4"
+},
+{
+"id": "tg-schaev__par-4",
+"titel": "§ 4 SchäV TG – Neuschätzung auf Antrag",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 4 Neuschätzung auf Antrag"
+],
+"seiten": [],
+"artikel": "§ 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-3",
+"nachher": "tg-schaev__par-5"
+},
+{
+"id": "tg-schaev__par-5",
+"titel": "§ 5 SchäV TG – Neuschätzung von Amtes wegen",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 5 Neuschätzung von Amtes wegen"
+],
+"seiten": [],
+"artikel": "§ 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-4",
+"nachher": "tg-schaev__par-6"
+},
+{
+"id": "tg-schaev__par-6",
+"titel": "§ 6 SchäV TG – Liegenschaftenschätzer",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 6 Liegenschaftenschätzer"
+],
+"seiten": [],
+"artikel": "§ 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-5",
+"nachher": "tg-schaev__par-7"
+},
+{
+"id": "tg-schaev__par-7",
+"titel": "§ 7 SchäV TG – Weisungsrecht",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 7 Weisungsrecht"
+],
+"seiten": [],
+"artikel": "§ 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-6",
+"nachher": "tg-schaev__par-8"
+},
+{
+"id": "tg-schaev__par-8",
+"titel": "§ 8 SchäV TG – Durchführung der Schätzung",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 8 Durchführung der Schätzung"
+],
+"seiten": [],
+"artikel": "§ 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-7",
+"nachher": "tg-schaev__par-9"
+},
+{
+"id": "tg-schaev__par-9",
+"titel": "§ 9 SchäV TG – Schätzung land- und forstwirtschaftlicher Grundstücke",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 9 Schätzung land- und forstwirtschaftlicher Grundstücke"
+],
+"seiten": [],
+"artikel": "§ 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-8",
+"nachher": "tg-schaev__par-10"
+},
+{
+"id": "tg-schaev__par-10",
+"titel": "§ 10 SchäV TG – Mitwirkung der Grundeigentümer",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 10 Mitwirkung der Grundeigentümer"
+],
+"seiten": [],
+"artikel": "§ 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-9",
+"nachher": "tg-schaev__par-11"
+},
+{
+"id": "tg-schaev__par-11",
+"titel": "§ 11 SchäV TG – Verfahren",
+"pfad": [
+"1. Allgemeine Bestimmungen",
+"§ 11 Verfahren"
+],
+"seiten": [],
+"artikel": "§ 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-10",
+"nachher": "tg-schaev__par-12"
+},
+{
+"id": "tg-schaev__par-12",
+"titel": "§ 12 SchäV TG – Verkehrswert",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 12 Verkehrswert"
+],
+"seiten": [],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-11",
+"nachher": "tg-schaev__par-13"
+},
+{
+"id": "tg-schaev__par-13",
+"titel": "§ 13 SchäV TG – Ertragswert",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 13 Ertragswert"
+],
+"seiten": [],
+"artikel": "§ 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-12",
+"nachher": "tg-schaev__par-14"
+},
+{
+"id": "tg-schaev__par-14",
+"titel": "§ 14 SchäV TG – Realwert",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 14 Realwert"
+],
+"seiten": [],
+"artikel": "§ 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-13",
+"nachher": "tg-schaev__par-15"
+},
+{
+"id": "tg-schaev__par-15",
+"titel": "§ 15 SchäV TG – Gewichtung",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 15 Gewichtung"
+],
+"seiten": [],
+"artikel": "§ 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-14",
+"nachher": "tg-schaev__par-16"
+},
+{
+"id": "tg-schaev__par-16",
+"titel": "§ 16 SchäV TG – Geschäftshäuser und Gewerbebetriebe",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 16 Geschäftshäuser und Gewerbebetriebe"
+],
+"seiten": [],
+"artikel": "§ 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-15",
+"nachher": "tg-schaev__par-17"
+},
+{
+"id": "tg-schaev__par-17",
+"titel": "§ 17 SchäV TG – Industriebauten",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 17 Industriebauten"
+],
+"seiten": [],
+"artikel": "§ 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-16",
+"nachher": "tg-schaev__par-18"
+},
+{
+"id": "tg-schaev__par-18",
+"titel": "§ 18 SchäV TG – Mehrfamilienhäuser",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 18 Mehrfamilienhäuser"
+],
+"seiten": [],
+"artikel": "§ 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-17",
+"nachher": "tg-schaev__par-19"
+},
+{
+"id": "tg-schaev__par-19",
+"titel": "§ 19 SchäV TG – Unüberbautes Land",
+"pfad": [
+"2. Schätzung nichtlandwirtschaftlicher Grundstücke",
+"§ 19 Unüberbautes Land"
+],
+"seiten": [],
+"artikel": "§ 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-18",
+"nachher": "tg-schaev__par-20"
+},
+{
+"id": "tg-schaev__par-20",
+"titel": "§ 20 SchäV TG – Ertragswert",
+"pfad": [
+"3. Schätzung land- und forstwirtschaftlicher Grundstücke",
+"§ 20 Ertragswert"
+],
+"seiten": [],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-19",
+"nachher": "tg-schaev__par-21"
+},
+{
+"id": "tg-schaev__par-21",
+"titel": "§ 21 SchäV TG – Ermittlung des Ertragswertes",
+"pfad": [
+"3. Schätzung land- und forstwirtschaftlicher Grundstücke",
+"§ 21 Ermittlung des Ertragswertes"
+],
+"seiten": [],
+"artikel": "§ 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-20",
+"nachher": "tg-schaev__par-21a"
+},
+{
+"id": "tg-schaev__par-21a",
+"titel": "§ 21a SchäV TG – Verkehrswert",
+"pfad": [
+"3. Schätzung land- und forstwirtschaftlicher Grundstücke",
+"§ 21a Verkehrswert"
+],
+"seiten": [],
+"artikel": "§ 21a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-21",
+"nachher": "tg-schaev__par-22"
+},
+{
+"id": "tg-schaev__par-22",
+"titel": "§ 22 SchäV TG – Anwendung bisherigen Rechtes",
+"pfad": [
+"4. Übergangs- und Schlussbestimmungen",
+"§ 22 Anwendung bisherigen Rechtes"
+],
+"seiten": [],
+"artikel": "§ 22",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-21a",
+"nachher": "tg-schaev__par-23"
+},
+{
+"id": "tg-schaev__par-23",
+"titel": "§ 23 SchäV TG – Wirksamkeit",
+"pfad": [
+"4. Übergangs- und Schlussbestimmungen",
+"§ 23 Wirksamkeit"
+],
+"seiten": [],
+"artikel": "§ 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-22",
+"nachher": "tg-schaev__par-24"
+},
+{
+"id": "tg-schaev__par-24",
+"titel": "§ 24 SchäV TG – ...",
+"pfad": [
+"4. Übergangs- und Schlussbestimmungen",
+"§ 24 ..."
+],
+"seiten": [],
+"artikel": "§ 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-23",
+"nachher": "tg-schaev__par-24a"
+},
+{
+"id": "tg-schaev__par-24a",
+"titel": "§ 24a SchäV TG – Zwischenschätzung infolge Kleinsiedlungsverordnung",
+"pfad": [
+"4. Übergangs- und Schlussbestimmungen",
+"§ 24a Zwischenschätzung infolge Kleinsiedlungsverordnung"
+],
+"seiten": [],
+"artikel": "§ 24a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-24",
+"nachher": "tg-schaev__par-25"
+},
+{
+"id": "tg-schaev__par-25",
+"titel": "§ 25 SchäV TG – …",
+"pfad": [
+"4. Übergangs- und Schlussbestimmungen",
+"§ 25 …"
+],
+"seiten": [],
+"artikel": "§ 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-schaev__par-24a",
+"nachher": null
+}
+]

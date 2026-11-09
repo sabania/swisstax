@@ -1,0 +1,291 @@
+[
+{
+"id": "sg-v-dbg__art-1",
+"titel": "Art. 1 V DBG SG – Behörden",
+"pfad": [
+"I. Organisation",
+"Art. 1 Behörden"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "sg-v-dbg__art-2"
+},
+{
+"id": "sg-v-dbg__art-2",
+"titel": "Art. 2 V DBG SG – Aufgaben",
+"pfad": [
+"I. Organisation",
+"Art. 2 Aufgaben"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-1",
+"nachher": "sg-v-dbg__art-3"
+},
+{
+"id": "sg-v-dbg__art-3",
+"titel": "Art. 3 V DBG SG – Gemeindesteuerämter",
+"pfad": [
+"I. Organisation",
+"Art. 3 Gemeindesteuerämter"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-2",
+"nachher": "sg-v-dbg__art-4"
+},
+{
+"id": "sg-v-dbg__art-4",
+"titel": "Art. 4 V DBG SG – Anwendbares Recht",
+"pfad": [
+"I. Organisation",
+"Art. 4 Anwendbares Recht"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-3",
+"nachher": "sg-v-dbg__art-5"
+},
+{
+"id": "sg-v-dbg__art-5",
+"titel": "Art. 5 V DBG SG – …",
+"pfad": [
+"II. Besteuerung der natürlichen Personen",
+"Art. 5 …"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-4",
+"nachher": "sg-v-dbg__art-5bis"
+},
+{
+"id": "sg-v-dbg__art-5bis",
+"titel": "Art. 5 bis V DBG SG – Entscheide über Stundung und Erlass",
+"pfad": [
+"III. Verfahren",
+"Art. 5 bis Entscheide über Stundung und Erlass"
+],
+"seiten": [],
+"artikel": "Art. 5 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-5",
+"nachher": "sg-v-dbg__art-6"
+},
+{
+"id": "sg-v-dbg__art-6",
+"titel": "Art. 6 V DBG SG – Einreichung der Einsprache",
+"pfad": [
+"III. Verfahren",
+"Art. 6 Einreichung der Einsprache"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-5bis",
+"nachher": "sg-v-dbg__art-7"
+},
+{
+"id": "sg-v-dbg__art-7",
+"titel": "Art. 7 V DBG SG – Beschwerde",
+"pfad": [
+"III. Verfahren",
+"Art. 7 Beschwerde"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-6",
+"nachher": "sg-v-dbg__art-8"
+},
+{
+"id": "sg-v-dbg__art-8",
+"titel": "Art. 8 V DBG SG – Quellensteuern",
+"pfad": [
+"III. Verfahren",
+"Art. 8 Quellensteuern"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-7",
+"nachher": "sg-v-dbg__art-9"
+},
+{
+"id": "sg-v-dbg__art-9",
+"titel": "Art. 9 V DBG SG – Bezugsbehörde",
+"pfad": [
+"III. Verfahren",
+"Art. 9 Bezugsbehörde"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-8",
+"nachher": "sg-v-dbg__art-10"
+},
+{
+"id": "sg-v-dbg__art-10",
+"titel": "Art. 10 V DBG SG – Bezug",
+"pfad": [
+"III. Verfahren",
+"Art. 10 Bezug"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-9",
+"nachher": "sg-v-dbg__art-11"
+},
+{
+"id": "sg-v-dbg__art-11",
+"titel": "Art. 11 V DBG SG – …",
+"pfad": [
+"III. Verfahren",
+"Art. 11 …"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-10",
+"nachher": "sg-v-dbg__art-12"
+},
+{
+"id": "sg-v-dbg__art-12",
+"titel": "Art. 12 V DBG SG – Inventar und Siegelung",
+"pfad": [
+"III. Verfahren",
+"Art. 12 Inventar und Siegelung"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-11",
+"nachher": "sg-v-dbg__art-13"
+},
+{
+"id": "sg-v-dbg__art-13",
+"titel": "Art. 13 V DBG SG – Löschung im Handelsregister",
+"pfad": [
+"III. Verfahren",
+"Art. 13 Löschung im Handelsregister"
+],
+"seiten": [],
+"artikel": "Art. 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-12",
+"nachher": "sg-v-dbg__art-14"
+},
+{
+"id": "sg-v-dbg__art-14",
+"titel": "Art. 14 V DBG SG – Eintragung im Grundbuch",
+"pfad": [
+"III. Verfahren",
+"Art. 14 Eintragung im Grundbuch"
+],
+"seiten": [],
+"artikel": "Art. 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-13",
+"nachher": "sg-v-dbg__art-15"
+},
+{
+"id": "sg-v-dbg__art-15",
+"titel": "Art. 15 V DBG SG – Aufhebung bisherigen Rechts",
+"pfad": [
+"(IV.) Schlussbestimmungen",
+"Art. 15 Aufhebung bisherigen Rechts"
+],
+"seiten": [],
+"artikel": "Art. 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-14",
+"nachher": "sg-v-dbg__art-16"
+},
+{
+"id": "sg-v-dbg__art-16",
+"titel": "Art. 16 V DBG SG – Vollzugsbeginn",
+"pfad": [
+"(IV.) Schlussbestimmungen",
+"Art. 16 Vollzugsbeginn"
+],
+"seiten": [],
+"artikel": "Art. 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-v-dbg__art-15",
+"nachher": null
+}
+]

@@ -1,1490 +1,2546 @@
 [
 {
-"id": "sg-stv__c0001",
-"titel": "StV SG – Abschnitt 1",
-"pfad": [],
-"seiten": [
-1
+"id": "sg-stv__art-1",
+"titel": "Art. 1 StV SG – Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 1 Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "sg-stv__c0002"
+"nachher": "sg-stv__art-2"
 },
 {
-"id": "sg-stv__c0002",
-"titel": "StV SG – Abschnitt 2",
-"pfad": [],
-"seiten": [
-1
+"id": "sg-stv__art-2",
+"titel": "Art. 2 StV SG – b) Bei gemischter Ehe",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 2 b) Bei gemischter Ehe"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0001",
-"nachher": "sg-stv__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-1",
+"nachher": "sg-stv__art-3"
 },
 {
-"id": "sg-stv__c0003",
-"titel": "StV SG – Abschnitt 3",
-"pfad": [],
-"seiten": [
-2
+"id": "sg-stv__art-3",
+"titel": "Art. 3 StV SG – Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 3 Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0002",
-"nachher": "sg-stv__c0004"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-2",
+"nachher": "sg-stv__art-4"
 },
 {
-"id": "sg-stv__c0004",
-"titel": "StV SG – Abschnitt 4",
-"pfad": [],
-"seiten": [
-2
+"id": "sg-stv__art-4",
+"titel": "Art. 4 StV SG – …",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 4 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0003",
-"nachher": "sg-stv__c0005"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-3",
+"nachher": "sg-stv__art-5"
 },
 {
-"id": "sg-stv__c0005",
-"titel": "StV SG – Abschnitt 5",
-"pfad": [],
-"seiten": [
-3
+"id": "sg-stv__art-5",
+"titel": "Art. 5 StV SG – c) Anteile thurgauischer Schulgemeinden",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 5 c) Anteile thurgauischer Schulgemeinden"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0004",
-"nachher": "sg-stv__c0006"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-4",
+"nachher": "sg-stv__art-6"
 },
 {
-"id": "sg-stv__c0006",
-"titel": "StV SG – Abschnitt 6",
-"pfad": [],
-"seiten": [
-3
+"id": "sg-stv__art-6",
+"titel": "Art. 6 StV SG – d) Verfahren",
+"pfad": [
+"ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN",
+"Art. 6 d) Verfahren"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 6",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0005",
-"nachher": "sg-stv__c0007"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-5",
+"nachher": "sg-stv__art-7"
 },
 {
-"id": "sg-stv__c0007",
-"titel": "StV SG – Abschnitt 7",
-"pfad": [],
-"seiten": [
-4
+"id": "sg-stv__art-7",
+"titel": "Art. 7 StV SG – Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 7 Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 7",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0006",
-"nachher": "sg-stv__c0008"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-6",
+"nachher": "sg-stv__art-8"
 },
 {
-"id": "sg-stv__c0008",
-"titel": "StV SG – Abschnitt 8",
-"pfad": [],
-"seiten": [
-4
+"id": "sg-stv__art-8",
+"titel": "Art. 8 StV SG – Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 8 Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 8",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0007",
-"nachher": "sg-stv__c0009"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-7",
+"nachher": "sg-stv__art-9"
 },
 {
-"id": "sg-stv__c0009",
-"titel": "StV SG – Abschnitt 9",
-"pfad": [],
-"seiten": [
-5
+"id": "sg-stv__art-9",
+"titel": "Art. 9 StV SG – Besteuerung nach dem Aufwand (Art. 27 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 9 Besteuerung nach dem Aufwand (Art. 27 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 9",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0008",
-"nachher": "sg-stv__c0010"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-8",
+"nachher": "sg-stv__art-10"
 },
 {
-"id": "sg-stv__c0010",
-"titel": "StV SG – Abschnitt 10",
-"pfad": [],
-"seiten": [
-5
+"id": "sg-stv__art-10",
+"titel": "Art. 10 StV SG – Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 10 Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 10",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0009",
-"nachher": "sg-stv__c0011"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-9",
+"nachher": "sg-stv__art-11"
 },
 {
-"id": "sg-stv__c0011",
-"titel": "StV SG – Abschnitt 11",
-"pfad": [],
-"seiten": [
-5
+"id": "sg-stv__art-11",
+"titel": "Art. 11 StV SG – b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 11 b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 11",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0010",
-"nachher": "sg-stv__c0012"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-10",
+"nachher": "sg-stv__art-12"
 },
 {
-"id": "sg-stv__c0012",
-"titel": "StV SG – Abschnitt 12",
-"pfad": [],
-"seiten": [
-6
+"id": "sg-stv__art-12",
+"titel": "Art. 12 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 12 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 12",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0011",
-"nachher": "sg-stv__c0013"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-11",
+"nachher": "sg-stv__art-13"
 },
 {
-"id": "sg-stv__c0013",
-"titel": "StV SG – Abschnitt 13",
-"pfad": [],
-"seiten": [
-6
+"id": "sg-stv__art-13",
+"titel": "Art. 13 StV SG – c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 13 c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 13",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0012",
-"nachher": "sg-stv__c0014"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-12",
+"nachher": "sg-stv__art-13bis"
 },
 {
-"id": "sg-stv__c0014",
-"titel": "StV SG – Abschnitt 14",
-"pfad": [],
-"seiten": [
-6
+"id": "sg-stv__art-13bis",
+"titel": "Art. 13 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 13 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 13 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0013",
-"nachher": "sg-stv__c0015"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-13",
+"nachher": "sg-stv__art-13ter"
 },
 {
-"id": "sg-stv__c0015",
-"titel": "StV SG – Abschnitt 15",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-stv__art-13ter",
+"titel": "Art. 13 ter StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 13 ter …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 13 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0014",
-"nachher": "sg-stv__c0016"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-13bis",
+"nachher": "sg-stv__art-14"
 },
 {
-"id": "sg-stv__c0016",
-"titel": "StV SG – Abschnitt 16",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-stv__art-14",
+"titel": "Art. 14 StV SG – d) Mietwert von selbst genutzten Grundstücken (Art. 34 Abs. 2, 3 und 4 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 14 d) Mietwert von selbst genutzten Grundstücken (Art. 34 Abs. 2, 3 und 4 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 14",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0015",
-"nachher": "sg-stv__c0017"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-13ter",
+"nachher": "sg-stv__art-15"
 },
 {
-"id": "sg-stv__c0017",
-"titel": "StV SG – Abschnitt 17",
-"pfad": [],
-"seiten": [
-7
+"id": "sg-stv__art-15",
+"titel": "Art. 15 StV SG – e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 15 e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 15",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0016",
-"nachher": "sg-stv__c0018"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-14",
+"nachher": "sg-stv__art-16"
 },
 {
-"id": "sg-stv__c0018",
-"titel": "StV SG – Abschnitt 18",
-"pfad": [],
-"seiten": [
-8
+"id": "sg-stv__art-16",
+"titel": "Art. 16 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 16 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 16",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0017",
-"nachher": "sg-stv__c0019"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-15",
+"nachher": "sg-stv__art-17"
 },
 {
-"id": "sg-stv__c0019",
-"titel": "StV SG – Abschnitt 19",
-"pfad": [],
-"seiten": [
-8
+"id": "sg-stv__art-17",
+"titel": "Art. 17 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 17 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 17",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0018",
-"nachher": "sg-stv__c0020"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-16",
+"nachher": "sg-stv__art-18"
 },
 {
-"id": "sg-stv__c0020",
-"titel": "StV SG – Abschnitt 20",
-"pfad": [],
-"seiten": [
-8
+"id": "sg-stv__art-18",
+"titel": "Art. 18 StV SG – Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 18 Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 18",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0019",
-"nachher": "sg-stv__c0021"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-17",
+"nachher": "sg-stv__art-18a"
 },
 {
-"id": "sg-stv__c0021",
-"titel": "StV SG – Abschnitt 21",
-"pfad": [],
-"seiten": [
-9
+"id": "sg-stv__art-18a",
+"titel": "Art. 18a StV SG – abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 18a abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 18a",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0020",
-"nachher": "sg-stv__c0022"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-18",
+"nachher": "sg-stv__art-19"
 },
 {
-"id": "sg-stv__c0022",
-"titel": "StV SG – Abschnitt 22",
-"pfad": [],
-"seiten": [
-9
+"id": "sg-stv__art-19",
+"titel": "Art. 19 StV SG – b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 19 b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 19",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0021",
-"nachher": "sg-stv__c0023"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-18a",
+"nachher": "sg-stv__art-20"
 },
 {
-"id": "sg-stv__c0023",
-"titel": "StV SG – Abschnitt 23",
-"pfad": [],
-"seiten": [
-10
+"id": "sg-stv__art-20",
+"titel": "Art. 20 StV SG – c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 20 c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 20",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0022",
-"nachher": "sg-stv__c0024"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-19",
+"nachher": "sg-stv__art-21"
 },
 {
-"id": "sg-stv__c0024",
-"titel": "StV SG – Abschnitt 24",
-"pfad": [],
-"seiten": [
-10
+"id": "sg-stv__art-21",
+"titel": "Art. 21 StV SG – d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 21 d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 21",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0023",
-"nachher": "sg-stv__c0025"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-20",
+"nachher": "sg-stv__art-22"
 },
 {
-"id": "sg-stv__c0025",
-"titel": "StV SG – Abschnitt 25",
-"pfad": [],
-"seiten": [
-11
+"id": "sg-stv__art-22",
+"titel": "Art. 22 StV SG – e) Unselbständige Nebenerwerbstätigkeit (Art. 39 Abs. 1 Bst. a bis c StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 22 e) Unselbständige Nebenerwerbstätigkeit (Art. 39 Abs. 1 Bst. a bis c StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 22",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0024",
-"nachher": "sg-stv__c0026"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-21",
+"nachher": "sg-stv__art-23"
 },
 {
-"id": "sg-stv__c0026",
-"titel": "StV SG – Abschnitt 26",
-"pfad": [],
-"seiten": [
-11
+"id": "sg-stv__art-23",
+"titel": "Art. 23 StV SG – Abzüge bei selbständiger Erwerbstätigkeit a) Abschreibungen (Art. 41 Abs. 1 Bst. a StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 23 Abzüge bei selbständiger Erwerbstätigkeit a) Abschreibungen (Art. 41 Abs. 1 Bst. a StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 23",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0025",
-"nachher": "sg-stv__c0027"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-22",
+"nachher": "sg-stv__art-24"
 },
 {
-"id": "sg-stv__c0027",
-"titel": "StV SG – Abschnitt 27",
-"pfad": [],
-"seiten": [
-12
+"id": "sg-stv__art-24",
+"titel": "Art. 24 StV SG – b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 24 b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 24",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0026",
-"nachher": "sg-stv__c0028"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-23",
+"nachher": "sg-stv__art-25"
 },
 {
-"id": "sg-stv__c0028",
-"titel": "StV SG – Abschnitt 28",
-"pfad": [],
-"seiten": [
-12
+"id": "sg-stv__art-25",
+"titel": "Art. 25 StV SG – c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 25 c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 25",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0027",
-"nachher": "sg-stv__c0029"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-24",
+"nachher": "sg-stv__art-26"
 },
 {
-"id": "sg-stv__c0029",
-"titel": "StV SG – Abschnitt 29",
-"pfad": [],
-"seiten": [
-12
+"id": "sg-stv__art-26",
+"titel": "Art. 26 StV SG – d) Verluste (Art. 42 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 26 d) Verluste (Art. 42 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 26",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0028",
-"nachher": "sg-stv__c0030"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-25",
+"nachher": "sg-stv__art-27"
 },
 {
-"id": "sg-stv__c0030",
-"titel": "StV SG – Abschnitt 30",
-"pfad": [],
-"seiten": [
-13
+"id": "sg-stv__art-27",
+"titel": "Art. 27 StV SG – e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 27 e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 27",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0029",
-"nachher": "sg-stv__c0031"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-26",
+"nachher": "sg-stv__art-28"
 },
 {
-"id": "sg-stv__c0031",
-"titel": "StV SG – Abschnitt 31",
-"pfad": [],
-"seiten": [
-13
+"id": "sg-stv__art-28",
+"titel": "Art. 28 StV SG – Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 28 Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 28",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0030",
-"nachher": "sg-stv__c0032"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-27",
+"nachher": "sg-stv__art-29"
 },
 {
-"id": "sg-stv__c0032",
-"titel": "StV SG – Abschnitt 32",
-"pfad": [],
-"seiten": [
-14
+"id": "sg-stv__art-29",
+"titel": "Art. 29 StV SG – b) Pauschalabzug (Art. 44 Abs. 4 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 29 b) Pauschalabzug (Art. 44 Abs. 4 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 29",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0031",
-"nachher": "sg-stv__c0033"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-28",
+"nachher": "sg-stv__art-29bis"
 },
 {
-"id": "sg-stv__c0033",
-"titel": "StV SG – Abschnitt 33",
-"pfad": [],
-"seiten": [
-14
+"id": "sg-stv__art-29bis",
+"titel": "Art. 29 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 29 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 29 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0032",
-"nachher": "sg-stv__c0034"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-29",
+"nachher": "sg-stv__art-29ter"
 },
 {
-"id": "sg-stv__c0034",
-"titel": "StV SG – Abschnitt 34",
-"pfad": [],
-"seiten": [
-15
+"id": "sg-stv__art-29ter",
+"titel": "Art. 29 ter StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 29 ter …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 29 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0033",
-"nachher": "sg-stv__c0035"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-29bis",
+"nachher": "sg-stv__art-29quater"
 },
 {
-"id": "sg-stv__c0035",
-"titel": "StV SG – Abschnitt 35",
-"pfad": [],
-"seiten": [
-15
+"id": "sg-stv__art-29quater",
+"titel": "Art. 29 quater StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 29 quater …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 29 quater",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0034",
-"nachher": "sg-stv__c0036"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-29ter",
+"nachher": "sg-stv__art-29quinquies"
 },
 {
-"id": "sg-stv__c0036",
-"titel": "StV SG – Abschnitt 36",
-"pfad": [],
-"seiten": [
-15
+"id": "sg-stv__art-29quinquies",
+"titel": "Art. 29 quinquies StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 29 quinquies …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 29 quinquies",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0035",
-"nachher": "sg-stv__c0037"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-29quater",
+"nachher": "sg-stv__art-30"
 },
 {
-"id": "sg-stv__c0037",
-"titel": "StV SG – Abschnitt 37",
-"pfad": [],
-"seiten": [
-16
+"id": "sg-stv__art-30",
+"titel": "Art. 30 StV SG – Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 30 Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 30",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0036",
-"nachher": "sg-stv__c0038"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-29quinquies",
+"nachher": "sg-stv__art-30a"
 },
 {
-"id": "sg-stv__c0038",
-"titel": "StV SG – Abschnitt 38",
-"pfad": [],
-"seiten": [
-16
+"id": "sg-stv__art-30a",
+"titel": "Art. 30a StV SG – Liquidationsgewinne (Art. 52bis StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 30a Liquidationsgewinne (Art. 52bis StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 30a",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0037",
-"nachher": "sg-stv__c0039"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-30",
+"nachher": "sg-stv__art-30bis"
 },
 {
-"id": "sg-stv__c0039",
-"titel": "StV SG – Abschnitt 39",
-"pfad": [],
-"seiten": [
-17
+"id": "sg-stv__art-30bis",
+"titel": "Art. 30 bis StV SG – Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 30 bis Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 30 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0038",
-"nachher": "sg-stv__c0040"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-30a",
+"nachher": "sg-stv__art-31"
 },
 {
-"id": "sg-stv__c0040",
-"titel": "StV SG – Abschnitt 40",
-"pfad": [],
-"seiten": [
-17
+"id": "sg-stv__art-31",
+"titel": "Art. 31 StV SG – Steuerfreies Vermögen (Art. 63 Bst. a StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 31 Steuerfreies Vermögen (Art. 63 Bst. a StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 31",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0039",
-"nachher": "sg-stv__c0041"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-30bis",
+"nachher": "sg-stv__art-32"
 },
 {
-"id": "sg-stv__c0041",
-"titel": "StV SG – Abschnitt 41",
-"pfad": [],
-"seiten": [
-18
+"id": "sg-stv__art-32",
+"titel": "Art. 32 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 32 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 32",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0040",
-"nachher": "sg-stv__c0042"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-31",
+"nachher": "sg-stv__art-32bis"
 },
 {
-"id": "sg-stv__c0042",
-"titel": "StV SG – Abschnitt 42",
-"pfad": [],
-"seiten": [
-18
+"id": "sg-stv__art-32bis",
+"titel": "Art. 32 bis StV SG – Bemessung des Einkommens bei selbständiger Erwerbstätigkeit (Art. 67 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 32 bis Bemessung des Einkommens bei selbständiger Erwerbstätigkeit (Art. 67 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 32 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0041",
-"nachher": "sg-stv__c0043"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-32",
+"nachher": "sg-stv__art-32ter"
 },
 {
-"id": "sg-stv__c0043",
-"titel": "StV SG – Abschnitt 43",
-"pfad": [],
-"seiten": [
-19
+"id": "sg-stv__art-32ter",
+"titel": "Art. 32 ter StV SG – Bemessung des Vermögens bei Vermögensanfall von Todes wegen (Art. 68 Abs. 4 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 32 ter Bemessung des Vermögens bei Vermögensanfall von Todes wegen (Art. 68 Abs. 4 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 32 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0042",
-"nachher": "sg-stv__c0044"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-32bis",
+"nachher": "sg-stv__art-32quater"
 },
 {
-"id": "sg-stv__c0044",
-"titel": "StV SG – Abschnitt 44",
-"pfad": [],
-"seiten": [
-19
+"id": "sg-stv__art-32quater",
+"titel": "Art. 32 quater StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Erster Abschnitt: Einkommens- und Vermögenssteuern",
+"Art. 32 quater …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 32 quater",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0043",
-"nachher": "sg-stv__c0045"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-32ter",
+"nachher": "sg-stv__art-33"
 },
 {
-"id": "sg-stv__c0045",
-"titel": "StV SG – Abschnitt 45",
-"pfad": [],
-"seiten": [
-20
+"id": "sg-stv__art-33",
+"titel": "Art. 33 StV SG – Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 33 Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 33",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0044",
-"nachher": "sg-stv__c0046"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-32quater",
+"nachher": "sg-stv__art-34"
 },
 {
-"id": "sg-stv__c0046",
-"titel": "StV SG – Abschnitt 46",
-"pfad": [],
-"seiten": [
-20
+"id": "sg-stv__art-34",
+"titel": "Art. 34 StV SG – Wirtschaftliche Zugehörigkeit (Art. 72 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 34 Wirtschaftliche Zugehörigkeit (Art. 72 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 34",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0045",
-"nachher": "sg-stv__c0047"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-33",
+"nachher": "sg-stv__art-35"
 },
 {
-"id": "sg-stv__c0047",
-"titel": "StV SG – Abschnitt 47",
-"pfad": [],
-"seiten": [
-21
+"id": "sg-stv__art-35",
+"titel": "Art. 35 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 35 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 35",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0046",
-"nachher": "sg-stv__c0048"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-34",
+"nachher": "sg-stv__art-36"
 },
 {
-"id": "sg-stv__c0048",
-"titel": "StV SG – Abschnitt 48",
-"pfad": [],
-"seiten": [
-21
+"id": "sg-stv__art-36",
+"titel": "Art. 36 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 36 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 36",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0047",
-"nachher": "sg-stv__c0049"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-35",
+"nachher": "sg-stv__art-37"
 },
 {
-"id": "sg-stv__c0049",
-"titel": "StV SG – Abschnitt 49",
-"pfad": [],
-"seiten": [
-21
+"id": "sg-stv__art-37",
+"titel": "Art. 37 StV SG – Steuernachfolge (Art. 78 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 37 Steuernachfolge (Art. 78 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 37",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0048",
-"nachher": "sg-stv__c0050"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-36",
+"nachher": "sg-stv__art-38"
 },
 {
-"id": "sg-stv__c0050",
-"titel": "StV SG – Abschnitt 50",
-"pfad": [],
-"seiten": [
-22
+"id": "sg-stv__art-38",
+"titel": "Art. 38 StV SG – Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 38 Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 38",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0049",
-"nachher": "sg-stv__c0051"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-37",
+"nachher": "sg-stv__art-39"
 },
 {
-"id": "sg-stv__c0051",
-"titel": "StV SG – Abschnitt 51",
-"pfad": [],
-"seiten": [
-22
+"id": "sg-stv__art-39",
+"titel": "Art. 39 StV SG – Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 39 Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 39",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0050",
-"nachher": "sg-stv__c0052"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-38",
+"nachher": "sg-stv__art-40"
 },
 {
-"id": "sg-stv__c0052",
-"titel": "StV SG – Abschnitt 52",
-"pfad": [],
-"seiten": [
-23
+"id": "sg-stv__art-40",
+"titel": "Art. 40 StV SG – b) Kollektive Kapitalanlagen mit direktem Grundbesitz (Art. 82 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 40 b) Kollektive Kapitalanlagen mit direktem Grundbesitz (Art. 82 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 40",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0051",
-"nachher": "sg-stv__c0053"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-39",
+"nachher": "sg-stv__art-41"
 },
 {
-"id": "sg-stv__c0053",
-"titel": "StV SG – Abschnitt 53",
-"pfad": [],
-"seiten": [
-23
+"id": "sg-stv__art-41",
+"titel": "Art. 41 StV SG – c) Freiwillige Zuwendungen (Art. 84 Abs. 2 Bst. c StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 41 c) Freiwillige Zuwendungen (Art. 84 Abs. 2 Bst. c StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 41",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0052",
-"nachher": "sg-stv__c0054"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-40",
+"nachher": "sg-stv__art-42"
 },
 {
-"id": "sg-stv__c0054",
-"titel": "StV SG – Abschnitt 54",
-"pfad": [],
-"seiten": [
-23
+"id": "sg-stv__art-42",
+"titel": "Art. 42 StV SG – d) Abschreibungen, Wertberichtigungen, Rückstellungen und Ersatzbeschaffungen (Art. 85 und 87 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 42 d) Abschreibungen, Wertberichtigungen, Rückstellungen und Ersatzbeschaffungen (Art. 85 und 87 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 42",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0053",
-"nachher": "sg-stv__c0055"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-41",
+"nachher": "sg-stv__art-43"
 },
 {
-"id": "sg-stv__c0055",
-"titel": "StV SG – Abschnitt 55",
-"pfad": [],
-"seiten": [
-24
+"id": "sg-stv__art-43",
+"titel": "Art. 43 StV SG – e) Verluste (Art. 86 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 43 e) Verluste (Art. 86 Abs. 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 43",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0054",
-"nachher": "sg-stv__c0056"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-42",
+"nachher": "sg-stv__art-44"
 },
 {
-"id": "sg-stv__c0056",
-"titel": "StV SG – Abschnitt 56",
-"pfad": [],
-"seiten": [
-24
+"id": "sg-stv__art-44",
+"titel": "Art. 44 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 44 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 44",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0055",
-"nachher": "sg-stv__c0057"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-43",
+"nachher": "sg-stv__art-45"
 },
 {
-"id": "sg-stv__c0057",
-"titel": "StV SG – Abschnitt 57",
-"pfad": [],
-"seiten": [
-24
+"id": "sg-stv__art-45",
+"titel": "Art. 45 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 45 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 45",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0056",
-"nachher": "sg-stv__c0058"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-44",
+"nachher": "sg-stv__art-46"
 },
 {
-"id": "sg-stv__c0058",
-"titel": "StV SG – Abschnitt 58",
-"pfad": [],
-"seiten": [
-25
+"id": "sg-stv__art-46",
+"titel": "Art. 46 StV SG – 3. Buchgewinne oder -verluste",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 46 3. Buchgewinne oder -verluste"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 46",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0057",
-"nachher": "sg-stv__c0059"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-45",
+"nachher": "sg-stv__art-47"
 },
 {
-"id": "sg-stv__c0059",
-"titel": "StV SG – Abschnitt 59",
-"pfad": [],
-"seiten": [
-25
+"id": "sg-stv__art-47",
+"titel": "Art. 47 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 47 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 47",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0058",
-"nachher": "sg-stv__c0060"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-46",
+"nachher": "sg-stv__art-48"
 },
 {
-"id": "sg-stv__c0060",
-"titel": "StV SG – Abschnitt 60",
-"pfad": [],
-"seiten": [
-26
+"id": "sg-stv__art-48",
+"titel": "Art. 48 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 48 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 48",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0059",
-"nachher": "sg-stv__c0061"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-47",
+"nachher": "sg-stv__art-49"
 },
 {
-"id": "sg-stv__c0061",
-"titel": "StV SG – Abschnitt 61",
-"pfad": [],
-"seiten": [
-26
+"id": "sg-stv__art-49",
+"titel": "Art. 49 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 49 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 49",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0060",
-"nachher": "sg-stv__c0062"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-48",
+"nachher": "sg-stv__art-50"
 },
 {
-"id": "sg-stv__c0062",
-"titel": "StV SG – Abschnitt 62",
-"pfad": [],
-"seiten": [
-27
+"id": "sg-stv__art-50",
+"titel": "Art. 50 StV SG – b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 50 b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 50",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0061",
-"nachher": "sg-stv__c0063"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-49",
+"nachher": "sg-stv__art-51"
 },
 {
-"id": "sg-stv__c0063",
-"titel": "StV SG – Abschnitt 63",
-"pfad": [],
-"seiten": [
-27
+"id": "sg-stv__art-51",
+"titel": "Art. 51 StV SG – c) Kapitalgewinne auf Beteiligungen (Art. 91 Abs. 2 Bst. b StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 51 c) Kapitalgewinne auf Beteiligungen (Art. 91 Abs. 2 Bst. b StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 51",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0062",
-"nachher": "sg-stv__c0064"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-50",
+"nachher": "sg-stv__art-52"
 },
 {
-"id": "sg-stv__c0064",
-"titel": "StV SG – Abschnitt 64",
-"pfad": [],
-"seiten": [
-28
+"id": "sg-stv__art-52",
+"titel": "Art. 52 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 52 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 52",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0063",
-"nachher": "sg-stv__c0065"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-51",
+"nachher": "sg-stv__art-52bis"
 },
 {
-"id": "sg-stv__c0065",
-"titel": "StV SG – Abschnitt 65",
-"pfad": [],
-"seiten": [
-28
+"id": "sg-stv__art-52bis",
+"titel": "Art. 52 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 52 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 52 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0064",
-"nachher": "sg-stv__c0066"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-52",
+"nachher": "sg-stv__art-53"
 },
 {
-"id": "sg-stv__c0066",
-"titel": "StV SG – Abschnitt 66",
-"pfad": [],
-"seiten": [
-28
+"id": "sg-stv__art-53",
+"titel": "Art. 53 StV SG – Steuerperiode (Art. 102 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Zweiter Abschnitt: Gewinn- und Kapitalsteuern",
+"Art. 53 Steuerperiode (Art. 102 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 53",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0065",
-"nachher": "sg-stv__c0067"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-52bis",
+"nachher": "sg-stv__art-53bis"
 },
 {
-"id": "sg-stv__c0067",
-"titel": "StV SG – Abschnitt 67",
-"pfad": [],
-"seiten": [
-29
+"id": "sg-stv__art-53bis",
+"titel": "Art. 53 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 53 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 53 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0066",
-"nachher": "sg-stv__c0068"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-53",
+"nachher": "sg-stv__art-54"
 },
 {
-"id": "sg-stv__c0068",
-"titel": "StV SG – Abschnitt 68",
-"pfad": [],
-"seiten": [
-29
+"id": "sg-stv__art-54",
+"titel": "Art. 54 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 54 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 54",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0067",
-"nachher": "sg-stv__c0069"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-53bis",
+"nachher": "sg-stv__art-54bis"
 },
 {
-"id": "sg-stv__c0069",
-"titel": "StV SG – Abschnitt 69",
-"pfad": [],
-"seiten": [
-30
+"id": "sg-stv__art-54bis",
+"titel": "Art. 54 bis StV SG – Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 54 bis Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 54 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0068",
-"nachher": "sg-stv__c0070"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-54",
+"nachher": "sg-stv__art-55-t1"
 },
 {
-"id": "sg-stv__c0070",
-"titel": "StV SG – Abschnitt 70",
-"pfad": [],
-"seiten": [
-30
+"id": "sg-stv__art-55-t1",
+"titel": "Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG) (Teil 1/4)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 55",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0069",
-"nachher": "sg-stv__c0071"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-54bis",
+"nachher": "sg-stv__art-55-t2"
 },
 {
-"id": "sg-stv__c0071",
-"titel": "StV SG – Abschnitt 71",
-"pfad": [],
-"seiten": [
-31
+"id": "sg-stv__art-55-t2",
+"titel": "Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG) (Teil 2/4)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 55",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0070",
-"nachher": "sg-stv__c0072"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-55-t1",
+"nachher": "sg-stv__art-55-t3"
 },
 {
-"id": "sg-stv__c0072",
-"titel": "StV SG – Abschnitt 72",
-"pfad": [],
-"seiten": [
-31
+"id": "sg-stv__art-55-t3",
+"titel": "Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG) (Teil 3/4)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 55",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0071",
-"nachher": "sg-stv__c0073"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-55-t2",
+"nachher": "sg-stv__art-55-t4"
 },
 {
-"id": "sg-stv__c0073",
-"titel": "StV SG – Abschnitt 73",
-"pfad": [],
-"seiten": [
-31
+"id": "sg-stv__art-55-t4",
+"titel": "Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG) (Teil 4/4)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 55 Steuerabzug a) Tarifarten (Art. 107 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 55",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0072",
-"nachher": "sg-stv__c0074"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-55-t3",
+"nachher": "sg-stv__art-56"
 },
 {
-"id": "sg-stv__c0074",
-"titel": "StV SG – Abschnitt 74",
-"pfad": [],
-"seiten": [
-31
+"id": "sg-stv__art-56",
+"titel": "Art. 56 StV SG – b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 56 b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 56",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0073",
-"nachher": "sg-stv__c0075"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-55-t4",
+"nachher": "sg-stv__art-56bis"
 },
 {
-"id": "sg-stv__c0075",
-"titel": "StV SG – Abschnitt 75",
-"pfad": [],
-"seiten": [
-32
+"id": "sg-stv__art-56bis",
+"titel": "Art. 56 bis StV SG – c) Fälligkeit und Berechnung der Quellensteuer",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 56 bis c) Fälligkeit und Berechnung der Quellensteuer"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 56 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0074",
-"nachher": "sg-stv__c0076"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-56",
+"nachher": "sg-stv__art-57"
 },
 {
-"id": "sg-stv__c0076",
-"titel": "StV SG – Abschnitt 76",
-"pfad": [],
-"seiten": [
-32
+"id": "sg-stv__art-57",
+"titel": "Art. 57 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 57 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 57",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0075",
-"nachher": "sg-stv__c0077"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-56bis",
+"nachher": "sg-stv__art-58"
 },
 {
-"id": "sg-stv__c0077",
-"titel": "StV SG – Abschnitt 77",
-"pfad": [],
-"seiten": [
-32
+"id": "sg-stv__art-58",
+"titel": "Art. 58 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 58 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 58",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0076",
-"nachher": "sg-stv__c0078"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-57",
+"nachher": "sg-stv__art-59"
 },
 {
-"id": "sg-stv__c0078",
-"titel": "StV SG – Abschnitt 78",
-"pfad": [],
-"seiten": [
-33
+"id": "sg-stv__art-59",
+"titel": "Art. 59 StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 59 …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 59",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0077",
-"nachher": "sg-stv__c0079"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-58",
+"nachher": "sg-stv__art-59bis"
 },
 {
-"id": "sg-stv__c0079",
-"titel": "StV SG – Abschnitt 79",
-"pfad": [],
-"seiten": [
-33
+"id": "sg-stv__art-59bis",
+"titel": "Art. 59 bis StV SG – Wechsel vom Quellensteuerabzug zur ordentlichen Veranlagung (Art. 113 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 59 bis Wechsel vom Quellensteuerabzug zur ordentlichen Veranlagung (Art. 113 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 59 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0078",
-"nachher": "sg-stv__c0080"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-59",
+"nachher": "sg-stv__art-59ter"
 },
 {
-"id": "sg-stv__c0080",
-"titel": "StV SG – Abschnitt 80",
-"pfad": [],
-"seiten": [
-33
+"id": "sg-stv__art-59ter",
+"titel": "Art. 59 ter StV SG – Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton",
+"Art. 59 ter Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 59 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0079",
-"nachher": "sg-stv__c0081"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-59bis",
+"nachher": "sg-stv__art-60"
 },
 {
-"id": "sg-stv__c0081",
-"titel": "StV SG – Abschnitt 81",
-"pfad": [],
-"seiten": [
-34
+"id": "sg-stv__art-60",
+"titel": "Art. 60 StV SG – Künstler, Sportler und Referenten (Art. 116 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"B. Natürliche und juristische Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz",
+"Art. 60 Künstler, Sportler und Referenten (Art. 116 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 60",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0080",
-"nachher": "sg-stv__c0082"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-59ter",
+"nachher": "sg-stv__art-61"
 },
 {
-"id": "sg-stv__c0082",
-"titel": "StV SG – Abschnitt 82",
-"pfad": [],
-"seiten": [
-34
+"id": "sg-stv__art-61",
+"titel": "Art. 61 StV SG – Mindesteinkommen (Art. 120 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"B. Natürliche und juristische Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz",
+"Art. 61 Mindesteinkommen (Art. 120 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 61",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0081",
-"nachher": "sg-stv__c0083"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-60",
+"nachher": "sg-stv__art-61bis"
 },
 {
-"id": "sg-stv__c0083",
-"titel": "StV SG – Abschnitt 83",
-"pfad": [],
-"seiten": [
-34
+"id": "sg-stv__art-61bis",
+"titel": "Art. 61 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"(2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit *",
+"Art. 61 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 61 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0082",
-"nachher": "sg-stv__c0084"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-61",
+"nachher": "sg-stv__art-61ter"
 },
 {
-"id": "sg-stv__c0084",
-"titel": "StV SG – Abschnitt 84",
-"pfad": [],
-"seiten": [
-35
+"id": "sg-stv__art-61ter",
+"titel": "Art. 61 ter StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"(2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit *",
+"Art. 61 ter …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 61 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0083",
-"nachher": "sg-stv__c0085"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-61bis",
+"nachher": "sg-stv__art-61quater"
 },
 {
-"id": "sg-stv__c0085",
-"titel": "StV SG – Abschnitt 85",
-"pfad": [],
-"seiten": [
-35
+"id": "sg-stv__art-61quater",
+"titel": "Art. 61 quater StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"(2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit *",
+"Art. 61 quater …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 61 quater",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0084",
-"nachher": "sg-stv__c0086"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-61ter",
+"nachher": "sg-stv__art-62"
 },
 {
-"id": "sg-stv__c0086",
-"titel": "StV SG – Abschnitt 86",
-"pfad": [],
-"seiten": [
-35
+"id": "sg-stv__art-62",
+"titel": "Art. 62 StV SG – Abrechnungsperiode (Art. 123 und Art. 187 Abs. 1 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 62 Abrechnungsperiode (Art. 123 und Art. 187 Abs. 1 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 62",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0085",
-"nachher": "sg-stv__c0087"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-61quater",
+"nachher": "sg-stv__art-63"
 },
 {
-"id": "sg-stv__c0087",
-"titel": "StV SG – Abschnitt 87",
-"pfad": [],
-"seiten": [
-36
+"id": "sg-stv__art-63",
+"titel": "Art. 63 StV SG – Bezugsprovision (Art. 124 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 63 Bezugsprovision (Art. 124 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 63",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0086",
-"nachher": "sg-stv__c0088"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-62",
+"nachher": "sg-stv__art-64"
 },
 {
-"id": "sg-stv__c0088",
-"titel": "StV SG – Abschnitt 88",
-"pfad": [],
-"seiten": [
-36
+"id": "sg-stv__art-64",
+"titel": "Art. 64 StV SG – Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 64 Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 64",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0087",
-"nachher": "sg-stv__c0089"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-63",
+"nachher": "sg-stv__art-65"
 },
 {
-"id": "sg-stv__c0089",
-"titel": "StV SG – Abschnitt 89",
-"pfad": [],
-"seiten": [
-36
+"id": "sg-stv__art-65",
+"titel": "Art. 65 StV SG – b) Verzicht auf Steuerabzug",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 65 b) Verzicht auf Steuerabzug"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 65",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0088",
-"nachher": "sg-stv__c0090"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-64",
+"nachher": "sg-stv__art-65bis"
 },
 {
-"id": "sg-stv__c0090",
-"titel": "StV SG – Abschnitt 90",
-"pfad": [],
-"seiten": [
-37
+"id": "sg-stv__art-65bis",
+"titel": "Art. 65 bis StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 65 bis …"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 65 bis",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0089",
-"nachher": "sg-stv__c0091"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-65",
+"nachher": "sg-stv__art-65ter"
 },
 {
-"id": "sg-stv__c0091",
-"titel": "StV SG – Abschnitt 91",
-"pfad": [],
-"seiten": [
-37
+"id": "sg-stv__art-65ter",
+"titel": "Art. 65 ter StV SG – Meldepflichten (Art. 184 Bst. a und Art. 185 Abs. 1 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen",
+"C. Gemeinsame Bestimmungen",
+"Art. 65 ter Meldepflichten (Art. 184 Bst. a und Art. 185 Abs. 1 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 65 ter",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0090",
-"nachher": "sg-stv__c0092"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-65bis",
+"nachher": "sg-stv__art-66"
 },
 {
-"id": "sg-stv__c0092",
-"titel": "StV SG – Abschnitt 92",
-"pfad": [],
-"seiten": [
-37
+"id": "sg-stv__art-66",
+"titel": "Art. 66 StV SG – Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Vierter Abschnitt: Grundstückgewinnsteuer",
+"Art. 66 Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 66",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0091",
-"nachher": "sg-stv__c0093"
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-65ter",
+"nachher": "sg-stv__art-67"
 },
 {
-"id": "sg-stv__c0093",
-"titel": "StV SG – Abschnitt 93",
-"pfad": [],
-"seiten": [
-38
+"id": "sg-stv__art-67",
+"titel": "Art. 67 StV SG – Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Vierter Abschnitt: Grundstückgewinnsteuer",
+"Art. 67 Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 67",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stv__c0092",
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-66",
+"nachher": "sg-stv__art-68"
+},
+{
+"id": "sg-stv__art-68",
+"titel": "Art. 68 StV SG – Minderwertentschädigung (Art. 138 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Vierter Abschnitt: Grundstückgewinnsteuer",
+"Art. 68 Minderwertentschädigung (Art. 138 StG)"
+],
+"seiten": [],
+"artikel": "Art. 68",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-67",
+"nachher": "sg-stv__art-68a"
+},
+{
+"id": "sg-stv__art-68a",
+"titel": "Art. 68a StV SG – Konkubinatspartner (Art. 153 Abs. 1 Bst. a und Art. 154 Abs. 1 Bst. a StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Fünfter Abschnitt: Erbschafts- und Schenkungssteuern",
+"Art. 68a Konkubinatspartner (Art. 153 Abs. 1 Bst. a und Art. 154 Abs. 1 Bst. a StG)"
+],
+"seiten": [],
+"artikel": "Art. 68a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-68",
+"nachher": "sg-stv__art-69"
+},
+{
+"id": "sg-stv__art-69",
+"titel": "Art. 69 StV SG – Grundsätze der Steuerberechnung (Art. 154 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Fünfter Abschnitt: Erbschafts- und Schenkungssteuern",
+"Art. 69 Grundsätze der Steuerberechnung (Art. 154 StG)"
+],
+"seiten": [],
+"artikel": "Art. 69",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-68a",
+"nachher": "sg-stv__art-70"
+},
+{
+"id": "sg-stv__art-70",
+"titel": "Art. 70 StV SG – Kantonales Steueramt (Art. 158 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 70 Kantonales Steueramt (Art. 158 StG)"
+],
+"seiten": [],
+"artikel": "Art. 70",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-69",
+"nachher": "sg-stv__art-71"
+},
+{
+"id": "sg-stv__art-71",
+"titel": "Art. 71 StV SG – Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 71 Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen"
+],
+"seiten": [],
+"artikel": "Art. 71",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-70",
+"nachher": "sg-stv__art-72"
+},
+{
+"id": "sg-stv__art-72",
+"titel": "Art. 72 StV SG – b) Ausarbeitung von Veranlagungsvorschlägen",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 72 b) Ausarbeitung von Veranlagungsvorschlägen"
+],
+"seiten": [],
+"artikel": "Art. 72",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-71",
+"nachher": "sg-stv__art-73"
+},
+{
+"id": "sg-stv__art-73",
+"titel": "Art. 73 StV SG – c) Akten",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 73 c) Akten"
+],
+"seiten": [],
+"artikel": "Art. 73",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-72",
+"nachher": "sg-stv__art-74"
+},
+{
+"id": "sg-stv__art-74",
+"titel": "Art. 74 StV SG – d) Amtsverkehr",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 74 d) Amtsverkehr"
+],
+"seiten": [],
+"artikel": "Art. 74",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-73",
+"nachher": "sg-stv__art-75-t1"
+},
+{
+"id": "sg-stv__art-75-t1",
+"titel": "Art. 75 StV SG – e) Entschädigung (Teil 1/2)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 75 e) Entschädigung"
+],
+"seiten": [],
+"artikel": "Art. 75",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-74",
+"nachher": "sg-stv__art-75-t2"
+},
+{
+"id": "sg-stv__art-75-t2",
+"titel": "Art. 75 StV SG – e) Entschädigung (Teil 2/2)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 75 e) Entschädigung"
+],
+"seiten": [],
+"artikel": "Art. 75",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-75-t1",
+"nachher": "sg-stv__art-76"
+},
+{
+"id": "sg-stv__art-76",
+"titel": "Art. 76 StV SG – Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 76 Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte"
+],
+"seiten": [],
+"artikel": "Art. 76",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-75-t2",
+"nachher": "sg-stv__art-77"
+},
+{
+"id": "sg-stv__art-77",
+"titel": "Art. 77 StV SG – b) Auskunft über Mitteilungen",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 77 b) Auskunft über Mitteilungen"
+],
+"seiten": [],
+"artikel": "Art. 77",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-76",
+"nachher": "sg-stv__art-77a"
+},
+{
+"id": "sg-stv__art-77a",
+"titel": "Art. 77a StV SG – Elektronischer Zugriff auf Steuerdaten (Art. 162 Abs. 4 StG) a) Voraussetzungen",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 77a Elektronischer Zugriff auf Steuerdaten (Art. 162 Abs. 4 StG) a) Voraussetzungen"
+],
+"seiten": [],
+"artikel": "Art. 77a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-77",
+"nachher": "sg-stv__art-77b"
+},
+{
+"id": "sg-stv__art-77b",
+"titel": "Art. 77b StV SG – b) Zuständigkeit",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 77b b) Zuständigkeit"
+],
+"seiten": [],
+"artikel": "Art. 77b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-77a",
+"nachher": "sg-stv__art-77c"
+},
+{
+"id": "sg-stv__art-77c",
+"titel": "Art. 77c StV SG – c) Datenschutz",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 77c c) Datenschutz"
+],
+"seiten": [],
+"artikel": "Art. 77c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-77b",
+"nachher": "sg-stv__art-78-t1"
+},
+{
+"id": "sg-stv__art-78-t1",
+"titel": "Art. 78 StV SG – Meldepflicht (Art. 163 Abs. 3 StG) (Teil 1/2)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 78 Meldepflicht (Art. 163 Abs. 3 StG)"
+],
+"seiten": [],
+"artikel": "Art. 78",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-77c",
+"nachher": "sg-stv__art-78-t2"
+},
+{
+"id": "sg-stv__art-78-t2",
+"titel": "Art. 78 StV SG – Meldepflicht (Art. 163 Abs. 3 StG) (Teil 2/2)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 78 Meldepflicht (Art. 163 Abs. 3 StG)"
+],
+"seiten": [],
+"artikel": "Art. 78",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-78-t1",
+"nachher": "sg-stv__art-79"
+},
+{
+"id": "sg-stv__art-79",
+"titel": "Art. 79 StV SG – Zustellungsempfänger (Art. 167 Abs. 2 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79 Zustellungsempfänger (Art. 167 Abs. 2 StG)"
+],
+"seiten": [],
+"artikel": "Art. 79",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-78-t2",
+"nachher": "sg-stv__art-79a"
+},
+{
+"id": "sg-stv__art-79a",
+"titel": "Art. 79a StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79a …"
+],
+"seiten": [],
+"artikel": "Art. 79a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79",
+"nachher": "sg-stv__art-79b"
+},
+{
+"id": "sg-stv__art-79b",
+"titel": "Art. 79b StV SG – Meldepflicht Dritter (Art. 174 Bst. d StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79b Meldepflicht Dritter (Art. 174 Bst. d StG)"
+],
+"seiten": [],
+"artikel": "Art. 79b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79a",
+"nachher": "sg-stv__art-79bis"
+},
+{
+"id": "sg-stv__art-79bis",
+"titel": "Art. 79 bis StV SG – Besondere Verfügung über die Grundstückwerte",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79 bis Besondere Verfügung über die Grundstückwerte"
+],
+"seiten": [],
+"artikel": "Art. 79 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79b",
+"nachher": "sg-stv__art-79ter"
+},
+{
+"id": "sg-stv__art-79ter",
+"titel": "Art. 79 ter StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79 ter …"
+],
+"seiten": [],
+"artikel": "Art. 79 ter",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79bis",
+"nachher": "sg-stv__art-79quater"
+},
+{
+"id": "sg-stv__art-79quater",
+"titel": "Art. 79 quater StV SG – …",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 79 quater …"
+],
+"seiten": [],
+"artikel": "Art. 79 quater",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79ter",
+"nachher": "sg-stv__art-80"
+},
+{
+"id": "sg-stv__art-80",
+"titel": "Art. 80 StV SG – Verfahrenspflichten der Erben (Art. 192 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 80 Verfahrenspflichten der Erben (Art. 192 StG)"
+],
+"seiten": [],
+"artikel": "Art. 80",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-79quater",
+"nachher": "sg-stv__art-80bis"
+},
+{
+"id": "sg-stv__art-80bis",
+"titel": "Art. 80 bis StV SG – Nachsteuern a) Zins (Art. 199 Abs. 1 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 80 bis Nachsteuern a) Zins (Art. 199 Abs. 1 StG)"
+],
+"seiten": [],
+"artikel": "Art. 80 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-80",
+"nachher": "sg-stv__art-81"
+},
+{
+"id": "sg-stv__art-81",
+"titel": "Art. 81 StV SG – b) Einleitung des Verfahrens (Art. 201 Abs. 1 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 81 b) Einleitung des Verfahrens (Art. 201 Abs. 1 StG)"
+],
+"seiten": [],
+"artikel": "Art. 81",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-80bis",
+"nachher": "sg-stv__art-82"
+},
+{
+"id": "sg-stv__art-82",
+"titel": "Art. 82 StV SG – c) Steuerberechnung (Art. 201 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 82 c) Steuerberechnung (Art. 201 Abs. 3 StG)"
+],
+"seiten": [],
+"artikel": "Art. 82",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-81",
+"nachher": "sg-stv__art-83"
+},
+{
+"id": "sg-stv__art-83",
+"titel": "Art. 83 StV SG – Inventar a) Inventaraufnahme (Art. 204 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 83 Inventar a) Inventaraufnahme (Art. 204 StG)"
+],
+"seiten": [],
+"artikel": "Art. 83",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-82",
+"nachher": "sg-stv__art-84"
+},
+{
+"id": "sg-stv__art-84",
+"titel": "Art. 84 StV SG – b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 84 b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)"
+],
+"seiten": [],
+"artikel": "Art. 84",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-83",
+"nachher": "sg-stv__art-85"
+},
+{
+"id": "sg-stv__art-85",
+"titel": "Art. 85 StV SG – c) Entschädigung (Art. 209 Abs. 3 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Sechster Abschnitt: Organisation und Verfahren",
+"Art. 85 c) Entschädigung (Art. 209 Abs. 3 StG)"
+],
+"seiten": [],
+"artikel": "Art. 85",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-84",
+"nachher": "sg-stv__art-86"
+},
+{
+"id": "sg-stv__art-86",
+"titel": "Art. 86 StV SG – Verfalltag (Art. 212 Abs. 2 StG) a) Für Gewinn- und Kapitalsteuern",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Siebter Abschnitt: Steuerbezug",
+"Art. 86 Verfalltag (Art. 212 Abs. 2 StG) a) Für Gewinn- und Kapitalsteuern"
+],
+"seiten": [],
+"artikel": "Art. 86",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-85",
+"nachher": "sg-stv__art-86bis"
+},
+{
+"id": "sg-stv__art-86bis",
+"titel": "Art. 86 bis StV SG – b) Für Einkommens- und Vermögenssteuern",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Siebter Abschnitt: Steuerbezug",
+"Art. 86 bis b) Für Einkommens- und Vermögenssteuern"
+],
+"seiten": [],
+"artikel": "Art. 86 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-86",
+"nachher": "sg-stv__art-87"
+},
+{
+"id": "sg-stv__art-87",
+"titel": "Art. 87 StV SG – Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Siebter Abschnitt: Steuerbezug",
+"Art. 87 Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)"
+],
+"seiten": [],
+"artikel": "Art. 87",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-86bis",
+"nachher": "sg-stv__art-88"
+},
+{
+"id": "sg-stv__art-88",
+"titel": "Art. 88 StV SG – Verzicht wegen Geringfügigkeit (Art. 215 StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Siebter Abschnitt: Steuerbezug",
+"Art. 88 Verzicht wegen Geringfügigkeit (Art. 215 StG)"
+],
+"seiten": [],
+"artikel": "Art. 88",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-87",
+"nachher": "sg-stv__art-88bis"
+},
+{
+"id": "sg-stv__art-88bis",
+"titel": "Art. 88 bis StV SG – Zahlung (Art. 212 Abs. 1 Bst. a StG)",
+"pfad": [
+"ZWEITER TEIL: STAATSSTEUERN",
+"Siebter Abschnitt: Steuerbezug",
+"Art. 88 bis Zahlung (Art. 212 Abs. 1 Bst. a StG)"
+],
+"seiten": [],
+"artikel": "Art. 88 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-88",
+"nachher": "sg-stv__art-89"
+},
+{
+"id": "sg-stv__art-89",
+"titel": "Art. 89 StV SG – Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln",
+"pfad": [
+"DRITTER TEIL: GEMEINDESTEUERN",
+"Art. 89 Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln"
+],
+"seiten": [],
+"artikel": "Art. 89",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-88bis",
+"nachher": "sg-stv__art-90"
+},
+{
+"id": "sg-stv__art-90",
+"titel": "Art. 90 StV SG – b) Ausscheidungsmethode",
+"pfad": [
+"DRITTER TEIL: GEMEINDESTEUERN",
+"Art. 90 b) Ausscheidungsmethode"
+],
+"seiten": [],
+"artikel": "Art. 90",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-89",
+"nachher": "sg-stv__art-91"
+},
+{
+"id": "sg-stv__art-91",
+"titel": "Art. 91 StV SG – c) Ausscheidungsvereinbarungen",
+"pfad": [
+"DRITTER TEIL: GEMEINDESTEUERN",
+"Art. 91 c) Ausscheidungsvereinbarungen"
+],
+"seiten": [],
+"artikel": "Art. 91",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-90",
+"nachher": "sg-stv__art-92"
+},
+{
+"id": "sg-stv__art-92",
+"titel": "Art. 92 StV SG – Entschädigung für Steuerbezug (Art. 236 StG)",
+"pfad": [
+"DRITTER TEIL: GEMEINDESTEUERN",
+"Art. 92 Entschädigung für Steuerbezug (Art. 236 StG)"
+],
+"seiten": [],
+"artikel": "Art. 92",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-91",
+"nachher": "sg-stv__art-93"
+},
+{
+"id": "sg-stv__art-93",
+"titel": "Art. 93 StV SG – Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)",
+"pfad": [
+"VIERTER TEIL: STEUERSTRAFRECHT",
+"Art. 93 Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)"
+],
+"seiten": [],
+"artikel": "Art. 93",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-92",
+"nachher": "sg-stv__art-94"
+},
+{
+"id": "sg-stv__art-94",
+"titel": "Art. 94 StV SG",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 94"
+],
+"seiten": [],
+"artikel": "Art. 94",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-93",
+"nachher": "sg-stv__art-95"
+},
+{
+"id": "sg-stv__art-95",
+"titel": "Art. 95 StV SG",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 95"
+],
+"seiten": [],
+"artikel": "Art. 95",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-94",
+"nachher": "sg-stv__art-96"
+},
+{
+"id": "sg-stv__art-96",
+"titel": "Art. 96 StV SG – Aufhebung bisherigen Rechts",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 96 Aufhebung bisherigen Rechts"
+],
+"seiten": [],
+"artikel": "Art. 96",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-95",
+"nachher": "sg-stv__art-97"
+},
+{
+"id": "sg-stv__art-97",
+"titel": "Art. 97 StV SG – ...",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 97 ..."
+],
+"seiten": [],
+"artikel": "Art. 97",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-96",
+"nachher": "sg-stv__art-98"
+},
+{
+"id": "sg-stv__art-98",
+"titel": "Art. 98 StV SG – ...",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 98 ..."
+],
+"seiten": [],
+"artikel": "Art. 98",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-97",
+"nachher": "sg-stv__art-98bis"
+},
+{
+"id": "sg-stv__art-98bis",
+"titel": "Art. 98 bis StV SG – b) altrechtliche Schätzungswerte",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 98 bis b) altrechtliche Schätzungswerte"
+],
+"seiten": [],
+"artikel": "Art. 98 bis",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-98",
+"nachher": "sg-stv__art-98ter"
+},
+{
+"id": "sg-stv__art-98ter",
+"titel": "Art. 98 ter StV SG – ...",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 98 ter ..."
+],
+"seiten": [],
+"artikel": "Art. 98 ter",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-98bis",
+"nachher": "sg-stv__art-99"
+},
+{
+"id": "sg-stv__art-99",
+"titel": "Art. 99 StV SG – Vollzugsbeginn",
+"pfad": [
+"FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN",
+"Art. 99 Vollzugsbeginn"
+],
+"seiten": [],
+"artikel": "Art. 99",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "sg-stv__art-98ter",
 "nachher": null
 }
 ]

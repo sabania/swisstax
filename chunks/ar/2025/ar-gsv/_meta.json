@@ -1,356 +1,512 @@
 [
 {
-"id": "ar-gsv__c0001",
-"titel": "GSV AR – Abschnitt 1",
-"pfad": [],
-"seiten": [
-1
+"id": "ar-gsv__art-1",
+"titel": "Art. 1 GSV AR – Geltungsbereich und Zweck",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 1 Geltungsbereich und Zweck"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "ar-gsv__c0002"
+"nachher": "ar-gsv__art-2"
 },
 {
-"id": "ar-gsv__c0002",
-"titel": "GSV AR – Abschnitt 2",
-"pfad": [],
-"seiten": [
-1
+"id": "ar-gsv__art-2",
+"titel": "Art. 2 GSV AR – Gegenstand der Schätzung",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 2 Gegenstand der Schätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0001",
-"nachher": "ar-gsv__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-1",
+"nachher": "ar-gsv__art-3"
 },
 {
-"id": "ar-gsv__c0003",
-"titel": "GSV AR – Abschnitt 3",
-"pfad": [],
-"seiten": [
-2
+"id": "ar-gsv__art-3",
+"titel": "Art. 3 GSV AR – Schätzungsobjekte",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 3 Schätzungsobjekte"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0002",
-"nachher": "ar-gsv__c0004"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-2",
+"nachher": "ar-gsv__art-4"
 },
 {
-"id": "ar-gsv__c0004",
-"titel": "GSV AR – Abschnitt 4",
-"pfad": [],
-"seiten": [
-2
+"id": "ar-gsv__art-4",
+"titel": "Art. 4 GSV AR – Grundlagen der Schätzung",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 4 Grundlagen der Schätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0003",
-"nachher": "ar-gsv__c0005"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-3",
+"nachher": "ar-gsv__art-5"
 },
 {
-"id": "ar-gsv__c0005",
-"titel": "GSV AR – Abschnitt 5",
-"pfad": [],
-"seiten": [
-3
+"id": "ar-gsv__art-5",
+"titel": "Art. 5 GSV AR – Gesamt- und Einzelschätzung",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 5 Gesamt- und Einzelschätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0004",
-"nachher": "ar-gsv__c0006"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-4",
+"nachher": "ar-gsv__art-6"
 },
 {
-"id": "ar-gsv__c0006",
-"titel": "GSV AR – Abschnitt 6",
-"pfad": [],
-"seiten": [
-3
+"id": "ar-gsv__art-6",
+"titel": "Art. 6 GSV AR – Neuschätzung von Amtes wegen",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 6 Neuschätzung von Amtes wegen"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 6",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0005",
-"nachher": "ar-gsv__c0007"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-5",
+"nachher": "ar-gsv__art-7"
 },
 {
-"id": "ar-gsv__c0007",
-"titel": "GSV AR – Abschnitt 7",
-"pfad": [],
-"seiten": [
-4
+"id": "ar-gsv__art-7",
+"titel": "Art. 7 GSV AR – Neuschätzung auf Antrag",
+"pfad": [
+"I. Allgemeine Bestimmungen",
+"Art. 7 Neuschätzung auf Antrag"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 7",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0006",
-"nachher": "ar-gsv__c0008"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-6",
+"nachher": "ar-gsv__art-8"
 },
 {
-"id": "ar-gsv__c0008",
-"titel": "GSV AR – Abschnitt 8",
-"pfad": [],
-"seiten": [
-4
+"id": "ar-gsv__art-8",
+"titel": "Art. 8 GSV AR – Ermittlung der Schätzwerte",
+"pfad": [
+"II. Schätzwerte",
+"Art. 8 Ermittlung der Schätzwerte"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 8",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0007",
-"nachher": "ar-gsv__c0009"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-7",
+"nachher": "ar-gsv__art-9"
 },
 {
-"id": "ar-gsv__c0009",
-"titel": "GSV AR – Abschnitt 9",
-"pfad": [],
-"seiten": [
-4
+"id": "ar-gsv__art-9",
+"titel": "Art. 9 GSV AR – Verkehrswert",
+"pfad": [
+"II. Schätzwerte",
+"Art. 9 Verkehrswert"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 9",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0008",
-"nachher": "ar-gsv__c0010"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-8",
+"nachher": "ar-gsv__art-10"
 },
 {
-"id": "ar-gsv__c0010",
-"titel": "GSV AR – Abschnitt 10",
-"pfad": [],
-"seiten": [
-5
+"id": "ar-gsv__art-10",
+"titel": "Art. 10 GSV AR – Realwert",
+"pfad": [
+"II. Schätzwerte",
+"Art. 10 Realwert"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 10",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0009",
-"nachher": "ar-gsv__c0011"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-9",
+"nachher": "ar-gsv__art-11"
 },
 {
-"id": "ar-gsv__c0011",
-"titel": "GSV AR – Abschnitt 11",
-"pfad": [],
-"seiten": [
-5
+"id": "ar-gsv__art-11",
+"titel": "Art. 11 GSV AR – Ertragswert allgemeiner Grundstücke",
+"pfad": [
+"II. Schätzwerte",
+"Art. 11 Ertragswert allgemeiner Grundstücke"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 11",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0010",
-"nachher": "ar-gsv__c0012"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-10",
+"nachher": "ar-gsv__art-12"
 },
 {
-"id": "ar-gsv__c0012",
-"titel": "GSV AR – Abschnitt 12",
-"pfad": [],
-"seiten": [
-6
+"id": "ar-gsv__art-12",
+"titel": "Art. 12 GSV AR – Ertragswert landwirtschaftlicher Grundstücke",
+"pfad": [
+"II. Schätzwerte",
+"Art. 12 Ertragswert landwirtschaftlicher Grundstücke"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 12",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0011",
-"nachher": "ar-gsv__c0013"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-11",
+"nachher": "ar-gsv__art-13"
 },
 {
-"id": "ar-gsv__c0013",
-"titel": "GSV AR – Abschnitt 13",
-"pfad": [],
-"seiten": [
-6
+"id": "ar-gsv__art-13",
+"titel": "Art. 13 GSV AR – Mietwert",
+"pfad": [
+"II. Schätzwerte",
+"Art. 13 Mietwert"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 13",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0012",
-"nachher": "ar-gsv__c0014"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-12",
+"nachher": "ar-gsv__art-14"
 },
 {
-"id": "ar-gsv__c0014",
-"titel": "GSV AR – Abschnitt 14",
-"pfad": [],
-"seiten": [
-7
+"id": "ar-gsv__art-14",
+"titel": "Art. 14 GSV AR – Departement Finanzen",
+"pfad": [
+"III. Organisation",
+"Art. 14 Departement Finanzen"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 14",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0013",
-"nachher": "ar-gsv__c0015"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-13",
+"nachher": "ar-gsv__art-15"
 },
 {
-"id": "ar-gsv__c0015",
-"titel": "GSV AR – Abschnitt 15",
-"pfad": [],
-"seiten": [
-7
+"id": "ar-gsv__art-15",
+"titel": "Art. 15 GSV AR – Grundstückschätzungsbehörde",
+"pfad": [
+"III. Organisation",
+"Art. 15 Grundstückschätzungsbehörde"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 15",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0014",
-"nachher": "ar-gsv__c0016"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-14",
+"nachher": "ar-gsv__art-16"
 },
 {
-"id": "ar-gsv__c0016",
-"titel": "GSV AR – Abschnitt 16",
-"pfad": [],
-"seiten": [
-7
+"id": "ar-gsv__art-16",
+"titel": "Art. 16 GSV AR – Aufgaben der Leitung",
+"pfad": [
+"III. Organisation",
+"Art. 16 Aufgaben der Leitung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 16",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0015",
-"nachher": "ar-gsv__c0017"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-15",
+"nachher": "ar-gsv__art-17"
 },
 {
-"id": "ar-gsv__c0017",
-"titel": "GSV AR – Abschnitt 17",
-"pfad": [],
-"seiten": [
-8
+"id": "ar-gsv__art-17",
+"titel": "Art. 17 GSV AR – Vorbereitung der Schätzung",
+"pfad": [
+"IV. Verfahren und Datenverwaltung",
+"Art. 17 Vorbereitung der Schätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 17",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0016",
-"nachher": "ar-gsv__c0018"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-16",
+"nachher": "ar-gsv__art-18"
 },
 {
-"id": "ar-gsv__c0018",
-"titel": "GSV AR – Abschnitt 18",
-"pfad": [],
-"seiten": [
-8
+"id": "ar-gsv__art-18",
+"titel": "Art. 18 GSV AR – Durchführung der Schätzung",
+"pfad": [
+"IV. Verfahren und Datenverwaltung",
+"Art. 18 Durchführung der Schätzung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 18",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0017",
-"nachher": "ar-gsv__c0019"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-17",
+"nachher": "ar-gsv__art-19"
 },
 {
-"id": "ar-gsv__c0019",
-"titel": "GSV AR – Abschnitt 19",
-"pfad": [],
-"seiten": [
-9
+"id": "ar-gsv__art-19",
+"titel": "Art. 19 GSV AR – Mitwirkung der Grundeigentümer",
+"pfad": [
+"IV. Verfahren und Datenverwaltung",
+"Art. 19 Mitwirkung der Grundeigentümer"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 19",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0018",
-"nachher": "ar-gsv__c0020"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-18",
+"nachher": "ar-gsv__art-20"
 },
 {
-"id": "ar-gsv__c0020",
-"titel": "GSV AR – Abschnitt 20",
-"pfad": [],
-"seiten": [
-10,
-11
+"id": "ar-gsv__art-20",
+"titel": "Art. 20 GSV AR – Eröffnung des Schätzungsergebnisses",
+"pfad": [
+"IV. Verfahren und Datenverwaltung",
+"Art. 20 Eröffnung des Schätzungsergebnisses"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 20",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0019",
-"nachher": "ar-gsv__c0021"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-19",
+"nachher": "ar-gsv__art-21"
 },
 {
-"id": "ar-gsv__c0021",
-"titel": "GSV AR – Abschnitt 21",
-"pfad": [],
-"seiten": [
-10,
-11
+"id": "ar-gsv__art-21",
+"titel": "Art. 21 GSV AR – Datenverwaltung",
+"pfad": [
+"IV. Verfahren und Datenverwaltung",
+"Art. 21 Datenverwaltung"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 21",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0020",
-"nachher": "ar-gsv__c0022"
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-20",
+"nachher": "ar-gsv__art-22"
 },
 {
-"id": "ar-gsv__c0022",
-"titel": "GSV AR – Abschnitt 22",
-"pfad": [],
-"seiten": [
-12
+"id": "ar-gsv__art-22",
+"titel": "Art. 22 GSV AR – Voraussetzungen",
+"pfad": [
+"V. Anpassung und Bereinigung ohne Neuschätzung",
+"Art. 22 Voraussetzungen"
 ],
-"artikel": null,
+"seiten": [],
+"artikel": "Art. 22",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "ar-gsv__c0021",
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-21",
+"nachher": "ar-gsv__art-23"
+},
+{
+"id": "ar-gsv__art-23",
+"titel": "Art. 23 GSV AR – Verfahren",
+"pfad": [
+"V. Anpassung und Bereinigung ohne Neuschätzung",
+"Art. 23 Verfahren"
+],
+"seiten": [],
+"artikel": "Art. 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-22",
+"nachher": "ar-gsv__art-24"
+},
+{
+"id": "ar-gsv__art-24",
+"titel": "Art. 24 GSV AR – Einsprache",
+"pfad": [
+"VI. Rechtsmittel",
+"Art. 24 Einsprache"
+],
+"seiten": [],
+"artikel": "Art. 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-23",
+"nachher": "ar-gsv__art-25"
+},
+{
+"id": "ar-gsv__art-25",
+"titel": "Art. 25 GSV AR – Rekurs und Beschwerde",
+"pfad": [
+"VI. Rechtsmittel",
+"Art. 25 Rekurs und Beschwerde"
+],
+"seiten": [],
+"artikel": "Art. 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-24",
+"nachher": "ar-gsv__art-26"
+},
+{
+"id": "ar-gsv__art-26",
+"titel": "Art. 26 GSV AR – Kosten der Schätzung",
+"pfad": [
+"VII. Kosten",
+"Art. 26 Kosten der Schätzung"
+],
+"seiten": [],
+"artikel": "Art. 26",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-25",
+"nachher": "ar-gsv__art-27"
+},
+{
+"id": "ar-gsv__art-27",
+"titel": "Art. 27 GSV AR – Verfahrenskosten",
+"pfad": [
+"VII. Kosten",
+"Art. 27 Verfahrenskosten"
+],
+"seiten": [],
+"artikel": "Art. 27",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-26",
+"nachher": "ar-gsv__art-28"
+},
+{
+"id": "ar-gsv__art-28",
+"titel": "Art. 28 GSV AR – Übergangsbestimmungen",
+"pfad": [
+"VIII. Übergangs- und Schlussbestimmungen",
+"Art. 28 Übergangsbestimmungen"
+],
+"seiten": [],
+"artikel": "Art. 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-27",
+"nachher": "ar-gsv__art-29"
+},
+{
+"id": "ar-gsv__art-29",
+"titel": "Art. 29 GSV AR – Aufhebung und Änderung bisherigen Rechts",
+"pfad": [
+"VIII. Übergangs- und Schlussbestimmungen",
+"Art. 29 Aufhebung und Änderung bisherigen Rechts"
+],
+"seiten": [],
+"artikel": "Art. 29",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-28",
+"nachher": "ar-gsv__art-30"
+},
+{
+"id": "ar-gsv__art-30",
+"titel": "Art. 30 GSV AR – Inkrafttreten",
+"pfad": [
+"VIII. Übergangs- und Schlussbestimmungen",
+"Art. 30 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 30",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-gsv__art-29",
 "nachher": null
 }
 ]

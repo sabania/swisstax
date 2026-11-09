@@ -1,0 +1,196 @@
+[
+{
+"key": "par-1",
+"label": "§ 1",
+"titel": "§ 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung",
+"pfad": [
+"A. Allgemeines",
+"§ 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung"
+],
+"seiten": [
+1
+],
+"text": "### § 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung\n\n§ 1.\n\n**Abs. 1** Das kantonale Steueramt stellt den im Kanton Zürich steuerpflichtigen natürlichen und juristischen Personen über das Internet Applikationen zur elektronischen Einreichung der Steuererklärung zur Verfügung.\n\n**Abs. 2** Mit diesen Applikationen kann die Steuererklärung gemäss den Vorgaben dieser Verordnung rechtsgültig elektronisch eingereicht werden.\n\n**Abs. 3** Die Steuererklärung kann auch in Papierform eingereicht werden. Diese Verordnung regelt nur die elektronische Einreichung."
+},
+{
+"key": "par-2",
+"label": "§ 2",
+"titel": "§ 2 V elektr. Einreichung ZH – Server zur Speicherung der Steuererklärungsdaten",
+"pfad": [
+"A. Allgemeines",
+"§ 2 V elektr. Einreichung ZH – Server zur Speicherung der Steuererklärungsdaten"
+],
+"seiten": [
+1
+],
+"text": "### § 2 V elektr. Einreichung ZH – Server zur Speicherung der Steuererklärungsdaten\n\n§ 2. Das kantonale Steueramt speichert die mittels der Applikationen erfassten und elektronisch übermittelten Steuererklärungsdaten auf von ihm oder in seinem Auftrag betriebenen Servern."
+},
+{
+"key": "par-3",
+"label": "§ 3",
+"titel": "§ 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit",
+"pfad": [
+"A. Allgemeines",
+"§ 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit"
+],
+"seiten": [
+1,
+2
+],
+"text": "### § 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit\n\n§ 3.\n\n**Abs. 1** Das kantonale Steueramt trifft die erforderlichen Massnahmen,\n- a. damit die zuständigen Steuerämter jederzeit auf die gemäss § 8 elektronisch eingereichten Steuererklärungsdaten zugreifen können,\n- b. damit die elektronisch eingereichten Steuererklärungsdaten nich t verändert oder gelöscht werden können,\n\n**Abs. 3** c. damit das Steuergeheimnis gemäss § 120 StG gewährleistet ist und keine unberechtigten Personen Zugang zu den Daten haben und d. damit jederzeit nachvollzogen werden kann, welche Personen auf welche Daten zugegriffen haben.\n\n**Abs. 2** Die Steuerämter dürfen die Steuererklärungsdaten erst einsehen und bearbeiten, wenn die steuerpflichtige Person sie gemäss § 8 eingereicht hat. Die erfassten Daten werden verschlüsselt übermittelt und auf dem Server abgelegt."
+},
+{
+"key": "par-4",
+"label": "§ 4",
+"titel": "§ 4 V elektr. Einreichung ZH – Zugang zu den Applikationen",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 4 V elektr. Einreichung ZH – Zugang zu den Applikationen"
+],
+"seiten": [
+2
+],
+"text": "### § 4 V elektr. Einreichung ZH – Zugang zu den Applikationen\n\n§ 4.\n\n**Abs. 1** Das zuständige Steueramt sendet der steuerpflichtigen Person die zur Einreichung der Steuererklärung erforderlichen Angaben. Gemeinsam steuerpflichtige Ehegatten und eingetragene Partnerinnen und Partner erhalten eine gemeinsame Information.\n\n**Abs. 2** Das kantonale Steueramt veröffentlicht die Voraussetzungen für den Zugang zu den Applikationen auf seiner Webseite."
+},
+{
+"key": "par-5",
+"label": "§ 5",
+"titel": "§ 5 V elektr. Einreichung ZH – Authentifizierung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 5 V elektr. Einreichung ZH – Authentifizierung"
+],
+"seiten": [
+2
+],
+"text": "### § 5 V elektr. Einreichung ZH – Authentifizierung\n\n§ 5. Für den Zugang zur Applikation muss sich die steuerpflichtige Person gemäss den auf der Webseite des kantonalen Steueramtes veröffentlichten Vorgaben authentifizieren.\n\n**Abs. 6**"
+},
+{
+"key": "par-6",
+"label": "§ 6",
+"titel": "§ 6 V elektr. Einreichung ZH",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 6 V elektr. Einreichung ZH"
+],
+"seiten": [
+2
+],
+"text": "### § 6 V elektr. Einreichung ZH\n\n§ 6."
+},
+{
+"key": "par-7",
+"label": "§ 7",
+"titel": "§ 7 V elektr. Einreichung ZH – Erfassung der Steuererklärung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 7 V elektr. Einreichung ZH – Erfassung der Steuererklärung"
+],
+"seiten": [
+2
+],
+"text": "### § 7 V elektr. Einreichung ZH – Erfassung der Steuererklärung\n\n§ 7.\n\n**Abs. 1** Nach erfolgter Authentifizierung kann die steuerpflichtige Person ihre Steuererklärungsdaten mittels der Applikation elektronisch erfassen.\n\n**Abs. 2** Die Applikationen erlauben die Übernahme der aktuellen Stammdaten der steuerpflichtigen Person und von ausgewählten Steuererklärungsdaten der Vorperiode.\n\n**Abs. 3** Bis zur elektronischen Einreichung gemäss § 8 kann die steuer-\n\n**Abs. 5** pflichtige Person die erfassten Daten jederzeit ändern oder löschen."
+},
+{
+"key": "par-8",
+"label": "§ 8",
+"titel": "§ 8 V elektr. Einreichung ZH – Einreichung der Steuererklärung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 8 V elektr. Einreichung ZH – Einreichung der Steuererklärung"
+],
+"seiten": [
+2
+],
+"text": "### § 8 V elektr. Einreichung ZH – Einreichung der Steuererklärung\n\n§ 8.\n\n**Abs. 1** Die Steuererklärung gilt als elektronisch eingereicht, wenn die steuerpflichtige Person die auf der Applikation erfasste Steuererklärung elektronisch an den Server übermittelt und dabei elektronisch bestätigt hat, dass die Steuererklärung wahrheitsgemäss und vollständig ausgefüllt ist.\n\n**Abs. 2** Gemeinsam steuerpflichtige Ehegatten und eingetragene Partnerinnen und Partner geben die elektronische Bestätigung gemeinsam ab.\n\n**Abs. 3** Juristische Personen führen in der Bestätigung die natürlichen Personen auf, welche die Bestätigung für die juristische Person abgeben.\n\n**Abs. 4** Die erforderlichen Beilagen sind zusammen mit der Steuererklärung elektronisch einzureichen."
+},
+{
+"key": "par-9",
+"label": "§ 9",
+"titel": "§ 9 V elektr. Einreichung ZH – Weitere Erfassungen",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 9 V elektr. Einreichung ZH – Weitere Erfassungen"
+],
+"seiten": [
+3
+],
+"text": "### § 9 V elektr. Einreichung ZH – Weitere Erfassungen\n\n§ 9. Nach der elektronischen Übermittlung gemäss § 8 kann die steuerpflichtige Person in der Applikation eine berichtigte Steuererklärung eröffnen, ausfüllen und gemäss § 8 einreichen."
+},
+{
+"key": "par-10",
+"label": "§ 10",
+"titel": "§ 10 V elektr. Einreichung ZH – Weiterbearbeitung der Steuererklärungsdaten",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 10 V elektr. Einreichung ZH – Weiterbearbeitung der Steuererklärungsdaten"
+],
+"seiten": [
+3
+],
+"text": "### § 10 V elektr. Einreichung ZH – Weiterbearbeitung der Steuererklärungsdaten\n\n§ 10. Die elektronisch eingereichten Steuererklärungsdaten werden zusammen mit den Beilagen im Steuererklärungsverfahren weiterbearbeitet und in elektronischer Form aufbewahrt."
+},
+{
+"key": "par-11",
+"label": "§ 11",
+"titel": "§ 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person",
+"pfad": [
+"A. Allgemeines",
+"C. Vertretung und Treuhänder-Register",
+"§ 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person"
+],
+"seiten": [
+3
+],
+"text": "### § 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person\n\n§ 11.\n\n**Abs. 1** Die steuerpflichtige Person kann Drittpersonen durch Übergabe der Zugangsdaten bevollmächtigen, ihre Steuererklärungsdaten über die Applikation zu erfassen und die Steuererklärung elektronisch\n\n**Abs. 7** einzureichen.\n\n**Abs. 2** Die steuerpflichtige Person kann die Vollmacht jederzeit widerrufen, indem sie vom kantonalen Steueramt einen neuen Zugangscod e verlangt. Der neue Zugangscode wird per Post an die im Steuerregister aufgeführte Adresse der steuerpflichtigen Person gesandt."
+},
+{
+"key": "par-12",
+"label": "§ 12",
+"titel": "§ 12 V elektr. Einreichung ZH – TreuhänderRegister",
+"pfad": [
+"A. Allgemeines",
+"C. Vertretung und Treuhänder-Register",
+"§ 12 V elektr. Einreichung ZH – TreuhänderRegister"
+],
+"seiten": [
+3
+],
+"text": "### § 12 V elektr. Einreichung ZH – TreuhänderRegister\n\n§ 12.\n\n**Abs. 1** Unternehmen, welche über eine Unternehmens-Identifikationsnummer gemäss Bundesgesetz über die Unternehmens-Identifika-\n\n**Abs. 4** tionsnummer vom 18. Juni 2010 verfügen und gewerbsmässig Steuererklärungen für Dritte erstellen, können über die Transaktionsplattform ZHservices ihre Aufnahme in ein Register gewerbsmässiger Steuervertreter (Treuhänder-Register) beantragen.\n\n**Abs. 2** Das kantonale Steueramt überprüft die Unternehmens-Identifikationsnummer. Es verweigert Unternehmen, welche offensichtlic h nicht gewerbsmässig Steuererklärungen für Dritte erstellen, die Aufnahme in das Register. Weitere Abklärungen werden nicht vorgenommen.\n\n**Abs. 3** Die im Register eingetragenen Unternehmen sind verpflichtet, Änderungen ihrer Daten umgehend im Register einzutragen.\n\n**Abs. 4** Das Register ist nicht öffentlich. Die Aufnahme in das Registe r darf Dritten in Inseraten, auf Websites, Briefpapier oder in andere r werbewirksamer Form nicht bekannt gegeben werden.\n\n**Abs. 5** Unternehmen, welche die vorstehenden Bestimmungen nicht einhalten, werden aus dem Register gestrichen."
+},
+{
+"key": "par-13",
+"label": "§ 13",
+"titel": "§ 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen",
+"pfad": [
+"A. Allgemeines",
+"D. Schlussbestimmungen",
+"§ 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen"
+],
+"seiten": [
+4
+],
+"text": "### § 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen\n\n§ 13.\n\n**Abs. 1** Das kantonale Steueramt erlässt die zur Umsetzung dieser Verordnung erforderlichen Ausführungsbestimmungen. Diese können als Weisungen an die Gemeindesteuerämter oder als Nutzungsvorschriften für die Steuerpflichtigen und deren Vertreter erlassen werden.\n\n**Abs. 2** Für die Erfassung und Aufbewahrung der gemäss dieser Verordnung übermittelten Daten gilt die Weisung der Finanzdirektion über die elektronische Erfassung und Aufbewahrung von Steuerakten sowie die Vernichtung von Papierakten, soweit diese Verordnung keine abweichenden Bestimmungen enthält.\n\n**Abs. 8**"
+},
+{
+"key": "par-14",
+"label": "§ 14",
+"titel": "§ 14 V elektr. Einreichung ZH",
+"pfad": [
+"A. Allgemeines",
+"D. Schlussbestimmungen",
+"§ 14 V elektr. Einreichung ZH"
+],
+"seiten": [
+4
+],
+"text": "### § 14 V elektr. Einreichung ZH\n\n§ 14."
+}
+]

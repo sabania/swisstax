@@ -1,0 +1,20 @@
+---
+id: zh-stg-2026__par-236
+quelle: zh-stg-2026
+jur: zh
+jahre: [2026]
+typ: gesetz
+titel: "§ 236 StG ZH – 2. Versuchte Steuerhinterziehung"
+artikel: "§ 236"
+seiten: "82"
+qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
+---
+> ZH · Steuerjahr 2026 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 236 StG ZH – 2. Versuchte Steuerhinterziehung · S. 82
+
+### § 236 StG ZH – 2. Versuchte Steuerhinterziehung
+
+§ 236.
+
+**Abs. 1** Der Versuch einer Steuerhinterziehung ist strafbar.
+
+**Abs. 2** Die Busse beträgt zwei Drittel der Busse, die bei vollendete r Steuerhinterziehung festzusetzen wäre.

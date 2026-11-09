@@ -1,189 +1,7783 @@
 [
 {
-"id": "zh-stg-2026__c0001",
-"titel": "Steuergesetz ZH (LS 631.1), Nachtrag 132",
+"id": "zh-stg-2026__par-1",
+"titel": "§ 1 StG ZH – I. Steuerarten",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132"
+"Erster Teil: Staatssteuern",
+"Erster Abschnitt: Allgemeine Bestimmungen",
+"§ 1 StG ZH – I. Steuerarten"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "zh-stg-2026__c0002"
+"nachher": "zh-stg-2026__par-2"
 },
 {
-"id": "zh-stg-2026__c0002",
-"titel": "Details",
+"id": "zh-stg-2026__par-2",
+"titel": "§ 2 StG ZH – II. Steuerfuss",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"Erster Abschnitt: Allgemeine Bestimmungen",
+"§ 2 StG ZH – II. Steuerfuss"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0001",
-"nachher": "zh-stg-2026__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-1",
+"nachher": "zh-stg-2026__par-3"
 },
 {
-"id": "zh-stg-2026__c0003",
-"titel": "Details",
+"id": "zh-stg-2026__par-3",
+"titel": "§ 3 StG ZH – I. Persönliche Zugehörigkeit",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 3 StG ZH – I. Persönliche Zugehörigkeit"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1,
+2
+],
+"artikel": "§ 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0002",
-"nachher": "zh-stg-2026__c0004"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-2",
+"nachher": "zh-stg-2026__par-4-t1"
 },
 {
-"id": "zh-stg-2026__c0004",
-"titel": "Details",
+"id": "zh-stg-2026__par-4-t1",
+"titel": "§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit (Teil 1/3)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+2
+],
+"artikel": "§ 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0003",
-"nachher": "zh-stg-2026__c0005"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-3",
+"nachher": "zh-stg-2026__par-4-t2"
 },
 {
-"id": "zh-stg-2026__c0005",
-"titel": "Details",
+"id": "zh-stg-2026__par-4-t2",
+"titel": "§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit (Teil 2/3)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+2
+],
+"artikel": "§ 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0004",
-"nachher": "zh-stg-2026__c0006"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-4-t1",
+"nachher": "zh-stg-2026__par-4-t3"
 },
 {
-"id": "zh-stg-2026__c0006",
-"titel": "Details",
+"id": "zh-stg-2026__par-4-t3",
+"titel": "§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit (Teil 3/3)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 4 StG ZH – II. Wirtschaftliche Zugehörigkeit"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+2
+],
+"artikel": "§ 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0005",
-"nachher": "zh-stg-2026__c0007"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-4-t2",
+"nachher": "zh-stg-2026__par-5-t1"
 },
 {
-"id": "zh-stg-2026__c0007",
-"titel": "Details",
+"id": "zh-stg-2026__par-5-t1",
+"titel": "§ 5 StG ZH – III. Umfang der Steuerpflicht (Teil 1/2)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 5 StG ZH – III. Umfang der Steuerpflicht"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+2,
+3
+],
+"artikel": "§ 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0006",
-"nachher": "zh-stg-2026__c0008"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-4-t3",
+"nachher": "zh-stg-2026__par-5-t2"
 },
 {
-"id": "zh-stg-2026__c0008",
-"titel": "Details",
+"id": "zh-stg-2026__par-5-t2",
+"titel": "§ 5 StG ZH – III. Umfang der Steuerpflicht (Teil 2/2)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 5 StG ZH – III. Umfang der Steuerpflicht"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+2,
+3
+],
+"artikel": "§ 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0007",
-"nachher": "zh-stg-2026__c0009"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-5-t1",
+"nachher": "zh-stg-2026__par-6"
 },
 {
-"id": "zh-stg-2026__c0009",
-"titel": "Details",
+"id": "zh-stg-2026__par-6",
+"titel": "§ 6 StG ZH – IV. Steuerberechnung bei teilweiser Steuerpflicht",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 6 StG ZH – IV. Steuerberechnung bei teilweiser Steuerpflicht"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+3
+],
+"artikel": "§ 6",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0008",
-"nachher": "zh-stg-2026__c0010"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-5-t2",
+"nachher": "zh-stg-2026__par-7-t1"
 },
 {
-"id": "zh-stg-2026__c0010",
-"titel": "Erlasstext",
+"id": "zh-stg-2026__par-7-t1",
+"titel": "§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her (Teil 1/3)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Details",
-"Erlasstext"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+3,
+4
+],
+"artikel": "§ 7",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0009",
-"nachher": "zh-stg-2026__c0011"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-6",
+"nachher": "zh-stg-2026__par-7-t2"
 },
 {
-"id": "zh-stg-2026__c0011",
-"titel": "Für dieses Thema zuständig:",
+"id": "zh-stg-2026__par-7-t2",
+"titel": "§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her (Teil 2/3)",
 "pfad": [
-"Steuergesetz ZH (LS 631.1), Nachtrag 132",
-"Für dieses Thema zuständig:"
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+3,
+4
+],
+"artikel": "§ 7",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stg-2026__c0010",
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-7-t1",
+"nachher": "zh-stg-2026__par-7-t3"
+},
+{
+"id": "zh-stg-2026__par-7-t3",
+"titel": "§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 7 StG ZH – V. Ehegatten; eingetragene Partnerinnen oder Partner; Kinder unter eSlotregrlei[^4]c[^4]her"
+],
+"seiten": [
+3,
+4
+],
+"artikel": "§ 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-7-t2",
+"nachher": "zh-stg-2026__par-8"
+},
+{
+"id": "zh-stg-2026__par-8",
+"titel": "§ 8 StG ZH – VI. Besteuerung von Personengemeinschaften 1. Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 8 StG ZH – VI. Besteuerung von Personengemeinschaften 1. Einfache Gesellschaften, Kollektiv- und Kommanditgesellschaften; ausländische Handelsgesellschaften und andere ausländische Personengesamtheiten"
+],
+"seiten": [
+4
+],
+"artikel": "§ 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-7-t3",
+"nachher": "zh-stg-2026__par-9"
+},
+{
+"id": "zh-stg-2026__par-9",
+"titel": "§ 9 StG ZH – 2. Erbengemeinschaften",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 9 StG ZH – 2. Erbengemeinschaften"
+],
+"seiten": [
+4
+],
+"artikel": "§ 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-8",
+"nachher": "zh-stg-2026__par-9a"
+},
+{
+"id": "zh-stg-2026__par-9a",
+"titel": "§ 9a StG ZH – 3. Kollektive Kapitalanlagen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 9a StG ZH – 3. Kollektive Kapitalanlagen"
+],
+"seiten": [
+4
+],
+"artikel": "§ 9a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-9",
+"nachher": "zh-stg-2026__par-10"
+},
+{
+"id": "zh-stg-2026__par-10",
+"titel": "§ 10 StG ZH – VII. Beginn und Ende der Steuerpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 10 StG ZH – VII. Beginn und Ende der Steuerpflicht"
+],
+"seiten": [
+5
+],
+"artikel": "§ 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-9a",
+"nachher": "zh-stg-2026__par-11"
+},
+{
+"id": "zh-stg-2026__par-11",
+"titel": "§ 11 StG ZH – VIII. Steuernachfolge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 11 StG ZH – VIII. Steuernachfolge"
+],
+"seiten": [
+5
+],
+"artikel": "§ 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-10",
+"nachher": "zh-stg-2026__par-12-t1"
+},
+{
+"id": "zh-stg-2026__par-12-t1",
+"titel": "§ 12 StG ZH – IX. Haftung (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 12 StG ZH – IX. Haftung"
+],
+"seiten": [
+5,
+6
+],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-11",
+"nachher": "zh-stg-2026__par-12-t2"
+},
+{
+"id": "zh-stg-2026__par-12-t2",
+"titel": "§ 12 StG ZH – IX. Haftung (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 12 StG ZH – IX. Haftung"
+],
+"seiten": [
+5,
+6
+],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-12-t1",
+"nachher": "zh-stg-2026__par-12-t3"
+},
+{
+"id": "zh-stg-2026__par-12-t3",
+"titel": "§ 12 StG ZH – IX. Haftung (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 12 StG ZH – IX. Haftung"
+],
+"seiten": [
+5,
+6
+],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-12-t2",
+"nachher": "zh-stg-2026__par-13"
+},
+{
+"id": "zh-stg-2026__par-13",
+"titel": "§ 13 StG ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 13 StG ZH"
+],
+"seiten": [
+6
+],
+"artikel": "§ 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-12-t3",
+"nachher": "zh-stg-2026__par-14"
+},
+{
+"id": "zh-stg-2026__par-14",
+"titel": "§ 14 StG ZH – X.[^78] Angehörige diplomatischer und konsularischer Vertretungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 14 StG ZH – X.[^78] Angehörige diplomatischer und konsularischer Vertretungen"
+],
+"seiten": [
+6
+],
+"artikel": "§ 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-13",
+"nachher": "zh-stg-2026__par-15"
+},
+{
+"id": "zh-stg-2026__par-15",
+"titel": "§ 15 StG ZH – XI.[^78] Steuererleichterungen für Unternehmen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 15 StG ZH – XI.[^78] Steuererleichterungen für Unternehmen"
+],
+"seiten": [
+6
+],
+"artikel": "§ 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-14",
+"nachher": "zh-stg-2026__par-16"
+},
+{
+"id": "zh-stg-2026__par-16",
+"titel": "§ 16 StG ZH – I. Steuerbare Einkünfte 1. Allgemeines",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 16 StG ZH – I. Steuerbare Einkünfte 1. Allgemeines"
+],
+"seiten": [
+6,
+7
+],
+"artikel": "§ 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-15",
+"nachher": "zh-stg-2026__par-17"
+},
+{
+"id": "zh-stg-2026__par-17",
+"titel": "§ 17 StG ZH – 2. Unselbstständige Erwerbstätigkeit a. Grundsatz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 17 StG ZH – 2. Unselbstständige Erwerbstätigkeit a. Grundsatz"
+],
+"seiten": [
+7
+],
+"artikel": "§ 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-16",
+"nachher": "zh-stg-2026__par-17a"
+},
+{
+"id": "zh-stg-2026__par-17a",
+"titel": "§ 17a StG ZH – b. Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 17a StG ZH – b. Mitarbeiterbeteiligungen"
+],
+"seiten": [
+7
+],
+"artikel": "§ 17a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-17",
+"nachher": "zh-stg-2026__par-17b"
+},
+{
+"id": "zh-stg-2026__par-17b",
+"titel": "§ 17b StG ZH – c. Einkünfte aus echten Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 17b StG ZH – c. Einkünfte aus echten Mitarbeiterbeteiligungen"
+],
+"seiten": [
+7
+],
+"artikel": "§ 17b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-17a",
+"nachher": "zh-stg-2026__par-17c"
+},
+{
+"id": "zh-stg-2026__par-17c",
+"titel": "§ 17c StG ZH – d. Einkünfte aus unechten Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 17c StG ZH – d. Einkünfte aus unechten Mitarbeiterbeteiligungen"
+],
+"seiten": [
+7
+],
+"artikel": "§ 17c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-17b",
+"nachher": "zh-stg-2026__par-17d"
+},
+{
+"id": "zh-stg-2026__par-17d",
+"titel": "§ 17d StG ZH – e. Anteilmässige Besteuerung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 17d StG ZH – e. Anteilmässige Besteuerung"
+],
+"seiten": [
+8
+],
+"artikel": "§ 17d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-17c",
+"nachher": "zh-stg-2026__par-18"
+},
+{
+"id": "zh-stg-2026__par-18",
+"titel": "§ 18 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Grundsatz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 18 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Grundsatz"
+],
+"seiten": [
+8
+],
+"artikel": "§ 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-17d",
+"nachher": "zh-stg-2026__par-18a"
+},
+{
+"id": "zh-stg-2026__par-18a",
+"titel": "§ 18a StG ZH – b. Aufschubtatbestände",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 18a StG ZH – b. Aufschubtatbestände"
+],
+"seiten": [
+8
+],
+"artikel": "§ 18a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-18",
+"nachher": "zh-stg-2026__par-18b"
+},
+{
+"id": "zh-stg-2026__par-18b",
+"titel": "§ 18b StG ZH – c. Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 18b StG ZH – c. Teilbesteuerung der Einkünfte aus Beteiligungen des Geschäftsvermögens"
+],
+"seiten": [
+8,
+9
+],
+"artikel": "§ 18b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-18a",
+"nachher": "zh-stg-2026__par-19"
+},
+{
+"id": "zh-stg-2026__par-19",
+"titel": "§ 19 StG ZH – d.[^93] Umstrukturierungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 19 StG ZH – d.[^93] Umstrukturierungen"
+],
+"seiten": [
+9
+],
+"artikel": "§ 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-18b",
+"nachher": "zh-stg-2026__par-19a"
+},
+{
+"id": "zh-stg-2026__par-19a",
+"titel": "§ 19a StG ZH – e. Einkommen aus Patenten und vergleichbaren Rechten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 19a StG ZH – e. Einkommen aus Patenten und vergleichbaren Rechten"
+],
+"seiten": [
+9
+],
+"artikel": "§ 19a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-19",
+"nachher": "zh-stg-2026__par-20-t1"
+},
+{
+"id": "zh-stg-2026__par-20-t1",
+"titel": "§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 1/5)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]"
+],
+"seiten": [
+9,
+10,
+11
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-19a",
+"nachher": "zh-stg-2026__par-20-t2"
+},
+{
+"id": "zh-stg-2026__par-20-t2",
+"titel": "§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 2/5)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]"
+],
+"seiten": [
+9,
+10,
+11
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20-t1",
+"nachher": "zh-stg-2026__par-20-t3"
+},
+{
+"id": "zh-stg-2026__par-20-t3",
+"titel": "§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 3/5)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]"
+],
+"seiten": [
+9,
+10,
+11
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20-t2",
+"nachher": "zh-stg-2026__par-20-t4"
+},
+{
+"id": "zh-stg-2026__par-20-t4",
+"titel": "§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 4/5)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]"
+],
+"seiten": [
+9,
+10,
+11
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20-t3",
+"nachher": "zh-stg-2026__par-20-t5"
+},
+{
+"id": "zh-stg-2026__par-20-t5",
+"titel": "§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48] (Teil 5/5)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20 StG ZH – 4. Bewegliches Vermögen a. Allgemein[^48]"
+],
+"seiten": [
+9,
+10,
+11
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20-t4",
+"nachher": "zh-stg-2026__par-20a-t1"
+},
+{
+"id": "zh-stg-2026__par-20a-t1",
+"titel": "§ 20a StG ZH – b. Besondere Fälle (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20a StG ZH – b. Besondere Fälle"
+],
+"seiten": [
+11,
+12
+],
+"artikel": "§ 20a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20-t5",
+"nachher": "zh-stg-2026__par-20a-t2"
+},
+{
+"id": "zh-stg-2026__par-20a-t2",
+"titel": "§ 20a StG ZH – b. Besondere Fälle (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20a StG ZH – b. Besondere Fälle"
+],
+"seiten": [
+11,
+12
+],
+"artikel": "§ 20a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20a-t1",
+"nachher": "zh-stg-2026__par-20a-t3"
+},
+{
+"id": "zh-stg-2026__par-20a-t3",
+"titel": "§ 20a StG ZH – b. Besondere Fälle (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 20a StG ZH – b. Besondere Fälle"
+],
+"seiten": [
+11,
+12
+],
+"artikel": "§ 20a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20a-t2",
+"nachher": "zh-stg-2026__par-21-t1"
+},
+{
+"id": "zh-stg-2026__par-21-t1",
+"titel": "§ 21 StG ZH – 5. Unbewegliches Vermögen (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 21 StG ZH – 5. Unbewegliches Vermögen"
+],
+"seiten": [
+12,
+13
+],
+"artikel": "§ 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-20a-t3",
+"nachher": "zh-stg-2026__par-21-t2"
+},
+{
+"id": "zh-stg-2026__par-21-t2",
+"titel": "§ 21 StG ZH – 5. Unbewegliches Vermögen (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 21 StG ZH – 5. Unbewegliches Vermögen"
+],
+"seiten": [
+12,
+13
+],
+"artikel": "§ 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-21-t1",
+"nachher": "zh-stg-2026__par-22"
+},
+{
+"id": "zh-stg-2026__par-22",
+"titel": "§ 22 StG ZH – 6. Einkünfte aus Vorsorge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 22 StG ZH – 6. Einkünfte aus Vorsorge"
+],
+"seiten": [
+13
+],
+"artikel": "§ 22",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-21-t2",
+"nachher": "zh-stg-2026__par-23"
+},
+{
+"id": "zh-stg-2026__par-23",
+"titel": "§ 23 StG ZH – 7. Übrige Einkünfte",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 23 StG ZH – 7. Übrige Einkünfte"
+],
+"seiten": [
+13
+],
+"artikel": "§ 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-22",
+"nachher": "zh-stg-2026__par-24-t1"
+},
+{
+"id": "zh-stg-2026__par-24-t1",
+"titel": "§ 24 StG ZH – II. Steuerfreie Einkünfte (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 24 StG ZH – II. Steuerfreie Einkünfte"
+],
+"seiten": [
+13,
+14
+],
+"artikel": "§ 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-23",
+"nachher": "zh-stg-2026__par-24-t2"
+},
+{
+"id": "zh-stg-2026__par-24-t2",
+"titel": "§ 24 StG ZH – II. Steuerfreie Einkünfte (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 24 StG ZH – II. Steuerfreie Einkünfte"
+],
+"seiten": [
+13,
+14
+],
+"artikel": "§ 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-24-t1",
+"nachher": "zh-stg-2026__par-24-t3"
+},
+{
+"id": "zh-stg-2026__par-24-t3",
+"titel": "§ 24 StG ZH – II. Steuerfreie Einkünfte (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 24 StG ZH – II. Steuerfreie Einkünfte"
+],
+"seiten": [
+13,
+14
+],
+"artikel": "§ 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-24-t2",
+"nachher": "zh-stg-2026__par-25"
+},
+{
+"id": "zh-stg-2026__par-25",
+"titel": "§ 25 StG ZH – III. Ermittlung des Reineinkommens 1. Grundsatz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 25 StG ZH – III. Ermittlung des Reineinkommens 1. Grundsatz"
+],
+"seiten": [
+14
+],
+"artikel": "§ 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-24-t3",
+"nachher": "zh-stg-2026__par-26"
+},
+{
+"id": "zh-stg-2026__par-26",
+"titel": "§ 26 StG ZH – 2. Unselbstständige Erwerbstätigkeit",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 26 StG ZH – 2. Unselbstständige Erwerbstätigkeit"
+],
+"seiten": [
+15
+],
+"artikel": "§ 26",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-25",
+"nachher": "zh-stg-2026__par-27-t1"
+},
+{
+"id": "zh-stg-2026__par-27-t1",
+"titel": "§ 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines"
+],
+"seiten": [
+15,
+16
+],
+"artikel": "§ 27",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-26",
+"nachher": "zh-stg-2026__par-27-t2"
+},
+{
+"id": "zh-stg-2026__par-27-t2",
+"titel": "§ 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 27 StG ZH – 3. Selbstständige Erwerbstätigkeit a. Allgemeines"
+],
+"seiten": [
+15,
+16
+],
+"artikel": "§ 27",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-27-t1",
+"nachher": "zh-stg-2026__par-28"
+},
+{
+"id": "zh-stg-2026__par-28",
+"titel": "§ 28 StG ZH – b. Ersatzbeschaffungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 28 StG ZH – b. Ersatzbeschaffungen"
+],
+"seiten": [
+16
+],
+"artikel": "§ 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-27-t2",
+"nachher": "zh-stg-2026__par-29"
+},
+{
+"id": "zh-stg-2026__par-29",
+"titel": "§ 29 StG ZH – c. Verluste",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 29 StG ZH – c. Verluste"
+],
+"seiten": [
+16
+],
+"artikel": "§ 29",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-28",
+"nachher": "zh-stg-2026__par-30-t1"
+},
+{
+"id": "zh-stg-2026__par-30-t1",
+"titel": "§ 30 StG ZH – 4. Privatvermögen (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 30 StG ZH – 4. Privatvermögen"
+],
+"seiten": [
+16,
+17
+],
+"artikel": "§ 30",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-29",
+"nachher": "zh-stg-2026__par-30-t2"
+},
+{
+"id": "zh-stg-2026__par-30-t2",
+"titel": "§ 30 StG ZH – 4. Privatvermögen (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 30 StG ZH – 4. Privatvermögen"
+],
+"seiten": [
+16,
+17
+],
+"artikel": "§ 30",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-30-t1",
+"nachher": "zh-stg-2026__par-31-t1"
+},
+{
+"id": "zh-stg-2026__par-31-t1",
+"titel": "§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge (Teil 1/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge"
+],
+"seiten": [
+17,
+18,
+19
+],
+"artikel": "§ 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-30-t2",
+"nachher": "zh-stg-2026__par-31-t2"
+},
+{
+"id": "zh-stg-2026__par-31-t2",
+"titel": "§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge (Teil 2/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge"
+],
+"seiten": [
+17,
+18,
+19
+],
+"artikel": "§ 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-31-t1",
+"nachher": "zh-stg-2026__par-31-t3"
+},
+{
+"id": "zh-stg-2026__par-31-t3",
+"titel": "§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge (Teil 3/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge"
+],
+"seiten": [
+17,
+18,
+19
+],
+"artikel": "§ 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-31-t2",
+"nachher": "zh-stg-2026__par-31-t4"
+},
+{
+"id": "zh-stg-2026__par-31-t4",
+"titel": "§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge (Teil 4/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 31 StG ZH – 5. Allgemeine Abzüge a. Von der Höhe des Einkommens unabhängige Abzüge"
+],
+"seiten": [
+17,
+18,
+19
+],
+"artikel": "§ 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-31-t3",
+"nachher": "zh-stg-2026__par-32"
+},
+{
+"id": "zh-stg-2026__par-32",
+"titel": "§ 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 32 StG ZH – b. Von der Höhe des Einkommens abhängige Abzüge"
+],
+"seiten": [
+19
+],
+"artikel": "§ 32",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-31-t4",
+"nachher": "zh-stg-2026__par-33"
+},
+{
+"id": "zh-stg-2026__par-33",
+"titel": "§ 33 StG ZH – 6. Nicht abzugsfähige Kosten und Aufwendungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 33 StG ZH – 6. Nicht abzugsfähige Kosten und Aufwendungen"
+],
+"seiten": [
+19
+],
+"artikel": "§ 33",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-32",
+"nachher": "zh-stg-2026__par-34"
+},
+{
+"id": "zh-stg-2026__par-34",
+"titel": "§ 34 StG ZH – IV. Sozialabzüge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 34 StG ZH – IV. Sozialabzüge"
+],
+"seiten": [
+20
+],
+"artikel": "§ 34",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-33",
+"nachher": "zh-stg-2026__par-35-t1"
+},
+{
+"id": "zh-stg-2026__par-35-t1",
+"titel": "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife"
+],
+"seiten": [
+20,
+21
+],
+"artikel": "§ 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-34",
+"nachher": "zh-stg-2026__par-35-t2"
+},
+{
+"id": "zh-stg-2026__par-35-t2",
+"titel": "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife"
+],
+"seiten": [
+20,
+21
+],
+"artikel": "§ 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-35-t1",
+"nachher": "zh-stg-2026__par-35-t3"
+},
+{
+"id": "zh-stg-2026__par-35-t3",
+"titel": "§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 35 StG ZH – V. Steuerberechnung 1. Steuertarife"
+],
+"seiten": [
+20,
+21
+],
+"artikel": "§ 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-35-t2",
+"nachher": "zh-stg-2026__par-36"
+},
+{
+"id": "zh-stg-2026__par-36",
+"titel": "§ 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 36 StG ZH – 2. Sonderfälle a. Kapitalabfindungen für wiederkehrende Leistungen"
+],
+"seiten": [
+21
+],
+"artikel": "§ 36",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-35-t3",
+"nachher": "zh-stg-2026__par-37"
+},
+{
+"id": "zh-stg-2026__par-37",
+"titel": "§ 37 StG ZH – b. Kapitalleistungen aus Vorsorge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 37 StG ZH – b. Kapitalleistungen aus Vorsorge"
+],
+"seiten": [
+21
+],
+"artikel": "§ 37",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-36",
+"nachher": "zh-stg-2026__par-37a"
+},
+{
+"id": "zh-stg-2026__par-37a",
+"titel": "§ 37a StG ZH – VI. Vereinfachtes Abrechnungsverfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 37a StG ZH – VI. Vereinfachtes Abrechnungsverfahren"
+],
+"seiten": [
+22
+],
+"artikel": "§ 37a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-37",
+"nachher": "zh-stg-2026__par-37b"
+},
+{
+"id": "zh-stg-2026__par-37b",
+"titel": "§ 37b StG ZH – VII. Liquidationsgewinne",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Einkommenssteuer",
+"§ 37b StG ZH – VII. Liquidationsgewinne"
+],
+"seiten": [
+22
+],
+"artikel": "§ 37b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-37a",
+"nachher": "zh-stg-2026__par-38"
+},
+{
+"id": "zh-stg-2026__par-38",
+"titel": "§ 38 StG ZH – I. Steuerobjekt",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 38 StG ZH – I. Steuerobjekt"
+],
+"seiten": [
+22,
+23
+],
+"artikel": "§ 38",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-37b",
+"nachher": "zh-stg-2026__par-39"
+},
+{
+"id": "zh-stg-2026__par-39",
+"titel": "§ 39 StG ZH – II. Bewertung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 39 StG ZH – II. Bewertung"
+],
+"seiten": [
+23
+],
+"artikel": "§ 39",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-38",
+"nachher": "zh-stg-2026__par-39a"
+},
+{
+"id": "zh-stg-2026__par-39a",
+"titel": "§ 39a StG ZH – III. Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 39a StG ZH – III. Mitarbeiterbeteiligungen"
+],
+"seiten": [
+23
+],
+"artikel": "§ 39a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-39",
+"nachher": "zh-stg-2026__par-40"
+},
+{
+"id": "zh-stg-2026__par-40",
+"titel": "§ 40 StG ZH – IV.[^70] Landwirtschaftliche Grundstücke",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 40 StG ZH – IV.[^70] Landwirtschaftliche Grundstücke"
+],
+"seiten": [
+23
+],
+"artikel": "§ 40",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-39a",
+"nachher": "zh-stg-2026__par-41"
+},
+{
+"id": "zh-stg-2026__par-41",
+"titel": "§ 41 StG ZH – V.[^70] Ergänzende Vermögenssteuer für landwirtschaftliche Grundstücke 1. Steuerpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 41 StG ZH – V.[^70] Ergänzende Vermögenssteuer für landwirtschaftliche Grundstücke 1. Steuerpflicht"
+],
+"seiten": [
+23
+],
+"artikel": "§ 41",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-40",
+"nachher": "zh-stg-2026__par-42"
+},
+{
+"id": "zh-stg-2026__par-42",
+"titel": "§ 42 StG ZH – 2. Aufschub der Besteuerung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 42 StG ZH – 2. Aufschub der Besteuerung"
+],
+"seiten": [
+23,
+24
+],
+"artikel": "§ 42",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-41",
+"nachher": "zh-stg-2026__par-43"
+},
+{
+"id": "zh-stg-2026__par-43",
+"titel": "§ 43 StG ZH – 3. Steuerberechnung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 43 StG ZH – 3. Steuerberechnung"
+],
+"seiten": [
+24
+],
+"artikel": "§ 43",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-42",
+"nachher": "zh-stg-2026__par-44"
+},
+{
+"id": "zh-stg-2026__par-44",
+"titel": "§ 44 StG ZH – 4. Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 44 StG ZH – 4. Verfahren"
+],
+"seiten": [
+24
+],
+"artikel": "§ 44",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-43",
+"nachher": "zh-stg-2026__par-45"
+},
+{
+"id": "zh-stg-2026__par-45",
+"titel": "§ 45 StG ZH – VI.[^70] Lebens- und Rentenversicherungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 45 StG ZH – VI.[^70] Lebens- und Rentenversicherungen"
+],
+"seiten": [
+24
+],
+"artikel": "§ 45",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-44",
+"nachher": "zh-stg-2026__par-46"
+},
+{
+"id": "zh-stg-2026__par-46",
+"titel": "§ 46 StG ZH – VII.[^70] Abzug von Schulden",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 46 StG ZH – VII.[^70] Abzug von Schulden"
+],
+"seiten": [
+24
+],
+"artikel": "§ 46",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-45",
+"nachher": "zh-stg-2026__par-47-t1"
+},
+{
+"id": "zh-stg-2026__par-47-t1",
+"titel": "§ 47 StG ZH – VIII.[^70] Steuertarif (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 47 StG ZH – VIII.[^70] Steuertarif"
+],
+"seiten": [
+24,
+25
+],
+"artikel": "§ 47",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-46",
+"nachher": "zh-stg-2026__par-47-t2"
+},
+{
+"id": "zh-stg-2026__par-47-t2",
+"titel": "§ 47 StG ZH – VIII.[^70] Steuertarif (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 47 StG ZH – VIII.[^70] Steuertarif"
+],
+"seiten": [
+24,
+25
+],
+"artikel": "§ 47",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-47-t1",
+"nachher": "zh-stg-2026__par-47-t3"
+},
+{
+"id": "zh-stg-2026__par-47-t3",
+"titel": "§ 47 StG ZH – VIII.[^70] Steuertarif (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Vermögenssteuer",
+"§ 47 StG ZH – VIII.[^70] Steuertarif"
+],
+"seiten": [
+24,
+25
+],
+"artikel": "§ 47",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-47-t2",
+"nachher": "zh-stg-2026__par-48"
+},
+{
+"id": "zh-stg-2026__par-48",
+"titel": "§ 48 StG ZH – Ausgleich der kalten Progression",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Ausgleich der kalten Progression",
+"§ 48 StG ZH – Ausgleich der kalten Progression"
+],
+"seiten": [
+25
+],
+"artikel": "§ 48",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-47-t3",
+"nachher": "zh-stg-2026__par-49"
+},
+{
+"id": "zh-stg-2026__par-49",
+"titel": "§ 49 StG ZH – I. Steuerperiode",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Zeitliche Bemessung",
+"§ 49 StG ZH – I. Steuerperiode"
+],
+"seiten": [
+25,
+26
+],
+"artikel": "§ 49",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-48",
+"nachher": "zh-stg-2026__par-50"
+},
+{
+"id": "zh-stg-2026__par-50",
+"titel": "§ 50 StG ZH – II. Bemessungsperiode",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Zeitliche Bemessung",
+"§ 50 StG ZH – II. Bemessungsperiode"
+],
+"seiten": [
+26
+],
+"artikel": "§ 50",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-49",
+"nachher": "zh-stg-2026__par-51"
+},
+{
+"id": "zh-stg-2026__par-51",
+"titel": "§ 51 StG ZH – III. Vermögensbesteuerung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Zeitliche Bemessung",
+"§ 51 StG ZH – III. Vermögensbesteuerung"
+],
+"seiten": [
+26
+],
+"artikel": "§ 51",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-50",
+"nachher": "zh-stg-2026__par-52"
+},
+{
+"id": "zh-stg-2026__par-52",
+"titel": "§ 52 StG ZH – IV. Volljährigkeit; Begründung und Auflösung der Ehe[^63]",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Zeitliche Bemessung",
+"§ 52 StG ZH – IV. Volljährigkeit; Begründung und Auflösung der Ehe[^63]"
+],
+"seiten": [
+26
+],
+"artikel": "§ 52",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-51",
+"nachher": "zh-stg-2026__par-53"
+},
+{
+"id": "zh-stg-2026__par-53",
+"titel": "§ 53 StG ZH – V. Steuerfüsse",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Zeitliche Bemessung",
+"§ 53 StG ZH – V. Steuerfüsse"
+],
+"seiten": [
+27
+],
+"artikel": "§ 53",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-52",
+"nachher": "zh-stg-2026__par-54"
+},
+{
+"id": "zh-stg-2026__par-54",
+"titel": "§ 54 StG ZH – I. Begriff der juristischen Person",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 54 StG ZH – I. Begriff der juristischen Person"
+],
+"seiten": [
+27
+],
+"artikel": "§ 54",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-53",
+"nachher": "zh-stg-2026__par-55"
+},
+{
+"id": "zh-stg-2026__par-55",
+"titel": "§ 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 55 StG ZH – II. Steuerliche Zugehörigkeit 1. Persönliche Zugehörigkeit"
+],
+"seiten": [
+27
+],
+"artikel": "§ 55",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-54",
+"nachher": "zh-stg-2026__par-56"
+},
+{
+"id": "zh-stg-2026__par-56",
+"titel": "§ 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 56 StG ZH – 2. Wirtschaftliche Zugehörigkeit"
+],
+"seiten": [
+27
+],
+"artikel": "§ 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-55",
+"nachher": "zh-stg-2026__par-57-t1"
+},
+{
+"id": "zh-stg-2026__par-57-t1",
+"titel": "§ 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 57 StG ZH – 3. Umfang der Steuerpflicht"
+],
+"seiten": [
+28
+],
+"artikel": "§ 57",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-56",
+"nachher": "zh-stg-2026__par-57-t2"
+},
+{
+"id": "zh-stg-2026__par-57-t2",
+"titel": "§ 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 57 StG ZH – 3. Umfang der Steuerpflicht"
+],
+"seiten": [
+28
+],
+"artikel": "§ 57",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-57-t1",
+"nachher": "zh-stg-2026__par-57-t3"
+},
+{
+"id": "zh-stg-2026__par-57-t3",
+"titel": "§ 57 StG ZH – 3. Umfang der Steuerpflicht (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 57 StG ZH – 3. Umfang der Steuerpflicht"
+],
+"seiten": [
+28
+],
+"artikel": "§ 57",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-57-t2",
+"nachher": "zh-stg-2026__par-58"
+},
+{
+"id": "zh-stg-2026__par-58",
+"titel": "§ 58 StG ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 58 StG ZH"
+],
+"seiten": [
+28
+],
+"artikel": "§ 58",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-57-t3",
+"nachher": "zh-stg-2026__par-59"
+},
+{
+"id": "zh-stg-2026__par-59",
+"titel": "§ 59 StG ZH – III. Beginn und Ende der Steuerpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 59 StG ZH – III. Beginn und Ende der Steuerpflicht"
+],
+"seiten": [
+28
+],
+"artikel": "§ 59",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-58",
+"nachher": "zh-stg-2026__par-60-t1"
+},
+{
+"id": "zh-stg-2026__par-60-t1",
+"titel": "§ 60 StG ZH – IV. Mithaftung (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 60 StG ZH – IV. Mithaftung"
+],
+"seiten": [
+29
+],
+"artikel": "§ 60",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-59",
+"nachher": "zh-stg-2026__par-60-t2"
+},
+{
+"id": "zh-stg-2026__par-60-t2",
+"titel": "§ 60 StG ZH – IV. Mithaftung (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 60 StG ZH – IV. Mithaftung"
+],
+"seiten": [
+29
+],
+"artikel": "§ 60",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-60-t1",
+"nachher": "zh-stg-2026__par-61-t1"
+},
+{
+"id": "zh-stg-2026__par-61-t1",
+"titel": "§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht"
+],
+"seiten": [
+29,
+30
+],
+"artikel": "§ 61",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-60-t2",
+"nachher": "zh-stg-2026__par-61-t2"
+},
+{
+"id": "zh-stg-2026__par-61-t2",
+"titel": "§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht"
+],
+"seiten": [
+29,
+30
+],
+"artikel": "§ 61",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-61-t1",
+"nachher": "zh-stg-2026__par-61-t3"
+},
+{
+"id": "zh-stg-2026__par-61-t3",
+"titel": "§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 61 StG ZH – V. Ausnahmen von der Steuerpflicht"
+],
+"seiten": [
+29,
+30
+],
+"artikel": "§ 61",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-61-t2",
+"nachher": "zh-stg-2026__par-62"
+},
+{
+"id": "zh-stg-2026__par-62",
+"titel": "§ 62 StG ZH – VI. Steuererleichterungen für Unternehmen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerpflicht",
+"§ 62 StG ZH – VI. Steuererleichterungen für Unternehmen"
+],
+"seiten": [
+30
+],
+"artikel": "§ 62",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-61-t3",
+"nachher": "zh-stg-2026__par-63"
+},
+{
+"id": "zh-stg-2026__par-63",
+"titel": "§ 63 StG ZH – I. Steuerobjekt 1. Grundsatz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 63 StG ZH – I. Steuerobjekt 1. Grundsatz"
+],
+"seiten": [
+31
+],
+"artikel": "§ 63",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-62",
+"nachher": "zh-stg-2026__par-64-t1"
+},
+{
+"id": "zh-stg-2026__par-64-t1",
+"titel": "§ 64 StG ZH – 2. Berechnung des Reingewinns a. Allgemeines (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64 StG ZH – 2. Berechnung des Reingewinns a. Allgemeines"
+],
+"seiten": [
+31
+],
+"artikel": "§ 64",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-63",
+"nachher": "zh-stg-2026__par-64-t2"
+},
+{
+"id": "zh-stg-2026__par-64-t2",
+"titel": "§ 64 StG ZH – 2. Berechnung des Reingewinns a. Allgemeines (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64 StG ZH – 2. Berechnung des Reingewinns a. Allgemeines"
+],
+"seiten": [
+31
+],
+"artikel": "§ 64",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64-t1",
+"nachher": "zh-stg-2026__par-64a"
+},
+{
+"id": "zh-stg-2026__par-64a",
+"titel": "§ 64a StG ZH – b. Patente und vergleichbare Rechte: Begriffe",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64a StG ZH – b. Patente und vergleichbare Rechte: Begriffe"
+],
+"seiten": [
+31,
+32
+],
+"artikel": "§ 64a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64-t2",
+"nachher": "zh-stg-2026__par-64b-t1"
+},
+{
+"id": "zh-stg-2026__par-64b-t1",
+"titel": "§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung (Teil 1/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [
+32,
+33
+],
+"artikel": "§ 64b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64a",
+"nachher": "zh-stg-2026__par-64b-t2"
+},
+{
+"id": "zh-stg-2026__par-64b-t2",
+"titel": "§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung (Teil 2/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [
+32,
+33
+],
+"artikel": "§ 64b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64b-t1",
+"nachher": "zh-stg-2026__par-64b-t3"
+},
+{
+"id": "zh-stg-2026__par-64b-t3",
+"titel": "§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung (Teil 3/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [
+32,
+33
+],
+"artikel": "§ 64b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64b-t2",
+"nachher": "zh-stg-2026__par-64b-t4"
+},
+{
+"id": "zh-stg-2026__par-64b-t4",
+"titel": "§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung (Teil 4/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64b StG ZH – c. Patente und vergleichbare Rechte: Besteuerung"
+],
+"seiten": [
+32,
+33
+],
+"artikel": "§ 64b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64b-t3",
+"nachher": "zh-stg-2026__par-64c"
+},
+{
+"id": "zh-stg-2026__par-64c",
+"titel": "§ 64c StG ZH – d. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64c StG ZH – d. Aufdeckung stiller Reserven bei Beginn der Steuerpflicht"
+],
+"seiten": [
+33,
+34
+],
+"artikel": "§ 64c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64b-t4",
+"nachher": "zh-stg-2026__par-64d"
+},
+{
+"id": "zh-stg-2026__par-64d",
+"titel": "§ 64d StG ZH – e. Besteuerung stiller Reserven am Ende der Steuerpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 64d StG ZH – e. Besteuerung stiller Reserven am Ende der Steuerpflicht"
+],
+"seiten": [
+34
+],
+"artikel": "§ 64d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64c",
+"nachher": "zh-stg-2026__par-65-t1"
+},
+{
+"id": "zh-stg-2026__par-65-t1",
+"titel": "§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup> (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup>"
+],
+"seiten": [
+34,
+35
+],
+"artikel": "§ 65",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-64d",
+"nachher": "zh-stg-2026__par-65-t2"
+},
+{
+"id": "zh-stg-2026__par-65-t2",
+"titel": "§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup> (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup>"
+],
+"seiten": [
+34,
+35
+],
+"artikel": "§ 65",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65-t1",
+"nachher": "zh-stg-2026__par-65-t3"
+},
+{
+"id": "zh-stg-2026__par-65-t3",
+"titel": "§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup> (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65 StG ZH – f. Geschäftsmdeätsesri gA buefgwraünnd- <sup>93</sup>"
+],
+"seiten": [
+34,
+35
+],
+"artikel": "§ 65",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65-t2",
+"nachher": "zh-stg-2026__par-65a"
+},
+{
+"id": "zh-stg-2026__par-65a",
+"titel": "§ 65a StG ZH – g. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65a StG ZH – g. Zusätzlicher Abzug von Forschungs- und Entwicklungsaufwand"
+],
+"seiten": [
+35
+],
+"artikel": "§ 65a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65-t3",
+"nachher": "zh-stg-2026__par-65b-t1"
+},
+{
+"id": "zh-stg-2026__par-65b-t1",
+"titel": "§ 65b StG ZH – h. Abzug für Eigenfinanzierung (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65b StG ZH – h. Abzug für Eigenfinanzierung"
+],
+"seiten": [
+35,
+36
+],
+"artikel": "§ 65b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65a",
+"nachher": "zh-stg-2026__par-65b-t2"
+},
+{
+"id": "zh-stg-2026__par-65b-t2",
+"titel": "§ 65b StG ZH – h. Abzug für Eigenfinanzierung (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65b StG ZH – h. Abzug für Eigenfinanzierung"
+],
+"seiten": [
+35,
+36
+],
+"artikel": "§ 65b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65b-t1",
+"nachher": "zh-stg-2026__par-65b-t3"
+},
+{
+"id": "zh-stg-2026__par-65b-t3",
+"titel": "§ 65b StG ZH – h. Abzug für Eigenfinanzierung (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65b StG ZH – h. Abzug für Eigenfinanzierung"
+],
+"seiten": [
+35,
+36
+],
+"artikel": "§ 65b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65b-t2",
+"nachher": "zh-stg-2026__par-65c"
+},
+{
+"id": "zh-stg-2026__par-65c",
+"titel": "§ 65c StG ZH – i. Entlastungsbegrenzung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 65c StG ZH – i. Entlastungsbegrenzung"
+],
+"seiten": [
+36
+],
+"artikel": "§ 65c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65b-t3",
+"nachher": "zh-stg-2026__par-66"
+},
+{
+"id": "zh-stg-2026__par-66",
+"titel": "§ 66 StG ZH – j.[^93] Erfolgsneutrale Vorgänge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 66 StG ZH – j.[^93] Erfolgsneutrale Vorgänge"
+],
+"seiten": [
+36
+],
+"artikel": "§ 66",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-65c",
+"nachher": "zh-stg-2026__par-67-t1"
+},
+{
+"id": "zh-stg-2026__par-67-t1",
+"titel": "§ 67 StG ZH – k.[^93] Umstrukturierungen (Teil 1/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 67 StG ZH – k.[^93] Umstrukturierungen"
+],
+"seiten": [
+37,
+38
+],
+"artikel": "§ 67",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-66",
+"nachher": "zh-stg-2026__par-67-t2"
+},
+{
+"id": "zh-stg-2026__par-67-t2",
+"titel": "§ 67 StG ZH – k.[^93] Umstrukturierungen (Teil 2/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 67 StG ZH – k.[^93] Umstrukturierungen"
+],
+"seiten": [
+37,
+38
+],
+"artikel": "§ 67",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-67-t1",
+"nachher": "zh-stg-2026__par-67-t3"
+},
+{
+"id": "zh-stg-2026__par-67-t3",
+"titel": "§ 67 StG ZH – k.[^93] Umstrukturierungen (Teil 3/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 67 StG ZH – k.[^93] Umstrukturierungen"
+],
+"seiten": [
+37,
+38
+],
+"artikel": "§ 67",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-67-t2",
+"nachher": "zh-stg-2026__par-67-t4"
+},
+{
+"id": "zh-stg-2026__par-67-t4",
+"titel": "§ 67 StG ZH – k.[^93] Umstrukturierungen (Teil 4/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 67 StG ZH – k.[^93] Umstrukturierungen"
+],
+"seiten": [
+37,
+38
+],
+"artikel": "§ 67",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-67-t3",
+"nachher": "zh-stg-2026__par-68-t1"
+},
+{
+"id": "zh-stg-2026__par-68-t1",
+"titel": "§ 68 StG ZH – l.[^93] Ersatzbeschaffungen (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 68 StG ZH – l.[^93] Ersatzbeschaffungen"
+],
+"seiten": [
+38
+],
+"artikel": "§ 68",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-67-t4",
+"nachher": "zh-stg-2026__par-68-t2"
+},
+{
+"id": "zh-stg-2026__par-68-t2",
+"titel": "§ 68 StG ZH – l.[^93] Ersatzbeschaffungen (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 68 StG ZH – l.[^93] Ersatzbeschaffungen"
+],
+"seiten": [
+38
+],
+"artikel": "§ 68",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-68-t1",
+"nachher": "zh-stg-2026__par-69"
+},
+{
+"id": "zh-stg-2026__par-69",
+"titel": "§ 69 StG ZH – m.[^93] Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 69 StG ZH – m.[^93] Gewinne von Vereinen, Stiftungen und kollektiven Kapitalanlagen"
+],
+"seiten": [
+38,
+39
+],
+"artikel": "§ 69",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-68-t2",
+"nachher": "zh-stg-2026__par-69a"
+},
+{
+"id": "zh-stg-2026__par-69a",
+"titel": "§ 69a StG ZH – n.[^93] Gewinne von juristischen Personen mit ideellen Zwecken",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 69a StG ZH – n.[^93] Gewinne von juristischen Personen mit ideellen Zwecken"
+],
+"seiten": [
+39
+],
+"artikel": "§ 69a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-69",
+"nachher": "zh-stg-2026__par-70"
+},
+{
+"id": "zh-stg-2026__par-70",
+"titel": "§ 70 StG ZH – o.[^93] Verluste",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 70 StG ZH – o.[^93] Verluste"
+],
+"seiten": [
+39
+],
+"artikel": "§ 70",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-69a",
+"nachher": "zh-stg-2026__par-71"
+},
+{
+"id": "zh-stg-2026__par-71",
+"titel": "§ 71 StG ZH – II. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 71 StG ZH – II. Steuerberechnung 1. Kapitalgesellschaften und Genossenschaften"
+],
+"seiten": [
+39
+],
+"artikel": "§ 71",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-70",
+"nachher": "zh-stg-2026__par-72-t1"
+},
+{
+"id": "zh-stg-2026__par-72-t1",
+"titel": "§ 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz"
+],
+"seiten": [
+39,
+40
+],
+"artikel": "§ 72",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-71",
+"nachher": "zh-stg-2026__par-72-t2"
+},
+{
+"id": "zh-stg-2026__par-72-t2",
+"titel": "§ 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 72 StG ZH – 2. Beteiligungsabzug a. Grundsatz"
+],
+"seiten": [
+39,
+40
+],
+"artikel": "§ 72",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-72-t1",
+"nachher": "zh-stg-2026__par-72a-t1"
+},
+{
+"id": "zh-stg-2026__par-72a-t1",
+"titel": "§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne (Teil 1/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+40
+],
+"artikel": "§ 72a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-72-t2",
+"nachher": "zh-stg-2026__par-72a-t2"
+},
+{
+"id": "zh-stg-2026__par-72a-t2",
+"titel": "§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne (Teil 2/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+40
+],
+"artikel": "§ 72a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-72a-t1",
+"nachher": "zh-stg-2026__par-72a-t3"
+},
+{
+"id": "zh-stg-2026__par-72a-t3",
+"titel": "§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne (Teil 3/3)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 72a StG ZH – b. Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+40
+],
+"artikel": "§ 72a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-72a-t2",
+"nachher": "zh-stg-2026__par-76"
+},
+{
+"id": "zh-stg-2026__par-76",
+"titel": "§ 76 StG ZH – 6. Vereine, Stiftungen und übrige juristische Personen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 76 StG ZH – 6. Vereine, Stiftungen und übrige juristische Personen"
+],
+"seiten": [
+41
+],
+"artikel": "§ 76",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-72a-t3",
+"nachher": "zh-stg-2026__par-77"
+},
+{
+"id": "zh-stg-2026__par-77",
+"titel": "§ 77 StG ZH – 7. Kollektive Kapitalanlagen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Gewinnsteuer",
+"§ 77 StG ZH – 7. Kollektive Kapitalanlagen"
+],
+"seiten": [
+41
+],
+"artikel": "§ 77",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-76",
+"nachher": "zh-stg-2026__par-78"
+},
+{
+"id": "zh-stg-2026__par-78",
+"titel": "§ 78 StG ZH – I. Steuerobjekt 1. Grundsatz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 78 StG ZH – I. Steuerobjekt 1. Grundsatz"
+],
+"seiten": [
+41
+],
+"artikel": "§ 78",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-77",
+"nachher": "zh-stg-2026__par-79"
+},
+{
+"id": "zh-stg-2026__par-79",
+"titel": "§ 79 StG ZH – 2. Kapitalgesellschaften und Genossenschaften a. Allgemeines",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 79 StG ZH – 2. Kapitalgesellschaften und Genossenschaften a. Allgemeines"
+],
+"seiten": [
+41
+],
+"artikel": "§ 79",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-78",
+"nachher": "zh-stg-2026__par-80"
+},
+{
+"id": "zh-stg-2026__par-80",
+"titel": "§ 80 StG ZH – b. Verdecktes Eigenkapital",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 80 StG ZH – b. Verdecktes Eigenkapital"
+],
+"seiten": [
+41
+],
+"artikel": "§ 80",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-79",
+"nachher": "zh-stg-2026__par-81"
+},
+{
+"id": "zh-stg-2026__par-81",
+"titel": "§ 81 StG ZH – 3. Vereine, Stiftungen und übrige juristische Personen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 81 StG ZH – 3. Vereine, Stiftungen und übrige juristische Personen"
+],
+"seiten": [
+41
+],
+"artikel": "§ 81",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-80",
+"nachher": "zh-stg-2026__par-81a"
+},
+{
+"id": "zh-stg-2026__par-81a",
+"titel": "§ 81a StG ZH – 4. Ermässigung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 81a StG ZH – 4. Ermässigung"
+],
+"seiten": [
+41
+],
+"artikel": "§ 81a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-81",
+"nachher": "zh-stg-2026__par-82"
+},
+{
+"id": "zh-stg-2026__par-82",
+"titel": "§ 82 StG ZH – II. Steuerberechnung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Kapitalsteuer",
+"§ 82 StG ZH – II. Steuerberechnung"
+],
+"seiten": [
+42
+],
+"artikel": "§ 82",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-81a",
+"nachher": "zh-stg-2026__par-83"
+},
+{
+"id": "zh-stg-2026__par-83",
+"titel": "§ 83 StG ZH – I. Steuerperiode",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Zeitliche Bemessung",
+"§ 83 StG ZH – I. Steuerperiode"
+],
+"seiten": [
+42
+],
+"artikel": "§ 83",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-82",
+"nachher": "zh-stg-2026__par-84"
+},
+{
+"id": "zh-stg-2026__par-84",
+"titel": "§ 84 StG ZH – II. Bemessung des Reingewinns",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Zeitliche Bemessung",
+"§ 84 StG ZH – II. Bemessung des Reingewinns"
+],
+"seiten": [
+42
+],
+"artikel": "§ 84",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-83",
+"nachher": "zh-stg-2026__par-85"
+},
+{
+"id": "zh-stg-2026__par-85",
+"titel": "§ 85 StG ZH – III. Bemessung des Eigenkapitals",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Zeitliche Bemessung",
+"§ 85 StG ZH – III. Bemessung des Eigenkapitals"
+],
+"seiten": [
+42
+],
+"artikel": "§ 85",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-84",
+"nachher": "zh-stg-2026__par-86"
+},
+{
+"id": "zh-stg-2026__par-86",
+"titel": "§ 86 StG ZH – IV. Tarife und Steuerfüsse",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Zeitliche Bemessung",
+"§ 86 StG ZH – IV. Tarife und Steuerfüsse"
+],
+"seiten": [
+42
+],
+"artikel": "§ 86",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-85",
+"nachher": "zh-stg-2026__par-87"
+},
+{
+"id": "zh-stg-2026__par-87",
+"titel": "§ 87 StG ZH – I. Der Quellensteuer unterworfene Personen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 87 StG ZH – I. Der Quellensteuer unterworfene Personen"
+],
+"seiten": [
+43
+],
+"artikel": "§ 87",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-86",
+"nachher": "zh-stg-2026__par-88"
+},
+{
+"id": "zh-stg-2026__par-88",
+"titel": "§ 88 StG ZH – II. Steuerbare Leistungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 88 StG ZH – II. Steuerbare Leistungen"
+],
+"seiten": [
+43
+],
+"artikel": "§ 88",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-87",
+"nachher": "zh-stg-2026__par-89"
+},
+{
+"id": "zh-stg-2026__par-89",
+"titel": "§ 89 StG ZH – III. Steuertarife 1. Grundlage",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 89 StG ZH – III. Steuertarife 1. Grundlage"
+],
+"seiten": [
+43
+],
+"artikel": "§ 89",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-88",
+"nachher": "zh-stg-2026__par-90"
+},
+{
+"id": "zh-stg-2026__par-90",
+"titel": "§ 90 StG ZH – 2. Ausgestaltung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 90 StG ZH – 2. Ausgestaltung"
+],
+"seiten": [
+43,
+44
+],
+"artikel": "§ 90",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-89",
+"nachher": "zh-stg-2026__par-91"
+},
+{
+"id": "zh-stg-2026__par-91",
+"titel": "§ 91 StG ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 91 StG ZH"
+],
+"seiten": [
+44
+],
+"artikel": "§ 91",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-90",
+"nachher": "zh-stg-2026__par-92"
+},
+{
+"id": "zh-stg-2026__par-92",
+"titel": "§ 92 StG ZH – IV. Pflichten des Schuldners der steuerbaren Leistung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 92 StG ZH – IV. Pflichten des Schuldners der steuerbaren Leistung"
+],
+"seiten": [
+44
+],
+"artikel": "§ 92",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-91",
+"nachher": "zh-stg-2026__par-93"
+},
+{
+"id": "zh-stg-2026__par-93",
+"titel": "§ 93 StG ZH – V. Nachträgliche ordentliche Veranlagung 1. Obligatorische nachträgliche ordentliche Veranlagung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 93 StG ZH – V. Nachträgliche ordentliche Veranlagung 1. Obligatorische nachträgliche ordentliche Veranlagung"
+],
+"seiten": [
+44,
+45
+],
+"artikel": "§ 93",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-92",
+"nachher": "zh-stg-2026__par-93a"
+},
+{
+"id": "zh-stg-2026__par-93a",
+"titel": "§ 93a StG ZH – 2. Nachträgliche ordentliche Veranlagung auf Antrag",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 93a StG ZH – 2. Nachträgliche ordentliche Veranlagung auf Antrag"
+],
+"seiten": [
+45
+],
+"artikel": "§ 93a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-93",
+"nachher": "zh-stg-2026__par-94"
+},
+{
+"id": "zh-stg-2026__par-94",
+"titel": "§ 94 StG ZH – I. Arbeitnehmer",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 94 StG ZH – I. Arbeitnehmer"
+],
+"seiten": [
+45
+],
+"artikel": "§ 94",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-93a",
+"nachher": "zh-stg-2026__par-95"
+},
+{
+"id": "zh-stg-2026__par-95",
+"titel": "§ 95 StG ZH – II. Künstler, Sportler und Referenten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 95 StG ZH – II. Künstler, Sportler und Referenten"
+],
+"seiten": [
+46
+],
+"artikel": "§ 95",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-94",
+"nachher": "zh-stg-2026__par-96"
+},
+{
+"id": "zh-stg-2026__par-96",
+"titel": "§ 96 StG ZH – III. Verwaltungsräte",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 96 StG ZH – III. Verwaltungsräte"
+],
+"seiten": [
+46
+],
+"artikel": "§ 96",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-95",
+"nachher": "zh-stg-2026__par-97"
+},
+{
+"id": "zh-stg-2026__par-97",
+"titel": "§ 97 StG ZH – IV. Hypothekargläubiger",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 97 StG ZH – IV. Hypothekargläubiger"
+],
+"seiten": [
+46
+],
+"artikel": "§ 97",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-96",
+"nachher": "zh-stg-2026__par-98"
+},
+{
+"id": "zh-stg-2026__par-98",
+"titel": "§ 98 StG ZH – V. Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 98 StG ZH – V. Empfänger von Vorsorgeleistungen aus öffentlich-rechtlichem Arbeitsverhältnis"
+],
+"seiten": [
+47
+],
+"artikel": "§ 98",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-97",
+"nachher": "zh-stg-2026__par-99"
+},
+{
+"id": "zh-stg-2026__par-99",
+"titel": "§ 99 StG ZH – VI. Empfänger von privatrechtlichen Vorsorgeleistungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 99 StG ZH – VI. Empfänger von privatrechtlichen Vorsorgeleistungen"
+],
+"seiten": [
+47
+],
+"artikel": "§ 99",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-98",
+"nachher": "zh-stg-2026__par-100"
+},
+{
+"id": "zh-stg-2026__par-100",
+"titel": "§ 100 StG ZH – VII. Empfänger von Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 100 StG ZH – VII. Empfänger von Mitarbeiterbeteiligungen"
+],
+"seiten": [
+47
+],
+"artikel": "§ 100",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-99",
+"nachher": "zh-stg-2026__par-101"
+},
+{
+"id": "zh-stg-2026__par-101",
+"titel": "§ 101 StG ZH – VIII. Direkte Bundessteuer",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 101 StG ZH – VIII. Direkte Bundessteuer"
+],
+"seiten": [
+47
+],
+"artikel": "§ 101",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-100",
+"nachher": "zh-stg-2026__par-101a"
+},
+{
+"id": "zh-stg-2026__par-101a",
+"titel": "§ 101a StG ZH – IX. Nachträgliche ordentliche Veranlagung auf Antrag",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 101a StG ZH – IX. Nachträgliche ordentliche Veranlagung auf Antrag"
+],
+"seiten": [
+47
+],
+"artikel": "§ 101a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-101",
+"nachher": "zh-stg-2026__par-101b"
+},
+{
+"id": "zh-stg-2026__par-101b",
+"titel": "§ 101b StG ZH – X. Nachträgliche ordentliche Veranlagung von Amtes wegen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 101b StG ZH – X. Nachträgliche ordentliche Veranlagung von Amtes wegen"
+],
+"seiten": [
+47
+],
+"artikel": "§ 101b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-101a",
+"nachher": "zh-stg-2026__par-101c"
+},
+{
+"id": "zh-stg-2026__par-101c",
+"titel": "§ 101c StG ZH – XI. Abgegoltene Steuer",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 101c StG ZH – XI. Abgegoltene Steuer"
+],
+"seiten": [
+47
+],
+"artikel": "§ 101c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-101b",
+"nachher": "zh-stg-2026__par-102-t1"
+},
+{
+"id": "zh-stg-2026__par-102-t1",
+"titel": "§ 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung"
+],
+"seiten": [
+48
+],
+"artikel": "§ 102",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-101c",
+"nachher": "zh-stg-2026__par-102-t2"
+},
+{
+"id": "zh-stg-2026__par-102-t2",
+"titel": "§ 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 102 StG ZH – XII. Pflichten des Schuldners der steuerbaren Leistung"
+],
+"seiten": [
+48
+],
+"artikel": "§ 102",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-102-t1",
+"nachher": "zh-stg-2026__par-103"
+},
+{
+"id": "zh-stg-2026__par-103",
+"titel": "§ 103 StG ZH – XIII. Verteilung der Steuer",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder",
+"§ 103 StG ZH – XIII. Verteilung der Steuer"
+],
+"seiten": [
+48
+],
+"artikel": "§ 103",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-102-t2",
+"nachher": "zh-stg-2026__par-104-t1"
+},
+{
+"id": "zh-stg-2026__par-104-t1",
+"titel": "§ 104 StG ZH (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Örtliche Zuständigkeit",
+"§ 104 StG ZH"
+],
+"seiten": [
+48,
+49
+],
+"artikel": "§ 104",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-103",
+"nachher": "zh-stg-2026__par-104-t2"
+},
+{
+"id": "zh-stg-2026__par-104-t2",
+"titel": "§ 104 StG ZH (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Örtliche Zuständigkeit",
+"§ 104 StG ZH"
+],
+"seiten": [
+48,
+49
+],
+"artikel": "§ 104",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-104-t1",
+"nachher": "zh-stg-2026__par-105"
+},
+{
+"id": "zh-stg-2026__par-105",
+"titel": "§ 105 StG ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Örtliche Zuständigkeit",
+"§ 105 StG ZH"
+],
+"seiten": [
+49
+],
+"artikel": "§ 105",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-104-t2",
+"nachher": "zh-stg-2026__par-106"
+},
+{
+"id": "zh-stg-2026__par-106",
+"titel": "§ 106 StG ZH – I. Verwaltungsbehörden",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 106 StG ZH – I. Verwaltungsbehörden"
+],
+"seiten": [
+49
+],
+"artikel": "§ 106",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-105",
+"nachher": "zh-stg-2026__par-107"
+},
+{
+"id": "zh-stg-2026__par-107",
+"titel": "§ 107 StG ZH – II. Zuständigkeit zur Einschätzung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 107 StG ZH – II. Zuständigkeit zur Einschätzung"
+],
+"seiten": [
+49
+],
+"artikel": "§ 107",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-106",
+"nachher": "zh-stg-2026__par-108"
+},
+{
+"id": "zh-stg-2026__par-108",
+"titel": "§ 108 StG ZH – III. Einschätzungsgemeinde 1. Bei Besteuerung im ordentlichen Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 108 StG ZH – III. Einschätzungsgemeinde 1. Bei Besteuerung im ordentlichen Verfahren"
+],
+"seiten": [
+50
+],
+"artikel": "§ 108",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-107",
+"nachher": "zh-stg-2026__par-109"
+},
+{
+"id": "zh-stg-2026__par-109",
+"titel": "§ 109 StG ZH – 2. Bei Quellensteuern",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109 StG ZH – 2. Bei Quellensteuern"
+],
+"seiten": [
+50
+],
+"artikel": "§ 109",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-108",
+"nachher": "zh-stg-2026__par-109a"
+},
+{
+"id": "zh-stg-2026__par-109a",
+"titel": "§ 109a StG ZH – IV. Steuerregister und Datenaustausch 1. Kommunales Steuerregister",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109a StG ZH – IV. Steuerregister und Datenaustausch 1. Kommunales Steuerregister"
+],
+"seiten": [
+50
+],
+"artikel": "§ 109a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109",
+"nachher": "zh-stg-2026__par-109b"
+},
+{
+"id": "zh-stg-2026__par-109b",
+"titel": "§ 109b StG ZH – 2. Kantonales Steuerregister",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109b StG ZH – 2. Kantonales Steuerregister"
+],
+"seiten": [
+51
+],
+"artikel": "§ 109b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109a",
+"nachher": "zh-stg-2026__par-109c-t1"
+},
+{
+"id": "zh-stg-2026__par-109c-t1",
+"titel": "§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] (Teil 1/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112]"
+],
+"seiten": [
+51,
+52
+],
+"artikel": "§ 109c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109b",
+"nachher": "zh-stg-2026__par-109c-t2"
+},
+{
+"id": "zh-stg-2026__par-109c-t2",
+"titel": "§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] (Teil 2/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112]"
+],
+"seiten": [
+51,
+52
+],
+"artikel": "§ 109c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109c-t1",
+"nachher": "zh-stg-2026__par-109c-t3"
+},
+{
+"id": "zh-stg-2026__par-109c-t3",
+"titel": "§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] (Teil 3/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112]"
+],
+"seiten": [
+51,
+52
+],
+"artikel": "§ 109c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109c-t2",
+"nachher": "zh-stg-2026__par-109c-t4"
+},
+{
+"id": "zh-stg-2026__par-109c-t4",
+"titel": "§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112] (Teil 4/4)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109c StG ZH – 3. Kantonale Vorschriften a. Elektronische Verfahren und Datenaustausch[^112]"
+],
+"seiten": [
+51,
+52
+],
+"artikel": "§ 109c",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109c-t3",
+"nachher": "zh-stg-2026__par-109d"
+},
+{
+"id": "zh-stg-2026__par-109d",
+"titel": "§ 109d StG ZH – b. Elektronische Erfassung, Aufbewahrung und Vernichtung von Steuerakten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 109d StG ZH – b. Elektronische Erfassung, Aufbewahrung und Vernichtung von Steuerakten"
+],
+"seiten": [
+52
+],
+"artikel": "§ 109d",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109c-t4",
+"nachher": "zh-stg-2026__par-110"
+},
+{
+"id": "zh-stg-2026__par-110",
+"titel": "§ 110 StG ZH – V. Aufsicht[^42] 1. Aufsichtsbehörde",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 110 StG ZH – V. Aufsicht[^42] 1. Aufsichtsbehörde"
+],
+"seiten": [
+52
+],
+"artikel": "§ 110",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-109d",
+"nachher": "zh-stg-2026__par-111"
+},
+{
+"id": "zh-stg-2026__par-111",
+"titel": "§ 111 StG ZH – 2. Aufsichtsbeschwerde",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerverwaltungsbehörden",
+"§ 111 StG ZH – 2. Aufsichtsbeschwerde"
+],
+"seiten": [
+52
+],
+"artikel": "§ 111",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-110",
+"nachher": "zh-stg-2026__par-112"
+},
+{
+"id": "zh-stg-2026__par-112",
+"titel": "§ 112 StG ZH – I. Sitz",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 112 StG ZH – I. Sitz"
+],
+"seiten": [
+52
+],
+"artikel": "§ 112",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-111",
+"nachher": "zh-stg-2026__par-113"
+},
+{
+"id": "zh-stg-2026__par-113",
+"titel": "§ 113 StG ZH – II. Zusammensetzung und Wahl",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 113 StG ZH – II. Zusammensetzung und Wahl"
+],
+"seiten": [
+53
+],
+"artikel": "§ 113",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-112",
+"nachher": "zh-stg-2026__par-113a"
+},
+{
+"id": "zh-stg-2026__par-113a",
+"titel": "§ 113a StG ZH – III. Unvereinbarkeit; Offenlegung von Interessenbindungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 113a StG ZH – III. Unvereinbarkeit; Offenlegung von Interessenbindungen"
+],
+"seiten": [
+53
+],
+"artikel": "§ 113a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-113",
+"nachher": "zh-stg-2026__par-114"
+},
+{
+"id": "zh-stg-2026__par-114",
+"titel": "§ 114 StG ZH – IV. Besetzung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 114 StG ZH – IV. Besetzung"
+],
+"seiten": [
+53
+],
+"artikel": "§ 114",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-113a",
+"nachher": "zh-stg-2026__par-115"
+},
+{
+"id": "zh-stg-2026__par-115",
+"titel": "§ 115 StG ZH – V. Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 115 StG ZH – V. Verfahren"
+],
+"seiten": [
+53
+],
+"artikel": "§ 115",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-114",
+"nachher": "zh-stg-2026__par-116"
+},
+{
+"id": "zh-stg-2026__par-116",
+"titel": "§ 116 StG ZH – VI. Unabhängigkeit und Aufsicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 116 StG ZH – VI. Unabhängigkeit und Aufsicht"
+],
+"seiten": [
+54
+],
+"artikel": "§ 116",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-115",
+"nachher": "zh-stg-2026__par-117"
+},
+{
+"id": "zh-stg-2026__par-117",
+"titel": "§ 117 StG ZH – VII. Juristisches und administratives Personal",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 117 StG ZH – VII. Juristisches und administratives Personal"
+],
+"seiten": [
+54
+],
+"artikel": "§ 117",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-116",
+"nachher": "zh-stg-2026__par-118"
+},
+{
+"id": "zh-stg-2026__par-118",
+"titel": "§ 118 StG ZH – VIII. Verordnungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 118 StG ZH – VIII. Verordnungen"
+],
+"seiten": [
+54
+],
+"artikel": "§ 118",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-117",
+"nachher": "zh-stg-2026__par-118a"
+},
+{
+"id": "zh-stg-2026__par-118a",
+"titel": "§ 118a StG ZH – IX. Geschäftsordnung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuerrekursgericht",
+"§ 118a StG ZH – IX. Geschäftsordnung"
+],
+"seiten": [
+54
+],
+"artikel": "§ 118a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-118",
+"nachher": "zh-stg-2026__par-119"
+},
+{
+"id": "zh-stg-2026__par-119",
+"titel": "§ 119 StG ZH – I. Amtspflichten 1. Ausstand",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 119 StG ZH – I. Amtspflichten 1. Ausstand"
+],
+"seiten": [
+54
+],
+"artikel": "§ 119",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-118a",
+"nachher": "zh-stg-2026__par-120"
+},
+{
+"id": "zh-stg-2026__par-120",
+"titel": "§ 120 StG ZH – 2. Amtsgeheimnis",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 120 StG ZH – 2. Amtsgeheimnis"
+],
+"seiten": [
+55
+],
+"artikel": "§ 120",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-119",
+"nachher": "zh-stg-2026__par-121"
+},
+{
+"id": "zh-stg-2026__par-121",
+"titel": "§ 121 StG ZH – 3. Auskunftspflichten von Verwaltungsbehörden und Gerichten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 121 StG ZH – 3. Auskunftspflichten von Verwaltungsbehörden und Gerichten"
+],
+"seiten": [
+55
+],
+"artikel": "§ 121",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-120",
+"nachher": "zh-stg-2026__par-122"
+},
+{
+"id": "zh-stg-2026__par-122",
+"titel": "§ 122 StG ZH – 4. Steuerausweise",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 122 StG ZH – 4. Steuerausweise"
+],
+"seiten": [
+55
+],
+"artikel": "§ 122",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-121",
+"nachher": "zh-stg-2026__par-123"
+},
+{
+"id": "zh-stg-2026__par-123",
+"titel": "§ 123 StG ZH – II. Verfahrensrechtliche Stellung der Ehegatten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 123 StG ZH – II. Verfahrensrechtliche Stellung der Ehegatten"
+],
+"seiten": [
+56
+],
+"artikel": "§ 123",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-122",
+"nachher": "zh-stg-2026__par-124"
+},
+{
+"id": "zh-stg-2026__par-124",
+"titel": "§ 124 StG ZH – III. Verfahrensrechte des Steuerpflichtigen 1. Akteneinsicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 124 StG ZH – III. Verfahrensrechte des Steuerpflichtigen 1. Akteneinsicht"
+],
+"seiten": [
+56
+],
+"artikel": "§ 124",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-123",
+"nachher": "zh-stg-2026__par-125"
+},
+{
+"id": "zh-stg-2026__par-125",
+"titel": "§ 125 StG ZH – 2. Beweisabnahme",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 125 StG ZH – 2. Beweisabnahme"
+],
+"seiten": [
+56
+],
+"artikel": "§ 125",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-124",
+"nachher": "zh-stg-2026__par-126"
+},
+{
+"id": "zh-stg-2026__par-126",
+"titel": "§ 126 StG ZH – 3. Mitteilung von Entscheiden",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 126 StG ZH – 3. Mitteilung von Entscheiden"
+],
+"seiten": [
+56
+],
+"artikel": "§ 126",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-125",
+"nachher": "zh-stg-2026__par-127"
+},
+{
+"id": "zh-stg-2026__par-127",
+"titel": "§ 127 StG ZH – 4. Vertragliche Vertretung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 127 StG ZH – 4. Vertragliche Vertretung"
+],
+"seiten": [
+57
+],
+"artikel": "§ 127",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-126",
+"nachher": "zh-stg-2026__par-128"
+},
+{
+"id": "zh-stg-2026__par-128",
+"titel": "§ 128 StG ZH – 5. Notwendige Vertretung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 128 StG ZH – 5. Notwendige Vertretung"
+],
+"seiten": [
+57
+],
+"artikel": "§ 128",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-127",
+"nachher": "zh-stg-2026__par-129"
+},
+{
+"id": "zh-stg-2026__par-129",
+"titel": "§ 129 StG ZH – IV. Fristen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 129 StG ZH – IV. Fristen"
+],
+"seiten": [
+57
+],
+"artikel": "§ 129",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-128",
+"nachher": "zh-stg-2026__par-130"
+},
+{
+"id": "zh-stg-2026__par-130",
+"titel": "§ 130 StG ZH – V. Verjährung 1. Veranlagungsverjährung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 130 StG ZH – V. Verjährung 1. Veranlagungsverjährung"
+],
+"seiten": [
+57
+],
+"artikel": "§ 130",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-129",
+"nachher": "zh-stg-2026__par-131"
+},
+{
+"id": "zh-stg-2026__par-131",
+"titel": "§ 131 StG ZH – 2. Bezugsverjährung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Allgemeine Verfahrensgrundsätze",
+"§ 131 StG ZH – 2. Bezugsverjährung"
+],
+"seiten": [
+58
+],
+"artikel": "§ 131",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-130",
+"nachher": "zh-stg-2026__par-132"
+},
+{
+"id": "zh-stg-2026__par-132",
+"titel": "§ 132 StG ZH – I. Verfahrenspflichten 1. Aufgaben der Steuerbehörden",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 132 StG ZH – I. Verfahrenspflichten 1. Aufgaben der Steuerbehörden"
+],
+"seiten": [
+58
+],
+"artikel": "§ 132",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-131",
+"nachher": "zh-stg-2026__par-133"
+},
+{
+"id": "zh-stg-2026__par-133",
+"titel": "§ 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 133 StG ZH – 2. Pflichten des Steuerpflichtigen a. Steuererklärung"
+],
+"seiten": [
+58
+],
+"artikel": "§ 133",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-132",
+"nachher": "zh-stg-2026__par-134"
+},
+{
+"id": "zh-stg-2026__par-134",
+"titel": "§ 134 StG ZH – b. Beilagen zur Steuererklärung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 134 StG ZH – b. Beilagen zur Steuererklärung"
+],
+"seiten": [
+58,
+59
+],
+"artikel": "§ 134",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-133",
+"nachher": "zh-stg-2026__par-135"
+},
+{
+"id": "zh-stg-2026__par-135",
+"titel": "§ 135 StG ZH – c. Weitere Mitwirkungspflichten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 135 StG ZH – c. Weitere Mitwirkungspflichten"
+],
+"seiten": [
+59
+],
+"artikel": "§ 135",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-134",
+"nachher": "zh-stg-2026__par-136-t1"
+},
+{
+"id": "zh-stg-2026__par-136-t1",
+"titel": "§ 136 StG ZH – 3. Bescheinigungspflicht Dritter (Teil 1/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 136 StG ZH – 3. Bescheinigungspflicht Dritter"
+],
+"seiten": [
+59,
+60
+],
+"artikel": "§ 136",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-135",
+"nachher": "zh-stg-2026__par-136-t2"
+},
+{
+"id": "zh-stg-2026__par-136-t2",
+"titel": "§ 136 StG ZH – 3. Bescheinigungspflicht Dritter (Teil 2/2)",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 136 StG ZH – 3. Bescheinigungspflicht Dritter"
+],
+"seiten": [
+59,
+60
+],
+"artikel": "§ 136",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-136-t1",
+"nachher": "zh-stg-2026__par-137"
+},
+{
+"id": "zh-stg-2026__par-137",
+"titel": "§ 137 StG ZH – 4. Auskunftspflicht Dritter",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 137 StG ZH – 4. Auskunftspflicht Dritter"
+],
+"seiten": [
+60
+],
+"artikel": "§ 137",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-136-t2",
+"nachher": "zh-stg-2026__par-137a"
+},
+{
+"id": "zh-stg-2026__par-137a",
+"titel": "§ 137a StG ZH – 5. Meldepflicht bei Mitarbeiterbeteiligungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 137a StG ZH – 5. Meldepflicht bei Mitarbeiterbeteiligungen"
+],
+"seiten": [
+60
+],
+"artikel": "§ 137a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-137",
+"nachher": "zh-stg-2026__par-138"
+},
+{
+"id": "zh-stg-2026__par-138",
+"titel": "§ 138 StG ZH – II. Einschätzung 1. Vorbereitung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 138 StG ZH – II. Einschätzung 1. Vorbereitung"
+],
+"seiten": [
+60
+],
+"artikel": "§ 138",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-137a",
+"nachher": "zh-stg-2026__par-139"
+},
+{
+"id": "zh-stg-2026__par-139",
+"titel": "§ 139 StG ZH – 2. Durchführung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 139 StG ZH – 2. Durchführung"
+],
+"seiten": [
+60
+],
+"artikel": "§ 139",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-138",
+"nachher": "zh-stg-2026__par-140"
+},
+{
+"id": "zh-stg-2026__par-140",
+"titel": "§ 140 StG ZH – III. Einsprache 1. Frist und Voraussetzungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 140 StG ZH – III. Einsprache 1. Frist und Voraussetzungen"
+],
+"seiten": [
+60,
+61
+],
+"artikel": "§ 140",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-139",
+"nachher": "zh-stg-2026__par-141"
+},
+{
+"id": "zh-stg-2026__par-141",
+"titel": "§ 141 StG ZH – 2. Einspracheverfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 141 StG ZH – 2. Einspracheverfahren"
+],
+"seiten": [
+61
+],
+"artikel": "§ 141",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-140",
+"nachher": "zh-stg-2026__par-142"
+},
+{
+"id": "zh-stg-2026__par-142",
+"titel": "§ 142 StG ZH – 3. Entscheid",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Einschätzung im ordentlichen Verfahren",
+"§ 142 StG ZH – 3. Entscheid"
+],
+"seiten": [
+61
+],
+"artikel": "§ 142",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-141",
+"nachher": "zh-stg-2026__par-143"
+},
+{
+"id": "zh-stg-2026__par-143",
+"titel": "§ 143 StG ZH – I. Verfahrenspflichten 1p.f lAicuhstk[^10]u[^0]nfts-",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahren bei der Erhebung der Quellensteuer",
+"§ 143 StG ZH – I. Verfahrenspflichten 1p.f lAicuhstk[^10]u[^0]nfts-"
+],
+"seiten": [
+61
+],
+"artikel": "§ 143",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-142",
+"nachher": "zh-stg-2026__par-143a"
+},
+{
+"id": "zh-stg-2026__par-143a",
+"titel": "§ 143a StG ZH – 2. Notwendige Vertretung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahren bei der Erhebung der Quellensteuer",
+"§ 143a StG ZH – 2. Notwendige Vertretung"
+],
+"seiten": [
+61
+],
+"artikel": "§ 143a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-143",
+"nachher": "zh-stg-2026__par-144"
+},
+{
+"id": "zh-stg-2026__par-144",
+"titel": "§ 144 StG ZH – II. Verfügung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahren bei der Erhebung der Quellensteuer",
+"§ 144 StG ZH – II. Verfügung"
+],
+"seiten": [
+62
+],
+"artikel": "§ 144",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-143a",
+"nachher": "zh-stg-2026__par-145"
+},
+{
+"id": "zh-stg-2026__par-145",
+"titel": "§ 145 StG ZH – III. Nachforderung und Rückerstattung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahren bei der Erhebung der Quellensteuer",
+"§ 145 StG ZH – III. Nachforderung und Rückerstattung"
+],
+"seiten": [
+62
+],
+"artikel": "§ 145",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-144",
+"nachher": "zh-stg-2026__par-146"
+},
+{
+"id": "zh-stg-2026__par-146",
+"titel": "§ 146 StG ZH – IV. Einsprache",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahren bei der Erhebung der Quellensteuer",
+"§ 146 StG ZH – IV. Einsprache"
+],
+"seiten": [
+62
+],
+"artikel": "§ 146",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-145",
+"nachher": "zh-stg-2026__par-147"
+},
+{
+"id": "zh-stg-2026__par-147",
+"titel": "§ 147 StG ZH – I. Rekursverfahren 1. Frist und Voraussetzungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 147 StG ZH – I. Rekursverfahren 1. Frist und Voraussetzungen"
+],
+"seiten": [
+62,
+63
+],
+"artikel": "§ 147",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-146",
+"nachher": "zh-stg-2026__par-148"
+},
+{
+"id": "zh-stg-2026__par-148",
+"titel": "§ 148 StG ZH – 2. Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 148 StG ZH – 2. Verfahren"
+],
+"seiten": [
+63
+],
+"artikel": "§ 148",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-147",
+"nachher": "zh-stg-2026__par-149"
+},
+{
+"id": "zh-stg-2026__par-149",
+"titel": "§ 149 StG ZH – 3. Entscheid",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 149 StG ZH – 3. Entscheid"
+],
+"seiten": [
+63
+],
+"artikel": "§ 149",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-148",
+"nachher": "zh-stg-2026__par-150"
+},
+{
+"id": "zh-stg-2026__par-150",
+"titel": "§ 150 StG ZH – 4. Mitteilung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 150 StG ZH – 4. Mitteilung"
+],
+"seiten": [
+63
+],
+"artikel": "§ 150",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-149",
+"nachher": "zh-stg-2026__par-150a"
+},
+{
+"id": "zh-stg-2026__par-150a",
+"titel": "§ 150a StG ZH – 5. Vereinfachtes Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 150a StG ZH – 5. Vereinfachtes Verfahren"
+],
+"seiten": [
+63,
+64
+],
+"artikel": "§ 150a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-150",
+"nachher": "zh-stg-2026__par-150b"
+},
+{
+"id": "zh-stg-2026__par-150b",
+"titel": "§ 150b StG ZH – 6. Gerichtsgebühr",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 150b StG ZH – 6. Gerichtsgebühr"
+],
+"seiten": [
+64
+],
+"artikel": "§ 150b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-150a",
+"nachher": "zh-stg-2026__par-151"
+},
+{
+"id": "zh-stg-2026__par-151",
+"titel": "§ 151 StG ZH – 7. Kostenauferlegung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 151 StG ZH – 7. Kostenauferlegung"
+],
+"seiten": [
+64
+],
+"artikel": "§ 151",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-150b",
+"nachher": "zh-stg-2026__par-152"
+},
+{
+"id": "zh-stg-2026__par-152",
+"titel": "§ 152 StG ZH – 8.[^58] Parteientschädigung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 152 StG ZH – 8.[^58] Parteientschädigung"
+],
+"seiten": [
+64
+],
+"artikel": "§ 152",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-151",
+"nachher": "zh-stg-2026__par-153"
+},
+{
+"id": "zh-stg-2026__par-153",
+"titel": "§ 153 StG ZH – II. Beschwerdeverfahren vor Verwaltungsgericht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 153 StG ZH – II. Beschwerdeverfahren vor Verwaltungsgericht"
+],
+"seiten": [
+64
+],
+"artikel": "§ 153",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-152",
+"nachher": "zh-stg-2026__par-154"
+},
+{
+"id": "zh-stg-2026__par-154",
+"titel": "§ 154 StG ZH – III. Beschwerde an das Bundesgericht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Rekurs- und Beschwerdeverfahren",
+"§ 154 StG ZH – III. Beschwerde an das Bundesgericht"
+],
+"seiten": [
+65
+],
+"artikel": "§ 154",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-153",
+"nachher": "zh-stg-2026__par-155"
+},
+{
+"id": "zh-stg-2026__par-155",
+"titel": "§ 155 StG ZH – I. Revision 1. Gründe",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 155 StG ZH – I. Revision 1. Gründe"
+],
+"seiten": [
+65
+],
+"artikel": "§ 155",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-154",
+"nachher": "zh-stg-2026__par-156"
+},
+{
+"id": "zh-stg-2026__par-156",
+"titel": "§ 156 StG ZH – 2. Frist",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 156 StG ZH – 2. Frist"
+],
+"seiten": [
+65
+],
+"artikel": "§ 156",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-155",
+"nachher": "zh-stg-2026__par-157"
+},
+{
+"id": "zh-stg-2026__par-157",
+"titel": "§ 157 StG ZH – 3. Revisionsbegehren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 157 StG ZH – 3. Revisionsbegehren"
+],
+"seiten": [
+65
+],
+"artikel": "§ 157",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-156",
+"nachher": "zh-stg-2026__par-158"
+},
+{
+"id": "zh-stg-2026__par-158",
+"titel": "§ 158 StG ZH – 4. Verfahren und Entscheid",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 158 StG ZH – 4. Verfahren und Entscheid"
+],
+"seiten": [
+65,
+66
+],
+"artikel": "§ 158",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-157",
+"nachher": "zh-stg-2026__par-159"
+},
+{
+"id": "zh-stg-2026__par-159",
+"titel": "§ 159 StG ZH – II. Berichtigung von Rechnungsfehlern und Schreibversehen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 159 StG ZH – II. Berichtigung von Rechnungsfehlern und Schreibversehen"
+],
+"seiten": [
+66
+],
+"artikel": "§ 159",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-158",
+"nachher": "zh-stg-2026__par-160"
+},
+{
+"id": "zh-stg-2026__par-160",
+"titel": "§ 160 StG ZH – III. Nachsteuer 1. Ordentliche Nachsteuer[^62]",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 160 StG ZH – III. Nachsteuer 1. Ordentliche Nachsteuer[^62]"
+],
+"seiten": [
+66
+],
+"artikel": "§ 160",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-159",
+"nachher": "zh-stg-2026__par-161"
+},
+{
+"id": "zh-stg-2026__par-161",
+"titel": "§ 161 StG ZH – 2. Verwirkung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 161 StG ZH – 2. Verwirkung"
+],
+"seiten": [
+66
+],
+"artikel": "§ 161",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-160",
+"nachher": "zh-stg-2026__par-162"
+},
+{
+"id": "zh-stg-2026__par-162",
+"titel": "§ 162 StG ZH – 3. Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 162 StG ZH – 3. Verfahren"
+],
+"seiten": [
+66,
+67
+],
+"artikel": "§ 162",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-161",
+"nachher": "zh-stg-2026__par-162a"
+},
+{
+"id": "zh-stg-2026__par-162a",
+"titel": "§ 162a StG ZH – 4. Vereinfachte Nachbesteuerung von Erben",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"G. Änderung rechtskräftiger Entscheide",
+"§ 162a StG ZH – 4. Vereinfachte Nachbesteuerung von Erben"
+],
+"seiten": [
+67
+],
+"artikel": "§ 162a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-162",
+"nachher": "zh-stg-2026__par-163"
+},
+{
+"id": "zh-stg-2026__par-163",
+"titel": "§ 163 StG ZH – I. Inventarpflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 163 StG ZH – I. Inventarpflicht"
+],
+"seiten": [
+67
+],
+"artikel": "§ 163",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-162a",
+"nachher": "zh-stg-2026__par-164"
+},
+{
+"id": "zh-stg-2026__par-164",
+"titel": "§ 164 StG ZH – II. Gegenstand",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 164 StG ZH – II. Gegenstand"
+],
+"seiten": [
+67
+],
+"artikel": "§ 164",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-163",
+"nachher": "zh-stg-2026__par-165"
+},
+{
+"id": "zh-stg-2026__par-165",
+"titel": "§ 165 StG ZH – III. Sicherung der Inventaraufnahme",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 165 StG ZH – III. Sicherung der Inventaraufnahme"
+],
+"seiten": [
+67
+],
+"artikel": "§ 165",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-164",
+"nachher": "zh-stg-2026__par-166"
+},
+{
+"id": "zh-stg-2026__par-166",
+"titel": "§ 166 StG ZH – IV. Mitwirkungspflichten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 166 StG ZH – IV. Mitwirkungspflichten"
+],
+"seiten": [
+68
+],
+"artikel": "§ 166",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-165",
+"nachher": "zh-stg-2026__par-167"
+},
+{
+"id": "zh-stg-2026__par-167",
+"titel": "§ 167 StG ZH – V. Auskunfts- und Bescheinigungspflicht",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 167 StG ZH – V. Auskunfts- und Bescheinigungspflicht"
+],
+"seiten": [
+68
+],
+"artikel": "§ 167",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-166",
+"nachher": "zh-stg-2026__par-168"
+},
+{
+"id": "zh-stg-2026__par-168",
+"titel": "§ 168 StG ZH – VI. Mitteilung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 168 StG ZH – VI. Mitteilung"
+],
+"seiten": [
+68
+],
+"artikel": "§ 168",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-167",
+"nachher": "zh-stg-2026__par-169"
+},
+{
+"id": "zh-stg-2026__par-169",
+"titel": "§ 169 StG ZH – VII. Inventarbehörde",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 169 StG ZH – VII. Inventarbehörde"
+],
+"seiten": [
+68,
+69
+],
+"artikel": "§ 169",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-168",
+"nachher": "zh-stg-2026__par-170"
+},
+{
+"id": "zh-stg-2026__par-170",
+"titel": "§ 170 StG ZH – I. Gesuch",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 170 StG ZH – I. Gesuch"
+],
+"seiten": [
+69
+],
+"artikel": "§ 170",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-169",
+"nachher": "zh-stg-2026__par-171"
+},
+{
+"id": "zh-stg-2026__par-171",
+"titel": "§ 171 StG ZH – II. Verfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 171 StG ZH – II. Verfahren"
+],
+"seiten": [
+69
+],
+"artikel": "§ 171",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-170",
+"nachher": "zh-stg-2026__par-171a"
+},
+{
+"id": "zh-stg-2026__par-171a",
+"titel": "§ 171a StG ZH – III. Verzeichnis der steuerbefreiten Institutionen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"H. Inventar",
+"§ 171a StG ZH – III. Verzeichnis der steuerbefreiten Institutionen"
+],
+"seiten": [
+69
+],
+"artikel": "§ 171a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-171",
+"nachher": "zh-stg-2026__par-172"
+},
+{
+"id": "zh-stg-2026__par-172",
+"titel": "§ 172 StG ZH – I. Behörde",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 172 StG ZH – I. Behörde"
+],
+"seiten": [
+69
+],
+"artikel": "§ 172",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-171a",
+"nachher": "zh-stg-2026__par-173"
+},
+{
+"id": "zh-stg-2026__par-173",
+"titel": "§ 173 StG ZH – II. Periodische Steuern 1. Provisorische Rechnung und Schlussrechnung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 173 StG ZH – II. Periodische Steuern 1. Provisorische Rechnung und Schlussrechnung"
+],
+"seiten": [
+69
+],
+"artikel": "§ 173",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-172",
+"nachher": "zh-stg-2026__par-174"
+},
+{
+"id": "zh-stg-2026__par-174",
+"titel": "§ 174 StG ZH – 2. Zinsen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 174 StG ZH – 2. Zinsen"
+],
+"seiten": [
+70
+],
+"artikel": "§ 174",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-173",
+"nachher": "zh-stg-2026__par-175"
+},
+{
+"id": "zh-stg-2026__par-175",
+"titel": "§ 175 StG ZH – III. Nicht periodische Steuern",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 175 StG ZH – III. Nicht periodische Steuern"
+],
+"seiten": [
+70
+],
+"artikel": "§ 175",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-174",
+"nachher": "zh-stg-2026__par-176"
+},
+{
+"id": "zh-stg-2026__par-176",
+"titel": "§ 176 StG ZH – IV. Zuständigkeit des Regierungsrates",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 176 StG ZH – IV. Zuständigkeit des Regierungsrates"
+],
+"seiten": [
+70
+],
+"artikel": "§ 176",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-175",
+"nachher": "zh-stg-2026__par-177"
+},
+{
+"id": "zh-stg-2026__par-177",
+"titel": "§ 177 StG ZH – V. Zahlungserleichterungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 177 StG ZH – V. Zahlungserleichterungen"
+],
+"seiten": [
+70
+],
+"artikel": "§ 177",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-176",
+"nachher": "zh-stg-2026__par-178"
+},
+{
+"id": "zh-stg-2026__par-178",
+"titel": "§ 178 StG ZH – VI. Einsprache und Rekurs",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 178 StG ZH – VI. Einsprache und Rekurs"
+],
+"seiten": [
+70
+],
+"artikel": "§ 178",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-177",
+"nachher": "zh-stg-2026__par-179"
+},
+{
+"id": "zh-stg-2026__par-179",
+"titel": "§ 179 StG ZH – VII. Steuerrückerstattungen 1. An ungetrennt lebende Ehegatten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 179 StG ZH – VII. Steuerrückerstattungen 1. An ungetrennt lebende Ehegatten"
+],
+"seiten": [
+70
+],
+"artikel": "§ 179",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-178",
+"nachher": "zh-stg-2026__par-180"
+},
+{
+"id": "zh-stg-2026__par-180",
+"titel": "§ 180 StG ZH – 2. An geschiedene oder getrennt lebende Ehegatten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Steuerbezug",
+"§ 180 StG ZH – 2. An geschiedene oder getrennt lebende Ehegatten"
+],
+"seiten": [
+71
+],
+"artikel": "§ 180",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-179",
+"nachher": "zh-stg-2026__par-181"
+},
+{
+"id": "zh-stg-2026__par-181",
+"titel": "§ 181 StG ZH – I. Sicherstellung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuersicherung",
+"§ 181 StG ZH – I. Sicherstellung"
+],
+"seiten": [
+71
+],
+"artikel": "§ 181",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-180",
+"nachher": "zh-stg-2026__par-182"
+},
+{
+"id": "zh-stg-2026__par-182",
+"titel": "§ 182 StG ZH – II. Arrest",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Steuersicherung",
+"§ 182 StG ZH – II. Arrest"
+],
+"seiten": [
+71
+],
+"artikel": "§ 182",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-181",
+"nachher": "zh-stg-2026__par-183"
+},
+{
+"id": "zh-stg-2026__par-183",
+"titel": "§ 183 StG ZH – I. Voraussetzungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Steuererlass",
+"§ 183 StG ZH – I. Voraussetzungen"
+],
+"seiten": [
+72
+],
+"artikel": "§ 183",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-182",
+"nachher": "zh-stg-2026__par-184"
+},
+{
+"id": "zh-stg-2026__par-184",
+"titel": "§ 184 StG ZH – II. Erlassverfahren 1. Entscheid der Gemeinde",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Steuererlass",
+"§ 184 StG ZH – II. Erlassverfahren 1. Entscheid der Gemeinde"
+],
+"seiten": [
+72
+],
+"artikel": "§ 184",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-183",
+"nachher": "zh-stg-2026__par-185"
+},
+{
+"id": "zh-stg-2026__par-185",
+"titel": "§ 185 StG ZH – 2. Rekurs",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Steuererlass",
+"§ 185 StG ZH – 2. Rekurs"
+],
+"seiten": [
+72
+],
+"artikel": "§ 185",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-184",
+"nachher": "zh-stg-2026__par-186"
+},
+{
+"id": "zh-stg-2026__par-186",
+"titel": "§ 186 StG ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Steuererlass",
+"§ 186 StG ZH"
+],
+"seiten": [
+72
+],
+"artikel": "§ 186",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-185",
+"nachher": "zh-stg-2026__par-187"
+},
+{
+"id": "zh-stg-2026__par-187",
+"titel": "§ 187 StG ZH – I. Steuerpflicht 1. Steuerarten",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 187 StG ZH – I. Steuerpflicht 1. Steuerarten"
+],
+"seiten": [
+72
+],
+"artikel": "§ 187",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-186",
+"nachher": "zh-stg-2026__par-188"
+},
+{
+"id": "zh-stg-2026__par-188",
+"titel": "§ 188 StG ZH – 2. Steuerfuss",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 188 StG ZH – 2. Steuerfuss"
+],
+"seiten": [
+73
+],
+"artikel": "§ 188",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-187",
+"nachher": "zh-stg-2026__par-189"
+},
+{
+"id": "zh-stg-2026__par-189",
+"titel": "§ 189 StG ZH – 3. Bestand und Umfang der Steuerpflicht a. Im Allgemeinen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 189 StG ZH – 3. Bestand und Umfang der Steuerpflicht a. Im Allgemeinen"
+],
+"seiten": [
+73
+],
+"artikel": "§ 189",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-188",
+"nachher": "zh-stg-2026__par-190"
+},
+{
+"id": "zh-stg-2026__par-190",
+"titel": "§ 190 StG ZH – b. Bei Verlegung des Wohnsitzes oder Sitzes",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 190 StG ZH – b. Bei Verlegung des Wohnsitzes oder Sitzes"
+],
+"seiten": [
+73
+],
+"artikel": "§ 190",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-189",
+"nachher": "zh-stg-2026__par-191"
+},
+{
+"id": "zh-stg-2026__par-191",
+"titel": "§ 191 StG ZH – c. Bei Steuerpflicht in mehreren Gemeinden",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 191 StG ZH – c. Bei Steuerpflicht in mehreren Gemeinden"
+],
+"seiten": [
+73
+],
+"artikel": "§ 191",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-190",
+"nachher": "zh-stg-2026__par-192"
+},
+{
+"id": "zh-stg-2026__par-192",
+"titel": "§ 192 StG ZH – II. Verfahren 1. Steuerhoheit",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 192 StG ZH – II. Verfahren 1. Steuerhoheit"
+],
+"seiten": [
+73
+],
+"artikel": "§ 192",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-191",
+"nachher": "zh-stg-2026__par-193"
+},
+{
+"id": "zh-stg-2026__par-193",
+"titel": "§ 193 StG ZH – 2. Steuerausscheidung a. Anmeldung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 193 StG ZH – 2. Steuerausscheidung a. Anmeldung"
+],
+"seiten": [
+73
+],
+"artikel": "§ 193",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-192",
+"nachher": "zh-stg-2026__par-194"
+},
+{
+"id": "zh-stg-2026__par-194",
+"titel": "§ 194 StG ZH – b. Ermittlung der Grundlagen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 194 StG ZH – b. Ermittlung der Grundlagen"
+],
+"seiten": [
+73
+],
+"artikel": "§ 194",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-193",
+"nachher": "zh-stg-2026__par-195"
+},
+{
+"id": "zh-stg-2026__par-195",
+"titel": "§ 195 StG ZH – c. Einsprache",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 195 StG ZH – c. Einsprache"
+],
+"seiten": [
+74
+],
+"artikel": "§ 195",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-194",
+"nachher": "zh-stg-2026__par-196"
+},
+{
+"id": "zh-stg-2026__par-196",
+"titel": "§ 196 StG ZH – 3. Rechtsmittel",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 196 StG ZH – 3. Rechtsmittel"
+],
+"seiten": [
+74
+],
+"artikel": "§ 196",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-195",
+"nachher": "zh-stg-2026__par-197"
+},
+{
+"id": "zh-stg-2026__par-197",
+"titel": "§ 197 StG ZH – III. Steuerbezug und Steuererlass 1. Im Allgemeinen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 197 StG ZH – III. Steuerbezug und Steuererlass 1. Im Allgemeinen"
+],
+"seiten": [
+74
+],
+"artikel": "§ 197",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-196",
+"nachher": "zh-stg-2026__par-198"
+},
+{
+"id": "zh-stg-2026__par-198",
+"titel": "§ 198 StG ZH – 2. Im Ausscheidungsverfahren",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 198 StG ZH – 2. Im Ausscheidungsverfahren"
+],
+"seiten": [
+74
+],
+"artikel": "§ 198",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-197",
+"nachher": "zh-stg-2026__par-199"
+},
+{
+"id": "zh-stg-2026__par-199",
+"titel": "§ 199 StG ZH – I. Personalsteuer 1. Steuerpflicht",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 199 StG ZH – I. Personalsteuer 1. Steuerpflicht"
+],
+"seiten": [
+74
+],
+"artikel": "§ 199",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-198",
+"nachher": "zh-stg-2026__par-200"
+},
+{
+"id": "zh-stg-2026__par-200",
+"titel": "§ 200 StG ZH – 2. Steuersatz",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 200 StG ZH – 2. Steuersatz"
+],
+"seiten": [
+74
+],
+"artikel": "§ 200",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-199",
+"nachher": "zh-stg-2026__par-201"
+},
+{
+"id": "zh-stg-2026__par-201",
+"titel": "§ 201 StG ZH – II. Kirchensteuer 1. Steuerpflicht a. Im Allgemeinen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 201 StG ZH – II. Kirchensteuer 1. Steuerpflicht a. Im Allgemeinen"
+],
+"seiten": [
+74
+],
+"artikel": "§ 201",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-200",
+"nachher": "zh-stg-2026__par-202"
+},
+{
+"id": "zh-stg-2026__par-202",
+"titel": "§ 202 StG ZH – b. Besteuerung konfessionell gemischter Ehen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 202 StG ZH – b. Besteuerung konfessionell gemischter Ehen"
+],
+"seiten": [
+74
+],
+"artikel": "§ 202",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-201",
+"nachher": "zh-stg-2026__par-203"
+},
+{
+"id": "zh-stg-2026__par-203",
+"titel": "§ 203 StG ZH – c. Besteuerung juristischer Personen durch mehrere Kirchgemeinden",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 203 StG ZH – c. Besteuerung juristischer Personen durch mehrere Kirchgemeinden"
+],
+"seiten": [
+75
+],
+"artikel": "§ 203",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-202",
+"nachher": "zh-stg-2026__par-204"
+},
+{
+"id": "zh-stg-2026__par-204",
+"titel": "§ 204 StG ZH – 2. Verfahren",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Besondere Bestimmungen",
+"§ 204 StG ZH – 2. Verfahren"
+],
+"seiten": [
+75
+],
+"artikel": "§ 204",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-203",
+"nachher": "zh-stg-2026__par-205"
+},
+{
+"id": "zh-stg-2026__par-205",
+"titel": "§ 205 StG ZH – I. Steuerarten",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 205 StG ZH – I. Steuerarten"
+],
+"seiten": [
+75
+],
+"artikel": "§ 205",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-204",
+"nachher": "zh-stg-2026__par-206"
+},
+{
+"id": "zh-stg-2026__par-206",
+"titel": "§ 206 StG ZH – II. Anwendung von Bestimmungen über die Staatssteuern",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 206 StG ZH – II. Anwendung von Bestimmungen über die Staatssteuern"
+],
+"seiten": [
+75
+],
+"artikel": "§ 206",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-205",
+"nachher": "zh-stg-2026__par-207"
+},
+{
+"id": "zh-stg-2026__par-207",
+"titel": "§ 207 StG ZH – III. Grundstücke",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 207 StG ZH – III. Grundstücke"
+],
+"seiten": [
+75
+],
+"artikel": "§ 207",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-206",
+"nachher": "zh-stg-2026__par-208"
+},
+{
+"id": "zh-stg-2026__par-208",
+"titel": "§ 208 StG ZH – IV. Steuerpfandrecht an Grundstücken",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 208 StG ZH – IV. Steuerpfandrecht an Grundstücken"
+],
+"seiten": [
+75
+],
+"artikel": "§ 208",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-207",
+"nachher": "zh-stg-2026__par-209"
+},
+{
+"id": "zh-stg-2026__par-209",
+"titel": "§ 209 StG ZH – V. Einschätzungsverfahren 1. Vorbereitung der Einschätzung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 209 StG ZH – V. Einschätzungsverfahren 1. Vorbereitung der Einschätzung"
+],
+"seiten": [
+76
+],
+"artikel": "§ 209",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-208",
+"nachher": "zh-stg-2026__par-210"
+},
+{
+"id": "zh-stg-2026__par-210",
+"titel": "§ 210 StG ZH – 2. Entscheid",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 210 StG ZH – 2. Entscheid"
+],
+"seiten": [
+76
+],
+"artikel": "§ 210",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-209",
+"nachher": "zh-stg-2026__par-211"
+},
+{
+"id": "zh-stg-2026__par-211",
+"titel": "§ 211 StG ZH – 3. Einsprache",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 211 StG ZH – 3. Einsprache"
+],
+"seiten": [
+76
+],
+"artikel": "§ 211",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-210",
+"nachher": "zh-stg-2026__par-212"
+},
+{
+"id": "zh-stg-2026__par-212",
+"titel": "§ 212 StG ZH – VI. Rechtsmittel 1. Rekurs",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 212 StG ZH – VI. Rechtsmittel 1. Rekurs"
+],
+"seiten": [
+76
+],
+"artikel": "§ 212",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-211",
+"nachher": "zh-stg-2026__par-213"
+},
+{
+"id": "zh-stg-2026__par-213",
+"titel": "§ 213 StG ZH – 2. Beschwerde an das Verwaltungsgericht",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 213 StG ZH – 2. Beschwerde an das Verwaltungsgericht"
+],
+"seiten": [
+76
+],
+"artikel": "§ 213",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-212",
+"nachher": "zh-stg-2026__par-214"
+},
+{
+"id": "zh-stg-2026__par-214",
+"titel": "§ 214 StG ZH – 3. Beschwerde an das Bundesgericht",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 214 StG ZH – 3. Beschwerde an das Bundesgericht"
+],
+"seiten": [
+76
+],
+"artikel": "§ 214",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-213",
+"nachher": "zh-stg-2026__par-215"
+},
+{
+"id": "zh-stg-2026__par-215",
+"titel": "§ 215 StG ZH – VII. Verjährung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"A. Allgemeine Bestimmungen",
+"§ 215 StG ZH – VII. Verjährung"
+],
+"seiten": [
+76
+],
+"artikel": "§ 215",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-214",
+"nachher": "zh-stg-2026__par-216-t1"
+},
+{
+"id": "zh-stg-2026__par-216-t1",
+"titel": "§ 216 StG ZH – I. Steuertatbestand (Teil 1/3)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 216 StG ZH – I. Steuertatbestand"
+],
+"seiten": [
+76,
+77
+],
+"artikel": "§ 216",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-215",
+"nachher": "zh-stg-2026__par-216-t2"
+},
+{
+"id": "zh-stg-2026__par-216-t2",
+"titel": "§ 216 StG ZH – I. Steuertatbestand (Teil 2/3)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 216 StG ZH – I. Steuertatbestand"
+],
+"seiten": [
+76,
+77
+],
+"artikel": "§ 216",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-216-t1",
+"nachher": "zh-stg-2026__par-216-t3"
+},
+{
+"id": "zh-stg-2026__par-216-t3",
+"titel": "§ 216 StG ZH – I. Steuertatbestand (Teil 3/3)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 216 StG ZH – I. Steuertatbestand"
+],
+"seiten": [
+76,
+77
+],
+"artikel": "§ 216",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-216-t2",
+"nachher": "zh-stg-2026__par-217"
+},
+{
+"id": "zh-stg-2026__par-217",
+"titel": "§ 217 StG ZH – II. Steuersubjekt",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 217 StG ZH – II. Steuersubjekt"
+],
+"seiten": [
+78
+],
+"artikel": "§ 217",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-216-t3",
+"nachher": "zh-stg-2026__par-218"
+},
+{
+"id": "zh-stg-2026__par-218",
+"titel": "§ 218 StG ZH – III. Steuerbefreiung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 218 StG ZH – III. Steuerbefreiung"
+],
+"seiten": [
+78
+],
+"artikel": "§ 218",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-217",
+"nachher": "zh-stg-2026__par-219-t1"
+},
+{
+"id": "zh-stg-2026__par-219-t1",
+"titel": "§ 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn (Teil 1/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn"
+],
+"seiten": [
+78
+],
+"artikel": "§ 219",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-218",
+"nachher": "zh-stg-2026__par-219-t2"
+},
+{
+"id": "zh-stg-2026__par-219-t2",
+"titel": "§ 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn (Teil 2/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 219 StG ZH – IV. Steuerobjekt 1. Grundstückgewinn"
+],
+"seiten": [
+78
+],
+"artikel": "§ 219",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-219-t1",
+"nachher": "zh-stg-2026__par-220"
+},
+{
+"id": "zh-stg-2026__par-220",
+"titel": "§ 220 StG ZH – 2. Erwerbspreis",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 220 StG ZH – 2. Erwerbspreis"
+],
+"seiten": [
+78,
+79
+],
+"artikel": "§ 220",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-219-t2",
+"nachher": "zh-stg-2026__par-221"
+},
+{
+"id": "zh-stg-2026__par-221",
+"titel": "§ 221 StG ZH – 3. Aufwendungen",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 221 StG ZH – 3. Aufwendungen"
+],
+"seiten": [
+79
+],
+"artikel": "§ 221",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-220",
+"nachher": "zh-stg-2026__par-222"
+},
+{
+"id": "zh-stg-2026__par-222",
+"titel": "§ 222 StG ZH – 4. Erlös",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 222 StG ZH – 4. Erlös"
+],
+"seiten": [
+79
+],
+"artikel": "§ 222",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-221",
+"nachher": "zh-stg-2026__par-223"
+},
+{
+"id": "zh-stg-2026__par-223",
+"titel": "§ 223 StG ZH – 5. Gesamtveräusserung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 223 StG ZH – 5. Gesamtveräusserung"
+],
+"seiten": [
+79
+],
+"artikel": "§ 223",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-222",
+"nachher": "zh-stg-2026__par-224"
+},
+{
+"id": "zh-stg-2026__par-224",
+"titel": "§ 224 StG ZH – 6. Teilveräusserung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 224 StG ZH – 6. Teilveräusserung"
+],
+"seiten": [
+79,
+80
+],
+"artikel": "§ 224",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-223",
+"nachher": "zh-stg-2026__par-224a"
+},
+{
+"id": "zh-stg-2026__par-224a",
+"titel": "§ 224a StG ZH – 7. Anrechnung von Geschäftsverlusten",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 224a StG ZH – 7. Anrechnung von Geschäftsverlusten"
+],
+"seiten": [
+80
+],
+"artikel": "§ 224a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-224",
+"nachher": "zh-stg-2026__par-225-t1"
+},
+{
+"id": "zh-stg-2026__par-225-t1",
+"titel": "§ 225 StG ZH – V. Steuersätze (Teil 1/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 225 StG ZH – V. Steuersätze"
+],
+"seiten": [
+80,
+81
+],
+"artikel": "§ 225",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-224a",
+"nachher": "zh-stg-2026__par-225-t2"
+},
+{
+"id": "zh-stg-2026__par-225-t2",
+"titel": "§ 225 StG ZH – V. Steuersätze (Teil 2/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 225 StG ZH – V. Steuersätze"
+],
+"seiten": [
+80,
+81
+],
+"artikel": "§ 225",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-225-t1",
+"nachher": "zh-stg-2026__par-226"
+},
+{
+"id": "zh-stg-2026__par-226",
+"titel": "§ 226 StG ZH – VI. Steuererklärung",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 226 StG ZH – VI. Steuererklärung"
+],
+"seiten": [
+81
+],
+"artikel": "§ 226",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-225-t2",
+"nachher": "zh-stg-2026__par-226a"
+},
+{
+"id": "zh-stg-2026__par-226a",
+"titel": "§ 226a StG ZH",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"B. Grundstückgewinnsteuer",
+"§ 226a StG ZH"
+],
+"seiten": [
+81
+],
+"artikel": "§ 226a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-226",
+"nachher": "zh-stg-2026__par-234"
+},
+{
+"id": "zh-stg-2026__par-234",
+"titel": "§ 234 StG ZH – I. Verletzung von Verfahrenspflichten",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 234 StG ZH – I. Verletzung von Verfahrenspflichten"
+],
+"seiten": [
+81
+],
+"artikel": "§ 234",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-226a",
+"nachher": "zh-stg-2026__par-235-t1"
+},
+{
+"id": "zh-stg-2026__par-235-t1",
+"titel": "§ 235 StG ZH – II. Steuerhinterziehung 1. Vollendete Steuerhinterziehung (Teil 1/2)",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 235 StG ZH – II. Steuerhinterziehung 1. Vollendete Steuerhinterziehung"
+],
+"seiten": [
+81,
+82
+],
+"artikel": "§ 235",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-234",
+"nachher": "zh-stg-2026__par-235-t2"
+},
+{
+"id": "zh-stg-2026__par-235-t2",
+"titel": "§ 235 StG ZH – II. Steuerhinterziehung 1. Vollendete Steuerhinterziehung (Teil 2/2)",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 235 StG ZH – II. Steuerhinterziehung 1. Vollendete Steuerhinterziehung"
+],
+"seiten": [
+81,
+82
+],
+"artikel": "§ 235",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-235-t1",
+"nachher": "zh-stg-2026__par-236"
+},
+{
+"id": "zh-stg-2026__par-236",
+"titel": "§ 236 StG ZH – 2. Versuchte Steuerhinterziehung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 236 StG ZH – 2. Versuchte Steuerhinterziehung"
+],
+"seiten": [
+82
+],
+"artikel": "§ 236",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-235-t2",
+"nachher": "zh-stg-2026__par-237"
+},
+{
+"id": "zh-stg-2026__par-237",
+"titel": "§ 237 StG ZH – 3. Anstiftung, Gehilfenschaft, Mitwirkung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 237 StG ZH – 3. Anstiftung, Gehilfenschaft, Mitwirkung"
+],
+"seiten": [
+82
+],
+"artikel": "§ 237",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-236",
+"nachher": "zh-stg-2026__par-238"
+},
+{
+"id": "zh-stg-2026__par-238",
+"titel": "§ 238 StG ZH – 4. Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 238 StG ZH – 4. Verheimlichung oder Beiseiteschaffung von Nachlasswerten im Inventarverfahren"
+],
+"seiten": [
+82,
+83
+],
+"artikel": "§ 238",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-237",
+"nachher": "zh-stg-2026__par-239"
+},
+{
+"id": "zh-stg-2026__par-239",
+"titel": "§ 239 StG ZH",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 239 StG ZH"
+],
+"seiten": [
+83
+],
+"artikel": "§ 239",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-238",
+"nachher": "zh-stg-2026__par-240"
+},
+{
+"id": "zh-stg-2026__par-240",
+"titel": "§ 240 StG ZH – 6. Steuerhinterziehung von Ehegatten",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 240 StG ZH – 6. Steuerhinterziehung von Ehegatten"
+],
+"seiten": [
+83
+],
+"artikel": "§ 240",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-239",
+"nachher": "zh-stg-2026__par-241"
+},
+{
+"id": "zh-stg-2026__par-241",
+"titel": "§ 241 StG ZH – III. Juristische Personen 1. Allgemein[^61]",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 241 StG ZH – III. Juristische Personen 1. Allgemein[^61]"
+],
+"seiten": [
+83
+],
+"artikel": "§ 241",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-240",
+"nachher": "zh-stg-2026__par-241a-t1"
+},
+{
+"id": "zh-stg-2026__par-241a-t1",
+"titel": "§ 241a StG ZH – 2. Selbstanzeige (Teil 1/3)",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 241a StG ZH – 2. Selbstanzeige"
+],
+"seiten": [
+83,
+84
+],
+"artikel": "§ 241a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-241",
+"nachher": "zh-stg-2026__par-241a-t2"
+},
+{
+"id": "zh-stg-2026__par-241a-t2",
+"titel": "§ 241a StG ZH – 2. Selbstanzeige (Teil 2/3)",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 241a StG ZH – 2. Selbstanzeige"
+],
+"seiten": [
+83,
+84
+],
+"artikel": "§ 241a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-241a-t1",
+"nachher": "zh-stg-2026__par-241a-t3"
+},
+{
+"id": "zh-stg-2026__par-241a-t3",
+"titel": "§ 241a StG ZH – 2. Selbstanzeige (Teil 3/3)",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 241a StG ZH – 2. Selbstanzeige"
+],
+"seiten": [
+83,
+84
+],
+"artikel": "§ 241a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-241a-t2",
+"nachher": "zh-stg-2026__par-242"
+},
+{
+"id": "zh-stg-2026__par-242",
+"titel": "§ 242 StG ZH – IV. Verjährung der Strafverfolgung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 242 StG ZH – IV. Verjährung der Strafverfolgung"
+],
+"seiten": [
+84,
+85
+],
+"artikel": "§ 242",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-241a-t3",
+"nachher": "zh-stg-2026__par-243"
+},
+{
+"id": "zh-stg-2026__par-243",
+"titel": "§ 243 StG ZH – V. Strafverfahren 1. Untersuchung und Strafbescheid der Steuerbehörden a. Zuständigkeit",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 243 StG ZH – V. Strafverfahren 1. Untersuchung und Strafbescheid der Steuerbehörden a. Zuständigkeit"
+],
+"seiten": [
+85
+],
+"artikel": "§ 243",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-242",
+"nachher": "zh-stg-2026__par-244"
+},
+{
+"id": "zh-stg-2026__par-244",
+"titel": "§ 244 StG ZH – b. Eröffnung des Verfahrens",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 244 StG ZH – b. Eröffnung des Verfahrens"
+],
+"seiten": [
+85
+],
+"artikel": "§ 244",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-243",
+"nachher": "zh-stg-2026__par-245"
+},
+{
+"id": "zh-stg-2026__par-245",
+"titel": "§ 245 StG ZH – c. Verteidigung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 245 StG ZH – c. Verteidigung"
+],
+"seiten": [
+85
+],
+"artikel": "§ 245",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-244",
+"nachher": "zh-stg-2026__par-246"
+},
+{
+"id": "zh-stg-2026__par-246",
+"titel": "§ 246 StG ZH – d. Dolmetscher",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 246 StG ZH – d. Dolmetscher"
+],
+"seiten": [
+85
+],
+"artikel": "§ 246",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-245",
+"nachher": "zh-stg-2026__par-247"
+},
+{
+"id": "zh-stg-2026__par-247",
+"titel": "§ 247 StG ZH – e. Protokollierung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 247 StG ZH – e. Protokollierung"
+],
+"seiten": [
+85
+],
+"artikel": "§ 247",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-246",
+"nachher": "zh-stg-2026__par-248"
+},
+{
+"id": "zh-stg-2026__par-248",
+"titel": "§ 248 StG ZH – f. Untersuchung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 248 StG ZH – f. Untersuchung"
+],
+"seiten": [
+86
+],
+"artikel": "§ 248",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-247",
+"nachher": "zh-stg-2026__par-249"
+},
+{
+"id": "zh-stg-2026__par-249",
+"titel": "§ 249 StG ZH – g. Zeugeneinvernahmen",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 249 StG ZH – g. Zeugeneinvernahmen"
+],
+"seiten": [
+86
+],
+"artikel": "§ 249",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-248",
+"nachher": "zh-stg-2026__par-250"
+},
+{
+"id": "zh-stg-2026__par-250",
+"titel": "§ 250 StG ZH – h. Abschluss der Untersuchung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 250 StG ZH – h. Abschluss der Untersuchung"
+],
+"seiten": [
+86
+],
+"artikel": "§ 250",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-249",
+"nachher": "zh-stg-2026__par-251"
+},
+{
+"id": "zh-stg-2026__par-251",
+"titel": "§ 251 StG ZH – i. Strafbescheid",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 251 StG ZH – i. Strafbescheid"
+],
+"seiten": [
+86
+],
+"artikel": "§ 251",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-250",
+"nachher": "zh-stg-2026__par-251a"
+},
+{
+"id": "zh-stg-2026__par-251a",
+"titel": "§ 251a StG ZH – j. Einsprache",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 251a StG ZH – j. Einsprache"
+],
+"seiten": [
+86,
+87
+],
+"artikel": "§ 251a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-251",
+"nachher": "zh-stg-2026__par-252"
+},
+{
+"id": "zh-stg-2026__par-252",
+"titel": "§ 252 StG ZH – 2. Gerichtliche Beurteilung durch das Verwaltungsgericht a. Begehren um gerichtliche Beurteilung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 252 StG ZH – 2. Gerichtliche Beurteilung durch das Verwaltungsgericht a. Begehren um gerichtliche Beurteilung"
+],
+"seiten": [
+87
+],
+"artikel": "§ 252",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-251a",
+"nachher": "zh-stg-2026__par-253"
+},
+{
+"id": "zh-stg-2026__par-253",
+"titel": "§ 253 StG ZH – b. Überweisung der Akten und Anklage",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 253 StG ZH – b. Überweisung der Akten und Anklage"
+],
+"seiten": [
+87
+],
+"artikel": "§ 253",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-252",
+"nachher": "zh-stg-2026__par-254"
+},
+{
+"id": "zh-stg-2026__par-254",
+"titel": "§ 254 StG ZH – c. Vorbereitung der Hauptverhandlung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 254 StG ZH – c. Vorbereitung der Hauptverhandlung"
+],
+"seiten": [
+87
+],
+"artikel": "§ 254",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-253",
+"nachher": "zh-stg-2026__par-255"
+},
+{
+"id": "zh-stg-2026__par-255",
+"titel": "§ 255 StG ZH – d. Hauptverhandlung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 255 StG ZH – d. Hauptverhandlung"
+],
+"seiten": [
+87,
+88
+],
+"artikel": "§ 255",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-254",
+"nachher": "zh-stg-2026__par-256"
+},
+{
+"id": "zh-stg-2026__par-256",
+"titel": "§ 256 StG ZH – e. Erscheinungspflicht des Angeschuldigten",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 256 StG ZH – e. Erscheinungspflicht des Angeschuldigten"
+],
+"seiten": [
+88
+],
+"artikel": "§ 256",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-255",
+"nachher": "zh-stg-2026__par-257"
+},
+{
+"id": "zh-stg-2026__par-257",
+"titel": "§ 257 StG ZH – f. Verweisung auf das Rekursverfahren",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 257 StG ZH – f. Verweisung auf das Rekursverfahren"
+],
+"seiten": [
+88
+],
+"artikel": "§ 257",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-256",
+"nachher": "zh-stg-2026__par-258"
+},
+{
+"id": "zh-stg-2026__par-258",
+"titel": "§ 258 StG ZH – 3. Beschwerde an das Bundesgericht",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 258 StG ZH – 3. Beschwerde an das Bundesgericht"
+],
+"seiten": [
+88
+],
+"artikel": "§ 258",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-257",
+"nachher": "zh-stg-2026__par-259"
+},
+{
+"id": "zh-stg-2026__par-259",
+"titel": "§ 259 StG ZH – 4. Anfechtung der Kostenauflage",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 259 StG ZH – 4. Anfechtung der Kostenauflage"
+],
+"seiten": [
+88
+],
+"artikel": "§ 259",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-258",
+"nachher": "zh-stg-2026__par-260"
+},
+{
+"id": "zh-stg-2026__par-260",
+"titel": "§ 260 StG ZH – VI. Bezug und Erlass von Bussen",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"A. Verletzung von Verfahrenspflichten und Steuerhinterziehung",
+"§ 260 StG ZH – VI. Bezug und Erlass von Bussen"
+],
+"seiten": [
+88
+],
+"artikel": "§ 260",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-259",
+"nachher": "zh-stg-2026__par-261"
+},
+{
+"id": "zh-stg-2026__par-261",
+"titel": "§ 261 StG ZH – I. Steuerbetrug",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"B. Steuervergehen",
+"§ 261 StG ZH – I. Steuerbetrug"
+],
+"seiten": [
+89
+],
+"artikel": "§ 261",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-260",
+"nachher": "zh-stg-2026__par-262"
+},
+{
+"id": "zh-stg-2026__par-262",
+"titel": "§ 262 StG ZH – II. Veruntreuung von Quellensteuern",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"B. Steuervergehen",
+"§ 262 StG ZH – II. Veruntreuung von Quellensteuern"
+],
+"seiten": [
+89
+],
+"artikel": "§ 262",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-261",
+"nachher": "zh-stg-2026__par-263"
+},
+{
+"id": "zh-stg-2026__par-263",
+"titel": "§ 263 StG ZH – III. Verfahren",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"B. Steuervergehen",
+"§ 263 StG ZH – III. Verfahren"
+],
+"seiten": [
+89
+],
+"artikel": "§ 263",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-262",
+"nachher": "zh-stg-2026__par-264"
+},
+{
+"id": "zh-stg-2026__par-264",
+"titel": "§ 264 StG ZH – IV. Verjährung der Strafverfolgung",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"B. Steuervergehen",
+"§ 264 StG ZH – IV. Verjährung der Strafverfolgung"
+],
+"seiten": [
+89
+],
+"artikel": "§ 264",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-263",
+"nachher": "zh-stg-2026__par-265"
+},
+{
+"id": "zh-stg-2026__par-265",
+"titel": "§ 265 StG ZH – I. Ausführungsbestimmungen",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 265 StG ZH – I. Ausführungsbestimmungen"
+],
+"seiten": [
+90
+],
+"artikel": "§ 265",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-264",
+"nachher": "zh-stg-2026__par-266"
+},
+{
+"id": "zh-stg-2026__par-266",
+"titel": "§ 266 StG ZH – II. Änderung oder Kündigung des Konkordates über den Ausschluss von Steuerabkommen",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 266 StG ZH – II. Änderung oder Kündigung des Konkordates über den Ausschluss von Steuerabkommen"
+],
+"seiten": [
+90
+],
+"artikel": "§ 266",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-265",
+"nachher": "zh-stg-2026__par-267"
+},
+{
+"id": "zh-stg-2026__par-267",
+"titel": "§ 267 StG ZH – III. Mitwirkung kantonaler Behörden",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 267 StG ZH – III. Mitwirkung kantonaler Behörden"
+],
+"seiten": [
+90
+],
+"artikel": "§ 267",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-266",
+"nachher": "zh-stg-2026__par-268"
+},
+{
+"id": "zh-stg-2026__par-268",
+"titel": "§ 268 StG ZH – IV. Übergangsbestimmungen 1. Aufhebung bisherigen Rechts",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 268 StG ZH – IV. Übergangsbestimmungen 1. Aufhebung bisherigen Rechts"
+],
+"seiten": [
+90
+],
+"artikel": "§ 268",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-267",
+"nachher": "zh-stg-2026__par-269"
+},
+{
+"id": "zh-stg-2026__par-269",
+"titel": "§ 269 StG ZH – 2. Steuerjahre bis und mit 1999",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 269 StG ZH – 2. Steuerjahre bis und mit 1999"
+],
+"seiten": [
+90
+],
+"artikel": "§ 269",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-268",
+"nachher": "zh-stg-2026__par-270"
+},
+{
+"id": "zh-stg-2026__par-270",
+"titel": "§ 270 StG ZH – 3. Renten und Kapitalzahlungen aus Einrichtungen der beruflichen Vorsorge",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 270 StG ZH – 3. Renten und Kapitalzahlungen aus Einrichtungen der beruflichen Vorsorge"
+],
+"seiten": [
+90,
+91
+],
+"artikel": "§ 270",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-269",
+"nachher": "zh-stg-2026__par-271"
+},
+{
+"id": "zh-stg-2026__par-271",
+"titel": "§ 271 StG ZH – 4. Renten aus obligatorischer Unfallversicherung",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 271 StG ZH – 4. Renten aus obligatorischer Unfallversicherung"
+],
+"seiten": [
+91
+],
+"artikel": "§ 271",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-270",
+"nachher": "zh-stg-2026__par-272"
+},
+{
+"id": "zh-stg-2026__par-272",
+"titel": "§ 272 StG ZH – 5. Beiträge an Einrichtungen der beruflichen Vorsorge für den Einkauf von Beitragsjahren",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 272 StG ZH – 5. Beiträge an Einrichtungen der beruflichen Vorsorge für den Einkauf von Beitragsjahren"
+],
+"seiten": [
+91
+],
+"artikel": "§ 272",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-271",
+"nachher": "zh-stg-2026__par-273"
+},
+{
+"id": "zh-stg-2026__par-273",
+"titel": "§ 273 StG ZH – 6. Wechsel der zeitlichen Bemessung für die natürlichen Personen a. Grundsatz",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 273 StG ZH – 6. Wechsel der zeitlichen Bemessung für die natürlichen Personen a. Grundsatz"
+],
+"seiten": [
+91
+],
+"artikel": "§ 273",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-272",
+"nachher": "zh-stg-2026__par-274"
+},
+{
+"id": "zh-stg-2026__par-274",
+"titel": "§ 274 StG ZH – b. Provisorische Rechnung",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 274 StG ZH – b. Provisorische Rechnung"
+],
+"seiten": [
+91
+],
+"artikel": "§ 274",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-273",
+"nachher": "zh-stg-2026__par-275"
+},
+{
+"id": "zh-stg-2026__par-275",
+"titel": "§ 275 StG ZH – c. Ausserordentliche Einkünfte",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 275 StG ZH – c. Ausserordentliche Einkünfte"
+],
+"seiten": [
+91,
+92
+],
+"artikel": "§ 275",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-274",
+"nachher": "zh-stg-2026__par-276"
+},
+{
+"id": "zh-stg-2026__par-276",
+"titel": "§ 276 StG ZH – 7. Wechsel der zeitlichen Bemessung für die juristischen Personen a. Grundsatz",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 276 StG ZH – 7. Wechsel der zeitlichen Bemessung für die juristischen Personen a. Grundsatz"
+],
+"seiten": [
+92
+],
+"artikel": "§ 276",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-275",
+"nachher": "zh-stg-2026__par-277"
+},
+{
+"id": "zh-stg-2026__par-277",
+"titel": "§ 277 StG ZH – b. Provisorische Rechnung",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 277 StG ZH – b. Provisorische Rechnung"
+],
+"seiten": [
+92
+],
+"artikel": "§ 277",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-276",
+"nachher": "zh-stg-2026__par-278"
+},
+{
+"id": "zh-stg-2026__par-278",
+"titel": "§ 278 StG ZH – c. Ausserordentliche Einkünfte",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 278 StG ZH – c. Ausserordentliche Einkünfte"
+],
+"seiten": [
+92,
+93
+],
+"artikel": "§ 278",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-277",
+"nachher": "zh-stg-2026__par-279"
+},
+{
+"id": "zh-stg-2026__par-279",
+"titel": "§ 279 StG ZH",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 279 StG ZH"
+],
+"seiten": [
+93
+],
+"artikel": "§ 279",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-278",
+"nachher": "zh-stg-2026__par-280"
+},
+{
+"id": "zh-stg-2026__par-280",
+"titel": "§ 280 StG ZH – 9. Einsprache- und Rechtsmittelverfahren",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 280 StG ZH – 9. Einsprache- und Rechtsmittelverfahren"
+],
+"seiten": [
+93
+],
+"artikel": "§ 280",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-279",
+"nachher": "zh-stg-2026__par-281"
+},
+{
+"id": "zh-stg-2026__par-281",
+"titel": "§ 281 StG ZH – 10. Steuerbezug",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 281 StG ZH – 10. Steuerbezug"
+],
+"seiten": [
+93
+],
+"artikel": "§ 281",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-280",
+"nachher": "zh-stg-2026__par-282"
+},
+{
+"id": "zh-stg-2026__par-282",
+"titel": "§ 282 StG ZH",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 282 StG ZH"
+],
+"seiten": [
+93
+],
+"artikel": "§ 282",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-281",
+"nachher": "zh-stg-2026__par-282a"
+},
+{
+"id": "zh-stg-2026__par-282a",
+"titel": "§ 282a StG ZH – 12. Kapitalversicherungen mit Einmalprämie",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 282a StG ZH – 12. Kapitalversicherungen mit Einmalprämie"
+],
+"seiten": [
+93
+],
+"artikel": "§ 282a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-282",
+"nachher": "zh-stg-2026__par-282b-t1"
+},
+{
+"id": "zh-stg-2026__par-282b-t1",
+"titel": "§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne (Teil 1/3)",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+93,
+94
+],
+"artikel": "§ 282b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-282a",
+"nachher": "zh-stg-2026__par-282b-t2"
+},
+{
+"id": "zh-stg-2026__par-282b-t2",
+"titel": "§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne (Teil 2/3)",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+93,
+94
+],
+"artikel": "§ 282b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-282b-t1",
+"nachher": "zh-stg-2026__par-282b-t3"
+},
+{
+"id": "zh-stg-2026__par-282b-t3",
+"titel": "§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne (Teil 3/3)",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 282b StG ZH – 13. Ausdehnung des Beteiligungsabzugs auf Kapital- und Aufwertungsgewinne"
+],
+"seiten": [
+93,
+94
+],
+"artikel": "§ 282b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-282b-t2",
+"nachher": "zh-stg-2026__par-283"
+},
+{
+"id": "zh-stg-2026__par-283",
+"titel": "§ 283 StG ZH",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 283 StG ZH"
+],
+"seiten": [
+94
+],
+"artikel": "§ 283",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-282b-t3",
+"nachher": "zh-stg-2026__par-284"
+},
+{
+"id": "zh-stg-2026__par-284",
+"titel": "§ 284 StG ZH – VI. Änderung bisherigen Rechts",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 284 StG ZH – VI. Änderung bisherigen Rechts"
+],
+"seiten": [
+94
+],
+"artikel": "§ 284",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-283",
+"nachher": "zh-stg-2026__par-285"
+},
+{
+"id": "zh-stg-2026__par-285",
+"titel": "§ 285 StG ZH – VII. Inkrafttreten des neuen Gesetzes",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 285 StG ZH – VII. Inkrafttreten des neuen Gesetzes"
+],
+"seiten": [
+94
+],
+"artikel": "§ 285",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-284",
+"nachher": "zh-stg-2026__par-1x"
+},
+{
+"id": "zh-stg-2026__par-1x",
+"titel": "§ 1 StG ZH – Bisherige Mitglieder der Steuerrekurskommissionen",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 1 StG ZH – Bisherige Mitglieder der Steuerrekurskommissionen"
+],
+"seiten": [
+94,
+95
+],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-285",
+"nachher": "zh-stg-2026__par-1xx"
+},
+{
+"id": "zh-stg-2026__par-1xx",
+"titel": "§ 1 StG ZH – Kapitalrückzahlungen für Gratisaktien",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 1 StG ZH – Kapitalrückzahlungen für Gratisaktien"
+],
+"seiten": [
+95
+],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-1x",
+"nachher": "zh-stg-2026__par-2x"
+},
+{
+"id": "zh-stg-2026__par-2x",
+"titel": "§ 2 StG ZH – Sondersteuer",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 2 StG ZH – Sondersteuer"
+],
+"seiten": [
+96
+],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-1xx",
+"nachher": "zh-stg-2026__par-3x-t1"
+},
+{
+"id": "zh-stg-2026__par-3x-t1",
+"titel": "§ 3 StG ZH – Unterstützung besonders betroffener Gemeinden (Teil 1/2)",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 3 StG ZH – Unterstützung besonders betroffener Gemeinden"
+],
+"seiten": [
+96
+],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-2x",
+"nachher": "zh-stg-2026__par-3x-t2"
+},
+{
+"id": "zh-stg-2026__par-3x-t2",
+"titel": "§ 3 StG ZH – Unterstützung besonders betroffener Gemeinden (Teil 2/2)",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 3 StG ZH – Unterstützung besonders betroffener Gemeinden"
+],
+"seiten": [
+96
+],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-3x-t1",
+"nachher": "zh-stg-2026__par-4x"
+},
+{
+"id": "zh-stg-2026__par-4x",
+"titel": "§ 4 StG ZH – Unterstützung der Landeskirchen",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"§ 4 StG ZH – Unterstützung der Landeskirchen"
+],
+"seiten": [
+97
+],
+"artikel": "§ 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stg-2026__par-3x-t2",
 "nachher": null
 }
 ]

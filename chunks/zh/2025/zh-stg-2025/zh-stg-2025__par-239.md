@@ -1,0 +1,16 @@
+---
+id: zh-stg-2025__par-239
+quelle: zh-stg-2025
+jur: zh
+jahre: [2025]
+typ: gesetz
+titel: "§ 239 StG ZH"
+artikel: "§ 239"
+seiten: "83"
+qmd: {metadata: {jur: zh, jahre: [2025], typ: gesetz}}
+---
+> ZH · Steuerjahr 2025 · StG ZH · Dritter Teil: Steuerstrafrecht › A. Verletzung von Verfahrenspflichten und Steuerhinterziehung › § 239 StG ZH · S. 83
+
+### § 239 StG ZH
+
+§ 239.

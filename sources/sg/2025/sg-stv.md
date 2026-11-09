@@ -1,6 +1,6 @@
 ---
 id: sg-stv
-titel: Steuerverordnung SG (sGS 811.11)
+titel: Steuerverordnung SG (sGS 811.11) – Version gültig ab 01.01.2024
 kurz: StV SG
 jurisdiktion: sg
 jahre:
@@ -8,1720 +8,1066 @@ jahre:
 - 2026
 typ: verordnung
 stand: '2024-01-01'
-quelle_url: https://sg.lexwork.naz.ch/de/dta/811.11.pdf
-raw: raw/sg/2025/sg-stv.pdf
-sha256: cdfdbb6ece6242e5db59d67f84f42c05146e5031c5d39bc13b361993e0d52548
+quelle_url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.11/versions/3565
+raw: raw/sg/2025/sg-stv.json
+sha256: 3132abb71b6cdd68812403c0e2db44775f15cb253a9e31233548b2cae62328d7
 abgerufen: '2026-11-09'
-seiten: 38
-konvertierung: pdftotext -layout (poppler), Kopf-/Fusszeilen entfernt, sonst verbatim
+einheiten: 136
+konvertierung: LexWork show_as_json -> Markdown je Artikel/§ (tools/lexwork.py)
 ---
-# Steuerverordnung SG (sGS 811.11)
-
-> Kanton St. Gallen (SG) · Verordnung · Quelle: <https://sg.lexwork.naz.ch/de/dta/811.11.pdf>
-
-<!-- Seite 1 -->
-Gesetzessammlung des Kantons St.Gallen   811.11
-
-
-Steuerverordnung
-vom 20. Oktober 1998 (Stand 1. Januar 2024)
-
-
-Die Regierung des Kantons St.Gallen
-erlässt
-in Anwendung des Steuergesetzes vom 9. April 19981
-als Verordnung:2
-
-
-ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN   (1.)
-
-Art. 1   Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemein-
-    schaften (Art. 3 StG)
-    a) Grundsatz*
-1
- Die natürlichen Personen entrichten die Einkommens- und Vermögenssteuern
-gemäss ihrer Religionszugehörigkeit der entsprechenden Kirchgemeinde oder der
-Jüdischen Gemeinde.*
-2
- Bei Austritt aus der als öffentlich-rechtliche Körperschaft anerkannten Religions-
-gemeinschaft erlischt die Steuerpflicht mit der rechtsgültig abgegebenen Austritts-
-erklärung.*
-
-Art. 2   b) Bei gemischter Ehe
-1
- Die Einkommens- und Vermögenssteuern werden bei gemischter Ehe gemäss
-Religionszugehörigkeit der Ehegatten je zur Hälfte den entsprechenden Kirchge-
-meinden oder der Jüdischen Gemeinde entrichtet.*
-2
- Jeder Ehegatte kann verlangen, dass die Einkommens- und Vermögenssteuern
-nach dem Verhältnis der Religionszugehörigkeit aller Familienglieder erhoben
-werden.*
-
-
-1   sGS 811.1.
-2   Abgekürzt StV. nGS 33–117; nGS 36–92; nGS 42–24. In Vollzug ab 1. Januar 1999.
-
-
-nGS 33–117
-
-<!-- Seite 2 -->
-Art. 3*   Ausscheidung der Gemeindeanteile (Art. 8 StG)
-    a) Ausscheidungsregeln
-1
- Eine Ausscheidung der Gemeindeanteile am Zuschlag zu den Gewinn- und Kapi-
-talsteuern sowie zu den Grundstückgewinnsteuern erfolgt für die politischen
-Gemeinden, zu denen eine steuerrechtliche Zugehörigkeit besteht.
-2
- Die Ausscheidung richtet sich nach den Grundsätzen der Bundesgesetzgebung
-über die Steuerharmonisierung und der bundesgerichtlichen Rechtsprechung zum
-Doppelbesteuerungsverbot, soweit diese Verordnung nichts anderes bestimmt.
-3
- Die Ausscheidung der Gemeindeanteile am Zuschlag zu den Gewinn- und Kapi-
-talsteuern erfolgt in Fällen nach Art. 99bis des Steuergesetzes vom 9. April 19983, in
-denen zudem weder ein steuerbarer Gewinn noch ein steuerbares Kapital vorliegt,
-zu gleichen Teilen unter den politischen Gemeinden, zu denen eine steuerrechtli-
-che Zugehörigkeit besteht.*
-
-Art. 4*   …
-
-Art. 5   c) Anteile thurgauischer Schulgemeinden
-1
- Die Schulgemeindeanteile der thurgauischen Schulgemeinden nach der Verein-
-barung über die Schul- und Steuerverhältnisse in Grenzgebieten des Kantons
-Thurgau vom 1. September 19874 betragen die Hälfte der Gemeindeanteile nach
-Art. 8 Abs. 1 des Steuergesetzes.*
-2
- Führt die thurgauische Schulgemeinde nicht die gesamte Volksschule, wird der
-ihr zukommende Schulgemeindeanteil angemessen herabgesetzt.
-
-Art. 6   d) Verfahren
-1
-    Das kantonale Steueramt nimmt die Ausscheidungen vor.
-
-
-3   sGS 811.1.
-4   sGS 213.352.6.
-
-<!-- Seite 3 -->
-ZWEITER TEIL: STAATSSTEUERN   (2.)
-
-Erster Abschnitt: Einkommens- und Vermögenssteuern   (2.1.)
-
-Art. 7   Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)
-1
- Betriebsstätten sind insbesondere Zweigniederlassungen, Fabrikationsstätten,
-Werkstätten, Verkaufsstellen, ständige Vertretungen, Bergwerke und andere Stät-
-ten der Ausbeutung von Bodenschätzen sowie Bau- oder Montagestellen von we-
-nigstens 12 Monaten Dauer.
-
-Art. 8   Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)
-1
-  Die Ehe ist rechtlich getrennt, wenn sie zivilrechtlich5 getrennt oder geschieden
-ist.
-2
-  Als tatsächlich getrennt gilt die Ehe, wenn der gemeinsame Haushalt aufgehoben
-ist, zwischen den Ehegatten keine Gemeinschaftlichkeit der Mittel für Wohnung
-und Unterhalt mehr besteht und eine allfällige Unterstützung des einen Ehegatten
-durch den andern nur noch in ziffernmässig bestimmten Beträgen geleistet wird.
-
-Art. 9*   Besteuerung nach dem Aufwand (Art. 27 StG)
-1
-  Für die Steuer vom Einkommen wird die Verordnung über die Besteuerung nach
-dem Aufwand bei der direkten Bundessteuer vom 20. Februar 20136 sachgemäss
-angewendet. Sozialabzüge nach Art. 48 und 64 des Steuergesetzes sind nicht zuläs-
-sig.*
-
-Art. 10   Steuerbares Einkommen
-    a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)
-1
- Die Naturalbezüge der Unselbständigerwerbenden werden zum Marktwert be-
-messen. Sie werden in der Regel nach den für die eidgenössische Alters- und Hin-
-terlassenenversicherung geltenden Ansätzen bewertet.
-2
- Die Entnahmen von Waren und Dienstleistungen aus der eigenen Unterneh-
-mung für den Steuerpflichtigen, die von ihm unterhaltenen Personen und die
-Arbeitnehmer werden zu den Selbstkosten angerechnet.
-
-
-5   Vgl. Art. 111 ff., 117 f. und 137 des Schweizerischen Zivilgesetzbuches vom 10. Dezember
-    1907, SR 210.
-6   SR 642.123.
-
-<!-- Seite 4 -->
-Art. 11   b) Einkünfte aus selbständiger Erwerbstätigkeit
-    1. Kapitalgewinne (Art. 31 Abs. 2 StG)
-1
- Bei kaufmännischer Buchführung7 gilt als Kapitalgewinn der den Einkommens-
-steuerwert übersteigende Erlös.
-2
- Liegen keine kaufmännisch geführten Bücher vor, wird der Kapitalgewinn nach
-dem Differenzbetrag zwischen dem Erlös und den ausgewiesenen Gestehungskos-
-ten berechnet. Die steuerlich berücksichtigten Abschreibungen werden von den
-Gestehungskosten abgerechnet.
-
-Art. 12*   …
-
-Art. 13*   c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
-1
- Als Einkünfte aus beweglichem Vermögen gelten alle Vermögenserträge, die dem
-Berechtigten namentlich durch Zahlung, Überweisung, Gutschrift oder Verrech-
-nung zufliessen.
-2
-    …*
-3
- Die Einkünfte werden dem Einkommen des Jahres zugerechnet, in dem der Steu-
-erpflichtige einen rechtlichen Anspruch darauf erhält. Art. 33 Abs. 1 Bst. c zweiter
-Satz des Steuergesetzes bleibt vorbehalten.
-
-Art. 13bis*   …
-
-Art. 13ter*   …
-
-Art. 14*   d) Mietwert von selbst genutzten Grundstücken (Art. 34 Abs. 2, 3 und
-    4 StG)*
-1
- Der Mietwert nach Art. 34 Abs. 1 Bst. b des Steuergesetzes vom 9. April 1998
-wird im Verfahren nach dem Gesetz über die Durchführung der Grundstück-
-schätzung vom 9. November 20008 ermittelt.*
-2
- Der Mietwert nach Art. 34 Abs. 3 des Steuergesetzes wird reduziert, wenn:*
-a) er 30 Prozent der Bruttoeinkünfte des Steuerpflichtigen übersteigt und
-b) das steuerbare Vermögen des Steuerpflichtigen höchstens Fr. 600 000.– be-
-   trägt.
-
-
-7   Vgl. Art. 957 ff. des BG betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches
-    (Fünfter Teil: Obligationenrecht) vom 30. März 1911, SR 220.
-8   sGS 814.1.
-
-<!-- Seite 5 -->
- Sind die Voraussetzungen nach Abs. 2 dieser Bestimmung erfüllt, wird der Miet-
-wert soweit reduziert, wie er 30 Prozent der Bruttoeinkünfte des Steuerpflichtigen
-übersteigt. Art. 34 Abs. 4 Satz 2 des Steuergesetzes bleibt vorbehalten.*
-
-Art. 15   e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)
-1
- Als Unterhaltsbeiträge, die ein Ehegatte bei geschiedener oder getrennter Ehe an
-den Unterhalt des andern ausrichtet, gelten ausschliesslich die laufenden Beiträge.
-
-Art. 16*   …
-
-Art. 17*   …
-
-Art. 18   Berufskosten bei unselbständiger Erwerbstätigkeit
-    a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)*
-1
-    …*
-   Als notwendige Kosten für Fahrten zwischen Wohn- und Arbeitsstätte können
-1bis
-
-bis zum Betrag nach Art. 39 Abs. 1 Bst. a des Steuergesetzes abgezogen werden:*
-a) die notwendigen Auslagen für die Benützung öffentlicher Verkehrsmittel oder
-b) die notwendigen Kosten je gefahrene Kilometer für die Benützung eines pri-
-    vaten Fahrzeugs, sofern kein öffentliches Verkehrsmittel zur Verfügung steht
-    oder dessen Benützung nicht zumutbar ist.
-2
-    …*
-3
- Die Kosten des privaten Fahrzeugs nach Abs. 1bis Bst. b dieser Bestimmung wer-
-den gemäss den für die direkte Bundessteuer massgebenden Ansätzen für die Be-
-nützung eines privaten Fahrzeugs9 bestimmt.*
-4
-    …*
-
-Art. 18a*   abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Ge-
-    schäftsfahrzeugen
-1
- Nutzt der Steuerpflichtige ein Geschäftsfahrzeug unentgeltlich für Fahrten zwi-
-schen Wohn- und Arbeitsstätte sowie für weitere private Zwecke, kann anstelle
-der Abrechnung über die tatsächlichen Kosten der privaten Nutzung und des
-Fahrkostenabzugs nach Art. 18 dieser Verordnung eine pauschale Fahrkostenbe-
-rechnung vorgenommen werden.
-
-
-9   Vgl. Anhang zur V über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit
-    bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1.
-
-<!-- Seite 6 -->
- Bei der pauschalen Fahrkostenberechnung gelten 0,9 Prozent des Kaufpreises des
-Fahrzeugs als monatliches Einkommen aus dieser Nutzung.
-
-Art. 19   b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)
-1
- Mehrkosten für Verpflegung werden nach den für die direkte Bundessteuer
-massgebenden Pauschalansätzen10 abgezogen:
-a) wenn der Steuerpflichtige wegen grosser Entfernung zwischen Wohn- und
-   Arbeitsstätte oder wegen kurzer Essenspause eine Hauptmahlzeit nicht zu
-   Hause einnehmen kann;
-b) bei durchgehender Schicht- oder Nachtarbeit.
-2
- Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestau-
-rant des Arbeitgebers eingenommen werden kann oder durch einen angemesse-
-nen Beitrag des Arbeitgebers verbilligt wird.
-3
- Der Schichtarbeit ist die gestaffelte oder unregelmässige Arbeitszeit gleichgestellt,
-wenn beide Hauptmahlzeiten nicht zur üblichen Zeit zu Hause eingenommen
-werden können.
-
-Art. 20   c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)
-1
- Steuerpflichtige mit auswärtigem Arbeitsort, denen die alltägliche Rückkehr an
-den steuerrechtlichen Wohnsitz nicht möglich ist oder nicht zugemutet werden
-kann, können die Mehrkosten für den auswärtigen Aufenthalt abziehen.
-2
- Der Abzug der notwendigen Mehrkosten der auswärtigen Verpflegung wird nach
-den für die direkte Bundessteuer massgebenden Pauschalansätzen11 bestimmt.
-3
- Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten
-für ein Zimmer.
-4
- Für den Abzug der notwendigen Fahrkosten zwischen Arbeitsort und steuer-
-rechtlichem Wohnsitz wird Art. 18 dieser Verordnung sachgemäss angewendet.
-
-Art. 21   d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)
-1
- Für übrige notwendige Berufskosten werden Fr. 700.– zuzüglich 10 Prozent der
-Nettoeinkünfte, höchstens Fr. 2400.– abgezogen.
-2
-  Die Nettoeinkünfte umfassen die Bruttoeinkünfte abzüglich Prämien und Bei-
-träge nach Art. 45 Abs. 1 Bst. d und f des Steuergesetzes, ausgenommen die Bei-
-träge für den Einkauf von Beitragsjahren.
-
-10   Vgl. Anhang zur eidgV über den Abzug von Berufskosten der unselbständigen Erwerbstätig-
-    keit bei der direkten Bundessteuer vom 10.Februar 1993, SR 642.118.1.
-11   Vgl. Anhang zur V über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit
-    bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1.
-
-<!-- Seite 7 -->
-    Der Nachweis höherer notwendiger Kosten bleibt vorbehalten.
-
-Art. 22*   e) Unselbständige Nebenerwerbstätigkeit (Art. 39 Abs. 1 Bst. a bis c
-    StG)
-1
- Bei unselbständiger Nebenerwerbstätigkeit werden die notwendigen Berufskos-
-ten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen12 abge-
-zogen.
-2
-  Für die Berufskosten von nebenamtlichen Behördenmitgliedern werden zusätz-
-lich abgezogen:
-a) pauschal bis Fr. 2400.–, oder
-b) je Sitzung, für die ein Sitzungsgeld ausgerichtet wird, bis Fr. 60.–, insgesamt
-    höchstens Fr. 4000.–.
-3
-    Der Nachweis höherer notwendiger Berufskosten bleibt vorbehalten.
-
-Art. 23   Abzüge bei selbständiger Erwerbstätigkeit
-    a) Abschreibungen (Art. 41 Abs. 1 Bst. a StG)
-1
- Für Wertverminderungen von Geschäftsaktiven sind Abschreibungen zulässig,
-soweit sie buchmässig oder in besonderen Abschreibungstabellen ausgewiesen
-werden.
-2
- Die Höhe der Abschreibungen richtet sich nach dem Anlagewert (Anschaffungs-
-oder Herstellungskosten) und dem Endwert des abzuschreibenden Vermögens-
-werts. Die Abschreibungen entsprechen der Entwertung der einzelnen Vermö-
-genswerte im Geschäftsjahr oder werden nach der voraussichtlichen Gebrauchs-
-dauer angemessen verteilt.
-3
- Die Höherbewertung von Aktiven kann den Ausgangswert für die Abschreibun-
-gen erhöhen, soweit sie den Geschäftsertrag vermehrt oder zum Ausgleich von
-Verlusten dient, die nach Art. 42 des Steuergesetzes verrechenbar sind. Vorbehal-
-ten bleiben die handelsrechtlichen Vorschriften des Obligationenrechts.13
-4
- Weitergehende Abschreibungen werden unter der Voraussetzung zugelassen,
-dass die Steuervorteile, die dem Steuerpflichtigen aus der zeitlichen Vorverschie-
-bung der Abschreibungen erwachsen, durch einen gleichwertigen Zuschlag zum
-steuerbaren Einkommen ausgeglichen werden.
-
-
-12   Vgl. Anhang zur eidgV über den Abzug von Berufskosten der unselbständigen Erwerbstätig-
-    keit bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1.
-13   Vgl. Art. 662 ff., 764 Abs. 2, Art. 805 und 858 Abs. 2 sowie Art. 960 des BG betreffend die Er-
-    gänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) vom
-    30. März 1911, SR 220.
-
-<!-- Seite 8 -->
-Art. 24   b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)
-    Für nur vorübergehende Wertveränderungen sind Wertberichtigungen zulässig.
-2
- Wertberichtigungen sind Korrekturposten auf Aktiven für bereits eingetretene
-Entwertung oder in unmittelbarer Zukunft zu erwartende Vermögenseinbussen.
-In begründeten Fällen sind auch Korrekturposten zu Passiven möglich.
-3
- Zu den Wertberichtigungen auf Aktiven gehören insbesondere das Delkredere,
-die Wertberichtigungen auf Liegenschaften, Beteiligungen und Vorräten sowie die
-verbuchten, nicht realisierten Kursverluste auf Wertpapieren oder Fremdwährun-
-gen per Bilanzstichtag.
-
-Art. 25   c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)
-1
- Rückstellungen zum Ausgleich drohender Geschäftsverluste sind zulässig:
-a) für Verpflichtungen, die durch Ereignisse in den für die Einkommensbesteue-
-   rung massgeblichen Geschäftsjahren begründet sind, deren Rechtsbestand
-   oder Höhe jedoch noch unbestimmt ist;
-b) für unmittelbar drohende Verlustrisiken, die in den massgeblichen Geschäfts-
-   jahren begründet werden.
-
-Art. 26   d) Verluste (Art. 42 StG)
-1
-  Als Unterbilanz gilt der Betrag, um den das Fremdkapital die ausgewiesenen Ak-
-tiven übersteigt.
-
-Art. 27   e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)
-1
- Die für eine Ersatzbeschaffung gebildete Rückstellung kann innert drei Jahren
-zur Abschreibung auf dem Ersatzobjekt verwendet werden. Die Frist wird er-
-streckt, wenn die Verzögerung durch Umstände bedingt ist, die nicht im Einfluss-
-bereich des Steuerpflichtigen liegen.
-2
- Zulässig ist auch die Übertragung stiller Reserven auf ein Ersatzobjekt, dessen Er-
-werb bereits im vorangegangenen Geschäftsjahr erfolgte.
-3
- Die stillen Reserven eines veräusserten Anlageobjekts können nur soweit auf ein
-Ersatzobjekt übertragen werden, als dadurch der Einkommenssteuerwert des Er-
-satzobjekts nicht unter den bisherigen Einkommenssteuerwert des veräusserten
-Anlageobjekts fällt. Auf dem verbleibenden Einkommenssteuerwert können die
-ordentlichen Abschreibungen vorgenommen werden.
-
-<!-- Seite 9 -->
-Art. 28   Abzüge bei Nutzung von Liegenschaften des Privatvermögens
-    a) tatsächliche Kosten (Art. 44 Abs. 2 StG)
-1
- Als Unterhaltskosten gelten:
-a) die Auslagen für die Instandhaltung, Instandstellung und Ersatzbeschaffung,
-    soweit sie nicht wertvermehrende Aufwendungen darstellen, sowie Einlagen
-    in den Reparatur- und Erneuerungsfonds von Stockwerkeigentümergemein-
-    schaften, sofern diese Mittel nur zur Bestreitung von Unterhaltskosten für die
-    Gemeinschaftsanlagen verwendet werden und sie dem Steuerpflichtigen un-
-    widerruflich entzogen sind;
-b) bei Eigengebrauch die Betriebskosten, soweit sie nicht unmittelbar durch die
-    Nutzung bedingt sind, wie Unterhaltsperimeter und Grundsteuern;
-c) bei Vermietung oder Verpachtung die Betriebskosten, die nicht auf den Mie-
-    ter oder Pächter überwälzt werden.
-2
- Zu den abziehbaren Versicherungsprämien gehören die Prämien für Sach- und
-Haftpflichtversicherung für die Liegenschaft.
-3
-  Als Verwaltungskosten abziehbar sind auch die notwendigen tatsächlichen Aus-
-lagen des Steuerpflichtigen, soweit sie nicht Entschädigung für eigene Arbeit dar-
-stellen.
-
-Art. 29*   b) Pauschalabzug (Art. 44 Abs. 4 StG)
-1
- Für vorwiegend Wohnzwecken dienende Liegenschaften kann anstelle der tat-
-sächlichen Kosten ein Pauschalabzug von 20 Prozent des Bruttomietertrags ohne
-Nebenkosten oder des angerechneten Eigenmietwerts geltend gemacht werden.
-2
- Der Steuerpflichtige kann für jede Steuerperiode und für jede Liegenschaft zwi-
-schen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen.
-
-Art. 29bis*   …
-
-Art. 29ter*   …
-
-Art. 29quater* …
-
-Art. 29quinquies* …
-
-Art. 30*   Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)
-1
- Als Kinder gelten die leiblichen Kinder sowie die Adoptiv-, Stief- und Pflegekin-
-der.
-
-<!-- Seite 10 -->
-Art. 30a*   Liquidationsgewinne (Art. 52bis StG)
-  Für die Besteuerung der Liquidationsgewinne mit Vorsorgecharakter wird die
-eidgenössische Verordnung über die Besteuerung der Liquidationsgewinne bei de-
-finitiver Aufgabe der selbständigen Erwerbstätigkeit vom 17. Februar 201014 sach-
-gemäss angewendet.
-
-Art. 30bis*   Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)
-1
- Der Verkehrswert und der Ertragswert nach Art. 57 Abs. 1 und Art. 58 des Steu-
-ergesetzes vom 9. April 199815 werden im Verfahren nach dem Gesetz über die
-Durchführung der Grundstückschätzung vom 9. November 200016 ermittelt.*
-2
- Bei Neu-, Um- und Anbauten, für die noch keine Schätzung nach Abs. 1 dieser
-Bestimmung besteht, erfolgt ein Zuschlag zur geltenden Schätzung in der Höhe
-von 80 Prozent der Neu-, Um- und Anbaukosten.
-
-Art. 31   Steuerfreies Vermögen (Art. 63 Bst. a StG)
-1
- Zum Hausrat gehören die Gegenstände, die zur üblichen Einrichtung einer Woh-
-nung gehören und tatsächlich Wohnzwecken dienen, namentlich Möbel, Teppi-
-che, Bilder, Küchen- und Gartengeräte, Geschirr, Bücher sowie Geräte der Unter-
-haltungselektronik.
-2
- Als persönliche Gebrauchsgegenstände gelten die Gebrauchsgegenstände des All-
-tags, namentlich Kleider, Schmuck, Sportgeräte, Foto- und Filmapparate.
-3
-  Nicht zum Hausrat oder zu den persönlichen Gebrauchsgegenständen zählen na-
-mentlich Motorfahrzeuge, Boote, Reitpferde und Kunstsammlungen sowie Ver-
-mögensgegenstände und Sammlungen, deren Wert das gemeinhin Übliche deut-
-lich übersteigt, oder die geeignet sind, zum Anknüpfungspunkt erheblicher Wert-
-zuwachsgewinne zu werden.
-
-Art. 32*   …
-
-
-14   SR 642.114.
-15   sGS 811.1.
-16   sGS 814.1.
-
-<!-- Seite 11 -->
-Art. 32bis*   Bemessung des Einkommens bei selbständiger Erwerbstätigkeit
-    (Art. 67 Abs. 2 StG)
-1
- Die ordentlichen Gewinne werden nur bei unterjähriger Steuerpflicht und zu-
-gleich unterjährigem Geschäftsjahr für die Satzbestimmung aufgrund der Dauer
-der Steuerpflicht auf zwölf Monate umgerechnet. Übersteigt jedoch die Dauer des
-unterjährigen Geschäftsjahres die Dauer der Steuerpflicht, werden die ordentli-
-chen Gewinne für die Satzbestimmung nur auf Grund der Dauer des Geschäftsjah-
-res auf zwölf Monate umgerechnet.
-
-Art. 32ter*   Bemessung des Vermögens bei Vermögensanfall von Todes wegen
-    (Art. 68 Abs. 4 StG)
-1
-  Erbt der Steuerpflichtige während der Steuerperiode Vermögen, wird die Veran-
-lagung des Vermögens nur angepasst, wenn der Vermögensanfall mindestens
-Fr. 50 000.– beträgt.
-
-Art. 32quater* …
-
-Zweiter Abschnitt: Gewinn- und Kapitalsteuern   (2.2.)
-
-Art. 33   Ausländische juristische Personen, Handelsgesellschaften und Perso-
-    nengesamtheiten (Art. 70 Abs. 3 StG)
-1
- Die Vorschriften über die Besteuerung der juristischen Personen werden sachge-
-mäss angewendet.
-2
- Zulasten der Erfolgsrechnung verbuchte Lohn- oder Spesenzahlungen an Gesell-
-schafter oder diesen nahestehende Personen werden dem steuerbaren Gewinn
-hinzugerechnet, soweit sie nicht geschäftsmässig begründet sind oder einem Dritt-
-vergleich nicht standhalten.
-3
- Zulasten der Erfolgsrechnung verbuchte Steuern sind abzugsfähig, soweit es sich
-um Steuern handelt, die auf das Betriebsergebnis entfallen. Nicht abzugsfähig sind
-Steuern, die den Gesellschaftern oder diesen nahestehenden Personen persönlich
-zuzurechnen sind.
-
-Art. 34   Wirtschaftliche Zugehörigkeit (Art. 72 Abs. 3 StG)
-1
- Die Vorschrift der Einkommenssteuer über die Qualifikation als Betriebsstätte17
-wird sachgemäss angewendet.
-
-Art. 35*   …
-
-17   Siehe Art. 7 dieser V.
-
-<!-- Seite 12 -->
-Art. 36*   …
-
-Art. 37   Steuernachfolge (Art. 78 StG)
-1
-  Verluste und Verlustvorträge von aufgelösten juristischen Personen können
-nicht übernommen werden, wenn die Fusion, Vereinigung oder Übernahme zum
-Zweck der Steuerumgehung erfolgt, namentlich bei der Übernahme wirtschaftlich
-liquidierter oder nur noch aus einem Aktienmantel bestehender Gesellschaften.
-
-Art. 38*   Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)
-1
-  Juristische Personen, deren Gewinn und Kapital auf die Dauer teilweise aus-
-schliesslich öffentlichen oder gemeinnützigen Zwecken dienen, können die Steuer-
-freiheit für die entsprechenden Teile des Gewinns und des Kapitals beanspruchen.
-2
-  Von der Steuerpflicht befreit sind Zweckverbände von Gemeinden und öffent-
-lich-rechtliche Korporationen, die ausschliesslich öffentliche Aufgaben erfüllen
-wie Kehricht- oder Kadaververwertung, Abwasserreinigung und Wasserversor-
-gung.
-
-Art. 39   Berechnung des Reingewinns
-    a) Leistungen zwischen nahestehenden Personen
-    (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)
-1
- Leistungen werden auch zwischen nahestehenden Personen zum Marktwert
-angerechnet.
-2
- Der Marktwert ergibt sich aus dem jeweiligen Marktpreis, den jeweiligen Geste-
-hungskosten zuzüglich eines angemessenen Aufschlags oder dem jeweiligen End-
-verkaufspreis abzüglich einer angemessenen Gewinnmarge.
-3
- Den beteiligten Personen steht der Nachweis der Richtigkeit einer anderen Be-
-wertung aufgrund besonderer Umstände offen.
-
-Art. 40*   b) Kollektive Kapitalanlagen mit direktem Grundbesitz (Art. 82 Abs. 3
-    StG)
-1
- Zum steuerbaren Gewinn kollektiver Kapitalanlagen gehören auch die Gewinne
-aus der Veräusserung von direktem Grundbesitz.
-
-Art. 41*   c) Freiwillige Zuwendungen (Art. 84 Abs. 2 Bst. c StG)
-1
- Freiwillige Zuwendungen sind nicht geschäftsmässig begründet, soweit sie vor-
-wiegend im Interesse von Personen geleistet werden, die der zuwendenden juristi-
-schen Person nahestehen.
-
-<!-- Seite 13 -->
-Art. 42*   d) Abschreibungen, Wertberichtigungen, Rückstellungen und Ersatz-
-    beschaffungen (Art. 85 und 87 StG)
-1
- Die Vorschriften der Einkommenssteuer über die Abschreibungen, Wertberichti-
-gungen, Rückstellungen und Ersatzbeschaffungen werden sachgemäss angewen-
-det.
-2
- Wertverminderungen auf Beteiligungen nach Art. 91 Abs. 2 Bst. b des Steuerge-
-setzes sind nur endgültig, wenn die Gesellschaft ihre Geschäftstätigkeit eingestellt
-hat oder soweit eine dauerhafte wesentliche Werteinbusse aus anderen Gründen
-nachgewiesen werden kann.
-
-Art. 43   e) Verluste (Art. 86 Abs. 2 StG)
-1
- Als Unterbilanz gilt der Betrag, der zur Deckung des Grundkapitals und der ge-
-setzlichen Reserven fehlt.
-2
- Ein qualifizierter Fehlbetrag nach Art. 670 OR18 ist nicht Voraussetzung für die
-Verrechnung von Verlusten mit Sanierungsleistungen.
-
-Art. 44*   …
-
-Art. 45*   …
-
-Art. 46   3. Buchgewinne oder -verluste
-1
- Entsteht durch die Übernahme von Aktiven und Passiven einer Kapitalgesell-
-schaft oder Genossenschaft, deren Beteiligungsrechte der übernehmenden juristi-
-schen Person gehören, ein Buchverlust, kann dieser steuerlich nur in dem Umfang
-abgezogen werden, in dem diese Beteiligungsrechte handelsrechtlich hätten abge-
-schrieben werden müssen (echter Fusionsverlust).
-2
- Ein Fusionsgewinn gilt als Beteiligungsertrag, soweit die Gestehungskosten den
-Gewinnsteuerwert nicht übersteigen.
-
-Art. 47*   …
-
-Art. 48*   …*
-
-Art. 49*   …
-
-
-18   BG betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligatio-
-    nenrecht) vom 30. März 1911, SR 220.
-
-<!-- Seite 14 -->
-Art. 50   b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90
-    und Art. 284 StG)
-1
-  Als Ertrag aus Beteiligungen gelten alle ordentlichen und ausserordentlichen
-Gewinnausschüttungen an den Inhaber des Beteiligungsrechts, soweit sie als Er-
-trag verbucht und dem steuerbaren Reingewinn zugerechnet worden sind.
-2
- Keine Beteiligungserträge sind insbesondere:
-a) Liquidationsüberschüsse und Fusionsgewinne, soweit die Gestehungskosten
-    den Gewinnsteuerwert übersteigen;
-b) Leistungen, die geschäftsmässig begründeter Aufwand der Gesellschaft oder
-    Genossenschaft sind;
-c) Kapital- und Aufwertungsgewinne sowie Erlöse aus dem Verkauf von Bezugs-
-    rechten, soweit nicht Art. 91 des Steuergesetzes anwendbar ist.
-
-Art. 51*   c) Kapitalgewinne auf Beteiligungen (Art. 91 Abs. 2 Bst. b StG)
-1
- Für die Ermittlung der Quote von 10 Prozent können mehrere Verkäufe in ei-
-nem Geschäftsjahr zusammengerechnet werden.
-
-Art. 52*   …
-
-Art. 52bis*   …
-
-Art. 53   Steuerperiode (Art. 102 Abs. 3 StG)
-1
- Der Zeitpunkt des Geschäftsabschlusses kann mit Bewilligung des kantonalen
-Steueramtes ausnahmsweise verlegt werden, ohne dass in jedem Kalenderjahr ein
-Geschäftsabschluss erstellt wird.
-2
- Die Verlegung des Geschäftsabschlusses wird vorgängig bewilligt, wenn Verzer-
-rungen in der Bemessungsgrundlage ausgeschlossen sind. Die Kapitalsteuer ist bei
-bewilligter Verlegung des Geschäftsabschlusses pro rata temporis geschuldet.
-
-Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen (2.3.)
-
-A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im
-Kanton   (2.3.1.)
-
-Art. 53bis*   …
-
-Art. 54*   …
-
-<!-- Seite 15 -->
-Art. 54bis*   Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)
-  Der Quellensteuer unterworfen sind alle Ersatzeinkünfte aus Arbeitsverhältnis-
-sen sowie aus Kranken-, Unfall-, Invaliden- und Arbeitslosenversicherung. Insbe-
-sondere gehören dazu Taggelder, Entschädigungen, Teilrenten und an deren Stelle
-tretende Kapitalleistungen.
-
-Art. 55*   Steuerabzug
-    a) Tarifarten (Art. 107 StG)
-1
-    …*
-  Folgende Tarifcodes werden bei den nachstehend aufgeführten Personen für
-1bis
-
-den Quellensteuerabzug angewendet:*
-a) Tarifcode A: bei ledigen, geschiedenen, gerichtlich oder tatsächlich getrennt
-    lebenden und verwitweten Personen, die nicht mit Kindern oder unterstüt-
-    zungsbedürftigen Personen im gleichen Haushalt zusammenleben;
-b) Tarifcode B: bei in rechtlich und tatsächlich ungetrennter Ehe lebenden Ehe-
-    leuten, bei welchen nur ein Ehegatte erwerbstätig ist;
-c) Tarifcode C: bei in rechtlich und tatsächlich ungetrennter Ehe lebenden Ehe-
-    leuten, bei welchen beide Eheleute erwerbstätig sind;
-d) Tarifcode D: bei Personen, die Leistungen nach Art. 18 Abs. 3 des Bundesge-
-    setzes über die Alters- und Hinterlassenenversicherung vom 20. Dezember
-    194619 erhalten;
-e) Tarifcode E: bei Personen, die im vereinfachten Abrechnungsverfahren be-
-    steuert werden;
-f) Tarifcode F: bei Grenzgängern nach der Vereinbarung zwischen der Schweiz
-    und Italien über die Besteuerung der Grenzgänger und den finanziellen Aus-
-    gleich zugunsten der italienischen Grenzgemeinden vom 3. Oktober 1974 20,
-    die in einer italienischen Grenzgemeinde leben und deren Ehegatte ausserhalb
-    der Schweiz erwerbstätig ist;
-g) Tarifcode G: bei Ersatzeinkünften nach Art. 54bis dieser Verordnung, die nicht
-    über die Arbeitgeber an die quellensteuerpflichtigen Personen ausbezahlt wer-
-    den;
-h) Tarifcode H: bei ledigen, geschiedenen, gerichtlich oder tatsächlich getrennt
-    lebenden und verwitweten Personen, die mit Kindern oder unterstützungsbe-
-    dürftigen Personen im gleichen Haushalt zusammenleben und deren Unter-
-    halt zur Hauptsache bestreiten;
-
-
-19   SR 831.10.
-20   SR 0.642.045.43.
-
-<!-- Seite 16 -->
-i) Tarifcode L: bei Grenzgängern nach dem Abkommen zwischen der Schweize-
-   rischen Eidgenossenschaft und der Bundesrepublik Deutschland zur Vermei-
-   dung der Doppelbesteuerung auf dem Gebiete der Steuern vom Einkommen
-   und vom Vermögen (DBA-D) vom 11. August 197121, welche die Vorausset-
-   zungen für den Tarifcode A erfüllen;
-j) Tarifcode M: bei Grenzgängern nach dem DBA-D, welche die Voraussetzun-
-   gen für den Tarifcode B erfüllen;
-k) Tarifcode N: bei Grenzgängern nach dem DBA-D, welche die Voraussetzun-
-   gen für den Tarifcode C erfüllen;
-l) Tarifcode P: bei Grenzgängern nach dem DBA-D, welche die Voraussetzun-
-   gen für den Tarifcode H erfüllen;
-m) Tarifcode Q: bei Grenzgängern nach dem DBA-D, welche die Voraussetzun-
-   gen für den Tarifcode G erfüllen.
-2
-    …*
-3
- Auf Gesuch von Steuerpflichtigen, die Unterhaltsbeiträge nach
-Art. 45 Abs. 1 Bst. c StG leisten und bei denen der Tarifcode A, B, C oder H ange-
-wendet wird, kann die Steuerbehörde zur Milderung von Härtefällen bei der Be-
-rechnung der Quellensteuer Kinderabzüge bis höchstens zur Höhe der Unterhalts-
-beiträge berücksichtigen.*
-4
- Wurden Unterhaltsbeiträge bei der Anwendung der Tarife nach Abs. 3 dieser Be-
-stimmung berücksichtigt, unterliegt der Steuerpflichtige der nachträglichen or-
-dentlichen Veranlagung nach Art. 112ter des Steuergesetzes.*
-
-Art. 56*   b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)
-1
- Die Tarife werden für jede Steuerperiode nach den geltenden Steuersätzen, Abzü-
-gen und Sozialabzügen erstellt.
-2
- Die Höhe des Staatssteueranteils bestimmt sich nach dem Steuerfuss der Steuer-
-periode. Für die Ermittlung der Gemeindesteueranteile wird auf das mutmassliche
-gewogene Mittel der Einkommens- und Vermögenssteuern der Gemeinden der
-Vorperiode abgestellt.*
-3
- Der Steuerabzug nach den Tarifcodes A, B, C, G und H nach Art. 55 Abs. 1bis die-
-ser Verordnung umfasst auch die Feuerwehrabgabe. Deren Höhe wird nach dem
-Feuerschutzreglement der Stadt St.Gallen bestimmt.*
-4
-    …*
-5
-    …*
-
-
-21   SR 0.672.913.62.
-
-<!-- Seite 17 -->
-Art. 56bis*   c) Fälligkeit und Berechnung der Quellensteuer
- Der Quellensteuerabzug ist im Zeitpunkt der Auszahlung, Überweisung, Gut-
-schrift oder Verrechnung der steuerbaren Leistung fällig.
-2
- Bei der Berechnung der Quellensteuer sind alle steuerpflichtigen Leistungen ei-
-nes Monats zu berücksichtigen. Das satzbestimmende Einkommen wird auf Mo-
-natsbasis ermittelt. Art. 66 Abs. 3 des Steuergesetzes wird sachgemäss angewendet.
-
-Art. 57*   …
-
-Art. 58*   …
-
-Art. 59*   …
-
-Art. 59bis*   Wechsel vom Quellensteuerabzug zur ordentlichen Veranlagung
-    (Art. 113 StG)*
-1
- Bei Erhalt der Niederlassungsbewilligung oder bei Heirat mit einer Person, die
-das Schweizer Bürgerrecht oder die Niederlassungsbewilligung besitzt, unterliegen
-bisher der Quellensteuer unterworfene Personen für die ganze Steuerperiode der
-ordentlichen Veranlagung.*
-   Die Quellensteuer ist ab dem Folgemonat nach der Erteilung der Niederlas-
-1bis
-
-sungsbewilligung oder der Heirat nicht mehr geschuldet. Die an der Quelle abge-
-zogene Steuer wird zinslos angerechnet.*
-2
-    …*
-
-Art. 59ter*   Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug
-    (Art. 113 StG)
-1
- Unterliegt ein Einkommen innerhalb einer Steuerperiode zunächst der ordentli-
-chen Besteuerung und dann der Quellensteuer, wird der Steuerpflichtige für das
-gesamte Jahr und bis zum Ende der Quellensteuerpflicht nachträglich ordentlich
-veranlagt.
-2
- Die Scheidung sowie die tatsächliche oder rechtliche Trennung von einem Ehe-
-gatten mit Schweizer Bürgerrecht oder Niederlassungsbewilligung lösen für einen
-ausländischen Arbeitnehmer ohne Niederlassungsbewilligung ab Beginn des Fol-
-gemonats wieder die Besteuerung an der Quelle aus.
-3
- Allfällige Vorauszahlungen vor dem Übergang zur Quellenbesteuerung sowie an
-der Quelle abgezogene Steuern sind anzurechnen.
-
-<!-- Seite 18 -->
-B. Natürliche und juristische Personen ohne steuerrechtlichen Wohnsitz oder
-Aufenthalt in der Schweiz   (2.3.2.)
-
-Art. 60   Künstler, Sportler und Referenten (Art. 116 StG)
-1
- Als Tageseinkünfte gelten die steuerbaren Einkünfte, aufgeteilt auf die Auftritts-
-und Probetage.
-2
- Ist bei Gruppen der Anteil des einzelnen Mitglieds nicht bekannt oder schwer zu
-ermitteln, wird für die Bestimmung des Steuersatzes das durchschnittliche Tages-
-einkommen je Kopf berechnet.
-   Zu den Tageseinkünften gehören auch Vergütungen, die nicht dem Steuer-
-2bis
-
-pflichtigen selber, sondern einer Drittperson zufliessen.*
-3
-    …*
-4
-    …*
-
-Art. 61   Mindesteinkommen (Art. 120 StG)
-1
- Ein Steuerabzug an der Quelle entfällt, wenn die steuerbaren Einkünfte weniger
-betragen als:
-a)* Fr. 300.– je Veranstaltung bei Künstlern, Sportlern und Referenten;
-b)* Fr. 300.– im Kalenderjahr bei Organen juristischer Personen und Hypothe-
-    kargläubigern;
-c)* Fr. 1000.– im Kalenderjahr bei Empfängern von Renten.
-
-Bbis. Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger
-Erwerbstätigkeit*   (2.3.2bis.)
-
-Art. 61bis*   …
-
-Art. 61ter*   …
-
-Art. 61quater* …
-
-C. Gemeinsame Bestimmungen   (2.3.3.)
-
-Art. 62   Abrechnungsperiode (Art. 123 und Art. 187 Abs. 1 StG)
-1
- Die Abrechnungsperiode beträgt:
-a) drei Kalendermonate für Arbeitgeber mit weniger als zehn quellensteuer-
-    pflichtigen Arbeitnehmern;
-b) sechs Kalendermonate für Hypothekarschuldner;
-
-<!-- Seite 19 -->
-c)   ein Kalenderjahr für juristische Personen bezüglich der Leistungen, die deren
-    Organen ausgerichtet werden.
-2
-    In den übrigen Fällen gilt der Kalendermonat als Abrechnungsperiode.
-
-Art. 63*   Bezugsprovision (Art. 124 StG)
-1
- Die Bezugsprovision für den Schuldner der steuerbaren Leistung beträgt 1 Pro-
-zent des gesamten Quellensteuerbetrags.*
-
-Art. 64   Internationale Verhältnisse (Art. 128 StG)
-    a) Rückerstattung
-1
- Weist ein Abkommen des Bundes zur Vermeidung einer Doppelbesteuerung das
-Besteuerungsrecht an einer Kapitalleistung aus einer Einrichtung der beruflichen
-Vorsorge oder aus einer anerkannten Form der gebundenen Selbstvorsorge dem
-Wohnsitzstaat zu, wird die Steuer dem Steuerpflichtigen zinslos zurückerstattet,
-wenn er:
-a) innerhalb von drei Jahren seit deren Fälligkeit ein entsprechendes Begehren
-    schriftlich einreicht;
-b) nachweist, dass der Zufluss der Kapitalleistung der zuständigen Steuerbehörde
-    seines Wohnsitzstaates bekannt ist.
-
-Art. 65   b) Verzicht auf Steuerabzug
-1
- Weist ein Abkommen des Bundes zur Vermeidung einer Doppelbesteuerung das
-Besteuerungsrecht an einer Rente aus einer Einrichtung der beruflichen Vorsorge
-oder einer anerkannten Form der gebundenen Selbstvorsorge dem Wohnsitzstaat
-zu, wird von einem Steuerabzug abgesehen.
-2
- Der Schuldner der steuerbaren Leistung ist verpflichtet, sich den ausländischen
-Wohnsitz des Steuerpflichtigen schriftlich bestätigen zu lassen und diesen peri-
-odisch zu überprüfen.
-
-Art. 65bis*   …
-
-Art. 65ter*   Meldepflichten (Art. 184 Bst. a und Art. 185 Abs. 1 StG)
-1
- Die Arbeitgeber müssen die Beschäftigung von Personen, die nach Art. 105 oder
-115 des Steuergesetzes quellensteuerpflichtig sind, der zuständigen Steuerbehörde
-innert acht Tagen ab Stellenantritt auf dem dafür vorgesehenen Formular melden.
-2
- Übermittelt der Arbeitgeber die Quellensteuerabrechnung elektronisch, kann er
-Neuanstellungen mittels monatlicher Abrechnung melden.
-
-<!-- Seite 20 -->
- Die Arbeitnehmer müssen dem Arbeitgeber Änderungen von Sachverhalten mel-
-den, die für die Erhebung der Quellensteuer massgebend sind. Der Arbeitgeber
-meldet die Änderungen innerhalb der Fristen nach Abs. 1 und 2 dieser Bestim-
-mung der zuständigen Steuerbehörde.
-
-Vierter Abschnitt: Grundstückgewinnsteuer   (2.4.)
-
-Art. 66   Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)
-1
- Der Verkaufserlös kann innert drei Jahren nach Veräusserung zum Erwerb eines
-Ersatzgrundstücks verwendet werden. Die Frist wird erstreckt, wenn die Verzöge-
-rung durch Umstände bedingt ist, die nicht im Einflussbereich des Steuerpflichti-
-gen liegen.
-2
- Zulässig ist auch der Erwerb des Ersatzgrundstücks innerhalb eines Jahres vor
-der Veräusserung des zu ersetzenden Grundstücks.
-
-Art. 67   Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)
-1
- Als Inkonvenienzen gelten die durch eine Veräusserung verursachten Vermö-
-genseinbussen, für die der Veräusserer über den vollen Wert des Grundstücks hin-
-aus besonders entschädigt wird.
-2
- Zu den Inkonvenienzen zählen insbesondere die mit der Veräusserung verbun-
-denen Kosten für Anpassungsarbeiten, Betriebsverlegung, Umzug sowie allfällige
-Erwerbsausfälle.
-3
- Minderwerte verbleibender Grundstücke können nicht als Inkonvenienz geltend
-gemacht werden.
-
-Art. 68   Minderwertentschädigung (Art. 138 StG)
-1
- Als Leistungen Dritter, die von den Anlagekosten abgerechnet werden, gelten
-auch Entschädigungen für einen Minderwert, soweit sie nicht mit der Einkom-
-menssteuer erfasst wurden oder werden.
-
-<!-- Seite 21 -->
-Fünfter Abschnitt: Erbschafts- und Schenkungssteuern   (2.5.)
-
-Art. 68a*   Konkubinatspartner (Art. 153 Abs. 1 Bst. a und Art. 154 Abs. 1 Bst. a
-    StG)22
-1
- Als Konkubinatspartner gilt eine Person, die mit dem Erblasser oder Schenker
-während mindestens fünf Jahren vor der steuerbaren Zuwendung im gemeinsa-
-men Haushalt mit gleichem steuerrechtlichem Wohnsitz gelebt hat.
-
-Art. 69   Grundsätze der Steuerberechnung (Art. 154 StG)
-1
- Die Steuer wird nach den Quoten berechnet, auf die der Erbe oder Bedachte nach
-den Bestimmungen des Erbrechts23 oder aufgrund einer Verfügung von Todes we-
-gen Anspruch hat.
-
-Sechster Abschnitt: Organisation und Verfahren   (2.6.)
-
-Art. 70   Kantonales Steueramt (Art. 158 StG)
-1
- Das kantonale Steueramt bezeichnet für jede politische Gemeinde einen oder
-mehrere Steuerkommissäre.
-2
- Der Steuerkommissär veranlagt die Einkommens- und Vermögenssteuern nach
-Vorbereitung durch das Gemeindesteueramt.
-
-Art. 71   Gemeindesteueramt (Art. 160 StG)
-    a) Vorbereitung und Vollzug von Veranlagungen
-1
- Die Veranlagungen der Einkommens- und Vermögenssteuern werden vorberei-
-tet und vollzogen:
-a) für die im Kanton unbeschränkt Steuerpflichtigen 24 durch das Steueramt der
-    Gemeinde, in der die Steuerpflicht kraft persönlicher Zugehörigkeit besteht;
-b) für die in einer Gemeinde beschränkt Steuerpflichtigen25 durch das Steueramt
-    der Gemeinde, in der die Steuerpflicht kraft wirtschaftlicher Zugehörigkeit be-
-    steht;
-c) für die in mehreren Gemeinden beschränkt Steuerpflichtigen durch das Steu-
-    eramt der Gemeinde, in der die Steuerpflicht kraft wirtschaftlicher Zugehörig-
-    keit mit dem grössten Steueranteil besteht;
-d)* …
-
-
-22   Die Bestimmung wird nach dem Gliederungstitel «Fünfter Abschnitt: Erbschafts- und
-    Schenkungssteuern» eingefügt.
-23   Vgl. Art. 602 ff. des Schweizerischen Zivilgesetzbuches vom 10. Dezember 1907, SR 210.
-24   Vgl. Art. 15 Abs. 1 StG.
-25   Vgl. Art. 15 Abs. 2 StG.
-
-<!-- Seite 22 -->
-    In Streitfällen entscheidet das kantonale Steueramt.
-
-Art. 72   b) Ausarbeitung von Veranlagungsvorschlägen
-1
- Das kantonale Steueramt bezeichnet die Fälle, für welche die Veranlagungsvor-
-schläge durch das Gemeindesteueramt ausgearbeitet werden können.
-
-Art. 73   c) Akten
-1
- Das Gemeindesteueramt führt:
-a) das Steuerregister mit den Stammdaten aller Steuerpflichtigen in Form einer
-   Kartei oder einer elektronischen Datenbank;
-b) ein Dossier für jeden Steuerpflichtigen mit den Unterlagen für die Veranla-
-   gung;
-c) je eine Liste der veranlagten und der offenen Fälle.
-
-Art. 74   d) Amtsverkehr
-1
- Der Amtsverkehr mit den Behörden anderer Kantone ist Sache des kantonalen
-Steueramtes, soweit dieses nicht ausdrücklich das Gemeindesteueramt hiezu er-
-mächtigt.
-2
- Auskünfte von Verwaltungsstellen des Bundes oder anderer Kantone und von
-Organen der Rechtspflege holt das Gemeindesteueramt durch Vermittlung des
-kantonalen Steueramtes ein.
-
-Art. 75*   e) Entschädigung
-1
- Die politische Gemeinde erhält:
-a) für die laufende Steuerperiode eine Grundaufwandentschädigung von Fr. 30.–
-    je alleinstehenden Steuerpflichtigen und je gemeinsam steuerpflichtige Ehe-
-    gatten, wenn eine Steuerpflicht besteht und eine Steuerrechnung zu erstellen
-    ist;
-b) für jede Steuerperiode eine Veranlagungsentschädigung von Fr. 25.– je allein-
-    stehenden Steuerpflichtigen und je gemeinsam steuerpflichtige Ehegatten, für
-    die das Gemeindesteueramt die Vorschläge für die Veranlagung der Einkom-
-    mens- und Vermögenssteuern vorschriftsgemäss ausarbeitet. Mit der Veranla-
-    gungsentschädigung ist auch die Mitwirkung des Gemeindesteueramtes bei
-    der Feststellung des Anspruchs auf Rückerstattung der Verrechnungssteuer
-    nach den Weisungen des kantonalen Steueramtes sowie die Ausarbeitung der
-    Vorschläge für die Veranlagungen gesondert berechneter Jahressteuern und
-    ergänzender Vermögenssteuern abgegolten.
-
-<!-- Seite 23 -->
- Mit der Grundaufwandentschädigung werden alle Kosten und Aufwendungen
-abgegolten, die der politischen Gemeinde aus der Erfüllung der dem Gemeinde-
-steueramt nach Art. 160 Abs. 2 erster Satz des Steuergesetzes übertragenen Aufga-
-ben für die laufende Steuerperiode und für die zurückliegenden Steuerperioden
-sowie aus dem dezentralen Vollzug des Steuergesetzes durch das kantonale Steuer-
-amt erwachsen.
-3
- Werden die Veranlagungsvorschläge nicht vorschriftsgemäss ausgearbeitet oder
-die Steuern nicht vorschriftsgemäss bezogen, kann das Finanzdepartement nach
-Anhören des Gemeinderates die Veranlagungs- oder Grundaufwandentschädi-
-gung herabsetzen.
-
-Art. 76   Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG)
-    a) Mitteilung an Dritte
-1
- Gesuche um Mitteilung rechtskräftiger Steuerfaktoren müssen von Dritten, die
-nicht Vertreter des Steuerpflichtigen sind, schriftlich eingereicht werden.
-2
- Rechtskräftige Einkommens- und Vermögenssteuerfaktoren werden vom
-Gemeindesteueramt, rechtskräftige Gewinn- und Kapitalsteuerfaktoren vom
-kantonalen Steueramt mitgeteilt.
-
-Art. 77   b) Auskunft über Mitteilungen
-1
- Das Gemeindesteueramt oder das kantonale Steueramt teilt dem Steuerpflichti-
-gen bei Bekanntgabe seiner Steuerfaktoren an Dritte unaufgefordert mit:
-a) Name und Adresse des Dritten, der ein wirtschaftliches Interesse nachweist;
-b) Datum und Inhalt der Mitteilung.
-
-Art. 77a*   Elektronischer Zugriff auf Steuerdaten (Art. 162 Abs. 4 StG)
-    a) Voraussetzungen
-1
- St.Gallischen öffentlichen Organen kann elektronisch Zugriff auf Steuerdaten
-gewährt werden, wenn sie für ihre Aufgabenerfüllung dauernd und häufig Steuer-
-auskünfte des kantonalen Steueramtes benötigen.
-
-Art. 77b*   b) Zuständigkeit
-1
- Das kantonale Steueramt:
-a) erteilt und entzieht die Zugriffsberechtigung;
-b) besorgt den technischen Vollzug des elektronischen Zugriffs;
-c) führt eine Liste der erteilten Zugriffsberechtigungen;
-d) protokolliert die elektronischen Zugriffe;
-e) kontrolliert die Einhaltung von Vorgaben des Datenschutzes.
-
-<!-- Seite 24 -->
-Art. 77c*   c) Datenschutz
- Zugriffsberechtigte öffentliche Organe bezeichnen einen beschränkten Kreis von
-Personen, die den elektronischen Zugriff auf Steuerdaten vornehmen können. Er-
-folgt der Zugriff auf Steuerdaten automatisiert, stellt das öffentliche Organ sicher,
-dass nur zugriffsberechtigte Personen die abgefragten Steuerdaten einsehen kön-
-nen.*
-2
- Der Zugriff auf Steuerdaten wird soweit wie möglich auf Informationen be-
-schränkt, die für den Vollzug von gesetzlichen Vorgaben benötigt werden.
-3
- Der Zugriff ist beschränkt auf Steuerdaten, die für die Aufgabenerfüllung not-
-wendig sind. Die abgerufenen Steuerdaten werden ausschliesslich für die Erfüllung
-der Aufgabe des öffentlichen Organs verwendet.
-
-Art. 78*   Meldepflicht (Art. 163 Abs. 3 StG)
-1
-  Insbesondere haben unverzüglich zu melden:
-a) die Einwohnerämter alle Veränderungen in den Personendaten an das
-    Gemeindesteueramt und, soweit für den Bezug der Quellensteuern notwen-
-    dig, an das kantonale Steueramt;
-b) die Bestattungsämter am letzten Wohnsitz jeden Todesfall an das Gemeinde-
-    steueramt und an das kantonale Steueramt;
-c) die Grundbuchämter jede Handänderung von Grundstücken unter Beilage
-    des Kauf- oder Übernahmevertrags an das kantonale Steueramt und das
-    Gemeindesteueramt sowie alle Tatsachen, die für eine Schätzung nach den
-    Bestimmungen des Gesetzes über die Durchführung der Grundstückschät-
-    zung26 massgebend sind, an das kantonale Steueramt;
-d) das Handelsregisteramt jede Eintragung und Löschung im Handelsregister an
-    das kantonale Steueramt;
-e) das Migrationsamt und das Amt für Wirtschaft und Arbeit alle Bewilligungen,
-    die ausländischen Staatsangehörigen erteilt werden, an das kantonale Steuer-
-    amt;
-f) die zuständigen Amtsstellen von Staat und Gemeinden alle Bewilligungen, die
-    sie für die Ausübung einer Erwerbstätigkeit, deren Abgeltung einem Steuerab-
-    zug an der Quelle unterliegt, erteilen oder bearbeiten, an das kantonale Steu-
-    eramt;
-g) die Amtsnotariate die Verfügungen von Todes wegen, soweit diese für die Er-
-    hebung der Erbschaftssteuern notwendig sind, an das kantonale Steueramt;
-h)* alle Amtsstellen von Staat und Gemeinden Tatsachen, die Anlass für die Ein-
-    leitung eines Nachsteuerverfahrens sein können, an das kantonale Steueramt;
-i)* die Einwohnerämter jede Lebensbescheinigung unter Beilage einer Kopie der
-    Bescheinigung an das Gemeindesteueramt.
-
-26   sGS 814.1.
-
-<!-- Seite 25 -->
-Art. 79   Zustellungsempfänger (Art. 167 Abs. 2 StG)
- Als Zustellungsempfänger gilt eine natürliche oder eine juristische Person mit
-Wohnsitz oder Sitz in der Schweiz, die zum Empfang aller Mitteilungen, Verfü-
-gungen und Entscheide in Steuersachen ermächtigt ist.
-2
- Bezeichnet der Steuerpflichtige trotz Aufforderung keinen Zustellungsempfänger
-in der Schweiz, werden die Mitteilungen sowie der Rechtsspruch von Verfügungen
-und Entscheiden im kantonalen Amtsblatt27 veröffentlicht.
-
-Art. 79a*   …
-
-Art. 79b*   Meldepflicht Dritter (Art. 174 Bst. d StG)
-1
- Die Meldepflicht der Arbeitgeber über Mitarbeiterbeteiligungen richtet sich nach
-der eidgenössischen Verordnung über die Bescheinigungspflichten bei Mitarbei-
-terbeteiligungen vom 27. Juni 201228.
-
-Art. 79bis*   Besondere Verfügung über die Grundstückwerte
-1
- Die besondere Verfügung über die Grundstückwerte weist die für die nachfol-
-gende Veranlagung massgebenden Grundstückwerte aus. Sie enthält die Grundla-
-gen, die zu deren Ermittlung geführt haben.
-2
- Die Ermittlung und die Verfügung der Grundstückwerte sind kostenfrei. Art. 12
-des Gesetzes über die Durchführung der Grundstückschätzung vom 9. November
-200029 bleibt vorbehalten.
-
-Art. 79ter*   …
-
-Art. 79quater* …
-
-Art. 80   Verfahrenspflichten der Erben (Art. 192 StG)
-1
- Die Erben müssen das Erbeninventar als Steuererklärung sowie die Teilungsak-
-ten dem kantonalen Steueramt einreichen, auch wenn keine Erbschaftssteuer-
-pflicht besteht.
-
-
-27   Vgl. Art. 7 Abs. 1 GGA, sGS 0.1.
-28   SR 642.115.325.1.
-29   sGS 814.1.
-
-<!-- Seite 26 -->
-Art. 80bis*   Nachsteuern
-    a) Zins (Art. 199 Abs. 1 StG)
-1
- Auf der Nachsteuer werden ab dem Verfalltag der nicht erhobenen Steuer Aus-
-gleichszinsen30 geschuldet.
-
-Art. 81*   b) Einleitung des Verfahrens (Art. 201 Abs. 1 StG)
-1
- Das kantonale Steueramt leitet das Nachsteuerverfahren ein, wenn begründeter
-Verdacht besteht, dass die Voraussetzungen für ein entsprechendes Verfahren
-nach Art. 199 des Steuergesetzes erfüllt sind.
-
-Art. 82*   c) Steuerberechnung (Art. 201 Abs. 3 StG)
-1
- Das kantonale Steueramt berechnet und veranlagt die Nachsteuern:
-a) des Staates;
-b) der Gemeinden, wenn die Erhebung aufgrund der Veranlagung zur Staats-
-   steuer erfolgt.
-
-Art. 83   Inventar
-    a) Inventaraufnahme (Art. 204 StG)
-1
- Das kantonale Steueramt entscheidet als Inventarbehörde nach dem Tod eines
-Steuerpflichtigen über:
-a) die Aufnahme eines amtlichen Inventars;
-b) die Einreichung eines Erbeninventars;
-c) den Verzicht auf Inventaraufnahme.
-
-Art. 84   b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
-1
- Für steuerliche Zwecke können dem Inventar gleichgestellt werden:
-a)* die Schlussrechnung, die der Beistand oder der Vormund nach dem Tod eines
-    Kindes unter Vormundschaft oder einer Person unter umfassender Beistand-
-    schaft erstellt;
-abis)* die Schlussrechnung, die der Beistand nach dem Tod einer unter umfassen-
-    der Beistandschaft stehenden Person erstellt;
-b) das Sicherungsinventar oder das öffentliche Inventar, das nach dem Tod eines
-    Steuerpflichtigen aufgenommen wurde.
-2
-    Die Inventarbehörde ergänzt im Bedarfsfall diese Zusammenstellungen.
-
-
-30   Vgl. Art. 212 StG, sGS 811.1.
-
-<!-- Seite 27 -->
-Art. 85   c) Entschädigung (Art. 209 Abs. 3 StG)
- Die politische Gemeinde erhält für die Mitarbeit der Gemeindebehörden eine
-Pauschalentschädigung von Fr. 30.– je Inventaraufnahme.
-
-Siebter Abschnitt: Steuerbezug   (2.7.)
-
-Art. 86*   Verfalltag (Art. 212 Abs. 2 StG)
-    a) Für Gewinn- und Kapitalsteuern
-1
- Für die Gewinn- und Kapitalsteuern gilt als Verfalltag der 270. Tag nach Ende
-des Geschäftsjahres.
-2
-  Ist der ordentliche Verfalltag nach Abs. 1 dieser Bestimmung noch nicht einge-
-treten, bestimmt sich in folgenden Fällen der Verfalltag durch Zustellung der
-Schlussrechnung zuzüglich dreissig Tage:
-a) bei Ende der Steuerpflicht in der Schweiz;
-b) bei Konkurseröffnung über die steuerpflichtige juristische Person;
-c) bei erfolgter Anmeldung zur Löschung der juristischen Person im Handelsre-
-    gister.
-
-Art. 86bis*   b) Für Einkommens- und Vermögenssteuern
-1
- Für die Einkommens- und Vermögenssteuern gilt der 31. Juli in der Steuerperi-
-ode als Verfalltag.
-2
- Besteht die Steuerpflicht weniger als acht Monate in der Steuerperiode, gilt der
-mittlere Tag der Dauer der Steuerpflicht als Verfalltag.
-
-Art. 87*   Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214
-    StG)
-1
- Periodische Einkommens- und Vermögenssteuern mit Verfalltag am 31. Juli
-können in der Steuerperiode in Raten bezahlt werden.
-2
- Wird keine Veranlagung und Schlussrechnung vorgenommen, werden die auf-
-grund einer vorläufigen Steuerrechnung bezahlten Beträge mit Zins zurückerstat-
-tet, soweit keine Verrechnung erfolgt.
-
-Art. 88*   Verzicht wegen Geringfügigkeit (Art. 215 StG)
-1
-  Einkommens- und Vermögenssteuern werden nicht in Rechnung gestellt, wenn
-sie, gemessen an der einfachen Steuer, gesamthaft nicht mehr als Fr. 20.– betragen.
-
-<!-- Seite 28 -->
-  Steuerbeträge einschliesslich Ausgleichszinsen aufgrund einer Schlussrechnung
-sowie Verzugszinsen werden nicht bezogen, wenn sie nicht mehr als Fr. 50.– be-
-tragen.
-
-Art. 88bis*   Zahlung (Art. 212 Abs. 1 Bst. a StG)
-1
- Als Zahlung gilt auch die Verrechnungsanzeige der Steuerbehörde und die Über-
-weisung eines andern Kantons.
-
-
-DRITTER TEIL: GEMEINDESTEUERN   (3.)
-
-Art. 89*   Steuerausscheidung für Einkommens- und Vermögenssteuern
-    (Art. 234 und 235 StG)
-    a) Ausscheidungsregeln
-1
- Die Steuerausscheidung der Einkommens- und Vermögenssteuern zwischen den
-politischen Gemeinden und den Kirchgemeinden richtet sich, unter Vorbehalt
-von Abs. 2 dieser Bestimmung, nach den Grundsätzen der Bundesgesetzgebung
-über die Steuerharmonisierung31 und der bundesgerichtlichen Rechtsprechung
-zum Doppelbesteuerungsverbot32. Sie gilt sachgemäss auch für Nachsteuern.
-2
- Inhaber von Einzelunternehmen und in der Geschäftsführung mitwirkende Ge-
-sellschafter von Kollektiv- und Kommanditgesellschaften sowie von einfachen Ge-
-sellschaften versteuern in der Gemeinde, in der sie kraft persönlicher Zugehörig-
-keit unbeschränkt steuerpflichtig33 sind, die Hälfte der Einkünfte aus selbständiger
-Erwerbstätigkeit.
-
-Art. 90   b) Ausscheidungsmethode
-1
- Die Steuerausscheidung wird durch Aufteilung der einfachen Steuer zu 100 Pro-
-zent zwischen den beteiligten Gemeinden vorgenommen.
-2
- Die Gemeinden erheben gemäss den ihnen zugeschiedenen Anteilen den ihrem
-Gesamtsteuerfuss entsprechenden Steuerbetrag.
-3
- Eine Ausscheidung unterbleibt, wenn der Gemeindeanteil weniger als Fr. 100.–
-einfache Steuer beträgt.
-
-
-31   BG über die Harmonisierung der direkten Steuern der Kantone und Gemeinden vom
-    14. Dezember 1990, SR 642.14.
-32   Vgl. Art. 127 Abs. 3 der Bundesverfassung der Schweizerischen Eidgenossenschaft vom 18.
-    April 1999, SR 101.
-33   Vgl. Art. 15 Abs. 1 StG, sGS 811.1.
-
-<!-- Seite 29 -->
-Art. 91   c) Ausscheidungsvereinbarungen
-  Die beteiligten Gemeinden können im Einverständnis mit dem Steuerpflichtigen
-und unter Wahrung der öffentlichen Interessen Ausscheidungsvereinbarungen
-treffen.
-2
- Die Ausscheidungsvereinbarungen erfolgen schriftlich und bedürfen der Zustim-
-mung des kantonalen Steueramtes.
-
-Art. 92*   Entschädigung für Steuerbezug (Art. 236 StG)
-1
- In Streitfällen über die Höhe der Entschädigungen für den Steuerbezug entschei-
-det das Verwaltungsgericht im Klageverfahren.34
-
-
-VIERTER TEIL: STEUERSTRAFRECHT   (4.)
-
-Art. 93   Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)*
-1
- Für die Steuerstrafen werden Art. 81 und 82 dieser Verordnung sachgemäss
-angewendet.
-2
- Besteht ein begründeter Verdacht, dass ein Steuervergehen35 begangen wurde, er-
-hebt das kantonale Steueramt bei der zuständigen Strafverfolgungsbehörde36 Straf-
-anzeige.*
-
-
-FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN   (5.)
-
-Art. 94   37
-
-
-Art. 95   38
-
-
-Art. 96   Aufhebung bisherigen Rechts
-1
- Die Vollzugsverordnung zum Steuergesetz vom 10. November 197039 wird aufge-
-hoben.
-
-Art. 97*   ...
-
-
-34   Vgl. Art. 79 ff. VRP, sGS 951.1.
-35   Vgl. Art. 272 f. StG.
-36   Vgl. Art. 12 ff. StPO, SR 312.0.
-37   Änderungen bisherigen Rechts werden nicht aufgeführt.
-38   Änderungen bisherigen Rechts werden nicht aufgeführt.
-39   nGS 29–72 (sGS 811.11).
-
-<!-- Seite 30 -->
-Art. 98*   ...
-
-Art. 98bis*   b) altrechtliche Schätzungswerte
-1
- Als Mietwert, Verkehrswert und Ertragswert nach Art. 34 Abs. 1 Bst. b, Art. 57
-Abs. 1, Art. 58 und Art. 100 Abs. 1 des Steuergesetzes vom 9. April 199840 gelten,
-solange diese Werte noch nicht im Verfahren nach dem Gesetz über die Durch-
-führung der Grundstückschätzung vom 9. November 200041 ermittelt wurden, in
-der Regel die letztmals nach den Bestimmungen der Verordnung über die amtli-
-chen Grundstückschätzungen vom 19. Februar 196242 ermittelten Werte. Art.
-14 zweiter Satz und Art. 30bis Abs. 1 zweiter Satz dieser Verordnung werden sach-
-gemäss angewendet.*
-
-Art. 98ter*   ...
-
-Art. 99*   Vollzugsbeginn
-1
-    Diese Verordnung wird ab 1. Januar 1999 angewendet.
-
-Übergangsbestimmung des VIII. Nachtrags vom 23. Dezember 200843
-II.
-Endet das Geschäftsjahr nach dem 31. Dezember 2008, gilt für Kapitalsteuern, die
-nach bisherigem Recht im Jahr 2008 verfallen sind, der Verfalltag nach Art. 86 die-
-ses Erlasses.
-
-Übergangsbestimmung des IX. Nachtrags vom 13. Dezember 201144
-II.
-Für Personen, die bei Vollzugsbeginn dieses Nachtrags nach dem Aufwand be-
-steuert werden, wird noch während drei Jahren Art. 9 dieser Verordnung in der
-Fassung vor Erlass dieses Nachtrags angewendet.
-
-
-40   sGS 811.1.
-41   sGS 814.1.
-42   nGS 19–11 (sGS 814.1).
-43   nGS 44–27.
-44   nGS 47–25.
-
-<!-- Seite 31 -->
-* Änderungstabelle - Nach Bestimmung
-
-Bestimmung   Änderungstyp   nGS-Fundstelle   Erlassdatum Vollzugsbeginn
-Erlass   Grunderlass   33–117   20.10.1998  01.01.1999
-Art. 1   Artikeltitel ge-   2019-014   04.12.2018  01.01.2019
-    ändert
-Art. 1, Abs. 1   geändert   2019-014   04.12.2018   01.01.2019
-Art. 1, Abs. 2   geändert   2019-014   04.12.2018   01.01.2019
-Art. 2, Abs. 1   geändert   2019-014   04.12.2018   01.01.2019
-Art. 2, Abs. 2   geändert   2019-014   04.12.2018   01.01.2019
-Art. 3   geändert   44–27   23.12.2008   keine Angabe
-Art. 3, Abs. 3   eingefügt   2015-043   16.12.2014   01.01.2015
-Art. 4   geändert   47–25   13.12.2011   keine Angabe
-Art. 4   aufgehoben   2019-014   04.12.2018   01.08.2019
-Art. 5, Abs. 1   geändert   2019-096   03.12.2019   01.01.2020
-Art. 9   geändert   47–25   13.12.2011   keine Angabe
-Art. 9, Abs. 1   geändert   2016-034   15.12.2015   01.01.2016
-Art. 12   geändert   42–23   12.12.2006   keine Angabe
-Art. 12   aufgehoben   2019-096   03.12.2019   01.01.2020
-Art. 13   geändert   48–41   04.12.2012   01.01.2013
-Art. 13, Abs. 2   aufgehoben   2016-034   15.12.2015   01.01.2016
-Art. 13bis   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 13ter   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 14   geändert   42–23   12.12.2006   keine Angabe
-Art. 14   Artikeltitel ge-   2016-034   15.12.2015   01.01.2016
-    ändert
-Art. 14, Abs. 1   geändert   2021-097   07.12.2021   01.01.2022
-Art. 14, Abs. 2   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 14, Abs. 3   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 16   aufgehoben   48–41   04.12.2012   01.01.2013
-Art. 17   aufgehoben   36–20   12.12.2000   keine Angabe
-Art. 18   Artikeltitel ge-   2016-034   15.12.2015   01.01.2016
-    ändert
-Art. 18, Abs. 1   aufgehoben   2016-034   15.12.2015   01.01.2016
-Art. 18, Abs. 1bis   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 18, Abs. 2   aufgehoben   2016-034   15.12.2015   01.01.2016
-Art. 18, Abs. 3   geändert   2016-034   15.12.2015   01.01.2016
-Art. 18, Abs. 4   aufgehoben   2016-034   15.12.2015   01.01.2016
-Art. 18a   eingefügt   2021-097   07.12.2021   01.01.2022
-Art. 22   geändert   47–25   13.12.2011   keine Angabe
-Art. 29   geändert   48–41   04.12.2012   01.01.2013
-Art. 29bis   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 29ter   aufgehoben   42–23   12.12.2006   keine Angabe
-
-<!-- Seite 32 -->
-Bestimmung   Änderungstyp   nGS-Fundstelle   Erlassdatum   Vollzugsbeginn
-Art. 29quater   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 29quinquies   eingefügt   2019-015   04.12.2018   01.01.2019
-Art. 29quinquies   aufgehoben   2019-096   03.12.2019   01.01.2020
-Art. 30   geändert   48–41   04.12.2012   01.01.2013
-Art. 30a   eingefügt   47–25   13.12.2011   keine Angabe
-Art. 30bis   eingefügt   36–23   05.12.2000   keine Angabe
-Art. 30bis, Abs. 1   geändert   2021-097   07.12.2021   01.01.2022
-Art. 32   aufgehoben   2021-097   07.12.2021   01.01.2022
-Art. 32bis   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 32ter   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 32quater   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 35   geändert   42–23   12.12.2006   keine Angabe
-Art. 35   aufgehoben   2019-096   03.12.2019   01.01.2020
-Art. 36   aufgehoben   48–41   04.12.2012   01.01.2013
-Art. 38   geändert   44–27   23.12.2008   keine Angabe
-Art. 40   geändert   44–27   23.12.2008   keine Angabe
-Art. 41   geändert   42–23   12.12.2006   keine Angabe
-Art. 42   geändert   42–23   12.12.2006   keine Angabe
-Art. 44   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 45   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 47   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 48   Artikeltitel ge-   2016-034   15.12.2015   01.01.2016
-    ändert
-Art. 48   aufgehoben   2019-096   03.12.2019   01.01.2020
-Art. 49   aufgehoben   42–23   12.12.2006   keine Angabe
-Art. 51   geändert   48–41   04.12.2012   01.01.2013
-Art. 52   aufgehoben   2019-096   03.12.2019   01.01.2020
-Art. 52bis   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 53bis   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 54   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 54bis   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 55   geändert   41–17   06.12.2005   keine Angabe
-Art. 55, Abs. 1   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 55, Abs. 1, a)   geändert   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 1, abis   eingefügt   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 1, b)   geändert   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 1, c)   geändert   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 1, d)   geändert   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 1bis   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 55, Abs. 2   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 55, Abs. 3   eingefügt   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 3   geändert   2020-103   08.12.2020   01.01.2021
-Art. 55, Abs. 4   eingefügt   2014-022   03.12.2013   01.01.2014
-Art. 55, Abs. 4   geändert   2020-103   08.12.2020   01.01.2021
-
-<!-- Seite 33 -->
-Bestimmung   Änderungstyp   nGS-Fundstelle   Erlassdatum   Vollzugsbeginn
-Art. 56   geändert   44–27   23.12.2008   keine Angabe
-Art. 56, Abs. 2   geändert   2020-103   08.12.2020   01.01.2021
-Art. 56, Abs. 3   geändert   2020-103   08.12.2020   01.01.2021
-Art. 56, Abs. 4   eingefügt   2014-022   03.12.2013   01.01.2014
-Art. 56, Abs. 4   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 56, Abs. 5   eingefügt   2014-022   03.12.2013   01.01.2014
-Art. 56, Abs. 5   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 56bis   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 57   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 57, Abs. 1   geändert   2016-034   15.12.2015   01.01.2016
-Art. 57, Abs. 2   aufgehoben   2016-034   15.12.2015   01.01.2016
-Art. 57, Abs. 3   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 57, Abs. 4   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 57, Abs. 5   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 58   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 58, Abs. 1   geändert   2016-034   15.12.2015   01.01.2016
-Art. 59   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 59bis   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 59bis   Artikeltitel ge-   2020-103   08.12.2020   01.01.2021
-    ändert
-Art. 59bis, Abs. 1   geändert   2020-103   08.12.2020   01.01.2021
-Art. 59bis, Abs. 1bis   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 59bis, Abs. 2   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 59ter   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 60, Abs. 2bis   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 60, Abs. 3   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 60, Abs. 4   aufgehoben   2020-103   08.12.2020   01.01.2021
-Art. 61, Abs. 1, a)   geändert   2020-103   08.12.2020   01.01.2021
-Art. 61, Abs. 1, b)   geändert   48–41   04.12.2012   01.01.2013
-Art. 61, Abs. 1, b)   geändert   2020-103   08.12.2020   01.01.2021
-Art. 61, Abs. 1, c)   geändert   2020-103   08.12.2020   01.01.2021
-Gliederungstitel 2.3.2bis.   eingefügt   43–45   04.12.2007   keine Angabe
-Art. 61bis   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 61ter   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 61quater   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 63   geändert   48–41   04.12.2012   01.01.2013
-Art. 63, Abs. 1   geändert   2019-096   03.12.2019   01.01.2020
-Art. 63, Abs. 1   geändert   2021-097   07.12.2021   01.01.2022
-Art. 65bis   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 65ter   eingefügt   2020-103   08.12.2020   01.01.2021
-Art. 68a   eingefügt   2023-079   05.12.2023   01.01.2024
-Art. 71, Abs. 1, d)   aufgehoben   2021-097   07.12.2021   01.01.2022
-Art. 75   geändert   47–25   13.12.2011   keine Angabe
-Art. 77a   eingefügt   2016-034   15.12.2015   01.01.2016
-
-<!-- Seite 34 -->
-Bestimmung   Änderungstyp   nGS-Fundstelle   Erlassdatum   Vollzugsbeginn
-Art. 77b   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 77c   eingefügt   2016-034   15.12.2015   01.01.2016
-Art. 77c, Abs. 1   geändert   2021-097   07.12.2021   01.01.2022
-Art. 78   geändert   46–60   11.01.2011   keine Angabe
-Art. 78   geändert   48–60   22.01.2013   01.01.2013
-Art. 78, Abs. 1, h)   geändert   2019-014   04.12.2018   01.01.2019
-Art. 78, Abs. 1, i)   eingefügt   2019-014   04.12.2018   01.01.2019
-Art. 79a   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 79b   eingefügt   48–41   04.12.2012   01.01.2013
-Art. 79bis   eingefügt   36–23   05.12.2000   keine Angabe
-Art. 79ter   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 79quater   aufgehoben   44–27   23.12.2008   keine Angabe
-Art. 80bis   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 81   geändert   36–20   12.12.2000   keine Angabe
-Art. 82   geändert   36–20   12.12.2000   keine Angabe
-Art. 84, Abs. 1, a)   geändert   48–47   11.12.2012   01.01.2013
-Art. 84, Abs. 1, abis)   geändert   48–41   04.12.2012   01.01.2013
-Art. 86   geändert   44–27   23.12.2008   keine Angabe
-Art. 86bis   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 87   geändert   42–23   12.12.2006   keine Angabe
-Art. 88   geändert   36–20   12.12.2000   keine Angabe
-Art. 88bis   eingefügt   36–20   12.12.2000   keine Angabe
-Art. 89   geändert   41–17   06.12.2005   keine Angabe
-Art. 92   geändert   36–20   12.12.2000   keine Angabe
-Art. 93   Artikeltitel ge-   48–41   04.12.2012   01.01.2013
-    ändert
-Art. 93, Abs. 2   geändert   48–41   04.12.2012   01.01.2013
-Art. 97   aufgehoben   48–41   04.12.2012   01.01.2013
-Art. 98   aufgehoben   48–41   04.12.2012   01.01.2013
-Art. 98bis   eingefügt   36–23   05.12.2000   keine Angabe
-Art. 98bis, Abs. 1   geändert   48–41   04.12.2012   01.01.2013
-Art. 98ter   aufgehoben   48–41   04.12.2012   01.01.2013
-Art. 99   geändert   36–20   12.12.2000   keine Angabe
-
-
-* Änderungstabelle - Nach Erlassdatum
-
-Erlassdatum   Vollzugsbeginn   Bestimmung   Änderungstyp   nGS-Fundstelle
-20.10.1998   01.01.1999   Erlass   Grunderlass   33–117
-05.12.2000   keine Angabe   Art. 30bis   eingefügt   36–23
-05.12.2000   keine Angabe   Art. 79bis   eingefügt   36–23
-05.12.2000   keine Angabe   Art. 98bis   eingefügt   36–23
-12.12.2000   keine Angabe   Art. 17   aufgehoben   36–20
-12.12.2000   keine Angabe   Art. 32bis   eingefügt   36–20
-
-<!-- Seite 35 -->
-Erlassdatum   Vollzugsbeginn   Bestimmung   Änderungstyp   nGS-Fundstelle
-12.12.2000   keine Angabe   Art. 32ter   eingefügt   36–20
-12.12.2000   keine Angabe   Art. 59bis   eingefügt   36–20
-12.12.2000   keine Angabe   Art. 80bis   eingefügt   36–20
-12.12.2000   keine Angabe   Art. 81   geändert   36–20
-12.12.2000   keine Angabe   Art. 82   geändert   36–20
-12.12.2000   keine Angabe   Art. 86bis   eingefügt   36–20
-12.12.2000   keine Angabe   Art. 88   geändert   36–20
-12.12.2000   keine Angabe   Art. 88bis   eingefügt   36–20
-12.12.2000   keine Angabe   Art. 92   geändert   36–20
-12.12.2000   keine Angabe   Art. 99   geändert   36–20
-06.12.2005   keine Angabe   Art. 55   geändert   41–17
-06.12.2005   keine Angabe   Art. 89   geändert   41–17
-12.12.2006   keine Angabe   Art. 12   geändert   42–23
-12.12.2006   keine Angabe   Art. 14   geändert   42–23
-12.12.2006   keine Angabe   Art. 29bis   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 29ter   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 29quater   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 35   geändert   42–23
-12.12.2006   keine Angabe   Art. 41   geändert   42–23
-12.12.2006   keine Angabe   Art. 42   geändert   42–23
-12.12.2006   keine Angabe   Art. 44   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 45   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 47   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 49   aufgehoben   42–23
-12.12.2006   keine Angabe   Art. 87   geändert   42–23
-04.12.2007   keine Angabe   Gliederungstitel 2.3.2bis.   eingefügt   43–45
-23.12.2008   keine Angabe   Art. 3   geändert   44–27
-23.12.2008   keine Angabe   Art. 13bis   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 13ter   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 32quater   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 38   geändert   44–27
-23.12.2008   keine Angabe   Art. 40   geändert   44–27
-23.12.2008   keine Angabe   Art. 52bis   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 53bis   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 56   geändert   44–27
-23.12.2008   keine Angabe   Art. 61bis   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 61ter   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 61quater   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 65bis   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 79a   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 79ter   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 79quater   aufgehoben   44–27
-23.12.2008   keine Angabe   Art. 86   geändert   44–27
-
-<!-- Seite 36 -->
-Erlassdatum   Vollzugsbeginn   Bestimmung   Änderungstyp   nGS-Fundstelle
-11.01.2011   keine Angabe   Art. 78   geändert   46–60
-13.12.2011   keine Angabe   Art. 4   geändert   47–25
-13.12.2011   keine Angabe   Art. 9   geändert   47–25
-13.12.2011   keine Angabe   Art. 22   geändert   47–25
-13.12.2011   keine Angabe   Art. 30a   eingefügt   47–25
-13.12.2011   keine Angabe   Art. 75   geändert   47–25
-04.12.2012   01.01.2013   Art. 13   geändert   48–41
-04.12.2012   01.01.2013   Art. 16   aufgehoben   48–41
-04.12.2012   01.01.2013   Art. 29   geändert   48–41
-04.12.2012   01.01.2013   Art. 30   geändert   48–41
-04.12.2012   01.01.2013   Art. 36   aufgehoben   48–41
-04.12.2012   01.01.2013   Art. 51   geändert   48–41
-04.12.2012   01.01.2013   Art. 61, Abs. 1, b)   geändert   48–41
-04.12.2012   01.01.2013   Art. 63   geändert   48–41
-04.12.2012   01.01.2013   Art. 79b   eingefügt   48–41
-04.12.2012   01.01.2013   Art. 84, Abs. 1, abis)   geändert   48–41
-04.12.2012   01.01.2013   Art. 93   Artikeltitel ge-   48–41
-    ändert
-04.12.2012   01.01.2013   Art. 93, Abs. 2   geändert   48–41
-04.12.2012   01.01.2013   Art. 97   aufgehoben   48–41
-04.12.2012   01.01.2013   Art. 98   aufgehoben   48–41
-04.12.2012   01.01.2013   Art. 98bis, Abs. 1   geändert   48–41
-04.12.2012   01.01.2013   Art. 98ter   aufgehoben   48–41
-11.12.2012   01.01.2013   Art. 84, Abs. 1, a)   geändert   48–47
-22.01.2013   01.01.2013   Art. 78   geändert   48–60
-03.12.2013   01.01.2014   Art. 55, Abs. 1, a)   geändert   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 1, abis   eingefügt   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 1, b)   geändert   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 1, c)   geändert   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 1, d)   geändert   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 3   eingefügt   2014-022
-03.12.2013   01.01.2014   Art. 55, Abs. 4   eingefügt   2014-022
-03.12.2013   01.01.2014   Art. 56, Abs. 4   eingefügt   2014-022
-03.12.2013   01.01.2014   Art. 56, Abs. 5   eingefügt   2014-022
-16.12.2014   01.01.2015   Art. 3, Abs. 3   eingefügt   2015-043
-15.12.2015   01.01.2016   Art. 9, Abs. 1   geändert   2016-034
-15.12.2015   01.01.2016   Art. 13, Abs. 2   aufgehoben   2016-034
-15.12.2015   01.01.2016   Art. 14   Artikeltitel ge-   2016-034
-    ändert
-15.12.2015   01.01.2016   Art. 14, Abs. 2   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 14, Abs. 3   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 18   Artikeltitel ge-   2016-034
-    ändert
-15.12.2015   01.01.2016   Art. 18, Abs. 1   aufgehoben   2016-034
-
-<!-- Seite 37 -->
-Erlassdatum   Vollzugsbeginn   Bestimmung   Änderungstyp   nGS-Fundstelle
-15.12.2015   01.01.2016   Art. 18, Abs. 1bis   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 18, Abs. 2   aufgehoben   2016-034
-15.12.2015   01.01.2016   Art. 18, Abs. 3   geändert   2016-034
-15.12.2015   01.01.2016   Art. 18, Abs. 4   aufgehoben   2016-034
-15.12.2015   01.01.2016   Art. 48   Artikeltitel ge-   2016-034
-    ändert
-15.12.2015   01.01.2016   Art. 57, Abs. 1   geändert   2016-034
-15.12.2015   01.01.2016   Art. 57, Abs. 2   aufgehoben   2016-034
-15.12.2015   01.01.2016   Art. 57, Abs. 3   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 57, Abs. 4   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 57, Abs. 5   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 58, Abs. 1   geändert   2016-034
-15.12.2015   01.01.2016   Art. 77a   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 77b   eingefügt   2016-034
-15.12.2015   01.01.2016   Art. 77c   eingefügt   2016-034
-04.12.2018   01.01.2019   Art. 1   Artikeltitel ge-   2019-014
-    ändert
-04.12.2018   01.01.2019   Art. 1, Abs. 1   geändert   2019-014
-04.12.2018   01.01.2019   Art. 1, Abs. 2   geändert   2019-014
-04.12.2018   01.01.2019   Art. 2, Abs. 1   geändert   2019-014
-04.12.2018   01.01.2019   Art. 2, Abs. 2   geändert   2019-014
-04.12.2018   01.08.2019   Art. 4   aufgehoben   2019-014
-04.12.2018   01.01.2019   Art. 29quinquies   eingefügt   2019-015
-04.12.2018   01.01.2019   Art. 78, Abs. 1, h)   geändert   2019-014
-04.12.2018   01.01.2019   Art. 78, Abs. 1, i)   eingefügt   2019-014
-03.12.2019   01.01.2020   Art. 5, Abs. 1   geändert   2019-096
-03.12.2019   01.01.2020   Art. 12   aufgehoben   2019-096
-03.12.2019   01.01.2020   Art. 29quinquies   aufgehoben   2019-096
-03.12.2019   01.01.2020   Art. 35   aufgehoben   2019-096
-03.12.2019   01.01.2020   Art. 48   aufgehoben   2019-096
-03.12.2019   01.01.2020   Art. 52   aufgehoben   2019-096
-03.12.2019   01.01.2020   Art. 63, Abs. 1   geändert   2019-096
-08.12.2020   01.01.2021   Art. 54   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 54bis   eingefügt   2020-103
-08.12.2020   01.01.2021   Art. 55, Abs. 1   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 55, Abs. 1bis   eingefügt   2020-103
-08.12.2020   01.01.2021   Art. 55, Abs. 2   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 55, Abs. 3   geändert   2020-103
-08.12.2020   01.01.2021   Art. 55, Abs. 4   geändert   2020-103
-08.12.2020   01.01.2021   Art. 56, Abs. 2   geändert   2020-103
-08.12.2020   01.01.2021   Art. 56, Abs. 3   geändert   2020-103
-08.12.2020   01.01.2021   Art. 56, Abs. 4   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 56, Abs. 5   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 56bis   eingefügt   2020-103
-
-<!-- Seite 38 -->
-Erlassdatum   Vollzugsbeginn   Bestimmung   Änderungstyp   nGS-Fundstelle
-08.12.2020   01.01.2021   Art. 57   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 58   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 59   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 59bis   Artikeltitel ge-   2020-103
-    ändert
-08.12.2020   01.01.2021   Art. 59bis, Abs. 1   geändert   2020-103
-08.12.2020   01.01.2021   Art. 59bis, Abs. 1bis   eingefügt   2020-103
-08.12.2020   01.01.2021   Art. 59bis, Abs. 2   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 59ter   eingefügt   2020-103
-08.12.2020   01.01.2021   Art. 60, Abs. 2bis   eingefügt   2020-103
-08.12.2020   01.01.2021   Art. 60, Abs. 3   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 60, Abs. 4   aufgehoben   2020-103
-08.12.2020   01.01.2021   Art. 61, Abs. 1, a)   geändert   2020-103
-08.12.2020   01.01.2021   Art. 61, Abs. 1, b)   geändert   2020-103
-08.12.2020   01.01.2021   Art. 61, Abs. 1, c)   geändert   2020-103
-08.12.2020   01.01.2021   Art. 65ter   eingefügt   2020-103
-07.12.2021   01.01.2022   Art. 14, Abs. 1   geändert   2021-097
-07.12.2021   01.01.2022   Art. 18a   eingefügt   2021-097
-07.12.2021   01.01.2022   Art. 30bis, Abs. 1   geändert   2021-097
-07.12.2021   01.01.2022   Art. 32   aufgehoben   2021-097
-07.12.2021   01.01.2022   Art. 63, Abs. 1   geändert   2021-097
-07.12.2021   01.01.2022   Art. 71, Abs. 1, d)   aufgehoben   2021-097
-07.12.2021   01.01.2022   Art. 77c, Abs. 1   geändert   2021-097
-05.12.2023   01.01.2024   Art. 68a   eingefügt   2023-079
+# Steuerverordnung SG (sGS 811.11) – Version gültig ab 01.01.2024
+
+> Kanton St. Gallen (SG) · Gesetzestext (Version 3565) · Quelle: <https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.11/versions/3565>
+
+## Art. 1 StV SG – Als öffentlich-rechtliche Körperschaft anerkannte Religionsgemeinschaften (Art. 3 StG) a) Grundsatz
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+**Abs. 1** Die natürlichen Personen entrichten die Einkommens- und Vermögenssteuern gemäss ihrer Religionszugehörigkeit der entsprechenden Kirchgemeinde oder der Jüdischen Gemeinde.
+**Abs. 2** Bei Austritt aus der als öffentlich-rechtliche Körperschaft anerkannten Religionsgemeinschaft erlischt die Steuerpflicht mit der rechtsgültig abgegebenen Austrittserklärung.
+
+## Art. 2 StV SG – b) Bei gemischter Ehe
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+**Abs. 1** Die Einkommens- und Vermögenssteuern werden bei gemischter Ehe gemäss Religionszugehörigkeit der Ehegatten je zur Hälfte den entsprechenden Kirchgemeinden oder der Jüdischen Gemeinde entrichtet.
+**Abs. 2** Jeder Ehegatte kann verlangen, dass die Einkommens- und Vermögenssteuern nach dem Verhältnis der Religionszugehörigkeit aller Familienglieder erhoben werden.
+
+## Art. 3 StV SG – Ausscheidung der Gemeindeanteile (Art. 8 StG) a) Ausscheidungsregeln
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+**Abs. 1** Eine Ausscheidung der Gemeindeanteile am Zuschlag zu den Gewinn- und Kapitalsteuern sowie zu den Grundstückgewinnsteuern erfolgt für die politischen Gemeinden, zu denen eine steuerrechtliche Zugehörigkeit besteht.
+**Abs. 2** Die Ausscheidung richtet sich nach den Grundsätzen der Bundesgesetzgebung über die Steuerharmonisierung und der bundesgerichtlichen Rechtsprechung zum Doppelbesteuerungsverbot, soweit diese Verordnung nichts anderes bestimmt.
+**Abs. 3** Die Ausscheidung der Gemeindeanteile am Zuschlag zu den Gewinn- und Kapitalsteuern erfolgt in Fällen nach Art. 99bis des Steuergesetzes vom 9. April 1998, in denen zudem weder ein steuerbarer Gewinn noch ein steuerbares Kapital vorliegt, zu gleichen Teilen unter den politischen Gemeinden, zu denen eine steuerrechtliche Zugehörigkeit besteht.
+
+[^3]: sGS 811.1 .
+
+## Art. 4 StV SG – …
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+
+
+## Art. 5 StV SG – c) Anteile thurgauischer Schulgemeinden
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+**Abs. 1** Die Schulgemeindeanteile der thurgauischen Schulgemeinden nach der Vereinbarung über die Schul- und Steuerverhältnisse in Grenzgebieten des Kantons Thurgau vom 1. September 1987 betragen die Hälfte der Gemeindeanteile nach Art. 8 Abs. 1 des Steuergesetzes.
+**Abs. 2** Führt die thurgauische Schulgemeinde nicht die gesamte Volksschule, wird der ihr zukommende Schulgemeindeanteil angemessen herabgesetzt.
+
+[^4]: sGS 213.352.6 .
+
+## Art. 6 StV SG – d) Verfahren
+
+*ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN*
+
+**Abs. 1** Das kantonale Steueramt nimmt die Ausscheidungen vor.
+
+## Art. 7 StV SG – Wirtschaftliche Zugehörigkeit (Art. 14 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Betriebsstätten sind insbesondere Zweigniederlassungen, Fabrikationsstätten, Werkstätten, Verkaufsstellen, ständige Vertretungen, Bergwerke und andere Stätten der Ausbeutung von Bodenschätzen sowie Bau- oder Montagestellen von wenigstens 12 Monaten Dauer.
+
+## Art. 8 StV SG – Rechtliche und tatsächliche Trennung der Ehe (Art. 20 Abs. 1 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Die Ehe ist rechtlich getrennt, wenn sie zivilrechtlich getrennt oder geschieden ist.
+**Abs. 2** Als tatsächlich getrennt gilt die Ehe, wenn der gemeinsame Haushalt aufgehoben ist, zwischen den Ehegatten keine Gemeinschaftlichkeit der Mittel für Wohnung und Unterhalt mehr besteht und eine allfällige Unterstützung des einen Ehegatten durch den andern nur noch in ziffernmässig bestimmten Beträgen geleistet wird.
+
+[^5]: Vgl. Art. 111 ff., 117 f. und 137 des Schweizerischen Zivilgesetzbuches vom 10. Dezember 1907, SR 210 .
+
+## Art. 9 StV SG – Besteuerung nach dem Aufwand (Art. 27 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für die Steuer vom Einkommen wird die Verordnung über die Besteuerung nach dem Aufwand bei der direkten Bundessteuer vom 20. Februar 2013 sachgemäss angewendet. Sozialabzüge nach Art. 48 und 64 des Steuergesetzes sind nicht zulässig.
+
+[^6]: SR 642.123 .
+
+## Art. 10 StV SG – Steuerbares Einkommen a) Bewertung der Naturalbezüge (Art. 29 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Die Naturalbezüge der Unselbständigerwerbenden werden zum Marktwert bemessen. Sie werden in der Regel nach den für die eidgenössische Alters- und Hinterlassenenversicherung geltenden Ansätzen bewertet.
+**Abs. 2** Die Entnahmen von Waren und Dienstleistungen aus der eigenen Unternehmung für den Steuerpflichtigen, die von ihm unterhaltenen Personen und die Arbeitnehmer werden zu den Selbstkosten angerechnet.
+
+## Art. 11 StV SG – b) Einkünfte aus selbständiger Erwerbstätigkeit 1. Kapitalgewinne (Art. 31 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Bei kaufmännischer Buchführung gilt als Kapitalgewinn der den Einkommenssteuerwert übersteigende Erlös.
+**Abs. 2** Liegen keine kaufmännisch geführten Bücher vor, wird der Kapitalgewinn nach dem Differenzbetrag zwischen dem Erlös und den ausgewiesenen Gestehungskosten berechnet. Die steuerlich berücksichtigten Abschreibungen werden von den Gestehungskosten abgerechnet.
+
+[^7]: Vgl. Art. 957 ff. des BG betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) vom 30. März 1911, SR 220 .
+
+## Art. 12 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 13 StV SG – c) Einkünfte aus beweglichem Vermögen (Art. 33 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Als Einkünfte aus beweglichem Vermögen gelten alle Vermögenserträge, die dem Berechtigten namentlich durch Zahlung, Überweisung, Gutschrift oder Verrechnung zufliessen.
+**Abs. 2** …
+**Abs. 3** Die Einkünfte werden dem Einkommen des Jahres zugerechnet, in dem der Steuerpflichtige einen rechtlichen Anspruch darauf erhält. Art. 33 Abs. 1 Bst. c zweiter Satz des Steuergesetzes bleibt vorbehalten.
+
+## Art. 13 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 13 ter StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 14 StV SG – d) Mietwert von selbst genutzten Grundstücken (Art. 34 Abs. 2, 3 und 4 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Der Mietwert nach Art. 34 Abs. 1 Bst. b des Steuergesetzes vom 9. April 1998 wird im Verfahren nach dem Gesetz über die Durchführung der Grundstückschätzung vom 9. November 2000 ermittelt.
+**Abs. 2** Der Mietwert nach Art. 34 Abs. 3 des Steuergesetzes wird reduziert, wenn:
+- a) er 30 Prozent der Bruttoeinkünfte des Steuerpflichtigen übersteigt und
+- b) das steuerbare Vermögen des Steuerpflichtigen höchstens Fr. 600 000.– beträgt.
+**Abs. 3** Sind die Voraussetzungen nach Abs. 2 dieser Bestimmung erfüllt, wird der Mietwert soweit reduziert, wie er 30 Prozent der Bruttoeinkünfte des Steuerpflichtigen übersteigt. Art. 34 Abs. 4 Satz 2 des Steuergesetzes bleibt vorbehalten.
+
+[^8]: sGS 814.1 .
+
+## Art. 15 StV SG – e) Unterhaltsbeiträge bei Scheidung oder Trennung (Art. 36 Bst. f StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Als Unterhaltsbeiträge, die ein Ehegatte bei geschiedener oder getrennter Ehe an den Unterhalt des andern ausrichtet, gelten ausschliesslich die laufenden Beiträge.
+
+## Art. 16 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 17 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 18 StV SG – Berufskosten bei unselbständiger Erwerbstätigkeit a) Fahrkosten (Art. 39 Abs. 1 Bst. a und Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** …
+**Abs. 1bis** Als notwendige Kosten für Fahrten zwischen Wohn- und Arbeitsstätte können bis zum Betrag nach Art. 39 Abs. 1 Bst. a des Steuergesetzes abgezogen werden:
+- a) die notwendigen Auslagen für die Benützung öffentlicher Verkehrsmittel oder
+- b) die notwendigen Kosten je gefahrene Kilometer für die Benützung eines privaten Fahrzeugs, sofern kein öffentliches Verkehrsmittel zur Verfügung steht oder dessen Benützung nicht zumutbar ist.
+**Abs. 2** …
+**Abs. 3** Die Kosten des privaten Fahrzeugs nach Abs. 1bis Bst. b dieser Bestimmung werden gemäss den für die direkte Bundessteuer massgebenden Ansätzen für die Benützung eines privaten Fahrzeugs bestimmt.
+**Abs. 4** …
+
+[^9]: Vgl. Anhang zur V über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1 .
+
+## Art. 18a StV SG – abis) Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Nutzt der Steuerpflichtige ein Geschäftsfahrzeug unentgeltlich für Fahrten zwischen Wohn- und Arbeitsstätte sowie für weitere private Zwecke, kann anstelle der Abrechnung über die tatsächlichen Kosten der privaten Nutzung und des Fahrkostenabzugs nach Art. 18 dieser Verordnung eine pauschale Fahrkostenberechnung vorgenommen werden.
+**Abs. 2** Bei der pauschalen Fahrkostenberechnung gelten 0,9 Prozent des Kaufpreises des Fahrzeugs als monatliches Einkommen aus dieser Nutzung.
+
+## Art. 19 StV SG – b) Mehrkosten für Verpflegung (Art. 39 Abs. 1 Bst. b StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Mehrkosten für Verpflegung werden nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen:
+- a) wenn der Steuerpflichtige wegen grosser Entfernung zwischen Wohn- und Arbeitsstätte oder wegen kurzer Essenspause eine Hauptmahlzeit nicht zu Hause einnehmen kann;
+- b) bei durchgehender Schicht- oder Nachtarbeit.
+**Abs. 2** Nur der halbe Abzug ist zulässig, wenn die Verpflegung in einem Personalrestaurant des Arbeitgebers eingenommen werden kann oder durch einen angemessenen Beitrag des Arbeitgebers verbilligt wird.
+**Abs. 3** Der Schichtarbeit ist die gestaffelte oder unregelmässige Arbeitszeit gleichgestellt, wenn beide Hauptmahlzeiten nicht zur üblichen Zeit zu Hause eingenommen werden können.
+
+[^10]: Vgl. Anhang zur eidgV über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit bei der direkten Bundessteuer vom 10.Februar 1993, SR 642.118.1 .
+
+## Art. 20 StV SG – c) Auswärtiger Wochenaufenthalt (Art. 39 Abs. 1 Bst. b und c StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Steuerpflichtige mit auswärtigem Arbeitsort, denen die alltägliche Rückkehr an den steuerrechtlichen Wohnsitz nicht möglich ist oder nicht zugemutet werden kann, können die Mehrkosten für den auswärtigen Aufenthalt abziehen.
+**Abs. 2** Der Abzug der notwendigen Mehrkosten der auswärtigen Verpflegung wird nach den für die direkte Bundessteuer massgebenden Pauschalansätzen bestimmt.
+**Abs. 3** Als notwendige Mehrkosten der Unterkunft gelten die ortsüblichen Mietkosten für ein Zimmer.
+**Abs. 4** Für den Abzug der notwendigen Fahrkosten zwischen Arbeitsort und steuerrechtlichem Wohnsitz wird Art. 18 dieser Verordnung sachgemäss angewendet.
+
+[^11]: Vgl. Anhang zur V über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1 .
+
+## Art. 21 StV SG – d) Übrige Berufskosten (Art. 39 Abs. 1 Bst. c StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für übrige notwendige Berufskosten werden Fr. 700.– zuzüglich 10 Prozent der Nettoeinkünfte, höchstens Fr. 2400.– abgezogen.
+**Abs. 2** Die Nettoeinkünfte umfassen die Bruttoeinkünfte abzüglich Prämien und Beiträge nach Art. 45 Abs. 1 Bst. d und f des Steuergesetzes, ausgenommen die Beiträge für den Einkauf von Beitragsjahren.
+**Abs. 3** Der Nachweis höherer notwendiger Kosten bleibt vorbehalten.
+
+## Art. 22 StV SG – e) Unselbständige Nebenerwerbstätigkeit (Art. 39 Abs. 1 Bst. a bis c StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Bei unselbständiger Nebenerwerbstätigkeit werden die notwendigen Berufskosten nach den für die direkte Bundessteuer massgebenden Pauschalansätzen abgezogen.
+**Abs. 2** Für die Berufskosten von nebenamtlichen Behördenmitgliedern werden zusätzlich abgezogen:
+- a) pauschal bis Fr. 2400.–, oder
+- b) je Sitzung, für die ein Sitzungsgeld ausgerichtet wird, bis Fr. 60.–, insgesamt höchstens Fr. 4000.–.
+**Abs. 3** Der Nachweis höherer notwendiger Berufskosten bleibt vorbehalten.
+
+[^12]: Vgl. Anhang zur eidgV über den Abzug von Berufskosten der unselbständigen Erwerbstätigkeit bei der direkten Bundessteuer vom 10. Februar 1993, SR 642.118.1 .
+
+## Art. 23 StV SG – Abzüge bei selbständiger Erwerbstätigkeit a) Abschreibungen (Art. 41 Abs. 1 Bst. a StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für Wertverminderungen von Geschäftsaktiven sind Abschreibungen zulässig, soweit sie buchmässig oder in besonderen Abschreibungstabellen ausgewiesen werden.
+**Abs. 2** Die Höhe der Abschreibungen richtet sich nach dem Anlagewert (Anschaffungs- oder Herstellungskosten) und dem Endwert des abzuschreibenden Vermögenswerts. Die Abschreibungen entsprechen der Entwertung der einzelnen Vermögenswerte im Geschäftsjahr oder werden nach der voraussichtlichen Gebrauchsdauer angemessen verteilt.
+**Abs. 3** Die Höherbewertung von Aktiven kann den Ausgangswert für die Abschreibungen erhöhen, soweit sie den Geschäftsertrag vermehrt oder zum Ausgleich von Verlusten dient, die nach Art. 42 des Steuergesetzes verrechenbar sind. Vorbehalten bleiben die handelsrechtlichen Vorschriften des Obligationenrechts.
+**Abs. 4** Weitergehende Abschreibungen werden unter der Voraussetzung zugelassen, dass die Steuervorteile, die dem Steuerpflichtigen aus der zeitlichen Vorverschiebung der Abschreibungen erwachsen, durch einen gleichwertigen Zuschlag zum steuerbaren Einkommen ausgeglichen werden.
+
+[^13]: Vgl. Art. 662 ff., 764 Abs. 2, Art. 805 und 858 Abs. 2 sowie Art. 960 des BG betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) vom 30. März 1911, SR 220 .
+
+## Art. 24 StV SG – b) Wertberichtigungen (Art. 41 Abs. 1 Bst. b StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für nur vorübergehende Wertveränderungen sind Wertberichtigungen zulässig.
+**Abs. 2** Wertberichtigungen sind Korrekturposten auf Aktiven für bereits eingetretene Entwertung oder in unmittelbarer Zukunft zu erwartende Vermögenseinbussen. In begründeten Fällen sind auch Korrekturposten zu Passiven möglich.
+**Abs. 3** Zu den Wertberichtigungen auf Aktiven gehören insbesondere das Delkredere, die Wertberichtigungen auf Liegenschaften, Beteiligungen und Vorräten sowie die verbuchten, nicht realisierten Kursverluste auf Wertpapieren oder Fremdwährungen per Bilanzstichtag.
+
+## Art. 25 StV SG – c) Rückstellungen (Art. 41 Abs. 1 Bst. c StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Rückstellungen zum Ausgleich drohender Geschäftsverluste sind zulässig:
+- a) für Verpflichtungen, die durch Ereignisse in den für die Einkommensbesteuerung massgeblichen Geschäftsjahren begründet sind, deren Rechtsbestand oder Höhe jedoch noch unbestimmt ist;
+- b) für unmittelbar drohende Verlustrisiken, die in den massgeblichen Geschäftsjahren begründet werden.
+
+## Art. 26 StV SG – d) Verluste (Art. 42 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Als Unterbilanz gilt der Betrag, um den das Fremdkapital die ausgewiesenen Aktiven übersteigt.
+
+## Art. 27 StV SG – e) Ersatzbeschaffungen (Art. 43 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Die für eine Ersatzbeschaffung gebildete Rückstellung kann innert drei Jahren zur Abschreibung auf dem Ersatzobjekt verwendet werden. Die Frist wird erstreckt, wenn die Verzögerung durch Umstände bedingt ist, die nicht im Einflussbereich des Steuerpflichtigen liegen.
+**Abs. 2** Zulässig ist auch die Übertragung stiller Reserven auf ein Ersatzobjekt, dessen Erwerb bereits im vorangegangenen Geschäftsjahr erfolgte.
+**Abs. 3** Die stillen Reserven eines veräusserten Anlageobjekts können nur soweit auf ein Ersatzobjekt übertragen werden, als dadurch der Einkommenssteuerwert des Ersatzobjekts nicht unter den bisherigen Einkommenssteuerwert des veräusserten Anlageobjekts fällt. Auf dem verbleibenden Einkommenssteuerwert können die ordentlichen Abschreibungen vorgenommen werden.
+
+## Art. 28 StV SG – Abzüge bei Nutzung von Liegenschaften des Privatvermögens a) tatsächliche Kosten (Art. 44 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Als Unterhaltskosten gelten:
+- a) die Auslagen für die Instandhaltung, Instandstellung und Ersatzbeschaffung, soweit sie nicht wertvermehrende Aufwendungen darstellen, sowie Einlagen in den Reparatur- und Erneuerungsfonds von Stockwerkeigentümergemeinschaften, sofern diese Mittel nur zur Bestreitung von Unterhaltskosten für die Gemeinschaftsanlagen verwendet werden und sie dem Steuerpflichtigen unwiderruflich entzogen sind;
+- b) bei Eigengebrauch die Betriebskosten, soweit sie nicht unmittelbar durch die Nutzung bedingt sind, wie Unterhaltsperimeter und Grundsteuern;
+- c) bei Vermietung oder Verpachtung die Betriebskosten, die nicht auf den Mieter oder Pächter überwälzt werden.
+**Abs. 2** Zu den abziehbaren Versicherungsprämien gehören die Prämien für Sach- und Haftpflichtversicherung für die Liegenschaft.
+**Abs. 3** Als Verwaltungskosten abziehbar sind auch die notwendigen tatsächlichen Auslagen des Steuerpflichtigen, soweit sie nicht Entschädigung für eigene Arbeit darstellen.
+
+## Art. 29 StV SG – b) Pauschalabzug (Art. 44 Abs. 4 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für vorwiegend Wohnzwecken dienende Liegenschaften kann anstelle der tatsächlichen Kosten ein Pauschalabzug von 20 Prozent des Bruttomietertrags ohne Nebenkosten oder des angerechneten Eigenmietwerts geltend gemacht werden.
+**Abs. 2** Der Steuerpflichtige kann für jede Steuerperiode und für jede Liegenschaft zwischen dem Abzug der tatsächlichen Kosten und dem Pauschalabzug wählen.
+
+## Art. 29 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 29 ter StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 29 quater StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 29 quinquies StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 30 StV SG – Sozialabzüge beim Einkommen (Art. 48 Abs. 1 Bst. a StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Als Kinder gelten die leiblichen Kinder sowie die Adoptiv-, Stief- und Pflegekinder.
+
+## Art. 30a StV SG – Liquidationsgewinne (Art. 52bis StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Für die Besteuerung der Liquidationsgewinne mit Vorsorgecharakter wird die eidgenössische Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit vom 17. Februar 2010 sachgemäss angewendet.
+
+[^14]: SR 642.114 .
+
+## Art. 30 bis StV SG – Verkehrs- und Ertragswert (Art. 57 Abs. 1 und Art. 58 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Der Verkehrswert und der Ertragswert nach Art. 57 Abs. 1 und Art. 58 des Steuergesetzes vom 9. April 1998 werden im Verfahren nach dem Gesetz über die Durchführung der Grundstückschätzung vom 9. November 2000 ermittelt.
+**Abs. 2** Bei Neu-, Um- und Anbauten, für die noch keine Schätzung nach Abs. 1 dieser Bestimmung besteht, erfolgt ein Zuschlag zur geltenden Schätzung in der Höhe von 80 Prozent der Neu-, Um- und Anbaukosten.
+
+[^15]: sGS 811.1 .
+[^16]: sGS 814.1 .
+
+## Art. 31 StV SG – Steuerfreies Vermögen (Art. 63 Bst. a StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Zum Hausrat gehören die Gegenstände, die zur üblichen Einrichtung einer Wohnung gehören und tatsächlich Wohnzwecken dienen, namentlich Möbel, Teppiche, Bilder, Küchen- und Gartengeräte, Geschirr, Bücher sowie Geräte der Unterhaltungselektronik.
+**Abs. 2** Als persönliche Gebrauchsgegenstände gelten die Gebrauchsgegenstände des Alltags, namentlich Kleider, Schmuck, Sportgeräte, Foto- und Filmapparate.
+**Abs. 3** Nicht zum Hausrat oder zu den persönlichen Gebrauchsgegenständen zählen namentlich Motorfahrzeuge, Boote, Reitpferde und Kunstsammlungen sowie Vermögensgegenstände und Sammlungen, deren Wert das gemeinhin Übliche deutlich übersteigt, oder die geeignet sind, zum Anknüpfungspunkt erheblicher Wertzuwachsgewinne zu werden.
+
+## Art. 32 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 32 bis StV SG – Bemessung des Einkommens bei selbständiger Erwerbstätigkeit (Art. 67 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Die ordentlichen Gewinne werden nur bei unterjähriger Steuerpflicht und zugleich unterjährigem Geschäftsjahr für die Satzbestimmung aufgrund der Dauer der Steuerpflicht auf zwölf Monate umgerechnet. Übersteigt jedoch die Dauer des unterjährigen Geschäftsjahres die Dauer der Steuerpflicht, werden die ordentlichen Gewinne für die Satzbestimmung nur auf Grund der Dauer des Geschäftsjahres auf zwölf Monate umgerechnet.
+
+## Art. 32 ter StV SG – Bemessung des Vermögens bei Vermögensanfall von Todes wegen (Art. 68 Abs. 4 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+**Abs. 1** Erbt der Steuerpflichtige während der Steuerperiode Vermögen, wird die Veranlagung des Vermögens nur angepasst, wenn der Vermögensanfall mindestens Fr. 50 000.– beträgt.
+
+## Art. 32 quater StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Erster Abschnitt: Einkommens- und Vermögenssteuern*
+
+
+
+## Art. 33 StV SG – Ausländische juristische Personen, Handelsgesellschaften und Personengesamtheiten (Art. 70 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Die Vorschriften über die Besteuerung der juristischen Personen werden sachgemäss angewendet.
+**Abs. 2** Zulasten der Erfolgsrechnung verbuchte Lohn- oder Spesenzahlungen an Gesellschafter oder diesen nahestehende Personen werden dem steuerbaren Gewinn hinzugerechnet, soweit sie nicht geschäftsmässig begründet sind oder einem Drittvergleich nicht standhalten.
+**Abs. 3** Zulasten der Erfolgsrechnung verbuchte Steuern sind abzugsfähig, soweit es sich um Steuern handelt, die auf das Betriebsergebnis entfallen. Nicht abzugsfähig sind Steuern, die den Gesellschaftern oder diesen nahestehenden Personen persönlich zuzurechnen sind.
+
+## Art. 34 StV SG – Wirtschaftliche Zugehörigkeit (Art. 72 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Die Vorschrift der Einkommenssteuer über die Qualifikation als Betriebsstätte wird sachgemäss angewendet.
+
+[^17]: Siehe Art. 7 dieser V.
+
+## Art. 35 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 36 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 37 StV SG – Steuernachfolge (Art. 78 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Verluste und Verlustvorträge von aufgelösten juristischen Personen können nicht übernommen werden, wenn die Fusion, Vereinigung oder Übernahme zum Zweck der Steuerumgehung erfolgt, namentlich bei der Übernahme wirtschaftlich liquidierter oder nur noch aus einem Aktienmantel bestehender Gesellschaften.
+
+## Art. 38 StV SG – Ausnahmen von der Steuerpflicht (Art. 80 Abs. 1 Bst. g StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Juristische Personen, deren Gewinn und Kapital auf die Dauer teilweise ausschliesslich öffentlichen oder gemeinnützigen Zwecken dienen, können die Steuerfreiheit für die entsprechenden Teile des Gewinns und des Kapitals beanspruchen.
+**Abs. 2** Von der Steuerpflicht befreit sind Zweckverbände von Gemeinden und öffentlich-rechtliche Korporationen, die ausschliesslich öffentliche Aufgaben erfüllen wie Kehricht- oder Kadaververwertung, Abwasserreinigung und Wasserversorgung.
+
+## Art. 39 StV SG – Berechnung des Reingewinns a) Leistungen zwischen nahestehenden Personen (Art. 82 Abs. 1 Bst. b Ziff. 5 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Leistungen werden auch zwischen nahestehenden Personen zum Marktwert angerechnet.
+**Abs. 2** Der Marktwert ergibt sich aus dem jeweiligen Marktpreis, den jeweiligen Gestehungskosten zuzüglich eines angemessenen Aufschlags oder dem jeweiligen Endverkaufspreis abzüglich einer angemessenen Gewinnmarge.
+**Abs. 3** Den beteiligten Personen steht der Nachweis der Richtigkeit einer anderen Bewertung aufgrund besonderer Umstände offen.
+
+## Art. 40 StV SG – b) Kollektive Kapitalanlagen mit direktem Grundbesitz (Art. 82 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Zum steuerbaren Gewinn kollektiver Kapitalanlagen gehören auch die Gewinne aus der Veräusserung von direktem Grundbesitz.
+
+## Art. 41 StV SG – c) Freiwillige Zuwendungen (Art. 84 Abs. 2 Bst. c StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Freiwillige Zuwendungen sind nicht geschäftsmässig begründet, soweit sie vorwiegend im Interesse von Personen geleistet werden, die der zuwendenden juristischen Person nahestehen.
+
+## Art. 42 StV SG – d) Abschreibungen, Wertberichtigungen, Rückstellungen und Ersatzbeschaffungen (Art. 85 und 87 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Die Vorschriften der Einkommenssteuer über die Abschreibungen, Wertberichtigungen, Rückstellungen und Ersatzbeschaffungen werden sachgemäss angewendet.
+**Abs. 2** Wertverminderungen auf Beteiligungen nach Art. 91 Abs. 2 Bst. b des Steuergesetzes sind nur endgültig, wenn die Gesellschaft ihre Geschäftstätigkeit eingestellt hat oder soweit eine dauerhafte wesentliche Werteinbusse aus anderen Gründen nachgewiesen werden kann.
+
+## Art. 43 StV SG – e) Verluste (Art. 86 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Als Unterbilanz gilt der Betrag, der zur Deckung des Grundkapitals und der gesetzlichen Reserven fehlt.
+**Abs. 2** Ein qualifizierter Fehlbetrag nach Art. 670 OR ist nicht Voraussetzung für die Verrechnung von Verlusten mit Sanierungsleistungen.
+
+[^18]: BG betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht) vom 30. März 1911, SR 220 .
+
+## Art. 44 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 45 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 46 StV SG – 3. Buchgewinne oder -verluste
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Entsteht durch die Übernahme von Aktiven und Passiven einer Kapitalgesellschaft oder Genossenschaft, deren Beteiligungsrechte der übernehmenden juristischen Person gehören, ein Buchverlust, kann dieser steuerlich nur in dem Umfang abgezogen werden, in dem diese Beteiligungsrechte handelsrechtlich hätten abgeschrieben werden müssen (echter Fusionsverlust).
+**Abs. 2** Ein Fusionsgewinn gilt als Beteiligungsertrag, soweit die Gestehungskosten den Gewinnsteuerwert nicht übersteigen.
+
+## Art. 47 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 48 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 49 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 50 StV SG – b) Ermässigungen für gemischte Beteiligungsgesellschaften (Art. 90 und Art. 284 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Als Ertrag aus Beteiligungen gelten alle ordentlichen und ausserordentlichen Gewinnausschüttungen an den Inhaber des Beteiligungsrechts, soweit sie als Ertrag verbucht und dem steuerbaren Reingewinn zugerechnet worden sind.
+**Abs. 2** Keine Beteiligungserträge sind insbesondere:
+- a) Liquidationsüberschüsse und Fusionsgewinne, soweit die Gestehungskosten den Gewinnsteuerwert übersteigen;
+- b) Leistungen, die geschäftsmässig begründeter Aufwand der Gesellschaft oder Genossenschaft sind;
+- c) Kapital- und Aufwertungsgewinne sowie Erlöse aus dem Verkauf von Bezugsrechten, soweit nicht Art. 91 des Steuergesetzes anwendbar ist.
+
+## Art. 51 StV SG – c) Kapitalgewinne auf Beteiligungen (Art. 91 Abs. 2 Bst. b StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Für die Ermittlung der Quote von 10 Prozent können mehrere Verkäufe in einem Geschäftsjahr zusammengerechnet werden.
+
+## Art. 52 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 52 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+
+
+## Art. 53 StV SG – Steuerperiode (Art. 102 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Zweiter Abschnitt: Gewinn- und Kapitalsteuern*
+
+**Abs. 1** Der Zeitpunkt des Geschäftsabschlusses kann mit Bewilligung des kantonalen Steueramtes ausnahmsweise verlegt werden, ohne dass in jedem Kalenderjahr ein Geschäftsabschluss erstellt wird.
+**Abs. 2** Die Verlegung des Geschäftsabschlusses wird vorgängig bewilligt, wenn Verzerrungen in der Bemessungsgrundlage ausgeschlossen sind. Die Kapitalsteuer ist bei bewilligter Verlegung des Geschäftsabschlusses pro rata temporis geschuldet.
+
+## Art. 53 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+
+
+## Art. 54 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+
+
+## Art. 54 bis StV SG – Ersatzeinkünfte (Art. 106 Abs. 2 Bst. b StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** Der Quellensteuer unterworfen sind alle Ersatzeinkünfte aus Arbeitsverhältnissen sowie aus Kranken-, Unfall-, Invaliden- und Arbeitslosenversicherung. Insbesondere gehören dazu Taggelder, Entschädigungen, Teilrenten und an deren Stelle tretende Kapitalleistungen.
+
+## Art. 55 StV SG – Steuerabzug a) Tarifarten (Art. 107 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** …
+**Abs. 1bis** Folgende Tarifcodes werden bei den nachstehend aufgeführten Personen für den Quellensteuerabzug angewendet:
+- a) Tarifcode A: bei ledigen, geschiedenen, gerichtlich oder tatsächlich getrennt lebenden und verwitweten Personen, die nicht mit Kindern oder unterstützungsbedürftigen Personen im gleichen Haushalt zusammenleben;
+- b) Tarifcode B: bei in rechtlich und tatsächlich ungetrennter Ehe lebenden Eheleuten, bei welchen nur ein Ehegatte erwerbstätig ist;
+- c) Tarifcode C: bei in rechtlich und tatsächlich ungetrennter Ehe lebenden Eheleuten, bei welchen beide Eheleute erwerbstätig sind;
+- d) Tarifcode D: bei Personen, die Leistungen nach Art. 18 Abs. 3 des Bundesgesetzes über die Alters- und Hinterlassenenversicherung vom 20. Dezember 1946 erhalten;
+- e) Tarifcode E: bei Personen, die im vereinfachten Abrechnungsverfahren besteuert werden;
+- f) Tarifcode F: bei Grenzgängern nach der Vereinbarung zwischen der Schweiz und Italien über die Besteuerung der Grenzgänger und den finanziellen Ausgleich zugunsten der italienischen Grenzgemeinden vom 3. Oktober 1974, die in einer italienischen Grenzgemeinde leben und deren Ehegatte ausserhalb der Schweiz erwerbstätig ist;
+- g) Tarifcode G: bei Ersatzeinkünften nach Art. 54bis dieser Verordnung, die nicht über die Arbeitgeber an die quellensteuerpflichtigen Personen ausbezahlt werden;
+- h) Tarifcode H: bei ledigen, geschiedenen, gerichtlich oder tatsächlich getrennt lebenden und verwitweten Personen, die mit Kindern oder unterstützungsbedürftigen Personen im gleichen Haushalt zusammenleben und deren Unterhalt zur Hauptsache bestreiten;
+- i) Tarifcode L: bei Grenzgängern nach dem Abkommen zwischen der Schweizerischen Eidgenossenschaft und der Bundesrepublik Deutschland zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (DBA-D) vom 11. August 1971, welche die Voraussetzungen für den Tarifcode A erfüllen;
+- j) Tarifcode M: bei Grenzgängern nach dem DBA-D, welche die Voraussetzungen für den Tarifcode B erfüllen;
+- k) Tarifcode N: bei Grenzgängern nach dem DBA-D, welche die Voraussetzungen für den Tarifcode C erfüllen;
+- l) Tarifcode P: bei Grenzgängern nach dem DBA-D, welche die Voraussetzungen für den Tarifcode H erfüllen;
+- m) Tarifcode Q: bei Grenzgängern nach dem DBA-D, welche die Voraussetzungen für den Tarifcode G erfüllen.
+**Abs. 2** …
+**Abs. 3** Auf Gesuch von Steuerpflichtigen, die Unterhaltsbeiträge nach Art. 45 Abs. 1 Bst. c StG leisten und bei denen der Tarifcode A, B, C oder H angewendet wird, kann die Steuerbehörde zur Milderung von Härtefällen bei der Berechnung der Quellensteuer Kinderabzüge bis höchstens zur Höhe der Unterhaltsbeiträge berücksichtigen.
+**Abs. 4** Wurden Unterhaltsbeiträge bei der Anwendung der Tarife nach Abs. 3 dieser Bestimmung berücksichtigt, unterliegt der Steuerpflichtige der nachträglichen ordentlichen Veranlagung nach Art. 112ter des Steuergesetzes.
+
+[^19]: SR 831.10 .
+[^20]: SR 0.642.045.43 .
+[^21]: SR 0.672.913.62 .
+
+## Art. 56 StV SG – b) Ausgestaltung (Art. 108 Abs. 1 und 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** Die Tarife werden für jede Steuerperiode nach den geltenden Steuersätzen, Abzügen und Sozialabzügen erstellt.
+**Abs. 2** Die Höhe des Staatssteueranteils bestimmt sich nach dem Steuerfuss der Steuerperiode. Für die Ermittlung der Gemeindesteueranteile wird auf das mutmassliche gewogene Mittel der Einkommens- und Vermögenssteuern der Gemeinden der Vorperiode abgestellt.
+**Abs. 3** Der Steuerabzug nach den Tarifcodes A, B, C, G und H nach Art. 55 Abs. 1bis dieser Verordnung umfasst auch die Feuerwehrabgabe. Deren Höhe wird nach dem Feuerschutzreglement der Stadt St.Gallen bestimmt.
+**Abs. 4** …
+**Abs. 5** …
+
+## Art. 56 bis StV SG – c) Fälligkeit und Berechnung der Quellensteuer
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** Der Quellensteuerabzug ist im Zeitpunkt der Auszahlung, Überweisung, Gutschrift oder Verrechnung der steuerbaren Leistung fällig.
+**Abs. 2** Bei der Berechnung der Quellensteuer sind alle steuerpflichtigen Leistungen eines Monats zu berücksichtigen. Das satzbestimmende Einkommen wird auf Monatsbasis ermittelt. Art. 66 Abs. 3 des Steuergesetzes wird sachgemäss angewendet.
+
+## Art. 57 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+
+
+## Art. 58 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+
+
+## Art. 59 StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+
+
+## Art. 59 bis StV SG – Wechsel vom Quellensteuerabzug zur ordentlichen Veranlagung (Art. 113 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** Bei Erhalt der Niederlassungsbewilligung oder bei Heirat mit einer Person, die das Schweizer Bürgerrecht oder die Niederlassungsbewilligung besitzt, unterliegen bisher der Quellensteuer unterworfene Personen für die ganze Steuerperiode der ordentlichen Veranlagung.
+**Abs. 1bis** Die Quellensteuer ist ab dem Folgemonat nach der Erteilung der Niederlassungsbewilligung oder der Heirat nicht mehr geschuldet. Die an der Quelle abgezogene Steuer wird zinslos angerechnet.
+**Abs. 2** …
+
+## Art. 59 ter StV SG – Wechsel von der ordentlichen Veranlagung zum Quellensteuerabzug (Art. 113 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › A. Natürliche Personen mit steuerrechtlichem Wohnsitz oder Aufenthalt im Kanton*
+
+**Abs. 1** Unterliegt ein Einkommen innerhalb einer Steuerperiode zunächst der ordentlichen Besteuerung und dann der Quellensteuer, wird der Steuerpflichtige für das gesamte Jahr und bis zum Ende der Quellensteuerpflicht nachträglich ordentlich veranlagt.
+**Abs. 2** Die Scheidung sowie die tatsächliche oder rechtliche Trennung von einem Ehegatten mit Schweizer Bürgerrecht oder Niederlassungsbewilligung lösen für einen ausländischen Arbeitnehmer ohne Niederlassungsbewilligung ab Beginn des Folgemonats wieder die Besteuerung an der Quelle aus.
+**Abs. 3** Allfällige Vorauszahlungen vor dem Übergang zur Quellenbesteuerung sowie an der Quelle abgezogene Steuern sind anzurechnen.
+
+## Art. 60 StV SG – Künstler, Sportler und Referenten (Art. 116 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › B. Natürliche und juristische Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz*
+
+**Abs. 1** Als Tageseinkünfte gelten die steuerbaren Einkünfte, aufgeteilt auf die Auftritts- und Probetage.
+**Abs. 2** Ist bei Gruppen der Anteil des einzelnen Mitglieds nicht bekannt oder schwer zu ermitteln, wird für die Bestimmung des Steuersatzes das durchschnittliche Tageseinkommen je Kopf berechnet.
+**Abs. 2bis** Zu den Tageseinkünften gehören auch Vergütungen, die nicht dem Steuerpflichtigen selber, sondern einer Drittperson zufliessen.
+**Abs. 3** …
+**Abs. 4** …
+
+## Art. 61 StV SG – Mindesteinkommen (Art. 120 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › B. Natürliche und juristische Personen ohne steuerrechtlichen Wohnsitz oder Aufenthalt in der Schweiz*
+
+**Abs. 1** Ein Steuerabzug an der Quelle entfällt, wenn die steuerbaren Einkünfte weniger betragen als:
+- a) Fr. 300.– je Veranstaltung bei Künstlern, Sportlern und Referenten;
+- b) Fr. 300.– im Kalenderjahr bei Organen juristischer Personen und Hypothekargläubigern;
+- c) Fr. 1000.– im Kalenderjahr bei Empfängern von Renten.
+
+## Art. 61 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › (2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit **
+
+
+
+## Art. 61 ter StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › (2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit **
+
+
+
+## Art. 61 quater StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › (2.3.2 bis .) B bis . Natürliche Personen mit kleinen Arbeitsentgelten aus unselbständiger Erwerbstätigkeit **
+
+
+
+## Art. 62 StV SG – Abrechnungsperiode (Art. 123 und Art. 187 Abs. 1 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+**Abs. 1** Die Abrechnungsperiode beträgt:
+- a) drei Kalendermonate für Arbeitgeber mit weniger als zehn quellensteuerpflichtigen Arbeitnehmern;
+- b) sechs Kalendermonate für Hypothekarschuldner;
+- c) ein Kalenderjahr für juristische Personen bezüglich der Leistungen, die deren Organen ausgerichtet werden.
+**Abs. 2** In den übrigen Fällen gilt der Kalendermonat als Abrechnungsperiode.
+
+## Art. 63 StV SG – Bezugsprovision (Art. 124 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+**Abs. 1** Die Bezugsprovision für den Schuldner der steuerbaren Leistung beträgt 1 Prozent des gesamten Quellensteuerbetrags.
+
+## Art. 64 StV SG – Internationale Verhältnisse (Art. 128 StG) a) Rückerstattung
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+**Abs. 1** Weist ein Abkommen des Bundes zur Vermeidung einer Doppelbesteuerung das Besteuerungsrecht an einer Kapitalleistung aus einer Einrichtung der beruflichen Vorsorge oder aus einer anerkannten Form der gebundenen Selbstvorsorge dem Wohnsitzstaat zu, wird die Steuer dem Steuerpflichtigen zinslos zurückerstattet, wenn er:
+- a) innerhalb von drei Jahren seit deren Fälligkeit ein entsprechendes Begehren schriftlich einreicht;
+- b) nachweist, dass der Zufluss der Kapitalleistung der zuständigen Steuerbehörde seines Wohnsitzstaates bekannt ist.
+
+## Art. 65 StV SG – b) Verzicht auf Steuerabzug
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+**Abs. 1** Weist ein Abkommen des Bundes zur Vermeidung einer Doppelbesteuerung das Besteuerungsrecht an einer Rente aus einer Einrichtung der beruflichen Vorsorge oder einer anerkannten Form der gebundenen Selbstvorsorge dem Wohnsitzstaat zu, wird von einem Steuerabzug abgesehen.
+**Abs. 2** Der Schuldner der steuerbaren Leistung ist verpflichtet, sich den ausländischen Wohnsitz des Steuerpflichtigen schriftlich bestätigen zu lassen und diesen periodisch zu überprüfen.
+
+## Art. 65 bis StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+
+
+## Art. 65 ter StV SG – Meldepflichten (Art. 184 Bst. a und Art. 185 Abs. 1 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Dritter Abschnitt: Quellensteuern für natürliche und juristische Personen › C. Gemeinsame Bestimmungen*
+
+**Abs. 1** Die Arbeitgeber müssen die Beschäftigung von Personen, die nach Art. 105 oder 115 des Steuergesetzes quellensteuerpflichtig sind, der zuständigen Steuerbehörde innert acht Tagen ab Stellenantritt auf dem dafür vorgesehenen Formular melden.
+**Abs. 2** Übermittelt der Arbeitgeber die Quellensteuerabrechnung elektronisch, kann er Neuanstellungen mittels monatlicher Abrechnung melden.
+**Abs. 3** Die Arbeitnehmer müssen dem Arbeitgeber Änderungen von Sachverhalten melden, die für die Erhebung der Quellensteuer massgebend sind. Der Arbeitgeber meldet die Änderungen innerhalb der Fristen nach Abs. 1 und 2 dieser Bestimmung der zuständigen Steuerbehörde.
+
+## Art. 66 StV SG – Ersatzbeschaffung (Art. 132 Abs. 1 Bst. d, e und f StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer*
+
+**Abs. 1** Der Verkaufserlös kann innert drei Jahren nach Veräusserung zum Erwerb eines Ersatzgrundstücks verwendet werden. Die Frist wird erstreckt, wenn die Verzögerung durch Umstände bedingt ist, die nicht im Einflussbereich des Steuerpflichtigen liegen.
+**Abs. 2** Zulässig ist auch der Erwerb des Ersatzgrundstücks innerhalb eines Jahres vor der Veräusserung des zu ersetzenden Grundstücks.
+
+## Art. 67 StV SG – Inkonvenienzentschädigungen (Art. 135 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer*
+
+**Abs. 1** Als Inkonvenienzen gelten die durch eine Veräusserung verursachten Vermögenseinbussen, für die der Veräusserer über den vollen Wert des Grundstücks hinaus besonders entschädigt wird.
+**Abs. 2** Zu den Inkonvenienzen zählen insbesondere die mit der Veräusserung verbundenen Kosten für Anpassungsarbeiten, Betriebsverlegung, Umzug sowie allfällige Erwerbsausfälle.
+**Abs. 3** Minderwerte verbleibender Grundstücke können nicht als Inkonvenienz geltend gemacht werden.
+
+## Art. 68 StV SG – Minderwertentschädigung (Art. 138 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Vierter Abschnitt: Grundstückgewinnsteuer*
+
+**Abs. 1** Als Leistungen Dritter, die von den Anlagekosten abgerechnet werden, gelten auch Entschädigungen für einen Minderwert, soweit sie nicht mit der Einkommenssteuer erfasst wurden oder werden.
+
+## Art. 68a StV SG – Konkubinatspartner (Art. 153 Abs. 1 Bst. a und Art. 154 Abs. 1 Bst. a StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern*
+
+**Abs. 1** Als Konkubinatspartner gilt eine Person, die mit dem Erblasser oder Schenker während mindestens fünf Jahren vor der steuerbaren Zuwendung im gemeinsamen Haushalt mit gleichem steuerrechtlichem Wohnsitz gelebt hat.
+
+[^22]: Die Bestimmung wird nach dem Gliederungstitel «Fünfter Abschnitt: Erbschafts- und Schenkungssteuern» eingefügt.
+
+## Art. 69 StV SG – Grundsätze der Steuerberechnung (Art. 154 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Fünfter Abschnitt: Erbschafts- und Schenkungssteuern*
+
+**Abs. 1** Die Steuer wird nach den Quoten berechnet, auf die der Erbe oder Bedachte nach den Bestimmungen des Erbrechts oder aufgrund einer Verfügung von Todes wegen Anspruch hat.
+
+[^23]: Vgl. Art. 602 ff. des Schweizerischen Zivilgesetzbuches vom 10. Dezember 1907, SR 210 .
+
+## Art. 70 StV SG – Kantonales Steueramt (Art. 158 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt bezeichnet für jede politische Gemeinde einen oder mehrere Steuerkommissäre.
+**Abs. 2** Der Steuerkommissär veranlagt die Einkommens- und Vermögenssteuern nach Vorbereitung durch das Gemeindesteueramt.
+
+## Art. 71 StV SG – Gemeindesteueramt (Art. 160 StG) a) Vorbereitung und Vollzug von Veranlagungen
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die Veranlagungen der Einkommens- und Vermögenssteuern werden vorbereitet und vollzogen:
+- a) für die im Kanton unbeschränkt Steuerpflichtigen durch das Steueramt der Gemeinde, in der die Steuerpflicht kraft persönlicher Zugehörigkeit besteht;
+- b) für die in einer Gemeinde beschränkt Steuerpflichtigen durch das Steueramt der Gemeinde, in der die Steuerpflicht kraft wirtschaftlicher Zugehörigkeit besteht;
+- c) für die in mehreren Gemeinden beschränkt Steuerpflichtigen durch das Steueramt der Gemeinde, in der die Steuerpflicht kraft wirtschaftlicher Zugehörigkeit mit dem grössten Steueranteil besteht;
+- d) …
+**Abs. 2** In Streitfällen entscheidet das kantonale Steueramt.
+
+[^24]: Vgl. Art. 15 Abs. 1 StG.
+[^25]: Vgl. Art. 15 Abs. 2 StG.
+
+## Art. 72 StV SG – b) Ausarbeitung von Veranlagungsvorschlägen
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt bezeichnet die Fälle, für welche die Veranlagungsvorschläge durch das Gemeindesteueramt ausgearbeitet werden können.
+
+## Art. 73 StV SG – c) Akten
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das Gemeindesteueramt führt:
+- a) das Steuerregister mit den Stammdaten aller Steuerpflichtigen in Form einer Kartei oder einer elektronischen Datenbank;
+- b) ein Dossier für jeden Steuerpflichtigen mit den Unterlagen für die Veranlagung;
+- c) je eine Liste der veranlagten und der offenen Fälle.
+
+## Art. 74 StV SG – d) Amtsverkehr
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Der Amtsverkehr mit den Behörden anderer Kantone ist Sache des kantonalen Steueramtes, soweit dieses nicht ausdrücklich das Gemeindesteueramt hiezu ermächtigt.
+**Abs. 2** Auskünfte von Verwaltungsstellen des Bundes oder anderer Kantone und von Organen der Rechtspflege holt das Gemeindesteueramt durch Vermittlung des kantonalen Steueramtes ein.
+
+## Art. 75 StV SG – e) Entschädigung
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die politische Gemeinde erhält:
+- a) für die laufende Steuerperiode eine Grundaufwandentschädigung von Fr. 30.– je alleinstehenden Steuerpflichtigen und je gemeinsam steuerpflichtige Ehegatten, wenn eine Steuerpflicht besteht und eine Steuerrechnung zu erstellen ist;
+- b) für jede Steuerperiode eine Veranlagungsentschädigung von Fr. 25.– je alleinstehenden Steuerpflichtigen und je gemeinsam steuerpflichtige Ehegatten, für die das Gemeindesteueramt die Vorschläge für die Veranlagung der Einkommens- und Vermögenssteuern vorschriftsgemäss ausarbeitet. Mit der Veranlagungsentschädigung ist auch die Mitwirkung des Gemeindesteueramtes bei der Feststellung des Anspruchs auf Rückerstattung der Verrechnungssteuer nach den Weisungen des kantonalen Steueramtes sowie die Ausarbeitung der Vorschläge für die Veranlagungen gesondert berechneter Jahressteuern und ergänzender Vermögenssteuern abgegolten.
+**Abs. 2** Mit der Grundaufwandentschädigung werden alle Kosten und Aufwendungen abgegolten, die der politischen Gemeinde aus der Erfüllung der dem Gemeindesteueramt nach Art. 160 Abs. 2 erster Satz des Steuergesetzes übertragenen Aufgaben für die laufende Steuerperiode und für die zurückliegenden Steuerperioden sowie aus dem dezentralen Vollzug des Steuergesetzes durch das kantonale Steueramt erwachsen.
+**Abs. 3** Werden die Veranlagungsvorschläge nicht vorschriftsgemäss ausgearbeitet oder die Steuern nicht vorschriftsgemäss bezogen, kann das Finanzdepartement nach Anhören des Gemeinderates die Veranlagungs- oder Grundaufwandentschädigung herabsetzen.
+
+## Art. 76 StV SG – Mitteilung rechtskräftiger Steuerfaktoren (Art. 162 Abs. 2 StG) a) Mitteilung an Dritte
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Gesuche um Mitteilung rechtskräftiger Steuerfaktoren müssen von Dritten, die nicht Vertreter des Steuerpflichtigen sind, schriftlich eingereicht werden.
+**Abs. 2** Rechtskräftige Einkommens- und Vermögenssteuerfaktoren werden vom Gemeindesteueramt, rechtskräftige Gewinn- und Kapitalsteuerfaktoren vom kantonalen Steueramt mitgeteilt.
+
+## Art. 77 StV SG – b) Auskunft über Mitteilungen
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das Gemeindesteueramt oder das kantonale Steueramt teilt dem Steuerpflichtigen bei Bekanntgabe seiner Steuerfaktoren an Dritte unaufgefordert mit:
+- a) Name und Adresse des Dritten, der ein wirtschaftliches Interesse nachweist;
+- b) Datum und Inhalt der Mitteilung.
+
+## Art. 77a StV SG – Elektronischer Zugriff auf Steuerdaten (Art. 162 Abs. 4 StG) a) Voraussetzungen
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** St.Gallischen öffentlichen Organen kann elektronisch Zugriff auf Steuerdaten gewährt werden, wenn sie für ihre Aufgabenerfüllung dauernd und häufig Steuerauskünfte des kantonalen Steueramtes benötigen.
+
+## Art. 77b StV SG – b) Zuständigkeit
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt:
+- a) erteilt und entzieht die Zugriffsberechtigung;
+- b) besorgt den technischen Vollzug des elektronischen Zugriffs;
+- c) führt eine Liste der erteilten Zugriffsberechtigungen;
+- d) protokolliert die elektronischen Zugriffe;
+- e) kontrolliert die Einhaltung von Vorgaben des Datenschutzes.
+
+## Art. 77c StV SG – c) Datenschutz
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Zugriffsberechtigte öffentliche Organe bezeichnen einen beschränkten Kreis von Personen, die den elektronischen Zugriff auf Steuerdaten vornehmen können. Erfolgt der Zugriff auf Steuerdaten automatisiert, stellt das öffentliche Organ sicher, dass nur zugriffsberechtigte Personen die abgefragten Steuerdaten einsehen können.
+**Abs. 2** Der Zugriff auf Steuerdaten wird soweit wie möglich auf Informationen beschränkt, die für den Vollzug von gesetzlichen Vorgaben benötigt werden.
+**Abs. 3** Der Zugriff ist beschränkt auf Steuerdaten, die für die Aufgabenerfüllung notwendig sind. Die abgerufenen Steuerdaten werden ausschliesslich für die Erfüllung der Aufgabe des öffentlichen Organs verwendet.
+
+## Art. 78 StV SG – Meldepflicht (Art. 163 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Insbesondere haben unverzüglich zu melden:
+- a) die Einwohnerämter alle Veränderungen in den Personendaten an das Gemeindesteueramt und, soweit für den Bezug der Quellensteuern notwendig, an das kantonale Steueramt;
+- b) die Bestattungsämter am letzten Wohnsitz jeden Todesfall an das Gemeindesteueramt und an das kantonale Steueramt;
+- c) die Grundbuchämter jede Handänderung von Grundstücken unter Beilage des Kauf- oder Übernahmevertrags an das kantonale Steueramt und das Gemeindesteueramt sowie alle Tatsachen, die für eine Schätzung nach den Bestimmungen des Gesetzes über die Durchführung der Grundstückschätzung massgebend sind, an das kantonale Steueramt;
+- d) das Handelsregisteramt jede Eintragung und Löschung im Handelsregister an das kantonale Steueramt;
+- e) das Migrationsamt und das Amt für Wirtschaft und Arbeit alle Bewilligungen, die ausländischen Staatsangehörigen erteilt werden, an das kantonale Steueramt;
+- f) die zuständigen Amtsstellen von Staat und Gemeinden alle Bewilligungen, die sie für die Ausübung einer Erwerbstätigkeit, deren Abgeltung einem Steuerabzug an der Quelle unterliegt, erteilen oder bearbeiten, an das kantonale Steueramt;
+- g) die Amtsnotariate die Verfügungen von Todes wegen, soweit diese für die Erhebung der Erbschaftssteuern notwendig sind, an das kantonale Steueramt;
+- h) alle Amtsstellen von Staat und Gemeinden Tatsachen, die Anlass für die Einleitung eines Nachsteuerverfahrens sein können, an das kantonale Steueramt;
+- i) die Einwohnerämter jede Lebensbescheinigung unter Beilage einer Kopie der Bescheinigung an das Gemeindesteueramt.
+
+[^26]: sGS 814.1 .
+
+## Art. 79 StV SG – Zustellungsempfänger (Art. 167 Abs. 2 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Als Zustellungsempfänger gilt eine natürliche oder eine juristische Person mit Wohnsitz oder Sitz in der Schweiz, die zum Empfang aller Mitteilungen, Verfügungen und Entscheide in Steuersachen ermächtigt ist.
+**Abs. 2** Bezeichnet der Steuerpflichtige trotz Aufforderung keinen Zustellungsempfänger in der Schweiz, werden die Mitteilungen sowie der Rechtsspruch von Verfügungen und Entscheiden im kantonalen Amtsblatt veröffentlicht.
+
+[^27]: Vgl. Art. 7 Abs. 1 GGA, sGS 0.1 .
+
+## Art. 79a StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+
+
+## Art. 79b StV SG – Meldepflicht Dritter (Art. 174 Bst. d StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die Meldepflicht der Arbeitgeber über Mitarbeiterbeteiligungen richtet sich nach der eidgenössischen Verordnung über die Bescheinigungspflichten bei Mitarbeiterbeteiligungen vom 27. Juni 2012.
+
+[^28]: SR 642.115.325.1 .
+
+## Art. 79 bis StV SG – Besondere Verfügung über die Grundstückwerte
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die besondere Verfügung über die Grundstückwerte weist die für die nachfolgende Veranlagung massgebenden Grundstückwerte aus. Sie enthält die Grundlagen, die zu deren Ermittlung geführt haben.
+**Abs. 2** Die Ermittlung und die Verfügung der Grundstückwerte sind kostenfrei. Art. 12 des Gesetzes über die Durchführung der Grundstückschätzung vom 9. November 2000 bleibt vorbehalten.
+
+[^29]: sGS 814.1 .
+
+## Art. 79 ter StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+
+
+## Art. 79 quater StV SG – …
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+
+
+## Art. 80 StV SG – Verfahrenspflichten der Erben (Art. 192 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die Erben müssen das Erbeninventar als Steuererklärung sowie die Teilungsakten dem kantonalen Steueramt einreichen, auch wenn keine Erbschaftssteuerpflicht besteht.
+
+## Art. 80 bis StV SG – Nachsteuern a) Zins (Art. 199 Abs. 1 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Auf der Nachsteuer werden ab dem Verfalltag der nicht erhobenen Steuer Ausgleichszinsen geschuldet.
+
+[^30]: Vgl. Art. 212 StG, sGS 811.1 .
+
+## Art. 81 StV SG – b) Einleitung des Verfahrens (Art. 201 Abs. 1 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt leitet das Nachsteuerverfahren ein, wenn begründeter Verdacht besteht, dass die Voraussetzungen für ein entsprechendes Verfahren nach Art. 199 des Steuergesetzes erfüllt sind.
+
+## Art. 82 StV SG – c) Steuerberechnung (Art. 201 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt berechnet und veranlagt die Nachsteuern:
+- a) des Staates;
+- b) der Gemeinden, wenn die Erhebung aufgrund der Veranlagung zur Staatssteuer erfolgt.
+
+## Art. 83 StV SG – Inventar a) Inventaraufnahme (Art. 204 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Das kantonale Steueramt entscheidet als Inventarbehörde nach dem Tod eines Steuerpflichtigen über:
+- a) die Aufnahme eines amtlichen Inventars;
+- b) die Einreichung eines Erbeninventars;
+- c) den Verzicht auf Inventaraufnahme.
+
+## Art. 84 StV SG – b) dem Inventar gleichgestellte Abrechnung (Art. 204 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Für steuerliche Zwecke können dem Inventar gleichgestellt werden:
+- a) die Schlussrechnung, die der Beistand oder der Vormund nach dem Tod eines Kindes unter Vormundschaft oder einer Person unter umfassender Beistandschaft erstellt;
+- abis) die Schlussrechnung, die der Beistand nach dem Tod einer unter umfassender Beistandschaft stehenden Person erstellt;
+- b) das Sicherungsinventar oder das öffentliche Inventar, das nach dem Tod eines Steuerpflichtigen aufgenommen wurde.
+**Abs. 2** Die Inventarbehörde ergänzt im Bedarfsfall diese Zusammenstellungen.
+
+## Art. 85 StV SG – c) Entschädigung (Art. 209 Abs. 3 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Sechster Abschnitt: Organisation und Verfahren*
+
+**Abs. 1** Die politische Gemeinde erhält für die Mitarbeit der Gemeindebehörden eine Pauschalentschädigung von Fr. 30.– je Inventaraufnahme.
+
+## Art. 86 StV SG – Verfalltag (Art. 212 Abs. 2 StG) a) Für Gewinn- und Kapitalsteuern
+
+*ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug*
+
+**Abs. 1** Für die Gewinn- und Kapitalsteuern gilt als Verfalltag der 270. Tag nach Ende des Geschäftsjahres.
+**Abs. 2** Ist der ordentliche Verfalltag nach Abs. 1 dieser Bestimmung noch nicht eingetreten, bestimmt sich in folgenden Fällen der Verfalltag durch Zustellung der Schlussrechnung zuzüglich dreissig Tage:
+- a) bei Ende der Steuerpflicht in der Schweiz;
+- b) bei Konkurseröffnung über die steuerpflichtige juristische Person;
+- c) bei erfolgter Anmeldung zur Löschung der juristischen Person im Handelsregister.
+
+## Art. 86 bis StV SG – b) Für Einkommens- und Vermögenssteuern
+
+*ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug*
+
+**Abs. 1** Für die Einkommens- und Vermögenssteuern gilt der 31. Juli in der Steuerperiode als Verfalltag.
+**Abs. 2** Besteht die Steuerpflicht weniger als acht Monate in der Steuerperiode, gilt der mittlere Tag der Dauer der Steuerpflicht als Verfalltag.
+
+## Art. 87 StV SG – Ratenzahlung und Rückerstattung ohne Schlussrechnung (Art. 214 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug*
+
+**Abs. 1** Periodische Einkommens- und Vermögenssteuern mit Verfalltag am 31. Juli können in der Steuerperiode in Raten bezahlt werden.
+**Abs. 2** Wird keine Veranlagung und Schlussrechnung vorgenommen, werden die aufgrund einer vorläufigen Steuerrechnung bezahlten Beträge mit Zins zurückerstattet, soweit keine Verrechnung erfolgt.
+
+## Art. 88 StV SG – Verzicht wegen Geringfügigkeit (Art. 215 StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug*
+
+**Abs. 1** Einkommens- und Vermögenssteuern werden nicht in Rechnung gestellt, wenn sie, gemessen an der einfachen Steuer, gesamthaft nicht mehr als Fr. 20.– betragen.
+**Abs. 2** Steuerbeträge einschliesslich Ausgleichszinsen aufgrund einer Schlussrechnung sowie Verzugszinsen werden nicht bezogen, wenn sie nicht mehr als Fr. 50.– betragen.
+
+## Art. 88 bis StV SG – Zahlung (Art. 212 Abs. 1 Bst. a StG)
+
+*ZWEITER TEIL: STAATSSTEUERN › Siebter Abschnitt: Steuerbezug*
+
+**Abs. 1** Als Zahlung gilt auch die Verrechnungsanzeige der Steuerbehörde und die Überweisung eines andern Kantons.
+
+## Art. 89 StV SG – Steuerausscheidung für Einkommens- und Vermögenssteuern (Art. 234 und 235 StG) a) Ausscheidungsregeln
+
+*DRITTER TEIL: GEMEINDESTEUERN*
+
+**Abs. 1** Die Steuerausscheidung der Einkommens- und Vermögenssteuern zwischen den politischen Gemeinden und den Kirchgemeinden richtet sich, unter Vorbehalt von Abs. 2 dieser Bestimmung, nach den Grundsätzen der Bundesgesetzgebung über die Steuerharmonisierung und der bundesgerichtlichen Rechtsprechung zum Doppelbesteuerungsverbot. Sie gilt sachgemäss auch für Nachsteuern.
+**Abs. 2** Inhaber von Einzelunternehmen und in der Geschäftsführung mitwirkende Gesellschafter von Kollektiv- und Kommanditgesellschaften sowie von einfachen Gesellschaften versteuern in der Gemeinde, in der sie kraft persönlicher Zugehörigkeit unbeschränkt steuerpflichtig sind, die Hälfte der Einkünfte aus selbständiger Erwerbstätigkeit.
+
+[^31]: BG über die Harmonisierung der direkten Steuern der Kantone und Gemeinden vom 14. Dezember 1990, SR 642.14 .
+[^32]: Vgl. Art. 127 Abs. 3 der Bundesverfassung der Schweizerischen Eidgenossenschaft vom 18. April 1999, SR 101 .
+[^33]: Vgl. Art. 15 Abs. 1 StG, sGS 811.1 .
+
+## Art. 90 StV SG – b) Ausscheidungsmethode
+
+*DRITTER TEIL: GEMEINDESTEUERN*
+
+**Abs. 1** Die Steuerausscheidung wird durch Aufteilung der einfachen Steuer zu 100 Prozent zwischen den beteiligten Gemeinden vorgenommen.
+**Abs. 2** Die Gemeinden erheben gemäss den ihnen zugeschiedenen Anteilen den ihrem Gesamtsteuerfuss entsprechenden Steuerbetrag.
+**Abs. 3** Eine Ausscheidung unterbleibt, wenn der Gemeindeanteil weniger als Fr. 100.– einfache Steuer beträgt.
+
+## Art. 91 StV SG – c) Ausscheidungsvereinbarungen
+
+*DRITTER TEIL: GEMEINDESTEUERN*
+
+**Abs. 1** Die beteiligten Gemeinden können im Einverständnis mit dem Steuerpflichtigen und unter Wahrung der öffentlichen Interessen Ausscheidungsvereinbarungen treffen.
+**Abs. 2** Die Ausscheidungsvereinbarungen erfolgen schriftlich und bedürfen der Zustimmung des kantonalen Steueramtes.
+
+## Art. 92 StV SG – Entschädigung für Steuerbezug (Art. 236 StG)
+
+*DRITTER TEIL: GEMEINDESTEUERN*
+
+**Abs. 1** In Streitfällen über die Höhe der Entschädigungen für den Steuerbezug entscheidet das Verwaltungsgericht im Klageverfahren.
+
+[^34]: Vgl. Art. 79 ff. VRP, sGS 951.1 .
+
+## Art. 93 StV SG – Verfahren, Strafanzeige (Art. 255 ff. und 274 StG)
+
+*VIERTER TEIL: STEUERSTRAFRECHT*
+
+**Abs. 1** Für die Steuerstrafen werden Art. 81 und 82 dieser Verordnung sachgemäss angewendet.
+**Abs. 2** Besteht ein begründeter Verdacht, dass ein Steuervergehen begangen wurde, erhebt das kantonale Steueramt bei der zuständigen Strafverfolgungsbehörde Strafanzeige.
+
+[^35]: Vgl. Art. 272 f. StG.
+[^36]: Vgl. Art. 12 ff. StPO, SR 312.0 .
+
+## Art. 94 StV SG
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+
+
+[^37]: Änderungen bisherigen Rechts werden nicht aufgeführt.
+
+## Art. 95 StV SG
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+
+
+[^38]: Änderungen bisherigen Rechts werden nicht aufgeführt.
+
+## Art. 96 StV SG – Aufhebung bisherigen Rechts
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+**Abs. 1** Die Vollzugsverordnung zum Steuergesetz vom 10. November 1970 wird aufgehoben.
+
+[^39]: nGS 29–72 (sGS 811.11).
+
+## Art. 97 StV SG – ...
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+
+
+## Art. 98 StV SG – ...
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+
+
+## Art. 98 bis StV SG – b) altrechtliche Schätzungswerte
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+**Abs. 1** Als Mietwert, Verkehrswert und Ertragswert nach Art. 34 Abs. 1 Bst. b, Art. 57 Abs. 1, Art. 58 und Art. 100 Abs. 1 des Steuergesetzes vom 9. April 1998 gelten, solange diese Werte noch nicht im Verfahren nach dem Gesetz über die Durchführung der Grundstückschätzung vom 9. November 2000 ermittelt wurden, in der Regel die letztmals nach den Bestimmungen der Verordnung über die amtlichen Grundstückschätzungen vom 19. Februar 1962 ermittelten Werte. Art. 14 zweiter Satz und Art. 30bis Abs. 1 zweiter Satz dieser Verordnung werden sachgemäss angewendet.
+
+[^40]: sGS 811.1 .
+[^41]: sGS 814.1 .
+[^42]: nGS 19–11 (sGS 814.1).
+
+## Art. 98 ter StV SG – ...
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+
+
+## Art. 99 StV SG – Vollzugsbeginn
+
+*FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN*
+
+**Abs. 1** Diese Verordnung wird ab 1. Januar 1999 angewendet.

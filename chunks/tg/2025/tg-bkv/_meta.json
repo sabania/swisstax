@@ -1,0 +1,189 @@
+[
+{
+"id": "tg-bkv__par-1",
+"titel": "§ 1 BKV TG – Fahrt zur Arbeitsstätte",
+"pfad": [
+"1. Berufsauslagen",
+"§ 1 Fahrt zur Arbeitsstätte"
+],
+"seiten": [],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "tg-bkv__par-1a"
+},
+{
+"id": "tg-bkv__par-1a",
+"titel": "§ 1a BKV TG – Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen",
+"pfad": [
+"1. Berufsauslagen",
+"§ 1a Fahrkosten bei der unentgeltlichen privaten Nutzung von Geschäftsfahrzeugen"
+],
+"seiten": [],
+"artikel": "§ 1a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-1",
+"nachher": "tg-bkv__par-2-t1"
+},
+{
+"id": "tg-bkv__par-2-t1",
+"titel": "§ 2 BKV TG – Auswärtige Verpflegung (Teil 1/2)",
+"pfad": [
+"1. Berufsauslagen",
+"§ 2 Auswärtige Verpflegung"
+],
+"seiten": [],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-1a",
+"nachher": "tg-bkv__par-2-t2"
+},
+{
+"id": "tg-bkv__par-2-t2",
+"titel": "§ 2 BKV TG – Auswärtige Verpflegung (Teil 2/2)",
+"pfad": [
+"1. Berufsauslagen",
+"§ 2 Auswärtige Verpflegung"
+],
+"seiten": [],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-2-t1",
+"nachher": "tg-bkv__par-3"
+},
+{
+"id": "tg-bkv__par-3",
+"titel": "§ 3 BKV TG – Schicht- und Nachtarbeit",
+"pfad": [
+"1. Berufsauslagen",
+"§ 3 Schicht- und Nachtarbeit"
+],
+"seiten": [],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-2-t2",
+"nachher": "tg-bkv__par-4"
+},
+{
+"id": "tg-bkv__par-4",
+"titel": "§ 4 BKV TG – Wochenaufenthalt",
+"pfad": [
+"1. Berufsauslagen",
+"§ 4 Wochenaufenthalt"
+],
+"seiten": [],
+"artikel": "§ 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-3",
+"nachher": "tg-bkv__par-4a"
+},
+{
+"id": "tg-bkv__par-4a",
+"titel": "§ 4a BKV TG – Übrige Berufskosten",
+"pfad": [
+"1. Berufsauslagen",
+"§ 4a Übrige Berufskosten"
+],
+"seiten": [],
+"artikel": "§ 4a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-4",
+"nachher": "tg-bkv__par-4b"
+},
+{
+"id": "tg-bkv__par-4b",
+"titel": "§ 4b BKV TG – Nebenerwerb",
+"pfad": [
+"1. Berufsauslagen",
+"§ 4b Nebenerwerb"
+],
+"seiten": [],
+"artikel": "§ 4b",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-4a",
+"nachher": "tg-bkv__par-5"
+},
+{
+"id": "tg-bkv__par-5",
+"titel": "§ 5 BKV TG – Dauer",
+"pfad": [
+"2. Allgemeine Bestimmungen",
+"§ 5 Dauer"
+],
+"seiten": [],
+"artikel": "§ 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-4b",
+"nachher": "tg-bkv__par-6"
+},
+{
+"id": "tg-bkv__par-6",
+"titel": "§ 6 BKV TG – Ausnahmen",
+"pfad": [
+"2. Allgemeine Bestimmungen",
+"§ 6 Ausnahmen"
+],
+"seiten": [],
+"artikel": "§ 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-5",
+"nachher": "tg-bkv__par-78"
+},
+{
+"id": "tg-bkv__par-78",
+"titel": "§ 7–8 BKV TG – …",
+"pfad": [
+"3. … *",
+"§ 7–8 …"
+],
+"seiten": [],
+"artikel": "§ 7–8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-bkv__par-6",
+"nachher": null
+}
+]

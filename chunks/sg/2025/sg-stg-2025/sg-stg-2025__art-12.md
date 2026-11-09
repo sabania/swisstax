@@ -1,0 +1,15 @@
+---
+id: sg-stg-2025__art-12
+quelle: sg-stg-2025
+jur: sg
+jahre: [2025]
+typ: gesetz
+titel: "Art. 12 StG SG – Gegenrecht"
+artikel: "Art. 12"
+qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
+---
+> SG · Steuerjahr 2025 · StG SG · ERSTER TEIL: ALLGEMEINE BESTIMMUNGEN › Art. 12 Gegenrecht
+
+### Art. 12 StG SG – Gegenrecht
+
+**Abs. 1** Die Regierung kann mit anderen Kantonen oder mit ausländischen Staaten Gegenrechtsvereinbarungen über Steuerbefreiungen oder andere gegenseitige Beschränkungen der Steuerhoheit abschliessen.

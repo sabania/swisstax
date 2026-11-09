@@ -216,6 +216,9 @@ def main():
         elif s == "lexwork":
             import lexwork
             k = lexwork.convert(e)
+        elif s == "zhlex" and raw_path(e, "pdf").exists():
+            import zhlex
+            k = zhlex.convert(e)
         elif s == "pdf-law" and source_path(e).exists():
             k = convert_pdf_law(e)
         else:

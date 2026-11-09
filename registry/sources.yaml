@@ -6,71 +6,27 @@
   - 2026
   typ: gesetz
   kurz: StG AR
-  titel: Steuergesetz vom 21.5.2000 (bGS 621.11)
-  url: https://ar.clex.ch/api/de/versions/1634/pdf_file_with_annexes
-  format: pdf
+  titel: Steuergesetz AR (bGS 621.11) – Version gültig ab 01.01.2025
+  url: https://ar.clex.ch/app/de/texts_of_law/621.11/versions/1634
+  format: json
   verarbeitung: chunk
   stand: '2025-01-01'
   erwaehnt_in:
   - AR
-  sha256: 21f0e8b7310222aba7d8da06597c7e021613253bb2861293ff755789b778f10a
-  bytes: 611489
+  sha256: 7961b8ef00a75c6166858e62ff3f721cf08d55481e5f01bd8113a7f7f47a1eea
+  bytes: 1304727
   abgerufen: '2026-11-09'
-- id: ar-stg-portal
-  jurisdiktion: ar
-  ordner_jahr: dauernd
-  jahre:
-  - 2025
-  - 2026
-  typ: portal
-  kurz: StG AR (Portal)
-  titel: Steuergesetz AR – Gesetzessammlung (JS-App)
-  url: http://bgs.ar.ch/data/621.11
-  format: html
-  verarbeitung: link
-  erwaehnt_in:
-  - AR
-  sha256: 68f62d797f847f9388a3bc25ec4a66f0aab4c940e59fd2acee3c0964093697f4
-  bytes: 2297
-  final_url: https://ar.clex.ch/app/de/texts_of_law/621.11
-  abgerufen: '2026-11-09'
-- id: ar-stv
-  jurisdiktion: ar
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: StV AR
-  titel: Steuerverordnung (bGS 621.111)
-  url: http://bgs.ar.ch/data/621.111
-  format: html
-  verarbeitung: link
-  seed_hinweis: im Seed als «nicht verifiziert» markiert
-  erwaehnt_in:
-  - AR
-  sha256: 68f62d797f847f9388a3bc25ec4a66f0aab4c940e59fd2acee3c0964093697f4
-  bytes: 2297
-  final_url: https://ar.clex.ch/app/de/texts_of_law/621.111
-  abgerufen: '2026-11-09'
-- id: ar-gsv
-  jurisdiktion: ar
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: GSV AR
-  titel: Verordnung über die amtlichen Grundstückschätzungen (bGS 621.21)
-  url: https://ar.lexwork.naz.ch/de/dta/621.21.pdf
-  format: pdf
-  verarbeitung: chunk
-  stand: '2023-01-01'
-  erwaehnt_in:
-  - AR
-  sha256: b5162956ec99d73ffd5aecedcd8f31d29e90cffec3719e3ef2ae3d2981acf0e9
-  bytes: 220771
-  abgerufen: '2026-11-09'
+  download_url: https://ar.clex.ch/api/de/texts_of_law/621.11/versions/1634/show_as_json
+  strukturiert: lexwork
+  lexwork:
+    base: https://ar.clex.ch
+    nr: '621.11'
+    version: 1634
+    gilt_ab: '2025-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://ar.clex.ch/api/de/versions/1634/pdf_file
+  geaendert_am: '2026-11-09'
 - id: ar-steuerfuesse-2025
   jurisdiktion: ar
   ordner_jahr: '2025'
@@ -1713,23 +1669,6 @@
   sha256: cf929eac0ee8ee489e4ef7cc04ecbfa4b34c93af0d5fb1f92232a11a743d43a2
   bytes: 58644
   abgerufen: '2026-11-09'
-- id: sg-stg
-  jurisdiktion: sg
-  ordner_jahr: '2026'
-  jahre:
-  - 2026
-  typ: gesetz
-  kurz: StG SG
-  titel: Steuergesetz SG (sGS 811.1)
-  url: https://sg.lexwork.naz.ch/de/dta/811.1.pdf
-  format: pdf
-  verarbeitung: chunk
-  stand: '2026-01-01'
-  erwaehnt_in:
-  - SG
-  sha256: 908787553d32fb7e8c760c2df7673e03d18a82611e0a03320dc81b18c8c8ae13
-  bytes: 4167891
-  abgerufen: '2026-11-09'
 - id: sg-stg-portal
   jurisdiktion: sg
   ordner_jahr: dauernd
@@ -1747,24 +1686,6 @@
   sha256: d15c51e3124ab3796bfeb12aca180aabeb919315b23c417d9565e838a6a33c4a
   bytes: 2294
   abgerufen: '2026-11-09'
-- id: sg-stv
-  jurisdiktion: sg
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: StV SG
-  titel: Steuerverordnung SG (sGS 811.11)
-  url: https://sg.lexwork.naz.ch/de/dta/811.11.pdf
-  format: pdf
-  verarbeitung: chunk
-  stand: '2024-01-01'
-  erwaehnt_in:
-  - SG
-  sha256: cdfdbb6ece6242e5db59d67f84f42c05146e5031c5d39bc13b361993e0d52548
-  bytes: 1449260
-  abgerufen: '2026-11-09'
 - id: sg-vkp
   jurisdiktion: sg
   ordner_jahr: '2026'
@@ -1781,42 +1702,6 @@
   - SG
   sha256: 9b3974653efbdb7296668232ce727988430978dba2503df507f3d2fd953b4dc5
   bytes: 166059
-  abgerufen: '2026-11-09'
-- id: sg-gsg
-  jurisdiktion: sg
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: gesetz
-  kurz: Grundstückschätzungsgesetz SG
-  titel: Gesetz über die Durchführung der Grundstückschätzung (sGS 814.1)
-  url: https://sg.lexwork.naz.ch/de/dta/814.1.pdf
-  format: pdf
-  verarbeitung: chunk
-  stand: '2001-01-01'
-  erwaehnt_in:
-  - SG
-  sha256: 9475a96003456a8234f7ec6fd7dba4c2ae2bb9dbba69a6544087ab29a40cb1ac
-  bytes: 238253
-  abgerufen: '2026-11-09'
-- id: sg-gsv
-  jurisdiktion: sg
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: Grundstückschätzungsverordnung SG
-  titel: Verordnung über die Durchführung der Grundstückschätzung (sGS 814.11)
-  url: https://sg.lexwork.naz.ch/de/dta/814.11.pdf
-  format: pdf
-  verarbeitung: chunk
-  stand: '2017-01-01'
-  erwaehnt_in:
-  - SG
-  sha256: fa033fb6ed18fdf3e0f350bc38eb3f3c3978bc623a0c640738ac0542d219682c
-  bytes: 357224
   abgerufen: '2026-11-09'
 - id: sg-steuerfuesse-2025
   jurisdiktion: sg
@@ -2382,24 +2267,6 @@
   sha256: 68955de22557580d9610a1ccc59684276e2ce6729611206470d036afa2558416
   bytes: 149315
   abgerufen: '2026-11-09'
-- id: tg-stg
-  jurisdiktion: tg
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: gesetz
-  kurz: StG TG
-  titel: Gesetz über die Staats- und Gemeindesteuern (RB 640.1)
-  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1
-  format: html
-  verarbeitung: link
-  seed_hinweis: im Seed als «nicht verifiziert» markiert
-  erwaehnt_in:
-  - TG
-  sha256: 7b299f0f4d6a702f08837000cc222aca7b37169cb34277a85b875593f793f720
-  bytes: 2294
-  abgerufen: '2026-11-09'
 - id: tg-portal-rechtsbuch
   jurisdiktion: tg
   ordner_jahr: dauernd
@@ -2416,24 +2283,6 @@
   - TG
   sha256: 7b299f0f4d6a702f08837000cc222aca7b37169cb34277a85b875593f793f720
   bytes: 2294
-  abgerufen: '2026-11-09'
-- id: tg-v-dbg
-  jurisdiktion: tg
-  ordner_jahr: dauernd
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: V DBG TG
-  titel: Verordnung zum DBG (RB 642.11), PDF Stand 2016 – veraltet
-  url: https://www.rechtsbuch.tg.ch/api/de/versions/2356/pdf_file
-  format: pdf
-  verarbeitung: chunk
-  hinweis: veraltet (2016)
-  erwaehnt_in:
-  - TG
-  sha256: 600c1fd1451bd62fee9cd7799159fd2fbb5f1852a171f1ce683aaaa7933bb8e8
-  bytes: 161720
   abgerufen: '2026-11-09'
 - id: tg-steuerfuesse-2026
   jurisdiktion: tg
@@ -2887,75 +2736,6 @@
   - TG
   sha256: 069847f36a0d3b56eb40c5d792af7bd95b8c8bdd2c220392c4260a584b87f597
   bytes: 39351
-  abgerufen: '2026-11-09'
-- id: zh-stg-2026
-  jurisdiktion: zh
-  ordner_jahr: '2026'
-  jahre:
-  - 2026
-  typ: gesetz
-  kurz: StG ZH
-  titel: Steuergesetz ZH (LS 631.1), Nachtrag 132
-  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-132.html
-  format: html
-  verarbeitung: chunk
-  stand: '2026-03-26'
-  erwaehnt_in:
-  - ZH
-  sha256: ad1dad2309fcce73b81e80dbb6258e699cc599394e1a1d9f220df6538e0abb43
-  bytes: 79666
-  abgerufen: '2026-11-09'
-- id: zh-stg-2025
-  jurisdiktion: zh
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  typ: gesetz
-  kurz: StG ZH
-  titel: Steuergesetz ZH (LS 631.1), Nachtrag 127
-  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-127.html
-  format: html
-  verarbeitung: chunk
-  stand: '2025-01-01'
-  erwaehnt_in:
-  - ZH
-  sha256: 23179ca054cbdbf0ca3559888da9c83c40dafe310b247be7930f2b84efb9b79f
-  bytes: 79691
-  abgerufen: '2026-11-09'
-- id: zh-stv
-  jurisdiktion: zh
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: StV ZH
-  titel: Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108
-  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_11-1998_04_01-1999_01_01-108.html
-  format: html
-  verarbeitung: chunk
-  erwaehnt_in:
-  - ZH
-  sha256: 6fa4b93376c7c06530301866fce628e1b8f9ae79c24f5f61553e2eb6761577a1
-  bytes: 63876
-  abgerufen: '2026-11-09'
-- id: zh-v-einreichung
-  jurisdiktion: zh
-  ordner_jahr: '2025'
-  jahre:
-  - 2025
-  - 2026
-  typ: verordnung
-  kurz: V elektr. Einreichung ZH
-  titel: Verordnung über die elektronische Einreichung (LS 631.121)
-  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_121-2011_10_18-2013_01_01-129.html
-  format: html
-  verarbeitung: chunk
-  stand: '2025-07-01'
-  erwaehnt_in:
-  - ZH
-  sha256: d53f28eeba40f406618102b96cc2d74e8d57e0c58384da74eeaf0a3e05837406
-  bytes: 60722
   abgerufen: '2026-11-09'
 - id: zh-vkp-2026
   jurisdiktion: zh
@@ -4042,4 +3822,523 @@
     pdf_a: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1985/1778_1778_1778/20250101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1985-1778_1778_1778-20250101-de-pdf-a.pdf
   sha256: a1da3a3eecfed84531ef41dbe60f3013056dfe81817e93202124275fe90e2ca4
   bytes: 43341
+  abgerufen: '2026-11-09'
+- id: ar-stv
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: StV AR
+  titel: Verordnung zum Steuergesetz AR (bGS 621.111) – Version gültig ab 01.01.2024
+  url: https://ar.clex.ch/app/de/texts_of_law/621.111/versions/1516
+  download_url: https://ar.clex.ch/api/de/texts_of_law/621.111/versions/1516/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2024-01-01'
+  lexwork:
+    base: https://ar.clex.ch
+    nr: '621.111'
+    version: 1516
+    gilt_ab: '2024-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://ar.clex.ch/api/de/versions/1516/pdf_file
+  sha256: e79b014b15fec42b80f804ae7f3192ed7fadfdd8d28208a7e5a068c5b5ef76fa
+  bytes: 350436
+  abgerufen: '2026-11-09'
+- id: ar-gsv
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: GSV AR
+  titel: Verordnung über die amtlichen Grundstückschätzungen AR (bGS 621.21) – Version gültig ab 01.01.2023
+  url: https://ar.clex.ch/app/de/texts_of_law/621.21/versions/1447
+  download_url: https://ar.clex.ch/api/de/texts_of_law/621.21/versions/1447/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2023-01-01'
+  lexwork:
+    base: https://ar.clex.ch
+    nr: '621.21'
+    version: 1447
+    gilt_ab: '2023-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://ar.clex.ch/api/de/versions/1447/pdf_file
+  sha256: 1f4be6724bd68fbc7d4893dbfa4cb11811353bb71ea7ca5c9659ee4d844f303a
+  bytes: 88220
+  abgerufen: '2026-11-09'
+- id: ar-v-dbg
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: V DBG AR
+  titel: Verordnung zur Durchführung des DBG AR (bGS 625.11) – Version gültig ab 01.01.2016
+  url: https://ar.clex.ch/app/de/texts_of_law/625.11/versions/1010
+  download_url: https://ar.clex.ch/api/de/texts_of_law/625.11/versions/1010/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2016-01-01'
+  lexwork:
+    base: https://ar.clex.ch
+    nr: '625.11'
+    version: 1010
+    gilt_ab: '2016-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://ar.clex.ch/api/de/versions/1010/pdf_file
+  sha256: 2aa2cdd689c592f97866e10794980db4caa67729de200c26ee9f5d4123e53dc7
+  bytes: 43943
+  abgerufen: '2026-11-09'
+- id: sg-stg-2025
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: gesetz
+  kurz: StG SG
+  titel: Steuergesetz SG (sGS 811.1) – Version gültig ab 01.01.2025
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.1/versions/3711
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/811.1/versions/3711/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2025-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '811.1'
+    version: 3711
+    gilt_ab: '2025-01-01'
+    gilt_bis: '2025-12-31'
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/3711/pdf_file
+  sha256: 8912ce5c110ecd9cea4fcef97b1229b3fa3a97aa06d12293f9eed97e267b7052
+  bytes: 1406016
+  abgerufen: '2026-11-09'
+- id: sg-stg-2026
+  jurisdiktion: sg
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: gesetz
+  kurz: StG SG
+  titel: Steuergesetz SG (sGS 811.1) – Version gültig ab 01.01.2026
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.1/versions/3822
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/811.1/versions/3822/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2026-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '811.1'
+    version: 3822
+    gilt_ab: '2026-01-01'
+    gilt_bis: '2026-12-31'
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/3822/pdf_file
+  sha256: c2647f875d68aae13225d52de19e23701395483e93d1680d6c2ba8ddd7f6efdb
+  bytes: 1412095
+  abgerufen: '2026-11-09'
+- id: sg-stv
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: StV SG
+  titel: Steuerverordnung SG (sGS 811.11) – Version gültig ab 01.01.2024
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/811.11/versions/3565
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/811.11/versions/3565/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2024-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '811.11'
+    version: 3565
+    gilt_ab: '2024-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/3565/pdf_file
+  sha256: 3132abb71b6cdd68812403c0e2db44775f15cb253a9e31233548b2cae62328d7
+  bytes: 421639
+  abgerufen: '2026-11-09'
+- id: sg-gsg
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: gesetz
+  kurz: GGS SG
+  titel: Gesetz über die Durchführung der Grundstückschätzung SG (sGS 814.1) – Version gültig ab 01.01.2001
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/814.1/versions/332
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/814.1/versions/332/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2001-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '814.1'
+    version: 332
+    gilt_ab: '2001-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/332/pdf_file
+  sha256: 1467d580508fcf2b84e97664d9d9e779d0bae4f4a39cf95e149feb2a490f2c8d
+  bytes: 48225
+  abgerufen: '2026-11-09'
+- id: sg-gsv
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: VGS SG
+  titel: Verordnung über die Durchführung der Grundstückschätzung SG (sGS 814.11) – Version gültig ab 01.01.2017
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/814.11/versions/2204
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/814.11/versions/2204/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2017-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '814.11'
+    version: 2204
+    gilt_ab: '2017-01-01'
+    gilt_bis: '2026-12-31'
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/2204/pdf_file
+  sha256: 2159e8c76ebfa525832cbf089c6eca1f7e872c062fd603327412fb1dd508398d
+  bytes: 82764
+  abgerufen: '2026-11-09'
+- id: sg-v-dbg
+  jurisdiktion: sg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: V DBG SG
+  titel: Verordnung zum DBG SG (sGS 815.1) – Version gültig ab 01.01.2016
+  url: https://www.gesetzessammlung.sg.ch/app/de/texts_of_law/815.1/versions/1998
+  download_url: https://www.gesetzessammlung.sg.ch/api/de/texts_of_law/815.1/versions/1998/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2016-01-01'
+  lexwork:
+    base: https://www.gesetzessammlung.sg.ch
+    nr: '815.1'
+    version: 1998
+    gilt_ab: '2016-01-01'
+    gilt_bis: null
+    symbol: Art.
+    pdf: https://www.gesetzessammlung.sg.ch/api/de/versions/1998/pdf_file
+  sha256: 7deb3079633dec4bd60f766cea75b3c6676aa26c74333a4be0080af1985b6843
+  bytes: 67533
+  abgerufen: '2026-11-09'
+- id: tg-stg
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: gesetz
+  kurz: StG TG
+  titel: Gesetz über die Staats- und Gemeindesteuern TG (RB 640.1) – Version gültig ab 01.01.2025
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.1/versions/2929
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/640.1/versions/2929/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2025-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '640.1'
+    version: 2929
+    gilt_ab: '2025-01-01'
+    gilt_bis: '2028-12-31'
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2929/pdf_file
+  sha256: 66edf7323892fa19bcc11101d252267c8296aa0c6b59e2f374627c6d6213123f
+  bytes: 1091841
+  abgerufen: '2026-11-09'
+- id: tg-stv
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: StV TG
+  titel: Verordnung zum Gesetz über die Staats- und Gemeindesteuern TG (RB 640.11) – Version gültig ab 01.01.2025
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.11/versions/2927
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/640.11/versions/2927/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2025-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '640.11'
+    version: 2927
+    gilt_ab: '2025-01-01'
+    gilt_bis: null
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2927/pdf_file
+  sha256: 2dddb5ebef541f070606dafdc1d167da6a11bb31526e46a867b1d5557d7f7c4c
+  bytes: 345182
+  abgerufen: '2026-11-09'
+- id: tg-schaev
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: SchäV TG
+  titel: Grundstückschätzungsverordnung TG (RB 640.12) – Version gültig ab 01.01.2024
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.12/versions/2724
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/640.12/versions/2724/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2024-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '640.12'
+    version: 2724
+    gilt_ab: '2024-01-01'
+    gilt_bis: null
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2724/pdf_file
+  sha256: ea49ce4bfdc90acd2c3b86e81685692e9a0fdb8cfaa79ce989908f575e20944e
+  bytes: 75891
+  abgerufen: '2026-11-09'
+- id: tg-vakp
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: VAKP TG
+  titel: Verordnung über den Ausgleich der kalten Progression TG (RB 640.13) – Version gültig ab 01.01.2025
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.13/versions/2842
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/640.13/versions/2842/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2025-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '640.13'
+    version: 2842
+    gilt_ab: '2025-01-01'
+    gilt_bis: null
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2842/pdf_file
+  sha256: ab85e0aa7ade0c08a3f363c070e110951ce25d07ad6eb653019c1e255dcbda5c
+  bytes: 30968
+  abgerufen: '2026-11-09'
+- id: tg-bkv
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: BKV TG
+  titel: Berufskostenverordnung TG (RB 640.21) – Version gültig ab 01.01.2022
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/640.21/versions/2387
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/640.21/versions/2387/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2022-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '640.21'
+    version: 2387
+    gilt_ab: '2022-01-01'
+    gilt_bis: null
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2387/pdf_file
+  sha256: 9d4ac7209dda12b38143b28b982b04f6c8c671e0f8bc24b3b6e00bf84f19ba9d
+  bytes: 39689
+  abgerufen: '2026-11-09'
+- id: tg-v-dbg
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: V DBG TG
+  titel: Verordnung zum DBG TG (RB 642.11) – Version gültig ab 01.01.2016
+  url: https://www.rechtsbuch.tg.ch/app/de/texts_of_law/642.11/versions/2356
+  download_url: https://www.rechtsbuch.tg.ch/api/de/texts_of_law/642.11/versions/2356/show_as_json
+  format: json
+  verarbeitung: chunk
+  strukturiert: lexwork
+  stand: '2016-01-01'
+  lexwork:
+    base: https://www.rechtsbuch.tg.ch
+    nr: '642.11'
+    version: 2356
+    gilt_ab: '2016-01-01'
+    gilt_bis: null
+    symbol: §
+    pdf: https://www.rechtsbuch.tg.ch/api/de/versions/2356/pdf_file
+  sha256: 29a406f853a0afd54ca4e5d785c719174930e4454bf8896018de32366855db95
+  bytes: 43695
+  abgerufen: '2026-11-09'
+- id: zh-stg-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: gesetz
+  kurz: StG ZH
+  titel: Steuergesetz ZH (LS 631.1) – Nachtrag 127, Stand 1.1.2025
+  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-127.html
+  download_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/B51FEC97C47FE954C1258BBF004304B6/$File/631.1_8.6.97_127.pdf
+  format: pdf
+  verarbeitung: chunk
+  strukturiert: zhlex
+  stand: '2025-01-01'
+  sha256: bb07dc6cb57e8f6d16a5a9da53a72c374e8bb7c700b7e090a66f875a6cc9eca7
+  bytes: 1320331
+  abgerufen: '2026-11-09'
+- id: zh-stg-2026
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: gesetz
+  kurz: StG ZH
+  titel: Steuergesetz ZH (LS 631.1) – Nachtrag 132, Stand 1.4.2026
+  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_1-1997_06_08-1999_01_01-132.html
+  download_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/A1B72A220CD6E747C1258DC4002A921E/$File/631.1_8.6.97_132.pdf
+  format: pdf
+  verarbeitung: chunk
+  strukturiert: zhlex
+  stand: '2026-03-26'
+  hinweis: Nachtrag 131 (Stand 1.1.2026) ist durch 132 (Stand 1.4.2026, u.a. § 21 Abs. 2 lit. d Härtefall Eigenmietwert) abgelöst; Werte der kalten Progression 2026 identisch.
+  sha256: 7b1ed7b46ed0c4801993857424480805e493127835f54f430285c286ee4cb6d7
+  bytes: 1324396
+  abgerufen: '2026-11-09'
+- id: zh-stv
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: StV ZH
+  titel: Verordnung zum Steuergesetz ZH (LS 631.11) – Nachtrag 108
+  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_11-1998_04_01-1999_01_01-108.html
+  download_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/3B188253D1F4E829C12584FC003B5396/$File/631.11_1.4.98_108.pdf
+  format: pdf
+  verarbeitung: chunk
+  strukturiert: zhlex
+  stand: '2020-02-01'
+  sha256: 9d1d75d9a1c07d78aa84796991a4c83bf58c5c94f86ab3437935f7ffcc09c7de
+  bytes: 229065
+  abgerufen: '2026-11-09'
+- id: zh-v-einreichung
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: verordnung
+  kurz: V elektr. Einreichung ZH
+  titel: Verordnung über die elektronische Einreichung (LS 631.121) – Nachtrag 129
+  url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-631_121-2011_10_18-2013_01_01-129.html
+  download_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/D02E162A60423BC6C1258CB400259461/$File/631.121_18.10.11_129.pdf
+  format: pdf
+  verarbeitung: chunk
+  strukturiert: zhlex
+  stand: '2025-07-01'
+  sha256: 329de1102a713269a246b375d113af13f4356383acee1aa177611d7b909ea0f9
+  bytes: 76568
+  abgerufen: '2026-11-09'
+- id: zh-pauschalierung-berufsauslagen-2025
+  jurisdiktion: zh
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  typ: weisung
+  kurz: LS 631.33 (bis 2025)
+  titel: Verfügung über die Pauschalierung der Berufsauslagen (LS 631.33) – Nachtrag 123, gültig für Steuerjahr 2025
+  url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/634DD7A2FF652108C1258A8C00281D29/$File/631.33_3.10.23_123.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 8450e5bd9ddd2d0b0a3ab55fc58483356d6419b2a82ee0ebc5e876c78ed6f3d0
+  bytes: 57757
+  abgerufen: '2026-11-09'
+- id: zh-pauschalierung-berufsauslagen-2026
+  jurisdiktion: zh
+  ordner_jahr: '2026'
+  jahre:
+  - 2026
+  typ: weisung
+  kurz: LS 631.33 (ab 2026)
+  titel: Verfügung über die Pauschalierung der Berufsauslagen (LS 631.33) – Nachtrag 131, ab Steuerjahr 2026
+  url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/51990C81724C3FB1C1258D64004D7357/$File/631.33_26.9.25_131.pdf
+  format: pdf
+  verarbeitung: chunk
+  sha256: 18826cf23d25a9abc44384bc99f876f44baa37e6aaa4d18fc26f89e5675ed112
+  bytes: 57467
+  abgerufen: '2026-11-09'
+- id: ar-stg-anhang-kp
+  jurisdiktion: ar
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: gesetz
+  kurz: StG AR Anhang 1
+  titel: 'Steuergesetz AR – Anhang 1: Ausgleich der kalten Progression (indexierte Beträge, per 1.1.2024)'
+  url: https://ar.clex.ch/api/de/versions/1634/annexes
+  format: pdf
+  verarbeitung: chunk
+  hinweis: Die im Gesetzestext genannten Beträge sind NICHT indexiert; massgeblich sind die Beträge dieses Anhangs (per 1.1.2024). Gültigkeit für 2025/2026 gegen Wegleitung prüfen.
+  sha256: 38b5a3b588aa0d5aa0f71514d596df98d5a48af696328a4ba88701e6d805d537
+  bytes: 42418
+  abgerufen: '2026-11-09'
+- id: tg-stg-tarif-2025
+  jurisdiktion: tg
+  ordner_jahr: '2025'
+  jahre:
+  - 2025
+  - 2026
+  typ: tarif
+  kurz: Tariftabelle TG
+  titel: 'StG TG – Anhang: Tabelle der einfachen Einkommenssteuer (Stand 2025), 94 Seiten'
+  url: https://www.rechtsbuch.tg.ch/api/de/versions/2929/annexes
+  format: pdf
+  verarbeitung: original
+  hinweis: nur als Original abgelegt (Zahlentabelle, nicht gechunkt); Tarif im Text von § 37 StG
+  sha256: 62e9cdae821e059c3f13e8f9f6dd1eaba1567d43c7cca81e9c820fd6b28d0239
+  bytes: 558981
   abgerufen: '2026-11-09'

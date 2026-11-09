@@ -53,7 +53,7 @@ def check_registry(reg):
             continue
         if e.get("sha256") and hashlib.sha256(rp.read_bytes()).hexdigest() != e["sha256"]:
             errors.append(f"R1 {e['id']}: sha256 weicht ab (Original geändert -> neu konvertieren/prüfen)")
-        if not source_path(e).exists() and not e.get("same_as"):
+        if not source_path(e).exists() and not e.get("same_as") and e.get("verarbeitung") != "original":
             errors.append(f"R2 {e['id']}: Volltext sources/ fehlt")
         if e.get("verarbeitung") == "chunk" and not e.get("same_as"):
             d = chunk_dir(e)

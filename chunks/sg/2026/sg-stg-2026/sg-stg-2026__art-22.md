@@ -1,0 +1,16 @@
+---
+id: sg-stg-2026__art-22
+quelle: sg-stg-2026
+jur: sg
+jahre: [2026]
+typ: gesetz
+titel: "Art. 22 StG SG – b) Erbengemeinschaften"
+artikel: "Art. 22"
+qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
+---
+> SG · Steuerjahr 2026 · StG SG · Erster Abschnitt: Einkommens- und Vermögenssteuern › I. Steuerpflicht › Art. 22 b) Erbengemeinschaften
+
+### Art. 22 StG SG – b) Erbengemeinschaften
+
+**Abs. 1** Erbengemeinschaften sind als solche nicht steuerpflichtig. Ihr Einkommen und Vermögen werden den einzelnen Erben oder Bedachten anteilmässig zugerechnet.
+**Abs. 2** Bei Ungewissheit über die erbberechtigten oder bedachten Personen oder über die auf sie entfallenden Anteile wird die Erbengemeinschaft als Ganzes nach den für natürliche Personen geltenden Bestimmungen am letzten Wohnsitz und nach den letzten persönlichen Verhältnissen der verstorbenen Person besteuert.

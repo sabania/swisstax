@@ -1,0 +1,20 @@
+---
+id: zh-stg-2026__par-9
+quelle: zh-stg-2026
+jur: zh
+jahre: [2026]
+typ: gesetz
+titel: "§ 9 StG ZH – 2. Erbengemeinschaften"
+artikel: "§ 9"
+seiten: "4"
+qmd: {metadata: {jur: zh, jahre: [2026], typ: gesetz}}
+---
+> ZH · Steuerjahr 2026 · StG ZH · Erster Teil: Staatssteuern › A. Steuerpflicht › § 9 StG ZH – 2. Erbengemeinschaften · S. 4
+
+### § 9 StG ZH – 2. Erbengemeinschaften
+
+§ 9.
+
+**Abs. 1** Erbengemeinschaften sind als solche nicht steuerpflichtig; ihr Einkommen und Vermögen wird den einzelnen Erben oder Bedachten zugerechnet.
+
+**Abs. 2** Ist die Erbfolge ungewiss, wird die Erbengemeinschaft als Ganze s nach den für natürliche Personen geltenden Bestimmungen besteuert.

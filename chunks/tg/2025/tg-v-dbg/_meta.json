@@ -1,0 +1,240 @@
+[
+{
+"id": "tg-v-dbg__par-1",
+"titel": "§ 1 V DBG TG – Organe",
+"pfad": [
+"1. Behörden",
+"§ 1 Organe"
+],
+"seiten": [],
+"artikel": "§ 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "tg-v-dbg__par-2"
+},
+{
+"id": "tg-v-dbg__par-2",
+"titel": "§ 2 V DBG TG – Departement",
+"pfad": [
+"1. Behörden",
+"§ 2 Departement"
+],
+"seiten": [],
+"artikel": "§ 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-1",
+"nachher": "tg-v-dbg__par-3"
+},
+{
+"id": "tg-v-dbg__par-3",
+"titel": "§ 3 V DBG TG – Steuerverwaltung",
+"pfad": [
+"1. Behörden",
+"§ 3 Steuerverwaltung"
+],
+"seiten": [],
+"artikel": "§ 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-2",
+"nachher": "tg-v-dbg__par-4"
+},
+{
+"id": "tg-v-dbg__par-4",
+"titel": "§ 4 V DBG TG – Veranlagungsbehörde",
+"pfad": [
+"1. Behörden",
+"§ 4 Veranlagungsbehörde"
+],
+"seiten": [],
+"artikel": "§ 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-3",
+"nachher": "tg-v-dbg__par-5"
+},
+{
+"id": "tg-v-dbg__par-5",
+"titel": "§ 5 V DBG TG – Steuerrekurskommission",
+"pfad": [
+"1. Behörden",
+"§ 5 Steuerrekurskommission"
+],
+"seiten": [],
+"artikel": "§ 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-4",
+"nachher": "tg-v-dbg__par-5a"
+},
+{
+"id": "tg-v-dbg__par-5a",
+"titel": "§ 5a V DBG TG – Beschwerdeberechtigung",
+"pfad": [
+"1. Behörden",
+"§ 5a Beschwerdeberechtigung"
+],
+"seiten": [],
+"artikel": "§ 5a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-5",
+"nachher": "tg-v-dbg__par-6"
+},
+{
+"id": "tg-v-dbg__par-6",
+"titel": "§ 6 V DBG TG – Notariat",
+"pfad": [
+"1. Behörden",
+"§ 6 Notariat"
+],
+"seiten": [],
+"artikel": "§ 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-5a",
+"nachher": "tg-v-dbg__par-7"
+},
+{
+"id": "tg-v-dbg__par-7",
+"titel": "§ 7 V DBG TG – Mitwirkung der Gemeinden",
+"pfad": [
+"1. Behörden",
+"§ 7 Mitwirkung der Gemeinden"
+],
+"seiten": [],
+"artikel": "§ 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-6",
+"nachher": "tg-v-dbg__par-8"
+},
+{
+"id": "tg-v-dbg__par-8",
+"titel": "§ 8 V DBG TG – Rechtsmittelverfahren bei der Quellensteuer",
+"pfad": [
+"2. Verfahren",
+"§ 8 Rechtsmittelverfahren bei der Quellensteuer"
+],
+"seiten": [],
+"artikel": "§ 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-7",
+"nachher": "tg-v-dbg__par-9"
+},
+{
+"id": "tg-v-dbg__par-9",
+"titel": "§ 9 V DBG TG – Kosten des Rechtsmittelverfahrens",
+"pfad": [
+"2. Verfahren",
+"§ 9 Kosten des Rechtsmittelverfahrens"
+],
+"seiten": [],
+"artikel": "§ 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-8",
+"nachher": "tg-v-dbg__par-9a"
+},
+{
+"id": "tg-v-dbg__par-9a",
+"titel": "§ 9a V DBG TG – Mahn- und Inkassogebühren",
+"pfad": [
+"2. Verfahren",
+"§ 9a Mahn- und Inkassogebühren"
+],
+"seiten": [],
+"artikel": "§ 9a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-9",
+"nachher": "tg-v-dbg__par-10"
+},
+{
+"id": "tg-v-dbg__par-10",
+"titel": "§ 10 V DBG TG – Erlass",
+"pfad": [
+"2. Verfahren",
+"§ 10 Erlass"
+],
+"seiten": [],
+"artikel": "§ 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-9a",
+"nachher": "tg-v-dbg__par-11"
+},
+{
+"id": "tg-v-dbg__par-11",
+"titel": "§ 11 V DBG TG – Wechsel der zeitlichen Bemessung für die natürlichen Personen",
+"pfad": [
+"3. Schlussbestimmungen",
+"§ 11 Wechsel der zeitlichen Bemessung für die natürlichen Personen"
+],
+"seiten": [],
+"artikel": "§ 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-10",
+"nachher": "tg-v-dbg__par-12"
+},
+{
+"id": "tg-v-dbg__par-12",
+"titel": "§ 12 V DBG TG – Inkrafttreten",
+"pfad": [
+"3. Schlussbestimmungen",
+"§ 12 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "tg-v-dbg__par-11",
+"nachher": null
+}
+]

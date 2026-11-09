@@ -134,7 +134,7 @@ def main():
     for e in load_registry():
         if a.id and e["id"] not in a.id:
             continue
-        if e.get("verarbeitung") == "link" or e.get("strukturiert"):
+        if e.get("verarbeitung") in ("link", "original") or e.get("strukturiert"):
             continue
         if convert(e):
             n += 1

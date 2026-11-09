@@ -1,53 +1,280 @@
 [
 {
-"id": "zh-v-einreichung__c0001",
-"titel": "Verordnung über die elektronische Einreichung (LS 631.121)",
+"id": "zh-v-einreichung__par-1",
+"titel": "§ 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung",
 "pfad": [
-"Verordnung über die elektronische Einreichung (LS 631.121)"
+"A. Allgemeines",
+"§ 1 V elektr. Einreichung ZH – Applikationen zur elektronischen Einreichung der Steuererklärung"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "zh-v-einreichung__c0002"
+"nachher": "zh-v-einreichung__par-2"
 },
 {
-"id": "zh-v-einreichung__c0002",
-"titel": "Erlasstext",
+"id": "zh-v-einreichung__par-2",
+"titel": "§ 2 V elektr. Einreichung ZH – Server zur Speicherung der Steuererklärungsdaten",
 "pfad": [
-"Verordnung über die elektronische Einreichung (LS 631.121)",
-"Details",
-"Erlasstext"
+"A. Allgemeines",
+"§ 2 V elektr. Einreichung ZH – Server zur Speicherung der Steuererklärungsdaten"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-v-einreichung__c0001",
-"nachher": "zh-v-einreichung__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-1",
+"nachher": "zh-v-einreichung__par-3"
 },
 {
-"id": "zh-v-einreichung__c0003",
-"titel": "Für dieses Thema zuständig:",
+"id": "zh-v-einreichung__par-3",
+"titel": "§ 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit",
 "pfad": [
-"Verordnung über die elektronische Einreichung (LS 631.121)",
-"Für dieses Thema zuständig:"
+"A. Allgemeines",
+"§ 3 V elektr. Einreichung ZH – Datenschutz und Informationssicherheit"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1,
+2
+],
+"artikel": "§ 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-v-einreichung__c0002",
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-2",
+"nachher": "zh-v-einreichung__par-4"
+},
+{
+"id": "zh-v-einreichung__par-4",
+"titel": "§ 4 V elektr. Einreichung ZH – Zugang zu den Applikationen",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 4 V elektr. Einreichung ZH – Zugang zu den Applikationen"
+],
+"seiten": [
+2
+],
+"artikel": "§ 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-3",
+"nachher": "zh-v-einreichung__par-5"
+},
+{
+"id": "zh-v-einreichung__par-5",
+"titel": "§ 5 V elektr. Einreichung ZH – Authentifizierung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 5 V elektr. Einreichung ZH – Authentifizierung"
+],
+"seiten": [
+2
+],
+"artikel": "§ 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-4",
+"nachher": "zh-v-einreichung__par-6"
+},
+{
+"id": "zh-v-einreichung__par-6",
+"titel": "§ 6 V elektr. Einreichung ZH",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 6 V elektr. Einreichung ZH"
+],
+"seiten": [
+2
+],
+"artikel": "§ 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-5",
+"nachher": "zh-v-einreichung__par-7"
+},
+{
+"id": "zh-v-einreichung__par-7",
+"titel": "§ 7 V elektr. Einreichung ZH – Erfassung der Steuererklärung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 7 V elektr. Einreichung ZH – Erfassung der Steuererklärung"
+],
+"seiten": [
+2
+],
+"artikel": "§ 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-6",
+"nachher": "zh-v-einreichung__par-8"
+},
+{
+"id": "zh-v-einreichung__par-8",
+"titel": "§ 8 V elektr. Einreichung ZH – Einreichung der Steuererklärung",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 8 V elektr. Einreichung ZH – Einreichung der Steuererklärung"
+],
+"seiten": [
+2
+],
+"artikel": "§ 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-7",
+"nachher": "zh-v-einreichung__par-9"
+},
+{
+"id": "zh-v-einreichung__par-9",
+"titel": "§ 9 V elektr. Einreichung ZH – Weitere Erfassungen",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 9 V elektr. Einreichung ZH – Weitere Erfassungen"
+],
+"seiten": [
+3
+],
+"artikel": "§ 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-8",
+"nachher": "zh-v-einreichung__par-10"
+},
+{
+"id": "zh-v-einreichung__par-10",
+"titel": "§ 10 V elektr. Einreichung ZH – Weiterbearbeitung der Steuererklärungsdaten",
+"pfad": [
+"A. Allgemeines",
+"B. Ablauf der elektronischen Einreichung der Steuererklärung",
+"§ 10 V elektr. Einreichung ZH – Weiterbearbeitung der Steuererklärungsdaten"
+],
+"seiten": [
+3
+],
+"artikel": "§ 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-9",
+"nachher": "zh-v-einreichung__par-11"
+},
+{
+"id": "zh-v-einreichung__par-11",
+"titel": "§ 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person",
+"pfad": [
+"A. Allgemeines",
+"C. Vertretung und Treuhänder-Register",
+"§ 11 V elektr. Einreichung ZH – Vertretung der steuerpflichtigen Person"
+],
+"seiten": [
+3
+],
+"artikel": "§ 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-10",
+"nachher": "zh-v-einreichung__par-12"
+},
+{
+"id": "zh-v-einreichung__par-12",
+"titel": "§ 12 V elektr. Einreichung ZH – TreuhänderRegister",
+"pfad": [
+"A. Allgemeines",
+"C. Vertretung und Treuhänder-Register",
+"§ 12 V elektr. Einreichung ZH – TreuhänderRegister"
+],
+"seiten": [
+3
+],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-11",
+"nachher": "zh-v-einreichung__par-13"
+},
+{
+"id": "zh-v-einreichung__par-13",
+"titel": "§ 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen",
+"pfad": [
+"A. Allgemeines",
+"D. Schlussbestimmungen",
+"§ 13 V elektr. Einreichung ZH – Ausführungsbestimmungen und Verweisungen"
+],
+"seiten": [
+4
+],
+"artikel": "§ 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-12",
+"nachher": "zh-v-einreichung__par-14"
+},
+{
+"id": "zh-v-einreichung__par-14",
+"titel": "§ 14 V elektr. Einreichung ZH",
+"pfad": [
+"A. Allgemeines",
+"D. Schlussbestimmungen",
+"§ 14 V elektr. Einreichung ZH"
+],
+"seiten": [
+4
+],
+"artikel": "§ 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-v-einreichung__par-13",
 "nachher": null
 }
 ]

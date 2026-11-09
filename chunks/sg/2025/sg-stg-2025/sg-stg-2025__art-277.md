@@ -1,0 +1,13 @@
+---
+id: sg-stg-2025__art-277
+quelle: sg-stg-2025
+jur: sg
+jahre: [2025]
+typ: gesetz
+titel: "Art. 277 StG SG"
+artikel: "Art. 277"
+qmd: {metadata: {jur: sg, jahre: [2025], typ: gesetz}}
+---
+> SG · Steuerjahr 2025 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 277
+
+### Art. 277 StG SG

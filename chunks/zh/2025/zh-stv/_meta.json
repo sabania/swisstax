@@ -1,87 +1,1601 @@
 [
 {
-"id": "zh-stv__c0001",
-"titel": "Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
+"id": "zh-stv__par-1",
+"titel": "§ 1 StV ZH",
 "pfad": [
-"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108"
+"Erster Teil: Staatssteuern",
+"Erster Abschnitt: Besteuerung nach dem Aufwand",
+"§ 1 StV ZH"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 1",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
+"chunking": "gesetz (Artikel)",
 "vorher": null,
-"nachher": "zh-stv__c0002"
+"nachher": "zh-stv__par-2"
 },
 {
-"id": "zh-stv__c0002",
-"titel": "Details",
+"id": "zh-stv__par-2",
+"titel": "§ 2 StV ZH – 1. Fehlende Unterschrift",
 "pfad": [
-"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 2 StV ZH – 1. Fehlende Unterschrift"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 2",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stv__c0001",
-"nachher": "zh-stv__c0003"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-1",
+"nachher": "zh-stv__par-3"
 },
 {
-"id": "zh-stv__c0003",
-"titel": "Details",
+"id": "zh-stv__par-3",
+"titel": "§ 3 StV ZH – 2. Fehlende Vertretung eines Steuerpflichtigen mit Wohnsitz oder Sitz im Ausland",
 "pfad": [
-"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
-"Details"
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 3 StV ZH – 2. Fehlende Vertretung eines Steuerpflichtigen mit Wohnsitz oder Sitz im Ausland"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 3",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stv__c0002",
-"nachher": "zh-stv__c0004"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-2",
+"nachher": "zh-stv__par-4"
 },
 {
-"id": "zh-stv__c0004",
-"titel": "Erlasstext",
+"id": "zh-stv__par-4",
+"titel": "§ 4 StV ZH – 3. Protokoll",
 "pfad": [
-"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
-"Details",
-"Erlasstext"
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 4 StV ZH – 3. Protokoll"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 4",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stv__c0003",
-"nachher": "zh-stv__c0005"
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-3",
+"nachher": "zh-stv__par-5"
 },
 {
-"id": "zh-stv__c0005",
-"titel": "Für dieses Thema zuständig:",
+"id": "zh-stv__par-5",
+"titel": "§ 5 StV ZH – 4. Notwendige Ankündigung von Rechtsnachteilen",
 "pfad": [
-"Verordnung zum Steuergesetz (LS 631.11), Nachtrag 108",
-"Für dieses Thema zuständig:"
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 5 StV ZH – 4. Notwendige Ankündigung von Rechtsnachteilen"
 ],
-"seiten": [],
-"artikel": null,
+"seiten": [
+1
+],
+"artikel": "§ 5",
 "ziffer": null,
 "stichworte": null,
 "positionen": null,
 "zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-stv__c0004",
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-4",
+"nachher": "zh-stv__par-6"
+},
+{
+"id": "zh-stv__par-6",
+"titel": "§ 6 StV ZH – 1. Einvernahme von Zeugen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Beweismittel",
+"§ 6 StV ZH – 1. Einvernahme von Zeugen"
+],
+"seiten": [
+2
+],
+"artikel": "§ 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-5",
+"nachher": "zh-stv__par-7"
+},
+{
+"id": "zh-stv__par-7",
+"titel": "§ 7 StV ZH – 2. Beizug von Sachverständigen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Beweismittel",
+"§ 7 StV ZH – 2. Beizug von Sachverständigen"
+],
+"seiten": [
+2
+],
+"artikel": "§ 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-6",
+"nachher": "zh-stv__par-8"
+},
+{
+"id": "zh-stv__par-8",
+"titel": "§ 8 StV ZH – 1. Formelle Anforderungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Form und Zustellung von Verfügungen und Entscheiden",
+"§ 8 StV ZH – 1. Formelle Anforderungen"
+],
+"seiten": [
+2
+],
+"artikel": "§ 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-7",
+"nachher": "zh-stv__par-9"
+},
+{
+"id": "zh-stv__par-9",
+"titel": "§ 9 StV ZH – 2. Zustellung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Form und Zustellung von Verfügungen und Entscheiden",
+"§ 9 StV ZH – 2. Zustellung"
+],
+"seiten": [
+2
+],
+"artikel": "§ 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-8",
+"nachher": "zh-stv__par-10"
+},
+{
+"id": "zh-stv__par-10",
+"titel": "§ 10 StV ZH – 3. Zustellung bei Vertretung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Form und Zustellung von Verfügungen und Entscheiden",
+"§ 10 StV ZH – 3. Zustellung bei Vertretung"
+],
+"seiten": [
+2
+],
+"artikel": "§ 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-9",
+"nachher": "zh-stv__par-11"
+},
+{
+"id": "zh-stv__par-11",
+"titel": "§ 11 StV ZH – 4. Öffentliche Bekanntmachung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Form und Zustellung von Verfügungen und Entscheiden",
+"§ 11 StV ZH – 4. Öffentliche Bekanntmachung"
+],
+"seiten": [
+3
+],
+"artikel": "§ 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-10",
+"nachher": "zh-stv__par-12"
+},
+{
+"id": "zh-stv__par-12",
+"titel": "§ 12 StV ZH – 1. Berechnung einer Frist",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Fristen",
+"§ 12 StV ZH – 1. Berechnung einer Frist"
+],
+"seiten": [
+3
+],
+"artikel": "§ 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-11",
+"nachher": "zh-stv__par-13"
+},
+{
+"id": "zh-stv__par-13",
+"titel": "§ 13 StV ZH",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Fristen",
+"§ 13 StV ZH"
+],
+"seiten": [
+3
+],
+"artikel": "§ 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-12",
+"nachher": "zh-stv__par-14"
+},
+{
+"id": "zh-stv__par-14",
+"titel": "§ 14 StV ZH – 3. Eingaben an eine unrichtige Amtsstelle",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Fristen",
+"§ 14 StV ZH – 3. Eingaben an eine unrichtige Amtsstelle"
+],
+"seiten": [
+3
+],
+"artikel": "§ 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-13",
+"nachher": "zh-stv__par-15"
+},
+{
+"id": "zh-stv__par-15",
+"titel": "§ 15 StV ZH – 4. Wiederherstellung einer Frist",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Fristen",
+"§ 15 StV ZH – 4. Wiederherstellung einer Frist"
+],
+"seiten": [
+3
+],
+"artikel": "§ 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-14",
+"nachher": "zh-stv__par-16"
+},
+{
+"id": "zh-stv__par-16",
+"titel": "§ 16 StV ZH – 1. Aufsichtsbeschwerdeverfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 16 StV ZH – 1. Aufsichtsbeschwerdeverfahren"
+],
+"seiten": [
+4
+],
+"artikel": "§ 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-15",
+"nachher": "zh-stv__par-17"
+},
+{
+"id": "zh-stv__par-17",
+"titel": "§ 17 StV ZH – 2. Gutachten im Einschätzungsverfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 17 StV ZH – 2. Gutachten im Einschätzungsverfahren"
+],
+"seiten": [
+4
+],
+"artikel": "§ 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-16",
+"nachher": "zh-stv__par-18"
+},
+{
+"id": "zh-stv__par-18",
+"titel": "§ 18 StV ZH – 3. Einsprache gegen eine Einschätzung nach pflichtgemässem Ermessen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 18 StV ZH – 3. Einsprache gegen eine Einschätzung nach pflichtgemässem Ermessen"
+],
+"seiten": [
+4
+],
+"artikel": "§ 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-17",
+"nachher": "zh-stv__par-19"
+},
+{
+"id": "zh-stv__par-19",
+"titel": "§ 19 StV ZH – 4. Rekursverfahren betreffend Schlussrechnung, Zahlungserleichterung und Steuererlass",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 19 StV ZH – 4. Rekursverfahren betreffend Schlussrechnung, Zahlungserleichterung und Steuererlass"
+],
+"seiten": [
+4
+],
+"artikel": "§ 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-18",
+"nachher": "zh-stv__par-20"
+},
+{
+"id": "zh-stv__par-20",
+"titel": "§ 20 StV ZH – 5. Schriftliche Auskünfte",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 20 StV ZH – 5. Schriftliche Auskünfte"
+],
+"seiten": [
+4
+],
+"artikel": "§ 20",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-19",
+"nachher": "zh-stv__par-21"
+},
+{
+"id": "zh-stv__par-21",
+"titel": "§ 21 StV ZH – 6. Umfang der Kosten a. Allgemein",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 21 StV ZH – 6. Umfang der Kosten a. Allgemein"
+],
+"seiten": [
+4
+],
+"artikel": "§ 21",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-20",
+"nachher": "zh-stv__par-22"
+},
+{
+"id": "zh-stv__par-22",
+"titel": "§ 22 StV ZH – b. Staatsgebühr für Strafbescheide",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 22 StV ZH – b. Staatsgebühr für Strafbescheide"
+],
+"seiten": [
+5
+],
+"artikel": "§ 22",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-21",
+"nachher": "zh-stv__par-23"
+},
+{
+"id": "zh-stv__par-23",
+"titel": "§ 23 StV ZH – 7. Verhältnis zwischen Staatsgebühr und Barauslagen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 23 StV ZH – 7. Verhältnis zwischen Staatsgebühr und Barauslagen"
+],
+"seiten": [
+5
+],
+"artikel": "§ 23",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-22",
+"nachher": "zh-stv__par-24"
+},
+{
+"id": "zh-stv__par-24",
+"titel": "§ 24 StV ZH – 8. Vorschuss",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 24 StV ZH – 8. Vorschuss"
+],
+"seiten": [
+5
+],
+"artikel": "§ 24",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-23",
+"nachher": "zh-stv__par-25"
+},
+{
+"id": "zh-stv__par-25",
+"titel": "§ 25 StV ZH – 9. Kostenerlass wegen Bedürftigkeit",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 25 StV ZH – 9. Kostenerlass wegen Bedürftigkeit"
+],
+"seiten": [
+5
+],
+"artikel": "§ 25",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-24",
+"nachher": "zh-stv__par-26"
+},
+{
+"id": "zh-stv__par-26",
+"titel": "§ 26 StV ZH – 10. Kosten in Verfahren vor kommunalen Steuerbehörden",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Verfahrenskosten in Verwaltungsverfahren",
+"§ 26 StV ZH – 10. Kosten in Verfahren vor kommunalen Steuerbehörden"
+],
+"seiten": [
+5
+],
+"artikel": "§ 26",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-25",
+"nachher": "zh-stv__par-27"
+},
+{
+"id": "zh-stv__par-27",
+"titel": "§ 27 StV ZH – 1. Weisungen der Finanzdirektion",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Meldepflichten",
+"§ 27 StV ZH – 1. Weisungen der Finanzdirektion"
+],
+"seiten": [
+5
+],
+"artikel": "§ 27",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-26",
+"nachher": "zh-stv__par-28"
+},
+{
+"id": "zh-stv__par-28",
+"titel": "§ 28 StV ZH – 2. Meldungen über strafbare Handlungen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"F. Meldepflichten",
+"§ 28 StV ZH – 2. Meldungen über strafbare Handlungen"
+],
+"seiten": [
+6
+],
+"artikel": "§ 28",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-27",
+"nachher": "zh-stv__par-29"
+},
+{
+"id": "zh-stv__par-29",
+"titel": "§ 29 StV ZH – 1. Staatssteuerregister",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Die Anlage der Register und Akten",
+"§ 29 StV ZH – 1. Staatssteuerregister"
+],
+"seiten": [
+6
+],
+"artikel": "§ 29",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-28",
+"nachher": "zh-stv__par-30"
+},
+{
+"id": "zh-stv__par-30",
+"titel": "§ 30 StV ZH – 2. Taxationsregister",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Die Anlage der Register und Akten",
+"§ 30 StV ZH – 2. Taxationsregister"
+],
+"seiten": [
+6
+],
+"artikel": "§ 30",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-29",
+"nachher": "zh-stv__par-31"
+},
+{
+"id": "zh-stv__par-31",
+"titel": "§ 31 StV ZH – 3. Informationsaustausch",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Die Anlage der Register und Akten",
+"§ 31 StV ZH – 3. Informationsaustausch"
+],
+"seiten": [
+6
+],
+"artikel": "§ 31",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-30",
+"nachher": "zh-stv__par-32"
+},
+{
+"id": "zh-stv__par-32",
+"titel": "§ 32 StV ZH – 1. Aufforderung zur Einreichung der Steuererklärung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 32 StV ZH – 1. Aufforderung zur Einreichung der Steuererklärung"
+],
+"seiten": [
+6
+],
+"artikel": "§ 32",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-31",
+"nachher": "zh-stv__par-33"
+},
+{
+"id": "zh-stv__par-33",
+"titel": "§ 33 StV ZH – 2. Zustellung der Steuererklärungsformulare a. Allgemeine Regel",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 33 StV ZH – 2. Zustellung der Steuererklärungsformulare a. Allgemeine Regel"
+],
+"seiten": [
+7
+],
+"artikel": "§ 33",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-32",
+"nachher": "zh-stv__par-34"
+},
+{
+"id": "zh-stv__par-34",
+"titel": "§ 34 StV ZH – b. Volljährigkeit[^13]",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 34 StV ZH – b. Volljährigkeit[^13]"
+],
+"seiten": [
+7
+],
+"artikel": "§ 34",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-33",
+"nachher": "zh-stv__par-35"
+},
+{
+"id": "zh-stv__par-35",
+"titel": "§ 35 StV ZH – c. Heirat",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 35 StV ZH – c. Heirat"
+],
+"seiten": [
+7
+],
+"artikel": "§ 35",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-34",
+"nachher": "zh-stv__par-36"
+},
+{
+"id": "zh-stv__par-36",
+"titel": "§ 36 StV ZH – d. Scheidung oder Trennung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 36 StV ZH – d. Scheidung oder Trennung"
+],
+"seiten": [
+7
+],
+"artikel": "§ 36",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-35",
+"nachher": "zh-stv__par-37"
+},
+{
+"id": "zh-stv__par-37",
+"titel": "§ 37 StV ZH – e. Tod eines Ehegatten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 37 StV ZH – e. Tod eines Ehegatten"
+],
+"seiten": [
+7
+],
+"artikel": "§ 37",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-36",
+"nachher": "zh-stv__par-38"
+},
+{
+"id": "zh-stv__par-38",
+"titel": "§ 38 StV ZH – 3. Fehlende Zustellung des Steuererklärungsformulars",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 38 StV ZH – 3. Fehlende Zustellung des Steuererklärungsformulars"
+],
+"seiten": [
+7
+],
+"artikel": "§ 38",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-37",
+"nachher": "zh-stv__par-39"
+},
+{
+"id": "zh-stv__par-39",
+"titel": "§ 39 StV ZH – 4. Fristerstreckung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 39 StV ZH – 4. Fristerstreckung"
+],
+"seiten": [
+7
+],
+"artikel": "§ 39",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-38",
+"nachher": "zh-stv__par-40"
+},
+{
+"id": "zh-stv__par-40",
+"titel": "§ 40 StV ZH – 5. Prüfung auf Vollständigkeit",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 40 StV ZH – 5. Prüfung auf Vollständigkeit"
+],
+"seiten": [
+8
+],
+"artikel": "§ 40",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-39",
+"nachher": "zh-stv__par-41"
+},
+{
+"id": "zh-stv__par-41",
+"titel": "§ 41 StV ZH – 6. Mahnverfahren",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 41 StV ZH – 6. Mahnverfahren"
+],
+"seiten": [
+8
+],
+"artikel": "§ 41",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-40",
+"nachher": "zh-stv__par-42"
+},
+{
+"id": "zh-stv__par-42",
+"titel": "§ 42 StV ZH – 7. Weiterleitung an das kantonale Steueramt",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 42 StV ZH – 7. Weiterleitung an das kantonale Steueramt"
+],
+"seiten": [
+8
+],
+"artikel": "§ 42",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-41",
+"nachher": "zh-stv__par-43"
+},
+{
+"id": "zh-stv__par-43",
+"titel": "§ 43 StV ZH – 8. Einschätzungen durch das Gemeindesteueramt",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Das Steuererklärungsverfahren",
+"§ 43 StV ZH – 8. Einschätzungen durch das Gemeindesteueramt"
+],
+"seiten": [
+8
+],
+"artikel": "§ 43",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-42",
+"nachher": "zh-stv__par-44"
+},
+{
+"id": "zh-stv__par-44",
+"titel": "§ 44 StV ZH – 1. Einschätzungsvorschlag und -entscheid",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Einschätzungsverfahren",
+"§ 44 StV ZH – 1. Einschätzungsvorschlag und -entscheid"
+],
+"seiten": [
+8
+],
+"artikel": "§ 44",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-43",
+"nachher": "zh-stv__par-45"
+},
+{
+"id": "zh-stv__par-45",
+"titel": "§ 45 StV ZH – 2. Erledigung der Einsprachen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Einschätzungsverfahren",
+"§ 45 StV ZH – 2. Erledigung der Einsprachen"
+],
+"seiten": [
+9
+],
+"artikel": "§ 45",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-44",
+"nachher": "zh-stv__par-46"
+},
+{
+"id": "zh-stv__par-46",
+"titel": "§ 46 StV ZH – 1. Zuständigkeiten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 46 StV ZH – 1. Zuständigkeiten"
+],
+"seiten": [
+9
+],
+"artikel": "§ 46",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-45",
+"nachher": "zh-stv__par-47"
+},
+{
+"id": "zh-stv__par-47",
+"titel": "§ 47 StV ZH – 2. Bezugsregister",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 47 StV ZH – 2. Bezugsregister"
+],
+"seiten": [
+9
+],
+"artikel": "§ 47",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-46",
+"nachher": "zh-stv__par-48"
+},
+{
+"id": "zh-stv__par-48",
+"titel": "§ 48 StV ZH – 3. Rechnungsformulare",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"A. Allgemeine Bestimmungen",
+"§ 48 StV ZH – 3. Rechnungsformulare"
+],
+"seiten": [
+9
+],
+"artikel": "§ 48",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-47",
+"nachher": "zh-stv__par-49"
+},
+{
+"id": "zh-stv__par-49",
+"titel": "§ 49 StV ZH – 1. Verfalltag",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Periodische Steuern",
+"§ 49 StV ZH – 1. Verfalltag"
+],
+"seiten": [
+9
+],
+"artikel": "§ 49",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-48",
+"nachher": "zh-stv__par-50"
+},
+{
+"id": "zh-stv__par-50",
+"titel": "§ 50 StV ZH – 2. Bezug der provisorischen Rechnung in Raten",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Periodische Steuern",
+"§ 50 StV ZH – 2. Bezug der provisorischen Rechnung in Raten"
+],
+"seiten": [
+10
+],
+"artikel": "§ 50",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-49",
+"nachher": "zh-stv__par-51"
+},
+{
+"id": "zh-stv__par-51",
+"titel": "§ 51 StV ZH – 3. Schlussrechnung mit Einschluss der Abrechnung über die Zinsen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Periodische Steuern",
+"§ 51 StV ZH – 3. Schlussrechnung mit Einschluss der Abrechnung über die Zinsen"
+],
+"seiten": [
+10
+],
+"artikel": "§ 51",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-50",
+"nachher": "zh-stv__par-52"
+},
+{
+"id": "zh-stv__par-52",
+"titel": "§ 52 StV ZH – 4. Nachsteuern",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"B. Periodische Steuern",
+"§ 52 StV ZH – 4. Nachsteuern"
+],
+"seiten": [
+10
+],
+"artikel": "§ 52",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-51",
+"nachher": "zh-stv__par-53"
+},
+{
+"id": "zh-stv__par-53",
+"titel": "§ 53 StV ZH – 1. Fälligkeit und Zahlungsfrist",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Nicht periodische Steuern",
+"§ 53 StV ZH – 1. Fälligkeit und Zahlungsfrist"
+],
+"seiten": [
+10
+],
+"artikel": "§ 53",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-52",
+"nachher": "zh-stv__par-54"
+},
+{
+"id": "zh-stv__par-54",
+"titel": "§ 54 StV ZH – 2. Zinsen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"C. Nicht periodische Steuern",
+"§ 54 StV ZH – 2. Zinsen"
+],
+"seiten": [
+10
+],
+"artikel": "§ 54",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-53",
+"nachher": "zh-stv__par-55"
+},
+{
+"id": "zh-stv__par-55",
+"titel": "§ 55 StV ZH – 1. Aufteilung der Zahlungseingänge",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Abrechnung",
+"§ 55 StV ZH – 1. Aufteilung der Zahlungseingänge"
+],
+"seiten": [
+11
+],
+"artikel": "§ 55",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-54",
+"nachher": "zh-stv__par-56"
+},
+{
+"id": "zh-stv__par-56",
+"titel": "§ 56 StV ZH – 2. Vorschriften der Finanzdirektion",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Abrechnung",
+"§ 56 StV ZH – 2. Vorschriften der Finanzdirektion"
+],
+"seiten": [
+11
+],
+"artikel": "§ 56",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-55",
+"nachher": "zh-stv__par-57"
+},
+{
+"id": "zh-stv__par-57",
+"titel": "§ 57 StV ZH – 3. Ersatzvornahme durch das kantonale Steueramt",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"D. Abrechnung",
+"§ 57 StV ZH – 3. Ersatzvornahme durch das kantonale Steueramt"
+],
+"seiten": [
+11
+],
+"artikel": "§ 57",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-56",
+"nachher": "zh-stv__par-57a"
+},
+{
+"id": "zh-stv__par-57a",
+"titel": "§ 57a StV ZH – Verteilung der Steuern",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"E. Vereinfachtes Abrechnungsverfahren für kleine Arbeitsentgelte",
+"§ 57a StV ZH – Verteilung der Steuern"
+],
+"seiten": [
+11
+],
+"artikel": "§ 57a",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-57",
+"nachher": "zh-stv__par-58"
+},
+{
+"id": "zh-stv__par-58",
+"titel": "§ 58 StV ZH – 1. Todesfallmeldung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 58 StV ZH – 1. Todesfallmeldung"
+],
+"seiten": [
+11
+],
+"artikel": "§ 58",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-57a",
+"nachher": "zh-stv__par-59"
+},
+{
+"id": "zh-stv__par-59",
+"titel": "§ 59 StV ZH – 2. Bewilligungspflicht für Verfügungen über das zu inventierende Vermögen",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 59 StV ZH – 2. Bewilligungspflicht für Verfügungen über das zu inventierende Vermögen"
+],
+"seiten": [
+11
+],
+"artikel": "§ 59",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-58",
+"nachher": "zh-stv__par-60"
+},
+{
+"id": "zh-stv__par-60",
+"titel": "§ 60 StV ZH – 3. Siegelung",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 60 StV ZH – 3. Siegelung"
+],
+"seiten": [
+12
+],
+"artikel": "§ 60",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-59",
+"nachher": "zh-stv__par-61"
+},
+{
+"id": "zh-stv__par-61",
+"titel": "§ 61 StV ZH – 4. Formulare",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 61 StV ZH – 4. Formulare"
+],
+"seiten": [
+12
+],
+"artikel": "§ 61",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-60",
+"nachher": "zh-stv__par-62"
+},
+{
+"id": "zh-stv__par-62",
+"titel": "§ 62 StV ZH – 5. Frist für die Inventaraufnahme",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 62 StV ZH – 5. Frist für die Inventaraufnahme"
+],
+"seiten": [
+12
+],
+"artikel": "§ 62",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-61",
+"nachher": "zh-stv__par-63"
+},
+{
+"id": "zh-stv__par-63",
+"titel": "§ 63 StV ZH – 6. Inventare der Kindes- und Erwachsenenschutzbehörden oder der Gerichte",
+"pfad": [
+"Erster Teil: Staatssteuern",
+"Fünfter Abschnitt: Das Inventar",
+"§ 63 StV ZH – 6. Inventare der Kindes- und Erwachsenenschutzbehörden oder der Gerichte"
+],
+"seiten": [
+12
+],
+"artikel": "§ 63",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-62",
+"nachher": "zh-stv__par-64"
+},
+{
+"id": "zh-stv__par-64",
+"titel": "§ 64 StV ZH – 1. Verweisung auf den ersten Teil",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Erster Abschnitt: Allgemeine Gemeindesteuern",
+"§ 64 StV ZH – 1. Verweisung auf den ersten Teil"
+],
+"seiten": [
+12
+],
+"artikel": "§ 64",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-63",
+"nachher": "zh-stv__par-65"
+},
+{
+"id": "zh-stv__par-65",
+"titel": "§ 65 StV ZH – 2. Personalsteuer",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Erster Abschnitt: Allgemeine Gemeindesteuern",
+"§ 65 StV ZH – 2. Personalsteuer"
+],
+"seiten": [
+12
+],
+"artikel": "§ 65",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-64",
+"nachher": "zh-stv__par-66"
+},
+{
+"id": "zh-stv__par-66",
+"titel": "§ 66 StV ZH – 3. Kirchensteuern",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Erster Abschnitt: Allgemeine Gemeindesteuern",
+"§ 66 StV ZH – 3. Kirchensteuern"
+],
+"seiten": [
+12
+],
+"artikel": "§ 66",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-65",
+"nachher": "zh-stv__par-67"
+},
+{
+"id": "zh-stv__par-67",
+"titel": "§ 67 StV ZH – 1. Melde- und Auskunftspflichten der Notariate und Grundbuchämter",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 67 StV ZH – 1. Melde- und Auskunftspflichten der Notariate und Grundbuchämter"
+],
+"seiten": [
+12,
+13
+],
+"artikel": "§ 67",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-66",
+"nachher": "zh-stv__par-68"
+},
+{
+"id": "zh-stv__par-68",
+"titel": "§ 68 StV ZH – 2. Haftung des gesetzlichen Pfandrechts",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 68 StV ZH – 2. Haftung des gesetzlichen Pfandrechts"
+],
+"seiten": [
+13
+],
+"artikel": "§ 68",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-67",
+"nachher": "zh-stv__par-69-t1"
+},
+{
+"id": "zh-stv__par-69-t1",
+"titel": "§ 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht (Teil 1/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht"
+],
+"seiten": [
+13
+],
+"artikel": "§ 69",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-68",
+"nachher": "zh-stv__par-69-t2"
+},
+{
+"id": "zh-stv__par-69-t2",
+"titel": "§ 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht (Teil 2/2)",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 69 StV ZH – 3. Pflicht zur Information über das gesetzliche Grundpfandrecht"
+],
+"seiten": [
+13
+],
+"artikel": "§ 69",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-69-t1",
+"nachher": "zh-stv__par-70"
+},
+{
+"id": "zh-stv__par-70",
+"titel": "§ 70 StV ZH – 4. Steuererklärungsformular für die Grundstückgewinnsteuer",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 70 StV ZH – 4. Steuererklärungsformular für die Grundstückgewinnsteuer"
+],
+"seiten": [
+13
+],
+"artikel": "§ 70",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-69-t2",
+"nachher": "zh-stv__par-71"
+},
+{
+"id": "zh-stv__par-71",
+"titel": "§ 71 StV ZH – 5. Verfalltag für die Grundstückgewinnsteuer",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 71 StV ZH – 5. Verfalltag für die Grundstückgewinnsteuer"
+],
+"seiten": [
+14
+],
+"artikel": "§ 71",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-70",
+"nachher": "zh-stv__par-72"
+},
+{
+"id": "zh-stv__par-72",
+"titel": "§ 72 StV ZH",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 72 StV ZH"
+],
+"seiten": [
+14
+],
+"artikel": "§ 72",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-71",
+"nachher": "zh-stv__par-73"
+},
+{
+"id": "zh-stv__par-73",
+"titel": "§ 73 StV ZH – 6. Mitteilungspflicht der Grundsteuerbehörden[^9]",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 73 StV ZH – 6. Mitteilungspflicht der Grundsteuerbehörden[^9]"
+],
+"seiten": [
+14
+],
+"artikel": "§ 73",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-72",
+"nachher": "zh-stv__par-74"
+},
+{
+"id": "zh-stv__par-74",
+"titel": "§ 74 StV ZH",
+"pfad": [
+"Zweiter Teil: Gemeindesteuern",
+"Zweiter Abschnitt: Grundsteuern",
+"§ 74 StV ZH"
+],
+"seiten": [
+14
+],
+"artikel": "§ 74",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-73",
+"nachher": "zh-stv__par-75"
+},
+{
+"id": "zh-stv__par-75",
+"titel": "§ 75 StV ZH – 1. Bezug der Bussen",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"§ 75 StV ZH – 1. Bezug der Bussen"
+],
+"seiten": [
+14
+],
+"artikel": "§ 75",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-74",
+"nachher": "zh-stv__par-76"
+},
+{
+"id": "zh-stv__par-76",
+"titel": "§ 76 StV ZH – 2. Strafanzeige wegen Steuervergehen",
+"pfad": [
+"Dritter Teil: Steuerstrafrecht",
+"§ 76 StV ZH – 2. Strafanzeige wegen Steuervergehen"
+],
+"seiten": [
+14
+],
+"artikel": "§ 76",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-75",
+"nachher": "zh-stv__par-79"
+},
+{
+"id": "zh-stv__par-79",
+"titel": "§ 79 StV ZH – 1. Übergangsrecht",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"Zweiter Abschnitt: Übergangsbestimmungen",
+"§ 79 StV ZH – 1. Übergangsrecht"
+],
+"seiten": [
+15
+],
+"artikel": "§ 79",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-76",
+"nachher": "zh-stv__par-80"
+},
+{
+"id": "zh-stv__par-80",
+"titel": "§ 80 StV ZH – 2. Inkrafttreten",
+"pfad": [
+"Vierter Teil: Schlussbestimmungen",
+"Zweiter Abschnitt: Übergangsbestimmungen",
+"§ 80 StV ZH – 2. Inkrafttreten"
+],
+"seiten": [
+15
+],
+"artikel": "§ 80",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "zh-stv__par-79",
 "nachher": null
 }
 ]

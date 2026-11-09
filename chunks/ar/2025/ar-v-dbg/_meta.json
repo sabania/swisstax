@@ -1,0 +1,325 @@
+[
+{
+"id": "ar-v-dbg__art-1",
+"titel": "Art. 1 V DBG AR – Organe",
+"pfad": [
+"I. Behörden",
+"Art. 1 Organe"
+],
+"seiten": [],
+"artikel": "Art. 1",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": null,
+"nachher": "ar-v-dbg__art-2"
+},
+{
+"id": "ar-v-dbg__art-2",
+"titel": "Art. 2 V DBG AR – Die Kantonale Steuerverwaltung",
+"pfad": [
+"I. Behörden",
+"Art. 2 Die Kantonale Steuerverwaltung"
+],
+"seiten": [],
+"artikel": "Art. 2",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-1",
+"nachher": "ar-v-dbg__art-3"
+},
+{
+"id": "ar-v-dbg__art-3",
+"titel": "Art. 3 V DBG AR – Die Gemeindebehörden",
+"pfad": [
+"I. Behörden",
+"Art. 3 Die Gemeindebehörden"
+],
+"seiten": [],
+"artikel": "Art. 3",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-2",
+"nachher": "ar-v-dbg__art-4"
+},
+{
+"id": "ar-v-dbg__art-4",
+"titel": "Art. 4 V DBG AR – Das Obergericht",
+"pfad": [
+"I. Behörden",
+"Art. 4 Das Obergericht"
+],
+"seiten": [],
+"artikel": "Art. 4",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-3",
+"nachher": "ar-v-dbg__art-5"
+},
+{
+"id": "ar-v-dbg__art-5",
+"titel": "Art. 5 V DBG AR – Organisation, Verfahren und Bezug",
+"pfad": [
+"I. Behörden",
+"Art. 5 Organisation, Verfahren und Bezug"
+],
+"seiten": [],
+"artikel": "Art. 5",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-4",
+"nachher": "ar-v-dbg__art-6"
+},
+{
+"id": "ar-v-dbg__art-6",
+"titel": "Art. 6 V DBG AR – Registerführung, Meldepflichten",
+"pfad": [
+"II. Ordentliches Veranlagungsverfahren",
+"Art. 6 Registerführung, Meldepflichten"
+],
+"seiten": [],
+"artikel": "Art. 6",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-5",
+"nachher": "ar-v-dbg__art-7"
+},
+{
+"id": "ar-v-dbg__art-7",
+"titel": "Art. 7 V DBG AR – Steuererklärung (Art. 124 Abs. 1 DBG)",
+"pfad": [
+"II. Ordentliches Veranlagungsverfahren",
+"Art. 7 Steuererklärung (Art. 124 Abs. 1 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 7",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-6",
+"nachher": "ar-v-dbg__art-8"
+},
+{
+"id": "ar-v-dbg__art-8",
+"titel": "Art. 8 V DBG AR – Veranlagung der natürlichen Personen; einjährige Steuerperiode (Art. 41 DBG)",
+"pfad": [
+"II. Ordentliches Veranlagungsverfahren",
+"Art. 8 Veranlagung der natürlichen Personen; einjährige Steuerperiode (Art. 41 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 8",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-7",
+"nachher": "ar-v-dbg__art-9"
+},
+{
+"id": "ar-v-dbg__art-9",
+"titel": "Art. 9 V DBG AR – Einsprache (Art. 132 DBG)",
+"pfad": [
+"II. Ordentliches Veranlagungsverfahren",
+"Art. 9 Einsprache (Art. 132 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 9",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-8",
+"nachher": "ar-v-dbg__art-10"
+},
+{
+"id": "ar-v-dbg__art-10",
+"titel": "Art. 10 V DBG AR – Allgemeines",
+"pfad": [
+"III. Beschwerde",
+"Art. 10 Allgemeines"
+],
+"seiten": [],
+"artikel": "Art. 10",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-9",
+"nachher": "ar-v-dbg__art-11"
+},
+{
+"id": "ar-v-dbg__art-11",
+"titel": "Art. 11 V DBG AR – Kosten (Art. 144 Abs. 5 DBG)",
+"pfad": [
+"III. Beschwerde",
+"Art. 11 Kosten (Art. 144 Abs. 5 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 11",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-10",
+"nachher": "ar-v-dbg__art-12"
+},
+{
+"id": "ar-v-dbg__art-12",
+"titel": "Art. 12 V DBG AR – Veranlagungs- und Rechtsmittelverfahren (Art. 139 Abs. 2 DBG)",
+"pfad": [
+"IV. Quellensteuern",
+"Art. 12 Veranlagungs- und Rechtsmittelverfahren (Art. 139 Abs. 2 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 12",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-11",
+"nachher": "ar-v-dbg__art-13"
+},
+{
+"id": "ar-v-dbg__art-13",
+"titel": "Art. 13 V DBG AR – Zeitpunkte (Art. 161 Abs. 1 DBG)",
+"pfad": [
+"V. Steuerbezug und Steuersicherung",
+"Art. 13 Zeitpunkte (Art. 161 Abs. 1 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 13",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-12",
+"nachher": "ar-v-dbg__art-14"
+},
+{
+"id": "ar-v-dbg__art-14",
+"titel": "Art. 14 V DBG AR – Eintrag im Grundbuch (Art. 172 DBG)",
+"pfad": [
+"V. Steuerbezug und Steuersicherung",
+"Art. 14 Eintrag im Grundbuch (Art. 172 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 14",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-13",
+"nachher": "ar-v-dbg__art-15"
+},
+{
+"id": "ar-v-dbg__art-15",
+"titel": "Art. 15 V DBG AR – Löschung einer Firma im Handelsregister (Art. 171 DBG)",
+"pfad": [
+"V. Steuerbezug und Steuersicherung",
+"Art. 15 Löschung einer Firma im Handelsregister (Art. 171 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 15",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-14",
+"nachher": "ar-v-dbg__art-16"
+},
+{
+"id": "ar-v-dbg__art-16",
+"titel": "Art. 16 V DBG AR – Kantonale Kompetenz (Art. 167b Abs. 1 DBG)",
+"pfad": [
+"VI. Steuererlass",
+"Art. 16 Kantonale Kompetenz (Art. 167b Abs. 1 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 16",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-15",
+"nachher": "ar-v-dbg__art-17"
+},
+{
+"id": "ar-v-dbg__art-17",
+"titel": "Art. 17 V DBG AR – …",
+"pfad": [
+"VI. Steuererlass",
+"Art. 17 …"
+],
+"seiten": [],
+"artikel": "Art. 17",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-16",
+"nachher": "ar-v-dbg__art-18"
+},
+{
+"id": "ar-v-dbg__art-18",
+"titel": "Art. 18 V DBG AR – Inventarisation (Art. 159 Abs. 1 DBG)",
+"pfad": [
+"VII. Inventar",
+"Art. 18 Inventarisation (Art. 159 Abs. 1 DBG)"
+],
+"seiten": [],
+"artikel": "Art. 18",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-17",
+"nachher": "ar-v-dbg__art-19"
+},
+{
+"id": "ar-v-dbg__art-19",
+"titel": "Art. 19 V DBG AR – Inkrafttreten",
+"pfad": [
+"VIII. Schlussbestimmungen",
+"Art. 19 Inkrafttreten"
+],
+"seiten": [],
+"artikel": "Art. 19",
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "gesetz (Artikel)",
+"vorher": "ar-v-dbg__art-18",
+"nachher": null
+}
+]

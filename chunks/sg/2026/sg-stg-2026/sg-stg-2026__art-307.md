@@ -1,0 +1,13 @@
+---
+id: sg-stg-2026__art-307
+quelle: sg-stg-2026
+jur: sg
+jahre: [2026]
+typ: gesetz
+titel: "Art. 307 StG SG – …"
+artikel: "Art. 307"
+qmd: {metadata: {jur: sg, jahre: [2026], typ: gesetz}}
+---
+> SG · Steuerjahr 2026 · StG SG · FÜNFTER TEIL: SCHLUSSBESTIMMUNGEN › Art. 307 …
+
+### Art. 307 StG SG – …
