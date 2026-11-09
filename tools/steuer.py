@@ -792,8 +792,10 @@ def formular(kt, jahr) -> str:
             "- Unklarer Sachverhalt (z.B. Heimkehr über Mittag, Arbeitstage): Standardfall erfassen, Annahme offenlegen, Alternative mit "
             "Betrag nennen, Rückfrage formulieren – keinen Abzug aus einer eigenen Annahme streichen.",
             "- Nur belegte Hinweise geben; Nebenbemerkungen ohne Fundstelle (z.B. zu Vermögen, Zulagen) weglassen oder «nicht geprüft».",
-            "- Vermögen: nur Abzüge mit eigener Formularziffer abziehen (Schulden, Sozialabzüge mit Code); steuerfreie Beträge, die nur "
-            "im Tarif wirken (Zeile «Tarif»), nicht abziehen – das steuerbare Vermögen bleibt dann Vermögenswerte − Schulden.",
+            "- Vermögen: Reinvermögen/steuerbares Vermögen gesamt = Vermögenswerte − Schulden; Sozialabzüge auf dem Vermögen nur in "
+            "ihren eigenen Ziffern (danach), steuerfreie Beträge, die nur im Tarif wirken (Zeile «Tarif»), gar nicht abziehen.",
+            "- Vorsorgeguthaben (2. Säule, Säule 3a) sind bis zur Fälligkeit kein steuerbares Vermögen – nicht deklarieren, nicht nachfragen "
+            "(ZH zh-wl-2025__c0154, SG sg-wl-2025__c0107, AR ar-wl-2025__c0111, TG tg-wl-2025__c0139).",
             "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 
