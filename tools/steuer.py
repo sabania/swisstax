@@ -685,6 +685,13 @@ def formular(kt, jahr) -> str:
         if teile:
             out.append(f"- **{titel}:** " + " · ".join(teile))
     out.append(f"Werte mit Fundstelle: `wert {j} {jahr} <stichwort>`. Status/Abnahme je Wert dort.")
+    out += ["", "### Ausfüllregeln",
+            "- Pauschale oder effektive Kosten: je Position und je Ebene (Kanton | Bund) die günstigere zulässige Variante "
+            "(Regel/Rechnen der Position beachten, z.B. «Pauschale ohne Nachweis» nur Kanton).",
+            "- Unklarer Sachverhalt (z.B. Heimkehr über Mittag, Arbeitstage): Standardfall erfassen, Annahme offenlegen, Alternative mit "
+            "Betrag nennen, Rückfrage formulieren – keinen Abzug aus einer eigenen Annahme streichen.",
+            "- Nur belegte Hinweise geben; Nebenbemerkungen ohne Fundstelle (z.B. zu Vermögen, Zulagen) weglassen oder «nicht geprüft».",
+            "- Alle Totale mit Ziffer ausweisen; steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 
 

@@ -1206,7 +1206,7 @@ positionen:
   rein:
   - 'Kursrechnungen/Zahlungsbelege → selbst bezahlte Kosten 2025 (Aufstellung: Rechnungsdatum, Bezeichnung, Betrag)'
   - Bestätigung Kursleitung → zwingend angeschaffte Informatikmittel
-  berechnung: je Person min(selbst bezahlte berufsorientierte Kosten; Fr. 13'000) (Kanton = Bund); Kanton alternativ pauschal Fr. 400 ohne Nachweis; Informatik privat nutzbar × 50%
+  berechnung: 'je Person: Bund = min(selbst bezahlte berufsorientierte Kosten; Fr. 13''000); Kanton = höherer Betrag aus diesen Kosten und der Pauschale Fr. 400 ohne Nachweis (hauptberuflich Unselbständige), max. Fr. 13''000; Informatik privat nutzbar × 50%'
   beachten:
   - 'Voraussetzung: erster Abschluss Sek II oder 20. Lebensjahr vollendet; nicht Ausbildung bis zum ersten Sek-II-Abschluss'
   - Pauschale Fr. 400 nur Kanton/Gemeinde, nur hauptberuflich Unselbständige; Bund nur effektive Kosten
