@@ -7,8 +7,8 @@
 
 - belege · agent-geprueft: 45
 - einreichen · allgemein: 111
-- einreichen · auf_verlangen: 50
-- einreichen · bedingt: 45
+- einreichen · auf_verlangen: 49
+- einreichen · bedingt: 46
 - einreichen · ja: 51
 - einreichen · nein: 32
 - einreichen · unklar: 47

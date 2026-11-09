@@ -225,7 +225,7 @@
 
 **Lesarten:** (a) Der Formularhinweis ist ein solches «ausdrückliches Verlangen» und gilt nach seiner Stellung für den ganzen Block 13, also auch für 13.1/13.2 → einreichen: ja. (b) Der Hinweis bezieht sich nur auf Ziff. 13.3 (Rentenleistungen); für Unterhaltsbeiträge gilt der Grundsatz der Wegleitung → auf Verlangen.
 
-**Empfehlung (mittlere Sicherheit):** Lesart (a), also Zahlungsnachweise zu 13.1/13.2 beilegen. Der Hinweis steht im Block 13 ohne Einschränkung auf 13.3, und die Wegleitung lässt ausdrückliche Verlangen ausdrücklich zu. Das Wiki führt den Eintrag bis zum Entscheid als «auf_verlangen» mit dem Zusatz «im Zweifel beilegen». Ein unabhängiger Prüfer hat beide Lesarten belegt gefunden.
+**Empfehlung (mittlere Sicherheit):** Lesart (a), also Zahlungsnachweise zu 13.1/13.2 beilegen. Der Hinweis steht im Block 13 ohne Einschränkung auf 13.3, und die Wegleitung lässt ausdrückliche Verlangen ausdrücklich zu. Das Wiki führt den Eintrag bis zum Entscheid als «bedingt: im Zweifel beilegen» (Agent rät zum Beilegen und nennt den Vorbehalt). Ein unabhängiger Prüfer hat beide Lesarten belegt gefunden; zwei weitere Prüfer (Haiku-Bewertungen H4, H8) werteten «nur auf Verlangen» als falsch.
 
 **Endgültige Klärung durch:** Rückfrage beim Kantonalen Steueramt ZH oder die Praxis der Fachperson.
 

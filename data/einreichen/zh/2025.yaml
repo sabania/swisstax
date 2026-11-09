@@ -264,14 +264,15 @@ belege:
   zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
   urteil: bestätigt
 - beleg_id: unterhaltszahlungen-alimente
-  einreichen: auf_verlangen
-  bedingung: 'Zahler (Ziff. 13.1/13.2): Zahlungsnachweise und Urteil/Konvention auf Verlangen. Die WL nennt keine Beilagepflicht. Der Formularhinweis «sämtliche Zahlungsnachweise» steht in der Zeile 13.3 (zh-form-300-2025__c0007),
-    und die WL S. 15 bezieht ihn auf bezahlte Leibrenten/Verpfründungen (zh-wl-2025__c0080: «Leibrenten und Verpfründungen einzureichen (insbesondere Leibrenten- bzw.»). Wortlaut nicht ganz eindeutig
-    (raw/zh/2025/zh-form-300-2025.pdf S. 3), im Zweifel beilegen – Fachperson entscheidet. Empfänger (Ziff. 5.1/5.2): keine Beilagepflicht, nur Name/Adresse Zahler/in.'
+  einreichen: bedingt
+  bedingung: 'Strittig (reports/entscheidungsvorlage-strittig.md Nr. 11) – bis zum Entscheid der Fachperson Zahlungsnachweise
+    zu 13.1/13.2 beilegen: Formular 300 Block 13 «sämtliche Zahlungsnachweise» (zh-form-300-2025__c0007) vs. WL-Grundsatz
+    «nur auf Verlangen» (zh-wl-2025__c0207; WL S. 15 bezieht den Hinweis auf Leibrenten, zh-wl-2025__c0080). Empfänger
+    (Ziff. 5.1/5.2): keine Beilagepflicht, nur Name/Adresse Zahler/in.'
   chunk: zh-wl-2025__c0207
   zitat: Die Belege zu den Aufstellungen und Formularen sind nur dann zusammen mit der Steuererklärung einzureichen, wenn dies ausdrücklich verlangt ist.
-  urteil: 'korrigiert: bedingt -> auf_verlangen; der Hinweis «sämtliche Zahlungsnachweise» betrifft gemäss WL c0080 die Rentenleistungen Ziff. 13.3 (Leibrenten/Verpfründungen), nicht die Unterhaltsbeiträge
-    13.1/13.2'
+  urteil: 'strittig: auf_verlangen (WL) vs. ja (Formularhinweis Block 13) – als «bedingt: im Zweifel beilegen» geführt, bis die
+    Fachperson entscheidet (Entscheidungsvorlage Nr. 11)'
 - beleg_id: oev-abo
   einreichen: auf_verlangen
   bedingung: Formular Berufsauslagen ist beizulegen; Abo-Beleg nicht ausdrücklich verlangt -> allgemeine Regel
