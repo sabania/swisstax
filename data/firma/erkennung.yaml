@@ -4,19 +4,19 @@
 # Belegtypen (beleg: <id>) übernehmen Relevanz/Positionen aus data/belege-teil*.yaml; Kategorie nach Regel in data/firma/mfiles.yaml.
 # Prozessdokumente (ohne beleg) haben Klasse/Kategorie/Weiterleitung direkt aus dem Prozessbeschrieb.
 belegtypen:
-  lohnausweis: {stark: [lohnausweis, certificat de salaire, formular 11, bruttolohn total, nettolohn], schwach: [arbeitgeber, ahv-nr, spesenverguetungen, lohn]}
-  rentenbescheinigung-ahv-iv: {stark: [ahv-rente, iv-rente, rentenbescheinigung ahv, ausgleichskasse rentenbescheinigung, ahv-altersrente], schwach: [ausgleichskasse, altersrente, invalidenrente, sva], nicht: [pensionskasse, beruflicher vorsorge, berufliche vorsorge]}
-  rentenbescheinigung-vorsorge: {stark: [rentenbescheinigung pensionskasse, rentenausweis, leibrente, altersrente pensionskasse, beruflicher vorsorge, berufliche vorsorge], schwach: [pensionskasse, vorsorgeeinrichtung, rente, altersrente], nicht: [einkauf, kapitalauszahlung]}
-  taggeldbescheinigung: {stark: [taggeldbescheinigung, arbeitslosenentschaedigung, krankentaggeld, unfalltaggeld, erwerbsersatz, mutterschaftsentschaedigung], schwach: [arbeitslosenkasse, alv, eo, taggeld, suva]}
+  lohnausweis: {stark: [lohnausweis, certificat de salaire, certificato di salario, formular 11, bruttolohn total, nettolohn, salaire brut], schwach: [arbeitgeber, ahv-nr, spesenverguetungen, lohn]}
+  rentenbescheinigung-ahv-iv: {stark: [ahv-rente, iv-rente, rentenbescheinigung ahv, ausgleichskasse rentenbescheinigung, ahv-altersrente, attestation de rentes avs, rente avs, rente ai, caisse de compensation, caisse cantonale de compensation, rendita avs], schwach: [ausgleichskasse, altersrente, invalidenrente, sva, avs, ai], nicht: [pensionskasse, beruflicher vorsorge, berufliche vorsorge]}
+  rentenbescheinigung-vorsorge: {stark: [rentenbescheinigung pensionskasse, rentenausweis, leibrente, altersrente pensionskasse, rente aus beruflicher vorsorge, caisse de pension rente, rente lpp], schwach: [pensionskasse, vorsorgeeinrichtung, rente, altersrente], nicht: [einkauf, kapitalauszahlung]}
+  taggeldbescheinigung: {stark: [taggeldbescheinigung, arbeitslosenentschaedigung, arbeitslosenkasse, arbeitslosenversicherung, krankentaggeld, unfalltaggeld, erwerbsersatz, mutterschaftsentschaedigung, caisse de chomage, indemnites de chomage, indemnites journalieres, allocation perte de gain], schwach: [arbeitslosenkasse, alv, eo, taggeld, suva]}
   bescheinigung-saeule3a: {stark: [saeule 3a, saule 3a, gebundene vorsorge, vorsorgekonto 3a, bescheinigung 3a, bvv 3], schwach: [vorsorgestiftung, einzahlungen, 3a]}
-  bescheinigung-pk-einkauf: {stark: [einkauf pensionskasse, einkaufsbescheinigung, einkauf berufliche vorsorge, einkaufsbeitrag], schwach: [pensionskasse, bvg, beitragsjahre]}
-  steuerauszug-bank: {stark: [steuerauszug, e-steuerauszug, esteuerauszug, steuerverzeichnis, steuerausweis], schwach: [verrechnungssteuer, bank, wertschriften, zinsen, ech-0196]}
+  bescheinigung-pk-einkauf: {stark: [einkauf pensionskasse, einkaufsbescheinigung, einkauf berufliche vorsorge, einkauf in die berufliche vorsorge, einkauf in die pensionskasse, freiwilliger einkauf, einkaufsbeitrag, rachat lpp, rachat de cotisations], schwach: [pensionskasse, bvg, beitragsjahre]}
+  steuerauszug-bank: {stark: [steuerauszug, e-steuerauszug, esteuerauszug, steuerverzeichnis, steuerausweis, steuerreport, releve fiscal, e-releve fiscal, estratto fiscale], schwach: [verrechnungssteuer, bank, wertschriften, zinsen, ech-0196]}
   kontoauszug-zinsausweis: {stark: [zinsausweis, saldobestaetigung, zins- und saldobescheinigung, kontoabschluss, jahresabschluss konto, zinsabschluss], schwach: [sparkonto, privatkonto, saldo per 31.12, iban, bruttozins]}
   depotauszug: {stark: [depotauszug, wertschriftenverzeichnis, vermoegensausweis, depotbestand, titelbestand], schwach: [aktien, obligationen, fonds, kurswert, valor]}
   krypto-auszug: {stark: [bitcoin, kryptowaehrung, krypto, wallet, ethereum, crypto], schwach: [exchange, coin, token, blockchain]}
   dividenden-ausland-quellensteuer: {stark: [quellensteuer ausland, da-1, withholding tax, ausländische dividende, auslaendische dividende], schwach: [dividende, usa, quellensteuer]}
   versicherung-rueckkaufswert: {stark: [rueckkaufswert, steuerwert police, lebensversicherung steuerbescheinigung, rentenversicherung steuerwert], schwach: [police, lebensversicherung, versicherungsnehmer]}
-  krankenkasse-praemien: {stark: [praemienbescheinigung, praemienuebersicht, versicherungsausweis kvg, jahresuebersicht praemien, praemienrechnung], schwach: [krankenkasse, grundversicherung, zusatzversicherung, kvg, vvg, praemien]}
+  krankenkasse-praemien: {stark: [praemienbescheinigung, praemienuebersicht, versicherungsausweis kvg, jahresuebersicht praemien, praemienrechnung, krankenversicherung, kranken-versicherung, attestation de primes, primes lamal], schwach: [krankenkasse, grundversicherung, zusatzversicherung, kvg, vvg, praemien, lamal], nicht: [gebaeudeversicherung, hausrat, motorfahrzeug, leistungsabrechnung, kostenbeteiligung]}
   krankenkasse-leistungen: {stark: [leistungsabrechnung, leistungsuebersicht, kostenbeteiligung, selbstbehalt und franchise, steuerbestaetigung kostenbeteiligung], schwach: [franchise, selbstbehalt, krankenkasse, leistungen]}
   arzt-zahnarzt-rechnungen: {stark: [arztrechnung, zahnarzt, zahnarztpraxis, zahnbehandlung, arztpraxis, dr. med, spitalrechnung, therapie rechnung, physiotherapie, apotheke, tarmed, tardoc], schwach: [behandlung, patient, diagnose, praxis dr]}
   hypothekarbestaetigung: {stark: [hypothek, hypothekarzins, zinsbescheinigung hypothek, festhypothek, saron-hypothek, baukredit], schwach: [grundpfand, schuldzins, liegenschaft, darlehen]}
@@ -25,10 +25,10 @@ belegtypen:
   liegenschaft-unterhaltsrechnungen: {stark: [handwerkerrechnung, renovation, reparatur, unterhaltsarbeiten, sanierung, malerarbeiten, sanitaer], schwach: [rechnung, liegenschaft, arbeiten, montage]}
   liegenschaft-schaetzung-eigenmietwert: {stark: [eigenmietwert, amtliche schaetzung, schaetzungsprotokoll, steuerwert liegenschaft, vermoegenssteuerwert, liegenschaftssteuer], schwach: [grundstueck, parzelle, schaetzung]}
   liegenschaft-mietertraege: {stark: [mietertrag, mietzinsaufstellung, mietzinseinnahmen, ferienwohnung vermietung], schwach: [mieter, mietzins, vermietung]}
-  liegenschaft-nebenkosten-gebaeudeversicherung: {stark: [gebaeudeversicherung, nebenkostenabrechnung, verwaltungshonorar, hauswart, liegenschaftsverwaltung], schwach: [stockwerkeigentum, erneuerungsfonds, nebenkosten]}
+  liegenschaft-nebenkosten-gebaeudeversicherung: {stark: [gebaeudeversicherung, gebaeudeversicherungsanstalt, assurance immobiliere, nebenkostenabrechnung, verwaltungshonorar, hauswart, liegenschaftsverwaltung], schwach: [stockwerkeigentum, erneuerungsfonds, nebenkosten]}
   kinderbetreuung-rechnungen: {stark: [kita, kinderkrippe, kindertagesstaette, tagesmutter, hort, tagesschule, kinderbetreuung], schwach: [betreuung, krippe, kind]}
   weiterbildung-rechnungen: {stark: [weiterbildung, kursrechnung, lehrgang, studiengebuehr, pruefungsgebuehr, umschulung, cas, mas], schwach: [kurs, seminar, schulgeld, ausbildung]}
-  spendenbestaetigung: {stark: [spendenbestaetigung, spendenbescheinigung, zuwendungsbestaetigung, spende], schwach: [gemeinnuetzig, stiftung, hilfswerk, verdankung]}
+  spendenbestaetigung: {stark: [spendenbestaetigung, spendenbescheinigung, zuwendungsbestaetigung, spende, attestation de don, recu fiscal don], schwach: [gemeinnuetzig, stiftung, hilfswerk, verdankung]}
   parteispende: {stark: [partei, parteispende, mitgliederbeitrag partei], schwach: [politisch, mandatsbeitrag]}
   unterhaltszahlungen-alimente: {stark: [alimente, unterhaltsbeitraege, unterhaltsvertrag, scheidungsurteil, scheidungskonvention], schwach: [unterhalt, getrennt, kinderunterhalt]}
   oev-abo: {stark: [generalabonnement, ga, streckenabo, verbundabo, zvv, ostwind, sbb abo], schwach: [abonnement, oev, swisspass]}
@@ -41,19 +41,20 @@ belegtypen:
   mitarbeiterbeteiligung: {stark: [mitarbeiteraktien, mitarbeiteroptionen, beiblatt mitarbeiterbeteiligung, rsu, restricted stock], schwach: [optionen, vesting, sperrfrist, beteiligung]}
   ahv-beitragsverfuegung-nichterwerbstaetige: {stark: [beitragsverfuegung, nichterwerbstaetige, ahv-beitrag], schwach: [ausgleichskasse, beitraege, nichterwerb]}
   ergaenzungsleistungen: {stark: [ergaenzungsleistung, el-verfuegung, ergaenzungsleistungen], schwach: [el, zusatzleistung]}
-  privatrechnungen-alltag: {stark: [migros, coop, zalando, swisscom rechnung, sunrise, salt, netflix, ferien buchung], schwach: [einkauf, quittung, abo, rechnung]}
+  privatrechnungen-alltag: {stark: [migros, coop, zalando, swisscom, sunrise, salt mobile, netflix, ferien buchung, galaxus, digitec, ikea, mobile abo, internet + tv], schwach: [einkauf, quittung, abo, rechnung]}
   hausrat-haftpflicht-police: {stark: [hausratversicherung, privathaftpflicht, haushaltversicherung], schwach: [police, hausrat, haftpflicht]}
-  motorfahrzeug-versicherung: {stark: [motorfahrzeugversicherung, autoversicherung, kasko, motorfahrzeugsteuer, strassenverkehrsamt], schwach: [fahrzeug, police, kontrollschild]}
+  motorfahrzeug-versicherung: {stark: [motorfahrzeugversicherung, autoversicherung, kasko, motorfahrzeugsteuer, strassenverkehrsamt, verkehrssteuer, verkehrsabgabe, strassenverkehrs- und schifffahrtsamt, taxe automobile], schwach: [fahrzeug, police, kontrollschild]}
   mietvertrag-wohnung: {stark: [mietvertrag, mietzins wohnung, vermieter], schwach: [miete, wohnung, nebenkosten]}
   kreditkartenabrechnung: {stark: [kreditkartenabrechnung, monatsabrechnung karte, visa, mastercard, american express], schwach: [kartenabrechnung, kreditkarte]}
-  steuerberatungskosten: {stark: [steuerberatung, honorar steuererklaerung, treuhandhonorar], schwach: [treuhand, beratung]}
+  steuerberatungskosten: {stark: [steuerberatung, honorar steuererklaerung, treuhandhonorar, honorarrechnung, ausfuellen der steuererklaerung, ausfuellen und einreichen], schwach: [treuhand, beratung, honorar]}
   # Steuerrechnung / Veranlagung: unten als Prozessdokumente (Klasse Veranlagung/Prov. Steuerrechnung), Belegtyp nur für den Vorjahresabgleich
 
 prozessdokumente:
   veranlagung:
     name: Veranlagungsverfügung / Einschätzungsentscheid / definitive Steuerrechnung (Bund, Kanton/Gemeinde, Kapitalleistung)
-    stark: [veranlagungsverfuegung, einschaetzungsentscheid, veranlagung, einschaetzung, definitive steuerrechnung, schlussrechnung, veranlagungsentscheid]
-    schwach: [steueramt, rechtsmittelbelehrung, einsprache, steuerbares einkommen, steuerbares vermoegen]
+    stark: [veranlagungsverfuegung, einschaetzungsentscheid, veranlagung, einschaetzung, definitive steuerrechnung, schlussrechnung, veranlagungsentscheid, decision de taxation, avis de taxation]
+    schwach: [steueramt, rechtsmittelbelehrung, steuerbares einkommen, steuerbares vermoegen]
+    nicht: [provisorisch, provisorische, akontorechnung, auflage, einsprache gegen, einsprache gg, rekurs gegen, grundstueckgewinn, grundstueckgewinnsteuer, kontoauszug]
     klasse: Veranlagung + def. Steuerrechnung
     kategorie: null
     weiter: Schritt 5 (Kontrolle Veranlagung)
@@ -61,7 +62,7 @@ prozessdokumente:
     quelle: steuerprozess-np-2026-10-27 S. 9, S. 23
   provisorische-rechnung:
     name: Provisorische Steuerrechnung (Bund, Kanton/Gemeinde)
-    stark: [provisorische steuerrechnung, provisorische rechnung, akontorechnung, vorauszahlung, ratenrechnung]
+    stark: [provisorische steuerrechnung, provisorische rechnung, provisorisch, akontorechnung, vorauszahlung, ratenrechnung, acomptes provisoires, bordereau provisoire]
     schwach: [provisorisch, steuerbezug, faellig, einzahlungsschein]
     klasse: Prov. Steuerrechnung
     kategorie: null
@@ -70,7 +71,7 @@ prozessdokumente:
     quelle: steuerprozess-np-2026-10-27 S. 9, S. 24
   auflage-nachfrage:
     name: Auflage / Nachfrage / Buchprüfung des Steueramts
-    stark: [auflage, nachfrage, rueckfrage, buchpruefung, einforderung, bitte reichen sie]
+    stark: [auflage, auflage zur steuererklaerung, nachfrage, rueckfrage, buchpruefung, einforderung, bitte reichen sie, wir bitten sie, demande de renseignements]
     schwach: [frist, steueramt, unterlagen nachreichen]
     klasse: Auflage/Buchprüfung
     kategorie: null
@@ -78,7 +79,7 @@ prozessdokumente:
     quelle: steuerprozess-np-2026-10-27 S. 20–23
   einsprache-rekurs:
     name: Einsprache / Einspracheentscheid / Rekurs
-    stark: [einsprache, einspracheentscheid, rekurs, beschwerde]
+    stark: [einsprache, einspracheentscheid, einsprache gegen, rekurs, beschwerde, reclamation]
     schwach: [rechtsmittel, steuerrekursgericht]
     klasse: Einsprache/Rekurs
     kategorie: null
@@ -94,9 +95,9 @@ prozessdokumente:
     quelle: steuerprozess-np-2026-10-27 S. 22–23
   steuererklaerung-formular:
     name: Steuererklärung / Hauptformular (leer vom Steueramt oder ausgefüllt vom Kunden)
-    stark: [steuererklaerung, hauptformular, formular 300, zugangsdaten, steuererklaerung 20]
-    schwach: [code, steuerpflichtige person, unterschrift]
-    nicht: [fristerstreckung, fristverlaengerung, uebermittlungsquittung, freigabequittung, grundstueckgewinnsteuer, auflage]
+    stark: [hauptformular, formular 300, zugangsdaten, steuererklaerung natuerliche personen, formular steuererklaerung, declaration d'impot]
+    schwach: [steuererklaerung, code, steuerpflichtige person, unterschrift]
+    nicht: [fristerstreckung, fristverlaengerung, uebermittlungsquittung, freigabequittung, grundstueckgewinnsteuer, auflage, fuer ihre steuererklaerung, fuer die steuererklaerung, zur steuererklaerung, juristische personen, honorar]
     klasse: StE
     kategorie: Deklaration
     beschreibung: Hauptformular
@@ -155,7 +156,7 @@ prozessdokumente:
     quelle: mfiles-kategorien-ste-2026-11-05 Nr. 27
   grundstueckgewinn-erbschaft-schenkung-steuer:
     name: Grundstückgewinnsteuer-, Erbschafts- oder Schenkungssteuer-Verfahren (Steuererklärung/Veranlagung)
-    stark: [grundstueckgewinnsteuer, erbschaftssteuer, schenkungssteuer, handaenderungssteuer]
+    stark: [grundstueckgewinnsteuer, grundstueckgewinn, grundsteuern, erbschaftssteuer, schenkungssteuer, handaenderungssteuer, impot sur les gains immobiliers]
     schwach: [veraeusserung, grundstueck]
     klasse: eigene Klasse (nicht StE)
     kategorie: null
@@ -163,8 +164,8 @@ prozessdokumente:
     quelle: steuerprozess-np-2026-10-27 S. 10
   juristische-person:
     name: Unterlagen einer juristischen Person (AG, GmbH, Verein, Stiftung)
-    stark: [aktiengesellschaft, gmbh, jahresrechnung der, generalversammlung, verwaltungsrat beschluss]
-    schwach: [sarl, che-, statuten]
+    stark: [juristische personen, kapitalgesellschaften, genossenschaften, generalversammlung, verwaltungsrat beschluss, gewinnsteuer, kapitalsteuer]
+    schwach: [aktiengesellschaft, sarl, che-, statuten, gmbh]
     klasse: Prüfkorb
     kategorie: null
     weiter: Prüfkorb (1.10, nicht Teil des Prozesses NP)

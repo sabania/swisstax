@@ -460,23 +460,42 @@ def steuerjahr_aus(text):
     return None, "keine Jahreszahl gefunden"
 
 
+OCR = str.maketrans({"l": "i", "1": "i", "|": "i", "0": "o"})
+
+
+def canon(t: str) -> str:
+    """Vergleichsform tolerant für typische OCR-Verwechslungen (l/1/I, 0/O)."""
+    return t.translate(OCR)
+
+
 def phrase_in(p, ntext):
-    return re.search(r"(?<![a-z0-9])" + re.escape(norm(p)) + r"(?![a-z0-9])", ntext) is not None
+    return re.search(r"(?<![a-z0-9])" + re.escape(canon(norm(p))) + r"(?![a-z0-9])", ntext) is not None
+
+
+def treffer(kw, ntext, ntitel):
+    """Punkte: stark 5 (im Titel 8), schwach 1, Gegenindiz −5."""
+    s = 0.0
+    for p in kw.get("stark") or []:
+        if phrase_in(p, ntext):
+            s += 8 if phrase_in(p, ntitel) else 5
+    s += sum(phrase_in(p, ntext) for p in kw.get("schwach") or [])
+    s -= 5 * sum(phrase_in(p, ntext) for p in kw.get("nicht") or [])
+    return s
 
 
 def ablage(text, kt=None, jahr=None) -> str:
     j = jur_of(kt) if kt else None
-    ntext = " " + norm(str(text)[:6000]) + " "
+    roh = str(text)[:6000]
+    ntext = " " + canon(norm(roh)) + " "
+    ntitel = " " + canon(norm(re.split(r"[\n|]", roh.strip(), maxsplit=2)[0] if roh.strip() else "")[:160]) + " "
     er = L().get("erkennung") or {}
     kand = []
     for bid, kw in (er.get("belegtypen") or {}).items():
-        s = 5 * sum(phrase_in(p, ntext) for p in kw.get("stark") or []) + sum(phrase_in(p, ntext) for p in kw.get("schwach") or [])
-        s -= 5 * sum(phrase_in(p, ntext) for p in kw.get("nicht") or [])
+        s = treffer(kw, ntext, ntitel)
         if s > 0:
             kand.append((s, "beleg", bid))
     for pid, kw in (er.get("prozessdokumente") or {}).items():
-        s = 5 * sum(phrase_in(p, ntext) for p in kw.get("stark") or []) + sum(phrase_in(p, ntext) for p in kw.get("schwach") or [])
-        s -= 5 * sum(phrase_in(p, ntext) for p in kw.get("nicht") or [])
+        s = treffer(kw, ntext, ntitel)
         if s > 0:
             kand.append((s + 0.5, "prozess", pid))
     kand.sort(key=lambda x: -x[0])

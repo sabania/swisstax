@@ -1,0 +1,349 @@
+# Unabhängiges Holdout-Set Dokumenterkennung (Schritt 1): von zwei separaten Agenten erzeugt, ohne Kenntnis der
+# Erkennungsstichworte (data/firma/erkennung.yaml) – 09.11.2026. Fiktive, anonyme Fälle. Auswertung: python3 eval/ablage_test.py eval/ablage-holdout.yaml
+faelle:
+- text: 'Lohnausweis – Certificat de salaire – Certificato di salario | Formular 11 | Jahr 2025, von 01.01. bis 31.12. | Arbeitgeber: Beispiel AG, Bahnhofstrasse 12, 8001 Zürich | Arbeitnehmer: Muster Hans
+    | 1. Lohn 96''500 | 8. Bruttolohn total | 9. Beiträge AHV/IV/EO/ALV/NBUV'
+  soll: lohnausweis
+  set: typisch
+- text: 'SVA St.Gallen – Ausgleichskasse | Rentenbescheinigung 2025 für die Steuererklärung | Frau Muster Anna, 9000 St.Gallen | Im Jahr 2025 wurden Ihnen folgende Leistungen ausgerichtet: Ordentliche Altersrente
+    AHV, Total CHF 29''640.00'
+  soll: rentenbescheinigung-ahv-iv
+  set: typisch
+- text: 'BVK Personalvorsorge des Kantons Zürich | Rentenausweis 2025 zuhanden der Steuerbehörde | Muster Hans, 8400 Winterthur | Altersrente aus beruflicher Vorsorge, ausbezahlt 01.01.–31.12.2025: CHF
+    34''812.00 | Rentenbeginn 01.05.2020, Kapitalbezug: keiner'
+  soll: rentenbescheinigung-vorsorge
+  set: typisch
+- text: 'Arbeitslosenkasse Unia | Bescheinigung über die Leistungen der Arbeitslosenversicherung 2025 (zur Vorlage bei der Steuerbehörde) | Versicherte Person: Muster Anna, 8500 Frauenfeld | Bruttotaggelder
+    03/2025–08/2025 CHF 31''245.60, abgezogene AHV/IV/EO-Beiträge, NBU-Prämie'
+  soll: taggeldbescheinigung
+  set: typisch
+- text: 'Zürcher Kantonalbank – Vorsorgestiftung 3a | Bescheinigung über Vorsorgebeiträge 2025 (Formular 21 EDP) | Vorsorgenehmer: Muster Hans, 8610 Uster | Im Jahr 2025 an die gebundene Selbstvorsorge
+    (Säule 3a) einbezahlte Beiträge: CHF 6''000.00'
+  soll: bescheinigung-saeule3a
+  set: typisch
+- text: Pensionskasse Thurgau | Bestätigung Einkauf in die berufliche Vorsorge 2025 | Muster Anna, 8280 Kreuzlingen | Wir bestätigen den Eingang Ihres freiwilligen Einkaufs von CHF 15'000.00 mit Valuta
+    05.12.2025. Bescheinigung zur Vorlage bei der Steuerbehörde.
+  soll: bescheinigung-pk-einkauf
+  set: typisch
+- text: 'Raiffeisen | Steuerauszug 2025 / eSteuerauszug | Kunden: Muster Hans und Muster Anna, 9100 Herisau | Wertschriften- und Guthabenverzeichnis per 31.12.2025 – Steuerwert total, Bruttoertrag A (mit
+    Verrechnungssteuer) und B (ohne VST), Verrechnungssteueranspruch'
+  soll: steuerauszug-bank
+  set: typisch
+- text: 'St.Galler Kantonalbank | Zins- und Saldobestätigung per 31.12.2025 | Sparkonto CH12 0078 1xxx xxxx | Kontoinhaberin: Muster Anna, 9500 Wil SG | Saldo per 31.12.2025 CHF 24''310.55 | Bruttozins
+    2025 CHF 61.20 | Verrechnungssteuer 35% CHF 0.00'
+  soll: kontoauszug-zinsausweis
+  set: typisch
+- text: 'UBS Switzerland AG | Vermögensausweis / Depotauszug per 31.12.2025 | Depot 0230-123456 | Muster Hans, 8700 Küsnacht | Titelbestand: Nestlé SA Namenaktien 150 Stk., Roche Holding Genussscheine 40
+    Stk., iShares Core SPI ETF 300 Anteile – Kurswerte in CHF'
+  soll: depotauszug
+  set: typisch
+- text: 'PostFinance – Dividendenabrechnung | Valuta 13.11.2025 | Microsoft Corp. Registered Shares, 30 Stk. | Bruttodividende USD 24.90 | US-Quellensteuer 15% USD -3.74 | Nettogutschrift CHF 17.15 | Kundin:
+    Muster Anna, 8570 Weinfelden'
+  soll: dividenden-ausland-quellensteuer
+  set: typisch
+- text: 'CSS Kranken-Versicherung AG | Prämienbescheinigung 2025 für Ihre Steuererklärung | Versicherte Personen: Muster Hans, Muster Anna, 9030 Abtwil | Grundversicherung KVG CHF 8''964.00, Zusatzversicherungen
+    VVG CHF 1''214.40, abzüglich individuelle Prämienverbilligung'
+  soll: krankenkasse-praemien
+  set: typisch
+- text: 'Zahnarztpraxis Dr. med. dent. Beispiel, 9100 Herisau | Rechnung Nr. 25-0871 vom 18.10.2025 | Patientin: Muster Anna | Behandlung: Wurzelbehandlung Zahn 46, Keramikkrone | Total CHF 2''145.30, zahlbar
+    innert 30 Tagen'
+  soll: arzt-zahnarzt-rechnungen
+  set: typisch
+- text: 'Thurgauer Kantonalbank | Zinsbescheinigung 2025 – Hypotheken | Schuldner: Muster Hans und Muster Anna | Objekt: Einfamilienhaus, 8570 Weinfelden | Festhypothek 10 Jahre, Saldo per 31.12.2025 CHF
+    520''000.00 | belastete Schuldzinsen 2025 CHF 7''540.00'
+  soll: hypothekarbestaetigung
+  set: typisch
+- text: 'Malerei Beispiel GmbH, 9053 Teufen AR | Rechnung Nr. 2025-114 | Bauherr: Muster Hans | Objekt: EFH Dorfstrasse 8, Teufen | Arbeiten: Fassadenanstrich und Ersatz der Fensterläden, ausgeführt August
+    2025 | Total inkl. MWST CHF 18''630.00'
+  soll: liegenschaft-unterhaltsrechnungen
+  set: typisch
+- text: 'Politische Gemeinde Gossau SG – Grundstückschätzung | Mitteilung der amtlichen Schätzung | Grundstück Nr. 2471, Eigentümer: Muster Hans | Neuschätzung infolge Umbau: Verkehrswert CHF 890''000,
+    Steuerwert CHF 712''000, Eigenmietwert CHF 21''300 pro Jahr, gültig ab Steuerjahr 2025'
+  soll: liegenschaft-schaetzung-eigenmietwert
+  set: typisch
+- text: 'Kinderkrippe Beispiel, 8400 Winterthur | Jahresbestätigung Betreuungskosten 2025 | Eltern: Muster Hans und Muster Anna | Kind: Muster, geb. 15.03.2022 | Betreuung 3 Tage pro Woche, verrechnete
+    Elternbeiträge Januar–Dezember 2025: CHF 16''420.00 | zur Vorlage beim Steueramt'
+  soll: kinderbetreuung-rechnungen
+  set: typisch
+- text: 'Schweizerisches Rotes Kreuz | Spendenbestätigung 2025 für Ihre Steuererklärung | Herr Muster Hans, 9320 Arbon | Herzlichen Dank! Im Jahr 2025 haben Sie uns folgende Spenden zukommen lassen: Total
+    CHF 450.00. Das SRK ist als gemeinnützige Organisation von der Steuerpflicht befreit.'
+  soll: spendenbestaetigung
+  set: typisch
+- text: 'Stiftung Auffangeinrichtung BVG – Freizügigkeitskonten | Abrechnung Auszahlung Freizügigkeitsguthaben | Muster Hans, 8304 Wallisellen | Grund: Erreichen des ordentlichen Rentenalters | Auszahlung
+    am 30.06.2025 | Kapitalleistung brutto CHF 112''480.00 | Meldung an die ESTV erfolgt (Formular 563)'
+  soll: kapitalleistung-vorsorge
+  set: typisch
+- text: 'SVA Zürich – Ausgleichskasse | Beitragsverfügung für Nichterwerbstätige 2025 | Muster Anna, 8008 Zürich | Grundlage: Vermögen und 20-faches Renteneinkommen gemäss Meldung der Steuerbehörde | Jahresbeitrag
+    AHV/IV/EO inkl. Verwaltungskosten CHF 2''830.00, Akontorechnungen quartalsweise'
+  soll: ahv-beitragsverfuegung-nichterwerbstaetige
+  set: typisch
+- text: 'Die Mobiliar | Versicherungspolice Hausrat und Privathaftpflicht | Police Nr. 4.123.456.78 | Versicherungsnehmerin: Muster Anna, 8355 Aadorf | Versicherungssumme Hausrat CHF 120''000, Privathaftpflicht
+    CHF 5 Mio. | Jahresprämie 2026 CHF 486.20, gültig ab 01.01.2026'
+  soll: hausrat-haftpflicht-police
+  set: typisch
+- text: 'Kantonales Steueramt Zürich | Einschätzungsentscheid Staats- und Gemeindesteuern 2024 / Veranlagungsverfügung direkte Bundessteuer 2024 | Muster Hans und Muster Anna, 8610 Uster | Steuerbares Einkommen,
+    satzbestimmendes Vermögen, Abweichungen siehe Beiblatt | Rechtsmittelbelehrung: Einsprache innert 30 Tagen'
+  soll: veranlagung
+  set: typisch
+- text: 'Steueramt der Stadt St.Gallen | Provisorische Rechnung Staats- und Gemeindesteuern 2026 | Muster Hans, 9000 St.Gallen | Berechnungsgrundlage: letzte definitive Veranlagung | Fälligkeit 30.09.2026,
+    Ratenzahlungen möglich | Vorauszahlungen werden zum Vergütungszins verzinst'
+  soll: provisorische-rechnung
+  set: typisch
+- text: 'Steuerverwaltung des Kantons Thurgau | Steuererklärung 2024 – Auflage: Ersuchen um Auskunft und Unterlagen | Muster Hans, 8580 Amriswil | Zur Vervollständigung der Veranlagung benötigen wir bis
+    10.12.2026: Belege zu den geltend gemachten Liegenschaftsunterhaltskosten und Nachweis der Weiterbildungskosten'
+  soll: auflage-nachfrage
+  set: typisch
+- text: 'Einsprache gegen die Veranlagungsverfügung 2024 | An: Kantonale Steuerverwaltung Appenzell Ausserrhoden, 9102 Herisau | Steuerpflichtige: Muster Hans und Muster Anna | Namens und im Auftrag unserer
+    Mandanten erheben wir fristgerecht Einsprache und stellen folgende Anträge:'
+  soll: einsprache-rekurs
+  set: typisch
+- text: 'Gemeindesteueramt Dübendorf | Bestätigung Fristerstreckung Steuererklärung 2025 | Steuerpflichtige: Muster Anna, 8600 Dübendorf | Ihrem Gesuch wird entsprochen. Die Frist zur Einreichung der Steuererklärung
+    wird bis 30.11.2026 erstreckt.'
+  soll: fristerstreckung
+  set: typisch
+- text: 'DrTax – Übermittlungsquittung | Steuererklärung 2025 natürliche Personen, Kanton Thurgau | Steuerpflichtiger: Muster Hans, 8500 Frauenfeld | Die Daten wurden am 14.03.2026 um 10:42 Uhr erfolgreich
+    elektronisch übermittelt | Übermittlungs-ID 7F3A-21C9-88D0'
+  soll: uebermittlungsquittung
+  set: typisch
+- text: 'Freigabequittung Steuererklärung 2025 – Kanton Zürich | Steuerpflichtige: Muster Hans und Muster Anna | Quittungscode ZH25-4K7P-Q2 | Mit ihrer Unterschrift bestätigen die Steuerpflichtigen, dass
+    die übermittelten Daten vollständig und wahrheitsgetreu sind. Ort, Datum: Uster, 02.04.2026 – Unterschriften: [unterzeichnet]'
+  soll: freigabequittung
+  set: typisch
+- text: 'AW: Steuererklärung 2025 – fehlende Unterlagen | Guten Tag Frau Beispiel, besten Dank für Ihre Nachricht. Anbei die ausgefüllte Checkliste zurück. Wir hatten 2025 keine Liegenschaftsverkäufe und
+    keine Erbschaft, die übrigen Angaben stimmen so. Freundliche Grüsse, Muster Anna'
+  soll: kundenantwort
+  set: typisch
+- text: 'Stadt Winterthur, Steueramt – Steuerbezug | Kontoauszug Steuern 2025 per 31.10.2026 | Muster Hans, 8400 Winterthur | Staats- und Gemeindesteuern 2025: Sollstellung, Zahlungen vom 15.02., 30.06.
+    und 30.09.2026, Ausgleichszins | Saldo zu Ihren Gunsten CHF 412.35'
+  soll: kontoauszug-steueramt
+  set: typisch
+- text: 'Interkantonale Steuerausscheidung 2025 | Muster Hans und Muster Anna | Hauptsteuerdomizil: Kanton St.Gallen (Rapperswil-Jona), Nebensteuerdomizil: Kanton Graubünden (Ferienwohnung) | Verlegung
+    von Einkommen und Vermögen nach Quoten, Schuldzinsen proportional nach Aktiven | Kantonales Steueramt St.Gallen'
+  soll: steuerausscheidung
+  set: typisch
+- text: 'Caisse cantonale vaudoise de compensation AVS
+
+    Attestation de rentes 2025 pour la déclaration d''impôt
+
+    Muster Anna, N° AVS 756.XXXX.XXXX.XX
+
+    Rente de vieillesse AVS versée du 01.01.2025 au 31.12.2025: CHF 27''540.–'
+  soll: rentenbescheinigung-ahv-iv
+  set: schwierig
+- text: 'Lohnausweis – Certificat de salaire – Certificato di salario  ☐ A Lohnausweis  ☒ B Rentenbescheinigung
+
+    Pensionskasse Beispiel AG – Muster Hans
+
+    Altersrente BVG 01.01.–31.12.2025 CHF 31''200.–, AHV-Überbrückungsrente CHF 14''700.–'
+  soll: rentenbescheinigung-vorsorge
+  set: schwierig
+- text: 'SVA Zürich – Ausgleichskasse
+
+    Beitragsverfügung 2025 für Nichterwerbstätige
+
+    Muster Anna: Beiträge AHV/IV/EO berechnet auf Vermögen und 20-fachem Renteneinkommen, Jahresbeitrag CHF 2''940.– inkl. Verwaltungskosten, zahlbar in Akontoraten'
+  soll: ahv-beitragsverfuegung-nichterwerbstaetige
+  set: schwierig
+- text: 'Lohnausw eis - Certificat de sa1aire - Certificato di salario
+
+    Arbeitgeber: Beispiel AG, 9000 St. Ga1len
+
+    1. Lohn soweit nicht unter Ziffer 2-7 aufzufuhren 84 350.-
+
+    5. Beteiligungsrechte gemass Beiblatt 0.-
+
+    9. Beitrage AHV/IV/EO/ALV/NBUV 5 610.-'
+  soll: lohnausweis
+  set: schwierig
+- text: 'Beispiel AG Equity Plan – Swiss Tax Statement 2025 (Annex to salary certificate)
+
+    Employee: Muster Hans
+
+    Restricted Stock Units vested 15.03.2025: 120 units at FMV CHF 85.40 = taxable income CHF 10''248.– (reported in box 5 of the salary certificate)'
+  soll: mitarbeiterbeteiligung
+  set: schwierig
+- text: 'Caisse de chômage Unia – Attestation pour la déclaration d''impôt 2025
+
+    Assurée: Muster Anna
+
+    Indemnités de chômage brutes versées du 01.04.2025 au 31.12.2025: CHF 18''932.40
+
+    Cotisations AVS/AI/APG et AANP déduites'
+  soll: taggeldbescheinigung
+  set: schwierig
+- text: 'Fwd: Bescheinigung Vorsorgebeitrage Saule 3a 2025 (VIAC) – Muster Hans, einbezahlt CHF 7''258.–'
+  soll: bescheinigung-saeule3a
+  set: schwierig
+- text: 'Swiss Life – Steuerbescheinigung 2025 Freie Vorsorge (Säule 3b)
+
+    Police Nr. 12.345.678, Versicherungsnehmer Muster Hans
+
+    Rückkaufswert per 31.12.2025: CHF 42''815.–, gutgeschriebene Überschussanteile CHF 312.–
+
+    Prämien 3b sind nicht als Beiträge 3a abziehbar'
+  soll: versicherung-rueckkaufswert
+  set: schwierig
+- text: 'Freizügigkeitsstiftung der Zürcher Kantonalbank
+
+    Abrechnung Barauszahlung Freizügigkeitsguthaben
+
+    Muster Anna – Auszahlungsgrund: Aufnahme einer selbständigen Erwerbstätigkeit
+
+    Auszahlung CHF 86''420.– am 30.06.2025, Meldung an die ESTV erfolgt'
+  soll: kapitalleistung-vorsorge
+  set: schwierig
+- text: 'PostFinance SA – Relevé fiscal 2025 (e-relevé fiscal)
+
+    Muster Anna, 3000 Berne
+
+    Récapitulation: valeurs fiscales au 31.12.2025, rendements soumis à l''impôt anticipé, rendements sans impôt anticipé, données pour l''état des titres et la demande DA-1'
+  soll: steuerauszug-bank
+  set: schwierig
+- text: 'Raiffeisenbank Appenzeller Hinterland – Zins- und Saldobescheinigung 2025
+
+    Sparkonto CH12 8080 0000 1234 5678 9, Inhaber Muster Hans
+
+    Saldo per 31.12.2025 CHF 23''415.80, Bruttozins CHF 46.85, Verrechnungssteuer CHF 0.00'
+  soll: kontoauszug-zinsausweis
+  set: schwierig
+- text: 'Zinsausweis 2025
+
+    St.Galler Kantonalbank – Festhypothek Nr. 4711.22, Liegenschaft Musterstrasse 5, 9500 Wil SG
+
+    Schuldner: Muster Hans und Muster Anna
+
+    Belastete Zinsen 01.01.–31.12.2025 CHF 6''840.–, Schuld per 31.12.2025 CHF 480''000.–'
+  soll: hypothekarbestaetigung
+  set: schwierig
+- text: 'Dividend Advice – Microsoft Corp. (ISIN US5949181045)
+
+    Payment date 12.06.2025 – Account holder: Muster Hans, Swissquote Bank SA
+
+    Gross dividend USD 83.00, US withholding tax 15% USD 12.45, net credit USD 70.55'
+  soll: dividenden-ausland-quellensteuer
+  set: schwierig
+- text: 'CSS Kranken-Versicherung AG – Bestätigung für die Steuererklärung 2025
+
+    Versicherte Person: Muster Anna
+
+    Prämien Grundversicherung KVG CHF 4''812.–, Zusatzversicherungen VVG CHF 1''134.–, angerechnete Prämienverbilligung CHF -1''200.–'
+  soll: krankenkasse-praemien
+  set: schwierig
+- text: 'Helsana – Steuerbestätigung 2025: Ihre Kostenbeteiligung
+
+    Versicherter: Muster Hans
+
+    Franchise CHF 2''500.–, Selbstbehalt CHF 700.–, Spitalbeitrag CHF 150.–, nicht versicherte Leistungen CHF 185.–
+
+    Total selbst getragene Kosten CHF 3''535.–'
+  soll: krankenkasse-leistungen
+  set: schwierig
+- text: 'Gebäudeversicherung Thurgau – Prämienrechnung 2025
+
+    Gebäude Nr. 1234, Musterweg 7, 8570 Weinfelden – Eigentümer: Muster Hans
+
+    Versicherungswert CHF 920''000.–, Prämie Feuer- und Elementarschaden CHF 548.60'
+  soll: liegenschaft-nebenkosten-gebaeudeversicherung
+  set: schwierig
+- text: 'Kanton Thurgau – Amtliche Schätzung
+
+    Schätzungsprotokoll 2025, Liegenschaft Nr. 1234, Eigentümerin Muster Anna
+
+    Steuerwert CHF 640''000.–, Eigenmietwert CHF 19''800.–
+
+    Rechtsmittelbelehrung: Einsprache innert der gesetzlichen Frist'
+  soll: liegenschaft-schaetzung-eigenmietwert
+  set: schwierig
+- text: 'Strassenverkehrs- und Schifffahrtsamt des Kantons St.Gallen
+
+    Rechnung Verkehrssteuer 2026
+
+    Halterin: Muster Anna, Kontrollschild SG 123456, Personenwagen
+
+    Steuerbetrag 01.01.–31.12.2026 CHF 412.00, zahlbar innert 30 Tagen'
+  soll: motorfahrzeug-versicherung
+  set: schwierig
+- text: 'Swissc0m (Schweiz) AG
+
+    Rechnung Nov 2025 – b1ue Mobile M, Internet + TV
+
+    Kundennr. 1-ABC12345, Muster Hans
+
+    Tota1 inkl. MWST CHF 129.85, zah1bar bis 30.12.2025'
+  soll: privatrechnungen-alltag
+  set: schwierig
+- text: 'Beispiel Treuhand AG – Honorarrechnung Nr. 2026-0412
+
+    Ausfüllen und Einreichen der Steuererklärung 2025, inkl. Fristerstreckungsgesuch und Belegkontrolle
+
+    Muster Hans und Muster Anna: 4.5 Std. à CHF 160.–, Total CHF 775.35 inkl. MWST'
+  soll: steuerberatungskosten
+  set: schwierig
+- text: 'Gemeinde Frauenfeld – Steueramt
+
+    Definitive Steuerrechnung 2024 – Staats- und Gemeindesteuern
+
+    Muster Hans, gestützt auf die Veranlagung vom 02.09.2026
+
+    Steuerbetrag CHF 9''860.40 – Vorauszahlungen CHF 9''500.00 = Restbetrag CHF 360.40'
+  soll: veranlagung
+  set: schwierig
+- text: 'Kantonale Steuerverwaltung Appenzell Ausserrhoden
+
+    Provisorlsche Steuerrechnung 2026 (Staats-/Gemeindesteuer)
+
+    Muster Anna, 9100 Herisau
+
+    Grundlage: letzte definitive Veranlagung 2024; Betrag CHF 7''420.–'
+  soll: provisorische-rechnung
+  set: schwierig
+- text: 'Kantonales Steueramt St.Gallen – Auflage zur Steuererklärung 2025
+
+    Sehr geehrter Herr Muster
+
+    Für die Veranlagung benötigen wir bis 15.12.2026: Bestätigung Einkauf Pensionskasse, Belege Krankheitskosten und Unterhaltsrechnungen Liegenschaft'
+  soll: auflage-nachfrage
+  set: schwierig
+- text: 'Betreff: Einsprache gg. Einschätzungsentscheid 2024 v. 14.10.2026 – Muster Hans
+
+    Antrag: Die Berufsauslagen seien wie deklariert mit CHF 4''850.– zuzulassen; eventualiter sei eine Fahrtenaufstellung zu berücksichtigen.'
+  soll: einsprache-rekurs
+  set: schwierig
+- text: 'Steueramt der Stadt Winterthur
+
+    Kontoauszug Steuerkonto per 31.10.2026 – Staats- und Gemeindesteuern 2025
+
+    Muster Hans: Vorauszahlungen CHF 6''000.00, Vergütungszins CHF 4.15, Saldo zu Ihren Gunsten CHF 412.30'
+  soll: kontoauszug-steueramt
+  set: schwierig
+- text: Quittung_DrTax_StE2025_MusterH.pdf – Elektronische Übermittlung erfolgreich, Kanton TG, 18.03.2026 14:22, Transaktions-ID 7F3A-21C9
+  soll: uebermittlungsquittung
+  set: schwierig
+- text: 'Freigabequittung Steuererklärung 2025 – Kanton Zürich
+
+    Die elektronisch eingereichte Steuererklärung (Quittungscode ZH25-8K2P) wird hiermit freigegeben.
+
+    Ort/Datum: Uster, 22.03.2026  Unterschrift: Muster Hans [handschriftlich]  Muster Anna [handschriftlich]'
+  soll: freigabequittung
+  set: schwierig
+- text: 'AW: Offene Fragen Steuererklärung 2025
+
+    Guten Tag, anbei die ausgefüllte Checkliste. Wir haben 2025 keine Liegenschaft verkauft und keine 3a-Einzahlung gemacht; der Lohnausweis von Anna folgt nächste Woche. Freundliche Grüsse, Muster Hans'
+  soll: kundenantwort
+  set: schwierig
+- text: 'Stadt Uster – Abteilung Grundsteuern
+
+    Veranlagungsverfügung Grundstückgewinnsteuer
+
+    Verkauf Stockwerkeigentum Musterweg 3, Handänderung 12.05.2025, Veräusserin Muster Anna
+
+    Grundstückgewinn CHF 148''000.–, Besitzesdauer 9 Jahre, Steuer CHF 31''520.–'
+  soll: grundstueckgewinn-erbschaft-schenkung-steuer
+  set: schwierig
+- text: 'Steuererklärung 2025 für juristische Personen (Kapitalgesellschaften und Genossenschaften) – Kanton Zürich
+
+    Beispiel GmbH, 8800 Thalwil, UID CHE-123.456.789
+
+    Reingewinn gemäss Erfolgsrechnung / steuerbares Eigenkapital per 31.12.2025'
+  soll: juristische-person
+  set: schwierig

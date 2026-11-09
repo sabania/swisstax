@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import steuer  # noqa: E402
 
-f = yaml.safe_load((ROOT / "eval" / "ablage-test.yaml").read_text(encoding="utf-8"))["faelle"]
+DATEI = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "eval" / "ablage-test.yaml"
+f = yaml.safe_load(DATEI.read_text(encoding="utf-8"))["faelle"]
 t1 = t3 = 0
 fehl = []
 for c in f:
@@ -27,6 +28,13 @@ for c in f:
     if kand[:1] != [c["soll"]] and c["soll"] in kand[:3]:
         fehl.append((c["soll"] + " (nur Top-3)", kand[:3], c["text"][:70]))
 n = len(f)
+sets = {}
+for c in f:
+    out = steuer.ablage(c["text"])
+    top = re.search(r"^1\. \*\*.*?(?:\(`([a-z0-9\-]+)`\)|\(Prozessdokument\))", out, re.M)
+    sets.setdefault(c.get("set", "alle"), [0, 0])
+    sets[c.get("set", "alle")][1] += 1
+print(f"{DATEI.name}: " + " · ".join(f"{k} n={v[1]}" for k, v in sets.items()))
 print(f"Dokumenterkennung: Top-1 {t1}/{n} ({t1 / n:.0%}) · Top-3 {t3}/{n} ({t3 / n:.0%})")
 for s, k, t in fehl:
     print(f"  soll {s:45} ist {k} · {t}")
