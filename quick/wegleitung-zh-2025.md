@@ -575,7 +575,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ### Seite 1 / 4 · Einreichung, Frist, Unterschrift, Beilagen ☑️
 - **Rein:** Aufforderung/Steuererklärung 2025 + Wertschriftenverzeichnis → Einreichung bis 31. März 2026 (online oder Scan-Center) · Lohnausweise, ALK-Taggeld-, Renten-, PK-/3a-Bescheinigungen → bereitlegen bzw. beilegen (Checkliste WL) · Zins-/Dividendengutschriften, Depot-Steuerverzeichnisse, Kauf-/Verkaufsbelege → bereitlegen für WV · Fristerstreckungsgesuch → Gemeindesteueramt (vor Fristablauf)
 - **Rechnen:** Frist 31. März 2026; Erstreckung nur auf rechtzeitiges Gesuch, längstens 30. November des Folgejahres (darüber nur ausserordentliche Gründe)
-- **Limite (Kanton / Bund):** Einreichefrist Steuererklärung: Steuererklärung 2025 (natürliche Personen) bis 31. März 2026 einreiche… / n/a · Regel (Private / Treuhänder), Kosten: Gesuch vor Fristablauf beim Gemeindesteueramt; rechtzeitige Gesuche we… / n/a
+- **Limite (Kanton / Bund):** Einreichefrist Steuererklärung: Steuererklärung 2025 (natürliche Personen) bis 31. März 2026 einreiche… / n/a · Regel (Private / Treuhänder), Kosten: Nach Ablauf der (ordentlichen oder erstreckten) Frist gestellte Gesuch… / n/a
 - **Beachten:** Erstes rechtzeitiges Erstreckungsgesuch gilt ohne gegenteiligen Entscheid als bewilligt; Mahnfristen nicht erstreckbar
 - **Beachten:** Belege nur auf Verlangen (insb. Liegenschaftskosten, Spenden); Papier-SE: Kopien A4, keine CD/DVD
 - **Beachten:** Persönlich unterzeichnen; online: Ehegatten bestätigen gemeinsam elektronisch, Beilagen elektronisch

@@ -781,12 +781,14 @@ werte:
 - key: verfahren.fristerstreckung
   wert: null
   einheit: Text
-  text: Gesuch vor Ablauf der Frist beim Gemeindesteueramt; rechtzeitige Gesuche werden längstens bis 30. November des Folgejahres bewilligt; erstmalige rechtzeitige Gesuche gelten ohne gegenteiligen Entscheid
+  text: 'Nach Ablauf der (ordentlichen oder erstreckten) Frist gestellte Gesuche werden abgewiesen – dann nur noch Wiederherstellung der Frist (§ 15 StV, Art. 119 Abs. 2 DBG). Gesuch vor Ablauf der Frist beim Gemeindesteueramt; rechtzeitige Gesuche werden längstens bis 30. November des Folgejahres bewilligt; erstmalige rechtzeitige Gesuche gelten ohne gegenteiligen Entscheid
     als stillschweigend bewilligt. Darüber hinaus nur bei ausserordentlichen Gründen (starke Beanspruchung des Vertreters oder fehlende Unterlagen genügen nicht). Von Amtes wegen Erstreckung bis 30. September
-    für im Kanton wohnhafte Selbständigerwerbende, Branchenabteilungs-Fälle und ausserkantonal Wohnhafte (L- und B-Fälle). Mahnfristen sind nicht erstreckbar.
+    für im Kanton wohnhafte Selbständigerwerbende, Branchenabteilungs-Fälle und ausserkantonal Wohnhafte (L- und B-Fälle). Mahnfristen sind nicht erstreckbar.'
   gilt_fuer: kanton
   rechtsgrundlage: § 39 StV; Art. 119 DBG; ZStB 132.1
   quellen:
+  - chunk: zh-zstb-132-1__c0024
+    zitat: Nach Ablauf der ordentlichen oder erstreckten Einreichungsfrist gestellte Fristerstreckungsgesuche sind abzuweisen
   - chunk: zh-zstb-132-1__c0024
     zitat: längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres zu entsprechen
   - chunk: zh-zstb-132-1__c0026

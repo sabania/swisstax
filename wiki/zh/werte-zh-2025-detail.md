@@ -674,11 +674,12 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 <a id="verfahren-fristerstreckung"></a>
 ### Fristerstreckung – Regel (Private / Treuhänder), Kosten
 
-- **Wert:** Gesuch vor Fristablauf beim Gemeindesteueramt; rechtzeitige Gesuche werden entsprechend dem Gesuch bewilligt, längstens bis 30. November des Folgejahres; erstes Gesuch gilt ohne gegenteiligen Entscheid als stillschweigend bewilligt; darüber hinaus nur aus ausserordentlichen Gründen (berufliche Belastung des Vertreters genügt nicht). Von Amtes wegen bis 30. September für Selbständige und Ausserkantonale. Mahnfristen nicht erstreckbar. Abgelaufene Fristen können nicht erstreckt werden.
+- **Wert:** Nach Ablauf der (ordentlichen oder erstreckten) Frist gestellte Gesuche werden abgewiesen – dann nur noch Wiederherstellung der Frist (§ 15 StV, Art. 119 Abs. 2 DBG). Gesuch vor Fristablauf beim Gemeindesteueramt; rechtzeitige Gesuche werden entsprechend dem Gesuch bewilligt, längstens bis 30. November des Folgejahres; erstes Gesuch gilt ohne gegenteiligen Entscheid als stillschweigend bewilligt; darüber hinaus nur aus ausserordentlichen Gründen (berufliche Belastung des Vertreters genügt nicht). Von Amtes wegen bis 30. September für Selbständige und Ausserkantonale. Mahnfristen nicht erstreckbar. Abgelaufene Fristen können nicht erstreckt werden.
 - **Schlüssel:** `verfahren.fristerstreckung` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 39 StV; ZStB 132.1 Ziff. G.II
 - **Bemerkung:** Kosten der Fristerstreckung: in den Quellen nicht genannt. Fassung ZStB 132.1 gültig bis 31.12.2025 (ab 2026 neue Fassung). Zeitmodell: Für die Einreichung/Fristerstreckung der Erklärung 2025 im Jahr 2026 gilt die Verfahrensfassung ZStB 132.1 ab 1.1.2026 (zh-zstb-132-1); die Fassung «bis 31.12.2025» ist gleichlautend, betrifft aber das Verfahren 2025.
 - **Quellen:**
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) `zh-zstb-132-1__c0024` – «Nach Ablauf der ordentlichen oder erstreckten Einreichungsfrist gestellte Fristerstreckungsgesuche sind abzuweisen»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) `zh-zstb-132-1__c0024` – «längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0026.md) `zh-zstb-132-1__c0026` – «erstmalige Fristerstreckungsgesuche gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0025.md) `zh-zstb-132-1__c0025` – «starke berufliche Inanspruchnahme der Vertreterin oder des Vertreters»

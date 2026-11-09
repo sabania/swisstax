@@ -683,11 +683,12 @@ generiert: tools/build_quick.py aus data/werte/zh/2026.yaml (2026-11-09)
 <a id="verfahren-fristerstreckung"></a>
 ### Fristerstreckung – Regel (Private / Treuhänder), Kosten
 
-- **Wert:** Gesuch vor Ablauf der Frist beim Gemeindesteueramt; rechtzeitige Gesuche werden längstens bis 30. November des Folgejahres bewilligt; erstmalige rechtzeitige Gesuche gelten ohne gegenteiligen Entscheid als stillschweigend bewilligt. Darüber hinaus nur bei ausserordentlichen Gründen (starke Beanspruchung des Vertreters oder fehlende Unterlagen genügen nicht). Von Amtes wegen Erstreckung bis 30. September für im Kanton wohnhafte Selbständigerwerbende, Branchenabteilungs-Fälle und ausserkantonal Wohnhafte (L- und B-Fälle). Mahnfristen sind nicht erstreckbar.
+- **Wert:** Nach Ablauf der (ordentlichen oder erstreckten) Frist gestellte Gesuche werden abgewiesen – dann nur noch Wiederherstellung der Frist (§ 15 StV, Art. 119 Abs. 2 DBG). Gesuch vor Ablauf der Frist beim Gemeindesteueramt; rechtzeitige Gesuche werden längstens bis 30. November des Folgejahres bewilligt; erstmalige rechtzeitige Gesuche gelten ohne gegenteiligen Entscheid als stillschweigend bewilligt. Darüber hinaus nur bei ausserordentlichen Gründen (starke Beanspruchung des Vertreters oder fehlende Unterlagen genügen nicht). Von Amtes wegen Erstreckung bis 30. September für im Kanton wohnhafte Selbständigerwerbende, Branchenabteilungs-Fälle und ausserkantonal Wohnhafte (L- und B-Fälle). Mahnfristen sind nicht erstreckbar.
 - **Schlüssel:** `verfahren.fristerstreckung` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** § 39 StV; Art. 119 DBG; ZStB 132.1
 - **Bemerkung:** Kosten einer Fristerstreckung in den Quellen nicht gefunden. ZStB 132.1 gilt ab 1.1.2026 (Steuererklärung 2025 und Folgejahre).
 - **Quellen:**
+  - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) `zh-zstb-132-1__c0024` – «Nach Ablauf der ordentlichen oder erstreckten Einreichungsfrist gestellte Fristerstreckungsgesuche sind abzuweisen»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0024.md) `zh-zstb-132-1__c0024` – «längstens bis 30. November des der Steuerperiode folgenden Kalenderjahres zu entsprechen»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0026.md) `zh-zstb-132-1__c0026` – «gelten ohne gegenteiligen schriftlichen Entscheid als stillschweigend bewilligt»
   - [ZStB 132.1](../../chunks/zh/dauernd/zh-zstb-132-1/zh-zstb-132-1__c0023.md) `zh-zstb-132-1__c0023` – «erstrecken von Amtes wegen die Frist bis am 30. September des der Steuerperiode folgenden Kalenderjahres»
