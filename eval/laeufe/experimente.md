@@ -116,6 +116,12 @@ Die Praxisfragen streuen über die Läufe um ±3 (31–36); stabil verbessert si
 Die Restfehler der Fälle in H7 (ZH Tarif-Freibetrag als Abzug, TG Bund-Selbstnutzungsabzug) gingen auf das Gerüst bzw. einen zu
 knappen Bundestext zurück und sind danach korrigiert.
 
+**H8 – Kantonskürzel am Fragenanfang** («TG: …», «AR: …»), nach Ergänzung im Einstieg (Kürzel ausgeschrieben) und Hinweis bei
+Nur-Bund-Abfragen: die 11 Praxisfragen mit Kürzel je zweimal (22 Antworten) → 19 richtig, 2 teilweise, 1 falsch (H5–H7: 8–10 von 11
+je Lauf). Hartnäckig bleibt nur q13 («TG: … (Kanton vs. Bund)?»): Haiku liest «Kanton vs. Bund» als Bundesfrage und sucht nur
+Bundesquellen, obwohl die Werkzeugausgabe auf TG verweist – Grenze des kleinen Modells bei dieser Formulierung.
+Bewertungen: `bewertung-haiku-H5.md`, `-H6.md`, `-H7.md`; Protokolle `haiku-H5-*.md` bis `haiku-H7-*.md`.
+
 Lesart: Mit Plugin arbeitet Haiku rund 25 % schneller und mit halb so vielen Aufrufen wie mit Dateisuche (H0). Ab H5 sind
 Positionsfragen, Ablage, Dokumente und ganze Fälle klar besser als H4; die Praxisfragen liegen im Bereich der Streuung
 (31–35 richtig). Die verbleibenden Fehler in H5 sind überwiegend Modellfehler bei korrekter Werkzeugausgabe: Rechenfehler
