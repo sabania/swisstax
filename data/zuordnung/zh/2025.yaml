@@ -2367,9 +2367,7 @@ positionen:
   berechnung: 'Ziff. 35 − 36.1 − 36.2 → Code 498; Tarif: 0 ‰ auf ersten 80''000 (Grundtarif) / 159''000 (Verheiratetentarif), kein Abzug eintragen'
   beachten:
   - 'Bund: keine Vermögenssteuer'
-  werte_keys:
-  - vermoegen.freibetrag_alleinstehend
-  - vermoegen.freibetrag_verheiratet
+  werte_keys: []
   rein:
   - Übertrag Ziff. 35 (Code 490) und Ziff. 36.1/36.2 (Codes 494/496)
 - ziffer: — (Tarif)

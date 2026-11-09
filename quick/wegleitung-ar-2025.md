@@ -575,7 +575,6 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 ### 37 · Steuerbares Vermögen gesamt (Code 338) ☑️
 - **Rein:** Übertrag Ziff. 35 (Reinvermögen) · Übertrag Sozialabzüge Ziff. 36.1–36.5
 - **Rechnen:** Ziff. 35 − (36.1 bzw. 36.2) − 36.3 − 36.5 → 37 (Code 338)
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 75'000 / n/a · Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 150'000 / n/a · Vermögens-Sozialabzug pro Kind (CHF): CHF 25'000 / n/a
 - **Beachten:** Bund: keine Vermögenssteuer – steuerbares Vermögen nur für Staats-/Gemeindesteuer
 - **Beachten:** Steuerfreie Beträge nach den Verhältnissen am Ende der Steuerperiode
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#37-berechnung-total) · [WL AR 2025 S. 19](../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0108.md)

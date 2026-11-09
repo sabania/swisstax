@@ -532,7 +532,6 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ### 37 · Steuerbares Vermögen im Kanton Zürich (Code 498) ☑️
 - **Rein:** Übertrag Ziff. 35 (Code 490) und Ziff. 36.1/36.2 (Codes 494/496)
 - **Rechnen:** Ziff. 35 − 36.1 − 36.2 → Code 498; Tarif: 0 ‰ auf ersten 80'000 (Grundtarif) / 159'000 (Verheiratetentarif), kein Abzug eintragen
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 80'000 / n/a · Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 159'000 / n/a
 - **Beachten:** Bund: keine Vermögenssteuer
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#37-berechnung-total) · [Formular 300 ZH 2025 S. 4](../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0012.md)
 

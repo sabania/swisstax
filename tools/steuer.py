@@ -658,8 +658,8 @@ def rechne(ausdruck) -> str:
 
 # ---------------------------------------------------------------- Formular-Gerüst (ganze Steuererklärung)
 CHECK = [
-    ("Ehepaar / eingetragene Partner", ["sozialabzug.verheiratete", "versicherung.verheiratet", "zweiverdiener.satz",
-                                        "zweiverdiener.max", "zweiverdiener.min"]),
+    ("Ehepaar / eingetragene Partner", ["sozialabzug.verheiratete", "versicherung.verheiratet", "versicherung.verheiratet_ohne_vorsorge",
+                                        "zweiverdiener.satz", "zweiverdiener.max", "zweiverdiener.min"]),
     ("Kinder (Alter am 31.12.; Ausbildung)", ["sozialabzug.kind", "sozialabzug.kind_vorschule", "sozialabzug.kind_schule",
                                              "sozialabzug.kind_ausbildung", "sozialabzug.kind_ausbildung_auswaerts",
                                              "versicherung.kind", "steuerbetrag.abzug_kind", "drittbetreuung.max",
@@ -667,7 +667,7 @@ CHECK = [
     ("Erwerbstätige (je Person)", ["berufskosten.fahrkosten.max", "berufskosten.verpflegung.jahr", "berufskosten.uebrige.satz",
                                    "berufskosten.uebrige.fix", "berufskosten.uebrige.min", "berufskosten.uebrige.max",
                                    "saeule3a.max_mit_2saeule"]),
-    ("Alle", ["versicherung.alleinstehend", "krankheitskosten.selbstbehalt_satz", "spenden.min", "spenden.max_satz",
+    ("Alle", ["versicherung.alleinstehend", "versicherung.alleinstehend_ohne_vorsorge", "krankheitskosten.selbstbehalt_satz", "spenden.min", "spenden.max_satz",
               "vermoegen.freibetrag_alleinstehend", "vermoegen.freibetrag_verheiratet", "sozialabzug.alter_iv",
               "sozialabzug.unterstuetzung"]),
 ]
@@ -729,15 +729,20 @@ def formular(kt, jahr) -> str:
     out += ["", f"### Standardabzüge nach Haushalt – nicht vergessen (Werte Kanton {NAME[j]} | Bund {jahr})"]
     zif = {}
     for p in haupt:
+        tarif = str(p["ziffer"]).startswith(("—", "(Tarif")) or "kein Formularfeld" in str(p.get("bezeichnung") or "")
         for k in p.get("werte_keys") or []:
-            zif.setdefault(k, p["ziffer"])
+            if tarif:
+                zif[k] = "Tarif – kein Abzug im Formular"
+            else:
+                zif.setdefault(k, p["ziffer"])
     for titel, keys in CHECK:
         teile = []
         for k in keys:
             kv, bv = W.get((j, k)), W.get(("bund", k))
             if not ((kv and kv.get("status") != "na") or (bv and bv.get("status") != "na")):
                 continue
-            teile.append(f"{k}" + (f" (Ziff. {zif[k]})" if k in zif else "") + f": K {kurzwert(kv)} | B {kurzwert(bv)}")
+            ort = "" if k not in zif else (f" ({zif[k]})" if zif[k].startswith("Tarif") else f" (Ziff. {zif[k]})")
+            teile.append(f"{k}{ort}: K {kurzwert(kv)} | B {kurzwert(bv)}")
         if teile:
             out.append(f"- **{titel}:** " + " · ".join(teile))
     out.append(f"Werte mit Fundstelle: `wert {j} {jahr} <stichwort>`. Status/Abnahme je Wert dort.")

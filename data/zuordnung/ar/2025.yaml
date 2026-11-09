@@ -2624,10 +2624,7 @@ positionen:
   beachten:
   - 'Bund: keine Vermögenssteuer – steuerbares Vermögen nur für Staats-/Gemeindesteuer'
   - Steuerfreie Beträge nach den Verhältnissen am Ende der Steuerperiode
-  werte_keys:
-  - vermoegen.freibetrag_alleinstehend
-  - vermoegen.freibetrag_verheiratet
-  - vermoegen.freibetrag_kind
+  werte_keys: []
 - ziffer: 40-41
   abschnitt: Weitere Angaben
   bezeichnung: 'Ausbezahlte Kapitalleistungen aus Vorsorge: 40.1 Säule 3a, 40.2 berufliche Vorsorge, 40.3 übrige; Total Ziff. 41 (Code 950)'

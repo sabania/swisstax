@@ -317,7 +317,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 
 ### 16.4 · Kosten berufsorientierte Aus-/Weiterbildung (Code 223 Person 1 / 224 Person 2) ☑️
 - **Rein:** Kursrechnungen/Zahlungsbelege → selbst bezahlte Kosten 2025 (Aufstellung: Rechnungsdatum, Bezeichnung, Betrag) · Bestätigung Kursleitung → zwingend angeschaffte Informatikmittel
-- **Rechnen:** je Person min(selbst bezahlte berufsorientierte Kosten; Fr. 13'000) (Kanton = Bund); Kanton alternativ pauschal Fr. 400 ohne Nachweis; Informatik privat nutzbar × 50%
+- **Rechnen:** je Person: Bund = min(selbst bezahlte berufsorientierte Kosten; Fr. 13'000); Kanton = höherer Betrag aus diesen Kosten und der Pauschale Fr. 400 ohne Nachweis (hauptberuflich Unselbständige), max. Fr. 13'000; Informatik privat nutzbar × 50%
 - **Limite (Kanton / Bund):** Maximum (CHF): CHF 13'000 / CHF 13'000
 - **Beachten:** Voraussetzung: erster Abschluss Sek II oder 20. Lebensjahr vollendet; nicht Ausbildung bis zum ersten Sek-II-Abschluss
 - **Beachten:** Pauschale Fr. 400 nur Kanton/Gemeinde, nur hauptberuflich Unselbständige; Bund nur effektive Kosten

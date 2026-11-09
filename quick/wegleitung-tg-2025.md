@@ -586,7 +586,6 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 ### 35 · Reinvermögen (Ziffer 33 abzüglich Ziffer 34) (Code 468) ☑️
 - **Rein:** Übertrag Ziff. 33 (Code 464) · Übertrag Ziff. 34 (Code 466)
 - **Rechnen:** Ziff. 33 − Ziff. 34 → Code 468 (nur Spalte Staat)
-- **Limite (Kanton / Bund):** Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): CHF 200'000 / n/a · Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): CHF 100'000 / n/a · Vermögens-Sozialabzug pro Kind (CHF): CHF 100'000 / n/a
 - **Beachten:** Danach Freibeträge Ziff. 36: gemeinsam Fr. 200'000, übrige Fr. 100'000, je Kind (Jg. 2008 und jünger) Fr. 100'000
 - ↗ [Detail](../wiki/tg/zuordnung-tg-2025-detail.md#35-berechnung-total) · [Formular 1 TG 2025 S. 4](../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0015.md)
 

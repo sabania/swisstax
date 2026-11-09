@@ -2441,10 +2441,7 @@ positionen:
   berechnung: Ziff. 33 − Ziff. 34 → Code 468 (nur Spalte Staat)
   beachten:
   - 'Danach Freibeträge Ziff. 36: gemeinsam Fr. 200''000, übrige Fr. 100''000, je Kind (Jg. 2008 und jünger) Fr. 100''000'
-  werte_keys:
-  - vermoegen.freibetrag_verheiratet
-  - vermoegen.freibetrag_alleinstehend
-  - vermoegen.freibetrag_kind
+  werte_keys: []
 - ziffer: '36.1'
   abschnitt: Vermögen
   bezeichnung: Steuerfreier Abzug für gemeinsam besteuerte Personen Fr. 200'000 (Code 470)

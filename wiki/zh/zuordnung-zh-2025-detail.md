@@ -1464,9 +1464,6 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rechnen:** Ziff. 35 − 36.1 − 36.2 → Code 498; Tarif: 0 ‰ auf ersten 80'000 (Grundtarif) / 159'000 (Verheiratetentarif), kein Abzug eintragen
 - **Regel:** Rechenzeile: massgebend für den Vermögenssteuertarif.
 - **Beachten:** Bund: keine Vermögenssteuer
-- **Limiten:**
-  - Steuerfreies Vermögen / Sozialabzug alleinstehend (CHF): Kanton **CHF 80'000 (Vermögenssteuer Grundtarif: 0 ‰ für die ersten CHF 80'000 steuerbares Vermögen (steuerfrei; kein separater Sozialabzug).)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
-  - Steuerfreies Vermögen / Sozialabzug gemeinsam Besteuerte (CHF): Kanton **CHF 159'000 (Verheiratetentarif (auch Verwitwete, Getrennte, Geschiedene, Ledige mit Kindern): 0 ‰ für die ersten CHF 159'000 steuerbares Vermögen.)** · Bund **n/a – Die direkte Bundessteuer erfasst nur das Einkommen (Art. 1 ff. DBG); Vermögenssteuer ist rein kantonal.**
 - **Quellen:**
   - [Formular 300 ZH 2025 S. 4](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0012.md) `zh-form-300-2025__c0012` – «37. Steuerbares Vermögen im Kanton Zürich 498»
   - [Formular 300 ZH 2025 S. 4](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0012.md) `zh-form-300-2025__c0012` – «35. Steuerbares Vermögen gesamt 490»
