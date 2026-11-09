@@ -12,7 +12,7 @@ werte:
     zitat: bis zu einem Maximalbetrag von 3300 Franken für die Fahrten zwischen Wohn- und Arbeitsstätte
   - chunk: bund-wl-2a-2026__c0043
     zitat: '3300 Franken jährlich:'
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Gleicher Betrag wie 2025 (RS 2-215).
 - key: berufskosten.fahrkosten.auto_km
   wert: 0.75
@@ -25,7 +25,7 @@ werte:
     zitat: Der Abzug wird auf 75 Rappen pro Kilometer erhöht (bisher 70 Rappen).
   - chunk: bund-rs-2-215__c0004
     zitat: Fahrkosten für Automobile pro Kilometer1 0.70 0.75
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Neu ab 2026 (Vorjahr 0.70). Künftig an TCS-Kilometerpreis gekoppelt (Anpassung nach oben und unten möglich). Seed stimmt überein.
 - key: berufskosten.fahrkosten.motorrad_km
   wert: 0.4
@@ -36,7 +36,7 @@ werte:
   quellen:
   - chunk: bund-rs-2-215__c0004
     zitat: Fahrkosten für Motorräder pro Kilometer1 0.40 0.40
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.velo_pauschale
   wert: 700
   einheit: CHF
@@ -48,7 +48,7 @@ werte:
     zitat: Fahrkosten für Fahrräder, Motorfahrräder1 700 700
   - chunk: bund-wl-2a-2026__c0043
     zitat: Pauschalabzug von 700 Fr. im Jahr bei Benützung ei-
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.fahrkosten.arbeitstage
   wert: null
   gilt_fuer: bund
@@ -64,7 +64,7 @@ werte:
   quellen:
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 15 15 (voller Abzug / Tag)1
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.jahr
   wert: 3200
   einheit: CHF
@@ -74,12 +74,12 @@ werte:
   quellen:
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 3’200 3’200 (voller Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_tag
   wert: 7.5
   einheit: CHF
-  text: Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn
-    Hauptmahlzeiten max. CHF 10 kosten bzw. Verpflegung unter den Bewertungsansätzen möglich ist.
+  text: Nur halber Abzug (CHF 7.50 pro Tag), wenn der Arbeitgeber die Verpflegung verbilligt (Gutscheine) oder Kantine/Personalrestaurant/Gaststätte des Arbeitgebers benützt werden kann. Kein Abzug, wenn der
+    Arbeitgeber die Naturalbezüge unter den behördlichen Bewertungsansätzen bewertet oder die Verpflegung zu Preisen unter diesen Ansätzen möglich ist (Art. 6 Abs. 3 BKV).
   gilt_fuer: bund
   rechtsgrundlage: Art. 6 Abs. 2 und 3 BKV
   quellen:
@@ -87,7 +87,7 @@ werte:
     zitat: Mehrkosten bei auswärtiger Verpflegung 7.50 7.50 (halber Abzug / Tag)1
   - chunk: bund-bkv-2026__art-6-t1
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.verpflegung.verbilligt_jahr
   wert: 1600
   einheit: CHF
@@ -97,11 +97,11 @@ werte:
   quellen:
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtiger Verpflegung 1’600 1’600 (halber Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.schichtarbeit.tag
   wert: 15
   einheit: CHF
-  text: 'Schicht-/Nachtarbeit: gleiche Pauschale wie auswärtige Verpflegung, CHF 15 pro Tag bzw. max. CHF 3''200 pro Jahr (bei Verbilligung halber Abzug). Arbeitgeber muss Tage und Arbeitsort auf Verlangen
+  text: 'Schicht-/Nachtarbeit: gleiche Pauschale wie auswärtige Verpflegung, CHF 15 pro Tag bzw. max. CHF 3''200 pro Jahr (bei Verbilligung halber Abzug). Gestaffelte (unregelmässige) Arbeitszeit ist gleichgestellt (Art. 6 Abs. 4 BKV). Arbeitgeber muss Tage und Arbeitsort auf Verlangen
     bescheinigen.'
   gilt_fuer: bund
   rechtsgrundlage: Art. 6 Abs. 1 lit. b, Abs. 4, 5 BKV; Anhang Ziff. 1 lit. a BKV
@@ -110,7 +110,7 @@ werte:
     zitat: a. Bei auswärtiger Verpflegung bzw. Schicht- oder Nachtarbeit (Art. 6 Abs. 1 und 2)
   - chunk: bund-bkv-2026__art-6-t1
     zitat: b. bei durchgehender Schicht- oder Nachtarbeit.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Bund kennt keinen separaten Schichtarbeits-Ansatz; es gilt die Verpflegungspauschale (Anhang BKV Ziff. 1 lit. a).
 - key: berufskosten.wochenaufenthalt.unterkunft
   wert: null
@@ -121,12 +121,12 @@ werte:
   quellen:
   - chunk: bund-bkv-2026__art-9
     zitat: Als notwendige Mehrkosten der Unterkunft sind die ortsüblichen Auslagen für ein Zimmer abziehbar.
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.wochenaufenthalt.verpflegung_jahr
   wert: 6400
   einheit: CHF
   text: 'Wochenaufenthalt Verpflegung: voller Abzug CHF 30 pro Tag bzw. CHF 6''400 pro Jahr; gekürzter Abzug (verbilligtes Mittagessen) CHF 22.50 pro Tag bzw. CHF 4''800 pro Jahr. Nachweis höherer Kosten
-    ausgeschlossen; nicht kumulierbar mit Verpflegungspauschale.'
+    ausgeschlossen.'
   gilt_fuer: bund
   rechtsgrundlage: Art. 9 Abs. 2 BKV; Anhang Ziff. 1 lit. b BKV
   quellen:
@@ -134,7 +134,7 @@ werte:
     zitat: Mehrkosten bei auswärtigem Wochenaufenthalt 6’400 6’400 (voller Abzug / Jahr)1
   - chunk: bund-rs-2-215__c0005
     zitat: Mehrkosten bei auswärtigem Wochenaufenthalt 4’800 4’800 (gekürzter Abzug / Jahr)1
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.satz
   wert: 3
   einheit: '%'
@@ -146,7 +146,7 @@ werte:
     zitat: 3 % des Nettolohns, mindestens im Jahr | 2000.—
   - chunk: bund-wl-2a-2026__c0040
     zitat: Der Pauschalabzug beträgt 3 % des Nettolohnes, mindestens
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.fix
   wert: null
   gilt_fuer: bund
@@ -163,7 +163,7 @@ werte:
     zitat: Min. 2’000 2’000 Übrige Berufskosten1 Max. 4’000 4’000
   - chunk: bund-wl-2a-2026__c0040
     zitat: aber 2000 Fr. bzw. maximal 4000 Fr. im Jahr.
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.uebrige.max
   wert: 4000
   einheit: CHF
@@ -175,7 +175,7 @@ werte:
     zitat: Min. 2’000 2’000 Übrige Berufskosten1 Max. 4’000 4’000
   - chunk: bund-wl-2a-2026__c0040
     zitat: aber 2000 Fr. bzw. maximal 4000 Fr. im Jahr.
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.satz
   wert: 20
   einheit: '%'
@@ -187,7 +187,7 @@ werte:
     zitat: 20 % der Nettoeinkünfte, mindestens im Jahr | 800.—
   - chunk: bund-wl-2a-2026__c0045
     zitat: kann ein Pauschalabzug von 20 % der Nebeneinkünfte (Netto-
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.min
   wert: 800
   einheit: CHF
@@ -199,7 +199,7 @@ werte:
     zitat: Min. 800 800 Pauschale Nebenerwerb1 Max. 2’400 2’400
   - chunk: bund-wl-2a-2026__c0046
     zitat: destens 800 Fr. bzw. maximal 2400 Fr. im Jahr geltend gemacht
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.nebenerwerb.max
   wert: 2400
   einheit: CHF
@@ -211,7 +211,7 @@ werte:
     zitat: Min. 800 800 Pauschale Nebenerwerb1 Max. 2’400 2’400
   - chunk: bund-wl-2a-2026__c0046
     zitat: destens 800 Fr. bzw. maximal 2400 Fr. im Jahr geltend gemacht
-  status: extrahiert
+  status: agent-geprueft
 - key: berufskosten.homeoffice
   wert: null
   einheit: Text
@@ -238,7 +238,7 @@ werte:
     zitat: bis zum Gesamtbetrag von 13 000 Franken
   - chunk: bund-rs-2-215__c0007
     zitat: Kosten für die berufsorientierte Aus- und Weiterbildung 13’000 13’000
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet
   wert: 3700
   einheit: CHF
@@ -250,7 +250,7 @@ werte:
     zitat: 1. 3700 Franken für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben,
   - chunk: bund-rs-2-215__c0006
     zitat: für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe - mit Beiträgen an die Säulen 2 und 3a 3’700 3’700 - ohne Beiträge an die Säulen 2 und 3a 5’550 5’550
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.verheiratet_ohne_vorsorge
   wert: 5550
   einheit: CHF
@@ -262,7 +262,7 @@ werte:
     zitat: a. um die Hälfte für Steuerpflichtige ohne Beiträge nach Absatz 1 Buchstaben d und e;
   - chunk: bund-rs-2-215__c0006
     zitat: für verheiratete Personen in rechtlich und tatsächlich ungetrennter Ehe - mit Beiträgen an die Säulen 2 und 3a 3’700 3’700 - ohne Beiträge an die Säulen 2 und 3a 5’550 5’550
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: 5'550 = 3'700 + Hälfte; Betrag in RS 2-215 ausgewiesen.
 - key: versicherung.alleinstehend
   wert: 1800
@@ -275,7 +275,7 @@ werte:
     zitat: 2. 1800 Franken für die übrigen Steuerpflichtigen;
   - chunk: bund-rs-2-215__c0006
     zitat: für die übrigen Steuerpflichtigen - mit Beiträgen an die Säulen 2 und 3a 1’800 1’800 - ohne Beiträge an die Säulen 2 und 3a 2’700 2’700
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.alleinstehend_ohne_vorsorge
   wert: 2700
   einheit: CHF
@@ -287,7 +287,7 @@ werte:
     zitat: a. um die Hälfte für Steuerpflichtige ohne Beiträge nach Absatz 1 Buchstaben d und e;
   - chunk: bund-rs-2-215__c0006
     zitat: für die übrigen Steuerpflichtigen - mit Beiträgen an die Säulen 2 und 3a 1’800 1’800 - ohne Beiträge an die Säulen 2 und 3a 2’700 2’700
-  status: extrahiert
+  status: agent-geprueft
 - key: versicherung.kind
   wert: 700
   einheit: CHF
@@ -299,7 +299,7 @@ werte:
     zitat: b. um 700 Franken für jedes Kind oder jede unterstützungsbedürftige Person
   - chunk: bund-rs-2-215__c0006
     zitat: '- für jedes Kind 700 700 - für jede unterstützungsbedürftige Person 700 700'
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.max_mit_2saeule
   wert: 7258
   einheit: CHF
@@ -314,7 +314,7 @@ werte:
     zitat: 'gehört: Höchstabzug von 7258 Fr. im Jahr;'
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG, wenn sie einer Vorsorgeeinrichtung nach Artikel 80 BVG angehören
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Betrag 2026 = 2025 (BSV-Masszahlen 2025/2026).
 - key: saeule3a.max_ohne_2saeule
   wert: 36288
@@ -329,7 +329,7 @@ werte:
     zitat: cher Erwerbstätigkeit), höchstens 36 288 Fr. im Jahr.
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.satz_ohne_2saeule
   wert: 20
   einheit: '%'
@@ -339,7 +339,7 @@ werte:
   quellen:
   - chunk: bund-bvv3__art-7
     zitat: jährlich bis 20 Prozent des Erwerbseinkommens, jedoch höchstens bis 40 Prozent des oberen Grenzbetrages nach Artikel 8 Absatz 1 BVG
-  status: extrahiert
+  status: agent-geprueft
 - key: saeule3a.einkauf
   wert: 7258
   einheit: CHF
@@ -355,7 +355,7 @@ werte:
     zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
   - chunk: bund-ks-18a__c0017
     zitat: maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Seed und Quellen stimmen überein. Abzug erscheint im Formular als Teil der Säule-3a-Position (Taxonomie abzug.vorsorge.saeule3a_einkauf).
 - key: zweiverdiener.satz
   wert: 50
@@ -366,7 +366,7 @@ werte:
   quellen:
   - chunk: bund-dbg-2026__art-33-t6
     zitat: so werden vom niedrigeren Erwerbseinkommen 50 Prozent, jedoch mindestens 8600 Franken und höchstens 14 100 Franken abgezogen
-  status: extrahiert
+  status: agent-geprueft
 - key: zweiverdiener.min
   wert: 8600
   einheit: CHF
@@ -378,7 +378,7 @@ werte:
     zitat: so werden vom niedrigeren Erwerbseinkommen 50 Prozent, jedoch mindestens 8600 Franken und höchstens 14 100 Franken abgezogen
   - chunk: bund-rs-2-215__c0007
     zitat: Min. 8’600 8’600 Zweiverdienerabzug (Art. 33 Abs. 2 DBG) Max. 14’100 14’100
-  status: extrahiert
+  status: agent-geprueft
 - key: zweiverdiener.max
   wert: 14100
   einheit: CHF
@@ -390,7 +390,7 @@ werte:
     zitat: so werden vom niedrigeren Erwerbseinkommen 50 Prozent, jedoch mindestens 8600 Franken und höchstens 14 100 Franken abgezogen
   - chunk: bund-rs-2-215__c0007
     zitat: Min. 8’600 8’600 Zweiverdienerabzug (Art. 33 Abs. 2 DBG) Max. 14’100 14’100
-  status: extrahiert
+  status: agent-geprueft
 - key: drittbetreuung.max
   wert: 25800
   einheit: CHF
@@ -402,7 +402,7 @@ werte:
     zitat: die nachgewiesenen Kosten, jedoch höchstens 25 800 Franken, für die Drittbetreuung jedes Kindes
   - chunk: bund-rs-2-215__c0007
     zitat: Kinderdrittbetreuungsabzug (Art. 33 Abs. 3 DBG) Max. 25’800 25’800
-  status: extrahiert
+  status: agent-geprueft
 - key: drittbetreuung.altersgrenze
   wert: 14
   einheit: Jahre
@@ -412,7 +412,7 @@ werte:
   quellen:
   - chunk: bund-dbg-2026__art-33-t7
     zitat: das das 14. Altersjahr noch nicht vollendet hat
-  status: extrahiert
+  status: agent-geprueft
 - key: krankheitskosten.selbstbehalt_satz
   wert: 5
   einheit: '%'
@@ -425,7 +425,7 @@ werte:
     zitat: diese 5 Prozent der um die Aufwendungen (Art. 26–33) verminderten steuerbaren Einkünfte übersteigen
   - chunk: bund-ks-11a__c0040
     zitat: von 5 Prozent der um die Aufwendungen (Art. 26 - 33 DBG) verminderten steuerbaren Ein
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: KS 11a (publiziert 26.05.2026) ersetzt KS 11; Praxisänderung gilt grundsätzlich für alle offenen Veranlagungen – Änderungen bei der Abgrenzung der Kosten beachten.
 - key: spenden.min
   wert: 100
@@ -436,7 +436,7 @@ werte:
   quellen:
   - chunk: bund-dbg-2026__art-33a
     zitat: wenn diese Leistungen im Steuerjahr 100 Franken erreichen und insgesamt 20 Prozent der um die Aufwendungen
-  status: extrahiert
+  status: agent-geprueft
 - key: spenden.max_satz
   wert: 20
   einheit: '%'
@@ -446,7 +446,7 @@ werte:
   quellen:
   - chunk: bund-dbg-2026__art-33a
     zitat: insgesamt 20 Prozent der um die Aufwendungen (Art. 26–33) verminderten Einkünfte nicht übersteigen
-  status: extrahiert
+  status: agent-geprueft
 - key: parteispenden.max
   wert: 10600
   einheit: CHF
@@ -475,7 +475,7 @@ werte:
   quellen:
   - chunk: bund-lkv__art-5
     zitat: 'wenn das Gebäude zu Beginn der Steuerperiode bis zehn Jahre alt ist: 10 Prozent des Brutto-Mietertrags'
-  status: extrahiert
+  status: agent-geprueft
 - key: liegenschaft.pauschale_alt
   wert: 20
   einheit: '%'
@@ -485,7 +485,7 @@ werte:
   quellen:
   - chunk: bund-lkv__art-5
     zitat: 'wenn das Gebäude zu Beginn der Steuerperiode mehr als zehn Jahre alt ist: 20 Prozent des Brutto-Mietertrags'
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Eigenmietwert bleibt für 2026 steuerbar (Abschaffung erst per 01.01.2029 geplant, siehe bund-mm-eigenmietwert-abschaffung).
 - key: liegenschaft.eigenmietwert_abzug
   wert: null
@@ -504,7 +504,7 @@ werte:
     zitat: a. 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
   - chunk: bund-rs-2-215__c0008
     zitat: Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) 6’800 6’800
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.kind_vorschule
   wert: null
   gilt_fuer: bund
@@ -524,7 +524,7 @@ werte:
   quellen:
   - chunk: bund-dbg-2026__art-35
     zitat: a. 6800 Franken für jedes minderjährige oder in der beruflichen oder schulischen Ausbildung stehende Kind
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Identisch mit sozialabzug.kind.
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
@@ -543,7 +543,7 @@ werte:
     zitat: b. 6800 Franken für jede erwerbsunfähige oder beschränkt erwerbsfähige Person
   - chunk: bund-rs-2-215__c0008
     zitat: Unterstützungsabzug (Art. 35 Abs. 1 Bst. b DBG) 6’800 6’800
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.verheiratete
   wert: 2800
   einheit: CHF
@@ -555,7 +555,7 @@ werte:
     zitat: c. 2800 Franken für Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben.
   - chunk: bund-rs-2-215__c0008
     zitat: Verheiratetenabzug (Art. 35 Abs. 1 Bst. c DBG) 2’800 2’800
-  status: extrahiert
+  status: agent-geprueft
 - key: sozialabzug.alter_iv
   wert: null
   gilt_fuer: bund
@@ -573,7 +573,7 @@ werte:
     zitat: Der so ermittelte Steuerbetrag ermässigt sich um 263 Franken für jedes Kind oder jede unterstützungsbedürftige Person.
   - chunk: bund-rs-2-215__c0008
     zitat: Abzug vom Steuerbetrag pro Kind (Art. 36 Abs. 2bis DBG) 263 263
-  status: extrahiert
+  status: agent-geprueft
 - key: vermoegen.freibetrag_alleinstehend
   wert: null
   gilt_fuer: bund
@@ -603,7 +603,7 @@ werte:
     zitat: fbis. der Sold der Milizfeuerwehrleute bis zum Betrag von jährlich 5400 Franken
   - chunk: bund-rs-2-215__c0004
     zitat: Feuerwehrsold (Art. 24 Bst. fbis DBG) 5’300 5’400
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Neu 2026 (Vorjahr 5'300).
 - key: steuerfrei.grossspielgewinn
   wert: 1071000
@@ -616,7 +616,7 @@ werte:
     zitat: ibis. die einzelnen Gewinne bis zum Betrag von 1 071 000 Franken
   - chunk: bund-mm-2025-09-11-kalte-progression-2026__c0003
     zitat: Freibetrag für Gewinne aus Grossspielen und der Online-Teilnahme aus Spielbankenspielen auf 1 071 000 Franken (bisher 1 070 400 Franken)
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Neu 2026 (Vorjahr 1'070'400).
 - key: steuerfrei.kleingewinn
   wert: 1100
@@ -630,7 +630,7 @@ werte:
     zitat: sofern die Grenze von 1100 Franken nicht überschritten wird
   - chunk: bund-rs-2-215__c0004
     zitat: Gewinnspiele (Art. 24 Bst. j DBG) 1’100 1’100
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.steuerfuss_kanton
   wert: null
   gilt_fuer: bund
@@ -647,7 +647,7 @@ werte:
     zitat: '| bis | 15 200 Franken Einkommen | 0.00 |'
   - chunk: bund-rs-2-215__c0012
     zitat: – bis 15 200 Franken Einkommen 0 Franken.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Steuerfrei bis 15'200 gilt als Tarifgrenze (0 Franken); danach 0.77 pro 100 Franken.
 - key: tarif.steuerfrei_verheiratet
   wert: 29700
@@ -660,7 +660,7 @@ werte:
     zitat: '| bis | 29 700 Franken Einkommen | 0.00 |'
   - chunk: bund-rs-2-215__c0015
     zitat: – bis 29 700 Franken Einkommen 0 Franken
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.hoechstsatz_ab_alleinstehend
   wert: 794000
   einheit: CHF
@@ -672,7 +672,7 @@ werte:
     zitat: '| für | 794 000 Franken Einkommen | 91 310.00 |'
   - chunk: bund-rs-2-215__c0014
     zitat: – für 794 000 Franken Einkommen 91 310.00 Franken
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Vorjahr 793'400 (Seed). Tarif gilt auch für Besteuerung nach dem Aufwand (Art. 14 Abs. 4 DBG).
 - key: tarif.hoechstsatz_ab_verheiratet
   wert: 941400
@@ -685,7 +685,7 @@ werte:
     zitat: '| für | 941 400 Franken Einkommen | 108 261.00 |'
   - chunk: bund-rs-2-215__c0018
     zitat: – für 941 400 Franken Einkommen 108 261.00 Franken
-  status: extrahiert
+  status: agent-geprueft
 - key: tarif.mindeststeuer
   wert: 25
   einheit: CHF
@@ -697,7 +697,7 @@ werte:
     zitat: Steuerbeträge unter 25 Franken werden nicht erhoben.
   - chunk: bund-rs-2-215__c0019
     zitat: Steuerbeträge unter 25 Franken werden nicht erhoben.
-  status: extrahiert
+  status: agent-geprueft
 - key: verfahren.einreichefrist
   wert: null
   gilt_fuer: bund
@@ -731,7 +731,7 @@ werte:
     zitat: Ist die Veranlagung im Zeitpunkt der Fälligkeit noch nicht vorgenommen, so wird die Steuer provisorisch bezogen.
   - chunk: bund-dbg-2026__art-163
     zitat: Die Steuer muss innert 30 Tagen nach Fälligkeit entrichtet werden.
-  status: extrahiert
+  status: agent-geprueft
   bemerkung: Rechnung und Termine über kantonale Bezugsstelle; konkrete Termine kantonal.
 - key: bezug.verzugszins
   wert: 4.0
@@ -744,7 +744,7 @@ werte:
     zitat: Verzugs- und Rückerstattungszins 4,50 4,00
   - chunk: bund-dbg-2026__art-164
     zitat: einen Verzugszins bezahlen, der vom EFD festgesetzt wird
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.verguetungszins
   wert: 0.0
   einheit: '%'
@@ -756,7 +756,7 @@ werte:
     zitat: Vergütungszins für Vorauszahlungen 0,75 0,00
   - chunk: bund-dbg-2026__art-163
     zitat: einen Vergütungszins fest
-  status: extrahiert
+  status: agent-geprueft
 - key: bezug.ausgleichszins
   wert: null
   gilt_fuer: bund

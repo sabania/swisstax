@@ -74,7 +74,7 @@ bleiben lesbar (`read`), werden aber nicht indexiert – sonst erscheinen Treffe
       model: "text-embedding-3-small",       // für Deutsch besser: text-embedding-3-large, voyage-4-large oder bge-m3
       remote: { batch: { enabled: true } },  // Erstindexierung in Batches
       cache: { enabled: true },
-      // store: { fts: { tokenizer: "trigram" } },  // optional: besser für deutsche Komposita (Reindex nötig, vorher testen)
+      store: { fts: { tokenizer: "trigram" } },     // empfohlen für Deutsch: Standard-Tokenizer (unicode61) hat kein Stemming/keine Komposita-Zerlegung (Reindex nötig)
     },
   },
 }

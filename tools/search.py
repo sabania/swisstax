@@ -44,6 +44,7 @@ def main():
     ap.add_argument("--quelle", help="Quellen-ID-Präfix")
     ap.add_argument("-n", type=int, default=10)
     ap.add_argument("--full", action="store_true", help="Chunk-Text ausgeben")
+    ap.add_argument("--expand", action="store_true", help="Suchbegriffe mit registry/glossar.yaml erweitern (Alltags- ↔ Fachbegriffe)")
     a = ap.parse_args()
     jurs = set(a.jur.split(",")) if a.jur else None
     docs = []
@@ -62,7 +63,20 @@ def main():
     if not docs:
         print("keine Chunks im Filter")
         return
-    q = toks(a.query)
+    query = a.query
+    if a.expand:
+        import yaml
+        g = yaml.safe_load((ROOT / "registry" / "glossar.yaml").read_text(encoding="utf-8"))["glossar"]
+        fq = fold(query)
+        extra = []
+        for k, syn in g.items():
+            terms = [k] + syn
+            if any(fold(t) in fq for t in terms):
+                extra += terms
+        if extra:
+            print("Erweitert um:", ", ".join(dict.fromkeys(extra)))
+            query += " " + " ".join(extra)
+    q = toks(query)
     N = len(docs)
     avg = sum(sum(c.values()) for _, c, _ in docs) / N
     df = collections.Counter()

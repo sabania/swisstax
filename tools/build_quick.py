@@ -302,9 +302,22 @@ def write_themen_index():
     (d / "index.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
+def write_glossar():
+    g = yaml.safe_load((ROOT / "registry" / "glossar.yaml").read_text(encoding="utf-8"))["glossar"]
+    L = [fm({"typ": "glossar", "titel": "Glossar Praxis- und Fachbegriffe", "jur": "multi", "generiert": f"tools/build_quick.py ({today()})"}),
+         "# Glossar – Alltags-/Praxisbegriffe ↔ Fach-/Gesetzesbegriffe", "",
+         "Hilft beim Suchen (Mandanten sagen «Kita», das Gesetz sagt «Drittbetreuung»). Quelle: `registry/glossar.yaml`; "
+         "lokale Suche mit Erweiterung: `python3 tools/search.py \"<Begriffe>\" --expand`.", "",
+         "| Begriff | Synonyme / Fachbegriffe |", "|---|---|"]
+    for k, syn in g.items():
+        L.append(f"| **{k}** | {', '.join(syn)} |")
+    (ROOT / "wiki" / "glossar.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+
 def main():
     Q.mkdir(exist_ok=True)
     write_themen_index()
+    write_glossar()
     W, Z = werte_files(), zuordnung_files()
     B = {"belege": []}
     for bp in [DATA / "belege.yaml"] + sorted(DATA.glob("belege-teil*.yaml")):

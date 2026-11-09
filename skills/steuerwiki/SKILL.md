@@ -24,6 +24,10 @@ Antwort einer Sitzung lesen). Antworten immer mit **Kanton**, **Steuerjahr**, **
 5. **Suche, wenn nicht abgedeckt:** `memory_search` mit Kanton + Jahr + Fachbegriff, z.B.
    `"Fahrkosten Abzug ZH 2025"`, `"Art. 33 DBG Versicherungsprämien 2026"`, `"Liegenschaftsunterhalt Pauschale TG"`.
    Treffer nur verwenden, wenn `jur` (bzw. `bund`) und `jahre` passen (Frontmatter des Chunks).
+   Alltagsbegriffe zuerst übersetzen (`steuerwiki/wiki/glossar.md`, z.B. Kita → Drittbetreuung, Alimente → Unterhaltsbeiträge).
+   Ohne OpenClaw-Suche: `python3 steuerwiki/tools/search.py "<Begriffe>" --jur <kt>,bund --jahr <jahr> --expand`.
+   **Unsicher oder widersprüchlich?** Die ganze Quelle lesen (`steuerwiki/sources/<jur>/<jahr>/<id>.md`, z.B. die
+   Wegleitung des Jahres) statt sich auf einzelne Chunks zu verlassen; bei Tabellen das Original-PDF prüfen.
 6. **Antwort:** Ergebnis · Kanton/Bund getrennt · Steuerjahr · Fundstelle(n) als Chunk-ID/Dokument+Seite · Status
    (✅ verifiziert, ☑️ agent-geprüft, 🟡 extrahiert, ⚠️ strittig). Werte nie aus einem anderen Jahr/Kanton übernehmen.
 
