@@ -1,20 +1,30 @@
-# Firmen-Adapter für die Ablage
+# Firmen-Adapter: Ablage-Kategorien einstellen
 
 Das Steuer-Wiki ist **firmenunabhängig**: Es bestimmt für jedes Dokument, ob es steuerrelevant ist, den Belegtyp, das Steuerjahr,
-die Einreichepflicht im Kanton und eine neutrale **Ablagegruppe** (`data/ablage/gruppen.yaml`, z.B. «Steuerbeleg – einzureichen»,
-«Steuerbeleg – nicht einzureichen», «Veranlagung», «Korrespondenz Mandant»).
+die Einreichepflicht im Kanton (mit Zitat) und eine neutrale **Ablagegruppe** (`data/ablage/gruppen.yaml`, z.B. «Steuerbeleg –
+einzureichen», «Steuerbeleg – nicht einzureichen», «Veranlagung», «Korrespondenz Mandant»). Es kennt keine Firmenabläufe.
 
-Ein Adapter übersetzt diese Gruppen in die Ablage einer Firma (DMS-Klassen/Kategorien). Er enthält **keine Abläufe und keine Personen**,
-nur die Zuordnung Gruppe → Kategorie und allfällige feste Regeln je Belegtyp.
+Jede Firma stellt ihre **Ablage-Kategorien** ein – als Liste wie in Excel:
 
-| Datei | Inhalt |
-|---|---|
-| `vorlage/ablage.yaml` | leere Vorlage |
-| `consis/ablage.yaml` | Beispiel consis (M-Files, Klasse StE), aus `consis/quellen/mfiles-kategorien-ste-2026-11-05.xlsx` |
+| Blatt | Spalten | Zweck |
+|---|---|---|
+| **Kategorien** | Nr · Kategorie · Klasse/Ablageort · Was hinein gehört · Wird eingereicht? · Ablagegruppen (Wiki) · aktiv · Bemerkung | die eigene Kategorienliste; «Ablagegruppen» verbindet sie mit dem Wiki |
+| **Dokumentarten** | Nr · Dokumentart · Beispiele · Kategorie · Wiki-Typ(en) · Eingereicht? · Beschreibung im DMS · fest · Bestätigt | Beispiele je Kategorie; «fest = ja»: Typ kommt immer in diese Kategorie (interne Regel) |
+| Ablagegruppen, Wiki-Typen | – | Nachschlagelisten (was das Wiki unterscheidet), nicht bearbeiten |
 
-**Aktivieren:** `python3 tools/steuer.py … --firma consis` bzw. Umgebungsvariable `STEUERWIKI_FIRMA=consis`; im Plugin mit
-`python3 tools/build_plugin.py --firma consis` (setzt die Variable für den MCP-Server). Ohne Adapter gibt das Werkzeug die
-neutralen Gruppennamen aus.
+**So funktioniert es:** Wiki → Ablagegruppe (aus Relevanz + Einreichepflicht des Kantons) → Adapter → Kategorie der Firma.
+Ist eine Dokumentart «fest», gilt ihre Kategorie unabhängig vom Kanton. Ohne Adapter zeigen die Tools die neutralen Gruppen.
 
-**Neue Firma:** `vorlage/ablage.yaml` nach `firmen/<firma>/ablage.yaml` kopieren, je Gruppe die eigene Kategorie eintragen,
-`python3 tools/build_lookup.py`.
+## Neue Firma
+```bash
+python3 tools/firma_kategorien.py vorlage                         # firmen/vorlage/kategorien-vorlage.xlsx
+# kopieren nach firmen/<firma>/kategorien.xlsx, Kategorien und Dokumentarten ausfüllen
+python3 tools/firma_kategorien.py import --firma <firma>          # → firmen/<firma>/ablage.yaml (+ Prüfung)
+python3 tools/build_lookup.py && python3 tools/build_plugin.py --tgz --firma <firma>
+```
+Ändern: Excel bearbeiten → `import` → Plugin neu bauen. Aktuellen Stand nach Excel holen: `export --firma <firma>`.
+
+## consis (erster Einsatz)
+`consis/kategorien.xlsx` (aus der Zuordnungsliste `consis/quellen/mfiles-kategorien-ste-2026-11-05.xlsx`), `consis/ablage.yaml`:
+11 Kategorien der Klasse StE + Klassen ausserhalb StE (Veranlagung + def. Steuerrechnung, Prov. Steuerrechnung, Kontoauszug,
+Auflage/Buchprüfung, Einsprache/Rekurs, andere Steuerarten), 32 Dokumentarten. Status: Zuordnung von consis noch nicht bestätigt.

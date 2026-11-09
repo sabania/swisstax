@@ -59,9 +59,15 @@ def uebersicht():
         L.append(f"| {esc(d['name'])} (`{k}`) | {esc(steuer.gruppe_name(d['gruppe']))} | {esc(d.get('steuerjahr', 'Jahr des Dokuments'))} |")
     L += ["", "## Firmen-Adapter", ""]
     for f, A in (steuer.L().get("firmen") or {}).items():
-        L.append(f"- **{f}** ({A.get('system')}, Stand {A.get('stand')}; {A.get('status')}): " + " · ".join(
-            f"{steuer.gruppe_name(g).split(' (')[0]} → {'/'.join(x for x in (m.get('klasse'), m.get('kategorie')) if x)}"
-            for g, m in (A.get("gruppen") or {}).items()))
+        L += [f"**{f}** ({A.get('system')}, Stand {A.get('stand')}; {A.get('status')}) – gepflegt in "
+              f"[firmen/{f}/kategorien.xlsx](../../firmen/{f}/kategorien.xlsx):", "",
+              "| Kategorie | Klasse | was hinein gehört | eingereicht | Ablagegruppen (Wiki) |", "|---|---|---|---|---|"]
+        for k in A.get("kategorien") or []:
+            if not k.get("aktiv", True):
+                continue
+            L.append(f"| {esc(k['name'])} | {esc(k.get('klasse'))} | {esc(steuer.cut(k.get('erklaerung'), 160))} | {esc(k.get('eingereicht'))} | "
+                     f"{esc(', '.join(k.get('gruppen') or []) or '–')} |")
+        L.append("")
     L.append("")
     out.write_text("\n".join(L), encoding="utf-8")
     return out

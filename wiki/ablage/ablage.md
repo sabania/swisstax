@@ -106,4 +106,24 @@ generiert: tools/build_ablage.py (2026-11-09)
 
 ## Firmen-Adapter
 
-- **consis** (M-Files, Stand 2026-11-05; Zuordnung von consis noch nicht bestätigt (Spalte «Bestätigt» in der Liste leer)): Steuerbeleg – einzureichen → StE/Belege eingereicht · Steuerbeleg – nicht einzureichen → StE/Belege Sonstiges · Steuererklärung → StE/Deklaration · Steuererklärung bei unterjähriger Steuerpflicht → StE/Deklaration unterjährig · Steuerausscheidung → StE/Steuerausscheidung · Übermittlungs-/Eingangsquittung → StE/Übermittlungsbestätigung · Frist / Fristerstreckung → StE/Fristenliste NP · Korrespondenz Mandant → StE/Unterlagen Kunde · Veranlagung / Einschätzungsentscheid / definitive Steuerrechnung → Veranlagung + def. Steuerrechnung · Provisorische Steuerrechnung → Prov. Steuerrechnung · Kontoauszug des Steueramts → Kontoauszug · Auflage / Nachfrage der Steuerbehörde → Auflage/Buchprüfung · Einsprache / Rekurs / Beschwerde → Einsprache/Rekurs · Andere Steuerart → eigene Klasse je Steuerart (Grundstückgewinn-, Erbschafts-, Schenkungssteuer) · Unterlagen einer juristischen Person → nicht Klasse StE NP (juristische Personen) · Nicht steuerrelevant → nicht als Steuerbeleg ablegen
+**consis** (M-Files, Stand 2026-11-05; Zuordnung von consis noch nicht bestätigt (Spalte «Bestätigt» in der Liste leer)) – gepflegt in [firmen/consis/kategorien.xlsx](../../firmen/consis/kategorien.xlsx):
+
+| Kategorie | Klasse | was hinein gehört | eingereicht | Ablagegruppen (Wiki) |
+|---|---|---|---|---|
+| Übermittlungsbestätigung | StE | Quittung, dass die Steuerdeklaration eingereicht ist. Wird aktuell von Dr. Tax generiert, wenn consis digital über Dr. Tax einreicht. | nein | uebermittlung |
+| Fristenliste NP | StE | Nur für die Fristenkontrolle, Bearbeitung und Verlängerung (Fristerstreckung) der Steuererklärungen natürlicher Personen. Keine Ablage von Belegen im … | nein | frist |
+| Fristenliste JP | StE | Betrifft nur juristische Personen. Im Prozess StE NP nicht verwenden. | – | – |
+| Belege eingereicht | StE | Sämtliche Belege, die per Online-Übermittlung über Dr. Tax an das Steueramt gehen. Welche Belege eingereicht werden müssen, zeigen die Wegleitungen der … | ja | beleg-einzureichen |
+| Belege Sonstiges | StE | Grundsätzlich alle relevanten Belege, die in der Steuerdeklaration einen Wert bzw. Eintrag haben, aber nicht eingereicht werden müssen. Z. B. … | nein | beleg-aufbewahren |
+| Verlustverrechnung | StE | Nur bei juristischen Personen, nicht bei natürlichen Personen. | – | – |
+| Steuerausscheidung | StE | Der Teil der Steuerausscheidung, der aus der Steuerdeklaration hervorgeht. | ja | steuerausscheidung |
+| Deklaration | StE | Steuererklärung: Deklarationsentwürfe und finale Versionen. | finale Version ja | deklaration |
+| Deklaration unterjährig | StE | Nur wenn keine volle Steuerperiode (01.01.–31.12.) besteht, z. B. Tod, Wegzug ins Ausland oder Zuzug aus dem Ausland. | ja | deklaration-unterjaehrig |
+| Unterlagen Kunde | StE | Vor allem Informationen des Kunden, z. B. per E-Mail: zusätzliche Angaben, Antworten auf Fragen oder Pendenzen, die dokumentiert werden sollen. | nein | korrespondenz-mandant |
+| Veranlagung + def. Steuerrechnung | Veranlagung + def. Steuerrechnung | Entscheid der Steuerbehörde zur Steuerperiode; Steuerjahr = veranlagte Periode. Mit der eingereichten Erklärung vergleichen; Rechtsmittelfrist gemäss … | – | veranlagung |
+| Prov. Steuerrechnung | Prov. Steuerrechnung | Vorläufige Rechnung für die laufende Steuerperiode. | – | provisorische-rechnung |
+| Kontoauszug | Kontoauszug | Zahlungen, Saldo, Zinsen des Steuerkontos – nicht Bank-Kontoauszug. | – | steuerkonto |
+| Auflage/Buchprüfung | Auflage/Buchprüfung | Aufforderung, Unterlagen oder Auskünfte nachzureichen (mit Frist). | – | auflage |
+| Einsprache/Rekurs | Einsprache/Rekurs | Rechtsmittel gegen Veranlagung und Entscheide darüber. | – | rechtsmittel |
+| Andere Steuerarten (eigene Klassen: Grundstückgewinn-, Erbschafts-, Schenkungssteuer) | Andere Steuerarten | Nicht Einkommens-/Vermögenssteuer der natürlichen Person. | – | andere-steuerart |
+

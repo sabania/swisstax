@@ -207,7 +207,7 @@ Einreichepflicht im Kanton → **Ablagegruppe** – und hilft beim Ausfüllen (P
 - `data/ablage/erkennung.yaml`: Stichworte je Belegtyp und Verfahrensdokument (DE/FR/IT, OCR-tolerant) für `steuer ablage`.
 - `data/einreichen/<kt>/<jahr>.yaml`: Einreichepflicht der 45 Belegtypen laut Wegleitung/Formular/Gesetz, mit Zitat (Lint prüft) –
   entscheidet «einzureichen» vs. «nicht einzureichen».
-- **Firmen-Adapter** `firmen/<firma>/ablage.yaml`: übersetzt Gruppen in die eigene Ablage (z.B. consis: M-Files Klasse/Kategorie
+- **Firmen-Adapter** `firmen/<firma>/ablage.yaml` (gepflegt als Excel `kategorien.xlsx` mit Kategorie, Erklärung, Beispielen, Gruppen; `tools/firma_kategorien.py`): übersetzt Gruppen in die eigene Ablage (z.B. consis: M-Files Klasse/Kategorie
   aus der Zuordnungsliste) und kann einzelne Belegtypen fest zuordnen; aktiviert mit `--firma` bzw. `STEUERWIKI_FIRMA`
   (Plugin: `build_plugin.py --firma consis`). Ohne Adapter erscheinen die neutralen Gruppennamen. Vorlage: `firmen/vorlage/`.
 - Seiten: `wiki/ablage/ablage.md`, `quick/ablage-<kt>-<jahr>.md` (Beleg → relevant → einreichen → Gruppe → Ziffern).

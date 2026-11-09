@@ -424,28 +424,53 @@ def gruppe_name(gid) -> str:
     return g["name"] if g else gid
 
 
-def firmen_kategorie(gid) -> str | None:
+def _adapter():
     f = firma()
+    return f, (L()["firmen"][f] if f else {})
+
+
+def kategorie_zu_gruppe(gid):
+    """Erste aktive Kategorie des Firmen-Adapters, der die Ablagegruppe zugeordnet ist."""
+    f, A = _adapter()
+    return next((k for k in A.get("kategorien") or [] if k.get("aktiv", True) and gid in (k.get("gruppen") or [])), None)
+
+
+def dokumentart_zu_typ(typ):
+    f, A = _adapter()
+    return next((d for d in A.get("dokumentarten") or [] if typ in (d.get("typen") or [])), None)
+
+
+def kat_text(k) -> str:
+    if not k:
+        return ""
+    if k.get("klasse") and k["klasse"] != k["name"]:
+        return f"Klasse «{k['klasse']}» · Kategorie «{k['name']}»"
+    return f"Klasse «{k.get('klasse') or k['name']}»"
+
+
+def firmen_kategorie(gid, typ=None) -> str | None:
+    f, A = _adapter()
     if not f:
         return None
-    m = ((L()["firmen"][f].get("gruppen") or {}).get(gid)) or {}
-    if not m:
+    k = kategorie_zu_gruppe(gid)
+    if not k:
         return None
-    t = f"Klasse «{m['klasse']}»" if m.get("klasse") else ""
-    if m.get("kategorie"):
-        t += (" · " if t else "") + f"Kategorie «{m['kategorie']}»"
-    if m.get("beschreibung"):
-        t += f" · Beschreibung {m['beschreibung']}"
-    return f"{L()['firmen'][f].get('system', f)} ({f}): {t}"
+    t = kat_text(k)
+    d = dokumentart_zu_typ(typ) if typ else None
+    if d and d.get("beschreibung"):
+        t += f" · Beschreibung «{d['beschreibung']}»"
+    return f"{A.get('system', f)} ({f}): {t}"
 
 
 def ablagegruppe(bid, kt=None, jahr=None):
     """Belegtyp → (Gruppen-ID oder 'a|b', Begründung). Firmenunabhängig über Relevanz und Einreichepflicht des Kantons/Jahres;
     ein Firmen-Adapter kann einzelne Belegtypen fest zuordnen (belege_fest)."""
-    f = firma()
-    fest = ((L()["firmen"][f].get("belege_fest") or {}).get(bid)) if f else None
-    if fest:
-        return fest["gruppe"], f"Firmenregel {f}: {fest.get('grund')}"
+    f, A = _adapter()
+    d = dokumentart_zu_typ(bid) if f else None
+    if d and d.get("fest"):
+        k = next((x for x in A.get("kategorien") or [] if x["name"] == d.get("kategorie")), None)
+        if k and k.get("gruppen"):
+            return k["gruppen"][0], f"Firmenliste {f} Nr. {d.get('nr')} ({d['dokumentart']}): immer «{k['name']}»"
     b = next((x for x in L()["belege"] if x["id"] == bid), {})
     if b.get("relevanz") == "nein":
         return "nicht-relevant", "Belegtyp ohne Wert in der Steuererklärung"
@@ -466,12 +491,12 @@ def ablagegruppe(bid, kt=None, jahr=None):
     return "beleg-aufbewahren", f"{NAME[kt]} {jahr}: {e['einreichen'].replace('_', ' ')}{q}"
 
 
-def ablage_text(gid, why="") -> str:
+def ablage_text(gid, why="", typ=None) -> str:
     """Gruppe(n) lesbar + Kategorie des aktiven Firmen-Adapters."""
     teile = []
     for g in gid.split("|"):
         t = f"**{gruppe_name(g)}**"
-        fk = firmen_kategorie(g)
+        fk = firmen_kategorie(g, typ)
         if fk:
             t += f" → {fk}"
         teile.append(t)
@@ -537,7 +562,7 @@ def beleg(begriff, kt=None, jahr=None) -> str:
             q = f" · Quelle: {e.get('chunk')} «{cut(e.get('zitat'), 120)}»" if e.get("chunk") else ""
             out.append(f"- **Einreichen ({NAME[j]} {jahr}):** {e.get('einreichen')}" + (f" – {cut(e.get('bedingung'), 160)}" if e.get("bedingung") else "") + q)
         gid, why = ablagegruppe(b["id"], j, jahr)
-        out.append(f"- **Ablage:** {ablage_text(gid, why)}")
+        out.append(f"- **Ablage:** {ablage_text(gid, why, b['id'])}")
         kn = (b.get("kantone") or {}).get(j.upper())
         if kn:
             out.append(f"- **{j.upper()}:** {cut(kn, 300)}")
@@ -630,7 +655,7 @@ def ablage(text, kt=None, jahr=None) -> str:
             out.append(f"{i + 1}. **{b['name']}** (`{kid}`) · Punkte {s:g}")
             out.append(f"   - steuerrelevant: **{rel}**" + (" → nicht als Steuerbeleg ablegen" if rel == "nein" else
                                                          " → Bedingung prüfen: `beleg " + kid + "`" if rel == "bedingt" else ""))
-            out.append(f"   - Ablage: {ablage_text(gid, why)}")
+            out.append(f"   - Ablage: {ablage_text(gid, why, kid)}")
             out.append(f"   - Beschreibung (Vorschlag): «{cut(b['name'].split('(')[0], 50).strip()} <Aussteller>»")
             if j and jahr:
                 pos = [p for p in L()["positionen"] if p["kt"] == j and p["jahr"] == jahr and kid in (p.get("belege") or [])]
@@ -640,7 +665,7 @@ def ablage(text, kt=None, jahr=None) -> str:
             d = (er.get("verfahrensdokumente") or {})[kid]
             g = next((x for x in L().get("gruppen") or [] if x["id"] == d["gruppe"]), {})
             out.append(f"{i + 1}. **{d['name']}** (`{kid}`) · Punkte {s:g}")
-            out.append(f"   - Ablage: {ablage_text(d['gruppe'])}")
+            out.append(f"   - Ablage: {ablage_text(d['gruppe'], '', kid)}")
             if d.get("steuerjahr"):
                 out.append(f"   - Steuerjahr: {d['steuerjahr']}")
             if g.get("regel"):
@@ -772,41 +797,56 @@ def zeige(ref, abschnitt=None) -> str:
 
 # ---------------------------------------------------------------- Ablagegruppen / Kategorien
 def kategorien(begriff=None) -> str:
-    """Ablagegruppen (firmenunabhängig) und – falls ein Firmen-Adapter aktiv ist – die Kategorien der Firma."""
-    f = firma()
-    A = L()["firmen"][f] if f else {}
-    if not begriff:
-        out = ["## Ablagegruppen" + (f" → {A.get('system')} ({f}, Stand {A.get('stand')}; {A.get('status')})" if f else " (kein Firmen-Adapter aktiv)"), ""]
-        for g in L().get("gruppen") or []:
-            fk = firmen_kategorie(g["id"])
-            out.append(f"- **{g['name']}** (`{g['id']}`): {g['regel']}" + (f" → {fk.split(': ', 1)[1]}" if fk else ""))
-        if f and A.get("offene_punkte"):
-            out += ["", "Offene Punkte Adapter: " + " · ".join(A["offene_punkte"])]
-        if not f:
-            out += ["", "Firmen-Adapter aktivieren: STEUERWIKI_FIRMA=<firma> (firmen/<firma>/ablage.yaml)."]
+    """Ohne Firmen-Adapter: die neutralen Ablagegruppen. Mit Adapter: die Kategorien der Firma (Erklärung, Beispiele, Gruppen)."""
+    f, A = _adapter()
+    G = {g["id"]: g for g in L().get("gruppen") or []}
+    if not f:
+        rows = [(g["name"], g["regel"], g["id"]) for g in G.values()]
+        if begriff:
+            qt = expand(toks(begriff), begriff)
+            sc = sorted(((score(qt, n, r), n, r, i) for n, r, i in rows), key=lambda x: -x[0])
+            rows = [(n, r, i) for s_, n, r, i in sc if s_ > 0 and s_ >= sc[0][0] * 0.6][:5]
+        out = ["## Ablagegruppen (firmenunabhängig; kein Firmen-Adapter aktiv)", ""]
+        out += [f"- **{n}** (`{i}`): {r}" for n, r, i in rows]
+        out += ["", "Firmen-Kategorien: Adapter firmen/<firma>/ablage.yaml (Excel-Pflege: tools/firma_kategorien.py), aktiv mit STEUERWIKI_FIRMA."]
         return "\n".join(out)
-    qt = expand(toks(begriff), begriff)
-    sc = []
-    for g in L().get("gruppen") or []:
-        s = score(qt, g["name"], g["regel"])
-        if s > 0:
-            sc.append((s, "gruppe", g))
+    ks = [k for k in A.get("kategorien") or [] if k.get("aktiv", True)]
+    bsp = {}
     for d in A.get("dokumentarten") or []:
-        s = score(qt, f"{d['dokumentart']} {d.get('kategorie')}", f"{d.get('beispiele') or ''} {' '.join(d.get('belege') or [])}")
-        if s > 0:
-            sc.append((s, "firma", d))
-    sc.sort(key=lambda x: -x[0])
-    if not sc:
-        return f"Nichts zu «{begriff}». Dokument einordnen: `ablage \"{begriff}\"`."
-    out = [f"## Ablage «{begriff}»"]
-    for s, art, d in [x for x in sc if x[0] >= sc[0][0] * 0.6][:5]:
-        if art == "gruppe":
-            fk = firmen_kategorie(d["id"])
-            out.append(f"- Gruppe **{d['name']}** (`{d['id']}`): {d['regel']}" + (f" → {fk.split(': ', 1)[1]}" if fk else ""))
-        else:
-            out.append(f"- {A.get('system')} ({f}) Liste Nr. {d['nr']} **{d['dokumentart']}** → Kategorie **{d.get('kategorie')}** · eingereicht: "
-                       f"{d.get('eingereicht', '–')}" + (f" · Beschreibung «{d['beschreibung_mfiles']}»" if d.get("beschreibung_mfiles") else "")
-                       + (" · bestätigt" if d.get("bestaetigt") == "ja" else " · noch nicht bestätigt"))
+        bsp.setdefault(d.get("kategorie"), []).append(d["dokumentart"])
+    if begriff:
+        qt = expand(toks(begriff), begriff)
+        sc = []
+        for k in ks:
+            s_ = score(qt, k["name"], f"{k.get('erklaerung') or ''} {' '.join(bsp.get(k['name'], []))}")
+            if s_ > 0:
+                sc.append((s_, k))
+        for d in A.get("dokumentarten") or []:
+            s_ = score(qt, d["dokumentart"], f"{d.get('beispiele') or ''} {' '.join(d.get('typen') or [])}")
+            if s_ > 0:
+                k = next((x for x in ks if x["name"] == d.get("kategorie")), None)
+                if k:
+                    sc.append((s_ + 1, k))
+        sc.sort(key=lambda x: -x[0])
+        seen, ks2 = set(), []
+        for s_, k in sc:
+            if k["name"] not in seen and s_ >= sc[0][0] * 0.6:
+                seen.add(k["name"])
+                ks2.append(k)
+        if not ks2:
+            return f"Keine Kategorie zu «{begriff}». Dokument einordnen: `ablage \"{begriff}\"`."
+        ks = ks2[:4]
+    out = [f"## Ablage-Kategorien {A.get('system')} ({f}) · Stand {A.get('stand')} · {A.get('status')}", ""]
+    for k in ks:
+        out.append(f"- **{k['name']}** – {kat_text(k)} · eingereicht: {k.get('eingereicht', '–')}")
+        if k.get("erklaerung"):
+            out.append(f"  {cut(k['erklaerung'], 300)}")
+        if bsp.get(k["name"]):
+            out.append("  Beispiele: " + " · ".join(cut(x, 60) for x in bsp[k["name"]][:10]))
+        if k.get("gruppen"):
+            out.append("  Wiki-Ablagegruppen: " + ", ".join(G[g]["name"] if g in G else g for g in k["gruppen"]))
+    if not begriff and A.get("offene_punkte"):
+        out += ["", "Offene Punkte: " + " · ".join(A["offene_punkte"])]
     return "\n".join(out)
 
 
