@@ -19,6 +19,20 @@ rm -f <workspace>/BOOTSTRAP.md                                                  
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
+**Modell des Steuer-Agenten: Sonnet** (gemessen: ganze Erklärungen 3× 111/111, siehe «Modellwahl»). Getestete Konfiguration
+(`openclaw.json`, Claude über die `claude-cli`-Runtime; Modell-ID je nach Zugang):
+
+```json5
+agents: {
+  defaults: {
+    model: "anthropic/claude-sonnet-5-5",
+    models: { "anthropic/claude-sonnet-5-5": { agentRuntime: { id: "claude-cli" } } },
+    modelPolicy: { allow: ["anthropic/claude-sonnet-5-5"] },   // kein stilles Ausweichen auf ein kleineres Modell
+  },
+  entries: { steuer: { workspace: "~/.openclaw/workspace-steuer" } },
+}
+```
+
 - Das Plugin bringt 3 Skills (`belege-ablage`, `steuererklaerung-np`, `steuerwiki`) und den
   MCP-Server `steuerwiki` mit den Tools `steuerwiki__ablage`, `__beleg`, `__formular`, `__position`, `__wert`, `__vergleich`,
   `__rechne`, `__suche`, `__zeige`.
