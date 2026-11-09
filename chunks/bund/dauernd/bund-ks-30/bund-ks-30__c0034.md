@@ -4,21 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 34"
-seiten: "7"
+titel: "Ziff. 8.1 Kinderdrittbetreuungskostenabzug – Allgemeines"
+ziffer: "8.1"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.1 Allgemeines · S. 12
 
-Sind die Eltern verheiratet und werden sie gemeinsam veranlagt, wird das Einkommen der
-minderjährigen Kinder zum ehelichen Gesamteinkommen hinzugerechnet. Die Zurechnung
-erfolgt auch bei Stiefkindern, d.h. wenn nur einer der Ehegatten Elternteil ist und über die
-elterliche Sorge verfügt. Hingegen erfolgt keine Steuersubstitution bei Pflegeeltern. Ein Pfle-
-gekind, das nicht unter Vormundschaft steht, wird von derjenigen Person vertreten, welche
-die elterliche Sorge innehat.
+8   Kinderdrittbetreuungskostenabzug
 
-Werden die Eltern eines Kindes nicht gemeinsam veranlagt und übt nur ein Elternteil die el-
-terliche Sorge aus, werden Einkommen und Vermögen des Kindes diesem Elternteil zuge-
-rechnet. Haben die getrennt lebenden Ehegatten die elterliche Sorge gemeinsam inne, ist
-auf die Obhut, d.h. die tatsächliche häusliche Gemeinschaft, abzustellen. Demjenigen Eltern-
-teil, der die Obhut innehält und Unterhaltsbeiträge für das Kind erhält, wird das Einkommen
+
+8.1   Allgemeines
+
+Seit dem Steuerjahr 2011 kann bei der direkten Bundessteuer ein Abzug für die Kosten der
+Kinderbetreuung durch Dritte geltend gemacht werden. Dies ist nun gemäss Artikel 33 Ab-
+satz 3 DBG zulässig, sofern bestimmte Bedingungen erfüllt sind. Nach konstanter bundesge-
+richtlicher und kantonaler Rechtsprechung sind die durch die Drittbetreuung der Kinder ent-
+standenen Kosten nicht als steuerlich abzugsfähige Berufsauslagen zu qualifizieren, obwohl
+sie eng mit der Einkommenserzielung zusammenhängen können. Der Kinderdrittbetreu-
+ungskostenabzug ist daher in der Form eines anorganischen Abzuges ausgestaltet und auf
+einen Maximalbetrag pro Kind und Jahr beschränkt.

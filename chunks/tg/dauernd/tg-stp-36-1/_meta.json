@@ -51,10 +51,10 @@
 },
 {
 "id": "tg-stp-36-1__c0004",
-"titel": "1. Staats- und Gemeindesteuern",
+"titel": "2. Direkte Bundessteuer",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
-"1. Staats- und Gemeindesteuern"
+"2. Direkte Bundessteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -68,10 +68,10 @@
 },
 {
 "id": "tg-stp-36-1__c0005",
-"titel": "2. Direkte Bundessteuer",
+"titel": "3. Stichtagsprinzip",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
-"2. Direkte Bundessteuer"
+"3. Stichtagsprinzip"
 ],
 "seiten": [],
 "artikel": null,
@@ -85,10 +85,11 @@
 },
 {
 "id": "tg-stp-36-1__c0006",
-"titel": "3. Stichtagsprinzip",
+"titel": "4.1. Allgemeines",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
-"3. Stichtagsprinzip"
+"4. Abzugshöhe",
+"4.1. Allgemeines"
 ],
 "seiten": [],
 "artikel": null,
@@ -102,11 +103,11 @@
 },
 {
 "id": "tg-stp-36-1__c0007",
-"titel": "4.1. Allgemeines",
+"titel": "4.2. Kinder-, Ausbildungs- und Unterstützungsabzüge",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
 "4. Abzugshöhe",
-"4.1. Allgemeines"
+"4.2. Kinder-, Ausbildungs- und Unterstützungsabzüge"
 ],
 "seiten": [],
 "artikel": null,
@@ -138,11 +139,11 @@
 },
 {
 "id": "tg-stp-36-1__c0009",
-"titel": "4.2. Kinder-, Ausbildungs- und Unterstützungsabzüge",
+"titel": "4.3. Sozialabzug für gemeinsam steuerpflichtige Personen",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
 "4. Abzugshöhe",
-"4.2. Kinder-, Ausbildungs- und Unterstützungsabzüge"
+"4.3. Sozialabzug für gemeinsam steuerpflichtige Personen"
 ],
 "seiten": [],
 "artikel": null,
@@ -156,11 +157,11 @@
 },
 {
 "id": "tg-stp-36-1__c0010",
-"titel": "4.3. Sozialabzug für gemeinsam steuerpflichtige Personen",
+"titel": "Ältere Versionen",
 "pfad": [
 "StP 36 Nr. 1: Sozialabzüge",
 "4. Abzugshöhe",
-"4.3. Sozialabzug für gemeinsam steuerpflichtige Personen"
+"Ältere Versionen"
 ],
 "seiten": [],
 "artikel": null,
@@ -206,42 +207,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "tg-stp-36-1__c0011",
-"nachher": "tg-stp-36-1__c0013"
-},
-{
-"id": "tg-stp-36-1__c0013",
-"titel": "Ältere Versionen",
-"pfad": [
-"StP 36 Nr. 1: Sozialabzüge",
-"4. Abzugshöhe",
-"Ältere Versionen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-stp-36-1__c0012",
-"nachher": "tg-stp-36-1__c0014"
-},
-{
-"id": "tg-stp-36-1__c0014",
-"titel": "Ältere Versionen",
-"pfad": [
-"StP 36 Nr. 1: Sozialabzüge",
-"4. Abzugshöhe",
-"Ältere Versionen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "tg-stp-36-1__c0013",
 "nachher": null
 }
 ]

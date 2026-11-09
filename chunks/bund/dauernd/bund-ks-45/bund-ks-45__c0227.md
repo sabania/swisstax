@@ -5,19 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 227"
-seiten: "63"
+seiten: "60"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 63
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 60
 
-10.2 Pflichten der quellensteuerpflichtigen Arbeitnehmer
-Quellensteuerpflichtige Arbeitnehmer sind für die Mitteilung aller für die Erhebung der Quel-
-lensteuer relevanten Informationen gegenüber dem Schuldner der steuerbaren Leistung ver-
-antwortlich (Zivilstand bzw. Zivilstandsänderungen, Aufnahme oder Aufgabe einer zusätzli-
-chen Erwerbstätigkeit, Anzahl Kinder, Konfession, Aufnahme oder Aufgabe der Erwerbstätig-
-keit des anderen Ehegatten usw.). Sie müssen alles tun, um eine vollständige und richtige
-Veranlagung zu ermöglichen sowie auf Verlangen der zuständigen Steuerbehörde mündlich
-oder schriftlich Auskunft erteilen oder Belege vorlegen (vgl. Art. 136 DBG und Art. 5 Abs. 3
-QStV).
-Kommt der quellensteuerpflichtige Arbeitnehmer trotz Mahnung seinen Auskunfts- und Mel-
-depflichten nicht nach, so kann er mit einer Busse bestraft werden (vgl. Art. 174 DBG).
+9.4   Abrechnungskorrekturen
+Unterlaufen dem Schuldner der steuerbaren Leistung bei der Festlegung des der Quellen-
+steuer unterliegenden Bruttolohns oder bei der Anwendung des Tarifcodes Fehler, kann er
+die erforderlichen Korrekturen selber vornehmen, sofern er diese bis spätestens am 31. März
+des auf die Fälligkeit der Leistung folgenden Steuerjahres den Steuerbehörden übermitteln
+kann.
+Der Schuldner der steuerbaren Leistung kann bis am 31. März des auf die Fälligkeit der Leis-
+tung folgenden Steuerjahres von der zuständigen Steuerbehörde eine Verfügung über Be-
+stand und Umfang der Quellensteuerpflicht verlangen (vgl. Art. 137 Abs. 2 DBG).
+Hat der Schuldner der steuerbaren Leistung den Steuerabzug nicht oder nur ungenügend
+vorgenommen, verpflichtet ihn die Steuerbehörde zur Zahlung der nicht einbehaltenen
+Steuer. Der Schuldner der steuerbaren Leistung kann die zu wenig abgezogenen Quellen-
+steuern beim quellensteuerpflichtigen Arbeitnehmer nachfordern (vgl. Art. 138 Abs. 1 DBG).
+Können zu wenig abgezogene Quellensteuern nicht beim Schuldner der steuerbaren Leis-
+tung nachgefordert werden, bleibt die direkte Nachforderung beim quellensteuerpflichtigen
+Arbeitnehmer durch die zuständige Steuerbehörde vorbehalten (vgl. Art. 138 Abs. 3 DBG).

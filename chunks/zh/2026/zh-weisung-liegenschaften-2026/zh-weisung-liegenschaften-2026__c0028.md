@@ -5,16 +5,16 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 28"
-seiten: "13"
+seiten: "12"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 13
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 12
 
-   Der bei eigener Nutzung von Geschäftsräumen im eigenen Ein- 69
-familienhaus, Stockwerkeigentum oder Mehrfamilienhaus im Berech-
-nungsjahr anzurechnende Mietwert soll dem Mietzins entsprechen,
-den der Pflichtige bei Vermietung von einem Dritten erhalten würde.
-   Die zur Berechnung des Verkehrswerts heranzuziehenden Brutto- 70
-mietwerte sind durch Vergleich mit den Mieterträgen gleichartiger
-Räume zu ermitteln. Dabei sind die bestehenden Erfahrungszahlen zu
-berücksichtigen.
+    II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum
+
+ 63   Die Mietwerte von durch den Pflichtigen und zu seinem Haushalt
+    gehörende Personen genutzten Wohnungen sind durch Vergleich mit
+    für gleiche oder ähnliche Objekte bezahlten Mieten zu ermitteln.
+64   Zum Vergleich sind in erster Linie die von Dritten für Wohnungen
+    im gleichen Haus im Bemessungsjahr bezahlten Mieten heranzuzie-
+    hen.

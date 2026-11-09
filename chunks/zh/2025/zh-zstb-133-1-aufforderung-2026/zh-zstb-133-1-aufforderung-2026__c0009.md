@@ -10,10 +10,16 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
 > ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 3
 
-<!-- Seite 3 -->
-III. Nachträgliche ordentliche Veranlagung von quellensteuerpflichtigen
-ausländischen Arbeitnehmenden im Jahr 2026
+b) Zustellung der Formulare
 
-1. Nachträgliche ordentliche Veranlagung für die Steuerperiode 2025 (Steuererklärung 2025)
+Die notwendigen Formulare werden den zu einer nachträglichen Veranlagung im ordentlichen
+Verfahren verpflichteten Arbeitnehmenden in der Regel durch das Steueramt der Wohngemeinde
+zugestellt.
 
-a) Pflicht zur Einreichung der Steuererklärung
+c) Frist zur Abgabe der Steuererklärung
+
+Die Steuererklärung ist zusammen mit den erforderlichen Beilagen gemäss § 134 StG bis
+31. März 2026, bei Erhalt der Steuererklärungsunterlagen nach Ende Februar 2026 innert 30
+Tagen online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen.
+
+2. Nachträgliche ordentliche Veranlagung für die Steuerperiode 2026 (Steuererklärung 2026)

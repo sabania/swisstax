@@ -5,25 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 82"
-seiten: "21"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 20
 
-6.2   Grundsätze
-Bei der Berechnung der Quellensteuer nach dem Monatsmodell gilt der Monat als Steuerpe-
-riode. Für die Berechnung des Steuerabzugs sind die monatlichen Bruttoeinkünfte massge-
-bend, d.h. sämtliche steuerpflichtigen Leistungen, die im entsprechenden Monat an den
-quellensteuerpflichtigen Arbeitnehmer ausgerichtet werden, sind in der Regel zusammenzu-
-zählen und als Ganzes der Quellenbesteuerung zu unterwerfen.
-Für den Quellensteuerabzug sind die Verhältnisse im Zeitpunkt der Fälligkeit der steuerbaren
-Leistung massgebend. Im Normalfall wird die geschuldete Quellensteuer aufgrund der Brut-
-toeinkünfte eines Monats durch Multiplikation der Bruttoeinkünfte mit dem Steuersatz ge-
-mäss anwendbarem Quellensteuertarif ermittelt. Dieselbe Vorgehensweise ist anzuwenden,
-wenn der Arbeitnehmer im Stundenlohn angestellt ist und ihm der Lohn monatlich ausbezahlt
-wird.
-In Einzelfällen kann eine Berechnung des satzbestimmenden Einkommens notwendig sein
-(vgl. Ziffer 6.3 ff. unten). Dies ist beispielsweise bei mehreren Arbeitsverhältnissen, bei unter-
-monatiger Aufnahme bzw. Beendigung des Arbeitsverhältnisses oder bei der Ausscheidung
-von Arbeitstagen ins Ausland für Steuerpflichtige ohne Ansässigkeit in der Schweiz der Fall.
-Der 13. Monatslohn ist grundsätzlich im Monat der Auszahlung an der Quelle zu besteuern.
+<!-- Seite 20 -->
+DBG ist gegeben, wenn die Entschädigungen für operative Tätigkeiten (bspw. Führungsauf-
+gaben) ausgerichtet werden. Nur Vergütungen für Aufsichtsfunktionen sind gemäss Artikel
+93 DBG der Quellenbesteuerung zu unterwerfen. Schuldet eine quellensteuerpflichtige Per-
+son gleichzeitig eine Quellensteuer nach Artikel 91 DBG (Lohn) wie auch nach Artikel 93
+DBG (Verwaltungsratsentschädigung), so hat dies keine Korrektur des satzbestimmenden
+Einkommens beim Lohneinkommen zur Folge.
+
+    Beispiele:
+    1. Das Verwaltungsratsmitglied R. ist in der Schweiz ansässig und bezieht im Monat März neben den Verwal-
+    tungsratsentschädigungen von CHF 5 000.00 noch einen Bruttolohn von CHF 10 000.00.
+    Die Gesamteinkünfte (= CHF 15 000.00) unterliegen somit nach Artikel 83 DBG der Quellensteuer (ordent-
+    liche Tarifcodes).
+    2. Gleicher Sachverhalt wie vorher mit dem Unterschied, dass das Verwaltungsratsmitglied im Ausland an-
+    sässig ist.
+    Demzufolge unterliegen der Bruttolohn nach Artikel 91 DBG (ordentlicher, progressiver Tarifcode) und das
+    Verwaltungsratshonorar separat nach Artikel 93 DBG (linearer Tarif) der Quellensteuer.

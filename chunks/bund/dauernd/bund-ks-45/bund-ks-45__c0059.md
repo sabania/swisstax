@@ -10,9 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
 
-und des Tarifcodes G (Ersatzeinkünfte, die direkt von Versicherer an die quellensteuerpflich-
-tige Person ausbezahlt werden) bzw. des Tarifcodes Q (Grenzgänger nach dem Abkommen
-vom 11. August 1971 zwischen der Schweizerischen Eidgenossenschaft und der Bundesre-
-publik Deutschland zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern
-vom Einkommen und vom Vermögen [DBA-D; SR 0.672.913.62], welche die Voraussetzun-
-gen für den Tarifcode G erfüllen).
+<!-- Seite 15 -->
+4   Grundsätze zur Tarifanwendung
+
+4.1   Allgemeines
+Die Berechnung der geschuldeten Quellensteuer erfolgt zum anwendbaren Quellensteuerta-
+rif (Tarifcodes A, B, C, F und H bzw. L, M, N und P; vgl. Art. 1 Abs. 1 QStV).
+Der anwendbare Tarifcode richtet sich nach den persönlichen Verhältnissen der quellensteu-
+erpflichtigen Person im Zeitpunkt der Auszahlung, Überweisung, Gutschrift oder Fälligkeit
+der steuerbaren Leistung (vgl. Art. 2 Abs. 1 QStV). Dies gilt auch für nach dem Austritt des
+Arbeitnehmers fällige Leistungen (bspw. Bonus, Abgangsentschädigung).
+Änderungen, die eine neue Tarifeinstufung bedingen (bspw. Heirat, Scheidung, Trennung,
+Geburt von Kindern, Aufnahme oder Aufgabe einer Erwerbstätigkeit, Ein- oder Austritt in
+bzw. aus einer Landeskirche), werden bei der Quellenbesteuerung ab Beginn des auf die
+Änderung folgenden Monats entsprechend berücksichtigt.
+Bei der Festlegung des anwendbaren Tarifcodes ist es unerheblich, ob die Einkünfte in der
+Schweiz oder im Ausland erzielt werden.

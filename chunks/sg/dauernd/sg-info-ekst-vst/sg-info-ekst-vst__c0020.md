@@ -9,6 +9,8 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [07Z - Liegenschaften Zusammenzug 2023(1500 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_07Z_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 07Z - Liegenschaften Zusammenzug 2023")
-- [12 - Landwirte 2023(606 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_12_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 12 - Landwirte 2023")
-- [13 - Wegleitung für Landwirte 2023(580 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_13_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 13 - Wegleitung für Landwirte 2023")
+####
+
+- [01 - Steuererklärung 2022(3280 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_01_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2022")
+- [02 - Wertschriftenverzeichnis 2022(132 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_02_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2022")
+- [04 - Berufskosten 2022(1521 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_04_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2022")

@@ -10,13 +10,41 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 5
 
-4.1   Allgemeines
-Artikel 33 Absatz 1 Buchstabe j DBG trat am 1. Januar 2016 in Kraft und lautet folgendermassen:
-    „Von den Einkünften werden abgezogen:
-    j. die Kosten der berufsorientierten Aus- und Weiterbildung, ein-
-    schliesslich der Umschulungskosten, bis zum Gesamtbetrag von
-    12 000 Franken, sofern:
-    1. ein erster Abschluss auf der Sekundarstufe II vorliegt, oder
-    2. das 20. Lebensjahr vollendet ist und es sich nicht um die
+<!-- Seite 5 -->
+ der Sekun-
+ darstufe II
+ Ausbildung   Nein   Ja   Ja
+ für weiteren
+ Abschluss
+ auf Sekun-
+ darstufe II
+ Ausbildung   Nein   Ja   Ja
+ ab Tertiär-
+ stufe
+ Weiterbildung   Ja   Ja   Ja   Ja   Nein
+ (z.B. zur bes-
+ seren Berufs-
+ ausübung,
+ zur Anpas-
+ sung an neue
+ Anforderun-
+ gen)
+ Umschulung   Nein   Ja   Ja, ausser   Ja   Nein
+ in eine hö-   Ausbildungs-
+ here berufli-   kosten bis
+ che Stellung   zum ersten
+ oder in einen   Sek II-Ab-
+ neuen Beruf   schluss
+ Wiederein-   Ja   Ja   Ja, ausser   Ja   Nein
+ stieg   Ausbildungs-
+    kosten bis
+    zum ersten
+    Sek II-Ab-
+    schluss
+ Liebhaberei,   Nein   Nein   Nein   Nein   Nein
+ Hobby
 
-    Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II
+grau = nicht mögliche Sachverhaltskonstellation
+
+4   Steuerliche Behandlung der berufsorientierten Aus- und Weiterbildungs-
+    kosten

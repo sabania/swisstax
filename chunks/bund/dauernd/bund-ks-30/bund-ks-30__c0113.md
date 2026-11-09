@@ -4,23 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 113"
-seiten: "26"
+titel: "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen"
+ziffer: "14.6"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.6 · S. 34
 
-Erhält das Kind keine Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG, wird der
-Elterntarif demjenigen Elternteil mit dem höheren Reineinkommen gewährt, da davon aus-
-gegangen wird, dass er höhere finanzielle Beiträge an das Kind erbringt.
+14.6   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
+    minderjährigem Kind, ohne gemeinsame elterliche Sorge, keine Un-
+    terhaltszahlungen
 
-13.4.4   Gewährung des Elterntarifs bei unterstützungsbedürftigen Personen
+Wird kein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchsta-
+be c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgen-
+dermassen:
 
-Der Elterntarif wird ebenfalls gewährt, wenn eine steuerpflichtige Person mit einer unterstüt-
-zungsbedürftigen Person zusammenlebt. Vorausgesetzt wird auch hier, dass die Person den
-Unterhalt der unterstützungsbedürftigen Person zur Hauptsache bestreitet. In Weiterführung
-der Praxis zum bisherigen Artikel 36 Absatz 2 DBG ist dieses Erfordernis erfüllt, wenn die
-Voraussetzungen des Unterstützungsabzugs (Art. 35 Abs. 1 Bst. b DBG) gegeben sind (vgl.
-dazu Ziff. 11).
 
-13.4.5   Stichtagsprinzip
+14.6.1   Abzüge
+   Der Elternteil, der die elterliche Sorge innehält, kann den Kinderabzug sowie den Versi-
+    cherungs- und Sparzinsenabzug für das Kind geltend machen.
+   Der Elternteil, der die elterliche Sorge innehält, kann die von ihm nachgewiesenen Kin-
+    derdrittbetreuungskosten in Abzug bringen. Dem anderen Elternteil wird der Abzug nicht
+    gewährt.

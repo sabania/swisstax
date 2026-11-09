@@ -10,11 +10,8 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
 > Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 2
 
-  5. Die VE kann anstelle der Rente eine Kapitalabfindung ausrichten, wenn die Alters- oder   37 Abs. 3 BVG
-    Invalidenrente bzw. die Witwen-, Witwer- oder Waisenrente weniger als 10 bzw. 6 oder 2   37 Abs. 2 BVG
-    Prozent der Mindestaltersrente der AHV beträgt. Seit 2005 kann der Versicherte ein Viertel
-    seines Altersguthabens als Kapital verlangen.
-  6. Die obligatorischen Risikorenten müssen bei Männern bis zum Alter 65 und bei Frauen bis   36 Abs. 1 BVG
-    zum Alter 64 der Preisentwicklung angepasst werden. Dies geschieht erstmals
-    üblicherweise nach einer Laufzeit von 3 Jahren zu Beginn des folgenden Kalenderjahres.
-    Die Zeitpunkte der nachfolgenden Anpassungen entsprechen denjenigen der AHV-Renten.
+  9. Maximalbeträge gemäss der Verordnung über die steuerliche Abzugsberechtigung für   7 Abs. 1 BVV3
+    Beiträge an anerkannte Vorsorgeformen: Gebundene Vorsorgeversicherungen bei
+    Versicherungseinrichtungen und gebundene Vorsorgevereinbarungen mit Bankstiftungen.
+
+© 2026 by BSV/MAS/Math/Marie-Claude Sommer/Bern-CH   2

@@ -4,23 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 82"
-seiten: "18"
+titel: "Ziff. 13.4.2 Elterntarif – Konkubinatseltern mit minderjährigem Kind"
+ziffer: "13.4.2"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.2 Minderjährige Kinder · S. 25
 
-9.4   Berechnung des Abzuges
+Unverheiratet zusammenlebende Eltern mit minderjährigem Kind (Konkubinat)
 
-Basis für die Berechnung des Abzugs ist das niedrigere Erwerbseinkommen der Ehegatten.
-Davon können 50 Prozent in Abzug gebracht werden.
+Bei unverheirateten Eltern, die zusammenleben, ist bei der Zuweisung des Elterntarifs zu
+unterscheiden, ob eine gemeinsame elterliche Sorge besteht und ob Unterhaltsleistungen für
+das Kind geltend gemacht werden.
 
-Liegt das um die Gewinnungskosten, die Beiträge an die AHV/IV/EO/ALV und an die Säulen
-2 und 3a sowie die Prämien für die NBU gekürzte niedrigere Erwerbseinkommen unter dem
-Minimalansatz von 8’100 Franken, so kann nur die Höhe dieses gekürzten Zweiteinkommens
-abgezogen werden. Beträgt das gekürzte Zweiteinkommen zwischen 8’100 Franken und
-16'200 Franken, so gilt der Minimalansatz von 8’100 Franken. Für ein massgebendes Zweit-
-einkommen über 16'200 Franken kann die Hälfte dieses Einkommens abgezogen werden.
-Ab einem massgebenden Netto-Zweiteinkommen von 26'800 Franken ist der maximale Ab-
-zugsbetrag von 13'400 Franken erreicht. Eine zeitlich begrenzte oder teilzeitliche Erwerbstä-
-tigkeit führt zu keiner Kürzung des Abzuges.
+Wird die elterliche Sorge nicht gemeinsam ausgeübt, erhält derjenige Elternteil, der die elter-
+liche Sorge innehält und somit in der Regel auch Empfänger der Unterhaltszahlungen für das
+Kind ist, den Elterntarif. Werden keine Unterhaltszahlungen für das Kind geltend gemacht,
+wird ebenfalls dem Elternteil mit der elterlichen Sorge der Elterntarif gewährt.
+
+Bei gemeinsamer Ausübung der elterlichen Sorge wird der Empfänger der Unterhaltsleistun-
+gen für das Kind zum Elterntarif besteuert. Werden keine Unterhaltsleistungen geltend ge-
+macht, ist davon auszugehen, dass der Elternteil mit dem höheren Einkommen hauptsäch-
+lich für den Unterhalt des Kindes aufkommt und daher den Elterntarif erhält.

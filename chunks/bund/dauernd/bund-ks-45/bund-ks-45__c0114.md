@@ -5,28 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 114"
-seiten: "30"
+seiten: "29"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
 
-6.7   Ausscheidung von im Ausland geleisteten Arbeitstagen
-Quellensteuerpflichtige Personen mit Ansässigkeit in der Schweiz, welche für einen schwei-
-zerischen Arbeitgeber im Ausland Arbeitstage leisten, sind nach internem Recht grundsätz-
-lich auch für das Lohneinkommen dieser ausländischen Arbeitstage in der Schweiz steuer-
-pflichtig. Sind jedoch gemäss anwendbarem DBA die Voraussetzungen der Monteurklausel
-(vgl. Art. 15 OECD-MA) nicht erfüllt, fällt die Steuerbefugnis dem Tätigkeitsstaat zu.
-Bei quellensteuerpflichtigen Personen ohne Ansässigkeit in der Schweiz, die eine unselbst-
-ständige Erwerbstätigkeit bei einem Arbeitgeber mit Sitz oder Betriebsstätte bzw. tatsächli-
-cher Verwaltung in der Schweiz ausüben, kann der Schuldner der steuerbaren Leistung die
-Ausscheidung von im Ausland geleisteten Arbeitstagen gemäss innerstaatlichem Recht wie
-folgt vornehmen:
-Auszuscheiden sind nur diejenigen Arbeitstage, an welchen die Tätigkeit tatsächlich aus-
-serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
-beitsleistung zu erbringen ist (insb. Ferientage, Krankheitstage), unterliegen nicht der Steuer-
-ausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeitstage
-sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von 20
-Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als aus-
-ländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin- und
-Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im Ausland
-gearbeitet hat.
+    5. Halbjährliche Auszahlung des 13. Monatslohns (Juni / Dezember) gemäss Arbeitsvertrag:
+    Der Arbeitnehmer V. tritt per 1. Februar 2021 in die Unternehmung ein und tritt per 15. Juni 2021 wieder
+    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
+    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. Februar 2021 – 15. Juni 2021). Die Lohnzah-
+    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
+    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
+    pro Jahr).
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+
+    13. Monatslohn   2 250   3 000   2 250 / 135 x 180
+
+    Total   5 250   9 000

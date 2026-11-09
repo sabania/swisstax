@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/08_Einkauf_in_Pensionskasse__alle_Jahre_.pdf> · lokal: [ar-mb-08.pdf](../../../raw/ar/dauernd/ar-mb-08.pdf) · Volltext: [ar-mb-08.md](../../../sources/ar/dauernd/ar-mb-08.md)
 - **Abgerufen:** 2026-11-09 · sha256 `23f154cbac9035b6…`
 
-## Inhalt (8 Chunks)
+## Inhalt (7 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -20,7 +20,6 @@ generiert: tools/build_index.py
 | [c0002](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0002.md) | MB AR 08 – Abschnitt 2 | S. 1 |  |
 | [c0003](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0003.md) | MB AR 08 – Abschnitt 3 | S. 1 |  |
 | [c0004](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0004.md) | MB AR 08 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0005.md) | MB AR 08 – Abschnitt 5 | S. 1 |  |
+| [c0005](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0005.md) | MB AR 08 – Abschnitt 5 | S. 2 |  |
 | [c0006](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0006.md) | MB AR 08 – Abschnitt 6 | S. 2 |  |
 | [c0007](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0007.md) | MB AR 08 – Abschnitt 7 | S. 2 |  |
-| [c0008](../../../chunks/ar/dauernd/ar-mb-08/ar-mb-08__c0008.md) | MB AR 08 – Abschnitt 8 | S. 2 |  |

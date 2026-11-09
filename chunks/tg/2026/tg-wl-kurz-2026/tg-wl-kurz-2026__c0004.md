@@ -10,17 +10,15 @@ qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
 > TG · Steuerjahr 2026 · Kurz-WL TG 2026 · S. 1
 
-    erwerbender   für Motorräder: Fr. 0.40 pro Fahrkilometer
-    Personen   für Autos Ansätze Kanton (abgestuft nach jährlicher Fahrleistung):
-    bis   3 000 km   Fr. 0.60 pro Fahrkilometer
-    3 001 km   bis   5 000 km   Fr. 0.50 pro Fahrkilometer
-    über   5 000 km   Fr. 0.40 pro Fahrkilometer
-    bei 100%-Tätigkeit in der Regel für max. 225 Arbeitstage
-    für Autos Ansatz Bund: einheitlich Fr. 0.75 pro Fahrkilometer
-    2.5 Fahrkostenbeschränkung   Kanton   Bund
-    Maximalabzug   Fr. 6 000 Fr.   3 300
-    Mehrkosten für   3.1 Abzug Verpflegungsmehrkosten bei unzumutbarer Heimkehr am Mittag
-    auswärtige   oder bei durchgehender Schicht- oder Nachtarbeit Fr. 15 pro Tag max. Fr.   3 200
-    Verpflegung   3.2 Kantinen, Vergünstigung durch Arbeitgeber/in Fr. 7.50 pro Tag   max. Fr.   1 600
-    Übr. Berufsauslagen 4. Pauschalabzug 3% des Nettolohns, mindestens Fr. 2 000   max. Fr.   4 000
-    Wochenaufenthalt 5.2 für die auswärtige Verpflegung Fr. 30 pro Tag   max. Fr.   6 400
+    bei Vergünstigung durch Arbeitgeber/in Fr. 22.50 pro Tag   max. Fr.   4 800
+    Nebenerwerb   6. Pauschalabzug 20% des Nettolohns, mindestens Fr. 800   max. Fr.   2 400
+13.   Säule 3a   Erwerbstätige Personen mit 2. Säule (Pensionskasse)   max. Fr.   7 258
+    Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36 288
+14.   Versicherungs   Abzug für bezahlte Prämien und Sparzinsen   Kanton   Bund
+    prämien und   für gemeinsam besteuerten Personen max.   Fr. 7 000 Fr.   3 700
+    Sparzinsen   oder ohne Beiträge an die Säulen 2 und 3a max.   Fr.   5 550
+    für alleinstehende Personen max.   Fr. 3 500 Fr.   1 800
+    oder ohne Beiträge an die Säulen 2 und 3a max.   Fr.   2 700
+    pro Kind zusätzlich max.   Fr. 1 000 Fr.   700
+15.   Weitere Abzüge   15.3 Kosten für Drittbetreuung von Kinder unter 14 Jahren, pro Kind   Kanton   Bund
+    in der Regel 75% der Kosten, maximal aber   Fr. 10 100 Fr. 25 800

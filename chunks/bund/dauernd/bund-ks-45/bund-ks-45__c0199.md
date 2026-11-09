@@ -5,25 +5,28 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 199"
-seiten: "54"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 54
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
 
-    Quellensteuer   56   56   1713   79.80   79.80   155.80   1 077.20
-    Korrektur
-    +404   +40.00
-    Januar und Februar
-    Total
-    56   56   211   79.80   79.80   155.80   1 117.20
-    Quellensteuer
-    1 = H1 mit satzbestimmendem Jahreseinkommen von CHF 52 000.00 (CHF 4 000 x 13).
+    Zahlung eines Bonus nach Beendigung des Arbeitsverhältnisses:
+    2. Ein lediger Steuerpflichtiger übt seine Erwerbstätigkeit vom 1. Januar bis zum 31. Dezember des Jahres
+    2022 aus (Beendigung des Arbeitsverhältnisses). Während des Jahres 2022 hat er einen Bruttojahreslohn
+    von CHF 80 000.00 erzielt sowie einen Bonus über CHF 20 000.00 für im Jahr 2021 geleistete Arbeit er-
+    halten. Im Februar des Jahres 2023, d.h. nach Beendigung des Arbeitsverhältnisses, erhält er einen Bo-
+    nus über CHF 30 000.00, welcher für im Jahr 2022 geleistete Arbeit ausgerichtet wird. Der Bonus von
+    CHF 20 000.00 für das Jahr 2021 (ausbezahlt im Jahr 2022) muss für die Satzbestimmung des Bonus im
+    Jahr 2023 nicht berücksichtigt werden (aperiodische Leistung).
 
-    2 = H1 mit satzbestimmendem Jahreseinkommen von CHF 58 800.00 ([CHF 4 000 x 13] + [CHF 200 x 12]
+    Monat   Januar   Februar   März   …   Dezember Besteuerung
 
-    + CHF 4 400).
-    3 = (CHF 4 000 + CHF 600 + CHF 4 400) x 1.90 %.
+    Bruttolohn   0
 
-    4 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 4 000 x 1.90 %) x 2] –
+    Bonus   30 000
 
-    (2 x CHF 56).
+    Tarifcode   A0
+
+    Steuersatz (%)   16,01
+
+    Quellensteuer   4 800   4 800

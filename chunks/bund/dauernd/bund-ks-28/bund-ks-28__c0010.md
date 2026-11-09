@@ -10,5 +10,8 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 2
 
-    1
-    SR 642.11
+nisnehmer, sofern sie das übernommene Unternehmen nicht fortführen; die steuerliche Ab-
+rechnung erfolgt spätestens fünf Kalenderjahre nach Ablauf des Todesjahres des Erblassers.
+Die Ausführungsbestimmungen zu dieser Regelung sind in der Verordnung über die Besteu-
+erung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit
+(LGBV; Anhang I) festgehalten.

@@ -5,25 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 20"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 6
 
-Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
-kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Kapitaleinlagen durch die
-Verrechnungssteuer auch für die direkten Steuern massgeblich.
+<!-- Seite 6 -->
+2.2.3. Kapitaleinlagen aus Sanierungen
 
-2.2.   Spezialfälle
-
-2.2.1. Vorteilszuwendungen unter Schwestergesellschaften
-
-Bei einer Vorteilszuwendung unter Schwestergesellschaften erhalten die Beteiligten aus wirt-
-schaftlicher Sicht einen geldwerten Vorteil von der leistenden Gesellschaft, den sie in die be-
-günstigte Gesellschaft einlegen. Unter dem Kapitaleinlageprinzip qualifizieren Vorteilszuwen-
-dungen unter Schwestergesellschaften jedoch nicht als Einlagen in die KER bzw. Ausland-
-KER, da sie nicht direkt durch die Inhaber der Beteiligungsrechte geleistet werden und die
-übertragenen Mehrwerte in der übernehmenden Kapitalgesellschaft oder Genossenschaft
-nur als Aufwertung offengelegt werden können.
-
-2.2.2. Liberierung neuer Beteiligungsrechte durch Tochtergesellschaften
+Soweit Kapitaleinlagen nicht durch die Ausbuchung von handelsrechtlichen Verlustvorträgen
+vernichtet werden und direkt offen in das Eigenkapital der Gesellschaft eingelegt werden,
+gelten diese aufgrund der Massgeblichkeit der Handelsbilanz steuerrechtlich als KER bzw.
+Ausland-KER. Forderungsverzichte und direkte Kapitaleinlagen der Beteiligungsinhaber, die
+im Zuge der Sanierung erfolgswirksam gebucht werden, gelten nie als KER bzw. Ausland-
+KER.

@@ -4,57 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 176"
-seiten: "44"
+titel: "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 2/3)"
+ziffer: "Beilage 2, S. 9/13"
+seiten: "54"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 44
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 54
 
-<!-- Seite 44 -->
-    Seite 1
-
-
-Beilage 1
-    Familienkonstellationen I: Minderjährige Kinder
-    Mit
-    Unterhalts-   14.3.
-    zahlungen
-    14.3.
-    14.3./14.4./14.5.   Ohne gemeinsame elterl. Sorge
-    Ohne
-    A) Getrennte, geschiedene   Unterhalts-
-    oder unverheiratete   zahlungen
-    Paare mit Kindern
-    Mit
-    2 Haushalte   Unterhalts-
-    14.5.
-    14.4./14.5.   zahlungen
-    Mit gemeinsamer elterl. Sorge
-    Ohne
-    Unterhalts-   14.4.
-    zahlungen
-
-    Mit
-    Unterhalts- 14.9.
-    zahlungen
-
-    14.8./14.9.
-    Mit gemeinsamer elterl. Sorge   Ohne
-    Unterhalts- 14.8.
-    14.6./14.7./14.8./14.9./14.16.   zahlungen
-    14.6./14.7./14.8./14.9.
-    Gemeinsame Kinder   Mit
-    B) Konkubinatspaare mit   14.6./14.7.   Unterhalts-
-    Kindern   14.7.
-    Ohne gemeinsame elterl. Sorge   zahlungen
-
-    14.16.   Mit
-    1 Haushalt   Ohne
-    Keine gemeinsamen Kinder   Unterhalts-
-    zahlungen
-    = A)   Unterhalts- 14.6.
-    zahlungen
-    Ohne
-    Unterhalts-
-    zahlungen
-    = A)
+     Die Unterhaltszahlun-    Der Unterhaltszahlun-    Der Elternteil, der den   entfällt   Beide Elternteile werden
+   14.12. Getrennte,   gen an das volljährige   gen leistende Elternteil   Kinderabzug geltend   zum Grundtarif besteuert.
+   geschiedene oder unver-   Kind sind bei diesem   kann den Kinderabzug   machen kann.
+   heiratete Eltern (2 Haus-   steuerfrei.   geltend machen.    Leisten beide Elternteile
+   halte) mit volljährigem    Die Unterhaltszahlun-    Leisten beide Elternteile   Unterhaltszahlungen
+   Kind in Erstausbildung,   gen können vom leis-   Unterhaltszahlungen,   und erfüllen die Voraus-
+   mit Unterhaltszahlungen.   tenden Elternteil nicht   kann der Elternteil mit   setzungen von Art. 35
+   Kind hat eigenen Wohn-   mehr in Abzug gebracht   dem höheren Einkom-   Abs. 1 Bst. a bzw. Bst. b
+   sitz.   werden.   men den Kinderabzug   DBG, können beide den
+    geltend machen. Der   Abzug geltend machen.
+    andere Elternteil kann
+    den Unterstützungsab-

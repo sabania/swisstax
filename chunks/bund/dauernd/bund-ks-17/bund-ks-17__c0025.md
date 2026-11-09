@@ -10,20 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 17 · S. 7
 
-Verkauft eine versicherte Person ihr Wohneigentum und kauft sie in den zwei darauf folgen-
-den Jahren mit dem Erlös wieder ein Eigenheim, so kann der dem Vorbezug entsprechende
-Verkaufserlös vorübergehend auf ein Freizügigkeitskonto überwiesen werden, auf welchem
-Zinsen generiert werden. Dieses Geld kann innerhalb von zwei Jahren in neues Wohneigen-
-tum investiert werden (Art. 30d Abs. 4 BVG). Die Überweisung auf ein Freizügigkeitskonto
-(„Wartekonto“) zeitigt keine steuerlichen Wirkungen, da keine Rückzahlung des Vorbezugs
-erfolgt. Diese Lösung verhindert die Rückerstattung der bezogenen Steuer bei der Überwei-
-sung auf ein Freizügigkeitskonto gefolgt von einer neuen Besteuerung beim erneuten Kauf
-von Wohneigentum. Bei Reinvestition in ein Eigenheim verlassen jedoch die Zinsen, welche
-noch nie besteuert wurden, den Vorsorgebereich, indem sie vom Freizügigkeitskonto auf
-das Wohneigentum übertragen werden. Diese Zinsen unterliegen als Vorsorgekapital der
-Besteuerung nach Artikel 38 DBG, da es sich um eine Vorsorgeleistung gemäss Artikel 83a
-BVG handelt. Die Freizügigkeitseinrichtung hat in diesem Fall den Steuerbehörden einen
-Vorbezug für Wohneigentum im Umfang der Zinsen zu melden. Eine Meldung darüber muss
-seitens der Freizügigkeitseinrichtung auch an die Pensionskasse erfolgen (Art. 12 WEFV).
-Aus praktischen Gründen sind die auf dem Freizügigkeitskonto angefallenen Zinsen den
-Steuerbehörden nicht zu melden, solange sie den Betrag von Fr. 5'000.-- nicht übersteigen.
+Verzichtet die versicherte Person auf den Kauf eines neuen Eigenheims oder tätigt den Kauf
+erst nach Ablauf von zwei Jahren, muss der Vorbezug in die Pensionskasse zurückbezahlt
+werden. Die Freizügigkeitseinrichtung muss der Pensionskasse den Vorbezug inklusive der
+darauf anfallenden Zinsen überweisen, worauf die Pensionskasse die Rückzahlung des Vor-
+bezuges (ohne Zinsen) mittels offiziellen Formulars bestätigen muss. In diesem Fall unter-
+liegen die Zinsen keiner Besteuerung, da sie den Vorsorgekreis nicht verlassen.

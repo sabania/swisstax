@@ -10,20 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 16
 
-Gleichstellungsregeln:
-Ausländische kollektive Kapitalanlagen sind aufgrund folgender Gleichstellungsregeln steu-
-erlich schweizerischen kollektiven Kapitalanlagen gleichzustellen:
-    1. Anlageformen, welche in der Schweiz zum Vertrieb zugelassen sind; oder
-    2. Anlageformen, welche im Ausland einer anerkannten Aufsicht über kollektive Kapi-
-    talanlagen unterstehen; oder
-    3. vertraglich oder gesellschaftsrechtlich ausgestaltete offene Anlageformen,
-    a. deren Zweck die kollektive Kapitalanlage ist; und
-    b. die ihren Sitz im Ausland haben; und
-    c. deren Anlegerinnen und Anleger gegenüber der Anlageform oder einer ihr nahe
-    stehenden Gesellschaft einen Rechtsanspruch auf Rückzahlung ihrer Anteile
-    zum NAV haben; oder
-    4. vertraglich oder gesellschaftsrechtlich ausgestaltete geschlossene Anlageformen,
-    a. deren Zweck die kollektive Kapitalanlage ist; und
-    b. die ihren Sitz im Ausland haben.
+Zu Ziffer 3: Handelt es sich bei dieser Anlageform um eine juristische Person mit Rückgabe-
+recht der Anteile (vgl. Art. 119 Abs. 1 Bst. b KAG), ist diese aufgrund von Artikel 49 Absatz 3
+DBG einer SICAV gleichzustellen, da sie rechtlich diesem Fondstyp gleicht. Handelt es sich
+dagegen um eine Gesellschaft, die wegen des fehlenden Rückgaberechts als geschlossene
+kollektive Kapitalanlage zu qualifizieren ist, ist sie einer SICAF gleichzustellen.
 
-Siehe auch den Entscheidungsbaum in Anhang V.
+Der Rechtsanspruch der Anlegerinnen und Anleger auf Rückzahlung ihrer Anteile zum NAV
+ist aber erfüllt, sofern mindestens ein einmaliges Rückgaberecht pro Jahr vorgesehen ist.
+Eine Lockup-Periode von maximal fünf Jahren ändert nichts an der Erfüllung dieses Kriteri-
+ums.
+
+Zu Ziffer 4: Entspricht eine geschlossene kollektive Kapitalanlage (LP, GmbH & Co KG) ei-
+ner KmGK, sind die Gesellschafter als Anlegerinnen und Anleger zu qualifizieren, mit der
+Folge, dass sie hier Einkünfte aus beweglichem Vermögen realisieren.

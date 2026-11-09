@@ -1,0 +1,110 @@
+[
+{
+"id": "ar-form-05-2025__c0001",
+"titel": "Formular 5 S. 1 A – Private Schulden und Schuldzinsen (Ziff. 34.1 / 11)",
+"pfad": [
+"Schuldenverzeichnis",
+"A. Private Schulden"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "A",
+"stichworte": [
+"Schulden",
+"Hypothek",
+"Schuldzinsen",
+"Kredit",
+"Darlehen",
+"Gläubiger"
+],
+"positionen": [
+"schulden.privat",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Übertrag in Seite 4 Ziffer 34.1 bzw. Seite 3 Ziffer 11.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "ar-form-05-2025__c0002"
+},
+{
+"id": "ar-form-05-2025__c0002",
+"titel": "Formular 5 S. 1 B – Geschäftsschulden (Ziff. 34.2)",
+"pfad": [
+"Schuldenverzeichnis",
+"B. Geschäftsschulden"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "B",
+"stichworte": [
+"Geschäftsschulden",
+"Bilanzstichtag",
+"selbständig",
+"Jahresrechnung"
+],
+"positionen": [
+"schulden.privat"
+],
+"zusammenfassung": "Geschäftsschulden per 31. Dezember 2025 bzw. Bilanzstichtag; Schuldzinsen sind in der Jahresrechnung enthalten; Übertrag Seite 4 Ziffer 34.2.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-05-2025__c0001",
+"nachher": "ar-form-05-2025__c0003"
+},
+{
+"id": "ar-form-05-2025__c0003",
+"titel": "Formular 5 S. 2 A – Freiwillige Zuwendungen (Code 550, Ziff. 21.3)",
+"pfad": [
+"Freiwillige Zuwendungen / Parteispenden",
+"A. Freiwillige Zuwendungen"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "A",
+"stichworte": [
+"Spenden",
+"Zuwendungen",
+"gemeinnützig",
+"Spendenbestätigung",
+"Institution"
+],
+"positionen": [
+"abzug.spenden"
+],
+"zusammenfassung": "Liste der Zuwendungen 2025 mit Total (Code 550); Übertrag in Seite 3 Ziffer 21.3.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-05-2025__c0002",
+"nachher": "ar-form-05-2025__c0004"
+},
+{
+"id": "ar-form-05-2025__c0004",
+"titel": "Formular 5 S. 2 B – Parteispenden (Code 555, Ziff. 16.3)",
+"pfad": [
+"Freiwillige Zuwendungen / Parteispenden",
+"B. Parteispenden"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "B",
+"stichworte": [
+"Parteispende",
+"Partei",
+"Mitgliederbeitrag",
+"politische Partei"
+],
+"positionen": [
+"abzug.parteispenden"
+],
+"zusammenfassung": "Liste der Parteispenden 2025 mit Total (Code 555); Übertrag in Seite 3 Ziffer 16.3.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-05-2025__c0003",
+"nachher": null
+}
+]

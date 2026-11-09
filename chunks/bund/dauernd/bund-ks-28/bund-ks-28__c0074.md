@@ -5,32 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 74"
-seiten: "22"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
 
-    Fall 2
-    PV
-    2010 LS wird ins PV   PV   Dritte
-    überführt
-    (ohne Art. 18a DBG)   Differenz Ver-
-    kaufspreis ./. Ver-
-    2012 LS wird an   Wertzuwachs-   kehrswert im Zeit-
-    Dritte veräussert   gewinn   Art. 37b DBG   punkt Überführung
-    = steuerfreier
-    wieder eingebrachte   privater Kapital-
-    Abschreibungen   gewinn Art. 16
-    Abs. 3 DBG
-    Teil des Liquidati-
-    onsgewinns
+Finden jedoch sowohl die Überführung einer Liegenschaft als auch deren Veräusserung in-
+nerhalb der „Liquidationsperiode“ (Vorjahr und Liquidationsjahr) statt, so werden diese bei-
+den Vorgänge als Liquidationstätigkeit betrachtet und alle stillen Reserven, das heisst die
+wieder eingebrachten Abschreibungen und der Wertzuwachsgewinn, bilden Teil des Liquida-
+tionsgewinnes, auf welchen Artikel 37b DBG Anwendung findet. Ein Aufschub nach Artikel
+18a Absatz 1 DBG ist allerdings auch in diesen Fällen möglich.
 
-2. Mit Aufschub:
+Es sind folgende Fälle auseinander zu halten:
 
-a)   Eine Liegenschaft wird im Jahr n-1 vom Geschäftsvermögen ins Privatvermögen
-    überführt. Die steuerpflichtige Person macht dabei den Steueraufschub gemäss Artikel
-    18a DBG geltend. Die Liegenschaft wird im Jahr n+1 veräussert. In diesem Fall sind nur
-    die wieder eingebrachten Abschreibungen Teil des Liquidationsgewinnes (Anwendung
-    von Artikel 37b DBG, u.U. mittels eines Revisionsverfahrens). Der Wertzuwachsgewinn
-    wird infolge Aufschubes gemäss Artikel 18a DBG im Jahr n+1 als steuerbares Einkom-
-    men aus selbständiger Erwerbstätigkeit besteuert.
+1. Ohne Aufschub:

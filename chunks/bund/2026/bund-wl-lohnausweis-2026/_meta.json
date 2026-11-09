@@ -501,7 +501,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 32",
 "pfad": [],
 "seiten": [
-12
+11
 ],
 "artikel": null,
 "ziffer": null,
@@ -789,7 +789,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 50",
 "pfad": [],
 "seiten": [
-16
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -853,7 +853,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 54",
 "pfad": [],
 "seiten": [
-17
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -869,7 +869,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 55",
 "pfad": [],
 "seiten": [
-17
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -933,7 +933,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 59",
 "pfad": [],
 "seiten": [
-18
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -949,7 +949,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 60",
 "pfad": [],
 "seiten": [
-18
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -997,7 +997,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 63",
 "pfad": [],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1013,7 +1013,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 64",
 "pfad": [],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1029,7 +1029,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 65",
 "pfad": [],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1045,7 +1045,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 66",
 "pfad": [],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1061,7 +1061,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 67",
 "pfad": [],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1077,7 +1077,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 68",
 "pfad": [],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1093,7 +1093,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 69",
 "pfad": [],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1109,7 +1109,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 70",
 "pfad": [],
 "seiten": [
-20
+22
 ],
 "artikel": null,
 "ziffer": null,
@@ -1125,7 +1125,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 71",
 "pfad": [],
 "seiten": [
-20
+22
 ],
 "artikel": null,
 "ziffer": null,
@@ -1141,7 +1141,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 72",
 "pfad": [],
 "seiten": [
-21
+22
 ],
 "artikel": null,
 "ziffer": null,
@@ -1157,7 +1157,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 73",
 "pfad": [],
 "seiten": [
-21
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1173,7 +1173,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 74",
 "pfad": [],
 "seiten": [
-21
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1189,7 +1189,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 75",
 "pfad": [],
 "seiten": [
-22
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1205,7 +1205,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 76",
 "pfad": [],
 "seiten": [
-22
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1221,7 +1221,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 77",
 "pfad": [],
 "seiten": [
-22
+24
 ],
 "artikel": null,
 "ziffer": null,
@@ -1237,7 +1237,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 78",
 "pfad": [],
 "seiten": [
-22
+24
 ],
 "artikel": null,
 "ziffer": null,
@@ -1253,7 +1253,7 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 79",
 "pfad": [],
 "seiten": [
-22
+24
 ],
 "artikel": null,
 "ziffer": null,
@@ -1269,166 +1269,6 @@
 "titel": "WL Lohnausweis 2026 – Abschnitt 80",
 "pfad": [],
 "seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0079",
-"nachher": "bund-wl-lohnausweis-2026__c0081"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0081",
-"titel": "WL Lohnausweis 2026 – Abschnitt 81",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0080",
-"nachher": "bund-wl-lohnausweis-2026__c0082"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0082",
-"titel": "WL Lohnausweis 2026 – Abschnitt 82",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0081",
-"nachher": "bund-wl-lohnausweis-2026__c0083"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0083",
-"titel": "WL Lohnausweis 2026 – Abschnitt 83",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0082",
-"nachher": "bund-wl-lohnausweis-2026__c0084"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0084",
-"titel": "WL Lohnausweis 2026 – Abschnitt 84",
-"pfad": [],
-"seiten": [
-23
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0083",
-"nachher": "bund-wl-lohnausweis-2026__c0085"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0085",
-"titel": "WL Lohnausweis 2026 – Abschnitt 85",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0084",
-"nachher": "bund-wl-lohnausweis-2026__c0086"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0086",
-"titel": "WL Lohnausweis 2026 – Abschnitt 86",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0085",
-"nachher": "bund-wl-lohnausweis-2026__c0087"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0087",
-"titel": "WL Lohnausweis 2026 – Abschnitt 87",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0086",
-"nachher": "bund-wl-lohnausweis-2026__c0088"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0088",
-"titel": "WL Lohnausweis 2026 – Abschnitt 88",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0087",
-"nachher": "bund-wl-lohnausweis-2026__c0089"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0089",
-"titel": "WL Lohnausweis 2026 – Abschnitt 89",
-"pfad": [],
-"seiten": [
-24
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0088",
-"nachher": "bund-wl-lohnausweis-2026__c0090"
-},
-{
-"id": "bund-wl-lohnausweis-2026__c0090",
-"titel": "WL Lohnausweis 2026 – Abschnitt 90",
-"pfad": [],
-"seiten": [
 25
 ],
 "artikel": null,
@@ -1437,7 +1277,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-wl-lohnausweis-2026__c0089",
+"vorher": "bund-wl-lohnausweis-2026__c0079",
 "nachher": null
 }
 ]

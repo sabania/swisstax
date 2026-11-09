@@ -10,14 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
 
-7.3   Besteuerung von gesperrten oder nicht börsenkotierten
-    Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien sowie
-    unechten Mitarbeiterbeteiligungen im internationalen Verhältnis ......... 14
-7.3.1   Allgemeines.................................................................................................. 14
-7.3.2   „Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV) ...................................... 14
-7.3.2.1 „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel............................ 14
-7.3.2.2 „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 14
-7.3.3   „Export“ von Mitarbeiterbeteiligungen (Art. 8 MBV) ...................................... 15
-7.3.3.1 „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel ........................... 15
-7.3.3.2 „Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 15
-7.3.4   Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus
+    Mitarbeiterbeteiligungen, die erst bei Realisierung steuerbar sind ............... 16
+8   Mitwirkungs- und Bescheinigungspflichten ............................................ 18
+8.1   Arbeitgeber ................................................................................................. 18
+8.1.1   Allgemeines.................................................................................................. 18
+8.1.2   Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV) .................................... 19
+8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV) .................. 19
+8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) ...................................................... 19
+8.1.3   Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf
+    Mitarbeiteraktien und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV) 20
+8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen ............................................................... 20

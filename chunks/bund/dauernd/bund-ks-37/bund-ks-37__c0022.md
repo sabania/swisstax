@@ -10,12 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 5
 
-<!-- Seite 5 -->
- 2.3.1.2.2 Börsenkotierte Mitarbeiteroptionen
-Eine Mitarbeiteroption gilt im Sinne dieses Kreisschreibens als börsenkotiert, wenn sie an ei-
-ner Börse notiert ist und einen liquiden Handel aufweist, wobei sich der Handel nicht nur auf
-Mitarbeitende beschränken darf.
-
- 2.3.1.2.3 Gesperrte Mitarbeiteroptionen
-Gesperrte Mitarbeiteroptionen können nach ihrer Abgabe während einer bestimmten Zeit
-(Sperrfrist) weder veräussert noch ausgeübt werden.
+2.3.1.3 Anwartschaften auf Mitarbeiteraktien
+Anwartschaften auf Mitarbeiteraktien stellen dem Mitarbeitenden in Aussicht, in einem späte-
+ren Zeitpunkt eine bestimmte Anzahl Aktien entweder unentgeltlich oder zu Vorzugsbedin-
+gungen erwerben zu können. Die Übertragung der Aktien wird dabei in der Regel von Bedin-
+gungen abhängig gemacht, wie beispielsweise vom Bestehen eines Arbeitsverhältnisses.
+Mithin enthalten Anwartschaften auf Mitarbeiteraktien eine Entschädigung für künftige Leis-
+tungen, weshalb sie den echten Mitarbeiteroptionen gleichgestellt werden können (vgl.
+hierzu auch Ziff. 2.3.1 hievor). Restricted Stock Units (RSU) sind typische Anwendungsfälle
+solcher Anwartschaften.

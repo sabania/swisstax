@@ -4,15 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 13"
-seiten: "2"
+titel: "Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens (Teil 2/2)"
+ziffer: "3"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7
 
-14.3.2   Abzüge .................................................................................................................. 32
-14.3.3   Tarife ..................................................................................................................... 33
-14.4   Besteuerung der getrennten, geschiedenen oder unverheirateten Eltern (zwei
-    Haushalte) mit gemeinsamem minderjährigem Kind, mit gemeinsamer elterlicher
-    Sorge, mit oder ohne alternierende Obhut, keine Unterhaltszahlungen ................ 33
-14.4.1   Abzüge .................................................................................................................. 33
+Das minderjährige Kind ist Steuersubjekt und hat damit die Voraussetzungen der subjektiven
+Steuerpflicht in der Schweiz selber zu erfüllen, es wird aber in seinen Rechten und Pflichten
+grundsätzlich durch den Inhaber der elterlichen Sorge vertreten. Gemäss Artikel 9 Absatz 2
+DBG wird das Einkommen der unter elterlicher Sorge stehenden minderjährigen Kinder mit
+Ausnahme der Einkünfte aus Erwerbstätigkeit und der Erwerbsersatzeinkünfte dem Inhaber
+der elterlichen Sorge zugerechnet.
+
+Sind die Eltern verheiratet und werden sie gemeinsam veranlagt, wird das Einkommen der
+minderjährigen Kinder zum ehelichen Gesamteinkommen hinzugerechnet. Die Zurechnung
+erfolgt auch bei Stiefkindern, d.h. wenn nur einer der Ehegatten Elternteil ist und über die
+elterliche Sorge verfügt. Hingegen erfolgt keine Steuersubstitution bei Pflegeeltern. Ein Pfle-
+gekind, das nicht unter Vormundschaft steht, wird von derjenigen Person vertreten, welche
+die elterliche Sorge innehat.

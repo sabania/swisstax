@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 39"
-seiten: "8"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
 
-5   Spezialfragen
-5.1   Gewerbsmässiger Wertschriftenhandel
-Entscheidend für die Qualifikation als Einkommen aus kollektiver Kapitalanlage ist letztlich,
-dass die Fondsleitung oder die Organe der SICAV und KmGK selbständig handeln und die
-Anlegerinnen und Anleger kein Weisungsrecht ihnen gegenüber haben. Diesfalls werden die
-häufigen Wertschriftentransaktionen der kollektiven Kapitalanlagen den Anlegerinnen und
-Anlegern steuerlich nicht als gewerbsmässiger Wertschriftenhandel zugerechnet.
+Obwohl das KAG die Immobilienfonds den offenen kollektiven Kapitalanlagen vorbehält, kön-
+nen die KmGK ihre Mittel zur Verfolgung eines Bau- oder Immobilienprojektes auch in Lie-
+genschaften anlegen. In einem solchen Fall sind sie als Steuersubjekt zu behandeln.
 
-5.2   Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK)
-Die KmGK ist eine Personengesellschaft, deren ausschliesslicher Zweck die kollektive Kapi-
-talanlage ist (Art. 98 Abs. 1 KAG). Der Komplementär kann nur eine Aktiengesellschaft mit
+5.3   Umstrukturierungen
+5.3.1   Ebene der Kollektiven Kapitalanlage
+Gemäss Artikel 95 KAG sind folgende Umstrukturierungen von offenen kollektiven Kapitalan-
+lagen zulässig:
+       die Vereinigung durch Übertragung der Vermögenswerte und Verbindlichkeiten (Art.
+    95 Abs. 1 Bst. a KAG);
+       die Umwandlung in eine andere Rechtsform einer kollektiven Kapitalanlage (Art. 95
+    Abs. 1 Bst. b KAG);
+       für die SICAV: die Vermögensübertragung nach den Artikeln 69-77 FusG6 (Art. 95
+    Abs. 1 Bst. c KAG).

@@ -5,16 +5,9 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 65"
-seiten: "25"
+seiten: "27"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 25
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 27
 
-<!-- Seite 25 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
-
-Unbebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+1. 1. 23 - 119   27

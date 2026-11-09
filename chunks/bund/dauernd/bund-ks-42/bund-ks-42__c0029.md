@@ -5,16 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 29"
-seiten: "9"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 8
 
-4.7.1   Vom Arbeitgeber an den Arbeitnehmer oder direkt an das Bildungsinstitut geleistete
-    Zahlungen an die berufsorientierte Aus- und Weiterbildung
-Ist der Zusammenhang mit einer berufsorientierten Aus- und Weiterbildung des Arbeitnehmers
-klar erstellt und belegt, qualifizieren solche Leistungen des Arbeitgebers nach Artikel 17 Ab-
-satz 1bis DBG nicht als steuerbares Einkommen. Dies gilt unabhängig davon, ob die Leistung des
-Arbeitgebers an den Arbeitnehmer oder an das Bildungsinstitut erfolgt.
-Lautet dabei die Rechnung auf den Arbeitnehmer, bescheinigt der Arbeitgeber diese Vergütung
-im Lohnausweis in Ziffer 13.3 (vgl. Ziff. 4.6).
+4.6   Abzugsmöglichkeiten für Arbeitgeber und selbständig Erwerbstätige
+Arbeitgeber können nach Artikel 27 Absatz 2 Buchstabe e DBG bzw. Artikel 59 Absatz 1 Buch-
+stabe e DBG die von ihnen getragenen Kosten der berufsorientierten Aus- und Weiterbildung für
+das eigene Personal steuerlich zum Abzug bringen. Arbeitgeber, die Kosten der betriebsinternen
+Aus- und Weiterbildung für ihr eigenes Personal tragen, können diese nach den ordentlichen
+Bestimmungen steuerlich ebenfalls geltend machen. Gleiches gilt grundsätzlich auch für Leistun-
+gen des neuen Arbeitgebers bei Stellenantritt für Kosten von bereits abgeschlossenen berufsori-
+entierten Aus- und Weiterbildungen der steuerpflichtigen Person. Qualifizieren Kosten einer Aus-
+und Weiterbildung bei der steuerpflichtigen natürlichen Person nicht als Kosten der berufsorien-

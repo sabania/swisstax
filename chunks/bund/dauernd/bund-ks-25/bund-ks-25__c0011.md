@@ -10,12 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 2
 
-In der vorliegenden Version wurde das KS Nr. 25 strukturell angepasst und inhaltlich erwei-
-tert. Zum einen um die bestehende Praxis bei kollektiven Kapitalanlagen mit direktem Grund-
-besitz betreffend die steuerliche Behandlung von Einkäufen in laufende Nettoerträge bzw.
-Rückzahlungen an Anlegerinnen und Anleger auf den neusten Stand zu bringen, zum ande-
-ren um die konsequente Durchsetzung der Massgeblichkeit für Jahresrechnungen nach Arti-
-kel 957ff. des Bundesgesetzes betreffend die Ergänzung des Schweizerischen Zivilgesetz-
-buches [Fünfter Teil: Obligationenrecht] (OR)4 und die Massgeblichkeit der Jahresrechnung
-nach KAG sicherzustellen. Das vorliegende KS regelt die Besteuerung auf Stufe der kol-
-lektiven Kapitalanlage und auf Stufe der Anlegerinnen und Anleger.
+2   Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen
+Gemäss Artikel 7 Absatz 1 KAG gelten für aufsichtsrechtliche Zwecke als kollektive Kapital-
+anlagen Vermögen, die von Anlegerinnen und Anlegern zur gemeinschaftlichen Vermögens-
+anlage aufgebracht und für deren Rechnung verwaltet werden. Die Anlagebedürfnisse der
+Anlegerinnen und Anleger werden in gleichmässiger Weise befriedigt. Das KAG folgt der so-
+genannten „Treuhandlösung“, wonach die Fondsleitungen, die SICAV bzw. die KmGK das
+Fondsvermögen quasi-treuhänderisch für Rechnung ihrer Anlegerinnen und Anleger verwal-
+ten. Dabei sind – ausserhalb des Einanlegerfonds (vgl. Ziffer 5.6 hiernach) – mindestens
+
+1 SR 951.31
+
+2 SR 951.311
+
+3 SR 642.11
+
+4 SR 220

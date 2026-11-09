@@ -5,13 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 164"
-seiten: "44"
+seiten: "43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 43
 
-7.4   Änderung der persönlichen Verhältnisse während des Kalenderjahres
-Jede Änderung, die zu einer Anpassung des anwendbaren Tarifcodes führt (bspw. Heirat,
-Scheidung, Trennung, Geburt von Kindern, Aufnahme oder Beendigung einer Erwerbstätig-
-keit, Ein- oder Austritt aus einer Landeskirche), ist bei der Quellenbesteuerung erst im auf
-die Änderung folgenden Monat zu berücksichtigen.
+Mit diesen pauschalen Ermittlungen des satzbestimmenden Einkommens werden sowohl die
+Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
+des Jahres abgedeckt.
+Der Quellensteuerabzug ist jeweils im Zeitpunkt der Lohnzahlung vorzunehmen. Ferien- und
+Feiertagszuschläge sind im Zeitpunkt der Abrechnung und Auszahlung des Stunden- oder
+Tageslohns steuerpflichtig. Die Ablieferung der durch den Schuldner der steuerbaren Leis-
+tung bezogenen Quellensteuern erfolgt jedoch monatlich (vgl. Ziffern 9.3.3 und 9.3.4 unten).
+Ist der Arbeitnehmer mit dem bei ihm vorgenommenen Quellensteuerabzug nicht einverstan-
+den, kann er bei der zuständigen Steuerbehörde bis zum 31. März des auf die Fälligkeit der
+Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
+liche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).

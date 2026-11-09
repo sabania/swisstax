@@ -5,16 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 26"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
 
-2.3.2.3 Co-Investments
-Co-Investments von Mitarbeitenden sind insbesondere anzutreffen im Rahmen von Private
-Equity-Strukturen. Dabei werden häufig Instrumente zugeteilt, welche den Mitarbeitenden in
-der Regel erst dann entschädigen, wenn der Arbeitgeber verkauft wird oder an die Börse ge-
-bracht werden kann. Solche Co-Investments gelten insbesondere dann als unechte Mitarbei-
-terbeteiligungen, wenn die Beteiligungstitel dem Mitarbeitenden keine umfassenden Eigentü-
-merrechte (unbeschränktes Stimm- und Dividendenrecht, Recht auf Gewinn- und Liquidati-
-onsanteil) am Arbeitgeber einräumen.
+<!-- Seite 6 -->
+2.3.3 Künftige Entwicklungen
+Die Eidgenössische Steuerverwaltung (nachfolgend ESTV) kann neue Arten von Mitarbeiter-
+beteiligungen, welche ihr nach Inkrafttreten des vorliegenden Kreisschreibens unterbreitet
+werden, in Anwendung von Artikel 16 MBV in einem separaten Anhang auflisten und die ent-
+sprechende Liste publizieren.
+
+2.4   Sperrfrist sowie Vesting / Vestingperiode
+Unter einer Sperrfrist ist eine in der Regel zeitlich befristete Verfügungssperre auf vertragli-
+cher Basis zu verstehen, während welcher der Mitarbeitende die betreffenden Mitarbeiterbe-
+teiligungen insbesondere weder ausüben, veräussern, verpfänden noch anderweitig belasten
+darf.

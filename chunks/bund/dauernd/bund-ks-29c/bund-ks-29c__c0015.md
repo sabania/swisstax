@@ -10,15 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
 
-<!-- Seite 4 -->
-1.   Gegenstand des Kreisschreibens
+Art. 20
+[…]
+8
+ Absatz 3 gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den Artikeln
+653s ff. des Obligationenrechts (OR) geleistet werden, nur soweit sie die Rückzahlungen von
+Reserven im Rahmen dieses Kapitalbands übersteigen.
 
-Mit dem Bundesgesetz vom 23. März 2007 über die Verbesserung der steuerlichen Rahmen-
-bedingungen für unternehmerische Tätigkeiten und Investitionen (Unternehmenssteuerre-
-formgesetz II) wurden in Artikel 20 Absatz 3 und Artikel 125 Absatz 3 des Bundesgesetzes
-vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11) und in Artikel 5
-Absatz 1bis des Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer (VStG;
-SR 642.21) die Rückzahlung von Einlagen, Aufgeldern und Zuschüssen (Reserven aus Kapi-
-taleinlagen) von Inhabern der Beteiligungsrechte neu geregelt. Demnach wird die Rückzah-
-lung von Reserven aus Kapitaleinlagen an die Inhaber von Beteiligungsrechten der Rückzah-
-lung von Grund- oder Stammkapital gleichgestellt (Kapitaleinlageprinzip).
+VStG
+
+Art. 5
+[…]
+
+    Absatz 1bis gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den
+1septies
+
+Artikeln 653s ff. des OR geleistet werden, nur soweit sie die Rückzahlungen von Reserven
+im Rahmen dieses Kapitalbands übersteigen.

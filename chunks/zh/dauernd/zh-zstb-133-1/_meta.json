@@ -256,25 +256,6 @@
 },
 {
 "id": "zh-zstb-133-1__c0015",
-"titel": "1.Nachträgliche ordentliche Veranlagung für die Steuerperiode 2026 (Steuererklärung 2026)",
-"pfad": [
-"ZStB 133.1: Aufforderung zur Einreichung",
-"A. Natürliche Personen",
-"III. Nachträgliche ordentliche Veranlagung von quellensteuerpflichtigen ausländischen Arbeitnehmern im Jahr 2027",
-"1.Nachträgliche ordentliche Veranlagung für die Steuerperiode 2026 (Steuererklärung 2026)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0014",
-"nachher": "zh-zstb-133-1__c0016"
-},
-{
-"id": "zh-zstb-133-1__c0016",
 "titel": "2.Nachträgliche ordentliche Veranlagung für die Steuerperiode 2027 (Steuererklärung 2027)",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -289,17 +270,36 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0015",
-"nachher": "zh-zstb-133-1__c0017"
+"vorher": "zh-zstb-133-1__c0014",
+"nachher": "zh-zstb-133-1__c0016"
 },
 {
-"id": "zh-zstb-133-1__c0017",
+"id": "zh-zstb-133-1__c0016",
 "titel": "3.Auskünfte",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
 "A. Natürliche Personen",
 "III. Nachträgliche ordentliche Veranlagung von quellensteuerpflichtigen ausländischen Arbeitnehmern im Jahr 2027",
 "3.Auskünfte"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-133-1__c0015",
+"nachher": "zh-zstb-133-1__c0017"
+},
+{
+"id": "zh-zstb-133-1__c0017",
+"titel": "1.Pflicht zur Abgabe einer Steuererklärung",
+"pfad": [
+"ZStB 133.1: Aufforderung zur Einreichung",
+"B. Juristische Personen",
+"I. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte Bundessteuer",
+"1.Pflicht zur Abgabe einer Steuererklärung"
 ],
 "seiten": [],
 "artikel": null,
@@ -332,25 +332,6 @@
 },
 {
 "id": "zh-zstb-133-1__c0019",
-"titel": "1.Pflicht zur Abgabe einer Steuererklärung",
-"pfad": [
-"ZStB 133.1: Aufforderung zur Einreichung",
-"B. Juristische Personen",
-"I. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte Bundessteuer",
-"1.Pflicht zur Abgabe einer Steuererklärung"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0018",
-"nachher": "zh-zstb-133-1__c0020"
-},
-{
-"id": "zh-zstb-133-1__c0020",
 "titel": "2.Zustellung der Formulare",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -365,11 +346,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0019",
-"nachher": "zh-zstb-133-1__c0021"
+"vorher": "zh-zstb-133-1__c0018",
+"nachher": "zh-zstb-133-1__c0020"
 },
 {
-"id": "zh-zstb-133-1__c0021",
+"id": "zh-zstb-133-1__c0020",
 "titel": "3.Frist zur Einreichung der Steuererklärung",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -384,11 +365,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0020",
-"nachher": "zh-zstb-133-1__c0022"
+"vorher": "zh-zstb-133-1__c0019",
+"nachher": "zh-zstb-133-1__c0021"
 },
 {
-"id": "zh-zstb-133-1__c0022",
+"id": "zh-zstb-133-1__c0021",
 "titel": "2.Zustellung der Steuerformulare",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -403,11 +384,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0021",
-"nachher": "zh-zstb-133-1__c0023"
+"vorher": "zh-zstb-133-1__c0020",
+"nachher": "zh-zstb-133-1__c0022"
 },
 {
-"id": "zh-zstb-133-1__c0023",
+"id": "zh-zstb-133-1__c0022",
 "titel": "3.Frist zur Abgabe der Steuererklärung",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -422,11 +403,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0022",
-"nachher": "zh-zstb-133-1__c0024"
+"vorher": "zh-zstb-133-1__c0021",
+"nachher": "zh-zstb-133-1__c0023"
 },
 {
-"id": "zh-zstb-133-1__c0024",
+"id": "zh-zstb-133-1__c0023",
 "titel": "C. Fristerstreckungen für Steuererklärungen",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -439,11 +420,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0023",
-"nachher": "zh-zstb-133-1__c0025"
+"vorher": "zh-zstb-133-1__c0022",
+"nachher": "zh-zstb-133-1__c0024"
 },
 {
-"id": "zh-zstb-133-1__c0025",
+"id": "zh-zstb-133-1__c0024",
 "titel": "I. Ermessenseinschätzung",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -457,11 +438,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0024",
-"nachher": "zh-zstb-133-1__c0026"
+"vorher": "zh-zstb-133-1__c0023",
+"nachher": "zh-zstb-133-1__c0025"
 },
 {
-"id": "zh-zstb-133-1__c0026",
+"id": "zh-zstb-133-1__c0025",
 "titel": "E. Eintritt in die Steuerpflicht in der Steuerperiode 2027",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -474,11 +455,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0025",
-"nachher": "zh-zstb-133-1__c0027"
+"vorher": "zh-zstb-133-1__c0024",
+"nachher": "zh-zstb-133-1__c0026"
 },
 {
-"id": "zh-zstb-133-1__c0027",
+"id": "zh-zstb-133-1__c0026",
 "titel": "I. Zusätzlicher Steuerrückbehalt USA",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
@@ -492,16 +473,33 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0026",
-"nachher": "zh-zstb-133-1__c0028"
+"vorher": "zh-zstb-133-1__c0025",
+"nachher": "zh-zstb-133-1__c0027"
 },
 {
-"id": "zh-zstb-133-1__c0028",
+"id": "zh-zstb-133-1__c0027",
 "titel": "II. Anrechnung ausländischer Quellensteuern",
 "pfad": [
 "ZStB 133.1: Aufforderung zur Einreichung",
 "G. Rückerstattung oder Anrechnung ausländischer Quellensteuern",
 "II. Anrechnung ausländischer Quellensteuern"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-133-1__c0026",
+"nachher": "zh-zstb-133-1__c0028"
+},
+{
+"id": "zh-zstb-133-1__c0028",
+"titel": "H. Schenkungssteuer",
+"pfad": [
+"ZStB 133.1: Aufforderung zur Einreichung",
+"H. Schenkungssteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -596,23 +594,6 @@
 "zusammenfassung": null,
 "chunking": "überschriften",
 "vorher": "zh-zstb-133-1__c0032",
-"nachher": "zh-zstb-133-1__c0034"
-},
-{
-"id": "zh-zstb-133-1__c0034",
-"titel": "H. Schenkungssteuer",
-"pfad": [
-"ZStB 133.1: Aufforderung zur Einreichung",
-"H. Schenkungssteuer"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-133-1__c0033",
 "nachher": null
 }
 ]

@@ -4,29 +4,24 @@ quelle: zh-vkp-2026-zstb
 jur: zh
 jahre: [2026]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2026) – Abschnitt 10"
-seiten: "3"
+titel: "§ 47 Abs. 2 Vermögenssteuertarif – Verheiratetentarif"
+ziffer: "§ 47 Abs. 2"
+seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · S. 3
+> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 47 · S. 4
 
-leben, sowie für verwitwete, gerichtlich oder tatsächlich getrennt lebende,
-geschiedene und ledige Steuerpflichtige, die mit Kindern im Sinn von
-§ 34 Abs. 1 lit. a zusammenleben, beträgt die Einkommenssteuer (Ver-
-heiratetentarif):
-    0% für die ersten   Fr. 14 100
-    2% für die weiteren   Fr. 6 400
-    3% für die weiteren   Fr. 8 100
-    4% für die weiteren   Fr. 9 800
-    5% für die weiteren   Fr. 11 200
-    6% für die weiteren   Fr. 14 500
-    7% für die weiteren   Fr. 32 200
-    8% für die weiteren   Fr. 32 400
-    9% für die weiteren   Fr. 48 500
-    10% für die weiteren   Fr. 57 900
-    11% für die weiteren   Fr. 62 900
-    12% für die weiteren   Fr. 72 600
-    13% für Einkommensteile über   Fr. 370 600
+    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
+
+    leben, sowie für verwitwete, gerichtlich oder tatsächlich getrennt lebende,
+    geschiedene und ledige Steuerpflichtige, die mit Kindern im Sinn von
+    § 34 Abs. 1 lit. a zusammenleben, beträgt die Vermögenssteuer (Ver-
+    heiratetentarif):
+    0‰   für die ersten   Fr. 161 000
+    ½‰ für die weiteren   Fr. 242 000
+    1‰   für die weiteren   Fr. 402 000
+    1½‰ für die weiteren   Fr. 646 000
+    2‰   für die weiteren   Fr. 967 000
+    2½‰ für die weiteren   Fr. 967 000
+    3‰   für Vermögensteile über   Fr. 3 385 000
     Abs. 2bis und 3 unverändert.
-
-24.10. 2025 - OS Band 80   275

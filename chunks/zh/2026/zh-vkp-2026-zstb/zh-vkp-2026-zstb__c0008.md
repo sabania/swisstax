@@ -4,24 +4,35 @@ quelle: zh-vkp-2026-zstb
 jur: zh
 jahre: [2026]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2026) – Abschnitt 8"
-seiten: "2"
+titel: "§ 35 Abs. 2 Einkommenssteuertarif – Verheiratetentarif"
+ziffer: "§ 35 Abs. 2"
+seiten: "3-4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · S. 2
+> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 35 · S. 3–4
 
-    die nicht nach § 24 lit. j–m steuerfrei sind, werden 5 Prozent, jedoch
-    höchstens Fr. 5200, als Einsatzkosten abgezogen. Von den einzelnen
-    Gewinnen aus der Online-Teilnahme an Spielbankenspielen nach § 24
-    lit. k werden die vom Online-Spielerkonto abgebuchten Spieleinsätze
-    im Steuerjahr, jedoch höchstens Fr. 26 200, abgezogen.
-IV. Sozialabzüge   § 34. 1 Vom Reineinkommen werden für die Steuerberechnung
-    abgezogen:
-    a. als Kinderabzug:
-    für minderjährige Kinder unter elterlicher Sorge
-    oder Obhut des Steuerpflichtigen sowie für voll-
-    jährige Kinder, die in der beruflichen Erstaus-
-    bildung stehen und deren Unterhalt der Steuer-
-    pflichtige zur Hauptsache bestreitet,   je Fr. 9400
+    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
 
-    274
+leben, sowie für verwitwete, gerichtlich oder tatsächlich getrennt lebende,
+geschiedene und ledige Steuerpflichtige, die mit Kindern im Sinn von
+§ 34 Abs. 1 lit. a zusammenleben, beträgt die Einkommenssteuer (Ver-
+heiratetentarif):
+    0% für die ersten   Fr. 14 100
+    2% für die weiteren   Fr. 6 400
+    3% für die weiteren   Fr. 8 100
+    4% für die weiteren   Fr. 9 800
+    5% für die weiteren   Fr. 11 200
+    6% für die weiteren   Fr. 14 500
+    7% für die weiteren   Fr. 32 200
+    8% für die weiteren   Fr. 32 400
+    9% für die weiteren   Fr. 48 500
+    10% für die weiteren   Fr. 57 900
+    11% für die weiteren   Fr. 62 900
+    12% für die weiteren   Fr. 72 600
+    13% für Einkommensteile über   Fr. 370 600
+    Abs. 2bis und 3 unverändert.
+
+
+24.10. 2025 - OS Band 80   275
+
+    631.1   Ausgleich der kalten Progression ab 1. Januar 2026 – V

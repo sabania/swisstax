@@ -5,26 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 166"
-seiten: "45"
+seiten: "43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 45
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 43
 
-    2. Ein verheirateter Steuerpflichtiger wird am 25. August 2021 geschieden. Er übt eine unselbstständige Er-
-    werbstätigkeit mit einem Pensum von 100 % aus und erhält dafür einen Jahreslohn von CHF 65 000.00
-    (CHF 5 000 x 13).
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 75 600.00 (CHF 35 x 2'160)
 
-    Monat   Januar   …   August   September … November   Dezember   Besteuerung
-
-    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000
-
-    Tarifcode   B0   B0   A0   A0   A0
-
-    Steuersatz (%)   5,01   5,0   10,42   10,4   10,4
-
-    Quellensteuer   250   250   520   520   1 040   4 600
-
-    1 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+7.3.4 Quellensteuerberechnung bei unterjährigen Ein- und Austritten
+Wird die unselbstständige Erwerbstätigkeit während weniger als einem Kalenderjahr ausge-
+übt, ist der Lohn für die Satzbestimmung auf ein Jahr umzurechnen. Die Berechnung erfolgt
+auf einer Basis von 360 Tagen pro Jahr (30 Tage pro Monat, einschliesslich der Monate mit

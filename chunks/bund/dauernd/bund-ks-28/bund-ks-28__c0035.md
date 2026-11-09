@@ -10,16 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 9
 
-Art. 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
-Der geltend gemachte fiktive Einkauf wird steuerrechtlich an einen späteren Einkauf
-in eine Vorsorgeeinrichtung angerechnet.
-
-Art. 8   Besteuerung des fiktiven Einkaufs
-Der Betrag des fiktiven Einkaufs wird nach Artikel 38 DBG besteuert.
-
-3   SR 831.40
-4   SR 831.441.1
-5   SR 831.461.3
-6   SR 220
-
-    3
+    a.   Altersguthaben aus beruflicher Vorsorge, insbesondere:
+    1. Guthaben bei Vorsorgeeinrichtungen und Freizügigkeitseinrichtungen;
+    2. Guthaben der Säule 3a nach Artikel 60a Absatz 2 der Verordnung vom
+    18. April 19844 über die berufliche Alters-, Hinterlassenen- und Invali-
+    denvorsorge;
+    b.   Vorbezüge nach Artikel 3 der Verordnung vom 13. November 19855 über
+    die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorge-
+    formen;
+    c.   Vorbezüge nach Artikel 30c BVG und Artikel 331e des Obligationenrechts6
+    sowie Pfandverwertungen nach Artikel 331d Absatz 6 des Obligationen-
+    rechts;
+    d.   Barauszahlungen von Vorsorgeeinrichtungen, Freizügigkeitseinrichtungen
+    und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds;
+    e.   Invaliden- und Altersleistungen von Vorsorgeeinrichtungen, Freizügigkeits-
+    einrichtungen und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds.

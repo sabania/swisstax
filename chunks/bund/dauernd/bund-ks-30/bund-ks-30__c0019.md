@@ -4,17 +4,20 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 19"
-seiten: "3"
+titel: "Ziff. 5 Steuernachfolge des überlebenden Ehegatten – Erbenhaftung (Teil 1/2)"
+ziffer: "5"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 30 · 5 Steuernachfolge des überlebenden Ehegatten · S. 9
 
-14.13   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem volljährigem
-    Kind in Ausbildung, Kind lebt bei den Eltern, mit Unterhaltszahlungen ................. 38
-14.13.1   Unterhaltszahlungen.............................................................................................. 38
-14.13.2   Abzüge .................................................................................................................. 38
-14.13.3   Tarife ..................................................................................................................... 39
-14.14   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem volljährigem
-    Kind in Ausbildung, Kind lebt bei den Eltern, keine Unterhaltszahlungen ............. 39
-14.14.1   Abzüge .................................................................................................................. 39
+5   Steuernachfolge des überlebenden Ehegatten
+
+Der Tod beendet nach Artikel 8 Absatz 2 DBG die Steuerpflicht der natürlichen Personen.
+Soweit die vom Erblasser geschuldeten Steuern noch nicht veranlagt oder beglichen wurden,
+treten die Erben in seine Rechte und Pflichten ein. Gemäss Artikel 12 Absatz 1 DBG haften
+die Erben - zu denen auch der überlebende Ehegatte zu zählen ist - solidarisch für die vom
+Erblasser geschuldeten Steuern bis zur Höhe ihrer Erbteile, mit Einschluss der Vorempfän-
+ge. Dabei ist als massgeblicher Vorempfang zu berücksichtigen, was gemäss Artikel 626
+ZGB unter die gesetzliche Ausgleichungspflicht der Erben fällt. Der Einbezug der Voremp-
+fänge ist zeitlich unbeschränkt möglich.

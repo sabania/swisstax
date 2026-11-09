@@ -5,16 +5,34 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 70"
-seiten: "20"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 20
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 22
 
-    Kommen die Beiträge des Arbeitgebers jedoch nur bestimmten Arbeitnehmern zugute,
-    sei es durch Bezahlung an den Arbeitnehmer oder direkt an die Krippe, sind sie im Lohn
-    ausweis unter Ziffer 1 zum Bruttolohn hinzuzurechnen oder in Ziffer 7 separat zu dekla
-    rieren;
-•   Gratis-Parkplatz am Arbeitsort;
-•   Kosten für ärztliche Vorsorgeuntersuchungen, die auf Verlangen des Arbeitgebers oder
-    der Pensionskasse erfolgen;
-•   Gutschriften von Flugmeilen. Diese sind für geschäftliche Zwecke zu verwenden.
+<!-- Seite 22 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+Anhang
+Kanton   Adresse für die Bestellung von   Adresse für Auskünfte zum
+    Lohnausweis und Wegleitung   Ausfüllen des Lohnausweises
+
+AG   Kantonales Steueramt Aargau   Kantonales Steueramt Aargau
+    Dienste   Dienste
+    Tellistrasse 67   Tellistrasse 67
+    5001 Aarau   5001 Aarau
+    Telefon 062 835 25 30   Telefon 062 835 25 30
+    E-Mail steueramt@ag.ch   E-Mail steueramt@ag.ch
+AI   Kantonale Steuerverwaltung Appenzell I.Rh   Kantonale Steuerverwaltung Appenzell I.Rh.
+    Registerführung   Registerführung
+    Marktgasse   2 Marktgasse 2
+    9050 Appenzell   9050 Appenzell
+    Telefon 071 788 94 01   Telefon 071 788 94 01
+    E-Mail steueramt@ai.ch   E-Mail steuern@ai.ch
+AR   Kantonale Steuerverwaltung Appenzell A.Rh Kantonale Steuerverwaltung Appenzell A.Rh.
+    Kasernenstrasse 2   Kasernenstrasse 2
+    9100 Herisau   9100 Herisau
+    Telefon 071 353 62 99   Telefon 071 353 62 90
+    E-Mail steuerverwaltung@ar.ch   E-Mail steuerverwaltung@ar.ch
+BL   Steuerverwaltung Kanton Basel-Landschaft   Steuerverwaltung Kanton Basel-Landschaft
+    Geschäftsbereich Logistik & Projekte   Geschäftsbereich Gemeinden und Einsprachen

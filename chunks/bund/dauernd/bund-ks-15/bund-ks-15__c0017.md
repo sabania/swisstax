@@ -4,24 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 17"
-seiten: "4"
+titel: "Ziff. 2.3.2 Klassische Options- und Wandelanleihen"
+ziffer: "2.3.2"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.3 Kombinierte Produkte · S. 6
 
-<!-- Seite 4 -->
-2.1.3   Geldmarktpapiere
-Geldmarktpapiere sind Obligationen mit einer festen Laufzeit von nicht mehr als zwölf Mona-
-ten (Art. 4 Abs. 5 StG). Unter diese Kategorie fallen u.a. auch die sog. Geldmarktbuchforde-
-rungen des Bundes, der Kantone und der Gemeinden, die Treasury Bills und die Bankers
-Acceptances.
-
-2.1.4   Obligationen mit überwiegender Einmalverzinsung
-Eine überwiegende Einmalverzinsung der Obligation ist gegeben, wenn der überwiegende
-Teil des gesamten Nutzungsentgeltes im Emissionszeitpunkt bzw. aufgrund der Emissions-
-bedingungen auf dem Emissionsdisagio oder dem Rückzahlungsagio beruht.
-
-Reine Zerobonds sowie in der Regel Geldmarktpapiere sind ausschliesslich einmalverzins-
-lich ausgestaltet und fallen damit ohne weitere Abklärungen unter diese Kategorie von Obli-
-gationen.
+2.3.2   Klassische Options- und Wandelanleihen
+Sog. klassische Optionsanleihen und klassische Wandelanleihen liegen nur dann vor, wenn
+das Options- und Wandelrecht auf den Bezug von neu geschaffenen Beteiligungsrechten der
+die Anleihe emittierenden schweizerischen Gesellschaft oder eines mit dieser verbundenen
+in- oder ausländischen Unternehmens lautet. Klassische Optionsanleihen (cum Option) und
+klassische Wandelanleihen müssen zu pari oder mit einem Agio emittiert und jeweils zu pari
+zurückbezahlt werden. Ist eine der genannten Voraussetzungen nicht erfüllt, entfällt die Qua-
+lifikation des Finanzinstruments als klassische Options- oder Wandelanleihe und es liegt aus
+steuerlicher Sicht eine nicht klassische Anleihe vor.

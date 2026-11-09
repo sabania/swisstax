@@ -1,0 +1,111 @@
+[
+{
+"id": "sg-form-5-2025__c0001",
+"titel": "Formular 5 Schuldenverzeichnis – A. Private Schulden (Ziff. 34.1 / 11)",
+"pfad": [
+"Formular 5",
+"Schuldenverzeichnis",
+"A. Private Schulden"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "34.1 / 11",
+"stichworte": [
+"Schulden",
+"Schuldzinsen",
+"Hypothek",
+"Gläubiger",
+"Kredit",
+"Schuldenverzeichnis"
+],
+"positionen": [
+"schulden.privat",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Private Schulden per 31. Dezember 2025 und Schuldzinsen 2025; Total in Steuererklärung Seite 4 Ziffer 34.1 und Seite 3 Ziffer 11.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "sg-form-5-2025__c0002"
+},
+{
+"id": "sg-form-5-2025__c0002",
+"titel": "Formular 5 – B. Geschäftsschulden (Ziff. 34.2)",
+"pfad": [
+"Formular 5",
+"Schuldenverzeichnis",
+"B. Geschäftsschulden"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "34.2",
+"stichworte": [
+"Geschäftsschulden",
+"Bilanzstichtag",
+"Geschäftliche Schuldzinsen"
+],
+"positionen": [
+"schulden.privat"
+],
+"zusammenfassung": "Geschäftsschulden per 31.12.2025 bzw. Bilanzstichtag; geschäftliche Schuldzinsen sind in der Jahresrechnung enthalten und hier nicht aufzuführen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-5-2025__c0001",
+"nachher": "sg-form-5-2025__c0003"
+},
+{
+"id": "sg-form-5-2025__c0003",
+"titel": "Formular 5 Rückseite – A. Freiwillige Zuwendungen (Ziff. 21.3)",
+"pfad": [
+"Formular 5",
+"Freiwillige Zuwendungen / Parteispenden",
+"A. Freiwillige Zuwendung"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "21.3",
+"stichworte": [
+"Spenden",
+"Zuwendungen",
+"gemeinnützig",
+"Spendenliste"
+],
+"positionen": [
+"abzug.spenden"
+],
+"zusammenfassung": "Datum, Institution und Betrag der Zuwendungen 2025; Total in Steuererklärung Seite 3 Ziffer 21.3; Belege auf Verlangen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-5-2025__c0002",
+"nachher": "sg-form-5-2025__c0004"
+},
+{
+"id": "sg-form-5-2025__c0004",
+"titel": "Formular 5 Rückseite – B. Parteispenden (Ziff. 16.3)",
+"pfad": [
+"Formular 5",
+"Freiwillige Zuwendungen / Parteispenden",
+"B. Parteispenden"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "16.3",
+"stichworte": [
+"Parteispenden",
+"Partei",
+"Mitgliederbeitrag"
+],
+"positionen": [
+"abzug.parteispenden"
+],
+"zusammenfassung": "Datum, Partei und Betrag der Spenden 2025; Total in Steuererklärung Seite 3 Ziffer 16.3.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-5-2025__c0003",
+"nachher": null
+}
+]

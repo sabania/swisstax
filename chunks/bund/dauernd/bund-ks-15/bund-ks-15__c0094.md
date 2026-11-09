@@ -4,19 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 94"
-seiten: "22"
+titel: "Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons"
+ziffer: "Anh. III 6a"
+seiten: "25-26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25–26
 
-Aus verwaltungs- und verfahrensökonomischen Gründen werden die Zinskomponenten von
-LEPO mit Laufzeiten von nicht mehr als zwölf Monaten auf Zusehen hin steuerfrei belassen.
-Bei überjährigen Laufzeiten werden hingegen die Zinskomponenten im Zeitpunkt der Rück-
-zahlung bzw. Ausübung als steuerbarer Vermögensertrag gemäss Artikel 20 Absatz 1 Buch-
-stabe a DBG erfasst. Mangels gesetzlicher Grundlage wird keine Verrechnungssteuer erho-
-ben und fällt bei der Ausgabe der LEPO auch keine Emissionsabgabe an. Jedoch unterlie-
-gen überjährige LEPO auf Aktien im Sekundärmarkt der Umsatzabgabe, da sie als „Unterbe-
-teiligungen“ an Aktien im Sinne von Artikel 13 Absatz 2 Buchstabe c StG qualifizieren.
+1-015-DVS-2017-d / Anhang III
 
-Den LEPO steuerlich gleichgestellt werden Aktienzertifikate auf weniger als fünf Aktien.
+Die beschriebenen Produktemechanismen sind das Resultat einer Kombination von ge-
+mischter Diskontobligation, gemischter globalverzinslicher Obligation oder Zerobond und Op-
+tion(en). Die sog. bedingten Coupons ergeben sich aus der (bzw. den) vom Investor erwor-
+benen Call-Option(en). Aus ihr (bzw. ihnen) resultierende Zahlungen stellen im Privatvermö-
+gen steuerfreie Kapitalgewinne dar. Die im Voraus garantierten, fixen Zahlungen qualifizieren
+dagegen als steuerbarer Vermögensertrag. Zur rechnerischen Bestimmung, ob der Anlage-
+teil überwiegend einmalverzinslich ist oder nicht, können nur die garantierten Geldflüsse her-
+angezogen werden, und zwar zum jeweiligen Zeitpunkt, in welchem der Investor seinen
+Rechtsanspruch durchsetzen kann. Dabei ist die Summe der Barwerte der garantierten Zah-
+lungen während der Laufzeit der Einmalentschädigung gegenüberzustellen. Auch kapitalge-
+schützte strukturierte Produkte, die in Kombination mit entsprechender Optionsgestaltung zu
+sog. bedingten Couponzahlungen führen, gelten im Sinne des Kreisschreibens Nr. 15 als
+transparent und es finden die entsprechenden Regeln gemäss Ziffer 3.4. Anwendung.

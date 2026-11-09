@@ -4,22 +4,16 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 38"
-seiten: "8"
+titel: "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 2/2)"
+ziffer: "8.3"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit · S. 13
 
-Mit dem Bundesgesetz vom 18. Juni 2004 über die eingetragene Partnerschaft gleichge-
-schlechtlicher Paare (PartG) werden seit dem 1. Januar 2007 auch bei der direkten Bundes-
-steuer registrierte gleichgeschlechtliche Paare den Ehepaaren gleichgestellt. Obwohl die
-Ausführungen zu den Ehepaaren im vorliegenden Kreisschreiben grundsätzlich auch für die
-registrierten gleichgeschlechtlichen Paare gelten, wird im Interesse der besseren Lesbarkeit
-in der Regel nur die Bezeichnung "Ehegatten" bzw. "Ehepaar" verwendet.
-
-Die Gleichstellung hat zur Folge, dass die Einkommen der in rechtlich und tatsächlich unge-
-trennter Ehe lebenden Partner zusammengerechnet werden und der Verheiratetentarif an-
-gewendet wird. Leben die eingetragenen Partner mit Kindern zusammen, kommt der Eltern-
-tarif zur Anwendung. Leben die Partner getrennt, werden sie separat besteuert, wenn die
-Voraussetzungen, wie sie für die faktische Trennung der Ehepaare gelten, erfüllt sind (vgl.
-dazu Ziff. 1.3).
+Unter Ausbildung ist ein Lehrgang für eine berufliche Ausbildung wie beispielsweise eine
+Lehre oder ein Studium zu verstehen. Ebenfalls als Ausbildung wird die berufliche Weiterbil-
+dung, die mit dem erlernten oder gegenwärtig ausgeübten Beruf in Zusammenhang steht,
+sowie die im Hinblick auf einen Berufswechsel vorgenommene Umschulung anerkannt. Der
+Besuch eines Malunterrichtes oder eines Yogakurses beispielsweise gilt hingegen nicht als
+Ausbildung im engeren Sinne und ist daher als Freizeitgestaltung zu qualifizieren.

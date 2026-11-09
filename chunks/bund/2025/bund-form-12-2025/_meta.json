@@ -1,0 +1,50 @@
+[
+{
+"id": "bund-form-12-2025__c0001",
+"titel": "Formular 12 2025 – Abschnitt 1",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-form-12-2025__c0002"
+},
+{
+"id": "bund-form-12-2025__c0002",
+"titel": "Formular 12 2025 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-12-2025__c0001",
+"nachher": "bund-form-12-2025__c0003"
+},
+{
+"id": "bund-form-12-2025__c0003",
+"titel": "Formular 12 2025 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-12-2025__c0002",
+"nachher": null
+}
+]

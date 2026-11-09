@@ -5,19 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 50"
-seiten: "11"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 12
 
-Artikel 7 wie auch Artikel 8 MBV schreiben dem Arbeitgeber vor, welche Angaben er in den
-Fällen der anteilsmässigen Besteuerung nach Artikel 17d DBG zu bescheinigen hat. Anzu-
-merken ist, dass die Artikel 7 und 8 MBV auf Grund des ausdrücklichen Verweises in Arti-
-kel 9 MBV in analoger Weise auch auf weitere Sachverhalte anzuwenden sind, wie beispiels-
-weise, wenn ein Mitarbeitender aus dem Ausland in die Schweiz zuzieht, für kurze Zeit hier
-ansässig ist und noch vor dem Vesting wieder wegzieht oder umgekehrt. Die örtliche Zustän-
-digkeit der Besteuerung richtet sich nach den Artikeln 107 und 105 DBG. Die Bescheinigung
-bei Wegzug eines Mitarbeitenden ist der nach diesen Bestimmungen zuständigen kantona-
-len Behörde zuzustellen. Der Arbeitgeber hat in seiner Eigenschaft als Schuldner der steuer-
-baren Leistung die Quellensteuer jeweils bloss auf dem schweizerischen Anteil abzurech-
-nen.
+<!-- Seite 12 -->
+Als Arbeitstage im Sinne von Artikel 7 und 8 MBV gilt der Zeitraum, in welchem zwischen ei-
+nem Mitarbeitenden und seinem Arbeitgeber ein Arbeitsvertragsverhältnis besteht. Die in
+diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage und sonstigen Ab-
+wesenheiten (Reisetage, Krankheit, Militärdienst, Mutterschaftsurlaub etc.) werden dabei
+nicht in Abzug gebracht.
+
+Generell vorbehalten bleiben Bestimmungen in DBA oder weiteren Abkommen mit anderen
+Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa Art.
+15a DBA Deutschland über die Besteuerung von Grenzgängern).
+
+ 7.2 Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten
+    Mitarbeiteroptionen

@@ -2,13 +2,13 @@
 id: bund-ks-18a__c0004
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 4"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 1
+> Bund · Steuerjahr 2026 · KS 18a · S. 1
 
     5.3. Oberer Grenzbetrag ................................................................................................................. 5
     5.4. Abzug für Steuerpflichtige, die einer Einrichtung der beruflichen Vorsorge (2. Säule)

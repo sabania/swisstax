@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 229"
-seiten: "64"
+seiten: "61"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 61
 
-11.1 Allgemeine Grundsätze bei der nachträglichen ordentlichen Veranlagung
-Bei einer nachträglichen ordentlichen Veranlagung finden die ordentlichen Verfahrensbestim-
-mungen (vgl. Art. 122 ff. DBG) sowie die Steueranlage bzw. der Steuerfuss der anspruchs-
-berechtigten Gemeinde Anwendung. Die geschuldete Einkommenssteuer (auf Bundes-, Kan-
-tons- und Gemeindeebene) und die Vermögenssteuer (auf Kantons- und Gemeindeebene)
-werden aufgrund der ausgefüllten Steuererklärung ermittelt. Das steuerbare Einkommen be-
-misst sich nach den Einkünften des betreffenden Steuerjahres, wobei das gesamte weltweite
-Einkommen (und das Vermögen auf kantonaler Ebene) satzbestimmend berücksichtigt wird.
-Allfällige bereits bezahlte Quellensteuern werden zinslos an die ordentliche Steuer angerech-
-net (vgl. Art. 89 Abs. 6, Art. 89a Abs. 5 sowie Art. 99a Abs. 2 DBG).
-Hat ein in der Schweiz ansässiger quellensteuerpflichtiger Arbeitnehmer einmal einen Antrag
+9.5   Anspruchsberechtigter Kanton
+Der Schuldner der steuerbaren Leistung hat für Fälligkeiten ab dem 1. Januar 2021 die Quel-
+lensteuern seiner Arbeitnehmer direkt mit dem anspruchsberechtigten Kanton und nach des-
+sen Modell abzurechnen (vgl. Anhang III; Übersicht der Kantone mit Monatsmodell und Jah-
+resmodell).
+Die Anspruchsberechtigung des jeweiligen Kantons bestimmt sich wie folgt (vgl. Art. 107
+DBG):
+     Bei quellensteuerpflichtigen Arbeitnehmern mit steuerrechtlichem Wohnsitz oder Auf-
+    enthalt in der Schweiz: Mit der zuständigen Steuerbehörde des Wohnsitz- bzw. Aufent-
+    haltskantons (vgl. Art. 107 Abs. 1 Bst. a DBG).
+     Bei im Ausland ansässigen quellensteuerpflichtigen Arbeitnehmern ohne Wochenauf-
+    enthalterstatus: Mit der zuständigen Steuerbehörde des Sitz-, Verwaltungs- oder Be-
+    triebsstättekantons des Arbeitgebers (Ort der Eingliederung in den Betrieb; vgl.
+    Art. 107 Abs. 1 Bst. b DBG).

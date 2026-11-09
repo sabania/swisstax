@@ -4,36 +4,29 @@ quelle: zh-vkp-2024-zstb
 jur: zh
 jahre: [2025]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2024) – Abschnitt 11"
-seiten: "4"
+titel: "§ 47 Abs. 2 Vermögenssteuertarif – Verheiratetentarif"
+ziffer: "§ 47 Abs. 2"
+seiten: "4-5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · S. 4
+> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 47 · S. 4–5
+
+    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
 
     leben, sowie für verwitwete, gerichtlich oder tatsächlich getrennt lebende,
     geschiedene und ledige Steuerpflichtige, die mit Kindern im Sinn von
-    § 34 Abs. 1 lit. a zusammenleben, beträgt die Einkommenssteuer (Ver-
+    § 34 Abs. 1 lit. a zusammenleben, beträgt die Vermögenssteuer (Ver-
     heiratetentarif):
-    0% für die ersten   Fr. 13 900
-    2% für die weiteren   Fr. 6 300
-    3% für die weiteren   Fr. 8 000
-    4% für die weiteren   Fr. 9 700
-    5% für die weiteren   Fr. 11 100
-    6% für die weiteren   Fr. 14 300
-    7% für die weiteren   Fr. 31 800
-    8% für die weiteren   Fr. 31 900
-    9% für die weiteren   Fr. 47 900
-    10% für die weiteren   Fr. 57 200
-    11% für die weiteren   Fr. 62 100
-    12% für die weiteren   Fr. 71 600
-    13% für Einkommensteile über   Fr. 365 800
+    0‰   für die ersten   Fr. 159 000
+    ½‰ für die weiteren   Fr. 239 000
+    1‰   für die weiteren   Fr. 397 000
+    1½‰ für die weiteren   Fr. 637 000
+
+
+    322
+
+Ausgleich der kalten Progression ab 1. Januar 2024 – V   631.1
+    2‰   für die weiteren   Fr. 955 000
+    2½‰ für die weiteren   Fr. 955 000
+    3‰   für Vermögensteile über   Fr. 3 342 000
     Abs. 2bis und 3 unverändert.
-VIII. Steuertarif   § 47. 1 Die Vermögenssteuer beträgt (Grundtarif):
-    0‰   für die ersten   Fr.   80 000
-    ½‰ für die weiteren   Fr. 238 000
-    1‰   für die weiteren   Fr. 399 000
-    1½‰ für die weiteren   Fr. 636 000
-    2‰   für die weiteren   Fr. 956 000
-    2½‰ für die weiteren   Fr. 953 000
-    3‰   für Vermögensteile über   Fr. 3 262 000
-    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe

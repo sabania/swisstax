@@ -2,21 +2,23 @@
 id: bund-ks-18a__c0041
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 41"
-seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "10"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · S. 10
 
-Gemäss Artikel 3a Absatz 1 Buchstabe b BVV 3 besteht die Möglichkeit der vorzeitigen Aus-
-richtung der Altersleistung unter Einbringung des Guthabens in eine andere anerkannte Vor-
-sorgeform. Dieses Vorgehen setzt die vollständige Auflösung des entsprechenden Vorsorge-
-kontos bzw. der entsprechenden Versicherungspolice und den Abschluss einer neuen ge-
-bundenen Vorsorgeversicherung bzw. einer neuen gebundenen Vorsorgevereinbarung vo-
-raus (z.B. bei einer anderen Bank oder bei einer anderen Versicherungsgesellschaft). In sol-
-chen Übertragungsfällen ist keine Steuerbescheinigung auszustellen. Ein Splitting bestehen-
-der Vorsorgeguthaben ist nicht möglich. Der Steuerpflichtige kann nicht durch eine teilweise
-Übertragung vorhandener Altersguthaben der gebundenen Selbstvorsorge neue Vorsorge-
-konten oder Vorsorgeversicherungen (Säule 3a) bilden.
+<!-- Seite 10 -->
+Rückzahlung, wie sie beim Vorbezug in der zweiten Säule vorgesehen ist, ist dagegen in der
+Säule 3a nicht möglich. Im Übrigen kann der Versicherte den Anspruch auf Vorsorgeleistun-
+gen oder einen Betrag bis zur Höhe seines Vorsorgekapitals verpfänden, wobei die Artikel 8-
+10 der Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
+(WEFV: SR 831.411) sinngemäss gelten (vgl. Art. 4 Abs. 2 BVV 3). Die Begriffe "Wohneigen-
+tum", „Beteiligungen“ und "Eigenbedarf" richten sich nach den Artikeln 2-4 WEFV. Bei sol-
+chen Vorbezügen unterliegt im Zeitpunkt der Auszahlung stets nur der ausgerichtete Teilbe-
+zug der Besteuerung nach Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG. Damit beide
+Ehegatten Vorsorgeguthaben aus ihrer Säule 3a zur Amortisation der Hypothek oder zum
+Erwerb von Wohneigentum beziehen können, müssen sie beide im Grundbuch eingetragene
+Eigentümer (Mit- oder Gesamteigentümer) sein.

@@ -5,19 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 117"
-seiten: "31"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
 
-<!-- Seite 31 -->
-    2. Arbeitnehmer B. ist internationaler Wochenaufenthalter und erhält im April 2021 einen Bruttolohn in der
-    Höhe von CHF 10 000.00 sowie einen Bonus für das Vorjahr in der Höhe von CHF 30 000.00. Im Monat
-    April hat er an 4 Tagen in Grossbritannien gearbeitet. Im Vorjahr hat Arbeitnehmer B. an insgesamt 200
-    von Total 240 Arbeitstagen in der Schweiz gearbeitet.
-
-    Berechnung steuerbarer Bruttolohn April 2021:
-    Total an Arbeitstagen:   20 Tage
-    Arbeitstage Schweiz:   20 Tage – 4 Tage = 16 Tage
-    Massgebendes Ausscheidungsverhältnis:   16 CH-Arbeitstage zum Total von 20 Arbeitstagen
-    Steuerbares Einkommen:   CHF 10 000.00 / 20 x 16 = CHF 8 000.00
+6.7   Ausscheidung von im Ausland geleisteten Arbeitstagen
+Quellensteuerpflichtige Personen mit Ansässigkeit in der Schweiz, welche für einen schwei-
+zerischen Arbeitgeber im Ausland Arbeitstage leisten, sind nach internem Recht grundsätz-
+lich auch für das Lohneinkommen dieser ausländischen Arbeitstage in der Schweiz steuer-
+pflichtig. Sind jedoch gemäss anwendbarem DBA die Voraussetzungen der Monteurklausel
+(vgl. Art. 15 OECD-MA) nicht erfüllt, fällt die Steuerbefugnis dem Tätigkeitsstaat zu.
+Bei quellensteuerpflichtigen Personen ohne Ansässigkeit in der Schweiz, die eine unselbst-
+ständige Erwerbstätigkeit bei einem Arbeitgeber mit Sitz oder Betriebsstätte bzw. tatsächli-
+cher Verwaltung in der Schweiz ausüben, kann der Schuldner der steuerbaren Leistung die
+Ausscheidung von im Ausland geleisteten Arbeitstagen gemäss innerstaatlichem Recht wie
+folgt vornehmen:
+Auszuscheiden sind nur diejenigen Arbeitstage, an welchen die Tätigkeit tatsächlich aus-

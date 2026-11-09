@@ -4,19 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 86"
-seiten: "20"
+titel: "Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip"
+ziffer: "13.4.4"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif · S. 26
 
-<!-- Seite 20 -->
-10.2   Kinderabzug für minderjährige Kinder
+13.4.4   Gewährung des Elterntarifs bei unterstützungsbedürftigen Personen
 
-Eltern können für ihre minderjährigen Kinder den Kinderabzug geltend machen, wenn sie für
-deren Unterhalt sorgen. Dieses gesetzlich verlangte Erfordernis ist grundsätzlich erfüllt,
-wenn die Eltern bzw. der Elternteil die elterliche Sorge innehat. Die Voraussetzung "für den
-Unterhalt des Kindes sorgen" ist aber nicht zwingend an die elterliche Sorge geknüpft. Bei
-getrennt lebenden Eltern werden jedoch in der Regel die Unterhaltszahlungen für das Kind
-an den das Sorgerecht ausübenden Elternteil geleistet. Dieser kann den Kinderabzug gel-
-tend machen, während der leistende Elternteil die Unterhaltszahlungen voll absetzen kann.
+Der Elterntarif wird ebenfalls gewährt, wenn eine steuerpflichtige Person mit einer unterstüt-
+zungsbedürftigen Person zusammenlebt. Vorausgesetzt wird auch hier, dass die Person den
+Unterhalt der unterstützungsbedürftigen Person zur Hauptsache bestreitet. In Weiterführung
+der Praxis zum bisherigen Artikel 36 Absatz 2 DBG ist dieses Erfordernis erfüllt, wenn die
+Voraussetzungen des Unterstützungsabzugs (Art. 35 Abs. 1 Bst. b DBG) gegeben sind (vgl.
+dazu Ziff. 11).
+
+
+13.4.5   Stichtagsprinzip
+
+Artikel 36 DBG gibt keine Auskunft darüber, welcher Zeitpunkt für die Bestimmung des an-
+zuwendenden Tarifs massgebend ist. Aufgrund des engen Zusammenhangs zwischen Steu-
+ertarifen und Sozialabzügen ist das für die Sozialabzüge geltende Stichtagsprinzip gemäss
+Artikel 35 Absatz 2 DBG anzuwenden. Die Voraussetzungen für die Anwendbarkeit des El-
+terntarifs müssen daher am Ende der Steuerperiode oder der Steuerpflicht erfüllt sein.

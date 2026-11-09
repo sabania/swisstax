@@ -10,18 +10,22 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 12
 
-Für Kapitalleistungen, die von Personalvorsorgeeinrichtungen ausgerichtet werden, ist aus
-schliesslich das Formular 563 zu verwenden (Adresse siehe Rz 5). Diese Leistungen sind
-somit nicht im Lohnausweis zu deklarieren.
+<!-- Seite 12 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
-Beteiligungsrechte gemäss Beiblatt   Ziffer 5
+    Ziffer 3 aufzuführen (vgl. Art. 2 Abs. 3 Bst. b ExpaV).
 
-In diesem Feld ist das Erwerbseinkommen anzugeben, das dem Arbeitnehmer im entspre   29
-chenden Kalenderjahr aus Mitarbeiterbeteiligungen (z. B. Aktien und/oder Optionen usw.)
-zugeflossen ist (vgl. ESTV Kreisschreiben Nr. 37 «Besteuerung von Mitarbeiterbeteiligun
-gen»). Der genaue Betrag ist auch dann anzugeben, wenn die Mitarbeiterbeteiligung von
-einer dem Arbeitgeber nahestehenden Gesellschaft (z. B. der ausländischen Muttergesell
-schaft) eingeräumt wurde. Das Erwerbseinkommen wird auf Grund der Differenz zwischen
-Verkehrswert und Abgabe- bzw. Erwerbspreis berechnet. Falls der Verkehrswert der Mitar
-beiterbeteiligung von der Steuerbehörde genehmigt wurde, ist dies in Ziffer 15 des Lohnaus
-weises zu vermerken (vgl. Rz 68).
+Werden solche Leistungen vor oder nach der Zeit ausbezahlt, in welcher der Arbeitnehmer
+Wohnsitz in der Schweiz hatte, so sind sie ebenfalls in diesem Feld zu bescheinigen. Sie
+unterliegen allenfalls der Quellensteuer.
+
+Kapitalleistungen   Ziffer 4
+
+Auf dieser Zeile ist vorab die Art bzw. der Grund der Kapitalleistung anzugeben, die dem Ar   28
+beitnehmer ausbezahlt wird. Möglicherweise erfolgt die Besteuerung zu einem reduzierten
+Steuersatz (z. B. Kapitalleistung für Vorsorge). Zusätzlich ist im entsprechenden Feld der Be
+trag dieser Leistung einzutragen (wie bei mehreren Leistungen vorzugehen ist, vgl. Rz 26).
+Als solche Kapitalleistungen fallen in Betracht:
+•   Abgangsentschädigungen mit Vorsorgecharakter;
+•   Kapitalleistungen mit Vorsorgecharakter;
+•   Lohnnachzahlungen (inkl. Lohnnachgenuss) usw.

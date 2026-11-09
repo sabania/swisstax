@@ -5,22 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 48"
-seiten: "12"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 11
 
-    Der der Quellensteuer unterliegende Lohn (= Bruttolohn + QST) ergibt sich anhand folgender Be-
-    rechnung:
-
-    5 250.00 x 100
-    = 6 019.95
-    87.21 (100 - 12.79)
-
-    3. Schritt
-
-    Die geschuldete QSt kann auf zwei Wegen ermittelt werden:
-
-    6 019.95 x 12.79   = 769.95   oder   6 019.95 – 5 250.00 = 769.95
-
-    100
+     Reglementarische Leistungen des Arbeitgebers an rein patronal finanzierte Vorsorge-
+    einrichtungen;
+     Beiträge des Arbeitgebers an die obligatorische Unfallversicherung nach dem Bundes-
+    gesetz vom 20. März 1981 über die Unfallversicherung (UVG; SR 832.20), an die Be-
+    rufsunfallversicherung (BUV) und die Nichtberufsunfallversicherung (NBUV) sowie
+     Beiträge für vom Arbeitgeber abgeschlossene Kollektivkrankentaggeld- und Kollektiv-
+    UVG-Zusatzversicherungen.
+In den Quellensteuertarifen sind pauschale Abzüge für die ordentlichen Arbeitnehmerbei-
+träge an die berufliche Vorsorge (BVG) und die NBUV enthalten. Sieht das Reglement eine
+davon abweichende Aufteilung der Beiträge zwischen Arbeitgeber und Arbeitnehmer vor, er-
+folgt keine Korrektur des im Quellensteuertarif eingerechneten Abzugs.
+Vereinbart der Arbeitgeber mit einem vorübergehend in die Schweiz entsandten Arbeitneh-
+mer, dass dieser durch die unterschiedliche Steuerbelastung zwischen dem ursprünglichen

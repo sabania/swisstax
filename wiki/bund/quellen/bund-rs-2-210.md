@@ -24,7 +24,7 @@ generiert: tools/build_index.py
 | [c0006](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0006.md) | RS 2-210 – Abschnitt 6 | S. 2 |  |
 | [c0007](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0007.md) | RS 2-210 – Abschnitt 7 | S. 2 |  |
 | [c0008](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0008.md) | RS 2-210 – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0009.md) | RS 2-210 – Abschnitt 9 | S. 3 |  |
+| [c0009](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0009.md) | RS 2-210 – Abschnitt 9 | S. 2 |  |
 | [c0010](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0010.md) | RS 2-210 – Abschnitt 10 | S. 3 |  |
 | [c0011](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0011.md) | RS 2-210 – Abschnitt 11 | S. 3 |  |
 | [c0012](../../../chunks/bund/2025/bund-rs-2-210/bund-rs-2-210__c0012.md) | RS 2-210 – Abschnitt 12 | S. 3 |  |

@@ -2,22 +2,25 @@
 id: bund-ks-18a__c0035
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 35"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · S. 8
 
-f)   Erwerbstätige, die das Referenzalter überschritten haben
-Leistet der Vorsorgenehmer keine Beiträge mehr in eine Vorsorgeeinrichtung, weil er das
-Referenzalter bereits überschritten hat und Rentenbezüger ist (passive Zugehörigkeit), ist er
-aber weiterhin erwerbstätig, kann er bis fünf Jahre nach Erreichen des Referenzalters bis 20
-Prozent des Erwerbseinkommens, jedoch höchstens 40 Prozent des oberen Grenzbetrages
-nach Artikel 8 Absatz 1 BVG in die Säule 3a einzahlen.
+6.   Ausrichtung und Besteuerung der Leistungen
+6.1. Grundsätze
+Die gebundene Selbstvorsorge dient ausschliesslich und unwiderruflich der Vorsorge und
+vermittelt nur Anwartschaften. Altersleistungen aus der Säule 3a dürfen deshalb frühestens
+fünf Jahre vor Erreichen des Referenzalters ausgerichtet werden (Art. 3 Abs. 1 BVV 3). Ver-
+einbarungen, die ein Vertragsende nach Erreichen des 70. Altersjahres vorsehen, sind unzu-
+lässig. Ebenso ist der Abschluss eines neuen Vorsorgevertrages nach diesem Termin aus-
+geschlossen.
 
-Ist der Vorsorgenehmer jedoch noch aktiv bei einer Vorsorgeeinrichtung versichert (selbst
-wenn keine Beiträge mehr geleistet werden), kann er bis höchstens fünf Jahre nach Errei-
-chen des Referenzalters jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Ab-
-satz 1 BVG in die Säule 3a einzahlen.
+Mit Erreichen des Referenzalters fällt der anwartschaftliche Charakter grundsätzlich weg und
+das Guthaben in der Säule 3a wird aus steuerlicher Sicht fällig. Der anwartschaftliche Cha-
+rakter bleibt nur dann bestehen, wenn über das Referenzalter hinaus eine Erwerbstätigkeit
+ausgeübt wird. Spätestens fünf Jahre nach Erreichen des Referenzalters fällt jedoch der an-
+wartschaftliche Charakter dahin. Es muss eine Auszahlung erfolgen, welche zu besteuern

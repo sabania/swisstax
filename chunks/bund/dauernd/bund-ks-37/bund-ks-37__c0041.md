@@ -10,19 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 9
 
-3.4.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)
-Muss ein Mitarbeitender bei Beendigung des Arbeitsverhältnisses aufgrund einer reglemen-
-tarischen bzw. vertraglichen Verpflichtung Mitarbeiteraktien an seinen Arbeitgeber zurückge-
-ben, kann daraus entweder eine im Arbeitsverhältnis begründete Vermögenseinbusse oder
-steuerbares Einkommen resultieren. In der positiven Differenz zwischen dem Rücknahme-
-preis und dem (entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert re-
-alisiert der Mitarbeitende steuerbares Einkommen aus Erwerbstätigkeit und nicht etwa einen
-steuerfreien privaten Kapitalgewinn. Deshalb ist in diesen Fällen eine Bescheinigung sinnge-
-mäss mit den Angaben nach Artikel 11 Absatz 4 MBV zu erstellen. Das steuerbare Einkom-
-men im Zeitpunkt der Rückgabe bemisst sich diesfalls nach der Differenz zwischen dem
-(entsprechend der Restsperrfrist diskontierten) Verkehrs- resp. Formelwert der zurückgege-
-benen Mitarbeiteraktien und dem höheren Rückgabepreis. Im Falle einer entschädigungslo-
-sen oder unter dem aktuellen Verkehrswert liegenden Rückgabe der Mitarbeiteraktien kann
-der Mitarbeitende die Vermögenseinbusse in der Steuerperiode der Rückgabe der Mitarbei-
-teraktien durch einen Gewinnungskostenabzug vom Einkommen geltend machen (vgl. Art.
-12 Abs. 1 MBV).
+    Beispiel:
+    Mitarbeiter A hat am 15. März 2010 eine für 10 Jahre gesperrte Mitarbeiter-
+    aktie erworben. Am 30. September 2013 kündigt der Mitarbeiter A sein Ar-
+    beitsverhältnis. Entsprechend dem Beteiligungsplan hat er die Aktie zum
+    ursprünglichen Erwerbspreis von 800 Franken zurückzugeben. Könnte Mit-
+    arbeiter A frei über die Mitarbeiteraktie verfügen, würde die noch für 6,46
+    Jahre (n) gesperrte Aktie in eine ungesperrte Aktie umgewandelt. Beträgt
+    der (volle) Börsenkurs am 30. September 2013 beispielsweise 1'500 Fran-
+    ken pro Aktie (x), dann beträgt der – unter Berücksichtigung der noch aus-
+    stehenden 6,46 Sperrfristjahre – reduzierte Verkehrswert in Anwendung
+    von Artikel 17b Absatz 2 DBG lediglich 68,632 Prozent (100 : 1,06 6,46) des
+    vollen Verkehrswertes, d.h. 1'029 Franken. Da er die Mitarbeiteraktie zum

@@ -1,0 +1,208 @@
+[
+{
+"id": "ar-form-02-2025__c0001",
+"titel": "Formular 2 AR Wertschriften- und Guthabenverzeichnis – Zweck und Bestätigung",
+"pfad": [
+"Formular 2"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Wertschriftenverzeichnis",
+"Guthabenverzeichnis",
+"Verrechnungssteuer",
+"Rückerstattungsantrag",
+"35%"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Verzeichnis ist Bestandteil der Steuererklärung; Unterschrift bestätigt, dass auf allen Erträgen unter Rubrik A die Verrechnungssteuer mit 35% abgezogen wurde.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "ar-form-02-2025__c0002"
+},
+{
+"id": "ar-form-02-2025__c0002",
+"titel": "Fragen Erbschaften (Codes 960, 961) – erhaltene und unverteilte Erbschaft",
+"pfad": [
+"Formular 2",
+"Seite 1",
+"Erbschaften"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "960–961",
+"stichworte": [
+"Erbschaft",
+"Vermächtnis",
+"unverteilte Erbschaft",
+"Erbteilung",
+"Erbanteil"
+],
+"positionen": [
+"info.schenkungen_erbschaften",
+"einkommen.erbschaften_unverteilt",
+"vermoegen.erbschaften_beteiligungen"
+],
+"zusammenfassung": "Angaben zu im Jahr 2025 erhaltener Erbschaft (Code 960) und Beteiligung an unverteilter Erbschaft (Code 961, ohne Liegenschaften, diese in Formular 7).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0001",
+"nachher": "ar-form-02-2025__c0003"
+},
+{
+"id": "ar-form-02-2025__c0003",
+"titel": "Fragen Schenkungen (Codes 962, 963) – erhalten und verschenkt",
+"pfad": [
+"Formular 2",
+"Seite 1",
+"Schenkungen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "962–963",
+"stichworte": [
+"Schenkung",
+"Erbvorbezug",
+"verschenkt",
+"Verwandtschaftsgrad"
+],
+"positionen": [
+"info.schenkungen_erbschaften"
+],
+"zusammenfassung": "Angaben zu 2025 erworbenen (Code 962) und verschenkten Vermögenswerten (Code 963) mit Schenkungsdatum, Betrag und Verwandtschaftsgrad.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0002",
+"nachher": "ar-form-02-2025__c0004"
+},
+{
+"id": "ar-form-02-2025__c0004",
+"titel": "Kollektiv-/Kommanditgesellschaften, Beilagen und Unterschrift",
+"pfad": [
+"Formular 2",
+"Seite 1",
+"Beilagen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Kollektivgesellschaft",
+"Kommanditgesellschaft",
+"Formular 25",
+"Beilagen",
+"Steuerauszug",
+"Unterschrift"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Bei Beteiligung an Kollektiv-/Kommanditgesellschaft erfolgt die Rückerstattung der Verrechnungssteuer mit Formular 25 direkt bei der ESTV; Beilagen: Ergänzungsblätter, Steuerauszüge, Bankbescheinigungen, Lotto-/Totobescheinigungen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0003",
+"nachher": "ar-form-02-2025__c0005"
+},
+{
+"id": "ar-form-02-2025__c0005",
+"titel": "Verzeichnis der Vermögenswerte – Tabellenkopf (Seite 2) (Teil 1/2)",
+"pfad": [
+"Formular 2",
+"Seite 2",
+"Verzeichnis"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Wertschriften",
+"Valoren-Nr.",
+"IBAN",
+"Steuerwert 31. Dezember 2025",
+"Bruttoertrag",
+"Konto"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Tabelle mit Code, Nennwert/Stückzahl, Valoren-/IBAN-Nr., Bezeichnung, Datum, Steuerwert am 31. Dezember 2025 und Bruttoertrag 2025 (A mit, B ohne Verrechnungssteuerabzug).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0004",
+"nachher": "ar-form-02-2025__c0006"
+},
+{
+"id": "ar-form-02-2025__c0006",
+"titel": "Verzeichnis der Vermögenswerte – Tabellenkopf (Seite 2) (Teil 2/2)",
+"pfad": [
+"Formular 2",
+"Seite 2",
+"Verzeichnis"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Wertschriften",
+"Valoren-Nr.",
+"IBAN",
+"Steuerwert 31. Dezember 2025",
+"Bruttoertrag",
+"Konto"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"einkommen.wertschriften"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0005",
+"nachher": "ar-form-02-2025__c0007"
+},
+{
+"id": "ar-form-02-2025__c0007",
+"titel": "Totale, Code-Abkürzungen und Übertrag (Ziff. 4.1, 4.2, 4.3, Seite 4 Ziff. 30.1)",
+"pfad": [
+"Formular 2",
+"Seite 2",
+"Totale"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "4.1–4.3, 30.1",
+"stichworte": [
+"Total Erträge A",
+"Verrechnungssteueranspruch",
+"Geschäftsvermögen",
+"Privatbeteiligung",
+"Übertrag Steuererklärung",
+"DA-1"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"berechnung.total",
+"einkommen.beteiligungen_qualifiziert",
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Verrechnungssteueranspruch 35 % vom Bruttoertrag (Total A); Total zu übertragen in Steuererklärung Seite 4 Ziffer 30.1 und Seite 2 Ziffer 4.1; BP-Erträge in Ziff. 4.2, BG-Erträge in Ziff. 4.3.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-02-2025__c0006",
+"nachher": null
+}
+]

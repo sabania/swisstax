@@ -155,6 +155,22 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-rs-2-219__c0009",
+"nachher": "bund-rs-2-219__c0011"
+},
+{
+"id": "bund-rs-2-219__c0011",
+"titel": "RS 2-219 – Abschnitt 11",
+"pfad": [],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-rs-2-219__c0010",
 "nachher": null
 }
 ]

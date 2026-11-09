@@ -5,38 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 108"
-seiten: "28"
+seiten: "27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 27
 
-    Total   9 500   12 562.50
-
-    2. Der Arbeitnehmer D. arbeitet bei der M. AG (50 %) und bei der C. AG (40 %), beide mit Sitz in der
-    Schweiz. Per 15. März beendet D. sein Arbeitsverhältnis bei der C. AG. Er erhält neben der anteilsmässi-
-    gen Lohnzahlung noch eine Abgangsentschädigung von CHF 500.00 sowie die anteilsmässige Auszah-
-    lung des 13. Monatslohns.
-
-    Leistungen   M. AG (CH)   C. AG (CH)   Berechnung
-
-    Pensum   50 %   40 %
-
-    Lohn (periodisch)   2 600   1 000.00
-
-    Abgangsentschädigung (aperiodisch)   -   500.00
-
-    Anteil 13. Monatslohn   0   416.67
-
-    1. Umrechnung Austritt:
-
-    Satzbestimmung 13. Monatslohn   0   2 000   416.67 / 75 x 360
-
-    Satzbestimmung Austritt (auf 30 Tage)   2 600   2 000   1 000 / 15 x 30
-
-    2. Umrechnung mehrere Arbeitgeber
-
-    Satzbestimmung Teilzeitpensum   5 200   9 000   2 000 + 2 000 / 40 % x 90 %
-
-    Abgangsentschädigung   500
-
-    Total Satzbestimmung   5 200   9 500
+       Spezialfälle zur Ermittlung der Anzahl Tage im Ein- oder Austrittsmonat (gleiche Methode wie für die Be-
+    rechnung der Sozialversicherungstage):
+    - Eintritt am 31. März 2023 = 1 Tag
+    - Eintritt am 30. März 2023 = 1 Tag
+    - Eintritt am 29. März 2023 = 2 Tage
+    - Eintritt am 29. Februar 2024 (Schaltjahr) = 1 Tag
+    - Eintritt am 28. Februar 2024 (Schaltjahr) = 1 Tag
+    - Eintritt am 28. Februar 2023 = 1 Tag
+    - Eintritt am 27. Februar 2023 = 4 Tage
+    - Austritt am 31. März 2023 = 30 Tage
+    - Austritt am 30. März 2023 = 30 Tage
+    - Austritt am 29. März 2023 = 29 Tage
+    - Austritt am 29. Februar 2024 (Schaltjahr) = 30 Tage
+    - Austritt am 28. Februar 2024 (Schaltjahr) = 30 Tage
+    - Austritt am 28. Februar 2023 = 30 Tage
+    - Austritt am 27. Februar 2023 = 27 Tage

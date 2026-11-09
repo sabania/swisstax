@@ -10,17 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 3
 
-2   Begriffe
-2.1   Mitarbeitende
-Als Mitarbeitende im Sinne dieses Kreisschreibens gelten Arbeitnehmende, die im Dienste
-eines Arbeitgebers stehen (vgl. Art. 319 Abs. 1 des Bundesgesetzes betreffend die Ergän-
-zung des Schweizerischen Zivilgesetzbuches [Fünfter Teil: Obligationenrecht; OR, SR 220]
-und Art. 17 DBG) sowie Mitglieder der Verwaltung oder der Geschäftsführung ungeachtet
-deren Wohnsitz respektive Ansässigkeit. Massgebend ist dabei, ob die Einkünfte aus dem
-zugrundeliegenden Rechtsverhältnis als Einkommen aus unselbständiger Erwerbstätigkeit
-gemäss Artikel 17 Absatz 1 DBG qualifizieren.
+Nicht als Mitarbeitende gelten Unternehmer (vgl. Art. 363 OR), Beauftragte, Mäkler oder Ge-
+neralagenten im Sinne von Artikel 394 ff. OR sowie Aktionäre, die in keinem Arbeitsverhält-
+nis zum Unternehmen stehen.
 
-Ebenfalls als Mitarbeitende gelten künftige Angestellte, wenn der künftige Arbeitgeber ihnen
-mit Blick auf das bevorstehende Arbeitsverhältnis bereits Mitarbeiterbeteiligungen einräumt,
-bzw. ehemalige Mitarbeitende, denen der ehemalige Arbeitgeber während der Anstellungs-
-dauer Mitarbeiterbeteiligungen eingeräumt hat.
+2.2   Arbeitgeber
+Als Arbeitgeber im Sinne dieses Kreisschreibens gilt die Gesellschaft, eine Gruppengesell-
+schaft oder Betriebsstätte, bei welcher der Mitarbeitende angestellt ist. Darunter fallen auch
+sogenannte faktische Arbeitgeber. Zu denken ist dabei etwa an Sachverhalte, bei welchen
+ein Mitarbeitender einer ausländischen Tochtergesellschaft zur Muttergesellschaft in die
+Schweiz entsandt wird, welche die Kosten für den Mitarbeitenden übernimmt. Diesfalls wird
+die schweizerische Muttergesellschaft zur faktischen Arbeitgeberin.

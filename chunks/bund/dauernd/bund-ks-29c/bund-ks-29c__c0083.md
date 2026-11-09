@@ -5,23 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 83"
-seiten: "26"
+seiten: "27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 27
 
-Ausland-KER vergangener Geschäftsjahre, welche nach dem 24. Februar 2008 geäufnet
-und bisher nicht als solche gemeldet wurden, können der ESTV, Hauptabteilung DVS, nach-
-gemeldet werden.
+<!-- Seite 27 -->
+ten relevant ist, wird empfohlen, die Nachmeldung von Ausland-KER nur für diese Gesell-
+schaften vorzunehmen. Beabsichtigt eine bisher nicht kotierte Gesellschaft einen Börsen-
+gang, kann die Aufteilung in KER und Ausland-KER mittels Nachmeldung zu jedem späteren
+Zeitpunkt erfolgen.
 
-Erfolgt die Nachmeldung zusammen mit einer Nachmeldung der KER gemäss Buchstabe b
-hiervor sind die gleichen Nachweise zu erbringen.
+d) Rückmeldung der ESTV
 
-Erfolgt die Nachmeldung zwecks Aufteilung bereits durch die ESTV bestätigter KER in KER
-und Ausland-KER sind sachdienliche Unterlagen (Sacheinlageverträge, Bilanzen usw.) ein-
-zureichen, die die Einlagen aus dem Ausland belegen. Wurden in der Zeit nach dem
-24. Februar 2008 KER zurückbezahlt, vermindern diese zuerst den Bestand an KER und erst
-in zweiter Linie den Bestand an Ausland-KER.
+Die gemeldeten KER bzw. Ausland-KER werden durch die ESTV überprüft. Die ESTV teilt
+anschliessend die zulässigen Bestände an KER und Ausland-KER der einreichenden Gesell-
+schaft oder deren Vertretung mit.
 
-Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
-dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.
+
+10.   Inkrafttreten
+
+Dieses Kreisschreiben tritt per 1. Januar 2023 in Kraft und ersetzt die bisherigen Kreisschrei-
+ben Nr. 29, 29a und 29b.

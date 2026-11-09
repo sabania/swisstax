@@ -5,20 +5,29 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 169"
-seiten: "46"
+seiten: "44"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 46
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
 
-    Änderung des Zivilstands und anschliessender Geburt eines Kindes während des Kalenderjahres:
-    4. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Am 21. Oktober desselben Jahres kommt das Kind
-    des Ehepaars zur Welt. Der ledige Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
-    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 65 000.00 (CHF 5 000 x 13). Zusätzlich zum
-    Lohn erhält er im Februar 2021 einen Bonus von CHF 30 000.00 für das Jahr 2020.
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
+    Korrektur Januar   -303   -30
+    Korrektur Januar
+    -1875   -187
+    und Februar
+    Total
+    845   948   543   2 336
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 120 000.00 [(CHF 5 000 / 15) x 360].
 
-    Monat   Jan.   Feb.   März   …   Mai   Juni   … Okt.   Nov.   Dez.   Besteuerung
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 113 142.85 [(CHF 6 000 + CHF 5 000) / 35 x
 
-    Bruttolohn   5 000   5 000   5 000   5 000   5 000   5 000   5 000 10 000   65 000
+    360].
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 5 000 x 16.30 %) –
 
-    Bonus   30 000   30 000
+    CHF 845].
+    4 = A0 mit satzbestimmendem Jahreseinkommen von CHF 97 094.35 {[(CHF 3 000 + CHF 6 000 +
+
+    CHF 5 000) / 53 x 360] + CHF 2 000}.
+    5 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 5 000 x 14.60 %) –
+
+    CHF 845] + [(CHF 6 000 x 14.60 %) – (CHF 978 – CHF 30)].

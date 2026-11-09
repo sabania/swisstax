@@ -5,23 +5,28 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 44"
-seiten: "14"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 15
 
-Soweit Gratisaktien oder Gratisnennwerterhöhungen zu Lasten von übrigen Reserven oder
-der Ausland-KER liberiert werden, gelten die allgemeinen Grundsätze (vgl. Ziff. 4.2.1. hier-
-vor). Soweit die Liberierung zu Lasten der KER erfolgt findet die Ausschüttungsregel (vgl.
-Ziff. 5.1. hiervor) und allenfalls die Besteuerung gemäss Regelverletzung (vgl. Ziff. 5.1.2.
-hiervor) Anwendung.
+<!-- Seite 15 -->
+6.   Umstrukturierungen allgemein
 
-5.2.   Teilliquidationsregel
+6.1.   Übertragung eines Betriebes oder Teilbetriebes einer Personenunterneh-
+    mung auf eine juristische Person
 
-Aufgrund von Artikel 20 Absatz 7 DBG und Artikel 4a Absatz 4 VStG haben Publikumsgesell-
-schaften beim Erwerb eigener Beteiligungsrechte zur direkten Teilliquidation oder nach Ab-
-lauf der Haltefristen nach Artikel 4a Absätze 2 und 3 VStG mindestens die Hälfte des Liqui-
-dationsüberschusses den KER oder den Ausland-KER zu belasten, höchstens jedoch im
-Umfang des Totals der KER und der Ausland-KER.
+Der handelsrechtliche Aktivenüberschuss der übertragenen Vermögenswerte (Buchwert-
+übernahme) kann in der Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genos-
+senschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder Stammka-
+pital übersteigt.
 
-5.2.1. Regelverletzung
+Werden infolge Sperrfristverletzung die übertragenen stillen Reserven nach Artikel 19 Ab-
+satz 2 DBG im Nachsteuerverfahren besteuert, kann in der Handelsbilanz der übernehmen-
+den Kapitalgesellschaft oder Genossenschaft keine KER ausgewiesen werden.
+
+6.2.   Zusammenschluss (Fusion)
+
+6.2.1. Echte und unechte Fusion unabhängiger Gesellschaften
+
+a)   Direkte Bundessteuer (Einkommenssteuer)

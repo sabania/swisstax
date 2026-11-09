@@ -4,20 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 93"
-seiten: "22"
+titel: "Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 2/2)"
+ziffer: "Anh. III 6a"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 25
 
-4   Low Exercise Price Options (LEPO) und Mini-Futures auf Aktien,
-    Edelmetalle und Rohstoffe
-a)   Low Exercise Price Options (LEPO)
-LEPO sind Call-Optionen auf Aktien mit Ausübungspreis sehr nahe bei null. Sie werden des-
-halb auch als atypische, weil im Voraus finanzierte Termingeschäfte aufgefasst (vgl. Kreis-
-schreiben Nr. 15, Ziffer 2.2.3.). Gemäss Praxis der ESTV liegt ein LEPO dann vor, wenn der
-Basiswert im Emissionszeitpunkt zu mindestens 50 Prozent im Voraus finanziert wird, d.h.
-wenn im Zeitpunkt der Emission des LEPO der Ausübungspreis weniger als 50 % des Werts
-des Basiswerts beträgt. LEPO werden auf Diskontbasis emittiert und sehen während ihrer
-Laufzeit keine Zahlungen an den Investor vor. Bei Verfall der LEPO kommt es in der Regel
-zur physischen Lieferung des Basiswertes.
+a)   Obligationen mit bedingten Coupons
+Kapitalgeschützte Produkte können vorsehen, dass ausschliesslich oder teilweise von der
+Wertentwicklung eines Basiswertes (Aktien) abhängige jährliche Zahlungen an den Investor
+erfolgen. So können beispielsweise die jährlichen Zahlungen an den Investor von der Ent-
+wicklung des vom Emittenten zusammengestellten Aktienbaskets abhängen und sich inner-
+halb einer Bandbreite zwischen null Prozent und einem gegen oben fixierten Prozentsatz be-
+wegen. Denkbar ist auch, dass der Emittent eine bestimmte Mindestverzinsung des Kapitals
+garantiert und darüber erst bei Verfall der Obligation auf der Grundlage der effektiv erfolgten,
+basiswertbezogenen jährlichen Zahlungen abgerechnet wird. Nach einer weiteren Variante
+werden in den ersten zwei Jahren der Laufzeit jährliche Zahlungen noch garantiert; in den
+Folgejahren hängen die periodischen Zahlungen aber wiederum von der Entwicklung eines
+Basiswertes ab. Schliesslich kommt es auch vor, dass der Emittent eine jährliche Mindest-
+verzinsung des Kapitals während der ganzen Laufzeit garantiert; darüber hinausgehende
+weitere Entschädigungen hängen wiederum von der Entwicklung eines Basiswertes ab.

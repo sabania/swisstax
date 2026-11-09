@@ -5,24 +5,21 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 59"
-seiten: "25"
+seiten: "26"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 25
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 26
 
-Andelfingen   6   1310   1170   1030   890   750   610   –   –   –
-Benken   5   770   720   640   570   500   –   –   –   –
-Berg am Irchel   3   870   790   740   –   –   –   –   –   –
-Buch am Irchel   2   830   660   –   –   –   –   –   –   –
-Dachsen   3   1330   1160   1000   –   –   –   –   –   –
-Dorf   3   1320   1180   1050   –   –   –   –   –   –
-Feuerthalen   5   1020   940   880   810   750   –   –   –   –
-Flaach   5   980   890   810   740   650   –   –   –   –
-Flurlingen   3   1420   1290   1150   –   –   –   –   –   –
-Henggart   3   1530   1420   1310   –   –   –   –   –   –
-Kleinandelfingen   5   1130   1030   960   870   790   –   –   –   –
-Laufen-Uhwiesen   5   1130   1030   940   850   780   –   –   –   –
-Marthalen   3   1070   920   780   –   –   –   –   –   –
-Ossingen   4   1100   990   860   750   –   –   –   –   –
-Rheinau   3   660   590   530   –   –   –   –   –   –
-Stammheim   4   750   610   460   330   –   –   –   –   –
+Niederhasli   6   2690   2480   2260   2050   1840   1630   –   –   –
+Niederweningen   5   1960   1810   1680   1550   1400   –   –   –   –
+Oberglatt   5   2170   1980   1780   1610   1420   –   –   –   –
+Oberweningen   5   2090   1940   1770   1620   1460   –   –   –   –
+Otelfingen   5   2090   1940   1770   1620   1460   –   –   –   –
+Regensberg   3   1960   1770   1570   –   –   –   –   –   –
+Regensdorf   5   2530   2340   2170   2000   1800   –   –   –   –
+Rümlang   6   2230   2070   1880   1720   1550   1380   –   –   –
+Schleinikon   2   1210   1030   –   –   –   –   –   –   –
+Schöfflisdorf   5   1860   1700   1530   1370   1200   –   –   –   –
+Stadel   2   1980   1570   –   –   –   –   –   –   –
+Steinmaur   5   1610   1510   1440   1350   1270   –   –   –   –
+Weiach   3   1460   1270   1090   –   –   –   –   –   –

@@ -10,15 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 6
 
-Führen ein oder mehrere Erben oder Vermächtnisnehmer die selbständige Erwerbstätigkeit
-fort oder übernehmen sie die Anteile an einer Personengesellschaft, so können die übrigen
-Erben, welche die selbständige Erwerbstätigkeit nicht fortführen, auf ihren Anteil die Besteu-
-erung nach Artikel 37b DBG geltend machen, sofern der Erblasser im Zeitpunkt des Todes
-die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat. Sie müssen diesen An-
-spruch im Anschluss an den Erbgang geltend machen.
+6.2.2. Personengesellschaft
+Bei den Personengesellschaften richtet sich die steuerliche Behandlung nach der Aufstellung
+in Anhang III.
 
-Die Anwendung von Artikel 18a Absatz 3 DBG bleibt vorbehalten.
-
-7.   Inkrafttreten
-Dieses Kreisschreiben tritt zusammen mit den Artikeln 18a und 37b DBG sowie der LGBV
-per 1. Januar 2011 in Kraft.
+6.3.   Fortführung der selbständigen Erwerbstätigkeit durch die Erben oder die Ver-
+    mächtnisnehmer
+Sobald die Erben oder die Vermächtnisnehmer dauernd oder vorübergehend Handlungen
+vornehmen, welche über die Erfüllung der im Erbfall bestandenen Verpflichtungen gemäss
+Artikel 571 Absatz 2 ZGB hinausgehen, so führen sie die selbständige Erwerbstätigkeit wei-
+ter und die Liquidationsgewinnbesteuerung gemäss Artikel 37b DBG kann nicht mehr an
+Stelle des Erblassers geltend gemacht werden. Der Anspruch geht mit der ersten entspre-
+chenden Handlung unter. Die blosse Erfüllung von im Zeitpunkt des Erbgangs bestehenden
+Verpflichtungen gilt nicht als Fortführung der selbständigen Tätigkeit (Art. 11 Abs. 3 LGBV).

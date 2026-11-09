@@ -10,16 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 34
 
- Gesetzliche Reserven
- - Reserven aus Kapitaleinlagen (KER)   40'000.00   -5'750.00   34'250.00   -5'650.00   28'600.00   13'400.00   42'000.00
- - übrige Kapitalreserven   160'000.00   24'800.00   184'800.00   184'800.00   -13'400.00   171'400.00
-    -
- Gesetzliche Gewinnreserven   30'000.00   30'000.00   30'000.00   30'000.00
-    -
- Freiwillige Gewinnreserven / Verluste   50'000.00   -5'750.00   44'250.00   -5'650.00   38'600.00   38'600.00
-
- Total Eigenkapital   300'000.00   26'800.00   -12'500.00   314'300.00   -12'300.00   302'000.00   -   302'000.00
-
- Total Einlagen in die Reseven durch die Aktionäre   24'800.00
- Total Rückzahlungen von Reserven an die Aktionäre   -22'800.00
- Nettoerhöhung KER aus Kapitalband gemäss Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1 septies VStG   2'000.00   2'000.00
+Soweit jedoch innerhalb des Kapitalbands KER bzw. Ausland-KER zurück- und durch die
+Anteilsinhaber wieder einbezahlt werden, können auch diese Einlagen zusätzlich den KER
+zugerechnet werden, da Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1septies VStG mit Blick
+auf Teilliquidationen über die zweite Handelslinie von Publikumsgesellschaften eingeführt
+wurden (BBI 2017, 646f.) und die neuen gesetzlichen Bestimmungen nicht vollständig mit
+den zwischenzeitlich aufgrund STAF eingeführten gesetzlichen Bestimmungen abgestimmt
+sind. Die Änderungen gemäss STAF verpflichten kotierte Kapitalgesellschaften dazu, bei
+Teilliquidationen, solange noch KER bzw. Ausland-KER vorhanden sind, 50% der Rückzah-
+lungen von Reserven zu Lasten der KER bzw. Ausland-KER auszurichten (Art. 20 Abs. 7
+DBG bzw. Art. 4a Abs. 4 VStG).

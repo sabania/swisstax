@@ -5,16 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 115"
-seiten: "30"
+seiten: "29"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
 
-    Beispiele:
-    1. Arbeitnehmer Z. ist internationaler Wochenaufenthalter in der Schweiz. Sein Arbeitgeber hat den Sitz in
-    Zürich. Z. übt seine Tätigkeit an seinem fixen Arbeitsplatz in Zürich aus. Während des Monats September
-    hat er ausnahmsweise an 5 Tagen in Österreich gearbeitet. Zusätzlich hat er 10 Ferientage bezogen, wel-
-    che er in Italien verbracht hat. Z. erhält im Monat September einen Bruttolohn von CHF 8 000.00. Die für
-    die Ausscheidung massgebenden schweizerischen Arbeitstage ergeben sich aus der Subtraktion von fünf
-    ausländischen Arbeitstagen vom Total von 20 Arbeitstagen pro Monat. Davon ausgehend ist das steuer-
-    bare Einkommen wie folgt zu berechnen bzw. das satzbestimmende Einkommen wie folgt festzulegen:
+    6. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
+    Der Arbeitnehmer V. tritt per 15. Dezember 2021 aus der Unternehmung aus und erhält neben der anteils-
+    mässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbarten 13. Monatslohn ausbezahlt
+    (pro rata für die Zeit vom 1. Januar 2021 – 15. Dezember 2021). Die Lohnzahlung ist zur Satzbestimmung
+    auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezogen auf die Periode, für wel-
+    che er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage pro Jahr).
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+
+    13. Monatslohn   5 750   6 000   5 750 / 345 x 360
+
+    Total   8 750   12 000

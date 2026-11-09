@@ -1,0 +1,110 @@
+[
+{
+"id": "sg-form-6-2025__c0001",
+"titel": "Formular 6 S. 1 Schritt 1 A – Bezahlte Versicherungsprämien und Sparzinsen",
+"pfad": [
+"Versicherungsprämien und Sparzinsen",
+"Schritt 1"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "A",
+"stichworte": [
+"Versicherungsprämien",
+"Krankenkasse",
+"Sparzinsen",
+"Prämienverbilligung",
+"Lebensversicherung",
+"Unfallversicherung"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Deklaration der tatsächlichen Prämien (Kranken, Unfall, Leben/Rente) und Sparzinsen abzüglich Prämienverbilligungen ergibt Total A.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "sg-form-6-2025__c0002"
+},
+{
+"id": "sg-form-6-2025__c0002",
+"titel": "Formular 6 S. 1 Schritte 2–3 B/C – Maximalabzug (6'800/3'400) und Abzug",
+"pfad": [
+"Versicherungsprämien und Sparzinsen",
+"Schritt 2 und 3"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "B/C",
+"stichworte": [
+"Versicherungsabzug",
+"Pauschalabzug",
+"Kinderabzug",
+"ohne 2. Säule",
+"ohne Säule 3a",
+"alleinstehend"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Höchstens abzugsfähig Fr. 6’800 gemeinsam (+Fr. 1’100 ohne 2. Säule/3a), Fr. 3’400 alleinstehend (+Fr. 500), zusätzlich Fr. 1’100 je Kind; niedrigerer Betrag von A und B in Seite 3 Ziffer 14.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-6-2025__c0001",
+"nachher": "sg-form-6-2025__c0003"
+},
+{
+"id": "sg-form-6-2025__c0003",
+"titel": "Formular 6 S. 2 – Krankheits- und Unfallkosten (Ziff. 21.1)",
+"pfad": [
+"Krankheits-, Unfall- und behinderungsbedingte Kosten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "21.1",
+"stichworte": [
+"Krankheitskosten",
+"Arztrechnung",
+"Zahnarzt",
+"Krankenkassen-Auszug",
+"Hilflosenentschädigung",
+"selbst getragene Kosten"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Nur tatsächlich selbst getragene Kosten abzugsfähig (Beiträge Dritter und Hilflosenentschädigungen abziehen); Total in Seite 3 Ziffer 21.1 (Vorkolonne).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-6-2025__c0002",
+"nachher": "sg-form-6-2025__c0004"
+},
+{
+"id": "sg-form-6-2025__c0004",
+"titel": "Formular 6 S. 2 – Behinderungsbedingte Kosten (Ziff. 21.2)",
+"pfad": [
+"Krankheits-, Unfall- und behinderungsbedingte Kosten",
+"Behinderungsbedingte Kosten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "21.2",
+"stichworte": [
+"behinderungsbedingte Kosten",
+"Behinderung",
+"Ergänzungsblätter"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Behinderungsbedingte Kosten mit Übertrag in Seite 3 Ziffer 21.2.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-6-2025__c0003",
+"nachher": null
+}
+]

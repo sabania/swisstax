@@ -10,11 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
 
-    5. Besteuerung von Lohnfortzahlungen unter gekündigtem Arbeitsverhältnis:
-    Dem Arbeitnehmer Z. mit Ansässigkeit in Italien wird am 24. September 2021 per 31. Dezember 2021 ge-
-    kündigt. Er wird für die verbleibenden Monate Oktober, November und Dezember 2021 freigestellt. Wäh-
-    rend seiner Freistellung erhält Z unverändert seinen monatlichen Bruttolohn von CHF 7000. In der voran-
-    gehenden 12-monatigen Referenzperiode wurden 60 Arbeitstage ins Ausland (= 180 schweizerische Ar-
-    beitstage) ausgeschieden. Demgemäss ergibt sich ein steuerbarer Bruttolohn für die Monate Oktober bis
-    Dezember 2021 von je CHF 5 250.00 (CHF 7 000.00 / 240 Arbeitstage x 180 schweizerische Arbeitstage),
-    der zum Satz von CHF 7 000.00 an der Quelle zu besteuern ist.
+<!-- Seite 33 -->
+    2. Besteuerung einer Bonuszahlung:
+    Der Arbeitnehmer Y. ist in Österreich ansässig und tritt per 30. November 2021 aus der Unternehmung T.
+    aus. Die letzte Lohnzahlung im November 2021 beläuft sich auf CHF 8 000.00. Im April des Folgejahres
+    erhält er einen Bonus von CHF 15 000.00, welcher von der Geschäftsleitung der Unternehmung T. im April
+    2022 beschlossen wurde. Dieser Bonus ist separat im Auszahlungsmonat (April 2022) steuerpflichtig. Da
+    der Rechtsanspruch auf den Bonus erst im April 2022 entstanden ist (Beschluss Geschäftsleitung), hat auf
+    der letzten Lohnzahlung (November 2021; CHF 8 000.00) keine Satzkorrektur zu erfolgen. Für die Tarifbe-
+    stimmung und für die Festlegung des satzbestimmenden Einkommens sind die Verhältnisse zum Zeitpunkt
+    der Auszahlung der Leistung massgebend. Weil diese Verhältnisse der Unternehmung T. nicht bekannt

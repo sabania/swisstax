@@ -10,10 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
 
-Die Erträge aus in- oder ausländischen Grundstücken von in- oder ausländischen kollektiven
-Kapitalanlagen mit direktem Grundbesitz werden auf Stufe der Anlegerinnen und Anleger
-freigestellt. Freigestellte Erträge sind für die Satzbestimmung nicht zu berücksichtigen. Nicht
-freigestellt werden die Erträge aus demjenigen Teil des Fondsvermögens, welcher zur Si-
-cherstellung von Verbindlichkeiten in kurzfristigen festverzinslichen Effekten oder anderen
-kurzfristig verfügbaren Mitteln angelegt wird (vgl. Art. 20 Abs. 1 Bst. e DBG). Diese Freistel-
-lungsregel gilt nicht für Anlegerinnen und Anleger von SICAF mit Direktbesitz.
+Nicht unter Artikel 20 Absatz 1 Buchstabe e DBG fallen die Einkünfte, welche die Anlegerin-
+nen und Anleger aus Beteiligungen an einer SICAF realisieren, da diese als Kapitalgesell-
+schaft besteuert wird. Die Anleger resp. Aktionäre einer SICAF versteuern die entsprechen-
+den Einkünfte nach Artikel 20 Absatz 1 Buchstabe c DBG.
+
+Bei Verkauf bzw. Rückgabe von im Privatvermögen gehaltenen Anteilen von vertraglichen
+Anlagefonds, SICAV und KmGK qualifiziert die Differenz zwischen Erwerbspreis und Ver-
+kaufserlös als steuerfreier Kapitalgewinn nach Artikel 16 Absatz 3 DBG oder als steuerlich
+nicht abzugsfähiger Kapitalverlust.

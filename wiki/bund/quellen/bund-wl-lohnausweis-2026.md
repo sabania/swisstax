@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/afP1GDFr8gE3/dbst-form-lohna-wegleitung-2026-de.pdf> · lokal: [bund-wl-lohnausweis-2026.pdf](../../../raw/bund/2026/bund-wl-lohnausweis-2026.pdf) · Volltext: [bund-wl-lohnausweis-2026.md](../../../sources/bund/2026/bund-wl-lohnausweis-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d92b36c0e0f63fd3…`
 
-## Inhalt (90 Chunks)
+## Inhalt (80 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -47,7 +47,7 @@ generiert: tools/build_index.py
 | [c0029](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0029.md) | WL Lohnausweis 2026 – Abschnitt 29 | S. 11 |  |
 | [c0030](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0030.md) | WL Lohnausweis 2026 – Abschnitt 30 | S. 11 |  |
 | [c0031](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0031.md) | WL Lohnausweis 2026 – Abschnitt 31 | S. 11 |  |
-| [c0032](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0032.md) | WL Lohnausweis 2026 – Abschnitt 32 | S. 12 |  |
+| [c0032](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0032.md) | WL Lohnausweis 2026 – Abschnitt 32 | S. 11 |  |
 | [c0033](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0033.md) | WL Lohnausweis 2026 – Abschnitt 33 | S. 12 |  |
 | [c0034](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0034.md) | WL Lohnausweis 2026 – Abschnitt 34 | S. 12 |  |
 | [c0035](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0035.md) | WL Lohnausweis 2026 – Abschnitt 35 | S. 12 |  |
@@ -65,44 +65,34 @@ generiert: tools/build_index.py
 | [c0047](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0047.md) | WL Lohnausweis 2026 – Abschnitt 47 | S. 15 |  |
 | [c0048](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0048.md) | WL Lohnausweis 2026 – Abschnitt 48 | S. 16 |  |
 | [c0049](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0049.md) | WL Lohnausweis 2026 – Abschnitt 49 | S. 16 |  |
-| [c0050](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0050.md) | WL Lohnausweis 2026 – Abschnitt 50 | S. 16 |  |
+| [c0050](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0050.md) | WL Lohnausweis 2026 – Abschnitt 50 | S. 17 |  |
 | [c0051](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0051.md) | WL Lohnausweis 2026 – Abschnitt 51 | S. 17 |  |
 | [c0052](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0052.md) | WL Lohnausweis 2026 – Abschnitt 52 | S. 17 |  |
 | [c0053](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0053.md) | WL Lohnausweis 2026 – Abschnitt 53 | S. 17 |  |
-| [c0054](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0054.md) | WL Lohnausweis 2026 – Abschnitt 54 | S. 17 |  |
-| [c0055](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0055.md) | WL Lohnausweis 2026 – Abschnitt 55 | S. 17 |  |
+| [c0054](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0054.md) | WL Lohnausweis 2026 – Abschnitt 54 | S. 18 |  |
+| [c0055](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0055.md) | WL Lohnausweis 2026 – Abschnitt 55 | S. 18 |  |
 | [c0056](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0056.md) | WL Lohnausweis 2026 – Abschnitt 56 | S. 18 |  |
 | [c0057](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0057.md) | WL Lohnausweis 2026 – Abschnitt 57 | S. 18 |  |
 | [c0058](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0058.md) | WL Lohnausweis 2026 – Abschnitt 58 | S. 18 |  |
-| [c0059](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0059.md) | WL Lohnausweis 2026 – Abschnitt 59 | S. 18 |  |
-| [c0060](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0060.md) | WL Lohnausweis 2026 – Abschnitt 60 | S. 18 |  |
+| [c0059](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0059.md) | WL Lohnausweis 2026 – Abschnitt 59 | S. 19 |  |
+| [c0060](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0060.md) | WL Lohnausweis 2026 – Abschnitt 60 | S. 19 |  |
 | [c0061](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0061.md) | WL Lohnausweis 2026 – Abschnitt 61 | S. 19 |  |
 | [c0062](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0062.md) | WL Lohnausweis 2026 – Abschnitt 62 | S. 19 |  |
-| [c0063](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0063.md) | WL Lohnausweis 2026 – Abschnitt 63 | S. 19 |  |
-| [c0064](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0064.md) | WL Lohnausweis 2026 – Abschnitt 64 | S. 19 |  |
-| [c0065](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0065.md) | WL Lohnausweis 2026 – Abschnitt 65 | S. 19 |  |
-| [c0066](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0066.md) | WL Lohnausweis 2026 – Abschnitt 66 | S. 19 |  |
-| [c0067](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0067.md) | WL Lohnausweis 2026 – Abschnitt 67 | S. 20 |  |
-| [c0068](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0068.md) | WL Lohnausweis 2026 – Abschnitt 68 | S. 20 |  |
-| [c0069](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0069.md) | WL Lohnausweis 2026 – Abschnitt 69 | S. 20 |  |
-| [c0070](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0070.md) | WL Lohnausweis 2026 – Abschnitt 70 | S. 20 |  |
-| [c0071](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0071.md) | WL Lohnausweis 2026 – Abschnitt 71 | S. 20 |  |
-| [c0072](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0072.md) | WL Lohnausweis 2026 – Abschnitt 72 | S. 21 |  |
-| [c0073](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0073.md) | WL Lohnausweis 2026 – Abschnitt 73 | S. 21 |  |
-| [c0074](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0074.md) | WL Lohnausweis 2026 – Abschnitt 74 | S. 21 |  |
-| [c0075](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0075.md) | WL Lohnausweis 2026 – Abschnitt 75 | S. 22 |  |
-| [c0076](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0076.md) | WL Lohnausweis 2026 – Abschnitt 76 | S. 22 |  |
-| [c0077](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0077.md) | WL Lohnausweis 2026 – Abschnitt 77 | S. 22 |  |
-| [c0078](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0078.md) | WL Lohnausweis 2026 – Abschnitt 78 | S. 22 |  |
-| [c0079](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0079.md) | WL Lohnausweis 2026 – Abschnitt 79 | S. 22 |  |
-| [c0080](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0080.md) | WL Lohnausweis 2026 – Abschnitt 80 | S. 23 |  |
-| [c0081](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0081.md) | WL Lohnausweis 2026 – Abschnitt 81 | S. 23 |  |
-| [c0082](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0082.md) | WL Lohnausweis 2026 – Abschnitt 82 | S. 23 |  |
-| [c0083](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0083.md) | WL Lohnausweis 2026 – Abschnitt 83 | S. 23 |  |
-| [c0084](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0084.md) | WL Lohnausweis 2026 – Abschnitt 84 | S. 23 |  |
-| [c0085](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0085.md) | WL Lohnausweis 2026 – Abschnitt 85 | S. 24 |  |
-| [c0086](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0086.md) | WL Lohnausweis 2026 – Abschnitt 86 | S. 24 |  |
-| [c0087](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0087.md) | WL Lohnausweis 2026 – Abschnitt 87 | S. 24 |  |
-| [c0088](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0088.md) | WL Lohnausweis 2026 – Abschnitt 88 | S. 24 |  |
-| [c0089](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0089.md) | WL Lohnausweis 2026 – Abschnitt 89 | S. 24 |  |
-| [c0090](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0090.md) | WL Lohnausweis 2026 – Abschnitt 90 | S. 25 |  |
+| [c0063](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0063.md) | WL Lohnausweis 2026 – Abschnitt 63 | S. 20 |  |
+| [c0064](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0064.md) | WL Lohnausweis 2026 – Abschnitt 64 | S. 20 |  |
+| [c0065](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0065.md) | WL Lohnausweis 2026 – Abschnitt 65 | S. 20 |  |
+| [c0066](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0066.md) | WL Lohnausweis 2026 – Abschnitt 66 | S. 20 |  |
+| [c0067](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0067.md) | WL Lohnausweis 2026 – Abschnitt 67 | S. 21 |  |
+| [c0068](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0068.md) | WL Lohnausweis 2026 – Abschnitt 68 | S. 21 |  |
+| [c0069](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0069.md) | WL Lohnausweis 2026 – Abschnitt 69 | S. 21 |  |
+| [c0070](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0070.md) | WL Lohnausweis 2026 – Abschnitt 70 | S. 22 |  |
+| [c0071](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0071.md) | WL Lohnausweis 2026 – Abschnitt 71 | S. 22 |  |
+| [c0072](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0072.md) | WL Lohnausweis 2026 – Abschnitt 72 | S. 22 |  |
+| [c0073](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0073.md) | WL Lohnausweis 2026 – Abschnitt 73 | S. 23 |  |
+| [c0074](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0074.md) | WL Lohnausweis 2026 – Abschnitt 74 | S. 23 |  |
+| [c0075](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0075.md) | WL Lohnausweis 2026 – Abschnitt 75 | S. 23 |  |
+| [c0076](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0076.md) | WL Lohnausweis 2026 – Abschnitt 76 | S. 23 |  |
+| [c0077](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0077.md) | WL Lohnausweis 2026 – Abschnitt 77 | S. 24 |  |
+| [c0078](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0078.md) | WL Lohnausweis 2026 – Abschnitt 78 | S. 24 |  |
+| [c0079](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0079.md) | WL Lohnausweis 2026 – Abschnitt 79 | S. 24 |  |
+| [c0080](../../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0080.md) | WL Lohnausweis 2026 – Abschnitt 80 | S. 25 |  |

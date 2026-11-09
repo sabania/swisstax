@@ -33,9 +33,10 @@
 },
 {
 "id": "zh-zstb-173-1__c0003",
-"titel": "ZStB 173.1: Ausstellung von Steuerrechnungen",
+"titel": "A. Vorbemerkungen",
 "pfad": [
-"ZStB 173.1: Ausstellung von Steuerrechnungen"
+"ZStB 173.1: Ausstellung von Steuerrechnungen",
+"A. Vorbemerkungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -66,23 +67,6 @@
 },
 {
 "id": "zh-zstb-173-1__c0005",
-"titel": "A. Vorbemerkungen",
-"pfad": [
-"ZStB 173.1: Ausstellung von Steuerrechnungen",
-"A. Vorbemerkungen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-173-1__c0004",
-"nachher": "zh-zstb-173-1__c0006"
-},
-{
-"id": "zh-zstb-173-1__c0006",
 "titel": "I. Zuständigkeit",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
@@ -96,16 +80,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-173-1__c0005",
-"nachher": "zh-zstb-173-1__c0007"
+"vorher": "zh-zstb-173-1__c0004",
+"nachher": "zh-zstb-173-1__c0006"
 },
 {
-"id": "zh-zstb-173-1__c0007",
+"id": "zh-zstb-173-1__c0006",
 "titel": "II. Genehmigung von Abweichungen",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "B. Steuerformulare",
 "II. Genehmigung von Abweichungen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-173-1__c0005",
+"nachher": "zh-zstb-173-1__c0007"
+},
+{
+"id": "zh-zstb-173-1__c0007",
+"titel": "I. Anschrift",
+"pfad": [
+"ZStB 173.1: Ausstellung von Steuerrechnungen",
+"C. Elemente der Steuerrechnung",
+"I. Anschrift"
 ],
 "seiten": [],
 "artikel": null,
@@ -173,11 +175,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0011",
-"titel": "I. Anschrift",
+"titel": "II. Objekt der Rechnung",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"I. Anschrift"
+"II. Objekt der Rechnung"
 ],
 "seiten": [],
 "artikel": null,
@@ -209,11 +211,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0013",
-"titel": "II. Objekt der Rechnung",
+"titel": "III. Grundangaben",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"II. Objekt der Rechnung"
+"III. Grundangaben"
 ],
 "seiten": [],
 "artikel": null,
@@ -299,11 +301,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0018",
-"titel": "III. Grundangaben",
+"titel": "IV. Bemessungsgrundlagen",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"III. Grundangaben"
+"IV. Bemessungsgrundlagen"
 ],
 "seiten": [],
 "artikel": null,
@@ -389,11 +391,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0023",
-"titel": "IV. Bemessungsgrundlagen",
+"titel": "V. Steuerberechnung",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"IV. Bemessungsgrundlagen"
+"V. Steuerberechnung"
 ],
 "seiten": [],
 "artikel": null,
@@ -533,11 +535,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0031",
-"titel": "V. Steuerberechnung",
+"titel": "VI. Steuerrechnung",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"V. Steuerberechnung"
+"VI. Steuerrechnung"
 ],
 "seiten": [],
 "artikel": null,
@@ -605,11 +607,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0035",
-"titel": "VI. Steuerrechnung",
+"titel": "VII. Rechtsmittelbelehrung",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "C. Elemente der Steuerrechnung",
-"VI. Steuerrechnung"
+"VII. Rechtsmittelbelehrung"
 ],
 "seiten": [],
 "artikel": null,
@@ -659,11 +661,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0038",
-"titel": "VII. Rechtsmittelbelehrung",
+"titel": "I. Periodische Steuern",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
-"C. Elemente der Steuerrechnung",
-"VII. Rechtsmittelbelehrung"
+"D. Ausstellung der Steuerrechnungen",
+"I. Periodische Steuern"
 ],
 "seiten": [],
 "artikel": null,
@@ -767,11 +769,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0044",
-"titel": "I. Periodische Steuern",
+"titel": "II. Nicht periodische Steuern",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "D. Ausstellung der Steuerrechnungen",
-"I. Periodische Steuern"
+"II. Nicht periodische Steuern"
 ],
 "seiten": [],
 "artikel": null,
@@ -875,11 +877,11 @@
 },
 {
 "id": "zh-zstb-173-1__c0050",
-"titel": "II. Nicht periodische Steuern",
+"titel": "III. Zinsrechnungen",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
 "D. Ausstellung der Steuerrechnungen",
-"II. Nicht periodische Steuern"
+"III. Zinsrechnungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -965,11 +967,10 @@
 },
 {
 "id": "zh-zstb-173-1__c0055",
-"titel": "III. Zinsrechnungen",
+"titel": "E. Zustellung von Steuerrechnungen",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
-"D. Ausstellung der Steuerrechnungen",
-"III. Zinsrechnungen"
+"E. Zustellung von Steuerrechnungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -983,23 +984,6 @@
 },
 {
 "id": "zh-zstb-173-1__c0056",
-"titel": "E. Zustellung von Steuerrechnungen",
-"pfad": [
-"ZStB 173.1: Ausstellung von Steuerrechnungen",
-"E. Zustellung von Steuerrechnungen"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-173-1__c0055",
-"nachher": "zh-zstb-173-1__c0057"
-},
-{
-"id": "zh-zstb-173-1__c0057",
 "titel": "F. Inkrafttreten",
 "pfad": [
 "ZStB 173.1: Ausstellung von Steuerrechnungen",
@@ -1012,7 +996,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-173-1__c0056",
+"vorher": "zh-zstb-173-1__c0055",
 "nachher": null
 }
 ]

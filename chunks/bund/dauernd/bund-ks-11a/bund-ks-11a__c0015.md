@@ -10,8 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 4
 
-3.2.3   Kosten für Kuraufenthalte
-Die Kosten für ärztlich verordnete Kur- und Erholungsaufenthalte gelten als Krankheitskosten,
-soweit die Auslagen die im eigenen Haushalt eingesparten Lebenshaltungskosten, d. h. jeden
-falls mindestens die eingesparten Verpflegungskosten, übersteigen (Ansätze gemäss dem
-Merkblatt der Eidgenössischen Steuerverwaltung [ESTV] Naturalbezüge von Arbeitnehmenden,
+3.2   Kategorien
+
+3.2.1   Kosten für Zahnbehandlungen
+Zahnbehandlungskosten sind den Krankheitskosten gleichgestellt, sofern es sich um Kosten zur
+Behebung von Zahnkrankheiten, Kosten für Zahnkorrekturen, für kieferorthopädische Eingriffe
+oder für Dentalhygiene handelt. Nicht abzugsfähig sind hingegen Kosten, die durch Behandlun
+gen rein kosmetischer Art verursacht werden (vgl. vorstehende Ziff. 3.1 Bst. d, z. B. Bleichen).

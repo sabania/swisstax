@@ -10,13 +10,13 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 7
 
-Bezirk Frauenfeld³   54.3   86.6   268.8   2’719   Braunau   49   98   26 / 24   280.9   2’256
-Basadingen-Schlattingen   50   93   28 / 18   276.3   2’318   Eschlikon   48   96   20 / 18   271.9   2’439
-Berlingen   50   79   24 / 19   260.2   3’373   Fischingen   60   95   25 / 24   288.3   2’124
-Diessenhofen   47   93   22 / 18   268.8   2’204   Lommis   40   98   27 / 20   270.2   2’845
-Eschenz   49   93   17 / 21   269.9   2’291   Münchwilen   58   93   20 / 18   278.7   2’016
-Felben-Wellhausen   50   97   18 / 16   273.0   2’098   Rickenbach   51   96   23 / 22   278.2   1’918
-Frauenfeld   62   80   16 / 16   267.0   3’037   Sirnach   52   90   21 / 18   270.0   2’343
-Gachnang   42   90   15 / 16   256.3   2’727   Tobel-Tägerschen   60   96   26 / 24   289.8   2’057
-Herdern   54   92   24 / 16   275.4   2’233   Wängi   47   93   25 / 19   270.7   2’256
-Homburg   55   98   21 / 26   285.2   2’436   Wilen   42   95   23 / 22   268.3   2’261
+Dozwil   39   84   23 / 23   255.0   2’159   Lengwil   54   83   26 / 15   267.5   1’986
+Egnach   55   95   20 / 20   279.0   2’350   Münsterlingen   40   87   9 / 14   247.4   2’955
+Hefenhofen   66   97   22 / 23   294.4   2’099   Raperswilen   63   100   25 / 26   297.2   2’541
+Horn   34   65   20 / 16   225.5   3’888   Salenstein   44   71   15 / 15   239.0   4’366
+Kesswil   45   84   23 / 14   257.7   3’366   Tägerwilen   36   82   24 / 15   246.8   3’143
+Roggwil   44   100   16 / 18   269.9   2’768   Wäldi   52   100   32 / 22   289.5   2’148
+Romanshorn   70   93   25 / 22   295.3   2’299   Bezirk Münchwilen³   53.5   93.9   277.2   2’247
+Salmsach   54   93   25 / 22   279.4   1’815   Aadorf   61   94   19 / 19   283.0   2’302
+Sommeri   55   97   22 / 23   283.6   1’882   Bettwiesen   52   94   26 / 20   277.0   2’706
+Uttwil   48   66   17 / 22   242.2   3’304   Bichelsee-Balterswil   54   96   25 / 24   283.4   2’020

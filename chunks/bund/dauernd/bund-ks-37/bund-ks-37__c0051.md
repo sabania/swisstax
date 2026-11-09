@@ -10,16 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 12
 
-<!-- Seite 12 -->
-Als Arbeitstage im Sinne von Artikel 7 und 8 MBV gilt der Zeitraum, in welchem zwischen ei-
-nem Mitarbeitenden und seinem Arbeitgeber ein Arbeitsvertragsverhältnis besteht. Die in
-diese Zeitspanne fallenden Ferien, Wochenenden, gesetzlichen Feiertage und sonstigen Ab-
-wesenheiten (Reisetage, Krankheit, Militärdienst, Mutterschaftsurlaub etc.) werden dabei
-nicht in Abzug gebracht.
+7.2.1 Allgemeines
+Mitarbeiteraktien im Sinne von Artikel 1 Absatz 2 Buchstabe a MBV sind gemäss Artikel 17b
+Absatz 1 DBG immer im Zeitpunkt des Erwerbs als Einkommen aus unselbstständiger Er-
+werbstätigkeit steuerbar. Allfällige Sperrfristen werden mit einem Diskont von 6 Prozent pro
+Sperrjahr auf deren Verkehrswert berücksichtigt (vgl. auch Ziff. 3.3 hievor). Eine anteilsmäs-
+sige Besteuerung ist ausgeschlossen, da Mitarbeiteraktien mit ihrer Abgabe erworben wer-
+den. Vorbehalten bleiben Fälle, in welchen die Mitarbeiteraktien als Entschädigung für eine
+im Ausland erbrachte Arbeitsleistung (Bonus) abgegeben werden.
 
-Generell vorbehalten bleiben Bestimmungen in DBA oder weiteren Abkommen mit anderen
-Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa Art.
-15a DBA Deutschland über die Besteuerung von Grenzgängern).
-
- 7.2 Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten
-    Mitarbeiteroptionen
+Freie börsenkotierte Mitarbeiteroptionen im Sinne von Artikel 1 Absatz 2 Buchstabe b MBV
+sind ebenfalls gemäss Artikel 17b Absatz 1 DBG im Zeitpunkt des Erwerbs als Einkommen
+aus unselbständiger Erwerbstätigkeit zu besteuern.

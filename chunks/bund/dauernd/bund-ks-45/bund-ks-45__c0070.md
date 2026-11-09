@@ -5,19 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 70"
-seiten: "18"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 17
 
-    rige Kind vor. In diesem Fall ist der Tarifcode C2 anwendbar, da das Ehepaar unverändert der Gesamt-
-    satzbesteuerung unterliegt.
-    -   Tarifcode H:
-    Der Arbeitnehmer W. lebt in der Schweiz im gemeinsamen Haushalt mit seinem minderjährigen Kind und
-    seiner Konkubinatspartnerin. Beide Elternteile haben die elterliche Sorge. Die Konkubinatspartnerin ist mit
-    einem geringeren Bruttoverdienst ebenfalls in der Schweiz erwerbstätig. Der Arbeitnehmer W. kommt zur
-    Hauptsache für den Unterhalt des Kindes auf und ist demnach gemäss Tarifcode H1 zu besteuern. Die
-    Konkubinatspartnerin ist mit dem Tarifcode A0 zu besteuern.
-    Der Arbeitnehmer U. lebt in der Schweiz. Sein minderjähriges Kind und die getrennt lebende Mutter des
-    Kindes leben in Deutschland. Da das Kind nicht im gleichen Haushalt wie der Arbeitnehmer U. lebt, ist
-    nicht der Tarifcode H1 anwendbar, sondern der Tarifcode A0.
+lensteuertarifen (Tarifcodes A, B, C, E und H) zu besteuern. Diese beruflich bedingten Nicht-
+rückkehrtage sind mittels amtlichem Formular (Gre-3, Bescheinigung des Arbeitgebers über
+die Nichtrückkehr an mehr als 60 Tagen i.S. des Artikel 15a Absatz 2 DBA-D und des Ver-
+handlungsprotokolls vom 18.12.1991) zu bescheinigen. Das Formular ist der zuständigen
+kantonalen Steuerverwaltung einzureichen. Diese, bzw. auf deren Anweisung hin der Arbeit-
+geber, erstellen in Anwendung des massgebenden Tarifs eine Neuberechnung. Zu wenig
+bzw. zu viel abgerechnete Quellensteuern werden nachgefordert bzw. zurückerstattet.

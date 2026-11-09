@@ -5,17 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 83"
-seiten: "25"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 24
+
+Andererseits ging aus den parlamentarischen Beratungen die Absicht des Gesetzgebers
+hervor, dass der fiktive Einkauf insbesondere jenen gewährt werden soll, die keiner Einrich-
+tung der beruflichen Vorsorge angeschlossen sind. Diese Ungereimtheit ist Anlass dafür, den
+Kreis der Anspruchsberechtigten weiter zu gestalten, als es der Gesetzestext vorgibt. Vorge-
+sehen ist, dass alle selbständig Erwerbenden nach Artikel 1, welche keinen tatsächlichen
+Einkaufsbetrag leisten, die Besteuerung eines fiktiven Einkaufs nach Artikel 8 beantragen
+können. Wer einer Vorsorgeinrichtung angeschlossen ist, muss sich bei der Berechnung des
+fiktiven Einkaufs jedoch alle Vorsorgeguthaben insbesondere auch dieser Vorsorgeeinrich-
+tung anrechnen lassen (siehe Art. 6).
 
 Absatz 2
-Die Jahre ab dem 25. Altersjahr bis und mit dem Liquidationsjahr werden stets vollumfäng-
-lich berücksichtigt, unabhängig davon, ob die selbständig erwerbende Person während der
-ganzen Zeit einer Erwerbstätigkeit nachgegangen ist oder nicht. Dies analog zur Einkaufsbe-
-rechnung gemäss dem BVG, die immer auf das 25. Altersjahr zurückrechnet. Für die Be-
-rechnung des fiktiven Einkaufs können daher maximal 40 (65-25) bzw. 39 Jahre (64-25) be-
-rücksichtigt werden. Es wird dabei auf das vollendete Altersjahr abgestellt und das Jahr der
-Beendigung der Liquidation mitgezählt. Demzufolge umfasst dieser Zeitraum nur ganze Jah-
-re.
+Bei der Besteuerung nach Artikel 37b DBG handelt es sich um eine Steuerminderung. Die
+dafür notwendigen Grundlagen sind gemäss der allgemeinen Beweisregel durch den Steu-
+erpflichtigen zu dokumentieren und beizubringen.

@@ -4,22 +4,31 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 37"
-seiten: "8"
+titel: "Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte"
+ziffer: "3.4.2"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate › 3.4.2 Nicht transparente Produkte · S. 11
 
-Die steuerliche Behandlung von allfälligen negativen Differenzen zwischen Anschaffungs-
-und Veräusserungs- oder Rückzahlungsbeträgen ist gesetzlich nicht geregelt. Diese Situa-
-tion tritt insbesondere bei Anlagen in fremder Währung auf, wenn sich der Wechselkurs der
-Fremdwährung während der Laufzeit gegenüber dem Schweizerfranken verschlechtert. Sie
-kann auch bei einem Anstieg des allgemeinen Zinsniveaus für vergleichbare Anlagen eintre-
-ten. Da es den Grundsätzen unseres Steuersystems widersprechen würde, wenn Verluste
-aus (überwiegend) einmalverzinslichen Anlagen generell unberücksichtigt blieben, akzeptiert
-die ESTV seit Inkrafttreten der Bestimmung von Artikel 20 Absatz 1 Buchstabe b DBG eine
-Verrechnung der realisierten Verluste und Gewinne (zuzüglich deren periodischen Erträge)
-aus anderen in- oder ausländischen Obligationen mit überwiegender Einmalverzinsung. Die
-Berücksichtigung solcher Verluste bleibt indessen innerhalb einer Bemessungsperiode auf
-Anwendungsfälle von Artikel 20 Absatz 1 Buchstabe b DBG beschränkt; eine Verrechnung
-mit anderen Erträgen oder Einkommensteilen ist ausgeschlossen.
+Stempelabgaben
+In Bezug auf die Umsatzabgabe kann auf das unter Ziffer 3.1. Gesagte verwiesen werden.
+
+3.4.2   Nicht transparente Produkte
+
+Direkte Bundessteuer und Verrechnungssteuer
+Liegt ein nicht transparentes Instrument vor, stellt die Option oder das Wandelrecht die vari-
+able Komponente eines Ertrags aus dem Anlagegeschäft dar. Alles, was der Investor bei
+Verfall von Coupons, auf Grund eines Options- oder Wandelrechts sowie bei Auflösung des
+Schuldverhältnisses über das ursprünglich investierte Kapital hinaus erhält, unterliegt der
+Einkommenssteuer und – soweit das Produkt von einem Inländer emittiert wurde – der Ver-
+rechnungssteuer (Art. 20 Abs. 1 Bst. a oder b DBG, Art. 4 Abs. 1 Bst. a VStG).
+
+Nicht transparente Instrumente sind in der Regel Anwendungsfälle von Artikel 20 Absatz 1
+Buchstabe b DBG; steuerbar im Falle von Handänderungen ist stets die Differenz zwischen
+Kauf- und Verkaufspreis (bzw. Rückzahlungswert) des Gesamtinstruments (reine Differenz-
+besteuerung).
+
+Stempelabgaben
+Der Handel mit in- und ausländischen, nicht transparenten Instrumenten unterliegt wie bei
+gewöhnlichen Obligationen der Umsatzabgabe.

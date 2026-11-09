@@ -10,15 +10,16 @@ qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
 > TG · Steuerjahr 2026 · Kurz-WL TG 2026 · S. 1
 
-    bei Vergünstigung durch Arbeitgeber/in Fr. 22.50 pro Tag   max. Fr.   4 800
-    Nebenerwerb   6. Pauschalabzug 20% des Nettolohns, mindestens Fr. 800   max. Fr.   2 400
-13.   Säule 3a   Erwerbstätige Personen mit 2. Säule (Pensionskasse)   max. Fr.   7 258
-    Erwerbstätige Personen ohne 2. Säule: 20% des Erwerbseinkommens max. Fr. 36 288
-14.   Versicherungs   Abzug für bezahlte Prämien und Sparzinsen   Kanton   Bund
-    prämien und   für gemeinsam besteuerten Personen max.   Fr. 7 000 Fr.   3 700
-    Sparzinsen   oder ohne Beiträge an die Säulen 2 und 3a max.   Fr.   5 550
-    für alleinstehende Personen max.   Fr. 3 500 Fr.   1 800
-    oder ohne Beiträge an die Säulen 2 und 3a max.   Fr.   2 700
-    pro Kind zusätzlich max.   Fr. 1 000 Fr.   700
-15.   Weitere Abzüge   15.3 Kosten für Drittbetreuung von Kinder unter 14 Jahren, pro Kind   Kanton   Bund
-    in der Regel 75% der Kosten, maximal aber   Fr. 10 100 Fr. 25 800
+    15.5 Mitgliederbeiträge und Spenden an politische Parteien, max. Fr. 10 000 Fr. 10 600
+16.   Berufsorientierte Aus-
+    und Weiterbildung   pro Person   max. Fr. 13 000
+17.   Behinderungs-   gehörlose Personen pauschal   pauschal Fr.   2 500
+    bedingte Kosten   nierenkranke Personen pauschal   pauschal Fr.   2 500
+    Bezügerinnen/Bezüger Hilflosenentschädigung leichten Grades   pauschal Fr.   2 500
+    Bezügerinnen/Bezüger Hilflosenentschädigung mittleren Grades pauschal Fr.   5 000
+    Bezügerinnen/Bezüger Hilflosenentschädigung schweren Grades pauschal Fr.   7 500
+18.   Zweiverdienerabzug   für gemeinsam besteuerte Personen   nur Bund: max. Fr. 14 100
+    (Berechnung siehe Wegleitung)
+23.   Zusätzliche   23.1 Krankheits- und Unfallkosten, Selbstbehalt vom Nettoeinkommen   5%
+    Abzüge   Pauschalabzug lebensnotwendige Diät (z.B. Zöliakie, nicht aber Diabetes) Fr.   2 500
+    23.2 freiwillige Zuwendungen:

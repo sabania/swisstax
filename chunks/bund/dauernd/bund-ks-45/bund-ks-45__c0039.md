@@ -5,22 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 39"
-seiten: "10"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
 
-<!-- Seite 10 -->
-     Naturalleistungen (Unterkunft und Verpflegung, Geschäftsauto);
-     Trinkgelder (sofern diese einen wesentlichen Teil des Lohnes ausmachend; vgl. Rand-
-    ziffer 32 der «Wegleitung zum Ausfüllen des Lohnausweises»);
-     Tantiemen, Sitzungsgelder,
-     Geldwerte Vorteile aus Mitarbeiterbeteiligungen und andere geldwerte Vorteile; sowie
-     Abgangsentschädigungen.
-Weitere Gehaltsnebenleistungen sind gemäss den Randziffern 19 bis 26 der «Wegleitung
-zum Ausfüllen des Lohnausweises» zum Bruttolohn hinzuzurechnen. Nicht der Quellen-
-steuer unterliegen Leistungen des Arbeitgebers, die im Rahmen von Randziffer 72 der
-«Wegleitung zum Ausfüllen des Lohnausweises» ausgerichtet werden.
-Es wird darauf hingewiesen, dass auch Ersatzeinkünfte steuerbar sind, die mit einer gegen-
-wärtigen, allenfalls vorübergehend eingeschränkten oder unterbrochenen, unselbstständigen
-Erwerbstätigkeit in Zusammenhang stehen (vgl. Art. 84 Abs. 2 Bst. b DBG). Steuerbar sind
+oder andere Vergütungen von einem Arbeitgeber mit Sitz oder Betriebsstätte in der Schweiz
+erhalten, unterliegen ohne Rücksicht auf ihre Staatsangehörigkeit oder ihre aufenthaltsrecht-
+liche Bewilligung der Quellensteuerpflicht (vgl. Art. 91 Abs. 2 DBG). Ob im Einzelfall ein
+Quellensteuerabzug vorgenommen werden muss, ist den Bestimmungen des anwendbaren
+DBA zu entnehmen. Eine entsprechende Übersicht findet sich im jeweils gültigen «Merkblatt
+der ESTV über die Quellenbesteuerung von Arbeitnehmern bei internationalen Transporten».

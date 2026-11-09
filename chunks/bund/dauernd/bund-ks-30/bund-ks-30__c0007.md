@@ -4,18 +4,20 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 7"
-seiten: "2"
+titel: "Ziff. 1.3 Zwei Wohnsitze trotz ungetrennter Ehe – Veranlagungsort (Teil 2/2)"
+ziffer: "1.3"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 30 · 1 Einheit der Familie / Zusammenveranlagung › 1.3 Getrennte Veranlagung bei faktischer Trennung · S. 6
 
-<!-- Seite 2 -->
-8.4.1   Allgemeines ........................................................................................................... 14
-8.4.2   Verheiratete Paare mit Kindern ............................................................................. 14
-8.4.3   Unverheiratete Eltern (gemeinsamer Haushalt) mit gemeinsamen oder nicht
-    gemeinsamen Kindern........................................................................................... 14
-8.4.4   Getrennte, geschiedene oder unverheiratete Eltern (zwei Haushalte) mit
-    gemeinsamen Kindern........................................................................................... 15
-8.5   Abzugsfähige Kosten............................................................................................. 15
-8.6   Nachweispflicht...................................................................................................... 16
+Haben die Ehegatten je einen eigenen zivilrechtlichen Wohnsitz, leben aber gleichwohl fak-
+tisch in ungetrennter Ehe, werden sie dort veranlagt, wo sich ihre überwiegenden persönli-
+chen und wirtschaftlichen Interessen befinden (Art. 105 Abs. 1 DBG). Ist dieser Ort der Ver-
+anlagung ungewiss oder streitig, so wird er, wenn die Veranlagungsbehörden nur eines Kan-
+tons in Frage kommen, von der kantonalen Verwaltung für die direkte Bundessteuer be-
+stimmt. Kommen die Veranlagungsbehörden mehrerer Kantone in Frage und können sich
+die Kantone nicht einigen, so wird der Veranlagungsort durch die ESTV bestimmt (Art. 108
+DBG). Die Verfügung der ESTV unterliegt der Beschwerde an das Bundesverwaltungsge-
+richt [Art. 31 ff. des Bundesgesetzes vom 17.7.2005 über das Bundesverwaltungsgericht
+(VGG)].

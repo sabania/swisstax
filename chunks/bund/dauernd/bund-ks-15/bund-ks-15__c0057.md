@@ -4,19 +4,16 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 57"
-seiten: "12"
+titel: "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 3/3)"
+ziffer: "Nr. 5"
+seiten: "18-19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 18–19
 
-3.7   Negativzinsen
-Der untechnische Begriff „Negativzins“ wird für die Kommission oder Prämie verwendet, die
-der Anleger für die Sicherheit seiner Anlage zu akzeptieren bereit ist. Der in Prozenten aus-
-gedrückte negative Zins entspricht demnach einer negativen Rentabilität. Die Hinnahme ei-
-ner negativen Rentabilität stellt eine Prämie dar. Diese Prämie kann im Bereich des Privat-
-vermögens grundsätzlich nicht als Aufwand vom Einkommen in Abzug gebracht werden,
-bzw. nicht mit Aktivzinsen oder anderen Einkommensbestandteilen verrechnet werden, son-
-dern qualifiziert steuerlich als Kapitalverlust. Als Schuldzinsen gemäss Artikel 33 Absatz 1
-Buchstabe a DBG sind nur diejenigen Zinsen abzugsfähig, die ein Schuldner dem Gläubiger
-vergütet, was bei Negativzinsen nicht gegeben ist.
+auszuüben und damit bei Fälligkeit der Obligation seine Schuldverpflichtung dadurch zu
+erfüllen, dass er dem Investor die CSG Namenaktien zum vereinbarten Ausübungspreis von
+Fr. 322.58 pro Aktie liefert (31 Aktien pro Revexus à Fr. 322.58/Aktie = Fr. 10’000.-) und
+diesen mit dem Guthaben des Investors aus der Obligation verrechnet. Die Optionsprämie,
+die der Investor in jährlichen Zahlungen vergütet erhält, ist der Teil des spekulativen
+Geschäftes dieser Anlage, und ist für den privaten Anleger steuerlich nicht beachtlich.

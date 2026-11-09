@@ -4,17 +4,21 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 2.1 Ausländischer Wohnsitz eines Ehegatten"
+ziffer: "2.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 30 · 2 Internationale Verhältnisse › 2.1 Ausländischer Wohnsitz eines Ehegatten · S. 6
 
-9   Zweiverdienerabzug .............................................................................................. 17
-9.1   Voraussetzungen................................................................................................... 17
-9.2   Definition Erwerbseinkommen ............................................................................... 17
-9.3   Abzug bei Mitarbeit im Beruf oder Betrieb des Ehegatten..................................... 18
-9.4   Berechnung des Abzuges ..................................................................................... 18
-10   Kinderabzug .......................................................................................................... 19
-10.1   Grundsatz .............................................................................................................. 19
-10.2   Kinderabzug für minderjährige Kinder ................................................................... 20
+2   Internationale Verhältnisse
+
+
+2.1   Ausländischer Wohnsitz eines Ehegatten
+
+Leben Ehegatten in rechtlich und tatsächlich ungetrennter Ehe, hat jedoch nur ein Ehegatte
+seinen Wohnsitz in der Schweiz, während der andere im Ausland wohnt, so unterliegt nur
+der in der Schweiz wohnhafte Ehegatte der schweizerischen Steuerhoheit. Dabei ist er für
+sein gesamtes Einkommen zu besteuern. Da er in einer bestehenden Ehe lebt, wird er zum
+Verheiratetentarif oder, wenn er mit Kindern zusammenlebt, zum Elterntarif besteuert. Ihm
+steht zudem der Verheiratetenabzug zu.

@@ -5,19 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 34"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 8
 
-    Beispiel:
-    A und B gründen die Newtec AG mit einem AK von 100'000 Franken (100
-    Aktien à nom. 1'000 Franken). Im Zuge einer Kapitalerhöhung zeichnet die
-    Z Bank als Investorin weitere 100 Aktien à nom. 1'000 Franken zuzüglich
-    eines Agios von 9'000 Franken pro Aktie. Damit beträgt der Verkehrswert
-    10'000 Franken pro Aktie.
+<!-- Seite 8 -->
+    Weil sein übriger Lohn sehr bescheiden ist, wäre C nicht in der Lage, die
+    durch die Mitarbeiterbeteiligung anfallenden Einkommenssteuern zu bezah-
+    len. Aus diesem Grunde beantragt die Newtec AG bei der zuständigen
+    Steuerbehörde, den Verkehrswert zu negieren und statt dessen zu Steuer-
+    zwecken inskünftig auf den Formelwert abzustellen. Dieses Vorgehen wird
+    von den Steuerbehörden akzeptiert, wenn der Arbeitgeber ein unbe-
+    schränktes Kaufrecht hat, die Mitarbeiteraktien zum identisch berechneten
+    Formelwert zurück zu kaufen.
 
-    Ein halbes Jahr später möchte die Newtec AG ihren Mitarbeiter C mittels
-    einer unentgeltlichen Abgabe von 10 Aktien beteiligen. Bei einem Verkehrs-
-    wert von 10'000 Franken pro Aktie würde dies bei C zu einem steuerbaren
-    Einkommen von 100'000 Franken führen.
+3.3   Ermittlung des steuerbaren Einkommens
+Der Besteuerung unterliegt die positive Differenz zwischen dem Verkehrswert der Mitarbei-
+teraktien und deren Abgabepreis.

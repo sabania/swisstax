@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/c1HjrX6SP5Z9/dbst-rs-2-214-dv-2025-de.pdf> · lokal: [bund-rs-2-214.pdf](../../../raw/bund/2025/bund-rs-2-214.pdf) · Volltext: [bund-rs-2-214.md](../../../sources/bund/2025/bund-rs-2-214.md)
 - **Abgerufen:** 2026-11-09 · sha256 `f5f1c765dde654fb…`
 
-## Inhalt (10 Chunks)
+## Inhalt (11 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -26,3 +26,4 @@ generiert: tools/build_index.py
 | [c0008](../../../chunks/bund/2025/bund-rs-2-214/bund-rs-2-214__c0008.md) | RS 2-214 – Abschnitt 8 | S. 2 |  |
 | [c0009](../../../chunks/bund/2025/bund-rs-2-214/bund-rs-2-214__c0009.md) | RS 2-214 – Abschnitt 9 | S. 3 |  |
 | [c0010](../../../chunks/bund/2025/bund-rs-2-214/bund-rs-2-214__c0010.md) | RS 2-214 – Abschnitt 10 | S. 3 |  |
+| [c0011](../../../chunks/bund/2025/bund-rs-2-214/bund-rs-2-214__c0011.md) | RS 2-214 – Abschnitt 11 | S. 3 |  |

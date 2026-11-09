@@ -10,17 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
 
-Obwohl das KAG die Immobilienfonds den offenen kollektiven Kapitalanlagen vorbehält, kön-
-nen die KmGK ihre Mittel zur Verfolgung eines Bau- oder Immobilienprojektes auch in Lie-
-genschaften anlegen. In einem solchen Fall sind sie als Steuersubjekt zu behandeln.
+5.3.2   Ebene der Anleger
+Da ein Umtauschverhältnis zu Verkehrswerten zu bestimmen ist, ergeben sich für die Anle-
+gerinnen und Anleger durch den Umtausch ihrer Anteile an sich keine Folgen bei den direk-
+ten Steuern. Für Anteile im Geschäftsvermögen gilt dies nur, soweit die bisherigen Einkom-
+mens- bzw. Gewinnsteuerwerte unverändert weitergeführt werden. Bei der Vermögensüber-
+tragung einer SICAV gilt dies sinngemäss.
 
-5.3   Umstrukturierungen
-5.3.1   Ebene der Kollektiven Kapitalanlage
-Gemäss Artikel 95 KAG sind folgende Umstrukturierungen von offenen kollektiven Kapitalan-
-lagen zulässig:
-       die Vereinigung durch Übertragung der Vermögenswerte und Verbindlichkeiten (Art.
-    95 Abs. 1 Bst. a KAG);
-       die Umwandlung in eine andere Rechtsform einer kollektiven Kapitalanlage (Art. 95
-    Abs. 1 Bst. b KAG);
-       für die SICAV: die Vermögensübertragung nach den Artikeln 69-77 FusG6 (Art. 95
-    Abs. 1 Bst. c KAG).
+Sacheinlagen bzw. die Einbringung von Immobilien in eine kollektive Kapitalanlage sind nur
+zu Verkehrswerten möglich. Artikel 61 DBG ist nicht anwendbar.
+
+6 SR 221.301

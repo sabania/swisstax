@@ -10,6 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 22a · S. 3
 
+2.2.3. Einkünfte aus Beteiligungen
+
+Für die Teilbesteuerung qualifizieren insbesondere folgende Einkünfte aus Beteiligungsrech
+ten:
+
 •   Ordentliche Gewinnausschüttungen wie z.B. Dividenden, Gewinnanteile auf Stammein
     lagen, Zinsen auf Genossenschaftsanteilen;
 •   ausserordentliche Gewinnausschüttungen wie z.B. Anteile am Ergebnis einer direkten

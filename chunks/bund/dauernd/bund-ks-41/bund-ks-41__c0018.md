@@ -10,16 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 4
 
-Sowohl im Rahmen der ordentlichen Besteuerung wie bei der Besteuerung an der Quelle ist
-die Vorschrift von Artikel 204 DBG anwendbar. Demnach werden Renten, die bis und mit
-dem 31. Dezember 2001 zu laufen begannen oder fällig wurden und auf einem Vorsorgever-
-hältnis beruhen, welches am 31. Dezember 1986 bereits bestand, im Regelfall nur im Um-
-fang von 80 Prozent zur Besteuerung herangezogen.
-
-Dabei ist zu beachten, dass ein Bezug "in Tranchen" (Teilkapitalbezug) steuerlich unbeacht-
-lich ist. Tritt ein entsprechender Vorsorgefall oder Barauszahlungstatbestand (mit Baraus-
-zahlungsbegehren) ein, wird steuerlich stets über das ganze Vorsorgeguthaben abgerech-
-net. Ausnahmen, in welchen nur der ausgerichtete (Teil-)Betrag zur Besteuerung kommt,
-sind ausschliesslich im Rahmen des Vorbezugs für die Wohneigentumsförderung sowie bei
-Anwendbarkeit von Artikel 25f FZG bei definitivem Verlassen der Schweiz (vgl. dazu auch
-Rundschreiben Quellensteuer der ESTV vom 18. November 2009) möglich.
+Die Besteuerung an der Quelle erfolgt aufgrund der entsprechenden Bestimmungen der
+Verordnung des EFD vom 19. Oktober 1993 über die Quellensteuer bei der direkten Bun-
+dessteuer (Quellensteuerverordnung [QStV; SR 642.118.2]). Gemäss Artikel 11 QStV wird
+die Kapitalleistung des im Ausland ansässigen Empfängers ungeachtet staatsvertraglicher
+Regelung stets der Quellensteuer unterstellt; der bezahlte Quellensteuerbetrag wird jedoch
+unter gewissen Bedingungen wieder zurückerstattet (so etwa dann, wenn gemäss Doppel-
+besteuerungsabkommen das Besteuerungsrecht beim Ansässigkeitsstaat liegt und der Emp-
+fänger der seinerzeitigen Leistung belegen kann, dass die zuständige ausländische Steuer-
+behörde von der Kapitalleistung Kenntnis hat; massgebend ist in jedem Fall das zum Zeit-
+punkt der Fälligkeit der Leistung geltende Doppelbesteuerungsabkommen). In Ziffer 3 des
+Anhangs zur QStV sind die massgebenden Quellensteuersätze festgelegt, welche in die kan-
+tonalen Quellensteuertarife integriert sind.

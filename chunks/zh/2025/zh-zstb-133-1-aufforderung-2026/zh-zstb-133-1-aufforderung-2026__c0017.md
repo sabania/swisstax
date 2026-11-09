@@ -10,22 +10,13 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
 > ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 5
 
-<!-- Seite 5 -->
-Zürcher Steuerbuch   Nr. 133.1
+Steuerpflichtige, die trotz Mahnung keine Steuererklärung einreichen, werden nach Art. 174 DBG
+mit einer Busse bis Fr. 1'000.-, in schweren Fällen oder bei Rückfall mit einer Busse bis
+Fr. 10'000.- bestraft. Die Ahndung einer Verletzung von Verfahrenspflichten erfolgt nach § 234
+StG, wenn, mangels Zuständigkeit der Zürcher Steuerbehörden für die Veranlagung der direkten
+Bundessteuer, keine Bestrafung nach dem Recht der Bundessteuer erfolgen kann.
 
-2. Zustellung der Steuerformulare
-
-Die Formulare werden den juristischen Personen, deren Steuerpflicht bekannt ist, durch das
-kantonale Steueramt, Abteilung Register, zugestellt. Wer kein Formular erhält, muss von sich aus
-ein solches beim kantonalen Steueramt, Abteilung Register, verlangen oder dieses über die
-Homepage des kantonalen Steueramtes (www.zh.ch/steueramt) herunterladen.
-
-3. Frist zur Abgabe der Steuererklärung
-
-Die Steuererklärung ist, zusammen mit den erforderlichen Beilagen gemäss § 134 Abs. 2 StG,
-innert 30 Tagen nach Zustellung der Formulare dem kantonalen Steueramt, Abteilung Register,
-einzureichen.
-
-III. Sitzverlegung in einen anderen Kanton oder Aufgabe eines
-Nebensteuerdomizils durch eine steuerpflichtige juristische Person mit Sitz in
-einem anderen Kanton
+E. Eintritt in die Steuerpflicht in der Steuerperiode 2026
+Im Laufe des Jahres 2026 neu in die Steuerpflicht eintretende natürliche und juristische Personen
+haben auf Anfrage des Gemeindesteueramtes bzw. des kantonalen Steueramtes über die
+mutmasslichen Faktoren für die laufende Steuerperiode Auskunft zu geben.

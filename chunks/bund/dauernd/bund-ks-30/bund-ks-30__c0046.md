@@ -4,25 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 46"
-seiten: "10"
+titel: "Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat"
+ziffer: "8.5"
+seiten: "15-16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.5 Abzugsfähige Kosten · S. 15–16
 
-Bei Zahlungsunfähigkeit eines Ehegatten haftet jeder Ehegatte nur für seinen Anteil an der
-Gesamtsteuer. Bei rechtskräftigen Veranlagungen wird der Anteil an der Gesamtsteuer auf-
-grund einer besonderen, mit den ordentlichen Rechtsmitteln selbständig anfechtbaren Haf-
-tungsverfügung festgestellt. Die Rechtskraft der zugrunde liegenden Veranlagung der Ge-
-samtfaktoren bleibt davon unberührt.
+8.5   Abzugsfähige Kosten
 
-Auch bei rechtlicher oder tatsächlicher Trennung der Ehe oder bei Tod des Ehegatten haftet
-jeder Ehegatte bzw. der überlebende Ehegatte nur für seinen Anteil an der Gesamtsteuer.
-Auch hier ist allenfalls eine separate Haftungsverfügung zu erlassen, in der die Anteile der
-Ehegatten festgelegt werden.
+Der Abzug entspricht den nachgewiesenen Kosten für die Kinderbetreuung durch Dritte bis
+zum gesetzlichen Höchstbetrag. Es können nur diejenigen Kosten geltend gemacht werden,
+die ausschliesslich für die Betreuung der Kinder während der tatsächlichen Arbeits- oder
 
-Der Anteil eines Ehegatten an der geschuldeten Steuer entspricht dem Betrag, der sich auf-
-grund des Verhältnisses seines eigenen steuerbaren Einkommens zum gesamten ehelichen
-steuerbaren Gesamteinkommen ergibt.
+Ausbildungszeit oder der tatsächlichen Dauer der Erwerbsunfähigkeit mit gleichzeitiger Be-
+treuungsunfähigkeit der steuerpflichtigen Person anfallen.
 
-6.2.5   Haftung für die Steuer auf dem Kindereinkommen
+Abziehbar sind beispielsweise Taggelder für private und öffentliche Organisationen wie Kin-
+derkrippen oder Kinderhorte. Als abziehbare Kinderdrittbetreuungskosten kommen auch
+Vergütungen an Personen, welche die Betreuung von Kindern haupt- oder nebenberuflich
+ausüben, wie etwa Tagesmütter oder Tagesfamilien, in Frage. Fallen im Rahmen der Drittbe-
+treuung auch Kosten für die Verpflegung oder für anderen Unterhalt der Kinder an, so sind
+diese als Lebenshaltungskosten zu qualifizieren und können nicht in Abzug gebracht wer-
+den. Solche Kosten würden auch entstehen, wenn die Kinder nicht durch Dritte betreut wür-
+den.
+
+Kosten für die Betreuung durch die Eltern selbst sind nicht abzugsfähig.

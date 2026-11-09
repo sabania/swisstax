@@ -17,3 +17,21 @@ Jahr 2026
 (vom 21. August 2025)
 
 Veröffentlichung im Amtsblatt des Kantons Zürich am 9. Januar 2026 und am 6. März 2026
+
+Vorbemerkungen
+Natürliche und juristische Personen, die schon vor dem 1. Januar 2026 steuerpflichtig waren,
+haben im Jahre 2026 für die Staats- und Gemeindesteuern und für die direkte Bundessteuer eine
+Steuererklärung 2025 abzugeben.
+Steuerpflichtige, die in der Steuerperiode 2025 volljährig geworden sind, haben im Jahre 2026
+erstmals eine eigene Steuererklärung 2025 einzureichen.
+In den unter A.II, A.III.2 und B.II aufgeführten Fällen ist bei Beendigung der Steuerpflicht im
+Kanton im Kalenderjahr 2026 eine Steuererklärung 2026 abzugeben. Diese Steuererklärung dient
+bei natürlichen Personen der definitiven Veranlagung der Staats- und Gemeindesteuern und der
+direkten Bundessteuer für die unterjährige Steuerperiode 2026. Bei den juristischen Personen
+dient die Steuererklärung 2026 der definitiven Veranlagung der im Kalenderjahr 2026 endenden
+Steuerperioden.
+
+A. Natürliche Personen
+
+I. Steuererklärung 2025 für Staats- und Gemeindesteuern sowie direkte
+Bundessteuer

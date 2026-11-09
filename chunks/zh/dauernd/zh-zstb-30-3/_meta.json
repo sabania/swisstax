@@ -322,24 +322,6 @@
 },
 {
 "id": "zh-zstb-30-3__c0019",
-"titel": "II. Betriebskosten einschliesslich Versicherungsprämien",
-"pfad": [
-"ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"D. Unterhaltskosten",
-"II. Betriebskosten einschliesslich Versicherungsprämien"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0018",
-"nachher": "zh-zstb-30-3__c0020"
-},
-{
-"id": "zh-zstb-30-3__c0020",
 "titel": "III. Kosten der Verwaltung durch Dritte",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
@@ -353,11 +335,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0019",
-"nachher": "zh-zstb-30-3__c0021"
+"vorher": "zh-zstb-30-3__c0018",
+"nachher": "zh-zstb-30-3__c0020"
 },
 {
-"id": "zh-zstb-30-3__c0021",
+"id": "zh-zstb-30-3__c0020",
 "titel": "1.Gartenunterhaltskosten",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
@@ -372,11 +354,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0020",
-"nachher": "zh-zstb-30-3__c0022"
+"vorher": "zh-zstb-30-3__c0019",
+"nachher": "zh-zstb-30-3__c0021"
 },
 {
-"id": "zh-zstb-30-3__c0022",
+"id": "zh-zstb-30-3__c0021",
 "titel": "3.Kosten des Unterhaltes eines Schwimmbades",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
@@ -391,17 +373,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0021",
-"nachher": "zh-zstb-30-3__c0023"
+"vorher": "zh-zstb-30-3__c0020",
+"nachher": "zh-zstb-30-3__c0022"
 },
 {
-"id": "zh-zstb-30-3__c0023",
+"id": "zh-zstb-30-3__c0022",
 "titel": "4.Eigenleistungen",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
 "D. Unterhaltskosten",
 "IV. Diverse Detailfragen",
 "4.Eigenleistungen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-3__c0021",
+"nachher": "zh-zstb-30-3__c0023"
+},
+{
+"id": "zh-zstb-30-3__c0023",
+"titel": "E. Auslagen für Energiespar- und Umweltschutzmassnahmen",
+"pfad": [
+"ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
+"E. Auslagen für Energiespar- und Umweltschutzmassnahmen"
 ],
 "seiten": [],
 "artikel": null,
@@ -449,10 +448,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0026",
-"titel": "E. Auslagen für Energiespar- und Umweltschutzmassnahmen",
+"titel": "F. Rückbaukosten im Hinblick auf einen Ersatzneubau",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"E. Auslagen für Energiespar- und Umweltschutzmassnahmen"
+"F. Rückbaukosten im Hinblick auf einen Ersatzneubau"
 ],
 "seiten": [],
 "artikel": null,
@@ -466,10 +465,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0027",
-"titel": "F. Rückbaukosten im Hinblick auf einen Ersatzneubau",
+"titel": "G. Kosten für denkmalpflegerische Arbeiten",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"F. Rückbaukosten im Hinblick auf einen Ersatzneubau"
+"G. Kosten für denkmalpflegerische Arbeiten"
 ],
 "seiten": [],
 "artikel": null,
@@ -483,10 +482,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0028",
-"titel": "G. Kosten für denkmalpflegerische Arbeiten",
+"titel": "H. Abzugsberechtigte Person",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"G. Kosten für denkmalpflegerische Arbeiten"
+"H. Abzugsberechtigte Person"
 ],
 "seiten": [],
 "artikel": null,
@@ -500,10 +499,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0029",
-"titel": "H. Abzugsberechtigte Person",
+"titel": "I. Zeitpunkt des Abzugs",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"H. Abzugsberechtigte Person"
+"I. Zeitpunkt des Abzugs"
 ],
 "seiten": [],
 "artikel": null,
@@ -602,10 +601,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0035",
-"titel": "I. Zeitpunkt des Abzugs",
+"titel": "J. Pauschalabzug",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"I. Zeitpunkt des Abzugs"
+"J. Pauschalabzug"
 ],
 "seiten": [],
 "artikel": null,
@@ -704,10 +703,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0041",
-"titel": "J. Pauschalabzug",
+"titel": "K. Abgrenzungskatalog",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"J. Pauschalabzug"
+"K. Abgrenzungskatalog"
 ],
 "seiten": [],
 "artikel": null,
@@ -721,10 +720,10 @@
 },
 {
 "id": "zh-zstb-30-3__c0042",
-"titel": "J. Pauschalabzug",
+"titel": "K. Abgrenzungskatalog",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"J. Pauschalabzug"
+"K. Abgrenzungskatalog"
 ],
 "seiten": [],
 "artikel": null,
@@ -942,40 +941,6 @@
 },
 {
 "id": "zh-zstb-30-3__c0055",
-"titel": "K. Abgrenzungskatalog",
-"pfad": [
-"ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"K. Abgrenzungskatalog"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0054",
-"nachher": "zh-zstb-30-3__c0056"
-},
-{
-"id": "zh-zstb-30-3__c0056",
-"titel": "K. Abgrenzungskatalog",
-"pfad": [
-"ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
-"K. Abgrenzungskatalog"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0055",
-"nachher": "zh-zstb-30-3__c0057"
-},
-{
-"id": "zh-zstb-30-3__c0057",
 "titel": "L. Inkrafttreten",
 "pfad": [
 "ZStB 30.3: Abzugsfähigkeit von Liegenschaftskosten",
@@ -988,7 +953,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-30-3__c0056",
+"vorher": "zh-zstb-30-3__c0054",
 "nachher": null
 }
 ]

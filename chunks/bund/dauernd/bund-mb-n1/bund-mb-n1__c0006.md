@@ -10,17 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · MB N1/2007 · S. 1
 
-    bis 6   über 6–13   über 13– 18   Für Heizung, elektrischen Strom, Gas, Reinigungsmaterial, Wäsche-
-    CHF   CHF   CHF   CHF
-    reinigung, Haushaltartikel, moderne Kommunikationsmittel, Radio
-    und Fernsehen sind in der Regel folgende Beträge als Privatanteil
-Im Jahr...................... 5280.– 1320.– 2640.– 3960.–
-    an den Unkosten anzurechnen, sofern sämtliche den Privathaus
-Im Monat.................. 	 440.–	 110.–	 220.–	 330.–
-    halt betreffenden Ausgaben für diese Zwecke dem Betrieb belastet
-Zuschlag für Tabakwaren: CHF 1500 – 2200 pro rauchende Person   worden sind:
-    Haushalt mit   Zuschlag pro wei-   Zuschlag
-Abzüge für nicht geführte Waren (im Jahr):   1 Erwachsenen   tere/n Erwachsene/n   pro Kind
-– Frische Gemüse...... 	 300.–	  75.–	 150.–	 225.–   CHF   CHF   CHF
-– Frische Früchte....... 	 300.–	  75.–	 150.–	 225.–   Im Jahr...................... 3540.– 900.– 600.–
-– Fleisch- und   Im Monat.................. 	 295.–	 75.–	 50.–
+  Wurstwaren........... 	 500.–	 125.–	 250.–	 375.–
+
+c) Milchhandlungen   4. Privatanteil an den Löhnen des Geschäfts-
+  Erwachsene   Kinder im Alter von ... Jahren *
+    bis 6   über 6–13   über 13– 18
+    personals
+    CHF   CHF   CHF   CHF   Arbeiten Geschäftsangestellte zum Teil für die privaten Bedürfnisse
+    der/des Geschäftsinhaberin/Geschäftsinhabers und ihrer/seiner Fami
+Im Jahr...................... 2460.– 600.– 1200.– 1800.–
+    lie (Zubereitung der Verpflegung, Besorgung der privaten Räume und
+Im Monat.................. 	 205.–	 50.–	 100.–	 150.–
+    Wäsche usw.), so ist ein den Verhältnissen entsprechender Teil der
+Zuschläge für zusätzlich geführte Waren (im Jahr):   Löhne als Privatanteil anzurechnen.
+– Frische Gemüse...... 	 300.–	 75.–	 150.–	 225.–
+– Frische Früchte....... 	 300.–	 75.–	 150.–	 225.–
+– Wurstwaren........... 	 200.–	 50.–	 100.–	 150.–
+Werden in ausgedehntem Masse Lebens- sowie Wasch- und Reini

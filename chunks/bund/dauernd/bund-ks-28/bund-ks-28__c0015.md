@@ -10,15 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
 
-Erfolgt innerhalb von 5 Jahren nach einer steuerneutralen Übertragung des Betriebes eines
-selbständig Erwerbenden auf eine juristische Person eine Veräusserung zu einem Preis, der
-über dem übertragenen steuerlichen Eigenkapital liegt (Sperrfristverletzung, Art. 19 Abs. 2
-DBG), so ist bei der Abrechnung über die stillen Reserven im Nachsteuerverfahren die Be-
-steuerung nach Artikel 37b DBG vorzunehmen, sofern die Übertragung nach dem Inkrafttre-
-ten von Artikel 37b DBG erfolgte und die Voraussetzungen zur Anwendung dieses Artikels
-im Zeitpunkt der Übertragung erfüllt waren. Einkäufe in die Vorsorge, die seit der Übertra-
-
-    2
-    SR 831.40
-    3
-    SR 831.20
+2.3.   Übertragung einer Personenunternehmung auf eine juristische Person
+Die gleichzeitige oder nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht
+der privilegierten Besteuerung des Liquidationsgewinnes nicht im Wege. Dies gilt auch für
+den Fall, dass der selbständig Erwerbende seinen Betrieb, den er bisher in der Rechtsform
+einer Personenunternehmung geführt hat, auf eine juristische Person überträgt und in der
+Folge in ein Anstellungsverhältnis mit dieser juristischen Person eintritt. Soweit die Übertra-
+gung nicht steuerneutral erfolgt (Art. 19 Abs. 1 Bst. b DBG) sowie für Vermögenswerte, die
+dabei ins Privatvermögen überführt werden, sind die realisierten stillen Reserven nach Artikel
+37b DBG zu besteuern. Vorbehalten bleibt die Wahl des Steueraufschubes gemäss Artikel
+18a Absatz 1 DBG sowie die Verpachtung nach Artikel 18a Absatz 2 DBG.

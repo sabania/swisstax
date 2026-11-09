@@ -10,11 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 15
 
-Der „Export“ von Mitarbeiterbeteiligungen, die nach schweizerischem Recht im Zeitpunkt der
-Abgabe besteuert werden (vgl. Ziff. 2.3.1.1.1 und 2.3.1.1.2, sowie Ziff. 4.1 hievor), ist steuer-
-lich unbeachtlich. Vorbehalten bleiben diejenigen Fälle, in welchen die Mitarbeiterbeteiligun-
-gen als Bonus für die in der Schweiz erbrachte Leistung ausgerichtet werden und dement-
-sprechend der Quellensteuer unterliegen.
+7.3.3.1   „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel
+Der „Export“ von Mitarbeiterbeteiligungen, welche nach schweizerischem Recht bei Realisa-
+tion besteuert werden, zieht in diesem Zeitpunkt in der Schweiz Einkommenssteuerfolgen
+nach sich. Verlegt dabei der Mitarbeitende vor Realisation der Mitarbeiterbeteiligungen sei-
+nen Wohnsitz ins Ausland, hat die Quellenbesteuerung in Anwendung von Artikel 97a DBG
+zu erfolgen. Der in der Schweiz steuerbare geldwerte Vorteil berechnet sich dabei wie folgt
+(vgl. Art. 17d DBG):
 
-Die Besteuerung hat in jedem Fall über das Quellensteuerverfahren zu erfolgen und der
-Quellensteuerabrechnung sind die Bescheinigungen gemäss Artikel 8 MBV beizulegen.
+Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage in der Schweiz innerhalb der Vestingperiode
+
+    Anzahl Tage der Vestingperiode
+
+Die Steuer (Anteil direkte Bundessteuer) beträgt 11,5 Prozent des in der Schweiz steuerba-
+ren geldwerten Vorteils (Art. 97a Abs. 2 DBG).

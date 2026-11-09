@@ -5,17 +5,11 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 35"
-seiten: "9"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 8
 
-<!-- Seite 9 -->
-3   Quellenbesteuerte Arbeitnehmer
-
-3.1   Grundsätze
-Der Quellensteuer unterliegen Arbeitnehmer grundsätzlich für Lohneinkommen und Ersatz-
-einkünfte, welche sie bei einem Schuldner der steuerbaren Leistung mit Wohnsitz, Sitz, tat-
-sächlicher Verwaltung, Betriebsstätte oder fester Einrichtung in der Schweiz erzielen. Die
-Quellensteuerpflicht beginnt mit der Aufnahme der unselbstständigen Erwerbstätigkeit (auch
-für Minderjährige; vgl. Art. 9 Abs. 2 zweiter Halbsatz DBG).
+ger, Wochenaufenthalter und Kurzaufenthalter. Entsprechend unterliegen sie damit in der
+Schweiz nur für ihr Einkommen aus unselbstständiger Erwerbstätigkeit der Quellensteuer
+(beschränkte Steuerpflicht; vgl. Art. 5 Abs. 1 DBG).

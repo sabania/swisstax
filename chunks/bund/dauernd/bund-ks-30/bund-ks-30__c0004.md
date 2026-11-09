@@ -4,17 +4,20 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 1.2 Beginn und Ende der Gemeinschaftsbesteuerung"
+ziffer: "1.2"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 30 · 1 Einheit der Familie / Zusammenveranlagung › 1.2 · S. 5
 
-5   Steuernachfolge des überlebenden Ehegatten ....................................................... 9
-6   Haftung und Mithaftung der Ehegatten und der Kinder für die Steuer .................... 9
-6.1   Grundsatz ................................................................................................................ 9
-6.2   Wegfall der Solidarhaftung ...................................................................................... 9
-6.2.1   Zahlungsunfähigkeit ................................................................................................ 9
-6.2.2   Rechtliche oder tatsächliche Trennung der Ehegatten .......................................... 10
-6.2.3   Tod eines Ehegatten ............................................................................................. 10
-6.2.4   Anteilsmässige Haftung ......................................................................................... 10
+1.2   Beginn und Ende der Gemeinschaftsbesteuerung
+
+Die Gemeinschaftsbesteuerung wird durch die Heirat ausgelöst. Die Ehegatten unterliegen
+für die ganze entsprechende Steuerperiode der Gemeinschaftsbesteuerung. Bei Tod eines
+Ehegatten endet die Ehe und somit auch die Gemeinschaftsbesteuerung. Der überlebende
+Ehegatte wird ab dem Todestag für den Rest der Steuerperiode separat zu dem für ihn an-
+wendbaren Tarif veranlagt (Art. 42 Abs. 1 und 3 DBG).
+
+Bei Scheidung sowie bei rechtlicher oder tatsächlicher Trennung werden die Ehegatten für
+die ganze Steuerperiode getrennt besteuert (Art. 42 Abs. 2 DBG).

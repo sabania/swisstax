@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/steuerrechnung-natuerliche-personen.html> · lokal: [zh-info-steuerrechnung.html](../../../raw/zh/dauernd/zh-info-steuerrechnung.html) · Volltext: [zh-info-steuerrechnung.md](../../../sources/zh/dauernd/zh-info-steuerrechnung.md)
 - **Abgerufen:** 2026-11-09 · sha256 `d7747cdfc3aa39ab…`
 
-## Inhalt (28 Chunks)
+## Inhalt (27 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -43,4 +43,3 @@ generiert: tools/build_index.py
 | [c0025](../../../chunks/zh/dauernd/zh-info-steuerrechnung/zh-info-steuerrechnung__c0025.md) | Unsere Kontoangaben |  |  |
 | [c0026](../../../chunks/zh/dauernd/zh-info-steuerrechnung/zh-info-steuerrechnung__c0026.md) | Weiterführende Informationen |  |  |
 | [c0027](../../../chunks/zh/dauernd/zh-info-steuerrechnung/zh-info-steuerrechnung__c0027.md) | Weiterführende Informationen |  |  |
-| [c0028](../../../chunks/zh/dauernd/zh-info-steuerrechnung/zh-info-steuerrechnung__c0028.md) | Weiterführende Informationen |  |  |

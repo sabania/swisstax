@@ -4,19 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 95"
-seiten: "22"
+titel: "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 1/2)"
+ziffer: "14.1.1"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1 Unterhaltszahlungen an den Ehegatten · S. 30
 
-<!-- Seite 22 -->
-gen. Den Unterstützungsabzug kann er nicht zusätzlich auch noch beanspruchen. Dem an-
-deren Elternteil, der die Unterhaltsleistungen für das Kind zu versteuern hat, wird der Kin-
-derabzug gewährt. Bei Unterhaltsleistungen an volljährige Kinder in Ausbildung kann der
-leistende Elternteil die Unterhaltszahlungen nicht mehr in Abzug bringen, er erhält dafür
-grundsätzlich den Kinderabzug. Leisten beide Elternteile Unterhaltszahlungen, kann der El-
-ternteil mit den höheren finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren
-Einkommen, den Kinderabzug geltend machen. Der andere Elternteil kann den Unterstüt-
-zungsabzug geltend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges
-erfolgen.
+14   Besteuerung der unverheiratet zusammenlebenden, geschiedenen
+    oder getrennt lebenden Ehegatten und Eltern
+
+14.1   Besteuerung der Unterhaltszahlungen an den geschiedenen,
+    gerichtlich oder tatsächlich getrennt lebenden Ehegatten
+
+14.1.1   Zivilrechtliche Aspekte
+
+Gemäss Artikel 125 Absatz 1 ZGB besteht Anspruch auf einen angemessenen Beitrag als
+nachehelichen Unterhalt, soweit einem geschiedenen Ehegatten nicht zuzumuten ist, für den
+ihm gebührenden Unterhalt unter Einschluss einer angemessenen Altersvorsorge selbst auf-
+zukommen. Der nacheheliche Unterhalt kann in Form einer Rente oder einer Kapitalabfin-
+dung erfolgen. Gemäss Wortlaut des Gesetzes ist grundsätzlich von einer Unterhaltsrente
+auszugehen. Sieht das Gericht die Voraussetzungen für einen nachehelichen Unterhaltsbei-
+trag als gegeben an, so setzt es nach Artikel 126 Absatz 1 ZGB eine Rente fest und be-
+stimmt den Beginn der Beitragspflicht. Rechtfertigen es besondere Umstände, so kann an-
+stelle einer Rente eine Abfindung festgesetzt werden (Art. 126 Abs. 2 ZGB).

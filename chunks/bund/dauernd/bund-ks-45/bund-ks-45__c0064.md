@@ -10,13 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
 
-4.5   Tarif für Grenzgänger aus Italien (Tarifcode F)
-Der Tarifcode F kommt zur Anwendung für Grenzgänger aus Italien, welche im Sinne der
-Vereinbarung vom 3. Oktober 1974 zwischen der Schweiz und Italien über die Besteuerung
-der Grenzgänger und den finanziellen Ausgleich zugunsten der italienischen Grenzgemein-
-den (SR 0.642.045.43) in einer italienischen Grenzgemeinde leben und deren Ehemann oder
-Ehefrau ausserhalb der Schweiz erwerbstätig ist. Das ausserhalb der Schweiz erzielte Er-
-werbseinkommen wird bei der Berechnung des satzbestimmenden Einkommens nicht be-
-rücksichtigt (vgl. hierzu die Erläuterungen zur Änderung der QStV vom 25. Februar 2013, S.
-5 – 6 in: https://www.newsd.admin.ch/newsd/message/attachments/29836.pdf). Der Ta-
-rifcode F kommt nur in den Kantonen Tessin, Wallis und Graubünden zur Anwendung.
+4.3   Tarif für Alleinerziehende (Tarifcodes H bzw. P)
+Der Tarifcode H (bzw. P für Grenzgänger nach dem DBA-D) gilt nach Artikel 36 Absatz 2bis
+DBG für Alleinstehende, welche mit Kindern oder unterhaltspflichtigen Personen im gleichen
+Haushalt zusammenleben und für deren Unterhalt sie zur Hauptsache aufkommen. Im Kon-
+kubinatsverhältnis mit minderjährigen Kindern unter gemeinsamer elterlicher Sorge oder voll-
+jährigen Kindern in Erstausbildung, für deren Unterhalt die Eltern gemeinsam aufkommen,
+wird der Tarifcode H (bzw. P) mit Kinderabzug demjenigen Elternteil gewährt, der das höhere
+Bruttoeinkommen erzielt (vgl. Ziffer 13.4.2 des Kreisschreibens Nr. 30 der ESTV vom 21. De-
+zember 2010 über die Ehepaar- und Familienbesteuerung; KS 30 ESTV). Vorbehalten bleibt
+die je hälftige Berücksichtigung der Kinderabzüge im Rahmen einer Neuberechnung der
+Quellensteuer oder einer nachträglichen ordentlichen Veranlagung (vgl. Ziffer 11 unten).

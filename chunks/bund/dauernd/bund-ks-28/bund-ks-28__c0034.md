@@ -10,18 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 9
 
-    a.   Altersguthaben aus beruflicher Vorsorge, insbesondere:
-    1. Guthaben bei Vorsorgeeinrichtungen und Freizügigkeitseinrichtungen;
-    2. Guthaben der Säule 3a nach Artikel 60a Absatz 2 der Verordnung vom
-    18. April 19844 über die berufliche Alters-, Hinterlassenen- und Invali-
-    denvorsorge;
-    b.   Vorbezüge nach Artikel 3 der Verordnung vom 13. November 19855 über
-    die steuerliche Abzugsberechtigung für Beiträge an anerkannte Vorsorge-
-    formen;
-    c.   Vorbezüge nach Artikel 30c BVG und Artikel 331e des Obligationenrechts6
-    sowie Pfandverwertungen nach Artikel 331d Absatz 6 des Obligationen-
-    rechts;
-    d.   Barauszahlungen von Vorsorgeeinrichtungen, Freizügigkeitseinrichtungen
-    und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds;
-    e.   Invaliden- und Altersleistungen von Vorsorgeeinrichtungen, Freizügigkeits-
-    einrichtungen und Säule-3a-Einrichtungen sowie von Wohlfahrtsfonds.
+<!-- Seite 9 -->
+Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
+Aufgabe der selbstständigen Erwerbstätigkeit
+
+3 Das Einkommen entspricht dem Durchschnitt aus der Summe der AHV-pflichtigen
+Erwerbseinkommen aus selbstständiger Erwerbstätigkeit der letzten fünf Geschäfts-
+jahre vor dem Liquidationsjahr, abzüglich der im Vorjahr realisierten stillen Reser-
+ven.
+4 Weist die steuerpflichtige Person nach, dass sie bis zum Liquidationsjahr weniger
+als fünf Jahre selbstständig erwerbend war, so wird das Einkommen gestützt auf die
+tatsächliche Anzahl Jahre der selbstständigen Erwerbstätigkeit berechnet.
+5 Das Einkommen darf den zehnfachen oberen Grenzbetrag nach Artikel 8 Absatz 1
+des Bundesgesetzes vom 25. Juni 19823 über die berufliche Alters-, Hinterlassenen-
+und Invalidenvorsorge (BVG) nicht überschreiten.
+6 Abgezogen werden:

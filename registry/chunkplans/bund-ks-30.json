@@ -1,0 +1,2534 @@
+{
+ "id": "bund-ks-30",
+ "hinweise": [
+  "Seite 44-45 (Beilage 1): grafische Übersicht als Textfragmente extrahiert, Struktur nicht rekonstruierbar (vermischte Spalten).",
+  "Seiten 46-58 (Beilage 2): mehrspaltige Tabelle, Spalten im Fliesstext vermischt (Zeilenumbrüche mitten in Sätzen); inhaltlich nur eingeschränkt lesbar; Zeilen 2413-2440 u.ä. mit gemischten Zellen.",
+  "Seite 1: Fussnote 1 (2. Auflage) und Inhaltsverzeichnis Seiten 1-4 sind als Deckblatt/Verzeichnis geskippt.",
+  "Dokument stammt von 2010 (2. Auflage Stand 2014): genannte Beträge (z.B. Zweiverdienerabzug 8'100–13'400, Drittbetreuung 10'100, Elterntarif 251) sind nicht die Werte 2025/2026.",
+  "Fussnoten 2-4 (S. 19, 22) stehen zwischen Fliesstext."
+ ],
+ "chunks": [
+  {
+   "start": 18,
+   "skip": true,
+   "titel": "Deckblatt"
+  },
+  {
+   "start": 42,
+   "skip": true,
+   "titel": "Inhaltsverzeichnis"
+  },
+  {
+   "start": 210,
+   "titel": "Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung",
+   "pfad": [
+    "1 Einheit der Familie / Zusammenveranlagung",
+    "1.1 Grundsatz"
+   ],
+   "stichworte": [
+    "Zusammenveranlagung",
+    "Ehepaar",
+    "Konkubinat",
+    "Verheiratetentarif",
+    "Elterntarif",
+    "Familienbesteuerung"
+   ],
+   "zusammenfassung": "Ehegatten in ungetrennter Ehe werden unabhängig vom Güterstand gemeinsam veranlagt (Art. 9 DBG), Konkubinatspaare stets individuell; 2. Auflage entspricht dem Recht per 1. Januar 2014.",
+   "ziffer": "1.1",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 246,
+   "titel": "Ziff. 1.2 Beginn und Ende der Gemeinschaftsbesteuerung",
+   "pfad": [
+    "1 Einheit der Familie / Zusammenveranlagung",
+    "1.2"
+   ],
+   "stichworte": [
+    "Heirat",
+    "Scheidung",
+    "Tod Ehegatte",
+    "Trennung",
+    "Steuerperiode",
+    "Heiratsjahr"
+   ],
+   "zusammenfassung": "Gemeinschaftsbesteuerung beginnt mit der Heirat für die ganze Steuerperiode; bei Tod ab Todestag separate Veranlagung, bei Scheidung/Trennung für die ganze Periode getrennt (Art. 42 DBG).",
+   "ziffer": "1.2",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 258,
+   "titel": "Ziff. 1.3 Faktische Trennung – Voraussetzungen getrennter Veranlagung",
+   "pfad": [
+    "1 Einheit der Familie / Zusammenveranlagung",
+    "1.3 Getrennte Veranlagung bei faktischer Trennung"
+   ],
+   "stichworte": [
+    "faktische Trennung",
+    "getrennte Veranlagung",
+    "eigener Wohnsitz",
+    "Trennung ein Jahr",
+    "getrennt lebend"
+   ],
+   "zusammenfassung": "Faktische Trennung setzt kumulativ u.a. keine gemeinsame Wohnung, keine gemeinsamen Mittel und Dauer von mindestens einem Jahr voraus; Nachweis obliegt den Ehegatten.",
+   "ziffer": "1.3",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 279,
+   "titel": "Ziff. 1.3 Zwei Wohnsitze trotz ungetrennter Ehe – Veranlagungsort",
+   "pfad": [
+    "1 Einheit der Familie / Zusammenveranlagung",
+    "1.3 Getrennte Veranlagung bei faktischer Trennung"
+   ],
+   "stichworte": [
+    "zwei Wohnsitze",
+    "Veranlagungsort",
+    "Wochenaufenthalt",
+    "Bundesgericht",
+    "Art. 105 DBG",
+    "Art. 108 DBG"
+   ],
+   "zusammenfassung": "Bei zwei Wohnsitzen aber fortgeführter ehelicher Gemeinschaft wird gemeinsam veranlagt, und zwar am Ort der überwiegenden persönlichen und wirtschaftlichen Interessen.",
+   "ziffer": "1.3",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 300,
+   "titel": "Ziff. 2.1 Ausländischer Wohnsitz eines Ehegatten",
+   "pfad": [
+    "2 Internationale Verhältnisse",
+    "2.1 Ausländischer Wohnsitz eines Ehegatten"
+   ],
+   "stichworte": [
+    "Ausland",
+    "Wohnsitz im Ausland",
+    "Satzbestimmung",
+    "Grenzgänger",
+    "Ehegatte im Ausland",
+    "DBA"
+   ],
+   "zusammenfassung": "Nur der in der Schweiz wohnhafte Ehegatte ist steuerpflichtig, erhält aber Verheiratetentarif/Elterntarif und Verheiratetenabzug.",
+   "ziffer": "2.1",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 312,
+   "titel": "Ziff. 2.1 Satzbestimmung mit Einkommen des im Ausland wohnenden Ehegatten",
+   "pfad": [
+    "2 Internationale Verhältnisse",
+    "2.1 Ausländischer Wohnsitz eines Ehegatten"
+   ],
+   "stichworte": [
+    "Satzbestimmung",
+    "Auslandeinkommen Ehegatte",
+    "Art. 7 DBG",
+    "Ermessen",
+    "BGE 2C_523/2007"
+   ],
+   "zusammenfassung": "Das Einkommen des im Ausland wohnenden Ehegatten ist zur Satzbestimmung beizuziehen und darf bei fehlenden Angaben ermessensweise festgesetzt werden; bei tatsächlicher Trennung entfällt dies.",
+   "ziffer": "2.1",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 337,
+   "titel": "Ziff. 2.2 Beschränkte Steuerpflicht eines Ehegatten",
+   "pfad": [
+    "2 Internationale Verhältnisse",
+    "2.2 Beschränkte Steuerpflicht eines Ehegatten"
+   ],
+   "stichworte": [
+    "beschränkte Steuerpflicht",
+    "wirtschaftliche Zugehörigkeit",
+    "Verheiratetenabzug",
+    "Elterntarif",
+    "Satzbestimmung"
+   ],
+   "zusammenfassung": "Bei beschränkter Steuerpflicht gilt das eheliche Gesamteinkommen zur Satzbestimmung; Anspruch auf Verheiratetenabzug und Verheiratetentarif bzw. Kinderabzug und Elterntarif.",
+   "ziffer": "2.2",
+   "positionen": [
+    "sozialabzug.verheiratete"
+   ]
+  },
+  {
+   "start": 348,
+   "titel": "Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens",
+   "pfad": [
+    "3 Besteuerung der minderjährigen Kinder"
+   ],
+   "stichworte": [
+    "minderjährige Kinder",
+    "Kindereinkommen",
+    "Steuersubstitution",
+    "Stiefkind",
+    "Pflegekind",
+    "elterliche Sorge"
+   ],
+   "zusammenfassung": "Das Einkommen minderjähriger Kinder unter elterlicher Sorge wird – ausser Erwerbseinkommen und Erwerbsersatz – dem Inhaber der elterlichen Sorge zugerechnet (Art. 9 Abs. 2 DBG), auch bei Stiefkindern, nicht bei Pflegeeltern.",
+   "ziffer": "3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "personalien"
+   ]
+  },
+  {
+   "start": 371,
+   "titel": "Ziff. 3 Zurechnung bei getrennten Eltern – Obhut und alternierende Obhut",
+   "pfad": [
+    "3 Besteuerung der minderjährigen Kinder"
+   ],
+   "stichworte": [
+    "alternierende Obhut",
+    "getrennte Eltern",
+    "Kindereinkommen",
+    "Unterhaltsbeiträge Kind",
+    "hälftige Zurechnung"
+   ],
+   "zusammenfassung": "Bei gemeinsamer Sorge wird das Kindeseinkommen dem Elternteil mit Obhut und Unterhaltsbeiträgen zugeteilt; ohne Unterhaltsbeiträge wird von alternierender Obhut ausgegangen und das Einkommen hälftig aufgeteilt.",
+   "ziffer": "3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "personalien"
+   ]
+  },
+  {
+   "start": 383,
+   "titel": "Ziff. 3 Erwerbs- und Ersatzeinkommen des Kindes, selbständige Veranlagung",
+   "pfad": [
+    "3 Besteuerung der minderjährigen Kinder"
+   ],
+   "stichworte": [
+    "Erwerbseinkommen Kind",
+    "Lehrlingslohn",
+    "Waisenrente",
+    "IV-Kinderrente",
+    "Volljährigkeit",
+    "bevormundetes Kind"
+   ],
+   "zusammenfassung": "Erwerbs- und Ersatzeinkommen versteuert das Kind selbst; AHV-Halbwaisenrente und IV-Kinderrente sind vom rentenberechtigten Elternteil zu versteuern; Kinder werden ab der Periode der Volljährigkeit selbständig veranlagt.",
+   "ziffer": "3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "einkommen.sozialversicherung.ahv_iv"
+   ]
+  },
+  {
+   "start": 407,
+   "titel": "Ziff. 4 Eingetragene Partnerschaft – Gleichstellung mit Ehepaaren",
+   "pfad": [
+    "4 Eingetragene Partnerinnen oder Partner"
+   ],
+   "stichworte": [
+    "eingetragene Partnerschaft",
+    "gleichgeschlechtliche Paare",
+    "registrierte Partnerschaft",
+    "PartG",
+    "Verheiratetentarif"
+   ],
+   "zusammenfassung": "Registrierte gleichgeschlechtliche Paare sind seit 1. Januar 2007 bei der direkten Bundessteuer den Ehepaaren gleichgestellt (Zusammenrechnung, Verheiratetentarif/Elterntarif).",
+   "ziffer": "4",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 423,
+   "titel": "Ziff. 4 Unterhaltsleistungen und Steuernachfolge bei eingetragener Partnerschaft",
+   "pfad": [
+    "4 Eingetragene Partnerinnen oder Partner"
+   ],
+   "stichworte": [
+    "Unterhaltsbeiträge Partner",
+    "Art. 9 Abs. 1bis DBG",
+    "Steuernachfolge",
+    "Haftung Partner",
+    "Auflösung Partnerschaft"
+   ],
+   "zusammenfassung": "Art. 9 Abs. 1bis DBG stellt Unterhaltsbeiträge bei registrierter Partnerschaft und deren Auflösung explizit den Ehegatten gleich; Haftung des überlebenden Partners analog (Art. 12 Abs. 3 DBG).",
+   "ziffer": "4",
+   "positionen": [
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 440,
+   "titel": "Ziff. 5 Steuernachfolge des überlebenden Ehegatten – Erbenhaftung",
+   "pfad": [
+    "5 Steuernachfolge des überlebenden Ehegatten"
+   ],
+   "stichworte": [
+    "Steuernachfolge",
+    "Erbenhaftung",
+    "Tod",
+    "Nachlass",
+    "Vorempfang",
+    "überlebender Ehegatte"
+   ],
+   "zusammenfassung": "Erben treten in die Steuerpflichten des Erblassers ein und haften solidarisch bis zur Höhe ihrer Erbteile (Art. 12 Abs. 1 DBG), der überlebende Ehegatte zusätzlich mit güterrechtlichen Ansprüchen über die gesetzliche Hälfte hinaus.",
+   "ziffer": "5",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 468,
+   "titel": "Ziff. 6.1–6.2.1 Solidarhaftung der Ehegatten und Wegfall bei Zahlungsunfähigkeit",
+   "pfad": [
+    "6 Haftung und Mithaftung",
+    "6.1 Grundsatz / 6.2 Wegfall der Solidarhaftung"
+   ],
+   "stichworte": [
+    "Solidarhaftung",
+    "Haftung Ehegatten",
+    "Zahlungsunfähigkeit",
+    "Verlustschein",
+    "Konkurs",
+    "Überschuldung"
+   ],
+   "zusammenfassung": "Ehegatten in ungetrennter Ehe haften solidarisch für die Gesamtsteuer (Art. 13 Abs. 1 DBG); die Solidarhaftung entfällt bei Zahlungsunfähigkeit eines Ehegatten, Beweislast beim sich Berufenden.",
+   "ziffer": "6.1"
+  },
+  {
+   "start": 502,
+   "titel": "Ziff. 6.2.2–6.2.3 Wegfall der Solidarhaftung bei Trennung und Tod",
+   "pfad": [
+    "6 Haftung und Mithaftung",
+    "6.2 Wegfall der Solidarhaftung"
+   ],
+   "stichworte": [
+    "Trennung Haftung",
+    "Tod Ehegatte Haftung",
+    "Solidarhaftung entfällt",
+    "Art. 13 Abs. 2 DBG",
+    "Art. 42 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Bei rechtlicher oder tatsächlicher Trennung entfällt die Solidarhaftung auch für bestehende Steuerforderungen; beim Tod haftet der überlebende Ehegatte nur noch für seinen Anteil.",
+   "ziffer": "6.2.2"
+  },
+  {
+   "start": 522,
+   "titel": "Ziff. 6.2.4 Anteilsmässige Haftung der Ehegatten",
+   "pfad": [
+    "6 Haftung und Mithaftung",
+    "6.2.4"
+   ],
+   "stichworte": [
+    "anteilsmässige Haftung",
+    "Haftungsverfügung",
+    "Anteil Gesamtsteuer",
+    "steuerbares Einkommen Verhältnis"
+   ],
+   "zusammenfassung": "Jeder Ehegatte haftet nur für seinen Anteil an der Gesamtsteuer, bemessen nach dem Verhältnis seines steuerbaren Einkommens zum gesamten ehelichen steuerbaren Einkommen, festgestellt in einer Haftungsverfügung.",
+   "ziffer": "6.2.4"
+  },
+  {
+   "start": 540,
+   "titel": "Ziff. 6.2.5 Haftung für die Steuer auf dem Kindereinkommen",
+   "pfad": [
+    "6 Haftung und Mithaftung",
+    "6.2.5"
+   ],
+   "stichworte": [
+    "Haftung Kindereinkommen",
+    "Kindersteuer",
+    "Steuersubstituten",
+    "Solidarhaftung Eltern"
+   ],
+   "zusammenfassung": "Für die Steuer auf dem Kindereinkommen haften die verheirateten Eltern solidarisch; diese Solidarhaftung entfällt bei Zahlungsunfähigkeit eines Ehegatten nicht.",
+   "ziffer": "6.2.5",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 558,
+   "titel": "Ziff. 6.2.5 Haftung bei getrennten Eltern und Haftung der Kinder",
+   "pfad": [
+    "6 Haftung und Mithaftung",
+    "6.2.5"
+   ],
+   "stichworte": [
+    "getrennte Eltern Haftung",
+    "künftige Steuerschulden",
+    "Obhut",
+    "Haftung Kinder",
+    "Art. 13 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Bei getrennten Eltern haftet für künftige Steuerschulden auf dem Kindereinkommen nur der Elternteil mit Sorge bzw. Obhut; Kinder unter elterlicher Sorge haften solidarisch bis zu ihrem Anteil an der Gesamtsteuer.",
+   "ziffer": "6.2.5",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 576,
+   "titel": "Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren",
+   "pfad": [
+    "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
+   ],
+   "stichworte": [
+    "Versicherungsabzug",
+    "Krankenkassenprämien",
+    "Sparzinsen",
+    "Prämienabzug",
+    "ohne 2. Säule",
+    "ohne Säule 3a",
+    "Rentner"
+   ],
+   "zusammenfassung": "Ungetrennten Ehepaaren steht der doppelte Abzug (von Rundung abgesehen) zu; ohne Beiträge an 2. Säule/3a erhöhen sich die Ansätze um die Hälfte, plus Zuschlag pro Kind und unterstützte Person (Art. 33 Abs. 1 Bst. g, 1bis DBG).",
+   "ziffer": "7",
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ]
+  },
+  {
+   "start": 603,
+   "titel": "Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung",
+   "pfad": [
+    "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
+   ],
+   "stichworte": [
+    "Versicherungsabzug Kind",
+    "Kopplung Kinderabzug",
+    "getrennte Eltern",
+    "volljähriges Kind",
+    "halber Abzug"
+   ],
+   "zusammenfassung": "Der Versicherungsabzug für das Kind ist an den Kinderabzug gekoppelt: bei gemeinsamer Sorge ohne Unterhaltsbeiträge je der halbe Abzug, bei volljährigem Kind in Ausbildung der unterhaltsleistende Elternteil.",
+   "ziffer": "7",
+   "positionen": [
+    "abzug.versicherungspraemien",
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 624,
+   "titel": "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug",
+   "pfad": [
+    "7 Abzug für Versicherungsprämien und Sparkapitalzinsen"
+   ],
+   "stichworte": [
+    "Prämienverbilligung",
+    "IPV",
+    "KVG",
+    "Krankenkasse Verbilligung",
+    "tatsächlich getragene Prämien"
+   ],
+   "zusammenfassung": "Erhaltene Prämienverbilligungen nach Art. 65 ff. KVG sind aufwandmindernd zu berücksichtigen; abziehbar sind nur die tatsächlich selbst getragenen Prämien.",
+   "ziffer": "7",
+   "positionen": [
+    "abzug.versicherungspraemien"
+   ]
+  },
+  {
+   "start": 632,
+   "titel": "Ziff. 8.1 Kinderdrittbetreuungskostenabzug – Allgemeines",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Kinderdrittbetreuung",
+    "Kita",
+    "Krippe",
+    "Fremdbetreuung",
+    "anorganischer Abzug",
+    "Art. 33 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Seit Steuerjahr 2011 ist bei der direkten Bundessteuer ein Abzug für Kinderdrittbetreuungskosten möglich, als anorganischer Abzug auf einen Maximalbetrag pro Kind und Jahr beschränkt.",
+   "ziffer": "8.1",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 647,
+   "titel": "Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr)",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.2 Für welche Kinder"
+   ],
+   "stichworte": [
+    "14. Altersjahr",
+    "Stiefkind",
+    "Pflegekind",
+    "Adoptivkind",
+    "Tagesmutter Aufnahme",
+    "gleicher Haushalt"
+   ],
+   "zusammenfassung": "Abzug nur für Kinder, die das 14. Altersjahr noch nicht vollendet haben, und nur für Steuerpflichtige im gleichen Haushalt, die für den Unterhalt sorgen; auch für Stief- und Pflegekinder.",
+   "ziffer": "8.2",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 674,
+   "titel": "Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit"
+   ],
+   "stichworte": [
+    "Erwerbstätigkeit",
+    "Ausbildung",
+    "Arbeitslose",
+    "RAV",
+    "Umschulung",
+    "Yogakurs Freizeit"
+   ],
+   "zusammenfassung": "Abzug nur, wenn die Eigenbetreuung wegen Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit mit Betreuungsunfähigkeit nicht möglich war; Kurse zur Wiedereingliederung gelten als Erwerbstätigkeit, Freizeitkurse nicht.",
+   "ziffer": "8.3",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 695,
+   "titel": "Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG)",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit"
+   ],
+   "stichworte": [
+    "Erwerbsunfähigkeit",
+    "Invalidität",
+    "ATSG",
+    "Betreuungsunfähigkeit"
+   ],
+   "zusammenfassung": "Erwerbsunfähigkeit richtet sich nach ATSG; zusätzlich muss die steuerpflichtige Person aufgrund der Beeinträchtigung die Kinderbetreuung nicht selber wahrnehmen können.",
+   "ziffer": "8.3",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 709,
+   "titel": "Ziff. 8.3 Behinderungsbedingte Drittbetreuung – Maximum CHF 10'100",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.3 Erwerbstätigkeit, Ausbildung, Erwerbsunfähigkeit"
+   ],
+   "stichworte": [
+    "behinderungsbedingte Kosten",
+    "Invaliditätskosten",
+    "ärztliche Bescheinigung",
+    "10'100",
+    "KS 11"
+   ],
+   "zusammenfassung": "Kinderdrittbetreuungskosten bis maximal 10'100 Franken werden über den Drittbetreuungsabzug berücksichtigt; als behinderungsbedingte Kosten (Art. 33 Abs. 1 Bst. hbis DBG) nur der übersteigende Teil.",
+   "ziffer": "8.3",
+   "positionen": [
+    "abzug.drittbetreuung",
+    "abzug.behinderungskosten"
+   ]
+  },
+  {
+   "start": 726,
+   "titel": "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.4 Anspruchsberechtigung"
+   ],
+   "stichworte": [
+    "Anspruchsberechtigung",
+    "verheiratete Paare",
+    "beide erwerbstätig",
+    "Pflegekind",
+    "Grossmutter"
+   ],
+   "zusammenfassung": "Ehepaare können die nachgewiesenen Kosten bis zum Maximalbetrag abziehen, wenn beide gleichzeitig erwerbstätig, in Ausbildung oder erwerbs- und betreuungsunfähig sind.",
+   "ziffer": "8.4.1",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 748,
+   "titel": "Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.4 Anspruchsberechtigung",
+    "8.4.3"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "unverheiratete Eltern",
+    "5'050",
+    "10'100",
+    "Aufteilung",
+    "Kürzung im Verhältnis"
+   ],
+   "zusammenfassung": "Bei gemeinsamer elterlicher Sorge kann jeder unverheiratete Elternteil maximal 5'050 Franken abziehen; übersteigen die Kosten beider zusammen 10'100 Franken, werden sie im Verhältnis gekürzt.",
+   "ziffer": "8.4.3",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 765,
+   "titel": "Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100)",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.4 Anspruchsberechtigung",
+    "8.4.3"
+   ],
+   "stichworte": [
+    "Beispiel Drittbetreuung",
+    "Kürzung",
+    "4'040",
+    "6'060",
+    "Verhältnisrechnung"
+   ],
+   "zusammenfassung": "Beispiel: Kosten Elternteil 1 6'000 und Elternteil 2 9'000 (Total 15'000), Maximalbetrag 10'100: Abzug 4'040 bzw. 6'060, total 10'100.",
+   "ziffer": "8.4.3",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 783,
+   "titel": "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.4 Anspruchsberechtigung"
+   ],
+   "stichworte": [
+    "getrennte Eltern",
+    "alternierende Obhut",
+    "Obhut Drittbetreuung",
+    "geschieden",
+    "5'050"
+   ],
+   "zusammenfassung": "Bei getrennten oder geschiedenen Eltern zieht grundsätzlich der mit dem Kind lebende Elternteil ab; bei alternierender Obhut je max. 5'050 Franken für Kosten während seiner Obhutszeit.",
+   "ziffer": "8.4.3",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 813,
+   "titel": "Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.5 Abzugsfähige Kosten"
+   ],
+   "stichworte": [
+    "Krippe",
+    "Hort",
+    "Tagesmutter",
+    "Tagesfamilie",
+    "Verpflegung Kosten",
+    "Internat"
+   ],
+   "zusammenfassung": "Abziehbar sind nachgewiesene Kosten für die Betreuung während der tatsächlichen Arbeits-/Ausbildungszeit (Krippen, Horte, Tagesmütter); Verpflegung und Unterhalt sind nicht abziehbare Lebenshaltungskosten.",
+   "ziffer": "8.5",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 834,
+   "titel": "Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.5 Abzugsfähige Kosten"
+   ],
+   "stichworte": [
+    "Haushaltshilfe",
+    "Schulgeld",
+    "Babysitter",
+    "Freizeitbetreuung",
+    "Internatskosten",
+    "Eigenbetreuung"
+   ],
+   "zusammenfassung": "Nicht abzugsfähig sind Eigenbetreuung, Schulgelder, Babysitting am Abend und Freizeitbetreuung; bei Haushaltshilfe und Internat nur der Betreuungsanteil.",
+   "ziffer": "8.5",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 851,
+   "titel": "Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten",
+   "pfad": [
+    "8 Kinderdrittbetreuungskostenabzug",
+    "8.6 Nachweispflicht"
+   ],
+   "stichworte": [
+    "Nachweis",
+    "Belege Kita",
+    "Rechnungen",
+    "Aufstellung Betreuungsperson",
+    "Privatkonto Selbständige"
+   ],
+   "zusammenfassung": "Die steuerpflichtige Person muss Kosten, betreuende Personen und den Grund der Drittbetreuung belegen; bei Selbständigen sind die Kosten auf dem Privatkonto und nicht in der Geschäftsbuchhaltung zu verbuchen.",
+   "ziffer": "8.6",
+   "positionen": [
+    "abzug.drittbetreuung",
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 877,
+   "titel": "Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400)",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.1 Voraussetzungen"
+   ],
+   "stichworte": [
+    "Zweiverdienerabzug",
+    "Doppelverdiener",
+    "50 Prozent",
+    "8'100",
+    "13'400",
+    "Zweiteinkommen"
+   ],
+   "zusammenfassung": "Vom niedrigeren Erwerbseinkommen werden 50 Prozent abgezogen, mindestens 8'100 und höchstens 13'400 Franken; Voraussetzung: ungetrennte Ehe und beide erzielen Erwerbseinkommen.",
+   "ziffer": "9.1",
+   "positionen": [
+    "abzug.zweiverdiener"
+   ]
+  },
+  {
+   "start": 893,
+   "titel": "Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.1 Voraussetzungen"
+   ],
+   "stichworte": [
+    "Mitarbeit Ehegatte",
+    "Familienbetrieb",
+    "Landwirtschaft",
+    "selbständige Erwerbstätigkeit",
+    "erhebliche Mitarbeit"
+   ],
+   "zusammenfassung": "Der Abzug wird auch bei erheblicher Mitarbeit im Beruf oder Geschäft des Ehegatten gewährt, wenn sie regelmässig und beträchtlich ist und einer Drittperson mindestens ein Lohn in Höhe des Abzuges zu zahlen wäre.",
+   "ziffer": "9.1",
+   "positionen": [
+    "abzug.zweiverdiener"
+   ]
+  },
+  {
+   "start": 909,
+   "titel": "Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.2 Definition Erwerbseinkommen"
+   ],
+   "stichworte": [
+    "Erwerbseinkommen",
+    "Nettolohn",
+    "Taggelder gleichgestellt",
+    "Renten nicht gleichgestellt",
+    "Gewinnungskosten"
+   ],
+   "zusammenfassung": "Erwerbseinkommen ist Bruttolohn abzüglich Gewinnungskosten, AHV/IV/EO/ALV, 2. Säule, Säule 3a und NBU; Erwerbsausfallentschädigungen sind gleichgestellt, Renten und Vermögensertrag nicht.",
+   "ziffer": "9.2",
+   "positionen": [
+    "abzug.zweiverdiener"
+   ]
+  },
+  {
+   "start": 935,
+   "titel": "Ziff. 9.3 Mitarbeit im Beruf oder Betrieb – hälftige Zurechnung",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.3 Mitarbeit im Beruf oder Betrieb"
+   ],
+   "stichworte": [
+    "hälftige Zurechnung",
+    "Mitarbeit Ehefrau",
+    "Landwirtschaftsbetrieb",
+    "niedrigeres Erwerbseinkommen"
+   ],
+   "zusammenfassung": "Bei erheblicher Mitarbeit wird jedem Ehegatten grundsätzlich die Hälfte des gemeinsamen Erwerbseinkommens zugerechnet; der Prozentabzug wird auf dem niedrigeren Erwerbseinkommen berechnet.",
+   "ziffer": "9.3",
+   "positionen": [
+    "abzug.zweiverdiener"
+   ]
+  },
+  {
+   "start": 948,
+   "titel": "Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.3 Mitarbeit im Beruf oder Betrieb"
+   ],
+   "stichworte": [
+    "selbständig erwerbende Ehepaare",
+    "Personenunternehmen",
+    "Gewinnzuteilung",
+    "Säule 3a Abzug",
+    "Verlust"
+   ],
+   "zusammenfassung": "Bei gemeinsam Selbständigerwerbenden wird das Einkommen nach Abzug der 3a-Prämien und Vorsorgebeiträge hälftig aufgeteilt; Abzug 50 Prozent, mind. 8'100, höchstens 13'400 Franken; bei Verlust kein Abzug.",
+   "ziffer": "9.3",
+   "positionen": [
+    "abzug.zweiverdiener",
+    "einkommen.selbstaendig"
+   ]
+  },
+  {
+   "start": 968,
+   "titel": "Ziff. 9.4 Berechnung des Zweiverdienerabzugs (Schwellen 8'100 / 16'200 / 26'800)",
+   "pfad": [
+    "9 Zweiverdienerabzug",
+    "9.4 Berechnung des Abzuges"
+   ],
+   "stichworte": [
+    "Berechnung Zweiverdienerabzug",
+    "16'200",
+    "26'800",
+    "Minimalansatz",
+    "Teilzeit"
+   ],
+   "zusammenfassung": "Unter 8'100 nur das Zweiteinkommen; zwischen 8'100 und 16'200 gilt 8'100; über 16'200 die Hälfte; ab 26'800 Netto-Zweiteinkommen ist der Maximalabzug von 13'400 erreicht; Teilzeit kürzt nicht.",
+   "ziffer": "9.4",
+   "positionen": [
+    "abzug.zweiverdiener"
+   ]
+  },
+  {
+   "start": 984,
+   "titel": "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt",
+   "pfad": [
+    "10 Kinderabzug",
+    "10.1 Grundsatz"
+   ],
+   "stichworte": [
+    "Kinderabzug",
+    "Kindesverhältnis",
+    "Stiefkind",
+    "Pflegekind",
+    "Stichtagsprinzip",
+    "Art. 35 DBG"
+   ],
+   "zusammenfassung": "Ein ganzer Kinderabzug pro Kind für minderjährige oder in Ausbildung stehende Kinder bei Kindesverhältnis und Unterhaltsleistung; Stichtag Ende Steuerperiode; Pflegeeltern erhalten keinen Kinderabzug.",
+   "ziffer": "10.1",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1010,
+   "titel": "Ziff. 10.1 Anteilsmässiger Kinderabzug bei beschränkter Steuerpflicht; Fn. 2 Einkommensbegriffe",
+   "pfad": [
+    "10 Kinderabzug",
+    "10.1 Grundsatz"
+   ],
+   "stichworte": [
+    "beschränkte Steuerpflicht",
+    "Auslandeinkommen",
+    "Reineinkommen",
+    "Nettoeinkommen",
+    "Bruttoeinkommen",
+    "Systematik DBG"
+   ],
+   "zusammenfassung": "Bei beschränkter Steuerpflicht oder nicht steuerbarem Auslandeinkommen wird der Kinderabzug im Verhältnis von schweizerischem Reineinkommen zum gesamten Reineinkommen gewährt; Fussnote erläutert Brutto-/Netto-/Reineinkommen.",
+   "ziffer": "10.1",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1036,
+   "titel": "Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern",
+   "pfad": [
+    "10 Kinderabzug",
+    "10.2 Minderjährige Kinder"
+   ],
+   "stichworte": [
+    "minderjährige Kinder",
+    "getrennt lebende Eltern",
+    "gemeinsame elterliche Sorge",
+    "halber Kinderabzug",
+    "Volljährigkeit Stichtag"
+   ],
+   "zusammenfassung": "Bei getrennten Eltern mit gemeinsamer Sorge kann jeder den halben Kinderabzug beanspruchen, sofern keine Unterhaltsbeiträge abgezogen werden; wird das Kind im Jahr volljährig ohne Ausbildung, entfällt der Abzug.",
+   "ziffer": "10.2",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1058,
+   "titel": "Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen",
+   "pfad": [
+    "10 Kinderabzug",
+    "10.3 Volljährige Kinder in Ausbildung"
+   ],
+   "stichworte": [
+    "volljähriges Kind",
+    "Ausbildung",
+    "Lehre",
+    "Studium",
+    "Art. 277 ZGB",
+    "Unterhaltsbeitrag angewiesen"
+   ],
+   "zusammenfassung": "Der Kinderabzug für volljährige Kinder in Ausbildung setzt Beiträge mindestens in Höhe des Sozialabzugs voraus und dass das Kind tatsächlich auf den Unterhalt angewiesen ist, nicht bei selbständigem Lebensunterhalt.",
+   "ziffer": "10.3",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1078,
+   "titel": "Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung",
+   "pfad": [
+    "10 Kinderabzug",
+    "10.3 Volljährige Kinder in Ausbildung"
+   ],
+   "stichworte": [
+    "Erstausbildung",
+    "Zweitausbildung",
+    "Unterbruch",
+    "Militärdienst",
+    "Auslandaufenthalt",
+    "Weiterbildung kein Kinderabzug"
+   ],
+   "zusammenfassung": "Unter Ausbildung ist die berufliche Erstausbildung zu verstehen; Zweitausbildung bei sachlichen Gründen, vorübergehender Unterbruch unschädlich, Weiterbildung und reine Auslandaufenthalte begründen keinen Abzug.",
+   "ziffer": "10.3",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1104,
+   "titel": "Ziff. 11 Unterstützungsabzug – Voraussetzungen",
+   "pfad": [
+    "11 Unterstützungsabzug"
+   ],
+   "stichworte": [
+    "Unterstützungsabzug",
+    "unterstützte Person",
+    "Eltern unterstützen",
+    "Unterstützungsbedürftigkeit",
+    "unentgeltlich",
+    "Art. 35 Abs. 1 Bst. b DBG"
+   ],
+   "zusammenfassung": "Unterstützungsleistungen an erwerbsunfähige oder beschränkt erwerbsfähige Personen sind abziehbar, wenn sie mindestens den Betrag des Unterstützungsabzugs erreichen, unentgeltlich erfolgen und die Person objektiv bedürftig ist.",
+   "ziffer": "11",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 1132,
+   "titel": "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern",
+   "pfad": [
+    "11 Unterstützungsabzug"
+   ],
+   "stichworte": [
+    "Kumulationsverbot",
+    "Ehegatte unterstützen",
+    "Kinderabzug Unterstützungsabzug",
+    "getrennte Eltern",
+    "volljähriges Kind",
+    "Stichtag"
+   ],
+   "zusammenfassung": "Kein Abzug für den gemeinsam veranlagten Ehegatten und nicht neben dem Kinderabzug derselben leistenden Person; bei getrennten Eltern können Kinderabzug und Unterstützungsabzug auf die Elternteile verteilt werden.",
+   "ziffer": "11",
+   "positionen": [
+    "sozialabzug.unterstuetzung",
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1165,
+   "titel": "Ziff. 12 Verheiratetenabzug",
+   "pfad": [
+    "12 Verheiratetenabzug"
+   ],
+   "stichworte": [
+    "Verheiratetenabzug",
+    "Art. 35 Abs. 1 Bst. c DBG",
+    "fixer Sozialabzug",
+    "Stichtag",
+    "Ehepaar Abzug"
+   ],
+   "zusammenfassung": "Seit 1. Januar 2008 fixer Sozialabzug pro Ehepaar bei ungetrennter Ehe am Stichtag; bei beschränkter Steuerpflicht anteilsmässig nach Verhältnis des schweizerischen zum gesamten Reineinkommen.",
+   "ziffer": "12",
+   "positionen": [
+    "sozialabzug.verheiratete"
+   ]
+  },
+  {
+   "start": 1185,
+   "titel": "Ziff. 13.1 Tarife – Grundsatz und Kapitalleistungen aus Vorsorge",
+   "pfad": [
+    "13 Tarife",
+    "13.1 Grundsatz"
+   ],
+   "stichworte": [
+    "Tarife",
+    "Grundtarif",
+    "Verheiratetentarif",
+    "Elterntarif",
+    "Art. 36 DBG",
+    "Kapitalleistung Fünftel"
+   ],
+   "zusammenfassung": "Drei Tarife nach Art. 36 DBG; Kapitalleistungen aus Vorsorge werden zu einem Fünftel der ordentlichen Tarife besteuert, der Abzug vom Steuerbetrag pro Kind gilt dort nicht.",
+   "ziffer": "13.1",
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ]
+  },
+  {
+   "start": 1211,
+   "titel": "Ziff. 13.2–13.3 Grundtarif und Verheiratetentarif – Anwendungsbereich",
+   "pfad": [
+    "13 Tarife",
+    "13.2 Grundtarif / 13.3 Verheiratetentarif"
+   ],
+   "stichworte": [
+    "Grundtarif",
+    "Alleinstehende",
+    "Konkubinat ohne Kinder",
+    "Verheiratetentarif",
+    "getrennt lebend"
+   ],
+   "zusammenfassung": "Der Grundtarif ist Auffangtarif (Ledige, Verwitwete, Getrennte, Konkubinatspaare ohne Kinder); der Verheiratetentarif gilt für ungetrennt Verheiratete ohne Kinder oder unterstützungsbedürftige Personen im Haushalt.",
+   "ziffer": "13.2"
+  },
+  {
+   "start": 1237,
+   "titel": "Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind)",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "251 Franken",
+    "Abzug vom Steuerbetrag",
+    "Kinderabzug",
+    "Mildester Tarif",
+    "Tarifmassnahme"
+   ],
+   "zusammenfassung": "Der Elterntarif besteht aus dem Verheiratetentarif und einem Abzug vom Steuerbetrag von maximal 251 Franken pro Kind oder unterstützungsbedürftiger Person; er ist ein Tarif und kein Sozialabzug.",
+   "ziffer": "13.4.1",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1255,
+   "titel": "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.1 Allgemeines"
+   ],
+   "stichworte": [
+    "Zusammenleben",
+    "Unterhalt zur Hauptsache",
+    "Wohnsitz Kind",
+    "Wochenaufenthalter",
+    "volljähriges Kind Wohnsitz",
+    "Art. 26 ZGB"
+   ],
+   "zusammenfassung": "Elterntarif nur bei Zusammenleben im gleichen Haushalt und Bestreiten des Unterhalts zur Hauptsache; er wird nur einer Person zugewiesen; bei volljährigen Kindern nur bei Wohnsitz bei den Eltern (Wochenaufenthalt genügt).",
+   "ziffer": "13.4.1",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1287,
+   "titel": "Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.2 Minderjährige Kinder"
+   ],
+   "stichworte": [
+    "Elterntarif minderjährige Kinder",
+    "mehr als die Hälfte",
+    "Unterhalt zur Hauptsache",
+    "Unterhaltszahlungen",
+    "elterliche Sorge"
+   ],
+   "zusammenfassung": "Den Elterntarif erhält bei minderjährigen Kindern der Elternteil, der mehr als die Hälfte der Unterhaltskosten übernimmt; bei geltend gemachten Unterhaltszahlungen der Empfänger.",
+   "ziffer": "13.4.2",
+   "positionen": [
+    "sozialabzug.kinder",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1302,
+   "titel": "Ziff. 13.4.2 Elterntarif – Ehepaare und getrennt lebende Eltern mit minderjährigem Kind",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.2 Minderjährige Kinder"
+   ],
+   "stichworte": [
+    "getrennte Eltern Elterntarif",
+    "alternierende Obhut",
+    "höheres Reineinkommen",
+    "gemeinsame Sorge",
+    "Unterhaltszahlungen erhalten"
+   ],
+   "zusammenfassung": "Bei gemeinsamer Sorge erhält der Empfänger der Unterhaltszahlungen den Elterntarif; ohne Zahlungen der Elternteil, der mit dem Kind lebt, bei alternierender Obhut der mit dem höheren Reineinkommen.",
+   "ziffer": "13.4.2",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1326,
+   "titel": "Ziff. 13.4.2 Elterntarif – Konkubinatseltern mit minderjährigem Kind",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.2 Minderjährige Kinder"
+   ],
+   "stichworte": [
+    "Konkubinat Elterntarif",
+    "unverheiratete Eltern",
+    "höheres Einkommen",
+    "elterliche Sorge",
+    "Empfänger Unterhaltsleistungen"
+   ],
+   "zusammenfassung": "Konkubinatseltern: ohne gemeinsame Sorge erhält der Elternteil mit Sorge den Elterntarif; bei gemeinsamer Sorge der Unterhaltsempfänger, sonst der Elternteil mit dem höheren Einkommen.",
+   "ziffer": "13.4.2",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1343,
+   "titel": "Ziff. 13.4.3 Elterntarif bei volljährigen Kindern in Ausbildung – Voraussetzungen",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.3 Volljährige Kinder in Ausbildung"
+   ],
+   "stichworte": [
+    "volljähriges Kind Elterntarif",
+    "Erstausbildung",
+    "selbständiger Lebensunterhalt",
+    "Vermögen des Kindes"
+   ],
+   "zusammenfassung": "Der Elterntarif wird in Analogie zum Kinderabzug nur gewährt, wenn das volljährige Kind in Erstausbildung tatsächlich auf den Unterhalt angewiesen ist und der Anspruchsteller hauptsächlich dafür aufkommt.",
+   "ziffer": "13.4.3",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 1358,
+   "titel": "Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.3 Volljährige Kinder in Ausbildung"
+   ],
+   "stichworte": [
+    "getrennte Eltern volljähriges Kind",
+    "Konkubinat volljähriges Kind",
+    "Grundtarif Kinderabzug",
+    "Unterstützungsabzug",
+    "höheres Reineinkommen"
+   ],
+   "zusammenfassung": "Bei getrennten Eltern erhält der mit dem Kind zusammenlebende Elternteil den Elterntarif; bei Konkubinatseltern der Elternteil mit höheren Leistungen, der andere ggf. den Unterstützungsabzug.",
+   "ziffer": "13.4.3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 1390,
+   "titel": "Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif"
+   ],
+   "stichworte": [
+    "unterstützungsbedürftige Person",
+    "Stichtagsprinzip",
+    "Ende der Steuerperiode",
+    "Elterntarif Voraussetzung"
+   ],
+   "zusammenfassung": "Der Elterntarif gilt auch bei Zusammenleben mit unterstützungsbedürftigen Personen, wenn die Voraussetzungen des Unterstützungsabzugs erfüllt sind; massgebend ist das Stichtagsprinzip am Ende der Steuerperiode.",
+   "ziffer": "13.4.4",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 1409,
+   "titel": "Ziff. 13.4.6 Unterjährige Steuerpflicht – Beispiel Zuzug aus dem Ausland",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.6 Unterjährige Steuerpflicht"
+   ],
+   "stichworte": [
+    "unterjährige Steuerpflicht",
+    "Zuzug",
+    "anteiliger Abzug",
+    "satzbestimmendes Einkommen",
+    "Beispiel Steuerberechnung"
+   ],
+   "zusammenfassung": "Der Abzug von 251 Franken je Kind wird anteilsmässig nach Verhältnis des steuerbaren zum satzbestimmenden Einkommen gewährt; Beispiel: 146'000 / 250'000, Abzug 293.15, geschuldete Steuer 10'894.85.",
+   "ziffer": "13.4.6"
+  },
+  {
+   "start": 1440,
+   "titel": "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.7 Teilweise Steuerpflicht"
+   ],
+   "stichworte": [
+    "beschränkte Steuerpflicht",
+    "Ferienhaus",
+    "Auslandeinkünfte",
+    "anteilsmässiger Abzug",
+    "DBA"
+   ],
+   "zusammenfassung": "Bei teilweiser Steuerpflicht ermässigt sich der Steuerbetrag nur um den anteiligen Abzug von 251 Franken je Kind; Beispiel: 20'000 / 250'000, Abzug 40.15, geschuldete Steuer 1'492.45.",
+   "ziffer": "13.4.7"
+  },
+  {
+   "start": 1481,
+   "titel": "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif"
+   ],
+   "stichworte": [
+    "Besteuerung nach dem Aufwand",
+    "Pauschalbesteuerung",
+    "Quellensteuer",
+    "Familienlasten",
+    "Art. 14 Abs. 3 DBG"
+   ],
+   "zusammenfassung": "Bei Besteuerung nach dem Aufwand kommt der Elterntarif nicht zur Anwendung; bei der Quellensteuer ist der Elterntarif als Abzug vom Steuerbetrag in die Tarife eingerechnet.",
+   "ziffer": "13.4.8"
+  },
+  {
+   "start": 1499,
+   "titel": "Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.10 Pauschale Steueranrechnung"
+   ],
+   "stichworte": [
+    "pauschale Steueranrechnung",
+    "ausländische Quellensteuer",
+    "Maximalbetrag",
+    "Steuersatz Bund",
+    "zwei Drittel"
+   ],
+   "zusammenfassung": "Der Steuersatz Bund für die pauschale Steueranrechnung ist nach Abzug von 251 Franken je Kind zu berechnen (Beispiel 1.466 %); fällt keine Bundessteuer an, ist die Anrechnung auf zwei Drittel der nicht rückforderbaren Quellensteuern begrenzt.",
+   "ziffer": "13.4.10"
+  },
+  {
+   "start": 1541,
+   "titel": "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.11 Kapitalleistungen"
+   ],
+   "stichworte": [
+    "Kapitalleistung",
+    "Vorsorge",
+    "Fünftel",
+    "Alleinerziehende",
+    "Verheiratetentarif",
+    "fiktiver Einkauf"
+   ],
+   "zusammenfassung": "Kapitalleistungen aus Vorsorge werden mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG besteuert; Alleinerziehende und Verheiratete mit Kindern zum Verheiratetentarif, ohne Abzug pro Kind.",
+   "ziffer": "13.4.11",
+   "positionen": [
+    "einkommen.kapitalleistung_vorsorge"
+   ]
+  },
+  {
+   "start": 1560,
+   "titel": "Ziff. 13.4.12 Übriger Liquidationsgewinn (Art. 37b DBG)",
+   "pfad": [
+    "13 Tarife",
+    "13.4 Elterntarif",
+    "13.4.12 Liquidationsgewinn"
+   ],
+   "stichworte": [
+    "Liquidationsgewinn",
+    "Aufgabe Geschäft",
+    "55. Altersjahr",
+    "stille Reserven",
+    "Mindestsatz 2 Prozent"
+   ],
+   "zusammenfassung": "Bei Geschäftsaufgabe nach dem 55. Altersjahr oder wegen Invalidität gilt für die stillen Reserven der letzten zwei Geschäftsjahre ein Satz von einem Fünftel, mindestens 2 Prozent; kein Elterntarif-Abzug.",
+   "ziffer": "13.4.12",
+   "positionen": [
+    "einkommen.selbstaendig"
+   ]
+  },
+  {
+   "start": 1575,
+   "titel": "Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.1 Unterhaltszahlungen an den Ehegatten"
+   ],
+   "stichworte": [
+    "nachehelicher Unterhalt",
+    "Art. 125 ZGB",
+    "Art. 126 ZGB",
+    "Getrenntleben",
+    "Rente oder Kapitalabfindung"
+   ],
+   "zusammenfassung": "Nachehelicher Unterhalt erfolgt grundsätzlich als Rente (Art. 125/126 ZGB); bei Getrenntleben richtet sich die Unterhaltspflicht nach Art. 163 ff. und 176 ZGB.",
+   "ziffer": "14.1.1",
+   "positionen": [
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1608,
+   "titel": "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.1.2 Steuerrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "Alimente Ehegatte",
+    "Korrespondenzprinzip",
+    "Art. 33 Abs. 1 Bst. c DBG",
+    "Art. 23 Bst. f DBG",
+    "Kapitalabfindung",
+    "Naturalleistungen"
+   ],
+   "zusammenfassung": "Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten sind beim Leistenden abziehbar und beim Empfänger steuerbar; als Kapitalleistung gezahlt sind sie weder abziehbar noch steuerbar.",
+   "ziffer": "14.1.2",
+   "positionen": [
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1633,
+   "titel": "Ziff. 14.1.2 Güterrechtliche Leistungen, Leibrenten (40 %) und andere Unterstützungspflichten",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.1.2 Steuerrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "güterrechtliche Auseinandersetzung",
+    "Leibrente 40 Prozent",
+    "Art. 22 Abs. 3 DBG",
+    "Verwandtenunterstützung",
+    "Art. 328 ZGB"
+   ],
+   "zusammenfassung": "Güterrechtliche Leistungen sind steuerfrei und nicht abziehbar; Leibrenten werden beim Empfänger zu 40 % besteuert und beim Schuldner zu 40 % abgezogen; Leistungen an Verwandte (Art. 328 ZGB) sind nicht abzugsfähig.",
+   "ziffer": "14.1.2",
+   "positionen": [
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1646,
+   "titel": "Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge)",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.2.1 Zivilrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "gemeinsame elterliche Sorge",
+    "Art. 298a ZGB",
+    "Art. 297 ZGB",
+    "Art. 133 ZGB",
+    "unverheiratete Eltern"
+   ],
+   "zusammenfassung": "Die gemeinsame elterliche Sorge besteht bei verheirateten Eltern fort, kann unverheirateten Eltern übertragen werden (Art. 298a ZGB) und bei Scheidung auf gemeinsamen Antrag belassen werden (Art. 133 Abs. 3 ZGB).",
+   "ziffer": "14.2.1",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 1676,
+   "titel": "Ziff. 14.2.2 Kinderalimente – Besteuerung beim Empfänger, Abzug beim Leistenden",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.2.2 Steuerrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "Kinderalimente",
+    "Unterhaltsbeiträge Kind",
+    "effektiv bezahlt",
+    "freiwillige Alimente",
+    "Art. 33 Abs. 1 Bst. c DBG"
+   ],
+   "zusammenfassung": "Unterhaltsbeiträge für minderjährige Kinder sind vom Empfänger voll zu versteuern und vom Leistenden voll abziehbar, aber nur familienrechtlich geschuldete (nicht freiwillige) und effektiv bezahlte.",
+   "ziffer": "14.2.2",
+   "positionen": [
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1689,
+   "titel": "Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder",
+   "pfad": [
+    "14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern",
+    "14.2.2 Steuerrechtliche Aspekte"
+   ],
+   "stichworte": [
+    "volljähriges Kind Unterhalt",
+    "Art. 24 Bst. e DBG",
+    "Art. 34 Bst. a DBG",
+    "nicht abziehbar",
+    "Schulkosten",
+    "steuerfrei"
+   ],
+   "zusammenfassung": "Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind steuerfrei (Art. 24 Bst. e DBG) und beim Leistenden nicht abziehbar (Art. 34 Bst. a DBG); Kapitalleistungen sind weder abziehbar noch steuerbar.",
+   "ziffer": "14.2.2",
+   "positionen": [
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1706,
+   "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.3"
+   ],
+   "stichworte": [
+    "getrennte Eltern",
+    "alleinige Sorge",
+    "Kinderalimente",
+    "Elterntarif",
+    "Grundtarif",
+    "alternierende Obhut"
+   ],
+   "zusammenfassung": "Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
+   "ziffer": "14.3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1715,
+   "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.3"
+   ],
+   "stichworte": [
+    "getrennte Eltern",
+    "alleinige Sorge",
+    "Kinderalimente",
+    "Elterntarif",
+    "Grundtarif",
+    "alternierende Obhut"
+   ],
+   "zusammenfassung": "Abzüge: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
+   "ziffer": "14.3",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1731,
+   "titel": "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.3"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Grundtarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100).",
+   "ziffer": "14.3",
+   "positionen": []
+  },
+  {
+   "start": 1737,
+   "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.4"
+   ],
+   "stichworte": [
+    "gemeinsame Sorge",
+    "keine Alimente",
+    "halber Kinderabzug",
+    "alternierende Obhut",
+    "Elterntarif",
+    "Grundtarif"
+   ],
+   "zusammenfassung": "Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100).",
+   "ziffer": "14.4",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1758,
+   "titel": "Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.4"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Grundtarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100).",
+   "ziffer": "14.4",
+   "positionen": []
+  },
+  {
+   "start": 1766,
+   "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.5"
+   ],
+   "stichworte": [
+    "gemeinsame Sorge",
+    "Alimente Kind",
+    "Unterhaltsempfänger",
+    "Elterntarif",
+    "Grundtarif"
+   ],
+   "zusammenfassung": "Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
+   "ziffer": "14.5",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1781,
+   "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.5"
+   ],
+   "stichworte": [
+    "gemeinsame Sorge",
+    "Alimente Kind",
+    "Unterhaltsempfänger",
+    "Elterntarif",
+    "Grundtarif"
+   ],
+   "zusammenfassung": "Abzüge: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
+   "ziffer": "14.5",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1793,
+   "titel": "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.5"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Grundtarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100).",
+   "ziffer": "14.5",
+   "positionen": []
+  },
+  {
+   "start": 1798,
+   "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.6"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "unverheiratete Eltern",
+    "alleinige elterliche Sorge",
+    "Elterntarif",
+    "Billigkeit"
+   ],
+   "zusammenfassung": "Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat.",
+   "ziffer": "14.6",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1815,
+   "titel": "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.6"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat.",
+   "ziffer": "14.6",
+   "positionen": []
+  },
+  {
+   "start": 1824,
+   "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.7"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "Alimente Kind",
+    "Unterhaltsempfänger",
+    "Elterntarif",
+    "Drittbetreuung 5'050"
+   ],
+   "zusammenfassung": "Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
+   "ziffer": "14.7",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1838,
+   "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.7"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "Alimente Kind",
+    "Unterhaltsempfänger",
+    "Elterntarif",
+    "Drittbetreuung 5'050"
+   ],
+   "zusammenfassung": "Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
+   "ziffer": "14.7",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1848,
+   "titel": "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.7"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert.",
+   "ziffer": "14.7",
+   "positionen": []
+  },
+  {
+   "start": 1853,
+   "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.8"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "gemeinsame Sorge",
+    "halber Kinderabzug",
+    "höheres Einkommen",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen).",
+   "ziffer": "14.8",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1871,
+   "titel": "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.8"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen).",
+   "ziffer": "14.8",
+   "positionen": []
+  },
+  {
+   "start": 1878,
+   "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.9"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "gemeinsame Sorge",
+    "Alimente",
+    "Elterntarif",
+    "Drittbetreuung 5'050"
+   ],
+   "zusammenfassung": "Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
+   "ziffer": "14.9",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1891,
+   "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.9"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "gemeinsame Sorge",
+    "Alimente",
+    "Elterntarif",
+    "Drittbetreuung 5'050"
+   ],
+   "zusammenfassung": "Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
+   "ziffer": "14.9",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1902,
+   "titel": "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.9"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100).",
+   "ziffer": "14.9",
+   "positionen": []
+  },
+  {
+   "start": 1907,
+   "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.10"
+   ],
+   "stichworte": [
+    "volljähriges Kind",
+    "Ausbildung",
+    "Unterhaltsbeiträge Kind steuerfrei",
+    "Kinderabzug",
+    "Unterstützungsabzug",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
+   "ziffer": "14.10",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1922,
+   "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.10"
+   ],
+   "stichworte": [
+    "volljähriges Kind",
+    "Ausbildung",
+    "Unterhaltsbeiträge Kind steuerfrei",
+    "Kinderabzug",
+    "Unterstützungsabzug",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Abzüge: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
+   "ziffer": "14.10",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1936,
+   "titel": "Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.10"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt.",
+   "ziffer": "14.10",
+   "positionen": []
+  },
+  {
+   "start": 1942,
+   "titel": "Ziff. 14.11 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, keine Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.11"
+   ],
+   "stichworte": [
+    "volljähriges Kind",
+    "keine Unterhaltszahlungen",
+    "Kinderabzug",
+    "Elterntarif",
+    "Grundtarif"
+   ],
+   "zusammenfassung": "Der Elternteil, bei dem das Kind lebt und dessen Unterhalt er zur Hauptsache bestreitet, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Elternteil Grundtarif.",
+   "ziffer": "14.11",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1961,
+   "titel": "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.12"
+   ],
+   "stichworte": [
+    "volljähriges Kind eigener Wohnsitz",
+    "Wohnsitz verlegt",
+    "Kinderabzug",
+    "Grundtarif",
+    "Versicherungsabzug Nachweis"
+   ],
+   "zusammenfassung": "Bei Wohnsitzverlegung des Kindes werden beide Elternteile zum Grundtarif besteuert; Kinderabzug für den Leistenden mit höheren Leistungen, der andere ggf. Unterstützungsabzug.",
+   "ziffer": "14.12",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 1993,
+   "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.13"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "volljähriges Kind",
+    "Kinderabzug",
+    "Unterstützungsabzug",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
+   "ziffer": "14.13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2006,
+   "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.13"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "volljähriges Kind",
+    "Kinderabzug",
+    "Unterstützungsabzug",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Abzüge: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
+   "ziffer": "14.13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2022,
+   "titel": "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.13"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert.",
+   "ziffer": "14.13",
+   "positionen": []
+  },
+  {
+   "start": 2027,
+   "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.14"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "volljähriges Kind",
+    "höhere finanzielle Leistungen",
+    "Elterntarif",
+    "höheres Einkommen"
+   ],
+   "zusammenfassung": "Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif.",
+   "ziffer": "14.14",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2040,
+   "titel": "Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.14"
+   ],
+   "stichworte": [
+    "Elterntarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif.",
+   "ziffer": "14.14",
+   "positionen": []
+  },
+  {
+   "start": 2046,
+   "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16)",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.15–14.16"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "Wohnsitz verlegt",
+    "nicht gemeinsames Kind",
+    "Grundtarif",
+    "Stiefkind"
+   ],
+   "zusammenfassung": "Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
+   "ziffer": "14.15–14.16",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2059,
+   "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Abzüge",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.15–14.16"
+   ],
+   "stichworte": [
+    "Konkubinat",
+    "Wohnsitz verlegt",
+    "nicht gemeinsames Kind",
+    "Grundtarif",
+    "Stiefkind"
+   ],
+   "zusammenfassung": "Abzüge: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
+   "ziffer": "14.15–14.16",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2075,
+   "titel": "Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Tarife",
+   "pfad": [
+    "14 Familienkonstellationen",
+    "14.15–14.16"
+   ],
+   "stichworte": [
+    "Grundtarif",
+    "Elterntarif",
+    "Grundtarif",
+    "Tarifzuteilung"
+   ],
+   "zusammenfassung": "Tarifzuteilung: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils.",
+   "ziffer": "14.15–14.16",
+   "positionen": []
+  },
+  {
+   "start": 2087,
+   "titel": "Ziff. 15.1 Verfahrensrechtliche Stellung der Ehegatten – Grundsatz",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.1 Grundsatz"
+   ],
+   "stichworte": [
+    "Verfahrensrechte",
+    "gemeinsames Handeln",
+    "Art. 113 DBG",
+    "Gleichstellung Ehegatten",
+    "Mitwirkungspflicht"
+   ],
+   "zusammenfassung": "Zusammen veranlagte Ehegatten üben ihre Verfahrensrechte und -pflichten gemeinsam aus (Art. 113 Abs. 1 DBG); rechtzeitige Handlungen nur eines Ehegatten wirken auch für den anderen.",
+   "ziffer": "15.1",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2105,
+   "titel": "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.2 Steuererklärung"
+   ],
+   "stichworte": [
+    "Unterschrift Steuererklärung",
+    "fehlende Unterschrift",
+    "Vertretungsvermutung",
+    "separate Steuererklärung",
+    "Deklarationspflicht"
+   ],
+   "zusammenfassung": "Die Ehegatten unterschreiben die Steuererklärung gemeinsam; fehlt eine Unterschrift, wird nach erfolgloser Aufforderung eine Vertretung vermutet; wer nicht einverstanden ist, muss innert Frist eine separate Steuererklärung einreichen.",
+   "ziffer": "15.2",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2130,
+   "titel": "Ziff. 15.3 Rechtsmittel und andere Eingaben",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.3 Rechtsmittel"
+   ],
+   "stichworte": [
+    "Einsprache",
+    "Rechtsmittel",
+    "Frist",
+    "stillschweigende Vertretung",
+    "Offizialprinzip"
+   ],
+   "zusammenfassung": "Rechtsmittel und Eingaben gelten als rechtzeitig, wenn nur ein Ehegatte innert Frist gehandelt hat (Art. 113 Abs. 3 DBG); eine Aufforderung zur Doppelunterschrift ist nicht nötig.",
+   "ziffer": "15.3",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2149,
+   "titel": "Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.4 Mitteilungen / 15.5 Vertretung"
+   ],
+   "stichworte": [
+    "Zustellung",
+    "Mitteilungen",
+    "gemeinsamer Vertreter",
+    "getrennte Ehe Zustellung",
+    "Vertretung"
+   ],
+   "zusammenfassung": "Behördliche Mitteilungen gehen an zusammen veranlagte Ehegatten gemeinsam (Art. 113 Abs. 4 DBG), bei Trennung an jeden gesondert (Art. 117 Abs. 4 DBG); vertragliche Vertretung nach Art. 117 DBG.",
+   "ziffer": "15.4",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2168,
+   "titel": "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.6 Akteneinsichtsrecht"
+   ],
+   "stichworte": [
+    "Akteneinsicht",
+    "Art. 114 DBG",
+    "Steuerakten",
+    "Trennung Akteneinsicht"
+   ],
+   "zusammenfassung": "Beide Ehegatten dürfen alle gemeinsamen Steuerakten einsehen (Art. 114 Abs. 2 DBG); ab Trennung ist die Einsicht in die Akten des anderen nicht mehr möglich.",
+   "ziffer": "15.6",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2189,
+   "titel": "Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten",
+   "pfad": [
+    "15 Verfahrensrechtliche Stellung der Ehegatten",
+    "15.7"
+   ],
+   "stichworte": [
+    "überlebender Ehegatte",
+    "Erbe",
+    "Mitwirkungspflicht",
+    "Tod Ehegatte Verfahren"
+   ],
+   "zusammenfassung": "Der überlebende Ehegatte tritt als Erbe in die Verfahrensrechte und -pflichten des Verstorbenen ein und ist für das gesamte eheliche Einkommen mitwirkungspflichtig.",
+   "ziffer": "15.7",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2202,
+   "titel": "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten",
+   "pfad": [
+    "16 Steuerstrafrecht der Ehegatten",
+    "16.1"
+   ],
+   "stichworte": [
+    "Verfahrenspflichten",
+    "Busse",
+    "Art. 174 DBG",
+    "Steuererklärung nicht eingereicht",
+    "persönliches Verschulden"
+   ],
+   "zusammenfassung": "Jeder Ehegatte macht sich nur nach seinem persönlichen Verschulden strafbar (Art. 174 DBG); die Ehegemeinschaft als solche kann nicht gebüsst werden.",
+   "ziffer": "16.1",
+   "positionen": [
+    "verfahren.einreichung"
+   ]
+  },
+  {
+   "start": 2220,
+   "titel": "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung",
+   "pfad": [
+    "16 Steuerstrafrecht der Ehegatten",
+    "16.2 Steuerhinterziehung"
+   ],
+   "stichworte": [
+    "Steuerhinterziehung",
+    "Schuldvermutung",
+    "EMRK",
+    "in dubio pro reo",
+    "Exkulpationsbeweis"
+   ],
+   "zusammenfassung": "Mit Wirkung ab 1. Januar 2008 wurde die gesetzliche Schuldvermutung zulasten des Ehegatten (Art. 180 Abs. 2 DBG alt) gestrichen.",
+   "ziffer": "16.2"
+  },
+  {
+   "start": 2244,
+   "titel": "Ziff. 16.2 Busse nur für eigene Steuerfaktoren; Teilnahme (Art. 177 DBG)",
+   "pfad": [
+    "16 Steuerstrafrecht der Ehegatten",
+    "16.2 Steuerhinterziehung"
+   ],
+   "stichworte": [
+    "Art. 180 DBG",
+    "Art. 177 DBG",
+    "Teilnahme",
+    "Gehilfenschaft",
+    "Unterzeichnung Steuererklärung",
+    "keine Solidarhaftung Busse"
+   ],
+   "zusammenfassung": "Jeder Ehegatte kann nur für die Hinterziehung seiner eigenen Steuerfaktoren gebüsst werden; die Unterzeichnung der gemeinsamen Steuererklärung ist für sich keine Teilnahme an der Hinterziehung des Partners.",
+   "ziffer": "16.2"
+  },
+  {
+   "start": 2260,
+   "titel": "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben",
+   "pfad": [
+    "17 Inkrafttreten"
+   ],
+   "stichworte": [
+    "Inkrafttreten",
+    "Steuerperiode 2011",
+    "KS 7",
+    "KS 13",
+    "KS 14",
+    "Beilagen"
+   ],
+   "zusammenfassung": "Das Kreisschreiben gilt für die Steuerperiode 2011 und tritt am 1. Januar 2011 in Kraft; es ersetzt die Kreisschreiben Nr. 7, 13 und 14.",
+   "ziffer": "17"
+  },
+  {
+   "start": 2280,
+   "titel": "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum)",
+   "pfad": [
+    "Beilagen",
+    "Beilage 1 Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Familienkonstellationen",
+    "Übersicht",
+    "Entscheidungsbaum",
+    "Konkubinat",
+    "gemeinsame elterliche Sorge",
+    "Ziffernverweise 14.3–14.16"
+   ],
+   "zusammenfassung": "Grafische Übersicht, welche Ziffer (14.3–14.16) für welche Konstellation gilt (minderjährige und volljährige Kinder, 1 oder 2 Haushalte, mit/ohne Unterhaltszahlungen, mit/ohne gemeinsame Sorge).",
+   "ziffer": "Beilage 1",
+   "positionen": [
+    "personalien"
+   ]
+  },
+  {
+   "start": 2369,
+   "titel": "Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Tabelle Familienkonstellationen",
+    "Ehepaar minderjähriges Kind",
+    "gemeinsame Veranlagung",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Ehepaar in ungetrennter Ehe mit minderjährigem Kind: Kinderabzug, Versicherungsabzug und Drittbetreuungskosten von der gemeinsamen Bemessungsgrundlage, gemeinsame Veranlagung mit Elterntarif.",
+   "ziffer": "Beilage 2, S. 1/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2397,
+   "titel": "Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.3",
+    "Tabelle Zuteilung Abzüge",
+    "Unterhaltsempfänger",
+    "5'050",
+    "10'100"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.3: Alimenten-Empfänger versteuert, Zahlender zieht ab; Kinderabzug und Versicherungsabzug beim Empfänger; Drittbetreuung je max. 5'050 bei alternierender Obhut, Total 10'100; Elterntarif beim Elternteil mit Sorge.",
+   "ziffer": "Beilage 2, S. 2/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2443,
+   "titel": "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.4",
+    "halber Kinderabzug",
+    "alternierende Obhut",
+    "Elterntarif"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.4: halber Kinder- und Versicherungsabzug je Elternteil; Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den Elternteil, der zur Hauptsache aufkommt.",
+   "ziffer": "Beilage 2, S. 3/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2489,
+   "titel": "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.5",
+    "Ziff. 14.6",
+    "Konkubinat Sorge",
+    "Unterhaltsempfänger"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.5 (gemeinsame Sorge, mit Unterhalt: Empfänger erhält Abzüge und Elterntarif) und 14.6 (Konkubinat, ohne gemeinsame Sorge, ohne Unterhalt: Elternteil mit Sorge erhält Abzüge und Elterntarif).",
+   "ziffer": "Beilage 2, S. 4/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2542,
+   "titel": "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.7",
+    "Konkubinat",
+    "Unterhaltsempfänger",
+    "5'050"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.7: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif.",
+   "ziffer": "Beilage 2, S. 5/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2581,
+   "titel": "Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.8",
+    "Konkubinat",
+    "halber Kinderabzug",
+    "höheres Einkommen"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.8: halber Kinder- und Versicherungsabzug je Elternteil, Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den hauptsächlich aufkommenden Elternteil (höheres Einkommen).",
+   "ziffer": "Beilage 2, S. 6/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2620,
+   "titel": "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.9",
+    "Konkubinat",
+    "Unterhaltsempfänger",
+    "5'050"
+   ],
+   "zusammenfassung": "Zuteilung bei 14.9: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif.",
+   "ziffer": "Beilage 2, S. 7/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2659,
+   "titel": "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "volljähriges Kind",
+    "Ziff. 14.10",
+    "Erstausbildung",
+    "selbständiger Lebensunterhalt",
+    "Unterstützungsabzug"
+   ],
+   "zusammenfassung": "Bei volljährigem Kind in Erstausbildung nur bei fehlendem selbständigem Einkommen Abzüge; Elterntarif nur bei Wohnsitz bei den Eltern; 14.10: Leistender erhält Kinderabzug, Elternteil mit Kind-Wohnsitz den Elterntarif.",
+   "ziffer": "Beilage 2, S. 8/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2712,
+   "titel": "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.11",
+    "Ziff. 14.12",
+    "Wohnsitz Kind",
+    "Grundtarif beide"
+   ],
+   "zusammenfassung": "14.11: Elternteil, bei dem das Kind lebt, erhält Kinderabzug, Versicherungsabzug und Elterntarif; 14.12 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif.",
+   "ziffer": "Beilage 2, S. 9/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2760,
+   "titel": "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.13",
+    "Ziff. 14.14",
+    "Konkubinat",
+    "volljährig"
+   ],
+   "zusammenfassung": "14.13: Kinderabzugsberechtigter erhält Elterntarif, der andere Grundtarif; 14.14 (keine Unterhaltszahlungen): Elternteil mit höheren finanziellen Leistungen (höheres Einkommen) erhält Abzüge und Elterntarif.",
+   "ziffer": "Beilage 2, S. 10/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2817,
+   "titel": "Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Ziff. 14.15",
+    "Ziff. 14.16",
+    "Konkubinat ohne gemeinsames Kind",
+    "Grundtarif beide"
+   ],
+   "zusammenfassung": "14.15 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif; 14.16: für nicht gemeinsame Kinder gelten die Regeln der Fälle 14.3–14.5 und 14.10–14.12.",
+   "ziffer": "Beilage 2, S. 11/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2857,
+   "titel": "Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Stichtag 31.12.",
+    "Kindesgeburt",
+    "pro rata temporis",
+    "beschränkte Steuerpflicht",
+    "Ausscheidung"
+   ],
+   "zusammenfassung": "Stichtag ist der 31.12. bzw. das Ende der Steuerpflicht; bei unterjähriger oder beschränkter Steuerpflicht pro rata temporis bzw. anteilige Reduktion des Steuerbetrags im Verhältnis steuerbares zu satzbestimmendem Einkommen.",
+   "ziffer": "Beilage 2, S. 12/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 2897,
+   "titel": "Beilage 2 Seite 13/13 Fussnoten: Beispiel Drittbetreuung und Systematik DBG",
+   "pfad": [
+    "Beilagen",
+    "Beilage 2 Tabelle Familienkonstellationen"
+   ],
+   "stichworte": [
+    "Beispiel Drittbetreuung",
+    "4'040",
+    "6'060",
+    "Systematik DBG",
+    "Reineinkommen"
+   ],
+   "zusammenfassung": "Beispiel Drittbetreuung (6'000 / 9'000, Max. 10'100: 4'040 + 6'060) und Systematik der Einkommensbegriffe (Brutto-, Netto-, Reineinkommen, steuerbares Einkommen).",
+   "ziffer": "Beilage 2, S. 13/13",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.drittbetreuung",
+    "abzug.versicherungspraemien",
+    "abzug.unterhaltsbeitraege"
+   ]
+  }
+ ]
+}

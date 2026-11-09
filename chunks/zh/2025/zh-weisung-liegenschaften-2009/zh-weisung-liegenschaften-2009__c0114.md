@@ -5,18 +5,22 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 114"
-seiten: "40"
+seiten: "44"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 40
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 44
 
-– Oberstammheim   1   280   –   –   140   –   –   130   –   –
+Turbenthal   1   340   –   –   250   –   –   230   –   –
+Wiesendangen
+– Bertschikon   1   340   –   –   250   –   –   230   –   –
  (ehemalige Gemeinde)
-– Unterstammheim   1   280   –   –   140   –   –   130   –   –
+– Wiesendangen   1   420   –   –   290   –   –   260   –   –
  (ehemalige Gemeinde)
-– Waltalingen   1   280   –   –   140   –   –   130   –   –
- (ehemalige Gemeinde)
-Thalheim an der Thur   1   340   –   –   250   –   –   230   –   –
-Trüllikon   1   340   –   –   250   –   –   230   –   –
-Truttikon   1   280   –   –   140   –   –   130   –   –
-Volken   1   280   –   –   140   –   –   130   –   –
+Winterthur   2   2360   530   –   1080   240   –   960   220   –
+Zell (ZH)   1   420   –   –   290   –   –   260   –   –
+Bezirk Zürich
+Zürich   4   16680   4170   1
+    2780   1620   1620   1   1080   1460   1460   1
+    970
+    2
+    1110   2430   2

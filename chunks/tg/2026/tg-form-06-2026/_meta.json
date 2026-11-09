@@ -1,0 +1,89 @@
+[
+{
+"id": "tg-form-06-2026__c0001",
+"titel": "Formular 6 – Hinweis, Belegpflicht ab Fr. 1000.–",
+"pfad": [
+"Formular 6",
+"Bemerkungen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Spenden",
+"Quittung",
+"Bescheinigung",
+"Beleg",
+"Fr. 1000",
+"Zuwendungen TG"
+],
+"positionen": [
+"abzug.spenden",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Ab Fr. 1000.– pro Zuwendung ist Quittung oder Bescheinigung mit der Steuererklärung einzureichen; darunter kann nachträglich verlangt werden.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "tg-form-06-2026__c0002"
+},
+{
+"id": "tg-form-06-2026__c0002",
+"titel": "Liste Zuwendungen 2026 (Ziff. 1–16, Übertrag A, Total B)",
+"pfad": [
+"Formular 6",
+"Zuwendungen 2026"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Spendenliste",
+"gemeinnützig",
+"politische Parteien",
+"Beiblätter",
+"Total Zuwendungen"
+],
+"positionen": [
+"abzug.spenden",
+"abzug.parteispenden"
+],
+"zusammenfassung": "Erfassung der Institutionen bzw. Parteien (Name, Sitz, Adresse), getrennt nach gemeinnützigen/öffentlichen Zwecken und politischen Parteien, mit Total B.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-06-2026__c0001",
+"nachher": "tg-form-06-2026__c0003"
+},
+{
+"id": "tg-form-06-2026__c0003",
+"titel": "Parteispenden Code 347 und Berechnung Abzug freiwillige Zuwendungen Code 366",
+"pfad": [
+"Formular 6",
+"Berechnung Abzug"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "15.5 / 23.2",
+"stichworte": [
+"Parteispenden",
+"Mitgliederbeitrag Partei",
+"Selbstbehalt Spenden",
+"Maximalabzug Spenden",
+"20% Nettoeinkommen",
+"Code 347",
+"Code 366"
+],
+"positionen": [
+"abzug.parteispenden",
+"abzug.spenden"
+],
+"zusammenfassung": "Parteien: Staatssteuer max. Fr. 10 000.–, Bundessteuer max. Fr. 10 600.– (Ziff. 15.5); Spenden: Selbstbehalt Fr. 200.– Staatssteuer, max. Fr. 8000.– bis Nettoeinkommen Fr. 40000.–, darüber max. 20% (Ziff. 23.2).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-06-2026__c0002",
+"nachher": null
+}
+]

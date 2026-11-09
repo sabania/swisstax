@@ -4,13 +4,11 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Merkblätter"
+titel: "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Merkblätter
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:
 
-- [Abschreibungen ab 2010 (18)(30 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/Merkblatt_18%20Abschreibungen%202010.pdf "Download: Es öffnet sich ein neues Fenster: Abschreibungen ab 2010 (18)")
-- [Grundeigentum SG mit Wohnsitz ausserhalb Kanton (27)(87 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/Formular_27_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: Grundeigentum SG mit Wohnsitz ausserhalb Kanton (27)")
-- [Naturalbezüge Arbeitnehmende ab 2007 (N2)(32 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/N2-2007.pdf "Download: Es öffnet sich ein neues Fenster: Naturalbezüge Arbeitnehmende ab 2007 (N2)")
-- [Naturalbezüge Land- und Forstwirtschaft ab 2007 (NL1)(60 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/NL1-2007.pdf "Download: Es öffnet sich ein neues Fenster: Naturalbezüge Land- und Forstwirtschaft ab 2007 (NL1)")
-- [Naturalbezüge Selbständigerwerbende ab 2007 (N1)(39 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/merkblaetter/N1-2007.pdf "Download: Es öffnet sich ein neues Fenster: Naturalbezüge Selbständigerwerbende ab 2007 (N1)")
+- [Steuerfuss 2014(52 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202014.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2014")
+- [Steuerfuss 2013(102 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202013.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2013")
+- [Steuerfuss 2012(103 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202012.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2012")

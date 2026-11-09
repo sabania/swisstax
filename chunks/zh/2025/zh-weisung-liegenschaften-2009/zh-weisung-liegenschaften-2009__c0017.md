@@ -10,20 +10,18 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 7
 
-   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem 30
-Alter des Gebäudes entsprechenden Altersentwertung.
-   Der Neubauwert ist auf 1000% des von der Gebäudeversicherung 31
-des Kantons Zürich festgelegten Basiswerts festzusetzen.
-    Die Altersentwertung wird bei der allgemeinen Neubewertung in 32
-der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2009.
-Sie beträgt pro Jahr 1% des Neubauwertes, jedoch höchstens 30%.
-    Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs- 33
-jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
-rer umfassender Totalrenovation ist für die Berechnung der Alters-
-entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
-massgebend.
-    Befinden sich in einem Gebäude gemeinschaftlich genutzte, meh- 34
-reren Gebäuden dienende Anlagen und Einrichtungen, wie Heizun-
-gen, Schutzräume, Autoeinstellplätze usw., so ist der Wert dieser ge-
-meinsamen Anlagen und Einrichtungen auf die beteiligten Bauten
-aufzuteilen.
+4. Besondere Verhältnisse
+
+   Auf Verlangen des Steuerpflichtigen können bei der Berechnung 35
+des Verkehrswerts von Einfamilienhäusern sowie Stockwerkeigentum
+zu Wohnzwecken, vorbehältlich des entsprechenden Nachweises, fol-
+gende Korrekturen vorgenommen werden:
+– beim Landwert, soweit sich dieser bei einer Veräusserung nicht in
+   einem entsprechenden Erlös niederschlagen würde und diesem
+   Umstand nicht schon durch Anwendung der Ziff. 18, 19, 26–29
+   Rechnung getragen wurde,
+– beim Zeitbauwert, wenn dieser wesentlich durch Elemente erhöht
+   wird, die sich bei einer Veräusserung nicht in einem entsprechen-
+   den Erlös niederschlagen würden.
+
+1. 1. 23 - 119   7

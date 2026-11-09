@@ -5,24 +5,17 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 19"
-seiten: "9"
+seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 9
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 8
 
-<!-- Seite 9 -->
-Leistungen zum vereinbarten Mietzins hinzuzuzählen. Ausser Betracht
-fallen Vergütungen der Mieter für Heizung, Warmwasser, Treppenhaus-
-reinigung, Empfangsgebühren für Radio und Fernsehen, Gebühren
-für die Kehrichtentsorgung sowie Gebühren für Wasser, Abwasser
-und für die Abwasserreinigung.
-    Bei nicht, nur teilweise vermieteten Objekten oder bei offenkun- 40
-dig zu Vorzugsbedingungen vermieteten Objekten ist der erzielbare
-Ertrag in die Berechnung einzubeziehen.
-    Die Kapitalisierungssätze wurden durch Sachverständige, die von 41
-der Finanzdirektion beauftragt wurden, ermittelt. Sie berücksichtigen
-die aktuelle Zinssituation und die Zinserwartungen der Zukunft sowie
-die Verwaltungs- und Betriebskosten und die Bildung angemessener
-Rücklagen für den Unterhalt der Bauten.
-   Die Kapitalisierungssätze sind im Anhang dieser Weisung aufge- 42
-führt.
+    Ertragswert von Mehrfamilienhäusern
+38   Zur Ermittlung des Ertragswerts von Mehrfamilienhäusern ist der
+    Ertrag der Liegenschaft zu kapitalisieren.
+39   Der Ertrag bestimmt sich nach der Gesamtheit der von den Mietern
+    geleisteten Entschädigungen. Bei vom Eigentümer und von zu seinem
+    Haushalt gehörenden Personen selbst genutzten Räumen ist die erziel-
+    bare Marktmiete zum Mietertrag hinzuzuzählen. Wurden Mieter vertrag-
+    lich zur Übernahme von üblicherweise vom Eigentümer zu tragenden
+    Unterhaltskosten und Abgaben verpflichtet, so ist der Wert dieser

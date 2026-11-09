@@ -5,16 +5,13 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 22"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 6
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 7
 
-Natürliche Personen beantragen die Rückerstattung des zusätzlichen Steuerrückbehaltes auf
-amerikanischen Wertpapieren beim kantonalen Steueramt, Abteilung Wertschriften -
-Steueranrechnung. Wer im Jahre 2025 einen Rückerstattungsantrag eingereicht hat, erhält die
-Formulare anfangs des Jahres 2026 durch das kantonale Steueramt zugestellt.
-Juristische Personen sowie Kollektiv- und Kommanditgesellschaften reichen ihre Anträge bei der
-eidgenössischen Steuerverwaltung in Bern ein.
+<!-- Seite 7 -->
+Zürcher Steuerbuch   Nr. 133.1
 
-II. Anrechnung ausländischer Quellensteuern
+
+Kantonales Steueramt Zürich

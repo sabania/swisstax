@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/MuA2sLicRePu/02-2026-de.pdf> · lokal: [bund-form-2-2026.pdf](../../../raw/bund/2026/bund-form-2-2026.pdf) · Volltext: [bund-form-2-2026.md](../../../sources/bund/2026/bund-form-2-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `37b0eabf3920bd6c…`
 
-## Inhalt (14 Chunks)
+## Inhalt (13 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -26,7 +26,6 @@ generiert: tools/build_index.py
 | [c0008](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0008.md) | Formular 2 2026 – Abschnitt 8 | S. 3 |  |
 | [c0009](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0009.md) | Formular 2 2026 – Abschnitt 9 | S. 3 |  |
 | [c0010](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0010.md) | Formular 2 2026 – Abschnitt 10 | S. 3 |  |
-| [c0011](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0011.md) | Formular 2 2026 – Abschnitt 11 | S. 3 |  |
+| [c0011](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0011.md) | Formular 2 2026 – Abschnitt 11 | S. 4 |  |
 | [c0012](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0012.md) | Formular 2 2026 – Abschnitt 12 | S. 4 |  |
 | [c0013](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0013.md) | Formular 2 2026 – Abschnitt 13 | S. 4 |  |
-| [c0014](../../../chunks/bund/2026/bund-form-2-2026/bund-form-2-2026__c0014.md) | Formular 2 2026 – Abschnitt 14 | S. 4 |  |

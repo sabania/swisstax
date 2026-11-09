@@ -10,8 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 11
 
-Werden Beteiligungsrechte, deren Rückkauf bereits zu einer sofortigen oder aufgeschobe-
-nen Besteuerung als Teilliquidation geführt hat, wieder ausgegeben, so qualifiziert der Teil
-des Veräusserungserlöses, der über dem Nennwert liegt und soweit er den übrigen Reser-
-ven belastet werden kann, als KER (vgl. Kreisschreiben Nr. 5a der ESTV vom 1.2.2022, Zif-
-fer 6).
+Die Besteuerung des Vermögensertrags aus einer indirekten Teilliquidation nach Artikel 20a
+Absatz 1 Buchstabe a DBG richtet sich nach der Verbuchung der Ausschüttung in der Kapi-
+talgesellschaft oder Genossenschaft, deren Beteiligungsrechte verkauft worden sind. Der
+steuerbare Anteil ist nach den in Ziffer 4.1. festgehaltenen Grundsätzen zu berechnen.
+
+4.2.5. Transponierung
+
+In Artikel 20a Absatz 1 Buchstabe b DBG werden die Steuerfolgen der Übertragung von
+Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft aus dem Privat-
+ins Geschäftsvermögen einer Personenunternehmung oder juristischen Person, an welcher
+der Veräusserer oder Einbringer nach der Übertragung zu mindestens 50 Prozent am Kapital
+beteiligt ist, geregelt. Gleiches gilt sinngemäss auch, wenn mehrere Beteiligte die Übertra-
+gung gemeinsam vornehmen, d.h. eine gemeinsame Willensbildung vorliegt. Eine solche ist

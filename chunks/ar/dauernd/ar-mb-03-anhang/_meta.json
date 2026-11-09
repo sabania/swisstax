@@ -66,7 +66,7 @@
 "titel": "MB AR 03-anhang – Abschnitt 5",
 "pfad": [],
 "seiten": [
-2
+1
 ],
 "artikel": null,
 "ziffer": null,
@@ -98,7 +98,7 @@
 "titel": "MB AR 03-anhang – Abschnitt 7",
 "pfad": [],
 "seiten": [
-3
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -258,7 +258,7 @@
 "titel": "MB AR 03-anhang – Abschnitt 17",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -331,6 +331,22 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "ar-mb-03-anhang__c0020",
+"nachher": "ar-mb-03-anhang__c0022"
+},
+{
+"id": "ar-mb-03-anhang__c0022",
+"titel": "MB AR 03-anhang – Abschnitt 22",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "ar-mb-03-anhang__c0021",
 "nachher": null
 }
 ]

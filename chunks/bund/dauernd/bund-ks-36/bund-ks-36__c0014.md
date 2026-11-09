@@ -5,23 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 14"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
 
-3
-  Votum Villiger, Bundesrat, Amtliches Bulletin, Ständerat 10.3.1999, S. 140: "... Es sind im
-  allgemeinen seltene Fälle, und dabei wird es bleiben. Das ist auch im Interesse des Fiskus, denn
-  der Fiskus trägt bei der gewerbsmässigen Besteuerung auch ein Risiko, weil er dann nämlich auch
-  Verluste zum Abzug zulassen muss; ..."
-4
-  Votum Villiger, Bundesrat, Amtliches Bulletin, Ständerat 3.3.1999, S. 47: "... Wir wollen keine
-  Kapitalgewinnsteuer für alle Normalanleger und -sparer, oder wie immer Sie diese bezeichnen,
-  auch wenn sie nach modernsten Methoden ein gutes Portefeuille bewirtschaften. Da will der Fiskus
-  nicht "zuschlagen". Das wäre eine Kapitalgewinnsteuer durch die Hintertüre. ..."; vgl. auch BGE vom
-  3.7.1998, in: StE 1998, B 23.1 Nr. 39
-5
-  Votum Gemperli, Amtliches Bulletin, Ständerat 2.3.1999, S. 43: "... In der Regel kann man im
-  Wertschriftenbereich die geschäftliche Tätigkeit bereits wegen der Beanspruchung von
-  Fremdmitteln feststellen. ...".
+Wertschriften im Sinne dieses Kreisschreibens sind Wertpapiere sowie nicht verurkundete
+Rechte mit gleicher Funktion (Wertrechte). Zu den Wertschriften gehören einmal jene
+Wertpapiere im zivilrechtlichen Sinn, die entweder volle Mitgliedschaftsrechte (z.B. Aktien,
+Anteile von Genossenschaften) oder bloss beteiligungsrechtliche Vermögensrechte (z.B.
+Partizipationsscheine, Genussscheine, Anteile an kollektiven Kapitalanlagen) verkörpern
+sowie Forderungsrechte (Obligationen). Sodann umfassen die Wertschriften im Sinn dieses
+Kreisschreibens auch bloss buchmässig registrierte Mitgliedschafts- und Forderungsrechte.
+Schliesslich zählen zu den Wertschriften auch Futures und die Derivate, deren Wert von
+einem bestimmten Basiswert (Aktien, Obligationen, Devisen, Edelmetalle, Rohwaren,
+Indizes, usw.) abgeleitet wird. Zu den derivativen Finanzinstrumenten zählen insbesondere
+Optionen und Swaps.
+
+4.3   Abgrenzung der selbständigen Erwerbstätigkeit mit Wertschriften
+    zur privaten Vermögensverwaltung

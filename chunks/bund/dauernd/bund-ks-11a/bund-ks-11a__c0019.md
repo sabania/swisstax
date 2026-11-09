@@ -10,13 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 5
 
-3.2.7   Pflegekosten in Alters- und Pflegeheimen
-Altersgebrechen gelten erst ab einem bestimmten Grad als Behinderung (vgl. Ziff. 4.1 d). Bei
-Bewohnerinnen und Bewohnern von Alters- und Pflegeheimen mit einem Pflegebedarf bis 60
-Minuten pro Tag (vgl. Art. 7a der Verordnung des EDI vom 29. September 1995 über Leistun
-gen in der obligatorischen Krankenpflegeversicherung [KLV; SR 832.112.31) wird davon ausge
-gangen, dass sie ohne medizinische Indikation betreffend Pflegebedarf aufgrund einer Behinde
-rung im Heim wohnen. In diesem Fall stellen die Heimkosten grundsätzlich Lebenshaltungskos
-ten dar und sind nicht abzugsfähig. Separat in Rechnung gestellte Pflegekosten sind jedoch als
-Krankheitskosten abziehbar. Betreffend Pflegeheimkosten bei Behinderung wird auf Ziffer 4.3.4
-hiernach verwiesen.
+3.2.4   Kosten für Alternativmedizin
+Neben den traditionellen Heilbehandlungen gelten auch die Behandlungen der Alternativmedi
+zin als abzugsfähig. Die Alternativmedizin umfasst die Komplementärmedizin sowie die Be
+handlungen der kantonal anerkannten Naturheilpraktikerinnen und Naturheilpraktiker. Unter die
+Komplementärmedizin fallen unter anderem Therapieformen wie Akupressur, Atemtherapie,
+Craniosacral-Therapie und Ostheopathie. Als Behandlungen der kantonal anerkannten Natur
+heilpraktikerinnen und Naturheilpraktiker gelten Behandlungen in den Bereichen Ayurveda-Me
+dizin, Homöopathie, Traditionelle Chinesische Medizin TCM oder Traditionelle Europäische Na
+turheilkunde TEN. Voraussetzung ist, dass die Behandlung von einer nach kantonaler Praxis
+anerkannten Naturheilpraktikerin oder einem Naturheilpraktiker durchgeführt wird (vgl. Urteil
+des Bundesgerichts 2C_103/2009 vom 10. Juli 2009 E. 4). Ebenso abzugsfähig sind Behand
+lungen durch kantonal anerkannte Naturheilpraktikerinnen und Naturheilpraktiker bei ausdrückli
+cher ärztlicher Verordnung.
+Kantonal anerkannte Naturheilpraktikerinnen und Naturheilpraktiker sind entweder im Besitz der
+nach kantonalem Recht erforderlichen Bewilligung zur selbständigen Berufsausübung oder ge
+mäss der kantonalen Gesetzgebung zur Ausübung der Heilbehandlung zugelassen.

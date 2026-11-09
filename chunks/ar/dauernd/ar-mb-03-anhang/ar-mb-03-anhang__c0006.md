@@ -10,28 +10,30 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 2
 
- 3.1   Kücheneinrichtungen
-  -   gleichwertiger Ersatz Küche   1/1
-  -   Ersatz einzelner eingebauter Küchengeräte   1/1   E
-  -   nicht fest verbundene Küchengeräte (z. B. Mixer,   1/1
-    Kaffeemaschine etc.)
-  -   Ersatz mit erheblicher Komfortverbesserung   2/3   1/3
+<!-- Seite 2 -->
+  2   Gebäude innen
 
- 3.2 Sanitäre Installationen
-  - Sanitärräume (Bad, Dusche, WC)
-    a) gleichwertiger Ersatz einzelner Armaturen und Einrichtungen   1/1
-    b) zusätzliche Neuinstallationen   1/1
-    c) Ersatz mit erheblicher Komfortverbesserung   2/3   1/3
-  - Sanitäre Installationen (Wasser-/Abwasserleitungen)
-    a) Neuinstallation   1/1
-    b) Reparatur, gleichwertiger Ersatz   1/1
-  - Waschautomaten, Trockner, Tumbler
-    a) erstmalige Anschaffung   1/1
-    b) gleichwertiger Ersatz   1/1   E
-    c) Serviceabonnement   1/1
-  - mobile Luftentfeuchter/-befeuchter   1/1
-  - Wasserenthärtungsanlagen
-    a) Anschaffung   1/1
-    b) Reparaturen und gleichwertiger Ersatz   1/1
-    c) Serviceabonnement   1/1
-    d) Salz und dergleichen   1/1
+ 2.1 Grundrissveränderungen und Ausbauten
+  - Wohnraumerweiterung (inkl. Dachausbau), Ausbauten   1/1
+  - Grundrissveränderung von Räumlichkeiten (z. B. Heraus-   1/1
+    brechen von Wänden, Einbau neuer Wände und damit
+    verbundene Anpassungsarbeiten)
+
+ 2.2 Innenausbau
+  - Bodenbeläge
+    a) gleichwertiger Ersatz in gleicher Preisklasse   1/1
+    b) Versiegelung, Ölung, Imprägnierung   1/1
+  - Schränke, Garderoben
+    (nicht fest mit der Baute verbunden)   1/1
+  - Malerarbeiten
+    a) allein oder im Zusammenhang mit Renovationen   1/1
+    b) im Zusammenhang mit wertvermehrenden Aufwendungen   1/1
+    (An-, Um- und Ausbauten)
+  - Wandbeläge und Wandbekleidungen
+    a) gleichwertiger Ersatz   1/1
+    b) Ersatz kombiniert mit thermischer Isolation, gegen   1/1   E
+    Aussenklima, unbeheizte Räume oder Erdreich
+  - Zimmertüren
+    gleichwertiger Ersatz   1/1
+
+  3   Installationen

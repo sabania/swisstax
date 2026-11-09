@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 40"
-seiten: "10"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
 
-somit insbesondere auch Taggelder (IV, UV, ALV, KVG etc.), Teil-Invaliditätsrenten (IV, UV,
-berufliche Vorsorge etc.), Mutterschaftsentschädigungen und Ersatzleistungen haftpflichtiger
-Dritter. Ob im Einzelfall ein Quellensteuerabzug vorzunehmen ist, ist dem jeweils gültigen
-«Merkblatt der ESTV über die Quellenbesteuerung von Ersatzeinkünften» zu entnehmen.
-Andere Einkünfte (bspw. Wertschriften- oder Liegenschaftserträge) unterliegen nicht der
-Quellensteuer, sondern werden (nachträglich) im ordentlichen Verfahren veranlagt (vgl.
-Art. 4 Abs. 1 bzw. Art. 89 Abs. 1 Bst. b sowie Art. 99b DBG).
-Hat der Leistungsschuldner seinen Sitz im Ausland, unterliegen die von ihm ausgerichteten
-und in der Schweiz steuerpflichtigen Lohnbestandteile in der Regel der ordentlichen Veranla-
-gung. Eine Quellenbesteuerung hat nur zu erfolgen, wenn diese Leistungen von einer Be-
-triebsstätte oder festen Einrichtung in der Schweiz getragen werden, oder wenn ein Perso-
+3.2   Steuerbare Leistungen
+3.2.1 Der Quellensteuer unterliegende Einkünfte aus Arbeitsverhältnis
+Die Quellensteuer wird von den Bruttoeinkünften berechnet (Art. 84 Abs. 1 DBG).
+Steuerbar sind alle dem Arbeitnehmer oder einer Drittperson im Zusammenhang mit dem Ar-
+beitsverhältnis ausgerichteten oder gutgeschriebenen Entschädigungen, insbesondere (vgl.
+Art. 84 Abs. 2 Bst. a DBG):
+     Der ordentliche Arbeitslohn (Monatslohn, Stunden- oder Taglohn, Akkordentschädigun-
+    gen);
+     Entschädigungen für Sonderleistungen (Lohn für Überzeit-, Nacht- oder Extraarbeiten,
+    Arbeitsprämien);
+     sämtliche Lohnzulagen (Familienzulagen, Essens-, Orts- und Teuerungszulagen, Feri-
+    enentschädigungen etc.);
+     Provisionen, Gratifikationen und Bonuszahlungen;
+     Dienstalters- und Jubiläumsgeschenke;

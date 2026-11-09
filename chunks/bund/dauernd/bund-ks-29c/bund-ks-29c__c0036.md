@@ -10,16 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
 
-<!-- Seite 12 -->
-bei der Annahme eines öffentlichen Kaufangebots gemäss Artikel 125 ff. des Bundesgeset-
-zes vom 19. Juni 2015 über die Finanzmarktinfrastrukturen und das Marktverhalten im Effek-
-ten- und Derivatehandel (Finanzmarktinfrastrukturgesetz, FinfraG; SR 958.1) nicht gegeben.
-Wirtschaftlich stellt eine solche Übertragung keine Veräusserung, sondern eine Vermögen-
-sumschichtung dar. Dieser als Transponierung bezeichnete Tatbestand führt dazu, dass der
-den Nennwert zuzüglich den anteiligen KER bzw. Ausland-KER übersteigende Erlös als Er-
-trag aus beweglichem Vermögen qualifiziert.
+Für Beteiligungsübertragungen nach dem 31. Dezember 1996 bis zum 31. Dezember 2010
+gelten die gleichen Grundsätze wie für Übertragungen nach dem 31. Dezember 2010. Somit
+qualifiziert der Ausweis des gesamten über dem Nennwert zuzüglich der KER im Zeitpunkt
+der Übertragung liegenden Mehrwertes als übrige Reserve.
 
-Wird die Beteiligung zu einem Wert übertragen, welcher den Nennwert zuzüglich der anteili-
-gen KER bzw. Ausland-KER übersteigt, und wird dieser Mehrwert dem Nominalkapital
-und/oder den Reserven der übernehmenden Kapitalgesellschaft oder Genossenschaft gut-
-geschrieben, ergeben sich je nach der Verbuchung unterschiedliche Steuerfolgen:
+Für Erlöse aus Beteiligungsübertragungen zwischen dem 31. Dezember 2006 und dem
+31. Dezember 2019, die nicht als Ertrag aus beweglichem Vermögen gemäss während die-
+sem Zeitraum geltenden Artikel 20a Absatz 1 Buchstabe b DBG qualifizieren, kann der ge-
+samte über dem Nennwert liegende Mehrwert den KER bzw. Ausland-KER gutgeschrieben
+werden.

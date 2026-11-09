@@ -2,20 +2,17 @@
 id: bund-ks-18a__c0051
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 51"
-seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "12"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 11
+> Bund · Steuerjahr 2026 · KS 18a · S. 12
 
-Wurden durch die Versicherungseinrichtung Leistungen infolge einer Prämienbefreiung er-
-bracht, so ist in der Rubrik „Bemerkungen“ ein Hinweis anzubringen und der entsprechende
-Betrag zu nennen. Ebenfalls unter „Bemerkungen“ sind die vom Vorsorgeträger auf Veran-
-lassung der Steuerbehörden vorgenommenen Rückzahlungen von zu viel einbezahlten Bei-
-trägen und Einlagen anzugeben (Datum der Rückzahlung und Betrag).
-
-Im Falle einer Übertragung eines Säule 3a-Guthabens in eine andere anerkannte Vorsorge-
-form (Art. 3a Abs. 1 Bst. b BVV3) muss die übertragende Einrichtung der neuen Einrichtung
-folgende Beträge mitteilen:
+Bei Säule-3a-Versicherungspolicen kann jedoch nur der Sparteil an der Gesamtprämie zu-
+rückerstattet werden. Die Prämie für eine Risikoversicherung kann nicht mehr zurückbezahlt
+werden, da das Risiko zum Zeitpunkt der Besteuerung vom Versicherer bereits gedeckt
+wurde und die Prämie daher geschuldet ist. Übersteigt der Prämienanteil für eine Risikover-
+sicherung den höchstzulässigen Abzug gemäss Artikel 7 BVV 3 muss eine sofortige Anpas-
+sung der Risikoversicherung verlangt werden.

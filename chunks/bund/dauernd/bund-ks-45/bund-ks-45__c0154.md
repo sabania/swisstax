@@ -5,9 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 154"
-seiten: "41"
+seiten: "40"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 41
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 40
 
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 78 000.00 (CHF 3 000 x 13 / 50 %).
+    grad dem Arbeitgeber mitteilt;
+  2. Umrechnung auf einen Beschäftigungsgrad von 100 Prozent, wenn der effektive Ge-
+    samtbeschäftigungsgrad durch den Arbeitnehmer nicht offengelegt wird;
+  3. Umrechnung auf das tatsächliche Gesamtbruttoeinkommen, sofern die Einkünfte dem
+    Schuldner der steuerbaren Leistung bekannt sind bzw. bekannt gegeben werden
+    (bspw. im Konzern oder mehrere Arbeitsverträge beim gleichen Schuldner der steuer-
+    baren Leistung).
+Dies gilt auch, wenn eine oder mehrere der Erwerbstätigkeiten ausserhalb der Schweiz ver-
+richtet wird resp. Werden, bzw. wenn Ersatzeinkünfte im Ausland ausbezahlt wird resp. wer-
+den.
+Der teilzeitbeschäftige Arbeitnehmer muss seinem Arbeitgeber bzw. seinen Arbeitgebern be-
+kannt geben, ob er einer oder weiteren (unselbstständigen oder selbstständigen) Erwerbstä-
+tigkeit(en) nachgeht (vgl. Art. 136 DBG).
+Gibt der Arbeitnehmer weder das Pensum noch den Lohn der anderen Tätigkeit bekannt, ist

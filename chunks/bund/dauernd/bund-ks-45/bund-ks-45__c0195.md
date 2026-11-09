@@ -5,21 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 195"
-seiten: "53"
+seiten: "51"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 53
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 51
 
-7.5.5 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden
-Ersatzeinkünfte (Taggelder, Renten usw.), welche beispielsweise von einer Versicherung,
-Ausgleichskasse, Arbeitslosenkasse (Leistungserbringer) direkt an den Leistungsempfänger
-(Arbeitnehmer) ausbezahlt werden, sind durch den Leistungserbringer mit dem Tarifcode G
-bzw. für Grenzgänger aus Deutschland mit dem Tarifcode Q an der Quelle zu besteuern (vgl.
-Art. 1 Abs. 1 Bst. g QStV).
-Wird neben dem Ersatzeinkommen weiteres Erwerbseinkommen erzielt, sind das Ersatz-
-und das Erwerbseinkommen für den Steuersatz umzurechnen (vgl. Ziffer 7.3.2 oben). Bei Er-
-satzeinkünften, die nach Massgabe des versicherten Verdienstes ausgerichtet werden, gilt
-dieser als satzbestimmendes Einkommen.
-Für die Quellenbesteuerung der Ersatzeinkünfte, insbesondere zu deren Definition im inter-
-nationalen Verhältnis, wird auf das jeweils gültige «Merkblatt der ESTV über die Quellenbe-
-steuerung von Ersatzeinkünften» verwiesen.
+Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
+entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
+bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
+der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
+anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
+Die Berechnung des satzbestimmenden Einkommens berechnet sich aus der Summe des
+letzten vom Schuldner der steuerbaren Leistung ausgerichteten und auf ein Jahr umgerech-
+neten Bruttomonatslohns, welcher der schweizerischen Quellensteuer unterliegt zuzüglich
+der nachträglich ausgerichteten Leistung. Vorbehalten bleibt die Quellenbesteuerung von
+Vergütungen, die für Zeiträume bezahlt werden, auf welche DBA Einschränkungen vorsehen
+(vgl. Ziffer 7.5.1 oben). Wird die Leistung im Jahr der Beendigung des Arbeitsverhältnisses

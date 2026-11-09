@@ -10,15 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
 
-Die Vestingperiode stellt die Zeitspanne dar, während welcher der Mitarbeitende eine Option
-verdienen bzw. „abverdienen“ muss, insbesondere indem er gewisse berufliche Ziele erfüllt
-oder auch indem er seinen Arbeitsvertrag nicht vor Ablauf einer bestimmten Dauer kündigt.
-Das Ende dieser Zeitspanne wird als „Vesting“ bezeichnet (vgl. Urteil des Bundesgerichts
-2C_138/2010 vom 2. Juni 2010, Erw. 2.2) Dementsprechend gelten solche Mitarbeiterbeteili-
-gungen bis zum Eintritt des Vesting lediglich als aufschiebend bedingt zugeteilt.
+2.5   Realisation
+Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen,
+dann deckt dies insbesondere die Ausübung oder den Verkauf von Mitarbeiteroptionen ab,
+ebenso wie die Umwandlung von Anwartschaften in Aktien sowie den Bezug von Bargeld
+aus aktienkursbezogenen Bargeldanreizsystemen (vgl. Anhang I, Übersicht über Mitarbeiter-
+beteiligungen).
 
-Das Vesting, also das Ende der Vestingperiode, wird in der Regel im jeweiligen Beteiligungs-
-plan bzw. -vertrag festgehalten, ebenso wie die Gründe, welche zu einem vorzeitigen Ves-
-ting führen können. Läuft die Vestingperiode ab und werden sämtliche Vestingbedingungen
-erfüllt, führt dies zum Erwerb des Rechtsanspruchs an der entsprechenden Mitarbeiterbeteili-
-gung. Der Besteuerungszeitpunkt richtet sich dabei nach Ziffer 3 ff. dieses Kreisschreibens.
+2.6   Umrechnung von Fremdwährungen
+Lautet eine Mitarbeiterbeteiligung auf eine ausländische Währung, so sind die jeweils zu be-
+scheinigenden Angaben in Schweizerfranken (nachfolgend Franken) umzurechnen. Der Um-
+rechnung ist das Mittel der Geld- und Briefschlusskurse am Tage der Abgabe, dem Erwerb
+oder der Realisation des geldwerten Vorteils aus der Mitarbeiterbeteiligung zu Grunde zu le-
+gen. In begründeten Fällen und in Absprache mit der zuständigen Steuerbehörde kann von
+dieser Umrechnung abgewichen werden.

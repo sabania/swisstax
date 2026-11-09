@@ -2,21 +2,22 @@
 id: bund-ks-18a__c0032
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 32"
-seiten: "7"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "8"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 7
+> Bund · Steuerjahr 2026 · KS 18a · S. 8
 
-d)   Steuerpflichtige, die der Quellensteuer unterliegen
-Bei der Tarifberechnung der Quellensteuer werden individuelle Abzüge – wie z.B. Einzahlun-
-gen in die Säule 3a – nicht berücksichtigt. Hat eine der Quellensteuer unterliegende Person
-mit Wohnsitz in der Schweiz solche Einzahlungen geleistet, kann sie bei der zuständigen
-Steuerbehörde bis zum 31. März des auf das Steuerjahr folgenden Jahres schriftlich einen
-Antrag auf nachträgliche ordentliche Veranlagung stellen (Art. 89a Abs. 3 DBG i.V.m. Art. 10
-der Verordnung des EFD über die Quellensteuer bei der direkten Bundesteuer [QStV; SR
-642.118.2]), sofern sie nicht der obligatorischen nachträglichen ordentlichen Veranlagung
-unterliegt (Art. 89 DBG i.V.m. Art. 9 QStV). In den Folgejahren wird bis zum Ende der Quel-
-lensteuerpflicht von Amtes wegen eine nachträgliche ordentliche Veranlagung durchgeführt.
+f)   Erwerbstätige, die das Referenzalter überschritten haben
+Leistet der Vorsorgenehmer keine Beiträge mehr in eine Vorsorgeeinrichtung, weil er das
+Referenzalter bereits überschritten hat und Rentenbezüger ist (passive Zugehörigkeit), ist er
+aber weiterhin erwerbstätig, kann er bis fünf Jahre nach Erreichen des Referenzalters bis 20
+Prozent des Erwerbseinkommens, jedoch höchstens 40 Prozent des oberen Grenzbetrages
+nach Artikel 8 Absatz 1 BVG in die Säule 3a einzahlen.
+
+Ist der Vorsorgenehmer jedoch noch aktiv bei einer Vorsorgeeinrichtung versichert (selbst
+wenn keine Beiträge mehr geleistet werden), kann er bis höchstens fünf Jahre nach Errei-
+chen des Referenzalters jährlich bis 8 Prozent des oberen Grenzbetrages nach Artikel 8 Ab-
+satz 1 BVG in die Säule 3a einzahlen.

@@ -5,9 +5,9 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 86"
-seiten: "31"
+seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 31
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 35
 
-1. 1. 23 - 119   31
+1. 1. 23 - 119   35

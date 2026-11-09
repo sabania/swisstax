@@ -594,7 +594,7 @@
 "titel": "RS 2-211 – Abschnitt 38",
 "pfad": [],
 "seiten": [
-12
+13
 ],
 "artikel": null,
 "ziffer": null,
@@ -642,38 +642,6 @@
 "titel": "RS 2-211 – Abschnitt 41",
 "pfad": [],
 "seiten": [
-13
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-211__c0040",
-"nachher": "bund-rs-2-211__c0042"
-},
-{
-"id": "bund-rs-2-211__c0042",
-"titel": "RS 2-211 – Abschnitt 42",
-"pfad": [],
-"seiten": [
-13
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-211__c0041",
-"nachher": "bund-rs-2-211__c0043"
-},
-{
-"id": "bund-rs-2-211__c0043",
-"titel": "RS 2-211 – Abschnitt 43",
-"pfad": [],
-"seiten": [
 14
 ],
 "artikel": null,
@@ -682,7 +650,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-rs-2-211__c0042",
+"vorher": "bund-rs-2-211__c0040",
 "nachher": null
 }
 ]

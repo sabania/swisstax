@@ -5,30 +5,28 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 80"
-seiten: "30"
+seiten: "33"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 30
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 33
 
-Benken (ZH)   5   370   340   310   280   250   –   –
-Berg am Irchel   3   470   410   350   –   –   –   –
-Buch am Irchel   2   470   370   –   –   –   –   –
-Dachsen   3   430   350   270   –   –   –   –
-Dorf   3   490   410   320   –   –   –   –
-Feuerthalen   5   460   420   370   320   270   –   –
-Flaach   5   400   380   350   320   290   –   –
-Flurlingen   3   550   450   340   –   –   –   –
-Henggart   3   570   470   370   –   –   –   –
-Kleinandelfingen   5   550   500   440   380   320   –   –
-Laufen-Uhwiesen   5   520   470   420   370   310   –   –
-Marthalen   3   490   410   330   –   –   –   –
-Ossingen   4   540   430   320   210   –   –   –
-Rheinau   3   370   310   250   –   –   –   –
-Stammheim
-– Oberstammheim   3   410   360   300   –   –   –   –
- (ehemalige Gemeinde)
-– Unterstammheim   4   410   370   340   300   –   –   –
- (ehemalige Gemeinde)
-– Waltalingen   3   430   350   270   –   –   –   –
- (ehemalige Gemeinde)
-Thalheim an der Thur   3   480   390   290   –   –   –   –
+Wasterkingen   3   220   190   150   –   –   –   –
+Wil (ZH)   3   350   280   200   –   –   –   –
+Winkel   3   480   390   300   –   –   –   –
+Bezirk Dielsdorf
+Bachs   3   350   290   220   –   –   –   –
+Boppelsen   3   430   380   340   –   –   –   –
+Buchs (ZH)   5   420   390   350   320   280   –   –
+Dällikon   5   430   400   360   320   280   –   –
+Dänikon   3   330   280   220   –   –   –   –
+Dielsdorf   5   420   380   330   290   240   –   –
+Hüttikon   2   370   280   –   –   –   –   –
+Neerach   5   520   470   410   350   290   –   –
+Niederglatt   3   400   340   270   –   –   –   –
+Niederhasli   5   380   360   330   300   270   –   –
+Niederweningen   5   390   360   320   280   240   –   –
+Oberglatt   5   390   360   330   300   260   –   –
+Oberweningen   5   380   350   320   290   250   –   –
+Otelfingen   5   430   400   360   320   280   –   –
+Regensberg   3   500   440   370   –   –   –   –
+Regensdorf   5   480   440   390   350   300   –   –

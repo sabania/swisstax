@@ -5,32 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 167"
-seiten: "45"
+seiten: "44"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 45
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
 
-    Wechsel des Arbeitgebers und anschliessender Änderung des Zivilstands während des Kalender-
-    jahres:
-    3. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Vom 1. Januar bis zum 30. April 2021 übt er seine
-    Tätigkeit mit einem Pensum von 100 % beim Arbeitgeber 1 aus. Vom 1. Mai bis zum 31. Dezember arbei-
-    tet er zu 100 % beim Arbeitgeber 2. Er erhält insgesamt einen Bruttojahreslohn von CHF 65 000.00
-    (CHF 5 000 x 13)
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
-
-    Arbeitgeber 1
-
-    Monat   Jan.   Feb.   März   Apr.   Mai   …   Dez.   Besteuerung
-
-    Bruttolohn   5 000   5 000   5 000   6 666.652   21 667.00
-
-    Tarifcode   A0   A0   A0   A0
-
-    Steuersatz (%)   10,41   10,4   10,4   10,4
-
-    Quellensteuer   520   520   520   693.35   2 253.35
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000 [(CHF 15 000 + CHF 6 666.65) / 120 x
-
-    360].
-    2 = CHF 5 000.00 + (CHF 5000 x 4) / 12
+<!-- Seite 44 -->
+31 Tagen und des Monats Februar). Beginnt oder endet das Arbeitsverhältnis während dem
+Jahr, muss folglich der Bruttolohn für die Bestimmung des Steuersatzes auf 360 Tage umge-
+rechnet werden. Dabei werden nur die periodischen Gehaltsbestandteile auf ein Jahr umge-
+rechnet (vgl. Ziffer 7.3.1 oben). Die aperiodischen Lohnbestandteile sind erst nach der Um-
+rechnung der periodischen Lohnbestandteile zu addieren. Diese Regelung gilt auch für An-
+stellungen im Stunden- bzw. Tageslohn, sofern die Lohnzahlungen auf der Basis eines Mo-
+natslohnes erfolgen (vgl. Ziffer 7.3.3 oben).

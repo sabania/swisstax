@@ -10,20 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
 
-<!-- Seite 4 -->
-2.3   Mitarbeiterbeteiligungen
-Ist das Beteiligungsrecht auf das ehemalige, das aktuelle oder das künftige Arbeitsverhältnis
-mit dem Arbeitgeber zurückzuführen, dann qualifiziert es entweder als echte oder unechte
-Mitarbeiterbeteiligung.
+Häufigste Formen echter Mitarbeiterbeteiligungen sind Mitarbeiteraktien und Mitarbeiteroptio-
+nen.
 
-Wird die Beteiligung dem Mitarbeitenden nicht durch den Arbeitgeber, sondern durch eine
-natürliche Person (z.B. aus dem Eigenbestand eines Aktionärs) abgegeben, handelt es sich
-zwar nicht um eine Mitarbeiterbeteiligung nach Artikel 17a DBG im engeren Sinne. Es recht-
-fertigt sich aber, für die Bemessung des geldwerten Vorteils die Bestimmungen für Mitarbei-
-terbeteiligungen sinngemäss anzuwenden.
+2.3.1.1 Mitarbeiteraktien
+Als Mitarbeiteraktien im Sinne dieses Kreisschreibens gelten Aktien des Arbeitgebers oder
+ihm nahestehender Gesellschaften (vgl. Art. 17a Abs. 1 Bst. a DBG und Art. 1 Abs. 2 Bst. a
+MBV), die dem Mitarbeitenden von seinem Arbeitgeber aufgrund seines Arbeitsverhältnisses
+in der Regel zu Vorzugsbedingungen übertragen werden.
 
-2.3.1 Echte Mitarbeiterbeteiligungen
-Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden im Ergebnis am Eigenkapital
-des Arbeitgebers. Die Beteiligung kann dabei direkt mittels Einräumung von Beteiligungspa-
-pieren erfolgen oder indirekt mittels Einräumung von Optionen oder Anwartschaften zum Be-
-zug von Beteiligungspapieren.
+Andere Beteiligungspapiere, die den Mitarbeitenden direkt am Gesellschaftskapital beteiligen
+– insbesondere Partizipationsscheine oder Genossenschaftsanteile – werden wie Mitarbei-
+teraktien behandelt. Nachfolgend wird der Einfachheit halber ausschliesslich von Mitarbeiter-
+aktien gesprochen.
+
+ 2.3.1.1.1 Freie Mitarbeiteraktien
+Als freie Mitarbeiteraktien gelten Mitarbeiteraktien, über welche ein Mitarbeitender ohne Ein-
+schränkung verfügen kann.

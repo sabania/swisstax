@@ -4,14 +4,15 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 119"
-seiten: "28"
+titel: "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife"
+ziffer: "14.8"
+seiten: "35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.8 · S. 35
 
-Der Elterntarif hat Auswirkungen auf die Berechnung des Maximalbetrages bei der pauscha-
-len Steueranrechnung. Der Steuersatz Bund gemäss Artikel 9 Absatz 1 der Verordnung vom
-22. August 1967 über die pauschale Steueranrechnung (VO) ist nach dem Abzug von 251
-Franken für jedes Kind und jede unterstützungsbedürftige Person zu berechnen (= tatsäch-
-lich erhobene Steuer nach dem Abzug im Verhältnis zum steuerbaren Einkommen Bund).
+14.8.2   Tarife
+   Der Elternteil, der zur Hauptsache für den Unterhalt des Kindes aufkommt, erhält den
+    Elterntarif. Hierbei ist davon auszugehen das dies in der Regel derjenige Elternteil mit
+    dem höheren Einkommen ist.
+   Der andere Elternteil wird zum Grundtarif besteuert.

@@ -5,17 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 81"
-seiten: "19"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 20
 
-8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV)
-Bei der Rückgabe von Mitarbeiteraktien muss die Bescheinigung für diejenige Steuerperiode
-erstellt werden, in welcher der Mitarbeitende die Mitarbeiteraktien entweder überpreislich o-
-der aber unentgeltlich/unterpreislich zurückzugeben hat. Die Bescheinigung muss die Anga-
-ben nach Artikel 12 MBV enthalten.
+<!-- Seite 20 -->
+Mitarbeiter dafür, diesen geldwerten Nachteil in seiner Steuererklärung als Gewinnungskos-
+ten geltend zu machen.
 
-Im Falle einer unterpreislichen Rückgabe darf der Arbeitgeber den geldwerten Nachteil je-
-doch nicht im Sinne eines Minuslohnes in den Lohnausweis einfliessen lassen und mit ande-
-ren steuerbaren Erwerbseinkünften verrechnen. Vielmehr dient diese Bescheinigung dem
+8.1.3 Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien
+    und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV)
+
+8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen
+Für freie, börsenkotierte Mitarbeiteroptionen, die im Zeitpunkt der Abgabe besteuert werden,
+genügt in der Regel eine einzige Bescheinigung. Sie erfolgt für die Steuerperiode, in welcher
+der Mitarbeitende die Mitarbeiteroptionen erwirbt und muss die Angaben nach Artikel 5 MBV
+enthalten.
+
+Eine weitere Bescheinigung wäre nur dann angezeigt, wenn Mitarbeiteroptionen während ih-
+rer Haltedauer inhaltlich zugunsten des Mitarbeitenden abgeändert würden, was beispiels-
+weise bei einem Repricing der Fall ist.

@@ -5,24 +5,36 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 67"
-seiten: "27"
+seiten: "30"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 27
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 30
 
-Gossau   5   2140   1920   1680   1460   1220   –   –   –   –
-Grüningen   5   2090   1940   1790   1620   1480   –   –   –   –
-Hinwil   6   1860   1720   1550   1400   1260   1090   –   –   –
-Rüti   5   1780   1650   1520   1380   1250   –   –   –   –
-Seegräben   4   3010   2670   2330   1980   –   –   –   –   –
-Wald   4   1000   890   780   660   –   –   –   –   –
-Wetzikon   5   2230   2050   1860   1670   1480   –   –   –   –
-Bezirk Horgen
-Adliswil   5   3020   2780   2560   2310   2090   –   –   –   –
-Horgen   7   3660   3300   2950   2590   2240   1880   1530   –   –
-Kilchberg   6   5930   5530   5140   4760   4360   3970   –   –   –
-Langnau am Albis   6   2470   2300   2120   1950   1780   1610   –   –   –
-Oberrieden   6   4640   4340   4030   3720   3420   3110   –   –   –
-Richterswil   6   3530   3280   3030   2800   2550   2320   –   –   –
-Rüschlikon   4   5310   4720   4130   3530   –   –   –   –   –
-Thalwil   6   3740   3470   3190   2920   2630   2340   –   –   –
+<!-- Seite 30 -->
+Landwerte Bauland für Geschäftshäuser sowie industrielle und gewerbliche Bauten
+    Geschäftshäuser   Industrie- und
+    (Ziff. 14)   Gewerbebauten
+    (Ziff. 15 und 49)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 1   LK 2   LK 3   LK 4
+
+Bezirk Affoltern
+Aeugst am Albis   1   440   –   –   –   290   –   –   –
+Affoltern am Albis   1   600   –   –   –   350   –   –   –
+Bonstetten   1   440   –   –   –   290   –   –   –
+Hausen am Albis   1   360   –   –   –   250   –   –   –
+Hedingen   1   440   –   –   –   290   –   –   –
+Kappel am Albis   1   290   –   –   –   140   –   –   –
+Knonau   1   440   –   –   –   290   –   –   –
+Maschwanden   1   290   –   –   –   140   –   –   –
+Mettmenstetten   1   440   –   –   –   290   –   –   –
+Obfelden   1   440   –   –   –   290   –   –   –
+Ottenbach   1   440   –   –   –   290   –   –   –
+Rifferswil   1   360   –   –   –   250   –   –   –
+Stallikon   1   770   –   –   –   480   –   –   –
+Wettswil am Albis   1   480   –   –   –   290   –   –   –
+Bezirk Andelfingen
+Andelfingen   1   440   –   –   –   290   –   –   –
+Benken   1   290   –   –   –   140   –   –   –
+Berg am Irchel   1   290   –   –   –   140   –   –   –
+Buch am Irchel   1   290   –   –   –   140   –   –   –

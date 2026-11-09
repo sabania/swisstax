@@ -10,13 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 19
 
-Die Bescheinigung dient insbesondere dazu, die Berechnungsgrundlagen für die im Lohn-
-ausweis ausgewiesene geldwerte Leistung rechnerisch nachvollziehbar offen zu legen. Ge-
-mäss Artikel 129 Absatz 1 Buchstabe d DBG müssen Arbeitgeber den Veranlagungsbehör-
-den für jede Steuerperiode eine Bescheinigung einreichen, in welcher sie ihren Angestellten
-Mitarbeiterbeteiligungen einräumen. Ferner hat der Arbeitgeber die Bescheinigung dem Mit-
-arbeitenden als Beilage zum Lohnausweis abzugeben bzw. der Quellensteuerabrechnung
-beizulegen (vgl. Art. 10 MBV). Vorbehalten bleiben hiervon abweichende kantonale Regelun-
-gen. Eine direkte Zustellung an die kantonale Steuerbehörde des Wohnsitzkantons des Mit-
-arbeitenden ist aber immer dann notwendig, wenn der geldwerte Vorteil aus Mitarbeiterbetei-
-ligungen nach Beendigung des Arbeitsverhältnisses realisiert wird (vgl. Art. 15 MBV).
+Die Arbeitgeber sind in der Gestaltung der Bescheinigung grundsätzlich frei, soweit diese die
+Minimalanforderungen gemäss der MBV erfüllt. Musterbescheinigungen finden sich im An-
+hang III dieses Kreisschreibens. Die ESTV und die kantonalen Steuerbehörden können zu-
+sätzlich zu den in der MBV vorgeschriebenen Angaben weitere Informationen von den Ar-
+beitgebern verlangen, soweit dies für die vorschriftsgemässe Veranlagung notwendig ist (vgl.
+Art. 17 MBV).
+
+Sofern ein Vorbescheid betreffend die Besteuerung der Mitarbeiterbeteiligungen vorliegt,
+sind auf der Bescheinigung die kantonale Amtsstelle, die den Vorbescheid getroffen hat und
+das Datum der Vereinbarung (Abschlussdatum) zu vermerken.
+
+8.1.2 Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV)
+Bei Mitarbeiteraktien muss die Bescheinigung für die Steuerperiode erstellt werden, in wel-
+cher der Mitarbeitende die Mitarbeiteraktien erwirbt. Sie muss die Angaben nach Artikel 4
+MBV enthalten.

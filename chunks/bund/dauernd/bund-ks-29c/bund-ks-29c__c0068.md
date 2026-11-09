@@ -5,24 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 68"
-seiten: "21"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 22
 
-Reserven, die bei einer Umstrukturierung in die übrigen Reserven einer inländischen Kapital-
-gesellschaft oder Genossenschaft übergehen, sind nach Artikel 5 Absatz 1 Buch-
-stabe a VStG von der Verrechnungssteuer ausgenommen. Dabei wird vorausgesetzt, dass
-das übertragene Verrechnungssteuersubstrat erhalten bleibt.
+<!-- Seite 22 -->
+7.2.   Umwandlung
 
-Die bei einer Fusion den Inhabern der Beteiligungsrechte oder diesen nahestehenden Dritten
-zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und sonsti-
-gen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer,
-sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft oder Ge-
-nossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die Bestim-
-mungen zu Ziff. 5.1.5 hiervor.
+7.2.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
+    Kapitalgesellschaft oder Genossenschaft
 
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-7.1.2. Echte und unechte Fusion verbundener Gesellschaften
+Bei einer Umwandlung erzielen beteiligte Privatpersonen in dem Umfang Beteiligungsertrag,
+als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten
+der übrigen Reserven der umgewandelten Gesellschaft oder Genossenschaft zufliessen.
+Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5.
+hiervor.
+
+b)   Verrechnungssteuer

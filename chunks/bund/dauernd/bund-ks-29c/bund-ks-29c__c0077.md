@@ -10,8 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 25
 
-Offene Kapitaleinlagen, die von Inhabern der Beteiligungsrechte nach dem 31. Dezem-
-ber 1996 geleistet und der ESTV bisher nicht gemeldet wurden, können in der handelsrecht-
-lichen Bilanz auf den gesonderten Positionen (Ziff. 2.1. hiervor) ausgewiesen werden, sofern
-die Nachmeldung der Kapitaleinlagen erfolgt ist und eine Zustimmung der ESTV vorliegt.
-Verluste, die solchen KER bzw. Ausland-KER belastet wurden, vermindern diese definitiv.
+Kapitalgesellschaften und Genossenschaften haben nach Artikel 125 Absatz 3 DBG den Be-
+stand der Reserven aus Aufgeldern und Zuschüssen im Sinne von Artikel 20 Absätze 3 -
+7 DBG am Ende der Steuerperiode oder der Steuerpflicht in der Steuererklärung gesondert
+auszuweisen.
+
+9.3.   Meldung für die Verrechnungssteuer
+
+a) Ordentliches Verfahren
+
+Der Geschäftsbericht oder die unterzeichnete Abschrift der Jahresrechnung ist unter Berück-
+sichtigung des unter Ziffer 9.1. hiervor erläuterten gesonderten Ausweises von KER bzw.
+Ausland-KER der ESTV unaufgefordert innert 30 Tagen nach Genehmigung der Jahresrech-
+nung einzureichen.
+
+Gleiches gilt für das Formular 170, sofern im betreffenden Geschäftsjahr nur Einlagen in die
+KER bzw. Ausland-KER erfolgten.

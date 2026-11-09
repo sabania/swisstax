@@ -10,10 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 5
 
-Gemäss Artikel 5 Absatz 1 Buchstabe b FZG kann bei Aufnahme einer selbständigen Er-
-werbstätigkeit die Barauszahlung der Austrittsleistung verlangt werden. In diesem Falle muss
-das Vorsorgeverhältnis beendet werden und die gesamte Austrittsleitung unterliegt grund-
-sätzlich der Besteuerung. Wird allerdings nur ein Teil der Austrittsleistung für die Aufnahme
-der selbständigen Erwerbstätigkeit benötigt und der restliche Teil der Austrittsleistung auf
-eine Freizügigkeitspolice oder ein Freizügigkeitskonto überwiesen, so unterliegt nur der bar
-ausbezahlte (Teil-)Betrag der Besteuerung.
+<!-- Seite 5 -->
+2.2.5   Auszahlung und Einkauf innert 12 Monaten
+
+In Analogie zu Artikel 24 Buchstabe c DBG sind Kapitalleistungen aus Vorsorge steuerfrei,
+wenn diese innert 12 Monaten seit Bezug zum Einkauf in eine Vorsorgeeinrichtung verwen-
+det werden. Im Gegenzug ist der Einkauf bis zur Höhe des Kapitalbezugs nicht vom steuer-
+baren Einkommen abziehbar.
+
+2.2.6   Aufnahme einer selbständigen Erwerbstätigkeit und Investitionen in
+    den eigenen Betrieb

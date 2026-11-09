@@ -4,20 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 8"
-seiten: "2"
+titel: "Ziff. 2.1.4 Obligationen mit überwiegender Einmalverzinsung (IUP) (Teil 1/2)"
+ziffer: "2.1.4"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.1 Obligationen · S. 4
 
-<!-- Seite 2 -->
-4   Kennzeichnung der Obligationen in der Kursliste der ESTV Mitwirkungs- und
-    Auskunftspflicht der Banken bezüglich der analytischen Ermittlung des
-    steuerbaren Ertrags ............................................................................................. 13
-4.1   Kennzeichnung der Obligationen sowie der kombinierten Produkte mit
-    überwiegender Einmalverzinsung .......................................................................... 13
-4.2   Separate Kennzeichnung der Instrumente, die der modifizierten
-    Differenzbesteuerung unterliegen .......................................................................... 13
-4.3   Nicht an Schweizer Börsen kotierte Papiere........................................................... 13
-5   Spezialfälle und Produkteentwicklungen ........................................................... 13
-6   Inkrafttreten .......................................................................................................... 14
+2.1.4   Obligationen mit überwiegender Einmalverzinsung
+Eine überwiegende Einmalverzinsung der Obligation ist gegeben, wenn der überwiegende
+Teil des gesamten Nutzungsentgeltes im Emissionszeitpunkt bzw. aufgrund der Emissions-
+bedingungen auf dem Emissionsdisagio oder dem Rückzahlungsagio beruht.
+
+Reine Zerobonds sowie in der Regel Geldmarktpapiere sind ausschliesslich einmalverzins-
+lich ausgestaltet und fallen damit ohne weitere Abklärungen unter diese Kategorie von Obli-
+gationen.
+
+Erfolgt die Entschädigung sowohl in Form von periodischen Zinsen als auch in Form einer
+Einmalentschädigung, ist finanzmathematisch zu analysieren, ob die Einmalverzinsung oder
+die periodische Verzinsung überwiegt. Massgebend sind die Verhältnisse im Zeitpunkt der
+Emission. Es sind dabei folgende Faktoren zu berücksichtigen: Emissionspreis, periodisches,
+gleichbleibendes Nutzungsentgelt, Rückzahlungswert und Laufzeit. Details zur Berechnungs-
+methode finden sich im Anhang II (siehe Beispiele Nrn. 1 und 2).

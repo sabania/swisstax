@@ -20,9 +20,3 @@ Inhaltsverzeichnis
 2.2.2.   Erforderliches Ausmass der Beteiligung ......................................................... 3
 2.2.3.   Einkünfte aus Beteiligungen .......................................................................... 3
 2.3.   Umqualifikation von Einkünften aus Beteiligungen in
-    Erwerbseinkommen ................................................................................... 4
-3.   Beschränkung des Schuldzinsenabzugs........................................................ 4
-3.1.   Berechnung des maximal zulässigen Schuldzinsenabzugs ....................... 4
-3.2.   Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen ............. 5
-3.3.   Kosten ohne Schuldzinsencharakter.......................................................... 5
-4.   Inkrafttreten ...................................................................................................... 6

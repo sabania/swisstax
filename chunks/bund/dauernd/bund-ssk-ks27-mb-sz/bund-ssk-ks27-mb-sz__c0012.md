@@ -10,9 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 3
 
-Die bei Vorliegen interkantonaler Verhältnisse geänderte bundesgerichtliche Rechtsprechung und
-die geänderte schwyzerische Gesetzesgrundlage führen dazu, dass bei der Einkommens- resp. Ge-
-winnsteuer erzielte Verluste mit Grundstückgewinnen des gleichen Jahres verrechnet werden kön-
-nen, unabhängig davon, ob es sich um natürliche oder juristische Personen mit inner- oder ausser-
-kantonalem Sitz oder Wohnsitz handelt und ob ihnen steuerlich die Qualifikation einer gewerbs-
-mässigen Liegenschaftenhändlerin, Betriebs- oder Kapitalgesellschaft zukommt.
+4.   Verlustverrechnung im Kanton Schwyz
+
+4.1   Rechtsprechung / Grundlage
+
+Bei der Verlustverrechnung ist bei Vorliegen von interkantonalen Verhältnissen die vom Bundesge-
+richt in Konkretisierung des verfassungsmässigen Doppelbesteuerungsverbots entwickelte Recht-
+sprechung direkt anwendbar. Die entsprechende Rechtsprechung ist in den letzten Jahren stark in
+Bewegung geraten und beschränkt sich insbesondere nicht mehr nur auf den Liegenschaftenhänd-
+ler. Gemäss dem per 1.1.2010 geänderten § 119 Abs. 4 StG bleiben die weiter gehenden Ver-
+lustverrechnungsmöglichkeiten nach interkantonalem Recht vorbehalten und gelten auch innerkan-
+tonal; mit dieser Anpassung werden nicht mehr nur inner- und ausserkantonale Liegenschaften-
+händler gleichgestellt, sondern generell alle steuerpflichtigen Personen.
+
+4.2 Veranlagungspraxis für Veräusserungen ab 1.01.2010

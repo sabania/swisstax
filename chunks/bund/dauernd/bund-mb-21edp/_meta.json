@@ -66,7 +66,7 @@
 "titel": "MB 21 EDP – Abschnitt 5",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -130,7 +130,7 @@
 "titel": "MB 21 EDP – Abschnitt 9",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -178,7 +178,7 @@
 "titel": "MB 21 EDP – Abschnitt 12",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "MB 21 EDP – Abschnitt 13",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -242,7 +242,7 @@
 "titel": "MB 21 EDP – Abschnitt 16",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -258,7 +258,7 @@
 "titel": "MB 21 EDP – Abschnitt 17",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -306,38 +306,6 @@
 "titel": "MB 21 EDP – Abschnitt 20",
 "pfad": [],
 "seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-21edp__c0019",
-"nachher": "bund-mb-21edp__c0021"
-},
-{
-"id": "bund-mb-21edp__c0021",
-"titel": "MB 21 EDP – Abschnitt 21",
-"pfad": [],
-"seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-21edp__c0020",
-"nachher": "bund-mb-21edp__c0022"
-},
-{
-"id": "bund-mb-21edp__c0022",
-"titel": "MB 21 EDP – Abschnitt 22",
-"pfad": [],
-"seiten": [
 6
 ],
 "artikel": null,
@@ -346,7 +314,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-mb-21edp__c0021",
+"vorher": "bund-mb-21edp__c0019",
 "nachher": null
 }
 ]

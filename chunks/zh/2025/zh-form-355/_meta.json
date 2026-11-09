@@ -1,0 +1,58 @@
+[
+{
+"id": "zh-form-355__c0001",
+"titel": "Schuldenverzeichnis Form. 355 – Privatschulden und Schuldzinsen (Codes 3200/3201) (Teil 1/2)",
+"pfad": [
+"Schuldenverzeichnis"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "3200/3201",
+"stichworte": [
+"Schuldenverzeichnis",
+"Privatschulden",
+"Hypothek",
+"Schuldzinsen",
+"Grundpfandschulden",
+"Gläubiger"
+],
+"positionen": [
+"schulden.privat",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Privatschulden inkl. Grundpfandschulden per 31. Dezember und Schuldzinsen; Total Schulden zu Seite 4 Ziffer 34, Schuldzinsen zu Seite 3 Ziffer 12 der Steuererklärung.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "zh-form-355__c0002"
+},
+{
+"id": "zh-form-355__c0002",
+"titel": "Schuldenverzeichnis Form. 355 – Privatschulden und Schuldzinsen (Codes 3200/3201) (Teil 2/2)",
+"pfad": [
+"Schuldenverzeichnis"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "3200/3201",
+"stichworte": [
+"Schuldenverzeichnis",
+"Privatschulden",
+"Hypothek",
+"Schuldzinsen",
+"Grundpfandschulden",
+"Gläubiger"
+],
+"positionen": [
+"schulden.privat",
+"abzug.schuldzinsen"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-355__c0001",
+"nachher": null
+}
+]

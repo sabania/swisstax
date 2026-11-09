@@ -5,30 +5,32 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 93"
-seiten: "24"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
 
-    6. Zwei Arbeitsverhältnisse beim gleichen Schuldner der steuerbaren Leistung in der Schweiz:
-    Der Arbeitnehmer S. ist bei der A. AG, Aarau, zu 80 % als Sachbearbeiter und zu 20 % als Hauswart an-
-    gestellt. Das satzbestimmende Einkommen wird durch Addition der beiden Bruttolöhne ermittelt. S. erzielt
-    folgende Lohneinkommen:
-
-    Tätigkeiten   Pensum   Bruttolohn   satzbestimmend
-
-    Sachbearbeiter   80 %   4 400   5 300
-
-    Hauswart   20 %   900   5 300
-
-    7. Ein Arbeitsverhältnis in der Schweiz und ein Arbeitsverhältnis im Ausland (Gesamtpensum 70 %):
-    Der Arbeitnehmer Z. ist bei der R. AG, Bern (= Arbeitsort), und bei der H. AG, Stuttgart (= Arbeitsort), an-
-    gestellt. Das Arbeitspensum beim ausländischen Arbeitgeber ist der R. AG, Bern, bekannt. Z. erzielt fol-
-    gende Lohneinkommen:
+    Beispiele:
+    1. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 100 %):
+    Arbeitnehmer Z. ist bei der F. AG, Bern, und bei der K. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen:
 
     Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
 
-    R. AG (CH)   50 %   4 500   6 300
+    F. AG (CH)   50 %   4 500   9 000
 
-    H. AG (D) 1   20 %   n.a.   n.a.
-    1 Steuerpflichtig in Deutschland
+    K. AG (CH)   50 %   4 000   8 000
+
+    2. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
+    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen (beiden Arbeitgebern ist das jeweils andere Pensum nicht bekannt):
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    M. AG (CH)   50 %   4 500   9 000
+
+    T. AG (CH)   40 %   4 400   11 000
+
+    3. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
+    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
+    kommen (beiden Arbeitgebern ist das jeweils andere Pensum bekannt):

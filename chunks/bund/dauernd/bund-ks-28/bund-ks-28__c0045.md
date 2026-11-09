@@ -10,21 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 15
 
-1.1   Vorschlag des Bundesrates
-Die Botschaft zur Unternehmenssteuerreform II sah in Artikel 37b DBG vor (dannzumal noch
-Artikel 37a DBG 2 ), dass bei definitiver Aufgabe der selbständigen Erwerbstätigkeit nach dem
-vollendeten 55. Altersjahr oder infolge Invalidität die in den letzten zwei Geschäftsjahren rea-
-lisierten stillen Reserven zwar zusammen mit dem übrigen Einkommen besteuert werden
-sollen, für die Satzbestimmung jedoch jeweils ein Achtel der realisierten stillen Reserven
-massgebend sein sollte. Durch den Einbezug der realisierten stillen Reserven der letzten
-zwei Geschäftsjahre statuierte Artikel 37a Absatz 1 DBG einen gesetzlichen Revisionsgrund.
-Von der Abrechnung nach dem milderen Satz ausgeschlossen waren jedoch die auf Grund
-des Besteuerungsaufschubs (Artikel 18a Absatz 1 DBG) steuerlich noch nicht erfassten stil-
-len Reserven. Die Besteuerung des Liquidationsgewinns nach dem milderen Satz sollte ge-
-mäss Absatz 2 auch für die Nachkommen, den überlebenden Ehegatten und die Vermächt-
-nisnehmer gelten, sofern diese das von der steuerpflichtigen Person geführte Unternehmen
-nicht fortführen. Wird das Unternehmen nicht fortgeführt und nicht binnen der fünf dem Tode
-des Unternehmers folgenden Kalenderjahre liquidiert, sollte eine steuersystematische Ab-
-rechnung über die stillen Reserven zum Vorzugssteuersatz erfolgen. Identische Bestimmun-
-gen waren in Artikel 11 Absatz 4 StHG zu finden. Das Ausmass der Steuermilderung sollte
-jedoch durch das kantonale Recht bestimmt werden.
+<!-- Seite 15 -->
+1.   Einleitung
+Die eidgenössischen Räte haben am 23. März 2007 das Unternehmenssteuerreformgesetz II
+beschlossen. Es ändert als Mantelerlass das Bundesgesetz über die Stempelabgaben vom
+27. Juni 1973 (StG; SR 641.10), das Bundesgesetz über die direkte Bundessteuer vom
+14. Dezember 1990 (DBG; SR 642.11), das Bundesgesetz über die Harmonisierung der di-
+rekten Steuern der Kantone und Gemeinden vom 14. Dezember 1990 (StHG; SR 642.14)
+und das Bundesgesetz über die Verrechnungssteuer vom 13. Oktober 1965 (VStG; SR
+642.21). Nachdem gegen diesen Beschluss das Referendum zu Stande kam, wurde das
+Bundesgesetz am 24. Februar 2008 vom Volk angenommen.

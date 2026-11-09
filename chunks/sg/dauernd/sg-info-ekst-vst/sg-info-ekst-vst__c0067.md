@@ -4,11 +4,26 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen"
+titel: "Kurslisten"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Kurslisten
 
-### Steuerfuss-Übersicht aller Gemeinden im Kanton St.Gallen
+## Kurslisten
 
-- [Klicken Sie hier für die Suche nach Gemeinden und Steuerjahren](https://www.sg.ch/steuern-finanzen/steuern/steuerkalkulator/steuerfuss-uebersicht-aller-sg-gemeinden.html "Interner Link: Steuerfuss-Übersicht aller SG-Gemeinden")
+Die Eidgenössische Steuerverwaltung (EStV) legt die für die Steuererhebung geltenden Kurse fest, die für die Bewertung der Wertpapiere und Devisen per Ende der Steuerperiode massgebend sind.
+
+Die vollständigen Kurslisten der EStV können auf deren Homepage online unter folgendem Link abgefragt werden:
+
+- [Kurslisten der EStV neues Fenster](https://www.ictax.admin.ch/extern/de.html#/ratelist "Externer Link: Es öffnet sich ein neues Fenster: https://www.ictax.admin.ch/extern/de.html#/ratelist")
+
+**Dies sind zum Beispiel Kurslisten für:**
+
+- in der Schweiz kotierte in- und ausländische Wertpapiere
+- Vor- oder ausserbörslich gehandelte Wertpapiere
+- Anlagefonds (in- und ausländische)
+- Derrivate
+- Optionen
+- Devisen - Banknoten
+- Devisen - Jahresmittelkurse in der Schweiz
+- Goldmünzen und Edelmetalle

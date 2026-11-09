@@ -10,4 +10,7 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · MB N1/2007 · S. 1
 
-  Wurstwaren........... 	 500.–	 125.–	 250.–	 375.–
+gungsmittel geführt, so sind die Ansätze für Lebensmittelgeschäfte   * Massgebend ist das Alter der Kinder zu Beginn jedes Geschäftsjahres.
+(Buchstabe b hiervor) anzuwenden.   Bei Familien mit mehr als 3 Kindern sind vom Totalwert der
+Für Käsereien und Sennereien ohne Verkaufsladen gelten in der   Kinderansätze abzuziehen: bei 4 Kindern 10 %, bei 5 Kindern 20%,
+Regel die Hälfte der vorstehenden Ansätze.   bei 6 und mehr Kindern 30%.

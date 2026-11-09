@@ -5,21 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 46"
-seiten: "10"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 11
 
-5.6   Einanlegerfonds
-Einanlegerfonds sind für direktsteuerliche Zwecke zulässig, wenn der Anleger ausschliess-
-lich eine öffentlich-rechtliche Körperschaft, eine Vorsorgeeinrichtung mit professioneller Tre-
-sorerie oder eine beaufsichtigte Versicherungseinrichtung ist (Art. 7 Abs. 3 KAG i.V.m. Art.
-10 Abs. 3 KAG und Art. 5 Abs. 4 KKV).
-
-In allen anderen Fällen sind für die steuerliche Anerkennung einer kollektiven Kapitalanlage
-mindestens zwei voneinander unabhängige Anlegerinnen und Anleger erforderlich (vgl. Ziff.
-2 hiervor).
-
-6   Inkrafttreten
-Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft und ersetzt das Kreis-
-schreiben Nr. 25 vom 5. März 2009.
+mit variablem Kapital (SICAV). Diese kollektiven Kapitalanlagen können als Effektenfonds,
+Immobilienfonds oder übrige Fonds für traditionelle oder alternative Anlagen ausgestaltet
+werden. Ihre Anlegerinnen und Anleger haben zu Lasten des Kollektivvermögens unmittelbar
+oder mittelbar einen Rechtsanspruch auf Rückgabe ihrer Anteile zum Nettoinventarwert (vgl.
+Art. 8 KAG).
+Geschlossene kollektive Kapitalanlagen: Kommanditgesellschaft für kollektive Kapitalan-
+lagen (KmGK) und die Investmentgesellschaft mit fixem Kapital (SICAF). Ihre Anlegerinnen
+und Anleger haben zu Lasten des Kollektivvermögens weder unmittelbar noch mittelbar ei-
+nen Rechtsanspruch auf Rückgabe ihrer Anteile zum Nettoinventarvermögen (vgl. Art. 9
+KAG).
+Effektenfonds: Offene kollektive Kapitalanlagen, die ihre Mittel in Effekten anlegen (vgl.
+Art. 53 KAG).
+Gemischte kollektive Kapitalanlagen: Vertraglicher Anlagefonds, SICAV oder KmGK, bei
+welchen die jährliche Festsetzung der Ausschüttungs- bzw. Thesaurierungsquote im Ermes-

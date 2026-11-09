@@ -10,14 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
 
-schliesslich öffentliche Verkehrsmittel benützt hätte, dies nun aber behinderungsbedingt nicht
-tun kann. In diesem Fall sind die im Vergleich zur Benützung öffentlicher Verkehrsmittel entste
-henden Mehrkosten der Benutzung eines Motorfahrzeugs abzugsfähig (vgl. StRK ZH vom
-18. Juni 2003 [Zürcher Steuerpraxis ZStP 2004, 213 f.]).
-Mehrkosten für Taxifahrten sind nur abzugsfähig, wenn mit ärztlicher Bescheinigung belegt ist,
-dass die Benützung öffentlicher Verkehrsmittel, eines Fahrdienstes für Personen mit Behinde
-rung oder eines privaten Motorfahrzeuges nicht möglich oder nicht zumutbar ist.
-Kosten der Fahrt zum Arbeitsplatz sind nur in dem Umfang als behinderungsbedingte Kosten
-abzugsfähig, in welchem sie den Gewinnungskostenabzug übersteigen (vgl. bspw. Urteil der
-damaligen Steuerrekurskommission des Kantons Zürich vom 18. Juni 2003 [Zürcher Steuerpra
-xis ZStP 2004, 214]). Vermag eine Person mit Behinderung glaubhaft zu machen, dass sie be
+4.3.5   Kosten für heilpädagogische Therapien und Sozialrehabilitationsmassnahmen
+Die Kosten anerkannter heilpädagogischer Therapien (z.B. heilpädagogisches Reiten, Musik
+therapie) und von Sozialrehabilitationsmassnahmen für Personen mit Hör- und Sehbehinderung
+durch speziell ausgebildetes Personal (z.B. Erlernen der Blindenschrift, Low Vision-Training für
+Personen mit Sehbehinderung, Ableseunterricht für Personen mit Hörbehinderung) sind ab
+zugsfähig. Bestehen Zweifel über die Zweckmässigkeit der Massnahme, kann eine ärztliche Be
+stätigung verlangt werden.

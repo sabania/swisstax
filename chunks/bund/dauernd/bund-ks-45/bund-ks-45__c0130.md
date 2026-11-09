@@ -5,21 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 130"
-seiten: "34"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
 
-<!-- Seite 34 -->
-6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden
-Auf Ersatzeinkünften (Taggelder), welche von der Versicherung an den Arbeitgeber ausbe-
-zahlt werden, sind von der Versicherung keine Quellensteuern abzurechnen. Der Arbeitge-
-ber nimmt den Quellensteuerabzug auf der von ihm geschuldeten Bruttoentschädigung an
-den Arbeitnehmer vor und wendet darauf den massgebenden Tarifcode bzw. Steuersatz an.
-
-    Beispiel:
-    - Der Arbeitgeber schuldet dem ledigen Arbeitnehmer T. im März 2021 einen Bruttomonatslohn von
-    CHF 4 500.00 sowie ein Unfalltaggeld (Ersatzeinkunft) über CHF 1 000.00, welches die Versicherung an
-    den Arbeitgeber überweist.
-    Die gesamte Entschädigung über CHF 5 500 ist an der Quelle zu besteuern. Es ist der ordentliche Ta-
-    rifcode (A0) anzuwenden.
+    sind, berücksichtigt sie für die Festlegung des satzbestimmenden Einkommens den letzten von ihr ausbe-
+    zahlten Bruttolohn. Da Y. im Jahr 2021 (Verdienstperiode) während 66 von insgesamt 220 Arbeitstagen
+    (20 Arbeitstage pro Monat von Januar bis November) im Ausland tätig war, unterliegt der Bonus nur im
+    Umfang von CHF 10 500.00 (CHF 15 000.00 / 220 x 154) zum Satz von CHF 23 000.00 (letzter Monats-
+    lohn CHF 8 000.00 + Bonus CHF 15 000.00) in der Schweiz der Quellensteuer.

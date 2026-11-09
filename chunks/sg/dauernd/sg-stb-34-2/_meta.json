@@ -1,240 +1,255 @@
 [
 {
 "id": "sg-stb-34-2__c0001",
-"titel": "StB 34 Nr. 2 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Ziff. 1–2.1 Gegenstand und Vermögenssteuer – Steuerwert (Teil 1/2)",
+"pfad": [
+"1 Gegenstand",
+"2 Vermögenssteuer",
+"2.1 Steuerwert"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "1, 2.1",
+"stichworte": [
+"Miteigentum",
+"Liegenschaft Miteigentum",
+"Steuerwert Anteil",
+"Nutzniessung",
+"Wohnrecht",
+"Grundbuch Quote"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Jeder Miteigentümer versteuert seinen Anteil nach der sachenrechtlichen Quote im Grundbuch (bei hälftigem Miteigentum die Hälfte des Verkehrs- oder Ertragswertes); bei Nutzniessung der Nutzniesser, Wohnrecht gemäss BGer 9C_305/2023 beim Eigentümer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-stb-34-2__c0002"
 },
 {
 "id": "sg-stb-34-2__c0002",
-"titel": "StB 34 Nr. 2 – Abschnitt 2",
-"pfad": [],
+"titel": "Ziff. 1–2.1 Gegenstand und Vermögenssteuer – Steuerwert (Teil 2/2)",
+"pfad": [
+"1 Gegenstand",
+"2 Vermögenssteuer",
+"2.1 Steuerwert"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "1, 2.1",
+"stichworte": [
+"Miteigentum",
+"Liegenschaft Miteigentum",
+"Steuerwert Anteil",
+"Nutzniessung",
+"Wohnrecht",
+"Grundbuch Quote"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0001",
 "nachher": "sg-stb-34-2__c0003"
 },
 {
 "id": "sg-stb-34-2__c0003",
-"titel": "StB 34 Nr. 2 – Abschnitt 3",
-"pfad": [],
+"titel": "Ziff. 2.2 Hypothekarschulden bei Miteigentum – Schuldenabzug",
+"pfad": [
+"2 Vermögenssteuer",
+"2.2 Hypothekarschulden"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Hypothek Miteigentum",
+"Solidarschuld",
+"Schuldenabzug",
+"Hypothekarschuld",
+"interne Quote",
+"Art. 62 StG"
+],
+"positionen": [
+"schulden.privat"
+],
+"zusammenfassung": "Haftet ein Miteigentümer allein, kann er die ganze Hypothekarschuld abziehen; bei Solidarhaftung jeder den nach interner Quote tragenden Anteil, bei hälftigem Miteigentum je die Hälfte (Art. 62 StG).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0002",
 "nachher": "sg-stb-34-2__c0004"
 },
 {
 "id": "sg-stb-34-2__c0004",
-"titel": "StB 34 Nr. 2 – Abschnitt 4",
-"pfad": [],
+"titel": "Ziff. 2.2 Solidarschuldner ohne Eigentum, anwartschaftliche Schulden, Bürgschaft",
+"pfad": [
+"2 Vermögenssteuer",
+"2.2 Hypothekarschulden"
+],
 "seiten": [
-1
+1,
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "2.2",
+"stichworte": [
+"Solidarschuldner",
+"Darlehen Schenkung",
+"Bürgschaft",
+"anwartschaftliche Schulden"
+],
+"positionen": [
+"schulden.privat"
+],
+"zusammenfassung": "Solidarschuldner ohne Eigentum sind abzugsberechtigt, wenn intern eine Übernahme besteht und ein Darlehen oder eine Schenkung ausgewiesen ist; bloss voraussehbare Schulden sind nicht abzugsfähig.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0003",
 "nachher": "sg-stb-34-2__c0005"
 },
 {
 "id": "sg-stb-34-2__c0005",
-"titel": "StB 34 Nr. 2 – Abschnitt 5",
-"pfad": [],
+"titel": "Ziff. 3.1 Eigenmietwert und Ertrag aus Fremdnutzung bei Miteigentum",
+"pfad": [
+"3 Einkommenssteuer",
+"3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Eigenmietwert",
+"Miteigentum",
+"Mietertrag",
+"Unentgeltliche Überlassung",
+"Eheschutz",
+"Scheidung"
+],
+"positionen": [
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Der Eigenmietwert ist von den Miteigentümern im Umfang ihres Anteils zu versteuern, auch bei unentgeltlicher Überlassung an Familienmitglieder.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0004",
 "nachher": "sg-stb-34-2__c0006"
 },
 {
 "id": "sg-stb-34-2__c0006",
-"titel": "StB 34 Nr. 2 – Abschnitt 6",
-"pfad": [],
+"titel": "Ziff. 3.1 Herabsetzung Eigenmietwert um 30 Prozent, Nutzniessung, Gebrauchsleihe",
+"pfad": [
+"3 Einkommenssteuer",
+"3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Herabsetzung 30 Prozent",
+"Art. 34 Abs. 3 StG",
+"Nutzniessung",
+"Wohnrecht",
+"Gebrauchsleihe",
+"Marktmietwert"
+],
+"positionen": [
+"sozialabzug.eigenmietwert",
+"einkommen.liegenschaften.eigenmietwert"
+],
+"zusammenfassung": "Der Mietwert des dauernd selbst bewohnten Eigenheims wird um 30 Prozent herabgesetzt (Art. 34 Abs. 3 StG), auch anteilig für Miteigentümer.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0005",
 "nachher": "sg-stb-34-2__c0007"
 },
 {
 "id": "sg-stb-34-2__c0007",
-"titel": "StB 34 Nr. 2 – Abschnitt 7",
-"pfad": [],
+"titel": "Ziff. 3.1 Vorzugsmieten an nahestehende Personen – Aufhebung per 1. Januar 2024",
+"pfad": [
+"3 Einkommenssteuer",
+"3.1 Eigenmietwert / Ertrag aus Fremdnutzung"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.1",
+"stichworte": [
+"Vorzugsmiete",
+"Mietzins unter Marktmiete",
+"nahestehende Person",
+"50 Prozent Marktmietwert",
+"Steuerumgehung"
+],
+"positionen": [
+"einkommen.liegenschaften.mietertrag"
+],
+"zusammenfassung": "Seit 1. Januar 2024 wird die Differenz zum Marktmietwert nur noch aufgerechnet, wenn der Mietzins weniger als die Hälfte des Marktmietwertes beträgt.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0006",
 "nachher": "sg-stb-34-2__c0008"
 },
 {
 "id": "sg-stb-34-2__c0008",
-"titel": "StB 34 Nr. 2 – Abschnitt 8",
-"pfad": [],
+"titel": "Ziff. 3.2 Liegenschaftsunterhalt bei Miteigentum – Pauschale 20 %",
+"pfad": [
+"3 Einkommenssteuer",
+"3.2 Liegenschaftsunterhalt"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.2",
+"stichworte": [
+"Liegenschaftsunterhalt",
+"Unterhaltskosten Miteigentum",
+"Pauschalabzug 20 Prozent",
+"Gewinnungskosten",
+"Darlehen"
+],
+"positionen": [
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Unterhaltskosten sind nur im Umfang des Eigentumsanteils abziehbar; der Pauschalabzug beträgt 20% des Bruttomietertrages ohne Nebenkosten oder des angerechneten Eigenmietwerts.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0007",
 "nachher": "sg-stb-34-2__c0009"
 },
 {
 "id": "sg-stb-34-2__c0009",
-"titel": "StB 34 Nr. 2 – Abschnitt 9",
-"pfad": [],
+"titel": "Ziff. 3.3 Schuldzinsen bei gemeinsamer Schuld (Solidarschuld)",
+"pfad": [
+"3 Einkommenssteuer",
+"3.3 Schuldzinsen"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "3.3",
+"stichworte": [
+"Schuldzinsen",
+"Hypothekarzins",
+"Solidarschuld",
+"Lastenverteilung",
+"Darlehen Miteigentümer"
+],
+"positionen": [
+"abzug.schuldzinsen"
+],
+"zusammenfassung": "Jeder Schuldner zieht die Schuldzinsen auf den nach interner Quote getragenen Anteil ab, sofern die Lastenverteilung klar nachgewiesen ist und keine Missbrauchsabsicht besteht.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-stb-34-2__c0008",
-"nachher": "sg-stb-34-2__c0010"
-},
-{
-"id": "sg-stb-34-2__c0010",
-"titel": "StB 34 Nr. 2 – Abschnitt 10",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0009",
-"nachher": "sg-stb-34-2__c0011"
-},
-{
-"id": "sg-stb-34-2__c0011",
-"titel": "StB 34 Nr. 2 – Abschnitt 11",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0010",
-"nachher": "sg-stb-34-2__c0012"
-},
-{
-"id": "sg-stb-34-2__c0012",
-"titel": "StB 34 Nr. 2 – Abschnitt 12",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0011",
-"nachher": "sg-stb-34-2__c0013"
-},
-{
-"id": "sg-stb-34-2__c0013",
-"titel": "StB 34 Nr. 2 – Abschnitt 13",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0012",
-"nachher": "sg-stb-34-2__c0014"
-},
-{
-"id": "sg-stb-34-2__c0014",
-"titel": "StB 34 Nr. 2 – Abschnitt 14",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0013",
-"nachher": "sg-stb-34-2__c0015"
-},
-{
-"id": "sg-stb-34-2__c0015",
-"titel": "StB 34 Nr. 2 – Abschnitt 15",
-"pfad": [],
-"seiten": [
-3
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-34-2__c0014",
 "nachher": null
 }
 ]

@@ -5,16 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 197"
-seiten: "54"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 54
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
 
-<!-- Seite 54 -->
-7.5.6 Kapitalleistungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
-Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalleistungen für wiederkehrende
-Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
-Monate), sind diese im Zeitpunkt der Auszahlung quellensteuerpflichtig und zwar zusammen
-mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz ergibt sich
-dabei aus der Summe der Kapitalleistung für wiederkehrende Leistungen, dem Jahresbrutto-
-lohn und den weiteren periodischen Jahresbruttoleistungen für das laufende Jahr.
+<!-- Seite 52 -->
+Quellenbesteuerung hat dabei auf einem reduzierten Bruttolohn (unter Progressionsvorbe-
+halt) zu erfolgen, sofern die Arbeit ohne die Freistellung mutmasslich im Ausland geleistet
+worden wäre. Wäre die Arbeit mutmasslich als Grenzgänger im Sinne von Artikel 15a des
+DBA mit Deutschland geleistet worden sind die entsprechenden Tarife anwendbar.
+Es steht dem (ehemaligen) Arbeitnehmer offen, bis am 31. März des auf die Fälligkeit der
+Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
+lich ordentliche Veranlagung zu verlangen (vgl. Ziffer 11 unten).
+
+    Beendigung des Arbeitsverhältnisses und Zahlung eines Bonus:
+    1. Ein lediger Steuerpflichtiger beendet seine Erwerbstätigkeit am 31. August 2022. Er erhält einen Brutto-
+    lohn von CHF 5 000.00 pro Monat (sowie einen 13. Monatslohn). Im August des Jahres 2022 zahlt im der
+    Arbeitgeber einen Bonus in der Höhe von CHF 20 000.00 für die im Jahr 2021 geleistete Arbeit.

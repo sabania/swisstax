@@ -4,20 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 80"
-seiten: "19"
+titel: "Anhang III Ziff. 4c Termingeschäfte mit Zinsen als Basiswert"
+ziffer: "Anh. III 4c"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 23
 
-(Art. 16 Abs. 3 DBG). Allfällige Ausgleichszahlungen stellen steuerbaren Vermögensertrag
-gemäss Artikel 20 Absatz 1 Buchstabe a DBG dar, dies ungeachtet dessen, ob es sich bei
-den Ausschüttungen der zugrundeliegenden Aktien um normale Dividenden, Nennwertrück-
-zahlungen oder Rückzahlungen von Reserven aus Kapitaleinlagen handelt. Bei periodischen
-Zahlungen werden sie nach dem allgemeinen Fälligkeitsprinzip erfasst. Bei Ausgleichszah-
-lungen in Form eines Diskonts bei der Emission oder eines Agios bei der Rückzahlung er-
-folgt die Besteuerung immer im Zeitpunkt der Rückzahlung. Bei Zertifikaten ohne feste Lauf-
-zeit erfolgt die Besteuerung bei Wiederanlage der Erträge, somit i.d.R. jährlich. Bei Zertifika-
-ten auf Performance-Indizes oder -baskets (Total Return) entspricht die Dividendenrendite
-des Basiswertes dem steuerbaren Vermögensertrag und gilt steuerlich am 31.12. als Wieder-
-anlage.
+c)   Termingeschäfte mit Zinsen als Basiswert
+Unterjährige Laufzeit: Bei Produkten ohne garantierte Zahlungen und mit Laufzeiten von
+nicht mehr als zwölf Monaten gelten die erzielten Gewinne und Verluste (wie bei den übrigen
+derivativen Finanzinstrumenten) – auf Zusehen hin – als steuerfrei. Bei Vorausfinanzierungs-
+graden, die höher als 25% sind, wird die Zinskomponente besteuert. Als Bemessungsgrund-
+lage gilt der Emissionspreis. Die steuerbare Zinskomponente wird aufgrund der Währung
+und Laufzeit des Produktes mittels entsprechender Libor-Rate ermittelt, gegebenenfalls unter
+Berücksichtigung eines schuldnerspezifischen Risikozuschlags.
+
+Überjährige Laufzeit: Bei Produkten mit Laufzeiten von mehr als zwölf Monaten unterliegt die
+Zinskomponente unabhängig vom Vorausfinanzierungsgrad der Besteuerung. Als Bemes-
+sungsgrundlage gilt der Emissionspreis. Die steuerbare Zinskomponente wird aufgrund der
+Währung und Laufzeit des Produktes mittels entsprechender Swap-Rate ermittelt, gegebe-
+nenfalls unter Berücksichtigung eines schuldnerspezifischen Risikozuschlags. Sekundär-
+markttransaktionen unterliegen grundsätzlich der Umsatzabgabe (Art. 13 Abs. 2 Bst. c StG).

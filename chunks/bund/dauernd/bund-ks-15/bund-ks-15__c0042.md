@@ -4,19 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 42"
-seiten: "9"
+titel: "Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten"
+ziffer: "3.7"
+seiten: "12-13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.7 Negativzinsen · S. 12–13
 
-Als transparent gilt ein Produkt, wenn alternativ
-    a) bei Emission die dem Instrument zugrundeliegenden Komponenten (Obligation und
-    derivative Finanzinstrumente) trennbar sind und tatsächlich separat gehandelt werden
-    (vgl. Ziffer 2.3.1. hievor);
-    b) der Emittent des Produkts die verschiedenen Komponenten im „Termsheet“ wertmäs-
-    sig mittels finanzmathematischer Berechnung separat darstellt und die Überprüfung
-    dieser Berechnung durch die ESTV die Richtigkeit dieser Darstellung ergeben hat;
-    oder
-    c) die verschiedenen Komponenten des Produkts von der ESTV nachträglich analytisch
-    nachvollzogen und in ihrem Wert berechnet werden können.
+Negativzinsen auf Guthaben im Privatvermögen (verursacht durch die negative Verzinsung
+von Einlagen bei der Schweizerischen Nationalbank) können jedoch gestützt auf Artikel 32
+Absatz1 DBG als Gewinnungskosten zum Abzug gebracht werden. Unter den erwähnten
+Guthaben im Privatvermögen sind Einlagen bei Banken oder Sparkassen zu verstehen
+(Spar-, Einlage-, Depositen- und Kontokorrentguthaben, Lohnkonten sowie Festgelder und
+Callgelder). Bei diesen Guthaben ist der Ausweis von Negativzinsen ohne Weiteres möglich,
+da Höhe, Periode und somit der Betrag des Negativzinses zweifelsfrei feststehen. Dies ist im
+Falle von handelbaren Forderungspapieren (irrelevant, ob IUP oder nicht IUP) nicht möglich,
+
+
+1-015-DVS-2017-d
+
+da die Kursbildung dieser Titel von verschiedenen Einflussfaktoren bestimmt wird und die ge-
+naue Zuordnung des Anteils der zu belastenden Negativzinsen für die individuelle Halte-
+dauer nicht möglich ist.

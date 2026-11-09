@@ -10,11 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 1
 
-    Arbeitsverhältnis ......................................................................................................... 10
-3.2.3 Vom Arbeitgeber übernommene Leistungsverpflichtungen des Arbeitnehmers .......... 11
-3.2.4 Entschädigung für Berufskosten ................................................................................. 12
-3.2.5 Spesenzahlungen ....................................................................................................... 13
-3.2.6 Geschäftsfahrzeuge.................................................................................................... 13
-3.2.7 Naturalleistungen ........................................................................................................ 13
-3.2.8 Abgangsentschädigungen .......................................................................................... 13
-3.2.9 Beim Personalverleih bzw. bei einer faktischen Arbeitgeberschaft .............................. 13
+4   Grundsätze zur Tarifanwendung ............................................................................. 15
+4.1   Allgemeines .............................................................................................................. 15
+4.2   Einverdiener- und Zweiverdienertarif bei Verheirateten (Tarifcodes B und C bzw.
+    M und N) .................................................................................................................... 15
+4.3   Tarif für Alleinerziehende (Tarifcodes H bzw. P) .................................................... 16
+4.4   Vereinfachtes Abrechnungsverfahren (Tarifcode E) .............................................. 16
+4.5   Tarif für Grenzgänger aus Italien (Tarifcode F)....................................................... 16
+4.6   Tarife für Grenzgänger aus Deutschland (Tarifcodes L, M, N und P).................... 16

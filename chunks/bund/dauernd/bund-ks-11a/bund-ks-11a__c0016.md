@@ -5,12 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 11a – Abschnitt 16"
-seiten: "5"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 11a · S. 4
 
-<!-- Seite 5 -->
-derzeit CHF 21.50 pro Tag für eine erwachsene Person). Nicht als Krankheitskosten anerkannt
-werden grundsätzlich die Transportkosten (vgl. Ziff. 3.2.9) sowie eigentliche Luxusausgaben im
-Bereich der Hotellerie.
+3.2.2   Kosten für Heilbehandlungen
+Die Kosten besonderer Heilbehandlungen wie beispielsweise Massagen, Bestrahlungen, Heil
+bäder, Physio-therapie, Ergotherapie, Ernährungsberatung und Ernährungstherapie, Logopä
+die, Psychotherapie gelten als abzugsfähig, sofern sie ärztlich verordnet sind und von diplomier
+ten Personen durchgeführt werden.
+Eine ärztliche Verordnung im Sinne der Praxis setzt eine vorgängige konkrete Anordnung einer
+Ärztin oder eines Arztes zur Initiierung einer bestimmten Heilmassnahme voraus (vgl. Urteil des
+Bundesgerichts 2C_103/2009 vom 10. Juli 2009 E. 3.1). Eine allgemeine, zeitlich unbe
+schränkte Empfehlung wird dabei nach der bundesgerichtlichen Rechtsprechung nicht als ärztli
+che Verordnung einer Heilmassnahme qualifiziert (vgl. Urteil des Bundesgerichts 2C_258/2010
+vom 23. Mai 2011 E. 4.4.2).

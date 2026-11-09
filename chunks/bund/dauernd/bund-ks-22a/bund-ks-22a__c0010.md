@@ -10,19 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 22a · S. 3
 
-Hält eine steuerpflichtige Person Beteiligungen am Grund- oder Stammkapital einer Kapital
-gesellschaft oder Genossenschaft sowohl im Privat- als auch im Geschäftsvermögen, wer
-den diese für die Ermittlung der erforderlichen Quote zusammengerechnet. Die Erträge aus
-diesen Beteiligungen werden jedoch nicht zusammengerechnet.
+<!-- Seite 3 -->
+Die Qualifikation von ausländischen Beteiligungsrechten erfolgt in sinngemässer Anwendung
+von Artikel 49 Absatz 3 DBG. Die Gründerrechte an einer liechtensteinischen Anstalt mit
+ungeteiltem Kapital stellen keine Beteiligungsrechte im Sinn des Artikels 20 Absatz 1bis DBG
+dar.
 
-Beteiligungsrechte der gleichen Gesellschaft, die indirekt über eine juristische Person oder
-eine kollektive Kapitalanlage gehalten werden, können dagegen nicht zusammengerechnet
-werden.
+2.2.2. Erforderliches Ausmass der Beteiligung
 
-Für Erbengemeinschaften erfolgt keine Zusammenrechnung der Beteiligungsrechte.
+Für die Teilbesteuerung kommen nur Beteiligungsrechte in Betracht, die mindestens 10 Pro
+zent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft ausma
+chen (Eigentum oder Nutzniessung).
 
-Die erforderliche Quote muss im Zeitpunkt der Realisation der Einkünfte aus der Beteiligung
-erfüllt sein. Bei Dividenden ist dies der Zeitpunkt der Fälligkeit. Wird beim Verkauf einer Be
-teiligung der Bezug des Beteiligungsertrags dem Verkäufer vorbehalten, wird bei der Be
-rechnung des prozentualen Umfangs der Beteiligung auf die Verhältnisse im Zeitpunkt des
-Verkaufs abgestellt.
+Die sich im Besitz von Ehegatten, eingetragener Partnerinnen und Partnern sowie Kindern
+unter elterlicher Sorge, die zusammen veranlagt werden, befindenden Beteiligungsrechte
+werden zusammengerechnet.

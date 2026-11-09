@@ -1,0 +1,333 @@
+[
+{
+"id": "zh-form-340-2025__c0001",
+"titel": "Seite 1 Wertschriften- und Guthabenverzeichnis 2025 – Bankverbindung, Bestätigung",
+"pfad": [
+"Seite 1"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Wertschriftenverzeichnis",
+"Verrechnungsantrag",
+"IBAN",
+"Rückerstattung",
+"Unterschrift"
+],
+"positionen": [
+"verrechnungssteuer.rueckerstattung",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Deckblatt Form. 340 mit Verrechnungsantrag: Bankverbindung für Rückerstattungen und Bestätigung, dass auf Kolonne-A-Erträgen die eidg. Verrechnungssteuer abgezogen wurde.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "zh-form-340-2025__c0002"
+},
+{
+"id": "zh-form-340-2025__c0002",
+"titel": "Seite 2 Verzeichnis – Spalten Bezeichnung der Vermögenswerte",
+"pfad": [
+"Seite 2",
+"Spaltenkopf"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Valoren-Nr.",
+"Nennwert",
+"Währung",
+"Code"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Spaltenköpfe: Originalwährung, Nennwert/Stückzahl, Valoren-Nr., genaue Bezeichnung (Konto inkl. Nummer, UID), Code.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0001",
+"nachher": "zh-form-340-2025__c0003"
+},
+{
+"id": "zh-form-340-2025__c0003",
+"titel": "Seite 2 Legende: Gruppen A/B, Verrechnungssteuer 35%, Codes G/N/E/S/Q",
+"pfad": [
+"Seite 2",
+"Legende"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Verrechnungssteuer 35%",
+"Kontokorrent",
+"Grossspielgewinne",
+"ausländische Wertschriften",
+"Lotterie",
+"Stockwerkeigentum",
+"qualifizierte Beteiligung"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"einkommen.wertschriften",
+"einkommen.lotterie_gewinne",
+"einkommen.beteiligungen_qualifiziert",
+"verrechnungssteuer.rueckerstattung"
+],
+"zusammenfassung": "A: Werte mit Verrechnungssteuerabzug (35%), B: Werte ohne Abzug (u.a. Kundenguthaben bis CHF 200.–, ausländische Wertschriften); Gewinne aus Grossspielen über CHF 1’033’000; Code Q zu übertragen in Steuererklärung Ziff. 4.2 (Code 151).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0002",
+"nachher": "zh-form-340-2025__c0004"
+},
+{
+"id": "zh-form-340-2025__c0004",
+"titel": "Seite 3 Spalten Zugang/Abgang, Steuerwert, Bruttoertrag A/B",
+"pfad": [
+"Seite 3",
+"Spaltenkopf"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Steuerwert 31.12.",
+"Bruttoertrag",
+"Verrechnungssteuerabzug"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Spaltenköpfe: Zugang/Abgang 2025, Steuerwert am 31.12.2025 und Bruttoertrag 2025 in Kolonne A (mit) bzw. B (ohne Verrechnungssteuerabzug), CHF ohne Rappen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0003",
+"nachher": "zh-form-340-2025__c0005"
+},
+{
+"id": "zh-form-340-2025__c0005",
+"titel": "Seite 3 Totale: Übertragungen, Total Steuerwert (400), Bruttoertrag (150), Verrechnungssteueranspruch (540)",
+"pfad": [
+"Seite 3",
+"Totale"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Total Steuerwert",
+"Bruttoertrag",
+"Verrechnungssteueranspruch",
+"35 Prozent",
+"Beiblatt",
+"DA-1"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"einkommen.wertschriften",
+"verrechnungssteuer.rueckerstattung",
+"berechnung.total"
+],
+"zusammenfassung": "Total Steuerwert (Code 400) zu übertragen in Steuererklärung Seite 4 Ziff. 30.1; Total Bruttoertrag A+B (150) in Ziff. 4.1; Verrechnungssteueranspruch = 35% von Total Bruttoertrag A (540).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0004",
+"nachher": "zh-form-340-2025__c0006"
+},
+{
+"id": "zh-form-340-2025__c0006",
+"titel": "Seite 4 Ausfüllbeispiel – Kopf und Spaltenbezeichnungen",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Beispiel",
+"Wertschriftenverzeichnis ausfüllen"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Ausfüllbeispiel zum Verzeichnis mit denselben Spaltenköpfen wie Seiten 2/3.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0005",
+"nachher": "zh-form-340-2025__c0007"
+},
+{
+"id": "zh-form-340-2025__c0007",
+"titel": "Seite 4 Beispiel – Konti, Kassaobligationen, Aktien, Depot (Zeilen 2300-01 bis -08)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Sparkonto",
+"Kassaobligation",
+"Aktien",
+"Depot",
+"Beispiel"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"einkommen.wertschriften"
+],
+"zusammenfassung": "Beispielzeilen: Sparkonto 6 0 6 0 / 53, Privatkonto 3 3 5 0 / 68, Postkonto 1 9 6 7 / 47, Kassaobligationen, Namenaktien, Anteile, Depot 4 7 6 5 9 / 796.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0006",
+"nachher": "zh-form-340-2025__c0008"
+},
+{
+"id": "zh-form-340-2025__c0008",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 1/5)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Fremdwährung",
+"Festgeld",
+"Rundung Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": "Beispiele für Zu-/Abgänge im Jahr, Fremdwährungskonten (EUR/USD), Rundung der Steuerwerte auf ganze Franken, Totale (Total Steuerwert 1 3 2 9 0 3, Anspruch 35% 1 3 4 5.0 5); Layout stark vermischt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0007",
+"nachher": "zh-form-340-2025__c0009"
+},
+{
+"id": "zh-form-340-2025__c0009",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 2/5)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Fremdwährung",
+"Festgeld",
+"Rundung Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0008",
+"nachher": "zh-form-340-2025__c0010"
+},
+{
+"id": "zh-form-340-2025__c0010",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 3/5)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Fremdwährung",
+"Festgeld",
+"Rundung Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0009",
+"nachher": "zh-form-340-2025__c0011"
+},
+{
+"id": "zh-form-340-2025__c0011",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 4/5)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Fremdwährung",
+"Festgeld",
+"Rundung Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0010",
+"nachher": "zh-form-340-2025__c0012"
+},
+{
+"id": "zh-form-340-2025__c0012",
+"titel": "Seite 4 Beispiel – Zu-/Abgänge, Fremdwährung, Totale (Zeilen 2300-09 bis Ende) (Teil 5/5)",
+"pfad": [
+"Seite 4",
+"Beispiel"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Zugang",
+"Abgang",
+"Fremdwährung",
+"Festgeld",
+"Rundung Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben"
+],
+"zusammenfassung": null,
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-340-2025__c0011",
+"nachher": null
+}
+]

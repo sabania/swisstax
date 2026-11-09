@@ -4,20 +4,20 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 118"
-seiten: "27"
+titel: "Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 2/3)"
+ziffer: "Anh. IV III.3"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34–35
 
-Die strukturierten Kredit- und Schadenderivate kombinieren eine Obligation mit einem Ter-
-mingeschäft (Credit/Insurance-Default-Swap). Solche Produkte, bekannt unter der Bezeich-
-nung „Credit Linked Notes“ bzw. „Insurance Linked Securities“, charakterisieren sich
-dadurch, dass der Emittent (= Sicherungskäufer) ein genau bezeichnetes Kredit- oder Scha-
-densrisiko (= Basiswert) gegen Entschädigung (= Risikoprämie) auf den Anleger (= Siche-
-rungsverkäufer) überträgt und sich gleichzeitig durch Verkauf einer Obligation mit gleicher
-Laufzeit für den Kreditausfall bzw. den Schadenseintritt absichert. Solange kein Kreditausfall
-bzw. Schaden eintritt, hat der Anleger Anspruch auf Verzinsung und Rückzahlung seiner Ob-
-ligation. Kommt es hingegen zum definierten Kreditausfall oder Schadenseintritt, ist der Si-
-cherungskäufer berechtigt, den entsprechenden finanziellen Schaden auf den Sicherungs-
-verkäufer zu überwälzen.
+    •   Beim risikofreien Zinssatz handelt es sich im Prinzip um die Zinskurve, welche
+    sich aus Staatspapieren ableitet. Dieser entspricht somit nicht der Swap-Rate,
+    welche bereits einen gewissen Credit Spread beinhaltet. Für nicht "standardi-
+    sierte" Laufzeiten wie beispielsweise 4 Jahre 3 Monate und 12 Tage werden die
+    risikofreien Zinssätze nicht publiziert und müssten daher durch Interpolation
+    täglich ermittelt werden.
+
+    •   Die Credit Spreads der Emittenten müssten ebenfalls täglich nachgeführt wer-
+    den. Dabei wäre zudem zu berücksichtigen, dass für unterschiedliche Restlauf-
+    zeiten unterschiedliche Credit Spreads anzuwenden wären.

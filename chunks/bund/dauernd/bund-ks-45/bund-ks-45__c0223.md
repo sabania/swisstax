@@ -5,25 +5,33 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 223"
-seiten: "61"
+seiten: "59"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 61
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 59
 
-    Beispiel:
-    - Die Zweigniederlassung des Personalverleihers X, mit Sitz in St. Gallen, welche einen in Österreich ansäs-
-    sigen Arbeitnehmer an einen Einsatzbetrieb in Zürich verleiht, hat die Quellensteuern mit dem Kanton St.
-    Gallen abzurechnen.
-    Mögliche Konstellationen:
+    1   13.09.21   13.09.21   -
 
-    Ansässig-   Wohnsitz-   Wochenaufent-   Sitz- bzw. Verwaltungs- oder   Örtliche
-    keitsstaat   kanton   haltskanton   Betriebsstättekanton Arbeitgeber   Zuständigkeit
-    CH   TG   -   TG   TG
-    CH   TG   BE   BE   TG
-    F   -   -   GE   GE
-    F   -   VD   VD   VD
+    2   13.09.21   17.09.21   13.09.21   17.09.21
 
-Verlegt eine quellensteuerpflichtige Person ihren Wohnsitz oder ihren Wochenaufenthalt in
-einen anderen Kanton, ist die Quellensteuerabrechnung ab dem Folgemonat bei der Steuer-
-verwaltung des neu anspruchsberechtigten Wohnsitz- oder Wochenaufenthaltskantons ein-
-zureichen.
+    3   22.08.21   17.09.21   17.09.21
+
+    4   22.08.21   14.10.21   -   -
+    04.09.21   13.09.21   04.09.21
+    5
+    22.09.21
+    13.08.21   13.09.21
+    6   -   26.09.21
+    22.09.21   26.09.21
+    13.08.21   13.09.21
+    7   10.09.21   24.09.21
+    29.09.21   10.10.21
+    03.09.21   08.09.21
+    8   10.09.21   24.09.21   03.09.21   29.09.21
+    25.09.21   29.09.21
+
+9.3   Quellensteuerabrechnung und Quellensteuerablieferung
+9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell
+Der Schuldner der steuerbaren Leistung erstellt periodisch die Abrechnung über die abgezo-
+gene Quellensteuer und reicht diese bei der zuständigen Steuerbehörde ein. Die Quellen-
+steuerabrechnung hat die Angaben gemäss Musterformular im Anhang I zu enthalten. Für

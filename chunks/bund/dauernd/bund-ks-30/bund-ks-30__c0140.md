@@ -4,25 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 140"
-seiten: "33"
+titel: "Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 2/2)"
+ziffer: "15.2"
+seiten: "40-41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.2 Steuererklärung · S. 40–41
 
-14.4.2   Tarife
-   Befindet sich das Kind nicht in alternierender Obhut, erhält der Elternteil, der mit dem
-    Kind zusammenlebt und zur Hauptsache für dessen Unterhalt aufkommt, den Elterntarif.
-    Der andere Elternteil wird zum Grundtarif besteuert.
-   Bei alternierender Obhut erhält derjenige Elternteil, der zur Hauptsache für den Unterhalt
-    des Kindes aufkommt, den Elterntarif. Dabei ist davon auszugehen, dass dies derjenige
-    mit dem höheren Einkommen ist. Der andere Elternteil wird zum Grundtarif besteuert.
+Die Regelung, dass die Ehegatten die Steuererklärung gemeinsam zu unterzeichnen haben,
+führt dazu, dass sich die Ehegatten im Veranlagungsverfahren gegenseitig über ihre eigenen
+Steuerfaktoren informieren.
 
-14.5   Besteuerung der getrennten, geschiedenen oder unverheirateten El-
-    tern (zwei Haushalte) mit gemeinsamem minderjährigem Kind, mit
-    gemeinsamer elterlicher Sorge, mit oder ohne alternierende Obhut,
-    mit Unterhaltszahlungen
-
-Wird ein Abzug für die Unterhaltsbeiträge für das Kind nach Artikel 33 Absatz 1 Buchstabe c
-DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgender-
-massen:
+Jeder Ehegatte hat in der Steuererklärung nur die ihm zuzurechnenden Einkommensfaktoren
+zu deklarieren. Dies folgt aus Artikel 180 DBG, wonach jeder Ehegatte nur für die Hinterzie-
+hung der eigenen Steuerfaktoren gebüsst werden kann.

@@ -5,30 +5,30 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 47"
-seiten: "20"
+seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 20
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 21
 
-Benken (ZH)   5   410   380   340   310   270   –   –
-Berg am Irchel   3   530   460   390   –   –   –   –
-Buch am Irchel   2   520   420   –   –   –   –   –
-Dachsen   3   480   390   300   –   –   –   –
-Dorf   3   550   450   350   –   –   –   –
-Feuerthalen   5   510   460   410   360   300   –   –
-Flaach   5   450   420   390   360   320   –   –
-Flurlingen   3   610   500   380   –   –   –   –
-Henggart   3   640   530   420   –   –   –   –
-Kleinandelfingen   5   620   560   490   430   360   –   –
-Laufen-Uhwiesen   5   580   520   460   400   340   –   –
-Marthalen   3   540   460   370   –   –   –   –
-Ossingen   4   600   480   350   230   –   –   –
-Rheinau   3   410   350   280   –   –   –   –
+Benken (ZH)   5   250   230   210   190   160   –   –
+Berg am Irchel   3   320   280   240   –   –   –   –
+Buch am Irchel   2   310   250   –   –   –   –   –
+Dachsen   3   290   240   180   –   –   –   –
+Dorf   3   330   270   210   –   –   –   –
+Feuerthalen   5   310   280   250   220   180   –   –
+Flaach   5   270   250   230   210   190   –   –
+Flurlingen   3   370   300   230   –   –   –   –
+Henggart   3   380   320   250   –   –   –   –
+Kleinandelfingen   5   370   340   300   260   220   –   –
+Laufen-Uhwiesen   5   350   320   280   240   200   –   –
+Marthalen   3   330   280   220   –   –   –   –
+Ossingen   4   360   290   210   140   –   –   –
+Rheinau   3   240   210   170   –   –   –   –
 Stammheim
-– Oberstammheim   3   460   400   330   –   –   –   –
- (ehemalige Gemeinde)
-– Unterstammheim   4   460   420   370   330   –   –   –
- (ehemalige Gemeinde)
-– Waltalingen   3   480   390   300   –   –   –   –
- (ehemalige Gemeinde)
-Thalheim an der Thur   3   530   430   330   –   –   –   –
+– Oberstammheim   3   270   240   200   –   –   –   –
+  (ehemalige Gemeinde)
+– Unterstammheim   4   270   250   220   200   –   –   –
+  (ehemalige Gemeinde)
+– Waltalingen   3   290   240   180   –   –   –   –
+  (ehemalige Gemeinde)
+Thalheim an der Thur   3   320   260   200   –   –   –   –

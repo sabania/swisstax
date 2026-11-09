@@ -5,30 +5,37 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 84"
-seiten: "31"
+seiten: "35"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 31
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 35
 
-Benken (ZH)   5   220   210   190   170   150   –   –
-Berg am Irchel   3   290   250   210   –   –   –   –
-Buch am Irchel   2   280   220   –   –   –   –   –
-Dachsen   3   260   210   160   –   –   –   –
-Dorf   3   300   250   190   –   –   –   –
-Feuerthalen   5   280   250   220   190   160   –   –
-Flaach   5   240   230   210   190   170   –   –
-Flurlingen   3   330   270   200   –   –   –   –
-Henggart   3   340   280   220   –   –   –   –
-Kleinandelfingen   5   330   300   260   230   190   –   –
-Laufen-Uhwiesen   5   310   280   250   220   180   –   –
-Marthalen   3   290   250   200   –   –   –   –
-Ossingen   4   330   260   200   130   –   –   –
-Rheinau   3   220   190   150   –   –   –   –
-Stammheim
-– Oberstammheim   3   250   220   180   –   –   –   –
-  (ehemalige Gemeinde)
-– Unterstammheim   4   250   230   200   180   –   –   –
-  (ehemalige Gemeinde)
-– Waltalingen   3   260   210   160   –   –   –   –
-  (ehemalige Gemeinde)
-Thalheim an der Thur   3   290   240   180   –   –   –   –
+<!-- Seite 35 -->
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Bebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Dietikon
+Aesch (ZH)   3   600   480   350   –   –   –   –
+Birmensdorf (ZH)   5   520   470   420   370   320   –   –
+Dietikon   5   440   400   360   320   270   –   –
+Geroldswil   5   530   490   440   390   340   –   –
+Oberengstringen   3   480   390   300   –   –   –   –
+Oetwil an der Limmat   3   580   470   350   –   –   –   –
+Schlieren   5   430   390   350   310   270   –   –
+Uitikon   5   830   740   640   540   440   –   –
+Unterengstringen   5   580   520   460   400   340   –   –
+Urdorf   5   550   500   450   400   350   –   –
+Weiningen (ZH)   3   550   450   350   –   –   –   –
+Bezirk Hinwil
+Bäretswil   3   330   260   190   –   –   –   –
+Bubikon   3   330   300   270   –   –   –   –
+Dürnten   5   300   280   250   220   190   –   –
+Fischenthal   2   210   170   –   –   –   –   –
+Gossau (ZH)   5   400   360   310   270   220   –   –
+Grüningen   5   410   370   330   290   240   –   –
+Hinwil   5   400   370   330   290   250   –   –

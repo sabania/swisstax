@@ -10,9 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 22a · S. 1
 
-Anhang: Beispiele 1 - 4
-
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-1-022a-D-2020-d   www.estv.admin.ch
+    Erwerbseinkommen ................................................................................... 4
+3.   Beschränkung des Schuldzinsenabzugs........................................................ 4
+3.1.   Berechnung des maximal zulässigen Schuldzinsenabzugs ....................... 4
+3.2.   Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen ............. 5
+3.3.   Kosten ohne Schuldzinsencharakter.......................................................... 5
+4.   Inkrafttreten ...................................................................................................... 6

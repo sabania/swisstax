@@ -1,0 +1,112 @@
+[
+{
+"id": "bund-form-da1-2025__c0001",
+"titel": "DA-1 2025 – Abschnitt 1",
+"pfad": [],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": null,
+"nachher": "bund-form-da1-2025__c0002"
+},
+{
+"id": "bund-form-da1-2025__c0002",
+"titel": "DA-1 2025 – Abschnitt 2",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0001",
+"nachher": "bund-form-da1-2025__c0003"
+},
+{
+"id": "bund-form-da1-2025__c0003",
+"titel": "DA-1 2025 – Abschnitt 3",
+"pfad": [],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0002",
+"nachher": "bund-form-da1-2025__c0004"
+},
+{
+"id": "bund-form-da1-2025__c0004",
+"titel": "DA-1 2025 – Abschnitt 4",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0003",
+"nachher": "bund-form-da1-2025__c0005"
+},
+{
+"id": "bund-form-da1-2025__c0005",
+"titel": "DA-1 2025 – Abschnitt 5",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0004",
+"nachher": "bund-form-da1-2025__c0006"
+},
+{
+"id": "bund-form-da1-2025__c0006",
+"titel": "DA-1 2025 – Abschnitt 6",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0005",
+"nachher": "bund-form-da1-2025__c0007"
+},
+{
+"id": "bund-form-da1-2025__c0007",
+"titel": "DA-1 2025 – Abschnitt 7",
+"pfad": [],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-form-da1-2025__c0006",
+"nachher": null
+}
+]

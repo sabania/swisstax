@@ -5,24 +5,28 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 62"
-seiten: "19"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
 
-Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
-nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
-liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
-Lasten des Nennwertes der Beteiligungsrechte oder von KER bzw. Ausland-KER der über-
-tragenden Gesellschaft erfolgen.
+<!-- Seite 20 -->
+6.5.   Ausgliederung
 
-Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
-tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-b)   Verrechnungssteuer
+Nicht betroffen.
 
-Die bei einer Spaltung den Inhabern der Beteiligungsrechte an der übernehmenden Gesell-
-schaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unterliegen nach Artikel 4
-Absatz 1 Buchstabe b VStG der Verrechnungssteuer, soweit sie nicht zu Lasten des Nenn-
-wertes der Beteiligungsrechte oder der KER bzw. Ausland-KER der übertragenden Gesell-
-schaft erfolgen.
+b)   Direkte Bundessteuer (Gewinnsteuer)
+
+Der übertragene und ausgewiesene Aktivenüberschuss der Vermögenswerte kann in der
+Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genossenschaft steuerneutral
+als KER, bei Übertragungen aus dem Ausland nach Artikel 5 Absatz 1quater Buchstaben a und
+b VStG als Ausland-KER ausgewiesen und/oder für die Liberierung von Grund- oder Stamm-
+kapital verwendet werden.
+
+Werden infolge Sperrfristverletzung die übertragenen stillen Reserven nach Artikel 61 Ab-
+satz 2 DBG im Nachsteuerverfahren besteuert, kann in der Handelsbilanz der übernehmen-
+den Kapitalgesellschaft oder Genossenschaft keine KER ausgewiesen werden.
+
+c)   Verrechnungssteuer

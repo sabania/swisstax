@@ -10,13 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 1
 
-Inhaltsverzeichnis
-1   Einleitung ........................................................................................................... 2
-2   Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen ................................ 2
-3   Grundsätze der Besteuerung kollektiver Kapitalanlagen ............................... 3
-3.1   Steuerliche Grundlagen auf Ebene der kollektiven Kapitalanlage ........................ 3
-3.2   Besteuerung kollektiver Kapitalanlagen ohne direkten Grundbesitz ..................... 3
-3.3   Besteuerung kollektiver Kapitalanlagen mit direktem Grundbesitz ....................... 4
-3.3.1   Begriff .................................................................................................................. 4
-3.3.2   Besteuerung ........................................................................................................ 4
-3.3.3   Ermittlung des steuerbaren Gewinns ................................................................... 4
+3.3.4   Deklarationspflicht ............................................................................................... 5
+4   Besteuerung auf Ebene der Anleger ................................................................ 6
+4.1   Allgemeines ......................................................................................................... 6
+4.2   Bei Anlagen im Privatvermögen ........................................................................... 6
+4.3   Bei Anlagen im Geschäftsvermögen .................................................................... 7
+4.4   Rückerstattung der Verrechnungssteuer.............................................................. 7
+4.5   Bescheinigungspflicht .......................................................................................... 8
+5   Spezialfragen ..................................................................................................... 8

@@ -5,21 +5,25 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 63"
-seiten: "19"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 19
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 20
 
-    beitgebers genehmigt (vgl. Rz 59), ist folgende Bemerkung anzubringen: «Spesenregle
-    ment durch Kanton XY (Autokennzeichen des Kantons) am ... (Datum) genehmigt». In
-    diesem Fall ist in Ziffer 13.1.1 kein Kreuz zu machen;
-•   Expatriatespesen: Besteht ein durch die Behörden genehmigtes Expatriateruling, muss   65a
-    folgender Text angebracht werden: «Expatriateruling durch Kanton XY (Autokennzeichen
-    des Kantons) am ... (Datum) genehmigt»;
-•   Mehrere Lohnausweise: Wurden vom Arbeitgeber für dasselbe Jahr ausnahmsweise   66
-    mehrere Lohnausweise ausgestellt, ist folgende Bemerkung anzubringen: «Einer von ...
-    Lohnausweisen» (vgl. Rz 7);
-•   Rektifikat: Wird ein bereits bestehender Lohnausweis für einen Arbeitnehmer ersetzt, ist   66a
-    im neuen Lohnausweis folgende Bemerkung anzubringen: «Dieser Lohnausweis ersetzt
-    den Lohnausweis vom XX.XX.XXXX»;
-•   Teilzeitanstellung: Wurde der Arbeitnehmer mit einem reduzierten Beschäftigungsgrad   67
+<!-- Seite 20 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+II   Nicht zu deklarierende Leistungen
+Grundsätzlich sind alle Leistungen des Arbeitgebers steuerbar und im Lohnausweis anzuge   72
+ben. Aus Gründen der Praktikabilität müssen aber insbesondere folgende Leistungen nicht
+deklariert werden:
+•   Gratis abgegebene Halbtaxabonnemente des öffentlichen Verkehrs
+    (für Generalabonnemente vgl. Rz 9);
+•   Vergünstigungen für vom Arbeitgeber abgegebene Produkte oder Dienstleistungen von
+    Dritten bis maximal 20 % je Leistung und bis maximal CHF 600 jährlich (zu deklarieren
+    in Ziffer 2.3 des Lohnausweises ist lediglich die Differenz der Vergünstigungen, die diese
+    Werte übersteigen);
+•   Übliche Weihnachts-, Geburtstags- und ähnliche Naturalgeschenke bis CHF 600 pro Ka
+    lenderjahr. Bei Naturalgeschenken, die diesen Betrag übersteigen, ist der ganze Betrag
+    anzugeben (Ziffer 2.3 des Lohnausweises). Bargeldgeschenke sind immer als Lohnbe
+    standteil im Lohnausweis zu deklarieren;

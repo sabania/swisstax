@@ -10,17 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 10
 
-<!-- Seite 10 -->
-    Preis von 800 Franken (y) zurückzugeben hat, kann er in der Steuererklä-
-    rung die Differenz von 229 Franken als Gewinnungskosten abziehen. Ma-
-    thematisch entspricht diese Berechnung der Formel (x : 1,06 n – y), bzw.
-    (1'500 : 1,06 6,46 – 800).
-
-    Datum   Sperrfrist   (Rest-)   Verkehrs- Rückgabe-   Ein-   Reduzierter
-    Sperrfrist   wert   preis   schlag   Verkehrs-
-    wert
-Zuteilung   15.03.2010   10 Jahre
-Kündigung   30.09.2013   -   6.46 Jahre   1‘500   800   68.637%   1‘029
-    (= 1‘029)
-Da der Rückgabepreis 800 Franken und der reduzierte Verkehrswert 1‘029 Franken betragen, belau-
-fen sich die steuerlich massgebenden Gewinnungskosten auf 229 Franken.
+3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien
+Aus der Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien resultiert für die
+Belange der direkten Steuern grundsätzlich ein steuerfreier privater Kapitalgewinn (vgl.
+Art. 16 Abs. 3 DBG) oder ein steuerlich unbeachtlicher Kapitalverlust. Der Umfang des steu-
+erfreien Kapitalgewinns entspricht der Differenz zwischen dem Verkehrswert im Zeitpunkt
+der Abgabe und dem Verkehrswert im Zeitpunkt der Veräusserung bzw. der Differenz zwi-
+schen dem Formelwert im Zeitpunkt der Abgabe und dem nach der gleichen Bewertungsme-
+thode ermittelten Formelwert im Zeitpunkt der Veräusserung. Ein allfälliger Mehrwert, der
+beispielsweise auf eine veränderte Bewertungsmethodik oder auf einen Wechsel vom For-
+mel- zum Verkehrswertprinzip zurückzuführen ist, ist in der Regel als Einkommen im Zeit-
+punkt der Veräusserung zu besteuern. Tritt das den Wechsel vom Formel- zum Verkehrs-
+wertprinzip auslösende Ereignis erst nach Ablauf einer fünfjährigen Haltedauer der jeweiligen
+Mitarbeiteraktien ein, realisiert der Mitarbeitende bei einer nachfolgenden Veräusserung der
+im Privatvermögen gehaltenen Mitarbeiteraktien einen steuerfreien Kapitalgewinn.

@@ -5,17 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 35"
-seiten: "11"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 10
 
-4.8   Leistungen des neuen Arbeitgebers bei Stellenantritt für bereits geleistete be-
-    rufsorientierte Aus- und Weiterbildungskosten
-Entschädigungen des neuen Arbeitgebers für Kosten von bereits abgeschlossenen berufsorien-
-tierten Aus- und Weiterbildungen stellen grundsätzlich steuerbare Einkünfte gemäss Arti-
-kel 17 Absatz 1 DBG dar. Dies gilt unabhängig davon, ob der neue Arbeitgeber vom Arbeitneh-
-mer direkt geleistete Kosten entschädigt oder allfällige aufgrund eines Ausbildungsvertrags be-
-stehende Rückzahlungsverpflichtungen des Arbeitnehmers ausgleicht. Für Entschädigungen des
-neuen Arbeitgebers für Kosten von noch andauernden berufsorientierten Aus- und Weiterbildun-
-gen gelten die Ausführungen gemäss Ziffer 4.7.3 sinngemäss.
+(Beispiel 1). Berufsorientierte Aus- und Weiterbildungskosten, welche aufgrund der Obergrenze
+von maximal 12 000 Franken in der Vorperiode bzw. den Vorperioden nicht in Abzug gebracht
+werden konnten, können berücksichtigt werden (Beispiel 2).
+Wird dem Arbeitnehmer weniger als die von ihm in der Vorperiode bzw. den Vorperioden in Abzug
+gebrachten berufsorientierten Aus- und Weiterbildungskosten vergütet, so fliesst ihm lediglich in
+der Höhe der Rückvergütung steuerbares Einkommen zu (Beispiel 3).
+Der Arbeitgeber hat die Rückvergütungen im Lohnausweis in Ziffer 13.3 als Beiträge des Arbeit-
+gebers für die berufsorientierte Aus- und Weiterbildung zu bescheinigen.

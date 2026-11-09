@@ -5,21 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 34"
-seiten: "11"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
 
-Der nach Artikel 959a Absatz 2 Ziffer 3 Buchstabe e OR notwendige Ausweis der eigenen
-Beteiligungsrechte kann als Minusposten unter den gesetzlichen oder freien Kapitalreserven
-erfolgen, wobei nur der Ausweis gegen KER bzw. Ausland-KER bewirkt, dass bei einer Ver-
-nichtung der Beteiligungsrechte oder bei einem Fristenablauf gemäss Artikel 4a VStG sich
-weder Einkommens- noch Verrechnungssteuerfolgen ergeben. Zurückgekaufte eigene Betei-
-ligungsrechte, die innerhalb der Fristen gemäss Artikel 4a VStG weiterveräussert werden,
-verändern den Minusposten für eigene Beteiligungsrechte, nicht aber den Bestand der KER
-bzw. Ausland-KER. Werden eigene Beteiligungsrechte nicht innerhalb der Frist nach Artikel
-4a VStG weiterveräussert, erfolgt die Besteuerung aufgrund des Ausweises der eigenen Be-
-teiligungsrechte als Minusposten im Zeitpunkt des Erwerbs unter den Gewinn- oder den ge-
-setzlichen oder freien Kapitalreserven.
+<!-- Seite 12 -->
+bei der Annahme eines öffentlichen Kaufangebots gemäss Artikel 125 ff. des Bundesgeset-
+zes vom 19. Juni 2015 über die Finanzmarktinfrastrukturen und das Marktverhalten im Effek-
+ten- und Derivatehandel (Finanzmarktinfrastrukturgesetz, FinfraG; SR 958.1) nicht gegeben.
+Wirtschaftlich stellt eine solche Übertragung keine Veräusserung, sondern eine Vermögen-
+sumschichtung dar. Dieser als Transponierung bezeichnete Tatbestand führt dazu, dass der
+den Nennwert zuzüglich den anteiligen KER bzw. Ausland-KER übersteigende Erlös als Er-
+trag aus beweglichem Vermögen qualifiziert.
 
-4.2.4. Indirekte Teilliquidation
+Wird die Beteiligung zu einem Wert übertragen, welcher den Nennwert zuzüglich der anteili-
+gen KER bzw. Ausland-KER übersteigt, und wird dieser Mehrwert dem Nominalkapital
+und/oder den Reserven der übernehmenden Kapitalgesellschaft oder Genossenschaft gut-
+geschrieben, ergeben sich je nach der Verbuchung unterschiedliche Steuerfolgen:

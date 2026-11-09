@@ -5,23 +5,22 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 18"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 7
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 8
 
-4. Besondere Verhältnisse
+<!-- Seite 8 -->
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 
-   Auf Verlangen des Steuerpflichtigen können bei der Berechnung 35
-des Verkehrswerts von Einfamilienhäusern sowie Stockwerkeigentum
-zu Wohnzwecken, vorbehältlich des entsprechenden Nachweises, fol-
-gende Korrekturen vorgenommen werden:
-– beim Landwert, soweit sich dieser bei einer Veräusserung nicht in
-   einem entsprechenden Erlös niederschlagen würde und diesem
-   Umstand nicht schon durch Anwendung der Ziff. 18, 19, 26–29
-   Rechnung getragen wurde,
-– beim Zeitbauwert, wenn dieser wesentlich durch Elemente erhöht
-   wird, die sich bei einer Veräusserung nicht in einem entsprechen-
-   den Erlös niederschlagen würden.
+    V. Mehrfamilien- und Geschäftshäuser
 
-1. 1. 23 - 119   7
+    1. Allgemeine Grundsätze
+
+36   Mehrfamilien- und Geschäftshäuser sowie Stockwerkeigentum zu
+    Geschäftszwecken sind zum Ertragswert zu bewerten.
+37   Als Geschäftshäuser gelten Liegenschaften, deren Ertrag über-
+    wiegend durch die geschäftliche Nutzung bestimmt wird (Bank-, Büro-
+    und Ladengebäude mit kleinem Wohnanteil usw.).
+
+    2. Ertragswert

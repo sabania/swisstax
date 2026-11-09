@@ -5,15 +5,30 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 183"
-seiten: "50"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 50
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 48
 
-    Berechnung steuerbarer Bonus Vorjahr:
-    Total Arbeitstage Vorjahr:   240 Tage
-    Arbeitstage Schweiz Vorjahr:   240 Tage – 40 Tage = 200 Tage
-    Massgebendes Ausscheidungsverhältnis:   200 CH-Arbeitstage zum Total von 240 Arbeitstagen
-    Steuerbares Einkommen:   CHF 30 000.00 / 240 x 200 = CHF 25 000.00
-    Total steuerbar April 2021:   CHF 33 000.00 (CHF 8 000 + CHF 25 000)
-    Satzbestimmendes Einkommen April 2021:   CHF 150 000.00 (CHF 10 000 x 12 + CHF 30 000)
+    Quellensteuer   690   690   678   678   678   984   984   984   9 408
+    Korrekur
+    +2884   +288
+    Januar – April
+    Korrektur
+    +2405   +240
+    Mai – August
+    Total
+    690   690   966   678   678   1 224   984   984   9 936
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
+
+    2
+    = C0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 (CHF 6 000 x 12).
+    3 = C0 mit satzbestimmendem Jahreseinkommen von CHF 80 000.00 (CHF 6 000 x 8 + fr. 8 000 x 4).
+
+    4 = Korrektur des Quellensteuerabzugs für die Monate Januar – April [(CHF 6 000 x 12.7 %) x 4] –
+
+    (CHF 690 x 4).
+    5 = Korrektur des Quellensteuerabzugs für die Monat Mai – August [CHF 6 000 x 12.3 %) x 4] – (CHF 678
+
+    x 4).

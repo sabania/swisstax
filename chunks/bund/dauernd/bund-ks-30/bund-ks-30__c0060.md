@@ -4,15 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 60"
-seiten: "13"
+titel: "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 2/2)"
+ziffer: "10.1"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.1 Grundsatz · S. 19
 
-Unter Ausbildung ist ein Lehrgang für eine berufliche Ausbildung wie beispielsweise eine
-Lehre oder ein Studium zu verstehen. Ebenfalls als Ausbildung wird die berufliche Weiterbil-
-dung, die mit dem erlernten oder gegenwärtig ausgeübten Beruf in Zusammenhang steht,
-sowie die im Hinblick auf einen Berufswechsel vorgenommene Umschulung anerkannt. Der
-Besuch eines Malunterrichtes oder eines Yogakurses beispielsweise gilt hingegen nicht als
-Ausbildung im engeren Sinne und ist daher als Freizeitgestaltung zu qualifizieren.
+Bei gemeinsam veranlagten Eltern wird der Kinderabzug vom Gesamteinkommen in Abzug
+gebracht. Die Zuteilung des Kinderabzuges bei den verschiedenen Familienkonstellationen
+ist unter Ziffer 14 geregelt.
+
+Es gilt das Stichtagsprinzip gemäss Artikel 35 Absatz 2 DBG, d.h. der Kinderabzug kann von
+den Ehegatten nur beansprucht werden, wenn am Ende der Steuerperiode oder der Steuer-
+pflicht die Voraussetzung für die Gewährung des Kinderabzuges erfüllt sind.

@@ -5,24 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 89"
-seiten: "23"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 22
 
-<!-- Seite 23 -->
-tung für die Ermittlung des satzbestimmenden Einkommens den im massgebenden Steuer-
-jahr für die Berechnung des Tarifcodes C zu Grunde gelegten Betrag aufrechnen. Dieser Be-
-trag wird zusammen mit den übrigen Berechnungsgrundlagen (vgl. Art. 85 Abs. 2 DBG) jähr-
-lich von den zuständigen Steuerbehörden veröffentlicht.
-Besteht eine der Quellensteuer unterliegende Lohnzahlung sowohl aus periodischen wie
-auch aus aperiodischen Lohnbestandteilen (vgl. Ziffer 6.6 unten), sind einzig die periodi-
-schen Lohnbestandteile für die Satzbestimmung umzurechnen.
-Bei Aufnahme einer weiteren Erwerbstätigkeit ist die Umrechnung ab dem Folgemonat vor-
-zunehmen. Entsprechend ist bei Beendigung einer weiteren Erwerbstätigkeit ab dem Folge-
-monat keine Umrechnung mehr vorzunehmen.
-Die Umrechnung hat zu unterbleiben, wenn die einzigen zusätzlich erzielten Arbeitseinkom-
-men nach dem Tarifcode E besteuert werden.
-Der Arbeitnehmer kann bei der zuständigen Steuerbehörde bis am 31. März des auf die Fäl-
-ligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine
-nachträgliche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).
+6.4   Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-Erwerbstätigkei-
+    ten
+Ist ein Arbeitnehmer nur bei einem Arbeitgeber in einem Teilzeitpensum angestellt und er-
+zielt er daneben keine weiteren Erwerbs- bzw. Ersatzeinkünfte, hat für die Satzbestimmung
+keine Umrechnung des Lohns zu erfolgen. Für die Ermittlung des satzbestimmenden Ein-
+kommens bei Anstellungen im Stunden- oder Tageslohn sind die Ausführungen unter Ziffer
+6.5 unten zu beachten.
+Hat ein quellensteuerpflichtiger Arbeitnehmer gleichzeitig mehrere Arbeitsverhältnisse (inkl.
+Ersatzeinkünfte) bzw. bezieht er Lohnzahlungen und/oder Ersatzeinkünfte von verschiede-
+nen Schuldnern der steuerbaren Leistung, ist das satzbestimmende Einkommen für jedes
+einzelne Arbeitsverhältnis bzw. Versicherungsverhältnis wie folgt zu ermitteln:
+    1. Umrechnung auf den effektiven Gesamtbeschäftigungsgrad aller Erwerbstätigkeiten
+    (inkl. Ersatzeinkünfte) des Arbeitnehmers;

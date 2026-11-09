@@ -10,13 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
 
-    Mitarbeiterbeteiligungen, die erst bei Realisierung steuerbar sind ............... 16
-8   Mitwirkungs- und Bescheinigungspflichten ............................................ 18
-8.1   Arbeitgeber ................................................................................................. 18
-8.1.1   Allgemeines.................................................................................................. 18
-8.1.2   Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV) .................................... 19
-8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV) .................. 19
-8.1.2.2 Rückgabe von Mitarbeiteraktien (Art. 12 MBV) ...................................................... 19
-8.1.3   Bescheinigung über Mitarbeiteroptionen, Anwartschaften auf
-    Mitarbeiteraktien und unechte Mitarbeiterbeteiligungen (Art. 5 und 6 MBV) 20
-8.1.3.1 Freie, börsenkotierte Mitarbeiteroptionen ............................................................... 20
+8.1.3.2 Übrige Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien und unechte
+    Mitarbeiterbeteiligungen......................................................................................... 20
+8.1.4   Weitere Auskünfte (Art. 17 MBV) ................................................................. 20
+8.2   Steuerpflichtige .......................................................................................... 20
+9   Vorbescheid zwischen dem Arbeitgeber und der Steuerbehörde
+    (Ruling) ....................................................................................................... 21
+9.1   Allgemeines ................................................................................................ 21
+9.2   Voraussetzungen ....................................................................................... 21
+9.3   Zuständigkeit .............................................................................................. 21

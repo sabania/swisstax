@@ -5,23 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 109"
-seiten: "36"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 37
 
-Zusätzliche Gutschrift gemäss Ziffer 3.1. des KS 29c
-Total Rückzahlungen KER innerhalb des Kapitalbands an die Aktionäte   11'500.00
-Total Rückzahlungen übrige Reserven innerhalb des Kapitalbands an die Aktionäre, welche nicht über die
-zweite Handelslinie erfolgen   11'300.00
-Total zusätzliche Gutschrift   22'800.00   22'800.00
+<!-- Seite 37 -->
+Anhang 5: Beispiel Änderung Aktienkapital in eine für die Geschäftstätigkeit
+wesentliche ausländische Währung
 
-Total KER   24'800.00
+Eine Kapitalgesellschaft mit bisheriger Buchführung in funktionaler Währung USD zeigt am
+Stichtag der Umstellung des Aktienkapitals in USD (1. Januar 2023) folgende Bestände an
+Reserven aus Kapitaleinlagen:
+
+    Datum   Einzlg.   Rückzlg.   Bestand   Kurs   Einzlg.   Rückzlg.   Bestand
+
+    Werte funktionale Währung USD   Bestätigte KER in CHF
+
+ 01.07.1998   200'000   200'000   1.45   290'000   290'000
+
+ 01.07.2019   70'000   130'000   0.99   69'300   220'700
+
+ 01.01.2023   245'222   0.90
 
 Erklärungen:
-
-Während der Dauer des Kapitalbands werden die Kapitaleinlagen und -rückzahlungen mitei-
-nander verrechnet (Nettobetrachtung). Nur soweit die Einlagen die Rückzahlungen während
-der Dauer des Kapitalbands übersteigen, können steuerlich Reserven aus Kapitaleinlagen
-gebildet werden. Aufgrund von Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1septies VStG
-werden die KER gemäss Beispiel somit um 2'000 erhöht.

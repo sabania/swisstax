@@ -10,14 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
 
-4.4   Vereinfachtes Abrechnungsverfahren (Tarifcode E)
-Arbeitnehmer, deren Bruttoeinkünfte (kleinere Arbeitsentgelte) im Rahmen des vereinfachten
-Abrechnungsverfahrens besteuert werden, werden für diese Einkünfte mit dem Tarifcode E
-an der Quelle besteuert. Dieser Quellensteuerpflicht können auch Arbeitnehmer unterliegen,
-die grundsätzlich im ordentlichen Veranlagungsverfahren besteuert werden. Das Verfahren
-richtet sich nach den Artikeln 21 - 24 QStV.
-Die Grundsätze des vereinfachten Abrechnungsverfahrens sind in Artikel 37a DBG bzw. in
-den Artikeln 2 und 3 BGSA festgehalten.
-Ob die Besteuerung für eine Tätigkeit nach den Bestimmungen des BGSA erfolgt, liegt in der
-Kompetenz des Arbeitgebers. Die Berechtigung zur Abrechnung von Löhnen im vereinfach-
-ten Abrechnungsverfahren wird von den AHV-Ausgleichskassen erteilt.
+<!-- Seite 16 -->
+keit eines Ehegatten ist der Zweiverdienertarif bei diesem (Tarifcode C bzw. N) sofort an-
+wendbar. Beim anderen (bereits erwerbstätigen) Ehegatten gelangt der Zweiverdienertarif
+(Tarifcode C bzw. N) ab dem Folgemonat zur Anwendung.
+Der Tarifcode C (bzw. N) gelangt nicht zur Anwendung, wenn der andere Ehegatte einzig
+Einkommen erzielt, welches gemäss Tarifcode E über das vereinfachte Abrechnungsverfah-
+ren im Sinn des Bundesgesetzes vom 17. Juni 2005 über Massnahmen zur Bekämpfung der
+Schwarzarbeit (BGSA; SR 822.41) besteuert wird (vgl. Art. 37a DBG).

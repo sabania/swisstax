@@ -4,17 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 78"
-seiten: "19"
+titel: "Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 2/3)"
+ziffer: "Anh. III 4b"
+seiten: "22-23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22–23
 
-Auch bei der jüngeren Generation von Index- und Basketzertifikaten entwickelt sich der Kurs
-des Zertifikates exakt mit dem Kurs des Basisinstrumentes (z.B. dem Swiss Market Index),
-allerdings in der entgegengesetzten Richtung: Fällt der Basiswert, gewinnt das Zertifikat;
-steigt der Basiswert, fällt der Kurs des Zertifikates. Der Investor spekuliert auf ein Sinken des
-Basiswertes. Die Chancen und Risiken des Investors sind indessen die gleichen wie bei Zer-
-tifikaten, deren Kursverlauf vollumfänglich dem Kursverlauf der Bezugsgrösse entspricht
-(Spekulation auf ein Ansteigen des Basiswertes). Steuerlich sind die beiden Fälle deshalb
-gleich zu behandeln.
+der Emission weniger als 4 beträgt, hängt die Besteuerung des Finanzinstruments entschei-
+dend von der Kontraktlaufzeit ab: Aus verwaltungs- und verfahrensökonomischen Gründen
+werden die Zinskomponenten bei Laufzeiten von nicht mehr als zwölf Monaten auf Zusehen
+hin steuerfrei belassen. Bei überjährigen und unbegrenzten Laufzeiten werden hingegen die
+Zinskomponenten bei Verfall bzw. bei Erreichen der Sicherheitsbarriere (vorzeitiges Auflösen
+der Position) als steuerbarer Vermögensertrag gemäss Artikel 20 Absatz 1 Buchstabe a DBG
+erfasst. Die Höhe der steuerbaren Zinskomponente wird basierend auf einem marktgerech-
+ten Zinssatz ermittelt. Darunter ist die LIBOR- bzw. Swaprate in der entsprechenden Wäh-
+rung und für die entsprechende Laufzeit zu verstehen.

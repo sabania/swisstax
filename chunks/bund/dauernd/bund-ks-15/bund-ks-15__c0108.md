@@ -4,21 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 108"
-seiten: "25"
+titel: "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3)"
+ziffer: "Anh. IV I"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
 
-Kreisschreiben Nr. 15, Ziffer 2.3.3. i.V.m. Ziffer 3.6.). Die Steuerfolgen bleiben deshalb immer
-dieselben, weil RC zu den transparenten kombinierten Finanzinstrumenten gehören und sich
-die Höhe der steuerlich relevanten, marktkonformen Verzinsung der Obligation durch den
-Einsatz von exotischen und/oder zusätzlichen Optionen nicht verändert. Für die Bestimmung
-der marktkonformen Verzinsung bei Produkten mit vorzeitiger Rückzahlungsmöglichkeit ist
-stets die maximal mögliche Laufzeit entscheidend.
+Die Anwendung der modifizierten Differenzbesteuerung setzt voraus, dass das kombi-
+nierte Produkt (für steuerliche Zwecke) transparent gemacht wird. Dies geschieht, in-
+dem der Wert des Anleihensteils im Zeitpunkt der Emission berechnet und offen gelegt
+wird. Die Berechnung des Wertes des Anleihensteils im Emissionszeitpunkt (auch
+Bond Floor genannt) wird mittels der Swap-Rate für die entsprechende Währung und
+Laufzeit aufgrund der folgenden Eckwerte vorgenommen:
 
-6   Spezialfälle im Bereich der kapitalgarantierten Derivate
-Strukturierte Produkte mit Kapitalschutz bestehen aus einer festverzinslichen Anlage (Obliga-
-tion, Geldmarktpapier) und einer (oder mehreren) Option(en). Der garantierte Rückzahlungs-
-betrag entspricht dem Nennwert des Anlageteils, wobei die garantierte Rückzahlung auch
-unter dem investierten Betrag liegen kann (vgl. Kreisschreiben Nr. 15, Ziffer 2.3.1.).
+    •   Emissions- und Mindest-Rückzahlungsbetrag
+    •   Laufzeit (Liberierungs- und Rückzahlungsdatum)
+    •   allfällige periodische Verzinsung
+
+Mit dieser Berechnung wird letztlich ermittelt, zu welchem Preis der Anleihensteil von
+einem Schuldner mit einem bestimmten Rating emittiert worden wäre, wenn der Anlei-
+hensteil separat (vom Optionsteil) emittiert worden wäre.

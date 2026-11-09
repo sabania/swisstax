@@ -4,27 +4,32 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 81"
-seiten: "18"
+titel: "Ziff. 13.4.2 Elterntarif – Ehepaare und getrennt lebende Eltern mit minderjährigem Kind"
+ziffer: "13.4.2"
+seiten: "24-25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.2 Minderjährige Kinder · S. 24–25
 
-Bei den gemeinsam selbständigerwerbenden Ehepaaren bildet das steuerrechtlich massge-
-bende Einkommen aus selbständiger Erwerbstätigkeit (Einzelunternehmen eines Ehegatten
-oder Teilhaber eines Ehegatten an einem Personenunternehmen) Grundlage für die Berech-
-nung. Davon ausgehend, dass die geschäfts- oder berufsmässig begründeten Kosten, die
-Sozialversicherungsabzüge und die hälftigen Beiträge an die berufliche Vorsorge (ordentli-
-che Beiträge) bereits in der Erfolgsrechnung berücksichtigt wurden, kann nach Abzug der
-steuerlich abzugsfähigen Prämien für die gebundene Selbstvorsorge (Säule 3a) sowie den
-ordentlichen Beiträgen an die berufliche Vorsorge und Einkäufe das ermittelte Einkommen
-hälftig auf die Ehepartner aufgeteilt werden. Führt das Ehepaar gemeinsam oder mit Dritten
-ein Personenunternehmen, so richtet sich die Aufteilung nach der buchhalterischen Gewinn-
-zuteilung an die Gesellschafter. Auch bei diesen Gewinnzuteilungen sind die Prämien für die
-gebundene Selbstvorsorge in Abzug zu bringen. Unter Berücksichtigung allfälliger weiterer
-Erwerbseinkünfte kann vom niedrigeren Einkommen ein Abzug von 50 Prozent dieses Ein-
-kommens, jedoch mindestens 8’100 Franken und höchstens 13’400 Franken geltend ge-
-macht werden. Beträgt das für die Berechnung des Abzuges massgebende Zweiteinkommen
-weniger als 8’100 Franken, so gilt auch hier, dass nur die Höhe dieses Zweiteinkommens
-abgezogen werden kann. Wenn sich aus der Erwerbstätigkeit ein Verlust ergibt, kann kein
-Abzug gewährt werden.
+Bei der Zuweisung des Elterntarifs ist bei den einzelnen Familienkonstellationen Folgendes
+festzuhalten:
+
+Ehepaare mit minderjährigen Kindern
+
+Ehepaare in rechtlich und tatsächlich ungetrennter Ehe werden gemeinsam veranlagt und
+zum Elterntarif besteuert.
+
+Getrennt lebende Eltern mit minderjährigem Kind
+
+Bei getrennten, geschiedenen oder unverheirateten Eltern mit zwei Haushalten ist bei der
+Zuteilung des Elterntarifs zu unterscheiden, ob die elterliche Sorge gemeinsam ausgeübt
+wird oder nicht. Hält nur ein Elternteil die elterliche Sorge inne, ist davon auszugehen, dass
+dieser den Unterhalt des Kindes zur Hauptsache bestreitet und den Elterntarif erhält.
+
+Bei gemeinsamer elterlicher Sorge wird der Elternteil, der die Unterhaltszahlungen erhält,
+zum Elterntarif besteuert. Werden keine Unterhaltszahlungen für das Kind geltend gemacht,
+ist zu unterscheiden, ob sich das Kind in alternierender Obhut befindet oder nicht. Besteht
+keine alternierende Obhut, wird der Elternteil, der mit dem Kind lebt zum Elterntarif besteu-
+ert. Bei alternierender Obhut wird davon ausgegangen, dass der Elternteil mit dem höheren
+Reineinkommen zur Hauptsache für den Unterhalt des Kindes sorgt und daher den Elternta-
+rif erhält.

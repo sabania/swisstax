@@ -5,17 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 206"
-seiten: "56"
+seiten: "54"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 56
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 54
 
-8.4   Wechsel von einem Kanton mit Jahresmodell zu einem anderen Kanton mit Jah-
-    resmodell
-Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
-Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton nach dessen Tarif
-ab.
-Vor oder nach dem Kantonswechsel erfolgte Einmalzahlungen (bspw. Boni, 13. Monatsgeh-
-alt, Einkommen aus Mitarbeiterbeteiligungen) oder Änderungen des Einkommens haben kei-
-nen Einfluss auf die Ermittlung des satzbestimmenden Jahreseinkommens im anderen Kan-
-ton. Die Abrechnungen sind wie bei einem unterjährigen Ein- bzw. Austritt vorzunehmen.
+    Quellensteuer   56   56   1713   79.80   79.80   155.80   1 077.20
+    Korrektur
+    +404   +40.00
+    Januar und Februar
+    Total
+    56   56   211   79.80   79.80   155.80   1 117.20
+    Quellensteuer
+    1 = H1 mit satzbestimmendem Jahreseinkommen von CHF 52 000.00 (CHF 4 000 x 13).
+
+    2 = H1 mit satzbestimmendem Jahreseinkommen von CHF 58 800.00 ([CHF 4 000 x 13] + [CHF 200 x 12]
+
+    + CHF 4 400).
+    3 = (CHF 4 000 + CHF 600 + CHF 4 400) x 1.90 %.
+
+    4 = Korrektur des Quellensteuerabzugs für die Monate Januar und Februar [(CHF 4 000 x 1.90 %) x 2] –
+
+    (2 x CHF 56).

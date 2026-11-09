@@ -5,14 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 31"
-seiten: "10"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 11
 
-<!-- Seite 10 -->
-Einlagen in die Reserven aus Kapitaleinlagen, die während eines Kapitalbands nach den Ar-
-tikeln 653s ff. OR geleistet werden, können aufgrund der Nettobetrachtung erst nach Beendi-
-gung des Kapitalbands als KER oder Ausland-KER bestätigt und ohne Einkommenssteuer-
-(Art. 20 Abs. 3 DBG) oder Verrechnungssteuerfolgen (Art. 5 Abs. 1bis VStG) zurückbezahlt
-werden.
+Werden Beteiligungsrechte, deren Rückkauf bereits zu einer sofortigen oder aufgeschobe-
+nen Besteuerung als Teilliquidation geführt hat, wieder ausgegeben, so qualifiziert der Teil
+des Veräusserungserlöses, der über dem Nennwert liegt und soweit er den übrigen Reser-
+ven belastet werden kann, als KER (vgl. Kreisschreiben Nr. 5a der ESTV vom 1.2.2022, Zif-
+fer 6).

@@ -5,16 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 44 – Abschnitt 14"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 44 · S. 4
 
-3.1   Rechtsgrundlage
-Die Steuer nach dem Aufwand wird gemäss Artikel 14 Absatz 3 DBG nach den jährlichen, in
-der Bemessungsperiode im In- und Ausland entstandenen Lebenshaltungskosten der steuer-
-pflichtigen Person und der von ihr unterhaltenen Personen, mindestens aber nach dem höchs-
-ten der folgenden Beträge bemessen:
-    a. 400 000 Franken;
-    b. für steuerpflichtige Personen mit eigenem Haushalt: dem Siebenfachen des jährlichen
-    Mietzinses oder des Mietwerts nach Artikel 21 Absatz 1 Buchstabe b DBG;
+<!-- Seite 4 -->
+    c. für die übrigen steuerpflichtigen Personen: dem Dreifachen des jährlichen Pensionsprei-
+    ses für Unterkunft und Verpflegung am Ort des Aufenthalts nach Artikel 3 DBG;
+    d. der Summe der Bruttoerträge:
+    1. der Einkünfte aus dem in der Schweiz gelegenen unbeweglichen Vermögen,
+    2. der Einkünfte aus der in der Schweiz gelegenen Fahrnis,
+    3. der Einkünfte aus dem in der Schweiz angelegten beweglichen Kapitalvermögen,
+    einschliesslich der grundpfändlich gesicherten Forderungen,
+    4. der Einkünfte aus den in der Schweiz verwerteten Urheberrechten, Patenten und
+    ähnlichen Rechten,
+    5. der Ruhegehälter, Renten und Pensionen, die aus schweizerischen Quellen fliessen,
+    6. der Einkünfte, für die die steuerpflichtige Person aufgrund eines von der Schweiz ab-
+    geschlossenen Abkommens zur Vermeidung der Doppelbesteuerung gänzlich
+    oder teilweise Entlastung von ausländischen Steuern beansprucht.

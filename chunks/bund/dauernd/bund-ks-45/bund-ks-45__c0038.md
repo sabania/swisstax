@@ -10,17 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 9
 
-3.2   Steuerbare Leistungen
-3.2.1 Der Quellensteuer unterliegende Einkünfte aus Arbeitsverhältnis
-Die Quellensteuer wird von den Bruttoeinkünften berechnet (Art. 84 Abs. 1 DBG).
-Steuerbar sind alle dem Arbeitnehmer oder einer Drittperson im Zusammenhang mit dem Ar-
-beitsverhältnis ausgerichteten oder gutgeschriebenen Entschädigungen, insbesondere (vgl.
-Art. 84 Abs. 2 Bst. a DBG):
-     Der ordentliche Arbeitslohn (Monatslohn, Stunden- oder Taglohn, Akkordentschädigun-
-    gen);
-     Entschädigungen für Sonderleistungen (Lohn für Überzeit-, Nacht- oder Extraarbeiten,
-    Arbeitsprämien);
-     sämtliche Lohnzulagen (Familienzulagen, Essens-, Orts- und Teuerungszulagen, Feri-
-    enentschädigungen etc.);
-     Provisionen, Gratifikationen und Bonuszahlungen;
-     Dienstalters- und Jubiläumsgeschenke;
+3.1.2 Arbeitnehmer mit Ansässigkeit im Ausland
+Unabhängig von der Staatsangehörigkeit oder der aufenthaltsrechtlichen Bewilligung ist ein
+Arbeitnehmer (Grenzgänger, Wochen- oder Kurzaufenthalter) mit Ansässigkeit im Ausland
+für seine Lohn- und Ersatzeinkünfte, die ihm von einem Leistungsschuldner mit Wohnsitz,
+Sitz, tatsächlicher Verwaltung, Betriebsstätte oder fester Einrichtung in der Schweiz ausge-
+richtet werden, quellensteuerpflichtig (vgl. Art. 91 Abs. 1 DBG). Das bedeutet, dass ein Ar-
+beitnehmer mit Ansässigkeit im Ausland auch bei Besitz der Schweizer Staatsangehörigkeit
+oder der Niederlassungsbewilligung der Quellensteuerpflicht unterstellt ist. Vorbehalten blei-
+ben anderslautende Bestimmungen im massgebenden DBA.
+Arbeitnehmer ohne Ansässigkeit in der Schweiz, die für Arbeiten im internationalen Verkehr
+an Bord eines Schiffes, eines Luftfahrzeuges oder bei einem Transport auf der Strasse Lohn

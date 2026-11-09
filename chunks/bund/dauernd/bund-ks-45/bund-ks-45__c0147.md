@@ -5,22 +5,12 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 147"
-seiten: "39"
+seiten: "38"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 38
 
-    Quellensteuer   520   520   1 521   585   1 170   8 346
-    Korrektur
-    +1953   +195
-    Januar - März
-    Total
-    520   520   1 716   585   1 170   8 541
-    Quellensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000 (CHF 5 000 x 13).
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 73 000 (CHF 5 000 x 13 + CHF 8 000).
-
-    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis März [(CHF 5 000 x 11.7 %) x 3 -
-
-    (CHF 520 x 3)].
+Im Falle einer Lohnänderung während des Jahres ist die Steuerbelastung unter Berücksichti-
+gung des gesamten Jahreseinkommens der steuerpflichtigen Person anzupassen.

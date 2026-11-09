@@ -162,7 +162,7 @@
 "titel": "Formular 2 2026 – Abschnitt 11",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -203,22 +203,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-form-2-2026__c0012",
-"nachher": "bund-form-2-2026__c0014"
-},
-{
-"id": "bund-form-2-2026__c0014",
-"titel": "Formular 2 2026 – Abschnitt 14",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-form-2-2026__c0013",
 "nachher": null
 }
 ]

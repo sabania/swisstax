@@ -5,25 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 17"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 5
 
-Art. 20
-[…]
-8
- Absatz 3 gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den Artikeln
-653s ff. des Obligationenrechts (OR) geleistet werden, nur soweit sie die Rückzahlungen von
-Reserven im Rahmen dieses Kapitalbands übersteigen.
+Bei Kapitalgesellschaften mit einem Nominalkapital in Schweizer Franken nach Artikel 621
+Absatz 1 OR sind für Kapitaleinlagen in fremder Währung sowohl die Einlagen als auch die
+Rückzahlungen (im Zeitpunkt der jeweiligen Fälligkeit) von Reserven aus Kapitaleinlagen zum
+Tageskurs in Schweizer Franken umzurechnen.
 
-VStG
-
-Art. 5
-[…]
-
-    Absatz 1bis gilt für Einlagen und Aufgelder, die während eines Kapitalbands nach den
-1septies
-
-Artikeln 653s ff. des OR geleistet werden, nur soweit sie die Rückzahlungen von Reserven
-im Rahmen dieses Kapitalbands übersteigen.
+Bei Kapitalgesellschaften mit einem Nominalkapital in einer für die Geschäftstätigkeit we-
+sentlichen ausländischen Währung im Sinne von Artikel 621 Absatz 2 OR sind für Kapitalein-
+lagen in einer anderen als der wesentlichen ausländischen Währung sowohl die Einlagen als
+auch die Rückzahlungen (im Zeitpunkt der jeweiligen Fälligkeit) zum Tageskurs in die we-
+sentliche ausländische Währung (= Währung des nominellen Kapitals gemäss Handelsregis-
+tereintrag) umzurechnen. Die Reserven aus Kapitaleinlagen werden dabei nur in der wesent-
+lichen ausländischen Währung anerkannt und bestätigt.

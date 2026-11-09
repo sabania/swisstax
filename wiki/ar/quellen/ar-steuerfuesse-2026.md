@@ -12,6 +12,10 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/2026/Steuerfuesse_2026.pdf> · lokal: [ar-steuerfuesse-2026.pdf](../../../raw/ar/2026/ar-steuerfuesse-2026.pdf) · Volltext: [ar-steuerfuesse-2026.md](../../../sources/ar/2026/ar-steuerfuesse-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `34b9d573d5d57ce3…`
 
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 1: Tabellenspalten teils vermischt (Gemeinden mit mehreren Kirchgemeinden, z.B. Thal-Lutzenberg, Heiden, Teufen als Zeilenfortsetzungen); Zuordnung Gemeinde/Kirchgemeinde nur aus Zeilenposition erkennbar.
+
 ## Inhalt (4 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

@@ -4,20 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 59"
-seiten: "13"
+titel: "Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 1/2)"
+ziffer: "10.1"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.1 Grundsatz · S. 19
 
-Die Kinderdrittbetreuungskosten können von der steuerpflichtigen Person nur geltend ge-
-macht werden, wenn die Eigenbetreuung der Kinder in direktem kausalem Zusammenhang
-mit der Erwerbstätigkeit, der Ausbildung oder der Erwerbsunfähigkeit mit gleichzeitiger Be-
-treuungsunfähigkeit nicht wahrgenommen werden konnte.
+10   Kinderabzug
 
-Als Erwerbstätigkeit gilt jede selbständige wie auch jede unselbständige Tätigkeit im Sinne
-der Artikel 17 und 18 DBG. Arbeitslose Eltern, die beispielsweise auf Veranlassung eines
-regionalen Arbeitsvermittlungszentrums Kurse besuchen müssen oder die zu einem Vorstel-
-lungsgespräch aufgeboten wurden etc., können für diesen Zeitraum ebenfalls den Kinder-
-drittbetreuungskostenabzug beanspruchen. Solche Bemühungen zur Wiedereingliederung in
-die Arbeitswelt sind einer Erwerbstätigkeit gleichzusetzen.
+10.1   Grundsatz
+
+Für jedes minderjährige oder in der Ausbildung stehende Kind kann ein Kinderabzug (Art.
+35 Abs. 1 Bst. a DBG) geltend gemacht werden. Vorausgesetzt wird - wie bei der Steuersub-
+stitution - das Bestehen eines Kindesverhältnisses. Damit kann grundsätzlich für die leibli-
+chen und adoptierten Kinder sowie bei gemeinsam veranlagten Ehegatten auch für das
+Stiefkind ein Abzug beansprucht werden. Pflegeeltern wird für ihre Pflegekinder hingegen
+kein Kinderabzug gewährt. Kommen die Pflegeeltern für den Unterhalt des Kindes auf, kön-
+nen sie, wenn die Voraussetzungen erfüllt sind, den Unterstützungsabzug geltend machen.
+
+Für jedes Kind ist insgesamt nur ein ganzer Kinderabzug möglich. Neben dem Kindesver-
+hältnis wird auch vorausgesetzt, dass die den Abzug beanspruchende Person für den Unter-
+halt des Kindes sorgt. Dies kann sowohl die tatsächliche Sorge für das leibliche Wohl des
+Kindes wie auch die finanzielle Unterstützung sein.

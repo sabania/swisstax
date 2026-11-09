@@ -1,0 +1,30 @@
+[
+{
+"id": "zh-form-367-2025__c0001",
+"titel": "Form. 367 Berufsorientierte Aus- und Weiterbildungskosten – Codes 2900–2921, Ziff. 16.2",
+"pfad": [
+"Aus- und Weiterbildungskosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.2",
+"stichworte": [
+"Weiterbildung",
+"Ausbildung",
+"Weiterbildungskosten",
+"Kurs",
+"Berufsbildung",
+"Arbeitgeberbeitrag",
+"Studium"
+],
+"positionen": [
+"abzug.weiterbildung"
+],
+"zusammenfassung": "Formular 367 ZH: Total Kosten (2900/2903) minus Arbeitgeberbeitrag (2901/2904) ergibt selbstgetragene Kosten (2902/2905); zulässiger Abzug Staatssteuer max. je CHF 12’400, Bundessteuer max. je CHF 13’000, zu übertragen in Steuererklärung Seite 3 Ziffer 16.2.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": null
+}
+]

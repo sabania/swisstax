@@ -2,24 +2,23 @@
 id: bund-ks-18a__c0053
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 53"
 seiten: "12"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 12
+> Bund · Steuerjahr 2026 · KS 18a · S. 12
 
-<!-- Seite 12 -->
-9.   Folgen unzulässiger Einzahlungen
-9.1. Für den Vorsorgenehmer
-Auf Vorsorgekonten und in Vorsorgeversicherungen können nicht höhere Beiträge einbezahlt
-werden, als ein Abzug gemäss Artikel 7 Absatz 1 BVV 3 zulässig ist. Bei der Beschränkung
-des höchstzulässigen Einzahlungsbetrages geht es auch um eine Beschränkung der Steuer-
-befreiung bezüglich der Einkommens-, Vermögens- und der Verrechnungssteuer. Die einbe-
-zahlten Beträge sind von der Vermögenssteuer ausgenommen und die Erträge daraus unter-
-liegen nicht der Verrechnungssteuer. Sind überhöhte Einzahlungen vorgenommen worden,
-fordert die Veranlagungsbehörde den Steuerpflichtigen auf, sich die zu viel einbezahlten Be-
-träge vom Vorsorgeträger zurückerstatten zu lassen. Die Vorsorgeeinrichtungen bezahlen
-nur den nominellen Überschussbetrag zurück, der auf diesem Betrag aufgelaufene Zins wird
-nicht zurückerstattet.
+10. Anlage in Wertschriften; Rückerstattung der Verrechnungssteuer
+Sofern zugunsten der Vorsorgenehmer individuelle Wertschriftendepots eröffnet worden
+sind, hat die Bankstiftung Anspruch auf Rückerstattung der auf den Kapitalerträgen abgezo-
+genen Verrechnungssteuer. Sie hat den Antrag auf Rückerstattung der Verrechnungssteuer
+bei der Eidgenössischen Steuerverwaltung (ESTV), Hauptabteilung Direkte Bundessteuer,
+Verrechnungssteuer, Stempelabgabe, Abteilung Rückerstattung, Eigerstrasse 65,
+3003 Bern, einzureichen. Dem Antrag ist ein Verzeichnis beizulegen, das die Namen und
+Adressen dieser Einleger sowie den Betrag ihrer Anlagen und der auf sie entfallenden Brut-
+toerträge angibt. Im jährlichen Depotauszug ist darauf hinzuweisen, dass dem Vorsorgeneh-
+mer kein Anspruch auf Rückerstattung der Verrechnungssteuer zusteht (vgl. Art. 53 der Ver-
+ordnung vom 19. Dezember 1966 über die Verrechnungssteuer [Verrechnungssteuerverord-
+nung, VStV; SR 642.211]).

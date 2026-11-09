@@ -4,15 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 57"
-seiten: "12"
+titel: "Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung (Teil 2/2)"
+ziffer: "9.3"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.3 Mitarbeit im Beruf oder Betrieb · S. 18
 
-Als Kinder, für die ein Kinderdrittbetreuungskostenabzug beansprucht werden kann, gelten
-einerseits die leiblichen Kinder sowie die Adoptivkinder nach Artikel 264 ff. ZGB. Anderer-
-seits fallen bei Ehepaaren auch die nicht gemeinsamen Kinder, die sog. Stiefkinder, darun-
-ter, da gemäss Artikel 299 ZGB jeder Ehegatte dem andern in der Ausübung der elterlichen
-Sorge gegenüber dessen Kindern in angemessener Weise beizustehen und ihn zu vertreten
-hat, wenn es die Umstände erfordern.
+gebundene Selbstvorsorge in Abzug zu bringen. Unter Berücksichtigung allfälliger weiterer
+Erwerbseinkünfte kann vom niedrigeren Einkommen ein Abzug von 50 Prozent dieses Ein-
+kommens, jedoch mindestens 8’100 Franken und höchstens 13’400 Franken geltend ge-
+macht werden. Beträgt das für die Berechnung des Abzuges massgebende Zweiteinkommen
+weniger als 8’100 Franken, so gilt auch hier, dass nur die Höhe dieses Zweiteinkommens
+abgezogen werden kann. Wenn sich aus der Erwerbstätigkeit ein Verlust ergibt, kann kein
+Abzug gewährt werden.

@@ -4,18 +4,12 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 129"
-seiten: "31"
+titel: "Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 3/3)"
+ziffer: "14.12"
+seiten: "38"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.12 · S. 38
 
-Unterhaltsleistungen in der Form von Geldleistungen an den getrennt lebenden oder ge-
-schiedenen Ehegatten können sowohl als Renten als auch als Kapitalabfindungen erfolgen.
-In Weiterführung der bisherigen Praxis, die auch vom Bundesgericht gestützt wird (Entscheid
-vom 29. Januar 1999, BGE 125 II 183), darf die Abzugsfähigkeit der periodischen Unterhalts-
-leistungen jedoch nicht auf die Unterhaltsleistungen in Form einer Kapitalleistung ausge-
-dehnt werden. Infolgedessen kann der als Kapitalleistung gezahlte Betrag zum Unterhalt des
-geschiedenen Ehegatten nicht vom steuerbaren Einkommen des Schuldners abgezogen
-werden. Der Empfänger dieser Leistung muss sie im Gegenzug aber auch nicht als Ein-
-kommen deklarieren.
+14.12.3   Tarife
+   Beide Elternteile werden zum Grundtarif besteuert.

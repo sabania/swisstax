@@ -5,24 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 35"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
 
-Wird eine kollektive Kapitalanlage liquidiert, unterliegt bei Anlagen im Geschäftsvermögen
-die positive Differenz zwischen dem Liquidationserlös und dem steuerlich massgebenden
-Buchwert (Einkommens- bzw. Gewinnsteuerwert) der Einkommens- oder der Gewinnsteuer.
-Allfällige negative Differenzen stellen im Geschäftsvermögen abzugsfähigen Kapitalverlust
-dar.
+4.5   Bescheinigungspflicht
+Die kollektiven Kapitalanlagen haben den Anlegerinnen und Anlegern alle Verhältnisse zu
+bescheinigen, die für die Besteuerung der Erträge massgeblich sind. Zudem haben sie ihre
+Jahresberichte bzw. Jahresrechnungen bei der ESTV einzureichen.
 
-4.4   Rückerstattung der Verrechnungssteuer
-Gemäss Artikel 4 Absatz 1 Buchstabe c des Bundesgesetzes über die Verrechnungssteuer
-(VStG)5 unterliegen die Zinsen, Gewinnanteile und sonstigen Erträge des von einem Inländer
-oder von einem Ausländer in Verbindung mit einem Inländer ausgegebenen Anteile an einer
-kollektiven Kapitalanlage gemäss KAG der Verrechnungssteuer.
-
-Anlegerinnen und Anleger haben Anspruch auf Rückerstattung der Verrechnungssteuer,
-wenn sie bei Fälligkeit der steuerbaren Leistung rückerstattungsberechtigt sind.
-
-5 SR 642.21
+Die thesaurierten Vermögenserträge unterliegen aufgrund der Treuhandlösung auf Stufe der
+Anlegerinnen und Anleger der Einkommenssteuer. Die thesaurierenden kollektiven Kapital-
+anlagen haben daher den Anlegerinnen und Anlegern für die direkten Steuern die thesaurier-
+ten Erträge jährlich zu bescheinigen. Davon ausgenommen sind die wiederangelegten Kapi-
+talgewinne, sofern sie in der Jahresrechnung separat ausgewiesen werden. Mit der Meldung
+des thesaurierten Ertrages pro Anteil an die ESTV zu Handen der Kursliste HB und der Be-
+reitstellung der entsprechenden Berechnungsgrundlagen ist die Bescheinigungspflicht der
+Kapitalanlage erfüllt.

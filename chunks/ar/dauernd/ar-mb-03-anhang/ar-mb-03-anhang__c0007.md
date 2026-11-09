@@ -5,31 +5,33 @@ jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB AR 03-anhang – Abschnitt 7"
-seiten: "3"
+seiten: "2"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 3
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 2
 
-<!-- Seite 3 -->
- 3.3 Elektroinstallationen
-  - Elektroinstallationen
-    a) gleichwertiger Ersatz von Installationen   1/1
-    b) erstmaliger Einbau, Erweiterung, Verlegung jeglicher   1/1
-    Elektroinstallationen
-    c) Lampen inkl. Leuchtmittel (gilt auch für fest montierte, die   1/1
-    ohne Beschädigungen entfernt und ersetzt werden können)
-  - Glasfaseranschluss
-    a) Anschluss-/Erschliessungsgebühren   1/1
-    b) Umstellung auf Glasfasernetz   1/1
-  - fest installierte Smart Home Systeme
-    a) Erstanschaffung   1/1
-    b) Reparatur und Ersatz (exkl. Erweiterungen)   1/1
-  - Ladestation/Steckdose Elektromobil
-    a) Erstanschaffung   1/1
-    b) Reparatur und Ersatz   1/1
-    c) Erstanschaffung bidirektionale Ladestation   3/4   E   1/4
-  - Alarmanlagen
+ 3.1   Kücheneinrichtungen
+  -   gleichwertiger Ersatz Küche   1/1
+  -   Ersatz einzelner eingebauter Küchengeräte   1/1   E
+  -   nicht fest verbundene Küchengeräte (z. B. Mixer,   1/1
+    Kaffeemaschine etc.)
+  -   Ersatz mit erheblicher Komfortverbesserung   2/3   1/3
+
+ 3.2 Sanitäre Installationen
+  - Sanitärräume (Bad, Dusche, WC)
+    a) gleichwertiger Ersatz einzelner Armaturen und Einrichtungen   1/1
+    b) zusätzliche Neuinstallationen   1/1
+    c) Ersatz mit erheblicher Komfortverbesserung   2/3   1/3
+  - Sanitäre Installationen (Wasser-/Abwasserleitungen)
+    a) Neuinstallation   1/1
+    b) Reparatur, gleichwertiger Ersatz   1/1
+  - Waschautomaten, Trockner, Tumbler
     a) erstmalige Anschaffung   1/1
-    b) gleichwertiger Ersatz (exkl. Erweiterungen)   1/1
-    c) Abonnement Wartung Alarmanlage   1/1
-    d) Kosten der Überwachung (Abonnement für Alarmierung)   1/1
+    b) gleichwertiger Ersatz   1/1   E
+    c) Serviceabonnement   1/1
+  - mobile Luftentfeuchter/-befeuchter   1/1
+  - Wasserenthärtungsanlagen
+    a) Anschaffung   1/1
+    b) Reparaturen und gleichwertiger Ersatz   1/1
+    c) Serviceabonnement   1/1
+    d) Salz und dergleichen   1/1

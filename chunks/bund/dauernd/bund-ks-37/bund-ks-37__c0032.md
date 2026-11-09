@@ -10,17 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
 
-       Bei Bezugsfristen von bis zu 60 Kalendertagen gilt als steuerlich massgebender Ver-
-    kehrswert der Schlusskurs des ersten Tages der Bezugsfrist. In begründeten Fällen
-    und in Absprache mit der zuständigen Steuerbehörde kann von dieser Verkehrswert-
-    berechnung abgewichen werden.
+Wird der Formelwert nur einmal pro Jahr berechnet, gilt er nur dann als steuerlich massge-
+bender Wert, wenn die Abgabe der Mitarbeiteraktien innert sechs Monaten nach dem betref-
+fenden Bewertungsstichtag erfolgt. Andernfalls ist der Formelwert des kommenden Bewer-
+tungsstichtags angemessen zu berücksichtigen.
 
-3.2.2 Nicht börsenkotierte Mitarbeiteraktien
-Bei nicht an einer Börse kotierten Mitarbeiteraktien fehlt es in der Regel an einem Verkehrs-
-wert. Daher gilt als massgeblicher Wert grundsätzlich der nach einer für den entsprechenden
-Arbeitgeber tauglichen und anerkannten Methode ermittelte Formelwert. Dabei kann die Be-
-rechnung des entsprechenden Werts im Zeitpunkt der Zuteilung den Regelungen gemäss
-dem Kreisschreiben Nr. 28 der Schweizerischen Steuerkonferenz von 28. August 2008
-(Wegleitung zur Bewertung von Wertpapieren ohne Kurswert für die Vermögenssteuer) fol-
-gen. Die einmal gewählte Berechnungsmethode muss für den entsprechenden Mitarbeiter-
-beteiligungsplan zwingend beibehalten werden.
+Ist für nicht börsenkotierte Aktien ausnahmsweise ein Verkehrswert verfügbar, ist grundsätz-
+lich dieser anwendbar. Im Einzelfall kann auf entsprechenden Antrag des Arbeitgebers trotz
+Verfügbarkeit eines Verkehrswerts auf einen Formelwert abgestellt werden. Dies setzt vo-
+raus, dass der Arbeitgeber ein unbeschränktes Kaufrecht hat, die Mitarbeiteraktien zum iden-
+tisch berechneten Formelwert zurück zu kaufen.

@@ -2,23 +2,26 @@
 id: bund-ks-18a__c0017
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 17"
 seiten: "4"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 4
+> Bund · Steuerjahr 2026 · KS 18a · S. 4
 
-5.   Abzugsberechtigung für Beiträge
-5.1. Allgemeines
-Arbeitnehmer und Selbständigerwerbende, welche ein AHV-pflichtiges Erwerbseinkommen
-erzielen, können nach Artikel 33 Absatz 1 Buchstabe e des Bundesgesetzes vom 14. De-
-zember 1990 über die direkte Bundessteuer (DBG; SR 642.11) in Verbindung mit Artikel 7
-BVV 3 ihre Beiträge an anerkannte Vorsorgeformen in begrenztem Umfang steuerlich zum
-Abzug bringen. Diese Beiträge gelten bei selbständig erwerbenden Personen stets als Kos-
-ten der privaten Lebenshaltung und dürfen deshalb der Erfolgsrechnung nicht belastet wer-
-den. Der Umfang der Abzugsberechtigung entspricht zugleich der Höhe der zulässigen Bei-
-träge an diese Vorsorgeformen; die Leistung höherer als der steuerlich abzugsberechtigten
-Beiträge ist nicht möglich. Überschiessende Beiträge unterliegen der Rückerstattungs-
-pflicht(vgl. dazu auch Ziffer 9.1).
+Die Begrenzung nach Artikel 7 BVV 3 umfasst auch allfällige Beiträge an eine ergänzende
+Risiko-Vorsorgeversicherung oder Zuschläge für unterjährige Ratenzahlungen (Art. 1 Abs. 3
+Satz 2 BVV 3).
+
+Jeglicher Abzug setzt die Erwerbstätigkeit des Steuerpflichtigen voraus. Bei vorübergehen-
+dem Unterbruch der Erwerbstätigkeit (Militärdienst, Arbeitslosigkeit, Krankheit usw.) bleibt
+die Abzugsberechtigung erhalten, soweit ein AHV-pflichtiges Erwerbsersatzeinkommen er-
+zielt wird. Bei Aufgabe der Erwerbstätigkeit entfällt die Möglichkeit der Beitragsleistungen,
+selbst wenn das für die Ausrichtung von Altersleistungen vorgesehene Terminalter noch
+nicht erreicht ist (z.B. bei vorzeitiger Pensionierung, bei Aufgabe der Erwerbstätigkeit infolge
+Mutterschaft, 100%-iger Invalidität und fehlender Resterwerbsfähigkeit).
+Erbringt eine Vorsorgeversicherung eine Leistung aus einer Prämienbefreiung, so stellt diese
+beim Vorsorgenehmer kein Einkommen dar, da der Vorsorgenehmer gar nicht über die ent-
+sprechenden Mittel verfügen kann. Solche Beiträge kann der Vorsorgenehmer sodann auch
+nicht steuerlich zum Abzug bringen (vgl. Ziffer 6.2.).

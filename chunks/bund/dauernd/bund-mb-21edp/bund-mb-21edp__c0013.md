@@ -5,22 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB 21 EDP – Abschnitt 13"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 3
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 4
 
-    Bei ordentlichen und Erhöhungsbeiträgen ist das Jahr massgebend, für welches die Bei
-    träge bestimmt sind und fakturiert werden. Das Jahr, in welchem sie effektiv entrichtet
-    werden, ist nicht entscheidend.
+    Feld h: Beginn des Vorsorgeverhältnisses
+20   Anzugeben ist das Datum der Begründung des ersten Vorsorgeverhältnisses. Ist dieses
+    nicht bekannt (z.B. wenn das Vorsorgeverhältnis bei einer anderen Vorsorgeeinrichtung
+    begründet wurde), so ist unter „Bemerkungen“ das Datum der Überweisung der Freizü
+    gigkeitsleistung sowie Name und Adresse der überweisenden Vorsorgeeinrichtung anzu
+    geben.
 
-    Feld e: Als Selbständigerwerbende/r
-17   Anzugeben sind diejenigen Beiträge des Vorsorgenehmers, die er in seiner Eigenschaft
-    als Selbständigerwerbender dem Vorsorgeträger entrichtet hat.
+    Feld i: Fälligkeit der Altersleistungen
+21   Einzusetzen ist der Zeitpunkt des ordentlichen reglementarischen Rücktrittsalters.
 
-    Feld f: Als Arbeitnehmer/in
-18   Einzusetzen sind diejenigen Beiträge des Vorsorgenehmers, die er als Arbeitnehmer
-    dem Vorsorgeträger aus eigenen Mitteln geleistet und selber überwiesen hat. Diese Bei
-    träge müssen daher vom Arbeitgeber nicht im Lohnausweis bescheinigt werden (vgl.
-    Rz 12). Es handelt sich dabei nicht um Beiträge, die dem Arbeitnehmer vom Lohn abge
-    zogen wurden.
+    Feld j: Freiwillige Einkaufsbeiträge
+22   Anzugeben sind ausschliesslich (bei Arbeitnehmern nicht vom Lohn abgezogene) freiwil
+    lige Beiträge des Versicherten, die den Einkauf in die reglementarischen Leistungen zum
+    Zweck haben.

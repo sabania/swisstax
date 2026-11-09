@@ -10,15 +10,8 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 1
 
-1. Allgemeines und Inkrafttreten
-
-Im vorliegenden Kreisschreiben werden steuerliche Fragen im Zusammenhang mit dem
-Bundesgesetz vom 17. Dezember 1993 über die Freizügigkeit in der beruflichen Alters-, Hin-
-terlassenen- und Invalidenvorsorge (Freizügigkeitsgesetz, [FZG]; SR 831.42) und der ent-
-sprechenden Ausführungsverordnung (Verordnung vom 3. Oktober 1994 über die Freizügig-
-
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
-1-041-D-2014-d
+2.2.4   Bei Auszahlung des Vorsorgeguthabens ................................................... 4
+2.2.5   Auszahlung und Einkauf innert 12 Monaten .............................................. 5
+2.2.6   Aufnahme einer selbständigen Erwerbstätigkeit und Investitionen in
+    den eigenen Betrieb .................................................................................. 5
+2.2.7   Unzulässige Auszahlung des Vorsorgeguthabens .................................... 5

@@ -10,13 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 3
 
-3   Krankheits- und Unfallkosten
-
-3.1   Begriffe der Krankheits- und Unfallkosten
-Zu den Krankheits- und Unfallkosten werden die Ausgaben für medizinische Behandlungen ge
-rechnet, d. h. die Kosten für Massnahmen zur Erhaltung und Wiederherstellung der körperli
-chen oder psychischen Gesundheit, insbesondere die Kosten für ärztliche Behandlungen, Spi
-talaufenthalte, Medikamente, Impfungen, medizinische Apparate, Brillen und Kontaktlinsen, Au
-genlasern, Therapien, Drogenentzugsmassnahmen etc.
-Nicht als Krankheits- und Unfallkosten, sondern als nicht abzugsfähige Lebenshaltungskosten
-gelten Aufwendungen, welche:
+    son, der es eine voraussichtlich dauernde körperliche, geistige oder psychische Beeinträchti
+    gung erschwert oder verunmöglicht, alltägliche Verrichtungen vorzunehmen, soziale Kontakte
+    zu pflegen, sich fortzubewegen, sich aus- und weiterzubilden oder eine Erwerbstätigkeit aus
+    zuüben.
+Im Gegensatz zu den Krankheits- und Unfallkosten ist bei den behinderungsbedingten Kosten
+kein Selbstbehalt zu berücksichtigen.

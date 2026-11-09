@@ -5,19 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 86"
-seiten: "28"
+seiten: "29"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 29
 
-<!-- Seite 28 -->
-Anhang 1: Beispiele zur Transponierung
+<!-- Seite 29 -->
+3. Einbringung in eine nicht beherrschte Gesellschaft
 
-1. Einbringung in eine vollständig beherrschte Gesellschaft
-
-A ist zu 100% an der A AG sowie der H AG beteiligt. Er bringt die Beteiligung an der A AG
-zum Verkehrswert in die H AG ein. Die Agioeinlage von 1000 weist die H AG nach der Ein-
-lage als KER aus. Die Gesellschaften weisen vor der Übertragung folgende Werte auf:
+A ist zu 30% an der A AG beteiligt. Er bringt die Beteiligung an der A AG zum Verkehrswert
+von 300 in die H AG ein. Durch die Einlage wird das Aktienkapital der H AG auf 175 erhöht.
+Der Rest von 225 wird als Agioeinlage eingebucht, welche als KER ausgewiesen wird. Die
+Gesellschaften weisen vor der Übertragung folgende Werte auf:
 
     Nominalkapital   KER   übrige   Verkehrs-
     Reserven   wert
@@ -25,11 +24,11 @@ lage als KER aus. Die Gesellschaften weisen vor der Übertragung folgende Werte 
  A AG   100   200   500   1000
  H AG   100   50   150   400
 
- Zunahme KER H AG aus Einlage Beteiligung   1000
- ./. Nominalkapital und KER A AG vor Einbringung   –300
- steuerbarer Ertrag aus Transponierung   700
+ Zunahme Nominalkapital und KER H AG   300
+ ./. Nominalkapital und KER A AG vor Einbringung   –90
+ Ertrag aus Transponierung   210
 
-A hat einen steuerbaren Ertrag aus Transponierung gemäss Artikel 20a Absatz 1 Buchstabe
-b DBG von 700 zu versteuern.
 
-2. Einbringung in eine mehrheitlich beherrschte Gesellschaft
+Bei A können die 210 nicht als steuerbarer Ertrag aus Transponierung gemäss Artikel 20a
+Absatz 1 Buchstabe b DBG besteuert werden, da er die H AG durch seine Beteiligung von
+42,9% am Grundkapital nicht beherrscht.

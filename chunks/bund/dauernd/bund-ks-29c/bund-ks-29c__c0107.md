@@ -10,22 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 36
 
-<!-- Seite 36 -->
-Total Rückzahlungen von Reserven an die Aktionäre   -22'800.00
-Nettoerhöhung KER aus Kapitalband gemäss Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1 septies VStG   2'000.00   2'000.00
-
 Zusätzliche Gutschrift gemäss Ziffer 3.1. des KS 29c
 Total Rückzahlungen KER innerhalb des Kapitalbands an die Aktionäte   11'500.00
 Total Rückzahlungen übrige Reserven innerhalb des Kapitalbands an die Aktionäre, welche nicht über die
-3. Eine nicht börsenkotierte Gesellschaft zeigt folgende Eigenkapitalbewegungen
 zweite Handelslinie erfolgen   11'300.00
-    innerhalb
-Total zusätzliche Gutschrift   22'800.00 22'800.00
-    ihres Kapitalbands über zwei Jahre aufgrund von Kapitalerhöhungen   und -herabsetzun-
-    gen:
+Total zusätzliche Gutschrift   22'800.00   22'800.00
+
 Total KER   24'800.00
 
-    Bestand   Jahr N+1   Bestand   Jahr N+2   Bestand   Bereinigung   Bestand
-    Erhöhung Herabsetzung   Herabsetzung   bereinigt
+Erklärungen:
 
-Aktienkapital   20'000.00   2'000.00   -1'000.00   21'000.00   -1'000.00   20'000.00   20'000.00
+Während der Dauer des Kapitalbands werden die Kapitaleinlagen und -rückzahlungen mitei-
+nander verrechnet (Nettobetrachtung). Nur soweit die Einlagen die Rückzahlungen während
+der Dauer des Kapitalbands übersteigen, können steuerlich Reserven aus Kapitaleinlagen
+gebildet werden. Aufgrund von Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1septies VStG
+werden die KER gemäss Beispiel somit um 2'000 erhöht.

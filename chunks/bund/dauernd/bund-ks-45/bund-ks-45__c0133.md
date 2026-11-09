@@ -5,20 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 133"
-seiten: "34"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
 
-6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
-Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalabfindungen für wiederkehrende
-Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
-Monate), unterliegen diese im Zeitpunkt der Auszahlung der Quellenbesteuerung und zwar
-zusammen mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz
-ergibt sich dabei aus der Summe der Kapitalabfindung für wiederkehrende Leistungen und
-der Lohnzahlung im entsprechenden Monat.
-Die Kapitalabfindung wird im Quellensteuerverfahren nach dem Monatsmodell für die Satz-
-bestimmung nicht auf einen Monat umgerechnet. Es steht dem Arbeitnehmer offen, bis am
-31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der
-Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11
-unten).
+    5. Besteuerung von Lohnfortzahlungen unter gekündigtem Arbeitsverhältnis:
+    Dem Arbeitnehmer Z. mit Ansässigkeit in Italien wird am 24. September 2021 per 31. Dezember 2021 ge-
+    kündigt. Er wird für die verbleibenden Monate Oktober, November und Dezember 2021 freigestellt. Wäh-
+    rend seiner Freistellung erhält Z unverändert seinen monatlichen Bruttolohn von CHF 7000. In der voran-
+    gehenden 12-monatigen Referenzperiode wurden 60 Arbeitstage ins Ausland (= 180 schweizerische Ar-
+    beitstage) ausgeschieden. Demgemäss ergibt sich ein steuerbarer Bruttolohn für die Monate Oktober bis
+    Dezember 2021 von je CHF 5 250.00 (CHF 7 000.00 / 240 Arbeitstage x 180 schweizerische Arbeitstage),
+    der zum Satz von CHF 7 000.00 an der Quelle zu besteuern ist.

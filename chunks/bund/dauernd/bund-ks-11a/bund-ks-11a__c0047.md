@@ -10,13 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 11
 
-5.2   Kosten der unterhaltenen Person
-
-5.2.1   Minderjährige oder in Ausbildung stehende Kinder
-Abgezogen werden können die krankheits- und unfallbedingten sowie die behinderungsbeding
-ten Kosten von minderjährigen oder in der beruflichen Ausbildung stehenden Kindern, für deren
-Unterhalt die steuerpflichtige Person sorgt. Diese Kosten können zusätzlich zum Kinderabzug
-gemäss Artikel 35 Absatz 1 Buchstabe a DBG geltend gemacht werden.
-Keine unterhaltenen Personen im Sinne von Artikel 33 Absatz 1 Buchstabe h und hbis DBG sind
-Kinder, für welche die steuerpflichtige Person Unterhaltsbeiträge gestützt auf Artikel 33 Ab
-satz 1 Buchstabe c DBG zum Abzug bringt.
+behinderungsbedingten Kosten anzurechnen, da in diesem Umfang die Kosten nicht selbst ge
+tragen werden.
+Kapitalleistungen für künftige invaliditäts- und behinderungsbedingte Kosten sind anzurechnen,
+soweit sie nicht der Einkommenssteuer unterliegen. Ein Abzug für behinderungsbedingte Kos
+ten entfällt daher so lange, bis die steuerpflichtige Person den Nachweis erbringt, dass die tat
+sächlich entstandenen behinderungsbedingten Kosten die Höhe dieser ausgerichteten Kapital
+leistung übersteigen.
+Genugtuungsleistungen tragen der persönlichen und nicht der materiellen Beeinträchtigung
+Rechnung. Sie können daher nicht an die behinderungsbedingten Kosten angerechnet werden.
+Den Genugtuungsleistungen gleichzustellen sind Integritätsentschädigungen (vgl. Art. 24
+Bst. g DBG).

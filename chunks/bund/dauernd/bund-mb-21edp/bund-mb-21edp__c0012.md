@@ -5,21 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB 21 EDP – Abschnitt 12"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 3
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 4
 
-14   Die Wegleitung zum Ausfüllen des Lohnausweises kann auf der Homepage der Eidge
-    nössischen Steuerverwaltung heruntergeladen werden.
-
-15   Die Rückzahlung eines Vorbezugs für Wohneigentum (WEF-Vorbezug) ist nicht als Vor
-    sorgebeitrag mit dem Formular 21 zu bescheinigen, sondern auf dem unteren Teil des
-    WEF-Formulars der Eidgenössischen Steuerverwaltung unter „Rückzahlung an die Vor
-    sorgeeinrichtung/Versicherungseinrichtung“ zu melden.
-
-    Feld d: Datum
-16   Einzusetzen ist das genaue Datum der Einzahlung. Bei mehreren Einzahlungen ist jede
-    Zahlung im dafür vorgesehenen Feld oder unter dem Punkt „Bemerkungen“ separat auf
-    zulisten. Massgebend für die Zuordnung bei Einkäufen von Beitragsjahren ist das Jahr, in
-    welchem die Beiträge effektiv entrichtet wurden.
+<!-- Seite 4 -->
+    Feld g: Vom Arbeitnehmer/Von der Arbeitnehmerhin entrichtete Arbeitgeberbeiträge
+19   Anzugeben sind Arbeitgeberbeiträge, die der Arbeitnehmer anstelle seines Arbeitgebers
+    dem Vorsorgeträger entrichtet hat, beispielsweise ein Arbeitnehmer mit mehreren Arbeit
+    gebern im Sinne von Artikel 46 BVG oder nach dem Ausscheiden aus der obligatorischen
+    Versicherung gemäss Artikel 47 bzw. 47a BVG. Zahlungen, die der Arbeitgeber in die
+    sem Zusammenhang direkt an den Arbeitnehmer geleistet hat, sind vom Arbeitnehmer
+    beim Ausfüllen der Steuererklärung als Lohnbestandteil zu berücksichtigen.

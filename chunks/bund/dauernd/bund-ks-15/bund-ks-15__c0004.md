@@ -4,17 +4,27 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 4"
-seiten: "1"
+titel: "Ziff. 1 Einleitung – KS 15 (2007) und Nachfolge 2017, Gutachten SBVg"
+ziffer: "1"
+seiten: "2-3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2–3
 
-2.2.1   Allgemeines ............................................................................................................. 4
-2.2.2   Termingeschäfte (Futures) ....................................................................................... 4
-2.2.3   Optionen .................................................................................................................. 5
-2.3   Kombinierte Produkte (vgl. Übersicht in Anhang I) ................................................... 5
-2.3.1   Kapitalgarantierte Derivate und nicht klassische Options- und Wandelanleihen ....... 5
-2.3.2   Klassische Options- und Wandelanleihen ................................................................ 6
-2.3.3   Produkte mit Geld- oder Titellieferung (Reverse Convertibles) ................................. 6
-2.3.3.1   Reverse Convertibles ohne Kapitalschutz ................................................................ 6
+Das Kreisschreiben Nr. 15 der ESTV in der Version vom 7. Februar 2007 (KS 15, Nachfolge-
+Kreisschreiben des KS 4) erläuterte deshalb insbesondere die aktuelle Praxis im Bereich der
+nachträglichen Herstellung der Transparenz von nicht trennbaren kombinierten Produkten,
+dessen Ausführungen im KS 4 überholt waren. Das vorliegende Kreisschreiben trägt der seit
+der Publikation des KS 15 erfolgten Gesetzesänderung im Bereich der Stempelabgaben (Ab-
+
+
+1-015-DVS-2017-d
+
+schaffung der Emissionsabgabe auf Fremdkapital) Rechnung. Neben weiteren Aktualisierun-
+gen und Präzisierungen gibt es den seinerzeitigen Inhalt der KS 4 und 15 wieder, die zur
+Rechtssicherheit bei der steuerlichen Behandlung von strukturierten Finanzinstrumenten bei-
+trugen. Ergänzender Bestandteil des vorliegenden Kreisschreibens bildet nach wie vor auch
+das Gutachten der Kommission für Steuern und Finanzfragen der SBVg vom November
+2006 (vgl. Anhang IV), welches dazu dient, den Nachweis zu erbringen, dass der
+BFP-Service inkl. dessen Grundlagen geeignet sind, die diesen Hilfsmitteln zugedachte Auf-
+gabe zu erfüllen.

@@ -10,13 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
 
-6.1  Vorbemerkungen ...................................................................................................... 21
-6.2  Grundsätze ................................................................................................................ 21
-6.3  Satzbestimmendes Einkommen beim 13. Monatslohn .......................................... 21
-6.4  Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-
-    Erwerbstätigkeiten.................................................................................................... 22
-6.5 Erwerbstätigkeiten im Stunden- oder im Tageslohn .............................................. 25
-6.6 Quellensteuerberechnung bei untermonatigen Ein- und Austritten ..................... 27
-6.7 Ausscheidung von im Ausland geleisteten Arbeitstagen ...................................... 30
-6.8 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses . 31
-6.9 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des
+    Arbeitsverhältnisses ................................................................................................ 32
+6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden ................................ 34
+6.11 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden ................... 34
+6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)....... 34
+7   Berechnung der Quellensteuer nach dem Jahresmodell ...................................... 36
+7.1 Vorbemerkungen ...................................................................................................... 36
+7.2 Grundsätze ................................................................................................................ 36
+7.3 Ermittlung des satzbestimmenden Jahreseinkommens ........................................ 37
+7.3.1 Allgemeines und Grundsatz zur Berechnung der Quellensteuer ................................. 37

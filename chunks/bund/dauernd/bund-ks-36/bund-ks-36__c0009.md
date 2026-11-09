@@ -10,17 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 2
 
-Artikel 18 Absatz 1 DBG hält fest, dass alle Einkünfte aus einem Handels-, Industrie-,
-Gewerbe-, Land- und Forstwirtschaftsbetrieb, aus einem freien Beruf sowie aus jeder ande-
-ren selbständigen Erwerbstätigkeit steuerbar sind. Zu den Einkünften aus selbständiger
-Erwerbstätigkeit gehören nach Artikel 18 Absatz 2 DBG auch alle Kapitalgewinne aus Ver-
-äusserung, Verwertung oder buchmässiger Aufwertung von Geschäftsvermögen.
+Aus den Beratungen des Bundesgesetzes über das Stabilisierungsprogramm 1998 geht
+jedoch hervor, dass die Praxis zum gewerbsmässigen Wertschriftenhandel nicht ausgedehnt
 
-2.3   Absicht des Gesetzgebers im Stabilisierungsprogramm 1998
-
-Die Eidgenössischen Räte haben in den Beratungen des Bundesgesetzes über das
-Stabilisierungsprogramm 1998 2 versucht, den gewerbsmässigen Wertschriftenhandel im
-Gesetz explizit zu regeln. Dieses Vorhaben scheiterte jedoch auf Grund der Komplexität
-dieser Materie. Es wurde daher beschlossen, im Gesetz nichts zu regeln und es beim
-bisherigen Recht (Praxis und Rechtsprechung zum BdBSt) zu belassen. Somit stand der
-"Wille des Gesetzgebers" eindeutig fest.
+1
+    SR 642.11
+2
+    AS 1999 2374

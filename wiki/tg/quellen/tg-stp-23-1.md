@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-23-nr-1-ertrage-aus-unbeweglichem-vermogen> · lokal: [tg-stp-23-1.html](../../../raw/tg/dauernd/tg-stp-23-1.html) · Volltext: [tg-stp-23-1.md](../../../sources/tg/dauernd/tg-stp-23-1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1a4b080dea44abbc…`
 
-## Inhalt (11 Chunks)
+## Inhalt (12 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -27,3 +27,4 @@ generiert: tools/build_index.py
 | [c0009](../../../chunks/tg/dauernd/tg-stp-23-1/tg-stp-23-1__c0009.md) | 4. Einkünfte aus Baurechten |  |  |
 | [c0010](../../../chunks/tg/dauernd/tg-stp-23-1/tg-stp-23-1__c0010.md) | Ältere Versionen |  |  |
 | [c0011](../../../chunks/tg/dauernd/tg-stp-23-1/tg-stp-23-1__c0011.md) | Ältere Versionen |  |  |
+| [c0012](../../../chunks/tg/dauernd/tg-stp-23-1/tg-stp-23-1__c0012.md) | Ältere Versionen |  |  |

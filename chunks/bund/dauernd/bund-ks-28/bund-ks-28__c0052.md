@@ -5,20 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 52"
-seiten: "17"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 16
 
-Gewährung von entgangenen früheren Steuerentlastungen. Den Kleinstunternehmungen,
-von denen es viele gäbe, die ihre für die Altersvorsorge notwendigen Mittel im Betrieb behal-
-ten, solle die Möglichkeit gegeben werden, mit der Liquidation ihre Altersvorsorge steuerbe-
-günstigt zu bestreiten. Der Fokus auf einer Reduktion des Steuertarifs anstelle der Besteue-
-rung eines fiktiv reduzierten Liquidationsgewinns (Lösung des Ständerats) sei sachgerecht,
-weil damit den einschlägigen Bestimmungen für Kapitalleistungen der beruflichen Vorsorge
-der Unselbständigen entsprochen werde. Mit der Lösung des Ständerats würde eine Reich-
-tumssteuer für Liquidationsgewinne eingeführt und für die Verwaltung administrativer Mehr-
-aufwand generiert. Kleinstunternehmen würden bestraft und eine merkwürdige Progressi-
-onskurve würde ins Gesetz übernommen. Aus diesen Gründen beschloss der Nationalrat,
-dass der gesonderte Liquidationsgewinn zu einem Fünftel der Tarife nach Artikel 36 DBG
-besteuert werden solle.
+1.2   Beratung in den eidgenössischen Räten
+Der Ständerat hatte als Erstrat in der Sommersession 2006 - in Abweichung vom bundesrät-
+lichen Vorschlag - beschlossen, dass die in den letzten zwei Geschäftsjahren realisierten
+stillen Reserven getrennt vom übrigen Einkommen im Sinne von Artikel 38 DBG zu besteu-
+ern seien. Dabei solle ein Fünftel der realisierten stillen Reserven satzbestimmend sein. In
+jedem Fall solle jedoch eine Steuer von 2 Prozent erhoben werden. Gleichzeitig wurde auch
+der entsprechend angepasste Artikel 11 Absatz 5 StHG (dannzumal noch Abs. 4) ange-
+nommen, der für die kantonale Steuer die getrennte Besteuerung der in den letzten zwei
+Geschäftsjahren realisierten stillen Reserven vorsah, jedoch die Festlegung des für die
+Satzbestimmung massgebenden Anteils dem kantonalen Recht überliess. Bei dieser Abän-
+derung bestand vor allem der Wille, die ordentliche Besteuerung des übrigen Einkommens

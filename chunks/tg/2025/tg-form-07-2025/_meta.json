@@ -1,0 +1,170 @@
+[
+{
+"id": "tg-form-07-2025__c0001",
+"titel": "Formular 7 Liegenschaftenbesitz – Kopf und Spaltenaufbau",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Liegenschaftenbesitz",
+"Formular 7",
+"Staatssteuer",
+"Bundessteuer"
+],
+"positionen": [
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Angaben bei Liegenschaftenbesitz mit Steuerwert und Erträgen/Kosten je Staats- und Bundessteuer.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "tg-form-07-2025__c0002"
+},
+{
+"id": "tg-form-07-2025__c0002",
+"titel": "Formular 7 Liegenschaften 1–3 – Angaben, Eigenmietwert, Erträge, Kosten",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Liegenschaft",
+"Eigenmietwert",
+"Mietertrag",
+"Unterhaltskosten",
+"Steuerwert",
+"Nettoerfolg"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Je Liegenschaft: Steuerwert, Mietwert selbstgenutzt, Selbstnutzungsabzug, steuerbarer Eigenmietwert, Bruttoertrag, Unterhalts-/Betriebskosten (pauschal/effektiv) und Nettoerfolg.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-07-2025__c0001",
+"nachher": "tg-form-07-2025__c0003"
+},
+{
+"id": "tg-form-07-2025__c0003",
+"titel": "Formular 7 Seite 1 Totale (Codes 430, 180) und Übertrag",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "430, 180",
+"stichworte": [
+"Total Steuerwerte",
+"Total Nettoerfolge",
+"Übertrag",
+"Ziffer 31",
+"Ziffer 8"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"berechnung.total"
+],
+"zusammenfassung": "Total Steuerwerte Code 430 (Übertrag Steuererklärung Seite 4 Ziffer 31); Total Nettoerfolge Code 180 (Seite 2 Ziffer 8, Staat und Bund).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-07-2025__c0002",
+"nachher": "tg-form-07-2025__c0004"
+},
+{
+"id": "tg-form-07-2025__c0004",
+"titel": "Formular 7 Liegenschaften 4–5 (Seite 2)",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Liegenschaft",
+"Eigenmietwert",
+"Mietertrag",
+"Unterhaltskosten",
+"Steuerwert",
+"Nettoerfolg"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Je Liegenschaft: Steuerwert, Eigenmietwert, Bruttoertrag, Unterhalts-/Betriebskosten und Nettoerfolg.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-07-2025__c0003",
+"nachher": "tg-form-07-2025__c0005"
+},
+{
+"id": "tg-form-07-2025__c0005",
+"titel": "Formular 7 Liegenschaften 6–7 (Seite 2)",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Liegenschaft",
+"Eigenmietwert",
+"Mietertrag",
+"Unterhaltskosten",
+"Steuerwert",
+"Nettoerfolg"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.liegenschaften.mietertrag",
+"abzug.liegenschaft.unterhalt"
+],
+"zusammenfassung": "Je Liegenschaft: Steuerwert, Eigenmietwert, Bruttoertrag, Unterhalts-/Betriebskosten und Nettoerfolg.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-07-2025__c0004",
+"nachher": "tg-form-07-2025__c0006"
+},
+{
+"id": "tg-form-07-2025__c0006",
+"titel": "Formular 7 Seite 2 Übertrag weiterer Beiblätter und Totale",
+"pfad": [
+"Formular 7"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Beiblätter",
+"Total Steuerwerte",
+"Total Nettoerfolge",
+"Übertrag auf Seite 1"
+],
+"positionen": [
+"berechnung.total",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Übertrag Steuerwerte und Nettoerfolge weiterer Beiblätter; Totale werden auf Seite 1 übertragen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-07-2025__c0005",
+"nachher": null
+}
+]

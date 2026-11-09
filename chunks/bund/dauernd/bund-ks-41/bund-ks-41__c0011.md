@@ -10,9 +10,22 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 3
 
-Hat eine versicherte Person Freizügigkeitsguthaben, die sie nicht nach den Artikeln 3 und 4
-Absatz 2bis FZG in die Vorsorgeeinrichtung übertragen musste, reduziert sich der Höchstbe-
-trag der Einkaufssumme um diesen Betrag (Art. 60a Abs. 3 der Verordnung vom 18. April
-1984 über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge [BVV 2;
-SR 831.441.1]). Die steuerpflichtige Person hat auf Verlangen der Steuerbehörde über allfäl-
-lig bestehende Freizügigkeitsguthaben Auskunft zu erteilen.
+<!-- Seite 3 -->
+mäss Artikel 30d des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters-, Hinter-
+lassenen- und Invalidenvorsorge (BVG; SR 831.40) und der Verordnung vom 3. Oktober
+1994 über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge (WEFV; SR
+831.411).
+
+2.2.   Steuerliche Auswirkungen
+
+2.2.1.   Übertrag der Austrittsleistung auf eine neue Vorsorgeeinrichtung oder
+    auf eine Freizügigkeitseinrichtung
+
+Wird die Austrittsleistung auf die Vorsorgeeinrichtung des neuen Arbeitgebers, auf eine Frei-
+zügigkeitspolice oder ein Freizügigkeitskonto übertragen, handelt es sich dabei aus Sicht des
+Vorsorgenehmers um steuerneutrale Vorgänge. Das Vorsorgeguthaben bleibt in diesen Fäl-
+len nach wie vor in der zweiten Säule gebunden und der Verfügung des Vorsorgenehmers
+entzogen, weshalb folgerichtig auch eine Besteuerung unterbleibt.
+
+2.2.2   Einkauf von Beitragsjahren in die Vorsorgeeinrichtung bei bestehenden
+    Freizügigkeitspolicen und -konten

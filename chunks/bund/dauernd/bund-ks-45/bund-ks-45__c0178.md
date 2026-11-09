@@ -5,26 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 178"
-seiten: "49"
+seiten: "47"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 49
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 47
 
-<!-- Seite 49 -->
-    Änderung des Zivilstands mit anschliessender Anpassung des Lohns während des Kalenderjahres:
-    9. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbstständige Er-
-    werbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00
-    (CHF 6 000 x 13).
-    Die Ehegattin ist ebenfalls erwerbstätig.
-    Das Kind des Ehepaars wird im September des Jahres 2021 volljährig. Die Familienzulagen werden daher
-    bis im September 2021 bezahlt.
+Bei der Ehegattin, welche die Erwerbstätigkeit am 15. September 2021 aufnimmt, wird der
+Tarif für Zweiverdienerehepaare (Tarifcode C) ab sofort, d.h. ab September 2021, angewen-
+det.
 
-    Monat   Januar   … September   Oktober   November   Dezember   Besteuerung
+    Geburt eines Kindes mit anschliessender Aufgabe der Erwerbtätigkeit des anderen Ehegatten wäh-
+    rend des Kalenderjahres:
+    6. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Am 15. August 2021 kommt das
+    Kind des Ehepaars zur Welt. Der Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
+    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00 (CHF 6 000 x 13). Die Kinderzula-
+    gen werden ab August 2021 ausbezahlt.
+    Seine Ehegattin gibt ihre Erwerbstätigkeit am 15. Oktober 2021 auf.
 
-    Bruttolohn   6 000   6 000   6 000   6 000   12 000   78 000.00
+    Monat   Jan.   …   Juli   Aug.   Sep.   Okt.   Nov.   Dez.   Besteuerung
 
-    Familienzulagen   200   200   1 800.00
+    Bruttolohn   6 000   6 000   6 000   6 000   6 000   6 000   12 000   78 000.00
 
-    Tarifcode   C1   C1   C0   C0   C0
-
-    Steuersatz (%)   10,01   10,0   12,22   12,2   12,2
+    Familienzulagen   200   200   200   200   200   1 000.00

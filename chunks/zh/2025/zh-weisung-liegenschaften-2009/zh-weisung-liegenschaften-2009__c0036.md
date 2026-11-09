@@ -5,17 +5,23 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 36"
-seiten: "14"
+seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 14
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 15
 
-77   Die Eigenmietwerte von Gebäuden, die vom Baurechtsnehmer
-    und zu seinem Haushalt gehörenden Personen genutzt werden, wer-
-    den gemäss Ziff. 59 ff. ermittelt.
-
-    II. Baurechtsgeber
-
-78   Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen
-    den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung des
-    Basiszinssatzes gemäss Ziff. 41 zu kapitalisieren.
+Unterlagen fristgerecht einreichen. Werden der vollständig ausgefüllte
+Fragebogen oder die verlangten Unterlagen trotz Mahnung nicht ein-
+gereicht, so ist der Vermögenssteuerwert nach pflichtgemässem Er-
+messen zu schätzen (§§ 139 Abs. 2 und 140 Abs. 2 StG2).
+    Führt auch die hedonische Methode zu einem unsicheren Ergebnis,
+das nicht auf die Verletzung der Mitwirkungspflichten durch den
+Steuerpflichtigen zurückzuführen ist, so kann das kantonale Steueramt
+zur Ermittlung des Verkehrswerts in einem dritten Schritt ein amt-
+liches Gutachten anordnen.
+   Wird der Verkehrswert aufgrund einer individuellen Schätzung 82
+ermittelt, ist der Vermögenssteuerwert
+– auf 70% des ermittelten Verkehrswerts festzusetzen, wenn der For-
+   melwert weniger als 70% des Verkehrswerts beträgt,
+– auf 90% des ermittelten Verkehrswerts festzusetzen, wenn der For-
+   melwert mehr als 100% des Verkehrswerts beträgt.

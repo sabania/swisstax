@@ -10,11 +10,21 @@ qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
 > ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 12
 
-    II. Wohnungen in Mehrfamilienhäusern ohne Stockwerkeigentum
-
- 63   Die Mietwerte von durch den Pflichtigen und zu seinem Haushalt
-    gehörende Personen genutzten Wohnungen sind durch Vergleich mit
-    für gleiche oder ähnliche Objekte bezahlten Mieten zu ermitteln.
-64   Zum Vergleich sind in erster Linie die von Dritten für Wohnungen
-    im gleichen Haus im Bemessungsjahr bezahlten Mieten heranzuzie-
-    hen.
+<!-- Seite 12 -->
+60   Übersteigt der Basiswert bzw. Basiswertanteil
+    – bei Einfamilienhäusern Fr. 120 000,
+    – bei Stockwerkeigentum Fr. 40 000,
+    so ist bei der Ermittlung des Eigenmietwerts der diese Beträge über-
+    steigende Teil bei der Berechnung nur mit 1% zu berücksichtigen. Bei
+    dieser Berechnung des Eigenmietwerts kann der Zeitbauwert nicht
+    gleichzeitig noch nach Ziff. 35 korrigiert werden.
+60a   Landwertanteile gemäss Ziff. 29 werden bei der Ermittlung des
+    Eigenmietwerts nur mit einem Ableitungssatz von 0,2% berücksich-
+    tigt.
+ 61   Auf Verlangen des Steuerpflichtigen werden bei der Berechnung
+    des Eigenmietwerts, vorbehältlich des entsprechenden Nachweises,
+    auch folgende Korrekturen vorgenommen:
+    – beim Landwert, soweit sich dieser auch bei einer Vermietung nicht
+    in einem entsprechenden Mietzins niederschlagen würde und die-
+    sem Umstand nicht schon durch Anwendung von Ziff. 18, 19, 26–29
+    oder 35 Rechnung getragen wurde,

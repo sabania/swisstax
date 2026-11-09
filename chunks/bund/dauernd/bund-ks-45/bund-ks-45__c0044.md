@@ -5,20 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 44"
-seiten: "11"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
 
-     Vom Arbeitgeber übernommene Beiträge an die Arbeitslosenversicherung, welche
-    nach Gesetz vom Arbeitnehmer geschuldet sind;
-     Alle Beiträge des Arbeitgebers an private Versicherungen des Arbeitnehmers oder die-
-    sem nahestehende Personen (bspw. Krankenversicherung) sowie
-     Die vom Arbeitgeber übernommenen Quellensteuern (Nettolohnvereinbarung).
-Der der Quellensteuer unterliegende Lohnbestandteil, der sich aus der Übernahme der Quel-
-lensteuer durch den Arbeitgeber ergibt, ist nach der Methode der Iteration zu berechnen (all-
-gemeine Beschreibung eines Prozesses des mehrfachen Wiederholens gleicher Berechnun-
-gen zur Annäherung an eine Lösung; siehe dazu das nachfolgende Beispiel).
-Nicht zu den der Quellensteuer unterliegenden Bruttoeinkünften hinzuzurechnen sind, sofern
-sie für alle Arbeitnehmer bzw. in Reglementen definierte Gruppen von Arbeitnehmern einer
-Unternehmung gleichermassen übernommen werden:
+3.2.2 In der Schweiz beschränkt der Quellensteuer unterliegende Einkünfte aus Arbeitsver-
+    hältnis
+In bestimmten Fällen kann der steuerbare Bruttolohn auf das Einkommen aus schweizeri-
+schen Arbeitstagen gekürzt werden (Ausnahmen nach den DBA bleiben vorbehalten, wie
+beispielsweise für Arbeitnehmer im internationalen Verkehr, bei denen je nach Ausgestaltung
+des DBA der gesamte Bruttolohn in der Schweiz steuerbar ist). Entschädigungen, welche in
+einer vorhergehenden Periode verdient wurden (bspw. Bonuszahlungen oder geldwerte Leis-
+tungen aus Mitarbeiterbeteiligungen), sind in der Schweiz in dem Umfang an der Quelle (al-
+lenfalls begrenzt) steuerbar, in dem das in der Verdienstperiode bzw. Vestingperiode erzielte
+Lohneinkommen in der Schweiz steuerbar war.
+Bei Arbeitnehmern mit Ansässigkeit in der Schweiz ist der auf jene Arbeitstage entfallende
+Teil der steuerbaren Leistung steuerbar, der nicht aufgrund eines DBA wegen Arbeitsaus-

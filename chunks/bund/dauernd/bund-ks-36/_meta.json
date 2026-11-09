@@ -82,7 +82,7 @@
 "titel": "KS 36 – Abschnitt 6",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -146,7 +146,7 @@
 "titel": "KS 36 – Abschnitt 10",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "KS 36 – Abschnitt 13",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -210,7 +210,7 @@
 "titel": "KS 36 – Abschnitt 14",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -258,7 +258,7 @@
 "titel": "KS 36 – Abschnitt 17",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -274,7 +274,7 @@
 "titel": "KS 36 – Abschnitt 18",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -290,7 +290,7 @@
 "titel": "KS 36 – Abschnitt 19",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -338,7 +338,7 @@
 "titel": "KS 36 – Abschnitt 22",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -354,7 +354,7 @@
 "titel": "KS 36 – Abschnitt 23",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -370,7 +370,7 @@
 "titel": "KS 36 – Abschnitt 24",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -402,7 +402,7 @@
 "titel": "KS 36 – Abschnitt 26",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -418,7 +418,7 @@
 "titel": "KS 36 – Abschnitt 27",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -434,7 +434,7 @@
 "titel": "KS 36 – Abschnitt 28",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -482,54 +482,6 @@
 "titel": "KS 36 – Abschnitt 31",
 "pfad": [],
 "seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0030",
-"nachher": "bund-ks-36__c0032"
-},
-{
-"id": "bund-ks-36__c0032",
-"titel": "KS 36 – Abschnitt 32",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0031",
-"nachher": "bund-ks-36__c0033"
-},
-{
-"id": "bund-ks-36__c0033",
-"titel": "KS 36 – Abschnitt 33",
-"pfad": [],
-"seiten": [
-7
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0032",
-"nachher": "bund-ks-36__c0034"
-},
-{
-"id": "bund-ks-36__c0034",
-"titel": "KS 36 – Abschnitt 34",
-"pfad": [],
-"seiten": [
 8
 ],
 "artikel": null,
@@ -538,7 +490,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-ks-36__c0033",
+"vorher": "bund-ks-36__c0030",
 "nachher": null
 }
 ]

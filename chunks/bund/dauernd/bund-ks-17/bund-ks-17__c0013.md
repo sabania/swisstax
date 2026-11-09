@@ -5,22 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 17 – Abschnitt 13"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
 
-Die Besteuerung an der Quelle erfolgt aufgrund der entsprechenden Bestimmungen der
-Quellensteuerverordnung (QStV; SR 642.118.2). Gemäss Artikel 11 dieser Verordnung wird
-die vorbezogene Vorsorgeleistung ungeachtet staatsvertraglicher Regelung stets der Quel-
-lensteuer unterstellt. Besteht ein Doppelbesteuerungsabkommen mit dem entsprechenden
-Wohnsitzstaat des Empfängers, steht die Besteuerungskompetenz in der Regel dem Wohn-
-sitzstaat zu. Der Quellensteuerabzug ist in diesen Fällen nicht definitiv und wird unter gewis-
-sen Bedingungen wieder zurückerstattet (wenn der Nachweis erbracht wird, dass die zu-
-ständige ausländische Steuerbehörde von der Kapitalleistung Kenntnis hat). In Ziffer 3 des
-Anhanges zur Quellensteuerverordnung sind die massgebenden Quellensteuersätze festge-
-legt, welche in die kantonalen Quellensteuertarife integriert sind.
-
-2.2. Rückzahlung des Vorbezuges
-
-    Vgl. BGE 2A.509/2003 vom 18. Mai 2004, Erw. 4.2.1 / Mitteilung über die berufliche Vorsorge Nr. 78, Ziffer 465
+Für die Rückerstattung der Steuern ist ein schriftliches Gesuch an diejenige Steuerbehörde
+zu richten, die seinerzeit den Steuerbetrag erhoben hat. Dem Gesuch ist je eine Bescheini-
+gung beizulegen über:
+    -   die Rückzahlung, wobei die Vorsorgeeinrichtung hiefür das offizielle Formular der
+    ESTV (Formular WEF) zu verwenden hat (Art. 7 Abs. 3 WEFV); die ESTV stellt dem
+    Steuerpflichtigen eine Kopie dieser Bescheinigung für die Rückforderung zu;
+    -   das im Wohneigentum investierte Vorsorgekapital (gestützt auf einen Registerauszug
+    der ESTV);
+    -   den an Bund, Kanton und Gemeinde entrichteten Steuerbetrag (Art. 14 Abs. 3
+    WEFV).

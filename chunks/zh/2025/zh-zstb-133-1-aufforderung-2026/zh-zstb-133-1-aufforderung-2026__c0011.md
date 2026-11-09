@@ -5,21 +5,35 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 11"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 3
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 4
 
-b) Zustellung der Formulare
+<!-- Seite 4 -->
+Zürcher Steuerbuch   Nr. 133.1
 
-Die notwendigen Formulare werden den zu einer nachträglichen Veranlagung im ordentlichen
-Verfahren verpflichteten Arbeitnehmenden in der Regel durch das Steueramt der Wohngemeinde
-zugestellt.
+B. Juristische Personen
 
-c) Frist zur Abgabe der Steuererklärung
+I. Steuererklärung 2025 für Staats- und Gemeindesteuern sowie direkte
+Bundessteuer
 
-Die Steuererklärung ist zusammen mit den erforderlichen Beilagen gemäss § 134 StG bis
-31. März 2026, bei Erhalt der Steuererklärungsunterlagen nach Ende Februar 2026 innert 30
-Tagen online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen.
+1. Pflicht zur Abgabe einer Steuererklärung
 
-2. Nachträgliche ordentliche Veranlagung für die Steuerperiode 2026 (Steuererklärung 2026)
+Zur Abgabe einer Steuererklärung 2025 (für die Steuerperiode, die dem im Kalenderjahr 2025
+endenden Geschäftsjahr entspricht) sind verpflichtet:
+a) alle juristischen Personen, die am 31. Dezember 2025 bzw. am Ende des im Kalenderjahr
+2025 endenden Geschäftsjahres den Sitz oder die Verwaltung im Kanton Zürich hatten;
+b) alle juristischen Personen mit Sitz oder Verwaltung in einem anderen Kanton,
+•   die im Laufe des im Kalenderjahr 2025 endenden Geschäftsjahres den Sitz oder die
+    Verwaltung aus dem Kanton Zürich in einen anderen Kanton verlegt haben oder durch
+    Aufgabe einer Liegenschaft oder Betriebsstätte die Steuerpflicht im Kanton Zürich beendet
+    haben oder
+•   die am Ende des im Kalenderjahr 2025 endenden Geschäftsjahres im Kanton Zürich
+    Liegenschaften oder Betriebsstätten besassen.
+Solche juristischen Personen können ihre Steuererklärungspflicht im Kanton Zürich auch durch
+Einreichung einer unterzeichneten Kopie der Steuererklärung des Sitzkantons erfüllen, welche
+zusammen mit der leeren, zugestellten zürcherischen Steuererklärung einzureichen ist;
+c) alle juristischen Personen mit Sitz oder Verwaltung im Ausland, die am Ende des im
+Kalenderjahr 2025 endenden Geschäftsjahres im Kanton Zürich Liegenschaften oder
+Betriebsstätten besassen.

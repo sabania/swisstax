@@ -10,16 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
 
-2.2.   Beendigung infolge Invalidität
-Eine Invalidität liegt vor, wenn wegen einer voraussichtlich bleibenden oder während länge-
-rer Zeit dauernden ganzen oder teilweisen Erwerbsunfähigkeit Leistungen gemäss dem
-    3
-Bundesgesetz vom 19. Juni 1959 über die Invalidenversicherung (IVG) ausgerichtet wer-
-den. Unter den Begriff „Leistungen“ fallen mithin nicht nur Renten, sondern auch andere
-Leistungen der IV, wie beispielsweise solche für eine notwendige Umschulung.
+Die Besteuerung gemäss Artikel 37b DBG kommt nach dem Wortlaut des Gesetzes nur
+dann zur Anwendung, wenn die selbständige Erwerbstätigkeit definitiv aufgegeben wird. Eine
+geringfügige selbständige Erwerbstätigkeit ohne feste Einrichtungen und ohne Personal soll
+jedoch auch nach der Anwendung von Artikel 37b DBG möglich sein, sofern das mutmassli-
+che jährliche Nettoeinkommen aus dieser Tätigkeit inskünftig nicht höher als der Betrag (Ein-
+trittschwelle) nach Artikel 2 Absatz 1 des Bundesgesetzes vom 25. Juni 1982 über die beruf-
+    2
+liche Alters-, Hinterlassenen- und Invalidenvorsorge (BVG) ist.
 
-Wird als Grund für die Aufgabe der selbständigen Erwerbstätigkeit eine Invalidität geltend
-gemacht, so muss diese kausal zur Aufgabe der selbständigen Tätigkeit führen. Die zustän-
-dige Steuerverwaltung hat dies im Einzelfall zu prüfen. In unklaren Fällen, in denen erst in
-einem gerichtlichen Verfahren geklärt werden muss, ob überhaupt eine Invalidität vorliegt, ist
-mit der Veranlagung zuzuwarten, bis der definitive Entscheid vorliegt.
+Wurde einmal ein Liquidationsgewinn nach Artikel 37b DBG besteuert, so ist bei einer späte-
+ren Aufnahme einer selbständigen Erwerbstätigkeit Artikel 37b DBG für den Liquidationsge-
+winn aus dieser Tätigkeit nicht mehr anwendbar.

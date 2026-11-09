@@ -4,19 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 80"
-seiten: "18"
+titel: "Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz"
+ziffer: "13.4.2"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.2 Minderjährige Kinder · S. 24
 
-Bei erheblicher Mitarbeit in der Erwerbstätigkeit des anderen Ehepartners wird im Sinne ei-
-ner möglichst einfachen Handhabung des Abzuges jedem Ehegatten zu seinem allfälligen
-übrigen Erwerbseinkommen grundsätzlich die Hälfte des gemeinsamen Erwerbseinkommens
-zugerechnet. Von der hälftigen Zurechnung kann abgewichen werden, wenn glaubhaft ge-
-macht werden kann, dass beispielsweise der Anteil des mitarbeitenden Ehegatten höher zu
-bewerten ist und der andere Ehegatte noch weiteres Erwerbseinkommen erzielt. Als Beispiel
-lässt sich hier die Ehefrau anführen, welche die laufenden Arbeiten eines kleinen gemeinsa-
-men Landwirtschaftsbetriebes zur Hauptsache besorgt, während der Ehemann hauptberuf-
-lich als Angestellter tätig ist. Der Prozentabzug wird auf dem niedrigeren der beiden totalen
-Erwerbseinkommen berechnet.
+13.4.2   Gewährung des Elterntarifs bei minderjährigen Kindern
+
+Neben dem Zusammenleben wird für die Gewährung des Elterntarifs vorausgesetzt, dass
+die steuerpflichtige Person bzw. das Ehepaar den Unterhalt des Kindes oder der unterstüt-
+zungsbedürftigen Person zur Hauptsache bestreitet. Bei minderjährigen Kindern von ge-
+trennt lebenden oder unverheiratet zusammenlebenden Eltern bedeutet zur Hauptsache,
+dass grundsätzlich derjenige Elternteil, der mehr als die Hälfte der Unterhaltskosten des Kin-
+des übernimmt, den Elterntarif beanspruchen kann. Werden bei getrennt lebenden Eltern
+oder unverheirateten Eltern, die zusammenleben (Konkubinat), Unterhaltszahlungen für das
+minderjährige Kind geltend gemacht, ist davon auszugehen, dass dieser Elternteil mit den
+empfangenen und zu versteuernden Leistungen zusammen mit den eigenen Leistungen den
+Unterhalt des Kindes zur Hauptsache bestreitet und den Elterntarif erhält. Dies ist in der Re-
+gel der Elternteil, der die elterliche Sorge innehält. Der unterhaltsleistende Elternteil kann im
+Gegenzug die Unterhaltsleistungen von seinem Einkommen abziehen.

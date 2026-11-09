@@ -9,6 +9,6 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [01 - Steuererklärung 2019(1845 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/01_SG_NP_Steurerkl%C3%A4rung_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2019")
-- [02 \_ Wertschriftenverzeichnis 2019(219 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/02_SG_NP_Wertschriftenverzeichnis_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 02 _ Wertschriftenverzeichnis 2019")
-- [04 - Berufskosten 2019(152 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/04_SG_NP_Berufskosten_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2019")
+- [07Z- Liegenschaften Zusammenzug 2018(136 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular07Z%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster: 07Z- Liegenschaften Zusammenzug 2018")
+- [12 - Landwirte 2018(215 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular12%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster: 12 - Landwirte 2018")
+- [13 - Wegleitung für Landwirte 2018(275 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular13%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster: 13 - Wegleitung für Landwirte 2018")

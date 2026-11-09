@@ -5,30 +5,33 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 33"
-seiten: "16"
+seiten: "15"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 16
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 15
 
-<!-- Seite 16 -->
-80   Bei der individuellen Schätzung des Verkehrswerts ist in einem ers-
-    ten Schritt auf folgende Grundlagen abzustellen:
-    – auf den Kaufpreis der Liegenschaft,
-    – auf den Anlagewert der Liegenschaft,
-    – auf ein nach anerkannten Bewertungsgrundsätzen erstelltes Privat-
-    gutachten.
-81   Ist aufgrund vorstehender Grundlagen keine gesicherte Individual-
-    schätzung möglich, ist der Verkehrswert vom kantonalen Steueramt
-    durch eine individuelle Schätzung zu ermitteln. Dabei kann auch eine
-    hedonische Methode angewendet oder ein amtliches Gutachten in Auf-
-    trag gegeben werden.
-    Für die Ermittlung des Verkehrswerts haben die Steuerpflichtigen
-    mitzuwirken. Werden die verlangten Unterlagen trotz Mahnung nicht
-    eingereicht, ist der Vermögenssteuerwert nach pflichtgemässem Er-
-    messen zu schätzen (§§ 139 Abs. 2 und 140 Abs. 2 StG).
-82   Wird der Verkehrswert aufgrund einer individuellen Schätzung
-    ermittelt, ist der Vermögenssteuerwert
-    – auf 70% des ermittelten Verkehrswerts festzusetzen, wenn der For-
-    melwert weniger als 70% des Verkehrswerts beträgt,
-    – auf 90% des ermittelten Verkehrswerts festzusetzen, wenn der For-
-    melwert mehr als 100% des Verkehrswerts beträgt.
+<!-- Seite 15 -->
+C. Liegenschaften im Baurecht
+
+I. Baurechtsnehmer
+
+1. Vermögenssteuerwert
+
+   Ist das Baurechtsgrundstück mit einem Einfamilienhaus oder 75
+Stockwerkeigentum zu Wohnzwecken bzw. mit einer industriellen
+oder gewerblichen Baute überbaut, so bildet der gemäss Ziff. 30 ff.
+bzw. 51 ff. ermittelte Zeitbauwert den Vermögenssteuerwert.
+    Ist das Baurechtsgrundstück mit einem Mehrfamilien- oder Ge- 76
+schäftshaus überbaut, bildet die Differenz zwischen kapitalisiertem
+Ertragswert (Ziff. 38 ff. und 43 f.) und kapitalisierten Baurechtszinsen
+den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung der
+Sätze gemäss Ziff. 42, jeweils vermindert um 2 Prozentpunkte, zu kapi-
+talisieren.
+
+2. Eigenmietwert
+
+   Die Eigenmietwerte von Gebäuden, die vom Baurechtsnehmer 77
+und von zu seinem Haushalt gehörenden Personen genutzt werden,
+werden gemäss Ziff. 59 ff. ermittelt.
+
+II. Baurechtsgeber

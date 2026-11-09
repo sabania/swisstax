@@ -5,27 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 71"
-seiten: "22"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 23
 
-Die bei einer Umwandlung den Inhabern der Beteiligungsrechte oder diesen nahestehenden
-Dritten zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und
-sonstigen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungs-
-steuer, sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft o-
-der Genossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die
-Bestimmungen zu Ziff. 5.1.5. hiervor.
+<!-- Seite 23 -->
+7.3.   Spaltung
 
-7.2.2. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein,
-    in eine Stiftung oder eine übrige juristische Person
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-Analog Ausführungen unter Ziffer 6.3.2. hiervor.
+Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
+nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
+liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
+Lasten des Nennwerts der Beteiligungsrechte oder der Ausland-KER der übertragenden Ge-
+sellschaft erfolgen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die
+Bestimmungen gemäss Ziff. 5.1.5. hiervor.
 
-7.2.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
-    son in eine Kapitalgesellschaft oder Genossenschaft
+Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
+tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
 
-Analog Ausführungen unter Ziffer 6.3.3. hiervor.
-
-7.2.4. Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
-    oder in eine Genossenschaft
+b)   Verrechnungssteuer

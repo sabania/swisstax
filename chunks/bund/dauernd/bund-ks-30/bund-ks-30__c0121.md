@@ -4,14 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 121"
-seiten: "29"
+titel: "Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge"
+ziffer: "14.9"
+seiten: "35-36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.9 · S. 35–36
 
-Kantone, die nach Artikel 9 Absatz 2 VO für die Berechnung des Maximalbetrages einen
-eigenen Tarif anwenden, haben diesen dem Elterntarif gemäss DBG anzupassen.
+14.9.2   Abzüge
 
-13.4.11   Kapitalleistungen nach Artikel 38 und fiktive Einkäufe nach Artikel
-    37b DBG
+   Der Elternteil, der die Unterhaltszahlungen erhält, kann den Kinderabzug sowie den Ver-
+    sicherungs- und Sparzinsenabzug für das Kind geltend machen.
+   Jeder Elternteil kann maximal 5'050 Franken der nachgewiesenen Kosten für die Kinder-
+    drittbetreuung in Abzug bringen. Eine andere Aufteilung ist von den Eltern nachzuweisen.
+    Betragen die geltend gemachten Kosten beider Elternteile aber zusammen mehr als den
+    Maximalbetrag von 10’100 Franken, werden die Abzüge im Verhältnis der nachgewiese-
+    nen Kosten auf diesen Maximalbetrag gekürzt.

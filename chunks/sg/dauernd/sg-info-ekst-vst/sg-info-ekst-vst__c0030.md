@@ -9,6 +9,8 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [01 - Steuererklärung 2021(1955 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_01_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2021")
-- [02 - Wertschriftenverzeichnis 2021(195 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_02_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2021")
-- [04 - Berufskosten 2021(146 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_04_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2021")
+####
+
+- [01 - Steuererklärung 2020(1805 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2020-hs/01_SG_NP_Steuererkl%C3%A4rung_2020_HA.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2020")
+- [02 - Wertschriftenverzeichnis 2020(172 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2020-hs/02_SG_NP_Wertschriftenverzeichnis_2020_HA.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2020")
+- [04 - Berufskosten 2020(119 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2020-hs/04_SG_NP_Berufskosten_2020_HA.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2020")

@@ -10,16 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
 
-4.5   Bescheinigungspflicht
-Die kollektiven Kapitalanlagen haben den Anlegerinnen und Anlegern alle Verhältnisse zu
-bescheinigen, die für die Besteuerung der Erträge massgeblich sind. Zudem haben sie ihre
-Jahresberichte bzw. Jahresrechnungen bei der ESTV einzureichen.
+5   Spezialfragen
+5.1   Gewerbsmässiger Wertschriftenhandel
+Entscheidend für die Qualifikation als Einkommen aus kollektiver Kapitalanlage ist letztlich,
+dass die Fondsleitung oder die Organe der SICAV und KmGK selbständig handeln und die
+Anlegerinnen und Anleger kein Weisungsrecht ihnen gegenüber haben. Diesfalls werden die
+häufigen Wertschriftentransaktionen der kollektiven Kapitalanlagen den Anlegerinnen und
+Anlegern steuerlich nicht als gewerbsmässiger Wertschriftenhandel zugerechnet.
 
-Die thesaurierten Vermögenserträge unterliegen aufgrund der Treuhandlösung auf Stufe der
-Anlegerinnen und Anleger der Einkommenssteuer. Die thesaurierenden kollektiven Kapital-
-anlagen haben daher den Anlegerinnen und Anlegern für die direkten Steuern die thesaurier-
-ten Erträge jährlich zu bescheinigen. Davon ausgenommen sind die wiederangelegten Kapi-
-talgewinne, sofern sie in der Jahresrechnung separat ausgewiesen werden. Mit der Meldung
-des thesaurierten Ertrages pro Anteil an die ESTV zu Handen der Kursliste HB und der Be-
-reitstellung der entsprechenden Berechnungsgrundlagen ist die Bescheinigungspflicht der
-Kapitalanlage erfüllt.
+5.2   Kommanditgesellschaft für kollektive Kapitalanlagen (KmGK)
+Die KmGK ist eine Personengesellschaft, deren ausschliesslicher Zweck die kollektive Kapi-
+talanlage ist (Art. 98 Abs. 1 KAG). Der Komplementär kann nur eine Aktiengesellschaft mit

@@ -10,17 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
 
-<!-- Seite 7 -->
-Die Liquidation eines vertraglichen Anlagefonds, einer SICAV oder einer KmGK hat den Re-
-geln in Artikel 96 KAG zu folgen. Artikel 97 Absatz 2 KAG räumt den Anlegerinnen und Anle-
-gern einen Anspruch auf den verhältnismässigen Anteil des Liquidationserlöses ein. Die
-Rückzahlung der Kapitaleinzahlungen und dieerzielten Kapitalgewinne sind für die Anlegerin-
-nen und Anleger im Privatvermögen steuerfrei. Der Einkommenssteuer unterliegen die mit
-dem Liquidationsergebnis anteilsmässig verteilten Vermögenserträge, die nicht bereits ver-
-steuert wurden. Wird eine kollektive Kapitalanlage mit direktem Grundbesitz aufgelöst, unter-
-liegen die den Anlegerinnen und Anlegern ausgeschütteten Erträge nicht der Einkommens-
-steuer, soweit diese aus direktem Grundbesitz stammen.
+4.3   Bei Anlagen im Geschäftsvermögen
+Die Bestimmung von Artikel 20 Absatz 1 Buchstabe e DBG findet auch Anwendung auf na-
+türliche Personen, die ihre Anteile an kollektiven Kapitalanlagen im Geschäftsvermögen hal-
+ten. Erträge und Kapitalgewinne aus direktem Grundbesitz, die aus kollektiven Kapitalanla-
+gen mit direktem Grundbesitz stammen, unterliegen nicht der Einkommensbesteuerung.
+Diese Regelung gilt analog auch für juristische Personen.
 
-Bei der Liquidation einer SICAF unterliegt der Liquidationsüberschuss (Differenz zwischen
-Rückgabepreis und dem anteiligen Nennwert) gemäss Artikel 20 Absatz 1 Buchstabe c DBG
-der Einkommenssteuer.
+Bei Verkauf bzw. Rückgabe von im Geschäftsvermögen gehaltenen Anteilen qualifiziert die
+Differenz zwischen dem tieferen steuerlich massgebenden Einkommens- bzw. Gewinnsteu-
+erwert und dem höheren Verkaufserlös als steuerbarer Kapitalgewinn nach Artikel 18 Absatz
+2 bzw. Artikel 58 DBG. Ein Kapitalverlust ist steuerlich nach Artikel 27 Absatz 2 Buchstabe b
+bzw. Artikel 58 DBG abzugsfähig.

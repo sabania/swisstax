@@ -10,12 +10,6 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 20
 
-<!-- Seite 20 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-Wohnbauland
-
-Unbebaute Grundstücke
-    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+Trüllikon   5   540   480   420   360   300   –   –
+Truttikon   5   450   430   400   370   340   –   –
+Volken   3   450   390   320   –   –   –   –

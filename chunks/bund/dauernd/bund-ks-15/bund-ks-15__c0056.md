@@ -4,18 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 56"
-seiten: "12"
+titel: "Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 2/3)"
+ziffer: "Nr. 5"
+seiten: "18-19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 18–19
 
-Nennwert der in diesen Produkten verpackten Obligation ist in der Regel der investierte Be-
-trag für das Gesamtprodukt, bei auf Diskontbasis emittierten Reverse Convertibles der Kas-
-sakurs des Basiswertes (Spot). Soweit ein Reverse Convertible einen Kapitalschutz enthält,
-stellt dieser nicht den Nominalwert der (eigentlichen) Obligation dar; der Kapitalschutz ist
-vielmehr das Ergebnis der Produktekonstruktion in Form einer (weiteren) Option (vgl. Ziffer
-2.3.3.2. hievor).
-
-Stempelabgaben
-Für die Umsatzabgabe gilt das bezüglich Obligationen unter Ziffer 3.1. hievor Gesagte.
+Der Emittent hat im folgenden Fall sein Produkt transparent ausgestaltet und die Überprü-
+fung vorab des Zinssatzes auf der Obligation durch die ESTV ergibt, dass es sich dabei um
+eine mit Bezug auf Währung, Laufzeit etc. marktkonforme Verzinsung handelt. Die vorlie-
+gend im kombinierten Produkt enthaltene Obligation wird zu pari emittiert und weist eine
+ausschliesslich periodische Verzinsung auf. Der Zinsanteil von Fr. 225.- pro Jahr unterliegt
+der direkten Bundessteuer und gegebenenfalls der Verrechnungssteuer. Dass der Emittent
+dem Investor bei Verfall nicht den Nominalwert der Obligation zurückbezahlen muss, son-
+dern seine Schuldverpflichtung mittels physischer Lieferung von 31 CSG Namenaktien er-
+füllen kann, ist darauf zurückzuführen, dass der Emittent sich mit Revexus vom Investoren
+eine Put-Option verkaufen liess. Für diese hat er dem Investor einerseits eine Optionsprämie
+zu bezahlen; anderseits versetzt ihn die Option in die Lage, diese bei Verfall von Revexus

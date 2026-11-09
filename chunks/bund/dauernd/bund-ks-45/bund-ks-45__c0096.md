@@ -5,20 +5,30 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 96"
-seiten: "25"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 24
 
-Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
-des Monats abgedeckt.
-Der Quellensteuerabzug ist jeweils im Zeitpunkt der Lohnzahlung vorzunehmen. Ferien- und
-Feiertagszuschläge sind im Zeitpunkt der Abrechnung und Auszahlung des Stunden- oder
-Tageslohns steuerpflichtig. Die Ablieferung der durch den Schuldner der steuerbaren Leis-
-tung bezogenen Quellensteuern erfolgt jedoch monatlich (vgl. Ziffern 9.3.1 unten 9.3.2 un-
-ten). Ist ein quellensteuerpflichtiger Arbeitnehmer innerhalb einer Lohnzahlungsperiode zu
-unterschiedlichen Stunden- bzw. Tageslohnansätzen angestellt, ist das satzbestimmende
-Einkommen für die monatliche Quellensteuerabrechnung nach dem gewogenen Mittel zu be-
-rechnen (Total ausbezahlter Stunden- bzw. Tageslohn inkl. Ferien- und Feiertagsentschädi-
-gung / geleistete Stunden bzw. Tage der entsprechenden Lohnzahlungsperiode x 180 Stun-
-den bzw. 21.667 Tage).
+    6. Zwei Arbeitsverhältnisse beim gleichen Schuldner der steuerbaren Leistung in der Schweiz:
+    Der Arbeitnehmer S. ist bei der A. AG, Aarau, zu 80 % als Sachbearbeiter und zu 20 % als Hauswart an-
+    gestellt. Das satzbestimmende Einkommen wird durch Addition der beiden Bruttolöhne ermittelt. S. erzielt
+    folgende Lohneinkommen:
+
+    Tätigkeiten   Pensum   Bruttolohn   satzbestimmend
+
+    Sachbearbeiter   80 %   4 400   5 300
+
+    Hauswart   20 %   900   5 300
+
+    7. Ein Arbeitsverhältnis in der Schweiz und ein Arbeitsverhältnis im Ausland (Gesamtpensum 70 %):
+    Der Arbeitnehmer Z. ist bei der R. AG, Bern (= Arbeitsort), und bei der H. AG, Stuttgart (= Arbeitsort), an-
+    gestellt. Das Arbeitspensum beim ausländischen Arbeitgeber ist der R. AG, Bern, bekannt. Z. erzielt fol-
+    gende Lohneinkommen:
+
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
+
+    R. AG (CH)   50 %   4 500   6 300
+
+    H. AG (D) 1   20 %   n.a.   n.a.
+    1 Steuerpflichtig in Deutschland

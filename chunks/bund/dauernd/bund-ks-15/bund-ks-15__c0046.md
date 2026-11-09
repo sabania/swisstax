@@ -4,24 +4,28 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 46"
-seiten: "10"
+titel: "Ziff. 6 Inkrafttreten (Fälligkeiten ab 1. Januar 2018) und Anhangsverzeichnis"
+ziffer: "6"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 15 · 6 Inkrafttreten · S. 14
 
-Alle Produkte mit gängigen Strukturen (insbes. kapitalgarantierte Derivate, Options- und
-Wandelanleihen, Reverse Convertibles) werden mit Hilfe der analytischen Methode von Ver-
-anlagungsbehörden oder Banken und anderen Vertriebskanälen auch ohne die entsprechen-
-den Angaben des Emittenten nachträglich transparent gemacht, wenn folgende Vorausset-
-zungen erfüllt sind:
-    1. Die emittierende Gesellschaft muss mindestens ein Single-A-Rating aufweisen, weil
-    der jeweilige mittlere Swapsatz als standardisierter und objektiver Massstab für eine
-    marktkonforme Verzinsung des Anlageteils gilt. Aus verwaltungsökonomischen Grün-
-    den ist es ausgeschlossen, die Berechnungen einzelfallweise unter Berücksichtigung
-    von individuellen Bonitäts- bzw. Risikozuschlägen vorzunehmen.
-    2. Das fragliche Produkt muss entweder an einer handelsüblichen Börse kotiert sein, o-
-    der es muss zumindest von einem Market Maker ein liquider Handel gewährleistet
-    werden, damit die Eckdaten des Gesamtproduktes (wie Emissionspreis, Nennwert
-    bzw. Rückzahlungspreis, Laufzeit und allfällige periodische Zinsen) zweifelsfrei fest-
-    stehen.
+6   Inkrafttreten
+Dieses Kreisschreiben tritt mit seiner Publikation in Kraft und hat Gültigkeit für Ertragsfällig-
+keiten ab 1. Januar 2018. Es ersetzt das Kreisschreiben Nr. 15 vom 7. Februar 2007.
+
+
+Anhang I:   Übersicht über die verschiedenen Arten von Obligationen, die herkömmlichen
+    derivativen Finanzinstrumente und die im Kreisschreiben behandelten kombi-
+    nierten Produkte
+
+Anhang II: Beispiele
+
+Anhang III: Spezialfälle und Produkteentwicklungen
+
+Anhang IV: Gutachten der Kommission für Steuern und Finanzfragen der Schweizerischen
+    Bankiervereinigung vom November 2006
+
+
+1-015-DVS-2017-d

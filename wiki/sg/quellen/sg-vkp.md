@@ -20,4 +20,4 @@ generiert: tools/build_index.py
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/sg/2026/sg-vkp/sg-vkp__c0001.md) | VKP SG – Abschnitt 1 | S. 1–2 |  |
+| [c0001](../../../chunks/sg/2026/sg-vkp/sg-vkp__c0001.md) | Art. 1 Gegenstand – Ausgleich kalte Progression SG (sGS 811.12, Stand 1.1.2026) | S. 1–2 | Die Verordnung vom 7. Oktober 2025 (Vollzug ab 1. Januar 2026) regelt die Anpassung der Tarifstufen und Abzüge der Einkommenssteuer natürlicher Personen an den Landesindex der Konsumentenpreise. |

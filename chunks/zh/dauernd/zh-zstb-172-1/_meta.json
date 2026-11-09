@@ -85,10 +85,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0006",
-"titel": "Auf dieser Seite",
+"titel": "A. Regelungsbereich und Verweis auf weitere Weisungen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"Auf dieser Seite"
+"A. Regelungsbereich und Verweis auf weitere Weisungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -102,10 +102,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0007",
-"titel": "A. Regelungsbereich und Verweis auf weitere Weisungen",
+"titel": "B. Zuständigkeiten",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"A. Regelungsbereich und Verweis auf weitere Weisungen"
+"B. Zuständigkeiten"
 ],
 "seiten": [],
 "artikel": null,
@@ -136,10 +136,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0009",
-"titel": "B. Zuständigkeiten",
+"titel": "C. Ausstellung von Steuerrechnungen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"B. Zuständigkeiten"
+"C. Ausstellung von Steuerrechnungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -153,10 +153,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0010",
-"titel": "C. Ausstellung von Steuerrechnungen",
+"titel": "D. Zustellung von Mitteilungen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"C. Ausstellung von Steuerrechnungen"
+"D. Zustellung von Mitteilungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -170,10 +170,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0011",
-"titel": "D. Zustellung von Mitteilungen",
+"titel": "E. Eidgenössische Verrechnungssteuer",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"D. Zustellung von Mitteilungen"
+"E. Eidgenössische Verrechnungssteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -238,10 +238,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0015",
-"titel": "E. Eidgenössische Verrechnungssteuer",
+"titel": "F. Gebühren, Kosten und Entschädigungen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"E. Eidgenössische Verrechnungssteuer"
+"F. Gebühren, Kosten und Entschädigungen"
 ],
 "seiten": [],
 "artikel": null,
@@ -255,10 +255,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0016",
-"titel": "F. Gebühren, Kosten und Entschädigungen",
+"titel": "G. Zahlungstermine (§§ 50 ff. StV)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"F. Gebühren, Kosten und Entschädigungen"
+"G. Zahlungstermine (§§ 50 ff. StV)"
 ],
 "seiten": [],
 "artikel": null,
@@ -272,23 +272,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0017",
-"titel": "G. Zahlungstermine (§§ 50 ff. StV)",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"G. Zahlungstermine (§§ 50 ff. StV)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0016",
-"nachher": "zh-zstb-172-1__c0018"
-},
-{
-"id": "zh-zstb-172-1__c0018",
 "titel": "I. Allgemeines",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -302,11 +285,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0017",
-"nachher": "zh-zstb-172-1__c0019"
+"vorher": "zh-zstb-172-1__c0016",
+"nachher": "zh-zstb-172-1__c0018"
 },
 {
-"id": "zh-zstb-172-1__c0019",
+"id": "zh-zstb-172-1__c0018",
 "titel": "III. An geschiedene oder getrennt lebende Ehegatten",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -320,11 +303,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0018",
-"nachher": "zh-zstb-172-1__c0020"
+"vorher": "zh-zstb-172-1__c0017",
+"nachher": "zh-zstb-172-1__c0019"
 },
 {
-"id": "zh-zstb-172-1__c0020",
+"id": "zh-zstb-172-1__c0019",
 "titel": "IV. Wegzug von natürlichen Personen aus dem Kanton Zürich",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -338,11 +321,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0019",
-"nachher": "zh-zstb-172-1__c0021"
+"vorher": "zh-zstb-172-1__c0018",
+"nachher": "zh-zstb-172-1__c0020"
 },
 {
-"id": "zh-zstb-172-1__c0021",
+"id": "zh-zstb-172-1__c0020",
 "titel": "1.Berechnungsmethode",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -357,11 +340,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0020",
-"nachher": "zh-zstb-172-1__c0022"
+"vorher": "zh-zstb-172-1__c0019",
+"nachher": "zh-zstb-172-1__c0021"
 },
 {
-"id": "zh-zstb-172-1__c0022",
+"id": "zh-zstb-172-1__c0021",
 "titel": "2.Änderung der Einschätzung im Rechtsmittelverfahren",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -376,11 +359,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0021",
-"nachher": "zh-zstb-172-1__c0023"
+"vorher": "zh-zstb-172-1__c0020",
+"nachher": "zh-zstb-172-1__c0022"
 },
 {
-"id": "zh-zstb-172-1__c0023",
+"id": "zh-zstb-172-1__c0022",
 "titel": "3.Verspätete Zahlung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -395,11 +378,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0022",
-"nachher": "zh-zstb-172-1__c0024"
+"vorher": "zh-zstb-172-1__c0021",
+"nachher": "zh-zstb-172-1__c0023"
 },
 {
-"id": "zh-zstb-172-1__c0024",
+"id": "zh-zstb-172-1__c0023",
 "titel": "4.Zins-Zwischenrechnung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -414,11 +397,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0023",
-"nachher": "zh-zstb-172-1__c0025"
+"vorher": "zh-zstb-172-1__c0022",
+"nachher": "zh-zstb-172-1__c0024"
 },
 {
-"id": "zh-zstb-172-1__c0025",
+"id": "zh-zstb-172-1__c0024",
 "titel": "II. Nicht periodische Steuern",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -432,11 +415,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0024",
-"nachher": "zh-zstb-172-1__c0026"
+"vorher": "zh-zstb-172-1__c0023",
+"nachher": "zh-zstb-172-1__c0025"
 },
 {
-"id": "zh-zstb-172-1__c0026",
+"id": "zh-zstb-172-1__c0025",
 "titel": "III. Gemeinsame Bestimmungen für periodische und nicht periodische Steuern",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -450,16 +433,33 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0025",
-"nachher": "zh-zstb-172-1__c0027"
+"vorher": "zh-zstb-172-1__c0024",
+"nachher": "zh-zstb-172-1__c0026"
 },
 {
-"id": "zh-zstb-172-1__c0027",
+"id": "zh-zstb-172-1__c0026",
 "titel": "IV. Interkommunale Steuerausscheidungen (§ 198 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
 "I. Zinsen (§§ 51 - 54 StV)",
 "IV. Interkommunale Steuerausscheidungen (§ 198 StG)"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-172-1__c0025",
+"nachher": "zh-zstb-172-1__c0027"
+},
+{
+"id": "zh-zstb-172-1__c0027",
+"titel": "J. Zahlungserleichterungen (§ 177 StG)",
+"pfad": [
+"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
+"J. Zahlungserleichterungen (§ 177 StG)"
 ],
 "seiten": [],
 "artikel": null,
@@ -490,10 +490,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0029",
-"titel": "J. Zahlungserleichterungen (§ 177 StG)",
+"titel": "K. Mahnung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"J. Zahlungserleichterungen (§ 177 StG)"
+"K. Mahnung"
 ],
 "seiten": [],
 "artikel": null,
@@ -507,10 +507,11 @@
 },
 {
 "id": "zh-zstb-172-1__c0030",
-"titel": "K. Mahnung",
+"titel": "I. Sicherstellungsverfügung (§ 181 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"K. Mahnung"
+"L. Steuersicherung",
+"I. Sicherstellungsverfügung (§ 181 StG)"
 ],
 "seiten": [],
 "artikel": null,
@@ -560,24 +561,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0033",
-"titel": "I. Sicherstellungsverfügung (§ 181 StG)",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"L. Steuersicherung",
-"I. Sicherstellungsverfügung (§ 181 StG)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0032",
-"nachher": "zh-zstb-172-1__c0034"
-},
-{
-"id": "zh-zstb-172-1__c0034",
 "titel": "1.Vorgehen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -592,11 +575,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0033",
-"nachher": "zh-zstb-172-1__c0035"
+"vorher": "zh-zstb-172-1__c0032",
+"nachher": "zh-zstb-172-1__c0034"
 },
 {
-"id": "zh-zstb-172-1__c0035",
+"id": "zh-zstb-172-1__c0034",
 "titel": "2.Arrestort",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -611,17 +594,35 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0034",
-"nachher": "zh-zstb-172-1__c0036"
+"vorher": "zh-zstb-172-1__c0033",
+"nachher": "zh-zstb-172-1__c0035"
 },
 {
-"id": "zh-zstb-172-1__c0036",
+"id": "zh-zstb-172-1__c0035",
 "titel": "3.Arrestbefehl",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
 "L. Steuersicherung",
 "II. Arrest (§ 182 StG)",
 "3.Arrestbefehl"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-172-1__c0034",
+"nachher": "zh-zstb-172-1__c0036"
+},
+{
+"id": "zh-zstb-172-1__c0036",
+"titel": "I. Arrestprosequierung (Fortführung)",
+"pfad": [
+"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
+"M. Vollstreckung",
+"I. Arrestprosequierung (Fortführung)"
 ],
 "seiten": [],
 "artikel": null,
@@ -671,24 +672,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0039",
-"titel": "I. Arrestprosequierung (Fortführung)",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"M. Vollstreckung",
-"I. Arrestprosequierung (Fortführung)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0038",
-"nachher": "zh-zstb-172-1__c0040"
-},
-{
-"id": "zh-zstb-172-1__c0040",
 "titel": "II. Betreibung auf Zahlung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -702,16 +685,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0039",
-"nachher": "zh-zstb-172-1__c0041"
+"vorher": "zh-zstb-172-1__c0038",
+"nachher": "zh-zstb-172-1__c0040"
 },
 {
-"id": "zh-zstb-172-1__c0041",
+"id": "zh-zstb-172-1__c0040",
 "titel": "III. Rechtsöffnung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
 "M. Vollstreckung",
 "III. Rechtsöffnung"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-172-1__c0039",
+"nachher": "zh-zstb-172-1__c0041"
+},
+{
+"id": "zh-zstb-172-1__c0041",
+"titel": "IV. Konkurs und gerichtlicher Nachlassvertrag",
+"pfad": [
+"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
+"M. Vollstreckung",
+"IV. Konkurs und gerichtlicher Nachlassvertrag"
 ],
 "seiten": [],
 "artikel": null,
@@ -743,11 +744,10 @@
 },
 {
 "id": "zh-zstb-172-1__c0043",
-"titel": "IV. Konkurs und gerichtlicher Nachlassvertrag",
+"titel": "N. Erlass und Abschreibung wegen Unerhältlichkeit",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"M. Vollstreckung",
-"IV. Konkurs und gerichtlicher Nachlassvertrag"
+"N. Erlass und Abschreibung wegen Unerhältlichkeit"
 ],
 "seiten": [],
 "artikel": null,
@@ -761,10 +761,12 @@
 },
 {
 "id": "zh-zstb-172-1__c0044",
-"titel": "N. Erlass und Abschreibung wegen Unerhältlichkeit",
+"titel": "2.Wegfall der solidarischen Haftung bei Zahlungsunfähigkeit eines Ehegatten (§ 12 Abs. 1 Satz 2 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"N. Erlass und Abschreibung wegen Unerhältlichkeit"
+"O. Haftung für die Steuerschuld (§ 12 StG)",
+"I. Haftung der Ehegatten",
+"2.Wegfall der solidarischen Haftung bei Zahlungsunfähigkeit eines Ehegatten (§ 12 Abs. 1 Satz 2 StG)"
 ],
 "seiten": [],
 "artikel": null,
@@ -816,25 +818,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0047",
-"titel": "2.Wegfall der solidarischen Haftung bei Zahlungsunfähigkeit eines Ehegatten (§ 12 Abs. 1 Satz 2 StG)",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"O. Haftung für die Steuerschuld (§ 12 StG)",
-"I. Haftung der Ehegatten",
-"2.Wegfall der solidarischen Haftung bei Zahlungsunfähigkeit eines Ehegatten (§ 12 Abs. 1 Satz 2 StG)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0046",
-"nachher": "zh-zstb-172-1__c0048"
-},
-{
-"id": "zh-zstb-172-1__c0048",
 "titel": "Berechnungsbeispiel Steuerperiode 2019 (bezüglich Einkommen):",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -848,11 +831,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0047",
-"nachher": "zh-zstb-172-1__c0049"
+"vorher": "zh-zstb-172-1__c0046",
+"nachher": "zh-zstb-172-1__c0048"
 },
 {
-"id": "zh-zstb-172-1__c0049",
+"id": "zh-zstb-172-1__c0048",
 "titel": "3.Haftung bei Beendigung der gemeinsamen Besteuerung der Ehegatten",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -867,11 +850,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0048",
-"nachher": "zh-zstb-172-1__c0050"
+"vorher": "zh-zstb-172-1__c0047",
+"nachher": "zh-zstb-172-1__c0049"
 },
 {
-"id": "zh-zstb-172-1__c0050",
+"id": "zh-zstb-172-1__c0049",
 "titel": "II. Haftung für die Steuer auf dem Kindereinkommen",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -885,11 +868,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0049",
-"nachher": "zh-zstb-172-1__c0051"
+"vorher": "zh-zstb-172-1__c0048",
+"nachher": "zh-zstb-172-1__c0050"
 },
 {
-"id": "zh-zstb-172-1__c0051",
+"id": "zh-zstb-172-1__c0050",
 "titel": "III. Haftung für die Steuern der im Ausland wohnenden Teilhaber an einer schweizerischen Personengesellschaft",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -903,11 +886,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0050",
-"nachher": "zh-zstb-172-1__c0052"
+"vorher": "zh-zstb-172-1__c0049",
+"nachher": "zh-zstb-172-1__c0051"
 },
 {
-"id": "zh-zstb-172-1__c0052",
+"id": "zh-zstb-172-1__c0051",
 "titel": "IV. Haftung für die Steuer des im Ausland wohnenden Liegenschaftenhändlers oder -vermittlers",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -921,11 +904,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0051",
-"nachher": "zh-zstb-172-1__c0053"
+"vorher": "zh-zstb-172-1__c0050",
+"nachher": "zh-zstb-172-1__c0052"
 },
 {
-"id": "zh-zstb-172-1__c0053",
+"id": "zh-zstb-172-1__c0052",
 "titel": "V. Haftung der Liquidatoren von Geschäftsbetrieben, Betriebsstätten oder Grundstücken, die im Ausland wohnenden Personen gehören",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -939,16 +922,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0052",
-"nachher": "zh-zstb-172-1__c0054"
+"vorher": "zh-zstb-172-1__c0051",
+"nachher": "zh-zstb-172-1__c0053"
 },
 {
-"id": "zh-zstb-172-1__c0054",
+"id": "zh-zstb-172-1__c0053",
 "titel": "VI. Haftung des Erbschaftsverwalters und des Willensvollstreckers",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
 "O. Haftung für die Steuerschuld (§ 12 StG)",
 "VI. Haftung des Erbschaftsverwalters und des Willensvollstreckers"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-172-1__c0052",
+"nachher": "zh-zstb-172-1__c0054"
+},
+{
+"id": "zh-zstb-172-1__c0054",
+"titel": "VII. Haftung der mit der Verwaltung oder Liquidation von juristischen Personen betrauten Personen (§ 60 StG)",
+"pfad": [
+"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
+"O. Haftung für die Steuerschuld (§ 12 StG)",
+"VII. Haftung der mit der Verwaltung oder Liquidation von juristischen Personen betrauten Personen (§ 60 StG)"
 ],
 "seiten": [],
 "artikel": null,
@@ -980,24 +981,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0056",
-"titel": "VII. Haftung der mit der Verwaltung oder Liquidation von juristischen Personen betrauten Personen (§ 60 StG)",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"O. Haftung für die Steuerschuld (§ 12 StG)",
-"VII. Haftung der mit der Verwaltung oder Liquidation von juristischen Personen betrauten Personen (§ 60 StG)"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0055",
-"nachher": "zh-zstb-172-1__c0057"
-},
-{
-"id": "zh-zstb-172-1__c0057",
 "titel": "I. Allgemeines",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1011,11 +994,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0056",
-"nachher": "zh-zstb-172-1__c0058"
+"vorher": "zh-zstb-172-1__c0055",
+"nachher": "zh-zstb-172-1__c0057"
 },
 {
-"id": "zh-zstb-172-1__c0058",
+"id": "zh-zstb-172-1__c0057",
 "titel": "II. Veranlagungsverjährung (§ 130 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1029,11 +1012,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0057",
-"nachher": "zh-zstb-172-1__c0059"
+"vorher": "zh-zstb-172-1__c0056",
+"nachher": "zh-zstb-172-1__c0058"
 },
 {
-"id": "zh-zstb-172-1__c0059",
+"id": "zh-zstb-172-1__c0058",
 "titel": "III. Bezugsverjährung (§ 131 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1047,11 +1030,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0058",
-"nachher": "zh-zstb-172-1__c0060"
+"vorher": "zh-zstb-172-1__c0057",
+"nachher": "zh-zstb-172-1__c0059"
 },
 {
-"id": "zh-zstb-172-1__c0060",
+"id": "zh-zstb-172-1__c0059",
 "titel": "IV. Stillstandsgründe und Unterbrechung der Verjährung (§ 130 Abs. 2 und 3, § 131 Abs. 2 StG)",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1065,11 +1048,11 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0059",
-"nachher": "zh-zstb-172-1__c0061"
+"vorher": "zh-zstb-172-1__c0058",
+"nachher": "zh-zstb-172-1__c0060"
 },
 {
-"id": "zh-zstb-172-1__c0061",
+"id": "zh-zstb-172-1__c0060",
 "titel": "1.Stillstand der Verjährung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1084,17 +1067,34 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0060",
-"nachher": "zh-zstb-172-1__c0062"
+"vorher": "zh-zstb-172-1__c0059",
+"nachher": "zh-zstb-172-1__c0061"
 },
 {
-"id": "zh-zstb-172-1__c0062",
+"id": "zh-zstb-172-1__c0061",
 "titel": "2.Unterbrechung der Verjährung",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
 "O. Haftung für die Steuerschuld (§ 12 StG)",
 "IV. Stillstandsgründe und Unterbrechung der Verjährung (§ 130 Abs. 2 und 3, § 131 Abs. 2 StG)",
 "2.Unterbrechung der Verjährung"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-172-1__c0060",
+"nachher": "zh-zstb-172-1__c0062"
+},
+{
+"id": "zh-zstb-172-1__c0062",
+"titel": "Q. Übergangsbestimmungen zur Verrechnungssteuer",
+"pfad": [
+"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
+"Q. Übergangsbestimmungen zur Verrechnungssteuer"
 ],
 "seiten": [],
 "artikel": null,
@@ -1142,23 +1142,6 @@
 },
 {
 "id": "zh-zstb-172-1__c0065",
-"titel": "Q. Übergangsbestimmungen zur Verrechnungssteuer",
-"pfad": [
-"ZStB 172.1: Bezug Staats- und Gemeindesteuern",
-"Q. Übergangsbestimmungen zur Verrechnungssteuer"
-],
-"seiten": [],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0064",
-"nachher": "zh-zstb-172-1__c0066"
-},
-{
-"id": "zh-zstb-172-1__c0066",
 "titel": "R. Inkrafttreten",
 "pfad": [
 "ZStB 172.1: Bezug Staats- und Gemeindesteuern",
@@ -1171,7 +1154,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "überschriften",
-"vorher": "zh-zstb-172-1__c0065",
+"vorher": "zh-zstb-172-1__c0064",
 "nachher": null
 }
 ]

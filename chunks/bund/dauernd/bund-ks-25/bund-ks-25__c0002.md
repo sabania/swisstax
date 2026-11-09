@@ -23,3 +23,14 @@ Bern, 23. Februar 2018
 Kreisschreiben Nr. 25
 
 Besteuerung kollektiver Kapitalanlagen und ihrer Anleger
+
+Inhaltsverzeichnis
+1   Einleitung ........................................................................................................... 2
+2   Aufsichtsrechtliche Aspekte kollektiver Kapitalanlagen ................................ 2
+3   Grundsätze der Besteuerung kollektiver Kapitalanlagen ............................... 3
+3.1   Steuerliche Grundlagen auf Ebene der kollektiven Kapitalanlage ........................ 3
+3.2   Besteuerung kollektiver Kapitalanlagen ohne direkten Grundbesitz ..................... 3
+3.3   Besteuerung kollektiver Kapitalanlagen mit direktem Grundbesitz ....................... 4
+3.3.1   Begriff .................................................................................................................. 4
+3.3.2   Besteuerung ........................................................................................................ 4
+3.3.3   Ermittlung des steuerbaren Gewinns ................................................................... 4

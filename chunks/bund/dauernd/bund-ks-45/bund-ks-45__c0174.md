@@ -5,23 +5,28 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 174"
-seiten: "48"
+seiten: "46"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 48
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 46
 
-<!-- Seite 48 -->
-    Änderung des Lohns mit anschliessender Aufnahme einer Erwerbstätigkeit des anderen Ehegatten
-    während des Kalenderjahres:
-    7. Ein verheirateter Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbst-
-    ständige Erwerbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt
-    CHF 114 000.00 [(6 x CHF 8000) + (6 x CHF 11 000)].
-    Seine Ehegattin nimmt am 15. September 2021 eine Erwerbstätigkeit auf.
+<!-- Seite 46 -->
+    Arbeitgeber 2
 
-    Monat   Jan.   …   Jun.   Jul.   …   Sep.   Okt.   Nov.   Dez.   Besteuerung
+    Monat   Jan.   …   Apr.   Mai   Jun.   …   Nov.   Dez.   Besteuerung
 
-    Bruttolohn   8 000   8 000   11 000   11 000   11 000   11 000   11 000   114 000
+    Bruttolohn   5 000   5 000   5 000   8 333.351   43 333.00
 
-    Tarifcode   B0   B0   B0   B0   C0   C0   C0
+    Tarifcode   A0   B0   B0   B0
 
-    Steuersatz (%)   9.41   9.4   11.72   11.7   15.34   15.3   15.3
+    Steuersatz (%)   10,41   5,02   5,0   5,0
+
+    Quellensteuer   520   250   250   416.65   2 436.65
+
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 ([CHF 35 000 + CHF 8 333.35] / 240
+
+    x 360).
+    2 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 ([CHF 35 000 + CHF 8 333.35] / 240
+
+    x 360).
+    3 = CHF   5 000.00 + ([CHF 5 000.00 x 8] / 12)

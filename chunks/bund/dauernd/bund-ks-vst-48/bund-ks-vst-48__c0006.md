@@ -10,6 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 2
 
+<!-- Seite 2 -->
+1   Allgemeines
+
 Am 28. September 2018 verabschiedeten die Eidgenössischen Räte eine Änderung des
 Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer (VStG; SR 642.21),
 insbesondere betreffend Artikel 23. Diese Änderung des VStG trat rückwirkend auf den

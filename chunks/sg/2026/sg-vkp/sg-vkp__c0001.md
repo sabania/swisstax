@@ -4,17 +4,17 @@ quelle: sg-vkp
 jur: sg
 jahre: [2026]
 typ: verordnung
-titel: "VKP SG – Abschnitt 1"
+titel: "Art. 1 Gegenstand – Ausgleich kalte Progression SG (sGS 811.12, Stand 1.1.2026)"
+ziffer: "Art. 1"
 seiten: "1-2"
 qmd: {metadata: {jur: sg, jahre: [2026], typ: verordnung}}
 ---
-> SG · Steuerjahr 2026 · VKP SG · S. 1–2
+> SG · Steuerjahr 2026 · VKP SG · Verordnung kalte Progression · S. 1–2
 
 # Verordnung über den Ausgleich der kalten Progression (sGS 811.12)
 
 > Kanton St. Gallen (SG) · Verordnung · Quelle: <https://sg.lexwork.naz.ch/de/dta/811.12.pdf>
 
-<!-- Seite 1 -->
 Gesetzessammlung des Kantons St.Gallen   811.12
 
 
@@ -41,7 +41,6 @@ steuer der natürlichen Personen an den Landesindex der Konsumentenpreise.
 
 nGS 2025-044
 
-<!-- Seite 2 -->
 811.12
 
 

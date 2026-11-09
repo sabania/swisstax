@@ -10,17 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 24
 
-Andererseits ging aus den parlamentarischen Beratungen die Absicht des Gesetzgebers
-hervor, dass der fiktive Einkauf insbesondere jenen gewährt werden soll, die keiner Einrich-
-tung der beruflichen Vorsorge angeschlossen sind. Diese Ungereimtheit ist Anlass dafür, den
-Kreis der Anspruchsberechtigten weiter zu gestalten, als es der Gesetzestext vorgibt. Vorge-
-sehen ist, dass alle selbständig Erwerbenden nach Artikel 1, welche keinen tatsächlichen
-Einkaufsbetrag leisten, die Besteuerung eines fiktiven Einkaufs nach Artikel 8 beantragen
-können. Wer einer Vorsorgeinrichtung angeschlossen ist, muss sich bei der Berechnung des
-fiktiven Einkaufs jedoch alle Vorsorgeguthaben insbesondere auch dieser Vorsorgeeinrich-
-tung anrechnen lassen (siehe Art. 6).
+<!-- Seite 24 -->
+2.2   Einkauf in eine Vorsorgeeinrichtung
+Artikel 4
 
-Absatz 2
-Bei der Besteuerung nach Artikel 37b DBG handelt es sich um eine Steuerminderung. Die
-dafür notwendigen Grundlagen sind gemäss der allgemeinen Beweisregel durch den Steu-
-erpflichtigen zu dokumentieren und beizubringen.
+Absatz 1 und 2
+Der Gesetzgeber wollte die Selbständigerwerbenden bezüglich der beruflichen Vorsorge den
+Unselbständigerwerbenden weitestgehend gleichstellen. Aus diesem Grund soll auch der
+Selbständigerwerbende, welcher sich freiwillig einer Einrichtung der beruflichen Vorsorge
+angeschlossen hat, den einbezahlten Einkaufsbetrag für die berufliche Vorsorge im Rahmen
+der Liquidation nach dem Grundsatz von Artikel 33 Absatz 1 Buchstabe d DBG in erster Linie
+vom Erwerbseinkommen, das nicht aus der Liquidation stammt, und von den übrigen Ein-
+künften abziehen können.
+
+Gemäss Artikel 79b Absatz 3 des Bundesgesetzes über die berufliche Alters-, Hinterlasse-
+nen- und Invalidenvorsorge (BVG; SR 831.40) dürfen die aus diesen Einkäufen resultieren-
+den Leistungen innerhalb der nächsten drei Jahren nicht in Kapitalform bezogen werden.

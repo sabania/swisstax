@@ -10,28 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 18
 
-    nein   AkK, welche für CH-Steuerzwecke wie eine KmGK besteuert wird:
-    UA: Primärmarkt unterliegt
-    Befreiter Anleger für UA-Zwecke: Ja
-    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+   https://www.finma.ch/de/finma-public/bewilligte-institute-personen-und-produkte/
+ 2
+   Minimal einmal jährliches Rückgaberecht zu NAV des Anlegers; Lockup-Klauseln ändern nichts an der Qualifikation.
+ 3
+   Siehe die Liste mit den Ländern deren Aufsicht von der ESTV anerkannt werden in Anhang V des Kreisschreibens Nr. 24.
+ 4 Das Vorliegen folgender Kriterien weist darauf hin, dass es sich um eine kollektive Kapitalanlage handelt:
 
-    Unterliegt die   AkK, welche für CH-Steuerzwecke wie ein FCP resp. eine SICAV besteuert
-    ja   Rückgaberecht   ja   wird:
-    akK im Ausland
-    des Anlegers   UA: Primärmarkt unterliegt
-    einer Aufsicht
-    vorhanden2?   Befreiter Anleger für UA-Zwecke: Ja
-    über kK3?   Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
-
-    nein   nein
-
-    ja   AkK, welche für CH-Steuerzwecke wie eine SICAF besteuert wird:
-    UA: Primärmarkt unterliegt
-    SICAF-ähnlich?
-    Befreiter Anleger für UA-Zwecke: Ja
-    Einkommens-/Gewinnsteuerzwecke: Nicht-transparente Besteuerung
-
-    nein   AkK, welche für CH-Steuerzwecke wie eine KmGK besteuert wird:
-    UA: Primärmarkt unterliegt
-    Befreiter Anleger für UA-Zwecke: Ja
-    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+   - Beschränkte Laufzeit der Anlageform;
+   - Vorhandensein eines Offering Memorandums;
+   - Keine oder sehr eingeschränkte Mitbestimmungsrechte des Anlegers;
+   - Reporting / Berichterstattung erfolgt auf gleiche Weise wie bei beaufsichtigten kollektiven Kapitalanlagen;
+   - Die Anlageform verfügt über die typischen Funktionsträger wie Investment Manager, Depotbank etc.
+ 5
+    Minimal einmal jährliches Rückgaberecht zu NAV des Anlegers; Lockup-Klauseln ändern nichts an der Qualifikation.

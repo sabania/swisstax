@@ -5,17 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 7"
-seiten: "1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
 
-1 Angepasst an das Bundesgesetz über die formelle Bereinigung der zeitlichen Bemessung der direkten Steuern
-
-bei den natürlichen Personen vom 22. März 2013 (in Kraft seit 1. Januar 2014).
-
-    Eidgenössische Steuerverwaltung ESTV
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
-1- 037-D-2020-d
+<!-- Seite 2 -->
+3.2.2   Nicht börsenkotierte Mitarbeiteraktien ............................................................ 7
+3.3   Ermittlung des steuerbaren Einkommens ................................................. 8
+3.4   Besondere Fälle............................................................................................ 8
+3.4.1   Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV) ............................................. 8
+3.4.2   Rückgabe von Mitarbeiteraktien (Art. 12 MBV) .............................................. 9
+3.4.3   Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien ........... 10
+3.4.4   Hinweise zu weiteren Sachverhalten............................................................ 10
+4   Besteuerung von Mitarbeiteroptionen (Art. 17b DBG) ............................ 10
+4.1   Freie börsenkotierte Mitarbeiteroptionen ................................................ 10

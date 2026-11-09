@@ -5,22 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 28"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 7
 
-Schliesslich ist es unerheblich, ob die steuerpflichtige Person Wertschriftengeschäfte selbst
-oder über einen bevollmächtigten Dritten (Bank, Treuhänder, usw.) abwickelt (ASA 71,
-627; 69, 652 und 788; 67, 483; 66, 224). Das Verhalten dieser bevollmächtigten Personen,
-welche als Hilfspersonen gelten, wird der steuerpflichtigen Person zugerechnet. Dies wird
-damit begründet, dass sich der Erfolg (oder Misserfolg) der getätigten Geschäfte letztlich in
-der wirtschaftlichen Leistungsfähigkeit der (auftraggebenden) steuerpflichtigen Person
-einstellt (ASA 63, 43). Das Bundesgericht hat den Grundsatz, dass die Handlungen von
-bevollmächtigten Dritten der steuerpflichtigen Person zuzurechnen sind, in der neusten
-Rechtsprechung ausdrücklich bestätigt (2C_868/2008, E. 3.4).
+5.   Beurteilungszeitpunkt
 
-4.4   Bemessungsgrundlage
+5.1   Grundsatz
 
-Der Gewinn aus der Veräusserung von Wertschriften wird definiert als positive Differenz
-zwischen dem Veräusserungserlös und den Gestehungskosten der Wertschriften, abzüglich
+Die steuerpflichtige Person übt eine über die private Verwaltung hinausgehende selbstän-
+dige Erwerbstätigkeit mit Wertschriften in derjenigen Steuerperiode aus, in welcher die von
+der Rechtsprechung aufgeführten Indizien erfüllt sind. Somit liegt Geschäftsvermögen vor.
+
+Ordentlicher Anknüpfungspunkt für die Beurteilung der Frage, ob die steuerpflichtige Person
+eine auf Erwerb gerichtete Tätigkeit ausübt, ist das Vorliegen einer oder mehrerer Veräusse-
+rungen. Erst in diesem Zeitpunkt sind alle Umstände bekannt, die für die Beurteilung
+massgeblich sind.

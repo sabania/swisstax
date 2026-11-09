@@ -4,22 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 33"
-seiten: "7"
+titel: "Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte (Teil 1/2)"
+ziffer: "3.4"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen · S. 10
 
-Verrechnungssteuer
-Gegenstand der Verrechnungssteuer sind sämtliche Erträge der von einem Inländer ausge-
-gebenen Obligationen, soweit sie vom Schuldner geleistet werden, gleichgültig ob in Form
-von periodischen Zinszahlungen oder als Einmalentschädigungen (Art. 4 Abs. 1 Bst. a des
-Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer [VStG]). Die Steuerfor-
-derung entsteht im Zeitpunkt, in dem die steuerbare Leistung fällig wird (Art. 12 Abs. 1
-VStG).
-
-Nach feststehender Praxis sind Anleihen ausländischer Konzerngesellschaften mit Garantie
-einer verbundenen schweizerischen Konzernobergesellschaft dann als inländische Anleihen
-zu qualifizieren, wenn der Anleihensbetrag direkt oder indirekt an die schweizerische Gesell-
-schaft zurückfliesst. In diesem Fall unterliegen die Erträge solcher Anleihen der Verrech-
-nungssteuer (vgl. auch das Rundschreiben der SBVg Nr. 6746 vom 29. Juni 1993).
+Alle Produkte mit gängigen Strukturen (insbes. kapitalgarantierte Derivate, Options- und
+Wandelanleihen, Reverse Convertibles) werden mit Hilfe der analytischen Methode von Ver-
+anlagungsbehörden oder Banken und anderen Vertriebskanälen auch ohne die entsprechen-
+den Angaben des Emittenten nachträglich transparent gemacht, wenn folgende Vorausset-
+zungen erfüllt sind:
+    1. Die emittierende Gesellschaft muss mindestens ein Single-A-Rating aufweisen, weil
+    der jeweilige mittlere Swapsatz als standardisierter und objektiver Massstab für eine
+    marktkonforme Verzinsung des Anlageteils gilt. Aus verwaltungsökonomischen Grün-
+    den ist es ausgeschlossen, die Berechnungen einzelfallweise unter Berücksichtigung
+    von individuellen Bonitäts- bzw. Risikozuschlägen vorzunehmen.
+    2. Das fragliche Produkt muss entweder an einer handelsüblichen Börse kotiert sein, o-
+    der es muss zumindest von einem Market Maker ein liquider Handel gewährleistet
+    werden, damit die Eckdaten des Gesamtproduktes (wie Emissionspreis, Nennwert
+    bzw. Rückzahlungspreis, Laufzeit und allfällige periodische Zinsen) zweifelsfrei fest-
+    stehen.

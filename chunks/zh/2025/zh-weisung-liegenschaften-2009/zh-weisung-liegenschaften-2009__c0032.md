@@ -10,12 +10,10 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 13
 
-<!-- Seite 13 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-III. Wohnungen in Geschäftshäusern
+    Der bei eigener Nutzung von anderen Liegenschaften und Räumen 73
+wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen,
+freistehenden Garagen, Sport- und Reithallen und dergleichen anzu-
+rechnende Mietwert soll dem Mietzins entsprechen, den der Pflichtige
+bei Vermietung von einem Dritten erhalten würde.
 
-    Für die Mietwerte von durch den Pflichtigen und zu seinem Haus- 68
-halt gehörenden Personen genutzten Wohnungen in Geschäftshäusern
-gelten die Ziff. 63 ff. sinngemäss.
-
-IV. Geschäftsräume
+1. 1. 23 - 119   13

@@ -4,19 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 97"
-seiten: "23"
+titel: "Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 3/3)"
+ziffer: "Anh. III 6b"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 6 Kapitalgarantierte Derivate · S. 26
 
-<!-- Seite 23 -->
-der Emission weniger als 4 beträgt, hängt die Besteuerung des Finanzinstruments entschei-
-dend von der Kontraktlaufzeit ab: Aus verwaltungs- und verfahrensökonomischen Gründen
-werden die Zinskomponenten bei Laufzeiten von nicht mehr als zwölf Monaten auf Zusehen
-hin steuerfrei belassen. Bei überjährigen und unbegrenzten Laufzeiten werden hingegen die
-Zinskomponenten bei Verfall bzw. bei Erreichen der Sicherheitsbarriere (vorzeitiges Auflösen
-der Position) als steuerbarer Vermögensertrag gemäss Artikel 20 Absatz 1 Buchstabe a DBG
-erfasst. Die Höhe der steuerbaren Zinskomponente wird basierend auf einem marktgerech-
-ten Zinssatz ermittelt. Darunter ist die LIBOR- bzw. Swaprate in der entsprechenden Wäh-
-rung und für die entsprechende Laufzeit zu verstehen.
+„Barrier“ oder erst am Verfalltag („Lock-in Option“). Bei einer „Lock-out Option“ kommt der fi-
+xierte Betrag nur zur Auszahlung, wenn der Kurs des Basiswertes während eines bestimm-
+ten Zeitraums eine gesetzte „Barrier“ nicht erreicht.
+
+Auch kapitalgeschützte strukturierte Produkte, die mit exotischen Optionen untrennbar kom-
+biniert sind, gelten im Sinne des Kreisschreibens Nr. 15 als transparent. Sämtliche Zahlun-
+gen, die aus der Optionenanlage resultieren, sind im Privatvermögen steuerlich unbeachtlich.
+Und es finden auch für diese Produkte die Regeln gemäss Ziffer 3.4. des Kreisschreibens
+Nr. 15 Anwendung.

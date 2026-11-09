@@ -8,7 +8,7 @@ SRC="$(cd "$(dirname "$0")/.." && pwd)"
 WS="${1:?Workspace-Pfad angeben}"
 MODE="${2:-}"
 mkdir -p "$WS/skills"
-cp -R "$SRC/skills/steuerwiki" "$SRC/skills/steuerwiki-pflege" "$WS/skills/"
+cp -R "$SRC/skills/steuerwiki" "$SRC/skills/steuerwiki-pflege" "$SRC/skills/steuererklaerung-np" "$WS/skills/"
 if [ "$MODE" = "--memory" ]; then
   DEST="$WS/memory/steuerwiki"; ARCH="$WS/steuerwiki-archiv"
   mkdir -p "$DEST" "$ARCH"

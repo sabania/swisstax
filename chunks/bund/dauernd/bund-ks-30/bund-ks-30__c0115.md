@@ -4,34 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 115"
-seiten: "27"
+titel: "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen"
+ziffer: "14.7"
+seiten: "34-35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.7 · S. 34–35
 
-<!-- Seite 27 -->
-Beispiel:   Zuzug aus dem Ausland
+14.7   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
+    minderjährigem Kind, ohne gemeinsame elterliche Sorge, mit Unter-
+    haltszahlungen
 
-Annahmen:
+Wird ein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchstabe
+c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgender-
+massen:
 
-Familienstand   rechtlich und tatsächlich ungetrennte Ehe
-Anzahl Kinder im gemeinsamen Haushalt   2
-Eintritt in die Steuerpflicht   1. Juni
-Steuerbares Einkommen in CHF   146’000
-Satzbestimmendes Einkommen in CHF   250’000
-Steuersatz in %   7,663
 
-Steuerberechnung:
-
-    CHF   Steuersatz in %   CHF
-Steuer vor Abzug   146’000   7,663   11'188.00
-./. Anteiliger Abzug vom   (2 x 251) x 146’000
-Steuerbetrag   ––––––––––––––––––   - 293.15
-    250'000
-Geschuldete Steuer   10’894.85
-
-13.4.7   Teilweise Steuerpflicht
-
-Bei beschränkter Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit nach den Artikeln 4
-und 5 DBG wird der Abzug vom Steuerbetrag anteilsmässig gewährt.
+14.7.1   Unterhaltszahlungen
+   Die Unterhaltsbeiträge für das Kind sind vom Empfänger zu versteuern. Der leistende
+    Elternteil kann diese Alimentenleistungen in Abzug bringen.

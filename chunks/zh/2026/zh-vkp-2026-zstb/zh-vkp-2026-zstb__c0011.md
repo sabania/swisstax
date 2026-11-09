@@ -4,21 +4,25 @@ quelle: zh-vkp-2026-zstb
 jur: zh
 jahre: [2026]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2026) – Abschnitt 11"
+titel: "Unterschrift, Rechtskraft und Inkrafttreten (1. Januar 2026)"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · S. 4
+> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Inkrafttreten · S. 4
 
-<!-- Seite 4 -->
-    631.1   Ausgleich der kalten Progression ab 1. Januar 2026 – V
+    Finanzdirektion
+    Ernst Stocker
 
-VIII. Steuertarif   § 47. 1 Die Vermögenssteuer beträgt (Grundtarif):
-    0‰   für die ersten   Fr.   81 000
-    ½‰ für die weiteren   Fr. 241 000
-    1‰   für die weiteren   Fr. 404 000
-    1½‰ für die weiteren   Fr. 645 000
-    2‰   für die weiteren   Fr. 968 000
-    2½‰ für die weiteren   Fr. 965 000
-    3‰   für Vermögensteile über   Fr. 3 304 000
-    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
+
+    Rechtskraft und Inkrafttreten
+    Die Verordnung über den Ausgleich der kalten Progression bei der Ein-
+    kommens- und Vermögenssteuer ab 1. Januar 2026 vom 28. Juni 2023
+    ist rechtskräftig und tritt am 1. Januar 2026 in Kraft (ABl 2025-07-11).
+
+
+    1 LS 631.1.
+    2 SR 161.1.
+    3 SR 935.51.
+
+
+    276

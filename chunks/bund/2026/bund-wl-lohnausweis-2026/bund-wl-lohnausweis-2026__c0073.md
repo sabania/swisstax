@@ -5,26 +5,33 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 73"
-seiten: "21"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 21
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 23
 
-V   Bestelladressen für Lohnausweisformular und
-    Wegleitung
-Auf den Internetseiten der Schweizerischen Steuerkonferenz (www.ssk-csi.ch) und der Eid   75
-genössischen Steuerverwaltung (www.estv.admin.ch) können das Programm «eLohnaus
-weis» sowie das Lohnausweisformular im PDF-Format heruntergeladen werden. Diese er
-möglichen das Ausfüllen des Lohnausweises am Computer. Auf diesen Internetseiten ist
-auch die vorliegende Wegleitung abrufbar. In der Regel wird der Lohnausweis direkt aus
-einer Lohnsoftwareapplikation auf weisses Papier gedruckt. Besteht diese Möglichkeit nicht,
-können Lohnausweisformulare bei nachstehender Adresse bestellt werden:
+<!-- Seite 23 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
-BBL Verkauf Bundespublikationen
-Fellerstrasse 21
-3003 Bern
+Kanton   Adresse für die Bestellung von   Adresse für Auskünfte zum
+    Lohnausweis und Wegleitung   Ausfüllen des Lohnausweises
 
-Online-Shop: Bundespublikationen für Privatkunden
-
-verkauf.zivil@bbl.admin.ch
-Tel. 058 465 50 00
+GE   Administration fiscale cantonale   Administration fiscale cantonale
+    Economat   Direction de la taxation des personnes
+    physiques
+    Rue du Stand 26   Rue du Stand 26
+    1211 Genève 3   1211 Genève 3
+    Téléphone 022 327 54 80
+    E-Mail certificatdesalaire@etat.ge.ch   E-Mail certificatdesalaire@etat.ge.ch
+GL   Kantonale Steuerverwaltung   Kantonale Steuerverwaltung
+    Sekretariat   Sekretariat
+    Hauptstrasse 11/17   Hauptstrasse 11/17
+    8750 Glarus   8750 Glarus
+    Telefon 055 646 61 50   Telefon 055 646 61 67
+    E-Mail steuerverwaltung@gl.ch   E-Mail steuerverwaltung@gl.ch
+GR   Steuerverwaltung Graubünden   Steuerverwaltung Graubünden
+    Steinbruchstrasse 18   Steinbruchstrasse 18
+    7001 Chur   7001 Chur
+    Telefon 081 257 34 61   Telefon 081 257 34 61
+    E-Mail steuererklaerung@stv.gr.ch   E-Mail steuererklaerung@stv.gr.ch
+JU   Service cantonal des contributions   Service cantonal des contributions

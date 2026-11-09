@@ -5,26 +5,27 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 21"
-seiten: "10"
+seiten: "9"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 10
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 9
 
-<!-- Seite 10 -->
-48   Als Landreserve dienendes, unüberbautes Industriegelände ist nach
-    den für landwirtschaftliches Land geltenden Grundsätzen zu bewer-
-    ten, wenn es land- oder forstwirtschaftlich genutzt wird.
+Ertragswert von Geschäftshäusern
+   Zur Ermittlung des Ertragswerts ist der Ertrag der Liegenschaft zu 43
+kapitalisieren. Es gelten die Kapitalisierungssätze für Mehrfamilien-
+häuser (Ziff. 41 und 42).
+   Ziff. 39 und 40 gelten sinngemäss.   44
 
-    2. Landwert
+VI. Industrielle oder gewerbliche Liegenschaften
 
-49   Bei der Bewertung von mit industriellen oder gewerblichen Bauten
-    überbautem Land ist auszugehen von:
-    – der Bauland-Kategorie (Bauland für industrielle oder gewerbliche
-    Bauten) gemäss Ziff. 15,
-    – den steuerlich massgebenden Werten, wie sie für entsprechendes
-    Land gelten.
-50   Die Zuordnung zur Bauland-Kategorie gemäss Ziff. 15 erfolgt auf-
-    grund der Art der Baute, und nicht wie bei unüberbautem Land nach
-    Massgabe der Zonenordnung.
+1. Allgemeine Grundsätze
 
-    3. Zeitbauwert
+   Als industriell oder gewerblich gelten unter Einschluss von Lager- 45
+häusern diejenigen Liegenschaften, die ausschliesslich einem Fabri-
+kations- oder Gewerbebetrieb dienen und deren Wert durch diese
+Benutzungsart bestimmt wird.
+   Der Verkehrswert von industriellen oder gewerblichen Bauten ist 46
+nach folgender Formel zu berechnen:
+    Landwert + Zeitbauwert
+   Gehört Industriegelände (Lagerplätze, Werkplätze, Werkhöfe) zu 47
+industriellen Anlagen, so ist es zusammen mit diesen zu bewerten.

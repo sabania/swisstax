@@ -5,36 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 33"
-seiten: "11"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 9
 
-<!-- Seite 11 -->
-Beispiele:
-
- Beispiel 1   N1   N2   N3   N4
-
- ARBEITNEHMER/IN
-
- Angefallene Kosten   12‘000   10‘000   8‘000
-
- Abzug   12‘000   10‘000   8‘000   30‘000 *
-    steuerbar Art. 16 Abs. 1 DBG
-
- ARBEITGEBER/IN   Zahlung 30‘000
-
-* CHF 30‘000 sind als steuerbares Einkommen im Sinne von Artikel 16 Absatz 1 DBG aufzurechnen, da die berufsori-
-entierten Aus- und Weiterbildungskosten in diesem Umfang nicht (mehr) selbst getragen sind.
-
- Beispiel 2   N1   N2   N3   N4
-
- ARBEITNEHMER/IN
-
- Angefallene Kosten   20‘000   10‘000   8‘000
-
- Abzug   12‘000   10‘000   8‘000   19‘000 *
-    (8‘000)   (27‘000 - 8‘000)
-    steuerbar Art. 16 Abs. 1 DBG
-
- ARBEITGEBER/IN   Zahlung 27‘000
+4.7.2   Rückzahlung von ursprünglich vom Arbeitgeber getragenen berufsorientierten Aus-
+    und Weiterbildungskosten durch den Arbeitnehmer
+Muss der Arbeitnehmer die vom Arbeitgeber zunächst übernommenen berufsorientierten Aus-
+und Weiterbildungskosten (ganz oder teilweise) an diesen zurückbezahlen (z.B. aufgrund einer
+Rückzahlungsklausel in der Ausbildungsvereinbarung bei vorzeitigem Stellenwechsel), kann er
+dafür im Zeitpunkt der Rückzahlung den Abzug gemäss Artikel 33 Absatz 1 Buchstabe j DBG
+geltend machen. Wenn der Arbeitgeber die berufsorientierten Aus- und Weiterbildungskosten

@@ -5,30 +5,33 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 88"
-seiten: "29"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 30
 
-<!-- Seite 29 -->
-3. Einbringung in eine nicht beherrschte Gesellschaft
+       Es liegen steuerlich anerkannte KER gemäss Artikel 5 Absatz 1bis VStG oder Aus-
+    land-KER gemäss Artikel 5 Absatz 1quater Buchstaben a und b VStG vor, welche ver-
+    bucht sind und unter den gesetzlichen oder freien Kapitalreserven ausgewiesen wer-
+    den;
+       im Zeitpunkt des Erwerbs der eigenen Beteiligungsrechte lagen auch tatsächlich Re-
+    serven aus Kapitaleinlagen vor, die betragsmässig mindestens dem Total der eige-
+    nen Beteiligungsrechte zur Verrechnung mit KER oder Ausland-KER entsprechen.
 
-A ist zu 30% an der A AG beteiligt. Er bringt die Beteiligung an der A AG zum Verkehrswert
-von 300 in die H AG ein. Durch die Einlage wird das Aktienkapital der H AG auf 175 erhöht.
-Der Rest von 225 wird als Agioeinlage eingebucht, welche als KER ausgewiesen wird. Die
-Gesellschaften weisen vor der Übertragung folgende Werte auf:
+Folgender beispielhafter Ausweis beachtet die handelsrechtlichen Vorschriften und genügt
+den steuerlichen Anforderungen:
 
-    Nominalkapital   KER   übrige   Verkehrs-
-    Reserven   wert
+ Aktienkapital   20
 
- A AG   100   200   500   1000
- H AG   100   50   150   400
+ Gesetzliche Kapitalreserven
+ - KER   20
+ - Ausland-KER   8
+ - Übrige Kapitalreserven   60   88
+ Freie Kapitalreserven
+ - KER   10
+ - Ausland-KER   2
+ - Übrige Kapitalreserven   100   112
 
- Zunahme Nominalkapital und KER H AG   300
- ./. Nominalkapital und KER A AG vor Einbringung   –90
- Ertrag aus Transponierung   210
+ Gesetzliche Gewinnreserven   30
 
-
-Bei A können die 210 nicht als steuerbarer Ertrag aus Transponierung gemäss Artikel 20a
-Absatz 1 Buchstabe b DBG besteuert werden, da er die H AG durch seine Beteiligung von
-42,9% am Grundkapital nicht beherrscht.
+ Freie Gewinnreserven / kummulierte Verluste   50

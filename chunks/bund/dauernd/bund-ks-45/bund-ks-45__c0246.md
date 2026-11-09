@@ -5,29 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 246"
-seiten: "68"
+seiten: "66"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 68
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 66
 
-12.1 Wechsel von der Quellenbesteuerung zur ordentlichen Veranlagung
-Eine quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz wird aus der Quellenbe-
-steuerung entlassen, wenn sie (vgl. Art. 12 QStV):
-     die Niederlassungsbewilligung oder das Schweizer Bürgerrecht erhält,
-     eine Person heiratet, welche die Niederlassungsbewilligung oder das Schweizer Bür-
-    gerrecht besitzt,
-     mit einer Person verheiratet ist, welche die Niederlassungsbewilligung oder das
-    Schweizer Bürgerrecht erhält,
-     das ordentliche AHV-Rentenalter erreicht und keine der Quellensteuer unterliegenden
-    Einkünfte mehr erzielt, oder
-     eine volle Invaliditätsrente erhält.
-Ist derjenige Ehegatte, welcher im Besitz der Niederlassungsbewilligung oder des Schweizer
-Bürgerrechts ist, aufgrund eines separaten Wohnsitzes im Ausland ansässig, unterliegt der
-andere Ehegatte ohne Niederlassungsbewilligung oder Schweizer Bürgerrecht in der
-Schweiz weiterhin der Quellenbesteuerung.
-Die Entlassung aus der Quellensteuer erfolgt auf den ersten Tag des Folgemonats nach Ein-
-tritt eines der vorgenannten Kriterien.
-Die Person und gegebenenfalls ihr in rechtlich und tatsächlich ungetrennter Ehe lebender
-Ehegatte wird bzw. werden für die ganze Steuerperiode im ordentlichen Verfahren veranlagt.
-Die abgezogene Quellensteuer wird zinslos an die im ordentlichen Verfahren festgelegte
-Steuer angerechnet.
+Wohnsitzstaates nicht steuerpflichtig ist und damit die persönliche Situation sowie der Fami-
+lienstand unberücksichtigt bleiben (vgl. Botschaft vom 28. November 2014 zur Revision des
+Bundesgesetzes über die Quellenbesteuerung des Erwerbseinkommens; BBl 2015 657).
+Bezüglich der Antragstellung gelten die Voraussetzungen nach Ziffer 11.3, 2. Absatz oben.
+Zusätzlich muss ein Vertreter in der Schweiz bezeichnet werden (vgl. Art. 136a Abs. 2 DBG,
+Zustelladresse; vgl. Musterformular im Anhang I).
+Zum weltweiten Einkommen werden auch die Bruttoeinkünfte des in rechtlich und tatsächlich
+ungetrennter Ehe lebenden Ehegatten hinzugerechnet. Ob die Voraussetzungen der Quasi-
+Ansässigkeit erfüllt sind, wird durch die zuständige Steuerbehörde im Veranlagungsverfah-
+ren, d.h. nach Einreichen der vollständig ausgefüllten Steuererklärung, geprüft. Zur Feststel-
+lung, ob die Schwelle von 90 Prozent erreicht ist, ermittelt die zuständige Steuerbehörde zu-

@@ -5,29 +5,37 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 165"
-seiten: "45"
+seiten: "43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 45
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 43
 
-<!-- Seite 45 -->
-    Änderung des Zivilstands während des Kalenderjahres (Heirat):
-    1. Ein lediger Steuerpflichtiger heiratet am 26. Mai 2021. Er ist unselbstständig erwerbstätig und übt seine
-    100 %-Tätigkeit für einen Jahreslohn von CHF 65 000.00 (CHF 5 000 x 13) aus.
-    Seine Ehegattin übt keine Erwerbstätigkeit aus.
+    Stundenlohn:
+    -   Ein lediger Arbeitnehmer übt seine Tätigkeit vom 1. Januar bis zum 31. Dezember des Jahres 2021 aus.
+    Seine Entschädigung beträgt CHF 35 pro Stunde. Der Lohn wird wöchentlich ausbezahlt.
 
-    Monat   Januar   …   Mai   Juni   … November   Dezember   Besteuerung
+    Arbeitgeber 1
 
-    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000
+    Monat   Jan.   Feb.   März   Apr.   Mai   Jun.
+    gearbeitete
+    130   120   125   135   115   100
+    Stunden
+    Bruttolohn   4 550   4 200   4 375   4 725   4 025   3 500
 
-    Tarifcode   A0   A0   B0   B0   B0
+    Tarifcode   A0   A0   A0   A0   A0   A0
+    Steuersatz
+    12,01   12,0   12,0   12,0   12,0   12,0
+    (%)
+    Quellensteuer   546   504   525   567   483   420
 
-    Steuersatz (%)   10,41   10,4   5,02   5,0   5,0
+    Monat   Juli   Aug.   Sep.   Okt.   Nov.   Dez.   Besteuerung
+    gearbeitete
+    140   115   130   90   120   130
+    Stunden
+    Bruttolohn   4 900   4 025   4 550   3 150   4 200   4 550   50 750
 
-    Quellensteuer   520   520   250   250   500   4 600
-
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    2 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    Änderung des Zivilstands während des Kalenderjahres (Scheidung):
+    Tarifcode   A0   A0   A0   A0   A0   A0   A0
+    Steuersatz
+    12,0   12,0   12,0   12,0   12,0   12,0   12,0
+    (%)
+    Quellensteuer   588   483   546   378   504   546   6 090

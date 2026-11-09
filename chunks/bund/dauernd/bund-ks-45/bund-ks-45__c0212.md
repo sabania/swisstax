@@ -5,20 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 212"
-seiten: "58"
+seiten: "56"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 56
 
-Pflichten der quellensteuerpflichtigen Person wird auf Ziffer 10.2 unten verwiesen.
-Die vorsätzliche oder fahrlässige Nichtablieferung der Quellensteuer kann zudem den Tatbe-
-stand der Steuerhinterziehung erfüllen (vgl. Art. 175 DBG). Verwendet der Schuldner der
-steuerbaren Leistung abgezogene Quellensteuern zu seinem oder eines andern Nutzen,
-kann ausserdem eine strafbare Veruntreuung von Quellensteuern vorliegen (vgl. Art. 187
-DBG).
-Die abgezogene Quellensteuer ist dem quellensteuerpflichtigen Arbeitnehmer in jeder Lohn-
-abrechnung sowie zusätzlich in Ziffer 12 des Lohnausweises offenzulegen. Massgebend ist
-die „Wegleitung zum Ausfüllen des Lohnausweises“. Zwecks Überprüfung des Quellensteu-
-erabzugs durch die Arbeitnehmer wird den Arbeitgebern zudem empfohlen, in Ziffer 15 des
-Lohnausweises (Bemerkungen) den bzw. die angewendeten Tarifcodes und die entspre-
-chenden Perioden aufzuführen.
+    1 = Im Monatsmodell ist einzig der im entsprechenden Monat ausbezahlte Bruttolohn für die Satzbestim-
+
+    mung massgebend.
+    2 = A0 mit satzbestimmendem Monatseinkommen von CHF 5 000.00.
+
+    3 = A0 mit satzbestimmendem Monatseinkommen von CHF 35 000.00 (CHF 5 000 + CHF 30 000).
+
+    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
+
+    dessen Tarif abzurechnen.
+    5 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

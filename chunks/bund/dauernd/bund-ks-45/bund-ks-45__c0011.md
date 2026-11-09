@@ -10,12 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
 
-7.3.2 Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-Erwerbstätigkeiten. 40
-7.3.3 Erwerbstätigkeiten im Stunden- oder Tageslohn ......................................................... 43
-7.3.4 Quellensteuerberechnung bei unterjährigen Ein- und Austritten ................................. 43
-7.4 Änderung der persönlichen Verhältnisse während des Kalenderjahres .............. 44
-7.5 Sonderfälle ................................................................................................................ 49
-7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen ............................................. 49
-7.5.2 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses ........... 51
-7.5.3 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des
-    Arbeitsverhältnisses.................................................................................................... 51
+7.5.4 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden ....................................... 53
+7.5.5 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden ........................... 53
+7.5.6 Kapitalleistungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte) ................... 54
+8   Kantonswechsel ....................................................................................................... 55
+8.1   Allgemeines .............................................................................................................. 55
+8.2   Wechsel von einem Kanton mit Jahresmodell zu einem Kanton mit
+    Monatsmodell ........................................................................................................... 55
+8.3   Wechsel von einem Kanton mit Monatsmodell zu einem Kanton mit
+    Jahresmodell ............................................................................................................ 55

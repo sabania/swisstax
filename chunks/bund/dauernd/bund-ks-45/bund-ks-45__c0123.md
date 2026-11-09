@@ -5,18 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 123"
-seiten: "32"
+seiten: "31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
 
-gung freigestellt wird, sind – da diese auf einem weiterhin gültigen Arbeitsvertrag sowie einer
-in der Schweiz ausgeübten Tätigkeit beruhen – an der Quelle zu besteuern (vgl. Art. 91
-DBG). Die Quellenbesteuerung hat dabei auf einem reduzierten Bruttolohn (unter Progressi-
-onsvorbehalt) zu erfolgen, sofern die Arbeit ohne die Freistellung mutmasslich im Ausland
-geleistet worden wäre. Wäre die Arbeit mutmasslich als Grenzgänger im Sinne von Arti-
-kel 15a des DBA mit Deutschland geleistet worden, sind die entsprechenden Tarife anwend-
-bar.
-Es steht dem (ehemaligen) Arbeitnehmer offen, bis am 31. März des auf die Fälligkeit der
-Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
-liche ordentliche Veranlagung zu verlangen (vgl. Ziffer 11 unten).
+Die massgebenden Arbeitstage sind in einem Kalendarium festzuhalten, welches der Quel-
+lensteuerabrechnung beizulegen ist. Rechnet der Arbeitgeber die Quellensteuer elektronisch
+ab (bspw. über ELM-QSt), ist das Kalendarium auf dem postalischen Weg der zuständigen
+Steuerbehörde zuzustellen, solange keine Möglichkeit der elektronischen Übermittlung zur
+Verfügung steht.
+Erfolgt bei der Berechnung des Quellensteuerabzugs durch den Arbeitgeber keine Berück-
+sichtigung der ausländischen Arbeitstage oder ist der Arbeitnehmer mit der anzahlmässigen
+Ausscheidung von im Ausland geleisteten Arbeitstagen nicht einverstanden, kann der Arbeit-
+nehmer bis am 31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres bei der
+zuständigen Steuerbehörde eine Neuberechnung der Quellensteuer oder eine nachträgliche
+ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten). Das Kalendarium muss sowohl
+vom Arbeitnehmer als auch vom Arbeitgeber unterzeichnet und zusammen mit dem Antrag
+eingereicht werden.
+Für die Ausscheidung im Rahmen einer nachträglichen Korrektur sind die Regeln des inter-
+nationalen Steuerrechts bzw. der entsprechenden staatsvertraglichen Vereinbarungen
+(bspw. DBA, Verständigungsvereinbarungen) massgebend.

@@ -4,16 +4,33 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 66"
-seiten: "14"
+titel: "Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung"
+ziffer: "10.3"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 30 · 10 Kinderabzug › 10.3 Volljährige Kinder in Ausbildung · S. 20–21
 
-Halten die unverheirateten Eltern die elterliche Sorge gemeinsam inne, kann jeder Elternteil
-maximal 5‘050 Franken der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug
-bringen. Es besteht jedoch die Möglichkeit, dass die Eltern eine andere Aufteilung beantra-
-gen. Die beiden Elternteile haben sich diesfalls zu einigen. Es obliegt daher den Eltern, eine
-andere Aufteilung zu begründen und nachzuweisen. Betragen die geltend gemachten Kosten
-beider Elternteile zusammen mehr als den Maximalbetrag von 10’100 Franken, werden die
-Abzüge im Verhältnis der nachgewiesenen Kosten auf diesen Maximalbetrag gekürzt.
+Unter Ausbildung ist ein Lehrgang für die berufliche Erstausbildung wie beispielsweise eine
+Lehre oder ein Studium zu verstehen. Diese endet, wenn das Kind das dazugehörende Ab-
+schlussdiplom erworben hat und in der Lage ist, eine angemessene berufliche Tätigkeit aus-
+zuüben.
+
+Die Gewährung des Kinderabzuges bei einer Zweitausbildung ist möglich, wenn sachliche
+Gründe für die Aufnahme einer Zweitausbildung sprechen, um eine angemessene berufliche
+Tätigkeit ausüben zu können.
+
+Bei einem Unterbruch der beruflichen Ausbildung kann der Kinderabzug weiterhin geltend
+gemachten werden, wenn der Unterbruch nur vorübergehend ist, z.B. um die Militär, Zivil-
+
+oder Zivilschutzdienstpflicht zu erfüllen oder um für die Ausbildung notwendige Prüfungen
+vorzubereiten.
+
+Auslandsaufenthalte, die nicht zur eigentlichen Berufsausbildung gehören und nur darauf
+ausgerichtet sind, die späteren Karrierechancen zu verbessern, gelten nicht als Erstausbil-
+dung. Auch hier gilt das Stichtagsprinzip. Fällt ein solcher Unterbruch auf einen Stichtag,
+kann der Kinderabzug nicht beansprucht werden. Hat das Kind die Ausbildung vor dem
+Stichtag abgeschlossen, wird der Kinderabzug ebenfalls für das entsprechende Steuerjahr
+nicht mehr gewährt.
+
+Bei einer Weiterbildung des volljährigen Kindes wird der Kinderabzug nicht gewährt.

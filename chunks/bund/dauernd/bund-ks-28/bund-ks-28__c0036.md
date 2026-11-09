@@ -5,30 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 36"
-seiten: "10"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 9
 
-<!-- Seite 10 -->
-Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
-Aufgabe der selbstständigen Erwerbstätigkeit
+Art. 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
+Der geltend gemachte fiktive Einkauf wird steuerrechtlich an einen späteren Einkauf
+in eine Vorsorgeeinrichtung angerechnet.
 
-4. Abschnitt: Übriger Liquidationsgewinn
+Art. 8   Besteuerung des fiktiven Einkaufs
+Der Betrag des fiktiven Einkaufs wird nach Artikel 38 DBG besteuert.
 
-Art. 9   Bemessung
-Der übrige Liquidationsgewinn umfasst die im Liquidationsjahr und im Vorjahr
-realisierten stillen Reserven, abzüglich:
-    a.   der Beitragsüberhänge (Art. 4 Abs. 3);
-    b.   des fiktiven Einkaufs;
-    c.   des durch die Realisierung der stillen Reserven verursachten Aufwandes;
-    d.   des Verlustvortrags und des Verlusts des laufenden Geschäftsjahres, die
-    nicht mit dem Einkommen aus der selbstständigen Erwerbstätigkeit verrech-
-    net werden konnten.
+3   SR 831.40
+4   SR 831.441.1
+5   SR 831.461.3
+6   SR 220
 
-Art. 10   Besteuerung
-1 Für den anwendbaren Steuersatz nach Artikel 214 DBG ist ein Fünftel des Liqui-
-dationsgewinns massgebend.
-2 Der Steuersatz beträgt jedoch mindestens 2 Prozent.
-
-5. Abschnitt: Erbgang
+    3

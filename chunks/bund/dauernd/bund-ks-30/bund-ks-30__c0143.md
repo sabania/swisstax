@@ -4,27 +4,28 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 143"
-seiten: "34"
+titel: "Ziff. 15.6 Akteneinsichtsrecht der Ehegatten"
+ziffer: "15.6"
+seiten: "41-42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.6 Akteneinsichtsrecht · S. 41–42
 
-14.6   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
-    minderjährigem Kind, ohne gemeinsame elterliche Sorge, keine Un-
-    terhaltszahlungen
+15.6   Akteneinsichtsrecht
 
-Wird kein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchsta-
-be c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgen-
-dermassen:
+Die steuerliche Gleichberechtigung der Ehegatten wirkt sich auch auf die Akteneinsicht aus.
+Beide Steuerpflichtigen sind zur Einsicht in alle Steuerakten der Ehegemeinschaft berechtigt
+(Art. 114 Abs. 2 DBG). Wird einem Ehegatten die Einsichtnahme in ein Aktenstück aufgrund
+öffentlicher oder privater Interesse verweigert, so darf darauf zum Nachteil dieses Ehegatten
+nur abgestellt werden, wenn ihm die Behörde von dem für die Sache wesentlichen Inhalt
+mündlich oder schriftlich Kenntnis und ausserdem Gelegenheit gegeben hat, sich zu äussern
+und Gegenbeweismittel zu bezeichnen (Art. 114 Abs. 3 DBG). Auf Wunsch des Ehegatten,
+dem die Einsicht verweigert wurde, hat die Behörde die Verweigerung der Akteneinsicht
 
-14.6.1   Abzüge
-   Der Elternteil, der die elterliche Sorge innehält, kann den Kinderabzug sowie den Versi-
-    cherungs- und Sparzinsenabzug für das Kind geltend machen.
-   Der Elternteil, der die elterliche Sorge innehält, kann die von ihm nachgewiesenen Kin-
-    derdrittbetreuungskosten in Abzug bringen. Dem anderen Elternteil wird der Abzug nicht
-    gewährt.
+durch eine Verfügung zu bestätigen, die durch Beschwerde angefochten werden kann (Art.
+114 Abs. 4 DBG).
 
-14.6.2   Tarife
-   Der Elternteil, der die elterliche Sorge innehält, erhält den Elterntarif. Der andere Elternteil
-    wird zum Grundtarif besteuert.
+Ab dem Zeitpunkt der Trennung kann ein Ehegatte die Steuerakten des anderen Ehegatten
+nicht mehr einsehen, da diese getrennt veranlagt werden und es sich somit nicht mehr um
+gemeinsame Steuerakten im Sinne von Artikel 9 DBG in Verbindung mit Artikel 114 Absatz 1
+DBG handelt.

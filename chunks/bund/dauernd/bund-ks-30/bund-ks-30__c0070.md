@@ -4,23 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 70"
-seiten: "16"
+titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 1/3)"
+ziffer: "11"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
-<!-- Seite 16 -->
-Ausbildungszeit oder der tatsächlichen Dauer der Erwerbsunfähigkeit mit gleichzeitiger Be-
-treuungsunfähigkeit der steuerpflichtigen Person anfallen.
+Der Abzug ist nicht zulässig, wenn der gemeinsam veranlagte Ehegatte unterstützt wird. Der
+gegenseitigen ehelichen Unterstützung wird bereits durch den Verheiratetentarif (Art. 36 Abs.
+2 DBG) sowie durch den Verheiratetenabzug (Art. 35 Abs. 1 Bst. c DBG) Rechnung getra-
+gen.
 
-Abziehbar sind beispielsweise Taggelder für private und öffentliche Organisationen wie Kin-
-derkrippen oder Kinderhorte. Als abziehbare Kinderdrittbetreuungskosten kommen auch
-Vergütungen an Personen, welche die Betreuung von Kindern haupt- oder nebenberuflich
-ausüben, wie etwa Tagesmütter oder Tagesfamilien, in Frage. Fallen im Rahmen der Drittbe-
-treuung auch Kosten für die Verpflegung oder für anderen Unterhalt der Kinder an, so sind
-diese als Lebenshaltungskosten zu qualifizieren und können nicht in Abzug gebracht wer-
-den. Solche Kosten würden auch entstehen, wenn die Kinder nicht durch Dritte betreut wür-
-den.
+Der Unterstützungsabzug kann ebenfalls nicht für Kinder beansprucht werden, für die bereits
+ein Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) gewährt wird. Dieses Kumulationsverbot von
+Kinderabzug und Unterstützungsabzug gilt aber nur für ein und dieselbe leistende Person.
+Bei getrennt lebenden Eltern besteht je nach Konstellation die Möglichkeit, dass für das glei-
+che Kind der Kinderabzug und der Unterstützungsabzug gewährt werden.
 
-Kosten für die Betreuung durch die Eltern selbst sind nicht abzugsfähig.
+Bei getrennt lebenden Elternteilen, die ihre Kinder unterstützen, gilt es zwischen minderjähri-
+gen und volljährigen Kindern zu unterscheiden. Bei minderjährigen Kindern kann der leisten-
+de Elternteil die Unterhaltsbeiträge für das Kind (Art. 33 Abs. 1 Bst. c DBG) in Abzug brin-

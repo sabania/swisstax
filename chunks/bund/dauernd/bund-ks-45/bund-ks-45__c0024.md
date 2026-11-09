@@ -5,20 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 24"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 6
 
-2.2   Schuldner der steuerbaren Leistung
-2.2.1 Grundsatz
-Als Schuldner der steuerbaren Leistung im Sinne dieses Kreisschreibens gilt diejenige natür-
-liche oder juristische Person, die dem Arbeitnehmer eine dem Quellensteuerabzug unterlie-
-gende Leistung ausrichtet (vgl. Ziffer 3.2 unten). Dies betrifft einerseits den Arbeitgeber, d.h.
-eine Gesellschaft, eine Gruppengesellschaft, Betriebsstätte oder feste Einrichtung, bei wel-
-cher der Arbeitnehmer für die Verrichtung einer unselbstständigen Erwerbstätigkeit angestellt
-ist sowie andererseits die Sozial- oder Privatversicherer bzw. die haftpflichtigen Dritten für
-
-1 Aus Gründen der Lesbarkeit werden im vorliegenden Kreisschreiben nur die männlichen Formen verwendet.
-
- Frauen sind selbstverständlich mitgemeint.
+<!-- Seite 6 -->
+Ersatzeinkünfte. Voraussetzung ist, dass der Schuldner der steuerbaren Leistung den Wohn-
+sitz, den Sitz, die tatsächliche Verwaltung, eine Betriebsstätte oder eine feste Einrichtung in
+der Schweiz hat. Darunter sind auch Fälle von wirtschaftlicher Arbeitgeberschaft mit Sitz o-
+der Betriebsstätte in der Schweiz (bspw. Personalverleih aus dem Ausland [vgl. Ziffer 2.2.2
+unten] sowie faktische Arbeitgeberschaft [vgl. Ziffer 2.2.3 unten]) zu verstehen. Mangelt es
+an einem Schuldner der steuerbaren Leistung in der Schweiz, besteht keine Quellensteuer-
+pflicht.

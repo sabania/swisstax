@@ -4,18 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 11"
-seiten: "2"
+titel: "Ziff. 2.2 Beschränkte Steuerpflicht eines Ehegatten"
+ziffer: "2.2"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 30 · 2 Internationale Verhältnisse › 2.2 Beschränkte Steuerpflicht eines Ehegatten · S. 7
 
-13.4.9   Quellensteuer für natürliche Personen .................................................................. 28
-13.4.10   Pauschale Steueranrechnung ............................................................................... 28
-13.4.11   Kapitalleistungen nach Artikel 38 und fiktive Einkäufe nach Artikel 37b DBG ....... 29
-13.4.12   Übriger Liquidationsgewinn nach Artikel 37b DBG................................................ 30
-14   Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt
-    lebenden Ehegatten und Eltern ............................................................................. 30
-14.1   Besteuerung der Unterhaltszahlungen an den geschiedenen, gerichtlich oder
-    tatsächlich getrennt lebenden Ehegatten .............................................................. 30
-14.1.1   Zivilrechtliche Aspekte ........................................................................................... 30
+2.2   Beschränkte Steuerpflicht eines Ehegatten
+
+Unterliegt ein Ehegatte aufgrund wirtschaftlicher Zugehörigkeit gemäss Artikel 4 und 5 DBG
+in der Schweiz der Steuerpflicht, ist er für diese Teile des Einkommens selbständig steuer-
+pflichtig. Auch bei beschränkter Steuerpflicht ist zur Satzbestimmung das eheliche Gesamt-
+einkommen der in rechtlich und tatsächlich ungetrennter Ehe lebenden Personen heranzu-
+ziehen. Andererseits hat der beschränkt steuerpflichtige Ehegatte Anspruch auf den Verhei-
+ratetenabzug (vgl. dazu Ziff. 12) und den Verheiratetentarif oder - falls Kinder vorhanden
+sind - auf den Kinderabzug (vgl. dazu Ziff. 10.1) und den Elterntarif (vgl. dazu Ziff. 13.4.7).

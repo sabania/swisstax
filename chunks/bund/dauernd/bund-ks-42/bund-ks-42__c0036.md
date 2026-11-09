@@ -5,26 +5,36 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 36"
-seiten: "12"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 11
 
-<!-- Seite 12 -->
-4.9   Zahlungen des Staatssekretariats für Bildung, Forschung und Innovation (SBFI)
-    im Zusammenhang mit der Subjektfinanzierung von vorbereitenden Kursen auf
-    eidgenössische Prüfungen
-Der Bund kann nach dem 1. Januar 2018 an Absolventinnen und Absolventen von Kursen, die
-auf eidgenössische Berufsprüfungen oder eidgenössische höhere Fachprüfungen vorbereiten,
-Beiträge leisten, sofern dafür die entsprechenden Voraussetzungen erfüllt sind. Entsprechende
-Zahlungen des SBFI stellen für den Kursteilnehmer steuerbares Einkommen gemäss Arti-
-kel 16 Absatz 1 DBG dar. Das SBFI meldet den kantonalen Steuerbehörden die Höhe der ge-
-währten Beiträge.
+<!-- Seite 11 -->
+Beispiele:
 
+ Beispiel 1   N1   N2   N3   N4
 
-5   Quellensteuerpflichtige Personen
+ ARBEITNEHMER/IN
 
-Quellensteuerpflichtige Personen können den Abzug für berufsorientierte Aus- und Weiterbil-
-dungskosten im Rahmen einer nachträglichen Korrektur geltend machen, sofern die Vorausset-
-zungen dafür erfüllt sind. Der Korrekturantrag ist jeweils bis am 31. März des Folgejahres bei der
-zuständigen kantonalen Steuerbehörde einzureichen (vgl. Art. 137 DBG).
+ Angefallene Kosten   12‘000   10‘000   8‘000
+
+ Abzug   12‘000   10‘000   8‘000   30‘000 *
+    steuerbar Art. 16 Abs. 1 DBG
+
+ ARBEITGEBER/IN   Zahlung 30‘000
+
+* CHF 30‘000 sind als steuerbares Einkommen im Sinne von Artikel 16 Absatz 1 DBG aufzurechnen, da die berufsori-
+entierten Aus- und Weiterbildungskosten in diesem Umfang nicht (mehr) selbst getragen sind.
+
+ Beispiel 2   N1   N2   N3   N4
+
+ ARBEITNEHMER/IN
+
+ Angefallene Kosten   20‘000   10‘000   8‘000
+
+ Abzug   12‘000   10‘000   8‘000   19‘000 *
+    (8‘000)   (27‘000 - 8‘000)
+    steuerbar Art. 16 Abs. 1 DBG
+
+ ARBEITGEBER/IN   Zahlung 27‘000

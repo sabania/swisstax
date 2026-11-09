@@ -4,21 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 146"
-seiten: "35"
+titel: "Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 1/2)"
+ziffer: "16.2"
+seiten: "42-43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 35
+> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.2 Steuerhinterziehung · S. 42–43
 
-Wird kein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchsta-
-be c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgen-
-dermassen:
+16.2   Steuerhinterziehung der Ehegatten
 
-14.8.1   Abzüge
-   Jeder Elternteil kann je den halben Kinderabzug sowie den halben Versicherungs- und
-    Sparzinsenabzug für das Kind geltend machen.
-   Jeder Elternteil kann maximal 5'050 Franken der nachgewiesenen Kosten für die Kinder-
-    drittbetreuung in Abzug bringen. Eine andere Aufteilung ist von den Eltern nachzuweisen.
-    Betragen die geltend gemachten Kosten beider Elternteile aber zusammen mehr als den
-    Maximalbetrag von 10’100 Franken, werden die Abzüge im Verhältnis der nachgewiese-
-    nen Kosten auf diesen Maximalbetrag gekürzt.
+Mit der Inkraftsetzung des Bundesgesetzes vom 20. Dezember 2006 über Änderungen des
+Nachsteuerverfahrens und des Strafverfahrens wegen Steuerhinterziehung auf dem Gebiet
+der direkten Steuern hat das Steuerstrafrecht der Ehegatten auf den 1. Januar 2008 eine
+Modifizierung erfahren. Aufgrund der bis anhin in Artikel 180 Absatz 2 DBG gesetzlich statu-
+ierten Schuldvermutung konnte die Steuerbehörde prinzipiell davon ausgehen, dass bei ei-
+ner unvollständigen oder unrichtigen Deklaration derjenige Ehegatte den Tatbestand der
+Steuerhinterziehung erfüllte, dem die in Frage stehenden Steuerfaktoren zuzurechnen wa-
+ren. Von einer auf dieser Tatzuordnung und Schuldvermutung beruhenden Strafe konnte
+sich der Ehegatte lediglich durch die Erbringung des Exkulpationsbeweises befreien. In Um-
+kehr der strafrechtlichen Beweislast hatte nicht die Steuerbehörde dem Ehegatten das tatbe-
+standsmässige, rechtswidrige und schuldhafte Verhalten nachzuweisen, sondern der Ehe-
+gatte hatte die Steuerbehörde von seiner Unschuld zu überzeugen.

@@ -4,16 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 11"
-seiten: "2"
+titel: "Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures) (Teil 2/2)"
+ziffer: "2.2.1–2.2.2"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.2 Derivative Finanzinstrumente · S. 4–5
 
-Das Kreisschreiben Nr. 15 der ESTV in der Version vom 7. Februar 2007 (KS 15, Nachfolge-
-Kreisschreiben des KS 4) erläuterte deshalb insbesondere die aktuelle Praxis im Bereich der
-nachträglichen Herstellung der Transparenz von nicht trennbaren kombinierten Produkten,
-dessen Ausführungen im KS 4 überholt waren. Das vorliegende Kreisschreiben trägt der seit
-der Publikation des KS 15 erfolgten Gesetzesänderung im Bereich der Stempelabgaben (Ab-
+Mit Futures sind an Börsen gehandelte Termingeschäfte gemeint, die hinsichtlich Menge des
+Basiswertes und Verfalltag standardisiert sind. Over the counter (OTC)-Termingeschäfte
+(auch Forwards genannt) sind Kontrakte, die nicht an der Börse gehandelt werden.
+
+Beim Abschluss eines Future-Kontrakts fallen im Gegensatz zu einem Options-Kontrakt
+keine Kosten in Form von Prämien an. Sowohl Käufer wie Verkäufer tragen die gleichen
 
 1-015-DVS-2017-d
+
+Rechte und Pflichten (symmetrische Risikostruktur). Die Vertragsparteien müssen daher eine
+Vorschusszahlung leisten, die als Sicherheitshinterlage dient. Diese Vorschusszahlung wird
+dem Margin Account gutgeschrieben und als Initial Margin bezeichnet. Sie beträgt nur einen
+Bruchteil des Kontraktwertes (i.d.R. fünf bis zwanzig Prozent) und kann je nach Volatilität des
+Basiswertes nach oben oder unten korrigiert werden.

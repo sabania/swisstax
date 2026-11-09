@@ -5,20 +5,34 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 149"
-seiten: "40"
+seiten: "39"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 39
 
-7.3.2 Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-Erwerbstätigkeiten
-Ist ein Arbeitnehmer nur bei einem einzigen Arbeitgeber in einem Teilzeitpensum angestellt
-und erzielt er daneben keine weiteren Erwerbs- bzw. Ersatzeinkünfte, hat für die Satzbestim-
-mung keine Umrechnung des Lohns zu erfolgen. Für die Ermittlung des satzbestimmenden
-Einkommens bei Anstellungen im Stunden- oder Tageslohn sind die Ausführungen unter Zif-
-fer 7.3.3 unten zu beachten.
-Hat ein quellensteuerpflichtiger Arbeitnehmer gleichzeitig mehrere Arbeitsverhältnisse (inkl.
-Ersatzeinkünfte) bzw. bezieht er Lohnzahlungen und/oder Ersatzeinkünfte von verschiede-
-nen Schuldnern der steuerbaren Leistung, ist das satzbestimmende Einkommen für jedes
-einzelne Arbeitsverhältnis bzw. Versicherungsverhältnis wie folgt zu ermitteln:
-  1. Umrechnung auf den effektiven Gesamtbeschäftigungsgrad aller Erwerbstätigkeiten
-    (inkl. Ersatzeinkünfte) des Arbeitnehmers, sofern dieser den Gesamtbeschäftigungs-
+    Quellensteuer   475   475   654   654   654   920   920   7 664
+    Korrektur
+    +2803   +1205   +400
+    Januar - April
+    Korrektur
+    +2166   +216
+    Mai – Oktober
+    Total
+    475   475   934   654   654   1 256   920   8 280
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 60 000.00 (CHF 5 000 x 12)
+
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 68 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 8)]
+
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 10.9 % -
+
+    (CHF 475 x 4)]
+    4 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 6)
+
+    + CHF 8 000 x 2)]
+    5 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 11.5 % -
+
+    (CHF 475 x 4) – CHF 280]
+    6 = Korrektur des Quellensteuerabzugs für die Monate Mai bis Oktober [(CHF 6 000 x 6) x 11.5 % -
+
+    (CHF 654 x 6)]

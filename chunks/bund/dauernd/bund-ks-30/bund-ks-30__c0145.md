@@ -4,27 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 145"
-seiten: "35"
+titel: "Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten"
+ziffer: "16.1"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 35
+> Bund · Steuerjahr 2025/2026 · KS 30 · 16 Steuerstrafrecht der Ehegatten › 16.1 · S. 42
 
-<!-- Seite 35 -->
-14.7.2   Abzüge
-   Der Elternteil, der Unterhaltszahlungen erhält, kann den Kinderabzug sowie den Versi-
-    cherungs- und Sparzinsenabzug für das Kind geltend machen.
+16   Steuerstrafrecht der Ehegatten
 
-   Jeder Elternteil kann maximal 5'050 Franken der nachgewiesenen Kosten für die Kinder-
-    drittbetreuung in Abzug bringen. Eine andere Aufteilung ist von den Eltern nachzuweisen.
-    Betragen die geltend gemachten Kosten beider Elternteile aber zusammen mehr als den
-    Maximalbetrag von 10’100 Franken, werden die Abzüge im Verhältnis der nachgewiese-
-    nen Kosten auf diesen Maximalbetrag gekürzt.
 
-14.7.3   Tarife
-   Dem Elternteil, der Unterhaltszahlungen erhält, wird der Elterntarif gewährt.
-   Der Elternteil, der die Unterhaltsbeiträge leistet, wird zum Grundtarif besteuert.
+16.1   Verletzung von Verfahrenspflichten
 
-14.8   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
-    minderjährigem Kind, mit gemeinsamer elterlicher Sorge, keine Un-
-    terhaltszahlungen
+Ehegatten machen sich wie die übrigen Steuerpflichten strafbar, wenn sie die ihnen auferleg-
+ten steuerlichen Verfahrenspflichten trotz Mahnung schuldhaft nicht nachkommen (Art. 174
+DBG). Wegen Verletzung von Verfahrenspflichten macht sich jeder Ehegatte nur nach sei-
+nem persönlichen Verschulden strafbar. Die Ehegemeinschaft als solche kann nicht gebüsst
+werden. Haben beide Ehegatten pflichtwidrig die Mitwirkung verweigert (z.B. Steuererklärung
+nicht eingereicht) oder sich im Verfahren gemeinsam rechtswidrig verhalten, muss grund-
+sätzlich gegen jeden Ehegatten separat eine Steuerbusse ausgesprochen werden, in wel-
+cher das individuelle Verschulden berücksichtigt wird. Wird aber gezielt die Auskunft oder
+Mitwirkung hinsichtlich der Einkommensbestandteile oder sonstiger steuerlich relevanter
+Umstände verweigert, die nur einen der beiden Ehegatten betreffen, ist auch nur dieser Ehe-
+gatte zu büssen.

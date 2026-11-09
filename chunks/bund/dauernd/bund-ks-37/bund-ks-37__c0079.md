@@ -10,18 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 19
 
-Die Arbeitgeber sind in der Gestaltung der Bescheinigung grundsätzlich frei, soweit diese die
-Minimalanforderungen gemäss der MBV erfüllt. Musterbescheinigungen finden sich im An-
-hang III dieses Kreisschreibens. Die ESTV und die kantonalen Steuerbehörden können zu-
-sätzlich zu den in der MBV vorgeschriebenen Angaben weitere Informationen von den Ar-
-beitgebern verlangen, soweit dies für die vorschriftsgemässe Veranlagung notwendig ist (vgl.
-Art. 17 MBV).
+Wird bei nicht börsenkotierten Mitarbeiteraktien ein Verkehrswert ausgewiesen, dann muss
+auf der Bescheinigung vermerkt sein, aus welcher Transaktion sich dieser Verkehrswert ab-
+leitet. Wird demgegenüber ein Formelwert ausgewiesen, muss auf der Bescheinigung die
+angewandte Bewertungsformel angegeben werden.
 
-Sofern ein Vorbescheid betreffend die Besteuerung der Mitarbeiterbeteiligungen vorliegt,
-sind auf der Bescheinigung die kantonale Amtsstelle, die den Vorbescheid getroffen hat und
-das Datum der Vereinbarung (Abschlussdatum) zu vermerken.
+Ausnahmsweise drängt sich bei Mitarbeiteraktien eine weitere Bescheinigung auf. Das ist
+namentlich dann der Fall, wenn sich während der Haltedauer der Aktien ein einkommens-
+steuerlich relevanter Sachverhalt ereignet. Solche Anwendungsfälle werden nachfolgend
+dargestellt.
 
-8.1.2 Bescheinigungen bei Mitarbeiteraktien (Art. 4 MBV)
-Bei Mitarbeiteraktien muss die Bescheinigung für die Steuerperiode erstellt werden, in wel-
-cher der Mitarbeitende die Mitarbeiteraktien erwirbt. Sie muss die Angaben nach Artikel 4
-MBV enthalten.
+8.1.2.1 Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfrist (Art. 11 MBV)
+Die Bescheinigung bei Freigabe von Mitarbeiteraktien vor Ablauf der Sperrfirst muss für die
+Steuerperiode erstellt werden, in welcher die Sperrfrist vorzeitig wegfällt. Sie muss die Anga-
+ben nach Artikel 11 MBV enthalten.

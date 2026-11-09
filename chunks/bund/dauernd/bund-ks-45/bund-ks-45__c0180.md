@@ -5,29 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 180"
-seiten: "49"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 49
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 48
 
-7.5   Sonderfälle
-7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen
-Quellensteuerpflichtige Personen mit Ansässigkeit in der Schweiz, welche für einen schwei-
-zerischen Arbeitgeber im Ausland Arbeitstage leisten, sind nach internem Recht grundsätz-
-lich auch für das Lohneinkommen dieser ausländischen Arbeitstage in der Schweiz steuer-
-pflichtig. Sind jedoch gemäss anwendbarem DBA die Voraussetzungen der Monteurklausel
-(vgl. Art. 15 OECD-MA) nicht erfüllt, fällt die Steuerbefugnis dem Tätigkeitsstaat zu.
-Bei quellensteuerpflichtigen Personen ohne Ansässigkeit in der Schweiz, die eine unselbst-
-ständige Erwerbstätigkeit bei einem Arbeitgeber mit Sitz oder Betriebsstätte bzw. tatsächli-
-cher Verwaltung in der Schweiz ausüben, kann der Schuldner der steuerbaren Leistung die
-Ausscheidung von im Ausland geleisteten Arbeitstagen gemäss innerstaatlichem Recht wie
-folgt vornehmen:
-Auszuscheiden sind nur diejenigen Arbeitstage, an welchen die Tätigkeit tatsächlich aus-
-serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
-beitsleistung zu erbringen ist (insb. Ferien- und Krankheitstage), unterliegen nicht der Steu-
-erausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeits-
-tage sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von
-20 Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als
-ausländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin-
-und Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im
-Ausland gearbeitet hat.
+<!-- Seite 48 -->
+    Änderung des Lohns mit anschliessender Aufnahme einer Erwerbstätigkeit des anderen Ehegatten
+    während des Kalenderjahres:
+    7. Ein verheirateter Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Er übt eine unselbst-
+    ständige Erwerbstätigkeit mit einem Pensum von 100 % aus. Der Jahresbruttolohn beträgt
+    CHF 114 000.00 [(6 x CHF 8000) + (6 x CHF 11 000)].
+    Seine Ehegattin nimmt am 15. September 2021 eine Erwerbstätigkeit auf.
+
+    Monat   Jan.   …   Jun.   Jul.   …   Sep.   Okt.   Nov.   Dez.   Besteuerung
+
+    Bruttolohn   8 000   8 000   11 000   11 000   11 000   11 000   11 000   114 000
+
+    Tarifcode   B0   B0   B0   B0   C0   C0   C0
+
+    Steuersatz (%)   9.41   9.4   11.72   11.7   15.34   15.3   15.3

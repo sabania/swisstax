@@ -4,22 +4,18 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 92"
-seiten: "21"
+titel: "Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel (Teil 2/2)"
+ziffer: "13.4.10"
+seiten: "28-29"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.10 Pauschale Steueranrechnung · S. 28–29
 
-Voraussetzung für die Gewährung des Abzugs ist, dass die unterstützte Person aus objekti-
-ven Gründen ihren Lebensunterhalt vorübergehend oder dauernd nicht selber bestreiten
-kann. Dies ist erfüllt, wenn es einer Person unabhängig von ihrem Willen nicht möglich oder
-nur beschränkt möglich ist, selber einer Erwerbstätigkeit nachzugehen. Der Abzug kann
-auch bei Personen gewährt werden, die an sich zwar erwerbsfähig sind, aufgrund ihrer Ar-
-beitslosigkeit oder als alleinerziehende Eltern mit vorschulpflichtigen Kindern aber kein aus-
-reichendes Erwerbseinkommen erzielen und daher unterstützungsbedürftig sind. Keine Un-
-terstützungsbedürftigkeit liegt hingegen vor, wenn die unterstützte Person freiwillig bzw. oh-
-ne zwingenden Grund darauf verzichtet, ein genügendes Einkommen zu erzielen. Die Unter-
-haltsleistungen müssen zudem unentgeltlich sein bzw. ohne Gegenleistung erfolgen. Stehen
-den Unterhaltsleistungen wirtschaftlich messbare Leistungen des Leistungsempfängers ge-
-genüber, wie etwa die Besorgung des Haushaltes, liegen keine Unterhaltsbeiträge im Sinne
-von Artikel 35 Absatz 1 Buchstabe b DBG vor.
+Wenn infolge des Elterntarifs keine direkte Bundessteuer mehr anfällt, wird die pauschale
+Steueranrechnung auf zwei Drittel der nicht rückforderbaren ausländischen Quellensteuern
+begrenzt. Für die Berechnung des Maximalbetrages sind nur die Einkommenssteuern Kan-
+ton / Gemeinde zu berücksichtigen, der Bundesanteil an der pauschalen Steueranrechnung
+entfällt (Art. 12 Abs. 1 und Art. 20 Abs. 2 VO).
+
+Kantone, die nach Artikel 9 Absatz 2 VO für die Berechnung des Maximalbetrages einen
+eigenen Tarif anwenden, haben diesen dem Elterntarif gemäss DBG anzupassen.

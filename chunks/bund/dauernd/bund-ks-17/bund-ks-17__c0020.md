@@ -10,16 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 17 · S. 6
 
-<!-- Seite 6 -->
-2.3.   Einkauf von Beitragsjahren
+Das Scheidungsrecht gibt jedem Ehegatten einen Anspruch an der Hälfte der vom anderen
+Ehegatten während der Ehe erworbenen Austrittsleistung aus Einrichtungen der beruflichen
+Vorsorge. Ist während der Ehe ein Vorbezug zum Erwerb von Wohneigentum erfolgt, ist die-
+ser Betrag in die Auseinandersetzung miteinzubeziehen. Die Vorsorgeeinrichtung hat nach
+der Ehescheidung dem verpflichteten Ehegatten die Möglichkeit zu geben, sich im Rahmen
+der übertragenen Austrittsleistung wieder einkaufen zu können (vgl. Art. 79b Abs. 4 BVG in
+Verbindung mit Artikel 22c des Bundesgesetzes über die Freizügigkeit in der beruflichen
+Alters-, Hinterlassenen- und Invalidenvorsorge [FZG; SR 831.42]). Die Bestimmungen über
+die Scheidung sind gemäss Artikel 22d FZG bei gerichtlicher Auflösung einer eingetragenen
+Partnerschaft sinngemäss anwendbar.
 
-a)   nach einem WEF-Vorbezug
-
-Seit dem 1. Januar 2006 dürfen freiwillige Einkäufe in die berufliche Vorsorge erst wieder
-vorgenommen werden, wenn allfällig früher getätigte Vorbezüge für die Wohneigentumsför-
-derung zurückbezahlt sind (Art. 79b Abs. 3 Satz 2 BVG).
-
-Wurden Einkäufe getätigt, so dürfen die daraus resultierenden Leistungen innerhalb der
-nächsten drei Jahre nicht in Kapitalform aus der Vorsorge zurückgezogen werden (Art. 79b
-Abs. 3 Satz 1 BVG). Um einen Kapitalbezug handelt es sich auch bei einem Vorbezug für
-das Wohneigentum.
+2.4.   Zusatzversicherung

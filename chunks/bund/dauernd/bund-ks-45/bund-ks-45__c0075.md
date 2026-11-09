@@ -5,14 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 75"
-seiten: "19"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
 
-<!-- Seite 19 -->
-5   Abgrenzungen
-
-Nachfolgend wird ausgeführt, welche Leistungen von einem Arbeitgeber nach den ordentli-
-chen Tarifcodes für Arbeitnehmer abzurechnen sind bzw. welche Leistungen einer separaten
-Quellenbesteuerung unterliegen.
+    Der Arbeitnehmer T. lebt zusammen mit seinem minderjährigen Kind und der Konkubinatspartnerin in
+    Deutschland. Er ist in der Schweiz erwerbstätig und kehrt jeweils an den Wochenenden nach Deutschland
+    zurück. Er legt dem Arbeitgeber eine Vaterschaftsanerkennung sowie eine Bestätigung der deutschen
+    Wohngemeinde über den gemeinsamen Haushalt vor. Da die Konkubinatspartnerin nicht erwerbstätig ist,
+    kommt der Tarifcode H1 zur Anwendung.

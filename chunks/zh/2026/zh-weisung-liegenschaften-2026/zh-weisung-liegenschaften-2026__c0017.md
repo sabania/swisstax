@@ -10,13 +10,21 @@ qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
 > ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 8
 
-36   Mehrfamilien- und Geschäftshäuser sowie Stockwerkeigentum zu
-    Geschäftszwecken sind zum Ertragswert zu bewerten. Als Mehrfamilien-
-    häuser im Sinne dieser Weisung gelten Liegenschaften mit mehr als zwei
-    Wohneinheiten. Für Zweifamilienhäuser, die nicht als Stockwerk-
-    eigentum ausgestaltet sind, gelten die Regeln für Einfamilienhäuser.
-37   Als Geschäftshäuser gelten Liegenschaften, deren Ertrag über-
-    wiegend durch die geschäftliche Nutzung bestimmt wird (Bank-, Büro-
-    und Ladengebäude mit kleinem Wohnanteil usw.).
+<!-- Seite 8 -->
+    4. Besondere Verhältnisse
 
-    2. Ertragswert
+35   Auf Verlangen des Steuerpflichtigen können bei der Berechnung
+    des Verkehrswerts von Einfamilienhäusern sowie Stockwerkeigentum
+    zu Wohnzwecken, vorbehältlich des entsprechenden Nachweises, fol-
+    gende Korrekturen vorgenommen werden:
+    – beim Landwert, soweit sich dieser bei einer Veräusserung nicht in
+    einem entsprechenden Erlös niederschlagen würde und diesem
+    Umstand nicht schon durch Anwendung von Ziff. 18, 19, 26–29
+    Rechnung getragen wurde,
+    – beim Zeitbauwert, wenn dieser wesentlich durch Elemente erhöht
+    wird, die sich bei einer Veräusserung nicht in einem entsprechen-
+    den Erlös niederschlagen würden.
+
+    V. Mehrfamilien- und Geschäftshäuser
+
+    1. Allgemeine Grundsätze

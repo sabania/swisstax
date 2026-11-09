@@ -10,14 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 9
 
-Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft
-unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungs-
-steuer (Art. 5 Abs. 1bis VStG).
-
-Ausschüttungen aus übrigen Reserven einer Kapitalgesellschaft oder Genossenschaft sind
-nach Artikel 20 Absatz 1 Buchstabe c DBG oder Artikel 20 Absatz 1bis DBG steuerbar und
-unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
-
-Verdeckte Gewinnausschüttungen qualifizieren als Ausschüttungen aus übrigen Reserven
-und sind nach Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG steuerbar und unter-
-liegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
+Stehen Ausschüttungen aus Kapitalgesellschaften und Genossenschaften nicht sämtlichen
+Ausschüttungsberechtigten gleichermassen zu, so darf die Rückzahlung von KER bzw. Aus-
+land-KER gemessen an der gesamten Ausschüttung für jeden Berechtigten höchstens dem
+proportionalen Anteil der KER bzw. Ausland-KER an den gesamten Reserven der Kapitalge-
+sellschaft oder Genossenschaft entsprechen. Gleiches gilt innerhalb von verschiedenen An-
+teilsklassen, sofern die Statuten verschiedene Anteilsklassen (Vorzugsaktien) mit Vorrechten
+auf Rückzahlung von KER bzw. Ausland-KER vorsehen.

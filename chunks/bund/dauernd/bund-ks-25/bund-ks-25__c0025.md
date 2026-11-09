@@ -5,21 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 25"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
 
-Bei einem Wechsel von der Jahresrechnung nach KAG zu einer solchen nach OR ist folgen-
-des zu beachten:
-       Wurden die nicht realisierten Kapitalgewinne auf den Liegenschaften bislang besteu-
-    ert, kann die Wertdifferenz bei Einreichung einer Jahresrechnung nach OR als ver-
-    steuerte stille Reserven geltend gemacht werden.
-    Für steuerliche Zwecke ist bei Abschreibungen auf die Gewinnsteuerwerte abzustel-
-    len. Sollte trotz der steuerlichen Abschreibung der verbleibende Gewinnsteuerwert
-    höher sein als der Verkehrswert in diesem Zeitpunkt, muss zwingend auf den tieferen
-    Verkehrswert wertberichtigt bzw. abgeschrieben werden.
-       Wurden die nicht realisierten Kapitalgewinne bisher nicht besteuert, muss sicherge-
-    stellt werden, dass bei einer Überleitung zu einer Jahresrechnung nach OR die Wert-
-    differenz zwischen den bisher für die Gewinnsteuer massgeblichen Werten und den
-    neuen Buchwerten gemäss Jahresrechnung nach OR steuerlich erfasst wird.
+<!-- Seite 6 -->
+4   Besteuerung auf Ebene der Anleger
+4.1   Allgemeines
+Ein vertraglicher Anlagefonds, eine SICAV oder KmGK, welche in ihren Basisdokumenten
+(beispielsweise im Fondsvertrag) eine Ausschüttungsvorschrift von mindestens 70% des
+jährlichen Nettoertrags, inklusive vorgetragener Erträge aus früheren Rechnungsjahren, vor-
+sehen, gilt steuerlich als ausschüttende kollektive Kapitalanlage. Demgegenüber gelten kol-
+lektive Kapitalanlagen als thesaurierend, wenn in den Basisdokumenten keine Ausschüt-
+tungsvorschrift des jährlichen Nettoertrages vorgesehen ist. Als gemischte kollektive Kapital-
+anlagen gelten vertragliche Anlagefonds, SICAV und KmGK, wenn die jährliche Festsetzung
+der Ausschüttungs- bzw. Thesaurierungsquote im Ermessen der Funktionsträger der kol-
+lektiven Kapitalanlage liegt.

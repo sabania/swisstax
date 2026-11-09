@@ -4,22 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 161"
-seiten: "40"
+titel: "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 3/3)"
+ziffer: "Beilage 2, S. 4/13"
+seiten: "49"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 49
 
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, werden zusammen ver-
-anlagt. Sie üben die ihnen im Gesetz zukommenden Verfahrensrechte und -pflichten ge-
-meinsam aus (Art. 113 Abs. 1 DBG). Der Ehemann und die Ehefrau sind steuerrechtlich
-gleichgestellt. Beide sind Steuerpflichtige und ihnen stehen die gleichen Mitwirkungsrechte
-und -pflichten zu.
-
-Obwohl die Ehegatten die Verfahrenshandlungen grundsätzlich gemeinsam vorzunehmen
-haben, wird das Erfordernis des konsequenten gemeinsamen Handelns relativiert. Rechtzei-
-tige Handlungen nur eines Ehegatten wirken auch für den anderen Ehegatten, der innert
-Frist nicht handelt. Dieser Grundsatz wird für die Unterzeichnung der Steuererklärung sowie
-für das Einreichen von Rechtsmitteln und anderen Eingaben im Gesetz näher konkretisiert.
-
-15.2   Steuererklärung
+   14.6. Konkubinat   liche Sorge innehält.   liche Sorge innehält.   liche Sorge innehält, kann
+    Der Elternteil, der die
+    elterliche Sorge inne-
+   mit gemeinsamem min-   die von ihm nachgewiese-   hält, erhält den Eltern-
+   derjährigem Kind, ohne   nen Kosten in Abzug brin-   tarif.
+   gemeinsame elterliche   gen.      Der andere Elternteil
+   Sorge, keine Unterhalts-   wird zum Grundtarif
+   zahlungen   besteuert.
+1-030-D-2010-Beilage-2-d-2014.doc

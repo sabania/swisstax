@@ -8,7 +8,7 @@ Stand der Recherche: 9.11.2026, OpenClaw **v2026.11.1** (stabil) bzw. `main`. F�
   max. 20'000 Zeichen pro Datei / 60'000 total (`agents.defaults.bootstrapMaxChars` / `bootstrapTotalMaxChars`).
   → Den kompakten Routing-Block aus [`AGENTS.workspace-snippet.md`](AGENTS.workspace-snippet.md) in die
   Workspace-`AGENTS.md` kopieren. Die ausführlichen Regeln liegen in `steuerwiki/AGENTS.md` (on demand lesen).
-- **Skills:** `skills/steuerwiki` (Abfrage) und `skills/steuerwiki-pflege` (Ingest/neues Jahr/Lint) nach
+- **Skills:** `skills/steuerwiki` (Abfrage), `skills/steuererklaerung-np` (Fall-Ablauf: Belege → Ausfüllhilfe) und `skills/steuerwiki-pflege` (Ingest/neues Jahr/Lint) nach
   `<workspace>/skills/` kopieren. Im Prompt erscheinen nur Name + Beschreibung; das `SKILL.md` wird bei Bedarf gelesen.
 - **Suche (`memory_search`, Builtin «memory-core»):** hybrid (Vektor 0.7 + BM25 0.3, MMR), nur **`.md`-Dateien**,
   OpenClaw zerlegt jede Datei selbst in ~400 Tokens (~1'600 Zeichen, 80 Tokens Überlappung). Frontmatter wird als

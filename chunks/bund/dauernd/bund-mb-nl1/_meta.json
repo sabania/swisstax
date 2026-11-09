@@ -91,38 +91,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-mb-nl1__c0005",
-"nachher": "bund-mb-nl1__c0007"
-},
-{
-"id": "bund-mb-nl1__c0007",
-"titel": "MB NL1/2007 – Abschnitt 7",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-nl1__c0006",
-"nachher": "bund-mb-nl1__c0008"
-},
-{
-"id": "bund-mb-nl1__c0008",
-"titel": "MB NL1/2007 – Abschnitt 8",
-"pfad": [],
-"seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-mb-nl1__c0007",
 "nachher": null
 }
 ]

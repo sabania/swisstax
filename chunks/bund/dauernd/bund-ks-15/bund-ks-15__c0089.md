@@ -4,20 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 89"
-seiten: "21"
+titel: "Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 3/3)"
+ziffer: "Anh. III 5c"
+seiten: "24-25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24–25
 
-Konkret bedeutet dies, dass sowohl die Ausschüttungen als auch die thesaurierten Gewinne
-der kollektiven Kapitalanlagen beim Zertifikatsinhaber alljährlich der direkten Bundessteuer
-unterliegen (Art. 20 Abs. 1 Bst. e DBG), es sei denn, die Ausschüttungen oder thesaurierten
-Gewinne stammen aus Kapitalgewinnen der kollektiven Kapitalanlagen. Als Kapitalgewinne
-sind sie dann steuerfrei (Art. 16 Abs. 3 DBG), wenn sie im Falle der Ausschüttung mittels se-
-parater Coupons erfolgen und wenn die Fondsbuchhaltung in beiden Fällen eine klare Unter-
-scheidung zwischen (steuerfreien) Kapitalgewinnen und (steuerbaren) Vermögenserträgen
-zulässt. Gewinne aus dem Verkauf von Zertifikaten gelten steuerlich ebenfalls als Kapitalge-
-winne. Bei Verfall oder Kündigung der Zertifikate durch die Emittentin unterliegt das Liquidati-
-onsbetreffnis in dem Umfang der direkten Bundessteuer, als dieses die Auszahlung von noch
-nicht besteuerten Vermögenserträgen umfasst.
+1-015-DVS-2017-d / Anhang III
+
+bis zum nächsten Beobachtungszeitpunkt, usw. – unter Umständen bis zum Endverfall. Übli-
+cherweise haben Step-up-Produkte eine Laufzeit von vier bis fünf Jahren. Tritt der Fall ein,
+dass der Basiswert auch am letzten Beobachtungstag das Startniveau nicht erreicht, führt
+dies zur Aktivierung des bedingten Kapitalschutzes. Wird bei Verfall die Schutzbarriere des
+Basiswerts unterschritten, realisiert der Anleger den Wertverlust des Basiswerts. Bei mehre-
+ren Basiswerten bemisst sich die Rückzahlung nach dem Basiswert, der die schlechteste
+Performance aufweist (sog. „Rainbow-Option“).

@@ -10,14 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 11
 
-vom 6. Oktober 2006 über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenver
-sicherung (ELG; SR 831.30) gelten nicht als solche anzurechnende Leistungen Dritter, die bei
-der Festlegung der abzugsfähigen Kosten gemäss Artikel 33 Absatz 1 Buchstaben h und
-hbis DBG zu berücksichtigen sind. Hingegen sind diejenigen Ergänzungsleistungen, welche zur
-Vergütung von Krankheits- und Behinderungskosten gemäss Artikel 3 Absatz 1 Buch
-stabe b ELG ausgerichtet werden, an die entstandenen Kosten anzurechnen, beziehungsweise
-von diesen in Abzug zu bringen. Auch dürfen die Pauschalen für besondere Ernährung (Ziff.
-3.2.10), Dolmetscherkosten (Ziff. 4.3.1) und Transportkosten (Ziff. 4.3.6) nicht geltend gemacht
-werden, wenn die entsprechenden Kosten durch Ergänzungsleistungen gedeckt sind.
-Hilflosenentschädigungen sowie Intensivpflegezuschläge werden zweckgebunden für die Ab
-geltung von Assistenz- und Transportkosten ausgerichtet und sind bei den effektiv angefallenen
+<!-- Seite 11 -->
+Pauschalabzüge, welche gestützt auf eine Hilflosenentschädigung gewährt werden, können
+nicht mit den Pauschalen gemäss Ziffer 4.3.1 und 4.3.6 kumuliert werden.
+
+5   Abzugsfähige Kosten
+
+5.1   Selbstgetragene Kosten / Anrechenbarkeit von Leistungen Dritter
+Abzugsfähig sind nur diejenigen Kosten, die von der steuerpflichtigen Person selbst getragen
+werden und welche tatsächlich Krankheits- oder Unfallkosten bzw. behinderungsbedingte Kos
+ten nach diesem Kreisschreiben abdecken. Als abzugsfähig gelten diejenigen Kosten, die der
+steuerpflichtigen Person nach Abzug aller Leistungen öffentlicher, beruflicher oder privater Ver
+sicherungen und Institutionen zur Zahlung verbleiben (AHV, IV, SUVA, Militärversicherung,
+Krankenkasse, Haftpflicht- und private Unfallversicherung, Hilfswerke und Stiftungen etc.; vgl.
+Urteil des Bundesgerichts 2C_439/2015 vom 21. Januar 2016 E. 3.4).
+In Krankenkassenbescheinigungen aufgelistete Kosten, welche nicht zu den Krankheits- oder
+Unfallkosten im Sinne dieses Kreisschreibens gehören, sind nicht abzugsfähig.
+Jährliche Ergänzungsleistungen gemäss Artikel 3 Absatz 1 Buchstabe a des Bundesgesetzes

@@ -5,23 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 33"
-seiten: "9"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 8
 
-<!-- Seite 9 -->
-Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
-Aufgabe der selbstständigen Erwerbstätigkeit
+Art. 6   Berechnung des fiktiven Einkaufs
+1 Der Betrag des fiktiven Einkaufs einer steuerpflichtigen Person berechnet sich aus
+dem Altersgutschriftensatz von 15 Prozent, multipliziert mit der Anzahl Jahre nach
+Absatz 2 und dem Einkommen nach den Absätzen 3–5, reduziert um die Abzüge
+nach Absatz 6. Er darf die Höhe des Liquidationsgewinns nicht übersteigen.
+2 Massgebend ist die Anzahl Jahre vom vollendeten 25. Altersjahr bis zum Alter im
+Liquidationsjahr, höchstens jedoch bis zum ordentlichen AHV-Rentenalter.
 
-3 Das Einkommen entspricht dem Durchschnitt aus der Summe der AHV-pflichtigen
-Erwerbseinkommen aus selbstständiger Erwerbstätigkeit der letzten fünf Geschäfts-
-jahre vor dem Liquidationsjahr, abzüglich der im Vorjahr realisierten stillen Reser-
-ven.
-4 Weist die steuerpflichtige Person nach, dass sie bis zum Liquidationsjahr weniger
-als fünf Jahre selbstständig erwerbend war, so wird das Einkommen gestützt auf die
-tatsächliche Anzahl Jahre der selbstständigen Erwerbstätigkeit berechnet.
-5 Das Einkommen darf den zehnfachen oberen Grenzbetrag nach Artikel 8 Absatz 1
-des Bundesgesetzes vom 25. Juni 19823 über die berufliche Alters-, Hinterlassenen-
-und Invalidenvorsorge (BVG) nicht überschreiten.
-6 Abgezogen werden:
+2

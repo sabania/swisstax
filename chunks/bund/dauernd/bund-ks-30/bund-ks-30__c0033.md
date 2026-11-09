@@ -4,22 +4,16 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 33"
-seiten: "7"
+titel: "Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug"
+ziffer: "7"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 30 · 7 Abzug für Versicherungsprämien und Sparkapitalzinsen · S. 12
 
-Das DBG enthält keine Legaldefinition des Begriffes "Kind". Es lehnt sich hierfür an die Re-
-gelung des Schweiz. Zivilgesetzbuchs vom 10. Dezember 1907 (ZGB) an und geht deshalb
-von derselben Altersobergrenze aus, wie sie für die zivilrechtliche Mündigkeit eines Kindes
-massgebend ist. In der Regel ist auch im DBG das Bestehen eines Kindesverhältnisses nach
-Artikel 252 ff. ZGB Voraussetzung. Bei gemeinsam veranlagten Ehepaaren ist es ausrei-
-chend, wenn das Kindesverhältnis mit einem der Ehegatten besteht.
-
-Das minderjährige Kind ist Steuersubjekt und hat damit die Voraussetzungen der subjektiven
-Steuerpflicht in der Schweiz selber zu erfüllen, es wird aber in seinen Rechten und Pflichten
-grundsätzlich durch den Inhaber der elterlichen Sorge vertreten. Gemäss Artikel 9 Absatz 2
-DBG wird das Einkommen der unter elterlicher Sorge stehenden minderjährigen Kinder mit
-Ausnahme der Einkünfte aus Erwerbstätigkeit und der Erwerbsersatzeinkünfte dem Inhaber
-der elterlichen Sorge zugerechnet.
+Werden Steuerpflichtigen in bescheidenen Verhältnissen Prämienverbilligungen gemäss
+Artikel 65 ff. des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG)
+gewährt, sind diese Ermässigungen bei der Festsetzung des Versicherungs- und Sparzin-
+senabzuges als aufwandmindernd zu berücksichtigen. Dies hat zur Folge, dass nur die tat-
+sächlich von der steuerpflichtigen Person getragenen Prämien, d.h. die eigenen sowie die für
+die von ihm unterhaltenen Personen, in Abzug gebracht werden können.

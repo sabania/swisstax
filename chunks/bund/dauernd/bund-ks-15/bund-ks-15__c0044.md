@@ -4,23 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 44"
-seiten: "9"
+titel: "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 2/2)"
+ziffer: "4.1–4.2"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 15 · 4 Kennzeichnung in der Kursliste · S. 13
 
-Zu b. hievor: In diesem Fall sind im „Termsheet“ des Emittenten die Werte der Anlage- und
-der Optionskomponenten sowie der für die Berechnung herangezogene (marktkonforme)
-Zinssatz ausgewiesen. Die Überprüfung der Berechnung durch die ESTV muss die Richtig-
-keit der dargestellten Werte ergeben (vgl. die nachstehenden Ausführungen zu Bst. c). Im
-Gegensatz zu Buchstabe c hienach gilt ein Produkt auch dann als transparent, wenn die
-emittierende Gesellschaft über eine Bonität verfügt, die schlechter ist als ein Single-A-Rating;
-dies unter der Voraussetzung, dass der schuldnerspezifische Risikozuschlag zweifelsfrei
-feststeht.
-
-Zu c. hievor: Für Instrumente, bei denen die einzelnen Komponenten nicht separat handel-
-bar sind oder, die zwar separat gehandelt werden können, bei denen jedoch tatsächlich
-keine Trennung der einzelnen Komponenten im Markt stattfindet, erfolgt die Separierung der
-
-1-015-DVS-2017-d
+4.2   Separate Kennzeichnung der Instrumente, die der modifizierten Differenzbe-
+    steuerung unterliegen
+Für Instrumente, die der modifizierten Differenzbesteuerung basierend auf Artikel 20 Ab-
+satz 1 Buchstabe b DBG unterliegen, wird die Kursliste – neben der Bezeichnung IUP – noch
+zusätzlich den analytisch berechneten Emissionspreis der Obligation und die massgebliche
+Originalrendite aufführen. Die Banken haben die bei Erwerb, Handänderungen und Rückzah-
+lung massgeblichen Werte in den Börsenabrechnungen zu bescheinigen, nämlich die im
+BFP-Service der SIX Financial Information AG publizierten Tageskurse der Anlageteile
+(Bondfloor) der in Frage stehenden Produkte (vgl. Ziffer 3.4.1. hievor).

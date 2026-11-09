@@ -10,15 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
 
-4.9   Härtefallregelung
-Auf Antrag einer in der Schweiz ansässigen Person kann die zuständige Steuerbehörde zur
-Milderung von wirtschaftlichen Härtefällen infolge Alimentenzahlungen Kinderabzüge im an-
-wendbaren Tarif gewähren (vgl. Art. 11 Abs. 1 QStV). Als Grundlage für die Beurteilung, ob
-ein Härtefall vorliegt, kann zum Beispiel das betreibungsrechtliche Existenzminimum dienen.
-Der anwendbare Quellensteuertarif wird unter Berücksichtigung der effektiven Alimentenzah-
-lungen neu festgelegt (bspw. Tarif A2 anstatt A0). Die zuständige kantonale Steuerbehörde
-legt die Höhe der zu gewährenden Kinderabzüge fest und teilt ihren Entscheid dem Schuld-
-ner der steuerbaren Leistung sowie dem Arbeitnehmer mit.
-Wurden die Unterhaltsbeiträge bei der Anwendung eines Tarifcodes berücksichtigt, so wird
-die nachträgliche ordentliche Veranlagung nur auf Antrag der quellensteuerpflichtigen Per-
-son durchgeführt (vgl. Art. 11 Abs. 2 QStV).
+<!-- Seite 18 -->
+    -   Tarifcode C:
+    Die Eheleute R. leben in der Schweiz und sind beide erwerbstätig. Sie erhalten einen Familienzulagenent-
+    scheid, worin die zwei vollen Zulagen für die Kinder ersichtlich sind. Der Tarifcode C2 kann von beiden
+    Arbeitgebern angewendet werden.
+    Die Eheleute S. leben in Österreich und sie haben eine gemeinsame Tochter. Der Ehemann arbeitet in der
+    Schweiz und erhält eine Differenzzulage ausbezahlt. Die Ehefrau ist in Österreich erwerbstätig. Der Ta-
+    rifcode C1 ist anwendbar.
+    Die Eheleute W. leben in tatsächlich ungetrennter Ehe. Der Ehemann lebt in der Schweiz und die Ehefrau
+    mit den zwei gemeinsamen Kindern (ein Kind minderjährig, ein Kind volljährig) in Deutschland (zwei sepa-
+    rate Wohnsitze). Der Ehemann legt dem Arbeitgeber einen Familienausweis, in welchem die beiden Kin-
+    der ausgewiesen sind, sowie eine Immatrikulationsbestätigung der Universität Heidelberg für das volljäh-

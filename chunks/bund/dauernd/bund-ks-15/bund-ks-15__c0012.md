@@ -4,18 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 12"
-seiten: "3"
+titel: "Ziff. 2.2.3 Optionen – Call, Put, Warrants (Teil 1/2)"
+ziffer: "2.2.3"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.2 Derivative Finanzinstrumente · S. 5
 
-<!-- Seite 3 -->
-schaffung der Emissionsabgabe auf Fremdkapital) Rechnung. Neben weiteren Aktualisierun-
-gen und Präzisierungen gibt es den seinerzeitigen Inhalt der KS 4 und 15 wieder, die zur
-Rechtssicherheit bei der steuerlichen Behandlung von strukturierten Finanzinstrumenten bei-
-trugen. Ergänzender Bestandteil des vorliegenden Kreisschreibens bildet nach wie vor auch
-das Gutachten der Kommission für Steuern und Finanzfragen der SBVg vom November
-2006 (vgl. Anhang IV), welches dazu dient, den Nachweis zu erbringen, dass der
-BFP-Service inkl. dessen Grundlagen geeignet sind, die diesen Hilfsmitteln zugedachte Auf-
-gabe zu erfüllen.
+2.2.3   Optionen
+Ein Optionsgeschäft ist ein bedingtes Termingeschäft und somit ebenfalls ein Vertrag zwi-
+schen zwei Parteien. Der Käufer einer Option erwirbt gegen Bezahlung des Optionspreises
+(Prämie) das Recht, nicht aber die Verpflichtung, eine festgelegte Menge eines bestimmten
+Gutes (Basiswert) an bzw. bis zu einem festgelegten Zeitpunkt (Verfalltermin) zu einem ver-
+einbarten Preis (Ausübungspreis) zu kaufen (Call-Option) oder zu verkaufen (Put-Option).
+
+Die Einzelheiten der Optionsverträge werden entweder zwischen den Parteien individuell
+vereinbart (OTC-Optionen) oder sie sind standardisiert (Traded Options). Erstere sind nicht
+an einer Börse kotiert und nur erschwert übertragbar. Als Warrants (oder Optionsscheine)
+werden in Wertpapiere verbriefte Optionen bezeichnet.

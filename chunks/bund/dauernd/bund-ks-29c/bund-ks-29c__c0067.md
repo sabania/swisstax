@@ -10,26 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
 
-<!-- Seite 21 -->
-7.   Umstrukturierungen von an einer schweizerischen Börse kotierten Kapi-
-    talgesellschaften oder Genossenschaften
+Analog Ausführungen unter Ziffer 6.2.2. hiervor.
 
-7.1.   Zusammenschluss (Fusion)
+7.1.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
 
-7.1.1. Echte und unechte Fusion unabhängiger Gesellschaften
+Analog Ausführungen unter Ziffer 6.2.3. hiervor.
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
+7.1.4. Absorption der Muttergesellschaft („Reverse Merger“)
 
-Das Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-KER dar, als
-es aus bestehenden KER bzw. Ausland-KER der übernommenen Gesellschaft stammt.
-Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5
-hiervor.
+Analog Ausführungen unter Ziffer 6.2.4. hiervor.
 
-Bei einer Fusion erzielen beteiligte Privatpersonen in dem Umfang steuerbaren Vermögens-
-ertrag, als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu
-Lasten der übrigen Reserven zufliessen.
+7.1.5. Fusionsähnlicher Zusammenschluss („Quasifusion“)
 
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
-
-b)   Verrechnungssteuer
+Analog Ausführungen unter Ziffer 6.2.5. hiervor.

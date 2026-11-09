@@ -5,18 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 21"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 5
 
-2.3.1.2 Mitarbeiteroptionen
-Eine Mitarbeiteroption ist das einem Mitarbeitenden aufgrund seines ehemaligen, aktuellen
-oder künftigen Arbeitsverhältnisses in der Regel zu Vorzugsbedingungen eingeräumte
-Recht, ein Beteiligungspapier des Arbeitgebers innerhalb eines definierten Zeitraums (Aus-
-übungsfrist) zu einem bestimmten Preis (Ausübungspreis) zu erwerben, um sich am Gesell-
-schaftskapital des Arbeitgebers zu beteiligen.
+<!-- Seite 5 -->
+ 2.3.1.2.2 Börsenkotierte Mitarbeiteroptionen
+Eine Mitarbeiteroption gilt im Sinne dieses Kreisschreibens als börsenkotiert, wenn sie an ei-
+ner Börse notiert ist und einen liquiden Handel aufweist, wobei sich der Handel nicht nur auf
+Mitarbeitende beschränken darf.
 
- 2.3.1.2.1 Freie Mitarbeiteroptionen
-Freie Mitarbeiteroptionen können nach ihrer Abgabe ohne Einschränkung ausgeübt oder ver-
-kauft werden.
+ 2.3.1.2.3 Gesperrte Mitarbeiteroptionen
+Gesperrte Mitarbeiteroptionen können nach ihrer Abgabe während einer bestimmten Zeit
+(Sperrfrist) weder veräussert noch ausgeübt werden.

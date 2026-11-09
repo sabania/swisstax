@@ -10,7 +10,7 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 4
 
-3.3.3   Ermittlung des steuerbaren Gewinns
-Kollektive Kapitalanlagen mit direktem Grundbesitz nach Artikel 58 KAG werden gemäss Ar-
-tikel 49 Absatz 2 DBG den übrigen juristischen Personen gleichgestellt und als solche be-
-steuert. Somit sind für die Gewinnermittlung die Artikel 58 – 67 DBG massgebend.
+Für die Ermittlung des steuerbaren Gewinns von kollektiven Kapitalanlagen mit direktem
+Grundbesitz sind folgende Grundsätze zu beachten:
+       Erträge und Gewinne aus direktem Grundbesitz bilden Bestandteil des steuerbaren
+    Gewinns.

@@ -10,21 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 7
 
-4.4   Berufsorientierte Aus- und Weiterbildung nach Abschluss auf Sekundarstufe II
-Berufsorientierte Aus- und Weiterbildung beinhaltet, durch organisiertes Lernen bestehende be-
-rufliche Qualifikationen zu erneuern, zu vertiefen und zu erweitern oder neue berufliche Qualifi-
-kationen zu erwerben, um damit die berufliche Flexibilität zu unterstützen. Dabei ist es unerheb-
-lich, ob die berufsorientierte Aus- und Weiterbildung zu einer selbstständigen oder unselbststän-
-digen Erwerbstätigkeit führt. Es spielt auch keine Rolle, ob die berufsorientierte Aus- oder Wei-
-terbildung im direkten Zusammenhang mit der Erzielung des gegenwärtigen Erwerbseinkom-
-mens steht. Jedoch verlangt das Kriterium der Berufsorientierung eine gewisse Qualität der Wis-
-sensvermittlung und der methodischen Vorgehensweise, um als berufsorientiert im Sinne der
-direkten Bundessteuer zu gelten.
-Um die anfallenden Kosten als berufsorientierte Aus- und Weiterbildungskosten steuerlich in Ab-
-zug bringen zu können, ist es nicht erforderlich, den Abschluss des entsprechenden Bildungs-
-lehrganges auch tatsächlich zu erwerben. Sind die Voraussetzungen der Berufsorientierung er-
-füllt, genügt es, dass der steuerpflichtigen Person Kosten anfallen.
-Als berufsorientierte Aus- und Weiterbildungen gelten dabei insbesondere Kurse, Seminare, Kon-
-gresse und andere Veranstaltungen wissenschaftlicher oder bildender Art, die entweder einen
-direkten Bezug zur aktuellen Berufsausübung haben oder im Hinblick auf eine beabsichtigte zu-
-künftige Berufsausübung besucht werden.
+4.3   Obergrenze des Abzuges
+Der zulässige Abzug ist auf einen Gesamtbetrag von höchstens 12 000 Franken pro Steuerperi-
+ode begrenzt (vgl. Art. 33 Abs. 1 Bst. j DBG).
+Der jeweilige Maximalbetrag kann von jeder steuerpflichtigen Person pro Steuerperiode für ihre
+selbst getragenen Aus- und Weiterbildungskosten geltend gemacht werden. Der genannte Maxi-
+malabzug steht somit sowohl jedem Ehegatten als auch jedem eingetragenen Partner, resp. jeder
+eingetragenen Partnerin einzeln zu. Die Begrenzung der abzugsfähigen Kosten bezieht sich da-
+bei nicht auf die Kosten des einzelnen Lehrganges, sondern auf die während der Steuerperiode
+gesamthaft für die Aus- und Weiterbildung verwendeten Mittel.
+Allfällige weitere direkt oder indirekt mit diesem Abzug zusammenhängende Kosten – etwa für
+Fahrten zwischen dem Wohn- respektive Arbeitsort an den Ort der Weiterbildung – können aus-
+schliesslich im Rahmen des jährlich zulässigen Gesamtbetrags geltend gemacht werden, sofern
+es sich um notwendige Kosten handelt. Nicht notwendige Kosten sind der privaten Lebenshaltung
+zuzuordnen und berechtigen nicht zum Abzug. Allenfalls muss eine anteilsmässige Aufteilung der
+geltend gemachten Kosten vorgenommen werden.

@@ -5,26 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 87"
-seiten: "28"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 30
 
-A ist zu 90% an der A AG beteiligt. Er bringt die Beteiligung an der A AG zum Verkehrswert
-von 900 in die H AG ein. Vor der Einbringung war A bereits zu 20% an der H AG beteiligt.
-Durch die Einlage wird das Aktienkapital der H AG auf 400 erhöht. Der Rest von 600 wird als
-Agioeinlage eingebucht, welche als KER ausgewiesen wird. Die Gesellschaften weisen vor
-der Übertragung folgende Werte auf:
+<!-- Seite 30 -->
+Anhang 2: Alternativer Ausweis eigener Beteiligungsrechte
 
-    Nominalkapital   KER   übrige   Verkehrs-
-    Reserven   wert
+Nur der Ausweis der eigenen Beteiligungsrechte als Minusposten unter den gesetzlichen o-
+der freien Kapitalreserven bewirkt, dass sich bei Vernichtung von eigenen Beteiligungsrech-
+ten oder bei Fristablauf gemäss Artikel 4a VStG weder Einkommens- noch Verrechnungs-
+steuerfolgen ergeben. Die Mindestgliederung des Obligationenrechtes nach Artikel 959a Ab-
+satz 2 Ziffer 3 Buchstabe e OR verlangt demgegenüber einen Ausweis der eigenen Beteili-
+gungsrechte als Minusposten am Schluss des Eigenkapitals.
 
- A AG   100   200   500   1000
- H AG   100   50   150   400
-
- Zunahme Nominalkapital und KER H AG   900
- ./. Nominalkapital und KER A AG vor Einbringung   –270
- steuerbarer Ertrag aus Transponierung   630
-
-A hat einen steuerbaren Ertrag aus Transponierung gemäss Artikel 20a Absatz 1 Buch-
-stabe b DBG von 630 zu versteuern.
+Sofern die nachstehenden Voraussetzungen kumulativ erfüllt sind, ist ein Ausweis eigener
+Beteiligungsrechte auf mehreren Positionen möglich:

@@ -5,17 +5,16 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 54"
-seiten: "22"
+seiten: "23"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 22
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 23
 
-<!-- Seite 22 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+Rümlang   5   450   410   360   320   270   –   –
+Schleinikon   2   420   330   –   –   –   –   –
+Schöfflisdorf   4   410   360   310   260   –   –   –
+Stadel   2   350   270   –   –   –   –   –
+Steinmaur   5   430   390   350   310   260   –   –
+Weiach   3   380   330   280   –   –   –   –
 
-Wohnbauland
-
-Unbebaute Grundstücke
-    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+1. 1. 23 - 119   23

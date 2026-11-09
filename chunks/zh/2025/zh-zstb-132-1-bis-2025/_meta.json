@@ -370,7 +370,7 @@
 "titel": "ZStB 132.1 (bis 2025) – Abschnitt 24",
 "pfad": [],
 "seiten": [
-7
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -450,7 +450,7 @@
 "titel": "ZStB 132.1 (bis 2025) – Abschnitt 29",
 "pfad": [],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -498,22 +498,6 @@
 "titel": "ZStB 132.1 (bis 2025) – Abschnitt 32",
 "pfad": [],
 "seiten": [
-9
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0031",
-"nachher": "zh-zstb-132-1-bis-2025__c0033"
-},
-{
-"id": "zh-zstb-132-1-bis-2025__c0033",
-"titel": "ZStB 132.1 (bis 2025) – Abschnitt 33",
-"pfad": [],
-"seiten": [
 10
 ],
 "artikel": null,
@@ -522,7 +506,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "zh-zstb-132-1-bis-2025__c0032",
+"vorher": "zh-zstb-132-1-bis-2025__c0031",
 "nachher": null
 }
 ]

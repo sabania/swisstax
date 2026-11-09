@@ -4,15 +4,16 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 86"
-seiten: "20"
+titel: "Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 2/2)"
+ziffer: "Anh. III 5b"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24
 
-Der Zertifikatsinhaber trägt die gleichen Risiken und Chancen eines steigenden allgemeinen
-Zinsniveaus und/oder sinkender Wechselkurse wie ein gewöhnlicher Obligationär. Die Tatsa-
-che, dass sich Bond-Zertifikate auf Obligationen oder Geldmarktpapiere beziehen, impliziert
-für den Investor, dass er damit in gleicher Weise einen Anspruch auf Rückzahlung seiner In-
-
-1-015-DVS-2017-d / Anhang III
+herkömmlichen RC, indem er einen bedingten Kapitalschutz erhält. Angeboten werden zu-
+dem RC, bei denen der Anleger auch an einer Aufwärtsbewegung der Aktie partizipieren
+kann, indem zusätzliche Optionskontrakte (Call-Optionen) abgeschlossen werden. Werden
+die Barrieren (unter Berücksichtigung der Volatilität des Basiswertes) zu tief angesetzt, resul-
+tiert ein faktischer Kapitalschutz und entfällt die Möglichkeit zur Aufteilung der Entschädigung
+in eine Zinskomponente und Optionsprämie.

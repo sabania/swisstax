@@ -5,23 +5,38 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 111"
-seiten: "29"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 29
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 28
 
-    5. Halbjährliche Auszahlung des 13. Monatslohns (Juni / Dezember) gemäss Arbeitsvertrag:
-    Der Arbeitnehmer V. tritt per 1. Februar 2021 in die Unternehmung ein und tritt per 15. Juni 2021 wieder
-    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
-    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. Februar 2021 – 15. Juni 2021). Die Lohnzah-
-    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
-    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
-    pro Jahr).
+    Total   9 500   12 562.50
 
-    Leistungen   steuerbar   satzbestimmend   Berechnung
+    2. Der Arbeitnehmer D. arbeitet bei der M. AG (50 %) und bei der C. AG (40 %), beide mit Sitz in der
+    Schweiz. Per 15. März beendet D. sein Arbeitsverhältnis bei der C. AG. Er erhält neben der anteilsmässi-
+    gen Lohnzahlung noch eine Abgangsentschädigung von CHF 500.00 sowie die anteilsmässige Auszah-
+    lung des 13. Monatslohns.
 
-    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+    Leistungen   M. AG (CH)   C. AG (CH)   Berechnung
 
-    13. Monatslohn   2 250   3 000   2 250 / 135 x 180
+    Pensum   50 %   40 %
 
-    Total   5 250   9 000
+    Lohn (periodisch)   2 600   1 000.00
+
+    Abgangsentschädigung (aperiodisch)   -   500.00
+
+    Anteil 13. Monatslohn   0   416.67
+
+    1. Umrechnung Austritt:
+
+    Satzbestimmung 13. Monatslohn   0   2 000   416.67 / 75 x 360
+
+    Satzbestimmung Austritt (auf 30 Tage)   2 600   2 000   1 000 / 15 x 30
+
+    2. Umrechnung mehrere Arbeitgeber
+
+    Satzbestimmung Teilzeitpensum   5 200   9 000   2 000 + 2 000 / 40 % x 90 %
+
+    Abgangsentschädigung   500
+
+    Total Satzbestimmung   5 200   9 500

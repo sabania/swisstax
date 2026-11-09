@@ -2,25 +2,26 @@
 id: bund-ks-18a__c0027
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 27"
-seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "7"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 6
+> Bund · Steuerjahr 2026 · KS 18a · S. 7
 
-   •   Im Jahr, in dem der Einkauf erfolgt (Einkaufsjahr), ist die steuerpflichtige Person zur
-    Beitragsleistung in die gebundene Selbstvorsorge berechtigt und hat den für sie zu-
-    lässigen Maximalbeitrag an die Säule 3a geleistet (vgl. Ziffer 5.4 und 5.5).
-   •   In den zehn dem Einkauf vorangehenden Jahren hat die steuerpflichtige Person nicht
-    alle für sie maximal zulässigen Beiträge einbezahlt, wobei dies erst für Beitragslücken
-    ab dem Steuerjahr 2025 gilt. Soweit die steuerpflichtige Person in früheren Jahren
-    nicht die maximal zulässigen Beiträge einbezahlt hat, kann sie hierfür keinen Einkauf
-    vornehmen.
-   •   In den von den Einkäufen betroffenen Jahren war die steuerpflichtige Person zur
-    Leistung von Säule 3a-Beiträgen berechtigt (vgl. Ziffer 3).
-   •   Die steuerpflichtige Person hat noch keine Altersleistung aus der Säule 3a bezogen
-    (vgl. Ziffer 6.1,); sämtliche Bezüge, welche ab fünf Jahren vor Erreichen des Refe-
-    renzalters erfolgen, werden als Bezug einer Altersleistung qualifiziert (vgl. Ziffer
-    6.2.a).
+<!-- Seite 7 -->
+Einkäufe in die Säule 3a können längstens bis fünf Jahre nach Erreichen des Referenzalters
+geleistet werden (Art. 7a Abs. 5 i.V.m. Art. 7 Abs. 3 BVV3). Für Einkäufe nach Erreichen des
+Referenzalters wird vorausgesetzt, dass die steuerpflichtige Person eine Erwerbstätigkeit
+ausübt.
+
+5.7. Sonderfälle
+a)   Mitarbeit im Beruf oder im Betrieb des Ehegatten
+Bei Mitarbeit im Beruf oder im Betrieb des Ehegatten wird vermutet, diese halte sich im Rah-
+men der ehelichen Beistandspflicht, weshalb die Bildung einer Säule 3a für den mithelfenden
+Ehegatten nicht zulässig ist. Möchten die Ehegatten auch für den mithelfenden Ehepartner
+einen Abzug nach Artikel 7 BVV 3 beanspruchen, obliegt es ihnen, das Vorliegen eines den
+Rahmen der ehelichen Beistandspflicht übersteigenden Arbeitsverhältnisses darzutun. Auf
+dem entsprechenden Einkommen des mithelfenden Ehegatten müssen auf dessen Namen
+AHV/IV-Beiträge abgerechnet werden.

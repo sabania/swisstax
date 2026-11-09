@@ -10,17 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 8
 
-staat der Vorrang als Ansässigkeitsstaat eingeräumt wird. Bei natürlichen Personen gilt fol-
-gende Reihenfolge der Vorrangkriterien:
-    1. Ständige Wohnstätte bzw. falls eine solche in beiden Staaten vorhanden ist der Mittel-
-    punkt der Lebensinteressen;
-    2. gewöhnlicher Aufenthalt;
-    3. Staatsangehörigkeit und
-    4. Resultat eines Verständigungsverfahrens beider Vertragsstaaten.
-Weist das anwendbare DBA die Ansässigkeit in solchen Fällen dem anderen Staat zu, ist die
-Person in der Schweiz nach den Regeln der beschränkten Steuerpflicht (vgl. Art. 5 Abs. 1
-DBG) zu besteuern. Besteht zwischen der Schweiz und dem betreffenden Land kein DBA,
-so gelten ausschliesslich die vorstehenden Bestimmungen des internen schweizerischen
-Rechts für die Feststellung, ob eine Person in der Schweiz unbeschränkt steuerpflichtig ist
-(d.h. Wohnsitz oder Aufenthalt).
-Keine Ansässigkeit in der Schweiz begründen gemäss Artikel 91 Absatz 1 DBG Grenzgän-
+<!-- Seite 8 -->
+Als in der Schweiz ansässig gelten nach schweizerischem Recht Personen, die aufgrund
+persönlicher Zugehörigkeit in der Schweiz eine unbeschränkte Steuerpflicht begründen. Ge-
+mäss Artikel 3 DBG sind natürliche Personen aufgrund persönlicher Zugehörigkeit und damit
+nach Artikel 6 Absatz 1 DBG grundsätzlich unbeschränkt steuerpflichtig, wenn sie ihren steu-
+errechtlichen Wohnsitz in der Schweiz haben oder sie in der Schweiz einen qualifizierten
+Aufenthalt begründen.
+Im internationalen Verhältnis wird die Ansässigkeit in Artikel 4 Absatz 1 OECD-MA definiert.
+Demnach gilt eine Person als in einem Staat ansässig, wenn sie nach dem in diesem Staat
+geltenden Recht dort unbeschränkt steuerpflichtig ist.
+Ist eine natürliche Person sowohl nach unilateralem schweizerischem Recht als auch nach
+internem Recht eines anderen Staates in beiden Vertragsstaaten ansässig (sog. Doppelan-
+sässigkeit), bestimmen die Kriterien von Artikel 4 Absatz 2 OECD-MA, welchem Vertrags-

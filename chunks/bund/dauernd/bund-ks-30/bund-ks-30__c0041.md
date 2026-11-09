@@ -4,24 +4,30 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 41"
-seiten: "9"
+titel: "Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare"
+ziffer: "8.4.1"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 14
 
-Für den überlebenden Ehegatten werden nach Artikel 12 Absatz 2 DBG als Haftungssubstrat
-auch güterrechtliche Ansprüche miteinbezogen. Zusätzlich zu seinem Erbteil haftet der über-
-lebende Ehegatte noch mit dem Betrag, den er aufgrund ehelichen Güterrechtes vom Vor-
-schlag oder Gesamtgut über den gesetzlichen Anteil nach schweizerischem Recht hinaus
-erhält. Gemäss dem ordentlichen Güterstand der Errungenschaftsbeteiligung (Art. 196 ff.
-ZGB) steht jedem Ehegatten oder seinen Erben von Gesetzes wegen die Hälfte des Vor-
-schlages des anderen zu (Art. 215 ZGB). Durch Ehevertrag kann jedoch eine andere Beteili-
-gung am Vorschlag vereinbart werden (Art. 216 ZGB). Analog verhält es sich beim Güter-
-stand der Gütergemeinschaft (Art. 221 ff. und Art. 241 ZGB). Auf diese Möglichkeit, sowohl
-bei der Errungenschaftsbeteiligung wie bei der Gütergemeinschaft den überlebenden Ehe-
-gatten ehevertraglich über die gesetzlich vorgeschriebene Hälfte an der Errungenschaft bzw.
-am Gesamtgut hinaus zu beteiligen, nimmt Artikel 12 Absatz 2 DBG Bezug. Wird von dieser
-Möglichkeit Gebrauch gemacht, erweitert sich das Haftungssubstrat um die ehevertraglich
-über die "gesetzliche Hälfte" hinaus eingeräumte Begünstigung. Der Güterstand der Güter-
-trennung (Art. 247-251 ZGB) ist in diesem Zusammenhang ohne Bedeutung.
+8.4   Anspruchsberechtigung
+
+8.4.1   Allgemeines
+
+Abzugsberechtigt sind steuerpflichtige Personen, die einerseits für den Unterhalt der Kinder
+sorgen und andererseits mit ihnen im gleichen Haushalt leben. Grundsätzlich sind damit die
+Eltern bzw. der alleinerziehende Elternteil gemeint. Lebt ein Kind jedoch nicht bei seinen
+Eltern, sondern beispielsweise bei einer verwandten Person (Tante, Onkel, Grossmutter etc.)
+oder einer Drittperson, welche an die Stelle der Eltern tritt und für das Kind sorgt (Pflege-
+kind), soll diese den Abzug ebenfalls geltend machen können, wenn die übrigen Vorausset-
+zungen erfüllt sind.
+
+
+8.4.2   Verheiratete Paare mit Kindern
+
+Ehepaare, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Kinderdrittbe-
+treuungskosten geltend machen, wenn beide gleichzeitig einer Erwerbstätigkeit nachgehen
+bzw. in Ausbildung stehen oder erwerbsunfähig und zugleich betreuungsunfähig sind. Die
+nachgewiesenen Kosten für die Kinderdrittbetreuung werden bis zum Maximalbetrag von der
+gemeinsamen Bemessungsgrundlage abgezogen.

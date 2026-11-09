@@ -5,30 +5,31 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 33"
-seiten: "13"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 13
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 14
 
-   Der bei eigener Nutzung von Geschäftsräumen im eigenen Ein- 69
-familienhaus, Stockwerkeigentum oder Mehrfamilienhaus im Berech-
-nungsjahr anzurechnende Mietwert soll dem Mietzins entsprechen,
-den der Pflichtige bei Vermietung von einem Dritten erhalten würde.
-   Die zur Berechnung des Verkehrswerts heranzuziehenden Brutto- 70
-mietwerte sind durch Vergleich mit den Mieterträgen gleichartiger
-Räume zu ermitteln. Dabei sind die bestehenden Erfahrungszahlen zu
-berücksichtigen.
-    Üblich sind folgende Ansätze:   71
-    Branche   durchschnittlicher Mietwert
-    in Prozenten des Umsatzes
-    Bäckereien   4–5
-    Metzgereien   3
-    Lebensmittel-Detailhandel   2–3
-    Drogerien, Apotheken   3–4
-    Gastgewerbe mit Alkoholausschank   8–10
-    Gastgewerbe ohne Alkoholausschank   9–12
-   Für Räume, welche übungsgemäss nach einem Einheitssatz pro 72
-Quadratmeter Nutzfläche (ohne Treppenhäuser und WC) vermietet
-werden, bestimmen sich die Mietwerte entsprechend.
+<!-- Seite 14 -->
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
 
-V. Andere Liegenschaften und Räume
+74   Die Mietwerte solcher Liegenschaften und Räume sind unter Be-
+    rücksichtigung der Verhältnisse des Einzelfalls zu schätzen.
+
+    C. Liegenschaften im Baurecht
+
+    I. Baurechtsnehmer
+
+    1. Vermögenssteuerwert
+
+75   Ist das Baurechtsgrundstück mit einem Einfamilienhaus oder
+    Stockwerkeigentum zu Wohnzwecken bzw. mit einer industriellen
+    oder gewerblichen Baute überbaut, so bildet der gemäss Ziff. 30 ff.
+    bzw. Ziff. 51 ff. ermittelte Zeitbauwert den Vermögenssteuerwert.
+76   Ist das Baurechtsgrundstück mit einem Mehrfamilien- oder Ge-
+    schäftshaus überbaut, so bildet die Differenz zwischen kapitalisiertem
+    Ertragswert (Ziff. 38 ff. und 43 f.) und kapitalisierten Baurechtszinsen
+    den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung des
+    Basiszinssatzes gemäss Ziff. 41 zu kapitalisieren.
+
+    2. Eigenmietwert

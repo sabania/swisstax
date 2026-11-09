@@ -5,16 +5,29 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 48"
-seiten: "15"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 16
 
-Die bei einer Fusion den Inhabern der Beteiligungsrechte oder diesen nahestehenden Dritten
-zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und sonsti-
-gen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer,
-sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft oder Ge-
-nossenschaft erfolgen.
+Übernimmt eine Kapitalgesellschaft oder Genossenschaft mit echter Unterbilanz eine über
+Reserven verfügende Kapitalgesellschaft oder Genossenschaft oder umgekehrt, erlangen
+die Anteilsinhaber eine geldwerte Leistung im Umfang der untergehenden übrigen Reserven.
 
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
+6.2.3. Absorption einer Tochtergesellschaft („Up-Stream Merger“)
+
+a)   Direkte Bundessteuer (Gewinnsteuer)
+
+Entsteht durch die Übernahme von Aktiven und Passiven der übertragenden Gesellschaft ein
+Buchgewinn, so ist dieser Gewinn Bestandteil des steuerbaren Reingewinns. In der aufneh-
+menden Gesellschaft ist dieser Gewinn aus Fusion den übrigen Reserven zuzurechnen (Art.
+61 Abs. 5 DBG).
+
+b)   Verrechnungssteuer
+
+Analog zur direkten Bundessteuer qualifiziert der ausgewiesene Buchgewinn als übrige Re-
+serve.
+
+6.2.4. Absorption der Muttergesellschaft („Reverse Merger“)
+
+a)   Direkte Bundessteuer (Gewinnsteuer)

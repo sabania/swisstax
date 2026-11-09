@@ -5,21 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 20"
-seiten: "5"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 4
 
-<!-- Seite 5 -->
-bereits in Rechtskraft erwachsen, so wird sie bei der Anwendung von Artikel 37b DBG nach
-Artikel 147 ff. DBG revidiert.
+3.   Liquidation
 
-4.   Einkauf in eine Vorsorgeeinrichtung
+Nach Artikel 37b DBG bemisst sich der Liquidationsgewinn aus der Summe der in den letz-
+ten zwei Geschäftsjahren realisierten stillen Reserven (zur Berechnung vgl. Art. 9 LGBV). Als
+Liquidationsjahr wird dasjenige Geschäftsjahr bezeichnet, in dem die letzte Liquidations-
+handlung vorgenommen wird. Der Zeitpunkt des Abschlusses der Liquidation ist – wie dies
+nach geltendem Recht bereits der Fall ist – im Einzelfall zu klären. In der Regel ist eine Li-
+quidation abgeschlossen, wenn die letzte Inkassohandlung eingeleitet ist. Da es sich dabei
+manchmal um marginale Beträge handeln kann, sollen jedoch auch andere Umstände das
+Ende der Liquidation darstellen können, so zum Beispiel wenn die Erwerbs- und Verkaufstä-
+tigkeiten eingestellt und/oder die Arbeitsverträge mit den Angestellten aufgelöst werden.
 
-Beim Einkauf in eine Vorsorgeeinrichtung im Liquidationsjahr und im Vorjahr (Art. 4 LGBV)
-wird der einbezahlte Betrag bei der Berechnung des steuerbaren Einkommens der Steuerpe-
-riode in erster Linie vom übrigen, nicht gesondert besteuerten Einkommen in Abzug ge-
-bracht. Kann dabei nicht der gesamte Einkaufbetrag angerechnet werden, so reduziert die-
-ser Überhang den Liquidationsgewinn.
-
-5.   Fiktiver Einkauf
+Mit dem Inkrafttreten der LGBV am 1. Januar 2011 gilt bei der Aufgabe der selbständigen
+Erwerbstätigkeit im Jahr 2011 das Jahr 2010 als Vorjahr. Ist die Veranlagung des Vorjahres

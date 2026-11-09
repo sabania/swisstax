@@ -22,10 +22,3 @@ zeugnis, Berufsmaturitätsbildung ergänzend zur drei- oder vierjährigen berufl
 In der nachfolgenden Grafik wird die berufliche Grundbildung zusammenfassend als „Berufliche
 Grundausbildung“ bezeichnet.
 – Tertiärstufe: Die Tertiärstufe umfasst Ausbildungen im Rahmen der höheren Berufsbildung und
-im Rahmen der Hochschulen: Die höhere Berufsbildung umfasst die eidgenössischen Berufsprü-
-fungen, eidgenössische höhere Fachprüfungen sowie die höheren Fachschulen (HF). Zu den
-Hochschulen zählen die universitären Hochschulen (kantonale universitäre Hochschulen sowie
-Eidgenössische Technische Hochschulen [ETH]), die Fachhochschulen (FH), einschliesslich
-Kunst- und Musikhochschulen, sowie die Pädagogischen Hochschulen (PH).
-Graphischer Überblick über das schweizerische Bildungswesen (vgl. auch Schweizer Medien-
-institut für Bildung und Kultur; http://bildungssystem.educa.ch/de ):

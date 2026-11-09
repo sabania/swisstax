@@ -5,20 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 77"
-seiten: "19"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
 
-    Beispiele:
-    - Ein Schauspieler mit Ansässigkeit in Österreich, der über einen viermonatigen Arbeitsvertrag beim Stadt-
-    theater St. Gallen verfügt und jeweils von Freitag bis Sonntag auftritt und dafür eine monatliche Entschädi-
-    gung erhält, unterliegt der Quellensteuer nach den ordentlichen Tarifen für Arbeitnehmer (Art. 91 DBG).
-    - Ein Pianist mit Ansässigkeit in Polen, der in einer Pianobar in Aarau während zwei Wochen angestellt ist
-    und täglich zwei Stunden auftritt, wird mit dem Künstlertarif nach Artikel 92 Absatz 2 DBG abgerechnet.
-    - Eine vierköpfige Band aus Deutschland tritt an einem Tag des Gurtenfestivals in Bern auf. Die Bandmit-
-    glieder unterliegen für die Bruttogage dem Künstlertarif nach Artikel 92 Absatz 2 DBG.
-
-Zu beachten sind Einschränkungen in den DBA (vgl. Art. 17 OECD-MA sowie das jeweils
-gültige Merkblatt der ESTV zur Quellenbesteuerung von Künstlern, Sportlern und Referen-
-ten).
+    Beispiel:
+    -   Der nicht kirchensteuerpflichtige Arbeitnehmer U. ist geschieden und bezahlt jeden Monat CHF 1 500.00
+    Unterhalt an seine Ex-Ehefrau sowie je CHF 1 000.00 Alimente für die beiden minderjährigen Kinder
+    (= CHF 2 000.00), die bei der Kindsmutter leben (gemeinsame elterliche Sorge). Sein monatlicher Brutto-
+    lohn beträgt CHF 5 500.00.
+    Der Antrag von U. auf Anwendung der Härtefallregelung wird gutgeheissen. Die jährlichen Unterhaltszah-
+    lungen betragen CHF 42 000.00 (= 12 x CHF 1 500.00 + 12 x 2 x CHF 1 000.00). Pro Kind wird gemäss
+    kantonalem Steuergesetz ein Abzug von CHF 8 000.00 pro Jahr gewährt. Die kantonale Steuerverwaltung
+    bewilligt folglich die Anwendung des Tarifcodes A5N (5 x CHF 8 000.00 = CHF 40 000.00).

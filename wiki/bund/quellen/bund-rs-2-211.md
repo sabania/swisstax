@@ -13,7 +13,7 @@ generiert: tools/build_index.py
 - **Abgerufen:** 2026-11-09 · sha256 `ef8180ef2d7aba97…`
 - ⚠ **Hinweis:** 870 Seiten, grösstenteils Tariftabellen; nur Textteil gechunkt
 
-## Inhalt (43 Chunks)
+## Inhalt (41 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -54,9 +54,7 @@ generiert: tools/build_index.py
 | [c0035](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0035.md) | RS 2-211 – Abschnitt 35 | S. 11 |  |
 | [c0036](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0036.md) | RS 2-211 – Abschnitt 36 | S. 12 |  |
 | [c0037](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0037.md) | RS 2-211 – Abschnitt 37 | S. 12 |  |
-| [c0038](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0038.md) | RS 2-211 – Abschnitt 38 | S. 12 |  |
+| [c0038](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0038.md) | RS 2-211 – Abschnitt 38 | S. 13 |  |
 | [c0039](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0039.md) | RS 2-211 – Abschnitt 39 | S. 13 |  |
 | [c0040](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0040.md) | RS 2-211 – Abschnitt 40 | S. 13 |  |
-| [c0041](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0041.md) | RS 2-211 – Abschnitt 41 | S. 13 |  |
-| [c0042](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0042.md) | RS 2-211 – Abschnitt 42 | S. 13 |  |
-| [c0043](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0043.md) | RS 2-211 – Abschnitt 43 | S. 14 |  |
+| [c0041](../../../chunks/bund/2025/bund-rs-2-211/bund-rs-2-211__c0041.md) | RS 2-211 – Abschnitt 41 | S. 14 |  |

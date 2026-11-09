@@ -10,20 +10,22 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 11
 
-<!-- Seite 11 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-5. Bürohäuser und Personalwohnungen
-
-    Bürohäuser und Personalwohnhäuser, welche im Fabrikareal lie- 57
-gen, werden zusammen mit den Fabrikgebäuden nach den für diese
-geltenden Regeln bewertet. Bilden sie räumlich mit dem Fabrikareal
-keine Einheit, so findet eine getrennte Bewertung nach den für Ge-
-schäftshäuser geltenden Grundsätzen statt (Ziff. 36 ff.).
-
-6. Besondere Verhältnisse
-
-    Ziff. 35 gilt sinngemäss.   58
-
-B. Eigenmietwerte
-
-I. Einfamilienhäuser und Stockwerkeigentum
+    Die Eigenmietwerte von durch den Pflichtigen und von zu seinem 59
+Haushalt gehörenden Personen genutzten Einfamilienhäusern und
+Stockwerkeigentum betragen:
+Für Einfamilienhäuser:   3,50% des Land- und Zeitbauwertes,
+für Stockwerkeigentum: 4,25% des Land- und Zeitbauwertanteils.
+    Übersteigt der Basiswert bzw. Basiswertanteil   60
+– bei Einfamilienhäusern Fr. 120 000,
+– bei Stockwerkeigentum Fr. 40 000,
+so ist bei der Ermittlung des Eigenmietwerts der diese Beträge über-
+steigende Teil bei der Berechnung nur mit 1% zu berücksichtigen. Bei
+dieser Berechnung des Eigenmietwerts kann der Zeitbauwert nicht
+gleichzeitig noch nach Ziff. 35 korrigiert werden.
+   Auf Verlangen des Steuerpflichtigen werden bei der Berechnung 61
+des Eigenmietwerts, vorbehältlich des entsprechenden Nachweises,
+auch folgende Korrekturen vorgenommen:
+– beim Landwert, soweit sich dieser auch bei einer Vermietung nicht
+   in einem entsprechenden Mietzins niederschlagen würde und die-
+   sem Umstand nicht schon durch Anwendung der Ziff. 18, 19, 26–29
+   oder 35 Rechnung getragen wurde;

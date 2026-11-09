@@ -4,20 +4,28 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 89"
-seiten: "20"
+titel: "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 2/2)"
+ziffer: "13.4.7"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.7 Teilweise Steuerpflicht · S. 27–28
 
-Unter Ausbildung ist ein Lehrgang für die berufliche Erstausbildung wie beispielsweise eine
-Lehre oder ein Studium zu verstehen. Diese endet, wenn das Kind das dazugehörende Ab-
-schlussdiplom erworben hat und in der Lage ist, eine angemessene berufliche Tätigkeit aus-
-zuüben.
+Familienstand   rechtlich und tatsächlich ungetrennte Ehe
+Anzahl Kinder im gemeinsamen Haushalt   2
+Steuerbares Einkommen in CHF   20’000
+Satzbestimmendes Einkommen in CHF   250’000
+Steuersatz in % (SP 2011)   7,663
 
-Die Gewährung des Kinderabzuges bei einer Zweitausbildung ist möglich, wenn sachliche
-Gründe für die Aufnahme einer Zweitausbildung sprechen, um eine angemessene berufliche
-Tätigkeit ausüben zu können.
+Steuerberechnung:
 
-Bei einem Unterbruch der beruflichen Ausbildung kann der Kinderabzug weiterhin geltend
-gemachten werden, wenn der Unterbruch nur vorübergehend ist, z.B. um die Militär, Zivil-
+    CHF   Steuersatz in %   CHF
+Steuer vor Abzug   20’000   7,663   1’532.60
+./. Anteiliger Abzug vom   (2 x 251) x 20’000   - 40.15
+Steuerbetrag
+    250'000
+Geschuldete Steuer   1’492.45
+
+Auch im Fall einer Kombination von teilweiser und unterjähriger Steuerpflicht ist der Abzug
+vom Steuerbetrag im Verhältnis des steuerbaren zum höheren satzbestimmenden Einkom-
+men zu bemessen.

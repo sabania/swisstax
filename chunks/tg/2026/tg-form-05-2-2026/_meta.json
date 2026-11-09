@@ -1,0 +1,87 @@
+[
+{
+"id": "tg-form-05-2-2026__c0001",
+"titel": "Formular 5.2 Teil A – Versicherungsprämien und Sparzinsen (Code 324, A5)",
+"pfad": [
+"Formular 5.2 Versicherungsprämien",
+"A. Versicherungsprämien und Sparzinsen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "A",
+"stichworte": [
+"Versicherungsprämien",
+"Krankenkasse",
+"Sparzinsen",
+"Lebensversicherung",
+"Unfallversicherung",
+"Krankentaggeld",
+"Prämienverbilligung"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Erfassung der selbst getragenen Prämien (Kranken netto nach Prämienverbilligung, Unfall, Leben/Rente, Sparzinsen, Krankentaggeld) mit Total Code 324 (A5).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "tg-form-05-2-2026__c0002"
+},
+{
+"id": "tg-form-05-2-2026__c0002",
+"titel": "Formular 5.2 Teil B – Maximaler Abzug Staats-/Bundessteuer (Code 328)",
+"pfad": [
+"Formular 5.2 Versicherungsprämien",
+"B. Maximaler Abzug"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "B",
+"stichworte": [
+"Versicherungsabzug",
+"Maximalabzug",
+"Verheiratete",
+"Alleinstehende",
+"Kinderabzug",
+"Säule 3a",
+"2. Säule"
+],
+"positionen": [
+"abzug.versicherungspraemien"
+],
+"zusammenfassung": "Maximalabzug Staat/Bund: Gemeinsam Besteuerte 7000/3700 (ohne Säule 2/3a 5550), Alleinstehende 3500/1800 (ohne 2700), je Kind/unterstützte Person 1000/700; Total Code 328 (B4).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-05-2-2026__c0001",
+"nachher": "tg-form-05-2-2026__c0003"
+},
+{
+"id": "tg-form-05-2-2026__c0003",
+"titel": "Formular 5.2 Teil C – Zulässige Abzüge (Code 330, Übertrag Ziff. 14)",
+"pfad": [
+"Formular 5.2 Versicherungsprämien",
+"C. Berechnung zulässige Abzüge"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "C",
+"stichworte": [
+"zulässiger Abzug",
+"niedrigerer Betrag",
+"Übertrag Steuererklärung",
+"Ziffer 14"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"berechnung.total"
+],
+"zusammenfassung": "Zulässig ist der niedrigere Betrag von A5 oder B4 (Staat bzw. Bund), Code 330; Übertrag in Steuererklärung Seite 3, Ziffer 14.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-05-2-2026__c0002",
+"nachher": null
+}
+]

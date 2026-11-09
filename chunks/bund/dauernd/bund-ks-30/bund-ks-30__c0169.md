@@ -4,22 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 169"
-seiten: "42"
+titel: "Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 2/3)"
+ziffer: "Beilage 2, S. 7/13"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 52
 
-Stirbt ein Partner eines gemeinsam veranlagten Ehepaares, kommt dem überlebenden Ehe-
-gatten eine besondere Rechtsstellung zu. Einerseits übt er die ihm als selbständig steuer-
-pflichtige Person zustehenden Mitwirkungsrechte und -pflichten selbst aus. Andererseits tritt
-er als Erbe mit den übrigen Erben in die Rechte und Pflichten seines verstorbenen Ehegat-
-ten ein (Art. 12 Abs. 1 DBG) und übernimmt damit auch dessen Verfahrensrechte und
--pflichten. Dies bedeutet namentlich, dass der überlebende Ehegatte nicht nur für die eige-
-nen Steuerfaktoren, sondern nun für das gesamte eheliche Einkommen mitwirkungspflichtig
-wird. Dies wirkt sich auch auf das Ausmass seiner Verantwortlichkeit im Steuerstrafrecht aus
-(vgl. dazu auch Ziff. 16).
-
-16   Steuerstrafrecht der Ehegatten
-
-16.1   Verletzung von Verfahrenspflichten
+   gemeinsamer elterlicher   erhält, sind vom Emp-   zug bringen. Eine andere      Der Elternteil, der die
+   Sorge, mit Unterhaltszah-   fänger vollständig zu   Aufteilung ist von den   Unterhaltszahlungen
+   lungen   versteuern.   Eltern nachzuweisen. Be-   leistet, wird zum
+     Die Unterhaltszahlun-   tragen die geltend gemach-   Grundtarif besteuert.
+    gen können vom leis-   ten Kosten beider Elterntei-
+    tenden Elternteil voll-   le aber zusammen mehr als
+    umfänglich in Abzug   den Maximalbetrag von
+    gebracht werden.   CHF 10’100, werden die
+    Abzüge im Verhältnis der
+    nachgewiesenen Kosten auf
+    diesen Maximalbetrag
+    gekürzt. 1)

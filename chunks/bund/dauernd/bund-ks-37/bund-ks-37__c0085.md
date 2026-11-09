@@ -5,22 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 85"
-seiten: "20"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 21
 
-8.1.4 Weitere Auskünfte (Art. 17 MBV)
-Der Arbeitgeber ist verpflichtet, jederzeit weitere Angaben zu der abgegebenen Mitarbeiter-
-beteiligung zu machen. Für die Beurteilung eines Mitarbeiterbeteiligungsplans können Aktio-
-närsbindungsverträge, Verträge mit Drittinvestoren oder mit kreditgebenden Banken u. dgl.
-von Bedeutung sein.
+<!-- Seite 21 -->
+9   Vorbescheid zwischen dem Arbeitgeber und der Steuerbehörde (Ruling)
+9.1   Allgemeines
+Die Einholung eines Vorbescheids bezweckt nicht nur die einheitliche Veranlagung der Mitar-
+beitenden, sondern auch die steuerlich korrekte Handhabung des Mitarbeiterbeteiligungspla-
+nes durch den Arbeitgeber in interkantonalen und internationalen Beziehungen mit den Steu-
+erbehörden. Im Ergebnis sollen sich die Mitarbeitenden, der Arbeitgeber und die Steuerbe-
+hörden auf die zugesicherten steuerlichen Konsequenzen verlassen können.
 
-8.2   Steuerpflichtige
-Die Steuerpflichtigen sind für die vollständige und richtige Deklaration von erhaltenen Mitar-
-beiterbeteiligungen in der Steuererklärung und für die Einreichung der Bescheinigung des
-Arbeitgebers verantwortlich.
-
-Sämtliche echten und unechten Mitarbeiterbeteiligungen sind im Wertschriften- und Gutha-
-benverzeichnis zu deklarieren. Diese Deklarationspflicht gilt insbesondere auch dann, wenn
-die Einkommensbesteuerung (noch) nicht aktuell bevorsteht.
+9.2   Voraussetzungen
+Der zuständigen Steuerbehörde sind für die Einholung eines Vorbescheids sämtliche rele-
+vanten Plan- bzw. Vertragsunterlagen einzureichen. Aufgrund dieser Unterlagen ist unter ge-
+nauem Verweis auf die massgebenden Unterlagen vom Arbeitgeber eine steuerliche Beurtei-
+lung vorzunehmen und ein entsprechender Antrag zu stellen.

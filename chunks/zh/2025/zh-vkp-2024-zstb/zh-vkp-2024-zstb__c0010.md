@@ -4,13 +4,18 @@ quelle: zh-vkp-2024-zstb
 jur: zh
 jahre: [2025]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2024) – Abschnitt 10"
+titel: "§ 47 Abs. 1 Vermögenssteuertarif – Grundtarif"
+ziffer: "§ 47 Abs. 1"
 seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · S. 4
+> ZH · Steuerjahr 2025 · ZStB 48.1 (VKP ab 2024) · Änderung Steuergesetz › § 47 · S. 4
 
-<!-- Seite 4 -->
-    631.1   Ausgleich der kalten Progression ab 1. Januar 2024 – V
-
-    2 Für Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe
+VIII. Steuertarif   § 47. 1 Die Vermögenssteuer beträgt (Grundtarif):
+    0‰   für die ersten   Fr.   80 000
+    ½‰ für die weiteren   Fr. 238 000
+    1‰   für die weiteren   Fr. 399 000
+    1½‰ für die weiteren   Fr. 636 000
+    2‰   für die weiteren   Fr. 956 000
+    2½‰ für die weiteren   Fr. 953 000
+    3‰   für Vermögensteile über   Fr. 3 262 000

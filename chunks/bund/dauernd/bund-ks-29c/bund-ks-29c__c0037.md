@@ -5,20 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 37"
-seiten: "12"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 13
 
-       Wird der Mehrwert dem Nominalkapital und/oder den KER bzw. Ausland-KER gutge-
-    schrieben, ist beim Einleger die Zunahme des Nominalkapitals und der KER bzw.
-    Ausland-KER als Ertrag aus beweglichem Vermögen nach Artikel 20a Absatz 1
-    Buchstabe b DBG in Verbindung mit Artikel 20 Absatz 3 DBG steuerbar. Betreffend
-    die Berechnung des steuerbaren Ertrages siehe Beispiele im Anhang dieses Kreis-
-    schreibens.
+<!-- Seite 13 -->
+5.   Ausschüttungen und Teilliquidationen von an einer schweizerischen
+    Börse kotierten Kapitalgesellschaften oder Genossenschaften
 
-       Wird der Mehrwert den übrigen Reserven gutgeschrieben, bleibt die latente Aus-
-    schüttungslast erhalten und die Übertragung ist steuerneutral.
+Die Ausschüttungs- und Teilliquidationsregel gemäss STAF geht mit Wirkung für die Publi-
+kumsgesellschaften den in Ziff. 4.1. und Ziff. 4.2. hiervor definierten Grundsätzen vor.
 
-Für sämtliche Beteiligungsübertragungen vor dem 1. Januar 1997 qualifiziert der Ausweis
-des gesamten über dem Nennwert liegenden Mehrwertes als übrige Reserve.
+5.1.   Ausschüttungsregel
+
+Gemäss Artikel 20 Absatz 4 DBG und Artikel 5 Absatz 1ter VStG sind Publikumsgesellschaf-
+ten nicht mehr frei, wie sie die Aufteilung der Ausschüttungen in Rückzahlung aus KER und
+Ausschüttungen aus übrigen Reserven vornehmen. Zwingend sind mindestens im gleichen
+Umfang wie KER auch übrige steuerbare Reserven auszuschütten. Dies jedoch nur solange
+und soweit noch übrige Reserven vorhanden sind.
+
+5.1.1. Handelsrechtlich ausschüttungsfähige übrige Reserven

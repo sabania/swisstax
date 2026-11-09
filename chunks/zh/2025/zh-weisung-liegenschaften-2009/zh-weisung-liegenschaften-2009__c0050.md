@@ -5,31 +5,28 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 50"
-seiten: "21"
+seiten: "22"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 21
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 22
 
-Bezirk Affoltern
-Aeugst am Albis   5   590   520   450   380   310   –   –
-Affoltern am Albis   5   460   420   370   330   280   –   –
-Bonstetten   3   480   410   330   –   –   –   –
-Hausen am Albis   5   430   390   350   310   260   –   –
-Hedingen   5   470   440   400   360   320   –   –
-Kappel am Albis   2   350   290   –   –   –   –   –
-Knonau   3   440   360   270   –   –   –   –
-Maschwanden   2   310   250   –   –   –   –   –
-Mettmenstetten   5   450   420   380   350   310   –   –
-Obfelden   3   420   350   270   –   –   –   –
-Ottenbach   3   390   300   210   –   –   –   –
-Rifferswil   3   390   340   290   –   –   –   –
-Stallikon   3   520   430   340   –   –   –   –
-Wettswil am Albis   3   580   480   380   –   –   –   –
-Bezirk Andelfingen
-Andelfingen
-– Adlikon   3   300   250   190   –   –   –   –
-  (ehemalige Gemeinde)
-– Andelfingen   5   360   330   290   250   210   –   –
-  (ehemalige Gemeinde)
-– Humlikon   3   360   310   260   –   –   –   –
-  (ehemalige Gemeinde)
+Wasterkingen   3   410   340   270   –   –   –   –
+Wil (ZH)   3   640   500   360   –   –   –   –
+Winkel   3   890   730   560   –   –   –   –
+Bezirk Dielsdorf
+Bachs   3   650   530   410   –   –   –   –
+Boppelsen   3   790   710   630   –   –   –   –
+Buchs (ZH)   5   780   720   660   600   530   –   –
+Dällikon   5   800   740   670   600   530   –   –
+Dänikon   3   600   510   410   –   –   –   –
+Dielsdorf   5   780   700   610   530   440   –   –
+Hüttikon   2   670   510   –   –   –   –   –
+Neerach   5   970   870   760   650   540   –   –
+Niederglatt   3   740   620   500   –   –   –   –
+Niederhasli   5   700   650   600   550   500   –   –
+Niederweningen   5   720   650   580   510   440   –   –
+Oberglatt   5   730   670   610   550   490   –   –
+Oberweningen   5   710   650   590   530   470   –   –
+Otelfingen   5   790   730   660   590   520   –   –
+Regensberg   3   920   800   680   –   –   –   –
+Regensdorf   5   890   810   720   640   550   –   –

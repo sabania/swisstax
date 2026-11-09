@@ -5,23 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 11a – Abschnitt 48"
-seiten: "12"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 11a · S. 11
 
-<!-- Seite 12 -->
-5.2.2   Übrige unterstützte Personen
-Abgezogen werden können auch die Kosten von weiteren von der steuerpflichtigen Person un
-terhaltenen Personen. Als unterhaltene Person gilt jede unterstützungsbedürftige Person, für
-deren Lebensunterhalt (inkl. krankheits- und behinderungsbedingte Kosten) die steuerpflichtige
-Person tatsächlich und mindestens im Umfang des Abzugs gemäss Artikel 35 Absatz 1 Buch
-stabe b DBG aufkommt. Behinderungsbedingte Kosten von unterhaltenen Personen sind je
-doch nur in dem Umfang abzugsfähig, in dem sie den Unterstützungsabzug gemäss Artikel 35
-Absatz 1 Buchstabe b DBG übersteigen. Es können nur die effektiven Kosten zum Abzug ge
-bracht werden.
+5.2   Kosten der unterhaltenen Person
+
+5.2.1   Minderjährige oder in Ausbildung stehende Kinder
+Abgezogen werden können die krankheits- und unfallbedingten sowie die behinderungsbeding
+ten Kosten von minderjährigen oder in der beruflichen Ausbildung stehenden Kindern, für deren
+Unterhalt die steuerpflichtige Person sorgt. Diese Kosten können zusätzlich zum Kinderabzug
+gemäss Artikel 35 Absatz 1 Buchstabe a DBG geltend gemacht werden.
 Keine unterhaltenen Personen im Sinne von Artikel 33 Absatz 1 Buchstabe h und hbis DBG sind
-geschiedene oder getrenntlebende Ehegatten, für welche steuerpflichtige Personen Unterhalts
-beiträge gestützt auf Artikel 33 Absatz 1 Buchstabe c DBG zum Abzug bringen.
-Bezüglich Kosten allfälliger von der steuerpflichtigen Person unterhaltenen Personen im Aus
-land ist auf die nachfolgende Ziffer 6 zu verweisen (erhöhte Anforderungen an den Nachweis).
+Kinder, für welche die steuerpflichtige Person Unterhaltsbeiträge gestützt auf Artikel 33 Ab
+satz 1 Buchstabe c DBG zum Abzug bringt.

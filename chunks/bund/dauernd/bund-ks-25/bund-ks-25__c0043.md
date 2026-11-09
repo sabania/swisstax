@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 43"
-seiten: "9"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
 
-5.3.2   Ebene der Anleger
-Da ein Umtauschverhältnis zu Verkehrswerten zu bestimmen ist, ergeben sich für die Anle-
-gerinnen und Anleger durch den Umtausch ihrer Anteile an sich keine Folgen bei den direk-
-ten Steuern. Für Anteile im Geschäftsvermögen gilt dies nur, soweit die bisherigen Einkom-
-mens- bzw. Gewinnsteuerwerte unverändert weitergeführt werden. Bei der Vermögensüber-
-tragung einer SICAV gilt dies sinngemäss.
+5.5   Sitzverlegung oder Expatriierung von kollektiven Kapitalanlagen
+Die Sitzverlegung hat im Unterschied zur Verrechnungssteuer keine direktsteuerlichen Fol-
+gen, da diese nicht als Liquidation zu betrachten ist. Aufgrund der Treuhandlösung verbleibt
+das „Treugut“ nämlich weiterhin im Privat- oder Geschäftsvermögen der Anlegerinnen und
+Anleger.
 
-Sacheinlagen bzw. die Einbringung von Immobilien in eine kollektive Kapitalanlage sind nur
-zu Verkehrswerten möglich. Artikel 61 DBG ist nicht anwendbar.
+Zwecks Rückforderung der Verrechnungssteuer müssen Anlegerinnen und Anleger, welche
+die Anteile im Privatvermögen halten, den Liquidationserlös (Nettoertrag inkl. eines allfälligen
+Gewinnvortrages) deklarieren, können ihn jedoch mittels Deklaration eines entsprechenden
+Minusertrags wieder neutralisieren.
 
-6 SR 221.301
+Handelt es sich bei den Anlegern um juristische Personen, Geschäftsbetriebe und derglei-
+chen und befinden sich die Anteile im Geschäftsvermögen, muss die Verrechnungssteuer
+aufgrund der Verbuchungsvorschriften nach Artikel 25 VStG verbucht werden.

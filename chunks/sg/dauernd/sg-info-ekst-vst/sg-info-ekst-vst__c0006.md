@@ -9,6 +9,6 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [01 - Steuererklärung 2025(3375 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_1_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2025")
-- [02 - Wertschriftenverzeichnis 2025(152 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_2_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2025")
-- [04 - Berufskosten 2025(1521 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_4_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2025")
+- [05 - Schulden / Zuwendungen / Parteispenden 2025(1538 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_5_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 05 - Schulden / Zuwendungen / Parteispenden 2025")
+- [06 - Versicherungsprämien / Krankheitskosten 2025(1542 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_6_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 06 - Versicherungsprämien / Krankheitskosten 2025")
+- [07 - Liegenschaften 2025(1553 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2025-hs/Formular_7_NP_2025_HA.pdf "Download: Es öffnet sich ein neues Fenster: 07 - Liegenschaften 2025")

@@ -10,20 +10,16 @@ qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
 > ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 7
 
-   Der Zeitbauwert entspricht dem Neubauwert abzüglich der dem 30
-Alter des Gebäudes entsprechenden Altersentwertung.
-  Der Neubauwert ist auf 1120% des von der Gebäudeversicherung 31
-Kanton Zürich festgelegten Basiswerts festzusetzen.
-    Die Altersentwertung wird bei der allgemeinen Neubewertung in 32
-der Regel berechnet vom Erstellungsjahr bis zum Kalenderjahr 2026.
-Sie beträgt pro Jahr 1% des Neubauwerts, jedoch höchstens 40%.
-    Als Erstellungsjahr des Gebäudes ist in der Regel das Erstellungs- 33
-jahr gemäss Gebäudeversicherungsschätzung massgebend. Bei späte-
-rer umfassender Totalrenovation ist für die Berechnung der Alters-
-entwertung der Zeitpunkt dieser Investitionen als Erstellungsjahr
-massgebend.
-    Befinden sich in einem Gebäude gemeinschaftlich genutzte, meh- 34
-reren Gebäuden dienende Anlagen und Einrichtungen, wie Heizun-
-gen, Schutzräume, Autoeinstellplätze usw., so ist der Wert dieser ge-
-meinsamen Anlagen und Einrichtungen auf die beteiligten Bauten
-aufzuteilen.
+<!-- Seite 7 -->
+   Landflächenanteile, welche die gemäss Ziff. 26–28 anrechenbare 29
+Grundstücksfläche übersteigen, werden folgendermassen bewertet:
+   Für Einfamilienhäuser:
+– bis höchstens 1200 m2: zu 30% des steuerlich massgebenden Land-
+   werts
+– über 1200 m2: zu 5% des steuerlich massgebenden Landwerts
+   Für Stockwerkeigentum:
+– bis höchstens 200 m2: zu 30% des steuerlich massgebenden Land-
+   werts
+– über 200 m2: zu 5% des steuerlich massgebenden Landwerts
+
+3. Zeitbauwert

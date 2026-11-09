@@ -4,15 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 105"
-seiten: "24"
+titel: "Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt"
+ziffer: "14.3"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.3 · S. 32
 
-Werden die Voraussetzungen des Elterntarifs nicht mehr erfüllt, beispielsweise beim Tod
-eines Kindes, bei Abschluss der Ausbildung oder etwa bei Wegfall der Unterstützungsbedürf-
-tigkeit, so werden die Eltern bzw. die erwachsenen Personen wieder zum Verheiratetentarif
-oder, wenn sie nicht verheiratet sind, zum Grundtarif besteuert.
+14.3   Besteuerung der getrennten, geschiedenen oder unverheirateten El-
+    tern (zwei Haushalte) mit gemeinsamem minderjährigem Kind, ohne
+    gemeinsame elterliche Sorge, mit Unterhaltszahlungen
 
-13.4.2   Gewährung des Elterntarifs bei minderjährigen Kindern
+14.3.1   Unterhaltszahlungen
+   Die Unterhaltsbeiträge für das Kind sind vom Empfänger zu versteuern. Der leistende
+    Elternteil kann diese Alimentenleistungen in Abzug bringen.

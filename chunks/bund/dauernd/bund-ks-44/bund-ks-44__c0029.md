@@ -10,16 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 44 · S. 7
 
-5.1   Ordentliche Aufwandbesteuerung
-Die steuerpflichtige Person, die Anspruch auf die Besteuerung nach dem Aufwand erhebt, hat
-die dafür vorgesehene besondere Steuererklärung einzureichen sowie den Nachweis zu erbrin-
-gen, dass sie die Voraussetzungen erfüllt.
-Die Veranlagungsbehörde hat sich bei der Besteuerung nach dem Aufwand vor jeder Veranla-
-gung davon zu überzeugen, dass die steuerpflichtige Person die Voraussetzungen dafür erfüllt
-und in diesem Zusammenhang die von ihr verlangten Angaben und Nachweise erbracht hat.
-Die steuerpflichtige Person muss der zuständigen Steuerbehörde unaufgefordert und umge-
-hend alle Unterlagen zustellen, die sich auf den Anspruch oder die Voraussetzungen für die An-
-wendung der Aufwandbesteuerung auswirken können.
-Ansprüche auf Verrechnung oder Rückerstattung der Verrechnungssteuer richten sich nach den
-Bestimmungen der Verordnung vom 19. Dezember 1966 über die Verrechnungssteuer (Ver-
-rechnungssteuerverordnung, VStV; SR 642.211).
+Steuerpflichtige Personen, welche die Steuer nach dem Aufwand entrichten, können von der
+Schweiz abgeschlossene Doppelbesteuerungsabkommen und insbesondere die darin vorgese-
+henen Entlastungen von ausländischen Quellensteuern beanspruchen. Zu diesem Zweck ha-
+ben sie mit der Steuererklärung zu erklären, ob und allenfalls in welchem Umfang sie Abkom-
+mensvorteile geltend gemacht haben oder geltend machen wollen. Die steuerpflichtige Person
+darf nur für solche Einkünfte in den Genuss der Abkommensvorteile kommen, die während der
+Zeit ihrer unbeschränkten Steuerpflicht in der Schweiz fällig geworden sind. Ferner gelten be-
+sondere Voraussetzungen unter den Abkommen mit Belgien, Deutschland, Italien, Norwegen,
+Kanada, Österreich und den USA.
+Ein Doppelbesteuerungsabkommen wird auch dann in Anspruch genommen, wenn dazu keine
+amtliche Bescheinigung bzw. kein besonderer Antrag, sondern nur – wie vielfach bei Bezug von

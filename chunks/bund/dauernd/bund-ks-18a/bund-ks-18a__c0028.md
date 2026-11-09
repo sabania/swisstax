@@ -2,25 +2,21 @@
 id: bund-ks-18a__c0028
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 28"
-seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "7"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 6
+> Bund · Steuerjahr 2026 · KS 18a · S. 7
 
-Ein Einkauf in die Säule 3a kann gemäss Artikel 7 Absatz 1 Buchstabe 1 BVV3 pro Steuer-
-jahr maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des
-oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG (vgl. Ziffer 5.4) vorgenommen werden,
-unabhängig davon, ob die steuerpflichtige Person im Zeitpunkt des Einkaufs einer Vorsorge-
-einrichtung der 2. Säule angehört (Art. 7a Abs. 2 BVV3). Mit dem Einkauf können Beitragslü-
-cken von mehreren Jahren ausgeglichen werden (Art. 7a Abs. 3 BVV3).
-
-Die Beitragslücke eines bestimmten Jahres (sog. Jahresbeitragslücke) darf nur durch einen
-einzigen (Jahres-)Einkauf ausgeglichen werden; d.h. es ist nicht zulässig, eine bestimmte
-Jahresbeitragslücke über mehrere Jahre hinweg durch mehrere (Jahres-)Einkäufe auszuglei-
-chen (Art. 7a Abs. 3 BVV3).
-
-Der Einkauf muss nicht zwingend in dieselbe Vorsorgepolice oder Vorsorgevereinbarung er-
-folgen, in die im betreffenden Steuerjahr die ordentlichen Beiträge einbezahlt wurden.
+b)   Selbständigerwerbender mit der 2. Säule unterliegendem Nebenverdienst
+Ein Selbständigerwerbender, der einer unselbständigen Nebenerwerbstätigkeit nachgeht und
+für dieses Erwerbseinkommen einer 2. Säule angeschlossen ist, kann lediglich einen Abzug
+nach Artikel 7 Absatz 1 Buchstabe a BVV 3 geltend machen. Gestützt auf Artikel 1j Absatz 1
+Buchstabe c der Verordnung über die berufliche Alters-, Hinterlassenen- und Invalidenvor-
+sorge (BVV 2; SR 831.441.1) besteht jedoch die Möglichkeit, dass sich ein hauptberuflich
+selbständig Erwerbender für seine Nebenerwerbstätigkeit von der obligatorischen Versiche-
+rung im Rahmen der 2. Säule freistellen lässt. Nach erfolgter Freistellung gehört er nicht
+mehr einer beruflichen Vorsorgeeinrichtung an und kann den Säule 3a-Abzug nach Artikel 7
+Absatz 1 Buchstabe b BVV 3 geltend machen.

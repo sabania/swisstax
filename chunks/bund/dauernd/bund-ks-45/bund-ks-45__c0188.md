@@ -5,20 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 188"
-seiten: "51"
+seiten: "50"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 51
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 50
 
-ausgerichtet, entspricht das satzbestimmende Einkommen:
-     dem bis zum Ende des Arbeitsverhältnisses erzielten Bruttoeinkommen, das auf einen
-    Jahreslohn umzurechnen ist, wenn die Tätigkeit weniger als ein Jahr ausgeübt wurde;
-     abzüglich allfälliger aperiodischer Leistungen;
-     erhöht um die betreffende Leistung bei oder nach Beendigung des Arbeitsverhältnis-
-    ses.
-Wird die Leistung dagegen erst im Folgejahr ausbezahlt, so ist das letzte Jahreseinkommen,
-welches der Quellenbesteuerung zu Grunde gelegt wurde, entsprechend für die Satzbestim-
-mung beizuziehen.
-Lohnfortzahlungen an einen im Ausland ansässigen Arbeitnehmer, der nach erfolgter Kündi-
-gung freigestellt wird, sind – da diese auf einem weiterhin gültigen Arbeitsvertrag sowie einer
-in der Schweiz ausgeübten Tätigkeit beruhen – quellensteuerpflichtig (vgl. Art. 91 DBG). Die
+<!-- Seite 50 -->
+    Beispiele:
+    1. Arbeitnehmer Z. ist internationaler Wochenaufenthalter in der Schweiz. Sein Arbeitgeber hat den Sitz in
+    Zürich. Z. übt seine Tätigkeit an seinem fixen Arbeitsplatz in Zürich aus. Während des Monats September
+    hat er ausnahmsweise an fünf Tagen in Österreich gearbeitet. Zusätzlich hat er 10 Ferientage bezogen,
+    welche er in Italien verbracht hat. Z. erhält im Monat September einen Bruttolohn von CHF 8‘000.
+    Die für die Ausscheidung massgebenden schweizerischen Arbeitstage ergeben sich aus der Subtraktion
+    von fünf ausländischen Arbeitstagen vom Total von 20 Arbeitstagen pro Monat. Davon ausgehend ist das
+    steuerbare Einkommen wie folgt zu berechnen bzw. das satzbestimmende Einkommen wie folgt festzule-
+    gen:

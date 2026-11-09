@@ -10,6 +10,12 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 3
 
+ 3.4 Aufzug, Lift
+  - Neueinbau   1/1
+  - Reparatur, Serviceabonnement, gleichwertiger Ersatz   1/1
+
+  4   Heizung, Energiegewinnung und -nutzung
+
  4.1 Heizungs- und Lüftungsinstallationen
     (bei gleichem beheizten Raumvolumen)
   - periodische Wartungsarbeiten

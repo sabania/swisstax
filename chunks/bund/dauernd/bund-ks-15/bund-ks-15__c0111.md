@@ -4,23 +4,30 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 111"
-seiten: "26"
+titel: "Anhang IV Gutachten – Auftrag und Vorbemerkungen"
+ziffer: "Anh. IV II–III.1"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › II–III Auftrag, Beurteilung · S. 33
 
-<!-- Seite 26 -->
-Die beschriebenen Produktemechanismen sind das Resultat einer Kombination von ge-
-mischter Diskontobligation, gemischter globalverzinslicher Obligation oder Zerobond und Op-
-tion(en). Die sog. bedingten Coupons ergeben sich aus der (bzw. den) vom Investor erwor-
-benen Call-Option(en). Aus ihr (bzw. ihnen) resultierende Zahlungen stellen im Privatvermö-
-gen steuerfreie Kapitalgewinne dar. Die im Voraus garantierten, fixen Zahlungen qualifizieren
-dagegen als steuerbarer Vermögensertrag. Zur rechnerischen Bestimmung, ob der Anlage-
-teil überwiegend einmalverzinslich ist oder nicht, können nur die garantierten Geldflüsse her-
-angezogen werden, und zwar zum jeweiligen Zeitpunkt, in welchem der Investor seinen
-Rechtsanspruch durchsetzen kann. Dabei ist die Summe der Barwerte der garantierten Zah-
-lungen während der Laufzeit der Einmalentschädigung gegenüberzustellen. Auch kapitalge-
-schützte strukturierte Produkte, die in Kombination mit entsprechender Optionsgestaltung zu
-sog. bedingten Couponzahlungen führen, gelten im Sinne des Kreisschreibens Nr. 15 als
-transparent und es finden die entsprechenden Regeln gemäss Ziffer 3.4. Anwendung.
+II.   Auftrag
+Die Schweizerische Bankiervereinigung ist von der Eidgenössischen Steuerverwaltung
+gebeten worden, zur Frage Stellung zu nehmen, ob die bei der modifizierten Differenz-
+besteuerung zur Anwendung gelangenden finanzmathematischen Formeln in jedem
+Fall geeignet sind, den Vermögensertrag bei kombinierten Produkten in rechtsgenü-
+gender Weise zu ermitteln.
+
+
+III.   Beurteilung
+1.   Vorbemerkungen
+Die nachfolgenden Ausführungen beziehen sich ausschliesslich auf die Besteuerung
+von in der Schweiz ansässigen natürlichen Personen, welche das kombinierte Produkt
+im Privatvermögen halten.
+
+Bei der modifizierten Differenzbesteuerung ist der steuerbare Vermögensertrag grund-
+sätzlich gleich wie bei der reinen Differenzbesteuerung zu ermitteln, indem vom Wert
+des Anleihensteils im Zeitpunkt der Veräusserung bzw. der Rückzahlung der Wert des
+Anleihensteils bei Erwerb in Abzug gebracht wird. Bei der modifizierten Differenzbe-
+steuerung ist allerdings - mangels eines Marktpreises für den Anleihensteil des kombi-
+nierten Produktes - auf berechnete Werte abzustellen.

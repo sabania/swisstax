@@ -12,3 +12,14 @@ qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 
     - erstmalige Erstellung   1/1
     - gleichwertiger Ersatz   1/1
+
+ 5.2 Diverse Umgebungsarbeiten (ohne Garten)
+  - Vorplätze
+    a) Ersatz bei vergleichbarer Qualität   1/1
+    b) bisher gekofferter Kiesplatz zu Teer/Verbundstein   1/4   3/4
+    c) bisher Naturplatz ohne Kofferung zu Vorplatz mit Kofferung   1/1
+    d) Teer zu Verbundstein (verdichtet, nicht erweitert)   1/1
+  - Velounterstände, Carports (sofern in der Schätzung enthalten)
+    a) Neuerstellung   1/1
+    b) gleichwertiger Ersatzbau   1/1
+    c) Sanierung und Reparatur   1/1

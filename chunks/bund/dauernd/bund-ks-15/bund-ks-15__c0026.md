@@ -4,18 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 26"
-seiten: "6"
+titel: "Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 1/2)"
+ziffer: "3.2"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.2 Obligationen mit überwiegender Einmalverzinsung · S. 8
 
-<!-- Seite 6 -->
-aber auch in einem einzigen Papier zusammengefasst sein, so dass die verschiedenen Kom-
-ponenten nicht separat handelbar sind (sog. nicht trennbare kombinierte Produkte).
-
-Im Unterschied zu den kapitalgarantierten Derivaten und den Optionsanleihen ist das Wan-
-delrecht bei den Wandelanleihen untrennbar mit der Obligation verbunden und kann deshalb
-nicht separat gehandelt werden. Durch die Ausübung des Wandelrechtes geht das Schuld-
-verhältnis aus der Obligation unter und der Obligationär wird zum Inhaber eines Beteiligungs-
-rechts.
+Die steuerliche Behandlung von allfälligen negativen Differenzen zwischen Anschaffungs-
+und Veräusserungs- oder Rückzahlungsbeträgen ist gesetzlich nicht geregelt. Diese Situa-
+tion tritt insbesondere bei Anlagen in fremder Währung auf, wenn sich der Wechselkurs der
+Fremdwährung während der Laufzeit gegenüber dem Schweizerfranken verschlechtert. Sie
+kann auch bei einem Anstieg des allgemeinen Zinsniveaus für vergleichbare Anlagen eintre-
+ten. Da es den Grundsätzen unseres Steuersystems widersprechen würde, wenn Verluste
+aus (überwiegend) einmalverzinslichen Anlagen generell unberücksichtigt blieben, akzeptiert
+die ESTV seit Inkrafttreten der Bestimmung von Artikel 20 Absatz 1 Buchstabe b DBG eine
+Verrechnung der realisierten Verluste und Gewinne (zuzüglich deren periodischen Erträge)
+aus anderen in- oder ausländischen Obligationen mit überwiegender Einmalverzinsung. Die
+Berücksichtigung solcher Verluste bleibt indessen innerhalb einer Bemessungsperiode auf
+Anwendungsfälle von Artikel 20 Absatz 1 Buchstabe b DBG beschränkt; eine Verrechnung
+mit anderen Erträgen oder Einkommensteilen ist ausgeschlossen.

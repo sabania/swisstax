@@ -178,7 +178,7 @@
 "titel": "KS 42 – Abschnitt 12",
 "pfad": [],
 "seiten": [
-4
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "KS 42 – Abschnitt 13",
 "pfad": [],
 "seiten": [
-5
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -226,7 +226,7 @@
 "titel": "KS 42 – Abschnitt 15",
 "pfad": [],
 "seiten": [
-6
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -306,7 +306,7 @@
 "titel": "KS 42 – Abschnitt 20",
 "pfad": [],
 "seiten": [
-7
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -354,7 +354,7 @@
 "titel": "KS 42 – Abschnitt 23",
 "pfad": [],
 "seiten": [
-8
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -370,7 +370,7 @@
 "titel": "KS 42 – Abschnitt 24",
 "pfad": [],
 "seiten": [
-8
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -418,7 +418,7 @@
 "titel": "KS 42 – Abschnitt 27",
 "pfad": [],
 "seiten": [
-9
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -434,7 +434,7 @@
 "titel": "KS 42 – Abschnitt 28",
 "pfad": [],
 "seiten": [
-9
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -450,7 +450,7 @@
 "titel": "KS 42 – Abschnitt 29",
 "pfad": [],
 "seiten": [
-9
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -482,7 +482,7 @@
 "titel": "KS 42 – Abschnitt 31",
 "pfad": [],
 "seiten": [
-10
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -498,7 +498,7 @@
 "titel": "KS 42 – Abschnitt 32",
 "pfad": [],
 "seiten": [
-10
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -514,7 +514,7 @@
 "titel": "KS 42 – Abschnitt 33",
 "pfad": [],
 "seiten": [
-11
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -530,7 +530,7 @@
 "titel": "KS 42 – Abschnitt 34",
 "pfad": [],
 "seiten": [
-11
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -546,7 +546,7 @@
 "titel": "KS 42 – Abschnitt 35",
 "pfad": [],
 "seiten": [
-11
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -562,7 +562,7 @@
 "titel": "KS 42 – Abschnitt 36",
 "pfad": [],
 "seiten": [
-12
+11
 ],
 "artikel": null,
 "ziffer": null,
@@ -571,6 +571,54 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-ks-42__c0035",
+"nachher": "bund-ks-42__c0037"
+},
+{
+"id": "bund-ks-42__c0037",
+"titel": "KS 42 – Abschnitt 37",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-42__c0036",
+"nachher": "bund-ks-42__c0038"
+},
+{
+"id": "bund-ks-42__c0038",
+"titel": "KS 42 – Abschnitt 38",
+"pfad": [],
+"seiten": [
+11
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-42__c0037",
+"nachher": "bund-ks-42__c0039"
+},
+{
+"id": "bund-ks-42__c0039",
+"titel": "KS 42 – Abschnitt 39",
+"pfad": [],
+"seiten": [
+12
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-42__c0038",
 "nachher": null
 }
 ]

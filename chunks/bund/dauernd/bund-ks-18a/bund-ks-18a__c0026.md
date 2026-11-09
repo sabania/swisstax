@@ -2,24 +2,25 @@
 id: bund-ks-18a__c0026
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 26"
 seiten: "6"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 6
+> Bund · Steuerjahr 2026 · KS 18a · S. 6
 
-Auch bei Selbständigerwerbenden, die ihr Geschäftsjahr per Ende des Kalenderjahres ab-
-schliessen, gilt, dass Beiträge an die Säule 3a bis Ende des Kalenderjahres geleistet werden
-müssen, wenn sie im entsprechenden Steuerjahr zum Abzug gebracht werden wollen (vgl.
-betreffend den massgebenden Zeitpunkt einer Einzahlung Ziffer 5.1).
+Ein Einkauf in die Säule 3a kann gemäss Artikel 7 Absatz 1 Buchstabe 1 BVV3 pro Steuer-
+jahr maximal im Umfang des «kleinen Abzugs», d.h. im Umfang von höchstes 8 Prozent des
+oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG (vgl. Ziffer 5.4) vorgenommen werden,
+unabhängig davon, ob die steuerpflichtige Person im Zeitpunkt des Einkaufs einer Vorsorge-
+einrichtung der 2. Säule angehört (Art. 7a Abs. 2 BVV3). Mit dem Einkauf können Beitragslü-
+cken von mehreren Jahren ausgeglichen werden (Art. 7a Abs. 3 BVV3).
 
-5.6. Einkäufe in die Säule 3a
-Mit Inkrafttreten der Artikel 7a und 7b BVV3 per 1. Januar 2025 wurde die Möglichkeit einge-
-führt, dass Personen, die in bestimmten Jahren keine Beiträge oder nur Teilbeiträge an die
-Säule 3a geleistet haben, die daraus resultierenden Fehlbeträge auch nachträglich in Form
-von Einkäufen einzahlen können.
+Die Beitragslücke eines bestimmten Jahres (sog. Jahresbeitragslücke) darf nur durch einen
+einzigen (Jahres-)Einkauf ausgeglichen werden; d.h. es ist nicht zulässig, eine bestimmte
+Jahresbeitragslücke über mehrere Jahre hinweg durch mehrere (Jahres-)Einkäufe auszuglei-
+chen (Art. 7a Abs. 3 BVV3).
 
-Ein Einkauf in die Säule 3a setzt voraus, dass folgende Voraussetzungen kumulativ erfüllt
-werden (vgl. Art. 7a Abs. 1 Bst. a – c und Abs. 4 BVV3):
+Der Einkauf muss nicht zwingend in dieselbe Vorsorgepolice oder Vorsorgevereinbarung er-
+folgen, in die im betreffenden Steuerjahr die ordentlichen Beiträge einbezahlt wurden.

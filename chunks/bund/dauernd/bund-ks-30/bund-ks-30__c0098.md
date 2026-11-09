@@ -4,22 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 98"
-seiten: "22"
+titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 2/2)"
+ziffer: "14.1.2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
 
-Dem Recht der direkten Bundessteuer liegen drei Tarife für die Besteuerung der natürlichen
-Personen zugrunde. Artikel 36 DBG sieht einen Grundtarif, einen Tarif für verheiratete Per-
-sonen sowie einen Tarif für Personen vor, die mit Kindern zusammenleben. Die Tarife tragen
-der unterschiedlichen wirtschaftlichen Leistungsfähigkeit dieser drei Kategorien von Steuer-
-pflichtigen Rechnung.
-
-Der Grundtarif und der Verheiratetentarif gelten weiterhin für die ordentliche Veranlagung.
-
-Für die Veranlagung von Kapitalleistungen aus Vorsorge wird in Artikel 38 DBG auf die Tari-
-fe gemäss Artikel 36 Absätze 1, 2 und 2bis erster Satz DBG (Grundtarif und Verheiratetenta-
-
-3 Zum Begriff "Reineinkommen" vgl. Fn 2.
-4 Zum Begriff "Reineinkommen" vgl. Fn 2.
+Unterhaltsleistungen in der Form von Geldleistungen an den getrennt lebenden oder ge-
+schiedenen Ehegatten können sowohl als Renten als auch als Kapitalabfindungen erfolgen.
+In Weiterführung der bisherigen Praxis, die auch vom Bundesgericht gestützt wird (Entscheid
+vom 29. Januar 1999, BGE 125 II 183), darf die Abzugsfähigkeit der periodischen Unterhalts-
+leistungen jedoch nicht auf die Unterhaltsleistungen in Form einer Kapitalleistung ausge-
+dehnt werden. Infolgedessen kann der als Kapitalleistung gezahlte Betrag zum Unterhalt des
+geschiedenen Ehegatten nicht vom steuerbaren Einkommen des Schuldners abgezogen
+werden. Der Empfänger dieser Leistung muss sie im Gegenzug aber auch nicht als Ein-
+kommen deklarieren.

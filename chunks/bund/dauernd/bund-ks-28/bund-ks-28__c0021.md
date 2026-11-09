@@ -10,15 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 5
 
-5.1.   Grundsatz
-Der selbständig Erwerbende kann unabhängig davon, ob er einer beruflichen Vorsorgeinrich-
-tung angeschlossen ist oder nicht, einen Antrag auf Besteuerung eines fiktiven Einkaufs stel-
-len. Ist der selbständig Erwerbende einer Einrichtung der beruflichen Vorsorge angeschlos-
-sen, verzichtet er aber ganz oder teilweise auf einen tatsächlichen Einkauf von Beitragsjah-
-ren, so kann er die Besteuerung eines fiktiven Einkaufs nach Abzug des allfällig vorgenom-
-menen tatsächlichen Einkaufes geltend machen. Eine höhere tatsächliche Deckungslücke
-des konkreten Vorsorgeplanes bleibt in diesem Fall für die Berechnung des fiktiven Einkaufs
-unbeachtlich.
+<!-- Seite 5 -->
+bereits in Rechtskraft erwachsen, so wird sie bei der Anwendung von Artikel 37b DBG nach
+Artikel 147 ff. DBG revidiert.
 
-Die Besteuerung eines fiktiven Einkaufs kann geltend gemacht werden, solange nach dem
-BVG ein Einkauf möglich ist.
+4.   Einkauf in eine Vorsorgeeinrichtung
+
+Beim Einkauf in eine Vorsorgeeinrichtung im Liquidationsjahr und im Vorjahr (Art. 4 LGBV)
+wird der einbezahlte Betrag bei der Berechnung des steuerbaren Einkommens der Steuerpe-
+riode in erster Linie vom übrigen, nicht gesondert besteuerten Einkommen in Abzug ge-
+bracht. Kann dabei nicht der gesamte Einkaufbetrag angerechnet werden, so reduziert die-
+ser Überhang den Liquidationsgewinn.
+
+5.   Fiktiver Einkauf

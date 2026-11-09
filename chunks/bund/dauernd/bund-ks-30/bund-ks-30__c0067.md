@@ -4,40 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 67"
-seiten: "15"
+titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 1/3)"
+ziffer: "11"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
 
-<!-- Seite 15 -->
-Beispiel: Kinderdrittbetreuungskosten
+11   Unterstützungsabzug
 
-Elternteil 1   6’000
-Elternteil 2   9’000
-Total   15’000
-
-Maximalbetrag   10’100
-
-Veranlagung
-
-Elternteil 1   10'100 x 6'000   4’040
-    15’000
-
-Elternteil 2   10'100 x 9'000   6’060
-    15’000
-
-Total insgesamt   10’100
-
-Besteht keine gemeinsame elterliche Sorge über das gemeinsame Kind, ist zu unterschei-
-den, ob Unterhaltszahlungen für das Kind geltend gemacht werden oder nicht. Werden Un-
-terhaltszahlungen geleistet, kommt die Regelung zum Tragen, die bei Eltern mit gemeinsa-
-mem Sorgerecht gilt. Werden keine Unterhaltszahlungen geltend gemacht, kann nur der El-
-ternteil mit der elterlichen Sorge die von ihm nachgewiesenen Kosten der Kinderdrittbetreu-
-ung in Abzug bringen.
-
-Bei Paaren mit nicht gemeinsamen Kindern kann der Abzug nur von dem Partner bean-
-sprucht werden, der Elternteil ist und die elterliche Sorge innehat.
-
-8.4.4   Getrennte, geschiedene oder unverheiratete Eltern (zwei Haushalte)
-    mit gemeinsamen Kindern
+Eine steuerpflichtige Person kann die Unterstützungsleistungen an eine erwerbsunfähige
+oder beschränkt erwerbsfähige Person in Abzug bringen, wenn die Leistungen mindestens in
+der Höhe des Unterstützungsabzuges erfolgen (Art. 35 Abs. 1 Bst. b DBG). Die Unterstüt-
+zung muss nicht zwingend auf einer Rechtspflicht wie beispielsweise die Verwandtenunter-
+stützung nach Artikel 328 ZGB beruhen, sie kann auch aufgrund einer vertraglichen Ver-
+pflichtung oder freiwillig erfolgen. Wird in einem Steuerjahr weniger als der festgelegte Abzug
+geleistet, entfällt dieser Sozialabzug.

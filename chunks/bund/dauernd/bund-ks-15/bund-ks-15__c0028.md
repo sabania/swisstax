@@ -4,24 +4,24 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 28"
-seiten: "6"
+titel: "Ziff. 3.3 Derivative Finanzinstrumente – Kapitalgewinne, Vorausfinanzierung 25 %"
+ziffer: "3.3"
+seiten: "8-9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.3 Derivative Finanzinstrumente · S. 8–9
 
-2.3.3   Produkte mit Geld- oder Titellieferung (Reverse Convertibles)
-2.3.3.1 Reverse Convertibles ohne Kapitalschutz
-Auch bei den Reverse Convertibles handelt es sich um eine Kombination aus Obligation und
-Option. Im Fall des Reverse Convertible ohne Kapitalschutz erwirbt der Anleger vorab eine
-Obligation. Er tritt sodann gleichzeitig als Verkäufer/Schreiber einer Put-Option auf und –
-falls er noch an einem allfälligen Anstieg des Basiswertes partizipiert – als Käufer einer Call-
-Option. Aufgrund der an den Emittenten verkauften Put-Option kann der Anleger gegebenen-
-falls verpflichtet sein, bei Fälligkeit der Obligation den Basiswert (in der Regel eine Aktie)
-zum Ausübungspreis (in der Regel in der Höhe des Nominalwertes der Obligation) zu über-
-nehmen. Dies wird dann der Fall sein, wenn der Basiswert am Verfalltag unter dem Aus-
-übungspreis liegt. Liegt hingegen der Preis des Basiswertes am Verfalltag über dem Aus-
-übungspreis, wird der Emittent seine Put-Option nicht ausüben. Der Anleger erhält den No-
-minalwert seiner Obligation zurückbezahlt, übt gegebenenfalls seine Call-Option aus und er-
-hält so zusätzlich die darin verbriefte (anteilmässige) Beteiligung am Anstieg des Basiswer-
-tes in bar ausbezahlt.
+3.3   Derivative Finanzinstrumente
+
+Direkte Bundessteuer
+Gewinne aus Termingeschäften sind steuerlich gleich zu behandeln wie solche aus Kassa-
+geschäften und stellen deshalb Kapitalgewinne dar (BGE 110 Ia 1 ff.). Kapitalgewinne aus
+Termingeschäften (Futures und Optionen) sind im Privatvermögen steuerfrei (Art. 16 Abs. 3
+DBG), sofern sie nicht durch das Gesetz ausdrücklich erfasst werden. Entsprechende Ver-
+luste im Privatvermögen sind steuerlich unbeachtlich. Dies gilt grundsätzlich auch für struktu-
+rierte Produkte wie beispielsweise Mini-Futures, es sei denn, der Grad der Vorausfinanzie-
+rung übersteige die zulässige Grenze von 25 % des Kontraktwerts oder es handle sich beim
+Basiswert nicht um kapitalgewinnfähige Basiswerte wie beispielsweise Obligationen.
+
+
+1-015-DVS-2017-d

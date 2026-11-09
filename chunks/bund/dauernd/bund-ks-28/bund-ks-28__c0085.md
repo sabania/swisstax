@@ -10,8 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 25
 
-Absatz 5
-Im Hinblick darauf, dass mittels des fiktiven Einkaufs die selbständig erwerbenden Personen
-den unselbständig erwerbenden Personen vorsorgerechtlich gleichgestellt werden sollen,
-muss die obere Grenze für einen versicherbaren Lohn gemäss BVG auch für den fiktiven
-Einkauf übernommen werden.
+Absatz 2
+Die Jahre ab dem 25. Altersjahr bis und mit dem Liquidationsjahr werden stets vollumfäng-
+lich berücksichtigt, unabhängig davon, ob die selbständig erwerbende Person während der
+ganzen Zeit einer Erwerbstätigkeit nachgegangen ist oder nicht. Dies analog zur Einkaufsbe-
+rechnung gemäss dem BVG, die immer auf das 25. Altersjahr zurückrechnet. Für die Be-
+rechnung des fiktiven Einkaufs können daher maximal 40 (65-25) bzw. 39 Jahre (64-25) be-
+rücksichtigt werden. Es wird dabei auf das vollendete Altersjahr abgestellt und das Jahr der
+Beendigung der Liquidation mitgezählt. Demzufolge umfasst dieser Zeitraum nur ganze Jah-
+re.

@@ -5,22 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 217"
-seiten: "60"
+seiten: "58"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 60
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
 
-<!-- Seite 60 -->
-den Schuldner der steuerbaren Leistung, der über das einheitliche Lohnmeldeverfahren
-ELM-QSt abrechnet, ist die Übermittlung der erforderlichen Daten sichergestellt.
-Der Schuldner der steuerbaren Leistung hat die Quellensteuerabrechnungen grundsätzlich
-monatlich vorzunehmen.
-Auf Antrag des Schuldners der steuerbaren Leistung kann die zuständige Steuerbehörde
-längere Abrechnungsperioden (vierteljährlich, halbjährlich, jährlich) bewilligen, sofern die
-Quellensteuer nicht über ELM-Quellensteuer abgerechnet wird. Wird eine übermonatliche
-Abrechnungsperiode gewährt, sind die Quellensteuerdaten pro Arbeitnehmer und pro Monat
-auszuweisen Der Quellensteuerabrechnung sind die notwendigen Unterlagen beizulegen
-(bspw. Kalendarium, Bescheinigung über Mitarbeiterbeteiligungen). Die Quellensteuerab-
-rechnungen müssen vom Schuldner der steuerbaren Leistung bzw. seinem Vertreter jeweils
-innert 30 Tagen nach Ablauf der Abrechnungsperiode bei der zuständigen Steuerbehörde
-eingereicht werden.
+Leistung, den Quellensteuerabzug korrekt vorzunehmen, indem er sich auf unkorrekte Anga-
+ben der steuerpflichtigen Person stützt, kann der Schuldner der steuerbaren Leistung zu ei-
+ner Nachzahlung der geschuldeten Quellensteuer verpflichtet werden. Dies selbst dann,
+wenn das Arbeitsverhältnis zwischen der quellensteuerpflichtigen Person und dem Schuld-
+ner der steuerbaren Leistung nicht mehr besteht (vgl. auch «Décision du Court de droit admi-
+nistratif et public du Tribunal cantonal du Canton de Vaud FI.2015.0033 du 8 mars 2016»).
+Der Rückgriff des Schuldners der steuerbaren Leistung auf die quellensteuerpflichtige Per-
+son bleibt vorbehalten (vgl. Art. 138 Abs. 1 DBG).
+Der Schuldner der steuerbaren Leistung ist verpflichtet, die für die korrekte Steuererhebung
+notwendigen persönlichen Verhältnisse der quellensteuerpflichtigen Person zu ermitteln
+(Quellensteuerpflicht, Zivilstand, Anzahl Kinder, Konfession usw.). Für die diesbezüglichen

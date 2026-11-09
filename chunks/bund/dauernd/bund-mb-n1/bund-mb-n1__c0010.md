@@ -10,19 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · MB N1/2007 · S. 2
 
-<!-- Seite 2 -->
-5. Privatanteil an den Autokosten
+Die dem Geschäftspersonal ausgerichteten Naturallöhne (Verpfle   Im Gastwirtschaftsgewerbe............. 16.–   480.–   5760.–
+gung, Unterkunft) sind dem Geschäft zu den Selbstkosten zu belas-   In andern Gewerben....................... 17.–   510.–   6120.–
+ten, nicht zu den für die Arbeitnehmenden geltenden Pauschalan
+sätzen.   Für die Unterkunft (Miete, Heizung, Beleuchtung, Reinigung, Wä
+Sind die Selbstkosten nicht bekannt und werden sie auch nicht auf   sche usw.) kommt im Allgemeinen kein besonderer Lohnabzug in
+Grund eines so genannten Haushaltkontos ermittelt, so können für   Betracht, da diese Kosten in der Regel bereits unter den übrigen Ge
+die Verpflegung pro Person in der Regel folgende Beträge abgezo   schäftsunkosten (Gebäudeunterhalt, Hypothekarzinsen, allgemeine
+gen werden:   Unkosten usw.) berücksichtigt sind.
 
-Der Privatanteil an den Autokosten kann entweder effektiv oder   b) Pauschale Ermittlung
-pauschal ermittelt werden.   Können die gesamten Betriebskosten des zum Teil privat genützten
-    Fahrzeuges und die geschäftlich sowie privat zurückgelegten Kilo
-a) Effektive Ermittlung
-    meter anhand eines Bordbuches nicht nachgewiesen werden, ist
-Können die gesamten Betriebskosten des zum Teil privat genütz   pro Monat 0,9%** des Kaufpreises (exkl. MWST), mindestens aber
-ten Fahrzeuges und die geschäftlich sowie privat zurückgelegten   CHF 150 zu deklarieren.
-Kilometer anhand eines Bordbuches nachgewiesen werden, sind die
-effektiven Kosten proportional auf die geschäftlich und privat zu
-rückgelegten Kilometer aufzuteilen.   ** Gültig ab 1. Januar 2022 (bis 31. Dezember 2021: 0,8 %)
-
-6. Selbstkostenabzug für Naturallöhne der Arbeitnehmenden
-    Tag / CHF   Monat / CHF   Jahr / CHF
+    Merkblatt N 1/ 2007

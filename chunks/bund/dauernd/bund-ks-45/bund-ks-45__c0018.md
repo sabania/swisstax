@@ -10,15 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
 
-Die Neuerungen verfolgen auch den Zweck, den technischen Entwicklungen Rechnung zu
-tragen (bspw. dem einheitlichen Lohnmeldewesen bzw. dem Lohnstandard-CH Quellen-
-steuer [ELM-QSt]), die Rechtssicherheit für die Arbeitnehmer und die Schuldner der steuer-
-baren Leistung zu erhöhen sowie die Verfahren – soweit möglich – zu vereinheitlichen.
-Berücksichtigt wurden bei der Erarbeitung dieses Kreisschreibens auch die von der Schweiz
-abgeschlossenen Abkommen zur Vermeidung der Doppelbesteuerung (nachfolgend DBA).
-Dabei wird stellvertretend auf das OECD-Musterabkommen zur Vermeidung der Doppelbe-
-steuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (nachfolgend
-OECD-MA) sowie auf den dazugehörenden Kommentar der OECD in der Version 2017
-(nachfolgend OECD-Kommentar) hingewiesen. Für die Beurteilung von grenzüberschreiten-
-den Sachverhalten sind jeweils die konkreten Bestimmungen des massgebenden Doppelbe-
-steuerungsabkommens zu beachten.
+Gemäss Artikel 85 Absatz 4 des Bundesgesetzes vom 14. Dezember 1990 über die direkte
+Bundessteuer in der Fassung vom 11. April 2018 (DBG; SR 642.11) ist die Berechnung der
+Quellensteuern für Arbeitnehmer im Sinne der Artikel 83 und 91 DBG zu vereinheitlichen.
+Für die übrigen quellensteuerpflichtigen Personen mit Ansässigkeit im Ausland, welche eine
+der Voraussetzungen nach Artikel 5 Absatz 1 Buchstaben b – f DBG erfüllen, wird auf die re-
+gelmässig erscheinenden Rundschreiben der ESTV über die Quellensteuer und die darin
+publizierten Merkblätter verwiesen.
+Die wichtigsten Neuerungen sind:
+    1. Für die Steuerbehörden, dass das vorliegende Kreisschreiben – wie sämtliche Kreis-
+    schreiben der ESTV – schweizweite Gültigkeit hat und somit von allen Kantonen anzu-
+    wenden ist;
+    2. Für die Schuldner der steuerbaren Leistungen, dass die Quellensteuern direkt mit dem
+    zuständigen Kanton nach Artikel 107 DBG und nach dessen Modell (Monats- oder Jah-

@@ -5,22 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 73"
-seiten: "22"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
 
-<!-- Seite 22 -->
-b)   Die Überführung der Liegenschaft vom Geschäftsvermögen ins Privatvermögen erfolgt
-    im Vorjahr (n-1). Die steuerpflichtige Person macht dabei keinen Steueraufschub ge-
-    mäss Artikel 18a DBG geltend. Im Jahr n wird die selbständige Erwerbstätigkeit definitiv
-    aufgegeben und die gesamten stillen Reserven (wieder eingebrachte Abschreibungen
-    und der Wertzuwachsgewinn) werden privilegiert besteuert (u.U. mittels eines Revisi-
-    onsverfahrens für die Veranlagung n-1). Eine spätere Veräusserung der Liegenschaft
-    löst eine allfällige kantonale Grundstückgewinnsteuer, aber keine Einkommenssteuer
-    (steuerfreier privater Kapitalgewinn oder steuerlich unbeachtlicher Kapitalverlust im Jahr
-    n+1 gem. Art. 16 Abs. 3 DBG) aus.
+<!-- Seite 21 -->
+übrigen stillen Reserven unterliegen zusammen mit dem übrigen Einkommen dannzumal der
+ordentlichen Besteuerung.
 
-    Vorjahr   Liquidationsjahr
+Im Zeitpunkt der Überführung vom Geschäftsvermögen in das Privatvermögen liegt nicht
+zwangsläufig eine definitive Aufgabe der Erwerbstätigkeit vor, weshalb Artikel 37b DBG nicht
+in jedem Fall geltend gemacht werden kann.
 
-    2010   2011   2012
+Verlangt die steuerpflichtige Person im Rahmen der definitiven Aufgabe der selbständigen
+Erwerbstätigkeit einen Besteuerungsaufschub nach Artikel 18a DBG, findet Artikel 37b DBG
+nur auf die wieder eingebrachten Abschreibungen Anwendung.

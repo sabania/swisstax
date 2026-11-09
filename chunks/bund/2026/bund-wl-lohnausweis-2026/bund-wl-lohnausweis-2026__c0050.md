@@ -5,28 +5,25 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 50"
-seiten: "16"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 16
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 17
 
-Voraussetzung für die Anwendung der vorstehenden Pauschalen ist eine tatsächliche Rei
-setätigkeit.
+<!-- Seite 17 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
-Werden alle diese Vorgaben eingehalten, genügt es, im vorangestellten kleinen Feld
-zu Ziffer 13.1.1 des Lohnausweises ein Kreuz (X) einzusetzen. Auf die Angabe des ef
-fektiven Spesenbetrags kann verzichtet werden.
+Übrige effektive Spesen   Ziffer 13.1.2
 
-Effektive Reise-, Verpflegungs- und Übernachtungsspesen   Ziffer 13.1.1
-
-Sind die Vorgaben gemäss Rz 52 nicht erfüllt (kein Kreuz im vorangestellten Feld) oder liegt   53
-kein genehmigtes Spesenreglement vor, sind die Reise-, Verpflegungs- und Übernachtungs
-spesen, die effektiv, d. h. gegen Beleg, vergütet worden sind, betragsmässig anzugeben.
-Als solche Spesen fallen insbesondere in Betracht
-•   Effektive Autospesen;
-•   Flug-, Taxi- und Bahnspesen;
-•   Spesen für Übernachtungen, Frühstück, Mittag und Abendessen;
-•   Spesen für Einladungen von Geschäftspartnern ins Restaurant oder zu Hause;
-•   Spesen für kleinere Verpflegungsauslagen unterwegs.
-
-    ESTV   Seite 16 / 25
+Auf dieser Zeile ist vorab die Art sämtlicher übriger effektiver Spesen anzugeben. Zusätzlich   54
+ist im entsprechenden Feld der Betrag dieser Leistungen einzutragen. Dazu gehören unter
+anderem auch effektive Entschädigungen für Kosten an einen externen Arbeitsplatz (z. B.
+Homeoffice, Co-Working Space, aber auch Kosten für Büroinfrastruktur), d.h. gegen Beleg.
+Diese Kosten sind in jedem Fall betragsmässig aufzuführen und es ist der Vermerk «Spesen
+für externen Arbeitsplatz» anzubringen. Als übrige effektive Spesen fallen auch die vom Ar
+beitgeber (gegen Beleg) ausgerichteten Entschädigungen für die besonderen (abzugsfähi
+gen) Berufskosten von Expatriates gemäss ExpaV in Betracht. In diesem Fall ist die Anmer
+kung «Berufsauslagen für Expatriates» anzubringen und ist der ausbezahlte Spesenbetrag
+anzugeben. Besteht ein entsprechendes Ruling mit den Steuerbehörden, kann auf eine Be
+scheinigung der effektiven Expatriatespesen verzichtet werden. Unter Ziffer 15 ist in diesen
+Fällen auf das Ruling hinzuweisen (siehe Rz 65a).

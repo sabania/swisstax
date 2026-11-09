@@ -5,34 +5,29 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 95"
-seiten: "32"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 32
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 33
 
 Steuerfolgen:
-Verletzung der Rückzahlungsregel, jedoch nicht in Bezug auf KER-Rückzahlung an die Y AG
-von 12 (gemäss Art. 5 Abs. 1quater Bst. c VStG). Steuerbare Ausschüttung von 24 (gemäss
-Art. 5 Abs. 1ter VStG; Art. 20 Abs. 4 DBG). Das Eigenkapital der Gesellschaft zeigt nach Kor-
-rektur folgendes Bild:
+Verletzung der Teilliquidationsregel. Die Teilliquidation ist im Umfang von 160 nicht steuer-
+bar; die KER werden entsprechend korrigiert (gemäss Art. 4a Abs. 4 VStG; Art. 20 Abs.
+7 DBG). Aufgrund von Artikel 4a Absatz 4 VStG entsteht beim Erwerb der eigenen Beteili-
+gungsrechte keine Steuerforderung im Umfang des Anteils, der gegen KER zu verrechnen
+ist.
+
+Das Eigenkapital der Gesellschaft zeigt nach der Kapitalherabsetzung und der steuerlichen
+Korrektur folgendes Bild:
 
  Handelsbilanz / Eigenkapital   Bestand   Ausschüt-   Be-   Korrekturen   Be-
     tung   stand   stand
 
- Aktienkapital   1000   1000   1000
+ Aktienkapital   1000   -20   980   980
  Kapitalreserven
- - KER bestätigt   800   -60   740   24   764
+ - KER bestätigt   800   800   -160   640
  - übrige   400   400   400
- Gewinnreserven   4000   4000   -24   3976
+ Gewinnreserven   4000   -320   3680   160   3840
  Gewinn/Gewinnvortrag   800   800   800
 
- Total Eigenkapital   7000   6940   6940
-
-2. Fallbeispiel
-
-Gleicher Sachverhalt wie 1. Fallbeispiel. Die bestätigten KER der X AG qualifizieren als Aus-
-land-KER.
-
-Steuerfolgen:
-Keine Verletzung der Rückzahlungsregel; Die Rückzahlung von 60 bleibt steuerfrei (gemäss
-Art. 5 Abs. 1quater Bst. a und b VStG; Art. 20 Abs. 5 Bst. a und b DBG).
+ Total Eigenkapital   7000   6660   6660

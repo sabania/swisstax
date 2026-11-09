@@ -10,13 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 5
 
-<!-- Seite 5 -->
-Umständen auch bereits alleine zur Annahme einer selbständigen Erwerbstätigkeit
-ausreichen kann. Der Umstand, dass einzelne typische Elemente der selbständigen
-Erwerbstätigkeit im Einzelfall fehlen (z.B. die grosse Häufigkeit der Transaktionen oder der
-Einsatz fremder Mittel), kann durch andere Elemente kompensiert werden, die mit
-besonderer Intensität vorliegen (ASA 73, 299). Für die Beurteilung des „nebenberuflichen
-Beteiligungshandels“ hat das Bundesgericht festgehalten, dass die allgemeinen Indizien
-nach wie vor vollumfänglich anzuwenden sind (2C_385/2011, E. 2.2).
-
-4.3.2 Besonderheiten für Wertschriftenportefeuilles
+    Der Einsatz von erheblichen Fremdmitteln in der privaten Vermögensverwaltung ist
+    eher atypisch. Normalerweise wird bei der gewöhnlichen Anlage von privatem Ver-
+    mögen darauf geachtet, dass die Erträge den Aufwand übersteigen (ASA 69, 788). Ist
+    aber eine Fremdfinanzierung vorhanden, trägt die steuerpflichtige Person ein erhöhtes
+    Risiko, welches ein Indiz für eine selbständige Erwerbstätigkeit darstellt. Sofern die
+    Schuldzinsen und Spesen nicht durch periodische Einkünfte gedeckt werden können,
+    sondern mittels Veräusserungsgewinnen beglichen werden müssen, kann von einer
+    privaten Vermögensverwaltung nicht mehr die Rede sein (ASA 69, 788).

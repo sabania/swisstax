@@ -10,18 +10,12 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 5
 
-Höchste Steuerkraft weiterhin in Warth-Weiningen   Steuerkraft pro Einwohnerin oder Einwohner
-    Kanton Thurgau und Bezirke, 2025, in Franken
-Wie in den Vorjahren führte Warth-Weiningen auch 2025 die
-Rangliste der Gemeinden mit der höchsten Steuerkraft pro Ein-
-wohnerin oder Einwohner an. Trotz eines Rückgangs um 3 % auf   Kanton Thurgau   2'472
-
-5’922 Franken lag Warth-Weiningen weiterhin an der Spitze, al-
-    Kreuzlingen   2'888
-lerdings nicht mehr so deutlich wie noch in den Vorjahren, wo
-die Differenz zu Platz 2 noch über 1’000 Franken betragen hat-
-    Frauenfeld   2'719
-te. Die zweithöchste Steuerkraft hatte mit 5’342 Franken neu die
-Gemeinde Gottlieben. Durch einen erneuten Anstieg von 22 %   Münchwilen   2'247
-verdrängte sie Bottighofen auf Platz 3 (4’783 Franken). Eine ho-
-he Steuerkraft von über 3’400 Franken wiesen zudem Salenstein,   Arbon   2'301
+Die Steuerkraft pro Einwohnerin oder Einwohner stieg 2025 um   höchsten Steuerkraft – hat sich 2025 im Vergleich zum Vorjahr
+5 % auf 2’472 Franken. Im Vorjahr war der Zuwachs mit 6 % noch   nochmals verringert. Zum einen stieg die Steuerkraft der Politi-
+etwas kräftiger ausgefallen.   schen Gemeinden am unteren Ende. Zum anderen schwankte die
+Etwas mehr als drei Viertel der 80 Politischen Gemeinden ver-   Steuerkraft von Warth-Weiningen von Jahr zu Jahr und sank zu-
+zeichneten 2025 einen Anstieg der Steuerkraft pro Einwohnerin   letzt wieder. Mit rund 4’240 Franken liegt die Bandbreite zwar über
+oder Einwohner. Am kräftigsten stieg die Steuerkraft in Raperswi-   dem Mittel der letzten zwanzig Jahre, aber unter den Höchstwert
+len (+28 %), Basadingen-Schlattingen (+23 %), Gottlieben und   von 2021, als die Spannweite 5’200 Franken betrug.
+Erlen (je +22 %). In weiteren 16 Gemeinden erhöhte sich die Steu-
+erkraft gegenüber dem Vorjahr um 10 % oder mehr und in 44 Ge-

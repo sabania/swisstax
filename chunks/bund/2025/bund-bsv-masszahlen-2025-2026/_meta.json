@@ -82,7 +82,7 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 6",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -178,7 +178,7 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 12",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 13",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -226,7 +226,7 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 15",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -242,7 +242,7 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 16",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -258,54 +258,6 @@
 "titel": "BSV Masszahlen 25/26 – Abschnitt 17",
 "pfad": [],
 "seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0016",
-"nachher": "bund-bsv-masszahlen-2025-2026__c0018"
-},
-{
-"id": "bund-bsv-masszahlen-2025-2026__c0018",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 18",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0017",
-"nachher": "bund-bsv-masszahlen-2025-2026__c0019"
-},
-{
-"id": "bund-bsv-masszahlen-2025-2026__c0019",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 19",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0018",
-"nachher": "bund-bsv-masszahlen-2025-2026__c0020"
-},
-{
-"id": "bund-bsv-masszahlen-2025-2026__c0020",
-"titel": "BSV Masszahlen 25/26 – Abschnitt 20",
-"pfad": [],
-"seiten": [
 5
 ],
 "artikel": null,
@@ -314,7 +266,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-bsv-masszahlen-2025-2026__c0019",
+"vorher": "bund-bsv-masszahlen-2025-2026__c0016",
 "nachher": null
 }
 ]

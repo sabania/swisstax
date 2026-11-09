@@ -10,16 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
 
-<!-- Seite 10 -->
-Übernimmt eine kollektive Kapitalanlage Vermögenswerte von einer Kapitalgesellschaft oder
-Genossenschaft, deren Beteiligungsrechte sie selber hält, gelten die übertragenen übrigen
-und stillen Reserven nach dem Grundsatz der Transparenz als an die Inhaber der Anteile an
-der kollektiven Kapitalanlage ausgeschüttet.
+5.6   Einanlegerfonds
+Einanlegerfonds sind für direktsteuerliche Zwecke zulässig, wenn der Anleger ausschliess-
+lich eine öffentlich-rechtliche Körperschaft, eine Vorsorgeeinrichtung mit professioneller Tre-
+sorerie oder eine beaufsichtigte Versicherungseinrichtung ist (Art. 7 Abs. 3 KAG i.V.m. Art.
+10 Abs. 3 KAG und Art. 5 Abs. 4 KKV).
 
-5.4   Beteiligungsabzug und Teilbesteuerung
-Kapitalgesellschaften oder Genossenschaften, die Anteile an einem vertraglichen Anlage-
-fonds, an einer SICAV oder an einer KmGK halten, können die Ermässigung nach Artikel
-69 ff. DBG nicht beanspruchen.
+In allen anderen Fällen sind für die steuerliche Anerkennung einer kollektiven Kapitalanlage
+mindestens zwei voneinander unabhängige Anlegerinnen und Anleger erforderlich (vgl. Ziff.
+2 hiervor).
 
-Natürliche Personen können für ihr Einkommen aus einer kollektiven Kapitalanlage die Be-
-steuerung nach Artikel 18b und 20 Absatz 1bis DBG nicht geltend machen.
+6   Inkrafttreten
+Das vorliegende Kreisschreiben tritt mit seiner Publikation in Kraft und ersetzt das Kreis-
+schreiben Nr. 25 vom 5. März 2009.

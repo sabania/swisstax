@@ -4,11 +4,11 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Formulare"
+titel: "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Formulare
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:
 
-- [Liquidationsgewinn Erläuterungen(60 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Liquidationsgewinn%20Erl%C3%A4uterungen.pdf "Download: Es öffnet sich ein neues Fenster: Liquidationsgewinn Erläuterungen")
-- [Mieterspiegel (7M)(41 kB, XLSX)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Formular%207M%20V3.xlsx "Download: Es öffnet sich ein neues Fenster: Mieterspiegel (7M)")
-- [Vertretungsvollmacht(80 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Vertretungsvollmacht_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Vertretungsvollmacht")
+- [Steuerfuss 2020(49 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202020.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2020")
+- [Steuerfuss 2019(50 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202019.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2019")
+- [Steuerfuss 2018(94 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202018.pdf "Download: Es öffnet sich ein neues Fenster: Steuerfuss 2018")

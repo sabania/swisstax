@@ -10,15 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
 
-Mit Entscheid vom 2. Dezember 1999 bestätigte das Bundesgericht, dass die bisherige Pra-
-xis zu Artikel 21 Absatz 1 Buchstabe a BdBSt grundsätzlich auch unter der Herrschaft des
-DBG gilt (ASA 69, 788). Danach erzielt die steuerpflichtige Person steuerbares Einkommen
-aus selbständiger Erwerbstätigkeit, wenn sie An- und Verkäufe von Vermögensgegenstän-
-den in einer Art tätigt, die über die schlichte Verwaltung von Privatvermögen hinausgeht.
-Erforderlich hierzu ist, dass sie eine Tätigkeit entfaltet, die in ihrer Gesamtheit auf Erwerb
-gerichtet ist, bzw. dass sie solche Geschäfte systematisch mit der Absicht der Gewinnerzie-
-lung betreibt. Für eine solche selbständige Erwerbstätigkeit wird nicht vorausgesetzt, dass
-die steuerpflichtige Person nach aussen sichtbar am wirtschaftlichen Verkehr teilnimmt oder
-die Tätigkeit in einem eigentlichen, organisierten Betrieb ausübt (ASA 73, 299).
+Nach ständiger Rechtsprechung des Bundesgerichts ist immer auf Grund der Gesamtheit
+der Umstände des Einzelfalls zu beurteilen, ob private Vermögensverwaltung oder
+selbständige Erwerbstätigkeit vorliegt (ASA 71, 627; 69, 652 und 788, mit Hinweisen). Eine
+schematisierte Vorgehensweise führt „nur in denjenigen Fällen zu einem sachgerechten
+Ergebnis, bei denen die Verhältnisse klar und eindeutig sind. In den übrigen Fällen ist die
+Tätigkeit jeweils nach wie vor in ihrem gesamten Erscheinungsbild rechtlich zu beurteilen.“
+(2C_868/2008).
 
-4.2   Wertschriften
+Für die Beurteilung einer selbständigen Erwerbstätigkeit sind verschiedene Indizien in
+Betracht zu ziehen, von denen jedes zusammen mit anderen, im Einzelfall jedoch unter

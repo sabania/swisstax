@@ -5,13 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: info
 titel: "BSV Masszahlen 25/26 – Abschnitt 13"
-seiten: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 2
+> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 3
 
-  9. Maximalbeträge gemäss der Verordnung über die steuerliche Abzugsberechtigung für   7 Abs. 1 BVV3
-    Beiträge an anerkannte Vorsorgeformen: Gebundene Vorsorgeversicherungen bei
-    Versicherungseinrichtungen und gebundene Vorsorgevereinbarungen mit Bankstiftungen.
-
-© 2026 by BSV/MAS/Math/Marie-Claude Sommer/Bern-CH   2
+    2011-2012   20'880   24'360   83'520   3'480   59'160
+    2013-2014   21'060   24'570   84'240   3'510   59'670
+    2015-2018   21'150   24'675   84'600   3'525   59'925
+    2019-2020   21'330   24'885   85'320   3'555   60'435
+    2021-2022   21'510   25'095   86'040   3'585   60'945
+    2023-2024   22’050   25’725   88’200   3’675   62’475
+    2025-2026   22’680   26’460   90’720   3’780   64’260

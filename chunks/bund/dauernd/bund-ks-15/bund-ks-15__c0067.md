@@ -4,24 +4,22 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 67"
-seiten: "16"
+titel: "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 1/2)"
+ziffer: "Anh. III 2"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 2 Bond-Zertifikate · S. 20–21
 
-In Beispiel 2 beträgt dagegen der Jahreszins von Fr. 30.- 3% des Anlagewertes von
-Fr. 1'000.-; das ist weniger als die Hälfte der gesamten Rendite von 7,5%. Diese Obligation
-ist damit überwiegend einmalverzinslich und fällt daher unter Art. 20 Abs. 1 Bst. b DBG.
-
-Nr. 3
-
-Eine Obligation mit überwiegender Einmalverzinsung wird zu $ 826.40 emittiert und sieben
-Jahre später zu $ 1'000.- zurückbezahlt. Die Obligation wirft überdies einen jährlichen, ge-
-mäss Artikel 20 Absatz 1 Buchstabe a DBG steuerbaren Zins von $ 20.- ab (2% des Nenn-
-wertes oder 2.42% des Anlagewertes). Die jährliche Originalrendite beträgt somit 5%.
-
-Ende des dritten und des fünften Jahres erfolgen Handänderungen; Ende des siebten Jah-
-res wird die Obligation zurückbezahlt.
-
-Annahmen:
+2   Index- und Basketzertifikate auf Obligationen oder Geldmarktpa-
+    piere (Bond-Zertifikate)
+Mit Bond-Zertifikaten engagieren sich Investoren in Obligationenmärkten. Die Referenztitel
+bleiben während der Laufzeit der Zertifikate in der Regel unverändert. Der Ausgabepreis der
+Zertifikate entspricht dem Gegenwert der im Index oder Basket enthaltenen Bonds. Bei Ver-
+fall dieser Zertifikate hat der Anleger, nach Abzug der Transaktionskosten, Anspruch auf
+Rückzahlung
+    a) des aktuellen Verkaufspreises der den Zertifikaten als Basiswert zugrunde gelegten
+    Obligationen oder Geldmarktpapiere (inkl. allfällige in den Basiswert reinvestierte
+    Zinsen resp. die in diesem Zeitpunkt aufgelaufenen Zinsen), sowie
+    b) der während der Laufzeit der Zertifikate auf diesen Obligationen oder Geldmarktpa-
+    pieren ausbezahlten Zinsen.

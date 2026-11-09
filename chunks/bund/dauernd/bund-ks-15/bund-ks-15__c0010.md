@@ -4,20 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 10"
-seiten: "2"
+titel: "Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures) (Teil 1/2)"
+ziffer: "2.2.1–2.2.2"
+seiten: "4-5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.2 Derivative Finanzinstrumente · S. 4–5
 
-Im Unterschied zu heute stand zum Zeitpunkt der Publikation des KS 4 weder der Bond-
-FloorPricing-Service der SIX Financial Information AG (hienach BFP-Service) als Hilfsmittel
-zur Verfügung, noch war der Swap-Satz als Behelf zur verobjektivierten Bestimmung der
-marktkonformen Verzinsung des Anlageteils von kombinierten Produkten bei den Marktteil-
-nehmern bereits allgemein anerkannt. Diese Hilfsmittel ermöglichen es heute grundsätzlich,
-alle gängigen, nicht trennbaren kombinierten Produkte auch ohne entsprechende Angaben
-der Emittenten nachträglich transparent zu machen. Von dieser Möglichkeit haben die Steu-
-erpflichtigen in der Schweiz, wie auch die Emittenten und Vertriebskanäle, in den vergange-
-nen Jahren regen Gebrauch gemacht und somit von der unter den gegebenen Umständen
-für sie vorteilhaften steuerlichen Trennung von Anlage- und Options-/Wandelgeschäft profi-
-tiert.
+2.2   Derivative Finanzinstrumente (vgl. Übersicht in Anhang I)
+2.2.1   Allgemeines
+Derivative Finanzinstrumente sind dadurch charakterisiert, dass ihr Wert abhängig ist von
+demjenigen eines anderen Produktes (Basiswert). Als Basiswerte kommen Aktien, Obligatio-
+nen, Edelmetalle, Währungen, Zinssätze, Aktienindizes etc. in Betracht. Derivative Finanzin-
+strumente dienen der Absicherung und Übertragung von Risiken, der Spekulation sowie der
+Herstellung eines Fristen- oder Währungsausgleiches für Forderungen und Verpflichtungen.
+Zu den herkömmlichen Derivaten zählen insbesondere Termingeschäfte (Futures) und Optio-
+nen.
+
+2.2.2   Termingeschäfte (Futures)
+Ein Termingeschäft ist ein Vertrag zwischen zwei Parteien. Er beinhaltet die wechselseitige
+Verpflichtung, eine festgelegte Menge eines bestimmten Gutes (Basiswert) zu einem verein-
+barten Preis (Terminpreis) in einem festgelegten Zeitpunkt in der Zukunft zu übernehmen
+(Terminkäufer) oder zu liefern (Terminverkäufer).

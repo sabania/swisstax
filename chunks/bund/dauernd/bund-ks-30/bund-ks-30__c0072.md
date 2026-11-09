@@ -4,23 +4,15 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 72"
-seiten: "16"
+titel: "Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 3/3)"
+ziffer: "11"
+seiten: "21-22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21–22
 
-Drittbetreuungskosten, die ausserhalb der effektiven Arbeits- oder Ausbildungszeit der Eltern
-angefallen sind wie etwa durch Babysitting am Abend oder für Freizeitaktivitäten, können
-nicht in Abzug gebracht werden. Solche Kosten, die den Eltern infolge Freizeitgestaltung
-entstehen, sind als nichtabzugsfähige Lebenshaltungskosten zu qualifizieren.
-
-8.6   Nachweispflicht
-
-Der Nachweis, dass der Abzug der Drittbetreuungskosten berechtigt ist, obliegt der steuer-
-pflichtigen Person. Sie hat der Steuererklärung grundsätzlich eine Aufstellung über die Kos-
-ten sowie über die betreuenden Personen oder Institutionen beizulegen. Von den geltend
-gemachten Kosten sind nur diejenigen zum Abzug zuzulassen, die nachgewiesen werden
-können. Als Mittel für den Nachweis eignen sich etwa Quittungen, Rechnungen oder Lohn-
-ausweise. Aber auch andere taugliche Belege sollten von den veranlagenden Behörden ak-
-zeptiert werden.
+Wie bei allen Sozialabzügen sind für die Gewährung des Unterstützungsabzugs die Verhält-
+nisse am Ende der Steuerperiode oder der Steuerpflicht massgebend (Stichtagsprinzip; Art.
+35 Abs. 2 DBG). Bei teilweiser Steuerpflicht erfolgt eine anteilsmässige Gewährung des Un-
+terstützungsabzugs (Art. 35 Abs. 3 DBG). Die Höhe bemisst sich nach dem Verhältnis des in
+der Schweiz steuerbaren Reineinkommens3 zum gesamten Reineinkommen.

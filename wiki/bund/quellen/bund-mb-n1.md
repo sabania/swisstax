@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/GZQy304UTaia/dbst-mb-n1-2007-de.pdf> · lokal: [bund-mb-n1.pdf](../../../raw/bund/dauernd/bund-mb-n1.pdf) · Volltext: [bund-mb-n1.md](../../../sources/bund/dauernd/bund-mb-n1.md)
 - **Abgerufen:** 2026-11-09 · sha256 `8089d88d76e2b251…`
 
-## Inhalt (11 Chunks)
+## Inhalt (10 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -24,6 +24,5 @@ generiert: tools/build_index.py
 | [c0006](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0006.md) | MB N1/2007 – Abschnitt 6 | S. 1 |  |
 | [c0007](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0007.md) | MB N1/2007 – Abschnitt 7 | S. 1 |  |
 | [c0008](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0008.md) | MB N1/2007 – Abschnitt 8 | S. 1 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0009.md) | MB N1/2007 – Abschnitt 9 | S. 1 |  |
+| [c0009](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0009.md) | MB N1/2007 – Abschnitt 9 | S. 2 |  |
 | [c0010](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0010.md) | MB N1/2007 – Abschnitt 10 | S. 2 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-mb-n1/bund-mb-n1__c0011.md) | MB N1/2007 – Abschnitt 11 | S. 2 |  |

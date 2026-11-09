@@ -4,24 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 142"
-seiten: "34"
+titel: "Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten"
+ziffer: "15.4"
+seiten: "41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.4 Mitteilungen / 15.5 Vertretung · S. 41
 
-<!-- Seite 34 -->
-14.5.2   Abzüge
-   Der Elternteil, der die Unterhaltsleistungen erhält, kann den Kinderabzug sowie den Ver-
-    sicherungs- und Sparzinsenabzug für das Kind geltend machen.
-   Den Kinderdrittbetreuungskostenabzug kann ebenfalls derjenige Elternteil geltend ma-
-    chen, der mit dem Kind zusammenlebt und die Unterhaltszahlungen erhält. Befindet sich
-    das Kind in alternierender Obhut, kann jeder Elternteil max. 5'050 Franken der nachge-
-    wiesenen Kosten für die Kinderdrittbetreuung in Abzug bringen. Eine andere Aufteilung
-    ist von den Eltern nachzuweisen. Betragen die geltend gemachten Kosten beider Eltern-
-    teile aber zusammen mehr als den Maximalbetrag von 10’100 Franken, werden die Ab-
-    züge im Verhältnis der nachgewiesenen Kosten auf diesen Maximalbetrag gekürzt.
+15.4   Mitteilungen
 
-14.5.3   Tarife
-   Der Elternteil, der die Unterhaltszahlungen erhält, wird zum Elterntarif besteuert.
-   Der Elternteil, der die Unterhaltszahlungen leistet, erhält den Grundtarif besteuert.
+Sämtliche Mitteilungen der Behörden an verheiratete Steuerpflichtige, die in rechtlich und
+tatsächlich ungetrennter Ehe leben, sind gemäss Artikel 113 Absatz 4 DBG an diese ge-
+meinsam zu richten, es sei denn, die Ehegatten hätten einen gemeinsamen Vertreter bestellt
+(Art. 117 Abs. 3 DBG).
+
+Leben die Ehegatten hingegen in gerichtlich oder tatsächlich getrennter Ehe, bestimmt das
+Gesetz, dass die Zustellung an jeden Ehegatten gesondert zu erfolgen hat (Art. 117 Abs. 4
+DBG).
+
+
+15.5   Vertretung
+
+Der verfahrensrechtlichen Gleichstellung der Ehegatten steht nicht entgegen, dass sie sich
+im Verkehr mit den Steuerbehörden vertreten lassen können. Die vertragliche Vertretung
+wird in Artikel 117 DBG geregelt.

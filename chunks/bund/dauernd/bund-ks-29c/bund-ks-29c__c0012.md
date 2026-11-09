@@ -10,15 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 3
 
-<!-- Seite 3 -->
-7.1.5.   Fusionsähnlicher Zusammenschluss („Quasifusion“) ..................................21
-7.2.   Umwandlung .....................................................................................................22
-7.2.1.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine
-    andere Kapitalgesellschaft oder Genossenschaft ........................................22
-7.2.2.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen
-    Verein, in eine Stiftung oder eine übrige juristische Person .......................22
-7.2.3.   Umwandlung eines Vereins, einer Stiftung oder einer übrigen
-    juristischen Person in eine Kapitalgesellschaft oder Genossenschaft ......22
-7.2.4.   Umwandlung eines Instituts des öffentlichen Rechts in eine
-    Kapitalgesellschaft oder in eine Genossenschaft .........................................22
-7.2.5.   Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine
+10.   Inkrafttreten .......................................................................................................27
+Anhang 1: Beispiele zur Transponierung ....................................................................28
+Anhang 2: Alternativer Ausweis eigener Beteiligungsrechte.................................30
+Anhang 3: Fallbeispiele einer in der Schweiz kotierten
+    Kapitalgesellschaft ..........................................................................................32
+Anhang 4: Beispiel Rückzahlung und Wiedereinzahlung von KER
+    innerhalb des gleichen Kapitalbands .........................................................34
+Anhang 5: Beispiel Änderung Aktienkapital in eine für die
+    Geschäftstätigkeit wesentliche ausländische Währung .......................37

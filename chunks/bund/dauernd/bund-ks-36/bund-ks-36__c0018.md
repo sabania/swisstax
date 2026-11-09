@@ -5,17 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 18"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 5
 
-4.3.1 Allgemeine Kriterien
+Mit Entscheid vom 23. Oktober 2009 (2C.868/2008) hält das Bundesgericht an diesen
+Grundsätzen fest. Zusätzlich präzisiert es in diesem Entscheid die Praxis dahingehend, dass
+die Indizien des systematischen und planmässigen Vorgehens sowie des Einsatzes
+spezieller Fachkenntnisse nur noch untergeordnete Bedeutung hätten. Das
+Transaktionsvolumen und die Fremdfinanzierung treten hingegen in den Vordergrund. Diese
+Präzisierung ist auf die Bewirtschaftung von Portfolioanlagen zugeschnitten (2C_766/2010
+und 2C_385/2011).
 
-Nach der Rechtsprechung werden Kapitalgewinne auf beweglichen Vermögenswerten,
-namentlich Wertschriften, als Einkommen aus selbständiger Erwerbstätigkeit qualifiziert,
-sofern die steuerpflichtige Person An- und Verkäufe von Vermögensgegenständen in einer
-Art tätigt, die über die schlichte Verwaltung von Privatvermögen hinausgeht (ASA 71, 627;
-66, 224). Hingegen bleiben Kapitalgewinne aus der Veräusserung von beweglichen
-Vermögenswerten so lange steuerfrei, als sie im Rahmen der privaten Vermögensverwaltung
-oder in Ausnützung einer sich zufällig bietenden Gelegenheit erzielt werden.
+Sind bei der Bewirtschaftung eines Wertschriftenportefeuilles die Kriterien nach Ziffer 3
+hievor nicht erfüllt, so ist gemäss Bundesgericht die Prüfung einer selbständigen
+Erwerbstätigkeit anhand der folgenden Gewichtung vorzunehmen:
+
+Im Vordergrund stehende Kriterien:
+
+-   Höhe des Transaktionsvolumens (Häufigkeit der Geschäfte und kurze Besitzdauer)

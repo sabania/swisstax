@@ -10,6 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 12
 
+Bei anwartschaftlichen Rechten auf Mitarbeiterbeteiligungen wie beispielsweise auf noch
+nicht steuerbaren Optionen, Phantom-Aktien, Stock Appreciation Rights, ist keine Deklara
+tion in Ziffer 5, jedoch ein Hinweis in Ziffer 15 (vgl. Rz 69) des Lohnausweises vorzunehmen.
+
 In allen Fällen von Mitarbeiterbeteiligungen sind neben weiteren Bescheinigungspflichten
 sämtliche Detailangaben auf einem Beiblatt zum Lohnausweis auszuweisen. Das Beiblatt
 muss die persönlichen Daten des Arbeitnehmers enthalten (Name, Vorname, Geburtsdatum

@@ -10,11 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
 
-Verzichtet eine ausschüttende kollektive Kapitalanlage aufgrund einer in den Basisdokumen-
-ten vorgesehenen Geringfügigkeitsvorschrift (vgl. KS Nr. 24 Ziff. 2.1.2) auf die Ausschüttung,
-wird sie deswegen nicht zu einer thesaurierenden kollektiven Kapitalanlage. Der Ertrag ist in
-solchen Fällen dem Gewinnvortrag gutzuschreiben und darf während des nächsten Ge-
-schäftsjahres nicht verändert werden. Der Gewinnvortrag unterliegt im künftigen Ausschüt-
-tungszeitpunkt der Besteuerung auf der Stufe der Anlegerinnen und Anleger. Einkommens-
-steuerlich ist zu unterscheiden, ob die Anteile an der kollektiven Kapitalanlage im Privat- o-
-der im Geschäftsvermögen des Anlegers gehalten werden.
+4.2   Bei Anlagen im Privatvermögen
+Die Anlegerinnen und Anleger haben nach Artikel 20 Absatz 1 Buchstabe e DBG sämtliche
+Erträge aus Anteilen an kollektiven Kapitalanlagen zu versteuern, soweit sie nicht Erträge
+aus deren direktem Grundbesitz vereinnahmen. Unter sämtlichen Erträgen sind die ausge-
+schütteten oder thesaurierten (wiederangelegten) Erträge zu verstehen, soweit sie steuerlich
+Vermögenserträgen wie Zinsen, Dividenden u. dgl. entsprechen sowie laufende Erträge und
+Gewinnvorträge, die im Rahmen einer Zusammenlegung oder Vereinigung von kollektiven
+Kapitalanlagen untergehen und folglich einer späteren Besteuerung entzogen werden. Aus-
+schüttungen sind im Zeitpunkt der Fälligkeit steuerbar. Thesaurierte Erträge werden im Zeit-
+punkt der Gutschrift besteuert, d.h. bei Übertrag auf das Konto der zur Wiederanlage zurück-
+behaltenen Erträge. Enthalten ausgeschüttete oder thesaurierte Erträge Kapitalgewinne, sind
+diese nach Artikel 16 Absatz 3 DBG steuerfrei, sofern sie in der Jahresrechnung separat
+ausgewiesen oder über einen separaten Coupon ausgeschüttet werden. Die steuerlich mas-
+sgebenden Erträge werden in der Kursliste HB der ESTV publiziert.

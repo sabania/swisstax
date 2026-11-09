@@ -4,19 +4,20 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 14"
-seiten: "3"
+titel: "Ziff. 3 Zurechnung bei getrennten Eltern – Obhut und alternierende Obhut"
+ziffer: "3"
+seiten: "7-8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 30 · 3 Besteuerung der minderjährigen Kinder · S. 7–8
 
-<!-- Seite 3 -->
-14.4.2   Tarife ..................................................................................................................... 33
-14.5   Besteuerung der getrennten, geschiedenen oder unverheirateten Eltern (zwei
-    Haushalte) mit gemeinsamem minderjährigem Kind, mit gemeinsamer elterlicher
-    Sorge, mit oder ohne alternierende Obhut, mit Unterhaltszahlungen ................... 33
-14.5.1   Unterhaltszahlungen.............................................................................................. 33
-14.5.2   Abzüge .................................................................................................................. 34
-14.5.3   Tarife ..................................................................................................................... 34
-14.6   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem minderjährigem
-    Kind, ohne gemeinsame elterliche Sorge, keine Unterhaltszahlungen ................. 34
+Werden die Eltern eines Kindes nicht gemeinsam veranlagt und übt nur ein Elternteil die el-
+terliche Sorge aus, werden Einkommen und Vermögen des Kindes diesem Elternteil zuge-
+rechnet. Haben die getrennt lebenden Ehegatten die elterliche Sorge gemeinsam inne, ist
+auf die Obhut, d.h. die tatsächliche häusliche Gemeinschaft, abzustellen. Demjenigen Eltern-
+teil, der die Obhut innehält und Unterhaltsbeiträge für das Kind erhält, wird das Einkommen
+
+des Kindes zugeteilt. Werden keine Unterhaltsbeiträge für das Kind geltend gemacht, ist
+grundsätzlich davon auszugehen, dass sich das Kind in alternierender Obhut befindet, und
+beide Elternteile gleich viel an den Unterhalt des Kindes beisteuern. In diesem Fall wird das
+Einkommen des Kindes hälftig aufgeteilt und je den Eltern zugerechnet.

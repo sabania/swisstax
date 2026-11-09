@@ -5,20 +5,26 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 31"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 8
 
-5.   Beurteilungszeitpunkt
+<!-- Seite 8 -->
+Die Abgrenzung zwischen privaten und geschäftlichen Schuldzinsen erfolgt auf Grund der
+von der steuerpflichtigen Person nachgewiesenen Verwendung der fremden Mittel. Fehlt der
+Nachweis der Mittelverwendung, erfolgt die Abgrenzung nach dem Verhältnis der Aktiven
+(proportionale Aufteilung, vgl. Kreisschreiben Nr. 22 der ESTV vom 16. Dezember 2008).
 
-5.1   Grundsatz
 
-Die steuerpflichtige Person übt eine über die private Verwaltung hinausgehende selbstän-
-dige Erwerbstätigkeit mit Wertschriften in derjenigen Steuerperiode aus, in welcher die von
-der Rechtsprechung aufgeführten Indizien erfüllt sind. Somit liegt Geschäftsvermögen vor.
+5.3   Geerbte Wertschriften
 
-Ordentlicher Anknüpfungspunkt für die Beurteilung der Frage, ob die steuerpflichtige Person
-eine auf Erwerb gerichtete Tätigkeit ausübt, ist das Vorliegen einer oder mehrerer Veräusse-
-rungen. Erst in diesem Zeitpunkt sind alle Umstände bekannt, die für die Beurteilung
-massgeblich sind.
+Bei geerbten Wertschriften besteht die beim Erblasser geltende steuerliche Qualifikation
+(Privatvermögen oder Geschäftsvermögen) bei den Erben weiter (vgl. Kreisschreiben Nr. 22
+der ESTV vom 16. Dezember 2008).
+
+
+6.   Inkrafttreten
+
+Dieses Kreisschreiben gilt ab dem Datum seiner Publikation auf der Website der ESTV. Es
+ersetzt das Kreisschreiben Nr. 8 vom 21. Juni 2005.

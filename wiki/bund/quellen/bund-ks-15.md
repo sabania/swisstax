@@ -12,153 +12,135 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/2H5NhZhB6Evl/dbst-ks-2007-1-015-dvs-de.pdf> · lokal: [bund-ks-15.pdf](../../../raw/bund/dauernd/bund-ks-15.pdf) · Volltext: [bund-ks-15.md](../../../sources/bund/dauernd/bund-ks-15.md)
 - **Abgerufen:** 2026-11-09 · sha256 `3f92875c2159c689…`
 
-## Inhalt (146 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Anhang I (S. 15): Organigramm als Textfragmente extrahiert, Struktur unlesbar.
+- Anhang II (S. 16-18): Rechenbeispiele mit teils zerrissenen Formeln.
+- Dollarzeichen in Zusammenfassungen ggf. maskiert.
+
+## Inhalt (122 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0001.md) | KS 15 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0002.md) | KS 15 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0003.md) | KS 15 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0004.md) | KS 15 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0005.md) | KS 15 – Abschnitt 5 | S. 1 |  |
-| [c0006](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0006.md) | KS 15 – Abschnitt 6 | S. 1 |  |
-| [c0007](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0007.md) | KS 15 – Abschnitt 7 | S. 1 |  |
-| [c0008](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0008.md) | KS 15 – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0009.md) | KS 15 – Abschnitt 9 | S. 2 |  |
-| [c0010](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0010.md) | KS 15 – Abschnitt 10 | S. 2 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0011.md) | KS 15 – Abschnitt 11 | S. 2 |  |
-| [c0012](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0012.md) | KS 15 – Abschnitt 12 | S. 3 |  |
-| [c0013](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0013.md) | KS 15 – Abschnitt 13 | S. 3 |  |
-| [c0014](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0014.md) | KS 15 – Abschnitt 14 | S. 3 |  |
-| [c0015](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0015.md) | KS 15 – Abschnitt 15 | S. 3 |  |
-| [c0016](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0016.md) | KS 15 – Abschnitt 16 | S. 3 |  |
-| [c0017](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0017.md) | KS 15 – Abschnitt 17 | S. 4 |  |
-| [c0018](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0018.md) | KS 15 – Abschnitt 18 | S. 4 |  |
-| [c0019](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0019.md) | KS 15 – Abschnitt 19 | S. 4 |  |
-| [c0020](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0020.md) | KS 15 – Abschnitt 20 | S. 4 |  |
-| [c0021](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0021.md) | KS 15 – Abschnitt 21 | S. 5 |  |
-| [c0022](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0022.md) | KS 15 – Abschnitt 22 | S. 5 |  |
-| [c0023](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0023.md) | KS 15 – Abschnitt 23 | S. 5 |  |
-| [c0024](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0024.md) | KS 15 – Abschnitt 24 | S. 5 |  |
-| [c0025](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0025.md) | KS 15 – Abschnitt 25 | S. 5 |  |
-| [c0026](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0026.md) | KS 15 – Abschnitt 26 | S. 6 |  |
-| [c0027](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0027.md) | KS 15 – Abschnitt 27 | S. 6 |  |
-| [c0028](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0028.md) | KS 15 – Abschnitt 28 | S. 6 |  |
-| [c0029](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0029.md) | KS 15 – Abschnitt 29 | S. 6 |  |
-| [c0030](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0030.md) | KS 15 – Abschnitt 30 | S. 6 |  |
-| [c0031](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0031.md) | KS 15 – Abschnitt 31 | S. 7 |  |
-| [c0032](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0032.md) | KS 15 – Abschnitt 32 | S. 7 |  |
-| [c0033](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0033.md) | KS 15 – Abschnitt 33 | S. 7 |  |
-| [c0034](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0034.md) | KS 15 – Abschnitt 34 | S. 7 |  |
-| [c0035](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0035.md) | KS 15 – Abschnitt 35 | S. 8 |  |
-| [c0036](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0036.md) | KS 15 – Abschnitt 36 | S. 8 |  |
-| [c0037](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0037.md) | KS 15 – Abschnitt 37 | S. 8 |  |
-| [c0038](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0038.md) | KS 15 – Abschnitt 38 | S. 8 |  |
-| [c0039](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0039.md) | KS 15 – Abschnitt 39 | S. 8 |  |
-| [c0040](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0040.md) | KS 15 – Abschnitt 40 | S. 9 |  |
-| [c0041](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0041.md) | KS 15 – Abschnitt 41 | S. 9 |  |
-| [c0042](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0042.md) | KS 15 – Abschnitt 42 | S. 9 |  |
-| [c0043](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0043.md) | KS 15 – Abschnitt 43 | S. 9 |  |
-| [c0044](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0044.md) | KS 15 – Abschnitt 44 | S. 9 |  |
-| [c0045](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0045.md) | KS 15 – Abschnitt 45 | S. 10 |  |
-| [c0046](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0046.md) | KS 15 – Abschnitt 46 | S. 10 |  |
-| [c0047](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0047.md) | KS 15 – Abschnitt 47 | S. 10 |  |
-| [c0048](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0048.md) | KS 15 – Abschnitt 48 | S. 10 |  |
-| [c0049](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0049.md) | KS 15 – Abschnitt 49 | S. 10 |  |
-| [c0050](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0050.md) | KS 15 – Abschnitt 50 | S. 11 |  |
-| [c0051](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0051.md) | KS 15 – Abschnitt 51 | S. 11 |  |
-| [c0052](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0052.md) | KS 15 – Abschnitt 52 | S. 11 |  |
-| [c0053](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0053.md) | KS 15 – Abschnitt 53 | S. 11 |  |
-| [c0054](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0054.md) | KS 15 – Abschnitt 54 | S. 12 |  |
-| [c0055](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0055.md) | KS 15 – Abschnitt 55 | S. 12 |  |
-| [c0056](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0056.md) | KS 15 – Abschnitt 56 | S. 12 |  |
-| [c0057](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0057.md) | KS 15 – Abschnitt 57 | S. 12 |  |
-| [c0058](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0058.md) | KS 15 – Abschnitt 58 | S. 12 |  |
-| [c0059](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0059.md) | KS 15 – Abschnitt 59 | S. 13 |  |
-| [c0060](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0060.md) | KS 15 – Abschnitt 60 | S. 13 |  |
-| [c0061](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0061.md) | KS 15 – Abschnitt 61 | S. 13 |  |
-| [c0062](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0062.md) | KS 15 – Abschnitt 62 | S. 13 |  |
-| [c0063](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0063.md) | KS 15 – Abschnitt 63 | S. 13 |  |
-| [c0064](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0064.md) | KS 15 – Abschnitt 64 | S. 14–15 |  |
-| [c0065](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0065.md) | KS 15 – Abschnitt 65 | S. 14–15 |  |
-| [c0066](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0066.md) | KS 15 – Abschnitt 66 | S. 16 |  |
-| [c0067](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0067.md) | KS 15 – Abschnitt 67 | S. 16 |  |
-| [c0068](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0068.md) | KS 15 – Abschnitt 68 | S. 16 |  |
-| [c0069](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0069.md) | KS 15 – Abschnitt 69 | S. 17 |  |
-| [c0070](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0070.md) | KS 15 – Abschnitt 70 | S. 17 |  |
-| [c0071](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0071.md) | KS 15 – Abschnitt 71 | S. 17 |  |
-| [c0072](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0072.md) | KS 15 – Abschnitt 72 | S. 17 |  |
-| [c0073](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0073.md) | KS 15 – Abschnitt 73 | S. 18 |  |
-| [c0074](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0074.md) | KS 15 – Abschnitt 74 | S. 18 |  |
-| [c0075](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0075.md) | KS 15 – Abschnitt 75 | S. 18 |  |
-| [c0076](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0076.md) | KS 15 – Abschnitt 76 | S. 19 |  |
-| [c0077](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0077.md) | KS 15 – Abschnitt 77 | S. 19 |  |
-| [c0078](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0078.md) | KS 15 – Abschnitt 78 | S. 19 |  |
-| [c0079](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0079.md) | KS 15 – Abschnitt 79 | S. 19 |  |
-| [c0080](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0080.md) | KS 15 – Abschnitt 80 | S. 19 |  |
-| [c0081](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0081.md) | KS 15 – Abschnitt 81 | S. 19 |  |
-| [c0082](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0082.md) | KS 15 – Abschnitt 82 | S. 20 |  |
-| [c0083](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0083.md) | KS 15 – Abschnitt 83 | S. 20 |  |
-| [c0084](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0084.md) | KS 15 – Abschnitt 84 | S. 20 |  |
-| [c0085](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0085.md) | KS 15 – Abschnitt 85 | S. 20 |  |
-| [c0086](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0086.md) | KS 15 – Abschnitt 86 | S. 20 |  |
-| [c0087](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0087.md) | KS 15 – Abschnitt 87 | S. 21 |  |
-| [c0088](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0088.md) | KS 15 – Abschnitt 88 | S. 21 |  |
-| [c0089](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0089.md) | KS 15 – Abschnitt 89 | S. 21 |  |
-| [c0090](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0090.md) | KS 15 – Abschnitt 90 | S. 21 |  |
-| [c0091](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0091.md) | KS 15 – Abschnitt 91 | S. 21 |  |
-| [c0092](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0092.md) | KS 15 – Abschnitt 92 | S. 22 |  |
-| [c0093](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0093.md) | KS 15 – Abschnitt 93 | S. 22 |  |
-| [c0094](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0094.md) | KS 15 – Abschnitt 94 | S. 22 |  |
-| [c0095](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0095.md) | KS 15 – Abschnitt 95 | S. 22 |  |
-| [c0096](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0096.md) | KS 15 – Abschnitt 96 | S. 22 |  |
-| [c0097](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0097.md) | KS 15 – Abschnitt 97 | S. 23 |  |
-| [c0098](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0098.md) | KS 15 – Abschnitt 98 | S. 23 |  |
-| [c0099](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0099.md) | KS 15 – Abschnitt 99 | S. 23 |  |
-| [c0100](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0100.md) | KS 15 – Abschnitt 100 | S. 23 |  |
-| [c0101](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0101.md) | KS 15 – Abschnitt 101 | S. 23 |  |
-| [c0102](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0102.md) | KS 15 – Abschnitt 102 | S. 24 |  |
-| [c0103](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0103.md) | KS 15 – Abschnitt 103 | S. 24 |  |
-| [c0104](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0104.md) | KS 15 – Abschnitt 104 | S. 24 |  |
-| [c0105](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0105.md) | KS 15 – Abschnitt 105 | S. 24 |  |
-| [c0106](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0106.md) | KS 15 – Abschnitt 106 | S. 25 |  |
-| [c0107](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0107.md) | KS 15 – Abschnitt 107 | S. 25 |  |
-| [c0108](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0108.md) | KS 15 – Abschnitt 108 | S. 25 |  |
-| [c0109](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0109.md) | KS 15 – Abschnitt 109 | S. 25 |  |
-| [c0110](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0110.md) | KS 15 – Abschnitt 110 | S. 25 |  |
-| [c0111](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0111.md) | KS 15 – Abschnitt 111 | S. 26 |  |
-| [c0112](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0112.md) | KS 15 – Abschnitt 112 | S. 26 |  |
-| [c0113](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0113.md) | KS 15 – Abschnitt 113 | S. 26 |  |
-| [c0114](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0114.md) | KS 15 – Abschnitt 114 | S. 26 |  |
-| [c0115](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0115.md) | KS 15 – Abschnitt 115 | S. 26 |  |
-| [c0116](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0116.md) | KS 15 – Abschnitt 116 | S. 27 |  |
-| [c0117](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0117.md) | KS 15 – Abschnitt 117 | S. 27 |  |
-| [c0118](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0118.md) | KS 15 – Abschnitt 118 | S. 27 |  |
-| [c0119](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0119.md) | KS 15 – Abschnitt 119 | S. 27 |  |
-| [c0120](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0120.md) | KS 15 – Abschnitt 120 | S. 27 |  |
-| [c0121](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0121.md) | KS 15 – Abschnitt 121 | S. 28 |  |
-| [c0122](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0122.md) | KS 15 – Abschnitt 122 | S. 28 |  |
-| [c0123](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0123.md) | KS 15 – Abschnitt 123 | S. 28 |  |
-| [c0124](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0124.md) | KS 15 – Abschnitt 124 | S. 28 |  |
-| [c0125](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0125.md) | KS 15 – Abschnitt 125 | S. 29–30 |  |
-| [c0126](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0126.md) | KS 15 – Abschnitt 126 | S. 31 |  |
-| [c0127](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0127.md) | KS 15 – Abschnitt 127 | S. 32 |  |
-| [c0128](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0128.md) | KS 15 – Abschnitt 128 | S. 32 |  |
-| [c0129](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0129.md) | KS 15 – Abschnitt 129 | S. 32 |  |
-| [c0130](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0130.md) | KS 15 – Abschnitt 130 | S. 32 |  |
-| [c0131](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0131.md) | KS 15 – Abschnitt 131 | S. 32 |  |
-| [c0132](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0132.md) | KS 15 – Abschnitt 132 | S. 33 |  |
-| [c0133](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0133.md) | KS 15 – Abschnitt 133 | S. 33 |  |
-| [c0134](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0134.md) | KS 15 – Abschnitt 134 | S. 33 |  |
-| [c0135](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0135.md) | KS 15 – Abschnitt 135 | S. 33 |  |
-| [c0136](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0136.md) | KS 15 – Abschnitt 136 | S. 33 |  |
-| [c0137](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0137.md) | KS 15 – Abschnitt 137 | S. 34 |  |
-| [c0138](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0138.md) | KS 15 – Abschnitt 138 | S. 34 |  |
-| [c0139](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0139.md) | KS 15 – Abschnitt 139 | S. 34 |  |
-| [c0140](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0140.md) | KS 15 – Abschnitt 140 | S. 34 |  |
-| [c0141](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0141.md) | KS 15 – Abschnitt 141 | S. 35 |  |
-| [c0142](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0142.md) | KS 15 – Abschnitt 142 | S. 35 |  |
-| [c0143](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0143.md) | KS 15 – Abschnitt 143 | S. 35 |  |
-| [c0144](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0144.md) | KS 15 – Abschnitt 144 | S. 35 |  |
-| [c0145](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0145.md) | KS 15 – Abschnitt 145 | S. 35 |  |
-| [c0146](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0146.md) | KS 15 – Abschnitt 146 | S. 36 |  |
+| [c0001](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0001.md) | Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 1/3) | S. 2 | Das KS 4 von 1999 regelte die Besteuerung von Obligationen und Derivaten im Privatvermögen und führte transparente/nicht transparente Produkte ein (Art. 20 Abs. 1 Bst. a/b, Art. 16 Abs. 3 DBG). |
+| [c0002](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0002.md) | Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 2/3) | S. 2 |  |
+| [c0003](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0003.md) | Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 3/3) | S. 2 |  |
+| [c0004](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0004.md) | Ziff. 1 Einleitung – KS 15 (2007) und Nachfolge 2017, Gutachten SBVg | S. 2–3 | Das KS 15 erläutert die nachträgliche Transparenz kombinierter Produkte; die Fassung 2017 trägt der Abschaffung der Emissionsabgabe auf Fremdkapital Rechnung, das Gutachten (Anhang IV) belegt die Eignung des BFP-Service. |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0005.md) | Ziff. 2.1.1 Gewöhnliche Obligationen – steuerrechtlicher Begriff (Teil 1/2) | S. 3 | Obligationen sind schriftliche, auf feste Beträge lautende Schuldanerkennungen, die in Mehrzahl zu gleichartigen Bedingungen ausgegeben werden; für die Einmalverzinsung zählen nur garantierte Geldflüsse (Barwerte). |
+| [c0006](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0006.md) | Ziff. 2.1.1 Gewöhnliche Obligationen – steuerrechtlicher Begriff (Teil 2/2) | S. 3 |  |
+| [c0007](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0007.md) | Ziff. 2.1.2–2.1.3 Diskont-/globalverzinsliche Obligationen, Geldmarktpapiere | S. 3–4 | Diskontobligationen werden unter pari emittiert, globalverzinsliche über pari zurückgezahlt; Geldmarktpapiere haben eine feste Laufzeit von nicht mehr als zwölf Monaten (Art. 4 Abs. 5 StG). |
+| [c0008](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0008.md) | Ziff. 2.1.4 Obligationen mit überwiegender Einmalverzinsung (IUP) (Teil 1/2) | S. 4 | Überwiegende Einmalverzinsung liegt vor, wenn der überwiegende Teil des Nutzungsentgelts auf Emissionsdisagio oder Rückzahlungsagio beruht; Anleihen mit Coupon 0 % oder negativer Rendite zählen nicht dazu. |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0009.md) | Ziff. 2.1.4 Obligationen mit überwiegender Einmalverzinsung (IUP) (Teil 2/2) | S. 4 |  |
+| [c0010](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0010.md) | Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures) (Teil 1/2) | S. 4–5 | Futures sind standardisierte Termingeschäfte ohne Prämie, aber mit Initial Margin von i.d.R. fünf bis zwanzig Prozent des Kontraktwerts. |
+| [c0011](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0011.md) | Ziff. 2.2.1–2.2.2 Derivative Finanzinstrumente, Termingeschäfte (Futures) (Teil 2/2) | S. 4–5 |  |
+| [c0012](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0012.md) | Ziff. 2.2.3 Optionen – Call, Put, Warrants (Teil 1/2) | S. 5 | Der Optionskäufer erwirbt gegen Prämie das Recht (nicht die Pflicht), einen Basiswert zum Ausübungspreis zu kaufen (Call) oder zu verkaufen (Put); Warrants sind verbriefte Optionen. |
+| [c0013](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0013.md) | Ziff. 2.2.3 Optionen – Call, Put, Warrants (Teil 2/2) | S. 5 |  |
+| [c0014](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0014.md) | Ziff. 2.2.3 Low Exercise Price Options (LEPO) | S. 5 | LEPO sind atypische, im Voraus finanzierte Termingeschäfte auf Namenaktien mit Laufzeit bis zwölf Monate; steuerlich siehe Anhang III Ziff. 4. |
+| [c0015](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0015.md) | Ziff. 2.3.1 Kapitalgarantierte Derivate, nicht klassische Options-/Wandelanleihen (Teil 1/2) | S. 5–6 | Kombinierte Produkte bestehen meist aus Obligation und Option bzw. Wandelrecht; sie können trennbar (drei Valorennummern) oder nicht trennbar sein. |
+| [c0016](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0016.md) | Ziff. 2.3.1 Kapitalgarantierte Derivate, nicht klassische Options-/Wandelanleihen (Teil 2/2) | S. 5–6 |  |
+| [c0017](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0017.md) | Ziff. 2.3.2 Klassische Options- und Wandelanleihen | S. 6 | Klassisch sind Options- und Wandelanleihen nur bei Bezugsrecht auf neu geschaffene Beteiligungsrechte des schweizerischen Emittenten, Emission zu pari oder mit Agio und Rückzahlung zu pari. |
+| [c0018](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0018.md) | Ziff. 2.3.3.1 Reverse Convertibles ohne Kapitalschutz (Teil 1/2) | S. 6 | Der Anleger erwirbt eine Obligation und verkauft eine Put-Option; bei Kurs unter dem Ausübungspreis erhält er den Basiswert statt Rückzahlung. |
+| [c0019](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0019.md) | Ziff. 2.3.3.1 Reverse Convertibles ohne Kapitalschutz (Teil 2/2) | S. 6 |  |
+| [c0020](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0020.md) | Ziff. 2.3.3.2 Reverse Convertibles mit Kapitalschutz (Teil 1/2) | S. 6–7 | Kapitalschutz entsteht durch eine zusätzliche Put-Option des Anlegers und ist kein Rückzahlungsversprechen im Sinne einer Obligation. |
+| [c0021](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0021.md) | Ziff. 2.3.3.2 Reverse Convertibles mit Kapitalschutz (Teil 2/2) | S. 6–7 |  |
+| [c0022](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0022.md) | Ziff. 3.1 Obligationen ohne überwiegende Einmalverzinsung – DBG, Marchzinsen | S. 7 | Periodische Zinsen und Einmalentschädigungen sind steuerbarer Vermögensertrag (Art. 20 Abs. 1 Bst. a DBG); Marchzinsen sind nicht steuerbar. |
+| [c0023](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0023.md) | Ziff. 3.1 Obligationen – Verrechnungssteuer und Stempelabgaben (Teil 1/2) | S. 7–8 | Erträge inländischer Obligationen unterliegen der Verrechnungssteuer; ausländische Konzernanleihen mit Rückfluss ins Inland gelten als inländisch; Handel unterliegt der Umsatzabgabe (Art. 13 ff. StG). |
+| [c0024](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0024.md) | Ziff. 3.1 Obligationen – Verrechnungssteuer und Stempelabgaben (Teil 2/2) | S. 7–8 |  |
+| [c0025](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0025.md) | Ziff. 3.2 Überwiegende Einmalverzinsung – reine Differenzbesteuerung | S. 8 | Bei überwiegender Einmalverzinsung ist die Differenz zwischen Anschaffungs- und Verkaufs-/Rückzahlungsbetrag steuerbar (Art. 20 Abs. 1 Bst. b DBG); Bankspesen mindern den Ertrag. |
+| [c0026](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0026.md) | Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 1/2) | S. 8 | Realisierte Verluste dürfen nur mit Gewinnen und periodischen Erträgen aus anderen IUP-Obligationen verrechnet werden, nicht mit anderen Einkommensteilen; die Verrechnungssteuer wird auf dem Originaldiskont erhoben. |
+| [c0027](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0027.md) | Ziff. 3.2 Verluste bei IUP-Papieren; Verrechnungssteuer und Stempelabgaben (Teil 2/2) | S. 8 |  |
+| [c0028](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0028.md) | Ziff. 3.3 Derivative Finanzinstrumente – Kapitalgewinne, Vorausfinanzierung 25 % | S. 8–9 | Kapitalgewinne aus Futures und Optionen sind im Privatvermögen steuerfrei (Art. 16 Abs. 3 DBG), Verluste unbeachtlich; Grenze der Vorausfinanzierung 25 % des Kontraktwerts. |
+| [c0029](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0029.md) | Ziff. 3.3 Optionsprämien, Verrechnungssteuer und Stempelabgaben bei Derivaten | S. 9 | Optionsprämien sind einkommenssteuerlich nicht relevant; Optionen und Futures sind keine steuerbaren Urkunden, Umsatzabgabe nur bei Lieferung steuerbarer Urkunden (Art. 15 Abs. 2 StG). |
+| [c0030](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0030.md) | Ziff. 3.4 Kapitalgarantierte Derivate – Kriterien der Transparenz | S. 9 | Ein Produkt gilt als transparent, wenn die Komponenten separat gehandelt werden, der Emittent sie im Termsheet berechnet darstellt oder die ESTV sie analytisch nachvollzieht. |
+| [c0031](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0031.md) | Ziff. 3.4 Transparenz – Erläuterung zu a) separater Handel und b) Termsheet | S. 9 | Bei separatem Handel gilt der erste Schlusskurs ex-Option als Emissionspreis; beim Termsheet muss die ESTV-Prüfung die Richtigkeit bestätigen. |
+| [c0032](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0032.md) | Ziff. 3.4 Analytische Methode (Swapsatz, BFP-Service) | S. 9–10 | Der garantierte Rückzahlungsbetrag wird mit dem mittleren Swapsatz für Währung und Laufzeit bei Emission diskontiert, um den Wert der Obligation zu bestimmen. |
+| [c0033](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0033.md) | Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte (Teil 1/2) | S. 10 | Nachträgliche Transparenz setzt mindestens ein Single-A-Rating und Börsenkotierung bzw. liquiden Handel durch einen Market Maker voraus; sonst gilt das Produkt als nicht transparent. |
+| [c0034](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0034.md) | Ziff. 3.4 Voraussetzungen nachträgliche Transparenz, nicht transparente Produkte (Teil 2/2) | S. 10 |  |
+| [c0035](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0035.md) | Ziff. 3.4.1 Transparente Produkte – Besteuerung Anlage- und Optionsteil | S. 10 | Beim transparenten Produkt wird der Obligationenteil als Obligation besteuert, Optionsgewinne und -verluste sind im Privatvermögen steuerlich unbeachtlich. |
+| [c0036](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0036.md) | Ziff. 3.4.1 Modifizierte Differenzbesteuerung (BFP-Service), Stempelabgaben | S. 10–11 | Der Originalzinssatz wird vierteljährlich anhand des 5-jährigen Swapsatzes angepasst; die Verrechnungssteuer wird nur auf dem Originaldiskont erhoben (Beispiel Nr. 4). |
+| [c0037](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0037.md) | Ziff. 3.4.1 Stempelabgaben; Ziff. 3.4.2 Nicht transparente Produkte | S. 11 | Bei nicht transparenten Produkten ist alles über das investierte Kapital hinaus Erhaltene steuerbar; bei Handänderung zählt die Differenz zwischen Kauf- und Verkaufspreis des Gesamtinstruments. |
+| [c0038](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0038.md) | Ziff. 3.5 Klassische Options- und Wandelanleihen – Besteuerung | S. 11–12 | Bei klassischen Options-/Wandelanleihen inländischer Emittenten wird die Differenz zwischen Wert ex-Option und Rückzahlungsbetrag nicht erfasst; nur periodische Zinsen sind steuerbar. |
+| [c0039](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0039.md) | Ziff. 3.6 Reverse Convertibles – Besteuerung Zinsteil und Optionsprämie | S. 12 | Reverse Convertibles sind regelmässig transparent: steuerbar ist die marktkonforme Zinskomponente, Optionsprämien bleiben steuerfrei. |
+| [c0040](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0040.md) | Ziff. 3.6 Reverse Convertibles – Nennwert, Kapitalschutz, Umsatzabgabe | S. 12 | Nennwert der Obligation ist in der Regel der investierte Betrag, bei Diskontbasis der Spot-Kurs; der Kapitalschutz ist eine zusätzliche Option und kein Nominalwert. |
+| [c0041](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0041.md) | Ziff. 3.7 Negativzinsen – kein Schuldzinsenabzug, Kapitalverlust | S. 12 | Negativzinsen auf Anlagen sind eine Prämie und qualifizieren als Kapitalverlust; sie sind keine abzugsfähigen Schuldzinsen nach Art. 33 Abs. 1 Bst. a DBG. |
+| [c0042](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0042.md) | Ziff. 3.7 Negativzinsen auf Bankguthaben – Gewinnungskosten | S. 12–13 | Negativzinsen auf Bank- und Sparkassenguthaben im Privatvermögen sind als Gewinnungskosten nach Art. 32 Abs. 1 DBG abziehbar; bei handelbaren Forderungspapieren nicht. |
+| [c0043](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0043.md) | Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 1/2) | S. 13 | Die ESTV kennzeichnet überwiegend einmalverzinsliche Papiere in der Kursliste mit IUP; bei modifizierter Differenzbesteuerung bescheinigen die Banken die Tageskurse der Anlageteile. |
+| [c0044](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0044.md) | Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 2/2) | S. 13 |  |
+| [c0045](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0045.md) | Ziff. 4.3 Nicht an Schweizer Börsen kotierte Papiere; Ziff. 5 Spezialfälle | S. 13–14 | Bei nicht in der Schweiz kotierten Papieren gilt primär der erste Schlusskurs ex-Option an der ausländischen Börse; Spezialfälle werden in Anhang III geführt. |
+| [c0046](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0046.md) | Ziff. 6 Inkrafttreten (Fälligkeiten ab 1. Januar 2018) und Anhangsverzeichnis | S. 14 | Das KS 15 gilt für Ertragsfälligkeiten ab 1. Januar 2018 und ersetzt das KS 15 vom 7. Februar 2007. |
+| [c0047](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0047.md) | Anhang I Übersicht Obligationen, Derivate und kombinierte Produkte | S. 15 | Schematische Übersicht der Arten von Obligationen, derivativen Finanzinstrumenten und kombinierten Produkten. |
+| [c0048](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0048.md) | Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung | S. 16 | Bei 7,5 % Gesamtrendite und Jahreszins Fr. 30.- ist Beispiel 1 (3,8 % des Anlagewerts von Fr. 788.80) nicht, Beispiel 2 (3 % von Fr. 1'000.-) überwiegend einmalverzinslich. |
+| [c0049](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0049.md) | Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 1/2) | S. 16–17 | Obligation zu \$ 826.40 emittiert, nach sieben Jahren zu \$ 1'000.- zurückbezahlt, Jahreszins \$ 20.-, Originalrendite 5 %. |
+| [c0050](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0050.md) | Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 2/2) | S. 16–17 |  |
+| [c0051](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0051.md) | Anhang II Beispiel Nr. 3 – Berechnung steuerbare Einkünfte der Investoren | S. 17 | Steuerbare Einkünfte bzw. Verluste je Investor (z.B. erster Investor Szenario a: Sfr. 100.80; zweiter Investor Szenario c: – Sfr. 60.60). |
+| [c0052](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0052.md) | Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 1/2) | S. 17 | Fünfjährige IUP-Obligation (Zins Fr. 20.-, Nennwert Fr. 1'000.-, Originalrendite 6 %, Emissionspreis Fr. 831.50); Barwert bei der ersten Handänderung Fr. 916.55. |
+| [c0053](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0053.md) | Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 2/2) | S. 17 |  |
+| [c0054](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0054.md) | Anhang II Beispiel Nr. 4 – Steuerbare Einkünfte und Verrechnungssteuer | S. 18 | Steuerbar: Fr. 85.05 (erster), Fr. 58.10 (zweiter), Fr. 25.35 (dritter Investor); Verrechnungssteuer auf Coupon Fr. 20.- und Originaldiskont Fr. 168.50. |
+| [c0055](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0055.md) | Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 1/3) | S. 18–19 | Von jährlich Fr. 800.- auf Fr. 10'000.- sind Fr. 225.- Zins (steuerbar) und Fr. 575.- Optionsprämie (steuerlich unbeachtlich). |
+| [c0056](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0056.md) | Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 2/3) | S. 18–19 |  |
+| [c0057](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0057.md) | Anhang II Beispiel Nr. 5 – Reverse Convertible REVEXUS (Teil 3/3) | S. 18–19 |  |
+| [c0058](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0058.md) | Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 1/3) | S. 19 | Klassische Index-/Basketzertifikate (mindestens fünf Aktientitel) werden als eigene Kategorie behandelt; zugrunde liegende Gewinne und Verluste sind Kapitalgewinne/-verluste. |
+| [c0059](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0059.md) | Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 2/3) | S. 19 |  |
+| [c0060](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0060.md) | Anhang III Ziff. 1a Klassische Index- und Basketzertifikate auf Aktien (Teil 3/3) | S. 19 |  |
+| [c0061](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0061.md) | Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 1/3) | S. 19–20 | Ausgleichszahlungen sind steuerbarer Vermögensertrag (Art. 20 Abs. 1 Bst. a DBG); Gewinne aus den Basiswerten sind steuerfreie Kapitalgewinne. |
+| [c0062](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0062.md) | Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 2/3) | S. 19–20 |  |
+| [c0063](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0063.md) | Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 3/3) | S. 19–20 |  |
+| [c0064](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0064.md) | Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien (Teil 1/2) | S. 20 | Dynamische Zertifikate gelten als kollektive Kapitalanlagen, ausser sie werden kumulativ nach im Voraus festgelegten objektiven Kriterien passiv bewirtschaftet. |
+| [c0065](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0065.md) | Anhang III Ziff. 1b Dynamische Index- und Basketzertifikate auf Aktien (Teil 2/2) | S. 20 |  |
+| [c0066](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0066.md) | Anhang III Ziff. 1c Zertifikate auf Aktien ohne feste Laufzeit (open end) | S. 20 | Open-end-Zertifikate gelten nur bei jährlichem Kündigungsrecht des Investors als Termingeschäfte. |
+| [c0067](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0067.md) | Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 1/2) | S. 20–21 | Bond-Zertifikate qualifizieren selber als Obligationen und werden nach KS 15 Ziff. 3.1 ff. besteuert. |
+| [c0068](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0068.md) | Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 2/2) | S. 20–21 |  |
+| [c0069](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0069.md) | Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 1/2) | S. 21 | Ausschüttungen und thesaurierte Gewinne unterliegen jährlich der DBSt (Art. 20 Abs. 1 Bst. e DBG), ausser separat ausgewiesene Kapitalgewinne (Art. 16 Abs. 3 DBG). |
+| [c0070](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0070.md) | Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 2/2) | S. 21 |  |
+| [c0071](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0071.md) | Anhang III Ziff. 3 Verrechnungssteuer und Stempelabgaben bei Fondszertifikaten | S. 21 | Inländische Zertifikate auf kollektive Kapitalanlagen sind keine steuerbaren Urkunden; ausländische unterliegen der Umsatzabgabe (Art. 13 Abs. 2 Bst. b StG). |
+| [c0072](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0072.md) | Anhang III Ziff. 3 Mitteilungspflicht Emittent, Veranlagung nach Ermessen | S. 21–22 | Meldet der Emittent der ESTV jährlich nicht Erträge und Kapitalgewinne, erfolgt die Veranlagung nach Ermessen auf einer marktgerechten Rendite des NAV. |
+| [c0073](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0073.md) | Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 1/2) | S. 22 | LEPO liegen vor, wenn der Ausübungspreis bei Emission unter 50 % des Basiswerts liegt; Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar. |
+| [c0074](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0074.md) | Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 2/2) | S. 22 |  |
+| [c0075](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0075.md) | Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 1/2) | S. 22 | Mini-Futures sind open end, mit Sicherheitsbarriere und fremdfinanziertem Kauf des Basiswerts, was einen Hebel bewirkt. |
+| [c0076](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0076.md) | Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 2/2) | S. 22 |  |
+| [c0077](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0077.md) | Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 1/3) | S. 22–23 | Bei Hebel von mindestens 4 bei Emission liegt ein echtes Termingeschäft vor; sonst Zinskomponente bei Laufzeit bis zwölf Monate steuerfrei, bei überjährigen steuerbar. |
+| [c0078](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0078.md) | Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 2/3) | S. 22–23 |  |
+| [c0079](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0079.md) | Anhang III Ziff. 4b Mini-Futures – steuerliche Behandlung (Hebel mindestens 4) (Teil 3/3) | S. 22–23 |  |
+| [c0080](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0080.md) | Anhang III Ziff. 4c Termingeschäfte mit Zinsen als Basiswert | S. 23 | Bei Laufzeit bis zwölf Monate ist die Zinskomponente erst bei Vorausfinanzierung über 25 % steuerbar; bei über zwölf Monaten immer. |
+| [c0081](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0081.md) | Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 1/3) | S. 23–24 | Diskont-Zertifikate ohne garantierte Zahlungen und Laufzeit bis zwölf Monate gelten als atypische Termingeschäfte; Gewinne und Verluste sind auf Zusehen hin steuerfrei. |
+| [c0082](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0082.md) | Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 2/3) | S. 23–24 |  |
+| [c0083](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0083.md) | Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 3/3) | S. 23–24 |  |
+| [c0084](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0084.md) | Anhang III Ziff. 5a Weitere Optionsstrategien – gleiche Behandlung | S. 24 | Zusätzliche Optionsstrategien (Bull-Call-Spread, bedingter Kapitalschutz) ändern die steuerliche Behandlung nicht. |
+| [c0085](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0085.md) | Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 1/2) | S. 24 | Barrier RC mit Down-and-In-Puts (Kick-In z.B. 70 % des Ausübungspreises) gewähren bedingten Kapitalschutz; zu tiefe Barrieren führen zu faktischem Kapitalschutz. |
+| [c0086](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0086.md) | Anhang III Ziff. 5b Überjährige Barrier Reverse Convertibles (Teil 2/2) | S. 24 |  |
+| [c0087](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0087.md) | Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 1/3) | S. 24–25 | Step-up-/Autocall-Zertifikate zahlen bei Erreichen des Startniveaus Kapital plus Coupons zurück und haben einen bedingten Kapitalschutz. |
+| [c0088](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0088.md) | Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 2/3) | S. 24–25 |  |
+| [c0089](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0089.md) | Anhang III Ziff. 5c Step-up-/Autocall-Produkte – Funktionsweise (Teil 3/3) | S. 24–25 |  |
+| [c0090](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0090.md) | Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 1/2) | S. 25 | Bei Varianten b) und c) gelten bedingte Coupons als Kapitalgewinne; die Obligation hat ausschliessliche Einmalverzinsung und unterliegt der modifizierten Differenzbesteuerung. |
+| [c0091](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0091.md) | Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 2/2) | S. 25 |  |
+| [c0092](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0092.md) | Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 1/2) | S. 25 | Kapitalgeschützte Produkte können jährliche Zahlungen von einem Basiswert abhängig machen, auch mit garantierter Mindestverzinsung. |
+| [c0093](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0093.md) | Anhang III Ziff. 6a Kapitalgarantierte Derivate – Obligationen mit bedingten Coupons (Teil 2/2) | S. 25 |  |
+| [c0094](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0094.md) | Anhang III Ziff. 6a Steuerliche Behandlung bedingter Coupons | S. 25–26 | Zahlungen aus den Call-Optionen sind steuerfreie Kapitalgewinne, fix garantierte Zahlungen steuerbarer Vermögensertrag; massgebend sind nur garantierte Geldflüsse. |
+| [c0095](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0095.md) | Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 1/3) | S. 26 | Kapitalgeschützte Produkte mit exotischen Optionen gelten als transparent; Zahlungen aus der Optionenanlage sind im Privatvermögen steuerlich unbeachtlich. |
+| [c0096](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0096.md) | Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 2/3) | S. 26 |  |
+| [c0097](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0097.md) | Anhang III Ziff. 6b Obligationen mit exotischen Optionen (Barrier, Digital) (Teil 3/3) | S. 26 |  |
+| [c0098](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0098.md) | Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen | S. 26–27 | Wird der Geldanspruch geltend gemacht, ist er bei Ausübung vollumfänglich steuerbarer Zinsertrag (Art. 20 Abs. 1 Bst. a DBG) und verrechnungssteuerpflichtig. |
+| [c0099](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0099.md) | Anhang III Ziff. 8 Wandelanleihen mit Put-Option zur vorzeitigen Rückzahlung | S. 27 | Solche Wandelanleihen gelten immer als nicht klassisch; die Put-Option ist für die Einmalverzinsung irrelevant, es gelten Ziff. 3.4 bis 3.4.2. |
+| [c0100](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0100.md) | Anhang III Ziff. 9 Strukturierte Kredit- und Schadenderivate – Funktionsweise | S. 27 | Reine Kredit- und Schadenderivate richten sich nach Ziff. 2.2; strukturierte Produkte kombinieren eine Obligation mit einem Default-Swap. |
+| [c0101](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0101.md) | Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes (Teil 1/2) | S. 27 | Bei Credit Linked Notes sind sämtliche Entschädigungen steuerbarer Obligationenertrag; Schadenderivate werden wie Ziff. 3.6 behandelt. |
+| [c0102](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0102.md) | Anhang III Ziff. 9 Steuerliche Behandlung Credit Linked Notes (Teil 2/2) | S. 27 |  |
+| [c0103](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0103.md) | Anhang III Ziff. 10 Aufstockung von Anleihen – Hintergrund | S. 27–28 | Seit 1. Januar 2001 ist Art. 14 Abs. 2 VStV aufgehoben, was bei Anleihensaufstockungen eine Aufrechnung ins Hundert bewirken kann. |
+| [c0104](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0104.md) | Anhang III Ziff. 10 Aufstockungen – Risiko der Steuerumgehung | S. 28 | Ausländische Emittenten emittieren Aufstockungstranchen mit beträchtlichen Disagi, wodurch die direktsteuerliche Erfassung gefährdet ist. |
+| [c0105](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0105.md) | Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 1/2) | S. 28 | Bei Disagio der Aufstockungstranche bis ein halbes Prozent pro Jahr der Restlaufzeit wird auf Verrechnungssteuer und direkte Bundessteuer verzichtet; sonst gilt das gewogene Mittel der Disagi. |
+| [c0106](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0106.md) | Anhang III Ziff. 10 Praxis ESTV – Toleranzgrenze ein halbes Prozent pro Jahr (Teil 2/2) | S. 28 |  |
+| [c0107](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0107.md) | Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 1/3) | S. 32 | Der Bond Floor wird mit der Swap-Rate für Währung und Laufzeit berechnet und während der Laufzeit quartalsweise mit der 5-Jahres-Swap-Rate angepasst. |
+| [c0108](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0108.md) | Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 2/3) | S. 32 |  |
+| [c0109](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0109.md) | Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 3/3) | S. 32 |  |
+| [c0110](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0110.md) | Anhang IV Gutachten – Entscheid Verwaltungsgericht ZH 2005 | S. 32 | Das Verwaltungsgericht ZH bejahte am 24. August 2005 die modifizierte Differenzbesteuerung, liess die Eignung der Berechnungen aber offen. |
+| [c0111](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0111.md) | Anhang IV Gutachten – Auftrag und Vorbemerkungen | S. 33 | Das Gutachten gilt nur für in der Schweiz ansässige natürliche Personen mit Produkten im Privatvermögen. |
+| [c0112](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0112.md) | Anhang IV Gutachten Ziff. III.2 Wert des Anleihensteils bei Emission | S. 33 | Der Bond Floor wird durch Abdiskontierung des Mindestrückzahlungsbetrags mit der Swap-Rate (AA/AAA) berechnet. |
+| [c0113](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0113.md) | Anhang IV Gutachten Ziff. III.2 Verhältnismässigkeit schuldnerspezifischer Zinssatz | S. 33–34 | Der schuldnerspezifische Zinssatz würde nicht zu wesentlich anderen Ergebnissen führen; die Swap-Rate ist vertretbar. |
+| [c0114](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0114.md) | Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 1/2) | S. 34 | Der Abdiskontierungssatz wird als i1 = i0 * sQ1 / sQ0 mit der 5-Jahres-Swap-Rate zu Beginn des Quartals angepasst. |
+| [c0115](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0115.md) | Anhang IV Gutachten Ziff. III.3 Anleihensteil während der Laufzeit – Formel (Teil 2/2) | S. 34 |  |
+| [c0116](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0116.md) | Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt | S. 34 | Veränderungen des Credit Spreads werden grundsätzlich nicht berücksichtigt, ausser bei massiver Bonitätsverschlechterung. |
+| [c0117](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0117.md) | Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 1/3) | S. 34–35 | Eine Berechnung mit risikofreiem Zins und individuellem Credit Spread wäre extrem aufwendig; die angewandte Methode ergibt wirklichkeitsnahe Werte. |
+| [c0118](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0118.md) | Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 2/3) | S. 34–35 |  |
+| [c0119](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0119.md) | Anhang IV Gutachten Ziff. III.3 Praktikabilität der Methode (Teil 3/3) | S. 34–35 |  |
+| [c0120](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0120.md) | Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung | S. 35 | Bei Erwerb aus Emission und Halten bis Verfall haben Änderungen von Zinsumfeld und Rating keine Auswirkung auf den steuerbaren Vermögensertrag. |
+| [c0121](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0121.md) | Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 1/2) | S. 35–36 | Der Mechanismus berücksichtigt das Zinsumfeld und ermittelt den steuerbaren Vermögensertrag in rechtsgenügender Weise. |
+| [c0122](../../../chunks/bund/dauernd/bund-ks-15/bund-ks-15__c0122.md) | Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 2/2) | S. 35–36 |  |

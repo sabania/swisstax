@@ -5,22 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 50"
-seiten: "11"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 12
 
-sen der Funktionsträger der kollektiven Kapitalanlage liegt.
-Immobilienfonds: Offene kollektive Kapitalanlagen, die ihre Mittel in Immobilienwerten anle-
-gen (vgl. Art. 58 KAG).
-Übrige Fonds für traditionelle und für alternative Anlagen: Offene kollektive Kapitalanla-
-gen, die weder Effekten- noch Immobilienfonds sind. Es sind u.a. zugleich Anlagen in Effek-
-ten, Immobilien, Edelmetalle, Rechte oder in andere kollektive Kapitalanlagen möglich (vgl.
-Art. 68 – 71 KAG).
-Thesaurierungs- oder Wertzuwachsfonds: Offene oder geschlossene kollektive Kapitalan-
-lagen, welche in den Basisdokumenten keine Ausschüttungsvorschrift des jährlichen Netto-
-ertrags vorsehen.
-Transparenzprinzip: Vermögenserträge und Kapitalgewinne werden für die Belange der di-
-rekten Steuern nicht auf Stufe der kollektiven Kapitalanlagen besteuert, sondern auf Stufe
-der Anlegerinnen und Anleger (Ausnahme: schweizerische und ausländische kollektive Kapi-
-talanlagen mit direktem Grundbesitz für die Erträge daraus sowie SICAF).
+SICAF Société d’investissement à capital fixe; Investmentgesellschaft mit fixem Kapital
+SICAV Société d’investissement à capital variable; Investmentgesellschaft mit
+    variablem Kapital
+UA   Umsatzabgabe
+vgl.   vergleiche
+VStG   Bundesgesetz vom 13. Oktober 1965 über die Verrechnungssteuer (SR 642.21)
+VStV   Vollziehungsverordnung vom 19. Dezember 1966 zum Bundesgesetz über die Ver-
+    rechnungssteuer (SR 642.211)
+z.B.   zum Beispiel
+Ziff.   Ziffer

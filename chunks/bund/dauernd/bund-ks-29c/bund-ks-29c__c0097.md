@@ -5,29 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 97"
-seiten: "33"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 34
 
-Steuerfolgen:
-Verletzung der Teilliquidationsregel. Die Teilliquidation ist im Umfang von 160 nicht steuer-
-bar; die KER werden entsprechend korrigiert (gemäss Art. 4a Abs. 4 VStG; Art. 20 Abs.
-7 DBG). Aufgrund von Artikel 4a Absatz 4 VStG entsteht beim Erwerb der eigenen Beteili-
-gungsrechte keine Steuerforderung im Umfang des Anteils, der gegen KER zu verrechnen
-ist.
+<!-- Seite 34 -->
+Anhang 4: Beispiel Rückzahlung und Wiedereinzahlung von KER innerhalb des
+gleichen Kapitalbands
 
-Das Eigenkapital der Gesellschaft zeigt nach der Kapitalherabsetzung und der steuerlichen
-Korrektur folgendes Bild:
+1. Eine an einer schweizerischen Börse kotierte Gesellschaft zeigt folgende Eigenkapitalbe-
+   wegungen innerhalb ihres Kapitalbands über zwei Jahre (wobei sämtliche Rückkäufe über
+   eine zweite Handelslinie erfolgen):
+    Bestand   Jahr N+1   Bestand   Jahr N+2   Bestand   Bereinigung   Bestand
+    Erhöhung Herabsetzung   Herabsetzung   bereinigt
 
- Handelsbilanz / Eigenkapital   Bestand   Ausschüt-   Be-   Korrekturen   Be-
-    tung   stand   stand
-
- Aktienkapital   1000   -20   980   980
- Kapitalreserven
- - KER bestätigt   800   800   -160   640
- - übrige   400   400   400
- Gewinnreserven   4000   -320   3680   160   3840
- Gewinn/Gewinnvortrag   800   800   800
-
- Total Eigenkapital   7000   6660   6660
+ Aktienkapital   20'000.00   2'000.00   -1'000.00   21'000.00   -1'000.00   20'000.00   20'000.00

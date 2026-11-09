@@ -5,17 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 126"
-seiten: "33"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 32
 
-    Leistungen   steuerbar   Satz   satzbestimmend
-
-    Bruttolohn (Nov. 2021)   8 000   15,0 %   8 000
-
-    Bonus (Apr. 2022)   10 500   27,0 %   23 000
-
-    Quellensteuern bezahlt November 2021   1 200
-
-    Quellensteuern geschuldet April 2022   2 835
+Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
+entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
+bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
+der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
+anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
+Für die Ermittlung des satzbestimmenden Einkommens sind alle vom Arbeitnehmer im sel-
+ben Monat – im Ausland wie auch in der Schweiz – erzielten Erwerbseinkünfte (inkl. Ersatz-
+einkünfte) beizuziehen. Sind dem Arbeitgeber diese zusätzlichen Einkünfte nicht bekannt, so
+kann er zur Satzbestimmung den letzten von ihm ausbezahlten und der Quellenbesteuerung
+unterworfenen Bruttomonatslohn berücksichtigen. Allfällige Beschränkungen durch DBA sind
+zu beachten (vgl. Ziffer 6.7 oben).
+Lohnfortzahlungen an einen im Ausland ansässigen Arbeitnehmer, der nach erfolgter Kündi-

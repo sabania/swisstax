@@ -2,19 +2,24 @@
 id: bund-ks-18a__c0034
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 34"
 seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · S. 8
 
-<!-- Seite 8 -->
-e)   Einzahlung in die Säule 3a bei Beendigung der Erwerbstätigkeit
-Für das Jahr, in dem die Erwerbstätigkeit beendet wird, kann der volle Beitrag geleistet wer-
-den gemäss Artikel 7 Absatz 4 BVV 3. Die Einzahlung von ordentlichen Beiträgen bzw. Ein-
-käufen in die Säule 3a (vgl. Ziff. 5.6) muss jedoch zu einem Zeitpunkt erfolgen, in welchem
-die steuerpflichtige Person noch erwerbstätig ist. Sobald die Erwerbstätigkeit beendet wurde,
-dürfen Bankstiftungen und Versicherungseinrichtungen keine Vorsorgebeiträge mehr entge-
-gennehmen.
+g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
+    einer selbständigen Erwerbstätigkeit oder umgekehrt
+Während der Zeitspanne der unselbständigen Erwerbstätigkeit mit Anschluss an eine Pensi-
+onskasse kann die steuerpflichtige Person maximal den in Artikel 7 Absatz 1 Buchstabe a
+BVV 3 vorgesehenen Maximalbetrag einbezahlen. Für die Zeitspanne der Selbständigkeit
+ohne Anschluss an eine Pensionskasse kann die steuerpflichtige Person bis zu 20% ihres
+selbständigen Erwerbseinkommens einbezahlen, vorausgesetzt sie hat einen Jahresab-
+schluss für die aktuelle Steuerperiode erstellt. Für das betroffene Jahr können insgesamt or-
+dentliche Beiträge (inkl. allfällige Einzahlung in die kleine Säule 3a) von nicht mehr als der in
+Artikel 7 Absatz 1 Buchstabe b BVV 3 vorgesehene Maximalbetrag (40% des oberen Grenz-
+betrages nach Art. 8 Abs. 1 BVG) einbezahlt werden. Gleich verhält es sich beim Anschluss
+an eine Vorsorgeeinrichtung infolge Aufnahme einer unselbständigen Erwerbstätigkeit wäh-
+rend des Jahres.

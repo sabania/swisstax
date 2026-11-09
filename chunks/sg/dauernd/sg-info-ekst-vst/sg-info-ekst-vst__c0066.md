@@ -4,9 +4,9 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Tarife Privatpersonen, gültig ab"
+titel: "Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Tarife Privatpersonen, gültig ab
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Steuerfüsse st.gallische Gemeinden (inkl. Grundsteuern) für das Jahr:
 
-- [Tarif 2001(423 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/tarife-privatpersonen-gueltig-ab/Tarif%202001%20SG%20Def.pdf "Download: Es öffnet sich ein neues Fenster: Tarif 2001")
+####

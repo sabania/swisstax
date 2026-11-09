@@ -4,34 +4,13 @@ quelle: zh-vkp-2026-zstb
 jur: zh
 jahre: [2026]
 typ: verordnung
-titel: "ZStB 48.1 (VKP ab 2026) – Abschnitt 3"
-seiten: "1"
+titel: "§ 31 Abs. 1 lit. h Parteispenden – Höchstbeträge"
+ziffer: "§ 31 Abs. 1 lit. h"
+seiten: "1-2"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: verordnung}}
 ---
-> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · S. 1
+> ZH · Steuerjahr 2026 · ZStB 48.1 (VKP ab 2026) · Änderung Steuergesetz › § 31 · S. 1–2
 
-Die Finanzdirektion,
-gestützt auf § 48 des Steuergesetzes vom 8. Juni 1997 (StG)1,
-verfügt:
-    Das Steuergesetz vom 8. Juni 1997 wird wie folgt geändert:
-    § 24. Der Einkommenssteuer sind nicht unterworfen:   II. Steuerfreie
-    Einkünfte
-lit. a–f unverändert.
-g. der Sold der Milizfeuerwehrleute bis zum Betrag von jährlich
-    Fr. 8400 für Dienstleistungen im Zusammenhang mit der Erfül-
-    lung der Kernaufgaben der Feuerwehr (Übungen, Pikettdienste,
-    Kurse, Inspektionen und Ernstfalleinsätze zur Rettung, Brand-
-    bekämpfung, allgemeinen Schadenwehr, Elementarschadenbewäl-
-    tigung und dergleichen); ausgenommen sind Pauschalzulagen für
-    Kader, Funktionszulagen sowie Entschädigungen für administra-
-    tive Arbeiten und für Dienstleistungen, welche die Feuerwehr frei-
-    willig erbringt,
-lit. h–j unverändert.
-k. die einzelnen Gewinne bis zum Betrag von Fr. 1 046 400 aus der
-    Teilnahme an Grossspielen, die nach dem BGS3 zugelassen sind,
-    und aus der Online-Teilnahme an Spielbankenspielen, die nach
-    dem BGS zugelassen sind,
-lit. l–n unverändert.
     § 31. 1 Von den Einkünften werden abgezogen:   5. Allgemeine
     Abzüge
 lit. a–g unverändert.
@@ -41,3 +20,16 @@ h.   die Mitgliederbeiträge und Zuwendungen bis zum Gesamtbetrag Höhe des
     und von Fr. 10 500 für die übrigen Steuerpflichtigen an politische unabhängige
     Abzüge
     Parteien, die
+
+
+24.10. 2025 - OS Band 80   273
+
+    631.1   Ausgleich der kalten Progression ab 1. Januar 2026 – V
+
+    1. im Parteienregister nach Art. 76 a des Bundesgesetzes vom
+    17. Dezember 1976 über die politischen Rechte2 eingetragen
+    sind,
+    2. in einem kantonalen Parlament vertreten sind oder
+    3. in einem Kanton bei den letzten Wahlen des kantonalen Par-
+    laments mindestens 3 Prozent der Stimmen erreicht haben,
+    lit. i unverändert.

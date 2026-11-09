@@ -2,23 +2,23 @@
 id: bund-ks-18a__c0044
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 44"
 seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 10
+> Bund · Steuerjahr 2026 · KS 18a · S. 10
 
-<!-- Seite 10 -->
-Rückzahlung, wie sie beim Vorbezug in der zweiten Säule vorgesehen ist, ist dagegen in der
-Säule 3a nicht möglich. Im Übrigen kann der Versicherte den Anspruch auf Vorsorgeleistun-
-gen oder einen Betrag bis zur Höhe seines Vorsorgekapitals verpfänden, wobei die Artikel 8-
-10 der Verordnung über die Wohneigentumsförderung mit Mitteln der beruflichen Vorsorge
-(WEFV: SR 831.411) sinngemäss gelten (vgl. Art. 4 Abs. 2 BVV 3). Die Begriffe "Wohneigen-
-tum", „Beteiligungen“ und "Eigenbedarf" richten sich nach den Artikeln 2-4 WEFV. Bei sol-
-chen Vorbezügen unterliegt im Zeitpunkt der Auszahlung stets nur der ausgerichtete Teilbe-
-zug der Besteuerung nach Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG. Damit beide
-Ehegatten Vorsorgeguthaben aus ihrer Säule 3a zur Amortisation der Hypothek oder zum
-Erwerb von Wohneigentum beziehen können, müssen sie beide im Grundbuch eingetragene
-Eigentümer (Mit- oder Gesamteigentümer) sein.
+6.3. Einkauf in die 2. Säule mit Mitteln der Säule 3a
+Die vorzeitige Ausrichtung der Altersleistung aus der Säule 3a ist bei Auflösung des Vorsor-
+geverhältnisses zulässig, wenn der Vorsorgenehmer die ausgerichtete Leistung für den Ein-
+kauf in eine steuerbefreite Vorsorgeeinrichtung der beruflichen Vorsorge verwendet (vgl.
+Art. 3a Abs. 1 Bst. a BVV 3). Er kann sein Vorsorgekapital nur dann teilweise übertragen,
+wenn er es für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung verwen-
+det (vgl. Art. 3a Abs. 2 BVV 3). Die Überweisung des Vorsorgeguthabens muss direkt vom
+Säule-3a-Vorsorgeträger an die Vorsorgeeinrichtung der 2. Säule erfolgen. Eine Übertragung
+ist diesfalls steuerneutral. Das transferierte Guthaben gelangt im Zeitpunkt der Überweisung
+nicht zur Besteuerung; eine Meldung über Kapitalleistungen an die ESTV hat daher nicht zu
+erfolgen. Andererseits kann der so eingebrachte Einkaufsbetrag steuerlich nicht zum Abzug
+gebracht werden, weshalb eine Bescheinigung über Einkaufsbeiträge zu unterbleiben hat.

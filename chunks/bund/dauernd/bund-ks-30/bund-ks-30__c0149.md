@@ -4,16 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 149"
-seiten: "36"
+titel: "Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben"
+ziffer: "17"
+seiten: "43"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 30 · 17 Inkrafttreten · S. 43
 
-Werden Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG von einem Elternteil an
-das Kind geleistet, erfolgt die Besteuerung folgendermassen:
+17   Inkrafttreten
 
-14.10.1   Unterhaltsbeiträge
-   Die Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind vom Kind nicht zu ver-
-    steuern. Der leistende Elternteil kann die Unterhaltsbeiträge nicht von seinem Einkom-
-    men absetzen.
+Das vorliegende Kreisschreiben gilt für die Steuerperiode 2011 und tritt per 1. Januar 2011 in
+Kraft. Es ersetzt
+
+       das Kreisschreiben Nr. 7 vom 21. Januar 2000 betreffend Familienbesteuerung nach
+    dem Bundesgesetz über die direkte Bundessteuer (DBG); Übertragung der gemein-
+    samen elterlichen Sorge auf unverheiratete Eltern und die gemeinsame Ausübung el-
+    terlichen Sorge durch getrennte oder geschiedene Eltern;
+       das Kreisschreiben Nr. 14 vom 29. Juli 1994 betreffend Familienbesteuerung nach
+    dem Bundesgesetz über die direkte Bundessteuer (DBG);
+       das Kreisschreiben Nr. 13 vom 28. Juli 1994 betreffend Abzug bei Erwerbstätigkeit
+    beider Ehegatten.
+
+
+Beilagen:
+
+1. Übersicht über die Familienkonstellationen
+2. Tabelle zu den verschiedenen Familienkonstellationen

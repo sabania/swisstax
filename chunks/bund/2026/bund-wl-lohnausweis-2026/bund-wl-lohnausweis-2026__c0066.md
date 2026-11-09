@@ -5,11 +5,9 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 66"
-seiten: "19"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 19
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 20
 
-2 Rz 70 aufgehoben per 1.1.2022
-
-    ESTV   Seite 19 / 25
+    ESTV   Seite 20 / 25

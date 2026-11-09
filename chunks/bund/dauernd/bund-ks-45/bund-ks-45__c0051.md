@@ -5,16 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 51"
-seiten: "13"
+seiten: "12"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 12
 
-3.2.6 Geschäftsfahrzeuge
-Wird dem Arbeitnehmer unentgeltlich und uneingeschränkt ein Geschäftsfahrzeug zum pri-
-vaten Gebrauch zur Verfügung gestellt, ist der massgebende Bruttomonatslohn gemäss
-Randziffer 21 der «Wegleitung zum Ausfüllen des Lohnausweises» zu erhöhen. Aus der Be-
-grenzung des Fahrkostenabzuges gemäss dem Bundesgesetz vom 21. Juni 2013 über die
-Finanzierung und den Ausbau der Eisenbahninfrastruktur (FABI; vgl. AS 2015 S. 651 bzw.
-Art. 26 Abs. 1 Bst. a DBG) ergeben sich für die Berechnung der geschuldeten Quellensteu-
-ern keine weiteren Aufrechnungen zum der Quellensteuer unterliegenden Bruttolohn.
+    Der der Quellensteuer unterliegende Lohn (= Bruttolohn + QST) ergibt sich anhand folgender Be-
+    rechnung:
+
+    5 250.00 x 100
+    = 6 019.95
+    87.21 (100 - 12.79)
+
+    3. Schritt
+
+    Die geschuldete QSt kann auf zwei Wegen ermittelt werden:
+
+    6 019.95 x 12.79   = 769.95   oder   6 019.95 – 5 250.00 = 769.95
+
+    100

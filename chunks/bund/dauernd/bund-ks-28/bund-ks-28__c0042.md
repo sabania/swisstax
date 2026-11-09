@@ -10,14 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 14
 
-Es besteht für die steuerpflichtige Person ferner die Möglichkeit, ein dem Einkauf in die be-
-rufliche Vorsorge entsprechender fiktiver Einkauf (maximal im Umfang des Liquidationsge-
-winns) geltend zu machen. Im Umfang des fiktiven Einkaufs wird der Steuertarif für Kapital-
-leistungen aus Vorsorge nach Artikel 38 DBG angewandt. Artikel 37b DBG hat seine grund-
-sätzliche Entsprechung in Artikel 11 Absatz 5 des Bundesgesetzes vom 14. Dezember 1990
-über die Harmonisierung der direkten Steuern der Kantone und Gemeinden (StHG).
-
-Die gesonderte Besteuerung des Liquidationsgewinnes ist eine besondere Besteuerungsart,
-deren Umsetzung in der Verordnung konkretisiert wird. Der fiktive Einkauf, als Teil des Liqui-
-dationsgewinnes, ist ein neues Steuerinstitut, für das alle Parameter, die Berechnung und
-die Anspruchsberechtigten in der Verordnung festgelegt werden müssen.
+<!-- Seite 14 -->
+Zusammenfassung
+Die vorliegende Verordnung beinhaltet die Umsetzung des mit dem Bundesgesetz über die
+Verbesserung der steuerlichen Rahmenbedingungen für unternehmerische Tätigkeiten und
+Investitionen (Unternehmenssteuerreformgesetz II) angenommenen Artikels 37b des Bun-
+desgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer (DBG), welcher die
+Besteuerung des Liquidationsgewinns regelt. Der Liquidationsgewinn von selbständig erwer-
+benden Personen wird heute gemäss Artikel 18 DBG zusammen mit dem übrigen Einkom-
+men besteuert, was eine progressive Erhöhung der Einkommenssteuer zur Folge hat.

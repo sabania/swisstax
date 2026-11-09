@@ -1,160 +1,217 @@
 [
 {
 "id": "sg-steuerfuesse-2025__c0001",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Bemerkungen und Zeichenerklärung – Kantonssteuer 105 %, christkatholisch 24 %",
+"pfad": [
+"Steuerfüsse 2025",
+"Bemerkungen"
+],
+"seiten": [
+1
+],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss",
+"Kantonssteuer 105 Prozent",
+"einfache Steuer",
+"christkatholisch",
+"Zentralsteuer",
+"Kirchensteuer"
+],
+"positionen": [],
+"zusammenfassung": "Der Steuerfuss ist in Prozent der einfachen Steuer festgelegt; die Kantonssteuer beträgt 105 Prozent, der Steuerfuss der christkatholischen Kirchgemeinde im ganzen Kanton 24 Prozent.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "sg-steuerfuesse-2025__c0002"
 },
 {
 "id": "sg-steuerfuesse-2025__c0002",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 2",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden St. Gallen bis St. Margrethen (Seite 1)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
 1
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss St. Gallen 138",
+"Gesamtsteuerfuss",
+"Wittenbach",
+"Goldach",
+"Rorschach",
+"Grundsteuersatz Promille",
+"Kirchgemeinde"
+],
+"positionen": [],
+"zusammenfassung": "Tabelle mit Grundsteuersatz, Gesamtsteuerfuss Politische Gemeinde und Kirchgemeinden (z.B. St. Gallen 0.8 Promille, 138 %; Wittenbach 123 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0001",
 "nachher": "sg-steuerfuesse-2025__c0003"
 },
 {
 "id": "sg-steuerfuesse-2025__c0003",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 3",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Altstätten",
+"Buchs",
+"Wartau",
+"Mels",
+"Rheintal",
+"Sarganserland",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Tabelle der Steuerfüsse von Au, Berneck, Balgach, Altstätten, Buchs, Sargans, Mels, Flums, Walenstadt u.a. (z.B. Wartau 145 %, Balgach 61 %).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0002",
 "nachher": "sg-steuerfuesse-2025__c0004"
 },
 {
 "id": "sg-steuerfuesse-2025__c0004",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 4",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
 2
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss Altstätten",
+"Buchs",
+"Wartau",
+"Mels",
+"Rheintal",
+"Sarganserland",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0003",
 "nachher": "sg-steuerfuesse-2025__c0005"
 },
 {
 "id": "sg-steuerfuesse-2025__c0005",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 5",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Rapperswil-Jona",
+"Uznach",
+"Wattwil",
+"Ebnat-Kappel",
+"Toggenburg",
+"Linthgebiet",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
+"zusammenfassung": "Tabelle der Steuerfüsse von Quarten, Amden, Rapperswil-Jona (74 %), Wattwil, Ebnat-Kappel, Neckertal, Mosnang u.a.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0004",
 "nachher": "sg-steuerfuesse-2025__c0006"
 },
 {
 "id": "sg-steuerfuesse-2025__c0006",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 6",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
 3
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss Rapperswil-Jona",
+"Uznach",
+"Wattwil",
+"Ebnat-Kappel",
+"Toggenburg",
+"Linthgebiet",
+"Gesamtsteuerfuss"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0005",
 "nachher": "sg-steuerfuesse-2025__c0007"
 },
 {
 "id": "sg-steuerfuesse-2025__c0007",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 7",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 1/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"stichworte": [
+"Steuerfuss Wil",
+"Gossau",
+"Uzwil",
+"Flawil",
+"Degersheim",
+"Gesamtsteuerfuss",
+"Stand 15.1.2026"
+],
+"positionen": [],
+"zusammenfassung": "Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0006",
 "nachher": "sg-steuerfuesse-2025__c0008"
 },
 {
 "id": "sg-steuerfuesse-2025__c0008",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 8",
-"pfad": [],
+"titel": "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 2/2)",
+"pfad": [
+"Steuerfüsse 2025",
+"Tabelle Gemeinden"
+],
 "seiten": [
 4
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
+"stichworte": [
+"Steuerfuss Wil",
+"Gossau",
+"Uzwil",
+"Flawil",
+"Degersheim",
+"Gesamtsteuerfuss",
+"Stand 15.1.2026"
+],
+"positionen": [],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "sg-steuerfuesse-2025__c0007",
-"nachher": "sg-steuerfuesse-2025__c0009"
-},
-{
-"id": "sg-steuerfuesse-2025__c0009",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 9",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-steuerfuesse-2025__c0008",
-"nachher": "sg-steuerfuesse-2025__c0010"
-},
-{
-"id": "sg-steuerfuesse-2025__c0010",
-"titel": "Steuerfüsse SG 2025 – Abschnitt 10",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-steuerfuesse-2025__c0009",
 "nachher": null
 }
 ]

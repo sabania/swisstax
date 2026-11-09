@@ -5,16 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 110"
-seiten: "36"
+seiten: "37"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 37
 
-Da während des Kapitalbands KER in der Höhe von 11'500 an die Aktionäre zurückbezahlt
-und durch diese wieder einbezahlt werden, können auch sie zusätzlich gutgeschrieben wer-
-den. Als nicht börsenkotierte Gesellschaft erfolgt die Rückzahlung der 11'300 übrigen Reser-
-ven nicht über eine zweite Handelslinie. Auch diese wiedereinbezahlten Reserven können,
-da steuerlich abgerechnet, zusätzlich gutgeschrieben werden.
-
-Am Ende des Kapitalbands kann eine entsprechende Umbuchung von übrigen Reserven in
-KER bzw. Ausland-KER im Umfang von 24'800 vorgenommen werden.
+Die Kapitaleinlage am 1. Juli 1998 wurde der Gesellschaft in Schweizer Franken bestätigt,
+da Reserven aus Kapitaleinlagen steuerlich gleich behandelt werden wie Grund- und
+Stammkapital. Die Umrechnung erfolgte dabei gemäss Praxis zum historischen Kurs. Die
+Rückzahlung am 1. Juli 2019 erfolgte zum damaligen Transaktionskurs von 0.99. Die Kapi-
+talgesellschaft weist somit in ihren Büchern in funktionaler Währung KER im Umfang von
+USD 130’000 aus. Demgegenüber stehen bestätigte KER von CHF 220'700.

@@ -10,12 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 8
 
-4.3.3   Kosten für den Aufenthalt in Tagesstrukturen
-Als behinderungsbedingte Kosten gelten die Aufenthaltskosten in speziellen Tagesstrukturen
-für Personen mit Behinderung (Beschäftigungsstätten, Tageszentren etc.). Nicht zum Abzug zu
-gelassen sind die Kosten der üblichen Verpflegung. Falls die nicht abzugsfähigen Verpflegungs
-kosten nicht separat ausgewiesen sind, können sie nach den Ansätzen gemäss dem Merkblatt
-der ESTV Naturalbezüge von Arbeitnehmenden berechnet werden.
-
-4.3.4   Kosten für Heim- und Entlastungsaufenthalte
-Die Kosten, Taxen und Gebühren für den Aufenthalt in einem Wohnheim für Personen mit
+besorgt, sind diese Kosten angemessen in abziehbare Pflege- und nichtabziehbare Lebenshal
+tungskosten aufzuteilen (vgl. Urteil des Bundesgerichts 9C_655/2022 vom 31. Oktober 2023
+E. 5.4.1).
+Für unentgeltlich erbrachte Assistenzleistungen kann kein Abzug (weder effektiv noch pau
+schal) gemacht werden.
+Die Kosten der Dienste von Dolmetscherinnen und Dolmetschern für Gehörlose (Gebärden
+sprache) und Taubblinde sind ebenfalls zum Abzug zugelassen. Als gehörlos gelten Personen
+mit einem Hörverlust von mindestens 71 Dezibel Hearing Level auf beiden Ohren, gemessen
+ohne Hilfsmittel oder bei anderweitigem Nachweis der Gehörlosigkeit mittels Fragebogen.
+Personen, die keine Hilflosenentschädigung beziehen, aber aufgrund ihrer Behinderung nach
+weislich regelmässig auf Dienstleistungen durch Dolmetscherinnen und Dolmetscher angewie
+sen sind, können anstelle der effektiven selbstgetragenen Kosten eine Pauschale von
+CHF 2‘500 pro Jahr geltend machen, sofern wiederkehrend von Kosten in dieser Höhe auszu

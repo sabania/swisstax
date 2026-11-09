@@ -5,17 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 200"
-seiten: "55"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 55
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
 
-<!-- Seite 55 -->
-8   Kantonswechsel
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 110 000.00 (CHF 80 000 + CHF 30 000).
 
-8.1   Allgemeines
-Der Schuldner der steuerbaren Leistung hat die Quellensteuern mit dem zum Zeitpunkt der
-Fälligkeit der Leistung anspruchsberechtigten Kanton abzurechnen.
-Dieses Prinzip gilt auch in den Fällen, in denen während der Verdienstperiode ein anderer
-Kanton anspruchsberechtigt war (bspw. bei Boni oder Einkommen aus Mitarbeiterbeteiligun-
-gen).
+    Variante zum Beispiel:
+    -   Gleicher Sachverhalt wie in Beispiel 2. Im Jahr 2022 arbeitete der Steuerpflichtige jedoch 120 Tage in der
+    Schweiz und 120 Tage im Ausland.
+    -   Vom Bonus ist in der Schweiz nur der Anteil von CHF 15 000.00 steuerpflichtig (CHF 30 000 / 240 x 120)
+    zum Steuersatz von CHF 110 000.00.

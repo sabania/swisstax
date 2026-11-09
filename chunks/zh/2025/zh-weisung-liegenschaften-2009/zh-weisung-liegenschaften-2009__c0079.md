@@ -5,31 +5,37 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 79"
-seiten: "30"
+seiten: "33"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 30
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 33
 
-Bezirk Affoltern
-Aeugst am Albis   5   880   780   680   580   470   –   –
-Affoltern am Albis   5   680   620   550   490   420   –   –
-Bonstetten   3   720   610   490   –   –   –   –
-Hausen am Albis   5   650   590   520   460   390   –   –
-Hedingen   5   710   660   600   540   480   –   –
-Kappel am Albis   2   520   440   –   –   –   –   –
-Knonau   3   660   540   410   –   –   –   –
-Maschwanden   2   480   380   –   –   –   –   –
-Mettmenstetten   5   670   620   570   520   470   –   –
-Obfelden   3   630   520   410   –   –   –   –
-Ottenbach   3   590   460   320   –   –   –   –
-Rifferswil   3   590   510   440   –   –   –   –
-Stallikon   3   790   650   510   –   –   –   –
-Wettswil am Albis   3   870   720   570   –   –   –   –
-Bezirk Andelfingen
-Andelfingen
-– Adlikon   3   450   370   290   –   –   –   –
- (ehemalige Gemeinde)
-– Andelfingen   5   530   480   430   380   320   –   –
- (ehemalige Gemeinde)
-– Humlikon   3   540   460   380   –   –   –   –
- (ehemalige Gemeinde)
+<!-- Seite 33 -->
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Bebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Bülach
+Bachenbülach   4   420   370   330   280   –   –   –
+Bassersdorf   5   490   450   400   350   300   –   –
+Bülach   5   450   410   370   330   290   –   –
+Dietlikon   5   500   460   410   360   310   –   –
+Eglisau   5   360   330   290   260   220   –   –
+Embrach   4   380   340   310   270   –   –   –
+Freienstein-Teufen   2   320   260   –   –   –   –   –
+Glattfelden   5   310   290   260   240   210   –   –
+Hochfelden   4   380   340   300   260   –   –   –
+Höri   3   250   210   170   –   –   –   –
+Hüntwangen   5   310   290   270   250   220   –   –
+Kloten   5   490   450   400   350   300   –   –
+Lufingen   3   490   380   270   –   –   –   –
+Nürensdorf   5   480   440   390   350   300   –   –
+Oberembrach   3   410   330   250   –   –   –   –
+Opfikon   4   470   410   340   280   –   –   –
+Rafz   4   360   320   270   230   –   –   –
+Rorbas   3   310   280   250   –   –   –   –
+Wallisellen   5   530   490   440   390   340   –   –

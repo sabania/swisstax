@@ -5,28 +5,34 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 77"
-seiten: "22"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 22
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 24
 
-    Rheinstrasse 33, Postfach   Rheinstrasse 33, Postfach
-    4410 Liestal   4410 Liestal
-    Telefon 061 552 53 17   Telefon 061 552 66 83
-    E-Mail stv.kanzlei@bl.ch   E-Mail steuerverwaltung@bl.ch
-BS   Steuerverwaltung Basel-Stadt   Steuerverwaltung Basel-Stadt
-    Loge / Formularverkauf   Abteilung Veranlagung Natürliche Personen
-    Fischmarkt 10   Fischmarkt 10
-    4001 Basel   4001 Basel
-    Telefon 061 267 97 92   Telefon 061 267 44 39
-    E-Mail steuerbezug@bs.ch   E-Mail steuerverwaltung@bs.ch
-BE   Steuerverwaltung des Kantons Bern   Steuerverwaltung des Kantons Bern
-    Produktion und Spedition
-    Postfach 8334   Postfach 8334
-    3001 Bern   3001 Bern
-    Telefon 031 633 60 01   Telefon 031 633 60 01
-    E-Mail spedition.sv@be.ch   E-Mail lohnausweis.sv@be.ch
-FR   Service cantonal des contributions   Service cantonal des contributions
-    Economat et expédition   Secrétariat général
-    Rue Joseph-Piller 13   Rue Joseph-Piller 13
-    1701 Fribourg   1701 Fribourg
+<!-- Seite 24 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
+
+Kanton   Adresse für die Bestellung von   Adresse für Auskünfte zum
+    Lohnausweis und Wegleitung   Ausfüllen des Lohnausweises
+
+SG   Kantonales Steueramt   Kantonales Steueramt
+    Drucksachen   Hauptabteilung Natürliche Personen
+    Davidstrasse 41   Davidstrasse 41
+    9001 St. Gallen   9001 St. Gallen
+    Telefon 058 229 41 43   Telefon 058 229 41 21
+    E-Mail ksta.bestellungen@sg.ch   E-Mail ksta.dienste@sg.ch
+SH   Kantonale Steuerverwaltung   Kantonale Steuerverwaltung
+    J. J. Wepferstrasse 6   J. J. Wepferstrasse 6
+    8200 Schaffhausen   8200 Schaffhausen
+    Telefon 052 632 72 46   Telefon 052 632 72 46
+SO   Steueramt des Kantons Solothurn, Bezug   Steueramt des Kantons Solothurn
+    Schanzmühle   Schanzmühle
+    Werkhofstrasse 29c   Werkhofstrasse 29c
+    4509 Solothurn   4509 Solothurn
+    Telefon 032 627 87 87   Telefon 032 627 87 01
+    E-Mail bestellungen@fd.so.ch   E-Mail steueramt.so@fd.so.ch
+SZ   Kantonale Steuerverwaltung Schwyz   Kantonale Steuerverwaltung Schwyz
+    Bahnhofstrasse 15   Bahnhofstrasse 15
+    Postfach 1232   Postfach 1232
+    6431 Schwyz   6431 Schwyz

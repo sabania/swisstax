@@ -5,31 +5,40 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 46"
-seiten: "20"
+seiten: "21"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 20
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 21
+
+<!-- Seite 21 -->
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Unbebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
 
 Bezirk Affoltern
-Aeugst am Albis   5   980   870   750   640   520   –   –
-Affoltern am Albis   5   760   690   610   540   460   –   –
-Bonstetten   3   800   680   550   –   –   –   –
-Hausen am Albis   5   720   650   580   510   440   –   –
-Hedingen   5   790   730   670   610   540   –   –
-Kappsel am Albis   2   580   490   –   –   –   –   –
-Knonau   3   740   600   450   –   –   –   –
-Maschwanden   2   520   420   –   –   –   –   –
-Mettmenstetten   5   750   700   640   580   520   –   –
-Obfelden   3   700   580   460   –   –   –   –
-Ottenbach   3   650   510   360   –   –   –   –
-Rifferswil   3   650   570   490   –   –   –   –
-Stallikon   3   870   720   570   –   –   –   –
-Wettswil am Albis   3   970   800   630   –   –   –   –
+Aeugst am Albis   5   590   520   450   380   310   –   –
+Affoltern am Albis   5   460   420   370   330   280   –   –
+Bonstetten   3   480   410   330   –   –   –   –
+Hausen am Albis   5   430   390   350   310   260   –   –
+Hedingen   5   470   440   400   360   320   –   –
+Kappel am Albis   2   350   290   –   –   –   –   –
+Knonau   3   440   360   270   –   –   –   –
+Maschwanden   2   310   250   –   –   –   –   –
+Mettmenstetten   5   450   420   380   350   310   –   –
+Obfelden   3   420   350   270   –   –   –   –
+Ottenbach   3   390   300   210   –   –   –   –
+Rifferswil   3   390   340   290   –   –   –   –
+Stallikon   3   520   430   340   –   –   –   –
+Wettswil am Albis   3   580   480   380   –   –   –   –
 Bezirk Andelfingen
 Andelfingen
-– Adlikon   3   500   410   320   –   –   –   –
- (ehemalige Gemeinde)
-– Andelfingen   5   590   530   470   410   350   –   –
- (ehemalige Gemeinde)
-– Humlikon   3   600   520   430   –   –   –   –
- (ehemalige Gemeinde)
+– Adlikon   3   300   250   190   –   –   –   –
+  (ehemalige Gemeinde)
+– Andelfingen   5   360   330   290   250   210   –   –
+  (ehemalige Gemeinde)
+– Humlikon   3   360   310   260   –   –   –   –
+  (ehemalige Gemeinde)

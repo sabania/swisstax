@@ -4,17 +4,15 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 83"
-seiten: "20"
+titel: "Anhang III Ziff. 5a Reverse Convertibles bis zwölf Monate ohne garantierte Zahlungen (Teil 3/3)"
+ziffer: "Anh. III 5a"
+seiten: "23-24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 23–24
 
-Werden indessen die folgenden Bedingungen kumulativ eingehalten und werden dynami-
-sche Index- und Basketzertifikate damit (lediglich) passiv bewirtschaftet, geniessen sie die
-gleiche steuerliche Beurteilung wie klassische Zertifikate (vgl. Ziffer 1 Buchstabe a hievor):
-    1. Die im Index oder Basket enthaltenen Aktien werden während der Laufzeit des Zerti-
-    fikates nach genau definierten und im voraus festgelegten objektiven Kriterien (wie
-    z.B. Marktkapitalisierung, Liquidität, P/E-Ratio usw.) selektioniert und bewirtschaftet.
-    2. Diese Kriterien sind in den Index- oder Basketspezifikationen festzuhalten und blei-
-    ben während der Laufzeit des Zertifikates unverändert.
+Die mit Diskont-Zertifikaten ohne garantierte Zahlungen und mit Laufzeiten von nicht mehr
+als zwölf Monaten erzielten Gewinne und Verluste gelten (wie bei den übrigen derivativen Fi-
+nanzinstrumenten) – auf Zusehen hin – als steuerfrei.
+
+1-015-DVS-2017-d / Anhang III

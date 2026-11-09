@@ -5,24 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 24"
-seiten: "8"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 7
 
-4.5.1   Beratungsleistungen, Berufs-, Studien- und Karriereberatung, Coaching, Training
-Im Gegensatz zur berufsorientierten Aus- und Weiterbildung erschöpft sich die Beratungsleistung
-nicht in der Vermittlung von Wissen. Vielmehr liegt das in erster Linie verfolgte Ziel in der Lösung
-eines konkreten Problems. Oft beinhaltet eine Beratungsleistung sowohl Elemente der Schulung
-als auch Elemente der Beratung. Die Beurteilung, ob eine solche Dienstleistung als Bildungsleis-
-tung oder als Beratung zu qualifizieren ist, wird aufgrund des abgeschlossenen Vertrags vorge-
-nommen. Überwiegt der Beratungscharakter, sind die angefallenen Kosten gesamthaft nicht als
-eine berufsorientierte Aus- und Weiterbildung im Sinne von Artikel 33 Absatz 1 Buchstabe j DBG
-zu qualifizieren.
-Eine Beratungsleistung, die keine berufsorientierte Aus- und Weiterbildung darstellt, liegt insbe-
-sondere dann vor, wenn das vertragliche Verhältnis individuell auf den Auftraggeber zugeschnit-
-ten ist, auf einer vorgängigen Analyse der entsprechenden Situation beim Auftraggeber beruht
-und darin besteht, konkrete Problemlösungsvorschläge auszuarbeiten sowie eventuell umzuset-
-zen.
-Deshalb stellen Berufs-, Studien- und Karriereberatungen, Coaching und Training grundsätzlich
-keine berufsorientierten Aus- und Weiterbildungen dar.
+zug bringen zu können, ist es nicht erforderlich, den Abschluss des entsprechenden Bildungs-
+lehrganges auch tatsächlich zu erwerben. Sind die Voraussetzungen der Berufsorientierung er-
+füllt, genügt es, dass der steuerpflichtigen Person Kosten anfallen.
+Als berufsorientierte Aus- und Weiterbildungen gelten dabei insbesondere Kurse, Seminare, Kon-
+gresse und andere Veranstaltungen wissenschaftlicher oder bildender Art, die entweder einen
+direkten Bezug zur aktuellen Berufsausübung haben oder im Hinblick auf eine beabsichtigte zu-
+künftige Berufsausübung besucht werden.

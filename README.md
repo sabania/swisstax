@@ -36,7 +36,7 @@ verlinktes Markdown-Wiki → Schema-Datei (`AGENTS.md`) mit den Regeln. Ergänzt
 ├── raw/<jur>/<jahr>/    Originale (PDF/HTML/XML) als Backup, sha256 in der Registry
 ├── registry/            sources.yaml (alle Quellen) · taxonomy.yaml (Schlüssel) · years.yaml · chunkplans/
 ├── tools/               Python-Pipeline (fetch → convert/laws → chunk → build_index → build_quick → lint)
-├── skills/              AgentSkills/OpenClaw: steuerwiki (Abfrage), steuerwiki-pflege (Ingest/neues Jahr)
+├── skills/              AgentSkills/OpenClaw: steuerwiki (Abfrage), steuererklaerung-np (Fall-Ablauf), steuerwiki-pflege (Pflege)
 ├── openclaw/            Integrationsanleitung, Konfig-Snippets, install.sh
 └── reports/             Lint- und Prüfberichte
 ```

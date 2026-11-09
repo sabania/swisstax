@@ -10,14 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
 
-Beiträge des Arbeitgebers für die berufsorientierte Aus- und Weiterbil   Ziffer 13.3
-dung – einschliesslich Umschulungskosten
-In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte Aus-   61
-und Weiterbildung – einschliesslich Umschulungskosten – eines Arbeitnehmers anzugeben,
-die dem Arbeitnehmer vergütet werden. Nicht anzugeben sind Vergütungen, die direkt an
-Dritte (z. B. Bildungsinstitut) bezahlt werden.
+Ein Hinweis auf solche Gehaltsnebenleistungen ist nicht notwendig, wenn es sich bei der
+Gehaltsnebenleistung um eine geringfügige jährliche Vergünstigung handelt (bis zu CHF
+2'500, analog zur Regelung für geringfügige Jahreslöhne gemäss AHV-Recht, Stand
+1.1.2025). Als geringfügig gelten die branchenüblichen Rabatte, sofern der Arbeitgeber die
+Waren usw. dem Arbeitnehmer ausschliesslich zu dessen Eigengebrauch und zu einem
+Preis, der mindestens die Selbstkosten deckt, zukommen lässt. Personalvergünstigungen an
+dessen nahestehenden Personen sind in Ziffer 2.3 zu deklarieren. Weitere Ausnahmen von
+der Deklarationspflicht sind in Rz 72 aufgeführt.
 
-Immer zu bescheinigen sind jedoch effektive Vergütungen für Rechnungen, die auf den Na
-men des Arbeitnehmers ausgestellt sind.
-
-Weitere Gehaltsnebenleistungen   Ziffer 14
+Bemerkungen   Ziffer 15

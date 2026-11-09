@@ -1,0 +1,434 @@
+[
+{
+"id": "zh-form-300-2026-uj__c0001",
+"titel": "Seite 1 Kopf – Steuererklärung 2026 Kanton Zürich (unterjährig)",
+"pfad": [
+"Seite 1",
+"Kopf"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Steuererklärung Zürich",
+"Scancenter",
+"Einreichung",
+"Vertreter",
+"Treuhänder",
+"unterjährige Steuerpflicht",
+"Dauer der Steuerpflicht"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Titelblatt Form. 300: Staats-, Gemeinde- und direkte Bundessteuer; Vertreter/in-Vollmacht, Einreichung beim Scancenter. Dauer der Steuerpflicht von/bis.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "zh-form-300-2026-uj__c0002"
+},
+{
+"id": "zh-form-300-2026-uj__c0002",
+"titel": "Seite 1 Personalien (Stand 31.12.2026), Pensionskassenbeiträge",
+"pfad": [
+"Seite 1",
+"Personalien"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Personalien",
+"Zivilstand",
+"Konfession",
+"Pensionskasse",
+"eingetragene Partnerschaft"
+],
+"positionen": [
+"personalien"
+],
+"zusammenfassung": "Personalien Person 1/2, Zivilstand, Beruf, ordentliche Beiträge an die Pensionskasse (2. Säule); eingetragene Partnerschaft wird wie Ehe behandelt.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0001",
+"nachher": "zh-form-300-2026-uj__c0003"
+},
+{
+"id": "zh-form-300-2026-uj__c0003",
+"titel": "Seite 1 Kinder und unterstützte Personen",
+"pfad": [
+"Seite 1",
+"Kinder"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Kinder",
+"Kinderabzug",
+"Unterhaltsbeiträge",
+"unterstützte Personen",
+"Ausbildung",
+"Lehrfirma"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung"
+],
+"zusammenfassung": "Kinder Jahrgänge 2009–2026 oder in Erstausbildung (im/ausserhalb Haushalt) und unterstützte Personen ab Staatssteuer CHF 2’800 bzw. Bundessteuer CHF 6‘800.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0002",
+"nachher": "zh-form-300-2026-uj__c0004"
+},
+{
+"id": "zh-form-300-2026-uj__c0004",
+"titel": "Ziff. 1–2 Einkünfte aus unselbständiger und selbständiger Erwerbstätigkeit (Codes 100–123)",
+"pfad": [
+"Einkünfte",
+"Erwerbstätigkeit"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1–2",
+"stichworte": [
+"Lohn",
+"Lohnausweis",
+"Nebenerwerb",
+"VR-Honorare",
+"Tantiemen",
+"selbständig",
+"Hilfsblatt A"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb",
+"einkommen.unselbstaendig.vr_honorare",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Ziff. 1.1 Haupterwerb (100/101), 1.2 Nebenerwerb (102/103), 2.1/2.2 selbständig mit Hilfsblatt A/B/G (120–123); Randhinweise zu Verwaltungsratshonoraren und Liquidationsgewinnen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0003",
+"nachher": "zh-form-300-2026-uj__c0005"
+},
+{
+"id": "zh-form-300-2026-uj__c0005",
+"titel": "Ziff. 3 Sozialversicherungen: AHV/IV, Renten, Erwerbsausfall, Familienzulagen (Codes 130–143)",
+"pfad": [
+"Einkünfte",
+"Sozialversicherungen"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "3",
+"stichworte": [
+"AHV",
+"IV-Rente",
+"Pension",
+"Leibrente",
+"Taggeld",
+"Arbeitslosenentschädigung",
+"Familienzulagen",
+"Mutterschaft"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.vorsorge.renten",
+"einkommen.vorsorge.uebrige_renten",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Ziff. 3.1 AHV/IV-Renten (130/131), 3.2 Renten/Pensionen mit Prozenten (134–137), 3.3 ALV-Entschädigungen (140/141), 3.4 Familienzulagen, Taggelder, EO (142/143).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0004",
+"nachher": "zh-form-300-2026-uj__c0006"
+},
+{
+"id": "zh-form-300-2026-uj__c0006",
+"titel": "Ziff. 4–7 Wertschriftenertrag, übrige Einkünfte, Liegenschaften, Total (Codes 150–199)",
+"pfad": [
+"Einkünfte",
+"Wertschriften und übrige Einkünfte"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "4–7",
+"stichworte": [
+"Wertschriften",
+"Dividenden",
+"qualifizierte Beteiligung",
+"Alimente",
+"Kapitalabfindung",
+"Liegenschaften",
+"Total Einkünfte"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.lotterie_gewinne",
+"einkommen.beteiligungen_qualifiziert",
+"einkommen.unterhaltsbeitraege",
+"einkommen.uebrige",
+"einkommen.kapitalabfindung_wiederkehrend",
+"einkommen.liegenschaften.eigenmietwert",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 4.1 Wertschriftenertrag (150), 4.2 qualifizierte Beteiligungen (151), 5.1–5.5 übrige Einkünfte (160–164), 6 Nettoertrag Liegenschaften (188), 7 Total (199).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0005",
+"nachher": "zh-form-300-2026-uj__c0007"
+},
+{
+"id": "zh-form-300-2026-uj__c0007",
+"titel": "Ziff. 11–13 Abzüge: Berufsauslagen, Schuldzinsen, Unterhaltsbeiträge, Renten (Codes 220–256)",
+"pfad": [
+"Abzüge",
+"Berufsauslagen bis Unterhalt"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "11–13",
+"stichworte": [
+"Berufsauslagen",
+"Schuldzinsen",
+"Alimente",
+"Unterhaltsbeiträge",
+"Rentenleistungen"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.schuldzinsen",
+"abzug.unterhaltsbeitraege"
+],
+"zusammenfassung": "Ziff. 11 Berufsauslagen (220/240), 12 Schuldzinsen (250), 13.1–13.3 Unterhaltsbeiträge und Rentenleistungen (254/255/256).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0006",
+"nachher": "zh-form-300-2026-uj__c0008"
+},
+{
+"id": "zh-form-300-2026-uj__c0008",
+"titel": "Ziff. 14–18 Säule 3a, Versicherungsprämien, weitere Abzüge, Sonderabzug (Codes 260–299)",
+"pfad": [
+"Abzüge",
+"Vorsorge und weitere Abzüge"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "14–18",
+"stichworte": [
+"Säule 3a",
+"Versicherungsprämien",
+"Weiterbildung",
+"Vermögensverwaltung",
+"Behinderung",
+"Kinderbetreuung",
+"Zweiverdiener"
+],
+"positionen": [
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.versicherungspraemien",
+"abzug.vorsorge.saeule2_einkauf",
+"abzug.weiterbildung",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.behinderungskosten",
+"abzug.uebrige",
+"abzug.parteispenden",
+"abzug.drittbetreuung",
+"abzug.zweiverdiener",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 14 Säule 3a (260/261, Einkauf 264 mit 276/278), 15 Versicherungsprämien (270), 16 weitere Abzüge (280–284, 292, 376; Fremdbetreuung Jahrg. 2012–2026 max. 25’300 / 25’800), 17 Sonderabzug Doppelverdiener (290), 18 Total (299).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0007",
+"nachher": "zh-form-300-2026-uj__c0009"
+},
+{
+"id": "zh-form-300-2026-uj__c0009",
+"titel": "Ziff. 19–23 Einkommensberechnung: Nettoeinkommen, Krankheitskosten, Zuwendungen, Reineinkommen",
+"pfad": [
+"Einkommensberechnung"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "19–23",
+"stichworte": [
+"Nettoeinkommen",
+"Reineinkommen",
+"Krankheitskosten",
+"gemeinnützige Zuwendungen",
+"Spenden"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.spenden",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 21 Nettoeinkommen (310), 22.1 Krankheits- und Unfallkosten (320), 22.2 gemeinnützige Zuwendungen (324), 23 Reineinkommen (350).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0008",
+"nachher": "zh-form-300-2026-uj__c0010"
+},
+{
+"id": "zh-form-300-2026-uj__c0010",
+"titel": "Ziff. 24–27 Sozialabzüge und steuerbares Einkommen (Codes 365–398)",
+"pfad": [
+"Einkommensberechnung",
+"Sozialabzüge"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "24–27",
+"stichworte": [
+"Kinderabzug",
+"Sozialabzug",
+"unterstützte Personen",
+"Ehegatten",
+"steuerbares Einkommen"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"sozialabzug.verheiratete",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 24.1 Kinderabzug Staatssteuer 9’400 / Bund 6‘800 (370/372), 24.2 unterstützte Personen 2‘800 / 6‘800 (374), 24.3 Ehegatten Bund 2‘800 (365); Ziff. 25 steuerbares Einkommen (390), 27 im Kanton Zürich (398).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0009",
+"nachher": "zh-form-300-2026-uj__c0011"
+},
+{
+"id": "zh-form-300-2026-uj__c0011",
+"titel": "Ziff. 30 Bewegliches Vermögen (Codes 400–416)",
+"pfad": [
+"Vermögen",
+"Bewegliches Vermögen"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "30",
+"stichworte": [
+"Wertschriften",
+"Bargeld",
+"Gold",
+"Lebensversicherung",
+"Motorfahrzeug",
+"Steuerwert"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"vermoegen.bargeld_edelmetalle",
+"vermoegen.lebensversicherungen",
+"vermoegen.fahrzeuge",
+"vermoegen.erbschaften_beteiligungen",
+"vermoegen.uebrige"
+],
+"zusammenfassung": "Steuerwerte per 31.12.2026: 30.1 Wertschriften (400), 30.2 Bargeld/Edelmetalle (404), 30.3 Lebens-/Rentenversicherungen (406), 30.4 Motorfahrzeuge (412), 30.5 Geschäftsanteile (414), 30.6 Übrige (416).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0010",
+"nachher": "zh-form-300-2026-uj__c0012"
+},
+{
+"id": "zh-form-300-2026-uj__c0012",
+"titel": "Ziff. 31–37 Liegenschaften, Eigenkapital, Schulden, steuerbares Vermögen (Codes 421–498)",
+"pfad": [
+"Vermögen",
+"Liegenschaften bis steuerbares Vermögen"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "31–37",
+"stichworte": [
+"Liegenschaft",
+"Verkehrswert",
+"Ertragswert",
+"Schulden",
+"Hypothek",
+"steuerbares Vermögen"
+],
+"positionen": [
+"vermoegen.liegenschaften",
+"vermoegen.erbschaften_beteiligungen",
+"schulden.privat",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 31.1 Liegenschaften zum Verkehrswert (421), 31.2 Ertragswert (422), 32 Eigenkapital Selbständiger (430), 33 Total (460), 34 Schulden (470), 35 steuerbares Vermögen (490), 37 im Kanton Zürich (498); Neubewertung per 1.1.2026.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0011",
+"nachher": "zh-form-300-2026-uj__c0013"
+},
+{
+"id": "zh-form-300-2026-uj__c0013",
+"titel": "Ziff. 40 Kapitalleistungen aus Vorsorge (Code 510)",
+"pfad": [
+"Ergänzende Angaben"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "40",
+"stichworte": [
+"Kapitalleistung",
+"Pensionskasse",
+"Säule 3a",
+"Freizügigkeit",
+"Auszahlungsdatum"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge"
+],
+"zusammenfassung": "Kapitalleistungen aus AHV/IV, 2. Säule, Freizügigkeitskonto, Säule 3a oder infolge Tod/bleibender Nachteile mit Auszahlungsdatum (Code 510).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0012",
+"nachher": "zh-form-300-2026-uj__c0014"
+},
+{
+"id": "zh-form-300-2026-uj__c0014",
+"titel": "Ziff. 50 Schenkungen, Erbvorbezüge, Erbschaften; Unterschrift",
+"pfad": [
+"Ergänzende Angaben"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "50",
+"stichworte": [
+"Schenkung",
+"Erbvorbezug",
+"Erbschaft",
+"Erbengemeinschaft",
+"Unterschrift"
+],
+"positionen": [
+"info.schenkungen_erbschaften",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Ziff. 50.1 erhalten (Code 516) und 50.2 ausgerichtet (Code 519) im Jahr 2026; Bestätigung der Vollständigkeit und Unterschrift.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-300-2026-uj__c0013",
+"nachher": null
+}
+]

@@ -5,18 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 71"
-seiten: "21"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
 
-Finden jedoch sowohl die Überführung einer Liegenschaft als auch deren Veräusserung in-
-nerhalb der „Liquidationsperiode“ (Vorjahr und Liquidationsjahr) statt, so werden diese bei-
-den Vorgänge als Liquidationstätigkeit betrachtet und alle stillen Reserven, das heisst die
-wieder eingebrachten Abschreibungen und der Wertzuwachsgewinn, bilden Teil des Liquida-
-tionsgewinnes, auf welchen Artikel 37b DBG Anwendung findet. Ein Aufschub nach Artikel
-18a Absatz 1 DBG ist allerdings auch in diesen Fällen möglich.
+Artikel 2 definiert den Begriff des Liquidationsjahres. Als Liquidationsjahr wird dasjenige Ge-
+schäftsjahr bezeichnet, in dem die letzte Liquidationshandlung vorgenommen wurde. In der
+Regel ist eine Liquidation abgeschlossen, wenn die letzte Inkassohandlung eingeleitet wor-
+den ist. Da es sich dabei manchmal um marginale Beträge handeln kann, sollen jedoch auch
+andere Umstände das Ende der Liquidation darstellen können. Der Zeitpunkt des Abschlus-
+ses der Liquidation ist – wie dies nach geltendem Recht auch der Fall ist – im Einzelfall zu
+klären.
 
-Es sind folgende Fälle auseinander zu halten:
+Mit dem Inkrafttreten der Verordnung am 1. Januar 2011 kann bei der Aufgabe der selbstän-
+digen Erwerbstätigkeit im Jahr 2011 das Jahr 2010 als zweites massgebendes Geschäftsjahr
+herangezogen werden.
 
-1. Ohne Aufschub:
+Artikel 3   Verhältnis zu Artikel 18a DBG

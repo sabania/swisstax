@@ -10,13 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
 
-<!-- Seite 4 -->
-a)   Rückerstattung der bezahlten Steuern
+Bei mehreren Vorbezügen erfolgt die Rückerstattung der bezahlten Steuern in der gleichen
+zeitlichen Reihenfolge, wie zuvor die Vorbezüge stattgefunden haben. Eine Wiedereinzah-
+lung führt somit bei mehreren Vorbezügen zur Tilgung des früheren vor dem späteren Vor-
+bezug und dementsprechend auch zur Rückerstattung der auf diesem früheren Vorbezug
+bezahlten Steuern. Bei teilweiser Rückzahlung des vorbezogenen Betrages wird der Steuer-
+    3
+betrag im Verhältnis zum Vorbezug zurückerstattet.
 
-Falls die Rückzahlung des Vorbezuges aus den im Gesetz genannten Gründen zwingend
-oder fakultativ (Art. 30d Abs. 1 und 2, Art. 79b Abs. 3 BVG) erfolgt ist, gibt sie dem Vorsor-
-genehmer Anspruch auf zinslose Rückerstattung der seinerzeit an Bund, Kanton und Ge-
-meinde bezahlten Steuern. Folgerichtig ist der Abzug des wieder einbezahlten Vorbezuges
-vom steuerbaren Einkommen ausgeschlossen. Das Recht auf Rückerstattung erlischt nach
-Ablauf von drei Jahren seit der Wiedereinzahlung des Vorbezuges (Art. 83a Abs. 2 und
-3 BVG).
+Eine ausländische Steuer, die gegebenenfalls zu bezahlen war (vgl. Ziff. 2.1), kann gestützt
+auf die Massnahmen der Wohneigentumsförderung mit Mitteln der 2. Säule, die internes
+Recht darstellen, nicht in der Schweiz zurückverlangt werden.
+
+b)   Ausgleich des durch einen WEF-Vorbezug entstandenen Zinsausfalls

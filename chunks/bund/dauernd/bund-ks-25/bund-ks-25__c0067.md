@@ -5,35 +5,29 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 67"
-seiten: "18"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 19
 
-    Ist das Kriterium   nein
-    des Zwecks der   Es liegt keine akK vor: Weitere Abklärungen notwendig
-    kK gegeben4?
+<!-- Seite 19 -->
+Anhang VI
+Musterreporting inländische Dachfonds (MS Excel 2013)
 
-    ja
+Musterreporting inländische Dachfonds (MS Excel 2007)
 
-    nein   ja   AkK, welche für CH-Steuerzwecke wie eine SICAF besteuert wird:
-    Rückgaberecht
-    UA: Primärmarkt unterliegt
-    des Anlegers   SICAF-ähnlich?
-    Befreiter Anleger für UA-Zwecke: Ja
-    vorhanden5?
-    Einkommens-/Gewinnsteuerzwecke: Nicht-transparente Besteuerung
+Entspricht dem Anhang VII des KS Nr. 24 vom 20. November 2017
 
-    nein   AkK, welche für CH-Steuerzwecke wie eine KmGK besteuert wird:
-    ja   UA: Primärmarkt unterliegt
-    Befreiter Anleger für UA-Zwecke: Ja
-    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
 
-    AkK, welche für CH-Steuerzwecke wie ein FCP resp. eine SICAV besteuert
-    wird:
-    UA: Primärmarkt unterliegt
-    Befreiter Anleger für UA-Zwecke: Ja
-    Einkommens-/Gewinnsteuerzwecke: Transparente Besteuerung
+Anhang VII
+Musterreporting ausländische Dachfonds (MS Excel 2013)
 
-Legende:
- 1 Siehe die Liste der ausländischen kollektiven Kapitalanlagen, deren Vertrieb in oder von der Schweiz aus genehmigt wurde, unter:
+Musterreporting ausländische Dachfonds (MS Excel 2017)
+
+Entspricht dem Anhang VIII des KS Nr. 24 vom 20. November 2017
+
+
+Anhang VIII
+Musterreporting für Einzelfonds (MS Excel 2013)
+
+Entspricht dem Anhang des KS Nr. 24 vom 20. November 2017

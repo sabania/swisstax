@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-25-zweiverdienerabzug> · lokal: [tg-stp-34-25.html](../../../raw/tg/dauernd/tg-stp-34-25.html) · Volltext: [tg-stp-34-25.md](../../../sources/tg/dauernd/tg-stp-34-25.md)
 - **Abgerufen:** 2026-11-09 · sha256 `1912205a35fd39e1…`
 
-## Inhalt (19 Chunks)
+## Inhalt (18 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -34,4 +34,3 @@ generiert: tools/build_index.py
 | [c0016](../../../chunks/tg/dauernd/tg-stp-34-25/tg-stp-34-25__c0016.md) | Ältere Versionen |  |  |
 | [c0017](../../../chunks/tg/dauernd/tg-stp-34-25/tg-stp-34-25__c0017.md) | Ältere Versionen |  |  |
 | [c0018](../../../chunks/tg/dauernd/tg-stp-34-25/tg-stp-34-25__c0018.md) | Ältere Versionen |  |  |
-| [c0019](../../../chunks/tg/dauernd/tg-stp-34-25/tg-stp-34-25__c0019.md) | Ältere Versionen |  |  |

@@ -5,16 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB 21 EDP – Abschnitt 9"
-seiten: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 2
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 3
 
-12   Bei Arbeitnehmern sind grundsätzlich alle vom Lohn abgezogenen Beiträge an die beruf
-    liche Vorsorge vom Arbeitgeber im Lohnausweis aufzuführen und dürfen deshalb vom
-    Vorsorgeträger nicht mit dem Formular 21 bescheinigt werden. Dies bedeutet gleichzei
-    tig, dass alle vom Arbeitnehmer aus eigenen Mitteln aufgebrachten, aber ihm nicht vom
-    Lohn abgezogenen Beiträge nur im Formular 21 angegeben werden dürfen, nicht aber im
-    Lohnausweis (Art. 81 Abs. 3 BVG). Zu diesen Beiträgen gehören beispielsweise Einkäufe
-    oder Wiedereinkäufe infolge Scheidung, welche vom Vorsorgenehmer selbst an den Vor
-    sorgeträger überwiesen werden.
+<!-- Seite 3 -->
+13   Der Arbeitgeber hat dem Arbeitnehmer gemäss Wegleitung zum Ausfüllen des Lohnaus
+    weises der Schweizerischen Steuerkonferenz namentlich folgende Leistungen auf dem
+    Lohnausweis zu bescheinigen:
+
+    -   Kapitalleistungen, die dem Arbeitnehmer ausbezahlt und möglicherweise mit einem re
+    duzierten Steuersatz besteuert werden. Als solche Kapitalleistungen fallen Abgangs
+    entschädigungen mit Vorsorgecharakter, Kapitalleistungen mit Vorsorgecharakter,
+    Lohnnachzahlungen usw. in Betracht (siehe auch Kreisschreiben Nr. 1 vom 3. Okto
+    ber 2002 der ESTV).
+    -   Vom Arbeitgeber übernommene Beiträge an Einrichtungen der kollektiven beruflichen
+    Vorsorge (2. Säule, inkl. Kaderversicherungen), die nach Gesetz, Statut oder Regle
+    ment vom Arbeitnehmer geschuldet sind.
+    -   Die Beiträge für den Einkauf von fehlenden Versicherungsjahren oder von fehlendem
+    Spar- bzw. Deckungskapital, die Beiträge für den Einkauf, der durch eine Änderung
+    des Reglements oder Vorsorgeplans bedingt ist und die Beiträge für den Wiedereinkauf
+    nach einer Scheidung, die dem Arbeitnehmer direkt vom Lohn abgezogen wurden.

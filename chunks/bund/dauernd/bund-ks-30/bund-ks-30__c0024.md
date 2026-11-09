@@ -4,18 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 24"
-seiten: "5"
+titel: "Ziff. 6.2.4 Anteilsmässige Haftung der Ehegatten"
+ziffer: "6.2.4"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 30 · 6 Haftung und Mithaftung › 6.2.4 · S. 10
 
-Im Gegensatz zu den Ehepaaren werden Konkubinatspaare stets individuell veranlagt. Ihre
-Einkommen werden nicht addiert, was angesichts des progressiven Steuertarifs zu beträcht-
-lichen Unterschieden in der steuerlichen Belastung von Ehepaaren und gleichsituierten Kon-
-kubinatspaaren führen kann. Diese verfassungswidrige Ungleichbehandlung wurde durch die
-von den Eidg. Räten am 6. Oktober 2006 verabschiedeten Sofortmassnahmen im Bereich
-der Ehepaarbesteuerung wesentlich abgebaut (vgl. dazu die Ausführungen zum Zweiverdie-
-nerabzug unter Ziff. 9 und zum Verheiratetenabzug unter Ziff. 12).
+6.2.4   Anteilsmässige Haftung
 
-1.2   Beginn und Ende der Gemeinschaftsbesteuerung
+Bei Zahlungsunfähigkeit eines Ehegatten haftet jeder Ehegatte nur für seinen Anteil an der
+Gesamtsteuer. Bei rechtskräftigen Veranlagungen wird der Anteil an der Gesamtsteuer auf-
+grund einer besonderen, mit den ordentlichen Rechtsmitteln selbständig anfechtbaren Haf-
+tungsverfügung festgestellt. Die Rechtskraft der zugrunde liegenden Veranlagung der Ge-
+samtfaktoren bleibt davon unberührt.
+
+Auch bei rechtlicher oder tatsächlicher Trennung der Ehe oder bei Tod des Ehegatten haftet
+jeder Ehegatte bzw. der überlebende Ehegatte nur für seinen Anteil an der Gesamtsteuer.
+Auch hier ist allenfalls eine separate Haftungsverfügung zu erlassen, in der die Anteile der
+Ehegatten festgelegt werden.
+
+Der Anteil eines Ehegatten an der geschuldeten Steuer entspricht dem Betrag, der sich auf-
+grund des Verhältnisses seines eigenen steuerbaren Einkommens zum gesamten ehelichen
+steuerbaren Gesamteinkommen ergibt.

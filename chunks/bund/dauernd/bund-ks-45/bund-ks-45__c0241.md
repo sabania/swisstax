@@ -5,18 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 241"
-seiten: "66"
+seiten: "65"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 66
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 65
 
-    Beispiel:
-    -   Eine in Frankreich ansässige Person erzielt jährliche Bruttoeinkünfte in der Höhe von CHF 132 200.00,
-    welche sich wie folgt zusammensetzen:
-       Jahresbruttolohn von CHF 100 000.00 aus der unselbstständigen Erwerbstätigkeit in der Schweiz;
-       Erträge von CHF 20 000.00 aus der Vermietung einer Liegenschaft in Frankreich;
-       Zinserträge auf in- und ausländischen Bankkonten von CHF 200.00 und
-       Alimentenzahlungen vom Ex-Ehegatten mit Wohnsitz in der Schweiz in der Höhe von CHF 12 000.00
-    In Anwendung der internationalen Zuteilungsregeln ist einzig das Einkommen aus unselbstständiger Er-
-    werbstätigkeit in der Schweiz steuerbar. Der Anteil dieses Einkommens an den weltweiten Einkünften be-
-    trägt 75.7 % der steuerpflichtigen Person. Die Person gilt somit in der Schweiz nicht als quasi-ansässig.
+11.3 Nachträgliche ordentliche Veranlagung auf Antrag bei Ansässigkeit in der
+    Schweiz
+Für quellensteuerpflichtige Personen mit Ansässigkeit in der Schweiz, deren Einkommen un-
+ter CHF 120 000.00 pro Jahr liegt (vgl. Ziffer 10.2 oben), wird eine nachträgliche ordentliche
+Veranlagung durchgeführt, wenn sie bis am 31. März des auf die Fälligkeit der Leistung fol-
+genden Steuerjahres einen entsprechenden Antrag einreichen (vgl. Art. 89a DBG i.V.m.
+Art. 10 QStV).
+Der Antrag auf nachträgliche ordentliche Veranlagung muss schriftlich bei der für die Veran-
+lagung zuständigen Steuerbehörde eingereicht werden. Der Antrag muss unterzeichnet sein;
+bei Eheleuten ist der Antrag von beiden Eheleuten zu unterzeichnen. Aus dem Antrag muss
+hervorgehen, für welche Steuerperiode eine nachträgliche ordentliche Veranlagung bean-
+tragt wird (vgl. Musterformular im Anhang I). Werden die formellen Erfordernisse nicht einge-

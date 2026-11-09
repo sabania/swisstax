@@ -10,19 +10,23 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 16
 
-Alle effektiven Spesenvergütungen, die einem Arbeitnehmer ausgerichtet wurden (inkl.   52
-Spesenauslagen, welche über Unternehmenskreditkarten bezahlt werden), müssen dekla
-riert werden. Keine Deklarationspflicht von Spesenauslagen besteht, wenn folgende Vor
-gaben eingehalten werden:
-Eine Hochrechnung der Einzelfallpauschalen auf die Arbeitstage ist nicht zulässig:
-•   Übernachtungsspesen werden gegen Beleg zurückerstattet;
-•   Die Höhe der effektiven Spesenvergütung für Mittag- oder Abendessen entspricht in der Re
-    gel einem Wert von maximal CHF 35 bzw. die Pauschale für eine Hauptmahlzeit beträgt
-    maximal CHF 30;
-•   Kundeneinladungen usw. werden ordnungsgemäss gegen Originalquittung abgerechnet;
-•   Die Vergütung der Kosten für die Benutzung öffentlicher Transportmittel (Bahn, Flugzeug
-    usw.) erfolgt gegen Beleg;
-•   Für die geschäftliche Benutzung des Privatfahrzeuges werden maximal 75 Rappen pro Kilo
-    meter vergütet;
-•   Kleinspesen werden, soweit möglich, gegen Beleg oder in Form einer Tagespauschale von
-    maximal CHF 20 vergütet.
+Voraussetzung für die Anwendung der vorstehenden Pauschalen ist eine tatsächliche Rei
+setätigkeit.
+
+Werden alle diese Vorgaben eingehalten, genügt es, im vorangestellten kleinen Feld
+zu Ziffer 13.1.1 des Lohnausweises ein Kreuz (X) einzusetzen. Auf die Angabe des ef
+fektiven Spesenbetrags kann verzichtet werden.
+
+Effektive Reise-, Verpflegungs- und Übernachtungsspesen   Ziffer 13.1.1
+
+Sind die Vorgaben gemäss Rz 52 nicht erfüllt (kein Kreuz im vorangestellten Feld) oder liegt   53
+kein genehmigtes Spesenreglement vor, sind die Reise-, Verpflegungs- und Übernachtungs
+spesen, die effektiv, d. h. gegen Beleg, vergütet worden sind, betragsmässig anzugeben.
+Als solche Spesen fallen insbesondere in Betracht
+•   Effektive Autospesen;
+•   Flug-, Taxi- und Bahnspesen;
+•   Spesen für Übernachtungen, Frühstück, Mittag und Abendessen;
+•   Spesen für Einladungen von Geschäftspartnern ins Restaurant oder zu Hause;
+•   Spesen für kleinere Verpflegungsauslagen unterwegs.
+
+    ESTV   Seite 16 / 25

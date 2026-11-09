@@ -1,7 +1,7 @@
 ## Steuer-Wiki (Schweiz, natürliche Personen)
 
 Wissensbasis: `steuerwiki/` – Bund + AR/SG/TG/ZH, Steuerjahre 2025/2026. Regeln: `steuerwiki/AGENTS.md` (bei der
-ersten Steuerfrage einer Sitzung lesen). Skill `steuerwiki` beschreibt den Ablauf.
+ersten Steuerfrage einer Sitzung lesen). Skills: `steuerwiki` (Nachschlagen), `steuererklaerung-np` (ganzer Fall: Belege → Ausfüllhilfe).
 
 - Immer zuerst Kanton (Wohnsitz 31.12.) und Steuerjahr klären.
 - Reihenfolge: `steuerwiki/quick/index.md` → `quick/belege-relevanz.md` (relevant?) → `quick/zuordnung-<kt>-<jahr>.md`

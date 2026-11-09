@@ -9,6 +9,6 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [07Z - Liegenschaften Zusammenzug 2022(1498 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_07Z_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 07Z - Liegenschaften Zusammenzug 2022")
-- [12 - Landwirte 2022(605 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_12_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 12 - Landwirte 2022")
-- [13 - Wegleitung für Landwirte 2022(580 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_13_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 13 - Wegleitung für Landwirte 2022")
+- [05 - Schulden / Zuwendungen / Parteispenden 2021(137 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_05_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 05 - Schulden / Zuwendungen / Parteispenden 2021")
+- [06 - Versicherungsprämien / Krankheitskosten 2021(143 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_06_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 06 - Versicherungsprämien / Krankheitskosten 2021")
+- [07 - Liegenschaften 2021(159 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_07_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 07 - Liegenschaften 2021")

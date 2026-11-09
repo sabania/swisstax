@@ -20,7 +20,7 @@ generiert: tools/build_index.py
 | [c0002](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0002.md) | KS VST 48 – Abschnitt 2 | S. 1 |  |
 | [c0003](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0003.md) | KS VST 48 – Abschnitt 3 | S. 1 |  |
 | [c0004](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0004.md) | KS VST 48 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0005.md) | KS VST 48 – Abschnitt 5 | S. 2 |  |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0005.md) | KS VST 48 – Abschnitt 5 | S. 1 |  |
 | [c0006](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0006.md) | KS VST 48 – Abschnitt 6 | S. 2 |  |
 | [c0007](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0007.md) | KS VST 48 – Abschnitt 7 | S. 2 |  |
 | [c0008](../../../chunks/bund/dauernd/bund-ks-vst-48/bund-ks-vst-48__c0008.md) | KS VST 48 – Abschnitt 8 | S. 2 |  |

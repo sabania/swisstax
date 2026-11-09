@@ -5,19 +5,30 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 92"
-seiten: "31"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 32
 
-<!-- Seite 31 -->
-Erklärungen
+<!-- Seite 32 -->
+Anhang 3: Fallbeispiele einer in der Schweiz kotierten Kapitalgesellschaft
 
-       Das Total der zwei Konti für KER und Ausland-KER wird in der Gliederung nach
-    neuem Rechnungslegungsrecht unter den Positionen „Gesetzliche Kapitalreserven“
-    und/oder „Freie Kapitalreserven“ ausgewiesen. Im Beispiel beträgt der Totalbestand
-    an KER 30 und Ausland-KER 10.
-       Eigene Beteiligungsrechte, deren steuerliche Behandlung nach Artikel 5 Absatz 1bis
-    bzw. Artikel 5 Absatz 1quater VStG erfolgen soll, sind in der Handelsbilanz auf zwei ge-
-    sonderten Positionen unter „Eigene Beteiligungsrechte“ auszuweisen. Im Beispiel
-    wird der gesamte Betrag der KER (40) den eigenen Beteiligungsrechten zugewiesen.
+1. Fallbeispiel
+
+Die X AG hat ihr Domizil in der Schweiz. Sie ist an der SIX Swiss Exchange kotiert. Im Früh-
+jahr 2021 beschliesst die Gesellschaft eine Dividende von 6% aufgrund des Jahresergebnis-
+ses 2020. Die Dividende von 60 wird zu Lasten der KER ausgeschüttet. Die ausländische Y
+AG hält 20% am Grundkapital der X AG. Das Eigenkapital der Gesellschaft zeigt vor Korrek-
+tur folgendes Bild:
+
+ Handelsbilanz / Eigenkapital   Bestand   Ausschüt- Bestand
+    tung
+
+ Aktienkapital   1000   1000
+ Kapitalreserven
+ - KER bestätigt   800   -60   740
+ - übrige   400   400
+ Gewinnreserven   4000   4000
+ Gewinn/Gewinnvortrag   800   800
+
+ Total Eigenkapital   7000   6940

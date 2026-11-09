@@ -10,14 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 4
 
-3.2.2   Kosten für Heilbehandlungen
-Die Kosten besonderer Heilbehandlungen wie beispielsweise Massagen, Bestrahlungen, Heil
-bäder, Physio-therapie, Ergotherapie, Ernährungsberatung und Ernährungstherapie, Logopä
-die, Psychotherapie gelten als abzugsfähig, sofern sie ärztlich verordnet sind und von diplomier
-ten Personen durchgeführt werden.
-Eine ärztliche Verordnung im Sinne der Praxis setzt eine vorgängige konkrete Anordnung einer
-Ärztin oder eines Arztes zur Initiierung einer bestimmten Heilmassnahme voraus (vgl. Urteil des
-Bundesgerichts 2C_103/2009 vom 10. Juli 2009 E. 3.1). Eine allgemeine, zeitlich unbe
-schränkte Empfehlung wird dabei nach der bundesgerichtlichen Rechtsprechung nicht als ärztli
-che Verordnung einer Heilmassnahme qualifiziert (vgl. Urteil des Bundesgerichts 2C_258/2010
-vom 23. Mai 2011 E. 4.4.2).
+    e. ohnehin im Rahmen der privaten Lebenshaltung anfallen würden und durch einen Spital
+    aufenthalt eingespart werden können (z. B. Spitalkostenbeiträge, welche hauptsächlich
+    Verpflegungskosten abdecken);
+    f. für zusätzlichen Komfort anfallen, die nicht medizinisch indiziert sind oder lediglich der Be
+    quemlichkeit dienen (z. B. zusätzliche Hotelleriekosten auf der halbprivaten bzw. privaten
+    Abteilung, Zimmer-Upgrade; vgl. Urteil des Bundesgerichts 2C_404/2020 vom 16. De
+    zember 2020 E. 3.6 und 3.7).
+Keine Krankheitskosten stellen weiter die Krankenkassenprämien dar. Sie können nur im Rah
+men des Abzuges nach Artikel 33 Absatz 1 Buchstabe g und Artikel 33 Absatz 1bis DBG berück
+sichtigt werden.

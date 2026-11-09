@@ -4,22 +4,58 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 150"
-seiten: "36"
+titel: "Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 1/2)"
+ziffer: "Beilage 1"
+seiten: "44-45"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 1 Familienkonstellationen · S. 44–45
 
-14.10.2   Abzüge
-   Der Elternteil, der die Unterhaltszahlungen leistet, kann den Kinderabzug geltend ma-
-    chen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren
-    finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, den
-    Kinderabzug geltend machen. Der andere Elternteil kann den Unterstützungsabzug gel-
-    tend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen.
-   Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Versiche-
-    rungs- und Sparzinsenabzug für das Kind. Leisten beide Elternteile Unterhaltszahlungen
-    und erfüllen die Voraussetzungen von Artikel 35 Absatz 1 Buchstabe a bzw. Buchstabe b
-    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
-    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
-    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
-    rungsabzug für das Kind geltend machen.
+    Seite 1
+
+Beilage 1
+    Familienkonstellationen I: Minderjährige Kinder
+    Mit
+    Unterhalts-   14.3.
+    zahlungen
+    14.3.
+    14.3./14.4./14.5.   Ohne gemeinsame elterl. Sorge
+    Ohne
+    A) Getrennte, geschiedene   Unterhalts-
+    oder unverheiratete   zahlungen
+    Paare mit Kindern
+    Mit
+    2 Haushalte   Unterhalts-
+    14.5.
+    14.4./14.5.   zahlungen
+    Mit gemeinsamer elterl. Sorge
+    Ohne
+    Unterhalts-   14.4.
+    zahlungen
+
+    Mit
+    Unterhalts- 14.9.
+    zahlungen
+
+    14.8./14.9.
+    Mit gemeinsamer elterl. Sorge   Ohne
+    Unterhalts- 14.8.
+    14.6./14.7./14.8./14.9./14.16.   zahlungen
+    14.6./14.7./14.8./14.9.
+    Gemeinsame Kinder   Mit
+    B) Konkubinatspaare mit   14.6./14.7.   Unterhalts-
+    Kindern   14.7.
+    Ohne gemeinsame elterl. Sorge   zahlungen
+
+    14.16.   Mit
+    1 Haushalt   Ohne
+    Keine gemeinsamen Kinder   Unterhalts-
+    zahlungen
+    = A)   Unterhalts- 14.6.
+    zahlungen
+    Ohne
+    Unterhalts-
+    zahlungen
+    = A)
+
+    Seite 2

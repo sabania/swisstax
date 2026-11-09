@@ -4,18 +4,16 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 61"
-seiten: "13"
+titel: "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 1/3)"
+ziffer: "Anh. III 1a"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19–20
 
-4.2   Separate Kennzeichnung der Instrumente, die der modifizierten Differenzbe-
-    steuerung unterliegen
-Für Instrumente, die der modifizierten Differenzbesteuerung basierend auf Artikel 20 Ab-
-satz 1 Buchstabe b DBG unterliegen, wird die Kursliste – neben der Bezeichnung IUP – noch
-zusätzlich den analytisch berechneten Emissionspreis der Obligation und die massgebliche
-Originalrendite aufführen. Die Banken haben die bei Erwerb, Handänderungen und Rückzah-
-lung massgeblichen Werte in den Börsenabrechnungen zu bescheinigen, nämlich die im
-BFP-Service der SIX Financial Information AG publizierten Tageskurse der Anlageteile
-(Bondfloor) der in Frage stehenden Produkte (vgl. Ziffer 3.4.1. hievor).
+Eine wirtschaftliche Betrachtung müsste bei Aktienzertifikaten zu einer Qualifikation als (Di-
+rekt-) Investition in Aktien führen mit entsprechender steuerlicher Behandlung. Im Sinne einer
+Ausnahmeregelung werden klassische Index- und Basketzertifikate auf Aktien aber steuer-
+lich als eine eigene Kategorie von Finanzinstrumenten behandelt: Die mit den Zertifikaten er-
+zielten Gewinne und Verluste, die auf den Basiswerten beruhen, gelten (wie bei den übrigen
+derivativen Finanzinstrumenten) steuerlich als Kapitalgewinne oder Kapitalverluste

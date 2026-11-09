@@ -4,24 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 50"
-seiten: "11"
+titel: "Anhang II Beispiel Nr. 3 – Sachverhalt und Annahmen ($-Obligation) (Teil 2/2)"
+ziffer: "Nr. 3"
+seiten: "16-17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 16–17
 
-<!-- Seite 11 -->
-jeweiligen Kurse sich nicht nur auf den Obligationenteil beziehen, sondern auch den Wert der
-Option beinhalten. Weil zudem das Zinsniveau nicht konstant bleibt, muss die rechnerische
-Ermittlung der Anschaffungs- und Veräusserungswerte zusätzlich modifiziert werden. Hierbei
-wird der Originalzinssatz für die jeweilige Emission vierteljährlich der Entwicklung auf dem
-Geld- und Kapitalmarkt unter Bezugnahme auf den 5-jährigen Swapsatz der fraglichen Wäh-
-rung angepasst. Diese sog. modifizierte Differenzbesteuerung gemäss Artikel 20 Absatz 1
-Buchstabe b DBG wird technisch im BFP-Service der SIX Financial Information AG umge-
-setzt (vgl. Anhang IV). Dies ergibt die einkommenssteuerlich relevante Differenz zwischen
-dem Wert der Obligation im Zeitpunkt der Veräusserung und jenem im Zeitpunkt des Er-
-werbs oder zwischen dem Rückzahlungsbetrag und dem Wert der Obligation bei Erwerb. Zu
-beachten gilt, dass die Verrechnungssteuer auch bei überwiegend einmalverzinslichen Pa-
-pieren ausschliesslich auf dem Originaldiskont erhoben wird (siehe Beispiel Nr. 4 in Anhang
-II). Ausführungen zu den Mitwirkungs- und Auskunftspflichten der Banken in diesem Zusam-
-menhang finden sich unter Ziffer 4.2. hienach.
+b) Das als Bezugsgrösse herangezogene Zinsniveau beträgt im Zeitpunkt der ersten
+   Handänderung (vier Jahre vor Verfall) 115% und im Zeitpunkt der zweiten Handänderung
+   (zwei Jahre vor Verfall) 80% des entsprechenden Zinsniveaus am Emissionstag (100%).
+   Es wird vorausgesetzt, dass der Markt mit mathematischer Genauigkeit auf diese
+   Änderungen reagiert.
+
+c) Der Wechselkurs zwischen dem $ und dem SFr. beträgt am Emissionstag 1.50 SFr./$,
+   drei Jahre später 1.60 SFr./$, fünf Jahre später 1.45 SFr./$ und sieben Jahre später (bei
+   Verfall) wiederum 1.50 SFr./$.
+
+    -2-

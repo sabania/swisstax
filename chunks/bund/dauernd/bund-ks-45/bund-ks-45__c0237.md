@@ -5,9 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 237"
-seiten: "65"
+seiten: "64"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 65
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
 
-hörde ab, gilt die Frist als abgelaufen und der Antrag kann nicht mehr gestellt werden.
+auf nachträgliche ordentliche Veranlagung gestellt, wird er bis zum Ende der Quellensteuer-
+pflicht nachträglich ordentlich veranlagt (vgl. Art. 89a Abs. 5 i.V.m. Art. 89 Abs. 5 DBG).
+Im Ausland ansässige quellensteuerpflichtige Arbeitnehmer, welche die Voraussetzungen
+der Quasi-Ansässigkeit erfüllen, müssen für jedes Jahr bis am 31. März des auf die Fälligkeit
+der Leistung folgenden Steuerjahres erneut einen Antrag auf nachträgliche ordentliche Ver-
+anlagung einreichen (vgl. Art. 99a Abs. 1 DBG).
+Personen mit Ansässigkeit in der Schweiz können allfällige auf dem Vermögensertrag zu-
+rückbehaltene Verrechnungssteuern über das Verfahren der nachträglichen ordentlichen
+Veranlagung zurückfordern. Die quellensteuerpflichtige Person untersteht für ihr Einkommen
+aus unselbstständiger Erwerbstätigkeit und für Ersatzeinkünfte bis zum Ende der Quellen-
+steuerpflicht weiterhin dem Quellensteuerabzug (vgl. Art. 89 Abs. 5 DBG i.V.m. Art. 9 Abs. 4
+QStV bzw. Art. 89a Abs. 5 DBG i.V.m. Art. 10 Abs. 2 QStV).

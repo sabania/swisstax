@@ -5,17 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 42"
-seiten: "13"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 14
 
-       bei fusionsähnlichen Zusammenschlüssen durch Einbringen von Beteiligungs- und
-    Mitgliedschaftsrechten einer ausländischen Kapitalgesellschaft oder Genossenschaft
-    in eine inländische Kapitalgesellschaft oder Genossenschaft oder durch grenzüber-
-    schreitende Übertragung auf eine inländische Tochtergesellschaft nach dem 24. Feb-
-    ruar 2008 entstanden sind;
-       im Zeitpunkt einer grenzüberschreitenden Fusion oder Umstrukturierung nach dem
-    24. Februar 2008 bereits in einer ausländischen Kapitalgesellschaft oder Genossen-
-    schaft vorhanden waren und die Kapitaleinlagen gemäss den allgemeinen Grundsät-
-    zen nach dem 31. Dezember 1996 geleistet wurden.
+Soweit Gratisaktien oder Gratisnennwerterhöhungen zu Lasten von übrigen Reserven oder
+der Ausland-KER liberiert werden, gelten die allgemeinen Grundsätze (vgl. Ziff. 4.2.1. hier-
+vor). Soweit die Liberierung zu Lasten der KER erfolgt findet die Ausschüttungsregel (vgl.
+Ziff. 5.1. hiervor) und allenfalls die Besteuerung gemäss Regelverletzung (vgl. Ziff. 5.1.2.
+hiervor) Anwendung.
+
+5.2.   Teilliquidationsregel
+
+Aufgrund von Artikel 20 Absatz 7 DBG und Artikel 4a Absatz 4 VStG haben Publikumsgesell-
+schaften beim Erwerb eigener Beteiligungsrechte zur direkten Teilliquidation oder nach Ab-
+lauf der Haltefristen nach Artikel 4a Absätze 2 und 3 VStG mindestens die Hälfte des Liqui-
+dationsüberschusses den KER oder den Ausland-KER zu belasten, höchstens jedoch im
+Umfang des Totals der KER und der Ausland-KER.
+
+5.2.1. Regelverletzung

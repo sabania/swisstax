@@ -10,17 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 10
 
-3.4.3 Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien
-Aus der Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien resultiert für die
-Belange der direkten Steuern grundsätzlich ein steuerfreier privater Kapitalgewinn (vgl.
-Art. 16 Abs. 3 DBG) oder ein steuerlich unbeachtlicher Kapitalverlust. Der Umfang des steu-
-erfreien Kapitalgewinns entspricht der Differenz zwischen dem Verkehrswert im Zeitpunkt
-der Abgabe und dem Verkehrswert im Zeitpunkt der Veräusserung bzw. der Differenz zwi-
-schen dem Formelwert im Zeitpunkt der Abgabe und dem nach der gleichen Bewertungsme-
-thode ermittelten Formelwert im Zeitpunkt der Veräusserung. Ein allfälliger Mehrwert, der
-beispielsweise auf eine veränderte Bewertungsmethodik oder auf einen Wechsel vom For-
-mel- zum Verkehrswertprinzip zurückzuführen ist, ist in der Regel als Einkommen im Zeit-
-punkt der Veräusserung zu besteuern. Tritt das den Wechsel vom Formel- zum Verkehrs-
-wertprinzip auslösende Ereignis erst nach Ablauf einer fünfjährigen Haltedauer der jeweiligen
-Mitarbeiteraktien ein, realisiert der Mitarbeitende bei einer nachfolgenden Veräusserung der
-im Privatvermögen gehaltenen Mitarbeiteraktien einen steuerfreien Kapitalgewinn.
+3.4.4 Hinweise zu weiteren Sachverhalten
+Aktien, die im Zeitpunkt der Gründung einer Gesellschaft erworben werden, qualifizieren
+nicht als Mitarbeiterbeteiligungen im Sinne von Artikel 17a DBG. Erwirbt ein Mitarbeitender
+Beteiligungsrechte zu Konditionen, wie diese einer unabhängigen Drittperson gewährt wer-
+den, gelten diese Wertschriften nicht als Mitarbeiterbeteiligungen im Sinne von Artikel 17a
+DBG.
+
+4   Besteuerung von Mitarbeiteroptionen (Art. 17b DBG)
+4.1   Freie börsenkotierte Mitarbeiteroptionen
+Freie börsenkotierte Mitarbeiteroptionen werden im Zeitpunkt der Abgabe besteuert. Werden
+solche Mitarbeiteroptionen unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar
+(vgl. Art. 17b Abs. 1 DBG).

@@ -5,22 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 44 – Abschnitt 10"
-seiten: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 44 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 44 · S. 3
 
-2.2   Kein Schweizer Bürgerrecht
-Nur ausländische Staatsangehörige können die Aufwandbesteuerung beantragen.
-Schweizerische Staatsangehörige, die ein weiteres Bürgerrecht besitzen, gelten nicht als Aus-
-länder und erfüllen die Voraussetzungen für eine Aufwandbesteuerung somit nicht.
-Das Recht auf Aufwandbesteuerung erlischt, wenn die steuerpflichtige Person das Schweizer
-Bürgerrecht erwirbt. In diesem Fall ist für die ganze Steuerperiode, in der die Einbürgerung er-
-folgt, die ordentliche Einkommenssteuer zu entrichten.
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Aufwandbesteu-
-erung nicht beanspruchen, wenn einer von ihnen das Schweizer Bürgerrecht besitzt (siehe
-dazu Botschaft S. 6034 zu Art. 14 Abs. 2 DBG).
-
-2.3   Zuzug in die Schweiz ohne Erwerbstätigkeit
-Ausländische Staatsangehörige, die erstmals oder nach mindestens zehnjähriger Landesabwe-
-senheit in der Schweiz steuerrechtlichen Wohnsitz oder Aufenthalt nach Artikel 3 DBG nehmen,
+sitz oder Aufenthalt in der Schweiz, die nach ihrer Pensionierung in der Schweiz bleiben, kön-
+nen keine Besteuerung nach dem Aufwand beanspruchen. Es liegt keine erstmalige Steuer-
+pflicht, beziehungsweise keine Steuerpflicht nach mindestens zehnjähriger Unterbrechung ge-
+mäss Artikel 14 Absatz 1 Buchstabe b DBG vor, selbst wenn das bislang resultierende Erwerbs-
+einkommen aufgrund völkerrechtlicher Verträge von der direkten Bundessteuer befreit war.

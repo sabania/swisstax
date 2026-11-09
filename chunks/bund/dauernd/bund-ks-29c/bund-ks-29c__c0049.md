@@ -10,19 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 16
 
-<!-- Seite 16 -->
-6.2.2. Echte und unechte Fusion verbundener Gesellschaften
-
-Siehe Ausführungen unter Ziffer 6.2.1. hiervor unter Beachtung folgender Besonderheiten:
-
-a)   Direkte Bundessteuer (Einkommenssteuer)
-
-Übernimmt eine Gesellschaft mit echter Unterbilanz durch Absorption die Aktiven und Passi-
-ven einer von den gleichen Gesellschaftern (Privatpersonen) beherrschten Gesellschaft mit
-Reserven und Gewinnvortrag, erlangen die Gesellschafter durch diese Sanierung nur dann
-einen geldwerten Vorteil gemäss Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG,
-wenn und soweit durch die Fusion übrige Reserven untergehen.
-
-Gleiches gilt für Vorteilszuwendungen an eine Schwestergesellschaft mit echter Unterbilanz.
-
-b)   Verrechnungssteuer
+Bei einer Absorption der Muttergesellschaft erzielen beteiligte Privatpersonen in dem Um-
+fang Beteiligungsertrag, als ihnen höherer Nennwert, Ausgleichszahlungen oder andere
+geldwerte Vorteile zufliessen. Verfügt die übernehmende Tochtergesellschaft über höhere
+KER, bzw. Ausland-KER, werden diese nach der Absorption der Muttergesellschaft auf die
+Höhe der bei der Muttergesellschaft vorhandenen KER bzw. Ausland-KER reduziert. Nenn-
+wertgewinne und der Zuwachs an KER bzw. Ausland-KER können mit entsprechenden Ver-
+lusten bzw. Abnahmen verrechnet werden.

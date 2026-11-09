@@ -10,16 +10,5 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 11
 
-Begriffsbestimmungen:
-Anlagefonds: Vertragliche kollektive Kapitalanlage.
-Anlegerinnen und Anleger: Natürliche oder juristische Personen, Kollektiv- und Komman-
-ditgesellschaften, die Anteile an kollektiven Kapitalanlagen halten (Art. 10 Abs. 1 KAG).
-Anteile: Forderungen gegen die Fondsleitung auf Beteiligung an Vermögen und Ertrag des
-Anlagefonds oder Beteiligungen an der Gesellschaft (vgl. Art. 11 KAG).
-Ausschüttungsfonds: Offene oder geschlossene kollektive Kapitalanlagen, welche in den
-Basisdokumenten eine Ausschüttungsvorschrift von mindestens 70% des jährlichen Nettoer-
-trags inklusive vorgetragener Erträge aus früheren Rechnungsjahren vorsehen.
-Kollektive Kapitalanlage: Vermögen, das von Anlegerinnen oder Anlegern zur gemein-
-schaftlichen Kapitalanlage aufgebracht und für deren Rechnung verwaltet wird (vgl. Art. 7
-Abs. 1 KAG).
-Offene kollektive Kapitalanlagen: Vertraglicher Anlagefonds und Investmentgesellschaft
+Treuhandlösung: Das bei den kollektiven Kapitalanlagen angelegte Vermögen wird für die
+Belange der direkten Steuern den Anlegerinnen und Anlegern zugerechnet.

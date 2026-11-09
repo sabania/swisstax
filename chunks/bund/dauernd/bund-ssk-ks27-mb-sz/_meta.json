@@ -130,7 +130,7 @@
 "titel": "SSK-KS 27 (MB SZ) – Abschnitt 9",
 "pfad": [],
 "seiten": [
-3
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "SSK-KS 27 (MB SZ) – Abschnitt 13",
 "pfad": [],
 "seiten": [
-4
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -267,22 +267,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-ssk-ks27-mb-sz__c0016",
-"nachher": "bund-ssk-ks27-mb-sz__c0018"
-},
-{
-"id": "bund-ssk-ks27-mb-sz__c0018",
-"titel": "SSK-KS 27 (MB SZ) – Abschnitt 18",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ssk-ks27-mb-sz__c0017",
 "nachher": null
 }
 ]

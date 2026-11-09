@@ -4,24 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 118"
-seiten: "28"
+titel: "Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen"
+ziffer: "14.8"
+seiten: "35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.8 · S. 35
 
-Nach Artikel 14 Absatz 3 DBG wird die Steuer für Personen, die nach dem Aufwand besteu-
-ert werden, nach dem ordentlichen Steuertarif berechnet. Bei der Besteuerung nach dem
-Aufwand werden persönliche Verhältnisse, die bei einer ordentlichen Veranlagung zu Abzü-
-gen berechtigen, nicht berücksichtigt. Dementsprechend hat der Gesetzgeber in Artikel 14
-Absatz 3 DBG festgehalten, dass nur der Grundtarif (Art. 36 Abs. 1 DBG) oder der Verheira-
-tetentarif (Art. 36 Abs. 2 DBG) zur Anwendung kommen. Bei der Besteuerung nach dem
-Aufwand gelangt somit der Elterntarif nicht zur Anwendung.
+14.8   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
+    minderjährigem Kind, mit gemeinsamer elterlicher Sorge, keine Un-
+    terhaltszahlungen
 
-13.4.9   Quellensteuer für natürliche Personen
+Wird kein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchsta-
+be c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgen-
+dermassen:
 
-Bei der Festsetzung der Quellensteuertarife für natürliche Personen sind die Abzüge für Fa-
-milienlasten zu berücksichtigen (Art. 86 Abs. 1 DBG). Dies gilt auch für den Elterntarif, wel-
-cher als Abzug vom Steuerbetrag in die jeweiligen Tarife eingerechnet wird.
 
-13.4.10   Pauschale Steueranrechnung
+14.8.1   Abzüge
+   Jeder Elternteil kann je den halben Kinderabzug sowie den halben Versicherungs- und
+    Sparzinsenabzug für das Kind geltend machen.
+   Jeder Elternteil kann maximal 5'050 Franken der nachgewiesenen Kosten für die Kinder-
+    drittbetreuung in Abzug bringen. Eine andere Aufteilung ist von den Eltern nachzuweisen.
+    Betragen die geltend gemachten Kosten beider Elternteile aber zusammen mehr als den
+    Maximalbetrag von 10’100 Franken, werden die Abzüge im Verhältnis der nachgewiese-
+    nen Kosten auf diesen Maximalbetrag gekürzt.

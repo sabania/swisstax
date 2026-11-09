@@ -10,17 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 4
 
-3.   Liquidation
+2.4.2. Verhältnis zu Artikel 18a Absatz 2 DBG
+Verzichtet die steuerpflichtige Person im Zeitpunkt einer Verpachtung nach Artikel 18a Ab-
+satz 2 DBG auf eine Überführung ins Privatvermögen, so verbleibt der Geschäftsbetrieb im
+Geschäftsvermögen. Bei der Überführung ins Privatvermögen kann die Besteuerung nach
+Artikel 37b DBG geltend gemacht werden, sofern die Voraussetzungen zur Anwendung von
+Artikel 37b DBG im Zeitpunkt der Überführung erfüllt sind.
 
-Nach Artikel 37b DBG bemisst sich der Liquidationsgewinn aus der Summe der in den letz-
-ten zwei Geschäftsjahren realisierten stillen Reserven (zur Berechnung vgl. Art. 9 LGBV). Als
-Liquidationsjahr wird dasjenige Geschäftsjahr bezeichnet, in dem die letzte Liquidations-
-handlung vorgenommen wird. Der Zeitpunkt des Abschlusses der Liquidation ist – wie dies
-nach geltendem Recht bereits der Fall ist – im Einzelfall zu klären. In der Regel ist eine Li-
-quidation abgeschlossen, wenn die letzte Inkassohandlung eingeleitet ist. Da es sich dabei
-manchmal um marginale Beträge handeln kann, sollen jedoch auch andere Umstände das
-Ende der Liquidation darstellen können, so zum Beispiel wenn die Erwerbs- und Verkaufstä-
-tigkeiten eingestellt und/oder die Arbeitsverträge mit den Angestellten aufgelöst werden.
-
-Mit dem Inkrafttreten der LGBV am 1. Januar 2011 gilt bei der Aufgabe der selbständigen
-Erwerbstätigkeit im Jahr 2011 das Jahr 2010 als Vorjahr. Ist die Veranlagung des Vorjahres
+2.4.3. Verhältnis zu Artikel 18a Absatz 3 DBG
+Beantragen der oder die den Betrieb übernehmenden Erben oder Vermächtnisnehmer den
+Steueraufschub nach Artikel 18a Absatz 3 DBG, so werden keine stillen Reserven realisiert,
+weshalb Artikel 37b DBG nicht zur Anwendung kommt. Geben der oder die den Betrieb ü-
+bernehmenden Erben oder Vermächtnisnehmer zu einen späteren Zeitpunkt die selbständi-
+ge Erwerbstätigkeit auf, so können sie die Besteuerung nach Artikel 37b DBG geltend ma-
+chen, sofern sie selber die Voraussetzungen dafür erfüllen.

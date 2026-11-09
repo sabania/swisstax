@@ -5,23 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 135"
-seiten: "36"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
 
-<!-- Seite 36 -->
-7   Berechnung der Quellensteuer nach dem Jahresmodell
-
-7.1   Vorbemerkungen
-Erfolgt die Abrechnung der Quellensteuer über eine von Swissdec zertifizierte Software, sind
-die jeweils gültigen Richtlinien von Swissdec massgebend für die Berechnung der abzuzie-
-henden Quellensteuer. Dabei kann für die Berechnung der Quellensteuer in besonderen Fäl-
-len und/oder Situationen in geringem Ausmass vom vorliegenden Kreisschreiben abgewi-
-chen werden.
-Der 13. Monatslohn wird im Jahresmodell bei der Berechnung der Quellensteuer mittels ei-
-ner von Swissdec zertifizierten Software abweichend vom vorliegenden Kreisschreiben be-
-rücksichtigt. Dabei wird der 13. Monatslohn erst bei dessen Auszahlung für die Ermittlung
-des satzbestimmenden Einkommens berücksichtigt (Realisationsprinzip). Das Vorgehen ist
-in den von den Steuerbehörden ausdrücklich genehmigten Richtlinien von Swissdec festge-
-halten.
+6.11 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden
+Ersatzeinkünfte (Taggelder, Renten usw.), welche beispielsweise von einer Versicherung,
+Ausgleichskasse, Arbeitslosenkasse (Leistungserbringer) direkt an den Leistungsempfänger
+(Arbeitnehmer) ausbezahlt werden, sind durch den Leistungserbringer mit dem Tarifcode G
+bzw. für Grenzgänger aus Deutschland mit dem Tarifcode Q an der Quelle zu besteuern (vgl.
+Art. 1 Abs. 1 Bst. g QStV).
+Wird neben dem Ersatzeinkommen weiteres Erwerbseinkommen erzielt, sind das Ersatz-
+und das Erwerbseinkommen für den Steuersatz umzurechnen (vgl. Ziffer 6.4 oben). Bei Er-
+satzeinkünften, die nach Massgabe des versicherten Verdienstes ausgerichtet werden, gilt
+dieser als satzbestimmendes Einkommen.
+Für die Quellenbesteuerung der Ersatzeinkünfte, insbesondere zu deren Definition im inter-
+nationalen Verhältnis, wird auf das jeweils gültige «Merkblatt der ESTV über die Quellenbe-
+steuerung von Ersatzeinkünften» verwiesen.

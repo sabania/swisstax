@@ -5,14 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 46"
-seiten: "10"
+seiten: "11"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
 
-In Bezug auf den Verkehrswert der Mitarbeiteroptionen gelten die Bestimmungen gemäss
-Ziffer 3.2.1 dieses Kreisschreibens sinngemäss.
+<!-- Seite 11 -->
+Abs. 3 DBG). Steuerbar ist der gesamte Veräusserungserlös bzw. Ausübungsgewinn nach
+Abzug allfälliger Gestehungskosten.
 
-4.2   Übrige Mitarbeiteroptionen
-Sämtliche Mitarbeiteroptionen, die nicht gemäss Ziffer 4.1 hievor bei Abgabe zu besteuern
-sind, werden im Zeitpunkt der Veräusserung oder der Ausübung besteuert (vgl. Art. 17b
+5   Besteuerung von Anwartschaften auf Mitarbeiteraktien
+Anwartschaften auf Mitarbeiteraktien werden im Zeitpunkt der Umwandlung in Mitarbeiterak-
+tien besteuert. Die Besteuerung richtet sich in diesem Zeitpunkt nach den für die Mitarbeiter-
+aktien geltenden Vorgaben (vgl. Ziff. 3 hievor).
+
+6   Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG)
+Geldwerte Vorteile aus der Einräumung von unechten Mitarbeiterbeteiligungen sind im Zeit-
+punkt ihres Zuflusses steuerbar. Als Erwerbseinkommen unterliegt der gesamte geldwerte
+Vorteil der Einkommenssteuer, d.h. aus unechten Mitarbeiterbeteiligungen kann diesfalls
+kein steuerfreier privater Kapitalgewinn resultieren.

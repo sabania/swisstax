@@ -10,13 +10,21 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
 
-<!-- Seite 17 -->
+Werden im Rahmen einer Quasifusion Beteiligungsrechte in eine Kapitalgesellschaft oder
+Genossenschaft eingebracht, qualifiziert die gesamte Sacheinlage als offene Kapitaleinlage.
+Der die Erhöhung des Grund- oder Stammkapitals übersteigende Teil dieser offenen Kapital-
+einlage kann in der Handelsbilanz als KER bzw. Ausland-KER ausgewiesen werden. Dabei
+ist aber die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu be-
+achten (vgl. Ziff. 4.2.5. hiervor).
+
 b)   Verrechnungssteuer
 
-Bei einer Absorption der Muttergesellschaft den Inhabern der Beteiligungsrechte zukom-
-mende höhere Nennwerte, Ausgleichszahlungen oder andere geldwerte Vorteile unterliegen
-nach Artikel 4 Absatz 1 Buchstabe b VStG grundsätzlich der Verrechnungssteuer. Verfügt
-die übernehmende Tochtergesellschaft über höhere KER bzw. Ausland-KER, werden diese
-nach der Absorption der Muttergesellschaft auf die Höhe der bei der Muttergesellschaft vor-
-handenen KER bzw. Ausland-KER reduziert. Nennwertgewinne und der Zuwachs an KER
-bzw. Ausland-KER können mit entsprechenden Verlusten/Abnahmen verrechnet werden.
+Mit Ausnahme der Transponierung ergeben sich die gleichen Steuerfolgen wie bei der direk-
+ten Bundessteuer. Erfolgt die Einbringung einer Beteiligung an einer inländischen Kapitalge-
+sellschaft oder Genossenschaft durch einen Aktionär mit Sitz/Wohnsitz im Ausland ist der
+Vorgang unter dem Aspekt von Artikel 21 Absatz 2 VStG (Steuerumgehung) zu prüfen.
+
+6.3.   Umwandlung
+
+6.3.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
+    Kapitalgesellschaft oder Genossenschaft

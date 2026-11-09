@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerf%C3%BCsse%202026%20f%C3%BCr%20Versand.pdf> · lokal: [sg-steuerfuesse-2026.pdf](../../../raw/sg/2026/sg-steuerfuesse-2026.pdf) · Volltext: [sg-steuerfuesse-2026.md](../../../sources/sg/2026/sg-steuerfuesse-2026.md)
 - **Abgerufen:** 2026-11-09 · sha256 `abde299107d3d935…`
 
-## Inhalt (10 Chunks)
+## Inhalt (9 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -25,4 +25,3 @@ generiert: tools/build_index.py
 | [c0007](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0007.md) | Steuerfüsse SG 2026 – Abschnitt 7 | S. 3 |  |
 | [c0008](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0008.md) | Steuerfüsse SG 2026 – Abschnitt 8 | S. 4 |  |
 | [c0009](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0009.md) | Steuerfüsse SG 2026 – Abschnitt 9 | S. 4 |  |
-| [c0010](../../../chunks/sg/2026/sg-steuerfuesse-2026/sg-steuerfuesse-2026__c0010.md) | Steuerfüsse SG 2026 – Abschnitt 10 | S. 4 |  |

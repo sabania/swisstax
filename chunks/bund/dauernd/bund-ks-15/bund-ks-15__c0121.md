@@ -4,19 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 121"
-seiten: "28"
+titel: "Anhang IV Gutachten Ziff. III.4.2 Fazit mit Handänderung (Teil 1/2)"
+ziffer: "Anh. IV III.4.2"
+seiten: "35-36"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35–36
 
-<!-- Seite 28 -->
-problematisch. Bei Anleihensaufstockungen werden die Eckwerte der Grundanleihe (Zins-
-satz der jährlichen Couponzahlungen, Laufzeit der Anleihe, Rückzahlungsbetrag und Stücke-
-lung) übernommen. Dieses Vorgehen entspricht internationaler Usanz, und so geben alle In-
-formationssysteme wie Bloomberg, Reuters, etc. auch im Falle von aufgestockten Anleihen
-ausschliesslich über die Eckdaten der Grundanleihe Auskunft. Im Rückzahlungszeitpunkt
-kann in der Folge zwischen der zu pari ausgegebenen Grundanleihe und der unter pari emit-
-tierten Aufstockungstranche nicht mehr unterschieden werden. Damit kann die Verrech-
-nungssteuer im Rückzahlungszeitpunkt nicht auf den Gläubiger überwälzt werden, womit
-beim Emittenten eine Aufrechnung ins Hundert erfolgt.
+4.2.   Mit Handänderung während der Laufzeit
+Der bei der Ermittlung des Werts des Anleihensteils bei Handänderungen während der
+Laufzeit zur Anwendung gelangende Mechanismus berücksichtigt Veränderungen des
+Zinsumfelds (quartalsweise Anpassung mittels 5-Jahres-Swap-Rate) und damit das
+grundsätzlich wesentlichste Element für die Bestimmung des Wertes von Anleihen. Die
+weiteren relevanten, jedoch grundsätzlich bei weitem nicht so stark ins Gewicht fallen-
+den Elemente wie Veränderungen des individuellen Credit Spreads des Emittenten und
+Markteinflüsse, bleiben hingegen unberücksichtigt. Dennoch lässt sich festhalten, dass
+der zur Anwendung gelangende Mechanismus geeignet ist, den Wert des Anleihens-
+teils von kombinierten Produkten, welche der modifizierten Differenzbesteuerung unter-
+liegen, zuverlässig zu ermitteln. Daher sind wir der Ansicht, dass die zur Anwendung
+gelangenden finanzmathematischen Formeln geeignet sind, den steuerbaren Vermö-
+gensertrag in rechtsgenügender Weise zu ermitteln.

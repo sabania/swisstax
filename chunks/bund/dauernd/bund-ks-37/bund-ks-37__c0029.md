@@ -10,17 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
 
-2.5   Realisation
-Wird in diesem Kreisschreiben von Realisation von Mitarbeiterbeteiligungen gesprochen,
-dann deckt dies insbesondere die Ausübung oder den Verkauf von Mitarbeiteroptionen ab,
-ebenso wie die Umwandlung von Anwartschaften in Aktien sowie den Bezug von Bargeld
-aus aktienkursbezogenen Bargeldanreizsystemen (vgl. Anhang I, Übersicht über Mitarbeiter-
-beteiligungen).
-
-2.6   Umrechnung von Fremdwährungen
-Lautet eine Mitarbeiterbeteiligung auf eine ausländische Währung, so sind die jeweils zu be-
-scheinigenden Angaben in Schweizerfranken (nachfolgend Franken) umzurechnen. Der Um-
-rechnung ist das Mittel der Geld- und Briefschlusskurse am Tage der Abgabe, dem Erwerb
-oder der Realisation des geldwerten Vorteils aus der Mitarbeiterbeteiligung zu Grunde zu le-
-gen. In begründeten Fällen und in Absprache mit der zuständigen Steuerbehörde kann von
-dieser Umrechnung abgewichen werden.
+3   Besteuerung von Mitarbeiteraktien (Art. 17b DBG)
+3.1   Grundsatz
+Werden Mitarbeiteraktien unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die
+positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden
+einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar
+(vgl. Art. 17 Abs. 1 DBG). Mitarbeiteraktien sind bei Abgabe, d.h. im Zeitpunkt des Rechtser-
+werbs zu besteuern.

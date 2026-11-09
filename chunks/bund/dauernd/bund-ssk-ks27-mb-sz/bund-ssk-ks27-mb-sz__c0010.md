@@ -10,6 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 3
 
+<!-- Seite 3 -->
+    winnungskostenüberschüsse, die sie von einem anderen Steuerdomizil übernommen haben, an
+    dieses zurück.
+
+3.2   Ausscheidungsgrundsätze für juristische Personen
+
    Verluste und Gewinnungskostenüberschüsse sind in erster Linie mit im gleichen Kanton steuer-
     baren Gewinnen / Erträgen zu verrechnen. Nicht im gleichen Kanton verrechenbare Verluste
     und Gewinnungskostenüberschüsse schmälern das nach Quoten zu verteilende Betriebsergeb-
@@ -23,9 +29,3 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
     tone mit dem monistischen System der Grundstückgewinnsteuer verrechnen übernommene Ver-
     luste zuerst mit den wieder eingebrachten Abschreibungen und einen allenfalls verbleibenden
     Rest mit dem Wertzuwachsgewinn.
-   Die Übernahme von Verlusten und Gewinnungskostenüberschüssen ist definitiv. Weder das
-    Hauptsteuerdomizil noch die sekundären oder Spezialsteuerdomizile belasten Verluste und Ge-
-    winnungskostenüberschüsse, die sie von einem anderen Steuerdomizil übernommen haben, an
-    dieses zurück.
-   Excel-Tabelle zur Aufteilung von Ausscheidungsverlusten juristischer Personen siehe im Inter-
-    net unter www.sz.ch/steuern/grundstueckgewinnsteuer/Berechnungen.

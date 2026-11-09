@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 239"
-seiten: "66"
+seiten: "64"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 66
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
 
-Wohnsitzstaates nicht steuerpflichtig ist und damit die persönliche Situation sowie der Fami-
-lienstand unberücksichtigt bleiben (vgl. Botschaft vom 28. November 2014 zur Revision des
-Bundesgesetzes über die Quellenbesteuerung des Erwerbseinkommens; BBl 2015 657).
-Bezüglich der Antragstellung gelten die Voraussetzungen nach Ziffer 11.3, 2. Absatz oben.
-Zusätzlich muss ein Vertreter in der Schweiz bezeichnet werden (vgl. Art. 136a Abs. 2 DBG,
-Zustelladresse; vgl. Musterformular im Anhang I).
-Zum weltweiten Einkommen werden auch die Bruttoeinkünfte des in rechtlich und tatsächlich
-ungetrennter Ehe lebenden Ehegatten hinzugerechnet. Ob die Voraussetzungen der Quasi-
-Ansässigkeit erfüllt sind, wird durch die zuständige Steuerbehörde im Veranlagungsverfah-
-ren, d.h. nach Einreichen der vollständig ausgefüllten Steuererklärung, geprüft. Zur Feststel-
-lung, ob die Schwelle von 90 Prozent erreicht ist, ermittelt die zuständige Steuerbehörde zu-
+11.2 Obligatorische nachträgliche ordentliche Veranlagung bei Ansässigkeit in der
+    Schweiz
+Eine obligatorische nachträgliche ordentliche Veranlagung wird durchgeführt, wenn eine
+quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz in einem Steuerjahr, vor Aus-
+scheidung von allfälligen dem Ausland zur Besteuerung zugewiesenen Einkünften, ein Brut-
+toeinkommen aus unselbstständiger Erwerbstätigkeit von mindestens CHF 120 000 erzielte
+(vgl. Art. 89 DBG i.V.m. Art. 9 QStV). Bei Ehegatten, die in rechtlich und tatsächlich unge-
+trennter Ehe leben, werden zur Bestimmung des Mindestbetrags die Bruttoeinkommen aus
+unselbstständiger Erwerbstätigkeit der Ehegatten nicht zusammengerechnet.
+Bei unterjähriger Steuerpflicht werden für die Berechnung des Mindestbetrags die periodi-
+schen Bruttolohneinkommen auf zwölf Monate umgerechnet und die aperiodischen Brutto-
+lohnbestandteile ohne Umrechnung miteinbezogen (vgl. Art. 40 Abs. 3 DBG).
+Erzielt eine quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz zusätzliche, nicht
+der Quellensteuer unterliegende Einkünfte (oder hat sie nach kantonalem Recht steuerbares

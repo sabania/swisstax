@@ -5,18 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB 21 EDP – Abschnitt 20"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 5
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 6
 
-    Feld t: Steuerperiode
-30   Anzugeben ist die Steuerperiode, für welche der Einkauf in die Säule 3a geleistet wurde.
+<!-- Seite 6 -->
+    Die Richtigkeit bezeugt
+34   Die Richtigkeit der Bescheinigung ist vom Verantwortlichen, mit dem Vorsorgenehmer in
+    einem Vertragsverhältnis stehenden Vorsorgeträger zu bestätigen. Der Name der für die
+    Bescheinigung verantwortlichen Person ist lesbar einzusetzen. Wird die Bescheinigung
+    vollständig durch eine Datenverarbeitungsanlage erstellt, so sind lediglich die genaue Fir
+    menbezeichnung und der Name der für die Bescheinigung verantwortlichen Person ein
+    zusetzen. Der Verzicht auf die handschriftliche Unterzeichnung entbindet den Vorsorge
+    träger aber nicht von der Verantwortung für das korrekte Ausfüllen des Formulars 21. Für
+    allfällige Rückfragen sind die Telefonnummer und E-Mailadresse des Ausstellers der Be
+    scheinigung anzugeben.
 
-    Feld u: Bereits geleistete Beiträge
-31   Hier sind die Beiträge einzusetzen, welche die versicherte Person im Jahr, für welches
-    ein Einkauf in die Säule 3a erfolgt, bereits geleistet hat. Zu bescheinigen sind nicht nur
-    die Beiträge, welche an den das Formular 21 ausfüllenden Vorsorgeträger geleistet wur
-    den, sondern sämtliche von der versicherten Person im entsprechenden Jahr einbezahl
-    ten Säule 3a-Beiträge. Der Vorsorgeträger stützt sich dabei auf die Angaben der versi
-    cherten Person.
+
+Bern, 29. Juli 2025

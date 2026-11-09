@@ -10,20 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 17
 
-Pauschalspesen   Ziffer 13.2
+Genehmigtes Spesenreglement: Arbeitgeber, welche die Spesen nicht nur effektiv gemäss   59
+Rz. 52 vergüten, können Rechtssicherheit für ihre Mitarbeitenden in einem genehmigten
+Spesenreglement erlangen. Ein Gesuch um Genehmigung eines Spesenreglements kann
+bei der Steuerbehörde des Sitzkantons gestellt werden. Es empfiehlt sich, Spesenregle
+mente inhaltlich nach den Mustervorlagen der Schweizerischen Steuerkonferenz aufzu
+bauen. Die Genehmigung durch den Sitzkanton umfasst sowohl die Festsetzung der effekti
+ven als auch der pauschalen Spesenvergütungen. Im Lohnausweis sind bei Vorliegen eines
 
-Pauschale Spesenvergütungen (Einzelfallpauschalen gemäss Rz 52 fallen nicht darunter)   55
-sind bei allen Arbeitnehmern im Lohnausweis betragsmässig anzugeben. Das gilt auch bei
-Vorliegen eines genehmigten Spesenreglementes. Pauschale Spesenvergütungen müssen
-in etwa den effektiven Auslagen entsprechen.
-
-Pauschale Repräsentationsspesen   Ziffer 13.2.1
-
-In diesem Feld ist der Pauschalbetrag anzugeben (Einzelfallpauschalen gemäss Rz 52 fallen   56
-nicht darunter), der leitenden Angestellten oder dem Aussendienstpersonal für Kleinspesen
-(in der Regel Einzelauslagen unter CHF 50) und repräsentative Auslagen (z. B. für private
-Einladungen zu Hause) ausbezahlt wurde. Die Spesenpauschale muss ungefähr den effek
-tiven Auslagen entsprechen. Der Frankenbetrag ist auch dann anzugeben, wenn ein geneh
-migtes Spesenreglement vorliegt.
-
-Pauschale Autospesen   Ziffer 13.2.2
+    ESTV   Seite 17 / 25

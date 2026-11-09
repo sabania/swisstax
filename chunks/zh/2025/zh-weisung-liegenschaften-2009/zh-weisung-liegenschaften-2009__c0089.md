@@ -5,28 +5,40 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 89"
-seiten: "32"
+seiten: "37"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 32
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 37
 
-Wasterkingen   3   370   310   240   –   –   –   –
-Wil (ZH)   3   580   460   330   –   –   –   –
-Winkel   3   800   650   500   –   –   –   –
-Bezirk Dielsdorf
-Bachs   3   580   480   370   –   –   –   –
-Boppelsen   3   710   640   570   –   –   –   –
-Buchs (ZH)   5   700   650   590   530   470   –   –
-Dällikon   5   720   660   600   540   470   –   –
-Dänikon   3   540   460   370   –   –   –   –
-Dielsdorf   5   700   630   550   480   400   –   –
-Hüttikon   2   610   460   –   –   –   –   –
-Neerach   5   870   780   680   590   490   –   –
-Niederglatt   3   670   560   450   –   –   –   –
-Niederhasli   5   630   590   540   500   450   –   –
-Niederweningen   5   650   590   520   460   390   –   –
-Oberglatt   5   660   610   550   500   440   –   –
-Oberweningen   5   640   590   530   480   420   –   –
-Otelfingen   5   710   650   590   530   460   –   –
-Regensberg   3   830   720   610   –   –   –   –
-Regensdorf   5   800   730   650   580   500   –   –
+<!-- Seite 37 -->
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+Wohnbauland
+
+Bebaute Grundstücke
+    Einfamilienhäuser (Ziff. 13 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Meilen
+Erlenbach (ZH)   5   950   850   750   650   540   –   –
+Herrliberg   5   960   860   760   660   550   –   –
+Hombrechtikon   4   410   350   300   240   –   –   –
+Küsnacht (ZH)   5   970   860   750   640   530   –   –
+Männedorf   5   680   610   540   470   400   –   –
+Meilen   5   820   740   650   560   470   –   –
+Oetwil am See   3   390   330   260   –   –   –   –
+Stäfa   5   700   630   560   490   420   –   –
+Uetikon am See   4   760   650   540   430   –   –   –
+Zollikon-Berg   4   n.v.   670   610   550   480   –   –
+Zollikon-Dorf   5   970   890   810   730   640   –   –
+Zumikon   5   990   870   740   620   490   –   –
+Bezirk Pfäffikon
+Bauma
+– Bauma   5   250   230   210   190   170   –   –
+  (ehemalige Gemeinde)
+– Sternenberg   3   160   150   130   –   –   –   –
+  (ehemalige Gemeinde)
+Fehraltorf   4   440   390   330   280   –   –   –
+Hittnau   3   320   290   260   –   –   –   –
+Illnau-Effretikon
+– Illnau-Effretikon   5   390   360   320   290   250   –   –

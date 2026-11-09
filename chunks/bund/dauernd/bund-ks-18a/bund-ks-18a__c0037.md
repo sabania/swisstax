@@ -2,24 +2,20 @@
 id: bund-ks-18a__c0037
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 37"
-seiten: "8"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "9"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 8
+> Bund · Steuerjahr 2026 · KS 18a · S. 9
 
-g)   Berechnung des Abzuges beim Übergang von einer unselbständigen zu
-    einer selbständigen Erwerbstätigkeit oder umgekehrt
-Während der Zeitspanne der unselbständigen Erwerbstätigkeit mit Anschluss an eine Pensi-
-onskasse kann die steuerpflichtige Person maximal den in Artikel 7 Absatz 1 Buchstabe a
-BVV 3 vorgesehenen Maximalbetrag einbezahlen. Für die Zeitspanne der Selbständigkeit
-ohne Anschluss an eine Pensionskasse kann die steuerpflichtige Person bis zu 20% ihres
-selbständigen Erwerbseinkommens einbezahlen, vorausgesetzt sie hat einen Jahresab-
-schluss für die aktuelle Steuerperiode erstellt. Für das betroffene Jahr können insgesamt or-
-dentliche Beiträge (inkl. allfällige Einzahlung in die kleine Säule 3a) von nicht mehr als der in
-Artikel 7 Absatz 1 Buchstabe b BVV 3 vorgesehene Maximalbetrag (40% des oberen Grenz-
-betrages nach Art. 8 Abs. 1 BVG) einbezahlt werden. Gleich verhält es sich beim Anschluss
-an eine Vorsorgeeinrichtung infolge Aufnahme einer unselbständigen Erwerbstätigkeit wäh-
-rend des Jahres.
+6.2. Vorzeitige Ausrichtung und Übertragung
+a)   Allgemeines
+Die vorzeitige Ausrichtung von Leistungen ist nur in den in Artikel 3 Absatz 2 und 3 BVV 3
+vorgesehenen Ausnahmefällen möglich. Dies gilt auch für Zinsen, Gewinnanteile und der-
+gleichen, die erst zusammen mit den eigentlichen Vorsorgeleistungen ausbezahlt und auch
+nicht mit geschuldeten Beiträgen verrechnet werden dürfen. Die gesamte Leistung unterliegt
+der Besteuerung nach Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG. Es spielt keine
+Rolle, ob Beiträge teilweise von der Versicherungseinrichtung infolge einer Prämienbefreiung
+geleistet worden sind. Der Vorsorgenehmer hat die Gesamtleistung zu versteuern.

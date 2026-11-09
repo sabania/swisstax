@@ -23,3 +23,13 @@ Bern, 24. Juli 2018
 Kreisschreiben Nr. 44
 
 Besteuerung nach dem Aufwand bei der direkten Bundessteuer
+
+Inhaltsverzeichnis
+1   Allgemeines ............................................................................................................ 2
+2   Subjektive Voraussetzungen für die Aufwandbesteuerung ................................ 2
+2.1   Rechtsgrundlage .................................................................................................... 2
+2.2   Kein Schweizer Bürgerrecht .................................................................................. 2
+2.3   Zuzug in die Schweiz ohne Erwerbstätigkeit ........................................................ 2
+2.4   Erfüllung der Voraussetzungen durch beide Ehegatten ...................................... 3
+2.5   Beginn des Rechts auf Aufwandbesteuerung ...................................................... 3
+3   Objektive Voraussetzungen für die Aufwandbesteuerung .................................. 3

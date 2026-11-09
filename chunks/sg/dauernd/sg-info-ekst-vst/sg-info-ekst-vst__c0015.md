@@ -9,6 +9,8 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [14 - Landwirte im Berggebiet 2024(604 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_14_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 14 - Landwirte im Berggebiet 2024")
-- [27 - Merkblatt Steuerpflicht 2024(71 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_27_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 27 - Merkblatt Steuerpflicht 2024")
-- [32 - Merkblatt direkte Bundessteuer 2024(230 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_32_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 32 - Merkblatt direkte Bundessteuer 2024")
+####
+
+- [01 - Steuererklärung 2023(3280 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_01_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2023")
+- [02 - Wertschriftenverzeichnis 2023(133 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_02_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2023")
+- [04 - Berufskosten 2023(1521 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2023-hs/Formular_04_NP_2023_HA.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2023")

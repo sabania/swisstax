@@ -10,13 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
 
-Ein Nachsteuerverfahren nach den Artikeln 151 - 153 DBG ist in diesen Fällen nicht möglich.
-Mangels eigener Regelung der Nachbesteuerung in Artikel 37b DBG müsste sich eine
-Nachbesteuerung auf die generellen Nachsteuertatbestände von Artikel 151 Absatz 1 DBG
-abstützen. Diese bedingen aber, dass Tatsachen oder Beweismittel zu Tage treten, die der
-Steuerbehörde nicht bekannt waren. Es geht dabei um Fakten oder Beweismittel, die zwar
-erst nach der rechtskräftigen Veranlagung entdeckt werden. Eigentlich handelt es sich um
-neue „alte“ Tatsachen und Beweismittel, da diese Tatsachen oder Beweismittel bereits im
+<!-- Seite 19 -->
+2.   Erläuterungen zu den einzelnen Bestimmungen
 
-5
-    SR 831.20
+2.1   Allgemeine Bestimmungen
+Artikel 1   Gegenstand und Geltungsbereich
+
+Absatz 1
+Steuerpflichtige, welche ihre selbständige Erwerbstätigkeit definitiv aufgeben, können die
+Besteuerung des Liquidationsgewinnes gemäss Artikel 37b DBG und dieser Verordnung
+geltend machen. Die definitive Aufgabe setzt nach der gesetzlichen Bestimmung voraus,
+dass die steuerpflichtige Person das 55. Alterjahr erreicht hat oder aufgrund einer Invalidität
+unfähig geworden ist, ihre Unternehmung weiterzuführen. Dies betrifft sowohl Einzelunter-
+nehmungen als auch Beteiligungen an einer Personengesellschaft. Die gleichzeitige oder
+nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht der privilegierten Be-
+steuerung des Liquidationsgewinnes nicht im Wege. Diese Verordnung definiert die - nach
+der Umschreibung des Gesetzes - realisierten stillen Reserven als „Liquidationsgewinn“.

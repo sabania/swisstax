@@ -5,24 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 120"
-seiten: "31"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
 
-6.8   Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses
-Entschädigungen, welche dem Arbeitnehmer vom Arbeitgeber vor Antritt des Arbeitsverhält-
-nisses ausgerichtet werden (bspw. Sign-on-Bonus), fallen nach schweizerischem Recht un-
-ter die Bestimmung von Artikel 17 DBG.
-Für in der Schweiz ansässige quellensteuerpflichtige Personen ist daher die Quellensteuer
-auf der gesamten Leistung nach den persönlichen Verhältnissen im Zeitpunkt der Ausrich-
-tung der Leistung zu berechnen.
-Erhält eine im Ausland ansässige Person eine derartige Leistung, ist darauf die Quellen-
-steuer zu erheben. Die Leistung knüpft an ein in der Schweiz steuerpflichtiges Arbeitsverhält-
-nis an, weshalb die Grundsätze von Artikel 15 OECD-MA zu beachten sind. Auch in diesem
-Fall sind die Verhältnisse im Zeitpunkt der Ausrichtung der Leistung für den Quellensteuer-
-abzug massgebend.
-Es steht der quellensteuerpflichtigen Person, welche nicht der obligatorischen nachträglichen
-Veranlagung untersteht (vgl. Art. 89 DBG), offen, bis am 31. März des auf die Leistung fol-
-genden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträgliche ordent-
-liche Veranlagung zu beantragen (vgl. Ziffer 11 unten).
+    Total an Arbeitstagen:   20 Tage
+    Arbeitstage Schweiz:   20 Tage – 5 Tage = 15 Tage
+    massgebendes Ausscheidungsverhältnis:   15 CH-Arbeitstage zum Total von 20 Arbeitstagen
+    Steuerbares Einkommen:   CHF 8 000.00 / 20 x 15 = CHF 6 000.00
+    Satzbestimmendes Einkommen:   CHF 8 000.00

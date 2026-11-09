@@ -4,18 +4,19 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 116"
-seiten: "27"
+titel: "Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge"
+ziffer: "14.7"
+seiten: "35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.7 · S. 35
 
-Auch bei unbeschränkter Steuerpflicht aufgrund persönlicher Zugehörigkeit wird der Abzug
-vom Steuerbetrag nur anteilsmässig gewährt, soweit Auslandeinkünfte gemäss Artikel 6 Ab-
-satz 1 DBG oder aufgrund eines Doppelbesteuerungsabkommens von der Steuerpflicht aus-
-zunehmen sind.
+14.7.2   Abzüge
+   Der Elternteil, der Unterhaltszahlungen erhält, kann den Kinderabzug sowie den Versi-
+    cherungs- und Sparzinsenabzug für das Kind geltend machen.
 
-Der Steuerbetrag ermässigt sich bei teilweiser Steuerpflicht somit nur um den anteilsmässi-
-gen Abzug von 251 Franken für jedes Kind und jede unterstützungsbedürftige Person. Die
-Höhe des Abzugs bemisst sich nach dem Verhältnis des in der Schweiz steuerbaren Ein-
-kommens zum höheren satzbestimmenden Einkommen.
+   Jeder Elternteil kann maximal 5'050 Franken der nachgewiesenen Kosten für die Kinder-
+    drittbetreuung in Abzug bringen. Eine andere Aufteilung ist von den Eltern nachzuweisen.
+    Betragen die geltend gemachten Kosten beider Elternteile aber zusammen mehr als den
+    Maximalbetrag von 10’100 Franken, werden die Abzüge im Verhältnis der nachgewiese-
+    nen Kosten auf diesen Maximalbetrag gekürzt.

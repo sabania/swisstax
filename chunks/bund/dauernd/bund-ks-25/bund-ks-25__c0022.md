@@ -5,12 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 22"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 5
 
-Für die Ermittlung des steuerbaren Gewinns von kollektiven Kapitalanlagen mit direktem
-Grundbesitz sind folgende Grundsätze zu beachten:
-       Erträge und Gewinne aus direktem Grundbesitz bilden Bestandteil des steuerbaren
-    Gewinns.
+Wie bei allen anderen juristischen Personen sind Rückstellungen, Abschreibungen und Wert-
+berichtigungen pro Liegenschaft separat zu buchen.
+
+Die kollektive Kapitalanlage hat das Wahlrecht zwischen der Einreichung einer Jahresrech-
+nung nach KAG oder nach OR. Die eingereichte Jahresrechnung ist für Steuerzwecke mass-
+geblich. Wird eine Jahresrechnung nach KAG eingereicht, sind somit auch nicht realisierte
+Kapitalgewinne bzw. -verluste steuerlich zu erfassen.

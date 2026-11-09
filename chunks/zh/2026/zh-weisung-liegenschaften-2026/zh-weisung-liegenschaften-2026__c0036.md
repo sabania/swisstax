@@ -5,23 +5,24 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 36"
-seiten: "17"
+seiten: "16"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 17
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 16
 
-   Die Vermögenssteuerwerte und Eigenmietwerte sind für die Steuer- 87
-periode 2026 allgemein nach dieser Weisung neu festzulegen.
-    Unter Vorbehalt von Ziff. 89–91 bleiben die Vermögenssteuerwerte 88
-und Eigenmietwerte bis zu einer späteren allgemeinen Neubewertung
-in den nachfolgenden Steuerperioden unverändert.
+    II. Eigenmietwert
 
-2. Ausserordentliche Neubewertung einzelner Liegenschaften
-
-   Eine ausserordentliche Neufestsetzung der Vermögenssteuerwerte 89
-und Eigenmietwerte von Liegenschaften erfolgt:
-– für neu erstellte Gebäude oder Gebäudeerweiterungen sowie neue
-   Liegenschaften,
-– nach umfassender Totalrenovation von Gebäuden (Ziff. 33),
-– nach Abbruch von Gebäuden oder Gebäudeteilen,
-– nach entgeltlichen Handänderungen unter unabhängigen Dritten.
+83   Führt die schematische, formelmässige Ermittlung zu einem Eigen-
+    mietwert, der über 70% der Marktmiete oder unter 60% derselben liegt,
+    so ist eine individuelle Schätzung des Eigenmietwerts vorzunehmen.
+84   Bei der individuellen Schätzung des Eigenmietwerts ist in einem
+    ersten Schritt auf folgende Grundlagen abzustellen:
+    – auf für vergleichbare Objekte an ähnlicher Lage bezahlte Miet-
+    preise,
+    – auf ein nach anerkannten Bewertungsgrundsätzen erstelltes Privat-
+    gutachten über die erzielbare Marktmiete.
+85   Ist aufgrund vorstehender Grundlagen keine gesicherte Individual-
+    schätzung möglich, ist der Marktmietwert vom kantonalen Steueramt
+    durch eine individuelle Schätzung zu ermitteln. Dabei kann auch eine
+    hedonische Methode angewendet oder ein amtliches Gutachten in Auf-
+    trag gegeben werden.

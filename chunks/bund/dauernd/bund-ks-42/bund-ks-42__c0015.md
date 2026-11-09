@@ -5,21 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 15"
-seiten: "6"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 5
 
-<!-- Seite 6 -->
-    handelt.“
-Nach dem Wortlaut dieser Bestimmung kann bei Vorliegen eines Abschlusses auf der Sekundar-
-stufe II ein allgemeiner Abzug für alle berufsorientierten Aus- und Weiterbildungskosten geltend
-gemacht werden. Dieser umfasst die Kosten für die Weiterbildung im bisherigen Beruf, für die
-Umschulung, für den Wiedereinstieg und für den Berufsaufstieg.
-Ab dem vollendeten 20. Lebensjahr können steuerpflichtige Personen auch ohne einen Ab-
-schluss auf der Sekundarstufe II ihre anfallenden berufsorientierten Aus- und Weiterbildungskos-
-ten abziehen, sofern diese nicht im Hinblick auf den ersten Abschluss auf der Sekundarstufe II
-aufgewendet werden.
-Mit dieser schematischen Abgrenzung, die dem Wortlaut von Artikel 33 Absatz 1 Buch-
-stabe j DBG zugrunde liegt, können sämtliche berufsorientierten Aus- und Weiterbildungskosten
-von Bildungsaktivitäten sowohl auf der Sekundarstufe II (nach dem ersten Abschluss auf dersel-
+4.1   Allgemeines
+Artikel 33 Absatz 1 Buchstabe j DBG trat am 1. Januar 2016 in Kraft und lautet folgendermassen:
+    „Von den Einkünften werden abgezogen:
+    j. die Kosten der berufsorientierten Aus- und Weiterbildung, ein-
+    schliesslich der Umschulungskosten, bis zum Gesamtbetrag von
+    12 000 Franken, sofern:
+    1. ein erster Abschluss auf der Sekundarstufe II vorliegt, oder
+    2. das 20. Lebensjahr vollendet ist und es sich nicht um die
+
+    Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II

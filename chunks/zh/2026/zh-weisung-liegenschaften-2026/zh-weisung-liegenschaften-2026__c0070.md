@@ -5,24 +5,28 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 70"
-seiten: "28"
+seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 28
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 31
 
-Bezirk Meilen
-Erlenbach   5   5300   4940   4560   4170   3810   –   –   –   –
-Herrliberg   5   5680   5270   4840   4420   4010   –   –   –   –
-Hombrechtikon   4   2350   2030   1720   1390   –   –   –   –   –
-Küsnacht   7   5780   5290   4790   4300   3810   3340   2840   –   –
-Männedorf   5   3740   3480   3230   2970   2720   –   –   –   –
-Meilen   5   3880   3570   3280   2990   2700   –   –   –   –
-Oetwil am See   3   1930   1680   1440   –   –   –   –   –   –
-Stäfa   5   3630   3370   3100   2830   2550   –   –   –   –
-Uetikon am See   4   3740   3410   3100   2770   –   –   –   –   –
-Zollikon   7   5420   4960   4490   4020   3560   3110   2640   –   –
-Zumikon   6   4470   4160   3850   3560   3250   2940   –   –   –
-Bezirk Pfäffikon
-Bauma   6   1230   1070   880   720   550   370   –   –   –
-Fehraltorf   4   2180   1940   1700   1460   –   –   –   –   –
-Hittnau   4   1680   1480   1270   1070   –   –   –   –   –
+Wasterkingen   1   430   –   –   –   290   –   –   –
+Wil   1   440   –   –   –   290   –   –   –
+Winkel   1   670   –   –   –   360   –   –   –
+Bezirk Dielsdorf
+Bachs   1   290   –   –   –   140   –   –   –
+Boppelsen   1   440   –   –   –   290   –   –   –
+Buchs   1   760   –   –   –   360   –   –   –
+Dällikon   1   600   –   –   –   350   –   –   –
+Dänikon   1   440   –   –   –   290   –   –   –
+Dielsdorf   1   830   –   –   –   450   –   –   –
+Hüttikon   1   440   –   –   –   290   –   –   –
+Neerach   1   440   –   –   –   290   –   –   –
+Niederglatt   1   550   –   –   –   360   –   –   –
+Niederhasli   1   550   –   –   –   360   –   –   –
+Niederweningen   1   440   –   –   –   290   –   –   –
+Oberglatt   1   530   –   –   –   360   –   –   –
+Oberweningen   1   440   –   –   –   290   –   –   –
+Otelfingen   1   600   –   –   –   350   –   –   –
+Regensberg   1   440   –   –   –   290   –   –   –
+Regensdorf   1   740   –   –   –   470   –   –   –

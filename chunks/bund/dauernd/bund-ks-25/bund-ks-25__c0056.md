@@ -5,29 +5,30 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 56"
-seiten: "14"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 15
 
-<!-- Seite 14 -->
-    Gesamtaktiven gemäss der konsolidierten Vermögensrechnung (vgl. Art. 90 KAG)
-    abgestellt.
+<!-- Seite 15 -->
+Anhang III   Grafische Übersicht über die Formen der kollektiven Kapitalanlagen (KKA)
 
-Steuerbare Einkünfte aus Anteilen an kollektiven Kapitalanlagen mit direktem Grundbesitz:
+  Formen kollektiver Kapitalanlagen (KKA) und ihre Besteuerung
 
-Einkünfte aus Anteilen von kollektiven Kapitalanlagen mit direktem Grundbesitz sind steuer-
-bar, soweit die Gesamterträge der kollektiven Kapitalanlage die Erträge aus direktem Grund-
-besitz übersteigen. Die Ausschüttungen und die Reserven sind daher aufgrund ihrer Her-
-kunft in folgende zwei Kategorien aufzuteilen:
-    a) Versteuerter Vermögensertrag inklusive Kapital- und Aufwertungsgewinne aus direk-
-    tem Grundbesitz.
-    b) Vermögensertrag aus indirektem Grundbesitz, übrigem Vermögen sowie Ertrag aus
-    der Auflösung von vor dem 1. Januar 1995 gebildeten Rückstellungen auf direktem
-    Grundbesitz (i.d.R. Unterhalts- und Amortisationsfonds).
+    Offene KKA   Geschlossene KKA
 
-Gebühren, welche die der Verrechnungssteuer unterliegenden Erträge betreffen, dürfen die-
-sen belastet werden. Die Belastung darf jeweils höchstens 1.5% (Betriebsaufwandquote =
-Total Expense Ratio / TERREF) des Gesamtfondvermögens dieser Anlagen betragen. Liegt
-der Totalbetrag der Gebühren unter der Grenze von 1.5%, so ist nur der geringere Betrag
-abzugsfähig.
+    Vertragliche Anlagefonds   SICAV   KmGK   SICAF
+
+  KKA ohne direkten Grundbesitz (vgl.   •   Transparente Betrach-   •   Transparente Betrach-   •   Transparente Betrach-   •   Keine transparente Be-
+  KS Nr. 25, Ziffer 3.2)   tung, kein eigenes   tung, kein eigenes   tung, kein eigenes Steu-   trachtung, eigenes Steu-
+    Steuersubjekt   Steuersubjekt   ersubjekt   ersubjekt
+    •   Besteuerung nach Arti-   •   Besteuerung nach Arti-   •   Besteuerung nach Artikel   •   Besteuerung nach Artikel
+    kel 10 Absatz 2 DBG   kel 10 Absatz 2 DBG   10 Absatz 2 DBG   49 Absatz 2 DBG wie
+    eine Kapitalgesellschaft
+  KKA mit direktem Grundbesitz (vgl.   •   Keine transparente Be-   •   Keine transparente Be-   •   Keine transparente Be-
+    d.h. Besteuerung des
+  KS Nr. 25, Ziffer 3.3)   trachtung, eigenes   trachtung, eigenes   trachtung, eigenes Steu-
+    Reingewinns nach Artikel
+    Steuersubjekt   Steuersubjekt   ersubjekt
+    58 ff. DBG zum Satz von
+    •   Den übrigen juristi-   •   Den übrigen juristi-   •   Den übrigen juristischen

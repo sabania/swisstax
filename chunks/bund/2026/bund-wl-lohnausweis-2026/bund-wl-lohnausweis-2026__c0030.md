@@ -23,10 +23,3 @@ Als unregelmässige Leistungen gelten insbesondere:
     lich vereinbarte Zusatzentschädigungen, z. B. ein 13. oder 14. Monatslohn, sind dagegen
     nicht hier, sondern als Bestandteil des Lohnes in Ziffer 1 des Lohnausweises zu dekla
     rieren;
-•   Antritts- und Austrittsentschädigungen;
-•   Treueprämien;
-•   Dienstaltersgeschenke, Jubiläumsgeschenke;
-•   Umzugsentschädigungen (pauschal oder effektiv); Ist der Umzug aufgrund eines
-    äusseren beruflichen Zwangs notwendig (z. B. Sitzverlegung des Arbeitgebers) oder han
-    delt es sich beim Arbeitnehmer um einen entsendeten Mitarbeiter gemäss ExpaV
-    (vgl. RZ 26), gilt Rz 71. Pauschal vergütete Umzugskosten sind in jedem Fall unter

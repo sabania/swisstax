@@ -5,14 +5,22 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 18"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 5
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 6
 
-Wenn in der Geschäfts- und Steuerperiode, die im Kalenderjahr 2026 endet, der Sitz in einen
-anderen Kanton verlegt oder das Nebensteuerdomizil (Liegenschaften, Betriebsstätten) im
-Kanton Zürich durch eine steuerpflichtige juristische Person mit Sitz in einem anderen Kanton
-aufgegeben wird, so ist im Kalenderjahr 2027 eine Steuererklärung 2026 einzureichen. Für
-dieses Steuererklärungsverfahren gelten im Übrigen die Grundsätze gemäss Aufforderung zur
-Einreichung von Steuererklärungen und Verrechnungsanträgen im Jahre 2027.
+<!-- Seite 6 -->
+F. Rückerstattung der eidgenössischen Verrechnungssteuer
+Natürliche Personen beantragen die Rückerstattung der Verrechnungssteuer zusammen mit der
+Steuererklärung (Formular Wertschriften- und Guthabenverzeichnis mit Verrechnungsantrag).
+Der Anspruch auf Rückerstattung erlischt, wenn er nicht innert dreier Jahre nach Ablauf des
+Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt wird.
+Juristische Personen sowie Kollektiv- und Kommanditgesellschaften verlangen die
+Rückerstattung der Verrechnungssteuer bei der eidgenössischen Steuerverwaltung in Bern, wo
+besondere Formulare erhältlich sind.
+
+G. Rückerstattung oder Anrechnung ausländischer
+Quellensteuern
+
+I. Zusätzlicher Steuerrückbehalt USA

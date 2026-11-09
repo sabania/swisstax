@@ -5,20 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 34"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 8
 
-4.3   Bei Anlagen im Geschäftsvermögen
-Die Bestimmung von Artikel 20 Absatz 1 Buchstabe e DBG findet auch Anwendung auf na-
-türliche Personen, die ihre Anteile an kollektiven Kapitalanlagen im Geschäftsvermögen hal-
-ten. Erträge und Kapitalgewinne aus direktem Grundbesitz, die aus kollektiven Kapitalanla-
-gen mit direktem Grundbesitz stammen, unterliegen nicht der Einkommensbesteuerung.
-Diese Regelung gilt analog auch für juristische Personen.
+<!-- Seite 8 -->
+Die Wiederanlage der Erträge von thesaurierenden kollektiven Kapitalanlagen gilt direktsteu-
+erlich als Realisation, weshalb es sich empfiehlt, diesen Vorgang erfolgswirksam zu verbu-
+chen. Werden die Erträge nicht verbucht, verwirkt der Anleger seinen Anspruch auf Rücker-
+stattung der Verrechnungssteuer (vgl. Art. 25 Abs. 1 VStG). Dementsprechend empfiehlt sich
+folgende Verbuchung bei einem Ertrag einer kollektiven Kapitalanlage:
 
-Bei Verkauf bzw. Rückgabe von im Geschäftsvermögen gehaltenen Anteilen qualifiziert die
-Differenz zwischen dem tieferen steuerlich massgebenden Einkommens- bzw. Gewinnsteu-
-erwert und dem höheren Verkaufserlös als steuerbarer Kapitalgewinn nach Artikel 18 Absatz
-2 bzw. Artikel 58 DBG. Ein Kapitalverlust ist steuerlich nach Artikel 27 Absatz 2 Buchstabe b
-bzw. Artikel 58 DBG abzugsfähig.
+Ertrag von beispielsweise CHF 100
+       Kollektive Kapitalanlage   an   Wertschriftenertrag   CHF 65
+       Verrechnungssteuer   an   Wertschriftenertrag   CHF 35
+
+Anlegerinnen und Anleger von ausländischen vertraglichen (und damit transparenten) kol-
+lektiven Kapitalanlagen können die Verrechnungssteuer auf Erträgen aus schweizerischen
+Titeln im Fondsvermögen zurückverlangen, sofern sie im Zeitpunkt der Fälligkeit dieser Er-
+träge rückerstattungsberechtigt sind.

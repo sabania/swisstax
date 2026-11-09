@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_3.pdf.ocFile/039_3.pdf> · lokal: [sg-stb-39-3.pdf](../../../raw/sg/dauernd/sg-stb-39-3.pdf) · Volltext: [sg-stb-39-3.md](../../../sources/sg/dauernd/sg-stb-39-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `17f5ee43bc3de2d1…`
 
-## Inhalt (24 Chunks)
+## Inhalt (23 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -38,5 +38,4 @@ generiert: tools/build_index.py
 | [c0020](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0020.md) | StB 39 Nr. 3 – Abschnitt 20 | S. 5 |  |
 | [c0021](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0021.md) | StB 39 Nr. 3 – Abschnitt 21 | S. 5 |  |
 | [c0022](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0022.md) | StB 39 Nr. 3 – Abschnitt 22 | S. 5 |  |
-| [c0023](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0023.md) | StB 39 Nr. 3 – Abschnitt 23 | S. 5 |  |
-| [c0024](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0024.md) | StB 39 Nr. 3 – Abschnitt 24 | S. 6 |  |
+| [c0023](../../../chunks/sg/dauernd/sg-stb-39-3/sg-stb-39-3__c0023.md) | StB 39 Nr. 3 – Abschnitt 23 | S. 6 |  |

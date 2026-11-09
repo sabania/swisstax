@@ -10,17 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 16
 
-Gesamthaft erhaltener geldwerter Vorteil x Anzahl Arbeitstage* Schweiz innerhalb der Vestingperiode
-
-    Anzahl Tage der Vestingperiode
-
-* allenfalls unter Berücksichtigung von Drittstaattagen
-
-Generell vorbehalten bleiben Bestimmungen in den DBA oder weiteren Abkommen mit ande-
-ren Staaten, die das Besteuerungsrecht der Schweiz beschränken oder aufheben (so etwa
-Art. 15a DBA Deutschland über die Besteuerung von Grenzgängern).
-
-Zur Veranschaulichung dient das Fallbeispiel 5 im Anhang II dieses Kreisschreibens.
-
-7.3.4 Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus Mitarbeiterbe-
-    teiligungen, die erst bei Realisierung steuerbar sind
+Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger von Mitarbeiterbe-
+teiligungen, welche im Zeitpunkt der Realisation steuerbar sind, dannzumal seine Ansässig-
+keit entweder in der Schweiz oder im Ausland haben kann. In beiden Fällen kann die Besteu-
+erung an der Quelle erfolgen, sofern die Voraussetzungen der Artikel 83 bzw. Artikel 91, 97
+oder 93 sowie des Artikel 97a DBG erfüllt sind. Daraus ergeben sich folgende Möglichkeiten
+zur Besteuerung:

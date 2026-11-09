@@ -66,22 +66,6 @@
 "titel": "Formular 7 SG 2025 – Abschnitt 5",
 "pfad": [],
 "seiten": [
-1
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-form-7-2025__c0004",
-"nachher": "sg-form-7-2025__c0006"
-},
-{
-"id": "sg-form-7-2025__c0006",
-"titel": "Formular 7 SG 2025 – Abschnitt 6",
-"pfad": [],
-"seiten": [
 2
 ],
 "artikel": null,
@@ -90,7 +74,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "sg-form-7-2025__c0005",
+"vorher": "sg-form-7-2025__c0004",
 "nachher": null
 }
 ]

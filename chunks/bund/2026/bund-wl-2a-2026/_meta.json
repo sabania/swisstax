@@ -130,7 +130,7 @@
 "titel": "WL 2a 2026 – Abschnitt 9",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -274,7 +274,7 @@
 "titel": "WL 2a 2026 – Abschnitt 18",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -402,7 +402,7 @@
 "titel": "WL 2a 2026 – Abschnitt 26",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -418,7 +418,7 @@
 "titel": "WL 2a 2026 – Abschnitt 27",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -546,7 +546,7 @@
 "titel": "WL 2a 2026 – Abschnitt 35",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -562,7 +562,7 @@
 "titel": "WL 2a 2026 – Abschnitt 36",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -690,7 +690,7 @@
 "titel": "WL 2a 2026 – Abschnitt 44",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -706,7 +706,7 @@
 "titel": "WL 2a 2026 – Abschnitt 45",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -834,7 +834,7 @@
 "titel": "WL 2a 2026 – Abschnitt 53",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -850,7 +850,7 @@
 "titel": "WL 2a 2026 – Abschnitt 54",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -978,7 +978,7 @@
 "titel": "WL 2a 2026 – Abschnitt 62",
 "pfad": [],
 "seiten": [
-7
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -994,7 +994,7 @@
 "titel": "WL 2a 2026 – Abschnitt 63",
 "pfad": [],
 "seiten": [
-7
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -1122,7 +1122,7 @@
 "titel": "WL 2a 2026 – Abschnitt 71",
 "pfad": [],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -1138,7 +1138,7 @@
 "titel": "WL 2a 2026 – Abschnitt 72",
 "pfad": [],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -1218,7 +1218,7 @@
 "titel": "WL 2a 2026 – Abschnitt 77",
 "pfad": [],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -1234,7 +1234,7 @@
 "titel": "WL 2a 2026 – Abschnitt 78",
 "pfad": [],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -1339,38 +1339,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-wl-2a-2026__c0083",
-"nachher": "bund-wl-2a-2026__c0085"
-},
-{
-"id": "bund-wl-2a-2026__c0085",
-"titel": "WL 2a 2026 – Abschnitt 85",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2026__c0084",
-"nachher": "bund-wl-2a-2026__c0086"
-},
-{
-"id": "bund-wl-2a-2026__c0086",
-"titel": "WL 2a 2026 – Abschnitt 86",
-"pfad": [],
-"seiten": [
-10
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-wl-2a-2026__c0085",
 "nachher": null
 }
 ]

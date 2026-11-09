@@ -10,8 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
 
-4
-    Votum BR Merz: „ […] Diese Weiterentwicklung ist eigentlich eine weitere Präzisierung. Sie besteht darin, dass die Fälle zu
-regeln sind, in welchen der Steuerpflichtige keiner Einrichtung der beruflichen Vorsorge angeschlossen ist, also wenn jemand
-von diesen BVG-Möglichkeiten keinen Gebrauch macht. Solche Steuerpflichtige sollen nicht zu einem Einkauf in die zweite
-Säule gezwungen werden, damit sie von der privilegierten Besteuerung profitieren können..“ AB 2007 N 313
+<!-- Seite 17 -->
+Der Nationalrat ging in der Herbstsession 2006 weiter als der Ständerat und stellte sich auf
+den Standpunkt, dass mit der Mindestbesteuerung von 2 Prozent keine Erleichterung ge-
+schaffen, sondern insbesondere für KMU lediglich der Status quo beibehalten worden sei.
+Zudem sei der festgelegte Mindeststeuersatz zufällig. Daher wurde der Satz von 2 Prozent
+wieder gestrichen. Der Nationalrat war überdies der Meinung, dass stille Reserven immer
+auch einen Vorsorge-Charakter aufwiesen. Kleinstunternehmer und -unternehmerinnen ver-
+fügten in der Regel nicht über eine Pensionskasse. Sie investierten ihr ganzes Vermögen in
+ihre Unternehmung und hätten kein Geld, sich nebenbei eine zweite Säule aufzubauen.
+Wenn nun bei einer Liquidation der gesamte Gewinn besteuert werde, hätten sie nicht wie
+die Versicherten von den steuerlichen Vorteilen (Abzug der Beiträge und allenfalls privilegier-
+te Besteuerung des Bezugs in Kapitalform) profitieren können. Es gehe hier um die spätere

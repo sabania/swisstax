@@ -5,17 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 59"
-seiten: "18"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
 
-Erstens könnten nur jene selbständig erwerbenden Personen einen fiktiven Einkauf geltend
-machen, die bereits einer Pensionskasse angeschlossen sind, da nur sie die Zulässigkeit
-eines Einkaufs nachweisen können. Alle Nichtangeschlossenen haben keine Vorsorgegut-
-haben, welche mittels Einkäufen aufgestockt werden könnten. Mithin können sie auch des-
-sen Zulässigkeit nicht nachweisen. Dass dies der Gesetzgeber gerade nicht gewollt hat,
-kann aus den Materialien geschlossen werden. Diese weisen darauf hin, dass der Gesetz-
-geber jene selbständig erwerbenden Personen, die keiner Vorsorgeeinrichtung angeschlos-
-sen sind, nicht zwingen wollte, sich kurz vor der Pensionierung noch einer Vorsorgeeinrich-
-tung anzuschliessen, um den verpassten Vorsorgeaufbau nachzuholen.
+4
+    Votum BR Merz: „ […] Diese Weiterentwicklung ist eigentlich eine weitere Präzisierung. Sie besteht darin, dass die Fälle zu
+regeln sind, in welchen der Steuerpflichtige keiner Einrichtung der beruflichen Vorsorge angeschlossen ist, also wenn jemand
+von diesen BVG-Möglichkeiten keinen Gebrauch macht. Solche Steuerpflichtige sollen nicht zu einem Einkauf in die zweite
+Säule gezwungen werden, damit sie von der privilegierten Besteuerung profitieren können..“ AB 2007 N 313

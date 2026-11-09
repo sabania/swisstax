@@ -2,16 +2,25 @@
 id: bund-ks-18a__c0052
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 52"
-seiten: "11"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "12"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 11
+> Bund · Steuerjahr 2026 · KS 18a · S. 12
 
-    •   Die ordentlichen Beitragsleistungen, welche die steuerpflichtige Person in den ver-
-    gangenen zehn Jahren in die abtretende Einrichtung entrichtet hat.
-    •   Alle Einkäufe in die Säule 3a, welche die steuerpflichtige Person während der letzten
-    zehn Jahren getätigt hat. Die übertragende Einrichtung muss dabei angeben, welche
-    Jahresbeitragslücken durch die bezeichneten Einkäufe jeweils geschlossen wurden.
+Auch wenn eine steuerpflichtige Person – trotz entsprechender Verpflichtung – auf die Rück-
+forderung der zu viel einbezahlten Säule 3a-Beiträge verzichtet, wird bei einer späteren Aus-
+zahlung das gesamte Säule 3a-Guthaben besteuert. Denn ein Bezug aus der Säule 3a un-
+terliegt immer vollumfänglich der Einkommenssteuer, unabhängig davon, ob die einbezahl-
+ten Beiträge steuerlich in Abzug gebracht wurden. Die zu viel einbezahlten und nicht zurück-
+geforderten Beiträge sowie die darauf entfallenden Zinsen werden somit im Zeitpunkt des
+Bezugs nicht herausgerechnet.
+
+9.2. Für Bankstiftungen
+Bankstiftungen, die unter dem Titel der gebundenen Selbstvorsorge höhere Beiträge als
+diejenigen, die der Abzugsberechtigung entsprechen, entgegennehmen (vgl. vorne unter
+Ziffer 5.1.), können den Anspruch auf Steuerbefreiung (Art. 6 BVV 3) verlieren, weil die ein-
+bezahlten Beiträge in diesem Fall nicht ausschliesslich der Vorsorge im Sinne der BVV 3 die-
+nen.

@@ -5,20 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 213"
-seiten: "58"
+seiten: "56"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 56
 
-9.2   Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer
-Der Schuldner der steuerbaren Leistung meldet Neuanstellungen von quellensteuerpflichti-
-gen Arbeitnehmern innert acht Tagen seit Stellenantritt der zuständigen kantonalen Steuer-
-behörde (vgl. Art. 5 Abs. 1 QStV). Ändern sich die persönlichen Verhältnisse eines quellen-
-steuerpflichtigen Arbeitnehmers, hat der Schuldner der steuerbaren Leistung dies ebenfalls
-innert acht Tagen nach dem Ereignis der zuständigen Steuerbehörde mitzuteilen (vgl. Art. 5
-Abs. 3 zweiter Satz QStV). Die Anmeldung bzw. Meldung von Änderungen hat sämtliche für
-die korrekte Quellenbesteuerung relevanten Angaben zu enthalten (vgl. Musterformular im
-Anhang I).
-Zusätzlich sind Eintritt und Austritt der quellensteuerpflichtigen Person in die bzw. aus der
-Unternehmung in den dafür vorgesehenen Feldern der Quellensteuerabrechnung aufzufüh-
-ren.
+8.4   Wechsel von einem Kanton mit Jahresmodell zu einem anderen Kanton mit Jah-
+    resmodell
+Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
+Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton nach dessen Tarif
+ab.
+Vor oder nach dem Kantonswechsel erfolgte Einmalzahlungen (bspw. Boni, 13. Monatsgeh-
+alt, Einkommen aus Mitarbeiterbeteiligungen) oder Änderungen des Einkommens haben kei-
+nen Einfluss auf die Ermittlung des satzbestimmenden Jahreseinkommens im anderen Kan-
+ton. Die Abrechnungen sind wie bei einem unterjährigen Ein- bzw. Austritt vorzunehmen.

@@ -5,25 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 99"
-seiten: "26"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
 
-<!-- Seite 26 -->
-    2. Der Arbeitnehmer F. ist bei der P. AG auf Abruf angestellt. F. hat mit der P. AG eine Bruttotagesentschädi-
-    gung von CHF 190.00 vereinbart. Im Monat Mai 2021 arbeitet er 11 Tage für das Unternehmen. Der Lohn
-    von insgesamt CHF 2 090.00 wird ihm wöchentlich ausbezahlt. Daneben arbeitet F. bei der R. AG im
-    Stundenlohn. Im Monat Mai 2021 verrichtet er während 70 Stunden seine Arbeit und erhält dafür einen
-    Bruttolohn von CHF 22.00 pro Stunde. Die betriebsübliche Arbeitszeit beträgt 42 Stunden pro Woche bzw.
-    182 Stunden pro Monat. Die Auszahlung des Lohns erfolgt am Ende des Monats (Monatslohn).
-
-    Woche   Tages-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn/Pensum   bzw. Tage   stimmend   len-
-    steuer
-
-    P. AG   190.00   2 090   11   21,667   4 117   7.5 %   156.75
-
-    R. AG   38.46 %   1 5401   70   100 %   4 004   7.2 %   110.90
-
-    1 Bei monatlicher Lohnzahlung muss die Umrechnung aufgrund des Pensums vorgenommen werden, wel-
+Fälle mit mehreren Erwerbstätigkeiten als auch diejenigen mit Ein- und Austritten während
+des Monats abgedeckt.
+Der Quellensteuerabzug ist jeweils im Zeitpunkt der Lohnzahlung vorzunehmen. Ferien- und
+Feiertagszuschläge sind im Zeitpunkt der Abrechnung und Auszahlung des Stunden- oder
+Tageslohns steuerpflichtig. Die Ablieferung der durch den Schuldner der steuerbaren Leis-
+tung bezogenen Quellensteuern erfolgt jedoch monatlich (vgl. Ziffern 9.3.1 unten 9.3.2 un-
+ten). Ist ein quellensteuerpflichtiger Arbeitnehmer innerhalb einer Lohnzahlungsperiode zu
+unterschiedlichen Stunden- bzw. Tageslohnansätzen angestellt, ist das satzbestimmende
+Einkommen für die monatliche Quellensteuerabrechnung nach dem gewogenen Mittel zu be-
+rechnen (Total ausbezahlter Stunden- bzw. Tageslohn inkl. Ferien- und Feiertagsentschädi-
+gung / geleistete Stunden bzw. Tage der entsprechenden Lohnzahlungsperiode x 180 Stun-
+den bzw. 21.667 Tage).

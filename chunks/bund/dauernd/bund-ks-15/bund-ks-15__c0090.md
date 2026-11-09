@@ -4,20 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 90"
-seiten: "21"
+titel: "Anhang III Ziff. 5b/5c Steuerliche Behandlung – modifizierte Differenzbesteuerung (Teil 1/2)"
+ziffer: "Anh. III 5b–c"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 25
 
-Das KAG zählt die Formen der kollektiven Kapitalanlagen abschliessend auf (vgl. Art. 7 bis 9
-KAG). Diese Aufzählung umfasst die strukturierten Produkte grundsätzlich nicht. Da Artikel 4
-Absatz 1 Buchstabe c VStG explizit Bezug auf das KAG nimmt, besteht für die Erhebung der
-Verrechungssteuer auf Erträgen der von einem Inländer ausgegebenen Index- und Basket-
-zertifikate auf kollektive Kapitalanlagen in der Regel keine Rechtsgrundlage. Vorbehalten
-bleiben Fälle von Steuerumgehungen.
+Nebst der klassischen Form gibt es noch weitere Varianten von Step-up-Produkten. Bei-
+spielsweise defensivere Strategien, bei denen der Basiswert am jeweiligen Beobachtungstag
+nicht sein Startniveau, sondern bloss einen – zum Beispiel um 20 Prozent – darunter liegen-
+den Wert erreichen muss.
 
-Die gleiche Ausgangslage besteht im Bereich der Stempelabgaben. Der revidierte Artikel 13
-Absatz 2 Buchstabe a StG nimmt ebenfalls direkt Bezug auf das KAG, was zur Folge hat,
-dass die von einem Inländer ausgegebenen Index- und Basketzertifikate auf kollektive Kapi-
-talanlagen keine steuerbaren Urkunden im Sinne des Stempelabgabenrechts darstellen.
+Im Unterschied zu den herkömmlichen RC mit im Voraus festgelegten, garantierten und peri-
+odisch ausgerichteten Coupons werden bei der RC-Variante nach Buchstabe b) in aller Re-
+gel keine garantierten Coupons ausbezahlt. Dies führt dazu, dass der Anlageteil als Obliga-
+tion mit ausschliesslicher Einmalverzinsung qualifiziert wird. Bei der RC-Variante nach Buch-
+stabe c) gelten die von Jahr zu Jahr ansteigenden bedingten Coupons steuerlich als Kapital-
+gewinne. Auch hier liegen folglich Obligationen mit ausschliesslicher Einmalverzinsung vor.
+Da Anlage und Optionsteil nicht getrennt handelbar sind, unterliegen die RC-Varianten ge-
+mäss Buchstaben b) und c) der modifizierten Differenzbesteuerung.

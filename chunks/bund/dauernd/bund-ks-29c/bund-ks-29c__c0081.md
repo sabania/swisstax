@@ -10,17 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 26
 
-<!-- Seite 26 -->
-Einlagen in die Reserven aus Kapitaleinlagen, die während eines Kapitalbands nach den Ar-
-tikeln 653s ff. OR geleistet werden, sind aufgrund der Nettobetrachtung erst nach Beendi-
-gung des Kapitalbands als KER oder Ausland-KER mittels Formular 170 zu melden.
+Ausland-KER vergangener Geschäftsjahre, welche nach dem 24. Februar 2008 geäufnet
+und bisher nicht als solche gemeldet wurden, können der ESTV, Hauptabteilung DVS, nach-
+gemeldet werden.
 
-Ändert eine Kapitalgesellschaft auf den Beginn eines Geschäftsjahres ihr Aktien- oder
-Stammkapital in eine für die Geschäftstätigkeit wesentliche ausländische Währung, so ist für
-den Währungswechsel innert 30 Tagen nach Publikation des Währungswechsels im Schwei-
-zerischen Handelsamtsblatt ein separates Formular 170 inklusive Zusatzblatt mit der Wäh-
-rungsumrechnung sowie einer Kopie der öffentlichen Urkunde einzureichen.
+Erfolgt die Nachmeldung zusammen mit einer Nachmeldung der KER gemäss Buchstabe b
+hiervor sind die gleichen Nachweise zu erbringen.
 
-Erfahren die KER bzw. Ausland-KER in einem Geschäftsjahr keine Veränderungen, entfällt
-die Einreichung des Formulars 170. Der Geschäftsbericht oder die unterzeichnete Jahres-
-rechnung ist jedoch jedes Jahr einzureichen.
+Erfolgt die Nachmeldung zwecks Aufteilung bereits durch die ESTV bestätigter KER in KER
+und Ausland-KER sind sachdienliche Unterlagen (Sacheinlageverträge, Bilanzen usw.) ein-
+zureichen, die die Einlagen aus dem Ausland belegen. Wurden in der Zeit nach dem
+24. Februar 2008 KER zurückbezahlt, vermindern diese zuerst den Bestand an KER und erst
+in zweiter Linie den Bestand an Ausland-KER.
+
+Zusätzlich ist ein vollständig ausgefülltes und unterzeichnetes Formular 170 zur Nachmel-
+dung der Bestände der gesonderten Konti bei der Hauptabteilung DVS einzureichen.

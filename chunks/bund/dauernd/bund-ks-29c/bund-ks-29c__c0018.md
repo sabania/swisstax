@@ -10,20 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 5
 
-<!-- Seite 5 -->
-2.   Kapitaleinlagen
+Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
+kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Kapitaleinlagen durch die
+Verrechnungssteuer auch für die direkten Steuern massgeblich.
 
-2.1.   Grundsätze
+2.2.   Spezialfälle
 
-Einlagen, Aufgelder und Zuschüsse (gegebenenfalls nach Abzug der Ausgabekosten), wel-
-che direkt von den Inhabern der Beteiligungsrechte geleistet wurden und in der Handelsbi-
-lanz der empfangenden Kapitalgesellschaft oder Genossenschaft verbucht und offen ausge-
-wiesen sind (offene Kapitaleinlagen) gelten als Reserven aus Kapitaleinlagen (KER) im
-Sinne von Artikel 20 Absatz 3 DBG und Artikel 5 Absatz 1bis VStG.
+2.2.1. Vorteilszuwendungen unter Schwestergesellschaften
 
-Offene Kapitaleinlagen aus dem Ausland im Sinne von Artikel 20 Absatz 5 Buchstaben a und
-b DBG und Artikel 5 Absatz 1quater Buchstaben a und b VStG gelten als Reserven aus Kapi-
-taleinlagen aus dem Ausland (Ausland-KER). Die gesonderten Konti für KER gemäss Artikel
-5 Absatz 1bis VStG und für Ausland-KER gemäss Artikel 5 Absatz 1quinquies VStG sind in einer
-oder mehreren gesonderten Positionen unter den gesetzlichen oder freien Kapitalreserven
-auszuweisen.
+Bei einer Vorteilszuwendung unter Schwestergesellschaften erhalten die Beteiligten aus wirt-
+schaftlicher Sicht einen geldwerten Vorteil von der leistenden Gesellschaft, den sie in die be-
+günstigte Gesellschaft einlegen. Unter dem Kapitaleinlageprinzip qualifizieren Vorteilszuwen-
+dungen unter Schwestergesellschaften jedoch nicht als Einlagen in die KER bzw. Ausland-
+KER, da sie nicht direkt durch die Inhaber der Beteiligungsrechte geleistet werden und die
+übertragenen Mehrwerte in der übernehmenden Kapitalgesellschaft oder Genossenschaft
+nur als Aufwertung offengelegt werden können.
+
+2.2.2. Liberierung neuer Beteiligungsrechte durch Tochtergesellschaften

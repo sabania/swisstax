@@ -24,7 +24,7 @@ generiert: tools/build_index.py
 | [c0006](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0006.md) | WL DA-1/DA-3 2025 – Abschnitt 6 | S. 1 |  |
 | [c0007](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0007.md) | WL DA-1/DA-3 2025 – Abschnitt 7 | S. 1 |  |
 | [c0008](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0008.md) | WL DA-1/DA-3 2025 – Abschnitt 8 | S. 1 |  |
-| [c0009](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0009.md) | WL DA-1/DA-3 2025 – Abschnitt 9 | S. 1 |  |
+| [c0009](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0009.md) | WL DA-1/DA-3 2025 – Abschnitt 9 | S. 2 |  |
 | [c0010](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0010.md) | WL DA-1/DA-3 2025 – Abschnitt 10 | S. 2 |  |
 | [c0011](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0011.md) | WL DA-1/DA-3 2025 – Abschnitt 11 | S. 2 |  |
 | [c0012](../../../chunks/zh/2025/zh-wl-da1-2025/zh-wl-da1-2025__c0012.md) | WL DA-1/DA-3 2025 – Abschnitt 12 | S. 2 |  |

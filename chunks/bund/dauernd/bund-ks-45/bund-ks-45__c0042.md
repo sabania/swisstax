@@ -10,24 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 10
 
-3.2.2 In der Schweiz beschränkt der Quellensteuer unterliegende Einkünfte aus Arbeitsver-
-    hältnis
-In bestimmten Fällen kann der steuerbare Bruttolohn auf das Einkommen aus schweizeri-
-schen Arbeitstagen gekürzt werden (Ausnahmen nach den DBA bleiben vorbehalten, wie
-beispielsweise für Arbeitnehmer im internationalen Verkehr, bei denen je nach Ausgestaltung
-des DBA der gesamte Bruttolohn in der Schweiz steuerbar ist). Entschädigungen, welche in
-einer vorhergehenden Periode verdient wurden (bspw. Bonuszahlungen oder geldwerte Leis-
-tungen aus Mitarbeiterbeteiligungen), sind in der Schweiz in dem Umfang an der Quelle (al-
-lenfalls begrenzt) steuerbar, in dem das in der Verdienstperiode bzw. Vestingperiode erzielte
-Lohneinkommen in der Schweiz steuerbar war.
-Bei Arbeitnehmern mit Ansässigkeit in der Schweiz ist der auf jene Arbeitstage entfallende
-Teil der steuerbaren Leistung steuerbar, der nicht aufgrund eines DBA wegen Arbeitsaus-
-übung im Ausland von der Schweiz freigestellt werden muss (bspw. bei Vorliegen einer fakti-
-schen Arbeitgeberschaft oder wenn die Voraussetzungen der Monteurklausel nicht erfüllt
-sind).
-Bei Arbeitnehmern mit Ansässigkeit im Ausland ist grundsätzlich nur derjenige Teil der Leis-
-tung steuerbar, der auf in der Schweiz erbrachte Arbeitstage entfällt.
-Für die Ermittlung des satzbestimmenden Einkommens sind die weltweiten Bruttoerwerbs-
-einkünfte (inkl. Ersatzeinkünfte) heranzuziehen (vgl. Art. 7 Abs. 1 DBG).
-Zur Berechnung des steuerbaren sowie satzbestimmenden Einkommens wird auf die Ziffern
-6 (Monatsmodell) und 7 (Jahresmodell) unten verwiesen.
+somit insbesondere auch Taggelder (IV, UV, ALV, KVG etc.), Teil-Invaliditätsrenten (IV, UV,
+berufliche Vorsorge etc.), Mutterschaftsentschädigungen und Ersatzleistungen haftpflichtiger
+Dritter. Ob im Einzelfall ein Quellensteuerabzug vorzunehmen ist, ist dem jeweils gültigen
+«Merkblatt der ESTV über die Quellenbesteuerung von Ersatzeinkünften» zu entnehmen.
+Andere Einkünfte (bspw. Wertschriften- oder Liegenschaftserträge) unterliegen nicht der
+Quellensteuer, sondern werden (nachträglich) im ordentlichen Verfahren veranlagt (vgl.
+Art. 4 Abs. 1 bzw. Art. 89 Abs. 1 Bst. b sowie Art. 99b DBG).
+Hat der Leistungsschuldner seinen Sitz im Ausland, unterliegen die von ihm ausgerichteten
+und in der Schweiz steuerpflichtigen Lohnbestandteile in der Regel der ordentlichen Veranla-
+gung. Eine Quellenbesteuerung hat nur zu erfolgen, wenn diese Leistungen von einer Be-
+triebsstätte oder festen Einrichtung in der Schweiz getragen werden, oder wenn ein Perso-

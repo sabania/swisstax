@@ -10,9 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
 
-4.2   Allgemeiner Abzug
-Der Abzug für die Aus- und Weiterbildungskosten gemäss Artikel 33 Absatz 1 Buchstabe j DBG
-stellt einen allgemeinen Abzug dar, mit dem den tatsächlichen Aufwendungen der steuerpflichti-
-gen Person bis zu einem Gesamtbetrag von höchstens 12 000 Franken Rechnung getragen wird.
-Der Abzug ist kein Pauschalabzug. Bei Ehegatten, die in rechtlich und tatsächlich ungetrennter
-Ehe leben, und bei Personen, die in einer eingetragenen Partnerschaft leben, steht dieser Abzug
+    terbildungskosten in Abzug bringen. Die Eltern ihrerseits können keinen Aus- und Weiterbil-
+    dungskostenabzug für ihre Tochter geltend machen. Allenfalls steht ihnen der Kinder- oder der
+    Unterstützungsabzug für ihre Tochter zu.
+    -   Tritt eine Person mit 16 Jahren eine kaufmännische Lehre bei einer international tätigen Bank an,
+    die in der Regel drei Jahre dauert, kann sie die Kosten für einen Sprachaufenthalt in England,
+    welchen sie in den Sommerferien am Ende des zweiten Lehrjahres absolviert, steuerlich nicht zum
+    Abzug bringen. Wenn sie allerdings denselben Sprachkurs nach dem Lehrabschluss besucht, sind
+    die Kosten – sofern sie berufsorientiert sind – steuerlich abzugsfähig, auch wenn sie das 20. Le-
+    bensjahr noch nicht vollendet hat.

@@ -4,25 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 76"
-seiten: "17"
+titel: "Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind)"
+ziffer: "13.4.1"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.1 Allgemeines · S. 23
 
-Der Zweiverdienerabzug wird nicht nur bei unselbständiger Tätigkeit der Ehegatten, sondern
-auch bei erheblicher Mitarbeit eines Ehegatten im Beruf, Geschäft oder Gewerbe des ande-
-ren Ehegatten gewährt. Die Mitarbeit gilt dann als erheblich, wenn sie regelmässig und in
-beträchtlichem Masse erfolgt und einer Drittperson hierfür ein Lohn in mindestens der Höhe
-des Abzuges bezahlt werden müsste. Dies gilt für die Mitarbeit sowohl im Rahmen einer
-hauptberuflichen wie auch einer nebenberuflichen selbständigen Erwerbstätigkeit des Ehe-
-partners.
+13.4   Elterntarif
 
-Bei Mitarbeit im Rahmen einer unselbständigen (haupt- oder nebenberufliche) Erwerbstätig-
-keit des Ehegatten kann ein Abzug nur gewährt werden, wenn eine erhebliche oder regel-
-mässige Mitarbeit bei der Tätigkeit des Ehepartners vertraglich vorgesehen ist.
+13.4.1   Allgemeines
 
-Schliesslich ist der Abzug auch zu gewähren, wenn beide Ehegatten eine selbständige Er-
-werbstätigkeit ausüben.
+Steuerpflichtige mit Kindern werden zum Elterntarif besteuert (Art. 36 Abs. 2 bis DBG). Der
+Elterntarif ist der mildeste der drei Tarife. Er besteht aus dem Verheiratetentarif (Basis) und
+einem Abzug vom Steuerbetrag in der Höhe von maximal 251 Franken pro Kind oder unter-
+stützungsbedürftige Person. Dieser Abzug im Elterntarif ist eine direkte Tarifmassnahme und
+kein Sozialabzug.
 
-9.2   Definition Erwerbseinkommen
+Für die Berechnung des Steuerbetrags nach dem Elterntarif werden die Kinderkosten in ei-
+nem ersten Schritt durch die heute geltenden Kinderabzüge sowie durch den Kinderdrittbe-
+treuungskostenabzug von der Bemessungsgrundlage berücksichtigt. In einem zweiten
+Schritt wird der Tarif für Verheiratete ohne Kinder (Verheiratetentarif) angewendet. Der auf-
+grund des Verheiratetentarifs berechnete Steuerbetrag wird in einem dritten Schritt zusätz-
+lich um maximal 251 Franken pro Kind reduziert. Die Kombination Grundtarif und Abzug vom
+Steuerbetrag ist nicht möglich.

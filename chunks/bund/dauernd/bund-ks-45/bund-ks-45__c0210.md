@@ -5,20 +5,26 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 210"
-seiten: "58"
+seiten: "55"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 55
 
-9.1   Allgemeines
-Dem Schuldner der steuerbaren Leistung obliegen im Quellensteuerverfahren verschiedene
-Pflichten (vgl. Art. 88 und 100 DBG). Er erhält für seine Mitwirkung eine Bezugsprovision,
-welche von den Kantonen nach Vorgabe des Bundesrechts festgelegt wird (vgl. Art. 88
-Abs. 4 bzw. Art. 100 Abs. 3 DBG i.V.m. Art. 6 QStV).
-Der Schuldner der steuerbaren Leistung haftet in vollem Umfang für die Entrichtung der
-Quellensteuer. Die Haftung des Schuldners der steuerbaren Leistung ist verschuldensunab-
-hängig und schliesst auch Fehler bzw. Fehlinformationen der steuerpflichtigen Person sowie
-von Dritten mit ein (vgl. Art. 88 Abs. 3 bzw. Art. 100 Abs. 2 DBG). Es obliegt deshalb dem
-Schuldner der steuerbaren Leistung, die persönliche Situation der steuerpflichtigen Person
-abzuklären, die erhaltenen Informationen zu überprüfen und festzulegen, ob für diese Person
-eine Quellenbesteuerung durchzuführen ist. Unterlässt es der Schuldner der steuerbaren
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 [(CHF 5 000 x 13) + CHF 30 000].
+
+    3 = Korrektur für den Quellensteuerabzug des Monats Januar [(CHF 5 000 x 14.4 %) – CHF 520].
+
+    4 = Die Quellensteuer ist im Monat nach dem Kantonswechsel mit dem neuen, zuständigen Kanton nach
+
+    dessen Tarif abzurechnen.
+    5 = A0 mit satzbestimmendem Monatslohn von CHF 5 000.00.
+
+    6 = A0 mit satzbestimmendem Monatslohn von CHF 10 000.00.
+
+8.3   Wechsel von einem Kanton mit Monatsmodell zu einem Kanton mit Jahresmodell
+Der Schuldner der steuerbaren Leistung rechnet die Quellensteuern ab dem Folgemonat des
+Kantonswechsels ausschliesslich mit dem anspruchsberechtigten Kanton (mit Jahresmodell)
+nach dessen Tarif ab.
+Vor dem Kantonswechsel erfolgte Einmalzahlungen (bspw. Boni, 13. Monatsgehalt, Einkom-
+men aus Mitarbeiterbeteiligungen) oder Änderungen des Einkommens haben keinen Einfluss
+auf die Ermittlung des satzbestimmenden Jahreseinkommens für die Zeit, in welcher der

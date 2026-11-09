@@ -5,18 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 41 – Abschnitt 20"
-seiten: "5"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 41 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 41 · S. 4
 
-<!-- Seite 5 -->
-2.2.5   Auszahlung und Einkauf innert 12 Monaten
-
-In Analogie zu Artikel 24 Buchstabe c DBG sind Kapitalleistungen aus Vorsorge steuerfrei,
-wenn diese innert 12 Monaten seit Bezug zum Einkauf in eine Vorsorgeeinrichtung verwen-
-det werden. Im Gegenzug ist der Einkauf bis zur Höhe des Kapitalbezugs nicht vom steuer-
-baren Einkommen abziehbar.
-
-2.2.6   Aufnahme einer selbständigen Erwerbstätigkeit und Investitionen in
-    den eigenen Betrieb
+Die dreijährige Sperrfrist gemäss Artikel 79b Absatz 3 BVG aufgrund eines Einkaufs in die
+vorherige Vorsorgeeinrichtung ist auch nach der Übertragung der Austrittsleistung an die
+neue Vorsorgeeinrichtung oder allenfalls die Freizügigkeitseinrichtung zu beachten (vgl. dazu
+auch Mitteilung des Bundesamtes für Sozialversicherungen über die berufliche Vorsorge
+Nr. 97, Rz 568).

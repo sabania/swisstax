@@ -10,13 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 3
 
-Ein Einkauf in die vollen reglementarischen Leistungen einer frühpensionierten Person, die
-wieder erwerbstätig ist, wird nur unter der Voraussetzung möglich, dass das Altersguthaben,
-über welches diese versicherte Person im Zeitpunkt des frühzeitigen Altersrücktritts verfügte,
-bei der Berechnung des notwendigen Einkaufsbetrages angerechnet wird. Die Hinzurech-
-nungspflicht ergibt sich sowohl aus dem Grundsatz der Angemessenheit der Vorsorge als
-auch daraus, dass im Falle einer Frühpensionierung mit Weiterarbeit faktisch ein Freizügig-
-keitsfall vorliegt und daher die Altersleistung materiell wie eine Freizügigkeitsleistung zu be-
-handeln ist (vgl. Mitteilung des Bundesamtes für Sozialversicherungen über die berufliche
-Vorsorge Nr. 97 vom 15. Februar 2007, Rz 568). Nur der so berechnete Einkauf kann vom
-steuerbaren Einkommen in Abzug gebracht werden.
+In diesem Zusammenhang ist darauf hinzuweisen, dass ein Einkauf ausschliesslich bei einer
+Vorsorgeeinrichtung möglich ist, da diese ihre Leistungen in einem Vorsorgeplan festhält
+(Art. 9 Abs. 2 FZG; Art 79b Abs. 1 BVG). Bei einem Freizügigkeitskonto oder einer Freizü-
+gigkeitspolice wird kein Vorsorgeplan berechnet. Das Freizügigkeitskonto oder die Freizügig-
+keitspolice dient lediglich der Erhaltung des Vorsorgeschutzes (Art. 10 FZV). Systembedingt
+ergibt sich daher weder bei einem Freizügigkeitskonto noch bei einer Freizügigkeitspolice ein
+Einkaufsbedarf, weshalb ein faktischer Einkauf in eine Freizügigkeitseinrichtung steuerrecht-
+lich nicht geltend gemacht werden kann.
+
+2.2.3   Einkauf von Beitragsjahren nach Wiederaufnahme einer Erwerbstätig-
+    keit im Rentenalter

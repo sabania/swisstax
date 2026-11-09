@@ -10,15 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
 
-<!-- Seite 6 -->
--   Einsatz von Derivaten
+Schliesslich ist es unerheblich, ob die steuerpflichtige Person Wertschriftengeschäfte selbst
+oder über einen bevollmächtigten Dritten (Bank, Treuhänder, usw.) abwickelt (ASA 71,
+627; 69, 652 und 788; 67, 483; 66, 224). Das Verhalten dieser bevollmächtigten Personen,
+welche als Hilfspersonen gelten, wird der steuerpflichtigen Person zugerechnet. Dies wird
+damit begründet, dass sich der Erfolg (oder Misserfolg) der getätigten Geschäfte letztlich in
+der wirtschaftlichen Leistungsfähigkeit der (auftraggebenden) steuerpflichtigen Person
+einstellt (ASA 63, 43). Das Bundesgericht hat den Grundsatz, dass die Handlungen von
+bevollmächtigten Dritten der steuerpflichtigen Person zuzurechnen sind, in der neusten
+Rechtsprechung ausdrücklich bestätigt (2C_868/2008, E. 3.4).
 
-    Ein Handel mit Derivaten kann der Absicherung namentlich des Aktienvermögens
-    dienen. Übersteigt der Einsatz von Derivaten aber die Absicherung von Risiken und
-    wird im Verhältnis zum Gesamtvermögen ein grosses Volumen umgesetzt, so ist der
-    Handel mit Derivaten als spekulativ zu qualifizieren, was auf gewerbsmässiges
-    Vorgehen hindeutet.
+4.4   Bemessungsgrundlage
 
-Indizien von untergeordneter Bedeutung:
-
--   die systematische oder planmässige Art und Weise des Vorgehens
+Der Gewinn aus der Veräusserung von Wertschriften wird definiert als positive Differenz
+zwischen dem Veräusserungserlös und den Gestehungskosten der Wertschriften, abzüglich

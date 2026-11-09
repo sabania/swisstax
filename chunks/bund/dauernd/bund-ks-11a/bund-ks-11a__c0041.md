@@ -10,12 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 10
 
-4.3.10   Kosten für Privatschulen
-Mehrkosten, die durch den Besuch einer Privatschule entstehen, sind in der Regel nicht zum
-Abzug zugelassen. Sie gelten nur dann als behinderungsbedingte Kosten, wenn mittels Bericht
-des kantonalen schulpsychologischen Dienstes oder – sofern ein solcher Bericht nicht erhältlich
-ist – durch ein gleichwertiges Fachgutachten nachgewiesen wird, dass es sich beim Besuch ei
-ner Privatschule um eine notwendige Massnahme für eine angemessene schulische Ausbildung
-des Kindes mit Behinderung handelt und es keine anderen Massnahmen gibt, die kostengünsti
-ger sind oder weniger weit gehen und zum selben Erfolg führen würden (vgl. Urteil des Bundes
-gerichts 2C_588/2011 vom 16. Dezember 2011 E. 3.4).
+4.3.8   Kosten für Hilfsmittel, Pflegeartikel und Kleider
+Als behinderungsbedingte Kosten gelten Anschaffungs- oder Mietauslagen für Hilfsmittel, Ge
+räte und Pflegeartikel (z.B. Windeln, Stoma-Artikel etc.) aller Art, die es der Person mit Behinde
+rung erlauben, die Folgen ihrer Behinderung zu minimieren. Darunter fallen auch die Kosten,
+die im Zusammenhang mit dem Gebrauchstraining (z.B. Einführung in den Gebrauch eines
+Lese- und Schreibgeräts für Blinde oder Sehbehinderte), der Reparatur und dem Unterhalt sol
+cher Hilfsmittel und Geräte entstehen. Auch die Kosten einer behinderungsbedingt notwendigen
+Installation von Alarmanlagen und Notrufsystemen sind abzugsfähig.
+Abzugsfähig sind auch die Mehrkosten, die im Zusammenhang mit der Anfertigung von speziel
+len Kleidern oder Schuhen entstehen. Ebenso sind die Mehrkosten zum Abzug zugelassen, die
+durch vermehrten Kleiderverschleiss entstehen, weil die Person wegen ihrer Behinderung im
+Vergleich zu einer Person ohne Behinderung ihre Kleider in rascherer Abfolge ersetzen muss
+(z. B. Paraplegiker im Rollstuhl; vgl. Urteil StRK ZH vom 18. Juni 2003 [Zürcher Steuerpraxis
+ZStP 2004, 221 f.]).

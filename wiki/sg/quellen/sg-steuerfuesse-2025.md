@@ -12,17 +12,19 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/tarife-und-steuerfuesse/steuerfuesse-st-gallische-gemeinden/Steuerfuesse%202025%20finale%20Version%20fuer%20Internet.pdf> · lokal: [sg-steuerfuesse-2025.pdf](../../../raw/sg/2025/sg-steuerfuesse-2025.pdf) · Volltext: [sg-steuerfuesse-2025.md](../../../sources/sg/2025/sg-steuerfuesse-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `08a9f7964669bfc8…`
 
-## Inhalt (10 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Tabellen-Layout (pdftotext): Fussnotenziffern 3/4 stehen als eigene Zeilen über den Gemeindezeilen (Seiten 1-4); Zuordnung zur Gemeinde ist die jeweils folgende Zeile.
+
+## Inhalt (8 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0001.md) | Steuerfüsse SG 2025 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0002.md) | Steuerfüsse SG 2025 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0003.md) | Steuerfüsse SG 2025 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0004.md) | Steuerfüsse SG 2025 – Abschnitt 4 | S. 2 |  |
-| [c0005](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0005.md) | Steuerfüsse SG 2025 – Abschnitt 5 | S. 2 |  |
-| [c0006](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0006.md) | Steuerfüsse SG 2025 – Abschnitt 6 | S. 3 |  |
-| [c0007](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0007.md) | Steuerfüsse SG 2025 – Abschnitt 7 | S. 3 |  |
-| [c0008](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0008.md) | Steuerfüsse SG 2025 – Abschnitt 8 | S. 4 |  |
-| [c0009](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0009.md) | Steuerfüsse SG 2025 – Abschnitt 9 | S. 4 |  |
-| [c0010](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0010.md) | Steuerfüsse SG 2025 – Abschnitt 10 | S. 4 |  |
+| [c0001](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0001.md) | Bemerkungen und Zeichenerklärung – Kantonssteuer 105 %, christkatholisch 24 % | S. 1 | Der Steuerfuss ist in Prozent der einfachen Steuer festgelegt; die Kantonssteuer beträgt 105 Prozent, der Steuerfuss der christkatholischen Kirchgemeinde im ganzen Kanton 24 Prozent. |
+| [c0002](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0002.md) | Steuerfüsse Gemeinden St. Gallen bis St. Margrethen (Seite 1) | S. 1 | Tabelle mit Grundsteuersatz, Gesamtsteuerfuss Politische Gemeinde und Kirchgemeinden (z.B. St. Gallen 0.8 Promille, 138 %; Wittenbach 123 %). |
+| [c0003](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0003.md) | Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2) (Teil 1/2) | S. 2 | Tabelle der Steuerfüsse von Au, Berneck, Balgach, Altstätten, Buchs, Sargans, Mels, Flums, Walenstadt u.a. (z.B. Wartau 145 %, Balgach 61 %). |
+| [c0004](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0004.md) | Steuerfüsse Gemeinden Au bis Walenstadt (Seite 2) (Teil 2/2) | S. 2 |  |
+| [c0005](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0005.md) | Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 1/2) | S. 3 | Tabelle der Steuerfüsse von Quarten, Amden, Rapperswil-Jona (74 %), Wattwil, Ebnat-Kappel, Neckertal, Mosnang u.a. |
+| [c0006](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0006.md) | Steuerfüsse Gemeinden Quarten bis Mosnang (Seite 3) (Teil 2/2) | S. 3 |  |
+| [c0007](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0007.md) | Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 1/2) | S. 4 | Tabelle der Steuerfüsse von Kirchberg, Uzwil, Flawil, Wil (115 %), Gossau (116 %), Gaiserwald u.a.; Stand Kantonales Steueramt 15.1.2026. |
+| [c0008](../../../chunks/sg/2025/sg-steuerfuesse-2025/sg-steuerfuesse-2025__c0008.md) | Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 2/2) | S. 4 |  |

@@ -10,17 +10,18 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 8
 
-<!-- Seite 8 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
-
-    V. Mehrfamilien- und Geschäftshäuser
-
-    1. Allgemeine Grundsätze
-
-36   Mehrfamilien- und Geschäftshäuser sowie Stockwerkeigentum zu
-    Geschäftszwecken sind zum Ertragswert zu bewerten.
-37   Als Geschäftshäuser gelten Liegenschaften, deren Ertrag über-
-    wiegend durch die geschäftliche Nutzung bestimmt wird (Bank-, Büro-
-    und Ladengebäude mit kleinem Wohnanteil usw.).
-
-    2. Ertragswert
+    Ertragswert von Mehrfamilienhäusern
+38   Zur Ermittlung des Ertragswerts von Mehrfamilienhäusern ist der
+    Ertrag der Liegenschaft zu kapitalisieren.
+39   Der Ertrag bestimmt sich nach der Gesamtheit der von den Mie-
+    tern geleisteten Entschädigungen. Ein allfälliger Mietwert der vom
+    Eigentümer und von zu seinem Haushalt gehörenden Personen selbst
+    genutzten Räume ist, ohne Berücksichtigung eines eventuellen Ein-
+    schlags gemäss Ziff. 67, zum Mietertrag hinzuzuzählen. Wurden Mieter
+    vertraglich zur Übernahme von üblicherweise vom Eigentümer zu
+    tragenden Unterhaltskosten und Abgaben verpflichtet, so ist der Wert
+    dieser Leistungen zum vereinbarten Mietzins hinzuzuzählen. Ausser
+    Betracht fallen Vergütungen der Mieter für Heizung, Warmwasser,
+    Treppenhausreinigung, Empfangsgebühren für Radio und Fernsehen,
+    Gebühren für die Kehrichtentsorgung sowie Gebühren für Wasser,
+    Abwasser und für die Abwasserreinigung.

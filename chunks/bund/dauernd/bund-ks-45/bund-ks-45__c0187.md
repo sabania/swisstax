@@ -5,19 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 187"
-seiten: "51"
+seiten: "49"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 51
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 49
 
-Bei Leistungen, auf die der Rechtsanspruch erst nach Beendigung des Arbeitsverhältnisses
-entstanden ist (bspw. nachträglich von der Geschäftsleitung beschlossene Bonuszahlungen
-bzw. Abgangsentschädigungen oder nachträglich durchgesetzte Lohnforderungen), muss
-der Quellensteuerabzug separat berechnet werden. Massgebend für die Bestimmung des
-anwendbaren Tarifcodes sind die Verhältnisse im Zeitpunkt der Auszahlung dieser Leistung.
-Die Berechnung des satzbestimmenden Einkommens berechnet sich aus der Summe des
-letzten vom Schuldner der steuerbaren Leistung ausgerichteten und auf ein Jahr umgerech-
-neten Bruttomonatslohns, welcher der schweizerischen Quellensteuer unterliegt zuzüglich
-der nachträglich ausgerichteten Leistung. Vorbehalten bleibt die Quellenbesteuerung von
-Vergütungen, die für Zeiträume bezahlt werden, auf welche DBA Einschränkungen vorsehen
-(vgl. Ziffer 7.5.1 oben). Wird die Leistung im Jahr der Beendigung des Arbeitsverhältnisses
+serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
+beitsleistung zu erbringen ist (insb. Ferien- und Krankheitstage), unterliegen nicht der Steu-
+erausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeits-
+tage sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von
+20 Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als
+ausländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin-
+und Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im
+Ausland gearbeitet hat.

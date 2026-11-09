@@ -5,25 +5,36 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 66"
-seiten: "27"
+seiten: "29"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 27
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 29
 
-Bezirk Dietikon
-Aesch   3   2990   2680   2370   –   –   –   –   –   –
-Birmensdorf   5   2770   2550   2340   2120   1920   –   –   –   –
-Dietikon   5   2800   2590   2380   2190   1980   –   –   –   –
-Geroldswil   5   3170   2940   2710   2480   2240   –   –   –   –
-Oberengstringen   3   2940   2630   2300   –   –   –   –   –   –
-Oetwil an der Limmat   3   2460   2170   1880   –   –   –   –   –   –
-Schlieren   5   3390   3150   2920   2660   2430   –   –   –   –
-Uitikon   6   4170   3910   3640   3360   3100   2820   –   –   –
-Unterengstringen   6   3530   3340   3150   2950   2740   2550   –   –   –
-Urdorf   5   2800   2590   2380   2170   1960   –   –   –   –
-Weiningen   3   2950   2530   2110   –   –   –   –   –   –
-Bezirk Hinwil
-Bäretswil   4   1590   1380   1180   980   –   –   –   –   –
-Bubikon   5   2010   1830   1660   1500   1310   –   –   –   –
-Dürnten   5   1780   1610   1440   1270   1090   –   –   –   –
-Fischenthal   3   920   770   620   –   –   –   –   –   –
+<!-- Seite 29 -->
+Landwerte Wohnbauland
+    Mehrfamilienhäuser und Stockwerkeigentum (Ziff. 10 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7   LS 8   LK 9
+
+Bezirk Winterthur
+Altikon   3   1080   940   790   –   –   –   –   –   –
+Brütten   3   1940   1640   1330   –   –   –   –   –   –
+Dägerlen   3   830   730   620   –   –   –   –   –   –
+Dättlikon   5   1400   1300   1210   1120   1030   –   –   –   –
+Dinhard   3   1400   1270   1140   –   –   –   –   –   –
+Elgg   5   1460   1310   1140   1000   850   –   –   –   –
+Ellikon an der Thur   3   1290   1140   1010   –   –   –   –   –   –
+Elsau   5   1460   1340   1230   1110   1020   –   –   –   –
+Hagenbuch   5   1080   1010   940   860   790   –   –   –   –
+Hettlingen   4   1880   1720   1550   1380   –   –   –   –   –
+Neftenbach   5   1650   1520   1360   1230   1090   –   –   –   –
+Pfungen   4   1660   1510   1370   1220   –   –   –   –   –
+Rickenbach   4   1180   1090   980   870   –   –   –   –   –
+Schlatt   3   840   730   610   –   –   –   –   –   –
+Seuzach   5   1920   1770   1620   1480   1310   –   –   –   –
+Turbenthal   5   1050   980   890   810   740   –   –   –   –
+Wiesendangen   6   1990   1810   1610   1400   1200   1020   –   –   –
+Winterthur   7   2870   2660   2440   2210   1990   1780   1540   –   –
+Zell   5   1000   920   850   790   720   –   –   –   –
+Bezirk Zürich
+Zürich   9   8080   7510   6910   6340   5770   5180   4610   4040   3440

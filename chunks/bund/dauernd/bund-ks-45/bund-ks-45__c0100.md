@@ -5,24 +5,12 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 100"
-seiten: "26"
+seiten: "25"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 25
 
-    ches anhand der betriebsüblichen Arbeitsstunden festzulegen ist.
-
-    3. Der Arbeitnehmer G. ist als Reinigungskraft bei der Q. AG im Stundenlohn angestellt. Seine wöchentliche
-    Arbeitszeit beträgt zwischen 16 und 20 Stunden. Im April 2021 arbeitet er während 70 Stunden für die Q.
-    AG. Sein Lohn beträgt CHF 23.00 pro Stunde und wird ihm, nach Auswertung der eingereichten Arbeits-
-    rapporte ausbezahlt. Daneben übt er eine weitere Erwerbstätigkeit zu 50 % im Monatslohn bei der T. AG
-    aus. Dort beträgt sein Lohn CHF 2 400.00 pro Monat. Beide Arbeitgeber haben keine Kenntnis vom Pen-
-    sum beim anderen Arbeitgeber.
-
-    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
-    lohn/Pensum   stimmend   len-
-    steuer
-
-    Q. AG   23.00   1 610   70   180   4 140   7.5 %   120.75
-
-    T. AG   50 %   2 400   -   100 %   4 800   9.5 %   228.00
+Ist der Arbeitnehmer mit dem bei ihm vorgenommenen Quellensteuerabzug nicht einverstan-
+den, kann er bei der zuständigen Steuerbehörde bis zum 31. März des auf die Fälligkeit der
+Leistung folgenden Steuerjahres eine Neuberechnung der Quellensteuer oder eine nachträg-
+liche ordentliche Veranlagung beantragen (vgl. Ziffer 11 unten).

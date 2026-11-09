@@ -5,19 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 17"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 4
 
-Nicht als Mitarbeitende gelten Unternehmer (vgl. Art. 363 OR), Beauftragte, Mäkler oder Ge-
-neralagenten im Sinne von Artikel 394 ff. OR sowie Aktionäre, die in keinem Arbeitsverhält-
-nis zum Unternehmen stehen.
+<!-- Seite 4 -->
+2.3   Mitarbeiterbeteiligungen
+Ist das Beteiligungsrecht auf das ehemalige, das aktuelle oder das künftige Arbeitsverhältnis
+mit dem Arbeitgeber zurückzuführen, dann qualifiziert es entweder als echte oder unechte
+Mitarbeiterbeteiligung.
 
-2.2   Arbeitgeber
-Als Arbeitgeber im Sinne dieses Kreisschreibens gilt die Gesellschaft, eine Gruppengesell-
-schaft oder Betriebsstätte, bei welcher der Mitarbeitende angestellt ist. Darunter fallen auch
-sogenannte faktische Arbeitgeber. Zu denken ist dabei etwa an Sachverhalte, bei welchen
-ein Mitarbeitender einer ausländischen Tochtergesellschaft zur Muttergesellschaft in die
-Schweiz entsandt wird, welche die Kosten für den Mitarbeitenden übernimmt. Diesfalls wird
-die schweizerische Muttergesellschaft zur faktischen Arbeitgeberin.
+Wird die Beteiligung dem Mitarbeitenden nicht durch den Arbeitgeber, sondern durch eine
+natürliche Person (z.B. aus dem Eigenbestand eines Aktionärs) abgegeben, handelt es sich
+zwar nicht um eine Mitarbeiterbeteiligung nach Artikel 17a DBG im engeren Sinne. Es recht-
+fertigt sich aber, für die Bemessung des geldwerten Vorteils die Bestimmungen für Mitarbei-
+terbeteiligungen sinngemäss anzuwenden.
+
+2.3.1 Echte Mitarbeiterbeteiligungen
+Echte Mitarbeiterbeteiligungen beteiligen den Mitarbeitenden im Ergebnis am Eigenkapital
+des Arbeitgebers. Die Beteiligung kann dabei direkt mittels Einräumung von Beteiligungspa-
+pieren erfolgen oder indirekt mittels Einräumung von Optionen oder Anwartschaften zum Be-
+zug von Beteiligungspapieren.

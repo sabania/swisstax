@@ -10,13 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
 
-<!-- Seite 2 -->
-3.2.2   Nicht börsenkotierte Mitarbeiteraktien ............................................................ 7
-3.3   Ermittlung des steuerbaren Einkommens ................................................. 8
-3.4   Besondere Fälle............................................................................................ 8
-3.4.1   Vorzeitiger Wegfall der Sperrfrist (Art. 11 MBV) ............................................. 8
-3.4.2   Rückgabe von Mitarbeiteraktien (Art. 12 MBV) .............................................. 9
-3.4.3   Veräusserung von im Privatvermögen gehaltenen Mitarbeiteraktien ........... 10
-3.4.4   Hinweise zu weiteren Sachverhalten............................................................ 10
-4   Besteuerung von Mitarbeiteroptionen (Art. 17b DBG) ............................ 10
-4.1   Freie börsenkotierte Mitarbeiteroptionen ................................................ 10
+4.2   Übrige Mitarbeiteroptionen ....................................................................... 10
+5   Besteuerung von Anwartschaften auf Mitarbeiteraktien ........................ 11
+6   Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG) ... 11
+7   Besteuerung von Mitarbeiterbeteiligungen im internationalen
+    Verhältnis (Art. 7 bis 9 MBV) ..................................................................... 11
+7.1   Allgemeines ................................................................................................ 11
+7.2   Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten
+    Mitarbeiteroptionen .................................................................................... 12
+7.2.1   Allgemeines.................................................................................................. 12
+7.2.2   Quellenbesteuerung ..................................................................................... 12

@@ -5,25 +5,26 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 172"
-seiten: "47"
+seiten: "45"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 47
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 45
 
-Bei der Ehegattin, welche die Erwerbstätigkeit am 15. September 2021 aufnimmt, wird der
-Tarif für Zweiverdienerehepaare (Tarifcode C) ab sofort, d.h. ab September 2021, angewen-
-det.
+    2. Ein verheirateter Steuerpflichtiger wird am 25. August 2021 geschieden. Er übt eine unselbstständige Er-
+    werbstätigkeit mit einem Pensum von 100 % aus und erhält dafür einen Jahreslohn von CHF 65 000.00
+    (CHF 5 000 x 13).
+    Seine Ehegattin übt keine Erwerbstätigkeit aus.
 
-    Geburt eines Kindes mit anschliessender Aufgabe der Erwerbtätigkeit des anderen Ehegatten wäh-
-    rend des Kalenderjahres:
-    6. Ein Steuerpflichtiger ist während des ganzen Jahres 2021 verheiratet. Am 15. August 2021 kommt das
-    Kind des Ehepaars zur Welt. Der Steuerpflichtige übt eine unselbstständige Erwerbstätigkeit mit einem
-    Pensum von 100 % aus. Der Jahresbruttolohn beträgt CHF 78 000.00 (CHF 6 000 x 13). Die Kinderzula-
-    gen werden ab August 2021 ausbezahlt.
-    Seine Ehegattin gibt ihre Erwerbstätigkeit am 15. Oktober 2021 auf.
+    Monat   Januar   …   August   September … November   Dezember   Besteuerung
 
-    Monat   Jan.   …   Juli   Aug.   Sep.   Okt.   Nov.   Dez.   Besteuerung
+    Bruttolohn   5 000   5 000   5 000   5 000   10 000   65 000
 
-    Bruttolohn   6 000   6 000   6 000   6 000   6 000   6 000   12 000   78 000.00
+    Tarifcode   B0   B0   A0   A0   A0
 
-    Familienzulagen   200   200   200   200   200   1 000.00
+    Steuersatz (%)   5,01   5,0   10,42   10,4   10,4
+
+    Quellensteuer   250   250   520   520   1 040   4 600
+
+    1 = B0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+
+    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

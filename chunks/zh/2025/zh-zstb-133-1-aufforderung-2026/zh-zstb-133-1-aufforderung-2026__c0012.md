@@ -5,22 +5,24 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 12"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 3
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 4
 
-Zieht eine der nachträglichen ordentlichen Veranlagung unterliegende quellensteuerpflichtige
-Person im Laufe des Jahres 2026 ins Ausland weg, so ist in jedem Fall eine Steuererklärung
-2026 abzugeben; sie kann frühestens einen Monat vor dem Wegzug online
-(www.zh.ch/steuererklaerung) oder dem Scan-Center eingereicht werden. Zieht sie in einen
-anderen Kanton, muss sie nur im Zuzugskanton eine Steuererklärung einreichen. Verlässt eine
-der nachträglichen ordentlichen Veranlagung unterliegende Person die Schweiz, so ist sie
-verpflichtet, für das Einschätzungs- und Bezugsverfahren eine zustellungsbevollmächtigte
-Person, eine Vertreterin oder einen Vertreter, zu bestimmen.
+2. Zustellung der Formulare
 
-3. Auskünfte
+Die Formulare werden den juristischen Personen, deren Steuerpflicht bekannt ist, im Januar 2026
+durch das kantonale Steueramt, Abteilung Register, zugestellt. Wer kein Formular erhält, muss
+von sich aus ein solches beim kantonalen Steueramt, Abteilung Register, verlangen oder dieses
+über die Homepage des kantonalen Steueramtes (www.zh.ch/steueramt) herunterladen.
 
-Bei Unklarheiten erteilt das Steueramt der Wohngemeinde gerne weitere Auskünfte. Auch die
-Arbeitgebenden sind über das Verfahren der nachträglichen ordentlichen Veranlagung von
-Quellensteuerpflichtigen orientiert.
+3. Frist zur Einreichung der Steuererklärung
+
+Die Steuererklärung ist, gemeinsam mit den erforderlichen Beilagen gemäss § 134 Abs. 2 StG,
+bis 30. September 2026 dem Kantonalen Steueramt Zürich, Abteilung Register, einzureichen.
+
+II. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte
+Bundessteuer
+
+1. Pflicht zur Abgabe einer Steuererklärung

@@ -1,0 +1,111 @@
+[
+{
+"id": "tg-form-05-1-2025__c0001",
+"titel": "Ziff. A.1–9 Aufwendungen Krankheits-/Unfall- und behinderungsbedingte Kosten",
+"pfad": [
+"Formular 5.1",
+"A. Aufwendungen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "A",
+"stichworte": [
+"Krankheitskosten",
+"Arztkosten",
+"Zahnarzt",
+"Pflege",
+"Spital",
+"Therapie",
+"Franchise",
+"Selbstbehalt"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Aufwendungen: Selbstbehalt/Franchise, Arzt, Zahnarzt, Pflegepersonal, Spital, Therapien, Prothesen, Total (A); Belege geordnet beilegen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "tg-form-05-1-2025__c0002"
+},
+{
+"id": "tg-form-05-1-2025__c0002",
+"titel": "Ziff. B.1–6 Vergütungen Dritter und Anteil Lebenshaltungskosten",
+"pfad": [
+"Formular 5.1",
+"B. Vergütungen"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "B",
+"stichworte": [
+"Vergütung Krankenkasse",
+"Hilflosenentschädigung",
+"Lebenshaltungskosten",
+"Versicherungsleistungen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Abzuziehen sind Leistungen von Krankenkasse, Versicherungen, Hilflosenentschädigung AHV/IV/SUVA und Anteil Lebenshaltungskosten (Total B).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-05-1-2025__c0001",
+"nachher": "tg-form-05-1-2025__c0003"
+},
+{
+"id": "tg-form-05-1-2025__c0003",
+"titel": "Ziff. C behinderungsbedingte Kosten (Code 350, Ziff. 17)",
+"pfad": [
+"Formular 5.1",
+"C. Behinderungsbedingte Kosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "C",
+"stichworte": [
+"Behinderungskosten",
+"Code 350",
+"Behinderung"
+],
+"positionen": [
+"abzug.behinderungskosten"
+],
+"zusammenfassung": "Abzugsfähige behinderungsbedingte Kosten = A minus B, Code 350, Übertrag Steuererklärung Seite 3, Ziffer 17.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-05-1-2025__c0002",
+"nachher": "tg-form-05-1-2025__c0004"
+},
+{
+"id": "tg-form-05-1-2025__c0004",
+"titel": "Ziff. D Krankheits- und Unfallkosten (Code 364, Ziff. 23.1) – Selbstbehalt 5%",
+"pfad": [
+"Formular 5.1",
+"D. Krankheits- und Unfallkosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "D",
+"stichworte": [
+"Selbstbehalt 5%",
+"Krankheitskosten Abzug",
+"Code 364",
+"Unfallkosten"
+],
+"positionen": [
+"abzug.krankheitskosten"
+],
+"zusammenfassung": "Auslagen abzüglich Selbstbehalt (5% von Ziffer 22 der Steuererklärung); Code 364, Übertrag Seite 3, Ziffer 23.1.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "tg-form-05-1-2025__c0003",
+"nachher": null
+}
+]

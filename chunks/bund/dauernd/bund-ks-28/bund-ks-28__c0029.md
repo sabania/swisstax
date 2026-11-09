@@ -5,53 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 29"
-seiten: "7"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 6
 
-<!-- Seite 7 -->
-    Anhang I
-Verordnung
-über die Besteuerung der Liquidationsgewinne
-bei definitiver Aufgabe der selbstständigen
-Erwerbstätigkeit
-(LGBV)
+Führen ein oder mehrere Erben oder Vermächtnisnehmer die selbständige Erwerbstätigkeit
+fort oder übernehmen sie die Anteile an einer Personengesellschaft, so können die übrigen
+Erben, welche die selbständige Erwerbstätigkeit nicht fortführen, auf ihren Anteil die Besteu-
+erung nach Artikel 37b DBG geltend machen, sofern der Erblasser im Zeitpunkt des Todes
+die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat. Sie müssen diesen An-
+spruch im Anschluss an den Erbgang geltend machen.
 
+Die Anwendung von Artikel 18a Absatz 3 DBG bleibt vorbehalten.
 
-vom 17. Februar 2010
-
-
-Der Schweizerische Bundesrat,
-gestützt auf die Artikel 37b und 199 des Bundesgesetzes vom 14. Dezember 19901
-über die direkte Bundessteuer (DBG),
-verordnet:
-
-
-1. Abschnitt: Allgemeine Bestimmungen
-
-Art. 1   Gegenstand und Geltungsbereich
-1 Diese Verordnung regelt die Besteuerung von Liquidationsgewinnen einer steuer-
-pflichtigen Person bei definitiver Aufgabe der selbstständigen Erwerbstätigkeit:
-   a.   nach dem vollendeten 55. Altersjahr; oder
-   b.   infolge Invalidität.
-2 Der Eintritt der Invalidität bestimmt sich nach Artikel 4 Absatz 2 des Bundesgeset-
-zes vom 19. Juni 19592 über die Invalidenversicherung.
-3 Die Verordnung gilt nicht für:
-
-   a.   Einkünfte aus selbstständiger Erwerbstätigkeit und andere Einkünfte, die
-    nicht aus der Liquidation stammen;
-   b.   Liquidationsgewinne, welche die steuerpflichtige Person nach Absatz 1
-    (steuerpflichtige Person) nach der Wiederaufnahme einer selbstständigen
-    Erwerbstätigkeit erzielt.
-
-Art. 2   Liquidationsjahr
-Als Liquidationsjahr gilt das Geschäftsjahr, in dem die Liquidation abgeschlossen
-wird.
-
-
-SR ……
-1   SR 642.11
-2   SR 831.20
-
-2008–2573   1
+7.   Inkrafttreten
+Dieses Kreisschreiben tritt zusammen mit den Artikeln 18a und 37b DBG sowie der LGBV
+per 1. Januar 2011 in Kraft.

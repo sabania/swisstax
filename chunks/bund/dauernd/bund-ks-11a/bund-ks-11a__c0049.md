@@ -10,11 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 12
 
-5.3   Selbstbehalt
-Krankheits- und Unfallkosten können nur abgezogen werden, soweit diese einen Selbstbehalt
-von 5 Prozent der um die Aufwendungen (Art. 26 - 33 DBG) verminderten steuerbaren Ein
-künfte übersteigen. Dies gilt auch für den Pauschalabzug bei besonderer Ernährung gemäss
-Ziffer 3.2.10. Im Gegensatz dazu ist bei den behinderungsbedingten Kosten kein Selbstbehalt
-zu berücksichtigen.
-
-6   Nachweis
+<!-- Seite 12 -->
+5.2.2   Übrige unterstützte Personen
+Abgezogen werden können auch die Kosten von weiteren von der steuerpflichtigen Person un
+terhaltenen Personen. Als unterhaltene Person gilt jede unterstützungsbedürftige Person, für
+deren Lebensunterhalt (inkl. krankheits- und behinderungsbedingte Kosten) die steuerpflichtige
+Person tatsächlich und mindestens im Umfang des Abzugs gemäss Artikel 35 Absatz 1 Buch
+stabe b DBG aufkommt. Behinderungsbedingte Kosten von unterhaltenen Personen sind je
+doch nur in dem Umfang abzugsfähig, in dem sie den Unterstützungsabzug gemäss Artikel 35
+Absatz 1 Buchstabe b DBG übersteigen. Es können nur die effektiven Kosten zum Abzug ge
+bracht werden.
+Keine unterhaltenen Personen im Sinne von Artikel 33 Absatz 1 Buchstabe h und hbis DBG sind
+geschiedene oder getrenntlebende Ehegatten, für welche steuerpflichtige Personen Unterhalts
+beiträge gestützt auf Artikel 33 Absatz 1 Buchstabe c DBG zum Abzug bringen.
+Bezüglich Kosten allfälliger von der steuerpflichtigen Person unterhaltenen Personen im Aus
+land ist auf die nachfolgende Ziffer 6 zu verweisen (erhöhte Anforderungen an den Nachweis).

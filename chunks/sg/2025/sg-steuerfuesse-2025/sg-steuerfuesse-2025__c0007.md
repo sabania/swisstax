@@ -4,49 +4,47 @@ quelle: sg-steuerfuesse-2025
 jur: sg
 jahre: [2025]
 typ: steuerfuss
-titel: "Steuerfüsse SG 2025 – Abschnitt 7"
-seiten: "3"
+titel: "Steuerfüsse Gemeinden Kirchberg bis Gaiserwald (Seite 4) (Teil 1/2)"
+seiten: "4"
 qmd: {metadata: {jur: sg, jahre: [2025], typ: steuerfuss}}
 ---
-> SG · Steuerjahr 2025 · Steuerfüsse SG 2025 · S. 3
+> SG · Steuerjahr 2025 · Steuerfüsse SG 2025 · Steuerfüsse 2025 › Tabelle Gemeinden · S. 4
 
-Quarten   0.8   102   25   24   232   231
-Amden   0.8   103   25   27   233   235
+Gemeinde   Politische Gemeinde   Kirchgemeinde   Steuerfuss
+
+    Grund-   Gesamt-   Katho-   Evange-   Katho-   Evange-
+    steuer-   steuer-   lisch 1)   lisch 2)   lisch   lisch
+    satz in   fuss
+    Promille   in %   in %   in %   in %   in %
+
+Kirchberg   0.8   120   23   26   248   251
+Jonschwil   0.8   122   24   25   251   252
+Oberuzwil   0.8   117   24   25   246   247
+  Niederglatt   --   117   25   25   247   247
+Uzwil   0.6   122   23   25   250   252
+Flawil   0.8   124   25   28   254   257
+Degersheim   0.8   141   25   28   271   274
+Wil   0.6   115   22   23   242   243
+Zuzwil   0.4   77   21   23   203   205
+Oberbüren   0.3   100   27   25   232   230
     4
-  Fli (Weesen)   --   103   26   27   234   235
-Weesen   0.8   115   26   27   246   247
+  Niederwil   --   100   25   28   230   233
+    4   4
+  Sonnental   --   100   23   25   228   230
     3
-Schänis   0.8   125   25   22.5   255   252.5
-Benken   0.8   117   24   24   246   246
-Kaltbrunn   0.8   106   21   24   232   235
-Gommiswald   0.8   103   24   24   232   232
-  Ricken   --   103   24   24   232   232
+Niederbüren   0.8   116   24   28   245   249
+    3
+Niederhelfenschwil   0.4   104   24   24   233   233
     4
-  Gebertingen   --   103   24   24   232   232
-Uznach   0.8   110   24   24   239   239
-Schmerikon   0.8   113   24   24   242   242
-Rapperswil-Jona   0.3   74   19   20   198   199
-Eschenbach   0.8   117   24   24   246   246
-Wildhaus-Alt St. Johann   0.8   118   --   --   --   --
-  Alt St. Johann   --   118   26   28   249   251
-  Wildhaus   --   118   24   28   247   251
-Nesslau   0.8   114   20   28   239   247
-  Stein   --   114   24   28   243   247
-Ebnat-Kappel   0.8   139   19   28   263   272
-Wattwil   0.8   129   26   28   260   262
-  Ricken   --   129   24   28   258   262
+  Lenggenwil   --   104   24   25   233   234
+Gossau   0.6   116   20   23   241   244
     4
-  Krinau   --   129   24   28   258   262
-Lichtensteig   0.8   129   24   28   258   262
-Neckertal   0.8   120   --   --   --   --
-  St. Peterzell   --   120   22   28   247   253
+  Arnegg (Andwil)   --   116   19   23   240   244
+Andwil   0.6   113   19   23   237   241
+    3
+Waldkirch   0.8   122   26   28   253   255
     4
-  Brunnadern   --   120   24   28   249   253
-  Mogelsberg-Necker   --   120   24   28   249   253
-  Oberhelfenschwil   --   120   24   28   249   253
-  Hemberg   --   120   26   28   251   253
-Bütschwil-Ganterschwil   0.6   119   24   28   248   252
-Lütisburg   0.8   145   24   28   274   278
-Mosnang   0.5   129   24   28   258   262
-  Libingen   --   129   24   28   258   262
-  Mühlrüti   --   129   26   28   260   262
+  Bernhardzell   --   122   24   25   251   252
+Gaiserwald   0.8   103   --   --   --   --
+  Engelburg   --   103   23   21   231   229
+  Abtwil   --   103   21   21   229   229

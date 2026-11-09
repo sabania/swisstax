@@ -4,18 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 3"
-seiten: "1"
+titel: "Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung (Teil 3/3)"
+ziffer: "1.1"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 30 · 1 Einheit der Familie / Zusammenveranlagung › 1.1 Grundsatz · S. 5
 
-1   Einheit der Familie / Zusammenveranlagung .......................................................... 5
-1.1   Grundsatz ................................................................................................................ 5
-1.2   Beginn und Ende der Gemeinschaftsbesteuerung .................................................. 5
-1.3   Getrennte Veranlagung der Ehegatten bei faktischer Trennung ............................. 5
-2   Internationale Verhältnisse ...................................................................................... 6
-2.1   Ausländischer Wohnsitz eines Ehegatten ............................................................... 6
-2.2   Beschränkte Steuerpflicht eines Ehegatten............................................................. 7
-3   Besteuerung der minderjährigen Kinder .................................................................. 7
-4   Eingetragene Partnerinnen oder Partner................................................................. 8
+Im Gegensatz zu den Ehepaaren werden Konkubinatspaare stets individuell veranlagt. Ihre
+Einkommen werden nicht addiert, was angesichts des progressiven Steuertarifs zu beträcht-
+lichen Unterschieden in der steuerlichen Belastung von Ehepaaren und gleichsituierten Kon-
+kubinatspaaren führen kann. Diese verfassungswidrige Ungleichbehandlung wurde durch die
+von den Eidg. Räten am 6. Oktober 2006 verabschiedeten Sofortmassnahmen im Bereich
+der Ehepaarbesteuerung wesentlich abgebaut (vgl. dazu die Ausführungen zum Zweiverdie-
+nerabzug unter Ziff. 9 und zum Verheiratetenabzug unter Ziff. 12).

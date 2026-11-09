@@ -5,22 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 232"
-seiten: "64"
+seiten: "62"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 62
 
-11.2 Obligatorische nachträgliche ordentliche Veranlagung bei Ansässigkeit in der
-    Schweiz
-Eine obligatorische nachträgliche ordentliche Veranlagung wird durchgeführt, wenn eine
-quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz in einem Steuerjahr, vor Aus-
-scheidung von allfälligen dem Ausland zur Besteuerung zugewiesenen Einkünften, ein Brut-
-toeinkommen aus unselbstständiger Erwerbstätigkeit von mindestens CHF 120 000 erzielte
-(vgl. Art. 89 DBG i.V.m. Art. 9 QStV). Bei Ehegatten, die in rechtlich und tatsächlich unge-
-trennter Ehe leben, werden zur Bestimmung des Mindestbetrags die Bruttoeinkommen aus
-unselbstständiger Erwerbstätigkeit der Ehegatten nicht zusammengerechnet.
-Bei unterjähriger Steuerpflicht werden für die Berechnung des Mindestbetrags die periodi-
-schen Bruttolohneinkommen auf zwölf Monate umgerechnet und die aperiodischen Brutto-
-lohnbestandteile ohne Umrechnung miteinbezogen (vgl. Art. 40 Abs. 3 DBG).
-Erzielt eine quellensteuerpflichtige Person mit Ansässigkeit in der Schweiz zusätzliche, nicht
-der Quellensteuer unterliegende Einkünfte (oder hat sie nach kantonalem Recht steuerbares
+<!-- Seite 62 -->
+9.6   Verletzung von Verfahrenspflichten
+Der Schuldner der steuerbaren Leistung, der die Fristen für das Einreichen von Anmeldun-
+gen oder Mutationen sowie von Quellensteuerabrechnungen nicht einhält, verliert je nach
+kantonaler Regelung den Anspruch auf die Bezugsprovision. Bei nicht fristgerechter Bezah-
+lung von in Rechnung gestellten Quellensteuern können zusätzlich Verzugszinsen erhoben
+werden. Kommt ein Schuldner der steuerbaren Leistung den Verfahrenspflichten trotz Mah-
+nung nicht nach, kann er gebüsst (vgl. Art. 174 DBG) und die geschuldeten Quellensteuern
+können nach pflichtgemässem Ermessen erhoben werden (vgl. Art. 130 Abs. 2 DBG). Vorbe-
+halten bleiben Verurteilungen wegen vollendeter Steuerhinterziehung (vgl. Art. 175 Abs. 1
+DBG) oder wegen Veruntreuung von Quellensteuern (vgl. Art. 187 DBG).

@@ -10,18 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 8
 
-Art. 4
-1 Ist die steuerpflichtige Person einer Vorsorgeeinrichtung angeschlossen, so kann
-sie sich im Liquidationsjahr und im Vorjahr im Rahmen der reglementarischen und
-übrigen vorsorgerechtlichen Bestimmungen in die Vorsorgeeinrichtung einkaufen.
-2 Sie kann diese Einkaufsbeträge von den Einkünften abziehen (Art. 33 Abs. 1 Bst. d
-DBG).
-3 Ein Beitragsüberhang reduziert den Liquidationsgewinn.
+<!-- Seite 8 -->
+Verordnung über die Besteuerung der Liquidationsgewinne bei definitiver   AS 2010
+Aufgabe der selbstständigen Erwerbstätigkeit
 
-3. Abschnitt: Fiktiver Einkauf
+Art. 3   Verhältnis zu Artikel 18a DBG
+1 Wird die Besteuerung von stillen Reserven als Einkommen aus selbstständiger
+Erwerbstätigkeit nach Artikel 18a Absatz 1 DBG bis zur Veräusserung der Liegen-
+schaft aufgeschoben, so findet die Verordnung auf diese realisierten stillen Reserven
+keine Anwendung.
+2 Wird die Liegenschaft jedoch während des Liquidationsjahrs oder des Vorjahrs aus
+dem Geschäftsvermögen in das Privatvermögen überführt und in einem dieser Jahre
+veräussert, so sind die realisierten stillen Reserven Bestandteil des Liquidationsge-
+winns.
 
-Art. 5   Grundsätze
-1 Die steuerpflichtige Person kann bei der Steuerbehörde Antrag auf Besteuerung
-eines fiktiven Einkaufs nach Artikel 8 stellen.
-2 Sie muss die notwendigen Belege für die Berechnung des fiktiven Einkaufs nach
-Artikel 6 beibringen.
+2. Abschnitt: Einkauf in eine Vorsorgeeinrichtung

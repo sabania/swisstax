@@ -10,8 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
 
-    Total an Arbeitstagen:   20 Tage
-    Arbeitstage Schweiz:   20 Tage – 5 Tage = 15 Tage
-    massgebendes Ausscheidungsverhältnis:   15 CH-Arbeitstage zum Total von 20 Arbeitstagen
-    Steuerbares Einkommen:   CHF 8 000.00 / 20 x 15 = CHF 6 000.00
-    Satzbestimmendes Einkommen:   CHF 8 000.00
+<!-- Seite 30 -->
+    7. Jährliche Auszahlung des 13. Monatslohns (Dezember) gemäss Arbeitsvertrag:
+    Der Arbeitnehmer V. tritt per 1. April 2021 in die Unternehmung ein und tritt per 15. Oktober 2021 wieder
+    aus und erhält neben der anteilsmässigen Lohnzahlung von CHF 3 000.00 noch den vertraglich vereinbar-
+    ten 13. Monatslohn ausbezahlt (pro rata für die Zeit vom 1. April 2021 – 15. Oktober 2021). Die Lohnzah-
+    lung ist zur Satzbestimmung auf 30 Tage umzurechnen. Der anteilig ausbezahlte 13. Monatslohn ist bezo-
+    gen auf die Periode, für welche er bezahlt wird, umzurechnen (Basis 30 Tage pro Monat bzw. 360 Tage
+    pro Jahr).
+
+    Leistungen   steuerbar   satzbestimmend   Berechnung
+
+    Periodische Lohnzahlung   3 000   6 000   3 000 / 15 x 30
+
+    13. Monatslohn   3 250   6 000   3 250 / 195 x 360
+
+    Total   6 250   12 000

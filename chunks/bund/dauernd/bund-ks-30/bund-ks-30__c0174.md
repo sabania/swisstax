@@ -4,21 +4,18 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 174"
-seiten: "43"
+titel: "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 4/4)"
+ziffer: "Beilage 2, S. 8/13"
+seiten: "53"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 43
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 53
 
-Allerdings wurde der Vorbehalt von Artikel 177 DBG verankert, in welchem die Teilnahme an
-einer vollendeten oder versuchten Hinterziehung geregelt wird. Dies hat zur Folge, dass ein
-Ehegatte - wie jeder andere Steuerpflichtige - als Teilnehmer an einer Steuerhinterziehung
-seines Partners, d.h. wegen Anstiftung, Gehilfenschaft oder Mitwirkung, bestraft werden
-kann. Der Gesetzestext hebt zudem ausdrücklich hervor, dass die Unterzeichnung der ge-
-meinsamen Steuererklärung für sich allein keine Teilnahme oder Mitwirkung an einer Hinter-
-ziehung der Steuerfaktoren des anderen Ehegatten darstellt.
-
-17   Inkrafttreten
-
-Das vorliegende Kreisschreiben gilt für die Steuerperiode 2011 und tritt per 1. Januar 2011 in
-Kraft. Es ersetzt
+    chen. Der andere El-   geltend machen.
+    ternteil kann den Un-
+    terstützungsabzug gel-
+    tend machen, sofern
+    seine Leistungen min-
+    destens in der Höhe
+    des Abzuges erfolgen.
+1-030-D-2010-Beilage-2-d-2014.doc

@@ -4,20 +4,36 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 48"
-seiten: "10"
+titel: "Anhang II Beispiele Nrn. 1–2 – Gesamtrendite und überwiegende Einmalverzinsung"
+ziffer: "Nr. 1–2"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 16
 
-Direkte Bundessteuer und Verrechnungssteuer
-Bei den transparenten Instrumenten ist steuerlich zwischen Anlage- und Optionsgeschäft zu
-unterscheiden. Die mit der Option erzielten Gewinne und Verluste stellen im Privatvermögen
-steuerlich nicht zu berücksichtigende Kapitalgewinne und Kapitalverluste dar (Art. 16 Abs. 3
-DBG). Der Obligationenteil des transparenten kapitalgarantierten Derivates wird beim Inves-
-tor nach den für Obligationen und Diskontpapiere geltenden Regeln besteuert (vgl. Ziffern
-3.1. oder 3.2. hievor). Es ist also auch hier wesentlich, ob eine überwiegende Einmalverzin-
-sung gegeben ist. Der Einkommens- und gegebenenfalls der Verrechnungssteuer unterlie-
-gen die periodischen Zinsen sowie die (überwiegende oder nicht überwiegende) einmalver-
-zinsliche Komponente (Art. 20 Abs. 1 Bst. a und b DBG; Art. 4 Abs. 1 Bst. a VStG). Der ga-
-rantierte Rückzahlungsbetrag gilt als Nennwert der Obligation.
+Anhang II zum Kreisschreiben Nr. 15
+
+
+Beispiele
+
+
+Nrn. 1 und 2
+
+−   Eine gemischte Diskontobligation, die unter pari zu Fr. 788.80 emittiert wurde, bietet
+    einen Jahreszins von Fr. 30.- und soll nach sechs Jahren zum Nennwert von Fr. 1'000.-
+    zurückbezahlt werden (Beispiel 1);
+
+−   Eine gemischte globalverzinsliche Obligation wurde zum Nennwert von Fr. 1'000.- emit-
+    tiert; sie bietet ebenfalls einen Jahreszins von Fr. 30.- und soll nach sechs Jahren zu
+    Fr. 1'326.- zurückbezahlt werden (Beispiel 2).
+
+In beiden Beispielen ergibt die vorzunehmende finanzmathematische Berechnung eine Ge-
+samtrendite der Obligationen von 7,5% pro Jahr.
+
+In Beispiel 1 beträgt der Jahreszins von Fr. 30.- 3,8% des Anlagewertes von Fr. 788.80; das
+ist mehr als die Hälfte der gesamten Rendite von 7,5%. Diese Obligation fällt deshalb nicht
+unter Art. 20 Abs. 1 Bst. b DBG.
+
+In Beispiel 2 beträgt dagegen der Jahreszins von Fr. 30.- 3% des Anlagewertes von
+Fr. 1'000.-; das ist weniger als die Hälfte der gesamten Rendite von 7,5%. Diese Obligation
+ist damit überwiegend einmalverzinslich und fällt daher unter Art. 20 Abs. 1 Bst. b DBG.

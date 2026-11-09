@@ -4,11 +4,10 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)"
+titel: "Formulare"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Formulare
 
-- [01 - Steuererklärung 2018(1881 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular01%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2018")
-- [02 - Wertschriftenverzeichnis 2018(240 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular02%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2018")
-- [04 - Berufskosten 2018(170 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2018/Formular04%202018%20def.pdf "Download: Es öffnet sich ein neues Fenster:  04 - Berufskosten 2018")
+- [Kollektiv- und Kommanditgesellschaften - Merkblatt (11E)(25 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/11E_SG_Merkblatt_Kollektiv-%20und%20Kommanditges_DA-23-06.03-4000E.pdf "Download: Es öffnet sich ein neues Fenster: Kollektiv- und Kommanditgesellschaften - Merkblatt (11E)")
+- [Liquidationsgewinn Deklaration(42 kB, XLSX)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Liquidationsgewinn%20Deklaration.xlsx "Download: Es öffnet sich ein neues Fenster: Liquidationsgewinn Deklaration")

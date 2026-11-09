@@ -5,31 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 107"
-seiten: "28"
+seiten: "27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 28
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 27
 
-<!-- Seite 28 -->
-     Prämien
-     Verwaltungsratshonorare
-     Abgangsentschädigungen
-     Gratifikationen
-     Geldwerte Vorteile aus Mitarbeiterbeteiligungen
-
-    Beispiele mit aperiodischen Leistungen:
-    1. Der Arbeitnehmer S. tritt per 16. März 2022 aus der Unternehmung aus und erhält neben der anteilsmässi-
-    gen Lohnzahlung von CHF 3 500.00, eine Entschädigung für nicht bezogene Ferienguthaben von
-    CHF 1 000.00. Ausserdem erhält er noch eine Abgangsentschädigung in Höhe von CHF 5 000.00. Die
-    Lohnzahlung ist zur Satzbestimmung auf 30 Tage umzurechnen. Die aperiodischen Leistungen (Entschä-
-    digung von nicht bezogenen Ferienguthaben und Abgangsentschädigung) sind nicht umzurechnen.
-
-    Leistungen   steuerbar   satzbestimmend   Berechnung
-
-    Periodische Lohnzahlung   3 500   6 562.50   3'500 / 16 x 30
-
-    Entschädigung für nicht
-    1 000   1 000.00   keine Umrechnung
-    bezogene Ferienguthaben
-
-    Abgangsentschädigung   5 000   5 000.00   keine Umrechnung
+6.6   Quellensteuerberechnung bei untermonatigen Ein- und Austritten
+Beginnt oder endet das Arbeitsverhältnis im Verlaufe eines Monats, sind die im Ein- oder
+Austrittsmonat erzielten Bruttoeinkünfte für die Ermittlung des satzbestimmenden Einkom-
+mens auf 30 Kalendertage umzurechnen. Dabei werden nur die regelmässigen bzw. periodi-
+schen Lohnbestandteile umgerechnet, nicht jedoch die unregelmässigen bzw. aperiodischen
+Lohnbestandteile (vgl. hierzu die Randziffer 27 der «Wegleitung zum Ausfüllen des Lohnaus-
+weises»). Aperiodische Lohnbestandteile sind erst nach der Umrechnung der periodischen
+Lohnbestandteile hinzuzurechnen. Diese Regelung gilt auch für Anstellungen im Stunden-
+und Tageslohn, sofern die Lohnzahlungen auf der Basis eines Monatslohnes erfolgen (vgl.
+Ziffer 6.5 oben).

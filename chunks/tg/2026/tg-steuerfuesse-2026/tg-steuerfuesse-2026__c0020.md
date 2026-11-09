@@ -10,82 +10,24 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 6
 
-    Uesslingen−Buch   ein   Märstetten
-    s
-    b
+<!-- Seite 6 -->
+6   Statistische Mitteilung 3/2026
 
-    th−W   Berg   Uttwil
-    Ke
-    ach
+Mittlere Steuerkraft in den letzten zwanzig Jahren gestiegen
+Die mittlere Steuerkraft (Median, schwarzer Strich in Grafik) ist in den letzten zwanzig Jahren gestiegen. Im Gegensatz dazu lässt
+sich hinsichtlich der Spannweite zwischen der Gemeinde mit der höchsten und der tiefsten Steuerkraft über die Zeit hinweg keine
+eindeutige Tendenz feststellen. Die minimale Steuerkraft ist zwar über die letzten gut zehn Jahre tendenziell leicht gestiegen; die
+höchste Steuerkraft schwankt jedoch von Jahr zu Jahr deutlich.
+Streuung der Steuerkraft pro Einwohnerin oder Einwohner der Politischen Gemeinden
+Kanton Thurgau, 2002–2025, in Franken
+    7000
 
-    War   Felben−   i Dozwil
-    n
+    6000
+    Bereich, in dem die obersten
+    5000   25 % der Gemeinden liegen
 
-    Birwinken   mer
-    or
+    4000
 
-    Hüttlingen   Weinfelden   Som
-    H
+    3000
 
-    sh
-
-    Wellhausen
-    ef fen
-
-    an
-    en
-    ho
-
-    om
-
-    Amlikon−Bissegg
-    −
-
-    h
-    Erlen   sac
-    R
-
-    Frauenfeld   Bürglen
-    Gachnang   Thundorf   Amriswil   Salm
-    Sulgen
-    Bussnang
-    en
-
-    Affeltrangen   Egnach
-    n
-    ng
-
-    nne
-    tzi
-
-    Stettfurt Lommis
-    Schönholzers− Kradolf−   Zihlschlacht−   Arbon
-    Ma
-
-    enta
-
-    Tobel−
-    wilen Schönenberg   Sitterdorf
-    Tägerschen raunau
-    Hoh
-
-    Roggwil
-    Be   B   Bischofs−
-    Aadorf   ttw   Wuppenau   Hauptwil−   Horn
-    Wängi   ies   zell
-    en   Gottshaus
-    Münchwilen
-
-    Eschlikon
-    Bichelsee−   Sirnach
-    n
-    Wile
-
-    Balterswil   Rickenbach
-
-    Fischingen
-    Unter 1'700 Franken   3'000−3'999 Franken
-
-    1'700−1'999 Franken   Über 4'000 Franken
-
-    2'000−2'999 Franken
+    2000

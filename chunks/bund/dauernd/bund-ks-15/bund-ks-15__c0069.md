@@ -4,28 +4,23 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 69"
-seiten: "17"
+titel: "Anhang III Ziff. 3 Zertifikate auf kollektive Kapitalanlagen – Einkommenssteuer (Teil 1/2)"
+ziffer: "Anh. III 3"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 3 Zertifikate auf kollektive Kapitalanlagen · S. 21
 
-<!-- Seite 17 -->
-    -2-
+3   Index- und Basketzertifikate auf ausschüttende oder thesaurie-
+    rende kollektive Kapitalanlagen
+Den Basiswert dieser Zertifikate bilden eine oder mehrere kollektive Kapitalanlagen gemäss
+Kollektivanlagegesetz vom 23. Juni 2006 (KAG). Der Ausgabe- und Rückgabepreis der Zerti-
+fikate entspricht dem Reinvermögenswert (Net Asset Value) der Basiswerte. Im Unterschied
+zu den klassischen Basketzertifikaten erfolgt die (aktive) Bewirtschaftung der Basiswerte in
+diesen Fällen durch die Fondsleitungen der jeweiligen kollektiven Kapitalanlagen nach den
+Bestimmungen des Fondsreglements und dem Ermessensspielraum der Fondsleitungen.
 
-d) Es treten kumulativ die unter Bst. b und c erwähnten Veränderungen ein.
-
-Steuerbare Einkünfte (bzw. zu berücksichtigende Verluste gemäss Art. 20 Abs. 1 Bst. b
-DBG; vgl. Ziffer 3.2. des Kreisschreibens) liegen wie folgt vor:
-
-−   beim ersten Investor (vier Jahre vor Verfall):
-    a) ($ 893.60 x 1.50) - ($ 826.40 x 1.50) = Sfr. 100.80
-    b) ($ 869.30 x 1.50) - ($ 826.40 x 1.50) = Sfr. 64.35
-    c) ($ 893.60 x 1.60) - ($ 826.40 x 1.50) = Sfr. 190.15
-    d) ($ 869.30 x 1.60) - ($ 826.40 x 1.50) = Sfr. 151.30
-
-−   beim zweiten Investor (zwei Jahre vor Verfall):
-    a) ($ 944.20 x 1.50) - ($ 893.60 x 1.50) = Sfr. 75.90
-    b) ($ 962.30 x 1.50) - ($ 869.30 x 1.50) = Sfr. 139.50
-    c) ($ 944.20 x 1.45) - ($ 893.60 x 1.60) = – Sfr. 60.60
-    d) ($ 962.30 x 1.45) - ($ 869.30 x 1.60) = Sfr.   4.45
+Der Investor partizipiert damit wirtschaftlich wie ein Anteilsinhaber im vollen Umfang an der
+Entwicklung der im Zertifikat gebündelten kollektiven Kapitalanlagen. In der Folge richtet sich
+die steuerliche Behandlung von Index- und Basketzertifikaten auf kollektive Kapitalanlagen
+nach den Regeln, die für Instrumente der kollektiven Kapitalanlagen gelten.

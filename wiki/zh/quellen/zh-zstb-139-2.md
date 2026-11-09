@@ -12,20 +12,19 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-139-2.html> · lokal: [zh-zstb-139-2.html](../../../raw/zh/dauernd/zh-zstb-139-2.html) · Volltext: [zh-zstb-139-2.md](../../../sources/zh/dauernd/zh-zstb-139-2.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6e39d0e4a60d23ff…`
 
-## Inhalt (13 Chunks)
+## Inhalt (12 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
 | [c0001](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0001.md) | ZStB 139.2: Einschätzung ohne Steuererklärung trotz Mahnung |  |  |
 | [c0002](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0002.md) | Auf dieser Seite |  |  |
 | [c0003](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0003.md) | Auf dieser Seite |  |  |
-| [c0004](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0004.md) | Auf dieser Seite |  |  |
-| [c0005](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0005.md) | A. Rechtliches |  |  |
-| [c0006](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0006.md) | B. Grundsätze der Einschätzung nach pflichtgemässem Ermessen |  |  |
-| [c0007](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0007.md) | I. Einschätzungsantrag |  |  |
-| [c0008](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0008.md) | II. Einschätzung nach pflichtgemässem Ermessen durch das Gemeindesteueramt |  |  |
-| [c0009](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0009.md) | IV. Zustellung der Einschätzungsentscheide |  |  |
-| [c0010](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0010.md) | V. Scanning |  |  |
-| [c0011](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0011.md) | I. Angaben bei definitiver Einschätzung nach Ermessen natürlicher Personen durch Gemeindesteuerämter |  |  |
-| [c0012](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0012.md) | II. Ablieferungsfristen |  |  |
-| [c0013](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0013.md) | G. Inkrafttreten |  |  |
+| [c0004](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0004.md) | A. Rechtliches |  |  |
+| [c0005](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0005.md) | B. Grundsätze der Einschätzung nach pflichtgemässem Ermessen |  |  |
+| [c0006](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0006.md) | I. Einschätzungsantrag |  |  |
+| [c0007](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0007.md) | II. Einschätzung nach pflichtgemässem Ermessen durch das Gemeindesteueramt |  |  |
+| [c0008](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0008.md) | IV. Zustellung der Einschätzungsentscheide |  |  |
+| [c0009](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0009.md) | V. Scanning |  |  |
+| [c0010](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0010.md) | I. Angaben bei definitiver Einschätzung nach Ermessen natürlicher Personen durch Gemeindesteuerämter |  |  |
+| [c0011](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0011.md) | II. Ablieferungsfristen |  |  |
+| [c0012](../../../chunks/zh/dauernd/zh-zstb-139-2/zh-zstb-139-2__c0012.md) | G. Inkrafttreten |  |  |

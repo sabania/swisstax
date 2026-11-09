@@ -10,13 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 2
 
-4.2   Übrige Mitarbeiteroptionen ....................................................................... 10
-5   Besteuerung von Anwartschaften auf Mitarbeiteraktien ........................ 11
-6   Besteuerung von unechten Mitarbeiterbeteiligungen (Art. 17c DBG) ... 11
-7   Besteuerung von Mitarbeiterbeteiligungen im internationalen
-    Verhältnis (Art. 7 bis 9 MBV) ..................................................................... 11
-7.1   Allgemeines ................................................................................................ 11
-7.2   Quellenbesteuerung von Mitarbeiteraktien und freien börsenkotierten
-    Mitarbeiteroptionen .................................................................................... 12
-7.2.1   Allgemeines.................................................................................................. 12
-7.2.2   Quellenbesteuerung ..................................................................................... 12
+7.3   Besteuerung von gesperrten oder nicht börsenkotierten
+    Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien sowie
+    unechten Mitarbeiterbeteiligungen im internationalen Verhältnis ......... 14
+7.3.1   Allgemeines.................................................................................................. 14
+7.3.2   „Import“ von Mitarbeiterbeteiligungen (Art. 7 MBV) ...................................... 14
+7.3.2.1 „Import“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel............................ 14
+7.3.2.2 „Import“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 14
+7.3.3   „Export“ von Mitarbeiterbeteiligungen (Art. 8 MBV) ...................................... 15
+7.3.3.1 „Export“ von Mitarbeiterbeteiligungen mit Ansässigkeitswechsel ........................... 15
+7.3.3.2 „Export“ von Mitarbeiterbeteiligungen ohne Ansässigkeitswechsel ........................ 15
+7.3.4   Überblick zur Quellenbesteuerung von geldwerten Vorteilen aus

@@ -5,18 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 19"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 5
 
-Nach ständiger Rechtsprechung des Bundesgerichts ist immer auf Grund der Gesamtheit
-der Umstände des Einzelfalls zu beurteilen, ob private Vermögensverwaltung oder
-selbständige Erwerbstätigkeit vorliegt (ASA 71, 627; 69, 652 und 788, mit Hinweisen). Eine
-schematisierte Vorgehensweise führt „nur in denjenigen Fällen zu einem sachgerechten
-Ergebnis, bei denen die Verhältnisse klar und eindeutig sind. In den übrigen Fällen ist die
-Tätigkeit jeweils nach wie vor in ihrem gesamten Erscheinungsbild rechtlich zu beurteilen.“
-(2C_868/2008).
+    Eine kurze Besitzdauer deutet darauf hin, dass die steuerpflichtige Person nicht vor-
+    wiegend Anlagezwecke verfolgt, sondern vielmehr an einer raschen Erzielung eines
+    Gewinns interessiert ist (ASA 69, 652 und 788; 63, 43; 59, 709). Unter Umständen
+    kann schon eine einzige Transaktion dazu führen, dass eine selbständige
+    Erwerbstätigkeit vorliegt (2A.23/2004; ASA 69, 652).
 
-Für die Beurteilung einer selbständigen Erwerbstätigkeit sind verschiedene Indizien in
-Betracht zu ziehen, von denen jedes zusammen mit anderen, im Einzelfall jedoch unter
+    Die Häufigkeit der Geschäfte und die Kürze der Besitzdauer der Wertschriften sind
+    Indizien dafür, dass die steuerpflichtige Person keine zumindest mittelfristige
+    Kapitalanlage anstrebt, sondern auf eine rasche Erzielung eines Kapitalgewinns
+    angewiesen ist und auch in Kauf nimmt, dass bedeutende Verluste entstehen könnten
+    (ASA 71, 627).
+
+-   Einsatz erheblicher fremder Mittel zur Finanzierung der Geschäfte

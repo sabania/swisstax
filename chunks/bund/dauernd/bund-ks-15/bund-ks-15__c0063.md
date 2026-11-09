@@ -4,17 +4,17 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 63"
-seiten: "13"
+titel: "Anhang III Ziff. 1a Steuerliche Behandlung der Ausgleichszahlungen (Teil 3/3)"
+ziffer: "Anh. III 1a"
+seiten: "19-20"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 13
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 1 Index- und Basketzertifikate auf Aktien · S. 19–20
 
-5   Spezialfälle und Produkteentwicklungen
-Die ESTV informiert auf Ersuchen mittels schriftlicher Auskünfte die kantonalen Steuerver-
-waltungen, Steuerpflichtige oder sonstige Interessenten im Sinne einer Stellungnahme für
-die direkte Bundessteuer über die steuerliche Behandlung von Spezialfällen und neuen Pro-
-dukten. Produkteinnovationen sind im Anhang III zu diesem Kreisschreiben zusammenge-
-fasst. Der Anhang III wird laufend fortgeführt.
+Die gleiche steuerliche Behandlung gilt bei Einhaltung der gleichen Bedingungen auch für In-
+dex- und Basketzertifikate auf Edelmetalle und Rohstoffe.
 
-1-015-DVS-2017-d
+1-015-DVS-2017-d / Anhang III
+
+Die Zertifikate stellen weder steuerbare Urkunden im Sinne des Stempelabgaberechts dar,
+noch bilden deren Erträge Gegenstand der Verrechnungssteuer.

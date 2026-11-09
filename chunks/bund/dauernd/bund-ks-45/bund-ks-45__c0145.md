@@ -5,34 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 145"
-seiten: "39"
+seiten: "38"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 38
 
-    Quellensteuer   475   475   654   654   654   920   920   7 664
-    Korrektur
-    +2803   +1205   +400
-    Januar - April
-    Korrektur
-    +2166   +216
-    Mai – Oktober
-    Total
-    475   475   934   654   654   1 256   920   8 280
-    Quellensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 60 000.00 (CHF 5 000 x 12)
+<!-- Seite 38 -->
+    Gleichbleibender Lohn während 12 Monaten und 13. Monatslohn im Dezember:
+    2. Ein lediger Steuerpflichtiger ohne Kinder ist mit einem Beschäftigungsgrad von 100 % vom 1. Januar bis
+    am 31. Dezember 2021 in der Schweiz erwerbstätig. Für diese Tätigkeit erhält er ein Jahresbruttoeinkom-
+    men von CHF 65 000 (12 x CHF 5000 + 13. Monatslohn).
+    Das monatliche Bruttoeinkommen von CHF 5 000 wird mit dem Tarifcode A0 und zum satzbestimmenden
+    Jahreseinkommen von CHF 65 000 besteuert. Damit ist im Dezember keine Korrektur erforderlich.
 
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 68 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 8)]
+    Monat   Januar   …   November   Dezember   Besteuerung
 
-    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 10.9 % -
+    Bruttolohn   5 000   5 000   10 000   65 000
 
-    (CHF 475 x 4)]
-    4 = A0 mit satzbestimmendem Jahreseinkommen von CHF 72 000.00 [(CHF 5 000 x 4) + (CHF 6 000 x 6)
+    Tarifcode   A0   A0   A0   A0
 
-    + CHF 8 000 x 2)]
-    5 = Korrektur des Quellensteuerabzugs für die Monate Januar bis April [(CHF 5 000 x 4) x 11.5 % -
+    Steuersatz (%)   10,41   10,4   10,4   10,4
 
-    (CHF 475 x 4) – CHF 280]
-    6 = Korrektur des Quellensteuerabzugs für die Monate Mai bis Oktober [(CHF 6 000 x 6) x 11.5 % -
+    Quellensteuer   520   520   1 040   6 760
 
-    (CHF 654 x 6)]
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).

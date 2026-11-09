@@ -24,9 +24,3 @@ nachteiligungen von Menschen mit Behinderungen (BehiG; SR 151.3) umschreibt eine
 mit Behinderung wie folgt:
 1
     In diesem Gesetz bedeutet Mensch mit Behinderungen (Behinderte, Behinderter) eine Per-
-    son, der es eine voraussichtlich dauernde körperliche, geistige oder psychische Beeinträchti
-    gung erschwert oder verunmöglicht, alltägliche Verrichtungen vorzunehmen, soziale Kontakte
-    zu pflegen, sich fortzubewegen, sich aus- und weiterzubilden oder eine Erwerbstätigkeit aus
-    zuüben.
-Im Gegensatz zu den Krankheits- und Unfallkosten ist bei den behinderungsbedingten Kosten
-kein Selbstbehalt zu berücksichtigen.

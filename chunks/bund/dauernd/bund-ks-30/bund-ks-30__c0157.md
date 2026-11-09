@@ -4,29 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 157"
-seiten: "39"
+titel: "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 2/3)"
+ziffer: "Beilage 2, S. 3/13"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 48
 
-14.14   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
-    volljährigem Kind in Ausbildung, Kind lebt bei den Eltern, keine Un-
-    terhaltszahlungen
-
-Werden keine Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG von einem Eltern-
-teil an das Kind geleistet, erfolgt die Besteuerung folgendermassen:
-
-14.14.1   Abzüge
-   Der Elternteil mit den höheren finanziellen Leistungen kann den Kinderabzug sowie den
-    Versicherungs- und Sparzinsenabzug für das Kind geltend machen. Hierbei ist davon
-    auszugehen, dass dies derjenige mit dem höheren Einkommen ist.
-
-14.14.2   Tarife
-   Der Elternteil mit den höheren finanziellen Leistungen, d.h. in der Regel derjenige mit
-    dem höheren Einkommen, erhält den Elterntarif.
-   Der andere Elternteil wird zum Grundtarif besteuert.
-
-14.15   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
-    volljährigem Kind in Ausbildung, mit Unterhaltszahlungen, Kind lebt
-    nicht bei den Eltern (Wohnsitz verlegt)
+   meinsamer elterlicher   max. CHF 5'050 der   dere Elternteil wird
+   Sorge, keine Unterhalts-   nachgewiesenen Kosten   zum Grundtarif besteu-
+   zahlungen   für die Kinderfremdbe-   ert.
+    treuung in Abzug brin-      Bei alternierender Ob-
+    gen. Eine andere Auftei-   hut erhält derjenige El-
+    lung ist von den Eltern   ternteil der zur Haupt-
+    nachzuweisen. Betragen   sache für den Unterhalt
+    die geltend gemachten   des Kindes aufkommt,
+    Kosten beider Elterntei-   den Elterntarif, d.h. in
+    le aber zusammen mehr   der Regel derjenige mit
+    als den Maximalbetrag   dem höheren Reinein-
+    von CHF 10’100, wer-   kommen. Der andere
+    den die Abzüge im Ver-   Elternteil wird zum
+    hältnis der nachgewie-   Grundtarif besteuert.
+    senen Kosten auf diesen
+    Maximalbetrag gekürzt.
+    1)

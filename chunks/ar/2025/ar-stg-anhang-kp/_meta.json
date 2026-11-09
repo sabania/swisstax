@@ -1,0 +1,53 @@
+[
+{
+"id": "ar-stg-anhang-kp__c0001",
+"titel": "Anhang 1 – Indexierte Beträge per 1.1.2024: Art. 35, 38, 39 lit. a",
+"pfad": [
+"Anhang 1",
+"Ausgleich kalte Progression"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "Anhang 1",
+"stichworte": [
+"kalte Progression",
+"Indexierung",
+"Tarifstufen",
+"Abzug Minimum Maximum",
+"Amtsblatt 22.12.2023"
+],
+"positionen": [],
+"zusammenfassung": "Auf 1.1.2024 angepasst: Art. 35 Abs. 1 lit. h Abzug Min. 2'500 / Max. 5'200; Art. 38 Abs. 1 lit. a Ziff. 1–3 5'300/7'400/11'600; Art. 39 Abs. 1 lit. a Ziff. 1–12 von 16'700 bis 417'200.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "ar-stg-anhang-kp__c0002"
+},
+{
+"id": "ar-stg-anhang-kp__c0002",
+"titel": "Anhang 1 – Indexierte Beträge: Art. 39 lit. b und Art. 41",
+"pfad": [
+"Anhang 1",
+"Ausgleich kalte Progression"
+],
+"seiten": [
+1,
+2
+],
+"artikel": null,
+"ziffer": "Anhang 1",
+"stichworte": [
+"kalte Progression",
+"Tarif Verheiratete",
+"Tarifstufen",
+"Art. 39",
+"Art. 41"
+],
+"positionen": [],
+"zusammenfassung": "Art. 39 Abs. 1 lit. b Ziff. 1–12 von 8'300 bis 260'800; Art. 41 Abs. 1 lit. a Ziff. 1 und lit. b Ziff. 1 je 417'200.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-stg-anhang-kp__c0001",
+"nachher": null
+}
+]

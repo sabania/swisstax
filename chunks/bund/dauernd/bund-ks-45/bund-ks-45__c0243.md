@@ -5,20 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 243"
-seiten: "67"
+seiten: "65"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 67
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 65
 
-<!-- Seite 67 -->
-11.5 Nachträgliche ordentliche Veranlagung von Amtes wegen bei Ansässigkeit im
-    Ausland
-Verfügt eine im Ausland ansässige Person über verschiedene Einkommensbestandteile oder
-über Vermögen, welche in der Schweiz steuerpflichtig sind, aber zum Teil dem Quellensteu-
-erverfahren (Lohneinkommen) und zum anderen Teil der ordentlichen Veranlagung unterlie-
-gen (bspw. selbstständige [Neben-]Erwerbstätigkeit, Liegenschaftserträge), können die zu-
-ständigen Steuerbehörden von Amtes wegen eine nachträgliche ordentliche Veranlagung
-vornehmen (vgl. Art. 99b DBG) und damit erwirken, dass die Besteuerung zum massgeben-
-den Steuersatz (vgl. Art. 7 DBG) vorgenommen wird.
-Als zuständig gilt derjenige Kanton, im dem sich der grösste Teil der steuerbaren Werte be-
-findet (vgl. Art. 106 Abs. 2 DBG).
+Folgejahren wird bis zum Ende der Quellensteuerpflicht von Amtes wegen eine nachträgliche
+ordentliche Veranlagung durchgeführt. Der Antrag bezieht sich auch auf den Ehegatten, der
+mit der quellensteuerpflichtigen Person in rechtlich und tatsächlich ungetrennter Ehe lebt. Bei
+einer späteren Scheidung sowie tatsächlicher oder rechtlicher Trennung der Eheleute wer-
+den beide Eheleute separat bis zum Ende der Quellensteuerpflicht nachträglich ordentlich
+veranlagt (vgl. Art. 9 Abs. 4 QStV).
+Für Personen, welche die Schweiz verlassen, endet die Frist für die Einreichung des Antrags
+im Zeitpunkt der Abmeldung bei der dafür zuständigen Behörde (vgl. Art. 89a Abs. 3 DBG).
+Nicht massgebend ist das Datum des Wegzugs aus der Schweiz. Für das Verfahren ist ins-
+besondere Artikel 126a DBG (notwendige Vertretung) zu berücksichtigen. Meldet sich eine
+Person, welche die Schweiz verlässt, nicht ordnungsgemäss bei der dafür zuständigen Be-

@@ -5,17 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 14"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
 
-10.   Inkrafttreten .......................................................................................................27
-Anhang 1: Beispiele zur Transponierung ....................................................................28
-Anhang 2: Alternativer Ausweis eigener Beteiligungsrechte.................................30
-Anhang 3: Fallbeispiele einer in der Schweiz kotierten
-    Kapitalgesellschaft ..........................................................................................32
-Anhang 4: Beispiel Rückzahlung und Wiedereinzahlung von KER
-    innerhalb des gleichen Kapitalbands .........................................................34
-Anhang 5: Beispiel Änderung Aktienkapital in eine für die
-    Geschäftstätigkeit wesentliche ausländische Währung .......................37
+Mit Inkrafttreten des Bundesgesetzes über die Steuerreform und die AHV-Finanzierung
+(STAF) per 1. Januar 2020 wurden die steuerfreie Rückzahlung sowie die Verwendung von
+Reserven aus Kapitaleinlagen bei einer direkten Teilliquidation von in der Schweiz kotierten
+juristischen Personen eingeschränkt.
+
+Zudem hat das Parlament am 19. Juni 2020 das Bundesgesetz vom 30. März 1911 betref-
+fend die Ergänzung des Schweizerischen Zivilgesetzbuches über das Obligationenrecht
+(Fünfter Teil: Obligationenrecht, OR; SR 220) verabschiedet. Die neuen gesetzlichen Bestim-
+mungen im OR zum Kapitalband und zur Denominierung des Aktienkapitals sowie die neuen
+steuerrechtlichen Bestimmungen haben Auswirkungen auf das Kapitaleinlageprinzip.
+
+Neu wurden damit einhergehend folgende Gesetzesbestimmungen in DBG und VStG aufge-
+nommen:
+
+DBG

@@ -10,6 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 7
 
-<!-- Seite 7 -->
-der Kosten der Veräusserung. Der Nachweis der Gestehungskosten obliegt dem
-Steuerpflichtigen.
+Mit Blick auf die Unsicherheit und Volatilität der Wertschriftenmärkte ist es in der Praxis
+schwierig, im Voraus die Haltedauer von Wertschriften, den Zeitpunkt und die Anzahl der
+Transaktionen über eine längere Zeitdauer verbindlich festzulegen. Die Steuerbehörden sind
+daher nur in eindeutigen Fällen in der Lage, zur Frage der Gewerbsmässigkeit des
+Wertschriftenhandels verbindliche Rechtsauskünfte abzugeben.
+
+5.2   Schuldzinsen

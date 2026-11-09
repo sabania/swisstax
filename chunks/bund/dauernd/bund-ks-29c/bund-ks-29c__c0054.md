@@ -10,14 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
 
-Ein allfälliges Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-
-KER dar, soweit es dem liberierten Grund- oder Stammkapital und den bestehenden KER
-bzw. Ausland-KER der übernommenen Muttergesellschaft entspricht, und soweit das libe-
-rierte Grund- oder Stammkapital und die bestehenden KER bzw. Ausland-KER der Mutterge-
-sellschaft das bereits bestehende liberierte Grund- oder Stammkapital und die KER bzw.
-Ausland-KER der Tochtergesellschaft übersteigen.
-.
+a)   Direkte Bundessteuer (Einkommenssteuer)
 
-6.2.5. Fusionsähnlicher Zusammenschluss („Quasifusion“)
+Bei einer Umwandlung erzielen beteiligte Privatpersonen in dem Umfang Vermögensertrag,
+als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten
+der übrigen Reserven der umgewandelten Gesellschaft oder Genossenschaft zufliessen.
 
-a)   Direkte Bundessteuer
+b)   Verrechnungssteuer
+
+Die bei einer Umwandlung den Inhabern der Beteiligungsrechte oder diesen nahestehenden
+Dritten zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und
+sonstigen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungs-
+steuer, sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesells chaft
+oder Genossenschaft erfolgen.

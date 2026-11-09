@@ -10,11 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 2
 
-Grundsätzlich gilt somit, dass die Austrittsleistung (Freizügigkeitsleistung) von der bisherigen
-Vorsorgeeinrichtung an die Vorsorgeeinrichtung des neuen Arbeitgebers übertragen werden
-muss. Die Übertragung der Austrittsleistung auf eine Freizügigkeitspolice oder auf ein Frei-
-zügigkeitskonto ist nur dann zulässig, wenn die versicherte Person keiner neuen Vorsorge-
-einrichtung beitritt. Wird in der neuen Vorsorgeeinrichtung nicht die gesamte mitgebrachte
-Austrittsleistung zum Einkauf der versicherten Person in die vollen reglementarischen Leis-
-tungen benötigt, kann die Differenz ebenfalls auf eine Freizügigkeitseinrichtung übertragen
-werden (vgl. dazu nachstehende Ziff. 2.2.1).
+Das Freizügigkeitsgesetz regelt im Rahmen der beruflichen Vorsorge die Ansprüche der ver-
+sicherten Person im Freizügigkeitsfall. Der Freizügigkeitsfall tritt ein, wenn die versicherte
+Person die Vorsorgeeinrichtung verlässt, bevor ein Vorsorgefall eingetreten ist (Art. 2 Abs. 1
+FZG). In diesem Fall hat die versicherte Person Anspruch auf eine Austrittsleistung. Die
+Freizügigkeitsverordnung regelt insbesondere den Erhalt des Vorsorgeschutzes, wenn die
+versicherte Person aus der bisherigen Vorsorgeeinrichtung austritt und nicht unmittelbar in
+eine neue eintritt. Der Vorsorgeschutz wird im Freizügigkeitsfall durch eine Freizügigkeitspo-
+lice oder durch ein Freizügigkeitskonto erhalten, wobei die versicherte Person die Austritts-
+leistung maximal an zwei Freizügigkeitseinrichtungen übertragen lassen darf (Art. 12 Abs. 1
+FZV).

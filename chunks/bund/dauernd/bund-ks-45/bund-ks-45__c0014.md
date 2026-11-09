@@ -10,13 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 3
 
-<!-- Seite 3 -->
-9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell ........................................ 59
-9.3.2 Quellensteuerablieferung bei Kantonen mit Monatsmodell ......................................... 60
-9.3.3 Quellensteuerabrechnung bei Kantonen mit Jahresmodell ......................................... 60
-9.3.4 Quellensteuerablieferung bei Kantonen mit Jahresmodell .......................................... 60
-9.4   Abrechnungskorrekturen ......................................................................................... 60
-9.5   Anspruchsberechtigter Kanton ............................................................................... 61
-9.6   Verletzung von Verfahrenspflichten ........................................................................ 62
-10   Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers ..................... 63
-10.1 Rechte des quellensteuerpflichtigen Arbeitnehmers ............................................. 63
+10.2 Pflichten der quellensteuerpflichtigen Arbeitnehmer ............................................ 63
+11   Nachträgliche ordentliche Veranlagung und Neuberechnung der Quellensteuer 64
+11.1 Allgemeine Grundsätze bei der nachträglichen ordentlichen Veranlagung ......... 64
+11.2 Obligatorische nachträgliche ordentliche Veranlagung bei Ansässigkeit in der
+    Schweiz ..................................................................................................................... 64
+11.3 Nachträgliche ordentliche Veranlagung auf Antrag bei Ansässigkeit in der
+    Schweiz ..................................................................................................................... 65
+11.4 Nachträgliche ordentliche Veranlagung auf Antrag bei Ansässigkeit im
+    Ausland ..................................................................................................................... 66
+11.5 Nachträgliche ordentliche Veranlagung von Amtes wegen bei Ansässigkeit im

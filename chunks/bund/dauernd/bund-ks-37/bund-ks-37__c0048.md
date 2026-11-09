@@ -10,14 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 11
 
-7   Besteuerung von Mitarbeiterbeteiligungen im internationalen Verhältnis
-    (Art. 7 bis 9 MBV)
-7.1   Allgemeines
-Die anteilsmässige Besteuerung, welche in den Artikeln 17d DBG sowie 7 und 8 MBV fest-
-gehalten wird, ist auf zwei Sachverhalte anwendbar. Der erste Sachverhalt betrifft Fälle, in
-welchen der Mitarbeitende aus dem Ausland in die Schweiz zuzieht (Zuzug; Art. 7 MBV). Der
-Zweite betrifft Mitarbeitende, die aus der Schweiz ins Ausland ziehen (Wegzug; Art. 8 MBV).
-Dabei werden die Mitarbeiterbeteiligungen jeweils in einem Land abgegeben und in einem
-anderen Land realisiert. Bei diesen Mitarbeiterbeteiligungen handelt es sich in der Regel um
-Mitarbeiteroptionen, Anwartschaften auf Mitarbeiteraktien oder um unechte Mitarbeiterbeteili-
-gungen.
+Aufgrund verschiedener Doppelbesteuerungsabkommen (DBA) kann die Schweiz in der Re-
+gel nicht den gesamten geldwerten Vorteil aus der Realisation besteuern. Die Besteuerung
+ist vielmehr aufgrund der Arbeitstage auf die Länder zu verteilen, in denen der Mitarbeitende
+seit der Zuteilung der Mitarbeiterbeteiligung bis zum Entstehen des Ausübungsrechts ansäs-
+sig war (Art. 7 und 8 MBV). Keine Rolle spielt dabei, ob ein anderes Land den geldwerten
+Vorteil anteilsmässig besteuert oder nicht. Vielmehr ist entscheidend, welches Land das an-
+teilige Besteuerungsrecht für das Einkommen aus der zugrundeliegenden Erwerbstätigkeit
+besitzt.

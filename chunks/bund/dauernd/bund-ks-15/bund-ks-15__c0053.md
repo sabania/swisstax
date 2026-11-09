@@ -4,22 +4,27 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 53"
-seiten: "11"
+titel: "Anhang II Beispiel Nr. 4 – IUP-Obligation mit Option: Sachverhalt, Bondwerte (Teil 2/2)"
+ziffer: "Nr. 4"
+seiten: "17"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang II Beispiele · S. 17
 
-Direkte Bundessteuer und Verrechnungssteuer
-Auch die klassischen Options- und Wandelanleihen sind – wie unter Ziffer 2.3.1. und 2.3.2.
-hievor ausgeführt – zusammengesetzte, kapitalgarantierte Finanzinstrumente. Klassische
-Options- und Wandelanleihen, die von einem Inländer emittiert werden, geniessen aber eine
-andere steuerliche Behandlung, jedenfalls solange angenommen werden kann, dass die vom
-Emittenten üblicherweise erzielte Zinsersparnis seinen steuerbaren Gewinn entsprechend
-erhöht: Die Differenz zwischen dem Wert der Obligation ex-Option im Emissionszeitpunkt
-und dem garantierten Rückzahlungsbetrag wird weder von der direkten Bundessteuer noch
-von der Verrechnungssteuer erfasst. Es erfolgt auch keine Besteuerung bei Handänderun-
-gen nach Artikel 20 Absatz 1 Buchstabe b DBG. Die periodischen Zinsen sind indessen steu-
-erbar (Art. 20 Abs. 1 Bst. a DBG; Art. 4 Abs. 1 Bst. a VStG).
+Im Zeitpunkt der zweiten Handänderung, drei Jahre und 9 1/2 Monate oder 1'384 Tage nach
+der Emission, stellt man fest, dass die Bezugsgrösse "Zinsniveau" von 5.75% auf 5.37625%
+(- 6.5%) gefallen ist, was eine Veränderung der Originalrendite für die Restlaufzeit von 6%
+auf 5.61% bewirkt.
 
-1-015-DVS-2017-d
+Aufgrund der analytischen Methode sind die bezahlten Preise für IUP-Obligationen mit inte-
+grierter Option bzw. integriertem Wandelrecht nicht massgebend. Der steuerlich massge-
+bende Wert im Zeitpunkt der einzelnen Handänderungen entspricht dem Barwert der blossen
+Obligation, wie er jeweils aufgrund der den Marktverhältnissen angepassten Originalrendite
+für die Restlaufzeit resultiert :
+
+−   erste Handänderung (2 Jahre und 4 Monate oder 852 Tage vor Verfall):
+    (Fr. 1'000.- + Fr. 20.-) : 1.066 = Fr. 956.85
+    (Fr. 956.85 + Fr. 20.-) : 1.066 = Fr. 916.35
+    (122:365)
+    (Fr. 916.35 + Fr. 20.-) : 1.066   = Fr. 916.55 (innerer Wert der Obligation nach 2
+    Jahren und 8 Monaten)

@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://ar.ch/fileadmin/user_upload/Departement_Finanzen/Steuerverwaltung/Bibliothek/Gesetzesweisungen-Merkblaetter/11_Steuererlass__alle_Jahre_.pdf> · lokal: [ar-mb-11.pdf](../../../raw/ar/dauernd/ar-mb-11.pdf) · Volltext: [ar-mb-11.md](../../../sources/ar/dauernd/ar-mb-11.md)
 - **Abgerufen:** 2026-11-09 · sha256 `6213779d4a585ee6…`
 
-## Inhalt (16 Chunks)
+## Inhalt (15 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -31,4 +31,3 @@ generiert: tools/build_index.py
 | [c0013](../../../chunks/ar/dauernd/ar-mb-11/ar-mb-11__c0013.md) | MB AR 11 – Abschnitt 13 | S. 4 |  |
 | [c0014](../../../chunks/ar/dauernd/ar-mb-11/ar-mb-11__c0014.md) | MB AR 11 – Abschnitt 14 | S. 4 |  |
 | [c0015](../../../chunks/ar/dauernd/ar-mb-11/ar-mb-11__c0015.md) | MB AR 11 – Abschnitt 15 | S. 4 |  |
-| [c0016](../../../chunks/ar/dauernd/ar-mb-11/ar-mb-11__c0016.md) | MB AR 11 – Abschnitt 16 | S. 4 |  |

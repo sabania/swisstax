@@ -5,24 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 27"
-seiten: "9"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 8
 
-<!-- Seite 9 -->
-tierten Aus- und Weiterbildung, können sie beim Arbeitgeber dennoch geschäftsmässig begrün-
-deten Aufwand darstellen. Die Qualifikation als geldwerte Leistung an Nahestehende bleibt vor-
-behalten.
-Arbeitgeber, die Kosten der berufsorientierten Aus- und Weiterbildung für ihr eigenes Personal
-tragen, haben – falls die Rechnung auf den Arbeitnehmer lautet – die übernommenen Kosten im
-Lohnausweis in Ziffer 13.3 zu bescheinigen. Lautet die Rechnung auf den Arbeitgeber, müssen
-die übernommenen Kosten im Lohnausweis nicht bescheinigt werden. Arbeitgeber, die betriebs-
-interne Aus- und Weiterbildungen für ihr eigenes Personal durchführen und finanzieren, müssen
-die diesbezüglich entstandenen Kosten im Lohnausweis ebenfalls nicht bescheinigen.
-Selbständig erwerbstätige steuerpflichtige Personen können auch ihre eigenen berufsorientierten
-Aus- und Weiterbildungskosten – sofern diese geschäftsmässig begründeten Aufwand darstel-
-len – im Jahr des Aufwands nach Artikel 27 Absatz 1 DBG steuerlich zum Abzug bringen.
-Die selbständig erwerbstätige steuerpflichtige Person verfügt zudem über die Möglichkeit, die von
-ihr zusätzlich getragenen Kosten der berufsorientierten Aus- und Weiterbildung nach Arti-
-kel 33 Absatz 1 Buchstabe j DBG zum Abzug zu bringen.
+4.5.2   Anlässe im Bereich Unterhaltung, Erlebnis, Geselligkeit, Sport und Hobby
+Anlässe im Bereich Unterhaltung, Vergnügung, Freizeitbeschäftigung, Geselligkeit, Entspan-
+nung, gemeinsame Ausübung einer Tätigkeit, sportliche Betätigung usw. stellen selbst dann
+keine berufsorientierten Aus- und Weiterbildungen im Sinne von Artikel 33 Absatz 1 Buch-
+stabe j DBG dar, wenn sie noch ein (untergeordnetes) Bildungselement enthalten. Als Beispiele
+können genannt werden:
+Kurse, Vorträge, Referate, Seminare, Symposien, Kongresse, Workshops und andere Veranstal-
+tungen mit überwiegendem Hobbycharakter wie Handarbeitskurse, Garten- und Handwerks-
+kurse, Astrologie, Feng-Shui, Weinseminare, Riverrafting, Aktivferien (Malferien, Reitferien, Wan-
+derwochen usw.), geführte Berg-, Ski- oder Biketouren, Aktivitäten zur Förderung des Teamgeis-
+tes, Fallschirmsprünge oder Tauchgänge, Sportkurse (Tennis, Karate, Reiten, Tauchen etc.),

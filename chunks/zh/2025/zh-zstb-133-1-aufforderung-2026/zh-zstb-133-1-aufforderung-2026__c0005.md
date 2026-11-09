@@ -5,24 +5,29 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 5"
-seiten: "1"
+seiten: "2"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 1
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 2
 
-Zur Abgabe einer Steuererklärung 2025 sind verpflichtet:
-a) alle steuerpflichtigen Personen (bis und mit Jahrgang 2007), die
-•   am 31. Dezember 2025 Wohnsitz im Kanton Zürich hatten und
-•   nicht der Quellensteuer für ausländische Arbeitnehmende unterstehen;
-b) alle quellensteuerpflichtigen Personen, die dem Verfahren der nachträglichen ordentlichen
-Veranlagung unterliegen (siehe A.III);
-c) alle steuerpflichtigen Personen mit Wohnsitz in einem anderen Kanton, die am 31. Dezember
-2025 im Kanton Zürich Liegenschaften oder Betriebsstätten (bzw. Geschäftsbetriebe) besassen
-oder im Jahre 2025 durch Aufgabe einer Liegenschaft oder Betriebsstätte ihre Steuerpflicht im
-Kanton Zürich beendet haben.
-Steuerpflichtige mit Wohnsitz in einem anderen Kanton können ihre Steuererklärungspflicht im
-Kanton Zürich auch durch Einreichung einer unterzeichneten Kopie der Steuererklärung des
-Wohnsitzkantons erfüllen, welche zusammen mit der leeren, zugestellten zürcherischen
-Steuererklärung einzureichen ist;
-d) alle steuerpflichtigen Personen mit Wohnsitz im Ausland, die am 31. Dezember 2025 im
-Kanton Zürich Liegenschaften oder Betriebsstätten (bzw. Geschäftsbetriebe) besassen.
+Die Steuererklärungen sind, zusammen mit den erforderlichen Beilagen gemäss § 134 StG, bis
+31. März 2026 online (www.zh.ch/steuererklaerung) oder dem Scan-Center einzureichen.
+
+II. Steuererklärung 2026 für Staats- und Gemeindesteuern sowie direkte
+Bundessteuer
+
+1. Pflicht zur Abgabe einer Steuererklärung
+
+Eine Steuererklärung 2026 ist im Kalenderjahr 2026 für den Zeitraum 1. Januar 2026 bis
+Beendigung der Steuerpflicht einzureichen, wenn die Steuerpflicht im Kanton im Kalenderjahr
+2026 endet zufolge
+•   Wegzuges ins Ausland;
+•   Todes der steuerpflichtigen Person;
+•   vollständiger Aufgabe des Nebensteuerdomizils (Liegenschaften, Betriebsstätten) durch eine
+    im Ausland wohnhafte steuerpflichtige Person.
+
+2. Zustellung der Formulare
+
+Die Formulare werden den Personen, deren Steuerpflicht bekannt ist, nach Beendigung der
+Steuerpflicht durch das Gemeindesteueramt zugestellt. Wer kein Formular erhält, muss von sich
+aus ein solches beim Gemeindesteueramt verlangen.

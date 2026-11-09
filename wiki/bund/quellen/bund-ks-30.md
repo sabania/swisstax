@@ -12,224 +12,202 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/2YuHXYYJMbn9/dbst-ks-2010-1-030-d-de.pdf> · lokal: [bund-ks-30.pdf](../../../raw/bund/dauernd/bund-ks-30.pdf) · Volltext: [bund-ks-30.md](../../../sources/bund/dauernd/bund-ks-30.md)
 - **Abgerufen:** 2026-11-09 · sha256 `50e37ecde4d8cf45…`
 
-## Inhalt (217 Chunks)
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 44-45 (Beilage 1): grafische Übersicht als Textfragmente extrahiert, Struktur nicht rekonstruierbar (vermischte Spalten).
+- Seiten 46-58 (Beilage 2): mehrspaltige Tabelle, Spalten im Fliesstext vermischt (Zeilenumbrüche mitten in Sätzen); inhaltlich nur eingeschränkt lesbar; Zeilen 2413-2440 u.ä. mit gemischten Zellen.
+- Seite 1: Fussnote 1 (2. Auflage) und Inhaltsverzeichnis Seiten 1-4 sind als Deckblatt/Verzeichnis geskippt.
+- Dokument stammt von 2010 (2. Auflage Stand 2014): genannte Beträge (z.B. Zweiverdienerabzug 8'100–13'400, Drittbetreuung 10'100, Elterntarif 251) sind nicht die Werte 2025/2026.
+- Fussnoten 2-4 (S. 19, 22) stehen zwischen Fliesstext.
+
+## Inhalt (187 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
-| [c0001](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0001.md) | KS 30 – Abschnitt 1 |  |  |
-| [c0002](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0002.md) | KS 30 – Abschnitt 2 | S. 1 |  |
-| [c0003](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0003.md) | KS 30 – Abschnitt 3 | S. 1 |  |
-| [c0004](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0004.md) | KS 30 – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0005.md) | KS 30 – Abschnitt 5 | S. 1 |  |
-| [c0006](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0006.md) | KS 30 – Abschnitt 6 | S. 1 |  |
-| [c0007](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0007.md) | KS 30 – Abschnitt 7 | S. 2 |  |
-| [c0008](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0008.md) | KS 30 – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0009.md) | KS 30 – Abschnitt 9 | S. 2 |  |
-| [c0010](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0010.md) | KS 30 – Abschnitt 10 | S. 2 |  |
-| [c0011](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0011.md) | KS 30 – Abschnitt 11 | S. 2 |  |
-| [c0012](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0012.md) | KS 30 – Abschnitt 12 | S. 2 |  |
-| [c0013](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0013.md) | KS 30 – Abschnitt 13 | S. 2 |  |
-| [c0014](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0014.md) | KS 30 – Abschnitt 14 | S. 3 |  |
-| [c0015](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0015.md) | KS 30 – Abschnitt 15 | S. 3 |  |
-| [c0016](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0016.md) | KS 30 – Abschnitt 16 | S. 3 |  |
-| [c0017](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0017.md) | KS 30 – Abschnitt 17 | S. 3 |  |
-| [c0018](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0018.md) | KS 30 – Abschnitt 18 | S. 3 |  |
-| [c0019](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0019.md) | KS 30 – Abschnitt 19 | S. 3 |  |
-| [c0020](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0020.md) | KS 30 – Abschnitt 20 | S. 3 |  |
-| [c0021](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0021.md) | KS 30 – Abschnitt 21 | S. 4 |  |
-| [c0022](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0022.md) | KS 30 – Abschnitt 22 | S. 5 |  |
-| [c0023](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0023.md) | KS 30 – Abschnitt 23 | S. 5 |  |
-| [c0024](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0024.md) | KS 30 – Abschnitt 24 | S. 5 |  |
-| [c0025](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0025.md) | KS 30 – Abschnitt 25 | S. 5 |  |
-| [c0026](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0026.md) | KS 30 – Abschnitt 26 | S. 6 |  |
-| [c0027](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0027.md) | KS 30 – Abschnitt 27 | S. 6 |  |
-| [c0028](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0028.md) | KS 30 – Abschnitt 28 | S. 6 |  |
-| [c0029](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0029.md) | KS 30 – Abschnitt 29 | S. 6 |  |
-| [c0030](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0030.md) | KS 30 – Abschnitt 30 | S. 6 |  |
-| [c0031](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0031.md) | KS 30 – Abschnitt 31 | S. 7 |  |
-| [c0032](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0032.md) | KS 30 – Abschnitt 32 | S. 7 |  |
-| [c0033](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0033.md) | KS 30 – Abschnitt 33 | S. 7 |  |
-| [c0034](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0034.md) | KS 30 – Abschnitt 34 | S. 7 |  |
-| [c0035](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0035.md) | KS 30 – Abschnitt 35 | S. 8 |  |
-| [c0036](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0036.md) | KS 30 – Abschnitt 36 | S. 8 |  |
-| [c0037](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0037.md) | KS 30 – Abschnitt 37 | S. 8 |  |
-| [c0038](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0038.md) | KS 30 – Abschnitt 38 | S. 8 |  |
-| [c0039](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0039.md) | KS 30 – Abschnitt 39 | S. 8 |  |
-| [c0040](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0040.md) | KS 30 – Abschnitt 40 | S. 9 |  |
-| [c0041](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0041.md) | KS 30 – Abschnitt 41 | S. 9 |  |
-| [c0042](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0042.md) | KS 30 – Abschnitt 42 | S. 9 |  |
-| [c0043](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0043.md) | KS 30 – Abschnitt 43 | S. 10 |  |
-| [c0044](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0044.md) | KS 30 – Abschnitt 44 | S. 10 |  |
-| [c0045](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0045.md) | KS 30 – Abschnitt 45 | S. 10 |  |
-| [c0046](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0046.md) | KS 30 – Abschnitt 46 | S. 10 |  |
-| [c0047](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0047.md) | KS 30 – Abschnitt 47 | S. 10 |  |
-| [c0048](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0048.md) | KS 30 – Abschnitt 48 | S. 11 |  |
-| [c0049](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0049.md) | KS 30 – Abschnitt 49 | S. 11 |  |
-| [c0050](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0050.md) | KS 30 – Abschnitt 50 | S. 11 |  |
-| [c0051](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0051.md) | KS 30 – Abschnitt 51 | S. 11 |  |
-| [c0052](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0052.md) | KS 30 – Abschnitt 52 | S. 11 |  |
-| [c0053](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0053.md) | KS 30 – Abschnitt 53 | S. 12 |  |
-| [c0054](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0054.md) | KS 30 – Abschnitt 54 | S. 12 |  |
-| [c0055](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0055.md) | KS 30 – Abschnitt 55 | S. 12 |  |
-| [c0056](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0056.md) | KS 30 – Abschnitt 56 | S. 12 |  |
-| [c0057](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0057.md) | KS 30 – Abschnitt 57 | S. 12 |  |
-| [c0058](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0058.md) | KS 30 – Abschnitt 58 | S. 13 |  |
-| [c0059](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0059.md) | KS 30 – Abschnitt 59 | S. 13 |  |
-| [c0060](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0060.md) | KS 30 – Abschnitt 60 | S. 13 |  |
-| [c0061](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0061.md) | KS 30 – Abschnitt 61 | S. 13 |  |
-| [c0062](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0062.md) | KS 30 – Abschnitt 62 | S. 13 |  |
-| [c0063](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0063.md) | KS 30 – Abschnitt 63 | S. 14 |  |
-| [c0064](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0064.md) | KS 30 – Abschnitt 64 | S. 14 |  |
-| [c0065](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0065.md) | KS 30 – Abschnitt 65 | S. 14 |  |
-| [c0066](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0066.md) | KS 30 – Abschnitt 66 | S. 14 |  |
-| [c0067](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0067.md) | KS 30 – Abschnitt 67 | S. 15 |  |
-| [c0068](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0068.md) | KS 30 – Abschnitt 68 | S. 15 |  |
-| [c0069](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0069.md) | KS 30 – Abschnitt 69 | S. 15 |  |
-| [c0070](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0070.md) | KS 30 – Abschnitt 70 | S. 16 |  |
-| [c0071](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0071.md) | KS 30 – Abschnitt 71 | S. 16 |  |
-| [c0072](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0072.md) | KS 30 – Abschnitt 72 | S. 16 |  |
-| [c0073](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0073.md) | KS 30 – Abschnitt 73 | S. 16 |  |
-| [c0074](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0074.md) | KS 30 – Abschnitt 74 | S. 16 |  |
-| [c0075](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0075.md) | KS 30 – Abschnitt 75 | S. 17 |  |
-| [c0076](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0076.md) | KS 30 – Abschnitt 76 | S. 17 |  |
-| [c0077](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0077.md) | KS 30 – Abschnitt 77 | S. 17 |  |
-| [c0078](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0078.md) | KS 30 – Abschnitt 78 | S. 17 |  |
-| [c0079](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0079.md) | KS 30 – Abschnitt 79 | S. 18 |  |
-| [c0080](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0080.md) | KS 30 – Abschnitt 80 | S. 18 |  |
-| [c0081](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0081.md) | KS 30 – Abschnitt 81 | S. 18 |  |
-| [c0082](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0082.md) | KS 30 – Abschnitt 82 | S. 18 |  |
-| [c0083](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0083.md) | KS 30 – Abschnitt 83 | S. 19 |  |
-| [c0084](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0084.md) | KS 30 – Abschnitt 84 | S. 19 |  |
-| [c0085](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0085.md) | KS 30 – Abschnitt 85 | S. 19 |  |
-| [c0086](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0086.md) | KS 30 – Abschnitt 86 | S. 20 |  |
-| [c0087](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0087.md) | KS 30 – Abschnitt 87 | S. 20 |  |
-| [c0088](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0088.md) | KS 30 – Abschnitt 88 | S. 20 |  |
-| [c0089](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0089.md) | KS 30 – Abschnitt 89 | S. 20 |  |
-| [c0090](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0090.md) | KS 30 – Abschnitt 90 | S. 21 |  |
-| [c0091](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0091.md) | KS 30 – Abschnitt 91 | S. 21 |  |
-| [c0092](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0092.md) | KS 30 – Abschnitt 92 | S. 21 |  |
-| [c0093](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0093.md) | KS 30 – Abschnitt 93 | S. 21 |  |
-| [c0094](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0094.md) | KS 30 – Abschnitt 94 | S. 21 |  |
-| [c0095](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0095.md) | KS 30 – Abschnitt 95 | S. 22 |  |
-| [c0096](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0096.md) | KS 30 – Abschnitt 96 | S. 22 |  |
-| [c0097](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0097.md) | KS 30 – Abschnitt 97 | S. 22 |  |
-| [c0098](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0098.md) | KS 30 – Abschnitt 98 | S. 22 |  |
-| [c0099](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0099.md) | KS 30 – Abschnitt 99 | S. 23 |  |
-| [c0100](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0100.md) | KS 30 – Abschnitt 100 | S. 23 |  |
-| [c0101](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0101.md) | KS 30 – Abschnitt 101 | S. 23 |  |
-| [c0102](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0102.md) | KS 30 – Abschnitt 102 | S. 23 |  |
-| [c0103](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0103.md) | KS 30 – Abschnitt 103 | S. 24 |  |
-| [c0104](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0104.md) | KS 30 – Abschnitt 104 | S. 24 |  |
-| [c0105](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0105.md) | KS 30 – Abschnitt 105 | S. 24 |  |
-| [c0106](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0106.md) | KS 30 – Abschnitt 106 | S. 24 |  |
-| [c0107](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0107.md) | KS 30 – Abschnitt 107 | S. 24 |  |
-| [c0108](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0108.md) | KS 30 – Abschnitt 108 | S. 25 |  |
-| [c0109](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0109.md) | KS 30 – Abschnitt 109 | S. 25 |  |
-| [c0110](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0110.md) | KS 30 – Abschnitt 110 | S. 25 |  |
-| [c0111](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0111.md) | KS 30 – Abschnitt 111 | S. 25 |  |
-| [c0112](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0112.md) | KS 30 – Abschnitt 112 | S. 26 |  |
-| [c0113](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0113.md) | KS 30 – Abschnitt 113 | S. 26 |  |
-| [c0114](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0114.md) | KS 30 – Abschnitt 114 | S. 26 |  |
-| [c0115](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0115.md) | KS 30 – Abschnitt 115 | S. 27 |  |
-| [c0116](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0116.md) | KS 30 – Abschnitt 116 | S. 27 |  |
-| [c0117](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0117.md) | KS 30 – Abschnitt 117 | S. 28 |  |
-| [c0118](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0118.md) | KS 30 – Abschnitt 118 | S. 28 |  |
-| [c0119](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0119.md) | KS 30 – Abschnitt 119 | S. 28 |  |
-| [c0120](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0120.md) | KS 30 – Abschnitt 120 | S. 29 |  |
-| [c0121](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0121.md) | KS 30 – Abschnitt 121 | S. 29 |  |
-| [c0122](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0122.md) | KS 30 – Abschnitt 122 | S. 29 |  |
-| [c0123](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0123.md) | KS 30 – Abschnitt 123 | S. 30 |  |
-| [c0124](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0124.md) | KS 30 – Abschnitt 124 | S. 30 |  |
-| [c0125](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0125.md) | KS 30 – Abschnitt 125 | S. 30 |  |
-| [c0126](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0126.md) | KS 30 – Abschnitt 126 | S. 30 |  |
-| [c0127](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0127.md) | KS 30 – Abschnitt 127 | S. 30 |  |
-| [c0128](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0128.md) | KS 30 – Abschnitt 128 | S. 31 |  |
-| [c0129](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0129.md) | KS 30 – Abschnitt 129 | S. 31 |  |
-| [c0130](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0130.md) | KS 30 – Abschnitt 130 | S. 31 |  |
-| [c0131](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0131.md) | KS 30 – Abschnitt 131 | S. 31 |  |
-| [c0132](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0132.md) | KS 30 – Abschnitt 132 | S. 31 |  |
-| [c0133](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0133.md) | KS 30 – Abschnitt 133 | S. 32 |  |
-| [c0134](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0134.md) | KS 30 – Abschnitt 134 | S. 32 |  |
-| [c0135](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0135.md) | KS 30 – Abschnitt 135 | S. 32 |  |
-| [c0136](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0136.md) | KS 30 – Abschnitt 136 | S. 32 |  |
-| [c0137](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0137.md) | KS 30 – Abschnitt 137 | S. 32 |  |
-| [c0138](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0138.md) | KS 30 – Abschnitt 138 | S. 33 |  |
-| [c0139](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0139.md) | KS 30 – Abschnitt 139 | S. 33 |  |
-| [c0140](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0140.md) | KS 30 – Abschnitt 140 | S. 33 |  |
-| [c0141](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0141.md) | KS 30 – Abschnitt 141 | S. 33 |  |
-| [c0142](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0142.md) | KS 30 – Abschnitt 142 | S. 34 |  |
-| [c0143](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0143.md) | KS 30 – Abschnitt 143 | S. 34 |  |
-| [c0144](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0144.md) | KS 30 – Abschnitt 144 | S. 34 |  |
-| [c0145](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0145.md) | KS 30 – Abschnitt 145 | S. 35 |  |
-| [c0146](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0146.md) | KS 30 – Abschnitt 146 | S. 35 |  |
-| [c0147](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0147.md) | KS 30 – Abschnitt 147 | S. 35 |  |
-| [c0148](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0148.md) | KS 30 – Abschnitt 148 | S. 36 |  |
-| [c0149](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0149.md) | KS 30 – Abschnitt 149 | S. 36 |  |
-| [c0150](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0150.md) | KS 30 – Abschnitt 150 | S. 36 |  |
-| [c0151](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0151.md) | KS 30 – Abschnitt 151 | S. 36 |  |
-| [c0152](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0152.md) | KS 30 – Abschnitt 152 | S. 37 |  |
-| [c0153](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0153.md) | KS 30 – Abschnitt 153 | S. 38 |  |
-| [c0154](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0154.md) | KS 30 – Abschnitt 154 | S. 38 |  |
-| [c0155](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0155.md) | KS 30 – Abschnitt 155 | S. 38 |  |
-| [c0156](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0156.md) | KS 30 – Abschnitt 156 | S. 39 |  |
-| [c0157](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0157.md) | KS 30 – Abschnitt 157 | S. 39 |  |
-| [c0158](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0158.md) | KS 30 – Abschnitt 158 | S. 39 |  |
-| [c0159](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0159.md) | KS 30 – Abschnitt 159 | S. 39 |  |
-| [c0160](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0160.md) | KS 30 – Abschnitt 160 | S. 40 |  |
-| [c0161](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0161.md) | KS 30 – Abschnitt 161 | S. 40 |  |
-| [c0162](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0162.md) | KS 30 – Abschnitt 162 | S. 40 |  |
-| [c0163](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0163.md) | KS 30 – Abschnitt 163 | S. 40 |  |
-| [c0164](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0164.md) | KS 30 – Abschnitt 164 | S. 41 |  |
-| [c0165](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0165.md) | KS 30 – Abschnitt 165 | S. 41 |  |
-| [c0166](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0166.md) | KS 30 – Abschnitt 166 | S. 41 |  |
-| [c0167](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0167.md) | KS 30 – Abschnitt 167 | S. 41 |  |
-| [c0168](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0168.md) | KS 30 – Abschnitt 168 | S. 42 |  |
-| [c0169](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0169.md) | KS 30 – Abschnitt 169 | S. 42 |  |
-| [c0170](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0170.md) | KS 30 – Abschnitt 170 | S. 42 |  |
-| [c0171](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0171.md) | KS 30 – Abschnitt 171 | S. 42 |  |
-| [c0172](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0172.md) | KS 30 – Abschnitt 172 | S. 43 |  |
-| [c0173](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0173.md) | KS 30 – Abschnitt 173 | S. 43 |  |
-| [c0174](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0174.md) | KS 30 – Abschnitt 174 | S. 43 |  |
-| [c0175](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0175.md) | KS 30 – Abschnitt 175 | S. 43 |  |
-| [c0176](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0176.md) | KS 30 – Abschnitt 176 | S. 44 |  |
-| [c0177](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0177.md) | KS 30 – Abschnitt 177 | S. 45 |  |
-| [c0178](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0178.md) | KS 30 – Abschnitt 178 | S. 46 |  |
-| [c0179](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0179.md) | KS 30 – Abschnitt 179 | S. 47 |  |
-| [c0180](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0180.md) | KS 30 – Abschnitt 180 | S. 47 |  |
-| [c0181](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0181.md) | KS 30 – Abschnitt 181 | S. 47 |  |
-| [c0182](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0182.md) | KS 30 – Abschnitt 182 | S. 48 |  |
-| [c0183](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0183.md) | KS 30 – Abschnitt 183 | S. 48 |  |
-| [c0184](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0184.md) | KS 30 – Abschnitt 184 | S. 48 |  |
-| [c0185](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0185.md) | KS 30 – Abschnitt 185 | S. 49 |  |
-| [c0186](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0186.md) | KS 30 – Abschnitt 186 | S. 49 |  |
-| [c0187](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0187.md) | KS 30 – Abschnitt 187 | S. 49 |  |
-| [c0188](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0188.md) | KS 30 – Abschnitt 188 | S. 49 |  |
-| [c0189](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0189.md) | KS 30 – Abschnitt 189 | S. 50 |  |
-| [c0190](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0190.md) | KS 30 – Abschnitt 190 | S. 50 |  |
-| [c0191](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0191.md) | KS 30 – Abschnitt 191 | S. 50 |  |
-| [c0192](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0192.md) | KS 30 – Abschnitt 192 | S. 51 |  |
-| [c0193](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0193.md) | KS 30 – Abschnitt 193 | S. 51 |  |
-| [c0194](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0194.md) | KS 30 – Abschnitt 194 | S. 51 |  |
-| [c0195](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0195.md) | KS 30 – Abschnitt 195 | S. 52 |  |
-| [c0196](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0196.md) | KS 30 – Abschnitt 196 | S. 52 |  |
-| [c0197](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0197.md) | KS 30 – Abschnitt 197 | S. 52 |  |
-| [c0198](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0198.md) | KS 30 – Abschnitt 198 | S. 53 |  |
-| [c0199](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0199.md) | KS 30 – Abschnitt 199 | S. 53 |  |
-| [c0200](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0200.md) | KS 30 – Abschnitt 200 | S. 53 |  |
-| [c0201](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0201.md) | KS 30 – Abschnitt 201 | S. 53 |  |
-| [c0202](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0202.md) | KS 30 – Abschnitt 202 | S. 54 |  |
-| [c0203](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0203.md) | KS 30 – Abschnitt 203 | S. 54 |  |
-| [c0204](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0204.md) | KS 30 – Abschnitt 204 | S. 54 |  |
-| [c0205](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0205.md) | KS 30 – Abschnitt 205 | S. 54 |  |
-| [c0206](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0206.md) | KS 30 – Abschnitt 206 | S. 54 |  |
-| [c0207](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0207.md) | KS 30 – Abschnitt 207 | S. 55 |  |
-| [c0208](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0208.md) | KS 30 – Abschnitt 208 | S. 55 |  |
-| [c0209](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0209.md) | KS 30 – Abschnitt 209 | S. 55 |  |
-| [c0210](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0210.md) | KS 30 – Abschnitt 210 | S. 55 |  |
-| [c0211](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0211.md) | KS 30 – Abschnitt 211 | S. 55 |  |
-| [c0212](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0212.md) | KS 30 – Abschnitt 212 | S. 56 |  |
-| [c0213](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0213.md) | KS 30 – Abschnitt 213 | S. 56 |  |
-| [c0214](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0214.md) | KS 30 – Abschnitt 214 | S. 56 |  |
-| [c0215](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0215.md) | KS 30 – Abschnitt 215 | S. 57 |  |
-| [c0216](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0216.md) | KS 30 – Abschnitt 216 | S. 57 |  |
-| [c0217](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0217.md) | KS 30 – Abschnitt 217 | S. 58 |  |
+| [c0001](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0001.md) | Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung (Teil 1/3) | S. 5 | Ehegatten in ungetrennter Ehe werden unabhängig vom Güterstand gemeinsam veranlagt (Art. 9 DBG), Konkubinatspaare stets individuell; 2. Auflage entspricht dem Recht per 1. Januar 2014. |
+| [c0002](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0002.md) | Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung (Teil 2/3) | S. 5 |  |
+| [c0003](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0003.md) | Einleitung; Ziff. 1.1 Einheit der Familie – Gemeinschaftsbesteuerung (Teil 3/3) | S. 5 |  |
+| [c0004](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0004.md) | Ziff. 1.2 Beginn und Ende der Gemeinschaftsbesteuerung | S. 5 | Gemeinschaftsbesteuerung beginnt mit der Heirat für die ganze Steuerperiode; bei Tod ab Todestag separate Veranlagung, bei Scheidung/Trennung für die ganze Periode getrennt (Art. 42 DBG). |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0005.md) | Ziff. 1.3 Faktische Trennung – Voraussetzungen getrennter Veranlagung | S. 5–6 | Faktische Trennung setzt kumulativ u.a. keine gemeinsame Wohnung, keine gemeinsamen Mittel und Dauer von mindestens einem Jahr voraus; Nachweis obliegt den Ehegatten. |
+| [c0006](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0006.md) | Ziff. 1.3 Zwei Wohnsitze trotz ungetrennter Ehe – Veranlagungsort (Teil 1/2) | S. 6 | Bei zwei Wohnsitzen aber fortgeführter ehelicher Gemeinschaft wird gemeinsam veranlagt, und zwar am Ort der überwiegenden persönlichen und wirtschaftlichen Interessen. |
+| [c0007](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0007.md) | Ziff. 1.3 Zwei Wohnsitze trotz ungetrennter Ehe – Veranlagungsort (Teil 2/2) | S. 6 |  |
+| [c0008](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0008.md) | Ziff. 2.1 Ausländischer Wohnsitz eines Ehegatten | S. 6 | Nur der in der Schweiz wohnhafte Ehegatte ist steuerpflichtig, erhält aber Verheiratetentarif/Elterntarif und Verheiratetenabzug. |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0009.md) | Ziff. 2.1 Satzbestimmung mit Einkommen des im Ausland wohnenden Ehegatten (Teil 1/2) | S. 6–7 | Das Einkommen des im Ausland wohnenden Ehegatten ist zur Satzbestimmung beizuziehen und darf bei fehlenden Angaben ermessensweise festgesetzt werden; bei tatsächlicher Trennung entfällt dies. |
+| [c0010](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0010.md) | Ziff. 2.1 Satzbestimmung mit Einkommen des im Ausland wohnenden Ehegatten (Teil 2/2) | S. 6–7 |  |
+| [c0011](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0011.md) | Ziff. 2.2 Beschränkte Steuerpflicht eines Ehegatten | S. 7 | Bei beschränkter Steuerpflicht gilt das eheliche Gesamteinkommen zur Satzbestimmung; Anspruch auf Verheiratetenabzug und Verheiratetentarif bzw. Kinderabzug und Elterntarif. |
+| [c0012](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0012.md) | Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens (Teil 1/2) | S. 7 | Das Einkommen minderjähriger Kinder unter elterlicher Sorge wird – ausser Erwerbseinkommen und Erwerbsersatz – dem Inhaber der elterlichen Sorge zugerechnet (Art. 9 Abs. 2 DBG), auch bei Stiefkindern, nicht bei Pflegeeltern. |
+| [c0013](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0013.md) | Ziff. 3 Minderjährige Kinder – Zurechnung des Kindereinkommens (Teil 2/2) | S. 7 |  |
+| [c0014](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0014.md) | Ziff. 3 Zurechnung bei getrennten Eltern – Obhut und alternierende Obhut | S. 7–8 | Bei gemeinsamer Sorge wird das Kindeseinkommen dem Elternteil mit Obhut und Unterhaltsbeiträgen zugeteilt; ohne Unterhaltsbeiträge wird von alternierender Obhut ausgegangen und das Einkommen hälftig aufgeteilt. |
+| [c0015](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0015.md) | Ziff. 3 Erwerbs- und Ersatzeinkommen des Kindes, selbständige Veranlagung (Teil 1/2) | S. 8 | Erwerbs- und Ersatzeinkommen versteuert das Kind selbst; AHV-Halbwaisenrente und IV-Kinderrente sind vom rentenberechtigten Elternteil zu versteuern; Kinder werden ab der Periode der Volljährigkeit selbständig veranlagt. |
+| [c0016](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0016.md) | Ziff. 3 Erwerbs- und Ersatzeinkommen des Kindes, selbständige Veranlagung (Teil 2/2) | S. 8 |  |
+| [c0017](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0017.md) | Ziff. 4 Eingetragene Partnerschaft – Gleichstellung mit Ehepaaren | S. 8 | Registrierte gleichgeschlechtliche Paare sind seit 1. Januar 2007 bei der direkten Bundessteuer den Ehepaaren gleichgestellt (Zusammenrechnung, Verheiratetentarif/Elterntarif). |
+| [c0018](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0018.md) | Ziff. 4 Unterhaltsleistungen und Steuernachfolge bei eingetragener Partnerschaft | S. 8–9 | Art. 9 Abs. 1bis DBG stellt Unterhaltsbeiträge bei registrierter Partnerschaft und deren Auflösung explizit den Ehegatten gleich; Haftung des überlebenden Partners analog (Art. 12 Abs. 3 DBG). |
+| [c0019](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0019.md) | Ziff. 5 Steuernachfolge des überlebenden Ehegatten – Erbenhaftung (Teil 1/2) | S. 9 | Erben treten in die Steuerpflichten des Erblassers ein und haften solidarisch bis zur Höhe ihrer Erbteile (Art. 12 Abs. 1 DBG), der überlebende Ehegatte zusätzlich mit güterrechtlichen Ansprüchen über die gesetzliche Hälfte hinaus. |
+| [c0020](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0020.md) | Ziff. 5 Steuernachfolge des überlebenden Ehegatten – Erbenhaftung (Teil 2/2) | S. 9 |  |
+| [c0021](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0021.md) | Ziff. 6.1–6.2.1 Solidarhaftung der Ehegatten und Wegfall bei Zahlungsunfähigkeit (Teil 1/2) | S. 9–10 | Ehegatten in ungetrennter Ehe haften solidarisch für die Gesamtsteuer (Art. 13 Abs. 1 DBG); die Solidarhaftung entfällt bei Zahlungsunfähigkeit eines Ehegatten, Beweislast beim sich Berufenden. |
+| [c0022](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0022.md) | Ziff. 6.1–6.2.1 Solidarhaftung der Ehegatten und Wegfall bei Zahlungsunfähigkeit (Teil 2/2) | S. 9–10 |  |
+| [c0023](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0023.md) | Ziff. 6.2.2–6.2.3 Wegfall der Solidarhaftung bei Trennung und Tod | S. 10 | Bei rechtlicher oder tatsächlicher Trennung entfällt die Solidarhaftung auch für bestehende Steuerforderungen; beim Tod haftet der überlebende Ehegatte nur noch für seinen Anteil. |
+| [c0024](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0024.md) | Ziff. 6.2.4 Anteilsmässige Haftung der Ehegatten | S. 10 | Jeder Ehegatte haftet nur für seinen Anteil an der Gesamtsteuer, bemessen nach dem Verhältnis seines steuerbaren Einkommens zum gesamten ehelichen steuerbaren Einkommen, festgestellt in einer Haftungsverfügung. |
+| [c0025](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0025.md) | Ziff. 6.2.5 Haftung für die Steuer auf dem Kindereinkommen | S. 10–11 | Für die Steuer auf dem Kindereinkommen haften die verheirateten Eltern solidarisch; diese Solidarhaftung entfällt bei Zahlungsunfähigkeit eines Ehegatten nicht. |
+| [c0026](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0026.md) | Ziff. 6.2.5 Haftung bei getrennten Eltern und Haftung der Kinder | S. 11 | Bei getrennten Eltern haftet für künftige Steuerschulden auf dem Kindereinkommen nur der Elternteil mit Sorge bzw. Obhut; Kinder unter elterlicher Sorge haften solidarisch bis zu ihrem Anteil an der Gesamtsteuer. |
+| [c0027](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0027.md) | Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 1/3) | S. 11–12 | Ungetrennten Ehepaaren steht der doppelte Abzug (von Rundung abgesehen) zu; ohne Beiträge an 2. Säule/3a erhöhen sich die Ansätze um die Hälfte, plus Zuschlag pro Kind und unterstützte Person (Art. 33 Abs. 1 Bst. g, 1bis DBG). |
+| [c0028](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0028.md) | Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 2/3) | S. 11–12 |  |
+| [c0029](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0029.md) | Ziff. 7 Versicherungsprämien und Sparkapitalzinsen – Abzugshöhe bei Ehepaaren (Teil 3/3) | S. 11–12 |  |
+| [c0030](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0030.md) | Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 1/3) | S. 12 | Der Versicherungsabzug für das Kind ist an den Kinderabzug gekoppelt: bei gemeinsamer Sorge ohne Unterhaltsbeiträge je der halbe Abzug, bei volljährigem Kind in Ausbildung der unterhaltsleistende Elternteil. |
+| [c0031](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0031.md) | Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 2/3) | S. 12 |  |
+| [c0032](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0032.md) | Ziff. 7 Versicherungs- und Sparzinsenabzug für Kinder – Zuteilung (Teil 3/3) | S. 12 |  |
+| [c0033](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0033.md) | Ziff. 7 Prämienverbilligung mindert den Versicherungsabzug | S. 12 | Erhaltene Prämienverbilligungen nach Art. 65 ff. KVG sind aufwandmindernd zu berücksichtigen; abziehbar sind nur die tatsächlich selbst getragenen Prämien. |
+| [c0034](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0034.md) | Ziff. 8.1 Kinderdrittbetreuungskostenabzug – Allgemeines | S. 12 | Seit Steuerjahr 2011 ist bei der direkten Bundessteuer ein Abzug für Kinderdrittbetreuungskosten möglich, als anorganischer Abzug auf einen Maximalbetrag pro Kind und Jahr beschränkt. |
+| [c0035](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0035.md) | Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 1/2) | S. 12–13 | Abzug nur für Kinder, die das 14. Altersjahr noch nicht vollendet haben, und nur für Steuerpflichtige im gleichen Haushalt, die für den Unterhalt sorgen; auch für Stief- und Pflegekinder. |
+| [c0036](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0036.md) | Ziff. 8.2 Kinder, für die der Drittbetreuungsabzug möglich ist (bis 14. Altersjahr) (Teil 2/2) | S. 12–13 |  |
+| [c0037](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0037.md) | Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 1/2) | S. 13 | Abzug nur, wenn die Eigenbetreuung wegen Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit mit Betreuungsunfähigkeit nicht möglich war; Kurse zur Wiedereingliederung gelten als Erwerbstätigkeit, Freizeitkurse nicht. |
+| [c0038](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0038.md) | Ziff. 8.3 Erwerbstätigkeit und Ausbildung als Voraussetzung (Teil 2/2) | S. 13 |  |
+| [c0039](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0039.md) | Ziff. 8.3 Erwerbsunfähigkeit (Art. 7 ATSG) | S. 13 | Erwerbsunfähigkeit richtet sich nach ATSG; zusätzlich muss die steuerpflichtige Person aufgrund der Beeinträchtigung die Kinderbetreuung nicht selber wahrnehmen können. |
+| [c0040](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0040.md) | Ziff. 8.3 Behinderungsbedingte Drittbetreuung – Maximum CHF 10'100 | S. 13–14 | Kinderdrittbetreuungskosten bis maximal 10'100 Franken werden über den Drittbetreuungsabzug berücksichtigt; als behinderungsbedingte Kosten (Art. 33 Abs. 1 Bst. hbis DBG) nur der übersteigende Teil. |
+| [c0041](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0041.md) | Ziff. 8.4.1–8.4.2 Anspruchsberechtigung – Allgemeines, verheiratete Paare | S. 14 | Ehepaare können die nachgewiesenen Kosten bis zum Maximalbetrag abziehen, wenn beide gleichzeitig erwerbstätig, in Ausbildung oder erwerbs- und betreuungsunfähig sind. |
+| [c0042](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0042.md) | Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100 | S. 14–15 | Bei gemeinsamer elterlicher Sorge kann jeder unverheiratete Elternteil maximal 5'050 Franken abziehen; übersteigen die Kosten beider zusammen 10'100 Franken, werden sie im Verhältnis gekürzt. |
+| [c0043](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0043.md) | Ziff. 8.4.3 Beispiel Kinderdrittbetreuungskosten (6'000 / 9'000 / Max. 10'100) | S. 15 | Beispiel: Kosten Elternteil 1 6'000 und Elternteil 2 9'000 (Total 15'000), Maximalbetrag 10'100: Abzug 4'040 bzw. 6'060, total 10'100. |
+| [c0044](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0044.md) | Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 1/2) | S. 15 | Bei getrennten oder geschiedenen Eltern zieht grundsätzlich der mit dem Kind lebende Elternteil ab; bei alternierender Obhut je max. 5'050 Franken für Kosten während seiner Obhutszeit. |
+| [c0045](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0045.md) | Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 2/2) | S. 15 |  |
+| [c0046](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0046.md) | Ziff. 8.5 Abzugsfähige Kosten – Krippe, Tagesmutter, Internat | S. 15–16 | Abziehbar sind nachgewiesene Kosten für die Betreuung während der tatsächlichen Arbeits-/Ausbildungszeit (Krippen, Horte, Tagesmütter); Verpflegung und Unterhalt sind nicht abziehbare Lebenshaltungskosten. |
+| [c0047](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0047.md) | Ziff. 8.5 Nicht abzugsfähig – Haushaltshilfe, Schulgeld, Babysitting, Freizeit | S. 16 | Nicht abzugsfähig sind Eigenbetreuung, Schulgelder, Babysitting am Abend und Freizeitbetreuung; bei Haushaltshilfe und Internat nur der Betreuungsanteil. |
+| [c0048](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0048.md) | Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 1/3) | S. 16–17 | Die steuerpflichtige Person muss Kosten, betreuende Personen und den Grund der Drittbetreuung belegen; bei Selbständigen sind die Kosten auf dem Privatkonto und nicht in der Geschäftsbuchhaltung zu verbuchen. |
+| [c0049](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0049.md) | Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 2/3) | S. 16–17 |  |
+| [c0050](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0050.md) | Ziff. 8.6 Nachweispflicht für Drittbetreuungskosten (Teil 3/3) | S. 16–17 |  |
+| [c0051](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0051.md) | Ziff. 9.1 Zweiverdienerabzug – Voraussetzungen und Betrag (8'100 bis 13'400) | S. 17 | Vom niedrigeren Erwerbseinkommen werden 50 Prozent abgezogen, mindestens 8'100 und höchstens 13'400 Franken; Voraussetzung: ungetrennte Ehe und beide erzielen Erwerbseinkommen. |
+| [c0052](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0052.md) | Ziff. 9.1 Zweiverdienerabzug bei Mitarbeit im Betrieb des Ehegatten | S. 17 | Der Abzug wird auch bei erheblicher Mitarbeit im Beruf oder Geschäft des Ehegatten gewährt, wenn sie regelmässig und beträchtlich ist und einer Drittperson mindestens ein Lohn in Höhe des Abzuges zu zahlen wäre. |
+| [c0053](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0053.md) | Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 1/2) | S. 17–18 | Erwerbseinkommen ist Bruttolohn abzüglich Gewinnungskosten, AHV/IV/EO/ALV, 2. Säule, Säule 3a und NBU; Erwerbsausfallentschädigungen sind gleichgestellt, Renten und Vermögensertrag nicht. |
+| [c0054](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0054.md) | Ziff. 9.2 Definition Erwerbseinkommen für den Zweiverdienerabzug (Teil 2/2) | S. 17–18 |  |
+| [c0055](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0055.md) | Ziff. 9.3 Mitarbeit im Beruf oder Betrieb – hälftige Zurechnung | S. 18 | Bei erheblicher Mitarbeit wird jedem Ehegatten grundsätzlich die Hälfte des gemeinsamen Erwerbseinkommens zugerechnet; der Prozentabzug wird auf dem niedrigeren Erwerbseinkommen berechnet. |
+| [c0056](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0056.md) | Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung (Teil 1/2) | S. 18 | Bei gemeinsam Selbständigerwerbenden wird das Einkommen nach Abzug der 3a-Prämien und Vorsorgebeiträge hälftig aufgeteilt; Abzug 50 Prozent, mind. 8'100, höchstens 13'400 Franken; bei Verlust kein Abzug. |
+| [c0057](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0057.md) | Ziff. 9.3 Gemeinsam selbständig erwerbende Ehepaare – Berechnung (Teil 2/2) | S. 18 |  |
+| [c0058](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0058.md) | Ziff. 9.4 Berechnung des Zweiverdienerabzugs (Schwellen 8'100 / 16'200 / 26'800) | S. 18–19 | Unter 8'100 nur das Zweiteinkommen; zwischen 8'100 und 16'200 gilt 8'100; über 16'200 die Hälfte; ab 26'800 Netto-Zweiteinkommen ist der Maximalabzug von 13'400 erreicht; Teilzeit kürzt nicht. |
+| [c0059](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0059.md) | Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 1/2) | S. 19 | Ein ganzer Kinderabzug pro Kind für minderjährige oder in Ausbildung stehende Kinder bei Kindesverhältnis und Unterhaltsleistung; Stichtag Ende Steuerperiode; Pflegeeltern erhalten keinen Kinderabzug. |
+| [c0060](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0060.md) | Ziff. 10.1 Kinderabzug – Grundsatz, Stichtag, Unterhalt (Teil 2/2) | S. 19 |  |
+| [c0061](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0061.md) | Ziff. 10.1 Anteilsmässiger Kinderabzug bei beschränkter Steuerpflicht; Fn. 2 Einkommensbegriffe | S. 19–20 | Bei beschränkter Steuerpflicht oder nicht steuerbarem Auslandeinkommen wird der Kinderabzug im Verhältnis von schweizerischem Reineinkommen zum gesamten Reineinkommen gewährt; Fussnote erläutert Brutto-/Netto-/Reineinkommen. |
+| [c0062](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0062.md) | Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern (Teil 1/2) | S. 20 | Bei getrennten Eltern mit gemeinsamer Sorge kann jeder den halben Kinderabzug beanspruchen, sofern keine Unterhaltsbeiträge abgezogen werden; wird das Kind im Jahr volljährig ohne Ausbildung, entfällt der Abzug. |
+| [c0063](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0063.md) | Ziff. 10.2 Kinderabzug für minderjährige Kinder – getrennte Eltern (Teil 2/2) | S. 20 |  |
+| [c0064](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0064.md) | Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen (Teil 1/2) | S. 20 | Der Kinderabzug für volljährige Kinder in Ausbildung setzt Beiträge mindestens in Höhe des Sozialabzugs voraus und dass das Kind tatsächlich auf den Unterhalt angewiesen ist, nicht bei selbständigem Lebensunterhalt. |
+| [c0065](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0065.md) | Ziff. 10.3 Kinderabzug für volljährige Kinder in Ausbildung – Voraussetzungen (Teil 2/2) | S. 20 |  |
+| [c0066](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0066.md) | Ziff. 10.3 Erstausbildung, Zweitausbildung, Unterbruch, Weiterbildung | S. 20–21 | Unter Ausbildung ist die berufliche Erstausbildung zu verstehen; Zweitausbildung bei sachlichen Gründen, vorübergehender Unterbruch unschädlich, Weiterbildung und reine Auslandaufenthalte begründen keinen Abzug. |
+| [c0067](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0067.md) | Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 1/3) | S. 21 | Unterstützungsleistungen an erwerbsunfähige oder beschränkt erwerbsfähige Personen sind abziehbar, wenn sie mindestens den Betrag des Unterstützungsabzugs erreichen, unentgeltlich erfolgen und die Person objektiv bedürftig ist. |
+| [c0068](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0068.md) | Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/3) | S. 21 |  |
+| [c0069](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0069.md) | Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 3/3) | S. 21 |  |
+| [c0070](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0070.md) | Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 1/3) | S. 21–22 | Kein Abzug für den gemeinsam veranlagten Ehegatten und nicht neben dem Kinderabzug derselben leistenden Person; bei getrennten Eltern können Kinderabzug und Unterstützungsabzug auf die Elternteile verteilt werden. |
+| [c0071](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0071.md) | Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 2/3) | S. 21–22 |  |
+| [c0072](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0072.md) | Ziff. 11 Unterstützungsabzug – Ausschlüsse, Kumulationsverbot, getrennte Eltern (Teil 3/3) | S. 21–22 |  |
+| [c0073](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0073.md) | Ziff. 12 Verheiratetenabzug | S. 22 | Seit 1. Januar 2008 fixer Sozialabzug pro Ehepaar bei ungetrennter Ehe am Stichtag; bei beschränkter Steuerpflicht anteilsmässig nach Verhältnis des schweizerischen zum gesamten Reineinkommen. |
+| [c0074](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0074.md) | Ziff. 13.1 Tarife – Grundsatz und Kapitalleistungen aus Vorsorge | S. 22–23 | Drei Tarife nach Art. 36 DBG; Kapitalleistungen aus Vorsorge werden zu einem Fünftel der ordentlichen Tarife besteuert, der Abzug vom Steuerbetrag pro Kind gilt dort nicht. |
+| [c0075](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0075.md) | Ziff. 13.2–13.3 Grundtarif und Verheiratetentarif – Anwendungsbereich | S. 23 | Der Grundtarif ist Auffangtarif (Ledige, Verwitwete, Getrennte, Konkubinatspaare ohne Kinder); der Verheiratetentarif gilt für ungetrennt Verheiratete ohne Kinder oder unterstützungsbedürftige Personen im Haushalt. |
+| [c0076](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0076.md) | Ziff. 13.4.1 Elterntarif – Aufbau (Abzug CHF 251 pro Kind) | S. 23 | Der Elterntarif besteht aus dem Verheiratetentarif und einem Abzug vom Steuerbetrag von maximal 251 Franken pro Kind oder unterstützungsbedürftiger Person; er ist ein Tarif und kein Sozialabzug. |
+| [c0077](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0077.md) | Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 1/3) | S. 23–24 | Elterntarif nur bei Zusammenleben im gleichen Haushalt und Bestreiten des Unterhalts zur Hauptsache; er wird nur einer Person zugewiesen; bei volljährigen Kindern nur bei Wohnsitz bei den Eltern (Wochenaufenthalt genügt). |
+| [c0078](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0078.md) | Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 2/3) | S. 23–24 |  |
+| [c0079](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0079.md) | Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 3/3) | S. 23–24 |  |
+| [c0080](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0080.md) | Ziff. 13.4.2 Elterntarif bei minderjährigen Kindern – Grundsatz | S. 24 | Den Elterntarif erhält bei minderjährigen Kindern der Elternteil, der mehr als die Hälfte der Unterhaltskosten übernimmt; bei geltend gemachten Unterhaltszahlungen der Empfänger. |
+| [c0081](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0081.md) | Ziff. 13.4.2 Elterntarif – Ehepaare und getrennt lebende Eltern mit minderjährigem Kind | S. 24–25 | Bei gemeinsamer Sorge erhält der Empfänger der Unterhaltszahlungen den Elterntarif; ohne Zahlungen der Elternteil, der mit dem Kind lebt, bei alternierender Obhut der mit dem höheren Reineinkommen. |
+| [c0082](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0082.md) | Ziff. 13.4.2 Elterntarif – Konkubinatseltern mit minderjährigem Kind | S. 25 | Konkubinatseltern: ohne gemeinsame Sorge erhält der Elternteil mit Sorge den Elterntarif; bei gemeinsamer Sorge der Unterhaltsempfänger, sonst der Elternteil mit dem höheren Einkommen. |
+| [c0083](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0083.md) | Ziff. 13.4.3 Elterntarif bei volljährigen Kindern in Ausbildung – Voraussetzungen | S. 25 | Der Elterntarif wird in Analogie zum Kinderabzug nur gewährt, wenn das volljährige Kind in Erstausbildung tatsächlich auf den Unterhalt angewiesen ist und der Anspruchsteller hauptsächlich dafür aufkommt. |
+| [c0084](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0084.md) | Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 1/2) | S. 25–26 | Bei getrennten Eltern erhält der mit dem Kind zusammenlebende Elternteil den Elterntarif; bei Konkubinatseltern der Elternteil mit höheren Leistungen, der andere ggf. den Unterstützungsabzug. |
+| [c0085](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0085.md) | Ziff. 13.4.3 Elterntarif – Ehepaare, getrennte und unverheiratete Eltern mit volljährigem Kind (Teil 2/2) | S. 25–26 |  |
+| [c0086](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0086.md) | Ziff. 13.4.4–13.4.5 Elterntarif bei unterstützungsbedürftigen Personen; Stichtagsprinzip | S. 26 | Der Elterntarif gilt auch bei Zusammenleben mit unterstützungsbedürftigen Personen, wenn die Voraussetzungen des Unterstützungsabzugs erfüllt sind; massgebend ist das Stichtagsprinzip am Ende der Steuerperiode. |
+| [c0087](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0087.md) | Ziff. 13.4.6 Unterjährige Steuerpflicht – Beispiel Zuzug aus dem Ausland | S. 26–27 | Der Abzug von 251 Franken je Kind wird anteilsmässig nach Verhältnis des steuerbaren zum satzbestimmenden Einkommen gewährt; Beispiel: 146'000 / 250'000, Abzug 293.15, geschuldete Steuer 10'894.85. |
+| [c0088](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0088.md) | Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 1/2) | S. 27–28 | Bei teilweiser Steuerpflicht ermässigt sich der Steuerbetrag nur um den anteiligen Abzug von 251 Franken je Kind; Beispiel: 20'000 / 250'000, Abzug 40.15, geschuldete Steuer 1'492.45. |
+| [c0089](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0089.md) | Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 2/2) | S. 27–28 |  |
+| [c0090](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0090.md) | Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif | S. 28 | Bei Besteuerung nach dem Aufwand kommt der Elterntarif nicht zur Anwendung; bei der Quellensteuer ist der Elterntarif als Abzug vom Steuerbetrag in die Tarife eingerechnet. |
+| [c0091](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0091.md) | Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel (Teil 1/2) | S. 28–29 | Der Steuersatz Bund für die pauschale Steueranrechnung ist nach Abzug von 251 Franken je Kind zu berechnen (Beispiel 1.466 %); fällt keine Bundessteuer an, ist die Anrechnung auf zwei Drittel der nicht rückforderbaren Quellensteuern begrenzt. |
+| [c0092](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0092.md) | Ziff. 13.4.10 Pauschale Steueranrechnung und Elterntarif – Beispiel (Teil 2/2) | S. 28–29 |  |
+| [c0093](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0093.md) | Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif | S. 29–30 | Kapitalleistungen aus Vorsorge werden mit voller Jahressteuer zu einem Fünftel der Tarife nach Art. 36 DBG besteuert; Alleinerziehende und Verheiratete mit Kindern zum Verheiratetentarif, ohne Abzug pro Kind. |
+| [c0094](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0094.md) | Ziff. 13.4.12 Übriger Liquidationsgewinn (Art. 37b DBG) | S. 30 | Bei Geschäftsaufgabe nach dem 55. Altersjahr oder wegen Invalidität gilt für die stillen Reserven der letzten zwei Geschäftsjahre ein Satz von einem Fünftel, mindestens 2 Prozent; kein Elterntarif-Abzug. |
+| [c0095](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0095.md) | Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 1/2) | S. 30 | Nachehelicher Unterhalt erfolgt grundsätzlich als Rente (Art. 125/126 ZGB); bei Getrenntleben richtet sich die Unterhaltspflicht nach Art. 163 ff. und 176 ZGB. |
+| [c0096](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0096.md) | Ziff. 14 Einleitung; 14.1.1 Nachehelicher Unterhalt – zivilrechtliche Aspekte (Teil 2/2) | S. 30 |  |
+| [c0097](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0097.md) | Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 1/2) | S. 30–31 | Unterhaltsbeiträge an den geschiedenen oder getrennt lebenden Ehegatten sind beim Leistenden abziehbar und beim Empfänger steuerbar; als Kapitalleistung gezahlt sind sie weder abziehbar noch steuerbar. |
+| [c0098](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0098.md) | Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 2/2) | S. 30–31 |  |
+| [c0099](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0099.md) | Ziff. 14.1.2 Güterrechtliche Leistungen, Leibrenten (40 %) und andere Unterstützungspflichten | S. 31 | Güterrechtliche Leistungen sind steuerfrei und nicht abziehbar; Leibrenten werden beim Empfänger zu 40 % besteuert und beim Schuldner zu 40 % abgezogen; Leistungen an Verwandte (Art. 328 ZGB) sind nicht abzugsfähig. |
+| [c0100](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0100.md) | Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 1/3) | S. 31–32 | Die gemeinsame elterliche Sorge besteht bei verheirateten Eltern fort, kann unverheirateten Eltern übertragen werden (Art. 298a ZGB) und bei Scheidung auf gemeinsamen Antrag belassen werden (Art. 133 Abs. 3 ZGB). |
+| [c0101](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0101.md) | Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 2/3) | S. 31–32 |  |
+| [c0102](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0102.md) | Ziff. 14.2.1 Unterhaltszahlungen für das Kind – zivilrechtliche Aspekte (elterliche Sorge) (Teil 3/3) | S. 31–32 |  |
+| [c0103](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0103.md) | Ziff. 14.2.2 Kinderalimente – Besteuerung beim Empfänger, Abzug beim Leistenden | S. 32 | Unterhaltsbeiträge für minderjährige Kinder sind vom Empfänger voll zu versteuern und vom Leistenden voll abziehbar, aber nur familienrechtlich geschuldete (nicht freiwillige) und effektiv bezahlte. |
+| [c0104](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0104.md) | Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder | S. 32 | Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind steuerfrei (Art. 24 Bst. e DBG) und beim Leistenden nicht abziehbar (Art. 34 Bst. a DBG); Kapitalleistungen sind weder abziehbar noch steuerbar. |
+| [c0105](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0105.md) | Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt | S. 32 | Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100). |
+| [c0106](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0106.md) | Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Abzüge | S. 32–33 | Abzüge: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100). |
+| [c0107](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0107.md) | Ziff. 14.3 Getrennte/geschiedene/unverheiratete Eltern (2 Haushalte), minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhalt – Tarife | S. 33 | Tarifzuteilung: Der Elternteil mit Sorge und Unterhaltsempfang erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 bei alternierender Obhut (Total 10'100). |
+| [c0108](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0108.md) | Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen | S. 33 | Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100). |
+| [c0109](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0109.md) | Ziff. 14.4 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife | S. 33 | Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug; Elterntarif für den Elternteil, der mit dem Kind lebt bzw. bei alternierender Obhut hauptsächlich aufkommt (in der Regel höheres Einkommen); Drittbetreuung je max. 5'050 (Total 10'100). |
+| [c0110](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0110.md) | Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen | S. 33–34 | Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100). |
+| [c0111](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0111.md) | Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge | S. 34 | Abzüge: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100). |
+| [c0112](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0112.md) | Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife | S. 34 | Tarifzuteilung: Der Unterhaltsempfänger versteuert die Alimente, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der Zahlende zieht die Alimente ab und wird zum Grundtarif besteuert; Drittbetreuung je max. 5'050 (Total 10'100). |
+| [c0113](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0113.md) | Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen | S. 34 | Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat. |
+| [c0114](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0114.md) | Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen – Tarife | S. 34 | Tarifzuteilung: Der Elternteil mit elterlicher Sorge erhält Kinderabzug, Versicherungsabzug, Drittbetreuungsabzug und Elterntarif, der andere Grundtarif; aus Billigkeit ggf. der unterhaltende Elternteil, wenn der Sorgeberechtigte keine Einkünfte hat. |
+| [c0115](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0115.md) | Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen | S. 34–35 | Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert. |
+| [c0116](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0116.md) | Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge | S. 35 | Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert. |
+| [c0117](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0117.md) | Ziff. 14.7 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, mit Unterhaltszahlungen – Tarife | S. 35 | Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100); der Zahlende wird zum Grundtarif besteuert. |
+| [c0118](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0118.md) | Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen | S. 35 | Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen). |
+| [c0119](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0119.md) | Ziff. 14.8 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, keine Unterhaltszahlungen – Tarife | S. 35 | Tarifzuteilung: Jeder Elternteil erhält den halben Kinder- und Versicherungsabzug und kann max. 5'050 Drittbetreuung abziehen; Elterntarif für den Elternteil, der hauptsächlich aufkommt (in der Regel mit höherem Einkommen). |
+| [c0120](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0120.md) | Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen | S. 35 | Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100). |
+| [c0121](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0121.md) | Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Abzüge | S. 35–36 | Abzüge: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100). |
+| [c0122](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0122.md) | Ziff. 14.9 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen – Tarife | S. 36 | Tarifzuteilung: Der Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif, der Zahlende Grundtarif; jeder Elternteil kann max. 5'050 Franken Drittbetreuung abziehen (Total 10'100). |
+| [c0123](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0123.md) | Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen | S. 36 | Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt. |
+| [c0124](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0124.md) | Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Abzüge | S. 36 | Abzüge: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt. |
+| [c0125](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0125.md) | Ziff. 14.10 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, mit Unterhaltszahlungen – Tarife | S. 36 | Tarifzuteilung: Unterhaltsbeiträge an das volljährige Kind sind steuerfrei und nicht abziehbar; der leistende Elternteil (bei beiden: höhere Leistung) erhält den Kinderabzug, der andere ggf. den Unterstützungsabzug; Elterntarif für den Elternteil, bei dem das Kind lebt. |
+| [c0126](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0126.md) | Ziff. 14.11 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung bei einem Elternteil, keine Unterhaltszahlungen | S. 36–38 | Der Elternteil, bei dem das Kind lebt und dessen Unterhalt er zur Hauptsache bestreitet, erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Elternteil Grundtarif. |
+| [c0127](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0127.md) | Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 1/3) | S. 38 | Bei Wohnsitzverlegung des Kindes werden beide Elternteile zum Grundtarif besteuert; Kinderabzug für den Leistenden mit höheren Leistungen, der andere ggf. Unterstützungsabzug. |
+| [c0128](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0128.md) | Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 2/3) | S. 38 |  |
+| [c0129](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0129.md) | Ziff. 14.12 Getrennte Eltern (2 Haushalte), volljähriges Kind in Ausbildung mit eigenem Wohnsitz, mit Unterhaltszahlungen (Teil 3/3) | S. 38 |  |
+| [c0130](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0130.md) | Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen | S. 38 | Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert. |
+| [c0131](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0131.md) | Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge | S. 38–39 | Abzüge: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert. |
+| [c0132](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0132.md) | Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Tarife | S. 39 | Tarifzuteilung: Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Elterntarif und den Versicherungsabzug für das Kind; der andere Elternteil wird zum Grundtarif besteuert. |
+| [c0133](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0133.md) | Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen | S. 39 | Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif. |
+| [c0134](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0134.md) | Ziff. 14.14 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, keine Unterhaltszahlungen – Tarife | S. 39 | Tarifzuteilung: Der Elternteil mit den höheren finanziellen Leistungen (in der Regel höheres Einkommen) erhält Kinderabzug, Versicherungsabzug und Elterntarif; der andere Grundtarif. |
+| [c0135](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0135.md) | Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) | S. 39 | Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils. |
+| [c0136](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0136.md) | Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Abzüge | S. 39–40 | Abzüge: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils. |
+| [c0137](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0137.md) | Ziff. 14.15–14.16 Konkubinat, volljähriges Kind mit eigenem Wohnsitz (14.15); nicht gemeinsames Kind (14.16) – Tarife | S. 40 | Tarifzuteilung: Bei volljährigem Kind mit eigenem Wohnsitz werden beide Elternteile zum Grundtarif besteuert; bei nicht gemeinsamem Kind gelten die Regeln der Ziff. 14.3, 14.4, 14.5, 14.10, 14.11 und 14.12 aus Sicht des jeweiligen Elternteils. |
+| [c0138](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0138.md) | Ziff. 15.1 Verfahrensrechtliche Stellung der Ehegatten – Grundsatz | S. 40 | Zusammen veranlagte Ehegatten üben ihre Verfahrensrechte und -pflichten gemeinsam aus (Art. 113 Abs. 1 DBG); rechtzeitige Handlungen nur eines Ehegatten wirken auch für den anderen. |
+| [c0139](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0139.md) | Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 1/2) | S. 40–41 | Die Ehegatten unterschreiben die Steuererklärung gemeinsam; fehlt eine Unterschrift, wird nach erfolgloser Aufforderung eine Vertretung vermutet; wer nicht einverstanden ist, muss innert Frist eine separate Steuererklärung einreichen. |
+| [c0140](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0140.md) | Ziff. 15.2 Steuererklärung – gemeinsame Unterschrift und Vertretungsvermutung (Teil 2/2) | S. 40–41 |  |
+| [c0141](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0141.md) | Ziff. 15.3 Rechtsmittel und andere Eingaben | S. 41 | Rechtsmittel und Eingaben gelten als rechtzeitig, wenn nur ein Ehegatte innert Frist gehandelt hat (Art. 113 Abs. 3 DBG); eine Aufforderung zur Doppelunterschrift ist nicht nötig. |
+| [c0142](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0142.md) | Ziff. 15.4–15.5 Mitteilungen und Vertretung der Ehegatten | S. 41 | Behördliche Mitteilungen gehen an zusammen veranlagte Ehegatten gemeinsam (Art. 113 Abs. 4 DBG), bei Trennung an jeden gesondert (Art. 117 Abs. 4 DBG); vertragliche Vertretung nach Art. 117 DBG. |
+| [c0143](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0143.md) | Ziff. 15.6 Akteneinsichtsrecht der Ehegatten | S. 41–42 | Beide Ehegatten dürfen alle gemeinsamen Steuerakten einsehen (Art. 114 Abs. 2 DBG); ab Trennung ist die Einsicht in die Akten des anderen nicht mehr möglich. |
+| [c0144](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0144.md) | Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten | S. 42 | Der überlebende Ehegatte tritt als Erbe in die Verfahrensrechte und -pflichten des Verstorbenen ein und ist für das gesamte eheliche Einkommen mitwirkungspflichtig. |
+| [c0145](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0145.md) | Ziff. 16.1 Steuerstrafrecht – Verletzung von Verfahrenspflichten | S. 42 | Jeder Ehegatte macht sich nur nach seinem persönlichen Verschulden strafbar (Art. 174 DBG); die Ehegemeinschaft als solche kann nicht gebüsst werden. |
+| [c0146](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0146.md) | Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 1/2) | S. 42–43 | Mit Wirkung ab 1. Januar 2008 wurde die gesetzliche Schuldvermutung zulasten des Ehegatten (Art. 180 Abs. 2 DBG alt) gestrichen. |
+| [c0147](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0147.md) | Ziff. 16.2 Steuerhinterziehung der Ehegatten – Wegfall der Schuldvermutung (Teil 2/2) | S. 42–43 |  |
+| [c0148](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0148.md) | Ziff. 16.2 Busse nur für eigene Steuerfaktoren; Teilnahme (Art. 177 DBG) | S. 43 | Jeder Ehegatte kann nur für die Hinterziehung seiner eigenen Steuerfaktoren gebüsst werden; die Unterzeichnung der gemeinsamen Steuererklärung ist für sich keine Teilnahme an der Hinterziehung des Partners. |
+| [c0149](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0149.md) | Ziff. 17 Inkrafttreten und ersetzte Kreisschreiben | S. 43 | Das Kreisschreiben gilt für die Steuerperiode 2011 und tritt am 1. Januar 2011 in Kraft; es ersetzt die Kreisschreiben Nr. 7, 13 und 14. |
+| [c0150](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0150.md) | Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 1/2) | S. 44–45 | Grafische Übersicht, welche Ziffer (14.3–14.16) für welche Konstellation gilt (minderjährige und volljährige Kinder, 1 oder 2 Haushalte, mit/ohne Unterhaltszahlungen, mit/ohne gemeinsame Sorge). |
+| [c0151](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0151.md) | Beilage 1 Übersicht über die Familienkonstellationen (Entscheidungsbaum) (Teil 2/2) | S. 44–45 |  |
+| [c0152](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0152.md) | Beilage 2 Seite 1/13 Normalfall Ehepaar mit minderjährigem Kind | S. 46 | Ehepaar in ungetrennter Ehe mit minderjährigem Kind: Kinderabzug, Versicherungsabzug und Drittbetreuungskosten von der gemeinsamen Bemessungsgrundlage, gemeinsame Veranlagung mit Elterntarif. |
+| [c0153](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0153.md) | Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/3) | S. 47 | Zuteilung bei 14.3: Alimenten-Empfänger versteuert, Zahlender zieht ab; Kinderabzug und Versicherungsabzug beim Empfänger; Drittbetreuung je max. 5'050 bei alternierender Obhut, Total 10'100; Elterntarif beim Elternteil mit Sorge. |
+| [c0154](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0154.md) | Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/3) | S. 47 |  |
+| [c0155](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0155.md) | Beilage 2 Seite 2/13 Ziff. 14.3 getrennte Eltern, ohne gemeinsame Sorge, mit Unterhalt (Teil 3/3) | S. 47 |  |
+| [c0156](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0156.md) | Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 1/3) | S. 48 | Zuteilung bei 14.4: halber Kinder- und Versicherungsabzug je Elternteil; Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den Elternteil, der zur Hauptsache aufkommt. |
+| [c0157](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0157.md) | Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 2/3) | S. 48 |  |
+| [c0158](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0158.md) | Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 3/3) | S. 48 |  |
+| [c0159](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0159.md) | Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 1/3) | S. 49 | Zuteilung bei 14.5 (gemeinsame Sorge, mit Unterhalt: Empfänger erhält Abzüge und Elterntarif) und 14.6 (Konkubinat, ohne gemeinsame Sorge, ohne Unterhalt: Elternteil mit Sorge erhält Abzüge und Elterntarif). |
+| [c0160](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0160.md) | Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 2/3) | S. 49 |  |
+| [c0161](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0161.md) | Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 3/3) | S. 49 |  |
+| [c0162](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0162.md) | Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 1/3) | S. 50 | Zuteilung bei 14.7: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif. |
+| [c0163](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0163.md) | Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 2/3) | S. 50 |  |
+| [c0164](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0164.md) | Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 3/3) | S. 50 |  |
+| [c0165](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0165.md) | Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 1/3) | S. 51 | Zuteilung bei 14.8: halber Kinder- und Versicherungsabzug je Elternteil, Drittbetreuung je max. 5'050 (Total 10'100); Elterntarif für den hauptsächlich aufkommenden Elternteil (höheres Einkommen). |
+| [c0166](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0166.md) | Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 2/3) | S. 51 |  |
+| [c0167](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0167.md) | Beilage 2 Seite 6/13 Ziff. 14.8 Konkubinat, gemeinsame Sorge, ohne Unterhalt (Teil 3/3) | S. 51 |  |
+| [c0168](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0168.md) | Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 1/3) | S. 52 | Zuteilung bei 14.9: Unterhaltsempfänger erhält Kinderabzug, Versicherungsabzug und Elterntarif; Drittbetreuung je max. 5'050 (Total 10'100); Zahlender Grundtarif. |
+| [c0169](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0169.md) | Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 2/3) | S. 52 |  |
+| [c0170](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0170.md) | Beilage 2 Seite 7/13 Ziff. 14.9 Konkubinat, gemeinsame Sorge, mit Unterhalt (Teil 3/3) | S. 52 |  |
+| [c0171](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0171.md) | Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 1/4) | S. 53 | Bei volljährigem Kind in Erstausbildung nur bei fehlendem selbständigem Einkommen Abzüge; Elterntarif nur bei Wohnsitz bei den Eltern; 14.10: Leistender erhält Kinderabzug, Elternteil mit Kind-Wohnsitz den Elterntarif. |
+| [c0172](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0172.md) | Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 2/4) | S. 53 |  |
+| [c0173](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0173.md) | Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 3/4) | S. 53 |  |
+| [c0174](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0174.md) | Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 4/4) | S. 53 |  |
+| [c0175](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0175.md) | Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 1/3) | S. 54 | 14.11: Elternteil, bei dem das Kind lebt, erhält Kinderabzug, Versicherungsabzug und Elterntarif; 14.12 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif. |
+| [c0176](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0176.md) | Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 2/3) | S. 54 |  |
+| [c0177](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0177.md) | Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 3/3) | S. 54 |  |
+| [c0178](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0178.md) | Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 1/4) | S. 55 | 14.13: Kinderabzugsberechtigter erhält Elterntarif, der andere Grundtarif; 14.14 (keine Unterhaltszahlungen): Elternteil mit höheren finanziellen Leistungen (höheres Einkommen) erhält Abzüge und Elterntarif. |
+| [c0179](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0179.md) | Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 2/4) | S. 55 |  |
+| [c0180](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0180.md) | Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 3/4) | S. 55 |  |
+| [c0181](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0181.md) | Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 4/4) | S. 55 |  |
+| [c0182](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0182.md) | Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 1/3) | S. 56 | 14.15 (Kind mit eigenem Wohnsitz): beide Elternteile Grundtarif; 14.16: für nicht gemeinsame Kinder gelten die Regeln der Fälle 14.3–14.5 und 14.10–14.12. |
+| [c0183](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0183.md) | Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 2/3) | S. 56 |  |
+| [c0184](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0184.md) | Beilage 2 Seite 11/13 Ziff. 14.15 und 14.16 (Teil 3/3) | S. 56 |  |
+| [c0185](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0185.md) | Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht (Teil 1/2) | S. 57 | Stichtag ist der 31.12. bzw. das Ende der Steuerpflicht; bei unterjähriger oder beschränkter Steuerpflicht pro rata temporis bzw. anteilige Reduktion des Steuerbetrags im Verhältnis steuerbares zu satzbestimmendem Einkommen. |
+| [c0186](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0186.md) | Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht (Teil 2/2) | S. 57 |  |
+| [c0187](../../../chunks/bund/dauernd/bund-ks-30/bund-ks-30__c0187.md) | Beilage 2 Seite 13/13 Fussnoten: Beispiel Drittbetreuung und Systematik DBG | S. 58 | Beispiel Drittbetreuung (6'000 / 9'000, Max. 10'100: 4'040 + 6'060) und Systematik der Einkommensbegriffe (Brutto-, Netto-, Reineinkommen, steuerbares Einkommen). |

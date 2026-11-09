@@ -1,0 +1,56 @@
+[
+{
+"id": "ar-form-10-2025__c0001",
+"titel": "Formular 10 – Kinderbetreuungskosten: Abzugsvoraussetzungen und Kostenliste",
+"pfad": [
+"Kinderbetreuungskosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.2",
+"stichworte": [
+"Kinderbetreuung",
+"Kita",
+"Drittbetreuung",
+"Krippe",
+"Tagesmutter",
+"Höchstabzug"
+],
+"positionen": [
+"abzug.drittbetreuung"
+],
+"zusammenfassung": "Nachgewiesene Drittbetreuungskosten pro Kind unter 14 Jahren abziehbar, höchstens Fr. 25’000.–, bei Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "ar-form-10-2025__c0002"
+},
+{
+"id": "ar-form-10-2025__c0002",
+"titel": "Formular 10 – Zusammenzug und Total (Übertrag Ziffer 16.2)",
+"pfad": [
+"Kinderbetreuungskosten",
+"Zusammenzug"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "16.2",
+"stichworte": [
+"Kinderbetreuung Total",
+"Übertrag",
+"Ergänzungsblätter",
+"Verpflegung ausgenommen"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"berechnung.total"
+],
+"zusammenfassung": "Zweite Kostenliste, Zusammenzug und Total der Kinderbetreuungskosten (exkl. Verpflegung), zu übertragen in die Steuererklärung Seite 3 Ziffer 16.2.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "ar-form-10-2025__c0001",
+"nachher": null
+}
+]

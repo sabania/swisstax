@@ -5,20 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 238"
-seiten: "66"
+seiten: "64"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 66
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
 
-<!-- Seite 66 -->
-11.4 Nachträgliche ordentliche Veranlagung auf Antrag bei Ansässigkeit im Ausland
-Eine quellensteuerpflichtige Person mit Ansässigkeit im Ausland kann bis am 31. März des
-auf das Steuerjahr folgenden Jahres bei der zuständigen Steuerbehörde eine nachträgliche
-ordentliche Veranlagung beantragen, wenn im entsprechenden Steuerjahr in der Regel min-
-destens 90 Prozent ihrer weltweiten Bruttoeinkünfte in der Schweiz der Steuer unterliegt
-(Quasi-Ansässigkeit; vgl. Art. 99a Abs. 1 Bst. a DBG i.V.m. Art. 14 QStV). Dieser Antrag
-kann jedes Jahr gestellt werden.
-Des Weiteren kann eine nachträgliche ordentliche Veranlagung beantragt werden, wenn die
-Situation der Person mit derjenigen einer in der Schweiz wohnhaften steuerpflichtigen Per-
-son vergleichbar ist (vgl. Art. 99a Abs. 1 Bst. b DBG). Dies kann insbesondere dann der Fall
-sein, wenn die Person aufgrund niedriger Gesamteinkünfte nach dem Steuerrecht des
+Für die Durchführung der nachträglichen ordentlichen Veranlagung zuständig ist:
+     Für Arbeitnehmer mit Ansässigkeit in der Schweiz: Der Kanton, in dem die steuerpflich-
+    tige Person am Ende der Steuerperiode oder der Steuerpflicht ihren steuerrechtlichen
+    Wohnsitz oder Aufenthalt hatte (vgl. Art. 107 Abs. 4 Bst. a DBG).
+     Für Personen mit Ansässigkeit im Ausland: Der Kanton, in dem der Schuldner der
+    steuerbaren Leistung am Ende der Steuerperiode oder der Steuerpflicht seinen steuer-
+    rechtlichen Wohnsitz oder Aufenthalt bzw. seinen Sitz, eine Betriebsstätte oder die tat-
+    sächliche Verwaltung hatte (vgl. Art. 107 Abs. 4 Bst. b DBG).
+     Für Personen mit Ansässigkeit im Ausland und Wochenaufenthalterstatus in der
+    Schweiz: Der Kanton, in dem die steuerpflichtige Person am Ende der Steuerperiode
+    oder der Steuerpflicht Wochenaufenthalt hatte (vgl. Art. 107 Abs. 4 Bst. c DBG).

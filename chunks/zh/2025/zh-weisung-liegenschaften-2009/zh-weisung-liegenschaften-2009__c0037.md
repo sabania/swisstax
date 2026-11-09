@@ -10,9 +10,4 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
 > ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 15
 
-<!-- Seite 15 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-D. Individuelle Schätzung des Verkehrswerts und des Eigenmietwerts
-   von Liegenschaften
-
-I. Vermögenssteuerwert
+1. 1. 23 - 119   15

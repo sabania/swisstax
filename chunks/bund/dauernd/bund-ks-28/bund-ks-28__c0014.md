@@ -10,13 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 3
 
-2.3.   Übertragung einer Personenunternehmung auf eine juristische Person
-Die gleichzeitige oder nachträgliche Aufnahme einer unselbständigen Erwerbstätigkeit steht
-der privilegierten Besteuerung des Liquidationsgewinnes nicht im Wege. Dies gilt auch für
-den Fall, dass der selbständig Erwerbende seinen Betrieb, den er bisher in der Rechtsform
-einer Personenunternehmung geführt hat, auf eine juristische Person überträgt und in der
-Folge in ein Anstellungsverhältnis mit dieser juristischen Person eintritt. Soweit die Übertra-
-gung nicht steuerneutral erfolgt (Art. 19 Abs. 1 Bst. b DBG) sowie für Vermögenswerte, die
-dabei ins Privatvermögen überführt werden, sind die realisierten stillen Reserven nach Artikel
-37b DBG zu besteuern. Vorbehalten bleibt die Wahl des Steueraufschubes gemäss Artikel
-18a Absatz 1 DBG sowie die Verpachtung nach Artikel 18a Absatz 2 DBG.
+2.2.   Beendigung infolge Invalidität
+Eine Invalidität liegt vor, wenn wegen einer voraussichtlich bleibenden oder während länge-
+rer Zeit dauernden ganzen oder teilweisen Erwerbsunfähigkeit Leistungen gemäss dem
+    3
+Bundesgesetz vom 19. Juni 1959 über die Invalidenversicherung (IVG) ausgerichtet wer-
+den. Unter den Begriff „Leistungen“ fallen mithin nicht nur Renten, sondern auch andere
+Leistungen der IV, wie beispielsweise solche für eine notwendige Umschulung.
+
+Wird als Grund für die Aufgabe der selbständigen Erwerbstätigkeit eine Invalidität geltend
+gemacht, so muss diese kausal zur Aufgabe der selbständigen Tätigkeit führen. Die zustän-
+dige Steuerverwaltung hat dies im Einzelfall zu prüfen. In unklaren Fällen, in denen erst in
+einem gerichtlichen Verfahren geklärt werden muss, ob überhaupt eine Invalidität vorliegt, ist
+mit der Veranlagung zuzuwarten, bis der definitive Entscheid vorliegt.

@@ -10,16 +10,15 @@ qmd: {metadata: {jur: tg, jahre: [2026], typ: wegleitung}}
 ---
 > TG · Steuerjahr 2026 · Kurz-WL TG 2026 · S. 1
 
-    15.5 Mitgliederbeiträge und Spenden an politische Parteien, max. Fr. 10 000 Fr. 10 600
-16.   Berufsorientierte Aus-
-    und Weiterbildung   pro Person   max. Fr. 13 000
-17.   Behinderungs-   gehörlose Personen pauschal   pauschal Fr.   2 500
-    bedingte Kosten   nierenkranke Personen pauschal   pauschal Fr.   2 500
-    Bezügerinnen/Bezüger Hilflosenentschädigung leichten Grades   pauschal Fr.   2 500
-    Bezügerinnen/Bezüger Hilflosenentschädigung mittleren Grades pauschal Fr.   5 000
-    Bezügerinnen/Bezüger Hilflosenentschädigung schweren Grades pauschal Fr.   7 500
-18.   Zweiverdienerabzug   für gemeinsam besteuerte Personen   nur Bund: max. Fr. 14 100
-    (Berechnung siehe Wegleitung)
-23.   Zusätzliche   23.1 Krankheits- und Unfallkosten, Selbstbehalt vom Nettoeinkommen   5%
-    Abzüge   Pauschalabzug lebensnotwendige Diät (z.B. Zöliakie, nicht aber Diabetes) Fr.   2 500
-    23.2 freiwillige Zuwendungen:
+    Kanton: max. Fr. 8 000 oder 20% vom Nettoeinkommen, Selbstbehalt   Fr.   200
+    Bund: max. 20% vom Nettoeinkommen
+25.   Sozialabzüge   Stichtag 31. Dezember   Kanton   Bund
+    Einkommen   25.1 für jedes Kind in Ausbildung mit Jahrgang 2001–2006   Fr. 10 600 Fr.   6 800
+    Kinder und unter-   mit Jahrgang 2007 –2010   Fr. 8 500 Fr.   6 800
+    stützte Personen   für jedes übrige Kind   Fr. 7 400 Fr.   6 800
+    25.2 für jede unterstützte Person   Fr. 2 700 Fr. 6 800
+    Rentnerin/Rentner 25.3 für AHV-Altersrentner, Erwerbsunfähige oder Verwitwete max. Fr. 4 200 kein Abzug
+    Ehe/Partnerschaft 25.4 für gemeinsam besteuerten Personen   kein Abzug Fr.   2 800
+36.   Sozialabzüge   36.1 für gemeinsam besteuerten Personen   Fr. 200 000
+    Vermögen   36.2 für alleinstehende Personen   Fr. 100 000
+    36.3 zusätzlich für jedes minderjährige Kind (Jahrgang 2009 und jüngere)   Fr. 100 000

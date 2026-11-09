@@ -5,26 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 103"
-seiten: "27"
+seiten: "26"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 26
 
-<!-- Seite 27 -->
-    6. Der Arbeitnehmer N. arbeitet bei der K. AG. Er ist im Stundenlohn angestellt und verdient CHF 35.00 pro
-    Stunde. Im Juli 2021 rechnet der Arbeitnehmer für 2 Wochen 75 Arbeitsstunden ab und für die verblei-
-    bende Zeit im Monat Juli 2021 erhält er ein vom Arbeitgeber ausbezahltes Krankentaggeld über Total
-    CHF 2 000.00. Im Weiteren wird ihm für 6 Monate eine Familienzulage über CHF 1 200.00 ausbezahlt.
-    Diese Familienzulage setzt sich zusammen aus der ordentlichen Familienzulage für den Monat Juli 2021
-    sowie einer Nachzahlung von fünf Monaten für die Monate Februar – Juni 2021.
+    ches anhand der betriebsüblichen Arbeitsstunden festzulegen ist.
 
-    Abrechnung   Stunden-   Lohn   Stunden   Faktor   steuerbar   satzbe-
-    lohn   stimmend
+    3. Der Arbeitnehmer G. ist als Reinigungskraft bei der Q. AG im Stundenlohn angestellt. Seine wöchentliche
+    Arbeitszeit beträgt zwischen 16 und 20 Stunden. Im April 2021 arbeitet er während 70 Stunden für die Q.
+    AG. Sein Lohn beträgt CHF 23.00 pro Stunde und wird ihm, nach Auswertung der eingereichten Arbeits-
+    rapporte ausbezahlt. Daneben übt er eine weitere Erwerbstätigkeit zu 50 % im Monatslohn bei der T. AG
+    aus. Dort beträgt sein Lohn CHF 2 400.00 pro Monat. Beide Arbeitgeber haben keine Kenntnis vom Pen-
+    sum beim anderen Arbeitgeber.
 
-    Lohn   35   2 625   75   180   2 625   6 300
+    Arbeitgeber   Stunden-   Lohn   Stunden   Faktor   satzbe-   Satz   Quel-
+    lohn/Pensum   stimmend   len-
+    steuer
 
-    Taggeld   2 000   2 000   -
+    Q. AG   23.00   1 610   70   180   4 140   7.5 %   120.75
 
-    Familienzulage   1 200   1 200   1 200
-
-    Total   5 825   7 500
+    T. AG   50 %   2 400   -   100 %   4 800   9.5 %   228.00

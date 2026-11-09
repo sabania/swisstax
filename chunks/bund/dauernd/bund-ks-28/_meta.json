@@ -162,7 +162,7 @@
 "titel": "KS 28 – Abschnitt 11",
 "pfad": [],
 "seiten": [
-3
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -242,7 +242,7 @@
 "titel": "KS 28 – Abschnitt 16",
 "pfad": [],
 "seiten": [
-4
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -306,7 +306,7 @@
 "titel": "KS 28 – Abschnitt 20",
 "pfad": [],
 "seiten": [
-5
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -386,7 +386,7 @@
 "titel": "KS 28 – Abschnitt 25",
 "pfad": [],
 "seiten": [
-6
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -450,7 +450,7 @@
 "titel": "KS 28 – Abschnitt 29",
 "pfad": [],
 "seiten": [
-7
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -466,7 +466,7 @@
 "titel": "KS 28 – Abschnitt 30",
 "pfad": [],
 "seiten": [
-8
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -514,7 +514,7 @@
 "titel": "KS 28 – Abschnitt 33",
 "pfad": [],
 "seiten": [
-9
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -562,7 +562,7 @@
 "titel": "KS 28 – Abschnitt 36",
 "pfad": [],
 "seiten": [
-10
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -610,9 +610,7 @@
 "titel": "KS 28 – Abschnitt 39",
 "pfad": [],
 "seiten": [
-11,
-12,
-13
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -628,7 +626,7 @@
 "titel": "KS 28 – Abschnitt 40",
 "pfad": [],
 "seiten": [
-14
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -644,7 +642,9 @@
 "titel": "KS 28 – Abschnitt 41",
 "pfad": [],
 "seiten": [
-14
+11,
+12,
+13
 ],
 "artikel": null,
 "ziffer": null,
@@ -676,7 +676,7 @@
 "titel": "KS 28 – Abschnitt 43",
 "pfad": [],
 "seiten": [
-15
+14
 ],
 "artikel": null,
 "ziffer": null,
@@ -692,7 +692,7 @@
 "titel": "KS 28 – Abschnitt 44",
 "pfad": [],
 "seiten": [
-15
+14
 ],
 "artikel": null,
 "ziffer": null,
@@ -740,7 +740,7 @@
 "titel": "KS 28 – Abschnitt 47",
 "pfad": [],
 "seiten": [
-16
+15
 ],
 "artikel": null,
 "ziffer": null,
@@ -756,7 +756,7 @@
 "titel": "KS 28 – Abschnitt 48",
 "pfad": [],
 "seiten": [
-16
+15
 ],
 "artikel": null,
 "ziffer": null,
@@ -772,7 +772,7 @@
 "titel": "KS 28 – Abschnitt 49",
 "pfad": [],
 "seiten": [
-16
+15
 ],
 "artikel": null,
 "ziffer": null,
@@ -804,7 +804,7 @@
 "titel": "KS 28 – Abschnitt 51",
 "pfad": [],
 "seiten": [
-17
+16
 ],
 "artikel": null,
 "ziffer": null,
@@ -820,7 +820,7 @@
 "titel": "KS 28 – Abschnitt 52",
 "pfad": [],
 "seiten": [
-17
+16
 ],
 "artikel": null,
 "ziffer": null,
@@ -836,7 +836,7 @@
 "titel": "KS 28 – Abschnitt 53",
 "pfad": [],
 "seiten": [
-17
+16
 ],
 "artikel": null,
 "ziffer": null,
@@ -852,7 +852,7 @@
 "titel": "KS 28 – Abschnitt 54",
 "pfad": [],
 "seiten": [
-17
+16
 ],
 "artikel": null,
 "ziffer": null,
@@ -884,7 +884,7 @@
 "titel": "KS 28 – Abschnitt 56",
 "pfad": [],
 "seiten": [
-18
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -900,7 +900,7 @@
 "titel": "KS 28 – Abschnitt 57",
 "pfad": [],
 "seiten": [
-18
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -916,7 +916,7 @@
 "titel": "KS 28 – Abschnitt 58",
 "pfad": [],
 "seiten": [
-18
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -932,7 +932,7 @@
 "titel": "KS 28 – Abschnitt 59",
 "pfad": [],
 "seiten": [
-18
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -964,7 +964,7 @@
 "titel": "KS 28 – Abschnitt 61",
 "pfad": [],
 "seiten": [
-19
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -980,7 +980,7 @@
 "titel": "KS 28 – Abschnitt 62",
 "pfad": [],
 "seiten": [
-19
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -996,7 +996,7 @@
 "titel": "KS 28 – Abschnitt 63",
 "pfad": [],
 "seiten": [
-19
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -1028,7 +1028,7 @@
 "titel": "KS 28 – Abschnitt 65",
 "pfad": [],
 "seiten": [
-20
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -1044,7 +1044,7 @@
 "titel": "KS 28 – Abschnitt 66",
 "pfad": [],
 "seiten": [
-20
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -1060,7 +1060,7 @@
 "titel": "KS 28 – Abschnitt 67",
 "pfad": [],
 "seiten": [
-20
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -1108,7 +1108,7 @@
 "titel": "KS 28 – Abschnitt 70",
 "pfad": [],
 "seiten": [
-21
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1124,7 +1124,7 @@
 "titel": "KS 28 – Abschnitt 71",
 "pfad": [],
 "seiten": [
-21
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1140,7 +1140,7 @@
 "titel": "KS 28 – Abschnitt 72",
 "pfad": [],
 "seiten": [
-21
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1156,7 +1156,7 @@
 "titel": "KS 28 – Abschnitt 73",
 "pfad": [],
 "seiten": [
-22
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1172,7 +1172,7 @@
 "titel": "KS 28 – Abschnitt 74",
 "pfad": [],
 "seiten": [
-22
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1188,7 +1188,7 @@
 "titel": "KS 28 – Abschnitt 75",
 "pfad": [],
 "seiten": [
-23
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1204,7 +1204,7 @@
 "titel": "KS 28 – Abschnitt 76",
 "pfad": [],
 "seiten": [
-23
+22
 ],
 "artikel": null,
 "ziffer": null,
@@ -1220,7 +1220,7 @@
 "titel": "KS 28 – Abschnitt 77",
 "pfad": [],
 "seiten": [
-23
+22
 ],
 "artikel": null,
 "ziffer": null,
@@ -1236,7 +1236,7 @@
 "titel": "KS 28 – Abschnitt 78",
 "pfad": [],
 "seiten": [
-24
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1252,7 +1252,7 @@
 "titel": "KS 28 – Abschnitt 79",
 "pfad": [],
 "seiten": [
-24
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1268,7 +1268,7 @@
 "titel": "KS 28 – Abschnitt 80",
 "pfad": [],
 "seiten": [
-24
+23
 ],
 "artikel": null,
 "ziffer": null,
@@ -1300,7 +1300,7 @@
 "titel": "KS 28 – Abschnitt 82",
 "pfad": [],
 "seiten": [
-25
+24
 ],
 "artikel": null,
 "ziffer": null,
@@ -1316,7 +1316,7 @@
 "titel": "KS 28 – Abschnitt 83",
 "pfad": [],
 "seiten": [
-25
+24
 ],
 "artikel": null,
 "ziffer": null,
@@ -1380,7 +1380,7 @@
 "titel": "KS 28 – Abschnitt 87",
 "pfad": [],
 "seiten": [
-26
+25
 ],
 "artikel": null,
 "ziffer": null,

@@ -1,208 +1,332 @@
 [
 {
 "id": "zh-vkp-2024-zstb__c0001",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 1",
-"pfad": [],
-"seiten": [],
+"titel": "Titel, Ingress und § 24 Steuerfreie Einkünfte (Feuerwehrsold, Geldspielgewinne) (Teil 1/2)",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 24"
+],
+"seiten": [
+1
+],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 24",
+"stichworte": [
+"kalte Progression",
+"Milizfeuerwehr",
+"Feuerwehrsold",
+"Lotteriegewinn",
+"Geldspiele",
+"steuerfrei",
+"Spielbank"
+],
+"positionen": [
+"einkommen.lotterie_gewinne",
+"info.steuerfreie_leistungen"
+],
+"zusammenfassung": "Ab 1.1.2024 beträgt der steuerfreie Sold der Milizfeuerwehrleute Fr. 8300 jährlich und die steuerfreie Grenze für einzelne Geldspielgewinne Fr. 1 033 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": null,
 "nachher": "zh-vkp-2024-zstb__c0002"
 },
 {
 "id": "zh-vkp-2024-zstb__c0002",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 2",
-"pfad": [],
+"titel": "Titel, Ingress und § 24 Steuerfreie Einkünfte (Feuerwehrsold, Geldspielgewinne) (Teil 2/2)",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 24"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
+"ziffer": "§ 24",
+"stichworte": [
+"kalte Progression",
+"Milizfeuerwehr",
+"Feuerwehrsold",
+"Lotteriegewinn",
+"Geldspiele",
+"steuerfrei",
+"Spielbank"
+],
+"positionen": [
+"einkommen.lotterie_gewinne",
+"info.steuerfreie_leistungen"
+],
 "zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0001",
 "nachher": "zh-vkp-2024-zstb__c0003"
 },
 {
 "id": "zh-vkp-2024-zstb__c0003",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 3",
-"pfad": [],
+"titel": "§ 26 Berufskosten – Fahrten Wohn-/Arbeitsstätte (Höchstbetrag)",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 26"
+],
 "seiten": [
 1
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 26",
+"stichworte": [
+"Pendlerabzug",
+"Fahrkosten",
+"Arbeitsweg",
+"Berufskosten",
+"ÖV-Abo"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Abzug für Fahrten zwischen Wohn- und Arbeitsstätte bis höchstens Fr. 5200.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0002",
 "nachher": "zh-vkp-2024-zstb__c0004"
 },
 {
 "id": "zh-vkp-2024-zstb__c0004",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 4",
-"pfad": [],
+"titel": "§ 31 Abs. 1 lit. h Parteispenden – Höchstbeträge",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 31"
+],
 "seiten": [
-1
+2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 31 Abs. 1 lit. h",
+"stichworte": [
+"Parteispenden",
+"Mitgliederbeitrag Partei",
+"politische Partei",
+"Zuwendungen"
+],
+"positionen": [
+"abzug.parteispenden"
+],
+"zusammenfassung": "Mitgliederbeiträge und Zuwendungen an politische Parteien bis Fr. 20 600 (ungetrennte Ehe) bzw. Fr. 10 300 (übrige).",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0003",
 "nachher": "zh-vkp-2024-zstb__c0005"
 },
 {
 "id": "zh-vkp-2024-zstb__c0005",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 5",
-"pfad": [],
+"titel": "§ 31 Abs. 1 lit. j, k Drittbetreuung und Weiterbildung – Höchstbeträge",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 31"
+],
 "seiten": [
 2
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 31 Abs. 1 lit. j, k",
+"stichworte": [
+"Kita",
+"Drittbetreuung",
+"Kinderbetreuung",
+"Weiterbildung",
+"Umschulung",
+"Krippe"
+],
+"positionen": [
+"abzug.drittbetreuung",
+"abzug.weiterbildung"
+],
+"zusammenfassung": "Drittbetreuung höchstens Fr. 10 400 je Kind unter 14 Jahren; berufsorientierte Aus- und Weiterbildung bis Fr. 12 400.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0004",
 "nachher": "zh-vkp-2024-zstb__c0006"
 },
 {
 "id": "zh-vkp-2024-zstb__c0006",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 6",
-"pfad": [],
+"titel": "§ 31 Abs. 2, 3 Zweiverdienerabzug und Einsatzkosten Geldspielgewinne",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 31"
+],
 "seiten": [
-2
+2,
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 31 Abs. 2, 3",
+"stichworte": [
+"Zweiverdienerabzug",
+"Mitarbeit Ehegatte",
+"Geldspiele",
+"Einsatzkosten",
+"Spielbank online"
+],
+"positionen": [
+"abzug.zweiverdiener",
+"einkommen.lotterie_gewinne"
+],
+"zusammenfassung": "Zweiverdienerabzug Fr. 6100; Einsatzkosten Geldspielgewinne 5 %, höchstens Fr. 5200, online Spielbank höchstens Fr. 25 800.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0005",
 "nachher": "zh-vkp-2024-zstb__c0007"
 },
 {
 "id": "zh-vkp-2024-zstb__c0007",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 7",
-"pfad": [],
+"titel": "§ 34 Sozialabzüge – Kinderabzug und Unterstützungsabzug",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 34"
+],
 "seiten": [
-2
+3
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 34",
+"stichworte": [
+"Kinderabzug",
+"Unterstützungsabzug",
+"Kind",
+"Sozialabzug",
+"gemeinsame elterliche Sorge"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung"
+],
+"zusammenfassung": "Kinderabzug je Fr. 9300, Unterstützungsabzug je Fr. 2800.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0006",
 "nachher": "zh-vkp-2024-zstb__c0008"
 },
 {
 "id": "zh-vkp-2024-zstb__c0008",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 8",
-"pfad": [],
+"titel": "§ 35 Abs. 1 Einkommenssteuertarif – Grundtarif",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 35"
+],
 "seiten": [
-3
+3,
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 35 Abs. 1",
+"stichworte": [
+"Einkommenssteuertarif",
+"Grundtarif",
+"Steuertarif Alleinstehende",
+"Progression",
+"Tarifstufen"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Grundtarif: 0 % für die ersten Fr. 6 900 bis 13 % für Einkommensteile über Fr. 263 300.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0007",
 "nachher": "zh-vkp-2024-zstb__c0009"
 },
 {
 "id": "zh-vkp-2024-zstb__c0009",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 9",
-"pfad": [],
+"titel": "§ 35 Abs. 2 Einkommenssteuertarif – Verheiratetentarif",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 35"
+],
 "seiten": [
-3
+4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 35 Abs. 2",
+"stichworte": [
+"Verheiratetentarif",
+"Ehepaare",
+"Steuertarif Verheiratete",
+"Alleinerziehende",
+"Tarifstufen"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Verheiratetentarif: 0 % für die ersten Fr. 13 900 bis 13 % für Einkommensteile über Fr. 365 800.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0008",
 "nachher": "zh-vkp-2024-zstb__c0010"
 },
 {
 "id": "zh-vkp-2024-zstb__c0010",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 10",
-"pfad": [],
+"titel": "§ 47 Abs. 1 Vermögenssteuertarif – Grundtarif",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 47"
+],
 "seiten": [
 4
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 47 Abs. 1",
+"stichworte": [
+"Vermögenssteuer",
+"Grundtarif Vermögen",
+"Promille",
+"Steuertarif Vermögen"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Vermögenssteuer Grundtarif: 0 ‰ für die ersten Fr. 80 000 bis 3 ‰ für Vermögensteile über Fr. 3 262 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0009",
 "nachher": "zh-vkp-2024-zstb__c0011"
 },
 {
 "id": "zh-vkp-2024-zstb__c0011",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 11",
-"pfad": [],
+"titel": "§ 47 Abs. 2 Vermögenssteuertarif – Verheiratetentarif",
+"pfad": [
+"Änderung Steuergesetz",
+"§ 47"
+],
 "seiten": [
-4
+4,
+5
 ],
 "artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
+"ziffer": "§ 47 Abs. 2",
+"stichworte": [
+"Vermögenssteuer Verheiratete",
+"Verheiratetentarif Vermögen",
+"Promille",
+"Ehepaare"
+],
+"positionen": [
+"berechnung.total"
+],
+"zusammenfassung": "Vermögenssteuer Verheiratetentarif: 0 ‰ für die ersten Fr. 159 000 bis 3 ‰ für Vermögensteile über Fr. 3 342 000.",
+"chunking": "semantisch (Agent-Plan)",
 "vorher": "zh-vkp-2024-zstb__c0010",
 "nachher": "zh-vkp-2024-zstb__c0012"
 },
 {
 "id": "zh-vkp-2024-zstb__c0012",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 12",
-"pfad": [],
-"seiten": [
-4
+"titel": "Unterschrift, Rechtskraft und Inkrafttreten (1. Januar 2024)",
+"pfad": [
+"Inkrafttreten"
 ],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-vkp-2024-zstb__c0011",
-"nachher": "zh-vkp-2024-zstb__c0013"
-},
-{
-"id": "zh-vkp-2024-zstb__c0013",
-"titel": "ZStB 48.1 (VKP ab 2024) – Abschnitt 13",
-"pfad": [],
 "seiten": [
 5
 ],
 "artikel": null,
 "ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "zh-vkp-2024-zstb__c0012",
+"stichworte": [
+"Inkrafttreten",
+"Rechtskraft",
+"1. Januar 2024",
+"Finanzdirektion"
+],
+"positionen": [],
+"zusammenfassung": "Die Verordnung ist rechtskräftig und tritt am 1. Januar 2024 in Kraft (ABl 2023-07-21).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-vkp-2024-zstb__c0011",
 "nachher": null
 }
 ]

@@ -10,12 +10,9 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
 > ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 4
 
-<!-- Seite 4 -->
-Zürcher Steuerbuch   Nr. 133.1
-
-B. Juristische Personen
-
-I. Steuererklärung 2025 für Staats- und Gemeindesteuern sowie direkte
-Bundessteuer
-
-1. Pflicht zur Abgabe einer Steuererklärung
+Eine Steuererklärung 2026 ist im Kalenderjahr 2026 einzureichen von Steuerpflichtigen, deren
+Steuerpflicht im Kanton im Jahre 2026 endet zufolge
+•   Sitzverlegung ins Ausland;
+•   Abschlusses der Liquidation;
+•   vollständiger Aufgabe des Nebensteuerdomizils (Liegenschaften, Betriebsstätten) durch eine
+    steuerpflichtige juristische Person mit Sitz im Ausland.

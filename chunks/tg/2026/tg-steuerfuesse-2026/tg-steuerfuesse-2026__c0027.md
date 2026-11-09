@@ -10,12 +10,13 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 7
 
-Thundorf   55   100   27 / 16   287.8   2’185   Hohentannen   50   90   25 / 24   273.5   2’234
-Uesslingen-Buch   57   85   24 / 16   272.2   2’553   Kradolf-Schönenberg   55   93   25 / 21   280.2   1’870
-Wagenhausen   59   95   17 / 21   281.2   1’828   Märstetten   55   99   25 / 17   285.0   2’357
-Warth-Weiningen   34   60   20 / 16   221.4   5’922   Schönholzerswilen   58   93   30 / 22   286.6   1’682
-Bezirk Kreuzlingen³   53.7   77.3   257.3   2’888   Sulgen   47   93   25 / 21   272.0   2’048
-Altnau   53   91   25 / 14   272.8   2’435   Weinfelden   55   89   15 / 17   268.8   2’725
-Bottighofen   37   66   9 / 14   223.2   4’783   Wigoltingen   59   100   25 / 22   291.8   2’051
-Ermatingen   40   71   15 / 15   235.0   3’402   Wuppenau   53   93   30 / 27   282.9   1’708
-Gottlieben   47   82   24 / 15   257.7   5’342   Zihlschlacht-Sitterdorf   60   90   25 / 24   283.5   1’946
+Hüttlingen   60   95   30 / 22   291.8   2’137   Bezirk Weinfelden³   55.2   93.3   279.9   2’170
+Hüttwilen   48   89   24 / 16   267.4   3’159   Affeltrangen   53   98   26 / 24   285.1   2’112
+Mammern   52   87   24 / 21   270.5   3’384   Amlikon-Bissegg   65   97   22 / 22   293.0   2’057
+Matzingen   56   95   26 / 19   282.2   2’087   Berg   42   95   21 / 24   268.0   2’204
+Müllheim   48   92   26 / 22   273.3   2’196   Birwinken   57   95   27 / 24   287.2   1’878
+Neunforn   39   90   24 / 16   260.5   3’064   Bischofszell   68   90   28 / 24   292.7   1’866
+Pfyn   60   98   24 / 24   291.0   2’091   Bürglen   52   99   25 / 21   283.0   1’952
+Schlatt   48   93   23 / 18   271.7   2’394   Bussnang   52   99   22 / 22   282.0   2’207
+Steckborn   50   71   21 / 19   250.0   2’814   Erlen   52   96   25 / 21   280.1   2’153
+Stettfurt   48   100   23 / 19   278.6   2’792   Hauptwil-Gottshaus   60   90   28 / 24   284.7   1’905

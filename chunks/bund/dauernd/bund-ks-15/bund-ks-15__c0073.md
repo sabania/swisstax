@@ -4,29 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 73"
-seiten: "18"
+titel: "Anhang III Ziff. 4a Low Exercise Price Options (LEPO) (Teil 1/2)"
+ziffer: "Anh. III 4a"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
-<!-- Seite 18 -->
-    -3-
-
-−   zweite Handänderung (1 Jahr und 2 1/2 Monate oder 441 Tage vor Verfall) :
-    (Fr. 1'000.- + Fr. 20.-) : 1.0561 = Fr. 965.80
-    (76:365)
-    (Fr. 965.80 + Fr. 20.-) : 1.0561   = Fr. 974.65 (innerer Wert der Obligation nach 3
-    Jahren und 9 ½ Monaten)
-
-Steuerbare Einkünfte im Sinne von Art. 20 Abs. 1 Bst. b DBG fallen damit wie folgt an:
-
-−   Fr. 916.55 ./. Fr. 831.50 = Fr. 85.05 beim ersten Investor;
-−   Fr. 974.65 ./. Fr. 916.55 = Fr. 58.10 beim zweiten Investor;
-−   Fr. 1'000.- ./. Fr. 974.65 = Fr. 25.35 beim dritten und letzten Investor.
-
-Die Verrechnungssteuer wird bei Fälligkeit, d.h. am Ende der fünfjährigen Laufzeit, nicht nur
-auf dem fünften Coupon von Fr. 20.-- erhoben, sondern auch auf dem Originaldiskont von
-Fr. 168.50.
-
-Nr. 5
+4   Low Exercise Price Options (LEPO) und Mini-Futures auf Aktien,
+    Edelmetalle und Rohstoffe
+a)   Low Exercise Price Options (LEPO)
+LEPO sind Call-Optionen auf Aktien mit Ausübungspreis sehr nahe bei null. Sie werden des-
+halb auch als atypische, weil im Voraus finanzierte Termingeschäfte aufgefasst (vgl. Kreis-
+schreiben Nr. 15, Ziffer 2.2.3.). Gemäss Praxis der ESTV liegt ein LEPO dann vor, wenn der
+Basiswert im Emissionszeitpunkt zu mindestens 50 Prozent im Voraus finanziert wird, d.h.
+wenn im Zeitpunkt der Emission des LEPO der Ausübungspreis weniger als 50 % des Werts
+des Basiswerts beträgt. LEPO werden auf Diskontbasis emittiert und sehen während ihrer
+Laufzeit keine Zahlungen an den Investor vor. Bei Verfall der LEPO kommt es in der Regel
+zur physischen Lieferung des Basiswertes.

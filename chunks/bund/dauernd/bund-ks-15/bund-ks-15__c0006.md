@@ -4,12 +4,20 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 6"
-seiten: "1"
+titel: "Ziff. 2.1.1 Gewöhnliche Obligationen – steuerrechtlicher Begriff (Teil 2/2)"
+ziffer: "2.1.1"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.1 Obligationen · S. 3
 
-3.5   Klassische Options- und Wandelanleihen .............................................................. 11
-3.6   Produkte mit Geld- oder Titellieferungen (Reverse Convertibles) ........................... 12
-3.7   Negativzinsen ........................................................................................................ 12
+Die Ausgabe und die Rückzahlung erfolgt in der Regel zu pari. Der Obligationär hat An-
+spruch auf eine Entschädigung für das hingegebene Kapital, welche periodisch ausbezahlt
+wird.
+
+Unter einer periodischen Verzinsung sind die vom Schuldner im Zeitpunkt der Emission ga-
+rantierten Geldflüsse zu verstehen. Zur rechnerischen Bestimmung, ob der Anlageteil über-
+wiegend einmalverzinslich ist oder nicht, können nur die garantierten Geldflüsse herangezo-
+gen werden, und zwar zum jeweiligen Zeitpunkt, in welchem der Investor seinen Rechtsan-
+spruch durchsetzen kann. Dabei ist die Summe der Barwerte der garantierten Zahlungen
+während der Laufzeit der Einmalentschädigung gegenüberzustellen.

@@ -4,48 +4,16 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 177"
-seiten: "45"
+titel: "Beilage 2 Seite 9/13 Ziff. 14.11 und 14.12 volljähriges Kind (Teil 3/3)"
+ziffer: "Beilage 2, S. 9/13"
+seiten: "54"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 45
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 54
 
-<!-- Seite 45 -->
-    Seite 2
+    zug geltend machen, so-
+    fern seine Leistungen
+    mindestens in der Höhe
+    des Abzuges erfolgen.
 
-
-Familienkonstellationen II: Volljährige Kinder in 1. Ausbildung
-
- 14.10./14.11./14.12.
-    Mit
-    Unterhalts-   14.10./14.12.
- A) Getrennte, geschiedene
-    zahlungen
-    oder unverheiratete
-    Paare mit Kindern
-
- 2 Haushalte   Ohne
-    Unterhalts-   14.11.
-    zahlungen
-    Mit
-    Unterhalts- 14.13./14.15.
-    zahlungen
-    14.13./14.14./14.15.
-    Gemeinsame Kinder
-
-  14.13./14.14./14.15./14.16.
-    Ohne
-    Unterhalts-   14.14.
- B) Konkubinatspaare mit   zahlungen
-    Kindern
-
- 1 Haushalt   Mit
-    Unterhalts-
-    zahlungen
-    = A)
-    14.16.
-    Keine gemeinsamen Kinder
-
-    Ohne
-    Unterhalts-   = A)
-    zahlungen
+1-030-D-2010-Beilage-2-d-2014.doc

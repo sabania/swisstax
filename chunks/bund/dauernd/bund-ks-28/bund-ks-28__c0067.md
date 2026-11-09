@@ -5,20 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 67"
-seiten: "20"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
 
-Vorbehalten bleibt natürlich stets die Steuerumgehung, die zu einem Nachsteuerverfahren
-führt. Nach der Rechtsprechung des Bundesgerichts liegt eine Steuerumgehung vor, wenn
-a)   die von den Beteiligten gewählte Rechtsgestaltung als ungewöhnlich, sachwidrig oder
-    absonderlich, jedenfalls den wirtschaftlichen Gegebenheiten völlig unangemessen er-
-    scheint,
-b)   ferner anzunehmen ist, dass diese Wahl missbräuchlich lediglich deshalb getroffen wur-
-    de, um Steuern einzusparen, welche bei sachgemässer Ordnung der Verhältnisse ge-
-    schuldet wären und
-c)   das gewählte Vorgehen tatsächlich zu einer erheblichen Steuerersparnis führen würde,
-    sofern die Steuerbehörde es hinnähme.
+Ein Nachsteuerverfahren nach den Artikeln 151 - 153 DBG ist in diesen Fällen nicht möglich.
+Mangels eigener Regelung der Nachbesteuerung in Artikel 37b DBG müsste sich eine
+Nachbesteuerung auf die generellen Nachsteuertatbestände von Artikel 151 Absatz 1 DBG
+abstützen. Diese bedingen aber, dass Tatsachen oder Beweismittel zu Tage treten, die der
+Steuerbehörde nicht bekannt waren. Es geht dabei um Fakten oder Beweismittel, die zwar
+erst nach der rechtskräftigen Veranlagung entdeckt werden. Eigentlich handelt es sich um
+neue „alte“ Tatsachen und Beweismittel, da diese Tatsachen oder Beweismittel bereits im
 
-Artikel 2   Liquidationsjahr
+5
+    SR 831.20

@@ -98,7 +98,7 @@
 "titel": "KS 37 – Abschnitt 7",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -194,7 +194,7 @@
 "titel": "KS 37 – Abschnitt 13",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -258,7 +258,7 @@
 "titel": "KS 37 – Abschnitt 17",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -322,7 +322,7 @@
 "titel": "KS 37 – Abschnitt 21",
 "pfad": [],
 "seiten": [
-4
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -402,7 +402,7 @@
 "titel": "KS 37 – Abschnitt 26",
 "pfad": [],
 "seiten": [
-5
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -466,7 +466,7 @@
 "titel": "KS 37 – Abschnitt 30",
 "pfad": [],
 "seiten": [
-6
+7
 ],
 "artikel": null,
 "ziffer": null,
@@ -530,7 +530,7 @@
 "titel": "KS 37 – Abschnitt 34",
 "pfad": [],
 "seiten": [
-7
+8
 ],
 "artikel": null,
 "ziffer": null,
@@ -594,7 +594,7 @@
 "titel": "KS 37 – Abschnitt 38",
 "pfad": [],
 "seiten": [
-8
+9
 ],
 "artikel": null,
 "ziffer": null,
@@ -658,7 +658,7 @@
 "titel": "KS 37 – Abschnitt 42",
 "pfad": [],
 "seiten": [
-9
+10
 ],
 "artikel": null,
 "ziffer": null,
@@ -722,7 +722,7 @@
 "titel": "KS 37 – Abschnitt 46",
 "pfad": [],
 "seiten": [
-10
+11
 ],
 "artikel": null,
 "ziffer": null,
@@ -786,7 +786,7 @@
 "titel": "KS 37 – Abschnitt 50",
 "pfad": [],
 "seiten": [
-11
+12
 ],
 "artikel": null,
 "ziffer": null,
@@ -834,7 +834,7 @@
 "titel": "KS 37 – Abschnitt 53",
 "pfad": [],
 "seiten": [
-12
+13
 ],
 "artikel": null,
 "ziffer": null,
@@ -946,7 +946,7 @@
 "titel": "KS 37 – Abschnitt 60",
 "pfad": [],
 "seiten": [
-14
+15
 ],
 "artikel": null,
 "ziffer": null,
@@ -1026,7 +1026,7 @@
 "titel": "KS 37 – Abschnitt 65",
 "pfad": [],
 "seiten": [
-15
+16
 ],
 "artikel": null,
 "ziffer": null,
@@ -1090,7 +1090,7 @@
 "titel": "KS 37 – Abschnitt 69",
 "pfad": [],
 "seiten": [
-16
+17
 ],
 "artikel": null,
 "ziffer": null,
@@ -1138,7 +1138,7 @@
 "titel": "KS 37 – Abschnitt 72",
 "pfad": [],
 "seiten": [
-17
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -1154,7 +1154,7 @@
 "titel": "KS 37 – Abschnitt 73",
 "pfad": [],
 "seiten": [
-17
+18
 ],
 "artikel": null,
 "ziffer": null,
@@ -1202,7 +1202,7 @@
 "titel": "KS 37 – Abschnitt 76",
 "pfad": [],
 "seiten": [
-18
+19
 ],
 "artikel": null,
 "ziffer": null,
@@ -1282,7 +1282,7 @@
 "titel": "KS 37 – Abschnitt 81",
 "pfad": [],
 "seiten": [
-19
+20
 ],
 "artikel": null,
 "ziffer": null,
@@ -1346,7 +1346,7 @@
 "titel": "KS 37 – Abschnitt 85",
 "pfad": [],
 "seiten": [
-20
+21
 ],
 "artikel": null,
 "ziffer": null,
@@ -1410,22 +1410,6 @@
 "titel": "KS 37 – Abschnitt 89",
 "pfad": [],
 "seiten": [
-21
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0088",
-"nachher": "bund-ks-37__c0090"
-},
-{
-"id": "bund-ks-37__c0090",
-"titel": "KS 37 – Abschnitt 90",
-"pfad": [],
-"seiten": [
 22
 ],
 "artikel": null,
@@ -1434,7 +1418,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "bund-ks-37__c0089",
+"vorher": "bund-ks-37__c0088",
 "nachher": null
 }
 ]

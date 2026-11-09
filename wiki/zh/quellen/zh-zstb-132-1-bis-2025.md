@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/steuern-finanzen/steuern/vertreter/steuerbuch/zstb-nr-132-1/zstb-nr-132-1-gueltig-bis-31_12_2025.pdf> · lokal: [zh-zstb-132-1-bis-2025.pdf](../../../raw/zh/2025/zh-zstb-132-1-bis-2025.pdf) · Volltext: [zh-zstb-132-1-bis-2025.md](../../../sources/zh/2025/zh-zstb-132-1-bis-2025.md)
 - **Abgerufen:** 2026-11-09 · sha256 `c896180e7db55816…`
 
-## Inhalt (33 Chunks)
+## Inhalt (32 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -39,13 +39,12 @@ generiert: tools/build_index.py
 | [c0021](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0021.md) | ZStB 132.1 (bis 2025) – Abschnitt 21 | S. 7 |  |
 | [c0022](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0022.md) | ZStB 132.1 (bis 2025) – Abschnitt 22 | S. 7 |  |
 | [c0023](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0023.md) | ZStB 132.1 (bis 2025) – Abschnitt 23 | S. 7 |  |
-| [c0024](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0024.md) | ZStB 132.1 (bis 2025) – Abschnitt 24 | S. 7 |  |
+| [c0024](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0024.md) | ZStB 132.1 (bis 2025) – Abschnitt 24 | S. 8 |  |
 | [c0025](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0025.md) | ZStB 132.1 (bis 2025) – Abschnitt 25 | S. 8 |  |
 | [c0026](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0026.md) | ZStB 132.1 (bis 2025) – Abschnitt 26 | S. 8 |  |
 | [c0027](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0027.md) | ZStB 132.1 (bis 2025) – Abschnitt 27 | S. 8 |  |
 | [c0028](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0028.md) | ZStB 132.1 (bis 2025) – Abschnitt 28 | S. 8 |  |
-| [c0029](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0029.md) | ZStB 132.1 (bis 2025) – Abschnitt 29 | S. 8 |  |
+| [c0029](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0029.md) | ZStB 132.1 (bis 2025) – Abschnitt 29 | S. 9 |  |
 | [c0030](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0030.md) | ZStB 132.1 (bis 2025) – Abschnitt 30 | S. 9 |  |
 | [c0031](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0031.md) | ZStB 132.1 (bis 2025) – Abschnitt 31 | S. 9 |  |
-| [c0032](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0032.md) | ZStB 132.1 (bis 2025) – Abschnitt 32 | S. 9 |  |
-| [c0033](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0033.md) | ZStB 132.1 (bis 2025) – Abschnitt 33 | S. 10 |  |
+| [c0032](../../../chunks/zh/2025/zh-zstb-132-1-bis-2025/zh-zstb-132-1-bis-2025__c0032.md) | ZStB 132.1 (bis 2025) – Abschnitt 32 | S. 10 |  |

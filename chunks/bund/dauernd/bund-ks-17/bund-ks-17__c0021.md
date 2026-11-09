@@ -10,18 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 17 · S. 6
 
-Gemäss Artikel 30d Absatz 3 Buchstabe a BVG ist eine WEF-Rückzahlung bis drei Jahre
-vor Entstehung des Anspruchs auf Altersleistungen zulässig. Es handelt sich hierbei um eine
-relativ zwingende Bestimmung, welche die Vorsorgeeinrichtungen zu Gunsten der versicher-
-ten Personen verkürzen oder ganz aufheben können. Dies unter der Bedingung, dass sie
-bezüglich Erfüllung ihrer nach Artikel 65 Absatz 1 BVG übernommenen Pflichten jederzeit
-    4
-Sicherheit bieten. Personen, die gestützt auf eine solche reglementarische Bestimmung
-ihren WEF-Vorbezug nicht mehr zurückzahlen können, sollen nach Artikel 60d der Verord-
-nung über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (BVV 2; SR
-831.441.1) trotzdem noch die Möglichkeit haben, Lücken in ihrer Vorsorge zu schliessen.
-Reglementarisch vorgesehene freiwillige Einkäufe sind im Umfang der übrigen Vorsorge
-lücken möglich. In diesen Fällen gilt die Beschränkung des Einkaufs nach Artikel 79b
-Absatz 3 Satz 1 BVG.
+Die nach einem Vorbezug entstandene Verminderung der Risikodeckung bei Tod und Invali-
+dität kann mit einer Zusatzversicherung ausgeglichen werden, welche die Vorsorgeeinrich-
+tung selber anbietet oder vermittelt (Art. 30c Abs. 4 BVG). Eine solche Zusatzversicherung
+kann bei einer Versicherungsgesellschaft als gebundene Selbstvorsorge (Säule 3a) oder im
+Rahmen der freien Vorsorge (Säule 3b) abgeschlossen werden. Aus steuerlicher Sicht han-
+delt es sich aber bei der Zusatzversicherung immer, d.h. auch bei Abschluss mit der Vorsor-
+geeinrichtung selber, um individuelle Vorsorge. Die steuerliche Abzugsfähigkeit für die ent-
 
-b)   nach einer Scheidung
+    Vgl. BGE 2A.509/2003 vom 18. Mai 2004, Erw. 5.1

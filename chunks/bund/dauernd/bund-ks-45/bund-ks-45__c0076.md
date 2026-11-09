@@ -5,20 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 76"
-seiten: "19"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 19
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
 
-5.1   Künstler, Sportler und Referenten
-Künstler, Sportler und Referenten mit Ansässigkeit in der Schweiz unterliegen der Quellen-
-steuer nach Artikel 83 DBG, sofern sie in der Schweiz einer unselbstständigen Erwerbstätig-
-keit nachgehen.
-Künstler, Sportler und Referenten mit Ansässigkeit im Ausland, die bei einem Arbeitgeber mit
-Sitz in der Schweiz für eine Dauer von mindestens 30 Tagen angestellt sind, unterliegen der
-Quellensteuer nach Artikel 91 DBG. Für die Beurteilung der Frist von mindestens 30 Tagen
-wird auf die mit dem einzelnen Schuldner der steuerbaren Leistung vereinbarte Vertrags-
-dauer abgestellt, unabhängig von den effektiven Auftritts- und Probetagen.
-Werden Künstler, Sportler und Referenten mit Ansässigkeit im Ausland weniger als 30 Tage
-beschäftigt (bspw. punktueller oder einmaliger Auftritt), unterliegen sie der Quellenbesteue-
-rung nach Artikel 92 DBG.
+4.8   Kirchensteuerpflicht
+Die Kirchensteuerpflicht richtet sich nach dem kantonalen Recht. Dabei ist zu beachten, dass
+die Kirchensteuern grundsätzlich auch von den DBA erfasst sind und zu deren Erhebung der
+Schweiz das Besteuerungsrecht eingeräumt werden muss.
+
+4.9   Härtefallregelung
+Auf Antrag einer in der Schweiz ansässigen Person kann die zuständige Steuerbehörde zur
+Milderung von wirtschaftlichen Härtefällen infolge Alimentenzahlungen Kinderabzüge im an-
+wendbaren Tarif gewähren (vgl. Art. 11 Abs. 1 QStV). Als Grundlage für die Beurteilung, ob
+ein Härtefall vorliegt, kann zum Beispiel das betreibungsrechtliche Existenzminimum dienen.
+Der anwendbare Quellensteuertarif wird unter Berücksichtigung der effektiven Alimentenzah-
+lungen neu festgelegt (bspw. Tarif A2 anstatt A0). Die zuständige kantonale Steuerbehörde
+legt die Höhe der zu gewährenden Kinderabzüge fest und teilt ihren Entscheid dem Schuld-
+ner der steuerbaren Leistung sowie dem Arbeitnehmer mit.
+Wurden die Unterhaltsbeiträge bei der Anwendung eines Tarifcodes berücksichtigt, so wird
+die nachträgliche ordentliche Veranlagung nur auf Antrag der quellensteuerpflichtigen Per-
+son durchgeführt (vgl. Art. 11 Abs. 2 QStV).

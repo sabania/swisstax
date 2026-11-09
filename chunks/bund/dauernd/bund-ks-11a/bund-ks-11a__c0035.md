@@ -10,14 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 9
 
-4.3.6   Transport- und Fahrzeugkosten
-Durch die Behinderung verursachte Kosten für den Transport zur Ärztin oder zum Arzt, zu The
-rapien, zu Tagesstätten etc. können abgezogen werden. Zum Abzug zugelassen sind dabei die
-Kosten öffentlicher Verkehrsmittel oder eines Fahrdienstes für Personen mit Behinderung. Ist
-deren Benützung nicht möglich oder nicht zumutbar, können die Kosten für die Benutzung eines
-privaten Motorfahrzeugs abgezogen werden (Kilometerentschädigung gemäss Anhang zur Ver
-ordnung des EFD vom 10. Februar 1993 über den Abzug der Berufskosten unselbständig Er
-werbstätiger bei der direkten Bundessteuer [Berufskostenverordnung; SR 642.118.1]).
-Kosten für übrige Transporte (insbesondere für Freizeitfahrten) sind in der Regel nicht als be
-hinderungsbedingte Kosten abzugsfähig. Ein Abzug ist ausnahmsweise dann zulässig, wenn
-die Person mit Behinderung glaubhaft machen kann, dass sie ohne ihre Behinderung aus
+<!-- Seite 9 -->
+Behinderung oder in einem Alters- und Pflegeheim sind abzugsfähig. Gleiches gilt für Kosten
+von Entlastungsaufenthalten in solchen Heimen oder in speziellen Ferienheimen für Personen
+mit Behinderung. Diese Kosten sind aber um denjenigen Betrag zu kürzen, der für Lebenshal
+tungskosten im eigenen Haushalt hätte aufgewendet werden müssen. Die Lebenshaltungskos
+ten berechnen sich dabei entweder nach den Richtlinien über die Berechnung des Existenzmi
+nimums gemäss Artikel 93 des Bundesgesetzes vom 11. April 1889 über Schuldbetreibung und
+Konkurs (SchKG; SR 281.1) oder nach entsprechenden kantonalen Richtlinien (vgl. z.B. Ver
+waltungsgericht des Kantons Luzern A 04 60 und A 04 61 vom 3. Januar 2005). Nicht abgezo
+gen werden können die Kosten des Aufenthalts in einem Altersheim, wenn der Heimaufenthalt
+nicht aufgrund einer Behinderung erfolgt (vgl. Ziff. 3.2.7).

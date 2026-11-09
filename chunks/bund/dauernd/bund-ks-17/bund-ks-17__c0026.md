@@ -5,17 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 17 – Abschnitt 26"
-seiten: "7"
+seiten: "8"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 17 · S. 8
 
-Tritt ein Vorsorgefall ein (Tod, Invalidität), obwohl der Verkaufserlös noch bei der Freizügig-
-keitseinrichtung „parkiert“ ist, werden die Vorsorgeleistungen fällig und die versicherte Per-
-son kann den Vorbezug nicht mehr zurückbezahlen (vgl. Art. 30d Abs. 3 Bst. b BVG), es sei
-denn - im Todesfall - würde keine Vorsorgeleistung fällig (Art. 30d Abs. 1 Bst. c BVG). Der
-Umfang der angefallenen Zinsen (falls über Fr. 5'000.--) muss der ESTV gemeldet werden,
-da darüber steuerlich noch abzurechnen ist.
+<!-- Seite 8 -->
+4.   Steuerliche Auswirkungen der Verpfändung von Vorsorgeguthaben
 
-3.2. Kauf eines neuen Eigenheims nach Ablauf von zwei Jahren oder Verzicht
-    auf Neukauf
+4.1. Verpfändung als solche
+
+Aus der Verpfändung als solcher entstehen keine unmittelbaren steuerlichen Folgen, weil
+dabei nicht über das Vorsorgeguthaben oder Teile davon verfügt wird. Die Verpfändung
+dient lediglich als Sicherheitsleistung und gibt der versicherten Person die Möglichkeit, mit
+ihren Gläubigern ein höheres Darlehen, den Verzicht bzw. den Aufschub der Amortisation
+und/oder einen günstigeren Zinssatz zu vereinbaren.
+
+4.2. Pfandverwertung
+
+Führt die Verpfändung hingegen zu einer Pfandverwertung, ergeben sich die gleichen steu-
+erlichen Folgen wie beim Vorbezug: Der Erlös aus der Pfandverwertung wird besteuert, wo-
+bei hierfür die gleichen Regeln wie bei der Besteuerung des Vorbezuges gelten. Folgerichtig
+sind nach einer Pfandverwertung dieselben Möglichkeiten einer Rückzahlung und daran an-
+knüpfend der Rückerstattung der bezahlten Steuern wie beim Vorbezug gegeben
+(vgl. Ziff. 2.3.).

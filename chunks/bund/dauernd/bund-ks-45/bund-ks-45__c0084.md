@@ -10,9 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 21
 
-2 Der Verein Swissdec bezweckt die Standardisierung, Vereinheitlichung und Vereinfachung der (elektronischen)
-
- Übermittlung von Daten (insb. Lohndaten), welche Unternehmen und Arbeitgeber aufgrund einer gesetzlichen
- Pflicht oder vertraglichen Vereinbarung zur gesetzeskonformen Weiterbearbeitung an Behörden oder Versiche-
- rungen zu liefern haben. Mitglieder des Vereins sind die SUVA, eAHV/IV, der Schweizerische Versicherungsver-
- band, das Bundesamt für Statistik sowie die Schweizerische Steuerkonferenz.
+6.2   Grundsätze
+Bei der Berechnung der Quellensteuer nach dem Monatsmodell gilt der Monat als Steuerpe-
+riode. Für die Berechnung des Steuerabzugs sind die monatlichen Bruttoeinkünfte massge-
+bend, d.h. sämtliche steuerpflichtigen Leistungen, die im entsprechenden Monat an den
+quellensteuerpflichtigen Arbeitnehmer ausgerichtet werden, sind in der Regel zusammenzu-
+zählen und als Ganzes der Quellenbesteuerung zu unterwerfen.
+Für den Quellensteuerabzug sind die Verhältnisse im Zeitpunkt der Fälligkeit der steuerbaren
+Leistung massgebend. Im Normalfall wird die geschuldete Quellensteuer aufgrund der Brut-
+toeinkünfte eines Monats durch Multiplikation der Bruttoeinkünfte mit dem Steuersatz ge-
+mäss anwendbarem Quellensteuertarif ermittelt. Dieselbe Vorgehensweise ist anzuwenden,
+wenn der Arbeitnehmer im Stundenlohn angestellt ist und ihm der Lohn monatlich ausbezahlt
+wird.
+In Einzelfällen kann eine Berechnung des satzbestimmenden Einkommens notwendig sein

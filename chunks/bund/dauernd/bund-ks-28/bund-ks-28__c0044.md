@@ -5,27 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 44"
-seiten: "15"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 14
 
-Ziel der Unternehmenssteuerreform II (nachstehend USTR II) war – gemäss Ausführungen
-des Bundesrates in der Botschaft 1 – einerseits eine steuerliche Entlastung von Risikokapital,
-primär zugunsten von Investoren, die sich unternehmerisch beteiligen. Andererseits zielte die
-Reform aber auch auf die steuerliche Entlastung der kleinen und mittleren Unternehmen
-(KMU) ab. Unter anderem sollten ungerechtfertigte Überbesteuerungen gemildert und zum
-Teil beseitigt werden. Die beabsichtigten Massnahmen zu Gunsten der Personenunterneh-
-men betrafen folgende vier Bereiche:
+Es besteht für die steuerpflichtige Person ferner die Möglichkeit, ein dem Einkauf in die be-
+rufliche Vorsorge entsprechender fiktiver Einkauf (maximal im Umfang des Liquidationsge-
+winns) geltend zu machen. Im Umfang des fiktiven Einkaufs wird der Steuertarif für Kapital-
+leistungen aus Vorsorge nach Artikel 38 DBG angewandt. Artikel 37b DBG hat seine grund-
+sätzliche Entsprechung in Artikel 11 Absatz 5 des Bundesgesetzes vom 14. Dezember 1990
+über die Harmonisierung der direkten Steuern der Kantone und Gemeinden (StHG).
 
-– Erhaltung bestehender Personenunternehmen,
-
-– Erleichterung der Restrukturierung von Personenunternehmen,
-
-– Erleichterung der Übertragung von Unternehmen sowie um
-
-– Steuererleichterungen bei der zu Lebzeiten oder nach dem Tod des Inhabers erfolgten
-  Liquidation eines Unternehmens.
-
-Letztere Massnahme führte zum Artikel 37b DBG, welcher am 1. Januar 2011 in Kraft treten
-wird.
+Die gesonderte Besteuerung des Liquidationsgewinnes ist eine besondere Besteuerungsart,
+deren Umsetzung in der Verordnung konkretisiert wird. Der fiktive Einkauf, als Teil des Liqui-
+dationsgewinnes, ist ein neues Steuerinstitut, für das alle Parameter, die Berechnung und
+die Anspruchsberechtigten in der Verordnung festgelegt werden müssen.

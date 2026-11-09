@@ -5,20 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 134"
-seiten: "35"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 35
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
 
-<!-- Seite 35 -->
+<!-- Seite 34 -->
+6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden
+Auf Ersatzeinkünften (Taggelder), welche von der Versicherung an den Arbeitgeber ausbe-
+zahlt werden, sind von der Versicherung keine Quellensteuern abzurechnen. Der Arbeitge-
+ber nimmt den Quellensteuerabzug auf der von ihm geschuldeten Bruttoentschädigung an
+den Arbeitnehmer vor und wendet darauf den massgebenden Tarifcode bzw. Steuersatz an.
+
     Beispiel:
-    - Kapitalabfindungen für wiederkehrende Leistungen sind zusammen mit dem Bruttolohn, welcher im Monat
-    der Auszahlung der Kapitalabfindung ausgerichtet wird, an der Quelle zu besteuern.
-
-    Leistungen   steuerbar   satzbestimmend
-
-    Ordentlicher Bruttomonatslohn Mai 2022 (ohne Familienzulage)   4 800   4 800
-
-    Nachzahlung Familienzulagen Dezember 2021 bis Mai 2022   1 200   1 200
-
-    Total Bruttolohn Mai 2022   6 000   6 000
+    - Der Arbeitgeber schuldet dem ledigen Arbeitnehmer T. im März 2021 einen Bruttomonatslohn von
+    CHF 4 500.00 sowie ein Unfalltaggeld (Ersatzeinkunft) über CHF 1 000.00, welches die Versicherung an
+    den Arbeitgeber überweist.
+    Die gesamte Entschädigung über CHF 5 500 ist an der Quelle zu besteuern. Es ist der ordentliche Ta-
+    rifcode (A0) anzuwenden.

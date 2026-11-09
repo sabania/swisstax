@@ -10,25 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 22a · S. 2
 
-2.   Teilbesteuerung der Einkünfte aus Beteiligungen des Privatvermögens
+Mit dem Bundesgesetz vom 28. September 2018 über die Steuerreform und AHV-
+Finanzierung wurde der Umfang der Teilbesteuerung der Einkünfte aus Beteiligungen des
+Privatvermögens auf 70 Prozent angehoben:
+1bis
+   Dividenden, Gewinnanteile, Liquidationsüberschüsse und geldwerte Vorteile aus Aktien,
+Anteilen an Gesellschaften mit beschränkter Haftung, Genossenschaftsanteilen und Partizi
+pationsscheinen (einschliesslich Gratisaktien, Gratisnennwerterhöhungen u. dgl.) sind im
+Umfang von 70 Prozent steuerbar, wenn diese Beteiligungsrechte mindestens 10 Prozent
+des Grund- oder Stammkapitals einer Kapitalgesellschaft oder Genossenschaft darstellen.
 
-2.1.   Subjektive Voraussetzungen
-
-Die Teilbesteuerung der Einkünfte aus Beteiligungsrechten im Privatvermögen steht natürli
-chen Personen zu, welche in der Schweiz auf Grund persönlicher (Art. 3 DBG) oder wirt
-schaftlicher Zugehörigkeit (Art. 4 i.V.m. Art. 7 DBG) steuerpflichtig sind.
-
-2.2.   Objektive Voraussetzungen
-
-2.2.1. Beteiligungsrechte
-Beteiligungsrechte sind Anteile am Grund- oder Stammkapital von Kapitalgesellschaften und
-Genossenschaften. Als Beteiligungsrechte im Sinn der objektiven Voraussetzungen gemäss
-Artikel 20 Absatz 1bis DBG gelten insbesondere:
-
-•   Aktien;
-•   Stammanteile an Gesellschaften mit beschränkter Haftung;
-•   Genossenschaftsanteile;
-•   Partizipationsscheine;
-•   Anteile am Kapital einer SICAF.
-
-Keine Beteiligungsrechte bestehen insbesondere bei:
+Private Schuldzinsen sind nach Artikel 33 Absatz 1 Buchstabe a DBG im Umfang des Ertra
+ges aus beweglichem und unbeweglichem Vermögen (Art. 20 und 21 DBG) und weiterer
+50‘000 Franken abziehbar. Zinsen auf Geschäftsschulden sind weiterhin vollumfänglich ab
+ziehbar (Art. 27 Abs. 2 Bst. d DBG).

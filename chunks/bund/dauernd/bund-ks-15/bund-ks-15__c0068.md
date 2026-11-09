@@ -4,23 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 68"
-seiten: "16"
+titel: "Anhang III Ziff. 2 Index- und Basketzertifikate auf Obligationen (Bond-Zertifikate) (Teil 2/2)"
+ziffer: "Anh. III 2"
+seiten: "20-21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 2 Bond-Zertifikate · S. 20–21
 
-a) Das als Bezugsgrösse herangezogene Zinsniveau im Geld- oder Kapitalmarkt für $-An-
-   leihen bleibt während der ganzen siebenjährigen Laufzeit unverändert. Der Wechselkurs
-   zwischen dem $ und dem SFr. bleibt ebenfalls während der ganzen Laufzeit unverändert
-   und beträgt 1.50 SFr./$.
+Der Zertifikatsinhaber trägt die gleichen Risiken und Chancen eines steigenden allgemeinen
+Zinsniveaus und/oder sinkender Wechselkurse wie ein gewöhnlicher Obligationär. Die Tatsa-
+che, dass sich Bond-Zertifikate auf Obligationen oder Geldmarktpapiere beziehen, impliziert
+für den Investor, dass er damit in gleicher Weise einen Anspruch auf Rückzahlung seiner In-
 
-b) Das als Bezugsgrösse herangezogene Zinsniveau beträgt im Zeitpunkt der ersten
-   Handänderung (vier Jahre vor Verfall) 115% und im Zeitpunkt der zweiten Handänderung
-   (zwei Jahre vor Verfall) 80% des entsprechenden Zinsniveaus am Emissionstag (100%).
-   Es wird vorausgesetzt, dass der Markt mit mathematischer Genauigkeit auf diese
-   Änderungen reagiert.
+1-015-DVS-2017-d / Anhang III
 
-c) Der Wechselkurs zwischen dem $ und dem SFr. beträgt am Emissionstag 1.50 SFr./$,
-   drei Jahre später 1.60 SFr./$, fünf Jahre später 1.45 SFr./$ und sieben Jahre später (bei
-   Verfall) wiederum 1.50 SFr./$.
+vestition erhält, wie wenn er direkt in das Underlying investiert hätte. Bondzertifikate qualifi-
+zieren damit selber als Obligationen und unterliegen der entsprechenden Besteuerung (vgl.
+Kreisschreiben Nr. 15, Ziffern 3.1. ff.). Für die Zwecke der Stempelabgaben ist nicht die Lauf-
+zeit des Basiswertes, sondern diejenige des Zertifikats entscheidend.

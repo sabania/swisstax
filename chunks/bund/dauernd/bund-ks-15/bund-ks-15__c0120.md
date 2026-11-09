@@ -4,18 +4,18 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 120"
-seiten: "27"
+titel: "Anhang IV Gutachten Ziff. III.4.1 Fazit ohne Handänderung"
+ziffer: "Anh. IV III.4.1"
+seiten: "35"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung › 4 Fazit · S. 35
 
-10   Aufstockungen von inländischen und ausländischen Anleihensob-
-    ligationen
-Per 1. Januar 2001 wurde Artikel 14 Absatz 2 VStV ersatzlos aufgehoben. Diese Bestim-
-mung besagte, dass die Verrechnungssteuer auf Vorausvergütungen, die u.a. bei der Aus-
-gabe von Obligationen abgezogen werden und verteilt auf jedes volle Jahr der vertraglichen
-Mindestlaufzeit nicht mehr als ein halbes Prozent des Nennwertes ausmachen, nicht erho-
-ben wird. Die Streichung dieser Bestimmung erwies sich für Anleihensaufstockungen als
+4.   Fazit
+4.1   Ohne Handänderung während der Laufzeit
+Die Ermittlung des Bond Floors mittels der Swap-Rate für die entsprechende Währung
+und Laufzeit führt in der Praxis zu sachgerechten Resultaten.
 
-1-015-DVS-2017-d / Anhang III
+Änderungen des Zinsumfelds und des Credit Ratings des Schuldners haben bei Inves-
+toren, welche das kombinierte Produkt aus Emission erwerben und bis Endverfall hal-
+ten, grundsätzlich keine Auswirkung auf die Höhe des steuerbaren Vermögensertrags.

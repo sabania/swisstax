@@ -4,16 +4,11 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 158"
-seiten: "39"
+titel: "Beilage 2 Seite 3/13 Ziff. 14.4 getrennte Eltern, gemeinsame Sorge, keine Unterhaltszahlungen (Teil 3/3)"
+ziffer: "Beilage 2, S. 3/13"
+seiten: "48"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 39
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 48
 
-Werden Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG von einem oder von bei-
-den Elternteilen an das Kind geleistet, erfolgt die Besteuerung folgendermassen:
-
-14.15.1   Unterhaltszahlungen
-   Die Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind vom Kind nicht zu ver-
-    steuern. Der leistende Elternteil kann die Unterhaltsbeiträge nicht von seinem Einkom-
-    men absetzen.
+1-030-D-2010-Beilage-2-d-2014.doc

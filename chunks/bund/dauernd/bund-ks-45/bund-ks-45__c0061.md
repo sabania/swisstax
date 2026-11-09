@@ -5,16 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 61"
-seiten: "16"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
 
-<!-- Seite 16 -->
-keit eines Ehegatten ist der Zweiverdienertarif bei diesem (Tarifcode C bzw. N) sofort an-
-wendbar. Beim anderen (bereits erwerbstätigen) Ehegatten gelangt der Zweiverdienertarif
-(Tarifcode C bzw. N) ab dem Folgemonat zur Anwendung.
-Der Tarifcode C (bzw. N) gelangt nicht zur Anwendung, wenn der andere Ehegatte einzig
-Einkommen erzielt, welches gemäss Tarifcode E über das vereinfachte Abrechnungsverfah-
-ren im Sinn des Bundesgesetzes vom 17. Juni 2005 über Massnahmen zur Bekämpfung der
-Schwarzarbeit (BGSA; SR 822.41) besteuert wird (vgl. Art. 37a DBG).
+und des Tarifcodes G (Ersatzeinkünfte, die direkt von Versicherer an die quellensteuerpflich-
+tige Person ausbezahlt werden) bzw. des Tarifcodes Q (Grenzgänger nach dem Abkommen
+vom 11. August 1971 zwischen der Schweizerischen Eidgenossenschaft und der Bundesre-
+publik Deutschland zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern
+vom Einkommen und vom Vermögen [DBA-D; SR 0.672.913.62], welche die Voraussetzun-
+gen für den Tarifcode G erfüllen).

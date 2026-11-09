@@ -4,29 +4,30 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 160"
-seiten: "40"
+titel: "Beilage 2 Seite 4/13 Ziff. 14.5 und 14.6 (Teil 2/3)"
+ziffer: "Beilage 2, S. 4/13"
+seiten: "49"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 40
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 49
 
-<!-- Seite 40 -->
-    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
-    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
-    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
-    rungsabzug für das Kind geltend machen.
-
-14.15.3   Tarife
-   Beide Elternteile werden zum Grundtarif besteuert.
-
-14.16   Unverheiratete Eltern (gemeinsamer Haushalt), mit nicht gemeinsa-
-    mem minderjährigem oder volljährigem Kind
-
-Für die getrennt lebenden Eltern des Kindes gelten je nach Konstellation die aus der Sicht
-des betreffenden Elternteils anzuwendenden Regeln wie sie unter den Ziffern14.3, 14.4,
-14.5, 14.10, 14.11 und 14.12 festgehalten sind. Die entsprechende Praxis kann dort ent-
-nommen werden.
-
-15   Verfahrensrechtliche Stellung der Ehegatten
-
-15.1   Grundsatz
+   Haushalte) mit minder-   erhält, sind vom Emp-   in alternierender Obhut,      Der Elternteil, der die
+   jährigem Kind, mit ge-   fänger vollständig zu   kann jeder Elternteil   Unterhaltszahlungen
+   meinsamer elterlicher   versteuern.   max. CHF 5'050 der   leistet, wird zum
+   Sorge, mit Unterhaltszah-    Die Unterhaltszahlun-   nachgewiesenen Kosten   Grundtarif besteuert.
+   lungen   gen können vom leis-   für die Kinderfremdbe-
+    tenden Elternteil voll-   treuung in Abzug brin-
+    umfänglich in Abzug   gen. Eine andere Auftei-
+    gebracht werden.   lung ist von den Eltern
+    nachzuweisen. Betragen
+    die geltend gemachten
+    Kosten beider Elterntei-
+    le aber zusammen mehr
+    als den Maximalbetrag
+    von CHF 10’100, wer-
+    den die Abzüge im Ver-
+    hältnis der nachgewie-
+    senen Kosten auf diesen
+    Maximalbetrag ge-
+    kürzt.1)
+    entfällt   Der Elternteil, der die elter-   Der Elternteil, der die elter-   Der Elternteil, der die elter-   

@@ -10,13 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
 
-    -   Der ungelernte, über 20jährige Automechaniker kann zwar sämtliche Kosten für Kurse, die dem
-    Erwerb vertiefter Kenntnisse bei der Reparatur von bestimmten Automarken dienen, bis zum
-    Höchstbetrag von 12 000 Franken pro Steuerperiode von seinen steuerbaren Einkünften in Ab-
-    zug bringen. Sollte er sich aber im Alter von 30 Jahren entscheiden, den Lehrabschluss nachzu-
-    holen, wird er die dadurch verursachten Kosten steuerlich nicht geltend machen können.
-    -   Eine Studentin finanziert sich ihr Studium an der Universität mit einer Teilzeitstelle. Sie kommt
-    persönlich für die Semestergebühren auf und kauft die für das Studium notwendigen Bücher. Zu-
-    sätzlich wird sie für den Lebensunterhalt von ihren Eltern mit einem monatlichen Beitrag unter-
-    stützt. Die Auslagen für das Studium (z.B. Semestergebühren, Bücherkosten) kann die Studentin
-    im Rahmen ihres Einkommens bis zum festgelegten Höchstbetrag steuerlich als Aus- und Wei-
+ben) und der Tertiärstufe als auch ausserhalb des formalen Bildungssystems in Abzug gebracht
+werden. Unter formaler Bildung wird gemeinhin die institutionalisierte, kontinuierliche Aus- und
+Weiterbildung in den staatlichen Bildungsinstitutionen (wie Schule, Universität, Institutionen der
+Berufsbildung) verstanden. Sie ist ein strukturierter, hierarchisch gegliederter Prozess und ge-
+kennzeichnet durch klare Lernziele, Lehrpläne, Lernsettings und Zertifizierungen.
+Der Abzug ist bei Altersrentnerinnen und Altersrentnern nur möglich, falls diese eine aktuelle oder
+zukünftige Erwerbstätigkeit glaubhaft machen.
+Die Kosten bis und mit dem ersten Abschluss auf der Sekundarstufe II gelten als Lebenshaltungs-
+kosten und sind nicht abzugsfähig. Ebenso sind sämtliche berufsorientierten Aus- und Weiterbil-
+dungskosten, die vor Vollendung des 20. Lebensjahres anfallen, nicht abzugsfähig, sofern kein
+Abschluss auf Sekundarstufe II vorliegt.
+Beispiele:

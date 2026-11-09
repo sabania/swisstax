@@ -9,6 +9,6 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [05 - Schulden / Zuwendungen / Parteispenden 2024(1538 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_5_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 05 - Schulden / Zuwendungen / Parteispenden 2024")
-- [06 - Versicherungsprämien / Krankheitskosten 2024(1542 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_6_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 06 - Versicherungsprämien / Krankheitskosten 2024")
-- [07 - Liegenschaften 2024(1554 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_7_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 07 - Liegenschaften 2024")
+- [14 - Landwirte im Berggebiet 2024(604 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_14_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 14 - Landwirte im Berggebiet 2024")
+- [27 - Merkblatt Steuerpflicht 2024(71 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_27_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 27 - Merkblatt Steuerpflicht 2024")
+- [32 - Merkblatt direkte Bundessteuer 2024(230 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2024-hs/Formular_32_NP_2024_HA.pdf "Download: Es öffnet sich ein neues Fenster: 32 - Merkblatt direkte Bundessteuer 2024")

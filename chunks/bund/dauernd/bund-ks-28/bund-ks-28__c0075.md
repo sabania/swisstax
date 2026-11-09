@@ -5,31 +5,33 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 75"
-seiten: "23"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 21
 
-<!-- Seite 23 -->
+a)   Die Überführung der Liegenschaft vom Geschäftsvermögen ins Privatvermögen erfolgt
+    im Vorjahr (n-1). Die steuerpflichtige Person macht dabei keinen Steueraufschub ge-
+    mäss Artikel 18a DBG geltend. Die Liegenschaft wird im Liquidationsjahr n veräussert, in
+    welchem die selbständige Erwerbstätigkeit definitiv aufgegeben wird. Die gesamten stil-
+    len Reserven (wieder eingebrachte Abschreibungen und der Wertzuwachsgewinn) wer-
+    den privilegiert besteuert, allenfalls mittels eines Revisionsverfahrens für die Veranla-
+    gung des Jahres n-1.
+
     Vorjahr   Liquidationsjahr
+    2010   2011   2012
 
-    2011   2012   2013
-
-    Fall 3
+    Fall 1
     PV
-    2011 LS wird ins PV   PV   Dritte
-    überführt mit Auf-
-    Differenz
-    schub gem.
-    Verkaufspreis
-    Art. 18a DBG
-    Aufschub Art.   ./. Anlagekos-
-    18a DBG   ten = steuer-
-    2013 LS wird an   Art. 37b DBG   bares Ein-
-    Dritte veräussert
-    kommen aus
-    wieder eingebrach-
-    selbständiger
-    te Abschreibungen
-    Erwerbstätig-
-    keit
+    2010 LS wird ins PV
+    überführt   PV   Dritte
+    (ohne Art. 18a DBG)
+
+    2011 LS wird an   Wertzuwachs-
+    Dritte veräussert   gewinn   Art. 37b DBG
+
+    wieder eingebr.
+    Abschreibungen
+
+    Teil des Liquidations-
+    gewinnes

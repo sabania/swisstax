@@ -5,25 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 17 – Abschnitt 12"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 3
+> Bund · Steuerjahr 2025/2026 · KS 17 · S. 4
 
-Jeder Vorbezug, nicht aber die Verpfändung von Guthaben, hat eine Kürzung des künftigen
-Leistungsanpruches zur Folge. Zur Möglichkeit des Abschlusses einer Zusatzversicherung
-siehe Ziffer 2.4.
+<!-- Seite 4 -->
+a)   Rückerstattung der bezahlten Steuern
 
-2.   Steuerliche Auswirkungen des Vorbezuges
-
-2.1. Besteuerung des Vorbezuges
-
-Das gesamte vorbezogene Vorsorgeguthaben kommt im Zeitpunkt des Vorbezuges als Ka-
-pitalleistung aus Vorsorge zur Besteuerung, entweder im Rahmen der ordentlichen Besteue-
-rung mit einer vollen Jahressteuer gemäss Artikel 38 des Bundesgesetzes über die direkte
-Bundessteuer (DBG; SR 642.11) oder bei ausländischem Wohnsitz des Empfängers
-(Grenzgänger) im Rahmen der Besteuerung an der Quelle gemäss Artikel 96 DBG. Die Jah-
-ressteuer wird zu einem Fünftel der Tarife nach Artikel 36 DBG berechnet und für das Steu-
-erjahr festgesetzt, in welchem die entsprechende Kapitalleistung zugeflossen ist, d.h. von
-    bis
-der Vorsorgeeinrichtung effektiv ausbezahlt wird (Art. 38 Abs. 1 und 2 DBG).
+Falls die Rückzahlung des Vorbezuges aus den im Gesetz genannten Gründen zwingend
+oder fakultativ (Art. 30d Abs. 1 und 2, Art. 79b Abs. 3 BVG) erfolgt ist, gibt sie dem Vorsor-
+genehmer Anspruch auf zinslose Rückerstattung der seinerzeit an Bund, Kanton und Ge-
+meinde bezahlten Steuern. Folgerichtig ist der Abzug des wieder einbezahlten Vorbezuges
+vom steuerbaren Einkommen ausgeschlossen. Das Recht auf Rückerstattung erlischt nach
+Ablauf von drei Jahren seit der Wiedereinzahlung des Vorbezuges (Art. 83a Abs. 2 und
+3 BVG).

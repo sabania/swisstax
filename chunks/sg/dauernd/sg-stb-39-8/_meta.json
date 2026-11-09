@@ -162,7 +162,7 @@
 "titel": "StB 39 Nr. 8 – Abschnitt 11",
 "pfad": [],
 "seiten": [
-2
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -210,7 +210,7 @@
 "titel": "StB 39 Nr. 8 – Abschnitt 14",
 "pfad": [],
 "seiten": [
-3
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -251,22 +251,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "sg-stb-39-8__c0015",
-"nachher": "sg-stb-39-8__c0017"
-},
-{
-"id": "sg-stb-39-8__c0017",
-"titel": "StB 39 Nr. 8 – Abschnitt 17",
-"pfad": [],
-"seiten": [
-4
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-8__c0016",
 "nachher": null
 }
 ]

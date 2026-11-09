@@ -4,20 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 107"
-seiten: "25"
+titel: "Anhang IV Gutachten Bond Floor Pricing – Ausgangslage (Teil 1/3)"
+ziffer: "Anh. IV I"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › I Ausgangslage · S. 32
 
-Im Unterschied zu den herkömmlichen RC mit im Voraus festgelegten, garantierten und peri-
-odisch ausgerichteten Coupons werden bei der RC-Variante nach Buchstabe b) in aller Re-
-gel keine garantierten Coupons ausbezahlt. Dies führt dazu, dass der Anlageteil als Obliga-
-tion mit ausschliesslicher Einmalverzinsung qualifiziert wird. Bei der RC-Variante nach Buch-
-stabe c) gelten die von Jahr zu Jahr ansteigenden bedingten Coupons steuerlich als Kapital-
-gewinne. Auch hier liegen folglich Obligationen mit ausschliesslicher Einmalverzinsung vor.
-Da Anlage und Optionsteil nicht getrennt handelbar sind, unterliegen die RC-Varianten ge-
-mäss Buchstaben b) und c) der modifizierten Differenzbesteuerung.
+Gutachten
 
-Die besonderen RC-Varianten gemäss Buchstaben b) und c) hievor werden verrechnungs-
-steuerlich und stempelabgaberechtlich gleich behandelt wie die gewöhnlichen RC (vgl.
+I.   Ausgangslage
+Im April 1999 hat die Eidg. Steuerverwaltung das Kreisschreiben Nr. 4 betreffend Obli-
+gationen und derivative Finanzinstrumente als Gegenstand der direkten Bundessteuer,
+der Verrechnungssteuer sowie der Stempelabgaben publiziert. Darin wurde bezüglich
+derjenigen kombinierten Produkte, bei welchen die einzelnen Teile (des kombinierten
+Produkts) nicht separat handelbar sind oder bei denen die einzelnen Teile - trotz Han-
+delbarkeit - de facto nicht separat gehandelt werden, eine neue Methode zur Ermittlung
+des steuerbaren Vermögensertrages eingeführt. Diese neu geschaffene, als modifizier-
+te Differenzbesteuerung bezeichnete Methode bezweckt die "richtige" Ermittlung des
+auf den Anleihensteil zurückzuführenden steuerbaren Vermögensertrags. Diese Me-
+thode gelangt bei nicht klassischen Wandelanleihen sowie weiteren kombinierten Pro-
+dukten zur Anwendung, die steuerlich als Kombination einer überwiegend einmalver-
+zinslichen Anleihe und einer Option bzw. einer Optionsstrategie qualifiziert werden.

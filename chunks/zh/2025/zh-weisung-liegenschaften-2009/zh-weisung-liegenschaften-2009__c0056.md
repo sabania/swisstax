@@ -5,28 +5,31 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 56"
-seiten: "22"
+seiten: "24"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 22
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 24
 
-Wasterkingen   3   410   340   270   –   –   –   –
-Wil (ZH)   3   640   500   360   –   –   –   –
-Winkel   3   890   730   560   –   –   –   –
-Bezirk Dielsdorf
-Bachs   3   650   530   410   –   –   –   –
-Boppelsen   3   790   710   630   –   –   –   –
-Buchs (ZH)   5   780   720   660   600   530   –   –
-Dällikon   5   800   740   670   600   530   –   –
-Dänikon   3   600   510   410   –   –   –   –
-Dielsdorf   5   780   700   610   530   440   –   –
-Hüttikon   2   670   510   –   –   –   –   –
-Neerach   5   970   870   760   650   540   –   –
-Niederglatt   3   740   620   500   –   –   –   –
-Niederhasli   5   700   650   600   550   500   –   –
-Niederweningen   5   720   650   580   510   440   –   –
-Oberglatt   5   730   670   610   550   490   –   –
-Oberweningen   5   710   650   590   530   470   –   –
-Otelfingen   5   790   730   660   590   520   –   –
-Regensberg   3   920   800   680   –   –   –   –
-Regensdorf   5   890   810   720   640   550   –   –
+Rüti (ZH)   5   660   600   530   470   400   –   –
+Seegräben   4   780   660   550   430   –   –   –
+Wald (ZH)   3   510   420   320   –   –   –   –
+Wetzikon (ZH)   5   790   720   640   570   490   –   –
+Bezirk Horgen
+Adliswil   5   960   880   790   700   610   –   –
+Horgen
+– Hirzel   5   1020   920   820   720   620   –   –
+ (ehemalige Gemeinde)
+– Horgen   5   1200   1070   940   810   670   –   –
+ (ehemalige Gemeinde)
+Kilchberg (ZH)   5   1620   1450   1270   1090   910   –   –
+Langnau am Albis   5   810   750   680   620   550   –   –
+Oberrieden   5   1420   1280   1130   980   830   –   –
+Richterswil   5   1030   930   820   720   610   –   –
+Rüschlikon   3   1430   1250   1070   –   –   –   –
+Thalwil   5   1460   1310   1150   990   830   –   –
+Wädenswil
+– Hütten   5   850   760   670   580   480   –   –
+ (ehemalige Gemeinde)
+– Schönenberg (ZH)   5   840   780   710   650   580   –   –
+ (ehemalige Gemeinde)
+– Wädenswil   5   1110   1000   890   780   660   –   –

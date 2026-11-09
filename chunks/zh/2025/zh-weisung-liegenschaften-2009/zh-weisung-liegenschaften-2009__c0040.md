@@ -5,12 +5,24 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 40"
-seiten: "16"
+seiten: "17"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 16
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 17
 
-<!-- Seite 16 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+<!-- Seite 17 -->
+Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
+E. Neufestsetzung von Vermögenssteuerwerten und Eigenmietwerten
 
-    II. Eigenmietwert
+I. Einfamilienhäuser und Stockwerkeigentum (zu Wohnzwecken)
+   sowie industrielle oder gewerbliche Liegenschaften
+
+1. Allgemeine Neubewertung
+
+   Die Vermögenssteuerwerte und Eigenmietwerte sind für die Steuer- 87
+periode 2009 allgemein nach dieser Weisung neu festzulegen.
+    Unter Vorbehalt der Ziff. 89–91 bleiben die Vermögenssteuerwerte 88
+und Eigenmietwerte bis zu einer späteren allgemeinen Neubewertung
+in den nachfolgenden Steuerperioden unverändert.
+
+2. Ausserordentliche Neubewertung einzelner Liegenschaften

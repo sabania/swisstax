@@ -4,18 +4,18 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 178"
-seiten: "46"
+titel: "Beilage 2 Seite 10/13 Ziff. 14.13 und 14.14 Konkubinat, volljähriges Kind bei den Eltern (Teil 1/4)"
+ziffer: "Beilage 2, S. 10/13"
+seiten: "55"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 46
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 55
 
-<!-- Seite 46 -->
 Beilage 2
 
 Tabelle zu den verschiedenen Familienkonstellationen
 Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge und Tarife nach DBG
-    Seite 1/13
+    Seite 10/13
 
     Unterhaltszahlungen für   Zusätzlicher Versiche-
     Kinderbetreuungskosten-
@@ -26,14 +26,11 @@ Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge u
     33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
     (Art. 33 Abs. 3 DBG)
     DBG)   DBG)
-
-   Minderjähriges Kind
-
-   Normalfall:   entfällt   Kinderabzug von der ge-   Versicherungs- und Spar-   Abzug der nachgewiesenen   Gemeinsame Veranlagung
-   Ehepaar in rechtlich und   meinsamen Bemessungs-   zinsenabzug für das Kind   Kosten bis zum Maximal-   mit Elterntarif
-   tatsächlich ungetrennter   grundlage   von der gemeinsamen Be-   betrag von der gemeinsa-
-   Ehe mit minderjährigem   messungsgrundlage   men Bemessungsgrundlage
-   Kind
-
-
-1-030-D-2010-Beilage-2-d-2014.doc
+     Die Unterhaltszahlun-       Der Elternteil, der den   entfällt   
+   14.13. Konkubinat   gen an das volljährige
+    Der Unterhaltszahlun-
+    gen leistende Elternteil   Kinderabzug geltend
+    Der Elternteil, der den
+    Kinderabzug geltend
+   mit gemeinsamem voll-   Kind sind bei diesem   kann den Kinderabzug   machen kann.   machen kann, erhält
+   jährigem Kind in   steuerfrei.   geltend machen.    Leisten beide Eltern-   den Elterntarif.

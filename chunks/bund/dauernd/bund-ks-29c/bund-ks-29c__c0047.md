@@ -5,25 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 47"
-seiten: "15"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 16
 
-Das Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-KER dar, als
-es aus einbezahltem Grund- oder Stammkapital oder bestehenden KER bzw. Ausland-KER
-der übernommenen Gesellschaft stammt.
+<!-- Seite 16 -->
+6.2.2. Echte und unechte Fusion verbundener Gesellschaften
 
-Bei einer Fusion erzielen beteiligte Privatpersonen in dem Umfange Vermögensertrag, als
-ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu Lasten der
-übrigen Reserven zufliessen.
+Siehe Ausführungen unter Ziffer 6.2.1. hiervor unter Beachtung folgender Besonderheiten:
 
-Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
-können miteinander und gegenseitig verrechnet werden.
+a)   Direkte Bundessteuer (Einkommenssteuer)
+
+Übernimmt eine Gesellschaft mit echter Unterbilanz durch Absorption die Aktiven und Passi-
+ven einer von den gleichen Gesellschaftern (Privatpersonen) beherrschten Gesellschaft mit
+Reserven und Gewinnvortrag, erlangen die Gesellschafter durch diese Sanierung nur dann
+einen geldwerten Vorteil gemäss Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG,
+wenn und soweit durch die Fusion übrige Reserven untergehen.
+
+Gleiches gilt für Vorteilszuwendungen an eine Schwestergesellschaft mit echter Unterbilanz.
 
 b)   Verrechnungssteuer
-
-Reserven, die bei einer Umstrukturierung in die übrigen Reserven einer inländischen Kapital-
-gesellschaft oder Genossenschaft übergehen, sind nach Artikel 5 Absatz 1 Buchstabe a
-VStG von der Verrechnungssteuer ausgenommen. Dabei wird vorausgesetzt, dass das
-übertragene Verrechnungssteuersubstrat erhalten bleibt.

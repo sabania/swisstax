@@ -4,14 +4,14 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 79"
-seiten: "18"
+titel: "Ziff. 13.4.1 Elterntarif – Zusammenleben, Hauptunterhalt, Wohnsitz volljähriger Kinder (Teil 3/3)"
+ziffer: "13.4.1"
+seiten: "23-24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.1 Allgemeines · S. 23–24
 
-<!-- Seite 18 -->
-aus der gebundenen Selbstvorsorge (Säule 3a), Vermögensertrag oder Leibrenten, sind hin-
-gegen dem Erwerbseinkommen nicht gleichgestellt.
-
-9.3   Abzug bei Mitarbeit im Beruf oder Betrieb des Ehegatten
+Werden die Voraussetzungen des Elterntarifs nicht mehr erfüllt, beispielsweise beim Tod
+eines Kindes, bei Abschluss der Ausbildung oder etwa bei Wegfall der Unterstützungsbedürf-
+tigkeit, so werden die Eltern bzw. die erwachsenen Personen wieder zum Verheiratetentarif
+oder, wenn sie nicht verheiratet sind, zum Grundtarif besteuert.

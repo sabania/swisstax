@@ -10,17 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 7
 
-    Beispiele für das Verneinen einer faktischen Arbeitgeberschaft:
-    1. Die R. AG mit Sitz in Luzern will ihre Geschäftsliegenschaft renovieren und erteilt dazu der K. GmbH mit
-    Sitz in München, Deutschland, einen entsprechenden Auftrag. Die K. GmbH, München, entsendet zur Auf-
-    tragserfüllung während sechs Monaten zehn Arbeitnehmer nach Luzern (= Erfüllungsgehilfe).
-    2. Die S. GmbH mit Sitz in Basel erhält den Auftrag, bei der Versicherung Y in Aarau neue Liftanlagen zu
-    montieren. Für diese Auftragserfüllung darf sie Dritte beiziehen, sofern sie vorgängig die schriftliche Zu-
-    stimmung der Versicherung Y einholt. Die S. GmbH, Basel, beauftragt die W. AG mit Sitz in Berlin,
-    Deutschland, die Kabelzüge für die Liftanlage zu montieren. Die W. AG, Berlin, entsendet zur Auftragser-
-    füllung sieben Arbeitnehmer, welche während fünf Monaten die Kabelanlage installieren (= Subunterneh-
-    mervertrag).
-    3. G. ist bei der H. AG mit Sitz in Stuttgart (Deutschland; Mutterhaus) als Informatikchef (CIO) angestellt und
-    verantwortlich für die gesamte Informatik im Konzern. In dieser Funktion verbringt er jeweils 95 Arbeitstage
-    pro Jahr bei der schweizerischen Tochtergesellschaft in Solothurn (= ausschliessliche Arbeitsleistungen
-    gemäss Arbeitsvertrag mit dem Mutterhaus).
+    Beispiele für das Vorliegen einer faktischen Arbeitgeberschaft:
+    1. Die M. AG mit Sitz in Zürich schliesst mit der Bank X in St. Gallen für die Installation einer neuen Software
+    einen Dienstleistungsvertrag ab. Dabei wird vereinbart, dass der Einsatz Dritter (Subunternehmer) die vor-
+    gängige schriftliche Zustimmung der Bank X bedingt. Die M. AG, Zürich, zieht zur Auftragserfüllung wäh-
+    rend vier Monaten einen Arbeitnehmer der ausländischen Schwestergesellschaft M. GmbH mit Sitz in Köln
+    bei. Im Entsendevertrag wird vereinbart, dass die M. AG, Zürich, Art und Umfang der zu leistenden Arbei-
+    ten vor Ort bestimmt und die notwendigen Arbeitsmittel zur Verfügung stellt. Als Entschädigung bezahlt die
+    M. AG, Zürich, der M. GmbH, Köln, CHF 45 pro geleistete Arbeitsstunde des Arbeitnehmers. Die M. AG,
+    Zürich, hat folglich als faktische Arbeitgeberin die Quellensteuern abzurechnen.
+    2. Die P. AG mit Sitz in Bern hat Rückstände bei der Auftragserfüllung, weshalb ihr ihre italienische Tochter-
+    gesellschaft während sechs Monaten zwei Arbeitnehmer zur Verfügung stellt. Die P. AG, Bern, ist fakti-
+    sche Arbeitgeberin und somit zur Quellensteuerabrechnung verpflichtet.

@@ -5,34 +5,23 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 38"
-seiten: "19"
+seiten: "17"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 19
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 17
 
-<!-- Seite 19 -->
-Anhang
+   Die Vermögenssteuerwerte und Eigenmietwerte sind für die Steuer- 87
+periode 2026 allgemein nach dieser Weisung neu festzulegen.
+    Unter Vorbehalt von Ziff. 89–91 bleiben die Vermögenssteuerwerte 88
+und Eigenmietwerte bis zu einer späteren allgemeinen Neubewertung
+in den nachfolgenden Steuerperioden unverändert.
 
+2. Ausserordentliche Neubewertung einzelner Liegenschaften
 
-Steuerlich massgebende Landwerte, Ableitungssätze
-Eigenmietwert und Kapitalisierungssätze
-Mehrfamilien- und Geschäftshäuser
-
-
-Landwerte Wohnbauland
-Einfamilienhäuser   S. 20–24
-Mehrfamilienhäuser und Stockwerkeigentum   S. 25–29
-
-
-Landwerte Bauland für Geschäftshäuser
-sowie industrielle und gewerbliche Bauten
-Geschäftshäuser   S. 30–34
-Industrielle und gewerbliche Bauten   S. 30–34
-
-
-Ableitungssätze Eigenmietwert
-Einfamilienhäuser und Stockwerkeigentum   S. 35–39
-
-
-Kapitalisierungssätze Mehrfamilien- und Geschäftshäuser
-Mehrfamilien- und Geschäftshäuser   S. 35–39
+   Eine ausserordentliche Neufestsetzung der Vermögenssteuerwerte 89
+und Eigenmietwerte von Liegenschaften erfolgt:
+– für neu erstellte Gebäude oder Gebäudeerweiterungen sowie neue
+   Liegenschaften,
+– nach umfassender Totalrenovation von Gebäuden (Ziff. 33),
+– nach Abbruch von Gebäuden oder Gebäudeteilen,
+– nach entgeltlichen Handänderungen unter unabhängigen Dritten.

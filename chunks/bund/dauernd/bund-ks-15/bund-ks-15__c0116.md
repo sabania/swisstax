@@ -4,22 +4,19 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 116"
-seiten: "27"
+titel: "Anhang IV Gutachten Ziff. III.3 Credit Spreads nicht berücksichtigt"
+ziffer: "Anh. IV III.3"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 27
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang IV Gutachten SBVg › III Beurteilung · S. 34
 
-<!-- Seite 27 -->
-8   Wandelanleihen mit Put-Option zwecks vorzeitiger Rückzahlung
-Die Put-Option räumt dem Gläubiger das unwiderrufliche Recht ein, an einem bestimmten
-Stichtag – u.U. mehrere Jahre vor dem Ablauf der Originallaufzeit – die vorzeitige Rückzah-
-lung zu einem über dem Emissionspreis liegenden Wert zu verlangen. Solche Wandelanlei-
-hen gelten immer als nicht-klassisch (vgl. Ziffer 2.3.2. des Kreisschreibens Nr. 15).
-
-Entgegen den in der 1. Auflage dieses Anhangs III gemachten Ausführungen, ist die Put-Op-
-tion bei der Frage, ob es sich um eine einmalverzinsliche Anleihe handelt oder nicht, irrele-
-vant. Dies deshalb, weil im System einer transparenten Besteuerung nur die Eckwerte der
-Bondkomponente steuerlich massgebend sind. Es finden deshalb auch für diese Wandelan-
-leihen die Regeln gemäss den Ziffern 3.4., 3.4.1. sowie 3.4.2. des Kreisschreibens Nr. 15
-Anwendung.
+Veränderungen des Credit Spreads, d.h. des schuldnerspezifischen Zinszuschlags zum
+risikofreien Zinssatz, werden bei der von der Telekurs und der ESTV angewendeten
+Methode grundsätzlich nicht berücksichtigt. Sofern jedoch der effektive Wert des kom-
+binierten Produktes infolge einer massiven Verschlechterung der Bonität des Emitten-
+ten bzw. einer massiven Erhöhung des Credit Spreads des Emittenten unter den Bond
+Floor bei Emission sinkt, wird nicht mehr auf die berechneten Werte des Anleihensteils,
+sondern auf den effektiven Wert des kombinierten Produkts abgestellt. Damit wird aus-
+serordentlichen Situationen Rechnung getragen und vermieden, dass auf nicht sachge-
+rechte Werte für die Ermittlung des steuerbaren Vermögensertrages abgestellt wird.

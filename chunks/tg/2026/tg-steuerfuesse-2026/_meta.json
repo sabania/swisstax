@@ -212,7 +212,7 @@
 "titel": "Steuerfüsse TG 2026 – Abschnitt 14",
 "pfad": [],
 "seiten": [
-5
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -276,7 +276,7 @@
 "titel": "Steuerfüsse TG 2026 – Abschnitt 18",
 "pfad": [],
 "seiten": [
-6
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -292,7 +292,7 @@
 "titel": "Steuerfüsse TG 2026 – Abschnitt 19",
 "pfad": [],
 "seiten": [
-6
+5
 ],
 "artikel": null,
 "ziffer": null,
@@ -340,7 +340,7 @@
 "titel": "Steuerfüsse TG 2026 – Abschnitt 22",
 "pfad": [],
 "seiten": [
-7
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -356,7 +356,7 @@
 "titel": "Steuerfüsse TG 2026 – Abschnitt 23",
 "pfad": [],
 "seiten": [
-7
+6
 ],
 "artikel": null,
 "ziffer": null,
@@ -445,6 +445,22 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "tg-steuerfuesse-2026__c0027",
+"nachher": "tg-steuerfuesse-2026__c0029"
+},
+{
+"id": "tg-steuerfuesse-2026__c0029",
+"titel": "Steuerfüsse TG 2026 – Abschnitt 29",
+"pfad": [],
+"seiten": [
+7
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "tg-steuerfuesse-2026__c0028",
 "nachher": null
 }
 ]

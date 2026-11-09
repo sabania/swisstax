@@ -4,21 +4,28 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 32"
-seiten: "7"
+titel: "Ziff. 3.4 Analytische Methode (Swapsatz, BFP-Service)"
+ziffer: "3.4"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 7
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen · S. 9–10
 
-Direkte Bundessteuer
-Zinsen in periodischer Form oder in der Form von Einmalentschädigungen auf Obligationen
-(Emissionsdisagio oder Rückzahlungsagio als Differenz zwischen Ausgabe- und Rückzah-
-lungswert) stellen gemäss Artikel 20 Absatz 1 Buchstabe a DBG steuerbaren Vermögenser-
-trag dar. Zinsen in periodischer Form werden nach dem allgemeinen Fälligkeitsprinzip, Ein-
-malentschädigungen im Zeitpunkt der Rückzahlung besteuert.
+Zu c. hievor: Für Instrumente, bei denen die einzelnen Komponenten nicht separat handel-
+bar sind oder, die zwar separat gehandelt werden können, bei denen jedoch tatsächlich
+keine Trennung der einzelnen Komponenten im Markt stattfindet, erfolgt die Separierung der
 
-Nicht unter die steuerbaren Erträgnisse im Sinne von Artikel 20 Absatz 1 Buchstabe a DBG
-fallen die sog. Marchzinsen. Sie sind Bestandteil des vom Käufer an den Verkäufer der Obli-
-gation bezahlten Kaufpreises. Unter Marchzinsen sind laufende, noch nicht fällige Zinsen zu
-verstehen, wie sie für die Zeit vom Fälligkeitsdatum des letzten eingelösten Coupons bis zum
-Verkauf der betreffenden Obligation auflaufen.
+
+1-015-DVS-2017-d
+
+einzelnen Komponenten des Produktes mit Hilfe der sog. analytischen Methode. Diese Me-
+thode ist im BFP-Service technisch umgesetzt (vgl. Anhang IV). Ziel dieser finanzmathemati-
+schen oder analytischen Berechnungsmethode ist es, den Wert der im kombinierten Produkt
+enthaltenen Obligation und Option(en) zu ermitteln. Sie besteht im Wesentlichen darin, dass
+der garantierte Rückzahlungsbetrag der im Produkt enthaltenen Obligation zu dem vom
+Emittenten berücksichtigten und vergleichbaren Anlagen (Laufzeit, Währung, Bonität) ent-
+sprechenden und damit marktkonformen Zinssatz diskontiert wird. Aus Gründen der Verwal-
+tungsökonomie sowie der Rechtssicherheit und Rechtsgleichheit wird dafür der jeweilige
+mittlere Swapsatz (Zinssatz für risikofreie Anlagen) der entsprechenden Währung und Lauf-
+zeit im Zeitpunkt der Emission als objektive Vergleichsbasis für die Frage der Verzinsung der
+im Produkt enthaltenen Obligation herangezogen.

@@ -10,16 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
 
-<!-- Seite 9 -->
-Sitz in der Schweiz sein und darf sich wegen des Konkurrenzverbotes nur an einer KmGK
-als Komplementär beteiligen (vgl. Art. 104 KAG). Die KmGK tätigt zur Hauptsache Anlagen
-in Risikokapital, weshalb ihre Anleger (Kommanditäre) im Sinne von Artikel 10 Absatz 3 KAG
-besonders qualifiziert sein müssen. Die KmGK ist somit vor allem ein Anlagevehikel für Ban-
-ken, Effektenhändler, Versicherungseinrichtungen, öffentlich-rechtliche Körperschaften und
-Vorsorgeeinrichtungen mit professioneller Tresorerie sowie für vermögende Privatpersonen,
-die über Finanzanlagen von mindestens CHF 5'000'000.-- verfügen (vgl. Art. 6 Abs. 1 KKV).
+Die Umstrukturierungen gemäss Artikel 95 Absatz 1 KAG sind auf Stufe der kollektiven Kapi-
+talanlage steuerneutral. Mit Bezug auf Umstrukturierungen gemäss Artikel 95 Absatz 1 Buch-
+staben a und b KAG ist Artikel 61 DBG sinngemäss anwendbar. Bei Vermögensübertragun-
+gen gemäss Artikel 95 Absatz 1 Buchstabe c KAG sind Artikel 61 Absätze 3 und 4 DBG da-
+gegen nicht anwendbar.
 
-Die KmGK bzw. deren geschäftsführenden Personen haben für die steuerliche Gleichstel-
-lung ihrer Gesellschafter mit Anlegerinnen und Anlegern vertraglicher Anlagefonds oder SI-
-CAV die Einhaltung der Voraussetzungen gemäss KAG nachzuweisen (vgl. Art. 129 Abs. 1
-Bst. c DBG oder Art. 129 Abs. 3 DBG bei direktem Grundbesitz).
+Bei der Übernahme von Vermögenswerten durch eine kollektive Kapitalanlage von einer Ka-
+pitalgesellschaft oder Genossenschaft kommt Artikel 61 DBG nicht zur Anwendung. Daher
+realisiert die übertragende Kapitalgesellschaft oder Genossenschaft die entsprechenden stil-
+len Reserven.
+
+Auf Umstrukturierungen von oder mit ausländischen kollektiven Kapitalanlagen sind die Best-
+immungen von Artikel 61 DBG ebenfalls sinngemäss anwendbar.

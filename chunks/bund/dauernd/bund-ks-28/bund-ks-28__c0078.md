@@ -5,24 +5,31 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 78"
-seiten: "24"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 23
 
-<!-- Seite 24 -->
-2.2   Einkauf in eine Vorsorgeeinrichtung
-Artikel 4
+<!-- Seite 23 -->
+    Vorjahr   Liquidationsjahr
 
-Absatz 1 und 2
-Der Gesetzgeber wollte die Selbständigerwerbenden bezüglich der beruflichen Vorsorge den
-Unselbständigerwerbenden weitestgehend gleichstellen. Aus diesem Grund soll auch der
-Selbständigerwerbende, welcher sich freiwillig einer Einrichtung der beruflichen Vorsorge
-angeschlossen hat, den einbezahlten Einkaufsbetrag für die berufliche Vorsorge im Rahmen
-der Liquidation nach dem Grundsatz von Artikel 33 Absatz 1 Buchstabe d DBG in erster Linie
-vom Erwerbseinkommen, das nicht aus der Liquidation stammt, und von den übrigen Ein-
-künften abziehen können.
+    2011   2012   2013
 
-Gemäss Artikel 79b Absatz 3 des Bundesgesetzes über die berufliche Alters-, Hinterlasse-
-nen- und Invalidenvorsorge (BVG; SR 831.40) dürfen die aus diesen Einkäufen resultieren-
-den Leistungen innerhalb der nächsten drei Jahren nicht in Kapitalform bezogen werden.
+    Fall 3
+    PV
+    2011 LS wird ins PV   PV   Dritte
+    überführt mit Auf-
+    Differenz
+    schub gem.
+    Verkaufspreis
+    Art. 18a DBG
+    Aufschub Art.   ./. Anlagekos-
+    18a DBG   ten = steuer-
+    2013 LS wird an   Art. 37b DBG   bares Ein-
+    Dritte veräussert
+    kommen aus
+    wieder eingebrach-
+    selbständiger
+    te Abschreibungen
+    Erwerbstätig-
+    keit

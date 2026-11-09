@@ -4,18 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 3"
-seiten: "1"
+titel: "Ziff. 1 Einleitung – KS 4 und Transparenz kombinierter Produkte (Teil 3/3)"
+ziffer: "1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 1
+> Bund · Steuerjahr 2025/2026 · KS 15 · 1 Einleitung · S. 2
 
-Inhaltsverzeichnis   Seite
-1   Einleitung................................................................................................................ 2
-2   Begriffe ................................................................................................................... 3
-2.1   Obligationen (vgl. Übersicht in Anhang I) ................................................................. 3
-2.1.1   Gewöhnliche Obligationen ....................................................................................... 3
-2.1.2   Diskont- und globalverzinsliche Obligationen ........................................................... 3
-2.1.3   Geldmarktpapiere..................................................................................................... 4
-2.1.4   Obligationen mit überwiegender Einmalverzinsung .................................................. 4
-2.2   Derivative Finanzinstrumente (vgl. Übersicht in Anhang I) ....................................... 4
+Im Unterschied zu heute stand zum Zeitpunkt der Publikation des KS 4 weder der Bond-
+FloorPricing-Service der SIX Financial Information AG (hienach BFP-Service) als Hilfsmittel
+zur Verfügung, noch war der Swap-Satz als Behelf zur verobjektivierten Bestimmung der
+marktkonformen Verzinsung des Anlageteils von kombinierten Produkten bei den Marktteil-
+nehmern bereits allgemein anerkannt. Diese Hilfsmittel ermöglichen es heute grundsätzlich,
+alle gängigen, nicht trennbaren kombinierten Produkte auch ohne entsprechende Angaben
+der Emittenten nachträglich transparent zu machen. Von dieser Möglichkeit haben die Steu-
+erpflichtigen in der Schweiz, wie auch die Emittenten und Vertriebskanäle, in den vergange-
+nen Jahren regen Gebrauch gemacht und somit von der unter den gegebenen Umständen
+für sie vorteilhaften steuerlichen Trennung von Anlage- und Options-/Wandelgeschäft profi-
+tiert.

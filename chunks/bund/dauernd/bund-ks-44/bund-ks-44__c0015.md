@@ -10,17 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 44 · S. 4
 
-<!-- Seite 4 -->
-    c. für die übrigen steuerpflichtigen Personen: dem Dreifachen des jährlichen Pensionsprei-
-    ses für Unterkunft und Verpflegung am Ort des Aufenthalts nach Artikel 3 DBG;
-    d. der Summe der Bruttoerträge:
-    1. der Einkünfte aus dem in der Schweiz gelegenen unbeweglichen Vermögen,
-    2. der Einkünfte aus der in der Schweiz gelegenen Fahrnis,
-    3. der Einkünfte aus dem in der Schweiz angelegten beweglichen Kapitalvermögen,
-    einschliesslich der grundpfändlich gesicherten Forderungen,
-    4. der Einkünfte aus den in der Schweiz verwerteten Urheberrechten, Patenten und
-    ähnlichen Rechten,
-    5. der Ruhegehälter, Renten und Pensionen, die aus schweizerischen Quellen fliessen,
-    6. der Einkünfte, für die die steuerpflichtige Person aufgrund eines von der Schweiz ab-
-    geschlossenen Abkommens zur Vermeidung der Doppelbesteuerung gänzlich
-    oder teilweise Entlastung von ausländischen Steuern beansprucht.
+3.2   Weltweiter Aufwand
+Die Steuer nach dem Aufwand wird nach den jährlichen, in der Bemessungsperiode im In- und
+Ausland entstandenen Lebenshaltungskosten der steuerpflichtigen Person und der von ihr un-
+terhaltenen, im In- und Ausland lebenden Personen berechnet (Prinzip des weltweiten Auf-
+wands). Die ausserordentlichen und nichtperiodischen Kosten, wie zum Beispiel die Schenkung
+eines bedeutenden Teils des Vermögens der steuerpflichtigen Person, gelten in der Regel nicht
+als Unterhaltskosten der steuerpflichtigen Person oder derer Familie.
+Unter die Lebenshaltungskosten der steuerpflichtigen Person fallen insbesondere (siehe dazu
+Botschaft S. 6035 zu Art. 14 Abs. 3 DBG):
+-   die Kosten für Verpflegung und Bekleidung,
+-   die Kosten für Unterkunft inkl. Heizung, Reinigung, Gartenunterhalt usw.,
+-   die Steuern und Sozialversicherungsabgaben,
+-   die gesamten Aufwendungen (Geld- und Naturalleistungen) für Personal im Dienste der
+    steuerpflichtigen Person,
+-   Unterhaltsbeiträge,

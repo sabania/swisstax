@@ -66,7 +66,7 @@
 "titel": "KS 41 – Abschnitt 5",
 "pfad": [],
 "seiten": [
-2
+1
 ],
 "artikel": null,
 "ziffer": null,
@@ -146,7 +146,7 @@
 "titel": "KS 41 – Abschnitt 10",
 "pfad": [],
 "seiten": [
-3
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -226,7 +226,7 @@
 "titel": "KS 41 – Abschnitt 15",
 "pfad": [],
 "seiten": [
-4
+3
 ],
 "artikel": null,
 "ziffer": null,
@@ -306,7 +306,7 @@
 "titel": "KS 41 – Abschnitt 20",
 "pfad": [],
 "seiten": [
-5
+4
 ],
 "artikel": null,
 "ziffer": null,
@@ -363,6 +363,22 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "bund-ks-41__c0022",
+"nachher": "bund-ks-41__c0024"
+},
+{
+"id": "bund-ks-41__c0024",
+"titel": "KS 41 – Abschnitt 24",
+"pfad": [],
+"seiten": [
+5
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "seiten (Fallback)",
+"vorher": "bund-ks-41__c0023",
 "nachher": null
 }
 ]

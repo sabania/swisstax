@@ -10,12 +10,14 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 18
 
-    Beispiel:
-    -   Der nicht kirchensteuerpflichtige Arbeitnehmer U. ist geschieden und bezahlt jeden Monat CHF 1 500.00
-    Unterhalt an seine Ex-Ehefrau sowie je CHF 1 000.00 Alimente für die beiden minderjährigen Kinder
-    (= CHF 2 000.00), die bei der Kindsmutter leben (gemeinsame elterliche Sorge). Sein monatlicher Brutto-
-    lohn beträgt CHF 5 500.00.
-    Der Antrag von U. auf Anwendung der Härtefallregelung wird gutgeheissen. Die jährlichen Unterhaltszah-
-    lungen betragen CHF 42 000.00 (= 12 x CHF 1 500.00 + 12 x 2 x CHF 1 000.00). Pro Kind wird gemäss
-    kantonalem Steuergesetz ein Abzug von CHF 8 000.00 pro Jahr gewährt. Die kantonale Steuerverwaltung
-    bewilligt folglich die Anwendung des Tarifcodes A5N (5 x CHF 8 000.00 = CHF 40 000.00).
+    rige Kind vor. In diesem Fall ist der Tarifcode C2 anwendbar, da das Ehepaar unverändert der Gesamt-
+    satzbesteuerung unterliegt.
+    -   Tarifcode H:
+    Der Arbeitnehmer W. lebt in der Schweiz im gemeinsamen Haushalt mit seinem minderjährigen Kind und
+    seiner Konkubinatspartnerin. Beide Elternteile haben die elterliche Sorge. Die Konkubinatspartnerin ist mit
+    einem geringeren Bruttoverdienst ebenfalls in der Schweiz erwerbstätig. Der Arbeitnehmer W. kommt zur
+    Hauptsache für den Unterhalt des Kindes auf und ist demnach gemäss Tarifcode H1 zu besteuern. Die
+    Konkubinatspartnerin ist mit dem Tarifcode A0 zu besteuern.
+    Der Arbeitnehmer U. lebt in der Schweiz. Sein minderjähriges Kind und die getrennt lebende Mutter des
+    Kindes leben in Deutschland. Da das Kind nicht im gleichen Haushalt wie der Arbeitnehmer U. lebt, ist
+    nicht der Tarifcode H1 anwendbar, sondern der Tarifcode A0.

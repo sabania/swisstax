@@ -4,24 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 186"
-seiten: "49"
+titel: "Beilage 2 Seite 12/13 Stichtag, unterjährige und beschränkte Steuerpflicht (Teil 2/2)"
+ziffer: "Beilage 2, S. 12/13"
+seiten: "57"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 49
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 57
 
-    Unterhaltszahlungen für   Zusätzlicher Versiche-
-    Kinderbetreuungskosten-
-    das Kind   Kinderabzug   rungs- und Sparzinsen-
-   Familienkonstellationen   abzug nur bis zum voll-   Tarif
-    (Art. 23 Bst. f, 24 Bst. e,   (Art. 35 Abs. 1 Bst. a   abzug für das Kind
-   (Kapitel im KS)   endeten 14. Altersjahr   (Art. 36 DBG)
-    33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
-    (Art. 33 Abs. 3 DBG)
-    DBG)   DBG)
-     Unterhaltszahlungen,   Der Elternteil, der die Un-   Der Elternteil, der die Un-    Der Elternteil, der die   
-   14.5. Getrennte,   die ein Elternteil für die   terhaltszahlungen erhält.   terhaltszahlungen erhält.   Unterhaltszahlungen er-
-    Der Elternteil, der die
-    Unterhaltszahlungen
-   geschiedene oder unver-   unter seiner elterlichen   hält.   erhält, wird zum El-
-   heiratete Eltern (zwei   Sorge stehenden Kinder    Befindet sich das Kind   terntarif besteuert.
+    Pro rata temporis   Pro rata temporis   Pro rata temporis   Pro rata temporis   Anteilige Reduktion des
+   13.4.6. Eltern   Steuerbetrags im Verhältnis
+   sind nur einen Teil des   des steuerbaren Einkom-
+   Jahres in der Schweiz   mens zum höheren satzbe-
+   steuerpflichtig   stimmenden Einkommen
+    (unter Vorbehalt anders
+    lautender DBA)
+    Ausscheidung aufgrund   Ausscheidung aufgrund   Ausscheidung aufgrund   Ausscheidung aufgrund   Anteilige Reduktion des
+   13.4.7. Beide   Nettoeinkommen2)   Reineinkommen2)   Nettoeinkommen2)   Nettoeinkommen2)   Steuerbetrags im Verhältnis
+   Elternteile sind nur be-   (unter Vorbehalt anders   (unter Vorbehalt anders   (unter Vorbehalt anders   (unter Vorbehalt anders   des in der Schweiz steuerba-
+   schränkt steuerpflichtig   lautender DBA)   lautender DBA)   lautender DBA)   lautender DBA)   ren Einkommens zum höhe-
+    ren satzbestimmenden Ein-
+    kommen
+    (unter Vorbehalt anders
+    lautender DBA)
+
+1-030-D-2010-Beilage-2-d-2014.doc

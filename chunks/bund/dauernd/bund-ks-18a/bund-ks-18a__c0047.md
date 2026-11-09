@@ -2,23 +2,25 @@
 id: bund-ks-18a__c0047
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 47"
-seiten: "10"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "11"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 10
+> Bund · Steuerjahr 2026 · KS 18a · S. 11
 
-6.3. Einkauf in die 2. Säule mit Mitteln der Säule 3a
-Die vorzeitige Ausrichtung der Altersleistung aus der Säule 3a ist bei Auflösung des Vorsor-
-geverhältnisses zulässig, wenn der Vorsorgenehmer die ausgerichtete Leistung für den Ein-
-kauf in eine steuerbefreite Vorsorgeeinrichtung der beruflichen Vorsorge verwendet (vgl.
-Art. 3a Abs. 1 Bst. a BVV 3). Er kann sein Vorsorgekapital nur dann teilweise übertragen,
-wenn er es für den vollständigen Einkauf in eine steuerbefreite Vorsorgeeinrichtung verwen-
-det (vgl. Art. 3a Abs. 2 BVV 3). Die Überweisung des Vorsorgeguthabens muss direkt vom
-Säule-3a-Vorsorgeträger an die Vorsorgeeinrichtung der 2. Säule erfolgen. Eine Übertragung
-ist diesfalls steuerneutral. Das transferierte Guthaben gelangt im Zeitpunkt der Überweisung
-nicht zur Besteuerung; eine Meldung über Kapitalleistungen an die ESTV hat daher nicht zu
-erfolgen. Andererseits kann der so eingebrachte Einkaufsbetrag steuerlich nicht zum Abzug
-gebracht werden, weshalb eine Bescheinigung über Einkaufsbeiträge zu unterbleiben hat.
+    •   Das Datum des Einkaufs;
+    •   Die Höhe des vorgenommenen Einkaufs;
+    •   Die Jahre, für die eine Beitragslücke ausgeglichen werden soll und in welcher Höhe
+    diese ausgeglichen werden soll;
+    •   Die Höhe der Beiträge, die in den Jahren, für die eine Beitragslücke ausgeglichen
+    werden sollen, gegebenenfalls bereits geleistet wurden, unter Angabe des Zahlungs-
+    datums.
+
+Die ausgerichteten Leistungen sind gemäss VStG vom Vorsorgeträger der Eidgenössischen
+Steuerverwaltung (ESTV) Direkte Bundessteuer, Verrechnungssteuer, Stempelabgaben, Ab-
+teilung Erhebung, Eigerstrasse 65, 3003 Bern, zu melden. Die entsprechenden Formulare
+563 "Meldung über Kapitalleistungen" und 565 "Rentenmeldung" sind auf der Homepage der
+ESTV verfügbar (www.estv.admin.ch/estv/de/home/verrechnungssteuer/vst-abrechnen/vst-
+meldungen).

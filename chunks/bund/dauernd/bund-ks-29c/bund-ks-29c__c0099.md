@@ -10,14 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 34
 
-<!-- Seite 34 -->
-Anhang 4: Beispiel Rückzahlung und Wiedereinzahlung von KER innerhalb des
-gleichen Kapitalbands
+ Zusätzliche Gutschrift gemäss Ziffer 3.1. des KS 29c
+ Total Rückzahlungen KER innerhalb des Kapitalbands an die Aktionäte   11'400.00
+ Total Rückzahlungen übrige Reserven innerhalb des Kapitalbands an die Aktionäre, welche nicht über die
+ zweite Handelslinie erfolgen   -
+ Total zusätzliche Gutschrift   11'400.00   11'400.00
 
-1. Eine an einer schweizerischen Börse kotierte Gesellschaft zeigt folgende Eigenkapitalbe-
-   wegungen innerhalb ihres Kapitalbands über zwei Jahre (wobei sämtliche Rückkäufe über
-   eine zweite Handelslinie erfolgen):
-    Bestand   Jahr N+1   Bestand   Jahr N+2   Bestand   Bereinigung   Bestand
-    Erhöhung Herabsetzung   Herabsetzung   bereinigt
+ Total KER   13'400.00
 
- Aktienkapital   20'000.00   2'000.00   -1'000.00   21'000.00   -1'000.00   20'000.00   20'000.00
+Erklärungen:
+
+Während der Dauer des Kapitalbands werden die Kapitaleinlagen und -rückzahlungen mitei-
+nander verrechnet (Nettobetrachtung). Nur soweit die Einlagen die Rückzahlungen während
+der Dauer des Kapitalbands übersteigen, können steuerlich Reserven aus Kapitaleinlagen
+gebildet werden. Aufgrund Artikel 20 Absatz 8 DBG bzw. Artikel 5 Absatz 1septies VStG wer-
+den die KER gemäss Beispiel somit um 2'000 erhöht.

@@ -5,26 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 156"
-seiten: "42"
+seiten: "41"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 41
 
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 104 000.00 (CHF 4 000 x 13 / 50 %).
-
-    Teilzeit-Tätigkeiten (70 % - 20 %):
-    3. Ein lediger Steuerpflichtiger übt zwei unselbstständige Erwerbstätigkeiten in der Schweiz aus (Gesamtpen-
-    sum: 90 %). Er teilt den beiden Arbeitgebern den Gesamtbeschäftigungsgrad nicht mit:
-       70 % beim Arbeitgeber 1 für einen Bruttojahreslohn von CHF 24 000.00 (CHF 2 000 x 12)
-       20 % beim Arbeitgeber 2 für einen Bruttojahreslohn von CHF 6 000.00 (CHF 500 x 12)
-
-    Arbeitgeber 1
-
-    Monat   Januar   …   November   Dezember   Besteuerung
-    Bruttolohn   2 000   2 000   2 000   24 000
-    Tarifcode   A0   A0   A0   A0
-    Steuersatz (%)   3,91   3,9   3,9   3,9
-    Quellensteuer   78   78   78   936
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 34 285.70 (CHF 24'000 / 70 %).
-
-    Arbeitgeber 2
+<!-- Seite 41 -->
+rechnen. Dazu sind die Bestimmungen der Arbeitsverträge zu berücksichtigen. Dieselbe Vor-
+gehensweise gilt auch für Personen, welche eine der Tätigkeiten im Stunden- bzw. Tages-
+lohn ausüben, aber einen ordentlichen Monatslohn beziehen. Für die Bestimmung des Ar-
+beitspensums ist in diesen Fällen auf die betriebsüblichen Arbeitsstunden abzustellen.
+Kann das Arbeitspensum einer Erwerbstätigkeit nicht bestimmt werden (bspw. für eine pau-
+schalentschädigte nebenamtliche Hauswartstelle), kann der Schuldner der steuerbaren Leis-
+tung für die Ermittlung des satzbestimmenden Einkommens den im massgebenden Steuer-
+jahr für die Berechnung des Tarifcodes C zu Grunde gelegten Betrag aufrechnen. Dieser Be-
+trag wird zusammen mit den übrigen Berechnungsgrundlagen (vgl. Art. 85 Abs. 2 DBG) jähr-
+lich von den zuständigen Steuerbehörden veröffentlicht.
+Besteht eine quellensteuerpflichtige Lohnzahlung sowohl aus periodischen wie auch aus

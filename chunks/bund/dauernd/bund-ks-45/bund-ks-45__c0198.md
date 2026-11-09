@@ -5,27 +5,33 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 198"
-seiten: "54"
+seiten: "52"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 54
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 52
 
-    Beispiel:
-    - Ein lediger Steuerpflichtiger lebt mit seinem minderjährigen Kind im gleichen Haushalt und kommt zur
-    Hauptsache für dessen Unterhalt auf. Im März des Jahres 2023 entscheidet die Familienausgleichskasse,
-    dass für das Kind rückwirkend auf den 1. März des Jahres 2021 Familienzulagen ausbezahlt werden müs-
-    sen. Die Nachzahlung erfolgt im März des Jahres 2023. Der Steuerpflichtige erhält für sin 100 %-Pensum
-    einen Bruttojahreslohn CHF 52 000.00 (CHF 4 000 x 13).
+    Monat   Januar   …   Juli   August   September … Dezember Besteuerung
 
-    Monat   Jan.   Feb.   März   Apr.   …   Nov.   Dez.   Besteuerung
+    Bruttolohn   5 000   5 000   8 333.35   43 333.35
 
-    Bruttolohn   4 000   4 000   4 000   4 000   4 000   8 000   52 000.00
-    FamZul für das
-    600   200   200   200   2 400.00
-    laufende Jahr
-    FamZul für die vor-
-    hergehenden Jah-   4 400   4 400.00
-    res
-    Tarifcode   H1   H1   H1   H1   H1   H1   H1
+    Bonus   20 000.00   20 000.00
 
-    Steuersatz (%)   1,41   1,4   1,92   1,9   1,9   1,9   1.90
+    Tarifcode   A0   A0   A0
+
+    Steuersatz (%)   10,41   10,4   13,32
+
+    Quellensteuer   520   520   3 768.30   7 408.30
+    Korrektur
+    +1 015.003   +1 015.00
+    Januar - Juli
+    Total
+    520   520   4 783.30   8 423.30
+    Quellensteuer
+    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
+
+    2
+    = A0 mit satzbestimmendem Jahreseinkommen von CHF 85 000 {[(CHF 35 000 + CHF 8 333.35) / 240 x
+    360] + CHF 20 000}.
+    3 = Korrektur des Quellensteuerabzugs für die Monate Januar bis Juli [(CHF 5 000 x 13.30 %) x 7] –
+
+    (CHF 520 x 7).

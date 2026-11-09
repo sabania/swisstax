@@ -4,22 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 55"
-seiten: "12"
+titel: "Ziff. 9.3 Mitarbeit im Beruf oder Betrieb – hälftige Zurechnung"
+ziffer: "9.3"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 12
+> Bund · Steuerjahr 2025/2026 · KS 30 · 9 Zweiverdienerabzug › 9.3 Mitarbeit im Beruf oder Betrieb · S. 18
 
-Die konkrete Zuteilung des Versicherungs- und Sparzinsenabzuges für das Kind bei den
-verschiedenen Familienkonstellationen ist unter Ziffer 14 geregelt.
+9.3   Abzug bei Mitarbeit im Beruf oder Betrieb des Ehegatten
 
-Werden Steuerpflichtigen in bescheidenen Verhältnissen Prämienverbilligungen gemäss
-Artikel 65 ff. des Bundesgesetzes vom 18. März 1994 über die Krankenversicherung (KVG)
-gewährt, sind diese Ermässigungen bei der Festsetzung des Versicherungs- und Sparzin-
-senabzuges als aufwandmindernd zu berücksichtigen. Dies hat zur Folge, dass nur die tat-
-sächlich von der steuerpflichtigen Person getragenen Prämien, d.h. die eigenen sowie die für
-die von ihm unterhaltenen Personen, in Abzug gebracht werden können.
-
-8   Kinderdrittbetreuungskostenabzug
-
-8.1   Allgemeines
+Bei erheblicher Mitarbeit in der Erwerbstätigkeit des anderen Ehepartners wird im Sinne ei-
+ner möglichst einfachen Handhabung des Abzuges jedem Ehegatten zu seinem allfälligen
+übrigen Erwerbseinkommen grundsätzlich die Hälfte des gemeinsamen Erwerbseinkommens
+zugerechnet. Von der hälftigen Zurechnung kann abgewichen werden, wenn glaubhaft ge-
+macht werden kann, dass beispielsweise der Anteil des mitarbeitenden Ehegatten höher zu
+bewerten ist und der andere Ehegatte noch weiteres Erwerbseinkommen erzielt. Als Beispiel
+lässt sich hier die Ehefrau anführen, welche die laufenden Arbeiten eines kleinen gemeinsa-
+men Landwirtschaftsbetriebes zur Hauptsache besorgt, während der Ehemann hauptberuf-
+lich als Angestellter tätig ist. Der Prozentabzug wird auf dem niedrigeren der beiden totalen
+Erwerbseinkommen berechnet.

@@ -5,20 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 55"
-seiten: "14"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 14
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
 
-<!-- Seite 14 -->
-den vertraglichen Arbeitgeber ausgerichtet werden (bspw. Management Fees). Diese Leis-
-tungen unterliegen (allenfalls) der Besteuerung auf Ebene des Personalverleihers bzw. des
-vertraglichen Arbeitgebers.
-
-    Beispiel:
-    -   Der Arbeitnehmer Z. mit Wohnsitz in Murten, wird vom Personalverleiher Y. AG, Bern, an die X. GmbH mit
-    Sitz in Aarau verliehen. Die X. GmbH bezahlt dem Personalverleiher Y. AG eine Bruttoentschädigung in
-    Höhe von CHF 52.00 pro geleisteter Arbeitsstunde von Z. Die Y. AG ihrerseits bezahlt Z. einen Bruttolohn
-    von CHF 34.00 pro Stunde.
-    Der Quellenbesteuerung unterliegt nur der Bruttolohn von CHF 34.00. Die Differenz von CHF 18.00 pro
-    Stunde wird bei der Y. AG besteuert.
+3.2.7 Naturalleistungen
+Naturalleistungen werden anhand ihres Marktwerts zum Lohn hinzugerechnet. Für die Be-
+wertung gelten die Ansätze für Verpflegung und Unterkunft gemäss dem jeweils gültigen
+«Merkblatt der Eidgenössischen Steuerverwaltung über die Bewertung von Verpflegung und
+Unterkunft von Unselbstständigerwerbenden» (vgl. Merkblatt N2 der ESTV). Im Weiteren
+wird auf die Randziffer 20 der «Wegleitung zum Ausfüllen des Lohnausweises» verwiesen.

@@ -10,14 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 4
 
-3.3.2   Besteuerung
-Direkten Grundbesitz können die vertraglichen Anlagefonds, die SICAV, die KmGK und auch
-die SICAF haben. Artikel 49 Absatz 2 DBG stellt die vertraglichen Anlagefonds, die SICAV
-und die KmGK mit direktem Grundbesitz den übrigen juristischen Personen gleich. Invest-
-mentgesellschaften mit festem Kapital (SICAF) werden wie Kapitalgesellschaften besteuert.
+Erträge, die nicht aus direktem Grundbesitz stammen (z.B. Zinsen auf kurzfristigen festver-
+zinslichen Effekten oder auf kurzfristig verfügbaren Mitteln; vgl. Art. 60 KAG), sind von der
+Gewinnsteuer der kollektiven Kapitalanlagen ausgenommen und sind durch die Anlegerin-
+nen und Anleger zu versteuern (vgl. Art. 20 Abs. 1 Bst. e DBG). Bei der SICAF unterliegen
+demgegenüber sämtliche Erträge der Gewinnsteuer. Ausschüttungen unterliegen gemäss
+Artikel 20 Absatz 1 Buchstabe c DBG beim Anleger der Einkommenssteuer.
 
-Vertragliche Anlagefonds, SICAV und KmGK mit direktem Grundbesitz in der Schweiz unter-
-liegen für den Ertrag und Gewinn aus direktem Grundbesitz der Gewinnsteuer (Art. 66 Abs. 3
-DBG) und werden zum Satz von 4,25 % (vgl. Art. 72 DBG) besteuert. Diese steuerliche Be-
-handlung gilt für Ausschüttungsfonds, Thesaurierungsfonds und gemischte Fonds gleicher-
-massen. Für SICAF gilt ein Satz von 8,5 % (vgl. Art. 68 DBG).
+Für die Veranlagung kollektiver Kapitalanlagen mit direktem Grundbesitz in der Schweiz ist
+der Kanton zuständig, in dem sich der Sitz der Fondsleitung, der SICAV oder der KmGK am
+Ende der Steuerperiode befindet (vgl. Art. 105 Abs. 3 DBG).

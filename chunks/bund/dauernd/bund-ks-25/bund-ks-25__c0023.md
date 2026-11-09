@@ -10,17 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 5
 
-<!-- Seite 5 -->
-       Einkäufe in laufende Nettoerträge gelten als Erträge aus direktem Grundbesitz.
-       Rückzahlungen (Kündigung des Kollektivanlagevertrages bzw. Rückgabe der SI-
-    CAV-Anteile) können als geschäftsmässig begründeter Aufwand geltend gemacht
-    werden.
-       Aktivzinsen auf Bankguthaben und anderen Forderungen sowie übrige Erträge sind
-    nicht Bestandteil des Ertrages aus direktem Grundbesitz.
-       Die auf den direkten Grundbesitz entfallenden Erträge und Aufwendungen (inkl. di-
-    rekte Steuern) sind grundsätzlich aufgrund der Erfolgsrechnung über den Direktbe-
-    sitz objektmässig zuzurechnen.
-       Aufwendungen, die nicht objektmässig zugerechnet werden können, sind im Ver-
-    hältnis des Verkehrswertes des direkten Grundbesitzes zum Verkehrswert der Ge-
-    samtaktiven gemäss der konsolidierten Vermögensrechnung (vgl. Art. 90 KAG) auf-
-    zuteilen.
+Bei einem Wechsel von der Jahresrechnung nach KAG zu einer solchen nach OR ist folgen-
+des zu beachten:
+       Wurden die nicht realisierten Kapitalgewinne auf den Liegenschaften bislang besteu-
+    ert, kann die Wertdifferenz bei Einreichung einer Jahresrechnung nach OR als ver-
+    steuerte stille Reserven geltend gemacht werden.
+    Für steuerliche Zwecke ist bei Abschreibungen auf die Gewinnsteuerwerte abzustel-
+    len. Sollte trotz der steuerlichen Abschreibung der verbleibende Gewinnsteuerwert
+    höher sein als der Verkehrswert in diesem Zeitpunkt, muss zwingend auf den tieferen
+    Verkehrswert wertberichtigt bzw. abgeschrieben werden.
+       Wurden die nicht realisierten Kapitalgewinne bisher nicht besteuert, muss sicherge-
+    stellt werden, dass bei einer Überleitung zu einer Jahresrechnung nach OR die Wert-
+    differenz zwischen den bisher für die Gewinnsteuer massgeblichen Werten und den
+    neuen Buchwerten gemäss Jahresrechnung nach OR steuerlich erfasst wird.

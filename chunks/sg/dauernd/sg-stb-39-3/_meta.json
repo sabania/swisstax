@@ -354,22 +354,6 @@
 "titel": "StB 39 Nr. 3 – Abschnitt 23",
 "pfad": [],
 "seiten": [
-5
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0022",
-"nachher": "sg-stb-39-3__c0024"
-},
-{
-"id": "sg-stb-39-3__c0024",
-"titel": "StB 39 Nr. 3 – Abschnitt 24",
-"pfad": [],
-"seiten": [
 6
 ],
 "artikel": null,
@@ -378,7 +362,7 @@
 "positionen": null,
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-3__c0023",
+"vorher": "sg-stb-39-3__c0022",
 "nachher": null
 }
 ]

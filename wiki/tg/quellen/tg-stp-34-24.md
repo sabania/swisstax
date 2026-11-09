@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-34-nr-24-drittbetreuungskosten> · lokal: [tg-stp-34-24.html](../../../raw/tg/dauernd/tg-stp-34-24.html) · Volltext: [tg-stp-34-24.md](../../../sources/tg/dauernd/tg-stp-34-24.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e9f8af5c56c0d265…`
 
-## Inhalt (15 Chunks)
+## Inhalt (14 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -30,4 +30,3 @@ generiert: tools/build_index.py
 | [c0012](../../../chunks/tg/dauernd/tg-stp-34-24/tg-stp-34-24__c0012.md) | Ältere Versionen |  |  |
 | [c0013](../../../chunks/tg/dauernd/tg-stp-34-24/tg-stp-34-24__c0013.md) | Ältere Versionen |  |  |
 | [c0014](../../../chunks/tg/dauernd/tg-stp-34-24/tg-stp-34-24__c0014.md) | Ältere Versionen |  |  |
-| [c0015](../../../chunks/tg/dauernd/tg-stp-34-24/tg-stp-34-24__c0015.md) | Ältere Versionen |  |  |

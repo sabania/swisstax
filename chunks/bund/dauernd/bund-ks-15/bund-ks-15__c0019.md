@@ -4,24 +4,15 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 19"
-seiten: "4"
+titel: "Ziff. 2.3.3.1 Reverse Convertibles ohne Kapitalschutz (Teil 2/2)"
+ziffer: "2.3.3.1"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 15 · 2 Begriffe › 2.3 Kombinierte Produkte › 2.3.3 Reverse Convertibles · S. 6
 
-2.2   Derivative Finanzinstrumente (vgl. Übersicht in Anhang I)
-2.2.1   Allgemeines
-Derivative Finanzinstrumente sind dadurch charakterisiert, dass ihr Wert abhängig ist von
-demjenigen eines anderen Produktes (Basiswert). Als Basiswerte kommen Aktien, Obligatio-
-nen, Edelmetalle, Währungen, Zinssätze, Aktienindizes etc. in Betracht. Derivative Finanzin-
-strumente dienen der Absicherung und Übertragung von Risiken, der Spekulation sowie der
-Herstellung eines Fristen- oder Währungsausgleiches für Forderungen und Verpflichtungen.
-Zu den herkömmlichen Derivaten zählen insbesondere Termingeschäfte (Futures) und Optio-
-nen.
-
-2.2.2   Termingeschäfte (Futures)
-Ein Termingeschäft ist ein Vertrag zwischen zwei Parteien. Er beinhaltet die wechselseitige
-Verpflichtung, eine festgelegte Menge eines bestimmten Gutes (Basiswert) zu einem verein-
-barten Preis (Terminpreis) in einem festgelegten Zeitpunkt in der Zukunft zu übernehmen
-(Terminkäufer) oder zu liefern (Terminverkäufer).
+Die garantierten Zahlungen des Emittenten an den Anleger während der Laufzeit des Pro-
+dukts bestehen einerseits aus einer marktüblichen Verzinsung der Obligation und anderseits
+aus der vom Emittenten geschuldeten Put-Optionsprämie (gegebenenfalls verrechnet mit der
+vom Investor geschuldeten Prämie für die Call-Option), welche – für Optionsprämien an sich
+unüblich – ebenfalls über die Laufzeit verteilt zur Auszahlung gelangen kann.

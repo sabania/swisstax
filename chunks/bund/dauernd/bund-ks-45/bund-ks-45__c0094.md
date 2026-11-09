@@ -5,30 +5,28 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 94"
-seiten: "24"
+seiten: "23"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
 
-    8. Lohneinkommen und Ersatzeinkünfte:
-    Der Arbeitnehmer Z. erhält folgende Entschädigungen, welche beiden Schuldnern der steuerbaren Leis-
-    tungen bekannt sind:
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
 
-    Pensum/   Bruttolohn/-
-    Arbeitgeber/Versicherung   Satzbestimmend
-    IV-Grad   rente
+    M. AG (CH)   50 %   4 500   8 100
 
-    P. AG (CH)   60 %   6 000   10 000
+    T. AG (CH)   40 %   4 400   9 900
 
-    IV-Rente (CH) 1   40 %   2 000   5 000
-    1 Besteuerung mit dem Tarifcode G
+    4. Zwei Arbeitsverhältnisse in der Schweiz (1 Arbeitspensum 70 % plus Bonus sowie 1 Arbeitspensum
+    30 %):
+    Arbeitnehmer Z. ist bei der G. AG, Bern, zu 70 % plus Bonus und bei der H. AG, Thun, zu 30 % angestellt
+    und erzielt folgende Lohneinkommen:
 
-    9. Lohneinkommen und Tätigkeit ohne Pensum:
-    Der Arbeitnehmer Z. erhält folgende Entschädigungen:
+    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
 
-    Arbeitgeber   Pensum   Bruttolohn   Satzbestimmend
+    G. AG (CH)   70 %   4 550   6 500
 
-    R. AG (CH)   100 %   7 000   7 000
+    G. AG (CH)   Bonus   2 000   2 000
 
-    Nebenamtliche Tätigkeit (CH)   n.a.   500   5 4251
-    1 maximales satzbestimmendes Einkommen des Ehegatten beim Tarifcode C (Stand: 1.1.2019)
+    G. AG (CH)   6 550   8 500
+
+    H. AG (CH)   30 %   1 200   4 000

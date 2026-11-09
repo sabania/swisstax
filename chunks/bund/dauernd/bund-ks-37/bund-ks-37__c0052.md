@@ -10,15 +10,9 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 12
 
-7.2.1 Allgemeines
-Mitarbeiteraktien im Sinne von Artikel 1 Absatz 2 Buchstabe a MBV sind gemäss Artikel 17b
-Absatz 1 DBG immer im Zeitpunkt des Erwerbs als Einkommen aus unselbstständiger Er-
-werbstätigkeit steuerbar. Allfällige Sperrfristen werden mit einem Diskont von 6 Prozent pro
-Sperrjahr auf deren Verkehrswert berücksichtigt (vgl. auch Ziff. 3.3 hievor). Eine anteilsmäs-
-sige Besteuerung ist ausgeschlossen, da Mitarbeiteraktien mit ihrer Abgabe erworben wer-
-den. Vorbehalten bleiben Fälle, in welchen die Mitarbeiteraktien als Entschädigung für eine
-im Ausland erbrachte Arbeitsleistung (Bonus) abgegeben werden.
-
-Freie börsenkotierte Mitarbeiteroptionen im Sinne von Artikel 1 Absatz 2 Buchstabe b MBV
-sind ebenfalls gemäss Artikel 17b Absatz 1 DBG im Zeitpunkt des Erwerbs als Einkommen
-aus unselbständiger Erwerbstätigkeit zu besteuern.
+7.2.2 Quellenbesteuerung
+Im internationalen Verhältnis ist zu berücksichtigen, dass der Empfänger der Mitarbeiterak-
+tien im Zeitpunkt des Erwerbs seine Ansässigkeit entweder in der Schweiz oder im Ausland
+haben kann. In beiden Fällen kann die Besteuerung an der Quelle erfolgen, sofern die Vor-
+aussetzungen der Artikel 83 respektive 91 oder 97 DBG erfüllt sind. Daraus ergeben sich fol-
+gende Möglichkeiten der Besteuerung:

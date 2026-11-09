@@ -10,18 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 25
 
-Absatz 3
-Abgestellt wird auf das AHV-pflichtige ordentliche Einkommen. Obwohl auch der Liquidati-
-onsgewinn AHV-pflichtig ist (dieser wird jedoch gesondert besteuert und ausgewiesen), wür-
-de ein Einbeziehen des Liquidationsgewinns das durchschnittliche Jahreseinkommen verfäl-
-schen, weshalb bei der Berechnung der fiktiven Deckungslücke nur auf das ordentliche Ein-
-kommen abgestellt werden kann.
-Da es grundsätzlich möglich ist, sich bei Vorsorgeeinrichtungen in die maximalen Leistungen
-auf der Grundlage des letzten Lohnes einzukaufen, wird für die auf einen fünfjährigen Durch-
-schnitt abgestellt, um ein möglichst aktuelles Einkommen abzubilden.
+<!-- Seite 25 -->
+Artikel 6   Berechnung des fiktiven Einkaufs
 
-Absatz 4
-Dauerte die selbständige Erwerbstätigkeit weniger als fünf Jahre, ist die Summe der Er-
-werbseinkommen der vergangenen Jahren nicht durch fünf, sondern durch die effektive An-
-zahl Jahre zu teilen, während welcher einer selbständigen Erwerbstätigkeit nachgegangen
-wurde.
+Absatz 1
+Den Materialien ist zu entnehmen, dass es der Wille des Gesetzgebers war, dass die Be-
+rechnung der fiktiven Deckungslücke der Steuerpraxis bzw. der Verwaltung überlassen wird.
+Dabei soll es sich um einen angemessenen Vorsorgeplan mit Annahme eines durchschnittli-
+chen Beitragsatzes handeln.
+
+Der Altersgutschriftensatz von 15 Prozent entspricht dem obligatorischen Altersgutschriften-
+satz zwischen dem 45. und 54. Altersjahr nach Artikel 16 BVG. Da nicht zum Vornherein
+feststeht, ob jemand wegen Invalidität im 30. Altersjahr oder jemand infolge Pensionierung
+im 65. Altersjahr liquidieren wird, wurde mit 15 Prozent ein guter Mittelwert gewählt. Zusätz-
+lich wurde auf einen Koordinationsabzug verzichtet. Mit den vorliegenden Parametern kann
+der Vorstellung des Gesetzgebers, der sich von der Idee eines angemessenen Plans leiten
+liess, entsprochen werden.

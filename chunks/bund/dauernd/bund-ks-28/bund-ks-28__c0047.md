@@ -5,24 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 47"
-seiten: "16"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 16
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 15
 
-<!-- Seite 16 -->
-Von einer steuerlichen Privilegierung des Liquidationsgewinns im Hinblick darauf, dass im
-Liquidationsgewinn auch Teile der beruflichen Vorsoge enthalten seien, hatte der Bundesrat
-ausdrücklich abgesehen. Er hatte dazu ausgeführt: „Dem Anliegen nach einer Erleichterung
-und Verbesserung der Möglichkeit beruflicher Vorsorge der Selbständigerwerbenden wurde
-… effektiv durch die erste Revision des Gesetzes über die berufliche Vorsorge Rechnung
-getragen. Die neu eingefügte Bestimmung von Artikel 4 Absatz 3 BVG verschafft Selbstän-
-digerwerbenden die Möglichkeit, sich ausschliesslich bei einer Einrichtung der weitergehen-
-den Vorsorge zu versichern, insbesondere bei einer Einrichtung, die nicht im Register für die
-berufliche Vorsorge eingetragen ist, sofern diese über einen Vorsorgeplan verfügt und nach
-dem Prinzip der Kollektivversicherung betrieben wird. Diese Lösung entspricht den Vorsor-
-gebedürfnissen Selbständigerwerbender und trägt der Tatsache Rechnung, dass das Be-
-triebseinkommen im Lauf der Zeit erheblichen Schwankungen unterliegt. Angesichts dieser
-Entwicklung der rechtlichen Situation braucht das Problem der Besteuerung des Liquidati-
-onsgewinnes lediglich unter dem Blickwinkel der direkten Besteuerung angegangen zu wer-
-den“ 3 .
+1.1   Vorschlag des Bundesrates
+Die Botschaft zur Unternehmenssteuerreform II sah in Artikel 37b DBG vor (dannzumal noch
+Artikel 37a DBG 2 ), dass bei definitiver Aufgabe der selbständigen Erwerbstätigkeit nach dem
+vollendeten 55. Altersjahr oder infolge Invalidität die in den letzten zwei Geschäftsjahren rea-
+lisierten stillen Reserven zwar zusammen mit dem übrigen Einkommen besteuert werden
+sollen, für die Satzbestimmung jedoch jeweils ein Achtel der realisierten stillen Reserven
+massgebend sein sollte. Durch den Einbezug der realisierten stillen Reserven der letzten
+zwei Geschäftsjahre statuierte Artikel 37a Absatz 1 DBG einen gesetzlichen Revisionsgrund.
+Von der Abrechnung nach dem milderen Satz ausgeschlossen waren jedoch die auf Grund
+des Besteuerungsaufschubs (Artikel 18a Absatz 1 DBG) steuerlich noch nicht erfassten stil-
+len Reserven. Die Besteuerung des Liquidationsgewinns nach dem milderen Satz sollte ge-

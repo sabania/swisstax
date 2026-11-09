@@ -10,7 +10,8 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
 
-4.6   Tarife für Grenzgänger aus Deutschland (Tarifcodes L, M, N und P)
-Die Tarifcodes L, M, N und P für Grenzgänger aus Deutschland gelangen ohne Rücksicht
-auf die Staatsangehörigkeit zur Anwendung für Arbeitnehmer, die in Deutschland ansässig
-sind, ihren Arbeitsort in der Schweiz haben und in der Regel täglich an ihren deutschen
+Im Zweifelsfall (bspw. bei unklaren Einkommens- oder Konkubinatsverhältnissen) hat vorab
+eine Quellenbesteuerung zum Tarifcode A0 zu erfolgen. Es bleibt der steuerpflichtigen Per-
+son vorbehalten, bis Ende März des auf die Leistung folgenden Steuerjahres eine Neube-
+rechnung der Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen
+(vgl. Ziffern 10 und 11 unten).

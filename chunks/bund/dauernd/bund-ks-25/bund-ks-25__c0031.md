@@ -5,17 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 31"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 7
 
-Nicht unter Artikel 20 Absatz 1 Buchstabe e DBG fallen die Einkünfte, welche die Anlegerin-
-nen und Anleger aus Beteiligungen an einer SICAF realisieren, da diese als Kapitalgesell-
-schaft besteuert wird. Die Anleger resp. Aktionäre einer SICAF versteuern die entsprechen-
-den Einkünfte nach Artikel 20 Absatz 1 Buchstabe c DBG.
+Bei ausländischen kollektiven Kapitalanlagen richtet sich das Liquidationsverfahren grund-
+sätzlich nach den Regeln der Aufsichtsbehörde am Domizil der kollektiven Kapitalanlage. Die
+vollständige bzw. quasi-vollständige Rücknahme der ausstehenden Anteile durch eine kol-
+lektive Kapitalanlage oder ein Teilvermögen gilt für die Zwecke der schweizerischen Einkom-
+menssteuer aber stets als (faktische) Liquidation, selbst dann, wenn die ausländische Auf-
+sichtsbehörde die Wiederbegebung der Anteile zulassen sollte und aus deren Sicht keine
+formelle Liquidation vorliegt.
 
-Bei Verkauf bzw. Rückgabe von im Privatvermögen gehaltenen Anteilen von vertraglichen
-Anlagefonds, SICAV und KmGK qualifiziert die Differenz zwischen Erwerbspreis und Ver-
-kaufserlös als steuerfreier Kapitalgewinn nach Artikel 16 Absatz 3 DBG oder als steuerlich
-nicht abzugsfähiger Kapitalverlust.
+Bei faktischen Liquidationen von ausländischen kollektiven Kapitalanlagen und Teilvermögen
+treten deshalb die gleichen Steuerfolgen ein wie bei der formellen Liquidation.

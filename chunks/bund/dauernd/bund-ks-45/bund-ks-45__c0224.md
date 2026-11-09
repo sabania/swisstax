@@ -5,19 +5,22 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 224"
-seiten: "62"
+seiten: "60"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 62
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 60
 
-<!-- Seite 62 -->
-9.6   Verletzung von Verfahrenspflichten
-Der Schuldner der steuerbaren Leistung, der die Fristen für das Einreichen von Anmeldun-
-gen oder Mutationen sowie von Quellensteuerabrechnungen nicht einhält, verliert je nach
-kantonaler Regelung den Anspruch auf die Bezugsprovision. Bei nicht fristgerechter Bezah-
-lung von in Rechnung gestellten Quellensteuern können zusätzlich Verzugszinsen erhoben
-werden. Kommt ein Schuldner der steuerbaren Leistung den Verfahrenspflichten trotz Mah-
-nung nicht nach, kann er gebüsst (vgl. Art. 174 DBG) und die geschuldeten Quellensteuern
-können nach pflichtgemässem Ermessen erhoben werden (vgl. Art. 130 Abs. 2 DBG). Vorbe-
-halten bleiben Verurteilungen wegen vollendeter Steuerhinterziehung (vgl. Art. 175 Abs. 1
-DBG) oder wegen Veruntreuung von Quellensteuern (vgl. Art. 187 DBG).
+<!-- Seite 60 -->
+den Schuldner der steuerbaren Leistung, der über das einheitliche Lohnmeldeverfahren
+ELM-QSt abrechnet, ist die Übermittlung der erforderlichen Daten sichergestellt.
+Der Schuldner der steuerbaren Leistung hat die Quellensteuerabrechnungen grundsätzlich
+monatlich vorzunehmen.
+Auf Antrag des Schuldners der steuerbaren Leistung kann die zuständige Steuerbehörde
+längere Abrechnungsperioden (vierteljährlich, halbjährlich, jährlich) bewilligen, sofern die
+Quellensteuer nicht über ELM-Quellensteuer abgerechnet wird. Wird eine übermonatliche
+Abrechnungsperiode gewährt, sind die Quellensteuerdaten pro Arbeitnehmer und pro Monat
+auszuweisen Der Quellensteuerabrechnung sind die notwendigen Unterlagen beizulegen
+(bspw. Kalendarium, Bescheinigung über Mitarbeiterbeteiligungen). Die Quellensteuerab-
+rechnungen müssen vom Schuldner der steuerbaren Leistung bzw. seinem Vertreter jeweils
+innert 30 Tagen nach Ablauf der Abrechnungsperiode bei der zuständigen Steuerbehörde
+eingereicht werden.

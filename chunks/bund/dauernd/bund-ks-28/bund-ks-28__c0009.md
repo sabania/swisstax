@@ -24,8 +24,3 @@ anwendbaren Satzes ist ein Fünftel dieses Restbetrages massgebend, es wird aber
 Fall eine Steuer zu einem Satz von mindestens 2 Prozent erhoben.
 2
  Absatz 1 gilt auch für den überlebenden Ehegatten, die anderen Erben und die Vermächt-
-nisnehmer, sofern sie das übernommene Unternehmen nicht fortführen; die steuerliche Ab-
-rechnung erfolgt spätestens fünf Kalenderjahre nach Ablauf des Todesjahres des Erblassers.
-Die Ausführungsbestimmungen zu dieser Regelung sind in der Verordnung über die Besteu-
-erung der Liquidationsgewinne bei definitiver Aufgabe der selbständigen Erwerbstätigkeit
-(LGBV; Anhang I) festgehalten.

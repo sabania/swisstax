@@ -4,22 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 104"
-seiten: "24"
+titel: "Ziff. 14.2.2 Indirekte Zahlungen, Kapitalleistung und Unterhalt volljähriger Kinder"
+ziffer: "14.2.2"
+seiten: "32"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 24
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.2.2 Steuerrechtliche Aspekte · S. 32
 
-Beim Zusammenleben wird auf den Wohnsitz abgestellt. Gemäss Artikel 25 Absatz 1 ZGB
-gilt der Wohnsitz der Eltern als Wohnsitz des Kindes unter elterlicher Sorge oder, wenn die
-Eltern keinen gemeinsamen Wohnsitz haben, der Wohnsitz des Elternteils, unter dessen
-Obhut das Kind steht. Sobald das Kind volljährig ist, kann es einen eigenen Wohnsitz be-
-gründen. Bei volljährigen Kindern in Ausbildung erhalten die Eltern den Elterntarif daher nur,
-wenn das Kind im gleichen Haushalt wohnt. Befindet sich die Ausbildungsstätte des Kindes
-an einem anderen Ort als am Wohnsitz der Eltern, kann der Elterntarif nur gewährt werden,
-wenn das Kind Wochenaufenthalter am Ausbildungsort ist, seinen Wohnsitz jedoch bei den
-Eltern beibehalten hat. Bei einer Berufslehre oder einem Studium dürfte dies in der Regel der
-Fall sein, da gemäss Art. 26 ZGB der Aufenthalt an einem Orte zum Zweck des Besuches
-einer Lehranstalt keinen Wohnsitz begründet. Hat das volljährige Kind seinen Wohnsitz je-
-doch verlegt, werden die Eltern - auch wenn sie das Kind unterstützen - zum Verheirateten-
-tarif, –und wenn sie nicht verheiratet sind, zum Grundtarif besteuert.
+Unterhaltsleistungen an den Ehegatten für das minderjährige Kind oder direkt an das volljäh-
+rige Kind erfolgen in der Regel ebenfalls als wiederkehrende direkte Geldleistungen. Sie
+können jedoch auch in der Form von indirekten Zahlungen erbracht werden, wie etwa die
+Übernahme von Schulkosten oder von Krankenkassenprämien. Auch Naturalleistungen sind
+möglich. Werden die Unterhaltsleistungen in Form einer Kapitalleistung ausgerichtet, gilt
+auch hier, dass diese nicht vom steuerbaren Einkommen des Schuldners abgezogen werden
+können. Der Empfänger dieser Leistung muss sie aber auch nicht als Einkommen deklarie-
+ren.
+
+Unterhaltsbeiträge für das volljährige Kind in Ausbildung sind weder vom Kind selbst, noch
+vom Elternteil, bei dem das Kind lebt, zu versteuern. Das Kind erhält steuerfreie "Leistungen
+in Erfüllung familienrechtlicher Verpflichtungen“ (Art. 24 Bst. e DBG). Der leistende Elternteil
+kann die Unterhaltsbeiträge auch nicht mehr von seinem Einkommen absetzen. Diese Leis-
+tungen werden zu ganz gewöhnlichen nicht abziehbaren "Aufwendungen für den Unterhalt
+des Steuerpflichtigen und seiner Familie“ (Art. 34 Bst. a DBG).

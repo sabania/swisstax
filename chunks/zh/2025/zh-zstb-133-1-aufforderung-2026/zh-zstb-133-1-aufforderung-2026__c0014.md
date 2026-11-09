@@ -5,25 +5,27 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 14"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 4
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 5
 
-Zur Abgabe einer Steuererklärung 2025 (für die Steuerperiode, die dem im Kalenderjahr 2025
-endenden Geschäftsjahr entspricht) sind verpflichtet:
-a) alle juristischen Personen, die am 31. Dezember 2025 bzw. am Ende des im Kalenderjahr
-2025 endenden Geschäftsjahres den Sitz oder die Verwaltung im Kanton Zürich hatten;
-b) alle juristischen Personen mit Sitz oder Verwaltung in einem anderen Kanton,
-•   die im Laufe des im Kalenderjahr 2025 endenden Geschäftsjahres den Sitz oder die
-    Verwaltung aus dem Kanton Zürich in einen anderen Kanton verlegt haben oder durch
-    Aufgabe einer Liegenschaft oder Betriebsstätte die Steuerpflicht im Kanton Zürich beendet
-    haben oder
-•   die am Ende des im Kalenderjahr 2025 endenden Geschäftsjahres im Kanton Zürich
-    Liegenschaften oder Betriebsstätten besassen.
-Solche juristischen Personen können ihre Steuererklärungspflicht im Kanton Zürich auch durch
-Einreichung einer unterzeichneten Kopie der Steuererklärung des Sitzkantons erfüllen, welche
-zusammen mit der leeren, zugestellten zürcherischen Steuererklärung einzureichen ist;
-c) alle juristischen Personen mit Sitz oder Verwaltung im Ausland, die am Ende des im
-Kalenderjahr 2025 endenden Geschäftsjahres im Kanton Zürich Liegenschaften oder
-Betriebsstätten besassen.
+<!-- Seite 5 -->
+Zürcher Steuerbuch   Nr. 133.1
+
+2. Zustellung der Steuerformulare
+
+Die Formulare werden den juristischen Personen, deren Steuerpflicht bekannt ist, durch das
+kantonale Steueramt, Abteilung Register, zugestellt. Wer kein Formular erhält, muss von sich aus
+ein solches beim kantonalen Steueramt, Abteilung Register, verlangen oder dieses über die
+Homepage des kantonalen Steueramtes (www.zh.ch/steueramt) herunterladen.
+
+3. Frist zur Abgabe der Steuererklärung
+
+Die Steuererklärung ist, zusammen mit den erforderlichen Beilagen gemäss § 134 Abs. 2 StG,
+innert 30 Tagen nach Zustellung der Formulare dem kantonalen Steueramt, Abteilung Register,
+einzureichen.
+
+III. Sitzverlegung in einen anderen Kanton oder Aufgabe eines
+Nebensteuerdomizils durch eine steuerpflichtige juristische Person mit Sitz in
+einem anderen Kanton

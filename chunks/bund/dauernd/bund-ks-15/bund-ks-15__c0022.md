@@ -4,21 +4,26 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 22"
-seiten: "5"
+titel: "Ziff. 3.1 Obligationen ohne überwiegende Einmalverzinsung – DBG, Marchzinsen"
+ziffer: "3.1"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.1 Obligationen ohne überwiegende Einmalverzinsung · S. 7
 
-Die Einzelheiten der Optionsverträge werden entweder zwischen den Parteien individuell
-vereinbart (OTC-Optionen) oder sie sind standardisiert (Traded Options). Erstere sind nicht
-an einer Börse kotiert und nur erschwert übertragbar. Als Warrants (oder Optionsscheine)
-werden in Wertpapiere verbriefte Optionen bezeichnet.
+3   Grundsätze der Besteuerung
+3.1   Obligationen und gemischte Diskontpapiere ohne überwiegende Einmalverzin-
+    sung
 
-Optionen amerikanischen Stils können grundsätzlich jederzeit während der Laufzeit der Opti-
-onen ausgeübt werden; dies im Gegensatz zu Optionen europäischen Stils, welche nur bei
-Verfall der Option ausgeübt werden können. Wird die Option ausgeübt und kommt es zu ei-
-ner Lieferung von z.B. Wertschriften, liegt ein gewöhnlicher Kauf oder Verkauf eines Sach-
-wertes vor. Bei der Ausübung von Optionen, die sich auf abstrakte Basiswerte beziehen (z.B.
-einen Aktienindex), kommt es nicht zu einer Lieferung eines Gutes, sondern zu einer Geld-
-leistung (cash-settlement), was am zugrunde liegenden Sachverhalt aber nichts ändert.
+Direkte Bundessteuer
+Zinsen in periodischer Form oder in der Form von Einmalentschädigungen auf Obligationen
+(Emissionsdisagio oder Rückzahlungsagio als Differenz zwischen Ausgabe- und Rückzah-
+lungswert) stellen gemäss Artikel 20 Absatz 1 Buchstabe a DBG steuerbaren Vermögenser-
+trag dar. Zinsen in periodischer Form werden nach dem allgemeinen Fälligkeitsprinzip, Ein-
+malentschädigungen im Zeitpunkt der Rückzahlung besteuert.
+
+Nicht unter die steuerbaren Erträgnisse im Sinne von Artikel 20 Absatz 1 Buchstabe a DBG
+fallen die sog. Marchzinsen. Sie sind Bestandteil des vom Käufer an den Verkäufer der Obli-
+gation bezahlten Kaufpreises. Unter Marchzinsen sind laufende, noch nicht fällige Zinsen zu
+verstehen, wie sie für die Zeit vom Fälligkeitsdatum des letzten eingelösten Coupons bis zum
+Verkauf der betreffenden Obligation auflaufen.

@@ -10,16 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 4
 
-<!-- Seite 4 -->
-1   Allgemeines und Gegenstand des Kreisschreibens
-Mit dem Bundesgesetz vom 16. Dezember 2016 über die Revision der Quellenbesteuerung
-des Erwerbseinkommens (vgl. Amtliche Sammlung des Bundesrechts [AS] 2018 S. 1813)
-wurden die Grundlagen für die Quellenbesteuerung des Erwerbseinkommens neu geregelt.
-Diese Bestimmungen treten auf den 1. Januar 2021 in Kraft. In ihrer Gesamtheit zielen die
-teilweise überarbeiteten und teilweise neuen Bestimmungen darauf ab, die ergangene
-Rechtsprechung des Bundesgerichts (BGer), verschiedener kantonaler Gerichte und des Eu-
-ropäischen Gerichtshofs (EuGH) unter dem Aspekt der Kompatibilität mit dem Abkommen
-vom 21. Juni 1999 zwischen der Schweizerischen Eidgenossenschaft einerseits und der Eu-
-ropäischen Gemeinschaft und ihren Mitgliedstaaten andererseits über die Freizügigkeit (FZA;
-SR 0.142.112.681) aufzunehmen. In diesem Zusammenhang wurde auch das Institut der
-„Quasi-Ansässigkeit“ (vgl. Ziffer 11 unten) neu eingeführt.
+Die Neuerungen verfolgen auch den Zweck, den technischen Entwicklungen Rechnung zu
+tragen (bspw. dem einheitlichen Lohnmeldewesen bzw. dem Lohnstandard-CH Quellen-
+steuer [ELM-QSt]), die Rechtssicherheit für die Arbeitnehmer und die Schuldner der steuer-
+baren Leistung zu erhöhen sowie die Verfahren – soweit möglich – zu vereinheitlichen.
+Berücksichtigt wurden bei der Erarbeitung dieses Kreisschreibens auch die von der Schweiz
+abgeschlossenen Abkommen zur Vermeidung der Doppelbesteuerung (nachfolgend DBA).
+Dabei wird stellvertretend auf das OECD-Musterabkommen zur Vermeidung der Doppelbe-
+steuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (nachfolgend
+OECD-MA) sowie auf den dazugehörenden Kommentar der OECD in der Version 2017
+(nachfolgend OECD-Kommentar) hingewiesen. Für die Beurteilung von grenzüberschreiten-
+den Sachverhalten sind jeweils die konkreten Bestimmungen des massgebenden Doppelbe-
+steuerungsabkommens zu beachten.

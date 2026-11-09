@@ -4,23 +4,25 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 30"
-seiten: "6"
+titel: "Ziff. 3.4 Kapitalgarantierte Derivate – Kriterien der Transparenz"
+ziffer: "3.4"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 15 · 3 Grundsätze der Besteuerung › 3.4 Kapitalgarantierte Derivate und nicht klassische Anleihen · S. 9
 
-2.3.3.2 Reverse Convertibles mit Kapitalschutz
-Reverse Convertibles mit Kapitalschutz unterscheiden sich von denjenigen ohne Kapital-
-schutz dadurch, dass ergänzend zur Obligationenanlage und zu den genannten Optionsge-
-schäften ein weiteres Optionsgeschäft hinzukommt, indem nicht nur der Investor gegenüber
-dem Emittenten als Verkäufer einer Put-Option auftritt, sondern auch der Emittent dem In-
-vestor eine Put-Option verkauft. Nachdem der Emittent mittels Ausübung seiner Put-Option
-dem Investor bei Verfall den im Kurs gefallenen Basiswert zum (in der Regel) Preis des in-
-vestierten Betrages der Obligation geliefert hat, wird der Investor seinerseits die erworbene
-Put-Option ausüben und dem Emittenten den erhaltenen Basiswert gegen Forderung des
-vereinbarten (vergleichsweise tieferen) Ausübungspreises (= Kapitalschutz) zurück verkau-
-fen können. Letzteres wird dann der Fall sein, wenn der Preis des Basiswertes am Verfalltag
-auch unter diesem Ausübungspreis liegt.
+3.4   Kapitalgarantierte Derivate und nicht klassische Options- und Wandelanleihen
+Für die Besteuerung von kombinierten Produkten, und damit auch von kapitalgarantierten
+Derivaten sowie von nicht klassischen Options- und Wandelanleihen, ist massgebend, ob es
+sich um ein sog. transparentes oder um ein nicht transparentes Produkt handelt.
 
-1-015-DVS-2017-d
+Als transparent gilt ein Produkt, wenn alternativ
+    a) bei Emission die dem Instrument zugrundeliegenden Komponenten (Obligation und
+    derivative Finanzinstrumente) trennbar sind und tatsächlich separat gehandelt werden
+    (vgl. Ziffer 2.3.1. hievor);
+    b) der Emittent des Produkts die verschiedenen Komponenten im „Termsheet“ wertmäs-
+    sig mittels finanzmathematischer Berechnung separat darstellt und die Überprüfung
+    dieser Berechnung durch die ESTV die Richtigkeit dieser Darstellung ergeben hat;
+    oder
+    c) die verschiedenen Komponenten des Produkts von der ESTV nachträglich analytisch
+    nachvollzogen und in ihrem Wert berechnet werden können.

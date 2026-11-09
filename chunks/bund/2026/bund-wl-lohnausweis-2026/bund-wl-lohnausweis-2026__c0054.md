@@ -5,23 +5,19 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 54"
-seiten: "17"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 17
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
 
-In diesem Feld ist ein Pauschalbetrag anzugeben, der einem Arbeitnehmer ausbezahlt   57
-wurde, welcher sein Privatfahrzeug oft geschäftlich verwenden muss (in der Regel mehrere
-tausend Kilometer pro Jahr). Die Spesenpauschale muss ungefähr den effektiven Auslagen
-entsprechen.
+<!-- Seite 18 -->
+Wegleitung zum Ausfüllen des Lohnausweises bzw. der Rentenbescheinigung   Formular 11
 
-Übrige Pauschalspesen   Ziffer 13.2.3
+genehmigten Spesenreglements nur die Pauschalspesen (vgl. Ziffer 13.2 des Lohnauswei
+ses) betragsmässig anzugeben. Vom Sitzkanton genehmigte Spesenreglemente werden von
+den anderen Kantonen ebenfalls anerkannt, sofern die Richtlinien der Mustervorlagen für
+Spesenreglemente vom 1. Februar 2024, gültig ab 1. Mai 2024, eingehalten sind.
 
-Auf dieser Zeile ist vorab die Art sämtlicher übriger Pauschalspesen, die nicht pauschale   58
-Auto- oder Repräsentationsspesen darstellen (vgl. RZ 56 und 57), anzugeben (z.B. Kosten
-beteiligung an externen Arbeitsplatz wie Homeoffice/Co-working Space). Im Feld ist lediglich
-die Summe der Pauschalspesenvergütungen einzutragen (wie bei mehreren Leistungen vor
-zugehen ist, vgl. Rz 26). In Form einer Pauschale vergütete besondere Berufskosten von
-Expatriates sind nicht unter Ziffer 13.2.3 zu bescheinigen, sondern unter Ziffer 2.3 mit der
-Bemerkung «Pauschalspesen Expatriates» zum Lohn hinzuzurechnen (Art. 2 Abs. 3 Bst. b
-ExpaV).
+Unternehmen mit einem genehmigten Spesenreglement haben im Lohnausweis unter   60
+Ziffer 15 folgenden Vermerk anzubringen: «Spesenreglement durch Kanton XY (Auto
+kennzeichen des Kantons) am ... (Datum) genehmigt. »

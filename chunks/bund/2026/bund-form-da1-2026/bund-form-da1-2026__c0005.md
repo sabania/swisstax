@@ -14,3 +14,13 @@ Erklärung des Antragstellers
 Der Antragsteller bestätigt die Richtigkeit der in diesem Antrag (Vor- und Rückseite) gemachten Angaben.
 
 Ort und Datum   Unterschrift
+
+Erläuterungen
+1. Dieses Formular DA-1 dient als Antrag auf Anrechnung für die im Jahre 2026 fällig gewordenen Dividenden und Zinsen.
+2. Der Berechtigte hat den Antrag in dem Kanton einzureichen, in dem er am 31. Dezember 2026 seinen Wohnsitz hatte und zwar
+   zusammen mit der Steuererklärung und dem Wertschriftenverzeichnis.
+3. In diesem Ergänzungsblatt sind nur Kapitalanlagen gemäss Anhang zur Verordnung über die Anrechnung ausländischer Quellensteuern
+   https://www.fedlex.admin.ch/eli/cc/2020/29/de#lvl_d4e6/lvl_d4e7 anzugeben, deren Erträge (Dividenden und Zinsen) im Quellenstaat
+   einer begrenzten Steuer unterworfen bleiben. Bitte die Kapitalanlagen nach den Quellenstaaten ordnen und den Staat in
+   Kolonne 3 mit dem unter "Country codes" definierten Alpha-2 Code (Ländercode gemäss internationaler Organisation für Normung,
+   ISO) https://www.iso.org/obp/ui/#searchAbkürzung (Suche in Englisch) bezeichnen.

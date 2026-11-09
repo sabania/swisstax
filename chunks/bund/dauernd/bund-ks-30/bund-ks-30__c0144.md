@@ -4,24 +4,21 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 144"
-seiten: "34"
+titel: "Ziff. 15.7 Verfahrensrechtliche Stellung des überlebenden Ehegatten"
+ziffer: "15.7"
+seiten: "42"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 30 · 15 Verfahrensrechtliche Stellung der Ehegatten › 15.7 · S. 42
 
-    Erzielt der Elternteil mit der elterlichen Sorge keine Einkünfte und übernimmt daher der
-    andere Elternteil den Unterhalt des Kindes, können diesem aus Billigkeitsgründen die
-    kinderrelevanten Abzüge und der Elterntarif gewährt werden.
+15.7   Verfahrensrechtliche Stellung des überlebenden Ehegatten
 
-14.7   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
-    minderjährigem Kind, ohne gemeinsame elterliche Sorge, mit Unter-
-    haltszahlungen
-
-Wird ein Abzug für die Unterhaltszahlungen für das Kind nach Artikel 33 Absatz 1 Buchstabe
-c DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgender-
-massen:
-
-14.7.1   Unterhaltszahlungen
-   Die Unterhaltsbeiträge für das Kind sind vom Empfänger zu versteuern. Der leistende
-    Elternteil kann diese Alimentenleistungen in Abzug bringen.
+Stirbt ein Partner eines gemeinsam veranlagten Ehepaares, kommt dem überlebenden Ehe-
+gatten eine besondere Rechtsstellung zu. Einerseits übt er die ihm als selbständig steuer-
+pflichtige Person zustehenden Mitwirkungsrechte und -pflichten selbst aus. Andererseits tritt
+er als Erbe mit den übrigen Erben in die Rechte und Pflichten seines verstorbenen Ehegat-
+ten ein (Art. 12 Abs. 1 DBG) und übernimmt damit auch dessen Verfahrensrechte und
+-pflichten. Dies bedeutet namentlich, dass der überlebende Ehegatte nicht nur für die eige-
+nen Steuerfaktoren, sondern nun für das gesamte eheliche Einkommen mitwirkungspflichtig
+wird. Dies wirkt sich auch auf das Ausmass seiner Verantwortlichkeit im Steuerstrafrecht aus
+(vgl. dazu auch Ziff. 16).

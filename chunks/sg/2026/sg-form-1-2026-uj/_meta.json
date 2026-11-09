@@ -1,0 +1,411 @@
+[
+{
+"id": "sg-form-1-2026-uj__c0001",
+"titel": "Kopf Formular 1 SG 2026 – Dauer, Kontakt, Rückfragen",
+"pfad": [
+"Seite 1",
+"Kopf"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Steuererklärung St. Gallen",
+"unterjährige Steuerpflicht",
+"Wegzug",
+"Vollmacht",
+"E-Mail"
+],
+"positionen": [
+"verfahren.einreichung"
+],
+"zusammenfassung": "Formular 1 für natürliche Personen (Kantons-, Gemeinde- und direkte Bundessteuer 2026) mit Dauer bei nicht ganzjähriger Steuerpflicht und Vertretungshinweis.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "sg-form-1-2026-uj__c0002"
+},
+{
+"id": "sg-form-1-2026-uj__c0002",
+"titel": "Personalien, Berufs- und Familienverhältnisse, Kinder, Rückzahlungskonto",
+"pfad": [
+"Seite 1",
+"Personalien"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": null,
+"stichworte": [
+"Personalien",
+"Erwerbsart",
+"Kinder",
+"Vorschulalter",
+"Auszahlungskonto",
+"IBAN"
+],
+"positionen": [
+"personalien",
+"sozialabzug.kinder",
+"verfahren.bezug"
+],
+"zusammenfassung": "Personalien Person 1/2 per 31.12.2026 bzw. Ende der Steuerpflicht, Erwerbsart, Kinder und Konto für Steuerrückzahlungen.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0001",
+"nachher": "sg-form-1-2026-uj__c0003"
+},
+{
+"id": "sg-form-1-2026-uj__c0003",
+"titel": "Ziff. 1–2 Einkünfte aus Erwerbstätigkeit: unselbständig, VR-Honorare, selbständig (Codes 100–122)",
+"pfad": [
+"Einkünfte",
+"Erwerbstätigkeit"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1–2",
+"stichworte": [
+"Nettolohn",
+"Lohnausweis",
+"Nebenerwerb",
+"Sitzungsgelder",
+"VR-Honorar",
+"selbständig",
+"Gesellschaften"
+],
+"positionen": [
+"einkommen.unselbstaendig.haupterwerb",
+"einkommen.unselbstaendig.nebenerwerb",
+"einkommen.unselbstaendig.vr_honorare",
+"einkommen.selbstaendig"
+],
+"zusammenfassung": "Ziff. 1.1 Haupterwerb (100/102), 1.2 Nebenerwerb (104/106), 1.3 Sitzungsgelder/VR-Honorare (108/110), 2.1 selbständig (112/114), 2.2 Gesellschaften (120/122).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0002",
+"nachher": "sg-form-1-2026-uj__c0004"
+},
+{
+"id": "sg-form-1-2026-uj__c0004",
+"titel": "Ziff. 3 Einkünfte aus Sozial- und anderen Versicherungen (Codes 126–142)",
+"pfad": [
+"Einkünfte",
+"Sozialversicherungen"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "3",
+"stichworte": [
+"AHV",
+"IV",
+"Pension",
+"Taggeld",
+"Arbeitslosentaggeld",
+"Familienzulagen",
+"Erwerbsausfall"
+],
+"positionen": [
+"einkommen.sozialversicherung.ahv_iv",
+"einkommen.vorsorge.renten",
+"einkommen.ersatz.taggelder",
+"einkommen.ersatz.familienzulagen"
+],
+"zusammenfassung": "Ziff. 3.1 AHV/IV-Renten zu 100% (126/128), 3.2 Renten/Pensionen mit steuerbarem Prozentsatz (130/132), 3.3 Erwerbsausfall (134/136), 3.4 ALV-Taggelder (138/140), 3.5 Familienzulagen (142).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0003",
+"nachher": "sg-form-1-2026-uj__c0005"
+},
+{
+"id": "sg-form-1-2026-uj__c0005",
+"titel": "Ziff. 4–7 Bewegliches Vermögen, Liegenschaften, weitere Einkünfte, Total (Codes 146–168)",
+"pfad": [
+"Einkünfte",
+"Vermögensertrag und weitere Einkünfte"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "4–7",
+"stichworte": [
+"Wertschriften",
+"Dividenden",
+"Teilbesteuerung 30 Prozent",
+"Eigenmietwert",
+"Alimente",
+"Kapitalabfindung",
+"Lotteriegewinne"
+],
+"positionen": [
+"einkommen.wertschriften",
+"einkommen.lotterie_gewinne",
+"einkommen.beteiligungen_qualifiziert",
+"abzug.teilbesteuerung_beteiligungen",
+"einkommen.liegenschaften.eigenmietwert",
+"einkommen.unterhaltsbeitraege",
+"einkommen.erbschaften_unverteilt",
+"einkommen.uebrige",
+"einkommen.kapitalabfindung_wiederkehrend",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 4.1 Wertschriften (146), 4.2/4.3 Beteiligungen ab 10 Prozent (147/149), 4.4 Teilbesteuerungsabzug 30 Prozent (150), 5 Liegenschaften (712), 6 weitere Einkünfte (154–164), 7 Total (168).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0004",
+"nachher": "sg-form-1-2026-uj__c0006"
+},
+{
+"id": "sg-form-1-2026-uj__c0006",
+"titel": "Ziff. 8 Ergänzende Angaben: vereinfachte Abrechnung, Ergänzungsleistungen, Hilflosenentschädigung",
+"pfad": [
+"Einkünfte",
+"Ergänzende Angaben"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "8",
+"stichworte": [
+"vereinfachtes Abrechnungsverfahren",
+"Ergänzungsleistungen",
+"Überbrückungsleistung",
+"Hilflosenentschädigung"
+],
+"positionen": [
+"einkommen.vereinfachtes_verfahren",
+"info.steuerfreie_leistungen"
+],
+"zusammenfassung": "Ziff. 8 nicht im Total der Einkünfte: 8.1 vereinfacht abgerechnete Einkünfte (290), 8.2 Ergänzungs-/Überbrückungsleistungen (291), 8.3 Hilflosenentschädigungen (292).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0005",
+"nachher": "sg-form-1-2026-uj__c0007"
+},
+{
+"id": "sg-form-1-2026-uj__c0007",
+"titel": "Ziff. 10–13 Abzüge: Berufskosten, Schuldzinsen, Unterhalt, Vorsorgebeiträge (Codes 200–500)",
+"pfad": [
+"Abzüge",
+"Berufskosten bis Vorsorge"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "10–13",
+"stichworte": [
+"Berufskosten",
+"Schuldzinsen",
+"Alimente",
+"Säule 3a",
+"Einkauf Säule 3a",
+"Pensionskasse Einkauf",
+"Rentenleistungen"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.schuldzinsen",
+"abzug.unterhaltsbeitraege",
+"abzug.vorsorge.saeule3a",
+"abzug.vorsorge.saeule3a_einkauf",
+"abzug.vorsorge.saeule2_einkauf"
+],
+"zusammenfassung": "Ziff. 10 Berufskosten (438/488), 11 Schuldzinsen (500), 12 Unterhaltsbeiträge/Renten (200/202/204), 13 Säule 3a ordentlich (208/210) und Einkauf (212/214), Säule 2 inkl. Einkauf (218/219).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0006",
+"nachher": "sg-form-1-2026-uj__c0008"
+},
+{
+"id": "sg-form-1-2026-uj__c0008",
+"titel": "Ziff. 14–18 Versicherungsprämien, Liegenschaftsunterhalt, weitere Abzüge, Zweiverdienerabzug",
+"pfad": [
+"Abzüge",
+"Weitere Abzüge"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "14–18",
+"stichworte": [
+"Versicherungsprämien",
+"Liegenschaftsunterhalt",
+"Vermögensverwaltung",
+"Kinderbetreuung",
+"Parteispenden",
+"Weiterbildung",
+"Zweiverdienerabzug"
+],
+"positionen": [
+"abzug.versicherungspraemien",
+"abzug.liegenschaft.unterhalt",
+"abzug.verwaltungskosten_wertschriften",
+"abzug.drittbetreuung",
+"abzug.parteispenden",
+"abzug.weiterbildung",
+"abzug.ahv_nichterwerbstaetige",
+"abzug.uebrige",
+"abzug.zweiverdiener",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 14 Versicherungen/Sparzinsen (600), 15 Liegenschaftskosten (716), 16.1 Verwaltungskosten (220), 16.2 Drittbetreuung (258), 16.3 Parteispenden (555), 16.4 Weiterbildung (223/224), 17 Zweiverdiener (226), 18 Total (230).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0007",
+"nachher": "sg-form-1-2026-uj__c0009"
+},
+{
+"id": "sg-form-1-2026-uj__c0009",
+"titel": "Ziff. 20–22 Einkommensberechnung: Krankheitskosten, Behinderung, Zuwendungen, Reineinkommen",
+"pfad": [
+"Einkommensberechnung"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "20–22",
+"stichworte": [
+"Nettoeinkommen",
+"Krankheitskosten",
+"Selbstbehalt 2%",
+"Behinderungskosten",
+"Spenden",
+"Reineinkommen"
+],
+"positionen": [
+"abzug.krankheitskosten",
+"abzug.behinderungskosten",
+"abzug.spenden",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 20 Nettoeinkommen (234), 21.1 Krankheits-/Unfallkosten abzüglich Selbstbehalt 2% des Nettoeinkommens (650/238/240), 21.2 Behinderung (235), 21.3 Zuwendungen mind. Fr.100, max. 20% (244), 22 Reineinkommen (248).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0008",
+"nachher": "sg-form-1-2026-uj__c0010"
+},
+{
+"id": "sg-form-1-2026-uj__c0010",
+"titel": "Ziff. 23–24 Sozialabzüge Kinder, unterstützte Personen, steuerbares Einkommen (Codes 252–268)",
+"pfad": [
+"Einkommensberechnung",
+"Sozialabzüge"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "23–24",
+"stichworte": [
+"Kinderabzug",
+"Ausbildungskosten Kinder",
+"unterstützte Personen",
+"steuerbares Einkommen"
+],
+"positionen": [
+"sozialabzug.kinder",
+"sozialabzug.unterstuetzung",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 23.1 Kinderabzug noch nicht schulpflichtig Fr. 7’600 (252), 23.2 Schule/Ausbildung Fr. 10’800 (254), 23.3 Ausbildungskosten (256), 23.4 unterstützte Personen nur Bund (264), 24 steuerbares Einkommen (268).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0009",
+"nachher": "sg-form-1-2026-uj__c0011"
+},
+{
+"id": "sg-form-1-2026-uj__c0011",
+"titel": "Ziff. 30–32 Vermögen: Wertschriften, Versicherungen, Fahrzeuge, Liegenschaften, Betriebsvermögen (Codes 300–318)",
+"pfad": [
+"Vermögen",
+"Bewegliches Vermögen und Betrieb"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "30–32",
+"stichworte": [
+"Wertschriften",
+"Bargeld",
+"Lebensversicherung",
+"Motorfahrzeug",
+"Liegenschaft",
+"Betriebsvermögen",
+"Boote"
+],
+"positionen": [
+"vermoegen.wertschriften_guthaben",
+"vermoegen.bargeld_edelmetalle",
+"vermoegen.lebensversicherungen",
+"vermoegen.fahrzeuge",
+"vermoegen.erbschaften_beteiligungen",
+"vermoegen.uebrige",
+"vermoegen.liegenschaften"
+],
+"zusammenfassung": "Steuerwerte per 31.12.2026 bzw. Ende der Steuerpflicht: 30.1 Wertschriften (300), 30.2 Bargeld (302), 30.3 Versicherungen (304), 30.4 Fahrzeuge (306), 30.5 Erbschaften (308), 30.6 Übrige (310), 31 Liegenschaften (710), 32 Betrieb (314–318).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0010",
+"nachher": "sg-form-1-2026-uj__c0012"
+},
+{
+"id": "sg-form-1-2026-uj__c0012",
+"titel": "Ziff. 33–37 Total Vermögenswerte, Schulden, Reinvermögen, Sozialabzüge Vermögen (Codes 322–338)",
+"pfad": [
+"Vermögen",
+"Schulden und Sozialabzüge"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "33–37",
+"stichworte": [
+"Schulden",
+"Hypothek",
+"Reinvermögen",
+"Vermögensfreibetrag",
+"Alleinstehende",
+"Ehegatten",
+"Kinder"
+],
+"positionen": [
+"schulden.privat",
+"vermoegen.sozialabzug",
+"berechnung.total"
+],
+"zusammenfassung": "Ziff. 33 Total (322), 34 Schulden privat (504)/Geschäft (506), 35 Reinvermögen (326), 36 Sozialabzüge: alleinstehend Fr. 75’000, gemeinsam Fr. 150’000, je Kind Fr. 20’000; 37 steuerbares Vermögen (338).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0011",
+"nachher": "sg-form-1-2026-uj__c0013"
+},
+{
+"id": "sg-form-1-2026-uj__c0013",
+"titel": "Ziff. 40–41 Kapitalleistungen aus Vorsorge, Beilagen, Unterschrift",
+"pfad": [
+"Ergänzende Angaben"
+],
+"seiten": [
+4
+],
+"artikel": null,
+"ziffer": "40–41",
+"stichworte": [
+"Kapitalleistung",
+"Säule 3a",
+"Pensionskasse",
+"Beilagen",
+"Unterschrift"
+],
+"positionen": [
+"einkommen.kapitalleistung_vorsorge",
+"verfahren.einreichung"
+],
+"zusammenfassung": "Ziff. 40.1 Kapitalleistungen Säule 3a, 40.2 berufliche Vorsorge, 40.3 übrige, 41 Total (950); Beilagenliste und Unterschrift.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-1-2026-uj__c0012",
+"nachher": null
+}
+]

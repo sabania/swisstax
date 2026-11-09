@@ -4,24 +4,11 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 164"
-seiten: "41"
+titel: "Beilage 2 Seite 5/13 Ziff. 14.7 Konkubinat, ohne gemeinsame Sorge, mit Unterhalt (Teil 3/3)"
+ziffer: "Beilage 2, S. 5/13"
+seiten: "50"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 41
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 50
 
-<!-- Seite 41 -->
-Jeder Ehegatte hat in der Steuererklärung nur die ihm zuzurechnenden Einkommensfaktoren
-zu deklarieren. Dies folgt aus Artikel 180 DBG, wonach jeder Ehegatte nur für die Hinterzie-
-hung der eigenen Steuerfaktoren gebüsst werden kann.
-
-15.3   Rechtsmittel und andere Eingaben
-
-Rechtsmittel und andere Eingaben gelten als rechtzeitig eingereicht, wenn bloss einer der
-beiden Ehegatten innert Frist gehandelt hat (Art. 113 Abs. 3 DBG). Eine Aufforderung zur
-Doppelunterschrift ist hier im Gegensatz zur Steuererklärung nicht nötig. Das DBG geht so-
-mit im Falle der Unterzeichnung der betreffenden Eingabe durch einen Ehegatten allein stets
-von der stillschweigenden Ermächtigung zur Vertretung aus. Jeder Ehegatte kann im
-Rechtsmittelverfahren selbständig rechtswirksam vorgehen, was sich gleichzeitig zugunsten
-des untätig gebliebenen Ehepartners auswirkt. Diesem bleibt es unbenommen, gegen einen
-späteren Entscheid der zuständigen Instanz ein Rechtmittel einzulegen.
+1-030-D-2010-Beilage-2-d-2014.doc

@@ -5,24 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 66"
-seiten: "20"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
 
-Erfolgt eine steuerneutrale Übertragung zu Lasten der Reserven der übertragenden Gesell-
-schaft, verbucht die übernehmende Schwestergesellschaft den erhaltenen Aktivenüber-
-schuss spiegelbildlich zu Gunsten ihrer Reserven. Dies gilt sowohl für übrige Reserven als
-auch für KER bzw. Ausland-KER.
+Reserven, die bei einer Umstrukturierung in die übrigen Reserven einer inländischen Kapital-
+gesellschaft oder Genossenschaft übergehen, sind nach Artikel 5 Absatz 1 Buch-
+stabe a VStG von der Verrechnungssteuer ausgenommen. Dabei wird vorausgesetzt, dass
+das übertragene Verrechnungssteuersubstrat erhalten bleibt.
 
-c)   Verrechnungssteuer
+Die bei einer Fusion den Inhabern der Beteiligungsrechte oder diesen nahestehenden Dritten
+zukommenden Ausgleichszahlungen, Gratisaktien, Gratisnennwerterhöhungen und sonsti-
+gen Erträge unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer,
+sofern sie zu Lasten der übrigen Reserven einer inländischen Kapitalgesellschaft oder Ge-
+nossenschaft erfolgen. Stammt das Grund- oder Stammkapital aus KER, gelten die Bestim-
+mungen zu Ziff. 5.1.5 hiervor.
 
-Erfolgt die steuerneutrale Übertragung zu Lasten der offenen Reserven einer Tochtergesell-
-schaft an die Muttergesellschaft und wird der erhaltene Aktivenüberschuss nicht über die Er-
-folgsrechnung, sondern direkt über die Reserven verbucht, qualifiziert der Zugang als übrige
-Reserve.
+Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
+können miteinander und gegenseitig verrechnet werden.
 
-Erfolgt eine steuerneutrale Übertragung zu Lasten der Reserven der übertragenden Gesell-
-schaft, verbucht die übernehmende Schwestergesellschaft den erhaltenen Aktivenüber-
-schuss spiegelbildlich zu Gunsten ihrer Reserven. Dies gilt sowohl für übrige Reserven als
-auch für KER bzw. Ausland-KER.
+7.1.2. Echte und unechte Fusion verbundener Gesellschaften

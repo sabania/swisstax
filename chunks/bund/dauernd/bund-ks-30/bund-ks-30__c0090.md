@@ -4,23 +4,26 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 90"
-seiten: "21"
+titel: "Ziff. 13.4.8–13.4.9 Aufwandbesteuerung und Quellensteuer – Elterntarif"
+ziffer: "13.4.8"
+seiten: "28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif · S. 28
 
-<!-- Seite 21 -->
-oder Zivilschutzdienstpflicht zu erfüllen oder um für die Ausbildung notwendige Prüfungen
-vorzubereiten.
+13.4.8   Besteuerung nach dem Aufwand
 
-Auslandsaufenthalte, die nicht zur eigentlichen Berufsausbildung gehören und nur darauf
-ausgerichtet sind, die späteren Karrierechancen zu verbessern, gelten nicht als Erstausbil-
-dung. Auch hier gilt das Stichtagsprinzip. Fällt ein solcher Unterbruch auf einen Stichtag,
-kann der Kinderabzug nicht beansprucht werden. Hat das Kind die Ausbildung vor dem
-Stichtag abgeschlossen, wird der Kinderabzug ebenfalls für das entsprechende Steuerjahr
-nicht mehr gewährt.
+Nach Artikel 14 Absatz 3 DBG wird die Steuer für Personen, die nach dem Aufwand besteu-
+ert werden, nach dem ordentlichen Steuertarif berechnet. Bei der Besteuerung nach dem
+Aufwand werden persönliche Verhältnisse, die bei einer ordentlichen Veranlagung zu Abzü-
+gen berechtigen, nicht berücksichtigt. Dementsprechend hat der Gesetzgeber in Artikel 14
+Absatz 3 DBG festgehalten, dass nur der Grundtarif (Art. 36 Abs. 1 DBG) oder der Verheira-
+tetentarif (Art. 36 Abs. 2 DBG) zur Anwendung kommen. Bei der Besteuerung nach dem
+Aufwand gelangt somit der Elterntarif nicht zur Anwendung.
 
-Bei einer Weiterbildung des volljährigen Kindes wird der Kinderabzug nicht gewährt.
 
-11   Unterstützungsabzug
+13.4.9   Quellensteuer für natürliche Personen
+
+Bei der Festsetzung der Quellensteuertarife für natürliche Personen sind die Abzüge für Fa-
+milienlasten zu berücksichtigen (Art. 86 Abs. 1 DBG). Dies gilt auch für den Elterntarif, wel-
+cher als Abzug vom Steuerbetrag in die jeweiligen Tarife eingerechnet wird.

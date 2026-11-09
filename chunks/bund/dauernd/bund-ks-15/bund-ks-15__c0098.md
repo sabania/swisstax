@@ -4,22 +4,20 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 98"
-seiten: "23"
+titel: "Anhang III Ziff. 7 Obligationen mit «Money back»-Optionen"
+ziffer: "Anh. III 7"
+seiten: "26-27"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 7 Money back · S. 26–27
 
-Mangels gesetzlicher Grundlage wird keine Verrechnungssteuer erhoben. Jedoch unterlie-
-gen überjährige (Mini-) Futures auf Aktien (im Gegensatz zu solchen auf Rohstoffe), die nicht
-als echte Termingeschäfte qualifizieren, im Sekundärmarkt der Umsatzabgabe, da sie als
-„Unterbeteiligungen“ auf Aktien im Sinne von Artikel 13 Absatz 2 Buchstabe c StG gelten.
+7   Obligationen mit “Money back” Optionen
+Optionsanleihen, bei denen die Option nicht nur auf den Bezug des Basiswertes lautet, son-
+dern alternativ den Anspruch auf eine Geldsumme gibt, werden grundsätzlich steuerlich wie
+Anleihen ohne alternativen Baranspruch behandelt. Wird allerdings der Geldanspruch gel-
+tend gemacht, stellt dieser im Zeitpunkt der Ausübung vollumfänglich steuerbaren Zinsertrag
+gemäss Artikel 20 Absatz 1 Buchstabe a DBG dar und unterliegt im Falle eines inländischen
+Schuldners der Verrechnungssteuer gemäss Artikel 4 Absatz 1 Buchstabe a VStG.
 
-c)   Termingeschäfte mit Zinsen als Basiswert
-Unterjährige Laufzeit: Bei Produkten ohne garantierte Zahlungen und mit Laufzeiten von
-nicht mehr als zwölf Monaten gelten die erzielten Gewinne und Verluste (wie bei den übrigen
-derivativen Finanzinstrumenten) – auf Zusehen hin – als steuerfrei. Bei Vorausfinanzierungs-
-graden, die höher als 25% sind, wird die Zinskomponente besteuert. Als Bemessungsgrund-
-lage gilt der Emissionspreis. Die steuerbare Zinskomponente wird aufgrund der Währung
-und Laufzeit des Produktes mittels entsprechender Libor-Rate ermittelt, gegebenenfalls unter
-Berücksichtigung eines schuldnerspezifischen Risikozuschlags.
+
+1-015-DVS-2017-d / Anhang III

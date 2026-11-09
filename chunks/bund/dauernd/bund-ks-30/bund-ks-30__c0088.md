@@ -4,25 +4,29 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 88"
-seiten: "20"
+titel: "Ziff. 13.4.7 Teilweise Steuerpflicht – Beispiel Ferienhaus (Teil 1/2)"
+ziffer: "13.4.7"
+seiten: "27-28"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.7 Teilweise Steuerpflicht · S. 27–28
 
-Gemäss Artikel 277 Absatz 2 ZGB sind die Eltern auch nach der Mündigkeit des Kindes ver-
-pflichtet, bis zum ordentliche Abschluss einer angemessenen Ausbildung für dessen Unter-
-halt aufzukommen, soweit dies nach den gesamten Umständen zugemutet werden kann.
-Der Kinderabzug kann daher auch für volljährige Kinder in Ausbildung beansprucht werden.
-Während der französische Gesetzestext bis anhin neben der beruflichen auch explizit die
-schulische Ausbildung vorsah, erwähnte der deutsche Gesetzestext nur die berufliche Aus-
-bildung. Dieser gesetzgeberische Fehler wird mit der Ergänzung des deutschen Gesetzes-
-textes durch den Begriff "schulische" beseitigt. Das Erfordernis, dass die steuerpflichtige
-Person für den Unterhalt des Kindes sorgt, ist erfüllt, wenn sie Beiträge mindestens in der
-Höhe des Sozialabzuges an das Kind ausrichtet. In Weiterführung der Praxis wird der Kin-
-derabzug für ein volljähriges Kind in Ausbildung aber nur dann zugelassen, wenn dieses im
-massgebenden Zeitpunkt tatsächlich auf den Unterhaltsbeitrag angewiesen war. Erzielt das
-Kind ein Einkommen, das ihm den selbständigen Lebensunterhalt ermöglicht, so kann der
-Kinderabzug nicht mehr beansprucht werden. Der Kinderabzug wird beispielsweise nicht
-gewährt, wenn das Kind über ein umfangreiches Vermögen verfügt, dessen Vermögenser-
-träge einen selbständigen Unterhalt des Kindes erlauben.
+13.4.7   Teilweise Steuerpflicht
+
+Bei beschränkter Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit nach den Artikeln 4
+und 5 DBG wird der Abzug vom Steuerbetrag anteilsmässig gewährt.
+
+Auch bei unbeschränkter Steuerpflicht aufgrund persönlicher Zugehörigkeit wird der Abzug
+vom Steuerbetrag nur anteilsmässig gewährt, soweit Auslandeinkünfte gemäss Artikel 6 Ab-
+satz 1 DBG oder aufgrund eines Doppelbesteuerungsabkommens von der Steuerpflicht aus-
+zunehmen sind.
+
+Der Steuerbetrag ermässigt sich bei teilweiser Steuerpflicht somit nur um den anteilsmässi-
+gen Abzug von 251 Franken für jedes Kind und jede unterstützungsbedürftige Person. Die
+Höhe des Abzugs bemisst sich nach dem Verhältnis des in der Schweiz steuerbaren Ein-
+kommens zum höheren satzbestimmenden Einkommen.
+
+Beispiel:   Beschränkte Steuerpflicht aufgrund wirtschaftlicher Zugehörigkeit
+(Ferienhaus in der Schweiz; Art. 4 Abs. 1 Bst. c und 21 DBG)
+
+Annahmen:

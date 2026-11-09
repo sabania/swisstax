@@ -4,21 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 110"
-seiten: "25"
+titel: "Ziff. 14.5 Getrennte Eltern (2 Haushalte), minderjähriges Kind, gemeinsame Sorge, mit Unterhaltszahlungen"
+ziffer: "14.5"
+seiten: "33-34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 25
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.5 · S. 33–34
 
-Der Elterntarif wird ebenfalls Steuerpflichtigen gewährt, die mit volljährigen Kindern in Aus-
-bildung zusammenleben. Auch hier muss die Voraussetzung erfüllt sein, dass die Person,
-welche den Elterntarif beansprucht, hauptsächlich für den Unterhalt des Kindes aufkommt.
-Der Elterntarif wird in Analogie zum Kinderabzug daher nur gewährt, wenn das volljährige
-Kind in Ausbildung im massgebenden Zeitpunkt tatsächlich auf den Unterhaltsbeitrag der
-Eltern angewiesen ist. Erzielt das Kind ein Einkommen, das ihm einen selbständigen Le-
-bensunterhalt ermöglicht, so kann der Elterntarif nicht mehr beansprucht werden. Verfügt
-das Kind beispielsweise über ein umfangreiches Vermögen, wird der Elterntarif nicht ge-
-währt, wenn dadurch Vermögenserträge erzielt werden, die einen selbständigen Lebensun-
-terhalt des Kindes erlauben. Unter Ausbildung ist wie beim Kinderabzug ein Lehrgang für die
-berufliche Erstausbildung zu verstehen. Es ist daher auf die Ausführungen über den Kin-
-derabzug unter Ziffer 10.3 zu verweisen.
+14.5   Besteuerung der getrennten, geschiedenen oder unverheirateten El-
+    tern (zwei Haushalte) mit gemeinsamem minderjährigem Kind, mit
+    gemeinsamer elterlicher Sorge, mit oder ohne alternierende Obhut,
+    mit Unterhaltszahlungen
+
+Wird ein Abzug für die Unterhaltsbeiträge für das Kind nach Artikel 33 Absatz 1 Buchstabe c
+DBG von einem Elternteil geltend gemacht, erfolgt die Besteuerung der Eltern folgender-
+massen:
+
+
+14.5.1   Unterhaltszahlungen
+   Die Unterhaltsbeiträge für das Kind sind vom Empfänger zu versteuern. Der leistende
+    Elternteil kann diese Alimentenleistungen in Abzug bringen.

@@ -5,25 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 59"
-seiten: "18"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
 
-Bei einer direkten Umwandlung eines im Handelsregister eingetragenen Vereins in eine Ka-
-pitalgesellschaft oder in eine Genossenschaft durch Rechtsformwechsel und bei einer Um-
-wandlung mittels Vermögensübertragung können keine KER gebildet werden.
+Bei der Umwandlung findet eine Liquidation der Kapitalgesellschaft oder Genossenschaft
+statt. Der Liquidationsüberschuss (Verkehrswert des Aktivenüberschusses abzüglich des
+Nennwertes und der KER bzw. Ausland-KER) unterliegt bei den bisher beteiligten natürli-
+chen Personen der Einkommenssteuer.
 
-Bei einer indirekten Umwandlung durch Sacheinlagegründung kann der ausgewiesene Akti-
-venüberschuss der Vermögenswerte gemäss Handelsbilanz der Kapitalgesellschaft oder Ge-
-nossenschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder
-Stammkapital übersteigt.
+b)   Verrechnungssteuer
 
-6.3.4. Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
-    oder in eine Genossenschaft
+Die Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine Personenunterneh-
+mung kommt steuerlich einer Liquidation gleich. Auf dem Liquidationsüberschuss (Verkehrs-
+wert des Aktivenüberschusses abzüglich des Nennwertes und der KER bzw. Ausland-KER)
+ist die Verrechnungssteuer geschuldet.
 
-a)   Direkte Bundessteuer (Einkommenssteuer) nicht betroffen
+6.4.   Spaltung
 
-Bei einer direkten Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesell-
-schaft oder in eine Genossenschaft durch Rechtsformwechsel können keine KER gebildet
-werden.
+a)   Direkte Bundessteuer (Einkommenssteuer)

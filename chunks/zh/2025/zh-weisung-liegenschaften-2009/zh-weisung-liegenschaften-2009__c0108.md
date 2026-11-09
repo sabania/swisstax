@@ -5,16 +5,19 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 108"
-seiten: "39"
+seiten: "43"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 39
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 43
 
-<!-- Seite 39 -->
+<!-- Seite 43 -->
 Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
+Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten
 
-Bebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+    Unbebaute Grundstücke   Bebaute
+    Grundstücke
+    Geschäftshäuser   Industrie- und   Industrie- und
+    (Ziff. 14)   Gewerbebauten   Gewerbebauten
+    (Ziff. 15)   (Ziff. 15 und 49)
+    Anzahl   LK 3   LK 3   LK 3
+Gemeinde   Klassen   LK 1   LK 2   LK 4   LK 1   LK 2   LK 4   LK 1   LK 2   LK 4

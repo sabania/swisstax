@@ -5,22 +5,17 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 32"
-seiten: "15"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 15
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 14
 
-    Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen 78
-den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung der
-Sätze gemäss Ziff. 42, jeweils vermindert um 2 Prozentpunkte, zu kapi-
-talisieren.
+    V. Andere Liegenschaften und Räume
 
-D. Individuelle Schätzung des Verkehrswerts und des Eigenmietwerts
-   von Liegenschaften
-
-I. Vermögenssteuerwert
-
-    Führt die schematische, formelmässige Ermittlung zu einem Ver- 79
-mögenssteuerwert, der über 100% des Verkehrswerts oder unter 70%
-desselben liegt, so ist eine individuelle Schätzung des Vermögens-
-steuerwerts vorzunehmen.
+73   Der bei eigener Nutzung von anderen Liegenschaften und Räumen
+    wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen, frei-
+    stehenden Garagen, Sport- und Reithallen und dergleichen anzurech-
+    nende Mietwert soll dem Mietzins entsprechen, den der Pflichtige bei
+    Vermietung von einem Dritten erhalten würde.
+74   Die Mietwerte solcher Liegenschaften und Räume sind unter Be-
+    rücksichtigung der Verhältnisse des Einzelfalls zu schätzen.

@@ -5,21 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 25 – Abschnitt 42"
-seiten: "9"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 25 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 25 · S. 10
 
-Die Umstrukturierungen gemäss Artikel 95 Absatz 1 KAG sind auf Stufe der kollektiven Kapi-
-talanlage steuerneutral. Mit Bezug auf Umstrukturierungen gemäss Artikel 95 Absatz 1 Buch-
-staben a und b KAG ist Artikel 61 DBG sinngemäss anwendbar. Bei Vermögensübertragun-
-gen gemäss Artikel 95 Absatz 1 Buchstabe c KAG sind Artikel 61 Absätze 3 und 4 DBG da-
-gegen nicht anwendbar.
+<!-- Seite 10 -->
+Übernimmt eine kollektive Kapitalanlage Vermögenswerte von einer Kapitalgesellschaft oder
+Genossenschaft, deren Beteiligungsrechte sie selber hält, gelten die übertragenen übrigen
+und stillen Reserven nach dem Grundsatz der Transparenz als an die Inhaber der Anteile an
+der kollektiven Kapitalanlage ausgeschüttet.
 
-Bei der Übernahme von Vermögenswerten durch eine kollektive Kapitalanlage von einer Ka-
-pitalgesellschaft oder Genossenschaft kommt Artikel 61 DBG nicht zur Anwendung. Daher
-realisiert die übertragende Kapitalgesellschaft oder Genossenschaft die entsprechenden stil-
-len Reserven.
+5.4   Beteiligungsabzug und Teilbesteuerung
+Kapitalgesellschaften oder Genossenschaften, die Anteile an einem vertraglichen Anlage-
+fonds, an einer SICAV oder an einer KmGK halten, können die Ermässigung nach Artikel
+69 ff. DBG nicht beanspruchen.
 
-Auf Umstrukturierungen von oder mit ausländischen kollektiven Kapitalanlagen sind die Best-
-immungen von Artikel 61 DBG ebenfalls sinngemäss anwendbar.
+Natürliche Personen können für ihr Einkommen aus einer kollektiven Kapitalanlage die Be-
+steuerung nach Artikel 18b und 20 Absatz 1bis DBG nicht geltend machen.

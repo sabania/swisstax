@@ -9,6 +9,8 @@ qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
 > SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
 
-- [05 - Schulden / Zuwendungen / Parteispenden 2022(1538 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_05_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 05 - Schulden / Zuwendungen / Parteispenden 2022")
-- [06 - Versicherungsprämien / Krankheitskosten 2022(1542 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_06_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 06 - Versicherungsprämien / Krankheitskosten 2022")
-- [07 - Liegenschaften 2022(1553 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2022-hs/Formular_07_2022_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 07 - Liegenschaften 2022")
+####
+
+- [01 - Steuererklärung 2021(1955 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_01_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 01 - Steuererklärung 2021")
+- [02 - Wertschriftenverzeichnis 2021(195 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_02_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 02 - Wertschriftenverzeichnis 2021")
+- [04 - Berufskosten 2021(146 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2021-hs/Formular_04_2021_DEF.pdf "Download: Es öffnet sich ein neues Fenster: 04 - Berufskosten 2021")

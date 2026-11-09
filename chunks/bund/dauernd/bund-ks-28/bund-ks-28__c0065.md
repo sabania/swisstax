@@ -5,17 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 65"
-seiten: "20"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
 
-<!-- Seite 20 -->
-Zeitpunkt der Veranlagung vorhanden waren, der Steuerbehörde jedoch erst im Nachhinein
-bekannt wurden (vgl. Klaus A. Vallender/Martin E. Looser, in: Martin Zweifel/Peter Athanas
-[Hrsg.], Kommentar zum Schweizerischen Steuerrecht, Bd. I/2b, Art. 151 DBG N 1 und 7).
-Bei der Beantwortung der Frage, ob neue Tatsachen oder Beweismittel schon im Zeitpunkt
-der Veranlagung vorlagen, ist der Aktenstand in diesem Zeitpunkt massgeblich (BGE
-2C.21/2008 vom 10. Juni 2008 E. 2.1; 2A.502/2005 vom 2. Februar 2006 E. 2, in: StR
-61/2006 442, S. 444 mit Hinweis). Solche „neuen“ Tatsachen bestehen in diesen Fällen
-nicht, weshalb ein Nachsteuerverfahren nach Artikel 151 DBG nicht möglich ist.
+Absatz 2
+Das Vorliegen einer Invalidität richtet sich nach den massgebenden gesetzlichen Bestim-
+mungen des Bundesgesetzes über die Invalidenversicherung (IVG) 5 . Nach dessen Artikel 4
+Absatz 2 IVG ist eine Invalidität gegeben, sobald von der IV wegen voraussichtlich bleiben-
+der oder längerer Zeit dauernder ganzer oder teilweise Erwerbsunfähigkeit Leistungen aus-
+gerichtet werden. Unter den Terminus „Leistungen“ fallen mithin nicht nur Renten, sondern
+auch andere Leistungen der IV, wie beispielsweise solche für eine notwendige Umschulung.
+
+Absatz 3
+Buchstabe a
+Die privilegierte Liquidationsgewinnbesteuerung gilt ausschliesslich für die im Vorjahr und im
+Liquidationsjahr realisierten stillen Reserven. Einkommen aus der selbständigen Erwerbstä-
+tigkeit, welches nicht aus der Realisation von stillen Reserven resultiert, sowie übrige Ein-
+künfte werden weiterhin ordentlich besteuert und können nicht von der separaten Besteue-
+rung nach Artikel 37b DBG profitieren.

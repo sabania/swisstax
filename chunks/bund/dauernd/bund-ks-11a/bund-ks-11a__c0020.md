@@ -5,20 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 11a – Abschnitt 20"
-seiten: "6"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 11a · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 11a · S. 5
 
-<!-- Seite 6 -->
-3.2.8   Kosten für Fortpflanzungshilfen
-Kosten für Fortpflanzungshilfen, d.h. sowohl die Kosten für Hormonbehandlungen als auch die
-Kosten, welche namentlich aufgrund von homologer künstlicher Insemination oder In-vitro-Ferti
-lisation sowie für das Einfrieren von Eizellen im Hinblick auf die künftige Zeugung von Kindern
-anfallen, werden als abzugsfähige Krankheitskosten anerkannt, sofern diese Behandlungen
-krankheitsbedingt und medizinisch indiziert sind und es sich um ein im Rahmen des Bundesge
-setzes vom 18. Dezember 1998 über die medizinisch unterstützte Fortpflanzung (FMedG;
-SR 810.11) zulässiges Fortpflanzungsverfahren handelt. Die Abzugsfähigkeit besteht unabhän
-gig davon, bei welcher Partnerin oder welchem Partner die krankheitsbedingte Behandlung er
-folgt (vgl. VGer ZH vom 4. Juli 2001 [Zürcher Steuerpraxis ZStP 2001, 288 ff.], VRK SG vom 26.
-Februar 2004 [St. Galler Steuerentscheide SGE 2004 Nr. 3]).
+3.2.5   Kosten für Medikamente und Heilmittel
+Die Kosten für Medikamente und Heilmittel sind nur abzugsfähig, wenn sie von einer Ärztin, ei
+nem Arzt oder von einer nach kantonaler Praxis anerkannten Naturheilpraktikerin/einem aner
+kannten Naturheilpraktiker verordnet werden (vgl. Ziff. 3.2.4; vgl. Verwaltungsgericht Thurgau
+V64 vom 17. März 2004).
+
+3.2.6   Pflegekosten
+Abzugsfähig sind die Kosten für die krankheits- oder unfallbedingte ambulante Pflege zu Hause.
+Unwesentlich ist dabei, wer diese Pflegeleistungen erbringt (Pflegefachpersonen, Spitexorgani
+sationen, private Pflegekräfte etc.). Kein Abzug kann jedoch gemacht werden für unentgeltlich
+erbrachte Pflegeleistungen.
+Werden die Dienste einer ambulanten Pflege in Anspruch genommen, die neben der eigentli
+chen Pflege auch den Haushalt besorgt, so sind diese Kosten angemessen in abziehbare
+Pflege- und nichtabziehbare Lebenshaltungskosten aufzuteilen (vgl. Urteil des Bundesgerichts
+9C_655/2022 vom 31. Oktober 2023 E. 5.4.1).

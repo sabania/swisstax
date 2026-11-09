@@ -4,27 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 42"
-seiten: "9"
+titel: "Ziff. 8.4.3 Konkubinatseltern – Aufteilung CHF 5'050 je Elternteil, Maximum CHF 10'100"
+ziffer: "8.4.3"
+seiten: "14-15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung › 8.4.3 · S. 14–15
 
-6   Haftung und Mithaftung der Ehegatten und der Kinder für die Steuer
+8.4.3   Unverheiratete Eltern (gemeinsamer Haushalt) mit gemeinsamen
+    oder nicht gemeinsamen Kindern
 
-6.1   Grundsatz
+Unverheirateten Eltern, die mit gemeinsamen Kindern zusammen in einem Haushalt leben
+(Konkubinat), können den Abzug geltend machen, wenn sie beide gleichzeitig einer Erwerbs-
+tätigkeit nachgehen bzw. in Ausbildung stehen oder erwerbsunfähig und zugleich betreu-
+ungsunfähig sind.
 
-Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, haften solidarisch für die
-Gesamtsteuer (Art. 13 Abs. 1 DBG). Die grundsätzlich solidarische Haftung der Ehegatten ist
-die Konsequenz des Prinzips der steuerlichen Einheit der Familie. Die Solidarhaftung er-
-streckt sich auf den gesamten Steuerbetrag des Ehepaars. Die Solidarhaftung ist an die
-Gemeinschaftsbesteuerung gekoppelt und beginnt mit der Steuerperiode, in welcher sich
-das Ehepaar verehelicht hat.
-
-6.2   Wegfall der Solidarhaftung
-
-6.2.1   Zahlungsunfähigkeit
-
-Die eheliche Solidarhaftung entfällt, wenn einer der Ehegatten zahlungsunfähig wird (Art. 13
-Abs. 1 DBG). Der Eintritt der Zahlungsunfähigkeit hat zur Folge, dass hinsichtlich aller noch
-geschuldeten Steuern jeder Ehegatte nur noch für seinen Anteil an der Gesamtsteuer haftet.
+Halten die unverheirateten Eltern die elterliche Sorge gemeinsam inne, kann jeder Elternteil
+maximal 5‘050 Franken der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug
+bringen. Es besteht jedoch die Möglichkeit, dass die Eltern eine andere Aufteilung beantra-
+gen. Die beiden Elternteile haben sich diesfalls zu einigen. Es obliegt daher den Eltern, eine
+andere Aufteilung zu begründen und nachzuweisen. Betragen die geltend gemachten Kosten
+beider Elternteile zusammen mehr als den Maximalbetrag von 10’100 Franken, werden die
+Abzüge im Verhältnis der nachgewiesenen Kosten auf diesen Maximalbetrag gekürzt.

@@ -5,20 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 137"
-seiten: "36"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 36
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
 
-Eine Ausnahme bilden Vergütungen, die für zurückliegende oder zukünftige Perioden be-
-zahlt werden (bspw. Boni, Mitarbeiterbeteiligungen), auf die infolge Ansässigkeit oder Ar-
-beitsausübung im Ausland ein DBA anwendbar ist. Sofern das anwendbare DBA für die be-
-treffende Zeit Einschränkungen vorsieht (bspw. Anwendbarkeit der Grenzgängerregelung
-nach Art. 15a DBA-D), sind diese Umstände tariflich zu berücksichtigen.
-Alternativ zur fortlaufenden Berücksichtigung von monatlich veränderten Einkommensver-
-hältnissen, persönlichen Verhältnissen usw. steht es dem Arbeitgeber offen, die erforderli-
-chen Korrekturen beim satzbestimmenden Jahreseinkommen erst am Ende des Kalender-
-jahres (Dezember) bzw. am Ende des Arbeitsverhältnisses vorzunehmen. In diesem Fall
-sind die in den Vormonaten des laufenden Jahres bereits abgezogenen Quellensteuern von
-den am Ende des Kalenderjahres bzw. am Ende des Arbeitsverhältnisses berechneten Quel-
-lensteuern für die gesamte Periode in Abzug zu bringen.
+6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)
+Werden dem Arbeitnehmer durch den Arbeitgeber Kapitalabfindungen für wiederkehrende
+Leistungen ausgerichtet (bspw. nachträgliche Auszahlung von Familienzulagen für mehrere
+Monate), unterliegen diese im Zeitpunkt der Auszahlung der Quellenbesteuerung und zwar
+zusammen mit einer allenfalls im selben Monat ausgerichteten Lohnzahlung. Der Steuersatz
+ergibt sich dabei aus der Summe der Kapitalabfindung für wiederkehrende Leistungen und
+der Lohnzahlung im entsprechenden Monat.
+Die Kapitalabfindung wird im Quellensteuerverfahren nach dem Monatsmodell für die Satz-
+bestimmung nicht auf einen Monat umgerechnet. Es steht dem Arbeitnehmer offen, bis am
+31. März des auf die Fälligkeit der Leistung folgenden Steuerjahres eine Neuberechnung der
+Quellensteuer oder eine nachträgliche ordentliche Veranlagung zu beantragen (vgl. Ziffer 11
+unten).

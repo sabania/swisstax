@@ -5,32 +5,19 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 26"
-seiten: "8"
+seiten: "9"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 8
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 9
 
-<!-- Seite 8 -->
-4.   Ausschüttungen / Rückzahlungen allgemein
+Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft
+unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungs-
+steuer (Art. 5 Abs. 1bis VStG).
 
-4.1.   Grundsätze
+Ausschüttungen aus übrigen Reserven einer Kapitalgesellschaft oder Genossenschaft sind
+nach Artikel 20 Absatz 1 Buchstabe c DBG oder Artikel 20 Absatz 1bis DBG steuerbar und
+unterliegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.
 
-Die Aufteilung der Ausschüttungen der Kapitalgesellschaft oder Genossenschaft in Rückz ah-
-lung aus KER bzw. Ausland-KER und Ausschüttungen aus übrigen Reserven erfolgt unter
-Berücksichtigung der handelsrechtlichen Bestimmungen (Art. 671 – 675a OR) nach freiem
-Ermessen der ausschüttenden Kapitalgesellschaft oder Genossenschaft aufgrund der Verbu-
-chung und Qualifikation der Reserven in der Handelsbilanz der ausschüttenden Gesellschaft
-(quellenmässige Betrachtungsweise).
-
-Für Kapitalgesellschaften und Genossenschaften, die der Verrechnungssteuer gemäss Arti-
-kel 9 Absatz 1 VStG unterliegen, ist die steuerliche Beurteilung der Ausschüttungen durch
-die Verrechnungssteuer auch für die direkten Steuern massgeblich.
-
-Ausschüttungen von Kapitalgesellschaften oder Genossenschaften sind in dem Umfang
-steuerbar, als sie auf die Ausschüttung von übrigen Reserven entfallen. Für die Berechnung
-des steuerbaren Teils der Ausschüttung wird die gesamte Ausschüttung um den Anteil ge-
-kürzt, welcher gemäss Gewinnverwendungsbeschluss der Generalversammlung den KER
-bzw. Ausland-KER belastet wird.
-
-Der so ermittelte steuerbare Teil der Ausschüttung gilt für sämtliche ausschüttungsberechtig-
-ten Anteile.
+Verdeckte Gewinnausschüttungen qualifizieren als Ausschüttungen aus übrigen Reserven
+und sind nach Artikel 20 Absatz 1 Buchstabe c oder 20 Absatz 1bis DBG steuerbar und unter-
+liegen nach Artikel 4 Absatz 1 Buchstabe b VStG der Verrechnungssteuer.

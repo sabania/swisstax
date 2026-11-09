@@ -5,28 +5,48 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 92"
-seiten: "33"
+seiten: "38"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 33
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 38
 
-Bezirk Bülach
-Bachenbülach   4   420   370   330   280   –   –   –
-Bassersdorf   5   490   450   400   350   300   –   –
-Bülach   5   450   410   370   330   290   –   –
-Dietlikon   5   500   460   410   360   310   –   –
-Eglisau   5   360   330   290   260   220   –   –
-Embrach   4   380   340   310   270   –   –   –
-Freienstein-Teufen   2   320   260   –   –   –   –   –
-Glattfelden   5   310   290   260   240   210   –   –
-Hochfelden   4   380   340   300   260   –   –   –
-Höri   3   250   210   170   –   –   –   –
-Hüntwangen   5   310   290   270   250   220   –   –
-Kloten   5   490   450   400   350   300   –   –
-Lufingen   3   490   380   270   –   –   –   –
-Nürensdorf   5   480   440   390   350   300   –   –
-Oberembrach   3   410   330   250   –   –   –   –
-Opfikon   4   470   410   340   280   –   –   –
-Rafz   4   360   320   270   230   –   –   –
-Rorbas   3   310   280   250   –   –   –   –
-Wallisellen   5   530   490   440   390   340   –   –
+<!-- Seite 38 -->
+    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+
+Wohnbauland
+
+Bebaute Grundstücke
+    Stockwerkeigentum (Ziff. 10 und 23)
+    Anzahl
+Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+
+Bezirk Winterthur
+Altikon   3   430   370   320   –   –   –   –
+Brütten   3   680   600   530   –   –   –   –
+Dägerlen   3   440   360   270   –   –   –   –
+Dättlikon   5   590   560   520   480   440   –   –
+Dinhard   3   590   460   330   –   –   –   –
+Elgg
+– Elgg   5   580   530   470   410   350   –   –
+ (ehemalige Gemeinde)
+– Hofstetten (ZH)   3   330   290   250   –   –   –   –
+ (ehemalige Gemeinde)
+Ellikon an der Thur   3   450   360   260   –   –   –   –
+Elsau   5   610   550   480   410   340   –   –
+Hagenbuch   5   520   470   410   360   300   –   –
+Hettlingen   4   640   560   490   410   –   –   –
+Neftenbach   5   710   650   580   520   450   –   –
+Pfungen   4   580   510   430   360   –   –   –
+Rickenbach (ZH)   4   580   500   430   350   –   –   –
+Schlatt (ZH)   3   430   360   280   –   –   –   –
+Seuzach   5   710   650   590   530   460   –   –
+Turbenthal   5   430   390   350   310   260   –   –
+Wiesendangen
+– Bertschikon   2   330   270   –   –   –   –   –
+ (ehemalige Gemeinde)
+– Wiesendangen   5   640   590   540   490   440   –   –
+ (ehemalige Gemeinde)
+Winterthur   5   760   680   600   520   440   –   –
+Zell (ZH)   5   450   420   380   340   300   –   –
+Bezirk Zürich
+Zürich   7   1650   1480   1300   1130   950   780   600

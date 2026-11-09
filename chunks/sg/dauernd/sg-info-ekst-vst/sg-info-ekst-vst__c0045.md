@@ -4,11 +4,12 @@ quelle: sg-info-ekst-vst
 jur: sg
 jahre: [2025, 2026]
 typ: info
-titel: "Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)"
+titel: "Formulare"
 qmd: {metadata: {jur: sg, jahre: [2025, 2026], typ: info}}
 ---
-> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027)
+> SG · Steuerjahr 2025/2026 · SG EK/VM-Steuer · Einkommens- und Vermögenssteuer Privatpersonen (inkl. Tarife 2025–2027) › Formulare
 
-- [14 - Landwirte im Berggebiet 2019(183 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/14_SG_NP_Landwirte_Berggebiete_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 14 - Landwirte im Berggebiet 2019")
-- [27 - Merkblatt Steuerpflicht 2019(124 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/27_SG_NP_Merkblatt_Steuerpflicht_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 27  - Merkblatt Steuerpflicht 2019")
-- [32 - Merkblatt Direkte Bundessteuer 2019(176 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/2019-hs/32_SG_NP_Merkblatt%20direkte%20Bundessteuer_2019_HS.pdf "Download: Es öffnet sich ein neues Fenster: 32 - Merkblatt Direkte Bundessteuer 2019")
+### Formulare
+
+- [Ärztlicher Fragebogen (046\_2)(75 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/046_2_%C3%84rztlicher_Fragebogen_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Ärztlicher Fragebogen (046_2)")
+- [Ausbildungs- und Kinderbetreuungskosten (10)(2063 kB, PDF)](https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/formulare-und-wegleitungen/einkommens-und-vermoegenssteuer/jahresunabhaengige-formulare/formulare/Formular_10_eForm.pdf "Download: Es öffnet sich ein neues Fenster: Ausbildungs- und Kinderbetreuungskosten (10)")

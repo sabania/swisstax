@@ -10,16 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 6
 
-6.2.   Liquidation durch die Erben oder die Vermächtnisnehmer
-6.2.1. Einzelunternehmung
-Die Erben und Vermächtnisnehmer, welche die Einzelunternehmung nicht weiterführen, ü-
-bernehmen den Anspruch des Erblassers auf die privilegierte Besteuerung des Liquidations-
-gewinns nur dann, wenn dieser im Zeitpunkt seines Ablebens die Voraussetzungen gemäss
-Artikel 1 Absatz 1 LGBV erfüllt hat.
+<!-- Seite 6 -->
+6.   Erbgang
+6.1.   Grundsatz
+Im Todesfall geht die selbständige Erwerbstätigkeit des Erblassers durch Universalsukzessi-
+on auf die Erben über. Jeder der Erben oder der Vermächtnisnehmer kann frei entscheiden,
+ob er die bisherige selbständige Erwerbstätigkeit weiterführen will. Wenn direkt im Anschluss
+an den Erbgang die Liquidation vorgenommen wird, können die Erben oder die Vermächt-
+nisnehmer, welche die selbständige Erwerbstätigkeit nicht weiterführen, an Stelle des Erb-
+lassers die Besteuerung nach Artikel 37b DBG geltend machen, sofern der Erblasser im
+Zeitpunkt seines Ablebens die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat.
 
-Führen sie die Tätigkeit nicht weiter und beenden sie die Liquidation nicht, so findet am Ende
-des fünften Kalenderjahres nach dem Todesjahr des Erblassers eine gesetzlich vorgeschrie-
-bene Überführung der Vermögenswerte in das Privatvermögen statt. In diesem Zeitpunkt
-sind die entsprechenden stillen Reserven nach Artikel 37b DBG unter Ausschluss der Be-
-steuerung als fiktiven Einkauf zu besteuern, wenn der Erblasser im Zeitpunkt seines Able-
-bens die Voraussetzungen gemäss Artikel 1 Absatz 1 LGBV erfüllt hat.
+Weder bei der Liquidation durch die Erben oder die Vermächtnisnehmer noch bei der gesetz-
+lichen Überführung in das Privatvermögen können Einkäufe von Beitragsjahren für den Erb-
+lasser oder die Besteuerung eines fiktiven Einkaufs geltend gemacht werden.

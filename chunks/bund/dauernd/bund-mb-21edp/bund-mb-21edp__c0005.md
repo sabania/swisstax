@@ -5,17 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB 21 EDP – Abschnitt 5"
-seiten: "1"
+seiten: "2"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 1
+> Bund · Steuerjahr 2025/2026 · MB 21 EDP · S. 2
 
-3   Das ausgefüllte Formular 21 ist vom Vorsorgeträger dem Vorsorgenehmer zuzustellen,
-    welcher dieses Formular seiner Steuererklärung beizulegen hat. Das ausgefüllte Formu
-    lar 21 ist nicht der ESTV einzureichen.
+<!-- Seite 2 -->
+    Anwendungsbereich
+4   Das Formular 21 ist von allen Schweizer Vorsorgeträgern zu verwenden. Zu bescheini
+    gen sind folgende Beiträge:
+    -   die gemäss Gesetz, Statut oder Reglement geleisteten Einlagen, Prämien und
+    Beiträge an Einrichtungen der beruflichen Vorsorge (2. Säule), soweit diese dem
+    Arbeitnehmer nicht auf dem Lohnausweis zu bescheinigen sind (vgl. Rz 12 und
+    13)
+    -   Einlagen, Prämien und Beiträge zum Erwerb von vertraglichen Ansprüchen aus
+    anerkannten Formen der gebundenen Selbstvorsorge (Säule 3a)
+    -   Einkäufe in anerkannte Formen der gebundenen Selbstvorsorge (Säule 3a)
 
-    Eidgenössische Steuerverwaltung
-    Abteilung Recht/Erhebung
-    Eigerstrasse 65
-    3003 Bern
-    www.estv.admin.ch
+5   Beiträge an andere Versicherungsformen dürfen nicht auf dem Formular 21 bescheinigt
+    werden.
+
+6   Jeder Vorsorgeträger füllt jeweils die ihn betreffenden Rubriken des Formulars 21 aus.

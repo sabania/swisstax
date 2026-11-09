@@ -5,21 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 22"
-seiten: "5"
+seiten: "6"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 5
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
 
-    Eine kurze Besitzdauer deutet darauf hin, dass die steuerpflichtige Person nicht vor-
-    wiegend Anlagezwecke verfolgt, sondern vielmehr an einer raschen Erzielung eines
-    Gewinns interessiert ist (ASA 69, 652 und 788; 63, 43; 59, 709). Unter Umständen
-    kann schon eine einzige Transaktion dazu führen, dass eine selbständige
-    Erwerbstätigkeit vorliegt (2A.23/2004; ASA 69, 652).
+<!-- Seite 6 -->
+-   Einsatz von Derivaten
 
-    Die Häufigkeit der Geschäfte und die Kürze der Besitzdauer der Wertschriften sind
-    Indizien dafür, dass die steuerpflichtige Person keine zumindest mittelfristige
-    Kapitalanlage anstrebt, sondern auf eine rasche Erzielung eines Kapitalgewinns
-    angewiesen ist und auch in Kauf nimmt, dass bedeutende Verluste entstehen könnten
-    (ASA 71, 627).
+    Ein Handel mit Derivaten kann der Absicherung namentlich des Aktienvermögens
+    dienen. Übersteigt der Einsatz von Derivaten aber die Absicherung von Risiken und
+    wird im Verhältnis zum Gesamtvermögen ein grosses Volumen umgesetzt, so ist der
+    Handel mit Derivaten als spekulativ zu qualifizieren, was auf gewerbsmässiges
+    Vorgehen hindeutet.
 
--   Einsatz erheblicher fremder Mittel zur Finanzierung der Geschäfte
+Indizien von untergeordneter Bedeutung:
+
+-   die systematische oder planmässige Art und Weise des Vorgehens

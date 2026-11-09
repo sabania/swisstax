@@ -10,18 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 25 · S. 13
 
-<!-- Seite 13 -->
-Anhang II   Kollektive Kapitalanlagen mit direktem Grundbesitz / Spartenrechnung
-Beispiel:
-Gesamtaktiven: 90% direkter Grundbesitz, 10% Übriges Vermögen
- Erfolg   Berechnung   Grund- Übri-   Total
-    besitz  ger
-    Betrag Betrag
-    (1'000) (1'000)
-    Ertrag
-    Mietzinseinnahmen   objektmässig   4’000   -   4’000
-    Kapital- und Aufwertungs-   objektmässig nach Abzug der   1’000   -   1’000
-    gewinne   direkten Kosten
-    Einkäufe   objektmässig   1‘000   1‘000
-    Aktivzinsen   500   500
-    Total Ertrag   6’000   500   6’500
+    Fondsleitung und Depot-   der Erfolgsrechnung belastet
+    bank   wird:
+    quotenmässige Aufteilung *)
+    Aufwand vor Steuern   2’134   42   2’176
+    Gewinn vor Steuern   3’866   458   4’324
+    Kapitalsteuer (Staat)   Annahme; Bemessungsgrund-   -176
+    lage: Reinvermögen nach den
+    Bestimmungen für nat. Perso-
+    nen am Ende der Steuerperiode
+    Gewinn vor Gewinnsteuer   = 115%, da die Gewinnsteuer   3’690
+    abziehbar ist
+    Gewinnsteuer (Staat/Bund)   Annahme: Steuersatz Staat und   -481
+    Bund 15%
+    Steuerbarer Gewinn   = 100%   3‘209

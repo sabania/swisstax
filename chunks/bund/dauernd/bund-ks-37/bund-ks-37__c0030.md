@@ -5,15 +5,23 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 30"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 7
 
-3   Besteuerung von Mitarbeiteraktien (Art. 17b DBG)
-3.1   Grundsatz
-Werden Mitarbeiteraktien unentgeltlich oder zu Vorzugsbedingungen abgegeben, stellt die
-positive Differenz zwischen dem Verkehrswert und dem Abgabepreis bei den Mitarbeitenden
-einen geldwerten Vorteil und damit Einkommen aus unselbständiger Erwerbstätigkeit dar
-(vgl. Art. 17 Abs. 1 DBG). Mitarbeiteraktien sind bei Abgabe, d.h. im Zeitpunkt des Rechtser-
-werbs zu besteuern.
+<!-- Seite 7 -->
+3.2   Verkehrswert
+
+3.2.1 Börsenkotierte Mitarbeiteraktien
+Bei börsenkotierten Mitarbeiteraktien gilt als Verkehrswert grundsätzlich der Börsenschluss-
+kurs am Tage des Rechtserwerbs.
+
+Der Rechtserwerb von Mitarbeiteraktien erfolgt regelmässig in einem Zeitpunkt, in welchem
+der Mitarbeitende das Angebot des Arbeitgebers zum Bezug von Aktien annimmt. Insbeson-
+dere aus administrativen Gründen kann der Beteiligungsplan eine bestimmte Bezugsfrist vor-
+sehen, während welcher der Mitarbeitende die Annahme der Offerte bestätigen muss. Lie-
+gen solche Bezugsfristen vor, gilt Folgendes:
+
+       Bei Bezugsfristen von mehr als 60 Kalendertagen gilt als steuerlich massgebender
+    Verkehrswert der Schlusskurs am Tage der Annahme der Offerte.

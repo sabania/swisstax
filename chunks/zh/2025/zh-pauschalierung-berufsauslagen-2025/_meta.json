@@ -1,0 +1,203 @@
+[
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0001",
+"titel": "Ingress und Ziff. I/1 Fahrten Wohn-/Arbeitsstätte – ÖV, Velo, Motorrad, Auto (ab 2024)",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"1. Fahrten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "I/1 a–c",
+"stichworte": [
+"Pendlerabzug",
+"Arbeitsweg",
+"GA",
+"ÖV-Abonnement",
+"Velo Pauschale",
+"Motorfahrrad"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Ohne Nachweis abziehbar: bei ÖV die notwendigen Abonnementskosten, bei Fahrrad/Motorfahrrad/Motorrad mit gelbem Kontrollschild im Jahr Fr. 700, bei Motorrad oder Auto die Abonnementskosten des öffentlichen Verkehrsmittels.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0002"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0002",
+"titel": "Ziff. I/1 Ausnahmen – Abzug Kosten privates Motorfahrzeug",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"1. Fahrten"
+],
+"seiten": [
+1,
+2
+],
+"artikel": null,
+"ziffer": "I/1",
+"stichworte": [
+"Auto Arbeitsweg",
+"Pendeln mit Auto",
+"Zeitersparnis",
+"kein öV",
+"Privatfahrzeug"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Kosten des privaten Motorfahrzeugs nur ausnahmsweise: öV fehlt (Haltestelle mindestens 1 km entfernt), Zeitersparnis über einer Stunde, Benützung auf Verlangen des Arbeitgebers oder Krankheit/Gebrechlichkeit.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0001",
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0003"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0003",
+"titel": "Ziff. I/1 Kilometeransätze und Höchstbeträge Fahrkosten",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"1. Fahrten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "I/1",
+"stichworte": [
+"Kilometerpauschale",
+"Fahrkosten Maximum",
+"Geschäftsfahrzeug",
+"Wochenaufenthalt Fahrkosten",
+"Auto 70 Rp"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.wochenaufenthalt"
+],
+"zusammenfassung": "Motorrad mit weissem Kontrollschild 40 Rp., Auto 70 Rp. pro Fahrkilometer; Fahrten über Mittag höchstens Fr. 3200 im Jahr, Fahrkosten inkl. Wochenaufenthalt höchstens Fr. 5200 im Jahr; bei Geschäftsfahrzeug-Pauschale kein Fahrkostenabzug.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0002",
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0004"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0004",
+"titel": "Ziff. I/2 Mehrkosten der Verpflegung – auswärtige Verpflegung, Schicht-/Nachtarbeit",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"2. Verpflegung"
+],
+"seiten": [
+2,
+3
+],
+"artikel": null,
+"ziffer": "I/2",
+"stichworte": [
+"Mittagessen auswärts",
+"Verpflegungsabzug",
+"Kantine",
+"Schichtarbeit",
+"Nachtarbeit",
+"Essensgutscheine"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "Auswärtige Verpflegung: Fr. 15 pro Arbeitstag bzw. Fr. 3200 im Jahr, bei Verbilligung durch den Arbeitgeber Fr. 7.50 pro Arbeitstag bzw. Fr. 1600 im Jahr; Schicht-/Nachtarbeit Fr. 15 pro Schichttag bzw. Fr. 3200 im Jahr; nicht kumulierbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0003",
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0005"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0005",
+"titel": "Ziff. I/3 Übrige Berufsauslagen – Pauschale 3 % des Nettolohns",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"3. Weitere Berufsauslagen"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "I/3",
+"stichworte": [
+"Berufskleider",
+"Berufswerkzeug",
+"Fachliteratur",
+"Arbeitszimmer",
+"Homeoffice",
+"Berufsverband",
+"Nettolohn Definition"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Weitere Berufsauslagen pauschal 3 % des Nettolohns, mindestens Fr. 2000 und höchstens Fr. 4000; Nettolohn = Bruttolohn nach Abzug AHV/IV/EO/ALV, Beiträge an Personalvorsorge und obligatorische Nichtberufsunfallversicherung.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0004",
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0006"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0006",
+"titel": "Ziff. I/4 Nebenbeschäftigung – Pauschale 20 %",
+"pfad": [
+"Verfügung Finanzdirektion",
+"I. Pauschalen",
+"4. Nebenbeschäftigung"
+],
+"seiten": [
+3
+],
+"artikel": null,
+"ziffer": "I/4",
+"stichworte": [
+"Nebenerwerb",
+"Nebenjob",
+"Nebenbeschäftigung",
+"Zweitjob"
+],
+"positionen": [
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Auslagen für unselbständige Nebenbeschäftigung: 20 % der Einkünfte, mindestens Fr. 800 und höchstens Fr. 2400.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0005",
+"nachher": "zh-pauschalierung-berufsauslagen-2025__c0007"
+},
+{
+"id": "zh-pauschalierung-berufsauslagen-2025__c0007",
+"titel": "Ziff. II–V Ehegatten, Arbeitgebervergütung, Nachweis höherer Kosten, Geltung",
+"pfad": [
+"Verfügung Finanzdirektion",
+"II–V Schlussbestimmungen"
+],
+"seiten": [
+3,
+4
+],
+"artikel": null,
+"ziffer": "II–V",
+"stichworte": [
+"Ehegatten Berufsauslagen",
+"Arbeitgeber vergütet",
+"effektive Kosten Nachweis",
+"Inkrafttreten"
+],
+"positionen": [
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Bei erwerbstätigen Ehegatten Abzüge je Ehegatte; vom Arbeitgeber vergütete Auslagen nicht abziehbar; höhere Kosten als Pauschalen Ziff. I/3 und 4 nur bei vollem Nachweis; gilt ab Steuerperiode 2024.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-pauschalierung-berufsauslagen-2025__c0006",
+"nachher": null
+}
+]

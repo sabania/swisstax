@@ -5,11 +5,16 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 65"
-seiten: "19"
+seiten: "20"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 19
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 20
 
-    verlegung vom Arbeitgeber bezahlt»). Ebenso nur in Ziffer 15 sind durch den Arbeitgeber
-    bezahlte, effektive Umzugskosten gemäss Verordnung über den Abzug besonderer Be
-    rufskosten von Expatriates zu bescheinigen (Art. 2 Abs. 2 Bst. a ExpaV).
+    Kommen die Beiträge des Arbeitgebers jedoch nur bestimmten Arbeitnehmern zugute,
+    sei es durch Bezahlung an den Arbeitnehmer oder direkt an die Krippe, sind sie im Lohn
+    ausweis unter Ziffer 1 zum Bruttolohn hinzuzurechnen oder in Ziffer 7 separat zu dekla
+    rieren;
+•   Gratis-Parkplatz am Arbeitsort;
+•   Kosten für ärztliche Vorsorgeuntersuchungen, die auf Verlangen des Arbeitgebers oder
+    der Pensionskasse erfolgen;
+•   Gutschriften von Flugmeilen. Diese sind für geschäftliche Zwecke zu verwenden.

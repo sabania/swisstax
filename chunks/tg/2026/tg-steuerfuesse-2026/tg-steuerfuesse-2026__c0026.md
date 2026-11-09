@@ -10,13 +10,13 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 7
 
-Hüttlingen   60   95   30 / 22   291.8   2’137   Bezirk Weinfelden³   55.2   93.3   279.9   2’170
-Hüttwilen   48   89   24 / 16   267.4   3’159   Affeltrangen   53   98   26 / 24   285.1   2’112
-Mammern   52   87   24 / 21   270.5   3’384   Amlikon-Bissegg   65   97   22 / 22   293.0   2’057
-Matzingen   56   95   26 / 19   282.2   2’087   Berg   42   95   21 / 24   268.0   2’204
-Müllheim   48   92   26 / 22   273.3   2’196   Birwinken   57   95   27 / 24   287.2   1’878
-Neunforn   39   90   24 / 16   260.5   3’064   Bischofszell   68   90   28 / 24   292.7   1’866
-Pfyn   60   98   24 / 24   291.0   2’091   Bürglen   52   99   25 / 21   283.0   1’952
-Schlatt   48   93   23 / 18   271.7   2’394   Bussnang   52   99   22 / 22   282.0   2’207
-Steckborn   50   71   21 / 19   250.0   2’814   Erlen   52   96   25 / 21   280.1   2’153
-Stettfurt   48   100   23 / 19   278.6   2’792   Hauptwil-Gottshaus   60   90   28 / 24   284.7   1’905
+Bezirk Frauenfeld³   54.3   86.6   268.8   2’719   Braunau   49   98   26 / 24   280.9   2’256
+Basadingen-Schlattingen   50   93   28 / 18   276.3   2’318   Eschlikon   48   96   20 / 18   271.9   2’439
+Berlingen   50   79   24 / 19   260.2   3’373   Fischingen   60   95   25 / 24   288.3   2’124
+Diessenhofen   47   93   22 / 18   268.8   2’204   Lommis   40   98   27 / 20   270.2   2’845
+Eschenz   49   93   17 / 21   269.9   2’291   Münchwilen   58   93   20 / 18   278.7   2’016
+Felben-Wellhausen   50   97   18 / 16   273.0   2’098   Rickenbach   51   96   23 / 22   278.2   1’918
+Frauenfeld   62   80   16 / 16   267.0   3’037   Sirnach   52   90   21 / 18   270.0   2’343
+Gachnang   42   90   15 / 16   256.3   2’727   Tobel-Tägerschen   60   96   26 / 24   289.8   2’057
+Herdern   54   92   24 / 16   275.4   2’233   Wängi   47   93   25 / 19   270.7   2’256
+Homburg   55   98   21 / 26   285.2   2’436   Wilen   42   95   23 / 22   268.3   2’261

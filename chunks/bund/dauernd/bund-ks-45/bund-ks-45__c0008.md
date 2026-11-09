@@ -10,12 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
 
-<!-- Seite 2 -->
-4.7   Gewährung von Kinderabzügen .............................................................................. 17
-4.8   Kirchensteuerpflicht ................................................................................................. 18
-4.9   Härtefallregelung ...................................................................................................... 18
-5   Abgrenzungen .......................................................................................................... 19
-5.1   Künstler, Sportler und Referenten........................................................................... 19
-5.2   Mitarbeiterbeteiligungen .......................................................................................... 19
-5.3   Verwaltungsratsentschädigungen........................................................................... 19
-6   Berechnung der Quellensteuer nach dem Monatsmodell...................................... 21
+6.1  Vorbemerkungen ...................................................................................................... 21
+6.2  Grundsätze ................................................................................................................ 21
+6.3  Satzbestimmendes Einkommen beim 13. Monatslohn .......................................... 21
+6.4  Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-
+    Erwerbstätigkeiten.................................................................................................... 22
+6.5 Erwerbstätigkeiten im Stunden- oder im Tageslohn .............................................. 25
+6.6 Quellensteuerberechnung bei untermonatigen Ein- und Austritten ..................... 27
+6.7 Ausscheidung von im Ausland geleisteten Arbeitstagen ...................................... 30
+6.8 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses . 31
+6.9 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des

@@ -5,20 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 36 – Abschnitt 27"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 36 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 36 · S. 7
 
--   der enge Zusammenhang der Geschäfte mit der beruflichen Tätigkeit der steuerpflichti-
-    gen Person sowie der Einsatz spezieller Fachkenntnisse
-
-    Der enge Zusammenhang der Geschäfte mit der beruflichen Tätigkeit der steuerpflich-
-    tigen Person kann auch ein Indiz dafür sein, dass diese nicht wie eine Privatperson
-    handelt, sondern eben wie eine haupt- oder nebenberuflich selbständig erwerbende
-    Person versucht, Gewinne zu erzielen (ASA 66, 224).
-
-Diesen beiden Indizien ist durch den Entscheid des Bundesgerichts vom 23. Oktober 2009
-(2C.868/2008) eine untergeordnete Bedeutung zugewiesen worden. Sie begründen für sich
-alleine keine selbständige Erwerbstätigkeit, dienen aber der Bestärkung, wenn eines der im
-Vordergrund stehenden Kriterien erfüllt ist.
+Aktiven und Passiven, Einnahmen und Ausgaben sowie Privatentnahmen und Privateinlagen
+beibringen (vgl. Art. 125 Abs. 2 DBG). Die Anforderungen an diese Aufstellungen richten sich
+nach den Umständen des Einzelfalls, insbesondere nach der Art der Geschäftstätigkeit und
+deren Umfang. Erforderlich sind in jedem Fall geeignete Aufzeichnungen, die Gewähr für die
+vollständige und zuverlässige Erfassung des Geschäftseinkommens und -vermögens bieten
+sowie eine zumutbare Überprüfung durch die Steuerbehörden ermöglichen (StE 2004,
+B 23.9 Nr. 7).

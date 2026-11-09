@@ -20,11 +20,11 @@ generiert: tools/build_index.py
 | [c0002](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0002.md) | KS 22a – Abschnitt 2 | S. 1 |  |
 | [c0003](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0003.md) | KS 22a – Abschnitt 3 | S. 1 |  |
 | [c0004](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0004.md) | KS 22a – Abschnitt 4 | S. 1 |  |
-| [c0005](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0005.md) | KS 22a – Abschnitt 5 | S. 2 |  |
+| [c0005](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0005.md) | KS 22a – Abschnitt 5 | S. 1 |  |
 | [c0006](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0006.md) | KS 22a – Abschnitt 6 | S. 2 |  |
 | [c0007](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0007.md) | KS 22a – Abschnitt 7 | S. 2 |  |
 | [c0008](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0008.md) | KS 22a – Abschnitt 8 | S. 2 |  |
-| [c0009](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0009.md) | KS 22a – Abschnitt 9 | S. 3 |  |
+| [c0009](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0009.md) | KS 22a – Abschnitt 9 | S. 2 |  |
 | [c0010](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0010.md) | KS 22a – Abschnitt 10 | S. 3 |  |
 | [c0011](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0011.md) | KS 22a – Abschnitt 11 | S. 3 |  |
 | [c0012](../../../chunks/bund/dauernd/bund-ks-22a/bund-ks-22a__c0012.md) | KS 22a – Abschnitt 12 | S. 3 |  |

@@ -10,6 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 28 · S. 26
 
+<!-- Seite 26 -->
+Diese Leistungen und Bezüge sind der Steuerverwaltung in jedem Fall zur Kenntnis zu brin-
+gen. Unter Wohlfahrtsfonds sind Personalfürsorgestiftungen ohne reglementarische Leistun-
+gen zu verstehen.
+
+Artikel 7   Nachträglicher Anschluss an eine Vorsorgeeinrichtung
+
 Die privilegierte Besteuerung wird infolge definitiver Aufgabe der Erwerbstätigkeit gewährt.
 Ist die Aufgabe der Erwerbstätigkeit nicht definitiv, besteht kein Anspruch auf die privilegierte
 Besteuerung. Es kann jedoch vorkommen, dass eine als definitiv geplante Aufgabe der Er-

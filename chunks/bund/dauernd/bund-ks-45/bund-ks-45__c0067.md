@@ -5,25 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 67"
-seiten: "17"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 16
 
-4.7   Gewährung von Kinderabzügen
-Der Kinderabzug ergibt sich aus der Anzahl minderjähriger oder in beruflicher bzw. schuli-
-scher Erstausbildung stehender Kinder, für deren Unterhalt der Arbeitnehmer zur Hauptsa-
-che aufkommt (vgl. Art. 35 Abs. 1 DBG).
-Bei minderjährigen Kindern ist die Anzahl der Kinderabzüge gemäss den nachgewiesenen
-Kindesverhältnissen (leibliches Kind, Stief- oder Adoptivkind) festzulegen. Als geeignete Be-
-weismittel gelten insbesondere Geburtsurkunden, Zulagenentscheide, Adoptivurkunden, Fa-
-milienausweise.
-Bei volljährigen Kindern ist zusätzlich ein Nachweis über die Erstausbildung zu erbringen
-(bspw. Immatrikulationsbestätigung, Lehrvertrag, Zulagenentscheide).
-Bei Alleinstehenden mit Kindern muss ergänzend nachgewiesen werden, dass das Kind im
-gleichen Haushalt lebt. Als geeignete Beweismittel gelten insbesondere Ansässigkeitsbe-
-scheinigungen, Niederlassungsausweise, Bescheinigungen der Wohnsitzgemeinde. In die-
-sen Fällen wird im Grundsatz davon ausgegangen, dass derjenige Elternteil, bei welchem
-das volljährige Kind lebt, zur Hauptsache für den Unterhalt des Kindes aufkommt. Bezüglich
-Konkubinatsverhältnissen wird auf die Ausführungen oben verwiesen (vgl. Ziffer 4.3 oben).
-Für weitere Ausführungen zu den Kinderabzügen wird auf das KS 30 ESTV verwiesen.
+4.5   Tarif für Grenzgänger aus Italien (Tarifcode F)
+Der Tarifcode F kommt zur Anwendung für Grenzgänger aus Italien, welche im Sinne der
+Vereinbarung vom 3. Oktober 1974 zwischen der Schweiz und Italien über die Besteuerung
+der Grenzgänger und den finanziellen Ausgleich zugunsten der italienischen Grenzgemein-
+den (SR 0.642.045.43) in einer italienischen Grenzgemeinde leben und deren Ehemann oder
+Ehefrau ausserhalb der Schweiz erwerbstätig ist. Das ausserhalb der Schweiz erzielte Er-
+werbseinkommen wird bei der Berechnung des satzbestimmenden Einkommens nicht be-
+rücksichtigt (vgl. hierzu die Erläuterungen zur Änderung der QStV vom 25. Februar 2013, S.
+5 – 6 in: https://www.newsd.admin.ch/newsd/message/attachments/29836.pdf). Der Ta-
+rifcode F kommt nur in den Kantonen Tessin, Wallis und Graubünden zur Anwendung.

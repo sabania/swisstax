@@ -10,24 +10,18 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 36 · S. 3
 
-<!-- Seite 3 -->
-werden darf 3. Eine "dynamische" private Vermögensverwaltung soll nach wie vor möglich
-sein 4. Als stärkstes Indiz des gewerbsmässigen Wertschriftenhandels gilt der Einsatz
-fremder Mittel 5.
+2. Das Transaktionsvolumen (entspricht der Summe aller Kaufpreise und Verkaufserlöse)
+   pro Kalenderjahr beträgt gesamthaft nicht mehr als das Fünffache des Wertschriften- und
+   Guthabenbestands zu Beginn der Steuerperiode.
 
-3.   Vorprüfung
+3. Das Erzielen von Kapitalgewinnen aus Wertschriftengeschäften bildet keine
+   Notwendigkeit, um fehlende oder wegfallende Einkünfte zur Lebenshaltung zu ersetzen.
+   Das ist regelmässig dann der Fall, wenn die realisierten Kapitalgewinne weniger als 50%
+   des Reineinkommens in der Steuerperiode betragen.
 
-Ob in einem konkreten Einzelfall eine selbständige Erwerbstätigkeit, d.h. ein
-gewerbsmässiger Wertschriftenhandel vorliegt, ist auf Grund sämtlicher Umstände des
-jeweiligen Einzelfalls zu beurteilen.
+4. Die Anlagen sind nicht fremdfinanziert oder die steuerbaren Vermögenserträge aus den
+   Wertschriften (wie z.B. Zinsen, Dividenden, usw.) sind grösser als die anteiligen
+   Schuldzinsen.
 
-Um der Mehrheit der Steuerpflichtigen eine angemessene Rechtssicherheit zu
-gewährleisten, wurden für die Rechtsanwendung Kriterien ausgearbeitet, anhand derer im
-Rahmen einer Vorprüfung gewerbsmässiger Wertschriftenhandel ausgeschlossen
-werden kann.
-
-Die Steuerbehörden gehen in jedem Fall von einer privaten Vermögensverwaltung bzw. von
-steuerfreien privaten Kapitalgewinnen aus, wenn die nachfolgenden Kriterien kumulativ
-erfüllt sind.
-
-1. Die Haltedauer der veräusserten Wertschriften beträgt mindestens 6 Monate.
+5. Der Kauf und Verkauf von Derivaten (insbesondere Optionen) beschränkt sich auf die
+   Absicherung von eigenen Wertschriftenpositionen.

@@ -10,11 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 11a · S. 8
 
-4.3.2   Kosten für Kinderbetreuung
-Kosten der aufgrund einer Behinderung notwendigen Hilfe bei der Kinderbetreuung eigener Kin
-der sind abzugsfähig, sofern eine ärztliche Bescheinigung darüber vorliegt (z.B. gemäss Frage
-bogen in der Beilage), dass und in welchem Umfang behinderungsbedingt Dritthilfe für die Kin
-derbetreuung benötigt wird.
-Behinderungsbedingte Kinderdrittbetreuungskosten sind zudem nur im Umfang abzugsfähig, in
-welchem sie den gewährten Abzug für Kinderdrittbetreuungskosten übersteigen (vgl. Art. 33
-Abs. 3 DBG und Kreisschreiben Nr. 30 der ESTV vom 21. Dezember 2010 [Ziff. 8.3]).
+<!-- Seite 8 -->
+4.3   Kategorien
+Als behinderungsbedingte Kosten gelten insbesondere:
+
+4.3.1   Assistenzkosten
+Abzugsfähig sind die selbstgetragenen Kosten der behinderungsbedingt notwendigenambulan
+ten Pflege (Behandlungs- und Grundpflege), Betreuung und Begleitung, die im Zusammenhang
+mit der Vornahme alltäglicher Verrichtungen oder administrativer Tätigkeiten, der Hilfe im Haus
+halt, der Pflege angemessener sozialer Kontakte, der Fortbewegung und der Aus- und Weiter
+bildung anfallen sowie die Kosten behinderungsbedingt notwendiger Überwachung. Unwesent
+lich ist dabei, wer diese Assistenzleistungen erbringt (Spitexorganisationen, private Pflege
+kräfte, assistierende Personen, Entlastungsdienste etc.).
+Die Kosten für Haushaltshilfen sind nur abzugsfähig, wenn eine ärztliche Bescheinigung dar
+über vorliegt (z.B. gemäss Fragebogen in der Beilage), welche Haushaltstätigkeiten als Folge
+der Behinderung nicht mehr ohne Hilfe ausgeübt werden können. Werden die Dienste einer am
+bulanten Pflege in Anspruch genommen, die neben der eigentlichen Pflege auch den Haushalt

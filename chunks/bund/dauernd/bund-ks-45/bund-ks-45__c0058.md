@@ -5,22 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 58"
-seiten: "15"
+seiten: "14"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 14
 
-Fehlt eine Tarifeinstufung zum Zeitpunkt der Lohnzahlung, bestimmt der Schuldner der steu-
-erbaren Leistung den anwendbaren Tarifcode aufgrund der ihm zur Verfügung stehenden
-Angaben des Arbeitnehmers.
-Weist sich der Arbeitnehmer über die persönlichen Verhältnisse nicht zuverlässig aus, wen-
-det der Schuldner der steuerbaren Leistung nachstehende Tarife an:
-     Für Ledige sowie für Arbeitnehmer mit unbestimmtem Zivilstand den Tarifcode A, ohne
-    Kinder und mit Kirchensteuer (A0Y);
-     Für verheiratete Arbeitnehmer den Tarifcode C, ohne Kinder und mit Kirchensteuer
-    (C0Y).
-Geht eine Person mehreren Erwerbstätigkeiten nach, sind die einzelnen Einkünfte mit dem
-ordentlichen Quellensteuertarif zu besteuern (Umrechnung für das satzbestimmende Ein-
-kommen; vgl. Ziffer 6.4 unten für die Berechnung nach dem Monatsmodell bzw. die Zif-
-fer 7.3.2 unten für die Berechnung nach dem Jahresmodell).
-Vorbehalten bleibt die Anwendung des Tarifcodes E (vereinfachtes Abrechnungsverfahren)
+<!-- Seite 14 -->
+den vertraglichen Arbeitgeber ausgerichtet werden (bspw. Management Fees). Diese Leis-
+tungen unterliegen (allenfalls) der Besteuerung auf Ebene des Personalverleihers bzw. des
+vertraglichen Arbeitgebers.
+
+    Beispiel:
+    -   Der Arbeitnehmer Z. mit Wohnsitz in Murten, wird vom Personalverleiher Y. AG, Bern, an die X. GmbH mit
+    Sitz in Aarau verliehen. Die X. GmbH bezahlt dem Personalverleiher Y. AG eine Bruttoentschädigung in
+    Höhe von CHF 52.00 pro geleisteter Arbeitsstunde von Z. Die Y. AG ihrerseits bezahlt Z. einen Bruttolohn
+    von CHF 34.00 pro Stunde.
+    Der Quellenbesteuerung unterliegt nur der Bruttolohn von CHF 34.00. Die Differenz von CHF 18.00 pro
+    Stunde wird bei der Y. AG besteuert.

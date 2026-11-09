@@ -5,19 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 37 – Abschnitt 89"
-seiten: "21"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 37 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 37 · S. 22
 
-    -   sämtliche vor dem 1. Januar 2013 abgegebenen Mitarbeiterbeteiligungen, die nach
-    bisherigem Recht im Zeitpunkt der Abgabe oder beim Rechtserwerb (Vesting) hätten
-    besteuert werden müssen, aus irgendwelchen Gründen jedoch nicht besteuert wur-
-    den, sofern die Veranlagungsverjährung noch nicht eingetreten ist und kein Nach-
-    steuergrund gemäss Artikel 151 DBG vorliegt.
+<!-- Seite 22 -->
+Altrechtliche Vorbescheide (Rulings), die dem Inhalt dieses Kreisschreibens nicht entspre-
+chen, entfalten ab der Steuerperiode 2013 keine Wirkung mehr.
 
-Altrechtliche Vorbescheide (Rulings), die einem Arbeitgeber und ihren Mitarbeitenden für Mit-
-arbeiteroptionen die Zuteilungs- oder Vestingbesteuerung zusicherten, behalten ihre Gültig-
-keit insoweit die Besteuerung (bei Zuteilung oder Vesting) bis und mit Steuerperiode 2012
-erfolgte; d.h. ab der Steuerperiode 2013 ist bei Mitarbeiteroptionen keine derartige (altrechtli-
-che) Zuteilungs- oder Vestingbesteuerung mehr zulässig.
+Die Anpassungen in den Ziffern 3.2.2, 3.4.3 sowie die neue Ziffer 3.4.4 des Kreisschreibens
+in der Version vom 30. Oktober 2020 treten auf den 1. Januar 2021 in Kraft und entfalten ihre
+Wirkung ab diesem Zeitpunkt. Der zusätzliche Anhang V des vorliegenden Kreisschreibens
+findet ebenfalls ab dem 1. Januar 2021 Anwendung.
+
+
+Anhang I: Übersicht über Mitarbeiterbeteiligungen
+
+Anhang II: Beispiele
+
+Anhang III: Musterbescheinigungen in Papierform
+
+Anhang IV: Fallbeispiele zur Quellenbesteuerung
+
+Anhang V: Elektronische Musterbescheinigungen

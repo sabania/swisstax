@@ -5,20 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 51"
-seiten: "17"
+seiten: "16"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 16
 
-<!-- Seite 17 -->
-Der Nationalrat ging in der Herbstsession 2006 weiter als der Ständerat und stellte sich auf
-den Standpunkt, dass mit der Mindestbesteuerung von 2 Prozent keine Erleichterung ge-
-schaffen, sondern insbesondere für KMU lediglich der Status quo beibehalten worden sei.
-Zudem sei der festgelegte Mindeststeuersatz zufällig. Daher wurde der Satz von 2 Prozent
-wieder gestrichen. Der Nationalrat war überdies der Meinung, dass stille Reserven immer
-auch einen Vorsorge-Charakter aufwiesen. Kleinstunternehmer und -unternehmerinnen ver-
-fügten in der Regel nicht über eine Pensionskasse. Sie investierten ihr ganzes Vermögen in
-ihre Unternehmung und hätten kein Geld, sich nebenbei eine zweite Säule aufzubauen.
-Wenn nun bei einer Liquidation der gesamte Gewinn besteuert werde, hätten sie nicht wie
-die Versicherten von den steuerlichen Vorteilen (Abzug der Beiträge und allenfalls privilegier-
-te Besteuerung des Bezugs in Kapitalform) profitieren können. Es gehe hier um die spätere
+„Kommt es … zu einem Liquidationsgewinn infolge Aufgabe der selbständigen Erwerbstätig-
+keit oder infolge einer Betriebsübergabe, so fordern die interessierten Wirtschaftskreise und
+auch einzelne parlamentarische Vorstösse, dass die damit verbundene Steuerlast zu mildern
+sei. Als Grund für diese Forderung wird oft angegeben, dass ein Betriebsinhaber über keine
+Altersvorsorge verfüge. Durch die Revision des BVG und die damit verbundenen Neuerun-
+gen (siehe Ziff. 4.1 der Botschaft) ist dieses Argument aber im Wesentlichen gegenstandslos
+geworden. Die in dieser Botschaft vorgesehenen Massnahmen gehen denn auch in eine
+andere Richtung: Sie betreffen den Vergleich zwischen der einkommenssteuerlichen Auswir-
+kung der Entstehung stiller Reserven und der Auswirkung, die deren Realisierung nach sich
+zieht. Werden die im Laufe der Zeit akkumulierten stillen Reserven im Zuge der Unterneh-
+mensliquidation auf einen Schlag aufgelöst, so kann dies, infolge der Progression des Steu-
+ertarifes, zu einer oft als stossend empfundenen steuerlichen Belastung führen.“

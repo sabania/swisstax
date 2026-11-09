@@ -21,8 +21,3 @@ Inhaltsverzeichnis
     bestehenden Freizügigkeitspolicen und -konti ........................................... 3
 2.2.3   Einkauf von Beitragsjahren nach Wiederaufnahme einer
     Erwerbstätigkeit im Rentenalter ................................................................. 3
-2.2.4   Bei Auszahlung des Vorsorgeguthabens ................................................... 4
-2.2.5   Auszahlung und Einkauf innert 12 Monaten .............................................. 5
-2.2.6   Aufnahme einer selbständigen Erwerbstätigkeit und Investitionen in
-    den eigenen Betrieb .................................................................................. 5
-2.2.7   Unzulässige Auszahlung des Vorsorgeguthabens .................................... 5

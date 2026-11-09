@@ -4,22 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 97"
-seiten: "22"
+titel: "Ziff. 14.1.2 Unterhaltsbeiträge an Ehegatten – Korrespondenzprinzip, Kapitalleistungen (Teil 1/2)"
+ziffer: "14.1.2"
+seiten: "30-31"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 22
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Besteuerung der unverheiratet zusammenlebenden, geschiedenen oder getrennt lebenden Ehegatten und Eltern › 14.1.2 Steuerrechtliche Aspekte · S. 30–31
 
-Es gilt das Stichtagsprinzip gemäss Artikel 35 Absatz 2 DBG, d.h. der Verheiratetenabzug
-kann von den Ehegatten nur beansprucht werden, wenn sie am Ende der Steuerperiode o-
-der der Steuerpflicht in rechtlich und tatsächlich ungetrennter Ehe leben.
+14.1.2   Steuerrechtliche Aspekte
 
-Ehegatten, die im Sinne von Artikel 4 und 5 DBG in der Schweiz beschränkt steuerpflichtig
-sind, wird der Verheiratetenabzug anteilsmässig gewährt (Art. 35 Abs. 3 DBG). Dies trifft
-auch auf unbeschränkt steuerpflichtige Personen mit nicht steuerbarem Auslandseinkommen
-im Sinne von Artikel 6 Absatz 1 DBG zu. Die Höhe bemisst sich nach dem Verhältnis des in
-der Schweiz steuerbaren Reineinkommens4 zum gesamten Reineinkommen.
+Leistet eine steuerpflichtige Person Unterhaltsbeiträge an seinen geschiedenen, gerichtlich
+oder tatsächlich getrennt lebenden Ehegatten, kann sie diese von seinem Einkommen in
+Abzug bringen (Art. 33 Abs. 1 Bst. c DBG). Der die Leistung empfangende Ehegatte hat die-
+se zu versteuern (Art. 23 Bst. f DBG). Aus dem hier geltenden Korrespondenzprinzip ergibt
 
-13   Tarife
+sich, dass alle jene Leistungen für den Unterhalt, die beim empfangenden Ehegatten be-
+steuert werden, beim leistenden Ehegatten in Abzug gebracht werden können.
 
-13.1   Grundsatz
+Unterhaltsleistungen erfolgen in der Regel als wiederkehrende direkte Geldleistungen. Sie
+können jedoch auch in der Form von indirekten Zahlungen erbracht werden, wie etwa die
+Übernahme von Miet- oder Schuldzinsen, oder aus eigentlichen Naturalleistungen bestehen.

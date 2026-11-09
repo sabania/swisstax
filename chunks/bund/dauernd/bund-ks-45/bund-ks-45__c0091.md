@@ -5,28 +5,17 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 91"
-seiten: "23"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 22
 
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    M. AG (CH)   50 %   4 500   8 100
-
-    T. AG (CH)   40 %   4 400   9 900
-
-    4. Zwei Arbeitsverhältnisse in der Schweiz (1 Arbeitspensum 70 % plus Bonus sowie 1 Arbeitspensum
-    30 %):
-    Arbeitnehmer Z. ist bei der G. AG, Bern, zu 70 % plus Bonus und bei der H. AG, Thun, zu 30 % angestellt
-    und erzielt folgende Lohneinkommen:
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    G. AG (CH)   70 %   4 550   6 500
-
-    G. AG (CH)   Bonus   2 000   2 000
-
-    G. AG (CH)   6 550   8 500
-
-    H. AG (CH)   30 %   1 200   4 000
+keit bekannt, ist für das satzbestimmende Einkommen jedes Arbeitsverhältnis auf ein
+100 Prozent-Pensum umzurechnen. Im Übrigen sind die Bestimmungen der Arbeitsverträge
+zu berücksichtigen. Dieselbe Vorgehensweise gilt auch für Personen, welche eine der Tätig-
+keiten im Stunden- oder im Tageslohn ausüben, aber einen ordentlichen Monatslohn bezie-
+hen (siehe dazu auch Ziffer 6.5 unten). Für die Bestimmung des Arbeitspensums ist in die-
+sen Fällen auf die betriebsüblichen Arbeitsstunden abzustellen. Bei Ersatzeinkünften ist der
+Arbeitsunfähigkeits- oder Invaliditätsgrad massgebend.
+Kann das Arbeitspensum einer Erwerbstätigkeit nicht bestimmt werden (bspw. für eine pau-
+schalentschädigte nebenamtliche Hauswartstelle), kann der Schuldner der steuerbaren Leis-

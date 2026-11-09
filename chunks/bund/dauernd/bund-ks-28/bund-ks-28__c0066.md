@@ -5,19 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 28 – Abschnitt 66"
-seiten: "20"
+seiten: "19"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 28 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 28 · S. 19
 
-In der Lehre wird allerdings ausgeführt, dass es sich „in der Regel“ um so genannt neue „al-
-te“ Tatsachen handeln müsse (Vallender/Looser, a.a.O., Art. 151 N 7). Diese Formulierung
-lässt darauf schliessen, dass auch neue Tatsachen, die einen bereits abgeschlossenen und
-in der Vergangenheit liegenden Vorgang nachträglich als unzulässig qualifizieren, als Tatsa-
-che anerkannt werden können, welche ein Nachsteuerverfahren rechtfertigen.
-
-In den letzten Änderungen im DBG hat der Gesetzgeber die Anwendung des Nachsteuerver-
-fahrens jeweils explizit statuiert (vgl. beispielsweise Art. 19 Abs. 2 DBG; Art. 20a Absatz 1
-Bst. b DBG). Daher ist davon auszugehen, dass der Gesetzgeber das Nachsteuerverfahren
-auch in Artikel 37b DBG geregelt hätte, wenn er gewollt hätte, dass ein solches bei der Li-
-quidationsbesteuerung zur Anwendung gelangt.
+Buchstabe b
+Die privilegierte Liquidationsgewinnbesteuerung soll nur bei der definitiven Aufgabe der selb-
+ständigen Erwerbstätigkeit zur Anwendung kommen. Das bedeutet, dass dies nur einmal
+und nur bei der gesamthaften Aufgabe der Selbständigkeit erfolgt. Auch wer auf Grund einer
+behaupteten definitiven Aufgabe der selbständigen Erwerbstätigkeit von Artikel 37b DBG
+profitieren konnte und später trotzdem erneut eine selbständige Erwerbstätigkeit aufnimmt,
+soll nicht zweimal von der Besteuerung nach Art. 37b DBG profitieren. Absatz 3 Buchstabe b
+sieht daher vor, dass in diesem Fall für den späteren Liquidationsgewinn Artikel 37b nicht
+mehr zur Anwendung kommt, er damit ordentlich besteuert wird und demzufolge auch kein
+fiktiver Einkauf geltend gemacht werden kann.

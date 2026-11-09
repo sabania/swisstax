@@ -4,24 +4,22 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 130"
-seiten: "31"
+titel: "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen"
+ziffer: "14.13"
+seiten: "38"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.13 · S. 38
 
-Leistungen eines Ehegatten zur Erfüllung güterrechtlicher Forderungen stellen keine Unter-
-haltsbeiträge dar. Diese Leistungen sind gemäss Artikel 24 Buchstabe a DBG beim empfan-
-genden Ehegatten steuerfreie Einkünfte aus "güterrechtlicher Auseinandersetzung" mit der
-Folge, dass sie beim Leistenden auch nicht abziehbar sind. Handelt es sich bei den Leistun-
-gen um Leibrenten, sind diese gemäss Artikel 22 Absatz 3 DBG beim Empfänger zu 40 % zu
-versteuern. Andererseits kann der Leistungsschuldner gestützt auf Artikel 33 Absatz 1 Buch-
-stabe b DBG ebenfalls 40 % der Rente in Abzug bringen.
+14.13   Unverheiratete Eltern (gemeinsamer Haushalt), mit gemeinsamem
+    volljährigem Kind in Ausbildung, Kind lebt bei den Eltern, mit Unter-
+    haltszahlungen
 
-Anzumerken ist, dass Leistungen in Erfüllung "anderer familienrechtlicher Unterhalts- oder
-Unterstützungspflichten" (so z.B. die Leistungen an Verwandte in auf- und absteigender Linie
-sowie Geschwister; Art. 328 ZGB) nicht abzugsfähig sind (Art. 33 Abs. 1 Bst. c DBG).
+Werden Unterhaltszahlungen gemäss Artikel 24 Buchstabe e DBG von einem Elternteil an
+das Kind geleistet, erfolgt die Besteuerung folgendermassen:
 
-14.2   Besteuerung der Unterhaltszahlungen für das Kind
 
-14.2.1   Zivilrechtliche Aspekte
+14.13.1   Unterhaltszahlungen
+   Die Unterhaltsbeiträge an das volljährige Kind in Ausbildung sind vom Kind nicht zu ver-
+    steuern. Der leistende Elternteil kann die Unterhaltsbeiträge nicht von seinem Einkom-
+    men absetzen.

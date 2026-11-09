@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.sg.ch/content/dam/sgch/steuern-finanzen/steuern/steuerbuch/art-29-52-stg/039_8.pdf.ocFile/039_8.pdf> · lokal: [sg-stb-39-8.pdf](../../../raw/sg/dauernd/sg-stb-39-8.pdf) · Volltext: [sg-stb-39-8.md](../../../sources/sg/dauernd/sg-stb-39-8.md)
 - **Abgerufen:** 2026-11-09 · sha256 `e38545b3e4df8a66…`
 
-## Inhalt (17 Chunks)
+## Inhalt (16 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -26,10 +26,9 @@ generiert: tools/build_index.py
 | [c0008](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0008.md) | StB 39 Nr. 8 – Abschnitt 8 | S. 2 |  |
 | [c0009](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0009.md) | StB 39 Nr. 8 – Abschnitt 9 | S. 2 |  |
 | [c0010](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0010.md) | StB 39 Nr. 8 – Abschnitt 10 | S. 2 |  |
-| [c0011](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0011.md) | StB 39 Nr. 8 – Abschnitt 11 | S. 2 |  |
+| [c0011](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0011.md) | StB 39 Nr. 8 – Abschnitt 11 | S. 3 |  |
 | [c0012](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0012.md) | StB 39 Nr. 8 – Abschnitt 12 | S. 3 |  |
 | [c0013](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0013.md) | StB 39 Nr. 8 – Abschnitt 13 | S. 3 |  |
-| [c0014](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0014.md) | StB 39 Nr. 8 – Abschnitt 14 | S. 3 |  |
+| [c0014](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0014.md) | StB 39 Nr. 8 – Abschnitt 14 | S. 4 |  |
 | [c0015](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0015.md) | StB 39 Nr. 8 – Abschnitt 15 | S. 4 |  |
 | [c0016](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0016.md) | StB 39 Nr. 8 – Abschnitt 16 | S. 4 |  |
-| [c0017](../../../chunks/sg/dauernd/sg-stb-39-8/sg-stb-39-8__c0017.md) | StB 39 Nr. 8 – Abschnitt 17 | S. 4 |  |

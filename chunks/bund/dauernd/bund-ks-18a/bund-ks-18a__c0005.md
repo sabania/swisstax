@@ -2,13 +2,13 @@
 id: bund-ks-18a__c0005
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 5"
 seiten: "1"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 1
+> Bund · Steuerjahr 2026 · KS 18a · S. 1
 
     a) Mitarbeit im Beruf oder im Betrieb des Ehegatten .............................................................. 7
     b) Selbständigerwerbender mit der 2. Säule unterliegendem Nebenverdienst ...................... 7

@@ -4,16 +4,22 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 84"
-seiten: "20"
+titel: "Anhang III Ziff. 5a Weitere Optionsstrategien – gleiche Behandlung"
+ziffer: "Anh. III 5a"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 5 Reverse Convertibles · S. 24
 
-c)   Index- und Basketzertifikate auf Aktien ohne feste Laufzeit (open end)
-Im Unterschied zu den klassischen und dynamischen Index- und Basketzertifikaten auf Ak-
-tien ist die Laufzeit dieser Zertifikate unbefristet. Solche Zertifikate werden nur dann als Ter-
-mingeschäfte im Sinne des Kreisschreibens Nr. 15, Ziffer 2.2.2., qualifiziert, wenn sie dem
-Investor ein jährliches Kündigungsrecht einräumen. Sind die übrigen Kriterien der klassi-
-schen oder der dynamischen Index- und Basketzertifikate erfüllt, richtet sich die steuerliche
-Behandlung nach Ziffer 1 Buchstabe a) oder b) hievor.
+Nichts ändert sich an der steuerlichen Behandlung dieser RC, wenn sie – zurückzuführen auf
+weitere Optionsstrategien – z.B. zusätzlich:
+    –   den Investor bis zu einem bestimmten Punkt (Cap) doppelt vom Kursanstieg des
+    dem Produkt zugrunde liegenden Basiswertes profitieren lassen (sog. „Bull-Call-
+    Spread”);
+    –   dem Investor für den Fall einer negativen Kursentwicklung innerhalb einer gewissen
+    Spanne eine Rückzahlungsgarantie einräumen (bedingter Kapitalschutz), allenfalls
+    unterhalb der Verlustschwelle immer eine bessere Rendite als der entsprechende
+    Basiswert versprechen (beschränkter Kapitalschutz).
+
+Diese Reverse Convertibles stellen weder steuerbare Urkunden im Sinne des Stempelabga-
+benrechts dar noch sind deren Erträge Gegenstand der Verrechnungssteuer.

@@ -4,26 +4,28 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 21"
-seiten: "4"
+titel: "Ziff. 6.1–6.2.1 Solidarhaftung der Ehegatten und Wegfall bei Zahlungsunfähigkeit (Teil 1/2)"
+ziffer: "6.1"
+seiten: "9-10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 30 · 6 Haftung und Mithaftung › 6.1 Grundsatz / 6.2 Wegfall der Solidarhaftung · S. 9–10
 
-<!-- Seite 4 -->
-14.15.2   Abzüge .................................................................................................................. 39
-14.15.3   Tarife ..................................................................................................................... 40
-14.16   Unverheiratete Eltern (gemeinsamer Haushalt), mit nicht gemeinsamem
-    minderjährigem oder volljährigem Kind ................................................................. 40
-15   Verfahrensrechtliche Stellung der Ehegatten ........................................................ 40
-15.1   Grundsatz .............................................................................................................. 40
-15.2   Steuererklärung ..................................................................................................... 40
-15.3   Rechtsmittel und andere Eingaben ....................................................................... 41
-15.4   Mitteilungen ........................................................................................................... 41
-15.5   Vertretung .............................................................................................................. 41
-15.6   Akteneinsichtsrecht ............................................................................................... 41
-15.7   Verfahrensrechtliche Stellung des überlebenden Ehegatten ................................ 42
-16   Steuerstrafrecht der Ehegatten ............................................................................. 42
-16.1   Verletzung von Verfahrenspflichten....................................................................... 42
-16.2   Steuerhinterziehung der Ehegatten ....................................................................... 42
-17   Inkrafttreten ........................................................................................................... 43
+6   Haftung und Mithaftung der Ehegatten und der Kinder für die Steuer
+
+6.1   Grundsatz
+
+Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, haften solidarisch für die
+Gesamtsteuer (Art. 13 Abs. 1 DBG). Die grundsätzlich solidarische Haftung der Ehegatten ist
+die Konsequenz des Prinzips der steuerlichen Einheit der Familie. Die Solidarhaftung er-
+streckt sich auf den gesamten Steuerbetrag des Ehepaars. Die Solidarhaftung ist an die
+Gemeinschaftsbesteuerung gekoppelt und beginnt mit der Steuerperiode, in welcher sich
+das Ehepaar verehelicht hat.
+
+6.2   Wegfall der Solidarhaftung
+
+6.2.1   Zahlungsunfähigkeit
+
+Die eheliche Solidarhaftung entfällt, wenn einer der Ehegatten zahlungsunfähig wird (Art. 13
+Abs. 1 DBG). Der Eintritt der Zahlungsunfähigkeit hat zur Folge, dass hinsichtlich aller noch
+geschuldeten Steuern jeder Ehegatte nur noch für seinen Anteil an der Gesamtsteuer haftet.

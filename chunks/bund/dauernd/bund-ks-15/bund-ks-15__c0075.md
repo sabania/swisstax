@@ -4,26 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 75"
-seiten: "18"
+titel: "Anhang III Ziff. 4b Mini-Futures – Funktionsweise, Hebel (Teil 1/2)"
+ziffer: "Anh. III 4b"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 18
+> Bund · Steuerjahr 2025/2026 · KS 15 · Anhang III Spezialfälle › 4 LEPO und Mini-Futures · S. 22
 
-Der Emittent hat im folgenden Fall sein Produkt transparent ausgestaltet und die Überprü-
-fung vorab des Zinssatzes auf der Obligation durch die ESTV ergibt, dass es sich dabei um
-eine mit Bezug auf Währung, Laufzeit etc. marktkonforme Verzinsung handelt. Die vorlie-
-gend im kombinierten Produkt enthaltene Obligation wird zu pari emittiert und weist eine
-ausschliesslich periodische Verzinsung auf. Der Zinsanteil von Fr. 225.- pro Jahr unterliegt
-der direkten Bundessteuer und gegebenenfalls der Verrechnungssteuer. Dass der Emittent
-dem Investor bei Verfall nicht den Nominalwert der Obligation zurückbezahlen muss, son-
-dern seine Schuldverpflichtung mittels physischer Lieferung von 31 CSG Namenaktien er-
-füllen kann, ist darauf zurückzuführen, dass der Emittent sich mit Revexus vom Investoren
-eine Put-Option verkaufen liess. Für diese hat er dem Investor einerseits eine Optionsprämie
-zu bezahlen; anderseits versetzt ihn die Option in die Lage, diese bei Verfall von Revexus
-auszuüben und damit bei Fälligkeit der Obligation seine Schuldverpflichtung dadurch zu
-erfüllen, dass er dem Investor die CSG Namenaktien zum vereinbarten Ausübungspreis von
-Fr. 322.58 pro Aktie liefert (31 Aktien pro Revexus à Fr. 322.58/Aktie = Fr. 10’000.-) und
-diesen mit dem Guthaben des Investors aus der Obligation verrechnet. Die Optionsprämie,
-die der Investor in jährlichen Zahlungen vergütet erhält, ist der Teil des spekulativen
-Geschäftes dieser Anlage, und ist für den privaten Anleger steuerlich nicht beachtlich.
+b)   Mini-Futures auf Aktien, Edelmetalle und Rohstoffe
+Grundsätzlich ermöglichen Mini-Futures eine volle Partizipation an der Kursentwicklung des
+Basiswerts, wobei sowohl auf steigende (Mini Long) als auch auf fallende Kurse (Mini Short)
+gesetzt werden kann. Da sie keinen Volatilitätseinflüssen unterliegen, wird die Performance
+des Basiswerts zudem linear abgebildet. Mini-Futures weisen in der Regel eine unbegrenzte
+Laufzeit (open end) auf, sind aber mit einer Sicherheitsbarriere (Stop-Loss-Level) ausgestat-
+tet, welche garantiert, dass der maximale Verlust stets auf das investierte Kapital beschränkt
+bleibt (keine Nachschusspflicht). Wird nämlich die Sicherheitsbarriere eines Mini-Futures er-
+reicht, so wird die Position automatisch aufgelöst und der Restwert an die Investoren rück-
+vergütet. Ein wichtiges Merkmal von Futures-Kontrakten ist der grösstenteils fremdfinanzierte
+(Termin-) Kauf des jeweiligen Basiswerts. Beim Erwerb des Mini-Futures wird von den Anle-

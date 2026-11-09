@@ -5,16 +5,18 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 98"
-seiten: "35"
+seiten: "40"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 35
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 40
 
-<!-- Seite 35 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
-
-Bebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13 und 23)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+– Oberstammheim   1   280   –   –   140   –   –   130   –   –
+ (ehemalige Gemeinde)
+– Unterstammheim   1   280   –   –   140   –   –   130   –   –
+ (ehemalige Gemeinde)
+– Waltalingen   1   280   –   –   140   –   –   130   –   –
+ (ehemalige Gemeinde)
+Thalheim an der Thur   1   340   –   –   250   –   –   230   –   –
+Trüllikon   1   340   –   –   250   –   –   230   –   –
+Truttikon   1   280   –   –   140   –   –   130   –   –
+Volken   1   280   –   –   140   –   –   130   –   –

@@ -10,6 +10,13 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: merkblatt}}
 ---
 > Bund · Steuerjahr 2025/2026 · SSK-KS 27 (MB SZ) · S. 4
 
+<!-- Seite 4 -->
+5.   Verfahren
+
+Die grundstückgewinnsteuerlichen Veranlagungsverfügungen werden in der Regel ohne Berücksich-
+tigung eines allenfalls zu übernehmenden einkommens- resp. gewinnsteuerlichen Ausscheidungs-
+verlusts vorgenommen, jedoch mit einem entsprechenden Vorbehalt zu versehen.
+
 Die Verrechnung eines allfälligen einkommens- oder gewinnsteuerlichen Verlusts kann, in Verbin-
 dung mit § 119 Abs. 4 StG auch bei rein innerkantonalen Verhältnissen, im Sinne von § 169 Abs.
 3 StG (Revision auf Grund von interkantonalem oder internationalem Doppelbesteuerungsrecht)

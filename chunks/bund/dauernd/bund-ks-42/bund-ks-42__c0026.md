@@ -10,12 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 8
 
-4.6   Abzugsmöglichkeiten für Arbeitgeber und selbständig Erwerbstätige
-Arbeitgeber können nach Artikel 27 Absatz 2 Buchstabe e DBG bzw. Artikel 59 Absatz 1 Buch-
-stabe e DBG die von ihnen getragenen Kosten der berufsorientierten Aus- und Weiterbildung für
-das eigene Personal steuerlich zum Abzug bringen. Arbeitgeber, die Kosten der betriebsinternen
-Aus- und Weiterbildung für ihr eigenes Personal tragen, können diese nach den ordentlichen
-Bestimmungen steuerlich ebenfalls geltend machen. Gleiches gilt grundsätzlich auch für Leistun-
-gen des neuen Arbeitgebers bei Stellenantritt für Kosten von bereits abgeschlossenen berufsori-
-entierten Aus- und Weiterbildungen der steuerpflichtigen Person. Qualifizieren Kosten einer Aus-
-und Weiterbildung bei der steuerpflichtigen natürlichen Person nicht als Kosten der berufsorien-
+4.5.1   Beratungsleistungen, Berufs-, Studien- und Karriereberatung, Coaching, Training
+Im Gegensatz zur berufsorientierten Aus- und Weiterbildung erschöpft sich die Beratungsleistung
+nicht in der Vermittlung von Wissen. Vielmehr liegt das in erster Linie verfolgte Ziel in der Lösung
+eines konkreten Problems. Oft beinhaltet eine Beratungsleistung sowohl Elemente der Schulung
+als auch Elemente der Beratung. Die Beurteilung, ob eine solche Dienstleistung als Bildungsleis-
+tung oder als Beratung zu qualifizieren ist, wird aufgrund des abgeschlossenen Vertrags vorge-
+nommen. Überwiegt der Beratungscharakter, sind die angefallenen Kosten gesamthaft nicht als
+eine berufsorientierte Aus- und Weiterbildung im Sinne von Artikel 33 Absatz 1 Buchstabe j DBG
+zu qualifizieren.
+Eine Beratungsleistung, die keine berufsorientierte Aus- und Weiterbildung darstellt, liegt insbe-
+sondere dann vor, wenn das vertragliche Verhältnis individuell auf den Auftraggeber zugeschnit-
+ten ist, auf einer vorgängigen Analyse der entsprechenden Situation beim Auftraggeber beruht
+und darin besteht, konkrete Problemlösungsvorschläge auszuarbeiten sowie eventuell umzuset-
+zen.
+Deshalb stellen Berufs-, Studien- und Karriereberatungen, Coaching und Training grundsätzlich
+keine berufsorientierten Aus- und Weiterbildungen dar.

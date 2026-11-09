@@ -5,20 +5,12 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 111"
-seiten: "40"
+seiten: "43"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 40
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 43
 
-<!-- Seite 40 -->
-    631.32   Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte
+Volketswil   1   570   –   –   360   –   –   320   –   –
+Wangen-Brüttisellen   1   570   –   –   360   –   –   320   –   –
 
-Bauland für Geschäftshäuser sowie für industrielle und gewerbliche Bauten
-
-    Unbebaute Grundstücke   Bebaute
-    Grundstücke
-    Geschäftshäuser   Industrie- und   Industrie- und
-    (Ziff. 14)   Gewerbebauten   Gewerbebauten
-    (Ziff. 15)   (Ziff. 15 und 49)
-    Anzahl   LK 3   LK 3   LK 3
-Gemeinde   Klassen   LK 1   LK 2   LK 4   LK 1   LK 2   LK 4   LK 1   LK 2   LK 4
+1. 1. 23 - 119   43

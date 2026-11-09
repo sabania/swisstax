@@ -5,26 +5,24 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 34"
-seiten: "11"
+seiten: "10"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 11
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 10
 
-* CHF 19‘000 (nicht mehr selbst getragene Kosten von CHF 27‘000 abzüglich noch nicht geltend gemachte selbst
-getragene Kosten von CHF 8‘000) sind als steuerbares Einkommen im Sinne von Artikel 16 Absatz 1 DBG aufzurech-
-nen, da die berufsorientierten Aus- und Weiterbildungskosten in diesem Umfang nicht (mehr) selbst getragen sind.
+<!-- Seite 10 -->
+über mehrere Kalenderjahre übernommen hat, kann der Arbeitnehmer im Jahr der Rückzahlung
+einen Abzug gemäss Artikel 33 Absatz 1 Buchstabe j DBG bis höchstens 12 000 Franken pro
+Kalenderjahr, in dem die entsprechenden Kosten angefallen sind, geltend machen.
 
- Beispiel 3   N1   N2   N3   N4
-
- ARBEITNEHMER/IN
-
- Angefallene Kosten   12‘000   10‘000   8‘000
-
- Abzug   12‘000   10‘000   8‘000   20‘000 *
-    steuerbar Art. 16 Abs. 1 DBG
-
- ARBEITGEBER/IN   Zahlung 20‘000
-
-* CHF 20‘000 (insgesamt selbst getragene Kosten von CHF 30‘000 abzüglich weiterhin selbst getragene Kosten von
-CHF 10‘000) sind als steuerbares Einkommen im Sinne von Artikel 16 Absatz 1 DBG aufzurechnen, da die berufsori-
-entierten Aus- und Weiterbildungskosten in diesem Umfang nicht (mehr) selbst getragen sind.
+4.7.3   Vergütung von ursprünglich vom Arbeitnehmer getragenen berufsorientierten Aus- und
+    Weiterbildungskosten durch den Arbeitgeber
+Der Arbeitnehmer kann gemäss Artikel 33 Absatz 1 Buchstabe j DBG die selbst getragenen be-
+rufsorientierten Aus- und Weiterbildungskosten im Zeitpunkt der Zahlung geltend machen.
+Werden die vom Arbeitnehmer bereits in Abzug gebrachten berufsorientierten Aus- und Weiter-
+bildungskosten in einer späteren Steuerperiode vom Arbeitgeber (teilweise) vergütet, hat der Ar-
+beitnehmer die Kosten im entsprechenden Umfang letztlich nicht getragen. Aufgrund von Artikel
+17 Absatz 1bis DBG i.V.m. Artikel 33 Absatz 1 Buchstabe j DBG sind dem Arbeitnehmer deshalb
+die von ihm in der Vorperiode bzw. den Vorperioden in Abzug gebrachten berufsorientierten Aus-
+und Weiterbildungskosten, die ihm der Arbeitgeber nun nachträglich entschädigt hat, im Jahr der
+Rückvergütung als steuerbares Einkommen im Sinne von Artikel 16 Absatz 1 DBG aufzurechnen.

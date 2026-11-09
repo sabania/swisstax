@@ -1,0 +1,404 @@
+{
+ "id": "zh-zstb-34-1-bis-2025",
+ "hinweise": [
+  "Seiten 14-16 leer. Randziffern stehen in der Textspalte neben dem Absatz (teils vor, teils nach dem Text). Weisung vom 7. April 2015 ohne Tarif- oder Abzugsbeträge; Beträge ergeben sich aus dem StG."
+ ],
+ "chunks": [
+  {
+   "start": 16,
+   "titel": "ZStB 34.1 Rz 1–3 Vorbemerkungen – Sozialabzüge und Steuertarife (ab 2015)",
+   "pfad": [
+    "A. Vorbemerkungen"
+   ],
+   "ziffer": "Rz 1–3",
+   "stichworte": [
+    "Weisung Finanzdirektion",
+    "Sozialabzüge",
+    "Steuertarif",
+    "§ 34 StG",
+    "§ 35 StG",
+    "§ 47 StG"
+   ],
+   "zusammenfassung": "Weisung der Finanzdirektion ZH vom 7. April 2015 regelt Sozialabzüge (§ 34 StG), Einkommens- und Vermögenssteuertarif und Kinderdrittbetreuungsabzug (§ 31 Abs. 1 lit. j StG)."
+  },
+  {
+   "start": 51,
+   "titel": "ZStB 34.1 Rz 4–5 Kinderabzug – Grundsatz",
+   "pfad": [
+    "B. Kinderabzug, Unterstützungs- und Drittbetreuungsabzug",
+    "I. Kinderabzug",
+    "1. Grundsatz"
+   ],
+   "ziffer": "Rz 4–5",
+   "stichworte": [
+    "Kinderabzug",
+    "Kind",
+    "Erstausbildung",
+    "hälftige Aufteilung",
+    "gemeinsame elterliche Sorge",
+    "Stichtag"
+   ],
+   "zusammenfassung": "Kinderabzug für minderjährige Kinder und volljährige in Erstausbildung; bei gemeinsamer Sorge ohne Alimente hälftig geteilt; Verhältnisse am Ende der Steuerperiode massgebend.",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 75,
+   "titel": "ZStB 34.1 Rz 6–8 Kinderabzug – minderjährige Kinder, berufliche Erstausbildung",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "2. Voraussetzungen"
+   ],
+   "ziffer": "Rz 6–8",
+   "stichworte": [
+    "minderjährig 18. Lebensjahr",
+    "Erstausbildung",
+    "Lehre",
+    "Studium",
+    "Ausland Kinder"
+   ],
+   "zusammenfassung": "Minderjährig ist, wer am Ende der Steuerperiode das 18. Lebensjahr nicht vollendet hat; Volljährige nur in beruflicher Erstausbildung.",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 98,
+   "titel": "ZStB 34.1 Rz 9–12 Kinderabzug – Ausbildung, Unterbruch, Angewiesenheit",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "2. Voraussetzungen"
+   ],
+   "ziffer": "Rz 9–12",
+   "stichworte": [
+    "Lehrvertrag",
+    "Schule halbtags",
+    "Unterbruch Ausbildung",
+    "Militär",
+    "Sprachschule",
+    "Eigenverdienst Kind"
+   ],
+   "zusammenfassung": "Schulbesuch gilt als Ausbildung bei mindestens halbtags und ununterbrochen ein halbes Jahr; Unterbruch nur aus anerkannten Gründen; Kind muss auf Unterstützung angewiesen sein.",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 130,
+   "titel": "ZStB 34.1 Rz 13–15 Kinderabzug – Verheiratete und Verwitwete",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "3. Anspruchsberechtigte"
+   ],
+   "ziffer": "Rz 13–15",
+   "stichworte": [
+    "Verheiratete",
+    "Verwitwete",
+    "Pflegekinder kein Abzug",
+    "Kindesverhältnis",
+    "Unterhalt zur Hauptsache"
+   ],
+   "zusammenfassung": "Verheiratete und Verwitwete können Kinderabzug beanspruchen; für Pflegekinder wird kein Kinderabzug gewährt.",
+   "positionen": [
+    "sozialabzug.kinder"
+   ]
+  },
+  {
+   "start": 156,
+   "titel": "ZStB 34.1 Rz 16–19 Kinderabzug – getrennte/geschiedene/ledige Eltern, minderjährige Kinder",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "3. Anspruchsberechtigte",
+    "c) getrennt, geschieden, ledig"
+   ],
+   "ziffer": "Rz 16–19",
+   "stichworte": [
+    "Konkubinat",
+    "Alimente",
+    "gemeinsame elterliche Sorge",
+    "Obhut",
+    "Scheidung",
+    "Kinderabzug geteilt"
+   ],
+   "zusammenfassung": "Bei alleiniger Sorge/Obhut Kinderabzug beim Inhaber; bei gemeinsamer Sorge mit Alimenten erhält ihn der Elternteil, der den Unterhalt zur Hauptsache bestreitet, ohne Alimente wird er hälftig geteilt.",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 192,
+   "titel": "ZStB 34.1 Rz 20–23 Kinderabzug – volljährige Kinder in Erstausbildung bei getrennten Eltern",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "3. Anspruchsberechtigte",
+    "c) getrennt, geschieden, ledig"
+   ],
+   "ziffer": "Rz 20–23",
+   "stichworte": [
+    "volljähriges Kind",
+    "Alimente Mündigkeit",
+    "Kinderabzug Alimentenzahler",
+    "höherer Beitrag",
+    "Erstausbildung"
+   ],
+   "zusammenfassung": "Nach Mündigkeit fallen Alimente weg (kein Abzug/keine Besteuerung); Kinderabzug steht dem Elternteil zu, der den Unterhalt zur Hauptsache bestreitet, bei Alimenten in der Regel dem Zahler.",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 236,
+   "titel": "ZStB 34.1 Rz 24–26 Kinderabzug – Eintritt der Mündigkeit während der Steuerperiode",
+   "pfad": [
+    "B. Kinderabzug …",
+    "I. Kinderabzug",
+    "3. Anspruchsberechtigte"
+   ],
+   "ziffer": "Rz 24–26",
+   "stichworte": [
+    "Mündigkeit",
+    "18. Geburtstag",
+    "Alimente bis Monat",
+    "Wechsel Kinderabzug"
+   ],
+   "zusammenfassung": "Alimente sind bis und mit dem Monat der Mündigkeit abziehbar bzw. steuerbar; bei weiterer Erstausbildung hat der Alimentenzahler den Kinderabzug.",
+   "positionen": [
+    "sozialabzug.kinder",
+    "abzug.unterhaltsbeitraege",
+    "einkommen.unterhaltsbeitraege"
+   ]
+  },
+  {
+   "start": 253,
+   "titel": "ZStB 34.1 Rz 27–30 Unterstützungsabzug – Grundsatz, Erwerbsunfähigkeit",
+   "pfad": [
+    "B. …",
+    "II. Unterstützungsabzug",
+    "1.–2. Grundsatz, Voraussetzungen"
+   ],
+   "ziffer": "Rz 27–30",
+   "stichworte": [
+    "Unterstützungsabzug",
+    "erwerbsunfähig",
+    "unterstützte Person",
+    "Eltern unterstützen",
+    "Arbeitslosigkeit"
+   ],
+   "zusammenfassung": "Unterstützungsabzug für erwerbsunfähige oder beschränkt erwerbsfähige Personen, an deren Unterhalt mindestens in Höhe des Abzugs beigetragen wird; Arbeitslosigkeit allein genügt nicht.",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 287,
+   "titel": "ZStB 34.1 Rz 31–34 Unterstützungsabzug – Bedürftigkeit (Fr. 15 000 / Fr. 22 000)",
+   "pfad": [
+    "B. …",
+    "II. Unterstützungsabzug",
+    "2. Voraussetzungen",
+    "b) Unterstützungsbedürftigkeit"
+   ],
+   "ziffer": "Rz 31–34",
+   "stichworte": [
+    "Bedürftigkeit",
+    "Einkommensgrenze Fr. 15 000",
+    "Vermögensgrenze Fr. 50 000",
+    "Fr. 22 000",
+    "Fr. 100 000",
+    "Unterstützung Eltern"
+   ],
+   "zusammenfassung": "Bedürftig, wenn steuerbares Einkommen unter Fr. 15 000 und Vermögen unter Fr. 50 000 (alleinstehend) bzw. unter Fr. 22 000 und Fr. 100 000 (verheiratet); Ausnahmen bei hohen Kosten.",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 314,
+   "titel": "ZStB 34.1 Rz 35–38 Unterstützungsabzug – Form, Umfang und Nachweis",
+   "pfad": [
+    "B. …",
+    "II. Unterstützungsabzug",
+    "2. Voraussetzungen",
+    "c)–d)"
+   ],
+   "ziffer": "Rz 35–38",
+   "stichworte": [
+    "Kost und Logis",
+    "Nachweis",
+    "Zahlungsbelege",
+    "Ausland Überweisung",
+    "Bestätigung unterstützte Person"
+   ],
+   "zusammenfassung": "Unterstützung unentgeltlich, mindestens in Höhe des Abzugs; Nachweis mit Bestätigung und Belegen, bei Zahlungen ins Ausland Post-/Bankbelege.",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 348,
+   "titel": "ZStB 34.1 Rz 39–41 Unterstützungsabzug – Berechtigte und Konkurrenz",
+   "pfad": [
+    "B. …",
+    "II. Unterstützungsabzug",
+    "3.–4."
+   ],
+   "ziffer": "Rz 39–41",
+   "stichworte": [
+    "Ehegatten ein Abzug",
+    "Konkurrenz Kinderabzug",
+    "Alimente ausgeschlossen"
+   ],
+   "zusammenfassung": "Gemeinsam Besteuerte erhalten pro unterstützte Person nur einen Abzug; neben Kinderabzug oder Unterhaltsbeiträgen ausgeschlossen.",
+   "positionen": [
+    "sozialabzug.unterstuetzung"
+   ]
+  },
+  {
+   "start": 369,
+   "titel": "ZStB 34.1 Rz 42–44 Kinderdrittbetreuungskostenabzug – Grundsatz, Kinder, Kosten",
+   "pfad": [
+    "B. …",
+    "III. Kinderdrittbetreuungskostenabzug",
+    "1.–2."
+   ],
+   "ziffer": "Rz 42–44",
+   "stichworte": [
+    "Kita",
+    "Krippe",
+    "Tagesmutter",
+    "Kinderbetreuung",
+    "14. Altersjahr",
+    "Fremdbetreuung"
+   ],
+   "zusammenfassung": "Abzug der nachgewiesenen Drittbetreuungskosten für Kinder unter 14 Jahren, soweit erwerbs-, ausbildungs- oder erwerbsunfähigkeitsbedingt und bis zum Höchstbetrag nach § 31 Abs. 1 lit. j StG.",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 419,
+   "titel": "ZStB 34.1 Rz 45–48 Drittbetreuungsabzug – Höhe, Beilagen, Abzugsberechtigte",
+   "pfad": [
+    "B. …",
+    "III. Kinderdrittbetreuungskostenabzug",
+    "2.–3."
+   ],
+   "ziffer": "Rz 45–48",
+   "stichworte": [
+    "Aufstellung Betreuungskosten",
+    "Lohnausweis Betreuerin",
+    "Pflegekind",
+    "Eigenbetreuung"
+   ],
+   "zusammenfassung": "Abzug in Höhe der nachgewiesenen Kosten bis zum Höchstbetrag pro Kind; Aufstellung mit Empfängern der Steuererklärung beilegen; Voraussetzung ist Haushaltsgemeinschaft.",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 450,
+   "titel": "ZStB 34.1 Rz 49–51 Drittbetreuungsabzug – Verheiratete, getrennte und unverheiratete Eltern",
+   "pfad": [
+    "B. …",
+    "III. Kinderdrittbetreuungskostenabzug",
+    "3. Abzugsberechtigte"
+   ],
+   "ziffer": "Rz 49–51",
+   "stichworte": [
+    "Ehepaar beide erwerbstätig",
+    "alternierende Obhut",
+    "Konkubinat",
+    "hälftiger Maximalbetrag"
+   ],
+   "zusammenfassung": "Verheiratete nur, wenn beide erwerbstätig/in Ausbildung/erwerbsunfähig; bei alternierender Obhut höchstens je die Hälfte des Maximalbetrags, andere Aufteilung gemeinsam nachzuweisen.",
+   "positionen": [
+    "abzug.drittbetreuung"
+   ]
+  },
+  {
+   "start": 486,
+   "titel": "ZStB 34.1 Rz 52–55 Steuertarife – Grundsatz (Verheiratetentarif / Grundtarif)",
+   "pfad": [
+    "C. Steuertarife",
+    "I. Grundsatz"
+   ],
+   "ziffer": "Rz 52–55",
+   "stichworte": [
+    "Verheiratetentarif",
+    "Grundtarif",
+    "Einelternfamilie",
+    "Tarif Alleinerziehende",
+    "§ 35 StG",
+    "§ 47 StG"
+   ],
+   "zusammenfassung": "Verheiratetentarif gilt für in ungetrennter Ehe Lebende und für Alleinstehende mit Kindern mit Kinderabzug; sonst Grundtarif; Verhältnisse am Ende der Steuerperiode."
+  },
+  {
+   "start": 518,
+   "titel": "ZStB 34.1 Rz 56–59 Tarife – Alleinstehende, Verheiratete, Partnerschaft, Konkubinat",
+   "pfad": [
+    "C. Steuertarife",
+    "II. Anwendbare Tarife",
+    "1.–2."
+   ],
+   "ziffer": "Rz 56–59",
+   "stichworte": [
+    "Konkubinat Grundtarif",
+    "faktische Trennung",
+    "eingetragene Partnerschaft",
+    "getrennte Wohnsitze",
+    "Verheiratetentarif"
+   ],
+   "zusammenfassung": "Alleinstehende nach Grundtarif, Ehegatten in ungetrennter Ehe nach Verheiratetentarif; eingetragene Partner wie Ehegatten, Konkubinat stets als Alleinstehende."
+  },
+  {
+   "start": 557,
+   "titel": "ZStB 34.1 Rz 60–62 Tarife – Eltern mit Kindern (Verheiratetentarif)",
+   "pfad": [
+    "C. Steuertarife",
+    "II. Anwendbare Tarife",
+    "3. Eltern mit Kindern"
+   ],
+   "ziffer": "Rz 60–62",
+   "stichworte": [
+    "Alleinerziehend",
+    "Verheiratetentarif Kinder",
+    "alternierende Obhut",
+    "Konkubinat Eltern",
+    "höheres Einkommen"
+   ],
+   "zusammenfassung": "Alleinstehende mit minderjährigen Kindern (Kinderabzug) oder volljährigen in Erstausbildung zahlen nach Verheiratetentarif; bei hälftigem Kinderabzug erhält ihn der Elternteil, der den Unterhalt zur Hauptsache bestreitet."
+  },
+  {
+   "start": 605,
+   "titel": "ZStB 34.1 Rz 63–64 Heirat, Scheidung und Trennung – Tarif",
+   "pfad": [
+    "C. Steuertarife",
+    "III. Heirat, Scheidung, Trennung"
+   ],
+   "ziffer": "Rz 63–64",
+   "stichworte": [
+    "Heirat",
+    "Scheidung",
+    "Trennung",
+    "gemeinsame Besteuerung ganze Steuerperiode",
+    "Art. 18 StHG"
+   ],
+   "zusammenfassung": "Bei Heirat gemeinsame Besteuerung für die ganze Steuerperiode, bei Scheidung oder Trennung getrennte Besteuerung für die ganze Steuerperiode."
+  },
+  {
+   "start": 622,
+   "skip": true,
+   "titel": "Leere Seiten 14–16"
+  }
+ ]
+}

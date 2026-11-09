@@ -4,21 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 171"
-seiten: "42"
+titel: "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 1/4)"
+ziffer: "Beilage 2, S. 8/13"
+seiten: "53"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 42
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 53
 
-Mit der Inkraftsetzung des Bundesgesetzes vom 20. Dezember 2006 über Änderungen des
-Nachsteuerverfahrens und des Strafverfahrens wegen Steuerhinterziehung auf dem Gebiet
-der direkten Steuern hat das Steuerstrafrecht der Ehegatten auf den 1. Januar 2008 eine
-Modifizierung erfahren. Aufgrund der bis anhin in Artikel 180 Absatz 2 DBG gesetzlich statu-
-ierten Schuldvermutung konnte die Steuerbehörde prinzipiell davon ausgehen, dass bei ei-
-ner unvollständigen oder unrichtigen Deklaration derjenige Ehegatte den Tatbestand der
-Steuerhinterziehung erfüllte, dem die in Frage stehenden Steuerfaktoren zuzurechnen wa-
-ren. Von einer auf dieser Tatzuordnung und Schuldvermutung beruhenden Strafe konnte
-sich der Ehegatte lediglich durch die Erbringung des Exkulpationsbeweises befreien. In Um-
-kehr der strafrechtlichen Beweislast hatte nicht die Steuerbehörde dem Ehegatten das tatbe-
-standsmässige, rechtswidrige und schuldhafte Verhalten nachzuweisen, sondern der Ehe-
-gatte hatte die Steuerbehörde von seiner Unschuld zu überzeugen.
+Beilage 2
+
+Tabelle zu den verschiedenen Familienkonstellationen
+Besteuerung der Unterhaltsleistungen sowie Zuteilung der verschiedenen Abzüge und Tarife nach DBG
+    Seite 8/13
+
+    Unterhaltszahlungen für   Zusätzlicher Versiche-
+    Kinderbetreuungskosten-
+    das Kind   Kinderabzug   rungs- und Sparzinsen-
+   Familienkonstellationen   abzug nur bis zum voll-   Tarif
+    (Art. 23 Bst. f, 24 Bst. e,   (Art. 35 Abs. 1 Bst. a   abzug für das Kind
+   (Kapitel im KS)   endeten 14. Altersjahr   (Art. 36 DBG)
+    33 Abs. 1 Bst. c, 34 Bst. a   DBG)   (Art. 33 Abs. 1bis Bst. b
+    (Art. 33 Abs. 3 DBG)
+    DBG)   DBG)

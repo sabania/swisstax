@@ -10,8 +10,11 @@ qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
 > Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
 
-Auf diesen Zeilen sind die Gehaltsnebenleistungen des Arbeitgebers aufzuführen (ohne An   62
-gabe des Betrags), die dieser nicht selbst bewerten kann und deshalb nicht unter Ziffer 2
-deklariert hat. Als solche Gehaltsnebenleistungen gelten geldwerte Vorteile verschiedenster
-Art. In Betracht fallen insbesondere Waren oder Dienstleistungen des Arbeitgebers, die der
-Arbeitnehmer unentgeltlich oder zu einem besonders tiefen Vorzugspreis erworben hat.
+In dieser Ziffer sind alle zusätzlichen, erforderlichen Angaben zu machen, die nicht in einem   63
+der anderen Felder eingetragen werden. Zudem können freiwillig Angaben gemacht werden,
+die dem Arbeitnehmer und der Steuerbehörde im Veranlagungsverfahren dienlich sein kön
+nen. Zu letzteren gehören zum Beispiel Angaben über die Höhe der im Bruttolohn enthalte
+nen Kinderzulagen, die Anzahl im Kalenderjahr geleisteter Schichttage und die Höhe der im
+Bruttolohn enthaltenen Krankenkassenbeiträge.
+
+    ESTV   Seite 18 / 25

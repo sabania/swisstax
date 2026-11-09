@@ -2,25 +2,26 @@
 id: bund-ks-18a__c0039
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 39"
 seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · S. 9
 
-<!-- Seite 9 -->
-ist. Beendet der Vorsorgenehmer seine Erwerbstätigkeit nach dem Referenzalter, aber vor
-dem 70. Altersjahr, so muss die Auflösung von sämtlichen noch bestehenden Säule 3a-Konti
-bzw. -Policen im Zeitpunkt der Beendigung der Erwerbstätigkeit erfolgen, was die Steuerbar-
-keit all dieser Leistungen auslöst.
-
-Kapitalleistungen aus anerkannten Formen der gebundenen Selbstvorsorge werden gemäss
-Artikel 22 Absatz 1 in Verbindung mit Artikel 38 DBG gesondert besteuert. Sie unterliegen
-einer vollen Jahressteuer, die zu einem Fünftel der Tarife nach Artikel 36 DBG berechnet
-wird. Bei Auflösung des Vorsorgeverhältnisses entsteht die Verrechnungssteuerforderung,
-welche durch Entrichtung oder Meldung erfüllt werden kann (vgl. Art. 7, 11, 12 und 19 des
-Bundesgesetzes vom 13. Oktober 1965 über die Verrechnungssteuer [VStG; SR 642.21]).
-Die Erträge der Guthaben unterliegen fortan der Verrechnungssteuer nach Artikel 4 Absatz 1
-Buchstabe d VStG.
+Verlangt ein Vorsorgenehmer innerhalb der fünf Jahre vor Erreichen des Referenzalters,
+dass ihm sein Vorsorgekapital ausbezahlt wird, beendet er damit den Aufbau seiner Vor-
+sorge, auch wenn er nur eine Teilauszahlung verlangt. Mit dem ersten Bezug verfügt der
+Vorsorgenehmer über seinen Vorsorgeanspruch, wodurch der anwartschaftliche Charakter
+des entsprechenden Vorsorgeguthabens dahinfällt. Bereits im Zeitpunkt des ersten Bezugs
+(Teilbezüge stellen lediglich eine Zahlungsmodalität dar) realisiert er das gesamte auf dem
+betroffenen Konto/der betroffenen Police angesammelte Vorsorgekapital inklusive Zinsen.
+Dies hat zur Folge, dass das gesamte auf diesem Konto/dieser Police vorhandene Vorsorge-
+kapital einkommenssteuerlich erfasst wird. Beim ersten Teilbezug ist daher das Vorsorge-
+konto/die Vorsorgepolice zu saldieren; das nicht bezogene Kapital ist auf ein frei verfügbares
+Konto zu übertragen. Die Versicherungsleistung unterliegt grundsätzlich gemäss Artikel 7
+VStG der Verrechnungssteuer (Ausnahmen vgl. Art. 8 VStG). Die entsprechende Steuer-
+pflicht kann entweder durch Meldung der steuerbaren Leistung oder durch Entrichtung der
+Steuer erfüllt werden (Art. 11 Abs. 1 VStG). Bei Meldung ist die Bruttoleistung inkl. Zinsen
+anzugeben.

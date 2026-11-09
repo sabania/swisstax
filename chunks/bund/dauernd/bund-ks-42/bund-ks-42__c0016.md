@@ -10,15 +10,16 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 42 · S. 6
 
-ben) und der Tertiärstufe als auch ausserhalb des formalen Bildungssystems in Abzug gebracht
-werden. Unter formaler Bildung wird gemeinhin die institutionalisierte, kontinuierliche Aus- und
-Weiterbildung in den staatlichen Bildungsinstitutionen (wie Schule, Universität, Institutionen der
-Berufsbildung) verstanden. Sie ist ein strukturierter, hierarchisch gegliederter Prozess und ge-
-kennzeichnet durch klare Lernziele, Lehrpläne, Lernsettings und Zertifizierungen.
-Der Abzug ist bei Altersrentnerinnen und Altersrentnern nur möglich, falls diese eine aktuelle oder
-zukünftige Erwerbstätigkeit glaubhaft machen.
-Die Kosten bis und mit dem ersten Abschluss auf der Sekundarstufe II gelten als Lebenshaltungs-
-kosten und sind nicht abzugsfähig. Ebenso sind sämtliche berufsorientierten Aus- und Weiterbil-
-dungskosten, die vor Vollendung des 20. Lebensjahres anfallen, nicht abzugsfähig, sofern kein
-Abschluss auf Sekundarstufe II vorliegt.
-Beispiele:
+<!-- Seite 6 -->
+    handelt.“
+Nach dem Wortlaut dieser Bestimmung kann bei Vorliegen eines Abschlusses auf der Sekundar-
+stufe II ein allgemeiner Abzug für alle berufsorientierten Aus- und Weiterbildungskosten geltend
+gemacht werden. Dieser umfasst die Kosten für die Weiterbildung im bisherigen Beruf, für die
+Umschulung, für den Wiedereinstieg und für den Berufsaufstieg.
+Ab dem vollendeten 20. Lebensjahr können steuerpflichtige Personen auch ohne einen Ab-
+schluss auf der Sekundarstufe II ihre anfallenden berufsorientierten Aus- und Weiterbildungskos-
+ten abziehen, sofern diese nicht im Hinblick auf den ersten Abschluss auf der Sekundarstufe II
+aufgewendet werden.
+Mit dieser schematischen Abgrenzung, die dem Wortlaut von Artikel 33 Absatz 1 Buch-
+stabe j DBG zugrunde liegt, können sämtliche berufsorientierten Aus- und Weiterbildungskosten
+von Bildungsaktivitäten sowohl auf der Sekundarstufe II (nach dem ersten Abschluss auf dersel-

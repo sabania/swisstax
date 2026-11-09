@@ -10,16 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 44 · S. 2
 
-Am 29. Juni 2011 unterbreitete der Bundesrat dem Parlament die Botschaft über die Besteue-
-rung nach dem Aufwand (nachfolgend: Botschaft; BBl 2011 6021, abrufbar unter folgendem
-Link: https://www.admin.ch/opc/de/federal-gazette/2011/6021.pdf ).
-Am 28. September 2012 verabschiedeten die Eidgenössischen Räte das Bundesgesetz über
-die Besteuerung nach dem Aufwand (BBl 2012 8251) mit den entsprechenden Änderungen des
-Bundesgesetzes vom 14. Dezember 1990 über die direkte Bundessteuer (DBG; SR 642.11) so-
-wie des Bundesgesetzes vom 14. Dezember 1990 über die Harmonisierung der direkten Steu-
-ern der Kantone und Gemeinden (StHG; SR 642.14). Die Referendumsfrist lief am 17. Januar
-2013 unbenutzt ab. Die Änderung des DBG ist per 1. Januar 2016 in Kraft getreten.
-Neben den obgenannten Gesetzesbestimmungen bedingte diese Gesetzesänderung auch den
-Ersatz der bisherigen Verordnung vom 15. März 1993 durch die neue Verordnung vom 20. Feb-
-ruar 2013 über die Besteuerung nach dem Aufwand bei der direkten Bundessteuer (VO Auf-
-wandbesteuerung; SR 642.123), die am 1. Januar 2016 in Kraft trat.
+2.2   Kein Schweizer Bürgerrecht
+Nur ausländische Staatsangehörige können die Aufwandbesteuerung beantragen.
+Schweizerische Staatsangehörige, die ein weiteres Bürgerrecht besitzen, gelten nicht als Aus-
+länder und erfüllen die Voraussetzungen für eine Aufwandbesteuerung somit nicht.
+Das Recht auf Aufwandbesteuerung erlischt, wenn die steuerpflichtige Person das Schweizer
+Bürgerrecht erwirbt. In diesem Fall ist für die ganze Steuerperiode, in der die Einbürgerung er-
+folgt, die ordentliche Einkommenssteuer zu entrichten.
+Ehegatten, die in rechtlich und tatsächlich ungetrennter Ehe leben, können die Aufwandbesteu-
+erung nicht beanspruchen, wenn einer von ihnen das Schweizer Bürgerrecht besitzt (siehe
+dazu Botschaft S. 6034 zu Art. 14 Abs. 2 DBG).
+
+2.3   Zuzug in die Schweiz ohne Erwerbstätigkeit
+Ausländische Staatsangehörige, die erstmals oder nach mindestens zehnjähriger Landesabwe-
+senheit in der Schweiz steuerrechtlichen Wohnsitz oder Aufenthalt nach Artikel 3 DBG nehmen,

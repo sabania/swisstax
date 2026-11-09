@@ -4,23 +4,27 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 93"
-seiten: "21"
+titel: "Ziff. 13.4.11 Kapitalleistungen (Art. 38) und fiktive Einkäufe (Art. 37b) – Tarif"
+ziffer: "13.4.11"
+seiten: "29-30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 21
+> Bund · Steuerjahr 2025/2026 · KS 30 · 13 Tarife › 13.4 Elterntarif › 13.4.11 Kapitalleistungen · S. 29–30
 
-Die Unterstützungsbedürftigkeit ist ebenfalls stets nach objektiven Gesichtspunkten festzule-
-gen. Diese können jedoch nicht gesamtschweizerisch vereinheitlicht werden, da die Lebens-
-haltungskosten je nach Gegend unterschiedlich hoch sind.
+13.4.11   Kapitalleistungen nach Artikel 38 und fiktive Einkäufe nach Artikel
+    37b DBG
 
-Der Abzug ist nicht zulässig, wenn der gemeinsam veranlagte Ehegatte unterstützt wird. Der
-gegenseitigen ehelichen Unterstützung wird bereits durch den Verheiratetentarif (Art. 36 Abs.
-2 DBG) sowie durch den Verheiratetenabzug (Art. 35 Abs. 1 Bst. c DBG) Rechnung getra-
-gen.
-
-Der Unterstützungsabzug kann ebenfalls nicht für Kinder beansprucht werden, für die bereits
-ein Kinderabzug (Art. 35 Abs. 1 Bst. a DBG) gewährt wird. Dieses Kumulationsverbot von
-Kinderabzug und Unterstützungsabzug gilt aber nur für ein und dieselbe leistende Person.
-Bei getrennt lebenden Eltern besteht je nach Konstellation die Möglichkeit, dass für das glei-
-che Kind der Kinderabzug und der Unterstützungsabzug gewährt werden.
+Kapitalleistungen aus Vorsorge, Zahlungen bei Tod und für bleibende körperliche oder ge-
+sundheitliche Nachteile nach Artikel 38 sowie fiktive Einkäufe nach Artikel 37b DBG werden
+gesondert besteuert. Sie unterliegen einer vollen Jahressteuer. Die Steuer wird zu einem
+Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis DBG berechnet. Bisher verwies Arti-
+kel 38 DBG auf den Grundtarif und den Verheiratetentarif, nicht jedoch auf den im Elterntarif
+ebenfalls vorgesehenen Verheiratetentarif. In der früheren Fassung dieses KS wurde darauf
+hingewiesen, dass es sich dabei um ein gesetzgeberisches Versehen handelt, weshalb die
+Kapitalleistungen aus Vorsorge von Alleinerziehenden dennoch zum Verheiratetentarif und
+nicht zum Grundtarif zu erfassen seien. Das Bundesgesetz über die formelle Bereinigung der
+zeitlichen Bemessung der direkten Steuern bei den natürlichen Personen beseitigt diesen
+Mangel. Kapitalleistungen aus Vorsorge von alleinerziehenden und verheirateten Personen
+mit Kindern werden zum Tarif nach Artikel 36 Absatz 2bis erster Satz DBG besteuert (Verhei-
+ratetentarif). Der im Elterntarif enthaltene Abzug vom Steuerbetrag pro Kind gemäss Artikel
+36 Absatz 2bis zweiter Satz DBG ist hingegen nicht anwendbar.

@@ -10,17 +10,10 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 5
 
-Selbständig erwerbstätige Personen dürfen zudem während der Ausübung der selbständi-
-gen Erwerbstätigkeit für Investitionen im Unternehmen einen einmaligen, vorzeitigen Bezug
-von Vorsorgegeldern aus der zweiten Säule tätigen (vgl. BGE 134 V 170 sowie Mitteilung
-des Bundesamtes für Sozialversicherungen über die berufliche Vorsorge Nr. 106, Rz 643).
-Voraussetzung für den Bezug zugunsten betrieblicher Investitionen ist gemäss bundesge-
-richtlicher Rechtsprechung, dass die selbständig erwerbstätige Person den Vorsorgevertrag
-kündigt und die vertragliche Beziehung mit der Vorsorgeeinrichtung dadurch beendet. Ein
-Teilbezug ist nicht zulässig (vgl. BGE 135 V 418 sowie Mitteilung des Bundesamtes für Sozi-
-alversicherungen über die berufliche Vorsorge Nr. 116 vom 28. Januar 2010, Rz 725).
-
-Die dreijährige Sperrfrist gemäss Artikel 79b Absatz 3 BVG ist in den beiden oben genannten
-Fällen ebenfalls anwendbar.
-
-2.2.7   Unzulässige Auszahlung des Vorsorgeguthabens
+Gemäss Artikel 5 Absatz 1 Buchstabe b FZG kann bei Aufnahme einer selbständigen Er-
+werbstätigkeit die Barauszahlung der Austrittsleistung verlangt werden. In diesem Falle muss
+das Vorsorgeverhältnis beendet werden und die gesamte Austrittsleitung unterliegt grund-
+sätzlich der Besteuerung. Wird allerdings nur ein Teil der Austrittsleistung für die Aufnahme
+der selbständigen Erwerbstätigkeit benötigt und der restliche Teil der Austrittsleistung auf
+eine Freizügigkeitspolice oder ein Freizügigkeitskonto überwiesen, so unterliegt nur der bar
+ausbezahlte (Teil-)Betrag der Besteuerung.

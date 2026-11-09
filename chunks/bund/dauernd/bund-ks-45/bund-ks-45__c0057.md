@@ -5,21 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 57"
-seiten: "15"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 13
 
-4.1   Allgemeines
-Die Berechnung der geschuldeten Quellensteuer erfolgt zum anwendbaren Quellensteuerta-
-rif (Tarifcodes A, B, C, F und H bzw. L, M, N und P; vgl. Art. 1 Abs. 1 QStV).
-Der anwendbare Tarifcode richtet sich nach den persönlichen Verhältnissen der quellensteu-
-erpflichtigen Person im Zeitpunkt der Auszahlung, Überweisung, Gutschrift oder Fälligkeit
-der steuerbaren Leistung (vgl. Art. 2 Abs. 1 QStV). Dies gilt auch für nach dem Austritt des
-Arbeitnehmers fällige Leistungen (bspw. Bonus, Abgangsentschädigung).
-Änderungen, die eine neue Tarifeinstufung bedingen (bspw. Heirat, Scheidung, Trennung,
-Geburt von Kindern, Aufnahme oder Aufgabe einer Erwerbstätigkeit, Ein- oder Austritt in
-bzw. aus einer Landeskirche), werden bei der Quellenbesteuerung ab Beginn des auf die
-Änderung folgenden Monats entsprechend berücksichtigt.
-Bei der Festlegung des anwendbaren Tarifcodes ist es unerheblich, ob die Einkünfte in der
-Schweiz oder im Ausland erzielt werden.
+3.2.9 Beim Personalverleih bzw. bei einer faktischen Arbeitgeberschaft
+Steuerbar sind grundsätzlich diejenigen Leistungen, welche dem Arbeitnehmer zukommen.
+Für die Zwecke der Quellenbesteuerung nicht entscheidend ist, wer die steuerbaren Leistun-
+gen an den Arbeitnehmer ausrichtet und ob der Arbeitnehmer in der Schweiz ansässig ist o-
+der nicht.
+Nicht durch den Arbeitnehmer zu versteuern sind Leistungen, welche keinen Lohncharakter
+haben und vom Entleiher bzw. vom faktischen Arbeitgeber an den Personalverleiher bzw.

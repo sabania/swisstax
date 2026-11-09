@@ -10,12 +10,20 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 18
 
-<!-- Seite 18 -->
-    Zugleich Arbeitnehmer   Fälle von Art. 83 DBG:   Fälle von Art. 91, 97 oder 93
-    (AN) und Verwaltungsrat   DBG:
-    (VR)   Einkünfte aus diesen Mitar-
-    beiterbeteiligungen sind zu-   In diesen Fällen ist vorgängig
-    sammen mit dem übrigen Ein-   zu bestimmen, für welche Art
-    kommen aus unselbstständi-   der Erwerbstätigkeit (AN o-
-    ger Erwerbstätigkeit an der   der VR) die Mitarbeiterbeteili-
-    Quelle zu besteuern.   gungen ausgegeben wurde.
+    erfolgt die Besteuerung durch   rung ins Ausland verlegt
+    den seinerzeitigen Leistungs-   wurde.
+    schuldner in Anwendung von
+    Art. 83 DBG.   Eine anteilsmässige Besteu-
+    erung ist in Anwendung von
+    Eine anteilsmässige Besteue-   Art. 17d DBG sicherzustel-
+    rung (Art. 17d DBG) kann nur   len. Massgebend sind die in
+    dann erfolgen, wenn die steu-   der Vestingperiode der
+    erpflichtige Person nicht wäh-   Schweiz zuzurechnenden
+    rend der ganzen Zeitspanne   „Arbeitstage“ und dies im
+    für ihr Einkommen in der   Vergleich zur gesamten An-
+    Schweiz steuerpflichtig war.   zahl Tage während der Ves-
+    tingperiode. Liegt kein ent-
+    sprechender Ansässigkeits-
+    wechsel vor, erfolgt die Be-
+    steuerung gemäss Art. 91,
+    97 oder 93 DBG.

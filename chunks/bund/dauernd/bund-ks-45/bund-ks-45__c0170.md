@@ -5,30 +5,13 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 170"
-seiten: "46"
+seiten: "44"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 46
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 44
 
-    Tarifcode   A0   A0   A0   A0   B0   B0   B1   B1
-    Steuersatz
-    10,41   14,42   14,4   14,4   9,34   9,3   6,45   6,4
-    (%)
-    Quellen-
-    520   5 040   720   720   465   465   320   640   11 005
-    steuer
-    Korrektur
-    +2003   +200
-    Januar
-    Total Quel-
-    520   5 240   720   720   465   465   320   640   11 205
-    lensteuer
-    1 = A0 mit satzbestimmendem Jahreseinkommen von CHF 65 000.00 (CHF 5 000 x 13).
-
-    2 = A0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 (CHF 65 000 + CHF 30 000).
-
-    3 = Korrektur des Quellensteuerabzugs für den Monat Januar ([CHF 5 000 x 14.40 %] – CHF 520).
-
-    4 = B0 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 (CHF 65 000 + CHF 30 000).
-
-    5 = B1 mit satzbestimmendem Jahreseinkommen von CHF 95 000.00 (CHF 65 000 + CHF 30 000).
+7.4   Änderung der persönlichen Verhältnisse während des Kalenderjahres
+Jede Änderung, die zu einer Anpassung des anwendbaren Tarifcodes führt (bspw. Heirat,
+Scheidung, Trennung, Geburt von Kindern, Aufnahme oder Beendigung einer Erwerbstätig-
+keit, Ein- oder Austritt aus einer Landeskirche), ist bei der Quellenbesteuerung erst im auf
+die Änderung folgenden Monat zu berücksichtigen.

@@ -5,23 +5,15 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 42 – Abschnitt 12"
-seiten: "4"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 42 · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 42 · S. 3
 
-<!-- Seite 4 -->
-3   Schematischer Überblick über die Abzugsfähigkeit (Grundzüge)
-
-    Abzugsfähig gemäss Artikel 33 Absatz 1 Buchstabe j DBG
-    bis 31. De-   ab 1. Januar 2016
-    zember 2015
-    über 20   über 20   unter 20   unter 20
-    Jahre alt, mit   Jahre alt,   Jahre alt, mit   Jahre alt,
-    erstem   ohne ersten   erstem   ohne ersten
-    Sek II-Ab-   Sek II-Ab-   Sek II-Ab-   Sek II-Ab-
-    schluss   schluss   schluss   schluss
- Ausbildung   Nein   Nein   Nein
- bis und mit
- erstem Ab-
- schluss auf
+im Rahmen der Hochschulen: Die höhere Berufsbildung umfasst die eidgenössischen Berufsprü-
+fungen, eidgenössische höhere Fachprüfungen sowie die höheren Fachschulen (HF). Zu den
+Hochschulen zählen die universitären Hochschulen (kantonale universitäre Hochschulen sowie
+Eidgenössische Technische Hochschulen [ETH]), die Fachhochschulen (FH), einschliesslich
+Kunst- und Musikhochschulen, sowie die Pädagogischen Hochschulen (PH).
+Graphischer Überblick über das schweizerische Bildungswesen (vgl. auch Schweizer Medien-
+institut für Bildung und Kultur; http://bildungssystem.educa.ch/de ):

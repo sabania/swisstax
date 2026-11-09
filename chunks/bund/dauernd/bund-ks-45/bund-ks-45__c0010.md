@@ -10,12 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
 
-    Arbeitsverhältnisses ................................................................................................ 32
-6.10 Ersatzeinkünfte, die an den Arbeitgeber ausbezahlt werden ................................ 34
-6.11 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden ................... 34
-6.12 Kapitalabfindungen für wiederkehrende Leistungen (exkl. Ersatzeinkünfte)....... 34
-7   Berechnung der Quellensteuer nach dem Jahresmodell ...................................... 36
-7.1 Vorbemerkungen ...................................................................................................... 36
-7.2 Grundsätze ................................................................................................................ 36
-7.3 Ermittlung des satzbestimmenden Jahreseinkommens ........................................ 37
-7.3.1 Allgemeines und Grundsatz zur Berechnung der Quellensteuer ................................. 37
+7.3.2 Satzbestimmendes Einkommen bei einer oder mehreren Teilzeit-Erwerbstätigkeiten. 40
+7.3.3 Erwerbstätigkeiten im Stunden- oder Tageslohn ......................................................... 43
+7.3.4 Quellensteuerberechnung bei unterjährigen Ein- und Austritten ................................. 43
+7.4 Änderung der persönlichen Verhältnisse während des Kalenderjahres .............. 44
+7.5 Sonderfälle ................................................................................................................ 49
+7.5.1 Ausscheidung von im Ausland geleisteten Arbeitstagen ............................................. 49
+7.5.2 Quellensteuerberechnung bei Leistungen vor Antritt des Arbeitsverhältnisses ........... 51
+7.5.3 Quellensteuerberechnung bei Leistungen bei bzw. nach Beendigung des
+    Arbeitsverhältnisses.................................................................................................... 51

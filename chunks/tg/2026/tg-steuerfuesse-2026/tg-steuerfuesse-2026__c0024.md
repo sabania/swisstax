@@ -10,13 +10,18 @@ qmd: {metadata: {jur: tg, jahre: [2025, 2026], typ: steuerfuss}}
 ---
 > TG · Steuerjahr 2025/2026 · Steuerfüsse TG 2026 · S. 7
 
-Dozwil   39   84   23 / 23   255.0   2’159   Lengwil   54   83   26 / 15   267.5   1’986
-Egnach   55   95   20 / 20   279.0   2’350   Münsterlingen   40   87   9 / 14   247.4   2’955
-Hefenhofen   66   97   22 / 23   294.4   2’099   Raperswilen   63   100   25 / 26   297.2   2’541
-Horn   34   65   20 / 16   225.5   3’888   Salenstein   44   71   15 / 15   239.0   4’366
-Kesswil   45   84   23 / 14   257.7   3’366   Tägerwilen   36   82   24 / 15   246.8   3’143
-Roggwil   44   100   16 / 18   269.9   2’768   Wäldi   52   100   32 / 22   289.5   2’148
-Romanshorn   70   93   25 / 22   295.3   2’299   Bezirk Münchwilen³   53.5   93.9   277.2   2’247
-Salmsach   54   93   25 / 22   279.4   1’815   Aadorf   61   94   19 / 19   283.0   2’302
-Sommeri   55   97   22 / 23   283.6   1’882   Bettwiesen   52   94   26 / 20   277.0   2’706
-Uttwil   48   66   17 / 22   242.2   3’304   Bichelsee-Balterswil   54   96   25 / 24   283.4   2’020
+<!-- Seite 7 -->
+    Steuerfüsse 2026, Steuerkraft 2025   7
+
+Steuerfüsse 2026 und Steuerkraft 2025 nach Politischen Gemeinden
+Kanton Thurgau
+    Staatssteuerfuss: 109 %   Staatssteuerfuss: 109 %
+Gemeinden   Steuerfuss   Schul-   Kirchen-   Gesamt-   Steuer-   Gemeinden   Steuerfuss   Schul-   Kirchen-   Gesamt-   Steuer-
+    Politische   steuer-   steuer-   steuerfuss   kraft pro   Politische   steuer-   steuer-   steuerfuss   kraft pro
+    Gemeinden   fuss¹   fuss¹ ²   jur. Pers.¹   Einw. zu   Gemeinden   fuss¹   fuss¹ ²   jur. Pers.¹   Einw. zu
+    100 %   100 %
+    in %   in %   in %   in %   in Franken   in %   in %   in %   in %   in Franken
+Kanton Thurgau³   55.8   89.4   274.1   2’472   Güttingen   54   84   27 / 14   268.1   2’509
+Bezirk Arbon³   61.7   95.4   286.6   2’301   Kemmental   58   92   22 / 15   278.7   2’209
+Amriswil   63   97   22 / 22   291.0   1’833   Kreuzlingen   64   72   16 / 15   260.4   2’704
+Arbon   70   105   20 / 18   302.8   2’217   Langrickenbach   60   91   25 / 14   280.9   2’090

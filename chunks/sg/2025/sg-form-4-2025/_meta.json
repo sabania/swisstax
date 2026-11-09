@@ -1,0 +1,224 @@
+[
+{
+"id": "sg-form-4-2025__c0001",
+"titel": "Person 1 Ziff. 1.1–1.2 Fahrkosten – ÖV, Fahrrad/Kleinmotorrad (Codes 400–402)",
+"pfad": [
+"Formular 4 Person 1",
+"1. Fahrkosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "1.1–1.2",
+"stichworte": [
+"Pendlerabzug",
+"Arbeitsweg",
+"ÖV-Abonnement",
+"GA",
+"Velo",
+"Kleinmotorrad"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Fahrkosten Wohn-/Arbeitsstätte mit öffentlichen Verkehrsmitteln (Code 400) und Fahrrad/Kleinmotorrad bis 50 cm3 mit gelbem Kontrollschild (Code 402).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "sg-form-4-2025__c0002"
+},
+{
+"id": "sg-form-4-2025__c0002",
+"titel": "Person 1 Ziff. 1.3 Motorfahrzeug und Zwischentotal Fahrkosten (Codes 404–406)",
+"pfad": [
+"Formular 4 Person 1",
+"1. Fahrkosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "1.3",
+"stichworte": [
+"Auto Arbeitsweg",
+"Motorfahrzeug Begründung",
+"Kilometerabzug",
+"Fahrkosten Maximum"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Motorfahrzeugkosten nur in begründeten Fällen (kein öV, Einsparung über 60 Minuten/Tag, Verlangen des Arbeitgebers, Krankheit); Zwischentotal Ziffern 1.1–1.3 max. Fr. 8'000 (Code 406), Satz Fr. 0.70 pro km; Home-Office-Tage ohne Fahrkosten.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0001",
+"nachher": "sg-form-4-2025__c0003"
+},
+{
+"id": "sg-form-4-2025__c0003",
+"titel": "Person 1 Ziff. 2–3 Verpflegung und übrige Berufskosten (Codes 408–418)",
+"pfad": [
+"Formular 4 Person 1",
+"2. Verpflegung / 3. Übrige Kosten"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "2–3",
+"stichworte": [
+"Verpflegung auswärts",
+"Kantine",
+"Schichtarbeit",
+"Pauschale Berufskosten",
+"Berufskleider",
+"Fachliteratur"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Verpflegung Fr. 15 pro Arbeitstag/Fr. 3'200 im Jahr (Code 408), verbilligt Fr. 7.50/Fr. 1'600 (410), Schicht Fr. 15/Fr. 3'200 (412); übrige Kosten Pauschale Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2'400 (416) oder effektiv (418).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0002",
+"nachher": "sg-form-4-2025__c0004"
+},
+{
+"id": "sg-form-4-2025__c0004",
+"titel": "Person 1 Ziff. 4–6 Wochenaufenthalt, Nebenerwerb, Total Berufskosten (Codes 426–438)",
+"pfad": [
+"Formular 4 Person 1",
+"4–6"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "4–6",
+"stichworte": [
+"Wochenaufenthalt",
+"Nebenerwerb",
+"Total Berufskosten",
+"Zimmer am Arbeitsort"
+],
+"positionen": [
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb",
+"berechnung.total"
+],
+"zusammenfassung": "Wochenaufenthalt: Pro Arbeitstag Fr. 30/Jahr Fr. 6'400 (verbilligt Fr. 22.50/Fr. 4'800); Nebenerwerb 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2'400 (Code 432); Total Berufskosten Code 438, zu übertragen in Steuererklärung Seite 3 Ziff. 10.1.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0003",
+"nachher": "sg-form-4-2025__c0005"
+},
+{
+"id": "sg-form-4-2025__c0005",
+"titel": "Person 2 Ziff. 1.1–1.2 Fahrkosten – ÖV, Fahrrad/Kleinmotorrad (Codes 450–452)",
+"pfad": [
+"Formular 4 Person 2",
+"1. Fahrkosten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1.1–1.2",
+"stichworte": [
+"Pendlerabzug",
+"Arbeitsweg",
+"ÖV-Abonnement",
+"GA",
+"Velo",
+"Kleinmotorrad"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Fahrkosten Wohn-/Arbeitsstätte mit öffentlichen Verkehrsmitteln (Code 450) und Fahrrad/Kleinmotorrad bis 50 cm3 mit gelbem Kontrollschild (Code 452).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0004",
+"nachher": "sg-form-4-2025__c0006"
+},
+{
+"id": "sg-form-4-2025__c0006",
+"titel": "Person 2 Ziff. 1.3 Motorfahrzeug und Zwischentotal Fahrkosten (Codes 454–456)",
+"pfad": [
+"Formular 4 Person 2",
+"1. Fahrkosten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1.3",
+"stichworte": [
+"Auto Arbeitsweg",
+"Motorfahrzeug Begründung",
+"Kilometerabzug",
+"Fahrkosten Maximum"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Motorfahrzeugkosten nur in begründeten Fällen (kein öV, Einsparung über 60 Minuten/Tag, Verlangen des Arbeitgebers, Krankheit); Zwischentotal Ziffern 1.1–1.3 max. Fr. 8'000 (Code 456), Satz Fr. 0.70 pro km; Home-Office-Tage ohne Fahrkosten.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0005",
+"nachher": "sg-form-4-2025__c0007"
+},
+{
+"id": "sg-form-4-2025__c0007",
+"titel": "Person 2 Ziff. 2–3 Verpflegung und übrige Berufskosten (Codes 458–468)",
+"pfad": [
+"Formular 4 Person 2",
+"2. Verpflegung / 3. Übrige Kosten"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "2–3",
+"stichworte": [
+"Verpflegung auswärts",
+"Kantine",
+"Schichtarbeit",
+"Pauschale Berufskosten",
+"Berufskleider",
+"Fachliteratur"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Verpflegung Fr. 15 pro Arbeitstag/Fr. 3'200 im Jahr (Code 458), verbilligt Fr. 7.50/Fr. 1'600 (460), Schicht Fr. 15/Fr. 3'200 (462); übrige Kosten Pauschale Fr. 700 zuzüglich 10% des Nettolohnes, höchstens Fr. 2'400 (466) oder effektiv (468).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0006",
+"nachher": "sg-form-4-2025__c0008"
+},
+{
+"id": "sg-form-4-2025__c0008",
+"titel": "Person 2 Ziff. 4–6 Wochenaufenthalt, Nebenerwerb, Total Berufskosten (Codes 476–488)",
+"pfad": [
+"Formular 4 Person 2",
+"4–6"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "4–6",
+"stichworte": [
+"Wochenaufenthalt",
+"Nebenerwerb",
+"Total Berufskosten",
+"Zimmer am Arbeitsort"
+],
+"positionen": [
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb",
+"berechnung.total"
+],
+"zusammenfassung": "Wochenaufenthalt: Pro Arbeitstag Fr. 30/Jahr Fr. 6'400 (verbilligt Fr. 22.50/Fr. 4'800); Nebenerwerb 20% der Nettoeinkünfte, mindestens Fr. 800, höchstens Fr. 2'400 (Code 482); Total Berufskosten Code 488, zu übertragen in Steuererklärung Seite 3 Ziff. 10.2.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "sg-form-4-2025__c0007",
+"nachher": null
+}
+]

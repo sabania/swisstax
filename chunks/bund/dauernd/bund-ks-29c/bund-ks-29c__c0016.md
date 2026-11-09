@@ -5,23 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 16"
-seiten: "4"
+seiten: "5"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 4
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 5
 
-Mit Inkrafttreten des Bundesgesetzes über die Steuerreform und die AHV-Finanzierung
-(STAF) per 1. Januar 2020 wurden die steuerfreie Rückzahlung sowie die Verwendung von
-Reserven aus Kapitaleinlagen bei einer direkten Teilliquidation von in der Schweiz kotierten
-juristischen Personen eingeschränkt.
+<!-- Seite 5 -->
+2.   Kapitaleinlagen
 
-Zudem hat das Parlament am 19. Juni 2020 das Bundesgesetz vom 30. März 1911 betref-
-fend die Ergänzung des Schweizerischen Zivilgesetzbuches über das Obligationenrecht
-(Fünfter Teil: Obligationenrecht, OR; SR 220) verabschiedet. Die neuen gesetzlichen Bestim-
-mungen im OR zum Kapitalband und zur Denominierung des Aktienkapitals sowie die neuen
-steuerrechtlichen Bestimmungen haben Auswirkungen auf das Kapitaleinlageprinzip.
+2.1.   Grundsätze
 
-Neu wurden damit einhergehend folgende Gesetzesbestimmungen in DBG und VStG aufge-
-nommen:
+Einlagen, Aufgelder und Zuschüsse (gegebenenfalls nach Abzug der Ausgabekosten), wel-
+che direkt von den Inhabern der Beteiligungsrechte geleistet wurden und in der Handelsbi-
+lanz der empfangenden Kapitalgesellschaft oder Genossenschaft verbucht und offen ausge-
+wiesen sind (offene Kapitaleinlagen) gelten als Reserven aus Kapitaleinlagen (KER) im
+Sinne von Artikel 20 Absatz 3 DBG und Artikel 5 Absatz 1bis VStG.
 
-DBG
+Offene Kapitaleinlagen aus dem Ausland im Sinne von Artikel 20 Absatz 5 Buchstaben a und
+b DBG und Artikel 5 Absatz 1quater Buchstaben a und b VStG gelten als Reserven aus Kapi-
+taleinlagen aus dem Ausland (Ausland-KER). Die gesonderten Konti für KER gemäss Artikel
+5 Absatz 1bis VStG und für Ausland-KER gemäss Artikel 5 Absatz 1quinquies VStG sind in einer
+oder mehreren gesonderten Positionen unter den gesetzlichen oder freien Kapitalreserven
+auszuweisen.

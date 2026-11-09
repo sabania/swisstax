@@ -12,7 +12,7 @@ generiert: tools/build_index.py
 - **Original:** <https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-3.html> · lokal: [zh-zstb-30-3.html](../../../raw/zh/dauernd/zh-zstb-30-3.html) · Volltext: [zh-zstb-30-3.md](../../../sources/zh/dauernd/zh-zstb-30-3.md)
 - **Abgerufen:** 2026-11-09 · sha256 `33d3a3ba2031df48…`
 
-## Inhalt (57 Chunks)
+## Inhalt (55 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |
 |---|---|---|---|
@@ -34,30 +34,30 @@ generiert: tools/build_index.py
 | [c0016](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0016.md) | II. Betriebskosten einschliesslich Versicherungsprämien |  |  |
 | [c0017](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0017.md) | II. Betriebskosten einschliesslich Versicherungsprämien |  |  |
 | [c0018](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0018.md) | II. Betriebskosten einschliesslich Versicherungsprämien |  |  |
-| [c0019](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0019.md) | II. Betriebskosten einschliesslich Versicherungsprämien |  |  |
-| [c0020](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0020.md) | III. Kosten der Verwaltung durch Dritte |  |  |
-| [c0021](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0021.md) | 1.Gartenunterhaltskosten |  |  |
-| [c0022](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0022.md) | 3.Kosten des Unterhaltes eines Schwimmbades |  |  |
-| [c0023](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0023.md) | 4.Eigenleistungen |  |  |
+| [c0019](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0019.md) | III. Kosten der Verwaltung durch Dritte |  |  |
+| [c0020](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0020.md) | 1.Gartenunterhaltskosten |  |  |
+| [c0021](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0021.md) | 3.Kosten des Unterhaltes eines Schwimmbades |  |  |
+| [c0022](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0022.md) | 4.Eigenleistungen |  |  |
+| [c0023](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0023.md) | E. Auslagen für Energiespar- und Umweltschutzmassnahmen |  |  |
 | [c0024](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0024.md) | E. Auslagen für Energiespar- und Umweltschutzmassnahmen |  |  |
 | [c0025](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0025.md) | E. Auslagen für Energiespar- und Umweltschutzmassnahmen |  |  |
-| [c0026](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0026.md) | E. Auslagen für Energiespar- und Umweltschutzmassnahmen |  |  |
-| [c0027](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0027.md) | F. Rückbaukosten im Hinblick auf einen Ersatzneubau |  |  |
-| [c0028](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0028.md) | G. Kosten für denkmalpflegerische Arbeiten |  |  |
-| [c0029](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0029.md) | H. Abzugsberechtigte Person |  |  |
+| [c0026](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0026.md) | F. Rückbaukosten im Hinblick auf einen Ersatzneubau |  |  |
+| [c0027](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0027.md) | G. Kosten für denkmalpflegerische Arbeiten |  |  |
+| [c0028](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0028.md) | H. Abzugsberechtigte Person |  |  |
+| [c0029](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0029.md) | I. Zeitpunkt des Abzugs |  |  |
 | [c0030](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0030.md) | I. Zeitpunkt des Abzugs |  |  |
 | [c0031](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0031.md) | I. Zeitpunkt des Abzugs |  |  |
 | [c0032](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0032.md) | I. Zeitpunkt des Abzugs |  |  |
 | [c0033](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0033.md) | I. Zeitpunkt des Abzugs |  |  |
 | [c0034](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0034.md) | I. Zeitpunkt des Abzugs |  |  |
-| [c0035](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0035.md) | I. Zeitpunkt des Abzugs |  |  |
+| [c0035](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0035.md) | J. Pauschalabzug |  |  |
 | [c0036](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0036.md) | J. Pauschalabzug |  |  |
 | [c0037](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0037.md) | J. Pauschalabzug |  |  |
 | [c0038](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0038.md) | J. Pauschalabzug |  |  |
 | [c0039](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0039.md) | J. Pauschalabzug |  |  |
 | [c0040](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0040.md) | J. Pauschalabzug |  |  |
-| [c0041](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0041.md) | J. Pauschalabzug |  |  |
-| [c0042](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0042.md) | J. Pauschalabzug |  |  |
+| [c0041](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0041.md) | K. Abgrenzungskatalog |  |  |
+| [c0042](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0042.md) | K. Abgrenzungskatalog |  |  |
 | [c0043](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0043.md) | K. Abgrenzungskatalog |  |  |
 | [c0044](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0044.md) | K. Abgrenzungskatalog |  |  |
 | [c0045](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0045.md) | K. Abgrenzungskatalog |  |  |
@@ -70,6 +70,4 @@ generiert: tools/build_index.py
 | [c0052](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0052.md) | K. Abgrenzungskatalog |  |  |
 | [c0053](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0053.md) | K. Abgrenzungskatalog |  |  |
 | [c0054](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0054.md) | K. Abgrenzungskatalog |  |  |
-| [c0055](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0055.md) | K. Abgrenzungskatalog |  |  |
-| [c0056](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0056.md) | K. Abgrenzungskatalog |  |  |
-| [c0057](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0057.md) | L. Inkrafttreten |  |  |
+| [c0055](../../../chunks/zh/dauernd/zh-zstb-30-3/zh-zstb-30-3__c0055.md) | L. Inkrafttreten |  |  |

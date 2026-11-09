@@ -4,19 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 45"
-seiten: "10"
+titel: "Ziff. 8.4.3–8.4.4 Ohne gemeinsame Sorge; getrennte Eltern mit zwei Haushalten (Teil 2/2)"
+ziffer: "8.4.3"
+seiten: "15"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 10
+> Bund · Steuerjahr 2025/2026 · KS 30 · 8 Kinderdrittbetreuungskostenabzug › 8.4 Anspruchsberechtigung · S. 15
 
-Beim Tod eines Ehegatten wird der überlebende Ehegatte für den Rest der Steuerperiode
-separat zu dem für ihn anwendbaren Tarif veranlagt. Die Gemeinschaftsbesteuerung hört mit
-dem Todestag auf (Art. 42 Abs. 3 DBG). Da der Tod eines Ehegatten die eheliche Gemein-
-schaft beendet, entfällt in Analogie zu Artikel 13 Absatz 2 DBG auch mit dem Tod eines
-Ehegatten die Solidarhaftung für alle noch offenen Steuerschulden (so auch Peter Locher,
-Kommentar zum DBG, 1. Teil, Art. 12 Rz. 17, Basel 2001; Bernhard J. Greminger/Bettina
-Bärtschi, Bundesgesetz über die direkte Bundessteuer [DBG] Art. 13 Rz 10, 2. Aufl., Basel
-2008). Für seinen Anteil an der Gesamtsteuer haftet der überlebende Ehegatte allein.
+Bei getrennten, geschiedenen oder unverheirateten Eltern kann grundsätzlich derjenige El-
+ternteil, welcher mit dem Kind zusammenlebt und einer Erwerbstätigkeit nachgeht, erwerbs-
+unfähig und gleichzeitig betreuungsunfähig ist oder sich in Ausbildung befindet, die Kinder-
+drittbetreuungskosten in Abzug bringen. Dies ist in der Regel der Elternteil, der die elterliche
+Sorge (allein oder gemeinsam) innehält und die Unterhaltszahlungen für das Kind gemäss
+Artikel 23 Buchstabe f DBG erhält.
 
-6.2.4   Anteilsmässige Haftung
+Befindet sich das Kind in alternierender Obhut, kann jeder Elternteil maximal 5'050 Franken
+der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug bringen. Es besteht auch
+hier die Möglichkeit, dass die Eltern eine andere Aufteilung beantragen (es gelten für diesen
+Fall ebenfalls die Ausführungen unter Ziff. 8.4.3).
+
+Jeder Elternteil kann nur jene Kosten geltend machen, die während der Dauer seiner Obhut-
+spflicht für die Drittbetreuung entstanden sind.

@@ -5,19 +5,25 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 231"
-seiten: "64"
+seiten: "61"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 64
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 61
 
-Für die Durchführung der nachträglichen ordentlichen Veranlagung zuständig ist:
-     Für Arbeitnehmer mit Ansässigkeit in der Schweiz: Der Kanton, in dem die steuerpflich-
-    tige Person am Ende der Steuerperiode oder der Steuerpflicht ihren steuerrechtlichen
-    Wohnsitz oder Aufenthalt hatte (vgl. Art. 107 Abs. 4 Bst. a DBG).
-     Für Personen mit Ansässigkeit im Ausland: Der Kanton, in dem der Schuldner der
-    steuerbaren Leistung am Ende der Steuerperiode oder der Steuerpflicht seinen steuer-
-    rechtlichen Wohnsitz oder Aufenthalt bzw. seinen Sitz, eine Betriebsstätte oder die tat-
-    sächliche Verwaltung hatte (vgl. Art. 107 Abs. 4 Bst. b DBG).
-     Für Personen mit Ansässigkeit im Ausland und Wochenaufenthalterstatus in der
-    Schweiz: Der Kanton, in dem die steuerpflichtige Person am Ende der Steuerperiode
-    oder der Steuerpflicht Wochenaufenthalt hatte (vgl. Art. 107 Abs. 4 Bst. c DBG).
+    Beispiel:
+    - Die Zweigniederlassung des Personalverleihers X, mit Sitz in St. Gallen, welche einen in Österreich ansäs-
+    sigen Arbeitnehmer an einen Einsatzbetrieb in Zürich verleiht, hat die Quellensteuern mit dem Kanton St.
+    Gallen abzurechnen.
+    Mögliche Konstellationen:
+
+    Ansässig-   Wohnsitz-   Wochenaufent-   Sitz- bzw. Verwaltungs- oder   Örtliche
+    keitsstaat   kanton   haltskanton   Betriebsstättekanton Arbeitgeber   Zuständigkeit
+    CH   TG   -   TG   TG
+    CH   TG   BE   BE   TG
+    F   -   -   GE   GE
+    F   -   VD   VD   VD
+
+Verlegt eine quellensteuerpflichtige Person ihren Wohnsitz oder ihren Wochenaufenthalt in
+einen anderen Kanton, ist die Quellensteuerabrechnung ab dem Folgemonat bei der Steuer-
+verwaltung des neu anspruchsberechtigten Wohnsitz- oder Wochenaufenthaltskantons ein-
+zureichen.

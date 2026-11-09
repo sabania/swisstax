@@ -5,22 +5,20 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 218"
-seiten: "60"
+seiten: "58"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 60
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 58
 
-9.3.2 Quellensteuerablieferung bei Kantonen mit Monatsmodell
-Die Ablieferung der durch den Schuldner der steuerbaren Leistung abgezogenen Quellen-
-steuer an die zuständige kantonale Steuerbehörde hat aufgrund der Rechnungsstellung die-
-ses Kantons zu erfolgen.
-
-9.3.3 Quellensteuerabrechnung bei Kantonen mit Jahresmodell
-Die Quellensteuerabrechnung bei Kantonen mit Jahresmodell erfolgt nach den gleichen
-Grundsätzen wie bei Kantonen mit Monatsmodell (vgl. Ziffer 9.3.1 oben), wobei die Abrech-
-nung immer innert 30 Tagen bei der zuständigen Steuerbehörde eingereicht werden muss.
-Ergänzend dazu kann es notwendig sein, dass der Schuldner der steuerbaren Leistung am
-Ende des Kalenderjahres bzw. am Ende des Arbeitsverhältnisses die endgültige Steuerbe-
-lastung der quellensteuerpflichtigen Person unter Berücksichtigung des gesamten Jahresein-
-kommens sowie allfälliger Änderungen der beruflichen oder familiären Situation neu berech-
-net (vgl. Ziffer 7.2 oben).
+Pflichten der quellensteuerpflichtigen Person wird auf Ziffer 10.2 unten verwiesen.
+Die vorsätzliche oder fahrlässige Nichtablieferung der Quellensteuer kann zudem den Tatbe-
+stand der Steuerhinterziehung erfüllen (vgl. Art. 175 DBG). Verwendet der Schuldner der
+steuerbaren Leistung abgezogene Quellensteuern zu seinem oder eines andern Nutzen,
+kann ausserdem eine strafbare Veruntreuung von Quellensteuern vorliegen (vgl. Art. 187
+DBG).
+Die abgezogene Quellensteuer ist dem quellensteuerpflichtigen Arbeitnehmer in jeder Lohn-
+abrechnung sowie zusätzlich in Ziffer 12 des Lohnausweises offenzulegen. Massgebend ist
+die „Wegleitung zum Ausfüllen des Lohnausweises“. Zwecks Überprüfung des Quellensteu-
+erabzugs durch die Arbeitnehmer wird den Arbeitgebern zudem empfohlen, in Ziffer 15 des
+Lohnausweises (Bemerkungen) den bzw. die angewendeten Tarifcodes und die entspre-
+chenden Perioden aufzuführen.

@@ -5,15 +5,17 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 34"
-seiten: "13"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 13
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 14
 
-    Der bei eigener Nutzung von anderen Liegenschaften und Räumen 73
-wie ehemaligen, nicht mehr landwirtschaftlich genutzten Scheunen,
-freistehenden Garagen, Sport- und Reithallen und dergleichen anzu-
-rechnende Mietwert soll dem Mietzins entsprechen, den der Pflichtige
-bei Vermietung von einem Dritten erhalten würde.
+77   Die Eigenmietwerte von Gebäuden, die vom Baurechtsnehmer
+    und zu seinem Haushalt gehörenden Personen genutzt werden, wer-
+    den gemäss Ziff. 59 ff. ermittelt.
 
-1. 1. 23 - 119   13
+    II. Baurechtsgeber
+
+78   Für den Baurechtsgeber bilden die kapitalisierten Baurechtszinsen
+    den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung des
+    Basiszinssatzes gemäss Ziff. 41 zu kapitalisieren.

@@ -2,23 +2,20 @@
 id: bund-ks-18a__c0012
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 12"
 seiten: "3"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 3
+> Bund · Steuerjahr 2026 · KS 18a · S. 3
 
-Die Bezeichnungen "gebundene Vorsorgeversicherung" und "gebundene Vorsorgeverein-
-barung" dürfen nur für Vertragsmodelle verwendet werden, die von der ESTV genehmigt
-worden sind. Bei Fehlen dieser Genehmigung ist der Abzug für die entsprechenden Vorsor-
-gebeiträge zu verweigern.
-
-3.   Kreis der Vorsorgenehmer
-Vorsorgeverträge für anerkannte Formen der gebundenen Selbstvorsorge können nur von
-Personen abgeschlossen werden, die ein der AHV/IV/EO-Pflicht unterliegendes Erwerbs-
-oder Erwerbsersatzeinkommen erzielen (nachfolgend: AHV-pflichtiges Einkommen). Auch
-Grenzgänger mit Wohnsitz im Ausland, die für einen Arbeitgeber in der Schweiz arbeiten,
-können eine Säule 3a bilden; dabei ist unwesentlich, ob sie ihre Vorsorgebeiträge in der
-Schweiz zum Abzug bringen können oder nicht.
+Weist der Vorsorgenehmer nach, dass er erwerbstätig ist und ein AHV-pflichtiges Erwerbs-
+einkommen erzielt, kann er bis höchstens fünf Jahre nach Erreichen des Referenzalters ge-
+mäss Artikel 21 Absatz 1 des Bundesgesetzes über die Alters- und Hinterlassenenversiche-
+rung (AHVG; SR 831.10) die eingebrachten Beiträge zum Abzug bringen. Personen, die über
+das Referenzalter gemäss Artikel 21 Absatz 1 AHVG hinaus erwerbstätig sind, können wei-
+terhin Säule 3a-Beiträge leisten. Dies gilt selbst dann, wenn sie ein Einkommen unterhalb
+des Freibetrags gemäss Artikel 6quater der Verordnung vom 31. Oktober 1947 über die Alters-
+und Hinterlassenenversicherung (AHVV; SR 831.101) erzielen (im Zeitpunkt der Publikation
+dieses Kreisschreibens beträgt der Freibetrag CHF 16'800 pro Arbeitgeber). Den Nachweis

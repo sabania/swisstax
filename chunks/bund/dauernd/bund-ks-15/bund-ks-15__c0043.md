@@ -4,15 +4,21 @@ quelle: bund-ks-15
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 15 – Abschnitt 43"
-seiten: "9"
+titel: "Ziff. 4.1–4.2 Kennzeichnung in Kursliste (IUP), Bankbescheinigung (Teil 1/2)"
+ziffer: "4.1–4.2"
+seiten: "13"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 15 · S. 9
+> Bund · Steuerjahr 2025/2026 · KS 15 · 4 Kennzeichnung in der Kursliste · S. 13
 
-Zu a. hievor: Für Instrumente, bei denen die einzelnen Komponenten separat handelbar
-sind und ein Handel effektiv stattfindet, ist als Emissionspreis der Obligation der erste
-Schlusskurs ex-Option massgebend um zu bestimmen, ob eine überwiegende Einmalverzin-
-sung vorliegt oder nicht. Bei überwiegend einmalverzinslichen Papieren ist für die Ermittlung
-des steuerbaren Ertrages bei Handänderungen in der Regel auf die Kurse ex-Option abzu-
-stellen.
+4   Kennzeichnung der Obligationen in der Kursliste der ESTV
+    Mitwirkungs- und Auskunftspflicht der Banken bezüglich der ana-
+    lytischen Ermittlung des steuerbaren Ertrags
+4.1   Kennzeichnung der Obligationen sowie der kombinierten Produkte mit über-
+    wiegender Einmalverzinsung
+Die ESTV (Team Wertschriften und Finanzderivate) wird wie bisher alle in- und ausländi-
+schen an Schweizer Börsen kotierten Obligationen sowie die transparenten kombinierten
+Produkte, die sich als ausschliesslich oder überwiegend einmalverzinslich erweisen, in der
+Kursliste mit der Bezeichnung IUP (= intérêt unique prédominant) kennzeichnen. Sie gibt da-
+mit bekannt, dass diese Papiere nach Artikel 20 Absatz 1 Buchstabe b DBG zu besteuern
+sind (grundsätzlich reine Differenzbesteuerung; vorbehältlich Ziffer 4.2. hienach).

@@ -10,20 +10,19 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 19
 
-<!-- Seite 19 -->
-Bei einer indirekten Umwandlung durch Sacheinlagegründung kann der ausgewiesene Akti-
-venüberschuss der Vermögenswerte in der Handelsbilanz der Kapitalgesellschaft oder Ge-
-nossenschaft steuerneutral als KER ausgewiesen werden, soweit er das Grund- oder
-Stammkapital übersteigt.
+Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
+nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
+liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
+Lasten des Nennwertes der Beteiligungsrechte oder von KER bzw. Ausland-KER der über-
+tragenden Gesellschaft erfolgen.
+
+Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
+tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
 
 b)   Verrechnungssteuer
 
-Die bei einer Umwandlung eines Instituts des öffentlichen Rechts in eine Kapitalgesellschaft
-oder Genossenschaft ausgegebenen Beteiligungsrechte unterliegen nicht der Verrechnungs-
-steuer, da sie zu Lasten des Aktivenüberschusses einer nicht verrechnungssteuerpflichtigen
-Körperschaft begründet werden.
-
-6.3.5. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine Perso-
-    nenunternehmung
-
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Die bei einer Spaltung den Inhabern der Beteiligungsrechte an der übernehmenden Gesell-
+schaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unterliegen nach Artikel 4
+Absatz 1 Buchstabe b VStG der Verrechnungssteuer, soweit sie nicht zu Lasten des Nenn-
+wertes der Beteiligungsrechte oder der KER bzw. Ausland-KER der übertragenden Gesell-
+schaft erfolgen.

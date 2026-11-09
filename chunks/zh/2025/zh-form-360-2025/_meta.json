@@ -1,0 +1,294 @@
+[
+{
+"id": "zh-form-360-2025__c0001",
+"titel": "Berufsauslagen 2025 Person 1 – Kopf und Ziff. 1.1–1.2 Abo, Velo (Codes 201, 202)",
+"pfad": [
+"Berufsauslagen",
+"Person 1",
+"Ziff. 1"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "1.1–1.2",
+"stichworte": [
+"Pendlerabzug",
+"Abonnement",
+"GA",
+"Velo",
+"Fahrrad pauschal CHF 700",
+"Fahrkosten"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "ÖV-Abonnementkosten effektiv; Fahrrad/Kleinmotorrad pauschal CHF 700.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": null,
+"nachher": "zh-form-360-2025__c0002"
+},
+{
+"id": "zh-form-360-2025__c0002",
+"titel": "Ziff. 1.3 Auto/Motorrad Person 1 – CHF -.70 bzw. -.40 pro km (Codes 204, 205), Zwischentotal max. CHF 5'200 / 3'300",
+"pfad": [
+"Berufsauslagen",
+"Person 1",
+"Ziff. 1"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "1.3",
+"stichworte": [
+"Autokosten Arbeitsweg",
+"Kilometerentschädigung",
+"Motorrad",
+"Pendlerabzug Auto",
+"240 Tage",
+"Leasing"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Auto CHF -.70 pro km, Motorrad CHF -.40 pro km, in der Regel begrenzt auf 240 Tage; Zwischentotal max. CHF 5'200 (Staatssteuer) bzw. CHF 3'300 (Bundessteuer).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0001",
+"nachher": "zh-form-360-2025__c0003"
+},
+{
+"id": "zh-form-360-2025__c0003",
+"titel": "Ziff. 2 Mehrkosten der Verpflegung Person 1 (Codes 206, 208, 210)",
+"pfad": [
+"Berufsauslagen",
+"Person 1",
+"Ziff. 2"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "2",
+"stichworte": [
+"Verpflegung",
+"Mittagessen",
+"auswärtige Verpflegung",
+"Schichtarbeit",
+"Nachtarbeit",
+"Kantine"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "CHF 7.50 pro Arbeitstag / CHF 1'600 im Jahr bei verbilligter, CHF 15 / CHF 3'200 bei voller Verpflegung zu Lasten des Arbeitnehmers; Schichtarbeit CHF 15 / CHF 3'200.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0002",
+"nachher": "zh-form-360-2025__c0004"
+},
+{
+"id": "zh-form-360-2025__c0004",
+"titel": "Ziff. 3–5 Übrige Berufskosten, Wochenaufenthalt, Nebenerwerb Person 1 (Codes 212, 213, 2860, 216, 217)",
+"pfad": [
+"Berufsauslagen",
+"Person 1",
+"Ziff. 3–5"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "3–5",
+"stichworte": [
+"Berufskostenpauschale 3%",
+"Wochenaufenthalt",
+"Nebenerwerb",
+"übrige Berufskosten",
+"Berufsauslagen effektiv"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Pauschal 3 % des Nettolohnes, mind. CHF 2'000, höchstens CHF 4'000; Nebenerwerb pauschal 20 %, mind. CHF 800, höchstens CHF 2'400.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0003",
+"nachher": "zh-form-360-2025__c0005"
+},
+{
+"id": "zh-form-360-2025__c0005",
+"titel": "Ziff. 6–7 Total Berufsauslagen (Code 220) Person 1 und Begründung private Motorfahrzeugbenützung",
+"pfad": [
+"Berufsauslagen",
+"Person 1",
+"Ziff. 6–7"
+],
+"seiten": [
+1
+],
+"artikel": null,
+"ziffer": "6–7",
+"stichworte": [
+"Total Berufsauslagen",
+"Geschäftsfahrzeug",
+"privates Motorfahrzeug",
+"Begründung Auto",
+"Arztzeugnis"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Total Berufsauslagen zu übertragen in die Steuererklärung Seite 3, Ziffer 11.1; mit Geschäftsfahrzeug sind keine Fahrkosten abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0004",
+"nachher": "zh-form-360-2025__c0006"
+},
+{
+"id": "zh-form-360-2025__c0006",
+"titel": "Berufsauslagen 2025 Person 2 – Kopf und Ziff. 1.1–1.2 Abo, Velo (Codes 221, 222)",
+"pfad": [
+"Berufsauslagen",
+"Person 2",
+"Ziff. 1"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1.1–1.2",
+"stichworte": [
+"Pendlerabzug",
+"Abonnement",
+"GA",
+"Velo",
+"Fahrrad pauschal CHF 700",
+"Fahrkosten"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "ÖV-Abonnementkosten effektiv; Fahrrad/Kleinmotorrad pauschal CHF 700.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0005",
+"nachher": "zh-form-360-2025__c0007"
+},
+{
+"id": "zh-form-360-2025__c0007",
+"titel": "Ziff. 1.3 Auto/Motorrad Person 2 – CHF -.70 bzw. -.40 pro km (Codes 224, 225), Zwischentotal max. CHF 5'200 / 3'300",
+"pfad": [
+"Berufsauslagen",
+"Person 2",
+"Ziff. 1"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "1.3",
+"stichworte": [
+"Autokosten Arbeitsweg",
+"Kilometerentschädigung",
+"Motorrad",
+"Pendlerabzug Auto",
+"240 Tage",
+"Leasing"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten"
+],
+"zusammenfassung": "Auto CHF -.70 pro km, Motorrad CHF -.40 pro km, in der Regel begrenzt auf 240 Tage; Zwischentotal max. CHF 5'200 (Staatssteuer) bzw. CHF 3'300 (Bundessteuer).",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0006",
+"nachher": "zh-form-360-2025__c0008"
+},
+{
+"id": "zh-form-360-2025__c0008",
+"titel": "Ziff. 2 Mehrkosten der Verpflegung Person 2 (Codes 226, 228, 230)",
+"pfad": [
+"Berufsauslagen",
+"Person 2",
+"Ziff. 2"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "2",
+"stichworte": [
+"Verpflegung",
+"Mittagessen",
+"auswärtige Verpflegung",
+"Schichtarbeit",
+"Nachtarbeit",
+"Kantine"
+],
+"positionen": [
+"abzug.berufskosten.verpflegung"
+],
+"zusammenfassung": "CHF 7.50 pro Arbeitstag / CHF 1'600 im Jahr bei verbilligter, CHF 15 / CHF 3'200 bei voller Verpflegung zu Lasten des Arbeitnehmers; Schichtarbeit CHF 15 / CHF 3'200.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0007",
+"nachher": "zh-form-360-2025__c0009"
+},
+{
+"id": "zh-form-360-2025__c0009",
+"titel": "Ziff. 3–5 Übrige Berufskosten, Wochenaufenthalt, Nebenerwerb Person 2 (Codes 232, 233, 2861, 236, 237)",
+"pfad": [
+"Berufsauslagen",
+"Person 2",
+"Ziff. 3–5"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "3–5",
+"stichworte": [
+"Berufskostenpauschale 3%",
+"Wochenaufenthalt",
+"Nebenerwerb",
+"übrige Berufskosten",
+"Berufsauslagen effektiv"
+],
+"positionen": [
+"abzug.berufskosten.uebrige",
+"abzug.berufskosten.wochenaufenthalt",
+"abzug.berufskosten.nebenerwerb"
+],
+"zusammenfassung": "Pauschal 3 % des Nettolohnes, mind. CHF 2'000, höchstens CHF 4'000; Nebenerwerb pauschal 20 %, mind. CHF 800, höchstens CHF 2'400.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0008",
+"nachher": "zh-form-360-2025__c0010"
+},
+{
+"id": "zh-form-360-2025__c0010",
+"titel": "Ziff. 6–7 Total Berufsauslagen (Code 240) Person 2 und Begründung private Motorfahrzeugbenützung",
+"pfad": [
+"Berufsauslagen",
+"Person 2",
+"Ziff. 6–7"
+],
+"seiten": [
+2
+],
+"artikel": null,
+"ziffer": "6–7",
+"stichworte": [
+"Total Berufsauslagen",
+"Geschäftsfahrzeug",
+"privates Motorfahrzeug",
+"Begründung Auto",
+"Arztzeugnis"
+],
+"positionen": [
+"abzug.berufskosten.fahrkosten",
+"abzug.berufskosten.uebrige"
+],
+"zusammenfassung": "Total Berufsauslagen zu übertragen in die Steuererklärung Seite 3, Ziffer 11.2; mit Geschäftsfahrzeug sind keine Fahrkosten abziehbar.",
+"chunking": "semantisch (Agent-Plan)",
+"vorher": "zh-form-360-2025__c0009",
+"nachher": null
+}
+]

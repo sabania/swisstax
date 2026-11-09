@@ -4,21 +4,24 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 131"
-seiten: "31"
+titel: "Ziff. 14.13 Konkubinat, gemeinsames volljähriges Kind in Ausbildung bei den Eltern, mit Unterhaltszahlungen – Abzüge"
+ziffer: "14.13"
+seiten: "38-39"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.13 · S. 38–39
 
-Das ZGB sieht die Möglichkeit vor, einerseits die elterliche Sorge gemeinsam auf unverheira-
-tete Eltern zu übertragen, andererseits aber die gemeinsame Ausübung der elterlichen Sor-
-ge auch nach der Trennung oder Scheidung der Eltern beizubehalten. Die gemeinsame el-
-terliche Sorge trägt dem Umstand Rechnung, dass heutzutage vermehrt beide Eltern in glei-
-cher Weise zur Übernahme der elterlichen Sorge und der Obhut bereit und in der Lage sind.
+14.13.2   Abzüge
+   Der Elternteil, der die Unterhaltszahlungen leistet, kann den Kinderabzug geltend ma-
+    chen. Leisten beide Elternteile Unterhaltszahlungen, kann der Elternteil mit den höheren
+    finanziellen Leistungen, d.h. in der Regel derjenige mit dem höheren Einkommen, den
 
-Artikel 298a Absatz 1 ZGB bestimmt, dass die Vormundschaftsbehörde auf gemeinsamen
-Antrag der unverheirateten Eltern hin diesen die elterliche Sorge überträgt, wenn folgende
-Bedingungen erfüllt sind: Die gemeinsame elterliche Sorge muss mit dem Kindeswohl ver-
-einbar sein und die Eltern müssen der Vormundschaftsbehörde eine Vereinbarung zur Ge-
-nehmigung unterbreiten, worin sie sich über ihre Anteile an der Betreuung des Kindes und
-über die Verteilung der Kosten für dessen Unterhalt verständigen.
+    Kinderabzug geltend machen. Der andere Elternteil kann den Unterstützungsabzug gel-
+    tend machen, sofern seine Leistungen mindestens in der Höhe des Abzuges erfolgen.
+   Der Elternteil, der den Kinderabzug geltend machen kann, erhält auch den Versiche-
+    rungs- und Sparzinsenabzug für das Kind. Leisten beide Elternteile Unterhaltszahlungen
+    und erfüllen die Voraussetzungen von Artikel 35 Absatz 1 Buchstabe a bzw. Buchstabe b
+    DBG, können beide den Abzug geltend machen, sofern sie nachweisen können, dass sie
+    auch entsprechende abzugsfähige Versicherungsprämien für das Kind geleistet haben.
+    Wenn dieser Nachweis nur einem Elternteil gelingt, so kann nur dieser den Versiche-
+    rungsabzug für das Kind geltend machen.

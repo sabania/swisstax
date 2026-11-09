@@ -5,33 +5,37 @@ jur: zh
 jahre: [2026]
 typ: weisung
 titel: "Weisung 2026 ZH – Abschnitt 31"
-seiten: "15"
+seiten: "14"
 qmd: {metadata: {jur: zh, jahre: [2026], typ: weisung}}
 ---
-> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 15
+> ZH · Steuerjahr 2026 · Weisung 2026 ZH · S. 14
 
-<!-- Seite 15 -->
-C. Liegenschaften im Baurecht
-
-I. Baurechtsnehmer
-
-1. Vermögenssteuerwert
-
-   Ist das Baurechtsgrundstück mit einem Einfamilienhaus oder 75
-Stockwerkeigentum zu Wohnzwecken bzw. mit einer industriellen
-oder gewerblichen Baute überbaut, so bildet der gemäss Ziff. 30 ff.
-bzw. 51 ff. ermittelte Zeitbauwert den Vermögenssteuerwert.
-    Ist das Baurechtsgrundstück mit einem Mehrfamilien- oder Ge- 76
-schäftshaus überbaut, bildet die Differenz zwischen kapitalisiertem
-Ertragswert (Ziff. 38 ff. und 43 f.) und kapitalisierten Baurechtszinsen
-den Vermögenssteuerwert. Der Baurechtszins ist in Anwendung der
-Sätze gemäss Ziff. 42, jeweils vermindert um 2 Prozentpunkte, zu kapi-
-talisieren.
-
-2. Eigenmietwert
-
-   Die Eigenmietwerte von Gebäuden, die vom Baurechtsnehmer 77
-und von zu seinem Haushalt gehörenden Personen genutzt werden,
-werden gemäss Ziff. 59 ff. ermittelt.
-
-II. Baurechtsgeber
+<!-- Seite 14 -->
+71   Üblich sind folgende Ansätze:
+    Branche   durchschnittlicher Mietwert
+    in Prozenten des Umsatzes
+    Lebensmittel / Food / Detailhandel   3,0%
+    Restaurant / Bar / Take-away   9,0%
+    Bäckerei / Confiserie   3,0%
+    Wohnen / Haushalt   13,0%
+    Blumen / Garten / DIY / Bau / Tierbedarf   6,5%
+    Kleider / Mode   8,5%
+    Schuhe   8,0%
+    Uhren / Schmuck   10,0%
+    Lederwaren / Accessoires   10,0%
+    Bücher / Medien / Papeterie   12,0%
+    Mobiltelefonie / Kommunikation / Elektronik   8,0%
+    Spiele / Sport / Hobby   10,0%
+    DL Schlüssel / Schuh / Textil   6,5%
+    Reisebüro   6,5%
+    Arztpraxen   10,0%
+    Zahnarztpraxen   12,0%
+    Therapie (z.B. Physio, Massage usw.)   8,0%
+    Apotheke / Drogerie / Parfums   8,0%
+    Optiker / Hörgeräte   8,0%
+    Fitness / Wellness   8,0%
+    DL Coiffeur / Körperpflege   6,5%
+    DL Finanzen / Bank / Post   6,5%
+72   Für Räume, die übungsgemäss nach einem Einheitssatz pro Qua-
+    dratmeter Nutzfläche (ohne Treppenhäuser und WC) vermietet wer-
+    den, bestimmen sich die Mietwerte entsprechend.

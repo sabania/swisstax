@@ -5,15 +5,16 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 118"
-seiten: "31"
+seiten: "30"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 31
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 30
 
-    Berechnung steuerbarer Bonus Vorjahr:
-    Total Arbeitstage Vorjahr:   240 Tage
-    Arbeitstage Schweiz Vorjahr:   240 Tage – 40 Tage = 200 Tage
-    Massgebendes Ausscheidungsverhältnis:   200 CH-Arbeitstage zum Total von 240 Arbeitstagen
-    Steuerbares Einkommen:   CHF 30 000.00 / 240 x 200 = CHF 25 000.00
-    Total steuerbar April 2021:   CHF 33 000.00 (CHF 8 000 + CHF 25 000)
-    Satzbestimmendes Einkommen April 2021:   CHF 40 000.00 (CHF 10 000 + CHF 30 000)
+serhalb der Schweiz ausgeübt wurde. Bezahlte Abwesenheitstage, an welchen keine Ar-
+beitsleistung zu erbringen ist (insb. Ferientage, Krankheitstage), unterliegen nicht der Steuer-
+ausscheidung. Die für die Quellenbesteuerung massgebenden schweizerischen Arbeitstage
+sind dabei in der Regel durch Subtraktion der ausländischen Arbeitstage vom Total von 20
+Arbeitstagen pro Monat bzw. vom Total von 240 Arbeitstagen pro Jahr zu ermitteln. Als aus-
+ländischer Arbeitstag gilt dabei jeder Arbeitstag ausserhalb der Schweiz sowie alle Hin- und
+Rückreisetage, an denen der Arbeitnehmer ausschliesslich oder zur Hauptsache im Ausland
+gearbeitet hat.

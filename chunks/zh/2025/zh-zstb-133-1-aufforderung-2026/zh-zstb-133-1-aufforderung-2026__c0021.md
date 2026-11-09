@@ -10,17 +10,19 @@ qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
 > ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 6
 
-<!-- Seite 6 -->
-F. Rückerstattung der eidgenössischen Verrechnungssteuer
-Natürliche Personen beantragen die Rückerstattung der Verrechnungssteuer zusammen mit der
-Steuererklärung (Formular Wertschriften- und Guthabenverzeichnis mit Verrechnungsantrag).
-Der Anspruch auf Rückerstattung erlischt, wenn er nicht innert dreier Jahre nach Ablauf des
-Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt wird.
-Juristische Personen sowie Kollektiv- und Kommanditgesellschaften verlangen die
-Rückerstattung der Verrechnungssteuer bei der eidgenössischen Steuerverwaltung in Bern, wo
-besondere Formulare erhältlich sind.
-
-G. Rückerstattung oder Anrechnung ausländischer
-Quellensteuern
-
-I. Zusätzlicher Steuerrückbehalt USA
+H. Schenkungssteuer
+Natürliche und juristische Personen, die Schenkungen erhalten, schulden eine
+Schenkungssteuer. Als Schenkung gelten alle unentgeltlichen Zuwendungen, mit Einschluss von
+Vorbezügen auf Anrechnung an den Erbteil.
+Die Steuerpflicht im Kanton Zürich ist gegeben, wenn die Schenkerin oder der Schenker im
+Kanton Wohnsitz hat oder eine im Kanton Zürich gelegene Liegenschaft Gegenstand der
+Schenkung ist.
+Steuererklärungen für die Schenkungssteuer sind bei der Abteilung Nachlass des Kantonalen
+Steueramtes Zürich oder unter www.zh.ch/steueramt zu beziehen und innert drei Monaten nach
+Vollzug der Schenkung dieser Amtsstelle einzureichen.
+Von der Einreichung einer besonderen Schenkungssteuererklärung kann nur abgesehen werden:
+•   bei Schenkungen an die Ehegattin oder den Ehegatten oder an die nach dem
+    Partnerschaftsgesetz des Bundes eingetragenen Partnerinnen oder Partner;
+•   bei Schenkungen an einen Nachkommen;
+•   bei Gelegenheitsgeschenken, die den Wert von je Fr. 5'000.- nicht übersteigen.
+Bei solchen Zuwendungen fällt keine Erbschafts- oder Schenkungssteuer an.

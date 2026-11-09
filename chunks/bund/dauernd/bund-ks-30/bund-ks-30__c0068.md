@@ -4,25 +4,23 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 68"
-seiten: "15"
+titel: "Ziff. 11 Unterstützungsabzug – Voraussetzungen (Teil 2/3)"
+ziffer: "11"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 15
+> Bund · Steuerjahr 2025/2026 · KS 30 · 11 Unterstützungsabzug · S. 21
 
-Bei getrennten, geschiedenen oder unverheirateten Eltern kann grundsätzlich derjenige El-
-ternteil, welcher mit dem Kind zusammenlebt und einer Erwerbstätigkeit nachgeht, erwerbs-
-unfähig und gleichzeitig betreuungsunfähig ist oder sich in Ausbildung befindet, die Kinder-
-drittbetreuungskosten in Abzug bringen. Dies ist in der Regel der Elternteil, der die elterliche
-Sorge (allein oder gemeinsam) innehält und die Unterhaltszahlungen für das Kind gemäss
-Artikel 23 Buchstabe f DBG erhält.
-
-Befindet sich das Kind in alternierender Obhut, kann jeder Elternteil maximal 5'050 Franken
-der nachgewiesenen Kosten für die Kinderdrittbetreuung in Abzug bringen. Es besteht auch
-hier die Möglichkeit, dass die Eltern eine andere Aufteilung beantragen (es gelten für diesen
-Fall ebenfalls die Ausführungen unter Ziff. 8.4.3).
-
-Jeder Elternteil kann nur jene Kosten geltend machen, die während der Dauer seiner Obhut-
-spflicht für die Drittbetreuung entstanden sind.
-
-8.5   Abzugsfähige Kosten
+Voraussetzung für die Gewährung des Abzugs ist, dass die unterstützte Person aus objekti-
+ven Gründen ihren Lebensunterhalt vorübergehend oder dauernd nicht selber bestreiten
+kann. Dies ist erfüllt, wenn es einer Person unabhängig von ihrem Willen nicht möglich oder
+nur beschränkt möglich ist, selber einer Erwerbstätigkeit nachzugehen. Der Abzug kann
+auch bei Personen gewährt werden, die an sich zwar erwerbsfähig sind, aufgrund ihrer Ar-
+beitslosigkeit oder als alleinerziehende Eltern mit vorschulpflichtigen Kindern aber kein aus-
+reichendes Erwerbseinkommen erzielen und daher unterstützungsbedürftig sind. Keine Un-
+terstützungsbedürftigkeit liegt hingegen vor, wenn die unterstützte Person freiwillig bzw. oh-
+ne zwingenden Grund darauf verzichtet, ein genügendes Einkommen zu erzielen. Die Unter-
+haltsleistungen müssen zudem unentgeltlich sein bzw. ohne Gegenleistung erfolgen. Stehen
+den Unterhaltsleistungen wirtschaftlich messbare Leistungen des Leistungsempfängers ge-
+genüber, wie etwa die Besorgung des Haushaltes, liegen keine Unterhaltsbeiträge im Sinne
+von Artikel 35 Absatz 1 Buchstabe b DBG vor.

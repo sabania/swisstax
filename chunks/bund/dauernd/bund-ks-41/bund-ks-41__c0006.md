@@ -10,13 +10,17 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 41 · S. 2
 
-Das Freizügigkeitsgesetz regelt im Rahmen der beruflichen Vorsorge die Ansprüche der ver-
-sicherten Person im Freizügigkeitsfall. Der Freizügigkeitsfall tritt ein, wenn die versicherte
-Person die Vorsorgeeinrichtung verlässt, bevor ein Vorsorgefall eingetreten ist (Art. 2 Abs. 1
-FZG). In diesem Fall hat die versicherte Person Anspruch auf eine Austrittsleistung. Die
-Freizügigkeitsverordnung regelt insbesondere den Erhalt des Vorsorgeschutzes, wenn die
-versicherte Person aus der bisherigen Vorsorgeeinrichtung austritt und nicht unmittelbar in
-eine neue eintritt. Der Vorsorgeschutz wird im Freizügigkeitsfall durch eine Freizügigkeitspo-
-lice oder durch ein Freizügigkeitskonto erhalten, wobei die versicherte Person die Austritts-
-leistung maximal an zwei Freizügigkeitseinrichtungen übertragen lassen darf (Art. 12 Abs. 1
-FZV).
+<!-- Seite 2 -->
+keit in der beruflichen Alters-, Hinterlassenen- und Invalidenvorsorge [Freizügigkeitsverord-
+nung FZV; SR 831.425]) erläutert. Die Ausführungen zu Ehegatten gelten in analoger Weise
+jeweils auch für Partner oder Partnerinnen einer eingetragener Partnerschaft (Art. 22d FZG).
+
+Verschiedene Gesetzesänderungen sowie die Rechtsprechung haben eine Überarbeitung
+des Kreisschreibens Nr. 22 der Eidgenössischen Steuerverwaltung (ESTV) vom 4. Mai 1995
+nötig gemacht. Das vorliegende Kreisschreiben ersetzt somit das Kreisschreiben Nr. 22 der
+ESTV vom 4. Mai 1995 über die Freizügigkeit in der beruflichen Alters-, Hinterlassenen- und
+Invalidenvorsorge und tritt mit seiner Publikation in Kraft.
+
+2.   Freizügigkeit
+
+2.1. Zweck und Inhalt

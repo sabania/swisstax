@@ -5,16 +5,13 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 75"
-seiten: "29"
+seiten: "31"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 29
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 31
 
-<!-- Seite 29 -->
-Bewertung von Liegenschaften, Festsetzung der Eigenmietwerte   631.32
-Wohnbauland
+Trüllikon   5   290   260   230   200   160   –   –
+Truttikon   5   240   230   210   200   180   –   –
+Volken   3   240   210   170   –   –   –   –
 
-Unbebaute Grundstücke
-    Einfamilienhäuser (Ziff. 13)
-    Anzahl
-Gemeinde   Klassen   LK 1   LK 2   LK 3   LK 4   LK 5   LK 6   LK 7
+1. 1. 23 - 119   31

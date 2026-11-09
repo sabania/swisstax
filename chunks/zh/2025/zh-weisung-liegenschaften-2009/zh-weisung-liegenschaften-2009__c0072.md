@@ -5,9 +5,11 @@ jur: zh
 jahre: [2025]
 typ: weisung
 titel: "Weisung 2009 ZH – Abschnitt 72"
-seiten: "27"
+seiten: "30"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: weisung}}
 ---
-> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 27
+> ZH · Steuerjahr 2025 · Weisung 2009 ZH · S. 30
 
-1. 1. 23 - 119   27
+Trüllikon   5   490   440   380   330   270   –   –
+Truttikon   5   400   380   360   340   310   –   –
+Volken   3   400   350   290   –   –   –   –

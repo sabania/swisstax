@@ -5,13 +5,16 @@ jur: zh
 jahre: [2025]
 typ: praxis
 titel: "ZStB 133.1 (Aufforderung 2026) – Abschnitt 8"
-seiten: "2"
+seiten: "3"
 qmd: {metadata: {jur: zh, jahre: [2025], typ: praxis}}
 ---
-> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 2
+> ZH · Steuerjahr 2025 · ZStB 133.1 (Aufforderung 2026) · S. 3
 
-3. Frist zur Abgabe der Steuererklärung
-
-Die Steuererklärung ist, zusammen mit den erforderlichen Beilagen gemäss § 134 StG, innert 30
-Tagen nach Zustellung der Formulare online (www.zh.ch/steuererklaerung) oder dem Scan-
-Center einzureichen. Im Todesfall beträgt die Frist 60 Tage.
+quellensteuerpflichtige Personen, die über steuerbares Vermögen von mindestens Fr. 80'000.-
+(Einzelperson) bzw. Fr. 160'000.- (gemeinsam Steuerpflichtige) oder über Einkünfte von
+mindestens Fr. 3'000.- verfügen, die nicht der Quellensteuer unterliegen.
+Ebenfalls der nachträglichen ordentlichen Veranlagung unterliegen im Kanton Zürich wohnhafte
+quellensteuerpflichtige Personen, die einen gültigen Antrag auf nachträgliche ordentliche
+Veranlagung eingereicht haben.
+Demzufolge haben Quellensteuerpflichtige, bei denen die oben erwähnten Voraussetzungen für
+eine nachträgliche ordentliche Veranlagung erfüllt sind, eine Steuererklärung 2025 einzureichen.

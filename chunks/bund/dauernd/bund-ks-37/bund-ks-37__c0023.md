@@ -10,12 +10,15 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 37 · S. 5
 
-2.3.1.3 Anwartschaften auf Mitarbeiteraktien
-Anwartschaften auf Mitarbeiteraktien stellen dem Mitarbeitenden in Aussicht, in einem späte-
-ren Zeitpunkt eine bestimmte Anzahl Aktien entweder unentgeltlich oder zu Vorzugsbedin-
-gungen erwerben zu können. Die Übertragung der Aktien wird dabei in der Regel von Bedin-
-gungen abhängig gemacht, wie beispielsweise vom Bestehen eines Arbeitsverhältnisses.
-Mithin enthalten Anwartschaften auf Mitarbeiteraktien eine Entschädigung für künftige Leis-
-tungen, weshalb sie den echten Mitarbeiteroptionen gleichgestellt werden können (vgl.
-hierzu auch Ziff. 2.3.1 hievor). Restricted Stock Units (RSU) sind typische Anwendungsfälle
-solcher Anwartschaften.
+2.3.2 Unechte Mitarbeiterbeteiligungen
+Als unechte Mitarbeiterbeteiligungen gelten eigenkapital- bzw. aktienkursbezogene Anreiz-
+systeme, welche dem Mitarbeitenden im Ergebnis keine Beteiligung am Eigenkapital des Ar-
+beitgebers, sondern in der Regel nur eine Geldleistung in Aussicht stellen, welche sich an
+der Wertentwicklung des Basistitels bestimmt. Weil diese Instrumente dem Mitarbeitenden
+regelmässig keine weiteren Rechte wie Stimm- und Dividendenrechte einräumen, gelten die
+unechten Mitarbeiterbeteiligungen bis zu ihrer Realisation steuerlich als blosse Anwartschaf-
+ten.
+
+Als häufigste Formen unechter Mitarbeiterbeteiligungen gelten die sog. Phantom Stocks
+(synthetische Aktien) und die sog. Stock Appreciation Rights (synthetische Optionen) sowie
+Formen von Co-Investments.

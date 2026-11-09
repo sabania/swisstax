@@ -82,7 +82,7 @@
 "titel": "StB 39 Nr. 1 – Abschnitt 6",
 "pfad": [],
 "seiten": [
-1
+2
 ],
 "artikel": null,
 "ziffer": null,
@@ -107,22 +107,6 @@
 "zusammenfassung": null,
 "chunking": "seiten (Fallback)",
 "vorher": "sg-stb-39-1__c0006",
-"nachher": "sg-stb-39-1__c0008"
-},
-{
-"id": "sg-stb-39-1__c0008",
-"titel": "StB 39 Nr. 1 – Abschnitt 8",
-"pfad": [],
-"seiten": [
-2
-],
-"artikel": null,
-"ziffer": null,
-"stichworte": null,
-"positionen": null,
-"zusammenfassung": null,
-"chunking": "seiten (Fallback)",
-"vorher": "sg-stb-39-1__c0007",
 "nachher": null
 }
 ]

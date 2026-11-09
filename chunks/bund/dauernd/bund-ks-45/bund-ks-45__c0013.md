@@ -5,16 +5,18 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 13"
-seiten: "2"
+seiten: "3"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 3
 
-8.4   Wechsel von einem Kanton mit Jahresmodell zu einem anderen Kanton mit
-    Jahresmodell ............................................................................................................ 56
-8.5   Wechsel von einem Kanton mit Monatsmodell zu einem anderen Kanton mit
-    Monatsmodell ........................................................................................................... 57
-9   Pflichten des Schuldners der steuerbaren Leistung .............................................. 58
-9.1   Allgemeines .............................................................................................................. 58
-9.2   Anmeldung und Mutationen quellensteuerpflichtiger Arbeitnehmer .................... 58
-9.3   Quellensteuerabrechnung und Quellensteuerablieferung..................................... 59
+<!-- Seite 3 -->
+9.3.1 Quellensteuerabrechnung bei Kantonen mit Monatsmodell ........................................ 59
+9.3.2 Quellensteuerablieferung bei Kantonen mit Monatsmodell ......................................... 60
+9.3.3 Quellensteuerabrechnung bei Kantonen mit Jahresmodell ......................................... 60
+9.3.4 Quellensteuerablieferung bei Kantonen mit Jahresmodell .......................................... 60
+9.4   Abrechnungskorrekturen ......................................................................................... 60
+9.5   Anspruchsberechtigter Kanton ............................................................................... 61
+9.6   Verletzung von Verfahrenspflichten ........................................................................ 62
+10   Rechte und Pflichten des quellensteuerpflichtigen Arbeitnehmers ..................... 63
+10.1 Rechte des quellensteuerpflichtigen Arbeitnehmers ............................................. 63

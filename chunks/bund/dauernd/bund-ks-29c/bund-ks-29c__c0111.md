@@ -10,22 +10,12 @@ qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
 > Bund · Steuerjahr 2025/2026 · KS 29c · S. 37
 
-<!-- Seite 37 -->
-Anhang 5: Beispiel Änderung Aktienkapital in eine für die Geschäftstätigkeit
-wesentliche ausländische Währung
-
-Eine Kapitalgesellschaft mit bisheriger Buchführung in funktionaler Währung USD zeigt am
-Stichtag der Umstellung des Aktienkapitals in USD (1. Januar 2023) folgende Bestände an
-Reserven aus Kapitaleinlagen:
-
-    Datum   Einzlg.   Rückzlg.   Bestand   Kurs   Einzlg.   Rückzlg.   Bestand
-
-    Werte funktionale Währung USD   Bestätigte KER in CHF
-
- 01.07.1998   200'000   200'000   1.45   290'000   290'000
-
- 01.07.2019   70'000   130'000   0.99   69'300   220'700
-
- 01.01.2023   245'222   0.90
-
-Erklärungen:
+Da die Kapitalgesellschaft ihr Aktienkapital auf den Beginn des Geschäftsjahrs 2023 in USD
+ändert, ist der Bestand der von der ESTV bestätigten KER zum Kurs nach Artikel 621 Absatz
+3 OR (hier 0.90) umzurechnen. Der so errechnete Bestand an KER von USD 245’222 ist der
+ESTV zu melden und wird durch diese als neuer Bestand in USD bestätigt und geführt. Die
+Kapitalgesellschaft weist die KER von USD 245’222 in ihrer Handelsbilanz als gesetzliche
+oder freie Kapitalreserven aus. In der Folge wird die gewinnsteuerunwirksame Wertdifferenz
+von vorliegend USD 115’522 handelsrechtlich in USD dem Gewinnvortrag oder den freien
+Gewinnreserven belastet. Ergibt sich jedoch ein Umrechnungsverlust, ist dieser handels-
+rechtlich dem Verlustvortrag oder den freien Gewinnreserven gutzuschreiben.

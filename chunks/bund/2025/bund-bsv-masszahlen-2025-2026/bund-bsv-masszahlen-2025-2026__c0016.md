@@ -5,31 +5,14 @@ jur: bund
 jahre: [2025, 2026]
 typ: info
 titel: "BSV Masszahlen 25/26 – Abschnitt 16"
-seiten: "3"
+seiten: "4"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: info}}
 ---
-> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 3
+> Bund · Steuerjahr 2025/2026 · BSV Masszahlen 25/26 · S. 4
 
-    Zurück
+    * Die nachfolgende Anpassung der BVG-Risikorenten geschieht gleichzeitig mit der An-
+    passung der AHV-Renten, welche in diesem Jahr nicht stattgefunden hat.
+    - Keine Anpassung der BVG-Risikorenten, weil der Preisindex seit der erstmaligen Auszahlung
+    bzw. der letzten Anpassung nicht gestiegen ist.
 
-3.   BVG-Mindestzinssatz in Prozent (Zeitreihe)
-
-    Jahr   BVG-
-    Mindestzinssatz
-    (in Prozent)
-
-    1985-2002   4,00
-    2003   3,25
-    2004   2,25
-    2005-2007   2,50
-    2008   2,75
-    2009-2011   2,00
-    2012-2013   1,50
-    2014-2015   1,75
-    2016   1,25
-    2017-2023   1,00
-    2024-2026   1,25
-
-    Zurück
-
-    © 2026 by BSV/MAS/Math/Marie-Claude Sommer/Bern-CH   3
+    © 2026 by BSV/MAS/Math/Marie-Claude Sommer/Bern-CH   4

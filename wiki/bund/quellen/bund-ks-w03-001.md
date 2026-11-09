@@ -12,6 +12,10 @@ generiert: tools/build_index.py
 - **Original:** <https://www.estv.admin.ch/dam/de/sd-web/HDKOHBk6rvRZ/dbst-ks-w03-001-de.pdf> · lokal: [bund-ks-w03-001.pdf](../../../raw/bund/dauernd/bund-ks-w03-001.pdf) · Volltext: [bund-ks-w03-001.md](../../../sources/bund/dauernd/bund-ks-w03-001.md)
 - **Abgerufen:** 2026-11-09 · sha256 `2511eba406699de9…`
 
+## Hinweise zur Quelle (aus dem Chunking)
+
+- Seite 1: Briefkopf und Adressat vor dem Text; trilingualer Kopf (nur Deutsch relevant). Beispiele im Anhang gut extrahiert.
+
 ## Inhalt (25 Chunks)
 
 | Chunk | Titel | Seiten/Artikel | Kurzfassung |

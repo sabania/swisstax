@@ -5,17 +5,19 @@ jur: bund
 jahre: [2026]
 typ: wegleitung
 titel: "WL Lohnausweis 2026 – Abschnitt 55"
-seiten: "17"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2026], typ: wegleitung}}
 ---
-> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 17
+> Bund · Steuerjahr 2026 · WL Lohnausweis 2026 · S. 18
 
-Genehmigtes Spesenreglement: Arbeitgeber, welche die Spesen nicht nur effektiv gemäss   59
-Rz. 52 vergüten, können Rechtssicherheit für ihre Mitarbeitenden in einem genehmigten
-Spesenreglement erlangen. Ein Gesuch um Genehmigung eines Spesenreglements kann
-bei der Steuerbehörde des Sitzkantons gestellt werden. Es empfiehlt sich, Spesenregle
-mente inhaltlich nach den Mustervorlagen der Schweizerischen Steuerkonferenz aufzu
-bauen. Die Genehmigung durch den Sitzkanton umfasst sowohl die Festsetzung der effekti
-ven als auch der pauschalen Spesenvergütungen. Im Lohnausweis sind bei Vorliegen eines
+Beiträge des Arbeitgebers für die berufsorientierte Aus- und Weiterbil   Ziffer 13.3
+dung – einschliesslich Umschulungskosten
+In diesem Feld sind alle effektiven Vergütungen des Arbeitgebers für berufsorientierte Aus-   61
+und Weiterbildung – einschliesslich Umschulungskosten – eines Arbeitnehmers anzugeben,
+die dem Arbeitnehmer vergütet werden. Nicht anzugeben sind Vergütungen, die direkt an
+Dritte (z. B. Bildungsinstitut) bezahlt werden.
 
-    ESTV   Seite 17 / 25
+Immer zu bescheinigen sind jedoch effektive Vergütungen für Rechnungen, die auf den Na
+men des Arbeitnehmers ausgestellt sind.
+
+Weitere Gehaltsnebenleistungen   Ziffer 14

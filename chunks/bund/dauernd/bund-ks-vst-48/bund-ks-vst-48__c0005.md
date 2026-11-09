@@ -5,10 +5,12 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS VST 48 – Abschnitt 5"
-seiten: "2"
+seiten: "1"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 2
+> Bund · Steuerjahr 2025/2026 · KS VST 48 · S. 1
 
-<!-- Seite 2 -->
-1   Allgemeines
+    Eidgenössische Steuerverwaltung ESTV
+    Eigerstrasse 65
+    3003 Bern
+    www.estv.admin.ch

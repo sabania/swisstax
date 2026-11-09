@@ -5,21 +5,29 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 131"
-seiten: "34"
+seiten: "33"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 34
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 33
 
-6.11 Ersatzeinkünfte, die nicht über den Arbeitgeber ausbezahlt werden
-Ersatzeinkünfte (Taggelder, Renten usw.), welche beispielsweise von einer Versicherung,
-Ausgleichskasse, Arbeitslosenkasse (Leistungserbringer) direkt an den Leistungsempfänger
-(Arbeitnehmer) ausbezahlt werden, sind durch den Leistungserbringer mit dem Tarifcode G
-bzw. für Grenzgänger aus Deutschland mit dem Tarifcode Q an der Quelle zu besteuern (vgl.
-Art. 1 Abs. 1 Bst. g QStV).
-Wird neben dem Ersatzeinkommen weiteres Erwerbseinkommen erzielt, sind das Ersatz-
-und das Erwerbseinkommen für den Steuersatz umzurechnen (vgl. Ziffer 6.4 oben). Bei Er-
-satzeinkünften, die nach Massgabe des versicherten Verdienstes ausgerichtet werden, gilt
-dieser als satzbestimmendes Einkommen.
-Für die Quellenbesteuerung der Ersatzeinkünfte, insbesondere zu deren Definition im inter-
-nationalen Verhältnis, wird auf das jeweils gültige «Merkblatt der ESTV über die Quellenbe-
-steuerung von Ersatzeinkünften» verwiesen.
+    Leistungen   steuerbar   Satz   satzbestimmend
+
+    Bruttolohn (Nov. 2021)   8 000   15,0 %   8 000
+
+    Bonus (Apr. 2022)   10 500   27,0 %   23 000
+
+    Quellensteuern bezahlt November 2021   1 200
+
+    Quellensteuern geschuldet April 2022   2 835
+
+    3. Besteuerung einer Bonuszahlung an einen Grenzgänger aus Deutschland:
+    Der Arbeitnehmer W. tritt per 30. November 2021 aus der Unternehmung X. aus. W. qualifiziert als Grenz-
+    gänger im Sinne von Artikel 15a DBA-D. Die letzte Lohnzahlung im November 2021 beläuft sich auf
+    CHF 8 000.00 und wurde mit einem Satz von 4.5 % an der Quelle besteuert. Im April des Folgejahres er-
+    hält er einen Bonus von CHF 21 000.00, welcher von der Geschäftsleitung der Unternehmung X. im April
+    2022 beschlossen wurde. Dieser Bonus ist separat im Auszahlungsmonat (April 2022) steuerpflichtig, da
+    der Rechtsanspruch in diesem Monat entstanden ist (Beschluss Geschäftsleitung Unternehmung X.). Es
+    hat keine Satzkorrektur auf dem letzten Arbeitsmonat (November 2021) zu erfolgen. Die Unternehmung X.
+    hat keine Kenntnis über die aktuellen Einkommensverhältnisse von W. Da der Arbeitnehmer W. in der Ver-
+    dienstperiode (2021) Grenzgänger im Sinne von Artikel 15a DBA-D war, ist der Bonus zum Steuersatz von
+    maximal 4.5 % an der Quelle zu besteuern.

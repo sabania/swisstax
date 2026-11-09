@@ -5,26 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 55"
-seiten: "17"
+seiten: "18"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 17
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 18
 
-Werden im Rahmen einer Quasifusion Beteiligungsrechte in eine Kapitalgesellschaft oder
-Genossenschaft eingebracht, qualifiziert die gesamte Sacheinlage als offene Kapitaleinlage.
-Der die Erhöhung des Grund- oder Stammkapitals übersteigende Teil dieser offenen Kapital-
-einlage kann in der Handelsbilanz als KER bzw. Ausland-KER ausgewiesen werden. Dabei
-ist aber die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu be-
-achten (vgl. Ziff. 4.2.5. hiervor).
+<!-- Seite 18 -->
+6.3.2. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein,
+    in eine Stiftung oder eine übrige juristische Person
+
+a)   Direkte Bundessteuer (Einkommenssteuer)
+
+Die Umwandlung kommt steuerlich einer Liquidation gleich. Der Liquidationsüberschuss
+(Verkehrswert des Aktivenüberschusses abzüglich des Nennwertes und der KER bzw. Aus-
+land-KER) unterliegt bei den bisher beteiligten natürlichen Personen der Einkommenssteuer.
 
 b)   Verrechnungssteuer
 
-Mit Ausnahme der Transponierung ergeben sich die gleichen Steuerfolgen wie bei der direk-
-ten Bundessteuer. Erfolgt die Einbringung einer Beteiligung an einer inländischen Kapitalge-
-sellschaft oder Genossenschaft durch einen Aktionär mit Sitz/Wohnsitz im Ausland ist der
-Vorgang unter dem Aspekt von Artikel 21 Absatz 2 VStG (Steuerumgehung) zu prüfen.
+Die Umwandlung einer Kapitalgesellschaft oder Genossenschaft in einen Verein, in eine Stif-
+tung oder in eine übrige juristische Person kommt steuerlich einer Liquidation gleich. Auf
+dem Liquidationsüberschuss (Verkehrswert des Aktivenüberschusses abzüglich des Nenn-
+wertes und der KER bzw. Ausland-KER) ist die Verrechnungssteuer geschuldet.
 
-6.3.   Umwandlung
-
-6.3.1. Umwandlung einer Kapitalgesellschaft oder Genossenschaft in eine andere
-    Kapitalgesellschaft oder Genossenschaft
+6.3.3. Umwandlung eines Vereins, einer Stiftung oder einer übrigen juristischen Per-
+    son in eine Kapitalgesellschaft oder Genossenschaft

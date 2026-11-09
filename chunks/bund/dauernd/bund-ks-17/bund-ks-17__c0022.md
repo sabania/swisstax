@@ -5,20 +5,27 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 17 – Abschnitt 22"
-seiten: "6"
+seiten: "7"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 17 · S. 6
+> Bund · Steuerjahr 2025/2026 · KS 17 · S. 7
 
-Das Scheidungsrecht gibt jedem Ehegatten einen Anspruch an der Hälfte der vom anderen
-Ehegatten während der Ehe erworbenen Austrittsleistung aus Einrichtungen der beruflichen
-Vorsorge. Ist während der Ehe ein Vorbezug zum Erwerb von Wohneigentum erfolgt, ist die-
-ser Betrag in die Auseinandersetzung miteinzubeziehen. Die Vorsorgeeinrichtung hat nach
-der Ehescheidung dem verpflichteten Ehegatten die Möglichkeit zu geben, sich im Rahmen
-der übertragenen Austrittsleistung wieder einkaufen zu können (vgl. Art. 79b Abs. 4 BVG in
-Verbindung mit Artikel 22c des Bundesgesetzes über die Freizügigkeit in der beruflichen
-Alters-, Hinterlassenen- und Invalidenvorsorge [FZG; SR 831.42]). Die Bestimmungen über
-die Scheidung sind gemäss Artikel 22d FZG bei gerichtlicher Auflösung einer eingetragenen
-Partnerschaft sinngemäss anwendbar.
+<!-- Seite 7 -->
+sprechenden Prämien richten sich nach den jeweiligen Vorsorgeformen (Art. 33 Abs. 1 Bst.
+e bzw. Bst. g DBG).
 
-2.4.   Zusatzversicherung
+3.   Verkauf des mit einem WEF-Vorbezug finanzierten Eigenheims
+
+3.1. Kauf eines neuen Eigenheims innerhalb von zwei Jahren
+
+Verkauft eine versicherte Person ihr Wohneigentum und kauft sie in den zwei darauf folgen-
+den Jahren mit dem Erlös wieder ein Eigenheim, so kann der dem Vorbezug entsprechende
+Verkaufserlös vorübergehend auf ein Freizügigkeitskonto überwiesen werden, auf welchem
+Zinsen generiert werden. Dieses Geld kann innerhalb von zwei Jahren in neues Wohneigen-
+tum investiert werden (Art. 30d Abs. 4 BVG). Die Überweisung auf ein Freizügigkeitskonto
+(„Wartekonto“) zeitigt keine steuerlichen Wirkungen, da keine Rückzahlung des Vorbezugs
+erfolgt. Diese Lösung verhindert die Rückerstattung der bezogenen Steuer bei der Überwei-
+sung auf ein Freizügigkeitskonto gefolgt von einer neuen Besteuerung beim erneuten Kauf
+von Wohneigentum. Bei Reinvestition in ein Eigenheim verlassen jedoch die Zinsen, welche
+noch nie besteuert wurden, den Vorsorgebereich, indem sie vom Freizügigkeitskonto auf
+das Wohneigentum übertragen werden. Diese Zinsen unterliegen als Vorsorgekapital der

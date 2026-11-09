@@ -2,16 +2,19 @@
 id: bund-ks-18a__c0043
 quelle: bund-ks-18a
 jur: bund
-jahre: [2025, 2026]
+jahre: [2026]
 typ: kreisschreiben
 titel: "KS 18a – Abschnitt 43"
-seiten: "9"
-qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
+seiten: "10"
+qmd: {metadata: {jur: bund, jahre: [2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 18a · S. 9
+> Bund · Steuerjahr 2026 · KS 18a · S. 10
 
-b)   Vorbezug im Rahmen der Wohneigentumsförderung (WEF)
-Gemäss Artikel 3 Absatz 3 BVV 3 kann die Altersleistung aus der gebundenen Selbstvor-
-sorge ferner für den Erwerb und die Erstellung von Wohneigentum zum Eigenbedarf, als Be-
-teiligung an Wohneigentum zum Eigenbedarf sowie für die Amortisation von Hypothekardar-
-lehen ausgerichtet werden. Ein Vorbezug kann alle fünf Jahre geltend gemacht werden. Eine
+c)   Barauszahlung infolge Aufnahme einer selbständigen Erwerbstätigkeit
+    oder bei Wechsel der selbständigen Erwerbstätigkeit
+Die Barauszahlung von Vorsorgeguthaben der gebundenen Selbstvorsorge infolge Auf-
+nahme einer selbständigen Erwerbstätigkeit in der Schweiz oder bei Aufgabe der bisherigen
+und Aufnahme einer andersartigen selbständigen Erwerbstätigkeit (vgl. Art. 3 Abs. 2 Bst. c
+und d BVV 3) in der Schweiz ist nur innerhalb eines Jahres seit der Aufnahme derselben
+möglich. Zudem muss bei Auflösung des Vorsorgeverhältnisses das gesamte Vorsorgegut-
+haben bezogen werden; ein Teilbezug ist nicht zulässig.

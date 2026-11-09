@@ -4,23 +4,17 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 114"
-seiten: "26"
+titel: "Ziff. 14.6 Konkubinat (1 Haushalt), gemeinsames minderjähriges Kind, ohne gemeinsame Sorge, keine Unterhaltszahlungen – Tarife"
+ziffer: "14.6"
+seiten: "34"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 26
+> Bund · Steuerjahr 2025/2026 · KS 30 · 14 Familienkonstellationen › 14.6 · S. 34
 
-Artikel 36 DBG gibt keine Auskunft darüber, welcher Zeitpunkt für die Bestimmung des an-
-zuwendenden Tarifs massgebend ist. Aufgrund des engen Zusammenhangs zwischen Steu-
-ertarifen und Sozialabzügen ist das für die Sozialabzüge geltende Stichtagsprinzip gemäss
-Artikel 35 Absatz 2 DBG anzuwenden. Die Voraussetzungen für die Anwendbarkeit des El-
-terntarifs müssen daher am Ende der Steuerperiode oder der Steuerpflicht erfüllt sein.
+14.6.2   Tarife
+   Der Elternteil, der die elterliche Sorge innehält, erhält den Elterntarif. Der andere Elternteil
+    wird zum Grundtarif besteuert.
 
-13.4.6   Unterjährige Steuerpflicht
-
-Besteht die Steuerpflicht nur während eines Teils des Steuerjahres, wird der Abzug vom
-Steuerbetrag anteilsmässig gewährt: Es kommt als Basis der Verheiratetentarif zur Anwen-
-dung; der Steuerbetrag ermässigt sich jedoch nur um den anteilsmässigen Abzug von 251
-Franken für jedes Kind und jede unterstützungsbedürftige Person. Die Höhe des Abzugs
-bemisst sich nach dem Verhältnis des steuerbaren Einkommens zum satzbestimmenden
-Einkommen.
+    Erzielt der Elternteil mit der elterlichen Sorge keine Einkünfte und übernimmt daher der
+    andere Elternteil den Unterhalt des Kindes, können diesem aus Billigkeitsgründen die
+    kinderrelevanten Abzüge und der Elterntarif gewährt werden.

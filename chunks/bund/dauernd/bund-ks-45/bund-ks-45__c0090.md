@@ -5,32 +5,21 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 45 – Abschnitt 90"
-seiten: "23"
+seiten: "22"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 45 · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 45 · S. 22
 
-    Beispiele:
-    1. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 100 %):
-    Arbeitnehmer Z. ist bei der F. AG, Bern, und bei der K. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen:
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    F. AG (CH)   50 %   4 500   9 000
-
-    K. AG (CH)   50 %   4 000   8 000
-
-    2. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
-    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen (beiden Arbeitgebern ist das jeweils andere Pensum nicht bekannt):
-
-    Arbeitgeber   Pensum   Bruttolohn   satzbestimmend
-
-    M. AG (CH)   50 %   4 500   9 000
-
-    T. AG (CH)   40 %   4 400   11 000
-
-    3. Zwei Arbeitsverhältnisse in der Schweiz (Gesamtpensum: 90 %):
-    Arbeitnehmer Z. ist bei der M. AG, Bern, und bei der T. AG, Thun, angestellt und erzielt folgende Lohnein-
-    kommen (beiden Arbeitgebern ist das jeweils andere Pensum bekannt):
+    2. Umrechnung auf einen Beschäftigungsgrad von 100 Prozent, wenn der effektive Ge-
+    samtbeschäftigungsgrad durch den Arbeitnehmer nicht offengelegt wird;
+    3. Umrechnung auf das tatsächliche Gesamtbruttoeinkommen, sofern die Einkünfte dem
+    Schuldner der steuerbaren Leistung bekannt sind bzw. bekannt gegeben werden
+    (bspw. im Konzern oder mehrere Arbeitsverträge beim gleichen Schuldner der steuer-
+    baren Leistung).
+Dies gilt auch, wenn eine oder mehrere der Erwerbstätigkeiten ausserhalb der Schweiz ver-
+richtet wird resp. Werden, bzw. wenn Ersatzeinkünfte im Ausland ausbezahlt wird resp. wer-
+den.
+Der teilzeitbeschäftige Arbeitnehmer muss seinem Arbeitgeber bzw. seinen Arbeitgebern be-
+kannt geben, ob er einer oder weiteren (unselbstständigen oder selbstständigen) Erwerbstä-
+tigkeit(en) nachgeht bzw. ob er Ersatzeinkünfte erhält (vgl. Art. 136 DBG).
+Gibt der Arbeitnehmer weder das Pensum noch den erzielten Lohn aus der anderen Tätig-

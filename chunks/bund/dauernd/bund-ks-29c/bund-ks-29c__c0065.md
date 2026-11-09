@@ -5,25 +5,31 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 65"
-seiten: "20"
+seiten: "21"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 20
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 21
 
-Der übertragene und ausgewiesene Aktivenüberschuss der Vermögenswerte kann in der
-Handelsbilanz der übernehmenden Kapitalgesellschaft oder Genossenschaft als KER bzw.
-Ausland-KER ausgewiesen und/oder für die Liberierung von Grund- oder Stammkapital ver-
-wendet werden.
+<!-- Seite 21 -->
+7.   Umstrukturierungen von an einer schweizerischen Börse kotierten Kapi-
+    talgesellschaften oder Genossenschaften
 
-6.6.   Übertragung zwischen inländischen Konzerngesellschaften
+7.1.   Zusammenschluss (Fusion)
+
+7.1.1. Echte und unechte Fusion unabhängiger Gesellschaften
 
 a)   Direkte Bundessteuer (Einkommenssteuer)
 
-Nicht betroffen.
+Das Fusionsagio stellt nur in dem Umfang eine ausweisbare KER bzw. Ausland-KER dar, als
+es aus bestehenden KER bzw. Ausland-KER der übernommenen Gesellschaft stammt.
+Stammt das Grund- oder Stammkapital aus KER, gelten die Bestimmungen zu Ziff. 5.1.5
+hiervor.
 
-b)   Direkte Bundessteuer (Gewinnsteuer)
+Bei einer Fusion erzielen beteiligte Privatpersonen in dem Umfang steuerbaren Vermögens-
+ertrag, als ihnen höherer Nennwert, Ausgleichszahlungen oder andere geldwerte Vorteile zu
+Lasten der übrigen Reserven zufliessen.
 
-Erfolgt die steuerneutrale Übertragung zu Lasten der offenen Reserven einer Tochtergesell-
-schaft an die Muttergesellschaft, stellt der erhaltene Aktivenüberschuss einen Beteiligungser-
-trag dar. Falls der Aktivenüberschuss nicht über die Erfolgsrechnung, sondern direkt über die
-Reserven verbucht wird, qualifiziert der Zugang als übrige Reserve.
+Nennwertgewinne und -verluste sowie Gewinne und Verluste von KER bzw. Ausland-KER
+können miteinander und gegenseitig verrechnet werden.
+
+b)   Verrechnungssteuer

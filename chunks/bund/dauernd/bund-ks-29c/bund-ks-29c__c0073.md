@@ -5,24 +5,26 @@ jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
 titel: "KS 29c – Abschnitt 73"
-seiten: "23"
+seiten: "24"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 29c · S. 23
+> Bund · Steuerjahr 2025/2026 · KS 29c · S. 24
 
-<!-- Seite 23 -->
-7.3.   Spaltung
+<!-- Seite 24 -->
+8.   Zuzug einer juristischen Person aus dem Ausland
 
-a)   Direkte Bundessteuer (Einkommenssteuer)
+Verlegt eine juristische Person ihren Sitz oder die tatsächliche Verwaltung vom Ausland in
+die Schweiz, ändert sich die Qualifikation der übrigen Reserven auch unter dem Kapitaleinla-
+geprinzip nicht. Die Aufteilung der offenen Kapitaleinlagen in KER und Ausland-KER erfolgt
+gemäss den Grundsätzen nach Ziff. 2.1. hiervor.
 
-Die bei einer Spaltung den Inhabern der gesellschaftlichen Beteiligungsrechte an der über-
-nehmenden Gesellschaft zukommenden Gratisaktien und Gratisnennwerterhöhungen unter-
-liegen nach Artikel 20 Absatz 1 Buchstabe c DBG der Einkommenssteuer, soweit sie nicht zu
-Lasten des Nennwerts der Beteiligungsrechte oder der Ausland-KER der übertragenden Ge-
-sellschaft erfolgen. Für Gratisaktien und Gratisnennwerterhöhungen aus KER gelten die
-Bestimmungen gemäss Ziff. 5.1.5. hiervor.
-
-Erfolgt die Spaltung nicht gewinnsteuerneutral, liegt eine Vorteilszuwendung unter Schwes-
-tergesellschaften (vgl. Ziff. 2.2.1. hiervor) vor.
-
-b)   Verrechnungssteuer
+Werden dagegen im Rahmen einer grenzüberschreitenden Quasifusion (Immigrations -
+Quasifusion) Beteiligungsrechte an einer ausländischen Kapitalgesellschaft oder Genossen-
+schaft in eine inländische Kapitalgesellschaft oder Genossenschaft eingebracht, qualifiziert
+die gesamte Sacheinlage als offene Kapitaleinlage. Der die Erhöhung des Grund- oder
+Stammkapitals übersteigende Teil dieser offenen Kapitaleinlage kann, wenn die Kapitalein-
+lage in der Zeit zwischen dem 31. Dezember 1996 und dem 24. Februar 2008 erfolgte, in der
+Handelsbilanz als KER und bei Einlagen nach dem 24. Februar 2008 als Ausland-KER aus-
+gewiesen werden. Dabei ist aber für die in der Schweiz ansässigen Inhaber der Beteiligungs-
+rechte die Regelung der Transponierung in Artikel 20a Absatz 1 Buchstabe b DBG zu beach-
+ten (vgl. Ziff. 4.2.5. hiervor).

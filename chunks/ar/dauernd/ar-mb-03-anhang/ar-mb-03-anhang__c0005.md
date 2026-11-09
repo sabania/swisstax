@@ -5,35 +5,9 @@ jur: ar
 jahre: [2025, 2026]
 typ: merkblatt
 titel: "MB AR 03-anhang – Abschnitt 5"
-seiten: "2"
+seiten: "1"
 qmd: {metadata: {jur: ar, jahre: [2025, 2026], typ: merkblatt}}
 ---
-> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 2
+> AR · Steuerjahr 2025/2026 · MB AR 03-anhang · S. 1
 
-<!-- Seite 2 -->
-  2   Gebäude innen
-
- 2.1 Grundrissveränderungen und Ausbauten
-  - Wohnraumerweiterung (inkl. Dachausbau), Ausbauten   1/1
-  - Grundrissveränderung von Räumlichkeiten (z. B. Heraus-   1/1
-    brechen von Wänden, Einbau neuer Wände und damit
-    verbundene Anpassungsarbeiten)
-
- 2.2 Innenausbau
-  - Bodenbeläge
-    a) gleichwertiger Ersatz in gleicher Preisklasse   1/1
-    b) Versiegelung, Ölung, Imprägnierung   1/1
-  - Schränke, Garderoben
-    (nicht fest mit der Baute verbunden)   1/1
-  - Malerarbeiten
-    a) allein oder im Zusammenhang mit Renovationen   1/1
-    b) im Zusammenhang mit wertvermehrenden Aufwendungen   1/1
-    (An-, Um- und Ausbauten)
-  - Wandbeläge und Wandbekleidungen
-    a) gleichwertiger Ersatz   1/1
-    b) Ersatz kombiniert mit thermischer Isolation, gegen   1/1   E
-    Aussenklima, unbeheizte Räume oder Erdreich
-  - Zimmertüren
-    gleichwertiger Ersatz   1/1
-
-  3   Installationen
+21.11.2024   Seite 1 von 7

@@ -4,17 +4,25 @@ quelle: bund-ks-30
 jur: bund
 jahre: [2025, 2026]
 typ: kreisschreiben
-titel: "KS 30 – Abschnitt 172"
-seiten: "43"
+titel: "Beilage 2 Seite 8/13 Volljähriges Kind: Normalfall und Ziff. 14.10 (Teil 2/4)"
+ziffer: "Beilage 2, S. 8/13"
+seiten: "53"
 qmd: {metadata: {jur: bund, jahre: [2025, 2026], typ: kreisschreiben}}
 ---
-> Bund · Steuerjahr 2025/2026 · KS 30 · S. 43
+> Bund · Steuerjahr 2025/2026 · KS 30 · Beilagen › Beilage 2 Tabelle Familienkonstellationen · S. 53
 
-<!-- Seite 43 -->
-Diese Schuldvermutung mit Exkulpationsbeweis stand nicht in Einklang mit der in Artikel 6
-§ 2 der Konvention vom 4. November 1950 zum Schutze der Menschenrechte und Grund-
-freiheiten (Europäische Menschenrechtskonvention; EMRK) verankerten Unschuldsvermu-
-tung, da die Beweislastverteilung offensichtlich in Widerspruch mit dem strafrechtlichen
-Grundsatz „in dubio pro reo“ stand. Um die ehegattenspezifischen Strafbestimmungen des
-DBG und des StHG in Einklang mit der EMRK zu bringen, beschlossen die Eidg. Räte die
-Streichung der gesetzlich statuierten Schuldvermutung.
+    Voraussetzung:   Voraussetzung:   Voraussetzung:
+    Der Abzug wird nur ge-   Der Abzug wird nur ge-   Der Elterntarif wird nur
+    währt, wenn das Kind   währt, wenn das Kind   gewährt, wenn das Kind
+   Volljähriges Kind   kein Einkommen erzielt,   kein Einkommen erzielt,   kein Einkommen erzielt,
+    das einen selbständigen   das einen selbständigen   das einen selbständigen
+    Lebensunterhalt ermög-   Lebensunterhalt ermög-   Lebensunterhalt ermög-
+    licht.   licht.   licht und Wohnsitz bei
+    den Eltern hat.
+   Normalfall:   entfällt   Kinderabzug von der ge-   Versicherungsabzug für   entfällt   Gemeinsame Veranlagung
+   Verheiratete Eltern leben   meinsamen Bemessungs-   das Kind von der gemein-   mit Elterntarif
+   zusammen. Volljähriges   grundlage.   samen Bemessungsgrund-
+   Kind in Erstausbildung.   lage.
+     Die Unterhaltszahlun-         entfällt    Der Elternteil, bei dem
+   14.10. Getrennte,   gen an das volljährige
+    Der Unterhaltszahlun-
