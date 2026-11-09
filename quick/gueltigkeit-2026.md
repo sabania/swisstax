@@ -244,6 +244,7 @@ Werte/Zuordnungen für 2026: Quick-Seiten mit «2026» im Namen. Andere Jahre ni
 | dauernd | [Formular 350 ZH](../wiki/zh/quellen/zh-form-350.md) `zh-form-350` | ? – offen |  |
 | dauernd | [Formular 355 ZH](../wiki/zh/quellen/zh-form-355.md) `zh-form-355` | ? – offen |  |
 | dauernd | [Formular 370 ZH](../wiki/zh/quellen/zh-form-370.md) `zh-form-370` | ? – offen |  |
+| dauernd | [ZStB 30.1](../wiki/zh/quellen/zh-zstb-30-1.md) `zh-zstb-30-1` | 2023-09-27 – offen |  |
 | dauernd | [ZStB 30.2](../wiki/zh/quellen/zh-zstb-30-2.md) `zh-zstb-30-2` | 2002-01-01 – offen |  |
 | dauernd | [ZStB 30.3](../wiki/zh/quellen/zh-zstb-30-3.md) `zh-zstb-30-3` | 2020-01-01 – offen |  |
 | dauernd | [ZStB 31.1](../wiki/zh/quellen/zh-zstb-31-1.md) `zh-zstb-31-1` | 2027-01-01 – offen | ersetzt `zh-zstb-31-1-bis-2026` |

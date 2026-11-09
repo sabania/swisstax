@@ -128,6 +128,12 @@ faelle:
           bund: 10000
           rechnung: "Einkauf 10'000 gem. PK-Bescheinigung; nicht über Lohnausweis abgezogen; kein Kapitalbezug innert 3 Jahren."
           fundstellen: [zh-form-300-2025__c0008, zh-wl-2025__c0092, zh-stg-2025__par-31-t1, bund-dbg-2025__art-33-t2]
+        - ziffer: "16.3 (Code 283)"
+          bezeichnung: "Kosten für die Verwaltung des beweglichen Privatvermögens (Pauschale)"
+          kanton: 94
+          bund: 0
+          rechnung: "Depot ZKB (drittverwahrt) 31'200 × 3 ‰ = 93.60 → 94 (93 ebenfalls korrekt); Spar-/Privatkonto zählen nicht (ohne Bankguthaben, ZStB 30.1). Bund: belegt sind nur effektive Depot-/Safegebühren (bund-wl-2a-2025__c0056) → 0; 94 nur mit ausdrücklichem Vorbehalt ebenfalls zulässig (dann Bund-Totale je −94)."
+          fundstellen: [zh-form-300-2025__c0008, zh-wl-2025__c0095, zh-zstb-30-1__c0006, bund-wl-2a-2025__c0056]
         - ziffer: "16.6 (Code 376)"
           bezeichnung: "Abzug für fremdbetreute Kinder"
           kanton: 31900
@@ -142,33 +148,33 @@ faelle:
           fundstellen: [zh-wl-2025__c0111, zh-wl-2025__c0112, zh-wl-2025__c0113, zh-stg-2025__par-31-t5, bund-dbg-2025__art-33-t6, bund-rs-2-210__c0007]
         - ziffer: "18 (Code 299)"
           bezeichnung: "Total der Abzüge"
-          kanton: 85422
+          kanton: 85516
           bund: 90042
-          rechnung: "Staat 10'470 + 4'036 + 7'258 + 7'258 + 8'400 + 10'000 + 31'900 + 6'100 = 85'422; Bund 9'590 + 4'036 + 7'258 + 7'258 + 5'100 + 10'000 + 32'700 + 14'100 = 90'042."
+          rechnung: "Staat 10'470 + 4'036 + 7'258 + 7'258 + 8'400 + 10'000 + 94 + 31'900 + 6'100 = 85'516; Bund 9'590 + 4'036 + 7'258 + 7'258 + 5'100 + 10'000 + 32'700 + 14'100 = 90'042."
           fundstellen: [zh-form-300-2025__c0008]
         - ziffer: "21 (Code 310)"
           bezeichnung: "Nettoeinkommen"
-          kanton: 85918
+          kanton: 85824
           bund: 81298
-          rechnung: "171'340 − 85'422 = 85'918; 171'340 − 90'042 = 81'298."
+          rechnung: "171'340 − 85'516 = 85'824; 171'340 − 90'042 = 81'298."
           fundstellen: [zh-form-300-2025__c0009]
         - ziffer: "22.1 (Code 320)"
           bezeichnung: "Krankheits- und Unfallkosten"
           kanton: 0
           bund: 0
-          rechnung: "FALLE: Kosten 1'850 + 1'240 = 3'090 < Selbstbehalt 5 % von Ziff. 21 (Staat 4'295.90, Bund 4'064.90) → kein Abzug."
+          rechnung: "FALLE: Kosten 1'850 + 1'240 = 3'090 < Selbstbehalt 5 % von Ziff. 21 (Staat 4'291.20, Bund 4'064.90) → kein Abzug."
           fundstellen: [zh-wl-2025__c0117, zh-wl-2025__c0122, zh-stg-2025__par-32, bund-dbg-2025__art-33-t3]
         - ziffer: "22.2 (Code 324)"
           bezeichnung: "Gemeinnützige Zuwendungen"
           kanton: 650
           bund: 650
-          rechnung: "400 + 250 = 650; ≥ 100 und unter 20 % von Ziff. 21 (Staat 17'183 / Bund 16'259)."
+          rechnung: "400 + 250 = 650; ≥ 100 und unter 20 % von Ziff. 21 (Staat 17'165 / Bund 16'259)."
           fundstellen: [zh-wl-2025__c0121, zh-wl-2025__c0122, zh-stg-2025__par-32, bund-dbg-2025__art-33a]
         - ziffer: "23 (Code 350)"
           bezeichnung: "Reineinkommen"
-          kanton: 85268
+          kanton: 85174
           bund: 80648
-          rechnung: "85'918 − 0 − 650 = 85'268; 81'298 − 0 − 650 = 80'648."
+          rechnung: "85'824 − 0 − 650 = 85'174; 81'298 − 0 − 650 = 80'648."
           fundstellen: [zh-form-300-2025__c0009]
         - ziffer: "24.1 (Code 370)"
           bezeichnung: "Abzug für Kinder im Haushalt"
@@ -184,9 +190,9 @@ faelle:
           fundstellen: [zh-form-300-2025__c0010, zh-wl-2025__c0135, bund-dbg-2025__art-35]
         - ziffer: "25 (Code 390)"
           bezeichnung: "Steuerbares Einkommen gesamt"
-          kanton: 66668
+          kanton: 66574
           bund: 64248
-          rechnung: "85'268 − 18'600 = 66'668; 80'648 − 13'600 − 2'800 = 64'248."
+          rechnung: "85'174 − 18'600 = 66'574; 80'648 − 13'600 − 2'800 = 64'248."
           fundstellen: [zh-form-300-2025__c0010]
         - ziffer: "30.1 (Code 400)"
           bezeichnung: "Wertschriften und Guthaben (Steuerwert 31.12.2025)"
@@ -408,10 +414,10 @@ faelle:
           fundstellen: [tg-form-01-2025__c0007, tg-wl-2025__c0077, bund-dbg-2025__art-22-t1]
         - ziffer: "4 (Code 150) – Formular 2 Ziff. 9"
           bezeichnung: "Wertschriften- und Zinserträge"
-          kanton: 2350
+          kanton: 2160
           bund: 2350
-          rechnung: "Spalte 8 (mit VSt): Sparzins 250 (über 200 → VSt-pflichtig) + Dividenden 2'100 = 2'350."
-          fundstellen: [tg-form-01-2025__c0008, tg-form-02-2025__c0006, tg-wl-2025__c0151, bund-vstg__art-5-t1]
+          rechnung: "Spalte 8 (mit VSt): Sparzins 250 (über 200 → VSt-pflichtig) + Dividenden 2'100 = 2'350; Kanton abzüglich Vermögensverwaltungskosten pauschal (Code 148) 2 ‰ × Depot 95'000 = 190 (Sparkonto zählt nicht) → 2'160. Bund: belegt nur effektive Depot-/Safegebühren (bund-wl-2a-2025__c0056) → 2'350; 2'160 nur mit ausdrücklichem Vorbehalt ebenfalls zulässig (dann Bund-Folgewerte je −190)."
+          fundstellen: [tg-form-01-2025__c0008, tg-form-02-2025__c0006, tg-wl-2025__c0151, tg-wl-2025__c0159, tg-wl-2025__c0163, tg-stv__par-10a, bund-vstg__art-5-t1, bund-wl-2a-2025__c0056]
         - ziffer: "Formular 2 Ziff. 10"
           bezeichnung: "Verrechnungssteueranspruch (Rückerstattung, kein Einkommen/Abzug)"
           kanton: 822.5
@@ -420,9 +426,9 @@ faelle:
           fundstellen: [tg-form-02-2025__c0006, tg-wl-2025__c0167, bund-vstg__art-13]
         - ziffer: "6 (Code 175)"
           bezeichnung: "Zwischentotal der Einkünfte"
-          kanton: 40150
+          kanton: 39960
           bund: 40150
-          rechnung: "27'000 + 10'800 + 2'350 = 40'150."
+          rechnung: "27'000 + 10'800 + 2'160 = 39'960; Bund 27'000 + 10'800 + 2'350 = 40'150."
           fundstellen: [tg-form-01-2025__c0008]
         - ziffer: "Formular 7 Liegenschaft 1 – Selbstnutzungsabzug / steuerbarer Eigenmietwert"
           bezeichnung: "Steuerbarer Eigenmietwert EFH (Mietwert 20'400)"
@@ -444,9 +450,9 @@ faelle:
           fundstellen: [tg-form-07-2025__c0003, tg-wl-2025__c0244, tg-wl-2025__c0245, tg-form-01-2025__c0009]
         - ziffer: "9 (Code 198)"
           bezeichnung: "Total der Einkünfte"
-          kanton: 44990
+          kanton: 44800
           bund: 49070
-          rechnung: "40'150 + 4'840 = 44'990; 40'150 + 8'920 = 49'070."
+          rechnung: "39'960 + 4'840 = 44'800; 40'150 + 8'920 = 49'070."
           fundstellen: [tg-form-01-2025__c0009]
         - ziffer: "11 (Code 290) – via Formular 4.1"
           bezeichnung: "Schuldzinsen"
@@ -468,39 +474,39 @@ faelle:
           fundstellen: [tg-form-01-2025__c0011]
         - ziffer: "22 (Code 362)"
           bezeichnung: "Nettoeinkommen"
-          kanton: 38340
+          kanton: 38150
           bund: 43220
-          rechnung: "44'990 − 6'650 = 38'340; 49'070 − 5'850 = 43'220."
+          rechnung: "44'800 − 6'650 = 38'150; 49'070 − 5'850 = 43'220."
           fundstellen: [tg-form-01-2025__c0012]
         - ziffer: "23.1 (Code 364) – via Formular 5.1"
           bezeichnung: "Krankheits- und Unfallkosten"
-          kanton: 4623
+          kanton: 4632
           bund: 4379
-          rechnung: "A: Kostenbeteiligung 1'000 + Zahnarzt 4'440 + Brille 1'400 = 6'840; B Vergütung Dritter −300 → 6'540. Selbstbehalt 5 % von Ziff. 22: Staat 1'917 → 4'623; Bund 2'161 → 4'379. Hinweis: § 34 Ziff. 10 StG nennt «Reineinkommen», Formular 5.1/WL rechnen mit Ziff. 22 – Formular angewendet."
+          rechnung: "A: Kostenbeteiligung 1'000 + Zahnarzt 4'440 + Brille 1'400 = 6'840; B Vergütung Dritter −300 → 6'540. Selbstbehalt 5 % von Ziff. 22: Staat 1'907.50 → 4'632 (4'633 bzw. Rappen ebenfalls korrekt); Bund 2'161 → 4'379. Hinweis: § 34 Ziff. 10 StG nennt «Reineinkommen», Formular 5.1/WL rechnen mit Ziff. 22 – Formular angewendet."
           fundstellen: [tg-form-05-1-2025__c0001, tg-form-05-1-2025__c0002, tg-form-05-1-2025__c0004, tg-wl-2025__c0197, tg-wl-2025__c0203, tg-stg__par-34-t3, bund-dbg-2025__art-33-t3]
         - ziffer: "23.2 (Code 366) – via Formular 6"
           bezeichnung: "Freiwillige Zuwendungen"
           kanton: 350
           bund: 550
-          rechnung: "Total 300 + 250 = 550. Kanton: Selbstbehalt 200 → 350 (Max. 8'000, da Nettoeinkommen bis 40'000). Bund: ab 100 voll abziehbar, 550 (unter 20 % von 43'220)."
+          rechnung: "Total 300 + 250 = 550. Kanton: Selbstbehalt 200 → 350 (Max. 8'000, da Nettoeinkommen 38'150 bis 40'000). Bund: ab 100 voll abziehbar, 550 (unter 20 % von 43'220)."
           fundstellen: [tg-form-06-2025__c0002, tg-wl-2025__c0218, tg-stg__par-34-t4, bund-dbg-2025__art-33a]
         - ziffer: "24 (Code 372)"
           bezeichnung: "Reineinkommen"
-          kanton: 33367
+          kanton: 33168
           bund: 38291
-          rechnung: "38'340 − 4'623 − 350 = 33'367; 43'220 − 4'379 − 550 = 38'291."
+          rechnung: "38'150 − 4'632 − 350 = 33'168 (± 1 Rundung); 43'220 − 4'379 − 550 = 38'291."
           fundstellen: [tg-form-01-2025__c0012]
         - ziffer: "25.3 (Code 388)"
           bezeichnung: "Abzug für AHV-Rentner/Verwitwete (nur Kanton)"
           kanton: 1000
           bund: null
-          rechnung: "Reineinkommen Ziff. 24 (Kanton) 33'367 → Stufe Alleinstehende 32'900–33'899 = 1'000 (4'200 − 16 × 200 je volle 1'000 über 16'900). Bund: kein Abzug."
+          rechnung: "Reineinkommen Ziff. 24 (Kanton) 33'168 → Stufe Alleinstehende 32'900–33'899 = 1'000 (4'200 − 16 × 200 je volle 1'000 über 16'900). Bund: kein Abzug."
           fundstellen: [tg-form-01-2025__c0013, tg-wl-2025__c0116, tg-wl-2025__c0117, tg-vakp__par-1, tg-wl-2025__c0007]
         - ziffer: "26 (Code 398)"
           bezeichnung: "Steuerbares Einkommen"
-          kanton: 32367
+          kanton: 32168
           bund: 38291
-          rechnung: "33'367 − 1'000 = 32'367; Bund keine Sozialabzüge → 38'291."
+          rechnung: "33'168 − 1'000 = 32'168 (± 1 Rundung); Bund keine Sozialabzüge → 38'291."
           fundstellen: [tg-form-01-2025__c0013]
         - ziffer: "30.1 (Code 410)"
           bezeichnung: "Wertschriften und Guthaben"
@@ -671,6 +677,12 @@ faelle:
           bund: 5100
           rechnung: "A: Prämien 13'900 + Sparzinsen 160 = 14'060. B Kanton: 5'400 + 2 × 1'000 = 7'400. Bund: 3'700 + 2 × 700 = 5'100. Abzug = niedrigerer Betrag."
           fundstellen: [ar-form-06-2025__c0001, ar-form-06-2025__c0002, ar-wl-2025__c0085, ar-stg__art-35-t2, bund-dbg-2025__art-33-t2, bund-dbg-2025__art-33-t5]
+        - ziffer: "16.1"
+          bezeichnung: "Verwaltungskosten Wertschriften (Pauschale auf Antrag)"
+          kanton: 276
+          bund: 0
+          rechnung: "Basis = Total der Spalte Steuerwerte Formular 2 = 92'000 (Konten 54'000 + Aktien 38'000; ausgenommen wären nur eigene Unternehmensaktien, private Darlehen, geschäftliche Bankkonti) × 3 ‰ = 276 (unter Max. 6'000). Bund: keine Bundesspalte, die Steuerverwaltung passt an; belegt sind beim Bund nur effektive Depot-/Safegebühren (bund-wl-2a-2025__c0056) → 0. 114 (nur Aktien) ist eine zu enge Basis."
+          fundstellen: [ar-wl-2025__c0003, ar-wl-2025__c0087, ar-wl-2025__c0088, ar-wl-2025__c0179, bund-wl-2a-2025__c0056]
         - ziffer: "16.2 (Formular 10)"
           bezeichnung: "Kinderbetreuungskosten Lea"
           kanton: 10200
@@ -685,15 +697,15 @@ faelle:
           fundstellen: [ar-wl-2025__c0004, ar-wl-2025__c0096, ar-wl-2025__c0097, ar-stg__art-35-t3, ar-stg-anhang-kp__c0001, bund-dbg-2025__art-33-t6]
         - ziffer: "18"
           bezeichnung: "Total der Abzüge"
-          kanton: 45358
+          kanton: 45634
           bund: 51763
-          rechnung: "Kanton 4'000 + 6'300 + 7'258 + 5'000 + 7'400 + 10'200 + 5'200 = 45'358; Bund 4'159 + 5'946 + 7'258 + 5'000 + 5'100 + 10'200 + 14'100 = 51'763."
+          rechnung: "Kanton 4'000 + 6'300 + 7'258 + 5'000 + 7'400 + 276 + 10'200 + 5'200 = 45'634; Bund 4'159 + 5'946 + 7'258 + 5'000 + 5'100 + 10'200 + 14'100 = 51'763."
           fundstellen: [ar-wl-2025__c0065]
         - ziffer: "20"
           bezeichnung: "Nettoeinkommen"
-          kanton: 109552
+          kanton: 109276
           bund: 103147
-          rechnung: "154'910 − 45'358 = 109'552; 154'910 − 51'763 = 103'147."
+          rechnung: "154'910 − 45'634 = 109'276; 154'910 − 51'763 = 103'147."
           fundstellen: [ar-wl-2025__c0099]
         - ziffer: "21.3 (Code 550 Formular 5)"
           bezeichnung: "Freiwillige Zuwendungen"
@@ -703,9 +715,9 @@ faelle:
           fundstellen: [ar-form-05-2025__c0003, ar-wl-2025__c0102, ar-wl-2025__c0103, bund-dbg-2025__art-33a]
         - ziffer: "22"
           bezeichnung: "Reineinkommen"
-          kanton: 109252
+          kanton: 108976
           bund: 102847
-          rechnung: "109'552 − 300 = 109'252; 103'147 − 300 = 102'847."
+          rechnung: "109'276 − 300 = 108'976; 103'147 − 300 = 102'847."
           fundstellen: [ar-wl-2025__c0099]
         - ziffer: "23.2 (Code nicht belegt)"
           bezeichnung: "Kinderabzug Lea (nach Vollendung 4. Altersjahr)"
@@ -727,9 +739,9 @@ faelle:
           fundstellen: [ar-wl-2025__c0179, bund-dbg-2025__art-35, bund-rs-2-210__c0007]
         - ziffer: "24"
           bezeichnung: "Steuerbares Einkommen gesamt"
-          kanton: 90252
+          kanton: 89976
           bund: 86447
-          rechnung: "109'252 − 7'400 − 11'600 = 90'252; 102'847 − 6'800 − 6'800 − 2'800 = 86'447."
+          rechnung: "108'976 − 7'400 − 11'600 = 89'976; 102'847 − 6'800 − 6'800 − 2'800 = 86'447."
           fundstellen: [ar-wl-2025__c0104]
         - ziffer: "30.1"
           bezeichnung: "Wertschriften und Guthaben"

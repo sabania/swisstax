@@ -3348,6 +3348,7 @@ positionen:
   feld: Depotgebührenausweis der Bank (nur Verwahrung/Verwaltung)
   regel: 'Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, höchstens Fr. 6''000 (Darlehen, Bankguthaben, nichtkotierte qualifizierte Beteiligungen nicht
     in der Basis); höherer Nachweis vorbehalten. Abziehbar: Depotgebühren; nicht abziehbar: Kommissionen, Anlageberater, Tresor.'
+  bund: 'Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2026__c0060); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).'
   quellen:
   - chunk: tg-form-02-2026__c0006
     zitat: 17. Vermögensverwaltungskosten Code 148
@@ -3366,6 +3367,7 @@ positionen:
   - Depotgebührenabrechnung Bank → effektive Kosten (nur bei höherem Nachweis)
   berechnung: 'Pauschal: min(2‰ × Steuerwert durch Dritte verwalteter Wertschriften des PV; Fr. 6''000) oder höhere effektive Kosten mit Nachweis → Code 148'
   beachten:
+  - 'Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»'
   - Basis ohne Darlehen, Bankguthaben aller Art, nichtkotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
   - 'Nicht abziehbar: Kontoführungsgebühren, Anlageberater, Kommissionen/Spesen An-/Verkauf, Tresor für Schmuck/Bilder'
   - 'Ziffer: WL nennt Ziff. 7, Formular-Chunk zeigt «17» (Layout) → Original-PDF S. 2 prüfen'

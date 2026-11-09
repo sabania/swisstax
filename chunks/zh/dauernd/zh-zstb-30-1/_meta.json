@@ -1,0 +1,175 @@
+[
+{
+"id": "zh-zstb-30-1__c0001",
+"titel": "ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": null,
+"nachher": "zh-zstb-30-1__c0002"
+},
+{
+"id": "zh-zstb-30-1__c0002",
+"titel": "A. Gesetzliche Grundlagen",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"A. Gesetzliche Grundlagen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0001",
+"nachher": "zh-zstb-30-1__c0003"
+},
+{
+"id": "zh-zstb-30-1__c0003",
+"titel": "B. Abzugsfähige Kosten",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"B. Abzugsfähige Kosten"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0002",
+"nachher": "zh-zstb-30-1__c0004"
+},
+{
+"id": "zh-zstb-30-1__c0004",
+"titel": "C. Nicht abzugsfähige Kosten",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"C. Nicht abzugsfähige Kosten"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0003",
+"nachher": "zh-zstb-30-1__c0005"
+},
+{
+"id": "zh-zstb-30-1__c0005",
+"titel": "D. Abzugsformen",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"D. Abzugsformen"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0004",
+"nachher": "zh-zstb-30-1__c0006"
+},
+{
+"id": "zh-zstb-30-1__c0006",
+"titel": "I. Pauschalabzug",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"D. Abzugsformen",
+"I. Pauschalabzug"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0005",
+"nachher": "zh-zstb-30-1__c0007"
+},
+{
+"id": "zh-zstb-30-1__c0007",
+"titel": "II. Abzug der tatsächlichen Kosten",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"D. Abzugsformen",
+"II. Abzug der tatsächlichen Kosten"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0006",
+"nachher": "zh-zstb-30-1__c0008"
+},
+{
+"id": "zh-zstb-30-1__c0008",
+"titel": "E. Inkrafttreten",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"E. Inkrafttreten"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0007",
+"nachher": "zh-zstb-30-1__c0009"
+},
+{
+"id": "zh-zstb-30-1__c0009",
+"titel": "Weisung gültig bis 26. September 2023",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"E. Inkrafttreten",
+"Weisung gültig bis 26. September 2023"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0008",
+"nachher": "zh-zstb-30-1__c0010"
+},
+{
+"id": "zh-zstb-30-1__c0010",
+"titel": "Weisung gültig bis 31. Dezember 2017",
+"pfad": [
+"ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens",
+"E. Inkrafttreten",
+"Weisung gültig bis 31. Dezember 2017"
+],
+"seiten": [],
+"artikel": null,
+"ziffer": null,
+"stichworte": null,
+"positionen": null,
+"zusammenfassung": null,
+"chunking": "überschriften",
+"vorher": "zh-zstb-30-1__c0009",
+"nachher": null
+}
+]

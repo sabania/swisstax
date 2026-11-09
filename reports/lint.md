@@ -1,7 +1,7 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 295 · Chunks: 8925 · geprüfte Links: 29443
-- Fehler: 0 · Warnungen: 48
+- Quellen: 296 · Chunks: 8935 · geprüfte Links: 29458
+- Fehler: 0 · Warnungen: 49
 
 ## Status der Daten (Werte/Zuordnungen)
 
@@ -54,6 +54,7 @@
 - R2 zh-mm-sozialabzuege-2026: 2 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-mm-sozialabzuege-2026__c0003.md
 - R2 zh-zstb-132-1: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-zstb-132-1__c0029.md
 - R2 zh-zstb-34-1: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-zstb-34-1__c0032.md
+- R2 zh-zstb-30-1: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-zstb-30-1__c0001.md
 - R2 zh-zstb-139-2: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-zstb-139-2__c0002.md
 - R2 zh-zstb-173-1: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-zstb-173-1__c0001.md
 - R2 zh-info-steuerrechnung: 1 Chunk-Dateien > 1'800 Bytes (OpenClaw teilt sie), z.B. zh-info-steuerrechnung__c0026.md

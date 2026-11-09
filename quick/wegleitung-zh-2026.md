@@ -355,9 +355,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 ### 16.3 · Kosten für die Verwaltung des beweglichen Privatvermögens (Code 283) ☑️
 - **Rein:** Bank-/Verwaltungsabrechnung, Depotgebühren-Ausweis → effektive Verwaltungs-/Verwahrungskosten · Steuerauszug/Dividendenabrechnung → nicht rückforderbare, nicht anrechenbare ausländische Quellensteuern
 - **Rechnen:** Pauschal min(3‰ × Steuerwert drittverwaltete Wertschriften; 6'000) oder effektiv (voll nachweisen) + nicht rückforderbare ausl. QSt → Code 283
+- **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb/Veräusserung von Wertschriften, Anschaffung/Wertvermehrung
 - **Beachten:** Details: Weisung ZStB 30.1 (Kosten Verwaltung Wertschriften Privatvermögen)
-- **Beachten:** Bund: Depot- und Safegebühren inkl. Inkasso-/Affidavitspesen; keine Entschädigung für eigene Bemühungen
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2026-detail.md#16-3-abzug-verwaltungskosten-wertschriften) · [WL ZH 2026 UJ S. 15–16](../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0091.md)
 
 ### 16.4 · Behinderungsbedingte Kosten (Code 3160) ☑️

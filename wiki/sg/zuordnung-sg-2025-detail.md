@@ -739,6 +739,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2025.yaml (2026-11-09)
 - **Beachten:** Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Anlage-/Steuerberatung, Verwaltungsmandate
 - **Beachten:** Darlehen und selbstverwaltete Wertschriften (z.B. Aktien eigene AG) gelten nicht als fremdverwaltet
 - **Beachten:** Bund: abziehbar nur Depot-/Safegebühren inkl. Inkasso-/Affidavitspesen; keine Entschädigung eigener Bemühungen
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2025__c0056); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Quellen:**
   - [Formular 1 SG 2025 S. 3](../../chunks/sg/2025/sg-form-1-2025/sg-form-1-2025__c0009.md) `sg-form-1-2025__c0009` – «16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220»
   - [WL SG 2025 S. 27](../../chunks/sg/2025/sg-wl-2025/sg-wl-2025__c0090.md) `sg-wl-2025__c0090` – «2‰ des fremdverwalteten»

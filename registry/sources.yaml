@@ -3912,6 +3912,26 @@
   ersetzt: zh-zstb-21-3-bis-2025
   zeit_beleg: 'sources/zh/dauernd/zh-zstb-21-3.md Z. 25-31: Weisung des Regierungsrates über Härtefalleinschlag auf dem Eigenmietwert, Erlassdatum 25. Februar 2026, «Gültig ab 01.01.2026»; Vergleich Ziff.
     62 Weisung 2009 (zh-weisung-liegenschaften-2009.md Z. 491-495 «oder wenn ein Härtefall vorliegt») vs. Weisung '
+- id: zh-zstb-30-1
+  jurisdiktion: zh
+  ordner_jahr: dauernd
+  jahre:
+  - 2025
+  - 2026
+  typ: praxis
+  kurz: ZStB 30.1
+  titel: 'ZStB 30.1: Abzugsfähigkeit der Kosten für die Verwaltung von Wertschriften des Privatvermögens'
+  url: https://www.zh.ch/de/steuern-finanzen/steuern/treuhaender/steuerbuch/steuerbuch-definition/zstb-30-1.html
+  format: html
+  verarbeitung: chunk
+  erwaehnt_in:
+  - ZH
+  zeitbezug: dauernd
+  sha256: 90066c85b3ad40c5e75fa99921bea91b8bc833769b943d960dd3f83c0835c738
+  bytes: 65116
+  abgerufen: '2026-11-09'
+  gilt_ab: '2023-09-27'
+  zeit_beleg: 'sources/zh/dauernd/zh-zstb-30-1.md: Erlassdatum und «Gültig ab» 27. September 2023; Abschnitt E: «ersetzt die gleichlautende Weisung vom 11. Juli 2017 und gilt ab sofort für alle noch offenen Steuerperioden»'
 - id: zh-zstb-30-2
   jurisdiktion: zh
   ordner_jahr: dauernd
@@ -4432,7 +4452,8 @@
   format: pdf
   verarbeitung: chunk
   gilt_ab: '2024-01-01'
-  hinweis: 'gilt für Steuerperioden 2024 und 2025; Ausnahme § 31 Abs. 1 lit. j (Drittbetreuung): der VKP-Betrag Fr. 10 400 ist nicht anzuwenden – lit. j lautet gemäss G vom 21. August 2023 (OS 78, 484; in Kraft seit 1. Januar 2024) auf Fr. 25 000 (zh-stg-2025__par-31-t4; Fussnote 110: sources/zh/2025/zh-stg-2025.md Z. 685 bzw. raw/zh/2025/zh-stg-2025.pdf S. 102)'
+  hinweis: 'gilt für Steuerperioden 2024 und 2025; Ausnahme § 31 Abs. 1 lit. j (Drittbetreuung): der VKP-Betrag Fr. 10 400 ist nicht anzuwenden – lit. j lautet gemäss G vom 21. August 2023 (OS 78, 484;
+    in Kraft seit 1. Januar 2024) auf Fr. 25 000 (zh-stg-2025__par-31-t4; Fussnote 110: sources/zh/2025/zh-stg-2025.md Z. 685 bzw. raw/zh/2025/zh-stg-2025.pdf S. 102)'
   sha256: 308a0536410d5f796753521877d683c5a1f427fdff5a5d42dffdfb08a56ce1de
   bytes: 128559
   abgerufen: '2026-11-09'

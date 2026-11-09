@@ -772,14 +772,18 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rein:** Depot-/Verwaltungsgebührenabrechnung Bank → effektive Verwaltungs- und Verwahrungskosten · Wertschriftenverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften
 - **Rechnen:** Pauschal min(3 ‰ × Steuerwert drittverwalteter Wertschriften; 6’000) oder höhere effektive Kosten mit vollem Nachweis (Code 283)
 - **Regel:** Verwaltungs-/Verwahrungskosten durch Dritte abziehbar, nicht aber Erwerbs-/Veräusserungskosten (Courtagen, Stempel). Pauschal 3 ‰ des Steuerwerts der durch Dritte verwalteten Wertschriften, max. CHF 6’000, oder höhere effektive Kosten mit Nachweis.
+- **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb und Veräusserung von Wertschriften
 - **Beachten:** Abziehbar auch: weder rückforderbare noch anrechenbare ausländische Quellensteuern
 - **Beachten:** Details: Weisung Zürcher Steuerbuch Nr. 30.1
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2025__c0056); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Quellen:**
   - [Formular 300 ZH 2025 S. 3](../../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0008.md) `zh-form-300-2025__c0008` – «16.3 Kosten für die Verwaltung des beweglichen Privatvermögens 283»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0095.md) `zh-wl-2025__c0095` – «können 3‰ des Steuerwerts dieser durch Dritte verwalteten Wertschriften, maximal»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0095.md) `zh-wl-2025__c0095` – «jedoch CHF 6’000, abgezogen werden.»
   - [WL ZH 2025 S. 16](../../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0094.md) `zh-wl-2025__c0094` – «rückforderbaren noch anrechenbaren ausländischen Quellensteuern abgezogen werden.»
+  - [ZStB 30.1](../../chunks/zh/dauernd/zh-zstb-30-1/zh-zstb-30-1__c0006.md) `zh-zstb-30-1__c0006` – «(ohne Darlehen und Bankguthaben aller Art)»
+  - [ZStB 30.1](../../chunks/zh/dauernd/zh-zstb-30-1/zh-zstb-30-1__c0005.md) `zh-zstb-30-1__c0005` – «Eine Kumulation von Pauschalabzug und tatsächlichen Kosten ist innerhalb einer Steuerperiode ausgeschlossen.»
 
 <a id="16-4-abzug-behinderungskosten"></a>
 ### Ziff. 16.4 – Behinderungsbedingte Kosten (Code 3160)

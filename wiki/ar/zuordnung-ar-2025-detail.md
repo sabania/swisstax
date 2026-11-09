@@ -1105,8 +1105,9 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - **Rein:** Bank: Gebühren-/Spesenausweis bzw. Steuerauszug → Depot-, Safegebühren, Inkassospesen (effektiv) · Form. 2 Wertschriftenverzeichnis → Total Steuerwerte drittverwaltet (Basis Pauschale)
 - **Rechnen:** effektiv: Σ Depot-/Safegebühren + Inkassospesen; oder Kanton-Pauschale auf Antrag: Bestand ≤ 2 Mio. 3 ‰, max. 6'000; > 2 Mio. 1 ‰, max. 15'000
 - **Regel:** Tatsächliche Depot-/Safegebühren, Inkassospesen oder auf Antrag Pauschale auf dem drittverwalteten Wertschriftenbestand (Total Steuerwerte, ohne eigene Unternehmensaktien, private Darlehen, Geschäftskonti): 3 Promille, max. Fr. 6'000 (bis 2 Mio.); über 2 Mio. 1 Promille, max. Fr. 15'000. Nicht abziehbar: Courtagen, Emissionsabgaben, Anlage-/Steuerberatung, Karten-Gebühren.
-- **Beachten:** Basis ohne Aktien/GmbH-Anteile eigener Unternehmen, privat gewährte Darlehen, Geschäftskonti
+- **Beachten:** Basis Pauschale = Total der Spalte Steuerwerte im Wertschriftenverzeichnis (Form. 2), d.h. auch private Bankkonten, abzüglich nur: Aktien/GmbH-Anteile eigener Unternehmen, privat gewährte Darlehen, geschäftliche Bankkonti (anders als ZH/SG/TG, die Bankguthaben ausnehmen)
 - **Beachten:** Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Beratung, Bancomat-/Kreditkartengebühren
+- **Bund:** Keine Bundesspalte: Kantonswert eintragen, die Steuerverwaltung passt die Bundessteuer automatisch an (ar-wl-2025__c0179); belegt sind beim Bund nur effektive Verwahrungskosten (bund-wl-2a-2025__c0056).
 - **Bemerkung:** Code nicht verifiziert (Seite 3 der Steuererklärung ist in der WL nicht als Miniatur abgebildet). Die Textstelle zur 2-Mio.-Grenze ist über die Chunks c0092-c0094 verteilt (Spalten-Layout), Originalseite 15 prüfen.
 - **Quellen:**
   - [WL AR 2025 S. 2](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0003.md) `ar-wl-2025__c0003` – «Fremdverwaltete Wertschriften und Kapitalanlagen 3 ‰, max. jedoch Fr. 6’000»
@@ -1114,6 +1115,9 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0088.md) `ar-wl-2025__c0088` – «vermögen: 1 Promille des drittverwalteten Wertschrif»
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0088.md) `ar-wl-2025__c0088` – «die Finanz-, Anlage-, Erbschafts-, Vorsorge- und Steuerberatung»
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0087.md) `ar-wl-2025__c0087` – «bzw. GmbH-Stammanteile, privat gewährter Darlehen»
+  - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0087.md) `ar-wl-2025__c0087` – «bestand (Total der Spalte»
+  - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0087.md) `ar-wl-2025__c0087` – «und geschäftlicher Bankkonti.»
+  - [WL AR 2025 S. 33](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0179.md) `ar-wl-2025__c0179` – «Anpassungen durch die Steuerverwaltung automatisch vorgenommen»
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0087.md) `ar-wl-2025__c0087` – «Wertschriftenbestand kann auf Antrag folgender»
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0087.md) `ar-wl-2025__c0087` – «den Erwerb und das Anlegen von Vermögenswerten»
   - [WL AR 2025 S. 16](../../chunks/ar/2025/ar-wl-2025/ar-wl-2025__c0088.md) `ar-wl-2025__c0088` – «Gebühren für Bancomat- und Kreditkarten»

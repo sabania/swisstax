@@ -846,6 +846,7 @@ generiert: tools/build_quick.py aus data/zuordnung/sg/2026.yaml (2026-11-09)
 - **Beachten:** Pauschale und tatsächliche Kosten pro Periode nicht kumulierbar; Selbstverwaltung → kein Abzug
 - **Beachten:** Nicht abziehbar: Transaktionskosten, Beratung, aktives Depotmanagement; All-in-Fee je Depot schätzen (ohne 15'000)
 - **Beachten:** Bund: gleiche Abzugsregeln wie Kanton; UJ: Pauschale nach Dauer kürzen
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2026__c0060); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Quellen:**
   - [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) `sg-form-1-2026-uj__c0008` – «16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220»
   - [StG SG Art. 44](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-44-t1.md) `sg-stg-2026__art-44-t1` – «können die Kosten der Verwaltung durch Dritte»

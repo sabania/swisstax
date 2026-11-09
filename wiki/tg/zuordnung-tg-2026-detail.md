@@ -2124,9 +2124,11 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2026.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Depotauszug Bank → Steuerwert der durch Dritte verwalteten Wertschriften (Basis) · Depotgebührenabrechnung Bank → effektive Kosten (nur bei höherem Nachweis)
 - **Rechnen:** Pauschal: min(2‰ × Steuerwert durch Dritte verwalteter Wertschriften des PV; Fr. 6'000) oder höhere effektive Kosten mit Nachweis → Code 148
 - **Regel:** Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, höchstens Fr. 6'000 (Darlehen, Bankguthaben, nichtkotierte qualifizierte Beteiligungen nicht in der Basis); höherer Nachweis vorbehalten. Abziehbar: Depotgebühren; nicht abziehbar: Kommissionen, Anlageberater, Tresor.
+- **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Basis ohne Darlehen, Bankguthaben aller Art, nichtkotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
 - **Beachten:** Nicht abziehbar: Kontoführungsgebühren, Anlageberater, Kommissionen/Spesen An-/Verkauf, Tresor für Schmuck/Bilder
 - **Beachten:** Ziffer: WL nennt Ziff. 7, Formular-Chunk zeigt «17» (Layout) → Original-PDF S. 2 prüfen
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2026__c0060); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Bemerkung:** Ziffernbezeichnung im Formular-Chunk (c0007) ist durch Layout verfälscht («11.–19.»); Wegleitung nennt Ziff. 1–10 (Ziff. 7 = Vermögensverwaltungskosten). Original-PDF Seite 2 prüfen.
 - **Quellen:**
   - [Formular 2 TG 2026 S. 2](../../chunks/tg/2026/tg-form-02-2026/tg-form-02-2026__c0006.md) `tg-form-02-2026__c0006` – «17. Vermögensverwaltungskosten Code 148»

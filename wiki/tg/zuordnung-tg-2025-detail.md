@@ -2265,9 +2265,11 @@ generiert: tools/build_quick.py aus data/zuordnung/tg/2025.yaml (2026-11-09)
 - **Rein:** Steuerauszug/Depotverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften PV (Bemessung) · Depotgebühren-/Verwaltungskostenausweis Bank → effektive Kosten (falls höher)
 - **Rechnen:** Kanton: min(2 Promille × Steuerwert drittverwalteter Wertschriften PV; 6'000) oder höhere nachgewiesene Kosten → Code 148 (Zeile 7), vom Bruttoertrag ab
 - **Regel:** Pauschal 2 Promille des Steuerwerts der durch Dritte verwalteten Wertschriften des Privatvermögens, max. Fr. 6'000; Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen zählen nicht zur Bemessung. Nachweis höherer Kosten vorbehalten. Nur Depotgebühren/Verwaltung – nicht Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresormiete.
+- **Beachten:** Formular 2 überträgt nur ein Total in Ziff. 4: Kantonsspalte nach Abzug Code 148; Bundesspalte siehe «Bund»
 - **Beachten:** Bemessung ohne Darlehen, Bankguthaben und nicht kotierte qualifizierte Beteiligungen (§ 22 Abs. 2 StG)
 - **Beachten:** Nicht abziehbar: Kontoführung, Anlageberatung, Kommissionen/Spesen An-/Verkauf, Tresor-/Schrankfachmiete
 - **Beachten:** Zeile 7 gemäss WL (PDF-Text zeigt «17.»); Ertrag nach Abzug via Ziff. 9 → Steuererklärung Ziff. 4
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2025__c0056); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Bemerkung:** Zifferbezeichnung im Formular 2 (2025) in der PDF-Extraktion unklar ('17.'); Wegleitung nennt 'Ziffer 7' – Code 148 ist massgebend.
 - **Quellen:**
   - [Formular 2 TG 2025 S. 2](../../chunks/tg/2025/tg-form-02-2025/tg-form-02-2025__c0006.md) `tg-form-02-2025__c0006` – «17. Vermögensverwaltungskosten   Code 148»

@@ -88,3 +88,10 @@ Ausfüllregel Nettolohn. Pakete: dist/steuerwiki-plugin.tgz, dist/steuerwiki-ch-
 Haiku: ganze Fälle 108/109 und 107/109. Sonnet: Praxis 39/40, Blind 13/14, Positionen 9/10, Ablage 8/8, Fälle ZH/SG/TG fehlerfrei.
 Daten: ZH Fristerstreckung nach Fristablauf, Kinderalimente (Empfänger versteuert), Unterhalt ZH «bis Entscheid beilegen» (Nr. 11).
 Modellempfehlung in openclaw/README.md; BOOTSTRAP.md im Agent-Workspace entfernen.
+
+## [2026-11-09] ingest | ZStB 30.1 (Verwaltungskosten Wertschriften ZH) + Verwaltungskosten-Pauschale in Fällen
+- Neue Quelle `zh-zstb-30-1` (Weisung, gültig ab 27.9.2023): Pauschale 3 ‰ nur auf drittverwalteten Wertschriften, ohne Bankguthaben; Pauschale oder effektiv.
+- `data/zuordnung` ZH/SG/TG 2025+2026, AR 2025: Feld «Bund» (belegt nur effektive Verwahrungskosten, bund-wl-2a; Bundes-Pauschale nicht belegt → Vorbehalt); AR-Basis = Total Spalte Steuerwerte inkl. private Konten.
+- `formular`: Ausfüllregel «Wertschriften im Bankdepot → Verwaltungskosten-Pauschale prüfen»; `wert bund … ` zeigt bei kantonal geregelten Schlüsseln die Kantonswerte (Haiku q13).
+- Einstieg: Kantonskürzel auch nach dem OpenClaw-Zeitstempel «[… UTC] TG: …». Musterlösungen ZH/TG/AR (eval/faelle-2025.yaml) um die Pauschale ergänzt (Prüferbefund S1: Referenz unvollständig).
+- Entscheidungsvorlage Nr. 11 nachgeprüft: WL-Text verlangt Belege nur zu 13.3 (zh-wl-2025__c0080) → bleibt offen, Agent rät weiter zum Beilegen.

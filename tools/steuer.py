@@ -366,6 +366,18 @@ def wert(jur, jahr, begriff, n=8) -> str:
             out.append(f"  Hinweis: {cut(r['bemerkung'], 300)}")
         out.append(f"  Quelle: {q_line(r.get('quellen'))}")
     if j == "bund":
+        # Beim Bund nicht gesondert geregelt → die Kantonswerte gleich mitliefern (Frage nennt oft einen Kanton)
+        na_keys = [r["key"] for r in hits if r.get("status") == "na"]
+        kz = []
+        for k in na_keys:
+            for kt in ("zh", "sg", "tg", "ar"):
+                for r in L()["werte"]:
+                    if r["jur"] == kt and r["jahr"] == jahr and r["key"] == k and r.get("status") != "na":
+                        kz.append(f"- **{kt.upper()}** {k} = **{fmt_wert(r)}** · {st(r)} – {cut(r.get('text') or '', 160)} · "
+                                  f"Quelle: {q_line(r.get('quellen'))}")
+        if kz:
+            out += ["", f"**Kantonal geregelt – Werte je Kanton {jahr}** (die Frage nennt einen Kanton → dessen Zeile gilt; "
+                    "Details mit Bundesspalte: `wert <kt> " + jahr + " " + str(begriff) + "`):"] + kz
         out += ["", "Nur Bund. Nennt die Frage einen Kanton (z.B. «TG: …»), `wert <kt> " + jahr + " " + str(begriff) +
                 "` aufrufen – liefert Kanton und Bund; kantonale Formulare können für den Bund eigene Ansätze führen."]
     if j != "bund":
@@ -468,7 +480,7 @@ def position_block(p, voll=True) -> list[str]:
     if lim:
         out.append("- **Limite:** " + " · ".join(lim))
     if p.get("bund"):
-        out.append(f"- **Bund:** {cut(p['bund'], 260)}")
+        out.append(f"- **Bund:** {cut(p['bund'], 320)}")
     if p.get("beachten"):
         out.append("- **Beachten:** " + " · ".join(cut(sj(x), 180) for x in p["beachten"][: (5 if voll else 3)]))
     if p.get("belege"):
@@ -795,7 +807,12 @@ def formular(kt, jahr) -> str:
             "- Vermögen: Reinvermögen/steuerbares Vermögen gesamt = Vermögenswerte − Schulden; Sozialabzüge auf dem Vermögen nur in "
             "ihren eigenen Ziffern (danach), steuerfreie Beträge, die nur im Tarif wirken (Zeile «Tarif»), gar nicht abziehen.",
             "- Vorsorgeguthaben (2. Säule, Säule 3a) sind bis zur Fälligkeit kein steuerbares Vermögen – nicht deklarieren, nicht nachfragen "
-            "(ZH zh-wl-2025__c0154, SG sg-wl-2025__c0107, AR ar-wl-2025__c0111, TG tg-wl-2025__c0139).",
+            "(ZH zh-wl-2025__c0154, SG sg-wl-2025__c0107, AR ar-wl-2025__c0111, TG tg-wl-2025__c0139)."]
+    vk = [p for p in rows if p.get("key") == "abzug.verwaltungskosten_wertschriften" and p.get("status") != "offen"]
+    if vk:
+        out.append(f"- Wertschriften in einem Bankdepot → Verwaltungskosten auch ohne Gebührenbeleg prüfen (Pauschale Kanton): {zf(vk[0])} – "
+                   f"{cut(vk[0].get('berechnung'), 150)}. Basis (was zählt mit?) und Bundesspalte: `position {j} {jahr} {vk[0]['ziffer'] if not str(vk[0]['ziffer']).startswith('Form') else 'verwaltungskosten'}`.")
+    out += [
             "- Alle Totale mit Ziffer ausweisen und mit `rechne` rechnen (nie im Kopf); steuerbares Einkommen Kanton und Bund auf Plausibilität vergleichen."]
     return "\n".join(out)
 

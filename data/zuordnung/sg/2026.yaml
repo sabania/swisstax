@@ -1374,6 +1374,7 @@ positionen:
   regel: 'Kosten der Verwaltung durch Dritte abziehbar (nicht Selbstverwaltung, nicht Anlageberatung/Courtagen). Wahl zwischen tatsächlichen Kosten und widerlegbarer Pauschale: 2 Promille bis Fr. 3 Mio.
     Wertschriftenvermögen, 1 Promille darüber, max. Fr. 15''000; Bemessungsgrundlage ohne Geschäftsvermögen, Darlehen, selbstverwaltete Titel und Kryptowährungen. Pauschalabzug bei unterjähriger Steuerpflicht
     anteilig (MB 8/2026).'
+  bund: 'Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2026__c0060); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).'
   quellen:
   - chunk: sg-form-1-2026-uj__c0008
     zitat: 16.1 Verwaltungskosten für Wertschriften und sonstige Kapitalanlagen 220

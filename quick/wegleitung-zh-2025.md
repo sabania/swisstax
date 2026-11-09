@@ -275,9 +275,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 ### 16.3 · Kosten für die Verwaltung des beweglichen Privatvermögens (Code 283) ☑️
 - **Rein:** Depot-/Verwaltungsgebührenabrechnung Bank → effektive Verwaltungs- und Verwahrungskosten · Wertschriftenverzeichnis → Steuerwert der durch Dritte verwalteten Wertschriften
 - **Rechnen:** Pauschal min(3 ‰ × Steuerwert drittverwalteter Wertschriften; 6’000) oder höhere effektive Kosten mit vollem Nachweis (Code 283)
+- **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb und Veräusserung von Wertschriften
 - **Beachten:** Abziehbar auch: weder rückforderbare noch anrechenbare ausländische Quellensteuern
-- **Beachten:** Details: Weisung Zürcher Steuerbuch Nr. 30.1
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#16-3-abzug-verwaltungskosten-wertschriften) · [Formular 300 ZH 2025 S. 3](../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0008.md)
 
 ### 16.4 · Behinderungsbedingte Kosten (Code 3160) ☑️

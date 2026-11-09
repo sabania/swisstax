@@ -871,9 +871,11 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Rein:** Bank-/Verwaltungsabrechnung, Depotgebühren-Ausweis → effektive Verwaltungs-/Verwahrungskosten · Steuerauszug/Dividendenabrechnung → nicht rückforderbare, nicht anrechenbare ausländische Quellensteuern
 - **Rechnen:** Pauschal min(3‰ × Steuerwert drittverwaltete Wertschriften; 6'000) oder effektiv (voll nachweisen) + nicht rückforderbare ausl. QSt → Code 283
 - **Regel:** Abziehbar sind Kosten der Verwaltung und Verwahrung durch Dritte sowie nicht rückforderbare/anrechenbare ausländische Quellensteuern; nicht abziehbar Erwerbs-/Veräusserungskosten und Aufwendungen für Anschaffung/Wertvermehrung. Bei Verwaltung durch Dritte pauschal 3 Promille des Steuerwerts der verwalteten Wertschriften, maximal CHF 6'000, oder effektiv (Bezahlung und Abzugsfähigkeit voll nachweisen).
+- **Beachten:** Basis Pauschale: nur Wertschriften im Depot (durch Dritte verwahrt/verwaltet) – ohne Darlehen und Bankguthaben aller Art (ZStB 30.1); Pauschale oder effektiv, nicht beides
 - **Beachten:** Nicht abziehbar: Kosten für Erwerb/Veräusserung von Wertschriften, Anschaffung/Wertvermehrung
 - **Beachten:** Details: Weisung ZStB 30.1 (Kosten Verwaltung Wertschriften Privatvermögen)
 - **Beachten:** Bund: Depot- und Safegebühren inkl. Inkasso-/Affidavitspesen; keine Entschädigung für eigene Bemühungen
+- **Bund:** Belegt sind nur effektive Verwahrungskosten (Depot-, Safegebühren, Inkassospesen; bund-wl-2a-2026__c0060); eine Bundes-Pauschale ist im Wiki nicht belegt → Bundesspalte effektiv (ohne Gebührenausweis 0) oder Kantonspauschale nur mit Vorbehalt (Fachperson).
 - **Quellen:**
   - [WL ZH 2026 UJ S. 15–16](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0091.md) `zh-wl-2026-uj__c0091` – «können 3‰ des Steuerwerts dieser durch Dritte verwalteten Wertschriften, maximal»
   - [WL ZH 2026 UJ S. 15](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0090.md) `zh-wl-2026-uj__c0090` – «Bei beweglichem Privatvermögen können die Kosten der Verwaltung durch Dritte und die weder»
@@ -881,6 +883,8 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
   - [WL ZH 2026 UJ S. 15–16](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0091.md) `zh-wl-2026-uj__c0091` – «die Kosten für den Erwerb und die Veräusserung von Wertschriften.»
   - [WL ZH 2026 UJ S. 16](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0092.md) `zh-wl-2026-uj__c0092` – «Weisung finden Sie im Zürcher Steuerbuch Nr. 30.1»
   - [WL 2a 2026 S. 8](../../chunks/bund/2026/bund-wl-2a-2026/bund-wl-2a-2026__c0060.md) `bund-wl-2a-2026__c0060` – «Nicht zulässig ist die Anrechnung einer Entschädigung für ei-»
+  - [ZStB 30.1](../../chunks/zh/dauernd/zh-zstb-30-1/zh-zstb-30-1__c0006.md) `zh-zstb-30-1__c0006` – «(ohne Darlehen und Bankguthaben aller Art)»
+  - [ZStB 30.1](../../chunks/zh/dauernd/zh-zstb-30-1/zh-zstb-30-1__c0005.md) `zh-zstb-30-1__c0005` – «Eine Kumulation von Pauschalabzug und tatsächlichen Kosten ist innerhalb einer Steuerperiode ausgeschlossen.»
 
 <a id="16-4-abzug-behinderungskosten"></a>
 ### Ziff. 16.4 – Behinderungsbedingte Kosten (Code 3160)
