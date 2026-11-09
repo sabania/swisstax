@@ -36,7 +36,7 @@ def main():
         "description": "Steuer-Wiki Schweiz (Bund, AR, SG, TG, ZH; Steuerjahre 2025/2026): Belege prüfen und ablegen, "
                        "Steuererklärung ausfüllen (DrTax-Positionen) – Skills und Lookup-Tools mit Fundstellen.",
         "author": {"name": "Steuer-Wiki"},
-        "keywords": ["steuern", "schweiz", "steuererklaerung", "m-files", "drtax"],
+        "keywords": ["steuern", "schweiz", "steuererklaerung", "belege", "ablage"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     srv = {"command": "python3", "args": ["${CLAUDE_PLUGIN_ROOT}/tools/mcp_server.py"]}
     (out / ".mcp.json").write_text(json.dumps({"mcpServers": {"steuerwiki": srv}}, indent=2), encoding="utf-8")
