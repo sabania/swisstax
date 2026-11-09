@@ -1,0 +1,2929 @@
+# Werkzeugtest – Holdout: Eingaben, die unabhängige Agenten (ohne Kenntnis des Werkzeugs) formuliert haben, wie ein Agent oder eine
+# Treuhänderin sie tippt (Alltag, Fachbegriff, Kompositum, Abkürzung, Ziffer/Code, mehrere Wörter), mit erwartetem Eckwert/Ziffer.
+# Erstellt 09.11.2026; nur messen, nicht darauf tunen. Auswertung: python3 eval/werkzeug_test.py eval/werkzeug-holdout.yaml
+faelle:
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - drittbetreuung.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Pendler
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: GA
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kilometerpauschale Auto
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Mittagessen
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kantine verbilligt
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Wochenaufenthalter Verpflegung
+  erwartet:
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Schichtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Nebenerwerb Pauschale
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Krankenkasse
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: KK Praemien
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Versicherungsabzug ledig
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Saeule 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: 3a Nachzahlung
+  erwartet:
+  - saeule3a.einkauf
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Doppelverdiener
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Arztkosten Selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Vergabungen
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Parteibeitraege
+  erwartet:
+  - parteispenden.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Liegenschaftsunterhalt Pauschale
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Verheiratetenabzug
+  erwartet:
+  - sozialabzug.verheiratete
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Elterntarif
+  erwartet:
+  - steuerbetrag.abzug_kind
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Lottogewinn steuerfrei
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Kapitalauszahlung PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2025'
+  eingabe: Art. 36 DBG
+  erwartet:
+  - tarif.steuerfrei_alleinstehend
+  - tarif.steuerfrei_verheiratet
+  - tarif.hoechstsatz_ab_alleinstehend
+  - tarif.hoechstsatz_ab_verheiratet
+  art: ziffer
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Pendler
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: öV Abo Arbeitsweg
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Kilometerpauschale Auto
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Mittagessen
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Nachtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Wochenaufenthalter
+  erwartet:
+  - berufskosten.wochenaufenthalt.unterkunft
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Berufsauslagenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Nebenjob Pauschale
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Krankenkasse
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: KK Praemien ledig
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Versicherungsabzug Kind
+  erwartet:
+  - versicherung.kind
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Ziff. 16.6
+  erwartet:
+  - drittbetreuung.max
+  art: ziffer
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Ziffer 22.1
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: ziffer
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Spenden gemeinnuetzig
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Parteibeitraege
+  erwartet:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Unterhaltskosten Liegenschaft Pauschale
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Vermoegenssteuer Freibetrag
+  erwartet:
+  - vermoegen.freibetrag_alleinstehend
+  - vermoegen.freibetrag_verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Steuerfuss
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Abgabefrist Steuererklaerung
+  erwartet:
+  - verfahren.einreichefrist
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Fristverlaengerung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2025'
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - drittbetreuung.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Pendlerabzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: GA öV Arbeitsweg
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Auto pro km
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  - berufskosten.fahrkosten.motorrad_km
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Mittagessen
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Lohnausweis Feld G
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: ziffer
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Schichtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Wochenaufenthalter Zimmer
+  erwartet:
+  - berufskosten.wochenaufenthalt.unterkunft
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Nebenerwerb
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Krankenkasse
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.verheiratet
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.verheiratet
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Versicherungsabzug ohne PK
+  erwartet:
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Ausgleichszins Vorauszahlung
+  erwartet:
+  - bezug.ausgleichszins
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Saeule 3a ohne Pensionskasse
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.max
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Krankheitskosten Selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Spenden
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Parteispenden
+  erwartet:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Unterhaltspauschale Liegenschaft
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind_vorschule
+  - sozialabzug.kind_schule
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Ausbildungskostenabzug
+  erwartet:
+  - sozialabzug.kind_ausbildung_auswaerts
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Vermoegensfreibetrag
+  erwartet:
+  - vermoegen.freibetrag_alleinstehend
+  - vermoegen.freibetrag_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Lottogewinn steuerfrei
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Steuerfuss Kanton
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Fristverlaengerung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2025'
+  eingabe: Kapitalauszahlung PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kinderbetreuungskosten
+  erwartet:
+  - drittbetreuung.max
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Pendler
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: GA Abzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kilometerpauschale Auto
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Töff Kilometer
+  erwartet:
+  - berufskosten.fahrkosten.motorrad_km
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Velo Arbeitsweg
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Mittagessen auswaerts
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Berufsauslagenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Nebenjob
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Büro zu Hause
+  erwartet:
+  - berufskosten.homeoffice
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: KK Prämien
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.verheiratet
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Versicherungsabzug pro Kind
+  erwartet:
+  - versicherung.kind
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Selbstbehalt Ziff. 22
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: ziffer
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: gemeinnuetzige Zuwendungen
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Mitgliederbeitrag Partei
+  erwartet:
+  - parteispenden.max
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Liegenschaftsunterhalt Pauschale
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  - sozialabzug.kind_ausbildung_auswaerts
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: AHV-Rentner Abzug
+  erwartet:
+  - sozialabzug.alter_iv
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Vermoegensfreibetrag
+  erwartet:
+  - vermoegen.freibetrag_alleinstehend
+  - vermoegen.freibetrag_verheiratet
+  - vermoegen.freibetrag_kind
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Feuerwehr Entschädigung
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Staatssteuerfuss
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Frist verlaengern
+  erwartet:
+  - verfahren.fristerstreckung
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Abgabetermin Steuererklaerung
+  erwartet:
+  - verfahren.einreichefrist
+  - verfahren.fristerstreckung
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: eFisc
+  erwartet:
+  - verfahren.abgabeweg
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Steuerraten Fälligkeit
+  erwartet:
+  - bezug.provisorisch
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2025'
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Pendlerabzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: GA öV
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Autokosten pro km
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Fahrrad
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Mittagessen auswaerts
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Wochenaufenthalter
+  erwartet:
+  - berufskosten.wochenaufenthalt.unterkunft
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Berufsauslagen Pauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Nebenjob
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Arbeitszimmer zuhause
+  erwartet:
+  - berufskosten.homeoffice
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Krankenkassenpraemien
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Sparzinsen Ehepaar
+  erwartet:
+  - versicherung.verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: KK Zuschlag Kind
+  erwartet:
+  - versicherung.kind
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Doppelverdiener
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung Alter
+  erwartet:
+  - drittbetreuung.altersgrenze
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Arztkosten Selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Spendenabzug
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Parteispenden
+  erwartet:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Unterhaltspauschale Liegenschaft
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind_vorschule
+  - sozialabzug.kind_schule
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kinderabzug Student
+  erwartet:
+  - sozialabzug.kind_ausbildung
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Vermoegensfreibetrag
+  erwartet:
+  - vermoegen.freibetrag_alleinstehend
+  - vermoegen.freibetrag_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Steuerfuss Kanton
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Fristverlaengerung Gebuehr
+  erwartet:
+  - verfahren.fristerstreckung
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Raten Steuerrechnung
+  erwartet:
+  - bezug.provisorisch
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2025'
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Pendlerabzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: öV Abo Arbeitsweg
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Kilometerentschaedigung Privatauto
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Mittagessen auswärts
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Kantine Arbeitgeber verbilligt
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Wochenaufenthalter Zimmer
+  erwartet:
+  - berufskosten.wochenaufenthalt.unterkunft
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  - berufskosten.uebrige.fix
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Nebenjob
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Homeoffice Arbeitszimmer
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Krankenkassenprämien
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: KK Praemien Alleinstehende
+  erwartet:
+  - versicherung.alleinstehend
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Versicherungsabzug Kind
+  erwartet:
+  - versicherung.kind
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Sparzinsen Ehepaar ohne PK
+  erwartet:
+  - versicherung.verheiratet_ohne_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: 3a Einkauf Beitragslücken
+  erwartet:
+  - saeule3a.einkauf
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: beide Ehegatten erwerbstätig
+  erwartet:
+  - zweiverdiener.max
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Ziff. 16.6
+  erwartet:
+  - drittbetreuung.max
+  art: ziffer
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Arztkosten
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Spendenabzug
+  erwartet:
+  - spenden.max_satz
+  - spenden.min
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Parteispende Ehepaar
+  erwartet:
+  - parteispenden.max_verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Unterhaltskosten Liegenschaft Pauschale
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Vermoegensfreibetrag verheiratet
+  erwartet:
+  - vermoegen.freibetrag_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Steuerfuss Kanton
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Spitzensteuersatz
+  erwartet:
+  - tarif.hoechstsatz_ab_alleinstehend
+  - tarif.hoechstsatz_ab_verheiratet
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Abgabefrist Steuererklaerung
+  erwartet:
+  - verfahren.einreichefrist
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  eingabe: Fristverlaengerung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Pendlerabzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: GA Abo
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kilometerpauschale Auto
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Velo zur Arbeit
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Motorrad pro km
+  erwartet:
+  - berufskosten.fahrkosten.motorrad_km
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Mittagessen auswaerts
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kantine verbilligt
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Nachtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Wochenaufenthalter
+  erwartet:
+  - berufskosten.wochenaufenthalt.unterkunft
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Nebenjob Pauschale
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Homeoffice Zimmer
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: KK Praemien
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Sparzinsen
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.alleinstehend
+  - versicherung.verheiratet_ohne_vorsorge
+  - versicherung.alleinstehend_ohne_vorsorge
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Versicherungspraemien pro Kind
+  erwartet:
+  - versicherung.kind
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: 3a
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  - saeule3a.max_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Saeule 3a ohne Pensionskasse
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: 3a Einkauf Beitragsluecken
+  erwartet:
+  - saeule3a.einkauf
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kita
+  erwartet:
+  - drittbetreuung.max
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Arztkosten Selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Vergabungen gemeinnuetzig
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Art. 33a DBG
+  erwartet:
+  - spenden.min
+  - spenden.max_satz
+  art: ziffer
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Parteispenden
+  erwartet:
+  - parteispenden.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Liegenschaftsunterhalt Pauschale
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  - sozialabzug.kind_ausbildung
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Unterstuetzung Eltern
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Elterntarif
+  erwartet:
+  - steuerbetrag.abzug_kind
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  - steuerfrei.kleingewinn
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  eingabe: Art. 36 DBG
+  erwartet:
+  - tarif.steuerfrei_alleinstehend
+  - tarif.steuerfrei_verheiratet
+  - tarif.hoechstsatz_ab_alleinstehend
+  - tarif.hoechstsatz_ab_verheiratet
+  - steuerbetrag.abzug_kind
+  - tarif.mindeststeuer
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - '16.2'
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Mittagessen
+  erwartet:
+  - Form. 4 Ziff. 2.1
+  - Form. 4 Ziff. 2.2
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Zahnarzt
+  erwartet:
+  - '21.1'
+  - Form. 6 Rückseite Krankheitskosten
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Spenden Hilfswerk
+  erwartet:
+  - '21.3'
+  - Form. 5 Rückseite Teil A
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Nebenjob
+  erwartet:
+  - '1.2'
+  - Form. 4 Ziff. 5
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - Form. 7 Abschnitt B.a
+  - '5'
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Verrechnungssteueranspruch
+  erwartet:
+  - Form. 2 Code 999
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Teilbesteuerung
+  erwartet:
+  - '4.4'
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Rueckkaufswert Lebensversicherung
+  erwartet:
+  - '30.3'
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Ergaenzungsleistungen
+  erwartet:
+  - 8.2-8.3
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - '23.1'
+  - '23.2'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - '14'
+  - Form. 6 Teil A
+  - '4.1'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Versicherungsabzug
+  erwartet:
+  - '14'
+  - Form. 6 Teil A
+  - Form. 6 Teil B/C
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - '16.2'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '11'
+  - Form. 5 Teil A
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - '16.4'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Doppelverdienerabzug
+  erwartet:
+  - '17'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - '13.1'
+  - 40.1-40.3
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: PK Einkauf
+  erwartet:
+  - '13.2'
+  - Lohnausweis Ziff. 10.2
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: VSt
+  erwartet:
+  - Form. 2 Code 999
+  - Form. 2 Spalte A/B
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: KK Praemien
+  erwartet:
+  - '14'
+  - Form. 6 Teil A
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: öV
+  erwartet:
+  - Form. 4 Ziff. 1.1
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: GA
+  erwartet:
+  - Form. 4 Ziff. 1.1
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: ALV Taggeld
+  erwartet:
+  - '3.4'
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Ziff. 15
+  erwartet:
+  - '15'
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Code 220
+  erwartet:
+  - '16.1'
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Form. 4 Ziff. 3
+  erwartet:
+  - Form. 4 Ziff. 3.1
+  - Form. 4 Ziff. 3.2
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: '23.2'
+  erwartet:
+  - '23.2'
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Wertschriftenverzeichnis Kolonne A
+  erwartet:
+  - Form. 2 Spalte A/B
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Alimente bezahlt
+  erwartet:
+  - '12.1'
+  - '12.2'
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Auto Arbeitsweg km
+  erwartet:
+  - Form. 4 Ziff. 1.3
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Freibetrag Vermoegen verheiratet
+  erwartet:
+  - 36.1-36.3
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - 40.1-40.3
+  - '41'
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Schenkung erhalten
+  erwartet:
+  - Form. 2 Code 960-963
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2025'
+  eingabe: Schichtarbeit Verpflegung
+  erwartet:
+  - Form. 4 Ziff. 2.3
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - '16.6'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Mittagessen
+  erwartet:
+  - Form. 360 Ziff. 2.1 (voll)
+  - Form. 360 Ziff. 2.1 (verbilligt)
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Zahnarzt
+  erwartet:
+  - Form. 370 S.1 Teil A Ziff. 2–3
+  - '22.1'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Alimente bezahlt
+  erwartet:
+  - '13.1'
+  - '13.2'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Arbeitslosengeld
+  erwartet:
+  - '3.3'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Lottogewinn
+  erwartet:
+  - 4.1 (Lotterie)
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Pendlerabzug
+  erwartet:
+  - Form. 360 Ziff. 1.1
+  - Form. 360 Ziff. 1.2
+  - Form. 360 Ziff. 1.3
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Krankenkassenpraemien
+  erwartet:
+  - '15'
+  - Form. 365 Teil A Ziff. 1–4
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - '24.1'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - '15'
+  - Form. 365 Teil A Ziff. 1–4
+  - '4.1'
+  - Form. 340 Kolonne A
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Versicherungsabzug
+  erwartet:
+  - '15'
+  - Form. 365 Teil A Ziff. 1–4
+  - Form. 365 Teil B Ziff. 1
+  - Form. 365 Teil B Ziff. 2
+  - Form. 365 Teil C
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - '16.6'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '12'
+  - Form. 355 Spalte Schuldzinsen
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - '17'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Unterstuetzungsabzug
+  erwartet:
+  - '24.2'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - '16.2'
+  - Form. 367
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - 14.1 / 14.2
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: PK Einkauf
+  erwartet:
+  - '16.1'
+  - Lohnausweis Ziff. 10.2
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: VSt Rueckerstattung
+  erwartet:
+  - Form. 340 Totale
+  - Form. 340 Kolonne A
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: KK Prämienverbilligung
+  erwartet:
+  - Form. 365 Teil A Ziff. 6
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: öV GA
+  erwartet:
+  - Form. 360 Ziff. 1.1
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: AHV-Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: '11.1'
+  erwartet:
+  - 11.1 / 11.2
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Ziff. 16.3
+  erwartet:
+  - '16.3'
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Code 324
+  erwartet:
+  - '22.2'
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Form. 360 Ziff. 3
+  erwartet:
+  - Form. 360 Ziff. 3
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Wertschriftenverzeichnis Kolonne A
+  erwartet:
+  - Form. 340 Kolonne A
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - Form. 350 Seite 2 Spalte Eigenmietwert
+  - '6'
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Schichtarbeit
+  erwartet:
+  - Form. 360 Ziff. 2.2
+  - Lohnausweis Ziff. 15
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Wochenaufenthalt
+  erwartet:
+  - Form. 360 Ziff. 4
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Rueckkaufswert Lebensversicherung
+  erwartet:
+  - '30.3'
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Auto Arbeitsweg Kilometer
+  erwartet:
+  - Form. 360 Ziff. 1.3
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Kapitalauszahlung Pensionskasse
+  erwartet:
+  - '40'
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Schulden per 31.12.
+  erwartet:
+  - '34'
+  - Form. 355 Spalte Schuld
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2025'
+  eingabe: Liegenschaft Unterhalt pauschal
+  erwartet:
+  - Form. 350 Seite 2 Spalte Unterhalts- und Verwaltungskosten
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - '15.3'
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Mittagessen auswaerts
+  erwartet:
+  - Form. 4.2 Ziff. 3.1
+  - Form. 4.2 Ziff. 3.2
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Krankenkasse
+  erwartet:
+  - '14'
+  - Form. 5.2 A.1–A.4
+  - Form. 5.2 A.5–A.6
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Zahnarzt Rechnung
+  erwartet:
+  - Form. 5.1 A
+  - Form. 5.1 D
+  - '23.1'
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Alimente bezahlt
+  erwartet:
+  - '12.1'
+  - '12.2'
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Einzelfirma Gewinn
+  erwartet:
+  - '2.1'
+  - '2.2'
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - Form. 7 Steuerwert / Mietwert
+  - '8.1'
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Mutterschaftsentschaedigung
+  erwartet:
+  - '3.3'
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Selbstanzeige
+  erwartet:
+  - Seite 4 Selbstanzeige
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Teilbesteuerung Dividenden
+  erwartet:
+  - '15.6'
+  - Form. 2 Hilfsblatt qualifizierte Beteiligungen
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Depotgebuehren
+  erwartet:
+  - Form. 2 Vermögensverwaltungskosten (Code 148)
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Wochenaufenthalter Unterkunft
+  erwartet:
+  - Form. 4.2 Ziff. 5.1
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - 25.1 b)
+  - 25.1 a) Jg. 2000–2005
+  - 25.1 a) Jg. 2006–2009
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Kinderdrittbetreuung
+  erwartet:
+  - '15.3'
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '11'
+  - Form. 4.1 A
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Versicherungsabzug
+  erwartet:
+  - '14'
+  - Form. 5.2 B
+  - Form. 5.2 C
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - '14'
+  - Form. 5.2 A.1–A.4
+  - Form. 5.2 A.5–A.6
+  - '4'
+  - Form. 2 Spalten 7–9
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - '16.1'
+  - '16.2'
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - '18'
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: 3a
+  erwartet:
+  - '13.1'
+  - '13.2'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: PK Einkauf
+  erwartet:
+  - '15.2'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: VSt zurueckfordern
+  erwartet:
+  - Form. 2 Ziff. 10
+  - Seite 1 Auszahlungskonto
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: GA
+  erwartet:
+  - Form. 4.2 Ziff. 2.1
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: AHV Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: VR Honorar
+  erwartet:
+  - '1.2'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Code 220
+  erwartet:
+  - Form. 4.2 Ziff. 4
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: '30.4'
+  erwartet:
+  - '30.4'
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Formular 4.2 Ziffer 2.2
+  erwartet:
+  - Form. 4.2 Ziff. 2.2
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Wertschriftenverzeichnis Spalte 8
+  erwartet:
+  - Form. 2 Spalten 7–9
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Code 420
+  erwartet:
+  - '30.3'
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Code 388
+  erwartet:
+  - '25.3'
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Auto Arbeitsweg km
+  erwartet:
+  - Form. 4.2 Ziff. 2.3
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - Seite 4 Kapitalleistungen
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Freibetrag Vermoegen alleinstehend
+  erwartet:
+  - '36.2'
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2025'
+  eingabe: Spenden gemeinnuetzige Organisation
+  erwartet:
+  - '23.2'
+  - Form. 6 gemeinnützig
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Kita
+  erwartet:
+  - '16.2'
+  - Form. 10
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: GA Arbeitsweg
+  erwartet:
+  - Form. 4 Ziff. 1.1
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Mittagessen auswaerts
+  erwartet:
+  - Form. 4 Ziff. 2.1
+  - Form. 4 Ziff. 2.2
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Krankenkassenpraemien
+  erwartet:
+  - '14'
+  - Form. 6 Teil A
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Kinderabzug
+  erwartet:
+  - '23.1'
+  - '23.2'
+  - '23.3'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Sparzinsen
+  erwartet:
+  - '14'
+  - Form. 6 Teil A
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '11'
+  - Form. 5 Teil A
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: 3a Einzahlung
+  erwartet:
+  - '13.1'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: PK-Einkauf
+  erwartet:
+  - '13.2'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: VSt Rueckerstattung
+  erwartet:
+  - Form. 2 Total
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: VR-Honorar
+  erwartet:
+  - '1.3'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Ziff. 21.2
+  erwartet:
+  - '21.2'
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Code 142
+  erwartet:
+  - '3.5'
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Code 316
+  erwartet:
+  - '32.2'
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Form. 4 Ziff. 2.3
+  erwartet:
+  - Form. 4 Ziff. 2.3
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Wertschriftenverzeichnis Kolonne A
+  erwartet:
+  - Form. 2 Spalten A/B
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: '23.4'
+  erwartet:
+  - '23.4'
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - '16.4'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Parteispenden
+  erwartet:
+  - '16.3'
+  - Form. 5 S. 2 Teil B
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Spenden an Hilfswerk
+  erwartet:
+  - '21.3'
+  - Form. 5 S. 2 Teil A
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Zahnarztrechnung
+  erwartet:
+  - '21.1'
+  - Form. 6 S. 2
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Eigenmietwert
+  erwartet:
+  - '5'
+  - Form. 7 Abschn. B a
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Liegenschaftsunterhalt Pauschale
+  erwartet:
+  - '15'
+  - Form. 7 Abschn. C
+  - Form. 7Z
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - '17'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Alimente bezahlt
+  erwartet:
+  - '12.1'
+  - '12.2'
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: AHV Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Arbeitslosengeld
+  erwartet:
+  - '3.4'
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Auto Steuerwert Vermoegen
+  erwartet:
+  - '30.4'
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Velo zur Arbeit
+  erwartet:
+  - Form. 4 Ziff. 1.2
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Depotgebuehren
+  erwartet:
+  - '16.1'
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Kryptowaehrungen
+  erwartet:
+  - '30.1'
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - 40-41
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Schenkung erhalten
+  erwartet:
+  - Form. 2 S. 1 (962/963)
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Krankentaggeld
+  erwartet:
+  - '3.3'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2025'
+  eingabe: Teilbesteuerung Dividenden
+  erwartet:
+  - '16.7'
+  art: fach

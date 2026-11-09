@@ -5,6 +5,7 @@
   python3 eval/werkzeug_test.py eval/werkzeug-holdout.yaml --fehler
 Treffer = einer der erwarteten Schlüssel/Ziffern unter den ersten 3 Treffern; «enthaelt» = Text steht in der Ausgabe.
 """
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -23,9 +24,15 @@ def pruefe(c, top=3):
         out = f(j, jahr, e)
         return c["enthaelt"].lower() in out.lower(), out.splitlines()[0][:100]
     if c["befehl"] == "wert":
-        hits = [r["key"] for r in steuer.wert_treffer(j, jahr, e)]
+        if hasattr(steuer, "wert_treffer"):
+            hits = [r["key"] for r in steuer.wert_treffer(j, jahr, e)]
+        else:  # ältere Werkzeugstände: Ausgabe lesen
+            hits = re.findall(r"^- \*\*([\w.]+)\*\* =", steuer.wert(j, jahr, e), re.M)
     else:
-        hits = [str(p["ziffer"]) for p in steuer.position_treffer(j, jahr, e)]
+        if hasattr(steuer, "position_treffer"):
+            hits = [str(p["ziffer"]) for p in steuer.position_treffer(j, jahr, e)]
+        else:
+            hits = [re.sub(r"^Ziff\. ", "", h) for h in re.findall(r"^### \S+ \d{4} · (.+?) · ", steuer.position(j, jahr, e), re.M)]
     ok = any(h in [str(x) for x in c["erwartet"]] for h in hits[:top])
     return ok, " | ".join(hits[:3]) or "–"
 

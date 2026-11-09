@@ -40,14 +40,15 @@ MAXOUT = 9000
 # Alltagswort → Schlüsselpräfix der Eckwerte (data/werte). Treffer haben Vorrang vor der Wortsuche.
 KEYSYN = {
     "sozialabzug.kind steuerbetrag.abzug_kind versicherung.kind vermoegen.freibetrag_kind": "kinderabzug kinder kind kinderabzuege kinderabzugs",
+    "steuerbetrag.abzug_kind": "elterntarif elternabzug steuerbetrag",
     "drittbetreuung": "kita kinderbetreuung drittbetreuung kinderdrittbetreuung krippe hort tagesmutter tagesfamilie tagesschule "
                       "fremdbetreuung fremdbetreute betreuungskosten kinderbetreuungskosten",
     "saeule3a": "3a saeule saeule3a vorsorgekonto selbstvorsorge gebundene",
     "berufskosten.fahrkosten": "pendler pendlerabzug arbeitsweg fahrkosten fahrtkosten km kilometer auto privatauto velo fahrrad "
-                               "oev abo motorrad generalabonnement",
+                               "oev abo motorrad generalabonnement ga halbtax monatsabo jahresabo",
     "berufskosten.verpflegung": "verpflegung mittag mittagessen essen kantine lunch personalrestaurant",
     "berufskosten.uebrige": "berufskosten berufsauslagen uebrige berufspauschale berufskostenpauschale",
-    "berufskosten.homeoffice": "homeoffice arbeitszimmer",
+    "berufskosten.homeoffice": "homeoffice arbeitszimmer heimarbeit buero zuhause",
     "berufskosten.nebenerwerb": "nebenerwerb nebenjob nebenverdienst nebenbeschaeftigung",
     "berufskosten.wochenaufenthalt": "wochenaufenthalt wochenaufenthalter",
     "berufskosten.schichtarbeit": "schicht schichtarbeit nachtarbeit",
@@ -55,7 +56,7 @@ KEYSYN = {
                     "krankenkassenpraemien sparzinsen sparkapital sparkapitalzinsen praemienabzug",
     "krankheitskosten": "krankheitskosten arzt zahnarzt selbstbehalt arztkosten krankheit unfallkosten",
     "liegenschaft": "liegenschaft unterhalt liegenschaftsunterhalt unterhaltspauschale eigenmietwert haus wohneigentum",
-    "parteispenden": "partei parteispende parteispenden",
+    "parteispenden": "partei parteien parteispende parteispenden parteibeitraege",
     "spenden": "spende spenden gemeinnuetzig vergabungen zuwendungen",
     "weiterbildung": "weiterbildung ausbildung kurs umschulung fortbildung weiterbildungskosten",
     "zweiverdiener": "zweiverdiener doppelverdiener zweiverdienerabzug",
@@ -63,11 +64,11 @@ KEYSYN = {
     "sozialabzug.verheiratete": "verheiratetenabzug verheiratete ehepaar ehegattenabzug",
     "sozialabzug.unterstuetzung": "unterstuetzung unterstuetzungsabzug unterstuetzungsbeduerftig",
     "vermoegen": "vermoegen freibetrag vermoegenssteuer",
-    "verfahren": "frist einreichefrist fristerstreckung einreichen abgabe beilagen fristverlaengerung",
-    "bezug": "zins zinsen verzugszins verguetungszins ausgleichszins provisorisch bezug",
+    "verfahren": "frist einreichefrist fristerstreckung einreichen abgabe abgabefrist abgabetermin beilagen fristverlaengerung",
+    "bezug": "zins zinsen verzugszins verguetungszins ausgleichszins provisorisch bezug raten steuerraten faelligkeit vorauszahlung",
     "tarif.steuerfuss_kanton": "steuerfuss",
     "tarif.kapitalleistung_vorsorge": "kapitalleistung kapitalbezug kapitalauszahlung kapitalsteuer",
-    "tarif": "tarif hoechstsatz mindeststeuer steuerfrei",
+    "tarif": "tarif hoechstsatz spitzensteuersatz maximalsatz grenzsteuersatz mindeststeuer steuerfrei",
     "steuerfrei": "lotto lotterie gewinn feuerwehr feuerwehrsold geldspiel",
     # nur Formularpositionen (keine Eckwerte):
     "schuldzinsen schulden": "schuldzins schuldzinsen hypothek hypothekarzins hypothekarzinsen darlehenszins schulden hypothekarschuld",
@@ -76,7 +77,16 @@ KEYSYN = {
     "verrechnungssteuer": "verrechnungssteuer vst verrechnungssteueranspruch rueckerstattung",
     "lotterie": "lotterie lotto lotteriegewinn geldspiel geldspiele einsatzkosten",
     "wertschriften": "wertschriften wertschriftenverzeichnis dividenden depot guthaben vermoegensertrag",
+    "taggelder": "arbeitslosengeld arbeitslosenentschaedigung alv taggeld taggelder krankentaggeld erwerbsausfall mutterschaft",
+    "selbstaendig": "selbstaendig selbststaendig einzelfirma einzelunternehmen geschaeftsgewinn",
+    "teilbesteuerung": "teilbesteuerung qualifizierte beteiligung beteiligungen",
+    "verwaltungskosten": "depotgebuehren depotgebuehr verwaltungskosten vermoegensverwaltung bankspesen",
+    "lebensversicherungen": "rueckkaufswert rueckkaufswerte lebensversicherung lebensversicherungen",
+    "vermoegen.fahrzeuge": "motorfahrzeug motorfahrzeuge fahrzeug fahrzeuge auto",
 }
+# Allgemeine Wortteile: in Komposita wie Stoppwörter (Partei+beiträge, Abgabe+frist)
+GENERISCH = set("beitraege beitrag kosten abzug abzuege pauschale betrag betraege praemien satz frist termin gebuehren "
+                "ansatz grenze limite hoehe".split())
 
 
 def norm(s) -> str:
@@ -174,13 +184,14 @@ def kompositum(w, ts) -> bool:
     for i in range(4, len(w) - 3):
         x, y = w[:i], w[i:]
         xs = [x] + ([x[:-1]] if x.endswith("s") and len(x) > 5 else [])
-        y_stop = y in STOP
+        y_stop = y in STOP or y in GENERISCH
         if not (y_stop or any(teil(y, t) for t in ts)):
             continue
         for x2 in xs:
-            if x2 in STOP and not y_stop:
+            x_stop = x2 in STOP or x2 in GENERISCH
+            if x_stop and not y_stop:
                 return True
-            if not (x2 in STOP) and any(teil(x2, t) for t in ts):
+            if not x_stop and any(teil(x2, t) for t in ts):
                 return True
     return False
 
@@ -264,6 +275,21 @@ def st(r) -> str:
 # ---------------------------------------------------------------- Eckwerte
 def wert_treffer(j, jahr, begriff, n=8):
     rows = [r for r in L()["werte"] if r["jur"] == j and r["jahr"] == str(jahr)]
+    # Gesetzesartikel («Art. 36 DBG», «§ 31 StG») → Eckwerte, deren Fundstelle dieser Artikel ist
+    m = re.search(r"(?:art\.?|artikel|§|par\.?)\s*(\d+[a-z]?)", str(begriff).lower())
+    if m:
+        art = m.group(1)
+        hits = [r for r in rows if any(re.search(r"__(?:art|par)-" + art + r"(?:-t\d+)?$", q.get("chunk") or "")
+                                       for q in r.get("quellen") or [])]
+        if hits:
+            return hits[:n]
+    # Formularziffer («Ziff. 16.6») → Eckwerte der Position
+    z = ist_ziffer(begriff)
+    if z and j != "bund":
+        keys = [k for p in position_treffer(j, jahr, z)[:2] for k in (p.get("werte_keys") or [])]
+        hits = [r for k in dict.fromkeys(keys) for r in rows if r["key"] == k]
+        if hits:
+            return hits[:n]
     qt = expand(toks(begriff), begriff)
     b = norm(begriff).replace(" ", "")
     pref = syn_praefixe(begriff)
@@ -432,7 +458,7 @@ def syn_praefixe(begriff) -> dict:
     out = {}
     for prefs, words in KEYSYN.items():
         ws = words.split()
-        g = sum(1 + (len(x) >= 8) for x in w if any(tm(x, y) or (len(y) >= 6 and kompositum(x, [y])) for y in ws))
+        g = sum(1 + (len(x) >= 8) for x in w if any(tm(x, y) for y in ws) or kompositum(x, ws))
         if g:
             for p in prefs.split():
                 out[p] = max(out.get(p, 0), g)
