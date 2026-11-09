@@ -357,14 +357,16 @@ werte:
 - key: saeule3a.einkauf
   wert: null
   einheit: Text
-  text: 'Nachträglicher Einkauf (Nachzahlung) in die Säule 3a: zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren (ab Beitragsjahr 2025) nicht alle zulässigen Beiträge einbezahlt
-    wurden, im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf; Lücken vor 01.01.2025
-    nicht einkaufbar'
+  text: 'Steuerjahr 2025: Lücken, die vor dem 01.01.2025 entstanden sind, können nicht eingekauft werden (Übergangsbestimmung BVV 3) – ein Einkauf über den ordentlichen Höchstbetrag
+    hinaus kommt erst für Lücken ab Beitragsjahr 2025 in Frage. Regel: Nachzahlung zusätzlich zum ordentlichen Beitrag, sofern in den 10 vorangehenden Jahren nicht alle zulässigen Beiträge einbezahlt
+    wurden und im Einkaufsjahr der volle ordentliche Beitrag geleistet wird; pro Einkaufsjahr höchstens 8 % des oberen BVG-Grenzbetrags (CHF 7''258); je Jahresbeitragslücke nur ein Einkauf'
   gilt_fuer: bund
   rechtsgrundlage: Art. 7a, 7b BVV 3; Übergangsbestimmung Änderung 6.11.2024
   quellen:
   - chunk: bund-bvv3__art-7a-t1
     zitat: in den zehn dem Einkauf vorangehenden Jahren nicht alle für sie maximal zulässigen Beiträge einbezahlt haben
+  - chunk: bund-bvv3__uebergang-disp-u3
+    zitat: die vor Inkrafttreten der Änderung vom 6. November 2024 entstanden sind, können nicht mit einem Einkauf ausgeglichen werden
   - chunk: bund-bvv3__art-7a-t1
     zitat: auf keinen Fall jedoch höher als 8 Prozent des oberen Grenzbetrags nach Artikel 8 Absatz 1 BVG
   - chunk: bund-bvv3__uebergang-disp-u3

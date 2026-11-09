@@ -352,10 +352,13 @@ def wert(jur, jahr, begriff, n=8) -> str:
     for r in hits:
         out.append(f"- **{r['key']}** = **{fmt_wert(r)}** · {st(r)}")
         if r.get("text"):
-            out.append(f"  {cut(r['text'], 300)}")
+            out.append(f"  {cut(r['text'], 480)}")
         if r.get("bemerkung"):
-            out.append(f"  Hinweis: {cut(r['bemerkung'], 240)}")
+            out.append(f"  Hinweis: {cut(r['bemerkung'], 300)}")
         out.append(f"  Quelle: {q_line(r.get('quellen'))}")
+    if j == "bund":
+        out += ["", "Nur Bund. Nennt die Frage einen Kanton (z.B. «TG: …»), `wert <kt> " + jahr + " " + str(begriff) +
+                "` aufrufen – liefert Kanton und Bund; kantonale Formulare können für den Bund eigene Ansätze führen."]
     if j != "bund":
         keys = {r["key"] for r in hits}
         bund = [r for r in L()["werte"] if r["jur"] == "bund" and r["jahr"] == jahr and r["key"] in keys]
