@@ -12,3 +12,30 @@ Letzte Einträge: `grep "^## \[" log.md | tail -5`
 ## [2026-11-09] ingest | Bundesrecht aus Fedlex (Akoma-Ntoso-XML)
 - SPARQL-Auflösung je Steuerjahr 2025/2026: DBG (2025, 2026), StHG, VStG, VStV (korrigierte ELI cc/1966/1585_1641_1624),
   BKV (2025, 2026), LKV, QStV (ab 10.01.2025), VKP (2025, 2026), BVV 3, WEFV → 1 Chunk pro Artikel.
+
+## [2026-11-09] ingest | Kantonsrecht (LexWork AR/SG/TG, ZH-Lex), Praxis und Formulare
+- Gesetze AR/SG/TG aus LexWork-JSON (Jahresfassungen), ZH StG/Verordnungen aus ZH-Lex-PDF (pdfplumber) → 1 Chunk je Artikel/§.
+- Wegleitungen, Formulare, Merkblätter, Steuerbuch (ZH/SG), Steuerpraxis (TG): pdftotext/HTML → Chunk-Pläne (152, Agenten) →
+  `tools/chunk.py`; total 285 Quellen, 8'876 Chunks (Bund 2'890 · ZH 2'136 · SG 1'502 · TG 1'462 · AR 886).
+- Ergänzt: KS 11/18 (Gültigkeit KS 11a ab 2027), TG StP 34/24 Fassung 2025, QStV konsolidiert.
+
+## [2026-11-09] ingest | Datenschicht (Werte, Zuordnungen, Belege) mit wörtlichen Zitaten
+- `data/werte/<jur>/<jahr>.yaml` (10 Dateien, 72 Schlüssel), `data/zuordnung/<kt>/<jahr>.yaml` (7 + AR-2026-Gerüst),
+  `data/belege-teil1..3.yaml` (45 Belegtypen); jedes Zitat maschinell gegen den Chunk geprüft (`tools/validate_data.py`).
+
+## [2026-11-09] verify | Zweitprüfung (Sonnet) + Stichproben (Opus)
+- Kritische Werte gegengeprüft (Bund DBG/BKV, ZH Drittbetreuung, AR Anhang 1, ZH Liegenschaft 20 %, SG Motorrad, ZH Form. 3.4).
+- Strittig gesetzt: AR 2026 Kinderabzüge (Anhang 1 vs. MB 02), TG 2026 Bund-km-Ansatz (WL intern), ZH Leibrenten 40 % vs.
+  Ertragsanteil (StHG Art. 7/72), SG 2026 Parteispenden, TG 2025 Drittbetreuung Bund, AR 2025 Ziff. 13.2 → `reports/offene-punkte.md`.
+
+## [2026-11-09] ingest | Wiki-Seiten (Themen, Überblicke)
+- 31 Themenseiten `wiki/themen/`, 5 Überblicke `wiki/<jur>/<jur>-ueberblick.md` (Sonnet), Links/Chunk-IDs per Lint geprüft.
+
+## [2026-11-09] query | Praxistest Runde 1 (q01–q30) und Umbau Quick-Layer
+- 30 Fragen, 6 Sonnet-Agenten nur mit Wiki: inhaltlich 30/30 korrekt (Review Opus gegen `eval/erwartet.yaml`).
+- Befund Navigation: Quick-Seiten zu gross (bis 144 KB) → kompakte Quick-Tabellen + Detailseiten mit Zitaten
+  (`wiki/<jur>/*-detail.md`), 45 Belegkarten `wiki/belege/`, `quick/belege-ziffern.md`, Frage-Router in `quick/index.md`.
+
+## [2026-11-09] query | Praxistest Runde 2 (q31–q40 + Nachtest q01/q12/q23)
+- 13/13 korrekt, Laufzeit halbiert. Lücke: Steuersätze Kapitalleistungen aus Vorsorge nur im Gesetz → neuer Eckwert
+  `tarif.kapitalleistung_vorsorge` (alle Jurisdiktionen/Jahre, mit Zitat).

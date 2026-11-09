@@ -10,7 +10,7 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2026.yaml (2026-11-09)
 # AR 2026: Welcher Beleg / welche Zahl gehört in welche Ziffer?
 
 > Formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften), 4 (Berufskosten), 5 (Schulden, Zuwendungen, Parteispenden), 6 (Versicherungsprämien, … · Eckwerte: [Kanton](werte-ar-2026.md) · [Bund](werte-bund-2026.md) · [Belege-Relevanz](belege-relevanz.md) · [Beleg × Ziffer](belege-ziffern.md)
-> Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite](../wiki/ar/zuordnung-ar-2026-detail.md) (↗ je Zeile). Status: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen
+> Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite](../wiki/ar/zuordnung-ar-2026-detail.md) (↗ je Zeile). Eine Erklärung für Kanton und Bund: ohne «Bund:»-Vermerk gilt dieselbe Ziffer/Regel auch für die direkte Bundessteuer (Limiten: Kanton / Bund). Status: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen
 
 > **Hinweis:** Gerüst aus 2025 (tools/new_year.py) – Formular und Wegleitung AR 2026 noch nicht publiziert (Stand 09.11.2026). Ziffern/Codes vorbehaltlich Änderungen; alle Positionen offen.
 

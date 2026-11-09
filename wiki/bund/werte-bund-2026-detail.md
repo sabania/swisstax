@@ -637,6 +637,17 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
   - [DBG Art. 36](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-36-t4.md) `bund-dbg-2026__art-36-t4` – «Steuerbeträge unter 25 Franken werden nicht erhoben.»
   - [RS 2-215 S. 4](../../chunks/bund/2026/bund-rs-2-215/bund-rs-2-215__c0019.md) `bund-rs-2-215__c0019` – «Steuerbeträge unter 25 Franken werden nicht erhoben.»
 
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge (Art. 22 DBG) und Zahlungen bei Tod/bleibenden Nachteilen werden gesondert besteuert (volle Jahressteuer, Steuerjahr des Zuflusses); Steuer = ein Fünftel der Tarife nach Art. 36 Abs. 1, 2 und 2bis erster Satz DBG (Bruchteil 1/5); keine Sozialabzüge.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 38 DBG
+- **Bemerkung:** Betrag in CHF je nach Tarif (Verheirateten-/Grundtarif) berechnen; kein einzelner Prozentsatz.
+- **Quellen:**
+  - [DBG Art. 38](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-38.md) `bund-dbg-2026__art-38` – «Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet.»
+  - [DBG Art. 38](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-38.md) `bund-dbg-2026__art-38` – «Die Sozialabzüge werden nicht gewährt.»
+
 ## Verfahren
 
 <a id="verfahren-einreichefrist"></a>

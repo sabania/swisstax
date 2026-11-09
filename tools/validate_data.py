@@ -15,6 +15,7 @@ Schema data/werte/<jur>/<jahr>.yaml:
       wert: 5200                           # Zahl (CHF/%/…) oder null; Text-Regeln in `text`
       einheit: CHF                         # CHF | % | Tage | km | Text
       text: "max. CHF 5'200 pro Person"    # menschenlesbar (optional)
+      kurz: "…"                            # optional: Kurzform für Quick-/Vergleichstabellen (bei Text-Werten)
       gilt_fuer: kanton                    # kanton | bund
       rechtsgrundlage: "§ 26 Abs. 1 lit. a StG"
       quellen:

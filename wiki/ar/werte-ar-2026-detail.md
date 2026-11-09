@@ -476,7 +476,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 - **Wert:** CHF 7'400 (Kinderabzug nach Vollendung des 4. bis zur Vollendung des 15. Altersjahres (indexiert per 1.1.2024).)
 - **Schlüssel:** `sozialabzug.kind_schule` · **gilt für:** kanton · **Status:** ⚠️ strittig
 - **Rechtsgrundlage:** Art. 38 Abs. 1 lit. a Ziff. 2 StG; Anhang 1; MB 02
-- **Bemerkung:** Siehe sozialabzug.kind_vorschule (WL 2025: 7'400).
+- **Bemerkung:** Siehe sozialabzug.kind_vorschule. Anhang 1 StG: 7'400; MB 02 (Stand 18.08.2026, Ziff. 2, ar-mb-02__c0002): 7'000 (= nicht indexierter Gesetzestext); WL 2025: 7'400.
 - **Quellen:**
   - [StG AR Anhang 1 S. 1](../../chunks/ar/2025/ar-stg-anhang-kp/ar-stg-anhang-kp__c0001.md) `ar-stg-anhang-kp__c0001` – «Art. 38 Abs. 1 lit. a Ziff. 2 7'400»
   - [MB AR 02 S. 1](../../chunks/ar/dauernd/ar-mb-02/ar-mb-02__c0002.md) `ar-mb-02__c0002` – «Fr. 7'000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach»
@@ -487,7 +487,7 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 - **Wert:** CHF 11'600 (Kinderabzug nach Vollendung des 15. Altersjahres bis zur Volljährigkeit sowie für volljährige Kinder in beruflicher/schulischer Ausbildung bis zum 26. Altersjahr (indexiert per 1.1.2024). Bei volljährigen Kindern entfällt der Abzug, wenn Einkünfte des Kindes über Fr. 18'000 oder Reinvermögen über Fr. 250'000 (MB 02).)
 - **Schlüssel:** `sozialabzug.kind_ausbildung` · **gilt für:** kanton · **Status:** ⚠️ strittig
 - **Rechtsgrundlage:** Art. 38 Abs. 1 lit. a Ziff. 3 StG; Anhang 1; MB 02
-- **Bemerkung:** Siehe sozialabzug.kind_vorschule (WL 2025: 11'600).
+- **Bemerkung:** Siehe sozialabzug.kind_vorschule. Anhang 1 StG: 11'600; MB 02 (Stand 18.08.2026, Ziff. 2, ar-mb-02__c0002): 11'000 (= nicht indexierter Gesetzestext); WL 2025: 11'600.
 - **Quellen:**
   - [StG AR Anhang 1 S. 1](../../chunks/ar/2025/ar-stg-anhang-kp/ar-stg-anhang-kp__c0001.md) `ar-stg-anhang-kp__c0001` – «Art. 38 Abs. 1 lit. a Ziff. 3 11'600»
   - [MB AR 02 S. 1](../../chunks/ar/dauernd/ar-mb-02/ar-mb-02__c0002.md) `ar-mb-02__c0002` – «Fr. 11‘000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach»
@@ -629,6 +629,18 @@ generiert: tools/build_quick.py aus data/werte/ar/2026.yaml (2026-11-09)
 - **Wert:** In den AR-Quellen kein Mindeststeuerbetrag gefunden.
 - **Schlüssel:** `tarif.mindeststeuer` · **gilt für:** kanton · **Status:** ⬜ offen
 - **Bemerkung:** Art. 96 StG AR (Minimalsteuer 2 Promille des Verkehrswerts) gilt nur für juristische Personen; für natürliche Personen kein Mindeststeuerbetrag gefunden.
+
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Satz der einfachen Steuer: Verheiratetentarif (Ehegatten gemeinsam; Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im Haushalt) 0,75 % bis CHF 400'000, 1,00 % für den übersteigenden Betrag; Alleinstehendentarif 1,00 % bis CHF 400'000, 1,3333 % darüber. Keine Sozialabzüge; Steueranspruch entsteht im Zeitpunkt des Zuflusses.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 41 StG AR
+- **Bemerkung:** Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.
+- **Quellen:**
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «0,7500 Prozent bis Fr. 400 000.– und»
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «1,3333 Prozent für den übersteigenden Betrag»
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «Die Sozialabzüge werden nicht gewährt.»
 
 ## Verfahren
 

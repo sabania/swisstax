@@ -762,3 +762,17 @@ werte:
   gilt_fuer: bund
   status: na
   bemerkung: Bund kennt keinen Ausgleichszins; Verzugs-/Rückerstattungszins 4.00 % und Vergütungszins 0.00 % siehe bezug.verzugszins / bezug.verguetungszins.
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "1/5 der Tarife Art. 36 DBG, keine Sozialabzüge"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge (Art. 22 DBG) und Zahlungen bei Tod/bleibenden Nachteilen werden gesondert besteuert (volle Jahressteuer, Steuerjahr des Zuflusses); Steuer = ein Fünftel der Tarife nach Art. 36 Abs. 1, 2 und 2bis erster Satz DBG (Bruchteil 1/5); keine Sozialabzüge."
+  gilt_fuer: bund
+  rechtsgrundlage: "Art. 38 DBG"
+  quellen:
+  - chunk: bund-dbg-2026__art-38
+    zitat: "Sie wird zu einem Fünftel der Tarife nach Artikel 36 Absätze 1, 2 und 2bis erster Satz berechnet."
+  - chunk: bund-dbg-2026__art-38
+    zitat: "Die Sozialabzüge werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Betrag in CHF je nach Tarif (Verheirateten-/Grundtarif) berechnen; kein einzelner Prozentsatz."

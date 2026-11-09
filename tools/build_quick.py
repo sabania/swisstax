@@ -206,7 +206,9 @@ def write_werte(W):
             for r in rs:
                 label = TAX["werte"].get(r["key"], r["key"])
                 a = anchor(r["key"], seen=seen)
-                hin = kurz(r.get("bemerkung"), 120) if r.get("bemerkung") else ""
+                b_ = re.sub(r"\s+", " ", r.get("bemerkung") or "").strip().replace("|", "/")
+                lim_ = 420 if r.get("status") == "strittig" else 200
+                hin = (("⚠️ " if r.get("status") == "strittig" else "") + (b_ if len(b_) <= lim_ else kurz(b_, lim_))) if b_ else ""
                 if r.get("gilt_fuer") and r.get("gilt_fuer") not in ("kanton", "bund", "beide"):
                     hin = (hin + " · " if hin else "") + f"gilt für: {r['gilt_fuer']}"
                 L.append(f"| {label} <small>`{r['key']}`</small> | **{fmt_kurz(r)}** | {hin} [↗]({det_rel}#{a}) | {first_link(r)} | "
@@ -240,6 +242,8 @@ def fmt_kurz(r) -> str:
         return "n/a"
     if r.get("status") == "offen":
         return "offen"
+    if r.get("kurz"):
+        return str(r["kurz"])
     w = r.get("wert")
     if w is None:
         t = (r.get("text") or "").strip()
@@ -296,7 +300,8 @@ def write_zuordnung(Z, W, B):
         L = [fm({"typ": "zuordnung", "titel": f"Zuordnung Belege → Formular {JUR_SHORT[kt]} {jahr}", "jur": kt, "jahre": [int(jahr)],
                  "generiert": f"tools/build_quick.py aus data/zuordnung/{kt}/{jahr}.yaml ({today()})"}),
              f"# {JUR_SHORT[kt]} {jahr}: Welcher Beleg / welche Zahl gehört in welche Ziffer?", "",
-             head, f"> Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite]({det_rel}) (↗ je Zeile). "
+             head, f"> Kompaktansicht – vollständige Regel, Bund-Hinweis, Zitate: [Detailseite]({det_rel}) (↗ je Zeile). Eine Erklärung für "
+             "Kanton und Bund: ohne «Bund:»-Vermerk gilt dieselbe Ziffer/Regel auch für die direkte Bundessteuer (Limiten: Kanton / Bund). "
              "Status: ✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig · ⬜ offen", ""]
         D = [fm({"typ": "zuordnung-detail", "titel": f"Zuordnung {JUR_SHORT[kt]} {jahr} – Detail", "jur": kt, "jahre": [int(jahr)],
                  "generiert": f"tools/build_quick.py aus data/zuordnung/{kt}/{jahr}.yaml ({today()})"}),
@@ -323,6 +328,8 @@ def write_zuordnung(Z, W, B):
                     lim.append(f"{lab}: {fmt_kurz(x) if x else '–'} / {fmt_kurz(y) if y else '–'}")
                     liml.append(f"  - {TAX['werte'].get(k, k)}: Kanton **{fmt_wert(x) if x else '–'}** · Bund **{fmt_wert(y) if y else '–'}**")
                 kr = kurz(r.get("regel"), 120) + ("<br>" + "<br>".join(lim) if lim else "")
+                if r.get("bund"):
+                    kr += f"<br>Bund: {kurz(r['bund'], 90, satz=False)}"
                 L.append(f"| {r.get('ziffer', '')} | {kurz(r.get('bezeichnung', ''), 110, satz=False)} | {bel} | {kr} [↗]({det_rel}#{a}) | "
                          f"{STATUS_ICON.get(r.get('status', 'offen'), '')} |")
                 D += [f'<a id="{a}"></a>', f"### Ziff. {r.get('ziffer', '?')} – {r.get('bezeichnung', '')}", "",
@@ -394,9 +401,9 @@ def write_belege(B, Z):
             name = f"**[{b.get('name')}](../wiki/belege/beleg-{b['id']}.md)**"
             wof = kurz("; ".join(dict.fromkeys(TAX["positionen"].get(p, p) for p in (b.get("positionen") or []))), 160, satz=False)
             if rel_ == "nein":
-                L.append(f"| {name} | {kurz(b.get('bedingung') or b.get('begruendung') or '', 170)} |")
+                L.append(f"| {name} | {kurz(b.get('bedingung') or b.get('begruendung') or '', 200, satz=False)} |")
             elif rel_ == "bedingt":
-                L.append(f"| {name} | {kurz(b.get('bedingung') or '', 170)} | {wof} |")
+                L.append(f"| {name} | {kurz(b.get('bedingung') or '', 230, satz=False)} | {wof} |")
             else:
                 L.append(f"| {name} | {wof} | {kurz((b.get('hinweise') or [''])[0], 150)} |")
         L.append("")
@@ -452,6 +459,10 @@ ROUTER = [
     ("In welche Ziffer gehört ein Beleg / eine Zahl?", "[Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung Kanton/Jahr (Tabelle unten)"),
     ("Welche Limite / Pauschale / welcher Satz gilt?", "Eckwerte Kanton/Jahr (Tabelle unten) oder [Vergleich 2025](vergleich-2025.md) · [2026](vergleich-2026.md)"),
     ("Kanton vs. Bund vergleichen, mehrere Kantone", "[Vergleich 2025](vergleich-2025.md) · [Vergleich 2026](vergleich-2026.md)"),
+    ("Lohnausweis: Felder F/G, Ziff. 10.2, 13, 15?", "Zuordnung Kanton/Jahr → Abschnitt «Lohnausweis-Regeln» · [Belegkarte Lohnausweis](../wiki/belege/beleg-lohnausweis.md)"),
+    ("Kinderabzug, Sozialabzüge, Vermögensfreibeträge", "Eckwerte → Abschnitt «Sozialabzüge»/«Vermögen» oder [Vergleich 2025](vergleich-2025.md) (AR/SG/TG: Altersstufen `kind_vorschule/_schule/_ausbildung`)"),
+    ("Kapitalbezug 2. Säule / 3a, Renten", "Eckwerte → `tarif.kapitalleistung_vorsorge` · [Renten & Kapitalleistungen](../wiki/themen/renten-kapitalleistungen.md) · [Belegkarte](../wiki/belege/beleg-kapitalleistung-vorsorge.md)"),
+    ("Alimente, Trennung, Konkubinat", "[Unterhaltsbeiträge](../wiki/themen/unterhaltsbeitraege.md) · [Ehepaare & Familie](../wiki/themen/ehepaare-familie.md)"),
     ("Regel im Detail, Sonderfälle, Praxis", "[Themen](../wiki/themen/index.md) (Stichworte unten) → Chunks"),
     ("Fristen, Fristerstreckung, Verfahren, Bezug", "[Fristen & Verfahren](../wiki/themen/fristen-verfahren.md) · Überblick je Kanton"),
     ("Was ändert sich (2026, 2027, Eigenmietwert 2029 …)?", "[Rechtsänderungen](../wiki/themen/rechtsaenderungen.md)"),

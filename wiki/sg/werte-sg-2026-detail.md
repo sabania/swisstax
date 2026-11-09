@@ -649,6 +649,17 @@ generiert: tools/build_quick.py aus data/werte/sg/2026.yaml (2026-11-09)
 - **Rechtsgrundlage:** Art. 88 Abs. 1 StV SG
 - **Bemerkung:** Die Mindeststeuer in Art. 99bis ff. StG betrifft Gewinn-/Kapitalsteuern. Bagatellregel (Art. 88 StV, Stand 1.1.2024) nur informativ.
 
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Einfache Steuer 2,0 % für gemeinsam steuerpflichtige Ehegatten (und Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im gleichen Haushalt), 2,2 % für die übrigen Steuerpflichtigen. Allgemeine Abzüge und Sozialabzüge nicht gewährt; Steueranspruch im Zeitpunkt des Zuflusses.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 52 StG SG
+- **Bemerkung:** Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.
+- **Quellen:**
+  - [StG SG Art. 52](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-52.md) `sg-stg-2026__art-52` – «Die einfache Steuer beträgt 2,0 Prozent für gemeinsam steuerpflichtige Ehegatten und 2,2 Prozent für die übrigen Steuerpflichtigen.»
+  - [StG SG Art. 52](../../chunks/sg/2026/sg-stg-2026/sg-stg-2026__art-52.md) `sg-stg-2026__art-52` – «Die allgemeinen Abzüge und die Sozialabzüge werden nicht gewährt.»
+
 ## Verfahren
 
 <a id="verfahren-einreichefrist"></a>

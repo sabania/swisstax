@@ -659,6 +659,17 @@ generiert: tools/build_quick.py aus data/werte/tg/2025.yaml (2026-11-09)
 - **Schlüssel:** `tarif.mindeststeuer` · **gilt für:** kanton · **Status:** ⬜ offen
 - **Bemerkung:** Geprüft (Suche StG/StV/WL 2025): keine Mindeststeuer für natürliche Personen in den Quellen; nur Minimalsteuer vom Grundeigentum bei juristischen Personen (§ 40 StV).
 
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer für das Zuflussjahr. Einfache Steuer 2 % für Verheiratete in ungetrennter Ehe, 2,4 % für die übrigen Steuerpflichtigen. Sozialabzüge nach § 36 nicht gewährt.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** § 39 StG TG
+- **Bemerkung:** Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.
+- **Quellen:**
+  - [StG TG § 39](../../chunks/tg/2025/tg-stg/tg-stg__par-39.md) `tg-stg__par-39` – «Die einfache Steuer beträgt 2 Prozent für Verheiratete in ungetrennter Ehe und 2,4 Prozent für die übrigen Steuerpflichtigen.»
+  - [StG TG § 39](../../chunks/tg/2025/tg-stg/tg-stg__par-39.md) `tg-stg__par-39` – «Die Sozialabzüge gemäss § 36 werden nicht gewährt.»
+
 ## Verfahren
 
 <a id="verfahren-einreichefrist"></a>

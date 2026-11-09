@@ -642,6 +642,18 @@ generiert: tools/build_quick.py aus data/werte/zh/2025.yaml (2026-11-09)
 - **Schlüssel:** `tarif.mindeststeuer` · **gilt für:** kanton · **Status:** ⬜ offen
 - **Bemerkung:** In StG ZH 2025 (§§ 35, 47) und WL 2025 kein Mindeststeuerbetrag gefunden.
 
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge (§ 22) gesondert zum Satz, der sich bei einer jährlichen Leistung von einem Zwanzigstel der Kapitalleistung ergäbe (Rentensatz 1/20); einfache Staatssteuer mindestens 2 % (Mindestsatz); stets volle Jahressteuer; keine Sozialabzüge nach § 34.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** § 37 StG ZH
+- **Bemerkung:** Einfache Staatssteuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.
+- **Quellen:**
+  - [StG ZH § 37](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-37.md) `zh-stg-2025__par-37` – «eine jährliche Leistung von einem Zwanzigstel der Kapitalleistung ausgerichtet würde»
+  - [StG ZH § 37](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-37.md) `zh-stg-2025__par-37` – «mindestens 2 Prozent. Es wird stets eine volle Jahressteuer erhoben.»
+  - [StG ZH § 37](../../chunks/zh/2025/zh-stg-2025/zh-stg-2025__par-37.md) `zh-stg-2025__par-37` – «Die Sozialabzüge gemäss § 34 werden nicht gewährt.»
+
 ## Verfahren
 
 <a id="verfahren-einreichefrist"></a>

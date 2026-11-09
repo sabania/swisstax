@@ -646,6 +646,18 @@ generiert: tools/build_quick.py aus data/werte/ar/2025.yaml (2026-11-09)
 - **Schlüssel:** `tarif.mindeststeuer` · **gilt für:** kanton · **Status:** ⬜ offen
 - **Bemerkung:** Keine Mindeststeuer für natürliche Personen in StG AR/WL 2025 gefunden (Art. 96 StG betrifft Minimalsteuer juristischer Personen). Nachsuche bestätigt: keine Mindeststeuer für natürliche Personen gefunden.
 
+<a id="tarif-kapitalleistung-vorsorge"></a>
+### Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
+
+- **Wert:** Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Satz der einfachen Steuer: Verheiratetentarif (Ehegatten gemeinsam; Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im Haushalt) 0,75 % bis CHF 400'000, 1,00 % für den übersteigenden Betrag; Alleinstehendentarif 1,00 % bis CHF 400'000, 1,3333 % darüber. Keine Sozialabzüge; Steueranspruch entsteht im Zeitpunkt des Zuflusses.
+- **Schlüssel:** `tarif.kapitalleistung_vorsorge` · **gilt für:** kanton · **Status:** ☑️ agent-geprueft
+- **Rechtsgrundlage:** Art. 41 StG AR
+- **Bemerkung:** Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen.
+- **Quellen:**
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «0,7500 Prozent bis Fr. 400 000.– und»
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «1,3333 Prozent für den übersteigenden Betrag»
+  - [StG AR Art. 41](../../chunks/ar/2025/ar-stg/ar-stg__art-41.md) `ar-stg__art-41` – «Die Sozialabzüge werden nicht gewährt.»
+
 ## Verfahren
 
 <a id="verfahren-einreichefrist"></a>

@@ -869,3 +869,19 @@ werte:
   - chunk: zh-wl-2026-uj__c0018
     zitat: Sämtliche Zahlungen, die Sie im Kalenderjahr 2026 vor dem 1. Oktober 2026 geleistet haben
   status: agent-geprueft
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "Satz für 1/20 der Leistung, einf. Staatssteuer mind. 2 %"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge (§ 22) gesondert zum Satz, der sich bei einer jährlichen Leistung von einem Zwanzigstel der Kapitalleistung ergäbe (Rentensatz 1/20); einfache Staatssteuer mindestens 2 % (Mindestsatz); stets volle Jahressteuer; keine Sozialabzüge nach § 34."
+  gilt_fuer: kanton
+  rechtsgrundlage: "§ 37 StG ZH"
+  quellen:
+  - chunk: zh-stg-2026__par-37
+    zitat: "eine jährliche Leistung von einem Zwanzigstel der Kapitalleistung ausgerichtet würde"
+  - chunk: zh-stg-2026__par-37
+    zitat: "mindestens 2 Prozent. Es wird stets eine volle Jahressteuer erhoben."
+  - chunk: zh-stg-2026__par-37
+    zitat: "Die Sozialabzüge gemäss § 34 werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Einfache Staatssteuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."

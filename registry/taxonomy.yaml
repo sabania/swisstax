@@ -176,6 +176,7 @@ werte:
   tarif.hoechstsatz_ab_alleinstehend: Tarif – Höchstsatz ab, Alleinstehende (CHF, Bund)
   tarif.hoechstsatz_ab_verheiratet: Tarif – Höchstsatz ab, Verheiratete (CHF, Bund)
   tarif.mindeststeuer: Mindeststeuerbetrag (CHF)
+  tarif.kapitalleistung_vorsorge: Kapitalleistungen aus Vorsorge – Steuersatz/Tarif (separate Jahressteuer)
   # Verfahren und Bezug
   verfahren.einreichefrist: Einreichefrist Steuererklärung
   verfahren.fristerstreckung: Fristerstreckung – Regel (Private / Treuhänder), Kosten

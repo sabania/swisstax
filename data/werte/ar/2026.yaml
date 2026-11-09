@@ -552,7 +552,7 @@ werte:
     zitat: Fr. 7'000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach
   status: strittig
   abweichung: 'Anhang 1 StG: 7''400; StG-Text und MB 02: 7''000.'
-  bemerkung: 'Siehe sozialabzug.kind_vorschule (WL 2025: 7''400).'
+  bemerkung: "Siehe sozialabzug.kind_vorschule. Anhang 1 StG: 7'400; MB 02 (Stand 18.08.2026, Ziff. 2, ar-mb-02__c0002): 7'000 (= nicht indexierter Gesetzestext); WL 2025: 7'400."
 - key: sozialabzug.kind_ausbildung
   wert: 11600
   einheit: CHF
@@ -567,7 +567,7 @@ werte:
     zitat: Fr. 11‘000 für jedes Kind unter der elterlichen Sorge oder Obhut der steuerpflichtigen Person nach
   status: strittig
   abweichung: 'Anhang 1 StG: 11''600; StG-Text und MB 02: 11''000.'
-  bemerkung: 'Siehe sozialabzug.kind_vorschule (WL 2025: 11''600).'
+  bemerkung: "Siehe sozialabzug.kind_vorschule. Anhang 1 StG: 11'600; MB 02 (Stand 18.08.2026, Ziff. 2, ar-mb-02__c0002): 11'000 (= nicht indexierter Gesetzestext); WL 2025: 11'600."
 - key: sozialabzug.kind_ausbildung_auswaerts
   wert: null
   einheit: CHF
@@ -802,3 +802,19 @@ werte:
     zitat: Der Verfalltag ist jeweils der 30. Juni des Steuerjahres.
   status: extrahiert
   bemerkung: Tabelle nennt letzten Satz ab 01.01.2024; keine 2026-spezifische Bestätigung, aber auch keine spätere Änderung.
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "einf. Steuer verh. 0,75 % / übrige 1,0 % (über 400'000: 1,0 / 1,3333 %)"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Satz der einfachen Steuer: Verheiratetentarif (Ehegatten gemeinsam; Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im Haushalt) 0,75 % bis CHF 400'000, 1,00 % für den übersteigenden Betrag; Alleinstehendentarif 1,00 % bis CHF 400'000, 1,3333 % darüber. Keine Sozialabzüge; Steueranspruch entsteht im Zeitpunkt des Zuflusses."
+  gilt_fuer: kanton
+  rechtsgrundlage: "Art. 41 StG AR"
+  quellen:
+  - chunk: ar-stg__art-41
+    zitat: "0,7500 Prozent bis Fr. 400 000.– und"
+  - chunk: ar-stg__art-41
+    zitat: "1,3333 Prozent für den übersteigenden Betrag"
+  - chunk: ar-stg__art-41
+    zitat: "Die Sozialabzüge werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."

@@ -823,3 +823,17 @@ werte:
     zitat: Der Regierungsrat bestimmt den Zinsfuss für Ausgleichs-, Verzugs- und Rückerstattungszinsen.
   status: agent-geprueft
   bemerkung: Regel extrahiert; konkreter Zinssatz 2026 nicht in den Wiki-Quellen.
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "einf. Steuer 2,0 % (verheiratet) / 2,4 % (übrige)"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer für das Zuflussjahr. Einfache Steuer 2 % für Verheiratete in ungetrennter Ehe, 2,4 % für die übrigen Steuerpflichtigen. Sozialabzüge nach § 36 nicht gewährt."
+  gilt_fuer: kanton
+  rechtsgrundlage: "§ 39 StG TG"
+  quellen:
+  - chunk: tg-stg__par-39
+    zitat: "Die einfache Steuer beträgt 2 Prozent für Verheiratete in ungetrennter Ehe und 2,4 Prozent für die übrigen Steuerpflichtigen."
+  - chunk: tg-stg__par-39
+    zitat: "Die Sozialabzüge gemäss § 36 werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."

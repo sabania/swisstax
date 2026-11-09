@@ -23,9 +23,9 @@ bleibt bei der Fachperson; Unsicherheiten werden als offene Punkte ausgewiesen, 
 ## 2. Belege triagieren
 
 Für jedes Dokument mit `quick/belege-relevanz.md`:
-1. **Typ erkennen** (Spalte «Erkennen an»). Unbekannt → als offener Punkt aufführen.
+1. **Typ erkennen** (Belegkarte `wiki/belege/beleg-<id>.md`, Abschnitt «Erkennen an»; Alltagsbegriffe via `wiki/glossar.md`). Unbekannt → als offener Punkt aufführen.
 2. **Relevanz:** ja / bedingt (Bedingung prüfen) / nein (nicht verwenden; begründen).
-3. **Werte extrahieren** gemäss «Was extrahieren» – mit Beleg-Referenz (Dateiname/Seite).
+3. **Werte extrahieren** gemäss Belegkarte «Was extrahieren» – mit Beleg-Referenz (Dateiname/Seite).
 4. **Fallen** (aus `hinweise`) sofort prüfen, z.B. Lohnausweis Feld F (kein Fahrkostenabzug), Feld G (Verpflegung
    reduziert), Ziff. 10.2 (PK-Einkauf schon im Nettolohn – nicht doppelt), Ziff. 13.3 (Weiterbildung vom Arbeitgeber).
 
@@ -37,7 +37,7 @@ Kinderbetreuungsrechnungen, Weiterbildungsrechnungen, Spendenbestätigungen, Unt
 ## 3. Zuordnen und berechnen
 
 Für jeden extrahierten Wert:
-1. Ziffer und Feldcode aus `quick/zuordnung-<kt>-<jahr>.md` (Spalte «Beleg → Feld»).
+1. Ziffer und Feldcode aus `quick/zuordnung-<kt>-<jahr>.md` (Kurzregel; volle Regel/Feld über ↗ in `wiki/<kt>/zuordnung-<kt>-<jahr>-detail.md`) bzw. `quick/belege-ziffern.md`.
 2. Limite/Pauschale aus `quick/werte-<kt>-<jahr>.md` (Kanton) **und** `quick/werte-bund-<jahr>.md` (direkte
    Bundessteuer) – Abzüge getrennt rechnen, wo sie sich unterscheiden (Fahrkosten-Maximum, Versicherungsabzug,
    Kinderabzug, Drittbetreuung, Weiterbildung, Zweiverdiener, Parteispenden, Krankheitskosten-Selbstbehalt).

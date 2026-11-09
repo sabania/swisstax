@@ -785,3 +785,19 @@ werte:
     zitat: Zinssatz für positive und negative Ausgleichszinsen wird durch den Regierungsrat
   status: extrahiert
   bemerkung: Tabelle nennt letzten Satz ab 01.01.2024; ausdrückliche Bestätigung für 2025 fehlt - als geltend angenommen, bitte prüfen.
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "einf. Steuer verh. 0,75 % / übrige 1,0 % (über 400'000: 1,0 / 1,3333 %)"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Satz der einfachen Steuer: Verheiratetentarif (Ehegatten gemeinsam; Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im Haushalt) 0,75 % bis CHF 400'000, 1,00 % für den übersteigenden Betrag; Alleinstehendentarif 1,00 % bis CHF 400'000, 1,3333 % darüber. Keine Sozialabzüge; Steueranspruch entsteht im Zeitpunkt des Zuflusses."
+  gilt_fuer: kanton
+  rechtsgrundlage: "Art. 41 StG AR"
+  quellen:
+  - chunk: ar-stg__art-41
+    zitat: "0,7500 Prozent bis Fr. 400 000.– und"
+  - chunk: ar-stg__art-41
+    zitat: "1,3333 Prozent für den übersteigenden Betrag"
+  - chunk: ar-stg__art-41
+    zitat: "Die Sozialabzüge werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Gilt gemäss Chunk für 2025 und 2026. Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."

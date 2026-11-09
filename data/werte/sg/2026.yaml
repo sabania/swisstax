@@ -830,3 +830,17 @@ werte:
     zitat: zulasten des Steuerpflichtigen auf dem veranlagten Steuerbetrag ab dem Verfalltag
   status: agent-geprueft
   bemerkung: Regel extrahiert, Zinssatz offen.
+- key: tarif.kapitalleistung_vorsorge
+  kurz: "einf. Steuer 2,0 % (Ehegatten) / 2,2 % (übrige)"
+  wert: null
+  einheit: Text
+  text: "Kapitalleistungen aus Vorsorge gesondert, volle Jahressteuer. Einfache Steuer 2,0 % für gemeinsam steuerpflichtige Ehegatten (und Verwitwete/Getrennte/Geschiedene/Ledige mit Kindern bzw. Unterstützungsbedürftigen im gleichen Haushalt), 2,2 % für die übrigen Steuerpflichtigen. Allgemeine Abzüge und Sozialabzüge nicht gewährt; Steueranspruch im Zeitpunkt des Zuflusses."
+  gilt_fuer: kanton
+  rechtsgrundlage: "Art. 52 StG SG"
+  quellen:
+  - chunk: sg-stg-2026__art-52
+    zitat: "Die einfache Steuer beträgt 2,0 Prozent für gemeinsam steuerpflichtige Ehegatten und 2,2 Prozent für die übrigen Steuerpflichtigen."
+  - chunk: sg-stg-2026__art-52
+    zitat: "Die allgemeinen Abzüge und die Sozialabzüge werden nicht gewährt."
+  status: agent-geprueft
+  bemerkung: "Einfache Steuer; Gesamtbelastung mit Steuerfuss (Kanton/Gemeinde) berechnen."

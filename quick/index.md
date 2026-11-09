@@ -17,6 +17,10 @@ Schnellzugriff für den Steuerexperten-Agenten: erst hier, dann über die Links 
 | In welche Ziffer gehört ein Beleg / eine Zahl? | [Beleg × Ziffer](belege-ziffern.md) bzw. Zuordnung Kanton/Jahr (Tabelle unten) |
 | Welche Limite / Pauschale / welcher Satz gilt? | Eckwerte Kanton/Jahr (Tabelle unten) oder [Vergleich 2025](vergleich-2025.md) · [2026](vergleich-2026.md) |
 | Kanton vs. Bund vergleichen, mehrere Kantone | [Vergleich 2025](vergleich-2025.md) · [Vergleich 2026](vergleich-2026.md) |
+| Lohnausweis: Felder F/G, Ziff. 10.2, 13, 15? | Zuordnung Kanton/Jahr → Abschnitt «Lohnausweis-Regeln» · [Belegkarte Lohnausweis](../wiki/belege/beleg-lohnausweis.md) |
+| Kinderabzug, Sozialabzüge, Vermögensfreibeträge | Eckwerte → Abschnitt «Sozialabzüge»/«Vermögen» oder [Vergleich 2025](vergleich-2025.md) (AR/SG/TG: Altersstufen `kind_vorschule/_schule/_ausbildung`) |
+| Kapitalbezug 2. Säule / 3a, Renten | Eckwerte → `tarif.kapitalleistung_vorsorge` · [Renten & Kapitalleistungen](../wiki/themen/renten-kapitalleistungen.md) · [Belegkarte](../wiki/belege/beleg-kapitalleistung-vorsorge.md) |
+| Alimente, Trennung, Konkubinat | [Unterhaltsbeiträge](../wiki/themen/unterhaltsbeitraege.md) · [Ehepaare & Familie](../wiki/themen/ehepaare-familie.md) |
 | Regel im Detail, Sonderfälle, Praxis | [Themen](../wiki/themen/index.md) (Stichworte unten) → Chunks |
 | Fristen, Fristerstreckung, Verfahren, Bezug | [Fristen & Verfahren](../wiki/themen/fristen-verfahren.md) · Überblick je Kanton |
 | Was ändert sich (2026, 2027, Eigenmietwert 2029 …)? | [Rechtsänderungen](../wiki/themen/rechtsaenderungen.md) |

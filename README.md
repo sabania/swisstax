@@ -21,15 +21,19 @@ verlinktes Markdown-Wiki → Schema-Datei (`AGENTS.md`) mit den Regeln. Ergänzt
 ├── AGENTS.md            Schema: Regeln für Agenten (Routing, Zitierpflicht, Pflege)   ← zuerst lesen
 ├── index.md             Einstiegskarte · log.md: Chronik (ingest/lint/…)
 ├── quick/               SCHICHT 1 – Quick Access (generiert aus data/)
-│   ├── index.md             Matrix Kanton × Jahr
-│   ├── belege-relevanz.md   Dokument → relevant? → Positionen → was extrahieren
-│   ├── zuordnung-<kt>-<jahr>.md   Formularziffer ← Beleg/Feld, Limiten Kanton/Bund
-│   ├── werte-<jur>-<jahr>.md      Eckwerte mit Fundstelle und Status
+│   ├── index.md             Frage → Seite, Matrix Kanton × Jahr, Datenstand/Lücken, Themen
+│   ├── belege-relevanz.md   Dokument → relevant? (ja / bedingt / nein) → Belegkarte
+│   ├── belege-ziffern.md    Beleg × Kanton/Jahr → Formularziffern
+│   ├── zuordnung-<kt>-<jahr>.md   Ziffer · Position · Beleg · Kurzregel · Limite Kanton/Bund (↗ Detail)
+│   ├── werte-<jur>-<jahr>.md      Eckwerte mit Fundstelle und Status (↗ Detail)
 │   └── vergleich-<jahr>.md        alle Jurisdiktionen nebeneinander
 ├── data/                Single Source of Truth für den Quick-Layer (YAML, jede Angabe mit Chunk-ID + wörtlichem Zitat)
 ├── wiki/                SCHICHT 2 – Detailwissen
-│   ├── themen/              Querschnittsthemen (Fahrkosten, Säule 3a, Liegenschaften …) mit Fundstellen
-│   └── <jur>/               Überblick, Quellenkatalog, Zusammenfassungen je Quelle (quellen/)
+│   ├── themen/              31 Querschnittsthemen (Fahrkosten, Säule 3a, Liegenschaften …) mit Fundstellen
+│   ├── belege/              45 Belegkarten (Erkennen an, Was extrahieren, Hinweise je Kanton, Ziffern, Quellen)
+│   ├── glossar.md           Alltags- ↔ Fachbegriffe
+│   └── <jur>/               Überblick (Verfahren/Fristen), zuordnung-…-detail / werte-…-detail (volle Regel + Zitate),
+│                            Quellenkatalog, Zusammenfassungen je Quelle (quellen/)
 ├── sources/<jur>/<jahr>/<id>.md          SCHICHT 3 – Volltexte (verbatim, Seitenmarker)
 ├── chunks/<jur>/<jahr>/<id>/<id>__….md   SCHICHT 3 – RAG-Chunks (≤ ~1'500 Zeichen, Kontextzeile, Metadaten)
 ├── index/chunks.jsonl   alle Chunks + Metadaten + Text (für externe Vektor-/BM25-Indizes)
@@ -92,7 +96,17 @@ python3 tools/lint.py               # Prüfungen (Zitate wörtlich im Chunk, Lin
 
 Unveränderte Gesetzesfassungen werden nicht dupliziert (eine Konsolidierung = ein Eintrag mit mehreren `jahre`).
 
-## Stand
+## Stand (09.11.2026)
 
-Siehe [`log.md`](log.md) und [`reports/`](reports/). Quellenbasis: die Wissensdatenbank-Dateien in `_seed/`
-(Recherche vom 30.10.2026) plus ergänzte Quellen (Fedlex-XML, ESTV-Formulare 2025, Vorgängerfassungen ZStB, VKP ZH).
+- **Quellen:** 285 (Gesetze/Verordnungen als XML/JSON je Artikel, Wegleitungen, Formulare, Merkblätter, Kreis-/Rundschreiben,
+  Steuerbuch/Steuerpraxis) · **Chunks:** 8'876 (Bund 2'890 · ZH 2'136 · SG 1'502 · TG 1'462 · AR 886) · Originale in `raw/`.
+- **Daten:** 10 Werte-Dateien (73 Eckwerte je Jurisdiktion/Jahr), 8 Zuordnungsdateien, 45 Belegtypen – jede Angabe mit
+  wörtlichem Zitat, maschinell geprüft. Status-Übersicht und Arbeitsliste: [`reports/offene-punkte.md`](reports/offene-punkte.md).
+- **Wiki:** 31 Themenseiten, 5 Überblicke, 45 Belegkarten, Detailseiten je Kanton/Jahr, Glossar.
+- **Praxistest** ([`eval/`](eval/)): 40 Treuhänder-Fragen, beantwortet von Agenten nur mit dem Wiki – alle inhaltlich korrekt
+  gegenüber den Soll-Antworten (Review). Erkenntnisse sind in den Quick-Layer eingeflossen.
+- **Lücken:** AR 2026 ohne Formular/Wegleitung (Gerüst, Werte teils strittig); ZH/SG 2026 nur Formular für unterjährige
+  Steuerpflicht; 10 strittige Punkte für die Fachperson. `verifiziert` (✅) setzt nur die Fachperson.
+
+Quellenbasis: die Wissensdatenbank-Dateien in `_seed/` (Recherche vom 30.10.2026) plus ergänzte Quellen (Fedlex-XML,
+ESTV-Formulare 2025, Vorgängerfassungen ZStB, VKP ZH, KS 11/18). Chronik: [`log.md`](log.md).
