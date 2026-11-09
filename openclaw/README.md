@@ -15,6 +15,7 @@ openclaw plugins install dist/steuerwiki-plugin --force --accept-capabilities   
 openclaw plugins inspect steuerwiki                     # Format: bundle (claude) · Bundle capabilities: skills, mcpServers
 cat openclaw/AGENTS.workspace-snippet.md >> <workspace>/AGENTS.md                # L0-Einstieg (≈ 4 KB)
 cp kategorien/<firma>.md <workspace>/KATEGORIEN.md                              # Kategorienliste der Firma (Vorlage: kategorien/vorlage.md)
+rm -f <workspace>/BOOTSTRAP.md                                                  # Erststart-Dialog von OpenClaw («Wie soll ich heissen?») entfernen
 openclaw agent --agent <id> --message "TG 2025: maximaler Fahrkostenabzug?"     # → 1 Aufruf steuerwiki__wert
 ```
 
