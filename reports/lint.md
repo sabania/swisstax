@@ -1,7 +1,7 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 285 · Chunks: 8876 · geprüfte Links: 14083
-- Fehler: 13 · Warnungen: 18
+- Quellen: 285 · Chunks: 8876 · geprüfte Links: 14082
+- Fehler: 12 · Warnungen: 18
 
 ## Status der Daten (Werte/Zuordnungen)
 
@@ -25,7 +25,6 @@
 - L1 index.md: Link nicht auflösbar: wiki/sg/sg-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/tg/tg-ueberblick.md
 - L1 index.md: Link nicht auflösbar: wiki/zh/zh-ueberblick.md
-- L1 AGENTS.md: Link nicht auflösbar: ../chunks/zh/2025/zh-wl-2025/zh-wl-2025__c0042.md
 - L1 quick/index.md: Link nicht auflösbar: ../wiki/bund/bund-ueberblick.md
 - L1 quick/index.md: Link nicht auflösbar: ../wiki/ar/ar-ueberblick.md
 - L1 quick/index.md: Link nicht auflösbar: ../wiki/sg/sg-ueberblick.md

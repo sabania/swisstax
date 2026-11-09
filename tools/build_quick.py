@@ -73,6 +73,8 @@ def fmt_wert(r) -> str:
             ws = f"CHF {w:,.2f}".replace(",", "'").replace(".00", "") if isinstance(w, float) and not float(w).is_integer() else f"CHF {int(w):,}".replace(",", "'")
         elif e == "%":
             ws = f"{w:g} %"
+        elif e in ("Text", "text", None):
+            ws = f"{w:g}"
         else:
             ws = f"{w:g} {e}".strip()
         return ws + (f" ({t})" if t else "")
@@ -138,9 +140,10 @@ def write_werte(W):
              f"[Vergleich aller Jurisdiktionen {jahr}](vergleich-{jahr}.md) · [Quick-Index](index.md)", ""]
         if d.get("hinweis"):
             L += [f"> **Hinweis:** {d['hinweis']}", ""]
-        groups = collections.OrderedDict()
+        groups = collections.OrderedDict((g, []) for g in GROUP_ORDER)
         for r in rows:
             groups.setdefault(group_of(r["key"]), []).append(r)
+        groups = collections.OrderedDict((g, rs) for g, rs in groups.items() if rs)
         for g, rs in groups.items():
             L += [f"## {g}", "", "| Eckwert | Wert | gilt für | Rechtsgrundlage | Quelle | Status |", "|---|---|---|---|---|---|"]
             for r in rs:
@@ -154,6 +157,23 @@ def write_werte(W):
         (Q / f"werte-{jur}-{jahr}.md").write_text("\n".join(L), encoding="utf-8")
 
 
+GROUP_ORDER = ["Berufskosten", "Allgemeine Abzüge", "Vorsorge", "Liegenschaften", "Sozialabzüge", "Vermögen",
+               "Steuerfreie Einkünfte", "Tarif / Steuerfuss", "Verfahren", "Bezug / Zinsen", "Weitere"]
+
+
+def fmt_kurz(r) -> str:
+    """Kompakter Wert für Vergleichstabellen (ohne Erläuterungstext)."""
+    if r.get("status") == "na":
+        return "n/a"
+    if r.get("status") == "offen":
+        return "offen"
+    w = r.get("wert")
+    if w is None:
+        t = (r.get("text") or "").strip()
+        return (t[:70] + "…") if len(t) > 70 else (t or "–")
+    return fmt_wert({**r, "text": None})
+
+
 def write_vergleich(W):
     years = sorted({y for (_, y) in W})
     for y in years:
@@ -161,15 +181,16 @@ def write_vergleich(W):
         L = [fm({"typ": "vergleich", "titel": f"Vergleich Eckwerte {y}", "jur": "multi", "jahre": [int(y)],
                  "generiert": f"tools/build_quick.py ({today()})"}),
              f"# Vergleich der Eckwerte – Steuerjahr {y}", "",
-             "> Je Zelle: Wert · Link zur Fundstelle (Detailseite `werte-<jur>-" + y + "`). Status-Symbole wie auf den Werte-Seiten. "
-             "Kantonale Werte gelten für die Staats- und Gemeindesteuer, Bund für die direkte Bundessteuer.", "",
+             "> Kompaktansicht: Wert · Status · Fundstelle. Bedingungen und Erläuterungen stehen auf den Detailseiten "
+             f"(Spaltenkopf anklicken). Kanton = Staats- und Gemeindesteuer, Bund = direkte Bundessteuer. "
+             "✅ verifiziert · ☑️ agent-geprüft · 🟡 extrahiert · ⚠️ strittig", "",
              "| Eckwert | " + " | ".join(f"[{JUR_SHORT[j]}](werte-{j}-{y}.md)" for j in cols) + " |",
              "|---|" + "---|" * len(cols)]
         by = {j: {r["key"]: r for r in (W[(j, y)].get("werte") or [])} for j in cols}
+        keys = [k for k in TAX["werte"] if any(k in by[j] for j in cols)]
+        keys.sort(key=lambda k: GROUP_ORDER.index(group_of(k)) if group_of(k) in GROUP_ORDER else 99)
         cur = None
-        for k, label in TAX["werte"].items():
-            if not any(k in by[j] for j in cols):
-                continue
+        for k in keys:
             g = group_of(k)
             if g != cur:
                 L.append(f"| **{g}** |" + " |" * len(cols))
@@ -181,8 +202,9 @@ def write_vergleich(W):
                     cells.append("–")
                     continue
                 q = (r.get("quellen") or [{}])[0].get("chunk") or r.get("quelle")
-                cells.append(f"{fmt_wert(r)} {STATUS_ICON.get(r.get('status', 'offen'), '')}" + (f" {clink(q)}" if q and r.get("status") != "na" else ""))
-            L.append(f"| {label} | " + " | ".join(cells) + " |")
+                ok = r.get("status") not in ("na", "offen")
+                cells.append(f"{fmt_kurz(r)}" + (f" {STATUS_ICON.get(r.get('status', ''), '')} {clink(q)}" if ok and q else ""))
+            L.append(f"| {TAX['werte'][k]} | " + " | ".join(cells) + " |")
         (Q / f"vergleich-{y}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 

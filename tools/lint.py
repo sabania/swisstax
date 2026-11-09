@@ -150,7 +150,9 @@ def check_links():
     for p in targets:
         if not p.exists():
             continue
-        for m in LINK.finditer(p.read_text(encoding="utf-8")):
+        txt = re.sub(r"```.*?```", "", p.read_text(encoding="utf-8"), flags=re.S)
+        txt = re.sub(r"`[^`\n]*`", "", txt)  # Code-Beispiele ignorieren
+        for m in LINK.finditer(txt):
             href = m.group(1).split("#")[0]
             if not href or re.match(r"^[a-z]+:", href):
                 continue
