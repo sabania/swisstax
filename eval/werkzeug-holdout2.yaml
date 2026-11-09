@@ -1,0 +1,2261 @@
+# Werkzeugtest – Holdout 2 (frisch, nach dem Tuning erzeugt): Kundenfragen 2026 und das Stichwort, das ein einfacher Agent daraus
+# an das Werkzeug übergibt, mit erwartetem Eckwert/Ziffer. Von unabhängigen Agenten erstellt (09.11.2026); nur messen.
+# Auswertung: python3 eval/werkzeug_test.py eval/werkzeug-holdout2.yaml
+faelle:
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Velo zur Arbeit – kann ich dafür etwas abziehen?
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich pendle ziemlich weit, wie viel kann ich für den Arbeitsweg höchstens abziehen?
+  eingabe: Arbeitsweg Maximum
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Bei mir fährt morgens kein Bus, ich muss mit dem Auto ins Geschäft. Was gibt's pro Kilometer?
+  eingabe: Auto Kilometer
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich kann über Mittag nicht heim und esse auswärts, eine Kantine gibt's nicht. Wie viel darf ich abziehen?
+  eingabe: Verpflegungsabzug
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Bei uns im Betrieb gibt's eine Kantine mit vergünstigtem Zmittag – wie viel Abzug bleibt mir da noch?
+  eingabe: Kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich arbeite Nachtschicht im Spital, gibt es dafür einen speziellen Abzug?
+  eingabe: Nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wie hoch ist die Pauschale für die übrigen Berufskosten bei einem normalen Angestellten?
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe neben meiner Stelle noch einen Nebenjob als Aushilfe am Wochenende – gibt es da auch eine Pauschale für Berufskosten?
+  eingabe: Nebenjob Pauschale
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich schaffe zwei Tage pro Woche von zu Hause aus – kann ich mein Büro in der Wohnung abziehen?
+  eingabe: Arbeitszimmer
+  erwartet:
+  - berufskosten.homeoffice
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich mache berufsbegleitend den eidgenössischen Fachausweis. Wie viel davon kann ich abziehen?
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir sind verheiratet, wie viel von den Krankenkassenprämien können wir abziehen?
+  eingabe: Krankenkassenprämien verheiratet
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.verheiratet_ohne_vorsorge
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin angestellt und in der Pensionskasse – wie viel darf ich 2026 maximal in die 3. Säule einzahlen?
+  eingabe: 3a Maximum
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin selbständig und habe keine Pensionskasse. Wie viel kann ich in die Säule 3a einzahlen und abziehen?
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir arbeiten beide voll – gibt es einen Abzug für Doppelverdiener?
+  eingabe: Doppelverdiener
+  erwartet:
+  - zweiverdiener.max
+  - zweiverdiener.satz
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Was gilt bei der Kinderkrippe? Unsere Tochter ist drei Tage pro Woche dort.
+  eingabe: Kinderkrippe
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Bis zu welchem Alter des Kindes kann ich die Kita- bzw. Hortkosten abziehen?
+  eingabe: Kita Alter
+  erwartet:
+  - drittbetreuung.altersgrenze
+  art: abkuerzung
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich hatte dieses Jahr hohe Zahnarztrechnungen. Ab wann kann ich die abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe 50 Franken ans Rote Kreuz gespendet – ab welchem Betrag sind Spenden überhaupt abziehbar?
+  eingabe: Spenden Minimum
+  erwartet:
+  - spenden.min
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich zahle einen Mitgliederbeitrag bei einer politischen Partei. Kann ich den abziehen, und wie viel?
+  eingabe: Parteibeitrag
+  erwartet:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wie viel Pauschale kann ich für den Unterhalt von meinem Einfamilienhaus abziehen?
+  eingabe: Unterhaltspauschale Liegenschaft
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wird in St. Gallen der Eigenmietwert für das selbstbewohnte Haus irgendwie reduziert?
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Unser Kleiner geht noch nicht in den Kindergarten – wie hoch ist der Kinderabzug für ihn?
+  eingabe: Kinderabzug Vorschulkind
+  erwartet:
+  - sozialabzug.kind_vorschule
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wie viel Vermögen ist bei einem Ehepaar steuerfrei?
+  eingabe: Vermögensfreibetrag Ehepaar
+  erwartet:
+  - vermoegen.freibetrag_verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin bei der Milizfeuerwehr. Muss ich den Sold versteuern?
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe im Swisslos-Lotto 50'000 Franken gewonnen – ist das steuerfrei?
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  art: alltag
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin ledig – ab welchem steuerbaren Einkommen gilt beim Kanton der Höchstsatz von 8,5 %?
+  eingabe: 8,5 %
+  erwartet:
+  - tarif.hoechstsatz_ab_alleinstehend
+  art: ziffer
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin Student, ledig, steuerbares Einkommen etwa 10'000 Franken – zahle ich da überhaupt Kantonssteuer?
+  eingabe: Tarif 0 %
+  erwartet:
+  - tarif.steuerfrei_alleinstehend
+  art: ziffer
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich schaffe die Steuererklärung nicht rechtzeitig. Wie kann ich die Frist verlängern?
+  eingabe: Fristverlängerung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: kompositum
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe die Schlussrechnung zu spät bezahlt – kostet mich das Zins?
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich lasse mir bei der Pensionierung die PK als Kapital auszahlen – wie wird das besteuert?
+  eingabe: Kapitalbezug PK
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Velo ins Geschäft – kann ich dafür etwas abziehen?
+  eingabe: Velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wie viel darf ich im Thurgau höchstens für den Arbeitsweg abziehen?
+  eingabe: Fahrkosten Maximum
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich kann über Mittag nicht heim und esse jeden Tag auswärts – wie viel gibt das im Jahr?
+  eingabe: auswärtige Verpflegung
+  erwartet:
+  - berufskosten.verpflegung.jahr
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Bei uns in der Firma gibt es eine Kantine mit verbilligtem Essen. Was kann ich dann noch abziehen?
+  eingabe: Kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich arbeite Nachtschicht im Spital, gibt es dafür einen Abzug?
+  eingabe: Nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe am Wochenende noch einen Nebenjob im Service – wie läuft das mit den Berufskosten?
+  eingabe: Nebenjob
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich arbeite zwei Tage pro Woche im Homeoffice, kann ich mein Büro zu Hause abziehen?
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Bis zu welchem Betrag darf ich in Ziffer 16.1 meine Weiterbildungskosten eintragen?
+  eingabe: Ziff. 16.1
+  erwartet:
+  - weiterbildung.max
+  art: ziffer
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wir sind verheiratet – wie viel Krankenkassenprämien können wir maximal abziehen?
+  eingabe: Krankenkasse verheiratet
+  erwartet:
+  - versicherung.verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wie viel kann ich 2026 in die 3a einzahlen? Ich habe eine PK über den Arbeitgeber.
+  eingabe: 3a PK
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin selbständig und habe keine Pensionskasse – was liegt bei der Säule 3a drin?
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wir arbeiten beide – gibt es im Thurgau einen Zweiverdienerabzug?
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Was gilt bei der Kinderkrippe? Unsere Kleine ist drei Tage pro Woche dort.
+  eingabe: Kinderkrippe
+  erwartet:
+  - drittbetreuung.max
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Bis zu welchem Alter des Kindes kann man die Kita-Kosten abziehen?
+  eingabe: Kita Alter
+  erwartet:
+  - drittbetreuung.altersgrenze
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich hatte dieses Jahr viele Arzt- und Zahnarztrechnungen – ab welchem Betrag kann ich die abziehen?
+  eingabe: Krankheitskosten Selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe 150 Franken an eine Hilfsorganisation gespendet – zählt das überhaupt?
+  eingabe: Spenden Minimum
+  erwartet:
+  - spenden.min
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: In Ziffer 15.5 trage ich meine Parteibeiträge ein – gibt es da ein Maximum?
+  eingabe: Ziff. 15.5
+  erwartet:
+  - parteispenden.max
+  art: ziffer
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Unser Haus ist über 30 Jahre alt – wie viel Pauschale gibt es für den Unterhalt?
+  eingabe: Hausunterhalt Pauschale
+  erwartet:
+  - liegenschaft.pauschale_alt
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Gibt es im Thurgau einen Abzug vom Eigenmietwert, wenn wir selbst im Haus wohnen?
+  eingabe: Eigenmietwert Abzug
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Unser Sohn ist 22 und studiert in Zürich – wie hoch ist da der Kinderabzug?
+  eingabe: Kinderabzug Student
+  erwartet:
+  - sozialabzug.kind_ausbildung_auswaerts
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich unterstütze meine pflegebedürftige Mutter regelmässig mit Geld – gibt es dafür einen Abzug?
+  eingabe: Unterstützungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin AHV-Rentnerin, gibt es im Kanton einen speziellen Abzug für mich?
+  eingabe: AHV-Rentner Abzug
+  erwartet:
+  - sozialabzug.alter_iv
+  art: abkuerzung
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe gehört, der Thurgau zahlt pro Kind eine Steuergutschrift – stimmt das?
+  eingabe: Steuergutschrift Kind
+  erwartet:
+  - steuerbetrag.abzug_kind
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin geschieden – bis zu welchem Vermögen zahle ich keine Vermögenssteuer?
+  eingabe: Vermögen Freibetrag alleinstehend
+  erwartet:
+  - vermoegen.freibetrag_alleinstehend
+  art: mehrwort
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin bei der Milizfeuerwehr – muss ich den Sold versteuern?
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe im Lotto gewonnen, ist das steuerfrei?
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  art: alltag
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wie hoch ist der Steuerfuss vom Kanton Thurgau für 2026?
+  eingabe: Staatssteuerfuss
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: kompositum
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich schaffe es nicht rechtzeitig mit der Steuererklärung – bis wann kann ich eine Verlängerung beantragen?
+  eingabe: Fristerstreckung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Was passiert, wenn ich die Schlussrechnung zu spät bezahle – kostet das Zins?
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich lasse mir bei der Pensionierung das PK-Kapital auszahlen – wie wird das besteuert?
+  eingabe: PK Kapitalbezug
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit Zug und Bus nach St. Gallen zur Arbeit. Wie viel kann ich dafür höchstens abziehen?
+  eingabe: ÖV Abzug
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Bei uns fährt kein Bus, ich muss mit dem Auto pendeln. Wie viel gibt es pro Kilometer?
+  eingabe: Auto Kilometer
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich fahre mit dem Töff zur Büez. Was darf ich pro Kilometer rechnen?
+  eingabe: Motorrad Kilometer
+  erwartet:
+  - berufskosten.fahrkosten.motorrad_km
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich esse über Mittag auswärts. Wie viel darf ich pro Tag abziehen?
+  eingabe: Verpflegung pro Tag
+  erwartet:
+  - berufskosten.verpflegung.tag
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Bei uns im Betrieb gibt es eine Kantine mit vergünstigtem Essen. Kann ich trotzdem etwas fürs Mittagessen abziehen?
+  eingabe: Kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie hoch ist der Jahreshöchstbetrag nach Art. 16 Abs. 2 StV AR?
+  eingabe: Art. 16 Abs. 2 StV
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: ziffer
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich arbeite im Spital Schicht mit unregelmässigen Zeiten. Gibt es dafür einen Abzug?
+  eingabe: Schichtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin unter der Woche in Zürich und habe dort ein Zimmer. Wie viel kann ich fürs Essen abziehen?
+  eingabe: Wochenaufenthalter Verpflegung
+  erwartet:
+  - berufskosten.wochenaufenthalt.verpflegung_jahr
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie wird die Pauschale für die übrigen Berufsauslagen berechnet?
+  eingabe: Berufsauslagen Pauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.fix
+  - berufskosten.uebrige.max
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich arbeite am Wochenende noch im Service. Gibt es für diesen Nebenjob einen Pauschalabzug?
+  eingabe: Nebenjob Abzug
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich arbeite drei Tage pro Woche im Homeoffice. Kann ich etwas für das Büro zu Hause abziehen?
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich mache berufsbegleitend ein CAS. Wie viel kann ich maximal abziehen?
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie viel Krankenkassenprämien können wir als Ehepaar abziehen?
+  eingabe: Krankenkassenprämien Ehepaar
+  erwartet:
+  - versicherung.verheiratet
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Gibt es beim Prämienabzug noch etwas zusätzlich für die Kinder?
+  eingabe: Prämienabzug Kinder
+  erwartet:
+  - versicherung.kind
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Was gilt 2026 nach Art. 82 BVG als Höchstbetrag für Angestellte mit Pensionskasse?
+  eingabe: Art. 82 BVG
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  art: ziffer
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin selbständig und habe keine PK. Wie viel darf ich in die 3a einzahlen?
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe 2025 nichts in die Säule 3a einbezahlt. Kann ich das 2026 nachholen?
+  eingabe: Säule 3a nachholen
+  erwartet:
+  - saeule3a.einkauf
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Mein Mann und ich arbeiten beide 100 %. Gibt es einen Abzug, weil wir beide verdienen?
+  eingabe: Doppelverdiener Abzug
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: alltag
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Unsere Kleine geht zwei Tage pro Woche in die Kita. Wie viel können wir dafür abziehen?
+  eingabe: Kita Abzug
+  erwartet:
+  - drittbetreuung.max
+  art: abkuerzung
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich hatte dieses Jahr eine teure Zahnarztrechnung. Ab welchem Betrag kann ich sie abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie viel Prozent vom Einkommen darf man für gemeinnützige Zuwendungen höchstens abziehen?
+  eingabe: gemeinnützige Zuwendungen
+  erwartet:
+  - spenden.max_satz
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin Mitglied einer Partei und zahle jedes Jahr einen Beitrag. Kann ich das abziehen?
+  eingabe: Parteibeitrag
+  erwartet:
+  - parteispenden.max
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich vermiete eine Wohnung in einem Haus von 1985. Wie hoch ist der Pauschalabzug für den Unterhalt?
+  eingabe: Unterhaltspauschale altes Haus
+  erwartet:
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wird beim Eigenmietwert vom selbstbewohnten Haus in Ausserrhoden etwas abgezogen?
+  eingabe: Eigenmietwert
+  erwartet:
+  - liegenschaft.eigenmietwert_abzug
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Unser Sohn ist zweijährig. Wie hoch ist der Kinderabzug?
+  eingabe: Kinderabzug Kleinkind
+  erwartet:
+  - sozialabzug.kind_vorschule
+  art: mehrwort
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin bei der Feuerwehr. Muss ich den Sold versteuern?
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe im Swisslos-Lotto 20'000 Franken gewonnen. Ist das steuerfrei?
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie viele Einheiten beträgt 2026 der Steuerfuss vom Kanton Appenzell Ausserrhoden?
+  eingabe: Steuerfuss Kanton
+  erwartet:
+  - tarif.steuerfuss_kanton
+  art: fach
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin spät dran mit der Steuererklärung. Kostet es etwas, wenn ich nochmals eine Fristverlängerung beantrage?
+  eingabe: Fristverlängerung Gebühr
+  erwartet:
+  - verfahren.fristerstreckung
+  art: kompositum
+- befehl: wert
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe die Schlussrechnung zu spät bezahlt. Wie viel Verzugszins verlangt der Kanton?
+  eingabe: Verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Velo zur Arbeit – gibt's dafür einen Abzug?
+  eingabe: velo
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wie viel kann ich in Zürich höchstens für den Arbeitsweg abziehen?
+  eingabe: arbeitsweg höchstbetrag
+  erwartet:
+  - berufskosten.fahrkosten.max
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich muss ausnahmsweise mit dem Auto zur Arbeit, weil es keinen ÖV gibt – wie viel gibt's pro Kilometer?
+  eingabe: auto kilometer
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich esse über Mittag immer auswärts, der Chef zahlt nichts dran. Was darf ich abziehen?
+  eingabe: auswärtige verpflegung
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Bei uns im Betrieb gibt's eine Kantine mit vergünstigtem Zmittag – kann ich trotzdem etwas geltend machen?
+  eingabe: kantine
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich arbeite im Spital immer wieder Nachtschicht, gibt es dafür eine Pauschale?
+  eingabe: nachtschicht
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wie hoch ist die Berufskostenpauschale maximal?
+  eingabe: berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.max
+  - berufskosten.uebrige.satz
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich schaffe zwei Tage pro Woche im Homeoffice – kann ich dafür etwas abziehen?
+  eingabe: homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich hab noch einen Nebenjob als Aushilfe am Wochenende – was kann ich da an Auslagen abziehen?
+  eingabe: nebenjob
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich mache berufsbegleitend ein CAS – wie viel von den Weiterbildungskosten kann ich abziehen?
+  eingabe: weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wie viel darf ich 2026 in die Säule 3a einzahlen, wenn ich auch in der 2. Säule versichert bin?
+  eingabe: 3a 2. säule
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  art: ziffer
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bin selbständig und habe keine Pensionskasse – wie viel kann ich in die 3a einzahlen?
+  eingabe: 3a selbständig ohne pk
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Stimmt es, dass man neu verpasste 3a-Jahre nachzahlen kann?
+  eingabe: 3a nachzahlen
+  erwartet:
+  - saeule3a.einkauf
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Meine Frau und ich sind beide berufstätig – gibt es einen Abzug, weil wir zwei Einkommen haben?
+  eingabe: zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.max
+  - zweiverdiener.satz
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Unsere Kleine geht drei Tage pro Woche in die Kita. Wie viel davon können wir abziehen?
+  eingabe: kita
+  erwartet:
+  - drittbetreuung.max
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wie hoch ist der Kinderabzug im Kanton Zürich?
+  eingabe: kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Mein Sohn ist 21 und macht noch die Lehre – bekommen wir den Kinderabzug noch?
+  eingabe: kinderabzug lehre volljährig
+  erwartet:
+  - sozialabzug.kind_ausbildung
+  - sozialabzug.kind
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich unterstütze meinen kranken Bruder finanziell – kann ich das irgendwie abziehen?
+  eingabe: unterstützungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bin ledig und angestellt – wie viel von den Krankenkassenprämien kann ich abziehen?
+  eingabe: versicherungsprämien ledig
+  erwartet:
+  - versicherung.alleinstehend
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ab welchem Betrag kann ich Krankheitskosten wie die Zahnarztrechnung überhaupt abziehen?
+  eingabe: krankheitskosten selbstbehalt
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe der Glückskette 50 Franken gespendet – zählt das überhaupt?
+  eingabe: spenden mindestbetrag
+  erwartet:
+  - spenden.min
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bin ledig und zahle einen Mitgliederbeitrag an meine Partei – ist das abziehbar und bis wie viel?
+  eingabe: parteibeiträge
+  erwartet:
+  - parteispenden.max
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wir haben eine Eigentumswohnung – wie viel Pauschale gibt's für den Unterhalt?
+  eingabe: unterhaltskosten pauschale liegenschaft
+  erwartet:
+  - liegenschaft.pauschale_neu
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bin bei der Milizfeuerwehr – wie viel vom Sold ist steuerfrei?
+  eingabe: feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe im Swisslos-Lotto gewonnen – muss ich das versteuern?
+  eingabe: lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Bis wann muss ich die Steuererklärung 2026 abgeben?
+  eingabe: abgabefrist
+  erwartet:
+  - verfahren.einreichefrist
+  art: kompositum
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich schaffe die Steuererklärung nicht bis Ende März – kann ich verlängern lassen?
+  eingabe: fristverlängerung
+  erwartet:
+  - verfahren.fristerstreckung
+  art: alltag
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe die Schlussrechnung zu spät bezahlt – wie viel Zins verlangt der Kanton?
+  eingabe: verzugszins
+  erwartet:
+  - bezug.verzugszins
+  art: fach
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich lasse mir das PK-Kapital auszahlen – wie wird das besteuert?
+  eingabe: pk kapitalbezug
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: abkuerzung
+- befehl: wert
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Gibt es in Zürich einen speziellen Abzug für AHV-Rentner?
+  eingabe: ahv rentner abzug
+  erwartet:
+  - sozialabzug.alter_iv
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Zug zur Arbeit und habe ein Monatsabo. Was kann ich da abziehen?
+  eingabe: ÖV-Abo
+  erwartet:
+  - Form. 360 Ziff. 1.1
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Unsere Kleine geht drei Tage pro Woche in die Kinderkrippe. Was gilt da?
+  eingabe: Kinderkrippe
+  erwartet:
+  - '16.6'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wo trage ich die Dividenden von meinen Nestlé-Aktien ein?
+  eingabe: Dividenden
+  erwartet:
+  - '4.1'
+  - Form. 340 (Kolonnen A/B, Codes)
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich fahre bei jedem Wetter mit dem Velo ins Geschäft. Gibt es dafür einen Abzug?
+  eingabe: Velo Arbeitsweg
+  erwartet:
+  - Form. 360 Ziff. 1.2
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich muss mit dem Auto zur Arbeit, weil am Morgen früh noch kein Bus fährt. Wie mache ich das geltend?
+  eingabe: Auto Arbeitsweg
+  erwartet:
+  - Form. 360 Ziff. 1.3
+  - Form. 360 Ziff. 7
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Bei uns im Betrieb gibt es eine Kantine, das Essen ist vom Arbeitgeber vergünstigt. Kann ich trotzdem etwas abziehen?
+  eingabe: Kantine vergünstigt
+  erwartet:
+  - Form. 360 Ziff. 2.1 (verbilligt)
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Unter der Woche wohne ich in einem Zimmer beim Arbeitsort, am Wochenende bin ich daheim bei der Familie. Was kann ich da geltend machen?
+  eingabe: Wochenaufenthalt
+  erwartet:
+  - Form. 360 Ziff. 4
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wo kommen die Zinsen für unsere Hypothek hin?
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '12'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich zahle meiner Ex-Frau jeden Monat Alimente für sie selber. Wo kann ich das abziehen?
+  eingabe: Alimente Ex-Frau
+  erwartet:
+  - '13.1'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bekomme vom Vater meiner Tochter (8) jeden Monat Unterhalt für sie. Muss ich das angeben?
+  eingabe: Kinderalimente erhalten
+  erwartet:
+  - '5.2'
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe gehört, dass man ab 2026 fehlende Säule-3a-Beiträge aus früheren Jahren nachzahlen kann. Wo kommt das hin?
+  eingabe: 3a Einkauf
+  erwartet:
+  - '14.3'
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe mich dieses Jahr mit 20'000 Franken in die PK eingekauft. Wo trage ich das ein?
+  eingabe: PK-Einkauf
+  erwartet:
+  - '16.1'
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wo trage ich die Krankenkassenprämien für die ganze Familie ein?
+  eingabe: Krankenkassenprämien
+  erwartet:
+  - '15'
+  - Form. 365 Teil A (Ziff. 1–6)
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich hatte eine teure Zahnbehandlung, die Krankenkasse zahlt nichts. Kann ich die Rechnungen abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - '22.1'
+  - Form. 370 Teil A–E
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe der Glückskette und dem Roten Kreuz etwas gespendet. Ist das abziehbar?
+  eingabe: Spenden
+  erwartet:
+  - '22.2'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich bin Mitglied in einer Partei und zahle jedes Jahr einen Beitrag. Kann ich den abziehen?
+  eingabe: Parteibeiträge
+  erwartet:
+  - 16.5 (Parteien)
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich mache berufsbegleitend den eidgenössischen Fachausweis, der Arbeitgeber zahlt einen Teil. Was kann ich von den Kurskosten abziehen?
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - '16.2'
+  - Form. 367
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Meine Frau und ich arbeiten beide. Gibt es dafür einen speziellen Abzug?
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - '17'
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich war ein halbes Jahr arbeitslos und habe das Geld direkt von der Arbeitslosenkasse bekommen. Wo gebe ich das an?
+  eingabe: Arbeitslosengeld
+  erwartet:
+  - '3.3'
+  art: alltag
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: In der Wegleitung steht etwas zu Ziffer 24.2. Um was geht es da?
+  eingabe: Ziff. 24.2
+  erwartet:
+  - '24.2'
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Mein Vater bekommt seit diesem Jahr die AHV. Wo kommt die Rente hin?
+  eingabe: AHV-Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe mir bei der Pensionierung das ganze Pensionskassenguthaben als Kapital auszahlen lassen. Wo muss das rein?
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - '40'
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe im Lotto 3'000 Franken gewonnen. Muss ich das angeben?
+  eingabe: Lottogewinn
+  erwartet:
+  - '4.1'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Muss ich mein Auto auch beim Vermögen angeben?
+  eingabe: Auto Vermögen
+  erwartet:
+  - '30.4'
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Ich habe ein paar Goldvreneli und etwas Bargeld im Tresor zu Hause. Wo gehört das hin?
+  eingabe: Bargeld Gold
+  erwartet:
+  - '30.2'
+  art: mehrwort
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wir wohnen im eigenen Einfamilienhaus. Wo kommt der Eigenmietwert hin?
+  eingabe: Eigenmietwert
+  erwartet:
+  - '6'
+  - Form. 350
+  art: fach
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Meine Eltern haben mir 50'000 Franken als Erbvorbezug gegeben. Muss ich das deklarieren?
+  eingabe: Erbvorbezug
+  erwartet:
+  - 50.1 / 50.2
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Die Bank verrechnet mir jedes Jahr Depotgebühren. Kann ich die abziehen?
+  eingabe: Depotgebühren
+  erwartet:
+  - '16.3'
+  art: kompositum
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Was gehört eigentlich in Code 220?
+  eingabe: Code 220
+  erwartet:
+  - 11.1 / 11.2
+  art: ziffer
+- befehl: position
+  jur: zh
+  jahr: '2026'
+  kundenfrage: Wofür ist das Formular 365 da, muss ich das ausfüllen?
+  eingabe: Form. 365
+  erwartet:
+  - Form. 365 Teil A (Ziff. 1–6)
+  - Form. 365 Teil B (Ziff. 1–3)
+  art: ziffer
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Zug zur Arbeit, wie viel kann ich bei der Bundessteuer dafür abziehen?
+  eingabe: Fahrkosten ÖV
+  erwartet:
+  - berufskosten.fahrkosten.max
+  - berufskosten.fahrkosten.arbeitstage
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Bei uns fährt kein Bus, ich muss mit dem Auto zur Arbeit. Was gibt das pro Kilometer?
+  eingabe: Auto Kilometer
+  erwartet:
+  - berufskosten.fahrkosten.auto_km
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich fahre bei jedem Wetter mit dem Velo ins Büro, gibt's dafür auch etwas?
+  eingabe: Velopauschale
+  erwartet:
+  - berufskosten.fahrkosten.velo_pauschale
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich kann über Mittag nicht heim und esse im Restaurant. Wie viel darf ich pro Tag abziehen?
+  eingabe: Mittagessen auswärts
+  erwartet:
+  - berufskosten.verpflegung.tag
+  - berufskosten.verpflegung.jahr
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Unsere Firma hat eine Kantine mit vergünstigtem Essen, was kann ich da noch abziehen?
+  eingabe: Kantine verbilligt
+  erwartet:
+  - berufskosten.verpflegung.verbilligt_tag
+  - berufskosten.verpflegung.verbilligt_jahr
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich arbeite im Schichtbetrieb, teilweise auch nachts. Gibt es dafür einen Abzug?
+  eingabe: Schichtarbeit
+  erwartet:
+  - berufskosten.schichtarbeit.tag
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Wie hoch ist eigentlich die Pauschale für die übrigen Berufskosten bei Angestellten?
+  eingabe: Berufskostenpauschale
+  erwartet:
+  - berufskosten.uebrige.satz
+  - berufskosten.uebrige.min
+  - berufskosten.uebrige.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich gebe nebenbei noch Gitarrenunterricht. Kann ich für diesen Nebenverdienst Berufskosten pauschal abziehen?
+  eingabe: Nebenerwerb Pauschale
+  erwartet:
+  - berufskosten.nebenerwerb.satz
+  - berufskosten.nebenerwerb.min
+  - berufskosten.nebenerwerb.max
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich arbeite zwei Tage pro Woche im Homeoffice, kann ich mein Arbeitszimmer daheim abziehen?
+  eingabe: Homeoffice
+  erwartet:
+  - berufskosten.homeoffice
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich mache gerade den eidgenössischen Fachausweis, bis zu welchem Betrag sind die Kurskosten abziehbar?
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - weiterbildung.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Wie viel darf ich 2026 höchstens in die 3a einzahlen? Ich bin angestellt und habe eine Pensionskasse.
+  eingabe: 3a Maximum
+  erwartet:
+  - saeule3a.max_mit_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich bin selbständig und habe keine PK, wie viel kann ich in die Säule 3a einzahlen?
+  eingabe: 3a ohne PK
+  erwartet:
+  - saeule3a.max_ohne_2saeule
+  - saeule3a.satz_ohne_2saeule
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Was gilt bei der Kinderkrippe? Unser Sohn ist drei Tage pro Woche dort.
+  eingabe: Kinderkrippe
+  erwartet:
+  - drittbetreuung.max
+  - drittbetreuung.altersgrenze
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Wir sind verheiratet und arbeiten beide 100 Prozent. Gibt es dafür einen speziellen Abzug?
+  eingabe: Zweiverdienerabzug
+  erwartet:
+  - zweiverdiener.satz
+  - zweiverdiener.min
+  - zweiverdiener.max
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich hatte dieses Jahr eine teure Zahnbehandlung, die die Kasse nicht zahlt. Kann ich das abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - krankheitskosten.selbstbehalt_satz
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich habe dem Roten Kreuz 80 Franken gespendet, kann ich das bei der Bundessteuer abziehen?
+  eingabe: Spenden Mindestbetrag
+  erwartet:
+  - spenden.min
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Bis zu wie viel Prozent vom Einkommen kann man gemeinnützige Zuwendungen höchstens abziehen?
+  eingabe: Vergabungen Höchstsatz
+  erwartet:
+  - spenden.max_satz
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich zahle jedes Jahr Mitgliederbeiträge an meine Partei. Darf ich die abziehen und bis wie viel?
+  eingabe: Parteibeiträge
+  erwartet:
+  - parteispenden.max
+  - parteispenden.max_verheiratet
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Was können wir als Ehepaar für Krankenkasse und Versicherungen abziehen?
+  eingabe: Versicherungsabzug Ehepaar
+  erwartet:
+  - versicherung.verheiratet
+  - versicherung.verheiratet_ohne_vorsorge
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Unser Einfamilienhaus ist von 1985. Wie hoch ist der Pauschalabzug für den Unterhalt?
+  eingabe: Unterhaltspauschale altes Haus
+  erwartet:
+  - liegenschaft.pauschale_alt
+  art: mehrwort
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Wie viel Kinderabzug gibt es bei der direkten Bundessteuer pro Kind?
+  eingabe: Kinderabzug
+  erwartet:
+  - sozialabzug.kind
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich unterstütze meine invalide Schwester jeden Monat mit Geld. Gibt es dafür einen Abzug?
+  eingabe: Unterstützungsabzug
+  erwartet:
+  - sozialabzug.unterstuetzung
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Stimmt es, dass beim Bund pro Kind auch direkt etwas von der Steuer selbst abgezogen wird, nicht nur vom Einkommen?
+  eingabe: Steuerbetrag Kind
+  erwartet:
+  - steuerbetrag.abzug_kind
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Mein Mann bekommt Sold von der Milizfeuerwehr, muss er den versteuern?
+  eingabe: Feuerwehrsold
+  erwartet:
+  - steuerfrei.feuerwehrsold
+  art: kompositum
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich habe im Swiss Lotto 80'000 Franken gewonnen, muss ich das versteuern?
+  eingabe: Lottogewinn
+  erwartet:
+  - steuerfrei.grossspielgewinn
+  art: alltag
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Wir haben die Bundessteuer zu spät bezahlt. Wie hoch ist der Verzugszins 2026?
+  eingabe: Verzugszins DBSt
+  erwartet:
+  - bezug.verzugszins
+  art: abkuerzung
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Bekomme ich Zins, wenn ich die Bundessteuer 2026 schon vor der Fälligkeit einzahle?
+  eingabe: Vergütungszins
+  erwartet:
+  - bezug.verguetungszins
+  art: fach
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich lasse mir mein Pensionskassenkapital auszahlen. Wie wird eine Kapitalleistung nach Art. 22 DBG beim Bund besteuert?
+  eingabe: Art. 22 DBG
+  erwartet:
+  - tarif.kapitalleistung_vorsorge
+  art: ziffer
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Welche Beilagen muss ich laut Art. 125 DBG zwingend zur Steuererklärung legen?
+  eingabe: Art. 125 DBG
+  erwartet:
+  - verfahren.beilagen_schwellen
+  art: ziffer
+- befehl: wert
+  jur: bund
+  jahr: '2026'
+  kundenfrage: Ich habe 2025 nichts in die 3a einbezahlt. Kann ich das 2026 nachholen und abziehen?
+  eingabe: 3a Einkauf
+  erwartet:
+  - saeule3a.einkauf
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich pendle mit dem Zug von Rorschach nach St. Gallen und habe ein Abo. Was kann ich abziehen?
+  eingabe: Zug Abo
+  erwartet:
+  - Form. 4 Ziff. 1.1
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Unser Kleiner geht drei Tage pro Woche in die Kinderkrippe. Was gilt da bei den Abzügen?
+  eingabe: Kinderkrippe
+  erwartet:
+  - '16.2'
+  - Form. 10 (Kinderbetreuung/Ausbildung)
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe ein paar Nestlé- und Novartis-Aktien im Depot. Wo trage ich die Dividenden ein?
+  eingabe: Dividenden
+  erwartet:
+  - '4.1'
+  - Form. 2 (Wertschriftenverzeichnis)
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe dieses Jahr den Maximalbetrag in meine Säule 3a einbezahlt. Wo kommt das hin?
+  eingabe: Säule 3a
+  erwartet:
+  - '13.1'
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe mich dieses Jahr freiwillig in die Pensionskasse eingekauft. Wo kann ich das abziehen?
+  eingabe: PK-Einkauf
+  erwartet:
+  - '13.2'
+  - Lohnausweis Ziff. 10.2
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe gehört, dass man ab 2026 fehlende 3a-Beiträge von früheren Jahren nachzahlen kann. Wo gebe ich das an?
+  eingabe: 3a Nachzahlung
+  erwartet:
+  - 13.1 (Einkauf)
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich kann über Mittag nicht heim und esse jeden Tag im Restaurant. Kann ich das abziehen?
+  eingabe: Mittagessen auswärts
+  erwartet:
+  - Form. 4 Ziff. 2.1
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Bei uns im Betrieb gibt es eine Kantine mit vergünstigtem Essen. Was heisst das für meinen Verpflegungsabzug?
+  eingabe: Kantine
+  erwartet:
+  - Form. 4 Ziff. 2.2
+  - Lohnausweis Feld G
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich arbeite im Spital oft Nachtschicht. Gibt es dafür einen Abzug?
+  eingabe: Nachtschicht
+  erwartet:
+  - Form. 4 Ziff. 2.3
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag 20 km mit dem Auto ins Geschäft, weil es keinen Bus gibt. Wie viel kann ich pro Kilometer abziehen?
+  eingabe: Auto Arbeitsweg
+  erwartet:
+  - Form. 4 Ziff. 1.3
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich fahre im Sommer mit dem Velo zur Arbeit – gibt's dafür auch einen Abzug?
+  eingabe: Velo Arbeitsweg
+  erwartet:
+  - Form. 4 Ziff. 1.2
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich wohne unter der Woche in Zürich in einem Zimmer und fahre am Wochenende heim nach Wil. Was kann ich abziehen?
+  eingabe: Wochenaufenthalter
+  erwartet:
+  - Form. 4 Ziff. 4.1
+  - Form. 4 Ziff. 4.2
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich arbeite neben der Hauptstelle am Wochenende noch als Aushilfe im Service. Kann ich für den Nebenjob Berufskosten abziehen?
+  eingabe: Nebenjob Berufskosten
+  erwartet:
+  - Form. 4 Ziff. 5.1
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich mache berufsbegleitend einen CAS und bezahle ihn selber. Wo kann ich das abziehen?
+  eingabe: CAS Weiterbildung
+  erwartet:
+  - '16.4'
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich zahle meiner Ex-Frau jeden Monat Alimente für sie selber. Kann ich das abziehen?
+  eingabe: Alimente Ex-Frau
+  erwartet:
+  - '12.1'
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir haben ein Einfamilienhaus in Gossau. Wo kommt der Eigenmietwert hin?
+  eingabe: Eigenmietwert
+  erwartet:
+  - '5'
+  - Form. 7 (Liegenschaften)
+  art: fach
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir haben dieses Jahr beim Haus das Dach neu machen lassen. Wo ziehe ich die Kosten ab?
+  eingabe: Unterhaltskosten Haus
+  erwartet:
+  - '15'
+  - Form. 7 (Liegenschaften)
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wo gebe ich die Hypothekarzinsen an, die wir der Bank zahlen?
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '11'
+  - Form. 5 (Schulden/Spenden)
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe der Krebsliga 500 Franken gespendet. Kann ich das abziehen?
+  eingabe: Spenden
+  erwartet:
+  - '21.3'
+  - Form. 5 (Schulden/Spenden)
+  art: alltag
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich zahle der SP jedes Jahr einen Mitgliederbeitrag und spende noch etwas dazu. Wo kann ich das abziehen?
+  eingabe: Parteispende
+  erwartet:
+  - '16.3'
+  - Form. 5 (Schulden/Spenden)
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich hatte dieses Jahr hohe Zahnarztrechnungen, die die Krankenkasse nicht übernimmt. Kann ich die abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - '21.1'
+  - Form. 6 (Versicherungen/Krankheitskosten)
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wo trage ich die Krankenkassenprämien ein?
+  eingabe: KK-Prämien
+  erwartet:
+  - '14'
+  - Form. 6 (Versicherungen/Krankheitskosten)
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe ein Auto, das noch etwa 30'000 Franken wert ist. Muss ich das beim Vermögen angeben?
+  eingabe: Auto Vermögen
+  erwartet:
+  - '30.4'
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich habe mir das Pensionskassenguthaben bei der Pensionierung als Kapital auszahlen lassen. Wo deklariere ich das?
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - 40.1-40.3
+  - '41'
+  art: mehrwort
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir sind verheiratet und arbeiten beide. Gibt's da einen speziellen Abzug?
+  eingabe: Doppelverdienerabzug
+  erwartet:
+  - '17'
+  art: kompositum
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich bin pensioniert und bekomme die AHV. Wo trage ich die Rente ein?
+  eingabe: AHV-Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Was ist Code 220 auf der Steuererklärung?
+  eingabe: Code 220
+  erwartet:
+  - '16.1'
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Was gehört eigentlich unter Ziffer 16.5 hinein?
+  eingabe: Ziff. 16.5
+  erwartet:
+  - '16.5'
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Wir haben eine Eigentumswohnung – welche Zahlen aus dem Formular 7 kommen wohin?
+  eingabe: Form. 7
+  erwartet:
+  - Form. 7 (Liegenschaften)
+  art: ziffer
+- befehl: position
+  jur: sg
+  jahr: '2026'
+  kundenfrage: Ich war ein halbes Jahr arbeitslos und habe Taggeld von der ALV bekommen. Wo trage ich das ein?
+  eingabe: ALV Taggeld
+  erwartet:
+  - '3.4'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich gehe jeden Tag mit dem Velo zur Arbeit – kann ich dafür etwas abziehen?
+  eingabe: Velo Arbeitsweg
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 2.2
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Bei uns in der Firma gibt's eine Kantine mit verbilligtem Zmittag – was darf ich da noch abziehen?
+  eingabe: Kantine
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 3.2
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Mein Mann und ich arbeiten beide – gibt es einen Abzug für Doppelverdiener?
+  eingabe: Doppelverdiener
+  erwartet:
+  - '18'
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wir haben dem Roten Kreuz und der Glückskette gespendet – wo kommt das hin?
+  eingabe: Spenden
+  erwartet:
+  - '23.2'
+  - Form. 6 Spalte gemeinnützig (Code 366)
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Mein Götti hat mir 50'000 Franken geschenkt – muss das in die Steuererklärung?
+  eingabe: Schenkung
+  erwartet:
+  - S. 4 Schenkungen
+  art: alltag
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin in der Milizfeuerwehr und bekomme Sold – muss ich das versteuern?
+  eingabe: Feuerwehrsold
+  erwartet:
+  - 1.2 (Feuerwehr)
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe einen CAS an der Fachhochschule gemacht – kann ich die Kosten dafür abziehen?
+  eingabe: Weiterbildungskosten
+  erwartet:
+  - 16.1 / 16.2
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wo trage ich die Krankenkassenprämien ein?
+  eingabe: Krankenkassenprämien
+  erwartet:
+  - '14'
+  - Form. 5.2 A.1–A.6
+  - Form. 5.2 C
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich hatte eine teure Zahnbehandlung, die die Kasse nicht übernimmt – kann ich das abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - '23.1'
+  - Form. 5.1 A.1–A.9
+  - Form. 5.1 D
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Die Bank belastet mir jedes Jahr Depotgebühren – darf ich die abziehen?
+  eingabe: Depotgebühren
+  erwartet:
+  - Form. 2 Ziff. 7 (im Formular-Chunk «17», Code 148)
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bekomme die Kinderzulagen direkt von der Ausgleichskasse und nicht über den Lohn – wo gehören die hin?
+  eingabe: Kinderzulagen
+  erwartet:
+  - '3.4'
+  art: kompositum
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich pendle mit dem Zug nach Frauenfeld und habe ein Abo – was kann ich abziehen?
+  eingabe: ÖV-Abo
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 2.1
+  - Form. 4.2/4.3 Ziff. 2.5
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Unsere Kleine geht drei Tage pro Woche in die Kita – können wir das abziehen?
+  eingabe: Kita
+  erwartet:
+  - '15.3'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe mich dieses Jahr mit 20'000 Franken in die PK eingekauft – wo trage ich das ein?
+  eingabe: PK-Einkauf
+  erwartet:
+  - '15.2'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich bin seit diesem Jahr pensioniert und bekomme die AHV – wo kommt die Rente hin?
+  eingabe: AHV-Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wir haben eine Hypothek bei der Bank – wo trage ich die Hypozinsen ein?
+  eingabe: Hypozinsen
+  erwartet:
+  - '11'
+  - Form. 4.1 A
+  - Form. 4.1 C
+  art: abkuerzung
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wir wohnen im eigenen Einfamilienhaus – wo gebe ich den Eigenmietwert an?
+  eingabe: Eigenmietwert
+  erwartet:
+  - Form. 7 Mietwert selbstgenutzt
+  - Form. 7 Selbstnutzungsabzug
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe ein paar Jahre nichts in die 3a einbezahlt – kann ich das jetzt nachholen und wo gebe ich das an?
+  eingabe: Säule 3a Nachzahlung
+  erwartet:
+  - 13.1 / 13.2 (Einkauf)
+  - 13.1 / 13.2
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Bis wann muss die Steuererklärung eingereicht sein, und kann unser Treuhänder eine Fristerstreckung beantragen?
+  eingabe: Fristerstreckung
+  erwartet:
+  - S. 2 Frist
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich halte 20% an einer GmbH und bekomme Dividenden – gibt es da eine Teilbesteuerung?
+  eingabe: Teilbesteuerung Dividenden
+  erwartet:
+  - '15.6'
+  - Form. 2 letzte Seite Ziff. 1–3
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wie bekomme ich die abgezogene Verrechnungssteuer auf meinen Zinsen zurück?
+  eingabe: Verrechnungssteuer zurückfordern
+  erwartet:
+  - Form. 2 Ziff. 10
+  - S. 1 Auszahlung
+  art: fach
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich fahre mit dem eigenen Auto zur Arbeit – wie rechne ich die Kilometer ab?
+  eingabe: Auto Arbeitsweg
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 2.3
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich esse am Mittag immer auswärts im Restaurant – gibt's dafür einen Abzug?
+  eingabe: Verpflegung auswärts
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 3.1
+  - Form. 4.2/4.3 Ziff. 3.2
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Mein Vater ist gestorben, wir sind noch eine Erbengemeinschaft und das Erbe ist nicht geteilt – was muss ich angeben?
+  eingabe: Erbengemeinschaft Anteil
+  erwartet:
+  - '5.3'
+  - '30.5'
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe mir bei der Pensionierung das Pensionskassengeld als Kapital auszahlen lassen – wo gebe ich das an?
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - S. 4 Kapitalleistungen
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Ich habe etwas Bargeld im Tresor und ein paar Goldvreneli – muss ich das deklarieren?
+  eingabe: Bargeld Goldvreneli
+  erwartet:
+  - '30.2'
+  art: mehrwort
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Was gehört bei den Berufsauslagen in den Code 220?
+  eingabe: Code 220
+  erwartet:
+  - Form. 4.2/4.3 Ziff. 4
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Was muss ich in Ziffer 15.4 eintragen?
+  eingabe: Ziff. 15.4
+  erwartet:
+  - '15.4'
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Wie fülle ich das Formular 5.2 aus?
+  eingabe: Form. 5.2
+  erwartet:
+  - Form. 5.2 A.1–A.6
+  - Form. 5.2 B.1–B.4
+  - Form. 5.2 C
+  art: ziffer
+- befehl: position
+  jur: tg
+  jahr: '2026'
+  kundenfrage: Was kommt in den Code 364?
+  eingabe: Code 364
+  erwartet:
+  - '23.1'
+  - Form. 5.1 D
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich fahre jeden Tag mit dem Zug von Herisau nach St. Gallen zur Arbeit, was kann ich da abziehen?
+  eingabe: Zug Arbeitsweg
+  erwartet:
+  - Form. 4 Ziff. 1.1
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Üsi Tochter gaht drü Täg i d'Kita – wo chan ich das abzieh?
+  eingabe: Kita Kosten
+  erwartet:
+  - '16.2'
+  - Form. 10
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wo trage ich die Dividenden von meinen Nestlé-Aktien ein?
+  eingabe: Dividenden
+  erwartet:
+  - '4.1'
+  - Form. 2 Spalten A/B
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe dieses Jahr den Maximalbetrag in die Säule 3a einbezahlt. Wo kommt das hin?
+  eingabe: Säule 3a Einzahlung
+  erwartet:
+  - '13.1'
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe mich in die Pensionskasse eingekauft, nicht über den Lohn. Ist das abziehbar?
+  eingabe: PK-Einkauf
+  erwartet:
+  - '13.2'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich cha z'Mittag nöd hei und iss jede Tag uswärts. Git's da en Abzug?
+  eingabe: Mittagessen auswärts
+  erwartet:
+  - Form. 4 Ziff. 2.1
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich arbeite in der Pflege immer Nachtschicht, durchgehend 9 Stunden. Kann ich dafür etwas geltend machen?
+  eingabe: Nachtschicht
+  erwartet:
+  - Form. 4 Ziff. 2.3
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich wohne unter der Woche in Zürich in einem Zimmer und gehe am Wochenende heim nach Teufen. Was kann ich abziehen?
+  eingabe: Wochenaufenthalter
+  erwartet:
+  - Form. 4 Ziff. 4
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich fahre bei jedem Wetter mit dem Velo ins Büro – gibt es dafür einen Abzug?
+  eingabe: Velo Arbeitsweg
+  erwartet:
+  - Form. 4 Ziff. 1.2
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wo kommen die Krankenkassenprämien hin?
+  eingabe: Krankenkassenprämien
+  erwartet:
+  - Form. 6 Teil A
+  - '14'
+  - Form. 6 Teil B/C
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich hatte letztes Jahr hohe Zahnarztrechnungen, die die Kasse nicht bezahlt hat. Kann ich die abziehen?
+  eingabe: Zahnarztkosten
+  erwartet:
+  - Form. 6 S. 2
+  - '21.1'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wir haben dem Roten Kreuz und der Krebsliga gespendet – wo kann ich das abziehen?
+  eingabe: Spenden gemeinnützig
+  erwartet:
+  - '21.3'
+  - Form. 5 S. 2 Teil A
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe eine Hypothek auf meinem Einfamilienhaus. Wo trage ich die Zinsen ein?
+  eingabe: Hypothekarzinsen
+  erwartet:
+  - '11'
+  - Form. 5 Teil A
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wir wohnen im eigenen Haus. Wo kommt der Eigenmietwert hin?
+  eingabe: Eigenmietwert
+  erwartet:
+  - '5'
+  - Form. 7 Abschn. B a
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Mir händ s'Dach und d'Heizig vom Huus lo renoviere. Chönd mir die Choste abzieh?
+  eingabe: Unterhaltskosten Haus
+  erwartet:
+  - '15'
+  - Form. 7 Abschn. C
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich zahle meiner Ex-Frau jeden Monat Alimente für sie selber. Kann ich das abziehen?
+  eingabe: Alimente Ex-Frau
+  erwartet:
+  - '12.1'
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich bin seit März pensioniert und bekomme AHV. Wo trage ich die Rente ein?
+  eingabe: AHV-Rente
+  erwartet:
+  - '3.1'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich war im Sommer drei Monate arbeitslos und habe das Geld direkt von der Arbeitslosenkasse bekommen, nicht über einen Lohnausweis. Wo gebe ich das an?
+  eingabe: Arbeitslosengeld
+  erwartet:
+  - '3.4'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich habe mir bei der Pensionierung das ganze Pensionskassenguthaben als Kapital auszahlen lassen. Wo muss das hin?
+  eingabe: Kapitalbezug Pensionskasse
+  erwartet:
+  - 40-41
+  art: mehrwort
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich han Bitcoin uf ere Plattform – mues ich die als Vermöge aagä und wo?
+  eingabe: Bitcoin
+  erwartet:
+  - '30.1'
+  - Form. 2 Spalten A/B
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wie bekomme ich die abgezogenen 35 % auf meinen Zinsen und Dividenden zurück?
+  eingabe: Verrechnungssteuer Rückerstattung
+  erwartet:
+  - Form. 2 Total
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Meine Eltern haben mir 50'000 Franken als Erbvorbezug überwiesen. Muss ich das irgendwo angeben?
+  eingabe: Schenkung Erbvorbezug
+  erwartet:
+  - Form. 2 S. 1 (962/963)
+  art: fach
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wir sind verheiratet und arbeiten beide. Gibt es dafür einen speziellen Abzug?
+  eingabe: Doppelverdiener Abzug
+  erwartet:
+  - '17'
+  art: alltag
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wir haben zwei Kinder, 3 und 8 Jahre alt. Welche Kinderabzüge können wir machen?
+  eingabe: Kinderabzug
+  erwartet:
+  - '23.1'
+  - '23.2'
+  art: kompositum
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Was gehört in der Ausserrhoder Steuererklärung in Ziffer 16.2?
+  eingabe: Ziff. 16.2
+  erwartet:
+  - '16.2'
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Im Formular steht beim Versicherungsabzug Code 600 – was muss ich da eintragen?
+  eingabe: Code 600
+  erwartet:
+  - '14'
+  - Form. 6 Teil B/C
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Was ist auf der Steuererklärung mit Code 950 gemeint?
+  eingabe: Code 950
+  erwartet:
+  - 40-41
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Wir haben drei Liegenschaften. Wie fasse ich die im Formular 7Z zusammen und wohin werden die Totale übertragen?
+  eingabe: Form. 7Z
+  erwartet:
+  - Form. 7Z
+  art: ziffer
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Ich sitze im Verwaltungsrat einer kleinen AG und bekomme dafür ein Honorar. Wo deklariere ich das?
+  eingabe: VR-Honorar
+  erwartet:
+  - '1.3'
+  art: abkuerzung
+- befehl: position
+  jur: ar
+  jahr: '2026'
+  kundenfrage: Die Bank verrechnet mir jedes Jahr Depotgebühren für meine Wertschriften. Kann ich die abziehen?
+  eingabe: Depotgebühren
+  erwartet:
+  - '16.1'
+  art: kompositum

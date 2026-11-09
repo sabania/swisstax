@@ -40,7 +40,7 @@ MAXOUT = 9000
 # Alltagswort → Schlüsselpräfix der Eckwerte (data/werte). Treffer haben Vorrang vor der Wortsuche.
 KEYSYN = {
     "sozialabzug.kind steuerbetrag.abzug_kind versicherung.kind vermoegen.freibetrag_kind": "kinderabzug kinder kind kinderabzuege kinderabzugs",
-    "steuerbetrag.abzug_kind": "elterntarif elternabzug steuerbetrag",
+    "steuerbetrag.abzug_kind": "elterntarif elternabzug steuerbetrag steuergutschrift",
     "drittbetreuung": "kita kinderbetreuung drittbetreuung kinderdrittbetreuung krippe hort tagesmutter tagesfamilie tagesschule "
                       "fremdbetreuung fremdbetreute betreuungskosten kinderbetreuungskosten",
     "saeule3a": "3a saeule saeule3a vorsorgekonto selbstvorsorge gebundene",
@@ -139,6 +139,14 @@ def jahr_aus(text: str):
     return m.group(1) if m else None
 
 
+# Gleichbedeutende Wörter (Schweizer Alltag ↔ Formularsprache); Gewicht 0.9
+AEQUIV = {"velo": "fahrrad", "fahrrad": "velo", "auto": "motorfahrzeug privatfahrzeug", "bitcoin": "krypto kryptowaehrungen",
+          "krypto": "kryptowaehrungen", "kryptowaehrung": "kryptowaehrungen", "zmittag": "mittagessen verpflegung",
+          "ga": "generalabonnement", "kita": "kindertagesstaette drittbetreuung", "krippe": "kinderkrippe drittbetreuung",
+          "pk": "pensionskasse vorsorge", "kk": "krankenkasse", "vst": "verrechnungssteuer", "oev": "oeffentliche verkehrsmittel",
+          "lohn": "nettolohn erwerb", "alimente": "unterhaltsbeitraege", "steuergutschrift": "steuerbetrag"}
+
+
 def expand(qt: list[str], raw: str) -> list:
     """Glossar-Erweiterung: passt ein Glossarbegriff/Synonym zur Anfrage, kommen seine Wörter mit kleinem Gewicht dazu.
     Rückgabe: Liste (wort, gewicht) – Originalwörter 1.0, Erweiterungen 0.35."""
@@ -149,8 +157,9 @@ def expand(qt: list[str], raw: str) -> list:
         if any((" " + norm(t) + " ") in n for t in terms):
             for t in terms:
                 extra += toks(t)
+    aeq = [t for w in qt for t in AEQUIV.get(w, "").split()]
     seen, out = set(), []
-    for w, g in [(w, 1.0) for w in qt] + [(w, 0.35) for w in extra]:
+    for w, g in [(w, 1.0) for w in qt] + [(w, 0.9) for w in aeq] + [(w, 0.35) for w in extra]:
         if w not in seen:
             seen.add(w)
             out.append((w, g))
