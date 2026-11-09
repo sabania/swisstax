@@ -2,6 +2,10 @@ kanton: sg
 jahr: 2025
 formular: Steuererklärung 2025 Formular 1 (Hauptformular, Kantons-, Gemeinde- und direkte Bundessteuer) + Hilfsblätter Formular 2 (Wertschriften- und Guthabenverzeichnis), 4 (Berufskosten), 5 (Schulden,
   freiwillige Zuwendungen, Parteispenden), 6 (Versicherungsprämien, Krankheits- und Unfallkosten), 7/7Z (Liegenschaften), 10 (Kinderbetreuung/Ausbildungskosten Kinder; Formular nicht im Wiki)
+bund_spalte:
+  text: 'Eine Spalte: kein separater Bundesbetrag im Formular; Abweichungen für die direkte Bundessteuer nimmt die Steuerbehörde automatisch vor (Merkblatt 32).'
+  quelle: sg-wl-2025__c0173
+  zitat: erforderlichen Anpassungen durch die Steuerbehörde automatisch vorgenom
 positionen:
 - ziffer: '1.1'
   abschnitt: Einkünfte

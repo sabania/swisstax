@@ -437,6 +437,7 @@ werte:
   - chunk: bund-dbg-2026__art-33a
     zitat: wenn diese Leistungen im Steuerjahr 100 Franken erreichen und insgesamt 20 Prozent der um die Aufwendungen
   status: agent-geprueft
+  bemerkung: 'Freigrenze, kein Freibetrag: Erreicht das Jahrestotal CHF 100, ist der ganze Betrag abziehbar (bis 20 %), nicht nur der Teil über 100.'
 - key: spenden.max_satz
   wert: 20
   einheit: '%'

@@ -36,7 +36,8 @@ def main():
                                  "ref": f"data/werte/{p.parent.name}/{p.name}#{r['key']}"})
     for p in sorted((ROOT / "data" / "zuordnung").glob("*/*.yaml")):
         d = ylo(p)
-        out["formulare"][f"{p.parent.name}-{p.stem}"] = {"formular": d.get("formular"), "hinweis": d.get("hinweis")}
+        out["formulare"][f"{p.parent.name}-{p.stem}"] = {"formular": d.get("formular"), "hinweis": d.get("hinweis"),
+                                                         "bund_spalte": d.get("bund_spalte")}
         for r in d.get("positionen") or []:
             e = {k: r.get(k) for k in ("ziffer", "key", "abschnitt", "bezeichnung", "feld", "rein", "berechnung", "regel",
                                        "beachten", "bund", "belege", "werte_keys", "status", "bemerkung")}

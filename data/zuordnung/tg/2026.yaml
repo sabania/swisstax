@@ -2,6 +2,10 @@ kanton: tg
 jahr: 2026
 formular: 'Steuererklärung 2026 TG (Formular 1, Seiten 1–4) + Hilfsblätter: Form. 2 Wertschriften- und Guthabenverzeichnis, 4.1 Schuldenverzeichnis, 4.2/4.3 Berufsauslagen, 5.1 Krankheit/Unfall/Behinderung,
   5.2 Versicherungsprämien, 6 Zuwendungen, 7 Liegenschaftenbesitz, 8 Liegenschaftsunterhalt (Staats-, Gemeinde- und direkte Bundessteuer)'
+bund_spalte:
+  text: 'Zwei Spalten: links Staats- und Gemeindesteuern, rechts direkte Bundessteuer (auch für Überträge aus Hilfsblättern).'
+  quelle: tg-wl-2026__c0195
+  zitat: in der linken Spalte für die Staats- und Gemeindesteuern und in die rechte Spalte für die direkte Bundessteuer
 positionen:
 - ziffer: S. 1
   abschnitt: Personalien

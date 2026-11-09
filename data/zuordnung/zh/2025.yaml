@@ -2,6 +2,10 @@ kanton: zh
 jahr: 2025
 formular: Steuererklärung 2025 Kanton Zürich (StA Form. 300, Hauptformular) + Hilfsblätter Form. 340 (Wertschriften- und Guthabenverzeichnis), 350 (Liegenschaftenverzeichnis), 355 (Schuldenverzeichnis),
   360 (Berufsauslagen), 365 (Versicherungsprämien), 367 (Aus- und Weiterbildungskosten), 370 (Krankheits-/Unfallkosten, behinderungsbedingte Kosten)
+bund_spalte:
+  text: 'Zwei Spalten «Staatssteuer» und «Bundessteuer»: Beträge mit abweichender Bundesregel in der Bundessteuer-Spalte separat eintragen.'
+  quelle: zh-form-300-2025__c0007
+  zitat: Abzüge   Staatssteuer   Bundessteuer
 positionen:
 - ziffer: '1.1'
   abschnitt: Einkünfte

@@ -342,6 +342,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2025.yaml (2026-11-09)
 - **Wert:** CHF 100 (Freiwillige Zuwendungen an steuerbefreite juristische Personen (CH) bzw. Gemeinwesen: mindestens CHF 100 im Steuerjahr)
 - **Schlüssel:** `spenden.min` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 33a DBG
+- **Bemerkung:** Freigrenze, kein Freibetrag: Erreicht das Jahrestotal CHF 100, ist der ganze Betrag abziehbar (bis 20 %), nicht nur der Teil über 100.
 - **Quellen:**
   - [DBG Art. 33a](../../chunks/bund/2025/bund-dbg-2025/bund-dbg-2025__art-33a.md) `bund-dbg-2025__art-33a` – «wenn diese Leistungen im Steuerjahr 100 Franken erreichen»
 

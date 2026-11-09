@@ -19,6 +19,9 @@ for c in f:
     er = steuer.L()["erkennung"]["prozessdokumente"]
     name2id = {v["name"]: k for k, v in er.items()}
     kand = [a or name2id.get(b, b) for a, b in ids]
+    # Belegtyp «steuerrechnung» = Prozessdokumente Veranlagung/definitive bzw. provisorische Rechnung (gleiche Klasse)
+    if c["soll"] == "steuerrechnung":
+        kand = ["steuerrechnung" if k in ("veranlagung", "provisorische-rechnung") else k for k in kand]
     if kand[:1] == [c["soll"]]:
         t1 += 1
     if c["soll"] in kand[:3]:

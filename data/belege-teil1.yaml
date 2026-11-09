@@ -25,6 +25,8 @@ belege:
     Pauschalspesen 13.2 immer mit Betrag; Weiterbildung 13.3. Bei genehmigtem Spesenreglement kein Kreuz, sondern Vermerk in Ziff. 15'
   - Kästchen F (Arbeitsweg gratis → Fahrkostenabzug fällt weg), Kästchen G (Kantine/Lunch-Checks → reduzierte Verpflegungspauschale), Feld Ziff. 15 Bemerkungen
   hinweise:
+  - 'Feld F wird auch angekreuzt, wenn der Arbeitgeber ein Geschäftsfahrzeug zur Verfügung stellt (WL Lohnausweis Rz 9): Kreuz F zusammen mit Privatanteil (Ziff. 2.2) ist kein Widerspruch – Folge: kein
+    Fahrkostenabzug für den Arbeitsweg.'
   - Pro Arbeitgeber ein Lohnausweis, auch bei Nebenbeschäftigungen; bei mehreren Lohnausweisen für dasselbe Jahr steht in Ziff. 15 «Einer von … Lohnausweisen», ein ersetzter Lohnausweis trägt den Vermerk
     «Dieser Lohnausweis ersetzt den Lohnausweis vom …».
   - Erwerbslücken (Arbeitslosigkeit, Krankheit, Mutterschaft) müssen in der Steuererklärung bezeichnet und mit Bescheinigung belegt werden, sonst Rückfragen.
@@ -51,6 +53,8 @@ belege:
     zitat: genügt es, im vorangestellten kleinen Feld
   - chunk: bund-wl-lohnausweis-2026__c0053
     zitat: In diesem Fall ist in Ziffer 13.1.1 kein Kreuz zu machen
+  - chunk: bund-wl-lohnausweis-2026__c0010
+    zitat: das zur Verfügung stellen eines Geschäftsfahrzeugs durch den Arbeitgeber
   status: agent-geprueft
   bemerkung: 'korrigiert durch Prüfung: Kreuz bei 13.1.1 gehört zu den Einzelfallpauschalen (Rz 52), nicht zum genehmigten Spesenreglement (dort Vermerk Ziff. 15, Rz 60/65); ZH-Nebenerwerb nicht über Hilfsblatt.
     Wegleitung ist Fassung 2026, für 2025 gleicher Aufbau angenommen.'

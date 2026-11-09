@@ -51,6 +51,7 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 
 ## Hinweise
 
+- Feld F wird auch angekreuzt, wenn der Arbeitgeber ein Geschäftsfahrzeug zur Verfügung stellt (WL Lohnausweis Rz 9): Kreuz F zusammen mit Privatanteil (Ziff. 2.2) ist kein Widerspruch – Folge: kein Fahrkostenabzug für den Arbeitsweg.
 - Pro Arbeitgeber ein Lohnausweis, auch bei Nebenbeschäftigungen; bei mehreren Lohnausweisen für dasselbe Jahr steht in Ziff. 15 «Einer von … Lohnausweisen», ein ersetzter Lohnausweis trägt den Vermerk «Dieser Lohnausweis ersetzt den Lohnausweis vom …».
 - Erwerbslücken (Arbeitslosigkeit, Krankheit, Mutterschaft) müssen in der Steuererklärung bezeichnet und mit Bescheinigung belegt werden, sonst Rückfragen.
 - Einkäufe, die der Arbeitnehmer selber bezahlt hat (nicht vom Lohn abgezogen), stehen nicht im Lohnausweis, sondern auf der Bescheinigung der Vorsorgeeinrichtung (Formular 21 EDP) -> siehe bescheinigung-pk-einkauf.
@@ -74,3 +75,4 @@ generiert: tools/build_quick.py aus data/belege-teil*.yaml (2026-11-09)
 - [WL Lohnausweis 2026 S. 19–20](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0054.md) `bund-wl-lohnausweis-2026__c0054` – «Wurden vom Arbeitgeber für dasselbe Jahr ausnahmsweise»
 - [WL Lohnausweis 2026 S. 16](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0042.md) `bund-wl-lohnausweis-2026__c0042` – «genügt es, im vorangestellten kleinen Feld»
 - [WL Lohnausweis 2026 S. 19](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0053.md) `bund-wl-lohnausweis-2026__c0053` – «In diesem Fall ist in Ziffer 13.1.1 kein Kreuz zu machen»
+- [WL Lohnausweis 2026 S. 8](../../chunks/bund/2026/bund-wl-lohnausweis-2026/bund-wl-lohnausweis-2026__c0010.md) `bund-wl-lohnausweis-2026__c0010` – «das zur Verfügung stellen eines Geschäftsfahrzeugs durch den Arbeitgeber»

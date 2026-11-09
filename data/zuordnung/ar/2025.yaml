@@ -2,6 +2,10 @@ kanton: ar
 jahr: 2025
 formular: Steuererklärung 2025 Appenzell Ausserrhoden (Formular 1 Seiten 1-4, Hauptformular nicht online; Ziffern/Codes aus den Formular-Miniaturen der Wegleitung WL AR 2025) + Hilfsformulare 2 (Wertschriften),
   4 (Berufskosten), 5 (Schulden, Zuwendungen, Parteispenden), 6 (Versicherungsprämien, Krankheits-/Behinderungskosten), 7/7Z (Liegenschaften), 10 (Kinderbetreuung)
+bund_spalte:
+  text: 'Keine Bundesspalte: Abweichungen für die direkte Bundessteuer nimmt die Steuerverwaltung automatisch vor.'
+  quelle: ar-wl-2025__c0179
+  zitat: Anpassungen durch die Steuerverwaltung automatisch vorgenommen
 hinweis: 'Das AR-Formular hat keine separate Bundesspalte: Die Steuererklärung dient zugleich für die direkte Bundessteuer; Abweichungen (z.B. Zweiverdiener-, Versicherungs-, Kinderabzug Bund) werden von
   der Steuerverwaltung automatisch vorgenommen (WL AR 2025 S. 33, ar-wl-2025__c0179: «Anpassungen durch die Steuerverwaltung automatisch vorgenommen»).'
 positionen:

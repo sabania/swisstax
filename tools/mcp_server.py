@@ -20,6 +20,10 @@ TOOLS = [
                                                       "jahr": {**S, "description": "Steuerjahr, z.B. 2025"},
                                                       "begriff": {**S, "description": "Stichwort, z.B. fahrkosten, verpflegung, saeule3a, kinderabzug"}},
                      "required": ["jur", "jahr", "begriff"]}},
+    {"name": "vergleich", "fn": lambda a: steuer.vergleich(a["begriff"], a["jahr"]),
+     "description": "Vergleich: Eckwerte von Bund, ZH, SG, TG, AR nebeneinander für ein Steuerjahr (z.B. welcher Kanton hat den höchsten "
+                    "Versicherungsabzug). Für Vergleichs- und Rangfolgefragen statt mehrerer wert-Aufrufe.",
+     "inputSchema": {"type": "object", "properties": {"jahr": S, "begriff": S}, "required": ["jahr", "begriff"]}},
     {"name": "position", "fn": lambda a: steuer.position(a["kanton"], a["jahr"], a["ziffer_oder_begriff"]),
      "description": "Formularposition (wie in DrTax/amtlichem Formular) eines Kantons: welche Belege rein, wie rechnen, Limite Kanton/Bund, "
                     "Beachten, Belege mit M-Files-Kategorie, Fundstelle. Mit Ziffer (z.B. 11.1, 16.2) oder Stichwort (z.B. Kinderbetreuung).",
@@ -36,7 +40,7 @@ TOOLS = [
                                                       "kanton": S, "jahr": S}, "required": ["text"]}},
     {"name": "suche", "fn": lambda a: steuer.suche(a["query"], a.get("jur"), a.get("jahr"), a.get("typ"), int(a.get("n") or 8)),
      "description": "Volltextsuche über alle amtlichen Quellen-Chunks (Gesetze, Wegleitungen, Merkblätter, Formulare). Für Fragen, "
-                    "die wert/position/beleg nicht beantworten. Mit jur und jahr filtern.",
+                    "die wert/position/beleg nicht beantworten. jur IMMER auf den Kanton der Frage setzen (bund für Bundesrecht), jahr setzen.",
      "inputSchema": {"type": "object", "properties": {"query": S, "jur": S, "jahr": S, "typ": S, "n": {"type": "integer"}},
                      "required": ["query"]}},
     {"name": "zeige", "fn": lambda a: steuer.zeige(a["ref"], a.get("abschnitt")),
@@ -47,6 +51,11 @@ TOOLS = [
      "description": "Firmenprozess Steuererklärung NP (consis): Übersicht, Schritt 1–6, Teilschritt (z.B. 1.12), status, agenten, protokoll, "
                     "querschnitt. Grenzen der KI und Zuständigkeiten.",
      "inputSchema": {"type": "object", "properties": {"arg": S}}},
+    {"name": "anleitung", "fn": lambda a: steuer.anleitung(a.get("name")),
+     "description": "Liefert die Schritt-für-Schritt-Anleitung eines Skills als Text: steuerwiki (Fachfragen), steuerprozess-eingang "
+                    "(Schritt 1), steuererklaerung-np (Schritt 2 Erfassung), steuerprozess-ablauf (Status, Schritte 3-6). Verwenden, wenn "
+                    "ein Skill gebraucht wird oder die Skill-Datei nicht gelesen werden kann.",
+     "inputSchema": {"type": "object", "properties": {"name": S}}},
     {"name": "mfiles", "fn": lambda a: steuer.mfiles(a.get("begriff")),
      "description": "M-Files Klasse StE: Kategorienliste (ohne Begriff) oder Zuordnung Dokumentart → Kategorie (mit Begriff).",
      "inputSchema": {"type": "object", "properties": {"begriff": S}}},

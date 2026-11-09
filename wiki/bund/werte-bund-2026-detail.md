@@ -334,6 +334,7 @@ generiert: tools/build_quick.py aus data/werte/bund/2026.yaml (2026-11-09)
 - **Wert:** CHF 100 (Freiwillige Leistungen an steuerbefreite juristische Personen mit Sitz in der Schweiz (und Bund/Kantone/Gemeinden): abziehbar, wenn im Steuerjahr mindestens CHF 100 erreicht.)
 - **Schlüssel:** `spenden.min` · **gilt für:** bund · **Status:** ☑️ agent-geprueft
 - **Rechtsgrundlage:** Art. 33a DBG
+- **Bemerkung:** Freigrenze, kein Freibetrag: Erreicht das Jahrestotal CHF 100, ist der ganze Betrag abziehbar (bis 20 %), nicht nur der Teil über 100.
 - **Quellen:**
   - [DBG Art. 33a](../../chunks/bund/2026/bund-dbg-2026/bund-dbg-2026__art-33a.md) `bund-dbg-2026__art-33a` – «wenn diese Leistungen im Steuerjahr 100 Franken erreichen und insgesamt 20 Prozent der um die Aufwendungen»
 

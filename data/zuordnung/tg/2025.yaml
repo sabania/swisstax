@@ -2,6 +2,10 @@ kanton: tg
 jahr: 2025
 formular: Steuererklärung 2025 TG (Formular 1, Staats-, Gemeinde- und direkte Bundessteuer) + Hilfsblätter Formular 2 (Wertschriftenverzeichnis), 4.1 (Schuldenverzeichnis), 4.2 (Berufsauslagen), 5.1 (Krankheitskosten/behinderungsbedingte
   Kosten), 5.2 (Versicherungsprämien), 6 (Zuwendungen), 7 (Liegenschaften), 8 (Liegenschaftsunterhalt)
+bund_spalte:
+  text: 'Zwei Spalten: links Staats- und Gemeindesteuern, rechts direkte Bundessteuer (auch für Überträge aus Hilfsblättern).'
+  quelle: tg-wl-2025__c0196
+  zitat: in der linken Spalte für die Staats- und Gemeindesteuern und in die rechte Spalte für die direkte Bundessteuer
 positionen:
 - ziffer: Seite 1 Personalien
   abschnitt: Personalien

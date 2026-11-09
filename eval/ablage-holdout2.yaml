@@ -1,0 +1,178 @@
+# Zweites unabhängiges Holdout-Set (E-Mail-Betreff/Kundensprache, Scans DE/FR/IT mit OCR-Fehlern), erzeugt NACH dem Tuning auf
+# eval/ablage-holdout.yaml von separaten Agenten ohne Kenntnis der Stichworte – 09.11.2026. Auswertung: python3 eval/ablage_test.py eval/ablage-holdout2.yaml
+faelle:
+- text: 'Betreff: Lohnblatt 2025 – Guten Tag, anbei sende ich Ihnen das Blatt vom Arbeitgeber mit meinem Jahreslohn 2025. Von der Beispiel AG kam es erst diese Woche. Freundliche Grüsse, Hans Muster'
+  soll: lohnausweis
+  set: email
+- text: 'Betreff: Hort – Hallo zusammen, hier noch die Rechnungen vom Hort für unseren Sohn, Januar bis Dezember. Er geht dort nach der Schule und am Mittwochnachmittag hin. Gruss Anna Muster'
+  soll: kinderbetreuung-rechnungen
+  set: email
+- text: 'Betreff: Krankenkasse Arztkosten – Anbei die Abrechnung von der Krankenkasse über die Arztkosten 2025, da sieht man, was wir selber zahlen mussten (Franchise und die 10 %).'
+  soll: krankenkasse-leistungen
+  set: email
+- text: 'Betreff: Zahnarzt – Hier noch die Rechnung vom Zahnarzt für die zwei Kronen, rund 3''800 Franken. Die Krankenkasse zahlt da nichts, kann man das trotzdem irgendwo abziehen?'
+  soll: arzt-zahnarzt-rechnungen
+  set: email
+- text: 'Betreff: Säule 3a – Anbei sende ich die Bestätigung von der Bank, wieviel ich letztes Jahr auf mein Vorsorgekonto einbezahlt habe. Es war der volle Betrag, glaube ich.'
+  soll: bescheinigung-saeule3a
+  set: email
+- text: 'Betreff: Bankunterlagen – Hier das lange PDF von der Bank, das sie extra für die Steuern erstellen, mit allen Konten, Zinsen und Wertschriften drin. Hoffe, das ist das Richtige.'
+  soll: steuerauszug-bank
+  set: email
+- text: 'Betreff: Zinsen Haus – Anbei die Bestätigung von der Bank, wieviel Zins wir 2025 für die Hypothek auf unser Einfamilienhaus bezahlt haben.'
+  soll: hypothekarbestaetigung
+  set: email
+- text: 'Betreff: Rechnungen Haus – Hier die Rechnungen vom Maler und vom Sanitär. Wir haben letztes Jahr das Badezimmer erneuert und die Fassade streichen lassen.'
+  soll: liegenschaft-unterhaltsrechnungen
+  set: email
+- text: 'Betreff: Spenden – Anbei die Jahresbestätigungen vom Tierschutzverein und von einem Hilfswerk, dem wir regelmässig etwas geben. Zusammen etwa 900 Franken.'
+  soll: spendenbestaetigung
+  set: email
+- text: 'Betreff: Zugabo – Hier noch die Quittung für mein Jahresabo Winterthur–Zürich. Damit fahre ich jeden Tag zur Arbeit, das Auto brauche ich dafür nicht.'
+  soll: oev-abo
+  set: email
+- text: 'Betreff: Unterlagen Mami – Anbei der Brief von der Ausgleichskasse, wieviel AHV-Rente meine Mutter Anna Muster im 2025 bekommen hat. Den Rest bringe ich nächste Woche vorbei.'
+  soll: rentenbescheinigung-ahv-iv
+  set: email
+- text: 'Betreff: Arbeitslosenkasse – Anbei die Bescheinigung von der Arbeitslosenkasse, was sie mir ausbezahlt haben. Ich war von März bis Juli ohne Stelle.'
+  soll: taggeldbescheinigung
+  set: email
+- text: 'Betreff: KK Prämien – Hier die Übersicht von der Krankenkasse, was wir für die ganze Familie im Jahr an Prämien bezahlt haben, Grund- und Zusatzversicherung.'
+  soll: krankenkasse-praemien
+  set: email
+- text: 'Betreff: Post vom Steueramt – Heute kam der Entscheid vom Steueramt zu unserer Steuererklärung 2024, die Sie gemacht haben. Die haben beim Einkommen mehr genommen als deklariert. Stimmt das so?'
+  soll: veranlagung
+  set: email
+- text: 'Betreff: Rechnung Steuern 2026 – Anbei eine provisorische Rechnung vom Steueramt für dieses Jahr. Die ist viel höher als letztes Jahr, obwohl ich weniger verdiene. Muss ich das so zahlen?'
+  soll: provisorische-rechnung
+  set: email
+- text: 'Betreff: Steueramt will noch Belege – Das Steueramt hat geschrieben, sie möchten bis Ende Monat noch Nachweise zu den Weiterbildungskosten und den Reparaturen am Haus. Den Brief habe ich angehängt.'
+  soll: auflage-nachfrage
+  set: email
+- text: 'Betreff: Brief Steueramt Frist – Hier noch die Bestätigung vom Steueramt, dass ich die Steuererklärung erst bis Ende September abgeben muss. Hab das online beantragt.'
+  soll: fristerstreckung
+  set: email
+- text: 'Betreff: AW: Rückfragen Steuererklärung 2025 – Hier die Antworten auf Ihre Fragen: Ja, das Auto brauche ich für den Arbeitsweg, nein, unsere Tochter ist nicht mehr in Ausbildung.'
+  soll: kundenantwort
+  set: email
+- text: 'Betreff: unterschrieben zurück – Anbei das Blatt, das Sie mir zum Unterschreiben geschickt haben, damit die Steuererklärung ans Steueramt geht. Haben beide unterschrieben, Hans und Anna Muster.'
+  soll: freigabequittung
+  set: email
+- text: 'Betreff: Auszahlung Pensionskasse – Ich habe mir bei der Pensionierung einen Teil des Guthabens auszahlen lassen statt Rente. Hier das Schreiben der Pensionskasse mit dem Betrag.'
+  soll: kapitalleistung-vorsorge
+  set: email
+- text: 'Betreff: Bitcoin – Anbei noch der Jahresauszug von meiner Krypto-App, mit dem Bestand am 31. Dezember. Ich habe ein bisschen Bitcoin und Ethereum.'
+  soll: krypto-auszug
+  set: email
+- text: 'Betreff: Alimente – Hier die Zahlungsbelege für die Kinderalimente, die ich jeden Monat meiner Ex-Frau überweise, und nochmals das Scheidungsurteil zur Sicherheit.'
+  soll: unterhaltszahlungen-alimente
+  set: email
+- text: 'Betreff: Einzahlung PK – Ich habe im Dezember freiwillig 20''000 Franken in die Pensionskasse eingezahlt, um Lücken zu füllen. Hier die Bestätigung dazu.'
+  soll: bescheinigung-pk-einkauf
+  set: email
+- text: 'Betreff: Rechnung nach Wohnungsverkauf – Wir haben im Frühling die Eigentumswohnung verkauft. Jetzt kam von der Gemeinde ein Entscheid über eine Steuer auf dem Gewinn beim Verkauf. Anbei.'
+  soll: grundstueckgewinn-erbschaft-schenkung-steuer
+  set: email
+- text: 'Betreff: Versicherung – Ich weiss nicht, ob Sie das brauchen, aber hier noch die Police von unserer Hausrat- und Haftpflichtversicherung, Jahresprämie 2025.'
+  soll: hausrat-haftpflicht-police
+  set: email
+- text: 'Repubblica e Cantone Ticino – Divisione delle contribuzioni, Ufficio di tassazione Lugano. Decisione di tassazione IC/IFD periodo fiscale 2025. Contribuente: Muster Hans. Reddito imponibile CHF
+    84''300. Contro la presente decisione è ammesso reclamo entro 30 giorni.'
+  soll: veranlagung
+  set: scan
+- text: 'Gemeindesteueramt Beispielhausen – Provisorische Rechnung Staats- und Gemeindesteuern 2026. Muster Anna, Bahnhofstrasse 1. Berechnungsgrundlage: letzte Veranlagung. Provisorischer Betrag CHF 6''420.00,
+    fällig 30.09.2026. Vorauszahlungen werden verzinst.'
+  soll: provisorische-rechnung
+  set: scan
+- text: Kantonales Steueramt / Administration fiscale – Schlussrechnung Direkte Bundessteuer 2024 / Décompte final impôt fédéral direct 2024. Muster Hans. Steuerbetrag CHF 2'118.40, abzüglich Zahlungen
+    CHF 2'000.00, Restbetrag CHF 118.40 zahlbar innert 30 Tagen.
+  soll: steuerrechnung
+  set: scan
+- text: 'Steuerverwa1tung Kanton – K0ntoauszug Steuerk0nto Nr. 4711-2025, Muster Anna. Buchungen: 15.03. Einzahlung CHF 3''000.00 / 30.09. Ratenzah1ung CHF 3''000.00 / Vergiitungszins CHF 4.15. Sa1do zu
+    lhren Gunsten CHF 112.35'
+  soll: kontoauszug-steueramt
+  set: scan
+- text: Comune di Esempio, Ufficio esazione – Estratto conto imposte 2025, contribuente Muster Hans. Acconti versati CHF 4'500.00, interessi rimunerativi CHF 6.20, saldo scoperto CHF 830.00. Il presente
+    estratto non è una decisione di tassazione.
+  soll: kontoauszug-steueramt
+  set: scan
+- text: Bank Beispiel AG, Filiale Musterdorf. Zins- und Saldobestätigung per 31.12.2025, Sparkonto CH00 0000 0000 1234 5678 9, Inhaberin Muster Anna. Saldo CHF 18'240.55, Bruttozins CHF 91.20, Verrechnungssteuer
+    35% CHF 31.90.
+  soll: kontoauszug-zinsausweis
+  set: scan
+- text: 'Banca Esempio SA, Bellinzona – Estratto conto privato e attestato di saldo e interessi al 31.12.2025. Titolare: Muster Hans. Saldo finale CHF 7''905.10, interessi lordi CHF 3.95, imposta preventiva
+    CHF 0.00.'
+  soll: kontoauszug-zinsausweis
+  set: scan
+- text: Bank Beispiel AG – Steuerauszug 2025 / Re1evé fiscal 2025. eSteuerauszug mit Barcode. Muster Hans & Anna. Steuerwert tota1 CHF 214'880, Ertrag mit VSt CHF 2'410, Ertrag ohne VSt CHF 380. Rückforderbare
+    Verrechnungssteuer / impôt anticipé CHF 843.50
+  soll: steuerauszug-bank
+  set: scan
+- text: Banca Esempio SA – Estratto di deposito titoli al 31.12.2025, deposito n. 55-123456. Titolare Muster Anna. 120 az. Esempio Holding SA, valore di mercato CHF 14'400; 50 quote fondo obbligazionario
+    CHF 5'125. Totale valutazione CHF 19'525.
+  soll: depotauszug
+  set: scan
+- text: 'Vorsorgestiftung 3a der Bank Beispiel AG / Fondation de prévoyance 3a. Bescheinigung über Vorsorgebeiträge 2025 / Attestation des cotisations. Formular 21 EDP. Muster Anna: einbezahlte Beiträge
+    CHF 6''500.00 (gebundene Selbstvorsorge Säule 3a).'
+  soll: bescheinigung-saeule3a
+  set: scan
+- text: 'Pensi0nskasse Beispiel AG – Bestätigung Einkauf in die berufliche Vorsorge. Versicherte Person: Muster Hans. Eingang freiwi11ige Einkaufssumme am 12.11.2025 CHF 25''000.00. Diese Bescheinigung
+    ist der Steuererk1ärung 2025 beizu1egen (Formular 21 EDP).'
+  soll: bescheinigung-pk-einkauf
+  set: scan
+- text: 'Lohnausweis – Certificat de sa1aire – Certificato di salario. Formu1ar 11. Arbeitgeber: Beispiel AG. Arbeitnehmer: Muster Hans, AHV-Nr. 756.0000.0000.00. Zeitraum 01.01.–31.12.2025. Ziff. 8 Bruttolohn
+    total CHF 96''450, Ziff. 11 Nettolohn CHF 84''012.'
+  soll: lohnausweis
+  set: scan
+- text: 'Cassa cantonale di compensazione AVS/AI/IPG – Attestazione delle rendite 2025 per la dichiarazione d''imposta. Beneficiario: Muster Hans. Rendita di vecchiaia AVS mensile CHF 2''240, totale anno
+    2025 CHF 26''880.'
+  soll: rentenbescheinigung-ahv-iv
+  set: scan
+- text: 'Krankenversicherung Beispiel AG / Assurance-maladie Exemple SA. Prämienbestätigung 2025 für die Steuererklärung / Attestation des primes 2025. Muster Anna: Grundversicherung KVG/LAMal CHF 4''812.00,
+    Zusatzversicherung VVG/LCA CHF 1''036.80.'
+  soll: krankenkasse-praemien
+  set: scan
+- text: 'Banque Exemple SA – Attestation d''intérêts hypothécaires 2025 / Zinsbestätigung Hypothek. Débiteurs: Muster Hans et Anna. Hypothèque fixe 10 ans, solde au 31.12.2025 CHF 520''000, intérêts débités
+    en 2025 CHF 7''540.00.'
+  soll: hypothekarbestaetigung
+  set: scan
+- text: 'Kanton – Amt fiir Schätzungen. Schätzungsentscheid / Neuschätzung Liegenschaft Kat.-Nr. 1234, Eigentümer Muster Hans. Steuerwert (Vermögenssteuerwert) CHF 612''000, Eigenmietwert CHF 19''800 pro
+    Jahr. Gi1tig ab Steuerperiode 2025. Rechtsmitte1: 30 Tage.'
+  soll: liegenschaft-schaetzung-eigenmietwert
+  set: scan
+- text: 'Fondazione Esempio, Lugano (esente da imposte, utilità pubblica). Attestazione donazioni 2025 per scopi fiscali. Donatore: Muster Anna. Totale donazioni ricevute nel 2025: CHF 750.00. Grazie per
+    il suo sostegno!'
+  soll: spendenbestaetigung
+  set: scan
+- text: 'Kantonales Steueramt, Abteilung Juristische Personen. Steuererklärung 2025 für juristische Personen (Gewinn- und Kapitalsteuer). Steuerpflichtige: Beispiel AG, CHE-000.000.000. Bitte Jahresrechnung
+    2025 und Gewinnverwendungsbeschluss beilegen.'
+  soll: juristische-person
+  set: scan
+- text: Divisione delle contribuzioni – Conferma proroga del termine. Dichiarazione d'imposta 2025, contribuente Muster Hans, rappresentante Beispiel Treuhand AG. Il termine di inoltro è prorogato al 30.09.2026.
+    Ulteriori proroghe solo su richiesta motivata.
+  soll: fristerstreckung
+  set: scan
+- text: 'Kantonales Steueramt, Veranlagungsabteilung – Auflage. Steuererklärung 2025, Muster Anna. Zur Prüfung benötigen wir innert 30 Tagen: Belege zu den Liegenschaftsunterhaltskosten und den Weiterbildungskosten.
+    Ohne Antwort wird nach pflichtgemässem Ermessen veranlagt.'
+  soll: auflage-nachfrage
+  set: scan
+- text: 'Kantonale Steuerverwaltung / Administration cantonale des impôts. Einspracheentscheid / Décision sur réclamation Steuerperiode 2024. Einsprecher: Muster Hans. Die Einsprache vom 14.04.2026 wird
+    teilweise gutgeheissen. Rekurs an das Steuerrekursgericht innert 30 Tagen.'
+  soll: einsprache-rekurs
+  set: scan
+- text: Freigabequittung zur elektronisch eingereichten Steuererklärung 2025. Muster Hans und Muster Anna, Quittungs-Nr. A1B2-C3D4. Bitte unterzeichnen und innert 10 Tagen an das Gemeindesteueramt senden.
+    Ohne unterzeichnete Quittung gilt die Steuererklärung als nicht eingereicht.
+  soll: freigabequittung
+  set: scan
+- text: 'Kanton – eSteuern. Ubermittlungsquittung: lhre Steuererk1ärung 2025 wurde am 18.03.2026 um 14:22 erfo1greich e1ektronisch iibermitte1t. Transaktions-ID 9f3c-77aa. Keine Unterschrift erforder1ich.
+    Dieses Dokument dient als Eingangsbestätigung.'
+  soll: uebermittlungsquittung
+  set: scan
+- text: 'Kantonales Steueramt – Interkantonale Steuerausscheidung Steuerperiode 2025. Muster Hans, Wohnsitz Kanton A, Liegenschaft Kanton B. Einkommen: Kanton A 87.4 %, Kanton B 12.6 %; Vermögen: Kanton
+    A 61 %, Kanton B 39 %. Schuldzinsen proportional verlegt.'
+  soll: steuerausscheidung
+  set: scan
+- text: 'Ufficio di tassazione – Imposta sugli utili immobiliari, decisione di tassazione. Alienante: Muster Anna. Fondo n. 789 RFD Comune di Esempio, prezzo di vendita CHF 980''000, utile imponibile CHF
+    214''000, durata di possesso 7 anni.'
+  soll: grundstueckgewinn-erbschaft-schenkung-steuer
+  set: scan

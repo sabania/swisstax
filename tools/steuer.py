@@ -4,6 +4,7 @@
 Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Antwort statt langer Suche.
 
   python3 tools/steuer.py wert <kanton|bund> <jahr> <begriff>        Eckwerte/Limiten (+ Bund automatisch)
+  python3 tools/steuer.py vergleich <jahr> <begriff>                    alle Kantone + Bund nebeneinander (Vergleich/Rangfolge)
   python3 tools/steuer.py position <kanton> <jahr> <ziffer|begriff>  Formularposition (DrTax/Formular): rein, rechnen, Limite, Belege
   python3 tools/steuer.py beleg <begriff> [--kanton zh] [--jahr 2025] Belegkarte: relevant?, Positionen, einreichen?, M-Files
   python3 tools/steuer.py ablage "<Titel/Text des Dokuments>" [--kanton zh] [--jahr 2025]   Schritt 1: Typ, relevant?, Klasse/Kategorie
@@ -11,6 +12,7 @@ Für Agenten (auch kleine Modelle): EIN Aufruf liefert die kompakte, belegte Ant
   python3 tools/steuer.py zeige <chunk-id|pfad> [--abschnitt "11"]     Chunk/Seite anzeigen
   python3 tools/steuer.py prozess [<schritt>|status|agenten|protokoll|querschnitt]   Firmenprozess (consis)
   python3 tools/steuer.py mfiles [<begriff>]                           M-Files-Kategorien/Dokumentarten
+  python3 tools/steuer.py anleitung [<skill>]                          Skill-Anleitung als Text (wenn Dateien gesperrt sind)
 
 Jede Ausgabe nennt Fundstelle (Chunk-ID) und Status. Der Status ☑️ heisst: Fundstelle geprüft, fachliche Abnahme offen.
 """
@@ -102,6 +104,20 @@ def jur_of(x) -> str | None:
         return None
     k = str(x).strip().lower()
     return JUR.get(k) or JUR.get(norm(k)) or (k if k in NAME else None)
+
+
+def kanton_aus(text: str):
+    """Kanton/Bund, der im Text genannt ist (z.B. «AR: …», «Kanton Thurgau», «ZH 2025»), sonst None."""
+    t = " " + norm(text) + " "
+    for k, v in sorted(JUR.items(), key=lambda x: -len(x[0])):
+        if v != "bund" and re.search(r"(?<![a-z])" + re.escape(norm(k)) + r"(?![a-z])", t):
+            return v
+    return None
+
+
+def jahr_aus(text: str):
+    m = re.search(r"\b(20[2-3]\d)\b", str(text))
+    return m.group(1) if m else None
 
 
 def expand(qt: list[str], raw: str) -> list:
@@ -249,6 +265,47 @@ def wert(jur, jahr, begriff, n=8) -> str:
     return "\n".join(out)
 
 
+def vergleich(begriff, jahr, n=8) -> str:
+    """Eckwerte aller Jurisdiktionen (Bund, ZH, SG, TG, AR) nebeneinander – für Vergleichs- und Rangfolgefragen."""
+    jahr = str(jahr)
+    jurs = ["bund", "zh", "sg", "tg", "ar"]
+    rows = [r for r in L()["werte"] if r["jahr"] == jahr]
+    if not rows:
+        return f"Für {jahr} sind keine Eckwerte erfasst."
+    qt = expand(toks(begriff), begriff)
+    pref = [p for prefs, words in KEYSYN.items() for p in prefs.split()
+            if any(tm(w, x) for w in toks(begriff) for x in words.split())]
+    best = {}
+    for r in rows:
+        s = score(qt, r["key"].replace(".", " ").replace("_", " "), f"{r.get('text')} {r.get('kurz') or ''}")
+        if any(r["key"] == p or r["key"].startswith(p + ".") or r["key"].startswith(p + "_") for p in pref):
+            s += 8
+        if s > 0 and r.get("status") != "na":
+            best[r["key"]] = max(best.get(r["key"], 0), s)
+    if not best:
+        return f"Kein Eckwert zu «{begriff}» für {jahr}."
+    top = max(best.values())
+    keys = sorted([k for k, v in best.items() if v >= max(3, top * 0.5)], key=lambda k: (-best[k], k))[:n]
+    by = {(r["jur"], r["key"]): r for r in rows}
+    out = [f"## Vergleich Steuerjahr {jahr} · «{begriff}» (Kanton = Staats-/Gemeindesteuer; Bund = direkte Bundessteuer)", "",
+           "| Schlüssel | " + " | ".join(NAME[j] if j != "bund" else "Bund" for j in jurs) + " |", "|---|" + "---|" * len(jurs)]
+    quellen = []
+    for k in keys:
+        cells = []
+        for j in jurs:
+            r = by.get((j, k))
+            if not r:
+                cells.append("–")
+                continue
+            v = fmt_wert(r) + ("" if r.get("status") in ("agent-geprueft", "verifiziert") else f" ({r.get('status')})")
+            cells.append(v)
+            if r.get("quellen"):
+                quellen.append(f"{j.upper() if j != 'bund' else 'Bund'} {k}: {r['quellen'][0]['chunk']}")
+        out.append(f"| {k} | " + " | ".join(cells) + " |")
+    out += ["", "– = kein Wert erfasst · «siehe Text»: `wert <jur> " + jahr + " <stichwort>`.", "Fundstellen: " + " · ".join(quellen[:30])]
+    return "\n".join(out)
+
+
 # ---------------------------------------------------------------- Positionen
 def bund_limiten(keys, kt, jahr):
     out = []
@@ -332,6 +389,9 @@ def position(kt, jahr, arg, n=3) -> str:
         return f"Keine Position «{arg}» in {NAME[j]} {jahr}. Übersicht: quick/wegleitung-{j}-{jahr}.md oder `steuer suche`."
     f = L()["formulare"].get(f"{j}-{jahr}", {})
     out = [f"## Formularposition {NAME[j]} {jahr} · «{arg}»", f"Formular: {cut(f.get('formular'), 200)}"]
+    bs = f.get("bund_spalte")
+    if bs:
+        out.append(f"**Bund im Formular {NAME[j]} {jahr}:** {bs['text']} (Quelle: {bs['quelle']} «{cut(bs['zitat'], 110)}»)")
     if f.get("hinweis"):
         out.append(f"Hinweis Formular: {cut(f.get('hinweis'), 300)}")
     out.append("")
@@ -497,7 +557,7 @@ def ablage(text, kt=None, jahr=None) -> str:
     for pid, kw in (er.get("prozessdokumente") or {}).items():
         s = treffer(kw, ntext, ntitel)
         if s > 0:
-            kand.append((s + 0.5, "prozess", pid))
+            kand.append((s, "prozess", pid))
     kand.sort(key=lambda x: -x[0])
     y, ywhy = steuerjahr_aus(str(text))
     jahr = str(jahr) if jahr else y
@@ -588,6 +648,13 @@ def fts_terms(q):
 
 def suche(query, jur=None, jahr=None, typ=None, n=8) -> str:
     j = jur_of(jur) if jur else None
+    hinweis = ""
+    if not j:
+        j = kanton_aus(query)
+        hinweis = (f"(Kanton {NAME[j]} aus dem Suchtext übernommen.)" if j else
+                   "⚠️ Ohne Kanton gesucht – Treffer können aus verschiedenen Kantonen stammen. Nennt die Frage einen Kanton, "
+                   "mit jur=<kt> wiederholen und nur Treffer dieses Kantons (oder Bund) verwenden.")
+    jahr = jahr or jahr_aus(query)
     terms = fts_terms(query)
     if not terms:
         return "Leere Suchanfrage."
@@ -612,7 +679,10 @@ def suche(query, jur=None, jahr=None, typ=None, n=8) -> str:
         return f"Suchfehler: {e}"
     if not rows:
         return f"Keine Treffer für «{query}»" + (f" in {NAME.get(j, j)}" if j else "") + (f" {jahr}" if jahr else "") + "."
-    out = [f"## Suche «{query}»" + (f" · {NAME.get(j, j)}" if j else "") + (f" · {jahr}" if jahr else ""), ""]
+    out = [f"## Suche «{query}»" + (f" · {NAME.get(j, j)}" if j else "") + (f" · {jahr}" if jahr else "")]
+    if hinweis:
+        out.append(hinweis)
+    out.append("")
     for i, (cid, titel, kurz, datei, jj, jahre, snip, _) in enumerate(rows, 1):
         out.append(f"{i}. **{cid}** · {NAME.get(jj, jj)} · {kurz} · {cut(titel, 90)} · Jahre {jahre}")
         out.append(f"   {cut(snip, 260)}")
@@ -732,11 +802,26 @@ def mfiles(begriff=None) -> str:
     return "\n".join(out)
 
 
+def anleitung(name=None) -> str:
+    """Skill-Inhalt (SKILL.md) als Text – für Agenten, die Skill-Dateien wegen Dateisperren (workspaceOnly) nicht lesen dürfen."""
+    sk = ROOT / "skills"
+    namen = sorted(p.name for p in sk.iterdir() if (p / "SKILL.md").exists()) if sk.exists() else []
+    n = norm(name or "").replace(" ", "-")
+    treffer = [x for x in namen if x == n] or [x for x in namen if n and n in x]
+    if not treffer:
+        return "Anleitungen (Skills): " + ", ".join(namen) + ". Aufruf: anleitung <name>."
+    t = (sk / treffer[0] / "SKILL.md").read_text(encoding="utf-8")
+    if t.startswith("---"):
+        t = t.split("---", 2)[2].lstrip()
+    return t
+
+
 # ---------------------------------------------------------------- CLI
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="steuer", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = ap.add_subparsers(dest="cmd")
     a = sp.add_parser("wert"); a.add_argument("jur"); a.add_argument("jahr"); a.add_argument("begriff", nargs="+")
+    a = sp.add_parser("vergleich"); a.add_argument("jahr"); a.add_argument("begriff", nargs="+")
     a = sp.add_parser("position"); a.add_argument("kanton"); a.add_argument("jahr"); a.add_argument("arg", nargs="+")
     a = sp.add_parser("beleg"); a.add_argument("begriff", nargs="+"); a.add_argument("--kanton"); a.add_argument("--jahr")
     a = sp.add_parser("ablage"); a.add_argument("text", nargs="+"); a.add_argument("--kanton"); a.add_argument("--jahr")
@@ -744,10 +829,13 @@ def main(argv=None):
     a = sp.add_parser("zeige"); a.add_argument("ref"); a.add_argument("--abschnitt")
     a = sp.add_parser("prozess"); a.add_argument("arg", nargs="?")
     a = sp.add_parser("mfiles"); a.add_argument("begriff", nargs="*")
+    a = sp.add_parser("anleitung"); a.add_argument("name", nargs="?")
     a = sp.add_parser("index")
     x = ap.parse_args(argv)
     if x.cmd == "wert":
         print(wert(x.jur, x.jahr, " ".join(x.begriff)))
+    elif x.cmd == "vergleich":
+        print(vergleich(" ".join(x.begriff), x.jahr))
     elif x.cmd == "position":
         print(position(x.kanton, x.jahr, " ".join(x.arg)))
     elif x.cmd == "beleg":
@@ -765,6 +853,8 @@ def main(argv=None):
         print(prozess(x.arg))
     elif x.cmd == "mfiles":
         print(mfiles(" ".join(x.begriff) or None))
+    elif x.cmd == "anleitung":
+        print(anleitung(x.name))
     elif x.cmd == "index":
         print(f"{baue_fts(force=True)} Chunks indexiert")
     else:
