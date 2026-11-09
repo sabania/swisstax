@@ -375,8 +375,8 @@ generiert: tools/build_quick.py aus data/zuordnung/ar/2025.yaml (2026-11-09)
 - ↗ [Detail](../wiki/ar/zuordnung-ar-2025-detail.md#15-abzug-liegenschaft-unterhalt) · [Formular 7 AR 2025 S. 1](../chunks/ar/2025/ar-form-07-2025/ar-form-07-2025__c0003.md)
 
 ### 16.1 · Verwaltungskosten Wertschriften/Kapitalanlagen (tatsächlich oder Pauschale) ☑️
-- **Rein:** Bank: Gebühren-/Spesenausweis bzw. Steuerauszug → Depot-, Safegebühren, Inkassospesen (effektiv) · Form. 2 Wertschriftenverzeichnis → Total Steuerwerte drittverwaltet (Basis Pauschale)
-- **Rechnen:** effektiv: Σ Depot-/Safegebühren + Inkassospesen; oder Kanton-Pauschale auf Antrag: Bestand ≤ 2 Mio. 3 ‰, max. 6'000; > 2 Mio. 1 ‰, max. 15'000
+- **Rein:** Steuerauszug / Form. 2 Wertschriftenverzeichnis → Total Spalte Steuerwerte (Basis Pauschale, auch ohne Gebührenbeleg) · Bank: Gebühren-/Spesenausweis → Depot-, Safegebühren, Inkassospesen (nur falls effektiv höher)
+- **Rechnen:** Kanton-Pauschale ohne Beleg (in der Erklärung geltend machen) = 3 ‰ × Total Spalte Steuerwerte Form. 2 (inkl. private Konten; ohne eigene Firmenaktien, private Darlehen, Geschäftskonti), max. 6'000 (Bestand > 2 Mio.: 1 ‰, max. 15'000) – oder höhere effektive Depot-/Safegebühren + Inkassospesen
 - **Beachten:** Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale
 - **Beachten:** Basis Pauschale = Total der Spalte Steuerwerte im Wertschriftenverzeichnis (Form. 2), d.h. auch private Bankkonten, abzüglich nur: Aktien/GmbH-Anteile eigener Unternehmen, privat gewährte Darlehen, geschäftliche Bankkonti (anders als ZH/SG/TG, die Bankguthaben ausnehmen)
 - **Beachten:** Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Beratung, Bancomat-/Kreditkartengebühren

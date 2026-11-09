@@ -1110,7 +1110,7 @@ positionen:
   - Steuerauszug/Depotauszug Bank → Depot-/Safegebühren, Inkassospesen 2025
   - Depotauszug → Wert fremdverwaltete Wertschriften (Basis Pauschale)
   - Gewinnbestätigung/Formular 2 → steuerbare Lotterie-/Geldspielgewinne (Einsatzkosten)
-  berechnung: tatsächliche Kosten ODER min(2‰ × fremdverwaltete Wertschriften; Fr. 6'000); Einsatzkosten je Gewinn 5% (max. Fr. 5'400), online max. Kanton 26'700 / Bund 26'800
+  berechnung: Pauschale ohne Beleg min(2‰ × fremdverwaltete Wertschriften (Depot, ohne Bankguthaben); Fr. 6'000) ODER höhere tatsächliche Kosten; Einsatzkosten je Gewinn 5% (max. Fr. 5'400), online max. Kanton 26'700 / Bund 26'800
   beachten:
   - 'Wertschriften im Depot einer Bank gelten als durch Dritte verwahrt/verwaltet – ein Vermögensverwaltungsmandat ist nicht Voraussetzung der Pauschale'
   - 'Nicht abziehbar: Courtagen, Ausgabe-/Rücknahmekommissionen, Emissionsabgabe, Anlage-/Steuerberatung, Verwaltungsmandate'
