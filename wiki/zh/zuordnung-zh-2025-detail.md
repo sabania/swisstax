@@ -884,6 +884,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rein:** Rechnungen Kita/Hort/Tagesfamilie + Zahlungsnachweise → Betreuungskosten je Kind · Seite 1 Kinder → Geburtsdatum (Jahrg. 2011–2025)
 - **Rechnen:** je Kind < 14 J.: min(nachgewiesene Kosten; Kanton 25’000 / Bund 25’800) → Code 376; Konkubinat mit gemeinsamer Sorge: je max. Kanton 12’500 / Bund 12’900
 - **Regel:** Nachgewiesene Kosten für jedes Kind unter 14 Jahren im gleichen Haushalt, max. CHF 25’000 (Staat) bzw. CHF 25’800 (Bund) pro Kind; Kosten müssen in direktem Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit stehen. Konkubinat mit gemeinsamer Sorge: je halber Abzug (max. CHF 12’500 Staat / CHF 12’900 Bund). Verpflegung/Schulgeld nicht betreuungsbedingt.
+- **Beachten:** Verpflegung/Unterhalt der Kinder in der Betreuung = Lebenshaltung, nicht abziehbar (Bund KS 30 Ziff. 8.5, bund-ks-30__c0044); ZH: nur pauschal ausgewiesene Kosten → 20 % als Lebenshaltung kürzen (ZStB 34.1, zh-zstb-34-1__c0022)
 - **Beachten:** Nur Kosten im direkten Zusammenhang mit Erwerb, Ausbildung oder Erwerbsunfähigkeit; Kind im gleichen Haushalt
 - **Beachten:** Andere als hälftige Aufteilung nachweisen; gilt auch bei alternierender Obhut mit gemeinsamer Sorge
 - **Limiten:**

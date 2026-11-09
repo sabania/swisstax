@@ -396,9 +396,9 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2026.yaml (2026-11-09)
 - **Rein:** Rechnungen Kita/Hort/Spielgruppe/Tagesmutter + Zahlungsnachweis → bezahlte Betreuungskosten je Kind · Aufstellung Fremdbetreuungskosten mit Empfängern → beilegen; bei angestellter Betreuungsperson Kopie Lohnausweis · Seite 1 Kinder → Jahrgang 2012–2026, gleicher Haushalt
 - **Rechnen:** Σ je Kind min(nachgewiesene Kosten; Kanton 25'300 / Bund 25'800); Konkubinat/alternierende Obhut: je min(Anteil; 12'650 / 12'900) → Code 376
 - **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 25'300 / CHF 25'800 · Altersgrenze Kind: 14 Jahre / 14 Jahre
+- **Beachten:** Verpflegung/Unterhalt der Kinder in der Betreuung = Lebenshaltung, nicht abziehbar (Bund KS 30 Ziff. 8.5, bund-ks-30__c0044); ZH: nur pauschal ausgewiesene Kosten → 20 % als Lebenshaltung kürzen (ZStB 34.1, zh-zstb-34-1__c0022)
 - **Beachten:** Nur Kosten während Arbeits-/Ausbildungszeit; Ehepaare: beide gleichzeitig erwerbstätig/in Ausbildung/erwerbsunfähig
 - **Beachten:** Nur pauschal ausgewiesene Betreuungskosten: 20% als Lebenshaltungskosten kürzen
-- **Beachten:** Nicht abziehbar: Sport, Musik, Vereine, Schulgeld, Nachhilfe; bei Ferienbetreuung Reise/Verpflegung/Übernachtung
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2026-detail.md#16-6-abzug-drittbetreuung) · [Formular 300 ZH 2026 UJ S. 3](../chunks/zh/2026/zh-form-300-2026-uj/zh-form-300-2026-uj__c0008.md)
 
 ### 17 · Sonderabzug bei Erwerbstätigkeit beider Ehegatten/Partner (Zweiverdienerabzug) (Code 290) ☑️

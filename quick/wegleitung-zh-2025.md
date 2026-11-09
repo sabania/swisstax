@@ -316,6 +316,7 @@ generiert: tools/build_quick.py aus data/zuordnung/zh/2025.yaml (2026-11-09)
 - **Rein:** Rechnungen Kita/Hort/Tagesfamilie + Zahlungsnachweise → Betreuungskosten je Kind · Seite 1 Kinder → Geburtsdatum (Jahrg. 2011–2025)
 - **Rechnen:** je Kind < 14 J.: min(nachgewiesene Kosten; Kanton 25’000 / Bund 25’800) → Code 376; Konkubinat mit gemeinsamer Sorge: je max. Kanton 12’500 / Bund 12’900
 - **Limite (Kanton / Bund):** Maximum pro Kind (CHF): CHF 25'000 / CHF 25'800 · Altersgrenze Kind: 14 Jahre / 14 Jahre
+- **Beachten:** Verpflegung/Unterhalt der Kinder in der Betreuung = Lebenshaltung, nicht abziehbar (Bund KS 30 Ziff. 8.5, bund-ks-30__c0044); ZH: nur pauschal ausgewiesene Kosten → 20 % als Lebenshaltung kürzen (ZStB 34.1, zh-zstb-34-1__c0022)
 - **Beachten:** Nur Kosten im direkten Zusammenhang mit Erwerb, Ausbildung oder Erwerbsunfähigkeit; Kind im gleichen Haushalt
 - **Beachten:** Andere als hälftige Aufteilung nachweisen; gilt auch bei alternierender Obhut mit gemeinsamer Sorge
 - ↗ [Detail](../wiki/zh/zuordnung-zh-2025-detail.md#16-6-abzug-drittbetreuung) · [Formular 300 ZH 2025 S. 3](../chunks/zh/2025/zh-form-300-2025/zh-form-300-2025__c0008.md)

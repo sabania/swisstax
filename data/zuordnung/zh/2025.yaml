@@ -1463,6 +1463,7 @@ positionen:
     zitat: eine andere Aufteilung ist von den Eltern nachzuweisen. Dasselbe gilt für Eltern mit Kindern unter alternierender Obhut
   - chunk: zh-wl-2025__c0108
     zitat: steuerpflichtigen Person, die für seinen Unterhalt sorgt, im gleichen Haushalt leben.
+
   status: agent-geprueft
   bemerkung: 'Hinweis: Die VKP ZH ab 2024 (zh-vkp-2024-zstb__c0005) nennt noch Fr. 10 400 für § 31 Abs. 1 lit. j; für 2025 gilt gemäss StG ZH Nachtrag 127 (zh-stg-2025__par-31-t4), Formular und WL der Betrag
     CHF 25’000 – die Verordnung 10’400 ist überholt und nicht anzuwenden.'
@@ -1471,6 +1472,7 @@ positionen:
   - Seite 1 Kinder → Geburtsdatum (Jahrg. 2011–2025)
   berechnung: 'je Kind < 14 J.: min(nachgewiesene Kosten; Kanton 25’000 / Bund 25’800) → Code 376; Konkubinat mit gemeinsamer Sorge: je max. Kanton 12’500 / Bund 12’900'
   beachten:
+  - 'Verpflegung/Unterhalt der Kinder in der Betreuung = Lebenshaltung, nicht abziehbar (Bund KS 30 Ziff. 8.5, bund-ks-30__c0044); ZH: nur pauschal ausgewiesene Kosten → 20 % als Lebenshaltung kürzen (ZStB 34.1, zh-zstb-34-1__c0022)'
   - Nur Kosten im direkten Zusammenhang mit Erwerb, Ausbildung oder Erwerbsunfähigkeit; Kind im gleichen Haushalt
   - Andere als hälftige Aufteilung nachweisen; gilt auch bei alternierender Obhut mit gemeinsamer Sorge
 - ziffer: '17'

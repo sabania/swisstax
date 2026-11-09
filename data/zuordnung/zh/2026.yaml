@@ -2170,6 +2170,7 @@ positionen:
     zitat: sind generell nicht als Kinderdrittbetreuungskosten abzugsfähig.
   - chunk: zh-zstb-34-1__c0021
     zitat: während der tatsächlichen Arbeits- oder Ausbildungszeit
+
   status: agent-geprueft
   rein:
   - Rechnungen Kita/Hort/Spielgruppe/Tagesmutter + Zahlungsnachweis → bezahlte Betreuungskosten je Kind
@@ -2177,6 +2178,7 @@ positionen:
   - Seite 1 Kinder → Jahrgang 2012–2026, gleicher Haushalt
   berechnung: 'Σ je Kind min(nachgewiesene Kosten; Kanton 25''300 / Bund 25''800); Konkubinat/alternierende Obhut: je min(Anteil; 12''650 / 12''900) → Code 376'
   beachten:
+  - 'Verpflegung/Unterhalt der Kinder in der Betreuung = Lebenshaltung, nicht abziehbar (Bund KS 30 Ziff. 8.5, bund-ks-30__c0044); ZH: nur pauschal ausgewiesene Kosten → 20 % als Lebenshaltung kürzen (ZStB 34.1, zh-zstb-34-1__c0022)'
   - 'Nur Kosten während Arbeits-/Ausbildungszeit; Ehepaare: beide gleichzeitig erwerbstätig/in Ausbildung/erwerbsunfähig'
   - 'Nur pauschal ausgewiesene Betreuungskosten: 20% als Lebenshaltungskosten kürzen'
   - 'Nicht abziehbar: Sport, Musik, Vereine, Schulgeld, Nachhilfe; bei Ferienbetreuung Reise/Verpflegung/Übernachtung'
