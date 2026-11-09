@@ -79,7 +79,7 @@ Quick-Layer: [AR 2025](../../quick/zuordnung-ar-2025.md) · [SG 2025](../../quic
 | SG 2026 | 16.4, Code 223 / 224 | wie 2025 (Status «extrahiert») | [Formular 1 SG 2026 UJ S. 3](../../chunks/sg/2026/sg-form-1-2026-uj/sg-form-1-2026-uj__c0008.md) |
 | TG 2025 | 16.1 (P1, Code 348) / 16.2 (P2, Code 349) | Kursrechnungen, Aufstellung; Lohnausweis Ziff. 13.3 | [Formular 1 TG 2025 S. 3](../../chunks/tg/2025/tg-form-01-2025/tg-form-01-2025__c0011.md) |
 | TG 2026 | 16.1 / 16.2, Code 348 / 349 | wie 2025 | [Formular 1 TG 2026 S. 3](../../chunks/tg/2026/tg-form-01-2026/tg-form-01-2026__c0011.md) |
-| ZH 2025 | 16.2, Code 292; Form. 367 (Codes 2900–2905, 2920/2921) | Kursrechnungen; Lohnausweis Ziff. 13.3 als «Beitrag Arbeitgeber» | [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) |
+| ZH 2025 | 16.2, Code 292; Form. 367 (Codes 2900–2905, 2920/2921 = Person 1/Person 2, je Block Staats- und Bundessteuer) | Kursrechnungen; Lohnausweis Ziff. 13.3 als «Beitrag Arbeitgeber» | [Formular 367 ZH 2025 S. 1](../../chunks/zh/2025/zh-form-367-2025/zh-form-367-2025__c0001.md) |
 | ZH 2026 | 16.2, Code 292; Form. 367 | wie 2025; Höchstbetrag Staat 12 600 / Bund 13 000 | [WL ZH 2026 UJ S. 15](../../chunks/zh/2026/zh-wl-2026-uj/zh-wl-2026-uj__c0090.md) |
 
 ## Beispiele / Sonderfälle

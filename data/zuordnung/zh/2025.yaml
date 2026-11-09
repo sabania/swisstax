@@ -6,6 +6,7 @@ bund_spalte:
   text: 'Zwei Spalten «Staatssteuer» und «Bundessteuer»: Beträge mit abweichender Bundesregel in der Bundessteuer-Spalte separat eintragen.'
   quelle: zh-form-300-2025__c0007
   zitat: Abzüge   Staatssteuer   Bundessteuer
+hinweis: 'Codes bezeichnen Zeilen, nicht Spalten. Hauptformular und Form. 365: ein Code je Zeile für beide Spalten. Form. 360: derselbe Code in beiden Spalten (z.B. 206); Person 2 hat eigene Codes (226 usw.). Ein Codepaar «X/Y» heisst je nach Blatt Person 1/Person 2 (Form. 360 206/226; Form. 367: Spalten Person 1/Person 2, 2900/2903) oder Staat/Bund (Form. 365: 614 Staat 1’300 / 615 Bund 700) – massgebend ist die Bezeichnung der Position. Belege: zh-form-360-2025__c0003 «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206» («3211» = Layoutartefakt der Eingabefelder, kein Code; Spaltenlage per raw/zh/2025/zh-form-360-2025.pdf S. 1 geprüft); zh-form-360-2025__c0008 «Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226»; zh-form-365-2025__c0002 «Zusätzlicher Abzug für jede unterstützungsbed. Person Anzahl: 700 615»; zh-form-367-2025__c0001 «Bezeichnung Person 1 Person 2».'
 positionen:
 - ziffer: '1.1'
   abschnitt: Einkünfte
@@ -1207,7 +1208,7 @@ positionen:
     und nicht Ausbildung bis zum ersten Sek.-II-Abschluss. Massgebend ist Fälligkeit/Zahlung, nicht der Kursbesuch. Lohnausweis Ziff. 13.3 beachten.
   werte_keys:
   - weiterbildung.max
-  bund: 'Bund: max. CHF 13’000 (Bundessteuer-Spalte, Form. 367 Code 2921/292).'
+  bund: 'Bund: max. CHF 13’000 je Person (Form. 367 Block «Bundessteuer»: 2920 = Person 1, 2921 = Person 2; 2920 + 2921 → Code 292 in der Bundessteuer-Spalte Ziff. 16.2). (Layout: raw/zh/2025/zh-form-367-2025.pdf S. 1)'
   quellen:
   - chunk: zh-form-300-2025__c0008
     zitat: 16.2 Berufsorientierte Aus- und Weiterbildungskosten Hilfsblatt 292
@@ -1218,11 +1219,13 @@ positionen:
   - chunk: zh-form-367-2025__c0001
     zitat: Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.)
   - chunk: zh-form-367-2025__c0001
-    zitat: Zulässiger Abzug (max. je CHF 13’000)
+    zitat: Zulässiger Abzug (max. je CHF 13’000) 2920 / 2921
   - chunk: bund-ks-42__c0025
     zitat: bescheinigt der Arbeitgeber diese Vergütung im Lohnausweis in Ziffer 13.3
   - chunk: zh-form-367-2025__c0001
-    zitat: Zulässiger Abzug (max. je CHF 12’400)
+    zitat: Zulässiger Abzug (max. je CHF 12’400) 2920 / 2921
+  - chunk: zh-form-367-2025__c0001
+    zitat: Bezeichnung Person 1 Person 2
   status: agent-geprueft
   rein:
   - Kursrechnungen + Zahlungsbelege → Total der Kosten (Form. 367 Code 2900/2903)
@@ -1231,7 +1234,8 @@ positionen:
   - Nur mit Abschluss Sek. II oder ab vollendetem 20. Lebensjahr; nicht Ausbildung bis zum ersten Sek.-II-Abschluss
   - 'Zeitpunkt: Fälligkeit bzw. Zahlung, nicht der Kursbesuch'
   - Formular 367 vollständig ausgefüllt beilegen
-  berechnung: 'je Person: min(selbstgetragene Kosten 2902/2905 = Kosten − Beiträge Dritter; Kanton 12’400 / Bund 13’000) → 2920/2921; Summe → Code 292'
+  - 'Codes 2920/2921 = Person 1 / Person 2 (nicht Staat/Bund); Staats- und Bundessteuer stehen in getrennten Blöcken mit denselben Codes'
+  berechnung: 'je Person (Spalten Person 1 / Person 2): 2902/2905 = 2900/2903 − 2901/2904; zulässiger Abzug 2920 (Person 1) / 2921 (Person 2) = min(selbstgetragen; Block Staatssteuer 12’400 bzw. Block Bundessteuer 13’000); je Block 292 = 2920 + 2921'
 - ziffer: '16.3'
   abschnitt: Abzüge
   bezeichnung: Kosten für die Verwaltung des beweglichen Privatvermögens (Code 283)
@@ -2575,7 +2579,7 @@ positionen:
   - verfahren.fristerstreckung
 - ziffer: Form. 360 Ziff. 1.1
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: 'Abonnementkosten öffentliche Verkehrsmittel (Code 201 / Person 2: 221)'
+  bezeichnung: Abonnementkosten öffentliche Verkehrsmittel (Code 201 Person 1 / 221 Person 2)
   key: abzug.berufskosten.fahrkosten
   belege:
   - oev-abo
@@ -2687,7 +2691,7 @@ positionen:
   - 'Geschäftsfahrzeug: kein Fahrkostenabzug; Bund: km-Abzug nur ohne verfügbares/zumutbares ÖV'
 - ziffer: Form. 360 Ziff. 7
   abschnitt: Hilfsblatt Berufskosten (Form. 360)
-  bezeichnung: Begründung für Benützung eines privaten Motorfahrzeugs (Code 2041–2044 / 2241–2244); Geschäftsfahrzeug
+  bezeichnung: Begründung für Benützung eines privaten Motorfahrzeugs (Code 2041–2044 Person 1 / 2241–2244 Person 2); Geschäftsfahrzeug
   key: abzug.berufskosten.fahrkosten
   belege:
   - fahrzeugausweis-arbeitsweg
@@ -2736,6 +2740,8 @@ positionen:
   quellen:
   - chunk: zh-form-360-2025__c0003
     zitat: wenn die Verpflegung durch den Arbeitgeber verbilligt wird und dem Arbeitnehmer trotzdem
+  - chunk: zh-form-360-2025__c0003
+    zitat: 'Mehrkosten entstehen: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 206 3211 206 3211'
   - chunk: zh-wl-2025__c0066
     zitat: – wenn die Verpflegung durch den Arbeitgeber verbilligt wird (Kantine, Personalrestaurant,
   - chunk: zh-pauschalierung-berufsauslagen-2025__c0004
@@ -2743,7 +2749,7 @@ positionen:
   - chunk: zh-wl-2025__c0032
     zitat: Kantinenverpflegung / Lunch-Checks
   - chunk: zh-form-360-2025__c0008
-    zitat: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226
+    zitat: pro Arbeitstag CHF 7.50 / im Jahr CHF 1’600 226 3211 226 3211
   - chunk: zh-wl-2025__c0065
     zitat: Dafür entfällt der Verpflegungsabzug (Ziffer 2.1).
   - chunk: bund-bkv-2025__art-6-t1
@@ -2751,9 +2757,11 @@ positionen:
   - chunk: bund-bkv-2025__art-6-t1
     zitat: Nur der halbe Abzug ist zulässig, wenn die Verpflegung vom Arbeitgeber anders als in bar verbilligt wird (Abgabe von Gutscheinen)
   status: agent-geprueft
+  bemerkung: 'Codes 206 (Person 1, Staat und Bund) / 226 (Person 2, Staat und Bund). «3211» in den Formular-Zitaten ist ein Layoutartefakt der Eingabefelder, kein Code (raw/zh/2025/zh-form-360-2025.pdf S. 1).'
   rein:
   - Lohnausweis → Feld G (Kantinenverpflegung/Lunch-Checks) angekreuzt
   - Arbeitszeitnachweis → Anzahl Arbeitstage mit auswärtiger Verpflegung
+  berechnung: 'min(Arbeitstage × 7.50; 1’600) → Code 206 (Person 2: Code 226), Spalte Staatssteuer und Bundessteuer; Regelfall Kantine/Lunch-Checks: Kanton = Bund (Ausnahmen Bund nach BKV Art. 6 Abs. 2/3, s. beachten: Barbeitrag beim Bund kein halber Abzug, kein Abzug unter Naturalbezugsansätzen)'
   beachten:
   - Nur wenn die Arbeitspause die Heimkehr nicht ermöglicht und trotzdem Mehrkosten entstehen
   - Nicht kumulierbar mit 2.1 voll, 2.2 Schicht oder Mittagsheimfahrt (dann entfällt Verpflegungsabzug)
@@ -3981,7 +3989,7 @@ positionen:
   berechnung: 'Entweder 3155 = 3120 – 3150 ODER Pauschale 3103: HE leicht 2’500 / mittel 5’000 / schwer 7’500; Gehörlose, Dialyse 2’500 (Kanton = Bund) → Ziff. 16.4 (3160)'
 - ziffer: Form. 367
   abschnitt: Hilfsblatt Weiterbildung (Form. 367)
-  bezeichnung: Total der Kosten (Code 2900/2903), Beitrag Arbeitgeber/Dritte (2901/2904), Selbstgetragene Kosten (2902/2905), Zulässiger Abzug (2920/2921 → Code 292)
+  bezeichnung: Total der Kosten (Code 2900/2903), Beitrag Arbeitgeber/Dritte (2901/2904), Selbstgetragene Kosten (2902/2905), Zulässiger Abzug (2920/2921 → Code 292) (Spalten Person 1 / Person 2)
   key: abzug.weiterbildung
   belege:
   - weiterbildung-rechnungen
@@ -3991,7 +3999,7 @@ positionen:
     Ziff. 13.3 ausgewiesene Arbeitgeberbeiträge sind als Beitrag Dritter anzugeben.'
   werte_keys:
   - weiterbildung.max
-  bund: 'Bund: max. CHF 13’000.'
+  bund: 'Bund: max. CHF 13’000 je Person (Block «Bundessteuer», Codes 2920/2921 = Person 1/Person 2).'
   quellen:
   - chunk: zh-form-367-2025__c0001
     zitat: Beitrag Arbeitgeber oder weiterer Stellen (Bund, Branchenverbände etc.)
@@ -3999,6 +4007,8 @@ positionen:
     zitat: Zulässiger Abzug (max. je CHF 12’400)
   - chunk: zh-form-367-2025__c0001
     zitat: Zulässiger Abzug (max. je CHF 13’000)
+  - chunk: zh-form-367-2025__c0001
+    zitat: Bezeichnung Person 1 Person 2
   - chunk: zh-wl-2025__c0093
     zitat: Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist
   - chunk: zh-wl-2025__c0093
@@ -4012,7 +4022,7 @@ positionen:
   - Kursrechnungen/Zahlungsbelege 2025 → Total der Kosten (2900/2903)
   - Lohnausweis Ziff. 13.3 → Beitrag Arbeitgeber (2901/2904)
   - Bestätigungen Beiträge Bund/Branchenverbände → Beitrag weiterer Stellen (2901/2904)
-  berechnung: 'Je Person: 2902/2905 = 2900/2903 – 2901/2904; Abzug 2920/2921 = min(selbstgetragen; Kanton 12’400 / Bund 13’000); Σ → Code 292 → Ziff. 16.2'
+  berechnung: 'Je Person: 2902/2905 = 2900/2903 – 2901/2904; Abzug 2920/2921 (Person 1/Person 2) = min(selbstgetragen; Kanton 12’400 / Bund 13’000); 292 = 2920 + 2921 je Block Staats-/Bundessteuer → Ziff. 16.2'
   beachten:
   - Nur mit Abschluss Sek. II oder ab vollendetem 20. Lebensjahr; nicht Ausbildung bis zum ersten Sek.-II-Abschluss
   - Massgebend ist Fälligkeit bzw. Zahlung, nicht der Kursbesuch

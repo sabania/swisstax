@@ -157,7 +157,7 @@ werte:
   sozialabzug.kind_vorschule: Kinderabzug Vorschulalter (CHF)
   sozialabzug.kind_schule: Kinderabzug Schulalter (CHF)
   sozialabzug.kind_ausbildung: Kinderabzug/Ausbildungsabzug in Ausbildung (CHF)
-  sozialabzug.kind_ausbildung_auswaerts: Ausbildungsabzug auswärtige Ausbildung/höhere Stufe (CHF)
+  sozialabzug.kind_ausbildung_auswaerts: 'Kinder-Ausbildungsabzug Zusatz/Höherstufe (kantonal verschieden: SG zusätzlicher Ausbildungskostenabzug über Selbstbehalt; TG erhöhter Kinderabzug 20.–26. Altersjahr, ersetzt Grund-/16+-Abzug, nicht kumulativ – siehe Text) (CHF)'
   sozialabzug.unterstuetzung: Unterstützungsabzug (CHF)
   sozialabzug.verheiratete: Verheiratetenabzug (CHF, Bund)
   sozialabzug.alter_iv: Abzug AHV-Alter/erwerbsunfähig/verwitwet (CHF)

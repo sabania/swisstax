@@ -1,6 +1,6 @@
 # Lint-Bericht (2026-11-09)
 
-- Quellen: 295 · Chunks: 8925 · geprüfte Links: 29374
+- Quellen: 295 · Chunks: 8925 · geprüfte Links: 29378
 - Fehler: 0 · Warnungen: 48
 
 ## Status der Daten (Werte/Zuordnungen)

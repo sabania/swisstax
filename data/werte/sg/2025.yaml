@@ -553,8 +553,10 @@ werte:
     zitat: höchstens weitere Fr. 13 700
   - chunk: sg-wl-2025__c0006
     zitat: Selbstbehalt Ausbildungskosten je Kind   Fr. 3’200
+  - chunk: sg-wl-2025__c0105
+    zitat: wenn für das Kind ein Abzug
   status: agent-geprueft
-  bemerkung: Maximum 13'700 nach Abzug Selbstbehalt 3'200; Voraussetzung Abzug nach Ziff. 23.2.
+  bemerkung: 'Ausbildungskostenabzug (Ziff. 23.3), NICHT auf auswärtige Ausbildung beschränkt: gilt für jedes Kind in schulischer oder beruflicher Ausbildung, für das der Abzug nach Ziff. 23.2 geltend gemacht werden kann; selbst getragene Kosten nach Abzug von Stipendien und Selbstbehalt Fr. 3''200, höchstens Fr. 13''700 (Schlüsselname historisch).'
 - key: sozialabzug.unterstuetzung
   wert: null
   einheit: CHF

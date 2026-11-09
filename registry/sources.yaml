@@ -4432,7 +4432,7 @@
   format: pdf
   verarbeitung: chunk
   gilt_ab: '2024-01-01'
-  hinweis: gilt für Steuerperioden 2024 und 2025
+  hinweis: 'gilt für Steuerperioden 2024 und 2025; Ausnahme § 31 Abs. 1 lit. j (Drittbetreuung): der VKP-Betrag Fr. 10 400 ist nicht anzuwenden – lit. j lautet gemäss G vom 21. August 2023 (OS 78, 484; in Kraft seit 1. Januar 2024) auf Fr. 25 000 (zh-stg-2025__par-31-t4; Fussnote 110: sources/zh/2025/zh-stg-2025.md Z. 685 bzw. raw/zh/2025/zh-stg-2025.pdf S. 102)'
   sha256: 308a0536410d5f796753521877d683c5a1f427fdff5a5d42dffdfb08a56ce1de
   bytes: 128559
   abgerufen: '2026-11-09'

@@ -416,7 +416,7 @@ werte:
   bemerkung: 'StG Nachtrag 127 (2025) vs. VKP 2024: für 2026 gilt 25''300 laut StG Nachtrag 132 und VKP ab 2026; die 10''400 der alten VKP ab 2024 sind überholt.'
 - key: drittbetreuung.altersgrenze
   wert: 14
-  einheit: Text
+  einheit: Jahre
   text: Kind hat das 14. Altersjahr noch nicht vollendet, lebt im gleichen Haushalt wie die für den Unterhalt sorgende Person; Kosten im direkten kausalen Zusammenhang mit Erwerbstätigkeit, Ausbildung oder
     Erwerbsunfähigkeit.
   gilt_fuer: kanton

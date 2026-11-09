@@ -571,8 +571,10 @@ werte:
   quellen:
   - chunk: sg-stg-2026__art-48
     zitat: höchstens weitere Fr. 13 800.– für Ausbildungskosten
+  - chunk: sg-stg-2026__art-48
+    zitat: das in der schulischen oder beruflichen Ausbildung steht, soweit sie der Steuerpflichtige selbst trägt und sie Fr. 3200.– übersteigen
   status: agent-geprueft
-  bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13''700. Selbstbehalt Fr. 3''200 unverändert (Gesetzestext).'
+  bemerkung: 'Neu 2026 gemäss MB 8/2026 Ziff. 23.3 (sg-mb-8-2026__c0013; Zitat wegen Layout nicht maschinell prüfbar); 2025: 13''700. Selbstbehalt Fr. 3''200 unverändert (Gesetzestext). Ausbildungskostenabzug (Ziff. 23.3), NICHT auf auswärtige Ausbildung beschränkt: gilt für jedes Kind in schulischer oder beruflicher Ausbildung (Art. 48 Abs. 1 lit. a Ziff. 3 StG SG); selbst getragene Kosten über dem Selbstbehalt Fr. 3''200, höchstens Fr. 13''800 (Schlüsselname historisch). Bedingung «Abzug nach Ziff. 23.2» und Anrechnung der Stipendien stehen in der WL 2025 (sg-wl-2025__c0105) – für 2026 Vorjahr, nicht bestätigt.'
 - key: sozialabzug.unterstuetzung
   wert: null
   einheit: CHF
