@@ -25,6 +25,7 @@ faelle:
 - {befehl: wert, jur: bund, jahr: "2025", eingabe: eigenmietwert, enthaelt: "**TG** liegenschaft.eigenmietwert_abzug = **40 %**"}
 - {befehl: position, jur: ar, jahr: "2025", eingabe: verwaltungskosten, enthaelt: "auch private Bankkonten"}
 - {befehl: formular, jur: zh, jahr: "2025", eingabe: "", enthaelt: "Wertschriften in einem Bankdepot"}
+- {befehl: formular, jur: sg, jahr: "2025", eingabe: "", enthaelt: "Pauschalen ohne Beleg"}
 - {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderabzug, erwartet: ["24.1"]}
 - {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderbetreuung, erwartet: ["16.6"]}
 - {befehl: position, jur: zh, jahr: "2025", eingabe: Kinderdrittbetreuung, erwartet: ["16.6"]}

@@ -826,10 +826,28 @@ def formular(kt, jahr) -> str:
             "ihren eigenen Ziffern (danach), steuerfreie Beträge, die nur im Tarif wirken (Zeile «Tarif»), gar nicht abziehen.",
             "- Vorsorgeguthaben (2. Säule, Säule 3a) sind bis zur Fälligkeit kein steuerbares Vermögen – nicht deklarieren, nicht nachfragen "
             "(ZH zh-wl-2025__c0154, SG sg-wl-2025__c0107, AR ar-wl-2025__c0111, TG tg-wl-2025__c0139)."]
-    vk = [p for p in rows if p.get("key") == "abzug.verwaltungskosten_wertschriften" and p.get("status") != "offen"]
-    if vk:
-        out.append(f"- Wertschriften in einem Bankdepot → Verwaltungskosten auch ohne Gebührenbeleg prüfen (Pauschale Kanton): {zf(vk[0])} – "
-                   f"{cut(vk[0].get('berechnung'), 150)}. Basis (was zählt mit?) und Bundesspalte: `position {j} {jahr} {vk[0]['ziffer'] if not str(vk[0]['ziffer']).startswith('Form') else 'verwaltungskosten'}`.")
+    out += ["- Sozialabzüge auf dem Vermögen in voller Höhe in ihre eigene Ziffer eintragen (nicht auf das Reinvermögen kürzen); "
+            "erst das steuerbare Vermögen ist mindestens 0.",
+            "- Verrechnungssteueranspruch = 35 % der Erträge mit Verrechnungssteuerabzug, im Wertschriftenverzeichnis ausweisen "
+            "(Rückerstattung, weder Einkommen noch Abzug; bund-vstg__art-13); DA-1 nur für ausländische Quellensteuern."]
+    # Pauschalen, die ohne Beleg zustehen: bei jedem Fall aktiv prüfen (häufigste Auslassung)
+    PK = [("abzug.berufskosten.uebrige", "übrige Berufskosten (je erwerbstätige Person)"),
+          ("abzug.berufskosten.nebenerwerb", "Nebenerwerb (falls vorhanden)"),
+          ("abzug.weiterbildung", "Weiterbildung (falls Kurs/Weiterbildung)"),
+          ("abzug.verwaltungskosten_wertschriften", "Wertschriften in einem Bankdepot"),
+          ("abzug.liegenschaft.unterhalt", "Liegenschaft (Pauschale oder effektiv)")]
+    pz = []
+    for key, wann in PK:
+        cand = [p for p in rows if p.get("key") == key and p.get("status") != "offen"
+                and re.search(r"pauschal", f"{p.get('berechnung') or ''} {p.get('regel') or ''}", re.I)
+                and not re.search(r"keine Pauschale", f"{p.get('berechnung') or ''}", re.I)]
+        cand.sort(key=lambda p: (0 if re.search(r"pauschal", str(p.get("berechnung") or ""), re.I) else 1,
+                                 1 if str(p["ziffer"]).startswith(("Lohnausweis",)) else 0))
+        if cand:
+            p = cand[0]
+            pz.append(f"  - {wann}: {zf(p)} – {cut(p.get('berechnung') or p.get('regel'), 240)} → `position {j} {jahr} \"{p['ziffer']}\"`")
+    if pz:
+        out += ["- **Pauschalen ohne Beleg – in jedem Fall prüfen** (zustehende Pauschale nicht weglassen; günstigere Variante je Ebene):"] + pz
     out += ["- Beträge im Formular in ganzen Franken (Formulare 2025: ZH «CHF ohne Rappen» zh-form-300-2025__c0004, TG «nur in ganzen "
             "Franken» tg-wl-2025__c0031, AR «Fr. (ohne Rappen)» ar-form-06-2025__c0001); Franken und Rappen nur, wo das Formular es "
             "verlangt (Wertschriftenerträge mit Verrechnungssteuer, Verrechnungssteueranspruch). Mit `rechne` genau rechnen, dann runden.",
