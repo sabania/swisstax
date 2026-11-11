@@ -60,7 +60,7 @@ Rang: 1 Gesetz · 2 Standard · 3 Handbuch/Praxis/Fachliteratur EXPERTsuisse · 
 | `estv-ks-6a-2024` | KS ESTV 6a | ESTV Kreisschreiben Nr. 6a vom 10.10.2024: Verdecktes Eigenkapital | praxis | 3 | 7 | 3 |
 | `estv-zinsen-2026` | ESTV Zinssätze 2026 | ESTV Rundschreiben: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse und Darlehen | praxis | 3 | 5 | 3 |
 | `treuhand-almanach-2026` | Treuhand-Almanach | Treuhand-Almanach, Ausgabe 2026 | fachliteratur | 4 | 188 | 112 |
-| `seminar-ki-datenschutz-2026` | Seminar KI Datenschutz | Seminarunterlagen «Knacknüsse Eingeschränkte Revision» (11-2026): Datenschutz bei der Nut… | fachliteratur | 4 | 0 | 8 |
+| `seminar-ki-datenschutz-2026` | Seminar KI Datenschutz | Seminarunterlagen «Knacknüsse Eingeschränkte Revision» (11-2026): Datenschutz bei der Nut… | fachliteratur | 4 | 17 | 8 |
 | `konzept-ki-revisionsagent-2026` | Konzept KI-Revisionsagent | Konzept KI-Revisionsagent (consis, 26.10.2026) – Grundlage Testphase 1 | intern | 5 | 30 |  |
 | `katalog-revio4` | Prüfschritt-Katalog revio 4.0 | Anhang H – Prüfprogramm revio 4.0 (29 Prüffelder, 538 Prüfschritte) | intern | 5 | 75 |  |
-| `flussdiagramm-revisionsagent-2026` | Flussdiagramm | Flussdiagramm KI-Revisionsagent: Gesamtprozess einer eingeschränkten Revision (26.10.2026) | intern | 5 | 0 |  |
+| `flussdiagramm-revisionsagent-2026` | Flussdiagramm | Flussdiagramm KI-Revisionsagent: Gesamtprozess einer eingeschränkten Revision (26.10.2026) | intern | 5 | 8 | 1 |

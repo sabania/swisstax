@@ -1,7 +1,7 @@
 # Lint Revisions-Wiki
 
-Zitate geprüft: 304 · Links: 533 · Seiten: 40
-**Fehler: 55 · Warnungen: 0**
+Zitate geprüft: 320 · Links: 536 · Seiten: 44
+**Fehler: 54 · Warnungen: 0**
 
 ## Fehler
 - quick/prueffeld-sch1.md: toter Link ../wiki/prueffelder/sch1.md
@@ -48,7 +48,6 @@ Zitate geprüft: 304 · Links: 533 · Seiten: 40
 - quick/prueffeld-i1.md: toter Link ../wiki/prueffelder/i1.md
 - quick/prueffeld-g1.md: toter Link ../wiki/prueffelder/g1.md
 - quick/prueffeld-m2.md: toter Link ../wiki/prueffelder/m2.md
-- quick/revio.md: toter Link ../wiki/revio/werkzeuge-nur-mensch.md
 - quick/prueffeld-n1.md: toter Link ../wiki/prueffelder/n1.md
 - quick/prueffeld-f2.md: toter Link ../wiki/prueffelder/f2.md
 - quick/prueffeld-h1.md: toter Link ../wiki/prueffelder/h1.md

@@ -1,0 +1,1090 @@
+# Werkzeugketten je Aufgabe (revio-MCP). INTERN.
+status: agent-geprueft
+erfasst: '2026-11-11'
+ketten:
+- id: K1
+  aufgabe: Mandant und Dossier/Periode finden und öffnen, Mandatskontext und Ids der Akte fixieren
+  wann: Zu Beginn jedes Auftrags (vor jedem anderen Aufruf) und nach jedem Kontextwechsel (z. B. Vorjahr K10)
+  prozess: allgemein
+  schritte:
+  - werkzeug: revio_server_version
+    zweck: Verbindung und Backend-Version prüfen (Werkzeugliste Stand revio 4.0.373); andere Version → Werkzeugliste/Klassifikation zuerst nachführen. Komfortwerkzeug, steht nur in revio-mcp-werkzeuge.md
+      (nicht in der CSV)
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: revio_find_clients
+    zweck: Kunde suchen (intern LoadClients); Treffer gegen den Auftrag des WP prüfen. 0 oder mehr als 1 Treffer → abbrechen, Rückfrage WP (nie Kunde anlegen). Die Liste aller Mandate
+      nur zum Abgleich verwenden, nicht speichern oder weitergeben (Berufsgeheimnis). Nur in MD
+    parameter: 'keine Parameter. Ergebnis ClientDto: clientId = id; Abgleich über number, name, uid, legalForm, canton'
+    art: lesen
+  - werkzeug: revio_list_dossiers
+    zweck: Jahresakten des Kunden lesen und die Akte zum Stichtag des Auftrags wählen; versiegelte oder zur Siegelung beantragte Akte → nur lesen. Nur in MD
+    parameter: 'client_id = clientId aus Schritt 2. Aus AnualFileDto: dossierId = id (balancingDate = Stichtag, isInterimFile = false), clientId, containerId, subContainerId, previousDossierId,
+      openingDate, balancingDate, anualFileTitle, state, sealRequestedDate, lastSealActionDate. Gleichwertiger Endpunkt: rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId
+      mit path_params_json {"clientId": <Schritt 2>}'
+    art: lesen
+  - werkzeug: revio_open_dossier
+    zweck: Dossier öffnen und Mandatskontext fixieren (Kunde, revio-Mandat, Geschäftsjahr, Stichtag; M-Files-Kunde ergänzt der Agent ausserhalb revio). Jeder spätere Aufruf wird dagegen
+      geprüft; Schreibwerkzeuge gibt der Agenten-Code nur frei, solange der geöffnete Kontext dieser Akte entspricht (siehe K10). Nur in MD
+    parameter: 'client_id = Schritt 2, dossier_id = Schritt 3. Kandidat: entspricht rv_get_clientsManagement_LoginDossier_by_clientId_by_dossierId mit path_params_json {"clientId": …,
+      "dossierId": …}'
+    art: lesen
+  - werkzeug: rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId
+    zweck: Auftragsteam (3.6) lesen; prüfen, ob der Dienstbenutzer des Agenten der Akte zugewiesen ist
+    parameter: 'path_params_json {"annualFileId": dossierId aus Schritt 3}'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadFinancialYears
+    zweck: Geschäftsjahre der Jahresrechnung lesen (aktuelles Jahr, Vorjahr) mit Siegelstatus; Perioden für Anhang, Kontenansichten und Import
+    parameter: keine Parameter (Dossierkontext aus Schritt 4). Ergebnis FinancialYearDto {index, from, to, editFrom, editTo, isActualFiscalYear, isSealed, periods[PeriodDto]}; Perioden
+      aus periods entnehmen, isSealed für K2 merken; from/to mit openingDate/balancingDate aus Schritt 3 abgleichen
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_LoadContainerSections_by_containerId_by_subContainerId
+    zweck: Navigationsbaum der Akte lesen und die Tabelle Bereich/Prüffeld → areaId (= navigationId), templateId, Kontenklassen aufbauen (Grundlage für K2–K17)
+    parameter: 'path_params_json {"containerId": AnualFileDto.containerId, "subContainerId": AnualFileDto.subContainerId} (Schritt 3). Ergebnis ContainerNavigationItemDto: id (= areaId/navigationId,
+      Kandidat), title, navigationDetail.code/prefix (Kandidat: «C1», «3.3», «10.9»), itemConfiguration.navigationComponentId, itemConfiguration.referenceId (Kandidat: templateId der
+      Prüfschritte), itemConfiguration.defaultClassifications (Kontenklassen des Prüffelds), detailNavigationItems. Variante mit Bearbeitungsstand: rv_get_containerDefinitions_LoadContainerSectionsWithRegisterState_by_containerId_by_subContainerId'
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_LoadComponentDefinitions
+    zweck: Komponententypen lesen, um je Bereich zu erkennen, was dort liegt (Prüfungshandlungen, Notizen, Dokumentcontainer, Protokolle, PBC, Fragebogen, Wesentlichkeit)
+    parameter: keine Parameter. Ergebnis NavigationComponentDto {id, name, viewType, containerType}; Verknüpfung über itemConfiguration.navigationComponentId aus Schritt 7
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_GetNoteTypes
+    zweck: Notiz-Kategorien und ihre type-Ids lesen (Pendenz, Wesentliche Feststellungen, Schlussbesprechung, Review) und im Kontext ablegen (für K7, K8, K11)
+    parameter: keine Parameter. Ergebnis NoteTypeDto {id (integer), name, iconGlyph, isDeterminationNote}
+    art: lesen
+  - werkzeug: rv_post_clientsManagement_RollForwardAnualFile
+    zweck: 'NICHT durch den Agenten: Fehlt die Jahresakte, legt der Mensch sie an bzw. schreibt sie fort (ebenso rv_put_clientsManagement_CreateOrUpdateAnualFile). revio_create_client
+      (nur in MD) ist gesperrt (OpenClaw deny, auch nicht auf Wunsch über den Agenten)'
+    parameter: body_json RollForwardAnnualFileRequest {dossierId, containerId, title, balanceSheetDate} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Keine Schreibaktion. Der WP gibt Kunde, Geschäftsjahr und Stichtag vor; bei mehrdeutigem Treffer, fehlender Akte oder versiegelter/zur Siegelung beantragter
+    Akte arbeitet der Agent nur lesend und meldet es. Kontext-Schlüssel wird bei jedem Zugriff geprüft; bei Abweichung Abbruch und Pendenz ^[konzept-ki-revisionsagent-2026__c009-1].
+    Solange der geöffnete Kontext nicht der Akte des Auftrags entspricht, sperrt der Agenten-Code alle Schreibwerkzeuge. Kunden/Akten anlegen oder fortschreiben: nur Mensch; revio_create_client
+    gesperrt.'
+  offene_fragen:
+  - Die 9 revio_*-Komfortwerkzeuge stehen nur in revio-mcp-werkzeuge.md, nicht in der CSV (840 Zeilen rv_*) – Namen aus der MD übernommen; CSV ergänzen oder in OpenClaw getrennt freigeben?
+  - Setzt revio_open_dossier (bzw. LoginDossier) den Dossierkontext serverseitig für alle folgenden rv_*-Aufrufe ohne dossierId (Sitzung/JWT)? Sperrt das Öffnen die Akte für andere Benutzer?
+    Prüft rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId nur oder meldet es ebenfalls an (wichtig für den Kontextcheck K10 Schritt 10)?
+  - Ist AnualFileDto.containerId die Containerdefinition (Vorlage, = containerDefinitionId) oder eine Instanz je Dossier? Davon hängen containerId/containerDefinitionId in K2–K17 ab.
+  - Enthält navigationDetail.code die Akte-Nummern («3.3», «10.9», «C1»)? Ist itemConfiguration.referenceId die templateId der Prüfschritte? – mit der Datenkopie bestätigen.
+  - Wie sind AnualFileStateDto.state-Werte zu lesen (offen, Review, versiegelt, archiviert)?
+- id: K2
+  aufgabe: Jahresrechnung/Saldenbilanz lesen, Konten je Prüffeld bestimmen; Import der Jahresrechnung vorbereiten (Prozess 1, Entscheid consis offen)
+  wann: Nach K1; Import einmal pro Revision nach Eingang der definitiven Jahresrechnung, Kontenlesen vor jedem Prüffeld und vor analytischen Schritten (2xx)
+  prozess: '1'
+  schritte:
+  - werkzeug: rv_get_financialStatement_LoadFinancialStatementState
+    zweck: Stand der Jahresrechnung im Dossier lesen (bereits importiert? welche Schritte erledigt?)
+    parameter: 'query_json {"clientId": K1} (GET mit Request-DTO LoadFinancialStatementStateRequest – Bindung query/body mit revio_describe_endpoint klären, K16)'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadFinancialYears
+    zweck: 'Siegelstatus prüfen: FinancialYearDto.isSealed des aktuellen Geschäftsjahrs (isActualFiscalYear = true) und des Vorjahrs. Versiegelt → keinen Import vorbereiten, nur lesen'
+    parameter: keine Parameter (Dossierkontext); Ergebnis aus K1 Schritt 6 wiederverwendbar. FinancialYearDto {index, from, to, isActualFiscalYear, isSealed, periods}
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadSealHistory
+    zweck: 'Nur ergänzend: Verlauf der Siegelaktionen lesen, wenn isSealed (Schritt 2) unklar ist oder vom Zustand der Akte (K1 Schritt 3) abweicht'
+    parameter: keine Parameter (Dossierkontext)
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
+    zweck: Bilanz, Erfolgsrechnung bzw. Saldenbilanz mit Werten aktuelles Jahr und Vorjahr lesen
+    parameter: 'query_json {"clientId": K1, "dossierId": K1, "view": AccountItemsView-Wert (Bilanz/ER/Saldenbilanz – Enum ohne Werte in schemas.json, revio_describe_schema), "financialValuesOrigin":
+      Enum-Wert}. Ergebnis AccountDto {id, number, title, values[] {period, backingValue}, appendixReferences, isBalance, details.classifications}. Ohne Ids im Dossierkontext: rv_get_financialStatement_LoadAccountView
+      {view, financialValuesOrigin}'
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_GetAccountClassifications
+    zweck: Kontenklassen (Klassifikationen) mit Nummernbereichen lesen; mit itemConfiguration.defaultClassifications aus K1 ergibt sich die Zuordnung Konto → Prüffeld
+    parameter: keine Parameter. Ergebnis AccountClassificationDto {id, displayValue, numberRanges, rangesDisplay, baseType}
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadBalanceAccountsForClassifications
+    zweck: Konten eines Prüffelds lesen (Kontenübersicht für die Prüfschritte)
+    parameter: 'query_json {"classifications": itemConfiguration.defaultClassifications des Prüffelds (K1 Schritt 7), "hideZeroValues": false}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadCoverSheet_by_containerId
+    zweck: Kontenübersicht der Prüffelder mit Vorjahr, Veränderung und Kennzeichen «unter Nichtaufgriffsgrenze» lesen
+    parameter: 'path_params_json {"containerId": K1}. Ergebnis CoverSheetDto.sections[].accountClassificationItems[].balanceItems: CoverPageBalanceItemDto {accountId, number, title,
+      workingValues.currentValue/previousValue/changeValue, isBelowPickupValue, state, comment}'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadKeyFigureView
+    zweck: Kennzahlen 1.2 lesen (Grundlage analytische Schritte 2xx; Rechnen im Rechenmodul, nicht im Sprachmodell)
+    parameter: Request-DTO FinancialValuesOrigin (Enum-Wert, K16)
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadLedgerAdjustements
+    zweck: 10.2 Umbuchungsliste lesen (gebuchte/ungebuchte Umbuchungen, Wirkung auf das Ergebnis); Ablage und Abgleich in K17
+    parameter: keine Parameter. Ergebnis LedgerAdjustementDto {debitAccount, creditAccount, value, text, isActive, profitChangeState}
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadHiddenReserves
+    zweck: 10.3 Stille Reserven lesen (Bestand/Veränderung je Periode); Ablage und Abgleich in K17
+    parameter: keine Parameter. Ergebnis HiddenReservesDto.periodsSummaries
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadAccountSystems
+    zweck: 'Import: Kontenrahmen des Mandats bestimmen'
+    parameter: keine Parameter → accountSystemId
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadImportTemplates
+    zweck: 'Import: vorhandene Importvorlage/Mapping bestimmen'
+    parameter: keine Parameter → mappingId
+    art: lesen
+  - werkzeug: rv_get_financialStatement_GetImportSimulation
+    zweck: 'Import simulieren (Kandidat: ohne Speichern): Zuordnung, Vorzeichen der Passiven, Bilanzgleichheit und Totale prüfen. Bis zum Entscheid consis zu Prozess 1 endet die Kette
+      hier (Ergebnis und unklare Zuordnungen als Pendenz K7, Audit Trail Schritt 17)'
+    parameter: 'query_json/body_json SimulateImportRequest {"accountSystemId": Schritt 11, "financialStatementTemplateId": Kandidat aus rv_get_financialStatementTemplates_LoadAvailableFinancialStatementTemplatesByContainer_by_containerId,
+      "balanceSheetDate": balancingDate (K1), "balances": [{"number", "title", "balance", "assignment"}] aus definitiver Bilanz/ER in M-Files (PDF vom Agenten ausserhalb revio gelesen,
+      Totale im Rechenmodul geprüft), "options": ImportOptions {changeAssetSign, changeLiabilitySign, changeEarningSign, changeExpenseSign, isDeleteMode: false}}'
+    art: lesen
+  - werkzeug: rv_post_financialStatement_CreateAccountItemsFromImport
+    zweck: 'Kandidat (Prozess 1, Entscheid consis): Import-Anfrage anlegen (noch nicht übernommen). Wirkt in Bereich 1.1 (revio_bereich 1.1, nicht 10.1) und damit ausserhalb der Schreibgrenze
+      4/10 → OpenClaw deny bis zum Entscheid, danach allow mit Freigabe; sonst nach Schritt 13 aufhören und Pendenz erfassen'
+    parameter: 'body_json CreateAccountItemsFromImportRequest {"importRequestId": neue Id (Kandidat; im Kontext als «eigene» Import-Anfrage merken), "numberField", "titleField", "balanceFields":
+      [], "numberOptions": [{"field", "decimalSeparator", "period": PeriodDto aus K1 Schritt 6}], "importOptions": wie Schritt 13 (isDeleteMode false), "mappingId": Schritt 12, "data":
+      Zeilen aus M-Files, "assignmentField"}'
+    art: vorbereiten
+  - werkzeug: rv_get_financialStatement_LoadImportPreview_by_importRequestId
+    zweck: Vorschau der Import-Anfrage kontrollieren (Bilanzgleichheit, Totale, Vorzeichen Passiven, nicht zugeordnete Konten); Abweichungen und unklare Zuordnungen → Pendenz (K7)
+    parameter: 'path_params_json {"importRequestId": Schritt 14}; Request-DTO AccountItemsView (Enum-Wert)'
+    art: lesen
+  - werkzeug: rv_post_financialStatement_RejectImport
+    zweck: 'Kandidat (Prozess 1, Entscheid consis): die eigene, in Schritt 14 dieses Laufs angelegte Import-Anfrage verwerfen, wenn die Vorschau (Schritt 15) Fehler zeigt. Nur für diese
+      importRequestId und nur, wenn consis Prozess 1 schreibend erlaubt; sonst nur_mensch (OpenClaw deny). Fremde Import-Anfragen nie'
+    parameter: 'body_json RejectImportRequest {"importRequestId": Schritt 14} – Abgleich der Id im Agenten-Code vor dem Aufruf'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Verlauf lesen (Kandidat: areaId 1.1, falls Bereich 1 einen Verlauf führt) und ins M-Files-Protokoll pro Mandat und Jahr übernehmen: Zeitstempel, Werkzeug, importRequestId,
+      Quelle (M-Files-ID und Version der Jahresrechnung), Simulations-/Vorschauergebnis, Fehler und Abbrüche ^[konzept-ki-revisionsagent-2026__c009-3]. Danach HALT zur Kontrolle (Testphase).
+      Das M-Files-Werkzeug ist nicht Teil des revio-MCP'
+    parameter: 'path_params_json {"areaId": areaId 1.1 (K1, Kandidat)}; ohne Verlauf nur M-Files-Protokoll'
+    art: lesen
+  - werkzeug: rv_post_financialStatement_AcceptImport
+    zweck: 'NICHT durch den Agenten: Übernahme der Import-Anfrage in 1.1 nach Kontrolle. Verwerfen fremder bzw. nicht vom Agenten angelegter Import-Anfragen ebenfalls nur Mensch (eigene
+      Anfrage: Schritt 16)'
+    parameter: body_json AcceptImportRequest {"importRequestId"} – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_ApplyAccountItemToStructure
+    zweck: 'NICHT durch den Agenten: Kontenzuordnung und Struktur in Bereich 1.1 ändern; ebenso rv_post_financialStatement_ApplyAccountItemStructureFromCsv, rv_post_financialStatement_MoveAccountItem,
+      rv_post_financialStatement_MoveAccountItems, rv_post_financialStatement_DetachAccountItemFromStructure, rv_post_financialStatement_ChangeAccountNumber, rv_post_financialStatement_ChangeAccountTitle.
+      Einheitlich nur_mensch in Zuordnung, Ketten und klass'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_ReApplyDetachedItems
+    zweck: 'NICHT durch den Agenten, gesperrt (OpenClaw deny): wirkt mit deleteFinal löschend'
+    parameter: body_json ReApplyDetachedItemsRequest {importRequestId, detachedItems, newParentAccountId, deleteFinal, invertValues} – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_SetBalanceValueForAccountItem
+    zweck: 'NICHT durch den Agenten: Werte der Jahresrechnung ändern; ebenso rv_post_financialStatement_InvertValuesForPeriod, rv_post_financialStatement_ClearValuesForPeriod, rv_put_financialStatement_UpdateTaxConfiguration,
+      rv_put_financialStatement_UpdateLossOffsetValue'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_UndoLastAction
+    zweck: 'NICHT durch den Agenten: macht auch Aktionen Dritter rückgängig; ebenso rv_post_financialStatement_StartUndoSession'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_SetPeriodSealedState
+    zweck: 'NICHT durch den Agenten: Periode versiegeln; ebenso Abschlussschritte setzen (rv_put_workpapers_UpdateDossierState)'
+    parameter: 'body_json SetPeriodSealedStateBatchRequest {items: [{from, to, isSealed}]} – nur Mensch'
+    art: nur_mensch
+  menschliche_freigabe: 'Lesen frei. Prozess 1 schreibt in Bereich 1.1 und liegt damit ausserhalb der Schreibgrenze (nur Bereiche 4 und 10) ^[konzept-ki-revisionsagent-2026__c006-1].
+    Bis consis über Prozess 1 entscheidet, sind auch CreateAccountItemsFromImport und RejectImport in OpenClaw deny: der Agent simuliert nur (Schritt 13), erfasst Pendenzen und protokolliert.
+    Nach positivem Entscheid höchstens Schritt 14 und Schritt 16 (nur eigene importRequestId) mit OpenClaw-Freigabe, danach Halt zur Kontrolle ^[konzept-ki-revisionsagent-2026__c009-3].
+    Übernahme (AcceptImport), alle Struktur- und Wertewerkzeuge, Undo und Siegel nur Mensch – einheitlich in Zuordnung, Ketten und klass. Unklare Zuordnungen als Pendenz ^[konzept-ki-revisionsagent-2026__c011-2].
+    Jede Aktion und jeder Fehler mit Zeitstempel ins M-Files-Protokoll ^[konzept-ki-revisionsagent-2026__c009-3].'
+  offene_fragen:
+  - 'Konzept Prozess 1 («per PDF-Import einlesen … Konten zuordnen») vs. Schreibgrenze Bereiche 4/10: Darf der Agent Import-Anfragen anlegen (CreateAccountItemsFromImport) und eigene
+    verwerfen (RejectImport) oder nur simulieren und Pendenzen erfassen? Entscheid consis.'
+  - Kein PDF-Import-Endpunkt in der Liste (nur Datenimport CreateAccountItemsFromImport, Abacus-Datei rv_post_financialStatement_CreateAccountItemsFromAbacusFile, XBRL-Instanz lesen)
+    – das Auslesen der PDF-Jahresrechnung bleibt beim Agenten ausserhalb revio. Einstufung des Abacus-Imports (revio_bereich 1.1) offen.
+  - Ist CreateAccountItemsFromImport zweistufig (Vorschau → AcceptImport/RejectImport) oder legt es Konten sofort an? Wer vergibt importRequestId? Lässt sich RejectImport technisch (JWT/Agenten-Code)
+    auf die eigene importRequestId begrenzen?
+  - Enum-Werte AccountItemsView und FinancialValuesOrigin (in schemas.json ohne Werte); Bedeutung von CoverPageBalanceItemDto.state.
+  - Führt Bereich 1.1 einen Verlauf (LoadAreaHistory) für Import-Anfragen?
+- id: K3
+  aufgabe: Wesentlichkeit 3.3 lesen und anwenden (nie ändern)
+  wann: Nach K1, vor der Bearbeitung der Prüffelder; erneut vor dem Rapport (K11), um Änderungen durch den WP zu erkennen
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadMaterialityOfDossier
+    zweck: 'Wesentlichkeit lesen: Gesamtwesentlichkeit, Toleranzwesentlichkeit, Nichtaufgriffsgrenze, Bezugsgrösse, Begründung, besondere Umstände, Siegelstatus'
+    parameter: 'query_json {"clientId": K1, "dossierId": K1} (LoadMaterialityForDossierRequest). Ergebnis MaterialityDto: selectedReferenceSize, referenceSizes, maximumValues (Gesamtwesentlichkeit),
+      toleranceValues (Toleranzwesentlichkeit), pickUpValues (Nichtaufgriffsgrenze) je {value, previousValue, percentage, informationText}, justificationOfMaterialityDetermination, specialCircumstances,
+      specificMaterialityItems, isSealed. Ohne Parameter im Dossierkontext: rv_get_workpapers_LoadMateriality'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAuditFieldStrategy
+    zweck: Wesentlichkeit, Planung und Risiken kompakt je Prüffeld lesen (für Umfang/Stichprobe im Prüfschritt)
+    parameter: 'query_json {"areaCode": z. B. "C1", "areaId": areaId des Prüffelds (K1)}. Ergebnis AuditFieldStrategyDto {planning, materiality, riskDetails}'
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_LoadContainerDefinitions
+    zweck: Vorgaben der Akte für Bezugsgrössen lesen, um die Plausibilität von Bezugsgrösse, Prozentsatz und Begründung zu prüfen (Rechenmodul)
+    parameter: 'keine Parameter. ContainerDefinitionDto mit id = containerId (K1): materialityDefaults[] {title, percentage, minPercentage, maxPercentage, guidance, defaultJustificationText}'
+    art: lesen
+  - werkzeug: rv_put_workpapers_UpdateNote
+    zweck: 'Nur bei Unplausibilität: Pendenz erfassen (Ablauf K7), nicht in 3.3 schreiben'
+    parameter: 'body_json {"areaId": areaId Prüffeld A1 (Bereich 4, Kandidat), "note": {"id": leer (neu), "type": Pendenz-Id (K1), "title": "3.3 Wesentlichkeit: Plausibilität", "text":
+      Bezugsgrösse, Prozentsatz, Begründung, festgestellter Widerspruch, "isClosed": false}} – Feldregeln wie K7 Schritt 3'
+    art: vorbereiten
+  - werkzeug: rv_put_workpapers_UpdateMateriality
+    zweck: 'NICHT durch den Agenten: Wesentlichkeit festlegen oder ändern'
+    parameter: body_json MaterialityDto – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_SetMaterialitySealState
+    zweck: 'NICHT durch den Agenten: Wesentlichkeit siegeln/entsiegeln'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Der WP legt die Wesentlichkeit fest und siegelt sie; der Agent liest sie und ändert sie nie ^[konzept-ki-revisionsagent-2026__c014-1]. Anwendung: Toleranzwesentlichkeit
+    steuert Umfang und Stichprobe, Differenzen unter der Nichtaufgriffsgrenze nur protokollieren, Gesamtwesentlichkeit als Massstab für Wesentliche Feststellungen; ändert der WP die
+    Werte, werden betroffene Schritte neu beurteilt und im Rapport gekennzeichnet ^[konzept-ki-revisionsagent-2026__c014-1]. Pendenz-Notiz (Schritt 4) mit OpenClaw-Freigabe.'
+  offene_fragen:
+  - Darf der Agent mit nicht gesiegelter Wesentlichkeit (isSealed = false) arbeiten oder wartet er auf das Siegel?
+  - Konzept nennt 75 % (Toleranz) und 5 % (Nichtaufgriff); massgebend im Dossier sind toleranceValues/pickUpValues – bei Abweichung Pendenz?
+  - 'Wo hängt eine Pendenz zur Wesentlichkeit: Prüffeld A1 (Bereich 4) oder Bereich 3.3 (ausserhalb der Schreibgrenze)?'
+  - 'GET mit Request-DTO (LoadMaterialityOfDossier, LoadAuditFieldStrategy): Felder als query_json oder body_json?'
+- id: K4
+  aufgabe: Risikobeurteilung 3.1 und Strategische Planung 3.5 lesen (Prüfungstiefe, Priorität, bedeutsame Risiken)
+  wann: 'Nach K1/K3, vor jedem Prüffeld (Ablauf je Schritt: Risiko und Strategie aus 3.1/3.5 berücksichtigen)'
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadRiskAssessments
+    zweck: Risikobeurteilung je Prüffeld lesen (inhärentes Risiko, Kontrollrisiko, Prüfziele)
+    parameter: keine Parameter (Dossierkontext). Ergebnis RiskAssessmentItemDto {id, title, classifications, inherentRiskState, controlRiskState, probabilityIndex, severityIndex, notes,
+      auditObjectives[] {code, isActive}, value, previousValue}
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadRisks
+    zweck: Bedeutsame Risiken und geplante Reaktionen lesen
+    parameter: 'query_json {"areaId": areaId des Prüffelds bzw. von 3.1 (K1)}. Ergebnis DossierRiskDto {title, description, riskLevel, isStatementLevel, isClosingLevel, assertions, areas,
+      reactions}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadStrategicalPlanning
+    zweck: 'Strategische Planung lesen: Prüfungstiefe, Priorität, zugewiesene Mitarbeiter und zugewiesene Prüfungshandlungen je Prüffeld'
+    parameter: 'keine Parameter. Ergebnis StrategicalPlanningDto.items[]: riskAssessment, depthOfTests, auditPriority, isDisabled, auditorNote, assignedWorkers, assignedAuditProcedures[]
+      {displayTitle, assignAuditNumbers, assignedAuditActivityIds}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAuditFieldStrategy
+    zweck: Kurzsicht je Prüffeld (bedeutsame Risiken, Fraud-Risiken, Planung, Wesentlichkeit)
+    parameter: 'query_json {"areaCode": "C1", "areaId": K1}. Ergebnis riskDetails {totalRisksText, significantRisksText, fraudRisksText, doneRisksText}'
+    art: lesen
+  - werkzeug: rv_get_riskDefinitions_LoadRiskDefinition_by_containerDefinitionId
+    zweck: 'Kandidat: Risikodefinition der Akte lesen (Bedeutung der Stufen/Skalen)'
+    parameter: 'path_params_json {"containerDefinitionId": AnualFileDto.containerId (K1, Kandidat)}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDynamicFormsData
+    zweck: 'Kandidat, nur wenn Leserecht entschieden und das Werkzeug in der Leseliste der Zuordnung steht: Formulare 2.1 Tätigkeit und Umfeld, 2.4 Unabhängigkeit, 3.4 Going concern
+      lesen'
+    parameter: 'query_json {"areaId": areaId 2.1 / 2.4 / 3.4 (K1)}'
+    art: lesen
+  - werkzeug: rv_put_workpapers_UpdateRiskAssessmentArea
+    zweck: 'NICHT durch den Agenten: Risikobeurteilung ändern (ebenso rv_post_workpapers_StoreRisk, rv_delete_workpapers_DeleteRisk_by_id)'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_StoreStrategicalPlanningItem
+    zweck: 'NICHT durch den Agenten: Strategie, Prüfungstiefe, Priorität, Zuweisungen ändern (auch Agent als «zugewiesener Mitarbeiter» eintragen)'
+    parameter: body_json StoreStrategicalPlanningItemRequest – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Nur lesen (Bereich 3) ^[konzept-ki-revisionsagent-2026__c006-2]. Ergebnis fliesst in Umfang und Auswahl je Prüfschritt (K6) ^[konzept-ki-revisionsagent-2026__c012-1].
+    Risiken, Strategie, Prüfungstiefe und Zuweisungen ändert nur der Mensch.
+  offene_fragen:
+  - Leserechte für 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2 sind noch zu entscheiden ^[konzept-ki-revisionsagent-2026__c017-1].
+  - Bedeutung der Integer-Skalen (inherentRiskState, controlRiskState, depthOfTests, auditPriority).
+  - Wird der Agent in 3.5 als eigener «zugewiesener Mitarbeiter» geführt ^[konzept-ki-revisionsagent-2026__c017-1]?
+- id: K5
+  aufgabe: Prüfschritte eines Prüffelds laden und einem Katalogschritt (z. B. C1-302) per Nummer und Text zuordnen
+  wann: Je Prüffeld vor der Bearbeitung (K6); einmalig zur Erstellung der Spalte «revio-Zuordnung» bzw. der Vorlage zuordnung_pruefschritte.csv mit der echten Datenkopie
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    zweck: 'Prüfschritte des Prüffelds im Dossier laden. Zuordnung (lokal, ohne Aufruf): Nummer aus der Id-Zelle (isIdCell) = Katalog-Nr. (C1-302 → «302»), Gruppe = Typ (3xx Detail),
+      Text normalisiert mit dem Katalogtext vergleichen («Beurteilung der Angemessenheit der Wertberichtigungen / Delkredere …»). Ergebnis je Schritt: activityId, Textzelle (cellId),
+      Visumsstand; Abweichungen melden'
+    parameter: 'path_params_json {"containerId": K1, "templateId": itemConfiguration.referenceId des Prüffeld-Knotens (K1, Kandidat)}. Ergebnis TemplatedRowGroup[] {groupId, groupName,
+      items: TemplatedRow {id = activityId, rows[].cells[] {cellId, isIdCell, name, content, canEdit, isVised, visaUserId, visaDate}, isDisabled, isVised, isUserItem, isPreviousPeriodItem,
+      attachements, referenceInfoText}}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadAuditActivityTemplate
+    zweck: 'Kandidat: Vorlage der Prüfschritte des Prüffelds lesen; dient auch zum Bestätigen der templateId'
+    parameter: 'query_json {"containerId": K1, "navigationId": areaId des Prüffelds (K1), "templateId": Kandidat aus K1}'
+    art: lesen
+  - werkzeug: rv_get_checklists_LoadAuditActivityTemplate_by_templateId
+    zweck: 'Kandidat: Vorlage unabhängig vom Dossier lesen (Nummern/Texte) – Vergleich Vorlage ↔ Dossier ↔ Katalog, Benutzerschritte erkennen'
+    parameter: 'path_params_json {"templateId": wie Schritt 1}'
+    art: lesen
+  - werkzeug: rv_get_auditDefinitons_LoadAuditActivityDefinitions
+    zweck: 'Kandidat: Definitionen/Gruppen der Prüfungshandlungen lesen (Zuordnung Gruppe → Typ 1xx–4xx)'
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: rv_get_auditProcedureCatalog_LoadAuditProcedureCatalog_by_containerDefinitionId
+    zweck: Katalog der Prüfungshandlungen der Akte lesen (Einträge mit zugeordneten Schrittnummern und activityIds)
+    parameter: 'path_params_json {"containerDefinitionId": AnualFileDto.containerId (K1, Kandidat)}. Ergebnis AuditProcedureCatalogEntryDto {id, displayTitle, assignAuditNumbers, assignedAuditActivityIds}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadStrategicalPlanning
+    zweck: Welche Schritte sind in 3.5 dem Prüffeld zugewiesen (Kandidat für «markiert» im Sinne des Pflichtenhefts)
+    parameter: keine Parameter; assignedAuditProcedures[].assignedAuditActivityIds mit activityIds aus Schritt 1 abgleichen
+    art: lesen
+  - werkzeug: rv_post_auditActivities_SetAuditActivitySelectionState
+    zweck: 'NICHT durch den Agenten: Schritt aktivieren/deaktivieren = Umfangsentscheid des WP; ebenso rv_post_auditActivities_InsertDossierAuditActivityItem (Prüfschritt ins Dossier
+      einfügen) und rv_delete_auditActivities_DeleteDossierActivityItem – einheitlich nur_mensch, auch in der Zuordnung Bereich 4'
+    parameter: body_json SetAuditActivitySelectionStateDto {containerId, activityId, isDisabled} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Keine Schreibaktion. Abweichungen der Zuordnung (Nummer fehlt, Text weicht ab, die 5 unlesbaren Kennzeichnungen im Katalog, Benutzerschritte isUserItem) bestätigt
+    enco/WP; das Ergebnis kommt als Wissen in die Spalte «revio-Zuordnung» bzw. in zuordnung_pruefschritte.csv (IDEE Teil B: schritt_id;pruefffeld;typ;kennz;revio_bereich;revio_template_id;revio_activity_id;werkzeug_lesen;werkzeug_vorbereiten;art;bemerkung),
+    nicht nach revio. Auswahl, Einfügen und Deaktivierung von Schritten entscheidet der WP.'
+  offene_fragen:
+  - Welche Zelle trägt Nummer, Text, Kennzeichnung EP/WP, Prüfziele und das Textfeld (isIdCell, canEdit, name)? – mit Datenkopie bestimmen.
+  - Ist templateId = itemConfiguration.referenceId des Prüffeld-Knotens? Ist containerId in LoadAuditActivities die Containerdefinition oder eine Dossier-Instanz?
+  - Bleiben activityIds über das Fortschreiben ins Folgejahr stabil (wichtig für die Zuordnung)?
+  - 'Was heisst «markiert» im Pflichtenheft: Zuweisung in 3.5 (assignedAuditActivityIds) oder Auswahl durch den WP? ^[konzept-ki-revisionsagent-2026__c015-2]'
+  - Vorlage zuordnung_pruefschritte.csv (538 Zeilen mit Platzhaltern, IDEE Teil B) ist noch nicht erstellt.
+- id: K6
+  aufgabe: Textfeld eines Prüfschritts vorbereiten (Entwurf), Beleg anhängen, Konto kommentieren und Kontendokumentation ergänzen
+  wann: Je bearbeitetem Prüfschritt nach K3–K5 und der Prüfung (Nachweise aus M-Files, Rechnen im Rechenmodul); Beleg-Upload über K15
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadAreaState
+    zweck: 'Zustand des Prüffelds prüfen: abgeschlossen, ✓ gesetzt, deaktiviert oder arbeitet gerade ein Mensch darin → nicht schreiben. Regel: immer trackUser = false (trackUser = true
+      registriert Präsenz)'
+    parameter: 'query_json {"areaId": areaId des Prüffelds (K1), "trackUser": false}. Ergebnis AreaStateDto {workpaperState, isDisabled, checklistItems, states, activeAreaUsers}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    zweck: Schritt unmittelbar vor dem Schreiben neu laden. Abbruch bei TemplatedRow.isVised, Zelle isVised, isDisabled oder bereits von einem Menschen befülltem Textfeld (dann Notiz
+      K7 statt Überschreiben)
+    parameter: 'path_params_json {"containerId": K1, "templateId": K5}; Zeile mit id = activityId (K5)'
+    art: lesen
+  - werkzeug: rv_put_auditActivities_UpdateDossierActivity
+    zweck: 'Kandidat: Textfeld des Schritts mit dem Entwurf füllen. Inhalt: «Entwurf KI-Agent <Datum>» · Prüfziel(e) (z. B. BE) · Quellen (M-Files-ID + Version) · Auswahl und Umfang
+      mit Begründung (Toleranzwesentlichkeit K3, Risiko K4) · Ergebnis · Feststellungen · Verweis auf Notiz · Status (vorbereitet / teilweise bearbeitet)'
+    parameter: 'body_json UpdateAuditActivityDossierFielddDto {"containerId": K1, "activity": TemplatedRow aus Schritt 2 unverändert, "cell": Textzelle aus Schritt 2 (canEdit = true,
+      nicht isIdCell) mit nur geändertem "content"}; Feldregel: isVised, visaUserId, visaDate, visaText bleiben unverändert leer. Alternative (Kandidat): rv_put_auditActivities_UpdateDossierActivityItemTemplateField
+      body_json {"containerId", "navigationId": areaId, "activityItemId": activityId, "changedFields": [{"cellId", "content", "isIdField": false}]}'
+    art: vorbereiten
+  - werkzeug: rv_get_auditActivities_ClaudeImportAuditActivities
+    zweck: Kandidat, Alternative zu Schritt 3 und 6 als Sammelimport mehrerer Schritte (schreibt trotz GET); Verhalten bei vorhandenem Text und visierten Schritten vor Einsatz klären
+    parameter: 'body_json ClaudeImportAuditActivitiesRequest {"prueffelder": [{"navigationId": areaId (K1), "templateId": K5, "code": "C1", "eintraege": [{"nr": 302, "ergebnis": Text
+      wie Schritt 3, "referenceText": Fundstellen, "attachments": [{"fileName", "attachmentId"}]}]}]}. Antwort {success, updatedCount, skippedCount, message}'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
+    zweck: 'Nach Upload (K15): attachementId des Belegs in den losen Beilagen des Prüffelds bestimmen'
+    parameter: 'path_params_json {"areaId": areaId des Prüffelds (K1)}'
+    art: lesen
+  - werkzeug: rv_post_auditActivities_AddAttachementsToAuditActivity
+    zweck: Beleg an den Prüfschritt hängen. Name einer eigenen Beilage korrigieren nur über rv_post_auditActivities_RenameAuditActivityAttachment (Kandidat), nie über rv_put_attachements_UpdateAttachementsMetadata
+      (K15)
+    parameter: 'body_json AppendAuditActivityAttachementsRequest {"containerId": K1, "activityId": K5, "attachementInfo": [{"attachementId": Schritt 5, "name": "<M-Files-ID>_v<Version>_<Titel>.pdf",
+      "isTemporary": false}]}. Alternative (Kandidat): rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea {"attachmentIds", "areaId", "entityId": activityId, "targetSource": EntitySource-Wert
+      (K16)}'
+    art: vorbereiten
+  - werkzeug: rv_get_attachements_GetAttachementMetadata_by_attachementId
+    zweck: 'Kontrolle der Beilage: Name, Grösse, Herkunft = Mandatskontext'
+    parameter: 'path_params_json {"attachementId": Schritt 5}; prüfen source.clientId/source.dossierId bzw. clientId/dossierId = K1'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadCoverSheet_by_containerId
+    zweck: 'Vor einem Kontenkommentar: bestehenden Kommentar und state des Kontos lesen; vorhandener menschlicher Kommentar → nicht überschreiben, sondern Notiz (K7)'
+    parameter: 'path_params_json {"containerId": K1}; CoverPageBalanceItemDto {accountId, number, comment, state} des Kontos'
+    art: lesen
+  - werkzeug: rv_post_auditActivities_SetCoversheetBalanceItemComment
+    zweck: 'Kandidat: Kurzkommentar zum Konto in der Kontenübersicht des Prüffelds (z. B. «Entwurf KI-Agent <Datum>: abgestimmt mit <Nachweis>, siehe C1-302»); nur leere Kommentare füllen'
+    parameter: 'body_json SetCoversheetBalanceItemCommentDto {"accountId": Schritt 8, "comment": Text}; ersetzt vermutlich den ganzen Kommentar'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadDocumentationItems
+    zweck: 'Kandidat: Kontendokumentation (Belege je Konto) lesen, Dubletten vermeiden, eigene Einträge erkennen'
+    parameter: 'query_json {"areaId": Prüffeld (K1), "documentationId": Kandidat (Kontendokumentation je Konto; Herkunft offen, z. B. accountId aus Schritt 8)}. Ergebnis DocumentationItemDto
+      {id, userId, attachementId, title, state, currentStatus, informationText}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_AddFilesToDocumentation
+    zweck: 'Kandidat: Beleg in die Kontendokumentation des Kontos aufnehmen'
+    parameter: 'body_json AddFilesToDocumentationRequest {"areaId", "documentationId": Schritt 10, "items": [DocumentationItemDto {"attachementId": Schritt 5, "title": "<M-Files-ID>_v<Version>_<Titel>.pdf",
+      "state": false}]}; Feldregel: items[].state = false, currentStatus nicht setzen; ✓ je Beleg nur Mensch'
+    art: vorbereiten
+  - werkzeug: rv_put_workpapers_UpdateDocumentationComment
+    zweck: 'Kandidat: Kommentar zu einem eigenen Beleg der Kontendokumentation (Fundstelle, Bezug zum Prüfschritt)'
+    parameter: 'body_json UpdateDocumentationCommentRequest {"areaId", "documentationId", "itemId": id des eigenen Eintrags (Schritt 10/11, userId = Dienstbenutzer), "comment"}'
+    art: vorbereiten
+  - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    zweck: 'Kontrolle nach dem Schreiben: Text gespeichert, Beilage am Schritt, Visum weiterhin leer; Kommentar und Kontendokumentation (Schritte 8 und 10 erneut) vorhanden, state unverändert'
+    parameter: wie Schritt 2
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Änderungsverlauf des Prüffelds lesen und mit Zeitstempel, Werkzeug, Prüfschritt, Quelle (M-Files-ID und Version), Ergebnis und Fehlern ins M-Files-Protokoll
+      pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3] (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    parameter: 'path_params_json {"areaId": areaId des Prüffelds (K1)}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_StoreDynamicFormPanelVisaState
+    zweck: 'NICHT durch den Agenten: Visum setzen (Kandidat für Formular-Panels, z. B. Abschliessende Beurteilung); das Visum je Prüfschritt setzt der WP in revio'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_checklists_StoreChecklistData
+    zweck: 'NICHT durch den Agenten (OpenClaw deny): bereichsneutral (areaId im Body), Checklisten tragen Visum-Zellen (Cell.isVised, visaUserId, visaDate, visaText); Abschliessende
+      Beurteilung, 2.x, 3.4, 6.x, 7.x und 9.0 sind vermutlich Checklisten oder Formulare. Ebenso rv_post_workpapers_StoreDynamicFormDataItem und rv_post_workpapers_StoreDynamicFormPanelAttachment.
+      Erst wenn (a) die Komponente der Abschliessenden Beurteilung und die Register in 4/10 am Testmandat bestimmt sind und (b) das JWT des Dienstbenutzers Schreibrechte je Register
+      und kein Visumsrecht hat, höchstens vorbereiten (Kandidat) mit Auflage areaId ∈ {Bereich 4, Bereich 10}'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_put_workpapers_UpdateCheckCardState
+    zweck: 'NICHT durch den Agenten: Prüfkarten-/Häkchenstatus des Prüffelds (Kandidat für ✓ je Prüffeld)'
+    parameter: body_json UpdateAreaCheckCardStateRequest {checkCardItemId, state} – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_auditActivities_SetCoversheetBalanceItemState
+    zweck: 'NICHT durch den Agenten: Status/✓ je Konto (Kandidat); ebenso rv_put_workpapers_UpdateDocumentationItems (DocumentationItemsDto.state = ✓), rv_put_workpapers_UpdateDocumentationAccountState,
+      rv_put_workpapers_UpdateDocumentationAttachementSealedState'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_put_workpapers_UpdateAreaComments
+    zweck: 'NICHT durch den Agenten: ersetzt die ganze Kommentarliste eines Bereichs (AreaStateCommentDto: comment, user, date; vermutlich Fusszeile/Review) und könnte Kommentare anderer
+      löschen oder verfälschen. Kommentare des Agenten nur über Schritt 9 bzw. 12'
+    parameter: body_json UpdateAreaCommentsRequest {areaId, comments} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Schritte 3, 4, 6, 9, 11 und 12 (und der Upload K15) schreiben → in OpenClaw freigabepflichtig (Testphase). Visum (Kürzel/Datum) je Schritt, ✓ je Prüffeld, Konto
+    oder Beleg, «Abgeschlossen»/«Review» und Abschliessende Beurteilung setzt nur der Mensch ^[konzept-ki-revisionsagent-2026__c008-1] ^[konzept-ki-revisionsagent-2026__c011-2]. Achtung:
+    UpdateDossierActivity transportiert die Visumsfelder der Zelle (isVised, visaUserId, visaDate), AddFilesToDocumentation das Feld state – OpenClaw sperrt nur je Werkzeug; Visum und
+    ✓ müssen serverseitig über das JWT des Dienstbenutzers (kein Visumsrecht) ^[konzept-ki-revisionsagent-2026__c009-3] und durch eine Feldprüfung im Agenten-Code vor dem Aufruf (Feldregeln
+    K16) verhindert werden; der MCP-Code bleibt ohne Fachlogik. Jede Aktion ins M-Files-Protokoll (Schritt 14).'
+  offene_fragen:
+  - 'Welcher Endpunkt schreibt das Textfeld eines Prüfschritts im Dossier: UpdateDossierActivity, UpdateDossierActivityItemTemplateField oder ClaudeImportAuditActivities? Überschreibt
+    UpdateDossierActivity die ganze Zeile?'
+  - Darf der Agent einen vorhandenen (menschlichen) Text ergänzen, oder nur leere Textfelder füllen?
+  - 'Korrektur einer eigenen Fehlablage: rv_delete_auditActivities_RemoveAuditActivityAttachement ist löschend – gesperrt oder freigabepflichtig?'
+  - Wo wird «Abschliessende Beurteilung» je Prüffeld gespeichert (Formular-Panel, Checkliste, Checkkarte, ICS-Assessment)? Welche Werkzeuge entsprechen ✓ und Visum genau?
+  - Woher kommt documentationId (Kontendokumentation je Konto)? Bedeutung von CoverPageBalanceItemDto.state und DocumentationItemDto.state/currentStatus (✓ je Konto/Beleg?). Ersetzt
+    SetCoversheetBalanceItemComment den Kommentar ganz?
+  - Einstufung von rv_post_workpapers_MoveDetachedAttachmentsToDocumentation (mögliche Alternative zu AddFilesToDocumentation) offen.
+  - 'Werte von EntitySource; ClaudeImportAuditActivities: GET mit Body zulässig, überspringt es visierte Schritte (skippedCount)?'
+- id: K7
+  aufgabe: Notiz erfassen (Pendenz / Wesentliche Feststellung / Buchungsvorschlag / PBC-Vorschlag) mit Beilage
+  wann: Wann immer der Agent etwas nicht klären kann (Pendenz), einen möglichen Fehler findet (Wesentliche Feststellung, ggf. mit Buchungsvorschlag), eine fehlende Unterlage für die
+    PBC-Liste vorschlägt (K8) oder einen Punkt für die Schlussbesprechung hat; in allen Prozessen
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_containerDefinitions_GetNoteTypes
+    zweck: type-Id der Kategorie bestimmen (Pendenz, Wesentliche Feststellungen – Kandidat isDeterminationNote = true –, Schlussbesprechung); «Review» nie verwenden
+    parameter: keine Parameter (oder aus dem Kontext von K1)
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadNotesForArea_by_areaId
+    zweck: Bestehende Notizen des Bereichs lesen, Dubletten vermeiden (gleiche Pendenz bereits offen?)
+    parameter: 'path_params_json {"areaId": Prüffeld (Bereich 4) bzw. 10.x (K1)}. Dossierweit: rv_get_workpapers_LoadDossierNotesByNoteType query_json {"noteType": Id, "onlyOpenNotes":
+      true}'
+    art: lesen
+  - werkzeug: rv_put_workpapers_UpdateNote
+    zweck: 'Kandidat (kein eigener Create-Endpunkt): neue Notiz anlegen. Text je Kategorie: Pendenz = Konto, Datum, Betrag, was fehlt/unklar, Verweis auf Prüfschritt; Wesentliche Feststellung
+      = möglicher Fehler, Betrag, Vergleich mit Gesamtwesentlichkeit (K3), Fundstelle; Buchungsvorschlag (Kategorie Wesentliche Feststellungen) = Soll-Konto / Haben-Konto / Betrag /
+      Buchungstext / Begründung, Vermerk «Vorschlag – nicht verbucht»; PBC-Vorschlag = Pendenz mit Titelpräfix «PBC-Vorschlag:» (K8)'
+    parameter: 'body_json UpdateNoteRequest {"areaId": Bereich wie Schritt 2, "note": NoteDto {"id": leer (neu, Kandidat), "areaId", "title": "C1-302 · Pendenz: …", "text", "type": Id
+      aus Schritt 1, "priority", "isClosed": false, "hasAppointment": false, "showOutsideDossier": false, "assignments": [], "feedbacks": []}}. Feldregeln: id nur leer (neu) oder Id
+      einer eigenen Notiz (createdBy = Dienstbenutzer); fremde Notizen nie ändern; isClosed immer false; type nie Review'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadNotesForArea_by_areaId
+    zweck: noteId der neuen Notiz bestimmen und Inhalt kontrollieren
+    parameter: path_params_json {"areaId"}; Notiz über title/createdBy finden
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
+    zweck: 'Nach Upload (K15): attachementId des Nachweises bestimmen (nur wenn er nicht schon direkt am Prüfschritt liegt)'
+    parameter: path_params_json {"areaId"}
+    art: lesen
+  - werkzeug: rv_post_workpapers_MoveAttachmentsToNote
+    zweck: Nachweis als Beilage an die eigene Notiz hängen
+    parameter: 'body_json MoveAttachmentsToNoteRequest {"noteId": Schritt 4, "attachements": [attachementId aus Schritt 5]}'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Verlauf des Bereichs lesen und Notiz (noteId, Kategorie, Bezug, Beilage, Zeitstempel, Fehler) ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]
+      (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    parameter: 'path_params_json {"areaId": Bereich wie Schritt 2}'
+    art: lesen
+  - werkzeug: rv_post_financialStatement_AppendLedgerAdjustement
+    zweck: 'NICHT durch den Agenten: Verbuchung in der Umbuchungsliste 10.2 (ebenso rv_put_financialStatement_UpdateLedgerAdjustement, rv_put_financialStatement_UpdateLedgerAdjustementActiveState)'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_NoteChanged
+    zweck: 'NICHT durch den Agenten: Notiz erledigen/schliessen (isClosed); ebenso rv_delete_workpapers_DeleteNote_by_noteId, rv_delete_workpapers_DeleteNoteAttachement. Nicht benötigt
+      und daher OpenClaw deny: rv_post_workpapers_MoveNoteAttachments (Umordnen von Beilagen fremder Notizen) und rv_post_workpapers_MoveNotes'
+    parameter: body_json NoteChangedRequest {noteId, text, isClosed, feedbacks} – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_CreateNoteFeedback
+    zweck: 'NICHT durch den Agenten: Rückmeldung zu einer Notiz = Review-Antwort; die Kategorie Review ist dem WP vorbehalten, und der Agent ändert keine fremden Notizen ^[konzept-ki-revisionsagent-2026__c007-1].
+      Einheitlich nur_mensch in Zuordnung, Ketten und klass'
+    parameter: body_json CreateNoteFeedbackRequest {noteId, feedback, updateIndex} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Schritte 3 und 6 schreiben → OpenClaw-Freigabe. Notizen löscht oder erledigt der Agent nie, fremde Notizen ändert er nicht ^[konzept-ki-revisionsagent-2026__c007-1];
+    Buchungsvorschläge nur als Notiz, ohne Verbuchung ^[konzept-ki-revisionsagent-2026__c015-1]. Der WP entscheidet über Buchung, Schlussbesprechung mit dem Kunden und Erledigung; Review-Notizen
+    und Rückmeldungen schreibt nur der WP ^[konzept-ki-revisionsagent-2026__c007-1]. Jede Notiz ins M-Files-Protokoll (Schritt 7).
+  offene_fragen:
+  - Legt UpdateNote mit leerer id eine neue Notiz an (es gibt keinen CreateNote-Endpunkt)? Wer vergibt die id? Lässt sich «nur eigene Notizen» (createdBy) im JWT erzwingen?
+  - Note-Type-Ids der vier Kategorien und ob isDeterminationNote = «Wesentliche Feststellungen» bedeutet.
+  - NoteChanged ändert Text, transportiert aber isClosed – für den Agenten gesperrt (Text nur über UpdateNote).
+  - Dürfen Notizen an Bereichen ausserhalb 4/10 hängen (z. B. 3.3)? Skala von priority; Bedeutung von showOutsideDossier.
+- id: K8
+  aufgabe: 'Unterlagen zum Abschluss: Protokoll in 10.9 ablegen, fehlende Unterlagen als Pendenz «PBC-Vorschlag» (PBC-Liste 10.10 erst nach Entscheid consis)'
+  wann: 'Prozess 3, nach K1: Protokoll Vorjahr (GV/VR) aus M-Files beschaffen und Zugehörigkeit prüfen; fehlende Unterlagen aus allen Prüffeldern sammeln'
+  prozess: '3'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadContainerDocuments_by_areaId
+    zweck: Bereits in 10.9 abgelegte Protokolle lesen (Dubletten vermeiden; Vorjahresprotokoll schon vorhanden?)
+    parameter: 'path_params_json {"areaId": areaId 10.9 (K1)}. Ergebnis ContainerDocumentDto {id, kind, fileName, attachmentId, uploadedBy, uploadedAt}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadProtocols_by_areaId
+    zweck: 'Kandidat: mit dem Protokollgenerator erstellte Protokolle lesen (nur lesen)'
+    parameter: 'path_params_json {"areaId": 10.9}. Ergebnis ProtocolGeneratorDto {title, protocolDate, protocolLocation, attachementId}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadPermanentFilesForDossier
+    zweck: 'Dauerakten lesen (Statuten, Reglemente) als Kontext für Zugehörigkeit und Schritte 322. Nur lesen: rv_put_workpapers_UpdatePermanentFile, rv_post_workpapers_AppendPermanentFiles
+      und rv_post_workpapers_MovePermanentFilesBelow bis zum Entscheid unklar = OpenClaw deny (Dauerakten gehen in die Folgejahre über; Feldregel PermanentFileDto.deletedAt nie setzen)'
+    parameter: keine Parameter (Dossierkontext)
+    art: lesen
+  - werkzeug: rv_post_workpapers_AddDetachedAttachement
+    zweck: 'Kandidat (Hauptweg wie Zuordnung 10.9): geprüftes Protokoll (Gesellschaft, Organ GV/VR, Datum, Geschäftsjahr = Mandatskontext) als lose Beilage von 10.9 registrieren. Entfällt,
+      wenn die Datei über K15 Schritt 4 bereits in den losen Beilagen von 10.9 liegt'
+    parameter: 'body_json CreateDetachedAttachementRequest {"areaId": 10.9, "attachementId": aus dem Upload (K15), "fileName": "<M-Files-ID>_v<Version>_<Titel>.pdf", "size"}'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
+    zweck: attachementId des Protokolls in den losen Beilagen von 10.9 bestätigen
+    parameter: 'path_params_json {"areaId": 10.9}'
+    art: lesen
+  - werkzeug: rv_get_attachements_GetAttachementMetadata_by_attachementId
+    zweck: Herkunft der Beilage = Mandatskontext prüfen, bevor sie abgelegt wird
+    parameter: 'path_params_json {"attachementId": Schritt 5}; clientId/dossierId bzw. source = K1'
+    art: lesen
+  - werkzeug: rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea
+    zweck: 'Kandidat (Hauptweg): Protokoll aus den losen Beilagen in 10.9 ablegen'
+    parameter: 'body_json MoveDetachedAttachmentsToWorkingAreaRequest {"attachmentIds": [Schritt 5], "areaId": 10.9, "entityId": Kandidat (Dokumentcontainer/Komponente von 10.9, offen),
+      "targetSource": EntitySource-Wert (revio_describe_schema, K16)}. Alternative nur nach revio_describe_endpoint und Entscheid: rv_post_workpapers_StoreContainerDocuments_by_areaId
+      (kein Body-Schema; ersetzt vermutlich die ganze Dokumentliste und könnte Dokumente von Menschen löschen) – bis zur Klärung unklar = OpenClaw deny'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadContainerDocuments_by_areaId
+    zweck: 'Kontrolle der Ablage in 10.9: neues Dokument vorhanden, bisherige Dokumente unverändert (Vergleich mit Schritt 1)'
+    parameter: 'path_params_json {"areaId": 10.9}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_StoreProtocolContent
+    zweck: 'NICHT durch den Agenten: erstellt mit dem Protokollgenerator ein Organprotokoll des Kunden (ProtocolGeneratorDto: presentMembers, chairmanship, minuteKeeper, voteCounter,
+      items) – keine Ablage eines fertigen GV-/VR-Protokolls; ebenso rv_delete_workpapers_DeleteProtocolContent_by_protocolId. Kein Ablageweg für Prozess 3'
+    parameter: body_json ProtocolGeneratorDto – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_get_workpapers_LoadLocalPbcWorkspace
+    zweck: PBC-Liste 10.10 lesen (angeforderte, erhaltene, bestätigte Unterlagen; Uploads des Kunden), damit keine bereits angeforderte Unterlage vorgeschlagen wird
+    parameter: keine Parameter. Ergebnis WorkspaceStateDto {id, isPublished, reportSections[] {code, title, status, requestedDate, receivedDate, confirmedDate, requestItems[] {id, title,
+      dueDate, isAccepted, isSelected, uploadedFiles}}}
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadPbcTemplates
+    zweck: Standardanforderungen (Bezeichnungen) lesen, damit Vorschläge einheitlich benannt sind
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDossierNotesByNoteType
+    zweck: Offene Pendenzen lesen und bestehende «PBC-Vorschlag»-Pendenzen erkennen (Dubletten vermeiden)
+    parameter: 'query_json {"noteType": Pendenz-Id (K1), "onlyOpenNotes": true}'
+    art: lesen
+  - werkzeug: rv_put_workpapers_UpdateNote
+    zweck: Fehlende Unterlage als Pendenz mit Titelpräfix «PBC-Vorschlag:» erfassen (Ablauf und Feldregeln K7 Schritt 3); einziger Weg für PBC-Vorschläge bis zum Entscheid consis
+    parameter: 'body_json UpdateNoteRequest {"areaId": areaId 10.10 (Kandidat; falls dort keine Notizen möglich: Prüffeld des auslösenden Schritts), "note": {"id": leer, "type": Pendenz-Id
+      (K1), "title": "PBC-Vorschlag: <Unterlage> (<Prüfschritt>)", "text": Bezeichnung gemäss PBC-Vorlage (Schritt 11), Grund, Prüfschritt, gewünschtes Datum, "isClosed": false}}'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Verlauf von 10.9 (und 10.10) lesen und Ablage bzw. Pendenzen mit Zeitstempel, Quelle (M-Files-ID und Version), Ergebnis und Fehlern ins M-Files-Protokoll pro
+      Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3] (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    parameter: 'path_params_json {"areaId": 10.9 bzw. 10.10}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_StorePbcWorkspace
+    zweck: 'NICHT durch den Agenten (OpenClaw deny), Kandidat erst nach Entscheid consis: überschreibt den ganzen Arbeitsbereich inkl. publishAfter, isPublished, validUsers (Kundenzugänge),
+      notificationRecipients, emailBody sowie status und confirmed* je Abschnitt – Weg zur Veröffentlichung beim Kunden bzw. zum Kundenversand und Änderung von Zugriffsrechten; publishAfter
+      ist in OpenClaw nicht prüfbar'
+    parameter: 'body_json StorePbcWorkspaceRequest {workspace: WorkspaceStateDto, publishAfter} – nur Mensch'
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_SendPbcInviteMail
+    zweck: 'NICHT durch den Agenten: Anforderung/Einladung an den Kunden'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Ablage in 10.9 (Schritte 4 und 7) und Pendenz «PBC-Vorschlag» (Schritt 13) schreiben → OpenClaw-Freigabe. StorePbcWorkspace, StoreContainerDocuments_by_areaId
+    (bis zur Klärung) und StoreProtocolContent sind deny. Status in 10.9 bleibt offen; die Anforderung beim Kunden macht der Mensch ^[konzept-ki-revisionsagent-2026__c011-2]; Status
+    in Bereich 10 setzt der Mensch ^[konzept-ki-revisionsagent-2026__c008-1]. Übernahme der Vorschläge in die PBC-Liste, Veröffentlichen und Versand nur durch den Menschen.
+  offene_fragen:
+  - Erwartet MoveDetachedAttachmentsToWorkingArea für 10.9 eine entityId (Dokumentcontainer/Komponente?) und welcher EntitySource-Wert gilt? Woher kommt die attachementId für AddDetachedAttachement
+    (Upload-Weg, K15)?
+  - 'Body von StoreContainerDocuments_by_areaId (revio_describe_endpoint): ersetzt er die ganze Dokumentliste? Erst danach als Alternative zulassen.'
+  - PBC-Vorschläge direkt in 10.10 (StorePbcWorkspace) oder nur als Pendenz? Entscheid consis; das Konzept spricht von «Vorschlag» ^[konzept-ki-revisionsagent-2026__c011-2]. Hängt die
+    Pendenz an 10.10 oder am auslösenden Prüffeld?
+  - 'Dauerakten (x-322): dürfen UpdatePermanentFile, AppendPermanentFiles oder MovePermanentFilesBelow je verwendet werden? Bis dahin deny.'
+  - Upload von Dateien über das MCP (siehe K15).
+- id: K9
+  aufgabe: Kundenbefragung 10.11 lesen und für Befragungsschritte (1xx) auswerten
+  wann: Vor der Bearbeitung der Befragungsschritte (1xx) aller Prüffelder, sobald der Kunde den Fragebogen eingereicht hat
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadLocalQuestionnaire
+    zweck: 'Kandidat für 10.11: Fragebogen mit Antworten des Kunden lesen; nur verwenden, wenn userSubmitted = true (sonst Pendenz «Antworten ausstehend»)'
+    parameter: keine Parameter (Dossierkontext). Ergebnis QuestionnaireDto {id, isPublished, userSubmitted, userSubmittedEmail, openingDate, questionnaireSections[] {title, isCompleted,
+      questions[] {id, text, type, value, dependentOn}}}
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadQuestionnaireTemplates
+    zweck: Vorlage des Fragebogens lesen (Fragen ↔ Themen, Hilfe für die Zuordnung zu Prüfschritten)
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: rv_get_checklistDefinitions_LoadContainerQuestionnaire_by_containerId
+    zweck: 'Kandidat, nur Information: Akte-Fragebogen mit Bedingungen (welche Register deaktiviert sind) – nicht die Kundenbefragung'
+    parameter: 'path_params_json {"containerId": K1}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_CreateQuestionnairePDF
+    zweck: 'Einstufung «vorbereiten (Kandidat, Report-Job)», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob das PDF mit areaId in der Akte (10.11) abgelegt wird. Optional:
+      Antworten als PDF erzeugen, um sie als Nachweis an Befragungsschritte zu hängen'
+    parameter: 'body_json CreateQuestionnairePDFRequest {"reportJobId": neue Id, "areaId": areaId 10.11 (K1), "questionnaireId": QuestionnaireDto.id, "asExcel": false}'
+    art: vorbereiten
+  - werkzeug: rv_put_auditActivities_UpdateDossierActivity
+    zweck: 'Auswertung je Befragungsschritt (1xx) ins Textfeld (Ablauf K6): Frage, Antwort wörtlich, Einreicher/Datum, Würdigung; Status höchstens «teilweise bearbeitet». Fehlende/unklare
+      Antwort → Pendenz (K7)'
+    parameter: wie K6 Schritt 3
+    art: vorbereiten
+  - werkzeug: rv_post_workpapers_StoreQuestionnaire
+    zweck: 'NICHT durch den Agenten: Fragebogen ändern, veröffentlichen (publishAfter) und an den Kunden senden'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_checklistDefinitions_SetContainerQuestionnaireClosedState
+    zweck: 'NICHT durch den Agenten: Fragebogen schliessen'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Lesen frei; Textfeld/Notiz/PDF-Report-Job mit OpenClaw-Freigabe. Der Agent befragt nicht selbst, er wertet nur schriftliche Antworten aus ^[konzept-ki-revisionsagent-2026__c012-1].
+    Versand, Veröffentlichung und Schliessen des Fragebogens nur durch den Menschen.
+  offene_fragen:
+  - Ist «LocalQuestionnaire» die Kundenbefragung 10.11 (Kandidat)?
+  - Zuordnung Frage → Prüfschritt (1xx) fehlt im Katalog – erst mit Datenkopie erstellen.
+  - Wie wird das PDF aus CreateQuestionnairePDF (reportJobId) abgeholt, und legt der Aufruf mit areaId das PDF in der Akte ab?
+- id: K10
+  aufgabe: Vorjahr und Vorjahresprüfung lesen (Texte, Beilagen, Notizen, Wesentlichkeit, archivierte Fassung) – möglichst ohne Kontextwechsel
+  wann: Vor A1-302 (Abstimmung Vorjahresbestände), C1-302 (Erfahrung Vorjahre) und allgemein vor jedem Prüffeld als Vergleich
+  prozess: '2'
+  schritte:
+  - werkzeug: revio_list_dossiers
+    zweck: Vorjahresakte bestimmen (id = previousDossierId der aktuellen Akte; Stichtag Vorjahr) und ihren Zustand prüfen (state, lastSealActionDate, Archiv). Nur in MD
+    parameter: client_id = K1
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId
+    zweck: Vorjahres-Prüfschritte eines Prüffelds aus Sicht der aktuellen Akte lesen (ohne Kontextwechsel)
+    parameter: 'path_params_json {"containerId": K1, "templateId": K5}. Ergebnis PreviousPeriodAuditActivitiesReviewDto {auditActivityGroups, hasPreviousPeriodItems, previousPeriodItemsCount}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId
+    zweck: Vorjahrestext eines bestimmten Schritts lesen (z. B. Herleitung Delkredere Vorjahr), ohne Kontextwechsel
+    parameter: 'path_params_json {"containerId": K1, "templateId": K5, "activityId": K5}'
+    art: lesen
+  - werkzeug: rv_get_attachements_GetPreviousPeriodAttachementMetadata_by_attachementId
+    zweck: Beilagen des Vorjahresschritts lesen, ohne Kontextwechsel
+    parameter: 'path_params_json {"attachementId": aus Schritt 2/3 (attachements)}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadMaterialityOfDossier
+    zweck: 'Kandidat: Wesentlichkeit des Vorjahres ohne Kontextwechsel lesen (Vorjahreswerte stehen auch in previousValue der aktuellen Akte, K3)'
+    parameter: 'query_json {"clientId": K1, "dossierId": previousDossierId}'
+    art: lesen
+  - werkzeug: rv_get_clientsManagement_LoadArchiveVersions_by_dossierId
+    zweck: Liste der archivierten Fassungen der Vorjahresakte lesen (Quelle «geprüfte Jahresrechnung Vorjahr» für A1-302). Archivinhalt nicht öffnen (rv_post_clientsManagement_LogArchiveAccess
+      gesperrt); Bedarf als Pendenz an den WP
+    parameter: 'path_params_json {"dossierId": previousDossierId}'
+    art: lesen
+  - werkzeug: revio_open_dossier
+    zweck: 'Nur als letzte Option, wenn Schritte 2–6 nicht genügen (v. a. Vorjahresnotizen) und die Vorjahresakte nicht archiviert ist: Vorjahresakte lesend öffnen. Vorher sperrt der
+      Agenten-Code alle Schreibwerkzeuge, solange der Kontext nicht der aktuellen Akte entspricht (UpdateNote, UpdateDossierActivity u. a. ohne dossierId würden sonst auf das Vorjahr
+      wirken). Archiviert oder versiegelt mit Sperr-/Protokollwirkung → nicht öffnen, Pendenz. Nur in MD'
+    parameter: client_id = K1, dossier_id = previousDossierId
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDossierNotes
+    zweck: Vorjahresnotizen lesen (Wesentliche Feststellungen, Schlussbesprechung, offene Pendenzen Vorjahr)
+    parameter: keine Parameter (Kontext = Vorjahresakte, Schreibsperre aktiv)
+    art: lesen
+  - werkzeug: revio_open_dossier
+    zweck: Zurück zur aktuellen Akte (Schreibsperre bleibt bis Schritt 10 aktiv). Nur in MD
+    parameter: client_id = K1, dossier_id = dossierId aktuell (K1)
+    art: lesen
+  - werkzeug: rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId
+    zweck: 'Kandidat: Kontext prüfen – Ergebnis bzw. AnualFileDto der geöffneten Akte (id, clientId, balancingDate; mit revio_list_dossiers abgleichen) muss dem Kontext-Schlüssel aus
+      K1 entsprechen; erst dann hebt der Agenten-Code die Schreibsperre auf. Abweichung → Abbruch und Pendenz ^[konzept-ki-revisionsagent-2026__c009-1]'
+    parameter: 'path_params_json {"clientId": K1, "dossierId": dossierId aktuell (K1)}; Wirkung (nur prüfen oder anmelden) offen, K1'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult
+    zweck: 'NICHT durch den Agenten: Vorjahrestexte in die aktuelle Akte übernehmen – schreibt trotz GET (overtakenActivitiesCount, transferredAttachmentsCount; Massenänderung). Ebenso
+      rv_post_clientsManagement_LogArchiveAccess (Archivzugriff protokollieren, gesperrt)'
+    parameter: OvertakePreviousPeriodAuditActivitiesRequest {navigationId, templateId, attachmentTransferMode} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Nur lesen; Vorjahresoriginale bleiben unverändert ^[konzept-ki-revisionsagent-2026__c011-2]. Zuerst die Wege ohne Kontextwechsel (Schritte 2–6). Der Kontextwechsel
+    ins Vorjahr ist die letzte Option: nur lesend, nicht bei archivierter Akte, mit technischer Schreibsperre im Agenten-Code, solange der Kontext nicht der aktuellen Akte entspricht,
+    und mit Kontextprüfung nach der Rückkehr (Schritt 10) ^[konzept-ki-revisionsagent-2026__c009-1]. Übernahme von Vorjahrestexten, Archivzugriff und jede Änderung an der Vorjahresakte
+    nur durch den Menschen.'
+  offene_fragen:
+  - Ist das Öffnen der Vorjahresakte mit dem harten Mandatskontext vereinbar (gleicher Kunde, anderes Geschäftsjahr) – als zulässige Ausnahme festlegen?
+  - Löst das Öffnen einer versiegelten oder archivierten Vorjahresakte Sperren oder Archiv-Zugriffsprotokolle aus? Wie wird der Inhalt einer Archivversion ohne LogArchiveAccess gelesen?
+  - Liefern LoadPreviousPeriodAuditActivitiesReview/GetActivityItemFromPreviousPeriod Texte auch, wenn das Vorjahr archiviert oder versiegelt ist?
+  - Ist TryLoginDossier rein prüfend? Sonst Kontextprüfung nur über revio_list_dossiers und den Kontext-Schlüssel.
+- id: K11
+  aufgabe: Status aller Schritte, Notizen und Bereiche für den Revisionsrapport sammeln
+  wann: Prozess 4, nach Abschluss der Vorbereitung (K6–K10, K17) bzw. auf Anforderung des WP; Ergebnis als E-Mail an die freigegebene WP-Adresse
+  prozess: '4'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadAnnualFileState
+    zweck: 'Kandidat: Fortschritt je Abschnitt der Akte lesen'
+    parameter: 'query_json/body_json LoadSectionStateRequest {"sections": AreaSectionStateDto-Liste (sectionId aus K1)}. Ergebnis {completedCount, totalCount, isCompleted} je Abschnitt'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAreaStates
+    zweck: Zustand aller Prüffelder und Bereiche 10.x lesen
+    parameter: 'body_json/query_json LoadAreaStatesRequest {"items": [{"areaId", "componentId": navigationComponentId, "classifications"}] für alle Prüffelder (K1)}. Ergebnis AreaStateDto
+      {workpaperState, isDisabled, checklistItems, states, comments}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    zweck: 'Je Prüffeld je Schritt: deaktiviert, visiert, Textfeld leer / «Entwurf KI-Agent», Beilagen → Status: vorbereitet / mit Feststellungen / teilweise bearbeitet / nicht bearbeitet'
+    parameter: 'path_params_json {"containerId": K1, "templateId": je Prüffeld (K1/K5)}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDossierNotesByNoteType
+    zweck: Offene Pendenzen (inkl. «PBC-Vorschlag»), Wesentliche Feststellungen, Schlussbesprechungspunkte und Review-Rückmeldungen des WP lesen (offene und wesentliche Punkte zuerst)
+    parameter: 'query_json {"noteType": Id je Kategorie (K1), "onlyOpenNotes": true}; je Kategorie einmal'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadNavigationDetailCounts_by_areaId
+    zweck: 'Kandidat: Zähler je Bereich (Notizen, Beilagen) für die Übersicht'
+    parameter: path_params_json {"areaId"}
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Änderungsverlauf je Prüffeld lesen (Audit Trail: was der Agent geschrieben hat) und mit dem M-Files-Protokoll abgleichen'
+    parameter: path_params_json {"areaId"}
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadMaterialityOfDossier
+    zweck: Wesentlichkeit seit der Bearbeitung unverändert? Sonst betroffene Schritte im Rapport kennzeichnen
+    parameter: query_json {"clientId", "dossierId"} (K1); Vergleich mit Stand aus K3
+    art: lesen
+  - werkzeug: rv_post_workpapers_CreateNotesReport
+    zweck: 'Einstufung «vorbereiten (Kandidat, Report-Job)», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob der Report in der Akte abgelegt wird. Optional: Notizenliste
+      als Bericht (Beilage zum Rapport); ebenso rv_post_workpapers_CreateAuditActivityReport'
+    parameter: 'body_json CreateNotesReportRequest {"reportJobId": neue Id, "areaId", "filter": {"isDossierView": true, "noteTypes": NoteTypeDto aus K1}}; CreateAuditActivityReportRequest
+      {"reportJobId", "areaId", "templateId", "reportType", "classifications"}'
+    art: vorbereiten
+  - werkzeug: rv_post_workpapers_ProcessAreaState
+    zweck: 'NICHT durch den Agenten: Bereichsstatus setzen («Abgeschlossen», «Review»); ebenso rv_put_workpapers_UpdateAreaComments (K6)'
+    parameter: body_json ProcessAreaStateRequest {areaId, item} – nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_clientsManagement_RequestGlobalDossierReview_by_dossierId_by_reviewerId
+    zweck: 'NICHT durch den Agenten: Review der Akte anfordern (ebenso rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId, rv_post_clientsManagement_RejectGlobalDossierReview_by_dossierId)'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'Nur lesen in revio (Report-Job Schritt 8 mit OpenClaw-Freigabe). Der Rapport ist eine E-Mail an die freigegebene WP-Adresse (Testphase: Entwurf oder fixe Adresse,
+    nie an Kunden) ^[konzept-ki-revisionsagent-2026__c009-2] ^[konzept-ki-revisionsagent-2026__c011-2]; der Versand läuft nicht über das revio-MCP. Bereichsstatus, Review und Abschluss
+    setzt der Mensch.'
+  offene_fragen:
+  - 'Statusdefinitionen: ab wann «vorbereitet» statt «teilweise bearbeitet» ^[konzept-ki-revisionsagent-2026__c015-2]?'
+  - Wie liefern CreateNotesReport/CreateAuditActivityReport das Ergebnis (reportJobId → Datei), und legen sie mit areaId etwas in der Akte ab?
+  - E-Mail-Werkzeug ist nicht Teil des revio-MCP – welches Werkzeug, welche fixe WP-Adresse?
+  - Braucht LoadAnnualFileState die Abschnittsliste als Eingabe, und woher kommen die sectionIds?
+- id: K12
+  aufgabe: Bericht an die Generalversammlung (GVB) als Entwurf vorbereiten – was der Agent in revio liest und was nie
+  wann: Prozess 5, nach K11; Entwurf in M-Files/Word (Kopie des Vorjahres), revio nur als Datenquelle
+  prozess: '5'
+  schritte:
+  - werkzeug: revio_list_dossiers
+    zweck: Titel, Stichtage (openingDate, balancingDate) und Vorjahresakte für Deckblatt und Berichtstext. Nur in MD
+    parameter: client_id = K1
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
+    zweck: Jahresergebnis, Bilanzsumme, Eigenkapital aktuell/Vorjahr lesen (Rechenmodul; Hinweis auf Kapitalverlust/Überschuldung an den WP)
+    parameter: 'query_json {"clientId", "dossierId" (K1), "view": Bilanz/ER (Enum), "financialValuesOrigin"}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDynamicFormsData
+    zweck: 'Kandidat: 7.1 Berichtsstrategie und 7.5 Berichtskritik lesen (Normalwortlaut, Einschränkung, Zusatz, Hinweis), dazu 6.1 nicht nachgebuchte Fehler und 6.3 Ereignisse nach
+      Bilanzstichtag/Going concern'
+    parameter: 'query_json {"areaId": areaId 7.1, dann 7.5, 6.1, 6.3 (K1)}'
+    art: lesen
+  - werkzeug: rv_get_checklists_LoadChecklist
+    zweck: Kandidat, falls 7.1/7.5 als Checkliste geführt sind
+    parameter: 'query_json {"areaId": 7.1 bzw. 7.5, "checklistId": aus dem Navigationsknoten (K1, Kandidat)}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadGeneratedDocuments_by_navigationId
+    zweck: Bereits erzeugte Berichtsdokumente und Versandfiche 7.4 lesen (nur lesen)
+    parameter: 'path_params_json {"navigationId": areaId 7.x (K1)}. Ergebnis GeneratedDocumentDto {documentTitle, documentName, state, signingDetails}'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadReportPackagesForAnualFile
+    zweck: Berichtspakete der Akte lesen (Jahresrechnung als Beilage zum Bericht)
+    parameter: query_json {"clientId", "dossierId"} (K1)
+    art: lesen
+  - werkzeug: rv_get_reportPackages_LoadRevio3TextModuleList_by_textmoduleTag
+    zweck: 'Kandidat: Textbausteine (z. B. Normalwortlaut) lesen'
+    parameter: 'path_params_json {"textmoduleTag": Wert offen}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDossierNotesByNoteType
+    zweck: Offene Wesentliche Feststellungen mit möglichem Einfluss auf den Bericht lesen (nur als Hinweis an den WP)
+    parameter: 'query_json {"noteType": Id Wesentliche Feststellungen (K1), "onlyOpenNotes": true}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_StoreGenereatedDocumentDraft
+    zweck: 'NICHT durch den Agenten: Bericht in revio erzeugen/ablegen (Bereich 7, mit Unterzeichnern leftUserId/rightUserId); ebenso rv_delete_workpapers_DeleteGeneratedDocument_by_attachementId'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_workpapers_SetDeliveryVisa_by_componentId
+    zweck: 'NICHT durch den Agenten: Versand-Visum (Versandfiche 7.4); in der IDEE ausdrücklich «menschlich – nie Agent»'
+    parameter: path_params_json {componentId}; body_json SetDeliveryVisaRequest {deliverableId, isVised} – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: 'In revio nur lesen (Bereiche 6 und 7) ^[konzept-ki-revisionsagent-2026__c006-2]. Der Entwurf entsteht in M-Files/Word: Vorjahres-Deckblatt und -Berichtstext
+    kopieren, Jahreszahlen, Stichtage und Jahresergebnis aktualisieren, gegen 7.1 und 7.5 prüfen; keine Unterzeichnung, keine Datierung, Vorjahresoriginale unverändert ^[konzept-ki-revisionsagent-2026__c011-2].
+    Wahl des Wortlauts, Unterzeichnung, Datierung, Versand-Visum und Versand (7.4) nur WP.'
+  offene_fragen:
+  - Nur Normalwortlaut gemäss 7.1? Vorgehen bei Einschränkung, Zusatz (z. B. Überschuldung, Rangrücktritt) oder Hinweis ^[konzept-ki-revisionsagent-2026__c015-2].
+  - Datenform von 7.1/7.5 (Formular oder Checkliste) und deren Ids; Leserechte für 6.x/7.x.
+  - M-Files- und Word-Werkzeuge sind nicht Teil des revio-MCP.
+- id: K13
+  aufgabe: PDF-Akte erzeugen und für die Ablage in M-Files bereitstellen (nur auf Anweisung)
+  wann: Prozess 6, ausschliesslich auf ausdrückliche Anweisung des WP (mit Kunde und Geschäftsjahr)
+  prozess: '6'
+  schritte:
+  - werkzeug: revio_list_dossiers
+    zweck: Kontext und Zustand der Akte prüfen (Kunde/Jahr der Anweisung = Mandatskontext). Nur in MD
+    parameter: client_id = K1
+    art: lesen
+  - werkzeug: rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId
+    zweck: Gespeicherte Auswahl der PDF-Akte lesen (Bereiche, Optionen)
+    parameter: 'path_params_json {"containerId": K1}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAllAttachements
+    zweck: Beilagen-Übersicht vor der Erzeugung (Vollständigkeit)
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: rv_post_containerDefinitions_GeneratePdfReport
+    zweck: 'PDF-Akte erzeugen – in der OpenClaw-Konfiguration standardmässig deny und nur je Auftrag (Prozess 6) befristet freigegeben; keine Archivierung: isArchiveJob = true würde
+      archivieren und ist in OpenClaw nicht je Feld sperrbar'
+    parameter: 'body_json PdfGenerationSettingsDto {"jobId": neue Id, "clientId", "dossierId", "containerId", "subContainerId", "balancingDate", "openingDate" (K1), "reportTitle": "AP
+      revio", "reportSubTitle": Kunde/Geschäftsjahr, "usesCoversheetItem", "attachementBehaviour": gemäss Vorgabe WP, "isArchiveJob": false, "printRegistersWithoutState", "showPageNumbers":
+      true, "groups": aus Schritt 2 unverändert}; Feldregel isArchiveJob = false im Agenten-Code vor dem Aufruf prüfen'
+    art: vorbereiten
+  - werkzeug: rv_post_containerDefinitions_MergePdfReport
+    zweck: 'Kandidat, optional: Teil-PDF zusammenführen; wie Schritt 4 nur je Auftrag befristet freigegeben'
+    parameter: 'body_json DocumentMergingPackageDto {"packageId", "packageName", "items": [{"referenceId", "displayName", "type"}]}'
+    art: vorbereiten
+  - werkzeug: rv_post_clientsManagement_ArchiveDossier
+    zweck: 'NICHT durch den Agenten: Akte archivieren (ebenso rv_post_clientsManagement_ArchiveDossiers); Einstellungen der PDF-Akte ändern (rv_post_containerDefinitions_StorePdfGenerationSettings)
+      ebenfalls nicht'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_clientsManagement_RequestSeal_by_dossierId
+    zweck: 'NICHT durch den Agenten: Siegel beantragen/setzen (ebenso rv_post_clientsManagement_SealAnualFile)'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Nur auf Anweisung des WP ^[konzept-ki-revisionsagent-2026__c010-1]. GeneratePdfReport und MergePdfReport sind in OpenClaw standardmässig deny und werden nur je
+    Auftrag (Prozess 6) befristet freigegeben, jeder Aufruf mit Freigabe; isArchiveJob = false ist eine Feldregel des Agenten-Codes, OpenClaw kann sie nicht erzwingen. Archivieren, Siegel
+    und Freigabe nur Mensch. Ablage in M-Files (Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»), nichts überschreiben, Speicherort bestätigen ^[konzept-ki-revisionsagent-2026__c011-2]
+    – ausserhalb des revio-MCP.
+  offene_fragen:
+  - Wie wird das erzeugte PDF abgeholt (jobId → Datei)? In der Liste gibt es keinen Download-Endpunkt.
+  - Werte von attachementBehaviour; was bewirkt isArchiveJob genau; legt GeneratePdfReport das PDF in der Akte ab (z. B. 10.5)?
+  - Kann OpenClaw eine Freigabe befristen (je Auftrag), oder muss die Konfiguration je Auftrag geändert werden?
+- id: K14
+  aufgabe: Anhang lesen und mit Bilanz/ER und Nachweisen abgleichen (Prüffeld T1)
+  wann: Bei der Bearbeitung von T1 (z. B. T1-301 bis T1-318) nach K2/K5
+  prozess: '2'
+  schritte:
+  - werkzeug: rv_get_financialStatement_LoadFinancialYears
+    zweck: Geschäftsjahr (from/to) aktuelles Jahr und Vorjahr bestimmen
+    parameter: keine Parameter. Ergebnis FinancialYearDto {index, from, to, isActualFiscalYear, isSealed, periods[PeriodDto]}; Perioden aus periods (Ergebnis aus K1 Schritt 6 wiederverwendbar)
+    art: lesen
+  - werkzeug: rv_get_appendix_LoadAppendixForFinancialPeriod
+    zweck: Anhang der Periode lesen (Abschnitte, Texte, Beträge)
+    parameter: 'query_json/body_json LoadAppendixRequest {"from", "to" (Schritt 1), "financialValuesOrigin": Enum, "languageIndex": Sprache (Kandidat 0), "displayDivider": 1, "reportDesign":
+      leer (Kandidat), "parmameters": []}'
+    art: lesen
+  - werkzeug: rv_get_appendix_LoadUserDefinedUnitForFinancialPeriod
+    zweck: 'Kandidat: benutzerdefinierte Anhangsteile lesen'
+    parameter: LoadUserDefinedUnitRequest {"from", "to", "templateId", "userUnitId", "financialValuesOrigin", "languageIndex", "displayDivider"} – Ids offen
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
+    zweck: Konten mit Anhangsverweisen lesen; Beträge Anhang ↔ Bilanz/ER im Rechenmodul abgleichen
+    parameter: query_json {"clientId", "dossierId" (K1), "view", "financialValuesOrigin"}; AccountDto.appendixReferences
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadHiddenReserves
+    zweck: 'Stille Reserven: wesentliche Nettoauflösung prüfen (T1-305; Abstimmung Bestand/Veränderung in K17)'
+    parameter: keine Parameter
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadCommonDocumentParameter
+    zweck: 'Kandidat: Dokumentparameter lesen (z. B. Angabe Vollzeitstellen für T1-304)'
+    parameter: 'query_json {"parameterId": Wert offen}'
+    art: lesen
+  - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    zweck: T1-Schritte laden und activityIds bestimmen (Ablauf K5)
+    parameter: 'path_params_json {"containerId": K1, "templateId": T1 (K1/K5)}'
+    art: lesen
+  - werkzeug: rv_put_auditActivities_UpdateDossierActivity
+    zweck: Ergebnis des Abgleichs ins Textfeld des T1-Schritts (Ablauf K6)
+    parameter: wie K6 Schritt 3
+    art: vorbereiten
+  - werkzeug: rv_put_workpapers_UpdateNote
+    zweck: Fehlende oder abweichende Angabe als Pendenz bzw. Wesentliche Feststellung im Prüffeld T1 (Ablauf K7)
+    parameter: wie K7 Schritt 3, areaId = T1
+    art: vorbereiten
+  - werkzeug: rv_post_appendix_StoreAppendixForFinancialPeriod
+    zweck: 'NICHT durch den Agenten: Anhang ändern (Bereich 1.1); ebenso rv_post_appendix_StoreUserDefinedUnitForFinancialPeriod'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Lesen frei; Textfeld und Notiz mit OpenClaw-Freigabe (Audit Trail wie K6/K7). Den Anhang korrigiert der Kunde bzw. der Mensch in Bereich 1.1, nie der Agent (Schreibgrenze
+    4/10) ^[konzept-ki-revisionsagent-2026__c006-1]. Beurteilung, Visum und ✓ für T1 beim WP.
+  offene_fragen:
+  - Welche Parameter braucht LoadAppendixForFinancialPeriod mindestens (reportDesign, languageIndex)? Liefert es Texte und Beträge oder nur die Struktur?
+  - Wo liegen Vollzeitstellen und weitere Anhangsangaben (Dokumentparameter, benutzerdefinierte Einheit)?
+- id: K15
+  aufgabe: Beleg aus M-Files in revio hochladen (Dokumenteneingang → lose Beilagen des Zielbereichs)
+  wann: Vor K6 Schritt 5, K7 Schritt 5, K8 Schritt 4/5 und K17 Schritt 7, nachdem die Zugehörigkeit (Kunde, Geschäftsjahr) gegen den Mandatskontext geprüft ist
+  prozess: allgemein
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadInboxDocuments
+    zweck: Ordner des Dokumenteneingangs (Bereich 10) lesen und Zielordner bestimmen
+    parameter: 'query_json {"folderId": leer/Wurzel (Kandidat), "withLinkedFolders": false}. Ergebnis InboxDocumentDto {attachmentId, isFolder, description, referenceDossierId, isClientFile}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_AddFilesToDocumentInbox_by_folderId
+    zweck: 'Kandidat: Datei hochladen (Name «<M-Files-ID>_v<Version>_<Titel>.pdf»)'
+    parameter: 'path_params_json {"folderId": Schritt 1}; kein body_schema in der Liste – Upload-Format (Datei/multipart) über das MCP offen'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadInboxDocuments
+    zweck: attachmentId der hochgeladenen Datei bestimmen; referenceDossierId = Akte aus K1 prüfen
+    parameter: 'query_json {"folderId": Schritt 1, "withLinkedFolders": false}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems
+    zweck: 'Kandidat: Datei aus dem Eingang in die losen Beilagen des Zielbereichs verschieben (schreibt trotz GET)'
+    parameter: 'RemoveInboxDocumentsAndAssignToAreaRequest {"areaId": Ziel-Prüffeld bzw. 10.x (K1), "documentIds": [attachmentId aus Schritt 3]}'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
+    zweck: attachementId in den losen Beilagen bestätigen (weiter in K6, K7, K8 oder K17)
+    parameter: path_params_json {"areaId"}
+    art: lesen
+  - werkzeug: rv_get_attachements_GetAttachementMetadata_by_attachementId
+    zweck: Herkunft der Beilage = Mandatskontext prüfen (clientId, dossierId, source); Abweichung → Abbruch und Pendenz
+    parameter: 'path_params_json {"attachementId": Schritt 5}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Upload und Verschiebung mit Zeitstempel, Quelle (M-Files-ID und Version), Ziel und Fehlern ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]
+      (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    parameter: 'path_params_json {"areaId": Zielbereich}'
+    art: lesen
+  - werkzeug: rv_delete_workpapers_DeleteDetachedAttachement_by_attachementId
+    zweck: 'NICHT durch den Agenten: Fehlablage löschen (ebenso rv_delete_workpapers_RemoveFilesFromDocumentInbox_by_folderId, rv_delete_workpapers_DeleteDetachedAttachements)'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_put_attachements_UpdateAttachementsMetadata
+    zweck: 'NICHT durch den Agenten, gesperrt: AttachementDto enthält dossierId, clientId und source – eine Beilage könnte einem anderen Mandat oder einer anderen Akte zugeordnet werden.
+      Umbenennen nur über rv_post_auditActivities_RenameAuditActivityAttachment (Prüfschritt) bzw. rv_post_workpapers_ChangeAttachmentTitle (Kontendokumentation), beide Kandidat und
+      nur für eigene Beilagen'
+    parameter: body_json AttachementDto – nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Schritte 2 und 4 schreiben → OpenClaw-Freigabe. Nur Dateien hochladen, deren Zugehörigkeit gegen den Mandatskontext geprüft ist ^[konzept-ki-revisionsagent-2026__c009-1].
+    Löschen, Entfernen und Ändern von Beilagen-Metadaten nur Mensch. Jede Aktion ins M-Files-Protokoll (Schritt 7).
+  offene_fragen:
+  - Kann das MCP Binärdateien senden? Alle rv_* nehmen nur JSON-Strings; AddFilesToDocumentInbox_by_folderId und StoreContainerDocuments_by_areaId haben kein body_schema. Ohne Upload
+    kann der Agent nur auf die M-Files-ID im Textfeld verweisen.
+  - Ist der Dokumenteneingang als Zwischenablage für den Agenten zulässig, und wer legt den Zielordner an (rv_post_workpapers_AddFolderToDocumentInbox_by_insertIndex_by_foldername)?
+  - Gibt es einen direkten Upload an Prüfschritt oder Notiz (AttachementInfo.isTemporary deutet auf temporäre Uploads hin)? Woher stammt die attachementId für AddDetachedAttachement
+    (K8, K17)?
+- id: K16
+  aufgabe: Endpunkt, Parameterbindung und Enum-Werte klären; Sperren, Einstufung und Feldregeln beachten
+  wann: Vor der ersten Nutzung eines rv_*-Werkzeugs mit Request-DTO bei GET, mit Enum-Feldern oder ohne body_schema; bei jeder Änderung der OpenClaw-Konfiguration
+  prozess: allgemein
+  schritte:
+  - werkzeug: revio_search_endpoints
+    zweck: Katalog nach Endpunkten durchsuchen (nennt rv_*-Namen). Nur in MD
+    parameter: query (z. B. "Note", "AuditActivities"), tag, method, limit
+    art: lesen
+  - werkzeug: revio_describe_endpoint
+    zweck: 'Parameter und Body-Schema eines Endpunkts lesen: gehören DTO-Felder bei GET in query_json oder body_json, welche sind Pflicht, was kommt zurück (u. a. StoreContainerDocuments_by_areaId,
+      AddFilesToDocumentInbox_by_folderId). Nur in MD'
+    parameter: method, path (aus der CSV, z. B. GET /api/workpapers/LoadMaterialityOfDossier)
+    art: lesen
+  - werkzeug: revio_describe_schema
+    zweck: Feldliste bzw. Werte eines DTO lesen – v. a. Enums ohne Werte in schemas.json (AccountItemsView, FinancialValuesOrigin, EntitySource, ContainerDocumentKind, PreviousPeriodAttachmentTransferMode).
+      Nur in MD
+    parameter: name = DTO-Name
+    art: lesen
+  - werkzeug: revio_call
+    zweck: 'GESPERRT (OpenClaw deny), analog revio_create_client: der generische Aufruf umgeht jede Sperre je Werkzeug und wird auch von Menschen über den Agenten nicht gebraucht. Das
+      Schema kennt keine Art «gesperrt», daher hier als nur_mensch geführt. Nur in MD'
+    parameter: method, path, path_params_json, query_json, body_json – gesperrt
+    art: nur_mensch
+  menschliche_freigabe: 'Keine Schreibaktion. Für die OpenClaw-Konfiguration gilt eine einzige Liste (Werkzeug → allow / allow mit Freigabe / deny), die Zuordnung, Ketten und klass zusammenführt;
+    ein Werkzeug hat genau eine Einstufung. «unklar» = deny in OpenClaw bis Entscheid Fachperson. Lesen: nur die Lesewerkzeuge aus der Zuordnung (ca. 100) allow; übrige Lesewerkzeuge
+    (alle Mandate, Archive, Firmen-QS, Personendaten, Konzern, Definitionen, Settings) deny. Methode GET heisst nicht «nur lesen» – z. B. rv_get_auditActivities_ClaudeImportAuditActivities,
+    rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult, rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems, rv_get_workpapers_StoreAccountingEstimate
+    und rv_get_workpapers_CommitIcsAreaAssessment schreiben; rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId ist Kandidat «evtl. schreibend» (Sperre); rv_get_workpapers_LoadAreaState
+    nur mit trackUser = false. Report-Jobs (Create*Report, CreateQuestionnairePDF) einheitlich «vorbereiten (Kandidat, Report-Job)»; GeneratePdfReport deny, je Auftrag befristet frei
+    (K13). Feldregeln, die OpenClaw je Werkzeug nicht erzwingt (Prüfung im Agenten-Code vor jedem Schreibaufruf bzw. JWT-Rechte des Dienstbenutzers ^[konzept-ki-revisionsagent-2026__c009-3]):
+    Cell.isVised/visaUserId/visaDate/visaText unverändert leer (UpdateDossierActivity); NoteDto.id nur leer oder eigene Notiz, isClosed = false, type ≠ Review (UpdateNote); DocumentationItemDto.state
+    = false, currentStatus nicht setzen (AddFilesToDocumentation); ImportOptions.isDeleteMode = false (Import); RejectImport nur eigene importRequestId; PdfGenerationSettingsDto.isArchiveJob
+    = false; trackUser = false. Werkzeuge, deren Felder nicht sicher begrenzbar sind, bleiben deny: PermanentFileDto.deletedAt (UpdatePermanentFile u. a.), ReApplyDetachedItems.deleteFinal,
+    publishAfter (StorePbcWorkspace, StoreQuestionnaire), AttachementDto.clientId/dossierId (UpdateAttachementsMetadata).'
+  offene_fragen:
+  - 'GET mit Request-DTO (über 100 rv_get_*): Bindung der Felder als Query oder Body?'
+  - 'Feldregeln, die OpenClaw je Werkzeug nicht erzwingen kann: Welche Rechte bietet revio je Register für den Dienstbenutzer (Schreiben ohne Visum, nur eigene Notizen)? Was davon setzt
+    das JWT durch, was der Agenten-Code (Werkzeugschicht ^[konzept-ki-revisionsagent-2026__c009-1]); der MCP-Code bleibt ohne Fachlogik.'
+  - 'Die 9 revio_*-Komfortwerkzeuge stehen nur in revio-mcp-werkzeuge.md: CSV um die 9 Zeilen ergänzen oder in OpenClaw getrennt freigeben?'
+- id: K17
+  aufgabe: Unterlagen 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven und 10.4 Jahresrechnung/Vollständigkeitserklärung ablegen und mit Bereich 1 abgleichen (A1-103, A1-303,
+    A1-307, A1-308)
+  wann: Nach K1/K2, sobald definitive Jahresrechnung, Saldenbilanz, Umbuchungsliste, Aufstellung der stillen Reserven und Vollständigkeitserklärung (VE) in M-Files vorliegen; Ablage
+    = Prozess 3 (Bereich 10), Textfelder der A1-Schritte = Prozess 2
+  prozess: '3'
+  schritte:
+  - werkzeug: rv_get_workpapers_LoadContainerDocuments_by_areaId
+    zweck: Bereits abgelegte Unterlagen je Bereich 10.1–10.4 lesen (Dubletten vermeiden)
+    parameter: 'path_params_json {"areaId": areaId 10.1, 10.2, 10.3 bzw. 10.4 (K1)} – je Bereich einmal. Ergebnis ContainerDocumentDto {id, kind, fileName, attachmentId, uploadedBy,
+      uploadedAt}'
+    art: lesen
+  - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
+    zweck: Lose Beilagen je Bereich 10.1–10.4 lesen
+    parameter: 'path_params_json {"areaId": 10.x (K1)}'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
+    zweck: '10.1 / A1-303: Saldenbilanz in revio mit Saldenbilanz bzw. Hauptbuch aus M-Files abstimmen (Konten, Saldi, Totale; Rechenmodul)'
+    parameter: 'wie K2 Schritt 4, "view": Saldenbilanz (Enum-Wert, K16)'
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadLedgerAdjustements
+    zweck: '10.2: gebuchte und ungebuchte Umbuchungen mit der Umbuchungsliste aus M-Files abgleichen; Ergebniswirkung für A1-307 (Jahresgewinn ER ↔ Eigenkapital ↔ Antrag über die Verwendung
+      des Bilanzgewinns)'
+    parameter: keine Parameter. Ergebnis LedgerAdjustementDto {debitAccount, creditAccount, value, text, isActive, profitChangeState}
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadHiddenReserves
+    zweck: '10.3 / A1-308 (A1-207): Bestand und Veränderung der stillen Reserven mit der Kundenaufstellung abstimmen; wesentliche Nettoauflösung als Hinweis für T1 (K14)'
+    parameter: keine Parameter. Ergebnis HiddenReservesDto.periodsSummaries
+    art: lesen
+  - werkzeug: rv_get_financialStatement_LoadReportPackagesForAnualFile
+    zweck: 'Kandidat, 10.4: Jahresrechnung der Akte mit der unterzeichneten Fassung aus M-Files vergleichen (A1-301, A1-305); prüfen, ob die VE vorliegt, unterzeichnet und datiert ist
+      (A1-103)'
+    parameter: query_json {"clientId", "dossierId"} (K1)
+    art: lesen
+  - werkzeug: rv_post_workpapers_AddDetachedAttachement
+    zweck: 'Kandidat: nach dem Upload (K15) Saldenbilanz, Umbuchungsliste, Kundenaufstellung stille Reserven, unterzeichnete Jahresrechnung bzw. VE als lose Beilage des Zielbereichs
+      10.x registrieren; entfällt, wenn die Datei über K15 Schritt 4 schon dort liegt'
+    parameter: 'body_json CreateDetachedAttachementRequest {"areaId": 10.x, "attachementId": aus dem Upload (K15), "fileName": "<M-Files-ID>_v<Version>_<Titel>.pdf", "size"}'
+    art: vorbereiten
+  - werkzeug: rv_get_attachements_GetAttachementMetadata_by_attachementId
+    zweck: Herkunft der Beilage = Mandatskontext prüfen
+    parameter: 'path_params_json {"attachementId": Schritt 2 bzw. 7}'
+    art: lesen
+  - werkzeug: rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea
+    zweck: 'Kandidat: Unterlage aus den losen Beilagen im Bereich 10.x ablegen (Weg wie K8)'
+    parameter: 'body_json MoveDetachedAttachmentsToWorkingAreaRequest {"attachmentIds", "areaId": 10.x, "entityId": Kandidat (offen), "targetSource": EntitySource-Wert (K16)}. StoreContainerDocuments_by_areaId
+      nur als Alternative nach revio_describe_endpoint, bis dahin deny'
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadContainerDocuments_by_areaId
+    zweck: 'Kontrolle der Ablage: neue Unterlage vorhanden, bestehende Dokumente unverändert'
+    parameter: 'path_params_json {"areaId": 10.x}'
+    art: lesen
+  - werkzeug: rv_put_auditActivities_UpdateDossierActivity
+    zweck: Ergebnis ins Textfeld von A1-303, A1-307, A1-308 (Ablauf K6); bei A1-103 nur festhalten, ob die VE vorliegt, unterzeichnet und datiert ist (M-Files-ID) – Besprechen und Unterzeichnenlassen
+      macht der WP
+    parameter: wie K6 Schritt 3
+    art: vorbereiten
+  - werkzeug: rv_put_workpapers_UpdateNote
+    zweck: Differenzen als Pendenz bzw. Wesentliche Feststellung mit Buchungsvorschlag (Ablauf K7); fehlende Unterlagen (z. B. VE fehlt oder ist nicht unterzeichnet, Kundenaufstellung
+      stille Reserven fehlt) als Pendenz «PBC-Vorschlag:» (K8)
+    parameter: wie K7 Schritt 3, areaId = 10.x bzw. A1
+    art: vorbereiten
+  - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
+    zweck: 'Audit Trail: Ablage, Abgleich und Notizen mit Zeitstempel, Quelle (M-Files-ID und Version), Berechnung und Fehlern ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]'
+    parameter: 'path_params_json {"areaId": 10.x bzw. A1}'
+    art: lesen
+  - werkzeug: rv_post_financialStatement_ApplyHiddenReserveItem
+    zweck: 'NICHT durch den Agenten bis Entscheid consis (unklar = deny): stille Reserven erfassen; wirkt vermutlich auf HB II bzw. die ER-Klassifikation in Bereich 1. Ebenso rv_post_financialStatement_ApplyIncomeClassificationItem,
+      rv_post_financialStatement_ReorderHiddenReserveItems, rv_post_financialStatement_ApplyLegacyHiddenReserves, rv_delete_financialStatement_DeleteHiddenReserveItems. Bis dahin: abstimmen,
+      Kundenaufstellung als Beilage, Differenzen als Pendenz'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_post_financialStatement_AppendLedgerAdjustement
+    zweck: 'NICHT durch den Agenten: Umbuchungen erfassen oder verbuchen; ebenso rv_put_financialStatement_UpdateLedgerAdjustement, rv_put_financialStatement_UpdateLedgerAdjustementActiveState,
+      rv_delete_financialStatement_RemoveLedgerAdjustements, rv_post_financialStatement_CreateNewLedgerAdjustementVersion, rv_get_financialStatement_ImportLedgerAdjustments (Kandidat:
+      schreibt trotz GET)'
+    parameter: nur Mensch
+    art: nur_mensch
+  - werkzeug: rv_delete_workpapers_DeleteContainerDocuments_by_areaId
+    zweck: 'NICHT durch den Agenten: Dokumente in 10.x löschen; Status in Bereich 10 (rv_post_workpapers_ProcessAreaState) setzt ebenfalls nur der Mensch'
+    parameter: nur Mensch
+    art: nur_mensch
+  menschliche_freigabe: Lesen frei; Ablage (Schritte 7 und 9), Textfeld (Schritt 11) und Notiz (Schritt 12) mit OpenClaw-Freigabe, nur in Bereich 10 und 4 ^[konzept-ki-revisionsagent-2026__c006-1].
+    Stille Reserven und Umbuchungen erfasst und verbucht nur der Mensch; Buchungsvorschläge nur als Notiz ^[konzept-ki-revisionsagent-2026__c015-1]. Status in Bereich 10 setzt der Mensch
+    ^[konzept-ki-revisionsagent-2026__c008-1]. Die VE bespricht der WP mit dem Kunden und lässt sie unterzeichnen (A1-103); der Agent prüft nur das Vorliegen. Jede Aktion ins M-Files-Protokoll
+    ^[konzept-ki-revisionsagent-2026__c009-3].
+  offene_fragen:
+  - Ist 10.1 Saldenbilanz eine eigene Ablage (Dokument) oder dieselbe Kontenansicht wie in Bereich 1?
+  - Sind 10.1–10.4 Dokumentcontainer (ContainerDocumentKind) wie 10.9? Welche entityId und welcher targetSource gelten für MoveDetachedAttachmentsToWorkingArea?
+  - Darf der Agent stille Reserven erfassen (ApplyHiddenReserveItem u. a.)? Entscheid consis; Umgang mit stillen Reserven ist bereits für C1 offen ^[konzept-ki-revisionsagent-2026__c015-2].
+  - Liefert LoadReportPackagesForAnualFile die Jahresrechnung, und wo liegt die unterzeichnete Fassung (10.4 oder 10.5)?
+  - Wirkt rv_get_financialStatement_ImportLedgerAdjustments schreibend (Import trotz GET)?

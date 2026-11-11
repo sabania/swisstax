@@ -63,7 +63,7 @@ aufgaben:
   prozess: "1"
   phase: p8-agentablauf
   ziel: Definitive Bilanz und Erfolgsrechnung aus M-Files in revio 1.1 übernehmen, Konten zuordnen, Bilanzgleichheit und Totale abstimmen.
-  quelle: konzept-ki-revisionsagent-2026__c011-1
+  quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Definitive Bilanz und ER in M-Files suchen
   regeln: [mandatskontext, rechenmodul, testphase_halt, pendenz]
   checkliste:

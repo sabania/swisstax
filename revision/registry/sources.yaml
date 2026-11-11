@@ -256,7 +256,9 @@
   rang: 4
   titel: 'Seminarunterlagen «Knacknüsse Eingeschränkte Revision» (11-2026): Datenschutz bei der Nutzung von KI (Folien 53–68)'
   format: pdf
-  hinweis: Bildscan, kein Textlayer
+  hinweis: Bildscan ohne Textlayer – wörtliche Abschrift durch Agent (Workflow, Zweitprüfung Wort für Wort gegen die Seitenbilder); im Zweifel Original raw/seminar-ki-datenschutz-2026.pdf prüfen. Enthält
+    Handnotizen (blau/rot) als Anmerkungen.
+  transkript: registry/transkripte/seminar-ki-datenschutz-2026.md
   original: KI Revision für Remo.pdf
   seiten: 8
   raw: raw/seminar-ki-datenschutz-2026.pdf
@@ -288,7 +290,10 @@
   rang: 5
   titel: 'Flussdiagramm KI-Revisionsagent: Gesamtprozess einer eingeschränkten Revision (26.10.2026)'
   format: png
+  hinweis: Bild – wörtliche Abschrift der Beschriftungen und Verbindungen durch Agent (Zweitprüfung gegen das Bild); Original raw/flussdiagramm-revisionsagent-2026.png
+  transkript: registry/transkripte/flussdiagramm-revisionsagent-2026.md
   original: Flussdiagramm_KI-Revisionsagent_Gesamtprozess.png
   raw: raw/flussdiagramm-revisionsagent-2026.png
   sha256: a7a315ac9003783e59e2ab71437f10902e89179084ab145c08276ba923381710
   abgerufen: '2026-11-11'
+  seiten: 1

@@ -82,6 +82,8 @@ def werkzeuge():
     for p in (R / "data" / "revio").glob("*.yaml"):
         txt = p.read_text(encoding="utf-8")
         for n in set(re.findall(r"\b(rv_[A-Za-z0-9_]+|revio_[a-z_]+)\b", txt)):
+            if n in ("revio_template_id", "revio_activity_id", "revio_bereich"):   # Spaltennamen der Vorlage, keine Werkzeuge
+                continue
             if n not in wz:
                 ERR.append(f"{p.relative_to(R)}: unbekanntes Werkzeug {n}")
     kl = R / "data" / "revio" / "werkzeuge.csv"
