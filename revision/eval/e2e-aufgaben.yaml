@@ -6,7 +6,7 @@ vorspann: >-
   Mandat: Fiktive Zahlen AG, Wil SG · Geschäftsjahr 2025 (Stichtag 31.12.2025) · eingeschränkte Revision.
   M-Files ist in diesem Test durch den Ordner mandant/fiktive-zahlen-ag-2025/ ersetzt (Vorjahresakte: mandant/fiktive-zahlen-ag-2024/).
   revio ist nicht verbunden: nenne bei jedem Schritt das revio-Werkzeug, das du aufrufen würdest, statt es aufzurufen.
-  Wesentlichkeit 2025 (revio 3.3, vom WP festgelegt): Gesamtwesentlichkeit CHF 80'000 (Betriebsertrag × 1 %), Toleranzwesentlichkeit CHF 60'000 (75 %), Nichtaufgriffsgrenze CHF 4'000 (5 %).
+  Wesentlichkeit 2025 (revio 3.3, vom WP festgelegt): Gesamtwesentlichkeit CHF 80'000, Toleranzwesentlichkeit CHF 60'000 (75 %), Nichtaufgriffsgrenze CHF 4'000 (5 %).
 faelle:
 - id: e01-start
   bereich: [jahresrechnung]
