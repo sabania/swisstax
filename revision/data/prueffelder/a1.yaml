@@ -1,0 +1,692 @@
+# Prüffeld A1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: A1
+bezeichnung: Allgemeine Prüfungshandlungen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-11'
+  nachpruefung:
+    urteil: null
+    befunde: 0
+    korrigiert: false
+kurzbeschrieb: 'Schlussarbeiten zur Jahresrechnung als Ganzes: Befragung zu Änderungen von Darstellung/Bewertung, Ereignisse nach dem Stichtag, Vollständigkeitserklärung, Gesamtanalytik
+  (Going Concern, GoR, nicht korrigierte Fehler, stille Reserven) sowie formelle Abstimmungen (Unterzeichnung, Vorjahresvortrag, Hauptbuch↔JR, Mindestgliederung, Jahresergebnis↔Antrag,
+  Protokolle, ggf. Geldflussrechnung).'
+gesetz:
+- thema: Zweck der Rechnungslegung (zuverlässiges Urteil Dritter)
+  quelle: or__art-958
+  zitat: Die Rechnungslegung soll die wirtschaftliche Lage des Unternehmens so darstellen, dass sich Dritte ein zuverlässiges Urteil bilden können.
+- thema: Bestandteile der Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang)
+  quelle: or__art-958
+  zitat: Dieser enthält die Jahresrechnung (Einzelabschluss), die sich aus der Bilanz, der Erfolgsrechnung und dem Anhang zusammensetzt.
+- thema: Frist 6 Monate für Erstellung/Vorlage Geschäftsbericht
+  quelle: or__art-958
+  zitat: Der Geschäftsbericht muss innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt und dem zuständigen Organ oder den zuständigen Personen zur Genehmigung vorgelegt
+    werden.
+- thema: Unterzeichnung durch VR-Präsident und Verantwortliche/n Rechnungslegung
+  quelle: or__art-958
+  zitat: Er ist vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person zu unterzeichnen.
+- thema: Fortführungsannahme (Going Concern)
+  quelle: or__art-958a
+  zitat: Die Rechnungslegung beruht auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird.
+- thema: Abweichung von der Fortführung im Anhang
+  quelle: or__art-958a
+  zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken; ihr Einfluss auf die wirtschaftliche Lage ist darzulegen.
+- thema: Zeitliche und sachliche Abgrenzung
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Grundsätze ordnungsmässiger Rechnungslegung – Stetigkeit
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Verrechnungsverbot
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Anpassung an Besonderheiten Unternehmen/Branche
+  quelle: or__art-958c
+  zitat: Die Rechnungslegung ist unter Wahrung des gesetzlichen Mindestinhalts den Besonderheiten des Unternehmens und der Branche anzupassen.
+- thema: Vorjahreszahlen
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- thema: Mindestgliederung Bilanz – Aktiven
+  quelle: or__art-959a-t1
+  zitat: Unter den Aktiven müssen ihrem Liquiditätsgrad entsprechend mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- thema: Mindestgliederung Bilanz – Passiven
+  quelle: or__art-959a-t1
+  zitat: Unter den Passiven müssen ihrer Fälligkeit entsprechend mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- thema: Zusätzliche Bilanzpositionen / Nahestehende gesondert
+  quelle: or__art-959a-t2
+  zitat: Weitere Positionen müssen in der Bilanz oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Vermögens- oder Finanzierungslage durch Dritte wesentlich
+- thema: 'Erfolgsrechnung: Produktions- oder Absatzerfolgsrechnung'
+  quelle: or__art-959b-t1
+  zitat: Sie kann als Produktionserfolgsrechnung oder als Absatzerfolgsrechnung dargestellt werden.
+- thema: Zusätzliche Positionen Erfolgsrechnung
+  quelle: or__art-959b-t2
+  zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: wesentliche Ereignisse nach dem Bilanzstichtag (Art. 959c Abs. 2 Ziff. 13 OR)'
+  quelle: or__art-959c-t2
+  zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+- thema: 'Zwischenabschluss: Vereinfachungen/Verkürzungen'
+  quelle: or__art-960f
+  zitat: Vereinfachungen oder Verkürzungen sind zulässig, sofern keine Beeinträchtigung der Darstellung des Geschäftsgangs entsteht.
+- thema: 'Zwischendividende: Prüfung Zwischenabschluss durch Revisionsstelle'
+  quelle: or__art-675a
+  zitat: Die Revisionsstelle muss den Zwischenabschluss vor dem Beschluss der Generalversammlung prüfen.
+- thema: Geldflussrechnung nur für Unternehmen mit ordentlicher Revisionspflicht
+  quelle: or__art-961
+  zitat: als Teil der Jahresrechnung eine Geldflussrechnung erstellen
+- thema: Mindestinhalt Geldflussrechnung
+  quelle: or__art-961b
+  zitat: Die Geldflussrechnung stellt die Veränderung der flüssigen Mittel aus der Geschäftstätigkeit, der Investitionstätigkeit und der Finanzierungstätigkeit je gesondert dar.
+- thema: 'GV: Genehmigung Jahresrechnung und Verwendung Bilanzgewinn'
+  quelle: or__art-698
+  zitat: die Genehmigung der Jahresrechnung sowie die Beschlussfassung über die Verwendung des Bilanzgewinnes
+- thema: 'GV: Wahl der Revisionsstelle'
+  quelle: or__art-698
+  zitat: die Wahl der Mitglieder des Verwaltungsrates und der Revisionsstelle
+- thema: Ordentliche GV innert 6 Monaten
+  quelle: or__art-699
+  zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
+- thema: Gegenstand der eingeschränkten Revision
+  quelle: or__art-729a
+  zitat: die Jahresrechnung nicht den gesetzlichen Vorschriften und den Statuten entspricht
+- thema: Prüfungshandlungen der eingeschränkten Revision
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- thema: Auskunftspflicht VR (Grundlage Vollständigkeitserklärung)
+  quelle: or__art-730b
+  zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
+- thema: Kapitalverlust
+  quelle: or__art-725a
+  zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+- thema: Überschuldung
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+risiken:
+- text: Jahresrechnung unvollständig oder Mindestgliederung (Art. 959a/959b OR) nicht eingehalten.
+  pruefziele:
+  - DO
+  quelle: hwp-er-2026__rz-0377-s269
+  zitat: die Bestimmungen über die Mindestgliederung nicht eingehalten sind (Art. 959a und 959b OR)
+- text: Anhang enthält vorgeschriebene Angaben nicht vollständig/richtig (z.B. Grundsätze, Ereignisse nach Stichtag, Nettoauflösung stiller Reserven).
+  pruefziele:
+  - DO
+  - VO
+  quelle: hwp-er-2026__rz-0377-s269
+  zitat: der Anhang die vorgeschriebenen Angaben nicht vollständig und nicht richtig enthält (Art. 959c OR)
+- text: Fortführungsannahme nicht vertretbar oder Unsicherheiten/Abweichungen nicht im Anhang vermerkt.
+  pruefziele:
+  - BE
+  - DO
+  quelle: or__art-958a
+  zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken; ihr Einfluss auf die wirtschaftliche Lage ist darzulegen.
+- text: Änderung von Darstellung oder Bewertungsmethode (Stetigkeit) ohne Begründung im Anhang.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0059-s070
+  zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden
+- text: Wesentliche Nettoauflösung stiller Reserven schönt das Ergebnis und ist nicht offengelegt.
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: Wird das erwirtschaftete Ergebnis durch die Auflösung der stillen Reserven wesentlich günstiger dargestellt, ist der Nettobetrag aus Reservenauflösung im Anhang offenzulegen
+- text: Eröffnungsbilanzwerte stimmen nicht mit der geprüften Vorjahresrechnung überein oder enthalten wesentliche Fehlaussagen.
+  pruefziele:
+  - VO
+  - RI
+  - DO
+  quelle: hwp-er-2026__rz-0147-s208
+  zitat: Diese Übereinstimmung von Schluss- und Eröffnungsbilanzwerten verifiziert der Abschlussprüfer.
+- text: Nicht korrigierte Fehlaussagen sind einzeln oder kumuliert wesentlich.
+  pruefziele:
+  - RI
+  quelle: hwp-er-2026__rz-0054-s189
+  zitat: Werden keine Korrekturen vorgenommen, beurteilt der Abschlussprüfer, ob die Jahresrechnung dadurch wesentlich falsch dargestellt ist.
+- text: Wesentliche Ereignisse nach dem Bilanzstichtag nicht gebucht (Ursache vor Stichtag) bzw. nicht im Anhang offengelegt.
+  pruefziele:
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+- text: Jahresergebnis in ER, Eigenkapital und Gewinnverwendungsantrag nicht übereinstimmend oder Antrag nicht gesetzeskonform.
+  pruefziele:
+  - DO
+  - RI
+  quelle: hwp-er-2026__rz-0439-s284
+  zitat: Insbesondere ist zu prüfen, ob die Zuweisungen an die gesetzliche Gewinnreserve richtig erfolgen
+- text: 'Formelle Mängel: Jahresrechnung nicht unterzeichnet bzw. Geschäftsbericht nicht fristgerecht zur Genehmigung vorgelegt.'
+  pruefziele:
+  - DO
+  quelle: hwp-er-2026__rz-0425-s280-t2
+  zitat: Nichteinhaltung der gesetzlichen Vorlagepflicht des Geschäftsberichts zur Genehmigung durch das zuständige Organ
+unterlagen:
+- dokument: Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) rechtsgültig unterzeichnet
+  zweck: A1-301, A1-305/306; Bestandteil der Jahresakten
+  quelle: ser-2022__7-2
+  zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+- dokument: Vollständigkeitserklärung (an Revisionsstelle adressiert, datiert, unterzeichnet)
+  zweck: A1-103; schriftliche Bestätigung der Unternehmensleitung
+  quelle: ser-2022__anh-e-s102-1
+  zitat: die Vollständigkeitserklärung zu datieren und zu unterzeichnen
+- dokument: Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres
+  zweck: A1-302 Abstimmung Vortrag Vorjahresbestände
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres (geprüfte Jahresrechnung, falls vorhanden)
+- dokument: Saldoliste / Hauptbuch per Bilanzstichtag (Bilanz und Erfolgsrechnung mit Vorjahr)
+  zweck: A1-201, A1-303 Abstimmung Hauptbuch mit Jahresrechnung
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+- dokument: Protokolle GV und VR (Geschäftsjahr und bis Prüfungsdatum)
+  zweck: A1-304; Sachverhalte mit Auswirkung auf die Jahresrechnung
+  quelle: ser-2022__anh-d-s073-1
+  zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+- dokument: Antrag des VR über die Verwendung des Bilanzgewinns/-verlusts
+  zweck: A1-305, A1-307
+  quelle: hwp-er-2026__rz-0439-s284
+  zitat: prüft die Revisionsstelle den Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinns
+- dokument: Detailnachweis stille Reserven (Bestand je Position per 31.12. und Vorjahr)
+  zweck: A1-207, A1-308
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: 'Einschätzung Fortführungsfähigkeit: Budget, Liquiditätsplanung, Finanzierungszusagen'
+  zweck: A1-205 Going Concern
+  quelle: ser-2022__anh-g-s140-2
+  zitat: Analyse und Diskussion mit der Unternehmensleitung über geplante Cashflows, Gewinne und andere wichtige Kennzahlen
+- dokument: Statuten, Handelsregisterauszug (Organe, Zeichnungsberechtigung, Revisionsstelle)
+  zweck: A1-301, A1-304, A1-305 (statutarische Bestandteile)
+  quelle: hwp-er-2026__rz-0365-s266
+  zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
+- dokument: Buchungen/Kontoblätter der Folgeperiode und Informationen zu Ereignissen nach dem Bilanzstichtag
+  zweck: A1-102
+  quelle: ser-2022__8-6
+  zitat: Dies schliesst Prüfungshandlungen bezüglich Ereignissen ein, die bis zum Berichtsdatum eingetreten sind.
+- dokument: Zwischenabschluss und Beschluss Zwischendividende (falls vorhanden)
+  zweck: A1-208
+  quelle: or__art-960f
+  zitat: Es sind mindestens die Überschriften und Zwischensummen auszuweisen, die in der letzten Jahresrechnung enthalten sind.
+- dokument: Geldflussrechnung inkl. Fondsnachweis und Anlagespiegel (nur falls erstellt/vorgeschrieben)
+  zweck: A1-401, A1-402
+  quelle: hwp-bur-2023__rz-0802-s333
+  zitat: 'Bei grösseren Unternehmen besteht die Jahresrechnung somit aus vier Teilen: Bilanz, Erfolgsrechnung, Geldflussrechnung und Anhang.'
+bewertung:
+- regel: Grundsätze ordnungsmässiger Rechnungslegung gelten für alle Teile der Jahresrechnung; Stetigkeit in Darstellung und Bewertung.
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- regel: Methodenwechsel nur begründet, mit Darlegung im Anhang; Schätzungsänderungen sind davon zu unterscheiden.
+  quelle: hwp-bur-2023__rz-0061-s070
+  zitat: Von Änderungen der Bewertungsgrundsätze und -methoden zu unterscheiden sind Anpassungen aufgrund von Schätzungsänderungen.
+- regel: 'Bei beabsichtigter oder nicht abwendbarer Einstellung innert 12 Monaten: Veräusserungswerte für betroffene Teile.'
+  quelle: or__art-958a
+  zitat: so sind der Rechnungslegung für die betreffenden Unternehmensteile Veräusserungswerte zugrunde zu legen
+- regel: 'Stille Reserven: jährlich per Stichtag je Bilanzposition nach stetiger Methode ermitteln und mit Vorjahr vergleichen.'
+  quelle: hwp-bur-2023__rz-0671-s297
+  zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
+- regel: Offenlegung nur des Nettobetrags der Auflösung stiller Reserven, als Gesamtbetrag, wenn das Ergebnis wesentlich günstiger dargestellt wird.
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
+- regel: 'Ereignisse nach dem Stichtag: Ursache vor Stichtag → buchen; Ursache nach Stichtag → Anhang (Art und Schätzung der Auswirkung).'
+  quelle: hwp-bur-2023__rz-0860-s353
+  zitat: Es sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen offenzulegen.
+- regel: Vorjahreszahlen sind in Bilanz und Erfolgsrechnung anzugeben.
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- regel: 'Zwischenabschluss: mindestens Überschriften und Zwischensummen der letzten Jahresrechnung; keine Beeinträchtigung der Darstellung des Geschäftsgangs.'
+  quelle: hwp-bur-2023__rz-0249-s121
+  zitat: Insgesamt darf durch Vereinfachungen und Verkürzungen keine Beeinträchtigung der Darstellung des Geschäftsgangs entstehen.
+- regel: 'Geldflussrechnung: Fonds sind die flüssigen Mittel; Fonds «Netto Flüssige Mittel» in der Praxis vertretbar bei Offenlegung der Bestandteile.'
+  quelle: hwp-bur-2023__rz-0803-s333
+  zitat: Die Bezugsgrösse der Geldflussrechnung (sog. Fonds) bilden die flüssigen Mittel
+- regel: 'Geldfluss aus Geschäftstätigkeit nach indirekter Methode: Jahresergebnis um nicht liquiditätswirksame Vorgänge bereinigen.'
+  quelle: hwp-bur-2023__rz-0805-s333
+  zitat: Bei der indirekten Methode werden zum Jahresergebnis die nicht liquiditätswirksamen Geschäftsvorfälle hinzugefügt bzw. in Abzug gebracht.
+fallstricke:
+- text: Die Vollständigkeitserklärung ersetzt keine Prüfungsnachweise; wesentliche Positionen nicht allein darauf abstützen.
+  quelle: hwp-er-2026__rz-0338-s259
+  zitat: dass die Vollständigkeitserklärung kein Ersatz für Prüfungsnachweise ist
+- text: Verweigert die Unternehmensleitung eine notwendige Erklärung, liegt eine Beschränkung des Prüfungsumfangs vor (Entscheid WP).
+  quelle: hwp-er-2026__rz-0341-s260
+  zitat: Eine Weigerung der Unternehmensleitung, eine nach Auffassung des Abschlussprüfers notwendige Erklärung abzugeben, führt zu einer Beschränkung des Prüfungsumfangs.
+- text: Datum der Vollständigkeitserklärung = Datum Revisionsbericht; Bericht frühestens auf Datum der Unterzeichnung/Genehmigung der Jahresrechnung.
+  quelle: ser-2022__anh-e-s102-1
+  zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+- text: Ereignisse nach dem Bilanzstichtag sind bis zum Berichtsdatum zu berücksichtigen, nicht nur bis zum Abschluss der Feldarbeit.
+  quelle: ser-2022__8-6
+  zitat: Dies schliesst Prüfungshandlungen bezüglich Ereignissen ein, die bis zum Berichtsdatum eingetreten sind.
+- text: 'Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten und im Bericht anmerken.'
+  quelle: ser-2022__6-2-7
+  zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
+- text: Analytik in kleinen Verhältnissen ist durch Bildung/Auflösung stiller Reserven verzerrt; Zahlen vor Vergleich bereinigen.
+  quelle: hwp-er-2026__rz-0110-s199
+  zitat: dass in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+- text: 'Wesentlichkeit der Nettoauflösung nicht nur relativ beurteilen: kippt das Ergebnis von Verlust zu Gewinn, ist sie regelmässig wesentlich.'
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: Die relative Höhe der Auflösung, z.B. im Verhältnis zum Jahresergebnis, ist insbesondere dann nicht allein ausschlaggebend
+- text: Auch kleine Fehler können wesentlich sein, wenn sie Gewinn in Verlust verwandeln.
+  quelle: hwp-er-2026__rz-0044-s186
+  zitat: Selbst ein geringer Fehler, der den ausgewiesenen Gewinn zu einem Verlust werden lässt, kann wesentlich sein.
+- text: Geldflussrechnung ist bei eingeschränkter Revision in der Regel kein Prüfungsgegenstand; nur gesetzlich/statutarisch/nach Standard verlangte Teile gehören in die geprüfte Jahresrechnung.
+  quelle: hwp-er-2026__rz-0365-s266
+  zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
+- text: 'Negatives oder hälftig nicht mehr gedecktes Eigenkapital: Kapitalverlust/Überschuldung (Art. 725a/725b OR) mit Going Concern und Prüffeld Eigenkapital verknüpfen; Beurteilung
+    durch WP.'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+- text: Protokolle nur auf Auswirkungen auf Jahresrechnung/Antrag lesen; die Geschäftsführung des VR ist nicht Prüfungsgegenstand.
+  quelle: or__art-729a
+  zitat: Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.
+- text: 'Befragungsschritte (1xx) kann der Agent nicht selbst führen: nur schriftliche Antworten auswerten, sonst Pendenz; VE nie selbst «unterzeichnen lassen», Visum bleibt beim WP.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- text: Gesamtbeurteilung, Wesentlichkeitsurteil und Auswirkung auf die Prüfungsaussage (A1-2xx) sind Ermessensentscheide des WP; der Agent liefert nur Analysen und Hinweise.
+fragen_kunde:
+- frage: 'Wurden gegenüber dem Vorjahr die Darstellung (Gliederung, Bezeichnungen, Kontenzuordnung) oder Bewertungsgrundsätze/-methoden (z.B. Abschreibungsmethode, Vorrats- oder Auftragsbewertung)
+    geändert? Falls ja: warum, und wo im Anhang dargelegt?'
+  zweck: A1-101 Stetigkeit; Pendenz bis schriftliche Antwort vorliegt
+- frage: Welche wesentlichen positiven oder negativen Ereignisse sind seit dem Bilanzstichtag eingetreten (z.B. Verluste, Rechtsfälle, Finanzierung, Grossaufträge, Kapitalmassnahmen)
+    und wie wurden sie gebucht bzw. im Anhang offengelegt?
+  zweck: A1-102 Ereignisse nach dem Bilanzstichtag
+- frage: Wer unterzeichnet Jahresrechnung und Vollständigkeitserklärung, an welchem Datum wird die Jahresrechnung durch den VR genehmigt, und sind mandatsspezifische Ergänzungen der
+    Vollständigkeitserklärung nötig?
+  zweck: A1-103, A1-301; Berichtsdatum
+- frage: Wie beurteilt die Unternehmensleitung die Fortführungsfähigkeit für mindestens zwölf Monate ab Bilanzstichtag (Budget, Liquiditätsplanung, Kreditlimiten, Rangrücktritte, Massnahmen)?
+  zweck: A1-205 Going Concern
+- frage: Gab es im Geschäftsjahr wesentliche Veränderungen in Tätigkeit und Umfeld (Produkte, Kunden, Personalbestand, Standorte, Finanzierung), welche die Veränderungen in Bilanz und
+    Erfolgsrechnung erklären?
+  zweck: A1-201 Gesamtanalytik
+- frage: Nach welcher Methode werden die stillen Reserven ermittelt (gleich wie Vorjahr?), wie hoch sind Bestand und Veränderung, und wurden netto stille Reserven aufgelöst?
+  zweck: A1-207, A1-308
+- frage: 'Ist die Unternehmensleitung bereit, die mitgeteilten Fehlaussagen (Zusammenstellung) zu korrigieren? Falls nein: Begründung.'
+  zweck: A1-203 nicht korrigierte Fehler; Schlussbesprechung
+- frage: Liegen alle Protokolle der GV und der VR-Sitzungen des Geschäftsjahres und bis heute vor (inkl. Zirkularbeschlüsse)?
+  zweck: A1-304
+- frage: Wurde im Geschäftsjahr ein Zwischenabschluss für eine Zwischendividende erstellt oder ist eine Zwischendividende geplant?
+  zweck: A1-208
+- frage: Wird eine Geldflussrechnung erstellt (gesetzlich, statutarisch, auf Verlangen von Kreditgebern oder freiwillig) und welcher Fonds wird verwendet?
+  zweck: A1-305, A1-401, A1-402 Anwendbarkeit
+testakte_2025:
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Prüfgegenstand für A1-101 (Anhang Ziff. 1 Grundsätze, Ziff. 4 Bewertung), A1-102 (Anhang Ziff. 6 Ereignisse nach dem Bilanzstichtag), A1-201/202/204/205/206/207, A1-301 (Unterschriftsblock
+    S. 7), A1-303, A1-305, A1-306 (Gliederung Bilanz/ER), A1-307 (Jahresergebnis in ER und EK)
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: A1-201 Vorjahresvergleich (Spalten 31.12.2025/31.12.2024/Veränderung, Blätter Bilanz und ER), A1-206, A1-302 (Vorjahressaldi), A1-303 (Konto→Position, Total Aktiven/Passiven)
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'A1-302 (Blatt «Inhalt»: Eröffnung und Schlusssaldo je Bilanzkonto), A1-303 (Schlusssalden), A1-307 (Konten 2970/2979)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'A1-201 (Tätigkeit, Umfeld, Mitarbeitende), A1-301/A1-304 (Organe: VR-Präsident, Leitung Finanzen), A1-401/402 (Revisionsart für Anwendbarkeit Geldflussrechnung)'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: A1-102 Ereignisse/Buchungen nach dem Bilanzstichtag
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: Übersicht vorhandener PBC-Unterlagen; Abgleich für A1-103 (VE), A1-302 (Vorjahres-JR), A1-304 (Protokolle), A1-308 (Nachweis stille Reserven) – fehlende Unterlagen als Pendenz
+- datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
+  bezug: A1-304 (Genehmigung JR Vorjahr, Verwendung Bilanzverlust Vorjahr, Wahlen), A1-302 (Gewinnverwendung Vorjahr im Eigenkapital)
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: A1-304 (Kapitalmassnahme mit Auswirkung auf JR), A1-205
+- datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
+  bezug: A1-305 (Antrag vorhanden), A1-307 (Abstimmung Jahresergebnis/Bilanzergebnis mit JR)
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
+  bezug: A1-205 Going Concern/Überschuldung (ebenso Rangruecktritt_Aktionaer_B.md und _D.md)
+schritte:
+- id: A1-101
+  vorgehen: 'Agent befragt nicht selbst: Frage zu Änderungen von Darstellung und Bewertungsgrundsätzen als Pendenz an den Kunden. Vorab Gliederung, Positionsbezeichnungen und Anhang
+    (Grundsätze, Bewertung) der aktuellen JR mit der Vorjahres-JR vergleichen und Abweichungen auflisten. Schriftliche Antwort und Vergleich im Textfeld dokumentieren; Status höchstens
+    «teilweise bearbeitet».'
+  nachweise:
+  - Jahresrechnung inkl. Anhang laufendes Jahr
+  - Jahresrechnung Vorjahr
+  - schriftliche Antwort der Unternehmensleitung
+  rechnen: ''
+  feststellung_wenn: Darstellung oder Bewertungsmethode geändert, ohne Begründung/Darlegung im Anhang, oder Vorjahreszahlen dadurch nicht vergleichbar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-1
+    zitat: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze
+  - quelle: hwp-bur-2023__rz-0059-s070
+    zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden
+- id: A1-102
+  vorgehen: Schriftliche Antworten zu Ereignissen nach dem Bilanzstichtag (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten. Prüfen, ob Ereignisse
+    mit Ursache vor dem Stichtag gebucht und übrige wesentliche Ereignisse im Anhang mit Art und geschätzter Auswirkung offengelegt sind. Fehlende Antwort als Pendenz.
+  nachweise:
+  - Anhang (Ereignisse nach dem Bilanzstichtag)
+  - Kontoblätter/Journale Folgeperiode
+  - Protokolle nach Stichtag
+  - Vollständigkeitserklärung
+  rechnen: ''
+  feststellung_wenn: Wesentliches Ereignis nach dem Stichtag weder gebucht (Ursache vor Stichtag) noch im Anhang offengelegt bzw. ohne Angabe der finanziellen Auswirkung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s100-1
+    zitat: Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offengelegt?
+  - quelle: or__art-959c-t2
+    zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+  - quelle: hwp-bur-2023__rz-0861-s353
+    zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+- id: A1-103
+  vorgehen: 'VE-Entwurf nach SER Anhang E vorbereiten (an Revisionsstelle adressiert; mandatsspezifische Punkte z.B. Fortführung, Ereignisse nach Stichtag, Nahestehende) und als Pendenz
+    zur Besprechung/Unterzeichnung erfassen. Unterzeichnete VE in M-Files suchen; prüfen: datiert auf Berichtsdatum, unterzeichnet von denselben Personen wie die JR. Besprechung führt
+    der WP.'
+  nachweise:
+  - Vollständigkeitserklärung (unterzeichnet, datiert)
+  - unterzeichnete Jahresrechnung
+  rechnen: ''
+  feststellung_wenn: VE fehlt, ist nicht unterzeichnet/datiert, Datum weicht vom Berichtsdatum ab oder die Unternehmensleitung verweigert eine notwendige Erklärung.
+  fundstellen:
+  - quelle: ser-2022__6-2-5
+    zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung sowie die Richtigkeit und Vollständigkeit der erteilten Auskünfte
+  - quelle: ser-2022__anh-e-s102-1
+    zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+  - quelle: hwp-er-2026__rz-0341-s260
+    zitat: Eine Weigerung der Unternehmensleitung, eine nach Auffassung des Abschlussprüfers notwendige Erklärung abzugeben, führt zu einer Beschränkung des Prüfungsumfangs.
+  - quelle: or__art-730b
+    zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
+- id: A1-201
+  vorgehen: Saldoliste Bilanz/ER mit Vorjahr vergleichen (absolute und relative Veränderungen, Kennzahlen wie Bruttomarge, Personalaufwand/Ertrag, Eigenkapitalquote, Liquidität) und
+    mit den Kenntnissen zu Tätigkeit und Umfeld (Dauerakten, Planung) abgleichen. Unerklärte wesentliche Abweichungen im Textfeld auflisten und als Frage/Pendenz erfassen; Gesamturteil
+    beim WP.
+  nachweise:
+  - Saldoliste Bilanz und ER (Geschäftsjahr/Vorjahr)
+  - Jahresrechnung
+  - Unternehmensinformationen/Dauerakten
+  - Planungsunterlagen
+  rechnen: Veränderung je Position = Saldo GJ − Saldo VJ; Veränderung % = Veränderung / |Saldo VJ|; Kennzahlen GJ vs. VJ (z.B. Personalaufwand / Betriebsertrag, Eigenkapital / Bilanzsumme)
+  feststellung_wenn: Wesentliche Veränderung oder Kennzahl ist mit dem Verständnis von Tätigkeit und Umfeld nicht erklärbar und durch die Prüfung der Einzelpositionen nicht abgedeckt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-1
+    zitat: Entspricht die Jahresrechnung dem Verständnis des Abschlussprüfers von der Tätigkeit und dem Umfeld des Unternehmens?
+  - quelle: ser-2022__6-2-4
+    zitat: ob die Jahresrechnung als Ganzes seinen Kenntnissen über Tätigkeit und Umfeld des Unternehmens entspricht
+- id: A1-202
+  vorgehen: Ergebnisse, Wesentliche Feststellungen und Pendenzen aller Prüffelder zusammentragen und der Gesamtanalytik (A1-201) gegenüberstellen. Widersprüche (Position unauffällig
+    geprüft, Gesamtbild auffällig) markieren; Hinweise auf bisher unerkannte Risiken als Pendenz für zusätzliche Prüfungshandlungen festhalten.
+  nachweise:
+  - Ergebnisse der Prüffelder in revio
+  - Notizen (Pendenzen, Wesentliche Feststellungen)
+  - Gesamtanalytik A1-201
+  rechnen: ''
+  feststellung_wenn: Abschliessende Analytik zeigt ein vorher unerkanntes Risiko einer wesentlichen Fehlaussage oder widerspricht Schlussfolgerungen einzelner Prüffelder.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-1
+    zitat: Werden die zuvor aus der Prüfung einzelner Positionen gezogenen Schlüsse erhärtet?
+  - quelle: ser-2022__6-2-4
+    zitat: Die Schlussfolgerungen sollen jene Prüfungsfeststellungen erhärten, die zuvor aus der Prüfung einzelner Teile der Jahresrechnung gezogen wurden.
+  - quelle: hwp-er-2026__rz-0269-s245
+    zitat: Die analytischen Prüfungshandlungen können in der Phase der abschliessenden Durchsicht der Jahresrechnung ein vorher unerkanntes Risiko einer wesentlichen Fehlaussage aufzeigen.
+- id: A1-203
+  vorgehen: Alle Fehlaussagen über der Nichtaufgriffsgrenze aus den Prüffeldern (Wesentliche Feststellungen) in einer Zusammenstellung mit Wirkung auf Ergebnis, Eigenkapital und Bilanzsumme
+    kumulieren und mit der Gesamtwesentlichkeit vergleichen. Korrekturvorschläge und Information der Unternehmensleitung als Schlussbesprechungs-Notiz vorbereiten; Auswirkung auf den
+    Bericht beurteilt der WP.
+  nachweise:
+  - Zusammenstellung der Fehlaussagen
+  - Wesentlichkeitsberechnung aus der Planung
+  - Notizen Wesentliche Feststellungen
+  rechnen: Summe nicht korrigierter Fehlaussagen (Ergebnis- und EK-Wirkung) einzeln und kumuliert; Vergleich mit Gesamtwesentlichkeit und Nichtaufgriffsgrenze; Prüfung Vorzeichenwechsel
+    Gewinn/Verlust
+  feststellung_wenn: Einzelne oder kumulierte nicht korrigierte Fehlaussagen erreichen die Wesentlichkeit oder verwandeln z.B. einen Gewinn in einen Verlust.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Beurteilung der Auswirkung nicht korrigierter Fehler – sowohl einzeln als auch zusammengenommen.
+  - quelle: ser-2022__5-3
+    zitat: Während der Prüfung festgestellte Fehlaussagen werden laufend in einer Zusammenstellung nachgeführt
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
+  - quelle: hwp-er-2026__rz-0054-s189
+    zitat: Werden keine Korrekturen vorgenommen, beurteilt der Abschlussprüfer, ob die Jahresrechnung dadurch wesentlich falsch dargestellt ist.
+- id: A1-204
+  vorgehen: 'Checkliste Art. 958a–958d OR anhand JR, Anhang und Saldoliste abarbeiten: Fortführung, zeitliche/sachliche Abgrenzung, Klarheit, Vollständigkeit, Verlässlichkeit, Wesentlichkeit,
+    Vorsicht, Stetigkeit, Verrechnungsverbot, Vorjahreszahlen, Währung, Sprache. Je Grundsatz Ergebnis mit Fundstelle im Textfeld; Hinweise auf Verstösse mit Konto/Betrag.'
+  nachweise:
+  - Jahresrechnung inkl. Anhang
+  - Saldoliste
+  - Kontenplan
+  rechnen: Konten mit Gegensaldo innerhalb einer Position auflisten (Aktivkonto mit Habensaldo, Passivkonto mit Sollsaldo) als Indiz für Verrechnung
+  feststellung_wenn: Verstoss gegen Grundlage oder Grundsatz mit wesentlichem Einfluss (z.B. Verrechnung, fehlende Vorjahreszahlen, fehlende Abgrenzung, nicht stetige Darstellung).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Sind die Grundsätze ordnungsmässiger Rechnungslegung gemäss Art. 958c OR eingehalten?
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Sind die Bestimmungen von Art. 958d OR eingehalten?
+  - quelle: hwp-er-2026__rz-0386-s270-t1
+    zitat: neben den Grundlagen der Rechnungslegung (Annahme der Fortführung, zeitliche und sachliche Abgrenzung)
+  - quelle: hwp-er-2026__rz-0386-s270-t1
+    zitat: Verstösse gegen diese Rechnungslegungsvorschriften mit wesentlichem Einfluss auf die Jahresrechnung führen zu einer modifizierten Prüfungsaussage.
+- id: A1-205
+  vorgehen: Indikatoren aus JR/Saldoliste auswerten (Jahresverlust, negatives oder hälftig ungedecktes EK, Liquidität, Fälligkeiten, Rangrücktritte). Einschätzung der Unternehmensleitung
+    (Budget, Liquiditätsplan ≥ 12 Monate) in M-Files suchen, sonst Pendenz. Anhangsangaben zu Fortführung/Unsicherheiten prüfen. Kapitalverlust/Überschuldung als Wesentliche Feststellung
+    an WP.
+  nachweise:
+  - Jahresrechnung inkl. Anhang
+  - Saldoliste
+  - Budget/Liquiditätsplanung
+  - Rangrücktrittserklärungen
+  - Protokolle VR/GV
+  - Vollständigkeitserklärung
+  rechnen: 'Kapitalverlust: (Aktiven − Verbindlichkeiten) < 50 % × (Aktienkapital + nicht rückzahlbare gesetzliche Kapitalreserve + gesetzliche Gewinnreserve); Überschuldungsindiz: Aktiven
+    < Verbindlichkeiten; EK-Quote = Eigenkapital / Bilanzsumme'
+  feststellung_wenn: Hinweise auf erhebliche Zweifel an der Fortführung, Kapitalverlust oder begründete Besorgnis einer Überschuldung, oder fehlende/ungenügende Anhangsangaben zu wesentlichen
+    Unsicherheiten.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-1
+    zitat: Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird
+  - quelle: hwp-er-2026__rz-0187-s223
+    zitat: Der Abschlussprüfer hat zu beurteilen, ob die Einschätzung der Unternehmensleitung mit der Prämisse der Fortführung der Unternehmenstätigkeit zu vereinbaren ist
+  - quelle: ser-2022__anh-g-s140-1
+    zitat: Liegt keine Einschätzung der Unternehmensleitung zur Fortführungsfähigkeit vor, bespricht der Abschlussprüfer mit der Unternehmensleitung die Gründe
+  - quelle: or__art-725a
+    zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+- id: A1-206
+  vorgehen: Saldoliste auf wesentliche Konten prüfen, die in Sammelpositionen aufgehen, und Bilanz/ER/Anhang auf gesondert auszuweisende Positionen (u.a. Forderungen/Verbindlichkeiten
+    gegenüber Beteiligten und Organen, ausserordentliche/periodenfremde Posten, branchenübliche Positionen). Fehlende Ausweise mit Konto und Betrag im Textfeld.
+  nachweise:
+  - Saldoliste
+  - Jahresrechnung inkl. Anhang
+  - Verträge mit Nahestehenden
+  rechnen: Anteil Konto bzw. Sammelposition an Bilanzsumme oder Betriebsertrag als Wesentlichkeitsindiz
+  feststellung_wenn: Wesentliche Position (z.B. Nahestehende, Darlehen, ausserordentliche Posten) weder in Bilanz/ER noch im Anhang gesondert ausgewiesen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Werden die für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen
+  - quelle: or__art-959a-t2
+    zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+  - quelle: or__art-959b-t2
+    zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+- id: A1-207
+  vorgehen: 'Aus den Prüffeldern Hinweise auf Bildung/Auflösung stiller Reserven sammeln (Wertberichtigungen, Abschreibungen über betriebswirtschaftlichem Mass, Rückstellungen) und Veränderung
+    zum Vorjahr plausibilisieren. Bei Nettoauflösung mit bereinigtem Jahresergebnis vergleichen und Anhangsangabe prüfen. Methode unklar: Pendenz.'
+  nachweise:
+  - Ergebnisse Prüffelder (Vorräte, Anlagen, Rückstellungen, Delkredere)
+  - Nachweis stille Reserven
+  - Anhang
+  rechnen: 'Nettoveränderung stille Reserven = Σ Bestand GJ − Σ Bestand VJ; bei Abnahme: Nettoauflösung / bereinigtes Jahresergebnis; Ergebnis vor Auflösung (Gewinn/Verlust) vs. nach
+    Auflösung'
+  feststellung_wenn: Wesentliche Nettoauflösung stiller Reserven ohne Offenlegung im Anhang oder Auflösung führt zu Gewinn statt Verlust ohne Angabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Plausibilisierung von Bestand und Veränderungen der stillen Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Bilanzpositionen
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+  - quelle: hwp-bur-2023__rz-0675-s298
+    zitat: Wird das erwirtschaftete Ergebnis durch die Auflösung der stillen Reserven wesentlich günstiger dargestellt, ist der Nettobetrag aus Reservenauflösung im Anhang offenzulegen
+- id: A1-208
+  vorgehen: 'Nur relevant bei Zwischenabschluss für eine Zwischendividende (Protokolle, Antrag VR prüfen); sonst «nicht anwendbar» mit Begründung. Falls vorhanden: Bezeichnung als Zwischenabschluss,
+    Überschriften/Zwischensummen der letzten JR, Anhangsangaben (Zweck, Vereinfachungen, Abweichungen) und Unterzeichnung prüfen.'
+  nachweise:
+  - Zwischenabschluss
+  - GV-Beschluss Zwischendividende
+  - letzte genehmigte Jahresrechnung
+  rechnen: ''
+  feststellung_wenn: Zwischenabschluss ohne Mindestgliederung der letzten JR oder Anhangsangaben, oder Vereinfachungen beeinträchtigen die Darstellung des Geschäftsgangs.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Feststellung, ob die Vereinfachungen und Verkürzungen bei der Erstellung eines Zwischenabschlusses nach Art. 960f OR für den Zweck einer Zwischendividende
+  - quelle: or__art-960f
+    zitat: Es sind mindestens die Überschriften und Zwischensummen auszuweisen, die in der letzten Jahresrechnung enthalten sind.
+  - quelle: or__art-675a
+    zitat: Die Revisionsstelle muss den Zwischenabschluss vor dem Beschluss der Generalversammlung prüfen.
+- id: A1-301
+  vorgehen: 'Unterzeichnete JR in M-Files suchen; prüfen, ob der Vorsitzende des VR und die für die Rechnungslegung zuständige Person (gemäss HR-Auszug/Unternehmensinfo) mit Datum unterzeichnet
+    haben. Fehlt die Unterzeichnung: Pendenz. Unterzeichnungsdatum als frühestes Berichtsdatum im Textfeld festhalten.'
+  nachweise:
+  - unterzeichnete Jahresrechnung
+  - Handelsregisterauszug / Organe
+  rechnen: ''
+  feststellung_wenn: Unterschrift fehlt oder nicht durch VR-Vorsitz und zuständige Person Rechnungslegung, oder Unterzeichnung erst nach dem vorgesehenen Berichtsdatum.
+  fundstellen:
+  - quelle: or__art-958
+    zitat: Er ist vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person zu unterzeichnen.
+  - quelle: ser-2022__8-6
+    zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+  - quelle: hwp-er-2026__rz-0339-s259
+    zitat: Die Jahresrechnung und die Vollständigkeitserklärung werden in der Regel von denselben Personen unterzeichnet.
+- id: A1-302
+  vorgehen: 'Eröffnungssalden aller Bilanzkonten (Hauptbuch) und Vorjahresspalte der JR mit der geprüften Vorjahres-JR abgleichen; Differenzen je Konto auflisten. Verwendung des Vorjahresergebnisses
+    gemäss GV-Beschluss im Eigenkapital nachvollziehen. Vorjahr ungeprüft/anderer Prüfer: im Textfeld vermerken, Vorjahreswerte besonders beachten.'
+  nachweise:
+  - Hauptbuch (Eröffnungssalden)
+  - Saldoliste (Spalte Vorjahr)
+  - geprüfte Jahresrechnung Vorjahr und Revisionsbericht
+  - GV-Protokoll Gewinnverwendung Vorjahr
+  rechnen: 'Je Bilanzkonto: Eröffnungssaldo GJ − Schlusssaldo VJ (geprüfte JR) = 0; Vorjahresspalte JR GJ = JR VJ; Gewinn-/Verlustvortrag 01.01. = Vortrag VJ + Jahresergebnis VJ − Ausschüttungen/Zuweisungen
+    gemäss GV'
+  feststellung_wenn: Eröffnungssaldo oder Vorjahresspalte weicht von der geprüften Vorjahres-JR ab, ohne Erläuterung im Anhang.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres (geprüfte Jahresrechnung, falls vorhanden)
+  - quelle: hwp-er-2026__rz-0147-s208
+    zitat: Diese Übereinstimmung von Schluss- und Eröffnungsbilanzwerten verifiziert der Abschlussprüfer.
+  - quelle: ser-2022__6-2-7
+    zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
+- id: A1-303
+  vorgehen: Schlusssalden aus Saldoliste/Hauptbuch je Konto den JR-Positionen zuordnen (Mapping Konto → Position) und Summen je Position, Total Aktiven/Passiven sowie Jahresergebnis
+    abstimmen. Differenzen mit Konto und Betrag im Textfeld; Umgliederungen ausserhalb der Buchhaltung belegen lassen (Pendenz).
+  nachweise:
+  - Saldoliste
+  - Hauptbuch
+  - Jahresrechnung
+  rechnen: Σ Saldi der Konten je Position = Betrag Position JR; Total Aktiven = Total Passiven; Total Aktiven Saldoliste = Total Aktiven JR; Jahresergebnis Saldoliste ER = Jahresergebnis
+    JR
+  feststellung_wenn: Differenz zwischen Hauptbuch/Saldoliste und JR-Position oder Totale Aktiven/Passiven ungleich, ohne belegte Umgliederung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung der Totale von Aktiven und Passiven
+- id: A1-304
+  vorgehen: 'GV- und VR-Protokolle des Geschäftsjahres und bis zum Prüfungszeitpunkt in M-Files suchen und lesen; Sachverhalte mit JR-Wirkung (Kapitalmassnahmen, Darlehen, Rechtsfälle,
+    Investitionen, Ausschüttungen) mit Verweis auf das Prüffeld auflisten. Prüfen: Genehmigung letzte JR innert 6 Monaten, Wahl Revisionsstelle, Beschluss Verwendung Bilanzgewinn/-verlust,
+    Unterzeichnung JR. Fehlende Protokolle: Pendenz.'
+  nachweise:
+  - GV-Protokolle (ordentlich/ausserordentlich)
+  - VR-Protokolle und Zirkularbeschlüsse
+  - Handelsregisterauszug
+  - Statuten
+  rechnen: Datum ordentliche GV − Bilanzstichtag Vorjahr ≤ 6 Monate
+  feststellung_wenn: Protokollierter Sachverhalt mit JR-Wirkung nicht berücksichtigt, GV nicht innert 6 Monaten, Wahl der Revisionsstelle oder Gewinnverwendungsbeschluss fehlt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+  - quelle: ser-2022__anh-d-s073-2
+    zitat: Genehmigung der letzten Jahresrechnung innerhalb von sechs Monaten
+  - quelle: ser-2022__anh-d-s073-2
+    zitat: Beschluss über die Verwendung des Bilanzgewinns (umfasst auch einen allfälligen Bilanzverlust)
+  - quelle: or__art-699
+    zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
+- id: A1-305
+  vorgehen: Prüfen, ob die JR Bilanz, Erfolgsrechnung und Anhang enthält; Geldflussrechnung nur bei ordentlicher Revisionspflicht bzw. statutarisch/nach Standard verlangt; Antrag über
+    die Verwendung des Bilanzgewinns als separates Dokument. Fehlende Bestandteile mit Fundstelle im Textfeld; Anhang-Detail im Prüffeld Anhang.
+  nachweise:
+  - Jahresrechnung
+  - Antrag VR Verwendung Bilanzgewinn
+  - Statuten
+  rechnen: ''
+  feststellung_wenn: Gesetzlich oder statutarisch vorgeschriebener Bestandteil fehlt (Bilanz, ER, Anhang; ggf. Geldflussrechnung) oder kein Gewinnverwendungsantrag.
+  fundstellen:
+  - quelle: or__art-958
+    zitat: Dieser enthält die Jahresrechnung (Einzelabschluss), die sich aus der Bilanz, der Erfolgsrechnung und dem Anhang zusammensetzt.
+  - quelle: ser-2022__1-6-t1
+    zitat: Zu prüfen sind einzig die Gesetzes- und Statutenkonformität der Jahresrechnung oder eines allfälligen Zwischenabschlusses (Bilanz, Erfolgsrechnung und Anhang)
+  - quelle: or__art-961
+    zitat: als Teil der Jahresrechnung eine Geldflussrechnung erstellen
+- id: A1-306
+  vorgehen: Gliederung der Bilanz mit Art. 959a Abs. 1/2 OR (Positionen, Reihenfolge nach Liquidität bzw. Fälligkeit, Umlauf-/Anlagevermögen, kurz-/langfristiges Fremdkapital, Eigenkapital)
+    und der ER mit Art. 959b OR (Produktions- oder Absatzerfolgsrechnung) abgleichen; bei Absatzerfolgsrechnung Anhangsangaben prüfen. Abweichungen im Textfeld.
+  nachweise:
+  - Jahresrechnung
+  - Saldoliste
+  rechnen: ''
+  feststellung_wenn: Mindestposition fehlt, Reihenfolge oder Zuordnung kurz-/langfristig falsch, oder ER folgt keinem der beiden gesetzlichen Schemata.
+  fundstellen:
+  - quelle: or__art-959a-t1
+    zitat: Unter den Aktiven müssen ihrem Liquiditätsgrad entsprechend mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+  - quelle: or__art-959a-t1
+    zitat: Unter den Passiven müssen ihrer Fälligkeit entsprechend mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+  - quelle: or__art-959b-t1
+    zitat: Sie kann als Produktionserfolgsrechnung oder als Absatzerfolgsrechnung dargestellt werden.
+  - quelle: hwp-er-2026__rz-0377-s269
+    zitat: die Bestimmungen über die Mindestgliederung nicht eingehalten sind (Art. 959a und 959b OR)
+- id: A1-307
+  vorgehen: Jahresgewinn/-verlust in Erfolgsrechnung, Eigenkapital und im Antrag des VR über die Verwendung des Bilanzgewinns abstimmen; Bilanzgewinn/-verlust = Vortrag + Jahresergebnis
+    nachrechnen. Gesetzeskonformität des Antrags (Reservenzuweisung, Ausschüttbarkeit) als Hinweis an den WP bzw. Prüffeld Eigenkapital.
+  nachweise:
+  - Jahresrechnung
+  - Antrag VR Verwendung Bilanzgewinn
+  - Saldoliste
+  rechnen: Jahresergebnis ER = Position Jahresergebnis im EK = Jahresergebnis im Antrag; Bilanzgewinn/-verlust = Gewinn-/Verlustvortrag + Jahresergebnis
+  feststellung_wenn: Jahresergebnis stimmt zwischen ER, Eigenkapital und Antrag nicht überein oder Antrag ist rechnerisch bzw. gesetzlich nicht konform.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung des ausgewiesenen Jahresgewinns (oder Jahresverlusts) im Eigenkapital und in der Erfolgsrechnung
+  - quelle: hwp-er-2026__rz-0439-s284
+    zitat: prüft die Revisionsstelle den Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinns
+- id: A1-308
+  vorgehen: 'Detailnachweis stille Reserven (Bestand je Bilanzposition per Stichtag und Vorjahr) in M-Files suchen, rechnerisch nachvollziehen und mit den Prüffeld-Ergebnissen (Vorräte,
+    Anlagen, Rückstellungen, Wertberichtigungen) abstimmen; Veränderung ermitteln. Bei wesentlicher Nettoauflösung Offenlegung im Anhang prüfen. Fehlender Nachweis: Pendenz.'
+  nachweise:
+  - Nachweis stille Reserven GJ und VJ
+  - Anhang
+  - Ergebnisse der betroffenen Prüffelder
+  rechnen: 'Je Position: stille Reserve = gesetzlich zulässiger Höchstwert − Buchwert (Aktiven) bzw. Buchwert − erforderlicher Betrag (Rückstellungen); Σ GJ − Σ VJ = Veränderung; Nettoauflösung
+    vs. Anhangsangabe'
+  feststellung_wenn: Nachweis fehlt oder ist nicht nachvollziehbar, oder wesentliche Nettoauflösung ist nicht als Gesamtbetrag im Anhang offengelegt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- id: A1-401
+  vorgehen: Nur wenn eine Geldflussrechnung vorgeschrieben (Art. 961 OR, Statuten, Standard) oder Teil der geprüften JR ist; sonst «nicht anwendbar» mit Begründung. Prüfen, ob Geldfluss
+    aus Geschäfts-, Investitions- und Finanzierungstätigkeit je gesondert dargestellt und auf die Fondsveränderung übergeleitet wird.
+  nachweise:
+  - Geldflussrechnung
+  - Statuten / Revisionsart
+  rechnen: ''
+  feststellung_wenn: Vorgeschriebene Geldflussrechnung fehlt oder stellt die drei Bereiche nicht gesondert dar.
+  fundstellen:
+  - quelle: or__art-961b
+    zitat: Die Geldflussrechnung stellt die Veränderung der flüssigen Mittel aus der Geschäftstätigkeit, der Investitionstätigkeit und der Finanzierungstätigkeit je gesondert dar.
+  - quelle: hwp-bur-2023__rz-0802-s333
+    zitat: 'Bei grösseren Unternehmen besteht die Jahresrechnung somit aus vier Teilen: Bilanz, Erfolgsrechnung, Geldflussrechnung und Anhang.'
+  - quelle: hwp-er-2026__rz-0365-s266
+    zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
+- id: A1-402
+  vorgehen: 'Geldflussrechnung rechnerisch nachvollziehen: Fonds Anfang/Ende mit Bilanz (Bestandteile bei netto flüssigen Mitteln offengelegt), Jahresergebnis und Abschreibungen mit
+    ER, nicht liquiditätswirksame Posten vollständig, Investitionen/Desinvestitionen mit Anlagespiegel und Verkaufsbelegen, Dividenden mit GV-Beschluss, Zuordnung zu den drei Bereichen.
+    Differenzen im Textfeld.'
+  nachweise:
+  - Geldflussrechnung
+  - Bilanz und Erfolgsrechnung
+  - Anlagespiegel
+  - Verkaufsbelege Anlagen
+  - GV-Beschluss Dividende
+  - Rückstellungsspiegel
+  rechnen: Fonds Ende − Fonds Anfang = CF Geschäftstätigkeit + CF Investitionstätigkeit + CF Finanzierungstätigkeit (± Kursdifferenzen Fonds); Jahresergebnis GFR = ER; Abschreibungen
+    GFR = ER; Investitionen GFR = zahlungswirksame Zugänge Anlagespiegel
+  feststellung_wenn: GFR geht nicht auf die Fondsveränderung auf, Jahresergebnis/Abschreibungen weichen von der ER ab oder wesentliche Fehlzuordnung zwischen den Bereichen.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0803-s333
+    zitat: Die Bezugsgrösse der Geldflussrechnung (sog. Fonds) bilden die flüssigen Mittel
+  - quelle: hwp-bur-2023__rz-0805-s333
+    zitat: Bei der indirekten Methode werden zum Jahresergebnis die nicht liquiditätswirksamen Geschäftsvorfälle hinzugefügt bzw. in Abzug gebracht.
+  - quelle: hwp-bur-2023__rz-0809-s335-t1
+    zitat: Am Ende der Geldflussrechnung wird in der Regel vom Anfangsbestand des gewählten Fonds auf den Endbestand übergeleitet.

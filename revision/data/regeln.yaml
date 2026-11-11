@@ -1,0 +1,246 @@
+# Arbeitsregeln des KI-Revisionsagenten (Konzept consis) und gesetzliche Kernregeln – jede Regel mit Fundstelle; Status: agent-geprueft
+regeln:
+- bereich: schritttyp
+  key: befragung
+  regel: 'Befragung (1xx): Der Agent kann nicht selbst befragen. Er wertet schriftliche Antworten aus (z.B. revio 10.11 Kundenbefragung); sonst erfasst er die Frage als Pendenz. Status höchstens «teilweise
+    bearbeitet».'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- bereich: schritttyp
+  key: analytisch
+  regel: 'Analytisch (2xx): gut automatisierbar über Kontenübersicht, Kennzahlen (revio 1.2) und Rechenmodul (`rechne`).'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Gut automatisierbar über Kontenübersicht, Kennzahlen 1.2 und Rechenmodul
+- bereich: schritttyp
+  key: detail
+  regel: 'Detailprüfung (3xx): automatisierbar, wenn die Belege in M-Files liegen; 320 Anhang, 321 stille Reserven und 322 Dauerakten wiederholen sich in den Prüffeldern.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Automatisierbar, wenn Belege in M-Files liegen
+- bereich: schritttyp
+  key: sonstige
+  regel: 'Sonstige (4xx): weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing) nur auf Anweisung; physische Tätigkeiten nie.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- bereich: schritttyp
+  key: wp
+  regel: 'WP-Schritt (Kennzeichnung WP): Ob der Agent WP-Schritte vorbereitet oder auslässt, ist offen (consis) – bis zum Entscheid nur auf ausdrückliche Anweisung vorbereiten, Beurteilung immer beim Wirtschaftsprüfer.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+- bereich: ablauf
+  key: je_schritt
+  regel: 'Ablauf je Prüfschritt: Ziel und Prüfziele lesen → Risiko und Strategie aus 3.1/3.5 berücksichtigen → Nachweise in M-Files beschaffen → Umfang nach Wesentlichkeit festlegen → prüfen → im Textfeld
+    dokumentieren → Notizen erfassen → Visum offen lassen.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Ziel und Prüfziele lesen
+- bereich: ablauf
+  key: ergebnis
+  regel: 'Einheitliches Ergebnis je Prüfschritt (Textfeld): Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.
+- bereich: ablauf
+  key: pruefziele
+  regel: Im Textfeld festhalten, welche Prüfziele der Nachweis abdeckt.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: der Agent hält im Textfeld fest, welche Prüfziele sein Nachweis abdeckt
+- bereich: ablauf
+  key: rechenmodul
+  regel: 'Rechnen nie im Kopf: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen im Rechenmodul (`rechne`).'
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.
+- bereich: ablauf
+  key: mandatskontext
+  regel: Mandatskontext zu Beginn fixieren (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag); jeden Zugriff dagegen prüfen; bei Abweichung abbrechen und Pendenz erfassen.
+  quelle: konzept-ki-revisionsagent-2026__c009-1
+  zitat: bei Abweichung bricht der Agent ab und erfasst eine Pendenz
+- bereich: ablauf
+  key: pendenz_rapport
+  regel: Was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
+  quelle: konzept-ki-revisionsagent-2026__c010-1
+  zitat: Alles, was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
+- bereich: notizen
+  key: pendenz
+  regel: 'Notiz «Pendenz»: fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege – mit Konto, Datum und Betrag.'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+- bereich: notizen
+  key: wesentliche_feststellungen
+  regel: 'Notiz «Wesentliche Feststellungen»: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge – ohne Verbuchung.'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- bereich: notizen
+  key: schlussbesprechung
+  regel: 'Notiz «Schlussbesprechung»: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte.'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+- bereich: notizen
+  key: review
+  regel: 'Notiz «Review»: keine Einträge des Agenten (Rückmeldungen des Wirtschaftsprüfers).'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: keine; für Rückmeldungen des Wirtschaftsprüfers
+- bereich: notizen
+  key: nie_loeschen
+  regel: Notizen löscht oder erledigt der Agent nie.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Notizen löscht oder erledigt er nie.
+- bereich: notizen
+  key: beilage
+  regel: Verwendete Nachweise als Beilage an die Notiz hängen, wenn sie nicht direkt beim Prüfschritt liegen.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: der Agent hängt dort die verwendeten Nachweise an, wenn sie nicht direkt beim Prüfschritt liegen
+- bereich: grenze
+  key: visum
+  regel: 'Visum (Kürzel/Datum) je Schritt, ✓ je Prüffeld, «Abgeschlossen» und «Review», Status in Bereich 10: bleibt beim Menschen.'
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: alles bleibt beim Menschen
+- bereich: grenze
+  key: prozess2
+  regel: 'Prüffelder: kein Visum, kein ✓, keine Abschliessende Beurteilung.'
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Kein Visum, kein ✓, keine Abschliessende Beurteilung
+- bereich: grenze
+  key: dienstbenutzer
+  regel: Eigener Dienstbenutzer in revio und M-Files ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt.
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
+- bereich: grenze
+  key: email
+  regel: E-Mail in der Testphase nur als Entwurf oder an die fixe WP-Adresse, nie an Kunden.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden
+- bereich: grenze
+  key: buchung
+  regel: Buchungsvorschläge nur als Notiz, ohne Verbuchung.
+  quelle: konzept-ki-revisionsagent-2026__c015-1
+  zitat: 'Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung'
+- bereich: grenze
+  key: schreibbereiche
+  regel: Schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10); übrige Bereiche höchstens lesen.
+  quelle: konzept-ki-revisionsagent-2026__c006-1
+  zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
+- bereich: grenze
+  key: pdf_akte
+  regel: PDF-Akte (Prozess 6) nur auf Anweisung des Wirtschaftsprüfers.
+  quelle: konzept-ki-revisionsagent-2026__c010-1
+  zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
+- bereich: grenze
+  key: gvb
+  regel: 'GVB-Bericht: keine Unterzeichnung, keine Datierung; Vorjahresoriginale unverändert.'
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Keine Unterzeichnung, keine Datierung; Vorjahresoriginale unverändert
+- bereich: grenze
+  key: testphase_halt
+  regel: 'Testphase: Halt nach dem Import zur Kontrolle (falsche Kontenzuordnung verfälscht alle Folgeprüfungen).'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: In der Testphase ein Halt nach dem Import
+- bereich: wesentlichkeit
+  key: lesen
+  regel: Wesentlichkeit aus revio 3.3 lesen, nie ändern.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+- bereich: wesentlichkeit
+  key: toleranz
+  regel: Toleranzwesentlichkeit (75 %) steuert Prüfumfang und Stichprobe.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+- bereich: wesentlichkeit
+  key: nichtaufgriff
+  regel: 'Nichtaufgriffsgrenze (5 %): Differenzen darunter nur protokollieren.'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+- bereich: wesentlichkeit
+  key: gesamt
+  regel: 'Gesamtwesentlichkeit: Massstab für Wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1).'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
+- bereich: wesentlichkeit
+  key: plausibel
+  regel: 'Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen: Pendenz.'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst der Agent eine Pendenz.
+- bereich: wesentlichkeit
+  key: stichprobe_vorschlag
+  regel: 'Stichprobe (Vorschlag, offen bei consis): alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen) und weitere nach Risiko
+    3.1; Auswahl im Textfeld begründen.'
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit
+- bereich: gesetz
+  key: or725a_kapitalverlust
+  regel: 'Kapitalverlust (OR 725a Abs. 1): Aktiven abzüglich Verbindlichkeiten decken die Hälfte der Summe aus Aktienkapital, nicht zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
+    nicht mehr → VR ergreift Massnahmen.'
+  quelle: or__art-725a
+  zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr
+    decken
+- bereich: gesetz
+  key: or725b_zwischenabschluss
+  regel: 'Überschuldung (OR 725b Abs. 1): bei begründeter Besorgnis Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (Verzicht auf Veräusserungswerte, wenn Fortführung gegeben und keine Überschuldung
+    zu Fortführungswerten).'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind, so erstellt der Verwaltungsrat unverzüglich je einen Zwischenabschluss zu Fortführungswerten
+    und Veräusserungswerten.
+- bereich: gesetz
+  key: or725b_pruefung
+  regel: Die Zwischenabschlüsse prüft die Revisionsstelle (OR 725b Abs. 2).
+  quelle: or__art-725b-t1
+  zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen
+- bereich: gesetz
+  key: or725b_gericht
+  regel: Überschuldet gemäss beiden Zwischenabschlüssen → VR benachrichtigt das Gericht (OR 725b Abs. 3).
+  quelle: or__art-725b-t1
+  zitat: Ist die Gesellschaft gemäss den beiden Zwischenabschlüssen überschuldet, so benachrichtigt der Verwaltungsrat das Gericht.
+- bereich: gesetz
+  key: or725b_rangruecktritt
+  regel: Benachrichtigung kann unterbleiben bei Rangrücktritt im Ausmass der Überschuldung inkl. Zinsen während der Dauer der Überschuldung (OR 725b Abs. 4 Ziff. 1) oder bei begründeter Aussicht auf Behebung
+    innert spätestens 90 Tagen (Ziff. 2).
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- bereich: gesetz
+  key: or725b_90tage
+  regel: 'Sanierungsfrist: spätestens 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse (OR 725b Abs. 4 Ziff. 2).'
+  quelle: or__art-725b-t1
+  zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
+- bereich: gesetz
+  key: or729c_anzeige
+  regel: 'Anzeigepflicht der eingeschränkt prüfenden Revisionsstelle: offensichtlich überschuldet und VR unterlässt die Anzeige → Revisionsstelle benachrichtigt das Gericht (OR 729c).'
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- bereich: gesetz
+  key: or725_zahlungsfaehigkeit
+  regel: 'Drohende Zahlungsunfähigkeit (OR 725): VR überwacht die Zahlungsfähigkeit und ergreift Massnahmen.'
+  quelle: or__art-725
+  zitat: Der Verwaltungsrat überwacht die Zahlungsfähigkeit der Gesellschaft.
+- bereich: gesetz
+  key: or729a_umfang
+  regel: 'Prüfungsumfang eingeschränkte Revision (OR 729a Abs. 2): Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.'
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- bereich: gesetz
+  key: or729a_gegenstand
+  regel: 'Gegenstand (OR 729a Abs. 1): Jahresrechnung und Antrag über die Verwendung des Bilanzgewinns; Geschäftsführung des VR ist nicht Gegenstand (Abs. 3).'
+  quelle: or__art-729a
+  zitat: Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.
+- bereich: gesetz
+  key: or729b_bericht
+  regel: Zusammenfassender Bericht an die GV (OR 729b) – unterzeichnet von der Person, die die Revision geleitet hat (nie der Agent).
+  quelle: or__art-729b
+  zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
+- bereich: gesetz
+  key: or730b_geheimnis
+  regel: 'Geheimhaltung (OR 730b Abs. 2): die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen.'
+  quelle: or__art-730b
+  zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen
+- bereich: gesetz
+  key: or730c_aufbewahrung
+  regel: 'Dokumentation und Aufbewahrung (OR 730c): alle Revisionsdienstleistungen dokumentieren; Berichte und wesentliche Unterlagen mindestens zehn Jahre aufbewahren.'
+  quelle: or__art-730c
+  zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+- bereich: gesetz
+  key: or727_ordentlich
+  regel: 'Ordentliche Revision (OR 727 Abs. 1 Ziff. 2), wenn zwei der Grössen in zwei aufeinander folgenden Geschäftsjahren überschritten: Bilanzsumme 20 Mio., Umsatzerlös 40 Mio., 250 Vollzeitstellen im
+    Jahresdurchschnitt.'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+- bereich: gesetz
+  key: or727a_eingeschraenkt
+  regel: Sonst eingeschränkte Revision (OR 727a Abs. 1); Opting-out mit Zustimmung sämtlicher Aktionäre bei höchstens zehn Vollzeitstellen (Abs. 2).
+  quelle: or__art-727a
+  zitat: Mit der Zustimmung sämtlicher Aktionäre kann auf die eingeschränkte Revision verzichtet werden, wenn die Gesellschaft nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat.

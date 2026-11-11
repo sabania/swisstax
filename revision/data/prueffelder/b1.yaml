@@ -1,0 +1,657 @@
+# Prüffeld B1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: B1
+bezeichnung: Flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-11'
+  nachpruefung:
+    urteil: null
+    befunde: 0
+    korrigiert: false
+kurzbeschrieb: 'Position nach Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgelder bis 3 Monate, Online-Zahlungskonten, kurzfristig gehaltene Wertschriften
+  mit Börsenkurs. Eingeschränkte Revision: Bestand/Vollständigkeit durch Abstimmung mit internen Unterlagen (Auszüge, Kassabuch, Depot), Bewertung (Devisen-/Börsenkurse), Verpfändungen
+  und Anhang; keine eigenen Bankbestätigungen.'
+gesetz:
+- thema: 'Mindestgliederung: Bilanzposition flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs (Art. 959a Abs. 1 Ziff. 1 lit. a OR)'
+  quelle: or__art-959a-t1
+  zitat: flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs
+- thema: Bestandesnachweis durch Inventar oder auf andere Art (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Vollständigkeit und Verrechnungsverbot (Art. 958c Abs. 1 Ziff. 2 und 7 OR)
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Belegnachweis für jede Buchung (Art. 957a Abs. 2 Ziff. 2 und Abs. 3 OR)
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- thema: Vorsichtige Bewertung, Überprüfung bei Anzeichen für Überbewertung (Art. 960 Abs. 2 und 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Bewertung zum Börsenkurs, Stetigkeit über die ganze Position, Anhanghinweis (Art. 960b Abs. 1 OR)
+  quelle: or__art-960b
+  zitat: Wer von diesem Recht Gebrauch macht, muss alle Aktiven der entsprechenden Positionen der Bilanz, die einen beobachtbaren Marktpreis aufweisen, zum Kurs oder Marktpreis am Bilanzstichtag
+    bewerten.
+- thema: Schwankungsreserve auf Aktiven mit Börsenkurs, gesonderter Ausweis (Art. 960b Abs. 2 OR)
+  quelle: or__art-960b
+  zitat: Der Betrag der Schwankungsreserven ist insgesamt in der Bilanz oder im Anhang gesondert auszuweisen.
+- thema: 'Anhang: verpfändete Aktiven und Sicherheiten für Dritte (Art. 959c Abs. 2 Ziff. 8 und 9 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: Umrechnungskurse im Anhang bei Rechnungslegung in Fremdwährung (Art. 958d Abs. 3 OR)
+  quelle: or__art-958d
+  zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
+- thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: Ausgewiesene Guthaben bestehen nicht oder nicht in dieser Höhe (fehlende Abstimmung mit Auszug, Kassabuch, Depotauszug per Stichtag).
+  pruefziele:
+  - EX
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Abstimmung der Bestände mit Kassenbüchern, Bank- und PC-Auszügen oder Wertschriftenverzeichnissen (ggf. Einsichtnahme in die vom Kunden erstellten Abstimmungen)
+- text: Nicht erfasste Konten (neu eröffnete Konten, Online-/Zahlungsdienstkonten, Depots) oder nicht erfasste Bankverbindlichkeiten.
+  pruefziele:
+  - VO
+  quelle: or__art-958c
+  zitat: Sie muss vollständig sein.
+- text: Fremdwährungsbestände zu falschem oder nicht stichtagsbezogenem Kurs umgerechnet.
+  pruefziele:
+  - BE
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+- text: Wertschriften mit Börsenkurs falsch bewertet (Kurs, Stichtag, uneinheitliche Anwendung des Wahlrechts nach Art. 960b OR).
+  pruefziele:
+  - BE
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anderen Quellen
+- text: Verpfändete, gesperrte oder als Kaution gehaltene Konten falsch ausgewiesen oder im Anhang nicht offengelegt.
+  pruefziele:
+  - RV
+  - DO
+  quelle: hwp-bur-2023__rz-0008-s157
+  zitat: Konten mit eingeschränkter Verfügbarkeit (z.B. Kautionskonten) sind ggf. unter den Forderungen auszuweisen.
+- text: Geld unterwegs und Überträge zwischen Geldkonten um den Stichtag doppelt oder nicht erfasst (Valuta-Datum).
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0014-s158
+  zitat: Hierbei ist auf das Valuta-Datum abzustellen.
+- text: Ungewöhnliche oder nicht geschäftsmässig begründete Geldabflüsse (z.B. an Nahestehende, Bargeldbezüge).
+  pruefziele:
+  - EN
+  - RV
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Durchsicht der Geldkonti auf ungewöhnliche Buchungen
+- text: Negative Bankkonten mit Guthaben verrechnet statt als kurzfristige verzinsliche Verbindlichkeiten ausgewiesen.
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0016-s159
+  zitat: Kurzfristige Bankschulden sind unter den kurzfristigen verzinslichen Verbindlichkeiten auszuweisen
+- text: Zinsen netto statt brutto verbucht, Verrechnungssteuerguthaben fehlt; Rückerstattungsanspruch gefährdet.
+  pruefziele:
+  - VO
+  - PA
+  quelle: treuhand-almanach-2026__s069-2
+  zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+- text: Offene Devisentermingeschäfte mit negativem Marktwert nicht als Verbindlichkeit/Rückstellung erfasst.
+  pruefziele:
+  - BE
+  - VO
+  quelle: hwp-bur-2023__rz-0075-s176-t2
+  zitat: Sofern der Marktwert eines derivativen Finanzinstruments ohne Absicherungszweck negativ ist, muss eine Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts angesetzt
+    werden.
+- text: Guthaben bei notleidenden Instituten oder mit Transferrestriktionen als flüssige Mittel ausgewiesen.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0010-s157
+  zitat: Forderungen gegenüber notleidenden Finanzinstituten, Bestände an flüssigen Mitteln in Ländern mit Transferrestriktionen
+- text: Liquiditätsengpass bzw. Verletzung von Kreditbedingungen als Hinweis auf gefährdete Fortführung.
+  pruefziele:
+  - RV
+  - BE
+  quelle: hwp-er-2026__rz-0191-s224
+  zitat: Unfähigkeit, die Bedingungen von Kreditvereinbarungen zu erfüllen
+unterlagen:
+- dokument: Saldoliste und Hauptbuch-Kontoblätter aller Geldkonten (Kasse, Post, Banken, Online-Konten, Wertschriften) mit Vorjahr
+  zweck: Ausgangsbasis für Abstimmung, Vorjahresvergleich und Durchsicht
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+- dokument: Bank-/Postauszüge bzw. Jahresabschlussauszüge per 31.12. für sämtliche Konten (inkl. Festgeld, Sparkonten, Fremdwährungskonten)
+  zweck: Bestandesnachweis je Konto
+  quelle: hwp-bur-2023__rz-0014-s158
+  zitat: Nachweis durch Auszüge oder Bestätigungen der Post bzw. Banken
+- dokument: Kassabuch und Kassenaufnahmeprotokoll per 31.12. (unterzeichnet)
+  zweck: Nachweis Kassenbestand
+  quelle: hwp-bur-2023__rz-0014-s158
+  zitat: Physische Bestandsaufnahmen und Abstimmung mit den Kassenbüchern.
+- dokument: Depot-/Wertschriftenauszug per 31.12. mit Kurswerten
+  zweck: Bestand und Bewertung kurzfristig gehaltener Aktiven mit Börsenkurs
+  quelle: hwp-bur-2023__rz-0014-s158
+  zitat: Nachweis durch Wertschriftenverzeichnis einer Bank oder Inventar.
+- dokument: Bankauszüge der ersten Wochen des Folgejahres (Geldkonten mit Stichtagsüberträgen)
+  zweck: Abklärung Überträge/Geld unterwegs um den Stichtag
+  quelle: hwp-bur-2023__rz-0004-s156
+  zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
+- dokument: Devisenkursliste per 31.12. (Bank oder andere Quelle)
+  zweck: Vergleich der Umrechnungskurse
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+- dokument: Zins- und Kapitalausweise der Banken mit Verrechnungssteuerabzug
+  zweck: Prüfung Bruttoverbuchung Zinsen und VSt-Guthaben
+- dokument: Kredit-, Rahmen- und Kontokorrentverträge inkl. Limiten; Bankkorrespondenz
+  zweck: Kreditlimiten, Sicherheiten, Bedingungen
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Einsicht in Kredit- und Darlehensverträge
+- dokument: Pfand-, Garantie- und Sicherungsverträge (Verpfändungen, Garantiedepots, Sperrkonten)
+  zweck: Verfügungsbeschränkungen und Anhangangaben
+  quelle: ser-2022__anh-d-s097-1
+  zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- dokument: Bankbestätigungen, sofern vom Unternehmen selbst bei der Abschlusserstellung eingeholt
+  zweck: Zusätzlicher Nachweis Bestand und Vollständigkeit (kein eigenes Einholen durch die Revisionsstelle)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat, kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise
+    beiziehen
+- dokument: Übersicht offene Devisentermingeschäfte/Derivate per 31.12. mit Marktwerten der Bank
+  zweck: Bewertung offener Kontrakte
+  quelle: hwp-bur-2023__rz-0064-s173
+  zitat: Devisentermingeschäfte sind OTC-Geschäfte
+- dokument: Wertschriftenabrechnungen (Kauf/Verkauf) wesentlicher Transaktionen
+  zweck: Belegprüfung Wertschriftentransaktionen
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Belegprüfung einzelner wesentlicher Wertschriftentransaktionen
+- dokument: Liquiditätsplanung / Budget Folgejahr
+  zweck: Beurteilung Liquiditätsentwicklung und Fortführung
+  quelle: hwp-er-2026__rz-0191-s224
+  zitat: Abfluss von Liquidität aus dem operativen Geschäft («Cash Drain»)
+bewertung:
+- regel: Flüssige Mittel = Kasse sowie Post- und Bankguthaben auf Sicht; Festgelder nur bei Restlaufzeit bis drei Monate ab Bilanzstichtag.
+  quelle: hwp-bur-2023__rz-0003-s156
+  zitat: Ebenfalls zu den flüssigen Mitteln können Festgeldguthaben gezählt werden, die eine Restlaufzeit von höchstens drei Monaten ab Bilanzstichtag aufweisen.
+- regel: Länger gebundene oder kündbare Bankguthaben gehören zu den übrigen kurzfristigen Forderungen.
+  quelle: hwp-bur-2023__rz-0009-s157
+  zitat: sind nicht unter den flüssigen Mitteln, sondern unter den übrigen kurzfristigen Forderungen auszuweisen
+- regel: Verpfändete Konten bleiben flüssige Mittel, sind aber im Anhang offenzulegen; Kautionskonten ggf. unter Forderungen.
+  quelle: hwp-bur-2023__rz-0008-s157
+  zitat: Verpfändete Konten oder Konten, auf welchen die Bank ein Verrechnungsrecht im Rahmen einer Cash-Pool-Rahmenvereinbarung hat, qualifizieren hingegen als flüssige Mittel.
+- regel: Geld unterwegs in der Regel unter flüssigen Mitteln; Bestandsermittlung nach Valuta-Datum.
+  quelle: hwp-bur-2023__rz-0004-s156
+  zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
+- regel: Konten in Buchführungswährung zum Nennwert.
+  quelle: hwp-bur-2023__rz-0015-s158
+  zitat: In Buchführungswährung lautende Konten sind zum Nennwert zu bewerten.
+- regel: Fremdwährungskasse zu Noten-/Jahresendkursen; FW-Bankguthaben zum Devisenkurs am Bilanzstichtag (Geldkurs; Mittelkurs als Vereinfachung, wenn Differenz unwesentlich); Kursdifferenzen
+    gelten als realisiert.
+  quelle: hwp-bur-2023__rz-0015-s158
+  zitat: Kassenbestände in Fremdwährung sind anhand der Notenkurse bzw. Jahresendkurse umzurechnen.
+- regel: Flüssige Mittel und Bankguthaben auf Sicht uneingeschränkt zum Devisenkurs des Bilanzstichtags.
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Bankguthaben und -schulden auf Sicht und Aktiven mit Börsenkurs oder einem anderen beobachtbaren Marktpreis können uneingeschränkt zum Devisenkurs des Bilanzstichtags ausgewiesen
+    werden.
+- regel: Kurzfristig gehaltene Aktiven mit Börsenkurs zum Kurs am Bilanzstichtag; Gewinne/Verluste realisiert.
+  quelle: hwp-bur-2023__rz-0015-s158
+  zitat: Kurzfristig gehaltene Aktiven mit Börsenkurs oder beobachtbarem Marktpreis sind zum Börsenkurs oder zum beobachtbaren Marktpreis am Bilanzstichtag zu bewerten
+- regel: Bei Bewertung zum Börsenkurs Hinweis im Anhang; Schwankungsreserve zulässig, aber gesondert auszuweisen.
+  quelle: or__art-960b
+  zitat: so darf eine Wertberichtigung zulasten der Erfolgsrechnung gebildet werden, um Schwankungen im Kursverlauf Rechnung zu tragen
+- regel: Bankschulden unter kurzfristigen verzinslichen Verbindlichkeiten; Verrechnung nur gleichartiger, gleichzeitig fälliger Positionen derselben Bank bei vertraglicher Zulässigkeit.
+  quelle: hwp-bur-2023__rz-0016-s159
+  zitat: können miteinander verrechnet werden, sofern die Vertragsbedingungen dies zulassen (Art. 120 OR)
+- regel: Kontokorrentkredite stets kurzfristig; gebucht wird nur der beanspruchte Betrag, nicht die Limite.
+  quelle: hwp-bur-2023__rz-0013-s157
+  zitat: In der Buchführung der Kreditnehmenden wird der beanspruchte Betrag, nicht aber die eingeräumte Kreditlimite erfasst.
+- regel: 'Guthaben bei notleidenden Finanzinstituten/mit Transferrestriktionen: Ausweis unter übrigen Forderungen, ggf. Wertberichtigung.'
+  quelle: hwp-bur-2023__rz-0010-s157
+  zitat: Forderungen gegenüber notleidenden Finanzinstituten, Bestände an flüssigen Mitteln in Ländern mit Transferrestriktionen
+- regel: 'Devisentermingeschäfte: Ersterfassung in der Regel zu null; Folgebewertung nach Niederstwertprinzip oder zu Marktwerten (einheitlich je Position); negativer Marktwert ohne
+    Absicherungszweck als Verbindlichkeit/Rückstellung.'
+  quelle: hwp-bur-2023__rz-0074-s175
+  zitat: sind die Anschaffungskosten in der Regel null
+- regel: Getrennter Ausweis von flüssigen Mitteln und Wertschriften in Bilanz oder Anhang empfohlen.
+  quelle: hwp-bur-2023__rz-0016-s159
+  zitat: empfiehlt sich aus Gründen der Klarheit ein getrennter Ausweis in der Bilanz oder im Anhang
+- regel: 'Verrechnungssteuer: Rückerstattung an juristische Personen nur bei ordnungsgemässer Verbuchung der belasteten Erträge als Ertrag (35 % auf Kapitalerträgen).'
+  quelle: treuhand-almanach-2026__s069-2
+  zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+fallstricke:
+- text: Bankbestätigungen selbst einholen ist nicht Teil der eingeschränkten Revision; der Agent fordert keine Bestätigungen bei Banken an und verwendet nur beim Unternehmen vorhandene
+    Bestätigungen.
+  quelle: hwp-er-2026__rz-0095-s196
+  zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+- text: Weitergehende Handlungen (Durchsicht Geldkonti, Belegprüfung Wertschriften, Eigentumsrechte, Befragung zu aussergewöhnlichen Transaktionen) nur bei Hinweisen auf Fehlaussagen
+    oder erhöhtem inhärentem Risiko; Begründung dokumentieren.
+  quelle: hwp-er-2026__rz-0132-s203
+  zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
+    anzunehmen sind
+- text: Bei wesentlichen Beständen genügt eine Befragung allein nicht; immer mit Abstimmung/Detailprüfung ergänzen.
+  quelle: hwp-er-2026__rz-0105-s198
+  zitat: Gemäss SER stützt sich der Abschlussprüfer bei wesentlichen Jahresabschlussposten nicht nur auf Befragungen ab
+- text: Befragungen nur als schriftlich festgehaltene Frage und Antwort verwertbar; mündliche Auskünfte ohne Dokumentation sind kein Prüfungsnachweis.
+  quelle: hwp-er-2026__rz-0103-s197
+  zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
+- text: Kontoauszüge, die nicht auf den Bilanzstichtag lauten (z.B. Halbjahres- oder Vormonatsauszug), belegen den Bestand per 31.12. nicht; Pendenz erfassen.
+  quelle: hwp-bur-2023__rz-0014-s158
+  zitat: Hierbei ist auf das Valuta-Datum abzustellen.
+- text: 'Screenshots oder App-Ansichten von Online-Konten: Echtheit, Stichtag und Kontoinhaber kritisch würdigen.'
+  quelle: hwp-er-2026__rz-0116-s201
+  zitat: Echtheit des Belegs (insbesondere bei nur in elektronischer Form vorliegenden Belegen)
+- text: Guthaben bei Anbietern ohne Banklizenz (Zahlungsdienstleister, Gutscheine) nicht ungeprüft als flüssige Mittel übernehmen; Ausweis durch Fachperson beurteilen lassen (Analogie).
+  quelle: hwp-bur-2023__rz-0005-s156
+  zitat: Forderungen gegenüber Organisationen ohne Banklizenz
+- text: Zero-Balancing-Cash-Pool-Guthaben sind in der Regel keine flüssigen Mittel.
+  quelle: hwp-bur-2023__rz-0007-s156
+  zitat: grundsätzlich Forderungen gegenüber Konzerngesellschaften dar und dürfen in aller Regel nicht unter den flüssigen Mitteln
+- text: Negative Kontokorrente nicht mit Guthaben anderer Konten/Banken saldieren (Verrechnungsverbot).
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- text: Das Wahlrecht zur Börsenkursbewertung gilt für die ganze Bilanzposition, nicht titelweise.
+  quelle: or__art-960b
+  zitat: Wer von diesem Recht Gebrauch macht, muss alle Aktiven der entsprechenden Positionen der Bilanz, die einen beobachtbaren Marktpreis aufweisen, zum Kurs oder Marktpreis am Bilanzstichtag
+    bewerten.
+- text: Der Agent kann keine Kassenaufnahme durchführen; er stützt sich auf das Protokoll des Kunden und erfasst bei Fehlen eine Pendenz.
+- text: Keine Funktionsprüfungen des IKS (z.B. Visa-/Zahlungsfreigaben) als eigenes Prüfziel; Visierung nur als Nachweis im Einzelfall.
+  quelle: hwp-er-2026__rz-0098-s197
+  zitat: Funktionsprüfungen als Teil der Prüfungshandlungen sind in der eingeschränkten Revision nicht vorgesehen
+fragen_kunde:
+- frage: Bestehen per Stichtag Verpfändungen, Sperren, Garantiedepots, Verrechnungsrechte der Bank oder andere Verfügungsbeschränkungen auf Konten oder Depots? Bitte Verträge beilegen.
+  zweck: B1-101 (RV), Ausweis und Anhangangabe Art. 959c Abs. 2 Ziff. 9 OR
+- frage: Gab es im Geschäftsjahr aussergewöhnliche Geldtransaktionen (grosse Bargeldbezüge, Zahlungen an Aktionäre/Nahestehende, Zahlungen ohne Rechnung, Krypto-/Auslandzahlungen)?
+  zweck: B1-102 (EN, PA); schriftliche Antwort dokumentieren
+- frage: Sind sämtliche Bank-, Post-, Online-Zahlungs- und Depotkonten (inkl. im Jahr eröffneter oder saldierter Konten) in der Buchhaltung erfasst? Bitte vollständige Kontenliste je
+    Institut.
+  zweck: Vollständigkeit (VO), B1-301/B1-401
+- frage: Wer hat die Kassenaufnahme per 31.12. durchgeführt und wo ist das unterzeichnete Protokoll?
+  zweck: B1-201/B1-301 Nachweis Kassenbestand
+- frage: Welche Kreditlimiten bestehen, wurden Kreditbedingungen (Kennzahlen/Covenants) eingehalten und gab es nach dem Stichtag neue Kredite, Garantien oder Kündigungen?
+  zweck: B1-304/B1-306, Fortführung, Ereignisse nach dem Bilanzstichtag
+- frage: Bestehen per Stichtag offene Devisentermingeschäfte oder andere Derivate? Bitte Bankbewertung per 31.12. einreichen.
+  zweck: B1-307 (BE, VO)
+- frage: Nach welchem Grundsatz werden Wertschriften bewertet (Anschaffungs-/Niederstwert oder Börsenkurs nach Art. 960b OR) und besteht eine Schwankungsreserve?
+  zweck: B1-308, Stetigkeit, Anhanghinweis
+- frage: Hat das Unternehmen selbst Bankbestätigungen per Stichtag eingeholt? Falls ja, bitte vollständig einreichen.
+  zweck: 'B1-401: Verwendung nur von beim Unternehmen vorhandenen Bestätigungen'
+- frage: Wurde die Verrechnungssteuer auf Zinserträgen zurückgefordert bzw. als Guthaben erfasst?
+  zweck: B1-303 (VO, PA)
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: Salden Konten 1010–1052 per 31.12.2025/2024 (B1-201, B1-301, B1-304, B1-406); ER-Konten 69xx Zinsen/Kursdifferenzen (B1-302, B1-303)
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Kontoblätter 1010–1032, 1052, 1176: Überträge, Durchsicht, Belegstichprobe, Zins/VSt (B1-202, B1-303, B1-305, B1-404, B1-405, B1-406, B1-407)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1010_CHF_Dezember_2025.md
+  bezug: Abstimmung Konto 1010 per 31.12. (B1-301); Bewegungen Dezember für B1-202, B1-404, B1-407
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Dezember_2025.md
+  bezug: Abstimmung Konto 1011 (B1-301); Kreditlimite im Auszug (B1-304); Bewegungen für B1-202, B1-404, B1-407
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'Folgeperiode: Überträge und Zahlungen nach dem Stichtag (B1-202, B1-407)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1012_EUR_Dezember_2025.md
+  bezug: 'EUR-Konto 1012: Bestand und Devisenkurs per 31.12. (B1-301, B1-302)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1014_EUR_Dezember_2025.md
+  bezug: 'EUR-Konto 1014: Bestand und Devisenkurs per 31.12. (B1-301, B1-302)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1013_Reserve_2025.md
+  bezug: 'Sparkonto 1013: Stichtag des Auszugs prüfen (B1-301); Zins/VSt (B1-303)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1052_Garantiedepot_Dezember_2025.md
+  bezug: 'Garantiedepot 1052: Bestand, Verfügungsbeschränkung, Anhang (B1-101, B1-301, B1-320)'
+- datei: A_Fluessige_Mittel/Musterpay_App_Screenshot_31.12.2025.md
+  bezug: Nachweis Online-Konten 1030–1032, Belegqualität (B1-301); Anbieter/Bonität (B1-402)
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
+  bezug: Herkunft/Verwendbarkeit klären (B1-401); Kontenliste Vollständigkeit (B1-301/B1-401); Limiten, Verträge (B1-304, B1-306)
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
+  bezug: Herkunft/Verwendbarkeit klären (B1-401); Verpfändung, Garantien zugunsten Dritter (B1-101, B1-320); Kredite (B1-304, B1-306)
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: Buchungen über Konto 1011 im Januar/Februar 2026 (B1-202)
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Bilanzwerte flüssige Mittel (B1-406) und Anhang (B1-320)
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: Liste der Bankbeziehungen für Vollständigkeit der Konti (B1-301, B1-401); Dauerakten (B1-322)
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: Übersicht vorhandener Nachweise je Konto, fehlende Unterlagen als Pendenz (B1-301)
+- datei: C_Uebrige_kurzfristige_Forderungen/Bestaetigung_Mietkautionskonto_31.12.2025.md
+  bezug: Abgrenzung Kautionskonto (1193) gegenüber flüssigen Mitteln (B1-101)
+schritte:
+- id: B1-101
+  vorgehen: 'Schriftliche Befragung der Leitung Finanzen zu Verpfändungen, Sperren, Garantiedepots und Verrechnungsrechten auf allen Konten/Depots als Pendenz/Frage erfassen. Antwort
+    mit Bankauszügen, Kredit-/Pfandverträgen und ggf. vorhandenen Bankbestätigungen abgleichen. Im Textfeld: Frage, Antwort, Datum, betroffene Konten und Beträge sowie Folgerung für
+    Ausweis und Anhang.'
+  nachweise:
+  - Schriftliche Antwort der Unternehmensleitung
+  - Pfand-/Garantieverträge
+  - Bankauszüge Garantie-/Sperrkonten
+  - Vorhandene Bankbestätigungen
+  rechnen: Summe verpfändete/gesperrte Guthaben = Betrag Anhangangabe Art. 959c Abs. 2 Ziff. 9 OR
+  feststellung_wenn: Verpfändung/Sperre bekannt, aber nicht im Anhang offengelegt, oder Kautions-/Sperrkonto ohne Prüfung des Ausweises unter flüssigen Mitteln; fehlende Antwort als
+    Pendenz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Befragung über allfällige Verpfändungen und Verfügungsbeschränkungen
+  - quelle: hwp-bur-2023__rz-0008-s157
+    zitat: Solche Fälle müssen jedoch im Anhang offengelegt werden
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- id: B1-102
+  vorgehen: 'Weitergehende Befragung (WP): Frage nach aussergewöhnlichen Geldtransaktionen (grosse Bargeldbezüge, Zahlungen an Nahestehende, Auslands-/Kryptozahlungen, runde Beträge)
+    als Pendenz erfassen. Antwort mit Auffälligkeiten aus der Durchsicht der Geldkonti (B1-305) abgleichen. Nur bei Hinweisen auf Fehlaussagen oder erhöhtem Risiko; Begründung, Frage
+    und Antwort dokumentieren.'
+  nachweise:
+  - Schriftliche Antwort der Unternehmensleitung
+  - Hauptbuch Geldkonten
+  - Belege zu genannten Transaktionen
+  rechnen: ''
+  feststellung_wenn: Aussergewöhnliche Transaktion ohne nachvollziehbaren wirtschaftlichen Hintergrund, falsche Periode oder Widerspruch zwischen Antwort und Buchhaltung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Befragung zu aussergewöhnlichen Transaktionen
+  - quelle: hwp-er-2026__rz-0103-s197
+    zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
+- id: B1-201
+  vorgehen: 'Kassenkonten aus Saldoliste mit Vorjahr und Monatsverlauf (Hauptbuch) vergleichen; Höhe im Verhältnis zur Geschäftstätigkeit und zu den flüssigen Mitteln beurteilen. Negative
+    Zwischensalden, ungewöhnlich hohe Bestände oder sprunghafte Veränderungen festhalten und Erklärung als Frage erfassen. Im Textfeld: Bestände X/X-1, Veränderung, Erwartung, Ergebnis.'
+  nachweise:
+  - Saldoliste Vorjahr/aktuell
+  - Kontoblatt Kasse
+  - Kassabuch
+  rechnen: Veränderung Kasse = Saldo 31.12.X – Saldo 31.12.X-1; Anteil Kasse = Kasse / Total flüssige Mittel; Prüfung negativer Zwischensalden im Kontoblatt
+  feststellung_wenn: Negativer Kassensaldo, unplausibel hoher Bestand oder Veränderung ohne Erklärung, die über der Nicht-Aufgriffsgrenze liegt.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+  - quelle: hwp-bur-2023__rz-0014-s158
+    zitat: Physische Bestandsaufnahmen und Abstimmung mit den Kassenbüchern.
+- id: B1-202
+  vorgehen: 'Überträge zwischen Geldkonten in den letzten und ersten Tagen um den Stichtag aus Hauptbuch und Bankauszügen (Dezember/Januar) auflisten; je Übertrag Belastung und Gutschrift
+    paaren und Valuta-Datum vergleichen. Geld unterwegs, Doppel- oder Nichterfassungen identifizieren. Im Textfeld: Liste der Überträge, Paarung, offene Posten.'
+  nachweise:
+  - Hauptbuch Geldkonten Dezember
+  - Bankauszüge Dezember und Januar Folgejahr
+  - Kontoblätter Folgejahr
+  rechnen: 'Je Übertrag: Belastung Konto A = Gutschrift Konto B; Summe ungepaarter Überträge per 31.12. = Geld unterwegs; Differenz Buchdatum vs. Valuta-Datum'
+  feststellung_wenn: Übertrag nur einseitig per 31.12. erfasst, doppelt erfasst oder Geld unterwegs nicht korrekt abgegrenzt; ungeklärter Übertrag als Pendenz.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0004-s156
+    zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
+  - quelle: hwp-bur-2023__rz-0014-s158
+    zitat: Hierbei ist auf das Valuta-Datum abzustellen.
+- id: B1-301
+  vorgehen: 'Für jedes Geldkonto Saldo Hauptbuch per 31.12. mit Nachweis abstimmen: Kassabuch/Kassenaufnahmeprotokoll, PC-/Bankauszug, Festgeldkorrespondenz, Depotauszug; bei Differenzen
+    Kunden-Überleitung einsehen. Vollständigkeit der Konti mit Bankenliste abgleichen. Im Textfeld: Tabelle Konto, Buchsaldo, Nachweissaldo, Differenz, Dokument (M-Files-ID).'
+  nachweise:
+  - Saldoliste/Hauptbuch
+  - Kassabuch und Kassenaufnahmeprotokoll
+  - Bank-/PC-Auszüge per 31.12.
+  - Festgeldbestätigungen
+  - Depotauszug per 31.12.
+  rechnen: 'Je Konto: Saldo Hauptbuch 31.12. = Saldo Nachweis ± Überleitungsposten; Summe Konten flüssige Mittel = Bilanzposition'
+  feststellung_wenn: Differenz zwischen Buch- und Nachweissaldo ohne Überleitung, fehlender Stichtagsnachweis (Pendenz) oder Konto in Unterlagen, das nicht gebucht ist.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Abstimmung der Bestände mit Kassenbüchern, Bank- und PC-Auszügen oder Wertschriftenverzeichnissen (ggf. Einsichtnahme in die vom Kunden erstellten Abstimmungen)
+  - quelle: hwp-bur-2023__rz-0014-s158
+    zitat: Nachweis durch Auszüge oder Bestätigungen der Post bzw. Banken
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- id: B1-302
+  vorgehen: 'Für alle Fremdwährungskonten (Kasse, Bank) Währungssaldo und angewandten Kurs aus der Buchhaltung mit dem Jahresendkurs gemäss Bankauszug oder Kursliste per 31.12. vergleichen
+    und den CHF-Wert nachrechnen. Kursdifferenzen mit den Konten Kursgewinn/-verlust plausibilisieren. Im Textfeld: Konto, FW-Saldo, Kurs Buchhaltung, Kurs Quelle, CHF-Differenz.'
+  nachweise:
+  - Bankauszüge Fremdwährungskonten per 31.12.
+  - Devisenkursliste per 31.12.
+  - Kontoblätter Kursdifferenzen
+  rechnen: FW-Saldo × Stichtagskurs = Soll-Buchwert CHF; Differenz = Buchwert CHF – Soll-Buchwert CHF
+  feststellung_wenn: Umrechnung nicht zum Stichtagskurs oder Differenz über der Nicht-Aufgriffsgrenze; Buchungsvorschlag für Kursdifferenz erfassen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  - quelle: hwp-bur-2023__rz-0015-s158
+    zitat: Kursgewinne oder -verluste aus Fremdwährungen sind als realisiert zu betrachten.
+  - quelle: hwp-bur-2023__rz-0015-s158
+    zitat: Die Bilanzierung zum Mittelkurs wird in der Praxis oft angewandt.
+- id: B1-303
+  vorgehen: 'Zins- und Kapitalausweise der Banken mit den Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zinsertrag brutto erfasst, VSt (35 %) als Forderung gebucht,
+    Periode korrekt. Erwarteten Zinsertrag aus Durchschnittsguthaben × Zinssatz plausibilisieren. Im Textfeld: Konto, Bruttozins, VSt, Buchung, Differenz.'
+  nachweise:
+  - Zins-/Kapitalausweise der Banken
+  - Kontoblätter Zinsertrag/-aufwand
+  - Kontoblatt Verrechnungssteuerguthaben
+  rechnen: VSt = Bruttozins × 35 %; Bruttozins = Nettogutschrift / 0.65; Erwarteter Zins = Ø Guthaben × Zinssatz; Summe VSt lt. Ausweisen = Saldo VSt-Konto
+  feststellung_wenn: Zins netto gebucht, VSt-Guthaben fehlt oder nicht abgestimmt, Zins in falscher Periode oder unplausible Abweichung zum Erwartungswert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven
+  - quelle: treuhand-almanach-2026__s068-1
+    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  - quelle: treuhand-almanach-2026__s069-2
+    zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+- id: B1-304
+  vorgehen: Entwicklung der flüssigen Mittel und der Bankkredite (X/X-1, Monatsverlauf) analysieren; Kreditlimiten aus Verträgen/Auszügen mit Beanspruchung per Stichtag vergleichen.
+    Hinweise auf Liquiditätsengpass oder Verletzung von Kreditbedingungen festhalten und an Fortführungsbeurteilung melden. Kreditbedingungen als Frage erfassen.
+  nachweise:
+  - Saldoliste/Hauptbuch Geldkonten und Bankkredite
+  - Kredit-/Kontokorrentverträge mit Limiten
+  - Bankauszüge
+  - Liquiditätsplanung
+  rechnen: Liquiditätsveränderung = flüssige Mittel X – X-1; Ausschöpfung = beanspruchter Kredit / Limite; freie Limite = Limite – Beanspruchung
+  feststellung_wenn: Limite überschritten oder voll ausgeschöpft, Kreditbedingungen verletzt, starker Liquiditätsabfluss mit Fortführungsrelevanz; fehlende Verträge als Pendenz.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0191-s224
+    zitat: Unfähigkeit, die Bedingungen von Kreditvereinbarungen zu erfüllen
+  - quelle: hwp-bur-2023__rz-0013-s157
+    zitat: In der Buchführung der Kreditnehmenden wird der beanspruchte Betrag, nicht aber die eingeräumte Kreditlimite erfasst.
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (z. B. Kennzahlen in Kreditverträgen) nicht eingehalten hat
+- id: B1-305
+  vorgehen: 'Hauptbuchkonti der flüssigen Mittel kritisch durchsehen: Buchungen über Toleranzwesentlichkeit, runde Beträge, Gegenkonten ausserhalb des normalen Geschäfts, Buchungen mit
+    Nahestehenden, Storni und Stichtagsbuchungen auswählen. Wirtschaftlichen Hintergrund mit Belegen/Verträgen klären, offene Punkte als Frage erfassen. Auswahlkriterien und Ergebnis
+    dokumentieren.'
+  nachweise:
+  - Hauptbuch Geldkonten
+  - Belege und Verträge zu ausgewählten Buchungen
+  - Antworten der Unternehmensleitung
+  rechnen: 'Auswahl: Buchungen ≥ Toleranzwesentlichkeit oder ungewöhnlich; Summe ausgewählter Buchungen / Total Bewegungen = Abdeckung'
+  feststellung_wenn: Buchung ohne geschäftlichen Grund, ohne Beleg, zugunsten Nahestehender ohne Grundlage oder in falscher Periode.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Durchsicht der Geldkonti auf ungewöhnliche Buchungen
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Unterlagen im Bereich der flüssigen Mittel (Durchsicht der Geldkonten auf ungewöhnliche Buchungen)
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Beurteilung des wirtschaftlichen Hintergrunds vorhandener wesentlicher Transaktionen mit nahestehenden Personen
+- id: B1-306
+  vorgehen: 'Bankkorrespondenz und Bankverträge (Kontokorrent-, Kredit-, Pfand-, Garantie-, Depotverträge) in M-Files einsehen: Konten, Limiten, Sicherheiten, Garantien zugunsten Dritter,
+    Kündigungen. Erkenntnisse mit Buchhaltung und Anhang abgleichen. Im Textfeld: Vertrag, Datum, relevante Bestimmungen, Auswirkung.'
+  nachweise:
+  - Bankverträge
+  - Bankkorrespondenz
+  - Pfand- und Garantieverträge
+  rechnen: ''
+  feststellung_wenn: Vertrag zeigt Konto, Kredit, Sicherheit oder Garantie, die in Buchhaltung oder Anhang fehlt; fehlende Verträge als Pendenz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Einsicht in Kredit- und Darlehensverträge
+  - quelle: hwp-er-2026__rz-0118-s201
+    zitat: Das Aktenstudium kann einerseits zur Prüfung buchmässig erfasster und belegter Sachverhalte erforderlich sein
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter
+- id: B1-307
+  vorgehen: 'Offene Devisentermingeschäfte per Stichtag erfragen und Bankbewertung per 31.12. einholen (beim Kunden). Bewertungsmethode (Niederstwert oder Marktwert, einheitlich je Position)
+    feststellen; negative Marktwerte ohne Absicherungszweck müssen als Verbindlichkeit/Rückstellung erfasst sein. Anhangangabe prüfen. Ohne Kontrakte: Bestätigung in der Antwort dokumentieren.'
+  nachweise:
+  - Kontraktübersicht/Bankbewertung per 31.12.
+  - Kontrakte/Abrechnungen
+  - Schriftliche Antwort der Unternehmensleitung
+  rechnen: Marktwert = Nominal × (Terminkurs Stichtag – Kontraktkurs); Summe negative Marktwerte = Verbindlichkeit/Rückstellung
+  feststellung_wenn: Negativer Marktwert nicht erfasst, Methode uneinheitlich oder fehlende Angabe im Anhang.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0074-s175
+    zitat: sind die Anschaffungskosten in der Regel null
+  - quelle: hwp-bur-2023__rz-0075-s176-t2
+    zitat: Sofern der Marktwert eines derivativen Finanzinstruments ohne Absicherungszweck negativ ist, muss eine Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts angesetzt
+      werden.
+  - quelle: hwp-bur-2023__rz-0075-s176-t1
+    zitat: Weiter ist zu beachten, dass die Marktwertbewertung für alle Posten der betreffenden Bilanzposition vorzunehmen ist
+- id: B1-308
+  vorgehen: 'Für kurzfristig gehaltene Wertschriften Anzahl und Kurs gemäss Bewertung der Buchhaltung mit Depotauszug bzw. Jahresendkursen von Banken/Börsen per 31.12. vergleichen und
+    Wert nachrechnen. Einheitliche Anwendung von Art. 960b OR und Schwankungsreserve prüfen. Im Textfeld: Titel, Anzahl, Kurs Buchhaltung, Kurs Quelle, Differenz.'
+  nachweise:
+  - Depotauszug per 31.12.
+  - Kursliste Jahresendkurse
+  - Wertschriftenverzeichnis der Buchhaltung
+  rechnen: Anzahl × Jahresendkurs (× Devisenkurs) = Soll-Bilanzwert; Differenz = Buchwert – Soll-Bilanzwert
+  feststellung_wenn: Abweichung über der Nicht-Aufgriffsgrenze, uneinheitliche Bewertung innerhalb der Position oder Börsenkursbewertung ohne Anhanghinweis.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anderen Quellen
+  - quelle: hwp-bur-2023__rz-0015-s158
+    zitat: Kurzfristig gehaltene Aktiven mit Börsenkurs oder beobachtbarem Marktpreis sind zum Börsenkurs oder zum beobachtbaren Marktpreis am Bilanzstichtag zu bewerten
+  - quelle: or__art-960b
+    zitat: Im Anhang muss auf diese Bewertung hingewiesen werden.
+- id: B1-309
+  vorgehen: 'Weitergehend (WP): wesentliche Käufe/Verkäufe von Wertschriften aus Hauptbuch auswählen und mit Börsenabrechnung abgleichen (Titel, Anzahl, Kurs, Spesen, Datum, Gegenbuchung);
+    realisierte Gewinne/Verluste nachvollziehen. Auswahlkriterium und Ergebnis dokumentieren.'
+  nachweise:
+  - Börsenabrechnungen
+  - Hauptbuch Wertschriften und Finanzerfolg
+  - Depotauszüge
+  rechnen: Abrechnungsbetrag = Anzahl × Kurs ± Spesen/Courtage = gebuchter Betrag; realisierter Erfolg = Verkaufserlös – Buchwert
+  feststellung_wenn: Buchung weicht von Abrechnung ab, Abrechnung fehlt (Pendenz) oder Erfolg falsch erfasst.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Belegprüfung einzelner wesentlicher Wertschriftentransaktionen
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+- id: B1-310
+  vorgehen: 'Weitergehend (WP): auf Depot-/Kontoauszügen und Verträgen Inhaber der Konten und Wertschriften prüfen (lautet auf das Unternehmen, nicht auf Aktionäre/Dritte); Treuhand-,
+    Sammel- oder Drittdepots und Sicherungsübereignungen klären. Ergebnis je Konto/Depot dokumentieren.'
+  nachweise:
+  - Depot-/Kontoauszüge mit Inhaberangabe
+  - Kontoeröffnungs-/Depotverträge
+  - Treuhandverträge
+  rechnen: ''
+  feststellung_wenn: Konto/Depot lautet nicht auf das Unternehmen ohne nachvollziehbare vertragliche Grundlage, oder Eigentum unklar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen
+  - quelle: hwp-bur-2023__rz-0014-s158
+    zitat: Nachweis durch Wertschriftenverzeichnis einer Bank oder Inventar.
+- id: B1-320
+  vorgehen: 'Anhang auf Angaben aus diesem Prüffeld prüfen: verpfändete/abgetretene Aktiven (Art. 959c Abs. 2 Ziff. 9 OR), Sicherheiten für Dritte (Ziff. 8), Hinweis auf Börsenkursbewertung
+    und Schwankungsreserve (Art. 960b OR), Umrechnungskurse bei Fremdwährungsabschluss. Beträge mit Erkenntnissen aus B1-101/306/308 abgleichen.'
+  nachweise:
+  - Anhang der Jahresrechnung
+  - Ergebnisse B1-101, B1-306, B1-308
+  rechnen: Anhangbetrag verpfändete Aktiven = Summe gemäss Verträgen/Auszügen
+  feststellung_wenn: Pflichtangabe fehlt oder Betrag weicht von den Unterlagen ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: ser-2022__anh-d-s098-3
+    zitat: Weist der Anhang darauf hin, dass ggf. Aktiven zum Börsenkurs oder beobachtbaren Marktpreis bewertet werden (Art. 960b Abs. 1 OR)?
+  - quelle: or__art-959c-t2
+    zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+- id: B1-322
+  vorgehen: 'Dauerakte nachführen: Liste der Bankbeziehungen und Konten (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträge, Zeichnungsberechtigungen, Bewertungsgrundsatz Wertschriften.
+    Neue/geänderte Dokumente in M-Files verknüpfen; Änderungen gegenüber Vorjahr im Textfeld nennen.'
+  nachweise:
+  - Dauerakte Vorjahr
+  - Aktuelle Bankverträge und Kontenliste
+  rechnen: ''
+  feststellung_wenn: Keine Feststellung; fehlende Verträge oder ungeklärte Änderungen als Pendenz erfassen.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- id: B1-401
+  vorgehen: 'Keine eigenen Bankbestätigungen anfordern. Liegen vom Unternehmen eingeholte Bestätigungen vor: Herkunft dokumentieren, je Bank Konten, Salden, Kredite, Garantien und Sicherheiten
+    mit Hauptbuch und Anhang abgleichen (Vollständigkeit der Konti und Verpflichtungen). Fehlen sie: Schritt als nicht anwendbar kennzeichnen und Vollständigkeit über Auszüge/Befragung
+    belegen.'
+  nachweise:
+  - Vom Unternehmen eingeholte Bankbestätigungen
+  - Hauptbuch/Saldoliste
+  - Anhang
+  rechnen: 'Je Konto: Saldo Bestätigung = Saldo Hauptbuch; Anzahl Konten Bestätigung = Anzahl Konten Hauptbuch je Bank; Summe Verpflichtungen Bestätigung = Bilanz/Anhang'
+  feststellung_wenn: Bestätigung zeigt nicht gebuchtes Konto, Kredit, Garantie oder Sicherheit bzw. abweichenden Saldo; unklare Herkunft der Bestätigung als Pendenz.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0095-s196
+    zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat, kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise
+      beiziehen
+  - quelle: ser-2022__anh-d-s074-2
+    zitat: Einholen von Bestätigungen zu Salden und Wertschriftenbeständen von Banken oder anderen Dritten
+- id: B1-402
+  vorgehen: Für jede Bank bzw. jeden Kontoanbieter beurteilen, ob Hinweise auf Zahlungsschwierigkeiten, fehlende Banklizenz oder Transferrestriktionen bestehen (öffentlich bekannte Informationen,
+    Korrespondenz). Ergebnis je Institut knapp dokumentieren; Zweifel als Frage an den WP erfassen.
+  nachweise:
+  - Liste der Banken/Kontoanbieter
+  - Bankkorrespondenz
+  - Öffentliche Informationen zum Institut
+  rechnen: ''
+  feststellung_wenn: Guthaben bei notleidendem Institut, Anbieter ohne Banklizenz oder Transferrestriktion, aber Ausweis als flüssige Mittel ohne Wertberichtigung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0010-s157
+    zitat: Forderungen gegenüber notleidenden Finanzinstituten, Bestände an flüssigen Mitteln in Ländern mit Transferrestriktionen
+  - quelle: or__art-960
+    zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- id: B1-404
+  vorgehen: 'Stichprobe von Ein- und Ausgängen auf den Geldkonten (risikoorientiert, über Toleranzwesentlichkeit) mit Bankauszug und Grundbeleg abgleichen: Betrag, Datum, Gegenpartei,
+    Kontierung, Echtheit. Auswahl, Stichprobengrösse und Ergebnis dokumentieren.'
+  nachweise:
+  - Hauptbuch Geldkonten
+  - Bankauszüge
+  - Rechnungen/Grundbelege
+  rechnen: 'Je Stichprobe: Betrag Beleg = Betrag Buchung = Betrag Bankauszug'
+  feststellung_wenn: Buchung ohne Beleg, Betrag/Gegenpartei weicht ab oder Beleg nicht echt bzw. nicht auf das Unternehmen lautend.
+  fundstellen:
+  - quelle: or__art-957a
+    zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: Echtheit des Belegs (insbesondere bei nur in elektronischer Form vorliegenden Belegen)
+- id: B1-405
+  vorgehen: Für ausgewählte Zahlungen die zugrunde liegenden Unterlagen einsehen (Vertrag, Bestellung, Rechnung, Beschluss) und prüfen, ob die Zahlung eine Verpflichtung des Unternehmens
+    betrifft, wirtschaftlich begründet ist und in der richtigen Periode erfasst wurde. Ergebnis je Zahlung dokumentieren.
+  nachweise:
+  - Verträge, Bestellungen, Rechnungen
+  - VR-/GV-Beschlüsse bei Zahlungen an Organe/Aktionäre
+  - Bankauszüge
+  rechnen: ''
+  feststellung_wenn: Zahlung ohne Rechtsgrund des Unternehmens (z.B. Privataufwand), ohne Grundlage oder periodenfremd.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
+  - quelle: or__art-957a
+    zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
+- id: B1-406
+  vorgehen: 'Eröffnungssalden 01.01. der Geldkonten mit Schlusssalden der Vorjahresrechnung (geprüft, falls vorhanden) und Schlusssalden 31.12. mit Saldoliste und Bilanz abstimmen. Im
+    Textfeld: Konto, Vorjahr, Eröffnung, Schlusssaldo, Bilanzwert, Differenz.'
+  nachweise:
+  - Jahresrechnung Vorjahr
+  - Saldoliste/Hauptbuch
+  - Jahresrechnung Berichtsjahr
+  rechnen: Eröffnungssaldo 01.01.X = Schlusssaldo 31.12.X-1; Summe Schlusssalden Geldkonten 31.12.X = Bilanzposition flüssige Mittel
+  feststellung_wenn: Differenz zwischen Vorjahresabschluss und Eröffnung oder zwischen Hauptbuch und Bilanz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+- id: B1-407
+  vorgehen: Interne Überträge zwischen Kasse, Post und Banken im Jahresverlauf aus dem Hauptbuch filtern; je Übertrag Abgang und Zugang paaren, Transfer-/Geldtransitkonto per 31.12.
+    auf Nullsaldo bzw. erklärte Restposten prüfen. Nicht gepaarte Überträge als Frage erfassen.
+  nachweise:
+  - Hauptbuch Geldkonten
+  - Bankauszüge
+  - Kassabuch
+  rechnen: Summe Überträge Soll Zielkonten = Summe Überträge Haben Quellkonten; Saldo Transferkonto 31.12. = 0 oder erklärter Transitbetrag
+  feststellung_wenn: Übertrag nur einseitig erfasst, Transferkonto mit unerklärtem Saldo oder Übertrag ohne Gegenbuchung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0004-s156
+    zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
+  - quelle: hwp-bur-2023__rz-0013-s157
+    zitat: periodische Abstimmung der Buchsalden mit den Ist-Beständen
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
