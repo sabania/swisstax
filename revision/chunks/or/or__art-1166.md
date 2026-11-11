@@ -1,0 +1,20 @@
+---
+id: or__art-1166
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 1166 OR
+pfad: 'Fünfte Abteilung: Die Wertpapiere > Vierunddreissigster Titel: Anleihensobligationen > Zweiter Abschnitt: Gläubigergemeinschaft bei Anleihensobligationen > C. Gläubigerversammlung > II. Einberufung
+  > 2. Stundung'
+artikel: Art. 1166
+---
+> OR · Art. 1166 OR
+
+**Abs. 1** Vom Zeitpunkte der ordnungsmässigen Veröffentlichung der Einladung zur Gläubigerversammlung an bis zur rechtskräftigen Beendigung des Verfahrens vor der Nachlassbehörde bleiben die fälligen Ansprüche der Anleihensgläubiger gestundet.
+
+**Abs. 2** Diese Stundung gilt nicht als Zahlungseinstellung im Sinne des Schuldbetreibungs- und Konkursgesetzes vom 11. April 1889; eine Konkurseröffnung ohne vorgängige Betreibung kann nicht verlangt werden.
+
+**Abs. 3** Während der Dauer der Stundung ist der Lauf der Verjährungs- und Verwirkungsfristen, welche durch Betreibung unterbrochen werden können, für die fälligen Ansprüche der Anleihensgläubiger gehemmt.
+
+**Abs. 4** Missbraucht der Schuldner das Recht auf Stundung, so kann sie von der oberen kantonalen Nachlassbehörde auf Begehren eines Anleihensgläubigers aufgehoben werden.

@@ -1,0 +1,38 @@
+---
+id: estv-zinsen-2026__s001-1
+quelle: estv-zinsen-2026
+kurz: ESTV Zinssätze 2026
+typ: praxis
+rang: 3
+titel: Eidgenössisches Finanzdepartement EFD
+seiten: '1'
+---
+> ESTV Zinssätze 2026 · Eidgenössisches Finanzdepartement EFD · S. 1
+
+Eidgenössisches Finanzdepartement EFD
+Eidgenössische Steuerverwaltung ESTV
+Hauptabteilung Direkte Bundessteuer,
+Verrechnungssteuer, Stempelabgaben
+
+Direkte Bundessteuer
+Verrechnungssteuer
+Bern, 29. Januar 2026
+WAS/Bii
+
+Rundschreiben
+
+Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in
+Schweizer Franken
+Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an
+Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar. Dasselbe gilt
+für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen
+nahestehenden Dritten vergütet werden. Solche geldwerte Leistungen unterliegen gemäss
+Artikel 4 Absatz 1 Buchstabe b des Bundesgesetzes vom 13. Oktober 1965 über die
+Verrechnungssteuer (VStG) und Artikel 20 Absatz 1 der Vollziehungsverordnung vom
+19. Dezember 1966 zum VStG (VStV) der Verrechnungssteuer von 35 %. Die geldwerten
+Leistungen sind mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu
+deklarieren. Innert der gleichen Frist ist auch die geschuldete Verrechnungssteuer zu
+entrichten. Die gleichen Kriterien gelten auch bei der direkten Bundessteuer für die
+Berechnung der geldwerten Leistungen von Kapitalgesellschaften und von
+Genossenschaften (vgl. Art. 58 Abs. 1 Bst. b des Bundesgesetzes vom 14. Dezember 1990
+über die direkte Bundessteuer [DBG]).

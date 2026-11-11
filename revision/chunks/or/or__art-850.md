@@ -1,0 +1,18 @@
+---
+id: or__art-850
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 850 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Neunundzwanzigster Titel: Die Genossenschaft > Dritter Abschnitt: Verlust der Mitgliedschaft > E. Übertragung der Mitgliedschaft
+  > II. Durch Übertragung von Grundstücken oder wirtschaftlichen Betrieben'
+artikel: Art. 850
+---
+> OR · Art. 850 OR
+
+**Abs. 1** Die Mitgliedschaft bei einer Genossenschaft kann durch die Statuten vom Eigentum an einem Grundstück oder vom wirtschaftlichen Betrieb eines solchen abhängig gemacht werden.
+
+**Abs. 2** Die Statuten können für solche Fälle vorschreiben, dass mit der Veräusserung des Grundstückes oder mit der Übernahme des wirtschaftlichen Betriebes die Mitgliedschaft ohne weiteres auf den Erwerber oder den Übernehmer übergeht.
+
+**Abs. 3** Die Bestimmung betreffend den Übergang der Mitgliedschaft bei Veräusserung des Grundstückes bedarf zu ihrer Gültigkeit gegenüber Dritten der Vormerkung im Grundbuche.

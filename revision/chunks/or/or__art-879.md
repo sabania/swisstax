@@ -1,0 +1,23 @@
+---
+id: or__art-879
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 879 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Neunundzwanzigster Titel: Die Genossenschaft > Fünfter Abschnitt: Organisation der Genossenschaft > A. Generalversammlung > I.
+  Befugnisse'
+artikel: Art. 879
+---
+> OR · Art. 879 OR
+
+**Abs. 1** Oberstes Organ der Genossenschaft ist die Generalversammlung der Genossenschafter.
+
+**Abs. 2** Ihr stehen folgende unübertragbare Befugnisse zu:
+- 1. die Festsetzung und Änderung der Statuten;
+- 2. Wahl der Verwaltung und der Revisionsstelle;
+- 2bis. die Genehmigung der Jahresrechnung sowie gegebenenfalls die Beschlussfassung über die Verwendung des Bilanzgewinns;
+- 3. die Genehmigung des Lageberichts und der Konzernrechnung;
+- 3bis. die Beschlussfassung über die Rückzahlung von Kapitalreserven;
+- 4. die Entlastung der Verwaltung;
+- 5. die Beschlussfassung über die Gegenstände, die der Generalversammlung durch das Gesetz oder die Statuten vorbehalten sind.

@@ -1,0 +1,1172 @@
+# 01_Kommunikation_Bericht/1-01_Pruefakte_2024_Revio_ausgefuellt.docx
+
+Prüfakte 2024
+Fiktive Zahlen AG, Wil SG
+| Revisionsart | Eingeschränkt |
+|---|---|
+| Geschäftsjahr | 01.01.2024–31.12.2024 |
+| Revisionsstelle | consis Wirtschaftsprüfung AG, Wil |
+| Mandatsleiter | Blum Jan (jb), zugelassener Revisionsexperte |
+| Leitender Revisor / Prüfungsleiter | Revisions Mitarbeiter (rm) |
+| Prüfungszeitraum | 22.04.2025–30.04.2025 (Inventurbeobachtung 31.12.2024) |
+| Berichtsdatum | 12.05.2025 (Bericht mit Hinweisen) |
+| Wesentlichkeit | 80'000 · Toleranz 60'000 · NAG 8'000 |
+| Nachweise | Ordner der Revisionsakte 2024, REF = Dateipräfix (z. B. B-01, 7-02, 8 = Bestätigungen) |
+
+Legende Visum: «rm Datum» = Prüfer; Review jb 09.05.2025 für alle Prüffelder. Ein * beim Visum bedeutet Standardvermerk ohne besondere Feststellung.
+ASF 1 – Kommunikation
+1.1 Vermerk
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Revisionsbericht / Vermerk | Bericht zur eingeschränkten Revision mit Hinweis auf Überschuldung (OR 725b) und wesentliche Unsicherheit Fortführung, datiert 12.05.2025 – Entwurf in 1-03. | rm 30.04.2025 |
+
+1.2 Schlussbesprechungsprotokoll
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Schlussbesprechung | 06.05.2025 mit VR-Präsident, GF und Finanzen – Protokoll 1-02. | rm 30.04.2025 |
+
+1.3 Berichtsablage
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Ablage | Bericht, Jahresrechnung unterzeichnet, Vollständigkeitserklärung in Akte abgelegt. | rm 30.04.2025 |
+
+1.4 Sonstige Berichte
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Weitere Berichte | Prüfungsbestätigung Verrechnungsliberierung (OR 652f) vom 20.01.2025 separat abgegeben. | rm 30.04.2025 |
+
+1.5 Versandfiche
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Versand | Bericht 3-fach an VR per Post am 13.05.2025; PDF an Treuhand Beispiel AG. | rm 30.04.2025 |
+
+ASF 2 – Prüfungsvorbereitung
+2.1 Tätigkeit und Umfeld
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Geschäftstätigkeit | Planung, Bau und Unterhalt von PV-Kraftwerken (Dach-/Freiflächenanlagen, Speicher) sowie Handel mit Modulen/Wechselrichtern. | rm 30.04.2025 |
+| Branche und Marktverhältnisse | Starker Wettbewerb, Preisdruck bei Modulen, abhängig von Förderprogrammen; Projektgeschäft mit Anzahlungen. | rm 30.04.2025 |
+| Ziele und strategische Erfolgspositionen | Grossprojekte über 0.5 MWp, Rahmenvertrag Solaris Testpartner AG ab 2025. | rm 30.04.2025 |
+| Regulatorische und andere Faktoren | Elektroinstallationsbewilligung, Netzanschlussvorschriften, MWST, Zoll (ZAZ). | rm 30.04.2025 |
+| Verwaltungsrat | Peter Testmann (Präsident), Claudia Beispiel (Mitglied). | rm 30.04.2025 |
+| Management und Administration | GF Lukas Testmüller; Finanzen Sandra Beispielwalder; Abschluss durch Treuhand Beispiel AG. | rm 30.04.2025 |
+| Rechnungswesen und Informatik | Finanzbuchhaltung mit Debitoren-, Kreditoren-, Lohn- und Projektmodul; Projektkostenrechnung. | rm 30.04.2025 |
+| Unterschriftenregelung | Kollektiv zu zweien (Bank und Handelsregister). | rm 30.04.2025 |
+| angewandte Rechnungslegungsmethode | OR 957 ff., Produktionserfolgsrechnung. | rm 30.04.2025 |
+| Finanzielle Führungsinstrumente | Budget, Liquiditätsplan (ab 12/2024 wöchentlich), Projektcontrolling monatlich. | rm 30.04.2025 |
+| Finanzielle Situation | Verlust 7.05 Mio., EK −5.86 Mio. (Überschuldung), Liquidität angespannt (KK-Kredit 2.9/3.0 Mio.). | rm 30.04.2025 |
+| Eigentumsverhältnisse | 5 Aktionäre: A Peter Testmann 30 %, B Muster Holding AG 40 %, C, D, E je 10 % (200 Aktien). | rm 30.04.2025 |
+| Nahestehende Personen | Aktionärsdarlehen Muster Holding AG (2.3 Mio.) und C. Beispiel (0.25 Mio.). | rm 30.04.2025 |
+| Konzerngesellschaften | Keine. | rm 30.04.2025 |
+
+2.2 Einteilungsentscheid OR/RAB
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Quantitative Kriterien | Bilanzsumme 6'474 TCHF, Umsatz 8'055 TCHF, Vollzeitstellen ~86 – 0 von 3 erfüllt. | rm 30.04.2025 |
+| Qualitative Kriterien | Nicht börsenkotiert, keine Anleihen, keine Konzernrechnung, kein Opting-up – nicht erfüllt. | rm 30.04.2025 |
+| Einteilungsentscheid | Eingeschränkte Revision. | rm 30.04.2025 |
+| Historie | 2022–2024 eingeschränkte Revision. | rm 30.04.2025 |
+
+2.3 Mandatsführung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Auftragsverantwortliche Person | Mandatsleitung durch Revisionsexperten (Jan Blum). | rm 30.04.2025 |
+| Auftragsbegleitende QS | Ja – c) ungewöhnliche Umstände/Risiken (Überschuldung, Fortführung). QS durch zweiten Revisionsexperten (nicht im Team). | rm 30.04.2025 |
+| Konsultation | Ja – a) OR 725 und b) Going Concern: interne Fachstelle konsultiert (ASF 5.4). | rm 30.04.2025 |
+
+2.4 Mandatsfortführung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Kompetenz, Ressourcen | Ja. | rm 30.04.2025 |
+| Risiken Umfeld | Nein – Risiken haben sich wesentlich erhöht (Überschuldung). | rm 30.04.2025 |
+| Wechsel Management | Kein Einfluss. | rm 30.04.2025 |
+| Wesentliche Ereignisse | Überschuldung – Sanierung eingeleitet; Weiterführung vertretbar. | rm 30.04.2025 |
+| Verstösse Rechnungslegung | Keine Anhaltspunkte. | rm 30.04.2025 |
+| Unabhängigkeit | Erfüllt. | rm 30.04.2025 |
+| Revisionsergebnisse Vorjahr | Keine Nachtragsbuchungen nötig; Bericht 2023 mit Normalwortlaut. | rm 30.04.2025 |
+| Finanzielle Lage | Unsicherheit Fortführung: ja; EK-Situation bedenklich (OR 725b); Liquidität angespannt. | rm 30.04.2025 |
+| Beurteilung | Weiterführung empfohlen, da Sanierung durch Aktionäre unterstützt. Begründung: Rangrücktritte und Kapitalerhöhung. | rm 30.04.2025 |
+| Risikoeinstufung | H (hoch). | rm 30.04.2025 |
+
+2.5 Auftragsbestätigung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Auftragsbestätigung | Vom 15.07.2024, gegengezeichnet 22.07.2024 – 2-05. | rm 30.04.2025 |
+
+2.6 Prüfungsteam
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Team | Jan Blum, Mandatsleiter (jb), seit 2022; Revisions Mitarbeiter, Prüfungsleiter (rm), seit 2023. | rm 30.04.2025 |
+
+2.7 Planungsvorbereitung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Genehmigung Vorjahresrechnung | Ja – oGV 21.06.2024. | rm 30.04.2025 |
+| Wahl Revisionsstelle | Ja – oGV 21.06.2024; Voraussetzungen ordentliche Revision nicht erfüllt. | rm 30.04.2025 |
+| Protokolle | GV- und VR-Protokolle eingesehen. | rm 30.04.2025 |
+| Doppelmandate | Keine Mitwirkung bei der Buchführung (Treuhand Beispiel AG). | rm 30.04.2025 |
+| Unabhängigkeit | Alle Kriterien erfüllt; Honorar < 10 % Umsatz; keine Beziehungen. | rm 30.04.2025 |
+| Rechtsstreit / Domizil | Kein Rechtsstreit, kein Domizil. | rm 30.04.2025 |
+| Zusatzaufträge | Prüfungsbestätigung Verrechnungsliberierung (OR 652f). | rm 30.04.2025 |
+| Bankbestätigungen | Für alle Banken eingefordert. | rm 30.04.2025 |
+| Debitorenbestätigungen | Keine – alternative Prüfung über Zahlungseingänge. | rm 30.04.2025 |
+| Kreditorenbestätigungen | Selektiv: SolarTech (grösster Lieferant). | rm 30.04.2025 |
+| Rechtsanwaltsbestätigungen | Keine – kein Anwalt, keine Rechtsfälle. | rm 30.04.2025 |
+
+2.8 Hinweise Vorjahr
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Hinweise aus 2023 | Projektcontrolling verbessern (Restkosten), Globalzession im Anhang offenlegen – 2024 umgesetzt. | rm 30.04.2025 |
+
+ASF 3 – Prüfungsplanung
+3.1 Risikobeurteilung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Geschäftstätigkeit | H – Projektgeschäft, Bewertung angefangene Arbeiten (F2). | rm 30.04.2025 |
+| Nahestehende | M – Aktionärsdarlehen, Rangrücktritte (N1). | rm 30.04.2025 |
+| Lieferanten | M – Abhängigkeit SolarTech/Helion (K1, F1). | rm 30.04.2025 |
+| Kunden | M – Klumpen, Debitor Alpenstrom (C1). | rm 30.04.2025 |
+| Personal | H – starker Aufbau 2024, Abgrenzung Ferien/Überzeit (R1). | rm 30.04.2025 |
+| Rechtliches Umfeld | T. | rm 30.04.2025 |
+| Finanzielle Situation | H – Überschuldung, Fortführung, Covenant (A2, P1, L1). | rm 30.04.2025 |
+| FinfraG | T – keine Derivate. | rm 30.04.2025 |
+| COVID-19 | T – kein Kredit. | rm 30.04.2025 |
+
+3.2 Trendanalyse
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Trendanalyse | Siehe 3-02: Betriebsertrag −2 %, Personalaufwand +182 %, Verlust −7.05 Mio., EK −5.86 Mio. | rm 30.04.2025 |
+
+3.3 Kennzahlenanalyse
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Kennzahlen | EK-Quote −91 % (VJ 15 %), Liquiditätsgrad 2 19 % (VJ 60 %), Personalaufwand 79 % des Ertrags. | rm 30.04.2025 |
+
+3.4 Wesentlichkeit
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Basis | Betriebsertrag 8'055'000 × 1 % = 80'550 (Gewinn- und EK-Basis wegen Verlust/Überschuldung ungeeignet). | rm 30.04.2025 |
+| Festgelegte Wesentlichkeit | 80'000 (VJ 75'000). | rm 30.04.2025 |
+| Toleranzwesentlichkeit 75 % | 60'000. | rm 30.04.2025 |
+| Nichtaufgriffsgrenze 10 % | 8'000. | rm 30.04.2025 |
+| Qualitative Kriterien | Überschuldung OR 725b: zutreffend; Kapitalverlust OR 725a: zutreffend; drohende Illiquidität: teilweise; Verlust statt Gewinn: zutreffend. → Jede Abweichung, welche die Deckung der Überschuldung (Reserve 68'387) verändert, gilt als wesentlich. | rm 30.04.2025 |
+
+3.5 Going concern
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Finanzielle Indizien | Wesentliche Betriebsverluste, ungünstige Kennzahlen, Finanzierungsschwierigkeiten (Covenant), Kapitalverlust und Überschuldung – zutreffend. | rm 30.04.2025 |
+| Leistungswirtschaftliche Indizien | Keine. | rm 30.04.2025 |
+| Beurteilung | Fortführung könnte gefährdet sein → Prüfungshandlungen A2 durchgeführt. | rm 30.04.2025 |
+
+3.6 Strategische Planung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Prüfstrategie | Schwerpunkte: A2/P1 Überschuldung und Rangrücktritte, F2 angefangene Arbeiten, K1/M3/R1 Vollständigkeit Verbindlichkeiten, T1 Anhang. | rm 30.04.2025 |
+
+3.7 Vorgängige analytische Prüfung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Ergebnis | Auffällig: Personalaufwand, Bruttomarge, Liquidität – in Risikobeurteilung übernommen. | rm 30.04.2025 |
+
+3.8 Mitarbeiterplanung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Stunden | Total 64 Std.: jb 14 (Planung, Review, A2, Bericht), rm 50 (Prüffelder, Inventur). | rm 30.04.2025 |
+
+3.9 Teamplanungssitzung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Organisation | 15.04.2025, 09:00, Büro consis Wil, Teilnehmer jb, rm. | rm 30.04.2025 |
+| Themen | Prüfungszeitraum 22.–30.04.2025; Geschäftsverlauf (Verlust); Nahestehende (Darlehen, Rangrücktritte); Anfälligkeit F2/R1/K1; Wesentlichkeit 80'000; kritische Grundhaltung bei Sanierungsrechnung; Überraschungsmoment: Nachzählung Wechselrichter; Arbeitszuteilung gemäss 3.8. | rm 30.04.2025 |
+
+ASF 4 – Prüfungsdurchführung
+4.1 Pendenzenliste
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Pendenzen | Alle erledigt: Waiver Bank (erhalten 24.04.2025), Rangrücktritte Original (erhalten 28.04.2025), Liquiditätsplan (erhalten 25.04.2025). | rm 30.04.2025 |
+
+4.2 Wesentliche Feststellungen
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| 1 | Überschuldung OR 725b; Deckung durch Kapitalerhöhung und Rangrücktritte knapp (68'387). | rm 30.04.2025 |
+| 2 | Wesentliche Unsicherheit Fortführung – Anhang Ziff. 10, Bericht mit Hinweis. | rm 30.04.2025 |
+| 3 | Fehlende Kreditorenrechnung 28'400 (U1), Ferienrückstellung zu tief 15'000 (U2), Kapitalsteuer 5'000 (U3) – korrigiert. | rm 30.04.2025 |
+| 4 | Debitor Alpenstrom: Ausfallrisiko 43'200 nicht wertberichtigt – unwesentlich, nicht korrigiert. | rm 30.04.2025 |
+
+4.3 Punkte für Schlussbesprechung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Punkte | Überschuldung/Rangrücktritte, Fortführung, Umbuchungen U1–U3, Alpenstrom, Anhang-Ergänzungen, Empfehlungen. | rm 30.04.2025 |
+
+4.4 Reviewprotokoll
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Review jb 09.05.2025 | Fragen zu A2-331 (Bonität Rangrücktrittgeber) und F2-304 (P-2024-11) – durch rm beantwortet, erledigt. | rm 30.04.2025 |
+
+4.5 Anhangübersicht
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Anhang | Ziff. 1–10 und Antrag geprüft; Ergänzungen Garantien, Globalzession, Bankdarlehen auf Hinweis der Revision eingefügt. | rm 30.04.2025 |
+
+4.6 Übrige Notizen
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Notiz | Kontrollzählung Inventur 31.12.2024 durch rm. | rm 30.04.2025 |
+
+ASF 5 – Prüfungsbeendigung
+5.1 Nicht nachgebuchte Fehler
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Wesentlichkeit Planung/Beendigung | 80'000 / 80'000; Toleranz 60'000; NAG 8'000. | jb 12.05.2025 |
+| Nicht korrigiert | Wertberichtigung Alpenstrom −43'200 (Ergebnis); Zinsabgrenzung +1'292 – total −41'908. | jb 12.05.2025 |
+| Beurteilung | Einzeln und zusammen nicht wesentlich; Deckung Überschuldung bleibt positiv (68'387 − 41'908 = 26'479). Keine Anpassung des Prüfplans. | jb 12.05.2025 |
+
+5.2 Abschliessende analytische Prüfung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Ergebnis | Jahresrechnung nach Umbuchungen konsistent mit Prüfungserkenntnissen (3-02). | jb 12.05.2025 |
+
+5.3 Abschliessende Prüfungen
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Berichterstattung | c) Bericht mit Hinweis (Überschuldung, Fortführung). | jb 12.05.2025 |
+| Nachträgliche Ereignisse | a) Befragung, b) Protokolle, c) Zwischenabschluss Q1 2025, e) Journal 2025, f) Bankverträge (Waiver) – Ereignisse: Kapitalerhöhung, Rangrücktritte, Waiver. | jb 12.05.2025 |
+| Fehlerbeurteilung | Wesentliche Nachtragsbuchungen vorgenommen (U1–U3). | jb 12.05.2025 |
+| Finanzielle Lage | Unsicherheit Fortführung vorhanden; EK-Situation bedenklich; Liquidität angespannt. | jb 12.05.2025 |
+| Mandat | Weiterführung empfohlen; Risikoeinstufung H. | jb 12.05.2025 |
+
+5.4 Konsultation
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Sachverhalte | OR 725b Rangrücktritt und Hinweis im Bericht, Going-Concern-Formulierung. | jb 12.05.2025 |
+| Ergebnis | Formulierung Hinweis Überschuldung und Fortführung bestätigt; Rangrücktritte ausreichend (Stand Berichtsdatum). | jb 12.05.2025 |
+| Freigabe | Sachverhalte dokumentiert; Formulierung stimmt mit Ergebnis überein; Bericht freigegeben. | jb 12.05.2025 |
+
+5.5 Auftragbegleitende QS
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| QS | Durchgeführt am 09.05.2025 vor Berichtsdatum: Unabhängigkeit, Risiken, wesentliche Feststellungen und Bericht beurteilt – keine offenen Punkte. | jb 12.05.2025 |
+
+5.6 Berichtskritik
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Formell | Aktuelle Vorlage, Adressat/Firma/Stichtag korrekt, Datum = Prüfungsbeendigung 12.05.2025, Unterzeichnung durch leitenden Revisor, Vorjahresangaben plausibilisiert. | jb 12.05.2025 |
+| Freigabe | Bericht kann freigegeben werden. | jb 12.05.2025 |
+
+5.7 Nachverfolgung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Nachverfolgung | GV 20.06.2025 (Genehmigung JR 2024) – Protokoll im Folgejahr einfordern. | jb 12.05.2025 |
+
+5.8 Hinweise Folgejahr
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| 1 Überschuldung | Reserve nach Sanierung nur 68'387 – jeder Verlust 2025 führt wieder zu Unterdeckung. Zwischenbilanz 30.06.2025 einfordern; Rangrücktritte erhöhen lassen. | jb 12.05.2025 |
+| 2 Rangrücktritte | Originale A/B/D/E vom 28.02.2025 (je samt Zinsen) – Fortbestand und Höhe im Folgejahr bestätigen lassen; Änderungen kritisch prüfen. | jb 12.05.2025 |
+| 3 Debitor Alpenstrom | 86'400 überfällig, Betreibung 02/2025 – Wertberichtigung im Folgejahr zwingend neu beurteilen (Konkursrisiko). | jb 12.05.2025 |
+| 4 Projekt P-2024-11 | Marge nur 1 % – Restkosten überwachen, drohenden Verlust prüfen. | jb 12.05.2025 |
+| 5 Mietvertrag | Mietkaution 200'000 ab 06.01.2025 – als langfristig gebundene Finanzanlage ausweisen. | jb 12.05.2025 |
+| 6 Kapitalerhöhung | Agio 3'233'333 als gesetzliche Kapitalreserve ausweisen (nicht freiwillige Gewinnreserve); Aktienbuch auf 1'000 Aktien nachführen; Emissionsabgabe klären. | jb 12.05.2025 |
+| 7 Anhang | Garantien, Globalzession und Bankdarlehen wie 2024 offenlegen. | jb 12.05.2025 |
+| 8 Gemeinkostenzuschlag | Nur herstellungsbezogene Kosten (2024: 14 %) – Stetigkeit prüfen. | jb 12.05.2025 |
+| 9 Ferien/Überzeit | Saldoliste per Stichtag bewerten (2024 erst nach Hinweis korrigiert). | jb 12.05.2025 |
+| 10 GV-Frist | Genehmigung JR 2025 bis 30.06.2026 überwachen. | jb 12.05.2025 |
+
+ASF 6 – GV/VR/Management
+6.1 Protokolle
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Protokolle | oGV 21.06.2024, VR 16.12.2024, ao GV 20.01.2025 (Kapitalerhöhung), VR 10.03.2025 – 6-01 bis 6-03, P-03. | rm 30.04.2025 |
+
+ASF 7 – Unterlagen zum Abschluss
+7.1 Vollständigkeitserklärung
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| VE | Unterzeichnet 12.05.2025 – 7-01. | rm 30.04.2025 |
+
+7.2 Jahresrechnung unterzeichnet
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| JR | Unterzeichnet 12.05.2025 – 7-02. | rm 30.04.2025 |
+
+7.3 Saldobilanz
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Saldobilanz | HB I/HB II mit VJ – 7-03. | rm 30.04.2025 |
+
+7.4 Umbuchungsliste unterzeichnet
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Umbuchungen | U1–U3, total −48'400; Initialergebnis −7'004'554.62 → −7'052'954.62 – 7-04. | rm 30.04.2025 |
+
+7.5 Stille Reserven unterzeichnet
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Stille Reserven | 25'000 (VJ 38'000) – 7-05. | rm 30.04.2025 |
+
+ASF 8 – Korrespondenz
+8.1 Briefe
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Briefe | Auftragsbestätigung 2-05; Anforderung Unterlagen 28.03.2025. | rm 30.04.2025 |
+
+8.2 Externe Bestätigungen
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Bestätigungen | Bankbestätigungen Testbank Ostschweiz AG und Fiktiva Regionalbank AG, Saldobestätigung SolarTech – Ordner 08. | rm 30.04.2025 |
+
+ASF 9 – Dauerakten
+9 Übersicht
+| Frage / Thema | Antwort / Dokumentation | Visum |
+|---|---|---|
+| Dauerakten | Statuten, Organe, Bankverträge, Darlehen, Rangrücktritte, Mietvertrag – 9-01. | rm 30.04.2025 |
+
+Prüffelder (Prüfungsnachweise) A–T
+A1 Allgemeine Prüfungshandlungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze. | GF/Finanzen befragt (22.04.2025): Darstellung neu mit separatem Ausweis Bankdarlehen 2400; Bewertungsgrundsätze unverändert (angefangene Arbeiten zu Herstellkosten, GK-Zuschlag 14 %). | 2-07 | rm 30.04.2025 |
+| 102 | Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offen gelegt? | Ereignisse nach Bilanzstichtag (Kapitalerhöhung 20.01.2025, Rangrücktritte 28.02.2025, Waiver Bank 15.01.2025) im Anhang Ziff. 10 offengelegt. | 7-02, 6-03 | rm 30.04.2025 |
+| 103 | Vollständigkeitserklärung besprechen und unterzeichnen lassen. | Vollständigkeitserklärung besprochen (Schlussbesprechung 06.05.2025) und am 12.05.2025 unterzeichnet erhalten. | 7-01 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Entspricht die Jahresrechnung dem Verständnis des Abschlussprüfers von der Tätigkeit und dem Umfeld des Unternehmens? | Ja. Verlust 2024 (−7.05 Mio.) erklärt sich durch Personalaufbau auf über 90 Personen bei Umsatzrückgang und Projektverzögerungen; deckt sich mit VR-Protokoll 16.12.2024. | 3-02, 6-02 | rm 30.04.2025 |
+| 202 | Werden die zuvor aus der Prüfung einzelner Positionen gezogenen Schlüsse erhärtet? | Ja. Schlüsse der Prüffelder (insb. F2, K1, N1, P1) werden durch die abschliessende Analytik bestätigt. | 3-02 | rm 30.04.2025 |
+| 203 | Beurteilung der Auswirkung nicht korrigierter Fehler - sowohl einzeln als auch zusammen gekommen. Information der Unternehmensleitung über die Fehler. | Nicht korrigiert: Wertberichtigung Debitor Alpenstrom 43'200 (50 %) – unter Toleranzwesentlichkeit 60'000; Zinsdifferenz 1'292 unter NAG. Information VR an Schlussbesprechung. | ASF 5.1, 1-02 | rm 30.04.2025 |
+| 204 | Sind die Grundlagen und Grundsätze ordnungsmässiger Rechnungslegung gemäss OR 958a und 958c eingehalten? | Ja, OR 958a/958c eingehalten; Unternehmensfortführung mit wesentlicher Unsicherheit offengelegt (Anhang Ziff. 10). | 7-02 | rm 30.04.2025 |
+| 205 | Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern)? | Ja, Fortführungsannahme; wesentliche Unsicherheit – siehe A2 und Bericht mit Hinweis. | A2 | rm 30.04.2025 |
+| 206 | Werden die für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen in der Bilanz, der Erfolgsrechnung oder im Anhang ausgewiesen (Art. 959a Abs. 3 OR und Art. 959b Abs. 5 OR)? | Ja. Bankdarlehen 2400 neu separat ausgewiesen; Eventualverbindlichkeiten, verpfändete Aktiven und Mietverpflichtungen im Anhang. | 7-02 | rm 30.04.2025 |
+| 207 | Plausibilisierung von Bestand und Veränderungen stiller Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Prüffeldern; Offenlegung einer wesentlichen Nettoauflösung im Anhang. | Stille Reserven Vorräte 25'000 (VJ 38'000); Nettoauflösung 13'000 unwesentlich, keine Offenlegung nötig. | 7-05 | rm 30.04.2025 |
+| 208 | Zwischenabschluss: Feststellung, ob die Vereinfachungen und Verkürzungen bei der Erstellung eines Zwischenabschlusses nach Art. 960f OR für den Zweck einer Zwischendividende gemäss Art. 675a Abs. 2 OR die Darstellung des Geschäftsgangs nicht beeinträchtigen. | n/a – Kein Zwischenabschluss für Zwischendividende. |  |
+| Detailprüfungen |
+| 301 | Feststellen, ob Jahresrechnung rechtsgültig unterzeichnet wurde. | Jahresrechnung am 12.05.2025 von VR-Präsident und Leiterin Finanzen unterzeichnet. | 7-02 | rm 30.04.2025 |
+| 302 | Abstimmung des Vortrags der Vorjahresbestände auf die neue Rechnung mit Unterlagen des Vorjahres (geprüfte Jahresrechnung, falls vorhanden). | Vortrag Vorjahresbestände mit geprüfter Jahresrechnung 2023 (Bericht 30.04.2024, Normalwortlaut) abgestimmt – keine Differenzen. | 7-03 | rm 30.04.2025 |
+| 303 | Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung. | Saldobilanz HB II mit Jahresrechnung abgestimmt – keine Differenzen. | 7-03 | rm 30.04.2025 |
+| 304 | GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen. Weitere mögliche Prüfungsgenstände: • Genehmigung der letzten Jahresrechnung innerhalb von sechs Monaten • Wahl der Revisionsstelle • Beschluss über die Verwendung des Bilanzgewinns (umfasst auch einen allfälligen Bilanzverlust) • Feststellen, ob die Jahresrechnung bzw. der Zwischenabschluss vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung bzw. den Zwischenabschluss zuständigen Person unterzeichnet oder formell gutgeheissen wurde. | Protokolle oGV 21.06.2024 (Genehmigung JR 2023 innert 6 Monaten, Wahl RS, Gewinnverwendung), VR 16.12.2024 und 10.03.2025 gelesen; Sachverhalte in Planung berücksichtigt. | 6-01–6-03 | rm 30.04.2025 |
+| 305 | Prüfung, ob die Jahresrechnung vollständig ist: • Bilanz • Erfolgsrechnung • Geldflussrechnung (nur für grössere Unternehmen) • Anhang • Gewinnverwendung | Vollständig: Bilanz, Erfolgsrechnung, Anhang, Antrag Verwendung Bilanzverlust. Keine Geldflussrechnung nötig. | 7-02 | rm 30.04.2025 |
+| 306 | Prüfung, ob die Mindestgliederungsvorschriften eingehalten sind: • im Umlaufvermögen • im Anlagevermögen • im kurzfristigen Fremdkapital • im langfristigen Fremdkapital • im Eigenkapital • in der Erfolgsrechnung (Produktions- oder Absatzerfolgsrechnung) | Mindestgliederung OR 959a/959b eingehalten (Produktionserfolgsrechnung). | 7-02 | rm 30.04.2025 |
+| 307 | Abstimmung des ausgewiesenen Jahresgewinns (oder Jahresverlusts) im Eigenkapital, der Erfolgsrechnung sowie im Antrag über die Verwendung des Bilanzgewinns. | Jahresverlust −7'052'954.62 in Bilanz, ER und Antrag übereinstimmend. | 7-02 | rm 30.04.2025 |
+| 308 | Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis; Offenlegung einer wesentlichen Nettoauflösung im Anhang. | Detailnachweis stille Reserven abgestimmt. | 7-05 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Prüfung, ob die Geldflussrechnung folgende Mindestgliederung hat: • Geldfluss aus Geschäftstätigkeit • Geldfluss aus Investitionstätigkeit • Geldfluss aus Finanzierungstätigkeit | n/a – Keine Geldflussrechnung erforderlich (kein grösseres Unternehmen, OR 961). |  |
+| 402 | Prüfung der Korrektheit der Geldflussrechnung: • korrekter Fonds (Flüssige Mittel oder Netto Flüssige Mittel) • Jahresergebnis stimmt mit Erfolgrechnung überein • Abschreibungen stimmen mit der Erfolgsrechnung überein • Vollständigkeit der nicht-liquiditätswirksamen Aufwände und Erträge (z.B. Veränderung Rückstellungen, Erfolg aus Anlagenverkäufen, Veränderung Delkredere) • richtige Zuordnung zu Geldfluss aus Geschäftstätigkeit, Investitionstätigkeit oder Finanztätigkeit • richtige Behandlung der Investitionstätigkeit (Abstimmung mit Anlagespiegel) • richtige Behandlung der Desinvestitionen (Verkaufszahlen) • korrekte Berücksichtigung von Veränderungen von Arbeitgeberbeitragsreserven • korrekte Berücksichtigung von Dividendenausschüttungen • Geldflussrechnung stimmt mit Veränderung des Fonds überein | n/a – Keine Geldflussrechnung. |  |
+| 403 | Vollständigkeit des Lageberichtes: • Anzahl Vollzeitstellen im Jahresdurchschnitt • Durchführung einer Risikobeurteilung • Bestellungs- und Auftragslage • Forschungs- und Entwicklungstätigkeit • aussergewöhnliche Ereignisse • Zukunftsaussichten | n/a – Kein Lagebericht erforderlich (OR 961c nicht anwendbar). |  |
+| 404 | Prüfen, ob der Lagebericht nicht der Darstellung der wirtschaftlichen Lage in der Jahresrechnung widerspricht. | n/a – Kein Lagebericht. |  |
+| 405 | Prüfung, ob die Angaben im Revisionbericht mit der Jahresrechnung sowie mit den bei der Prüfung gewonnenen Erkenntnissen konsistent sind und ob es keine Widersprüche darin hat | Bericht (Hinweis Überschuldung und Fortführung) konsistent mit Jahresrechnung und Prüfungsergebnissen. | 1-03 | rm 30.04.2025 |
+
+A2 Going concern
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Besprechung der Ursachen mit dem Management, die zu diesen Zweifeln führten | Ursachen mit GF/VR besprochen: Personalaufbau 2024, tiefere Marge, Projektverzögerungen; Gegenmassnahmen Personalabbau auf ~50 Stellen ab Q1 2025. | 6-02 | rm 30.04.2025 |
+| 102 | Befragung von Rechtsberatern | Kein Rechtsberater beigezogen; keine Rechtsfälle (Befragung, Kontendurchsicht 6530). |  | rm 30.04.2025 |
+| 103 | Aufforderung an das Management, seine Einschätzung zur Fortführungsfähigkeit der Unternehmung vorzunehmen | Einschätzung VR liegt vor (Protokoll 10.03.2025, Vollständigkeitserklärung). | 6-03, 7-01 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Analyse des Budgets für das kommende Jahr | Budget 2025: Betriebsertrag 9.0 Mio., Personal 50 Stellen, Ergebnis ausgeglichen – Annahmen ambitioniert, aber nachvollziehbar (Auftragsbestand). | 6-03 | rm 30.04.2025 |
+| 202 | Analyse des Zwischenabschlusses | Zwischenabschluss Q1 2025 (intern) eingesehen: Umsatz 1.9 Mio., Verlust −0.12 Mio.; Personalbestand 54. |  | rm 30.04.2025 |
+| 203 | Analyse von Liquiditätsplänen | Liquiditätsplan bis 03/2026 analysiert: Tiefpunkt 06/2025 rund 180'000 bei Limite 3 Mio. (nach Kapitalerhöhung). |  | rm 30.04.2025 |
+| 204 | Analyse von Finanzplänen | Finanzplan 2025–2026 eingesehen; Amortisation Bankdarlehen 240'000 p.a. berücksichtigt. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Einsichtnahme in GV-Protokolle | oGV 21.06.2024 und ao GV 20.01.2025 (Kapitalerhöhung) eingesehen. | 6-01, P-03 | rm 30.04.2025 |
+| 302 | Einsichtnahme in Protokolle des Managements und des Verwaltungsrates | VR-Protokolle 16.12.2024 (Überschuldung, Sanierungskonzept) und 10.03.2025 (Vollzug) eingesehen. | 6-02, 6-03 | rm 30.04.2025 |
+| 303 | Beurteilung von Ereignissen nach dem Bilanzstichtag | Ereignisse nach Stichtag beurteilt: Kapitalerhöhung, Rangrücktritte, Bank-Waiver – wirken sanierend; keine negativen Ereignisse. | P-02 | rm 30.04.2025 |
+| 305 | Beurteilung der Pläne des Managements zu zukünftigen Massnahmen hinsichtlich der Fortführung der Unternehmenstätigkeit | Massnahmenplan (Personalabbau, Kostensenkung, Auftragspipeline Solaris Testpartner AG) plausibel; Umsetzung teilweise bereits erfolgt. | 6-03 | rm 30.04.2025 |
+| 306 | Beurteilung der zugrunde liegenden Daten und Annahmen, die zur Aufstellung der Prognose beigezogen wurden | Annahmen Budget mit Auftragsbestand und Anzahlungen abgeglichen; Margenannahme 18 % kritisch (2024: 9 %). | 3-02 | rm 30.04.2025 |
+| 307 | Zahlungsunfähigkeit: Feststellung, ob das oberste Leitungsorgan Massnahmen zur Sicherstellung der Zahlungsfähigkeit (Art. 725 Abs. 2 OR) ergriffen hat | Keine drohende Zahlungsunfähigkeit gemäss Liquiditätsplan; Waiver Bank liegt vor. | 8 Fiktiva | rm 30.04.2025 |
+| 308 | Anforderung schriftlicher Erklärungen vom Management zu deren Plänen für zukünftige Fortführung | Schriftliche Erklärung in Vollständigkeitserklärung enthalten. | 7-01 | rm 30.04.2025 |
+| 309 | Beurteilung im Hinblick auf die Berichterstattung | Bericht mit Hinweis auf Überschuldung und wesentliche Unsicherheit Fortführung (Anhang Ziff. 10). | 1-03 | rm 30.04.2025 |
+| 320 | OR 725a Feststellen, um was für eine Art von Kapitalverlust es sich handelt und ob dieser mit bilanzkosmetischen Massnahmen beseitigt werden kann | Kapitalverlust (OR 725a) und Überschuldung (OR 725b) liegen vor; nicht durch Bilanzkosmetik behebbar. | P-02 | rm 30.04.2025 |
+| 321 | OR 725a Feststellen, ob eine ausserordentliche Generalversammlung stattgefunden hat | Ja, ao GV am 20.01.2025 (Kapitalerhöhung). | P-03 | rm 30.04.2025 |
+| 322 | OR 725a Feststellen, ob Sanierungsmassnahmen beantragt wurden | Ja, Sanierungsmassnahmen beantragt und beschlossen. | P-03, 6-02 | rm 30.04.2025 |
+| 323 | OR 725a Beurteilung der vorgeschlagenen Sanierungsmassnahmen | Kapitalerhöhung 3'313'333 und Rangrücktritte 2'620'000 samt Zinsen beseitigen die Überschuldung rechnerisch (Reserve 68'387) – knapp. | P-02 | rm 30.04.2025 |
+| 324 | OR 725a Beurteilen, ob eine Einberufung einer ausserordentlichen Generalversammlung durch die Revisionsstelle ins Auge gefasst werden muss | Nicht erforderlich – VR hat gehandelt. |  | rm 30.04.2025 |
+| 330 | OR 725b Feststellen, um was für eine Art von Überschuldung es sich handelt und ob diese mit bilanzkosmetischen Massnahmen beseitigt werden kann (z.B. Auflösung stiller Reserven) | Überschuldung zu Fortführungs- (−5.86 Mio.) und Veräusserungswerten (−8.0 Mio.); keine stillen Reserven zur Auflösung von Bedeutung. | P-02 | rm 30.04.2025 |
+| 331 | OR 725b Feststellen, ob ein Rangrücktritt vorliegt. Wenn ja, prüfen, ob • ein anerkannter Formulierungsvorschlag angewendet wurde • der Rangrücktritt ordnungsgemäss unterzeichnet worden ist (beide Parteien, verschiedene Vertragspartner) • die Bonität des Gläubigers zu keinen Zweifeln Anlass gibt • die Höhe des Rangrücktritts auch mögliche Verluste für das kommende Jahr abdeckt und die Zinsen beinhaltet • die Liquidität und Finanzierung gesichert ist | Rangrücktritte A, B, D, E (2'600'000) vom 28.02.2025: Formulierung nach anerkanntem Muster (Rücktritt samt Zinsen, Verzicht auf Zahlungen, unwiderruflich), von beiden Parteien unterzeichnet. Bonität: Gläubiger sind Aktionäre, keine Zweifel. Höhe deckt die Überschuldung, aber nur knapp (Reserve 68'387) – zusätzliche Verluste 2025 sind nicht abgedeckt → Hinweis Folgejahr. | L-04, P-02 | rm 30.04.2025 |
+| 332 | OR 725b Prüfung der Zwischenbilanz zu Fortführungs- und Liquidationswerten | Zwischenbilanz zu Fortführungs- und Veräusserungswerten geprüft (Veräusserungswerte mit Abschlägen Vorräte −40 %, angefangene Arbeiten −40 %). | P-02 | rm 30.04.2025 |
+| 333 | OR 725b Beurteilen, ob eine Benachrichtigung des Richters notwendig ist | Benachrichtigung des Gerichts nicht notwendig (Rangrücktritte im Ausmass der Unterdeckung nach Kapitalerhöhung). | P-02, 1-03 | rm 30.04.2025 |
+
+A3 FinfraG
+Nicht anwendbar: Die Gesellschaft hält und handelt keine Derivate (Befragung GF 22.04.2025, Bankbestätigungen ohne Derivate). Kategorie NFG-.   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Unter welchen Titel fällt das Unternehmen? • (FG) Finanzielle Gegenparteien (Banken, Effektenhändler etc.) [FINMA-Aufsicht] • (FG-) Kleine Finanzielle Gegenparteien (Banken, Effektenhändler etc. unter den Schwellenwerten) [FINMA-Aufsicht] • (NFG) Nichtfinanzielle Gegenparteien • (NFG-) Kleine Nichtfinanzielle Gegenpartei (unter Schwellenwerten) | n/a – Nicht anwendbar |  |
+| 102 | Hat das Unternehmen einen Befreiungsbeschluss gefasst? Eine NFG- kann sich von den Pflichten des FinfraG (inkl. Dokumentationsvorschriften) befreien, indem das oberste Leitungs- oder Verwaltungsorgan einen expliziten Beschluss fasst, keine Derivate im Sinne des FinfraG zu halten und/oder zu handeln. Ein solcher Beschluss ist schriftlich festzuhalten. | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Dokumentation der Planung: a. Prüfungsplanung: Angemessene Berücksichtigung der Risikoexponierung des Unternehmens im Hinblick auf FinfraG (Risiko: H / M / T) b. Dokumentation der Prüfungsstrategie: • Erstprüfung: angemessene Abdeckung aller Prüfgebiete • Folgeprüfungen: Rotationsplan mit Schwerpunkten möglich (Reporting, Risikominderung, etc.) c. Sinngemässe Anwendung von • ISA-CH 230 Prüfungsdokumentation • ISA-CH 402 Überlegungen bei Einheiten, die Dienstleister in Anspruch nehmen • ISA-CH 610 Verwertung von Arbeiten Interner Prüfer • ISA-CH 620 Verwertung der Arbeit eines Sachverständigen | n/a – Nicht anwendbar |  |
+| 302 | Festlegung der Wesentlichkeit für Prüfung gemäss FinfraG (Kein direkter Zusammenhang zur Wesentlichkeitsberechnung, die im Rahmen der Abschlussprüfung der Jahresrechnung angewendet wird): a. Quantitativ: Gemäss Zielsetzung des FinfraG (Systemstabilität und Transparenz im Derivatemarkt) b. Qualitativ: Einhaltung der FinfraG-Pflichten auf Unternehmensebene. | n/a – Nicht anwendbar |  |
+| 303 | Beurteilung der Dokumentation im Hinblick auf das Erreichen der Schwellenwerte und das Ergreifen der entsprechenden Massnahmen. (Unter diesen Schwellen gilt das Unternehmen als NFG-) Durchschnittsbruttopositionen ausstehender OTC-Derivatgeschäfte von NFG (Konzernsicht): a. Kreditderivate: CHF 1.1 Mrd. b. Aktienderivate: CHF 1.1 Mrd. c. Zinsderivate: CHF 3.3 Mrd. d. Devisenderivate: CHF 3.3 Mrd. e. Rohwarenderivate und sonstige Derivate: CHF 3.3 Mrd. | n/a – Nicht anwendbar |  |
+| 304 | Schwellenwerte: Funktionsbezogene Prüfungshandlungen: a. Periodische Überprüfung der eingesetzten Derivate b. Periodische Überprüfung der Schwellenwerte c. Periodische Überprüfung der Einhaltung interner Richtlinien hinsichtlich Einsatz von Derivaten | n/a – Nicht anwendbar |  |
+| 305 | Schwellenwerte: aussagebezogene Prüfungshandlungen: a. Nachvollzug der Berechnung der Schwellenwerte b. Überprüfung der eingesetzten Derivate (werden FinfraG-relevante Derivate eingesetzt) c. Stichprobenweise Berechnung der Schwellenwerte nachprüfen d. Überprüfung der internen Richtlinien hinsichtlich Einsatz von Derivaten e. Durchsicht der Protokolle von Verwaltungsrat und Geschäftsleitung | n/a – Nicht anwendbar |  |
+| 306 | Beurteilung der Dokumentation im Hinblick auf die Einhaltung allfälliger Meldepflichten.: Meldepflichtig ist die grössere Partei (FG, FG-, NFG). Deshalb kann die NFG- in folgenden Fällen meldepflichtig werden: a. Gegenpartei auch NFG- b. Transaktionen mit natürlichen Personen c. ausländische Gegenpartei | n/a – Nicht anwendbar |  |
+| 307 | Meldepflichten: Funktionsbezogene Prüfungshandlungen: a. Überprüfung der Vollständigkeit und Korrektheit der Meldung b. Überprüfung der Einhaltung der Meldefristen | n/a – Nicht anwendbar |  |
+| 308 | Meldepflichten: aussagebezogene Prüfungshandlungen: • Stichprobenmässige Prüfung, ob einzelne Meldungen rechtsgenügend erfolgten | n/a – Nicht anwendbar |  |
+| 309 | Beurteilung der Dokumentation im Hinblick auf die Einhaltung der Pflichten zur Risikominderung: a. rechtzeitige Bestätigung der Vertragsbedingungen b. Implementation von Prozessen zur frühzeitigen Erkennung von Meinungsverschiedenheiten c. Regelmässige Durchführung von Portfoliokompressionen | n/a – Nicht anwendbar |  |
+| 310 | Risikominderung: Funktionsbezogene Prüfungshandlungen: a. Periodische Überprüfung der Einhaltung der Bestätigungsfrist der Derivate (falls keine stillschweigende Bestätigung vorgesehen ist) b. Periodische Überprüfung der rechtlichen (Master-) Verträge (z.B. ISDA) hinsichtlich Regelungen zur Streitbeilegung c. Periodische Überprüfung, ob der Schwellenwert von 500 offenen OTC-Derivaten für die Portfoliokompression überschritten ist d. Periodische Überprüfung, ob eine allfällig notwendige Portfoliokompression durchgeführt wird und ob die Ziele der Portfoliokompression erreicht werden | n/a – Nicht anwendbar |  |
+| 311 | Risikominderung: aussagebezogene Prüfungshandlungen: a. Analyse der Vereinbarungen hinsichtlich der Streitbeilegung b. Stichprobenmässige Prüfung der halbjährlichen Dokumentation hinsichtlich Portfoliokompression (falls mehr als 500 OTC Derivatgeschäfte offen stehen) bzw. stichhaltiger und nachvollziehbarer Begründung für deren Nichtdurchführung c. Nachvollzug der durchgeführten Portfoliokompression d. Stichprobenmässige Prüfung der Anzahl offener Derivate zu einem ausgewählten Stichtag e. Stichprobenweise Prüfung der zeitgerechten Rückbestätigung von Derivaten (falls keine stillschweigende Derivatebestätigung vereinbart wurde) f. Stichprobenweise Prüfung von (Master-) Verträgen (z.B. ISDA) hinsichtlich Regelungen zur Streitbeilegung | n/a – Nicht anwendbar |  |
+| 312 | Prüfungsergebnis / jährliche Berichterstattung: a. eingeschränkte Revision: schriftlich oder mündlich möglich (Besprechungsprotokoll) (negative Zusicherung) b. ordentliche Revision: im umfassenden Bericht an den Verwaltungsrat (positive Zusicherung) | n/a – Nicht anwendbar |  |
+| 313 | Einhalten der Meldepflicht des Prüfers, wenn das Unternehmen einen Verstoss nicht innert angesetzter Frist behebt (schriftliche Meldung an EFD). | n/a – Nicht anwendbar |  |
+
+A4 Covid-19
+Nicht anwendbar: Kein COVID-19-Kredit beantragt oder bezogen (Befragung, Bankbestätigungen, Kontendurchsicht).   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Hat das Unternehmen eine Covid-19 Bürgschaft beantragt und eine Auszahlung erhalten? a) Datum des Bürgschaftsvertrages festhalten b) Ablage der Bürgschaft in den Dauerakten c) Datum und Betrag der Auszahlung festhalten d) Beantragter Covid-19-Kredit in % des Nettoumsatzes des letzten Jahresabschlusses | n/a – Nicht anwendbar |  |
+| 102 | Wofür wurde das Darlehen verwendet? zulässig (Art. 2, Abs. 1 SBüG): • Sicherstellen der Liquiditätsbedürfnisse der Kreditnehmerin infolge der Covid-19-Epidemie; nicht zulässig (Art. 2, Abs. 2 SBüG): • Dividendenausschüttung, Tantiemen, Rückerstattung von Kapitaleinlagen, Rückkauf eigener Aktien • Gewährung von Darlehen und Ablösung von Finanzierungen gegenüber bzw. von Gruppengesellschaften und Eigentümern • (Neu-)Ausbauinvestitionen bis zum 19.12.2020 (Inkraftsetzung SBüG) | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Detailprüfung, ob eine unzulässige Dividendenausschüttung (Tantiemen) erfolgt ist. | n/a – Nicht anwendbar |  |
+| 302 | Detailprüfung, ob Kapitaleinlagen rückerstattet wurden oder ob eigene Aktien zurückgekauft wurden. | n/a – Nicht anwendbar |  |
+| 303 | Detailprüfung, ob Darlehen und/oder Ablösungen von Finanzierungen gegenüber bzw. von Gruppengesellschaften und Eigentümern unrechtmässig gewährt wurden | n/a – Nicht anwendbar |  |
+| 304 | Detailprüfung, ob mit dem COVID-19-Kredit (Neu-) Ausbauinvestitionen bis zum 19.12.2020 (Inkraftsetzung SBüG) finanziert wurden. | n/a – Nicht anwendbar |  |
+| 305 | In der eingeschränkten Revision besteht gemäss SER 1.5 keine Pflicht, nach Gesetzesverstössen ausserhalb der Rechnungslegung zu suchen. Es liegt aber in der Natur der Sache, dass der Prüfer Feststellungen im COVID-19-Zusammenhang trotzdem anmerkt. | n/a – Nicht anwendbar |  |
+| 306 | Wenn ein Verwendungsverbot verletzt wurde, setzt die Revisionsstelle den Organen eine Frist an, dass die Gesellschaft den ordnungsgemässen Zustand wieder herstellt (Art. 23 SBüG). Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die zuständige Bürgschaftsorganisation informieren. | n/a – Nicht anwendbar |  |
+| 307 | Korrekter Ausweis in der Jahresrechnung: a) Bilanz: Unter den verzinslichen Verbindlichkeiten (kurz- oder langfristig), entweder separat oder in Sammelposition ausgewiesen? b) Anhang: sind insbesondere folgende Punkte adressiert (Auflagen der Kreditgeber): • Betrag, Verzinsung und (beabsichtigte) Dauer der Inanspruchnahme • Investitionsrestriktionen • Unzulässigkeit von Ausschüttungen • Restriktionen betreffend Gewährung und Ablösung von Finanzierungen gegenüber bzw. von Gruppengesellschaften und Eigentümern • weitere relevante Punkte aus Kreditvereinbarungen Auswirkungen auf Situationen mit Kapitalverlust / Überschuldung nach OR 725b | n/a – Nicht anwendbar |  |
+| 308 | Arbeitgeberbeitragsreserve (AGBR): Gemäss COVID-19-Verordnung berufliche Vorsorge können Arbeitnehmerbeiträge an die berufliche Vorsorge temporär aus den ordentlichen AGBR finanziert werden. Ausweis der Verwendung entweder im a.o. Erfolg oder verrechnet im Personalaufwand mit zwingender Angabe im Anhang. | n/a – Nicht anwendbar |  |
+| 309 | Kurzarbeitsentschädigung (KAE): Verbuchung als Personalaufwand-Minderung. Wesentliche verrechnete Beträge (wie die KAE) sind im Anhang der Jahresrechnung als Aufschlüsselung zu Positionen der Erfolgsrechnung offenzulegen. | n/a – Nicht anwendbar |  |
+| 310 | Durchführen einer Covid-19-Kreditverwendungsprüfung gemäss Spezialauftrag durch eine Bürgschaftsgenossenschaft | n/a – Nicht anwendbar |  |
+
+Abschliessende Beurteilung Prüffeld A: Keine Sachverhalte, die nicht Gesetz und Statuten entsprechen. Überschuldung durch Sanierung gedeckt; Hinweis im Bericht.   Visum rm 30.04.2025 / Review jb 09.05.2025
+B1 Flüssige Mittel, Aktiven mit Börsenkurs
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über allfällige Verpfändung und Verfügungsbeschränkungen | Befragung: Globalzession Debitoren, keine Verpfändung von Bankguthaben. | 8 Fiktiva | rm 30.04.2025 |
+| 102 | Befragung zu aussergewöhnlichen Geldtransaktionen | Keine aussergewöhnlichen Transaktionen ausser Übertrag Fiktiva → Testbank 300'000 (20.12.2024, Lohnzahlung). | B-01, B-04 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Kritische Beurteilung des Kassenbestandes (Höhe, Entwicklung) | n/a – Keine Kasse geführt (Spesen über Musterpay-Karte). |  |
+| 202 | Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag | Übertrag 300'000 vom 20.12.2024 beidseitig gebucht. | B-01, B-04 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und a) Kassabuch, Kassenaufnahmeprotokoll b) PC-Standmeldung c) Bankauszug, Bankbestätigung d) Korrespondenz Festgeld-Anlagen | Abgestimmt: 1011 280'000, 1012 5'000 (EUR 5'319.15), 1013 20'000, 1010 350'000 mit Kontoauszügen und Bankbestätigungen; 1030 6'969.04 mit App-Auszug. | B-01–B-05, 8 | rm 30.04.2025 |
+| 302 | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc. | EUR-Kurs 0.9400 entspricht Stichtagskurs der Bank. | B-02 | rm 30.04.2025 |
+| 303 | Prüfung richtige Verbuchung Zinsen, Verrechnungssteuern | Zinsen auf Reservekonto 0.00; keine Verrechnungssteuer. | B-03 | rm 30.04.2025 |
+| 304 | Beurteilung der Liquiditätsentwicklung und Überprüfung der Kreditlimiten | Liquidität stark gesunken (VJ 1.78 Mio. → 0.66 Mio.); Kontokorrentkredit mit 2.9 Mio. von 3 Mio. fast ausgeschöpft – Hinweis A2. | 3-02, 8 | rm 30.04.2025 |
+| 305 | Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen | Hauptbuchkonten durchgesehen; keine ungewöhnlichen Buchungen. | 7-03 | rm 30.04.2025 |
+| 306 | Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge | Bankverträge (Kredit, Darlehen, Zession) eingesehen; Covenant EK-Quote 15 % verletzt, Waiver vom 15.01.2025. | 8 Fiktiva, 9-01 | rm 30.04.2025 |
+| 307 | Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte | n/a – Keine offenen Devisenkontrakte (Bankbestätigungen). |  |
+| 308 | Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anhand anderer Unterlagen | n/a – Keine Wertschriften. |  |
+| 309 | Belegprüfung einzelner wesentlicher Wertschriftentransaktionen | n/a – Keine Wertschriften. |  |
+| 310 | Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen | Konten lauten auf die Gesellschaft (Bankbestätigungen). | 8 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-303) | Anhang: Globalzession und Garantien offengelegt (T1). | 7-02 | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Dauerakte Bankverträge aktualisiert. | 9-01 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Bankbestätigungen beider Banken eingeholt, vollständig. | 8 | rm 30.04.2025 |
+| 402 | Beurteilung der Bankenbonität | Beide Banken mit Sitz in der Schweiz, keine Bonitätsbedenken. |  | rm 30.04.2025 |
+| 404 | Prüfung Ein- und Ausgänge anhand von Belegen | Stichprobe 5 Zahlungen Dezember mit Belegen geprüft – i.O. | B-01 | rm 30.04.2025 |
+| 405 | Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben | Unterlagen zu den Stichproben eingesehen. |  | rm 30.04.2025 |
+| 406 | Saldenabstimmung Prüfungszeitraum (Anfang/Ende) | Saldi Anfang/Ende mit Auszügen abgestimmt. | B-01–B-04 | rm 30.04.2025 |
+| 407 | Prüfung interner Überträge (Kassa/Postcheck/Banken) C   2025 | Interne Überträge geprüft (siehe 202). |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld B: Keine Sachverhalte, die nicht Gesetz und Statuten entsprechen.   Visum rm 30.04.2025 / Review jb 09.05.2025
+C1 Forderungen aus Lieferungen und Leistungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Durchsicht der Debitoren OP-Liste und Befragung über Gründe für alte, ungewöhnliche hohe Ausstände sowie Haben-Salden. | OP-Liste durchgesehen: Alpenstrom Energie AG 86'400 seit 14.09.2024 überfällig; keine Haben-Saldi. | C-01, C-02 | rm 30.04.2025 |
+| 102 | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind. | Globalzession sämtlicher Debitoren zugunsten Fiktiva Regionalbank – im Anhang offengelegt. | 8 Fiktiva | rm 30.04.2025 |
+| 103 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Rückgang 1'640'000 → 830'000 durch schnellere Abrechnung über Anzahlungen erklärt. | 3-02 | rm 30.04.2025 |
+| 104 | Befragung, wie säumige Zahler identifiziert und wie allfällige Wertberichtigungen festgelegt werden. Beurteilung von deren Angemessenheit | Mahnwesen monatlich; Wertberichtigung nur Einzelfall; keine Delkredere-Richtlinie → Empfehlung. | 1-02 | rm 30.04.2025 |
+| 105 | Befragung über das Vorgehen zur Sicherstellung einer korrekten zeitlichen Abgrenzung von Verkäufen und Gutschriften (Angefangene Arbeiten, Warenvorräte) | Abgrenzung über Projektabrechnung; Stichprobe Rechnungen Dez./Jan. ohne Befund. | C-03 | rm 30.04.2025 |
+| 106 | Befragung ob in neuer Periode wesentliche Forderungen ausgebucht oder Gutschriften ausgestellt worden sind. | Keine wesentlichen Ausbuchungen oder Gutschriften im Jahr 2025 (bis 30.04.2025). |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich des Bestandes der Forderungen mit dem Vorjahr. | Vergleich VJ siehe 103. | 3-02 | rm 30.04.2025 |
+| 202 | Beurteilung der Altersstruktur der Forderungen. Befragung über Gründe für alte, ungewöhnlich hohe sowie Haben-Salden. Befragung über die Einbringlichkeit von Forderungen | Altersstruktur: 743'600 nicht fällig/ < 30 Tage; 86'400 > 90 Tage (Alpenstrom). | C-01 | rm 30.04.2025 |
+| 203 | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc. | n/a – Keine Fremdwährungsdebitoren. |  |
+| 204 | Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt Beteiligungen bestehen | Keine Forderungen gegenüber Aktionären oder Organen. | C-01 | rm 30.04.2025 |
+| 205 | Umsatzanalyse: a) Umsatzanteil nach geographischen, Kunden- und Artikel-Gruppen b) Wesentliche Veränderungen und unerwartete Entwicklungen (VJ-Werte, Budget) | Umsatz nach Projekten: 6 Grossprojekte machen 78 % aus; Rückgang Kraftwerksumsatz −3.8 %. | F-02 | rm 30.04.2025 |
+| 206 | Kundenstruktur: a) Umsatzanteil der grössten Kunden b) Anteil der grössten Debitorenpositionen c) Festhalten weiterer Merkmale der Kundenstruktur | Grösster Kunde Logistikpark Musterau AG (16 % Umsatz); grösste Debitorenposition 162'800 (20 %). | C-01 | rm 30.04.2025 |
+| 207 | Kennzahlen: a) Debitorenverluste in % vom Umsatz b) Durchschnittliche Zahlungsfristen | Debitorenverluste 0 %; Debitorenfrist 37 Tage (VJ 72). | 3-02 | rm 30.04.2025 |
+| 208 | Vergleich der Verhältnisse von Rabatten und Debitorenverlusten zum Umsatz mit dem Vorjahr. | Skonti 50'000 (0.6 % Umsatz), VJ 40'000 – plausibel. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung des Totals der Debitoren OP-Liste mit dem Hauptbuch. | Total OP-Liste 830'000 = Hauptbuch 1100. | C-01, 7-03 | rm 30.04.2025 |
+| 302 | Beurteilung der Angemessenheit der Wertberichtigungen / Delkredere aufgrund der Erfahrungen in den Vorjahren, der Altersstruktur und der Ergebnisse der Befragungen. | Keine Wertberichtigung gebucht. Alpenstrom: Ausfallrisiko 50 % = 43'200 → nicht korrigierter Fehler (ASF 5.1). | C-02 | rm 30.04.2025 |
+| 303 | Aufstellung über Bestand und Veränderung der stillen Reserven | Keine stillen Reserven auf Debitoren. | 7-05 | rm 30.04.2025 |
+| 304 | Durchsicht der OP-Liste im Prüfungszeitpunkt und/oder Zahlungen in neuer Rechnung. | Zahlungseingänge bis 31.01.2025: 743'600 (90 %); Alpenstrom offen. | C-03 | rm 30.04.2025 |
+| 305 | Durchsicht von Debitoren-, Erlös-, Warenretouren- und Erlösminderungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten. | Erlöskonten durchgesehen; keine ungewöhnlichen Posten. | 7-03 | rm 30.04.2025 |
+| 306 | Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen. | Durchsicht Erlöse Januar 2025 – keine Vorjahresumsätze. |  | rm 30.04.2025 |
+| 307 | Durchsicht von Versandpapieren, Zahlungen in neuer Rechnung und Verträgen zur Feststellung des Vorhandenseins von Forderungen. | Vorhandensein durch Zahlungseingänge belegt. | C-03 | rm 30.04.2025 |
+| 308 | Durchsicht des Kontos Debitorenverluste und Feststellung der korrekten Autorisierung von Ausbuchungen. | Keine Debitorenverluste gebucht. |  | rm 30.04.2025 |
+| 309 | Festhalten der seit dem Bilanzstichtag erfolgten Zahlungen | Zahlungen nach Stichtag festgehalten (siehe 304). | C-03 | rm 30.04.2025 |
+| 310 | Prüfung der am Revisionsstichtag überfälligen Guthaben | Überfällig per Revisionsstichtag nur Alpenstrom (Betreibung eingeleitet 02/2025). | C-02 | rm 30.04.2025 |
+| 311 | Spezielle Bewertung Fremdwährungs- und Gross-Debitoren | Grossdebitoren Logistikpark Musterau AG (162'800) und Industrie Testwerk AG (96'450): Bonität gut, im Januar 2025 bezahlt; keine Fremdwährungsdebitoren. | C-03 | rm 30.04.2025 |
+| 312 | Behandlung von Voraus- und Anzahlungen | Kundenanzahlungen unter 2030 (4'000'000), nicht mit Debitoren verrechnet. | F-02 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-302, T1-303) | Globalzession im Anhang (T1-106). | 7-02 | rm 30.04.2025 |
+| 321 | Beurteilung von Bestand und Veränderung der stillen Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Zessionsvertrag in Dauerakte. | 9-01 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Bestandesnachweise durch Einholung von Saldobestätigungen | Keine Saldobestätigungen eingeholt (alternative Prüfung über Zahlungseingänge). | C-03 | rm 30.04.2025 |
+| 402 | Saldoliste abgestimmt mit: a) offenen Rechnungen b) Einzelkonten | OP-Liste mit Rechnungen (Stichprobe 4) und Einzelkonten abgestimmt. | C-01 | rm 30.04.2025 |
+| 403 | Befragung, ob Forderungen Vorräte, die in Konsignation gegeben wurden, betreffen und, wenn ja, ob Korrekturen zum Storno solcher Transaktionen und korrekter Verbuchung der Waren im Inventar vorgenommen worden sind. | n/a – Keine Konsignationsgeschäfte. |  |
+| 404 | Befragung, ob nach dem Bilanzstichtag grosse Nachlässe auf Umsatzerlösen gewährt und, wenn ja, ob diese korrekt erfasst worden sind. | Keine Nachlässe nach Stichtag. |  | rm 30.04.2025 |
+| 406 | Prüfung Buchungen auf Hauptbuchkonten Forderungen und Umsatzerlöse | Buchungen 1100/3200 Dezember durchgesehen. | 7-03 | rm 30.04.2025 |
+| 407 | Genehmigung der Verkaufsbedingungen | Allgemeine Verkaufsbedingungen (Zahlung 30 Tage, Anzahlungen gemäss Werkvertrag) genehmigt. |  | rm 30.04.2025 |
+| 408 | Beurteilung Mahnwesen | Mahnwesen funktioniert, aber Betreibung Alpenstrom spät eingeleitet. | C-02 | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld C: Keine wesentlichen Sachverhalte; Alpenstrom (43'200) als nicht korrigierter, unwesentlicher Fehler erfasst.   Visum rm 30.04.2025 / Review jb 09.05.2025
+D1 Übrige kurzfristige Forderungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 100 | Befragung zum geschäftlichen Hintergrund wesentlicher übriger Forderungen | ZAZ-Depot (Zoll), Vorsteuer Q4, Anzahlung Lieferant SolarTech, Einfuhr-MWST-Rückerstattung. | D-01 | rm 30.04.2025 |
+| 101 | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind | Keine Verpfändung. |  | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Forderungen gegenüber früheren Perioden oder gegenüber den Erwartungen | Vorsteuer 190'000 (VJ 175'000) entspricht Q4-Abrechnung. | M-01 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht | Keine Forderungen gegenüber Beteiligten. |  | rm 30.04.2025 |
+| 202 | Vergleich des Bestands der Forderungen mit dem Vorjahr | Bestand 225'000 (VJ 225'000). | D-01 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und Detaillisten | Detailliste = Hauptbuch. | D-01 | rm 30.04.2025 |
+| 302 | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) VSt-Rückerstattungsantrag d) Verträgen, Zinsabrechnungen e) Anzahlungen: Bestellungsunterlagen, Kaufverträge, Lieferantenrechnungen aus neuer Rechnung, Zahlungsbelege f) anderer Unterlagen | c) keine VSt; e) Anzahlung SolarTech mit Anzahlungsrechnung und Saldobestätigung belegt; Vorsteuer mit MWST-Abrechnung Q4. | M-01, 8 SolarTech | rm 30.04.2025 |
+| 303 | Ausgliedern von Habensaldi | Keine Habensaldi. |  | rm 30.04.2025 |
+| 304 | Prüfung der richtigen Verzinsung der Kontokorrente (insbesondere Konzern / Nahestehende) | Keine Kontokorrente mit Nahestehenden. |  | rm 30.04.2025 |
+| 305 | Beurteilung Umrechnung Fremdwährung | Keine Fremdwährung. |  | rm 30.04.2025 |
+| 306 | Beurteilung Bonität der einzelnen Ausstände | Bonität i.O. (Bund, Lieferant). |  | rm 30.04.2025 |
+| 307 | Beurteilung Angemessenheit der Wertberichtigungen | Keine Wertberichtigung nötig. |  | rm 30.04.2025 |
+| 308 | Durchsicht der Konten in neuer Rechnung auf auffällige Beträge, die darauf hindeuten, dass Forderungen des Vorjahres ausgebucht wurden | Durchsicht neue Rechnung ohne Befund. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-303) | Keine Anhangangabe nötig. |  | rm 30.04.2025 |
+| 321 | Feststellen von Bestand und Veränderung der stillen Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Buchungen auf Bestandes- und Erfolgskonten | Buchungen geprüft. |  | rm 30.04.2025 |
+| 402 | Anzahlungen: Prüfung Verkehr mit Auftragsbestätigungen, Bestellungen etc. | Anzahlung mit Bestellung SolarTech abgestimmt. | 8 SolarTech | rm 30.04.2025 |
+| 403 | Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes | Anzahlung im Januar 2025 mit Lieferung verrechnet. |  | rm 30.04.2025 |
+| 404 | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | Keine Darlehen an Beteiligte. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld D: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+E1 Aktive Rechnungsabgrenzungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Werthaltigkeit (künftiger Geld- oder Nutzenzugang) der aktivierten Beträge. | Werthaltigkeit gegeben (Vorauszahlungen Versicherung, Software 2025). | E-01 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich mit den Beständen des Vorjahres. | 10'000 (VJ 15'000). | E-01 | rm 30.04.2025 |
+| 202 | Vergleich der Salden zugehöriger Ertrags- und Aufwandskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung. | Versicherungs- und IT-Aufwand plausibel. |  | rm 30.04.2025 |
+| 203 | Feststellung von Abgrenzungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht. | Keine Abgrenzungen ggü. Nahestehenden. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung einer Detailaufstellung mit der Jahresrechnung. | Detailliste = Hauptbuch 1300. | E-01 | rm 30.04.2025 |
+| 302 | Prüfung aktivierte Forderungen auf Echtheit, Bonität und Werthaltigkeit (künftiger Geld- oder Nutzenzugang) | Belege eingesehen. | E-01 | rm 30.04.2025 |
+| 303 | Kritische Durchsicht von Ertrags- und Aufwandskonten, welche häufig aktive Rechnungsabgrenzungen enthalten. | Konten 6300–6570 durchgesehen. |  | rm 30.04.2025 |
+| 304 | Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.). | Mit Policen/Rechnungen abgestimmt. |  | rm 30.04.2025 |
+| 305 | Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung. | Auflösung Januar 2025 korrekt. |  | rm 30.04.2025 |
+| 306 | Prüfung korrekte Verbuchung bei Bildung und Auflösung anhand von Belegen | Bildung/Auflösung korrekt. |  | rm 30.04.2025 |
+| 320 | Beurteilung von Bestand und Veränderung der stillen Reserven | Keine stillen Reserven. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld E: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+F1 Vorräte
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Methode der (physischen) Bestandesermittlung. | Stichtagsinventur 31.12.2024 mit Zähllisten; Revision hat Kontrollzählung (Stichprobe Wechselrichter) beobachtet. | F-03, F-04 | rm 30.04.2025 |
+| 102 | Besprechung von Korrekturen aufgrund der letzten physischen Bestandesaufnahme. | Keine wesentlichen Inventurdifferenzen. | F-03 | rm 30.04.2025 |
+| 103 | Wenn per Bilanzstichtag keine physische Bestandesaufnahme erfolgte: Abklärung, ob ein System der permanenten Inventur eingesetzt wird und ein periodischer Vergleich mit tatsächlich vorhandenen Mengen stattfindet. | n/a – Stichtagsinventur durchgeführt. |  |
+| 104 | Befragung über die Grundlagen der Bewertung in den einzelnen Vorratskategorien. Feststellung, ob das Niederstwertprinzip befolgt worden ist. | Einstandspreis gleitender Durchschnitt; Niederstwert für Altbestand ST-380 über Wertberichtigung 1290. | F-01 | rm 30.04.2025 |
+| 105 | Befragung, ob die Bilanzierungs- und Bewertungsgrundsätze, unter Berücksichtigung von Faktoren wie Material, Saläre und Gemeinkosten, stetig angewandt worden sind, und ob ein Kostenrechnungssystem verwendet wird und dieses in der Vergangenheit verlässlich war. | Grundsätze stetig. |  | rm 30.04.2025 |
+| 106 | Befragung über die angewandte Methode zur Feststellung von Vorräten mit geringem Lagerumschlag und überalterten Vorräten. | Ladenhüter (ST-380, 420 Stk) identifiziert; Marktpreis 74 vs. Einstand 95. | F-01 | rm 30.04.2025 |
+| 107 | Befragung, wie die verlustfreie Bewertung von Produktkategorien mit geringer Marge sichergestellt ist. | Verlustfreie Bewertung über Margenvergleich gesichert. |  | rm 30.04.2025 |
+| 108 | Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung und allfälliger Vorratsbewegungen (Einkauf/ Verkauf/ Betriebsbuchhaltung). | Lager ab 30.12.2024 gesperrt. | F-03 | rm 30.04.2025 |
+| 109 | Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende des Geschäftsjahres. | Cut-off: Lieferungen Januar 2025 nicht im Inventar (Stichprobe HMV-110012). | K-02 | rm 30.04.2025 |
+| 110 | Befragung, ob das Unternehmen Vorräte von Dritten in Konsignation besitzt und wie sichergestellt wird, dass solche nicht in das Inventar aufgenommen werden. | Keine Konsignationsware von Dritten. |  | rm 30.04.2025 |
+| 111 | Befragung, ob Vorräte verpfändet, an anderen Orten eingelagert oder in Konsignation an Dritte gegeben worden sind. | Keine Verpfändung, kein Fremdlager. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich des Lagerbestandes und -umschlages einzelner Produktkategorien mit jenem früherer Perioden. | Vorräte 350'000 (VJ 415'000) – Lagerabbau. | 3-02 | rm 30.04.2025 |
+| 202 | Analytischer Vergleich der Margen einzelner Produktkategorien mit dem Vorjahr. | Marge Handelswaren tief; Module unter Preisdruck. |  | rm 30.04.2025 |
+| 203 | Inventar: a) Wesentliche Veränderungen und unerwartete Entwicklungen (VJ-Vergleich, Budget) b) Zusammensetzung Vorräte im Hinblick auf Umsatzerwartungen (ABC-Analyse) c) Analyse der Wertberichtigung für demodierte bzw. unkurante Artikel | a) Rückgang plausibel; b) 57 % Module; c) WB 40'000 für ST-380 und Risiko. | F-01 | rm 30.04.2025 |
+| 204 | Vergleich der mengenmässigen Bestände bedeutender Vorratskategorien mit den Beständen und Abgängen vorangegangener Perioden und den für die laufende Periode erwarteten Bestandsmengen. Befragung über bedeutende Schwankungen und Abweichungen. | Mengen mit VJ verglichen – Rückgang plausibel. |  | rm 30.04.2025 |
+| 205 | Lieferantenstruktur: a) Zusammensetzung des Wareneinkaufs b) Bestehen Abhängigkeiten von einzelnen Lieferanten? c) Ist Belieferungssicherheit gewährleistet? | Hauptlieferanten SolarTech und Helion (60 % Einkauf) – Abhängigkeit, aber Alternativen vorhanden. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung des Totales der Inventarlisten mit dem Hauptbuch. | Total Inventarliste 350'000 netto = Hauptbuch 1201–1290. | F-01 | rm 30.04.2025 |
+| 302 | Stichprobenmässige Prüfung der Bewertung zu Einstandspreisen (effektiv bezahlte Einstandspreise, FIFO oder gleitende Durchschnittspreise). | Stichprobe 4 Positionen mit Lieferantenrechnungen – Einstandspreise korrekt. | F-01 | rm 30.04.2025 |
+| 303 | Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und Projektgeschäft tätig sind). | Siehe F2. | F-02 | rm 30.04.2025 |
+| 304 | Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien mit ungenügenden Margen. | Wertberichtigung nachvollzogen: betriebswirtschaftlich nötig 15'000 (420 × 21 = 8'820 + Risiko), gebucht 40'000 → stille Reserve 25'000. | 7-05 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-303, T1-306) | Bewertungsgrundsatz im Anhang Ziff. 2. | 7-02 | rm 30.04.2025 |
+| 321 | Aufstellung über Bestand und Veränderung stiller Reserven | Stille Reserve 25'000 (VJ 38'000). | 7-05 | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Bei Inventur zum Bilanzstichtag: a) Inventurbeobachtung b) Prüfung der Einhaltung der Inventurinstruktionen c) Nachzählen einzelner Inventurpositionen d) rechnerische Überprüfung der Inventur | a) Inventurbeobachtung am 31.12.2024 (rm); b) Instruktionen eingehalten; c) Nachzählung 3 Positionen ohne Differenz; d) rechnerisch geprüft. | F-04 | rm 30.04.2025 |
+| 402 | Bei permanenter Inventur: a) Einsichtnahme in die Inventuranweisungen b) Vornahme von Bestandesnachweisen am Revisionsstichtag | n/a – Keine permanente Inventur. |  |
+| 403 | Beurteilen der Inventur hinsichtlich Instruktionen, Ablauf und Überwachung. | Inventur gut organisiert. | F-03 | rm 30.04.2025 |
+| 404 | Bestandesnachweise durch Einholung von Bestätigungen von Konsignationslagern | n/a – Keine Konsignationslager. |  |
+| 405 | Rechnerische Prüfungen im Inventar (Additionen / Multiplikationen) | Additionen und Multiplikationen nachgerechnet – korrekt. | F-01 | rm 30.04.2025 |
+| 406 | Beurteilung Angemessenheit der Versicherungswerte | Versicherungswert Betriebseinrichtung/Waren 1.5 Mio. ausreichend. |  | rm 30.04.2025 |
+
+F2 Nicht fakturierte Leistungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Art der angefangenen Arbeiten (Arbeiten im Auftrag oder zur Lagerhaltung) | Arbeiten im Auftrag (Werkverträge PV-Anlagen). | F-02 | rm 30.04.2025 |
+| 102 | Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende des Geschäftsjahres | Projektabrechnung monatlich; Abgrenzung über Projektkostenrechnung. |  | rm 30.04.2025 |
+| 103 | Feststellung, ob das Niederstwertprinzip befolgt worden ist oder ob alternativ die nicht fakturierten Dienstleistungen zu den zu erwartenden Honoraransätzen bewertet wurden | Bewertung zu Herstellkosten, kein Gewinnanteil; Niederstwert über Restkostenschätzung geprüft. | F-02 | rm 30.04.2025 |
+| 104 | Befragung, ob die Bilanzierungs- und Bewertungsgrundsätze, unter Berücksichtigung von Faktoren wie Material, Saläre und Gemeinkosten stetig angewandt worden sind und ob ein Kostenrechnungssystem verwendet wird und dieses in der Vergangenheit verlässliche Informationen erbracht hat | Gemeinkostenzuschlag 14 % (nur herstellungsbezogen, ohne Verwaltung/Vertrieb) – stetig. | F-02 | rm 30.04.2025 |
+| 105 | Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen sichergestellt ist | Je Projekt Auftragswert − Kosten − Restkosten ≥ 0 geprüft: alle Projekte mit positiver Marge (P-2024-11 knapp +10'000). | F-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Analyse der wesentliche Veränderungen und unerwartete Entwicklungen | Zunahme 3'720'000 → 4'200'000 (+480'000) wegen Projektverzögerungen. | 3-02 | rm 30.04.2025 |
+| 202 | Gegenüberstellung angefangene Arbeiten und Anzahlungen von Kunden oder Abrechnungen von Unterakkordanten | Angefangene Arbeiten 4'200'000 vs. Anzahlungen 4'000'000 – je Projekt geprüft, kein Nettoausweis nötig. | F-02 | rm 30.04.2025 |
+| 203 | Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist | Herstellkosten ohne Gewinnanteil (Bilanzwert = Kosten total). | F-02 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und Bestandeslisten/ Aufstellungen | Projektliste = Hauptbuch 1301. | F-02 | rm 30.04.2025 |
+| 302 | Prüfung angefangener Arbeiten anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode | Schlussabrechnungen 2025: P-2024-05 (03/2025) und P-2024-09 Teilrechnung bestätigen Werte. |  | rm 30.04.2025 |
+| 303 | Stichprobenmässige Prüfung der Bewertung der nicht fakturierten Dienstleistungen und angefangenen Arbeiten anhand geeigneter Dokumente (Stunden- oder Arbeitsfortschrittsaufzeichnungen, vereinbarte Abrechnungssätze, Kalkulations- und Kostenrechnungsunterlagen usw.) | Stichprobe P-2024-07 und P-2024-11: Stunden- und Materialnachweise mit Kostenrechnung abgestimmt. | F-02 | rm 30.04.2025 |
+| 304 | Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten Dienstleistungen mit ungenügenden Margen | Keine Verlustprojekte; P-2024-11 mit geringer Restmarge → Hinweis Folgejahr (Restkosten überwachen). | F-02 | rm 30.04.2025 |
+| 306 | Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und Projektgeschäft tätig sind) | Herstellkosten mit Kostenrechnung abgestimmt. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-303, T1-306) | Bewertungsgrundsatz im Anhang korrekt beschrieben. | 7-02 | rm 30.04.2025 |
+| 321 | Aufstellung über Bestand und Veränderung der stillen Reserven | Keine stillen Reserven. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Prüfung der Abgrenzung mit Einkauf/ Betriebsbuchhaltung/ Schlussfakturierung | Abgrenzung mit Einkauf/Schlussfakturierung geprüft. |  | rm 30.04.2025 |
+| 402 | Rechnerische Prüfungen (Additionen / Multiplikationen) | Rechnerisch geprüft. | F-02 | rm 30.04.2025 |
+| 403 | Beurteilung der Angemessenheit der Versicherungswerte | Montageversicherung vorhanden. |  | rm 30.04.2025 |
+| 404 | Prüfung Verbuchung Bestandesveränderung | Bestandesänderung 3900 +480'000 korrekt verbucht. | 7-03 | rm 30.04.2025 |
+| 405 | Prüfung Bewertung anhand: a) Kreditorenfakturen für Fremdleistungen b) Herstellkosten-Berechnungen c) Auftragsbestätigungen, Offerte d) Schlussabrechnungen im neuen Jahr e) Bruttomargen-Vergleich f) Projektschätzungen des Projektleiters | a) Kreditorenrechnungen Stichprobe; b) Herstellkosten; c) Werkverträge; d) Schlussrechnungen 2025; e) Bruttomargen; f) Restkostenschätzungen PL – i.O. | F-02 | rm 30.04.2025 |
+| 406 | Kritische (Margen-) Beurteilung mehrjähriger Projekte (PoC) | Margen kritisch beurteilt: P-2024-11 Marge 1 % (Risiko). | F-02 | rm 30.04.2025 |
+| 407 | Soll-Ist-Vergleich mit Kalkulationen | Soll-Ist-Vergleich P-2024-11: Kosten über Kalkulation (+6 %). |  | rm 30.04.2025 |
+| 408 | Berücksichtigung besonderer Verhältnisse (Konsortien, ARGEs) | n/a – Keine ARGE/Konsortien. |  |
+
+Abschliessende Beurteilung Prüffeld F: Keine Sachverhalte; P-2024-11 im Folgejahr beobachten.   Visum rm 30.04.2025 / Review jb 09.05.2025
+G1 Mobile Sachanlagen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung | Lineare Abschreibung über Nutzungsdauer (Mobiliar 8, EDV 4–5, Fahrzeuge 6, Software 5 Jahre). | G-01 | rm 30.04.2025 |
+| 103 | Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden | Unterhalt über 6169/6570; Aktivierungsgrenze 1'000. |  | rm 30.04.2025 |
+| 104 | Befragung über Anschaffung und Verkäufe von Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen | Zugang EDV 21'000; Abgänge zwei Altgeräte (Gewinn 4'400, Verlust 500) korrekt erfasst. | G-01 | rm 30.04.2025 |
+| 105 | Befragung, ob Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen | Keine Wertbeeinträchtigung. |  | rm 30.04.2025 |
+| 106 | Befragung, ob Anlagen irgendwelchen Eigentumsbeschränkungen unterliegen | Keine Eigentumsbeschränkung (kein Leasing). |  | rm 30.04.2025 |
+| 107 | Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen | Stetig. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr | Abschreibungen 2024 81'000 Sachanlagen (VJ 70'000). | G-01 | rm 30.04.2025 |
+| 202 | Kennzahlen: a) Anlagenintensität b) Finanzierung der Investitionen | Anlagenintensität 2 %; Investitionen aus Eigenmitteln. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel) | Anlagespiegel = Hauptbuch; Abschreibungen = ER 6810–6850. | G-01 | rm 30.04.2025 |
+| 302 | Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen der einzelnen Anlagen bzw. Anlagekategorien mit der Jahresrechnung | Anlagenverzeichnis abgestimmt. | G-01 | rm 30.04.2025 |
+| 303 | Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten. | Keine ungewöhnlichen Posten. |  | rm 30.04.2025 |
+| 304 | Durchsicht der Bestandes- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen | Keine Vorjahresbeträge in neuer Rechnung. |  | rm 30.04.2025 |
+| 305 | Durchsicht von Einkaufsfakturen, Leasingverträgen und weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Anlagen zur Feststellung des Vorhandenseins der bilanzierten Anlagen (Belegprüfung) | Rechnung Zugang EDV (ITF-24-0512) eingesehen. | G-01 | rm 30.04.2025 |
+| 306 | Physische Bestandesaufnahme | Physische Sichtprüfung Fahrzeuge und EDV am 31.12.2024. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-303, T1-304, T1-310) | Keine Anhangangaben nötig. |  | rm 30.04.2025 |
+| 321 | Aufstellung über Bestand und Veränderung der stillen Reserven | Keine stillen Reserven. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Anlagenverzeichnis in Dauerakte. |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Einholen von Bewertungsgutachten | Nicht nötig. |  | rm 30.04.2025 |
+| 402 | Beurteilung der Anlageninventur | Inventar i.O. |  | rm 30.04.2025 |
+| 403 | Beurteilung Aktivierungsfähigkeit der Zugänge | Zugang aktivierungsfähig. |  | rm 30.04.2025 |
+| 404 | Beurteilung Bilanzwerte (Restwerte) | Restwerte angemessen. |  | rm 30.04.2025 |
+| 405 | Beurteilung Abschreibungen | Abschreibungen angemessen. |  | rm 30.04.2025 |
+| 406 | Ermitteln der zulasten der ER gebuchten wertvermehrenden Anlagen | Keine. |  | rm 30.04.2025 |
+| 407 | Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten | Nicht geführt. |  | rm 30.04.2025 |
+
+G2 Immobile Sachanlagen
+Nicht anwendbar: Keine immobilen Sachanlagen (Geschäftsräume gemietet).   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung | n/a – Nicht anwendbar |  |
+| 102 | Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen | n/a – Nicht anwendbar |  |
+| 103 | Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden | n/a – Nicht anwendbar |  |
+| 104 | Befragung über Anschaffung und Verkäufe von Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen | n/a – Nicht anwendbar |  |
+| 105 | Befragung, ob Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen | n/a – Nicht anwendbar |  |
+| 106 | Befragung, ob Anlagen irgendwelchen Eigentumsbeschränkungen unterliegen | n/a – Nicht anwendbar |  |
+| Analytische Prüfungen |
+| 201 | Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr | n/a – Nicht anwendbar |  |
+| 202 | Kennzahlen: a) Anlagenintensität b) Finanzierung der Investitionen | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel) | n/a – Nicht anwendbar |  |
+| 302 | Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen der einzelnen Anlagen bzw. Anlagekategorien mit der Jahresrechnung | n/a – Nicht anwendbar |  |
+| 303 | Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten | n/a – Nicht anwendbar |  |
+| 304 | Durchsicht der Bestandes- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen | n/a – Nicht anwendbar |  |
+| 305 | Durchsicht von Einkaufsfakturen, Leasingverträgen und weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Anlagen zur Feststellung des Vorhandenseins der bilanzierten Anlagen (Belegprüfung) | n/a – Nicht anwendbar |  |
+| 306 | Physische Bestandesaufnahme | n/a – Nicht anwendbar |  |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-303, T1-304, T1-310) | n/a – Nicht anwendbar |  |
+| 321 | Aufstellung über Bestand und Veränderung der stillen Reserven | n/a – Nicht anwendbar |  |
+| 322 | Aktualisieren Dauerakten | n/a – Nicht anwendbar |  |
+| Sonstige Prüfungen |
+| 401 | Festhalten der Grundpfandbelastung und Vergleich mit Hypothekarschulden | n/a – Nicht anwendbar |  |
+| 402 | Einholen von Bewertungsgutachten | n/a – Nicht anwendbar |  |
+| 403 | Beurteilung Aktivierungsfähigkeit der Zugänge | n/a – Nicht anwendbar |  |
+| 404 | Beurteilung der Bewertung anhand der Rentabilität | n/a – Nicht anwendbar |  |
+| 405 | Beurteilung der Anlageninventur | n/a – Nicht anwendbar |  |
+| 406 | Bestandesnachweis durch Grundbuchauszüge, Versicherungsnachweise etc. | n/a – Nicht anwendbar |  |
+| 407 | Beurteilung Abschreibungen | n/a – Nicht anwendbar |  |
+| 408 | Beurteilung Bilanzwerte (Restwerte) | n/a – Nicht anwendbar |  |
+| 409 | Ermitteln der zulasten der ER gebuchten wertvermehrenden Anlagen | n/a – Nicht anwendbar |  |
+| 410 | Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten | n/a – Nicht anwendbar |  |
+| 411 | Vollständigkeit der Mieterträge | n/a – Nicht anwendbar |  |
+
+Abschliessende Beurteilung Prüffeld G: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+H1 Finanzanlagen
+Nicht anwendbar: Keine Finanzanlagen per 31.12.2024 (Mietkaution erst 06.01.2025 einbezahlt – Hinweis Folgejahr).   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze | n/a – Nicht anwendbar |  |
+| 102 | Besprechung mit der Unternehmensleitung betreffend allfälliger niedriger Marktwerte | n/a – Nicht anwendbar |  |
+| 103 | Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen | n/a – Nicht anwendbar |  |
+| Analytische Prüfungen |
+| 201 | Erklärung von Veränderungen und Untersuchung von unerwarteten Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und a) Depotauszug b) bei Eigenaufbewahrung mit Verzeichnis, körperliche Inventur | n/a – Nicht anwendbar |  |
+| 302 | Feststellen des Bestandes an eigenen Aktien und Stammanteilen. | n/a – Nicht anwendbar |  |
+| 305 | Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen | n/a – Nicht anwendbar |  |
+| 306 | Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung | n/a – Nicht anwendbar |  |
+| 307 | Papiere ohne Kurswert: Berücksichtigung Bonität Schuldner | n/a – Nicht anwendbar |  |
+| 310 | Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen. | n/a – Nicht anwendbar |  |
+| 311 | Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind. | n/a – Nicht anwendbar |  |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-302, T1-303, T1-305) | n/a – Nicht anwendbar |  |
+| 321 | Aufstellung über Bestand und Veränderung stiller Reserven | n/a – Nicht anwendbar |  |
+| 322 | Aktualisieren Dauerakten | n/a – Nicht anwendbar |  |
+| Sonstige Prüfungen |
+| 401 | Festhalten von a) Einzahlungspflicht für nicht voll liberierte Titel b) Verpfändungen | n/a – Nicht anwendbar |  |
+| 402 | Prüfung Bewertung anhand a) Depotauszug b) Kursliste Steuerverwaltung c) anderen Unterlagen | n/a – Nicht anwendbar |  |
+| 403 | Beurteilung Risikoverteilung | n/a – Nicht anwendbar |  |
+| 404 | Prüfung Aktivierung Verrechnungssteuer | n/a – Nicht anwendbar |  |
+
+H2 Darlehen
+Nicht anwendbar: Keine aktiven Darlehen.   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze. | n/a – Nicht anwendbar |  |
+| 102 | Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen | n/a – Nicht anwendbar |  |
+| Analytische Prüfungen |
+| 201 | Feststellung von Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und a) Saldobestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung e) anderen Unterlagen | n/a – Nicht anwendbar |  |
+| 302 | Beurteilung der Bonität der Darlehensnehmer anhand: a) deren Jahresabschlüsse b) Termingerechte Zinszahlungen und Amortisationen c) Sicherheiten d) anderer Informationen | n/a – Nicht anwendbar |  |
+| 303 | Prüfung der Zu- und Abgänge anhand von Belegen | n/a – Nicht anwendbar |  |
+| 304 | Prüfung Verbuchung von Gewinnen und Verlusten | n/a – Nicht anwendbar |  |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-303) | n/a – Nicht anwendbar |  |
+| 321 | Aufstellung über Bestand und Veränderung stiller Reserven | n/a – Nicht anwendbar |  |
+| 322 | Aktualisieren Dauerakten | n/a – Nicht anwendbar |  |
+| Sonstige Prüfungen |
+| 401 | Einsichtnahme in Verträge | n/a – Nicht anwendbar |  |
+| 402 | Abgrenzung der Zinsen | n/a – Nicht anwendbar |  |
+| 403 | Prüfung vollständige Verbuchung der Erträge | n/a – Nicht anwendbar |  |
+| 404 | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | n/a – Nicht anwendbar |  |
+
+H3 Beteiligungen
+Nicht anwendbar: Keine Beteiligungen.   Visum rm 30.04.2025
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze | n/a – Nicht anwendbar |  |
+| 102 | Besprechung mit der Unternehmensleitung betreffend allfälliger niedriger Marktwerte | n/a – Nicht anwendbar |  |
+| Analytische Prüfungen |
+| 201 | Erklärung von Veränderungen und Untersuchung von unerwarteten Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr | n/a – Nicht anwendbar |  |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und a) Verzeichnis der Beteiligungen b) Depotauszug c) körperliche Aufnahme d) anderen Unterlagen | n/a – Nicht anwendbar |  |
+| 302 | Prüfung Bewertung anhand a) Börsenkurs, Steuerkurs b) Buchhaltungsabschlüssen, Revisionsberichten c) anderen Unterlagen | n/a – Nicht anwendbar |  |
+| 303 | Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen | n/a – Nicht anwendbar |  |
+| 304 | Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind | n/a – Nicht anwendbar |  |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-303, T1-305, T1-306) | n/a – Nicht anwendbar |  |
+| 321 | Aufstellung über Bestand und Veränderung stiller Reserven | n/a – Nicht anwendbar |  |
+| 322 | Aktualisieren Dauerakten | n/a – Nicht anwendbar |  |
+| Sonstige Prüfungen |
+| 401 | Feststellen des Bestandes an eigenen Aktien und Stammanteilen | n/a – Nicht anwendbar |  |
+| 402 | Festhalten von a) Einzahlungspflicht für nicht voll liberierte Titel b) Verpfändungen c) Eventualverbindlichkeiten ggü. Beteiligungsgesellschaften | n/a – Nicht anwendbar |  |
+| 403 | Papiere ohne Kurswert: Berücksichtigung Bonität Schuldner | n/a – Nicht anwendbar |  |
+| 404 | Beurteilung Risikoverteilung | n/a – Nicht anwendbar |  |
+| 405 | Prüfung Aktivierung Verrechnungssteuer | n/a – Nicht anwendbar |  |
+
+Abschliessende Beurteilung Prüffeld H: Nicht anwendbar.   Visum rm 30.04.2025 / Review jb 09.05.2025
+I1 Immaterielle Anlagen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung | Lineare Abschreibung über Nutzungsdauer (Mobiliar 8, EDV 4–5, Fahrzeuge 6, Software 5 Jahre). | G-01 | rm 30.04.2025 |
+| 102 | Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen | Stetig. |  | rm 30.04.2025 |
+| 103 | Befragung über Anschaffung und Verkäufe von immateriellen Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen | Keine Zu- oder Abgänge. |  | rm 30.04.2025 |
+| 104 | Befragung, ob immaterielle Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen | Software Ertragsprognose genutzt – keine Wertbeeinträchtigung. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr | Abschreibung 50'000 (VJ 40'000). | G-01 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel) | Anlagespiegel = Hauptbuch 1700/1709. | G-01 | rm 30.04.2025 |
+| 302 | Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten | Keine ungewöhnlichen Posten. |  | rm 30.04.2025 |
+| 303 | Feststellen, ob die für die Aktivierung zugrunde liegenden Verträge vorliegen (Belegprüfung) | Lizenzvertrag Planungssoftware vorliegend. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-303, T1-306) | – |  | rm 30.04.2025 |
+| 321 | Aufstellung über Bestand und Veränderung der stillen Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Bestandesaufnahme (Patente, Lizenzen, Marken) | Software-Eigenentwicklung und Lizenz. |  | rm 30.04.2025 |
+| 402 | Beurteilung Aktivierungsfähigkeit der Zugänge | Keine Zugänge. |  | rm 30.04.2025 |
+| 403 | Beurteilung Abschreibungen | Angemessen. |  | rm 30.04.2025 |
+| 404 | Bewertungsgutachten | Nicht nötig. |  | rm 30.04.2025 |
+| 405 | Ermitteln der zulasten der ER gebuchten wertvermehrenden Anlagen | Keine. |  | rm 30.04.2025 |
+| 406 | Beurteilung Bilanzwerte (Restwerte) | Restwert 25'657 angemessen. |  | rm 30.04.2025 |
+| 407 | Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten | Nicht geführt. |  | rm 30.04.2025 |
+| 408 | Prüfung Bonität des Schuldners des nicht einbezahlten Stammkapitals K   2025 | n/a – Aktienkapital voll liberiert. |  |
+
+Abschliessende Beurteilung Prüffeld I: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+K1 Verbindlichkeiten aus Lieferungen und Leistungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Kritische Durchsicht der offenen Posten. Befragung über Gründe für alte, ungewöhnlich hohe sowie Soll-Salden | OP-Liste durchgesehen; keine alten Posten, keine Sollsaldi. | K-01 | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Zunahme 1'316'576 → 1'800'000 (+37 %) wegen Lieferungen Dezember für Projekte Q1 2025. | 3-02 | rm 30.04.2025 |
+| 103 | Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde | Rechnungseingang zentral; Abgrenzung durch Projektleiter. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr | Siehe 102. |  | rm 30.04.2025 |
+| 202 | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw. | Keine Fremdwährungskreditoren. |  | rm 30.04.2025 |
+| 203 | Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht | Keine Kreditoren ggü. Nahestehenden. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung des Totales der Kreditoren OP-Liste mit der Jahresrechnung | OP-Liste 1'800'000 = Hauptbuch (nach Umbuchung U1). | K-01 | rm 30.04.2025 |
+| 302 | Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditoren-Rechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen, die im Prüfungsjahr erhaltene Lieferungen und Leistungen betreffen | Kreditorenjournal Januar 2025 durchgesehen: Rechnung Elektro Fiktivmann EF-2024-701 (28'400, Leistung Dez. 2024) fehlte → Umbuchung U1. | K-02, 7-04 | rm 30.04.2025 |
+| 303 | Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Jahresende | Wareneingänge 23.12.2024–10.01.2025 geprüft. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-311) | – |  | rm 30.04.2025 |
+| 321 | Aufstellung über Bestand und Veränderung stiller Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Bestandesnachweise durch Einholung von Saldobestätigungen | Saldobestätigung SolarTech 412'600 = OP-Liste. | 8 SolarTech | rm 30.04.2025 |
+| 402 | Abstimmung Schulden gegenüber beteiligten Unternehmen / Beteiligungen: a) mit Gegenbuchhaltung(en) b) mit Saldobestätigung(en) | n/a – Keine Konzerngesellschaften/Beteiligungen. |  |
+| 403 | Beurteilung der Altersstruktur der Verbindlichkeiten (Liquidität) | Fälligkeiten 30 Tage; Zahlungen Januar fristgerecht. | C-03 | rm 30.04.2025 |
+| 404 | Abgrenzung zu Vorräten und angefangenen Arbeiten | Abgrenzung zu angefangenen Arbeiten über Projektkostenrechnung. |  | rm 30.04.2025 |
+| 405 | Abstimmung der Kreditoren OP-Liste mit den Lieferantenrechnungen | Stichprobe 4 Rechnungen abgestimmt. | K-01 | rm 30.04.2025 |
+| 406 | Ausgliedern von Sollsaldi | Keine Sollsaldi. |  | rm 30.04.2025 |
+| 407 | Einsichtnahme in aktuelle OP-Liste | OP-Liste 30.04.2025 eingesehen. |  | rm 30.04.2025 |
+| 408 | Prüfung Buchungen auf Hauptbuchkonten Krediten / Einkäufe | Buchungen 2000/4xxx Dezember durchgesehen. |  | rm 30.04.2025 |
+| 409 | Prüfung Verkehr und Abgrenzung Einkaufspreisminderungen L   2025 | Rabatte korrekt. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld K: Nach Umbuchung U1 keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+L1 Kurzfristige verzinsliche Verbindlichkeiten
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung, ob die Unternehmensleitung zu Bestimmungen in Darlehensverträgen (Covenants) welche nicht eingehalten sein könnten; Besprechung der Massnahmen der Unternehmensleitung und der allfällig erforderlichen Korrekturen in der Jahresrechnung | Covenant EK-Quote ≥ 15 % verletzt; Waiver der Bank vom 15.01.2025 liegt vor. | 8 Fiktiva | rm 30.04.2025 |
+| 102 | Befragung über Sicherheiten zugunsten von Darlehensgebern | Globalzession Debitoren. | 8 Fiktiva | rm 30.04.2025 |
+| 103 | Befragung zur Gliederung in langfristige und kurzfristige verzinsliche Verbindlichkeiten | Kontokorrentkredit kurzfristig; Bankdarlehen 2400 langfristig (Amortisation 240'000 p.a. – kurzfristiger Anteil nicht separat ausgewiesen, unwesentlich). |  | rm 30.04.2025 |
+| 104 | Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht | Aktionärsdarlehen unter N1. | N1 | rm 30.04.2025 |
+| 105 | Befragung zu Rangrücktritten | Rangrücktritte siehe N1/A2. | L-04 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint | Zinsaufwand 100'000 bei durchschnittlich ~2 Mio. Kredit – plausibel. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und Auszügen | 2100 2'900'000 = Bankbestätigung; 2170k 20'000 = Zinsberechnung (Differenz 1'292 unter NAG). | 8 Fiktiva, L-03 | rm 30.04.2025 |
+| 302 | Einsichtnahme in die Zinsabgrenzungsberechnung | Zinsabgrenzung eingesehen. | L-03 | rm 30.04.2025 |
+| 303 | Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge | Kreditvertrag KK-2022-031 eingesehen. | 9-01 | rm 30.04.2025 |
+| 304 | Einsichtnahme in Rangrücktrittsvereinbarungen | Siehe N1-401. | L-04 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T-302, T1-303) | Siehe T1. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Dauerakte Bankverträge. | 9-01 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Bankbestätigung Fiktiva vollständig. | 8 Fiktiva | rm 30.04.2025 |
+| 402 | Befragung zu aussergewöhnlichen Geldtransaktionen. | Keine. |  | rm 30.04.2025 |
+| 403 | Prüfung Ein- und Ausgänge anhand von Belegen | Stichprobe i.O. |  | rm 30.04.2025 |
+| 404 | Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben | i.O. |  | rm 30.04.2025 |
+| 405 | Saldenabstimmung Prüfungszeitraum (Anfang/Ende) | Abgestimmt. |  | rm 30.04.2025 |
+| 406 | Beurteilung der Liquiditätsentwicklung und Überprüfung der Kreditlimiten, Kündigungsfristen, Sicherheiten | Limite 3 Mio., Beanspruchung 2.9 Mio.; Kündbarkeit jederzeit – Risiko Fortführung. | 8 Fiktiva | rm 30.04.2025 |
+| 407 | Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag | Siehe B1-202. |  | rm 30.04.2025 |
+| 408 | Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen | Keine Auffälligkeiten. |  | rm 30.04.2025 |
+| 408 | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc. | Keine Auffälligkeiten. |  | rm 30.04.2025 |
+| 409 | Prüfung richtige Verbuchung Zinsen | Zinsen korrekt. |  | rm 30.04.2025 |
+| 410 | Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte | n/a – Keine Devisenkontrakte. |  |
+
+Abschliessende Beurteilung Prüffeld L: Keine Sachverhalte; Covenant-Verletzung mit Waiver geheilt.   Visum rm 30.04.2025 / Review jb 09.05.2025
+M1 übrige kurzfristige Verbindlichkeiten
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung zum geschäftlichen Hintergrund wesentlicher übriger Verbindlichkeiten | Erhaltene Anzahlungen 4'000'000 (Werkverträge), MWST, Sozialversicherungen, Quellensteuer, Kreditoren interim. | F-02, M-01, M-02 | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Verbindlichkeiten gegenüber früheren Perioden oder gegenüber den Erwartungen | Anzahlungen +900'000 vs. VJ wegen grösserer Projekte. | 3-02 | rm 30.04.2025 |
+| 103 | Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde | Monatliche Abstimmung Sozialversicherungen. | M-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr | Bestand 4'209'000 (VJ 3'333'000). | 3-02 | rm 30.04.2025 |
+| 202 | Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht. | Keine. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und Detaillisten | Detaillisten = Hauptbuch. | M-02, F-02 | rm 30.04.2025 |
+| 302 | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) Verträgen, Zinsabrechnungen e) Vorauszahlungen: Bestellungsunterlagen, Kaufverträge, Debitorenrechnungen aus neuer Rechnung, Zahlungsbelege f) anderer Unterlagen | b) Schlussabrechnungen Sozialversicherungen 2024; UVG/UVGZ-Guthaben 22'000 mit Verbindlichkeiten verrechnet – unwesentlich. | M-02 | rm 30.04.2025 |
+| 303 | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw. | Keine Fremdwährung. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-304, T1-311) | – |  | rm 30.04.2025 |
+| 321 | Feststellen von Bestand und Veränderung der stillen Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Buchungen auf Bestandes- und Erfolgskonten | Buchungen i.O. |  | rm 30.04.2025 |
+| 402 | Anzahlungen: Prüfung Zugänge mit Auftragsbestätigungen, Bestellungen, Kaufverträgen etc. | Anzahlungen mit Werkverträgen abgestimmt (Stichprobe 3). | F-02 | rm 30.04.2025 |
+| 403 | Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes | Ausgleich nach Schlussrechnung geprüft (P-2023-x). |  | rm 30.04.2025 |
+| 404 | Abstimmen Vorauszahlungen von Kunden mit: a) Buchhaltung b) Auftragsbestätigungen, Kaufverträge c) Fakturen in neuer Rechnung d) Zahlungsbelege | Mit Projektliste abgestimmt. | F-02 | rm 30.04.2025 |
+| 405 | Anzahlungen: Abgrenzung zu angefangenen Arbeiten | Je Projekt gegenübergestellt. | F-02 | rm 30.04.2025 |
+| 406 | Ausgliedern von Sollsaldi | Sollsaldi UVG/UVGZ (−22'000) – unwesentlich, nicht umgegliedert. | M-02 | rm 30.04.2025 |
+| 407 | Prüfung der richtigen Verzinsung der Kontokorrente (insbesondere Konzern / Nahestehende) | Keine. |  | rm 30.04.2025 |
+| 408 | Einhalten reglementarischer/ gesetzlicher Bestimmungen betreffend Arbeitgeberschulden bei PVE (BVG) | Keine Arbeitgeberschulden ggü. PVE offen. |  | rm 30.04.2025 |
+
+M2 Mehrwertsteuer
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung nach der Umsatzabstimmung der deklarierten Abrechnungen mit der Finanzbuchhaltung | Umsatzabstimmung erstellt – keine Differenz. | M-01 | rm 30.04.2025 |
+| 102 | Befragung nach der Art der MWST-Abrechnung (vereinnahmtes oder vereinbartes Entgelt) sowie allfälligen Sonderfällen (ausgenommene Umsätze, Saldosätze usw.) | Effektive Methode, vereinbartes Entgelt; Option Parkplatzvermietung. | M-01 | rm 30.04.2025 |
+| 103 | Befragung der Unternehmensleitung, ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist | Privatanteile Fahrzeuge GF über Lohnausweis abgerechnet. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der MWST-Forderungen und Verbindlichkeiten mit den Abrechnungen | 2200 200'000 und 1170/1171 190'000 = Abrechnung Q4. | M-01 | rm 30.04.2025 |
+| 302 | Umsatzabstimmung (Bruttoumsatz) der deklarierten Abrechnungen mit der Finanzbuchhaltung (RZ 958 MWStG) | Deklariert 7'785'000 = Buchhaltung 7'785'000. | M-01 | rm 30.04.2025 |
+| 303 | Durchsicht der Vorsteuerkonti und Umsatzsteuerkonti auf Saldierung per Quartalsende und Übereinstimmung je Quartal mit Mehrwertsteuerabrechnung | Konten per Quartalsende saldiert. |  | rm 30.04.2025 |
+| 304 | Abrechnung von Eigenverbrauch auf Privatanteilen Fahrzeug und Spesen | Privatanteil Fahrzeug korrekt. |  | rm 30.04.2025 |
+| 305 | Beurteilung der allgemeinen MWSt Risiken für die Unternehmung anhand der Spezialitätenliste: a) Umsätze, die nicht zum MWSt-Normalsatz abgerechnet werden b) Exportumsatz, Steuerbefreite Umsätze (Exportnachweise) c) Verrechnungsgeschäfte mit Nahestehenden oder Dritten (Bruttodarstellung) d) Umsätze an Nahestehende (Verrechnung at arm's length) e) ausgenommene Umsätze f) Import von steuerbaren Dienstleistungen aus dem Ausland (korrekte Deklaration) g) Meldeverfahren bei Übernahme oder Übergabe eines Betriebs(teils) h) Immobilien (Nutzungsänderungen) | Risiken gering; Bezugsteuer Software geprüft. |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Kritische Durchsicht der Vorsteuerplausibilisierung | Vorsteuer plausibel (2.5 % Umsatz). |  | rm 30.04.2025 |
+| 402 | Prüfung der Formerfordernisse für Debitorenrechnungen und Vorsteuerbelege auf Korrektheit und Vollständigkeit der Angaben | Formerfordernisse Stichprobe i.O. |  | rm 30.04.2025 |
+| 403 | Prüfung anhand einer Stichprobe der korrekten Berechnung und Verbuchung von Vorsteuern | Stichprobe 5 Belege i.O. |  | rm 30.04.2025 |
+| 404 | Durchsicht der Fibu-Kontendefinition mit MWSt-Codes | MWST-Codes i.O. |  | rm 30.04.2025 |
+| 405 | Prüfung der korrekten Deklaration „Import von Dienstleistungen“ | Software-Lizenzen Ausland deklariert. |  | rm 30.04.2025 |
+| 406 | Prüfung der richtigen Verbuchung der Einfuhrsteuer auf Warenimporten (Rechnungen der Transporteure) | Einfuhrsteuer über ZAZ korrekt verbucht. |  | rm 30.04.2025 |
+| 407 | Prüfung, wenn zutreffend, ob ausgenommene Umsätze deklariert werden und entsprechende Vorsteuerkürzungen vorgenommen werden | Keine ausgenommenen Umsätze ausser Option. |  | rm 30.04.2025 |
+| 408 | Besprechung von aufgetauchten Problemen bei der Erstellung der MWSt Abrechnung | Keine Probleme. |  | rm 30.04.2025 |
+
+M3 Passive Rechnungsabgrenzungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Methode zur Ermittlung von Rechnungsabgrenzungsposten | Aufstellung durch Buchhaltung anhand Rechnungen Januar. | M-03 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich der Salden zugehöriger Aufwands- und Ertragskonten mit denjenigen vorangegangener Perioden | Aufwandskonten plausibel. |  | rm 30.04.2025 |
+| 202 | Vergleich der Detailaufstellung mit dem Vorjahr | 2300 140'000 (VJ 90'000). | M-03 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht. | Detailliste = Hauptbuch; Ferien/Überzeit 2370 60'000 gemäss Saldoliste 59'537 (nach U2). | M-03, R-03 | rm 30.04.2025 |
+| 302 | Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten (z. B. Mietzinsaufwand, Finanzaufwand oder -ertrag, usw.). | Konten durchgesehen. |  | rm 30.04.2025 |
+| 304 | Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.). | Mit Rechnungen 2025 abgestimmt. | K-02 | rm 30.04.2025 |
+| 305 | Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung | Auflösung im Januar 2025 korrekt. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-306, T1-311) | – |  | rm 30.04.2025 |
+| 321 | Plausibilisierung von Bestand und Veränderung der stillen Reserven. | Keine stillen Reserven. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Prüfung korrekte Verbuchung bei Bildung und Auflösung anhand von Belegen | Bildung/Auflösung korrekt. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld M: Keine Sachverhalte (UVG-Guthaben verrechnet, unwesentlich).   Visum rm 30.04.2025 / Review jb 09.05.2025
+N1 Langfristige Verbindlichkeiten
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (zum Beispiel Kennzahlen in Kreditverträgen) nicht eingehalten hat | Covenants siehe L1-101. |  | rm 30.04.2025 |
+| 102 | Befragung über Sicherheiten zugunsten von Darlehensgebern | Bankdarlehen DL-2021-044 durch Globalzession gesichert. | 8 Fiktiva | rm 30.04.2025 |
+| 103 | Befragung zur Gliederung in langfristige und kurzfristige Darlehen | Bankdarlehen 2400 langfristig (Endfälligkeit 2027). |  | rm 30.04.2025 |
+| 104 | Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht | Darlehen Muster Holding AG 2'300'000 und C. Beispiel 250'000 – im Anhang Ziff. 4 offengelegt. | L-01, L-02 | rm 30.04.2025 |
+| 105 | Befragung zu Rangrücktritten; Beurteilung der Bonität des Rangrücktrittgebers | Rangrücktritte A, B, D, E vom 28.02.2025 (2'600'000 samt Zinsen); Gläubiger sind Aktionäre mit guter Bonität (Holding, Privatpersonen) – siehe A2-331. | L-04 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint | Zins Bankdarlehen 2.4 % plausibel; Aktionärszinsen 20'000 siehe L-03. | L-03 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und: a) Bankbestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung(en) e) anderen Unterlagen | 2400 529'915.32 = Bankbestätigung; 2450/2454 = Darlehensverträge. | 8 Fiktiva, L-01, L-02 | rm 30.04.2025 |
+| 302 | Einsicht in Kredit- und Darlehensverträge | Verträge eingesehen. | L-01, L-02 | rm 30.04.2025 |
+| 303 | Abgrenzung der Zinsen | Zinsabgrenzung siehe L-03. | L-03 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-302, T1-303, T1-304, T1-311) | Anhang Ziff. 4 und 5 korrekt. | 7-02 | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Dauerakte aktualisiert. | 9-01 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Einsicht in Rangrücktrittsvereinbarungen | Rangrücktritte im Original eingesehen, Kopien abgelegt; unbefristet, unwiderruflich. | L-04 | rm 30.04.2025 |
+| 402 | Prüfung Gliederung in kurz- und langfristige Verbindlichkeiten | Gliederung korrekt. |  | rm 30.04.2025 |
+| 403 | Prüfung der Zu- und Abgänge anhand von Verträgen/Belegen | Zugänge 2450 (01.07.2024) und 2454 (15.09.2024) mit Bankbelegen abgestimmt. |  | rm 30.04.2025 |
+| 404 | Prüfung Vollständigkeit anhand der verbuchten Zinsen | Vollständigkeit über Zinsaufwand bestätigt. |  | rm 30.04.2025 |
+| 405 | Angabe der geleisteten Sicherheiten | Globalzession im Anhang. | 7-02 | rm 30.04.2025 |
+| 406 | Prüfung der Verzinsung (insbesondere gegenüber Beteiligten und Organen sowie Nahestehenden) | Zinssätze 1.5–2.0 % – innerhalb der ESTV-Zinssätze für Vorschüsse von Beteiligten. | L-03 | rm 30.04.2025 |
+| 407 | Einhalten reglementarische/gesetzliche Bestimmungen betreffend Arbeitgeberschulden bei PVE (BVG) | Keine. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld N: Keine Sachverhalte; Rangrücktritte vollständig.   Visum rm 30.04.2025 / Review jb 09.05.2025
+O1 Rückstellungen
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über pendente Risiken (Rechtsfälle, angedrohte Schadenersatz- und andere Ansprüche usw.), die eine Rückstellung erfordern | Keine Rechtsfälle, keine angedrohten Ansprüche (Befragung GF, VR-Protokolle). | 6-02, 6-03 | rm 30.04.2025 |
+| 102 | Besprechung der Einschätzung des finanziellen Ausmasses solcher Risiken durch die Unternehmensleitung | Garantierisiken über Konto 4404 laufend erfasst; keine Garantierückstellung nötig (Erfahrung < 0.3 % Umsatz). |  | rm 30.04.2025 |
+| 103 | Befragung über Verbindlichkeiten oder Eventualverbindlichkeiten, die nicht erfasst worden sind. Gegebenenfalls Besprechung mit der Unternehmensleitung, ob diese zu erfassen oder offen zu legen sind | Eventualverbindlichkeiten: Bankgarantien 1.1 Mio. – im Anhang. | 8 Fiktiva | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich mit den Beständen des Vorjahres. | Keine Rückstellungen (VJ keine) ausser Steuern und Ferien. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen Bilanzbestand mit Buchhaltung und Listen und kritische Durchsicht | Steuerrückstellung 130'000 und Ferien 60'000 abgestimmt. | S-01, R-03 | rm 30.04.2025 |
+| 302 | Abstimmung der Bestände mit geeigneten Unterlagen (Verträge, Klageschriften, Berechnungen usw.) | Berechnungen eingesehen. | S-01 | rm 30.04.2025 |
+| 303 | Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung | Steuerzahlung 2023 im Mai 2025 geplant. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-301, T1-302, T1-303, T1-306, T1-401) | – |  | rm 30.04.2025 |
+| 321 | Bestand und Veränderung der stillen Reserven | Keine. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Rechtsanwaltsbestätigungen, Experten-Gutachten | Nicht eingeholt (keine Rechtsfälle). |  | rm 30.04.2025 |
+| 402 | Durchsicht der verbuchten Aufwände für Rechtsberater | Rechtsberatungsaufwand 0. |  | rm 30.04.2025 |
+| 403 | Beurteilung Angemessenheit und Vollständigkeit a) in Zusammenhang mit entsprechenden Bilanzpositionen b) anhand Vorjahresvergleich c) anhand RA-Bestätigungen d) mit anderen Unterlagen | Angemessen und vollständig. |  | rm 30.04.2025 |
+| 404 | Prüfung Gutschriften und Belastungen anhand von Belegen | i.O. |  | rm 30.04.2025 |
+| 405 | Beurteilung der korrekten Verbuchung | Korrekt. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld O: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+P1 Eigenkapital
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Detailprüfungen |
+| 301 | Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug | Aktienkapital 20'000 = Statuten vor Kapitalerhöhung; Kapitalerhöhung 20.01.2025 auf 100'000 (Ereignis nach Stichtag). | P-03, 9-01 | rm 30.04.2025 |
+| 302 | Abstimmung der Reserven und des Bilanzgewinns/-verlusts mit der Jahresrechnung des Vorjahres und dem GV-Protokoll. | Reserven und Bilanzgewinn mit JR 2023 und GV-Beschluss abgestimmt. | 6-01 | rm 30.04.2025 |
+| 303 | Zwischendividende: Die Revisionsstelle hat festzustellen, ob unterjährig Zwischendividenden ausgerichtet wurden und ob es Auswirkung auf die Jahresrechnung hat. Unter Berücksichtigung von Risiko- und Wesentlichkeitsüberlegungen sind geeignete Prüfungshandlungen vorzunehmen. Hierzu können insbesondere gehören: - Durchsicht von GV-Protokollen zur Feststellung von ausgerichteten Zwischendividenden - Einholen der relevanten Dokumentation in Bezug auf den Verzicht auf die Prüfung nach Art. 675a OR. | n/a – Keine Zwischendividende. |  |
+| 304 | Beurteilung des Antrags über die Verwendung des Bilanzgewinns, insbesondere auch, • ob die gesetzliche Reservezuweisung vorgenommen wurde (sofern erforderlich) • ob ggf. gesetzliche Verlustverrechnung nach Art. 674 OR eingehalten ist. | Antrag: Bilanzverlust −5'894'946.39 vortragen – gesetzeskonform. | 7-02 | rm 30.04.2025 |
+| 305 | Feststellen des Bestands an eigenen Kapitalanteilen | n/a – Keine eigenen Aktien. |  |
+| 306 | Analyse von Käufen oder Verkäufen eigener Anteile und deren Bilanzierung als Minusposten im Eigenkapital | n/a – Keine eigenen Aktien. |  |
+| 307 | Prüfung allfälliger Rückzahlungen von Einlagen von Beteiligten im Hinblick auf Art. 680 Abs. 2 OR | Keine Rückzahlungen. |  | rm 30.04.2025 |
+| 308 | Bei Änderungen im Grundkapital und Ausgabe von Optionen: kritische Durchsicht. | Kapitalerhöhung 2025: Verrechnungsliberierung 2'300'000 (Prüfungsbestätigung OR 652f), Bareinlage 1'013'333 – Kapitalerhöhungsbericht eingesehen. | P-03 | rm 30.04.2025 |
+| 309 | Prüfung der richtigen steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und -herabsetzungen sowie Gewinnausschüttungen (Verrechnungssteuer). | Emissionsabgabe: Freigrenze/ Sanierungsausnahme (StG 6 Abs. 1 lit. k) – Abklärung durch Treuhänder; Hinweis Folgejahr. |  | rm 30.04.2025 |
+| 310 | Prüfung korrekte Gliederung | Gliederung korrekt. | 7-02 | rm 30.04.2025 |
+| 311 | Richtiger Ausweis Aufwertungsreserve (OR 725c) | n/a – Keine Aufwertung. |  |
+| 312 | Vollzug Gewinnverwendungsbeschluss des Vorjahres | Gewinnverwendung 2023 (Vortrag) vollzogen. | 6-01 | rm 30.04.2025 |
+| 313 | Beurteilung Eigenkapital in Bezug auf OR 725a, OR 725b | Kapitalverlust und Überschuldung – siehe A2. | A2, P-02 | rm 30.04.2025 |
+| 314 | Festhalten von Statutenänderungen / Publikation im SHAB | Statutenänderung 20.01.2025 (SHAB 05.02.2025). | 6-03 | rm 30.04.2025 |
+| 315 | Prüfung ob die Deklarationspflicht der Verrechnungssteuer eingehalten ist Pflicht zur Einreichung des Form 103/110 wenn; • Bilanzsumme mehr als fünf Millionen Franken • beschlossene Gewinnverteilung eine steuerbare Leistung vorliegt • die Gesellschaft den Beteiligungsabzug (Art. 69 DBG) in Anspruch genommen hat • die Gesellschaft ein Doppelbesteuerungsabkommen zwischen der Schweiz und einem anderen Staat in Anspruch genommen hat | Keine Ausschüttung, keine VSt-Deklaration. |  | rm 30.04.2025 |
+| 316 | Prüfung der Buchungen auf Eigenkapital-Konti | Keine Buchungen 2024 ausser Gewinnverwendung. | 7-03 | rm 30.04.2025 |
+| 317 | Führen Aktienbuch bei Namenaktien | Aktienbuch geführt (200 Aktien), stimmt mit AK überein. Nachführung Kapitalerhöhung 2025 → Hinweis Folgejahr. | P-01 | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-307, T1-308) | Anhang korrekt. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | Statuten 20.01.2025 in Dauerakte. | 9-01 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Eigenkapitalspiegel: Beschaffung einer Aufstellung der Bewegungen auf Eigenkapitalkonten, einschliesslich Kapitalerhöhungen, Kapitalrückzahlungen und Dividenden | Eigenkapitalspiegel erstellt (EK 1'188'008 → −5'864'946). | 3-02 | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld P: Kapitalverlust und Überschuldung – siehe A2; Antrag gesetzeskonform.   Visum rm 30.04.2025 / Review jb 09.05.2025
+R1 Personalaufwand
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung, ob nach dem Bilanzstichtag Leistungs- oder Erfolgsprämien für das vergangene Jahr beschlossen wurden und wenn ja, ob diese korrekt erfasst sind | Bonus GF 4'000 abgegrenzt. | M-03 | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Personalaufwand +182 % (Personalaufbau auf 92 Personen) – Hauptursache Verlust. | 3-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich der Relation zwischen Salären und Sozialleistungen mit dem Vorjahr | Sozialleistungen 13 % der Löhne (VJ 13 %). |  | rm 30.04.2025 |
+| 202 | Erklärung von Veränderungen und Untersuchung unerwarteter oder unüblichen Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr bzw. gegenüber dem Budget | Siehe 102. |  | rm 30.04.2025 |
+| 203 | Analysiere den a) monatlichen Personalaufwand b) durchschnittlichen Personalaufwand pro Mitarbeiter c) Sozialversicherungsaufwand verglichen mit dem gesamten Lohnaufwand | a) Monatsverlauf steigend bis 09/2024; b) Ø 58'700 pro Person; c) FTE ~86. | R-01 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmen der Totale der Lohnbuchhaltung mit den Hauptbuchkonten | Lohnjournal 5'404'000 = Hauptbuch 5200/5202. | R-02 | rm 30.04.2025 |
+| 302 | Schlussabrechnungen Sozialversicherungen abgegrenzt (AHV, UVG, KTG, BVG, QSt) | Schlussabrechnungen AHV, UVG, KTG, BVG, QST 2024 abgegrenzt. | M-02 | rm 30.04.2025 |
+| 303 | Abstimmen des ausgewiesenen Aufwandes mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.). | AHV-Jahresmeldung 5'404'000 = Lohnjournal. | R-02 | rm 30.04.2025 |
+| 304 | Einsichtnahme in Berichte von anderen Prüfern (AHV, SUVA, usw.). | Keine Arbeitgeberkontrolle im Prüfjahr. |  | rm 30.04.2025 |
+| 305 | Durchsicht von Aufwandskonten im Hauptbuch auf ungewöhnliche Posten mit Personalbezug. Belegprüfung solcher Posten. | Keine ungewöhnlichen Posten. |  | rm 30.04.2025 |
+| 306 | Durchsicht der Aufwandskonten in neuer Rechnung auf auffällige Beträge mit Personalbezug, die das Vorjahr betreffen. | Durchsicht 2025 ohne Befund. |  | rm 30.04.2025 |
+| 320 | Auswirkungen auf Anhang (Siehe T1-311) | – |  | rm 30.04.2025 |
+| 321 | Bestand und Veränderung stiller Reserven (inkl. Arbeitgeberbeitragsreserven) | Keine AGBR. |  | rm 30.04.2025 |
+| 322 | Aktualisieren Dauerakten | – |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Anwaltsbestätigungen zu Rechtsfällen mit Personalbezug | Keine Rechtsfälle. |  | rm 30.04.2025 |
+| 402 | Saldobestätigungen von AHV, UVG, KTG, BVG, etc. | Schlussabrechnungen eingesehen. | M-02 | rm 30.04.2025 |
+| 403 | Abstimmen ausbezahlte Löhne/Gehälter mit Unterlagen über Lohn-/Gehaltsfestsetzungen | Stichprobe 5 Mitarbeitende mit Arbeitsverträgen – i.O. | R-01 | rm 30.04.2025 |
+| 405 | Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge. | Keine. |  | rm 30.04.2025 |
+| 406 | Festhalten der Bezüge Nahestehender (mit Vorjahresvergleich) | GF-Lohn 148'000 + Bonus 4'000 (VJ 145'000). | R-01 | rm 30.04.2025 |
+| 406 | Feststellen von Bezügen aus Arbeitgeberbeitragsreserven mit korrektem Ausweis im a.o. Ertrag oder im Anhang | GF-Lohn 148'000 + Bonus 4'000 (VJ 145'000). | R-01 | rm 30.04.2025 |
+| 407 | Feststellung Deckungsgrad der Vorsorgeeinrichtung, Festhalten des Sanierungsbedarfes (siehe O Rückstellungen sofern zutreffend) | Vorsorgeeinrichtung Sammelstiftung, Deckungsgrad > 100 %. |  | rm 30.04.2025 |
+| 408 | Prüfung der korrekten Berechnung der Abzüge und Zulagen | Abzüge Stichprobe korrekt. |  | rm 30.04.2025 |
+| 409 | Korrekte Abgrenzung: a) Löhne / Gratifikationen / Provisionen / Spesen b) Überzeit / Ferien c) Sozialleistungen | a) Bonus abgegrenzt; b) Ferien/Überzeit nach U2 (60'000) korrekt. | R-03, 7-04 | rm 30.04.2025 |
+| 410 | Abstimmen verbuchte Löhne/Gehälter mit Abrechnungen a) AHV b) Unfall/Krankheit c) berufliche Vorsorge | Abgestimmt mit AHV-, UVG- und BVG-Abrechnungen. | R-02, M-02 | rm 30.04.2025 |
+| 411 | Vollständige Erfassung und Rückforderung Kinderzulagen, EO, Kranken- und Unfalltaggelder | Taggelder 30'000 vollständig erfasst (5650). |  | rm 30.04.2025 |
+| 412 | Prüfung Lohnausweise auf Übereinstimmung mit Jahreslohnkonto je Mitarbeiter | Lohnausweise Stichprobe 5 = Lohnkonten. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld R: Nach Umbuchung U2 keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+S1 Steuern
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung, ob alle direkten Steuern aus früheren Abschlussperioden bezahlt oder abgegrenzt wurden. | Steuern 2023 teilweise offen (125'000), zurückgestellt. | S-01 | rm 30.04.2025 |
+| 102 | Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben. Einblick in entsprechende Korrespondenz zur Feststellung allfälliger Nachforderungen. | Keine Steuerrevision. |  | rm 30.04.2025 |
+| 103 | Befragung, inwieweit Steuerveranlagungen definitiv sind (Bund / Kanton) | Definitiv bis 2022; 2023 veranlagt 11/2024, Rechnung offen. |  | rm 30.04.2025 |
+| 104 | Befragung der Unternehmensleitung, ob Einsprachen oder Rekurse hängig sind und das allfällige Risiko in der Jahresrechnung berücksichtigt ist. | Keine Einsprachen. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Beurteilung des Steueraufwandes im Vergleich zum Periodenergebnis und zum Vorjahr. | Steueraufwand 68'693 trotz Verlust: Nachbelastung 2023 und Kapitalsteuer – plausibel. | S-01 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden). | Berechnung = Jahresrechnung (nach U3). | S-01 | rm 30.04.2025 |
+| 302 | Vergleich der gebuchten Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen | Veranlagung 2023 eingesehen. |  | rm 30.04.2025 |
+| 303 | Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen. | Entwicklung abgestimmt. | S-01 | rm 30.04.2025 |
+| 304 | Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn | Kein steuerbarer Gewinn 2024; Kapitalsteuer 5'000 zurückgestellt (U3). | 7-04 | rm 30.04.2025 |
+| 321 | Bestand und Veränderung stiller Reserven | Keine. |  | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | Festhalten geldwerte Leistungen | Keine geldwerten Leistungen festgestellt (Aktionärszinsen marktkonform). | L-03 | rm 30.04.2025 |
+| 402 | Beachtung besonderer Verhältnisse | Verlustvortrag 7.05 Mio. steuerlich verrechenbar. |  | rm 30.04.2025 |
+| 403 | Berücksichtigung der Ergebnisse der letzten Steuerrevision | Keine Steuerrevision. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld S: Nach Umbuchung U3 keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+SCH1 Betrieblicher Ertrag - Allgemein
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand. | Umsatzrealisierung bei Abnahme; Teilrechnungen gegen Anzahlungen. |  | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Kraftwerksertrag −3.8 %; Dienstleistungen gering. | 3-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen. | Bruttomarge I 9 % (VJ 40 %) – Kostenüberschreitungen und Personalaufbau. | 3-02 | rm 30.04.2025 |
+| 202 | Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge c) Budgetvergleich d) Margenvergleich e) andere Unterlagen | Ursachen: Projektverzögerungen, Preisdruck Module. | 6-02 | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Stichprobe 6 Rechnungen mit Werkverträgen – i.O. | C-01 | rm 30.04.2025 |
+| 302 | Kritische Durchsicht und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht | Plausibel. |  | rm 30.04.2025 |
+| 303 | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung. | Cut-off Dez./Jan. ohne Befund. | C-03 | rm 30.04.2025 |
+| 304 | Bei Verwendung der Absatzerfolgsrechnung folgende Positionen festhalten: Personalaufwand, Materialaufwand und Abschreibungen | n/a – Produktionserfolgsrechnung angewendet. |  |
+| 305 | Bei Verwendung der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge aufgeführt sein: ▪ Nettoerlöse aus Lieferungen und Leistungen; ▪ Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen; ▪ Materialaufwand; ▪ Personalaufwand; ▪ übriger betrieblicher Aufwand; ▪ Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens; ▪ Finanzaufwand und Finanzertrag; ▪ betriebsfremder Aufwand und betriebsfremder Ertrag; ▪ ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag; ▪ direkte Steuern; ▪ Jahresgewinn oder Jahresverlust | Gliederung nach OR 959b Abs. 2 eingehalten. | 7-02 | rm 30.04.2025 |
+| Sonstige Prüfungen |
+| 401 | JET: Journal entry testing a) Manuelle Buchungen auf sonst nur maschinell bebuchbaren Konten b) Buchungen zu ungewöhnlichen Zeitpunkten c) Buchungen mit runden Beträgen d) Buchungen von Personen, die normalerweise nicht buchen e) Buchungen, die über oder unter dem durchschnittlichen Buchungsbetrag für ein Konto liegen f) Buchungen mit Buchungstexten, die Hinweise auf ungewöhnliche Sachverhalte geben g) Buchungen ausserhalb der erwarteten Perioden h) Buchungen, bei denen Erfassungsdatum und Beleg weit auseinander liegen i) Wiederholte Buchungen mit gleichen Beträgen j) Buchungen mit unplausibler Währungsumrechnung k) Ungewöhnliche Konstellationen hinsichtlich Konten und Gegenkonten | JET: manuelle Buchungen auf 3200 und Jahresendbuchungen > 50'000 durchgesehen – erklärbar. |  | rm 30.04.2025 |
+| 402 | Abstimmung gebuchter Umsätze mit direkten Umsatzbestätigungen | n/a – Nicht verhältnismässig bei eingeschränkter Revision. |  |
+
+SCH2 Direkter Aufwand
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand. | Material- und Fremdleistungen periodengerecht über Projektabrechnung. |  | rm 30.04.2025 |
+| 102 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Direkter Aufwand 7.33 Mio. (VJ 4.94 Mio.). | 3-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen. | Bruttomarge siehe SCH1-201. |  | rm 30.04.2025 |
+| 202 | Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge c) Budgetvergleich d) Margenvergleich e) andere Unterlagen | Mehrkosten Montage +400'000. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Stichprobe 8 Lieferantenrechnungen i.O. | K-01 | rm 30.04.2025 |
+| 302 | Kritische Durchsicht und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht | Plausibel. |  | rm 30.04.2025 |
+| 303 | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung. | Cut-off: Rechnung EF-2024-701 nachgebucht (U1). | K-02 | rm 30.04.2025 |
+
+SCH3 Übriger betrieblicher Aufwand
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Raumaufwand +310'000 (Doppelmiete Q4); Software +220'000. | 3-02 | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen | Abweichungen erklärt. |  | rm 30.04.2025 |
+| 202 | Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge c) Budgetvergleich d) andere Unterlagen | Ursachen dokumentiert. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Stichprobe 6 Belege i.O. |  | rm 30.04.2025 |
+| 302 | Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen | Durchsicht 2025 ohne Befund. |  | rm 30.04.2025 |
+
+SCH4 Finanzaufwand und Finanzertrag
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Zinsaufwand 100'000 (VJ 45'000) wegen Kontokorrentkredit. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen | Erklärt. |  | rm 30.04.2025 |
+| 202 | Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven | Erwartungswert ~95'000 – plausibel. |  | rm 30.04.2025 |
+| 203 | Vergleich und Plausibilisierung der Fremdwährungsdifferenzen mit dem Geschäftsmodell und den Entwicklungen der entsprechenden Fremdwährungen | Kursdifferenzen gering. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Mit Bankbelegen abgestimmt. | B-04 | rm 30.04.2025 |
+| 302 | Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge | Keine. |  | rm 30.04.2025 |
+
+SCH5 Betriebsfremd und ausserordentlich
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen. | Parkplatzmiete 150'000 (Untermiete), betriebsfremder Ertrag 60'000. |  | rm 30.04.2025 |
+| 102 | Besprechung der angewandten Kriterien zur Identifikation von betriebsfremden, ausserordentlichen, einmaligen oder periodenfremden Posten | Kriterien: nicht wiederkehrend, nicht betriebstypisch. |  | rm 30.04.2025 |
+| Analytische Prüfungen |
+| 201 | Vergleich der Salden und Identifikationskriterien mit dem Vorjahr | Vergleichbar. |  | rm 30.04.2025 |
+| 202 | Vergleich der Salden mit den erwarteten Werten aufgrund der Kenntnisse der Geschäftstätigkeit im zu prüfenden Geschäftsjahr | Plausibel. |  | rm 30.04.2025 |
+| Detailprüfungen |
+| 301 | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | A.o. Ertrag 30'000 (Versicherungsleistung) belegt. |  | rm 30.04.2025 |
+
+Abschliessende Beurteilung Prüffeld SCH: Keine Sachverhalte.   Visum rm 30.04.2025 / Review jb 09.05.2025
+T1 Anhang
+| NR | Prüfungshandlung | Feststellungen und Stichprobenumfang | REF | Visum |
+|---|---|---|---|---|
+| Befragung |
+| 101 | Befragung, ob die Gesellschaft direkte Beteiligungsrechte mit einem Stimmanteil von mehr als 20% oder wesentliche indirekte Beteiligungen an anderen Gesellschaften hält | Keine Beteiligungen. |  | rm 30.04.2025 |
+| 102 | Befragung über den Bestand, Erwerb und Veräusserung eigener Anteile durch das Unternehmen selber oder durch Unternehmen, an denen eine Beteiligung besteht | n/a – Keine eigenen Anteile. |  |
+| 103 | Befragung, ob die Gesellschaft nicht bilanzierte, kaufvertragsähnliche Leasinggeschäfte oder Mietverträge hat, die nicht innert zwölf Monaten nach dem Bilanzstichtag auslaufen oder gekündigt werden können | Neuer Mietvertrag ab 01.01.2025 bis 31.12.2033 – Restverpflichtung 3'115'412 offengelegt. | 7-02, 9-01 | rm 30.04.2025 |
+| 104 | Befragung nach Verbindlichkeiten gegenüber Vorsorgeeinrichtungen | Keine Verbindlichkeiten gegenüber Vorsorgeeinrichtungen. |  | rm 30.04.2025 |
+| 105 | Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter | Bankgarantien 1'100'000 zugunsten Kunden. | 8 Fiktiva | rm 30.04.2025 |
+| 106 | Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeter Aktiven sowie der Aktiven unter Eigentumsvorbehalt | Globalzession Debitoren 830'000. | 8 Fiktiva | rm 30.04.2025 |
+| 107 | Befragung, ob Eventualverbindlichkeiten (rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann) bestehen | Keine weiteren Eventualverbindlichkeiten. | 7-01 | rm 30.04.2025 |
+| 108 | Befragung über an Leitungs- und Verwaltungsorgane oder Mitarbeitende ausgegebene Beteiligungsrechte oder Optionen | n/a – Keine Beteiligungsrechte/Optionen an Organe oder Mitarbeitende. |  |
+| 109 | Befragung, ob wesentliche Ereignisse nach dem Bilanzstichtag mit Ursachen, die vor dem Bilanzstichtag liegen und welche ein Verlustrisiko beinhalten, bestehen sowie was die quantitativen Auswirkungen sind | Keine Ereignisse mit Verlustrisiko ausser Fortführungsrisiko (offengelegt). |  | rm 30.04.2025 |
+| 110 | Befragung zu durchgeführten Kapitalerhöhungen und Kapitalherabsetzungen, die das oberste Leitungsorgan innerhalb eines Kapitalbands vorgenommen hat | n/a – Kein Kapitalband. |  |
+| 111 | Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr und Plausibilisierung mit den Prüfungsresultaten in den einzelnen Bilanzpositionen | Methode stetig; Plausibilisierung mit Vorräten. | 7-05 | rm 30.04.2025 |
+| 112 | Befragung zu Gründen für einen vorzeitigen Rücktritt der Revisionsstelle (falls Rücktritt der Revisionsstelle im Geschäftsjahr erfolgt ist) oder zu Gründen der Abberufung der Revisionsstelle | n/a – Kein Rücktritt der Revisionsstelle. |  |
+| Detailprüfungen |
+| 301 | Prüfung des korrekten Aufbaues des Anhanges (Hinweis auf schweizerisches Rechnungslegungs-recht, angewandte Grundsätze, Erläuterungen zu Positionen der Bilanz und Erfolgsrechnung, weitere Angaben) | Aufbau korrekt. | 7-02 | rm 30.04.2025 |
+| 302 | Prüfen, ob die im Anhang beschriebenen Bewertungsgrundsätze den Sachverhalt richtig wiedergeben | Bewertungsgrundsätze richtig beschrieben (angefangene Arbeiten zu Herstellkosten ohne Gewinn). | 7-02 | rm 30.04.2025 |
+| 303 | Prüfen, ob die Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung mit dem Gesamttotal in der Bilanz oder der Erfolgsrechnung übereinstimmen | Angaben mit Bilanz/ER übereinstimmend. | 7-02 | rm 30.04.2025 |
+| 304 | Plausibilisierung der Angabe der Vollzeitstellen (weniger als 10, über 50 beziehungsweise über 250) im Jahresdurchschnitt | Über 50, nicht über 250 – plausibel (FTE ~86). | R-01 | rm 30.04.2025 |
+| 305 | Prüfen, ob eine wesentliche Nettoauflösung von stillen Reserven besteht und ob diese im Anhang richtig wiedergegeben ist | Keine wesentliche Nettoauflösung. | 7-05 | rm 30.04.2025 |
+| 306 | Prüfen, ob weitere vom Gesetz verlangte Angaben im Anhang offengelegt sind, wie z.B. • Abweichungen vom Prinzip der Stetigkeit • Abweichungen vom Prinzip der Unternehmensfortführung • Umrechnungskurse bei Rechnungslegung in Fremdwährung • Erläuterungen zu Positionen, die zum Börsenkurs oder einem anderen beobachtbaren Marktpreis bewertet werden • Schwankungsreserven, sofern sie nicht aus der Bilanz ersichtlich sind • Angaben über Gegenstand und Betrag von Aufwertungen • Angaben gemäss Spezialgesetzen (z.B. FusG) | Wesentliche Unsicherheit Fortführung offengelegt; keine Abweichung Stetigkeit. | 7-02 | rm 30.04.2025 |
+| 307 | Prüfung ob für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen in der Bilanz, der Erfolgsrechnung oder im Anhang ausgewiesen sind (Art. 959a Abs. 3 OR und Art. 959b Abs. 5 OR)? | Bankdarlehen separat, Überschuldung und Sanierung erläutert. | 7-02 | rm 30.04.2025 |
+| 308 | Abstimmung der ausgewiesenen Posten mit Belegen oder anderen geeigneten Unterlagen | Abgestimmt. |  | rm 30.04.2025 |
+| 309 | Abstimmung der Verbindlichkeiten gegenüber Vorsorgeeinrichtungen mit Detailunterlagen (z.B. Kontoauszug BVG) | Keine Verbindlichkeiten ggü. Vorsorgeeinrichtung. |  | rm 30.04.2025 |
+| 310 | Prüfung der Korrektheit und Vollständigkeit der Angaben über ausserordentliche, einmalige oder periodenfremde Positionen der Erfolgsrechnung | A.o. Positionen erläutert (Ziff. 9). | 7-02 | rm 30.04.2025 |
+| 315 | Prüfung, ob Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, gesondert ausgewiesen werden (sofern nicht bereits in Bilanz ersichtlich) | Darlehen Aktionäre offengelegt (Ziff. 4). | 7-02 | rm 30.04.2025 |
+| 316 | Prüfung, ob bei der Anwendung der Absatzerfolgsrechnung im Anhang Angaben zum Personalaufwand und zu den Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen werden | n/a – Produktionserfolgsrechnung. |  |
+| 317 | Prüfung der Angaben über Bestand und Veränderungen eigener Kapitalanteile | n/a – Keine eigenen Kapitalanteile. |  |
+| 318 | Zwischenabschluss: Prüfung, ob der Anhang des Zwischenabschlusses bzw. der Zwischenabschluss die folgenden Angaben enthält: • Bezeichnung als Zwischenabschluss • Zweck des Zwischenabschlusses • die Vereinfachungen und Verkürzungen, einschliesslich allfälliger Abweichungen von den für die letzte Jahresrechnung verwendeten Grundsätzen • weitere Faktoren, welche die wirtschaftliche Lage des Unternehmens während der Berichtsperiode wesentlich beeinflusst haben, insbesondere Ausführungen zur Saisonalität | n/a – Kein Zwischenabschluss. |  |
+| Sonstige Prüfungen |
+| 401 | Prüfung, ob Anleihensobligationen ausstehend sind und wenn zutreffend, ob Angaben zu deren Beträgen, Zinssätze, Fälligkeiten und weitere Konditionen gemacht sind | n/a – Keine Anleihen. |  |
+| 402 | Abstimmung der Offenlegung über die Gründe bei einem vorzeitigen Rücktritt der Revisionsstelle mit dem Wortlaut im Rücktrittsschreiben | n/a – Kein Rücktritt. |  |
+| 403 | Prüfung, ob bei grösseren Unternehmen korrekte Angaben zu den langfristigen verzinslichen Verbindlichkeiten gemacht werden, aufgeteilt nach Fälligkeit innerhalb von einem bis fünf Jahren und nach fünf Jahren | n/a – Kein grösseres Unternehmen. |  |
+| 404 | Prüfung, ob bei grösseren Unternehmen das Honorar der Revisionsstelle je gesondert für Revisionsdienstleistungen und andere Dienstleistungen aufgeführt ist | n/a – Kein grösseres Unternehmen. |  |
+
+Abschliessende Beurteilung Prüffeld T: Anhang nach Ergänzungen vollständig.   Visum rm 30.04.2025 / Review jb 09.05.2025

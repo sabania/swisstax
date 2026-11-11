@@ -1,0 +1,18 @@
+---
+id: or__art-682
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 682 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Sechsundzwanzigster Titel: Die Aktiengesellschaft > Zweiter Abschnitt: Rechte und Pflichten der Aktionäre > F. Leistungspflicht
+  des Aktionärs > II. Verzugsfolgen > 2. Aufforderung zur Leistung'
+artikel: Art. 682
+---
+> OR · Art. 682 OR
+
+**Abs. 1** Beabsichtigt der Verwaltungsrat, den säumigen Aktionär seiner Rechte aus der Zeichnung verlustig zu erklären oder von ihm die in den Statuten vorgesehene Konventionalstrafe zu fordern, so hat er im Schweizerischen Handelsamtsblatt sowie in der von den Statuten vorgesehenen Form eine Aufforderung zur Einzahlung zu erlassen, unter Ansetzung einer Nachfrist von mindestens 30 Tagen, von der Veröffentlichung an gerechnet. Der Aktionär darf seiner Rechte aus der Zeichnung erst verlustig erklärt oder für die Konventionalstrafe belangt werden, wenn er auch innerhalb der Nachfrist die Einzahlung nicht leistet.
+
+**Abs. 2** Bei Namenaktien tritt an die Stelle der Veröffentlichungen eine Zahlungsaufforderung und Ansetzung der Nachfrist an die im Aktienbuch eingetragenen Aktionäre durch eingeschriebenen Brief. In diesem Falle läuft die Nachfrist vom Empfang der Zahlungsaufforderung an.
+
+**Abs. 3** Der säumige Aktionär haftet der Gesellschaft für den Betrag, der durch die Leistungen des neuen Aktionärs nicht gedeckt ist.

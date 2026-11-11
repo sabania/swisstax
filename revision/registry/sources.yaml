@@ -1,0 +1,294 @@
+# Quellen des Revisions-Wikis (eingeschränkte Revision, consis/revio 4.0). Rang: gesetz > standard > handbuch > fachliteratur > intern.
+# lizenz: EXPERTsuisse-Werke sind für consis lizenziert (Vermerk «Nutzungsberechtigt: consis …») – nur intern verwenden.
+- id: or
+  kurz: OR
+  typ: gesetz
+  rang: 1
+  titel: Obligationenrecht (OR, SR 220) – konsolidierte Fassung
+  format: xml
+  quelle: fedlex
+  sr: '220'
+  url: https://www.fedlex.admin.ch/eli/cc/27/317_321_377/20261001/de
+  stand: '2026-10-01'
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/27/317_321_377/20261001/de/xml/fedlex-data-admin-ch-eli-cc-27-317_321_377-20261001-de-xml-4.xml
+  raw: raw/or.xml
+  sha256: b5aab27bc6d2e5a569e84b23b5396d3507ce6dc665270f1c48ffb86d1ec12d94
+  einheiten: 1703
+  abgerufen: '2026-11-11'
+- id: ser-2022
+  kurz: SER
+  typ: standard
+  rang: 2
+  titel: Schweizer Standard zur Eingeschränkten Revision (SER), Ausgabe 2022
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: SER_Schweizer Standard_Eingeschraenkte_Revision_2022.pdf
+  seiten: 146
+  raw: raw/ser-2022.pdf
+  sha256: 7b0c947fd190babe50c103f9bb00742c5a1883dda8ef33e85a831c8bd812621a
+  abgerufen: '2026-11-11'
+- id: sa-ch-2026
+  kurz: SA-CH
+  typ: standard
+  rang: 2
+  titel: Schweizer Standards zur Abschlussprüfung (SA-CH), Stand 09-2026 (ordentliche Revision)
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: Schweizer Standards zur Abschlusspruefung (SA-CH) (09-2026).pdf
+  seiten: 1146
+  raw: raw/sa-ch-2026.pdf
+  sha256: ca00bd2c576af4444feb595a0c36c5dceffe89605f4bb14914d01439172041a7
+  abgerufen: '2026-11-11'
+- id: hwp-er-2026
+  kurz: HWP ER
+  typ: handbuch
+  rang: 3
+  titel: Schweizer Handbuch der Wirtschaftsprüfung – Eingeschränkte Revision, Ausgabe 2026
+  format: pdf
+  lizenz: EXPERTsuisse
+  chunking: rz
+  original: HWP_Eingeschraenkte_Revision_2026.pdf
+  seiten: 317
+  raw: raw/hwp-er-2026.pdf
+  sha256: 2ccb979802cb056bad6e463b69b18a56e04406378d58fcaea4afe03384bc3d7d
+  abgerufen: '2026-11-11'
+- id: hwp-bur-2023
+  kurz: HWP BuR
+  typ: handbuch
+  rang: 3
+  titel: Schweizer Handbuch der Wirtschaftsprüfung – Buchführung und Rechnungslegung, Ausgabe 2023
+  format: pdf
+  lizenz: EXPERTsuisse
+  chunking: rz
+  original: HWP_Buchfuehrung_Rechnungslegung_2023.pdf
+  seiten: 505
+  raw: raw/hwp-bur-2023.pdf
+  sha256: d8a431c6e4631defe54f17077bef7d395e660b8675ed681b6adfc30562cb3768
+  abgerufen: '2026-11-11'
+- id: hwp-or-2024
+  kurz: HWP OR
+  typ: handbuch
+  rang: 3
+  titel: Schweizer Handbuch der Wirtschaftsprüfung – Ordentliche Revision, Ausgabe 2024
+  format: pdf
+  lizenz: EXPERTsuisse
+  chunking: rz
+  original: HWP_Ordentliche_Revision_2024.pdf
+  seiten: 693
+  raw: raw/hwp-or-2024.pdf
+  sha256: 928fa18254a1dd38252c57146454e4b6554dbeb309c2568e236403d69cdfbb8b
+  abgerufen: '2026-11-11'
+- id: hwp-bwp-2024
+  kurz: HWP BWP
+  typ: handbuch
+  rang: 3
+  titel: Schweizer Handbuch der Wirtschaftsprüfung – Betriebswirtschaftliche Prüfungen, Ausgabe 2024
+  format: pdf
+  lizenz: EXPERTsuisse
+  chunking: rz
+  original: HWP_Betriebswirtschaftliche_Pruefungen_2024.pdf
+  seiten: 481
+  raw: raw/hwp-bwp-2024.pdf
+  sha256: f03219e5e94af250cf34808c545cba8819ff78948c46005fdf452877e7f1d68d
+  abgerufen: '2026-11-11'
+- id: korrigendum-hwp-2026
+  kurz: Korrigendum HWP
+  typ: handbuch
+  rang: 3
+  titel: Korrigendum zu den HWP-Bänden (09-2026)
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: Korrigendum HWP-Bände (09-2026).pdf
+  seiten: 32
+  raw: raw/korrigendum-hwp-2026.pdf
+  sha256: df30b5ba64b0e20934e9c61d09e67110016e23b931f006c79d66dccaf72c43f4
+  abgerufen: '2026-11-11'
+- id: muster-hwp-er-2026
+  kurz: Muster HWP ER
+  typ: muster
+  rang: 3
+  titel: Mustervorlagensammlung zum HWP Eingeschränkte Revision (2026)
+  format: docx
+  lizenz: EXPERTsuisse
+  original: Mustervorlagensammlung zum HWP (2026) Eingeschränkte Revision.docx
+  raw: raw/muster-hwp-er-2026.docx
+  sha256: 698204af2f3e7713d113797250a2f7889cdcf2d5478e73595a85933f67b564e8
+  abgerufen: '2026-11-11'
+- id: qa-kapitalverlust-2023
+  kurz: Q&A Kapitalverlust
+  typ: fachliteratur
+  rang: 3
+  titel: Q&A zur Prüfung bei Kapitalverlust und Überschuldung gemäss revidiertem Aktienrecht (EXPERTsuisse, 06-2023)
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: QA_zu_Pruefung_bei_Kapitalverlust_und_Ueberschuldung_gemaess_revidiertem_Aktienrecht_06-2023-de.pdf
+  seiten: 16
+  raw: raw/qa-kapitalverlust-2023.pdf
+  sha256: 21698ff8d1b4c715fdaecea735c7b49645141f3fd9db9dd749ae3b17c5b4bf6b
+  abgerufen: '2026-11-11'
+- id: qa-or-rechnungslegung-2026
+  kurz: Q&A Rechnungslegungsrecht
+  typ: fachliteratur
+  rang: 3
+  titel: Q&A zum Rechnungslegungsrecht OR (EXPERTsuisse, 10-2026)
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: QA_OR_Rechnungslegungsrecht_(10-2026)_DE (2).pdf
+  seiten: 78
+  raw: raw/qa-or-rechnungslegung-2026.pdf
+  sha256: e3d1aae327ff85bc3e2043156425fabc7649641fce4e40d3919b30474191cc37
+  abgerufen: '2026-11-11'
+- id: textbausteine-gewinnverwendung-2022
+  kurz: Textbausteine Gewinnverwendung
+  typ: muster
+  rang: 3
+  titel: Textbausteine Gewinnverwendung – eingeschränkte Revision (EXPERTsuisse, 12-2022)
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: Textbausteine___Gewinnverwendung_Eingeschraenkte_Revision_12-2022-de.pdf
+  seiten: 2
+  raw: raw/textbausteine-gewinnverwendung-2022.pdf
+  sha256: a5f61659a83f47cfaa683989a709d94a3c216350465ee1214feacfc1ac552b5a
+  abgerufen: '2026-11-11'
+- id: ph-20-mwst-2016
+  kurz: PH 20
+  typ: fachliteratur
+  rang: 3
+  titel: 'Prüfungshinweis 20: Prüfung der MWST (EXPERTsuisse, 02-2016)'
+  format: docx
+  lizenz: EXPERTsuisse
+  original: PH 20 MWST (02-2016)-DE.docx
+  raw: raw/ph-20-mwst-2016.docx
+  sha256: 662d06d2c1060f02369b2704333827002b02728bcd811f99d7d8f8082d583fcf
+  abgerufen: '2026-11-11'
+- id: leitfaden-qm-2025
+  kurz: Leitfaden QM
+  typ: fachliteratur
+  rang: 3
+  titel: Leitfaden Qualitätsmanagement 2025
+  format: pdf
+  lizenz: EXPERTsuisse
+  original: Leitfaden_Qualitaetsmanagement_2025.pdf
+  seiten: 59
+  raw: raw/leitfaden-qm-2025.pdf
+  sha256: 632e1411c1041168f3bcfeaabb6fe93454ea8959296616315055b90314f8605b
+  abgerufen: '2026-11-11'
+- id: camponovo-2026-hinweispflichten
+  kurz: Camponovo Hinweispflichten
+  typ: fachliteratur
+  rang: 4
+  titel: 'Camponovo (2026): Hinweispflichten der Revisionsstelle'
+  format: pdf
+  original: Camponove 2026 - Hinweispflichten.pdf
+  seiten: 218
+  raw: raw/camponovo-2026-hinweispflichten.pdf
+  sha256: 7b7c519dfcb493ebeb9ed18eb4de52a4c1854b95f5afb24586e1010aa3f2013f
+  abgerufen: '2026-11-11'
+- id: ef-2023-08-jahresverluste
+  kurz: EF 2023/08
+  typ: fachliteratur
+  rang: 4
+  titel: 'Expert Focus 2023/08: Jahresverluste und Vorträge von Bilanzverlusten auf neue Rechnung'
+  format: pdf
+  original: EF 2023 08 Jahresverluste und Vorträge von Bilanzverlusten auf neue Rechnung.pdf
+  seiten: 1
+  raw: raw/ef-2023-08-jahresverluste.pdf
+  sha256: 4c4f650dab6966a3fe36269a6661a3e366e492f5ff6225f753bdb64cf590d8ee
+  abgerufen: '2026-11-11'
+- id: ef-2026-08-buchungslogik
+  kurz: EF 2026/08
+  typ: fachliteratur
+  rang: 4
+  titel: 'Expert Focus 2026/08: Handelsrechtliche Buchungslogik im Kontext des Steuerrechts'
+  format: pdf
+  original: EF 2026 08 Handelsrechtliche Buchungslogik im Kontext des Steuerrechts.pdf
+  seiten: 8
+  raw: raw/ef-2026-08-buchungslogik.pdf
+  sha256: cd190711ff2b5be0b35639382db96b279da1fe5a29922e9a9a01825c0df27f6e
+  abgerufen: '2026-11-11'
+- id: ef-2020-10-latente-steuern
+  kurz: EF 2020/10
+  typ: fachliteratur
+  rang: 4
+  titel: 'Expert Focus 2020/10: Latente Steuerguthaben auf Verlustvorträgen'
+  format: pdf
+  original: EF 2020 10 Latente Steuerguthaben auf Verlustvorträgen.pdf
+  seiten: 5
+  raw: raw/ef-2020-10-latente-steuern.pdf
+  sha256: ba5532ea3e55684780510cf114e0f72eb32cb02d85a454afd238242a429b4484
+  abgerufen: '2026-11-11'
+- id: estv-ks-6a-2024
+  kurz: KS ESTV 6a
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Kreisschreiben Nr. 6a vom 10.10.2024: Verdecktes Eigenkapital'
+  format: pdf
+  original: Verdecktes Eigenkapital - KS ESTV 6a vom 10.10.2024.pdf
+  seiten: 3
+  raw: raw/estv-ks-6a-2024.pdf
+  sha256: a93ea9e8b47c48b2d57173fa497a60c8f33cc29f138bbc599e842b4c0126b968
+  abgerufen: '2026-11-11'
+- id: estv-zinsen-2026
+  kurz: ESTV Zinssätze 2026
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Rundschreiben: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse und Darlehen'
+  format: pdf
+  original: Zinsen 2026 ESTV DArlehen.pdf
+  seiten: 3
+  raw: raw/estv-zinsen-2026.pdf
+  sha256: 71827642f161d5f47e7e4b65f4b3c6c52f638b08373df0f67b6f3f88d8d9d310
+  abgerufen: '2026-11-11'
+- id: treuhand-almanach-2026
+  kurz: Treuhand-Almanach
+  typ: fachliteratur
+  rang: 4
+  titel: Treuhand-Almanach, Ausgabe 2026
+  format: pdf
+  original: Treuhand-Almanach_Ausgabe_2026_DEU.pdf
+  seiten: 112
+  raw: raw/treuhand-almanach-2026.pdf
+  sha256: 4807820d714f40862c8f7c4f34867b8f0abb712a68317f9f93f84fe6b6bc464f
+  abgerufen: '2026-11-11'
+- id: seminar-ki-datenschutz-2026
+  kurz: Seminar KI Datenschutz
+  typ: fachliteratur
+  rang: 4
+  titel: 'Seminarunterlagen «Knacknüsse Eingeschränkte Revision» (11-2026): Datenschutz bei der Nutzung von KI (Folien 53–68)'
+  format: pdf
+  hinweis: Bildscan, kein Textlayer
+  original: KI Revision für Remo.pdf
+  seiten: 8
+  raw: raw/seminar-ki-datenschutz-2026.pdf
+  sha256: 96c01cf204a0ac1dc55264352bba7e3a8d796d226df56ff919c7ae5b275608de
+  abgerufen: '2026-11-11'
+- id: konzept-ki-revisionsagent-2026
+  kurz: Konzept KI-Revisionsagent
+  typ: intern
+  rang: 5
+  titel: Konzept KI-Revisionsagent (consis, 26.10.2026) – Grundlage Testphase 1
+  format: docx
+  original: Konzept_KI-Revisionsagent.docx
+  raw: raw/konzept-ki-revisionsagent-2026.docx
+  sha256: c2ae49678a100dd8ee347195f5042d14a96456bd58bfad3a8599c5cd68f9b0e3
+  abgerufen: '2026-11-11'
+- id: katalog-revio4
+  kurz: Prüfschritt-Katalog revio 4.0
+  typ: intern
+  rang: 5
+  titel: Anhang H – Prüfprogramm revio 4.0 (29 Prüffelder, 538 Prüfschritte)
+  format: xlsx
+  original: Anhang_H_Pruefschritt-Katalog_revio4.xlsx
+  raw: raw/katalog-revio4.xlsx
+  sha256: e76cd13c95c8dc020387a260d844d4e552f5e2a02d4ec7985d2bf682313a1a07
+  abgerufen: '2026-11-11'
+- id: flussdiagramm-revisionsagent-2026
+  kurz: Flussdiagramm
+  typ: intern
+  rang: 5
+  titel: 'Flussdiagramm KI-Revisionsagent: Gesamtprozess einer eingeschränkten Revision (26.10.2026)'
+  format: png
+  original: Flussdiagramm_KI-Revisionsagent_Gesamtprozess.png
+  raw: raw/flussdiagramm-revisionsagent-2026.png
+  sha256: a7a315ac9003783e59e2ab71437f10902e89179084ab145c08276ba923381710
+  abgerufen: '2026-11-11'

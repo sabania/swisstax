@@ -1,0 +1,18 @@
+---
+id: or__art-1179
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 1179 OR
+pfad: 'Fünfte Abteilung: Die Wertpapiere > Vierunddreissigster Titel: Anleihensobligationen > Zweiter Abschnitt: Gläubigergemeinschaft bei Anleihensobligationen > D. Gemeinschaftsbeschlüsse > I. Eingriffe
+  in die Gläubigerrechte > 3. Genehmigung > d. Widerruf'
+artikel: Art. 1179
+---
+> OR · Art. 1179 OR
+
+**Abs. 1** Stellt sich nachträglich heraus, dass der Beschluss der Gläubigerversammlung auf unredliche Weise zustande gekommen ist, so kann die obere kantonale Nachlassbehörde auf Begehren eines Anleihensgläubigers die Genehmigung ganz oder teilweise widerrufen.
+
+**Abs. 2** Das Begehren ist binnen sechs Monaten, nachdem der Anleihensgläubiger vom Anfechtungsgrunde Kenntnis erhalten hat, zu stellen.
+
+**Abs. 3** Der Widerruf kann vom Schuldner und von jedem Anleihensgläubiger innerhalb 30 Tagen beim Bundesgericht wegen Gesetzesverletzung oder Unangemessenheit in dem für die Rechtspflege in Schuldbetreibungs- und Konkurssachen vorgesehenen Verfahren angefochten werden. Ebenso kann die Verweigerung des Widerrufs von jedem Anleihensgläubiger, der den Widerruf verlangt hat, angefochten werden.

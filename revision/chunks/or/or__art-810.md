@@ -1,0 +1,28 @@
+---
+id: or__art-810
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 810 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Achtundzwanzigster Titel: Die Gesellschaft mit beschränkter Haftung > Dritter Abschnitt: Organisation der Gesellschaft > B. Geschäftsführung
+  und Vertretung > II. Aufgaben der Geschäftsführer'
+artikel: Art. 810
+---
+> OR · Art. 810 OR
+
+**Abs. 1** Die Geschäftsführer sind zuständig in allen Angelegenheiten, die nicht nach Gesetz oder Statuten der Gesellschafterversammlung zugewiesen sind.
+
+**Abs. 2** Unter Vorbehalt der nachfolgenden Bestimmungen haben die Geschäftsführer folgende unübertragbare und unentziehbare Aufgaben:
+- 1. die Oberleitung der Gesellschaft und die Erteilung der nötigen Weisungen;
+- 2. die Festlegung der Organisation im Rahmen von Gesetz und Statuten;
+- 3. die Ausgestaltung des Rechnungswesens und der Finanzkontrolle sowie der Finanzplanung, sofern diese für die Führung der Gesellschaft notwendig ist;
+- 4. die Aufsicht über die Personen, denen Teile der Geschäftsführung übertragen sind, namentlich im Hinblick auf die Befolgung der Gesetze, Statuten, Reglemente und Weisungen;
+- 5. die Erstellung des Geschäftsberichts;
+- 6. die Vorbereitung der Gesellschafterversammlung sowie die Ausführung ihrer Beschlüsse;
+- 7. die Einreichung eines Gesuchs um Nachlassstundung und die Benachrichtigung des Gerichts im Falle der Überschuldung.
+
+**Abs. 3** Wer den Vorsitz der Geschäftsführung innehat, beziehungsweise der einzige Geschäftsführer hat folgende Aufgaben:
+- 1. die Einberufung und Leitung der Gesellschafterversammlung;
+- 2. Bekanntmachungen gegenüber den Gesellschaftern;
+- 3. die Sicherstellung der erforderlichen Anmeldungen beim Handelsregister.

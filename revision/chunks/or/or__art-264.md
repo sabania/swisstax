@@ -1,0 +1,19 @@
+---
+id: or__art-264
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 264 OR
+pfad: 'Zweite Abteilung: Die einzelnen Vertragsverhältnisse > Achter Titel: Die Miete > Erster Abschnitt: Allgemeine Bestimmungen > M. Vorzeitige Rückgabe der Sache'
+artikel: Art. 264
+---
+> OR · Art. 264 OR
+
+**Abs. 1** Gibt der Mieter die Sache zurück, ohne Kündigungsfrist oder -termin einzuhalten, so ist er von seinen Verpflichtungen gegenüber dem Vermieter nur befreit, wenn er einen für den Vermieter zumutbaren neuen Mieter vorschlägt; dieser muss zahlungsfähig und bereit sein, den Mietvertrag zu den gleichen Bedingungen zu übernehmen.
+
+**Abs. 2** Andernfalls muss er den Mietzins bis zu dem Zeitpunkt leisten, in dem das Mietverhältnis gemäss Vertrag oder Gesetz endet oder beendet werden kann.
+
+**Abs. 3** Der Vermieter muss sich anrechnen lassen, was er:
+- a. an Auslagen erspart und
+- b. durch anderweitige Verwendung der Sache gewinnt oder absichtlich zu gewinnen unterlassen hat.

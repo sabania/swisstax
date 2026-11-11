@@ -1,0 +1,25 @@
+---
+id: or__art-329b
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 329b OR
+pfad: 'Zweite Abteilung: Die einzelnen Vertragsverhältnisse > Zehnter Titel: Der Arbeitsvertrag > Erster Abschnitt: Der Einzelarbeitsvertrag > C. Pflichten des Arbeitgebers > VIII. Freizeit, Ferien und
+  Urlaub > 2. Ferien > b. Kürzung'
+artikel: Art. 329b
+---
+> OR · Art. 329b OR
+
+**Abs. 1** Ist der Arbeitnehmer durch sein Verschulden während eines Dienstjahres insgesamt um mehr als einen Monat an der Arbeitsleistung verhindert, so kann der Arbeitgeber die Ferien für jeden vollen Monat der Verhinderung um einen Zwölftel kürzen.
+
+**Abs. 2** Beträgt die Verhinderung insgesamt nicht mehr als einen Monat im Dienstjahr und ist sie durch Gründe, die in der Person des Arbeitnehmers liegen, wie Krankheit, Unfall, Erfüllung gesetzlicher Pflichten, Ausübung eines öffentlichen Amtes oder Jugendurlaub, ohne Verschulden des Arbeitnehmers verursacht, so dürfen die Ferien vom Arbeitgeber nicht gekürzt werden.
+
+**Abs. 3** Die Ferien dürfen vom Arbeitgeber auch nicht gekürzt werden, wenn:
+- a. eine Arbeitnehmerin wegen Schwangerschaft bis zu zwei Monate an der Arbeitsleistung verhindert ist;
+- b. eine Arbeitnehmerin einen Mutterschaftsurlaub nach Artikel 329f bezogen hat;
+- c. eine Arbeitnehmerin oder ein Arbeitnehmer den Urlaub des andern Elternteils nach Artikel 329g oder den Urlaub im Falle des Todes der Mutter nach Artikel 329gbis bezogen hat;
+- d. eine Arbeitnehmerin oder ein Arbeitnehmer einen Betreuungsurlaub nach Artikel 329i bezogen hat,
+- e. eine Arbeitnehmerin oder ein Arbeitnehmer einen Adoptionsurlaub nach Artikel 329j bezogen hat.
+
+**Abs. 4** Durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag kann eine von den Absätzen 2 und 3 abweichende Regelung getroffen werden, wenn sie für den Arbeitnehmer im Ganzen mindestens gleichwertig ist.

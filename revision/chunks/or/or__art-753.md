@@ -1,0 +1,16 @@
+---
+id: or__art-753
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 753 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Sechsundzwanzigster Titel: Die Aktiengesellschaft > Sechster Abschnitt: Verantwortlichkeit > A. Haftung > II. Gründungshaftung'
+artikel: Art. 753
+---
+> OR · Art. 753 OR
+
+Gründer, Mitglieder des Verwaltungsrates und alle Personen, die bei der Gründung mitwirken, werden sowohl der Gesellschaft als den einzelnen Aktionären und Gesellschaftsgläubigern für den Schaden verantwortlich, wenn sie:
+- 1. in den Statuten, einem Gründungsbericht oder einem Kapitalerhöhungsbericht absichtlich oder fahrlässig Sacheinlagen oder die Gewährung besonderer Vorteile zugunsten von Aktionären und anderen Personen unrichtig oder irreführend angeben, verschweigen oder verschleiern oder bei der Genehmigung einer solchen Massnahme in anderer Weise dem Gesetz zuwiderhandeln;
+- 2. absichtlich oder fahrlässig die Eintragung der Gesellschaft in das Handelsregister aufgrund einer Bescheinigung oder Urkunde veranlassen, die unrichtige Angaben enthält;
+- 3. wissentlich dazu beitragen, dass Zeichnungen zahlungsunfähiger Personen angenommen werden.

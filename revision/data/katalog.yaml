@@ -1,0 +1,5873 @@
+quelle: katalog-revio4
+hinweis: Aus Anhang H (revio 4.0, Vorlage MUSTER AG) – automatisch aus PDF gelesen; 5 Kennzeichnungen unlesbar (?).
+prueffelder:
+- code: A1
+  bezeichnung: Allgemeine Prüfungshandlungen
+  anzahl:
+    befragung: 3
+    analytisch: 8
+    detail: 8
+    sonstige: 2
+    total: 21
+    ep: 18
+    wp: 0
+- code: B1
+  bezeichnung: Flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs
+  anzahl:
+    befragung: 2
+    analytisch: 2
+    detail: 12
+    sonstige: 6
+    total: 22
+    ep: 4
+    wp: 5
+- code: C1
+  bezeichnung: Forderungen aus Lieferungen und Leistungen
+  anzahl:
+    befragung: 6
+    analytisch: 8
+    detail: 15
+    sonstige: 7
+    total: 36
+    ep: 9
+    wp: 7
+- code: D1
+  bezeichnung: Übrige kurzfristige Forderungen
+  anzahl:
+    befragung: 3
+    analytisch: 2
+    detail: 11
+    sonstige: 4
+    total: 20
+    ep: 7
+    wp: 2
+- code: E1
+  bezeichnung: Aktive Rechnungsabgrenzung
+  anzahl:
+    befragung: 1
+    analytisch: 3
+    detail: 7
+    sonstige: 0
+    total: 11
+    ep: 4
+    wp: 3
+- code: F1
+  bezeichnung: Vorräte
+  anzahl:
+    befragung: 11
+    analytisch: 5
+    detail: 7
+    sonstige: 6
+    total: 29
+    ep: 11
+    wp: 6
+- code: F2
+  bezeichnung: Nicht fakturierte Leistungen
+  anzahl:
+    befragung: 5
+    analytisch: 3
+    detail: 8
+    sonstige: 8
+    total: 24
+    ep: 7
+    wp: 4
+- code: G1
+  bezeichnung: Mobile Sachanlagen
+  anzahl:
+    befragung: 6
+    analytisch: 2
+    detail: 9
+    sonstige: 7
+    total: 24
+    ep: 8
+    wp: 4
+- code: G2
+  bezeichnung: Immobile Sachanlagen
+  anzahl:
+    befragung: 6
+    analytisch: 2
+    detail: 9
+    sonstige: 11
+    total: 28
+    ep: 9
+    wp: 4
+- code: H1
+  bezeichnung: Finanzanlagen
+  anzahl:
+    befragung: 5
+    analytisch: 2
+    detail: 14
+    sonstige: 4
+    total: 25
+    ep: 4
+    wp: 5
+- code: H2
+  bezeichnung: Aktivdarlehen
+  anzahl:
+    befragung: 2
+    analytisch: 1
+    detail: 7
+    sonstige: 4
+    total: 14
+    ep: 3
+    wp: 3
+- code: H3
+  bezeichnung: Beteiligungen
+  anzahl:
+    befragung: 2
+    analytisch: 1
+    detail: 7
+    sonstige: 5
+    total: 15
+    ep: 3
+    wp: 3
+- code: I1
+  bezeichnung: Immaterielle Anlagen
+  anzahl:
+    befragung: 4
+    analytisch: 1
+    detail: 6
+    sonstige: 8
+    total: 19
+    ep: 5
+    wp: 2
+- code: K1
+  bezeichnung: Verbindlichkeiten aus Lieferungen und Leistungen
+  anzahl:
+    befragung: 3
+    analytisch: 3
+    detail: 6
+    sonstige: 10
+    total: 22
+    ep: 7
+    wp: 2
+- code: L1
+  bezeichnung: Kurzfristige verzinsliche Verbindlichkeiten
+  anzahl:
+    befragung: 5
+    analytisch: 1
+    detail: 6
+    sonstige: 11
+    total: 23
+    ep: 8
+    wp: 2
+- code: M1
+  bezeichnung: übrige kurzfristige Verbindlichkeiten
+  anzahl:
+    befragung: 3
+    analytisch: 1
+    detail: 7
+    sonstige: 8
+    total: 19
+    ep: 7
+    wp: 1
+- code: M2
+  bezeichnung: Mehrwertsteuer
+  anzahl:
+    befragung: 4
+    analytisch: 0
+    detail: 5
+    sonstige: 8
+    total: 17
+    ep: 2
+    wp: 6
+- code: M3
+  bezeichnung: Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen
+  anzahl:
+    befragung: 1
+    analytisch: 2
+    detail: 7
+    sonstige: 1
+    total: 11
+    ep: 4
+    wp: 3
+- code: N1
+  bezeichnung: Langfristige Verbindlichkeiten
+  anzahl:
+    befragung: 5
+    analytisch: 1
+    detail: 6
+    sonstige: 3
+    total: 15
+    ep: 9
+    wp: 1
+- code: O1
+  bezeichnung: Rückstellungen
+  anzahl:
+    befragung: 3
+    analytisch: 1
+    detail: 6
+    sonstige: 5
+    total: 15
+    ep: 4
+    wp: 2
+- code: P1
+  bezeichnung: Eigenkapital
+  anzahl:
+    befragung: 0
+    analytisch: 0
+    detail: 19
+    sonstige: 1
+    total: 20
+    ep: 5
+    wp: 3
+- code: R1
+  bezeichnung: Personalaufwand
+  anzahl:
+    befragung: 2
+    analytisch: 3
+    detail: 9
+    sonstige: 12
+    total: 26
+    ep: 4
+    wp: 5
+- code: S1
+  bezeichnung: Steuern
+  anzahl:
+    befragung: 4
+    analytisch: 1
+    detail: 6
+    sonstige: 3
+    total: 14
+    ep: 3
+    wp: 5
+- code: SCH1
+  bezeichnung: Betrieblicher Ertrag
+  anzahl:
+    befragung: 2
+    analytisch: 2
+    detail: 5
+    sonstige: 3
+    total: 12
+    ep: 2
+    wp: 1
+- code: SCH2
+  bezeichnung: Direkter Aufwand
+  anzahl:
+    befragung: 2
+    analytisch: 2
+    detail: 3
+    sonstige: 0
+    total: 7
+    ep: 2
+    wp: 1
+- code: SCH3
+  bezeichnung: Übriger betrieblicher Aufwand
+  anzahl:
+    befragung: 1
+    analytisch: 2
+    detail: 3
+    sonstige: 0
+    total: 6
+    ep: 1
+    wp: 3
+- code: SCH4
+  bezeichnung: Finanzaufwand und Finanzertrag
+  anzahl:
+    befragung: 1
+    analytisch: 3
+    detail: 2
+    sonstige: 0
+    total: 6
+    ep: 3
+    wp: 2
+- code: SCH5
+  bezeichnung: Nebenbetrieb, betriebsfremd und ausserordentlich
+  anzahl:
+    befragung: 2
+    analytisch: 2
+    detail: 1
+    sonstige: 0
+    total: 5
+    ep: 4
+    wp: 1
+- code: T1
+  bezeichnung: Anhang zur Jahresrechnung
+  anzahl:
+    befragung: 12
+    analytisch: 0
+    detail: 16
+    sonstige: 4
+    total: 32
+    ep: 23
+    wp: 1
+schritte:
+- id: A1-101
+  prueffeld: A1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze.
+  beispiel_pflichtenheft: ''
+- id: A1-102
+  prueffeld: A1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offen gelegt?
+  beispiel_pflichtenheft: ''
+- id: A1-103
+  prueffeld: A1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele: []
+  text: Vollständigkeitserklärung besprechen und unterzeichnen lassen.
+  beispiel_pflichtenheft: ''
+- id: A1-201
+  prueffeld: A1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele: []
+  text: Entspricht die Jahresrechnung dem Verständnis des Abschlussprüfers von der Tätigkeit und dem Umfeld des Unternehmens?
+  beispiel_pflichtenheft: ''
+- id: A1-202
+  prueffeld: A1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele: []
+  text: Werden die zuvor aus der Prüfung einzelner Positionen gezogenen Schlüsse erhärtet?
+  beispiel_pflichtenheft: ''
+- id: A1-203
+  prueffeld: A1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele: []
+  text: Beurteilung der Auswirkung nicht korrigierter Fehler - sowohl einzeln als auch zusammen gekommen. Information der Unternehmensleitung über die Fehler.
+  beispiel_pflichtenheft: ''
+- id: A1-204
+  prueffeld: A1
+  nr: '204'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele: []
+  text: Sind die Grundlagen und Grundsätze ordnungsmässiger Rechnungslegung eingehalten?
+  beispiel_pflichtenheft: ''
+- id: A1-205
+  prueffeld: A1
+  nr: '205'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele: []
+  text: Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern)?
+  beispiel_pflichtenheft: ''
+- id: A1-206
+  prueffeld: A1
+  nr: '206'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Werden die für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen in der Bilanz, der Erfolgsrechnung
+    oder im Anhang ausgewiesen?
+  beispiel_pflichtenheft: ''
+- id: A1-207
+  prueffeld: A1
+  nr: '207'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Plausibilisierung von Bestand und Veränderungen stiller Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Prüffeldern; Offenlegung einer wesentlichen Nettoauflösung
+    im Anhang.
+  beispiel_pflichtenheft: ''
+- id: A1-208
+  prueffeld: A1
+  nr: '208'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'Bei einem Zwischenabschluss: Feststellung, ob die Vereinfachungen und Verkürzungen bei der Erstellung eines Zwischenabschlusses nach Art. 960f OR für den Zweck einer Zwischendividende gemäss Art.
+    675a Abs. 2 OR die Darstellung des Geschäftsgangs nicht beeinträchtigen.'
+  beispiel_pflichtenheft: ''
+- id: A1-301
+  prueffeld: A1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Feststellen, ob Jahresrechnung rechtsgültig unterzeichnet wurde.
+  beispiel_pflichtenheft: ''
+- id: A1-302
+  prueffeld: A1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Abstimmung des Vortrags der Vorjahresbestände auf die neue Rechnung mit Unterlagen des Vorjahres (geprüfte Jahresrechnung, falls vorhanden).
+  beispiel_pflichtenheft: Abstimmung Vorjahresbestände
+- id: A1-303
+  prueffeld: A1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung.
+  beispiel_pflichtenheft: ''
+- id: A1-304
+  prueffeld: A1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen. Weitere mögliche Prüfungsgenstände: • Genehmigung der letzten
+    Jahresrechnung innerhalb von sechs Monaten • Wahl der Revisionsstelle • Beschluss über die Verwendung des Bilanzgewinns (umfasst auch einen allfälligen Bilanzverlust) • Feststellen, ob die Jahresrechnung
+    bzw. der Zwischenabschluss vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung bzw. den Zwischenabschluss zuständigen Person unterzeichnet
+    oder formell gutgeheissen wurde.'
+  beispiel_pflichtenheft: ''
+- id: A1-305
+  prueffeld: A1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'Prüfung, ob die Jahresrechnung vollständig ist: • Bilanz • Erfolgsrechnung • Geldflussrechnung (nur für grössere Unternehmen) • Anhang • Gewinnverwendung'
+  beispiel_pflichtenheft: ''
+- id: A1-306
+  prueffeld: A1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'Prüfung, ob die Mindestgliederungsvorschriften eingehalten sind: • im Umlaufvermögen • im Anlagevermögen • im kurzfristigen Fremdkapital • im langfristigen Fremdkapital • im Eigenkapital • in der
+    Erfolgsrechnung (Produktions- oder Absatzerfolgsrechnung)'
+  beispiel_pflichtenheft: ''
+- id: A1-307
+  prueffeld: A1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Abstimmung des ausgewiesenen Jahresgewinns (oder Jahresverlusts) im Eigenkapital, der Erfolgsrechnung sowie im Antrag über die Verwendung des Bilanzgewinns.
+  beispiel_pflichtenheft: ''
+- id: A1-308
+  prueffeld: A1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis; Offenlegung einer wesentlichen Nettoauflösung im Anhang. 53
+  beispiel_pflichtenheft: ''
+- id: A1-401
+  prueffeld: A1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'Prüfung, ob die Geldflussrechnung folgende Mindestgliederung hat: • Geldfluss aus Geschäftstätigkeit • Geldfluss aus Investitionstätigkeit • Geldfluss aus Finanzierungstätigkeit'
+  beispiel_pflichtenheft: ''
+- id: A1-402
+  prueffeld: A1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: 'Prüfung der Korrektheit der Geldflussrechnung: • korrekter Fonds (Flüssige Mittel oder Netto Flüssige Mittel) • Jahresergebnis stimmt mit Erfolgsrechnung überein • Abschreibungen stimmen mit der
+    Erfolgsrechnung überein • Vollständigkeit der nicht-liquiditätswirksamen Aufwände und Erträge (z.B. Veränderung Rückstellungen, Erfolg aus Anlagenverkäufen, Veränderung Delkredere) • richtige Zuordnung
+    zu Geldfluss aus Geschäftstätigkeit, Investitionstätigkeit oder Finanztätigkeit • richtige Behandlung der Investitionstätigkeit (Abstimmung mit Anlagespiegel) • richtige Behandlung der Desinvestitionen
+    (Verkaufszahlen) • korrekte Berücksichtigung von Veränderungen von Arbeitgeberbeitragsreserven • korrekte Berücksichtigung von Dividendenausschüttungen • Geldflussrechnung stimmt mit Veränderung des
+    Fonds überein'
+  beispiel_pflichtenheft: ''
+- id: B1-101
+  prueffeld: B1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  text: Befragung über allfällige Verpfändung und Verfügungsbeschränkungen
+  beispiel_pflichtenheft: ''
+- id: B1-102
+  prueffeld: B1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - PA
+  text: Befragung zu aussergewöhnlichen Geldtransaktionen
+  beispiel_pflichtenheft: ''
+- id: B1-201
+  prueffeld: B1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Kritische Beurteilung des Kassenbestandes (Höhe, Entwicklung)
+  beispiel_pflichtenheft: ''
+- id: B1-202
+  prueffeld: B1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag
+  beispiel_pflichtenheft: ''
+- id: B1-301
+  prueffeld: B1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmen Bilanzbestand mit Buchhaltung und ▪ Kassabuch, Kassenaufnahmeprotokoll ▪ PC-Standmeldung ▪ Bankauszug ▪ Korrespondenz Festgeld-Anlagen ▪ Depotauszug (kurzfristig gehaltene Aktiven mit
+    Börsenkurs)
+  beispiel_pflichtenheft: ''
+- id: B1-302
+  prueffeld: B1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc.
+  beispiel_pflichtenheft: ''
+- id: B1-303
+  prueffeld: B1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Prüfung richtige Verbuchung Zinsen, Verrechnungssteuern
+  beispiel_pflichtenheft: ''
+- id: B1-304
+  prueffeld: B1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  text: Beurteilung der Liquiditätsentwicklung und Überprüfung der Kreditlimiten
+  beispiel_pflichtenheft: ''
+- id: B1-305
+  prueffeld: B1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - PA
+  text: Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen
+  beispiel_pflichtenheft: ''
+- id: B1-306
+  prueffeld: B1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  text: Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge
+  beispiel_pflichtenheft: ''
+- id: B1-307
+  prueffeld: B1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte
+  beispiel_pflichtenheft: ''
+- id: B1-308
+  prueffeld: B1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anhand anderer Unterlagen
+  beispiel_pflichtenheft: ''
+- id: B1-309
+  prueffeld: B1
+  nr: '309'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  text: Belegprüfung einzelner wesentlicher Wertschriftentransaktionen
+  beispiel_pflichtenheft: ''
+- id: B1-310
+  prueffeld: B1
+  nr: '310'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  text: Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen
+  beispiel_pflichtenheft: ''
+- id: B1-320
+  prueffeld: B1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: B1-322
+  prueffeld: B1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: B1-401
+  prueffeld: B1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  - PA
+  - DO
+  - RI
+  text: Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen)
+  beispiel_pflichtenheft: ''
+- id: B1-402
+  prueffeld: B1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung der Bankenbonität
+  beispiel_pflichtenheft: ''
+- id: B1-404
+  prueffeld: B1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  text: Prüfung Ein- und Ausgänge anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: B1-405
+  prueffeld: B1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - PA
+  text: Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben
+  beispiel_pflichtenheft: ''
+- id: B1-406
+  prueffeld: B1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Saldenabstimmung Prüfungszeitraum (Anfang/Ende)
+  beispiel_pflichtenheft: ''
+- id: B1-407
+  prueffeld: B1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - RI
+  text: Prüfung interner Überträge (Kassa/Postcheck/Banken)
+  beispiel_pflichtenheft: ''
+- id: C1-101
+  prueffeld: C1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Durchsicht der Debitoren OP-Liste und Befragung über Gründe für alte, ungewöhnliche hohe Ausstände sowie Haben-Salden
+  beispiel_pflichtenheft: ''
+- id: C1-102
+  prueffeld: C1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - DO
+  text: Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind
+  beispiel_pflichtenheft: ''
+- id: C1-103
+  prueffeld: C1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: C1-104
+  prueffeld: C1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Befragung, wie säumige Zahler identifiziert und wie allfällige Wertberichtigungen festgelegt werden. Beurteilung von deren Angemessenheit
+  beispiel_pflichtenheft: ''
+- id: C1-105
+  prueffeld: C1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Befragung über das Vorgehen zur Sicherstellung einer korrekten zeitlichen Abgrenzung von Verkäufen und Gutschriften (Angefangene Arbeiten, Warenvorräte)
+  beispiel_pflichtenheft: ''
+- id: C1-106
+  prueffeld: C1
+  nr: '106'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  text: Befragung ob in neuer Periode wesentliche Forderungen ausgebucht oder Gutschriften ausgestellt worden sind
+  beispiel_pflichtenheft: ''
+- id: C1-201
+  prueffeld: C1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - RI
+  text: Vergleich des Bestandes der Forderungen mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: C1-202
+  prueffeld: C1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - BE
+  - RI
+  text: Beurteilung der Altersstruktur der Forderungen. Befragung über Gründe für alte, ungewöhnlich hohe sowie Haben-Salden. Befragung über die Einbringlichkeit von Forderungen
+  beispiel_pflichtenheft: ''
+- id: C1-203
+  prueffeld: C1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  text: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc.
+  beispiel_pflichtenheft: ''
+- id: C1-204
+  prueffeld: C1
+  nr: '204'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt Beteiligungen bestehen
+  beispiel_pflichtenheft: ''
+- id: C1-205
+  prueffeld: C1
+  nr: '205'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: 'Umsatzanalyse: a) Umsatzanteil nach geographischen, Kunden- und Artikel-Gruppen b) Wesentliche Veränderungen und unerwartete Entwicklungen (VJ-Werte, Budget)'
+  beispiel_pflichtenheft: ''
+- id: C1-206
+  prueffeld: C1
+  nr: '206'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: 'Kundenstruktur: a) Umsatzanteil der grössten Kunden b) Anteil der grössten Debitorenpositionen c) Festhalten weiterer Merkmale der Kundenstruktur'
+  beispiel_pflichtenheft: ''
+- id: C1-207
+  prueffeld: C1
+  nr: '207'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: 'Kennzahlen: a) Debitorenverluste in % vom Umsatz b) Durchschnittliche Zahlungsfristen 62'
+  beispiel_pflichtenheft: ''
+- id: C1-208
+  prueffeld: C1
+  nr: '208'
+  typ: Analytisch
+  kennzeichnung: WP
+  pruefziele:
+  - PA
+  text: Vergleich der Verhältnisse von Rabatten und Debitorenverlusten zum Umsatz mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: C1-301
+  prueffeld: C1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Abstimmung des Totals der Debitoren Offenposten-Liste mit dem Hauptbuch
+  beispiel_pflichtenheft: ''
+- id: C1-302
+  prueffeld: C1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Beurteilung der Angemessenheit der Wertberichtigungen / Delkredere aufgrund der Erfahrungen in den Vorjahren, der Altersstruktur und der Ergebnisse der Befragungen
+  beispiel_pflichtenheft: C1 Delkredere
+- id: C1-303
+  prueffeld: C1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: C1-304
+  prueffeld: C1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Durchsicht der OP-Liste im Prüfungszeitpunkt und/oder Zahlungen in neuer Rechnung
+  beispiel_pflichtenheft: ''
+- id: C1-305
+  prueffeld: C1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  - PA
+  text: Durchsicht von Debitoren-, Erlös-, Warenretouren- und Erlösminderungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten
+  beispiel_pflichtenheft: ''
+- id: C1-306
+  prueffeld: C1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  - PA
+  text: Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+  beispiel_pflichtenheft: ''
+- id: C1-307
+  prueffeld: C1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - BE
+  text: Durchsicht von Versandpapieren, Zahlungen in neuer Rechnung und Verträgen zur Feststellung des Vorhandenseins von Forderungen
+  beispiel_pflichtenheft: ''
+- id: C1-308
+  prueffeld: C1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - BE
+  text: Durchsicht des Kontos Debitorenverluste und Feststellung der korrekten Autorisierung von Ausbuchungen
+  beispiel_pflichtenheft: ''
+- id: C1-309
+  prueffeld: C1
+  nr: '309'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  text: Festhalten der seit dem Bilanzstichtag erfolgten Zahlungen
+  beispiel_pflichtenheft: ''
+- id: C1-310
+  prueffeld: C1
+  nr: '310'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  text: Prüfung der am Revisionsstichtag überfälligen Guthaben
+  beispiel_pflichtenheft: ''
+- id: C1-311
+  prueffeld: C1
+  nr: '311'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Spezielle Bewertung Fremdwährungs- und Gross-Debitoren
+  beispiel_pflichtenheft: ''
+- id: C1-312
+  prueffeld: C1
+  nr: '312'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: Behandlung von Voraus- und Anzahlungen
+  beispiel_pflichtenheft: ''
+- id: C1-320
+  prueffeld: C1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: C1-321
+  prueffeld: C1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung von Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: C1-322
+  prueffeld: C1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: C1-401
+  prueffeld: C1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  - RI
+  text: Bestandesnachweise durch Einholung von Saldobestätigungen
+  beispiel_pflichtenheft: ''
+- id: C1-402
+  prueffeld: C1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: 'Saldoliste abgestimmt mit: a) offenen Rechnungen b) Einzelkonten'
+  beispiel_pflichtenheft: ''
+- id: C1-403
+  prueffeld: C1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Befragung, ob Forderungen Vorräte, die in Konsignation gegeben wurden, betreffen und, wenn ja, ob Korrekturen zum Storno solcher Transaktionen und korrekter Verbuchung der Waren im Inventar vorgenommen
+    worden sind
+  beispiel_pflichtenheft: ''
+- id: C1-404
+  prueffeld: C1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung, ob nach dem Bilanzstichtag grosse Nachlässe auf Umsatzerlösen gewährt und, wenn ja, ob diese korrekt erfasst worden sind.
+  beispiel_pflichtenheft: ''
+- id: C1-406
+  prueffeld: C1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - RI
+  text: Prüfung Buchungen auf Hauptbuchkonten Forderungen und Umsatzerlöse
+  beispiel_pflichtenheft: ''
+- id: C1-407
+  prueffeld: C1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - RI
+  text: Genehmigung der Verkaufsbedingungen
+  beispiel_pflichtenheft: ''
+- id: C1-408
+  prueffeld: C1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - BE
+  text: Beurteilung Mahnwesen
+  beispiel_pflichtenheft: ''
+- id: D1-100
+  prueffeld: D1
+  nr: '100'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Befragung zum geschäftlichen Hintergrund wesentlicher übriger Forderungen
+  beispiel_pflichtenheft: ''
+- id: D1-101
+  prueffeld: D1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - DO
+  text: Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind
+  beispiel_pflichtenheft: ''
+- id: D1-102
+  prueffeld: D1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Besprechung wesentlicher Abweichungen einzelner Forderungen gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: D1-201
+  prueffeld: D1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - DO
+  text: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: D1-202
+  prueffeld: D1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  text: Vergleich des Bestands der Forderungen mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: D1-301
+  prueffeld: D1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - RI
+  text: Abstimmen Bilanzbestand mit Buchhaltung und Einzelnachweisen
+  beispiel_pflichtenheft: ''
+- id: D1-302
+  prueffeld: D1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: 'Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) VSt-Rückerstattungsantrag d) Verträgen, Zinsabrechnungen e) Anzahlungen: Bestellungsunterlagen,
+    Kaufverträge, Lieferantenrechnungen aus neuer Rechnung, Zahlungsbelege f) anderer Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: D1-303
+  prueffeld: D1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - RI
+  text: Ausgliedern von Habensaldi
+  beispiel_pflichtenheft: ''
+- id: D1-304
+  prueffeld: D1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Prüfung der richtigen Verzinsung der Kontokorrente (insbesondere Konzern / Nahestehende)
+  beispiel_pflichtenheft: ''
+- id: D1-305
+  prueffeld: D1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - RI
+  text: Beurteilung Umrechnung Fremdwährung
+  beispiel_pflichtenheft: ''
+- id: D1-306
+  prueffeld: D1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Bonität der einzelnen Ausstände
+  beispiel_pflichtenheft: ''
+- id: D1-307
+  prueffeld: D1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Beurteilung der Notwendigkeit einer Wertberichtigung durch Prüfung der Zahlungskonditionen oder dem nachträglichen Eingang der Zahlungen
+  beispiel_pflichtenheft: ''
+- id: D1-308
+  prueffeld: D1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - BE
+  text: Durchsicht der Konten in neuer Rechnung auf auffällige Beträge, die darauf hindeuten, dass Forderungen des Vorjahres ausgebucht wurden
+  beispiel_pflichtenheft: ''
+- id: D1-320
+  prueffeld: D1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: D1-321
+  prueffeld: D1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Feststellen von Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: D1-322
+  prueffeld: D1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: D1-401
+  prueffeld: D1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - RI
+  text: Buchungen auf Bestandes- und Erfolgskonten
+  beispiel_pflichtenheft: ''
+- id: D1-402
+  prueffeld: D1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - RI
+  text: 'Anzahlungen: Prüfung Verkehr mit Auftragsbestätigungen, Bestellungen etc.'
+  beispiel_pflichtenheft: ''
+- id: D1-403
+  prueffeld: D1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: 'Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes'
+  beispiel_pflichtenheft: ''
+- id: D1-404
+  prueffeld: D1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - DO
+  text: Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten
+  beispiel_pflichtenheft: ''
+- id: E1-101
+  prueffeld: E1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung über die Werthaltigkeit (künftiger Geld- oder Nutzenzugang) der aktivierten Beträge
+  beispiel_pflichtenheft: ''
+- id: E1-201
+  prueffeld: E1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Vergleich mit den Beständen des Vorjahres
+  beispiel_pflichtenheft: ''
+- id: E1-202
+  prueffeld: E1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Vergleich der Salden zugehöriger Ertrags- und Aufwandskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung
+  beispiel_pflichtenheft: ''
+- id: E1-203
+  prueffeld: E1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: Festellung von Abgrenzungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: E1-301
+  prueffeld: E1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: E1-302
+  prueffeld: E1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - BE
+  text: Prüfung aktivierte Forderungen auf Echtheit, Bonität und Werthaltigkeit (künftiger Geld- oder Nutzenzugang)
+  beispiel_pflichtenheft: ''
+- id: E1-303
+  prueffeld: E1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Kritische Durchsicht von Ertrags- und Aufwandskonten, welche häufig aktive Rechnungsabgrenzungen enthalten
+  beispiel_pflichtenheft: ''
+- id: E1-304
+  prueffeld: E1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+  beispiel_pflichtenheft: ''
+- id: E1-305
+  prueffeld: E1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  beispiel_pflichtenheft: ''
+- id: E1-306
+  prueffeld: E1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: Prüfung korrekte Verbuchung bei Bildung und Auflösung anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: E1-320
+  prueffeld: E1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung von Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: F1-101
+  prueffeld: F1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Befragung über die Methode der (physischen) Bestandesermittlung
+  beispiel_pflichtenheft: ''
+- id: F1-102
+  prueffeld: F1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - EN
+  - BE
+  - RI
+  text: Besprechung von Korrekturen aufgrund der letzten physischen Bestandesaufnahme
+  beispiel_pflichtenheft: ''
+- id: F1-103
+  prueffeld: F1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: 'Wenn per Bilanzstichtag keine physische Bestandesaufnahme erfolgte: Abklärung, ob ein System der permanenten Inventur eingesetzt wird und ein periodischer Vergleich mit tatsächlich vorhandenen
+    Mengen stattfindet'
+  beispiel_pflichtenheft: ''
+- id: F1-104
+  prueffeld: F1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  text: Befragung über die Grundlagen der Bewertung in den einzelnen Vorratskategorien. Feststellung, ob das Niederstwertprinzip befolgt worden ist
+  beispiel_pflichtenheft: ''
+- id: F1-105
+  prueffeld: F1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  text: Befragung, ob die Bilanzierungs- und Bewertungsgrundsätze, unter Berücksichtigung von Faktoren wie Material, Saläre und Gemeinkosten, stetig angewandt worden sind, und ob ein Kostenrechnungssystem
+    verwendet wird und dieses in der Vergangenheit verlässlich war
+  beispiel_pflichtenheft: ''
+- id: F1-106
+  prueffeld: F1
+  nr: '106'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - DO
+  text: Befragung über die angewandte Methode zur Feststellung von Vorräten mit geringem Lagerumschlag und überalterten Vorräten
+  beispiel_pflichtenheft: ''
+- id: F1-107
+  prueffeld: F1
+  nr: '107'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, wie die verlustfreie Bewertung von Produktkategorien mit geringer Marge sichergestellt ist
+  beispiel_pflichtenheft: ''
+- id: F1-108
+  prueffeld: F1
+  nr: '108'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung und allfälliger Vorratsbewegungen (Einkauf/ Verkauf/ Betriebsbuchhaltung)
+  beispiel_pflichtenheft: ''
+- id: F1-109
+  prueffeld: F1
+  nr: '109'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende des Geschäftsjahres
+  beispiel_pflichtenheft: ''
+- id: F1-110
+  prueffeld: F1
+  nr: '110'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  text: Befragung, ob das Unternehmen Vorräte von Dritten in Konsignation besitzt und wie sichergestellt wird, dass solche nicht in das Inventar aufgenommen werden.,
+  beispiel_pflichtenheft: ''
+- id: F1-111
+  prueffeld: F1
+  nr: '111'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  text: Befragung, ob Vorräte verpfändet, an anderen Orten eingelagert oder in Konsignation an Dritte gegeben worden sind
+  beispiel_pflichtenheft: ''
+- id: F1-201
+  prueffeld: F1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Vergleich des Lagerbestandes und -umschlages einzelner Produktkategorien mit jenem früherer Perioden
+  beispiel_pflichtenheft: ''
+- id: F1-202
+  prueffeld: F1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Analytischer Vergleich der Margen einzelner Produktkategorien mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: F1-203
+  prueffeld: F1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: 'Inventar: a) Wesentliche Veränderungen und unerwartete Entwicklungen (VJ-Vergleich, Budget) b) Zusammensetzung Vorräte im Hinblick auf Umsatzerwartungen (ABC-Analyse) c) Analyse der Wertberichtigung
+    für demodierte bzw. unkurante Artikel'
+  beispiel_pflichtenheft: ''
+- id: F1-204
+  prueffeld: F1
+  nr: '204'
+  typ: Analytisch
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - DO
+  text: Vergleich der mengenmässigen Bestände bedeutender Vorratskategorien mit den Beständen und Abgängen vorangegangener Perioden und den für die laufende Periode erwarteten Bestandsmengen. Befragung
+    über bedeutende Schwankungen und Abweichungen
+  beispiel_pflichtenheft: ''
+- id: F1-205
+  prueffeld: F1
+  nr: '205'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: 'Lieferantenstruktur: a) Zusammensetzung des Wareneinkaufs b) Bestehen Abhängigkeiten von einzelnen Lieferanten? c) Ist Belieferungssicherheit gewährleistet?'
+  beispiel_pflichtenheft: ''
+- id: F1-301
+  prueffeld: F1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmung des Totales der Inventarlisten mit dem Hauptbuch
+  beispiel_pflichtenheft: ''
+- id: F1-302
+  prueffeld: F1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Stichprobenmässige Prüfung der Bewertung zu Einstandspreisen (effektiv bezahlte Einstandspreise, FIFO oder gleitende Durchschnittspreise)
+  beispiel_pflichtenheft: ''
+- id: F1-303
+  prueffeld: F1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - PA
+  text: Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und Projektgeschäft tätig sind)
+  beispiel_pflichtenheft: ''
+- id: F1-304
+  prueffeld: F1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - PA
+  text: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien mit ungenügenden Margen
+  beispiel_pflichtenheft: ''
+- id: F1-320
+  prueffeld: F1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: F1-321
+  prueffeld: F1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aufstellung über Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: F1-322
+  prueffeld: F1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: F1-401
+  prueffeld: F1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: 'Bei Inventur zum Bilanzstichtag: a) Inventurbeobachtung b) Prüfung der Einhaltung der Inventurinstruktionen c) Nachzählen einzelner Inventurpositionen d) rechnerische Überprüfung der Inventur'
+  beispiel_pflichtenheft: ''
+- id: F1-402
+  prueffeld: F1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: 'Bei permanenter Inventur: a) Einsichtnahme in die Inventuranweisungen b) Vornahme von Bestandesnachweisen am Revisionsstichtag'
+  beispiel_pflichtenheft: ''
+- id: F1-403
+  prueffeld: F1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  text: Beurteilen der Inventur hinsichtlich Instruktionen, Ablauf und Überwachung
+  beispiel_pflichtenheft: ''
+- id: F1-404
+  prueffeld: F1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  text: Bestandesnachweise durch Einholung von Bestätigungen von Konsignationslagern
+  beispiel_pflichtenheft: ''
+- id: F1-405
+  prueffeld: F1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - RI
+  text: Rechnerische Prüfungen im Inventar (Additionen / Multiplikationen)
+  beispiel_pflichtenheft: ''
+- id: F1-406
+  prueffeld: F1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - BE
+  text: Beurteilung Angemessenheit der Versicherungswerte
+  beispiel_pflichtenheft: ''
+- id: F2-101
+  prueffeld: F2
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Befragung über die Art der angefangenen Arbeiten (Arbeiten im Auftrag oder zur Lagerhaltung)
+  beispiel_pflichtenheft: ''
+- id: F2-102
+  prueffeld: F2
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende des Geschäftsjahres
+  beispiel_pflichtenheft: ''
+- id: F2-103
+  prueffeld: F2
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  text: Feststellung, ob das Niederstwertprinzip befolgt worden ist oder ob alternativ die nicht fakturierten Dienstleistungen zu den zu erwartenden Honoraransätzen bewertet wurden
+  beispiel_pflichtenheft: ''
+- id: F2-104
+  prueffeld: F2
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  text: Befragung, ob die Bilanzierungs- und Bewertungsgrundsätze, unter Berücksichtigung von Faktoren wie Material, Saläre und Gemeinkosten stetig angewandt worden sind und ob ein Kostenrechnungssystem
+    verwendet wird und dieses in der Vergangenheit verlässliche Informationen erbracht hat
+  beispiel_pflichtenheft: ''
+- id: F2-105
+  prueffeld: F2
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen sichergestellt ist
+  beispiel_pflichtenheft: ''
+- id: F2-201
+  prueffeld: F2
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Analyse der wesentliche Veränderungen und unerwartete Entwicklungen
+  beispiel_pflichtenheft: ''
+- id: F2-202
+  prueffeld: F2
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Gegenüberstellung angefangene Arbeiten und Anzahlungen von Kunden oder Abrechnungen von Unterakkordanten
+  beispiel_pflichtenheft: ''
+- id: F2-203
+  prueffeld: F2
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - PA
+  text: Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist
+  beispiel_pflichtenheft: ''
+- id: F2-301
+  prueffeld: F2
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Abstimmen Bilanzbestand mit Buchhaltung und Bestandeslisten/ Aufstellungen
+  beispiel_pflichtenheft: ''
+- id: F2-302
+  prueffeld: F2
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung angefangener Arbeiten anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode
+  beispiel_pflichtenheft: ''
+- id: F2-303
+  prueffeld: F2
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Stichprobenmässige Prüfung der Bewertung der nicht fakturierten Dienstleistungen und angefangenen Arbeiten anhand geeigneter Dokumente (Stunden- oder Arbeitsfortschrittsaufzeichnungen, vereinbarte
+    Abrechnungssätze, Kalkulations- und Kostenrechnungsunterlagen usw.)
+  beispiel_pflichtenheft: ''
+- id: F2-304
+  prueffeld: F2
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  text: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten Dienstleistungen mit ungenügenden Margen
+  beispiel_pflichtenheft: ''
+- id: F2-306
+  prueffeld: F2
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - BE
+  text: Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und Projektgeschäft tätig sind)
+  beispiel_pflichtenheft: ''
+- id: F2-320
+  prueffeld: F2
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: F2-321
+  prueffeld: F2
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Aufstellung über Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: F2-322
+  prueffeld: F2
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: F2-401
+  prueffeld: F2
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung der Abgrenzung mit Einkauf/ Betriebsbuchhaltung/ Schlussfakturierung
+  beispiel_pflichtenheft: ''
+- id: F2-402
+  prueffeld: F2
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - DO
+  - RI
+  text: Rechnerische Prüfungen (Additionen / Multiplikationen)
+  beispiel_pflichtenheft: ''
+- id: F2-403
+  prueffeld: F2
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - DO
+  text: Beurteilung der Angemessenheit der Versicherungswerte
+  beispiel_pflichtenheft: ''
+- id: F2-404
+  prueffeld: F2
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: Prüfung Verbuchung Bestandesveränderung
+  beispiel_pflichtenheft: ''
+- id: F2-405
+  prueffeld: F2
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - DO
+  text: 'Prüfung Bewertung anhand: a) Kreditorenfakturen für Fremdleistungen b) Herstellkosten-Berechnungen c) Auftragsbestätigungen, Offerte d) Schlussabrechnungen im neuen Jahr e) Bruttomargen-Vergleich
+    f) Projektschätzungen des Projektleiters'
+  beispiel_pflichtenheft: ''
+- id: F2-406
+  prueffeld: F2
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Kritische (Margen-) Beurteilung mehrjähriger Projekte (PoC)
+  beispiel_pflichtenheft: ''
+- id: F2-407
+  prueffeld: F2
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Soll-Ist-Vergleich mit Kalkulationen
+  beispiel_pflichtenheft: ''
+- id: F2-408
+  prueffeld: F2
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - DO
+  text: Berücksichtigung besonderer Verhältnisse (Konsortien, ARGEs)
+  beispiel_pflichtenheft: ''
+- id: G1-101
+  prueffeld: G1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung
+  beispiel_pflichtenheft: ''
+- id: G1-103
+  prueffeld: G1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden
+  beispiel_pflichtenheft: ''
+- id: G1-104
+  prueffeld: G1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  text: Befragung über Anschaffung und Verkäufe von Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen
+  beispiel_pflichtenheft: ''
+- id: G1-105
+  prueffeld: G1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, ob Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen
+  beispiel_pflichtenheft: ''
+- id: G1-106
+  prueffeld: G1
+  nr: '106'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - DO
+  text: Befragung, ob Anlagen irgendwelchen Eigentumsbeschränkungen unterliegen
+  beispiel_pflichtenheft: ''
+- id: G1-107
+  prueffeld: G1
+  nr: '107'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen
+  beispiel_pflichtenheft: ''
+- id: G1-201
+  prueffeld: G1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: G1-202
+  prueffeld: G1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: 'Kennzahlen: a) Anlagenintensität b) Finanzierung der Investitionen'
+  beispiel_pflichtenheft: ''
+- id: G1-301
+  prueffeld: G1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel)
+  beispiel_pflichtenheft: ''
+- id: G1-302
+  prueffeld: G1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen der einzelnen Anlagen bzw. Anlagekategorien mit der Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: G1-303
+  prueffeld: G1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  text: Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten
+  beispiel_pflichtenheft: ''
+- id: G1-304
+  prueffeld: G1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - PA
+  text: Durchsicht der Bestandes- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+  beispiel_pflichtenheft: ''
+- id: G1-305
+  prueffeld: G1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  text: Durchsicht von Einkaufsfakturen, Leasingverträgen und weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Anlagen zur Feststellung des Vorhandenseins der bilanzierten Anlagen
+    (Belegprüfung)
+  beispiel_pflichtenheft: G1 Einkaufsfakturen
+- id: G1-306
+  prueffeld: G1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  text: Physische Bestandesaufnahme
+  beispiel_pflichtenheft: ''
+- id: G1-320
+  prueffeld: G1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: G1-321
+  prueffeld: G1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: G1-322
+  prueffeld: G1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: G1-401
+  prueffeld: G1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Einholen von Bewertungsgutachten
+  beispiel_pflichtenheft: ''
+- id: G1-402
+  prueffeld: G1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  text: Beurteilung der Anlageninventur
+  beispiel_pflichtenheft: ''
+- id: G1-403
+  prueffeld: G1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Aktivierungsfähigkeit der Zugänge
+  beispiel_pflichtenheft: ''
+- id: G1-404
+  prueffeld: G1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Bilanzwerte (Restwerte)
+  beispiel_pflichtenheft: ''
+- id: G1-405
+  prueffeld: G1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: Beurteilung Abschreibungen
+  beispiel_pflichtenheft: ''
+- id: G1-406
+  prueffeld: G1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Ermitteln der zulasten der ER gebuchten wertvermehrenden Anlagen
+  beispiel_pflichtenheft: ''
+- id: G1-407
+  prueffeld: G1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten
+  beispiel_pflichtenheft: ''
+- id: G2-101
+  prueffeld: G2
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung
+  beispiel_pflichtenheft: ''
+- id: G2-102
+  prueffeld: G2
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  text: Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen
+  beispiel_pflichtenheft: ''
+- id: G2-103
+  prueffeld: G2
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden
+  beispiel_pflichtenheft: ''
+- id: G2-104
+  prueffeld: G2
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Befragung über Anschaffung und Verkäufe von Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen
+  beispiel_pflichtenheft: ''
+- id: G2-105
+  prueffeld: G2
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, ob Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen
+  beispiel_pflichtenheft: ''
+- id: G2-106
+  prueffeld: G2
+  nr: '106'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - DO
+  text: Befragung, ob Anlagen irgendwelchen Eigentumsbeschränkungen unterliegen
+  beispiel_pflichtenheft: ''
+- id: G2-201
+  prueffeld: G2
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: G2-202
+  prueffeld: G2
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: 'Kennzahlen: a) Anlagenintensität b) Finanzierung der Investitionen'
+  beispiel_pflichtenheft: ''
+- id: G2-301
+  prueffeld: G2
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel)
+  beispiel_pflichtenheft: ''
+- id: G2-302
+  prueffeld: G2
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen der einzelnen Anlagen bzw. Anlagekategorien mit der Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: G2-303
+  prueffeld: G2
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten
+  beispiel_pflichtenheft: ''
+- id: G2-304
+  prueffeld: G2
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Durchsicht der Bestandes- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+  beispiel_pflichtenheft: ''
+- id: G2-305
+  prueffeld: G2
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  text: Durchsicht von Einkaufsfakturen, Leasingverträgen und weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Anlagen zur Feststellung des Vorhandenseins der bilanzierten Anlagen
+    (Belegprüfung)
+  beispiel_pflichtenheft: ''
+- id: G2-306
+  prueffeld: G2
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  text: Physische Bestandesaufnahme
+  beispiel_pflichtenheft: ''
+- id: G2-320
+  prueffeld: G2
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: G2-321
+  prueffeld: G2
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: G2-322
+  prueffeld: G2
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: G2-401
+  prueffeld: G2
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  text: Festhalten der Grundpfandbelastung und Vergleich mit Hypothekarschulden
+  beispiel_pflichtenheft: ''
+- id: G2-402
+  prueffeld: G2
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Einholen von Bewertungsgutachten
+  beispiel_pflichtenheft: ''
+- id: G2-403
+  prueffeld: G2
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Beurteilung Aktivierungsfähigkeit der Zugänge
+  beispiel_pflichtenheft: ''
+- id: G2-404
+  prueffeld: G2
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung der Bewertung anhand der Rentabilität
+  beispiel_pflichtenheft: ''
+- id: G2-405
+  prueffeld: G2
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  text: Beurteilung der Anlageninventur
+  beispiel_pflichtenheft: ''
+- id: G2-406
+  prueffeld: G2
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  text: Bestandesnachweis durch Grundbuchauszüge, Versicherungsnachweise etc.
+  beispiel_pflichtenheft: ''
+- id: G2-407
+  prueffeld: G2
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: Beurteilung Abschreibungen
+  beispiel_pflichtenheft: ''
+- id: G2-408
+  prueffeld: G2
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Bilanzwerte (Restwerte)
+  beispiel_pflichtenheft: ''
+- id: G2-409
+  prueffeld: G2
+  nr: '409'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Ermitteln der zulasten der Erfolgsrechnung gebuchten wertvermehrenden Anlagen
+  beispiel_pflichtenheft: ''
+- id: G2-410
+  prueffeld: G2
+  nr: '410'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten
+  beispiel_pflichtenheft: ''
+- id: G2-411
+  prueffeld: G2
+  nr: '411'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  text: Vollständigkeit der Erträge (Mieten etc.)
+  beispiel_pflichtenheft: ''
+- id: H1-101
+  prueffeld: H1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  beispiel_pflichtenheft: ''
+- id: H1-102
+  prueffeld: H1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Besprechung mit der Unternehmensleitung betreffend allfälliger niedriger Marktwerte
+  beispiel_pflichtenheft: ''
+- id: H1-103
+  prueffeld: H1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen
+  beispiel_pflichtenheft: ''
+- id: H1-104
+  prueffeld: H1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  text: Befragung über Verwahrung und Eigentum der Krypto-Assets (Befragung, wie die Krypto-Assets verwahrt werden (Self-Custody oder Custodian), wie Eigentum nachgewiesen wird (On-Chain Signatur, Custodian-Bestätigung,
+    Mikro Transaktionen) und wie die Verantwortlichkeiten geregelt sind.)
+  beispiel_pflichtenheft: ''
+- id: H1-105
+  prueffeld: H1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Befragung über Bewertungsgrundlagen von Krypto-Assets (Befragung, welche Preisquellen (z. B. Börsenfeeds) für die Bewertung verwendet werden und wie Bewertungszeitpunkte festgelegt werden.)
+  beispiel_pflichtenheft: ''
+- id: H1-201
+  prueffeld: H1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Erklärung von Veränderungen und Untersuchung von unerwarteten Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: H1-202
+  prueffeld: H1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Analyse von Bestands- und Bewertungsentwicklungen von Krypto-Assets, Abgleich der Bestandsveränderungen mit Marktpreisentwicklung (Volatilität), Plausibilisierung von Wertschwankungen und Vergleich
+    mit Vorjahr.
+  beispiel_pflichtenheft: ''
+- id: H1-301
+  prueffeld: H1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmen Bilanzbestand mit Buchhaltung und a) Depotauszug b) bei Eigenaufbewahrung mit Verzeichnis, körperliche Inventur
+  beispiel_pflichtenheft: ''
+- id: H1-302
+  prueffeld: H1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  text: Feststellen des Bestandes an eigenen Anteilen am Grundkapital
+  beispiel_pflichtenheft: ''
+- id: H1-305
+  prueffeld: H1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  text: Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen
+  beispiel_pflichtenheft: ''
+- id: H1-306
+  prueffeld: H1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  text: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: H1-307
+  prueffeld: H1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  text: 'Papiere ohne Kurswert: Berücksichtigung Bonität Schuldner'
+  beispiel_pflichtenheft: ''
+- id: H1-310
+  prueffeld: H1
+  nr: '310'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+  beispiel_pflichtenheft: ''
+- id: H1-311
+  prueffeld: H1
+  nr: '311'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - DO
+  text: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  beispiel_pflichtenheft: ''
+- id: H1-312
+  prueffeld: H1
+  nr: '312'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - RI
+  text: Abstimmung Krypto-Bestände mit Buchhaltung und Blockchain-Nachweisen (Abgleich der im Hauptbuch erfassten Bestände mit Blockchain-Daten (z. B. Wallet-Explorer, Message Signing) bzw. mit Custodian-Bestätigung
+    zum Stichtag.)
+  beispiel_pflichtenheft: ''
+- id: H1-313
+  prueffeld: H1
+  nr: '313'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - DO
+  text: Cut-off-Prüfung Krypto-Transaktionen (Abgleich von Transaktionen kurz vor/nach dem Bilanzstichtag (Blockchain-Export, Custodian-Report) mit den Buchungen im Hauptbuch.)
+  beispiel_pflichtenheft: ''
+- id: H1-314
+  prueffeld: H1
+  nr: '314'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - DO
+  - RI
+  text: Bewertung der Krypto-Assets anhand externer Preisfeeds (Vergleich der Buchwerte mit Kursen aus mehreren unabhängigen Preisquellen (z. B. Coinmarketcap, Coingecko, Börsenfeeds, Bloomberg, Refinitiv).
+    Dokumentation der Bewertungsmethode und des Bewertungszeitpunkts.)
+  beispiel_pflichtenheft: ''
+- id: H1-315
+  prueffeld: H1
+  nr: '315'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Offenlegung der Krypto-Assets im Jahresabschluss (Prüfung, ob Krypto-Assets im Anhang korrekt klassifiziert, bewertet und offengelegt sind (gemäss OR / Swiss GAAP FER / IFRS). Vergleich mit Markttüblichkeit
+    und Offenlegungschecklisten.)
+  beispiel_pflichtenheft: ''
+- id: H1-320
+  prueffeld: H1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: H1-321
+  prueffeld: H1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: H1-322
+  prueffeld: H1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: H1-401
+  prueffeld: H1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - DO
+  text: Festhalten von a) Einzahlungspflicht für nicht voll liberierte Titel b) Verpfändungen
+  beispiel_pflichtenheft: ''
+- id: H1-402
+  prueffeld: H1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Prüfung Bewertung anhand a) Depotauszug b) Kursliste Steuerverwaltung c) anderen Unterlagen
+  beispiel_pflichtenheft: ''
+- id: H1-403
+  prueffeld: H1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Risikoverteilung
+  beispiel_pflichtenheft: ''
+- id: H1-404
+  prueffeld: H1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung Aktivierung Verrechnungssteuer
+  beispiel_pflichtenheft: ''
+- id: H2-101
+  prueffeld: H2
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  beispiel_pflichtenheft: ''
+- id: H2-102
+  prueffeld: H2
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen
+  beispiel_pflichtenheft: ''
+- id: H2-201
+  prueffeld: H2
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: Feststellung von Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: H2-301
+  prueffeld: H2
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Abstimmen Bilanzbestand mit Buchhaltung und a) Saldobestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung e) anderen Unterlagen
+  beispiel_pflichtenheft: ''
+- id: H2-302
+  prueffeld: H2
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - PA
+  text: 'Beurteilung der Bonität der Darlehensnehmer anhand: a) deren Jahresabschlüsse b) Termingerechte Zinszahlungen und Amortisationen c) Sicherheiten d) anderer Informationen'
+  beispiel_pflichtenheft: ''
+- id: H2-303
+  prueffeld: H2
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Prüfung der Zu- und Abgänge anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: H2-304
+  prueffeld: H2
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung Verbuchung von Gewinnen und Verlusten
+  beispiel_pflichtenheft: ''
+- id: H2-320
+  prueffeld: H2
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: H2-321
+  prueffeld: H2
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: H2-322
+  prueffeld: H2
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: H2-401
+  prueffeld: H2
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  text: Einsichtnahme in Verträge
+  beispiel_pflichtenheft: ''
+- id: H2-402
+  prueffeld: H2
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: Abgrenzung der Zinsen
+  beispiel_pflichtenheft: ''
+- id: H2-403
+  prueffeld: H2
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Prüfung vollständige Verbuchung der Erträge
+  beispiel_pflichtenheft: ''
+- id: H2-404
+  prueffeld: H2
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - DO
+  text: Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten
+  beispiel_pflichtenheft: ''
+- id: H3-101
+  prueffeld: H3
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  beispiel_pflichtenheft: ''
+- id: H3-102
+  prueffeld: H3
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Besprechung mit der Unternehmensleitung betreffend allfälliger niedriger Marktwerte
+  beispiel_pflichtenheft: ''
+- id: H3-201
+  prueffeld: H3
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Erklärung von Veränderungen und Untersuchung von unerwarteten Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: H3-301
+  prueffeld: H3
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Abstimmen Bilanzbestand mit Buchhaltung und a) Verzeichnis der Beteiligungen b) Depotauszug c) körperliche Aufnahme d) anderen Unterlagen
+  beispiel_pflichtenheft: ''
+- id: H3-302
+  prueffeld: H3
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - PA
+  text: Prüfung Bewertung anhand a) Börsenkurs, Steuerkurs b) Buchhaltungsabschlüssen, Revisionsberichten c) anderen Unterlagen
+  beispiel_pflichtenheft: ''
+- id: H3-303
+  prueffeld: H3
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+  beispiel_pflichtenheft: ''
+- id: H3-304
+  prueffeld: H3
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  beispiel_pflichtenheft: ''
+- id: H3-320
+  prueffeld: H3
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: H3-321
+  prueffeld: H3
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: H3-322
+  prueffeld: H3
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisierung Dauerakten
+  beispiel_pflichtenheft: ''
+- id: H3-401
+  prueffeld: H3
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Feststellen des Bestandes an eigenen Anteilen (Aktien, Stammanteile)
+  beispiel_pflichtenheft: ''
+- id: H3-402
+  prueffeld: H3
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Festhalten von a) Einzahlungspflicht für nicht voll liberierte Titel b) Verpfändungen c) Eventualverbindlichkeiten gegenüber Beteiligungsgesellschaften
+  beispiel_pflichtenheft: ''
+- id: H3-403
+  prueffeld: H3
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: 'Papiere ohne Kurswert: Berücksichtigung Bonität Schuldner'
+  beispiel_pflichtenheft: ''
+- id: H3-404
+  prueffeld: H3
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Beurteilung Risikoverteilung
+  beispiel_pflichtenheft: ''
+- id: H3-405
+  prueffeld: H3
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Prüfung Aktivierung Verrechnungssteuer
+  beispiel_pflichtenheft: ''
+- id: I1-101
+  prueffeld: I1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung über Grundlagen der Bewertung der Anlagen, Abschreibungssätze und -methoden und deren stetige Anwendung
+  beispiel_pflichtenheft: ''
+- id: I1-102
+  prueffeld: I1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: Befragung über die Stetigkeit der Anwendung von Abschreibungsmethoden und Abschreibungssätzen
+  beispiel_pflichtenheft: ''
+- id: I1-103
+  prueffeld: I1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Befragung über Anschaffung und Verkäufe von immateriellen Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen
+  beispiel_pflichtenheft: ''
+- id: I1-104
+  prueffeld: I1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Befragung, ob immaterielle Anlagen eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen
+  beispiel_pflichtenheft: ''
+- id: I1-201
+  prueffeld: I1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: I1-301
+  prueffeld: I1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel)
+  beispiel_pflichtenheft: ''
+- id: I1-302
+  prueffeld: I1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  text: Durchsicht der Bestandes- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten. Belegprüfung solcher Posten
+  beispiel_pflichtenheft: ''
+- id: I1-303
+  prueffeld: I1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  text: Feststellen, ob die für die Aktivierung zugrunde liegenden Verträge vorliegen (Belegprüfung)
+  beispiel_pflichtenheft: ''
+- id: I1-320
+  prueffeld: I1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: I1-321
+  prueffeld: I1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: I1-322
+  prueffeld: I1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: I1-401
+  prueffeld: I1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  text: Bestandesaufnahme (Patente, Lizenzen, Marken)
+  beispiel_pflichtenheft: ''
+- id: I1-402
+  prueffeld: I1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung Aktivierungsfähigkeit der Zugänge
+  beispiel_pflichtenheft: ''
+- id: I1-403
+  prueffeld: I1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung Abschreibungen
+  beispiel_pflichtenheft: ''
+- id: I1-404
+  prueffeld: I1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Einholen von Bewertungsgutachten
+  beispiel_pflichtenheft: ''
+- id: I1-405
+  prueffeld: I1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Ermitteln der zulasten der Erfolgsrechnung gebuchten wertvermehrenden Anlagen
+  beispiel_pflichtenheft: ''
+- id: I1-406
+  prueffeld: I1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung Bilanzwerte (Restwerte)
+  beispiel_pflichtenheft: ''
+- id: I1-407
+  prueffeld: I1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten
+  beispiel_pflichtenheft: ''
+- id: I1-408
+  prueffeld: I1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - BE
+  text: Prüfung Bonität des Schuldners des nicht einbezahlten Grundkapitals
+  beispiel_pflichtenheft: ''
+- id: K1-101
+  prueffeld: K1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Kritische Durchsicht der offenen Posten. Befragung über Gründe für alte, ungewöhnlich hohe sowie Soll- Salden
+  beispiel_pflichtenheft: ''
+- id: K1-102
+  prueffeld: K1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: K1-103
+  prueffeld: K1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
+  beispiel_pflichtenheft: ''
+- id: K1-201
+  prueffeld: K1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: K1-202
+  prueffeld: K1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  text: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  beispiel_pflichtenheft: ''
+- id: K1-203
+  prueffeld: K1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - VO
+  - DO
+  text: Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: K1-301
+  prueffeld: K1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Abstimmung des Totales der Kreditoren Offenposten-Liste mit der Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: K1-302
+  prueffeld: K1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditoren-Rechnungen und/ oder der Kreditoren- und Aufwandskonten auf Rechnungen, die im Prüfungsjahr erhaltene Lieferungen
+    und Leistungen betreffen
+  beispiel_pflichtenheft: ''
+- id: K1-303
+  prueffeld: K1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - PA
+  text: Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Bilanzstichtag
+  beispiel_pflichtenheft: ''
+- id: K1-320
+  prueffeld: K1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: K1-321
+  prueffeld: K1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Aufstellung über Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: K1-322
+  prueffeld: K1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: K1-401
+  prueffeld: K1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Bestandesnachweise durch Einholung von Saldobestätigungen
+  beispiel_pflichtenheft: ''
+- id: K1-402
+  prueffeld: K1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: '?'
+  pruefziele: []
+  text: 'Abstimmung Schulden gegenüber beteiligten Unternehmen / Beteiligungen:'
+  beispiel_pflichtenheft: ''
+- id: K1-114
+  prueffeld: K1
+  nr: '114'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: a) mit Gegenbuchhaltung(en) b) mit Saldobestätigung(en)
+  beispiel_pflichtenheft: ''
+- id: K1-403
+  prueffeld: K1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  text: Beurteilung der Altersstruktur der Verbindlichkeiten
+  beispiel_pflichtenheft: ''
+- id: K1-404
+  prueffeld: K1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Abgrenzung zu Vorräten und angefangenen Arbeiten
+  beispiel_pflichtenheft: ''
+- id: K1-405
+  prueffeld: K1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Abstimmung der Kreditoren Offenposten-Liste mit den Lieferantenrechnungen
+  beispiel_pflichtenheft: ''
+- id: K1-406
+  prueffeld: K1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Ausgliedern von Sollsaldi
+  beispiel_pflichtenheft: ''
+- id: K1-407
+  prueffeld: K1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Einsichtnahme in aktuelle Offenposten-Liste
+  beispiel_pflichtenheft: ''
+- id: K1-408
+  prueffeld: K1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Prüfung Buchungen auf Hauptbuchkonten Krediten / Einkäufe
+  beispiel_pflichtenheft: ''
+- id: K1-409
+  prueffeld: K1
+  nr: '409'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  text: Prüfung Verkehr und Abgrenzung Einkaufspreisminderungen
+  beispiel_pflichtenheft: ''
+- id: L1-101
+  prueffeld: L1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - EN
+  - VO
+  - BE
+  - PA
+  text: Befragung, ob die Unternehmensleitung zu Bestimmungen in Darlehensverträgen (Covenants) welche nicht eingehalten sein könnten; Besprechung der Massnahmen der Unternehmensleitung und der allfällig
+    erforderlichen Korrekturen in der Jahresrechnung
+  beispiel_pflichtenheft: ''
+- id: L1-102
+  prueffeld: L1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Befragung über Sicherheiten zugunsten von Darlehensgebern
+  beispiel_pflichtenheft: ''
+- id: L1-103
+  prueffeld: L1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Befragung zur Gliederung in langfristige und kurzfristige verzinsliche Verbindlichkeiten
+  beispiel_pflichtenheft: ''
+- id: L1-104
+  prueffeld: L1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: L1-105
+  prueffeld: L1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - DO
+  text: Befragung zu Rangrücktritten
+  beispiel_pflichtenheft: ''
+- id: L1-201
+  prueffeld: L1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint
+  beispiel_pflichtenheft: ''
+- id: L1-301
+  prueffeld: L1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  text: Abstimmen Bilanzbestand mit Buchhaltung und Auszügen
+  beispiel_pflichtenheft: ''
+- id: L1-302
+  prueffeld: L1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  - RI
+  text: Einsichtnahme in die Zinsabgrenzungsberechnung
+  beispiel_pflichtenheft: ''
+- id: L1-303
+  prueffeld: L1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - DO
+  text: Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge
+  beispiel_pflichtenheft: ''
+- id: L1-304
+  prueffeld: L1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - DO
+  text: Einsichtnahme in Rangrücktrittsvereinbarungen
+  beispiel_pflichtenheft: ''
+- id: L1-320
+  prueffeld: L1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: L1-322
+  prueffeld: L1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: L1-401
+  prueffeld: L1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  - DO
+  text: Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen)
+  beispiel_pflichtenheft: ''
+- id: L1-402
+  prueffeld: L1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  text: Befragung zu aussergewöhnlichen Geldtransaktionen
+  beispiel_pflichtenheft: ''
+- id: L1-403
+  prueffeld: L1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: Prüfung Ein- und Ausgänge anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: L1-404
+  prueffeld: L1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - PA
+  - RI
+  text: Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben
+  beispiel_pflichtenheft: ''
+- id: L1-405
+  prueffeld: L1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: Saldenabstimmung Prüfungszeitraum (Anfang/Ende)
+  beispiel_pflichtenheft: ''
+- id: L1-406
+  prueffeld: L1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - DO
+  text: Beurteilung der Liquiditätsentwicklung und Überprüfung der Kreditlimiten, Kündigungsfristen, Sicherheiten
+  beispiel_pflichtenheft: ''
+- id: L1-407
+  prueffeld: L1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  text: Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag
+  beispiel_pflichtenheft: ''
+- id: L1-408
+  prueffeld: L1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen
+  beispiel_pflichtenheft: ''
+- id: L1-409
+  prueffeld: L1
+  nr: '409'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  - RI
+  text: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc.
+  beispiel_pflichtenheft: ''
+- id: L1-410
+  prueffeld: L1
+  nr: '410'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: Prüfung richtige Verbuchung Zinsen
+  beispiel_pflichtenheft: ''
+- id: L1-411
+  prueffeld: L1
+  nr: '411'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  text: Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte
+  beispiel_pflichtenheft: ''
+- id: M1-101
+  prueffeld: M1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - PA
+  text: Befragung zum geschäftlichen Hintergrund wesentlicher übriger Verbindlichkeiten
+  beispiel_pflichtenheft: ''
+- id: M1-102
+  prueffeld: M1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Verbindlichkeiten gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: M1-103
+  prueffeld: M1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
+  beispiel_pflichtenheft: ''
+- id: M1-201
+  prueffeld: M1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: M1-301
+  prueffeld: M1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - DO
+  - RI
+  text: Abstimmen Bilanzbestand mit Einzelnachweisen
+  beispiel_pflichtenheft: ''
+- id: M1-302
+  prueffeld: M1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  text: 'Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) Verträgen, Zinsabrechnungen d) Vorauszahlungen: Bestellungsunterlagen, Kaufverträge, Debitorenrechnungen
+    aus neuer Rechnung, Zahlungsbelege e) anderer Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: M1-303
+  prueffeld: M1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  - RI
+  text: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  beispiel_pflichtenheft: ''
+- id: M1-304
+  prueffeld: M1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: M1-320
+  prueffeld: M1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: M1-321
+  prueffeld: M1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Feststellen von Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: M1-322
+  prueffeld: M1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: M1-401
+  prueffeld: M1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Buchungen auf Bestandes- und Erfolgskonten
+  beispiel_pflichtenheft: ''
+- id: M1-402
+  prueffeld: M1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - PA
+  - RI
+  text: 'Anzahlungen: Prüfung Zugänge mit Auftragsbestätigungen, Bestellungen, Kaufverträgen etc.'
+  beispiel_pflichtenheft: ''
+- id: M1-403
+  prueffeld: M1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: 'Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes'
+  beispiel_pflichtenheft: ''
+- id: M1-404
+  prueffeld: M1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - PA
+  - DO
+  - RI
+  text: 'Abstimmen Vorauszahlungen von Kunden mit: a) Buchhaltung b) Auftragsbestätigungen, Kaufverträge c) Fakturen in neuer Rechnung d) Zahlungsbelege'
+  beispiel_pflichtenheft: ''
+- id: M1-405
+  prueffeld: M1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: 'Anzahlungen: Abgrenzung zu angefangenen Arbeiten'
+  beispiel_pflichtenheft: ''
+- id: M1-406
+  prueffeld: M1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Ausgliedern von Sollsaldi
+  beispiel_pflichtenheft: ''
+- id: M1-407
+  prueffeld: M1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Prüfung der richtigen Verzinsung der Kontokorrente (insbesondere Konzern / Nahestehende)
+  beispiel_pflichtenheft: ''
+- id: M1-408
+  prueffeld: M1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - DO
+  text: Einhalten reglementarischer/ gesetzlicher Bestimmungen betreffend Arbeitgeberschulden bei PVE (BVG)
+  beispiel_pflichtenheft: ''
+- id: M2-101
+  prueffeld: M2
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Befragung nach der Umsatzabstimmung der deklarierten Abrechnungen mit der Finanzbuchhaltung
+  beispiel_pflichtenheft: ''
+- id: M2-102
+  prueffeld: M2
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - BE
+  - DO
+  text: Befragung nach der Art der MWST-Abrechnung (vereinnahmtes oder vereinbartes Entgelt) sowie allfälligen Sonderfällen (ausgenommene Umsätze, Saldosätze usw.)
+  beispiel_pflichtenheft: ''
+- id: M2-103
+  prueffeld: M2
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Befragung der Unternehmensleitung, ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist
+  beispiel_pflichtenheft: ''
+- id: M2-104
+  prueffeld: M2
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  text: Befragung der Unternehmensleitung nach branchenspezifischen MWST-Eigenheiten und entsprechenden Abklärungen, Unterlagen und Vereinbarungen mit der Steuerverwaltung
+  beispiel_pflichtenheft: ''
+- id: M2-301
+  prueffeld: M2
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Abstimmung der MWST-Forderungen und Verbindlichkeiten mit den Abrechnungen
+  beispiel_pflichtenheft: ''
+- id: M2-302
+  prueffeld: M2
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Nachvollzug der Umsatzabstimmung (Bruttoumsatz) der deklarierten Abrechnungen mit der Finanzbuchhaltung (RZ 958 MWStG)
+  beispiel_pflichtenheft: ''
+- id: M2-303
+  prueffeld: M2
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Durchsicht der Vorsteuerkonti und Umsatzsteuerkonti auf Saldierung per Quartalsende und Übereinstimmung je Quartal mit Mehrwertsteuerabrechnung
+  beispiel_pflichtenheft: ''
+- id: M2-304
+  prueffeld: M2
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Abrechnung von Eigenverbrauch auf Privatanteilen Fahrzeug und Spesen
+  beispiel_pflichtenheft: ''
+- id: M2-305
+  prueffeld: M2
+  nr: '305'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - BE
+  - PA
+  - RI
+  text: 'Beurteilung der allgemeinen MWSt Risiken für die Unternehmung anhand der Spezialitätenliste: a) Umsätze, die nicht zum MWSt-Normalsatz abgerechnet werden b) Exportumsatz, Steuerbefreite Umsätze
+    (Exportnachweise) c) Verrechnungsgeschäfte mit Nahestehenden oder Dritten (Bruttodarstellung) d) Umsätze an Nahestehende (Verrechnung at arm''s length) e) ausgenommene Umsätze f) Import von steuerbaren
+    Dienstleistungen aus dem Ausland (korrekte Deklaration) g) Meldeverfahren bei Übernahme oder Übergabe eines Betriebs(teils) h) Immobilien (Nutzungsänderungen)'
+  beispiel_pflichtenheft: ''
+- id: M2-401
+  prueffeld: M2
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  - RI
+  text: Kritische Durchsicht der Vorsteuerplausibilisierung
+  beispiel_pflichtenheft: ''
+- id: M2-402
+  prueffeld: M2
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Prüfung der Formerfordernisse für Debitorenrechnungen und Vorsteuerbelege auf Korrektheit und Vollständigkeit der Angaben
+  beispiel_pflichtenheft: ''
+- id: M2-403
+  prueffeld: M2
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Prüfung anhand einer Stichprobe der korrekten Berechnung und Verbuchung von Vorsteuern
+  beispiel_pflichtenheft: ''
+- id: M2-404
+  prueffeld: M2
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Durchsicht der Fibu-Kontendefinition mit MWSt-Codes
+  beispiel_pflichtenheft: ''
+- id: M2-405
+  prueffeld: M2
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Prüfung der korrekten Deklaration „Import von Dienstleistungen“
+  beispiel_pflichtenheft: ''
+- id: M2-406
+  prueffeld: M2
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Prüfung der richtigen Verbuchung der Einfuhrsteuer auf Warenimporten (Rechnungen der Transporteure)
+  beispiel_pflichtenheft: ''
+- id: M2-407
+  prueffeld: M2
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Prüfung, wenn zutreffend, ob ausgenommene Umsätze deklariert werden und entsprechende Vorsteuerkürzungen vorgenommen werden
+  beispiel_pflichtenheft: ''
+- id: M2-408
+  prueffeld: M2
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - BE
+  text: Besprechung von aufgetauchten Problemen bei der Erstellung der MWSt Abrechnung
+  beispiel_pflichtenheft: ''
+- id: M3-101
+  prueffeld: M3
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  text: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rechnungsabgrenzung
+  beispiel_pflichtenheft: ''
+- id: M3-201
+  prueffeld: M3
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Vergleich der Salden zugehöriger Aufwands- und Ertragskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung
+  beispiel_pflichtenheft: ''
+- id: M3-202
+  prueffeld: M3
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  text: Vergleich mit den Beständen des Vorjahres
+  beispiel_pflichtenheft: ''
+- id: M3-301
+  prueffeld: M3
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht
+  beispiel_pflichtenheft: ''
+- id: M3-302
+  prueffeld: M3
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten (z. B. Mietzinsaufwand, Finanzaufwand oder -ertrag, usw.)
+  beispiel_pflichtenheft: ''
+- id: M3-304
+  prueffeld: M3
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+  beispiel_pflichtenheft: ''
+- id: M3-305
+  prueffeld: M3
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  beispiel_pflichtenheft: ''
+- id: M3-320
+  prueffeld: M3
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: M3-321
+  prueffeld: M3
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Plausibilisierung von Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: M3-322
+  prueffeld: M3
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: M3-401
+  prueffeld: M3
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RI
+  text: Prüfung korrekte Verbuchung bei Bildung und Auflösung anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: N1-101
+  prueffeld: N1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (zum Beispiel Kennzahlen in Kreditverträgen) nicht eingehalten hat
+  beispiel_pflichtenheft: ''
+- id: N1-102
+  prueffeld: N1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - BE
+  - DO
+  text: Befragung über Sicherheiten zugunsten von Darlehensgebern
+  beispiel_pflichtenheft: ''
+- id: N1-103
+  prueffeld: N1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Befragung zur Gliederung in langfristige und kurzfristige Darlehen
+  beispiel_pflichtenheft: ''
+- id: N1-104
+  prueffeld: N1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: N1-105
+  prueffeld: N1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - BE
+  text: Befragung zu Rangrücktritten; Beurteilung der Bonität des Rangrücktrittgebers
+  beispiel_pflichtenheft: ''
+- id: N1-201
+  prueffeld: N1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint
+  beispiel_pflichtenheft: ''
+- id: N1-301
+  prueffeld: N1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - BE
+  text: 'Abstimmen Bilanzbestand mit Buchhaltung und: a) Bankbestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung(en) e) anderen Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: N1-302
+  prueffeld: N1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  text: Einsicht in Kredit- und Darlehensverträge
+  beispiel_pflichtenheft: ''
+- id: N1-303
+  prueffeld: N1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  - RI
+  text: Abgrenzung der Zinsen
+  beispiel_pflichtenheft: ''
+- id: N1-304
+  prueffeld: N1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  - RI
+  text: Beurteilung des Bestehens von verdecktem Eigenkapital und daraus resultierender verdeckter Gewinnausschüttungen
+  beispiel_pflichtenheft: ''
+- id: N1-320
+  prueffeld: N1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: N1-322
+  prueffeld: N1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: N1-401
+  prueffeld: N1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Einsicht in Rangrücktrittsvereinbarungen
+  beispiel_pflichtenheft: ''
+- id: N1-402
+  prueffeld: N1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Prüfung Gliederung in kurz- und langfristige Verbindlichkeiten
+  beispiel_pflichtenheft: ''
+- id: N1-403
+  prueffeld: N1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  - RI
+  text: Prüfung der Zu- und Abgänge anhand von Verträgen/Belegen
+  beispiel_pflichtenheft: ''
+- id: O1-101
+  prueffeld: O1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Befragung über pendente Risiken (Rechtsfälle, angedrohte Schadenersatz- und andere Ansprüche usw.), die eine Rückstellung erfordern
+  beispiel_pflichtenheft: ''
+- id: O1-102
+  prueffeld: O1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - PA
+  text: Besprechung der Einschätzung des finanziellen Ausmasses solcher Risiken durch die Unternehmensleitung
+  beispiel_pflichtenheft: ''
+- id: O1-103
+  prueffeld: O1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - DO
+  text: Befragung über Verbindlichkeiten oder Eventualverbindlichkeiten, die nicht erfasst worden sind. Gegebenenfalls Besprechung mit der Unternehmensleitung, ob diese zu erfassen oder offen zu legen sind
+  beispiel_pflichtenheft: ''
+- id: O1-201
+  prueffeld: O1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Vergleich mit den Beständen des Vorjahres
+  beispiel_pflichtenheft: ''
+- id: O1-301
+  prueffeld: O1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - RI
+  text: Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht
+  beispiel_pflichtenheft: ''
+- id: O1-302
+  prueffeld: O1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - PA
+  text: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge, Klageschriften, Berechnungen usw.)
+  beispiel_pflichtenheft: ''
+- id: O1-303
+  prueffeld: O1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  - PA
+  text: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  beispiel_pflichtenheft: ''
+- id: O1-320
+  prueffeld: O1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: O1-321
+  prueffeld: O1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Bestand und Veränderung der stillen Reserven
+  beispiel_pflichtenheft: ''
+- id: O1-322
+  prueffeld: O1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: O1-401
+  prueffeld: O1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  text: Rechtsanwaltsbestätigungen, Experten-Gutachten
+  beispiel_pflichtenheft: ''
+- id: O1-402
+  prueffeld: O1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Durchsicht der verbuchten Aufwände für Rechtsberatung
+  beispiel_pflichtenheft: ''
+- id: O1-403
+  prueffeld: O1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Beurteilung Angemessenheit und Vollständigkeit a) in Zusammenhang mit entsprechenden Bilanzpositionen b) anhand Vorjahresvergleich c) anhand Anwalts-Bestätigungen d) mit anderen Unterlagen
+  beispiel_pflichtenheft: ''
+- id: O1-404
+  prueffeld: O1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  - RI
+  text: Prüfung Gutschriften und Belastungen anhand von Belegen
+  beispiel_pflichtenheft: ''
+- id: O1-405
+  prueffeld: O1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  - RI
+  text: Beurteilung der korrekten Verbuchung
+  beispiel_pflichtenheft: ''
+- id: P1-301
+  prueffeld: P1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - DO
+  - RI
+  text: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
+  beispiel_pflichtenheft: ''
+- id: P1-302
+  prueffeld: P1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - BE
+  - DO
+  - RI
+  text: Abstimmung der Reserven und des Bilanzgewinns/-verlusts mit der Jahresrechnung des Vorjahres und dem Protokoll der genehmigenden Versammlung
+  beispiel_pflichtenheft: ''
+- id: P1-303
+  prueffeld: P1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - RV
+  - VO
+  - DO
+  text: Beurteilung des Antrags über die Verwendung des Bilanzgewinns
+  beispiel_pflichtenheft: ''
+- id: P1-304
+  prueffeld: P1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - DO
+  text: Feststellen des Bestands an eigenen Kapitalanteilen
+  beispiel_pflichtenheft: ''
+- id: P1-305
+  prueffeld: P1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  text: Beurteilung Einlagerückgewähr (Art. 680 Abs. 2 OR) bei Vorhandensein von Forderungen ggü. Beteiligten / Konzerngesellschaften (Up-stream / cross-stream)
+  beispiel_pflichtenheft: ''
+- id: P1-306
+  prueffeld: P1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - DO
+  text: Analyse von Käufen oder Verkäufen eigener Anteile und deren Bilanzierung als Minusposten im Eigenkapital
+  beispiel_pflichtenheft: ''
+- id: P1-307
+  prueffeld: P1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - BE
+  - PA
+  - DO
+  text: 'Bei Änderungen im Grundkapital und Ausgabe von Optionen: kritische Durchsicht'
+  beispiel_pflichtenheft: ''
+- id: P1-308
+  prueffeld: P1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: '?'
+  pruefziele: []
+  text: Prüfung der richtigen steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und - herabsetzungen sowie Gewinnausschüttungen (Verrechnungssteuer)
+  beispiel_pflichtenheft: ''
+- id: P1-141
+  prueffeld: P1
+  nr: '141'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - DO
+  - RI
+  text: None
+  beispiel_pflichtenheft: ''
+- id: P1-310
+  prueffeld: P1
+  nr: '310'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: Prüfung korrekte Gliederung
+  beispiel_pflichtenheft: ''
+- id: P1-311
+  prueffeld: P1
+  nr: '311'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Richtiger Ausweis Aufwertungsreserve (OR 670)
+  beispiel_pflichtenheft: ''
+- id: P1-312
+  prueffeld: P1
+  nr: '312'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - PA
+  - RI
+  text: Vollzug Gewinnverwendungsbeschluss des Vorjahres
+  beispiel_pflichtenheft: ''
+- id: P1-313
+  prueffeld: P1
+  nr: '313'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - BE
+  - DO
+  text: Beurteilung Eigenkapital in Bezug auf OR 725
+  beispiel_pflichtenheft: ''
+- id: P1-314
+  prueffeld: P1
+  nr: '314'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - PA
+  - DO
+  - RI
+  text: Festhalten von Statutenänderungen / Publikation im SHAB
+  beispiel_pflichtenheft: ''
+- id: P1-315
+  prueffeld: P1
+  nr: '315'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RI
+  text: Dividendenzahlungen / Abrechnung Verrechnungssteuern
+  beispiel_pflichtenheft: ''
+- id: P1-316
+  prueffeld: P1
+  nr: '316'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - PA
+  - RI
+  text: Prüfung der Buchungen auf Eigenkapital-Konti
+  beispiel_pflichtenheft: ''
+- id: P1-317
+  prueffeld: P1
+  nr: '317'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RI
+  text: Führen Aktienbuch bei Namenaktien
+  beispiel_pflichtenheft: ''
+- id: P1-320
+  prueffeld: P1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: P1-321
+  prueffeld: P1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: P1-401
+  prueffeld: P1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: 'Eigenkapitalspiegel: Beschaffung einer Aufstellung der Bewegungen auf Eigenkapitalkonten, einschliesslich Kapitalerhöhungen, Kapitalrückzahlungen und Dividenden'
+  beispiel_pflichtenheft: ''
+- id: R1-101
+  prueffeld: R1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Befragung, ob nach dem Bilanzstichtag Leistungs- oder Erfolgsprämien für das vergangene Jahr beschlossen wurden und wenn ja, ob diese korrekt erfasst sind
+  beispiel_pflichtenheft: ''
+- id: R1-102
+  prueffeld: R1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - BE
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: R1-201
+  prueffeld: R1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Vergleich der Relation zwischen Salären und Sozialleistungen mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: R1-202
+  prueffeld: R1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Erklärung von Veränderungen und Untersuchung unerwarteter oder unüblichen Entwicklungen zwischen laufendem Geschäftsjahr und dem Vorjahr bzw. gegenüber dem Budget
+  beispiel_pflichtenheft: ''
+- id: R1-203
+  prueffeld: R1
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Analysiere den a) monatlichen Personalaufwand b) durchschnittlichen Personalaufwand pro Mitarbeiter c) Sozialversicherungsaufwand verglichen mit dem gesamten Lohnaufwand
+  beispiel_pflichtenheft: ''
+- id: R1-301
+  prueffeld: R1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  - RI
+  text: Abstimmen der Totale der Lohnbuchhaltung mit den Hauptbuchkonten
+  beispiel_pflichtenheft: ''
+- id: R1-302
+  prueffeld: R1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - PA
+  text: Schlussabrechnungen Sozialversicherungen abgegrenzt (AHV, UVG, KTG, BVG, QSt),
+  beispiel_pflichtenheft: ''
+- id: R1-303
+  prueffeld: R1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - PA
+  - RI
+  text: Abstimmen des ausgewiesenen Aufwandes mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
+  beispiel_pflichtenheft: ''
+- id: R1-304
+  prueffeld: R1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - RV
+  text: Einsichtnahme in Berichte von anderen Prüfern (AHV, SUVA, usw.)
+  beispiel_pflichtenheft: ''
+- id: R1-305
+  prueffeld: R1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Durchsicht von Aufwandskonten im Hauptbuch auf ungewöhnliche Posten mit Personalbezug. Belegprüfung solcher Posten
+  beispiel_pflichtenheft: ''
+- id: R1-306
+  prueffeld: R1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - VO
+  - PA
+  text: Durchsicht der Aufwandskonten in neuer Rechnung auf auffällige Beträge mit Personalbezug, die das Vorjahr betreffen
+  beispiel_pflichtenheft: ''
+- id: R1-320
+  prueffeld: R1
+  nr: '320'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Auswirkungen auf Anhang
+  beispiel_pflichtenheft: ''
+- id: R1-321
+  prueffeld: R1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Bestand und Veränderung stiller Reserven (inkl. Arbeitgeberbeitragsreserven)
+  beispiel_pflichtenheft: ''
+- id: R1-322
+  prueffeld: R1
+  nr: '322'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele: []
+  text: Aktualisieren Dauerakten
+  beispiel_pflichtenheft: ''
+- id: R1-401
+  prueffeld: R1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - PA
+  text: Anwaltsbestätigungen zu Rechtsfällen mit Personalbezug
+  beispiel_pflichtenheft: ''
+- id: R1-402
+  prueffeld: R1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - VO
+  - BE
+  - PA
+  text: Saldobestätigungen von AHV, UVG, KTG, BVG, etc.
+  beispiel_pflichtenheft: ''
+- id: R1-403
+  prueffeld: R1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - PA
+  - RI
+  text: Abstimmen ausbezahlte Löhne/Gehälter mit Unterlagen über Lohn-/Gehaltsfestsetzungen
+  beispiel_pflichtenheft: ''
+- id: R1-404
+  prueffeld: R1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - BE
+  - PA
+  - RI
+  text: Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge
+  beispiel_pflichtenheft: ''
+- id: R1-405
+  prueffeld: R1
+  nr: '405'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Festhalten der Bezüge Nahestehender (mit Vorjahresvergleich)
+  beispiel_pflichtenheft: ''
+- id: R1-406
+  prueffeld: R1
+  nr: '406'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - PA
+  - DO
+  - RI
+  text: Feststellen von Bezügen aus Arbeitgeberbeitragsreserven mit korrektem Ausweis im a.o. Ertrag oder im Anhang
+  beispiel_pflichtenheft: ''
+- id: R1-407
+  prueffeld: R1
+  nr: '407'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - PA
+  - DO
+  text: Feststellung Deckungsgrad der Vorsorgeeinrichtung, Festhalten des Sanierungsbedarfes sofern zutreffend)
+  beispiel_pflichtenheft: ''
+- id: R1-408
+  prueffeld: R1
+  nr: '408'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - PA
+  - RI
+  text: Prüfung der korrekten Berechnung der Abzüge und Zulagen
+  beispiel_pflichtenheft: ''
+- id: R1-409
+  prueffeld: R1
+  nr: '409'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - PA
+  - RI
+  text: 'Korrekte Abgrenzung: a) Löhne / Gratifikationen / Provisionen / Spesen b) Überzeit / Ferien c) Sozialleistungen'
+  beispiel_pflichtenheft: ''
+- id: R1-410
+  prueffeld: R1
+  nr: '410'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - PA
+  - RI
+  text: Abstimmen verbuchte Löhne/Gehälter mit Abrechnungen a) AHV b) Unfall/Krankheit c) berufliche Vorsorge
+  beispiel_pflichtenheft: ''
+- id: R1-411
+  prueffeld: R1
+  nr: '411'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - PA
+  - RI
+  text: Vollständige Erfassung und Rückforderung Kinderzulagen, EO, Mutterschaftsentschädigung, Kranken- und Unfalltaggelder
+  beispiel_pflichtenheft: ''
+- id: R1-412
+  prueffeld: R1
+  nr: '412'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  text: Prüfung Lohnausweise auf Übereinstimmung mit Jahreslohnkonto je Mitarbeiter
+  beispiel_pflichtenheft: ''
+- id: S1-101
+  prueffeld: S1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Befragung, ob alle direkten Steuern aus früheren Abschlussperioden bezahlt oder abgegrenzt wurden
+  beispiel_pflichtenheft: ''
+- id: S1-102
+  prueffeld: S1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  - VO
+  - RI
+  text: Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben. Einblick in entsprechende Korrespondenz zur Feststellung allfälliger Nachforderungen
+  beispiel_pflichtenheft: ''
+- id: S1-103
+  prueffeld: S1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  text: Befragung, inwieweit Steuerveranlagungen definitiv sind (Bund / Kanton)
+  beispiel_pflichtenheft: ''
+- id: S1-104
+  prueffeld: S1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  - VO
+  text: Befragung der Unternehmensleitung, ob Einsprachen oder Rekurse hängig sind und das allfällige Risiko
+  beispiel_pflichtenheft: ''
+- id: S1-201
+  prueffeld: S1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Beurteilung des Steueraufwandes im Vergleich zum Periodenergebnis und zum Vorjahr
+  beispiel_pflichtenheft: ''
+- id: S1-301
+  prueffeld: S1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden)
+  beispiel_pflichtenheft: ''
+- id: S1-302
+  prueffeld: S1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: '?'
+  pruefziele: []
+  text: Vergleich der gebuchten Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen
+  beispiel_pflichtenheft: ''
+- id: S1-151
+  prueffeld: S1
+  nr: '151'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - RI
+  text: None
+  beispiel_pflichtenheft: ''
+- id: S1-303
+  prueffeld: S1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen
+  beispiel_pflichtenheft: ''
+- id: S1-304
+  prueffeld: S1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - PA
+  - RI
+  text: Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn
+  beispiel_pflichtenheft: ''
+- id: S1-321
+  prueffeld: S1
+  nr: '321'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - BE
+  text: Bestand und Veränderung stiller Reserven
+  beispiel_pflichtenheft: ''
+- id: S1-401
+  prueffeld: S1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  text: Festhalten geldwerte Leistungen
+  beispiel_pflichtenheft: ''
+- id: S1-402
+  prueffeld: S1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Beachtung besonderer Verhältnisse
+  beispiel_pflichtenheft: ''
+- id: S1-403
+  prueffeld: S1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  text: Berücksichtigung der Ergebnisse der letzten Steuerrevision
+  beispiel_pflichtenheft: ''
+- id: SCH1-101
+  prueffeld: SCH1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand
+  beispiel_pflichtenheft: ''
+- id: SCH1-102
+  prueffeld: SCH1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: SCH1-201
+  prueffeld: SCH1
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - BE
+  text: Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen
+  beispiel_pflichtenheft: ''
+- id: SCH1-202
+  prueffeld: SCH1
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - BE
+  - PA
+  - RI
+  text: 'Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge
+    c) Budgetvergleich d) Margenvergleich e) andere Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: SCH1-301
+  prueffeld: SCH1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - EN
+  - VO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: SCH1-302
+  prueffeld: SCH1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Kritische Durchsicht der Hauptbuchkonten und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht
+  beispiel_pflichtenheft: ''
+- id: SCH1-303
+  prueffeld: SCH1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+  beispiel_pflichtenheft: ''
+- id: SCH1-304
+  prueffeld: SCH1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: 'Bei Verwendung der Absatzerfolgsrechnung folgende Positionen festhalten: Personalaufwand, Materialaufwand und Abschreibungen'
+  beispiel_pflichtenheft: ''
+- id: SCH1-305
+  prueffeld: SCH1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: 'Bei Verwendung der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge aufgeführt sein: ▪ Nettoerlöse aus Lieferungen
+    und Leistungen; ▪ Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen; ▪ Materialaufwand; ▪ Personalaufwand; ▪ übriger betrieblicher Aufwand; ▪ Abschreibungen
+    und Wertberichtigungen auf Positionen des Anlagevermögens; ▪ Finanzaufwand und Finanzertrag; ▪ betriebsfremder Aufwand und betriebsfremder Ertrag; ▪ ausserordentlicher, einmaliger oder periodenfremder
+    Aufwand und Ertrag; ▪ direkte Steuern; ▪ Jahresgewinn oder Jahresverlust'
+  beispiel_pflichtenheft: ''
+- id: SCH1-401
+  prueffeld: SCH1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: '?'
+  pruefziele: []
+  text: 'JET: Journal entry testing a) Manuelle Buchungen auf sonst nur maschinell bebuchbaren Konten b) Buchungen zu ungewöhnlichen Zeitpunkten c) Buchungen mit runden Beträgen d) Buchungen von Personen,
+    die normalerweise nicht buchen e) Buchungen, die über oder unter dem durchschnittlichen Buchungsbetrag für ein Konto liegen f) Buchungen mit Buchungstexten, die Hinweise auf ungewöhnliche Sachverhalte
+    geben g) Buchungen ausserhalb der erwarteten Perioden h) Buchungen, bei denen Erfassungsdatum und Beleg weit auseinander liegen i) Wiederholte Buchungen mit gleichen Beträgen j) Buchungen mit unplausibler
+    Währungsumrechnung'
+  beispiel_pflichtenheft: ''
+- id: SCH1-155
+  prueffeld: SCH1
+  nr: '155'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - RV
+  - EN
+  - RI
+  text: k) Ungewöhnliche Konstellationen hinsichtlich Konten und Gegenkonten
+  beispiel_pflichtenheft: ''
+- id: SCH1-402
+  prueffeld: SCH1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - RV
+  - EN
+  - VO
+  - PA
+  - DO
+  text: Abstimmung gebuchter Umsätze mit direkten Umsatzbestätigungen
+  beispiel_pflichtenheft: ''
+- id: SCH2-101
+  prueffeld: SCH2
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand
+  beispiel_pflichtenheft: ''
+- id: SCH2-102
+  prueffeld: SCH2
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: SCH2-201
+  prueffeld: SCH2
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - PA
+  text: Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen
+  beispiel_pflichtenheft: ''
+- id: SCH2-202
+  prueffeld: SCH2
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: 'Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge
+    c) Budgetvergleich d) Margenvergleich e) andere Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: SCH2-301
+  prueffeld: SCH2
+  nr: '301'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: SCH2-302
+  prueffeld: SCH2
+  nr: '302'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Kritische Durchsicht und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht
+  beispiel_pflichtenheft: ''
+- id: SCH2-303
+  prueffeld: SCH2
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+  beispiel_pflichtenheft: ''
+- id: SCH3-101
+  prueffeld: SCH3
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: SCH3-201
+  prueffeld: SCH3
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
+  beispiel_pflichtenheft: ''
+- id: SCH3-202
+  prueffeld: SCH3
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: ''
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: 'Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b) Durchsicht der Konti auf hohe oder sonst ungewöhnliche Beträge
+    c) Budgetvergleich d) andere Unterlagen'
+  beispiel_pflichtenheft: ''
+- id: SCH3-301
+  prueffeld: SCH3
+  nr: '301'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: SCH3-302
+  prueffeld: SCH3
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  text: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
+  beispiel_pflichtenheft: ''
+- id: SCH3-303
+  prueffeld: SCH3
+  nr: '303'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  text: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
+  beispiel_pflichtenheft: ''
+- id: SCH4-101
+  prueffeld: SCH4
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: SCH4-201
+  prueffeld: SCH4
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
+  beispiel_pflichtenheft: ''
+- id: SCH4-202
+  prueffeld: SCH4
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven
+  beispiel_pflichtenheft: ''
+- id: SCH4-203
+  prueffeld: SCH4
+  nr: '203'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  - RI
+  text: Vergleich und Plausibilisierung der Fremdwährungsdifferenzen mit dem Geschäftsmodell und den Entwicklungen der entsprechenden Fremdwährungen
+  beispiel_pflichtenheft: ''
+- id: SCH4-301
+  prueffeld: SCH4
+  nr: '301'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - EN
+  - VO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: SCH4-302
+  prueffeld: SCH4
+  nr: '302'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EN
+  - VO
+  - RI
+  text: Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge
+  beispiel_pflichtenheft: ''
+- id: SCH5-101
+  prueffeld: SCH5
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  beispiel_pflichtenheft: ''
+- id: SCH5-102
+  prueffeld: SCH5
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Besprechung der angewandten Kriterien zur Identifikation von betriebsfremden, ausserordentlichen, einmaligen oder periodenfremden Posten
+  beispiel_pflichtenheft: ''
+- id: SCH5-201
+  prueffeld: SCH5
+  nr: '201'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Vergleich der Salden und Identifikationskriterien mit dem Vorjahr
+  beispiel_pflichtenheft: ''
+- id: SCH5-202
+  prueffeld: SCH5
+  nr: '202'
+  typ: Analytisch
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - PA
+  text: Vergleich der Salden mit den erwarteten Werten aufgrund der Kenntnisse der Geschäftstätigkeit im zu prüfenden Geschäftsjahr
+  beispiel_pflichtenheft: ''
+- id: SCH5-301
+  prueffeld: SCH5
+  nr: '301'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - EN
+  - VO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: T1-101
+  prueffeld: T1
+  nr: '101'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - DO
+  text: Befragung, ob die Gesellschaft direkte Beteiligungsrechte mit einem Stimmanteil von mehr als 20% oder wesentliche indirekte Beteiligungen an anderen Gesellschaften hält
+  beispiel_pflichtenheft: ''
+- id: T1-102
+  prueffeld: T1
+  nr: '102'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - DO
+  text: Befragung über den Bestand, Erwerb und Veräusserung eigener Anteile durch das Unternehmen selber oder durch Unternehmen, an denen eine Beteiligung besteht
+  beispiel_pflichtenheft: ''
+- id: T1-103
+  prueffeld: T1
+  nr: '103'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - DO
+  text: Befragung, ob die Gesellschaft nicht bilanzierte, kaufvertragsähnliche Leasinggeschäfte oder Mietverträge hat, die nicht innert zwölf Monaten nach dem Bilanzstichtag auslaufen oder gekündigt werden
+    können
+  beispiel_pflichtenheft: ''
+- id: T1-104
+  prueffeld: T1
+  nr: '104'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - DO
+  text: Befragung nach Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
+  beispiel_pflichtenheft: ''
+- id: T1-105
+  prueffeld: T1
+  nr: '105'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - DO
+  text: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter
+  beispiel_pflichtenheft: ''
+- id: T1-106
+  prueffeld: T1
+  nr: '106'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - DO
+  text: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeter Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  beispiel_pflichtenheft: ''
+- id: T1-107
+  prueffeld: T1
+  nr: '107'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - VO
+  - DO
+  text: Befragung, ob Eventualverbindlichkeiten (rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt
+    werden kann) bestehen
+  beispiel_pflichtenheft: ''
+- id: T1-108
+  prueffeld: T1
+  nr: '108'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - RV
+  - DO
+  text: Befragung über an Leitungs- und Verwaltungsorgane oder Mitarbeitende ausgegebene Beteiligungsrechte oder Optionen
+  beispiel_pflichtenheft: ''
+- id: T1-109
+  prueffeld: T1
+  nr: '109'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - PA
+  - DO
+  text: Befragung, ob wesentliche Ereignisse nach dem Bilanzstichtag mit Ursachen, die vor dem Bilanzstichtag liegen und welche ein Verlustrisiko beinhalten, bestehen sowie was die quantitativen Auswirkungen
+    sind
+  beispiel_pflichtenheft: ''
+- id: T1-110
+  prueffeld: T1
+  nr: '110'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - DO
+  text: Befragung zu durchgeführten Kapitalerhöhungen und Kapitalherabsetzungen, die der Verwaltungsrat innerhalb eines Kapitalbands vorgenommen hat
+  beispiel_pflichtenheft: ''
+- id: T1-111
+  prueffeld: T1
+  nr: '111'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - BE
+  - DO
+  - RI
+  text: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr und Plausibilisierung mit den Prüfungsresultaten in den einzelnen Bilanzpositionen
+  beispiel_pflichtenheft: ''
+- id: T1-112
+  prueffeld: T1
+  nr: '112'
+  typ: Befragung
+  kennzeichnung: EP
+  pruefziele:
+  - EN
+  - VO
+  - DO
+  text: Befragung zu Gründen für einen vorzeitigen Rücktritt der Revisionsstelle (falls Rücktritt der Revisionsstelle im Geschäftsjahr erfolgt ist)
+  beispiel_pflichtenheft: ''
+- id: T1-301
+  prueffeld: T1
+  nr: '301'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Prüfung des korrekten Aufbaues des Anhanges (Hinweis auf schweizerisches Rechnungslegungsrecht, angewandte Grundsätze, Erläuterungen zu Positionen der Bilanz und Erfolgsrechnung, weitere Angaben)
+  beispiel_pflichtenheft: ''
+- id: T1-302
+  prueffeld: T1
+  nr: '302'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: Prüfen, ob die im Anhang beschriebenen Bewertungsgrundsätze den Sachverhalt richtig wiedergeben
+  beispiel_pflichtenheft: ''
+- id: T1-303
+  prueffeld: T1
+  nr: '303'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: Prüfen, ob die Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung mit dem Gesamttotal in der Bilanz oder der Erfolgsrechnung übereinstimmen
+  beispiel_pflichtenheft: ''
+- id: T1-304
+  prueffeld: T1
+  nr: '304'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: Plausibilisierung der Angabe der Vollzeitstellen (weniger als 10, über 50 beziehungsweise über 250) im Jahresdurchschnitt
+  beispiel_pflichtenheft: ''
+- id: T1-305
+  prueffeld: T1
+  nr: '305'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: Prüfen, ob eine wesentliche Nettoauflösung von stillen Reserven besteht und ob diese im Anhang richtig wiedergegeben ist
+  beispiel_pflichtenheft: ''
+- id: T1-306
+  prueffeld: T1
+  nr: '306'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - VO
+  - DO
+  text: Prüfen, ob weitere vom Gesetz verlangte Angaben im Anhang offengelegt sind, wie z.B. • Abweichungen vom Prinzip der Stetigkeit • Abweichungen vom Prinzip der Unternehmensfortführung • Umrechnungskurse
+    bei Rechnungslegung in Fremdwährung • Erläuterungen zu Positionen, die zum Börsenkurs oder einem anderen beobachtbaren Marktpreis bewertet werden • Schwankungsreserven, sofern sie nicht aus der Bilanz
+    ersichtlich sind • Angaben über Gegenstand und Betrag von Aufwertungen • Angaben gemäss Spezialgesetzen (z.B. FusG)
+  beispiel_pflichtenheft: ''
+- id: T1-307
+  prueffeld: T1
+  nr: '307'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: Prüfung ob für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen in der Bilanz, der Erfolgsrechnung
+    oder im Anhang ausgewiesen sind (Art. 959a Abs. 3 OR und Art. 959b Abs. 5 OR)
+  beispiel_pflichtenheft: ''
+- id: T1-308
+  prueffeld: T1
+  nr: '308'
+  typ: Detail
+  kennzeichnung: WP
+  pruefziele:
+  - EX
+  - DO
+  - RI
+  text: Abstimmung der ausgewiesenen Posten mit Belegen oder anderen geeigneten Unterlagen
+  beispiel_pflichtenheft: ''
+- id: T1-309
+  prueffeld: T1
+  nr: '309'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - DO
+  - RI
+  text: Abstimmung der Verbindlichkeiten gegenüber Vorsorgeeinrichtungen mit Detailunterlagen (z.B. Kontoauszug BVG)
+  beispiel_pflichtenheft: ''
+- id: T1-310
+  prueffeld: T1
+  nr: '310'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - DO
+  text: Prüfung der Korrektheit und Vollständigkeit der Angaben über ausserordentliche, einmalige oder periodenfremde Positionen der Erfolgsrechnung
+  beispiel_pflichtenheft: ''
+- id: T1-315
+  prueffeld: T1
+  nr: '315'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - EX
+  - DO
+  text: Prüfung, ob Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, gesondert
+    ausgewiesen werden (sofern nicht bereits in Bilanz ersichtlich)
+  beispiel_pflichtenheft: ''
+- id: T1-316
+  prueffeld: T1
+  nr: '316'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - PA
+  - DO
+  text: Prüfung, ob bei der Anwendung der Absatzerfolgsrechnung im Anhang Angaben zum Personalaufwand und zu den Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen werden
+  beispiel_pflichtenheft: ''
+- id: T1-317
+  prueffeld: T1
+  nr: '317'
+  typ: Detail
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - DO
+  text: Prüfung der Angaben über Bestand und Veränderungen eigener Kapitalanteile
+  beispiel_pflichtenheft: ''
+- id: T1-318
+  prueffeld: T1
+  nr: '318'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  text: Prüfung, ob Abweichungen von der Annahme der Fortführung im Anhang vermerkt und ihr Einfluss auf die wirtschaftliche Lage dargelegt (falls die Fortführungsfähigkeit nicht gegeben ist, Art. 958a
+    Abs. 3 OR)?
+  beispiel_pflichtenheft: ''
+- id: T1-319
+  prueffeld: T1
+  nr: '319'
+  typ: Detail
+  kennzeichnung: '?'
+  pruefziele: []
+  text: Prüfen, ob Angaben über Gegenstand und Betrag von Aufwertungen vollständig und korrekt dargestellt sind?
+  beispiel_pflichtenheft: ''
+- id: T1-173
+  prueffeld: T1
+  nr: '173'
+  typ: Detail
+  kennzeichnung: EP
+  pruefziele:
+  - DO
+  - RI
+  text: None
+  beispiel_pflichtenheft: ''
+- id: T1-401
+  prueffeld: T1
+  nr: '401'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - EX
+  - DO
+  text: Prüfung, ob Anleihensobligationen ausstehend sind und wenn zutreffend, ob Angaben zu deren Beträgen, Zinssätze, Fälligkeiten und weitere Konditionen gemacht sind
+  beispiel_pflichtenheft: ''
+- id: T1-402
+  prueffeld: T1
+  nr: '402'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - VO
+  - DO
+  text: Abstimmung der Offenlegung über die Gründe bei einem vorzeitigen Rücktritt der Revisionsstelle mit dem Wortlaut im Rücktrittsschreiben
+  beispiel_pflichtenheft: ''
+- id: T1-403
+  prueffeld: T1
+  nr: '403'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  text: Prüfung, ob bei grösseren Unternehmen korrekte Angaben zu den langfristigen verzinslichen Verbindlichkeiten gemacht werden, aufgeteilt nach Fälligkeit innerhalb von einem bis fünf Jahren und nach
+    fünf Jahren
+  beispiel_pflichtenheft: ''
+- id: T1-404
+  prueffeld: T1
+  nr: '404'
+  typ: Sonstige
+  kennzeichnung: ''
+  pruefziele:
+  - DO
+  - RI
+  text: Prüfung, ob bei grösseren Unternehmen das Honorar der Revisionsstelle je gesondert für Revisionsdienstleistungen und andere Dienstleistungen aufgeführt ist
+  beispiel_pflichtenheft: ''

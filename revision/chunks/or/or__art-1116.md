@@ -1,0 +1,19 @@
+---
+id: or__art-1116
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 1116 OR
+pfad: 'Fünfte Abteilung: Die Wertpapiere > Dreiunddreissigster Titel: Die Namen-, Inhaber- und Ordrepapiere > Fünfter Abschnitt: Der Check > IV. Vorlegung und Zahlung > 2. Vorlegung zur Zahlung'
+artikel: Art. 1116
+---
+> OR · Art. 1116 OR
+
+**Abs. 1** Ein Check, der in dem Lande der Ausstellung zahlbar ist, muss binnen acht Tagen zur Zahlung vorgelegt werden.
+
+**Abs. 2** Ein Check, der in einem anderen Lande als dem der Ausstellung zahlbar ist, muss binnen 20 Tagen vorgelegt werden, wenn Ausstellungsort und Zahlungsort sich in demselben Erdteile befinden, und binnen 70 Tagen, wenn Ausstellungsort und Zahlungsort sich in verschiedenen Erdteilen befinden.
+
+**Abs. 3** Hiebei gelten die in einem Lande Europas ausgestellten und in einem an das Mittelmeer grenzenden Lande zahlbaren Checks, ebenso wie die in einem an das Mittelmeer grenzenden Lande ausgestellten und in einem Lande Europas zahlbaren Checks als Checks, die in demselben Erdteile ausgestellt und zahlbar sind.
+
+**Abs. 4** Die vorstehend erwähnten Fristen beginnen an dem Tage zu laufen, der in dem Check als Ausstellungstag angegeben ist.

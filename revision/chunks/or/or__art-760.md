@@ -1,0 +1,15 @@
+---
+id: or__art-760
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 760 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Sechsundzwanzigster Titel: Die Aktiengesellschaft > Sechster Abschnitt: Verantwortlichkeit > D. Verjährung'
+artikel: Art. 760
+---
+> OR · Art. 760 OR
+
+**Abs. 1** Der Anspruch auf Schadenersatz gegen die nach den vorstehenden Bestimmungen verantwortlichen Personen verjährt in drei Jahren von dem Tag an, an dem der Geschädigte Kenntnis vom Schaden und von der Person des Ersatzpflichtigen erlangt hat, jedenfalls aber mit dem Ablauf von zehn Jahren, vom Tage an gerechnet, an welchem das schädigende Verhalten erfolgte oder aufhörte. Die Frist steht während des Verfahrens auf Anordnung einer Sonderuntersuchung und während deren Durchführung still.
+
+**Abs. 2** Hat die ersatzpflichtige Person durch ihr schädigendes Verhalten eine strafbare Handlung begangen, so verjährt der Anspruch auf Schadenersatz frühestens mit Eintritt der strafrechtlichen Verfolgungsverjährung. Tritt diese infolge eines erstinstanzlichen Strafurteils nicht mehr ein, so verjährt der Anspruch frühestens mit Ablauf von drei Jahren seit Eröffnung des Urteils.

@@ -1,0 +1,19 @@
+---
+id: or__art-585
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 585 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Vierundzwanzigster Titel: Die Kollektivgesellschaft > Fünfter Abschnitt: Liquidation > D. Rechte und Pflichten der Liquidatoren'
+artikel: Art. 585
+---
+> OR · Art. 585 OR
+
+**Abs. 1** Die Liquidatoren haben die laufenden Geschäfte zu beendigen, die Verpflichtungen der aufgelösten Gesellschaft zu erfüllen, die Forderungen einzuziehen und das Vermögen der Gesellschaft, soweit es die Auseinandersetzung verlangt, zu versilbern.
+
+**Abs. 2** Sie haben die Gesellschaft in den zur Liquidation gehörenden Rechtsgeschäften zu vertreten, können für sie Prozesse führen, Vergleiche und Schiedsverträge abschliessen und, soweit es die Liquidation erfordert, auch neue Geschäfte eingehen.
+
+**Abs. 3** Erhebt ein Gesellschafter Widerspruch gegen einen von den Liquidatoren beschlossenen Verkauf zu einem Gesamtübernahmepreis, gegen die Ablehnung eines solchen Verkaufs oder gegen die beschlossene Art der Veräusserung von Grundstücken, so entscheidet auf Begehren des widersprechenden Gesellschafters das Gericht.
+
+**Abs. 4** Die Gesellschaft haftet für Schaden aus unerlaubten Handlungen, die ein Liquidator in Ausübung seiner geschäftlichen Verrichtungen begeht.

@@ -1,0 +1,17 @@
+---
+id: or__art-467
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 467 OR
+pfad: 'Zweite Abteilung: Die einzelnen Vertragsverhältnisse > Achtzehnter Titel: Die Anweisung > B. Wirkungen > I. Verhältnis des Anweisenden zum Anweisungsempfänger'
+artikel: Art. 467
+---
+> OR · Art. 467 OR
+
+**Abs. 1** Soll mit der Anweisung eine Schuld des Anweisenden an den Empfänger getilgt werden, so erfolgt die Tilgung erst durch die von dem Angewiesenen geleistete Zahlung.
+
+**Abs. 2** Doch kann der Empfänger, der die Anweisung angenommen hat, seine Forderung gegen den Anweisenden nur dann wieder geltend machen, wenn er die Zahlung vom Angewiesenen gefordert und nach Ablauf der in der Anweisung bestimmten Zeit nicht erhalten hat.
+
+**Abs. 3** Der Gläubiger, der eine von seinem Schuldner ihm erteilte Anweisung nicht annehmen will, hat diesen bei Vermeidung von Schadenersatz ohne Verzug hievon zu benachrichtigen.

@@ -1,0 +1,31 @@
+---
+id: or__art-698
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 698 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Sechsundzwanzigster Titel: Die Aktiengesellschaft > Dritter Abschnitt: Organisation der Aktiengesellschaft > A. Die Generalversammlung
+  > I. Befugnisse'
+artikel: Art. 698
+---
+> OR · Art. 698 OR
+
+**Abs. 1** Oberstes Organ der Aktiengesellschaft ist die Generalversammlung der Aktionäre.
+
+**Abs. 2** Ihr stehen folgende unübertragbare Befugnisse zu:
+- 1. die Festsetzung und Änderung der Statuten;
+- 2. die Wahl der Mitglieder des Verwaltungsrates und der Revisionsstelle;
+- 3. die Genehmigung des Lageberichts und der Konzernrechnung;
+- 4. die Genehmigung der Jahresrechnung sowie die Beschlussfassung über die Verwendung des Bilanzgewinnes, insbesondere die Festsetzung der Dividende und der Tantieme;
+- 5. die Festsetzung der Zwischendividende und die Genehmigung des dafür erforderlichen Zwischenabschlusses;
+- 6. die Beschlussfassung über die Rückzahlung der gesetzlichen Kapitalreserve;
+- 7. die Entlastung der Mitglieder des Verwaltungsrats;
+- 8. die Dekotierung der Beteiligungspapiere der Gesellschaft;
+- 9. die Beschlussfassung über die Gegenstände, die der Generalversammlung durch das Gesetz oder die Statuten vorbehalten sind.
+
+**Abs. 3** Bei Gesellschaften, deren Aktien an einer Börse kotiert sind, stehen ihr folgende weitere unübertragbare Befugnisse zu:
+- 1. die Wahl des Präsidenten des Verwaltungsrats;
+- 2. die Wahl der Mitglieder des Vergütungsausschusses;
+- 3. die Wahl des unabhängigen Stimmrechtsvertreters;
+- 4. die Abstimmung über die Vergütungen des Verwaltungsrats, der Geschäftsleitung und des Beirats.

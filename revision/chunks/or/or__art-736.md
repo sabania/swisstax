@@ -1,0 +1,21 @@
+---
+id: or__art-736
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 736 OR
+pfad: 'Dritte Abteilung: Die Handelsgesellschaften und die Genossenschaft > Sechsundzwanzigster Titel: Die Aktiengesellschaft > Fünfter Abschnitt: Auflösung der Aktiengesellschaft > A. Auflösung im Allgemeinen
+  > I. Gründe'
+artikel: Art. 736
+---
+> OR · Art. 736 OR
+
+**Abs. 1** Die Gesellschaft wird aufgelöst:
+- 1. nach Massgabe der Statuten;
+- 2. durch einen Beschluss der Generalversammlung, über den eine öffentliche Urkunde zu errichten ist;
+- 3. durch die Eröffnung des Konkurses;
+- 4. durch Urteil des Gerichts, wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals oder der Stimmen vertreten, aus wichtigen Gründen die Auflösung verlangen;
+- 5. in den übrigen vom Gesetze vorgesehenen Fällen.
+
+**Abs. 2** Bei der Klage auf Auflösung aus wichtigen Gründen kann das Gericht anstelle der Auflösung eine andere sachgemässe und den Beteiligten zumutbare Lösung anordnen.

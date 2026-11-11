@@ -1,0 +1,21 @@
+---
+id: or__art-1131
+quelle: or
+kurz: OR
+typ: gesetz
+rang: 1
+titel: Art. 1131 OR
+pfad: 'Fünfte Abteilung: Die Wertpapiere > Dreiunddreissigster Titel: Die Namen-, Inhaber- und Ordrepapiere > Fünfter Abschnitt: Der Check > VI. Rückgriff mangels Zahlung > 4. Vorbehalt der höheren Gewalt'
+artikel: Art. 1131
+---
+> OR · Art. 1131 OR
+
+**Abs. 1** Steht der rechtzeitigen Vorlegung des Checks oder der rechtzeitigen Erhebung des Protestes oder der Vornahme einer gleichbedeutenden Feststellung ein unüberwindliches Hindernis entgegen (gesetzliche Vorschrift eines Staates oder ein anderer Fall höherer Gewalt), so werden die für diese Handlungen bestimmten Fristen verlängert.
+
+**Abs. 2** Der Inhaber ist verpflichtet, seinen unmittelbaren Vormann von dem Falle der höheren Gewalt unverzüglich zu benachrichtigen und die Benachrichtigung unter Beifügung des Tages und Ortes sowie seiner Unterschrift auf dem Check oder einem Anhang zu vermerken; im übrigen finden die Vorschriften des Artikels 1042 Anwendung.
+
+**Abs. 3** Fällt die höhere Gewalt weg, so muss der Inhaber den Check unverzüglich zur Zahlung vorlegen und gegebenenfalls Protest erheben oder eine gleichbedeutende Feststellung vornehmen lassen.
+
+**Abs. 4** Dauert die höhere Gewalt länger als 15 Tage seit dem Tage, an dem der Inhaber selbst vor Ablauf der Vorlegungsfrist seinen Vormann von dem Falle der höheren Gewalt benachrichtigt hat, so kann Rückgriff genommen werden, ohne dass es der Vorlegung oder der Protesterhebung oder einer gleichbedeutenden Feststellung bedarf.
+
+**Abs. 5** Tatsachen, die rein persönlich den Inhaber oder denjenigen betreffen, den er mit der Vorlegung des Checks oder mit der Erhebung des Protestes oder mit der Herbeiführung einer gleichbedeutenden Feststellung beauftragt hat, gelten nicht als Fälle höherer Gewalt.
