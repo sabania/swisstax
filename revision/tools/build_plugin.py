@@ -20,7 +20,7 @@ SKILLS = ["revision", "revision-pruefschritt", "revision-mandat"]
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default=str(ROOT / "plugins" / "revisionswiki"))
+    ap.add_argument("--out", default=str(ROOT / "dist" / "revisionswiki"))   # Release: --out plugins/revisionswiki (Marketplace)
     ap.add_argument("--version", default="1.0.0")
     ap.add_argument("--tgz", action="store_true")
     a = ap.parse_args()
