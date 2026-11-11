@@ -1,0 +1,425 @@
+# Unabhängig erstellte Testfragen (Workflow revision-evalfragen: erstellt aus Primärquellen, skeptisch nachgeprüft). Nicht ins Wiki übernehmen.
+fragen:
+- id: r01
+  kategorie: Akte/Rollen
+  schwierigkeit: leicht
+  frage: In welchen Bereichen der revio-4.0-Revisionsakte darf der KI-Revisionsagent selbst etwas erfassen, und was gilt für die übrigen Bereiche wie 3 Planung oder 9 Qualitätssicherung?
+  soll:
+    antwort: 'Schreibend arbeitet der Agent nur in Bereich 4 (Abschlussprüfung, 29 Prüffelder A1–T1; Kernarbeit Prozess 2: Textfeld, Belege, Notizen) und in Bereich 10 (Unterlagen zum
+      Abschluss: Protokoll Vorjahr in 10.9, Vorschläge für die PBC-Liste 10.10, Auswertung der Antworten aus 10.11). Laut Prozesstabelle gibt es eine Ausnahme: Bereich 1 (1.1 Jahresrechnung)
+      wird über den Import der Jahresrechnung befüllt (Prozess 1: PDF-Import, Vorzeichen, Kontenzuordnung, Abstimmung). Unklare Zuordnungen erfasst er als Pendenz, und in der Testphase
+      hält er nach dem Import zur Kontrolle durch den Menschen an. Die Kennzahlen aus 1.2 nutzt er nur lesend für die Analytik. Alle übrigen Bereiche liest er höchstens, um risikoorientiert
+      und kritisch zu arbeiten: 2 Vorbereitung (nur lesen, Empfehlung), 3 Planung (nur lesen; die Wesentlichkeit in 3.3 liest und wendet er an, ändert sie aber nie), 6 Beendigung (nur
+      lesen; 6.2 als Leitfaden für die Plausibilisierung), 7 Berichterstattung (nur lesen; Vorgabe für den GVB-Entwurf). Welche dieser Teilbereiche er tatsächlich lesen darf (zusätzlich
+      2.1, 2.4, 3.1, 3.4, 3.5, 6.2), ist noch zu entscheiden. In Bereich 9 Qualitätssicherung (9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk) hat er keine Rolle.
+      Auch in den Bereichen 4 und 10 bleiben beim Menschen: das Visum pro Schritt, das ✓ pro Prüffeld, «Abgeschlossen» und «Review» in der Fusszeile sowie der Status in Bereich 10.'
+    kernpunkte:
+    - Schreibend nur Bereich 4 (Prüffelder) und Bereich 10 (Unterlagen zum Abschluss); Bereich 1.1 nur über den Import der Jahresrechnung (Prozess 1)
+    - Alle übrigen Bereiche höchstens lesen (z.B. 3 Planung; Wesentlichkeit 3.3 lesen, nie ändern)
+    - 'Bereich 9 Qualitätssicherung: keine Rolle des Agenten'
+    - Visum, ✓, «Abgeschlossen»/«Review» und Status in Bereich 10 bleiben beim Menschen
+    fehler:
+    - Agent dürfe in 3.3 die Wesentlichkeit festlegen oder anpassen
+    - Agent bearbeite 6 Beendigung oder 7 Berichterstattung schreibend
+    - Agent erstelle in 9.0 die Abschliessende Beurteilung bzw. Archivierungsreife
+    - Agent setze in Bereich 10 den Status auf erledigt
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c006-1
+      zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10). Alle anderen Bereiche liest er höchstens, um seine Arbeit
+        risikoorientiert und kritisch auszurichten.
+    - chunk: konzept-ki-revisionsagent-2026__c006-2
+      zitat: '| 9 Qualitätssicherung | 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk | keine |'
+    - chunk: konzept-ki-revisionsagent-2026__c006-2
+      zitat: nur lesen; 3.3 gemäss Pflichtenheft
+    - chunk: konzept-ki-revisionsagent-2026__c006-2
+      zitat: Import (Prozess 1); Kennzahlen für die Analytik
+    - chunk: konzept-ki-revisionsagent-2026__c008-1
+      zitat: 'Visum (Kürzel und Datum) pro Schritt, ✓ pro Prüffeld, «Abgeschlossen» und «Review» in der Fusszeile, Status in Bereich 10: alles bleibt beim Menschen.'
+  pruefung: 'korrigiert: Alle 5 Zitate stimmen (pruefe-zitat OK). Fachlich im Kern richtig, aber die Quelle widerspricht sich selbst. c006-1 sagt «schreibend nur Bereich 4 und 10». Nach
+    c006-2/c011-2 schreibt Prozess 1 jedoch in revio 1.1 (PDF-Import, Konten zuordnen). Die Referenz erwähnt den Import zwar, Kernpunkt 1 sagt '
+- id: r02
+  kategorie: Notizen
+  schwierigkeit: mittel
+  frage: Im Prüffeld C1 findet der Agent für eine Debitorenposition keinen Beleg, und bei einer anderen Rechnung vermutet er einen Abgrenzungsfehler, für den er eine Korrekturbuchung
+    vorschlagen würde. In welche Notizkategorien in revio gehört was – und darf er die Korrektur selbst verbuchen?
+  soll:
+    antwort: 'Der fehlende Beleg gehört in eine Notiz der Kategorie «Pendenz» (fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege – mit Konto, Datum und Betrag). Der
+      mögliche Fehler mit begründetem Buchungsvorschlag gehört in «Wesentliche Feststellungen». Verbuchen darf der Agent nicht: Buchungsvorschläge sind nur als Notiz zulässig, ohne Verbuchung
+      (Pflichtenheft: keine Buchung). Verwendete Nachweise kann er als Beilage an die Notiz hängen, wenn sie nicht direkt beim Prüfschritt liegen. (Differenzen unter der Nichtaufgriffsgrenze
+      werden nur protokolliert.)'
+    kernpunkte:
+    - Fehlender Beleg → Kategorie «Pendenz» mit Konto, Datum und Betrag
+    - Möglicher Fehler mit begründetem Buchungsvorschlag → «Wesentliche Feststellungen»
+    - Keine Verbuchung durch den Agenten; Buchungsvorschlag nur als Notiz
+    fehler:
+    - Buchungsvorschlag als Pendenz oder in der Kategorie Review erfassen
+    - Korrektur selbst verbuchen bzw. Jahresrechnung anpassen
+    - Fehlenden Beleg nur im Textfeld erwähnen, ohne Pendenz
+    - Pendenz ohne Konto, Datum und Betrag
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Pendenz | Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Wesentliche Feststellungen | Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+    - chunk: konzept-ki-revisionsagent-2026__c015-1
+      zitat: 'Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung (Pflichtenheft).'
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Notizen können Beilagen erhalten («Neue Beilage»); der Agent hängt dort die verwendeten Nachweise an, wenn sie nicht direkt beim Prüfschritt liegen.
+- id: r03
+  kategorie: Notizen
+  schwierigkeit: leicht
+  frage: Welche Notizkategorie verwendet der Agent für Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte? Darf er auch Review-Notizen erfassen oder eine Pendenz löschen
+    bzw. als erledigt markieren, wenn der Beleg inzwischen nachgereicht wurde?
+  soll:
+    antwort: 'Punkte für das Gespräch mit dem Kunden gehören in die Kategorie «Schlussbesprechung». revio 4.0 kennt vier Notizkategorien: Pendenz, Wesentliche Feststellungen, Schlussbesprechung
+      und Review. In «Review» erfasst der Agent nichts – diese Kategorie ist für die Rückmeldungen des Wirtschaftsprüfers. Notizen löscht oder erledigt der Agent nie. Das gilt auch für
+      eine Pendenz, deren Beleg inzwischen nachgereicht wurde: Das Erledigen bleibt beim Menschen. Dass der Agent den Eingang festhält (z.B. im Textfeld des Prüfschritts bzw. im Rapport),
+      ist naheliegend, im Konzept aber nicht ausdrücklich geregelt. Technisch heisst das: kein rv_delete_workpapers_DeleteNote_by_noteId, und das Feld isClosed einer Notiz (NoteDto/NoteChangedRequest,
+      z.B. über rv_put_workpapers_UpdateNote oder rv_post_workpapers_NoteChanged) setzt er nie auf true. Abgesichert wird das zusätzlich über den Dienstbenutzer mit eingeschränkten Löschrechten.'
+    kernpunkte:
+    - Kategorie «Schlussbesprechung» für Punkte, die der WP mit dem Kunden besprechen sollte
+    - '«Review»: keine Einträge des Agenten, nur Rückmeldungen des Wirtschaftsprüfers'
+    - Notizen nie löschen oder erledigen, auch nicht nach Nachreichung des Belegs – Erledigen bleibt beim Menschen
+    fehler:
+    - Besprechungspunkte unter Wesentliche Feststellungen oder Review erfassen
+    - Pendenz selbst als erledigt markieren oder löschen
+    - rv_delete_workpapers_DeleteNote_by_noteId einsetzen
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Schlussbesprechung | Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Review | keine; für Rückmeldungen des Wirtschaftsprüfers
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Notizen löscht oder erledigt er nie.
+    - chunk: konzept-ki-revisionsagent-2026__c009-3
+      zitat: Eigener Dienstbenutzer in revio 4.0 und M-Files ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt.
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_delete_workpapers_DeleteNote_by_noteId
+  pruefung: 'korrigiert: Alle Zitate stimmen. DeleteNote steht in der CSV (DELETE /api/workpapers/DeleteNote/{noteId}). Zwei Präzisierungen: (1) «er kann den Eingang dokumentieren» ist
+    im Konzept nicht geregelt. Das ist jetzt als naheliegend, aber nicht ausdrücklich geregelt gekennzeichnet. (2) Die Frage fragt nach «als erl'
+- id: r04
+  kategorie: Prüfschritte
+  schwierigkeit: mittel
+  frage: Wie bearbeitet der Agent einen Befragungsschritt wie C1-101 (Durchsicht der Debitoren-OP-Liste und Befragung über Gründe für alte Ausstände), und welchen Bearbeitungsstatus
+    kann er dabei höchstens erreichen?
+  soll:
+    antwort: 'C1-101 ist ein Befragungsschritt (1xx), gekennzeichnet EP, mit den Prüfzielen EX VO BE. Er gehört zum Pflichtenheft-Beispiel C1 Delkredere (101 OP-Liste). Der Schritt hat
+      zwei Teile. (1) Die Durchsicht der Debitoren-OP-Liste kann der Agent vorbereiten: OP-Liste per Stichtag aus M-Files beschaffen, alte, ungewöhnlich hohe Ausstände und Haben-Salden
+      herausfiltern (Altersstruktur im Rechenmodul, nicht im Sprachmodell) und das Ergebnis im Textfeld mit Fundstelle, Umfang und den abgedeckten Prüfzielen dokumentieren. Ab welchem
+      Alter eine Forderung als «alt» gilt, ist noch ein offener Entscheid (consis, Thema Delkredere C1). (2) Die Befragung kann er nicht selbst durchführen und kontaktiert den Kunden
+      nicht. Er wertet vorhandene schriftliche Antworten aus (z.B. 10.11 Kundenbefragung); fehlt eine Antwort, erfasst er die Frage als Pendenz. Der Schritt erreicht höchstens den Status
+      «teilweise bearbeitet». Ab wann ein Schritt – gerade eine Befragung – als «vorbereitet» gilt, ist ebenfalls offen (consis). Das Visum bleibt offen. (Typ 1xx: 106 Schritte, davon
+      80 EP und 12 WP.)'
+    kernpunkte:
+    - Durchsicht der OP-Liste bereitet der Agent vor (OP-Liste aus M-Files, Altersstruktur im Rechenmodul, Ergebnis im Textfeld)
+    - Befragung kann er nicht selbst durchführen; kein direkter Kundenkontakt
+    - Schriftliche Antworten auswerten (z.B. 10.11 Kundenbefragung), sonst Frage als Pendenz
+    - Höchstens Status «teilweise bearbeitet»; Visum bleibt offen
+    fehler:
+    - Agent kontaktiert den Kunden direkt per E-Mail/Telefon
+    - Schritt als «vorbereitet» oder erledigt melden
+    - Befragung als nicht anwendbar überspringen
+    - Antworten erfinden oder unterstellen
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c008-1
+      zitat: 'Nummer und Typ: 1xx Befragung, 2xx Analytische Prüfungshandlungen, 3xx Detailprüfungen, 4xx Sonstige Prüfungshandlungen.'
+    - chunk: konzept-ki-revisionsagent-2026__c012-1
+      zitat: 'Befragung (1xx) | 106 | 80 | 12 | Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz; höchstens «teilweise
+        bearbeitet»'
+    - chunk: katalog-revio4__c003-9
+      zitat: C1-101 | Befragung | EP | EX VO BE | Durchsicht der Debitoren OP-Liste und Befragung über Gründe für alte, ungewöhnliche hohe Ausstände sowie Haben-Salden
+    - chunk: konzept-ki-revisionsagent-2026__c015-2
+      zitat: Ab wann ist ein Schritt «vorbereitet» statt «teilweise bearbeitet», insbesondere bei Befragungen?
+  pruefung: 'korrigiert: Die Zitate stimmen, C1-101 ist im Katalog als Befragung, EP, EX VO BE bestätigt (katalog-revio4__c003-9). Die Referenz ist richtig, aber unvollständig: Die Frage
+    nennt ausdrücklich beide Teile («Durchsicht der OP-Liste und Befragung»), die Referenz behandelt nur die Befragung. Die Durchsicht kann de'
+- id: r05
+  kategorie: Prüfschritte
+  schwierigkeit: mittel
+  frage: Darf der Agent Prüfschritte mit der Kennzeichnung WP – zum Beispiel G1-305 (Durchsicht von Einkaufsfakturen) – vorbereiten, oder nur EP-Schritte?
+  soll:
+    antwort: 'Das ist noch nicht entschieden: Ob der Agent WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid; zuständig ist consis (G1-305
+      ist ausdrücklich WP gekennzeichnet). Kern der Agentenarbeit sind die EP-Schritte (Einzelfallprüfung): von 538 Schritten sind 180 EP und 87 WP. Bis zum Entscheid wird nicht geraten:
+      In der geplanten revio-Zuordnung werden WP-Schritte in der Spalte «art» als nur_mensch geführt, die Rolle ist als offene Fachfrage gesammelt. In jedem Fall bleiben Visum und Abschluss
+      beim Menschen.'
+    kernpunkte:
+    - Offener (wichtigster) Entscheid, zuständig consis
+    - EP-Schritte sind der Kern der Agentenarbeit
+    - Bis zum Entscheid nicht raten; in der Zuordnung WP-Schritte als nur_mensch
+    - Visum/Abschluss bleibt beim Menschen
+    fehler:
+    - Es sei bereits entschieden, dass der Agent WP-Schritte normal bearbeitet
+    - WP bedeute, der Agent dürfe den Schritt visieren
+    - G1-305 als EP-Schritt bezeichnen
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c012-1
+      zitat: EP-Schritte (Einzelfallprüfung) sind der Kern der Agentenarbeit. Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+    - chunk: konzept-ki-revisionsagent-2026__c015-2
+      zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus? Welche Schritte gelten als «markiert» im Sinne des Pflichtenhefts? G1-305 ist WP gekennzeichnet.
+        | consis
+    - chunk: konzept-ki-revisionsagent-2026__c012-1
+      zitat: '| Total | 538 | 180 | 87 | |'
+    - chunk: katalog-revio4__c003-25
+      zitat: G1-305 | Detail | WP | EX RV | Durchsicht von Einkaufsfakturen, Leasingverträgen und weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Anlagen
+    - chunk: konzept-ki-revisionsagent-2026__c015-1
+      zitat: Acht Punkte müssen vor der Umsetzung entschieden werden, weil der Agent sonst raten müsste
+    - chunk: raw/revio/00_IDEE_Zuordnung_Pruefschritt-revio.md
+      zitat: '`art` = `lesen` · `vorbereiten` · `nur_mensch` (WP-Schritte und alles mit Visum/Abschluss/Freigabe)'
+- id: r06
+  kategorie: Wesentlichkeit
+  schwierigkeit: mittel
+  frage: In 3.3 ist eine Gesamtwesentlichkeit von CHF 80'000 festgelegt. Mit welchen Grenzen arbeitet der Agent für Prüfumfang/Stichprobe und für die Behandlung von Differenzen – und
+    darf er die Werte in 3.3 anpassen, wenn sie ihm unplausibel erscheinen?
+  soll:
+    antwort: 'Toleranzwesentlichkeit 75 % der Gesamtwesentlichkeit = CHF 60''000: steuert Prüfumfang und Stichprobe. Nichtaufgriffsgrenze 5 % = CHF 4''000: Differenzen darunter werden
+      nur protokolliert. Gesamtwesentlichkeit CHF 80''000: Massstab für Wesentliche Feststellungen; die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1. Der Agent liest
+      die Wesentlichkeit aus 3.3 und ändert sie nie; passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst er eine Pendenz. (Bezug der Prozentsätze auf die Gesamtwesentlichkeit
+      vgl. HWP ER Rz 50–51.)'
+    kernpunkte:
+    - Toleranzwesentlichkeit 75 % = CHF 60'000 für Prüfumfang und Stichprobe
+    - Nichtaufgriffsgrenze 5 % = CHF 4'000; Differenzen darunter nur protokollieren
+    - Gesamtwesentlichkeit = Massstab für Wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1)
+    - Werte in 3.3 nie ändern; bei Unplausibilität Pendenz
+    fehler:
+    - Toleranzwesentlichkeit 50 % oder 60 % (HWP-Bandbreite/Beispiel) statt 75 % gemäss Konzept
+    - Nichtaufgriffsgrenze als 5 % der Toleranzwesentlichkeit (CHF 3'000)
+    - Agent passt 3.3 selbst an
+    - Differenzen unter der Nichtaufgriffsgrenze gar nicht festhalten
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c014-1
+      zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+    - chunk: konzept-ki-revisionsagent-2026__c014-1
+      zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+    - chunk: konzept-ki-revisionsagent-2026__c014-1
+      zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+    - chunk: konzept-ki-revisionsagent-2026__c014-1
+      zitat: 'Gesamtwesentlichkeit: Massstab für Wesentliche Feststellungen; die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1.'
+    - chunk: konzept-ki-revisionsagent-2026__c014-1
+      zitat: 'Plausibilität der Festlegung: Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst der Agent eine Pendenz.'
+    - chunk: hwp-er-2026__rz-0050-s187
+      zitat: in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit
+    - chunk: hwp-er-2026__rz-0051-s187
+      zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+- id: r07
+  kategorie: Prozesse
+  schwierigkeit: leicht
+  frage: Wo legt der Agent das Protokoll der Generalversammlung des Vorjahres in revio ab, woher holt er es und was prüft er vor der Ablage?
+  soll:
+    antwort: 'Das ist Prozess 3 «Unterlagen zum Abschluss»: Der Agent beschafft das Protokoll Vorjahr aus M-Files, prüft die Zugehörigkeit (gegen den zu Beginn fixierten Mandatskontext:
+      Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag – bei Abweichung Abbruch und Pendenz) und legt es in revio unter 10.9 «Protokolle» ab. Der Status bleibt offen; er wird
+      vom Menschen gesetzt.'
+    kernpunkte:
+    - Beschaffung aus M-Files
+    - Ablage in revio 10.9 (Protokolle)
+    - Zugehörigkeit zum Mandat/Geschäftsjahr prüfen, bei Abweichung Pendenz
+    - Status bleibt offen
+    fehler:
+    - Ablage unter 10.6 Korrespondenz oder 10.5 Berichtsablage
+    - Status in Bereich 10 auf erledigt setzen
+    - Protokoll eines anderen Mandats/Jahres ohne Prüfung ablegen
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c011-2
+      zitat: '| 3 Unterlagen zum Abschluss | revio 10.9 | Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste
+        (10.10) | Status bleibt offen; Anforderung beim Kunden durch den Menschen |'
+    - chunk: konzept-ki-revisionsagent-2026__c005-1
+      zitat: 'Die Verweise des Pflichtenhefts stimmen mit revio 4.0 überein: Wesentlichkeit unter Planung 3.3, Protokolle unter 10.9.'
+    - chunk: konzept-ki-revisionsagent-2026__c009-1
+      zitat: 'Zu Beginn wird ein Kontext-Schlüssel fixiert: Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag. Jeder Zugriff und jede Ablage wird dagegen geprüft; bei Abweichung
+        bricht der Agent ab und erfasst eine Pendenz.'
+- id: r08
+  kategorie: Prozesse
+  schwierigkeit: mittel
+  frage: Was macht der Agent, wenn für den Abschluss eine Unterlage fehlt, z.B. ein Bankauszug per Stichtag ist nicht in M-Files? Darf er den Kunden direkt anschreiben?
+  soll:
+    antwort: 'Fehlende Unterlagen meldet er als Vorschlag für die PBC-Liste (10.10) und erfasst sie als Pendenz (fehlende Unterlage mit Konto, Datum und Betrag); im Revisionsrapport
+      meldet er alles, was er nicht klären kann. Der Status bleibt offen, und die Anforderung beim Kunden macht der Mensch. Den Kunden schreibt er nicht an: E-Mails in der Testphase
+      nur als Entwurf oder an die fixe WP-Adresse, nie an Kunden. Fehlende Daten werden nicht erfunden.'
+    kernpunkte:
+    - Vorschlag für die PBC-Liste 10.10
+    - Pendenz erfassen und im Rapport melden
+    - Anforderung beim Kunden durch den Menschen; Status bleibt offen
+    - Keine E-Mail an Kunden
+    fehler:
+    - Agent fordert die Unterlage selbst beim Kunden an
+    - Agent setzt den Status der PBC-Position oder des Bereichs 10
+    - Fehlenden Wert schätzen oder Ersatzdokument aus einem anderen Jahr verwenden
+    quellen:
+    - chunk: konzept-ki-revisionsagent-2026__c011-2
+      zitat: '| 3 Unterlagen zum Abschluss | revio 10.9 | Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste
+        (10.10) | Status bleibt offen; Anforderung beim Kunden durch den Menschen |'
+    - chunk: konzept-ki-revisionsagent-2026__c007-1
+      zitat: Pendenz | Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+    - chunk: konzept-ki-revisionsagent-2026__c010-1
+      zitat: Alles, was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
+    - chunk: konzept-ki-revisionsagent-2026__c009-2
+      zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
+    - chunk: konzept-ki-revisionsagent-2026__c005-1
+      zitat: fehlende Daten dürfen nicht erfunden werden
+- id: r09
+  kategorie: MCP-Werkzeuge
+  schwierigkeit: leicht
+  frage: Mit welchen revio-MCP-Werkzeugen findet der Agent den Kunden, dessen Jahresakte und öffnet das Dossier – und was hält er unmittelbar danach fest?
+  soll:
+    antwort: revio_find_clients (alle Kunden/Mandate) → revio_list_dossiers (Jahresakten eines Kunden, Parameter client_id) → revio_open_dossier (Dossier öffnen/Mandatskontext, Parameter
+      client_id und dossier_id). Danach fixiert er den Mandatskontext (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag) und prüft jeden weiteren Zugriff dagegen. revio_create_client
+      (legt Kunden an) braucht er dafür nicht.
+    kernpunkte:
+    - revio_find_clients
+    - revio_list_dossiers mit client_id
+    - revio_open_dossier mit client_id und dossier_id
+    - Mandatskontext fixieren und Zugriffe dagegen prüfen
+    fehler:
+    - revio_create_client verwenden
+    - revio_call mit einem frei gewählten Pfad statt der kuratierten Werkzeuge
+    - Erfundene Werkzeugnamen wie rv_get_dossier_Open
+    quellen:
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: revio_find_clients
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: revio_list_dossiers
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: revio_open_dossier
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: Dossier öffnen / Mandatskontext (client_id, dossier_id)
+    - chunk: konzept-ki-revisionsagent-2026__c009-1
+      zitat: 'Zu Beginn wird ein Kontext-Schlüssel fixiert: Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag. Jeder Zugriff und jede Ablage wird dagegen geprüft; bei Abweichung
+        bricht der Agent ab und erfasst eine Pendenz.'
+- id: r10
+  kategorie: MCP-Werkzeuge
+  schwierigkeit: mittel
+  frage: Das Dossier ist offen. Mit welchem MCP-Werkzeug lädt der Agent die Prüfungshandlungen des Prüffelds C1, welche Parameter braucht es, und womit holt er die Vorjahresbearbeitung
+    zum Vergleich?
+  soll:
+    antwort: 'Die Prüfungshandlungen des Prüffelds lädt der Agent mit rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId (GET /api/auditActivities/LoadAuditActivities/{containerId}/{templateId}).
+      Es braucht die Pfadparameter containerId und templateId, übergeben als path_params_json. Für den Vorjahresvergleich gibt es zwei Werkzeuge: rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId
+      für das ganze Prüffeld (gleiche Parameter) und rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId für einen einzelnen Schritt (zusätzlich
+      activityId). Ergänzend liefert rv_get_auditActivities_LoadCoverSheet_by_containerId (containerId) das Deckblatt. Alle sind GET-Werkzeuge. Vorbehalt: Die Werkzeugliste enthält keine
+      Beschreibungen. Die Bedeutung ist aus Namen und Pfaden abgeleitet und in der enco-Idee als «Kandidat, zu bestätigen» geführt. Die Ids gibt es erst im echten Dossier: Nach dem Öffnen
+      ermittelt der Agent containerId/templateId je Prüffeld und ordnet die geladenen Handlungen per Text und Nummer (z.B. «302») dem Katalog zu. Die Katalognummer C1-302 ist keine revio-Id.'
+    kernpunkte:
+    - rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    - Parameter containerId und templateId (Pfadparameter) aus dem geöffneten Dossier, nicht die Katalognummer
+    - 'Vorjahr: rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId (Prüffeld) oder rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId
+      (einzelner Schritt)'
+    fehler:
+    - rv_get_auditActivities_LoadAuditActivityTemplate (Vorlage statt Dossier)
+    - rv_get_auditProcedureCatalog_LoadAuditProcedureCatalog_by_containerDefinitionId (Katalog statt Prüfungshandlungen im Dossier)
+    - Katalognummer C1-302 direkt als Id verwenden
+    quellen:
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_get_auditActivities_LoadCoverSheet_by_containerId
+    - chunk: raw/revio/00_IDEE_Zuordnung_Pruefschritt-revio.md
+      zitat: Die Ids der Prüfungshandlungen existieren erst in einem echten Dossier.
+    - chunk: raw/revio/00_IDEE_Zuordnung_Pruefschritt-revio.md
+      zitat: Dossier öffnen, `containerId`/`templateId` je Prüffeld ermitteln.
+    - chunk: konzept-ki-revisionsagent-2026__c011-2
+      zitat: '| 2 Markierte Abschlussprüfungen | revio 4 Prüffelder | Prüfschritte nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen,
+        Notizen erfassen | Kein Visum, kein ✓, keine Abschliessende Beurteilung |'
+  pruefung: 'korrigiert: Die Werkzeuge stehen in der CSV (Zeilen 20, 21, 23; GET; Pfadparameter containerId, templateId), die Zitate aus der IDEE stimmen. Zwei Schwächen: (1) Die CSV
+    hat keine Beschreibungen, und die IDEE führt die Werkzeuge ausdrücklich als «Kandidaten, zu bestätigen». Die Bedeutung «Vorjahresbearbeitung» '
+- id: r11
+  kategorie: MCP-Werkzeuge
+  schwierigkeit: mittel
+  frage: Der Agent soll Antworten in einer revio-Checkliste vorbereiten. Mit welchem Werkzeug liest er die Checkliste, mit welchem speichert er die Daten, und darf er den Fragebogen
+    danach auf «geschlossen» setzen?
+  soll:
+    antwort: 'Lesen: rv_get_checklists_LoadChecklist (GET, LoadChecklistRequest mit areaId und checklistId). Speichern: rv_post_checklists_StoreChecklistData (POST, StoreChecklistRequest
+      mit der ganzen Checkliste). Das ist ein schreibendes Vorbereiten-Werkzeug und in OpenClaw freigabepflichtig. Schliessen darf der Agent nicht. Die Checkliste selbst kennt in der
+      API keinen Zustand «geschlossen»; diesen gibt es nur beim Fragebogen eines Containers (ContainerQuestionnaireDto.isClosed). Gesetzt wird er über rv_post_checklistDefinitions_SetContainerQuestionnaireClosedState
+      (containerId, isClosed). Dieses Abschluss-Werkzeug steht unter «Menschlich – nie Agent» und bleibt in OpenClaw gesperrt (vorbereiten ja, abschliessen nie). Achtung: Die Zellen
+      einer Checkliste enthalten auch Visumsfelder (isVised, visaUserId, visaDate). Beim Speichern darf der Agent diese nicht setzen; abgesichert wird das zusätzlich über den Dienstbenutzer
+      ohne Visumsrecht. Nicht verwechseln: rv_put_checklists_UpdateTemplate ändert die Vorlage, rv_post_checklists_CreateChecklistReport erzeugt einen Bericht.'
+    kernpunkte:
+    - 'Lesen: rv_get_checklists_LoadChecklist'
+    - 'Speichern: rv_post_checklists_StoreChecklistData (schreibend, freigabepflichtig)'
+    - 'Kein Schliessen: rv_post_checklistDefinitions_SetContainerQuestionnaireClosedState ist Abschluss und für den Agenten gesperrt'
+    fehler:
+    - rv_put_checklists_UpdateTemplate verwenden (ändert die Vorlage)
+    - rv_post_checklists_CreateChecklistReport zum Speichern verwenden
+    - Fragebogen nach dem Ausfüllen selbst schliessen
+    quellen:
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_get_checklists_LoadChecklist
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_checklists_StoreChecklistData
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_checklistDefinitions_SetContainerQuestionnaireClosedState
+    - chunk: raw/revio/00_IDEE_Zuordnung_Pruefschritt-revio.md
+      zitat: Vorbereiten (schreiben, freigabepflichtig in OpenClaw)
+    - chunk: konzept-ki-revisionsagent-2026__c011-1
+      zitat: 'Jeder Prozess des Pflichtenhefts hat in revio 4.0 einen festen Ort; die Grenze des Agenten ist überall dieselbe: vorbereiten ja, abschliessen nie.'
+  pruefung: 'korrigiert: Die Werkzeuge stehen in der CSV (LoadChecklist GET mit LoadChecklistRequest: areaId, checklistId; StoreChecklistData POST mit StoreChecklistRequest: checklist;
+    SetContainerQuestionnaireClosedState POST mit containerId, isClosed). Die Zitate aus der IDEE und c011-1 stimmen. Präzisierung: Die Frage ve'
+- id: r12
+  kategorie: MCP-Sperren
+  schwierigkeit: schwer
+  frage: Welche revio-MCP-Werkzeuge müssen in OpenClaw für den Agenten gesperrt bleiben? Nenne die Werkzeuge für Siegel, Visum, Archivierung und Review-Freigabe und begründe, warum auch
+    revio_call nicht freigegeben werden darf.
+  soll:
+    antwort: 'Für den Agenten gesperrt (nur Mensch) sind u.a.:
+
+      - Siegel: rv_post_clientsManagement_SealAnualFile, rv_post_clientsManagement_UnSealAnualFile, rv_post_clientsManagement_RequestSeal_by_dossierId, rv_post_workpapers_SetMaterialitySealState,
+      rv_post_workpapers_SetAnalyticalAuditProcedureSealedState, rv_post_financialStatement_SetPeriodSealedState.
+
+      - Visum: rv_post_workpapers_SetDeliveryVisa_by_componentId, rv_post_workpapers_StoreDynamicFormPanelVisaState.
+
+      - Archiv: rv_post_clientsManagement_ArchiveDossier, rv_post_clientsManagement_ArchiveDossiers.
+
+      - Freigabe: rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId.
+
+      - Abschluss: rv_post_checklistDefinitions_SetContainerQuestionnaireClosedState.
+
+
+      Weitere Kandidaten aus der Liste: rv_post_clientsManagement_CancelSealRequest_by_dossierId, rv_post_clientsManagement_RequestGlobalDossierReview_by_dossierId_by_reviewerId, rv_post_clientsManagement_RejectGlobalDossierReview_by_dossierId,
+      rv_post_clientsManagement_CancelGlobalDossierReviewRequest_by_dossierId, rv_put_workpapers_UpdateDocumentationAttachementSealedState, rv_post_clientsManagement_SetUserSignature.
+
+
+      Grund: Der Agent setzt nie ein Visum, schliesst nichts ab und gibt nichts frei (Dienstbenutzer ohne Visums- und Freigaberecht). revio_call ist ein generischer Aufruf (method, path,
+      path_params_json, query_json, body_json) und kann damit jeden Endpunkt erreichen. Im MCP-Code ist nichts gesperrt; die Sperre läuft nur über OpenClaw allow/deny je Werkzeug und
+      das JWT. revio_call würde deshalb die Einzelsperren umgehen und muss ebenfalls gesperrt sein. Zusätzlich gilt: Das Visum pro Prüfschritt ist kein eigenes Werkzeug, sondern ein
+      Feld (isVised, visaUserId, visaDate in TemplatedRow/Cell). Es könnte über das Vorbereiten-Werkzeug rv_put_auditActivities_UpdateDossierActivity mitgeschickt werden. Die Werkzeugsperre
+      allein genügt also nicht; nötig ist auch das JWT des Dienstbenutzers ohne Visumsrecht (mit revio zu bestätigen).'
+    kernpunkte:
+    - 'Siegel: rv_post_clientsManagement_SealAnualFile, rv_post_clientsManagement_RequestSeal_by_dossierId (u.a.)'
+    - 'Visum: rv_post_workpapers_SetDeliveryVisa_by_componentId, rv_post_workpapers_StoreDynamicFormPanelVisaState'
+    - 'Archiv: rv_post_clientsManagement_ArchiveDossier / ArchiveDossiers; Freigabe: rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId'
+    - revio_call sperren, weil er als generischer Aufruf die allow/deny-Sperre je Werkzeug umgeht (keine Sperre im Code)
+    fehler:
+    - Die Sperre sei im MCP-Code eingebaut, daher sei revio_call unproblematisch
+    - revio_call als harmloses Diagnose-Werkzeug freigeben
+    - Nur Visum-Werkzeuge sperren, Siegel/Archiv/Approve freigeben
+    - Erfundene Namen wie rv_post_dossier_SetVisum
+    quellen:
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_clientsManagement_SealAnualFile
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_clientsManagement_RequestSeal_by_dossierId
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_clientsManagement_ArchiveDossier
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_clientsManagement_ArchiveDossiers
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_workpapers_SetDeliveryVisa_by_componentId
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_workpapers_StoreDynamicFormPanelVisaState
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_workpapers_SetMaterialitySealState
+    - chunk: raw/revio/revio-mcp-werkzeuge.csv
+      zitat: rv_post_financialStatement_SetPeriodSealedState
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: Generischer Aufruf (method, path, path_params_json, query_json, body_json)
+    - chunk: raw/revio/revio-mcp-werkzeuge.md
+      zitat: 'Auth/Rechte: JWT + OpenClaw allow/deny, keine Sperre im Code.'
+    - chunk: raw/revio/00_IDEE_Zuordnung_Pruefschritt-revio.md
+      zitat: Das wird nicht im MCP-Code gesperrt, sondern über OpenClaw (allow/deny je Werkzeug) und das JWT.
+    - chunk: konzept-ki-revisionsagent-2026__c004-1
+      zitat: Er setzt nie ein Visum, schliesst nichts ab und gibt nichts frei.
+    - chunk: konzept-ki-revisionsagent-2026__c009-3
+      zitat: Eigener Dienstbenutzer in revio 4.0 und M-Files ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt.
+  pruefung: 'korrigiert: Alle genannten Werkzeuge stehen in der CSV, und alle Zitate stimmen (MD, IDEE, c004-1, c009-3). Die Begründung zu revio_call ist richtig: Es ist ein generischer
+    Aufruf, und gesperrt wird nur über OpenClaw allow/deny je Werkzeug plus das JWT. Ergänzt sind zwei Punkte. (1) Die IDEE verlangt eine volls'

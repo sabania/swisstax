@@ -1,0 +1,1340 @@
+# Unabhängig erstellte Testfragen (Workflow revision-evalfragen: erstellt aus Primärquellen, skeptisch nachgeprüft). Nicht ins Wiki übernehmen.
+fragen:
+- id: f01
+  kategorie: Revisionspflicht (OR 727)
+  schwierigkeit: mittel
+  frage: Eine nicht kotierte AG ohne Pflicht zur Konzernrechnung hatte im GJ 2024 eine Bilanzsumme von CHF 21 Mio., einen Umsatz von CHF 43 Mio. und 120 Vollzeitstellen, im GJ 2025 eine
+    Bilanzsumme von CHF 22 Mio., einen Umsatz von CHF 38 Mio. und 260 Vollzeitstellen. Reicht für die Jahresrechnung 2025 noch eine eingeschränkte Revision?
+  soll:
+    antwort: 'Nein. Ordentlich prüfen lassen muss eine Gesellschaft, die in zwei aufeinander folgenden Geschäftsjahren zwei der drei Grössen überschreitet: Bilanzsumme CHF 20 Mio., Umsatzerlös
+      CHF 40 Mio., 250 Vollzeitstellen im Jahresdurchschnitt (Art. 727 Abs. 1 Ziff. 2 OR). Im Jahr 2024 sind Bilanzsumme und Umsatz überschritten, im Jahr 2025 Bilanzsumme und Vollzeitstellen.
+      Es müssen nicht in beiden Jahren dieselben zwei Grössen sein (HWP ER Rz 309). Damit ist die Jahresrechnung 2025, also die des zweiten Jahres, ordentlich zu revidieren (HWP ER Rz
+      310). Der Abschlussprüfer prüft das vor der Mandatsannahme bzw. vor Prüfungsbeginn und lehnt eine eingeschränkte Revision ab (SER 1.4.1). Unabhängig von den Schwellenwerten müsste
+      ordentlich geprüft werden, wenn Aktionäre mit zusammen mindestens 10 % des Aktienkapitals dies verlangen (Art. 727 Abs. 2 OR).'
+    kernpunkte:
+    - 'Schwellenwerte CHF 20 Mio. Bilanzsumme, CHF 40 Mio. Umsatz, 250 Vollzeitstellen: zwei von drei in zwei aufeinander folgenden Geschäftsjahren'
+    - 2024 und 2025 sind je zwei Grössen überschritten; eine unterschiedliche Kombination genügt
+    - 'Ergebnis: ordentliche Revision der Jahresrechnung 2025, eine eingeschränkte Revision ist nicht zulässig'
+    fehler:
+    - Eingeschränkte Revision genügt, weil nicht in beiden Jahren dieselben zwei Grössen überschritten sind
+    - Ordentliche Revision erst ab GJ 2026 (ein weiteres Jahr Aufschub)
+    - Weil der Umsatz 2025 unter CHF 40 Mio. liegt, bleibt es bei der eingeschränkten Revision
+    quellen:
+    - chunk: or__art-727
+      zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+    - chunk: or__art-727
+      zitat: Bilanzsumme von 20 Millionen Franken
+    - chunk: or__art-727
+      zitat: Umsatzerlös von 40 Millionen Franken
+    - chunk: or__art-727
+      zitat: 250 Vollzeitstellen im Jahresdurchschnitt
+    - chunk: hwp-er-2026__rz-0309-s098
+      zitat: ist es nicht erforderlich, dass im Berichts- und im Vorjahr die gleichen beiden Referenzgrössen die massgeblichen Schwellenwerte überschreiten
+    - chunk: hwp-er-2026__rz-0310-s098
+      zitat: Erst wenn die Schwellenwerte im darauf folgenden Geschäftsjahr erneut überschritten werden, muss die Jahresrechnung dieses zweiten Geschäftsjahrs ordentlich revidiert werden.
+    - chunk: ser-2022__1-4-1
+      zitat: Der Abschlussprüfer vergewissert sich bei Mandatsannahme bzw. vor Prüfungsbeginn, dass die zu prüfende Gesellschaft nicht die Voraussetzungen für eine ordentliche Revision
+        erfüllt.
+    - chunk: or__art-727
+      zitat: Eine ordentliche Revision muss auch dann vorgenommen werden, wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen.
+- id: f02
+  kategorie: Opting-out (OR 727a)
+  schwierigkeit: leicht
+  frage: Eine KMU-AG mit 8 Vollzeitstellen will ab dem Geschäftsjahr 2027 (Kalenderjahr) auf die eingeschränkte Revision verzichten. Welche Voraussetzungen und Formalitäten gelten, und
+    kann ein Aktionär später trotzdem eine Revision verlangen?
+  soll:
+    antwort: 'Für das Opting-out (Art. 727a Abs. 2–5 OR) gilt:
+
+      (1) Die Gesellschaft hat nicht mehr als 10 Vollzeitstellen im Jahresdurchschnitt. Massgebend sind die Verhältnisse im betreffenden Geschäftsjahr, nicht der Durchschnitt aus zwei
+      Jahren (HWP ER Rz 313).
+
+      (2) Sämtliche Aktionäre stimmen zu. Der VR kann sie schriftlich um Zustimmung ersuchen, eine Frist von mindestens 20 Tagen ansetzen und festhalten, dass Schweigen als Zustimmung
+      gilt (Abs. 3).
+
+      (3) Der Verzicht gilt nur für künftige Geschäftsjahre. Er muss vor Beginn des Geschäftsjahres, hier also vor dem 1.1.2027, beim Handelsregisteramt angemeldet werden. Der Anmeldung
+      ist die Jahresrechnung des zuletzt abgelaufenen Geschäftsjahres beizulegen (Abs. 2 und 2bis).
+
+      (4) Soweit erforderlich passt der VR die Statuten an und meldet dem Handelsregister die Löschung der Revisionsstelle an (Abs. 5). Der bisherigen Revisionsstelle wird empfohlen,
+      sich umgehend selbst löschen zu lassen (HWP ER Rz 63).
+
+
+      Der Verzicht gilt auch für die Folgejahre. Jeder Aktionär kann aber spätestens 10 Tage vor der GV eine eingeschränkte Revision verlangen (Opting-in). Die GV muss dann eine Revisionsstelle
+      wählen; vor dem Revisionsbericht darf die Jahresrechnung nicht genehmigt werden (Abs. 4; HWP ER Rz 69). Bei einem Kapitalverlust (oder einer Überschuldung) muss die letzte Jahresrechnung
+      trotz Opting-out von einem zugelassenen Revisor eingeschränkt geprüft werden (Art. 725a Abs. 2 OR; HWP ER Rz 38).'
+    kernpunkte:
+    - höchstens 10 Vollzeitstellen im Jahresdurchschnitt und Zustimmung sämtlicher Aktionäre (Frist mindestens 20 Tage, Schweigen kann als Zustimmung gelten)
+    - nur für künftige Geschäftsjahre; Anmeldung beim Handelsregister vor Beginn des Geschäftsjahres mit der letzten Jahresrechnung als Beilage
+    - 'Opting-in: jeder Aktionär spätestens 10 Tage vor der GV; die GV muss dann eine Revisionsstelle wählen'
+    fehler:
+    - Ein Mehrheitsbeschluss der GV genügt
+    - Verzicht rückwirkend für das laufende Geschäftsjahr möglich
+    - Grenze von 50 oder 250 Vollzeitstellen statt 10
+    - Massgebend ist der Durchschnitt der Vollzeitstellen über zwei Jahre
+    quellen:
+    - chunk: or__art-727a
+      zitat: Mit der Zustimmung sämtlicher Aktionäre kann auf die eingeschränkte Revision verzichtet werden, wenn die Gesellschaft nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt
+        hat.
+    - chunk: or__art-727a
+      zitat: Der Verzicht gilt nur für künftige Geschäftsjahre und muss vor Beginn des Geschäftsjahres beim Handelsregisteramt angemeldet werden.
+    - chunk: or__art-727a
+      zitat: Der Anmeldung des Verzichts im Handelsregister muss die Jahresrechnung des zuletzt abgelaufenen Geschäftsjahres beigelegt werden.
+    - chunk: or__art-727a
+      zitat: Er kann für die Beantwortung eine Frist von mindestens 20 Tagen ansetzen und darauf hinweisen, dass das Ausbleiben einer Antwort als Zustimmung gilt.
+    - chunk: or__art-727a
+      zitat: Jeder Aktionär hat jedoch das Recht, spätestens zehn Tage vor der Generalversammlung eine eingeschränkte Revision zu verlangen.
+    - chunk: hwp-er-2026__rz-0313-s098
+      zitat: Hingegen sind für die Bestimmung der zehn Vollzeitstellen, die für das Opting-out nicht überschritten werden dürfen, die Tatsachen im betreffenden Geschäftsjahr massgebend,
+        nicht der Durchschnitt in zwei aufeinander folgenden Geschäftsjahren.
+    - chunk: hwp-er-2026__rz-0069-s052
+      zitat: Die Jahresrechnung darf vor Erstattung eines Revisionsberichts nicht genehmigt werden.
+    - chunk: hwp-er-2026__rz-0038-s033
+      zitat: eine Gesellschaft im Opting-out bei Vorliegen eines Kapitalverlusts (wie auch einer Überschuldung) ihre letzte Jahresrechnung durch einen zugelassenen Revisor im Rahmen
+        einer eingeschränkten Revision prüfen lassen muss (Art. 725a Abs. 2 OR).
+  pruefung: 'korrigiert: Alle Zitate sind bestätigt und fachlich richtig (Art. 727a Abs. 2, 2bis, 3, 4 OR; HWP ER Rz 313, 69, 38). Die Frage fragt aber ausdrücklich nach den «Formalitäten».
+    Die Antwort beruft sich auf «Art. 727a Abs. 2–5 OR», lässt Abs. 5 aber inhaltlich weg: Der VR passt soweit nötig die Statuten an und me'
+- id: f03
+  kategorie: Unabhängigkeit / Mitwirkung (OR 729)
+  schwierigkeit: mittel
+  frage: Unser Treuhandteam führt für eine KMU-AG die Buchhaltung. Dürfen wir bei derselben Gesellschaft auch die eingeschränkte Revision machen, und was müssen wir dabei beachten?
+  soll:
+    antwort: 'Ja. Bei der eingeschränkten Revision ist das Mitwirken bei der Buchführung zulässig (Art. 729 Abs. 2 OR). Weil ein Selbstprüfungsrisiko besteht, braucht es geeignete organisatorische
+      und personelle Massnahmen. Diese sind erfüllt, wenn nicht dieselbe Person oder Personengruppe beim gleichen Kunden bucht und prüft (SER 1.3.1, Anhang B).
+
+
+      Kumulativ muss gelten:
+
+      - Die Verantwortung für die Jahresrechnung bleibt beim Kunden.
+
+      - Die Revisionsstelle übernimmt keine Aufgaben, die nach Managementverantwortung aussehen.
+
+      - Die Risiken sind dem Kunden kommuniziert.
+
+      - Die verlässliche Prüfung ist personell und organisatorisch sichergestellt.
+
+
+      Die Mitwirkung ist im Revisionsbericht offenzulegen (Art. 729b Abs. 1 Ziff. 3 OR), z.B.: «Ein Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt.
+      An der eingeschränkten Revision war er nicht beteiligt.» Empfohlen ist eine separate schriftliche Auftragsbestätigung für die Buchführungsarbeiten (SER 1.7).'
+    kernpunkte:
+    - zulässig nach Art. 729 Abs. 2 OR
+    - 'personelle Trennung: nicht dieselbe Person oder Personengruppe bucht und prüft'
+    - Verantwortung für die Jahresrechnung bleibt beim Kunden, keine Managementfunktion, Risiken kommuniziert
+    - Offenlegung der Mitwirkung im Revisionsbericht (Art. 729b Abs. 1 Ziff. 3 OR)
+    fehler:
+    - Unzulässig, das Mandat muss abgelehnt werden (Verwechslung mit ordentlicher Revision)
+    - Zulässig, aber ohne Offenlegung im Revisionsbericht
+    - Dieselbe Person darf prüfen, wenn sie nur einen Teil der Buchhaltung geführt hat
+    quellen:
+    - chunk: or__art-729
+      zitat: Das Mitwirken bei der Buchführung und das Erbringen anderer Dienstleistungen für die zu prüfende Gesellschaft sind zulässig.
+    - chunk: or__art-729
+      zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
+    - chunk: ser-2022__1-3-1
+      zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision
+        beteiligt sein.
+    - chunk: ser-2022__anh-b-s050-2
+      zitat: Die gemäss Gesetz verlangten geeigneten organisatorischen und personellen Massnahmen sind erfüllt, wenn nicht dieselbe Person oder Personengruppe Arbeiten in der Buchführung
+        und in der eingeschränkten Revision des gleichen Kunden durchführt.
+    - chunk: ser-2022__anh-b-s050-1
+      zitat: Die Verantwortung für die Jahresrechnung bleibt in jedem Fall beim Prüfungskunden.
+    - chunk: ser-2022__anh-b-s050-2
+      zitat: Die Revisionsstelle übernimmt keine Aufgaben, die den Anschein erwecken könnten, sie übernehme die Verantwortung des Managements beim Prüfungskunden.
+    - chunk: ser-2022__anh-b-s050-2
+      zitat: Die damit verbundenen Risiken sind dem Prüfungskunden kommuniziert worden.
+    - chunk: ser-2022__anh-b-s050-1
+      zitat: Das Mitwirken bei der Buchführung ist gemäss Art. 729b Abs. 1 Ziff. 3 OR im Revisionsbericht offenzulegen.
+    - chunk: ser-2022__8-4
+      zitat: Ein Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt. An der eingeschränkten Revision war er nicht beteiligt.
+    - chunk: ser-2022__1-7
+      zitat: ist es zur Vermeidung von Missverständnissen sowie zur Abgrenzung der Verantwortlichkeiten empfehlenswert, die Art und den Umfang dieser Unterstützungsleistungen in einer
+        separaten schriftlichen Auftragsbestätigung (vgl. Beispiel 2, Anhang C) festzuhalten.
+- id: f04
+  kategorie: Umfang / Prüfungshandlungen (OR 729a)
+  schwierigkeit: leicht
+  frage: Muss ich bei einer eingeschränkten Revision Saldobestätigungen bei Debitoren einholen, an der Inventur teilnehmen oder das interne Kontrollsystem testen? Welche Prüfungshandlungen
+    sind überhaupt vorgesehen?
+  soll:
+    antwort: 'Nein. Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen (Art. 729a Abs. 2 OR). Grundsätzlich werden nur beim Unternehmen
+      intern verfügbare Informationen verwendet.
+
+
+      Nicht durchgeführt werden (SER 1.5):
+
+      - Prüfung des IKS und der IT-Systeme
+
+      - Inventurbeobachtung und Drittbestätigungsanfragen
+
+      - Prüfungen zur Aufdeckung deliktischer Handlungen und weiterer Gesetzesverstösse (ausser zu Rechnungslegung und Gewinnverwendung)
+
+
+      Die Detailprüfungen betreffen namentlich Bestand und Bewertung. Auf repräsentative Stichproben ist zu verzichten (SER 6.1.3). Bei wesentlichen Posten darf man sich nicht ausschliesslich
+      auf Befragungen stützen; diese sind mit analytischen Prüfungshandlungen und/oder Detailprüfungen zu ergänzen (SER 6.1.1). Die Geschäftsführung des VR ist nicht Prüfungsgegenstand
+      (Art. 729a Abs. 3 OR).'
+    kernpunkte:
+    - nur Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen (Art. 729a Abs. 2 OR)
+    - keine IKS- oder IT-Prüfung, keine Inventurbeobachtung, keine Drittbestätigungen
+    - Detailprüfungen vor allem zu Bestand und Bewertung, keine repräsentativen Stichproben
+    - wesentliche Posten nicht ausschliesslich mit Befragungen prüfen
+    fehler:
+    - Saldobestätigungen und Inventurteilnahme sind wie bei der ordentlichen Revision Pflicht
+    - Die Existenz des IKS muss bestätigt werden (gilt nur für die ordentliche Revision)
+    - Es sind repräsentative Stichproben zu ziehen
+    - Befragungen allein genügen auch für wesentliche Bilanzposten
+    quellen:
+    - chunk: or__art-729a
+      zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+    - chunk: ser-2022__1-5
+      zitat: keine Prüfung des internen Kontrollsystems und der verwendeten IT-Systeme durchgeführt
+    - chunk: ser-2022__1-5
+      zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
+    - chunk: ser-2022__1-5
+      zitat: die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen
+    - chunk: ser-2022__1-5
+      zitat: keine Prüfungen zur Aufdeckung von deliktischen Handlungen und keine Prüfungen zur Aufdeckung von weiteren Gesetzesverstössen (mit Ausnahme der Bestimmungen zur Rechnungslegung
+        und zur Gewinnverwendung) durchgeführt.
+    - chunk: ser-2022__6-1-3
+      zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+    - chunk: ser-2022__6-1-1-t1
+      zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+    - chunk: or__art-729a
+      zitat: Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.
+    - chunk: muster-hwp-er-2026__c017-1
+      zitat: Dagegen sind Prüfungen der betrieblichen Abläufe und des internen Kontrollsystems sowie Befragungen und weitere Prüfungshandlungen zur Aufdeckung deliktischer Handlungen
+        oder anderer Gesetzesverstösse nicht Bestandteil dieser Revision.
+- id: f05
+  kategorie: Bericht (OR 729b)
+  schwierigkeit: mittel
+  frage: Was muss der Bericht der Revisionsstelle zur eingeschränkten Revision zwingend enthalten, wer unterschreibt ihn und welches Datum trägt er?
+  soll:
+    antwort: 'Inhalt nach Art. 729b OR und SER 8.1:
+
+      (1) Hinweis auf die eingeschränkte Natur der Revision: keine ordentliche Revision und kein Prüfungsurteil im Sinne einer ordentlichen Revision.
+
+      (2) Stellungnahme zum Prüfungsergebnis als negative Zusicherung zur Jahresrechnung und zum Antrag über die Verwendung des Bilanzgewinns.
+
+      (3) Angaben zur Unabhängigkeit und gegebenenfalls zur Mitwirkung bei der Buchführung oder zu anderen Dienstleistungen mit Selbstprüfungsrisiko.
+
+      (4) Angaben zur Person, welche die Revision geleitet hat, und zu ihrer Zulassung (Name, Vorname, Art der Zulassung).
+
+      (5) Unterschrift dieser leitenden Person.
+
+      (6) Berichtsdatum.
+
+
+      Das Datum ist der Tag, an dem die Revision beendet wurde, frühestens aber der Tag, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat (SER
+      8.6). Liegt zwischen Beendigung und Berichtsabgabe ein zeitlicher Abstand, trägt der Bericht das Datum der Abgabe; eine Rückdatierung ist nicht zulässig (HWP ER Rz 322). Der Bericht
+      enthält keine Empfehlung, die Jahresrechnung zu genehmigen oder zurückzuweisen (SER 1.2).'
+    kernpunkte:
+    - Hinweis auf die eingeschränkte Natur und Stellungnahme als negative Zusicherung, inkl. Antrag zur Gewinnverwendung
+    - Angaben zur Unabhängigkeit (ggf. Mitwirkung bei der Buchführung) und zur leitenden Person mit Zulassung
+    - Unterschrift der Person, welche die Revision geleitet hat
+    - Datum = Beendigung der Revision, frühestens Unterzeichnung bzw. Genehmigung der Jahresrechnung durch die Unternehmensleitung; keine Rückdatierung
+    fehler:
+    - Empfehlung an die GV, die Jahresrechnung zu genehmigen (gilt nur für die ordentliche Revision)
+    - Positive Zusicherung bzw. Prüfungsurteil wie bei der ordentlichen Revision
+    - Datum des Bilanzstichtags oder der GV
+    - Zusätzlich ein umfassender Bericht an den VR erforderlich
+    quellen:
+    - chunk: or__art-729b
+      zitat: einen Hinweis auf die eingeschränkte Natur der Revision;
+    - chunk: or__art-729b
+      zitat: Angaben zur Unabhängigkeit und gegebenenfalls zum Mitwirken bei der Buchführung und zu anderen Dienstleistungen, die für die zu prüfende Gesellschaft erbracht wurden;
+    - chunk: or__art-729b
+      zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
+    - chunk: ser-2022__8-1
+      zitat: Angaben zur Person, welche die Revision geleitet hat, und zu ihrer Zulassung
+    - chunk: ser-2022__8-2
+      zitat: dass keine ordentliche Revision stattgefunden hat
+    - chunk: ser-2022__8-3-1-t1
+      zitat: Bei der eingeschränkten Revision macht der Abschlussprüfer diese Prüfungsaussage in Form einer negativen Zusicherung.
+    - chunk: ser-2022__8-5
+      zitat: Art der Zulassung des leitenden Revisors;
+    - chunk: ser-2022__8-6
+      zitat: Der Revisionsbericht trägt das Datum, an dem die eingeschränkte Revision beendet wurde.
+    - chunk: ser-2022__8-6
+      zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen
+        hat.
+    - chunk: hwp-er-2026__rz-0322-s256
+      zitat: Besteht zwischen Beendigung der eingeschränkten Revision und Berichtsabgabe ein gewisser zeitlicher Abstand, trägt der Bericht das Datum der Berichtsabgabe (keine Rückdatierung).
+    - chunk: ser-2022__1-2-t1
+      zitat: auch keine Empfehlung, ob die Jahresrechnung mit oder ohne Einschränkung zu genehmigen oder zurückzuweisen sei.
+- id: f06
+  kategorie: Bericht – Modifikationen der Prüfungsaussage
+  schwierigkeit: schwer
+  frage: Der Kunde weigert sich, eine wesentliche Wertberichtigung auf einer gefährdeten Debitorenforderung zu buchen. Das Gesamtbild der Jahresrechnung wird dadurch aber nicht grundlegend
+    verändert. Welche Prüfungsaussage gebe ich ab? Was gälte, wenn das Gesamtbild grundlegend verändert würde, und wann gibt man gar keine Prüfungsaussage ab?
+  soll:
+    antwort: 'Es handelt sich um einen festgestellten Sachverhalt, den der Kunde nicht korrigiert (Meinungsverschiedenheit). Der Sachverhalt ist im Bericht darzulegen, die Auswirkung
+      ist, sofern praktikabel, zu quantifizieren, und es ist eine eingeschränkte Prüfungsaussage abzugeben: «… mit Ausnahme der im vorstehenden Absatz dargelegten Einschränkung …» (SER
+      8.3.1 (b)(i), Anhang F Beispiel 2).
+
+
+      Verändert der festgestellte Sachverhalt das Gesamtbild grundlegend, ist eine verneinende Prüfungsaussage abzugeben: Die Jahresrechnung entspricht nicht Gesetz und Statuten (SER
+      8.3.1 (b)(ii)).
+
+
+      Gar keine Prüfungsaussage (Unmöglichkeit) kommt nur bei einem angenommenen Sachverhalt oder bei einer Beschränkung des Prüfungsumfangs in Frage, und zwar nur, wenn deren mögliche
+      Auswirkung das Gesamtbild grundlegend verändert (SER 8.3.1 (b)(iii) und (c)(ii)). Ist die mögliche Auswirkung nicht grundlegend, ist auch dort die Prüfungsaussage einzuschränken.'
+    kernpunkte:
+    - 'festgestellter Sachverhalt, Gesamtbild nicht grundlegend verändert: eingeschränkte Prüfungsaussage, Sachverhalt darlegen und wenn möglich quantifizieren'
+    - 'festgestellter Sachverhalt, Gesamtbild grundlegend verändert: verneinende Prüfungsaussage'
+    - keine Prüfungsaussage nur bei angenommenem Sachverhalt oder Beschränkung des Prüfungsumfangs mit grundlegender möglicher Auswirkung
+    fehler:
+    - Eine verweigerte Korrektur führt immer zu einer verneinenden Prüfungsaussage
+    - Bei einem festgestellten Sachverhalt wird keine Prüfungsaussage abgegeben
+    - Es genügt ein Zusatz oder Hinweis ohne Modifikation
+    - Empfehlung an die GV, die Jahresrechnung zurückzuweisen
+    quellen:
+    - chunk: ser-2022__5-3
+      zitat: Wird diese Korrektur verweigert, so muss der Abschlussprüfer beurteilen, ob die Jahresrechnung dadurch eine wesentliche Fehlaussage vermittelt. Ist dies der Fall, wird der
+        Abschlussprüfer seine Prüfungsaussage modifizieren.
+    - chunk: ser-2022__8-3-1-t2
+      zitat: so sind diese Sachverhalte im Revisionsbericht darzulegen, sofern der Prüfungskunde die Fehlaussagen nicht korrigiert. Dabei ist – sofern praktikabel – die (mögliche) Auswirkung
+        auf die Jahresrechnung und/oder den Antrag über die Verwendung des Bilanzgewinns zu quantifizieren
+    - chunk: ser-2022__8-3-1-t3
+      zitat: Die Jahresrechnung als Ganzes sowie der Antrag über die Verwendung des Bilanzgewinns können trotz einer eingeschränkten Prüfungsaussage dem schweizerischen Gesetz und den
+        Statuten entsprechen
+    - chunk: ser-2022__8-3-1-t3
+      zitat: Die verneinende Prüfungsaussage ist angebracht, wenn der festgestellte Sachverhalt das von der Jahresrechnung vermittelte Gesamtbild so grundlegend verändert, dass der Abschlussprüfer
+        zum Schluss kommt, mit einer eingeschränkten Prüfungsaussage werde die irreführende oder unvollständige Natur der Jahresrechnung nicht angemessen offengelegt
+    - chunk: ser-2022__8-3-1-t3
+      zitat: gar keine Prüfungsaussage zu machen, falls die mögliche Auswirkung des angenommenen Sachverhalts das von der Jahresrechnung vermittelte Gesamtbild grundlegend verändert
+    - chunk: ser-2022__8-3-1-t4
+      zitat: Wenn eine wesentliche Beschränkung des Prüfungsumfangs der eingeschränkten Revision vorliegt, ist diese zu umschreiben
+    - chunk: ser-2022__anh-f-s115-2
+      zitat: Bei unserer Revision sind wir – mit Ausnahme der im vorstehenden Absatz dargelegten Einschränkung – nicht auf Sachverhalte gestossen
+    - chunk: ser-2022__anh-f-s115-1
+      zitat: Unmöglichkeit einer Prüfungsaussage
+- id: f07
+  kategorie: Anzeigepflicht (OR 729c)
+  schwierigkeit: mittel
+  frage: Bei der eingeschränkten Revision stellen wir fest, dass die Gesellschaft offensichtlich überschuldet ist. Es gibt keinen Rangrücktritt, und der Verwaltungsrat unternimmt nichts.
+    Was muss die Revisionsstelle tun, und hat sie bei der eingeschränkten Revision noch weitere Anzeigepflichten?
+  soll:
+    antwort: 'Die Revisionsstelle geht schrittweise vor:
+
+      1. Sie erinnert den VR an seine Pflichten, namentlich Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten zu erstellen und prüfen zu lassen (SER 9).
+
+      2. Bleibt der VR untätig, mahnt sie ihn unter Ansetzung einer Frist und weist auf ihre eigene, subsidiäre Anzeigepflicht hin (HWP ER Rz 433).
+
+      3. Unterlässt der VR die Anzeige trotz offensichtlicher Überschuldung, benachrichtigt die Revisionsstelle das Gericht (Art. 729c OR).
+
+
+      Im Revisionsbericht ist ein Hinweis auf die Untätigkeit des VR bei Überschuldung in jedem Fall anzubringen (SER 8.3.2.1). Durch Niederlegung des Mandats kann sich die Revisionsstelle
+      dieser Pflicht nicht entziehen (HWP ER Rz 445).
+
+
+      Das ist die einzige direkte gesetzliche Anzeigepflicht bei der eingeschränkten Revision. Weitere Anzeigepflichten bei Verstössen gegen Gesetz, Statuten oder Organisationsreglement
+      bestehen nicht (HWP ER Rz 351, 422).'
+    kernpunkte:
+    - VR an seine Pflichten erinnern (Zwischenabschlüsse) und unter Fristansetzung mit Hinweis auf die subsidiäre Anzeigepflicht mahnen
+    - Gericht benachrichtigen, wenn die Gesellschaft offensichtlich überschuldet ist und der VR die Anzeige unterlässt (Art. 729c OR)
+    - Mandatsniederlegung befreit nicht von der Anzeigepflicht
+    - keine weiteren Anzeigepflichten bei der eingeschränkten Revision (Gesetz, Statuten, Organisationsreglement)
+    fehler:
+    - Mandat niederlegen statt Anzeige ans Gericht
+    - Anzeigepflicht gegenüber VR und GV bei Gesetzes- oder Statutenverstössen wie bei der ordentlichen Revision (Art. 728c OR)
+    - Schon bei einem hälftigen Kapitalverlust muss die Revisionsstelle das Gericht benachrichtigen
+    - Die Revisionsstelle benachrichtigt das Gericht sofort, ohne den VR zuerst zu mahnen
+    quellen:
+    - chunk: or__art-729c
+      zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+    - chunk: ser-2022__9-t3
+      zitat: muss sie den Verwaltungsrat an seine Pflichten – namentlich die Erstellung und Vorlage zur Prüfung eines Zwischenabschlusses zu Fortführungs- und Veräusserungswerten – erinnern.
+    - chunk: ser-2022__9-t3
+      zitat: Die diesbezügliche Anzeigepflicht beschränkt sich auf die Benachrichtigung des Richters, wenn dies der Verwaltungsrat trotz offensichtlicher Überschuldung unterlässt.
+    - chunk: hwp-er-2026__rz-0433-s127
+      zitat: hat ihn die Revisionsstelle unter Ansetzung einer Frist und mit Hinweis auf ihre eigene, subsidiäre Anzeigepﬂicht an seine Aufgabe zu mahnen.
+    - chunk: ser-2022__8-3-2-t1
+      zitat: Bleibt der Verwaltungsrat untätig, beachtet die Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR.
+    - chunk: hwp-er-2026__rz-0445-s130
+      zitat: Weder kann die Revisionsstelle, die den Gang zum Gericht scheut, der Anzeigepﬂicht durch Mandatsniederlegung entgehen
+    - chunk: hwp-er-2026__rz-0351-s262
+      zitat: Eine weitergehende Pflicht, Verstösse gegen Gesetz und Statuten anzuzeigen, sieht das Gesetz bei der eingeschränkten Revision nicht vor.
+    - chunk: hwp-er-2026__rz-0422-s279-t1
+      zitat: Weitere Anzeigepflichten, wie z.B. bei Verstössen gegen das Gesetz, die Statuten oder das Organisationsreglement, bestehen bei der eingeschränkten Revision nicht.
+- id: f08
+  kategorie: Wesentlichkeit – Bezugsgrössen
+  schwierigkeit: mittel
+  frage: Ich plane die eingeschränkte Revision einer gewinnorientierten Handels-GmbH, die dieses Jahr einen Verlust schreibt; das Eigenkapital beträgt CHF 1,2 Mio. Welche Bezugsgrösse
+    und welchen Prozentsatz nehme ich für die Gesamtwesentlichkeit? Und welcher Richtwert gilt bei einem stabil profitablen Unternehmen?
+  soll:
+    antwort: 'Bei einem gewinnorientierten Unternehmen in einer Verlustsituation ist die Bezugsgrösse das Eigenkapital, mit einem Richtwert von 3 % bis 5 %. Das ergibt hier CHF 36''000
+      bis CHF 60''000 (HWP ER Rz 42, Abb. 20).
+
+
+      Bei einem stabil profitablen Unternehmen gelten 3 % bis 10 % des bereinigten Jahresgewinns vor Steuern, also nach Berücksichtigung stiller Reserven; Durchschnittswerte sind möglich.
+      Ist das Ergebnis gesteuert, geht man vom effektiven Ergebnis aus (SER 5.2).
+
+
+      Weitere Richtwerte:
+
+      - anlageintensive Unternehmen bzw. Holdings: 1 % bis 3 % der Bilanzsumme
+
+      - volatile Ergebnisse: 1 % bis 3 % der Nettoerlöse
+
+      - nicht gewinnorientierte Unternehmen: 1 % bis 3 % der Gesamtaufwendungen
+
+      - Start-ups: 2 % bis 5 % der operativen Aufwendungen
+
+
+      Es sind Richtwerte zur Unterstützung des professionellen Ermessens (Rz 43). Bei drohender Illiquidität oder Überschuldung kann eine tiefere Wesentlichkeit angezeigt sein (SER 5.2).'
+    kernpunkte:
+    - 'Verlustsituation: Eigenkapital, 3 % bis 5 %, hier CHF 36''000 bis 60''000'
+    - 'stabil profitabel: 3 % bis 10 % des bereinigten Jahresgewinns vor Steuern (stille Reserven berücksichtigen)'
+    - Richtwerte für das Ermessen; tiefere Wesentlichkeit bei drohender Illiquidität oder Überschuldung
+    fehler:
+    - Auch bei Verlust einen Prozentsatz des (negativen) Ergebnisses verwenden
+    - Standardmässig 1 % bis 3 % der Bilanzsumme für jedes KMU
+    - Ausgewiesenes Ergebnis ohne Bereinigung um stille Reserven
+    - Die Prozentsätze als verbindliche Vorgaben statt Richtwerte darstellen
+    quellen:
+    - chunk: hwp-er-2026__rz-0042-s185-t1
+      zitat: Bestimmung der Gesamtwesentlichkeit aufgrund eines angemessenen Prozentsatzes des Eigenkapitals
+    - chunk: hwp-er-2026__rz-0042-s185-t1
+      zitat: 3 % – 5 % des Eigenkapitals
+    - chunk: hwp-er-2026__rz-0042-s185-t1
+      zitat: 3 % – 10 % des bereinigten Jahresgewinns vor Steuern
+    - chunk: hwp-er-2026__rz-0042-s185-t1
+      zitat: 1 % – 3 % der Bilanzsumme
+    - chunk: hwp-er-2026__rz-0042-s185-t1
+      zitat: 1 % – 3 % der Nettoerlöse aus Lieferungen und Leistungen (Umsätze)
+    - chunk: hwp-er-2026__rz-0042-s185-t2
+      zitat: 2 % – 5 % der operativen Aufwendungen
+    - chunk: hwp-er-2026__rz-0043-s186
+      zitat: Bei den angegebenen Prozentsätzen handelt es sich um Richtwerte.
+    - chunk: ser-2022__5-2-t1
+      zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+    - chunk: ser-2022__5-2-t1
+      zitat: So kann beispielsweise in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein.
+- id: f09
+  kategorie: Wesentlichkeit – Toleranzwesentlichkeit und Nichtaufgriffsgrenze
+  schwierigkeit: mittel
+  frage: Ich habe die Gesamtwesentlichkeit auf CHF 80'000 festgelegt. In welcher Bandbreite liegt die Toleranzwesentlichkeit, wie hoch darf die Nichtaufgriffsgrenze sein, und wozu dienen
+    die beiden Grössen?
+  soll:
+    antwort: 'Die Toleranzwesentlichkeit beträgt in der Regel 50 % bis 75 % der Gesamtwesentlichkeit, hier also CHF 40''000 bis 60''000 (HWP ER Rz 50). Sie liegt unter der Gesamtwesentlichkeit,
+      um dem Aggregationsrisiko Rechnung zu tragen: Einzeln unwesentliche Fehlaussagen können kumuliert wesentlich sein (SER 5.2, HWP ER Rz 49). Sie dient dazu, die Risiken auf Aussagenebene
+      zu beurteilen und Art, Zeitpunkt und Umfang der Prüfungshandlungen festzulegen.
+
+
+      Die Nichtaufgriffsgrenze kann bis zu 5 % der Gesamtwesentlichkeit betragen, hier also höchstens CHF 4''000 (Rz 51). Fehlaussagen darunter müssen nicht in die Zusammenstellung der
+      Fehlaussagen aufgenommen werden. Fehlaussagen über der Grenze werden erfasst, kumuliert und laufend auf Wesentlichkeit beurteilt (Rz 53, SER 5.3).
+
+
+      Im HWP-Beispiel (in TCHF): Gesamtwesentlichkeit 67, Toleranzwesentlichkeit 60 % = 40, Nichtaufgriffsgrenze 5 % = 3.'
+    kernpunkte:
+    - Toleranzwesentlichkeit in der Regel 50 % bis 75 % der Gesamtwesentlichkeit, hier CHF 40'000 bis 60'000
+    - Nichtaufgriffsgrenze bis 5 % der Gesamtwesentlichkeit, hier höchstens CHF 4'000
+    - Toleranzwesentlichkeit wegen Aggregationsrisiko; Fehlaussagen über der Nichtaufgriffsgrenze werden erfasst und kumuliert beurteilt
+    fehler:
+    - Toleranzwesentlichkeit = 10 % der Gesamtwesentlichkeit
+    - Nichtaufgriffsgrenze = 10 % der Gesamtwesentlichkeit oder 5 % des Gewinns
+    - Toleranzwesentlichkeit über der Gesamtwesentlichkeit
+    - Fehlaussagen unter der Toleranzwesentlichkeit müssen nicht erfasst werden
+    quellen:
+    - chunk: hwp-er-2026__rz-0050-s187
+      zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit.
+    - chunk: hwp-er-2026__rz-0049-s187
+      zitat: legt der Abschlussprüfer eine Toleranzwesentlichkeit fest, welche unterhalb der Gesamtwesentlichkeit zu liegen hat.
+    - chunk: ser-2022__5-2-t2
+      zitat: Um diesem sogenannten Aggregationsrisiko Rechnung zu tragen, legt der Abschlussprüfer eine entsprechend tiefere Toleranzwesentlichkeit fest.
+    - chunk: hwp-er-2026__rz-0051-s187
+      zitat: Dieser wird als Nichtaufgriffsgrenze (NAG) bezeichnet.
+    - chunk: hwp-er-2026__rz-0051-s187
+      zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+    - chunk: hwp-er-2026__rz-0053-s189
+      zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert und laufend dahingehend beurteilt, ob sie
+        zu einer wesentlichen Fehlaussage führen.
+    - chunk: hwp-er-2026__rz-0052-s188-t2
+      zitat: Die Toleranzwesentlichkeit wird auf 60 % der Gesamtwesentlichkeit festgelegt.
+    - chunk: ser-2022__5-3
+      zitat: mit Ausnahme jener, die derart gering sind, dass auch ihre Summe voraussichtlich unwesentlich sein wird (Nichtaufgriffsgrenze).
+- id: f10
+  kategorie: Vollständigkeitserklärung
+  schwierigkeit: mittel
+  frage: Wer muss die Vollständigkeitserklärung unterzeichnen, welches Datum trägt sie, und was passiert, wenn der Verwaltungsrat sich weigert, sie abzugeben?
+  soll:
+    antwort: 'Mit der Vollständigkeitserklärung bestätigt die Unternehmensleitung schriftlich, dass die Jahresrechnung vollständig ist und die erteilten Auskünfte und Unterlagen richtig
+      und vollständig sind (SER 6.2.5).
+
+
+      Unterzeichnet wird sie in der Regel von denselben Personen wie die Jahresrechnung: vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und von der für die Rechnungslegung
+      zuständigen Person (Art. 958 Abs. 3 OR; HWP ER Rz 339).
+
+
+      Ihr Datum entspricht im Regelfall dem Datum des Revisionsberichts. Sie ist auf dieses Datum hin zusammen mit der Jahresrechnung rechtsgültig zu unterzeichnen und sollte vor Abgabe
+      des Berichts bei der Revisionsstelle sein. Sie ist für jede Abschlussprüfung einzufordern (Rz 340, 448).
+
+
+      Eine Weigerung ist eine Beschränkung des Prüfungsumfangs. Die Prüfungsaussage ist dann einzuschränken, sofern überhaupt eine abgegeben werden kann (Rz 341). Je eine unterzeichnete
+      Jahresrechnung und Vollständigkeitserklärung gehören in die Jahresakten (SER 7.2).'
+    kernpunkte:
+    - Unterzeichnung in der Regel durch dieselben Personen wie die Jahresrechnung (Vorsitz VR und für Rechnungslegung zuständige Person)
+    - Datum = Datum des Revisionsberichts; liegt vor Berichtsabgabe vor; für jede Prüfung einzufordern
+    - 'Weigerung = Beschränkung des Prüfungsumfangs: eingeschränkte Prüfungsaussage oder gar keine Prüfungsaussage'
+    fehler:
+    - Die Vollständigkeitserklärung ist bei der eingeschränkten Revision freiwillig
+    - Datum = Bilanzstichtag
+    - Eine Weigerung führt zu einer verneinenden Prüfungsaussage
+    - Die Revisionsstelle unterzeichnet die Vollständigkeitserklärung
+    quellen:
+    - chunk: ser-2022__6-2-5
+      zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung sowie die Richtigkeit und Vollständigkeit der erteilten Auskünfte und der zur
+        Verfügung gestellten Unterlagen schriftlich.
+    - chunk: hwp-er-2026__rz-0339-s259
+      zitat: vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person unterzeichnet werden muss.
+    - chunk: hwp-er-2026__rz-0339-s259
+      zitat: Die Jahresrechnung und die Vollständigkeitserklärung werden in der Regel von denselben Personen unterzeichnet.
+    - chunk: hwp-er-2026__rz-0340-s259
+      zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+    - chunk: hwp-er-2026__rz-0340-s259
+      zitat: Die rechtsgültig unterzeichnete Vollständigkeitserklärung sollte sich zudem in der Regel vor Abgabe des Revisionsberichts in den Händen der Revisionsstelle befinden. Eine
+        Vollständigkeitserklärung ist für jede Abschlussprüfung einzufordern.
+    - chunk: hwp-er-2026__rz-0448-s287
+      zitat: Auch die Vollständigkeitserklärung ist auf dieses Datum hin zusammen mit der Jahresrechnung rechtsgültig zu unterzeichnen.
+    - chunk: hwp-er-2026__rz-0341-s260
+      zitat: Eine Weigerung der Unternehmensleitung, eine nach Auffassung des Abschlussprüfers notwendige Erklärung abzugeben, führt zu einer Beschränkung des Prüfungsumfangs. Der Abschlussprüfer
+        muss die Prüfungsaussage somit einschränken, sofern eine Prüfungsaussage überhaupt abgegeben werden kann.
+    - chunk: ser-2022__7-2
+      zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+- id: f11
+  kategorie: Ereignisse nach dem Bilanzstichtag
+  schwierigkeit: mittel
+  frage: Der Bilanzstichtag ist der 31.12.2025, unser Bericht soll im März 2026 datiert werden. Im Februar 2026 ging ein Grosskunde in Konkurs, der schon per 31.12.2025 zahlungsunfähig
+    war. Im März 2026 ist zudem ein Lager abgebrannt. Wie behandle ich solche Ereignisse bei der eingeschränkten Revision, und was gilt, wenn ich erst nach dem Berichtsdatum von etwas
+    erfahre?
+  soll:
+    antwort: 'Man unterscheidet zwei Arten von Ereignissen (HWP ER Rz 317):
+
+      - Ereignisse, die Nachweise für Umstände liefern, die schon am Bilanzstichtag vorlagen, sind berücksichtigungspflichtig. Hier die Zahlungsunfähigkeit des Kunden per 31.12.: Sie
+      ist im Abschluss 2025 zu berücksichtigen, z.B. bei der Bewertung der Forderung.
+
+      - Ereignisse zu Umständen, die erst nach dem Stichtag entstanden sind, werden nicht in den Abschlusswerten berücksichtigt. Hier der Brand im März. Ist ein solches Ereignis wesentlich,
+      ist es im Anhang anzugeben (Art. 959c Abs. 2 Ziff. 13 OR).
+
+      Verantwortlich für die Berücksichtigung ist die Unternehmensleitung.
+
+
+      Prüfungshandlungen bei der eingeschränkten Revision: Befragung der Unternehmensleitung, beschränkt auf bedeutende schwebende Geschäfte und Sachverhalte mit Verlustrisiko, möglichst
+      nahe am Berichtsdatum (Rz 318, 321). In der Vollständigkeitserklärung bestätigt die Unternehmensleitung, dass sie alle relevanten Ereignisse nach dem Bilanzstichtag mitgeteilt
+      hat (Rz 323).
+
+
+      Nach dem Berichtsdatum muss die Revisionsstelle keine weiteren Prüfungshandlungen vornehmen. Wird ihr vor Herausgabe des Abschlusses eine relevante Tatsache bekannt, erörtert sie
+      diese mit der Unternehmensleitung und legt fest, ob der Abschluss zu ändern ist. Bei einer Änderung erstellt sie einen neuen Bericht, der nicht vor der Genehmigung des geänderten
+      Abschlusses datiert ist. Ändert die Unternehmensleitung den Abschluss nicht, modifiziert die Revisionsstelle die Prüfungsaussage, sofern der Bericht noch nicht zugestellt ist (Rz
+      324–326).'
+    kernpunkte:
+    - berücksichtigungspflichtig sind Ereignisse zu Umständen, die schon am Bilanzstichtag bestanden (Konkurs-Fall); nicht zu berücksichtigen sind Ereignisse zu Umständen, die erst danach
+      entstanden (Brand; ggf. Anhangangabe)
+    - bei der eingeschränkten Revision Befragung der Unternehmensleitung möglichst nahe am Berichtsdatum, Bestätigung in der Vollständigkeitserklärung
+    - nach dem Berichtsdatum keine Prüfpflicht; bei bekannt gewordenen Tatsachen erörtern, ggf. neuer Bericht ohne Rückdatierung bzw. Modifikation
+    fehler:
+    - Beide Ereignisse sind im Abschluss 2025 bilanziell zu erfassen
+    - Ereignisse nach dem Bilanzstichtag sind bei der eingeschränkten Revision nicht zu beachten
+    - Die Revisionsstelle muss bis zur GV laufend weitere Prüfungshandlungen vornehmen
+    - Der korrigierte Bericht darf auf das ursprüngliche Berichtsdatum zurückdatiert werden
+    quellen:
+    - chunk: hwp-er-2026__rz-0317-s254
+      zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
+    - chunk: hwp-er-2026__rz-0317-s254
+      zitat: Ereignisse, die Nachweise für Umstände liefern, die sich nach dem Bilanzstichtag ergeben haben (nicht zu berücksichtigende Ereignisse).
+    - chunk: hwp-er-2026__rz-0317-s254
+      zitat: Die Unternehmensleitung trägt dabei die Verantwortung, solche Ereignisse nach dem Bilanzstichtag im Abschluss entsprechend zu berücksichtigen.
+    - chunk: or__art-959c-t2
+      zitat: wesentliche Ereignisse nach dem Bilanzstichtag;
+    - chunk: hwp-er-2026__rz-0318-s254
+      zitat: Dabei wird sich der Abschlussprüfer bei der eingeschränkten Revision auf die Befragung zu bedeutenden schwebenden Geschäften und anderen Sachverhalten, die vor dem Bilanz
+        stichtag liegen und ein Verlustrisiko beinhalten, beschränken.
+    - chunk: hwp-er-2026__rz-0321-s255-t1
+      zitat: Die Prüfungshandlungen mit Bezug auf Ereignisse nach dem Bilanzstichtag werden üblicherweise so nahe wie praktisch möglich am Datum des Revisionsberichts durch geführt.
+    - chunk: hwp-er-2026__rz-0323-s256
+      zitat: dass diese ihm alle relevanten Ereignisse, die nach dem Bilanzstichtag eingetreten sind und Auswirkungen auf den Abschluss haben oder haben könnten, mitteilt.
+    - chunk: hwp-er-2026__rz-0324-s256
+      zitat: Der Abschlussprüfer ist nicht verpflichtet, für den Zeitraum nach dem Datum der Be endigung der eingeschränkten Revision Prüfungshandlungen zur Identifikation von berücksichtigungspflichtigen
+        Ereignissen vorzunehmen.
+    - chunk: hwp-er-2026__rz-0325-s256
+      zitat: Die Datierung des Revisionsberichts darf dabei nicht vor dem Datum der Genehmigung des geänderten Abschlusses liegen
+    - chunk: hwp-er-2026__rz-0326-s256
+      zitat: Ist der Abschlussprüfer indes überzeugt, dass der Abschluss geändert werden muss, und unterlässt dies die Unternehmensleitung, modifiziert der Abschlussprüfer seine Prüfungsaussage
+        (sofern dem Unternehmen noch nicht zugestellt).
+- id: f12
+  kategorie: Gesetzesverstösse mit zwingendem Hinweis / Zusätze
+  schwierigkeit: schwer
+  frage: 'Die geprüfte Jahresrechnung einer AG ist korrekt, zeigt aber einen hälftigen Kapitalverlust nach Art. 725a OR. Der Verwaltungsrat hatte genug Zeit, hat aber keine Massnahmen
+    ergriffen. Wie berichte ich darüber im Bericht zur eingeschränkten Revision: mit einem Zusatz, einem Hinweis oder einer Einschränkung?'
+  soll:
+    antwort: 'Die Prüfungsaussage bleibt nicht modifiziert, weil die Jahresrechnung korrekt ist. Es braucht zwei Elemente:
+
+      - Zusatz zum Kapitalverlust selbst: «Wir machen darauf aufmerksam, dass die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve
+      und gesetzlicher Gewinnreserve nicht mehr gedeckt ist (Art. 725a Abs. 1 OR).» Der Kapitalverlust als Zustand ist kein Gesetzesverstoss, aber eine wichtige Information für den Bilanzleser
+      und daher als Zusatz aufzunehmen (HWP ER Rz 447; SER 8.3.2.2; ebenso Camponovo).
+
+      - Hinweis zur Untätigkeit des VR: Sie ist ein Gesetzesverstoss ausserhalb des Prüfungsgegenstands, und der Hinweis ist in jedem Fall anzubringen (SER 8.3.2.1; HWP ER Rz 423, Abb.
+      49: zwingend): «Ferner weisen wir darauf hin, dass es der Verwaltungsrat unterlassen hat, Massnahmen zur Beseitigung des Kapitalverlusts zu ergreifen …» (Muster HWP ER, das ebenfalls
+      voraussetzt, dass der VR zeitlich bereits Gelegenheit zum Handeln hatte).
+
+
+      Zusätze und Hinweise beeinflussen die Prüfungsaussage nicht. Die Reihenfolge ist: Prüfungsaussage, dann Zusatz, dann Hinweis (SER 8.3.2).
+
+
+      Andere Gesetzesverstösse (z.B. Art. 659, 678, 680, 699 OR) sind nur hinweispflichtig, wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung haben und aufgrund der durchgeführten
+      Prüfungshandlungen festgestellt wurden. Für Verstösse gegen das Organisationsreglement besteht keine Hinweispflicht.'
+    kernpunkte:
+    - nicht modifizierte Prüfungsaussage, keine Einschränkung
+    - Kapitalverlust als Zusatz (der Zustand selbst ist kein Gesetzesverstoss; Zusatz nach HWP ER Rz 447 aufzunehmen)
+    - 'Untätigkeit des VR bei hälftigem Kapitalverlust: Hinweis in jedem Fall anzubringen (SER 8.3.2.1)'
+    - 'Reihenfolge: Prüfungsaussage, Zusatz, Hinweis; beide ohne Einfluss auf die Prüfungsaussage'
+    fehler:
+    - Eingeschränkte Prüfungsaussage wegen des Kapitalverlusts
+    - Hinweis nur, wenn wesentlich und mit direktem Bezug zur Jahresrechnung (Verwechslung mit den übrigen Gesetzesverstössen)
+    - Anzeige ans Gericht nach Art. 729c OR (gilt nur bei offensichtlicher Überschuldung)
+    - Kein Hinweis, weil die Geschäftsführung des VR nicht Prüfungsgegenstand ist
+    quellen:
+    - chunk: or__art-725a
+      zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts.
+    - chunk: ser-2022__8-3-2-t1
+      zitat: Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands im Zusammenhang mit der Untätigkeit des Verwaltungsrates bei Vorliegen eines hälftigen Kapitalverlusts
+        (Art. 725a OR) oder einer Überschuldung (Art. 725b OR) sind in jedem Fall im Revisionsbericht anzubringen.
+    - chunk: ser-2022__8-3-2-t1
+      zitat: Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands haben keinen Einfluss auf die Prüfungsaussage im Revisionsbericht; sie werden daher im Berichtstext nach
+        der Prüfungsaussage und ggf. nach einem Zusatz mit weiteren Informationen angebracht.
+    - chunk: ser-2022__8-3-2-t3
+      zitat: das Vorliegen eines Kapitalverlusts oder einer Überschuldung;
+    - chunk: ser-2022__8-3-2-t3
+      zitat: Zusätze mit weiteren Informationen haben keinen Einfluss auf die Prüfungsaussage im Revisionsbericht; sie werden daher im Berichtstext nach der Prüfungsaussage und ggf.
+        vor einem Hinweis auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands angebracht.
+    - chunk: muster-hwp-er-2026__c050-2
+      zitat: Wir machen darauf aufmerksam, dass die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
+        nicht mehr gedeckt ist (Art. 725a Abs. 1 OR).
+    - chunk: muster-hwp-er-2026__c050-2
+      zitat: Ferner weisen wir darauf hin, dass es der Verwaltungsrat unterlassen hat, Massnahmen zur Beseitigung des Kapitalverlusts zu ergreifen
+    - chunk: muster-hwp-er-2026__c050-2
+      zitat: Annahme ist, dass der Verwaltungsrat vom Zeitablauf her bereits Gelegenheit hatte, seinen Pflichten nach Art. 725a Abs. 1 OR nachzukommen, und deshalb ein Gesetzesverstoss
+        vorliegt
+    - chunk: camponovo-2026-hinweispflichten__s117-1
+      zitat: Zustand des hälftigen Kapitalverlustes ist (und war) kein Gesetzesverstoss
+    - chunk: camponovo-2026-hinweispflichten__s117-1
+      zitat: Will die Revisionsstelle 725a erwähnen, ist das ein Zusatz, kein Hinweis
+    - chunk: ser-2022__8-3-2-t1
+      zitat: sind in der eingeschränkten Revision im Revisionsbericht ggf. dann anzubringen, wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung aufweisen und aufgrund
+        der durchgeführten Prüfungshandlungen (z. B. aus der Befragung) festgestellt wurden.
+    - chunk: ser-2022__8-3-2-t2
+      zitat: Für Verstösse gegen die Statuten besteht eine Hinweispflicht nur dann, wenn diese im Zusammenhang mit dem Prüfungsgegenstand stehen. Für Verstösse gegen das Organisationsreglement
+        besteht keine Hinweispflicht.
+  pruefung: 'korrigiert: Alle 13 Zitate sind bestätigt, und das Ergebnis stimmt mit dem Muster HWP ER «Nicht modifizierte Prüfungsaussage – Hinweis auf Untätigkeit des VR bei Art. 725a
+    Abs. 1 OR» überein: Zusatz plus Hinweis, keine Einschränkung. Das Problem liegt bei den Belegen. Die Aussage «Es braucht zwei Elemente», als'
+- id: f13
+  kategorie: Dokumentation / Aufbewahrung (OR 730c)
+  schwierigkeit: leicht
+  frage: Wie lange müssen wir die Arbeitspapiere einer eingeschränkten Revision aufbewahren, ab wann läuft die Frist, dürfen wir sie nur elektronisch aufbewahren, und was muss in den
+    Jahresakten mindestens dokumentiert sein?
+  soll:
+    antwort: 'Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren und die Revisionsberichte sowie alle wesentlichen Unterlagen mindestens 10 Jahre aufbewahren
+      (Art. 730c Abs. 1 OR). Die Frist läuft regelmässig ab dem Berichtsdatum (HWP ER Rz 288). Elektronische Aufbewahrung ist zulässig, wenn die Daten während der ganzen Frist wieder
+      lesbar gemacht und nachträgliche Änderungen festgestellt werden können. Die Pflicht gilt auch nach Ende des Mandats (Rz 186). Die Unterlagen müssen eine effiziente Prüfung erlauben,
+      ob die gesetzlichen Vorschriften eingehalten wurden (Art. 730c Abs. 2 OR).
+
+
+      In die Jahresakten gehören (SER 7.2):
+
+      - Überlegungen zur Unabhängigkeit
+
+      - Verständnis des Unternehmens
+
+      - Wesentlichkeitsüberlegungen
+
+      - Ergebnisse der analytischen Prüfungshandlungen aus der Planung
+
+      - inhärentes Risiko und Prüfungsplan
+
+      - Prüfungsprogramm
+
+      - Fehlaussagen und ihre Behandlung
+
+      - Prüfungsnachweise und ihre Beurteilung
+
+      - je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung
+
+
+      Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors bzw. des Mandatsleiters zu versehen (SER 7.1).'
+    kernpunkte:
+    - mindestens 10 Jahre (Art. 730c OR), gerechnet ab Berichtsdatum
+    - elektronische Aufbewahrung zulässig, wenn Lesbarkeit und Feststellbarkeit von Änderungen gesichert sind; Pflicht gilt über das Mandatsende hinaus
+    - Mindestinhalt der Jahresakten (Unabhängigkeit, Wesentlichkeit, Risiko und Prüfungsplan, Programm, Fehlaussagen, Nachweise) sowie unterzeichnete Jahresrechnung und Vollständigkeitserklärung
+    fehler:
+    - 7 Jahre Aufbewahrung
+    - Nur der Revisionsbericht muss aufbewahrt werden
+    - Elektronische Aufbewahrung ist unzulässig
+    - Die Aufbewahrungspflicht endet mit dem Mandat
+    quellen:
+    - chunk: or__art-730c
+      zitat: Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren und Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren.
+        Elektronische Daten müssen während der gleichen Zeitperiode wieder lesbar gemacht werden können.
+    - chunk: or__art-730c
+      zitat: Die Unterlagen müssen es ermöglichen, die Einhaltung der gesetzlichen Vorschriften in effizienter Weise zu prüfen.
+    - chunk: hwp-er-2026__rz-0288-s248
+      zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+    - chunk: hwp-er-2026__rz-0288-s248
+      zitat: Dabei muss jedoch sichergestellt werden, dass für die Dauer der gesetzlichen Aufbewahrungspflicht nachträgliche Änderungen festgestellt und die Daten wieder lesbar gemacht
+        werden können
+    - chunk: hwp-er-2026__rz-0186-s072
+      zitat: Die Pflicht zur Aufbewahrung gilt auch über eine allfällige Beendigung des Mandats hinaus.
+    - chunk: ser-2022__7-1
+      zitat: Zu dokumentieren sind insbesondere die Planung und die Durchführung der Prüfungsarbeiten. Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors oder
+        derjenigen Person zu versehen, die das Revisionsmandat leitet.
+    - chunk: ser-2022__7-2
+      zitat: Überlegungen zur Unabhängigkeit;
+    - chunk: ser-2022__7-2
+      zitat: Wesentlichkeitsüberlegungen;
+    - chunk: ser-2022__7-2
+      zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+- id: f14
+  kategorie: Gewinnverwendungsantrag
+  schwierigkeit: mittel
+  frage: Der Verwaltungsrat einer AG, deren gesetzliche Reserven die Schwelle von Art. 672 Abs. 2 OR noch nicht erreicht haben, beantragt bei einem Gewinnvortrag von CHF 32'000 und einem
+    Jahresgewinn von CHF 7'000 eine Dividende von CHF 17'000. Wie viel muss mindestens der gesetzlichen Gewinnreserve zugewiesen werden, was prüft die Revisionsstelle beim Antrag, und
+    wie wird darüber berichtet?
+  soll:
+    antwort: 'Zuzuweisen sind 5 % des Jahresgewinns, also CHF 350 (Art. 672 Abs. 1 OR). Das gilt, bis die gesetzliche Gewinnreserve zusammen mit der gesetzlichen Kapitalreserve die Hälfte
+      des Aktienkapitals erreicht (bei Holdings 20 %). Ein allfälliger Verlustvortrag wäre vor der Zuweisung zu beseitigen. Dividenden dürfen nur aus dem Bilanzgewinn oder aus hierfür
+      gebildeten Reserven ausgerichtet werden, und erst nach den Reservezuweisungen (Art. 675 OR).
+
+
+      Rechnung: verfügbarer Bilanzgewinn CHF 39''000 − 350 − 17''000 = Vortrag CHF 21''650 (HWP ER Rz 215).
+
+
+      Die Revisionsstelle prüft, ob der Antrag Gesetz und Statuten entspricht (Art. 729a Abs. 1 Ziff. 2 OR), insbesondere:
+
+      - ob die Reservezuweisung richtig ist
+
+      - ob genügend flüssige Mittel für die Dividende vorhanden sind
+
+      - ob keine Statutenbestimmungen entgegenstehen
+
+      - ob kein Verstoss gegen Kapitalschutzvorschriften vorliegt, z.B. Art. 680 Abs. 2 OR (Rz 216, 439)
+
+
+      Bericht: Die Stellungnahme zum Antrag erfolgt zusammen mit der Prüfungsaussage, z.B. «… dass die Jahresrechnung sowie der Antrag über die Verwendung des Bilanzgewinns nicht dem
+      schweizerischen Gesetz und den Statuten entsprechen». Weitere Fälle:
+
+      - Ist die Dividende wegen der Liquiditätslage nicht vertretbar: Hinweis auf einen Verstoss gegen die Sorgfaltspflicht (Art. 717 Abs. 1 OR) gemäss Muster.
+
+      - Entspricht der Antrag in wesentlichem Ausmass nicht Gesetz oder Statuten: verneinende Prüfungsaussage (SER 8.3.1).
+
+      - Liegt kein Bilanzgewinn vor und werden keine Ausschüttungen aus anderen Reserven beantragt: Die Bestätigung zum Antrag entfällt.'
+    kernpunkte:
+    - Zuweisung 5 % des Jahresgewinns = CHF 350, bis die Reserven 50 % des Aktienkapitals erreichen (Holding 20 %)
+    - Dividende erst nach der Reservezuweisung und nur aus Bilanzgewinn bzw. Reserven; Vortrag CHF 21'650
+    - Revisionsstelle prüft Gesetzes- und Statutenkonformität des Antrags inkl. Reservezuweisung, Liquidität und Kapitalschutz (Art. 729a Abs. 1 Ziff. 2 OR)
+    - Stellungnahme zum Antrag im Revisionsbericht zusammen mit der Prüfungsaussage
+    fehler:
+    - 5 % des verfügbaren Bilanzgewinns (CHF 1'950) statt des Jahresgewinns
+    - Zusätzliche Zuweisung von 10 % der Dividende (aufgehobenes Recht)
+    - Der Gewinnverwendungsantrag ist bei der eingeschränkten Revision nicht Prüfungsgegenstand
+    - Die Reservezuweisung kann nach der Dividende erfolgen
+    quellen:
+    - chunk: or__art-672
+      zitat: Der gesetzlichen Gewinnreserve sind 5 Prozent des Jahresgewinns zuzuweisen. Liegt ein Verlustvortrag vor, so ist dieser vor der Zuweisung an die Reserve zu beseitigen.
+    - chunk: or__art-672
+      zitat: Die gesetzliche Gewinnreserve ist zu äufnen, bis sie zusammen mit der gesetzlichen Kapitalreserve die Hälfte des im Handelsregister eingetragenen Aktienkapitals erreicht.
+    - chunk: or__art-675
+      zitat: Dividenden dürfen nur aus dem Bilanzgewinn und aus hierfür gebildeten Reserven ausgerichtet werden.
+    - chunk: or__art-675
+      zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
+    - chunk: hwp-er-2026__rz-0215-s233
+      zitat: Bilanzgewinn zum Vortrag auf neue Rechnung
+    - chunk: hwp-er-2026__rz-0216-s233
+      zitat: es hat eine Zuweisung zur gesetzlichen Gewinnreserve bis zur definierten Schwelle von 50 % (bei Holdinggesellschaften 20 %) des im Handelsregister eingetragenen Aktienkapitals
+        zu erfolgen.
+    - chunk: hwp-er-2026__rz-0216-s233
+      zitat: Es liegt kein Verstoss gegen Kapitalschutzvorschriften, z.B. Art. 680 Abs. 2 OR (Verbot der Einlagenrückgewähr) vor.
+    - chunk: or__art-729a
+      zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht.
+    - chunk: hwp-er-2026__rz-0439-s284
+      zitat: Insbesondere ist zu prüfen, ob die Zuweisungen an die gesetzliche Gewinnreserve richtig erfolgen
+    - chunk: hwp-er-2026__rz-0440-s284
+      zitat: Die entsprechende Berichterstattung erfolgt im vierten Abschnitt des Berichts zusammen mit der Prüfungsaussage.
+    - chunk: muster-hwp-er-2026__c017-2
+      zitat: Bei unserer Revision sind wir nicht auf Sachverhalte gestossen, aus denen wir schliessen müssten, dass die Jahresrechnung sowie der Antrag über die Verwendung des Bilanzgewinns
+        nicht dem schweizerischen Gesetz und den Statuten entsprechen.
+    - chunk: muster-hwp-er-2026__c053-2
+      zitat: Diese Ausschüttung ist aufgrund der aktuellen Liquiditätslage der … AG nicht vertretbar. Der Antrag verstösst deshalb gegen die Sorgfaltspflicht (Art. 717 Abs. 1 OR).
+    - chunk: ser-2022__8-3-1-t3
+      zitat: oder der Antrag über die Verwendung des Bilanzgewinns entspricht in einem wesentlichen Ausmass nicht den gesetzlichen und/oder statutarischen Bestimmungen zur Verwendung
+        des Bilanzgewinns (vgl. Beispiel 8, Anhang F)
+    - chunk: muster-hwp-er-2026__c001-3
+      zitat: Die Bestätigung zum Antrag über die Verwendung des Bilanzgewinns entfällt, wenn kein Bilanzgewinn vorliegt
+- id: f15
+  kategorie: Kapitalschutz / Kapitalverlust
+  schwierigkeit: schwer
+  frage: 'Opting-out-AG (keine Holding), Jahresrechnung 2025: Aktienkapital 100''000, gesetzliche Kapitalreserve (Agio) 120''000, gesetzliche Gewinnreserve 10''000, eigene Aktien −20''000,
+    Verlustvortrag −30''000, Jahresverlust 2025 −100''000. Haben wir einen Kapitalverlust nach Art. 725a OR? Und wie sieht es aus, wenn der Jahresverlust 110''000 beträgt? Was muss der
+    VR dann tun?'
+  soll:
+    antwort: 'Bilanzielles EK = 100''000 + 120''000 + 10''000 − 20''000 − 30''000 − 100''000 = 80''000. Geschütztes Kapital = AK 100''000 + gesetzliche Kapital- und Gewinnreserve zusammen
+      höchstens 50 % des AK (130''000 → begrenzt auf 50''000) = 150''000; Bezugsgrösse (Hälfte) = 75''000. 80''000 ≥ 75''000 → kein Kapitalverlust. Eigene Aktien vermindern nur das (frei
+      verfügbare) Eigenkapital, die Bezugsgrösse bleibt unverändert. Variante Jahresverlust 110''000: EK 70''000 < 75''000 → Kapitalverlust (Unterdeckung 5''000), aber keine Überschuldung
+      (EK positiv). Folgen: VR ergreift Massnahmen zur Beseitigung des Kapitalverlusts bzw. Sanierung (oder beantragt sie der GV); da keine Revisionsstelle besteht, muss die Jahresrechnung
+      2025 vor der Genehmigung durch die GV einer eingeschränkten Revision durch einen vom VR ernannten zugelassenen Revisor unterzogen werden (entfällt nur bei Gesuch um Nachlassstundung).
+      Ohne diese Prüfung sind die GV-Beschlüsse zur Genehmigung der JR und zur Verlustverrechnung nichtig.'
+    kernpunkte:
+    - Bilanzielles EK 80'000 (eigene Aktien als Minusposten enthalten)
+    - Geschütztes Kapital 150'000, weil gesetzliche Reserven nur bis 50 % des AK (50'000) zählen → Bezugsgrösse 75'000 → kein Kapitalverlust
+    - 'Variante 110''000 Verlust: EK 70''000 < 75''000 → Kapitalverlust, keine Überschuldung'
+    - Eigene Aktien ändern die Bezugsgrösse nicht
+    - 'Opting-out: eingeschränkte Revision der JR durch vom VR ernannten zugelassenen Revisor vor GV-Genehmigung (Ausnahme Nachlassstundung)'
+    fehler:
+    - 'Agio voll einrechnen: geschütztes Kapital 230''000, Hälfte 115''000 → fälschlich Kapitalverlust'
+    - Eigene Aktien zusätzlich von der Bezugsgrösse abziehen
+    - Ordentliche Revision bzw. Wahl einer Revisionsstelle durch die GV statt eingeschränkter Revision durch vom VR ernannten zugelassenen Revisor
+    - Kapitalverlust mit Überschuldung verwechseln und Zwischenabschlüsse/Gerichtsbenachrichtigung verlangen
+    quellen:
+    - chunk: or__art-725a
+      zitat: Zeigt die letzte Jahresrechnung, dass die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher
+        Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
+    - chunk: or__art-725a
+      zitat: Hat die Gesellschaft keine Revisionsstelle, so muss die letzte Jahresrechnung vor ihrer Genehmigung durch die Generalversammlung überdies einer eingeschränkten Revision
+        durch einen zugelassenen Revisor unterzogen werden. Der Verwaltungsrat ernennt den zugelassenen Revisor.
+    - chunk: or__art-725a
+      zitat: Die Revisionspflicht nach Absatz 2 entfällt, wenn der Verwaltungsrat ein Gesuch um Nachlassstundung einreicht.
+    - chunk: hwp-bur-2023__rz-0889-s359
+      zitat: die gesetzliche Kapitalreserve (Art. 671 Abs. 1 OR) und die gesetzliche Gewinnreserve im engeren Sinn (Art. 672 Abs. 1 OR) im Betrag von zusammen maximal 50 % – resp. bei
+        Holdinggesellschaften 20 % – des Grundkapitals
+    - chunk: hwp-bur-2023__rz-0889-s359
+      zitat: Ein Kapitalverlust liegt also vor, wenn das bilanzielle Eigenkapital kleiner ist als die Hälfte des geschützten Kapitals.
+    - chunk: qa-kapitalverlust-2023__1-1-t1
+      zitat: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital. Das geschützte Eigenkapital und damit die Bezugsgrösse nach Art. 725a OR resp. PS-CH 290 bleiben unverändert.
+    - chunk: qa-kapitalverlust-2023__1-2-t2
+      zitat: Bei Missachtung der Prüfpflicht nach Art. 725a Abs. 2 OR sind die Beschlüsse der Generalversammlung zur Genehmigung der Jahresrechnung sowie zur Verrechnung des Bilanzverlusts
+        oder anderweitiger Verwendung von Reserven jedoch nichtig (Art. 731 Abs. 3 OR).
+- id: f16
+  kategorie: Kapitalschutz / Überschuldung und Rangrücktritt
+  schwierigkeit: schwer
+  frage: 'AG ohne Revisionsstelle, begründete Besorgnis einer Überschuldung, Fortführung ist gegeben. Zwischenabschluss per 30.06.2026: zu Fortführungswerten Aktiven 900''000 / Verbindlichkeiten
+    1''050''000, zu Veräusserungswerten Aktiven 720''000 / Verbindlichkeiten 1''050''000. Wer prüft die Zwischenabschlüsse, muss der VR ans Gericht, und wie hoch muss ein Rangrücktritt
+    mindestens sein? Ist mit dem Rangrücktritt auch die Prüfung der Jahresrechnung vom Tisch?'
+  soll:
+    antwort: 'Überschuldung zu Fortführungswerten 150''000 (900''000 − 1''050''000), zu Veräusserungswerten 330''000 (720''000 − 1''050''000) → gemäss beiden Zwischenabschlüssen überschuldet.
+      Mangels Revisionsstelle lässt der VR die Zwischenabschlüsse durch einen von ihm ernannten zugelassenen Revisor prüfen (Art. 725b Abs. 2 OR). Diese Prüfung ist weder eine eingeschränkte
+      noch eine ordentliche Revision; massgebend ist PS-CH 290 (SER Kap. 9). Grundsätzlich muss der VR das Gericht benachrichtigen (Abs. 3). Das kann unterbleiben, wenn Gläubiger im
+      Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden, sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen
+      während der Dauer der Überschuldung umfasst, oder solange begründete Aussicht besteht, die Überschuldung innert angemessener Frist, spätestens 90 Tage nach Vorliegen der geprüften
+      Zwischenabschlüsse, zu beheben, ohne die Gläubigerforderungen zusätzlich zu gefährden (Abs. 4). Mindesthöhe: im Ausmass der Überschuldung. Bei gegebener Fortführung genügt nach
+      HWP (BuR Rz 719, ER Rz 420) die Deckungslücke zu Fortführungswerten → mindestens 150''000, wobei der Rangrücktritt auch die Zinsforderungen während der Dauer der Überschuldung
+      umfassen muss. Sind weitere Verluste absehbar, ist nach HWP ER Rz 421 ein angemessenes Sicherheitspolster für die in den nächsten 12 Monaten, mindestens bis zum nächsten Prüfungszeitpunkt,
+      erwarteten Verluste einzurechnen. Wäre die Fortführung konkret gefährdet, müsste der Rangrücktritt die Deckungslücke zu Liquidationswerten (330''000) abdecken. Der Rangrücktritt
+      beseitigt weder Überschuldung noch Kapitalverlust und ist keine Sanierungsmassnahme. Er befreit nur von der Benachrichtigung des Gerichts. Die übrigen Pflichten des VR (Sanierungsmassnahmen)
+      bleiben bestehen, und die Jahresrechnung muss weiterhin durch einen zugelassenen Revisor (eingeschränkte Revision, Art. 725a Abs. 2 OR) geprüft werden. Passivdarlehen mit Rangrücktritt
+      sind in der JR oder im Anhang gesondert auszuweisen. Dem zugelassenen Revisor obliegen die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle (Art. 725b Abs. 5 OR).'
+    kernpunkte:
+    - Überschuldet nach beiden Zwischenabschlüssen (150'000 FW / 330'000 VW)
+    - Prüfung der Zwischenabschlüsse durch vom VR ernannten zugelassenen Revisor; weder eingeschränkte noch ordentliche Revision (PS-CH 290)
+    - Gericht benachrichtigen, ausser Rangrücktritt mit Stundung oder begründete Sanierungsaussicht innert max. 90 Tagen
+    - Rangrücktritt mind. 150'000 (Deckungslücke zu Fortführungswerten bei gegebener Fortführung) inkl. Zinsforderungen während der Überschuldung; bei absehbaren Verlusten Sicherheitspolster
+    - Rangrücktritt beseitigt Überschuldung/Kapitalverlust nicht → JR bleibt prüfungspflichtig (Art. 725a Abs. 2 OR), Sanierungspflichten bleiben
+    - Gesonderter Ausweis der Darlehen mit Rangrücktritt
+    fehler:
+    - Rangrücktritt nur über 150'000 ohne Zinsforderungen
+    - Rangrücktritt zwingend in Höhe der Überschuldung zu Veräusserungswerten (330'000) trotz gegebener Fortführung
+    - Mit Rangrücktritt entfalle die Prüfung der Jahresrechnung bzw. die Erstellung/Prüfung von Zwischenabschlüssen
+    - Ordentliche Revision statt Prüfung durch zugelassenen Revisor; 60 statt 90 Tage
+    quellen:
+    - chunk: or__art-725b-t1
+      zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen; er ernennt den zugelassenen
+        Revisor.
+    - chunk: or__art-725b-t1
+      zitat: Ist die Gesellschaft gemäss den beiden Zwischenabschlüssen überschuldet, so benachrichtigt der Verwaltungsrat das Gericht.
+    - chunk: or__art-725b-t1
+      zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden, sofern der Rangrücktritt den geschuldeten
+        Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+    - chunk: or__art-725b-t1
+      zitat: solange begründete Aussicht besteht, dass die Überschuldung innert angemessener Frist, spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse, behoben werden
+        kann
+    - chunk: or__art-725b-t2
+      zitat: Verfügt die Gesellschaft über keine Revisionsstelle, so obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle.
+    - chunk: hwp-bur-2023__rz-0719-s307
+      zitat: Der Rangrücktritt hat mindestens im Ausmass der Überschuldung zu erfolgen (Art. 725b Abs. 4 Ziff. 1 OR).
+    - chunk: hwp-bur-2023__rz-0719-s307
+      zitat: genügt es, auf die Deckungslücke zu Fortführungswerten abzustellen
+    - chunk: qa-kapitalverlust-2023__2-2-1-2
+      zitat: Liegt eine Überschuldung im Sinne von Art. 725b OR vor, ist auch der Tatbestand eines Kapitalverlusts nach Art. 725a Abs. 1 OR weiterhin erfüllt, d.h. die Jahresrechnung
+        muss durch einen zugelassenen Revisor geprüft werden.
+    - chunk: qa-kapitalverlust-2023__2-2-2-t5
+      zitat: Ein Rangrücktritt an sich beseitigt die Überschuldung nicht und stellt auch keine Sanierungsmassnahme nach Art. 725a OR dar.
+    - chunk: hwp-bur-2023__rz-0494-s257
+      zitat: Passivdarlehen mit Rangrücktritt sind in der Jahresrechnung oder im Anhang gesondert auszuweisen
+  pruefung: 'korrigiert: Alle 10 Zitate wörtlich belegt, die Kernaussagen sind richtig: 150''000 bzw. 330''000, zugelassener Revisor, 90 Tage, Rangrücktritt inkl. Zinsen, JR bleibt prüfungspflichtig
+    (QA Frage 9 / 14a). Ergänzt, weil für die eingeschränkte Revision relevant und als Fehlerbild vorgesehen: (1) Nach SER Kap. 9 (s'
+- id: f17
+  kategorie: Kapitalschutz / Aufwertung Art. 725c OR
+  schwierigkeit: schwer
+  frage: 'AG (keine Holding) per 31.12.2025: Aktienkapital 300''000, keine gesetzlichen Reserven, bilanzielles Eigenkapital 100''000. Sie hat ein unbebautes Grundstück, bilanziert zu
+    Anschaffungskosten 400''000; ein externes Gutachten ergibt einen Netto-Marktwert von 750''000. Um wie viel darf das Grundstück zur Behebung des Kapitalverlusts höchstens aufgewertet
+    werden, und wie wird das gebucht?'
+  soll:
+    antwort: 'Kapitalverlust: Hälfte des geschützten Kapitals 150''000 > EK 100''000 (Fehlbetrag 50''000). Maximal aktivseitig: erzielbarer Wert − Buchwert = 750''000 − 400''000 = 350''000
+      (beim Grundstück ist für den Netto-Marktwert ein externes Gutachten unerlässlich). Maximal passivseitig: (0,5 × 300''000 − 100''000) × 2 = 100''000, also der doppelte Kapitalverlust,
+      weil die Aufwertungsreserve selbst zum geschützten Kapital zählt. Zulässig ist der tiefere Wert: 100''000. Kontrolle: EK 200''000 = Hälfte von (300''000 + 100''000) → gedeckt.
+      Buchung erfolgsneutral: Grundstück an Aufwertungsreserve 100''000. Die Reserve wird gleichzeitig mit der Aufwertung im Abschluss gebildet, nicht erst im Rahmen der Gewinnverwendung
+      durch die GV. Ausweis gesondert als Aufwertungsreserve unter der gesetzlichen Gewinnreserve. Voraussetzung: Die Revisionsstelle bzw. (falls keine) ein zugelassener Revisor bestätigt
+      schriftlich, dass die gesetzlichen Bestimmungen eingehalten sind; der Prüfungsbericht muss spätestens bei der Verabschiedung der JR durch den VR vorliegen. Anhang (HWP): aufgewertete
+      Position inkl. Bilanzposition, Höhe der Aufwertungsreserve und spätere Veränderungen, Datum des Prüfungsberichts. Auflösung nur durch Umwandlung in Aktien-/PS-Kapital, Wertberichtigung
+      oder Veräusserung. HWP empfiehlt, vorher stille Reserven so weit wie möglich aufzulösen. Steuerfolgen sind zu berücksichtigen und abzugrenzen. Bund: Die erfolgsneutrale Aufwertung
+      wird dem steuerbaren Gewinn hinzugerechnet (Art. 58 Abs. 1 lit. c DBG), allenfalls verrechenbar mit Verlustvorträgen (Art. 62 Abs. 3 DBG für spätere Abschreibungen beachten). Kanton:
+      Im monistischen System ist der Betrag über den Anschaffungskosten nicht steuerbar, im dualistischen gilt die Besteuerung analog DBG.'
+    kernpunkte:
+    - 'Kapitalverlust: Hälfte geschütztes Kapital 150''000 > EK 100''000'
+    - Aktivseitig max. 350'000 (750'000 − 400'000)
+    - Passivseitig max. (0,5 × 300'000 − 100'000) × 2 = 100'000 → zulässige Aufwertung 100'000 (tieferer Wert)
+    - Erfolgsneutrale Buchung Grundstück an Aufwertungsreserve, gesondert unter der gesetzlichen Gewinnreserve, gleichzeitig mit der Aufwertung gebildet
+    - Schriftliche Bestätigung durch Revisionsstelle bzw. zugelassenen Revisor; Anhangangaben (Position, Reserve, Datum Prüfungsbericht)
+    - Auflösung nur durch Umwandlung in AK/PS, Wertberichtigung oder Veräusserung
+    - 'Steuerfolgen berücksichtigen/abgrenzen (Bund: Art. 58 Abs. 1 lit. c DBG; Kanton je nach monistischem/dualistischem System)'
+    fehler:
+    - Aufwertung um die volle Differenz 350'000
+    - Aufwertung nur um den einfachen Fehlbetrag 50'000 (Aufwertungsreserve erhöht das geschützte Kapital)
+    - Aufwertung über die Erfolgsrechnung als Ertrag
+    - Ausweis als freiwillige Gewinnreserve oder Aufwertung ohne Prüfbestätigung
+    quellen:
+    - chunk: or__art-725c
+      zitat: Zur Behebung eines Kapitalverlusts nach Artikel 725a oder einer Überschuldung nach Artikel 725b dürfen Grundstücke und Beteiligungen, deren wirklicher Wert über die Anschaffungs-
+        oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden.
+    - chunk: or__art-725c
+      zitat: Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve auszuweisen.
+    - chunk: or__art-725c
+      zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt, dass die gesetzlichen Bestimmungen
+        eingehalten sind.
+    - chunk: or__art-725c
+      zitat: Die Aufwertungsreserve kann nur durch Umwandlung in Aktien- oder Partizipationskapital sowie durch Wertberichtigung oder Veräusserung der aufgewerteten Aktiven aufgelöst
+        werden.
+    - chunk: hwp-bur-2023__rz-0894-s361-t1
+      zitat: Maximaler passivseitiger Aufwertungsbetrag = [0,5 × geschütztes Kapital vor Aufwertung . /. bilanzielles Eigenkapital vor Aufwertung] × 2.
+    - chunk: hwp-bur-2023__rz-0893-s360-t2
+      zitat: Der maximale aktivseitige Aufwertungsbetrag entspricht der Differenz zwischen dem erzielbaren Wert und dem Buchwert in der Bilanz.
+    - chunk: hwp-bur-2023__rz-0891-s359-t1
+      zitat: Der maximale Aufwertungsbetrag entspricht hierbei dem tieferen Wert aus dem maximalen aktivseitigen Aufwertungsbetrag und dem maximalen passivseitigen Aufwertungsbetrag
+    - chunk: hwp-bur-2023__rz-0898-s363
+      zitat: Die Bildung der Aufwertungsreserve erfolgt ohne Berührung der Erfolgsrechnung direkt innerhalb der Bilanz
+  pruefung: 'korrigiert: Alle 8 Zitate wörtlich belegt, die Rechnung stimmt: Kapitalverlust 150''000 > 100''000; aktivseitig 350''000; passivseitig (150''000 − 100''000) × 2 = 100''000;
+    Kontrolle EK 200''000 = ½ × 400''000. Unvollständig sind zwei prüfungsrelevante Punkte aus derselben HWP-Passage. (1) Nach HWP BuR Rz 906 gehören A'
+- id: f18
+  kategorie: Eigenkapital / gesetzliche Reserven
+  schwierigkeit: mittel
+  frage: 'AG mit Aktienkapital 100''000, gesetzlicher Kapitalreserve 10''000 und gesetzlicher Gewinnreserve 25''000. Jahresgewinn 2025: 80''000, Verlustvortrag aus dem Vorjahr: 20''000.
+    Wie viel muss der gesetzlichen Gewinnreserve zugewiesen werden? Und wie wäre es, wenn es eine Holdinggesellschaft wäre?'
+  soll:
+    antwort: 'Zuerst ist der Verlustvortrag zu beseitigen bzw. vom Jahresgewinn abzuziehen: 5 % × (80''000 − 20''000) = 3''000 Pflichtzuweisung. Die Äufnungsgrenze (gesetzliche Gewinn-
+      + Kapitalreserve = 50 % des AK = 50''000) ist mit 35''000 noch nicht erreicht → 3''000 zuweisen (Mindestzuweisung; zusätzliche Zuweisungen bis zur Grenze sind erlaubt). Holding:
+      Grenze 20 % des AK = 20''000, mit 35''000 bereits überschritten → keine Pflichtzuweisung. Dividenden dürfen erst nach den Zuweisungen an die gesetzliche und die freiwilligen Gewinnreserven
+      festgesetzt werden.'
+    kernpunkte:
+    - Verlustvortrag vor Zuweisung abziehen → Basis 60'000
+    - Zuweisung 5 % = 3'000
+    - 'Grenze: gesetzliche Gewinn- und Kapitalreserve zusammen 50 % des AK (50''000) – noch nicht erreicht'
+    - 'Holding: Grenze 20 % (20''000) bereits erreicht → keine Pflichtzuweisung'
+    fehler:
+    - 5 % von 80'000 = 4'000 (Verlustvortrag nicht abgezogen)
+    - Grenze nur auf die gesetzliche Gewinnreserve allein bezogen (ohne Kapitalreserve)
+    - 20 %-Grenze auch für Nicht-Holding angewendet
+    - Altrechtliche Zusatzzuweisung (10 % der Dividende) verlangt
+    quellen:
+    - chunk: or__art-672
+      zitat: Der gesetzlichen Gewinnreserve sind 5 Prozent des Jahresgewinns zuzuweisen. Liegt ein Verlustvortrag vor, so ist dieser vor der Zuweisung an die Reserve zu beseitigen.
+    - chunk: or__art-672
+      zitat: Die gesetzliche Gewinnreserve ist zu äufnen, bis sie zusammen mit der gesetzlichen Kapitalreserve die Hälfte des im Handelsregister eingetragenen Aktienkapitals erreicht.
+        Holdinggesellschaften müssen die gesetzliche Gewinnreserve äufnen, bis diese zusammen mit der gesetzlichen Kapitalreserve 20 Prozent des im Handelsregister eingetragenen Aktienkapitals
+        erreicht.
+    - chunk: hwp-bur-2023__rz-0585-s280
+      zitat: Hingegen ist der Verlustvortrag vom Jahresgewinn abzuziehen.
+    - chunk: hwp-bur-2023__rz-0585-s280
+      zitat: Bei der obligatorischen Zuweisung geht es um eine Mindestzuweisung.
+    - chunk: or__art-675
+      zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
+- id: f19
+  kategorie: Bewertung / Forderungen und Delkredere
+  schwierigkeit: mittel
+  frage: 'Forderungen aus L+L per 31.12.2025: Inland 400''000, davon 30''000 gegenüber einem Kunden im Konkurs (keine Dividende zu erwarten) und 50''000 gegenüber Gemeinden; Ausland
+    100''000, nicht kreditversichert. Wie hoch darf das Delkredere sein, wenn wir die steuerlich akzeptierten Pauschalsätze der ESTV anwenden, und wo zeige ich es in der Bilanz?'
+  soll:
+    antwort: 'Zuerst Einzelwertberichtigung des gefährdeten Postens: 30''000 (Konkurs). Danach pauschal auf den restlichen Guthaben: Inland ohne Forderungen gegen öffentlich-rechtliche
+      Körperschaften: 400''000 − 30''000 − 50''000 = 320''000 × 5 % = 16''000; Ausland 100''000 × 10 % = 10''000. Delkredere total 56''000 (davon pauschal 26''000). Ausweis als Wertberichtigung
+      (Minusposten) bei den Forderungen auf der Aktivseite, nicht als Rückstellung unter den Passiven. Hinweise: Kantone lassen teils abweichende Pauschalen zu (HWP-Beispiel ZH 10 %/20
+      %); handelsrechtlich ist die Pauschale aus Erfahrungswerten und erwarteter Entwicklung zu bemessen; bei Kreditversicherung deckt das Delkredere nur den unversicherten Teil.'
+    kernpunkte:
+    - Zuerst Einzelwertberichtigung 30'000, dann Pauschale auf dem Rest
+    - Inland 5 % auf 320'000 (ohne öffentlich-rechtliche Körperschaften) = 16'000
+    - Ausland 10 % auf 100'000 = 10'000 → total 56'000
+    - Ausweis als Wertberichtigung auf der Aktivseite, nicht als Rückstellung
+    fehler:
+    - 5 % auf 400'000 bzw. auf allen Inlandforderungen inkl. Gemeinden
+    - Pauschale zusätzlich auf der bereits einzeln wertberichtigten Konkursforderung
+    - Delkredere als Rückstellung im Fremdkapital ausweisen
+    - Kantonale Sätze (z.B. ZH) als ESTV-Sätze ausgeben
+    quellen:
+    - chunk: hwp-bur-2023__rz-0437-s248
+      zitat: lässt die Eidg. Steuerverwaltung auf inländischen Guthaben (ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und Forderungen mit voller Deckung) eine pauschale
+        Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+    - chunk: hwp-bur-2023__rz-0437-s248
+      zitat: Die Kantone lassen zum Teil abweichende Pauschalwertberichtigungen zu (beispielsweise Kanton Zürich 10 % auf inländischen und 20 % auf ausländischen Guthaben).
+    - chunk: hwp-bur-2023__rz-0120-s186
+      zitat: Die Wertberichtigungen für gefährdete Forderungen sind zunächst einzeln zu ermitteln; danach sind Pauschalwertberichtigungen auf den restlichen Guthaben zu bilden.
+    - chunk: hwp-bur-2023__rz-0113-s185
+      zitat: Das Delkredere ist eine Wertberichtigung für Forderungen. Deshalb stellt es keine Rückstellung dar, sondern einen Korrekturposten auf der Aktivseite der Bilanz.
+    - chunk: or__art-960a
+      zitat: Sie sind direkt oder indirekt bei den betreffenden Aktiven zulasten der Erfolgsrechnung abzusetzen und dürfen nicht unter den Passiven ausgewiesen werden.
+    - chunk: hwp-bur-2023__rz-0438-s248
+      zitat: Sofern eine Exportrisikoversicherung oder eine Kreditversicherung besteht, hat das Delkredere nur den unversicherten Teilbetrag zu decken.
+- id: f20
+  kategorie: Bewertung / Vorräte
+  schwierigkeit: mittel
+  frage: Handelsware mit Anschaffungskosten 120'000 per 31.12.2025. Erwarteter Verkaufserlös 130'000, Erlösminderungen (Rabatte/Skonti) 5'000, noch anfallende Vertriebs- und Verwaltungskosten
+    15'000. Zu welchem Wert darf die Ware höchstens bilanziert werden, und wie tief darf man mit dem steuerlich akzeptierten Warendrittel gehen?
+  soll:
+    antwort: 'Netto-Veräusserungswert (Rückrechnung) = 130''000 − 5''000 − 15''000 = 110''000 < AK 120''000 → Niederstwert: höchstens 110''000, Wertberichtigung 10''000 ist zwingend
+      (verlustfreie Bewertung, Art. 960c Abs. 1 OR). Der steuerlich zugelassene Bewertungsabzug von einem Drittel bemisst sich vom gesetzlichen Höchstwert 110''000: 36''667 → tiefster
+      Wert rund 73''333. Der Drittelabzug hat (nach den handelsrechtlich nötigen Wertkorrekturen) Reservecharakter; nimmt er bei Lagerabbau ab, werden stille Reserven aufgelöst, was
+      in die Nettoauflösung nach Art. 959c Abs. 1 Ziff. 3 OR einfliesst.'
+    kernpunkte:
+    - Netto-Veräusserungswert 110'000 (Erlösminderungen und noch anfallende Kosten abziehen)
+    - Höchstwert 110'000, Wertberichtigung 10'000 zwingend
+    - Warendrittel vom Höchstwert 110'000 → rund 36'667, Mindestwert rund 73'333
+    - Drittel = stille Reserve; Abbau ist Reservenauflösung
+    fehler:
+    - Bilanzierung zu AK 120'000 (Niederstwert übersehen)
+    - Drittel von den AK berechnet (40'000 → 80'000)
+    - Erlösminderungen/Vertriebskosten nicht abgezogen → keine Wertberichtigung
+    - Warendrittel als handelsrechtliche Pflicht-Wertberichtigung bezeichnet
+    quellen:
+    - chunk: or__art-960c
+      zitat: Liegt in der Folgebewertung von Vorräten und nicht fakturierten Dienstleistungen der Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter
+        den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden.
+    - chunk: hwp-bur-2023__rz-0245-s212
+      zitat: Dabei sind, ausgehend vom voraussichtlichen Verkaufserlös, die mutmasslichen Erlösschmälerungen und die noch anfallenden Kosten in Abzug zu bringen.
+    - chunk: hwp-bur-2023__rz-0246-s212
+      zitat: Sind die Anschaffungs- oder Herstellungskosten höher als dieser Vergleichswert, ist eine entsprechende Wertberichtigung vorzunehmen (verlustfreie Bewertung).
+    - chunk: hwp-bur-2023__rz-0253-s214
+      zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
+    - chunk: hwp-bur-2023__rz-0253-s214
+      zitat: hat der auf dem Restwert gebildete steuerliche Bewertungsabzug nicht mehr Wertberichtigungs-, sondern Reservecharakter
+    - chunk: hwp-bur-2023__rz-0253-s214
+      zitat: der Auflösungsbetrag hat in die Berechnung des Gesamtbetrags der Reserveveränderung einzufliessen
+- id: f21
+  kategorie: Bewertung / Rückstellungen
+  schwierigkeit: mittel
+  frage: Gegen unseren Kunden läuft eine Schadenersatzklage wegen eines 2025 gelieferten mangelhaften Produkts. Der Anwalt schätzt die Wahrscheinlichkeit, zu verlieren, auf 40 %, die
+    mögliche Zahlung auf 50'000 bis 150'000. Der Kunde will keine Rückstellung bilden, sondern nur eine Eventualverbindlichkeit im Anhang zeigen, weil das Risiko unter 50 % liege und
+    die Bandbreite zu gross sei. Geht das?
+  soll:
+    antwort: Grundsätzlich nein. Eine Rückstellung ist zu bilden, wenn ein vergangenes Ereignis (Lieferung 2025) einen Mittelabfluss in künftigen Geschäftsjahren erwarten lässt und die
+      Höhe verlässlich geschätzt werden kann (Art. 960e Abs. 2 OR). Eine Eintretenswahrscheinlichkeit unter 50 % darf nicht einfach als unwahrscheinlich qualifiziert werden; mindestens
+      eine anteilige Rückstellung ist zu prüfen (z.B. Erwartungswert), aus Vorsicht eher am oberen Ende der Bandbreite. Eine grosse Bandbreite genügt als verlässliche Schätzung und ist
+      kein Grund, nur eine Eventualverbindlichkeit auszuweisen. Eine Eventualverbindlichkeit im Anhang (Art. 959c Abs. 2 Ziff. 10 OR) kommt nur in Frage, wenn der Mittelabfluss unwahrscheinlich
+      ist oder die Höhe ausnahmsweise nicht verlässlich geschätzt werden kann. Fällt das Risiko später weg, muss die Rückstellung nicht aufgelöst werden (Art. 960e Abs. 4 OR).
+    kernpunkte:
+    - 'Voraussetzungen: vergangenes Ereignis, erwarteter Mittelabfluss, verlässliche Schätzung'
+    - < 50 % heisst nicht automatisch unwahrscheinlich → mind. anteilige Rückstellung prüfen, eher oberes Ende der Bandbreite
+    - Grosse Bandbreite ist kein Grund für blosse Eventualverbindlichkeit
+    - Eventualverbindlichkeit nur bei unwahrscheinlichem Abfluss oder ausnahmsweise nicht schätzbarer Höhe
+    fehler:
+    - Unter 50 % → keine Rückstellung, nur Anhangangabe zulässig
+    - Rückstellung zwingend über 150'000 ohne Abwägung (Vollbetrag als einzige Lösung)
+    - Anwendung der IFRS-«more likely than not»-Schwelle als OR-Regel
+    - Rückstellung müsse bei Wegfall zwingend aufgelöst werden
+    quellen:
+    - chunk: or__art-960e
+      zitat: Lassen vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten, so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung
+        gebildet werden.
+    - chunk: hwp-bur-2023__rz-0515-s261
+      zitat: dass ein Ereignis bei Eintretenswahrscheinlichkeit von unter 50 % nicht einfach als unwahrscheinlich qualifiziert und auf die Bildung einer Rückstellung verzichtet werden
+        kann
+    - chunk: hwp-bur-2023__rz-0515-s261
+      zitat: In einem solchen Fall ist die Bildung zumindest einer anteiligen Rückstellung zu prüfen, wenn die übrigen Voraussetzungen erfüllt sind.
+    - chunk: hwp-bur-2023__rz-0515-s261
+      zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
+    - chunk: hwp-bur-2023__rz-0516-s261
+      zitat: Eine grosse Bandbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten und stattdessen nur eine Eventualverbindlichkeit im Anhang
+        der Jahresrechnung auszuweisen.
+    - chunk: or__art-959c-t2
+      zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+        (Eventualverbindlichkeit)
+    - chunk: or__art-960e
+      zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+- id: f22
+  kategorie: Anhang / stille Reserven
+  schwierigkeit: mittel
+  frage: Jahresgewinn 2025 laut Erfolgsrechnung 60'000. Im Abschluss wurde eine nicht mehr benötigte Rückstellung (stille Reserve) von 50'000 aufgelöst, das Warendrittel ist wegen Lagerabbau
+    um 20'000 gesunken, und es wurden zusätzliche, betriebswirtschaftlich nicht nötige Abschreibungen auf Mobilien von 15'000 gebucht. Muss im Anhang etwas offengelegt werden, und welcher
+    Betrag?
+  soll:
+    antwort: 'Nettoauflösung stiller Reserven = 50''000 + 20''000 − 15''000 = 55''000. Ohne diese Nettoauflösung betrüge der Gewinn nur 5''000; das Ergebnis wird also wesentlich günstiger
+      dargestellt → Offenlegungspflicht im Anhang nach Art. 959c Abs. 1 Ziff. 3 OR: Gesamtbetrag der Nettoauflösung 55''000. Offenzulegen ist nur der Nettobetrag als Gesamtbetrag (keine
+      Aufteilung nach Bilanzpositionen nötig), nach verbreiteter Praxis vor latenten Steuern. Die Abnahme des Warendrittels zählt mit; Zwangsreserven und Schwankungsreserven fallen nicht
+      unter diese Ausweispflicht.'
+    kernpunkte:
+    - Nettoauflösung 55'000 (Auflösungen 70'000 − Neubildung 15'000)
+    - Ergebnis wesentlich günstiger (5'000 statt 60'000) → Offenlegung im Anhang (Art. 959c Abs. 1 Ziff. 3 OR)
+    - Nur Nettobetrag als Gesamtbetrag, ohne Aufteilung, vor latenten Steuern
+    - Reduktion Warendrittel fliesst ein; Zwangs- und Schwankungsreserven nicht
+    fehler:
+    - Bruttobetrag 70'000 oder nur 50'000 offenlegen
+    - Abnahme des Warendrittels nicht berücksichtigen
+    - Betrag nach Abzug latenter Steuern offenlegen
+    - Keine Offenlegung, weil die Reserven steuerlich akzeptiert waren
+    quellen:
+    - chunk: or__art-959c-t1
+      zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven, soweit dieser den Gesamtbetrag der neugebildeten derartigen
+        Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+    - chunk: hwp-bur-2023__rz-0817-s341-t1
+      zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
+    - chunk: hwp-bur-2023__rz-0817-s341-t1
+      zitat: Der Ausweis kann in Form eines Gesamtbetrags erfolgen.
+    - chunk: hwp-bur-2023__rz-0817-s341-t2
+      zitat: Die sog. Zwangsreserven unterliegen bei ihrer Auflösung nicht dieser Ausweispflicht, so auch nicht die Schwankungsreserven
+    - chunk: hwp-bur-2023__rz-0817-s341-t2
+      zitat: also nicht korrigiert um Änderungseffekte in den latenten Steuern
+    - chunk: hwp-bur-2023__rz-0253-s214
+      zitat: der Auflösungsbetrag hat in die Berechnung des Gesamtbetrags der Reserveveränderung einzufliessen
+- id: f23
+  kategorie: Anhang / Angaben nach Art. 959c OR
+  schwierigkeit: mittel
+  frage: 'KMU-AG, Abschluss 31.12.2025, im Jahresdurchschnitt 8 Vollzeitstellen. Sachverhalte: Leasing für einen Lieferwagen, Restverpflichtung 36''000, nicht kündbar, läuft bis 30.06.2027;
+    Liegenschaft (Buchwert 900''000) ist für die Hypothek verpfändet; Solidarbürgschaft 200''000 für den Bankkredit der 100%-Tochter XY GmbH mit Sitz in St. Gallen; Darlehen vom Aktionär
+    150''000. Was muss in den Anhang?'
+  soll:
+    antwort: 'Pflichtangaben (soweit nicht schon aus Bilanz/ER ersichtlich): Firma, Rechtsform und Sitz der AG; Erklärung, dass die Vollzeitstellen im Jahresdurchschnitt nicht über 10
+      liegen; Beteiligung XY GmbH mit Firma, Rechtsform, Sitz sowie Kapital- und Stimmenanteil (100 %); Restbetrag der Leasingverbindlichkeit 36''000 (läuft nicht innert 12 Monaten ab
+      Bilanzstichtag aus und ist nicht kündbar); Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten 200''000 (Bürgschaft für die Tochter); Gesamtbetrag der zur Sicherung
+      eigener Verbindlichkeiten verwendeten Aktiven 900''000 (verpfändete Liegenschaft); das Aktionärsdarlehen ist gesondert in der Bilanz oder im Anhang auszuweisen. Dazu Angaben über
+      die angewandten Grundsätze, soweit nicht gesetzlich vorgeschrieben.'
+    kernpunkte:
+    - Firma/Rechtsform/Sitz und Erklärung Vollzeitstellen «nicht über 10»
+    - 'Beteiligung: Firma, Rechtsform, Sitz, Kapital- und Stimmenanteil'
+    - Leasing-Restbetrag 36'000, da nicht innert 12 Monaten auslaufend/kündbar
+    - Sicherheiten für Dritte 200'000 und verpfändete Aktiven 900'000 je als Gesamtbetrag
+    - Aktionärsdarlehen gesondert in Bilanz oder Anhang
+    fehler:
+    - Bürgschaft als Rückstellung statt Anhangangabe
+    - Leasing nicht angeben, weil es kein Finanzierungsleasing sei
+    - Statt Buchwert der verpfändeten Aktiven nur die Hypothekarschuld nennen
+    - Genaue Anzahl Vollzeitstellen statt Schwellenerklärung verlangen
+    quellen:
+    - chunk: or__art-959c-t1
+      zitat: Firma oder Name sowie Rechtsform und Sitz des Unternehmens
+    - chunk: or__art-959c-t1
+      zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
+    - chunk: or__art-959c-t1
+      zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+    - chunk: or__art-959c-t2
+      zitat: der Restbetrag der Verbindlichkeiten aus kaufvertragsähnlichen Leasinggeschäften und anderen Leasingverpflichtungen, sofern diese nicht innert zwölf Monaten ab Bilanzstichtag
+        auslaufen oder gekündigt werden können
+    - chunk: or__art-959c-t2
+      zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+    - chunk: or__art-959c-t2
+      zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+    - chunk: or__art-959a-t2
+      zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht,
+        müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden.
+- id: f24
+  kategorie: Steuern / ESTV-Zinssätze 2026 (Darlehen an Aktionär)
+  schwierigkeit: leicht
+  frage: Die AG hat ihrem Aktionär am 1.1.2026 ein Darlehen von CHF 250'000 gewährt, zinslos. Welchen Zins müsste sie 2026 mindestens verrechnen, a) wenn das Darlehen aus Eigenkapital
+    finanziert ist und die AG kein verzinsliches Fremdkapital hat, b) wenn sie es über einen Bankkredit mit Selbstkosten von 2 % finanziert? Was passiert, wenn kein Zins verrechnet wird?
+  soll:
+    antwort: 'ESTV-Rundschreiben Zinssätze 2026 (ab 1.1.2026, CHF): a) aus Eigenkapital finanziert, kein verzinsliches Fremdkapital: mindestens ¾ % → 1''875 pro Jahr. b) aus Fremdkapital
+      finanziert: Selbstkosten zuzüglich ½ % (Zuschlag bei Darlehen bis und mit CHF 10 Mio.), mindestens ¾ % → 2,5 % → 6''250 pro Jahr. Ein zinsloses oder ungenügend verzinstes Darlehen
+      an Beteiligte ist eine geldwerte Leistung: Verrechnungssteuer 35 %, unaufgefordert mit Formular 102 innert 30 Tagen nach Fälligkeit deklarieren und entrichten; bei der direkten
+      Bundessteuer wird die geldwerte Leistung beim Gewinn erfasst (Art. 58 Abs. 1 Bst. b DBG). Die Sätze sind «safe haven».'
+    kernpunkte:
+    - 'Variante a: mindestens ¾ % = 1''875'
+    - 'Variante b: Selbstkosten + ½ % (bis 10 Mio.) = 2,5 % = 6''250, mindestens ¾ %'
+    - Nicht verrechneter Zins = geldwerte Leistung, VSt 35 %, Formular 102 innert 30 Tagen
+    - Sätze 2026 (ab 1.1.2026) verwenden
+    fehler:
+    - Zinssätze des Vorjahres oder Höchstsätze für Darlehen vom Aktionär verwenden
+    - Zuschlag ¼ % statt ½ % bei Darlehen unter 10 Mio.
+    - Keine VSt-Folge, weil nur Darlehen und keine Ausschüttung
+    - Mindestsatz auch bei Fremdfinanzierung nur ¾ %
+    quellen:
+    - chunk: estv-zinsen-2026__s001-2
+      zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: 1.1 aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss ¾%
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: Selbstkosten zuzügl. ¼ – ½ %
+    - chunk: estv-zinsen-2026__s002-2
+      zitat: bis und mit CHF 10 Mio. ½ %
+    - chunk: estv-zinsen-2026__s001-1
+      zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+    - chunk: estv-zinsen-2026__s001-1
+      zitat: Die geldwerten Leistungen sind mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren.
+    - chunk: estv-zinsen-2026__s001-1
+      zitat: der Verrechnungssteuer von 35 %
+- id: f25
+  kategorie: Steuern / ESTV-Zinssätze 2026 (Darlehen vom Aktionär)
+  schwierigkeit: mittel
+  frage: Bei einer Handels-AG haben der Aktionär (500'000) und seine Ehefrau (300'000) Betriebskredite in CHF gewährt. Die AG zahlt 2026 darauf 4 % Zins, total 32'000. Ist das steuerlich
+    in Ordnung?
+  soll:
+    antwort: 'Für die Limite sind die Kredite aller Beteiligten und nahestehenden Personen zusammenzuzählen: 800''000 → Betriebskredit bis CHF 1 Mio. bei einem Handels- und Fabrikationsunternehmen:
+      Höchstzinssatz 2026 3½ % → maximal 28''000. Übersetzt sind 4''000 (0,5 % × 800''000): geldwerte Leistung mit Verrechnungssteuer 35 % (Formular 102, 30 Tage) und Aufrechnung beim
+      Gewinn. Vorbehalten bleibt der Nachweis höherer Sätze im Drittvergleich; zusätzlich ist ein allfälliges verdecktes Eigenkapital (KS 6a) zu beachten. (Bei einer Holding-/Vermögensverwaltungsgesellschaft
+      läge die Limite bis 1 Mio. bei 3 % → 24''000.) Hinweis: im Chunk sind Sätze und Zeilen layoutbedingt getrennt, Zuordnung gemäss Original raw/estv-zinsen-2026.pdf S. 2.'
+    kernpunkte:
+    - 'Kredite von Aktionär und Ehefrau zusammenzählen: 800''000 → Kategorie bis CHF 1 Mio.'
+    - Höchstsatz Handels-/Fabrikationsunternehmen 3½ % → max. 28'000
+    - Übersetzter Zins 4'000 = geldwerte Leistung (VSt 35 %, Gewinnaufrechnung)
+    - Drittvergleich vorbehalten, verdecktes EK zusätzlich prüfen
+    fehler:
+    - Kredite einzeln beurteilen
+    - Satz für Kredite ab 1 Mio. (1½ %) oder Liegenschaftskredit-Sätze anwenden
+    - Holding-Satz 3 % für Handelsgesellschaft
+    - Übersetzten Zins als zulässig betrachten, weil marktüblich ohne Nachweis
+    quellen:
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: Für die Berechnung der Limiten sind die Kredite sämtlicher Beteiligten und nahestehender Personen zusammen zu zählen.
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: a) bis CHF 1 Mio.
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: bei Handels- und Fabrikationsunternehmen
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: 3½ %2
+    - chunk: estv-zinsen-2026__s002-1
+      zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+    - chunk: estv-zinsen-2026__s001-1
+      zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+    - chunk: estv-zinsen-2026__s002-2
+      zitat: Bei der Berechnung der steuerlich höchstzulässigen Zinsen ist auch ein allfällig bestehendes verdecktes Eigenkapital zu beachten.
+- id: f26
+  kategorie: Steuern / verdecktes Eigenkapital (KS 6a)
+  schwierigkeit: schwer
+  frage: 'Handels-AG per 31.12.2026, keine höheren Verkehrswerte nachgewiesen: Flüssige Mittel 100''000, Forderungen L+L 400''000, Vorräte 300''000, mobile Sachanlagen 200''000. Passiven:
+    Lieferanten 300''000, Bankkredit (ohne Sicherheit des Aktionärs) 200''000, Aktionärsdarlehen 400''000 zu 3½ %, Eigenkapital 100''000. Haben wir verdecktes Eigenkapital, und wie viel
+    Zins wird aufgerechnet?'
+  soll:
+    antwort: 'Massgebend sind die Verkehrswerte am Ende der Steuerperiode, mangels Nachweis die Buchwerte. Zulässiges Fremdkapital nach KS 6a: 100''000 × 100 % + 400''000 × 85 % + 300''000
+      × 85 % + 200''000 × 50 % = 100''000 + 340''000 + 255''000 + 100''000 = 795''000. Ausgewiesenes FK 900''000 − 795''000 = 105''000 verdecktes Eigenkapital; es stammt vollständig
+      aus dem Aktionärsdarlehen (nur von Anteilsinhabern/Nahestehenden stammendes FK gilt als verdeckt, der ungesicherte Bankkredit nicht). Zins Aktionärsdarlehen 400''000 × 3½ % = 14''000;
+      davon entfallen 105''000 × 3½ % = 3''675 auf das verdeckte EK → Aufrechnung zum Reingewinn (Art. 65 DBG) und geldwerte Leistung mit Verrechnungssteuer; abzugsfähig bleiben 10''325.
+      Eine spätere Rückzahlung des verdeckten EK ist keine geldwerte Leistung. Hinweis: Belehnungssätze im Chunk layoutbedingt als getrennte Spalte, Zuordnung gemäss raw/estv-ks-6a-2024.pdf
+      S. 2.'
+    kernpunkte:
+    - 'Belehnung: Flüssige Mittel 100 %, Forderungen 85 %, Vorräte 85 %, mobile Sachanlagen 50 % → zulässiges FK 795''000'
+    - Verdecktes EK 105'000, nur soweit vom Aktionär stammend
+    - Aufrechnung 105'000 × 3½ % = 3'675 (abzugsfähig 10'325)
+    - Aufgerechneter Zins unterliegt als geldwerte Leistung der VSt
+    fehler:
+    - Bankkredit ohne Aktionärssicherheit als verdecktes EK mitzählen
+    - Verdecktes EK auf das ganze Aktionärsdarlehen (400'000) anwenden
+    - Falsche Sätze (z.B. Vorräte 50 %, mobile Sachanlagen 70 %)
+    - Ganzen Darlehenszins 14'000 aufrechnen
+    quellen:
+    - chunk: estv-ks-6a-2024__einleitung-t2
+      zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+    - chunk: estv-ks-6a-2024__einleitung-t2
+      zitat: Sofern keine höheren Verkehrswerte nachgewiesen sind, geht die Veranlagungsbehörde von den Buchwerten, bzw. Gewinnsteuerwerten aus.
+    - chunk: estv-ks-6a-2024__einleitung-t3
+      zitat: Vom Verkehrswert sind in der Regel die folgenden Ansätze als Höchstbetrag der von der Gesellschaft aus eigener Kraft erhältlichen fremden Mittel zu betrachten
+    - chunk: estv-ks-6a-2024__einleitung-t3
+      zitat: Mobile Sachanlagen
+    - chunk: estv-ks-6a-2024__einleitung-t3
+      zitat: Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.
+    - chunk: estv-ks-6a-2024__einleitung-t3
+      zitat: Wird das Fremdkapital von unabhängigen Dritten – ohne Sicherstellung durch den Anteilsinhaber oder diesem nahestehenden Personen – zur Verfügung gestellt, liegt kein verdecktes
+        Eigenkapital vor.
+    - chunk: estv-ks-6a-2024__3-1
+      zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+    - chunk: estv-ks-6a-2024__3-2
+      zitat: unterliegen als geldwerte Leistung
+    - chunk: estv-ks-6a-2024__3-3
+      zitat: unterliegt daher weder der Verrechnungssteuer noch der Einkommenssteuer (Privatvermögen)
+- id: f27
+  kategorie: Rechnungslegung / latente Steuern
+  schwierigkeit: mittel
+  frage: Eine AG hat steuerliche Verlustvorträge von 1,2 Mio. und steht kurz vor einem Kapitalverlust. Der VR möchte im OR-Einzelabschluss ein latentes Steuerguthaben von 240'000 aktivieren,
+    weil das Budget wieder Gewinne zeigt. Dürfen wir das akzeptieren?
+  soll:
+    antwort: 'Nein. Im OR-Einzelabschluss können latente Steuerguthaben auf steuerlichen Verlustvorträgen nicht aktiviert werden: Es gibt keine Anschaffungs- oder Herstellungskosten,
+      der Höchstwert für die Ersterfassung ist null (Art. 960a OR); die allgemeinen Aktivierungsvoraussetzungen (Art. 959 Abs. 2 OR) sind bei Verlustvorträgen regelmässig nicht erfüllt
+      (deutlich überwiegende Wahrscheinlichkeit nötig, 50,1 % genügt nicht), und selbst wenn sie erfüllt wären, scheitert die Aktivierung an den Bewertungsvorschriften. Eine Umgehung
+      der Kapitalschutzbestimmungen über ein solches Aktivum ist ausdrücklich unzulässig. Zulässig ist nur, Verlustvorträge bei der Abgrenzung der laufenden Steuern mit dem Gewinn der
+      laufenden Periode zu verrechnen. Die Erfassung latenter Steuern auf temporären Differenzen ist im OR-Abschluss ein Wahlrecht (stetig, für alle Differenzen gleich). In der OR-Konzernrechnung
+      wäre eine Aktivierung grundsätzlich möglich.'
+    kernpunkte:
+    - Keine Aktivierung im OR-Einzelabschluss (keine AK/HK → Höchstwert null)
+    - Allgemeine Voraussetzungen meist nicht erfüllt; 50,1 % genügt nicht
+    - Umgehung der Kapitalschutzbestimmungen unzulässig
+    - Verlustvorträge nur bei der laufenden Steuerabgrenzung berücksichtigen; in der Konzernrechnung grundsätzlich möglich
+    fehler:
+    - Aktivierung zulässig, wenn Budget Gewinne zeigt
+    - Aktivierung als transitorisches Aktivum
+    - Gleichsetzung mit Swiss GAAP FER/IFRS im Einzelabschluss
+    - Latente Steuern im OR-Abschluss als Pflicht statt Wahlrecht
+    quellen:
+    - chunk: ef-2020-10-latente-steuern__s003-1
+      zitat: Weil für steuerliche Verlustvorträge weder AK noch HK bestehen, ist der Höchstwert für die Ersterfassung Null.
+    - chunk: ef-2020-10-latente-steuern__s001-3
+      zitat: Dabei ist in einem OR-Umfeld aufgrund des Vorsichtsprinzips von einer deutlich überwiegenden Wahrscheinlichkeit auszugehen, eine Wahrscheinlichkeit von 50,1 % genügt nicht
+    - chunk: ef-2020-10-latente-steuern__s003-5
+      zitat: Entsprechend können diese im OR-Einzelabschluss auch dann nicht aktiviert werden, wenn die allgemeinen Aktivierungsvoraussetzungen nach Art. 959 Abs. 2 OR erfüllt sind
+    - chunk: ef-2020-10-latente-steuern__s003-6
+      zitat: Nicht zulässig wäre es insbesondere, wenn Kapitalschutzmassnahmen gemäss Art. 725 Abs. 1 oder 2 OR via Aktivierung latenter Steuerguthaben auf steuerlichen Verlustvorträgen
+        umgangen würden.
+    - chunk: hwp-bur-2023__rz-0551-s270
+      zitat: Das Erfassen von latenten Steuern auf solchen temporären Differenzen stellt im handelsrechtlichen Abschluss nach Obligationenrecht aus Vorsichtsüberlegungen de facto ein
+        Wahlrecht dar, das stetig und für alle temporären Differenzen gleich anzuwenden ist.
+    - chunk: hwp-bur-2023__rz-0551-s270
+      zitat: Hingegen ist für die Ermittlung der Abgrenzung der laufenden Steuern eine Verrechnung von Verlustvorträgen mit dem Gewinn der laufenden Steuerperiode zulässig.
+    - chunk: hwp-bur-2023__rz-0233-s485
+      zitat: ist eine Aktivierung latenter Steuerguthaben auf steuerlichen Verlustvorträgen auf Stufe OR-Konzernrechnung grundsätzlich möglich
+- id: f28
+  kategorie: MWST / Prüfung
+  schwierigkeit: mittel
+  frage: Wir prüfen die Jahresrechnung 2025 einer MWST-pflichtigen AG. Welche allgemeinen Prüfungshandlungen zur MWST sind sinnvoll, und für welche Perioden muss ich MWST-Risiken bei
+    der Wesentlichkeit berücksichtigen?
+  soll:
+    antwort: 'Vorab die Revisionsart klären. Eingeschränkte Revision: Massgebend sind die Beispiele in SER Anhang D n) (den Umständen anzupassen). Empfohlen sind die Abstimmung der MWST-Forderungen
+      und -Verbindlichkeiten mit den Abrechnungen und die Prüfung, ob eine MWST-Umsatzabstimmung vorhanden ist. Bei erhöhtem Risiko geht man weiter: Nachvollzug der Umsatzabstimmung,
+      Abstimmung der MWST-Abrechnungen mit den Konti bzw. der Umsatzabstimmung, Befragung zu Steuerrevisionen, Rückfragen der Behörden oder hängigen Einsprachen und Einsicht in die Korrespondenz
+      (Rückstellungsbedarf). Eine eingeschränkte Revision umfasst keine Prüfungen zur Aufdeckung von MWST-Gesetzesverstössen. PH 20 (EXPERTsuisse 2016) richtet sich an die Abschlussprüfung
+      mit hinreichender Sicherheit; seine Arbeitshilfe in Anhang 2 ist nicht verpflichtend, kann aber ergänzend dienen. Ihre allgemeinen Prüfungshandlungen (Teil B) sind: B1 Umsatzabstimmung
+      für das Vorjahr gemäss Art. 128 Abs. 2 MWSTV; das Unternehmen muss sie innert 180 Tagen erstellen und Abweichungen begründen. B2 Analytische Prüfung der in- und ausländischen MWST-Deklarationen
+      (Vorjahresvergleich, Umsatzaufteilung steuerbar/steuerbefreit/ausgenommen/Nichtentgelte/Steuersätze, Vorsteuerkorrektur bei wesentlichen ausgenommenen Umsätzen). B3 Korrekter und
+      vollständiger Ausweis in der JR (Steuerforderungen/-verbindlichkeiten, Rückstellungen für MWST-Risiken, Offenlegung einer aktuellen oder früheren MWST-Gruppenzugehörigkeit im Anhang).
+      Wesentlichkeit (PH 20 Tz. 28): Einzubeziehen sind die noch nicht rechtskräftig festgesetzten Steuerforderungen/-verbindlichkeiten der abgeschlossenen Steuerperioden, nicht nur
+      des geprüften Jahres (Schweiz: Festsetzungsverjährung fünf Jahre; für ausländische MWST gelten ggf. andere Fristen). Ergänzend nennt PH 20 die Organisationsfragen (Teil A), eine
+      MWST-Ergänzung der Vollständigkeitserklärung und bei komplexen Verhältnissen ein Gutachten eines Sachverständigen. Wegen der Selbstveranlagung endet die Finalisierungsfrist mit
+      der ordentlichen Deklarationsfrist der Abrechnungsperiode, in die der 180. Tag nach dem Geschäftsabschluss fällt. Das Prüfungsurteil gibt keine Zusicherung der korrekten MWST-Handhabung.'
+    kernpunkte:
+    - 'Revisionsart klären: eingeschränkte Revision → SER Anhang D n) (Abstimmung MWST-Forderungen/-Verbindlichkeiten mit Abrechnungen, Vorhandensein der Umsatzabstimmung; weitergehend
+      Nachvollzug der Umsatzabstimmung, Befragung zu Steuerrevisionen)'
+    - 'PH 20 (Abschlussprüfung, Arbeitshilfe nicht verpflichtend): B1 Umsatzabstimmung Vorjahr (Art. 128 Abs. 2 MWSTV) innert 180 Tagen, Abweichungen begründet'
+    - B2 analytische Prüfung der Deklarationen (Vorjahresvergleich, Umsatzaufteilung, Vorsteuerkorrektur); B3 Ausweis (Forderungen/Verbindlichkeiten, Rückstellungen MWST-Risiken, MWST-Gruppe
+      im Anhang)
+    - 'Wesentlichkeit: alle noch nicht rechtskräftig festgesetzten abgeschlossenen Perioden (CH Festsetzungsverjährung 5 Jahre gemäss PH 20)'
+    - Keine Zusicherung der korrekten MWST-Handhabung; eingeschränkte Revision prüft nicht auf MWST-Gesetzesverstösse
+    fehler:
+    - Nur das geprüfte Geschäftsjahr für MWST-Risiken berücksichtigen
+    - Prüfungsurteil als Zusicherung der korrekten MWST-Abrechnung verstehen
+    - Festsetzungsverjährung 10 Jahre (Verwechslung mit Aufbewahrungsfrist)
+    - Arbeitshilfe als verpflichtende Checkliste darstellen
+    quellen:
+    - chunk: ph-20-mwst-2016__c011-5
+      zitat: Hat das Unternehmen für das der Prüfungsperiode vorangegangene Geschäftsjahr eine plausible und nachvollziehbare Umsatzabstimmung entsprechend den Anforderungen von Art.
+        128 Abs. 2 MWSTV erstellt?
+    - chunk: ph-20-mwst-2016__c011-5
+      zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen, und allfällige Abweichungen sind zu begründen.
+    - chunk: ph-20-mwst-2016__c011-5
+      zitat: 'Mögliche analytische Prüfungshandlungen: / Vorjahresvergleich / Umsatzaufteilung (steuerbar / steuerbefreit / ausgenommen / Nichtentgelte / Steuersätze) / Vorsteuerkorrektur
+        bei wesentlichen ausgenommenen Umsätzen'
+    - chunk: ph-20-mwst-2016__c011-5
+      zitat: Rückstellungen für MWST-Risiken / Offenlegung allfällige aktuelle oder frühere Zugehörigkeit / zu einer MWST-Gruppe im Anhang.
+    - chunk: ph-20-mwst-2016__c006-2
+      zitat: Bei der Beurteilung der Wesentlichkeit sind die noch nicht rechtskräftig festgesetzten Steuerforderungen und/oder -verbindlichkeiten der abgeschlossenen Steuerperioden heranzuziehen
+        (z.B. in der Schweiz beträgt die Festsetzungsverjährung fünf Jahre, für ausländische MWST können abweichende Fristen gelten).
+    - chunk: ph-20-mwst-2016__c011-1
+      zitat: Die darin aufgeführten Prüfungshandlungen sind somit nicht verpflichtend.
+    - chunk: ph-20-mwst-2016__c003-1
+      zitat: Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten Geschäftsabschluss fällt.
+  pruefung: 'korrigiert: Alle 7 PH-20-Zitate wörtlich belegt, die Inhalte von Teil B, Tz. 28 und Tz. 7 sind richtig wiedergegeben. Problem: Die Frage nennt die Revisionsart nicht. PH
+    20 (2014/2016) ist auf die Abschlussprüfung mit hinreichender Sicherheit ausgerichtet (Tz. 3). Für die eingeschränkte Revision, den Fokus des '
