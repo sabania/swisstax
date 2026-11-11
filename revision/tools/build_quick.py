@@ -327,6 +327,49 @@ def revio_seiten():
             **al}, ensure_ascii=False, indent=1))
 
 
+def revio_pruefschritte():
+    """Vorlage je Prüfschritt (Auftrag enco: zuordnung_pruefschritte.csv) + Übersicht je Prüffeld; revio-Ids erst aus echtem Dossier."""
+    std = RVZ.get("prueffeld_standard") or {}
+    typ = {t["typ"].split()[0].lower()[:5]: t for t in RVZ.get("schritt_typen", [])}
+    bes = collections.defaultdict(list)
+    for b in RVZ.get("prueffeld_besonderheiten", []):
+        bes[b["code"]] += b.get("werkzeuge", [])
+    rows = []
+    for s in SCH.values():
+        a = art_of(s)
+        t = typ.get("wp-sc") if s.get("kennzeichnung") == "WP" else typ.get(s["typ"].lower()[:5])
+        t = t or {}
+        lesen = list(dict.fromkeys(std.get("werkzeuge_lesen", []) + t.get("werkzeuge_lesen", []) + bes.get(s["prueffeld"], [])))
+        vorb = [] if a == "nur_mensch" else list(dict.fromkeys(std.get("werkzeuge_vorbereiten", []) + t.get("werkzeuge_vorbereiten", [])))
+        bem = {"teilweise": "Befragung: schriftliche Antwort (10.11) auswerten, sonst Pendenz; höchstens teilweise bearbeitet",
+               "auf_anweisung": "Sonstige (4xx): nur auf Anweisung des WP; physische Tätigkeiten nie",
+               "nur_mensch": "WP-Schritt: Beurteilung WP; Agent nur auf ausdrückliche Anweisung (offener Entscheid)",
+               "vorbereiten": ""}[a]
+        if s.get("kennzeichnung") == "?":
+            bem = (bem + "; " if bem else "") + "Kennzeichnung im Katalog unlesbar – in revio prüfen"
+        rows.append([s["id"], s["prueffeld"], s["typ"], s.get("kennzeichnung") or "", "4", "", "", ",".join(lesen), ",".join(vorb),
+                     "nur_mensch" if a == "nur_mensch" else "vorbereiten", bem])
+    out = R / "data" / "revio" / "zuordnung_pruefschritte.csv"
+    with out.open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f, delimiter=";")
+        w.writerow(["schritt_id", "prueffeld", "typ", "kennz", "revio_bereich", "revio_template_id", "revio_activity_id",
+                    "werkzeug_lesen", "werkzeug_vorbereiten", "art", "bemerkung"])
+        w.writerows(rows)
+    q = [fm("revio-prueffelder", "revio-Zuordnung je Prüffeld (INTERN)", ["katalog-revio4", "konzept-ki-revisionsagent-2026"]),
+         "# revio-Zuordnung je Prüffeld (INTERN)", "",
+         "Akte-Bereich 4 (Prüffelder); Ids der Prüfungshandlungen (templateId/activityId) erst aus dem echten Dossier (Kette K5). "
+         "Je Schritt: [data/revio/zuordnung_pruefschritte.csv](../../data/revio/zuordnung_pruefschritte.csv).", "",
+         "| Prüffeld | lesen | vorbereiten | Menschen-Schritte (WP) | Besonderheiten |", "|---|---|---|---|---|"]
+    for code, p in PFK.items():
+        wp = [x for x in SCH.values() if x["prueffeld"] == code and x.get("kennzeichnung") == "WP"]
+        q.append(f"| **{code}** {p['bezeichnung']} | Standard | Standard | {len(wp)}: {', '.join(x['id'] for x in wp)} | "
+                 f"{', '.join(f'`{w}`' for w in bes.get(code, []))} |")
+    q += ["", f"Standard lesen: {', '.join(f'`{w}`' for w in std.get('werkzeuge_lesen', []))}",
+          "", f"Standard vorbereiten: {', '.join(f'`{w}`' for w in std.get('werkzeuge_vorbereiten', []))}",
+          "", "Immer Mensch: Visum je Schritt, ✓ je Prüffeld, Abschliessende Beurteilung, Abschluss/Review, Status Bereich 10."]
+    write("wiki/revio/zuordnung-prueffelder.md", "\n".join(q) + "\n")
+
+
 # ------------------------------------------------------------------ Themen, Quellen, Index
 def themen_seiten():
     for t in TH:
@@ -382,6 +425,8 @@ def main():
     regeln_seite()
     werte_seite()
     revio_seiten()
+    if RVZ:
+        revio_pruefschritte()
     themen_seiten()
     quellen_seite()
     index_seite()
