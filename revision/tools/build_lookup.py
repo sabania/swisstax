@@ -54,6 +54,7 @@ def main():
     pf = {}
     for p in sorted((R / "data" / "prueffelder").glob("*.yaml")):
         d = y(p)
+        d.pop("testakte_2025", None)   # Testakte-Hinweise nur im Wiki (für Menschen), nicht im Laufzeitwissen des Agenten
         pf[d["code"]] = d
     prozess = [y(p) for p in sorted((R / "data" / "prozess").glob("*.yaml"))]
     wz, felder = werkzeuge()
@@ -65,6 +66,8 @@ def main():
         "prozess": prozess,
         "werte": (y(R / "data" / "werte.yaml", {}) or {}).get("werte", []),
         "themen": (y(R / "data" / "themen.yaml", {}) or {}).get("themen", []),
+        "aufgaben": (y(R / "data" / "aufgaben.yaml", {}) or {}).get("aufgaben", []),
+        "pf_synonyme": (y(R / "data" / "aufgaben.yaml", {}) or {}).get("prueffeld_synonyme", {}),
         "revio": {**(y(R / "data" / "revio" / "zuordnung.yaml", {}) or {}),
                   "ketten": (y(R / "data" / "revio" / "ketten.yaml", {}) or {}).get("ketten", []),
                   "werkzeuge": wz, "felder": felder},

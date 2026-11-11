@@ -434,7 +434,7 @@ def main():
     for e in reg:
         if a.id and e["id"] not in a.id:
             continue
-        if e["format"] == "png":
+        if e["format"] == "png" and not e.get("transkript"):
             continue
         st = strategy(e)
         cs = AUTO[st](e)

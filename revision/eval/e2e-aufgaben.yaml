@@ -1,0 +1,58 @@
+# E2E-Aufgaben für den Revisionsagenten in OpenClaw (Testakte «Fiktive Zahlen AG» 2025, fiktiv).
+# Der Workspace enthält mandant/fiktive-zahlen-ag-2025/ (Ersatz für M-Files) und mandant/fiktive-zahlen-ag-2024/ (Vorjahresakte).
+# revio ist im Test nicht verbunden: der Agent nennt die revio-Werkzeuge, die er aufrufen würde.
+# Referenz: eval/testfall-2025/referenz.yaml (Feld «bereich»), Bewertung durch unabhängige Agenten.
+vorspann: >-
+  Mandat: Fiktive Zahlen AG, Wil SG · Geschäftsjahr 2025 (Stichtag 31.12.2025) · eingeschränkte Revision.
+  M-Files ist in diesem Test durch den Ordner mandant/fiktive-zahlen-ag-2025/ ersetzt (Vorjahresakte: mandant/fiktive-zahlen-ag-2024/).
+  revio ist nicht verbunden: nenne bei jedem Schritt das revio-Werkzeug, das du aufrufen würdest, statt es aufzurufen.
+  Wesentlichkeit 2025 (revio 3.3, vom WP festgelegt): Gesamtwesentlichkeit CHF 80'000 (Betriebsertrag × 1 %), Toleranzwesentlichkeit CHF 60'000 (75 %), Nichtaufgriffsgrenze CHF 4'000 (5 %).
+faelle:
+- id: e01-start
+  bereich: [jahresrechnung]
+  auftrag: Starte das Mandat. Halte den Kontext-Schlüssel fest, beschreibe, was du in revio liest (mit Werkzeugnamen), plausibilisiere die Revisionsart und nenne die Prüffelder und offenen Punkte für die Planung.
+- id: e02-import
+  bereich: [jahresrechnung]
+  auftrag: Prozess 1 – Stimme die Jahresrechnung 2025 (00_Allgemein) mit der Saldoliste und dem Hauptbuch ab (Bilanzgleichheit, Totale, Jahresergebnis, Vorjahreszahlen). Erfasse Differenzen als Notiz.
+- id: e03-b1
+  bereich: [liquiditaet]
+  auftrag: Prozess 2 – Bereite das Prüffeld B1 Flüssige Mittel vor. Liefere je bearbeitetem Schritt den Textfeld-Entwurf und alle Notizen (Pendenz, Wesentliche Feststellungen mit Buchungsvorschlag, Schlussbesprechung).
+- id: e04-c1
+  bereich: [debitoren]
+  auftrag: Prozess 2 – Bereite das Prüffeld C1 Forderungen aus Lieferungen und Leistungen vor (inkl. Delkredere). Liefere je bearbeitetem Schritt den Textfeld-Entwurf und alle Notizen.
+- id: e05-d1
+  bereich: [uebrige-ford]
+  auftrag: Prozess 2 – Bereite die Prüffelder D1 Übrige kurzfristige Forderungen und H3 Beteiligungen vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e06-f1
+  bereich: [vorraete]
+  auftrag: Prozess 2 – Bereite das Prüffeld F1 Vorräte vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e07-f2
+  bereich: [angefangene]
+  auftrag: Prozess 2 – Bereite die Prüffelder F2 Nicht fakturierte Leistungen und E1 Aktive Rechnungsabgrenzung vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e08-g1
+  bereich: [anlagen]
+  auftrag: Prozess 2 – Bereite das Prüffeld G1 Mobile Sachanlagen vor (Anlagespiegel, Zugänge, Abgänge). Liefere Textfeld-Entwürfe und Notizen.
+- id: e09-k1
+  bereich: [kreditoren]
+  auftrag: Prozess 2 – Bereite das Prüffeld K1 Verbindlichkeiten aus Lieferungen und Leistungen vor (inkl. Vollständigkeit/Cut-off). Liefere Textfeld-Entwürfe und Notizen.
+- id: e10-darlehen
+  bereich: [darlehen]
+  auftrag: Prozess 2 – Bereite die Prüffelder L1/N1 (verzinsliche Verbindlichkeiten, Aktionärsdarlehen) und H2 Aktivdarlehen vor, inkl. Zinsen und Rangrücktritte. Liefere Textfeld-Entwürfe und Notizen.
+- id: e11-m1m2
+  bereich: [uebrige-verb]
+  auftrag: Prozess 2 – Bereite die Prüffelder M1 Übrige kurzfristige Verbindlichkeiten und M2 Mehrwertsteuer vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e12-m3o1
+  bereich: [abgrenzungen]
+  auftrag: Prozess 2 – Bereite die Prüffelder M3 Passive Rechnungsabgrenzungen/kurzfristige Rückstellungen und O1 Rückstellungen vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e13-r1
+  bereich: [personal]
+  auftrag: Prozess 2 – Bereite das Prüffeld R1 Personalaufwand vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e14-p1
+  bereich: [eigenkapital]
+  auftrag: Prozess 2 – Bereite das Prüffeld P1 Eigenkapital vor und prüfe Kapitalverlust/Überschuldung und Rangrücktritte. Liefere Textfeld-Entwürfe, Notizen und die Punkte, die der WP entscheiden muss.
+- id: e15-abschluss
+  bereich: [jahresrechnung]
+  auftrag: Prozess 2 – Bereite A1 (Allgemeine Prüfungshandlungen inkl. Vorjahresabstimmung, Ereignisse nach dem Stichtag) und T1 Anhang vor. Liefere Textfeld-Entwürfe und Notizen.
+- id: e16-unterlagen
+  bereich: [eigenkapital, jahresrechnung]
+  auftrag: Prozess 3 – Welche Protokolle (GV/VR) liegen vor, gehören sie zum Mandat und Geschäftsjahr, was ist für 10.9 abzulegen und was fehlt (Vorschläge PBC-Liste 10.10)?

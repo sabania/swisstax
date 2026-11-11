@@ -139,7 +139,11 @@ def ingest(e: dict) -> str:
         if src:
             shutil.copy2(src, raw)
             e["original"] = src.name
-        if e["format"] == "pdf":
+        if e.get("transkript"):
+            # Bildscan ohne Textlayer: wörtliche Abschrift (Agent, nachgeprüft) aus registry/transkripte/ übernehmen
+            text = (R / e["transkript"]).read_text(encoding="utf-8").strip()
+            e["seiten"] = text.count("<!-- Seite ") or e.get("seiten")
+        elif e["format"] == "pdf":
             pages = pdf_pages(raw)
             e["seiten"] = len(pages)
             text = "\n\n".join(f"<!-- Seite {i} -->\n{p}" for i, p in enumerate(pages, 1))
@@ -150,7 +154,7 @@ def ingest(e: dict) -> str:
         elif e["format"] == "png":
             text = "(Bild – Inhalt in wiki/ beschrieben)"
         e.update({"raw": f"raw/{raw.name}", "sha256": sha(raw), "abgerufen": e.get("abgerufen") or now})
-    head = {k: e.get(k) for k in ("id", "kurz", "titel", "typ", "rang", "stand", "url", "raw", "sha256", "seiten", "lizenz") if e.get(k) is not None}
+    head = {k: e.get(k) for k in ("id", "kurz", "titel", "typ", "rang", "stand", "url", "raw", "sha256", "seiten", "lizenz", "transkript", "hinweis") if e.get(k) is not None}
     (R / "sources" / f"{e['id']}.md").write_text(fm(head) + f"# {e['titel']}\n\n" + text + "\n", encoding="utf-8")
     return f"{e['id']}: {len(text):,} Zeichen"
 

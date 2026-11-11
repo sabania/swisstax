@@ -328,13 +328,24 @@ def pruefschritt(ref: str) -> str:
     rv = _revio_fuer(s)
     if rv:
         out += ["", "## revio (MCP)"] + rv
-    ta = [t for t in (L().get("pf", {}).get(s["prueffeld"], {}).get("testakte_2025") or []) if sid in (t.get("bezug") or "")]
-    if ta:
-        out += ["", "## Testakte 2025 (fiktiv, eval/testdaten)"] + [f"- {t['datei']} – {cut(t['bezug'], 120)}" for t in ta[:6]]
+    zt = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", [])) or "–"
+    if art == "teilweise":
+        vorlage = ["## Vorlage (Befragung)", f"Textfeld: Prüfziel(e) {zt} · Quelle der schriftlichen Antwort (10.11 / Protokoll / VE, Datum) · "
+                   "Antwort zusammengefasst · Würdigung · Status «teilweise bearbeitet» (bzw. «vorbereitet», wenn schriftlich vollständig beantwortet).",
+                   "Fehlt die Antwort → Notiz «Pendenz»: «Frage an Kunde (" + sid + "): <Frage> – benötigt bis <Datum>»."]
+    elif art in ("nur_mensch", "auf_anweisung"):
+        vorlage = ["## Vorgehen ohne Anweisung", "Nicht bearbeiten. Im Textfeld/Rapport: Status «nicht bearbeitet – " +
+                   ("WP-Schritt" if art == "nur_mensch" else "nur auf Anweisung") + "». Hinweise für den WP dürfen notiert werden."]
+    else:
+        vorlage = ["## Textfeld-Vorlage (ausfüllen)", f"- Prüfziel(e): {zt}", "- Quellen: <Datei / M-Files-ID, Version>",
+                   "- Auswahl und Umfang: <welche Posten; Begründung: über Toleranzwesentlichkeit / ungewöhnlich / Risiko 3.1>",
+                   "- Ergebnis: <Zahlen, gerechnet mit `rechne`>", "- Feststellungen: <keine | Betrag, Konto, Buchungsvorschlag → Notiz>",
+                   "- Pendenzen: <keine | was fehlt → Notiz «Pendenz»>", "- Status: <vorbereitet | mit Feststellungen | teilweise | nicht bearbeitet>"]
+    out += [""] + vorlage
     je = regel("je_schritt")
     out += ["", f"{je.get('regel', '')}" + (f" ^[{je['quelle']}]" if je.get("quelle") else ""),
-            f"Textfeld: {regel('ergebnis').get('regel', '')}",
-            f"Prüffeld-Übersicht (Risiken, PBC, Fragen): `prueffeld {s['prueffeld']}` · Status: {STATUS if e else 'Katalog (Quelle: Anhang H)'}"]
+            f"Status Wissen: {STATUS if e else 'Katalog (Quelle: Anhang H)'}",
+            f"**Nächster Aufruf:** nächster Schritt `pruefschritt <id>` (Liste: `aufgabe {s['prueffeld']}`) · Notiz erfassen: `revio K7` · Rechnen: `rechne`"]
     return "\n".join(out)
 
 
@@ -366,8 +377,6 @@ def prueffeld(ref: str, voll: bool = False) -> str:
     for s in [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]:
         art = art_of(s)[0]
         out.append(f"| {s['id']} | {s['typ']} | {s.get('kennzeichnung') or ''} | {' '.join(s.get('pruefziele') or [])} | {art} | {cut(s['text'], 110 if not voll else 400)} |")
-    if e.get("testakte_2025"):
-        out += ["", "## Testakte 2025 (fiktiv)"] + [f"- {t['datei']} – {cut(t['bezug'], 100)}" for t in e["testakte_2025"][:12]]
     rv = _revio_fuer({"prueffeld": code, "typ": ""})
     if rv:
         out += ["", "## revio (MCP)"] + rv[:2] + [x for x in rv if x.startswith("- Besonderheit")] + [rv[-1]]
@@ -724,6 +733,167 @@ def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, 
     return "\n".join(out)
 
 
+# ------------------------------------------------------------------ Aufgaben (Einstieg nach Prozess-Task)
+def key(s: str) -> str:
+    """Vergleichsform: klein, Umlaute und ae/oe/ue vereinheitlicht (prüfen = pruefen = prufen)."""
+    s = norm(s)
+    return s.replace("ae", "a").replace("oe", "o").replace("ue", "u")
+
+
+GENERISCH = set("prufen prufe bearbeiten bearbeite vorbereiten bereite mach machen bitte erstellen erstelle durchfuhren fuhre jetzt danke "
+                "kannst konntest sollst soll mal noch hilf helfen".split())
+
+
+def toks(s: str) -> list[str]:
+    return [t for t in re.findall(r"[a-z0-9.]+", key(s)) if t not in STOP and t not in GENERISCH and len(t) > 1]
+
+
+FRAGE = re.compile(r"^\s*(was|wie|wann|wer|welche[rsnm]?|warum|weshalb|darf|muss|ist|sind|gilt|braucht|kann|wo)\b", re.I)
+
+
+def pf_aus_text(text: str):
+    """Prüffeld-Code aus Code (C1) oder Synonym (MWST, Debitoren, Vorräte …)."""
+    codes = {p["code"] for p in L().get("katalog", {}).get("prueffelder", [])}
+    m = re.search(r"\b([A-Za-z]{1,3}\d)\b(?![-./ ]?\d{3})", text or "")
+    if m and m.group(1).upper() in codes:
+        return m.group(1).upper()
+    k = " " + " ".join(toks(text)) + " "
+    best, bl = None, 0
+    for code, syn in (L().get("pf_synonyme") or {}).items():
+        for x in syn:
+            kx = " ".join(toks(x))
+            if kx and f" {kx} " in k and len(kx) > bl:
+                best, bl = code, len(kx)
+    return best
+
+
+def _aufgabe_finden(text: str):
+    ag = L().get("aufgaben", [])
+    t = (text or "").strip()
+    by = {a["id"]: a for a in ag}
+    if key(t) in by:
+        return by[key(t)], None
+    if t.lower() in by:
+        return by[t.lower()], None
+    sid = schritt_id(t)
+    if sid and sid in L().get("katalog", {}).get("schritte", {}):
+        return {"id": "pruefschritt"}, sid
+    m = re.search(r"prozess\s*([0-6])\b", key(t))
+    if m:
+        hit = [a for a in ag if str(a.get("prozess")) == m.group(1) and a["id"] in ("mandat-start", "import", "prueffeld", "unterlagen", "rapport", "gvb-bericht", "pdf-akte")]
+        if hit:
+            return hit[0], pf_aus_text(t)
+    code = pf_aus_text(t)
+    qt = toks(t)
+    kt = " " + " ".join(qt) + " "
+    scores = []
+    for i, a in enumerate(ag):
+        sc = 0.0
+        for x in a.get("stichworte", []):
+            kx = " ".join(toks(x))
+            if not kx:
+                continue
+            if " " in kx and f" {kx} " in kt:
+                sc += 3
+            elif " " not in kx:
+                for w in qt:
+                    if w == kx:
+                        sc += 2
+                    elif len(kx) >= 5 and len(w) >= 5 and (w.startswith(kx) or (len(w) >= 7 and kx.startswith(w)) or w[:7] == kx[:7]):
+                        sc += 1
+        if a["id"] == "fachfrage" and FRAGE.search(t):
+            sc += 1.5
+        scores.append((sc, -i, a))
+    scores.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    bs, _, best = scores[0] if scores else (0, 0, None)
+    if code:
+        if best and bs >= 2 and best["id"] not in ("prueffeld", "fachfrage", "notiz"):
+            return best, code
+        return by.get("prueffeld"), code
+    if best and bs >= 1:
+        return best, None
+    return None, None
+
+
+def _kette_kurz(kid: str) -> list[str]:
+    k = next((k for k in L().get("revio", {}).get("ketten", []) if norm(k["id"]) == norm(kid)), None)
+    if not k:
+        return [f"   revio-Kette {kid}: (noch nicht erfasst – `revio {kid}`)"]
+    out = [f"   revio {k['id']} «{k['aufgabe']}»: " + " → ".join(f"`{s['werkzeug']}`" + ("⛔" if s.get("art") == "nur_mensch" else "") for s in k.get("schritte", []))]
+    if k.get("menschliche_freigabe"):
+        out.append(f"   Mensch: {cut(k['menschliche_freigabe'], 160)}")
+    return out
+
+
+def aufgabe(text: str | None = None) -> str:
+    """Einstieg: zu einer Prozess-Aufgabe (oder Prüffeld/Prüfschritt) alles in einem Aufruf – Ziel, Checkliste mit Aufrufen, Regeln, revio, Fertig-wenn."""
+    ag = L().get("aufgaben", [])
+    if not text:
+        out = ["# Aufgaben des Revisionsagenten – wähle eine und rufe `aufgabe <id>` auf", "", "| Aufgabe | id | wann |", "|---|---|---|"]
+        for a in ag:
+            out.append(f"| {a['titel']} | `{a['id']}` | {cut(a.get('ziel'), 90)} |")
+        out += ["", "Prüffeld direkt: `aufgabe C1` · Prüfschritt direkt: `aufgabe C1-302` (= `pruefschritt C1-302`)."]
+        return "\n".join(out)
+    a, par = _aufgabe_finden(text)
+    if not a:
+        return aufgabe(None) + f"\n\n(«{text}» keiner Aufgabe zugeordnet – passende id wählen oder `suche` für Fachfragen.)"
+    if a["id"] == "pruefschritt":
+        return pruefschritt(par)
+    out = [f"# Aufgabe: {a['titel']}" + (f" – {par} {_pfname(par)}" if par and a['id'] == 'prueffeld' else ""),
+           f"Ziel: {a['ziel']}" + (f" ^[{a['quelle']}]" if a.get("quelle") else "")]
+    nie = regel("visum").get("regel", "")
+    out += [f"Grenze: vorbereiten ja, abschliessen nie – {cut(nie, 160)}", "", "## Regeln für diese Aufgabe"]
+    for k in a.get("regeln", []):
+        r = regel(k)
+        if r:
+            out.append(f"- {r['regel']} ^[{r['quelle']}]")
+    out += ["", "## Checkliste (der Reihe nach; Aufrufe genau so verwenden)"]
+    for i, c in enumerate(a.get("checkliste", []), 1):
+        call = c.get("aufruf", "")
+        if par and a["id"] == "prueffeld":
+            call = call.replace("<code>", par)
+        out.append(f"{i}. {c['text']}" + (f"  → `{call}`" if call else ""))
+        if call.startswith("revio K"):
+            out += _kette_kurz(call.split()[1])
+    if a["id"] == "prueffeld" and par:
+        out += ["", _prueffeld_kompakt(par)]
+    elif a["id"] == "prueffeld":
+        out += ["", "Prüffeld fehlt: `aufgabe prueffeld C1` (Codes: " + ", ".join(p["code"] for p in L()["katalog"]["prueffelder"]) + ")."]
+    out += ["", f"**Fertig, wenn:** {a.get('fertig_wenn', '')}"]
+    if a.get("naechste"):
+        out.append("**Nächste Aufgabe:** " + ", ".join(f"`aufgabe {n}`" for n in a["naechste"]))
+    return "\n".join(out)
+
+
+def _prueffeld_kompakt(code: str) -> str:
+    p = next(x for x in L()["katalog"]["prueffelder"] if x["code"] == code)
+    e = L().get("pf", {}).get(code, {})
+    st = [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]
+    out = [f"## Prüffeld {code} {p['bezeichnung']} – Bündel"]
+    if e.get("kurzbeschrieb"):
+        out.append(cut(e["kurzbeschrieb"], 400))
+    if e.get("risiken"):
+        out.append("Risiken: " + " · ".join(cut(r["text"], 110) + (f" [{','.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") for r in e["risiken"][:6]))
+    if e.get("unterlagen"):
+        out.append("Unterlagen (M-Files/PBC): " + "; ".join(u["dokument"] for u in e["unterlagen"]))
+    if e.get("fragen_kunde"):
+        out.append("Fragen an Kunden (10.11 auswerten, sonst Pendenz): " + " | ".join(cut(f["frage"], 120) for f in e["fragen_kunde"][:6]))
+    if e.get("bewertung"):
+        out.append("Bewertung: " + " · ".join(f"{cut(b['regel'], 110)} ^[{b.get('quelle')}]" for b in e["bewertung"][:4]))
+    groups = {"vorbereiten": [], "teilweise": [], "auf_anweisung": [], "nur_mensch": []}
+    for s in st:
+        groups[art_of(s)[0]].append(s)
+    out.append("Schritte → je Schritt `pruefschritt <id>`:")
+    lab = {"vorbereiten": "vorbereiten", "teilweise": "Befragung (schriftlich auswerten / Pendenz)", "auf_anweisung": "nur auf Anweisung (4xx)", "nur_mensch": "WP-Schritte (nur auf Anweisung)"}
+    for k, v in groups.items():
+        if v:
+            out.append(f"- {lab[k]}: " + ", ".join(f"{s['id']} {cut(s['text'], 48)}" for s in v))
+    pb = {"A1": "vorjahresabstimmung", "P1": "vorjahresabstimmung", "C1": "delkredere", "G1": "sachanlagen"}.get(code)
+    if pb:
+        out.append(f"Playbook: `aufgabe {pb}`")
+    return "\n".join(out)
+
+
 # ------------------------------------------------------------------ Themen / Hilfe
 def thema(begriff: str) -> str:
     th = L().get("themen", [])
@@ -770,6 +940,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(prog="revision", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("hilfe")
+    x = sub.add_parser("aufgabe"); x.add_argument("text", nargs="*")
     s = sub.add_parser("suche"); s.add_argument("query"); s.add_argument("--quelle"); s.add_argument("--typ"); s.add_argument("--n", type=int, default=8)
     z = sub.add_parser("zeige"); z.add_argument("ref"); z.add_argument("--abschnitt")
     pz = sub.add_parser("pruefe-zitat"); pz.add_argument("chunk"); pz.add_argument("zitat")
@@ -793,6 +964,7 @@ def main(argv=None):
     c = a.cmd
     res = {
         "hilfe": lambda: hilfe(),
+        "aufgabe": lambda: aufgabe(j(a.text) or None),
         "suche": lambda: suche(a.query, a.quelle, a.typ, a.n),
         "zeige": lambda: zeige(a.ref, a.abschnitt),
         "pruefe-zitat": lambda: pruefe_zitat(a.chunk, a.zitat),

@@ -20,6 +20,13 @@ def obj(props: dict, req: list) -> dict:
 
 
 TOOLS = [
+    {"name": "aufgabe", "fn": lambda a: rv.aufgabe(a.get("aufgabe") or None),
+     "description": "IMMER ZUERST AUFRUFEN. Liefert zu einer Aufgabe in EINEM Aufruf alles Nötige: Ziel, Regeln, Checkliste mit den genauen "
+                    "nächsten Aufrufen, revio-Werkzeugkette, Fertig-wenn, nächste Aufgabe. Eingabe: Aufgabe in eigenen Worten oder id "
+                    "(mandat-start, import, prueffeld, unterlagen, rapport, gvb-bericht, pdf-akte, notiz, wesentlichkeit, kapitalschutz, "
+                    "vorjahresabstimmung, delkredere, sachanlagen, abschluss, auftrag, fachfrage) oder direkt ein Prüffeld (C1) bzw. "
+                    "einen Prüfschritt (C1-302). Ohne Eingabe: Liste aller Aufgaben.",
+     "inputSchema": obj({"aufgabe": {**S, "description": "z.B. «Prüffeld C1 vorbereiten», «Rapport schreiben», «kapitalschutz», «C1-302»"}}, [])},
     {"name": "pruefschritt", "fn": lambda a: rv.pruefschritt(a["id"]),
      "description": "Ein Prüfschritt des revio-4.0-Katalogs (z.B. C1-302): Katalogtext, Typ, EP/WP, Prüfziele, Rolle des Agenten (vorbereiten / "
                     "teilweise / nur auf Anweisung / nur Mensch), konkretes Vorgehen, Nachweise, Rechenregel, wann Notiz/Feststellung, "
@@ -107,9 +114,9 @@ def main():
                 "protocolVersion": par.get("protocolVersion") or "2025-06-18",
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "revisionswiki", "version": "1.0.0"},
-                "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0): Prüfschritt → pruefschritt; Prüffeld → prueffeld; "
-                                "Ablauf/WP-Entscheide → prozess, regeln; revio-Werkzeug → revio; Zahlen → wert/rechne/wesentlichkeit/"
-                                "kapitalverlust/revisionspflicht; sonst thema/suche → zeige. Agent bereitet nur vor (nie Visum/Abschluss/Freigabe)."}})
+                "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0). IMMER ZUERST `aufgabe` mit der Aufgabe in eigenen Worten – "
+                                "die Antwort nennt die nächsten Aufrufe (pruefschritt, revio, rechne …). Fachfrage: thema/wert/suche → zeige. "
+                                "Agent bereitet nur vor (nie Visum/Abschluss/Freigabe/Versand)."}})
         elif meth == "tools/list":
             send({"jsonrpc": "2.0", "id": i, "result": {"tools": [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]}})
         elif meth == "tools/call":

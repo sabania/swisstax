@@ -1,0 +1,356 @@
+# Prozess-Aufgaben des Revisionsagenten – Einstieg für die Navigation (Tool `aufgabe`).
+# Je Aufgabe ein Bündel: Ziel, Checkliste mit genauen Aufrufen, Regeln (Schlüssel aus regeln.yaml), revio-Ketten (ketten.yaml),
+# Fertig-wenn, nächste Aufgabe. Ziel: der Agent hat nach EINEM Aufruf alles, was er für die Aufgabe braucht.
+# Grundlage: Konzept KI-Revisionsagent (consis) – Fundstelle je Aufgabe. Status: agent-geprueft (Review offen).
+# Synonyme je Prüffeld (für «Vorräte prüfen», «MWST», «Debitoren» …)
+prueffeld_synonyme:
+  A1: [allgemeine pruefungshandlungen, gesamtanalytik, jahresrechnung als ganzes]
+  B1: [fluessige mittel, bank, banken, kasse, post, liquiditaet, bankkonto, wertschriften]
+  C1: [debitoren, forderungen lul, forderungen aus lieferungen, kundenforderungen, op-liste debitoren]
+  D1: [uebrige forderungen, uebrige kurzfristige forderungen, verrechnungssteuer guthaben, kautionen]
+  E1: [aktive rechnungsabgrenzung, transitorische aktiven, ara]
+  F1: [vorraete, lager, inventar, inventur, warenlager]
+  F2: [angefangene arbeiten, nicht fakturierte leistungen, projekte, ware in arbeit]
+  G1: [mobile sachanlagen, sachanlagen, anlagen, fahrzeuge, maschinen, mobiliar, it-anlagen]
+  G2: [immobile sachanlagen, liegenschaften, immobilien, gebaeude, grundstuecke]
+  H1: [finanzanlagen, wertschriften anlagevermoegen]
+  H2: [aktivdarlehen, darlehen an aktionaer, darlehen an nahestehende, darlehensforderung]
+  H3: [beteiligungen, tochtergesellschaft, beteiligung]
+  I1: [immaterielle anlagen, immaterielle werte, goodwill, software, lizenzen]
+  K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen]
+  L1: [kurzfristige verzinsliche verbindlichkeiten, bankschulden kurzfristig, kontokorrent]
+  M1: [uebrige kurzfristige verbindlichkeiten, sozialversicherungen, ahv, quellensteuer verbindlichkeit]
+  M2: [mwst, mehrwertsteuer, vorsteuer, umsatzsteuer]
+  M3: [passive rechnungsabgrenzung, transitorische passiven, pra, kurzfristige rueckstellungen]
+  N1: [langfristige verbindlichkeiten, aktionaersdarlehen, hypothek, bankdarlehen, darlehen von aktionaeren]
+  O1: [rueckstellungen, langfristige rueckstellungen, prozessrisiken, garantierueckstellung]
+  P1: [eigenkapital, aktienkapital, reserven, gewinnverwendung, kapitalerhoehung, bilanzgewinn]
+  R1: [personalaufwand, loehne, lohn, personal, saläre, salaere, lohnaufwand]
+  S1: [steuern, direkte steuern, steuerrueckstellung, ertragssteuern]
+  SCH1: [betrieblicher ertrag, umsatz, erloese, ertrag]
+  SCH2: [direkter aufwand, materialaufwand, warenaufwand]
+  SCH3: [uebriger betrieblicher aufwand, raumaufwand, verwaltungsaufwand]
+  SCH4: [finanzaufwand, finanzertrag, zinsen, zinsaufwand]
+  SCH5: [nebenbetrieb, betriebsfremd, ausserordentlich, ausserordentlicher aufwand]
+  T1: [anhang, anhang zur jahresrechnung, 959c]
+aufgaben:
+- id: mandat-start
+  titel: Mandat starten – Kontext fixieren und Überblick gewinnen
+  stichworte: [start, starten, starte, beginnen, beginne, mandat, mandatskontext, kontext, dossier, dossier oeffnen, ueberblick, neue revision, revision starten, revision beginnen, auftrag erhalten, kontext-schluessel]
+  prozess: "0"
+  phase: p8-agentablauf
+  ziel: Mandatskontext (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag) fixieren, Dossier öffnen, Planung lesen (Revisionsart, Wesentlichkeit 3.3, Risiken 3.1, Strategie 3.5) und die markierten Prüffelder bestimmen.
+  quelle: konzept-ki-revisionsagent-2026__c009-1
+  zitat: Zu Beginn wird ein Kontext-Schlüssel fixiert
+  regeln: [mandatskontext, schreibbereiche, lesen, visum]
+  checkliste:
+  - text: Kontext-Schlüssel festhalten – Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag. Jeder spätere Zugriff wird dagegen geprüft; Abweichung → abbrechen und Pendenz.
+  - text: Kunde und Dossier (Jahresakte) in revio finden und öffnen.
+    aufruf: revio K1
+  - text: Wesentlichkeit 3.3 lesen (Gesamt, Toleranz 75 %, Nichtaufgriff 5 %) – nie ändern; Plausibilität prüfen.
+    aufruf: aufgabe wesentlichkeit
+  - text: Risikobeurteilung 3.1 und strategische Planung 3.5 lesen – welche Prüffelder sind markiert, Prüfungstiefe, Priorität.
+    aufruf: revio K4
+  - text: Vorjahr lesen (Vorjahresakte, Pendenzen, Feststellungen) und Vorjahresabstimmung einplanen.
+    aufruf: revio K10
+  - text: Revisionsart plausibilisieren (eingeschränkt? Opting-out?) – nur bei Zweifel, Entscheid WP.
+    aufruf: revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen …
+  fertig_wenn: Kontext-Schlüssel steht, Dossier offen, Wesentlichkeit und markierte Prüffelder bekannt.
+  naechste: [import, prueffeld]
+- id: import
+  titel: Prozess 1 – Jahresrechnung importieren und abstimmen
+  stichworte: [import, jahresrechnung, bilanz, erfolgsrechnung, saldenbilanz, kontenzuordnung, prozess 1, einlesen, vorzeichen]
+  prozess: "1"
+  phase: p8-agentablauf
+  ziel: Definitive Bilanz und Erfolgsrechnung aus M-Files in revio 1.1 übernehmen, Konten zuordnen, Bilanzgleichheit und Totale abstimmen.
+  quelle: konzept-ki-revisionsagent-2026__c011-1
+  zitat: Definitive Bilanz und ER in M-Files suchen
+  regeln: [mandatskontext, rechenmodul, testphase_halt, pendenz]
+  checkliste:
+  - text: Definitive Bilanz und ER des Geschäftsjahres in M-Files suchen (Kunde, Geschäftsjahr, Klasse) – nur «definitiv», nicht Entwürfe.
+  - text: Import in revio (Saldenbilanz/Kontenplan) – Werkzeuge und Grenzen der Kette beachten.
+    aufruf: revio K2
+  - text: Vorzeichen der Passiven prüfen (offener Entscheid enco/revio, ob Importoption oder Excel-Zwischenschritt).
+  - text: Konten den Positionen zuordnen; unklare Zuordnungen als Pendenz (Konto, Betrag).
+    aufruf: aufgabe notiz
+  - text: Bilanzgleichheit (Aktiven = Passiven), Totale und Jahresergebnis gegen die Jahresrechnung abstimmen – im Rechenmodul.
+    aufruf: rechne "Aktiven = …; Passiven = …; Differenz = … - …"
+  - text: Testphase – Halt nach dem Import, WP kontrolliert die Kontenzuordnung, bevor Prüffelder bearbeitet werden.
+  fertig_wenn: Saldenbilanz in revio stimmt mit der definitiven Jahresrechnung überein (Differenz 0), unklare Zuordnungen als Pendenz erfasst, WP informiert (Halt).
+  naechste: [prueffeld, unterlagen]
+- id: prueffeld
+  titel: Prozess 2 – Prüffeld bearbeiten (markierte Abschlussprüfung)
+  stichworte: [prueffeld, abschlusspruefung, prozess 2, bilanzposition, pruefschritte, markierte pruefung]
+  prozess: "2"
+  phase: p3-durchfuehrung
+  ziel: Alle Prüfschritte des Prüffelds nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen, Notizen erfassen – Visum offen lassen.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Prüfschritte nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen, Notizen erfassen
+  regeln: [je_schritt, ergebnis, pruefziele, befragung, analytisch, detail, sonstige, wp, rechenmodul, prozess2]
+  checkliste:
+  - text: Prüffeld-Bündel lesen (unten) – Risiken, Bewertungsregeln, Unterlagen, Fragen an den Kunden, Schritte mit Rolle.
+  - text: Kontenübersicht/Saldi des Prüffelds und Vorjahr aus revio lesen; Toleranzwesentlichkeit aus 3.3 bereithalten.
+    aufruf: revio K5
+  - text: Unterlagen (PBC) in M-Files suchen; Fehlendes → Pendenz und PBC-Vorschlag 10.10.
+    aufruf: aufgabe notiz
+  - text: Jeden Schritt einzeln bearbeiten (Reihenfolge 1xx → 2xx → 3xx; 4xx nur auf Anweisung; WP-Schritte nur auf Anweisung) – für jeden Schritt genau einen Aufruf.
+    aufruf: pruefschritt <id>
+  - text: Textfeld-Entwurf je Schritt (Prüfziel, Quellen mit M-Files-ID, Auswahl/Umfang mit Begründung, Ergebnis mit Zahlen, Feststellungen, Pendenzen, Status).
+    aufruf: revio K6
+  - text: Feststellungen und Pendenzen als Notiz erfassen (Buchungsvorschlag ohne Verbuchung).
+    aufruf: revio K7
+  - text: Visum, ✓ und Abschliessende Beurteilung offen lassen.
+  fertig_wenn: Jeder Schritt hat Status (vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet mit Grund), alle Feststellungen und Pendenzen sind als Notiz erfasst.
+  naechste: [rapport]
+- id: unterlagen
+  titel: Prozess 3 – Unterlagen zum Abschluss (10.9 Protokolle, PBC-Liste, Kundenbefragung)
+  stichworte: [unterlagen, protokoll, protokolle, 10.9, pbc, pbc-liste, 10.10, kundenbefragung, 10.11, gv-protokoll, vr-protokoll, prozess 3, fehlende unterlagen, ablegen]
+  prozess: "3"
+  phase: p8-agentablauf
+  ziel: Protokoll Vorjahr (GV/VR) aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen
+  regeln: [schreibbereiche, befragung, pendenz, mandatskontext]
+  checkliste:
+  - text: Protokolle (ordentliche/ausserordentliche GV, VR) des Geschäftsjahres und des Vorjahres in M-Files suchen; Zugehörigkeit prüfen (Gesellschaft, Datum, Geschäftsjahr, Unterschriften).
+  - text: In revio 10.9 ablegen – Status bleibt offen.
+    aufruf: revio K8
+  - text: Inhalt auswerten (Genehmigung Vorjahresrechnung, Gewinnverwendung, Wahl Revisionsstelle, Kapitalmassnahmen, Darlehen an Aktionäre) und Bezug zu P1/A1 herstellen.
+    aufruf: prueffeld P1
+  - text: Fehlende Unterlagen je Prüffeld sammeln → Vorschlag PBC-Liste 10.10 (Anforderung beim Kunden macht der Mensch).
+    aufruf: unterlagen alle
+  - text: Kundenbefragung 10.11 lesen und Antworten den Befragungsschritten (1xx) zuordnen.
+    aufruf: revio K9
+  fertig_wenn: Protokolle abgelegt (Status offen), PBC-Vorschläge erfasst, Antworten aus 10.11 den Schritten zugeordnet.
+  naechste: [prueffeld, rapport]
+- id: rapport
+  titel: Prozess 4 – Revisionsrapport an den Wirtschaftsprüfer
+  stichworte: [rapport, bericht an wp, zusammenfassung, status, email, mail, prozess 4, offene punkte, revisionsrapport]
+  prozess: "4"
+  phase: p8-agentablauf
+  ziel: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet), offene und wesentliche Punkte zuerst, mit Verweis auf Schritt und Notiz – als E-Mail-Entwurf nur an die freigegebene WP-Adresse.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet), offene und wesentliche Punkte zuerst, Verweis auf Schritt und Notiz
+  regeln: [ergebnis, pendenz_rapport, email, gesamt]
+  checkliste:
+  - text: Status je Prüffeld und Schritt aus revio sammeln (Textfelder, Notizen).
+    aufruf: revio K11
+  - text: 'Aufbau: 1. Wesentliche Feststellungen (Schritt-Id, Notiz, Betrag, Buchungsvorschlag) · 2. offene Pendenzen und PBC-Vorschläge · 3. Status je Prüffeld (Anzahl vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet + Grund) · 4. Entscheide für den WP (z.B. Kapitalverlust, Hinweise im Bericht, WP-Schritte, Summe nicht korrigierter Fehler für 6.1).'
+  - text: Summen der Feststellungen im Rechenmodul bilden und mit der Gesamtwesentlichkeit vergleichen (Beurteilung macht der WP in 6.1).
+    aufruf: rechne "…"
+  - text: Nur E-Mail-Entwurf bzw. Versand an die freigegebene WP-Adresse; nie an Kunden; keine Prüfungsaussage.
+  fertig_wenn: Rapport-Entwurf enthält alle Feststellungen und Pendenzen mit Verweis, Status aller markierten Prüffelder, offene Entscheide.
+  naechste: [gvb-bericht]
+- id: gvb-bericht
+  titel: Prozess 5 – Bericht an die Generalversammlung (Entwurf)
+  stichworte: [gvb, bericht, revisionsbericht, generalversammlung, deckblatt, berichtstext, prozess 5, normalwortlaut, hinweis, einschraenkung]
+  prozess: "5"
+  phase: p5-bericht
+  ziel: Vorjahres-Deckblatt und -Berichtstext kopieren, Jahreszahlen, Stichtage und Jahresergebnis aktualisieren, gegen 7.1 Berichtsstrategie und 7.5 Berichtskritik prüfen – ohne Unterzeichnung und Datierung.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Vorjahres-Deckblatt und -Berichtstext kopieren, Jahreszahlen, Stichtage und Jahresergebnis aktualisieren
+  regeln: [gvb, or729b_bericht, or725a_kapitalverlust, or729c_anzeige]
+  checkliste:
+  - text: Berichtsstrategie 7.1 und Berichtskritik 7.5 lesen (nur lesen).
+    aufruf: revio K12
+  - text: Vorjahres-Deckblatt und -Berichtstext in M-Files kopieren (Original unverändert lassen) und Jahreszahlen, Stichtag, Jahresergebnis/Bilanzsumme aktualisieren.
+  - text: 'Prüfen, ob der Normalwortlaut passt: Kapitalverlust (OR 725a), Überschuldung/Rangrücktritt (OR 725b), Gesetzesverstösse (Hinweis), Fortführung – Modifikation oder Hinweis entscheidet der WP; der Agent markiert nur.'
+    aufruf: aufgabe kapitalschutz
+  - text: Musterformulierungen für den WP bereitlegen.
+    aufruf: suche "Hinweis Kapitalverlust Bericht" --quelle muster-hwp-er-2026
+  - text: Keine Unterzeichnung, keine Datierung; Entwurf im Rapport melden.
+  fertig_wenn: GVB-Entwurf mit aktualisierten Zahlen liegt in M-Files, Abweichungen vom Normalwortlaut sind für den WP markiert.
+  naechste: [pdf-akte]
+- id: pdf-akte
+  titel: Prozess 6 – PDF-Akte (nur auf Anweisung)
+  stichworte: [pdf, akte, archiv, arbeitspapiere, prozess 6, ablage m-files, ap revio]
+  prozess: "6"
+  phase: p8-agentablauf
+  ziel: Nur auf Anweisung des WP – PDF-Akte erzeugen, prüfen, in M-Files ablegen (Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»).
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Nur auf Anweisung
+  regeln: [pdf_akte, dienstbenutzer]
+  checkliste:
+  - text: Anweisung des WP vorhanden? Sonst nicht ausführen.
+  - text: PDF-Akte in revio erzeugen.
+    aufruf: revio K13
+  - text: PDF prüfen (vollständig, richtiges Mandat/Jahr), in M-Files ablegen (Klasse Revision, Kategorie Arbeitspapiere, Bezeichnung «AP revio») – nichts überschreiben, Speicherort bestätigen.
+  fertig_wenn: PDF-Akte abgelegt, Speicherort an den WP gemeldet.
+  naechste: []
+- id: notiz
+  titel: Notiz, Pendenz, Feststellung oder Buchungsvorschlag erfassen
+  stichworte: [notiz, pendenz, feststellung, wesentliche feststellung, buchungsvorschlag, schlussbesprechung, beilage, fehlt, fehlende, nachfrage, frage an kunde]
+  prozess: "2"
+  phase: p3-durchfuehrung
+  ziel: Jede offene Frage, fehlende Unterlage und jeden möglichen Fehler in der richtigen Notizkategorie erfassen – mit Konto, Datum, Betrag, Verweis auf den Schritt; Nachweis als Beilage.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Notizen löscht oder erledigt er nie.
+  regeln: [pendenz, wesentliche_feststellungen, schlussbesprechung, review, nie_loeschen, beilage, buchung, nichtaufgriff]
+  checkliste:
+  - text: 'Kategorie wählen: Pendenz (fehlt/ungeklärt) · Wesentliche Feststellungen (möglicher Fehler + begründeter Buchungsvorschlag, keine Verbuchung) · Schlussbesprechung (Punkt für WP–Kunde) · Review: nie (gehört dem WP).'
+  - text: 'Inhalt: Prüffeld und Schritt-Id, Konto, Datum, Betrag (im Rechenmodul gerechnet), Sachverhalt, Nachweis (M-Files-ID), bei Feststellung Buchungsvorschlag «Soll / Haben / Betrag».'
+    aufruf: rechne "…"
+  - text: Differenzen unter der Nichtaufgriffsgrenze nur im Textfeld protokollieren (keine Notiz), ausser qualitative Gründe.
+  - text: Notiz in revio erfassen und Beilage anhängen.
+    aufruf: revio K7
+  fertig_wenn: Notiz mit Kategorie, Verweis, Betrag und Beilage erfasst; nichts gelöscht oder erledigt.
+  naechste: [prueffeld]
+- id: wesentlichkeit
+  titel: Wesentlichkeit 3.3 lesen, plausibilisieren und anwenden
+  stichworte: [wesentlichkeit, toleranz, toleranzwesentlichkeit, nichtaufgriff, nichtaufgriffsgrenze, stichprobe, auswahl, umfang, 3.3, materiality]
+  prozess: "0"
+  phase: p2-planung
+  ziel: Werte aus revio 3.3 lesen (nie ändern), Plausibilität (Bezugsgrösse, Prozentsatz, Begründung) prüfen und für Umfang/Stichprobe und Feststellungen anwenden.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  regeln: [lesen, toleranz, nichtaufgriff, gesamt, plausibel, stichprobe_vorschlag]
+  checkliste:
+  - text: Wesentlichkeit 3.3 lesen (Bezugsgrösse, Prozentsatz, Begründung, Gesamt-, Toleranz-, Nichtaufgriffsgrenze).
+    aufruf: revio K3
+  - text: Nachrechnen und plausibilisieren.
+    aufruf: wesentlichkeit <bezugsgrösse> <satz%>
+  - text: Bandbreiten laut Fachliteratur vergleichen; passt es nicht → Pendenz (nie ändern).
+    aufruf: thema wesentlichkeit
+  - text: 'Anwenden: Toleranzwesentlichkeit steuert Umfang/Stichprobe (Vorschlag: alle Posten darüber + ungewöhnliche Posten + nach Risiko), Nichtaufgriffsgrenze = nur protokollieren, Gesamtwesentlichkeit = Massstab für Wesentliche Feststellungen.'
+  fertig_wenn: Drei Werte bekannt und plausibilisiert; Abweichungen als Pendenz.
+  naechste: [prueffeld]
+- id: kapitalschutz
+  titel: Kapitalverlust, Überschuldung, Rangrücktritt prüfen
+  stichworte: [kapitalverlust, ueberschuldung, rangruecktritt, 725a, 725b, zwischenabschluss, sanierung, eigenkapital negativ, haelftiger, anzeige gericht, 729c, going concern, fortfuehrung]
+  prozess: "2"
+  phase: p6-kapitalschutz
+  ziel: Kapitalverlust (OR 725a) und Überschuldung (OR 725b) rechnerisch feststellen, Rangrücktritte und Zwischenabschlüsse prüfen, Folgen für Bericht und Anzeigepflicht für den WP aufbereiten.
+  quelle: or__art-725a
+  zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+  regeln: [or725a_kapitalverlust, or725b_zwischenabschluss, or725b_pruefung, or725b_rangruecktritt, or725b_90tage, or729c_anzeige, or725_zahlungsfaehigkeit]
+  checkliste:
+  - text: Aktiven, Verbindlichkeiten (inkl. Rückstellungen), Aktienkapital, gesetzliche Kapital- und Gewinnreserve aus der Jahresrechnung lesen und rechnen.
+    aufruf: kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … --rangruecktritt …
+  - text: Bei Überschuldung zu Buchwerten – Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten verlangen (Pendenz), Prüfung durch die Revisionsstelle.
+  - text: 'Rangrücktrittsvereinbarungen prüfen: Betrag UND Zinsen während der Dauer der Überschuldung, Stundung, Ausmass ≥ Überschuldung, unterzeichnet.'
+    aufruf: thema rangruecktritt
+  - text: VR-Massnahmen (Protokolle) und Sanierung dokumentieren; Fortführungsfähigkeit beachten.
+    aufruf: prozess p6
+  - text: Für den WP aufbereiten (Notiz Wesentliche Feststellungen/Schlussbesprechung) – Hinweis/Zusatz im Bericht und Anzeige (OR 729c) entscheidet der WP.
+    aufruf: aufgabe notiz
+  fertig_wenn: Rechnung dokumentiert (P1-Textfeld), Rangrücktritte beurteilt, offene Punkte als Notiz, WP im Rapport informiert.
+  naechste: [gvb-bericht, rapport]
+- id: vorjahresabstimmung
+  titel: Playbook Vorjahresabstimmung (A1-302, A1-303, P1-302)
+  stichworte: [vorjahr, eroeffnungsbilanz, eroeffnungssaldi, vorjahresbestaende, abstimmung vorjahr, a1-302, saldovortrag, gewinnverwendung vorjahr]
+  prozess: "2"
+  phase: p3-durchfuehrung
+  ziel: Eröffnungssaldi gegen die geprüfte Vorjahresrechnung abstimmen, Saldi Hauptbuch gegen Jahresrechnung, Reserven und Bilanzergebnis gegen den Gewinnverwendungsbeschluss der GV.
+  quelle: konzept-ki-revisionsagent-2026__c013-1
+  zitat: Abstimmung Vorjahresbestände
+  regeln: [rechenmodul, ergebnis]
+  checkliste:
+  - text: Schritte lesen.
+    aufruf: pruefschritt A1-302
+  - text: Saldi Hauptbuch gegen Jahresrechnung.
+    aufruf: pruefschritt A1-303
+  - text: Reserven und Bilanzergebnis gegen GV-Beschluss (Protokoll 10.9).
+    aufruf: pruefschritt P1-302
+  - text: Jede Differenz im Rechenmodul; Differenzen über der Nichtaufgriffsgrenze als Wesentliche Feststellung.
+    aufruf: rechne "…"
+  fertig_wenn: Alle Bilanzkonten abgestimmt, Differenzen dokumentiert.
+  naechste: [prueffeld]
+- id: delkredere
+  titel: Playbook C1 Delkredere (C1-302 mit Folgeschritten)
+  stichworte: [delkredere, wertberichtigung, wertberichtigungen, altersstruktur, c1-302, zweifelhafte forderung, debitorenverluste]
+  prozess: "2"
+  phase: p3-durchfuehrung
+  ziel: Angemessenheit der Wertberichtigungen/Delkredere aufgrund Vorjahreserfahrung, Altersstruktur und Befragung beurteilen (C1-302) – mit OP-Liste (101), Wertberichtigungen (104), Altersstruktur (202), Kennzahlen (207), Zahlungen nach Stichtag (304, WP) und stillen Reserven (321).
+  quelle: konzept-ki-revisionsagent-2026__c013-1
+  zitat: C1 Delkredere
+  regeln: [rechenmodul, detail, wp]
+  checkliste:
+  - text: Hauptschritt lesen.
+    aufruf: pruefschritt C1-302
+  - text: OP-Liste per Stichtag gegen Saldo Konto Debitoren abstimmen (C1-101/C1-301).
+    aufruf: pruefschritt C1-101
+  - text: Altersstruktur bilden und alte/zweifelhafte Posten bestimmen (C1-202); Zahlungseingänge nach Stichtag (Folgejahr) nutzen.
+    aufruf: pruefschritt C1-202
+  - text: Delkredere rechnen (Einzelwertberichtigung zweifelhafter Posten + Pauschale) und mit Buchung vergleichen; ESTV-Pauschale nur als steuerliche Praxis (offener Entscheid consis).
+    aufruf: thema delkredere
+  - text: Stille Reserven im Delkredere (C1-303/C1-321) erfassen.
+    aufruf: pruefschritt C1-321
+  fertig_wenn: Delkredere nachgerechnet, Differenz und Buchungsvorschlag als Notiz, stille Reserven erfasst.
+  naechste: [prueffeld]
+- id: sachanlagen
+  titel: Playbook G1 Sachanlagen (Anlagespiegel, Inventarliste, Einkaufsfakturen)
+  stichworte: [sachanlagen, anlagespiegel, inventarliste, aktivierung, einkaufsfakturen, g1-305, abschreibung, anlagen, investitionen, abgang]
+  prozess: "2"
+  phase: p3-durchfuehrung
+  ziel: Anlagespiegel (G1-301) und Inventarliste (G1-302) abstimmen, Aktivierungsfähigkeit (G1-403) beurteilen; Einkaufsfakturen (G1-305) ist ein WP-Schritt.
+  quelle: konzept-ki-revisionsagent-2026__c013-1
+  zitat: G1 Einkaufsfakturen
+  regeln: [wp, detail, rechenmodul]
+  checkliste:
+  - text: Anlagespiegel gegen Hauptbuch abstimmen (Anfangsbestand + Zugänge − Abgänge − Abschreibungen = Endbestand).
+    aufruf: pruefschritt G1-301
+  - text: Inventarliste abstimmen.
+    aufruf: pruefschritt G1-302
+  - text: Aktivierungsfähigkeit grösserer Zugänge beurteilen (nur auf Anweisung, 4xx).
+    aufruf: pruefschritt G1-403
+  - text: G1-305 Einkaufsfakturen ist WP-Schritt – nur auf ausdrückliche Anweisung vorbereiten.
+    aufruf: pruefschritt G1-305
+  fertig_wenn: Anlagespiegel abgestimmt, Abweichungen als Notiz.
+  naechste: [prueffeld]
+- id: abschluss
+  titel: Beendigung – Ereignisse nach dem Stichtag, Vollständigkeitserklärung, nicht korrigierte Fehler
+  stichworte: [beendigung, abschluss, ereignisse nach dem bilanzstichtag, vollstaendigkeitserklaerung, ve, going concern, nicht korrigierte fehler, 6.1, schlussbesprechung, folgejahr]
+  prozess: "2"
+  phase: p4-abschluss
+  ziel: Für den WP vorbereiten – Ereignisse nach dem Stichtag (Folgejahresbuchungen, Protokolle), Vollständigkeitserklärung (Muster, Datum), Liste nicht korrigierter Fehler (6.1, Beurteilung WP), Punkte für die Schlussbesprechung.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
+  regeln: [gesamt, schlussbesprechung, visum]
+  checkliste:
+  - text: Phase lesen (was nötig ist, WP-Entscheide).
+    aufruf: prozess p4
+  - text: Ereignisse nach dem Stichtag – Kontoblätter Folgejahr, Protokolle nach Stichtag durchsehen.
+    aufruf: thema ereignisse nach dem bilanzstichtag
+  - text: Vollständigkeitserklärung – Muster und Inhalt.
+    aufruf: thema vollstaendigkeitserklaerung
+  - text: Nicht korrigierte Fehler summieren (Rechenmodul) – Beurteilung in 6.1 durch den WP.
+    aufruf: rechne "…"
+  fertig_wenn: Liste Ereignisse, VE-Status, Summe nicht korrigierter Fehler und Schlussbesprechungspunkte im Rapport.
+  naechste: [rapport]
+- id: auftrag
+  titel: Auftrag – Annahme/Fortführung, Unabhängigkeit, Revisionsart (Entscheid WP)
+  stichworte: [auftragsannahme, fortfuehrung, unabhaengigkeit, mitwirkung, buchfuehrung, opting-out, revisionsart, auftragsbestaetigung, wahl revisionsstelle]
+  prozess: "0"
+  phase: p1-auftrag
+  ziel: Grundlagen für den Entscheid des WP bereitstellen (Revisionsart, Unabhängigkeit, Auftragsbestätigung); revio 2.2/2.4 nur lesen.
+  quelle: konzept-ki-revisionsagent-2026__c006-2
+  zitat: 2.2 Auftragsannahme und Weiterführung, 2.4 Auftragsvoraussetzungen und Unabhängigkeit
+  regeln: [or727_ordentlich, or727a_eingeschraenkt, schreibbereiche]
+  checkliste:
+  - text: Phase lesen.
+    aufruf: prozess p1
+  - text: Revisionsart rechnen (zwei Jahre).
+    aufruf: revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen … --vj-bilanzsumme … --vj-umsatz … --vj-vollzeitstellen …
+  - text: Unabhängigkeit/Mitwirken bei der Buchführung.
+    aufruf: thema unabhaengigkeit
+  fertig_wenn: Grundlagen im Rapport; Entscheid beim WP.
+  naechste: [mandat-start]
+- id: fachfrage
+  titel: Fachfrage beantworten (mit Fundstelle)
+  stichworte: [fachfrage, was gilt, was sagt, wie ist, rechtsgrundlage, standard, ser, hwp, or, gesetz, artikel, randziffer, quelle]
+  prozess: "-"
+  phase: p3-durchfuehrung
+  ziel: Fachfrage mit Fundstelle (Chunk-Id) und Quellenrang beantworten.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: Rechenmodul
+  regeln: [rechenmodul]
+  checkliste:
+  - text: Zahl/Schwelle/Satz → wert <stichwort>.
+    aufruf: wert <stichwort>
+  - text: Querschnittsthema → thema <stichwort>.
+    aufruf: thema <stichwort>
+  - text: Sonst Volltext (SER/HWP ER zuerst), Treffer wörtlich lesen.
+    aufruf: suche "<fachbegriffe>" --quelle ser-2022
+  - text: 'Antwort: Ergebnis · Fundstelle ^[chunk-id] · Status · was der WP entscheidet.'
+  fertig_wenn: Antwort mit mindestens einer Fundstelle.
+  naechste: []

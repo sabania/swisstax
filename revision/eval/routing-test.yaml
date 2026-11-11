@@ -1,0 +1,99 @@
+hinweis: Entwicklungsset (selbst formuliert). Holdout-Sets unabhängig erstellen und getrennt messen.
+faelle:
+- text: Bitte starte die Revision für die Fiktive Zahlen AG 2025
+  aufgabe: mandat-start
+- text: Dossier öffnen und Überblick
+  aufgabe: mandat-start
+- text: Importiere die Jahresrechnung in revio
+  aufgabe: import
+- text: Bilanz und ER einlesen, Kontenzuordnung
+  aufgabe: import
+- text: Prozess 1
+  aufgabe: import
+- text: Prüffeld C1 vorbereiten
+  aufgabe: prueffeld
+  param: C1
+- text: Bearbeite die Debitoren
+  aufgabe: prueffeld
+  param: C1
+- text: mach K1
+  aufgabe: prueffeld
+  param: K1
+- text: Vorräte prüfen
+  aufgabe: prueffeld
+  param: F1
+- text: Protokoll GV Vorjahr ablegen
+  aufgabe: unterlagen
+- text: Welche Unterlagen fehlen noch? PBC-Liste
+  aufgabe: unterlagen
+- text: Kundenbefragung auswerten
+  aufgabe: unterlagen
+- text: Schreib den Rapport an den WP
+  aufgabe: rapport
+- text: Zusammenfassung für den Wirtschaftsprüfer per Mail
+  aufgabe: rapport
+- text: Prozess 4
+  aufgabe: rapport
+- text: Bericht an die Generalversammlung vorbereiten
+  aufgabe: gvb-bericht
+- text: GVB-Entwurf
+  aufgabe: gvb-bericht
+- text: PDF-Akte erstellen
+  aufgabe: pdf-akte
+- text: Pendenz erfassen weil Bankbestätigung fehlt
+  aufgabe: notiz
+- text: Buchungsvorschlag erfassen
+  aufgabe: notiz
+- text: Wesentlichkeit prüfen
+  aufgabe: wesentlichkeit
+- text: Wie gross ist die Stichprobe?
+  aufgabe: wesentlichkeit
+- text: Eigenkapital ist negativ – Überschuldung?
+  aufgabe: kapitalschutz
+- text: Rangrücktritt prüfen
+  aufgabe: kapitalschutz
+- text: Hälftiger Kapitalverlust
+  aufgabe: kapitalschutz
+- text: Eröffnungsbilanz mit Vorjahr abstimmen
+  aufgabe: vorjahresabstimmung
+- text: Delkredere beurteilen
+  aufgabe: delkredere
+- text: Anlagespiegel abstimmen
+  aufgabe: sachanlagen
+- text: Ereignisse nach dem Bilanzstichtag
+  aufgabe: abschluss
+- text: Vollständigkeitserklärung
+  aufgabe: abschluss
+- text: Ist die Revisionsstelle unabhängig?
+  aufgabe: auftrag
+- text: Opting-out möglich?
+  aufgabe: auftrag
+- text: Was sagt der SER zu Befragungen?
+  aufgabe: fachfrage
+- text: C1-302
+  aufgabe: pruefschritt
+  param: C1-302
+- text: G1 305
+  aufgabe: pruefschritt
+  param: G1-305
+- text: Prüffeld P1 Eigenkapital
+  aufgabe: prueffeld
+  param: P1
+- text: Anhang prüfen T1
+  aufgabe: prueffeld
+  param: T1
+- text: MWST Prüffeld
+  aufgabe: prueffeld
+  param: M2
+- text: Delkredere C1
+  aufgabe: delkredere
+  param: C1
+- text: Kapitalverlust bei P1 prüfen
+  aufgabe: kapitalschutz
+  param: P1
+- text: Löhne prüfen
+  aufgabe: prueffeld
+  param: R1
+- text: Bank abstimmen
+  aufgabe: prueffeld
+  param: B1
