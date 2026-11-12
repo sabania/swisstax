@@ -1,0 +1,621 @@
+# Prüffeld M1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: M1
+bezeichnung: übrige kurzfristige Verbindlichkeiten
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 17
+    korrigiert: false
+kurzbeschrieb: 'Übrige kurzfristige Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. c OR): nicht verzinsliche, nicht aus Lieferungen/Leistungen stammende Schulden bis 12 Monate, v.a.
+  Sozialversicherungen (AHV, UVG, KTG, BVG), Quellensteuer, MWST-Abrechnungskonto, Personal, Kundenanzahlungen. Eingeschränkte Revision: Vollständigkeit, Abstimmung mit Abrechnungen,
+  Sollsaldi, Ausweis (Art. 959a Abs. 4, 959c OR).'
+gesetz:
+- thema: 'Mindestgliederung: übrige kurzfristige Verbindlichkeiten als eigene Position des kurzfristigen Fremdkapitals (Art. 959a Abs. 2 Ziff. 1 lit. c OR)'
+  quelle: or__art-959a-t1
+  zitat: c. übrige kurzfristige Verbindlichkeiten
+- thema: 'Passivierungspflicht: vergangenes Ereignis, wahrscheinlicher Mittelabfluss, verlässliche Schätzung (Art. 959 Abs. 5 OR)'
+  quelle: or__art-959
+  zitat: Verbindlichkeiten müssen als Fremdkapital bilanziert werden, wenn sie durch vergangene Ereignisse bewirkt wurden
+- thema: 'Fristigkeit: kurzfristig bei Fälligkeit innert eines Jahres bzw. Geschäftszyklus (Art. 959 Abs. 6 OR)'
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
+    Zahlung fällig werden.
+- thema: Gesonderter Ausweis von Verbindlichkeiten gegenüber Beteiligten, Organen und Beteiligungsgesellschaften (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+- thema: Bewertung zum Nennwert (Art. 960e Abs. 1 OR)
+  quelle: or__art-960e
+  zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden.
+- thema: Einzelbewertung (Art. 960 Abs. 1 OR)
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet
+- thema: Zeitliche und sachliche Abgrenzung (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Verrechnungsverbot Aktiven/Passiven (Art. 958c Abs. 1 Ziff. 7 OR), massgebend für Sollsaldi
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Bestandesnachweis (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Belegnachweis für Buchungen (Art. 957a Abs. 2 Ziff. 2 OR)
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- thema: 'Anhang: Aufschlüsselungen und Erläuterungen zu Bilanzpositionen (Art. 959c Abs. 1 Ziff. 2 OR)'
+  quelle: or__art-959c-t1
+  zitat: Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Art. 959c Abs. 2 Ziff. 7 OR)'
+  quelle: or__art-959c-t2
+  zitat: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
+- thema: 'Arbeitgeberbeiträge Personalvorsorge: mindestens gleich hoch wie Arbeitnehmerbeiträge, Überweisungsfrist (Art. 331 Abs. 3 OR)'
+  quelle: or__art-331-t1
+  zitat: spätestens am Ende des ersten Monats nach dem Kalender- oder Versicherungsjahr, für das die Beiträge geschuldet sind, an die Vorsorgeeinrichtung überweisen
+- thema: Rückerstattungspflicht bei Missverhältnis von Leistung und Gegenleistung mit Nahestehenden, z.B. übersetzte Zinsen (Art. 678 Abs. 2 OR)
+  quelle: or__art-678
+  zitat: soweit ein offensichtliches Missverhältnis zwischen Leistung und Gegenleistung besteht
+- thema: Prüfungsumfang der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: 'Unvollständige Erfassung: Schulden gegenüber Sozialversicherungen (Schlussabrechnungen AHV, UVG, KTG, BVG), Quellensteuer oder Personal (Boni, Lohnnachzahlungen) fehlen per
+    Stichtag.'
+  pruefziele:
+  - VO
+  - PA
+  quelle: ser-2022__4-3-4
+  zitat: Es müssen sämtliche Vermögenswerte, Verbindlichkeiten, Abgrenzungen und Rückstellungen bilanziert
+- text: 'Periodenfehler: Abrechnungen und Anzahlungen nicht stichtagsgerecht erfasst (z.B. Schlussabrechnung Ausgleichskasse erst im Folgejahr gebucht).'
+  pruefziele:
+  - PA
+  - RI
+  quelle: ser-2022__4-3-6
+  zitat: ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden
+- text: Fiktive, überhöhte oder nicht mehr bestehende Verbindlichkeiten (Altsalden ohne Abrechnung, Bildung stiller Reserven über Passiven).
+  pruefziele:
+  - EX
+  - BE
+  quelle: ser-2022__4-3-1
+  zitat: Wegen des Verbots der Bilanzierung fiktiver Verbindlichkeiten ist dies aber auch für die Passiven zu beachten.
+- text: Bilanzierte Schulden betreffen den Eigentümer oder Dritte und nicht die Gesellschaft.
+  pruefziele:
+  - RV
+  quelle: ser-2022__4-3-2
+  zitat: Bilanzierte Verpflichtungen müssen solche des Unternehmens (und nicht z. B. des Eigentümers) sein.
+- text: Sollsaldi (Guthaben gegenüber Sozialversicherungen, Überzahlungen) mit Habensaldi verrechnet statt als übrige kurzfristige Forderungen ausgewiesen.
+  pruefziele:
+  - VO
+  - DO
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig
+- text: 'Erhaltene Kundenanzahlungen: Konten nach Schlussrechnung nicht ausgeglichen, unbezahlte Anzahlungsrechnungen passiviert (Bilanzverlängerung) oder falsche Abgrenzung zu angefangenen
+    Arbeiten.'
+  pruefziele:
+  - EX
+  - VO
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0455-s251
+  zitat: spätestens bei der Schlussabrechnung, zu bereinigen
+- text: Verbindlichkeiten gegenüber Beteiligten, Organen oder Vorsorgeeinrichtungen nicht gesondert in Bilanz bzw. Anhang ausgewiesen.
+  pruefziele:
+  - DO
+  - VO
+  quelle: hwp-bur-2023__rz-0162-s193
+  zitat: Eine separate Ausweispflicht im Anhang besteht für Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
+- text: Fremdwährungsverbindlichkeiten nicht zum Stichtagskurs umgerechnet.
+  pruefziele:
+  - BE
+  - RI
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: werden ebenfalls zum Kurs am Bilanzstichtag bewertet
+- text: 'Übersetzte Zinsen auf Kontokorrenten von Beteiligten/Nahestehenden: geldwerte Leistung mit Verrechnungssteuerfolgen, allenfalls Rückerstattungspflicht.'
+  pruefziele:
+  - BE
+  - RI
+  - DO
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+- text: Rückständige oder zu tiefe Arbeitgeberbeiträge an die Vorsorgeeinrichtung (Verstoss gegen Art. 331 Abs. 3 OR).
+  pruefziele:
+  - RV
+  - VO
+  - DO
+  quelle: or__art-331-t1
+  zitat: zur gleichen Zeit mindestens gleich hohe Beiträge wie die gesamten Beiträge aller Arbeitnehmer zu entrichten
+unterlagen:
+- dokument: Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung)
+  zweck: Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303)
+  quelle: ser-2022__anh-d-s086-1
+  zitat: Abstimmung des Gesamtbetrags mit dem Einzelnachweis
+- dokument: 'Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung'
+  zweck: Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-406), BVG-Ausstände (M1-408)
+  quelle: hwp-bur-2023__rz-0158-s192
+  zitat: Der Bestand wird zweckmässigerweise mit Bestandsmeldungen oder Abrechnungen
+- dokument: Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal
+  zweck: Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e)
+  quelle: treuhand-almanach-2026__s050-1
+  zitat: Die Quellensteuern werden nicht vom Steuerpflichtigen selbst abgeliefert, sondern vom Schuldner der steuerbaren Leistung
+- dokument: Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten 2025 sowie Buchungen/Zahlungen Januar–Februar Folgejahr
+  zweck: Buchungsdurchsicht (M1-401), Periodenabgrenzung und Zahlungen nach Stichtag (M1-103, M1-403, M1-408)
+  quelle: hwp-bur-2023__rz-0158-s192
+  zitat: beispielsweise Zahlungen nach dem Bilanzstichtag
+- dokument: Projekt-/Auftragsliste mit erhaltenen Anzahlungen je Auftrag, Auftragsbestätigungen/Werkverträge, Anzahlungsrechnungen, Zahlungsbelege, Abnahmeprotokolle, Schlussrechnungen
+  zweck: 'Anzahlungen: Zugänge, Ausgleich, Abstimmung, Abgrenzung zu angefangenen Arbeiten (M1-402 bis M1-405, M1-302d)'
+  quelle: hwp-bur-2023__rz-0456-s251
+  zitat: Die Bestandsermittlung erfolgt aufgrund von Verträgen, Korrespondenzen
+- dokument: Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle (u.a. Bonusbeschlüsse)
+  zweck: Identifikation nahestehender Personen (M1-304), Vollständigkeit Personalverbindlichkeiten (M1-103)
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: Kontokorrent-/Darlehensvereinbarungen mit Aktionären, Organen und Konzerngesellschaften inkl. Zinsabrechnungen
+  zweck: Bestandesnachweis (M1-302c), Verzinsung (M1-407), Ausweis (M1-304)
+  quelle: ser-2022__anh-d-s086-1
+  zitat: Durchsicht von Verträgen, Rechnungen usw. als Nachweis der Verbindlichkeiten
+- dokument: Beitragsrechnung/Kontoauszug der Vorsorgeeinrichtung per 31.12., Anschlussvertrag und Vorsorgereglement
+  zweck: BVG-Arbeitgeberschulden und Anhangangabe (M1-408, M1-320), Dauerakte (M1-322)
+  quelle: hwp-bur-2023__rz-0535-s265
+  zitat: Die rechtlichen Verpflichtungen beruhen auf Gesetz, Stiftungsurkunde
+- dokument: Vom Kunden selbst eingeholte Saldobestätigungen/Richtigbefundsanzeigen (z.B. Sozialversicherungen, Nahestehende)
+  zweck: Bestandesnachweis (M1-302a)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+- dokument: Devisenkurse per 31.12. (Bankunterlagen)
+  zweck: Fremdwährungsumrechnung (M1-303)
+  quelle: ser-2022__anh-d-s086-1
+  zitat: Jahresendkursen gemäss Unterlagen von Banken usw.
+- dokument: Aufstellung Bestand und Veränderung stille Reserven (Berichtsjahr und Vorjahr)
+  zweck: M1-321, Anhang Art. 959c Abs. 1 Ziff. 3 OR
+  quelle: hwp-bur-2023__rz-0667-s296
+  zitat: über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen
+- dokument: MWST-Abrechnung 4. Quartal bzw. Abrechnungskonto MWST
+  zweck: Nur Bestandsabstimmung in M1-301; materielle MWST-Prüfung in Prüffeld M2
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der MWST-Forderungen und -Verbindlichkeiten mit den Abrechnungen
+- dokument: Unterzeichnete Vollständigkeitserklärung
+  zweck: Bestätigung Vollständigkeit der Verbindlichkeiten und der Angaben zu Nahestehenden (M1-103, M1-304)
+  quelle: ser-2022__anh-e-s111-1
+  zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten
+bewertung:
+- regel: Verbindlichkeiten zum Nennwert
+  quelle: hwp-bur-2023__rz-0159-s192
+  zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden (Art. 960e OR).
+- regel: Erhaltene Anzahlungen zum Nennwert
+  quelle: hwp-bur-2023__rz-0457-s252
+  zitat: Passive Anzahlungen werden – wie die Verbindlichkeiten im Allgemeinen – zu ihrem Nennwert bilanziert
+- regel: Anzahlungen mit reinem Vorleistungscharakter im kurzfristigen (ausnahmsweise langfristigen) Fremdkapital
+  quelle: hwp-bur-2023__rz-0458-s252
+  zitat: Soweit erhaltene Anzahlungen reinen Vorleistungscharakter haben
+- regel: Kundenanzahlungen erst bei Zahlungseingang bilanzieren
+  quelle: hwp-bur-2023__rz-0109-s185
+  zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
+- regel: Bei Abschluss fällige, unbezahlte Anzahlungsrechnungen mit Anzahlungen saldieren (keine Bilanzverlängerung)
+  quelle: hwp-bur-2023__rz-0455-s251
+  zitat: fällige, jedoch noch nicht bezahlte Rechnungen mit den Anzahlungen zu saldieren
+- regel: 'Nettodarstellung je Projekt: Überfinanzierung (Anzahlungen über Projektkosten) unter übrigen Verbindlichkeiten'
+  quelle: hwp-bur-2023__rz-0254-s214
+  zitat: im umgekehrten Fall einer Überfinanzierung wird der Buchwert unter den übrigen Verbindlichkeiten bilanziert
+- regel: Saldierung von Forderungen und Verbindlichkeiten nur bei gegenseitiger Verrechenbarkeit
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig, es sei denn, die Posten seien gegenseitig verrechenbar
+- regel: 'MWST: Saldo Umsatzsteuer abzüglich Vorsteuer als eine Forderung bzw. Verbindlichkeit (Verrechnung geboten)'
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: aus der Mehrwertsteuerpflicht eine Forderung oder Verbindlichkeit, die dem Saldo
+- regel: Kurzfristige Fremdwährungsverbindlichkeiten zum Stichtagskurs
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: werden ebenfalls zum Kurs am Bilanzstichtag bewertet
+- regel: Verjährte Verbindlichkeiten bleiben bilanziert, wenn Erfüllungsabsicht oder Verrechnung möglich
+  quelle: hwp-bur-2023__rz-0161-s193
+  zitat: Verjährte Verbindlichkeiten (beispielsweise Obligationenzinsen) sind dann weiterhin zu bilanzieren, wenn die Absicht besteht
+- regel: Vorsorgebeiträge (reglementarisch und freiwillig) als Aufwand erfassen, sobald fällig oder beschlossen
+  quelle: hwp-bur-2023__rz-0536-s265
+  zitat: gleichgültig ob reglementarische oder freiwillige, als Aufwand zu erfassen
+- regel: 'Anhang Vorsorgeverbindlichkeiten: Gesamtbetrag genügt üblicherweise'
+  quelle: hwp-bur-2023__rz-0838-s346
+  zitat: Der Ausweis eines Gesamtbetrags genügt üblicherweise.
+- regel: 'Nahestehende: gesonderter Ausweis mindestens für Beteiligte im Sinne von Art. 960d Abs. 3 OR; auch Verbindlichkeiten gegenüber der Revisionsstelle'
+  quelle: hwp-bur-2023__rz-0168-s194
+  zitat: Auch allfällige Forderungen oder Verbindlichkeiten gegenüber der Revisionsstelle als Organ des Unternehmens sind separat auszuweisen.
+fallstricke:
+- text: Drittbestätigungen (AHV, SUVA, BVG/PK, Kreditoren) holt die Revisionsstelle in der eingeschränkten Revision nicht selbst ein; Nachweis über intern vorhandene Abrechnungen.
+  quelle: ser-2022__anh-d-s093-2
+  zitat: Einholen von Drittbestätigungen wie AHV, SUVA, BVG/PK usw.
+- text: Vom Unternehmen selbst eingeholte Bestätigungen (z.B. Kontoauszug Pensionskasse, Richtigbefundsanzeige) dürfen als Nachweis verwendet werden.
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
+- text: Wesentliche Posten (z.B. hohe erhaltene Anzahlungen) nicht allein mit Befragungen abdecken; analytische Prüfungshandlungen und/oder Detailprüfungen ergänzen.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'Vorzeichen in Saldolisten beachten: negative Salden auf Passivkonten (z.B. Abrechnungskonten Sozialversicherungen) sind Sollsaldi und gehören zu den übrigen kurzfristigen Forderungen.'
+  quelle: hwp-bur-2023__rz-0154-s192
+  zitat: Forderungen und Verbindlichkeiten gegenüber Sozialversicherungen
+- text: MWST-Abrechnungskonto ist Teil der Position, die materielle MWST-Prüfung (Umsatzabstimmung) erfolgt in Prüffeld M2; Doppelarbeit vermeiden.
+- text: Rückstellung Ferien-/Überzeitguthaben gehört nicht zu M1, sondern zu passiven Rechnungsabgrenzungen/Rückstellungen (Prüffeld M3); hier nur Abgrenzung.
+- text: 'Abgrenzung zwischen passiven Anzahlungen und passiven Rechnungsabgrenzungen ist nicht eindeutig; Praxis: Anzahlungen bei Lieferungen/Grossprojekten, passive Abgrenzung bei laufenden
+    Erträgen.'
+  quelle: hwp-bur-2023__rz-0454-s251
+  zitat: ist in Theorie und Praxis nicht eindeutig
+- text: 'ESTV-Zinssätze gelten je Kalenderjahr: das Rundschreiben 2026 gilt erst ab 1.1.2026; für das Geschäftsjahr 2025 das Rundschreiben 2025 beiziehen (im Wiki nicht vorhanden), Werte
+    nicht übertragen.'
+  quelle: estv-zinsen-2026__s001-2
+  zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+- text: ESTV-Sätze sind steuerliche Safe-Haven-Werte; ein höherer Zins kann im Drittvergleich begründet sein.
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+- text: Offensichtliche und wesentliche verdeckte Gewinnausschüttung (z.B. übersetzte Zinsen) ist dem VR schriftlich mitzuteilen; Entscheid und Berichtsfolgen beim Wirtschaftsprüfer.
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+- text: Agent befragt nicht selbst (1xx nur über schriftliche Antworten, sonst Pendenz); WP-Schritt M1-302 nur vorbereiten; 4xx-Schritte nur auf Anweisung des Wirtschaftsprüfers.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+fragen_kunde:
+- frage: Welche wesentlichen übrigen Verbindlichkeiten bestehen per 31.12. (Gläubiger, Grund, Fälligkeit), und welche sind gegenüber dem Vorjahr neu oder weggefallen?
+  zweck: M1-101 geschäftlicher Hintergrund, M1-102 Abweichungen
+- frage: Wie stellen Sie sicher, dass Schlussabrechnungen der Sozialversicherungen (Ausgleichskasse, UVG, KTG, BVG), Quellensteuer und Personalverbindlichkeiten für das Geschäftsjahr
+    vollständig und periodengerecht erfasst sind? Liegen alle Schlussabrechnungen vor?
+  zweck: M1-103 Vollständigkeit/Periodenabgrenzung
+- frage: Wurden nach dem Bilanzstichtag Boni oder Erfolgsprämien für das Geschäftsjahr beschlossen oder ausbezahlt, und wo sind sie erfasst?
+  zweck: M1-103 Vollständigkeit Personalverbindlichkeiten
+- frage: Bestehen Verbindlichkeiten oder Kontokorrente gegenüber Aktionären, Verwaltungsrat, Geschäftsleitung, ihnen nahestehenden Personen oder Konzerngesellschaften? Zu welchem Zinssatz
+    und auf welcher vertraglichen Grundlage?
+  zweck: M1-304 Ausweis Nahestehende, M1-407 Verzinsung
+- frage: Bestehen Verbindlichkeiten in Fremdwährung, und mit welchen Kursen wurden sie per 31.12. umgerechnet?
+  zweck: M1-303 Fremdwährungsumrechnung
+- frage: Wie werden Kundenanzahlungen erfasst (bei Rechnungsstellung oder bei Zahlungseingang), wann werden Anzahlungskonten nach Schlussrechnung ausgeglichen, und werden Anzahlungen
+    mit angefangenen Arbeiten verrechnet (Netto- oder Bruttodarstellung)?
+  zweck: M1-402 bis M1-405 Anzahlungen
+- frage: Weshalb weisen einzelne Abrechnungskonten (Sozialversicherungen, Quellensteuer) Sollsaldi auf (Vorauszahlung, Rückforderung, Fehlbuchung)?
+  zweck: M1-406 Ausgliedern von Sollsaldi
+- frage: Sind alle BVG-Beiträge des Geschäftsjahres bezahlt bzw. bis Ende Januar des Folgejahres überwiesen worden? Bestehen Beitragsausstände, Zahlungsvereinbarungen oder Arbeitgeberbeitragsreserven?
+  zweck: M1-408 Arbeitgeberschulden PVE, M1-320 Anhang
+- frage: Haben Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) oder Kontrollen der Quellensteuer stattgefunden, und sind Nachforderungen hängig?
+  zweck: M1-103 Vollständigkeit, M1-302 Nachweis
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: Konten der Gruppe Übrige kurzfristige Verbindlichkeiten (1175p, 2010, 2209, 2270–2274, 2030, 2200, 2279) mit Vorjahr und Veränderung – M1-201, M1-301, M1-406
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: Kontoblätter 1175P, 2010, 2209, 2270–2274, 2030, 2200, 2279 – M1-401 (Buchungsdurchsicht), M1-402/M1-403 (Konto 2030), M1-406 (Sollsaldi)
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Bilanzausweis der Position und Anhang (Ziff. 2 nahestehende Parteien), Aufwand BVG (Konto 5720) – M1-301, M1-304, M1-320, M1-401, M1-408
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: Buchungen in neuer Rechnung (nur Konten 1100, 3200, 2000) – M1-103 Periodenabgrenzung, für M1-Konten nur eingeschränkt nutzbar
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: Organe (VR, GL) und Rechtsform – M1-304 (nahestehende Personen)
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'PBC-Übersicht: welche Abrechnungen (AHV, UVG, KTG, BVG, QST, MWST) vorliegen – M1-302, Pendenzen'
+- datei: J_Uebrige_kurzfristige_Verbindlichkeiten/AHV_Schlussabrechnung_2025_Kopie.md
+  bezug: Schlussabrechnung Ausgleichskasse 2025 (Konto 2270) – M1-301, M1-302b, M1-103 (Datum der Abrechnung im Folgejahr), M1-401
+- datei: J_Uebrige_kurzfristige_Verbindlichkeiten/MWST_Abrechnungen_2025_Zusammenzug.md
+  bezug: Zahllast Q4 (Konto 1175p) – Bestandsabstimmung M1-301; materielle Prüfung in M2
+- datei: L_Personal/Quellensteuer_Dezember_2025.md
+  bezug: QST-Abrechnung Dezember (Konto 2279) – M1-301, M1-302e
+- datei: L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md
+  bezug: Gemeldete AHV-Löhne – Plausibilisierung Beiträge und Schlussabrechnung (M1-201, M1-302b, M1-401)
+- datei: L_Personal/Personalliste_Loehne_2025.md
+  bezug: Löhne, Boni 2025, QST-Pflicht, Funktionen (GF, Leiterin Finanzen) – M1-103 (Boni), M1-302e (QST), M1-304 (Organe), M1-408 (Basis BVG)
+- datei: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md
+  bezug: Ferien-/Überzeitguthaben (Konto 2370, passive Abgrenzung) – nur Abgrenzung zu M3 im Rahmen von M1-103
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Projektliste_Angefangene_Arbeiten_31.12.2025.md
+  bezug: Erhaltene Anzahlungen je Projekt (Konto 2030) und Netto-Spalte zu angefangenen Arbeiten – M1-302d, M1-402, M1-404, M1-405
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Abnahmeprotokoll_P-2025-03_Fiktivia.md
+  bezug: Abnahme eines abgeschlossenen Projekts, Schlussrechnung nach Abnahme – M1-403 (Ausgleich Anzahlungskonto), M1-405
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: Aktionäre (natürliche und juristische Personen) – M1-304, M1-407
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
+  bezug: Vertragliche Zinssätze mit Aktionären als Referenz für Verzinsung von Kontokorrenten Nahestehender – M1-407 (Prüfung der Darlehen selbst in L1/N1); analog Verträge B, D, E
+schritte:
+- id: M1-101
+  vorgehen: 'Agent befragt nicht selbst: schriftliche Antwort der Geschäftsleitung zu Gläubiger, Grund und Fälligkeit wesentlicher übriger Verbindlichkeiten (Sozialversicherungen, QST,
+    Personal, Kundenanzahlungen, Kontokorrente) auswerten und mit Saldoliste abgleichen. Prüfen, ob die Schuld die Gesellschaft verpflichtet. Fehlt die Antwort, Frage als Pendenz erfassen;
+    Status höchstens «teilweise bearbeitet».'
+  nachweise:
+  - Schriftliche Antwort Kundenbefragung
+  - Saldoliste 31.12.
+  - Einzelnachweis je Konto
+  rechnen: ''
+  feststellung_wenn: Verbindlichkeit ohne nachvollziehbaren geschäftlichen Hintergrund, nicht der Gesellschaft zuzuordnen (z.B. Eigentümer) oder Antwort widerspricht Saldoliste/Belegen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Befragung zum geschäftlichen Hintergrund wesentlicher übriger Verbindlichkeiten
+  - quelle: ser-2022__4-3-2
+    zitat: Bilanzierte Verpflichtungen müssen solche des Unternehmens (und nicht z. B. des Eigentümers) sein.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- id: M1-102
+  vorgehen: Veränderung je Konto gegenüber Vorjahr und Erwartung (Lohnsumme, Projektvolumen, Abrechnungsrhythmus) berechnen. Wesentliche Abweichungen als schriftliche Frage an die Geschäftsleitung
+    (Pendenz) formulieren bzw. vorliegende Antworten kritisch auf Plausibilität würdigen und mit Konto und Betrag im Textfeld dokumentieren.
+  nachweise:
+  - Saldoliste mit Vorjahr
+  - Antwort Geschäftsleitung
+  - Vorjahresakte
+  rechnen: Abweichung je Konto = Saldo 31.12. – Saldo Vorjahr (absolut und in %); Vergleich mit Toleranzwesentlichkeit
+  feststellung_wenn: Wesentliche Abweichung ohne plausible Erklärung oder Erklärung widerspricht den Unterlagen (Abrechnungen, Projektliste).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Besprechung wesentlicher Abweichungen einzelner Verbindlichkeiten gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: ser-2022__6-1-1-t2
+    zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
+- id: M1-103
+  vorgehen: 'Schriftliche Darstellung des Abschlussprozesses auswerten: wie Schlussabrechnungen Sozialversicherungen (AHV, UVG, KTG, BVG), QST, Boni/Lohnnachzahlungen und Kundenanzahlungen
+    per Stichtag erfasst werden. Mit Abrechnungen und Zahlungen der neuen Rechnung stichprobenweise plausibilisieren. Ohne Antwort Frage als Pendenz.'
+  nachweise:
+  - Antwort Geschäftsleitung zum Abschlussprozess
+  - Schlussabrechnungen Sozialversicherungen
+  - Buchungen und Zahlungen neue Rechnung
+  - GV-/VR-Protokolle (Boni)
+  rechnen: ''
+  feststellung_wenn: Kein Verfahren zur Erfassung von Schlussabrechnungen/Boni erkennbar oder in neuer Rechnung erfasste Beträge betreffen wesentlich das Geschäftsjahr.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Befragung, ob nach dem Bilanzstichtag Leistungs- oder Erfolgsprämien für das vergangene Jahr beschlossen wurden
+  - quelle: ser-2022__4-3-6
+    zitat: Der Abschlussprüfer stützt sich wie bei der Vollständigkeit weitgehend auf Befragungen, analytische Prüfungshandlungen
+- id: M1-201
+  vorgehen: 'Konten der Position aus Saldoliste mit Vorjahr übernehmen und vergleichen: neue/weggefallene Konten, Vorzeichenwechsel, Sozialversicherungssalden im Verhältnis zur Lohnsumme,
+    Anzahlungen im Verhältnis zum Auftragsbestand. Auffälligkeiten an M1-102 übergeben; Ergebnis im Textfeld festhalten.'
+  nachweise:
+  - Saldoliste 31.12./Vorjahr
+  - Vorjahresakte
+  - AHV-Lohnmeldung (Lohnsumme)
+  - Projektliste
+  rechnen: Veränderung je Konto = Saldo 31.12. – Saldo Vorjahr; Summe Konten der Gruppe = Bilanzposition; Kennzahl Saldo Sozialversicherungen / Lohnsumme
+  feststellung_wenn: Wesentliche, unerklärte Veränderung oder erwartete Verbindlichkeit (z.B. Saldo Ausgleichskasse, Quellensteuer) fehlt im Vergleich zum Vorjahr.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Sozialversicherungsbeiträge im Verhältnis zur Lohnsumme
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen
+- id: M1-301
+  vorgehen: Einzelnachweise je Konto beschaffen (Abrechnungen Sozialversicherungen, QST-Abrechnung, MWST-Abrechnung Q4, Projektliste Anzahlungen, Lohnsammelkonto) und mit Saldo Hauptbuch
+    und Bilanzausweis abstimmen. Gliederung (kurzfristig, nicht verzinslich, nicht aus Lieferungen/Leistungen) mitbeurteilen. Differenzen mit Konto und Betrag dokumentieren, fehlende
+    Nachweise als Pendenz.
+  nachweise:
+  - Einzelnachweise/Abrechnungen je Konto
+  - Saldoliste/Hauptbuch
+  - Bilanz
+  rechnen: Summe Einzelnachweise je Konto = Saldo Konto; Summe Konten = Bilanzposition Übrige kurzfristige Verbindlichkeiten
+  feststellung_wenn: Differenz zwischen Einzelnachweis und Saldo über Toleranz, Saldo ohne Nachweis oder Fehlklassierung (verzinsliche, langfristige oder LuL-Schuld).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Abstimmung des Gesamtbetrags mit dem Einzelnachweis
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+- id: M1-302
+  vorgehen: 'WP-Schritt, Agent bereitet nur vor: Nachweise je Bestand zusammenstellen und abgleichen: a) vom Kunden eingeholte Saldobestätigungen, b) Schlussabrechnungen AHV/UVG/KTG/BVG,
+    c) Verträge und Zinsabrechnungen, d) Vorauszahlungen: Bestellungen, Kaufverträge, Fakturen neue Rechnung, Zahlungsbelege, e) übrige Unterlagen (QST, Lohnjournal). Lücken als Pendenz;
+    Beurteilung beim WP.'
+  nachweise:
+  - Saldobestätigungen (vom Kunden eingeholt)
+  - Abrechnungen Sozialversicherungen
+  - Verträge/Zinsabrechnungen
+  - Auftragsunterlagen, Fakturen, Zahlungsbelege
+  - QST-Abrechnung, Lohnjournal
+  rechnen: Differenz je Gläubiger = Saldo gemäss Nachweis – Saldo Konto
+  feststellung_wenn: Nachweis weicht wesentlich vom Saldo ab, Verpflichtung ist nicht der Gesellschaft zuzuordnen oder Nachweis fehlt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Durchsicht von Verträgen, Rechnungen usw. als Nachweis der Verbindlichkeiten
+  - quelle: hwp-bur-2023__rz-0158-s192
+    zitat: Der Bestand wird zweckmässigerweise mit Bestandsmeldungen oder Abrechnungen
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+  - quelle: ser-2022__anh-d-s086-2
+    zitat: Einholen von Kreditorenbestätigungen
+- id: M1-303
+  vorgehen: Fremdwährungssalden der Position identifizieren (Konto- bzw. Gläubigerwährung). Angewandte Umrechnungskurse mit den Jahresendkursen gemäss Bankunterlagen vergleichen und
+    Umrechnung nachrechnen. Ohne Fremdwährungspositionen im Textfeld «nicht anwendbar» mit Begründung vermerken.
+  nachweise:
+  - Einzelnachweis mit Währung
+  - Devisenkurse 31.12. (Bankunterlagen)
+  - Kontoblätter
+  rechnen: CHF-Wert = Fremdwährungsbetrag × Stichtagskurs; Differenz = CHF-Wert – Buchwert
+  feststellung_wenn: Umrechnung nicht zum Stichtagskurs und Differenz wesentlich.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  - quelle: hwp-bur-2023__rz-0090-s077-t1
+    zitat: werden ebenfalls zum Kurs am Bilanzstichtag bewertet
+- id: M1-304
+  vorgehen: Nahestehende Personen aus Aktienbuch, HR-Auszug, Unternehmensinformationen und Protokollen bestimmen und mit den Gläubigern der Position abgleichen (Kontokorrente, Lohn-/Spesenguthaben
+    von Organen, Konzerngesellschaften). Betroffene Verbindlichkeiten mit Konto und Betrag auflisten und prüfen, ob sie gesondert in Bilanz oder Anhang ausgewiesen sind.
+  nachweise:
+  - Aktienbuch
+  - HR-Auszug
+  - GV-/VR-Protokolle
+  - Einzelnachweis Gläubiger
+  - Anhang
+  rechnen: Summe Verbindlichkeiten gegenüber Nahestehenden = Ausweis Bilanz/Anhang
+  feststellung_wenn: Verbindlichkeit gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften nicht gesondert ausgewiesen oder Betrag weicht ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s086-1
+    zitat: Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+  - quelle: or__art-959a-t2
+    zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- id: M1-320
+  vorgehen: 'Anhang auf Angaben zur Position prüfen: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen, Verbindlichkeiten gegenüber Nahestehenden (falls nicht in der Bilanz), Aufschlüsselung
+    wesentlicher Posten, Grundsätze (z.B. Nettodarstellung Anzahlungen/angefangene Arbeiten). Beträge mit Ergebnissen aus M1-304, M1-405 und M1-408 abgleichen.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Ergebnisse M1-304, M1-405, M1-408
+  rechnen: Anhangbetrag Vorsorgeverbindlichkeiten = Habensaldo BVG-/PK-Konten gemäss Prüfung
+  feststellung_wenn: Pflichtangabe nach Art. 959c oder 959a Abs. 4 OR fehlt oder weicht vom Prüfungsergebnis ab.
+  fundstellen:
+  - quelle: or__art-959c-t2
+    zitat: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung nach Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Durchsicht des Anhangs auf vollständige Offenlegung der aufgrund der Befragungen zutreffenden Positionen gemäss Art. 959c OR
+  - quelle: hwp-bur-2023__rz-0254-s214
+    zitat: im Anhang eine erläuternde Aufgliederung vorzunehmen
+- id: M1-321
+  vorgehen: 'Kundenaufstellung stille Reserven für die Position durchsehen: Verbindlichkeiten sind zum Nennwert anzusetzen, fiktive oder überhöhte Verbindlichkeiten sind keine zulässige
+    Form stiller Reserven. Bestand und Veränderung gegenüber Vorjahr nachrechnen; in der Regel Bestand null, mit Begründung im Textfeld. Fehlt die Aufstellung, Pendenz.'
+  nachweise:
+  - Aufstellung stille Reserven Berichtsjahr/Vorjahr
+  - Einzelnachweise M1-301
+  rechnen: Bestand je Konto = Buchwert – Nennwert gemäss Nachweis; Veränderung = Bestand 31.12. – Bestand Vorjahr
+  feststellung_wenn: Verbindlichkeit über Nennwert oder ohne Grundlage bilanziert, oder Nettoauflösung wesentlich und nicht im Anhang offengelegt.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0669-s296
+    zitat: Diese Formen der Bildung von stillen Reserven schliessen es unter anderem aus, Aktiven wegzulassen und fiktive Verbindlichkeiten zu bilanzieren.
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+- id: M1-322
+  vorgehen: 'Dauerakte in M-Files mit mehrjährig gültigen Unterlagen zur Position ergänzen bzw. aktualisieren: Anschlussverträge/Reglemente Sozialversicherungen und Pensionskasse, Kontokorrent-/Darlehensvereinbarungen
+    mit Nahestehenden, Rahmen-/Werkverträge mit Anzahlungsregelung. Fehlende Dokumente als Pendenz; Änderungen im Textfeld vermerken.'
+  nachweise:
+  - Dauerakte M-Files
+  - Verträge/Reglemente
+  rechnen: ''
+  feststellung_wenn: Wesentlicher Vertrag (z.B. Anschlussvertrag Pensionskasse, KK-Vereinbarung mit Aktionär) fehlt und ist beim Kunden nicht erhältlich (Pendenz).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
+- id: M1-401
+  vorgehen: 'Nur auf Anweisung des WP: Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten (Sozialversicherungs-, Personal-, Zinsaufwand) kritisch durchsehen: Gegenkonten,
+    ungewöhnliche oder Jahresend-Buchungen, Akonto versus Schlussabrechnung. Aufwand mit Jahresabrechnungen (AHV, BVG) abstimmen; auffällige Posten belegmässig prüfen.'
+  nachweise:
+  - Kontoblätter Bestandes- und Aufwandkonten
+  - Jahresabrechnungen AHV/UVG/KTG/BVG
+  - Belege
+  rechnen: Akonto gebucht + Saldo Konto = Beiträge gemäss Schlussabrechnung; Aufwand gemäss Konto = Arbeitgeberanteil gemäss Jahresabrechnung
+  feststellung_wenn: Buchung ohne Beleg oder plausiblen Grund, falsches Gegenkonto oder Aufwand weicht wesentlich von der Jahresabrechnung ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Abstimmen des ausgewiesenen Aufwands mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: or__art-957a
+    zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- id: M1-402
+  vorgehen: 'Nur auf Anweisung des WP: Zugänge auf dem Konto erhaltene Anzahlungen (Sammelbuchungen) je Projekt aufschlüsseln und stichprobenweise mit Auftragsbestätigung/Werkvertrag
+    (vereinbarte Anzahlungsrate), Anzahlungsrechnung und Zahlungseingang abgleichen. Prüfen, dass nur bezahlte Anzahlungen passiviert sind.'
+  nachweise:
+  - Kontoblatt erhaltene Anzahlungen
+  - Projektliste
+  - Werkverträge/Auftragsbestätigungen
+  - Anzahlungsrechnungen
+  - Bankbelege
+  rechnen: Summe Zugänge Stichprobe = Zahlungseingänge gemäss Bank; Anzahlung ≤ vertragliche Rate
+  feststellung_wenn: Zugang ohne Vertrag oder Zahlung, Anzahlung eines Dritten bzw. für fremde Rechnung oder unbezahlte Anzahlungsrechnung passiviert (Bilanzverlängerung).
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0456-s251
+    zitat: Die Bestandsermittlung erfolgt aufgrund von Verträgen, Korrespondenzen
+  - quelle: hwp-bur-2023__rz-0109-s185
+    zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+- id: M1-403
+  vorgehen: 'Nur auf Anweisung des WP: Für abgeschlossene bzw. abgenommene Projekte (Abnahmeprotokoll, Schlussrechnung, auch in neuer Rechnung) prüfen, ob die Anzahlungen mit der Schlussrechnung
+    verrechnet und das Anzahlungskonto je Projekt ausgeglichen wurde. Restsalden abgeschlossener Projekte mit Projekt, Konto und Betrag auflisten.'
+  nachweise:
+  - Projektliste
+  - Abnahmeprotokolle
+  - Schlussrechnungen
+  - Kontoblatt erhaltene Anzahlungen
+  rechnen: 'Restsaldo je abgeschlossenem Projekt = Anzahlungen – mit Schlussrechnung verrechnet (Soll: 0)'
+  feststellung_wenn: Abgeschlossenes Projekt mit wesentlichem Restsaldo auf Anzahlungen bzw. Ertrag nicht realisiert.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0455-s251
+    zitat: Die Anzahlungskonten sind periodisch abzustimmen und im Zeitpunkt der Erfüllung des Vertrags, spätestens bei der Schlussabrechnung, zu bereinigen.
+- id: M1-404
+  vorgehen: 'Nur auf Anweisung des WP: Liste der Kundenvorauszahlungen per 31.12. a) mit Saldo Hauptbuch abstimmen, b) je wesentlichem Posten mit Auftragsbestätigung/Kaufvertrag, c)
+    mit Faktura bzw. Verrechnung in neuer Rechnung und d) mit Zahlungsbeleg abgleichen. Ausweis (kurzfristig, nicht mit Forderungen verrechnet) im Textfeld festhalten.'
+  nachweise:
+  - Liste Kundenvorauszahlungen
+  - Hauptbuch
+  - Auftragsbestätigungen/Kaufverträge
+  - Fakturen neue Rechnung
+  - Zahlungsbelege
+  rechnen: Summe Liste = Saldo Konto erhaltene Anzahlungen; je Posten Zahlungseingang = Anzahlungsbetrag
+  feststellung_wenn: Liste weicht vom Hauptbuch ab, Vorauszahlung ohne Vertrag oder Zahlung, oder bereits erbrachte Leistung weiterhin als Anzahlung passiviert.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0453-s251
+    zitat: Soweit für die erhaltene Anzahlung noch keine Lieferung oder Leistung erbracht worden ist, entspricht die Anzahlung einer Vorleistung
+  - quelle: hwp-bur-2023__rz-0457-s252
+    zitat: Passive Anzahlungen werden – wie die Verbindlichkeiten im Allgemeinen – zu ihrem Nennwert bilanziert
+  - quelle: hwp-bur-2023__rz-0458-s252
+    zitat: Soweit erhaltene Anzahlungen reinen Vorleistungscharakter haben
+- id: M1-405
+  vorgehen: 'Nur auf Anweisung des WP: Projektliste angefangene Arbeiten mit erhaltenen Anzahlungen je Projekt abgleichen (vgl. F2). Darstellung (brutto oder netto je Projekt) und Stetigkeit
+    feststellen; bei Nettodarstellung Überfinanzierungen unter übrigen Verbindlichkeiten. Abgrenzung zu passiven Rechnungsabgrenzungen beurteilen.'
+  nachweise:
+  - Projektliste angefangene Arbeiten/Anzahlungen
+  - Kontoblätter Anzahlungen und angefangene Arbeiten
+  - Anhang
+  rechnen: Netto je Projekt = Bilanzwert angefangene Arbeiten – erhaltene Anzahlungen; bei Nettodarstellung Summe negativer Nettowerte = Ausweis unter Verbindlichkeiten
+  feststellung_wenn: Uneinheitliche Darstellung, Anzahlungen doppelt oder nicht verrechnet, oder Überfinanzierung als Aktivum ausgewiesen.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0254-s214
+    zitat: im umgekehrten Fall einer Überfinanzierung wird der Buchwert unter den übrigen Verbindlichkeiten bilanziert
+  - quelle: hwp-bur-2023__rz-0454-s251
+    zitat: Die begriffliche Grenzziehung zwischen passiven Anzahlungen mit Vorauszahlungscharakter und passiven Rechnungsabgrenzungen
+  - quelle: ser-2022__anh-d-s079-1
+    zitat: Prüfung angefangener Arbeiten und nicht fakturierter Dienstleistungen anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode
+- id: M1-406
+  vorgehen: 'Nur auf Anweisung des WP: Konten der Position auf Sollsaldi durchsehen (in Saldolisten oft negatives Vorzeichen auf Passivkonten, z.B. Abrechnungskonten Sozialversicherungen).
+    Ursache klären (Vorauszahlung, Rückforderung, Fehlbuchung) und Umgliederung in übrige kurzfristige Forderungen mit Konto und Betrag als Feststellung vorschlagen (keine Buchung).'
+  nachweise:
+  - Saldoliste
+  - Kontoblätter
+  - Abrechnungen der Gegenpartei
+  rechnen: Summe Sollsaldi = Umgliederungsbetrag; Position nach Umgliederung = Summe Habensaldi
+  feststellung_wenn: Wesentliche Sollsaldi ohne Verrechenbarkeit mit Habensaldi saldiert oder Sollsaldo beruht auf Fehlbuchung.
+  fundstellen:
+  - quelle: or__art-958c
+    zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+  - quelle: hwp-bur-2023__rz-0163-s193
+    zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig
+  - quelle: hwp-bur-2023__rz-0154-s192
+    zitat: Forderungen und Verbindlichkeiten gegenüber Sozialversicherungen
+- id: M1-407
+  vorgehen: 'Nur auf Anweisung des WP: Kontokorrente gegenüber Konzern und Nahestehenden mit Vertrag und Zinsabrechnung abgleichen, Zins nachrechnen und Satz mit Drittvergleich bzw.
+    ESTV-Rundschreiben des betreffenden Jahres (Höchstsätze für Vorschüsse von Beteiligten) vergleichen. Übersetzte Zinsen und fehlende Zinsabgrenzung mit Konto und Betrag dokumentieren.'
+  nachweise:
+  - KK-Verträge/Vereinbarungen
+  - Zinsabrechnungen
+  - Kontoblätter Zinsaufwand
+  - ESTV-Rundschreiben Zinssätze des Geschäftsjahres
+  rechnen: Zins = Saldo × vertraglicher Zinssatz × Laufzeit; Differenz zum gebuchten Zins; Vergleich Satz mit ESTV-Höchstsatz des Jahres
+  feststellung_wenn: Zinssatz über ESTV-Höchstsatz ohne Drittvergleich, Zins weicht vom Vertrag ab oder ist nicht abgegrenzt.
+  fundstellen:
+  - quelle: estv-zinsen-2026__s001-1
+    zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
+  - quelle: estv-zinsen-2026__s002-1
+    zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+- id: M1-408
+  vorgehen: 'Nur auf Anweisung des WP: Beitragsrechnung bzw. Kontoauszug der Vorsorgeeinrichtung per 31.12. mit BVG-Konto abstimmen; prüfen, ob Arbeitgeberbeiträge mindestens den Arbeitnehmerbeiträgen
+    entsprechen und bis Ende Januar des Folgejahres überwiesen wurden (Zahlungen neue Rechnung). Verbindlichkeiten gegenüber der Vorsorgeeinrichtung für den Anhang festhalten.'
+  nachweise:
+  - Beitragsrechnung/Kontoauszug Vorsorgeeinrichtung
+  - Kontoblatt BVG und Aufwand BVG
+  - Zahlungsbelege Januar Folgejahr
+  - Reglement/Anschlussvertrag
+  rechnen: Arbeitgeberbeiträge ≥ Arbeitnehmerbeiträge; Saldo Konto = Ausstand gemäss Vorsorgeeinrichtung
+  feststellung_wenn: Beitragsausstände über die Frist von Art. 331 Abs. 3 OR, Arbeitgeberanteil zu tief oder Verbindlichkeit gegenüber Vorsorgeeinrichtung fehlt im Anhang.
+  fundstellen:
+  - quelle: or__art-331-t1
+    zitat: zur gleichen Zeit mindestens gleich hohe Beiträge wie die gesamten Beiträge aller Arbeitnehmer zu entrichten
+  - quelle: or__art-331-t1
+    zitat: spätestens am Ende des ersten Monats nach dem Kalender- oder Versicherungsjahr
+  - quelle: hwp-bur-2023__rz-0838-s346
+    zitat: Mit dem Ausweis der Verbindlichkeiten gegenüber der Vorsorgeeinrichtung soll das Ausmass der Verschuldung eines Unternehmens gegenüber dessen Vorsorgeeinrichtung beurteilt
+      werden können.

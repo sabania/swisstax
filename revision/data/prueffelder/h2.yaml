@@ -1,0 +1,543 @@
+# Prüffeld H2 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: H2
+bezeichnung: Aktivdarlehen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 16
+    korrigiert: false
+kurzbeschrieb: 'Gewährte Darlehen an Dritte, Beteiligte/Organe und Beteiligungs- bzw. Konzerngesellschaften (kurz- oder langfristig). In der eingeschränkten Revision: Befragung zu Bewertung
+  und Fristigkeit, Feststellung nahestehender Darlehensnehmer, Abstimmung mit internen Nachweisen, Bonität/Wertberichtigung, Zinsabgrenzung, Ausweis (Art. 959a Abs. 4 OR) und Einlagenrückgewähr
+  (Art. 680 Abs. 2 OR).'
+gesetz:
+- thema: 'Mindestgliederung: Finanzanlagen im Anlagevermögen (Art. 959a Abs. 1 Ziff. 2 lit. a OR)'
+  quelle: or__art-959a-t1
+  zitat: a. Finanzanlagen,
+- thema: Klassierung Umlauf-/Anlagevermögen nach Fristigkeit (Art. 959 Abs. 3 OR)
+  quelle: or__art-959
+  zitat: andere Aktiven, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zu flüssigen Mitteln werden
+- thema: Gesonderter Ausweis von Forderungen gegenüber Beteiligten, Organen und Beteiligungsgesellschaften (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+- thema: Einzelbewertung (Art. 960 Abs. 1 OR)
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet
+- thema: Überprüfung bei Anzeichen einer Überbewertung (Art. 960 Abs. 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Höchstbewertung und Wertberichtigungen (Art. 960a Abs. 2 und 3 OR)
+  quelle: or__art-960a
+  zitat: anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden
+- thema: Zusätzliche Wertberichtigungen / stille Reserven (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- thema: Zeitliche Abgrenzung von Zinserträgen (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Verzicht auf zeitliche Abgrenzung bei kleinen Finanzerträgen (Art. 958b Abs. 2 OR)
+  quelle: or__art-958b
+  zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten, kann auf die zeitliche Abgrenzung verzichtet
+- thema: 'Anhang: Aufschlüsselungen und Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 2 und 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: Verbot der Einlagenrückgewähr AG (Art. 680 Abs. 2 OR)
+  quelle: or__art-680
+  zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
+- thema: Verbot der Einlagenrückgewähr GmbH (Art. 793 Abs. 2 OR)
+  quelle: or__art-793
+  zitat: Die Einlagen dürfen nicht zurückerstattet werden.
+- thema: Rückerstattung ungerechtfertigter Leistungen an Aktionäre/Organe/Nahestehende (Art. 678 OR)
+  quelle: or__art-678
+  zitat: sind zur Rückerstattung von Dividenden, Tantiemen, anderen Gewinnanteilen, Vergütungen, Bauzinsen, gesetzlichen Kapital- und Gewinnreserven oder anderen Leistungen verpflichtet
+risiken:
+- text: Darlehen besteht nicht (mehr) oder Saldo ist falsch (z.B. Rückzahlung nicht verbucht, Saldo nicht durch Vertrag/Saldomeldung gedeckt).
+  pruefziele:
+  - EX
+  - VO
+  quelle: hwp-bur-2023__rz-0269-s217
+  zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
+- text: 'Überbewertung: ungenügende Bonität des Darlehensnehmers oder unverwertbare Sicherheiten ohne angemessene Wertberichtigung.'
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners, unter Berücksichtigung erhaltener Sicherheiten
+- text: Darlehen an Nahestehende (Aktionäre, Organe, Beteiligungsgesellschaften) nicht gesondert ausgewiesen, z.B. unter Debitoren oder übrigen Forderungen versteckt.
+  pruefziele:
+  - VO
+  - DO
+  quelle: hwp-bur-2023__rz-0174-s195
+  zitat: Die genannte Unterteilung ist aus Gründen der Transparenz pro Forderungs- und Verbindlichkeitsposition in der Bilanz vorzunehmen
+- text: 'Falsche Fristigkeit: langfristige Darlehen im Umlaufvermögen bzw. innert 12 Monaten fällige Teile im Anlagevermögen.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0265-s216
+  zitat: Die Abgrenzung zu den «übrigen kurzfristigen Forderungen» (Umlaufvermögen) liegt in der Fristigkeit.
+- text: 'Verbotene Einlagenrückgewähr: Aktionärsdarlehen übersteigen das freie Eigenkapital und halten dem Drittvergleich nicht stand.'
+  pruefziele:
+  - RV
+  - DO
+  quelle: hwp-er-2026__rz-0167-s215
+  zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
+- text: Verdeckte Gewinnausschüttung bzw. missbräuchliches Darlehen (unangemessen günstige Konditionen, Klumpenrisiko, simulierter Vertrag).
+  pruefziele:
+  - EN
+  - RV
+  - BE
+  quelle: hwp-bur-2023__rz-0177-s197
+  zitat: das Darlehen im Vergleich zu anderen Bilanzpositionen unverhältnismässig hoch ist und ein Klumpenrisiko darstellt
+- text: Zinsen nicht periodengerecht abgegrenzt, nicht verbucht oder mit dem Darlehen kapitalisiert.
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-er-2026__rz-0177-s217
+  zitat: Werden die Zinsen vereinbarungsgemäss bezahlt und nicht mit dem Darlehen kapitalisiert?
+- text: Steuerrisiken bei un- oder ungenügend verzinsten Darlehen an Beteiligte (geldwerte Leistung, Verrechnungssteuer) nicht berücksichtigt.
+  pruefziele:
+  - VO
+  - BE
+  quelle: hwp-bur-2023__rz-0183-s199-t1
+  zitat: Erfüllen Darlehen und andere Forderungen an nahestehende Personen den Tatbestand steuerbarer geldwerter Leistungen, sind die allenfalls zu erwartenden Steuernachforderungen
+    zu berücksichtigen
+- text: Gewährte Darlehen mit Rangrücktritt nur isoliert statt anhand des Gesamtengagements beurteilt.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0272-s218
+  zitat: Das gesamte Engagement gegenüber dem Schuldnerunternehmen ist in die Beurteilung einzubeziehen
+- text: Tief- oder unverzinsliche langfristige Darlehen zum Nennwert statt zum Barwert bilanziert.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0270-s217
+  zitat: Falls bei tief- oder unverzinslichen langfristigen Forderungen eine erhebliche Differenz zwischen Nennwert und Barwert besteht, ist eine Wertberichtigung auf den Barwert vorzunehmen.
+- text: 'Fremdwährungsdarlehen: unrealisierte Kursgewinne erfasst (Bewertung über Anschaffungskosten).'
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: Dies gilt insbesondere im Zusammenhang mit unrealisierten Kursgewinnen bei Finanzanlagen in fremder Währung
+unterlagen:
+- dokument: Aufstellung der Aktivdarlehen per 31.12. (Darlehensnehmer, Betrag, Zins, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt)
+  zweck: Abstimmung mit Hauptbuch und Jahresrechnung, Fristigkeit, Basis für alle Schritte
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+- dokument: Darlehensverträge inkl. Nachträge/Konditionenänderungen
+  zweck: Bestand, Rechte, Konditionen, Drittvergleich
+  quelle: hwp-bur-2023__rz-0268-s217
+  zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
+- dokument: Saldomeldungen/Saldobestätigungen der Darlehensnehmer bzw. Abstimmung Gegenbuchhaltung (Konzern), soweit beim Unternehmen vorhanden
+  zweck: Bestandsnachweis (nicht durch die Revisionsstelle einholen)
+  quelle: hwp-bur-2023__rz-0172-s195
+  zitat: Die Bestandsermittlung erfolgt in der Regel durch Abstimmung mit Saldomeldungen oder Verträgen.
+- dokument: Zinsabrechnungen/Zinsquittungen und Bankauszüge mit Zins- und Amortisationseingängen (inkl. neue Rechnung)
+  zweck: Termintreue, Vollständigkeit Zinsertrag, Bonitätsindiz
+  quelle: hwp-er-2026__rz-0177-s217
+  zitat: Wurden Rückzahlungen vereinbarungsgemäss geleistet?
+- dokument: Letzte Jahresrechnungen bzw. Bonitätsinformationen der Darlehensnehmer
+  zweck: Bonitätsbeurteilung, Wertberichtigungsbedarf
+  quelle: hwp-bur-2023__rz-0173-s195
+  zitat: Zur Beurteilung der Bonität kann ggf. die Jahresrechnung des Schuldners oder der Schuldnerin herangezogen werden.
+- dokument: Sicherheitenverträge (Pfand, Bürgschaft, Garantie) und Rangrücktrittsvereinbarungen
+  zweck: Werthaltigkeit und Verwertbarkeit der Sicherheiten
+  quelle: hwp-bur-2023__rz-0273-s218
+  zitat: Bei der Beurteilung erhaltener Sicherheiten ist nicht nur deren Wert, sondern auch die rechtliche und wirtschaftliche Möglichkeit der Verwertung zu berücksichtigen.
+- dokument: VR- und GV-Protokolle (Genehmigung der Darlehen)
+  zweck: Genehmigung, Sachverhalte mit Auswirkung auf die Jahresrechnung
+  quelle: ser-2022__anh-d-s073-1
+  zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+- dokument: Aktienbuch, Handelsregisterauszug, Liste der Beteiligungen
+  zweck: Bestimmung nahestehender Personen/Gesellschaften (Vollständigkeit)
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: Drittvergleichsanalyse und Schlussfolgerung des VR zu Aktionärs-/Konzerndarlehen
+  zweck: Beurteilung Art. 680 Abs. 2 OR
+  quelle: hwp-er-2026__rz-0181-s218
+  zitat: Es bedarf einer Schlussfolgerung durch den Verwaltungsrat, dass Drittbedingungen eingehalten sind.
+- dokument: Detailnachweis der stillen Reserven (Bestand und Veränderung)
+  zweck: Abstimmung stiller Reserven auf Darlehen, Nettoauflösung
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Kontoblätter der Darlehens- und Zinskonten in neuer Rechnung
+  zweck: Rückzahlungen/Ausbuchungen nach dem Stichtag, Vorhandensein
+  quelle: ser-2022__anh-d-s077-2
+  zitat: Durchsicht von Zahlungen in neuer Rechnung und von Verträgen zur Feststellung des Vorhandenseins der Forderungen
+- dokument: Antrag des VR über die Verwendung des Bilanzgewinns
+  zweck: Ausschüttungsfähigkeit bei Aktionärsdarlehen (Sperrung freien Eigenkapitals)
+  quelle: hwp-er-2026__rz-0170-s216
+  zitat: Bestehen Aktionärs- bzw. Konzerndarlehen, die einem Drittvergleich nicht standhalten, führt dies zu einer Sperrung von frei verfügbarem Eigenkapital im gesamten Umfang dieser
+    Darlehen.
+bewertung:
+- regel: Ersterfassung zu Anschaffungskosten; Forderungen grundsätzlich zum Nominalwert.
+  quelle: hwp-bur-2023__rz-0270-s217
+  zitat: Die Ersterfassung von Finanzanlagen erfolgt zu Anschaffungskosten (Art. 960a Abs. 1 OR).
+- regel: Folgebewertung höchstens zum Anschaffungswert abzüglich notwendiger Wertberichtigungen (Art. 960a Abs. 2 und 3 OR).
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: In der Folgebewertung sind die Finanzanlagen zu ihrem Anschaffungswert abzüglich notwendiger Wertberichtigungen zu bilanzieren
+- regel: Wertberichtigung im Einzelfall nach finanzieller Lage des Schuldners und unter Berücksichtigung erhaltener Sicherheiten.
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners, unter Berücksichtigung erhaltener Sicherheiten
+- regel: Sicherheiten nur mit rechtlicher und wirtschaftlicher Verwertbarkeit anrechnen.
+  quelle: hwp-bur-2023__rz-0273-s218
+  zitat: Bei der Beurteilung erhaltener Sicherheiten ist nicht nur deren Wert, sondern auch die rechtliche und wirtschaftliche Möglichkeit der Verwertung zu berücksichtigen.
+- regel: 'Tief- oder unverzinsliche langfristige Darlehen: Wertberichtigung auf den Barwert bei erheblicher Differenz.'
+  quelle: hwp-bur-2023__rz-0270-s217
+  zitat: Falls bei tief- oder unverzinslichen langfristigen Forderungen eine erhebliche Differenz zwischen Nennwert und Barwert besteht, ist eine Wertberichtigung auf den Barwert vorzunehmen.
+- regel: Darlehen an Nahestehende nach denselben Grundsätzen wie an Dritte bewerten; bei zweifelhafter Bonität angemessene Wertberichtigung.
+  quelle: hwp-bur-2023__rz-0173-s195
+  zitat: Im Fall zweifelhafter Bonität ist – wie bei anderen Guthaben – eine angemessene Wertberichtigung zu bilden.
+- regel: Bei Begünstigung Nahestehender Steuerrisiken bilanziell berücksichtigen.
+  quelle: hwp-bur-2023__rz-0173-s195
+  zitat: Bei Begünstigung nahestehender Personen im Vergleich zu Dritten sind allfällige Steuerrisiken bei der Bilanzierung in geeigneter Form zu berücksichtigen
+- regel: 'Darlehen mit Rangrücktritt: ganzheitliche Beurteilung des Gesamtengagements.'
+  quelle: hwp-bur-2023__rz-0272-s218
+  zitat: Besonders sorgfältige Bewertungsüberlegungen sind erforderlich, wenn gewährte Darlehen mit einem Rangrücktritt belastet sind
+- regel: Langfristige Darlehen als Finanzanlagen bilanzieren; bei Nahestehenden gesonderter Ausweis.
+  quelle: hwp-bur-2023__rz-0276-s218
+  zitat: Langfristige Finanzanlagen bei nahestehenden Personen erfordern einen gesonderten Ausweis (Art. 959a Abs. 4 OR).
+- regel: 'Konditionenänderungen: Beurteilung neues Darlehen vs. Fortführung (wirtschaftliche Betrachtung) beeinflusst Bewertung und Ausweis.'
+  quelle: hwp-bur-2023__rz-0275-s218
+  zitat: Dabei kann sich die Frage stellen, ob es sich um ein neues Darlehen oder die (angepasste) Fortführung des bestehenden Vertrags handelt.
+- regel: Zinsen zeitraumbezogen abgrenzen.
+  quelle: hwp-bur-2023__rz-0048-s066
+  zitat: Der Grundsatz der zeitlichen Abgrenzung verlangt, dass Aufwand und Ertrag, die zeitraumbezogen anfallen (z.B. Zinsen, Miete), auch entsprechend abgegrenzt und erfasst werden.
+- regel: Zinserträge aus Darlehen im Finanzertrag ausweisen.
+  quelle: hwp-bur-2023__rz-0789-s328
+  zitat: Erträge aus Finanzanlagen
+- regel: Stille Reserven auf Finanzanlagen über die sachlich zugehörige Erfolgsposition bilden.
+  quelle: hwp-bur-2023__rz-0669-s296
+  zitat: So wäre es etwa nicht sachgerecht, stille Reserven auf Finanzanlagen über die Position Erlösminderungen zu bilden.
+- regel: 'Steuerlich: un- oder ungenügend verzinste Darlehen an Beteiligte sind geldwerte Leistungen (ESTV-Rundschreiben 2026, gilt seit 1.1.2026; für 2025 Rundschreiben 2025 massgebend,
+    im Wiki nicht vorhanden).'
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+fallstricke:
+- text: 'Aktionärsdarlehen werden oft in der Debitoren-OP-Liste oder unter übrigen Forderungen geführt: Ausweis je Forderungsposition gesondert verlangen und Fristigkeit prüfen.'
+  quelle: hwp-bur-2023__rz-0174-s195
+  zitat: Die genannte Unterteilung ist aus Gründen der Transparenz pro Forderungs- und Verbindlichkeitsposition in der Bilanz vorzunehmen
+- text: Saldobestätigungen nicht selbst bei Darlehensnehmern einholen – nicht Bestandteil der eingeschränkten Revision; nur beim Unternehmen vorhandene Nachweise verwenden.
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen
+- text: Bei Art. 680 Abs. 2 OR Verbindlichkeiten gegenüber dem Aktionär nur abziehen, wenn Verrechnungsvoraussetzungen gegeben sind.
+  quelle: hwp-er-2026__rz-0167-s215
+  zitat: Verbindlichkeiten gegenüber Aktionären dürfen nur dann von den Forderungen in Abzug gebracht werden
+- text: Konzerninterne LuL-Forderungen mit üblichen Zahlungszielen gelten nicht als Aktionärsdarlehen; Forderungen mit Finanzierungscharakter hingegen schon (auch cross stream).
+  quelle: hwp-er-2026__rz-0167-s215
+  zitat: Konzerninterne Forderungen aus Lieferungen und Leistungen, die aus einem operativen Leistungsaustausch mit üblichen Zahlungszielen entstanden sind
+- text: Stille Reserven dürfen für das freie Eigenkapital (Art. 680 Abs. 2 OR) berücksichtigt werden, für die Ausschüttungsfähigkeit zählen aber nur offene Reserven.
+  quelle: hwp-er-2026__rz-0172-s216
+  zitat: Wenn ohne (bzw. vor) Berücksichtigung von stillen Reserven ein Verstoss gegen Art. 680 Abs. 2 OR vorliegt, darf keine Ausschüttung erfolgen.
+- text: Fehlender schriftlicher Vertrag, Zins, Rückzahlungsregelung oder Sicherheit ist ein Indiz gegen den Drittvergleich.
+  quelle: hwp-er-2026__rz-0168-s215
+  zitat: Das Fehlen eines schriftlichen Vertrags mit Zins und Rückzahlungskonditionen sowie allfällig notwendigen Sicherheiten kann ein Indiz dafür sein
+- text: 'Bei Verdacht auf Einlagenrückgewähr kein Eventualhinweis: notwendige Prüfungshandlungen durchführen und dem WP vorlegen.'
+  quelle: hwp-er-2026__rz-0180-s218
+  zitat: Ein Eventualhinweis im Bericht der Revisionsstelle an die Generalversammlung ist nicht angemessen
+- text: 'ESTV-Zinssätze sind jahresbezogen (safe haven): Im Wiki liegt nur das Rundschreiben 2026 vor (ab 1.1.2026); Sätze nicht auf das Geschäftsjahr 2025 übertragen.'
+  quelle: estv-zinsen-2026__s001-2
+  zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+- text: Kapitalisierte statt bezahlte Zinsen sind ein Bonitäts- und Drittvergleichsindiz und keine Bestätigung der Werthaltigkeit.
+  quelle: hwp-er-2026__rz-0177-s217
+  zitat: Werden die Zinsen vereinbarungsgemäss bezahlt und nicht mit dem Darlehen kapitalisiert?
+- text: Auch betragsmässig kleine Aktionärsdarlehen können wegen Wiederholungsgefahr für einen Hinweis wichtig sein.
+  quelle: camponovo-2026-hinweispflichten__s057-1
+  zitat: Aber er kann auch wichtig sein (in neuer Rechnung wieder Darlehen an Aktionär, aber jetzt 100’000)
+- text: 'Abgrenzung zu benachbarten Prüffeldern beachten (H1 Finanzanlagen/Wertschriften, H3 Beteiligungen, Forderungen B/C): Darlehen nur einmal prüfen, Querverweis in revio setzen.'
+fragen_kunde:
+- frage: Nach welchen Grundsätzen werden Aktivdarlehen erfasst und bewertet (Nominalwert, Wertberichtigungen, Fremdwährung, Zinsabgrenzung) und gab es Änderungen gegenüber dem Vorjahr?
+  zweck: H2-101 Bilanzierungs- und Bewertungsgrundsätze (BE, PA)
+- frage: Welche Darlehen bzw. Amortisationen sind innert 12 Monaten nach dem Bilanzstichtag fällig?
+  zweck: H2-102 Gliederung kurz-/langfristig (DO)
+- frage: Bestehen Darlehen oder darlehensähnliche Forderungen gegenüber Aktionären, VR, GL, ihnen nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht – auch
+    wenn sie unter Debitoren oder übrigen Forderungen gebucht sind?
+  zweck: H2-201 Vollständigkeit nahestehende Darlehensnehmer (VO, DO)
+- frage: Wie beurteilt die Geschäftsleitung die Bonität der Darlehensnehmer? Gibt es Zahlungsrückstände, Stundungen, Rangrücktritte oder Hinweise auf finanzielle Schwierigkeiten?
+  zweck: H2-302 Wertberichtigungsbedarf (BE)
+- frage: Wurden Darlehensforderungen verpfändet, abgetreten oder zum Inkasso gegeben?
+  zweck: Rechte und Verpflichtungen, Anhangangaben (RV, DO)
+- frage: Wurden nach dem Bilanzstichtag Darlehen zurückbezahlt, neu gewährt, verlängert oder Konditionen geändert?
+  zweck: H2-303/H2-401 Zu-/Abgänge, Bestand, Konditionen (EX, PA)
+- frage: Sind die Zinsen vereinbarungsgemäss bezahlt und per Bilanzstichtag abgegrenzt worden?
+  zweck: H2-402/H2-403 Zinsabgrenzung und Vollständigkeit Zinsertrag (VO, PA)
+- frage: Hat der Verwaltungsrat für Darlehen an Aktionäre bzw. Konzerngesellschaften den Drittvergleich bei Gewährung und per Abschluss beurteilt und dokumentiert? Bitte Analyse und
+    VR-Beschluss zustellen.
+  zweck: H2-404 Einlagenrückgewähr (RV, DO)
+- frage: Bestehen auf Aktivdarlehen zusätzliche Wertberichtigungen (stille Reserven) und wurden solche im Geschäftsjahr gebildet oder aufgelöst?
+  zweck: H2-321 Bestand und Veränderung stiller Reserven (BE)
+testakte_2025:
+- datei: B_Forderungen_aus_LuL/Darlehensvertrag_Gesellschaft_an_Aktionaer_A.md
+  bezug: H2-401 Vertragseinsicht (Betrag, Zins, Rückzahlung, Sicherheit, VR-Beschluss); Grundlage für H2-302, H2-402 und H2-404 (Drittvergleich)
+- datei: B_Forderungen_aus_LuL/Debitoren_OP_Liste_31.12.2025.md
+  bezug: 'H2-201/H2-102/H2-301: Posten D-0001 (Darlehen an Aktionär) in der Debitoren-OP-Liste – Feststellung, Klassierung und Abstimmung'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'H2-301/H2-303: Kontoblatt 1100 mit Buchung DL-2025-01; H2-403: Zins- und Finanzertragskonten'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'H2-301/H2-201: Bilanzkonten (Darlehenskonto vorhanden?); H2-403: Konten 6960/6970; H2-404: Eigenkapitalpositionen für freies Eigenkapital'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'H2-102/H2-320: Bilanzausweis und Anhang Ziff. 2 (nahestehende Parteien); H2-321: Anhang Ziff. 1 (stille Reserven)'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'H2-302/H2-303: Zahlungen und Ausbuchungen in neuer Rechnung (Konto 1100)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'H2-201: VR und Geschäftsleitung (Organe) zur Bestimmung nahestehender Darlehensnehmer'
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: 'H2-201/H2-404: Aktionäre (direkt Beteiligte) für Feststellung und Einlagenrückgewähr'
+- datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
+  bezug: 'H2-404: beantragte Ausschüttung im Verhältnis zu Aktionärsdarlehen und freiem Eigenkapital'
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: 'H2-404: einbezahltes Grundkapital/Kapitalreserven für Berechnung freies Eigenkapital'
+- datei: C_Uebrige_kurzfristige_Forderungen/Kaufvertrag_Stammanteile_Solarservice_Probe_GmbH.md
+  bezug: 'H2-201: Beteiligung seit 30.09.2025 – Kreis der Beteiligungsgesellschaften für Darlehensfeststellung'
+- datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
+  bezug: 'H2-201/H2-302: Feststellung allfälliger Darlehen an die Tochter; Bonitätsunterlage (Jahresabschluss Darlehensnehmer)'
+schritte:
+- id: H2-101
+  vorgehen: 'Befragung der Leiterin Finanzen/GL vorbereiten: Ersterfassung (Nominalwert), Folgebewertung und Wertberichtigungen, Bonitätsüberwachung, Fremdwährung, Zinsabgrenzung sowie
+    Änderungen gegenüber Vorjahr. Agent erfasst die Fragen als Pendenz, wertet die schriftliche Antwort aus und gleicht sie mit Anhang (Grundsätze) und Kontierung ab; Ergebnis im Textfeld
+    dokumentieren.'
+  nachweise:
+  - Schriftliche Antwort/Befragungsprotokoll GL
+  - Anhang Jahresrechnung (Grundsätze)
+  - Vorjahresakte
+  rechnen: ''
+  feststellung_wenn: Grundsätze fehlen oder widersprechen Art. 960/960a OR (z.B. keine Wertberichtigung trotz Anzeichen, Bewertung über Nominalwert) oder wurden gegenüber Vorjahr ohne
+    Offenlegung geändert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  - quelle: ser-2022__anh-d-s072-1
+    zitat: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+- id: H2-102
+  vorgehen: 'Fristigkeit je Darlehen erfragen bzw. aus dem Vertrag ableiten: innert 12 Monaten nach Bilanzstichtag fällige Beträge/Amortisationen ins Umlaufvermögen (übrige kurzfristige
+    Forderungen), übrige als Finanzanlagen. Agent erstellt Fälligkeitsübersicht, vergleicht mit der Bilanzgliederung und dokumentiert Abweichungen; offene Punkte als Frage an GL.'
+  nachweise:
+  - Darlehensaufstellung mit Fälligkeiten
+  - Darlehensverträge (Laufzeit, Amortisation)
+  - Bilanz/Anhang
+  - Antwort GL
+  rechnen: Kurzfristiger Anteil = Σ Rückzahlungen/Amortisationen fällig bis 31.12. des Folgejahres; langfristiger Anteil = Darlehenssaldo − kurzfristiger Anteil
+  feststellung_wenn: Langfristiges Darlehen im Umlaufvermögen, innert 12 Monaten fälliger Teil im Anlagevermögen oder Darlehen unter Forderungen aus Lieferungen und Leistungen ausgewiesen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen
+  - quelle: or__art-959
+    zitat: andere Aktiven, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zu flüssigen Mitteln werden
+  - quelle: hwp-bur-2023__rz-0265-s216
+    zitat: Die Abgrenzung zu den «übrigen kurzfristigen Forderungen» (Umlaufvermögen) liegt in der Fristigkeit.
+- id: H2-201
+  vorgehen: Kreis der Nahestehenden bestimmen (Aktienbuch, HR-Auszug, VR/GL, Beteiligungen) und Darlehensaufstellung, OP-Listen Debitoren/übrige Forderungen sowie Hauptbuch nach diesen
+    Namen durchsuchen. Treffer mit Betrag, Konto und Ausweisort (Bilanz/Anhang) im Textfeld dokumentieren; Vollständigkeitsbestätigung der GL als Frage/Pendenz erfassen.
+  nachweise:
+  - Aktienbuch
+  - Handelsregisterauszug
+  - Liste VR/GL und Beteiligungen
+  - Debitoren-OP-Liste und Einzelnachweis übrige Forderungen
+  - Hauptbuch
+  rechnen: Σ Forderungen ggü. Beteiligten/Organen bzw. Beteiligungsgesellschaften (inkl. in Debitoren/übrigen Forderungen erfasster Posten) = gesondert ausgewiesener Betrag in Bilanz
+    oder Anhang
+  feststellung_wenn: Forderung/Darlehen gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften besteht, ist aber nicht gesondert in Bilanz oder Anhang ausgewiesen (Art. 959a
+    Abs. 4 OR).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s077-1
+    zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  - quelle: or__art-959a-t2
+    zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- id: H2-301
+  vorgehen: 'Darlehensaufstellung per 31.12. mit Hauptbuch und Bilanz abstimmen. Je Darlehen Saldo gegen beim Unternehmen vorhandene Nachweise prüfen: a) Saldomeldungen, b) Zinsquittungen/Bankbelege,
+    c) Verträge, d) Gegenbuchhaltung (Konzern), e) Kontoauszüge u.a. Keine externen Bestätigungen einholen; fehlende Unterlagen als PBC-Pendenz erfassen und Ergebnis im Textfeld dokumentieren.'
+  nachweise:
+  - Darlehensaufstellung 31.12.
+  - Kontoblatt Darlehenskonto
+  - Darlehensverträge
+  - Saldomeldungen (falls vorhanden)
+  - Zinsabrechnungen/Bankauszüge
+  - Abstimmung Gegenbuchhaltung (Konzern)
+  rechnen: Σ Einzelnachweis Aktivdarlehen = Saldo Darlehenskonten Hauptbuch = Bilanzposition (Differenz 0); je Darlehen Saldo Buchhaltung = Saldo gemäss Vertrag/Saldomeldung
+  feststellung_wenn: Nicht erklärbare Differenz zwischen Aufstellung, Hauptbuch und Bilanz, fehlender Vertrag/Nachweis oder Saldo weicht von Saldomeldung bzw. Gegenbuchhaltung ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+  - quelle: hwp-bur-2023__rz-0269-s217
+    zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
+  - quelle: hwp-bur-2023__rz-0269-s217
+    zitat: Bei Darlehen zwischen Konzerngesellschaften sind die Salden der Buchhaltungen gegenseitig abzustimmen.
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen
+- id: H2-302
+  vorgehen: 'Je Darlehensnehmer Bonitätsindizien zusammenstellen: a) letzte Jahresrechnung (Eigenkapital, Ergebnis, Liquidität), b) Termintreue von Zins- und Amortisationszahlungen inkl.
+    neue Rechnung, c) Sicherheiten und deren Verwertbarkeit, d) weitere Infos (Rangrücktritt, Betreibungen). Agent dokumentiert Indizien und allfälligen Wertberichtigungsbedarf als Vorschlag;
+    die Beurteilung trifft der WP.'
+  nachweise:
+  - Jahresrechnung Darlehensnehmer
+  - Bankauszüge Zins-/Amortisationseingänge
+  - Kontoblätter neue Rechnung
+  - Sicherheitenverträge
+  - Rangrücktrittsvereinbarungen
+  rechnen: Wertberichtigungsbedarf = Buchwert Darlehen − voraussichtlich einbringlicher Betrag (inkl. verwertbarer Sicherheiten); Vergleich mit gebuchter Wertberichtigung
+  feststellung_wenn: Indizien zweifelhafter Bonität (Verluste, negatives Eigenkapital, Zahlungsrückstände, kapitalisierte Zinsen, fehlende/unverwertbare Sicherheiten) ohne angemessene
+    Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Beurteilung der Bonität der Darlehensnehmer anhand deren Jahresabschlüssen oder anderer Informationen (sofern verfügbar)
+  - quelle: hwp-bur-2023__rz-0173-s195
+    zitat: Im Fall zweifelhafter Bonität ist – wie bei anderen Guthaben – eine angemessene Wertberichtigung zu bilden.
+  - quelle: hwp-bur-2023__rz-0273-s218
+    zitat: Bei der Beurteilung erhaltener Sicherheiten ist nicht nur deren Wert, sondern auch die rechtliche und wirtschaftliche Möglichkeit der Verwertung zu berücksichtigen.
+  - quelle: hwp-er-2026__rz-0177-s217
+    zitat: Wurde die Bonität der Gegenpartei bei Vertragsabschluss geprüft und wird sie seither regelmässig überwacht?
+- id: H2-303
+  vorgehen: Bewegungen der Darlehenskonten (Auszahlungen, Rückzahlungen, Amortisationen, Wertberichtigungen) anhand Verträgen, VR-Beschlüssen, Bankbelegen und Gegenbuchungen prüfen.
+    Kontenbewegung Vorjahr bis 31.12. nachrechnen und Konten in neuer Rechnung auf Rückzahlungen oder Ausbuchungen durchsehen; ungewöhnliche Posten im Textfeld dokumentieren.
+  nachweise:
+  - Kontoblatt Darlehenskonto
+  - Bankbelege Aus-/Rückzahlungen
+  - Darlehensverträge
+  - VR-Beschlüsse
+  - Kontoblätter neue Rechnung
+  rechnen: Saldo 01.01. + Zugänge (Auszahlungen) − Abgänge (Rückzahlungen/Amortisationen) − Wertberichtigungen = Saldo 31.12.
+  feststellung_wenn: Zu- oder Abgang ohne Beleg, Vertrag oder Genehmigung, unplausible Gegenbuchung (z.B. Verrechnung ohne Grundlage) oder nicht abstimmbare Kontenbewegung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+  - quelle: ser-2022__anh-d-s077-2
+    zitat: Durchsicht von Zahlungen in neuer Rechnung und von Verträgen zur Feststellung des Vorhandenseins der Forderungen
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+- id: H2-304
+  vorgehen: Erfolgskonten mit Bezug zu Darlehen (Finanzertrag/-aufwand, Verluste aus Forderungsverzicht oder Ausbuchung, Kursdifferenzen, Auflösung von Wertberichtigungen) durchsehen
+    und mit Belegen abstimmen. Prüfen, dass keine unrealisierten Kursgewinne auf Fremdwährungsdarlehen gebucht und Verluste in der richtigen Periode erfasst sind.
+  nachweise:
+  - Kontoblätter Finanzertrag/-aufwand
+  - Belege zu Ausbuchungen/Forderungsverzichten
+  - Kursberechnung Fremdwährungsdarlehen
+  rechnen: ''
+  feststellung_wenn: Verlust aus Darlehen nicht oder in falscher Periode erfasst, unrealisierte Kursgewinne gebucht oder Erfolg ohne Beleg bzw. falsch klassiert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  - quelle: hwp-bur-2023__rz-0271-s217
+    zitat: Dies gilt insbesondere im Zusammenhang mit unrealisierten Kursgewinnen bei Finanzanlagen in fremder Währung
+  - quelle: or__art-960a
+    zitat: anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden
+- id: H2-320
+  vorgehen: 'Anhang auf Angaben zu Aktivdarlehen prüfen: gesonderter Ausweis der Forderungen gegenüber Beteiligten/Organen und Beteiligungsgesellschaften (falls nicht in der Bilanz),
+    Grundsätze, Aufschlüsselungen, Nettoauflösung stiller Reserven. Beträge mit Darlehensaufstellung bzw. Ergebnis H2-201 abgleichen; fehlende oder falsche Angaben als Feststellung erfassen.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Darlehensaufstellung
+  - Ergebnis H2-201
+  rechnen: Betrag im Anhang (Forderungen ggü. Beteiligten/Organen bzw. Beteiligungsgesellschaften) = Σ gemäss H2-201
+  feststellung_wenn: Pflichtangabe fehlt (insb. Art. 959a Abs. 4 OR, wenn nicht in der Bilanz) oder Anhangbetrag weicht von der Darlehensaufstellung ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Durchsicht des Anhangs auf vollständige Offenlegung der aufgrund der Befragungen zutreffenden Positionen gemäss Art. 959c OR
+  - quelle: or__art-959a-t2
+    zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+  - quelle: or__art-959c-t1
+    zitat: Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung
+- id: H2-321
+  vorgehen: Detailnachweis der stillen Reserven beim Kunden anfordern; Anteil auf Aktivdarlehen (Wertberichtigungen über das notwendige Mass) mit Ergebnis H2-302 plausibilisieren. Bestand
+    und Veränderung abstimmen und prüfen, ob eine wesentliche Nettoauflösung im Anhang offengelegt ist; Ergebnis im Textfeld festhalten.
+  nachweise:
+  - Aufstellung stille Reserven (Vorjahr/Bestand/Veränderung)
+  - Ergebnis H2-302
+  - Anhang
+  rechnen: Stille Reserven 31.12. = Vorjahr + Bildung − Auflösung; Nettoauflösung = Auflösung − Bildung (> 0 → Anhangangabe prüfen)
+  feststellung_wenn: Aufstellung fehlt oder ist nicht abstimmbar, stille Reserve auf Darlehen nicht nachvollziehbar oder wesentliche Nettoauflösung ohne Anhangangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Plausibilisierung von Bestand und Veränderungen der stillen Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Bilanzpositionen
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- id: H2-322
+  vorgehen: Dauerakte mit neuen oder geänderten Darlehensverträgen, Nachträgen, Sicherheiten- und Rangrücktrittsvereinbarungen, VR-Beschlüssen und Drittvergleichsdokumentation aktualisieren;
+    überholte Dokumente als ersetzt kennzeichnen. Agent legt in M-Files ab bzw. schlägt die Ablage vor.
+  nachweise:
+  - Darlehensverträge und Nachträge
+  - Sicherheiten-/Rangrücktrittsvereinbarungen
+  - VR-Beschlüsse
+  - Drittvergleichsdokumentation
+  rechnen: ''
+  feststellung_wenn: Wesentlicher Vertrag (neues Darlehen, Konditionenänderung) fehlt in der Dauerakte und kann nicht beschafft werden → Pendenz.
+  fundstellen:
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
+- id: H2-401
+  vorgehen: 'Darlehensverträge einsehen und Eckdaten erfassen: Parteien (Gesellschaft selbst als Gläubigerin), Betrag, Zins, Fälligkeit, Kündigung, Amortisation, Sicherheiten, Rangrücktritt,
+    Genehmigung. Mit Buchhaltung abgleichen; Konditionenänderungen (neues Darlehen vs. Fortführung) und fehlende Schriftform als Indiz für den Drittvergleich vermerken.'
+  nachweise:
+  - Darlehensverträge inkl. Nachträge
+  - VR-Beschluss zur Gewährung
+  - Kontoblatt Darlehenskonto
+  rechnen: ''
+  feststellung_wenn: Kein schriftlicher Vertrag, Vertrag nicht von der Gesellschaft abgeschlossen, Konditionen weichen von der Buchung ab oder Genehmigung fehlt.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0175-s217
+    zitat: welcher die üblichen Darlehensbedingungen wie Zinssatz, Fälligkeit, Kündigungsmöglichkeiten, Rückzahlungen, Sicherheiten etc. enthält
+  - quelle: hwp-bur-2023__rz-0268-s217
+    zitat: Für Darlehen an nahestehende Personen und Konzerngesellschaften sind die gleichen Anforderungen an die Dokumentation zu stellen wie für Darlehen an Dritte.
+  - quelle: hwp-bur-2023__rz-0275-s218
+    zitat: Dabei kann sich die Frage stellen, ob es sich um ein neues Darlehen oder die (angepasste) Fortführung des bestehenden Vertrags handelt.
+- id: H2-402
+  vorgehen: Je verzinslichem Darlehen den Marchzins vom letzten Zinstermin bis 31.12. gemäss Vertrag berechnen und mit der gebuchten aktiven Rechnungsabgrenzung vergleichen; auf nicht
+    bezahlte oder kapitalisierte Zinsen achten. Prüfen, ob der Verzicht nach Art. 958b Abs. 2 OR (Finanzerträge bis CHF 100'000) beansprucht wird; Berechnung im Textfeld dokumentieren.
+  nachweise:
+  - Darlehensverträge (Zinssatz, Zinstermine)
+  - Kontoblatt aktive Rechnungsabgrenzung
+  - Zinsabrechnungen
+  rechnen: Marchzins = Darlehensbetrag × Zinssatz × Tage (letzter Zinstermin bis 31.12.) / Tagebasis gemäss Vertrag; Differenz = Marchzins − gebuchte Abgrenzung
+  feststellung_wenn: Aufgelaufener Zins nicht oder falsch abgegrenzt (ausser zulässiger Verzicht nach Art. 958b Abs. 2 OR) oder Zinsen werden kapitalisiert statt bezahlt.
+  fundstellen:
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: hwp-bur-2023__rz-0048-s066
+    zitat: Der Grundsatz der zeitlichen Abgrenzung verlangt, dass Aufwand und Ertrag, die zeitraumbezogen anfallen (z.B. Zinsen, Miete), auch entsprechend abgegrenzt und erfasst werden.
+  - quelle: or__art-958b
+    zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten, kann auf die zeitliche Abgrenzung verzichtet
+- id: H2-403
+  vorgehen: Erwarteten Zinsertrag aus Darlehensbestand und Vertragszinsen herleiten und mit den Konten Zins-/Finanzertrag vergleichen; wesentliche Abweichungen mit GL klären. Zinseingänge
+    mit Bankbelegen abstimmen und prüfen, dass Erträge aus Darlehen vollständig und unverrechnet im Finanzertrag erfasst sind.
+  nachweise:
+  - Darlehensaufstellung mit Zinssätzen
+  - Kontoblätter Zins-/Finanzertrag
+  - Bankbelege Zinseingänge
+  rechnen: Erwarteter Zinsertrag = Σ (Darlehensbestand × Vertragszins × Laufzeitanteil im Geschäftsjahr); Differenz zu gebuchtem Zins-/Finanzertrag inkl. Abgrenzung
+  feststellung_wenn: Vertraglich geschuldeter Zinsertrag nicht oder unvollständig verbucht, mit Aufwand verrechnet oder wesentliche ungeklärte Differenz zum erwarteten Ertrag.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  - quelle: hwp-bur-2023__rz-0789-s328
+    zitat: Erträge aus Finanzanlagen
+- id: H2-404
+  vorgehen: Forderungen mit Darlehenscharakter gegenüber Aktionären (direkt/indirekt) summieren und mit dem freien Eigenkapital vergleichen. Übersteigen sie dieses, Drittvergleichsanalyse
+    und Schlussfolgerung des VR einsehen (Vertrag, Zins, Laufzeit, Rückzahlung, Sicherheiten, Bonität) und kritisch würdigen; Auswirkung auf Gewinnverwendungsantrag und Bericht als Vorschlag
+    für den WP dokumentieren.
+  nachweise:
+  - Darlehensaufstellung Aktionäre/Konzern
+  - Eigenkapitalnachweis (einbezahltes Kapital)
+  - Aufstellung stille Reserven
+  - Drittvergleichsanalyse/VR-Beschluss
+  - Antrag Verwendung Bilanzgewinn
+  rechnen: 'Freies EK = Total Eigenkapital − einbezahltes Grundkapital (+ stille Reserven netto nach latenten Steuern); Test: Σ Aktionärsforderungen mit Darlehenscharakter (abzgl. nur
+    verrechenbarer Verbindlichkeiten) ≤ freies EK'
+  feststellung_wenn: Aktionärsdarlehen übersteigen das freie Eigenkapital und der Drittvergleich ist nicht dokumentiert oder nicht bestanden (Art. 680 Abs. 2 OR), insbesondere bei beantragter
+    Ausschüttung.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0167-s215
+    zitat: Das freie Eigenkapital entspricht gemäss bundesgerichtlicher Rechtsprechung dem gesamten Eigenkapital abzüglich des einbezahlten Aktienkapitals.
+  - quelle: hwp-er-2026__rz-0168-s215
+    zitat: Es obliegt der Gesellschaft, den Drittvergleich bei der Gewährung und periodisch, beispielsweise im Rahmen der Abschlusserstellung, zu beurteilen und zu dokumentieren.
+  - quelle: hwp-er-2026__rz-0181-s218
+    zitat: Die Revisionsstelle nimmt Einsicht in die Analyse, die der Verwaltungsrat oder die Geschäftsleitung erarbeitet hat.
+  - quelle: or__art-680
+    zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
+  - quelle: hwp-er-2026__rz-0425-s280-t1
+    zitat: Gesetzeswidrige Gewährung eines Aktionärsdarlehens oder nicht zulässige Rückzahlung des Aktienkapitals

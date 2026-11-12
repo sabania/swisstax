@@ -1,0 +1,441 @@
+# Prüffeld E1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: E1
+bezeichnung: Aktive Rechnungsabgrenzung
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 13
+    korrigiert: false
+kurzbeschrieb: 'Aktive Rechnungsabgrenzungen (Konto 1300): transitorische Aktiven (2025 bezahlter Aufwand des Folgejahres) und antizipative Aktiven (Ertrag 2025, Geldeingang 2026). In
+  der eingeschränkten Revision Bestand, Vollständigkeit, Bewertung (künftiger Geld- oder Nutzenzugang) und Periodenabgrenzung mit Befragung, Analytik und Abstimmung der Detailaufstellung
+  prüfen; Ausweis ggü. Nahestehenden.'
+gesetz:
+- thema: 'Mindestgliederung: aktive Rechnungsabgrenzungen als eigene Position im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. e OR)'
+  quelle: or__art-959a-t1
+  zitat: e. aktive Rechnungsabgrenzungen
+- thema: Zeitliche und sachliche Abgrenzung von Aufwand und Ertrag (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: 'Erleichterung bei Nettoerlösen/Finanzerträgen bis CHF 100''000: Verzicht auf zeitliche Abgrenzung (Art. 958b Abs. 2 OR)'
+  quelle: or__art-958b
+  zitat: kann auf die zeitliche Abgrenzung verzichtet und stattdessen auf Ausgaben und Einnahmen abgestellt werden
+- thema: Aktivierungsvoraussetzungen (Art. 959 Abs. 2 OR)
+  quelle: or__art-959
+  zitat: Als Aktiven müssen Vermögenswerte bilanziert werden, wenn aufgrund vergangener Ereignisse über sie verfügt werden kann, ein Mittelzufluss wahrscheinlich ist und ihr Wert verlässlich
+    geschätzt werden kann.
+- thema: Zuordnung Umlaufvermögen (Art. 959 Abs. 3 OR)
+  quelle: or__art-959
+  zitat: andere Aktiven, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zu flüssigen Mitteln werden oder anderweitig realisiert
+    werden
+- thema: Bestandesnachweis durch Inventar/Detailaufstellung (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Verrechnungsverbot (Art. 958c Abs. 1 Ziff. 7 OR)
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Überprüfung bei Anzeichen einer Überbewertung (Art. 960 Abs. 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Höchstbewertung zu Anschaffungskosten (Art. 960a Abs. 2 OR)
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+- thema: Stille Reserven durch zusätzliche Abschreibungen/Wertberichtigungen (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- thema: Gesonderter Ausweis gegenüber Beteiligten, Organen und Beteiligungsgesellschaften (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: Belegnachweis für Bildung und Auflösung (Art. 957a Abs. 2 Ziff. 2 OR)
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- thema: Prüfungsumfang der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: 'Überbewertung: aktivierte Beträge ohne künftigen Geld- oder Nutzenzugang (Leistung entfällt, Vertrag gekündigt, Gegenpartei insolvent, antizipativer Ertrag nicht einbringlich).'
+  pruefziele:
+  - BE
+  - EX
+  quelle: ser-2022__anh-d-s080-1
+  zitat: Befragung über die Werthaltigkeit (künftiger Geld- oder Nutzenzugang) der aktivierten Beträge
+- text: 'Nicht existierende oder zu hohe transitorische Aktiven: Aufwand des laufenden Jahres wird als Aufwand des Folgejahres aktiviert (Ergebnisverbesserung).'
+  pruefziele:
+  - EX
+  - EN
+  - PA
+  quelle: hwp-bur-2023__rz-0256-s215
+  zitat: Ausgaben im alten Jahr, die als Aufwand dem neuen Rechnungsjahr zu belasten sind
+- text: 'Unvollständige antizipative Aktiven: Erträge 2025 (Zinsen, Mieten, Provisionen, Umsatzprämien/Boni) mit Geldeingang 2026 nicht erfasst.'
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0256-s215
+  zitat: 'Antizipative Aktiven: Erträge des alten Jahres, die erst im neuen Jahr zu Einnahmen führen'
+- text: 'Falsche Periodenabgrenzung: zeitanteiliger Betrag falsch berechnet oder Leistungszeitraum betrifft ganz/teilweise 2025.'
+  pruefziele:
+  - PA
+  - BE
+  - RI
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- text: Vorjahresabgrenzung nicht oder falsch aufgelöst (doppelte Aktivierung) bzw. bei Belassen-Methode nicht an die aktuelle Situation angepasst.
+  pruefziele:
+  - EX
+  - PA
+  quelle: hwp-bur-2023__rz-0261-s216
+  zitat: Oder die Rechnungsabgrenzungsposten werden belassen und beim nächsten Zwischen- oder Jahresabschluss, falls erforderlich, an die aktuelle Situation angepasst.
+- text: 'Fehlerhafter Ausweis: Saldierung mit passiven Abgrenzungen, Vermischung mit Anzahlungen oder langfristigen Anteilen.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: eine Saldierung der beiden Positionen ist nicht zulässig
+- text: Abgrenzungen gegenüber Aktionären, Organen oder Beteiligungsgesellschaften nicht gesondert ausgewiesen.
+  pruefziele:
+  - DO
+  - VO
+  quelle: or__art-959a-t2
+  zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+- text: Bestand/Veränderung stiller Reserven in der Position nicht im Nachweis erfasst; wesentliche Nettoauflösung ohne Anhangangabe.
+  pruefziele:
+  - VO
+  - BE
+  - DO
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+unterlagen:
+- dokument: Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2025 (Konto 1300) mit Text, Gegenpartei, Beleg, Leistungszeitraum, Berechnung und Betrag
+  zweck: Abstimmung mit Hauptbuch und Jahresrechnung (E1-301), Grundlage für E1-101, E1-203, E1-302, E1-304
+  quelle: ser-2022__anh-d-s080-1
+  zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+- dokument: Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2024 (Vorjahr)
+  zweck: Positionsweiser Vorjahresvergleich (E1-201), Auflösung Vorjahr (E1-306)
+  quelle: hwp-bur-2023__rz-0262-s216
+  zitat: durch Vergleich mit den im Vorjahr ausgewiesenen Rechnungsabgrenzungen
+- dokument: Belege der abgegrenzten Beträge (Rechnungen, Prämienrechnungen, Zahlungsbelege)
+  zweck: Echtheit, Betrag, Leistungszeitraum, Nachrechnen der Abgrenzung (E1-302, E1-306)
+  quelle: hwp-er-2026__rz-0115-s200
+  zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+- dokument: Verträge (Versicherungspolicen, Lizenz-, Miet-, Leasing-, Wartungsverträge)
+  zweck: Abstimmung der Bestände (E1-304), Werthaltigkeit/Laufzeit (E1-302)
+  quelle: ser-2022__anh-d-s080-1
+  zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+- dokument: Kontoblatt 1300 und Kontoblätter der zugehörigen Aufwands- und Ertragskonten 2025
+  zweck: Bildung/Auflösung (E1-306), kritische Durchsicht (E1-303)
+  quelle: hwp-bur-2023__rz-0262-s216
+  zitat: mittels Durchsicht der einzelnen Aufwands- und Ertragskonten im Hinblick auf die richtige Periodenabgrenzung
+- dokument: Kontoblätter neue Rechnung 2026 (Konto 1300 und zugehörige Konten, bis Prüfungsdatum)
+  zweck: Entwicklung in neuer Rechnung, Geldeingänge antizipativer Aktiven (E1-305)
+  quelle: ser-2022__anh-d-s080-1
+  zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+- dokument: Saldoliste Bilanz und Erfolgsrechnung 2025 mit Vorjahr
+  zweck: Analytik Bestand und zugehörige Aufwands-/Ertragskonten (E1-201, E1-202)
+  quelle: ser-2022__anh-d-s080-1
+  zitat: Vergleich mit den Beständen des Vorjahres
+- dokument: Liste nahestehender Personen/Organe/Beteiligungen (Aktienbuch, HR-Auszug, GV-/VR-Protokolle)
+  zweck: Feststellung von Abgrenzungen gegenüber Nahestehenden (E1-203)
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition)
+  zweck: Beurteilung stille Reserven (E1-320)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Schriftliche Antworten Kundenbefragung zur Werthaltigkeit der aktivierten Beträge
+  zweck: Auswertung der Befragung E1-101 statt mündlicher Befragung
+  quelle: hwp-er-2026__rz-0104-s198
+  zitat: Bei Kernaussagen wird der Abschlussprüfer allenfalls eine schriftliche Bestätigung der erhaltenen Auskünfte vom Befragten einverlangen.
+- dokument: Vollständigkeitserklärung (stille Reserven, nahestehende Personen)
+  zweck: Bestätigung zu stillen Reserven (E1-320) und Nahestehenden (E1-203)
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt
+bewertung:
+- regel: Rechnungsabgrenzungen dienen der Ermittlung von Vermögen/Schulden am Stichtag und der periodengerechten Abgrenzung; in der Regel kurzfristig.
+  quelle: hwp-bur-2023__rz-0255-s215
+  zitat: Die Rechnungsabgrenzungen dienen sowohl der korrekten Ermittlung der Vermögenswerte und der Schulden auf den Bilanzstichtag als auch der periodengerechten Abgrenzung
+- regel: 'Transitorische Aktiven: im alten Jahr bezahlter Aufwand des neuen Jahres (z.B. vorausbezahlte Mieten, Versicherungsprämien).'
+  quelle: hwp-bur-2023__rz-0256-s215
+  zitat: vorausbezahlte Miet- und Pachtzinsen, Versicherungsprämien
+- regel: 'Antizipative Aktiven: Erträge des alten Jahres mit Einnahme im neuen Jahr.'
+  quelle: hwp-bur-2023__rz-0256-s215
+  zitat: wie beispielsweise Kapitalzinsen, Mieten, Provisionen und Umsatzprämien
+- regel: Bewertung nach den Grundsätzen für Forderungen (Werthaltigkeit, ggf. Wertberichtigung).
+  quelle: hwp-bur-2023__rz-0263-s216
+  zitat: Die Rechnungsabgrenzungen sind nach den Grundsätzen, die für Forderungen bzw. Verbindlichkeiten gelten, zu bewerten.
+- regel: Bilanzierung zum Nominalwert.
+  quelle: hwp-bur-2023__rz-0263-s216
+  zitat: Die Bilanzierung erfolgt zu Nominalwerten.
+- regel: Aktivierung nur bei Verfügungsmacht, wahrscheinlichem Mittelzufluss und verlässlicher Schätzbarkeit.
+  quelle: or__art-959
+  zitat: ein Mittelzufluss wahrscheinlich ist
+- regel: Bei konkreten Anzeichen einer Überbewertung Wert überprüfen und anpassen.
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- regel: Aktive und passive Abgrenzungen gesondert ausweisen, keine Saldierung.
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: eine Saldierung der beiden Positionen ist nicht zulässig
+- regel: Ausweis in der Regel kurzfristig; langfristige Anteile möglich (z.B. Disagio).
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: Die aktiven und passiven Rechnungsabgrenzungen sind in der Regel im kurzfristigen Bereich auszuweisen.
+- regel: Auflösung im neuen Jahr per Rückbuchung in die Aufwands-/Ertragskonten; diese gilt nicht als periodenfremd.
+  quelle: hwp-bur-2023__rz-0261-s216
+  zitat: dabei gilt die Rückbuchung nicht als periodenfremd
+- regel: Bestandsaufnahme u.a. über Beurteilung von Aktiv-/Passivposten (Marchzinsen) und Vorjahresvergleich.
+  quelle: hwp-bur-2023__rz-0262-s216
+  zitat: im Zusammenhang mit der Beurteilung von Aktiv- und Passivposten (beispielsweise Marchzinsen)
+- regel: Stille Reserven je Bilanzposition nach stetiger Methode ermitteln; nur Nettoauflösung im Anhang offenlegen.
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Die stillen Reserven sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln
+fallstricke:
+- text: Saldierung von aktiven mit passiven Rechnungsabgrenzungen ist unzulässig – Bilanz und Detailaufstellungen 1300/2300 getrennt prüfen.
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: eine Saldierung der beiden Positionen ist nicht zulässig
+- text: Abgrenzung zu Anzahlungen ist unscharf; entscheidend ist die korrekte Fristigkeit. Vorauszahlungen für Waren/Anlagen gehören nicht zwingend in 1300.
+  quelle: hwp-bur-2023__rz-0259-s215
+  zitat: solange die Fristigkeit korrekt dargestellt ist
+- text: Belassen-Methode (Saldo wird nicht zurückgebucht) nur in einfachen Fällen; sonst Gefahr veralteter Abgrenzungen.
+  quelle: hwp-bur-2023__rz-0261-s216
+  zitat: sollte aber nur in einfachen, übersichtlichen Fällen angewandt werden
+- text: Erleichterung nach Art. 958b Abs. 2 OR betrifft nur die zeitliche Abgrenzung; sachliche Abgrenzungen bleiben Pflicht.
+  quelle: hwp-bur-2023__rz-0019-s061
+  zitat: Die sachlichen Abgrenzungen sind jedoch vorzunehmen.
+- text: 'Mehrjährige Vorauszahlungen: Anteil über 12 Monate ist langfristig; Ausweis prüfen.'
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: Langfristige Positionen können z.B. im Zusammenhang mit Disagio bzw. Agio von Anleihen bestehen
+- text: Analytik in KMU durch stille Reserven verzerrt – Vergleichszahlen vorher bereinigen.
+  quelle: hwp-er-2026__rz-0110-s199
+  zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+- text: 'Agent führt keine Befragung selbst: nur schriftliche Antworten auswerten, sonst Frage als Pendenz; Visum bleibt offen.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- text: WP-Schritte E1-303 bis E1-305 sind weitergehende Prüfungshandlungen – nur bei angenommenen wesentlichen Fehlaussagen oder erhöhtem inhärentem Risiko bzw. auf Anordnung des WP.
+  quelle: hwp-er-2026__rz-0132-s203
+  zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
+    anzunehmen sind
+- text: 'Mehrjährige Software-/Lizenzzahlungen: prüfen, ob eine Abgrenzung oder ein immaterieller Wert vorliegt und ob der Nutzen im Folgejahr tatsächlich anfällt (Praxis, keine Quelle).'
+fragen_kunde:
+- frage: Sind die aktivierten Beträge je Position werthaltig, d.h. wird die vorausbezahlte Leistung 2026 noch bezogen (Vertrag ungekündigt, Lieferant leistungsfähig) bzw. ist der Geldeingang
+    der abgegrenzten Erträge gesichert?
+  zweck: 'E1-101 / E1-302: Bewertung (künftiger Geld- oder Nutzenzugang)'
+- frage: Worauf sind die Veränderungen des Kontos 1300 gegenüber dem Vorjahr (neue, weggefallene, veränderte Positionen) zurückzuführen?
+  zweck: 'E1-201: Begründung von Abweichungen zum Vorjahresbestand'
+- frage: Wie erklären sich wesentliche Abweichungen der zugehörigen Aufwands- und Ertragskonten (z.B. Versicherungen, Software/Lizenzen, Miete, Zinsertrag) gegenüber dem Vorjahr?
+  zweck: 'E1-202: Besprechung wesentlicher Abweichungen mit der Unternehmensleitung'
+- frage: Wie werden die aktiven Abgrenzungen ermittelt (Verfahren, Durchsicht welcher Konten, Rückbuchungs- oder Belassen-Methode) und wurden auch antizipative Erträge (Zinsen, Boni,
+    Rückvergütungen, Provisionen) erfasst?
+  zweck: 'E1-303 / E1-306: Vollständigkeit und korrekte Verbuchung'
+- frage: Bestehen aktive Abgrenzungen gegenüber Aktionären, Organen, nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht?
+  zweck: 'E1-203: Ausweis nach Art. 959a Abs. 4 OR'
+- frage: Wurden in der Position stille Reserven gebildet oder aufgelöst (z.B. bewusster Verzicht auf Aktivierung) und wurde die Berechnungsmethode gegenüber dem Vorjahr beibehalten?
+  zweck: 'E1-320: Bestand und Veränderung stiller Reserven'
+- frage: Enthält die Position Anteile mit Leistungszeitraum über 12 Monate nach dem Bilanzstichtag oder Anzahlungen für Waren/Anlagen?
+  zweck: Darstellung/Fristigkeit (E1-301)
+testakte_2025:
+- datei: F_Aktive_Rechnungsabgrenzung/Aktive_Rechnungsabgrenzungen_31.12.2025.md
+  bezug: 'Detailaufstellung Konto 1300 (Positionen, Lieferant, Beleg, Betrag): E1-101, E1-203, E1-301, E1-302, E1-304'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Saldo 1300 LJ/VJ und zugehörige Aufwandskonten (Versicherungen, Software-Lizenzkosten): E1-201, E1-202, E1-301'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Kontoblatt 1300 (Rückbuchung Vorjahr, Bildung per 31.12.2025): E1-301, E1-306; enthält nur Bilanzkonten (und 8510), keine Aufwandskonten → E1-303 als PBC-Vorschlag'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'Bilanzposition Aktive Rechnungsabgrenzungen, Anhang (nahestehende Parteien, Grundsätze stille Reserven): E1-203, E1-301, E1-320'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: Konten neue Rechnung; enthält nur 1100, 3200, 2000, nicht 1300 → E1-305 Pendenz/PBC-Vorschlag
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'Organe (VR, GL), Aktienkapital, wichtigste Partner für Liste Nahestehender: E1-203'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'Übersicht vorhandener Unterlagen; fehlende Rechnungen/Verträge zu den Positionen 1300 → Pendenz: E1-302, E1-304, E1-306'
+- datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
+  bezug: 'Mietvertrag (Mietzins monatlich) als Grundlage für mögliche Vorauszahlungen Miete: E1-202, E1-303, E1-304'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'Gegenprobe getrennter Ausweis/keine Saldierung aktiver und passiver Abgrenzungen: E1-301'
+schritte:
+- id: E1-101
+  vorgehen: 'Agent kann nicht selbst befragen: in M-Files schriftliche Antworten (Kundenbefragung, Fragebogen, Vollständigkeitserklärung) zur Werthaltigkeit jeder wesentlichen Position
+    der Detailaufstellung 1300 suchen und auswerten (Leistung 2026 noch nutzbar, Vertrag ungekündigt, Gegenpartei solvent, Geldeingang gesichert). Fehlt eine Antwort: Frage je Position
+    als Pendenz erfassen; Status höchstens «teilweise bearbeitet».'
+  nachweise:
+  - Schriftliche Antwort Kundenbefragung zur Werthaltigkeit
+  - Detailaufstellung aktive Rechnungsabgrenzungen 31.12.2025
+  - Vollständigkeitserklärung
+  rechnen: ''
+  feststellung_wenn: Antwort zeigt für eine wesentliche Position fehlenden künftigen Geld- oder Nutzenzugang (Kündigung, Leistung entfällt, Gegenpartei insolvent) oder Antwort fehlt
+    (dann Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Befragung über die Werthaltigkeit (künftiger Geld- oder Nutzenzugang) der aktivierten Beträge
+  - quelle: hwp-er-2026__rz-0104-s198
+    zitat: Bei Kernaussagen wird der Abschlussprüfer allenfalls eine schriftliche Bestätigung der erhaltenen Auskünfte vom Befragten einverlangen.
+  - quelle: or__art-959
+    zitat: ein Mittelzufluss wahrscheinlich ist
+- id: E1-201
+  vorgehen: 'Saldo Konto 1300 bzw. Bilanzposition per 31.12.2025 mit 31.12.2024 vergleichen (Saldoliste, Vorjahres-JR). Detailaufstellung positionsweise der Vorjahresaufstellung gegenüberstellen:
+    wiederkehrende Positionen (Versicherungen, Mieten, Lizenzen) erwarten, neue, weggefallene und stark veränderte Positionen markieren. Unerklärte Abweichungen über der Toleranzwesentlichkeit
+    als Frage an die Unternehmensleitung (Pendenz) erfassen.'
+  nachweise:
+  - Saldoliste 2025 mit Vorjahr
+  - Detailaufstellung 1300 per 31.12.2025
+  - Detailaufstellung 1300 per 31.12.2024
+  rechnen: 'Veränderung = Saldo 1300 per 31.12.2025 − Saldo per 31.12.2024; Veränderung % = Veränderung / Saldo VJ; je Position: Betrag LJ − Betrag VJ'
+  feststellung_wenn: Wiederkehrende Vorjahresposition fehlt ohne Erklärung (Vollständigkeit) oder neue/erhöhte Position ohne nachvollziehbaren Grund; unerklärte Veränderung über der
+    Toleranzwesentlichkeit.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Vergleich mit den Beständen des Vorjahres
+  - quelle: hwp-bur-2023__rz-0262-s216
+    zitat: durch Vergleich mit den im Vorjahr ausgewiesenen Rechnungsabgrenzungen
+- id: E1-202
+  vorgehen: Zugehörige Aufwands- und Ertragskonten (Versicherungsprämien, Miete, Software/Lizenzen, Wartung, Zins-, Miet- und Provisionsertrag) aus der Saldoliste LJ/VJ vergleichen,
+    Erwartung aus Vorjahr und Verträgen bilden und Abgrenzungsbetrag plausibilisieren. Wesentliche Abweichungen auflisten und als Frage zur Besprechung mit der Unternehmensleitung (Pendenz,
+    Besprechung durch WP) erfassen; Einfluss stiller Reserven beachten.
+  nachweise:
+  - Saldoliste Erfolgsrechnung 2025 mit Vorjahr
+  - Verträge zu wiederkehrenden Aufwänden/Erträgen
+  - Detailaufstellung 1300
+  rechnen: 'Je Konto: Saldo 2025 − Saldo 2024 und Abweichung %; erwartete Abgrenzung = Jahresbetrag × Monate nach 31.12.2025 / Monate Leistungsperiode; Vergleich mit gebuchter Abgrenzung'
+  feststellung_wenn: Aufwands- oder Ertragskonto weicht wesentlich von Vorjahr/Erwartung ab und die Abgrenzung erklärt dies nicht (Hinweis auf zu hohe oder fehlende Abgrenzung).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Vergleich der Salden zugehöriger Ertrags- und Aufwandskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+- id: E1-203
+  vorgehen: Liste nahestehender Parteien (Aktionäre, VR, GL, Beteiligungsgesellschaften) aus Unternehmensinformationen, HR-Auszug, Aktienbuch, Protokollen und Anhang erstellen und mit
+    den Gegenparteien der Detailaufstellung 1300 abgleichen. Bei Treffern gesonderten Ausweis in Bilanz oder Anhang (Art. 959a Abs. 4 OR) prüfen. Unklare Gegenparteien als Pendenz erfassen.
+  nachweise:
+  - Detailaufstellung 1300 mit Gegenparteien
+  - Unternehmensinformationen/HR-Auszug/Aktienbuch
+  - Anhang der Jahresrechnung
+  - Vollständigkeitserklärung (nahestehende Personen)
+  rechnen: Summe Abgrenzungen ggü. Nahestehenden = Summe Positionen mit Gegenpartei auf Liste Nahestehender; Abgleich mit Anhangangabe
+  feststellung_wenn: Abgrenzung gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften ohne gesonderten Ausweis in Bilanz/Anhang, oder Gegenpartei einer wesentlichen Position
+    unklar.
+  fundstellen:
+  - quelle: or__art-959a-t2
+    zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Feststellung der korrekten Offenlegung der Beziehung zu nahestehenden Personen in der Jahresrechnung
+- id: E1-301
+  vorgehen: 'Detailaufstellung 1300 (PBC) in M-Files suchen, Summe nachrechnen und mit Saldo Konto 1300 (Hauptbuch, Saldoliste) und der Bilanzposition «Aktive Rechnungsabgrenzungen»
+    der Jahresrechnung abstimmen. Je Position Beleg, Leistungszeitraum (nach 31.12.2025) und Gegenpartei festhalten; keine Saldierung mit passiven Abgrenzungen. Fehlt die Aufstellung:
+    Pendenz.'
+  nachweise:
+  - Detailaufstellung 1300 per 31.12.2025
+  - Kontoblatt 1300 / Saldoliste
+  - Jahresrechnung 2025 (Bilanz)
+  rechnen: Summe Detailaufstellung = Saldo Konto 1300 (Hauptbuch) = Bilanzposition Aktive Rechnungsabgrenzungen JR 31.12.2025; Differenz = 0
+  feststellung_wenn: Differenz zwischen Aufstellung, Hauptbuch und Jahresrechnung; Position betrifft Leistungszeitraum 2025; Saldierung mit passiven Abgrenzungen; Aufstellung fehlt (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: hwp-er-2026__rz-0091-s196
+    zitat: Das Nachrechnen besteht aus der Prüfung der rechnerischen Richtigkeit von quantitativen Angaben in Dokumenten oder Aufzeichnungen.
+- id: E1-302
+  vorgehen: 'Für wesentliche Positionen Beleg (Rechnung, Police) einsehen: Echtheit (Gegenpartei, Betrag, Zahlung 2025) und zeitanteiligen Abgrenzungsbetrag nachrechnen. Antizipative
+    Aktiven: Bonität und Geldeingang in neuer Rechnung prüfen; transitorische Aktiven: künftigen Nutzen (Leistung 2026 beziehbar) beurteilen. Notwendige Wertberichtigung oder Korrektur
+    im Textfeld begründen.'
+  nachweise:
+  - Rechnungen/Policen der abgegrenzten Positionen
+  - Zahlungsbelege 2025
+  - Zahlungseingänge 2026 (antizipative Aktiven)
+  - Detailaufstellung 1300
+  rechnen: Abgrenzung = Rechnungsbetrag × Tage (Monate) Leistungszeitraum nach 31.12.2025 / Tage (Monate) gesamter Leistungszeitraum; Differenz zum gebuchten Betrag
+  feststellung_wenn: Beleg fehlt oder weicht ab; Leistungszeitraum ganz/teilweise 2025; Geldeingang zweifelhaft oder kein künftiger Nutzen; wesentliche Rechendifferenz.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0263-s216
+    zitat: Die Rechnungsabgrenzungen sind nach den Grundsätzen, die für Forderungen bzw. Verbindlichkeiten gelten, zu bewerten.
+  - quelle: or__art-960
+    zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+  - quelle: ser-2022__anh-d-s077-1
+    zitat: Beurteilung der Notwendigkeit einer Wertberichtigung durch Prüfung der Zahlungskonditionen oder dem nachträglichen Eingang der Zahlungen
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Bei der Belegprüfung ist sicherzustellen, dass die Zahlen und die weiteren Angaben bei der erstmaligen Erfassung im System des Rechnungswesens vollständig und richtig sind.
+- id: E1-303
+  vorgehen: 'Weitergehende Handlung, nur auf Anordnung WP oder bei erhöhtem Risiko. Kontoblätter typischer Konten (Versicherungen, Miete, Leasing, Lizenzen/Wartung, Beiträge; Zins-,
+    Miet-, Provisionsertrag, Boni) kritisch durchsehen: Buchungen Okt.–Dez. mit Leistungszeitraum 2026 ohne Abgrenzung und Ertrag 2025 ohne Erfassung auflisten. Fehlen Kontoblätter:
+    PBC-Vorschlag.'
+  nachweise:
+  - Kontoblätter Aufwands- und Ertragskonten 2025
+  - Rechnungen Okt.–Dez. 2025
+  - Detailaufstellung 1300
+  rechnen: 'Je Fund: abzugrenzender Anteil = Betrag × Monate 2026 / Monate Leistungsperiode; Summe nicht/falsch abgegrenzter Anteile vs. Toleranzwesentlichkeit'
+  feststellung_wenn: Nicht oder falsch abgegrenzte Beträge erreichen einzeln oder zusammen die Toleranzwesentlichkeit, oder Aufwand 2025 wurde als aktive Abgrenzung aktiviert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Kritische Durchsicht von Ertrags- und Aufwandskonten, welche häufig aktive Rechnungsabgrenzungen enthalten
+  - quelle: hwp-bur-2023__rz-0262-s216
+    zitat: mittels Durchsicht der einzelnen Aufwands- und Ertragskonten im Hinblick auf die richtige Periodenabgrenzung
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: bestimmte Aufwands- oder Ertragskonten
+- id: E1-304
+  vorgehen: 'Weitergehende Handlung (WP). Wesentliche Positionen mit Verträgen abstimmen (Versicherungspolice, Lizenz-, Miet-, Leasing-, Wartungsvertrag): Vertragspartei ist die Gesellschaft,
+    Leistungszeitraum, Prämie/Preis, Laufzeit und Kündigung. Ergebnis je Position im Textfeld dokumentieren; fehlende Verträge als Pendenz bzw. PBC-Vorschlag erfassen.'
+  nachweise:
+  - Verträge/Policen zu den Positionen 1300
+  - Detailaufstellung 1300
+  rechnen: Abgrenzung gemäss Vertrag = Vertragsbetrag × Restlaufzeit-Anteil nach 31.12.2025; Differenz zur gebuchten Abgrenzung
+  feststellung_wenn: Vertrag fehlt, lautet auf Dritte (z.B. Aktionär) oder Vertragsdaten (Zeitraum, Betrag) stimmen nicht mit der Abgrenzung überein.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+  - quelle: hwp-er-2026__rz-0090-s196
+    zitat: kritische Durchsicht von Verträgen
+- id: E1-305
+  vorgehen: 'Weitergehende Handlung (WP). Konto 1300 und zugehörige Konten in neuer Rechnung (ab 01.01.2026 bis Prüfungsdatum) durchsehen: Auflösung des Saldos, Geldeingänge der antizipativen
+    Aktiven, Gutschriften, Rückerstattungen oder Kündigungen, die Bestand oder Wert in Frage stellen. Fehlen Kontoblätter 2026: PBC-Vorschlag.'
+  nachweise:
+  - Kontoblatt 1300 neue Rechnung 2026
+  - Kontoblätter zugehörige Aufwands-/Ertragskonten 2026
+  - Bankbelege Zahlungseingänge 2026
+  rechnen: Auflösung 2026 (Haben 1300) = Saldo 1300 per 31.12.2025; Geldeingänge antizipative Aktiven 2026 ≥ abgegrenzter Betrag
+  feststellung_wenn: Auflösung weicht vom Bilanzsaldo ab, Geldeingang bleibt aus oder ist tiefer, oder Buchungen 2026 zeigen, dass die Leistung entfällt (Rückerstattung, Gutschrift).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s080-1
+    zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Hinweise zu den Ereignissen nach dem Bilanzstichtag zu erhalten
+- id: E1-306
+  vorgehen: 'Kontoblatt 1300 anhand Belegen prüfen: Auflösung der Vorjahresabgrenzung (Rückbuchung Anfang 2025 = Saldo 31.12.2024, in die richtigen Aufwands-/Ertragskonten, nicht als
+    periodenfremd/ausserordentlich) und Bildung per 31.12.2025 (= Detailaufstellung, korrektes Gegenkonto, Beleg vorhanden). Bei Belassen-Methode Anpassung an die aktuelle Situation
+    prüfen.'
+  nachweise:
+  - Kontoblatt 1300 2025
+  - Buchungsbelege Auflösung und Bildung
+  - Detailaufstellungen 1300 per 31.12.2024 und 31.12.2025
+  rechnen: Auflösung VJ (Haben 1300) = Saldo 1300 per 31.12.2024; Bildung (Soll 1300) = Total Detailaufstellung 31.12.2025; Eröffnungssaldo + Soll − Haben = Saldo 31.12.2025
+  feststellung_wenn: Vorjahresabgrenzung nicht oder nur teilweise aufgelöst, Gegenkonto falsch (z.B. ausserordentlicher Ertrag), Buchung ohne Beleg oder Bildung ≠ Detailaufstellung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0261-s216
+    zitat: Nach Eröffnung der Buchhaltung im neuen Geschäftsjahr erfolgt entweder eine Rückbuchung in die betreffenden Aufwands- und Ertragskonten
+  - quelle: hwp-bur-2023__rz-0261-s216
+    zitat: dabei gilt die Rückbuchung nicht als periodenfremd
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: or__art-957a
+    zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- id: E1-320
+  vorgehen: 'Nachweis stille Reserven (Kunde) in M-Files suchen; Bestand und Veränderung in der Position aktive Rechnungsabgrenzungen mit den Erkenntnissen aus E1-101 bis E1-306 plausibilisieren
+    und in die Gesamtübersicht stille Reserven/Nettoauflösung (Anhang, Art. 959c Abs. 1 Ziff. 3 OR) übertragen. Methode wie Vorjahr? Fehlt der Nachweis: Pendenz.'
+  nachweise:
+  - Nachweis stille Reserven 31.12.2025 und 31.12.2024
+  - Vollständigkeitserklärung
+  - Anhang der Jahresrechnung
+  rechnen: Stille Reserven aRA = Wert nach OR-Höchstbewertung − Buchwert; Veränderung = Bestand 31.12.2025 − Bestand 31.12.2024; Übertrag in Gesamtnachweis stille Reserven
+  feststellung_wenn: Auflösung stiller Reserven in der Position nicht im Nachweis erfasst, wesentliche Nettoauflösung ohne Anhangangabe oder Nachweis fehlt (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Plausibilisierung von Bestand und Veränderungen der stillen Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Bilanzpositionen
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  - quelle: hwp-bur-2023__rz-0667-s296
+    zitat: über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen

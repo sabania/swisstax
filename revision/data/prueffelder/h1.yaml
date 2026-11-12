@@ -1,0 +1,787 @@
+# Prüffeld H1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: H1
+bezeichnung: Finanzanlagen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 17
+    korrigiert: false
+kurzbeschrieb: 'Finanzanlagen (Art. 959a Abs. 1 Ziff. 2 lit. a OR): langfristig gehaltene Wertschriften, Darlehen, Kautionen/Depots, Krypto-Assets mit langfristiger Halteabsicht; Abgrenzung
+  zu Beteiligungen (ab 20 % Stimmen) und Umlaufvermögen. Eingeschränkte Revision: Bestand per Aufstellung/Depotauszug, Bewertung (Anschaffungs-/Niederstwert oder Kurs, Art. 960b OR),
+  Gliederung, Verpfändungen, VSt, Anhang.'
+gesetz:
+- thema: 'Mindestgliederung: Finanzanlagen und Beteiligungen als eigene Positionen des Anlagevermögens (Art. 959a Abs. 1 Ziff. 2 OR)'
+  quelle: or__art-959a-t1
+  zitat: a. Finanzanlagen
+- thema: Abgrenzung Umlauf-/Anlagevermögen (Art. 959 Abs. 3 OR)
+  quelle: or__art-959
+  zitat: Als Anlagevermögen müssen alle übrigen Aktiven bilanziert werden.
+- thema: Aktivierungsvoraussetzungen (Art. 959 Abs. 2 OR), u.a. für Krypto-Assets massgebend
+  quelle: or__art-959
+  zitat: Als Aktiven müssen Vermögenswerte bilanziert werden, wenn aufgrund vergangener Ereignisse über sie verfügt werden kann, ein Mittelzufluss wahrscheinlich ist
+- thema: 'Anlagevermögen: Halteabsicht über zwölf Monate (Art. 960d Abs. 1 und 2 OR)'
+  quelle: or__art-960d
+  zitat: Als langfristig gilt ein Zeitraum von mehr als zwölf Monaten.
+- thema: 'Beteiligungen: Vermutung massgeblicher Einfluss ab 20 % Stimmrechte (Art. 960d Abs. 3 OR)'
+  quelle: or__art-960d
+  zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
+- thema: Gesonderter Ausweis von Forderungen gegenüber Beteiligten, Organen und Beteiligungsgesellschaften (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+- thema: Bestandesnachweis durch Inventar oder auf andere Art (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Stetigkeit von Darstellung und Bewertung (Art. 958c Abs. 1 Ziff. 6 OR)
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Einzelbewertung und Überprüfung bei Anzeichen für Überbewertung (Art. 960 Abs. 1 und 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Höchstbewertung zu Anschaffungskosten in der Folgebewertung (Art. 960a Abs. 2 OR)
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+- thema: Wertberichtigungen für anderweitige Wertverluste (Art. 960a Abs. 3 OR)
+  quelle: or__art-960a
+  zitat: anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden
+- thema: Bewertung zum Börsenkurs/beobachtbaren Marktpreis, Stetigkeit über die ganze Position, Anhanghinweis (Art. 960b Abs. 1 OR)
+  quelle: or__art-960b
+  zitat: Wer von diesem Recht Gebrauch macht, muss alle Aktiven der entsprechenden Positionen der Bilanz, die einen beobachtbaren Marktpreis aufweisen, zum Kurs oder Marktpreis am Bilanzstichtag
+    bewerten.
+- thema: Schwankungsreserve und deren gesonderter Ausweis (Art. 960b Abs. 2 OR)
+  quelle: or__art-960b
+  zitat: Der Betrag der Schwankungsreserven ist insgesamt in der Bilanz oder im Anhang gesondert auszuweisen.
+- thema: 'Anhang: angewandte Grundsätze (Art. 959c Abs. 1 Ziff. 1 OR)'
+  quelle: or__art-959c-t1
+  zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: Beteiligungen mit Kapital- und Stimmenanteil (Art. 959c Abs. 2 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+- thema: 'Anhang: eigene Anteile, Erwerb und Veräusserung (Art. 959c Abs. 2 Ziff. 4 und 5 OR)'
+  quelle: or__art-959c-t1
+  zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
+- thema: 'Anhang: verpfändete Aktiven und Eventualverbindlichkeiten (Art. 959c Abs. 2 Ziff. 9 und 10 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: wesentliche Ereignisse nach dem Bilanzstichtag (Art. 959c Abs. 2 Ziff. 13 OR)'
+  quelle: or__art-959c-t2
+  zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+- thema: 'Eigene Aktien: Erwerbsgrenzen (Art. 659 Abs. 1 und 2 OR)'
+  quelle: or__art-659
+  zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+- thema: Eigene Aktien als Minusposten des Eigenkapitals (Art. 659a Abs. 4 OR)
+  quelle: or__art-659a
+  zitat: Die Gesellschaft hat in der Bilanz für die eigenen Aktien einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
+- thema: Einzahlungspflicht bei nicht voll einbezahlten Namenaktien (Art. 687 Abs. 1 OR)
+  quelle: or__art-687
+  zitat: Der Erwerber einer nicht voll einbezahlten Namenaktie ist der Gesellschaft gegenüber zur Einzahlung verpflichtet, sobald er im Aktienbuch eingetragen ist.
+- thema: Nachschusspflicht bei GmbH-Stammanteilen (Art. 795 OR)
+  quelle: or__art-795
+  zitat: Die Statuten können die Gesellschafter zur Leistung von Nachschüssen verpflichten.
+- thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: Ausgewiesene Finanzanlagen bestehen nicht oder nicht in dieser Höhe (keine Aufstellung, keine Abstimmung mit Depot-/Kontoauszug oder Vertrag per Stichtag).
+  pruefziele:
+  - EX
+  - VO
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+- text: 'Überbewertung: Buchwert über tieferem Kurs- bzw. innerem Wert, fehlende Wertberichtigung (Anschaffungswertprinzip).'
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: In der Folgebewertung sind die Finanzanlagen zu ihrem Anschaffungswert abzüglich notwendiger Wertberichtigungen zu bilanzieren
+- text: Unzulässige Höherbewertung (z.B. unrealisierte Kurs- oder Fremdwährungsgewinne) oder uneinheitliche Anwendung des Wahlrechts nach Art. 960b OR innerhalb der Position.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: Dies gilt insbesondere im Zusammenhang mit unrealisierten Kursgewinnen bei Finanzanlagen in fremder Währung
+- text: Darlehen und Papiere ohne Kurswert nicht werthaltig (Bonität, Rangrücktritt, ungenügende Sicherheiten).
+  pruefziele:
+  - BE
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Beurteilung der Bonität der Darlehensnehmer anhand deren Jahresabschlüssen oder anderer Informationen (sofern verfügbar)
+- text: Wertminderung von Beteiligungen bzw. nicht kotierten Titeln nicht erkannt (Verluste, negativer Ausblick der Gesellschaft).
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: Die Prüfung auf Anzeichen für eine Wertminderung hat mindestens an jedem Abschlussstichtag zu erfolgen.
+- text: 'Falsche Gliederung: langfristig gebundene Aktiven (z.B. gesperrte Kautionen) im Umlaufvermögen, Anteile ab 20 % Stimmrechten als Finanzanlage statt Beteiligung, Beteiligungskauf
+    auf falschem Konto.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0266-s217
+  zitat: Nicht als Finanzanlagen, sondern separat als Beteiligungen zu bilanzieren sind
+- text: Erträge (Zinsen, Dividenden, Kursgewinne) nicht, netto oder in falscher Periode erfasst; Verrechnungssteuerguthaben nicht aktiviert.
+  pruefziele:
+  - VO
+  - PA
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+- text: Verpfändete, gesperrte oder als Sicherheit hinterlegte Finanzanlagen sowie Einzahlungs-/Nachschusspflichten im Anhang nicht offengelegt.
+  pruefziele:
+  - RV
+  - DO
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- text: Eigene Anteile als Finanzanlage aktiviert statt als Minusposten im Eigenkapital; gesetzliche Grenzen überschritten.
+  pruefziele:
+  - EX
+  - DO
+  quelle: or__art-659a
+  zitat: einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
+- text: 'Krypto-Assets: Verfügungsmacht nicht nachgewiesen bzw. Bestand gemäss Blockchain gehört nicht dem Unternehmen.'
+  pruefziele:
+  - EX
+  - RV
+  quelle: hwp-bur-2023__rz-0044-s166-t2
+  zitat: Diese Information belegt die Verfügungsmacht über die entsprechenden Bestände jedoch noch nicht.
+- text: 'Krypto-Assets: unvollständige Erfassung (nicht erfasste Wallets, Forks, Airdrops, Staking-Rewards).'
+  pruefziele:
+  - VO
+  quelle: hwp-bur-2023__rz-0043-s166
+  zitat: Zu beachten ist dabei auch die Vollständigkeit der Erfassung von Token aus Abspaltungen (sog. Forks)
+- text: 'Krypto-Assets: hohe Volatilität, falsche Preisquelle oder Stichtag; wesentliche Kursverluste nach dem Stichtag nicht offengelegt.'
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0055-s170
+  zitat: Falls nach dem Bilanzstichtag, aber vor Genehmigung der Jahresrechnung wesentliche Wertberichtigungen auf Kryptowährungen im neuen Jahr notwendig werden
+- text: Nettoauflösung stiller Reserven auf Finanzanlagen beschönigt das Ergebnis und ist nicht offengelegt.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: Wird das erwirtschaftete Ergebnis durch die Auflösung der stillen Reserven wesentlich günstiger dargestellt, ist der Nettobetrag aus Reservenauflösung im Anhang offenzulegen
+unterlagen:
+- dokument: Aufstellung/Wertschriftenverzeichnis der Finanzanlagen per 31.12. (Titel, Menge, Anschaffungswert, Buchwert, Kurswert)
+  zweck: Bestand und Bewertung, Abstimmung mit Hauptbuch (H1-301, H1-305)
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+- dokument: Depotauszüge/Vermögensausweise und Kontoauszüge (Kautionen, Depots) per 31.12.
+  zweck: Bestandesnachweis, Kurse, Sperrvermerke (H1-301, H1-402, H1-401)
+  quelle: hwp-bur-2023__rz-0269-s217
+  zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
+- dokument: Beteiligungsverzeichnis bzw. Verzeichnis gehaltener Anteile (Firma, Sitz, Quote, Stimmen, Buchwert, Einzahlungs-/Nachschusspflichten)
+  zweck: Abgrenzung Finanzanlage/Beteiligung, Anhang, Einzahlungspflichten (H1-103, H1-320, H1-401)
+  quelle: hwp-bur-2023__rz-0279-s219
+  zitat: Zweckmässig ist die Führung eines Beteiligungsverzeichnisses
+- dokument: Eigentumsnachweise nicht verbriefter Anteile (Kaufverträge, HR-Auszüge, Statuten, Aktien-/Anteilbuch)
+  zweck: Rechte und Bestand (H1-301, H1-310)
+  quelle: hwp-bur-2023__rz-0280-s219
+  zitat: Bestätigungen der jeweiligen Beteiligung, Handelsregisterauszüge, Verträge, Statuten oder Aktienregister
+- dokument: Letzte verfügbare Jahresrechnungen der nicht kotierten Gesellschaften und der Darlehensnehmer
+  zweck: Innerer Wert und Bonität (H1-306, H1-307)
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
+- dokument: Darlehens-, Kautions-, Pfand- und Kreditverträge inkl. Rangrücktritte
+  zweck: Laufzeit/Gliederung, Verzinsung, Verpfändungen (H1-103, H1-307, H1-401)
+  quelle: hwp-bur-2023__rz-0268-s217
+  zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
+- dokument: Kauf-/Verkaufsabrechnungen, Ertragsabrechnungen (Zinsen, Dividenden mit VSt-Abzug)
+  zweck: Belegprüfung Zugänge/Abgänge/Erträge, VSt (H1-310, H1-311, H1-404)
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+- dokument: Kursnachweise per 31.12. (Börsenkurse, ESTV-Kursliste, Devisenkurse)
+  zweck: Bewertung (H1-305, H1-402, H1-314)
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anderen Quellen
+- dokument: 'Krypto: Wallet-Liste (Public-Key-Adressen), Nebenbuch, Blockchain-Export, Sign-Message-Protokoll bzw. Custodian-Kontoauszug per 31.12.'
+  zweck: Bestand, Verfügungsmacht, Cut-off (H1-104, H1-312, H1-313)
+  quelle: hwp-bur-2023__rz-0042-s165
+  zitat: Wird ein Wallet-Dienstleister in Anspruch genommen, kann das Führen eines Nebenbuchs entfallen, wenn die notwendigen Bestands- und Bewertungsinformationen in Form von Kontoauszügen
+    verfügbar sind.
+- dokument: Aufstellung stille Reserven (Bestand und Veränderung je Position)
+  zweck: H1-321, Anhang Ziff. 3
+  quelle: hwp-bur-2023__rz-0667-s296
+  zitat: über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen
+- dokument: Aktienbuch und Nachweis eigener Anteile (Kaufverträge, VR-Beschlüsse)
+  zweck: Bestand eigener Anteile (H1-302)
+  quelle: ser-2022__anh-d-s091-1
+  zitat: Feststellen des Bestands an eigenen Kapitalanteilen
+- dokument: Verrechnungssteuer-Rückerstattungsantrag bzw. Nachweis der Rückerstattung
+  zweck: Aktivierung und Werthaltigkeit VSt-Guthaben (H1-404)
+  quelle: treuhand-almanach-2026__s068-2
+  zitat: Der Antrag auf Rückerstattung der Verrechnungssteuer muss bei der zuständigen Behörde schriftlich beantragt werden.
+- dokument: Vom Unternehmen selbst eingeholte Bestätigungen Dritter (z.B. Bank, Custodian), sofern vorhanden
+  zweck: Zusätzlicher Bestandesnachweis ohne eigene Drittbestätigungsanfrage
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+bewertung:
+- regel: Ersterfassung zu Anschaffungskosten; Forderungen zum Nominalwert
+  quelle: hwp-bur-2023__rz-0270-s217
+  zitat: Die Ersterfassung von Finanzanlagen erfolgt zu Anschaffungskosten (Art. 960a Abs. 1 OR). Generell werden Forderungen zum Nominalwert bilanziert.
+- regel: 'Tief- oder unverzinsliche langfristige Forderungen: Wertberichtigung auf Barwert bei erheblicher Differenz'
+  quelle: hwp-bur-2023__rz-0270-s217
+  zitat: ist eine Wertberichtigung auf den Barwert vorzunehmen
+- regel: Folgebewertung höchstens zum Anschaffungswert abzüglich notwendiger Wertberichtigungen; Marktwert nur bei Börsenkurs/beobachtbarem Marktpreis
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: Bei Anlagen mit Börsenkurs oder einem beobachtbaren Marktpreis ist hingegen auch eine Bewertung zum Marktwert zulässig
+- regel: Wertberichtigung auf Forderungen nach finanzieller Lage des Schuldners und Sicherheiten
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: unter Berücksichtigung erhaltener Sicherheiten
+- regel: 'Darlehen mit Rangrücktritt: Gesamtengagement und Lage des Schuldners beurteilen'
+  quelle: hwp-bur-2023__rz-0272-s218
+  zitat: Das gesamte Engagement gegenüber dem Schuldnerunternehmen ist in die Beurteilung einzubeziehen
+- regel: Kotierte Wertschriften erfüllen die Voraussetzungen der Kursbewertung bei liquidem Handel; nicht kotierte nur bei anderweitigem liquidem Handel
+  quelle: hwp-bur-2023__rz-0202-s105
+  zitat: 'kotierte Wertschriften: immer, sofern ein liquider börslicher Handel stattfindet;'
+- regel: Unterschiedliche Handhabung des Wahlrechts zwischen Wertschriften des Umlauf- und des Anlagevermögens zulässig; Fremdwährungstitel zum Stichtagskurs
+  quelle: hwp-bur-2023__rz-0030-s163
+  zitat: Eine abweichende Handhabung zwischen den Wertschriften des Umlauf- und des Anlagevermögens erscheint aufgrund unterschiedlicher Haltezwecke zulässig.
+- regel: 'Wertschriften in Fremdwährung: Kurswert und Devisenkurs am Stichtag'
+  quelle: hwp-bur-2023__rz-0030-s163
+  zitat: Wertschriften in Fremdwährungen sind neben ihrem Kurswert auch zum Stichtagskurs der Fremdwährung zu bewerten.
+- regel: Schwankungsreserve darf weder Anschaffungswert noch tieferen Kurswert unterschreiten
+  quelle: or__art-960b
+  zitat: Solche Wertberichtigungen sind jedoch nicht zulässig, wenn dadurch sowohl der Anschaffungswert als auch der allenfalls tiefere Kurswert unterschritten würden.
+- regel: Wertveränderungen von zum Kurs bewerteten Finanzanlagen und Veränderung der Schwankungsreserve im Finanzergebnis
+  quelle: hwp-bur-2023__rz-0788-s327
+  zitat: sind entweder als Finanzertrag oder Finanzaufwand zu erfassen
+- regel: 'Beteiligungen: Anschaffungskosten inkl. transaktionsbezogener Nebenkosten; Goodwill im Beteiligungswert'
+  quelle: hwp-bur-2023__rz-0281-s220
+  zitat: transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber Finanzierungskosten)
+- regel: 'Beteiligungen: keine planmässigen Abschreibungen, sondern Wertberichtigungen bei Wertminderung'
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: Da Beteiligungen keinem nutzungs- oder altersbedingten Wertverlust unterliegen, werden bei der Folgebewertung keine planmässigen Abschreibungen auf den Anschaffungskosten vorgenommen
+- regel: 'Wertminderungstest: Buchwert vs. erzielbarer Wert (höherer von Nutzwert/innerem Wert und Netto-Marktwert)'
+  quelle: hwp-bur-2023__rz-0291-s222
+  zitat: Sinkt der erzielbare Wert einer Beteiligung unter den bisherigen Buchwert, wird eine Wertberichtigung erforderlich.
+- regel: Bei unwesentlichen oder unproblematischen Anteilen genügen summarische Bewertungsüberlegungen (z.B. Substanzwert)
+  quelle: hwp-bur-2023__rz-0292-s222
+  zitat: näherungsweise Bewertungsmethoden (beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung)
+- regel: Einzelbewertung; Gruppenbewertung von Beteiligungen nur in sachlich begründeten Fällen
+  quelle: hwp-bur-2023__rz-0289-s221
+  zitat: Von diesem Grundsatz kann nur in sachlich begründeten Einzelfällen abgewichen werden.
+- regel: Gratisaktien dürfen nicht aktiviert werden
+  quelle: hwp-bur-2023__rz-0283-s220
+  zitat: Eine Aktivierung von Gratisaktien ist nicht zulässig
+- regel: 'Krypto-Assets: Wahlrecht Anschaffungskosten/Niederstwert oder beobachtbarer Marktpreis; ESTV-Werte oder eigene Transaktionskurse zulässig'
+  quelle: hwp-bur-2023__rz-0045-s167-t1
+  zitat: Dabei kann beispielsweise auf die Bewertung der Eidgenössischen Steuerverwaltung (ESTV) abgestellt werden
+- regel: 'Krypto-Assets zu Marktpreisen: alle Kryptowährungen der Position gleich bewerten; Schwankungsreserve möglich'
+  quelle: hwp-bur-2023__rz-0045-s167-t1
+  zitat: sind gestützt auf Art. 960b Abs. 1 OR alle Kryptowährungen in der jeweiligen Bilanzposition auf diese Weise zu erfassen
+- regel: Krypto-Assets mit langfristiger Halteabsicht als Wertschriften unter den Finanzanlagen (alternativ immaterielle Anlagen)
+  quelle: hwp-bur-2023__rz-0047-s168-t2
+  zitat: Eine Klassifizierung von Kryptowährungen als Wertschriften unter den Finanzanlagen ist dann geboten, wenn eine langfristige Halteintention besteht.
+- regel: 'Krypto-Assets als immaterielle Werte: keine planmässige Abschreibung, Wertberichtigung sobald Marktwert tiefer'
+  quelle: hwp-bur-2023__rz-0045-s167-t2
+  zitat: Derartige Wertberichtigungen sind vorzunehmen, sobald der Marktwert tiefer als der Anschaffungs- bzw. bisherige Buchwert ist.
+- regel: Beteiligungserträge zur Wahrung der VSt-Rückerstattung nach vorgegebenem Schema verbuchen
+  quelle: hwp-bur-2023__rz-0322-s227
+  zitat: Um den Anspruch auf Rückerstattung der Verrechnungssteuer oder auf Durchführung des Meldeverfahrens zu wahren
+- regel: Langfristige Finanzanlagen bei Nahestehenden gesondert ausweisen
+  quelle: hwp-bur-2023__rz-0276-s218
+  zitat: Langfristige Finanzanlagen bei nahestehenden Personen erfordern einen gesonderten Ausweis (Art. 959a Abs. 4 OR).
+fallstricke:
+- text: 'Eingeschränkte Revision: keine Inventurbeobachtung und keine eigenen Drittbestätigungsanfragen (Bank, Custodian); Prüfung grundsätzlich mit intern verfügbaren Unterlagen.'
+  quelle: ser-2022__1-5
+  zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
+- text: Vom Kunden selbst eingeholte Bestätigungen (z.B. Kautions- oder Depotbestätigung) dürfen als Nachweis verwendet werden.
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
+- text: 'Agent: körperliche Inventur von Titeln oder Hardware-Wallets nie selbst; 4xx-Schritte nur auf Anweisung des Wirtschaftsprüfers.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- text: 'WP-Schritte (305–311) sind weitergehende Prüfungshandlungen nach SER: nur bei angenommener wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko.'
+  quelle: hwp-er-2026__rz-0132-s203
+  zitat: wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen anzunehmen sind oder ein erhöhtes inhärentes Risiko einer wesentlichen Fehlaussage
+- text: Befragungen allein reichen bei wesentlichen Finanzanlagen nicht; mit analytischen Prüfungshandlungen und/oder Detailprüfungen ergänzen.
+  quelle: hwp-er-2026__rz-0081-s194
+  zitat: ergeben sie bei wesentlichen Jahresabschlusspositionen alleine keine ausreichenden Prüfungsnachweise
+- text: 'Kautions- und gesperrte Konten: nicht als flüssige Mittel; bei Sperre über zwölf Monate (z.B. bis Mietende) ins Anlagevermögen/Finanzanlagen und im Anhang als verwendete Sicherheit
+    angeben.'
+  quelle: hwp-bur-2023__rz-0008-s157
+  zitat: Konten mit eingeschränkter Verfügbarkeit (z.B. Kautionskonten) sind ggf. unter den Forderungen auszuweisen.
+- text: Anteile mit mindestens 20 % Stimmrechten (z.B. 100 %-Tochter) sind Beteiligungen, nicht Finanzanlagen oder Anzahlungen; Anhangangabe nach Art. 959c Abs. 2 Ziff. 3 OR nicht vergessen.
+  quelle: hwp-bur-2023__rz-0266-s217
+  zitat: wenn sie einen massgebenden Einfluss am beteiligten Unternehmen vermitteln (Art. 960d Abs. 3 OR
+- text: Wahlrecht Art. 960b OR gilt für alle Aktiven der Position mit beobachtbarem Marktpreis (keine Rosinenpickerei); Anhanghinweis und Gesamtwert nötig.
+  quelle: hwp-bur-2023__rz-0030-s163
+  zitat: Im Anhang muss auf eine Bewertung zum Börsenkurs oder Marktpreis hingewiesen werden
+- text: Unrealisierte Fremdwährungsgewinne auf Finanzanlagen dürfen nicht über den Anschaffungswert hinaus erfasst werden.
+  quelle: hwp-bur-2023__rz-0271-s217
+  zitat: dürfen somit nicht über die Anschaffungskosten hinaus bewertet werden
+- text: Krypto-Assets gehören nicht zu den flüssigen Mitteln oder Forderungen, auch nicht bei Verwahrung durch einen Wallet-Provider.
+  quelle: hwp-bur-2023__rz-0046-s167-t1
+  zitat: Nicht sachgemäss ist ein Ausweis als flüssige Mittel oder als Forderungen.
+- text: Blockchain-Eintrag allein ist kein ausreichender Buchungsbeleg; Abstimmung Hauptbuch–Nebenbuch–Token-Bestand nötig.
+  quelle: hwp-bur-2023__rz-0042-s165
+  zitat: allein der Eintrag einer Transaktion in einer Blockchain als Verbuchungsnachweis für Zwecke der Buchführung nicht als ausreichend
+- text: Sign-Message zeigt Kenntnis des Private Key, aber nicht die alleinige Verfügungsmacht.
+  quelle: hwp-bur-2023__rz-0044-s166-t2
+  zitat: wobei das Verfahren keinen Nachweis erlaubt, dass das Unternehmen die alleinige Verfügungsmacht über diese Token hat
+- text: Blockexplorer-Daten Dritter nur ausnahmsweise und mit zusätzlicher Prüfung der Verlässlichkeit verwenden (HWP OR, ergänzend).
+  quelle: hwp-or-2024__rz-1172-s418
+  zitat: Der Abschlussprüfer stützt sich nur in Ausnahmefällen auf Informationen von Drittparteien (sog. «Blockexplorer») ab.
+- text: Steuerwerte (ESTV-Kursliste, Formelwerte nicht kotierter Titel) sind Steuerwerte; die handelsrechtliche Werthaltigkeit (innerer Wert, Bonität) ist separat zu beurteilen.
+- text: Gratisaktien nicht aktivieren; Abgänge zum Buchwert ausbuchen, damit realisierte Gewinne/Verluste sichtbar sind.
+  quelle: hwp-bur-2023__rz-0279-s219
+  zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
+- text: Verrechnungssteuer nur rückforderbar, wenn der Ertrag ordnungsgemäss (brutto) als Ertrag verbucht ist.
+  quelle: treuhand-almanach-2026__s069-2
+  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+fragen_kunde:
+- frage: Nach welchen Grundsätzen bewerten Sie die Finanzanlagen (Anschaffungs-/Niederstwert oder Kurswert nach Art. 960b OR, Schwankungsreserve) und gab es Änderungen gegenüber dem
+    Vorjahr?
+  zweck: H1-101 Bilanzierungs- und Bewertungsgrundsätze, Stetigkeit
+- frage: Liegen bei einzelnen Titeln, Darlehen oder Beteiligungen per 31.12. oder seither Markt- bzw. innere Werte unter dem Buchwert (Kursrückgänge, Verluste, Zahlungsrückstände)?
+  zweck: H1-102 niedrigere Marktwerte, Ereignisse nach Bilanzstichtag
+- frage: Welche Anlagen sollen länger als zwölf Monate gehalten werden bzw. sind länger gebunden (Laufzeiten, Sperrfristen, Kautionen), und welche Anteile vermitteln mindestens 20 %
+    der Stimmrechte?
+  zweck: H1-103 Gliederung kurz-/langfristig, Abgrenzung Beteiligungen
+- frage: 'Hält die Gesellschaft Krypto-Assets? Wenn ja: Verwahrung (Self-Custody oder Custodian), Liste aller Wallets/Adressen, Eigentumsnachweis (Sign-Message, Custodian-Auszug) und
+    zuständige Personen?'
+  zweck: H1-104, H1-312 Bestand, Rechte, Vollständigkeit
+- frage: Welche Preisquellen und welchen Bewertungszeitpunkt verwenden Sie für Krypto-Assets?
+  zweck: H1-105, H1-314 Bewertung
+- frage: Welche Käufe, Verkäufe, Rückzahlungen und Wertberichtigungen erklären die Veränderung der Finanzanlagen gegenüber dem Vorjahr?
+  zweck: H1-201 Vorjahresvergleich
+- frage: Sind Finanzanlagen verpfändet, gesperrt oder als Sicherheit hinterlegt, und bestehen offene Einzahlungs- oder Nachschusspflichten?
+  zweck: H1-401 Rechte/Verpflichtungen, Anhang
+- frage: Hält die Gesellschaft (oder eine kontrollierte Gesellschaft) eigene Aktien/Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert und zu welchen Bedingungen?
+  zweck: H1-302 eigene Anteile, Anhang Ziff. 4/5
+- frage: Wie berechnen Sie die stillen Reserven auf den Finanzanlagen und wie haben sie sich gegenüber dem Vorjahr verändert?
+  zweck: H1-321 stille Reserven, Anhang Ziff. 3
+- frage: Wurde die Verrechnungssteuer auf erhaltenen Zinsen/Dividenden zurückgefordert bzw. wann wird sie zurückgefordert?
+  zweck: H1-404 Aktivierung Verrechnungssteuer
+testakte_2025:
+- datei: C_Uebrige_kurzfristige_Forderungen/Kaufvertrag_Stammanteile_Solarservice_Probe_GmbH.md
+  bezug: Kauf 100 % Stammanteile (CHF 30'000, 30.09.2025), gemäss Belegverzeichnis auf Konto 1192 – H1-103 (Abgrenzung Beteiligung/Finanzanlage/Anzahlung), H1-310 (Zugang, Anschaffungskosten),
+    H1-320 (Anhang Beteiligungen), H1-401 (Einzahlungs-/Nachschusspflicht)
+- datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
+  bezug: Letzte Jahresrechnung der Tochter – H1-306 (innerer Wert/anteiliges Eigenkapital), H1-102 (Wertminderungsanzeichen, Ausblick), H1-321
+- datei: C_Uebrige_kurzfristige_Forderungen/Bestaetigung_Mietkautionskonto_31.12.2025.md
+  bezug: Gesperrtes Mietkautionskonto (Konto 1193) – H1-301 (Bestand), H1-103 (Fristigkeit/Klassierung), H1-401b und H1-320 (Sperre, Anhang Art. 959c Abs. 2 Ziff. 9 OR)
+- datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
+  bezug: Sicherheitsleistung und Freigabebedingungen der Mietkaution – H1-103, H1-401, H1-322 (Dauerakte)
+- datei: C_Uebrige_kurzfristige_Forderungen/Abstimmung_ZAZ_Depot_2025.md
+  bezug: ZAZ-Bardepot (Konto 1050) als Sicherheitsleistung – H1-103 (Klassierung), H1-301 (Bestandesnachweis), H1-401 (Sicherheit/Anhang)
+- datei: C_Uebrige_kurzfristige_Forderungen/Anzahlungsrechnung_SolarTech_AZ-25-0388.md
+  bezug: Weiterer Inhalt von Konto 1192 – H1-310 (Zusammensetzung Konto, Abgrenzung Anzahlung vs. Beteiligungskauf)
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: Salden 2025/2024 der Konten 1050, 1192, 1193, 1176 und Finanzertrag 6960 – H1-201 (Vorjahresvergleich), H1-301, H1-404
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: Kontoblätter 1192 (KV-0930), 1193, 1050, 1176 und 1013 (Zinsgutschrift/VSt) – H1-310, H1-311, H1-404
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Bilanzausweis und Anhang (Grundsätze, sonstige Angaben) – H1-101, H1-103, H1-320, H1-321
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: Zuordnung der Belege zu Konten 1192/1193 – H1-301, H1-310
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: Aktienkapital und Anzahl Aktien – H1-302 (Abgleich eigene Anteile), H1-322
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: Aktienbestand je Aktionär – H1-302 (Feststellen eigener Anteile im Vergleich zum Aktienkapital)
+schritte:
+- id: H1-101
+  vorgehen: 'Agent befragt nicht selbst: schriftliche Antwort (Kundenbefragung) und Anhang (Grundsätze) auswerten: Anschaffungswert abzüglich Wertberichtigungen oder Kurswert nach Art.
+    960b OR, Anwendung auf ganze Position, Schwankungsreserve, Methode für Krypto-Assets, Änderungen ggü. Vorjahr. Fehlt die Antwort, Frage als Pendenz erfassen. Ergebnis und Stetigkeit
+    im Textfeld festhalten.'
+  nachweise:
+  - Schriftliche Antwort Kundenbefragung
+  - Anhang Jahresrechnung (Grundsätze)
+  - Vorjahresakte
+  rechnen: ''
+  feststellung_wenn: Bewertung über Anschaffungswert ohne Voraussetzungen von Art. 960b OR, Wahlrecht nur für Teil der Position, oder Methodenwechsel ohne Anhangangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  - quelle: or__art-960b
+    zitat: Im Anhang muss auf diese Bewertung hingewiesen werden.
+  - quelle: or__art-958c
+    zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- id: H1-102
+  vorgehen: Schriftliche Stellungnahme der Geschäftsleitung zu Markt- bzw. inneren Werten unter Buchwert per 31.12. und nach dem Stichtag auswerten (Kursrückgänge, Verluste der Gesellschaften,
+    Zahlungsrückstände). Ohne Antwort Frage als Pendenz. Genannte Titel mit Konto und Betrag im Textfeld festhalten und in H1-305/306/307 weiterverfolgen.
+  nachweise:
+  - Antwort Geschäftsleitung
+  - Depotauszug/Kursliste 31.12.
+  - Jahresrechnungen der Gesellschaften/Schuldner
+  rechnen: Differenz je Titel = Buchwert – Markt- bzw. innerer Wert
+  feststellung_wenn: Markt- oder innerer Wert eines Titels liegt wesentlich unter dem Buchwert und es ist keine Wertberichtigung gebucht.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Besprechung mit der Unternehmensleitung betreffend allfällige niedrigere Marktwerte
+  - quelle: or__art-960
+    zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- id: H1-103
+  vorgehen: 'Halteabsicht, Laufzeiten und Sperrfristen schriftlich erfragen und mit Verträgen abgleichen: Halteabsicht oder Bindung über zwölf Monate = Anlagevermögen; Anteile ab 20
+    % Stimmrechte = Beteiligungen; kurzfristig gehaltene Titel mit Börsenkurs = Umlaufvermögen. Ausweis in Saldoliste/Bilanz damit vergleichen; Umgliederungsbedarf mit Konto und Betrag
+    dokumentieren.'
+  nachweise:
+  - Darlehens-, Kautions- und Kaufverträge
+  - Saldoliste
+  - Bilanz
+  - Antwort Kunde
+  rechnen: ''
+  feststellung_wenn: Langfristig gebundene Aktiven (z.B. bis Vertragsende gesperrte Kaution, Beteiligung) im Umlaufvermögen oder in falscher Position mit wesentlichem Betrag.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen
+  - quelle: or__art-960d
+    zitat: Als Anlagevermögen gelten Werte, die in der Absicht langfristiger Nutzung oder langfristigen Haltens erworben werden.
+  - quelle: or__art-959
+    zitat: Als Anlagevermögen müssen alle übrigen Aktiven bilanziert werden.
+- id: H1-104
+  vorgehen: 'Nur wenn Krypto-Assets vorhanden (Saldoliste, Kontenplan, Antwort). Schriftliche Antwort auswerten: Self-Custody oder Custodian, vollständige Wallet-/Adressliste, Eigentumsnachweis
+    (Sign-Message, Custodian-Auszug, Mikrotransaktion), Zugriffsberechtigungen, Verpfändung oder Staking-Sperre. Fehlende Angaben als Pendenz; Ergebnis im Textfeld.'
+  nachweise:
+  - Antwort Kunde
+  - Wallet-Liste
+  - Custodian-Vertrag/-Auszug
+  - Sign-Message-Protokoll
+  rechnen: ''
+  feststellung_wenn: Verfügungsmacht über bilanzierte Token nicht belegt, Wallets unvollständig erfasst oder Verpfändung/Staking-Sperre nicht offengelegt.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0044-s166-t2
+    zitat: Diese Information belegt die Verfügungsmacht über die entsprechenden Bestände jedoch noch nicht.
+  - quelle: hwp-or-2024__rz-1179-s420
+    zitat: Befragung der Geschäftsleitung oder anderer verantwortlicher Mitarbeitender, in welchen Wallets und unter welchem Namen die Token verwahrt werden.
+- id: H1-105
+  vorgehen: Nur bei Krypto-Assets. Schriftliche Angaben zu Preisquellen (ESTV-Kursliste, Handelsplatz, Börsenfeed), Bewertungszeitpunkt (Stichtag) und gewähltem Wahlrecht (Anschaffungs-/Niederstwert
+    oder Marktpreis, Schwankungsreserve) auswerten; Stetigkeit ggü. Vorjahr prüfen. Fehlende Angaben als Pendenz.
+  nachweise:
+  - Antwort Kunde
+  - Bewertungsliste Krypto 31.12.
+  - Vorjahresakte
+  rechnen: ''
+  feststellung_wenn: Keine nachvollziehbare Preisquelle oder kein Stichtagskurs, Marktpreisbewertung nur für Teil der Position oder Methodenwechsel ohne Anhangangabe.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0045-s167-t1
+    zitat: Es ist aber auch zulässig, eigene Marktbewertungen auf Basis von effektiven Transaktionskursen auf den für das Unternehmen relevanten Handelsplätzen per Bilanzstichtag vorzunehmen.
+  - quelle: hwp-bur-2023__rz-0055-s170
+    zitat: Die Bewertung per Bilanzstichtag erfolgt nach dem Stichtagsprinzip.
+- id: H1-201
+  vorgehen: 'Saldoliste: Finanzanlagekonten und zugehörige Erfolgskonten (Finanzertrag, Kurserfolge, Wertberichtigungen) mit Vorjahr vergleichen; Veränderung in Zugänge, Abgänge und
+    Wertänderungen zerlegen und mit Belegen/Antworten erklären; Ertrag im Verhältnis zum Bestand plausibilisieren. Unerklärte wesentliche Abweichungen als Pendenz.'
+  nachweise:
+  - Saldoliste Berichtsjahr/Vorjahr
+  - Kontoblätter
+  - Antwort Kunde
+  rechnen: Veränderung = Saldo 31.12. – Saldo Vorjahr je Konto; Anfangsbestand + Zugänge – Abgänge ± Wertänderungen = Endbestand; Rendite = Ertrag / Ø Bestand
+  feststellung_wenn: Veränderung nicht durch Belege erklärbar, Überleitung geht nicht auf oder Ertrag fehlt bzw. ist im Verhältnis zum Bestand unplausibel (über Toleranzwesentlichkeit).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Gemäss SER sind wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen
+- id: H1-202
+  vorgehen: Nur bei Krypto-Assets. Menge und Wert je Token Vorjahr vs. 31.12. aufstellen; Wertänderung in Mengeneffekt (Käufe, Verkäufe, Forks, Airdrops, Staking) und Preiseffekt (Kurs
+    Vorjahr vs. Stichtag) zerlegen; mit Kursverlauf plausibilisieren. Unerklärte Differenzen als Pendenz.
+  nachweise:
+  - Nebenbuch/Bestandesliste Krypto
+  - Kursnachweise Vorjahr und 31.12.
+  - Transaktionsliste
+  rechnen: Mengeneffekt = (Menge 31.12. – Menge VJ) × Kurs VJ; Preiseffekt = Menge 31.12. × (Kurs 31.12. – Kurs VJ); Summe vs. Veränderung Buchwert
+  feststellung_wenn: Mengen- oder Wertänderung nicht durch Transaktionen und Kurs erklärbar oder Kursrückgang ohne Wertberichtigung bei Anschaffungswertbewertung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0043-s166
+    zitat: Zu beachten ist dabei auch die Vollständigkeit der Erfassung von Token aus Abspaltungen (sog. Forks)
+  - quelle: hwp-bur-2023__rz-0052-s169
+    zitat: Kryptowährungen weisen eine derart hohe Volatilität auf
+- id: H1-301
+  vorgehen: Aufstellung der Finanzanlagen per 31.12. (Titel, Menge, Buchwert) mit Saldoliste/Hauptbuch und Bilanz abstimmen; a) je Titel mit Depot- bzw. Kontoauszug oder Bestätigung
+    per 31.12. vergleichen; b) bei Eigenverwahrung mit Wertschriftenverzeichnis, Titeln/Verträgen. Keine körperliche Inventur durch den Agenten; Bedarf als Pendenz an den WP.
+  nachweise:
+  - Aufstellung Finanzanlagen 31.12.
+  - Depot-/Kontoauszüge 31.12.
+  - Verträge
+  - Saldoliste/Hauptbuch
+  rechnen: Summe Aufstellung = Saldo Bilanzposition Finanzanlagen; je Titel Menge/Saldo gemäss Depot- bzw. Kontoauszug = Buchbestand
+  feststellung_wenn: Differenz zwischen Aufstellung, Hauptbuch und Auszug über Toleranzwesentlichkeit oder Titel ohne Bestandesnachweis.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+  - quelle: hwp-bur-2023__rz-0269-s217
+    zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
+  - quelle: hwp-er-2026__rz-0067-s191
+    zitat: Abstimmung mit dem Depotauszug mit tendenziell hoher Prüfungssicherheit und geringem Aufwand
+  - quelle: ser-2022__1-5
+    zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
+- id: H1-302
+  vorgehen: Prüfen, ob die Gesellschaft oder kontrollierte Unternehmen eigene Aktien/Stammanteile halten (Wertschriftenbestand, Aktienbuch vs. Aktienkapital gemäss HR, Kaufverträge,
+    VR-Protokolle). Anzahl, Anschaffungswert, Erwerb/Veräusserung festhalten; Ausweis als Minusposten im Eigenkapital (nicht als Finanzanlage), 10-%-Grenze und Anhangangabe prüfen.
+  nachweise:
+  - Aktienbuch
+  - Handelsregisterauszug/Statuten
+  - Kaufverträge eigene Anteile
+  - Anhang
+  rechnen: Anteil = Nennwert eigene Aktien / Aktienkapital gemäss HR (max. 10 %); Aktien im Aktienbuch + eigene Aktien = Total Aktien gemäss HR
+  feststellung_wenn: Eigene Anteile als Aktivum ausgewiesen, 10-%-Grenze überschritten, Bestand unklar (Aktienbuch ≠ Aktienkapital) oder Anhangangaben fehlen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s091-1
+    zitat: Feststellen des Bestands an eigenen Kapitalanteilen
+  - quelle: or__art-659a
+    zitat: Die Gesellschaft hat in der Bilanz für die eigenen Aktien einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
+  - quelle: or__art-659
+    zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+  - quelle: or__art-959c-t1
+    zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
+- id: H1-305
+  vorgehen: 'Weitergehende Prüfungshandlung (WP): nur bei angenommener wesentlicher Fehlaussage, erhöhtem inhärentem Risiko oder auf Anweisung. Je kotiertem Titel Buchwert mit Menge
+    × Jahresendkurs (Depotauszug/Börse) vergleichen, Fremdwährung zum Stichtagskurs; Anschaffungswertprinzip: höchstens tieferer Wert; bei Art. 960b OR alle Titel der Position zum Kurs.'
+  nachweise:
+  - Depotauszug 31.12.
+  - Kursnachweise 31.12.
+  - Aufstellung Finanzanlagen
+  rechnen: Kurswert = Menge × Schlusskurs 31.12. × Devisenkurs 31.12.; zulässiger Höchstwert = min(Anschaffungswert, Kurswert) bzw. Kurswert bei Art. 960b OR; Differenz zum Buchwert
+    je Titel
+  feststellung_wenn: Buchwert über zulässigem Höchstwert oder Abweichung vom Stichtagskurs bei Bewertung nach Art. 960b OR über Toleranzwesentlichkeit.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen
+  - quelle: hwp-er-2026__rz-0132-s203
+    zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
+  - quelle: hwp-bur-2023__rz-0030-s163
+    zitat: Wertschriften in Fremdwährungen sind neben ihrem Kurswert auch zum Stichtagskurs der Fremdwährung zu bewerten.
+- id: H1-306
+  vorgehen: Weitergehende Prüfungshandlung (WP). Letzte verfügbare Jahresrechnung der Gesellschaft beschaffen (M-Files/PBC); anteiliges Eigenkapital und Ertragslage ermitteln und mit
+    Buchwert vergleichen; Wertminderungsanzeichen (Verluste, negativer Ausblick, keine Dividenden) festhalten. Ob summarische Betrachtung genügt oder vertiefte Bewertung nötig ist, entscheidet
+    der WP.
+  nachweise:
+  - Letzte Jahresrechnung der Gesellschaft
+  - Kaufvertrag/Anschaffungswert
+  - Planungsrechnung (falls vorhanden)
+  rechnen: Anteiliger Substanzwert = Eigenkapital der Gesellschaft × Kapitalanteil; Differenz = Buchwert – anteiliger Substanzwert
+  feststellung_wenn: Buchwert deutlich über anteiligem Eigenkapital bei Verlusten oder negativem Ausblick, ohne Wertberichtigung oder dokumentierte Ertragswertbegründung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
+  - quelle: hwp-bur-2023__rz-0291-s222
+    zitat: Sinkt der erzielbare Wert einer Beteiligung unter den bisherigen Buchwert, wird eine Wertberichtigung erforderlich.
+  - quelle: hwp-bur-2023__rz-0292-s222
+    zitat: näherungsweise Bewertungsmethoden (beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung)
+- id: H1-307
+  vorgehen: Weitergehende Prüfungshandlung (WP). Für Darlehen, Obligationen und Forderungsrechte ohne Kurswert die Bonität des Schuldners anhand Jahresabschluss, vertragsgemässer Zins-/Amortisationszahlungen
+    und Sicherheiten beurteilen; Rangrücktritte und Nahestehende besonders beachten. Wertberichtigungsbedarf im Textfeld begründen.
+  nachweise:
+  - Darlehensvertrag
+  - Jahresabschluss Schuldner
+  - Zahlungseingänge Zinsen/Amortisationen
+  - Sicherheitenverträge
+  rechnen: Fällige Zinsen/Amortisationen gemäss Vertrag – Zahlungseingänge = Rückstand; Deckungsgrad = Sicherheitenwert / Forderung
+  feststellung_wenn: Schuldner überschuldet, Zahlungsrückstände oder Rangrücktritt, ohne angemessene Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Beurteilung der Bonität der Darlehensnehmer anhand deren Jahresabschlüssen oder anderer Informationen (sofern verfügbar)
+  - quelle: hwp-bur-2023__rz-0271-s217
+    zitat: Die Notwendigkeit und Höhe von Wertberichtigungen auf Forderungen sind im Einzelfall aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners
+  - quelle: hwp-bur-2023__rz-0272-s218
+    zitat: Besonders sorgfältige Bewertungsüberlegungen sind erforderlich, wenn gewährte Darlehen mit einem Rangrücktritt belastet sind
+- id: H1-310
+  vorgehen: Weitergehende Prüfungshandlung (WP). Kontoblätter der Finanzanlagekonten durchgehen; wesentliche Zugänge, Abgänge und Wertänderungen mit Belegen (Kaufvertrag, Abrechnung,
+    Auszug) und Gegenbuchung abstimmen; Periode, Betrag inkl. Nebenkosten, Konto/Position und Abgangserfolg prüfen. Auswahl und Ergebnis dokumentieren.
+  nachweise:
+  - Kontoblätter Hauptbuch
+  - Kauf-/Verkaufsabrechnungen
+  - Verträge
+  - Depotauszüge
+  rechnen: Anfangsbestand + Zugänge – Abgänge ± Wertänderungen = Endbestand; Belegbetrag = Buchungsbetrag je ausgewählte Buchung; Abgangserfolg = Erlös – Buchwert
+  feststellung_wenn: Buchung ohne Beleg, falsche Gegenbuchung oder Position, falsche Periode, unvollständige Anschaffungskosten oder falscher Abgangserfolg.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+  - quelle: hwp-bur-2023__rz-0281-s220
+    zitat: transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber Finanzierungskosten)
+  - quelle: hwp-bur-2023__rz-0279-s219
+    zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
+- id: H1-311
+  vorgehen: Weitergehende Prüfungshandlung (WP). Ertrags- und Aufwandkonten (Zinsen, Dividenden, Kurserfolge, Wertberichtigungen) durchsehen; erwartete Erträge je Titel (Zinssatz, Dividende)
+    mit Buchungen vergleichen; Bruttoverbuchung mit VSt-Guthaben, Zinsabgrenzung und Ausweis im Finanzergebnis prüfen.
+  nachweise:
+  - Kontoblätter Finanzertrag/-aufwand
+  - Ertragsabrechnungen
+  - Darlehensverträge
+  rechnen: Erwarteter Zins = Nominal × Zinssatz × Tage/360; VSt = 35 % des Bruttoertrags; Bruttoertrag = Nettogutschrift / 0.65
+  feststellung_wenn: Erträge fehlen trotz Bestand, Nettoverbuchung ohne VSt-Guthaben, fehlende Zinsabgrenzung oder falsch ausgewiesene Kurserfolge/Wertberichtigungen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  - quelle: hwp-bur-2023__rz-0789-s328
+    zitat: Zinsen und Dividenden aus Wertpapieren
+  - quelle: treuhand-almanach-2026__s068-1
+    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+- id: H1-312
+  vorgehen: Nur bei Krypto-Assets. Gebuchten Bestand je Token/Wallet per 31.12. mit Nebenbuch und den vom Kunden gelieferten Blockchain-Nachweisen (Wallet-Explorer-Export, Sign-Message)
+    bzw. Custodian-Auszug abstimmen; Vollständigkeit der Adressliste prüfen. Keine eigenen Bestätigungsanfragen beim Custodian; nur vorhandene Kundendokumente verwenden.
+  nachweise:
+  - Nebenbuch Krypto
+  - Wallet-Liste
+  - Blockchain-Export/Sign-Message-Protokoll
+  - Custodian-Auszug 31.12.
+  rechnen: Menge je Token/Wallet gemäss Blockchain bzw. Custodian = Menge Nebenbuch; Σ Menge × Bewertungskurs = Saldo Hauptbuch
+  feststellung_wenn: Mengendifferenz, Wallet ohne Nachweis der Verfügungsmacht, nicht erfasste Adressen oder Custodian-Auszug weicht vom Buchbestand ab.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0042-s165
+    zitat: ist eine regelmässige Abstimmung zwischen Haupt- und Nebenbuch sowie insbesondere zwischen dem Nebenbuch und dem Token-Bestand notwendig
+  - quelle: hwp-bur-2023__rz-0044-s166-t2
+    zitat: insbesondere für selbstverwaltete Wallets die Durchführung von Verfahren wie Sign-Message empfehlenswert
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+- id: H1-313
+  vorgehen: Nur bei Krypto-Assets. Transaktionen kurz vor und nach dem 31.12. aus Blockchain-Export bzw. Custodian-Report (vom Kunden) mit Buchungsdatum im Hauptbuch und in den Kontoblättern
+    des Folgejahres vergleichen; Zeitstempel der Blockchain beachten. Fehlende oder periodenfremde Buchungen mit Datum und Betrag dokumentieren.
+  nachweise:
+  - Blockchain-Export/Custodian-Report um den Stichtag
+  - Hauptbuch Dezember
+  - Kontoblätter Folgejahr
+  rechnen: 'Je Transaktion: Zeitstempel ≤ 31.12. ⇔ Buchung im Berichtsjahr'
+  feststellung_wenn: Transaktion vor dem Stichtag erst im Folgejahr gebucht (oder umgekehrt) mit wesentlicher Auswirkung auf Bestand oder Erfolg.
+  fundstellen:
+  - quelle: ser-2022__4-3-6
+    zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
+  - quelle: hwp-bur-2023__rz-0042-s165
+    zitat: allein der Eintrag einer Transaktion in einer Blockchain als Verbuchungsnachweis für Zwecke der Buchführung nicht als ausreichend
+- id: H1-314
+  vorgehen: Nur bei Krypto-Assets. Buchwert je Token mit Stichtagskursen aus mindestens zwei unabhängigen Quellen (z.B. ESTV-Kursliste, Börsen-/Datenfeed) vergleichen; Methode (Anschaffungs-/Niederstwert
+    oder Marktpreis für die ganze Position), Bewertungszeitpunkt und Schwankungsreserve im Textfeld dokumentieren.
+  nachweise:
+  - Bewertungsliste Krypto 31.12.
+  - Kursnachweise mehrerer Quellen
+  - ESTV-Kursliste
+  rechnen: Marktwert = Menge × Kurs 31.12. je Quelle; Abweichung zwischen Quellen in %; Wertberichtigungsbedarf = Buchwert – min(Anschaffungswert, Marktwert) bei Anschaffungswertbewertung
+  feststellung_wenn: Buchwert über zulässigem Wert, wesentliche Kursabweichung zwischen Quellen ohne Begründung oder Marktpreisbewertung nur für Teil der Position.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0045-s167-t1
+    zitat: sind gestützt auf Art. 960b Abs. 1 OR alle Kryptowährungen in der jeweiligen Bilanzposition auf diese Weise zu erfassen
+  - quelle: treuhand-almanach-2026__s060-1
+    zitat: die ESTV publiziert die Steuerwerte der verbreitetsten Kryptowährungen in der Kursliste
+  - quelle: hwp-or-2024__rz-1183-s420
+    zitat: Die Bewertungspreise für die Folgebewertung sind grundsätzlich mit einer unabhängigen externen Kursquelle vom Prüfer nachzuvollziehen.
+- id: H1-315
+  vorgehen: Nur bei Krypto-Assets. Prüfen, ob der Ausweis sachgerecht ist (Wertschriften im Umlauf-/Anlagevermögen, Vorräte oder immaterielle Werte; nicht flüssige Mittel/Forderungen)
+    und der Anhang Grundsätze, Hinweis auf Marktpreisbewertung mit Gesamtwert, Schwankungsreserve und wesentliche Wertverluste nach dem Stichtag enthält. Swiss GAAP FER/IFRS nur, falls
+    angewendet.
+  nachweise:
+  - Bilanz und Anhang
+  - Bewertungsliste Krypto
+  - Kursnachweise nach Stichtag
+  rechnen: ''
+  feststellung_wenn: Ausweis als flüssige Mittel/Forderungen, fehlende Anhangangaben zu Methode oder Marktpreisbewertung oder nicht offengelegte wesentliche Wertverluste nach dem Stichtag.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0046-s167-t1
+    zitat: Nicht sachgemäss ist ein Ausweis als flüssige Mittel oder als Forderungen.
+  - quelle: hwp-bur-2023__rz-0051-s169
+    zitat: Entsprechend ist gemäss Art. 959c Abs. 1 Ziff. 1 OR im Anhang offenzulegen, wie Kryptowährungen im Jahresabschluss berücksichtigt worden sind.
+  - quelle: hwp-bur-2023__rz-0053-s170
+    zitat: Sofern Bewertungen zu beobachtbaren Marktpreisen vorgenommen worden sind, ist im Anhang auf diese Bewertungen hinzuweisen
+- id: H1-320
+  vorgehen: 'Anhang auf Angaben zu Finanzanlagen prüfen: Grundsätze, Marktpreisbewertung mit Gesamtwert und Schwankungsreserve, Beteiligungen (Firma, Rechtsform, Sitz, Kapital-/Stimmenanteil),
+    eigene Anteile, verpfändete/gesperrte Aktiven, Eventualverbindlichkeiten (Einzahlungs-/Nachschusspflicht), Forderungen ggü. Beteiligten, Nettoauflösung stiller Reserven, Ereignisse
+    nach dem Stichtag.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Prüfungsergebnisse H1-1xx bis H1-4xx
+  rechnen: Anhangbeträge = Prüfungsergebnisse (z.B. Summe verpfändete Aktiven, Gesamtwert zu Marktpreisen)
+  feststellung_wenn: Pflichtangabe nach Art. 959c, 959a Abs. 4 oder 960b OR fehlt oder Betrag weicht vom Prüfungsergebnis ab.
+  fundstellen:
+  - quelle: or__art-959c-t1
+    zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: or__art-960b
+    zitat: Der Gesamtwert der entsprechenden Aktiven muss für Wertschriften und übrige Aktiven mit beobachtbarem Marktpreis je gesondert offengelegt werden.
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung nach direkt oder wesentlichen indirekt gehaltenen Anteilen an anderen Unternehmen
+- id: H1-321
+  vorgehen: Kundenaufstellung stille Reserven (Differenz Buchwert zu obligationenrechtlichem Höchstwert je Position) für Finanzanlagen übernehmen oder als Pendenz anfordern; Bestand
+    und Veränderung ggü. Vorjahr nachrechnen, mit Ergebnissen H1-305/306 plausibilisieren; Nettoauflösung mit dem Jahresergebnis vergleichen (Anhangpflicht).
+  nachweise:
+  - Aufstellung stille Reserven Berichtsjahr/Vorjahr
+  - Kurs-/Bewertungsnachweise
+  - Anhang
+  rechnen: Stille Reserve = obligationenrechtlicher Höchstwert – Buchwert je Position; Veränderung = Bestand 31.12. – Bestand Vorjahr; Nettoauflösung vs. Jahresergebnis
+  feststellung_wenn: Nettoauflösung stellt das Ergebnis wesentlich günstiger dar und ist im Anhang nicht offengelegt, oder Aufstellung fehlt bzw. ist nicht nachvollziehbar.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- id: H1-322
+  vorgehen: 'Dauerakte in M-Files mit mehrjährig gültigen Dokumenten zu Finanzanlagen ergänzen bzw. aktualisieren: Beteiligungsverzeichnis, Kauf-, Darlehens-, Kautions- und Pfandverträge,
+    Rangrücktritte, Statuten/HR-Auszüge der Gesellschaften, Custodian-Verträge/Wallet-Liste. Fehlende Verträge als Pendenz; Änderungen im Textfeld vermerken.'
+  nachweise:
+  - Dauerakte M-Files
+  - Verträge
+  - Beteiligungsverzeichnis
+  rechnen: ''
+  feststellung_wenn: Wesentlicher Vertrag (z.B. Darlehen, Beteiligungskauf, Verpfändung) fehlt und ist beim Kunden nicht erhältlich (Pendenz).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
+  - quelle: hwp-bur-2023__rz-0268-s217
+    zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
+- id: H1-401
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. a) Bei nicht voll liberierten Titeln Einzahlungs- und Nachschusspflichten aus Titeln, Statuten, Kaufverträgen erheben; b) Verpfändungen,
+    Sperren und Kautionen aus Pfand-/Kreditverträgen und Auszügen (Sperrvermerk) erheben. Gesamtbeträge mit Anhang (Sicherheiten, Eventualverbindlichkeiten) abgleichen.
+  nachweise:
+  - Titel/Statuten/Kaufverträge
+  - Pfand- und Kreditverträge
+  - Depot-/Kontoauszüge mit Sperrvermerk
+  - Anhang
+  rechnen: Ausstehende Einzahlung = Nennwert – einbezahlter Betrag je Titel; Summe verpfändete/gesperrte Aktiven = Anhangbetrag
+  feststellung_wenn: Einzahlungs-/Nachschusspflicht oder verpfändete/gesperrte Aktiven bestehen und sind im Anhang nicht oder mit falschem Betrag angegeben.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0279-s219
+    zitat: Aufbewahrungsort der Titel sowie Hinweise auf Einzahlungs- und Nachschusspflichten
+  - quelle: or__art-687
+    zitat: Der Erwerber einer nicht voll einbezahlten Namenaktie ist der Gesellschaft gegenüber zur Einzahlung verpflichtet, sobald er im Aktienbuch eingetragen ist.
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+- id: H1-402
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Bewertung je Titel mit a) Kurs-/Wertangabe im Depotauszug per 31.12., b) ESTV-Kursliste per 31.12. bzw. c) anderen Unterlagen
+    (Abschlüsse, Transaktionspreise) vergleichen; Quelle und Kurs je Titel im Textfeld festhalten.
+  nachweise:
+  - Depotauszug 31.12.
+  - ESTV-Kursliste 31.12.
+  - Jahresabschlüsse/Transaktionsbelege
+  rechnen: Kurswert = Menge × Kurs 31.12. (Depotauszug bzw. Kursliste); Differenz zum Buchwert je Titel
+  feststellung_wenn: Buchwert über Kurs-/Marktwert ohne Begründung (Anschaffungswertprinzip) oder wesentliche Abweichung bei Marktpreisbewertung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anderen Quellen
+  - quelle: hwp-bur-2023__rz-0045-s167-t1
+    zitat: Dabei kann beispielsweise auf die Bewertung der Eidgenössischen Steuerverwaltung (ESTV) abgestellt werden
+  - quelle: treuhand-almanach-2026__s062-2
+    zitat: Vgl. Kurslisten der ESTV
+- id: H1-403
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Finanzanlagen nach Schuldner/Emittent, Anlageklasse, Währung und Nahestehenden gruppieren; Anteile an Total Finanzanlagen und
+    Bilanzsumme berechnen; Klumpenrisiken (z.B. einzelner Darlehensnehmer, Krypto) im Textfeld festhalten und in die Bewertungsbeurteilung einbeziehen.
+  nachweise:
+  - Aufstellung Finanzanlagen
+  - Bilanz
+  rechnen: Anteil je Schuldner/Emittent = Buchwert / Total Finanzanlagen bzw. / Bilanzsumme
+  feststellung_wenn: Einzelposition mit hohem Anteil an Bilanzsumme/Eigenkapital und erkennbarem Bonitäts- oder Kursrisiko ohne Wertberichtigung (Punkt für Schlussbesprechung).
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0177-s197
+    zitat: das Darlehen im Vergleich zu anderen Bilanzpositionen unverhältnismässig hoch ist und ein Klumpenrisiko darstellt
+  - quelle: hwp-bur-2023__rz-0272-s218
+    zitat: Das gesamte Engagement gegenüber dem Schuldnerunternehmen ist in die Beurteilung einzubeziehen
+- id: H1-404
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. VSt-pflichtige Erträge (inländische Zinsen, Dividenden) aus Ertragsabrechnungen/Kontoauszügen erheben; prüfen, ob Ertrag brutto
+    gebucht und 35 % VSt als Guthaben aktiviert sind; Vorjahresguthaben und Rückforderung (frühestens nach Ablauf des Kalenderjahres) abgleichen.
+  nachweise:
+  - Ertragsabrechnungen/Kontoauszüge
+  - Kontoblatt VSt-Guthaben
+  - Rückerstattungsantrag/-gutschrift
+  rechnen: VSt-Guthaben = Σ VSt-pflichtige Bruttoerträge × 35 %; Saldo VSt-Konto = VSt Berichtsjahr + noch nicht zurückerstattete Vorjahresguthaben
+  feststellung_wenn: VSt nicht aktiviert oder Ertrag netto gebucht (Rückerstattung gefährdet) oder alte Guthaben ohne Rückforderung.
+  fundstellen:
+  - quelle: treuhand-almanach-2026__s068-1
+    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  - quelle: treuhand-almanach-2026__s069-2
+    zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  - quelle: treuhand-almanach-2026__s068-2
+    zitat: Dieser Antrag kann gemäss Art. 29 Abs. 2 VStG frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt werden.

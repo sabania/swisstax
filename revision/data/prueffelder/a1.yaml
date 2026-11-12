@@ -4,14 +4,14 @@ bezeichnung: Allgemeine Prüfungshandlungen
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-11'
+  datum: '2026-11-12'
   nachpruefung:
-    urteil: null
-    befunde: 0
-    korrigiert: false
-kurzbeschrieb: 'Schlussarbeiten zur Jahresrechnung als Ganzes: Befragung zu Änderungen von Darstellung/Bewertung, Ereignisse nach dem Stichtag, Vollständigkeitserklärung, Gesamtanalytik
-  (Going Concern, GoR, nicht korrigierte Fehler, stille Reserven) sowie formelle Abstimmungen (Unterzeichnung, Vorjahresvortrag, Hauptbuch↔JR, Mindestgliederung, Jahresergebnis↔Antrag,
-  Protokolle, ggf. Geldflussrechnung).'
+    urteil: korrigieren
+    befunde: 16
+    korrigiert: true
+kurzbeschrieb: 'Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewertung, Ereignisse nach dem Stichtag, VE, Gesamtanalytik (Going Concern inkl. Kapitalverlust/Überschuldung/Rangrücktritte,
+  GoR, nicht korrigierte Fehler, stille Reserven) sowie formelle Abstimmungen (Unterzeichnung, Vorjahresvortrag, Hauptbuch↔JR, Mindestgliederung, Jahresergebnis↔Antrag, Protokolle, ggf.
+  GFR).'
 gesetz:
 - thema: Zweck der Rechnungslegung (zuverlässiges Urteil Dritter)
   quelle: or__art-958
@@ -41,7 +41,7 @@ gesetz:
 - thema: Verrechnungsverbot
   quelle: or__art-958c
   zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
-- thema: Anpassung an Besonderheiten Unternehmen/Branche
+- thema: Anpassung an Besonderheiten Unternehmen/Branche (Art. 958c Abs. 3 OR)
   quelle: or__art-958c
   zitat: Die Rechnungslegung ist unter Wahrung des gesetzlichen Mindestinhalts den Besonderheiten des Unternehmens und der Branche anzupassen.
 - thema: Vorjahreszahlen
@@ -71,10 +71,19 @@ gesetz:
 - thema: 'Zwischenabschluss: Vereinfachungen/Verkürzungen'
   quelle: or__art-960f
   zitat: Vereinfachungen oder Verkürzungen sind zulässig, sofern keine Beeinträchtigung der Darstellung des Geschäftsgangs entsteht.
-- thema: 'Zwischendividende: Prüfung Zwischenabschluss durch Revisionsstelle'
+- thema: 'Zwischendividende: Prüfung Zwischenabschluss durch Revisionsstelle (Art. 675a Abs. 2 OR)'
   quelle: or__art-675a
   zitat: Die Revisionsstelle muss den Zwischenabschluss vor dem Beschluss der Generalversammlung prüfen.
-- thema: Geldflussrechnung nur für Unternehmen mit ordentlicher Revisionspflicht
+- thema: 'Zwischendividende: keine Prüfung ohne Pflicht zur eingeschränkten Revision'
+  quelle: or__art-675a
+  zitat: Keine Prüfung ist erforderlich, wenn die Gesellschaft ihre Jahresrechnung nicht durch eine Revisionsstelle eingeschränkt prüfen lassen muss.
+- thema: 'Zwischendividende: Verzicht auf Prüfung bei Zustimmung aller Aktionäre ohne Gläubigergefährdung'
+  quelle: or__art-675a
+  zitat: Auf die Prüfung kann verzichtet werden, wenn sämtliche Aktionäre der Ausrichtung der Zwischendividende zustimmen
+- thema: Geldflussrechnung nur für Unternehmen mit ordentlicher Revisionspflicht (Art. 961 OR)
+  quelle: or__art-961
+  zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind
+- thema: Geldflussrechnung als Teil der Jahresrechnung (Art. 961 Ziff. 2 OR)
   quelle: or__art-961
   zitat: als Teil der Jahresrechnung eine Geldflussrechnung erstellen
 - thema: Mindestinhalt Geldflussrechnung
@@ -89,9 +98,12 @@ gesetz:
 - thema: Ordentliche GV innert 6 Monaten
   quelle: or__art-699
   zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
-- thema: Gegenstand der eingeschränkten Revision
+- thema: 'Gegenstand der eingeschränkten Revision: Jahresrechnung (Art. 729a Abs. 1 Ziff. 1 OR)'
   quelle: or__art-729a
   zitat: die Jahresrechnung nicht den gesetzlichen Vorschriften und den Statuten entspricht
+- thema: 'Gegenstand der eingeschränkten Revision: Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR)'
+  quelle: or__art-729a
+  zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - thema: Prüfungshandlungen der eingeschränkten Revision
   quelle: or__art-729a
   zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
@@ -101,9 +113,28 @@ gesetz:
 - thema: Kapitalverlust
   quelle: or__art-725a
   zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
-- thema: Überschuldung
+- thema: 'Überschuldung: begründete Besorgnis, Zwischenabschlüsse (Art. 725b Abs. 1 OR)'
   quelle: or__art-725b-t1
   zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+- thema: 'Überschuldung: Zwischenabschluss zu Veräusserungswerten nur entbehrlich ohne Überschuldung zu Fortführungswerten'
+  quelle: or__art-725b-t1
+  zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist und der Zwischenabschluss zu Fortführungswerten keine Überschuldung
+    aufweist.
+- thema: 'Überschuldung: Prüfung der Zwischenabschlüsse durch die Revisionsstelle (Art. 725b Abs. 2 OR)'
+  quelle: or__art-725b-t1
+  zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle
+- thema: 'Überschuldung: Benachrichtigung des Gerichts durch den VR (Art. 725b Abs. 3 OR)'
+  quelle: or__art-725b-t1
+  zitat: Ist die Gesellschaft gemäss den beiden Zwischenabschlüssen überschuldet, so benachrichtigt der Verwaltungsrat das Gericht.
+- thema: Rangrücktritt im Ausmass der Überschuldung mit Stundung (Art. 725b Abs. 4 Ziff. 1 OR)
+  quelle: or__art-725b-t1
+  zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden
+- thema: Rangrücktritt umfasst Kapital und Zinsen während der Überschuldung
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- thema: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung (Art. 729c OR)
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
 risiken:
 - text: Jahresrechnung unvollständig oder Mindestgliederung (Art. 959a/959b OR) nicht eingehalten.
   pruefziele:
@@ -116,12 +147,24 @@ risiken:
   - VO
   quelle: hwp-er-2026__rz-0377-s269
   zitat: der Anhang die vorgeschriebenen Angaben nicht vollständig und nicht richtig enthält (Art. 959c OR)
-- text: Fortführungsannahme nicht vertretbar oder Unsicherheiten/Abweichungen nicht im Anhang vermerkt.
+- text: Fortführungsannahme nicht vertretbar oder Abweichungen von der Fortführung nicht im Anhang vermerkt.
   pruefziele:
   - BE
   - DO
   quelle: or__art-958a
   zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken; ihr Einfluss auf die wirtschaftliche Lage ist darzulegen.
+- text: 'Wesentliche Unsicherheiten zur Fortführung im Anhang fehlend oder ungenügend offengelegt (Folge: Modifizierung der Prüfungsaussage, Entscheid WP).'
+  pruefziele:
+  - DO
+  quelle: ser-2022__anh-g-s141-2
+  zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
+- text: Überschuldung nicht durch genügende Rangrücktritte (Kapital und Zinsen, mit Stundung) gedeckt, Rangrücktritte reduziert oder rangrücktrittsbelastete Forderungen getilgt; Pflichten
+    nach Art. 725b/729c OR nicht beachtet.
+  pruefziele:
+  - BE
+  - DO
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
 - text: Änderung von Darstellung oder Bewertungsmethode (Stetigkeit) ohne Begründung im Anhang.
   pruefziele:
   - BE
@@ -151,13 +194,24 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0861-s353
   zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+- text: Ereignis nach dem Bilanzstichtag hebt die Fortführungsfähigkeit auf, JR aber weiterhin zu Fortführungswerten erstellt.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: In solchen Fällen darf die Jahresrechnung nicht mehr auf Basis von Fortführungswerten erstellt werden.
 - text: Jahresergebnis in ER, Eigenkapital und Gewinnverwendungsantrag nicht übereinstimmend oder Antrag nicht gesetzeskonform.
   pruefziele:
   - DO
   - RI
   quelle: hwp-er-2026__rz-0439-s284
   zitat: Insbesondere ist zu prüfen, ob die Zuweisungen an die gesetzliche Gewinnreserve richtig erfolgen
-- text: 'Formelle Mängel: Jahresrechnung nicht unterzeichnet bzw. Geschäftsbericht nicht fristgerecht zur Genehmigung vorgelegt.'
+- text: 'Formeller Mangel: Jahresrechnung nicht durch den VR-Vorsitz und die für die Rechnungslegung zuständige Person unterzeichnet.'
+  pruefziele:
+  - DO
+  quelle: or__art-958
+  zitat: Er ist vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person zu unterzeichnen.
+- text: 'Formeller Mangel: Geschäftsbericht nicht fristgerecht zur Genehmigung vorgelegt; HWP ER empfiehlt bei diesem Gesetzesverstoss einen Hinweis im Bericht (Entscheid WP).'
   pruefziele:
   - DO
   quelle: hwp-er-2026__rz-0425-s280-t2
@@ -184,21 +238,37 @@ unterlagen:
   quelle: ser-2022__anh-d-s073-1
   zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
 - dokument: Antrag des VR über die Verwendung des Bilanzgewinns/-verlusts
-  zweck: A1-305, A1-307
-  quelle: hwp-er-2026__rz-0439-s284
-  zitat: prüft die Revisionsstelle den Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinns
+  zweck: A1-305, A1-307 (gesetzlicher Prüfungsgegenstand)
+  quelle: or__art-729a
+  zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - dokument: Detailnachweis stille Reserven (Bestand je Position per 31.12. und Vorjahr)
   zweck: A1-207, A1-308
   quelle: ser-2022__anh-d-s073-1
   zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
-- dokument: 'Einschätzung Fortführungsfähigkeit: Budget, Liquiditätsplanung, Finanzierungszusagen'
+- dokument: 'Einschätzung der Fortführungsfähigkeit für mindestens 12 Monate ab Bilanzstichtag: Budget, Liquiditätsplanung, Finanzierungszusagen'
   zweck: A1-205 Going Concern
   quelle: ser-2022__anh-g-s140-2
   zitat: Analyse und Diskussion mit der Unternehmensleitung über geplante Cashflows, Gewinne und andere wichtige Kennzahlen
-- dokument: Statuten, Handelsregisterauszug (Organe, Zeichnungsberechtigung, Revisionsstelle)
-  zweck: A1-301, A1-304, A1-305 (statutarische Bestandteile)
+- dokument: Rangrücktrittsvereinbarungen (unterzeichnet) mit zugehörigen Darlehensverträgen und Kontoblättern Darlehen/Zinsen
+  zweck: A1-205 Deckung der Überschuldung (Betrag inkl. Zinsen, Stundung, Veränderungen/Tilgungen)
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- dokument: Zwischenabschluss zu Veräusserungswerten (falls die JR zu Fortführungswerten eine Überschuldung ausweist)
+  zweck: A1-205; sonst Pendenz
+  quelle: hwp-er-2026__rz-0402-s120-t3
+  zitat: In diesem Fall ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen, wenn die Jahresrechnung zu Fortführungswerten eine Überschuldung ausweist
+- dokument: Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger
+  zweck: A1-205 Gültigkeit/Werthaltigkeit des Rangrücktritts
+  quelle: ser-2022__anh-h-s143-1
+  zitat: Wenn der Darlehensgeber nicht in der Lage ist, einen allfälligen Ausfall finanziell zu verkraften, können an der Gültigkeit des Rangrücktritts Zweifel bestehen.
+- dokument: Statuten (statutarische Bestandteile der Jahresrechnung, Organe)
+  zweck: A1-304, A1-305
   quelle: hwp-er-2026__rz-0365-s266
   zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
+- dokument: Handelsregisterauszug (VR-Vorsitz, Zeichnungsberechtigung, Revisionsstelle)
+  zweck: A1-301 Abgleich der Unterzeichnenden, A1-304 Organe/Revisionsstelle
+  quelle: or__art-958
+  zitat: Er ist vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person zu unterzeichnen.
 - dokument: Buchungen/Kontoblätter der Folgeperiode und Informationen zu Ereignissen nach dem Bilanzstichtag
   zweck: A1-102
   quelle: ser-2022__8-6
@@ -207,6 +277,10 @@ unterlagen:
   zweck: A1-208
   quelle: or__art-960f
   zitat: Es sind mindestens die Überschriften und Zwischensummen auszuweisen, die in der letzten Jahresrechnung enthalten sind.
+- dokument: Zustimmung sämtlicher Aktionäre zur Zwischendividende (nur bei Verzicht auf die Prüfung des Zwischenabschlusses)
+  zweck: A1-208
+  quelle: or__art-675a
+  zitat: Auf die Prüfung kann verzichtet werden, wenn sämtliche Aktionäre der Ausrichtung der Zwischendividende zustimmen
 - dokument: Geldflussrechnung inkl. Fondsnachweis und Anlagespiegel (nur falls erstellt/vorgeschrieben)
   zweck: A1-401, A1-402
   quelle: hwp-bur-2023__rz-0802-s333
@@ -227,21 +301,76 @@ bewertung:
 - regel: Offenlegung nur des Nettobetrags der Auflösung stiller Reserven, als Gesamtbetrag, wenn das Ergebnis wesentlich günstiger dargestellt wird.
   quelle: hwp-bur-2023__rz-0817-s341-t1
   zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
-- regel: 'Ereignisse nach dem Stichtag: Ursache vor Stichtag → buchen; Ursache nach Stichtag → Anhang (Art und Schätzung der Auswirkung).'
+- regel: Ereignisse nach dem Stichtag mit Ursache vor dem Stichtag sind in der Jahresrechnung des abgelaufenen Geschäftsjahres zu buchen.
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: Besteht die Ursache für ein Ereignis bereits am Bilanzstichtag, so ist das Ereignis in der Jahresrechnung des abgelaufenen Geschäftsjahres buchungspflichtig
+- regel: 'Ereignisse mit Ursache nach dem Stichtag: nicht buchen, aber wesentliche im Anhang mit Art und geschätzter finanzieller Auswirkung offenlegen.'
   quelle: hwp-bur-2023__rz-0860-s353
   zitat: Es sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen offenzulegen.
+- regel: 'Ausnahme: Hebt ein Ereignis nach dem Stichtag die Fortführungsfähigkeit auf, sind Fortführungswerte ausgeschlossen.'
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: Eine Ausnahme dazu besteht, wenn das Ereignis nach dem Bilanzstichtag dazu führt, dass die Fortführungsfähigkeit des Unternehmens nicht mehr gegeben ist.
 - regel: Vorjahreszahlen sind in Bilanz und Erfolgsrechnung anzugeben.
   quelle: or__art-958d
   zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
 - regel: 'Zwischenabschluss: mindestens Überschriften und Zwischensummen der letzten Jahresrechnung; keine Beeinträchtigung der Darstellung des Geschäftsgangs.'
   quelle: hwp-bur-2023__rz-0249-s121
   zitat: Insgesamt darf durch Vereinfachungen und Verkürzungen keine Beeinträchtigung der Darstellung des Geschäftsgangs entstehen.
-- regel: 'Geldflussrechnung: Fonds sind die flüssigen Mittel; Fonds «Netto Flüssige Mittel» in der Praxis vertretbar bei Offenlegung der Bestandteile.'
+- regel: 'Geldflussrechnung: Fonds sind gemäss Gesetz die flüssigen Mittel.'
   quelle: hwp-bur-2023__rz-0803-s333
   zitat: Die Bezugsgrösse der Geldflussrechnung (sog. Fonds) bilden die flüssigen Mittel
+- regel: Fonds «Netto Flüssige Mittel» (inkl. Kontokorrentkredite) ist entgegen dem Gesetzeswortlaut vertretbar, wenn die Bestandteile des Fonds offengelegt sind.
+  quelle: hwp-bur-2023__rz-0803-s333
+  zitat: Unter Offenlegung der Bestandteile des Fonds erscheint diese Praxis entgegen dem Gesetzes
 - regel: 'Geldfluss aus Geschäftstätigkeit nach indirekter Methode: Jahresergebnis um nicht liquiditätswirksame Vorgänge bereinigen.'
   quelle: hwp-bur-2023__rz-0805-s333
   zitat: Bei der indirekten Methode werden zum Jahresergebnis die nicht liquiditätswirksamen Geschäftsvorfälle hinzugefügt bzw. in Abzug gebracht.
+- regel: Einschätzung der Fortführungsfähigkeit durch die Unternehmensleitung für mindestens 12 Monate ab Bilanzstichtag.
+  quelle: ser-2022__anh-g-s138-1
+  zitat: Die Unternehmensleitung hat die Einschätzung der Fortführungsfähigkeit für einen Zeitraum von mindestens zwölf Monaten ab dem Bilanzstichtag vorzunehmen
+- regel: 'Going Concern vertretbar, aber wesentliche Unsicherheit im Anhang hinreichend offengelegt: Zusatz im Revisionsbericht mit Verweis auf den Anhang (Vorschlag Agent, Entscheid
+    WP).'
+  quelle: ser-2022__anh-g-s141-1
+  zitat: In diesem Fall ist ein Zusatz im Revisionsbericht anzubringen, in dem die wesentlichen Unsicherheiten kurz beschrieben werden
+- regel: 'Unsicherheiten bestehen, Anhangsangaben fehlen oder genügen nicht: Modifizierung der Prüfungsaussage (Entscheid WP).'
+  quelle: ser-2022__anh-g-s141-2
+  zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
+- regel: 'Unternehmensleitung verweigert die Einschätzung oder legt weniger als 12 Monate zugrunde: Modifizierung der Prüfungsaussage (Entscheid WP).'
+  quelle: ser-2022__anh-g-s141-2
+  zitat: es wird für den Einschätzungszeitraum eine geringere Zeitspanne zugrunde gelegt
+- regel: Rangrücktritt genügt nur im Ausmass der Überschuldung, mit Stundung und unter Einschluss von Kapital und Zinsen während der Überschuldung.
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- regel: 'Höhe: mindestens im Ausmass der Überschuldung; ist die Fortführung nicht gefährdet, genügt die Ausrichtung auf die Deckungslücke zu Fortführungswerten.'
+  quelle: hwp-er-2026__rz-0420-s125
+  zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
+- regel: Der Rangrücktritt beseitigt die Überschuldung nicht und ist keine Sanierungsmassnahme; er dispensiert nur von der Anzeige an das Gericht.
+  quelle: hwp-er-2026__rz-0405-s122
+  zitat: Er beseitigt weder die Überschuldung noch stellt er eine Sanierungsmassnahme im Sinne von Art. 725a Abs. 1 OR dar.
+- regel: Rangrücktrittsbelastete Darlehen bleiben Verbindlichkeiten (kein Ausbuchen); der Rangrücktritt ist in Bilanz oder Anhang auszuweisen und zu erläutern.
+  quelle: hwp-er-2026__rz-0430-s127
+  zitat: muss deshalb in der Jahresrechnung des Schuldners (in der Bilanz oder im Anhang) ausgewiesen und erläutert werden
+- regel: 'Rangrücktritt darf grundsätzlich nicht reduziert werden (Ausnahmen: geprüfter Abschluss zeigt entsprechend reduzierte Überschuldung, begründete VR-Darlegung ohne absehbare
+    Verluste in 12 Monaten, keine Benachteiligung anderer Rangrücktrittsgläubiger).'
+  quelle: hwp-er-2026__rz-0425-s126
+  zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+- regel: Weist die JR zu Fortführungswerten eine Überschuldung aus, ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen.
+  quelle: hwp-er-2026__rz-0402-s120-t3
+  zitat: In diesem Fall ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen, wenn die Jahresrechnung zu Fortführungswerten eine Überschuldung ausweist
+- regel: Ergibt die eingeschränkte Revision eine Überschuldung, wird sie im Revisionsbericht festgehalten und die Organe werden auf ihre Pflichten aufmerksam gemacht; die JR gilt als
+    Zwischenabschluss zu Fortführungswerten (Entscheid WP).
+  quelle: ser-2022__9-t2
+  zitat: Ergibt sich aus der eingeschränkten Revision eine Überschuldung, so wird diese im Revisionsbericht festgehalten; zusätzlich werden die Organe auf ihre gesetzlichen Pflichten
+    aufmerksam gemacht.
+- regel: 'Berichtsbeispiel bei Überschuldung mit Rangrücktritt und eingehaltenen VR-Pflichten: nicht modifizierte Prüfungsaussage mit Zusatz (SER Anhang F, Beispiel 9).'
+  quelle: ser-2022__anh-f-s126-2
+  zitat: Wir machen darauf aufmerksam, dass die [2] im Sinne von Art. 725b OR überschuldet ist.
+- regel: 'Bleibt der VR bei Kapitalverlust oder Überschuldung untätig: Hinweis im Revisionsbericht; bei Überschuldung zusätzlich Anzeigepflicht nach Art. 729c OR (Entscheid WP).'
+  quelle: ser-2022__8-3-2-t1
+  zitat: Bleibt der Verwaltungsrat untätig, beachtet die Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR.
+- regel: 'Offensichtliche Überschuldung (Art. 729c OR): auch bei optimistischer Betrachtung nicht zu leugnen, u.a. wenn keine oder keine genügenden Rangrücktritte vorhanden sind.'
+  quelle: ser-2022__anh-h-s142-1
+  zitat: keine oder keine genügenden Rangrücktritte vorhanden sind
 fallstricke:
 - text: Die Vollständigkeitserklärung ersetzt keine Prüfungsnachweise; wesentliche Positionen nicht allein darauf abstützen.
   quelle: hwp-er-2026__rz-0338-s259
@@ -255,6 +384,9 @@ fallstricke:
 - text: Ereignisse nach dem Bilanzstichtag sind bis zum Berichtsdatum zu berücksichtigen, nicht nur bis zum Abschluss der Feldarbeit.
   quelle: ser-2022__8-6
   zitat: Dies schliesst Prüfungshandlungen bezüglich Ereignissen ein, die bis zum Berichtsdatum eingetreten sind.
+- text: Ereignisse nach dem Stichtag nicht nur auf Buchung/Offenlegung, sondern auch auf Risiken für die Fortführung beurteilen (A1-102 mit A1-205 verknüpfen).
+  quelle: ser-2022__anh-g-s141-1
+  zitat: Beurteilung der Ereignisse nach dem Bilanzstichtag, um Risiken zu identifizieren
 - text: 'Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten und im Bericht anmerken.'
   quelle: ser-2022__6-2-7
   zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
@@ -267,32 +399,70 @@ fallstricke:
 - text: Auch kleine Fehler können wesentlich sein, wenn sie Gewinn in Verlust verwandeln.
   quelle: hwp-er-2026__rz-0044-s186
   zitat: Selbst ein geringer Fehler, der den ausgewiesenen Gewinn zu einem Verlust werden lässt, kann wesentlich sein.
-- text: Geldflussrechnung ist bei eingeschränkter Revision in der Regel kein Prüfungsgegenstand; nur gesetzlich/statutarisch/nach Standard verlangte Teile gehören in die geprüfte Jahresrechnung.
+- text: Geldflussrechnung ist gesetzlich nur bei ordentlicher Revisionspflicht vorgeschrieben (Art. 961 OR); bei eingeschränkter Revision nur Prüfungsgegenstand, wenn Statuten oder ein
+    anerkannter Standard sie verlangen. Nur vorgeschriebene Teile gehören in die geprüfte Jahresrechnung.
   quelle: hwp-er-2026__rz-0365-s266
-  zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
-- text: 'Negatives oder hälftig nicht mehr gedecktes Eigenkapital: Kapitalverlust/Überschuldung (Art. 725a/725b OR) mit Going Concern und Prüffeld Eigenkapital verknüpfen; Beurteilung
-    durch WP.'
+  zitat: Es ist darauf zu achten, dass nur jene Teile genannt werden, welche gesetzlich oder gemäss Statuten bzw. nach anerkanntem Rechnungslegungsstandard
+- text: 'Negatives oder hälftig nicht mehr gedecktes Eigenkapital: Kapitalverlust/Überschuldung (Art. 725a/725b OR) mit Going Concern (A1-205) und Prüffeld Eigenkapital/Darlehen verknüpfen;
+    Beurteilung durch WP.'
   quelle: or__art-725b-t1
   zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+- text: Rangrücktritte ersetzen den Zwischenabschluss (Fortführungs- und Veräusserungswerte) nicht; ein Verzicht auf einen erneuten Zwischenabschluss ist nur nach individueller Risikobeurteilung
+    im Einzelfall möglich (Entscheid WP).
+  quelle: hwp-er-2026__rz-0423-s125-t2
+  zitat: Art. 725 b OR sieht keine solche Erleichterung vor.
+- text: 'Formulierungen wie «Überschuldung durch Rangrücktritte behoben» sind fachlich unzutreffend: Der Rangrücktritt dispensiert nur von der Anzeige an das Gericht; Anhangstext entsprechend
+    kritisch lesen.'
+  quelle: hwp-er-2026__rz-0405-s122
+  zitat: Ein Rangrücktritt dispensiert lediglich von der Überschuldungsanzeige an das Gericht.
+- text: 'Tilgung oder Verrechnung rangrücktrittsbelasteter Forderungen (inkl. Zinsen) trotz andauernder Überschuldung: Hinweis nach Art. 729c OR erwägen, Auswirkung auf Prüfungsaussage
+    und erneute Deckung prüfen (Entscheid WP).'
+  quelle: hwp-er-2026__rz-0434-s128
+  zitat: dass dem Rangrücktritt unterstellte Forderungen trotz andauernder Überschuldung ganz oder teilweise ge
+- text: 'Rangrücktritt nicht nur formell prüfen: Bonität des Rangrücktrittsgläubigers beurteilen (Anfechtungsrisiko im Konkurs des Gläubigers).'
+  quelle: hwp-er-2026__rz-0432-s127
+  zitat: Dies beinhaltet auch die Beurteilung der Bonität des Rangrücktrittgläubigers
+- text: Der Zusatz zur Überschuldung ist unabhängig von vorhandenen Rangrücktritten anzubringen (HWP ER zur Berichterstattung über Zwischenabschlüsse; die JR gilt als Zwischenabschluss
+    zu Fortführungswerten, SER Ziff. 9) – Entscheid WP.
+  quelle: hwp-er-2026__rz-0477-s292
+  zitat: unabhängig von eventuell vorhandenen Rangrücktritten
 - text: Protokolle nur auf Auswirkungen auf Jahresrechnung/Antrag lesen; die Geschäftsführung des VR ist nicht Prüfungsgegenstand.
   quelle: or__art-729a
   zitat: Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.
-- text: 'Befragungsschritte (1xx) kann der Agent nicht selbst führen: nur schriftliche Antworten auswerten, sonst Pendenz; VE nie selbst «unterzeichnen lassen», Visum bleibt beim WP.'
+- text: 'Befragungsschritte (1xx) kann der Agent nicht selbst führen: nur schriftliche Antworten auswerten, sonst Pendenz; Status höchstens «teilweise bearbeitet»; VE nie selbst «unterzeichnen
+    lassen», Visum bleibt beim WP.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- text: 'Der Agent fordert nichts direkt beim Kunden an: Fragen und fehlende Unterlagen als Pendenz bzw. PBC-Vorschlag erfassen, die Anforderung macht der Mensch.'
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Anforderung beim Kunden durch den Menschen
+- text: Sonstige Schritte (4xx, hier Geldflussrechnung) nur auf Anweisung des WP bearbeiten.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- text: '«nicht anwendbar» ist kein Agentenstatus: Status «nicht bearbeitet» mit Begründung «Vorschlag: nicht anwendbar …», Entscheid WP.'
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - text: Gesamtbeurteilung, Wesentlichkeitsurteil und Auswirkung auf die Prüfungsaussage (A1-2xx) sind Ermessensentscheide des WP; der Agent liefert nur Analysen und Hinweise.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Kein Visum, kein ✓, keine Abschliessende Beurteilung
 fragen_kunde:
 - frage: 'Wurden gegenüber dem Vorjahr die Darstellung (Gliederung, Bezeichnungen, Kontenzuordnung) oder Bewertungsgrundsätze/-methoden (z.B. Abschreibungsmethode, Vorrats- oder Auftragsbewertung)
     geändert? Falls ja: warum, und wo im Anhang dargelegt?'
   zweck: A1-101 Stetigkeit; Pendenz bis schriftliche Antwort vorliegt
 - frage: Welche wesentlichen positiven oder negativen Ereignisse sind seit dem Bilanzstichtag eingetreten (z.B. Verluste, Rechtsfälle, Finanzierung, Grossaufträge, Kapitalmassnahmen)
-    und wie wurden sie gebucht bzw. im Anhang offengelegt?
-  zweck: A1-102 Ereignisse nach dem Bilanzstichtag
+    und wie wurden sie gebucht bzw. im Anhang offengelegt? Beeinträchtigt eines davon die Fortführung?
+  zweck: A1-102 Ereignisse nach dem Bilanzstichtag; Verknüpfung A1-205
 - frage: Wer unterzeichnet Jahresrechnung und Vollständigkeitserklärung, an welchem Datum wird die Jahresrechnung durch den VR genehmigt, und sind mandatsspezifische Ergänzungen der
     Vollständigkeitserklärung nötig?
   zweck: A1-103, A1-301; Berichtsdatum
-- frage: Wie beurteilt die Unternehmensleitung die Fortführungsfähigkeit für mindestens zwölf Monate ab Bilanzstichtag (Budget, Liquiditätsplanung, Kreditlimiten, Rangrücktritte, Massnahmen)?
+- frage: Wie beurteilt die Unternehmensleitung die Fortführungsfähigkeit für mindestens zwölf Monate ab Bilanzstichtag (schriftliche Einschätzung, Budget, Liquiditätsplanung, Kreditlimiten,
+    Rangrücktritte, Massnahmen)?
   zweck: A1-205 Going Concern
+- frage: Liegen für alle nachrangigen Darlehen unterzeichnete, unbefristete Rangrücktrittserklärungen vor, die Kapital und Zinsen umfassen und eine Stundung enthalten? Wurden Rangrücktritte
+    im Geschäftsjahr oder seither ersetzt, reduziert oder aufgehoben, oder rangrücktrittsbelastete Darlehen bzw. Zinsen getilgt oder verrechnet?
+  zweck: A1-205 Deckung der Überschuldung
+- frage: Wurde wegen der Überschuldung ein Zwischenabschluss zu Veräusserungswerten erstellt, und welche Massnahmen zur Beseitigung von Kapitalverlust bzw. Überschuldung hat der VR beschlossen?
+  zweck: A1-205 Art. 725a/725b OR
 - frage: Gab es im Geschäftsjahr wesentliche Veränderungen in Tätigkeit und Umfeld (Produkte, Kunden, Personalbestand, Standorte, Finanzierung), welche die Veränderungen in Bilanz und
     Erfolgsrechnung erklären?
   zweck: A1-201 Gesamtanalytik
@@ -302,36 +472,46 @@ fragen_kunde:
   zweck: A1-203 nicht korrigierte Fehler; Schlussbesprechung
 - frage: Liegen alle Protokolle der GV und der VR-Sitzungen des Geschäftsjahres und bis heute vor (inkl. Zirkularbeschlüsse)?
   zweck: A1-304
-- frage: Wurde im Geschäftsjahr ein Zwischenabschluss für eine Zwischendividende erstellt oder ist eine Zwischendividende geplant?
+- frage: 'Wurde im Geschäftsjahr ein Zwischenabschluss für eine Zwischendividende erstellt oder ist eine geplant? Falls ja: Wurde er geprüft oder haben sämtliche Aktionäre der Ausrichtung
+    zugestimmt?'
   zweck: A1-208
 - frage: Wird eine Geldflussrechnung erstellt (gesetzlich, statutarisch, auf Verlangen von Kreditgebern oder freiwillig) und welcher Fonds wird verwendet?
   zweck: A1-305, A1-401, A1-402 Anwendbarkeit
 testakte_2025:
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: Prüfgegenstand für A1-101 (Anhang Ziff. 1 Grundsätze, Ziff. 4 Bewertung), A1-102 (Anhang Ziff. 6 Ereignisse nach dem Bilanzstichtag), A1-201/202/204/205/206/207, A1-301 (Unterschriftsblock
-    S. 7), A1-303, A1-305, A1-306 (Gliederung Bilanz/ER), A1-307 (Jahresergebnis in ER und EK)
+  bezug: Prüfgegenstand für A1-101 (Anhang Ziff. 1 Grundsätze, Ziff. 4 Bewertung), A1-102 (Anhang Ziff. 6 Ereignisse nach dem Bilanzstichtag), A1-201/202/206/207, A1-204 (Anhang Ziff.
+    4a POC «in Anlehnung an Swiss GAAP» → Besonderheiten Art. 958c Abs. 3 OR), A1-205 (Total Eigenkapital negativ; Anhang Ziff. 2 Darlehen nahestehender Parteien A/B/D/E mit Rangrücktritt;
+    Ziff. 6 Überschuldung «durch Rangrücktritte gedeckt», Risiko Überschuldung und knapper Liquidität), A1-301 (Unterschriftsblock S. 7), A1-303, A1-305, A1-306, A1-307
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: A1-201 Vorjahresvergleich (Spalten 31.12.2025/31.12.2024/Veränderung, Blätter Bilanz und ER), A1-206, A1-302 (Vorjahressaldi), A1-303 (Konto→Position, Total Aktiven/Passiven)
+  bezug: A1-201 Vorjahresvergleich (Spalten 31.12.2025/31.12.2024/Veränderung, Blätter Bilanz und ER), A1-205 (Total Aktiven vs. Verbindlichkeiten; Konten 2450–2455 Aktionärsdarlehen
+    A/B/D/E für Abgleich mit Rangrücktritten), A1-206, A1-302 (Vorjahressaldi), A1-303 (Konto→Position, Total Aktiven/Passiven)
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
-  bezug: 'A1-302 (Blatt «Inhalt»: Eröffnung und Schlusssaldo je Bilanzkonto), A1-303 (Schlusssalden), A1-307 (Konten 2970/2979)'
+  bezug: 'A1-302 (Blatt «Inhalt»: Eröffnung und Schlusssaldo je Bilanzkonto), A1-303 (Schlusssalden), A1-307 (Konten 2970/2979), A1-205 (Kontoblätter 2450–2455 und 2170 Zinsen unter
+    Rangrücktritt: Bewegungen 2025, Tilgung/Verrechnung trotz Rangrücktritt?)'
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
   bezug: 'A1-201 (Tätigkeit, Umfeld, Mitarbeitende), A1-301/A1-304 (Organe: VR-Präsident, Leitung Finanzen), A1-401/402 (Revisionsart für Anwendbarkeit Geldflussrechnung)'
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
-  bezug: A1-102 Ereignisse/Buchungen nach dem Bilanzstichtag
+  bezug: A1-102 Ereignisse/Buchungen nach dem Bilanzstichtag; A1-205 Zahlungen auf rangrücktrittsbelastete Darlehen/Zinsen nach Stichtag
 - datei: 00_Allgemein/Belegverzeichnis.md
-  bezug: Übersicht vorhandener PBC-Unterlagen; Abgleich für A1-103 (VE), A1-302 (Vorjahres-JR), A1-304 (Protokolle), A1-308 (Nachweis stille Reserven) – fehlende Unterlagen als Pendenz
+  bezug: Übersicht vorhandener PBC-Unterlagen; Abgleich für A1-103 (VE), A1-205 (Liquiditätsplanung/Budget, Zwischenabschluss zu Veräusserungswerten, Rangrücktritte je Darlehen), A1-302
+    (Vorjahres-JR), A1-304 (Protokolle), A1-308 (Nachweis stille Reserven) – fehlende Unterlagen als Pendenz
 - datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
   bezug: A1-304 (Genehmigung JR Vorjahr, Verwendung Bilanzverlust Vorjahr, Wahlen), A1-302 (Gewinnverwendung Vorjahr im Eigenkapital)
 - datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
-  bezug: A1-304 (Kapitalmassnahme mit Auswirkung auf JR), A1-205
+  bezug: A1-304 (Kapitalmassnahme mit Auswirkung auf JR), A1-205 (Sanierungsmassnahme 2025)
 - datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
   bezug: A1-305 (Antrag vorhanden), A1-307 (Abstimmung Jahresergebnis/Bilanzergebnis mit JR)
 - datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
-  bezug: A1-205 Going Concern/Überschuldung (ebenso Rangruecktritt_Aktionaer_B.md und _D.md)
+  bezug: 'A1-205 Überschuldung: Rangrücktritt A (Betrag samt Zinsen, Stundung, Dauer) gegen Darlehen und Überschuldung abgleichen; ebenso Rangruecktritt_Aktionaer_D.md'
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_B.md
+  bezug: 'A1-205: Erklärung ersetzt frühere Erklärung und reduziert den Rangrücktritt → Reduktion gegen die Ausnahmen (HWP ER Rz 425) und die Deckung der Überschuldung prüfen'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
+  bezug: 'A1-205: Darlehensverträge A/B/D/E (ebenso _B, _D, _E): Abgleich Darlehen ↔ Rangrücktritt (E ohne Rangrücktritt-Dokument → Pendenz), Höhe inkl. Zinsen vs. Überschuldung, Veränderung
+    2024→2025 (Tilgung trotz Rangrücktritt?)'
 schritte:
 - id: A1-101
-  vorgehen: 'Agent befragt nicht selbst: Frage zu Änderungen von Darstellung und Bewertungsgrundsätzen als Pendenz an den Kunden. Vorab Gliederung, Positionsbezeichnungen und Anhang
-    (Grundsätze, Bewertung) der aktuellen JR mit der Vorjahres-JR vergleichen und Abweichungen auflisten. Schriftliche Antwort und Vergleich im Textfeld dokumentieren; Status höchstens
+  vorgehen: 'Agent befragt nicht selbst: Frage zu Änderungen von Darstellung und Bewertungsgrundsätzen als Pendenz erfassen; Anforderung beim Kunden durch den Menschen. Vorab Gliederung,
+    Positionsbezeichnungen und Anhang (Grundsätze, Bewertung) mit der Vorjahres-JR vergleichen und Abweichungen auflisten. Schriftliche Antwort und Vergleich im Textfeld; Status höchstens
     «teilweise bearbeitet».'
   nachweise:
   - Jahresrechnung inkl. Anhang laufendes Jahr
@@ -344,27 +524,42 @@ schritte:
     zitat: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze
   - quelle: hwp-bur-2023__rz-0059-s070
     zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Anforderung beim Kunden durch den Menschen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: A1-102
-  vorgehen: Schriftliche Antworten zu Ereignissen nach dem Bilanzstichtag (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten. Prüfen, ob Ereignisse
-    mit Ursache vor dem Stichtag gebucht und übrige wesentliche Ereignisse im Anhang mit Art und geschätzter Auswirkung offengelegt sind. Fehlende Antwort als Pendenz.
+  vorgehen: 'Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten; fehlende Antwort als Pendenz. Prüfen: Ereignisse mit
+    Ursache vor Stichtag gebucht, übrige wesentliche im Anhang mit Art und geschätzter Auswirkung. Ereignisse auf Auswirkung auf die Fortführung prüfen (Verknüpfung A1-205). Status höchstens
+    «teilweise bearbeitet».'
   nachweise:
   - Anhang (Ereignisse nach dem Bilanzstichtag)
   - Kontoblätter/Journale Folgeperiode
   - Protokolle nach Stichtag
   - Vollständigkeitserklärung
+  - schriftliche Antwort der Unternehmensleitung
   rechnen: ''
-  feststellung_wenn: Wesentliches Ereignis nach dem Stichtag weder gebucht (Ursache vor Stichtag) noch im Anhang offengelegt bzw. ohne Angabe der finanziellen Auswirkung.
+  feststellung_wenn: Wesentliches Ereignis nach Stichtag weder gebucht (Ursache vor Stichtag) noch im Anhang mit finanzieller Auswirkung offengelegt, oder Ereignis stellt die Fortführung
+    in Frage.
   fundstellen:
   - quelle: ser-2022__anh-d-s100-1
     zitat: Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offengelegt?
   - quelle: or__art-959c-t2
     zitat: wesentliche Ereignisse nach dem Bilanzstichtag
   - quelle: hwp-bur-2023__rz-0861-s353
+    zitat: Besteht die Ursache für ein Ereignis bereits am Bilanzstichtag, so ist das Ereignis in der Jahresrechnung des abgelaufenen Geschäftsjahres buchungspflichtig
+  - quelle: hwp-bur-2023__rz-0861-s353
     zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+  - quelle: hwp-bur-2023__rz-0861-s353
+    zitat: Eine Ausnahme dazu besteht, wenn das Ereignis nach dem Bilanzstichtag dazu führt, dass die Fortführungsfähigkeit des Unternehmens nicht mehr gegeben ist.
+  - quelle: ser-2022__anh-g-s141-1
+    zitat: Beurteilung der Ereignisse nach dem Bilanzstichtag, um Risiken zu identifizieren
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: höchstens «teilweise bearbeitet»
 - id: A1-103
-  vorgehen: 'VE-Entwurf nach SER Anhang E vorbereiten (an Revisionsstelle adressiert; mandatsspezifische Punkte z.B. Fortführung, Ereignisse nach Stichtag, Nahestehende) und als Pendenz
-    zur Besprechung/Unterzeichnung erfassen. Unterzeichnete VE in M-Files suchen; prüfen: datiert auf Berichtsdatum, unterzeichnet von denselben Personen wie die JR. Besprechung führt
-    der WP.'
+  vorgehen: 'VE-Entwurf nach SER Anhang E vorbereiten (an Revisionsstelle adressiert; mandatsspezifische Punkte z.B. Fortführung, Rangrücktritte, Ereignisse nach Stichtag, Nahestehende)
+    und als Pendenz erfassen. Unterzeichnete VE in M-Files suchen; prüfen: datiert auf Berichtsdatum, von denselben Personen wie die JR unterzeichnet. Besprechung führt der WP; Status
+    höchstens «teilweise bearbeitet».'
   nachweise:
   - Vollständigkeitserklärung (unterzeichnet, datiert)
   - unterzeichnete Jahresrechnung
@@ -379,6 +574,8 @@ schritte:
     zitat: Eine Weigerung der Unternehmensleitung, eine nach Auffassung des Abschlussprüfers notwendige Erklärung abzugeben, führt zu einer Beschränkung des Prüfungsumfangs.
   - quelle: or__art-730b
     zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: höchstens «teilweise bearbeitet»
 - id: A1-201
   vorgehen: Saldoliste Bilanz/ER mit Vorjahr vergleichen (absolute und relative Veränderungen, Kennzahlen wie Bruttomarge, Personalaufwand/Ertrag, Eigenkapitalquote, Liquidität) und
     mit den Kenntnissen zu Tätigkeit und Umfeld (Dauerakten, Planung) abgleichen. Unerklärte wesentliche Abweichungen im Textfeld auflisten und als Frage/Pendenz erfassen; Gesamturteil
@@ -413,8 +610,8 @@ schritte:
     zitat: Die analytischen Prüfungshandlungen können in der Phase der abschliessenden Durchsicht der Jahresrechnung ein vorher unerkanntes Risiko einer wesentlichen Fehlaussage aufzeigen.
 - id: A1-203
   vorgehen: Alle Fehlaussagen über der Nichtaufgriffsgrenze aus den Prüffeldern (Wesentliche Feststellungen) in einer Zusammenstellung mit Wirkung auf Ergebnis, Eigenkapital und Bilanzsumme
-    kumulieren und mit der Gesamtwesentlichkeit vergleichen. Korrekturvorschläge und Information der Unternehmensleitung als Schlussbesprechungs-Notiz vorbereiten; Auswirkung auf den
-    Bericht beurteilt der WP.
+    kumulieren und mit der Gesamtwesentlichkeit vergleichen. Korrekturvorschläge als Schlussbesprechungs-Notiz vorbereiten; die Information der Unternehmensleitung und die Beurteilung
+    der Auswirkung auf den Bericht macht der WP.
   nachweise:
   - Zusammenstellung der Fehlaussagen
   - Wesentlichkeitsberechnung aus der Planung
@@ -425,63 +622,102 @@ schritte:
   fundstellen:
   - quelle: ser-2022__anh-d-s072-2
     zitat: Beurteilung der Auswirkung nicht korrigierter Fehler – sowohl einzeln als auch zusammengenommen.
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Information der Unternehmensleitung über die Fehler; Feststellung von deren Auswirkung auf den Prüfungsbericht
   - quelle: ser-2022__5-3
     zitat: Während der Prüfung festgestellte Fehlaussagen werden laufend in einer Zusammenstellung nachgeführt
+  - quelle: ser-2022__5-3
+    zitat: In der Regel macht der Abschlussprüfer der Unternehmensleitung den Vorschlag, die in seiner Zusammenstellung festgehaltenen Fehlaussagen zu korrigieren.
   - quelle: hwp-er-2026__rz-0053-s189
     zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
   - quelle: hwp-er-2026__rz-0054-s189
     zitat: Werden keine Korrekturen vorgenommen, beurteilt der Abschlussprüfer, ob die Jahresrechnung dadurch wesentlich falsch dargestellt ist.
 - id: A1-204
-  vorgehen: 'Checkliste Art. 958a–958d OR anhand JR, Anhang und Saldoliste abarbeiten: Fortführung, zeitliche/sachliche Abgrenzung, Klarheit, Vollständigkeit, Verlässlichkeit, Wesentlichkeit,
-    Vorsicht, Stetigkeit, Verrechnungsverbot, Vorjahreszahlen, Währung, Sprache. Je Grundsatz Ergebnis mit Fundstelle im Textfeld; Hinweise auf Verstösse mit Konto/Betrag.'
+  vorgehen: 'Checkliste Art. 958a–958d OR anhand JR, Anhang und Saldoliste: Fortführung, Abgrenzung, Klarheit, Vollständigkeit, Verlässlichkeit, Wesentlichkeit, Vorsicht, Stetigkeit,
+    Verrechnungsverbot, Besonderheiten von Unternehmen und Branche (Art. 958c Abs. 3 OR, z.B. Auftragsbewertung), Vorjahreszahlen, Währung, Sprache. Je Grundsatz Ergebnis mit Fundstelle
+    im Textfeld; Hinweise auf Verstösse mit Konto/Betrag.'
   nachweise:
   - Jahresrechnung inkl. Anhang
   - Saldoliste
   - Kontenplan
   rechnen: Konten mit Gegensaldo innerhalb einer Position auflisten (Aktivkonto mit Habensaldo, Passivkonto mit Sollsaldo) als Indiz für Verrechnung
-  feststellung_wenn: Verstoss gegen Grundlage oder Grundsatz mit wesentlichem Einfluss (z.B. Verrechnung, fehlende Vorjahreszahlen, fehlende Abgrenzung, nicht stetige Darstellung).
+  feststellung_wenn: Verstoss gegen Grundlage oder Grundsatz mit wesentlichem Einfluss (z.B. Verrechnung, fehlende Vorjahreszahlen, fehlende Abgrenzung, nicht stetige Darstellung, Besonderheiten
+    der Branche nicht berücksichtigt).
   fundstellen:
   - quelle: ser-2022__anh-d-s072-2
     zitat: Sind die Grundsätze ordnungsmässiger Rechnungslegung gemäss Art. 958c OR eingehalten?
   - quelle: ser-2022__anh-d-s072-2
     zitat: Sind die Bestimmungen von Art. 958d OR eingehalten?
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: Entspricht die Rechnungslegung unter Wahrung des gesetzlichen Mindestinhalts den Besonderheiten des Unternehmens und der Branche (Art. 958c Abs. 3 OR)?
   - quelle: hwp-er-2026__rz-0386-s270-t1
     zitat: neben den Grundlagen der Rechnungslegung (Annahme der Fortführung, zeitliche und sachliche Abgrenzung)
   - quelle: hwp-er-2026__rz-0386-s270-t1
     zitat: Verstösse gegen diese Rechnungslegungsvorschriften mit wesentlichem Einfluss auf die Jahresrechnung führen zu einer modifizierten Prüfungsaussage.
 - id: A1-205
-  vorgehen: Indikatoren aus JR/Saldoliste auswerten (Jahresverlust, negatives oder hälftig ungedecktes EK, Liquidität, Fälligkeiten, Rangrücktritte). Einschätzung der Unternehmensleitung
-    (Budget, Liquiditätsplan ≥ 12 Monate) in M-Files suchen, sonst Pendenz. Anhangsangaben zu Fortführung/Unsicherheiten prüfen. Kapitalverlust/Überschuldung als Wesentliche Feststellung
-    an WP.
+  vorgehen: 'Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan) und Anhangsangaben prüfen, fehlt sie: Pendenz. Bei
+    Aktiven < Verbindlichkeiten: Rangrücktritte mit Darlehensverträgen/Saldoliste abgleichen (Betrag inkl. Zinsen, Stundung, keine Tilgung/Reduktion, Bonität), Zwischenabschluss zu Veräusserungswerten
+    suchen, sonst Pendenz. Ergebnis als Notiz; Bericht/Anzeige entscheidet der WP.'
   nachweise:
   - Jahresrechnung inkl. Anhang
   - Saldoliste
-  - Budget/Liquiditätsplanung
-  - Rangrücktrittserklärungen
-  - Protokolle VR/GV
+  - Einschätzung Fortführungsfähigkeit (≥ 12 Monate), Budget/Liquiditätsplanung
+  - Rangrücktrittserklärungen und Darlehensverträge
+  - Kontoblätter Darlehen und Zinsen (Tilgungen, Verrechnungen)
+  - Zwischenabschluss zu Veräusserungswerten (falls überschuldet)
+  - Protokolle VR/GV (Sanierungsmassnahmen)
   - Vollständigkeitserklärung
-  rechnen: 'Kapitalverlust: (Aktiven − Verbindlichkeiten) < 50 % × (Aktienkapital + nicht rückzahlbare gesetzliche Kapitalreserve + gesetzliche Gewinnreserve); Überschuldungsindiz: Aktiven
-    < Verbindlichkeiten; EK-Quote = Eigenkapital / Bilanzsumme'
-  feststellung_wenn: Hinweise auf erhebliche Zweifel an der Fortführung, Kapitalverlust oder begründete Besorgnis einer Überschuldung, oder fehlende/ungenügende Anhangsangaben zu wesentlichen
-    Unsicherheiten.
+  rechnen: 'Überschuldung = Verbindlichkeiten (inkl. rangrücktrittsbelasteter Darlehen und Zinsen) − Aktiven zu Fortführungswerten; Deckung = Σ Rangrücktritte (Kapital + aufgelaufene
+    Zinsen) − Überschuldung ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); Kapitalverlust: (Aktiven − Verbindlichkeiten)
+    < 50 % × (Aktienkapital + nicht rückzahlbare gesetzliche Kapitalreserve + gesetzliche Gewinnreserve); EK-Quote = Eigenkapital / Bilanzsumme'
+  feststellung_wenn: Erhebliche Zweifel an der Fortführung ohne Anhangsangabe, Einschätzung fehlt/< 12 Monate, Kapitalverlust, Überschuldung ohne genügende Rangrücktritte inkl. Zinsen,
+    Reduktion/Tilgung trotz Überschuldung.
   fundstellen:
   - quelle: ser-2022__anh-d-s072-1
     zitat: Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird
+  - quelle: ser-2022__anh-g-s138-2
+    zitat: negatives Nettoumlaufvermögen, drohende Zahlungsunfähigkeit, Kapitalverlust oder Überschuldung
+  - quelle: ser-2022__anh-g-s138-1
+    zitat: Die Unternehmensleitung hat die Einschätzung der Fortführungsfähigkeit für einen Zeitraum von mindestens zwölf Monaten ab dem Bilanzstichtag vorzunehmen
   - quelle: hwp-er-2026__rz-0187-s223
     zitat: Der Abschlussprüfer hat zu beurteilen, ob die Einschätzung der Unternehmensleitung mit der Prämisse der Fortführung der Unternehmenstätigkeit zu vereinbaren ist
   - quelle: ser-2022__anh-g-s140-1
     zitat: Liegt keine Einschätzung der Unternehmensleitung zur Fortführungsfähigkeit vor, bespricht der Abschlussprüfer mit der Unternehmensleitung die Gründe
+  - quelle: ser-2022__anh-g-s140-1
+    zitat: fordert er die Unternehmensleitung zu einer detaillierteren und schriftlich dokumentierten Einschätzung auf
   - quelle: or__art-725a
     zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+  - quelle: or__art-725b-t1
+    zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+  - quelle: or__art-725b-t1
+    zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist und der Zwischenabschluss zu Fortführungswerten keine
+      Überschuldung aufweist.
+  - quelle: hwp-er-2026__rz-0420-s125
+    zitat: Gemäss Art. 725b Abs. 4 OR hat der Rangrücktritt mindestens im Ausmass der Überschuldung zu erfolgen.
+  - quelle: hwp-er-2026__rz-0405-s122
+    zitat: Ein Rangrücktritt dispensiert lediglich von der Überschuldungsanzeige an das Gericht.
+  - quelle: hwp-er-2026__rz-0434-s128
+    zitat: dass dem Rangrücktritt unterstellte Forderungen trotz andauernder Überschuldung ganz oder teilweise ge
+  - quelle: hwp-er-2026__rz-0432-s127
+    zitat: Dies beinhaltet auch die Beurteilung der Bonität des Rangrücktrittgläubigers
+  - quelle: ser-2022__9-t2
+    zitat: Ergibt sich aus der eingeschränkten Revision eine Überschuldung, so wird diese im Revisionsbericht festgehalten; zusätzlich werden die Organe auf ihre gesetzlichen Pflichten
+      aufmerksam gemacht.
+  - quelle: or__art-729c
+    zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  - quelle: ser-2022__anh-g-s141-1
+    zitat: In diesem Fall ist ein Zusatz im Revisionsbericht anzubringen, in dem die wesentlichen Unsicherheiten kurz beschrieben werden
+  - quelle: ser-2022__anh-g-s141-2
+    zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
 - id: A1-206
   vorgehen: Saldoliste auf wesentliche Konten prüfen, die in Sammelpositionen aufgehen, und Bilanz/ER/Anhang auf gesondert auszuweisende Positionen (u.a. Forderungen/Verbindlichkeiten
-    gegenüber Beteiligten und Organen, ausserordentliche/periodenfremde Posten, branchenübliche Positionen). Fehlende Ausweise mit Konto und Betrag im Textfeld.
+    gegenüber Beteiligten und Organen, ausserordentliche/periodenfremde Posten, branchenübliche Positionen, Rangrücktritte). Fehlende Ausweise mit Konto und Betrag im Textfeld.
   nachweise:
   - Saldoliste
   - Jahresrechnung inkl. Anhang
   - Verträge mit Nahestehenden
   rechnen: Anteil Konto bzw. Sammelposition an Bilanzsumme oder Betriebsertrag als Wesentlichkeitsindiz
-  feststellung_wenn: Wesentliche Position (z.B. Nahestehende, Darlehen, ausserordentliche Posten) weder in Bilanz/ER noch im Anhang gesondert ausgewiesen.
+  feststellung_wenn: Wesentliche Position (z.B. Nahestehende, Darlehen mit Rangrücktritt, ausserordentliche Posten) weder in Bilanz/ER noch im Anhang gesondert ausgewiesen.
   fundstellen:
   - quelle: ser-2022__anh-d-s072-2
     zitat: Werden die für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens notwendigen zusätzlichen Positionen
@@ -489,6 +725,8 @@ schritte:
     zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
   - quelle: or__art-959b-t2
     zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+  - quelle: hwp-er-2026__rz-0430-s127
+    zitat: muss deshalb in der Jahresrechnung des Schuldners (in der Bilanz oder im Anhang) ausgewiesen und erläutert werden
 - id: A1-207
   vorgehen: 'Aus den Prüffeldern Hinweise auf Bildung/Auflösung stiller Reserven sammeln (Wertberichtigungen, Abschreibungen über betriebswirtschaftlichem Mass, Rückstellungen) und Veränderung
     zum Vorjahr plausibilisieren. Bei Nettoauflösung mit bereinigtem Jahresergebnis vergleichen und Anhangsangabe prüfen. Methode unklar: Pendenz.'
@@ -507,14 +745,17 @@ schritte:
   - quelle: hwp-bur-2023__rz-0675-s298
     zitat: Wird das erwirtschaftete Ergebnis durch die Auflösung der stillen Reserven wesentlich günstiger dargestellt, ist der Nettobetrag aus Reservenauflösung im Anhang offenzulegen
 - id: A1-208
-  vorgehen: 'Nur relevant bei Zwischenabschluss für eine Zwischendividende (Protokolle, Antrag VR prüfen); sonst «nicht anwendbar» mit Begründung. Falls vorhanden: Bezeichnung als Zwischenabschluss,
-    Überschriften/Zwischensummen der letzten JR, Anhangsangaben (Zweck, Vereinfachungen, Abweichungen) und Unterzeichnung prüfen.'
+  vorgehen: 'Nur relevant bei Zwischenabschluss für eine Zwischendividende (Protokolle, Antrag VR); sonst Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (kein Zwischenabschluss)»,
+    Entscheid WP. Falls vorhanden: Prüfpflicht bzw. Verzicht (Zustimmung aller Aktionäre belegen, sonst Pendenz), Bezeichnung, Überschriften/Zwischensummen der letzten JR, Anhangsangaben
+    und Unterzeichnung prüfen.'
   nachweise:
   - Zwischenabschluss
   - GV-Beschluss Zwischendividende
+  - Zustimmung sämtlicher Aktionäre (bei Verzicht auf Prüfung)
   - letzte genehmigte Jahresrechnung
   rechnen: ''
-  feststellung_wenn: Zwischenabschluss ohne Mindestgliederung der letzten JR oder Anhangsangaben, oder Vereinfachungen beeinträchtigen die Darstellung des Geschäftsgangs.
+  feststellung_wenn: Zwischenabschluss ohne Mindestgliederung der letzten JR oder Anhangsangaben, Vereinfachungen beeinträchtigen den Geschäftsgang, oder Verzicht auf Prüfung ohne Zustimmung
+    aller Aktionäre.
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Feststellung, ob die Vereinfachungen und Verkürzungen bei der Erstellung eines Zwischenabschlusses nach Art. 960f OR für den Zweck einer Zwischendividende
@@ -522,6 +763,12 @@ schritte:
     zitat: Es sind mindestens die Überschriften und Zwischensummen auszuweisen, die in der letzten Jahresrechnung enthalten sind.
   - quelle: or__art-675a
     zitat: Die Revisionsstelle muss den Zwischenabschluss vor dem Beschluss der Generalversammlung prüfen.
+  - quelle: or__art-675a
+    zitat: Keine Prüfung ist erforderlich, wenn die Gesellschaft ihre Jahresrechnung nicht durch eine Revisionsstelle eingeschränkt prüfen lassen muss.
+  - quelle: or__art-675a
+    zitat: Auf die Prüfung kann verzichtet werden, wenn sämtliche Aktionäre der Ausrichtung der Zwischendividende zustimmen
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: A1-301
   vorgehen: 'Unterzeichnete JR in M-Files suchen; prüfen, ob der Vorsitzende des VR und die für die Rechnungslegung zuständige Person (gemäss HR-Auszug/Unternehmensinfo) mit Datum unterzeichnet
     haben. Fehlt die Unterzeichnung: Pendenz. Unterzeichnungsdatum als frühestes Berichtsdatum im Textfeld festhalten.'
@@ -571,8 +818,8 @@ schritte:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung der Totale von Aktiven und Passiven
 - id: A1-304
-  vorgehen: 'GV- und VR-Protokolle des Geschäftsjahres und bis zum Prüfungszeitpunkt in M-Files suchen und lesen; Sachverhalte mit JR-Wirkung (Kapitalmassnahmen, Darlehen, Rechtsfälle,
-    Investitionen, Ausschüttungen) mit Verweis auf das Prüffeld auflisten. Prüfen: Genehmigung letzte JR innert 6 Monaten, Wahl Revisionsstelle, Beschluss Verwendung Bilanzgewinn/-verlust,
+  vorgehen: 'GV- und VR-Protokolle des Geschäftsjahres und bis zum Prüfungszeitpunkt in M-Files suchen und lesen; Sachverhalte mit JR-Wirkung (Kapitalmassnahmen, Darlehen, Rangrücktritte,
+    Rechtsfälle, Investitionen, Ausschüttungen) mit Verweis auf das Prüffeld auflisten. Prüfen: Genehmigung letzte JR innert 6 Monaten, Wahl Revisionsstelle, Beschluss Verwendung Bilanzgewinn/-verlust,
     Unterzeichnung JR. Fehlende Protokolle: Pendenz.'
   nachweise:
   - GV-Protokolle (ordentlich/ausserordentlich)
@@ -592,7 +839,8 @@ schritte:
     zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
 - id: A1-305
   vorgehen: Prüfen, ob die JR Bilanz, Erfolgsrechnung und Anhang enthält; Geldflussrechnung nur bei ordentlicher Revisionspflicht bzw. statutarisch/nach Standard verlangt; Antrag über
-    die Verwendung des Bilanzgewinns als separates Dokument. Fehlende Bestandteile mit Fundstelle im Textfeld; Anhang-Detail im Prüffeld Anhang.
+    die Verwendung des Bilanzgewinns (gesetzlicher Prüfungsgegenstand, Art. 729a Abs. 1 Ziff. 2 OR) als separates Dokument. Fehlende Bestandteile mit Fundstelle im Textfeld; Anhang-Detail
+    im Prüffeld Anhang.
   nachweise:
   - Jahresrechnung
   - Antrag VR Verwendung Bilanzgewinn
@@ -605,7 +853,11 @@ schritte:
   - quelle: ser-2022__1-6-t1
     zitat: Zu prüfen sind einzig die Gesetzes- und Statutenkonformität der Jahresrechnung oder eines allfälligen Zwischenabschlusses (Bilanz, Erfolgsrechnung und Anhang)
   - quelle: or__art-961
-    zitat: als Teil der Jahresrechnung eine Geldflussrechnung erstellen
+    zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind
+  - quelle: hwp-er-2026__rz-0365-s266
+    zitat: Es ist darauf zu achten, dass nur jene Teile genannt werden, welche gesetzlich oder gemäss Statuten bzw. nach anerkanntem Rechnungslegungsstandard
+  - quelle: or__art-729a
+    zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - id: A1-306
   vorgehen: Gliederung der Bilanz mit Art. 959a Abs. 1/2 OR (Positionen, Reihenfolge nach Liquidität bzw. Fälligkeit, Umlauf-/Anlagevermögen, kurz-/langfristiges Fremdkapital, Eigenkapital)
     und der ER mit Art. 959b OR (Produktions- oder Absatzerfolgsrechnung) abgleichen; bei Absatzerfolgsrechnung Anhangsangaben prüfen. Abweichungen im Textfeld.
@@ -625,7 +877,7 @@ schritte:
     zitat: die Bestimmungen über die Mindestgliederung nicht eingehalten sind (Art. 959a und 959b OR)
 - id: A1-307
   vorgehen: Jahresgewinn/-verlust in Erfolgsrechnung, Eigenkapital und im Antrag des VR über die Verwendung des Bilanzgewinns abstimmen; Bilanzgewinn/-verlust = Vortrag + Jahresergebnis
-    nachrechnen. Gesetzeskonformität des Antrags (Reservenzuweisung, Ausschüttbarkeit) als Hinweis an den WP bzw. Prüffeld Eigenkapital.
+    nachrechnen. Gesetzeskonformität des Antrags (Reservenzuweisung, Ausschüttbarkeit; Art. 729a Abs. 1 Ziff. 2 OR) als Hinweis an den WP bzw. Prüffeld Eigenkapital.
   nachweise:
   - Jahresrechnung
   - Antrag VR Verwendung Bilanzgewinn
@@ -637,6 +889,8 @@ schritte:
     zitat: Abstimmung des ausgewiesenen Jahresgewinns (oder Jahresverlusts) im Eigenkapital und in der Erfolgsrechnung
   - quelle: hwp-er-2026__rz-0439-s284
     zitat: prüft die Revisionsstelle den Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinns
+  - quelle: or__art-729a
+    zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - id: A1-308
   vorgehen: 'Detailnachweis stille Reserven (Bestand je Bilanzposition per Stichtag und Vorjahr) in M-Files suchen, rechnerisch nachvollziehen und mit den Prüffeld-Ergebnissen (Vorräte,
     Anlagen, Rückstellungen, Wertberichtigungen) abstimmen; Veränderung ermitteln. Bei wesentlicher Nettoauflösung Offenlegung im Anhang prüfen. Fehlender Nachweis: Pendenz.'
@@ -655,14 +909,20 @@ schritte:
   - quelle: or__art-959c-t1
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
 - id: A1-401
-  vorgehen: Nur wenn eine Geldflussrechnung vorgeschrieben (Art. 961 OR, Statuten, Standard) oder Teil der geprüften JR ist; sonst «nicht anwendbar» mit Begründung. Prüfen, ob Geldfluss
-    aus Geschäfts-, Investitions- und Finanzierungstätigkeit je gesondert dargestellt und auf die Fondsveränderung übergeleitet wird.
+  vorgehen: '4xx: nur auf Anweisung des WP. Ist keine GFR vorgeschrieben (Art. 961 OR, Statuten, Standard): Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (eingeschränkte
+    Revision, Art. 961 OR)», Entscheid WP. Sonst prüfen, ob Geldfluss aus Geschäfts-, Investitions- und Finanzierungstätigkeit je gesondert dargestellt und auf die Fondsveränderung übergeleitet
+    wird.'
   nachweise:
   - Geldflussrechnung
   - Statuten / Revisionsart
+  - Anweisung des WP
   rechnen: ''
   feststellung_wenn: Vorgeschriebene Geldflussrechnung fehlt oder stellt die drei Bereiche nicht gesondert dar.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: or__art-961
+    zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind
   - quelle: or__art-961b
     zitat: Die Geldflussrechnung stellt die Veränderung der flüssigen Mittel aus der Geschäftstätigkeit, der Investitionstätigkeit und der Finanzierungstätigkeit je gesondert dar.
   - quelle: hwp-bur-2023__rz-0802-s333
@@ -670,9 +930,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0365-s266
     zitat: Statuten oder anerkannte Standards zur Rechnungslegung (z.B. Kern-FER) können weitere Bestandteile der Jahresrechnung fordern
 - id: A1-402
-  vorgehen: 'Geldflussrechnung rechnerisch nachvollziehen: Fonds Anfang/Ende mit Bilanz (Bestandteile bei netto flüssigen Mitteln offengelegt), Jahresergebnis und Abschreibungen mit
-    ER, nicht liquiditätswirksame Posten vollständig, Investitionen/Desinvestitionen mit Anlagespiegel und Verkaufsbelegen, Dividenden mit GV-Beschluss, Zuordnung zu den drei Bereichen.
-    Differenzen im Textfeld.'
+  vorgehen: '4xx: nur auf Anweisung des WP; ohne vorgeschriebene GFR Status «nicht bearbeitet», Vorschlag «nicht anwendbar». Sonst nachrechnen: Fonds mit Bilanz (Bestandteile offengelegt),
+    Ergebnis/Abschreibungen mit ER, nicht liquiditätswirksame Posten inkl. Veränderung Arbeitgeberbeitragsreserven, Investitionen/Desinvestitionen mit Anlagespiegel/Verkaufsbelegen,
+    Dividenden mit GV-Beschluss, Zuordnung der drei Bereiche. Differenzen im Textfeld.'
   nachweise:
   - Geldflussrechnung
   - Bilanz und Erfolgsrechnung
@@ -680,13 +940,23 @@ schritte:
   - Verkaufsbelege Anlagen
   - GV-Beschluss Dividende
   - Rückstellungsspiegel
+  - Nachweis Arbeitgeberbeitragsreserven (Bilanz/Anhang)
+  - Anweisung des WP
   rechnen: Fonds Ende − Fonds Anfang = CF Geschäftstätigkeit + CF Investitionstätigkeit + CF Finanzierungstätigkeit (± Kursdifferenzen Fonds); Jahresergebnis GFR = ER; Abschreibungen
-    GFR = ER; Investitionen GFR = zahlungswirksame Zugänge Anlagespiegel
-  feststellung_wenn: GFR geht nicht auf die Fondsveränderung auf, Jahresergebnis/Abschreibungen weichen von der ER ab oder wesentliche Fehlzuordnung zwischen den Bereichen.
+    GFR = ER; Investitionen GFR = zahlungswirksame Zugänge Anlagespiegel; Δ AGBR gemäss Bilanz/Anhang = Position in GFR (nicht liquiditätswirksamer Anteil, z.B. Verzinsung/Wertberichtigung,
+    bereinigt); Dividenden GFR = Ausschüttung gemäss GV-Beschluss
+  feststellung_wenn: GFR geht nicht auf die Fondsveränderung auf, Jahresergebnis/Abschreibungen weichen von der ER ab, AGBR-Veränderung falsch behandelt oder wesentliche Fehlzuordnung
+    zwischen den Bereichen.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-bur-2023__rz-0803-s333
     zitat: Die Bezugsgrösse der Geldflussrechnung (sog. Fonds) bilden die flüssigen Mittel
+  - quelle: hwp-bur-2023__rz-0803-s333
+    zitat: Unter Offenlegung der Bestandteile des Fonds erscheint diese Praxis entgegen dem Gesetzes
   - quelle: hwp-bur-2023__rz-0805-s333
     zitat: Bei der indirekten Methode werden zum Jahresergebnis die nicht liquiditätswirksamen Geschäftsvorfälle hinzugefügt bzw. in Abzug gebracht.
   - quelle: hwp-bur-2023__rz-0809-s335-t1
     zitat: Am Ende der Geldflussrechnung wird in der Regel vom Anfangsbestand des gewählten Fonds auf den Endbestand übergeleitet.
+  - quelle: katalog-revio4__c003-6
+    zitat: korrekte Berücksichtigung von Veränderungen von Arbeitgeberbeitragsreserven

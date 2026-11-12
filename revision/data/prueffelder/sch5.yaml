@@ -1,0 +1,401 @@
+# Prüffeld SCH5 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: SCH5
+bezeichnung: Nebenbetrieb, betriebsfremd und ausserordentlich
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 12
+    korrigiert: false
+kurzbeschrieb: 'Erfolgspositionen ausserhalb des betrieblichen Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand und Ertrag (z.B. nicht betriebliche Liegenschaften) sowie
+  ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag (z.B. Anlagenverkäufe, Vorjahreskorrekturen). Geprüft werden Eintritt, Vollständigkeit, Abgrenzung, Klassierung
+  (Art. 959b OR) und Anhangerläuterung.'
+gesetz:
+- thema: 'Mindestgliederung Produktionserfolgsrechnung: separater Ausweis betriebsfremder Aufwand/Ertrag (Art. 959b Abs. 2 Ziff. 8 OR)'
+  quelle: or__art-959b-t1
+  zitat: 8. betriebsfremder Aufwand und betriebsfremder Ertrag;
+- thema: 'Mindestgliederung: separater Ausweis ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag (Art. 959b Abs. 2 Ziff. 9, Abs. 3 Ziff. 6 OR)'
+  quelle: or__art-959b-t1
+  zitat: 9. ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag;
+- thema: Weitere Positionen (z.B. Nebenbetrieb, wesentliche Gewinne aus Anlagenverkäufen) einzeln ausweisen (Art. 959b Abs. 5 OR)
+  quelle: or__art-959b-t2
+  zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+- thema: 'Anhang: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen (Art. 959c Abs. 2 Ziff. 12 OR)'
+  quelle: or__art-959c-t2
+  zitat: 12. Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung;
+- thema: 'Anhang: Aufschlüsselungen und Erläuterungen zu ER-Positionen, z.B. betriebsfremd (Art. 959c Abs. 1 Ziff. 2 OR)'
+  quelle: or__art-959c-t1
+  zitat: 2. Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung;
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR), z.B. über ausserordentlichen Ertrag'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: Stetigkeit in Darstellung und Bewertung (Art. 958c Abs. 1 Ziff. 6 OR) – Identifikationskriterien und Kontenzuordnung
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Verrechnungsverbot Aufwand/Ertrag (Art. 958c Abs. 1 Ziff. 7 OR)
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Zeitliche und sachliche Abgrenzung (Art. 958b Abs. 1 OR) – periodenfremde Posten
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Vorjahreszahlen in der Jahresrechnung (Art. 958d Abs. 2 OR)
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- thema: Belegnachweis für Buchungen (Art. 957a Abs. 2 Ziff. 2 und Abs. 3 OR)
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge;
+- thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: 'Fehlklassierung: betriebliche (auch seltene oder unüblich grosse) Aufwendungen werden als ausserordentlich, einmalig, periodenfremd oder betriebsfremd ausgewiesen, um das Betriebsergebnis
+    zu verbessern.'
+  pruefziele:
+  - DO
+  - VO
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Erfahrungsgemäss besteht eine gewisse Versuchung, Aufwendungen möglichst dem ausserordentlichen, einmaligen oder periodenfremden Bereich zuzuordnen, um bessere Betriebsergebnisse
+    auszuweisen.
+- text: Gebuchte Erträge/Aufwände in den Konten Nebenbetrieb, betriebsfremd oder ausserordentlich sind nicht eingetreten, nicht belegt oder Sammelbuchungen ohne nachvollziehbaren Sachverhalt.
+  pruefziele:
+  - EN
+  - EX
+  - RI
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge;
+- text: Periodenfremde Posten (Nachbuchungen, Abrechnungen und Fehlerkorrekturen für Vorjahre) werden nicht erkannt, falsch abgegrenzt oder nicht im Anhang erläutert.
+  pruefziele:
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Typischerweise stellt die Korrektur von Fehlern aus einem Vorjahr, sofern wesentlich, einen periodenfremden Vorgang dar.
+- text: Unzulässige Verrechnung von Aufwand und Ertrag (z.B. ausserordentlicher Aufwand mit Ertrag, Gewinne mit Verlusten aus Anlagenabgängen, Mietertrag mit Liegenschaftsaufwand).
+  pruefziele:
+  - DO
+  - RI
+  quelle: hwp-bur-2023__rz-0067-s071
+  zitat: ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
+- text: 'Anlagenverkauf falsch abgebildet: Verkaufserlös statt Buchgewinn/-verlust erfasst, Anschaffungswert und kumulierte Abschreibungen nicht ausgebucht (Sachanlagen und Ertrag überhöht).'
+  pruefziele:
+  - RI
+  - BE
+  - EX
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: bei indirekter Abschreibung die Anschaffungskosten sowie die kumulierten Abschreibungen und Wertberichtigungen
+- text: 'Anhang unvollständig oder nicht mit der Erfolgsrechnung übereinstimmend: Erläuterung der ausserordentlichen, einmaligen oder periodenfremden Posten fehlt oder weicht betragsmässig
+    ab.'
+  pruefziele:
+  - DO
+  - VO
+  quelle: or__art-959c-t2
+  zitat: 12. Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung;
+- text: Wesentliche Nettoauflösung stiller Reserven (z.B. Auflösung von Rückstellungen/Wertberichtigungen oder Buchgewinne über ausserordentlichen Ertrag) wird nicht offengelegt.
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Diese Bestimmung führt, falls das Ergebnis der Erfolgsrechnung daraus wesentlich günstiger dargestellt wird, zu einer Ausweispflicht der Auflösung der stillen Reserven.
+- text: Identifikationskriterien bzw. Kontenzuordnung zu den ER-Positionen gegenüber dem Vorjahr geändert, ohne Erläuterung; Vergleichbarkeit beeinträchtigt.
+  pruefziele:
+  - DO
+  - VO
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- text: Nebenerlöse ohne direkten Zusammenhang mit dem Unternehmenszweck werden im betrieblichen Ertrag ausgewiesen (bzw. umgekehrt betriebliche Erlöse als betriebsfremd).
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Nebenerlöse, welche nicht direkt mit dem primären Unternehmenszweck in Zusammenhang stehen, sind separat unter dem betriebsfremden Ertrag auszuweisen
+- text: Geschäfte mit Aktionären oder Nahestehenden im betriebsfremden Bereich (z.B. Liegenschaften, Verkauf von Anlagen) zu nicht marktüblichen Bedingungen (verdeckte Gewinnausschüttung).
+  pruefziele:
+  - BE
+  - RV
+  - DO
+  quelle: hwp-er-2026__rz-0163-s212
+  zitat: hierbei enthält die Erfolgsrechnung zu hohe Aufwendungen und/oder zu geringe Erträge
+unterlagen:
+- dokument: Kontoblätter der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag mit Einzelbuchungen des Geschäftsjahres
+  zweck: Grundlage Vorjahresvergleich (SCH5-201) und Belegabstimmung (SCH5-301)
+  quelle: ser-2022__anh-d-s096-1
+  zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+- dokument: Saldoliste bzw. Erfolgsrechnung Geschäftsjahr und Vorjahr (inkl. Vorjahres-Jahresrechnung mit Gliederung)
+  zweck: Vorjahresvergleich der Salden und der Kontenzuordnung (SCH5-101, SCH5-201)
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- dokument: Aufstellung der ausserordentlichen, einmaligen und periodenfremden Posten mit Begründung je Posten (Grundlage der Anhangerläuterung)
+  zweck: Klassierung nachvollziehen; Abstimmung Anhang mit Erfolgsrechnung
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: Somit ist zwar im Einzelnen zu begründen, wenn ein Posten als ausserordentlich erfasst wurde, nicht jedoch, wenn dies nicht der Fall ist.
+- dokument: Schriftliche Beschreibung der Kriterien bzw. Kontierungsregeln zur Identifikation betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Posten (inkl. Änderungen
+    ggü. Vorjahr)
+  zweck: Befragung SCH5-102 schriftlich auswerten; Stetigkeit (SCH5-201)
+  quelle: ser-2022__anh-d-s096-1
+  zitat: Besprechung der angewandten Kriterien zur Identifikation von betriebsfremden
+- dokument: Belege zu wesentlichen Einzelposten (Verträge, Gutschriften, Abrechnungen, Versicherungs- oder Vergleichsunterlagen)
+  zweck: Belegabstimmung SCH5-301 (Eintritt, Betrag, Periode, Sachverhalt)
+  quelle: or__art-957a
+  zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
+- dokument: 'Bei Anlagenverkäufen: Kaufvertrag, Zahlungseingang, Anlagespiegel mit Abgang (Anschaffungswert, kumulierte Abschreibungen, Restbuchwert)'
+  zweck: Buchgewinn/-verlust nachrechnen, Ausbuchung des Abgangs prüfen (SCH5-202, SCH5-301)
+  quelle: ser-2022__anh-d-s083-1
+  zitat: Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Sachanlagen
+- dokument: 'Bei betriebsfremden Liegenschaften, Untervermietung oder Nebenbetrieben: Miet-/Untermietverträge, Mieterspiegel, Liegenschaftsabrechnung mit direkt zuordenbarem Aufwand'
+  zweck: Erwartungswerte bilden (SCH5-202); Aufschlüsselung im Anhang beurteilen
+  quelle: hwp-bur-2023__rz-0799-s329-t2
+  zitat: im Anhang eine Aufschlüsselung entsprechend der Mindestgliederung zweckmässig
+- dokument: Budget/Forecast bzw. Erwartungsgrundlagen der Unternehmensleitung
+  zweck: Vergleich mit erwarteten Werten (SCH5-202)
+  quelle: ser-2022__6-1-2-t1
+  zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen oder diesbezüglichen Erwartungen des Abschlussprüfers
+- dokument: Protokolle der Verwaltungsratssitzungen und Generalversammlungen des Geschäftsjahres
+  zweck: Sondervorgänge (Verkäufe, Vergleiche, Restrukturierungen) als Erwartungsgrundlage und Vollständigkeitskontrolle
+  quelle: hwp-er-2026__rz-0119-s201
+  zitat: Protokolle von Generalversammlungen und Verwaltungsratssitzungen
+- dokument: Aufstellung Bildung/Auflösung stiller Reserven (Berechnungsmethode wie Vorjahr)
+  zweck: Nettoauflösung über ausserordentlichen Ertrag erkennen; Anhangangabe
+  quelle: ser-2022__anh-d-s097-2
+  zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+- dokument: Unterzeichnete Vollständigkeitserklärung
+  zweck: Schriftliche Bestätigung u.a. zu stillen Reserven und Kernaussagen
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt
+bewertung:
+- regel: 'Betriebsfremd: Vorgänge, die sich klar von der gewöhnlichen Geschäftstätigkeit unterscheiden, aber regelmässig auftreten (in Anlehnung an FER 3/21), z.B. Aufwand/Ertrag aus
+    nicht betrieblichen Sachanlagen.'
+  quelle: hwp-bur-2023__rz-0799-s329-t1
+  zitat: wenn sie sich klar von der gewöhnlichen Geschäftstätigkeit des Unternehmens unterscheiden, aber mit einer gewissen Regelmässigkeit auftreten
+- regel: Klassierung betrieblich/betriebsfremd je einzelne Anlage; keine Aufsplittung z.B. gemischt genutzter Liegenschaften.
+  quelle: hwp-bur-2023__rz-0799-s329-t1
+  zitat: Die Klassifizierung in betrieblich oder betriebsfremd ist dabei für die einzelne Anlage vorzunehmen
+- regel: Betriebsfremde Positionen nach dem Finanzerfolg ausweisen; keine explizite Anhangpflicht, Aufschlüsselung (z.B. Mietertrag und direkter Liegenschaftsaufwand) aber zweckmässig.
+  quelle: hwp-bur-2023__rz-0799-s329-t2
+  zitat: Der betriebsfremde Aufwand und der betriebsfremde Ertrag sind in der Erfolgsrechnung nach dem Finanzaufwand und Finanzertrag auszuweisen.
+- regel: Nebenerlöse ohne direkten Zusammenhang mit dem primären Unternehmenszweck sind als betriebsfremder Ertrag auszuweisen.
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Nebenerlöse, welche nicht direkt mit dem primären Unternehmenszweck in Zusammenhang stehen, sind separat unter dem betriebsfremden Ertrag auszuweisen
+- regel: 'Ausserordentlich: ungewöhnliche, in der Regel einmalige oder mit dem Geschäftsgang nicht ohne Weiteres zusammenhängende Vorgänge.'
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: Als ausserordentliche Aufwendungen und Erträge gelten ungewöhnliche, in der Regel einmalige oder mit dem Geschäftsgang nicht ohne Weiteres zusammenhängende Vorgänge.
+- regel: Kein Wahlrecht bei der Einordnung; im Zweifel ordentliches/betriebliches Ergebnis; Ausweis als ausserordentlich ist im Einzelnen zu begründen.
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: Bezüglich Einordung von Aufwendungen und Erträgen als ordentlich oder ausserordentlich besteht grundsätzlich kein Wahlrecht.
+- regel: Unwesentliche Einzelereignisse nicht als ausserordentlich ausweisen (ausser gleiches Ereignis, in der Summe wesentlich).
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: Es wird als nicht opportun erachtet, unwesentliche Einzelereignisse als ausserordentlich auszuweisen
+- regel: Sporadisch wiederkehrende oder unüblich grosse Posten aus der normalen Geschäftstätigkeit sind nicht ausserordentlich/periodenfremd; Begriffe eng auslegen.
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: In der Rechnungslegungspraxis sollten die Begriffe ausserordentlich, einmalig und periodenfremd eng ausgelegt werden.
+- regel: 'Fehlerkorrekturen aus Vorjahren: keine Anpassung des Vorjahresergebnisses; Korrektur über die Erfolgsrechnung des laufenden Jahres mit Anhangerläuterung (periodenfremd).'
+  quelle: hwp-bur-2023__rz-0071-s072
+  zitat: Notwendige Korrekturen sind über die Erfolgsrechnung des laufenden Jahres mit entsprechenden Erläuterungen im Anhang vorzunehmen.
+- regel: Ausserordentliche, einmalige und periodenfremde Posten dürfen in einer Position zusammengefasst werden; Verrechnung von Aufwand und Ertrag nur bei unwesentlichen Grössen.
+  quelle: hwp-bur-2023__rz-0233-s114
+  zitat: Eine Verrechnung ist nur bei unwesentlichen Grössen statthaft.
+- regel: Verrechnungsverbot gilt ausdrücklich auch für betriebsfremden sowie ausserordentlichen, einmaligen und periodenfremden Aufwand und Ertrag.
+  quelle: hwp-bur-2023__rz-0067-s071
+  zitat: ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
+- regel: 'Anlagenabgang: bei indirekter Abschreibung Anschaffungskosten und kumulierte Abschreibungen ausbuchen; Buchgewinn bzw. -verlust in der Erfolgsrechnung erfassen.'
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+- regel: Keine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen; bedeutende Gewinne/Verluste aus Veräusserung von Sachanlagen einzeln ausweisen und erläutern.
+  quelle: hwp-bur-2023__rz-0382-s238
+  zitat: Eine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen ist gemäss Verrechnungsverbot nicht zulässig
+- regel: Buchgewinne aus Anlagenverkäufen bedeuten aufgelöste stille Reserven; bei wesentlich günstigerer Ergebnisdarstellung Nettoauflösung im Anhang offenlegen (Nettobetrag).
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Entstehen aus der Veräusserung von Sachanlagen Buchgewinne, sind stille Reserven zur Auflösung gekommen.
+- regel: Nur tatsächliche Erträge ausweisen, keine kalkulatorischen Eigenmieten oder Sollmieterträge.
+  quelle: hwp-bur-2023__rz-0753-s319
+  zitat: keine kalkulatorischen oder budgetierten Werte, wie z.B. kalkulatorische Eigenmieten oder Sollmieterträge
+- regel: Umgliederungen ohne Einfluss auf Vorjahresergebnis und Eigenkapital sind zur Vergleichbarkeit mit Erläuterung im Anhang zulässig.
+  quelle: hwp-bur-2023__rz-0070-s072
+  zitat: Solche Anpassungen können aus Gründen der Vergleichbarkeit mit den Zahlen des Geschäftsjahres angebracht sein und sind mit entsprechender Erläuterung im Anhang zulässig.
+fallstricke:
+- text: Seltene, aber betriebliche Vorgänge (z.B. Messebesuch alle vier Jahre, Wertberichtigung einer hohen Kundenforderung) gehören in den betrieblichen Aufwand, nicht in den ausserordentlichen.
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Messebesuch alle vier Jahre
+- text: Unüblich grosse Posten aus der normalen Geschäftstätigkeit (z.B. nachträgliche Lieferantenrabatte, Gutschriften aus Lieferungen) sind nicht schon wegen ihrer Grösse ausserordentlich.
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Gleiches gilt auch für unüblich grosse Posten, soweit sie aus der normalen Geschäftstätigkeit des Unternehmens stammen.
+- text: 'Im Zweifel ordentlich: Ermessensfälle sind dem betrieblichen Ergebnis zuzuordnen; die Begründungslast liegt beim Ausweis als ausserordentlich.'
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: mit den entsprechenden Aufwendungen und Erträgen im Zweifelsfall als Teil des
+- text: 'Anlagenverkauf: voller Verkaufserlös als Ertrag gebucht und Anlage im Anlagespiegel nicht ausgebucht – Ertrag und Sachanlagen überhöht; Buchgewinn = Erlös minus Restbuchwert.'
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+- text: Aufwandkonto mit Habensaldo bzw. Nettoausweis von ausserordentlichem Aufwand und Ertrag deutet auf Verrechnung oder Fehlbuchung hin.
+  quelle: hwp-bur-2023__rz-0067-s071
+  zitat: Das Verbot der Verrechnung von Aufwand und Ertrag bezieht sich auch auf artgleiche Aufwendungen und Erträge
+- text: Anhangerläuterung der ausserordentlichen Posten stimmt betragsmässig oder inhaltlich nicht mit den Positionen der Erfolgsrechnung überein – immer abstimmen.
+  quelle: ser-2022__anh-d-s098-2
+  zitat: insbes. zu wesentlichen ausserordentlichen, einmaligen oder periodenfremden Positionen
+- text: Konten (z.B. Nebenbetrieb, Liegenschafts-/Untermietertrag) wechseln zwischen den Jahren die ER-Position; Kontenzuordnung immer mit dem Vorjahr vergleichen.
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- text: Pauschale Sammelbuchungen per Jahresende ohne spezifischen Belegtext sind ohne Einzelbeleg nicht nachvollziehbar.
+  quelle: or__art-957a
+  zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
+- text: Bei KMU verzerren Bildung/Auflösung stiller Reserven die Vergleichswerte; analytische Vergleiche bereinigen.
+  quelle: hwp-er-2026__rz-0110-s199
+  zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+- text: Bei wesentlichen Posten nicht allein auf Befragung abstützen; mit Analytik bzw. Detailprüfung ergänzen.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'SCH5-301 ist im SER eine weiter gehende Prüfungshandlung (Kennzeichnung WP): nur bei vermuteter wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko; Agent bereitet vor,
+    der Wirtschaftsprüfer entscheidet.'
+  quelle: ser-2022__anh-d-s096-1
+  zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+- text: Kalkulatorische Mieten (z.B. Eigennutzung einer Liegenschaft) dürfen nicht als betriebsfremder Ertrag gebucht werden.
+  quelle: hwp-bur-2023__rz-0753-s319
+  zitat: keine kalkulatorischen oder budgetierten Werte, wie z.B. kalkulatorische Eigenmieten oder Sollmieterträge
+fragen_kunde:
+- frage: Welches sind die Gründe für die wesentlichen Veränderungen der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag und ausserordentlicher/periodenfremder Aufwand/Ertrag gegenüber
+    dem Vorjahr (je Konto mit Betrag und Sachverhalt)?
+  zweck: 'SCH5-101/201: Abweichungen erklären (EN, VO, PA)'
+- frage: Nach welchen Kriterien ordnen Sie Posten als betriebsfremd, ausserordentlich, einmalig oder periodenfremd ein, und haben sich Kriterien oder Kontenzuordnung gegenüber dem Vorjahr
+    geändert?
+  zweck: 'SCH5-102/201: Klassierung und Stetigkeit (VO, DO)'
+- frage: Welche Sondervorgänge gab es im Geschäftsjahr (z.B. Anlagenverkäufe, Versicherungsleistungen, Vergleiche, Rückerstattungen, Nachbuchungen oder Fehlerkorrekturen für Vorjahre),
+    und auf welchen Konten sind sie erfasst?
+  zweck: 'SCH5-202: Erwartungswerte bilden; Vollständigkeit und Periodenabgrenzung'
+- frage: Besitzt die Gesellschaft nicht betriebsnotwendige Vermögenswerte oder Nebenbetriebe (z.B. Liegenschaften, Untervermietung)? Bestehen dazu Verträge mit Aktionären oder Nahestehenden,
+    und zu welchen Konditionen?
+  zweck: Abgrenzung betrieblich/betriebsfremd; Hinweise auf verdeckte Gewinnausschüttung
+- frage: Wie wurden Anlagenverkäufe des Geschäftsjahres erfasst (Erlös, Ausbuchung Anschaffungswert und Abschreibungen, Buchgewinn bzw. -verlust, Konto)?
+  zweck: 'SCH5-202/301: Richtigkeit und Verrechnungsverbot (RI, BE)'
+- frage: Wurden im Geschäftsjahr stille Reserven netto aufgelöst (z.B. über ausserordentlichen Ertrag), und in welchem Betrag?
+  zweck: Anhangangabe Art. 959c Abs. 1 Ziff. 3 OR (DO)
+- frage: Können Sie die Kernaussagen zur Klassierung und zu den Sondervorgängen schriftlich bestätigen?
+  zweck: Schriftliche Bestätigung von Kernaussagen (Befragung dokumentieren)
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'SCH5-101, -201, -202: Blatt «Erfolgsrechnung», Konten 7000, 7500, 8100, 8500, 8510, 8520, 8530 mit Saldi 2025/2024'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'SCH5-201, -301: Gliederung ER (Liegenschaftsertrag, Betriebsfremder Ertrag, Ausserordentlicher Aufwand/Ertrag) und Anhang Ziff. 3 «Erläuterung über ausserordentliche Aufwände
+    und Erträge»'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'SCH5-301: Blatt «8510» A.o. Ertrag mit Einzelbuchungen (übrige Erfolgskonten nicht als Kontoblatt enthalten)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'SCH5-102, -202: Zweck (Abgrenzung betrieblich/betriebsfremd) und Ansprechpersonen für die Befragung'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'SCH5-301: Übersicht vorhandener Belege; fehlende Belege als Pendenz'
+- datei: G_Anlagevermoegen/Kaufvertrag_Verkauf_Lieferwagen_14.10.2025.md
+  bezug: 'SCH5-202, -301: Beleg zum Anlagenverkauf (Erlös, Datum) für Abstimmung mit den Konten 8510/8530'
+- datei: G_Anlagevermoegen/Anlagespiegel_2025.md
+  bezug: 'SCH5-202, -301: Anschaffungswert und Nutzungsdauer des verkauften Fahrzeugs (Restbuchwert, Ausbuchung Abgang)'
+- datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
+  bezug: 'SCH5-202: Ziff. 6 Untermiete Parkplätze als Erwartungsgrundlage für Konto 7500'
+schritte:
+- id: SCH5-101
+  vorgehen: 'Aus der Saldoliste ER die Konten Nebenbetrieb, betriebsfremd und ausserordentlich/periodenfremd mit dem Vorjahr gegenüberstellen; Abweichungen ab Toleranzwesentlichkeit
+    (3.3) oder qualitativ auffällige (Vorzeichenwechsel, Konto neu oder auf null) listen. Schriftliche Kundenantwort (10.11) kritisch gegen die Akte würdigen, sonst Frage je Konto als
+    Pendenz. Im Textfeld: Liste, Antworten, Würdigung; höchstens «teilweise bearbeitet».'
+  nachweise:
+  - Saldoliste Erfolgsrechnung 2025/2024
+  - Jahresrechnung mit Vorjahreszahlen
+  - schriftliche Antworten der Unternehmensleitung (Kundenbefragung 10.11)
+  - Kontoblätter der betroffenen Konten
+  rechnen: Δ je Konto = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024|; auffällig, wenn |Δ| ≥ Toleranzwesentlichkeit oder Aufwandkonto mit Habensaldo bzw. Ertragskonto mit Sollsaldo
+  feststellung_wenn: 'Pendenz: keine oder unplausible Antwort zu Abweichung ab Toleranzwesentlichkeit. Wesentliche Feststellung: Antwort zeigt Fehlklassierung, fehlende Abgrenzung oder
+    nicht eingetretenen Posten.'
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: ser-2022__6-1-1-t2
+    zitat: Insbesondere geht der Abschlussprüfer Diskrepanzen zu seinem Verständnis des geprüften Unternehmens und anderen nicht plausiblen Auskünften nach.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+- id: SCH5-102
+  vorgehen: 'Kriterienbeschrieb bzw. Kontierungsregeln zur Identifikation betriebsfremder, ausserordentlicher, einmaliger und periodenfremder Posten in M-Files/Dauerakte suchen. Schriftliche
+    Kundenantwort gegen HWP BuR würdigen (betriebsfremd: nicht betriebstypisch, regelmässig; ausserordentlich: ungewöhnlich, nicht wiederkehrend; eng auslegen) und gegen den Zweck gemäss
+    Unternehmensinformationen. Fehlt beides: Frage als Pendenz. Ergebnis im Textfeld.'
+  nachweise:
+  - schriftliche Kriterienbeschreibung oder Kundenantwort
+  - Kontenplan mit Zuordnung zu den ER-Positionen
+  - Zweck gemäss Handelsregister/Unternehmensinformationen
+  - Anhangerläuterung der ausserordentlichen Posten
+  rechnen: ''
+  feststellung_wenn: 'Pendenz: Kriterien nicht dokumentiert, keine Antwort. Wesentliche Feststellung: Kriterien weiter als HWP BuR (betriebliche oder wiederkehrende Posten als ausserordentlich)
+    oder Ausweis ohne Begründung.'
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Besprechung der angewandten Kriterien zur Identifikation von betriebsfremden
+  - quelle: hwp-bur-2023__rz-0800-s330-t1
+    zitat: Somit ist zwar im Einzelnen zu begründen, wenn ein Posten als ausserordentlich erfasst wurde, nicht jedoch, wenn dies nicht der Fall ist.
+  - quelle: hwp-bur-2023__rz-0800-s330-t2
+    zitat: In der Rechnungslegungspraxis sollten die Begriffe ausserordentlich, einmalig und periodenfremd eng ausgelegt werden.
+  - quelle: hwp-bur-2023__rz-0799-s329-t1
+    zitat: wenn sie sich klar von der gewöhnlichen Geschäftstätigkeit des Unternehmens unterscheiden, aber mit einer gewissen Regelmässigkeit auftreten
+- id: SCH5-201
+  vorgehen: Je Konto und je ER-Position (Nebenbetrieb/Liegenschaft, betriebsfremd, ausserordentlich/einmalig/periodenfremd) Saldo 2025 und 2024 im Rechenmodul vergleichen; Kontenzuordnung
+    zu den ER-Positionen mit der Vorjahres-Jahresrechnung abgleichen (Umgliederungen, neue Konten); Kriterien aus SCH5-102 mit der Vorjahresakte vergleichen. Unerklärte Veränderungen
+    in SCH5-101 übernehmen. Tabelle und Würdigung im Textfeld.
+  nachweise:
+  - Saldoliste Erfolgsrechnung 2025/2024
+  - Jahresrechnung 2025 mit Vorjahreszahlen und Vorjahres-Jahresrechnung
+  - Vorjahresakte (Kriterien, Anhang)
+  rechnen: Summe Konten je ER-Position = Ausweis Jahresrechnung (2025 und 2024); Δ je Position = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024|
+  feststellung_wenn: 'Wesentliche Feststellung: Kontenzuordnung oder Kriterien ggü. Vorjahr geändert ohne Anhangerläuterung, oder ER-Position ≠ Summe Konten. Pendenz: Veränderung ab
+    Toleranzwesentlichkeit unerklärt.'
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Vergleich der Salden und Identifikationskriterien mit dem Vorjahr
+  - quelle: or__art-958c
+    zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+  - quelle: hwp-bur-2023__rz-0070-s072
+    zitat: Solche Anpassungen können aus Gründen der Vergleichbarkeit mit den Zahlen des Geschäftsjahres angebracht sein und sind mit entsprechender Erläuterung im Anhang zulässig.
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+- id: SCH5-202
+  vorgehen: 'Erwartungswerte aus Kenntnissen bilden und vor dem Vergleich festhalten: Miet-/Untermietverträge, Anlagenabgänge (Kaufvertrag, Anlagespiegel), VR-/GV-Protokolle, bekannte
+    Sondervorgänge und Vorjahreskorrekturen. Mit gebuchten Salden vergleichen; Differenzen über der tolerierbaren Abweichung (aus Toleranzwesentlichkeit) begründen lassen bzw. als Pendenz.
+    Bekannte Vorgänge ohne Buchung als Vollständigkeitsthema festhalten.'
+  nachweise:
+  - Miet- und Untermietverträge
+  - Kaufverträge Anlagenverkäufe und Anlagespiegel
+  - VR-/GV-Protokolle
+  - Budget/Forecast
+  - Saldoliste Erfolgsrechnung
+  rechnen: Buchgewinn Anlagenverkauf = Verkaufserlös − (Anschaffungswert − kumulierte Abschreibungen bis Abgang); erwarteter Mietertrag = Monatsmiete × Monate; Differenz = gebucht −
+    Erwartung, vergleichen mit tolerierbarer Abweichung
+  feststellung_wenn: 'Pendenz: Differenz Erwartung/Ist über tolerierbarer Abweichung unerklärt. Wesentliche Feststellung: bekannter Sondervorgang nicht oder falsch erfasst (z.B. Erlös
+    statt Buchgewinn) bzw. Buchung ohne Vorgang.'
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Vergleich der Salden mit den erwarteten Werten aufgrund der Kenntnisse der Geschäftstätigkeit im zu prüfenden Geschäftsjahr
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
+  - quelle: hwp-er-2026__rz-0029-s183
+    zitat: stellt er dabei eine ungewöhnliche oder unerwartete Abweichung fest, untersucht er, ob erhöhte Risiken wesentlicher Fehlaussagen in der Jahresrechnung bestehen könnten
+  - quelle: hwp-bur-2023__rz-0329-s228-t1
+    zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+- id: SCH5-301
+  vorgehen: 'Weiter gehende Handlung (WP): vorbereiten, wenn SCH5-101 bis -202 eine wesentliche Fehlaussage vermuten lassen oder das Risiko erhöht ist. Posten ab Toleranzwesentlichkeit
+    und auffällige (Jahresend-, Sammel-, runde Buchungen) aus den Kontoblättern wählen, Belege in M-Files suchen; Betrag, Datum/Periode, Sachverhalt, Klassierung und Verrechnung prüfen;
+    Anhangerläuterung mit den Konten abstimmen. Fehlende Belege als Pendenz.'
+  nachweise:
+  - Kontoblätter der Konten Nebenbetrieb, betriebsfremd, ausserordentlich
+  - Belege (Verträge, Gutschriften, Abrechnungen)
+  - Anhang der Jahresrechnung
+  - Anlagespiegel bei Anlagenverkäufen
+  rechnen: Summe Einzelbuchungen Kontoblatt = Saldo Saldoliste je Konto; Summe a.o.-Konten = Total a.o. Aufwand bzw. Ertrag in der ER = Anhangangabe; Abdeckung % = geprüfte Posten /
+    Kontosaldo
+  feststellung_wenn: 'Pendenz: Beleg fehlt (Konto, Datum, Betrag). Wesentliche Feststellung mit Buchungsvorschlag: Beleg widerspricht Buchung, falsche Periode oder Klassierung, Verrechnung,
+    Anhang ≠ ER.'
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
+  - quelle: or__art-959c-t2
+    zitat: 12. Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung;
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag

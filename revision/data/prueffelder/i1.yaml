@@ -1,0 +1,683 @@
+# Prüffeld I1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: I1
+bezeichnung: Immaterielle Anlagen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 20
+    korrigiert: false
+kurzbeschrieb: 'Immaterielle Werte (Software, Lizenzen, Patente, Marken, aktivierte Entwicklungen, derivativer Goodwill) inkl. Abschreibungen sowie nicht einbezahltes Grundkapital. Eingeschränkte
+  Revision: Befragung zu Aktivierung, Bewertung und Stetigkeit, VJ-Vergleich, Abstimmung Anlagespiegel/Hauptbuch/Bilanz/ER, Verträge der Zugänge, Werthaltigkeit, Anhang, stille Reserven.
+  Keine Bewertungsgutachten.'
+gesetz:
+- thema: 'Mindestgliederung: immaterielle Werte im Anlagevermögen (Art. 959a Abs. 1 Ziff. 2 lit. d OR)'
+  quelle: or__art-959a-t1
+  zitat: d. immaterielle Werte,
+- thema: 'Mindestgliederung: nicht einbezahltes Grundkapital als eigene Position (Art. 959a Abs. 1 Ziff. 2 lit. e OR)'
+  quelle: or__art-959a-t1
+  zitat: e. nicht einbezahltes Grund-, Gesellschafter- oder Stiftungskapital.
+- thema: Aktivierungsvoraussetzungen (Art. 959 Abs. 2 OR)
+  quelle: or__art-959
+  zitat: Als Aktiven müssen Vermögenswerte bilanziert werden, wenn aufgrund vergangener Ereignisse über sie verfügt werden kann, ein Mittelzufluss wahrscheinlich ist
+- thema: Aktivierungsverbot für andere Vermögenswerte (Art. 959 Abs. 2 OR)
+  quelle: or__art-959
+  zitat: Andere Vermögenswerte dürfen nicht bilanziert werden.
+- thema: Zuordnung zum Anlagevermögen (Art. 959 Abs. 3 OR)
+  quelle: or__art-959
+  zitat: Als Anlagevermögen müssen alle übrigen Aktiven bilanziert werden.
+- thema: Höchstwert bei Ersterfassung (Art. 960a Abs. 1 OR)
+  quelle: or__art-960a
+  zitat: Bei ihrer Ersterfassung müssen die Aktiven höchstens zu den Anschaffungs- oder Herstellungskosten bewertet werden.
+- thema: Höchstwert in der Folgebewertung (Art. 960a Abs. 2 OR)
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+- thema: Abschreibungen und Wertberichtigungen, aktivseitig abzusetzen (Art. 960a Abs. 3 OR)
+  quelle: or__art-960a
+  zitat: Der nutzungs- und altersbedingte Wertverlust muss durch Abschreibungen, anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden.
+- thema: Zusätzliche Abschreibungen / stille Reserven (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- thema: Einzelbewertung (Art. 960 Abs. 1 OR)
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet, sofern sie wesentlich sind
+- thema: Vorsichtige Bewertung (Art. 960 Abs. 2 OR)
+  quelle: or__art-960
+  zitat: Die Bewertung muss vorsichtig erfolgen, darf aber die zuverlässige Beurteilung der wirtschaftlichen Lage des Unternehmens nicht verhindern.
+- thema: Überprüfung bei Anzeichen einer Überbewertung (Art. 960 Abs. 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Stetigkeit in Darstellung und Bewertung (Art. 958c Abs. 1 Ziff. 6 OR)
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Bestandsnachweis durch Inventar (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Periodenabgrenzung (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: 'Erfolgsrechnung: Abschreibungen auf Anlagevermögen als Mindestposition (Art. 959b Abs. 2 Ziff. 6 OR)'
+  quelle: or__art-959b-t1
+  zitat: Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens
+- thema: Gesonderter Ausweis wesentlicher weiterer Positionen, z.B. Gewinne/Verluste aus Abgängen (Art. 959b Abs. 5 OR)
+  quelle: or__art-959b-t2
+  zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+- thema: 'Anhang: angewandte Grundsätze (Art. 959c Abs. 1 Ziff. 1 OR)'
+  quelle: or__art-959c-t1
+  zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: verpfändete Aktiven / Aktiven unter Eigentumsvorbehalt (Art. 959c Abs. 2 Ziff. 9 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: Erläuterung ausserordentlicher, einmaliger oder periodenfremder Positionen (Art. 959c Abs. 2 Ziff. 12 OR)'
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- thema: 'Nicht voll liberierte Aktien: Einforderung durch VR-Beschluss (Art. 634b Abs. 1 OR)'
+  quelle: or__art-634b
+  zitat: Der Verwaltungsrat beschliesst die nachträgliche Leistung von Einlagen auf nicht voll liberierte Aktien.
+- thema: Mindesteinlage bei Errichtung 20 % je Aktie (Art. 632 Abs. 1 OR)
+  quelle: or__art-632
+  zitat: Bei der Errichtung der Gesellschaft muss die Einlage für mindestens 20 Prozent des Nennwertes jeder Aktie geleistet sein.
+risiken:
+- text: Aktivierung nicht aktivierbarer Aufwendungen (Gründungs-, Kapitalerhöhungs-, Organisations-, Schulungs-, Forschungs- oder Restrukturierungskosten) als immaterieller Wert.
+  pruefziele:
+  - EX
+  - BE
+  quelle: hwp-bur-2023__rz-0411-s243
+  zitat: Nicht aktivierbar sind Gründungs- und Kapitalerhöhungs- oder allgemeine Organisationskosten, Aus- und Weiterbildungskosten des Personals sowie Restrukturierungskosten.
+- text: Laufende Lizenz- bzw. SaaS-Gebühren oder Implementierungskosten von Cloud-Lösungen aktiviert, obwohl nur ein Zugang zu einer Dienstleistung besteht.
+  pruefziele:
+  - EX
+  - BE
+  - PA
+  quelle: hwp-bur-2023__rz-0430-s246
+  zitat: Laufende Lizenzzahlungen deuten auf eine Dienstleistung hin und sind im Zeitpunkt
+- text: Selbst erarbeitete Werte (Software, Entwicklungen) aktiviert ohne Kostennachweis, ohne konkretes Ergebnis/Marktreife oder ohne gesicherte Finanzierung.
+  pruefziele:
+  - EX
+  - BE
+  quelle: hwp-bur-2023__rz-0413-s243
+  zitat: Eine Aktivierung setzt voraus, dass entsprechende Fremdleistungen und/oder Eigenaufwendungen nachgewiesen werden
+- text: 'Bilanzierte Rechte bestehen nicht (mehr): Lizenz gekündigt/abgelaufen, Patent oder Marke gelöscht, Recht lautet auf Dritte; fehlendes Inventar der Einzelkomponenten.'
+  pruefziele:
+  - EX
+  - RV
+  quelle: hwp-bur-2023__rz-0415-s244
+  zitat: Für immaterielle Werte ist ein Inventar zu erstellen, woraus die einzelnen Komponenten der Bilanzposition ersichtlich sind.
+- text: Überbewertung durch fehlende ausserplanmässige Wertberichtigung (Impairment), z.B. bei nicht mehr genutzter Software, abgebrochenen Projekten oder rückläufigen Erträgen.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0423-s245
+  zitat: ist eine zusätzliche ausserplanmässige Wertberichtigung (Impairment) auf diesen Wert vorzunehmen
+- text: Planmässige Abschreibungen unterlassen oder zu tief (zu lange bzw. rechtliche statt wirtschaftliche Nutzungsdauer, Verzicht mit Hinweis auf höheren Nutzwert).
+  pruefziele:
+  - BE
+  - PA
+  quelle: hwp-bur-2023__rz-0423-s245
+  zitat: Gegen den Grundsatz der Vorsicht und damit unzulässig wäre es, auf planmässige Abschreibungen von immateriellen Werten
+- text: Willkürlich wechselnde Abschreibungssätze oder Methodenwechsel ohne Begründung und ohne Berücksichtigung der Auswirkung auf die stillen Reserven.
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0061-s070
+  zitat: Die Anwendung willkürlicher, jährlich unterschiedlicher Abschreibungssätze, die sich nicht durch den Ermessensspielraum des Vorsichtsprinzips rechtfertigen lassen
+- text: Anlagespiegel/Anlagenverzeichnis nicht abgestimmt mit Hauptbuch, Bilanz und Abschreibungsaufwand der Erfolgsrechnung (Rechen- oder Übertragungsfehler).
+  pruefziele:
+  - EX
+  - VO
+  - RI
+  quelle: ser-2022__anh-d-s082-2
+  zitat: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen der einzelnen Anlagen und immateriellen Werte mit der Jahresrechnung
+- text: Abgänge (Verkauf, Ablauf, Ausserbetriebnahme) nicht oder unvollständig ausgebucht; Buchgewinne mit bestehenden Anlagen verrechnet statt in der Erfolgsrechnung erfasst (analog
+    Sachanlagen).
+  pruefziele:
+  - EX
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Eine direkte Verrechnung von realisierten Buchgewinnen mit bestehenden Sachanlagen
+- text: 'Aktivierungsfähige Investitionen (z.B. Kauf unbefristeter Software-Lizenzen) direkt über die Erfolgsrechnung verbucht: unvollständiger Ausweis bzw. Bildung stiller Reserven.'
+  pruefziele:
+  - VO
+  - PA
+  quelle: ser-2022__anh-d-s082-1
+  zitat: Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden
+- text: Wesentliche Nettoauflösung stiller Reserven auf immateriellen Werten (z.B. Wegfall von Mehrabschreibungen) im Anhang nicht offengelegt.
+  pruefziele:
+  - DO
+  - BE
+  quelle: hwp-bur-2023__rz-0423-s245
+  zitat: Deren Auflösung hat in die Berechnung des Gesamtbetrags der Reserveveränderung einzufliessen
+- text: Nicht einbezahltes Grundkapital nicht gesondert ausgewiesen oder trotz zweifelhafter Bonität der Aktionäre ohne Wertberichtigung bilanziert.
+  pruefziele:
+  - RV
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0562-s273
+  zitat: wie eine Forderung auf seine Werthaltigkeit hin zu beurteilen
+unterlagen:
+- dokument: 'Anlagespiegel und Anlagenverzeichnis immaterielle Werte per 31.12. (je Objekt: Anschaffungsdatum, AK/HK, Zu-/Abgänge, kumulierte Abschreibungen, Nutzungsdauer, Buchwert)
+    inkl. Vorjahr'
+  zweck: Bestandsnachweis, Abstimmung Hauptbuch/Bilanz/ER, VJ-Vergleich, Nachrechnen Abschreibungen (I1-201/301/401/403/406)
+  quelle: hwp-bur-2023__rz-0415-s244
+  zitat: Für immaterielle Werte ist ein Inventar zu erstellen
+- dokument: Kauf-, Lizenz-, Entwicklungs- und Übernahmeverträge, Rechnungen und Zahlungsbelege zu Beständen und Zugängen
+  zweck: Bestand, Rechte, Höhe der Anschaffungskosten, Laufzeiten (I1-303/402)
+  quelle: hwp-bur-2023__rz-0416-s244
+  zitat: dienen die Verträge, Zahlungsbelege, Abrechnungen über Patentgebühren
+- dokument: Registerauszüge (Patente, Marken, Designs) und Gebühren-/Erneuerungsnachweise per Stichtag
+  zweck: Dokumentbasierte Bestandesaufnahme der Schutzrechte, Gültigkeit und Inhaberschaft (I1-401)
+  quelle: hwp-bur-2023__rz-0416-s244
+  zitat: Registereintragungen in Verbindung mit Lizenz- und ähnlichen Erträgen
+- dokument: 'Bei Eigenentwicklungen: Projektkostenrechnung/Stundenrapporte, Projektbeschrieb mit Ergebnis (Prototyp, Marktreife), Finanzierungsnachweis'
+  zweck: Beurteilung Aktivierungsfähigkeit und Höhe der Herstellungskosten (I1-402)
+  quelle: hwp-bur-2023__rz-0417-s244
+  zitat: Als Grundlage zur Feststellung des Bestands selbst geschaffener immaterieller Werte dienen Kostenrechnung
+- dokument: Abschreibungsrichtlinie bzw. Abschreibungsplan (Methode, Sätze, Nutzungsdauern je Kategorie) inkl. Änderungen ggü. Vorjahr
+  zweck: Bewertungsgrundlagen und Stetigkeit (I1-101/102/403)
+  quelle: hwp-bur-2023__rz-0337-s230
+  zitat: Die gewählte Methode ist stetig anzuwenden.
+- dokument: Werthaltigkeitsnachweis der Unternehmensleitung bei Anzeichen (Ertrags-, Cashflow- oder Deckungsbeitragsprognosen, Budget)
+  zweck: Impairment-Beurteilung und Restwerte (I1-104/406)
+  quelle: hwp-bur-2023__rz-0421-s245
+  zitat: Für die Ermittlung des Nutzwerts herangezogen werden insbesondere Cashflow-, Ertrags- und Deckungsbeitragsprognosen.
+- dokument: Belege zu Abgängen (Verkaufsverträge, Kündigungen, Ausbuchungsbelege)
+  zweck: Abgänge und realisierte Gewinne/Verluste (I1-103)
+  quelle: ser-2022__anh-d-s083-1
+  zitat: Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Sachanlagen und immateriellen Werten
+- dokument: Kontoblätter Bestandes-, Wertberichtigungs- und Abschreibungskonten immaterielle Werte sowie Aufwandkonten Software/Lizenzen/IT/Beratung
+  zweck: Durchsicht ungewöhnliche Posten, ER-gebuchte Investitionen (I1-302/405)
+  quelle: ser-2022__anh-d-s082-2
+  zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten
+- dokument: Detailnachweis stille Reserven bzw. Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (GJ und VJ)
+  zweck: Bestand und Veränderung stiller Reserven, Anhangangabe (I1-321/407/320)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: VR- und GV-Protokolle (Investitionsentscheide, Projektabbrüche, Einforderung nicht einbezahlten Kapitals)
+  zweck: Zugänge, Wertbeeinträchtigungen, Liberierung (I1-103/104/408)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+- dokument: 'Bei nicht einbezahltem Kapital: Statuten, Handelsregisterauszug, Aktienbuch, VR-Beschluss zur Einforderung, Bonitätsunterlagen der Aktionäre'
+  zweck: Bestand, Ausweis und Werthaltigkeit des nicht einbezahlten Grundkapitals (I1-408)
+  quelle: ser-2022__anh-d-s091-1
+  zitat: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
+- dokument: Vom Kunden vorhandene Bewertungsgutachten (z.B. Patent-/Markenbewertung), falls bereits erstellt
+  zweck: Beizug als Unterlage zur Werthaltigkeit; kein Einholen durch die Revisionsstelle (I1-404)
+bewertung:
+- regel: Aktivierungspflicht, wenn Verfügungsmacht, wahrscheinlicher Mittelzufluss und verlässliche Bewertbarkeit gegeben sind (Art. 959 Abs. 2 OR).
+  quelle: hwp-bur-2023__rz-0413-s243
+  zitat: Immaterielle Werte sind zu aktivieren, wenn aufgrund vergangener Ereignisse über sie verfügt werden kann, ein Mittelzufluss wahrscheinlich ist und ihr Wert verlässlich geschätzt
+    werden kann
+- regel: 'Umfang: Konzessionen, Patente, Lizenzen, Marken, Urheberrechte, IT-Programme/Nutzungsrechte, produktbezogene Entwicklungskosten, separat bezahlter Goodwill.'
+  quelle: hwp-bur-2023__rz-0410-s243
+  zitat: IT-Programme und -Nutzungsrechte sowie produktbezogene Entwicklungskosten
+- regel: 'Nicht aktivierbar: Gründungs-, Kapitalerhöhungs-, Organisations-, Aus-/Weiterbildungs-, Restrukturierungs- und Forschungskosten.'
+  quelle: hwp-bur-2023__rz-0411-s243
+  zitat: Kosten für Forschungsaktivitäten, d.h. bei allgemeinen Aufwendungen zur Gewinnung neuer wissenschaftlicher Erkenntnisse
+- regel: 'Selbst erarbeitete Werte: Aktivierung nur bei konkretem, marktreif zu machendem Ergebnis und gesicherter Finanzierung; genereller Verzicht auf Aktivierung vertretbar.'
+  quelle: hwp-bur-2023__rz-0413-s243
+  zitat: erscheint es in Anlehnung an FER 10/4 vertretbar, auf die Aktivierung selbst erarbeiteter immaterieller Werte generell zu verzichten
+- regel: Bereits dem Periodenergebnis belastete Aufwendungen für Eigenentwicklungen dürfen nicht nachträglich aktiviert werden.
+  quelle: hwp-bur-2023__rz-0414-s244
+  zitat: Dem Periodenergebnis belastete Aufwendungen für selbst erarbeitete immaterielle Werte können nicht nachträglich aktiviert werden.
+- regel: Ersterfassung zu AK (gekauft) bzw. HK (selbst geschaffen) inkl. direkt zurechenbarer Nebenkosten (Gebühren, Beratungshonorare).
+  quelle: hwp-bur-2023__rz-0418-s244
+  zitat: Für käuflich erworbene Güter gelten die Anschaffungs-, für selbst geschaffene die Herstellungskosten als Wertobergrenze.
+- regel: Folgebewertung höchstens zu AK/HK abzüglich notwendiger Abschreibungen und Wertberichtigungen; Marktwertbewertung (Art. 960b OR) nur ausnahmsweise.
+  quelle: hwp-bur-2023__rz-0419-s244
+  zitat: In der Folgebewertung dürfen immaterielle Werte grundsätzlich nicht über den Anschaffungs- oder Herstellungskosten, abzüglich notwendiger Abschreibungen und Wertberichtigungen,
+    bewertet werden
+- regel: Abschreibung über die wirtschaftliche (nicht rechtliche) Nutzungsdauer; ist sie nicht bestimmbar, 5 Jahre, begründet höchstens 20 Jahre.
+  quelle: hwp-bur-2023__rz-0419-s244
+  zitat: wird eine Abschreibungsdauer von fünf Jahren, in begründeten Fällen eine solche von höchstens zwanzig Jahren empfohlen
+- regel: Abschreibungsmethode (linear/degressiv/leistungsabhängig) frei wählbar, aber stetig anzuwenden; linear aus Stetigkeitsgründen bevorzugt.
+  quelle: hwp-bur-2023__rz-0338-s230
+  zitat: ist aus betriebswirtschaftlichen Gründen und insbesondere im Interesse der Stetigkeit die lineare Methode zu bevorzugen
+- regel: Sachlich begründete Änderungen der Nutzungsdauer sind Schätzungsänderungen und keine Verletzung der Stetigkeit.
+  quelle: hwp-bur-2023__rz-0061-s070
+  zitat: sachlich begründete Änderungen in der Bemessung der Lebensdauer von Anlagen und damit des Abschreibungssatzes im Rahmen des Vorsichtsprinzips zulässig
+- regel: 'Impairment: bei Anzeichen Vergleich Buchwert mit erzielbarem Wert (höherer von Nutzwert und Netto-Marktwert); Differenz als Wertberichtigung.'
+  quelle: hwp-bur-2023__rz-0420-s245
+  zitat: Der erzielbare Wert ist der höhere von Nutzwert (Value in use) und Netto-Marktwert.
+- regel: Werthaltigkeit ist periodisch im Abschlussrhythmus zu überprüfen; die Nutzungsdauer periodisch und bei Anzeichen.
+  quelle: hwp-bur-2023__rz-0424-s245
+  zitat: Die Überprüfung der Werthaltigkeit ist Bestandteil des Bewertungsvorgangs von immateriellen Werten
+- regel: Kein Verzicht auf planmässige Abschreibungen wegen höherem Nutz- oder Verkehrswert (ausser Auflösung vorgängig gebildeter stiller Reserven).
+  quelle: hwp-bur-2023__rz-0423-s245
+  zitat: ausser es wurden vorgängig höhere Abschreibungen im Sinne von stillen Reserven gebildet
+- regel: Abschreibung schneller als wirtschaftlich erforderlich = Bildung stiller Reserven (Art. 960a Abs. 4 OR).
+  quelle: hwp-bur-2023__rz-0425-s246
+  zitat: Werden immaterielle Werte schneller als wirtschaftlich erforderlich abgeschrieben, so erfolgt eine Bildung stiller Reserven
+- regel: 'Goodwill: originärer nicht aktivierbar; derivativer (Asset Deal) zum Anschaffungswert und planmässig abzuschreiben (personenbezogen höchstens 5 Jahre); kein Impairment-only.'
+  quelle: hwp-bur-2023__rz-0429-s246
+  zitat: Ein solcher Goodwill ist innert einer angemessenen Frist planmässig abzuschreiben.
+- regel: Goodwill aus Share Deal ist Teil der Anschaffungskosten der Beteiligung und wird nicht unter immateriellen Werten ausgewiesen.
+  quelle: hwp-bur-2023__rz-0428-s246
+  zitat: bildet im Einzelabschluss Teil der Anschaffungskosten der Beteiligung
+- regel: 'IT/SaaS: laufende Lizenzzahlungen sind Aufwand; Implementierungskosten von SaaS kritisch, abgrenzen oder direkt erfassen.'
+  quelle: hwp-bur-2023__rz-0430-s246
+  zitat: Die Aktivierbarkeit von Implementierungsaufwendungen von SaaS ist insbesondere dann kritisch zu beurteilen
+- regel: 'Abgänge: AK und kumulierte Abschreibungen ausbuchen; Buchgewinn/-verlust in der Erfolgsrechnung erfassen, nicht mit bestehenden Anlagen verrechnen (analog Sachanlagen).'
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+- regel: Bedeutende Gewinne/Verluste aus Veräusserungen von Anlagen einzeln in ER oder Anhang ausweisen und erläutern (analog Sachanlagen).
+  quelle: hwp-bur-2023__rz-0380-s238
+  zitat: Bedeutende Gewinne oder Verluste aus der Veräusserung von Sachanlagen sind in der Erfolgsrechnung oder im Anhang einzeln auszuweisen und zu erläutern
+- regel: 'Nicht einbezahltes Grundkapital: zum Nennwert passivieren, offenen Teil gesondert aktivieren und wie eine Forderung auf Werthaltigkeit prüfen; nötigenfalls Wertberichtigung.'
+  quelle: hwp-bur-2023__rz-0562-s273
+  zitat: Nicht einbezahltes Aktien- und Partizipationskapital ist zu aktivieren
+- regel: 'Steuerlich (ESTV-Merkblatt A 1995, gemäss Treuhand-Almanach 2026): Lizenzen, Patente, Goodwill 40 % vom Buchwert, vom Anschaffungswert die Hälfte; handelsrechtlich nicht massgebend
+    (Mehrabschreibung = stille Reserve).'
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Lizenzen, Patente, Goodwill 40 %
+fallstricke:
+- text: 'I1-404 Bewertungsgutachten: Einholen von Bewertungs- und Expertengutachten ist nicht Bestandteil der eingeschränkten Revision. Nur vom Kunden bereits vorhandene Gutachten beiziehen;
+    Weitergehendes entscheidet der WP.'
+  quelle: hwp-er-2026__rz-0304-s251
+  zitat: Die Einholung von Expertengutachten wird im SER für Positionen, für welche sie bei der ordentlichen Revision denkbar wären, zudem explizit ausgeschlossen
+- text: 'I1-401 Bestandesaufnahme: Eine physische Bestandsaufnahme gehört zu den weitergehenden Prüfungshandlungen; bei immateriellen Werten erfolgt der Bestandsnachweis dokumentbasiert
+    (Register, Verträge, Gebühren).'
+  quelle: ser-2022__anh-d-s083-1
+  zitat: Physische Bestandsaufnahme
+- text: Befragungen (I1-101 bis I1-104) genügen für eine wesentliche Position nicht allein; immer mit Analytik (I1-201) und Detailprüfungen (I1-301/303) ergänzen und die Antworten schriftlich
+    dokumentieren.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'Schätzungsänderung der Nutzungsdauer nicht mit Methodenwechsel verwechseln: sachlich begründete Anpassung ist zulässig; willkürlich schwankende Sätze verletzen die Stetigkeit
+    (Auswirkung auf stille Reserven beachten).'
+  quelle: hwp-bur-2023__rz-0061-s070
+  zitat: soweit damit kein Methodenwechsel oder eine Abweichung von der festgelegten Methode verbunden ist
+- text: Steuerlich zulässige Abschreibungssätze sind kein Massstab für die wirtschaftliche Nutzungsdauer; Abschreibungen darüber hinaus sind stille Reserven (I1-321/I1-407), nicht Fehler,
+    solange offengelegt wo nötig.
+  quelle: hwp-bur-2023__rz-0209-s106
+  zitat: Zu beachten ist, dass sich die steuerliche Anerkennung solcher Buchungen nach den anwendbaren Vorschriften richtet.
+- text: Nutzwert-Schätzungen der Unternehmensleitung (Prognosen) haben grossen Ermessensspielraum; Annahmen kritisch würdigen und Unsicherheit dem WP melden.
+  quelle: hwp-bur-2023__rz-0421-s245
+  zitat: Da der Nutzwert weitgehend einer subjektiven Einschätzung und grossen Ermessensspielräumen unterliegt, ist die Überprüfung der Werthaltigkeit anspruchsvoll.
+- text: Ein höherer Verkehrswert rechtfertigt keinen Verzicht auf planmässige Abschreibungen; umgekehrt muss bei gesunkenem Verkehrswert nicht zwingend wertberichtigt werden, solange
+    der Nutzwert den Restbuchwert deckt.
+  quelle: hwp-bur-2023__rz-0424-s245
+  zitat: muss selbst bei nachhaltig gesunkenen Verkehrswerten nicht zwangsläufig eine zusätzliche Wertberichtigung vorgenommen werden
+- text: Bei Fortführungszweifeln bzw. Zwischenabschluss zu Veräusserungswerten sind immaterielle Werte oft kaum realisierbar; Werthaltigkeit besonders kritisch beurteilen.
+  quelle: hwp-bur-2023__rz-0980-s384
+  zitat: kann die Bestimmung eines realistischen Veräusserungswerts in der Praxis schwierig sein
+- text: Zur Veräusserung im ordentlichen Geschäftsverlauf bestimmte immaterielle Werte (z.B. Software zum Weiterverkauf) gehören zu den Vorräten, nicht zu I1.
+  quelle: hwp-bur-2023__rz-0412-s243
+  zitat: Sind immaterielle Werte zur Veräusserung im ordentlichen Geschäftsverlauf bestimmt, werden sie wie Vorräte behandelt.
+- text: Nicht einbezahltes Grundkapital (I1-408) ist eine eigene Bilanzposition im Anlagevermögen und nicht mit dem Aktienkapital zu verrechnen; Abstimmung mit Statuten/HR im Prüffeld
+    Eigenkapital koordinieren.
+  quelle: hwp-bur-2023__rz-0563-s273
+  zitat: Ein nicht einbezahlter Teil ist unter den Aktiven gesondert auszuweisen
+- text: Schritte mit Kennzeichnung WP (I1-302, I1-303) und die Sonstigen 4xx-Schritte bereitet der Agent nur vor; Auswahl, Umfang und Beurteilung entscheidet der Wirtschaftsprüfer (kein
+    Visum, keine Freigabe durch den Agenten).
+fragen_kunde:
+- frage: Welche Aktivierungs- und Bewertungsgrundsätze wenden Sie für immaterielle Werte an (Kategorien, Ersterfassung, Abschreibungsmethode linear/degressiv, direkt/indirekt, Nutzungsdauern
+    bzw. Sätze je Kategorie)?
+  zweck: 'I1-101: Bewertungsgrundlagen (BE, PA)'
+- frage: 'Wurden Abschreibungsmethoden, -sätze oder Nutzungsdauern gegenüber dem Vorjahr geändert? Wenn ja: welche, weshalb und mit welcher Auswirkung?'
+  zweck: 'I1-102: Stetigkeit, Abgrenzung Methodenwechsel vs. Schätzungsänderung (BE, PA)'
+- frage: Welche immateriellen Werte wurden im Geschäftsjahr erworben, selbst entwickelt, verkauft, gekündigt oder ausgebucht, und wie wurden Erlöse sowie Buchgewinne/-verluste verbucht?
+  zweck: 'I1-103: Zu- und Abgänge (EX, VO, BE, PA)'
+- frage: Werden alle aktivierten Software-Lösungen, Lizenzen, Patente und Marken noch genutzt bzw. sind sie gültig? Gibt es Anzeichen für eine Wertbeeinträchtigung (Projektabbruch, technische
+    Überalterung, Ablauf von Schutzrechten, rückläufige Erträge)?
+  zweck: 'I1-104/I1-406: Werthaltigkeit und Restwerte (BE)'
+- frage: Wie unterscheiden Sie aktivierungspflichtige Investitionen (z.B. Kauf unbefristeter Lizenzen) von Aufwand (laufende Lizenz-/SaaS-Gebühren, Wartung, Schulung)? Wurden im Geschäftsjahr
+    Investitionen direkt über die Erfolgsrechnung verbucht?
+  zweck: 'I1-402/I1-405: Aktivierungsfähigkeit und Vollständigkeit (VO, BE, PA)'
+- frage: 'Bei aktivierten Eigenentwicklungen: Welche Kosten wurden aktiviert, wie sind sie nachgewiesen, und liegt ein marktreifes bzw. nutzbares Ergebnis mit gesicherter Finanzierung
+    vor?'
+  zweck: 'I1-402: Aktivierungsvoraussetzungen selbst erarbeiteter Werte (EX, BE)'
+- frage: Sind immaterielle Rechte verpfändet, abgetreten oder mit Rechten Dritter belastet? Welche Registereinträge und Ablaufdaten bestehen?
+  zweck: 'I1-401/I1-303/I1-320: Bestand, Rechte, Anhangangabe (EX, RV, DO)'
+- frage: Werden auf immateriellen Werten stille Reserven geführt (Abschreibungen über das betriebswirtschaftlich notwendige Mass)? Bitte Aufstellung Bestand und Veränderung per Stichtag
+    und Vorjahr.
+  zweck: 'I1-321/I1-407: stille Reserven und Anhangangabe (BE, DO)'
+- frage: 'Besteht nicht einbezahltes Aktienkapital? Wenn ja: Betrag je Aktionär, Einforderungsbeschluss des VR, Zahlungseingänge und Angaben zur finanziellen Lage der Aktionäre.'
+  zweck: 'I1-408: Bestand und Werthaltigkeit nicht einbezahltes Kapital (RV, BE)'
+testakte_2025:
+- datei: G_Anlagevermoegen/Anlagespiegel_2025.md
+  bezug: 'Blatt «Anlagespiegel» Zeile Konten 1700/1709 (AW, Zugänge, Abgänge, WB, Abschreibung 2025, Buchwert) und Blatt «Anlagenverzeichnis» (Objekte Konto 1700 mit Anschaffung, AW,
+    Nutzungsdauer): I1-101, I1-102, I1-103, I1-201, I1-301, I1-401, I1-402, I1-403, I1-406, I1-407'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Konten 1700/1709 (Saldo 2025/2024, Veränderung), Abschreibungskonto 6880 und Aufwandkonto 6565 Software Lizenzkosten, Konto 2800 Aktienkapital: I1-201, I1-301, I1-403, I1-405,
+    I1-408'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Kontoblätter 1700 und 1709 (Eröffnungssaldo, Bewegungen, Abschreibungsbuchung mit Gegenkonto): I1-301, I1-302, I1-403'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'Bilanzposition «Immaterielle Werte» (GJ/VJ), Abschreibungen in der Erfolgsrechnung (Konto 6880 und Gruppierung), Anhang Ziff. 1 Grundsätze, Ziff. 4 Bewertung von Aktiven, Ziff.
+    6 Fortführung: I1-301, I1-403, I1-320, I1-321, I1-104, I1-406'
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: 'Kapitalerhöhung und Art der Liberierung (Verrechnung/Bareinzahlung): I1-408 (besteht nicht einbezahltes Kapital?)'
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: 'Aktionäre, Anzahl Aktien und Nominal je Aktionär: I1-408 (Abgleich Nominalkapital/Liberierung je Aktionär)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'Stammdaten (Aktienkapital, Zweck, Ansprechpersonen Finanzen/GF für Befragungen): I1-101 bis I1-104 (Adressaten), I1-322, I1-408'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'Übersicht der vorhandenen Belege im Ordner G_Anlagevermoegen; Grundlage, welche Verträge/Registerauszüge zu immateriellen Werten fehlen und als PBC/Pendenz zu erfassen sind:
+    I1-303, I1-401, I1-322'
+schritte:
+- id: I1-101
+  vorgehen: 'Schriftliche Antwort der Leitung Finanzen zu den Grundsätzen für immaterielle Werte auswerten: Kategorien (Software, Lizenzen, Patente, Entwicklungen, Goodwill), Ersterfassung
+    zu AK/HK, Abschreibungsmethode (linear/degressiv, direkt/indirekt), Nutzungsdauern bzw. Sätze, Werthaltigkeitsprüfung. Mit Anlagenverzeichnis und Anhang abgleichen und im Textfeld
+    zusammenfassen; fehlt die Antwort, Frage als Pendenz erfassen.'
+  nachweise:
+  - Schriftliche Antwort Befragung Bewertungsgrundsätze
+  - Abschreibungsrichtlinie/-plan
+  - Anlagenverzeichnis immaterielle Werte (Nutzungsdauer)
+  - Anhang Jahresrechnung (Grundsätze)
+  rechnen: Implizite Nutzungsdauer je Objekt (linear) = Anschaffungswert / jährliche Abschreibung; Vergleich mit angegebener Nutzungsdauer
+  feststellung_wenn: Keine nachvollziehbaren Grundsätze, Nutzungsdauer über der wirtschaftlichen Nutzungsdauer oder Angaben widersprechen Anlagenverzeichnis bzw. Anhang.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Befragung über Grundlagen der Bewertung der Anlagen (z. B. von Maschinenpark, Immobilien, Patenten oder anderen immateriellen Werten)
+  - quelle: hwp-bur-2023__rz-0419-s244
+    zitat: Die Abschreibungen bemessen sich nach der Nutzungsdauer des immateriellen Werts.
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+- id: I1-102
+  vorgehen: 'Befragen, ob Abschreibungsmethode und -sätze bzw. Nutzungsdauern gegenüber dem Vorjahr unverändert sind. Änderungen unterscheiden: Methodenwechsel (Begründung, Anhangangabe)
+    vs. sachlich begründete Schätzungsänderung der Nutzungsdauer. Antwort mit den effektiven Sätzen aus I1-201 abgleichen; schwankende Sätze als mögliche Bildung/Auflösung stiller Reserven
+    an I1-321 weitergeben.'
+  nachweise:
+  - Schriftliche Antwort Befragung Stetigkeit
+  - Anlagespiegel GJ und VJ
+  - Anhang GJ und VJ
+  rechnen: Effektiver Abschreibungssatz je Kategorie = Abschreibung GJ / Anschaffungswert (linear) bzw. / Buchwert 01.01. (degressiv); Vergleich GJ- mit VJ-Satz
+  feststellung_wenn: Methodenwechsel ohne Begründung bzw. Anhangangabe oder jährlich wechselnde, nicht begründete Abschreibungssätze.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Abschreibungssätze und -methoden und deren stetige Anwendung
+  - quelle: or__art-958c
+    zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+  - quelle: hwp-bur-2023__rz-0337-s230
+    zitat: Die gewählte Methode ist stetig anzuwenden.
+  - quelle: hwp-bur-2023__rz-0061-s070
+    zitat: Die Anwendung willkürlicher, jährlich unterschiedlicher Abschreibungssätze
+- id: I1-103
+  vorgehen: Liste der Zu- und Abgänge immaterieller Werte des Geschäftsjahres (Kauf, Eigenentwicklung, Verkauf, Ablauf, Kündigung, Ausbuchung) erfragen und mit den Spalten Zugänge/Abgänge
+    des Anlagespiegels abgleichen. Bei Abgängen erfragen, wie Erlös, Restbuchwert und Buchgewinn/-verlust verbucht und ausgewiesen wurden. Abweichungen im Textfeld, fehlende Antwort
+    als Pendenz.
+  nachweise:
+  - Schriftliche Antwort Befragung Zu-/Abgänge
+  - Anlagespiegel (Zugänge/Abgänge)
+  - Verkaufs-/Kündigungsbelege
+  - Kontoblatt Gewinn/Verlust aus Anlageverkäufen
+  rechnen: Buchgewinn/-verlust = Veräusserungserlös − (Anschaffungswert Abgang − kumulierte Abschreibungen Abgang)
+  feststellung_wenn: Genannte Zu-/Abgänge fehlen im Anlagespiegel, Abgang nicht ausgebucht oder Buchgewinn mit bestehenden Anlagen verrechnet statt in der Erfolgsrechnung erfasst.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Befragung über Anschaffung und Verkäufe von Anlagen und über die Erfassung realisierter Gewinne und Verluste aus Abgängen
+  - quelle: hwp-bur-2023__rz-0329-s228-t1
+    zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+- id: I1-104
+  vorgehen: 'Leitung schriftlich befragen, ob Anzeichen für eine dauerhafte Wertbeeinträchtigung bestehen: nicht mehr genutzte Software/Lizenzen, abgebrochene Projekte, abgelaufene oder
+    bestrittene Schutzrechte, rückläufige Erträge, negative Unternehmensentwicklung. Bei Anzeichen Vergleichsrechnung Buchwert vs. erzielbarer Wert anfordern und nachvollziehen; sonst
+    Antwort dokumentieren, fehlende Antwort als Pendenz.'
+  nachweise:
+  - Schriftliche Antwort Befragung Wertbeeinträchtigung
+  - Werthaltigkeitsberechnung der Unternehmensleitung
+  - Budget/Ertragsprognosen
+  - VR-Protokolle
+  rechnen: Erzielbarer Wert = max(Nutzwert, Netto-Marktwert); Wertberichtigungsbedarf = Buchwert − erzielbarer Wert (falls > 0)
+  feststellung_wenn: Anzeichen einer Wertbeeinträchtigung ohne Vergleichsrechnung oder erzielbarer Wert unter Buchwert ohne entsprechende Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Befragung, ob Sachanlagen oder immaterielle Werte eine wesentliche, dauerhafte Wertbeeinträchtigung aufweisen
+  - quelle: hwp-bur-2023__rz-0420-s245
+    zitat: Dabei wird der Buchwert mit dem erzielbaren Wert verglichen.
+  - quelle: or__art-960
+    zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen
+- id: I1-201
+  vorgehen: 'Anlagespiegel GJ und VJ sowie Saldoliste (Bestandes-, WB- und Abschreibungskonten) gegenüberstellen: Anschaffungswerte, Zugänge, Abgänge, Abschreibungen, Buchwerte und effektive
+    Sätze je Kategorie. Erwartete Abschreibung aus AK und Nutzungsdauer schätzen und mit der gebuchten vergleichen. Wesentliche Abweichungen begründen lassen (Pendenz) und im Textfeld
+    festhalten.'
+  nachweise:
+  - Anlagespiegel GJ und VJ
+  - Saldoliste GJ/VJ
+  - Jahresrechnung VJ
+  rechnen: Veränderung je Konto = Saldo 31.12. GJ − Saldo 31.12. VJ; Satz = Abschreibung / AK; erwartete Abschreibung = Σ (AK / Nutzungsdauer) nicht voll abgeschriebener Objekte; Abweichung
+    = gebucht − erwartet
+  feststellung_wenn: Unerklärte wesentliche Veränderung von Bestand, Zu-/Abgängen oder Abschreibungssatz bzw. wesentliche Abweichung gebuchte zu erwarteter Abschreibung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Vergleich der Bestände, der Anschaffungen, der Verkäufe sowie der Abschreibungssätze und des Abschreibungsaufwands mit dem Vorjahr
+  - quelle: ser-2022__6-1-2-t1
+    zitat: Erwartungen des Abschlussprüfers (z. B. Schätzung von Abschreibungen)
+- id: I1-301
+  vorgehen: Anlagespiegel/Anlagenverzeichnis immaterielle Werte nachrechnen und mit den Saldi Bestandes- und WB-Konto im Hauptbuch, der Bilanzposition «Immaterielle Werte» und dem Abschreibungsaufwand
+    der Erfolgsrechnung abstimmen; Anfangsbestände mit dem VJ-Abschluss. Rechenmodul nutzen; jede Differenz mit Betrag im Textfeld.
+  nachweise:
+  - Anlagespiegel und Anlagenverzeichnis
+  - Saldoliste
+  - Kontoblätter Bestand/WB
+  - Jahresrechnung (Bilanz, ER)
+  rechnen: AW 01.01. + Zugänge − Abgänge = AW 31.12. = Saldo Bestandeskonto; WB 01.01. + Abschreibung − WB Abgänge = WB 31.12. = Saldo WB-Konto; AW − WB = Buchwert = Bilanzposition;
+    Abschreibung Spiegel = Aufwand ER; Σ Objekte Verzeichnis = AW 31.12.
+  feststellung_wenn: Differenz zwischen Anlagespiegel, Hauptbuch, Bilanz oder Abschreibungsaufwand ER bzw. Rechenfehler im Anlagespiegel (jede Differenz melden; Wesentlichkeit beurteilt
+    der WP).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-2
+    zitat: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: ob die aus Hilfs- oder Nebenbuchhaltungen stammenden Werte korrekt in das Hauptbuch und schliesslich die Jahresrechnung übernommen worden sind
+  - quelle: hwp-bur-2023__rz-0415-s244
+    zitat: Für immaterielle Werte ist ein Inventar zu erstellen
+- id: I1-302
+  vorgehen: 'Kontoblätter der Bestandes-, WB- und Abschreibungskonten immaterielle Werte auf ungewöhnliche Posten durchsehen: manuelle Umbuchungen, Stornos/Gutschriften, runde Beträge,
+    untypische Gegenkonten, Buchungen ohne Beleg, Abschreibungen ausserhalb der Abschlussbuchung. Auffällige Posten mit Beleg in M-Files prüfen (Inhalt, Kontierung, Datum). Weitergehender
+    Schritt: nur auf Entscheid WP.'
+  nachweise:
+  - Kontoblätter Bestand, WB, Abschreibungsaufwand
+  - Belege der auffälligen Posten
+  rechnen: Saldo Kontoblatt = Eröffnungssaldo + Σ Soll − Σ Haben = Saldoliste
+  feststellung_wenn: Ungewöhnlicher Posten ohne Beleg oder wirtschaftlich nicht nachvollziehbar, Fehlkontierung oder Abschreibungsbuchung nicht abstimmbar mit dem Anlagespiegel.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-2
+    zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
+- id: I1-303
+  vorgehen: 'Für wesentliche Bestände und alle Zugänge die Kauf-, Lizenz-, Entwicklungs- oder Übernahmeverträge sowie Rechnungen/Zahlungsbelege in M-Files suchen. Prüfen: Vertragspartei
+    ist die Gesellschaft, Gegenstand, Preis = aktivierter Betrag (inkl. direkter Nebenkosten), Laufzeit/Kündbarkeit, Belastungen. Fehlende Verträge als Pendenz/PBC erfassen. Weitergehender
+    Schritt: nur auf Entscheid WP.'
+  nachweise:
+  - Kauf-/Lizenz-/Entwicklungsverträge
+  - Rechnungen und Zahlungsbelege
+  - Registerauszüge
+  rechnen: Aktivierter Betrag = Vertragspreis netto (ohne rückforderbare Vorsteuer) + direkt zurechenbare Nebenkosten
+  feststellung_wenn: Kein Vertrag bzw. Beleg für einen aktivierten Wert, Vertragspartei nicht die Gesellschaft, Betrag weicht ab oder Recht abgelaufen/gekündigt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s083-1
+    zitat: Durchsicht von Einkaufsfakturen, Leasing- und anderen Verträgen sowie weiteren Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung
+  - quelle: hwp-bur-2023__rz-0416-s244
+    zitat: Zur Feststellung des Bestands käuflich erworbener (derivativer) immaterieller Werte dienen die Verträge, Zahlungsbelege
+  - quelle: hwp-bur-2023__rz-0418-s244
+    zitat: Zu den Anschaffungs- oder Herstellungskosten gehören auch die diesbezüglichen Nebenkosten
+- id: I1-320
+  vorgehen: 'Anhang prüfen auf: angewandte Bewertungs-/Abschreibungsgrundsätze immaterieller Werte (soweit nicht gesetzlich vorgeschrieben), Methodenwechsel (I1-102), verpfändete/abgetretene
+    Rechte, Erläuterung wesentlicher Abgangserfolge bzw. ausserordentlicher Wertberichtigungen, Nettoauflösung stiller Reserven (I1-321). Fehlende oder widersprüchliche Angaben im Textfeld.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Ergebnisse I1-102/103/104/321
+  rechnen: ''
+  feststellung_wenn: Erforderliche Anhangangabe fehlt oder widerspricht den Prüfergebnissen (Grundsätze, Verpfändung, ausserordentliche Positionen, Nettoauflösung stiller Reserven).
+  fundstellen:
+  - quelle: or__art-959c-t1
+    zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Enthält der Anhang Angaben über die Nettoauflösung von stillen Reserven
+- id: I1-321
+  vorgehen: Aufstellung stille Reserven des Kunden für immaterielle Werte übernehmen (betriebswirtschaftlicher Wert vs. Buchwert je Objekt/Kategorie, Stichtag und VJ) und mit Anlagespiegel
+    bzw. Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (I1-407) abstimmen. Veränderung (Bildung/Auflösung) berechnen, in die Gesamtaufstellung übertragen und Nettoauflösung für
+    I1-320 vormerken; fehlt die Aufstellung, Pendenz.
+  nachweise:
+  - Detailnachweis stille Reserven
+  - Anlagenbuchhaltung betriebswirtschaftlich
+  - Anlagespiegel
+  rechnen: Stille Reserve = betriebswirtschaftlicher Restwert (höchstens gesetzlicher Höchstwert) − Buchwert; Veränderung = Bestand 31.12. GJ − Bestand 31.12. VJ (negativ = Auflösung)
+  feststellung_wenn: Nachweis fehlt oder ist nicht abstimmbar, oder wesentliche Nettoauflösung ohne Anhangangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: hwp-bur-2023__rz-0425-s246
+    zitat: Werden immaterielle Werte schneller als wirtschaftlich erforderlich abgeschrieben, so erfolgt eine Bildung stiller Reserven
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
+- id: I1-322
+  vorgehen: 'Dauerakte immaterielle Werte nachführen: Lizenz-, Kauf- und Entwicklungsverträge mit Laufzeiten, Registerauszüge Patente/Marken mit Ablaufdaten, Abschreibungsrichtlinie,
+    Verpfändungs-/Abtretungsverträge, bei nicht einbezahltem Kapital Statuten/HR-Auszug. Neue oder geänderte Dokumente aus M-Files zur Ablage vorschlagen; Änderungen ggü. VJ im Textfeld.'
+  nachweise:
+  - Dauerakte
+  - Verträge und Registerauszüge aus M-Files
+  rechnen: ''
+  feststellung_wenn: Wesentliche Verträge oder Registerauszüge fehlen in der Dauerakte oder sind abgelaufen, ohne dass dies in Bestand bzw. Bewertung berücksichtigt ist.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben, wie beispielsweise wichtige Verträge
+- id: I1-401
+  vorgehen: 'Bestand der Patente, Lizenzen und Marken dokumentbasiert erheben: Registerauszüge, Lizenzverträge, Gebühren-/Erneuerungsnachweise per Stichtag. Mit dem Anlagenverzeichnis
+    abgleichen (jedes bilanzierte Recht vorhanden, gültig, auf die Gesellschaft lautend); registrierte, nicht bilanzierte Rechte nur notieren. Physische Bestandsaufnahme ist nicht vorgesehen;
+    Differenzliste im Textfeld.'
+  nachweise:
+  - Registerauszüge Patente/Marken
+  - Lizenzverträge
+  - Gebühren-/Erneuerungsrechnungen
+  - Anlagenverzeichnis
+  rechnen: Objekte Anlagenverzeichnis − Objekte mit gültigem Nachweis = Differenzliste (Objekt, Buchwert)
+  feststellung_wenn: Bilanziertes Recht ohne gültigen Nachweis (abgelaufen, gelöscht, gekündigt oder auf Dritte lautend).
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0416-s244
+    zitat: dienen die Verträge, Zahlungsbelege, Abrechnungen über Patentgebühren, Registereintragungen
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege
+  - quelle: ser-2022__anh-d-s083-1
+    zitat: Physische Bestandsaufnahme
+- id: I1-402
+  vorgehen: 'Jeden wesentlichen Zugang anhand Beleg/Vertrag beurteilen: Verfügungsmacht, wahrscheinlicher Mittelzufluss, verlässliche Bewertbarkeit; keine Gründungs-, Organisations-,
+    Schulungs-, Forschungs- oder Restrukturierungskosten; laufende Lizenz-/SaaS-Gebühren und Wartung sind Aufwand. Bei Eigenentwicklungen Kostennachweis, konkretes Ergebnis/Marktreife
+    und Finanzierung prüfen. Ergebnis je Zugang im Textfeld.'
+  nachweise:
+  - Belege/Verträge der Zugänge
+  - Projektkostenrechnung
+  - Projektbeschrieb/Businessplan
+  rechnen: Aktivierbarer Betrag = Σ direkt zurechenbare Kosten (Fremdleistungen + Eigenaufwand) gemäss Nachweis − nicht aktivierbare Anteile
+  feststellung_wenn: Aktivierung nicht aktivierbarer Kosten oder Eigenentwicklung ohne Nachweis von Kosten, Nutzen bzw. Marktreife.
+  fundstellen:
+  - quelle: or__art-959
+    zitat: Andere Vermögenswerte dürfen nicht bilanziert werden.
+  - quelle: hwp-bur-2023__rz-0411-s243
+    zitat: Nicht aktivierbar sind Gründungs- und Kapitalerhöhungs- oder allgemeine Organisationskosten
+  - quelle: hwp-bur-2023__rz-0413-s243
+    zitat: dem entsprechenden immateriellen Anlagegut ein direkt zuorden- und feststellbarer
+  - quelle: hwp-bur-2023__rz-0430-s246
+    zitat: Laufende Lizenzzahlungen deuten auf eine Dienstleistung hin
+- id: I1-403
+  vorgehen: Abschreibungen je Objekt nachrechnen (AK, Nutzungsdauer, Methode, pro rata ab Zugang) und Total mit Abschreibungsaufwand ER und Zunahme WB-Konto abstimmen. Nutzungsdauer
+    auf wirtschaftliche statt rechtliche Nutzung prüfen; bei unbestimmter Dauer i.d.R. 5, höchstens 20 Jahre. Kein Verzicht auf planmässige Abschreibung wegen höherem Nutzwert. Mehrabschreibungen
+    an I1-321 melden.
+  nachweise:
+  - Anlagenverzeichnis
+  - Abschreibungsplan
+  - Kontoblätter Abschreibungsaufwand und WB
+  rechnen: Abschreibung linear = AK / Nutzungsdauer × Monate im GJ / 12; Σ Objekte = Abschreibungsaufwand ER = Zunahme WB-Konto (ohne Abgänge); Mehr-/Minderabschreibung = gebucht − planmässig
+  feststellung_wenn: Abschreibung rechnerisch falsch oder nicht abstimmbar mit ER, planmässige Abschreibung unterlassen bzw. zu tief oder Nutzungsdauer nicht begründbar.
+  fundstellen:
+  - quelle: or__art-960a
+    zitat: Der nutzungs- und altersbedingte Wertverlust muss durch Abschreibungen
+  - quelle: hwp-bur-2023__rz-0419-s244
+    zitat: auf die wirtschaftliche Nutzungsdauer und nicht auf rechtliche Kriterien wie beispielsweise die urheberrechtliche Schutzfrist abzustellen
+  - quelle: hwp-bur-2023__rz-0423-s245
+    zitat: auf planmässige Abschreibungen von immateriellen Werten mit der Begründung eines höheren Nutz- oder Veräusserungs- bzw. Verkehrswerts zu verzichten
+  - quelle: hwp-or-2024__rz-0908-s354-t1
+    zitat: Nachrechnen der Abschreibungen und Abgleich mit dem Abschreibungsaufwand
+- id: I1-404
+  vorgehen: Bewertungs- und Expertengutachten werden in der eingeschränkten Revision nicht eingeholt. Nur prüfen, ob der Kunde selbst ein Gutachten erstellen liess (z.B. Patent-/Markenbewertung,
+    Kaufpreisallokation); dieses als Unterlage beiziehen und Stichtag, Methode und Wert mit dem Buchwert vergleichen. Sonst «nicht Bestandteil ER» dokumentieren; Entscheid über Weitergehendes
+    beim WP.
+  nachweise:
+  - Vom Kunden vorhandenes Bewertungsgutachten (falls vorhanden)
+  rechnen: Differenz = Buchwert − Gutachtenwert (per vergleichbarem Stichtag)
+  feststellung_wenn: Vorhandenes Gutachten weist einen Wert unter dem Buchwert aus, ohne dass eine Wertberichtigung gebucht ist.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0304-s251
+    zitat: Die Einholung von Expertengutachten wird im SER für Positionen, für welche sie bei der ordentlichen Revision denkbar wären, zudem explizit ausgeschlossen
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: Experten- und Bewertungsgutachten
+  - quelle: ser-2022__anh-d-s083-1
+    zitat: Prüfungshandlungen, die nicht Bestandteil einer eingeschränkten Revision darstellen
+- id: I1-405
+  vorgehen: Aufwandkonten mit möglichem Investitionscharakter (Software-/Lizenzkosten, IT-Projekte, Beratung, Entwicklung, Patent-/Markenkosten) auf grössere Einzelbeträge durchsehen;
+    Belege prüfen, ob ein aktivierungsfähiger Wert (z.B. unbefristete Lizenz, Schutzrecht) oder Aufwand (laufende Lizenz, SaaS, Wartung, Schulung) vorliegt. Befunde als unvollständige
+    Aktivierung bzw. stille Reserven (I1-321) im Textfeld.
+  nachweise:
+  - Kontoblätter Aufwand Software/Lizenzen/IT/Beratung
+  - Belege grösserer Einzelbeträge
+  rechnen: Σ über ER gebuchte aktivierungsfähige Beträge GJ − planmässige Abschreibung GJ darauf = stille Reserve aus Sofortabschreibung
+  feststellung_wenn: Wesentliche aktivierungsfähige Investitionen direkt über die ER gebucht oder umgekehrt Aufwand aktiviert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s082-1
+    zitat: Befragung, wie Unterhaltsaufwendungen von Investitionen (Wertvermehrung) unterschieden werden
+  - quelle: hwp-bur-2023__rz-0739-s311-t1
+    zitat: wertvermehrenden Unterhaltskosten
+  - quelle: hwp-bur-2023__rz-0414-s244
+    zitat: Dem Periodenergebnis belastete Aufwendungen für selbst erarbeitete immaterielle Werte können nicht nachträglich aktiviert werden.
+- id: I1-406
+  vorgehen: 'Restbuchwerte je Objekt kritisch würdigen: Objekt noch genutzt bzw. Recht gültig, Restnutzungsdauer mindestens so lang wie die verbleibende Abschreibungsdauer, Restbuchwert
+    durch künftigen Nutzen gedeckt (Antwort I1-104, Prognosen). Objekte mit Restbuchwert trotz Nutzungsende markieren; bei Fortführungszweifeln besonders kritisch. Ergebnis im Textfeld.'
+  nachweise:
+  - Anlagenverzeichnis mit Restbuchwerten
+  - Antwort I1-104
+  - Ertrags-/Deckungsbeitragsprognosen
+  rechnen: Restbuchwert = AK − kumulierte Abschreibungen; verbleibende Abschreibungsdauer = Restbuchwert / jährliche Abschreibung; Vergleich mit Restnutzungsdauer
+  feststellung_wenn: Restbuchwert für nicht mehr genutzte oder abgelaufene Rechte, oder Restbuchwert nicht durch künftigen Nutzen gedeckt.
+  fundstellen:
+  - quelle: or__art-960
+    zitat: so sind die Werte zu überprüfen und gegebenenfalls anzupassen
+  - quelle: hwp-bur-2023__rz-0424-s245
+    zitat: Die Überprüfung der Werthaltigkeit ist Bestandteil des Bewertungsvorgangs von immateriellen Werten
+  - quelle: hwp-bur-2023__rz-0336-s230
+    zitat: Die dem Abschreibungsplan eines Anlageguts zugrunde liegende Nutzungsdauer ist deshalb periodisch sowie bei konkreten Anzeichen auf Wertverminderung zu überprüfen
+- id: I1-407
+  vorgehen: Prüfen, ob neben den Bilanzwerten eine Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (AK, wirtschaftliche Nutzungsdauer) geführt wird; Werte nachrechnen und Differenz
+    zu den Buchwerten als stille Reserve mit I1-321 abstimmen. Fehlt sie, betriebswirtschaftliche Werte aus AK und Nutzungsdauer gemäss I1-101 näherungsweise herleiten (Rechenmodul)
+    und dem WP vorlegen.
+  nachweise:
+  - Anlagenbuchhaltung betriebswirtschaftlich
+  - Anlagenverzeichnis
+  - Aufstellung stille Reserven
+  rechnen: Betriebswirtschaftlicher Restwert = AK × (1 − abgelaufene Nutzungsjahre / wirtschaftliche Nutzungsdauer); stille Reserve = betriebswirtschaftlicher Restwert − Buchwert
+  feststellung_wenn: Erkennbare Mehrabschreibungen ohne betriebswirtschaftliche Werte oder Differenz nicht mit der Aufstellung stille Reserven abstimmbar.
+  fundstellen:
+  - quelle: katalog-revio4__c003-36
+    zitat: Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+  - quelle: hwp-bur-2023__rz-0672-s297
+    zitat: Wo das Rechnungswesen keine genauen Angaben zu liefern vermag
+- id: I1-408
+  vorgehen: 'Feststellen, ob nicht einbezahltes Grundkapital besteht (Statuten, HR-Auszug, Aktienbuch, Saldoliste); falls nein, «nicht anwendbar» dokumentieren. Falls ja: gesonderten
+    Ausweis im Anlagevermögen, Betrag je Aktionär, VR-Beschlüsse zur Einforderung und Zahlungseingänge prüfen; Bonität der Aktionäre anhand verfügbarer Unterlagen bzw. schriftlicher
+    Auskunft beurteilen und Wertberichtigungsbedarf dem WP melden.'
+  nachweise:
+  - Statuten/HR-Auszug
+  - Aktienbuch
+  - VR-Protokolle (Einforderung)
+  - Bonitätsunterlagen der Aktionäre
+  rechnen: Nicht einbezahltes Kapital = Nominalkapital − geleistete Einlagen = Σ offene Liberierung je Aktionär (Aktienbuch) = Saldo Aktivkonto
+  feststellung_wenn: Nicht einbezahltes Kapital nicht gesondert ausgewiesen, nicht abstimmbar oder Schuldner mit zweifelhafter Bonität ohne Wertberichtigung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0562-s273
+    zitat: weil es jederzeit eingefordert werden kann, wie eine Forderung auf seine Werthaltigkeit hin zu beurteilen
+  - quelle: hwp-bur-2023__rz-0563-s273
+    zitat: Ein nicht einbezahlter Teil ist unter den Aktiven gesondert auszuweisen
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Beurteilung der Bonität der Darlehensnehmer anhand deren Jahresabschlüssen oder anderer Informationen
+  - quelle: or__art-634b
+    zitat: Der Verwaltungsrat beschliesst die nachträgliche Leistung von Einlagen auf nicht voll liberierte Aktien.

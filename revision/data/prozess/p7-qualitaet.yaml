@@ -1,0 +1,544 @@
+# Prozessphase p7-qualitaet – was nötig ist (kein starrer Ablauf), mit Fundstellen.
+id: p7-qualitaet
+titel: Qualitätsmanagement, Dokumentation, Archivierung, Berufsgeheimnis, KI/Datenschutz
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prozess-werte
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 14
+    korrigiert: false
+ziel: Revisionsakte so vorbereiten, dass sie OR 730c und SER 7 genügt (nachvollziehbar, datiert, referenziert, Quellen mit M-Files-ID), Revisions- und Berufsgeheimnis sowie Datenschutz
+  wahrt und den KI-Einsatz lückenlos protokolliert; Durchsicht, Visum, Abschluss und Archivierung bleiben beim WP.
+wann: Durchgehend ab Auftragserteilung (Mandatskontext, Protokoll, Dokumentation je Prüfschritt); verdichtet vor Rapport und Berichtsabgabe (Vollständigkeit der Akte, Review durch WP);
+  nach dem Berichtsdatum (Abschluss endgültige Auftragsakte, Archivierung, 10 Jahre Aufbewahrung); KI-/Datenschutz-Voraussetzungen vor dem ersten Test mit Echtdaten.
+gesetz:
+- thema: Dokumentationspflicht und Aufbewahrung mind. 10 Jahre (OR 730c Abs. 1)
+  quelle: or__art-730c
+  zitat: Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren und Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren.
+- thema: Elektronische Daten wieder lesbar (OR 730c Abs. 1 Satz 2)
+  quelle: or__art-730c
+  zitat: Elektronische Daten müssen während der gleichen Zeitperiode wieder lesbar gemacht werden können.
+- thema: Effiziente Prüfbarkeit der Unterlagen (OR 730c Abs. 2)
+  quelle: or__art-730c
+  zitat: Die Unterlagen müssen es ermöglichen, die Einhaltung der gesetzlichen Vorschriften in effizienter Weise zu prüfen.
+- thema: Revisionsgeheimnis (OR 730b Abs. 2 Satz 1)
+  quelle: or__art-730b
+  zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen, soweit sie nicht von Gesetzes wegen zur Bekanntgabe verpflichtet ist.
+- thema: Geschäftsgeheimnisse bei Bericht, Anzeige, GV-Auskunft (OR 730b Abs. 2 Satz 2)
+  quelle: or__art-730b
+  zitat: Sie wahrt bei der Berichterstattung, bei der Erstattung von Anzeigen und bei der Auskunftserteilung an die Generalversammlung die Geschäftsgeheimnisse der Gesellschaft.
+- thema: Herausgabe- und Auskunftspflicht des VR, auf Verlangen schriftlich (OR 730b Abs. 1) – Grundlage Vollständigkeitserklärung
+  quelle: or__art-730b
+  zitat: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt
+- thema: 'Zweck der Dokumentation: Prüfungsaussage gestützt, SER eingehalten (SER 7.1)'
+  quelle: ser-2022__7-1
+  zitat: Der Abschlussprüfer muss wichtige Sachverhalte dokumentieren als Nachweis dafür
+- thema: Datierung und Autorvermerk der wichtigsten Dokumente (SER 7.1)
+  quelle: ser-2022__7-1
+  zitat: Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors oder derjenigen Person zu versehen, die das Revisionsmandat leitet.
+- thema: 'Jahresakten: Pflichtinhalte (SER 7.2)'
+  quelle: ser-2022__7-2
+  zitat: Art und Umfang der Arbeitspapiere des Abschlussprüfers (Jahresakten) richten sich nach den konkreten Umständen.
+- thema: Unterzeichnete Jahresrechnung und Vollständigkeitserklärung in den Jahresakten (SER 7.2)
+  quelle: ser-2022__7-2
+  zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+- thema: Dauerakten (SER 7.3)
+  quelle: ser-2022__7-3
+  zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- thema: Internes Qualitätssicherungssystem als Zulassungsvoraussetzung (SER 1.3.2; Art. 6 RAG, Art. 9 RAV)
+  quelle: ser-2022__1-3-2
+  zitat: Gesetzliche Revisionsdienstleistungen darf nur erbringen, wer über ein internes Qualitätssicherungssystem verfügt
+- thema: Skalierte Qualitätssicherung in Eigenverantwortung (SER 1.3.2)
+  quelle: ser-2022__1-3-2
+  zitat: Die konkrete Ausgestaltung des Qualitätssicherungssystems liegt in der Eigenverantwortung der Revisionsunternehmen.
+- thema: Zugang externer Berufsangehöriger zu Auftragsakten für QS vereinbaren (SER 1.7)
+  quelle: ser-2022__1-7
+  zitat: den Beizug von externen Berufsangehörigen zum Zweck der Qualitätssicherung und den damit einhergehenden Zugang zu den Auftragsakten
+- thema: Aufbewahrung ab Berichtsdatum (HWP ER III.2.9 Rz 288)
+  quelle: hwp-er-2026__rz-0288-s248
+  zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+- thema: 'Elektronische Aufbewahrung: Änderungen feststellbar, Daten lesbar (HWP ER Rz 288)'
+  quelle: hwp-er-2026__rz-0288-s248
+  zitat: für die Dauer der gesetzlichen Aufbewahrungspflicht nachträgliche Änderungen festgestellt und die Daten wieder lesbar gemacht werden können
+- thema: Aufbewahrung auch nach Mandatsende (HWP ER Rz 186)
+  quelle: hwp-er-2026__rz-0186-s072
+  zitat: Die Pflicht zur Aufbewahrung gilt auch über eine allfällige Beendigung des Mandats hinaus.
+- thema: Verschwiegenheitspflicht (HWP ER II.2.1 Rz 10)
+  quelle: hwp-er-2026__rz-0010-s150-t1
+  zitat: Die Verschwiegenheitspflicht erstreckt sich auf alle in Ausübung ihrer Tätigkeit bekannt gewordenen Sachverhalte.
+- thema: Strafrechtliches Berufsgeheimnis (Art. 321 StGB; HWP ER Rz 491)
+  quelle: hwp-er-2026__rz-0491-s140
+  zitat: Art. 321 StGB (Verletzung des Berufsgeheimnisses)
+- thema: Verantwortung für die Durchsicht (HWP ER II.4.4.1 Rz 119)
+  quelle: hwp-er-2026__rz-0119-s175-t1
+  zitat: Der Auftragsverantwortliche trägt aber die Verantwortung dafür, dass eine angemessene Durchsicht erfolgt.
+- thema: Frist zur Zusammenstellung der endgültigen Auftragsakte (HWP ER Rz 334; ISQM-CH 1 Tz. A83)
+  quelle: hwp-er-2026__rz-0334-s258
+  zitat: beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
+- thema: Datenschutz im Qualitätsmanagement (HWP ER II.4.2.7 Rz 103)
+  quelle: hwp-er-2026__rz-0103-s173
+  zitat: jedoch sind immer die Vorgaben bezüglich Datenschutz zu beachten
+- thema: Vertraulichkeit der Auftragsdokumentation (Leitfaden QM 6.1.11, ISQM-CH 1 Tz. 31(f))
+  quelle: leitfaden-qm-2025__6-1-11-t1
+  zitat: Die Auftragsdokumentation ist vertraulich.
+schritte:
+- was: 'Mandatskontext als Geheimnisschutz: vor jedem Zugriff und jeder Ablage (revio, M-Files, E-Mail) prüfen, ob Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag dem
+    fixierten Kontext-Schlüssel entsprechen; bei Abweichung abbrechen und Pendenz erfassen. Nichts mandatsfremd lesen oder ablegen.'
+  wer: Agent
+  revio: Dossier-Anmeldung lesend (rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId); bei Abweichung Notiz «Pendenz»
+  mfiles: Suche nur über Metadaten (Kunde, Geschäftsjahr, Klasse) des fixierten Mandats, nicht Volltext
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: Jeder Zugriff und jede Ablage wird dagegen geprüft; bei Abweichung bricht der Agent ab und erfasst eine Pendenz.
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'M-Files: REST-API, Suche über Metadaten (Kunde, Geschäftsjahr, Klasse) statt Volltext.'
+  - quelle: or__art-730b
+    zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen, soweit sie nicht von Gesetzes wegen zur Bekanntgabe verpflichtet ist.
+- was: 'Agenten-Protokoll (Audit Trail) laufend führen: jede Aktion, Quelle (M-Files-ID/Version), Berechnung und jeder Fehler mit Zeitstempel, damit feststellbar bleibt, wer (Dienstbenutzer
+    des Agenten) was wann erstellt oder geändert hat. Rechnen nur im Rechenmodul (Code), nie im Sprachmodell.'
+  wer: Agent
+  revio: Arbeit unter eigenem Dienstbenutzer; optional als «zugewiesener Mitarbeiter» in 3.5 (Entscheid offen)
+  mfiles: Protokoll pro Mandat und Geschäftsjahr ablegen (Klasse/Kategorie gemäss Metadatenkonzept consis/enco, noch offen)
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+  - quelle: hwp-er-2026__rz-0283-s247
+    zitat: festzuhalten und ggf. nachzuweisen, wer die entsprechenden Prüfungshandlungen an welchem Datum vorgenommen hat
+  - quelle: leitfaden-qm-2025__6-1-11-t1
+    zitat: die Feststellung ermöglichen, wann und von wem die Auftragsdokumentation erstellt, (zuletzt) geändert und durchgesehen wurde
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
+- was: 'Je Prüfschritt im Textfeld einheitlich dokumentieren: Prüfziel(e) und welche davon der Nachweis abdeckt, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung,
+    Ergebnis, eigene Schlussfolgerung, Feststellungen, Pendenzen, Status – so, dass ein nicht beteiligter, erfahrener Prüfer Planung, Durchführung und Ergebnis nachvollziehen kann. Visum
+    offen lassen.'
+  wer: Agent
+  revio: Bereich 4, Textfeld des Prüfschritts (vermutlich rv_put_auditActivities_UpdateDossierActivity – im Machbarkeitstest bestätigen); kein Visum, kein ✓
+  mfiles: Nachweise mit M-Files-ID und Version referenzieren
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: der Agent hält im Textfeld fest, welche Prüfziele sein Nachweis abdeckt
+  - quelle: hwp-er-2026__rz-0276-s246
+    zitat: Sie sind so zu gestalten, dass sich an der eingeschränkten Revision nicht beteiligte, erfahrene Fachleute ein Bild von der Planung und der Durchführung sowie dem Ergebnis
+      der Prüfungen machen können.
+  - quelle: hwp-er-2026__rz-0278-s246
+    zitat: Für die Prüfungshandlungen hält der Abschlussprüfer eigene Schlussfolgerungen fest.
+  - quelle: hwp-er-2026__rz-0277-s246
+    zitat: Zudem muss die Einhaltung der Vorgaben des SER aus den Arbeitspapieren hervorgehen.
+- was: 'Nachweise und Korrespondenz ablegen und referenzieren: verwendete Belege beim Prüfschritt anhängen oder als Beilage an die Notiz; jedes Dokument eindeutig bezeichnen; relevante
+    E-Mails und Gesprächsnotizen mit dem Kunden in die Akte übernehmen. Kundenoriginale nicht zurückbehalten – in der Akte nur Kopien.'
+  wer: Agent
+  revio: Bereich 4 Belegablage (rv_post_auditActivities_AddAttachementsToAuditActivity), Beilage an Notiz (rv_post_workpapers_MoveAttachmentsToNote); 10.6 Korrespondenz und Diverses
+  mfiles: Nachweise aus M-Files mit ID/Version; mandatsbezogene E-Mail-Korrespondenz
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: der Agent hängt dort die verwendeten Nachweise an, wenn sie nicht direkt beim Prüfschritt liegen
+  - quelle: hwp-er-2026__rz-0282-s247
+    zitat: Unter Referenzierung versteht man die systematische Bezeichnung jedes Schriftstücks.
+  - quelle: hwp-er-2026__rz-0280-s247
+    zitat: Für die relevanten elektronischen Dateien (z.B. per E-Mail ausgetauschter Schriftverkehr) wird eine sachgemässe Aufbewahrung sichergestellt.
+  - quelle: ser-2022__7-2
+    zitat: Korrespondenzen und Gesprächsprotokolle mit dem Prüfungskunden können ebenfalls Prüfungsnachweise darstellen.
+- was: Jahresakte auf die Pflichtinhalte nach SER 7.2 prüfen (Unabhängigkeit 2.4, Verständnis 2.1, Wesentlichkeit 3.3, Analytik/Risiko 3.1/3.2, Prüfprogramm, Fehlaussagen 6.1, Nachweise
+    mit Beurteilung) und Lücken als Pendenz melden – Bereiche 2, 3 und 6 nur lesen. Unterzeichnete Jahresrechnung und Vollständigkeitserklärung in M-Files suchen und in 10.4 ablegen;
+    A1-103 und A1-301 vorbereiten.
+  wer: Agent bereitet vor, WP entscheidet
+  revio: lesen 2.1, 2.4, 3.1–3.5, 6.1; schreiben 10.4; Prüffeld A1 (A1-103 VE, A1-301 Unterzeichnung)
+  mfiles: Unterzeichnete JR und VE des Geschäftsjahres suchen; fehlt → Vorschlag PBC-Liste 10.10
+  fundstellen:
+  - quelle: ser-2022__7-2
+    zitat: erlangte Prüfungsnachweise und ihre Beurteilung durch den Abschlussprüfer
+  - quelle: ser-2022__7-2
+    zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+  - quelle: katalog-revio4__c003-2
+    zitat: Vollständigkeitserklärung besprechen und unterzeichnen lassen.
+  - quelle: katalog-revio4__c003-3
+    zitat: Feststellen, ob Jahresrechnung rechtsgültig unterzeichnet wurde.
+  - quelle: katalog-revio4__c002-3
+    zitat: 10.4 Jahresrechnung und Vollständigkeitserklärung, 10.5 Berichtsablage, 10.6 Korrespondenz und Diverses
+- was: 'Dauerakten aktualisieren (Schritte xx-322 bzw. P1-321 «Aktualisieren Dauerakten»): prüfen, ob Statuten, Registerauszug und wesentliche mehrjährige Verträge aktuell vorliegen;
+    Änderungen im Textfeld festhalten, fehlende Dokumente als Vorschlag für die PBC-Liste.'
+  wer: Agent
+  revio: Bereich 4, Schritte B1-322 … R1-322 und P1-321 (Textfeld, Belegablage); PBC-Vorschlag 10.10
+  mfiles: Statuten, Handelsregisterauszug, mehrjährige Verträge des Kunden
+  fundstellen:
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt
+  - quelle: katalog-revio4__c003-55
+    zitat: Aktualisieren Dauerakten
+- was: 'Widersprüche und offene Punkte führen: Inkonsistenzen zwischen Feststellungen und Prüfungsaussage offenlegen; alles Ungeklärte als Pendenz (Konto, Datum, Betrag); im Revisionsrapport
+    an den WP Status aller Schritte, offene und wesentliche Punkte zuerst, mit Verweis auf Schritt und Notiz (Pendenzenkontrolle für den WP). Notizen nie löschen oder erledigen.'
+  wer: Agent
+  revio: Notizen «Pendenz», «Wesentliche Feststellungen», «Schlussbesprechung» (rv_put_workpapers_UpdateNote; lesen rv_get_workpapers_LoadDossierNotesByNoteType); Rapport per E-Mail
+    nur an freigegebene WP-Adresse
+  mfiles: Rapport im Protokoll des Mandats/Jahres
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0290-s248
+    zitat: dokumentiert der Abschlussprüfer in den Arbeitspapieren, wie er die Inkonsistenz oder den Widerspruch aufgelöst hat
+  - quelle: hwp-er-2026__rz-0334-s258
+    zitat: um sicherzustellen, dass vor Berichtsabgabe sämtliche wesentlichen offenen Fragen behandelt worden sind
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet), offene und wesentliche Punkte zuerst, Verweis auf Schritt und Notiz
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Notizen löscht oder erledigt er nie.
+- was: 'Review durch den WP: begleitende und abschliessende Durchsicht der Prüfungsdokumentation vor Berichtsabgabe, mindestens der wesentlichen Prüfungsgebiete und signifikanten Risiken;
+    Rückmeldungen in Notiz «Review». Visum, ✓, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status Bereich 10 setzt nur der Mensch.'
+  wer: WP
+  revio: Visum je Schritt, ✓ je Prüffeld, 9.0; Notiz «Review» (rv_post_workpapers_CreateNoteFeedback), Review-Workflow (rv_post_clientsManagement_RequestGlobalDossierReview_by_dossierId_by_reviewerId,
+    rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId) – für den Agenten gesperrt
+  mfiles: ''
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0332-s258
+    zitat: Während der Prüfungsarbeiten nimmt der Mandatsleiter, abhängig vom Arbeitsfortschritt, eine begleitende Durchsicht der Prüfungsdokumentation vor.
+  - quelle: leitfaden-qm-2025__6-2-t6
+    zitat: Im Minimum aber muss der Auftragsverantwortliche die durchgeführten Prüfungshandlungen und dokumentierten Feststellungen in Bezug auf die wesentlichen Prüfungsgebiete und
+      signifikanten Risiken
+  - quelle: leitfaden-qm-2025__6-1-3
+    zitat: Die Durchsicht der Arbeit erfolgt in der Regel nach der Auftragsabwicklung, aber vor der Berichterstattung bzw. der Beendigung des Mandats.
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: alles bleibt beim Menschen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: keine; für Rückmeldungen des Wirtschaftsprüfers
+- was: 'Review-Rückmeldungen abarbeiten: Notiz «Review» lesen, Textfeld ergänzen, fehlende Nachweise beschaffen, Änderung mit Datum und Grund im Protokoll festhalten und im Rapport melden.
+    Review-Notiz weder als erledigt markieren noch löschen; bereits visierte Schritte nur auf Anweisung des WP ergänzen.'
+  wer: Agent
+  revio: lesen rv_get_workpapers_LoadDossierNotesByNoteType (Typ Review); Textfeld Bereich 4; Kommentar an visierten Schritt (rv_post_auditActivities_AppendCommentToSignedActivity) nur
+    auf Anweisung
+  mfiles: fehlende Nachweise nachbeschaffen; Protokolleintrag
+  fundstellen:
+  - quelle: leitfaden-qm-2025__6-1-1
+    zitat: die durchgeführten Tätigkeiten und Schlussfolgerungen zu diesen Arbeiten zur Durchsicht vorlegen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Notizen löscht oder erledigt er nie.
+  - quelle: hwp-er-2026__rz-0119-s175-t1
+    zitat: Hierfür ist es nicht notwendig, dass der leitende Revisor sämtliche Arbeitspapiere durchsieht und visiert.
+- was: 'Konsultation, auftragsbegleitende QS und Memorandum vorbereiten: Sachverhalte markieren, die eine Konsultation oder aQS nahelegen (z.B. Fortführungsrisiko aus 3.4, Überschuldung,
+    umstrittene Bewertung), und im Rapport als Entscheidungspunkt aufführen; auf Anweisung Entwurf einer Zusammenfassung der Prüfungsergebnisse als Basis für Memorandum und Schlussbesprechung.
+    Durchführung und Dokumentation der Konsultation beim WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.4 Going concern lesen; Notiz «Schlussbesprechung»; Rapport (Prozess 4)
+  mfiles: Memorandum/Konsultationsnotiz des WP ablegen (Ablageort durch consis festzulegen)
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0120-s176
+    zitat: Bei schwierigen oder umstrittenen Sachverhalten (bspw. betreffend die Rechnungslegung oder das konkrete Prüfungsvorgehen) ist zu entscheiden, ob eine Konsultation
+  - quelle: hwp-er-2026__rz-0121-s176-t1
+    zitat: 'Als Kriterien kommen u.a. in Betracht: Prüfungsmandate mit Risiken im Hinblick auf die Fähigkeit zur Unternehmensfortführung'
+  - quelle: ser-2022__7-2
+    zitat: Ein Memorandum, das die abschliessende Durchsicht der Prüfungsdokumentation durch den leitenden Abschlussprüfer und die Prüfungsergebnisse
+  - quelle: hwp-er-2026__rz-0275-s246
+    zitat: Es kann beispielsweise auch als Basis für die Abschlussbesprechung mit dem Prüfungskunden dienen.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+- was: 'Abschluss der endgültigen Auftragsakte und Archivierung: nach dem Berichtsdatum innerhalb der internen Frist (in der Regel höchstens 60 Tage) Akte zusammenstellen, Archivierungsreife
+    und Schlussvermerk setzen, versiegeln, archivieren. Danach nichts mehr entfernen; Änderungen nur mit Wer/Datum/Grund/Auswirkung.'
+  wer: WP
+  revio: Bereich 9.0 (Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk); Siegel/Archiv (rv_post_clientsManagement_RequestSeal_by_dossierId, rv_post_clientsManagement_SealAnualFile,
+    rv_post_clientsManagement_ArchiveDossier, rv_put_workpapers_UpdateDocumentationAttachementSealedState) – nur Mensch
+  mfiles: ''
+  fundstellen:
+  - quelle: leitfaden-qm-2025__6-1-11-t1
+    zitat: Die Prüfgesellschaft muss Fristen festlegen, bis wann die endgültigen Auftragsakten abzuschliessen sind.
+  - quelle: hwp-er-2026__rz-0334-s258
+    zitat: beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk
+  - quelle: hwp-er-2026__rz-0286-s248
+    zitat: sollte der Abschlussprüfer bis zum Ablauf der Aufbewahrungsfrist keine Dokumentationen mehr entfernen oder aussortieren
+- was: 'PDF-Akte (Prozess 6) nur auf ausdrückliche Anweisung des WP: aus revio erzeugen, auf Vollständigkeit prüfen, in M-Files ablegen; nichts überschreiben, Speicherort im Protokoll
+    bestätigen, bei Fehler Pendenz.'
+  wer: Agent
+  revio: PDF-Erzeugung (vermutlich rv_post_containerDefinitions_GeneratePdfReport; Machbarkeit offen) – nur auf Anweisung
+  mfiles: Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»; bestehende Version nie überschreiben
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c010-1
+    zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: PDF-Akte erzeugen, prüfen, in M-Files ablegen (Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»)
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Nichts überschreiben; Ablage mit Speicherort bestätigen
+- was: 'Aufbewahrung und Integrität: Revisionsberichte, Arbeitspapiere und wesentliche Unterlagen mindestens 10 Jahre ab Berichtsdatum sicher, lesbar und änderungsnachweisbar aufbewahren,
+    auch nach Mandatsende; Kundenakten zurückgeben und Kopien behalten. Löschen oder Bereinigen von Archiven nie durch den Agenten.'
+  wer: WP
+  revio: Archiv nur lesend (rv_get_clientsManagement_LoadArchiveAuditLog_by_dossierId, rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId); rv_get_clientsManagement_GetExpiredArchivesPurged
+    nie
+  mfiles: Aufbewahrungsregel für Klasse «Revision» und Agenten-Protokolle (consis/enco, offen)
+  fundstellen:
+  - quelle: or__art-730c
+    zitat: Elektronische Daten müssen während der gleichen Zeitperiode wieder lesbar gemacht werden können.
+  - quelle: hwp-er-2026__rz-0288-s248
+    zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+  - quelle: hwp-er-2026__rz-0289-s248
+    zitat: Die Arbeitspapiere des Abschlussprüfers sollten in sicherer Umgebung aufbewahrt werden.
+  - quelle: hwp-er-2026__rz-0186-s072
+    zitat: hat die Revisionsstelle Kopien zu erstellen und diese aufzubewahren
+- was: 'Geheimnis und Datenschutz im laufenden Betrieb: keine Mandantendaten an Dritte oder ausserhalb der freigegebenen Systeme; E-Mail in der Testphase nur als Entwurf oder an die
+    fixe WP-Adresse, nie an Kunden; Geschäftsgeheimnisse auch in Rapport- und GVB-Entwurf wahren; Anfragen Dritter (Behörden, Nachfolgerevisor, Aktionäre) nie selbst beantworten, sondern
+    als Pendenz an den WP.'
+  wer: Agent
+  revio: kein Kundenversand (Dienstbenutzer ohne Versandrecht)
+  mfiles: nur Dokumente des fixierten Mandats lesen/ablegen
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
+  - quelle: or__art-730b
+    zitat: Sie wahrt bei der Berichterstattung, bei der Erstattung von Anzeigen und bei der Auskunftserteilung an die Generalversammlung die Geschäftsgeheimnisse der Gesellschaft.
+  - quelle: leitfaden-qm-2025__8-1-t2
+    zitat: Datenschutz oder Geheimhaltung können die Praxis auch daran hindern, Informationen an Dritte weiterzugeben.
+  - quelle: leitfaden-qm-2025__4-1-t2
+    zitat: Dritten gegenüber solche Informationen nicht ohne geeignete und ausdrückliche Genehmigung preiszugeben
+- was: 'Voraussetzungen für den KI-Einsatz vor dem ersten Test mit Echtdaten klären: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht
+    OR 730b; Berechtigungskonzept und Dienstbenutzer; Lizenz HWP/SER; Aufbewahrung der Agenten-Protokolle; Abnahmekriterien. Der Agent ist eine Ressource eines Dienstleisters – die Verantwortung
+    für das QM bleibt bei der Praxis.'
+  wer: WP
+  revio: Dienstbenutzer ohne Recht für Visum, Abschlussstatus, Freigabe, Kundenversand; Löschrechte eingeschränkt
+  mfiles: Berechtigungskonzept und Dienstbenutzer (enco)
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c015-3
+    zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt
+  - quelle: konzept-ki-revisionsagent-2026__c022-1
+    zitat: Aufbewahrung der Agenten-Protokolle
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Lizenz für HWP und SER vorher mit EXPERTsuisse klären
+  - quelle: leitfaden-qm-2025__7-1-4
+    zitat: Ungeachtet dessen, dass eine Praxis Ressourcen eines Dienstleisters nutzen kann, bleibt die Praxis für ihr Qualitätsmanagementsystem verantwortlich.
+- was: 'Testphase stufenweise: technische Machbarkeit, dann nur lesend (Rapport ohne Ablage, Vergleich mit der Arbeit des Revisors), erst danach schreibend; Halt nach dem Import; revio-Updates
+    auf dem Agenten-Arbeitsplatz erst nach Test; nie direkt in die Datenbank schreiben.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Bedienung über die Oberfläche mit eigenem Benutzer; in der lesenden Phase keine schreibenden Werkzeuge
+  mfiles: 'lesende Phase: nichts ablegen'
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c023-1
+    zitat: Zuerst die technische Machbarkeit klären, dann lesend testen und erst danach schreibend arbeiten lassen.
+  - quelle: konzept-ki-revisionsagent-2026__c023-1
+    zitat: 'Nur lesend testen: Der Agent bearbeitet ein Testmandat, schreibt den Rapport, legt aber nichts in revio oder M-Files ab.'
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: Direktes Schreiben in die Datenbank ist ausgeschlossen, weil es Anwendungslogik, Historie und Support umgeht.
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: Updates werden deshalb auf dem Agenten-Arbeitsplatz erst nach einem Test eingespielt.
+  - quelle: hwp-er-2026__rz-0098-s172
+    zitat: Prozesse zur Autorisierung des Zugangs zur IT-Anwendung und zur Verarbeitung von Updates der IT-Anwendung
+entscheidungen_wp:
+- text: Ob die erlangten Nachweise ausreichend und geeignet sind und der Bericht abgegeben werden kann (Durchsicht vor Berichtsdatum).
+  quelle: hwp-er-2026__rz-0119-s175-t1
+  zitat: Speziell ist im Rahmen der Durchsicht darauf zu achten, dass die erlangten Nachweise ausreichend und geeignet sind, um die Prüfungsaussage im Revisionsbericht zu stützen.
+- text: Visum je Schritt, ✓ je Prüffeld, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status in Bereich 10.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: alles bleibt beim Menschen
+- text: Ob bei schwierigen oder umstrittenen Sachverhalten eine Konsultation durchgeführt wird; deren Dokumentation und Umsetzung.
+  quelle: leitfaden-qm-2025__6-1-4-t1
+  zitat: Die aus der Konsultation resultierenden Schlussfolgerungen müssen umgesetzt werden.
+- text: Ob eine auftragsbegleitende Qualitätssicherung nötig ist (Kriterien der Praxis; bei KMU meist nicht).
+  quelle: leitfaden-qm-2025__6-2-t1
+  zitat: In kleineren Prüfgesellschaften kann folglich in den meisten Fällen von einer auftragsbegleitenden Qualitätssicherung abgesehen werden
+- text: Entscheid über Meinungsverschiedenheiten vor Berichtsabgabe.
+  quelle: leitfaden-qm-2025__6-1-10
+  zitat: Ein Revisionsbericht darf nicht abgegeben werden, bevor nicht eine Entscheidung hinsichtlich einer allfälligen Meinungsverschiedenheit getroffen wurde
+- text: Ob ein Memorandum zur abschliessenden Durchsicht erstellt wird (empfohlen) und dessen Inhalt.
+  quelle: ser-2022__7-2
+  zitat: Ein Memorandum, das die abschliessende Durchsicht der Prüfungsdokumentation durch den leitenden Abschlussprüfer und die Prüfungsergebnisse
+- text: Abschluss der endgültigen Auftragsakte innerhalb der internen Frist, Archivierungsreife, Schlussvermerk, Siegel und Archivierung.
+  quelle: konzept-ki-revisionsagent-2026__c006-2
+  zitat: 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk
+- text: Nachträgliche Änderungen an abgeschlossenen Arbeitspapieren (nur mit Wer/Datum/Grund/Auswirkung).
+  quelle: hwp-er-2026__rz-0286-s248
+  zitat: Wer diese Änderungen an welchem Datum ausführte und wer ggf. zu welchem Zeitpunkt die Durchsicht vornahm
+- text: Anweisung zur PDF-Akte (Prozess 6).
+  quelle: konzept-ki-revisionsagent-2026__c010-1
+  zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
+- text: Entbindung vom Revisionsgeheimnis bzw. Weitergabe an Dritte (schriftlich, durch Auftraggeber).
+  quelle: hwp-er-2026__rz-0010-s150-t2
+  zitat: Die Revisionsstelle kann weiter durch ihren Auftraggeber vom Revisionsgeheimnis entbunden werden (dies sollte unbedingt schriftlich festgehalten werden).
+- text: 'E-Mail-Versand des Rapports: Freigabe, Empfängeradresse, Anhänge (consis, technisch enco).'
+  quelle: konzept-ki-revisionsagent-2026__c015-3
+  zitat: Wer gibt was frei? Welche Empfängeradresse, welche Anhänge?
+- text: Datenschutz und Berufsgeheimnis beim KI-Einsatz vor dem ersten Echtdaten-Test (consis mit enco und AI-Partner).
+  quelle: konzept-ki-revisionsagent-2026__c015-3
+  zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
+- text: Aufbewahrung der Agenten-Protokolle und Abnahmekriterien der Testphase (Governance, offen).
+  quelle: konzept-ki-revisionsagent-2026__c022-1
+  zitat: 'Abnahmekriterien: Wann gilt die Testphase als bestanden?'
+- text: Ob der Agent in 3.5 als «zugewiesener Mitarbeiter» geführt wird (Sichtbarkeit seiner Arbeit für Review und Nachschau).
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: Entscheid, ob der Agent in 3.5 als eigener «zugewiesener Mitarbeiter» geführt wird
+unterlagen:
+- dokument: Unterzeichnete Jahresrechnung und Vollständigkeitserklärung
+  zweck: Pflichtbestandteil der Jahresakten; Ablage revio 10.4
+  quelle: ser-2022__7-2
+  zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+- dokument: 'Dauerakten: Statuten, Registerauszug, wesentliche mehrjährige Verträge'
+  zweck: Aktualisieren Dauerakten (xx-322, P1-321)
+  quelle: ser-2022__7-3
+  zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- dokument: Korrespondenz, E-Mails und Gesprächsprotokolle mit dem Kunden
+  zweck: Prüfungsnachweise; Ablage 10.6 Korrespondenz und Diverses
+  quelle: ser-2022__7-2
+  zitat: Korrespondenzen und Gesprächsprotokolle mit dem Prüfungskunden können ebenfalls Prüfungsnachweise darstellen.
+- dokument: Auftragsbestätigung (ggf. mit Regelung zu Geheimhaltung, Datenschutz und Zugang Dritter für Peer Review)
+  zweck: Grundlage für Weitergabe an externe Qualitätssicherer
+  quelle: ser-2022__anh-c-s058-1
+  zitat: Ggf. zu ergänzen um Regelungen zu Geheimhaltung und Datenschutz für den Fall
+- dokument: Protokoll der Schlussbesprechung
+  zweck: Dokumentation der mündlichen Berichterstattung
+  quelle: hwp-er-2026__rz-0459-s289
+  zitat: Es empfiehlt sich, über die Schlussbesprechung ein (Kurz-)Protokoll zu erstellen.
+- dokument: Agenten-Protokoll (Audit Trail) pro Mandat und Jahr
+  zweck: Nachvollziehbarkeit des KI-Einsatzes (wer, was, wann, Quelle)
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- dokument: Interne Prüfungsanweisungen, Wesentlichkeitsmethodik, Muster-Arbeitspapiere
+  zweck: Wissensschicht des Agenten (intellektuelle Ressourcen)
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Interne Prüfungsanweisungen, SER, Wesentlichkeitsmethodik und Muster-Arbeitspapiere als durchsuchbare Wissensbasis
+- dokument: Berechtigungskonzept M-Files/revio und Dienstbenutzer
+  zweck: Zugriffsschutz und Vertraulichkeit der Auftragsdokumentation
+  quelle: konzept-ki-revisionsagent-2026__c018-1
+  zitat: Berechtigungskonzept und Möglichkeit eines Dienstbenutzers
+- dokument: PDF-Akte «AP revio» (nur auf Anweisung)
+  zweck: Archivfähige Gesamtakte in M-Files
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: PDF-Akte erzeugen, prüfen, in M-Files ablegen (Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»)
+dokumentation:
+- text: Einheitliches Ergebnis je Prüfschritt im Textfeld (Prüfziel, Quellen mit M-Files-ID und Version, Auswahl/Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen, Status).
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.
+- text: Welche Prüfziele der Nachweis abdeckt.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: der Agent hält im Textfeld fest, welche Prüfziele sein Nachweis abdeckt
+- text: Eigene Schlussfolgerung je Prüfungshandlung.
+  quelle: hwp-er-2026__rz-0278-s246
+  zitat: Für die Prüfungshandlungen hält der Abschlussprüfer eigene Schlussfolgerungen fest.
+- text: Datum und Ersteller (Dienstbenutzer des Agenten) jedes Arbeitspapiers; Review-Datum und Reviewer setzt der WP.
+  quelle: hwp-er-2026__rz-0278-s246
+  zitat: Die Arbeitspapiere sind zu datieren und vom Ersteller zu kennzeichnen.
+- text: Auflösung von Inkonsistenzen zwischen Feststellungen und Prüfungsaussage.
+  quelle: hwp-er-2026__rz-0290-s248
+  zitat: dokumentiert der Abschlussprüfer in den Arbeitspapieren, wie er die Inkonsistenz oder den Widerspruch aufgelöst hat
+- text: Mündliche und schriftliche Berichterstattung (Schlussbesprechung, Rapport).
+  quelle: hwp-er-2026__rz-0290-s248
+  zitat: Der Abschlussprüfer achtet darauf, dass die mündliche wie auch die schriftliche Berichterstattung in den Arbeitspapieren dokumentiert ist.
+- text: Konsultationen (durch den WP) angemessen dokumentieren.
+  quelle: leitfaden-qm-2025__6-1-4-t1
+  zitat: Die Konsultation ist angemessen zu dokumentieren.
+- text: 'Änderungen nach Abschluss der Akte: wer, wann, Durchsicht, Gründe, Auswirkungen.'
+  quelle: hwp-er-2026__rz-0286-s248
+  zitat: Wer diese Änderungen an welchem Datum ausführte und wer ggf. zu welchem Zeitpunkt die Durchsicht vornahm
+- text: Audit Trail des Agenten mit Zeitstempel pro Mandat und Jahr.
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- text: Ablage der PDF-Akte mit bestätigtem Speicherort.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Nichts überschreiben; Ablage mit Speicherort bestätigen
+fallstricke:
+- text: 'Mandatsvermischung: Zugriff oder Ablage ausserhalb des fixierten Kontexts verletzt das Revisionsgeheimnis – sofort abbrechen, Pendenz.'
+  quelle: konzept-ki-revisionsagent-2026__c009-1
+  zitat: Jeder Zugriff und jede Ablage wird dagegen geprüft; bei Abweichung bricht der Agent ab und erfasst eine Pendenz.
+- text: E-Mail an Kunden oder Dritte in der Testphase – nur Entwurf oder fixe WP-Adresse.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
+- text: Notizen (auch «Review») löschen oder als erledigt markieren.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Notizen löscht oder erledigt er nie.
+- text: Siegel-, Archiv-, Review-Freigabe- und Löschwerkzeuge in revio aufrufen (z.B. SealAnualFile, ArchiveDossier, ApproveGlobalDossierReview, DeleteNote, GetExpiredArchivesPurged)
+    – nur Mensch.
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt
+- text: Direkt in die revio-Datenbank schreiben – umgeht Historie und Nachvollziehbarkeit.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: Direktes Schreiben in die Datenbank ist ausgeschlossen, weil es Anwendungslogik, Historie und Support umgeht.
+- text: Review «nachholen» nach Berichtsabgabe ist unzulässig – offene Punkte müssen vor dem Berichtsdatum im Rapport stehen.
+  quelle: leitfaden-qm-2025__6-2-t3
+  zitat: hat der Auftragsverantwortliche vor Abgabe des Revisionsberichts sicherzustellen, dass eine entsprechende Durchsicht der Arbeiten der weniger erfahrenen Teammitglieder stattgefunden
+    hat
+- text: Vollständigkeitserklärung als Ersatz für Nachweise verwenden.
+  quelle: hwp-er-2026__rz-0338-s259
+  zitat: die Vollständigkeitserklärung kein Ersatz für Prüfungsnachweise ist
+- text: Nach Abschluss der endgültigen Akte Dokumente entfernen oder überschreiben.
+  quelle: hwp-er-2026__rz-0286-s248
+  zitat: sollte der Abschlussprüfer bis zum Ablauf der Aufbewahrungsfrist keine Dokumentationen mehr entfernen oder aussortieren
+- text: Kundenoriginale zurückbehalten statt zurückgeben (nur Kopien aufbewahren).
+  quelle: hwp-er-2026__rz-0284-s248
+  zitat: Es besteht kein Retentionsrecht des Abschlussprüfers an den Akten, die er vom geprüften Unternehmen erhalten hat.
+- text: Fehlende Angaben oder Nachweise ergänzen statt als Pendenz melden.
+  quelle: konzept-ki-revisionsagent-2026__c005-1
+  zitat: fehlende Daten dürfen nicht erfunden werden
+- text: Annahme, der KI-Dienstleister trage die Qualitätsverantwortung – sie bleibt bei der Praxis bzw. beim WP.
+  quelle: leitfaden-qm-2025__7-1-4
+  zitat: Ungeachtet dessen, dass eine Praxis Ressourcen eines Dienstleisters nutzen kann, bleibt die Praxis für ihr Qualitätsmanagementsystem verantwortlich.
+- text: Verdacht auf Straftaten selbst bei Behörden melden – die Verschwiegenheit schliesst Anzeigen an Strafverfolgungsbehörden aus; Sachverhalt nur dem WP melden.
+  quelle: hwp-er-2026__rz-0010-s150-t2
+  zitat: die Verschwiegenheitspflicht der Revisionsstelle eine Anzeige an Strafverfolgungsbehörden ausschliesst
+- text: Wissensbasis (HWP, SER, Muster) oder revio-Werkzeugliste nach aussen geben – lizenziert bzw. proprietär, Lizenzlage offen.
+  quelle: konzept-ki-revisionsagent-2026__c019-1
+  zitat: Lizenzsituation für HWP und SER
+- text: revio-Updates ungetestet auf dem Agenten-Arbeitsplatz einspielen.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: Updates werden deshalb auf dem Agenten-Arbeitsplatz erst nach einem Test eingespielt.
+- text: Seminarunterlagen «Datenschutz bei der Nutzung von KI» (seminar-ki-datenschutz-2026, Folien 53–68) sind ein Bildscan ohne Textlayer und nicht gechunkt – daraus nichts zitieren;
+    Original raw/seminar-ki-datenschutz-2026.pdf vom WP lesen lassen.
+fragen_kunde:
+- frage: Sind Sie einverstanden, dass für die gesetzlich vorgesehene Qualitätssicherung (Nachschau/Peer Review) externe Berufsangehörige unter Vertraulichkeit Einsicht in die Auftragsakten
+    erhalten (Regelung in der Auftragsbestätigung)?
+  zweck: 'SER 1.7, SER Anhang C Fn. [9], Leitfaden QM 6.1.12: Zugang Dritter und Entbindung vom Revisionsgeheimnis vereinbaren; Frage stellt der WP, der Agent bereitet nur die Formulierung
+    vor.'
+- frage: Liegen die vom Vorsitzenden des Verwaltungsrats und der für die Rechnungslegung zuständigen Person unterzeichnete Jahresrechnung und Vollständigkeitserklärung vor?
+  zweck: 'SER 7.2: Bestandteil der Jahresakten; Ablage 10.4, Prüfschritte A1-103/A1-301.'
+- frage: Haben sich Statuten, Handelsregistereintrag oder wesentliche mehrjährige Verträge seit dem Vorjahr geändert?
+  zweck: Dauerakten aktualisieren (SER 7.3; Schritte xx-322/P1-321).
+- frage: Welche Originalunterlagen haben Sie uns übergeben, und wie sollen sie zurückgegeben werden?
+  zweck: 'HWP ER Rz 284: Rückgabe anvertrauter Akten, kein Retentionsrecht; in der Akte bleiben Kopien (Rz 186).'
+- frage: Bestehen besondere Geheimhaltungs- oder Datenschutzanforderungen (z.B. Personendaten, Geschäftsgeheimnisse, vertragliche Vertraulichkeit), die bei Übermittlung und Ablage der
+    Unterlagen zu beachten sind?
+  zweck: OR 730b Abs. 2 und Datenschutzvorgaben (HWP ER Rz 103) einhalten; sichere Übermittlungswege mit dem WP festlegen.
+muster:
+- vorlage: 'SER Anhang C, Redaktionelle Erläuterung [9]: Auftragsbestätigung um Geheimhaltung und Datenschutz für Peer Review ergänzen'
+  chunk: ser-2022__anh-c-s058-1
+- vorlage: 'Muster HWP ER: Auftragsbestätigung eingeschränkte Revision (Verweis auf SER Anhang C, Beispiel 1)'
+  chunk: muster-hwp-er-2026__c006-1
+- vorlage: 'Muster HWP ER: Vollständigkeitserklärung eingeschränkte Revision (Verweis auf SER Anhang E, Beispiel 1)'
+  chunk: muster-hwp-er-2026__c011-1
+- vorlage: 'Leitfaden QM Arbeitshilfe 5.1: Checkliste «Laufende Überwachung und abschliessende Durchsicht» (im Wiki nur Titel, Inhalt im Original)'
+  chunk: leitfaden-qm-2025__5-1
+- vorlage: 'Leitfaden QM Arbeitshilfe 5.2: Abklärungen zur Notwendigkeit einer auftragsbegleitenden Qualitätssicherung (nur Titel)'
+  chunk: leitfaden-qm-2025__5-2
+- vorlage: 'Leitfaden QM Arbeitshilfe 5.3: Muster Vertraulichkeitserklärung mit angemessen qualifizierter externer Person (nur Titel)'
+  chunk: leitfaden-qm-2025__5-3
+- vorlage: 'Leitfaden QM Arbeitshilfe 5.7: Ergänzung der Auftragsbestätigung bei Bezug externer Berufsangehöriger / Entbindung (nur Titel)'
+  chunk: leitfaden-qm-2025__5-7
+- vorlage: 'Leitfaden QM Arbeitshilfe 2.4: Erklärung zur Verschwiegenheit für Mitarbeitende (nur Titel)'
+  chunk: leitfaden-qm-2025__2-4
+- vorlage: 'Leitfaden QM Arbeitshilfe 2.5: Verpflichtung zur Einhaltung der IT-Verhaltensrichtlinien (nur Titel)'
+  chunk: leitfaden-qm-2025__2-5
+- vorlage: 'Leitfaden QM Arbeitshilfe 2.6: Informatik-Charta für Mitarbeiter (nur Titel)'
+  chunk: leitfaden-qm-2025__2-6
+- vorlage: 'Leitfaden QM Arbeitshilfe 6.2.1: Checkliste «Mandatsbezogene Kontrollaspekte und -fragen» – eingeschränkte Revision (nur Titel)'
+  chunk: leitfaden-qm-2025__6-2-1
+- vorlage: 'Leitfaden QM Arbeitshilfe 6.3: Muster eines Nachschauberichts (nur Titel)'
+  chunk: leitfaden-qm-2025__6-3
+prueffelder:
+- A1
+- B1
+- C1
+- D1
+- F1
+- F2
+- G1
+- G2
+- H1
+- H2
+- H3
+- I1
+- K1
+- L1
+- M1
+- M3
+- N1
+- O1
+- P1
+- R1

@@ -1,0 +1,1998 @@
+# Schwellenwerte, Sätze, Fristen – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-12 (Workflow, nachgeprüft).
+werte:
+- key: or727_bilanzsumme
+  bezeichnung: 'Ordentliche Revision: Schwelle Bilanzsumme'
+  wert: '20000000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. a OR. Ordentliche Revision, wenn zwei der drei Grössen (Bilanzsumme, Umsatzerlös, Vollzeitstellen) in zwei aufeinander folgenden Geschäftsjahren
+    überschritten werden; sonst eingeschränkte Revision (Art. 727a Abs. 1). Massgebend ist die handelsrechtliche Jahresrechnung, kein interner Abschluss ohne stille Reserven (HWP ER
+    Rz 305, hwp-er-2026__rz-0305-s097). Fremdwährung: Stichtagskurs (Abs. 1bis). Beurteilung der Revisionsart: WP.'
+  quelle: or__art-727
+  zitat: Bilanzsumme von 20 Millionen Franken
+  status: agent-geprueft
+- key: or727_umsatzerloes
+  bezeichnung: 'Ordentliche Revision: Schwelle Umsatzerlös'
+  wert: '40000000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. b OR; zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Umsatzerlös weit ausgelegt: grundsätzlich alle Erträge der Erfolgsrechnung
+    (HWP ER Rz 306). Fremdwährung: Jahresdurchschnittskurs (Abs. 1bis). Kurz-/Langjahr annualisieren (HWP ER Rz 311).'
+  quelle: or__art-727
+  zitat: Umsatzerlös von 40 Millionen Franken
+  status: agent-geprueft
+- key: or727_vollzeitstellen
+  bezeichnung: 'Ordentliche Revision: Schwelle Vollzeitstellen'
+  wert: '250'
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1 Ziff. 2 lit. c OR; Jahresdurchschnitt, zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Ermittlung als Vollzeitäquivalente (HWP ER Rz
+    307–308).
+  quelle: or__art-727
+  zitat: 250 Vollzeitstellen im Jahresdurchschnitt
+  status: agent-geprueft
+- key: or727_zwei_von_drei
+  bezeichnung: 'Ordentliche Revision: Regel zwei von drei Grössen in zwei Jahren'
+  wert: 2 von 3 Grössen in 2 aufeinander folgenden Geschäftsjahren
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Berichts- und Vorjahr beiziehen (HWP ER Rz 304). Die überschrittenen Grössen dürfen von Jahr zu Jahr wechseln (HWP ER Rz 309). Weitere Gründe für ordentliche Revision:
+    Publikumsgesellschaft (Ziff. 1), Konzernrechnungspflicht (Ziff. 3), Verlangen von 10 % des Aktienkapitals (Abs. 2), Statuten/GV (Abs. 3).'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+  status: agent-geprueft
+- key: hwp_er_schwellen_kombination_wechselnd
+  bezeichnung: 'Schwellenwerte: Kombination der Grössen darf wechseln'
+  wert: gleiche zwei Grössen nicht erforderlich
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 309: z.B. Berichtsjahr Umsatz + Bilanzsumme, Vorjahr Bilanzsumme + Vollzeitstellen → ordentliche Revisionspflicht.'
+  quelle: hwp-er-2026__rz-0309-s098
+  zitat: ist es nicht erforderlich, dass im Berichts- und im Vorjahr die gleichen beiden Referenzgrössen die massgeblichen Schwellenwerte überschreiten
+  status: agent-geprueft
+- key: hwp_er_erstmalige_ueberschreitung
+  bezeichnung: 'Schwellenwerte: erstmalige Überschreitung (zeitlicher Aufschub)'
+  wert: ordentliche Revision erst ab 2. Jahr der Überschreitung
+  einheit: Jahre
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 310: Aufschub nur bei Art. 727 Abs. 1 Ziff. 2 OR; die übrigen Kriterien von Art. 727 OR wirken sofort.'
+  quelle: hwp-er-2026__rz-0310-s098
+  zitat: Gesellschaften, welche die Schwellenwerte erstmals in einem Geschäftsjahr überschreiten, müssen die entsprechende Jahresrechnung noch nicht ordentlich revidieren lassen.
+  status: agent-geprueft
+- key: hwp_er_unterschreitung_sofort
+  bezeichnung: 'Schwellenwerte: erstmalige Unterschreitung'
+  wert: Pflicht zur ordentlichen Revision erlischt sofort (gleiches Geschäftsjahr)
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 347: werden im Geschäftsjahr erstmals zwei von drei Schwellenwerten unterschritten, gilt bereits für dieses Jahr die eingeschränkte Revision.'
+  quelle: hwp-er-2026__rz-0347-s107
+  zitat: erlischt die Pflicht zur ordentlichen Revision der Jahresrechnung sofort
+  status: agent-geprueft
+- key: hwp_er_vollzeitstellen_vze
+  bezeichnung: 'Vollzeitstellen: Ermittlung (Vollzeitäquivalente)'
+  wert: Teilzeit und Lernende anteilig nach Pensum
+  einheit: Vollzeitstellen
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 308: Durchschnitt in stabilen Verhältnissen aus Jahresanfangs- und -endbestand; bei Schwankungen mindestens Quartals-, besser Monatsstände. Zurechnung beim rechtlichen
+    Arbeitgeber (Rz 307).'
+  quelle: hwp-er-2026__rz-0308-s097
+  zitat: Lernende und Teilzeitbeschäftigte sind in die Ermittlung der Vollzeitstellen einzubeziehen.
+  status: agent-geprueft
+- key: hwp_er_umsatzerloes_auslegung
+  bezeichnung: 'Umsatzerlös i.S.v. Art. 727 OR: Auslegung'
+  wert: grundsätzlich alle Erträge der Erfolgsrechnung
+  einheit: CHF
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 306: inkl. betriebsfremde, ausserordentliche und Finanzerträge; Erlöse nach Erlösminderungen. Einmalige ausserordentliche Erträge ausnahmsweise differenziert
+    betrachten.'
+  quelle: hwp-er-2026__rz-0306-s097
+  zitat: grundsätzlich alle Erträge der Erfolgsrechnung zu berücksichtigen sind
+  status: agent-geprueft
+- key: hwp_er_kurzjahr_annualisierung
+  bezeichnung: 'Umsatzerlös bei Kurz-/Langjahr: Annualisierung'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 311: z.B. bei Gründung oder Liquidation; saisonale Schwankungen berücksichtigen.'
+  quelle: hwp-er-2026__rz-0311-s098
+  zitat: der realisierte Umsatzerlös auf ein «Volljahr» (zwölf Monate) hoch- bzw. heruntergerechnet
+  status: agent-geprueft
+- key: or727_publikumsgesellschaft_20
+  bezeichnung: 'Publikumsgesellschaft: Beitrag zur Konzernrechnung'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 1 lit. c OR: Beitrag zur Konzernrechnung einer kotierten Gesellschaft oder einer Gesellschaft mit Anleihen → ordentliche Revision (sofort, kein Aufschub).'
+  quelle: or__art-727
+  zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung
+  status: agent-geprueft
+- key: or727_konzernrechnungspflicht
+  bezeichnung: Ordentliche Revision bei Konzernrechnungspflicht
+  wert: Konzernrechnungspflicht → ordentliche Revision
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1 Ziff. 3 OR. Bei Mandanten mit Tochtergesellschaften Befreiung nach Art. 963a OR prüfen (Grössen 20 Mio./40 Mio./250 inkl. kontrollierte Unternehmen).
+  quelle: or__art-727
+  zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+  status: agent-geprueft
+- key: or727_abs2_minderheit_10
+  bezeichnung: Opting-up auf Verlangen von Aktionären
+  wert: '10'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 2 OR: ordentliche Revision unabhängig von den Schwellenwerten (HWP ER Rz 312).'
+  quelle: or__art-727
+  zitat: Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+  status: agent-geprueft
+- key: or727_abs1bis_umrechnung
+  bezeichnung: 'Schwellenwerte bei Fremdwährung: Umrechnungskurse'
+  wert: 'Bilanzsumme: Stichtagskurs; Umsatzerlös: Jahresdurchschnittskurs'
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1bis OR; gleich Art. 963a Abs. 3 OR für die Konzernrechnungspflicht.
+  quelle: or__art-727
+  zitat: für die Bilanzsumme der Umrechnungskurs zum Bilanzstichtag und für den Umsatzerlös der Jahresdurchschnittskurs massgebend
+  status: agent-geprueft
+- key: or818_gmbh_revisionsstelle
+  bezeichnung: 'GmbH: Revisionsstelle nach Aktienrecht'
+  wert: Aktienrecht entsprechend anwendbar
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 818 Abs. 1 OR: Schwellenwerte Art. 727/727a gelten auch für die GmbH. Abs. 2: Gesellschafter mit Nachschusspflicht kann ordentliche Revision verlangen. Kapitalverlust/Überschuldung:
+    Art. 820 OR.'
+  quelle: or__art-818
+  zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
+  status: agent-geprueft
+- key: hwp_er_verein_schwellen
+  bezeichnung: 'Verein (Art. 69b ZGB): Schwellen ordentliche Revision'
+  wert: 10000000 / 20000000 / 50
+  einheit: CHF / CHF / Vollzeitstellen
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 314: zwei der drei Grössen in zwei aufeinander folgenden Geschäftsjahren überschritten. Swiss GAAP FER: gleiche Schwellen «10-20-50» für Kern-FER (Rz 317). ZGB
+    nicht als Chunk im Wiki.'
+  quelle: hwp-er-2026__rz-0314-s098
+  zitat: 1. Bilanzsumme von 10 Mio. CHF, 2. Umsatzerlös von 20 Mio. CHF, 3. 50 Vollzeitstellen im Jahresdurchschnitt.
+  status: agent-geprueft
+- key: or727a_opting_out_vollzeitstellen
+  bezeichnung: 'Opting-out: höchstens Vollzeitstellen'
+  wert: '10'
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727a Abs. 2 OR: Verzicht nur mit Zustimmung sämtlicher Aktionäre, nur für künftige Geschäftsjahre, Anmeldung beim Handelsregister vor Beginn des Geschäftsjahres; Jahresrechnung
+    des letzten Geschäftsjahres beilegen (Abs. 2bis). Massgebend sind die Tatsachen im betreffenden Geschäftsjahr, nicht der Zweijahresdurchschnitt (HWP ER Rz 313).'
+  quelle: or__art-727a
+  zitat: nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat
+  status: agent-geprueft
+- key: hwp_er_opting_out_massgebendes_jahr
+  bezeichnung: 'Opting-out: massgebendes Jahr für die zehn Vollzeitstellen'
+  wert: Tatsachen im betreffenden Geschäftsjahr
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 313: Unterschied zur Bestimmung der Revisionsart (Berichts- und Vorjahr).'
+  quelle: hwp-er-2026__rz-0313-s098
+  zitat: die Tatsachen im betreffenden Geschäftsjahr massgebend, nicht der Durchschnitt in zwei aufeinander folgenden Geschäftsjahren
+  status: agent-geprueft
+- key: or727a_anmeldung_vor_gj
+  bezeichnung: 'Opting-out: Anmeldung beim Handelsregister'
+  wert: vor Beginn des Geschäftsjahres
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 727a Abs. 2 OR; Verzicht gilt nur für künftige Geschäftsjahre.
+  quelle: or__art-727a
+  zitat: muss vor Beginn des Geschäftsjahres beim Handelsregisteramt angemeldet werden
+  status: agent-geprueft
+- key: or727a_frist_zustimmung
+  bezeichnung: 'Opting-out: Antwortfrist bei schriftlicher Zustimmung'
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 727a Abs. 3 OR: Ausbleiben einer Antwort kann als Zustimmung gelten, wenn der VR darauf hinweist.'
+  quelle: or__art-727a
+  zitat: eine Frist von mindestens 20 Tagen ansetzen
+  status: agent-geprueft
+- key: or727a_opting_in_10_tage
+  bezeichnung: 'Opting-in: Verlangen einer eingeschränkten Revision durch Aktionär'
+  wert: '10'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 727a Abs. 4 OR: Opting-out gilt auch für Folgejahre; jeder Aktionär kann jährlich eine eingeschränkte Revision verlangen (HWP ER Rz 68); die GV muss dann die Revisionsstelle
+    wählen.'
+  quelle: or__art-727a
+  zitat: spätestens zehn Tage vor der Generalversammlung eine eingeschränkte Revision zu verlangen
+  status: agent-geprueft
+- key: or725a_kapitalverlust_haelfte
+  bezeichnung: 'Kapitalverlust: Schwelle'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725a Abs. 1 OR, massgebend ist die letzte Jahresrechnung: Aktiven abzüglich Verbindlichkeiten < 50 % von (Aktienkapital + nicht zurückzahlbare gesetzliche Kapitalreserve
+    + gesetzliche Gewinnreserve). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2); gebotene Eile (Abs. 4). Rechner: revision.py kapitalverlust. GmbH:
+    Art. 820 OR.'
+  quelle: or__art-725a
+  zitat: die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
+  status: agent-geprueft
+- key: hwp_er_kapitalverlust_feststellung
+  bezeichnung: 'Kapitalverlust: Feststellung'
+  wert: 0 ≤ bilanzielles Eigenkapital < Hälfte des geschützten Eigenkapitals
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 371–372: Bezugsgrösse = Hälfte des geschützten Eigenkapitals; Vergleich mit dem bilanziellen Eigenkapital (Aktiven ./. Verbindlichkeiten) der letzten Jahresrechnung.
+    Eigenkapital < 0 → Überschuldung prüfen (Art. 725b OR).'
+  quelle: hwp-er-2026__rz-0372-s112
+  zitat: Ist das bilanzielle Eigenkapital grösser oder gleich null, aber kleiner als die Bezugsgrösse des geschützten Eigenkapitals
+  status: agent-geprueft
+- key: qa_kv_eigene_anteile
+  bezeichnung: 'Kapitalverlust: Einfluss eigener Kapitalanteile'
+  wert: geschütztes Eigenkapital bleibt unverändert
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: Eigene Kapitalanteile vermindern nur das frei verfügbare Eigenkapital (Q&A Frage 1).
+  quelle: qa-kapitalverlust-2023__1-1-t1
+  zitat: Das geschützte Eigenkapital und damit die Bezugsgrösse nach Art. 725a OR resp. PS-CH 290 bleiben unverändert.
+  status: agent-geprueft
+- key: qa_kv_covid_sbueg_bis
+  bezeichnung: 'Kapitalverlust/Überschuldung: Covid-19-Kredite nicht als Fremdkapital (SBüG) bis'
+  wert: 31.12.2032
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: 'Q&A Frage 2 (qa-kapitalverlust-2023__1-1-t1): Covid-19-Kredite zählen für Art. 725a und 725b OR nicht als Fremdkapital; die Bestimmungen gelten auch unter dem revidierten
+    Recht.'
+  quelle: qa-kapitalverlust-2023__1-1-t2
+  zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
+  status: agent-geprueft
+- key: qa_kv_hfmv20_bis
+  bezeichnung: 'Kapitalverlust/Überschuldung: Härtefall-Darlehen (HFMV 20) nicht als Fremdkapital bis'
+  wert: 31.12.2031
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: 'Q&A Frage 2: Darlehen bzw. verbürgte/garantierte Kredite nach HFMV 20 zählen für Kapitalverlust und Überschuldung nicht als Fremdkapital.'
+  quelle: qa-kapitalverlust-2023__1-1-t2
+  zitat: Jene der HFMV 20 sind gültig bis 31. Dezember 2031
+  status: agent-geprueft
+- key: or725b_ueberschuldung
+  bezeichnung: 'Überschuldung: Auslöser'
+  wert: 'begründete Besorgnis: Verbindlichkeiten nicht mehr durch Aktiven gedeckt'
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725b Abs. 1–3 OR: VR erstellt unverzüglich Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, lässt sie durch die Revisionsstelle prüfen und benachrichtigt
+    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1).'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+  status: agent-geprueft
+- key: or725b_sanierungsfrist_90
+  bezeichnung: 'Überschuldung: maximale Sanierungsfrist ohne Benachrichtigung des Gerichts'
+  wert: '90'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 725b Abs. 4 Ziff. 2 OR: nur solange begründete Aussicht auf Behebung besteht und Gläubiger nicht zusätzlich gefährdet werden. Zeichnet sich ab, dass 90 Tage nicht
+    reichen, darf von der Anzeige nicht mehr abgesehen werden (HWP ER Rz 435).'
+  quelle: or__art-725b-t1
+  zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
+  status: agent-geprueft
+- key: hwp_er_zwischenabschluss_immer
+  bezeichnung: 'Überschuldung: Zwischenabschluss auch kurz nach Bilanzstichtag'
+  wert: keine Erleichterung innert sechs Monaten ab Bilanzstichtag
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 402 (ebenso Q&A Frage 10): Zwischenabschluss in jedem Fall einverlangen; er startet die 90-Tage-Frist und dient der Bemessung des Rangrücktritts.'
+  quelle: hwp-er-2026__rz-0402-s120-t2
+  zitat: Art. 725 b OR sieht eine solche Erleichterung nicht vor.
+  status: agent-geprueft
+- key: hwp_er_rangruecktritt_polster
+  bezeichnung: 'Rangrücktritt: Sicherheitspolster für erwartete Verluste'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 421: Rangrücktritt nicht nur in Höhe des aktuellen Fremdkapitalüberhangs, sondern inkl. der in den nächsten 12 Monaten nach Unterzeichnung, mindestens bis zum
+    nächsten Prüfungszeitpunkt erwarteten Verluste.'
+  quelle: hwp-er-2026__rz-0421-s125
+  zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten
+  status: agent-geprueft
+- key: or729c_anzeigepflicht
+  bezeichnung: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung
+  wert: offensichtliche Überschuldung und Untätigkeit des VR
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 729c OR. Der Agent bereitet nur vor; Beurteilung und Anzeige entscheidet ausschliesslich der WP.
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  status: agent-geprueft
+- key: or725c_aufwertung
+  bezeichnung: Aufwertung zur Behebung von Kapitalverlust/Überschuldung
+  wert: höchstens bis zum wirklichen Wert (Grundstücke, Beteiligungen)
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2).'
+  quelle: or__art-725c
+  zitat: deren wirklicher Wert über die Anschaffungs- oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden
+  status: agent-geprueft
+- key: or672_zuweisung_gewinnreserve
+  bezeichnung: 'Gesetzliche Gewinnreserve: Zuweisung'
+  wert: '5'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 1 OR: ein Verlustvortrag ist vor der Zuweisung zu beseitigen. Prüfen beim Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR). Dividenden
+    erst nach den Zuweisungen (Art. 675 Abs. 3 OR). GmbH: Art. 801 OR.'
+  quelle: or__art-672
+  zitat: Der gesetzlichen Gewinnreserve sind 5 Prozent des Jahresgewinns zuzuweisen.
+  status: agent-geprueft
+- key: or672_grenze_50
+  bezeichnung: 'Gesetzliche Gewinnreserve: Äufnung bis'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 2 OR: gesetzliche Gewinn- und Kapitalreserve zusammen 50 % des im HR eingetragenen Aktienkapitals.'
+  quelle: or__art-672
+  zitat: bis sie zusammen mit der gesetzlichen Kapitalreserve die Hälfte des im Handelsregister eingetragenen Aktienkapitals erreicht
+  status: agent-geprueft
+- key: or672_grenze_holding_20
+  bezeichnung: 'Gesetzliche Gewinnreserve Holdinggesellschaft: Äufnung bis'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 2 OR: 20 % des im Handelsregister eingetragenen Aktienkapitals.'
+  quelle: or__art-672
+  zitat: Holdinggesellschaften müssen die gesetzliche Gewinnreserve äufnen, bis diese zusammen mit der gesetzlichen Kapitalreserve 20 Prozent
+  status: agent-geprueft
+- key: or671_rueckzahlung_50
+  bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve: Schwelle'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 671 Abs. 2 OR: gesetzliche Kapital- und Gewinnreserven abzüglich Verluste müssen 50 % des AK übersteigen. Nicht mitgerechnet: Reserve für eigene Aktien im Konzern
+    und Aufwertungsreserve (Abs. 4). Gilt entsprechend für die gesetzliche Gewinnreserve (Art. 672 Abs. 3).'
+  quelle: or__art-671
+  zitat: die Hälfte des im Handelsregister eingetragenen Aktienkapitals übersteigen
+  status: agent-geprueft
+- key: or671_rueckzahlung_holding_20
+  bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve Holdinggesellschaft: Schwelle'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: Art. 671 Abs. 3 OR (Holdinggesellschaften); Abs. 4 gilt ebenfalls.
+  quelle: or__art-671
+  zitat: wenn die gesetzlichen Kapital- und Gewinnreserven 20 Prozent des im Handelsregister eingetragenen Aktienkapitals überschreiten
+  status: agent-geprueft
+- key: or673_freiwillige_gewinnreserven
+  bezeichnung: 'Freiwillige Gewinnreserven: Voraussetzung'
+  wert: nur wenn das dauernde Gedeihen dies rechtfertigt
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 673 OR: Bildung durch Statuten oder GV-Beschluss (Abs. 1); Verwendung beschliesst die GV (Abs. 3). Keine Zahlenwerte.'
+  quelle: or__art-673
+  zitat: Freiwillige Gewinnreserven dürfen nur gebildet werden, wenn das dauernde Gedeihen des Unternehmens unter Berücksichtigung der Interessen aller Aktionäre dies rechtfertigt.
+  status: agent-geprueft
+- key: or659_eigene_aktien_10
+  bezeichnung: 'Eigene Aktien: Höchstgrenze'
+  wert: '10'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 659 Abs. 2 OR; Erwerb nur mit frei verwendbarem Eigenkapital in Höhe des Anschaffungswerts (Abs. 1). Überschreiten kann einen Hinweis im Bericht auslösen (SER 8.3.2,
+    ser-2022__8-3-2-t2).
+  quelle: or__art-659
+  zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+  status: agent-geprueft
+- key: or659_eigene_aktien_20_vinkulierung
+  bezeichnung: 'Eigene Aktien bei Vinkulierung/Auflösungsklage: Höchstgrenze und Veräusserungsfrist'
+  wert: 20 % / 2 Jahre
+  einheit: '% / Jahre'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 659 Abs. 3 OR: über 10 % hinaus erworbene Aktien innert zweier Jahre veräussern oder durch Kapitalherabsetzung vernichten.'
+  quelle: or__art-659
+  zitat: so beträgt die Höchstgrenze 20 Prozent. Die über 10 Prozent hinaus erworbenen Aktien sind innert zweier Jahre zu veräussern
+  status: agent-geprueft
+- key: or653s_kapitalband_bandbreite
+  bezeichnung: 'Kapitalband: Bandbreite'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 653s Abs. 2 OR: untere Grenze höchstens um die Hälfte unterschreiten. Ermächtigung zur Herabsetzung nur ohne Opting-out (Abs. 4). Anhangangabe Art. 959c Abs. 2 Ziff.
+    15 OR.'
+  quelle: or__art-653s
+  zitat: Die obere Grenze des Kapitalbands darf das im Handelsregister eingetragene Aktienkapital höchstens um die Hälfte übersteigen.
+  status: agent-geprueft
+- key: or653s_kapitalband_dauer
+  bezeichnung: 'Kapitalband: maximale Dauer'
+  wert: '5'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 653s Abs. 1 OR.
+  quelle: or__art-653s
+  zitat: während einer Dauer von längstens fünf Jahren das Aktienkapital innerhalb einer Bandbreite (Kapitalband) zu verändern
+  status: agent-geprueft
+- key: or699_ordentliche_gv
+  bezeichnung: 'Ordentliche Generalversammlung: Frist'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 699 Abs. 2 OR. SER 8.3.2 nennt die Nichteinhaltung der gesetzlichen Einberufungsfrist (Art. 699 OR) als Beispiel für einen möglichen Hinweis auf Gesetzesverstösse,
+    sofern wesentlich (ser-2022__8-3-2-t2); Entscheid WP. GmbH: Art. 805 Abs. 2 OR.'
+  quelle: or__art-699
+  zitat: innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt
+  status: agent-geprueft
+- key: or958_geschaeftsbericht_frist
+  bezeichnung: 'Geschäftsbericht: Erstellung und Vorlage zur Genehmigung'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 958 Abs. 3 OR; Unterzeichnung durch Vorsitzenden des VR und die für die Rechnungslegung zuständige Person. Nichteinhaltung der Vorlagepflicht als Hinweisbeispiel in
+    SER 8.3.2.
+  quelle: or__art-958
+  zitat: innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt und dem zuständigen Organ
+  status: agent-geprueft
+- key: or700_einberufung_gv
+  bezeichnung: Einberufung der Generalversammlung
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 700 Abs. 1 OR.
+  quelle: or__art-700
+  zitat: teilt den Aktionären die Einberufung der Generalversammlung mindestens 20 Tage vor dem Versammlungstag mit
+  status: agent-geprueft
+- key: or699a_unterlagen_20_tage
+  bezeichnung: Geschäftsbericht und Revisionsbericht zugänglich vor GV
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 699a Abs. 1 OR: für die Terminplanung des Revisionsberichts relevant (Bericht muss zu diesem Zeitpunkt vorliegen).'
+  quelle: or__art-699a
+  zitat: Mindestens 20 Tage vor der Generalversammlung sind den Aktionären der Geschäftsbericht und die Revisionsberichte zugänglich zu machen.
+  status: agent-geprueft
+- key: or731_bericht_vor_genehmigung
+  bezeichnung: Revisionsbericht vor Genehmigung der Jahresrechnung
+  wert: Revisionsbericht muss vor GV-Beschluss vorliegen
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 731 Abs. 1 OR; ohne Revisionsbericht sind Genehmigungs- und Gewinnverwendungsbeschlüsse nichtig (Abs. 3).
+  quelle: or__art-731
+  zitat: muss der Revisionsbericht vorliegen, bevor die Generalversammlung die Jahresrechnung und die Konzernrechnung genehmigt
+  status: agent-geprueft
+- key: or805_gmbh_gv_frist
+  bezeichnung: 'GmbH: ordentliche Gesellschafterversammlung'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 805 Abs. 2 OR.
+  quelle: or__art-805
+  zitat: Die ordentliche Versammlung findet alljährlich innerhalb von sechs Monaten nach Schluss des Geschäftsjahres statt.
+  status: agent-geprueft
+- key: or805_gmbh_einberufung
+  bezeichnung: 'GmbH: Einberufung der Gesellschafterversammlung'
+  wert: 20 (statutarisch verkürzbar bis 10)
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 805 Abs. 3 OR: Statuten können die Frist verlängern oder bis auf zehn Tage verkürzen; Universalversammlung vorbehalten.'
+  quelle: or__art-805
+  zitat: Die Gesellschafterversammlung ist spätestens 20 Tage vor dem Versammlungstag einzuberufen.
+  status: agent-geprueft
+- key: ser_berichtsdatum
+  bezeichnung: 'Berichtsdatum: frühestens'
+  wert: frühestens Datum der Unterzeichnung/Genehmigung der Jahresrechnung
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: fristen
+  bemerkung: SER 8.6; Vollständigkeitserklärung auf dieses Datum zusammen mit der Jahresrechnung unterzeichnen (HWP ER Rz 448). Der Agent datiert und unterzeichnet nie (Konzept consis).
+  quelle: ser-2022__8-6
+  zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+  status: agent-geprueft
+- key: or730a_amtsdauer
+  bezeichnung: Amtsdauer der Revisionsstelle
+  wert: 1–3
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 730a Abs. 1 OR: Amt endet mit der Abnahme der letzten Jahresrechnung; Wiederwahl möglich (beliebig oft, HWP ER Rz 164). Gründe eines Rücktritts im Anhang (Art. 959c
+    Abs. 2 Ziff. 14 OR).'
+  quelle: or__art-730a
+  zitat: Die Revisionsstelle wird für ein bis drei Geschäftsjahre gewählt.
+  status: agent-geprueft
+- key: or730a_rotation_ordentlich
+  bezeichnung: Rotation leitender Revisor (nur ordentliche Revision)
+  wert: 7 Jahre / 3 Jahre Unterbruch
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 730a Abs. 2 OR: gilt nur für die ordentliche Revision, nicht für die eingeschränkte Revision; Wiederaufnahme nach drei Jahren Unterbruch.'
+  quelle: or__art-730a
+  zitat: Bei der ordentlichen Revision darf die Person, die die Revision leitet, das Mandat längstens während sieben Jahren ausführen.
+  status: agent-geprueft
+- key: or729_mitwirken_buchfuehrung
+  bezeichnung: 'Unabhängigkeit eingeschränkte Revision: Mitwirken bei der Buchführung'
+  wert: zulässig, bei Selbstprüfungsrisiko mit organisatorischen und personellen Massnahmen
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: Art. 729 Abs. 2 OR; Unabhängigkeit tatsächlich und dem Anschein nach (Abs. 1). Personen, die bei der Buchführung mitwirken, dürfen nicht an der Revision beteiligt sein (SER
+    1.3.1, ser-2022__1-3-1). Keine Zahlenwerte; Beurteilung WP.
+  quelle: or__art-729
+  zitat: Das Mitwirken bei der Buchführung und das Erbringen anderer Dienstleistungen für die zu prüfende Gesellschaft sind zulässig.
+  status: agent-geprueft
+- key: hwp_er_honorar_10_grenze
+  bezeichnung: 'Unabhängigkeit: 10%-Honorargrenze RAG'
+  wert: 10 % (gilt nicht bei eingeschränkter Revision)
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: uebrige
+  bemerkung: 'HWP ER Rz 36: Die für Gesellschaften des öffentlichen Interesses geltende gesetzliche 10%-Grenze (Art. 11 Abs. 1 Bst. a RAG) findet keine Anwendung bei der eingeschränkten
+    Revision; wirtschaftliche Abhängigkeit im Einzelfall prüfen; Erfolgshonorare unzulässig.'
+  quelle: hwp-er-2026__rz-0036-s156-t3
+  zitat: «10%-Grenze» (Honorare aus Revisions- und anderen Dienstleistungen für einen Kunden im Verhältnis zur gesamten Honorarsumme
+  status: agent-geprueft
+- key: or958f_aufbewahrung
+  bezeichnung: Aufbewahrung Geschäftsbücher, Belege, Geschäfts- und Revisionsbericht
+  wert: '10'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 958f Abs. 1 OR: Frist beginnt mit Ablauf des Geschäftsjahres; Geschäfts- und Revisionsbericht schriftlich und unterzeichnet (Abs. 2).'
+  quelle: or__art-958f
+  zitat: sowie der Geschäftsbericht und der Revisionsbericht sind während zehn Jahren aufzubewahren
+  status: agent-geprueft
+- key: or730c_aufbewahrung_revision
+  bezeichnung: Aufbewahrung Revisionsdokumentation (Revisionsstelle)
+  wert: '10'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 730c Abs. 1 OR; elektronische Daten während gleicher Zeit lesbar. SER 7.1 (ser-2022__7-1) übernimmt die Pflicht.
+  quelle: or__art-730c
+  zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+  status: agent-geprueft
+- key: hwp_er_arbeitspapiere_fristbeginn
+  bezeichnung: 'Aufbewahrung Arbeitspapiere: Fristbeginn'
+  wert: 10 Jahre ab Berichtsdatum
+  einheit: Jahre
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: fristen
+  bemerkung: 'HWP ER Rz 288: elektronische Aufbewahrung zulässig, wenn nachträgliche Änderungen feststellbar und Daten lesbar bleiben.'
+  quelle: hwp-er-2026__rz-0288-s248
+  zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+  status: agent-geprueft
+- key: or957_buchfuehrungspflicht
+  bezeichnung: 'Pflicht zur Buchführung und Rechnungslegung: Umsatzerlös Einzelunternehmen/Personengesellschaften'
+  wert: '500000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 957 Abs. 1 Ziff. 1 OR; juristische Personen immer (Ziff. 2). Darunter nur Einnahmen/Ausgaben und Vermögenslage (Abs. 2).
+  quelle: or__art-957
+  zitat: einen Umsatzerlös von mindestens 500 000 Franken im letzten Geschäftsjahr erzielt haben
+  status: agent-geprueft
+- key: or958b_verzicht_abgrenzung
+  bezeichnung: Verzicht auf zeitliche Abgrenzung
+  wert: '100000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958b Abs. 2 OR: dann Abstellen auf Ausgaben und Einnahmen zulässig; Fremdwährung Jahresdurchschnittskurs (Abs. 3).'
+  quelle: or__art-958b
+  zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten
+  status: agent-geprueft
+- key: or958a_fortfuehrung_12_monate
+  bezeichnung: 'Fortführung: Zeithorizont für Veräusserungswerte'
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958a Abs. 2 OR: dann Veräusserungswerte und Rückstellungen für Einstellungsaufwand; Abweichung im Anhang (Abs. 3).'
+  quelle: or__art-958a
+  zitat: in den nächsten zwölf Monaten ab Bilanzstichtag beabsichtigt oder voraussichtlich nicht abwendbar
+  status: agent-geprueft
+- key: hwp_er_fortfuehrung_beurteilungszeitraum
+  bezeichnung: 'Fortführung: Mindestzeitraum der Einschätzung der Unternehmensleitung'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: rechnungslegung
+  bemerkung: 'HWP ER Rz 194: Zeitraum beginnt mit dem Bilanzstichtag; zudem Befragung zu Ereignissen jenseits der zwölf Monate.'
+  quelle: hwp-er-2026__rz-0194-s225
+  zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
+  status: agent-geprueft
+- key: or959_kurzfristig
+  bezeichnung: Abgrenzung kurzfristig/Umlaufvermögen
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 959 Abs. 6 OR (oder innerhalb des normalen Geschäftszyklus); gleiches Kriterium für das Umlaufvermögen (Abs. 3).
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag
+  status: agent-geprueft
+- key: or960d_langfristig
+  bezeichnung: 'Anlagevermögen: langfristig'
+  wert: '> 12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960d Abs. 2 OR.
+  quelle: or__art-960d
+  zitat: Als langfristig gilt ein Zeitraum von mehr als zwölf Monaten.
+  status: agent-geprueft
+- key: or960d_beteiligung_20
+  bezeichnung: 'Beteiligung: Vermutung massgeblicher Einfluss'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960d Abs. 3 OR: langfristig gehaltene Anteile mit massgeblichem Einfluss → Position Beteiligungen; Anhangangabe Art. 959c Abs. 2 Ziff. 3 OR.'
+  quelle: or__art-960d
+  zitat: wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren
+  status: agent-geprueft
+- key: or959c_vollzeitstellen_anhang
+  bezeichnung: 'Anhang: Erklärung zu den Vollzeitstellen'
+  wert: 10 / 50 / 250
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 2 Ziff. 2 OR: Pflichtangabe im Anhang; Abgleich mit Opting-out (10) und Revisionspflicht (250).'
+  quelle: or__art-959c-t1
+  zitat: ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
+  status: agent-geprueft
+- key: or959c_leasing_12
+  bezeichnung: 'Anhang: Leasingverbindlichkeiten'
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 2 Ziff. 6 OR: Restbetrag der Leasingverpflichtungen offenlegen.'
+  quelle: or__art-959c-t2
+  zitat: sofern diese nicht innert zwölf Monaten ab Bilanzstichtag auslaufen oder gekündigt werden können
+  status: agent-geprueft
+- key: or959c_aufloesung_stille_reserven
+  bezeichnung: 'Anhang: Nettoauflösung stiller Reserven'
+  wert: Auflösung > Neubildung und Ergebnis wesentlich günstiger
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 1 Ziff. 3 OR: Gesamtbetrag der aufgelösten Wiederbeschaffungs- und stillen Reserven angeben. Verbindung zur Wesentlichkeit (effektives Ergebnis, SER 5.2).'
+  quelle: or__art-959c-t1
+  zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  status: agent-geprueft
+- key: or960a_hoechstwert
+  bezeichnung: 'Bewertung Aktiven: Höchstwert in der Folgebewertung'
+  wert: Anschaffungs- oder Herstellungskosten
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960a Abs. 2 OR; Ausnahmen für Aktiven mit Börsenkurs (Art. 960b). Zusätzliche Abschreibungen zu Wiederbeschaffungszwecken/dauerndes Gedeihen zulässig (Abs. 4, stille
+    Reserven).
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+  status: agent-geprueft
+- key: or960a_zusaetzliche_abschreibungen
+  bezeichnung: 'Stille Reserven: zusätzliche Abschreibungen und Wertberichtigungen'
+  wert: zulässig (Wiederbeschaffung, dauerndes Gedeihen)
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960a Abs. 4 OR; nicht mehr begründete Abschreibungen müssen nicht aufgelöst werden. Für die Wesentlichkeit ist vom effektiven Ergebnis auszugehen (SER 5.2).
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+  status: agent-geprueft
+- key: or960b_schwankungsreserve
+  bezeichnung: 'Wertschwankungsreserve bei Bewertung zum Kurs: Untergrenze'
+  wert: nicht unter dem tieferen von Anschaffungswert und Kurswert
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960b Abs. 2 OR: Schwankungsreserven insgesamt in Bilanz oder Anhang gesondert ausweisen; Bewertung zum Kurs nur einheitlich für die ganze Position, Hinweis im Anhang
+    (Abs. 1).'
+  quelle: or__art-960b
+  zitat: Solche Wertberichtigungen sind jedoch nicht zulässig, wenn dadurch sowohl der Anschaffungswert als auch der allenfalls tiefere Kurswert unterschritten würden.
+  status: agent-geprueft
+- key: or960c_vorraete_niederstwert
+  bezeichnung: 'Vorräte: Niederstwertprinzip'
+  wert: tieferer Veräusserungswert abzüglich noch anfallender Kosten
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960c Abs. 1 OR: Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag.'
+  quelle: or__art-960c
+  zitat: unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+  status: agent-geprueft
+- key: or960e_rueckstellungen
+  bezeichnung: 'Rückstellungen: nicht mehr begründete'
+  wert: müssen nicht aufgelöst werden
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960e Abs. 4 OR; Pflichtrückstellungen bei erwartetem Mittelabfluss (Abs. 2), zulässig u.a. zur Sicherung des dauernden Gedeihens (Abs. 3 Ziff. 4).
+  quelle: or__art-960e
+  zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+  status: agent-geprueft
+- key: or961_groessere_unternehmen
+  bezeichnung: 'Grössere Unternehmen: Zusatzvorschriften'
+  wert: gilt bei gesetzlicher ordentlicher Revisionspflicht
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 961 OR: zusätzliche Anhangangaben (Art. 961a), Geldflussrechnung, Lagebericht. Gilt nur bei gesetzlicher ordentlicher Revisionspflicht (Art. 727 OR); bei eingeschränkter
+    Revision nicht verlangt.'
+  quelle: or__art-961
+  zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
+  status: agent-geprueft
+- key: or963a_konzern_befreiung
+  bezeichnung: 'Konzernrechnung: Befreiung nach Grösse'
+  wert: 20000000 / 40000000 / 250
+  einheit: CHF / CHF / Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 963a Abs. 1 Ziff. 1 OR: befreit, wenn zusammen mit den kontrollierten Unternehmen zwei der Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschritten
+    werden. Dennoch Pflicht u.a. auf Verlangen von 20 % des Grundkapitals (Abs. 2). Konzernrechnungspflicht → ordentliche Revision (Art. 727 Abs. 1 Ziff. 3).'
+  quelle: or__art-963a
+  zitat: a. Bilanzsumme von 20 Millionen Franken, - b. Umsatzerlös von 40 Millionen Franken, - c. 250 Vollzeitstellen im Jahresdurchschnitt
+  status: agent-geprueft
+- key: ser_wesentlichkeit_bezugsgroesse_gewinn
+  bezeichnung: 'Wesentlichkeit: übliche Bezugsgrösse'
+  wert: Gewinn vor Steuern
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2: quantitative und qualitative Kriterien; Anhaltspunkte auch Umsatz, Bilanzsumme oder Ergebnis. Prozentsätze nennt erst HWP ER Rz 42. revio 3.3 (Konzept consis).'
+  quelle: ser-2022__5-2-t1
+  zitat: Oft wird die quantitative Wesentlichkeit in Bezug auf den Gewinn vor Steuern als eine Bezugsgrösse der wirtschaftlichen Tätigkeit
+  status: agent-geprueft
+- key: ser_wesentlichkeit_effektives_ergebnis
+  bezeichnung: 'Wesentlichkeit: gesteuerte Ergebnisse'
+  wert: effektives Ergebnis (nach stillen Reserven)
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2; HWP ER Rz 42: bereinigter Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven, Durchschnittswerte möglich.'
+  quelle: ser-2022__5-2-t1
+  zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+  status: agent-geprueft
+- key: ser_wesentlichkeit_alternative_bezugsgroessen
+  bezeichnung: 'Wesentlichkeit: alternative Bezugsgrössen'
+  wert: Eigenkapital, Umsatz, Aufwendungen
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2. Richtwerte je Bezugsgrösse: HWP ER Rz 42 (hwp-er-2026__rz-0042-s185-t1/-t2).'
+  quelle: ser-2022__5-2-t1
+  zitat: können auch andere Bezugsgrössen, wie beispielsweise «Eigenkapital», «Umsatz» oder «Aufwendungen», herangezogen werden (z. B. in Verlustsituationen)
+  status: agent-geprueft
+- key: ser_wesentlichkeit_qualitativ_tiefer
+  bezeichnung: 'Wesentlichkeit: tiefer bei drohender Illiquidität/Überschuldung'
+  wert: tiefere Wesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2: auch ein geringer Fehler, der Gewinn in Verlust dreht, kann wesentlich sein. HWP ER Rz 44: dann häufig Eigenkapital als Bezugsgrösse.'
+  quelle: ser-2022__5-2-t1
+  zitat: So kann beispielsweise in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein.
+  status: agent-geprueft
+- key: ser_toleranzwesentlichkeit
+  bezeichnung: Toleranzwesentlichkeit (Aggregationsrisiko)
+  wert: tiefer als Gesamtwesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: SER 5.2 nennt keinen Prozentsatz; Richtwert 50–75 % in HWP ER Rz 50.
+  quelle: ser-2022__5-2-t2
+  zitat: Um diesem sogenannten Aggregationsrisiko Rechnung zu tragen, legt der Abschlussprüfer eine entsprechend tiefere Toleranzwesentlichkeit fest.
+  status: agent-geprueft
+- key: ser_spezifische_wesentlichkeit
+  bezeichnung: Spezifische Wesentlichkeitsgrenzen
+  wert: tiefer als Gesamtwesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2 / HWP ER Rz 48: für Geschäftsvorfälle, Kontensalden oder Abschlussangaben, die die Entscheide der Berichtsempfänger beeinflussen könnten.'
+  quelle: ser-2022__5-2-t2
+  zitat: eine oder mehrere spezifische Wesentlichkeitsgrenzen fest, welche tiefer als die Gesamtwesentlichkeit anzusetzen sind
+  status: agent-geprueft
+- key: ser_nichtaufgriffsgrenze
+  bezeichnung: 'Nichtaufgriffsgrenze: Begriff'
+  wert: Fehlaussagen, deren Summe voraussichtlich unwesentlich bleibt
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.3: übrige Fehlaussagen laufend in einer Zusammenstellung nachführen; Korrekturvorschlag an die Unternehmensleitung; bei Verweigerung beurteilen, ob modifizierte Prüfungsaussage
+    (Entscheid WP). Prozentsatz: HWP ER Rz 51.'
+  quelle: ser-2022__5-3
+  zitat: mit Ausnahme jener, die derart gering sind, dass auch ihre Summe voraussichtlich unwesentlich sein wird (Nichtaufgriffsgrenze)
+  status: agent-geprueft
+- key: hwp_er_gw_gewinn_vor_steuern
+  bezeichnung: 'Gesamtwesentlichkeit: profitables Unternehmen mit stabilen Ergebnissen'
+  wert: 3–10
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42 (Abbildung 20): Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven; Durchschnittswerte möglich. Richtwert, Ermessen WP (Rz 43).'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 3 % – 10 % des bereinigten Jahresgewinns vor Steuern
+  status: agent-geprueft
+- key: hwp_er_gw_eigenkapital
+  bezeichnung: 'Gesamtwesentlichkeit: gewinnorientiertes Unternehmen in Verlustsituation'
+  wert: 3–5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Eigenkapital.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 3 % – 5 % des Eigenkapitals
+  status: agent-geprueft
+- key: hwp_er_gw_bilanzsumme
+  bezeichnung: 'Gesamtwesentlichkeit: anlageintensives Unternehmen/Holding mit Verlusten in Vorperioden'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: z.B. Holdinggesellschaft mit überwiegend Beteiligungen und Finanzanlagen.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 1 % – 3 % der Bilanzsumme
+  status: agent-geprueft
+- key: hwp_er_gw_umsatz
+  bezeichnung: 'Gesamtwesentlichkeit: Unternehmen mit volatilen Jahresergebnissen'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Nettoerlöse; Durchschnittswerte können angemessen sein.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 1 % – 3 % der Nettoerlöse aus Lieferungen und Leistungen (Umsätze)
+  status: agent-geprueft
+- key: hwp_er_gw_gesamtaufwendungen
+  bezeichnung: 'Gesamtwesentlichkeit: nicht gewinnorientiertes Unternehmen'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Gesamtaufwendungen (Zeile «Nicht gewinnorientiertes Unternehmen» am Ende von hwp-er-2026__rz-0042-s185-t1).'
+  quelle: hwp-er-2026__rz-0042-s185-t2
+  zitat: 1 % – 3 % der Gesamtaufwendungen
+  status: agent-geprueft
+- key: hwp_er_gw_startup
+  bezeichnung: 'Gesamtwesentlichkeit: Start-up mit geringen/keinen Umsätzen'
+  wert: 2–5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse operative Aufwendungen (in erster Linie Entwicklungskosten).'
+  quelle: hwp-er-2026__rz-0042-s185-t2
+  zitat: 2 % – 5 % der operativen Aufwendungen
+  status: agent-geprueft
+- key: hwp_er_gw_richtwerte
+  bezeichnung: 'Gesamtwesentlichkeit: Charakter der Prozentsätze'
+  wert: Richtwerte; oberes Ende bei wenigen langfristigen Eigentümern, geringer Fremdverschuldung, stabilen Erträgen
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 43: Abweichungen zulässig; Festlegung im professionellen Ermessen des WP. Rz 47: bei neuen Erkenntnissen Wesentlichkeit neu beurteilen und ggf. anpassen.'
+  quelle: hwp-er-2026__rz-0043-s186
+  zitat: Bei den angegebenen Prozentsätzen handelt es sich um Richtwerte.
+  status: agent-geprueft
+- key: hwp_er_toleranzwesentlichkeit
+  bezeichnung: 'Toleranzwesentlichkeit: Richtwert'
+  wert: 50–75
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 50: in % der Gesamtwesentlichkeit, abhängig von Risikobeurteilung, Kenntnissen, Vorjahresfehlern und Schätzunsicherheiten; steuert Art, Zeitpunkt und Umfang der
+    Prüfungshandlungen. consis-Standard 75 % (Konzept).'
+  quelle: hwp-er-2026__rz-0050-s187
+  zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit
+  status: agent-geprueft
+- key: hwp_er_nichtaufgriffsgrenze
+  bezeichnung: 'Nichtaufgriffsgrenze (NAG): Richtwert'
+  wert: bis 5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 51: in % der Gesamtwesentlichkeit; darunter keine Erfassung in der Zusammenstellung der Fehlaussagen. Fehlaussagen über der NAG kumulieren und laufend beurteilen
+    (Rz 53).'
+  quelle: hwp-er-2026__rz-0051-s187
+  zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+  status: agent-geprueft
+- key: hwp_er_wesentlichkeit_beispiel
+  bezeichnung: 'Wesentlichkeit: illustratives Beispiel HWP ER (Abbildung 21)'
+  wert: GW 7 % · TW 60 % · NAG 5 %
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 52: nur Illustration, im Einzelfall anzupassen (bereinigter Gewinn vor Steuern, Sicherheitsabschlag 5 % bei Hochrechnung; TW 60 % und NAG 5 % in hwp-er-2026__rz-0052-s188-t2).
+    Kein Standardwert.'
+  quelle: hwp-er-2026__rz-0052-s188-t1
+  zitat: die Gesamtwesentlichkeit hier bei 7 %
+  status: agent-geprueft
+- key: konzept_wesentlichkeit_revio33
+  bezeichnung: Wesentlichkeit in revio 4.0 (Bereich 3.3)
+  wert: Bezugsgrösse × Prozentsatz + Begründung; Agent ändert nie
+  einheit: Text
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: 'Konzept consis: der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie; passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen → Pendenz. Gesamtwesentlichkeit
+    = Massstab für wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1).'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: revio 4.0 berechnet sie aus einer gewählten Bezugsgrösse, einem Prozentsatz und einer Begründung.
+  status: agent-geprueft
+- key: konzept_toleranzwesentlichkeit_75
+  bezeichnung: Toleranzwesentlichkeit consis (revio 3.3)
+  wert: '75'
+  einheit: '%'
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: Interne Festlegung consis, liegt am oberen Ende der Bandbreite HWP ER Rz 50 (50–75 % der Gesamtwesentlichkeit).
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+  status: agent-geprueft
+- key: konzept_nichtaufgriffsgrenze_5
+  bezeichnung: Nichtaufgriffsgrenze consis (revio 3.3)
+  wert: '5'
+  einheit: '%'
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: Interne Festlegung consis, entspricht dem Höchstwert nach HWP ER Rz 51 (bis 5 % der Gesamtwesentlichkeit).
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  status: agent-geprueft
+- key: estv_zins_2026_vorschuss_an_beteiligte_ek
+  bezeichnung: Mindestzins für Vorschüsse/Darlehen an Beteiligte oder Nahestehende (CHF), aus Eigenkapital finanziert
+  wert: '0.75'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Safe haven, ein höherer Satz im Drittvergleich bleibt vorbehalten. Liegt der Zins darunter, ist es eine geldwerte Leistung (VSt 35 %, Aufrechnung Gewinn). Anwendung: Aktivdarlehen
+    und Kontokorrent Aktionär, Zinsertrag und Zinsabgrenzung plausibilisieren. Für GJ 2025: siehe estv_zins_2025_vorschuss_an_beteiligte_ek.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: 1.1 aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss ¾%
+  status: agent-geprueft
+- key: estv_zins_2026_vorschuss_an_beteiligte_fk
+  bezeichnung: Mindestzins für Vorschüsse an Beteiligte oder Nahestehende (CHF), aus Fremdkapital finanziert
+  wert: Selbstkosten + 0.25–0.5, mindestens 0.75
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Zuschlag auf die eigenen Fremdkapitalkosten gemäss Fussnote 1 (estv_zins_2026_zuschlag_fk). Untergrenze 0,75 %.
+  quelle: estv-zinsen-2026__s002-1
+  zitat: 1.2 aus Fremdkapital finanziert Selbstkosten zuzügl. ¼ – ½ % 1 mindestens ¾%
+  status: agent-geprueft
+- key: estv_zins_2026_zuschlag_fk
+  bezeichnung: Zuschlag auf Selbstkosten bei fremdfinanzierten Vorschüssen an Beteiligte (Fussnote 1)
+  wert: 0.5 (bis und mit CHF 10 Mio.) / 0.25 (über CHF 10 Mio.)
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Ergänzt Ziff. 1.2 des Rundschreibens (Vorschüsse aus Fremdkapital).
+  quelle: estv-zinsen-2026__s002-2
+  zitat: – bis und mit CHF 10 Mio. ½ % – über CHF 10 Mio. ¼ %
+  status: agent-geprueft
+- key: estv_zins_2026_liegenschaftskredit_1hyp_wohnbau
+  bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit bis 1. Hypothek (2/3 Verkehrswert), Wohnbau und Landwirtschaft
+  wert: '1.25'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Ein höherer Zins gilt als übersetzt und ist eine geldwerte Leistung. Anwendung: Passivdarlehen Aktionär, Zinsaufwand plausibilisieren. Zusätzlich verdecktes Eigenkapital
+    (KS 6a) beachten.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: bis zu einem Kredit in der Höhe der ersten Hypothek, 1 ¼ % d.h. 2/3 des Verkehrswertes der Liegenschaft
+  status: agent-geprueft
+- key: estv_zins_2026_liegenschaftskredit_1hyp_industrie
+  bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit bis 1. Hypothek, Industrie und Gewerbe
+  wert: '1.75'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Spalte Industrie und Gewerbe: erster Wert bis 1. Hypothek, zweiter Wert Rest. Das PDF-Layout trennt im Chunk die Spalten. Die Zuordnung ist im Original geprüft (raw/estv-zinsen-2026.pdf
+    S. 2).'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2
+  status: agent-geprueft
+- key: estv_zins_2026_liegenschaftskredit_rest_wohnbau
+  bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit Rest (über 1. Hypothek), Wohnbau und Landwirtschaft
+  wert: '2'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Fussnote 2: verdecktes Eigenkapital beachten. Fremdfinanzierung höchstens 70 % bzw. 80 % des Verkehrswerts (estv_zins_2026_fremdfinanzierung_*).'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: – Rest 2%2
+  status: agent-geprueft
+- key: estv_zins_2026_liegenschaftskredit_rest_industrie
+  bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit Rest, Industrie und Gewerbe
+  wert: '2.5'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Zweiter Wert der Spalte Industrie und Gewerbe. Zuordnung im Original geprüft (raw/estv-zinsen-2026.pdf S. 2). Fussnote 2: verdecktes Eigenkapital beachten.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2
+  status: agent-geprueft
+- key: estv_zins_2026_fremdfinanzierung_bauland_villen_fabrik
+  bezeichnung: 'Höchstsatz Fremdfinanzierung Liegenschaften: Bauland, Villen, Eigentumswohnungen, Ferienhäuser, Fabrikliegenschaften'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1). Der Wert stimmt mit dem Belehnungssatz des KS 6a überein.
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Ferienhäuser und Fabrikliegenschaften bis 70 % vom Verkehrswert
+  status: agent-geprueft
+- key: estv_zins_2026_fremdfinanzierung_uebrige_liegenschaften
+  bezeichnung: Höchstsatz Fremdfinanzierung übrige Liegenschaften
+  wert: '80'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1).
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Übrige Liegenschaften bis 80 % vom Verkehrswert
+  status: agent-geprueft
+- key: estv_zins_2026_betriebskredit_bis_1mio_handel
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten bis CHF 1 Mio., Handels- und Fabrikationsunternehmen
+  wert: '3.5'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Reihenfolge der Betriebskredit-Sätze: bis 1 Mio. Handel/Fabrikation 3½ %, Holding/VV 3 %; ab 1 Mio. Handel/Fabrikation 1½ %, Holding/VV 1¼ %. Im Chunk stehen die Werte
+    getrennt von den Bezeichnungen. Zuordnung im Original geprüft (raw/estv-zinsen-2026.pdf S. 2). Für die Limite die Kredite aller Beteiligten und Nahestehenden zusammenzählen.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
+  status: agent-geprueft
+- key: estv_zins_2026_betriebskredit_bis_1mio_holding
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten bis CHF 1 Mio., Holding- und Vermögensverwaltungsgesellschaften
+  wert: '3'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Vierter Wert der Folge (siehe estv_zins_2026_betriebskredit_bis_1mio_handel). Zuordnung im Original geprüft (S. 2). Fussnote 2: verdecktes Eigenkapital beachten.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
+  status: agent-geprueft
+- key: estv_zins_2026_betriebskredit_ab_1mio_handel
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten ab CHF 1 Mio., Handels- und Fabrikationsunternehmen
+  wert: '1.5'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Fünfter Wert der Folge. Zuordnung im Original geprüft (S. 2). Die Kredite aller Beteiligten und Nahestehenden zusammenzählen.
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
+  status: agent-geprueft
+- key: estv_zins_2026_betriebskredit_ab_1mio_holding
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten ab CHF 1 Mio., Holding- und Vermögensverwaltungsgesellschaften
+  wert: '1.25'
+  einheit: '%'
+  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: Sechster Wert der Folge. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
+  status: agent-geprueft
+- key: estv_zins_2025_vorschuss_an_beteiligte_ek
+  bezeichnung: Mindestzins für Vorschüsse an Beteiligte (CHF), aus Eigenkapital finanziert, Jahr 2025
+  wert: '1.00'
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: 'Gilt für GJ 2025 (Revision 2026). Sekundärquelle Treuhand-Almanach Tab. 30, das ESTV-Rundschreiben 2025 ist nicht im Wiki. Spalten: 2024 | 2025 | 2026, Zuordnung im Original
+    geprüft (raw/treuhand-almanach-2026.pdf S. 65). Der Wert 2026 stimmt mit dem ESTV-Rundschreiben 2026 überein.'
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: 2024 2025 2026 mindestens mindestens mindestens 1,50 % 1,00 % 0,75 %
+  status: agent-geprueft
+- key: estv_zins_2025_vorschuss_an_beteiligte_fk
+  bezeichnung: Mindestzins für Vorschüsse an Beteiligte (CHF), aus Fremdkapital finanziert, Jahr 2025
+  wert: Selbstkosten + 0.25–0.5, mindestens 1.00
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: Sekundärquelle Almanach Tab. 30, Zuordnung im Original geprüft (S. 65).
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: 0,25–0,50 %* 1,00 %
+  status: agent-geprueft
+- key: estv_zins_2025_liegenschaftskredit_1hyp
+  bezeichnung: Höchstzins für Darlehen von Beteiligten, Liegenschaftskredit bis 1. Hypothek, Jahr 2025
+  wert: 1.25 (Wohnbau/Landwirtschaft) / 1.75 (Industrie/Gewerbe)
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: Wertpaare 2024 | 2025 | 2026, jeweils Wohnbau/Landwirtschaft und Industrie/Gewerbe. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: 2,25 % 2,75 % 1,25 % 1,75 % 1,25 % 1,75 %
+  status: agent-geprueft
+- key: estv_zins_2025_liegenschaftskredit_rest
+  bezeichnung: Höchstzins für Darlehen von Beteiligten, Liegenschaftskredit Rest, Jahr 2025
+  wert: 2.00 (Wohnbau/Landwirtschaft) / 2.50 (Industrie/Gewerbe)
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: Wertpaare 2024 | 2025 | 2026. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: 3,00 %** 3,50 %** 2,00 % 2,50 %** 2,00 % 2,50 %
+  status: agent-geprueft
+- key: estv_zins_2025_betriebskredit_bis_1mio
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten bis CHF 1 Mio., Jahr 2025
+  wert: 3.50 (Handel/Fabrikation) / 3.00 (Holding/Vermögensverwaltung)
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: Spalte 2025 (mit Fussnote **). Für 2026 gelten dieselben Werte ohne Fussnote. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: bis CHF 1 Mio. 3,50 %** 3,00 %**
+  status: agent-geprueft
+- key: estv_zins_2025_betriebskredit_ab_1mio
+  bezeichnung: Höchstzins Betriebskredit von Beteiligten ab CHF 1 Mio., Jahr 2025
+  wert: 1.75 (Handel/Fabrikation) / 1.50 (Holding/Vermögensverwaltung)
+  einheit: '%'
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_zinsen
+  bemerkung: Spalte 2025. Sekundärquelle, Zuordnung im Original geprüft (S. 65). Für die Limite von CHF 1 Mio. die Kredite aller Beteiligten und Nahestehenden zusammenzählen.
+  quelle: treuhand-almanach-2026__s065-1
+  zitat: ab CHF 1 Mio. 1,75 %** 1,50 %**
+  status: agent-geprueft
+- key: vst_satz_geldwerte_leistung
+  bezeichnung: Verrechnungssteuer auf geldwerten Leistungen (z.B. un-/ungenügend verzinste Vorschüsse, übersetzte Zinsen an Beteiligte)
+  wert: '35'
+  einheit: '%'
+  gilt: ESTV-Rundschreiben vom 29.01.2026 (Art. 4 Abs. 1 Bst. b VStG, Art. 20 Abs. 1 VStV)
+  kategorie: steuern_zinsen
+  bemerkung: 'Dieselben Kriterien gelten bei der direkten Bundessteuer (Art. 58 Abs. 1 Bst. b DBG). Revision: Zinskonditionen ausserhalb des Safe haven dem WP als Steuerrisiko melden.'
+  quelle: estv-zinsen-2026__s001-1
+  zitat: der Verrechnungssteuer von 35 %
+  status: agent-geprueft
+- key: vst_frist_formular_102
+  bezeichnung: Frist für Deklaration und Entrichtung der VSt auf geldwerten Leistungen (Formular 102)
+  wert: '30'
+  einheit: Tage nach Fälligkeit
+  gilt: ESTV-Rundschreiben vom 29.01.2026
+  kategorie: fristen
+  bemerkung: Die geschuldete VSt ist innert derselben Frist zu entrichten.
+  quelle: estv-zinsen-2026__s001-1
+  zitat: mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren
+  status: agent-geprueft
+- key: vst_satz_kapitalertraege
+  bezeichnung: Verrechnungssteuersatz auf Kapitalerträgen (z.B. Dividenden) und Lotteriegewinnen
+  wert: '35'
+  einheit: '%'
+  gilt: Treuhand-Almanach 2026 (Art. 13 VStG)
+  kategorie: uebrige
+  bemerkung: 'Anwendung: Gewinnverwendung und Dividende, VSt-Verbindlichkeit plausibilisieren. Sekundärquelle.'
+  quelle: treuhand-almanach-2026__s068-1
+  zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  status: agent-geprueft
+- key: ks6a_bewertungsstichtag
+  bezeichnung: Massgebender Wert für die Ermittlung des verdeckten Eigenkapitals
+  wert: Verkehrswert am Ende der Steuerperiode
+  einheit: Stichtag
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a, ersetzt KS Nr. 6 vom 06.06.1997)
+  kategorie: steuern_eigenkapital
+  bemerkung: Ohne Nachweis höherer Verkehrswerte gelten die Buch- bzw. Gewinnsteuerwerte. Ermittlung in Funktionalwährung.
+  quelle: estv-ks-6a-2024__einleitung-t2
+  zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+  status: agent-geprueft
+- key: ks6a_belehnung_fluessige_mittel
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Flüssige Mittel'
+  wert: '100'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Zeile 1 von 16. Im Chunk sind Bezeichnungen und Ansätze getrennt. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2). Übersteigen Schulden gegenüber Beteiligten/Nahestehenden
+    das zulässige Fremdkapital, liegt verdecktes Eigenkapital vor: Zinsen werden aufgerechnet und unterliegen der VSt.'
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_forderungen_lul
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Forderungen aus Lieferungen und Leistungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 2 von 16. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_kurzfristige_forderungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige kurzfristige Forderungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 3 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_vorraete
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Vorräte und nicht fakturierte Dienstleistungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 4 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_aktive_rechnungsabgrenzungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Aktive Rechnungsabgrenzungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 5 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_obligationen_chf
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: In- und ausländische Obligationen in CHF'
+  wert: '90'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 6 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_obligationen_fremdwaehrung
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Ausländische Obligationen in Fremdwährung'
+  wert: '80'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 7 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_kotierte_aktien
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Kotierte in- und ausländische Aktien'
+  wert: '60'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 8 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_aktien_gmbh
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige Aktien und GmbH-Anteile'
+  wert: '50'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 9 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_darlehen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Darlehen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 10 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_beteiligungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Beteiligungen'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 11 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_mobile_sachanlagen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Mobile Sachanlagen'
+  wert: '50'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 12 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_fabrikliegenschaften
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Fabrikliegenschaften'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 13 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_villen_etw_ferienhaeuser_bauland
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Villen, Eigentumswohnungen, Ferienhäuser und Bauland'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 14 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_liegenschaften
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige Liegenschaften'
+  wert: '80'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 15 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_andere_immaterielle_anlagen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Andere immaterielle Anlagen'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 16 von 16 (letzter Wert). Zuordnung im Original geprüft (S. 2). Der Treuhand-Almanach (Tab. 29, treuhand-almanach-2026__s063-1) nennt zusätzlich Gründungs-, Kapitalerhöhungs-
+    und Organisationskosten mit 0 %. Dieser Ansatz steht nicht im KS 6a vom 10.10.2024.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_finanzgesellschaften_max_fremdkapital
+  bezeichnung: Maximal zulässiges Fremdkapital bei Finanzgesellschaften
+  wert: 6/7
+  einheit: Anteil der Bilanzsumme
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Der Nachweis, dass die konkrete Finanzierung dem Drittvergleich standhält, bleibt vorbehalten.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Für Finanzgesellschaften beträgt das maximal zulässige Fremdkapital in der Regel 6/7 der Bilanzsumme.
+  status: agent-geprueft
+- key: estv_delkredere_inland
+  bezeichnung: Steuerlich zugelassenes pauschales Delkredere auf inländischen Forderungen (ESTV)
+  wert: '5'
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
+  kategorie: steuern_bewertung
+  bemerkung: Gilt für das allgemeine Kreditrisiko nach Einzelwertberichtigungen. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen.
+    Handelsrechtlich allenfalls stille Reserve. Ob betriebswirtschaftlich hergeleitet oder ESTV-Pauschale, ist bei consis ein offener Entscheid (Konzept, Prüffeld C1). Der WP entscheidet.
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+  status: agent-geprueft
+- key: estv_delkredere_ausland
+  bezeichnung: Steuerlich zugelassenes pauschales Delkredere auf ausländischen Forderungen (ESTV)
+  wert: '10'
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
+  kategorie: steuern_bewertung
+  bemerkung: 'Wie Inland: erst Einzelwertberichtigungen, dann Pauschale auf dem Rest. Einige Kantone lassen abweichende Pauschalen zu (kt_zh_delkredere).'
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+  status: agent-geprueft
+- key: kt_zh_delkredere
+  bezeichnung: Kantonal abweichendes Pauschaldelkredere, Beispiel Kanton Zürich (inländisch / ausländisch)
+  wert: 10 / 20
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023
+  kategorie: steuern_bewertung
+  bemerkung: Gilt für Staats- und Gemeindesteuer ZH (Stand HWP 2023). Aktuelle kantonale Praxis vor Anwendung prüfen. Der höhere Teil gegenüber dem betriebswirtschaftlichen Bedarf ist
+    eine stille Reserve.
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: beispielsweise Kanton Zürich 10 % auf inländischen und 20 % auf ausländischen Guthaben
+  status: agent-geprueft
+- key: warendrittel
+  bezeichnung: Steuerlich zugelassener pauschaler Bewertungsabzug auf Warenlager (Warendrittel / Warenreserve)
+  wert: 1/3
+  einheit: Anteil
+  gilt: HWP BuR, Ausgabe 2023 (Praxis Steuerbehörden)
+  kategorie: steuern_bewertung
+  bemerkung: Basis ist der gesetzliche Höchstwert (AK/HK nach Wertberichtigungen für Unkurantes bzw. tieferer Netto-Veräusserungswert). Nach allen handelsrechtlich nötigen Korrekturen
+    hat der Abzug Reservecharakter. Baut sich das Lager ab, werden stille Reserven aufgelöst, ggf. offenlegungspflichtig (Art. 959c Abs. 1 Ziff. 3 OR).
+  quelle: hwp-bur-2023__rz-0253-s214
+  zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
+  status: agent-geprueft
+- key: agbr_steuerliche_obergrenze
+  bezeichnung: Steuerliche Obergrenze der Arbeitgeberbeitragsreserve (AGBR)
+  wert: '5'
+  einheit: Vielfaches der ordentlichen AG-Jahresbeiträge
+  gilt: Treuhand-Almanach 2026 (Verwaltungspraxis kantonale Steuerbehörden)
+  kategorie: steuern_bewertung
+  bemerkung: Jahresbeiträge inkl. Risikobeiträge und Verwaltungskosten. Handelsrechtlich gibt es keine Obergrenze. Darüber hinausgehende Einlagen werden steuerlich aufgerechnet.
+  quelle: treuhand-almanach-2026__s062-1
+  zitat: wird die Höhe der AGBR auf das Fünffache der ordentlichen Arbeitgeber-Jahresbeiträge
+  status: agent-geprueft
+- key: estv_abschreibung_faktor_anschaffungswert
+  bezeichnung: Umrechnung der ESTV-Abschreibungssätze bei Abschreibung vom Anschaffungswert
+  wert: '0.5'
+  einheit: Faktor auf Buchwert-Satz
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026 Tab. 26
+  kategorie: steuern_bewertung
+  bemerkung: Die Sätze gelten vom Buchwert (degressiv). Linear vom Anschaffungswert gilt die Hälfte. Sekundärquelle, das Merkblatt selbst ist nicht im Wiki.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftsmobiliar
+  bezeichnung: ESTV-Abschreibungssatz Geschäftsmobiliar und Einrichtungen (vom Buchwert)
+  wert: '25'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: 'Werte in Reihenfolge der Bezeichnungen, Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf S. 61). Anwendung: Plausibilisierung Abschreibungen und stille Reserven
+    im Anlagevermögen.'
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_maschinen_produktion
+  bezeichnung: ESTV-Abschreibungssatz Apparate und Maschinen zur Produktion (vom Buchwert)
+  wert: '30'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Zweiter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_motorfahrzeuge
+  bezeichnung: ESTV-Abschreibungssatz Motorfahrzeuge aller Art (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Dritter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_bueromaschinen
+  bezeichnung: ESTV-Abschreibungssatz Büromaschinen (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Vierter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_edv
+  bezeichnung: ESTV-Abschreibungssatz Datenverarbeitungsanlagen (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Fünfter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_wohnhaeuser_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Wohnhäuser, Gebäude ohne Anteil Boden (vom Buchwert)
+  wert: '2'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Wohnhäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 2% 1,5 %
+  status: agent-geprueft
+- key: estv_abschreibung_wohnhaeuser_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Wohnhäuser, Gebäude mit Anteil Boden (vom Buchwert)
+  wert: '1.5'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: 'Fussnote *: Abschreibung nur bis zum Wert des Landes erlaubt.'
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Wohnhäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 2% 1,5 %
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftshaeuser_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Geschäftshäuser, Gebäude ohne Anteil Boden (vom Buchwert)
+  wert: '4'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftshäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 4% 3%
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftshaeuser_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Geschäftshäuser, Gebäude mit Anteil Boden (vom Buchwert)
+  wert: '3'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftshäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 4% 3%
+  status: agent-geprueft
+- key: estv_abschreibung_gastwirtschaft_hotel_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Gebäude Gastwirtschaft und Hotellerie, ohne Anteil Boden (vom Buchwert)
+  wert: '6'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Gebäude Gastwirtschaft und Hotellerie • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 6% 4%
+  status: agent-geprueft
+- key: estv_abschreibung_gastwirtschaft_hotel_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Gebäude Gastwirtschaft und Hotellerie, mit Anteil Boden (vom Buchwert)
+  wert: '4'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Gebäude Gastwirtschaft und Hotellerie • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 6% 4%
+  status: agent-geprueft
+- key: estv_abschreibung_fabrik_lager_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Fabrikgebäude und Lager, ohne Anteil Boden (vom Buchwert)
+  wert: '8'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%
+  status: agent-geprueft
+- key: estv_abschreibung_fabrik_lager_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Fabrikgebäude und Lager, mit Anteil Boden (vom Buchwert)
+  wert: '7'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%
+  status: agent-geprueft
+- key: estv_abschreibung_immaterielle
+  bezeichnung: 'ESTV-Abschreibungssatz immaterielle Werte: Lizenzen, Patente, Goodwill (vom Buchwert)'
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Vom Anschaffungswert gilt die Hälfte (estv_abschreibung_faktor_anschaffungswert).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Lizenzen, Patente, Goodwill 40 %
+  status: agent-geprueft
+- key: estv_kurs_eur_stichtag_2025
+  bezeichnung: ESTV-Stichtagskurs EUR per 31.12.2025
+  wert: '0.9305'
+  einheit: CHF je EUR 1
+  gilt: Stichtag 31.12.2025
+  kategorie: steuern_bewertung
+  bemerkung: 'Zweiter Wert ist der Stichtagskurs 31.12.2025, erster der Durchschnittskurs 2025 (Tab. 28, ESTV-Kursliste). Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf
+    S. 62). Anwendung: Umrechnung von Fremdwährungspositionen im Abschluss 2025 plausibilisieren.'
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: 0.9370347 EU EUR 1 0.930500
+  status: agent-geprueft
+- key: estv_kurs_eur_durchschnitt_2025
+  bezeichnung: ESTV-Durchschnittskurs EUR 2025
+  wert: '0.9370347'
+  einheit: CHF je EUR 1
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert (Durchschnittskurs 2025). Anwendung: Umrechnung von Erfolgspositionen in Fremdwährung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: 0.9370347 EU EUR 1 0.930500
+  status: agent-geprueft
+- key: estv_kurs_usd_stichtag_2025
+  bezeichnung: ESTV-Stichtagskurs USD per 31.12.2025
+  wert: '0.79225'
+  einheit: CHF je USD 1
+  gilt: Stichtag 31.12.2025
+  kategorie: steuern_bewertung
+  bemerkung: Zweiter Wert ist der Stichtagskurs 31.12.2025, erster der Durchschnittskurs 2025. Zuordnung im Original geprüft (S. 62).
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: USD 1 0.83065179 USA USD 1 0.792250
+  status: agent-geprueft
+- key: estv_kurs_usd_durchschnitt_2025
+  bezeichnung: ESTV-Durchschnittskurs USD 2025
+  wert: '0.83065179'
+  einheit: CHF je USD 1
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert (Durchschnittskurs 2025).
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: USD 1 0.83065179 USA USD 1 0.792250
+  status: agent-geprueft
+- key: gewinnsteuer_ar_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort AR (inkl. direkte Bundessteuer), effektiv
+  wert: '13.04'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (15,00), zweiter effektiv. Kantonaler Einheitssatz. Anwendung: Steuerrückstellung und Steueraufwand plausibilisieren. Sekundärquelle.'
+  quelle: treuhand-almanach-2026__s056-1
+  zitat: AR 15,00 13,04
+  status: agent-geprueft
+- key: gewinnsteuer_sg_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort SG (inkl. direkte Bundessteuer), effektiv
+  wert: '14.29'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (16,68), zweiter effektiv. Kantonaler Einheitssatz. Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: SG 2 16,68 14,29
+  status: agent-geprueft
+- key: gewinnsteuer_tg_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort TG (inkl. direkte Bundessteuer), effektiv
+  wert: '13.21'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (15,23), zweiter effektiv. Gemeinden: höchste 13,99 (Arbon Stachen), tiefste 12,19 (Bottighofen). Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: TG 15,23 13,21
+  status: agent-geprueft
+- key: gewinnsteuer_zh_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort ZH (inkl. direkte Bundessteuer), effektiv
+  wert: '19.61'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (24,39), zweiter effektiv. Fussnote 16: ab 2026 Staatssteuerfuss 95 % statt bisher 98 % (treuhand-almanach-2026__s057-2), für 2026 daher tiefer.
+    Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: ZH16 24,39 19,61
+  status: agent-geprueft
+- key: emissionsabgabe_satz
+  bezeichnung: Emissionsabgabe auf Beteiligungsrechten (inkl. Zuschüsse)
+  wert: '1'
+  einheit: '%'
+  gilt: Treuhand-Almanach 2026 (StG)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Gilt auch für Zuschüsse ohne Nennwerterhöhung (Art. 5 Abs. 2 StG). Abgabepflichtig ist die inländische Gesellschaft. Revision: bei Gründung, Kapitalerhöhung oder Zuschuss
+    Abgabe bzw. Abgrenzung prüfen.'
+  quelle: treuhand-almanach-2026__s067-1
+  zitat: Die Emissionsabgabe beträgt grundsätzlich 1 % vom Wert dessen, was der Gesellschaft zufliesst.
+  status: agent-geprueft
+- key: emissionsabgabe_freibetrag
+  bezeichnung: Freibetrag Emissionsabgabe bei Gründung/formeller Kapitalerhöhung
+  wert: '1000000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Art. 6 Abs. 1 Bst. b und h StG)
+  kategorie: steuern_eigenkapital
+  bemerkung: Einmalig, nicht pro Ereignis. Für reine Zuschüsse nicht anwendbar.
+  quelle: treuhand-almanach-2026__s067-1
+  zitat: gilt gegenwärtig für entgeltlich ausgegebene Beteiligungsrechte ein Freibetrag von CHF 1 Mio.
+  status: agent-geprueft
+- key: mwst_normalsatz
+  bezeichnung: MWST-Normalsatz
+  wert: '8.1'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: 'Tab. 17, gültig seit 1. Januar 2024. Anwendung: analytische Prüfung der MWST-Abrechnungen (Umsatzaufteilung nach Steuersätzen).'
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_reduzierter_satz
+  bezeichnung: MWST reduzierter Satz
+  wert: '2.6'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: Tab. 17.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_sondersatz_beherbergung
+  bezeichnung: MWST-Sondersatz für Beherbergung
+  wert: '3.8'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: Tab. 17.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_steuerpflicht_umsatzgrenze
+  bezeichnung: Umsatzgrenze Befreiung von der MWST-Pflicht (Unternehmen)
+  wert: '100000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Art. 10 MWSTG)
+  kategorie: mwst
+  bemerkung: 'Gezählt werden Umsätze aus nicht ausgenommenen Leistungen, nach vereinbarten Entgelten ohne Steuer. Revision: bei Umsatz über der Grenze ohne MWST-Registrierung PH 20 Eingangsfrage
+    1a (plausible Erklärung?).'
+  quelle: treuhand-almanach-2026__s042-1
+  zitat: innerhalb eines Jahres im In- und Ausland weniger als CHF 100 000 Umsatz aus Leistungen erzielt
+  status: agent-geprueft
+- key: mwst_sss_umsatzgrenze
+  bezeichnung: 'Saldosteuersatzmethode: maximaler steuerbarer Jahresumsatz (inkl. Steuer)'
+  wert: '5024000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt kumulativ mit der Steuerschuld von höchstens CHF 108 000 pro Jahr. Zusätzlich die Restriktionen von Art. 77 Abs. 2 MWSTV prüfen.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: der steuerbare Jahresumsatz (inkl. Steuer) beträgt nicht mehr als CHF 5,024 Mio.;
+  status: agent-geprueft
+- key: mwst_sss_steuerschuld_max
+  bezeichnung: 'Saldosteuersatzmethode: maximale geschuldete Steuer pro Jahr'
+  wert: '108000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt kumulativ mit der Umsatzgrenze CHF 5,024 Mio.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: die geschuldete Steuer beträgt nicht mehr als CHF 108 000 pro Jahr.
+  status: agent-geprueft
+- key: mwst_sss_umsatzgrenzen_je_satz
+  bezeichnung: Umsatzgrenzen je Saldosteuersatz
+  wert: '0.1/0.6/1.3/2.1 %: max. 5.024 Mio.; 3.0 %: 3.60 Mio.; 3.7 %: 2.92 Mio.; 4.5 %: 2.40 Mio.; 5.3 %: 2.04 Mio.; 6.2 %: 1.74 Mio.; 6.8 %: 1.59 Mio.'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Tab. 18)
+  kategorie: mwst
+  bemerkung: 'Die Saldosteuersätze setzt die ESTV je Branche/Tätigkeit fest (SR 641.202.62, Stand 01.01.2025). Anwendung: geschuldete MWST mit SSS-Methode plausibilisieren.'
+  quelle: treuhand-almanach-2026__s048-1
+  zitat: 0,1% / 0,6 % / 1,3 % / 2,1% max. CHF 5,024 Mio. 3,0 % max. CHF 3,60 Mio. 3,7 % max. CHF 2,92 Mio. 4,5 % max. CHF 2,40 Mio. 5,3 % max. CHF 2,04 Mio. 6,2 % max. CHF 1,74 Mio.
+    6,8 % max. CHF 1,59 Mio.
+  status: agent-geprueft
+- key: mwst_sss_mehrere_saetze_umsatzanteil
+  bezeichnung: Mindestumsatzanteil für zusätzlichen bewilligten Saldosteuersatz
+  wert: '10'
+  einheit: '% des Umsatzes'
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Keine Obergrenze der Anzahl bewilligter Saldosteuersätze. Früher waren höchstens zwei zulässig.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: sofern der Umsatzanteil 10 % übersteigt
+  status: agent-geprueft
+- key: mwst_sss_mindestdauer
+  bezeichnung: Mindestdauer der Saldosteuersatzmethode nach Bewilligung
+  wert: '1'
+  einheit: Steuerperiode
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Die Methode ist bei der ESTV schriftlich zu beantragen.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: muss während mindestens einer Steuerperiode beibehalten werden
+  status: agent-geprueft
+- key: mwst_wechsel_effektiv_zu_sss
+  bezeichnung: Frühester Wechsel von der effektiven Methode zur Saldosteuersatzmethode
+  wert: '3'
+  einheit: ganze Steuerperioden
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt nach Wahl der effektiven Abrechnungsmethode.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: so kann frühestens nach drei ganzen Steuerperioden zur Saldosteuersatzmethode gewechselt werden
+  status: agent-geprueft
+- key: mwst_bezugsteuer_grenzbetrag
+  bezeichnung: Grenzbetrag Bezugsteuer für nicht steuerpflichtige Unternehmen (Leistungen aus dem Ausland pro Kalenderjahr)
+  wert: '10000'
+  einheit: CHF
+  gilt: 'PH 20 (EXPERTsuisse, 02-2016): «derzeit»'
+  kategorie: mwst
+  bemerkung: 'Stand PH 20 von 2016, gegen die aktuelle MWSTG-Fassung prüfen. Revision: PH 20 Eingangsfrage 2 (Bezugsteuer bei Befreiung beachtet?).'
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: Grenzbetrag pro Kalenderjahr (von derzeit CHF 10'000) für solche Leistungen überschritten wird
+  status: agent-geprueft
+- key: mwst_aufbewahrung_immobilien
+  bezeichnung: MWST-Aufbewahrungsfrist für Belege zu Immobilien
+  wert: '25'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Mindestfrist. Stand PH 20 (2016), gegen die aktuelle MWSTG-Fassung prüfen.
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  status: agent-geprueft
+- key: mwst_aufbewahrung_uebrige
+  bezeichnung: MWST-Aufbewahrungsfrist für übrige Belege
+  wert: '10'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Mindestfrist. Stand PH 20 (2016).
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  status: agent-geprueft
+- key: mwst_festsetzungsverjaehrung
+  bezeichnung: Festsetzungsverjährung MWST (Schweiz)
+  wert: '5'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Für die Wesentlichkeit die noch nicht rechtskräftig festgesetzten Steuerforderungen und -verbindlichkeiten der abgeschlossenen Perioden heranziehen. Für ausländische MWST
+    gelten ggf. andere Fristen. Stand PH 20 (2016).
+  quelle: ph-20-mwst-2016__c006-2
+  zitat: in der Schweiz beträgt die Festsetzungsverjährung fünf Jahre
+  status: agent-geprueft
+- key: mwst_finalisierung_180_tage
+  bezeichnung: 'MWST-Finalisierung: Korrekturfrist nach Geschäftsabschluss'
+  wert: '180'
+  einheit: Tage nach Geschäftsabschluss
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: 'Selbstveranlagung: Spätestens bei der Finalisierung muss die Umsetzung korrekt sein.'
+  quelle: ph-20-mwst-2016__c003-1
+  zitat: Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten Geschäftsabschluss fällt.
+  status: agent-geprueft
+- key: mwst_umsatzabstimmung_frist
+  bezeichnung: Frist für die Umsatzabstimmung (Art. 128 Abs. 2 MWSTV)
+  wert: '180'
+  einheit: Tage
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: 'PH 20 Anhang 2, B 1: Liegt für das Vorjahr eine plausible und nachvollziehbare Umsatzabstimmung vor? Abweichungen sind zu begründen. Unterlage beim Kunden anfordern.'
+  quelle: ph-20-mwst-2016__c011-5
+  zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen
+  status: agent-geprueft
+- key: sv_ahv_beitragssatz_2026
+  bezeichnung: AHV-Beitragssatz (Unselbständigerwerbende)
+  wert: '8.70'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalten 2021 bis 2026, die letzte gilt ab 1.1.2026. Unverändert gegenüber dem Vorjahr. Die Aufteilung auf AG/AN nennt die Quelle nicht. Anwendung: Lohnabstimmung, Sozialversicherungsaufwand
+    plausibilisieren.'
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: AHV 8,70 8,70 8,70 8,70 8,70 8,70
+  status: agent-geprueft
+- key: sv_iv_beitragssatz_2026
+  bezeichnung: IV-Beitragssatz
+  wert: '1.40'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzte Spalte gilt ab 1.1.2026 (Tab. 35).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: IV 1,40 1,40 1,40 1,40 1,40 1,40
+  status: agent-geprueft
+- key: sv_eo_beitragssatz_2026
+  bezeichnung: EO-Beitragssatz
+  wert: '0.50'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzte Spalte gilt ab 1.1.2026 (Tab. 35).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: EO 0,50 0,50 0,50 0,50 0,50 0,50
+  status: agent-geprueft
+- key: sv_alv_beitragssatz_2026
+  bezeichnung: ALV-Beitragssatz bis Höchstgrenze CHF 148 200
+  wert: '2.20'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Fussnote *: Selbständigerwerbende sind nicht ALV-versichert (0 %).'
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV bis CHF 148 200 2,20 2,20 2,20 2,20 2,20 2,20*
+  status: agent-geprueft
+- key: sv_alv_hoechstgrenze_lohn_2026
+  bezeichnung: ALV-Höchstgrenze beitragspflichtiger Lohn pro Jahr
+  wert: '148200'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Über der Grenze ist seit 2023 kein Beitrag geschuldet (sv_alv_solidaritaetsbeitrag_2026).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV bis CHF 148 200 2,20 2,20 2,20 2,20 2,20 2,20*
+  status: agent-geprueft
+- key: sv_alv_solidaritaetsbeitrag_2026
+  bezeichnung: ALV-Beitrag auf Lohnteilen über CHF 148 200 (Solidaritätsbeitrag)
+  wert: '0.00'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalten 2021 bis 2026. Kein Sonderbeitrag seit 1.1.2023.
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV ab CHF 148 200 1,00 bis unbegrenzt 1,00 0,00 0,00 0,00 0,00
+  status: agent-geprueft
+- key: sv_bvg_mindestjahreslohn_2026
+  bezeichnung: BVG-Mindestjahreslohn (Eintrittsschwelle)
+  wert: '22680'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalte 1.1.2026 mit Anmerkung, danach der maximal versicherte Lohn 2026. Im Chunk sind die Spalten vermischt. Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf
+    S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: '22 680.00 Beitragspflicht: ab 1.1. nach Vollendung des 17. Altersjahrs 90 720.00'
+  status: agent-geprueft
+- key: sv_bvg_max_versicherter_lohn_2026
+  bezeichnung: BVG maximal versicherter Lohn
+  wert: '90720'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzter Wert im Zitat (Spalte 1.1.2026). Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: '22 680.00 Beitragspflicht: ab 1.1. nach Vollendung des 17. Altersjahrs 90 720.00'
+  status: agent-geprueft
+- key: sv_bvg_koordinationsabzug_2026
+  bezeichnung: BVG-Koordinationsabzug
+  wert: '26460'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalte 1.1.2026: Koordinationsabzug 26 460, maximal koordinierter Lohn 64 260, minimal koordinierter Lohn 3 780. Zuordnung im Original geprüft (S. 77).'
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_max_koordinierter_lohn_2026
+  bezeichnung: BVG maximal koordinierter Lohn
+  wert: '64260'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Zweiter Betrag im Zitat. Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_min_koordinierter_lohn_2026
+  bezeichnung: BVG minimal koordinierter Lohn
+  wert: '3780'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Dritter Betrag im Zitat. Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_mindestzinssatz_2026
+  bezeichnung: BVG gesetzlicher Mindestzinssatz
+  wert: '1.25'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalten 2023 | 2024 | 2025 | 2026. Zuordnung im Original geprüft (S. 77). Für 2025 ebenfalls 1,25 %.
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 1,00 1,25 1,25 1,25
+  status: agent-geprueft
+- key: sv_uvg_hoechstgrenze_2026
+  bezeichnung: UVG-Höchstgrenze versicherter Verdienst pro Jahr
+  wert: '148200'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalten 2023 bis 2026: pro Monat CHF 12 350, pro Jahr CHF 148 200. Zuordnung im Original geprüft (S. 77). Anwendung: UVG-Prämien und Lohndeklaration plausibilisieren.'
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 12 350.00 12 350.00 12 350.00 12 350.00 148 200.00 148 200.00 148 200.00 148 200.00
+  status: agent-geprueft
+- key: or104_verzugszins
+  bezeichnung: Gesetzlicher Verzugszins bei Geldschulden (Art. 104 Abs. 1 OR)
+  wert: '5'
+  einheit: '% pro Jahr'
+  gilt: OR, geltende Fassung
+  kategorie: uebrige
+  bemerkung: 'Gilt auch, wenn der vertragliche Zins tiefer ist. Vertraglich höhere Zinsen können auch während des Verzugs gefordert werden (Abs. 2). Anwendung: Verzugszinsen und Rückstellungen
+    für Verzugsfolgen plausibilisieren.'
+  quelle: or__art-104
+  zitat: Verzugszinse zu fünf vom Hundert für das Jahr zu bezahlen
+  status: agent-geprueft

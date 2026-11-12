@@ -1,0 +1,513 @@
+# Prüffeld M3 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: M3
+bezeichnung: Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 13
+    korrigiert: false
+kurzbeschrieb: 'Passive Rechnungsabgrenzungen (Aufwand des Geschäftsjahrs, der erst im Folgejahr bezahlt wird, z.B. Honorare, Energie, Zinsen, Ferien/Überzeit, Steuern; vorausbezahlte
+  Erträge) und kurzfristige Rückstellungen (Mittelabfluss innert 12 Monaten, z.B. Prozessrisiken). Schwerpunkt: Vollständigkeit, Periodenabgrenzung, Bewertung via Befragung, Vorjahresanalytik,
+  Abgleich Detailliste/Spiegel.'
+gesetz:
+- thema: Zeitliche und sachliche Abgrenzung (Periodenabgrenzung)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Vollständigkeit der Rechnungslegung
+  quelle: or__art-958c
+  zitat: Sie muss vollständig sein.
+- thema: Bestandesnachweis durch Inventar/Detailaufstellung
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Bilanzierungspflicht von Verbindlichkeiten
+  quelle: or__art-959
+  zitat: Verbindlichkeiten müssen als Fremdkapital bilanziert werden, wenn sie durch vergangene Ereignisse bewirkt wurden, ein Mittelabfluss wahrscheinlich ist und ihre Höhe verlässlich
+    geschätzt werden kann.
+- thema: Fristigkeit kurzfristig/langfristig
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
+    Zahlung fällig werden.
+- thema: 'Mindestgliederung: passive Rechnungsabgrenzungen (kurzfristiges Fremdkapital, Art. 959a Abs. 2 Ziff. 1 lit. d OR)'
+  quelle: or__art-959a-t1
+  zitat: passive Rechnungsabgrenzungen
+- thema: 'Mindestgliederung: Rückstellungen (Art. 959a Abs. 2 Ziff. 2 lit. c OR)'
+  quelle: or__art-959a-t1
+  zitat: Rückstellungen sowie vom Gesetz vorgesehene ähnliche Positionen
+- thema: Vorsichtige Bewertung; Anpassung bei zu geringen Rückstellungen
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Bewertung Verbindlichkeiten zum Nennwert
+  quelle: or__art-960e
+  zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden.
+- thema: Pflicht zur Bildung von Rückstellungen
+  quelle: or__art-960e
+  zitat: Lassen vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten, so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung
+    gebildet werden.
+- thema: Nicht mehr begründete Rückstellungen (Wahlrecht, stille Reserven)
+  quelle: or__art-960e
+  zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+- thema: 'Anhang: Aufschlüsselungen zu Bilanzpositionen'
+  quelle: or__art-959c-t1
+  zitat: Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung
+- thema: 'Anhang: Nettoauflösung stiller Reserven'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven, soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven
+    übersteigt
+- thema: 'Anhang: Eventualverbindlichkeiten'
+  quelle: or__art-959c-t2
+  zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
+- thema: 'Anhang: ausserordentliche/periodenfremde Positionen'
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- thema: 'Anhang: Ereignisse nach dem Bilanzstichtag'
+  quelle: or__art-959c-t2
+  zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+risiken:
+- text: 'Unvollständige passive Rechnungsabgrenzungen: Aufwand des Geschäftsjahrs (z.B. Honorare inkl. Revision, Energie, Telefon, Zinsen, Miete, Subunternehmerleistungen), der erst
+    im Folgejahr fakturiert oder bezahlt wird, ist nicht abgegrenzt.'
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0257-s215
+  zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
+- text: Fehlende oder zu tiefe kurzfristige Rückstellungen für pendente Risiken (Rechtsfälle, Mängelrügen, Garantie- und Schadenersatzansprüche).
+  pruefziele:
+  - VO
+  - BE
+  quelle: hwp-bur-2023__rz-0510-s260
+  zitat: Zur Ermittlung des Rückstellungsbedarfs sind sämtliche am Abschlussstichtag bestehenden sowie die erkennbaren und vor dem Stichtag verursachten Risiken und Lasten
+- text: 'Unterbewertung: Rückstellung unter der bestmöglichen Schätzung bzw. am unteren Ende der dokumentierten Bandbreite, oder schrittweiser Aufbau über mehrere Jahre.'
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0515-s261
+  zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
+- text: Ferien- und Überzeitguthaben pauschal statt auf Basis der Saldi je Mitarbeiter abgegrenzt.
+  pruefziele:
+  - BE
+  - VO
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: Abgrenzungen in Form von Pauschalbeträgen oder Berechnungen auf der Basis von entgangenem Umsatz oder Gewinn sind nicht angemessen.
+- text: Laufende Steuern des Geschäftsjahrs nicht abgegrenzt (Schnittstelle Prüffeld S1).
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0546-s269
+  zitat: Geschuldete Steuern sind schon vor der Veranlagung unter den übrigen kurzfristigen Verbindlichkeiten oder den passiven Rechnungsabgrenzungen auszuweisen.
+- text: Nicht mehr begründete oder überhöhte Rückstellungen/Abgrenzungen werden beibehalten (stille Reserven) bzw. Auflösungen ohne Anhangangabe zur Ergebnisverbesserung genutzt.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0506-s259
+  zitat: Werden sie beibehalten, handelt es sich um eine Bildung stiller Reserven
+- text: 'Falsche Klassierung: Rückstellung vs. passive Abgrenzung vs. Verbindlichkeit vs. Eventualverbindlichkeit; kurz- vs. langfristig; Saldierung mit aktiven Abgrenzungen.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0518-s262
+  zitat: Je nach erwartetem Zeitpunkt des Mittelabflusses werden sie als kurzfristiges oder langfristiges Fremdkapital bilanziert.
+- text: Artfremde Verwendung oder Umbenennung von Rückstellungen unter Umgehung der Erfolgsrechnung; Verwendung in neuer Rechnung über Aufwand/Ertrag statt als Bestandsbuchung.
+  pruefziele:
+  - RI
+  - PA
+  quelle: hwp-bur-2023__rz-0508-s260
+  zitat: Eine Inanspruchnahme von Rückstellungen durch Direktbelastung auf dem Rückstellungskonto ist nur für artgleiche Posten zulässig.
+- text: Fehlende oder unvollständige Offenlegung im Anhang (Eventualverbindlichkeit aus Rechtsstreit, a.o. Rückstellungsbildung, Ereignisse nach Bilanzstichtag).
+  pruefziele:
+  - DO
+  quelle: hwp-er-2026__rz-0139-s204-t4
+  zitat: weil beispielsweise die Rückstellungen nach wie vor zu niedrig ausgewiesen sind oder die Offenlegung im Anhang fehlt oder unvollständig ist
+- text: Nicht bestehende oder doppelt erfasste Abgrenzungen (z.B. Rechnung bereits als Kreditor gebucht und zusätzlich abgegrenzt).
+  pruefziele:
+  - EX
+  - RI
+  quelle: hwp-er-2026__rz-0115-s200
+  zitat: der Verhinderung der mehrfachen Erfassung von Belegen
+unterlagen:
+- dokument: Detailliste passive Rechnungsabgrenzungen per 31.12. (Text, Gläubiger, Leistungszeitraum, Betrag, Grundlage)
+  zweck: Abstimmung mit Saldo/Jahresrechnung und kritische Durchsicht (M3-301)
+  quelle: ser-2022__anh-d-s087-1
+  zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+- dokument: Rückstellungsspiegel (Stand 01.01., Bildung, Verwendung, Auflösung, Stand 31.12., Fristigkeit)
+  zweck: Abstimmung Bestände und Bewegungen (M3-301, M3-401, M3-321)
+  quelle: hwp-bur-2023__rz-0519-s262
+  zitat: beispielsweise in Form eines Rückstellungsspiegels
+- dokument: 'Berechnungsgrundlagen der Rückstellungen: Aktennotizen, Klageschriften, Korrespondenz, Berechnungen'
+  zweck: Abstimmung der Bestände mit Unterlagen (M3-304)
+  quelle: ser-2022__anh-d-s088-1
+  zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge, Klageschriften, Berechnungen usw.)
+- dokument: Stellungnahme des Rechtsvertreters zu laufenden Prozessen (nur falls vom Unternehmen selbst eingeholt)
+  zweck: Prüfungsnachweis zur Bewertung von Prozessrisiken (M3-304)
+  quelle: hwp-er-2026__rz-0139-s204-t3
+  zitat: Liegt eine Bestätigung im Zeitpunkt der Abschlusserstellung vor, wird der Abschlussprüfer diese als Prüfungsnachweis betrachten
+- dokument: Verträge mit Abgrenzungsbezug (Miete, Darlehen, Leasing, Service, Honorarofferten)
+  zweck: Abstimmung der Abgrenzungen und Nachrechnen des Periodenaufwands (M3-302, M3-304)
+  quelle: ser-2022__anh-d-s087-1
+  zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+- dokument: Ferien- und Überzeitsaldi je Mitarbeiter per 31.12. aus Zeiterfassung mit Lohnansätzen
+  zweck: Nachrechnen der Ferien-/Überzeitabgrenzung (M3-304)
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: Multiplikation (pro Mitarbeiter) der Ferien- oder Überzeitguthaben in Stunden mit dem Stundensatz für Lohnkosten, Sozialleistungen etc.
+- dokument: Steuerberechnung/Steuerabgrenzung des Geschäftsjahrs
+  zweck: Abstimmung Steuerabgrenzung (Schnittstelle S1; M3-301)
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung
+- dokument: Kreditorenjournal und Kontoblätter neue Rechnung bis Prüfungsdatum (Eingangsrechnungen, Zahlungen)
+  zweck: Kontendurchsicht neue Rechnung, Suche nach nicht abgegrenzten Leistungen (M3-305)
+  quelle: ser-2022__anh-d-s084-2
+  zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen
+- dokument: Detailnachweis stille Reserven (Geschäftsjahr und Vorjahr)
+  zweck: Plausibilisierung Bestand/Veränderung stiller Reserven in Rückstellungen (M3-321)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Detaillisten passive Abgrenzungen/Rückstellungen des Vorjahres (Vorjahresakte)
+  zweck: Vorjahresvergleich je Position (M3-202)
+  quelle: hwp-bur-2023__rz-0262-s216
+  zitat: durch Vergleich mit den im Vorjahr ausgewiesenen Rechnungsabgrenzungen
+- dokument: VR- und GL-Protokolle, Aktennotizen des Geschäftsjahrs und des Folgejahrs bis Prüfungsdatum
+  zweck: Hinweise auf Rechtsfälle und Risiken (M3-101, M3-305)
+  quelle: hwp-er-2026__rz-0124-s202
+  zitat: Sitzungsprotokolle der Unternehmensorgane
+- dokument: Unterzeichnete Vollständigkeitserklärung
+  zweck: Bestätigung Vollständigkeit Verbindlichkeiten/Eventualverbindlichkeiten und stille Reserven (M3-320, M3-321)
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten (Garantien, Bürgschaften und vergleichbare Erklärungen gegenüber Dritten) in der Jahresrechnung
+    ordnungsgemäss erfasst
+bewertung:
+- regel: Passive Rechnungsabgrenzungen werden wie Verbindlichkeiten zu Nominalwerten bewertet.
+  quelle: hwp-bur-2023__rz-0263-s216
+  zitat: Die Rechnungsabgrenzungen sind nach den Grundsätzen, die für Forderungen bzw. Verbindlichkeiten gelten, zu bewerten. Die Bilanzierung erfolgt zu Nominalwerten.
+- regel: Abgrenzung Rückstellung vs. passive Rechnungsabgrenzung nach dem Grad der Unsicherheit über Zeitpunkt oder Höhe.
+  quelle: hwp-bur-2023__rz-0260-s215
+  zitat: dass bei ihnen grössere Unsicherheiten bezüglich des Zeitpunkts oder der Höhe des zukünftigen Mittelabflusses bestehen
+- regel: Rückstellungshöhe nach bestmöglicher Schätzung; eine Bandbreite genügt als verlässliche Schätzung.
+  quelle: hwp-bur-2023__rz-0516-s261
+  zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
+- regel: 'Vorsichtsprinzip: eher oberes Ende der Bandbreite erfassen.'
+  quelle: hwp-bur-2023__rz-0515-s261
+  zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
+- regel: Eintretenswahrscheinlichkeit unter 50 % rechtfertigt nicht automatisch den Verzicht auf eine Rückstellung.
+  quelle: hwp-bur-2023__rz-0515-s261
+  zitat: ein Ereignis bei Eintretenswahrscheinlichkeit von unter 50 % nicht einfach als unwahrscheinlich qualifiziert und auf die Bildung einer Rückstellung verzichtet werden kann
+- regel: Bei bestehender Verpflichtung sofort und in vollem Umfang bilden; kein Aufbau über mehrere Jahre.
+  quelle: hwp-bur-2023__rz-0513-s261
+  zitat: Bei einer bestehenden Verpflichtung ist eine Rückstellung sofort und in vollem Umfang zu bilden.
+- regel: Handelsrechtlich notwendige Rückstellungen unabhängig von der steuerlichen Anerkennung bilden.
+  quelle: hwp-bur-2023__rz-0513-s261
+  zitat: Handelsrechtlich notwendige Rückstellungen müssen auch dann gebildet werden, wenn sie steuerlich keine Anerkennung finden.
+- regel: Wertaufhellende Ereignisse bis zur Abschlusserstellung berücksichtigen.
+  quelle: hwp-bur-2023__rz-0517-s262
+  zitat: Verluste, deren Ursache vor dem Abschlussstichtag liegt, die aber erst danach, jedoch vor Erstellung des Abschlusses bekannt werden, müssen zurückgestellt werden.
+- regel: Prozessrisiken abschätzen und angemessen zurückstellen; Eventualverbindlichkeit nur, wenn nicht bezifferbar.
+  quelle: hwp-bur-2023__rz-0526-s263
+  zitat: Besonders anspruchsvoll kann die Beurteilung von Prozessrisiken sein. Diese sind trotzdem abzuschätzen, und es ist dafür eine angemessene Rückstellung zu bilden.
+- regel: Ferien- und Überzeitguthaben sind zwingend abzugrenzen (Saldi × Lohnansatz), Ausweis als passive Rechnungsabgrenzung.
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: Am Bilanzstichtag noch nicht bezogene Ferien- oder Überzeitansprüche sind handelsrechtlich also zwingend abzugrenzen.
+- regel: Revisionshonorar nach gängiger Praxis vollständig abgrenzen (nach Akontozahlungen).
+  quelle: hwp-bur-2023__rz-0257-s215
+  zitat: Mit Bezug auf das Revisionshonorar ist es gängige Praxis, dieses (nach Berücksichtigung allfälliger Akontozahlungen) vollständig abzugrenzen
+- regel: Kurzfristige Rückstellungen unter dem kurzfristigen Fremdkapital, als Teil der passiven Abgrenzungen oder separat ausweisen.
+  quelle: hwp-bur-2023__rz-0225-s111
+  zitat: Kurzfristige Rückstellungen sind als Teil der passiven Rechnungsabgrenzungen oder als separate Position auszuweisen.
+- regel: Keine Saldierung aktiver und passiver Rechnungsabgrenzungen.
+  quelle: hwp-bur-2023__rz-0264-s216
+  zitat: eine Saldierung der beiden Positionen ist nicht zulässig
+- regel: Nicht mehr begründete, beibehaltene Rückstellungen gelten als stille Reserven.
+  quelle: hwp-bur-2023__rz-0528-s264
+  zitat: Darüber hinausgehende Rückstellungen sind möglich, gelten dann aber als stille Reserven und sind entsprechend zu behandeln.
+- regel: Bildung zulasten der sachlich zugehörigen Aufwandsposition; a.o./periodenfremde Bildung separat und im Anhang erläutern.
+  quelle: hwp-bur-2023__rz-0504-s259
+  zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
+- regel: Verwendung zweckbestimmter Rückstellungen als Bestandsbuchung, nur für artgleiche Posten.
+  quelle: hwp-bur-2023__rz-0507-s259
+  zitat: Die Verwendung zweckbestimmter Rückstellungen erfolgt als Bestandsbuchung.
+fallstricke:
+- text: Befragung allein genügt bei wesentlichen Positionen nicht; Antworten der GL mit Analytik und Detailprüfungen untermauern und kritisch würdigen.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'Anwalts- und Drittbestätigungen sind nicht Teil der eingeschränkten Revision: nicht aktiv einfordern; eine vom Unternehmen selbst eingeholte Stellungnahme darf verwendet werden.'
+  quelle: hwp-er-2026__rz-0139-s204-t2
+  zitat: Dieses Vorgehen, im SER als «Einholen von Anwaltsbestätigungen» bezeichnet, ist bei der eingeschränkten Revision nicht vorgesehen.
+- text: Rückbuchung der Vorjahresabgrenzungen per 01.01. über die Aufwandskonten verzerrt den Vorjahresvergleich der Aufwandskonten; sie gilt nicht als periodenfremd.
+  quelle: hwp-bur-2023__rz-0261-s216
+  zitat: dabei gilt die Rückbuchung nicht als periodenfremd
+- text: Analytik kann sich kompensierende Fehler (z.B. fehlende Abgrenzung und Rückbuchung) nicht aufdecken.
+  quelle: ser-2022__6-1-2-t3
+  zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können und deshalb bei analytischen Prüfungen nicht erkannt werden.
+- text: Grosse Bandbreite des Prozessrisikos ist kein Grund, statt einer Rückstellung nur eine Eventualverbindlichkeit offenzulegen.
+  quelle: hwp-bur-2023__rz-0516-s261
+  zitat: Eine grosse Bandbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten und stattdessen nur eine Eventualverbindlichkeit im Anhang
+- text: Kosten/Gutschriften zu einem zurückgestellten Sachverhalt in neuer Rechnung sind der Rückstellung zu belasten (Bestandsbuchung), nicht erneut Aufwand bzw. Ertragsminderung.
+  quelle: hwp-bur-2023__rz-0507-s259
+  zitat: Wurden beispielsweise Prozesskosten zurückgestellt und fallen diese in der Folgeperiode an, wird die Zahlung bei Fälligkeit direkt der Rückstellung belastet.
+- text: Umwidmung einer nicht benötigten Rückstellung in eine andere Rückstellungsart ohne Erfolgsrechnung ist unzulässig.
+  quelle: hwp-bur-2023__rz-0508-s260
+  zitat: Eine nicht benötigte Garantierückstellung darf auch nicht durch blosse Änderung der Bezeichnung – also unter Umgehung der Erfolgsrechnung – in eine Prozessrisikorückstellung
+    umgewandelt werden.
+- text: Konto heisst «Rückstellung Ferien/Überzeit», ist aber sachlich eine passive Rechnungsabgrenzung; Ausweis und Berechnung (nicht pauschal) prüfen.
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: die als passive Rechnungsabgrenzung auszuweisen ist
+- text: 'Abgrenzung zu anderen Prüffeldern: langfristige Rückstellungen und Rechtsfälle (O1), Steuern (S1), Personal/Ferien (R1), Kreditoren und Rechnungen neue Rechnung (K1), Anhang
+    (T1); Ergebnisse übergeben statt doppelt prüfen.'
+- text: WP-Schritte (M3-302, M3-304, M3-305) nur vorbereiten; Beurteilung, Visum und allfällige Buchungen entscheidet der Wirtschaftsprüfer.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+- text: Nicht benötigte Rückstellungen werden in KMU oft nicht separat aufgelistet; Detailnachweis stille Reserven aktiv anfordern.
+  quelle: ef-2026-08-buchungslogik__s005-3
+  zitat: Betreffend nicht benötigter Rückstellungen wird in den meisten Fällen ebenfalls keine separate Liste geführt.
+fragen_kunde:
+- frage: Wie stellen Sie sicher, dass alle Aufwände des Geschäftsjahrs, deren Rechnung erst im Folgejahr eintrifft (Honorare inkl. Revision, Energie, Telefon, Zinsen, Subunternehmer),
+    abgegrenzt sind? Wer erstellt die Liste, auf welcher Grundlage und bis wann?
+  zweck: 'M3-101: Prozess zur Vollständigkeit der passiven Abgrenzungen (VO); Antwort schriftlich dokumentieren'
+- frage: Bestehen per Bilanzstichtag oder bis heute pendente Risiken (Rechtsfälle, Mängelrügen, angedrohte Schadenersatz- oder Garantieansprüche)? Wie schätzt die Geschäftsleitung das
+    finanzielle Ausmass ein (Bandbreite, wahrscheinlichster Betrag, Verfahrenskosten)?
+  zweck: 'M3-101/M3-304: Vollständigkeit und Bewertung kurzfristiger Rückstellungen (VO, BE); Schnittstelle O1'
+- frage: Welche Gründe haben die wesentlichen Veränderungen der passiven Abgrenzungen, der Rückstellungen und der zugehörigen Aufwandskonten gegenüber dem Vorjahr?
+  zweck: 'M3-201/M3-202: Abweichungsanalyse (VO, PA, BE)'
+- frage: Wie wurde die Abgrenzung der Ferien- und Überzeitguthaben ermittelt (Saldi je Mitarbeiter × Lohnansatz oder Pauschale)? Bitte Saldoliste aus der Zeiterfassung beilegen.
+  zweck: 'M3-304: Bewertung der Ferien-/Überzeitabgrenzung (BE)'
+- frage: Wurden die direkten Steuern des Geschäftsjahrs berechnet und abgegrenzt? Bitte Steuerberechnung beilegen.
+  zweck: 'M3-301: Vollständigkeit Steuerabgrenzung (VO); Schnittstelle S1'
+- frage: Ist das Revisionshonorar für das geprüfte Geschäftsjahr abgegrenzt?
+  zweck: 'M3-302: Vollständigkeit typischer Abgrenzungen (VO)'
+- frage: Gab es nach dem Bilanzstichtag Entwicklungen bei zurückgestellten Sachverhalten (Vergleich, Urteil, Gutschriften, Zahlungen) oder neue Ansprüche Dritter?
+  zweck: 'M3-305: Entwicklung in neuer Rechnung, Ereignisse nach Bilanzstichtag (EN, VO, PA)'
+- frage: Liegt zu laufenden Rechtsfällen eine Stellungnahme Ihres Rechtsvertreters vor? Falls ja, bitte zur Verfügung stellen.
+  zweck: 'M3-304: Bewertungsnachweis Prozessrisiko (nur verwenden, nicht aktiv einfordern)'
+- frage: Enthalten Rückstellungen oder Abgrenzungen Beträge über das betriebswirtschaftlich Notwendige (stille Reserven)? Bitte Detailnachweis Bestand und Veränderung.
+  zweck: 'M3-321: stille Reserven, Nettoauflösung (BE, DO)'
+testakte_2025:
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'Detailliste Konto 2300, Rückstellungsspiegel (2330, 2370, 2340, 2630) und Berechnung Garantie: M3-202, M3-301, M3-304, M3-321, M3-401 (Konto 2630 langfristig → Prüffeld O1)'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Aktennotiz_Rechtsfall_Kunstrasen_Fiktiv_AG.md
+  bezug: 'Grundlage Rückstellung 2330 (Sachverhalt, Einschätzung Rechtsvertreter, Entscheid GF): M3-101, M3-304, M3-320, M3-321'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Salden 2025/2024 der Konten 2300, 2330, 2340, 2370 sowie zugehöriger Aufwandskonten (z.B. 5200, 6000, 6400, 6510, 6530, 6900, 8500): M3-201, M3-202, M3-301, M3-302'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Kontoblätter 2300, 2330, 2340, 2370, 2630 (Rückbuchung AB-01, Bildungen AB-34 bis AB-37, Auflösung ST-24): M3-302, M3-401'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'Buchungen in neuer Rechnung (u.a. Gutschrift Kunstrasen Fiktiv AG 12.02.2026, Kreditoren Januar 2026): M3-305'
+- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
+  bezug: 'Eingangsrechnungen Januar 2026 mit Rechnungsdatum/Leistungszeitraum: M3-101, M3-305 (Schnittstelle K1)'
+- datei: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md
+  bezug: 'Ferien-/Überzeitsaldi je Mitarbeiter mit Tages-/Stundenlohn: Abstimmung Konto 2370, M3-301, M3-304 (Schnittstelle R1)'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'Bilanzausweis passive Abgrenzungen/kurzfristige Rückstellungen und Anhang (Ziff. 1 Grundsätze, Ziff. 3 a.o. Positionen, Ziff. 6 Ereignisse nach Bilanzstichtag): M3-301, M3-320,
+    M3-321'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'Verzeichnis der gelieferten Unterlagen (Ordner K): Abgleich PBC-Liste, M3-322'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'Ansprechpersonen Finanzen/GF für Befragungen: M3-101, M3-201'
+schritte:
+- id: M3-101
+  vorgehen: 'Agent befragt nicht selbst: schriftliche Antwort (Kundenbefragung 10.11) auswerten, sonst Frage als Pendenz. Gefragt: Prozess zur vollständigen Erfassung der passiven Abgrenzungen
+    (Verantwortliche, Quellen wie Verträge, Kreditoreneingang neue Rechnung, Liste wiederkehrender Abgrenzungen) und pendente Risiken für kurzfristige Rückstellungen. Antwort mit Detailliste
+    und Kreditorenjournal Folgejahr plausibilisieren; Fragen/Antworten dokumentieren.'
+  nachweise:
+  - Schriftliche Antwort Kundenbefragung (10.11) bzw. Pendenz
+  - Detailliste passive Rechnungsabgrenzungen 31.12.
+  - Aktennotizen/Protokolle zu pendenten Risiken
+  - Kreditorenjournal Folgejahr
+  rechnen: ''
+  feststellung_wenn: Kein geregelter Abgrenzungsprozess, Antwort widerspricht Detailliste/Kreditorenjournal oder genanntes Risiko ohne Rückstellung bzw. Anhangangabe; fehlende Antwort
+    = Pendenz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rechnungsabgrenzungen
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Befragung über pendente Risiken (Rechtsfälle, angedrohte Schadenersatz- und andere Ansprüche usw.), die eine Rückstellung erfordern
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+- id: M3-201
+  vorgehen: Aus der Saldoliste die Aufwands- und Ertragskonten mit typischen Abgrenzungen (Miete, Energie, Telefon, Beratung/Revision, Zinsen, Löhne, Steuern) mit Vorjahr vergleichen;
+    Veränderung absolut und in % rechnen. Abweichungen über der Schwelle als Frage an die GL (Pendenz), Antworten plausibilisieren und mit der Bestandsveränderung (M3-202) abgleichen;
+    im Textfeld dokumentieren.
+  nachweise:
+  - Saldoliste Geschäftsjahr mit Vorjahr
+  - Kontoblätter der Aufwandskonten
+  - Antwort GL zu Abweichungen
+  rechnen: Veränderung = Saldo GJ – Saldo VJ; Abweichung % = Veränderung / |Saldo VJ|; Prüfen ab Schwelle gemäss Wesentlichkeit
+  feststellung_wenn: Wesentlicher Aufwandsrückgang ohne plausible Begründung (Hinweis auf fehlende Abgrenzung) oder Erklärung der GL widerspricht Belegen bzw. Verträgen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Vergleich der Salden zugehöriger Aufwands- und Ertragskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung
+  - quelle: ser-2022__6-1-2-t3
+    zitat: Auch für eine begrenzte Prüfungssicherheit ist es notwendig, die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren.
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+- id: M3-202
+  vorgehen: 'Bestände der passiven Abgrenzungen und kurzfristigen Rückstellungen je Konto und je Position der Detailliste mit dem Vorjahr (Vorjahresakte) vergleichen: weggefallene, neue
+    und stark veränderte Positionen markieren, wiederkehrende Abgrenzungen (Revision, Energie, Zinsen, Ferien, Steuern) auf Vorhandensein prüfen. Ursachen aus Belegen erklären oder erfragen
+    und im Textfeld festhalten.'
+  nachweise:
+  - Detaillisten passive Abgrenzungen/Rückstellungen GJ und VJ
+  - Saldoliste
+  - Vorjahresakte
+  rechnen: Veränderung je Konto = Saldo 31.12. GJ – Saldo 31.12. VJ; Positionen des Vorjahres ohne Gegenstück im Geschäftsjahr auflisten
+  feststellung_wenn: Wiederkehrende Abgrenzung fehlt, wesentliche Veränderung bleibt unerklärt oder Rückstellung wurde ohne Begründung reduziert bzw. aufgelöst.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Vergleich mit den Beständen des Vorjahres
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Vergleich mit den Beständen des Vorjahres
+  - quelle: hwp-bur-2023__rz-0262-s216
+    zitat: durch Vergleich mit den im Vorjahr ausgewiesenen Rechnungsabgrenzungen
+- id: M3-301
+  vorgehen: 'Detailliste der passiven Abgrenzungen und Rückstellungsspiegel beschaffen, Summen nachrechnen und mit Saldoliste/Bilanz abstimmen. Kritische Durchsicht: Gläubiger, Leistungszeitraum,
+    Grundlage, Fristigkeit, Klassierung (Abgrenzung/Rückstellung/Verbindlichkeit); pauschale, runde oder unbelegte Positionen und offensichtlich Fehlendes (Revisionshonorar, Steuern,
+    Ferien) markieren.'
+  nachweise:
+  - Detailliste passive Rechnungsabgrenzungen
+  - Rückstellungsspiegel
+  - Saldoliste/Bilanz 31.12.
+  - Jahresrechnung
+  rechnen: 'Σ Detailliste = Saldo Konto 2300 (bzw. Total pRA); Spiegel je Konto: Stand 01.01. + Bildung – Verwendung – Auflösung = Stand 31.12. = Saldo; Stand 01.01. = Stand 31.12. VJ'
+  feststellung_wenn: Differenz Detailliste/Spiegel zu Saldo, keine Detailliste, Position ohne Grundlage, falsche Fristigkeit/Klassierung oder offensichtlich fehlende Abgrenzung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: hwp-bur-2023__rz-0505-s259
+    zitat: Der Grundsatz der Ordnungsmässigkeit macht es erforderlich, die Zusammensetzung der Rückstellungen nach sachlichen Kriterien zu dokumentieren.
+- id: M3-302
+  vorgehen: WP-Schritt, nur vorbereiten. Kontoblätter der Konten mit typischen Abgrenzungen (Miete, Energie, Telefon, Honorare, Zinsen, Versicherungen) auf Anzahl Monatsbelastungen und
+    Periodenzugehörigkeit durchsehen; erwarteten Jahresaufwand aus Verträgen rechnen und Lücken als mögliche fehlende Abgrenzung im Textfeld auflisten. Beurteilung durch den WP.
+  nachweise:
+  - Kontoblätter Aufwand/Ertrag des Geschäftsjahrs
+  - Verträge (Miete, Darlehen, Service)
+  - Detailliste passive Abgrenzungen
+  rechnen: Erwarteter Aufwand = Monatsbetrag gemäss Vertrag × 12; Differenz zu gebuchtem Aufwand (nach Rückbuchung VJ-Abgrenzung) = mögliche Abgrenzungslücke
+  feststellung_wenn: Fehlende Monatsbelastungen oder Aufwand des Geschäftsjahrs ohne Abgrenzung über der Wesentlichkeitsschwelle.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten
+  - quelle: hwp-bur-2023__rz-0262-s216
+    zitat: mittels Durchsicht der einzelnen Aufwands- und Ertragskonten im Hinblick auf die richtige Periodenabgrenzung
+  - quelle: hwp-bur-2023__rz-0257-s215
+    zitat: wie beispielsweise Darlehens- und Hypothekenzinsen, Mieten, Löhne, Steuern, Provisionen, noch nicht fakturierte Beraterhonorare
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: bestimmte Aufwands- oder Ertragskonten
+- id: M3-304
+  vorgehen: 'WP-Schritt, nur vorbereiten. Wesentliche Positionen von Detailliste und Rückstellungsspiegel mit Unterlagen abstimmen: Verträge, Rechnungen neue Rechnung, Ferien-/Überzeitsaldi
+    × Lohnansatz, Aktennotizen, Klageschriften, Berechnungen. Abweichungen und fehlende Unterlagen (Pendenz) im Textfeld. Anwaltsbestätigung nicht einfordern; vom Unternehmen eingeholte
+    Stellungnahme verwenden.'
+  nachweise:
+  - Verträge/Rechnungen zu Abgrenzungen
+  - Ferien-/Überzeitsaldi 31.12.
+  - Aktennotizen, Klageschriften, Berechnungen zu Rückstellungen
+  - Stellungnahme Rechtsvertreter (falls vorhanden)
+  rechnen: Abgrenzung = Vertragsbetrag × Anteil Leistungszeitraum im GJ; Ferien/Überzeit = Σ je MA (Feriensaldo Tage × Tageslohn + Überzeit h × Stundenlohn) vs. Saldo; Rückstellung vs.
+    dokumentierte Bandbreite
+  feststellung_wenn: Position nicht belegt, Betrag weicht wesentlich von Unterlage/Berechnung ab oder Rückstellung liegt unter der dokumentierten Schätzung bzw. Bandbreite.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge, Klageschriften, Berechnungen usw.)
+  - quelle: hwp-er-2026__rz-0139-s204-t2
+    zitat: Abstimmungen mit Verträgen oder die Kontendurchsicht in neuer Rechnung können helfen, das Risiko zu reduzieren.
+  - quelle: hwp-er-2026__rz-0139-s204-t3
+    zitat: Liegt eine Bestätigung im Zeitpunkt der Abschlusserstellung vor, wird der Abschlussprüfer diese als Prüfungsnachweis betrachten
+  - quelle: qa-or-rechnungslegung-2026__2-2-t1
+    zitat: Multiplikation (pro Mitarbeiter) der Ferien- oder Überzeitguthaben in Stunden mit dem Stundensatz für Lohnkosten, Sozialleistungen etc.
+- id: M3-305
+  vorgehen: 'WP-Schritt, nur vorbereiten. Kontoblätter, Kreditorenjournal und Zahlungen in neuer Rechnung bis zum Prüfungsdatum durchsehen: Abgrenzungen/Rückstellungen mit effektiven
+    Rechnungen, Zahlungen, Gutschriften, Vergleichen oder Urteilen vergleichen; Rechnungen mit Leistung bis 31.12. ohne Abgrenzung oder Kreditor auflisten. Ereignisse nach dem Bilanzstichtag
+    im Textfeld festhalten.'
+  nachweise:
+  - Kontoblätter Folgejahr
+  - Kreditorenjournal Folgejahr
+  - Zahlungsausgänge
+  - Korrespondenz/Vergleich zu Rechtsfällen
+  rechnen: Differenz = Abgrenzung bzw. Rückstellung 31.12. – effektive Rechnung/Zahlung in neuer Rechnung; Σ Rechnungen mit Leistungsdatum ≤ 31.12. ohne Abgrenzung/Kreditor
+  feststellung_wenn: Wesentliche Rechnung für Leistung des Geschäftsjahrs ohne Abgrenzung, effektiver Betrag deutlich über Rückstellung oder Ereignis nach Stichtag erhellt ein Risiko
+    am Stichtag.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  - quelle: hwp-er-2026__rz-0321-s255-t2
+    zitat: ob Ereignisse eingetreten sind, die für die Ermittlung von geschätzten Werten oder Rückstellungen im Abschluss relevant sind
+  - quelle: hwp-bur-2023__rz-0517-s262
+    zitat: Verluste, deren Ursache vor dem Abschlussstichtag liegt, die aber erst danach, jedoch vor Erstellung des Abschlusses bekannt werden, müssen zurückgestellt werden.
+- id: M3-320
+  vorgehen: 'Anhang auf Angaben mit Bezug zu M3 prüfen: Eventualverbindlichkeiten (z.B. Rechtsstreit ohne oder mit nur teilweiser Rückstellung), Erläuterung ausserordentlicher/periodenfremder
+    Bildungen und Auflösungen, wesentliche Ereignisse nach dem Bilanzstichtag, Grundsätze. Mit Ergebnissen M3-101/304/305/321 abgleichen und Bedarf an Prüffeld T1 übergeben.'
+  nachweise:
+  - Anhang zur Jahresrechnung
+  - Rückstellungsspiegel
+  - Arbeitspapiere M3-101/304/305/321
+  rechnen: ''
+  feststellung_wenn: Pflichtangabe (Eventualverbindlichkeit, a.o. Position, Ereignis nach Stichtag, Nettoauflösung stiller Reserven) fehlt oder widerspricht den Prüfungsergebnissen.
+  fundstellen:
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
+  - quelle: or__art-959c-t2
+    zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach rechtlichen oder tatsächlichen Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt
+      werden kann
+  - quelle: hwp-er-2026__rz-0139-s204-t2
+    zitat: Um das Prüfungsrisiko in den Aussagen «Vollständigkeit» der Rückstellungen und «Offenlegung» im Anhang auf ein vertretbares Mass zu reduzieren
+  - quelle: hwp-bur-2023__rz-0855-s351-t1
+    zitat: Wird gegen ein Unternehmen Klage erhoben und ist ein negativer Prozessausgang möglich
+- id: M3-321
+  vorgehen: 'Detailnachweis stille Reserven beschaffen: in Rückstellungen/Abgrenzungen enthaltene, nicht betriebsnotwendige Beträge (z.B. nicht mehr begründete Rückstellungen) je Position
+    mit Vorjahr abstimmen, Veränderung aus dem Rückstellungsspiegel (Auflösungen, Neubildungen) nachvollziehen und Methode mit Vorjahr vergleichen. Nettoauflösung an Prüffeld stille
+    Reserven/Anhang (T1) übergeben.'
+  nachweise:
+  - Detailnachweis stille Reserven GJ/VJ
+  - Rückstellungsspiegel
+  - Vollständigkeitserklärung
+  rechnen: Stille Reserve je Position = gebuchter Betrag – betriebswirtschaftlich notwendiger Betrag; Veränderung = Bestand 31.12. – Bestand 01.01.; negative Veränderung = Auflösung
+  feststellung_wenn: Kein Nachweis, Methode geändert, nicht begründete Rückstellung nicht als stille Reserve erfasst oder wesentliche Nettoauflösung ohne Anhangangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr und Plausibilisierung mit den Prüfungsresultaten in den einzelnen Bilanzpositionen
+  - quelle: hwp-bur-2023__rz-0506-s259
+    zitat: Werden sie beibehalten, handelt es sich um eine Bildung stiller Reserven
+  - quelle: hwp-bur-2023__rz-0817-s341-t1
+    zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
+- id: M3-322
+  vorgehen: 'Dauerakte in M-Files prüfen und ergänzen: Miet-, Darlehens-, Leasing- und Serviceverträge mit Abgrenzungsbezug, interne Rückstellungs-/Garantierichtlinien, Unterlagen zu
+    mehrjährigen Rechtsfällen, Personal-/Ferienreglement. Fehlende oder veraltete Dokumente als Pendenz erfassen; nichts löschen.'
+  nachweise:
+  - Dauerakte M-Files
+  - Neue Verträge/Reglemente/Richtlinien des Geschäftsjahrs
+  rechnen: ''
+  feststellung_wenn: 'Nur Pendenz: Dauerakte fehlt oder ist veraltet (z.B. neuer Mietvertrag, neue Rückstellungsrichtlinie, laufender Rechtsfall nicht abgelegt).'
+  fundstellen:
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt
+- id: M3-401
+  vorgehen: 'Nur auf Anweisung des WP. Buchungen von Bildung, Verwendung und Auflösung je Konto (inkl. Rückbuchung der VJ-Abgrenzungen) mit Belegen und Gegenkonten abstimmen: Bildung
+    zulasten der sachlich zugehörigen Position, Verwendung als Bestandsbuchung nur für artgleiche Posten, Auflösung über Erfolgsrechnung mit sachgerechtem Ausweis. Abweichungen als Wesentliche
+    Feststellung mit Buchungsvorschlag (nicht buchen).'
+  nachweise:
+  - Kontoblätter Abgrenzungs- und Rückstellungskonten
+  - Buchungsbelege Bildung/Verwendung/Auflösung
+  - Rückstellungsspiegel
+  rechnen: 'Je Konto: Saldo 01.01. – Rückbuchung/Verwendung/Auflösung + Bildung = Saldo 31.12.; Σ Bildungen = Belastungen der Gegenkonten gemäss Kontoblatt'
+  feststellung_wenn: Buchung ohne Beleg, Bildung oder Auflösung über sachfremdes Konto, artfremde Verwendung oder Umgehung der Erfolgsrechnung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0504-s259
+    zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
+  - quelle: hwp-bur-2023__rz-0507-s259
+    zitat: Die Verwendung zweckbestimmter Rückstellungen erfolgt als Bestandsbuchung.
+  - quelle: hwp-bur-2023__rz-0508-s260
+    zitat: Eine Inanspruchnahme von Rückstellungen durch Direktbelastung auf dem Rückstellungskonto ist nur für artgleiche Posten zulässig.
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht

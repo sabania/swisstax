@@ -1,0 +1,590 @@
+# Prüffeld H3 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: H3
+bezeichnung: Beteiligungen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 13
+    korrigiert: false
+kurzbeschrieb: 'Beteiligungen (Anteile am Kapital anderer Unternehmen, langfristig gehalten, massgeblicher Einfluss; vermutet ab 20 % Stimmrechte) inkl. Beteiligungserträge, eigene Anteile,
+  VSt-Guthaben. Eingeschränkte Revision: Befragung zu Bewertung und tieferen Werten, Vorjahresvergleich, Abstimmung Beteiligungsverzeichnis/Kaufvertrag/HR mit JR, Werthaltigkeit anhand
+  Abschluss der Beteiligung, Anhang.'
+gesetz:
+- thema: Begriff Beteiligung, Vermutung massgeblicher Einfluss ab 20 % (Art. 960d Abs. 3 OR)
+  quelle: or__art-960d
+  zitat: Als Beteiligungen gelten Anteile am Kapital eines anderen Unternehmens, die langfristig gehalten werden und einen massgeblichen Einfluss vermitteln.
+- thema: 'Mindestgliederung: Beteiligungen gesondert im Anlagevermögen (Art. 959a Abs. 1 Ziff. 2 OR)'
+  quelle: or__art-959a-t1
+  zitat: a. Finanzanlagen, b. Beteiligungen,
+- thema: Forderungen/Verbindlichkeiten gegenüber Beteiligungen gesondert (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+- thema: 'Anhang: Beteiligungen mit Kapital- und Stimmenanteil (Art. 959c Abs. 2 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+- thema: 'Anhang: eigene Anteile, Erwerb und Veräusserung (Art. 959c Abs. 2 Ziff. 4 und 5 OR)'
+  quelle: or__art-959c-t1
+  zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
+- thema: 'Anhang: Sicherheiten für Dritte, verpfändete Aktiven, Eventualverbindlichkeiten (Art. 959c Abs. 2 Ziff. 8–10 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven, soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven
+    übersteigt
+- thema: Bestandsnachweis durch Inventar (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Einzelbewertung, Vorsicht, Überprüfung bei Anzeichen einer Überbewertung (Art. 960 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Höchstbewertung Anschaffungskosten, Wertberichtigungen (Art. 960a Abs. 1–3 OR)
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+- thema: Zusätzliche Wertberichtigungen (stille Reserven) zulässig (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- thema: Bewertung zum Börsenkurs/beobachtbaren Marktpreis (Art. 960b OR)
+  quelle: or__art-960b
+  zitat: In der Folgebewertung dürfen Aktiven mit Börsenkurs oder einem anderen beobachtbaren Marktpreis in einem aktiven Markt zum Kurs oder Marktpreis am Bilanzstichtag bewertet werden
+- thema: Aufwertung von Beteiligungen bei Kapitalverlust/Überschuldung nur mit schriftlicher Bestätigung (Art. 725c OR)
+  quelle: or__art-725c
+  zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt, dass die gesetzlichen Bestimmungen eingehalten
+    sind.
+- thema: 'Eigene Aktien: Erwerbsvoraussetzungen und 10-%-Grenze (Art. 659 OR)'
+  quelle: or__art-659
+  zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+- thema: Eigene Aktien als Minusposten zum Anschaffungswert (Art. 659a Abs. 4 OR)
+  quelle: or__art-659a
+  zitat: Die Gesellschaft hat in der Bilanz für die eigenen Aktien einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
+- thema: Aktien der Muttergesellschaft im Besitz kontrollierter Unternehmen (Art. 659b OR)
+  quelle: or__art-659b
+  zitat: einen dem Anschaffungswert dieser Aktien entsprechenden Betrag gesondert als gesetzliche Gewinnreserve auszuweisen
+- thema: Eigene Stammanteile GmbH (Art. 783 OR)
+  quelle: or__art-783
+  zitat: Die Gesellschaft darf eigene Stammanteile nur dann erwerben, wenn frei verwendbares Eigenkapital in der Höhe der dafür nötigen Mittel vorhanden ist
+- thema: Einzahlungspflicht nicht voll liberierter Namenaktien (Art. 687 OR)
+  quelle: or__art-687
+  zitat: Der Erwerber einer nicht voll einbezahlten Namenaktie ist der Gesellschaft gegenüber zur Einzahlung verpflichtet, sobald er im Aktienbuch eingetragen ist.
+- thema: Nachschusspflicht bei GmbH-Stammanteilen (Art. 795 OR)
+  quelle: or__art-795
+  zitat: Sehen die Statuten eine Nachschusspflicht vor, so müssen sie den Betrag der mit einem Stammanteil verbundenen Nachschusspflicht festlegen.
+- thema: Befreiung von der Konzernrechnungspflicht bei kontrollierten Beteiligungen (Art. 963a OR)
+  quelle: or__art-963a
+  zitat: zusammen mit den kontrollierten Unternehmen zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschreitet
+risiken:
+- text: 'Bewertung: Beteiligung trotz Verlusten, negativem Ausblick oder Substanzverzehr der Beteiligungsgesellschaft ohne Wertberichtigung über dem erzielbaren Wert bilanziert.'
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: unter den Erwartungen liegende Gewinne oder wiederkehrende Verluste bei der Beteiligung
+- text: Bewertung über Anschaffungskosten (Equity-Methode, Zuschreibung über AK, Aufwertung ohne Voraussetzungen nach Art. 725c OR).
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0295-s223
+  zitat: ist für den handelsrechtlichen Einzelabschluss in der Schweiz nicht zulässig, falls dies zu einer Bewertung über den Anschaffungswert bzw. tieferen erzielbaren Wert führen würde
+- text: 'Ausweis/Klassifikation: Beteiligung nicht gesondert im Anlagevermögen, sondern unter Finanzanlagen, Forderungen oder Anzahlungen erfasst bzw. Abgrenzung zu Darlehen und Wertschriften
+    falsch.'
+  pruefziele:
+  - DO
+  - EX
+  quelle: hwp-bur-2023__rz-0304-s224
+  zitat: Die Beteiligungen sind im Anlagevermögen gesondert auszuweisen.
+- text: 'Bestand/Eigentum: Beteiligung bilanziert ohne Nachweis (Titel, Depotauszug, HR-Auszug, Kaufvertrag) oder Quote/Stimmrechte unrichtig erfasst.'
+  pruefziele:
+  - EX
+  - RV
+  quelle: hwp-bur-2023__rz-0280-s219
+  zitat: gelten beispielsweise Bestätigungen der jeweiligen Beteiligung, Handelsregisterauszüge, Verträge, Statuten oder Aktienregister als Bestandsnachweis
+- text: 'Anschaffungskosten falsch: Nebenkosten fehlen oder Finanzierungskosten aktiviert, Goodwill separat bilanziert, Gratisaktien aktiviert, bedingte Kaufpreise (Earn-out) nicht erfasst.'
+  pruefziele:
+  - BE
+  - VO
+  quelle: hwp-bur-2023__rz-0282-s220
+  zitat: Ein allfälliger beim Erwerb der Beteiligung im Kaufpreis enthaltener Goodwill wird in den Anschaffungskosten der Beteiligung subsumiert und darf nicht gesondert bilanziert werden.
+- text: 'Periodenabgrenzung/Vollständigkeit Beteiligungserträge: Dividenden in falscher Periode, netto statt brutto oder gar nicht erfasst; VSt-Rückforderungsanspruch gefährdet.'
+  pruefziele:
+  - PA
+  - VO
+  - BE
+  quelle: hwp-bur-2023__rz-0322-s227
+  zitat: Um den Anspruch auf Rückerstattung der Verrechnungssteuer oder auf Durchführung des Meldeverfahrens zu wahren, ist der Beteiligungsertrag zwingend nach dem folgenden Schema
+    zu verbuchen.
+- text: Nicht erfasste Verpflichtungen gegenüber Beteiligungsgesellschaften (nicht liberierte Titel, Nachschusspflichten, Garantien, Patronatserklärungen) bzw. Verpfändungen von Beteiligungen.
+  pruefziele:
+  - VO
+  - DO
+  - BE
+  quelle: hwp-bur-2023__rz-0279-s219
+  zitat: Aufbewahrungsort der Titel sowie Hinweise auf Einzahlungs- und Nachschusspflichten
+- text: 'Eigene Anteile: Bestand nicht erkannt, nicht als Minusposten ausgewiesen, gesetzliche Grenzen überschritten oder Anhangangabe fehlt.'
+  pruefziele:
+  - EX
+  - DO
+  - BE
+  quelle: hwp-bur-2023__rz-0637-s291
+  zitat: Eigene Kapitalanteile, die das bilanzierende Unternehmen selbst hält, sind als Minusposten im Eigenkapital auszuweisen
+- text: 'Anhang unvollständig: Beteiligungen mit Kapital-/Stimmenanteil, Forderungen/Verbindlichkeiten gegenüber Beteiligungen oder wesentliche Nettoauflösung stiller Reserven nicht
+    offengelegt.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0304-s224
+  zitat: Jede direkte und jede wesentliche indirekte Beteiligung muss im Anhang einzeln aufgeführt werden
+- text: Gesamtengagement gegenüber einer Tochter (Beteiligung plus Darlehen/Forderungen) nicht gesamthaft auf Werthaltigkeit beurteilt; Wertberichtigung falsch zugeordnet.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0293-s222
+  zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
+    zuzuordnen
+unterlagen:
+- dokument: Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Buchwert, Wertberichtigungen, Aufbewahrungsort,
+    Einzahlungs-/Nachschusspflichten)
+  zweck: H3-301 Abstimmung Bestand, H3-320 Anhang, H3-402 Verpflichtungen
+  quelle: hwp-bur-2023__rz-0279-s219
+  zitat: Zweckmässig ist die Führung eines Beteiligungsverzeichnisses
+- dokument: Kauf-/Verkaufsverträge, Zahlungsbelege, VR-Beschlüsse zu Zu- und Abgängen, Kapitalerhöhungen und Zuschüssen
+  zweck: H3-301 Bestand, H3-303 Anschaffungskosten und Gegenbuchungen
+  quelle: hwp-er-2026__rz-0119-s201
+  zitat: Korrespondenzen mit Rechtsanwälten, Kaufverträge, langfristige Liefervereinbarungen
+- dokument: Depotauszug bzw. Titel per 31.12.; bei GmbH-Anteilen HR-Auszug, Statuten, Gesellschafter-/Aktienregister der Beteiligung
+  zweck: H3-301 Bestands- und Eigentumsnachweis, Quote/Stimmrechte
+  quelle: hwp-bur-2023__rz-0280-s219
+  zitat: Das Eigentum des bilanzierenden Unternehmens wird durch die Titel oder die Depotbestätigung eines oder einer Dritten nachgewiesen.
+- dokument: Letzte verfügbare Jahresrechnungen (ggf. Revisionsberichte) der Beteiligungsgesellschaften
+  zweck: H3-302 innerer Wert, H3-403 Bonität, H3-102 Werthaltigkeit
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
+- dokument: Jahresendkurse kotierter Titel (Depotauszug, Kursliste)
+  zweck: H3-302 Bewertung kotierter Beteiligungen/Wertschriften
+  quelle: ser-2022__anh-d-s081-1
+  zitat: Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen
+- dokument: Werthaltigkeitsbeurteilung der Geschäftsleitung (Substanz-/Ertragswert, Planungsrechnung, Budget)
+  zweck: H3-102/H3-302 Nachvollzug der Bewertung
+  quelle: hwp-bur-2023__rz-0292-s222
+  zitat: summarische, vom bisherigen Wissensstand ausgehende Bewertungsüberlegungen oder näherungsweise Bewertungsmethoden
+- dokument: GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen, Dividendenabrechnungen mit VSt-Ausweis, VSt-Rückerstattungsanträge
+  zweck: H3-304 Erfassung Erträge, H3-405 VSt-Guthaben
+  quelle: hwp-bur-2023__rz-0319-s226
+  zitat: gilt als Realisationszeitpunkt des Beteiligungsertrags normalerweise der Ausschüttungsbeschluss oder das Datum der Ausschüttung
+- dokument: Aktienbuch/Anteilbuch, Verträge über Erwerb und Veräusserung eigener Anteile
+  zweck: H3-401 Bestand eigene Anteile
+  quelle: ser-2022__anh-d-s091-1
+  zitat: Feststellen des Bestands an eigenen Kapitalanteilen
+- dokument: Garantie-, Bürgschafts-, Patronats- und Pfandverträge zugunsten/zulasten von Beteiligungen; Kreditverträge mit Verpfändung von Beteiligungstiteln
+  zweck: H3-402 Verpfändungen und Eventualverbindlichkeiten
+  quelle: ser-2022__anh-d-s097-1
+  zitat: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter
+- dokument: Aufstellung Bestand und Veränderung der stillen Reserven (Kunde)
+  zweck: H3-321 stille Reserven
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Unterzeichnete Vollständigkeitserklärung
+  zweck: H3-320/H3-402 Belastungen, Eventualverbindlichkeiten, stille Reserven
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Die [1] ist nachweislich Verfügungsberechtigte aller aktivierten Vermögenswerte.
+bewertung:
+- regel: Höchstwert Anschaffungskosten; dazu gehören transaktionsbezogene Nebenkosten, nicht aber Finanzierungskosten.
+  quelle: hwp-bur-2023__rz-0281-s220
+  zitat: Zu den Anschaffungskosten gehören neben dem Kaufpreis der eigentlichen Kapitalanteile auch transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber
+    Finanzierungskosten)
+- regel: Im Kaufpreis enthaltener Goodwill ist Teil der Anschaffungskosten der Beteiligung und wird nicht separat bilanziert.
+  quelle: hwp-bur-2023__rz-0282-s220
+  zitat: Ein allfälliger beim Erwerb der Beteiligung im Kaufpreis enthaltener Goodwill wird in den Anschaffungskosten der Beteiligung subsumiert
+- regel: Gratisaktien dürfen nicht aktiviert werden.
+  quelle: hwp-bur-2023__rz-0283-s220
+  zitat: Eine Aktivierung von Gratisaktien ist nicht zulässig
+- regel: Einzelbewertung; Gruppenbewertung nur in sachlich begründeten Einzelfällen (wirtschaftliche Einheit, kleinstmögliche Gruppe).
+  quelle: hwp-bur-2023__rz-0289-s221
+  zitat: Beteiligungen sind in der Regel einzeln zu bewerten (Art. 960 Abs. 1 OR).
+- regel: Keine planmässigen Abschreibungen, sondern Wertberichtigungen bei Wertverlust; Prüfung auf Anzeichen einer Wertminderung an jedem Abschlussstichtag.
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: Die Prüfung auf Anzeichen für eine Wertminderung hat mindestens an jedem Abschlussstichtag zu erfolgen.
+- regel: 'Wertminderungstest: Buchwert vs. erzielbarer Wert (höherer aus Nutzwert und Netto-Marktwert).'
+  quelle: hwp-bur-2023__rz-0291-s222
+  zitat: wird der Buchwert der Beteiligung mit dem erzielbaren Wert (höherer Wert aus Nutzwert und Netto-Marktwert) verglichen
+- regel: Bei unwesentlichen oder unproblematischen Beteiligungen genügen summarische Überlegungen (Substanzwert, einfache Ertragswertermittlung); sonst vertiefte Abklärungen.
+  quelle: hwp-bur-2023__rz-0292-s222
+  zitat: Andernfalls sind vertiefte Abklärungen vorzunehmen.
+- regel: Equity-Bewertung im Einzelabschluss unzulässig, soweit sie über Anschaffungswert bzw. tieferen erzielbaren Wert führt.
+  quelle: hwp-bur-2023__rz-0295-s223
+  zitat: ist für den handelsrechtlichen Einzelabschluss in der Schweiz nicht zulässig
+- regel: 'Fremdwährungsbeteiligung: Buchwert mit dem zum Stichtagskurs umgerechneten anteiligen Unternehmenswert vergleichen.'
+  quelle: hwp-bur-2023__rz-0296-s223
+  zitat: mit dem zum Bilanzstichtagskurs umgerechneten anteiligen Unternehmenswert der Beteiligung
+- regel: Kotierte Beteiligungen können zum Börsenkurs bewertet werden (aktiver Markt, Paketgrösse); nicht kotierte in der Regel nicht.
+  quelle: hwp-bur-2023__rz-0298-s223
+  zitat: Beteiligungen an nicht kotierten Unternehmen erfüllen die Anforderungen an eine Bilanzierung zu einem beobachtbaren Marktpreis in der Regel nicht.
+- regel: Sanierungszahlungen an Töchter grundsätzlich aktivierbar, aber Werthaltigkeit überprüfen.
+  quelle: hwp-bur-2023__rz-0285-s221
+  zitat: Zahlungen an sanierungsbedürftige Tochtergesellschaften (z.B. im Rahmen einer Kapitalerhöhung oder als Sanierungszuschuss) sind grundsätzlich aktivierbar
+- regel: Abgänge zum Buchwert; Zuschreibungen innerhalb der Anschaffungskosten erfolgswirksam und bezeichnet.
+  quelle: hwp-bur-2023__rz-0279-s219
+  zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
+- regel: 'Beteiligungsertrag: Realisation grundsätzlich mit Ausschüttungsbeschluss bzw. Ausschüttung; zeitgleiche Aktivierung nur unter Voraussetzungen und mit Anhangangabe.'
+  quelle: hwp-bur-2023__rz-0321-s227
+  zitat: dieser Sachverhalt im Anhang der Obergesellschaft offengelegt wird
+- regel: Nicht rückforderbare Quellensteuern auf künftige Ausschüttungen bei der Bewertung berücksichtigen.
+  quelle: hwp-bur-2023__rz-0294-s223
+  zitat: Solche Steuerfolgen sind bei der Bewertung einer Beteiligung zu berücksichtigen.
+- regel: Stille Reserven je Bilanzposition (inkl. Beteiligungen) jährlich als Differenz Buchwert zu gesetzlichem Höchstwert ermitteln und mit Vorjahr vergleichen.
+  quelle: hwp-bur-2023__rz-0671-s297
+  zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
+- regel: Eigene Kapitalanteile zum Anschaffungswert als Minusposten im Eigenkapital (Bruttodarstellung).
+  quelle: hwp-bur-2023__rz-0637-s291
+  zitat: die eigenen Kapitalanteile bis zu ihrer Veräusserung oder Vernichtung im Betrag ihres Anschaffungswerts als Minusposten vom Eigenkapital abgesetzt werden
+fallstricke:
+- text: 'Beteiligung vs. Darlehen/Wertschriften: Langfristige Darlehen (auch mit Eigenkapitalcharakter) und Titel ohne massgeblichen Einfluss gehören zu den Finanzanlagen; Erwerbe von
+    Anteilen werden in der Praxis teils auf Anzahlungs- oder Forderungskonten gebucht – Kontierung immer gegen Kaufvertrag prüfen.'
+  quelle: hwp-bur-2023__rz-0278-s219
+  zitat: Von den Beteiligungen zu unterscheiden sind langfristige Darlehen
+- text: Kaufpreis über anteiligem Eigenkapital (Goodwill) ist bei Verlust-Töchtern kein Beleg für Werthaltigkeit; Nutzwert richtet sich nach der künftigen nachhaltigen Ertragskraft,
+    nicht nach dem bezahlten Preis.
+  quelle: hwp-bur-2023__rz-0029-s162-t1
+  zitat: Massgebend ist nicht der ausgeschüttete Gewinn oder das ausgewiesene Ergebnis, sondern vor allem die künftige, nachhaltige Ertragskraft.
+- text: Aufwertung über die Anschaffungskosten (Art. 725c OR) ist eine besondere Prüfung mit schriftlicher Bestätigung der Revisionsstelle – nicht Teil der eingeschränkten Revision;
+    der Agent bereitet höchstens vor und meldet an den WP.
+  quelle: hwp-er-2026__rz-0041-s033
+  zitat: Aufwertung von Grundstücken und Beteiligungen über den Anschaffungswert bzw. die Herstellungskosten zwecks Beseitigung einer Unterbilanz (Art. 725c Abs. 2 OR)
+- text: Befragungen sind in der eingeschränkten Revision auf Personen im Unternehmen beschränkt; Bestätigungen von Banken/Dritten zu Wertschriftenbeständen einholen ist nicht Bestandteil
+    der ER – Depotauszug/Bankbestätigung als Kundendokument verwenden.
+  quelle: ser-2022__anh-d-s074-2
+  zitat: Einholen von Bestätigungen zu Salden und Wertschriftenbeständen von Banken oder anderen Dritten
+- text: 'Körperliche Aufnahme von Titeln (H3-301 c) ist eine physische Tätigkeit: Der Agent führt sie nie aus, sondern erfasst eine Pendenz bzw. einen Hinweis an den WP.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- text: Auskünfte der Geschäftsleitung zur Werthaltigkeit kritisch würdigen und mit Abschluss/Ausblick der Beteiligung abgleichen; Befragung allein genügt bei wesentlichen Positionen
+    nicht.
+  quelle: hwp-er-2026__rz-0111-s199-t1
+  zitat: Gemäss SER sind wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen; vielmehr ist das Prüfungsvorgehen mit angemessenen Detailprüfungen
+    zu ergänzen.
+- text: Bei Erwerb einer kontrollierten Gesellschaft Konzernrechnungspflicht bzw. Befreiung nach Art. 963a OR abklären und Forderungen/Verbindlichkeiten gegenüber der Beteiligung gesondert
+    ausweisen.
+  quelle: or__art-963a
+  zitat: Eine juristische Person ist von der Pflicht zur Erstellung einer Konzernrechnung befreit
+- text: VSt wird juristischen Personen nur zurückerstattet, wenn der Ertrag ordnungsgemäss (brutto) als Ertrag verbucht wurde; Netto-Verbuchung gefährdet den Anspruch.
+  quelle: treuhand-almanach-2026__s069-2
+  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+- text: Bei Gesellschaften mit Kapitalverlust oder Überschuldung wirkt eine nötige Wertberichtigung auf Beteiligungen direkt auf Art. 725a/725b OR; Ergebnis an Prüffeld Eigenkapital/Fortführung
+    melden.
+fragen_kunde:
+- frage: Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung
+    Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?
+  zweck: H3-101
+- frage: Bestehen Anzeichen für tiefere Werte einzelner Beteiligungen (Verluste, rückläufige Aufträge, Verkaufsabsicht oder -angebote, Wegfall der Betriebsnotwendigkeit)? Wie haben Sie
+    die Werthaltigkeit per 31.12. beurteilt (bitte Unterlagen beilegen)?
+  zweck: H3-102, H3-302
+- frage: Welche Beteiligungen wurden im Geschäftsjahr erworben, veräussert, aufgestockt, saniert oder mit Zuschüssen versehen, und auf welchen Konten wurden diese Vorgänge gebucht?
+  zweck: H3-201, H3-301, H3-303
+- frage: Werden die Anteile langfristig gehalten, und vermitteln sie einen massgeblichen Einfluss (Kapital- und Stimmenanteil)?
+  zweck: H3-101, H3-301 (Abgrenzung Beteiligung/Wertschriften/Finanzanlagen)
+- frage: Bestehen nicht voll einbezahlte Titel, statutarische Nachschusspflichten, Garantien, Bürgschaften, Patronatserklärungen oder Verpfändungen im Zusammenhang mit Beteiligungen?
+  zweck: H3-402
+- frage: Hält die Gesellschaft oder eine von ihr kontrollierte Gesellschaft eigene Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert (Anzahl, Preis, Bedingungen)?
+  zweck: H3-401
+- frage: Haben Beteiligungsgesellschaften für das Geschäftsjahr oder das Vorjahr Ausschüttungen beschlossen, und wurde die Verrechnungssteuer zurückgefordert bzw. das Meldeverfahren
+    angewandt?
+  zweck: H3-304, H3-405
+- frage: Wie hoch sind Bestand und Veränderung der stillen Reserven auf Beteiligungen, und nach welcher Methode werden sie ermittelt?
+  zweck: H3-321
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: H3-201 Vorjahresvergleich und H3-301 Abstimmung Bilanzbestand (Gruppe Beteiligungen/Finanzanlagen, Konten 1192 Anzahlungen, 1176 VSt, ER 6960 Ertrag Finanzanlagen); H3-404 Verhältnis
+    zu Total Aktiven/Eigenkapital
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: H3-303/H3-304 Kontoblatt 1192 (Buchung KV-0930 Kauf Stammanteile, Gegenkonto 1010) und H3-405 Kontoblatt 1176 Verrechnungssteuer
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: H3-301/H3-303 Zuordnung der Belege zu Konten (Kaufvertrag Stammanteile → Konto 1192; Jahresrechnung Tochter)
+- datei: C_Uebrige_kurzfristige_Forderungen/Kaufvertrag_Stammanteile_Solarservice_Probe_GmbH.md
+  bezug: H3-301 Bestand/Quote/Eigentum, H3-303 Anschaffungskosten und Gegenbuchung, H3-322 Dauerakte
+- datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
+  bezug: H3-102/H3-302 innerer Wert und Ausblick der Beteiligung, H3-403 Bonität, H3-404 Risikoverteilung, H3-304 Dividende
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: H3-301 Bilanzausweis, H3-101 Anhang Ziff. 1 Grundsätze, H3-320 Anhang (Beteiligungsangaben, Sicherheiten, Ereignisse nach Stichtag)
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: H3-401 Bestand eigene Anteile (Abgleich mit Anzahl Aktien gemäss Statuten/HR)
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: H3-401 Anzahl ausgegebene Aktien nach Kapitalerhöhung als Abgleichbasis
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: H3-101/H3-102 Ansprechpersonen für Befragungen; H3-401 Aktienkapital und Anzahl Aktien
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
+  bezug: H3-301 b) Depots (Abschnitt D) und H3-402 b) Verpfändungen/Sicherheiten (Abschnitt C)
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1013_Reserve_2025.md
+  bezug: H3-405 Zinsgutschrift mit VSt-Abzug als Grundlage des VSt-Guthabens
+- datei: C_Uebrige_kurzfristige_Forderungen/Abstimmung_ZAZ_Depot_2025.md
+  bezug: 'Abgrenzung: Bardepot Zoll (Konto 1050), kein Wertschriftendepot – nicht als Depotauszug für H3-301 b) verwenden'
+schritte:
+- id: H3-101
+  vorgehen: 'Schriftliche Kundenantwort (Kundenbefragung/Fragebogen) zu den Grundsätzen für Beteiligungen auswerten: Anschaffungskosten inkl. Nebenkosten, Einzel-/Gruppenbewertung, Wertberichtigungen,
+    Erfassung Dividenden, Abgrenzung lang-/kurzfristig. Mit Anhang (Grundsätze) und Vorjahresakte abgleichen. Fehlt die Antwort: Frage als Pendenz, Schritt höchstens «teilweise bearbeitet».'
+  nachweise:
+  - Schriftliche Kundenantwort/Fragebogen
+  - Anhang Ziff. Grundsätze der Rechnungslegung
+  - Beteiligungsverzeichnis
+  - Vorjahres-Arbeitspapier
+  rechnen: ''
+  feststellung_wenn: Antwort widerspricht Buchhaltung/Anhang; Bewertung über Anschaffungskosten (z.B. Equity-Methode) oder Grundsätze ohne Begründung gegenüber Vorjahr geändert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+  - quelle: hwp-bur-2023__rz-0281-s220
+    zitat: Beteiligungen dürfen höchstens zu den Anschaffungskosten bewertet werden
+- id: H3-102
+  vorgehen: 'Schriftliche Stellungnahme der Geschäftsleitung zur Werthaltigkeit jeder Beteiligung auswerten (Anzeichen: Verluste, negativer Ausblick, Verkaufsangebote, Wegfall Betriebsnotwendigkeit)
+    und mit Jahresrechnung/Ausblick der Beteiligung abgleichen. Fehlt die Stellungnahme: Frage als Pendenz und Punkt für die Schlussbesprechung; Beurteilung beim WP.'
+  nachweise:
+  - Stellungnahme GL/Werthaltigkeitsbeurteilung
+  - Jahresrechnung der Beteiligung
+  - Planungsrechnung/Budget der Beteiligung
+  - VR-Protokolle
+  rechnen: ''
+  feststellung_wenn: Anzeichen einer Wertminderung (z.B. wiederkehrende Verluste, Verlustprognose) ohne Werthaltigkeitsbeurteilung oder Wertberichtigung, oder GL-Aussage widerspricht
+    vorliegenden Abschlüssen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Besprechung mit der Unternehmensleitung betreffend allfällige niedrigere Marktwerte
+  - quelle: hwp-bur-2023__rz-0290-s221
+    zitat: Die Prüfung auf Anzeichen für eine Wertminderung hat mindestens an jedem Abschlussstichtag zu erfolgen.
+  - quelle: hwp-er-2026__rz-0102-s197
+    zitat: Der Abschlussprüfer würdigt die erhaltenen Auskünfte in jedem Fall kritisch.
+  - quelle: or__art-960
+    zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- id: H3-201
+  vorgehen: Beteiligungskonten, Wertberichtigungen und Beteiligungs-/Finanzerträge gemäss Saldoliste mit dem Vorjahr vergleichen und jede Veränderung über der Nicht-Aufgriffsgrenze einem
+    Vorgang zuordnen (Kauf, Verkauf, Kapitalerhöhung, Zuschuss, Wertberichtigung, Dividende). Zugänge auf fremden Konten (z.B. Anzahlungen) und fehlende Erträge trotz bekannter Ausschüttung
+    als Pendenz/Frage erfassen.
+  nachweise:
+  - Saldoliste LJ/VJ
+  - Kontoblätter Beteiligungen/Finanzertrag
+  - Beteiligungsverzeichnis LJ/VJ
+  rechnen: 'Veränderung je Beteiligung = Buchwert 31.12. LJ − Buchwert 31.12. VJ; Kontrolle: Zugänge − Abgänge − Wertberichtigungen + Zuschreibungen = Veränderung; Beteiligungsertrag
+    LJ vs. VJ (absolut und %)'
+  feststellung_wenn: Veränderung nicht durch Vorgang/Beleg erklärbar, Zugang ausserhalb der Beteiligungskonten gebucht oder Ertrag/Wertberichtigung fehlt trotz entsprechendem Ereignis.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
+  - quelle: hwp-er-2026__rz-0096-s197
+    zitat: Untersuchungen von festgestellten Schwankungen, Abweichungen, Kennzahlenvergleiche etc.
+  - quelle: hwp-er-2026__rz-0030-s183
+    zitat: Zudem können analytische Prüfungshandlungen bei der Identifikation ungewöhnlicher Geschäftsvorfälle, Buchungen, Beträge oder Trends hilfreich sein.
+- id: H3-301
+  vorgehen: Bilanzposition Beteiligungen mit Hauptbuch und Beteiligungsverzeichnis abstimmen; je Beteiligung Bestand, Quote und Eigentum mit Depotauszug/Titel bzw. bei GmbH-Anteilen
+    mit HR-Auszug und Kaufvertrag belegen; Stimmenanteil ≥ 20 % und Halteabsicht für die Klassierung prüfen. Körperliche Aufnahme führt der Agent nicht durch (Pendenz/Hinweis an WP).
+  nachweise:
+  - Beteiligungsverzeichnis 31.12.
+  - Saldoliste/Kontoblätter
+  - Depotauszug bzw. Titel 31.12.
+  - HR-Auszug/Statuten der Beteiligung
+  - Kaufvertrag
+  rechnen: Summe Buchwerte Beteiligungsverzeichnis = Saldo Beteiligungskonten (netto nach Wertberichtigungen) = Bilanzposition Beteiligungen; Stimmenanteil = Stimmen gehalten / Stimmen
+    total (≥ 20 % → Vermutung Beteiligung)
+  feststellung_wenn: Differenz zwischen Verzeichnis, Hauptbuch und Bilanz; Eigentum nicht belegt; Beteiligung nicht gesondert im Anlagevermögen ausgewiesen bzw. unter anderer Position
+    (z.B. Anzahlungen) gebucht.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Abstimmung einer Aufstellung der Finanzanlagen per Bilanzstichtag mit der Jahresrechnung
+  - quelle: hwp-bur-2023__rz-0280-s219
+    zitat: Die Zusammensetzung der Bilanzposition Beteiligungen geht aus dem Beteiligungsverzeichnis hervor
+  - quelle: hwp-bur-2023__rz-0304-s224
+    zitat: Die Beteiligungen sind im Anlagevermögen gesondert auszuweisen.
+  - quelle: or__art-960d
+    zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
+- id: H3-302
+  vorgehen: 'Vorbereitung für den WP: je Beteiligung Buchwert mit anteiligem Eigenkapital (innerer Wert) gemäss letzter Jahresrechnung bzw. bei kotierten Titeln mit Jahresendkurs vergleichen;
+    Anzeichen für Wertminderung und Werthaltigkeitsbeurteilung der GL zusammenstellen. Unterdeckungen im Textfeld mit Berechnung dokumentieren; Beurteilung und Entscheid beim WP.'
+  nachweise:
+  - Jahresrechnung/Revisionsbericht der Beteiligung
+  - Jahresendkurs/Depotauszug
+  - Werthaltigkeitsbeurteilung/Planungsrechnung GL
+  - Kaufvertrag (Kaufpreisbasis)
+  rechnen: 'Anteiliges EK = Eigenkapital Beteiligung × Kapitalquote; Unterdeckung = Buchwert − anteiliges EK (> 0: Begründung Ertragswert/Goodwill verlangen); kotiert: Kurswert = Stückzahl
+    × Jahresendkurs, Vergleich mit Buchwert'
+  feststellung_wenn: Buchwert über anteiligem EK bzw. Kurswert ohne nachvollziehbare Ertragswertbegründung, wiederkehrende Verluste ohne Wertberichtigung oder Bewertung über Anschaffungskosten.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen
+  - quelle: hwp-bur-2023__rz-0291-s222
+    zitat: Sinkt der erzielbare Wert einer Beteiligung unter den bisherigen Buchwert, wird eine Wertberichtigung erforderlich.
+  - quelle: hwp-bur-2023__rz-0292-s222
+    zitat: beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung
+- id: H3-303
+  vorgehen: 'Vorbereitung für den WP: alle Buchungen auf Beteiligungs- und Wertberichtigungskonten (Zu-/Abgänge, Kapitalerhöhungen, Zuschüsse, Wertberichtigungen, Zuschreibungen) mit
+    Belegen (Kaufvertrag, Zahlung, VR-Beschluss, HR) und Gegenkonto abgleichen; Anschaffungskosten und Abgangserfolg nachrechnen. Abweichungen mit Konto, Datum, Betrag im Textfeld festhalten.'
+  nachweise:
+  - Kontoblätter Beteiligungen/Wertberichtigungen
+  - Kauf-/Verkaufsverträge
+  - Bankbelege
+  - VR-/GV-Protokolle
+  - HR-Auszüge
+  rechnen: Anschaffungskosten = Kaufpreis + transaktionsbezogene Nebenkosten (ohne Finanzierungskosten); Veräusserungserfolg = Erlös − Buchwert; Buchung = Beleg (Betrag, Datum, Gegenkonto)
+  feststellung_wenn: Buchung ohne Beleg oder abweichend in Betrag/Datum/Gegenkonto, Goodwill oder Gratisaktien separat aktiviert, Zuschreibung über AK oder Abgang nicht zum Buchwert
+    erfasst.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Prüfung der im Hauptbuch gebuchten Geschäftsfälle und Wertänderungen anhand der Unterlagen und der Gegenbuchungen
+  - quelle: hwp-bur-2023__rz-0281-s220
+    zitat: transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber Finanzierungskosten)
+  - quelle: hwp-bur-2023__rz-0279-s219
+    zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+- id: H3-304
+  vorgehen: 'Vorbereitung für den WP: Beteiligungs-, Finanzertrags- und ausserordentliche Konten durchsehen; Ausschüttungsbeschlüsse und Dividendenabrechnungen der Beteiligungen mit
+    der Erfassung (brutto, Periode, VSt-Guthaben) abgleichen; Veräusserungsgewinne/-verluste und Wertberichtigungen mit Belegen abstimmen.'
+  nachweise:
+  - Dividendenabrechnungen
+  - GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen
+  - Kontoblätter Finanzertrag, VSt, a.o. Erfolg
+  - Verkaufsabrechnungen
+  rechnen: Bruttodividende = Nettogutschrift / (1 − 0.35); VSt = 35 % × Bruttodividende; Soll-Beteiligungsertrag gemäss Beschlüssen = gebuchter Ertrag
+  feststellung_wenn: Ertrag netto statt brutto oder in falscher Periode erfasst, beschlossene Ausschüttung nicht erfasst, Veräusserungserfolg oder Wertberichtigung nicht belegt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
+  - quelle: hwp-bur-2023__rz-0319-s226
+    zitat: gilt als Realisationszeitpunkt des Beteiligungsertrags normalerweise der Ausschüttungsbeschluss oder das Datum der Ausschüttung
+  - quelle: treuhand-almanach-2026__s068-1
+    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+- id: H3-320
+  vorgehen: 'Anhang prüfen auf: Beteiligungen mit Firma, Rechtsform, Sitz, Kapital- und Stimmenanteil; eigene Anteile; gesonderter Ausweis Forderungen/Verbindlichkeiten gegenüber Beteiligungen;
+    Sicherheiten, verpfändete Aktiven, Eventualverbindlichkeiten; Hinweis bei Börsenkursbewertung. Angaben mit Beteiligungsverzeichnis abgleichen; Lücken als Wesentliche Feststellung
+    vorschlagen.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Beteiligungsverzeichnis
+  - Vollständigkeitserklärung
+  rechnen: ''
+  feststellung_wenn: Pflichtangabe nach Art. 959c Abs. 2 Ziff. 3–5 und 8–10 OR fehlt oder weicht vom Beteiligungsverzeichnis ab (Quote, Sitz, Rechtsform).
+  fundstellen:
+  - quelle: or__art-959c-t1
+    zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung nach direkt oder wesentlichen indirekt gehaltenen Anteilen an anderen Unternehmen
+  - quelle: or__art-959a-t2
+    zitat: gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+- id: H3-321
+  vorgehen: Aufstellung der stillen Reserven des Kunden einholen; Anteil Beteiligungen (Differenz Buchwert zu Höchstwert = Anschaffungskosten bzw. tieferer erzielbarer Wert) mit den
+    Ergebnissen aus H3-302 plausibilisieren und mit Vorjahr vergleichen. Wesentliche Nettoauflösung an Anhangprüfung melden; fehlende Aufstellung als Pendenz.
+  nachweise:
+  - Aufstellung stille Reserven LJ/VJ
+  - Beteiligungsverzeichnis
+  - Vollständigkeitserklärung
+  rechnen: Stille Reserven Beteiligung = min(Anschaffungskosten; erzielbarer Wert) − Buchwert; Veränderung = Bestand LJ − Bestand VJ (negativ = Auflösung)
+  feststellung_wenn: Aufstellung fehlt, widerspricht den Prüfungsergebnissen oder zeigt eine wesentliche Nettoauflösung ohne Anhangangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+- id: H3-322
+  vorgehen: 'Dauerakte Beteiligungen in M-Files sichten: Beteiligungsverzeichnis, Kauf- und Aktionärsbindungsverträge, Statuten und HR-Auszüge der Beteiligungen, Nachschuss-/Garantieverpflichtungen.
+    Neue oder geänderte Dokumente als Vorschlag zur Ablage erfassen, Veraltetes kennzeichnen; nichts löschen.'
+  nachweise:
+  - Dauerakte M-Files
+  - neue Verträge/HR-Auszüge des Geschäftsjahres
+  rechnen: ''
+  feststellung_wenn: Wesentliche Verträge oder Registerauszüge zu neuen oder geänderten Beteiligungen fehlen in der Dauerakte (Pendenz).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben, wie beispielsweise wichtige Verträge, Registerauszüge, Statuten etc.
+- id: H3-401
+  vorgehen: Aktienbuch/Anteilbuch, HR-Auszug und Konten auf eigene Anteile durchsehen (auch von kontrollierten Gesellschaften gehaltene); Bestand mit Minusposten im Eigenkapital (Anschaffungswert)
+    und Anhangangabe abstimmen; Grenze 10 % und frei verwendbares Eigenkapital nachrechnen. Ergebnis mit Prüffeld Eigenkapital abstimmen.
+  nachweise:
+  - Aktienbuch/Anteilbuch
+  - HR-Auszug/Statuten
+  - Kaufverträge eigene Anteile
+  - Kontoblatt eigene Kapitalanteile
+  - Anhang
+  rechnen: Anzahl Titel gemäss Statuten/HR = Summe Titel im Aktienbuch + eigene Anteile; Nennwert eigene Anteile / im HR eingetragenes Kapital ≤ 10 %; Minusposten = Σ Anschaffungswerte
+  feststellung_wenn: Eigene Anteile nicht als Minusposten ausgewiesen, über 10 % bzw. ohne frei verwendbares EK erworben, Anhangangabe fehlt oder Aktienbuch nicht mit Aktienkapital abstimmbar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s091-1
+    zitat: Feststellen des Bestands an eigenen Kapitalanteilen
+  - quelle: or__art-659
+    zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+  - quelle: or__art-659a
+    zitat: Die Gesellschaft hat in der Bilanz für die eigenen Aktien einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung nach Bestand, Erwerb und Veräusserung eigener Anteile durch das Unternehmen selbst oder durch Unternehmen, an denen eine Beteiligung besteht
+- id: H3-402
+  vorgehen: Aus Statuten/HR-Auszug der Beteiligungen (Liberierung, Nachschusspflicht), Kredit- und Pfandverträgen sowie Garantie-/Bürgschafts-/Patronatserklärungen die Verpflichtungen
+    gegenüber Beteiligungsgesellschaften und Verpfändungen festhalten; mit Anhang (Sicherheiten, verpfändete Aktiven, Eventualverbindlichkeiten) und Vollständigkeitserklärung abgleichen.
+    Fehlende Angaben als Frage/Pendenz.
+  nachweise:
+  - Statuten/HR-Auszug der Beteiligung
+  - Kredit- und Pfandverträge, Bankbestätigung
+  - Garantien/Bürgschaften/Patronatserklärungen
+  - Anhang
+  - Vollständigkeitserklärung
+  rechnen: Nicht einbezahlter Betrag = Nennwert − liberierter Betrag; Nachschusspflicht je Stammanteil ≤ 2 × Nennwert (Art. 795 Abs. 2 OR)
+  feststellung_wenn: Einzahlungs-/Nachschusspflicht, Verpfändung oder Eventualverbindlichkeit besteht, ist aber nicht im Anhang offengelegt bzw. bei wahrscheinlicher Inanspruchnahme
+    nicht zurückgestellt.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0279-s219
+    zitat: Aufbewahrungsort der Titel sowie Hinweise auf Einzahlungs- und Nachschusspflichten
+  - quelle: or__art-795
+    zitat: Dieser darf das Doppelte des Nennwertes des Stammanteils nicht übersteigen.
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Befragung über allfällige Verpfändungen und Verfügungsbeschränkungen
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach rechtlichen oder tatsächlichen Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint
+- id: H3-403
+  vorgehen: Für nicht kotierte Titel und Forderungsrechte (z.B. Darlehen an Beteiligungen) die Bonität anhand der letzten Jahresrechnung des Schuldners beurteilen (Eigenkapital, Ergebnis,
+    Liquidität, Ausblick); Gesamtengagement Beteiligung + Darlehen + Forderungen betrachten und Wertberichtigungsreihenfolge beachten. Ergebnis als Vorbereitung für den WP dokumentieren.
+  nachweise:
+  - Jahresrechnung des Schuldners/Emittenten
+  - Darlehensverträge
+  - Sicherheiten
+  rechnen: Gesamtengagement = Beteiligungsbuchwert + Darlehen + übrige Forderungen; Deckungsgrad = anteiliges EK bzw. erzielbarer Wert / Gesamtengagement
+  feststellung_wenn: Schuldner mit Verlusten, Unterbilanz oder negativem Ausblick ohne Wertberichtigung, oder Wertberichtigung nicht zuerst der Beteiligung zugeordnet.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Beurteilung der Bonität der Darlehensnehmer anhand deren Jahresabschlüssen oder anderer Informationen (sofern verfügbar)
+  - quelle: hwp-bur-2023__rz-0271-s217
+    zitat: aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners, unter Berücksichtigung erhaltener Sicherheiten
+  - quelle: hwp-bur-2023__rz-0293-s222
+    zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
+      zuzuordnen
+- id: H3-404
+  vorgehen: Zusammensetzung der Beteiligungen und Wertschriften nach Gesellschaft, Branche, Währung und Land auswerten; Anteil je Position am Total Beteiligungen, an den Aktiven und
+    am Eigenkapital berechnen; Klumpen-, Währungs- und Transferrisiken im Textfeld festhalten und an den WP melden.
+  nachweise:
+  - Beteiligungsverzeichnis
+  - Bilanz
+  - Jahresrechnungen der Beteiligungen
+  rechnen: Anteil je Beteiligung = Buchwert / Total Beteiligungen; Exposure = Buchwert (inkl. Darlehen) / Eigenkapital
+  feststellung_wenn: Einzelne Position im Verhältnis zum EK so gross, dass ein Wertverlust Kapitalverlust/Überschuldung auslösen könnte, ohne Berücksichtigung in Bewertung oder Fortführungsbeurteilung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0029-s162-t1
+    zitat: bei diesen sind ausserdem die Währungs- und Übertragungsrisiken zu berücksichtigen
+  - quelle: hwp-bur-2023__rz-0290-s221
+    zitat: sinkende Umrechnungskurse oder Kaufkraftschwund ausländischer Währungen
+- id: H3-405
+  vorgehen: 'Kontoblatt VSt-Guthaben mit den VSt-pflichtigen Erträgen (Dividenden, Zinsen) abstimmen: Ertrag brutto verbucht, 35 % VSt aktiviert, Rückforderung beantragt bzw. ab Folgejahr
+    geplant; ältere Guthaben auf erfolgte Rückerstattung prüfen. Bei Beteiligungserträgen mit Meldeverfahren entsteht kein Guthaben.'
+  nachweise:
+  - Kontoblatt VSt-Guthaben
+  - Dividenden-/Zinsabrechnungen, Bankauszüge
+  - Rückerstattungsanträge und Gutschriften ESTV
+  rechnen: VSt-Soll = Σ VSt-pflichtige Bruttoerträge × 35 %; Saldo VSt-Konto = VSt-Soll (inkl. Vorjahre) − erhaltene Rückerstattungen
+  feststellung_wenn: Ertrag netto gebucht (VSt nicht aktiviert), VSt-Guthaben ohne zugrunde liegenden Ertrag oder ältere Guthaben ohne Rückerstattungsantrag.
+  fundstellen:
+  - quelle: treuhand-almanach-2026__s068-1
+    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  - quelle: treuhand-almanach-2026__s069-2
+    zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  - quelle: treuhand-almanach-2026__s068-2
+    zitat: frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist
+  - quelle: hwp-bur-2023__rz-0322-s227
+    zitat: Zunächst wird der Beteiligungsertrag als aktive Rechnungsabgrenzung aktiviert.

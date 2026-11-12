@@ -1054,21 +1054,45 @@ def _prueffeld_kompakt(code: str) -> str:
 # ------------------------------------------------------------------ Themen / Hilfe
 def thema(begriff: str) -> str:
     th = L().get("themen", [])
-    ts = terms_of(begriff)
-    sc = []
+    qt = [t for t in toks(begriff) if len(t) > 2]
+    kq = " " + " ".join(qt) + " "
+    best, bs = None, 0.0
     for t in th:
-        txt = norm(t.get("titel", "") + " " + " ".join(t.get("stichworte", [])))
-        s = sum(1 for x in ts if x[:6] in txt)
-        if s:
-            sc.append((s, t))
-    if not sc:
-        pages = [p for p in L().get("seiten", []) if p.startswith("wiki/themen/") and any(x[:6] in norm(p) for x in ts)]
+        sc = 0.0
+        if key(t["id"].replace("-", " ")) in key(begriff) or any(w == key(t["id"]) for w in qt):
+            sc += 5
+        tit = toks(t.get("titel", ""))
+        for w in qt:
+            if w in tit:
+                sc += 3
+            elif any(len(w) >= 5 and (x.startswith(w[:6]) or w.startswith(x[:6])) for x in tit if len(x) >= 5):
+                sc += 1.5
+        for x in t.get("stichworte", []):
+            kx = " ".join(toks(x))
+            if not kx:
+                continue
+            if " " in kx and f" {kx} " in kq:
+                sc += 3
+            elif kx in qt:
+                sc += 2
+            elif any(len(w) >= 6 and (kx.startswith(w[:6]) or w.startswith(kx[:6])) for w in qt):
+                sc += 0.5
+        if sc > bs:
+            best, bs = t, sc
+    if not best or bs < 1:
+        pages = [p for p in L().get("seiten", []) if p.startswith("wiki/themen/") and any(x[:6] in key(p) for x in qt)]
         if pages:
             return zeige(pages[0])
-        return f"Kein Thema zu «{begriff}». Themen: " + ", ".join(t.get("id", "") for t in th) + ". Sonst `suche`."
-    t = max(sc, key=lambda x: x[0])[1]
-    p = R / "wiki" / "themen" / f"{t['id']}.md"
-    return p.read_text(encoding="utf-8") if p.exists() else json.dumps(t, ensure_ascii=False, indent=1)
+        return f"Kein Thema zu «{begriff}». Themen: " + ", ".join(t.get("id", "") for t in th) + ". Sonst `aufgabe \"<Frage>\"` oder `suche`."
+    t = best
+    out = [f"# Thema: {t['titel']} (Status {t.get('status', '')})", t.get("kurz", ""), ""]
+    out += [f"- {a['text']} ^[{a.get('quelle')}]" for a in t.get("aussagen") or []]
+    if t.get("agent"):
+        out += ["", "## Für den Agenten"] + [f"- {x}" for x in t["agent"]]
+    if t.get("prueffelder") or t.get("phasen"):
+        out += ["", "Verknüpft: " + ", ".join([f"`prueffeld {c}`" for c in t.get("prueffelder") or []] + [f"`prozess {p}`" for p in t.get("phasen") or []])]
+    out.append("Wortlaut einer Fundstelle: `zeige <chunk-id>`.")
+    return "\n".join(out)
 
 
 def hilfe() -> str:

@@ -1,0 +1,719 @@
+# Prüffeld L1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: L1
+bezeichnung: Kurzfristige verzinsliche Verbindlichkeiten
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 19
+    korrigiert: false
+kurzbeschrieb: 'Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR): Bankkontokorrente, Festvorschüsse, kurzfristige Darlehen, innert 12 Monaten fällige
+  Amortisationen, verzinsliche Darlehen Nahestehender. Eingeschränkte Revision: Bestand per Aufstellung/Auszug/Vertrag, Gliederung, Covenants, Zinsen und Abgrenzung, Sicherheiten, Nahestehende,
+  Rangrücktritte, Anhang.'
+gesetz:
+- thema: 'Mindestgliederung: kurzfristige verzinsliche Verbindlichkeiten als eigene Position des kurzfristigen Fremdkapitals (Art. 959a Abs. 2 Ziff. 1 lit. b OR)'
+  quelle: or__art-959a-t1
+  zitat: b. kurzfristige verzinsliche Verbindlichkeiten
+- thema: Abgrenzung kurzfristig/langfristig nach voraussichtlicher Fälligkeit innert eines Jahres (Art. 959 Abs. 6 OR)
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
+    Zahlung fällig werden.
+- thema: Gesonderter Ausweis von Verbindlichkeiten gegenüber Beteiligten, Organen und Beteiligungsunternehmen (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+- thema: Bewertung von Verbindlichkeiten zum Nennwert (Art. 960e Abs. 1 OR)
+  quelle: or__art-960e
+  zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden.
+- thema: Periodenabgrenzung von Aufwand (Zinsen) (Art. 958b Abs. 1 OR); Erleichterung bis 100 000 Franken Nettoerlöse bzw. Finanzerträge (Abs. 2)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: 'Anhang: Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven (Art. 959c Abs. 2 Ziff. 9 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: wesentliche Ereignisse nach dem Bilanzstichtag (z.B. Kündigung, Covenant-Verletzung) (Art. 959c Abs. 2 Ziff. 13 OR)'
+  quelle: or__art-959c-t2
+  zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+- thema: Rechnungslegungswährung und Umrechnungskurse (Art. 958d Abs. 3 OR)
+  quelle: or__art-958d
+  zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
+- thema: Rangrücktritt bei Überschuldung muss geschuldeten Betrag und Zinsen umfassen (Art. 725b Abs. 4 Ziff. 1 OR)
+  quelle: or__art-725b-t1
+  zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+risiken:
+- text: 'Unvollständigkeit: nicht gebuchte Bankkredite, Festvorschüsse oder Darlehen; Bilanzsaldo nicht durch Aufstellung, Auszug oder Vertrag per 31.12. belegt.'
+  pruefziele:
+  - EX
+  - VO
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
+- text: 'Covenant-Verletzung ohne schriftlichen Waiver: Kredit sofort fällig, aber weiterhin langfristig ausgewiesen; Fortführungsrisiko nicht erkannt.'
+  pruefziele:
+  - RV
+  - DO
+  - BE
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: bei deren Verletzung die Verbindlichkeit sofort fällig gestellt werden kann
+- text: 'Falsche Gliederung: innert 12 Monaten fällige Amortisationen oder kurzfristig kündbare Kredite unter langfristigem Fremdkapital; verzinsliche Darlehen unter übrigen (unverzinslichen)
+    Verbindlichkeiten.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0875-s356
+  zitat: sind grundsätzlich als kurzfristige verzinsliche Verbindlichkeiten zu bilanzieren
+- text: Fehlende oder falsche Zinsabgrenzung (Marchzinsen per 31.12.), Zinsaufwand in falscher Periode oder auf falschem Konto.
+  pruefziele:
+  - PA
+  - VO
+  - RI
+  quelle: hwp-bur-2023__rz-0257-s215
+  zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
+- text: Verbindlichkeiten gegenüber Aktionären, Organen oder Nahestehenden nicht gesondert ausgewiesen; übersetzte Zinsen an Beteiligte (geldwerte Leistung, Verrechnungssteuer).
+  pruefziele:
+  - DO
+  - BE
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+- text: Sicherheiten (Pfand, Globalzession, verpfändete Konten) zugunsten der Kreditgeber im Anhang nicht oder mit falschem Betrag offengelegt.
+  pruefziele:
+  - DO
+  - RV
+  quelle: hwp-bur-2023__rz-0843-s348
+  zitat: Als Sicherung eigener Verbindlichkeiten gelten insbesondere Pfandbestellungen, Sicherungszessionen und Sicherungsübereignungen.
+- text: Rangrücktritt formell oder betraglich ungenügend (nicht schriftlich, Zinsen nicht erfasst, befristet, reduziert) oder subordinierte Forderungen trotz Überschuldung getilgt/verrechnet.
+  pruefziele:
+  - DO
+  - RV
+  quelle: hwp-er-2026__rz-0432-s127
+  zitat: Die Revisionsstelle hat sich davon zu überzeugen, dass der Rangrücktritt in qualitativer und quantitativer Hinsicht ausreichend ist.
+- text: Fremdwährungskredite nicht zum Stichtagskurs umgerechnet bzw. unrealisierte Kursgewinne auf langfristigen Fremdwährungsverbindlichkeiten erfasst.
+  pruefziele:
+  - BE
+  - RI
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+- text: Unzulässige Verrechnung von Bankguthaben und Bankschulden verschiedener Banken (Bankschulden zu tief ausgewiesen).
+  pruefziele:
+  - DO
+  - VO
+  quelle: hwp-bur-2023__rz-0066-s071
+  zitat: Dies ist beispielsweise der Fall bei der Verrechnung von Bankguthaben und -schulden verschiedener Banken
+- text: Offene Devisentermingeschäfte mit negativem Marktwert ohne Absicherungszweck nicht als Verbindlichkeit/Rückstellung erfasst.
+  pruefziele:
+  - BE
+  - VO
+  - DO
+  quelle: hwp-bur-2023__rz-0075-s176-t2
+  zitat: muss eine Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts angesetzt werden
+- text: 'Liquiditätsengpass: Kredite laufen aus oder werden gekündigt ohne Anschlussfinanzierung, Limiten ausgeschöpft (Fortführungsfähigkeit, Ausweis).'
+  pruefziele:
+  - RV
+  - DO
+  quelle: hwp-er-2026__rz-0191-s224
+  zitat: Der Zeitpunkt der Fälligkeit von Verbindlichkeiten mit fester Laufzeit nähert sich
+unterlagen:
+- dokument: Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Konto, Saldo, Währung, Zinssatz, Fälligkeit/Amortisation, Sicherheiten, Nahestehende
+    ja/nein)
+  zweck: Bestand, Vollständigkeit, Gliederung, Abstimmung mit Hauptbuch (L1-301, L1-103, L1-104)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
+- dokument: Bank-/Kreditkontoauszüge, Kredit- und Zinsausweise per 31.12. (alle Banken) sowie Auszüge Januar Folgejahr
+  zweck: Bestandesnachweis, Zinsbelastungen, Stichtagsüberträge (L1-301, L1-403, L1-407, L1-410)
+  quelle: hwp-bur-2023__rz-0485-s256
+  zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
+- dokument: Kredit-, Rahmenkredit-, Festvorschuss- und Darlehensverträge inkl. Allgemeiner Kreditbedingungen und Covenant-Klauseln; Pfand-, Zessions- und Sicherungsverträge
+  zweck: Konditionen, Fälligkeiten, Covenants, Sicherheiten (L1-101, L1-102, L1-103, L1-303, L1-406)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Einsicht in Kredit- und Darlehensverträge
+- dokument: Bankkorrespondenz Geschäftsjahr und bis Revisionsdatum (Kündigungen, Limitenänderungen, Covenant-Reporting, Waiver-Schreiben)
+  zweck: Covenant-Einhaltung, Waiver vor Abschlusserstellung, Ereignisse nach Stichtag (L1-101, L1-303, L1-406)
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: Die Umgliederung in die kurzfristigen verzinslichen Verbindlichkeiten kann allenfalls vermieden werden, wenn die kreditgebende Bank vor Erstellung des Abschlusses schriftlich
+    bestätigt (sog. Waiver)
+- dokument: Zinsabgrenzungsberechnung per 31.12. und Zinsabrechnungen der Kreditgeber
+  zweck: Periodenabgrenzung und Verbuchung der Zinsen (L1-302, L1-410, L1-201)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Einsicht in die Zinsabgrenzungsberechnung
+- dokument: Darlehensverträge mit Aktionären, Organen und Nahestehenden sowie Aktienbuch/Organliste
+  zweck: Identifikation Nahestehender, gesonderter Ausweis, Zinssätze (L1-104)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen
+- dokument: Unterzeichnete Rangrücktrittsvereinbarungen (aktuelle und ersetzte Fassungen) samt Begründung/Unterlagen zu Änderungen
+  zweck: Gültigkeit, Höhe inkl. Zinsen, Änderungen (L1-105, L1-304, L1-320)
+  quelle: hwp-er-2026__rz-0410-s123
+  zitat: Die Revisionsstelle vermag nur einen schriftlichen Rangrücktritt zu beurteilen.
+- dokument: Vom Unternehmen selbst eingeholte Bankbestätigungen/Bankauskünfte per 31.12., falls vorhanden (keine Anfrage durch die Revisionsstelle)
+  zweck: Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate (L1-401, L1-102, L1-411)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
+- dokument: Liquiditätsplanung/Finanzplan für mindestens zwölf Monate ab Bilanzstichtag
+  zweck: Liquiditätsentwicklung, Kreditlimiten, Fortführung (L1-406)
+  quelle: hwp-er-2026__rz-0194-s225
+  zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
+- dokument: Liste offener Devisentermingeschäfte/Derivate per 31.12. mit Bankbewertung (Wiederbeschaffungswerte) und Zweck (Absicherung)
+  zweck: Bewertung offener Kontrakte (L1-411)
+  quelle: hwp-bur-2023__rz-0075-s176-t2
+  zitat: Sofern der Marktwert eines derivativen Finanzinstruments ohne Absicherungszweck negativ ist
+- dokument: VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen Nahestehender)
+  zweck: Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+bewertung:
+- regel: Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert
+  quelle: hwp-bur-2023__rz-0486-s256
+  zitat: Das Nennwertprinzip für die Verbindlichkeiten schliesst eine Bewertung zum tieferen Marktwert aus.
+- regel: Verzinsliche Verbindlichkeiten separat bilanzieren; innert zwölf Monaten fällige Beträge als kurzfristig
+  quelle: hwp-bur-2023__rz-0489-s257
+  zitat: Verbindlichkeiten und Teilbeträge von Verbindlichkeiten, die voraussichtlich innerhalb von zwölf Monaten nach Bilanzstichtag zur Zahlung fällig werden, sind in der Bilanz als
+    kurzfristig auszuweisen
+- regel: Kurzfristige verzinsliche Verbindlichkeiten umfassen z.B. Bankkontokorrente und kurzfristige Darlehen
+  quelle: hwp-bur-2023__rz-0156-s192
+  zitat: Für die kurzfristigen verzinslichen Verbindlichkeiten (beispielsweise Bankkontokorrente, kurzfristige Darlehen), welche separat auszuweisen sind
+- regel: Innert eines Jahres fällige Amortisationsraten langfristiger Darlehen sind kurzfristig auszuweisen
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: Kurzfristige, innert eines Jahres fällige Amortisationsraten sind in den kurzfristigen Verbindlichkeiten auszuweisen.
+- regel: 'Covenant-Verletzung: Umgliederung in kurzfristig, ausser schriftlicher Waiver der Bank vor Abschlusserstellung; Offenlegung als Ereignis nach Stichtag prüfen'
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: muss deshalb überprüft werden, ob die Covenants eingehalten sind
+- regel: Hypotheken grundsätzlich langfristig; kurzfristig bei konkreter Kündigungsabsicht oder wahrscheinlicher Kündigung (z.B. Covenant-Verletzung)
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: Ein Ausweis unter den kurzfristigen Verbindlichkeiten ist dann angezeigt, wenn eine konkrete kurzfristige Kündigungsabsicht durch den Schuldner oder die Schuldnerin besteht
+- regel: Aufgelaufene Darlehens-/Hypothekarzinsen als antizipative Passiven abgrenzen
+  quelle: hwp-bur-2023__rz-0257-s215
+  zitat: wie beispielsweise Darlehens- und Hypothekenzinsen
+- regel: 'Fremdwährungsschulden: Bankschulden auf Sicht und übrige kurzfristige Verbindlichkeiten zum Stichtagskurs; Umgliederung kurzfristiger Anteil ist kein Realisationstatbestand'
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Die Umgliederung des kurzfristigen Anteils eines langfristigen Darlehens stellt jedoch keinen Realisationstatbestand dar.
+- regel: 'Langfristige Fremdwährungsverpflichtungen: unrealisierte Kursverluste erfassen, unrealisierte Kursgewinne nicht'
+  quelle: hwp-bur-2023__rz-0090-s077-t2
+  zitat: unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
+- regel: Disagio (Auszahlung unter Rückzahlungsbetrag) als aktive Rechnungsabgrenzung über die Laufzeit auflösen
+  quelle: hwp-bur-2023__rz-0487-s256
+  zitat: unter den aktiven Rechnungsabgrenzungen zu erfassen und über die Laufzeit des Darlehens zulasten des Finanzaufwands aufzulösen
+- regel: Passivdarlehen mit Rangrücktritt gesondert ausweisen, Nachrangigkeit erkennbar
+  quelle: hwp-bur-2023__rz-0494-s257
+  zitat: Passivdarlehen mit Rangrücktritt sind in der Jahresrechnung oder im Anhang gesondert auszuweisen
+- regel: 'Bankschulden: kein gesetzlicher Separatausweis, aber verbreitete Praxis'
+  quelle: hwp-bur-2023__rz-0492-s257
+  zitat: es entspricht jedoch verbreiteter Schweizer Rechnungslegungspraxis, die Verbindlichkeiten gegenüber Banken gesondert auszuweisen
+- regel: 'Verrechnungsverbot: keine Saldierung von Guthaben und Schulden bei verschiedenen Banken'
+  quelle: hwp-bur-2023__rz-0066-s071
+  zitat: Dies ist beispielsweise der Fall bei der Verrechnung von Bankguthaben und -schulden verschiedener Banken
+- regel: 'Derivate ohne Absicherungszweck mit negativem Marktwert: Verbindlichkeit/Rückstellung'
+  quelle: hwp-bur-2023__rz-0075-s176-t2
+  zitat: muss eine Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts angesetzt werden
+- regel: Gesamtbetrag der belasteten Aktiven im Anhang zu Buchwerten
+  quelle: hwp-bur-2023__rz-0846-s349
+  zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen Ansätzen wie in der Bilanz, also zu Buchwerten.
+- regel: 'ESTV-Praxis: Darlehenszinsen von Beteiligten über steuerlich anerkannten Sätzen bzw. auf verdecktem Eigenkapital werden aufgerechnet (Steuerjahr beachten)'
+  quelle: estv-ks-6a-2024__3-1
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+fallstricke:
+- text: 'Eingeschränkte Revision: Die Revisionsstelle holt keine Bankbestätigungen ein (L1-401 nur sinngemäss mit beim Unternehmen vorhandenen Unterlagen bzw. nur auf Anweisung des WP).'
+  quelle: hwp-er-2026__rz-0095-s196
+  zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+- text: Vom Unternehmen selbst eingeholte Bankbestätigungen dürfen als Prüfungsnachweis verwendet werden, auch wenn sie nicht direkt an die Revisionsstelle gingen.
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen, selbst wenn diese nicht direkt an ihn gesandt worden sind
+- text: Befragung allein genügt bei wesentlichen Positionen nicht; Antworten mit analytischen Prüfungen oder Detailprüfungen (Verträge, Auszüge) erhärten.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: Kurzfristiger Anteil langfristiger Darlehen (Amortisationen innert 12 Monaten) gehört in L1, nicht in die langfristigen verzinslichen Verbindlichkeiten.
+  quelle: hwp-bur-2023__rz-0875-s356
+  zitat: und demzufolge nicht mehr Bestandteil der langfristigen verzinslichen Verbindlichkeiten
+- text: 'Darlehen mit unbestimmter Laufzeit und kurzer Kündigungsfrist: Ausweis nach voraussichtlicher Fälligkeit beurteilen (Kündigungsabsicht, Rangrücktritt/Stundung), nicht nach Kontobezeichnung.'
+  quelle: or__art-959
+  zitat: die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur Zahlung fällig werden
+- text: Ein Rangrücktritt beseitigt die Überschuldung nicht, er dispensiert nur von der Benachrichtigung des Gerichts.
+  quelle: hwp-er-2026__rz-0405-s122
+  zitat: Ein Rangrücktritt dispensiert lediglich von der Überschuldungsanzeige an das Gericht.
+- text: Zinsen müssen ausdrücklich vom Rangrücktritt erfasst sein; Tilgung oder Verrechnung subordinierter Forderungen (inkl. Zinsen) ist bis zur Beseitigung der Überschuldung unzulässig.
+  quelle: hwp-er-2026__rz-0415-s123-t2
+  zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+- text: Reduktion eines Rangrücktritts nur unter engen Voraussetzungen (geprüfter Zwischenabschluss SA-CH, schriftliche VR-Begründung, keine Benachteiligung anderer Rangrücktrittsgläubiger).
+  quelle: hwp-er-2026__rz-0425-s126
+  zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+- text: 'Tilgung subordinierter Forderungen trotz andauernder Überschuldung: Hinweis nach Art. 729c OR und Auswirkung auf Prüfungsaussage durch WP beurteilen.'
+  quelle: hwp-er-2026__rz-0434-s128
+  zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
+- text: 'Steuerlich anerkannte Zinssätze gelten je Kalenderjahr: Für das Geschäftsjahr 2025 das ESTV-Rundschreiben 2025 verwenden (im Wiki nur 2026 vorhanden, Werte 2026 nicht auf 2025
+    übertragen).'
+  quelle: estv-zinsen-2026__s001-2
+  zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+- text: Waiver der Bank muss vor Erstellung des Abschlusses schriftlich vorliegen; ein später eingeholter Waiver verhindert die Umgliederung nicht.
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: wenn die kreditgebende Bank vor Erstellung des Abschlusses schriftlich bestätigt (sog. Waiver)
+- text: 'Agentengrenze: Befragungen (1xx) kann der Agent nicht selbst führen (schriftliche Antwort auswerten oder Pendenz); Sonstige Prüfungshandlungen (4xx) nur auf Anweisung.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- text: 'WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur Unterlagen zusammenstellen, keine Beurteilung.'
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+fragen_kunde:
+- frage: 'Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht
+    eingehalten sind? Falls ja: welche Massnahmen, liegt ein schriftlicher Waiver der Bank vor (Datum)?'
+  zweck: L1-101 Covenants, Fälligkeit, Gliederung, Fortführung
+- frage: Welche Sicherheiten haben Sie Kreditgebern bestellt (Grundpfand/Schuldbriefe, Verpfändung von Konten/Depots, Globalzession der Debitoren, Sicherungsübereignung, Eigentumsvorbehalt)
+    und zu welchem Buchwert per 31.12.?
+  zweck: L1-102 Sicherheiten, Anhang Art. 959c Abs. 2 Ziff. 9 OR
+- frage: Welche verzinslichen Verbindlichkeiten oder Teilbeträge (Amortisationen, Festvorschüsse, gekündigte Kredite) werden innert zwölf Monaten nach dem 31.12. fällig, und welche sollen
+    verlängert werden?
+  zweck: L1-103 Gliederung kurz-/langfristig
+- frage: Bestehen Darlehen oder Kontokorrente von Aktionären, Verwaltungsräten, Geschäftsleitung, diesen nahestehenden Personen oder Konzern-/Beteiligungsgesellschaften? Zu welchen Zinssätzen
+    und Konditionen?
+  zweck: L1-104 gesonderter Ausweis, Zinssätze (geldwerte Leistung)
+- frage: Welche Rangrücktritte bestehen per 31.12. (Gläubiger, Betrag inkl. Zinsen, Datum)? Wurden im Geschäftsjahr oder seither Rangrücktritte neu erklärt, ersetzt, reduziert oder aufgehoben,
+    oder subordinierte Forderungen bzw. Zinsen bezahlt oder verrechnet?
+  zweck: L1-105 / L1-304 Rangrücktritte (WP-Schritte)
+- frage: Gab es im Geschäftsjahr oder kurz nach dem Stichtag aussergewöhnliche Geldtransaktionen (grosse Bareinzahlungen, Zahlungen an/von Nahestehenden, kurzfristige Kreditrückführungen
+    über den Stichtag, Überträge zwischen Banken)?
+  zweck: L1-402 / L1-407 aussergewöhnliche Transaktionen, Stichtagsüberträge
+- frage: Welche Kreditlimiten bestehen je Bank, wie stark sind sie beansprucht, gibt es Kündigungen oder Limitenreduktionen, und liegt eine Liquiditätsplanung für mindestens zwölf Monate
+    vor?
+  zweck: L1-406 Liquiditätsentwicklung, Kreditlimiten, Kündigungsfristen
+- frage: Waren per 31.12. Devisentermingeschäfte, Währungs-/Zinsswaps oder Optionen offen? Zu welchem Zweck (Absicherung) und mit welcher Bankbewertung?
+  zweck: L1-411 Bewertung offener Devisenkontrakte
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: Konten 2100 Bankverbindlichkeiten und 2170 Zinsverbindlichkeiten Aktionäre (Gruppe kurzfristige verzinsliche Verbindlichkeiten), 2400 Bankdarlehen (kurzfristiger Anteil), 2170
+    unter RR, 2451–2455 Aktionärsdarlehen, Finanzaufwand 6900–6944 – L1-301, L1-405, L1-103, L1-104, L1-201
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: Kontoblätter 2100, 2170k, 2170, 2400, 2450, 2451–2455 (Sammelbuchungen, Umbuchungen, Amortisationen, Zinsbuchung) – L1-301, L1-403, L1-405, L1-407, L1-408, L1-410
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Bilanzposition kurzfristige verzinsliche Verbindlichkeiten, Finanzaufwand/Zinsaufwand, Anhang Ziff. 2 (Nahestehende, Rangrücktritt) und Ziff. 6 (Überschuldung, Fortführung)
+    – L1-103, L1-104, L1-201, L1-320, L1-406
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: Bankbeziehungen und Organe/Ansprechpersonen – L1-104 (Organe), L1-401/L1-406 (Vollständigkeit der Bankbeziehungen)
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
+  bezug: Festvorschuss, Darlehen DL-2021-044 (Zins, Amortisation), Garantien, Sicherheiten zugunsten der Bank, Derivate – L1-301, L1-102, L1-103, L1-303, L1-401, L1-406, L1-320
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
+  bezug: Kontokorrent-Kreditlimite, Angaben zu Sicherheiten/Termingeschäften, Bewertungskurs EUR – L1-401, L1-406, L1-409, L1-411
+- datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1010_CHF_Dezember_2025.md
+  bezug: Zinsbelastungen Festvorschuss/Darlehen und Amortisation Dezember (Gegenkonto der Kreditbuchungen) – L1-403, L1-404, L1-410, L1-302
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Dezember_2025.md
+  bezug: Kontokorrent mit Kreditlimite, Stichtagssaldo – L1-301, L1-406, L1-407
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'Folgeperiode: Überträge und Zahlungen nach dem Stichtag – L1-407, L1-406'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
+  bezug: Aktionärsdarlehen A (Betrag, Zins, Kündigung, Sicherheiten) – L1-104, L1-103, L1-201, L1-302, L1-303, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_B.md
+  bezug: Aktionärsdarlehen B – L1-104, L1-103, L1-201, L1-302, L1-303, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_D.md
+  bezug: Aktionärsdarlehen D (zwei Auszahlungen 2024/2025) – L1-104, L1-103, L1-201, L1-302, L1-303, L1-405, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_E.md
+  bezug: Aktionärsdarlehen E – L1-104, L1-103, L1-201, L1-302, L1-303, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
+  bezug: Rangrücktrittserklärung A (Konto 2451) – L1-105, L1-304, L1-320, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_B.md
+  bezug: Rangrücktrittserklärung B (Konto 2452, Ersatzerklärung vom 30.11.2025) – L1-105, L1-304, L1-320, L1-322
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_D.md
+  bezug: Rangrücktrittserklärung D (Konto 2454) – L1-105, L1-304, L1-320, L1-322
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: Aktionäre A–E zur Identifikation der Darlehensgeber als Beteiligte – L1-104
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: Liberierung durch Verrechnung mit Darlehensforderungen (Konto 2450) – L1-405 (Abgang Aktionärsdarlehen), L1-104, L1-404
+schritte:
+- id: L1-101
+  vorgehen: 'Agent befragt nicht selbst: schriftliche Antwort der Geschäftsleitung zu Covenants/Kreditbedingungen auswerten, sonst Frage als Pendenz. Covenant-Klauseln aus Kreditverträgen
+    erheben, Kennzahlen mit Zahlen der Jahresrechnung nachrechnen, Waiver (Datum vor Abschlusserstellung) einsehen. Ergebnis, Folgen für Gliederung (L1-103) und Fortführung im Textfeld
+    festhalten.'
+  nachweise:
+  - Antwort Kundenbefragung
+  - Kreditverträge mit Covenant-Klauseln
+  - Covenant-Reporting an Bank
+  - Waiver-Schreiben
+  - Jahresrechnung
+  rechnen: Covenant-Kennzahl gemäss Vertragsdefinition (z.B. Eigenfinanzierungsgrad = Eigenkapital / Bilanzsumme) vs. vertraglicher Schwellenwert
+  feststellung_wenn: Covenant verletzt ohne schriftlichen Waiver vor Abschlusserstellung und Kredit trotzdem langfristig ausgewiesen, oder Kündigungsrisiko nicht in Fortführungsbeurteilung
+    einbezogen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (z. B. Kennzahlen in Kreditverträgen) nicht eingehalten hat
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: muss deshalb überprüft werden, ob die Covenants eingehalten sind
+  - quelle: hwp-er-2026__rz-0191-s224
+    zitat: Unfähigkeit, die Bedingungen von Kreditvereinbarungen zu erfüllen
+- id: L1-102
+  vorgehen: Schriftliche Antwort zu Sicherheiten zugunsten der Kreditgeber auswerten (Grundpfand, verpfändete Konten/Depots, Globalzession, Sicherungsübereignung), sonst Pendenz. Mit
+    Kredit-, Pfand- und Zessionsverträgen sowie Bankunterlagen abgleichen; Buchwert der belasteten Aktiven per 31.12. ermitteln und mit dem Anhang vergleichen (L1-320).
+  nachweise:
+  - Antwort Kundenbefragung
+  - Pfand-/Zessionsverträge
+  - Kreditverträge
+  - Bankunterlagen
+  - Anhang
+  rechnen: Gesamtbetrag belastete Aktiven = Summe Buchwerte der verpfändeten/abgetretenen Aktiven per 31.12. (z.B. Debitorenbestand bei Globalzession) vs. Anhangangabe
+  feststellung_wenn: Sicherheit besteht per Stichtag, Gesamtbetrag der belasteten Aktiven fehlt im Anhang oder weicht wesentlich ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung über Sicherheiten zugunsten von Darlehensgebern
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: hwp-bur-2023__rz-0844-s348
+    zitat: Entscheidend ist vielmehr, ob die vertraglich eingeräumten Pfand- oder Eigentumsrechte des Gläubigers oder der Gläubigerin an den Aktiven auf den Abschlussstichtag noch
+- id: L1-103
+  vorgehen: Schriftliche Antwort zu Fälligkeiten und Verlängerungsabsichten auswerten, sonst Pendenz. Aus Verträgen und Bankunterlagen je Kredit eine Fälligkeitsübersicht erstellen (Festvorschüsse,
+    Amortisationen, Kündigungsfristen, Covenant-Folgen); innert 12 Monaten fällige Beträge mit dem Bilanzausweis kurz-/langfristig und verzinslich/übrige vergleichen; Umgliederungsbedarf
+    mit Konto und Betrag dokumentieren.
+  nachweise:
+  - Antwort Kundenbefragung
+  - Kredit-/Darlehensverträge
+  - Bankunterlagen
+  - Saldoliste
+  - Bilanz
+  rechnen: Kurzfristiger Anteil = Summe Fälligkeiten/Amortisationen 01.01.–31.12. Folgejahr je Kredit; Vergleich mit Ausweis kurzfristige vs. langfristige verzinsliche Verbindlichkeiten
+  feststellung_wenn: Wesentliche innert 12 Monaten fällige Beträge langfristig ausgewiesen, oder verzinsliche Darlehen unter übrigen Verbindlichkeiten ohne Begründung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung zur Gliederung in langfristige und kurzfristige Darlehen
+  - quelle: or__art-959
+    zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
+      Zahlung fällig werden.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: Kurzfristige, innert eines Jahres fällige Amortisationsraten sind in den kurzfristigen Verbindlichkeiten auszuweisen.
+- id: L1-104
+  vorgehen: Schriftliche Antwort zu Darlehen von Beteiligten, Organen, Nahestehenden und Beteiligungsgesellschaften auswerten, sonst Pendenz. Gläubiger mit Aktienbuch, Organen (HR) und
+    Darlehensverträgen abgleichen; gesonderten Ausweis in Bilanz oder Anhang prüfen; vertragliche Zinssätze mit ESTV-Rundschreiben des Steuerjahres vergleichen, Abweichungen als Hinweis
+    an WP.
+  nachweise:
+  - Antwort Kundenbefragung
+  - Aktienbuch
+  - Handelsregisterauszug/Organliste
+  - Darlehensverträge Nahestehende
+  - Anhang
+  - ESTV-Rundschreiben Zinssätze des Steuerjahres
+  rechnen: Zins je Darlehen = Saldo × Vertragszins × Tage/Zinsbasis; Vertragszins vs. steuerlich anerkannter Höchstsatz des Steuerjahres
+  feststellung_wenn: Verbindlichkeiten gegenüber Beteiligten/Organen/Nahestehenden nicht gesondert ausgewiesen, oder Zinssatz über steuerlich anerkanntem Satz ohne Drittvergleich (Hinweis
+    an WP).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  - quelle: or__art-959a-t2
+    zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+  - quelle: estv-zinsen-2026__s001-1
+    zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+- id: L1-105
+  vorgehen: 'WP-Schritt: Agent bereitet nur vor (offener Entscheid), beurteilt nicht. Schriftliche Antwort zu bestehenden, neuen, ersetzten, reduzierten oder aufgehobenen Rangrücktritten
+    auswerten, sonst Pendenz. Liste der Rangrücktritte (Gläubiger, Konto, Betrag inkl. Zinsen, Datum) erstellen, mit Konten und Überschuldungsbetrag gemäss Jahresrechnung gegenüberstellen;
+    Übergabe an WP.'
+  nachweise:
+  - Antwort Kundenbefragung
+  - Rangrücktrittsvereinbarungen
+  - Saldoliste/Kontoblätter subordinierte Konten
+  - Jahresrechnung
+  rechnen: Überschuldungsbetrag = Fremdkapital – Total Aktiven per 31.12.; Summe Rangrücktritte (Kapital + Zinsen) vs. Überschuldungsbetrag
+  feststellung_wenn: Kein oder kein schriftlicher Rangrücktritt trotz Überschuldung, Zinsen nicht erfasst, Betrag deckt Überschuldung nicht, oder Änderung/Tilgung im Jahr (an WP).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung zu Rangrücktritten
+  - quelle: or__art-725b-t1
+    zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- id: L1-201
+  vorgehen: Erwartungswert Zinsaufwand je Kredit aus Durchschnittssaldo (Anfangs-/Endsaldo bzw. Monatssalden) und Vertragszins ab Auszahlungsdatum berechnen; Summe mit Zinsaufwandkonten
+    der Erfolgsrechnung vergleichen; Abweichung über tolerierbarer Abweichung als Frage/Pendenz und Detailprüfung (L1-302, L1-410). Berechnung im Rechenmodul, Ergebnis im Textfeld.
+  nachweise:
+  - Saldoliste/Kontoblätter Kredite
+  - Kredit-/Darlehensverträge (Zinssätze)
+  - Erfolgsrechnung Finanz-/Zinsaufwand
+  - Bankzinsabrechnungen
+  rechnen: Erwarteter Zins = Σ (Durchschnittssaldo × Zinssatz × Monate/12) je Kredit; Abweichung = gebuchter Zinsaufwand – Erwartungswert; Vergleich mit tolerierbarer Abweichung
+  feststellung_wenn: Abweichung zwischen Erwartungswert und gebuchtem Zinsaufwand über der tolerierbaren Abweichung ohne plausible Erklärung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
+- id: L1-301
+  vorgehen: Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten (Gläubiger, Konto, Saldo) übernehmen oder aus Saldoliste erstellen; Summe mit Hauptbuch und Bilanz abstimmen;
+    jeden Saldo mit Bank-/Kreditauszug bzw. Vertrag/Darlehensauszug per 31.12. abgleichen. Differenzen und fehlende Nachweise als Pendenz, Ergebnis im Textfeld.
+  nachweise:
+  - Aufstellung kurzfristige verzinsliche Verbindlichkeiten
+  - Saldoliste
+  - Hauptbuch-Kontoblätter
+  - Bank-/Kreditauszüge 31.12.
+  - Darlehensverträge
+  rechnen: Σ Aufstellung = Σ Hauptbuchkonten kurzfristige verzinsliche Verbindlichkeiten = Bilanzposition; Saldo je Konto = Bank-/Kreditauszug 31.12.
+  feststellung_wenn: Differenz zwischen Aufstellung, Hauptbuch, Bilanz oder Auszug nicht geklärt, oder Bestandesnachweis fehlt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+- id: L1-302
+  vorgehen: 'Zinsabgrenzungsberechnung des Kunden einsehen (sonst Pendenz bzw. eigene Berechnung): aufgelaufener Zins vom letzten Zinstermin bis 31.12. je Kredit/Darlehen; mit gebuchter
+    Abgrenzung bzw. Zinsverbindlichkeit vergleichen; Zinsbelastung im Folgejahr als Nachweis einsehen. Bei Zinstermin 31.12. (Belastung per Stichtag) Nullabgrenzung begründen.'
+  nachweise:
+  - Zinsabgrenzungsberechnung
+  - Kredit-/Darlehensverträge (Zinssatz, Zinstermine)
+  - Kontoblatt Abgrenzung/Zinsverbindlichkeit
+  - Zinsbelastungen Folgejahr
+  rechnen: Marchzins = Saldo × Zinssatz × Tage seit letztem Zinstermin / Zinsbasis (360 oder 365 gemäss Vertrag); Vergleich mit gebuchter Abgrenzung
+  feststellung_wenn: Aufgelaufene Zinsen nicht oder mit wesentlicher Differenz abgegrenzt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Einsicht in die Zinsabgrenzungsberechnung
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: hwp-bur-2023__rz-0257-s215
+    zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
+- id: L1-303
+  vorgehen: Kredit-, Rahmenkredit-, Festvorschuss-, Darlehens-, Pfand- und Zessionsverträge sowie Bankkorrespondenz (Geschäftsjahr und nach Stichtag) aus M-Files einsehen; Limiten, Zinssätze,
+    Laufzeiten, Amortisationen, Kündigungen, Covenants, Sicherheiten und Waiver in die Aufstellung übernehmen; mit Buchhaltung, Gliederung und Anhang abgleichen; nicht gebuchte Kredite
+    identifizieren.
+  nachweise:
+  - Kredit- und Darlehensverträge
+  - Pfand-/Zessionsverträge
+  - Bankkorrespondenz
+  - Aufstellung L1-301
+  - Anhang
+  rechnen: ''
+  feststellung_wenn: Vertrag oder Korrespondenz zeigt Kredit, Sicherheit, Kündigung oder Covenant-Verletzung, die in Buchhaltung, Gliederung oder Anhang nicht berücksichtigt ist.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Einsicht in Kredit- und Darlehensverträge
+  - quelle: hwp-bur-2023__rz-0484-s256
+    zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: bei deren Verletzung die Verbindlichkeit sofort fällig gestellt werden kann
+- id: L1-304
+  vorgehen: 'WP-Schritt: nur vorbereiten. Je Rangrücktritt Checkliste dokumentieren: schriftlich, von Gläubiger und Gesellschaft unterzeichnet, Betrag inkl. Zinsen, unbefristet/unwiderruflich,
+    Aufhebungsbedingung, Tilgungs-/Verrechnungsverbot, Datum; Betrag mit Konto abgleichen; Ersatz/Reduktion ggü. Vorjahr und Soll-Buchungen auf subordinierten Konten auflisten; gesonderten
+    Ausweis prüfen; Übergabe an WP.'
+  nachweise:
+  - Rangrücktrittsvereinbarungen (aktuell und ersetzt)
+  - Kontoblätter subordinierte Darlehen/Zinsen
+  - Jahresrechnung/Anhang
+  - VR-Unterlagen zu Änderungen
+  rechnen: Saldo je subordiniertes Konto (Kapital + Zinsen) vs. Rangrücktrittsbetrag; Σ Rangrücktritte vs. Überschuldungsbetrag; Summe Soll-Buchungen (Tilgung/Verrechnung) im Jahr
+  feststellung_wenn: Formmangel (Zinsen nicht erfasst, befristet, kündbar), Reduktion ohne Voraussetzungen, Tilgung/Verrechnung trotz Überschuldung, Betrag deckt Überschuldung nicht
+    (an WP).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s085-2
+    zitat: Einsicht in Rangrücktrittsvereinbarungen
+  - quelle: hwp-er-2026__rz-0412-s123
+    zitat: Gemäss Gesetz müssen die Zinsen zwingend dem Rangrücktritt unterliegen, was ausdrücklich vereinbart werden muss.
+  - quelle: hwp-er-2026__rz-0415-s123-t1
+    zitat: Der Rangrücktritt muss zeitlich unbefristet abgeschlossen werden
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+  - quelle: hwp-er-2026__rz-0432-s127
+    zitat: Die Revisionsstelle hat sich davon zu überzeugen, dass der Rangrücktritt in qualitativer und quantitativer Hinsicht ausreichend ist.
+- id: L1-320
+  vorgehen: 'Anhang auf Angaben zu verzinslichen Verbindlichkeiten prüfen: gesonderter Ausweis Nahestehende, Gesamtbetrag belastete Aktiven, Darlehen mit Rangrücktritt (gesondert, erkennbar),
+    Ereignisse nach dem Stichtag (Kündigungen, Covenant-Verletzungen), Eventualverbindlichkeiten; Beträge mit Ergebnissen L1-102, L1-104, L1-304 abgleichen.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Prüfungsergebnisse L1-1xx bis L1-4xx
+  rechnen: Anhangbeträge = Prüfungsergebnisse (belastete Aktiven, Verbindlichkeiten Nahestehende, Rangrücktrittsbeträge)
+  feststellung_wenn: Pflichtangabe nach Art. 959a Abs. 4 oder 959c OR fehlt, Rangrücktrittsdarlehen nicht erkennbar oder Betrag weicht vom Prüfungsergebnis ab.
+  fundstellen:
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: or__art-959a-t2
+    zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+  - quelle: hwp-bur-2023__rz-0494-s257
+    zitat: Passivdarlehen mit Rangrücktritt sind in der Jahresrechnung oder im Anhang gesondert auszuweisen
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- id: L1-322
+  vorgehen: 'Dauerakte in M-Files mit mehrjährig gültigen Dokumenten ergänzen bzw. aktualisieren: Kredit-, Rahmenkredit- und Darlehensverträge, Pfand-/Zessionsverträge, Covenant-Bestimmungen,
+    Rangrücktrittsvereinbarungen (aktuelle Fassung, ersetzte kennzeichnen). Fehlende Verträge als Pendenz; Änderungen im Textfeld vermerken.'
+  nachweise:
+  - Dauerakte M-Files
+  - Verträge
+  - Rangrücktrittsvereinbarungen
+  rechnen: ''
+  feststellung_wenn: Wesentlicher Kredit-, Sicherungs- oder Rangrücktrittsvertrag fehlt und ist beim Kunden nicht erhältlich (Pendenz).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
+  - quelle: hwp-bur-2023__rz-0484-s256
+    zitat: Es ist zweckmässig, für jede langfristige Verbindlichkeit eine gesonderte Aufzeichnung mit den relevanten Eigenschaften und Bedingungen zu führen.
+- id: L1-401
+  vorgehen: 'Sonstige Prüfungshandlung, nur auf Anweisung. Keine Bankbestätigungen anfordern (ausserhalb eingeschränkte Revision). Liegen beim Unternehmen vorhandene Bankbestätigungen/-auskünfte
+    vor: Konten, Kredite, Limiten, Sicherheiten, Garantien, Derivate mit Hauptbuch, Aufstellung und Anhang abgleichen; in Bestätigung aufgeführte, aber nicht gebuchte Positionen festhalten.
+    Vorgehen mit WP abstimmen.'
+  nachweise:
+  - Beim Unternehmen vorhandene Bankbestätigungen 31.12.
+  - Saldoliste/Hauptbuch
+  - Aufstellung L1-301
+  - Anhang
+  rechnen: Saldo je Konto/Kredit gemäss Bestätigung = Hauptbuchsaldo 31.12. (Fremdwährung zum Bewertungskurs); Positionen in Bestätigung ohne Hauptbuchkonto = Vollständigkeitslücke
+  feststellung_wenn: Bestätigung zeigt Konto, Kredit, Sicherheit oder Verpflichtung, die nicht gebucht bzw. nicht im Anhang ist, oder Saldodifferenz; Einholung durch Revisionsstelle
+    geplant (Hinweis an WP).
+  fundstellen:
+  - quelle: ser-2022__1-5
+    zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Es handelt sich um Dokumente, welche beim Prüfungskunden vorliegen und folglich der Abschlussprüfer für die eingeschränkte Revision verwenden kann.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+- id: L1-402
+  vorgehen: 'Sonstige Prüfungshandlung, nur auf Anweisung. Agent befragt nicht selbst: aus Geld- und Kreditkonten Kandidaten für aussergewöhnliche Transaktionen selektieren (hohe/runde
+    Beträge, Nahestehende, Stichtagsnähe, ungewöhnliche Gegenkonten) und als schriftliche Frage/Pendenz stellen; Antworten auswerten und im Textfeld festhalten.'
+  nachweise:
+  - Kontoblätter Geld-/Kreditkonten
+  - Bankauszüge
+  - Antwort Kunde
+  rechnen: 'Auswahl: Buchungen ≥ Toleranzwesentlichkeit oder mit Merkmal ungewöhnlich (rund, Nahestehende, ±10 Tage um 31.12.)'
+  feststellung_wenn: Aussergewöhnliche Transaktion ohne plausible Erklärung oder mit Auswirkung auf Bestand/Vollständigkeit der Verbindlichkeiten.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Befragung zu aussergewöhnlichen Transaktionen
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
+- id: L1-403
+  vorgehen: 'Sonstige Prüfungshandlung, nur auf Anweisung. Auswahl von Zu- und Abgängen auf Kreditkonten (Kreditaufnahmen, Rückzahlungen, Amortisationen, Zinsbelastungen; wesentlich,
+    ungewöhnlich, stichtagsnah) mit Bankbeleg, Kreditanzeige bzw. Vertrag abgleichen: Betrag, Währung, Datum/Periode, Kontierung. Auswahl begründen, Ergebnis im Textfeld.'
+  nachweise:
+  - Kontoblätter Kreditkonten
+  - Bankauszüge/Kreditanzeigen
+  - Verträge
+  rechnen: Belegbetrag = Buchungsbetrag; Valuta-/Belegdatum innerhalb der Periode
+  feststellung_wenn: Buchung ohne Beleg, Betrags- oder Periodendifferenz, falsche Kontierung (z.B. Amortisation als Zinsaufwand).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und geeigneten Unterlagen
+- id: L1-404
+  vorgehen: 'Sonstige Prüfungshandlung, nur auf Anweisung. Zu ausgewählten Zahlungen (Rückzahlungen, Zinszahlungen, Gebühren, Zahlungen an Nahestehende) die Grundlage einsehen: Vertrag,
+    Kündigung, Zinsabrechnung, VR-Beschluss; wirtschaftlichen Grundsachverhalt, Berechtigung/Visierung und Periode beurteilen; Zahlungen auf rangrücktrittsbelastete Forderungen besonders
+    kennzeichnen.'
+  nachweise:
+  - Zahlungsbelege
+  - Verträge/Kündigungen
+  - Zinsabrechnungen
+  - VR-Protokolle
+  - Rangrücktrittsvereinbarungen
+  rechnen: ''
+  feststellung_wenn: Zahlung ohne vertragliche Grundlage oder Genehmigung, falsche Periode, oder Tilgung/Zinszahlung auf subordinierte Forderung während Überschuldung.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
+  - quelle: hwp-er-2026__rz-0415-s123-t2
+    zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+- id: L1-405
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Eröffnungssalden 01.01. mit Schlussbilanz Vorjahr (geprüfte Jahresrechnung) abstimmen; je Kredit Saldenentwicklung Anfang →
+    Ende mit Zu-/Abgängen, Umbuchungen (z.B. Zinsverbindlichkeiten, Verrechnungen) und Kursdifferenzen herleiten; Schlusssaldo mit Bilanz abstimmen.
+  nachweise:
+  - Jahresrechnung Vorjahr
+  - Saldoliste
+  - Kontoblätter
+  - Bank-/Kreditauszüge
+  rechnen: Anfangssaldo + Zugänge – Abgänge ± Umbuchungen/Kursdifferenzen = Schlusssaldo je Konto; Anfangssaldo = Schlussbilanz Vorjahr
+  feststellung_wenn: Eröffnungssaldo weicht von Vorjahresabschluss ab oder Saldenentwicklung nicht herleitbar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+- id: L1-406
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Je Bank Limiten, Beanspruchung, Kündigungsfristen und Sicherheiten aus Verträgen/Auszügen tabellieren; Liquiditätsentwicklung
+    aus Monatssalden, Liquiditätsplanung (mindestens 12 Monate) und Auszügen Folgejahr analysieren; Fälligkeiten ohne Anschlussfinanzierung, Limitenüberschreitungen und Cash Drain als
+    Fortführungsindikatoren an WP melden; Sicherheiten mit Anhang abgleichen.
+  nachweise:
+  - Kredit-/Rahmenverträge
+  - Bankauszüge inkl. Folgejahr
+  - Liquiditätsplanung
+  - Saldoliste
+  - Anhang
+  rechnen: Freie Limite = Kreditlimite – Beanspruchung je Bank; Liquiditätsgrad 2 = (flüssige Mittel + kurzfristige Forderungen) / kurzfristiges Fremdkapital; Monatsverlauf Nettoliquidität
+  feststellung_wenn: Limite überschritten oder gekündigt, wesentliche Fälligkeit innert 12 Monaten ohne Anschlussfinanzierung, negative Liquiditätsentwicklung, oder Sicherheiten nicht
+    im Anhang.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0191-s224
+    zitat: Der Zeitpunkt der Fälligkeit von Verbindlichkeiten mit fester Laufzeit nähert sich
+  - quelle: hwp-er-2026__rz-0191-s224
+    zitat: Abfluss von Liquidität aus dem operativen Geschäft («Cash Drain»)
+  - quelle: hwp-er-2026__rz-0031-s183
+    zitat: Vergleiche wichtiger Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten im Umlaufvermögen, Eigenkapitalanteil etc.) sind in der Regel nützlich und effizient.
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Befragung über allfällige Verpfändungen und Verfügungsbeschränkungen
+- id: L1-407
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Überträge zwischen Bank- und Kreditkonten rund um den 31.12. aus Kontoblättern und Auszügen (Dezember, Januar Folgejahr) listen;
+    je Transfer prüfen, ob Belastung und Gutschrift in derselben Periode erfasst sind und ob eine Kreditrückführung über den Stichtag kurz danach wieder beansprucht wurde; Geld unterwegs
+    klären.
+  nachweise:
+  - Kontoblätter Geld-/Kreditkonten
+  - Bankauszüge Dezember und Januar Folgejahr
+  rechnen: 'Je Transfer: Belastungsdatum Konto A und Gutschriftsdatum Konto B in gleicher Periode; Σ Transfers unterwegs = Abstimmdifferenz Bank/Buchhaltung'
+  feststellung_wenn: Transfer nur einseitig im alten Jahr erfasst (Doppel- oder Nichterfassung) oder Kredit nur über den Stichtag zurückgeführt (Darstellung).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Unterlagen im Bereich der flüssigen Mittel (Durchsicht der Geldkonten auf ungewöhnliche Buchungen)
+  - quelle: hwp-bur-2023__rz-0004-s156
+    zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
+- id: L1-408
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Kontoblätter der kurzfristigen verzinslichen Verbindlichkeiten, Zinsaufwand und Bankspesen kritisch durchsehen; grössere oder
+    ungewöhnliche Buchungen (Sammelbuchungen, Umbuchungen, Gegenkonten ausserhalb Geld/Zins, Stichtagsbuchungen, Nahestehende) selektieren und wirtschaftlichen Hintergrund mit Belegen
+    bzw. schriftlicher Antwort klären.
+  nachweise:
+  - Hauptbuch-Kontoblätter
+  - Buchungsbelege
+  - Antwort Kunde
+  rechnen: 'Auswahl: Buchungen ≥ Toleranzwesentlichkeit oder ungewöhnlich; Abdeckungsgrad = Summe ausgewählter Buchungen / Kontobewegung'
+  feststellung_wenn: Grössere oder ungewöhnliche Buchung ohne wirtschaftlich plausiblen Hintergrund oder mit falscher Kontierung/Periode.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Hauptbuch und Buchungsjournale
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Durchsicht der Geldkonti auf ungewöhnliche Buchungen
+- id: L1-409
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Fremdwährungskredite/-konten identifizieren; angewandte Umrechnungskurse per 31.12. mit Jahresendkursen gemäss Bankauszug/Bankunterlagen
+    vergleichen; Umrechnung nachrechnen; Erfassung der Kursdifferenzen (realisiert/unrealisiert nach Laufzeit) beurteilen.
+  nachweise:
+  - Bankauszüge/Bankunterlagen mit Kurs 31.12.
+  - Saldoliste/Kontoblätter Fremdwährung
+  rechnen: CHF-Wert = Fremdwährungssaldo × Stichtagskurs Bank; Differenz zum Buchwert
+  feststellung_wenn: Wesentliche Abweichung von Kurs oder Umrechnung, oder unrealisierte Kursgewinne auf langfristigen Fremdwährungsverbindlichkeiten erfolgswirksam erfasst.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s074-1
+    zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  - quelle: hwp-bur-2023__rz-0090-s077-t1
+    zitat: Bankguthaben und -schulden auf Sicht und Aktiven mit Börsenkurs oder einem anderen beobachtbaren Marktpreis können uneingeschränkt zum Devisenkurs des Bilanzstichtags ausgewiesen
+      werden
+  - quelle: hwp-bur-2023__rz-0090-s077-t2
+    zitat: unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
+- id: L1-410
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Zinsabrechnungen der Banken und Darlehensgeber mit den Buchungen abgleichen (Betrag, Periode, Konto Zinsaufwand statt Kapital/Bankspesen);
+    Zinsen an Nahestehende und deren Verbuchung (Verbindlichkeit, Rangrücktritt) nachvollziehen; Zinsaufwand gesamt mit Abgrenzungen herleiten.
+  nachweise:
+  - Zinsabrechnungen/Bankauszüge
+  - Kontoblätter Zinsaufwand und Zinsverbindlichkeiten
+  - Zinsabgrenzung L1-302
+  - Darlehensverträge
+  rechnen: Σ Zinsabrechnungen der Periode + Abgrenzung Ende – Abgrenzung Anfang = Zinsaufwand gemäss Erfolgsrechnung
+  feststellung_wenn: Zinsaufwand nicht aus Abrechnungen und Abgrenzungen herleitbar, falsche Periode oder Kontierung (z.B. Zins als Kapitalrückzahlung).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und geeigneten Unterlagen
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: hwp-bur-2023__rz-0257-s215
+    zitat: wie beispielsweise Darlehens- und Hypothekenzinsen
+- id: L1-411
+  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Aus schriftlicher Antwort und Bankunterlagen erheben, ob per 31.12. Devisentermingeschäfte/Swaps/Optionen offen sind; Kontraktliste
+    (Nominal, Kurs, Fälligkeit, Absicherungszweck) und Bankbewertung per 31.12. einsehen; negativen Marktwert ohne Absicherungszweck mit gebuchter Verbindlichkeit/Rückstellung vergleichen;
+    Anhangangaben prüfen.
+  nachweise:
+  - Kontraktliste/Bankbewertung Derivate 31.12.
+  - Antwort Kunde
+  - Kontoblätter
+  - Anhang
+  rechnen: Marktwert je Kontrakt gemäss Bankbewertung (bzw. Nominal × Differenz Terminkurs Stichtag – Kontraktkurs); Σ negative Marktwerte ohne Absicherungszweck vs. gebuchte Verbindlichkeit/Rückstellung
+  feststellung_wenn: Offener Kontrakt mit wesentlichem negativem Marktwert ohne Absicherungszweck nicht erfasst, oder offene Kontrakte nicht bekannt/nicht offengelegt.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0075-s176-t2
+    zitat: Sofern der Marktwert eines derivativen Finanzinstruments ohne Absicherungszweck negativ ist, muss eine Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts angesetzt
+      werden.
+  - quelle: hwp-bur-2023__rz-0064-s173
+    zitat: Devisentermingeschäfte sind OTC-Geschäfte
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlust- oder Gewinnrisiko beinhalten

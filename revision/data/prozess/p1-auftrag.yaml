@@ -1,0 +1,797 @@
+# Prozessphase p1-auftrag – was nötig ist (kein starrer Ablauf), mit Fundstellen.
+id: p1-auftrag
+titel: 'Auftrag: Annahme/Fortführung, Unabhängigkeit, Revisionsart'
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prozess-werte
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 15
+    korrigiert: true
+ziel: 'Vor Wahl/Wiederwahl bzw. Prüfungsbeginn Fakten aufbereiten, damit der WP entscheidet, ob das SER-Mandat angenommen bzw. fortgeführt werden darf, kann und soll: Revisionsart (OR
+  727/727a, Rechtsform, Opting), Zulassung, Unabhängigkeit inkl. Doppelmandat, Mandatsrisiko/EQR, Honorar; Entwurf Auftragsbestätigung, Abgleich Dauerakten.'
+wann: 'Vor Annahme der Wahl bzw. Wiederwahl durch die GV und vor Prüfungsbeginn jedes Geschäftsjahres (vor Prozess 1); nach dem Import (Prozess 1) Schwellenwerte erneut abgleichen; erneut
+  bei neuen Fakten: Schwellenwerte überschritten, Opting-up/-in-Begehren, Begehren auf Abschluss nach anerkanntem Standard, geplante Kapitalveränderung/Fusion/Zwischenabschluss, neue
+  Dienstleistungen (Doppelmandat), Honorarausstände, Rechtsstreit, Wechsel im Team.'
+gesetz:
+- thema: Wahl der Revisionsstelle ist unübertragbare Befugnis der GV
+  quelle: or__art-698
+  zitat: die Wahl der Mitglieder des Verwaltungsrates und der Revisionsstelle;
+- thema: Wahl durch die GV (Art. 730 Abs. 1 OR)
+  quelle: or__art-730
+  zitat: Die Generalversammlung wählt die Revisionsstelle.
+- thema: 'Wählbar: natürliche oder juristische Personen, Personengesellschaften (Art. 730 Abs. 2 OR)'
+  quelle: or__art-730
+  zitat: Als Revisionsstelle können eine oder mehrere natürliche oder juristische Personen oder Personengesellschaften gewählt werden.
+- thema: Mindestens ein Mitglied mit Wohnsitz/Sitz/Zweigniederlassung in der Schweiz
+  quelle: or__art-730
+  zitat: Wenigstens ein Mitglied der Revisionsstelle muss seinen Wohnsitz, seinen Sitz oder eine eingetragene Zweigniederlassung in der Schweiz haben.
+- thema: Amtsdauer 1–3 Geschäftsjahre, Ende mit Abnahme der letzten Jahresrechnung, Wiederwahl möglich
+  quelle: or__art-730a
+  zitat: Die Revisionsstelle wird für ein bis drei Geschäftsjahre gewählt. Ihr Amt endet mit der Abnahme der letzten Jahresrechnung. Eine Wiederwahl ist möglich.
+- thema: Rotation (7 Jahre) nur bei ordentlicher Revision
+  quelle: or__art-730a
+  zitat: Bei der ordentlichen Revision darf die Person, die die Revision leitet, das Mandat längstens während sieben Jahren ausführen.
+- thema: 'Rücktritt: Gründe an den VR, der sie der nächsten GV mitteilt (Art. 730a Abs. 3 OR)'
+  quelle: or__art-730a
+  zitat: Tritt eine Revisionsstelle zurück, so hat sie den Verwaltungsrat über die Gründe zu informieren
+- thema: Abberufung durch die GV nur aus wichtigen Gründen (Art. 730a Abs. 4 OR)
+  quelle: or__art-730a
+  zitat: Die Generalversammlung kann die Revisionsstelle nur aus wichtigen Gründen abberufen.
+- thema: 'Zulassung bei eingeschränkter Revision: mindestens zugelassener Revisor (RAG)'
+  quelle: or__art-727c
+  zitat: müssen als Revisionsstelle einen zugelassenen Revisor nach den Vorschriften des Revisionsaufsichtsgesetzes vom 16. Dezember 2005 bezeichnen
+- thema: 'Ordentliche Revision (übrige Gesellschaften): zugelassener Revisionsexperte (Art. 727b Abs. 2 OR)'
+  quelle: or__art-727b
+  zitat: müssen als Revisionsstelle einen zugelassenen Revisionsexperten nach den Vorschriften des Revisionsaufsichtsgesetzes
+- thema: 'Publikumsgesellschaften: staatlich beaufsichtigtes Revisionsunternehmen (Art. 727b Abs. 1 OR)'
+  quelle: or__art-727b
+  zitat: Publikumsgesellschaften müssen als Revisionsstelle ein staatlich beaufsichtigtes Revisionsunternehmen
+- thema: Publikumsgesellschaft auch bei Beitrag von mindestens 20 % zur Konzernrechnung einer kotierten oder anleihensemittierenden Gesellschaft (Art. 727 Abs. 1 Ziff. 1 lit. c OR)
+  quelle: or__art-727
+  zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung einer Gesellschaft nach Buchstabe a oder b beitragen
+- thema: Ordentliche Revision bei Überschreiten von zwei der drei Grössen in zwei aufeinander folgenden Geschäftsjahren
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+- thema: Schwellenwert Bilanzsumme (Art. 727 Abs. 1 Ziff. 2 lit. a OR)
+  quelle: or__art-727
+  zitat: Bilanzsumme von 20 Millionen Franken
+- thema: Schwellenwert Umsatzerlös (lit. b)
+  quelle: or__art-727
+  zitat: Umsatzerlös von 40 Millionen Franken
+- thema: Schwellenwert Vollzeitstellen (lit. c)
+  quelle: or__art-727
+  zitat: 250 Vollzeitstellen im Jahresdurchschnitt
+- thema: 'Rechnungslegung in Fremdwährung: Bilanzsumme zum Stichtagskurs, Umsatzerlös zum Jahresdurchschnittskurs (Art. 727 Abs. 1bis OR)'
+  quelle: or__art-727
+  zitat: für die Bilanzsumme der Umrechnungskurs zum Bilanzstichtag und für den Umsatzerlös der Jahresdurchschnittskurs massgebend
+- thema: Ordentliche Revision zwingend für Gesellschaften mit Konzernrechnungspflicht
+  quelle: or__art-727
+  zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+- thema: Opting-up durch Aktionäre mit mindestens 10 % des Aktienkapitals
+  quelle: or__art-727
+  zitat: wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+- thema: Opting-up durch Statuten oder GV-Beschluss
+  quelle: or__art-727
+  zitat: so können die Statuten vorsehen oder kann die Generalversammlung beschliessen, dass die Jahresrechnung ordentlich geprüft wird
+- thema: 'Abschluss nach anerkanntem Standard: ordentliche Revision durch zugelassenen Revisionsexperten (Art. 962a Abs. 3 OR)'
+  quelle: or__art-962a
+  zitat: Die Einhaltung des anerkannten Standards muss durch einen zugelassenen Revisionsexperten geprüft werden. Es ist eine ordentliche Revision des Abschlusses durchzuführen.
+- thema: Begehren auf Abschluss nach anerkanntem Standard, u. a. durch Gesellschafter mit 20 % des Grundkapitals (Art. 962 Abs. 2 OR)
+  quelle: or__art-962
+  zitat: Gesellschafter, die mindestens 20 Prozent des Grundkapitals vertreten;
+- thema: 'GmbH: aktienrechtliche Vorschriften zur Revisionsstelle anwendbar (Art. 818 Abs. 1 OR; gleich für Genossenschaft Art. 906 Abs. 1 OR)'
+  quelle: or__art-818
+  zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
+- thema: 'GmbH: nachschusspflichtiger Gesellschafter kann ordentliche Revision verlangen (Art. 818 Abs. 2 OR)'
+  quelle: or__art-818
+  zitat: Ein Gesellschafter, der einer Nachschusspflicht unterliegt, kann eine ordentliche Revision der Jahresrechnung verlangen.
+- thema: 'GmbH: ausgeschiedener Gesellschafter bis zur vollständigen Abfindung (Art. 825a Abs. 4 OR)'
+  quelle: or__art-825a
+  zitat: kann der ausgeschiedene Gesellschafter verlangen, dass die Gesellschaft eine Revisionsstelle bezeichnet und die Jahresrechnung ordentlich revidieren lässt.
+- thema: 'Genossenschaft: Begehren durch 10 % der Genossenschafter (Art. 906 Abs. 2 Ziff. 1 OR)'
+  quelle: or__art-906
+  zitat: 10 Prozent der Genossenschafter;
+- thema: 'Genossenschaft: Begehren durch Genossenschafter mit 10 % des Anteilscheinkapitals (Ziff. 2)'
+  quelle: or__art-906
+  zitat: Genossenschafter, die zusammen mindestens 10 Prozent des Anteilscheinkapitals vertreten;
+- thema: 'Genossenschaft: Begehren durch haftende oder nachschusspflichtige Genossenschafter (Ziff. 3)'
+  quelle: or__art-906
+  zitat: Genossenschafter, die einer persönlichen Haftung oder einer Nachschusspflicht unterliegen.
+- thema: Eingeschränkte Revision, wenn Voraussetzungen der ordentlichen Revision fehlen
+  quelle: or__art-727a
+  zitat: Sind die Voraussetzungen für eine ordentliche Revision nicht gegeben, so muss die Gesellschaft ihre Jahresrechnung durch eine Revisionsstelle eingeschränkt prüfen lassen.
+- thema: 'Opting-out: Zustimmung sämtlicher Aktionäre, max. 10 Vollzeitstellen'
+  quelle: or__art-727a
+  zitat: Mit der Zustimmung sämtlicher Aktionäre kann auf die eingeschränkte Revision verzichtet werden, wenn die Gesellschaft nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt
+    hat.
+- thema: Opting-out nur für künftige Geschäftsjahre, Anmeldung vor Beginn des Geschäftsjahres
+  quelle: or__art-727a
+  zitat: Der Verzicht gilt nur für künftige Geschäftsjahre und muss vor Beginn des Geschäftsjahres beim Handelsregisteramt angemeldet werden.
+- thema: 'Opting-out: schriftliches Zustimmungsverfahren, Frist mindestens 20 Tage, Schweigen gilt als Zustimmung (Art. 727a Abs. 3 OR)'
+  quelle: or__art-727a
+  zitat: Er kann für die Beantwortung eine Frist von mindestens 20 Tagen ansetzen und darauf hinweisen, dass das Ausbleiben einer Antwort als Zustimmung gilt.
+- thema: 'Opting-in: jeder Aktionär bis 10 Tage vor der GV'
+  quelle: or__art-727a
+  zitat: Jeder Aktionär hat jedoch das Recht, spätestens zehn Tage vor der Generalversammlung eine eingeschränkte Revision zu verlangen.
+- thema: 'Opting-out-Gesellschaft mit Kapitalverlust: eingeschränkte Revision der letzten Jahresrechnung durch zugelassenen Revisor'
+  quelle: or__art-725a
+  zitat: so muss die letzte Jahresrechnung vor ihrer Genehmigung durch die Generalversammlung überdies einer eingeschränkten Revision durch einen zugelassenen Revisor unterzogen werden
+- thema: Bei Art. 725a Abs. 2 OR ernennt der VR den zugelassenen Revisor
+  quelle: or__art-725a
+  zitat: Der Verwaltungsrat ernennt den zugelassenen Revisor.
+- thema: Unabhängigkeit tatsächlich und dem Anschein nach
+  quelle: or__art-729
+  zitat: Die Revisionsstelle muss unabhängig sein und sich ihr Prüfungsurteil objektiv bilden. Die Unabhängigkeit darf weder tatsächlich noch dem Anschein nach beeinträchtigt sein.
+- thema: Mitwirken bei der Buchführung/andere Dienstleistungen zulässig, aber mit organisatorischen und personellen Massnahmen
+  quelle: or__art-729
+  zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
+- thema: Bericht enthält Angaben zur Unabhängigkeit und zum Mitwirken bei der Buchführung
+  quelle: or__art-729b
+  zitat: Angaben zur Unabhängigkeit und gegebenenfalls zum Mitwirken bei der Buchführung und zu anderen Dienstleistungen, die für die zu prüfende Gesellschaft erbracht wurden
+- thema: Prüfungsumfang der eingeschränkten Revision (für Auftragsbestätigung)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- thema: Auskunfts- und Vorlagepflicht des VR
+  quelle: or__art-730b
+  zitat: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt
+- thema: Geheimhaltungspflicht der Revisionsstelle
+  quelle: or__art-730b
+  zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen, soweit sie nicht von Gesetzes wegen zur Bekanntgabe verpflichtet ist.
+- thema: Dokumentation und 10 Jahre Aufbewahrung
+  quelle: or__art-730c
+  zitat: Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren und Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren.
+- thema: Keine Aufgaben, die die Unabhängigkeit beeinträchtigen
+  quelle: or__art-731a
+  zitat: Der Revisionsstelle dürfen weder Aufgaben des Verwaltungsrates, noch Aufgaben, die ihre Unabhängigkeit beeinträchtigen, zugeteilt werden.
+- thema: Revisionsbericht muss vor Genehmigung der Jahresrechnung vorliegen (sonst nichtig)
+  quelle: or__art-731
+  zitat: Liegt der erforderliche Revisionsbericht nicht vor, so sind die Beschlüsse zur Genehmigung der Jahresrechnung
+- thema: 'Anhang: Gründe bei vorzeitigem Rücktritt/Abberufung der Revisionsstelle'
+  quelle: or__art-959c-t2
+  zitat: 'bei einem vorzeitigen Rücktritt oder einer Abberufung der Revisionsstelle: die Gründe, die dazu geführt haben'
+schritte:
+- was: 'Mandatskontext fixieren und Ausgangslage lesen: Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag; Rechtsform, HR-Eintrag der Revisionsstelle, gültige Wahl (GV-Protokoll),
+    Wahlannahme, laufende Amtsdauer, Vorjahresbericht. Abweichungen oder Unklarheiten als Pendenz, nichts ergänzen.'
+  wer: Agent
+  revio: 2.2 Auftragsannahme und Weiterführung (nur lesen); rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId, rv_get_clientsManagement_QueryZefixResult, rv_get_clientsManagement_LoadLCurrentLegalForm,
+    rv_get_clientsManagement_LoadClientHistory_by_clientId (nur lesend)
+  mfiles: 'Suche nach Metadaten Kunde/Geschäftsjahr: HR-Auszug, Statuten, GV-Protokoll mit Wahl der Revisionsstelle, Annahmeerklärung, Revisionsbericht Vorjahr'
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: 'Zu Beginn wird ein Kontext-Schlüssel fixiert: Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag.'
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: bei Abweichung bricht der Agent ab und erfasst eine Pendenz
+  - quelle: hwp-er-2026__rz-0143-s064
+    zitat: Das Mandatsverhältnis kommt mit der Wahl durch die Generalversammlung und der Erklärung der Wahlannahme durch die Revisionsstelle zustande.
+  - quelle: katalog-revio4__c003-4
+    zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen.
+  - quelle: hwp-er-2026__rz-0158-s067
+    zitat: Die Revisionsstelle darf nur dann eingetragen werden, wenn sie zumindest eine eingeschränkte Revision durchführt
+- was: 'Revisionsart bestimmen (Vorlage für WP), mit Weiche nach Rechtsform: (a) Publikumsgesellschaft (kotiert, Anleihen ausstehend oder Beitrag von mindestens 20 % der Aktiven oder
+    des Umsatzes zur Konzernrechnung einer solchen Gesellschaft) → ordentliche Revision durch staatlich beaufsichtigtes Revisionsunternehmen; (b) Konzernrechnungspflicht; (c) Schwellenwerte
+    20/40/250 im Berichts- und Vorjahr (Umsatzerlös = grundsätzlich alle Erträge; Vollzeitstellen inkl. Teilzeit/Lernende anteilig; bei Fremdwährung Bilanzsumme zum Stichtagskurs, Umsatz
+    zum Jahresdurchschnittskurs); (d) Pflicht oder Begehren für einen Abschluss nach anerkanntem Standard (Art. 962/962a Abs. 3 OR) → ordentliche Revision unabhängig von den Schwellenwerten;
+    (e) besondere Prüfungen (Kapitalerhöhung/-herabsetzung, Fusion, Zwischenabschluss nach Art. 725b OR) weder als eingeschränkte Revision noch über Opting-out; (f) Quoren je Rechtsform:
+    AG Aktionäre mit 10 % des Aktienkapitals, Statuten, GV-Beschluss; GmbH nachschusspflichtige oder ausgeschiedene, nicht vollständig abgefundene Gesellschafter; Genossenschaft 10 %
+    der Genossenschafter, 10 % des Anteilscheinkapitals oder haftende/nachschusspflichtige Genossenschafter; Verein eigene Schwellen 10 Mio./20 Mio./50 Vollzeitstellen (Art. 69b ZGB);
+    übrige Rechtsformen aktienrechtliche Schwellen; (g) Opting-out (max. 10 Vollzeitstellen im betreffenden Jahr, Zustimmung sämtlicher Aktionäre bzw. Gesellschafter – ggf. schriftliches
+    Verfahren mit Frist von mindestens 20 Tagen –, HR-Anmeldung vor GJ-Beginn) und Opting-in-Begehren; (h) Neugründung mit absehbarem Überschreiten → von Beginn weg ordentliche Revision;
+    (i) Spezialfall Art. 725a Abs. 2 OR. Berechnungen im Rechenmodul (revision.py revisionspflicht rechnet die aktienrechtlichen Schwellen in CHF; Verein und Fremdwährung vorher umrechnen
+    bzw. gesondert), nicht im Sprachmodell. Fehlende Zahlen und Abweichungen nach dem Import als Pendenz.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: '1.1 Jahresrechnung und 1.2 Kennzahlen: Vorjahr lesen; Berichtsjahr vor Prozess 1 aus der definitiven Jahresrechnung in M-Files, nach dem Import (Prozess 1) abgleichen; Berechnung
+    mit revision.py revisionspflicht. 2.4 Auftragsvoraussetzungen und Unabhängigkeit nur lesen, Eintrag durch WP – Leserecht 2.4 laut Konzept noch nicht entschieden: bis dahin Fakten
+    aus M-Files, fehlenden Zugriff als Pendenz. rv_get_clientsManagement_LoadShareRegister_by_asOf (Aktionariat per Zustimmungsdatum, nur lesen)'
+  mfiles: Definitive Jahresrechnungen Berichts- und Vorjahr, Personalbestände (Monats-/Quartalsstände), Statuten, Konzernrechnung bzw. Angaben zu Kotierung/Anleihen der Gruppe, Opting-out-Zustimmungen
+    samt Fristansetzung und HR-Anmeldung, Aktienbuch bzw. Gesellschafter-/Genossenschafterverzeichnis, Begehren auf ordentliche Revision, Opting-in oder Abschluss nach anerkanntem Standard,
+    Beschlüsse zu Kapitalveränderungen/Fusionen, bei Neugründung Businessplan
+  fundstellen:
+  - quelle: ser-2022__1-4-1
+    zitat: Der Abschlussprüfer vergewissert sich bei Mandatsannahme bzw. vor Prüfungsbeginn, dass die zu prüfende Gesellschaft nicht die Voraussetzungen für eine ordentliche Revision
+      erfüllt.
+  - quelle: or__art-727
+    zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung einer Gesellschaft nach Buchstabe a oder b beitragen
+  - quelle: hwp-er-2026__rz-0134-s063
+    zitat: Bei Publikumsgesellschaften (Art. 727 Abs. 1 Ziff. 1 OR) ist ein staatlich beaufsichtigtes Revisionsunternehmen als Revisionsstelle zu wählen.
+  - quelle: hwp-er-2026__rz-0304-s097
+    zitat: sind das jeweilige Berichts- und das Vorjahr beizuziehen
+  - quelle: hwp-er-2026__rz-0306-s097
+    zitat: wonach grundsätzlich alle Erträge der Erfolgsrechnung zu berücksichtigen sind
+  - quelle: hwp-er-2026__rz-0308-s097
+    zitat: Lernende und Teilzeitbeschäftigte sind in die Ermittlung der Vollzeitstellen einzubeziehen.
+  - quelle: or__art-727
+    zitat: für die Bilanzsumme der Umrechnungskurs zum Bilanzstichtag und für den Umsatzerlös der Jahresdurchschnittskurs massgebend
+  - quelle: ser-2022__1-1-t2
+    zitat: Es ist diesfalls eine ordentliche Revision durchzuführen (Art. 962a Abs. 3 OR).
+  - quelle: hwp-er-2026__rz-0320-s099
+    zitat: unabhängig vom Überschreiten der Schwellenwerte in Art. 727 OR
+  - quelle: ser-2022__1-1-t2
+    zitat: ist weder eine eingeschränkte Revision noch ein Opting-out zulässig
+  - quelle: or__art-818
+    zitat: Ein Gesellschafter, der einer Nachschusspflicht unterliegt, kann eine ordentliche Revision der Jahresrechnung verlangen.
+  - quelle: hwp-er-2026__rz-0099-s058
+    zitat: solange die Abfindung nicht vollständig ausbezahlt ist (Art. 825a Abs. 4 OR)
+  - quelle: or__art-906
+    zitat: Genossenschafter, die zusammen mindestens 10 Prozent des Anteilscheinkapitals vertreten;
+  - quelle: hwp-er-2026__rz-0316-s099
+    zitat: Für die weiteren Rechtsformen (GmbH, Genossenschaft, Stiftung etc.) gelten aufgrund gesetzlicher Verweisungen die aktienrechtlichen Schwellenwerte.
+  - quelle: hwp-er-2026__rz-0314-s098
+    zitat: Nach Art. 69b ZGB muss ein Verein
+  - quelle: hwp-er-2026__rz-0314-s098
+    zitat: Bilanzsumme von 10 Mio. CHF
+  - quelle: hwp-er-2026__rz-0314-s098
+    zitat: Umsatzerlös von 20 Mio. CHF
+  - quelle: hwp-er-2026__rz-0314-s098
+    zitat: 50 Vollzeitstellen im Jahresdurchschnitt
+  - quelle: hwp-er-2026__rz-0313-s098
+    zitat: die Tatsachen im betreffenden Geschäftsjahr massgebend, nicht der Durchschnitt in zwei aufeinander folgenden Geschäftsjahren
+  - quelle: or__art-727a
+    zitat: Der Verwaltungsrat kann die Aktionäre schriftlich um Zustimmung ersuchen.
+  - quelle: ser-2022__1-1-t2
+    zitat: so ist von Beginn weg eine ordentliche Revision durchzuführen
+  - quelle: hwp-er-2026__rz-0342-s105
+    zitat: empfiehlt es sich für den Abschlussprüfer, die Mandatsannahme sorgfältig abzuwägen
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: Import (Prozess 1); Kennzahlen für die Analytik
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte
+- was: 'Zulassung belegen: Revisionsunternehmen mindestens als Revisor zugelassen (eingeschränkte Revision); bei Pflicht zur ordentlichen Revision zugelassener Revisionsexperte, bei
+    Publikumsgesellschaften staatlich beaufsichtigtes Revisionsunternehmen; alle Personen, die die Revision leiten, mit der entsprechenden Zulassung (RAB-Register; Zulassung des Revisionsunternehmens
+    befristet auf fünf Jahre, Ablaufdatum prüfen); internes Qualitätssicherungssystem vorhanden; Wohnsitz/Sitz in der Schweiz. Der HR-Eintrag zeigt die Zulassungsart nicht.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.6 Auftragsteam (lesen); rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId (lesen)
+  mfiles: RAB-Registerauszug Revisionsunternehmen und leitender Revisor (interne Ablage), Nachweis QS-System (QM-Handbuch)
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0134-s063
+    zitat: eine eingeschränkte Revision mindestens von einem zugelassenen Revisor (Art. 5 RAG) vorzunehmen
+  - quelle: or__art-727b
+    zitat: müssen als Revisionsstelle einen zugelassenen Revisionsexperten nach den Vorschriften des Revisionsaufsichtsgesetzes
+  - quelle: hwp-er-2026__rz-0134-s063
+    zitat: Bei Publikumsgesellschaften (Art. 727 Abs. 1 Ziff. 1 OR) ist ein staatlich beaufsichtigtes Revisionsunternehmen als Revisionsstelle zu wählen.
+  - quelle: hwp-er-2026__rz-0223-s078
+    zitat: dass alle Personen, die Revisionsdienstleistungen leiten, die entsprechende Zulassung besitzen
+  - quelle: ser-2022__1-3-2
+    zitat: Gesetzliche Revisionsdienstleistungen darf nur erbringen, wer über ein internes Qualitätssicherungssystem verfügt
+  - quelle: hwp-er-2026__rz-0215-s077
+    zitat: Die Zulassung natürlicher Personen gilt unbefristet
+  - quelle: hwp-er-2026__rz-0215-s077
+    zitat: für jeweils fünf Jahre (Art. 3 Abs. 2 RAG)
+  - quelle: hwp-er-2026__rz-0159-s068
+    zitat: Durch Einsichtnahme in das Register der Eidg. Revisionsaufsichtsbehörde kann aber festgestellt werden, welche Art der Zulassung vorliegt
+  - quelle: hwp-er-2026__rz-0135-s063
+    zitat: dass ein zugelassener Revisionsexperte auch eine eingeschränkte Revision durchführen kann
+- was: 'Unabhängigkeit nach SER Anhang B als Faktenliste vorbereiten: Führungs-/Entscheidfunktionen (auch VR), finanzielle Beteiligungen, Darlehen/Garantien, nicht marktkonforme Verträge,
+    gemeinsame Interessen, enge persönliche Beziehungen des leitenden Revisors, Vertrautheit bei langjährigem Mandat, Übertritte von Mitarbeitenden, wirtschaftliche Abhängigkeit, Honorargestaltung
+    und Ausstände, Geschenke, Rechtsstreit, Beherrschung. Abgleich HR-Auszug (VR, Zeichnungsberechtigte) mit Teamliste; jährliche Unabhängigkeitsbestätigungen des Teams vorhanden?'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.4 Auftragsvoraussetzungen und Unabhängigkeit (nur lesen, Beurteilung durch WP; Leserecht 2.4 laut Konzept noch offen – bis zum Entscheid Fakten aus M-Files, fehlenden Zugriff
+    als Pendenz); 3.6 Auftragsteam (lesen); rv_get_clientsManagement_LoadMandateRotationStatus, rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId (lesen)
+  mfiles: HR-Auszug, jährliche Unabhängigkeitsbestätigungen des Fachpersonals, offene Honorarrechnungen des Revisionsunternehmens gegenüber dem Kunden
+  fundstellen:
+  - quelle: ser-2022__anh-b-s048-1
+    zitat: Können diese Anforderungen nicht erfüllt werden, ist die Annahme oder Weiterführung eines Revisionsmandats nicht möglich.
+  - quelle: ser-2022__anh-b-s050-2
+    zitat: Dies gilt sowohl für eine Mitgliedschaft im Verwaltungsrat als auch für die Übernahme von Managementfunktionen
+  - quelle: ser-2022__anh-b-s051-1
+    zitat: Die Aufnahme und Gewährung von Darlehen/Krediten und ähnliche Transaktionen (Garantien oder sonstige Sicherheiten) sind mit der Unabhängigkeit unvereinbar.
+  - quelle: ser-2022__anh-b-s051-2
+    zitat: Mit der Unabhängigkeit nicht vereinbar ist insbesondere eine enge persönliche Beziehung des leitenden Revisors zu einem Mitglied des Verwaltungsrates
+  - quelle: ser-2022__anh-b-s052-1
+    zitat: Für die eingeschränkte Revision besteht keine Rotationspflicht des leitenden Revisors.
+  - quelle: ser-2022__anh-b-s052-2
+    zitat: Erfolgshonorare für Prüfungsdienstleistungen sind mit dem Grundsatz der Unabhängigkeit nicht vereinbar.
+  - quelle: ser-2022__anh-b-s053-2
+    zitat: Wird zwischen einem Revisionsunternehmen und einem Prüfungskunden ein Rechtsstreit geführt oder zeichnet sich ein solcher ab
+  - quelle: leitfaden-qm-2025__9-2-2
+    zitat: mindestens einmal jährlich vom gesamten Fachpersonal, das von relevanten beruflichen Verhaltensanforderungen zur Unabhängigkeit verpflichtet ist, eine dokumentierte Bestätigung
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: 'Doppelmandat klären: alle Leistungen des Revisionsunternehmens für den Kunden klassieren. (i) Unterstützung im Prüfungsprozess und (ii) Nicht-Prüfungsdienstleistungen ohne Selbstprüfung
+    (Steuern, Abgaben, Sozialversicherungen): zulässig, solange die Entscheidung über die Handlungsalternativen beim Kunden bleibt und er die Argumente mindestens in den Grundzügen nachvollziehen
+    kann; keine Trennung und keine Offenlegung nötig. (iii) Mitwirkung bei der Buchführung und (iv) andere Dienstleistungen mit Selbstprüfung (z. B. Bewertungsgutachten): kumulative
+    Bedingungen (a)–(d), personelle und organisatorische Trennung (nicht dieselbe Person/Personengruppe, keine Weisungsbindung), Risiken dem Kunden kommuniziert, Offenlegung im Revisionsbericht
+    (Vorgabe für Prozess 5). Bei (iii) ist eine separate schriftliche Auftragsbestätigung empfohlen (SER Anhang C, Beispiel 2, u. a. mit Feststellung der personellen und organisatorischen
+    Trennung).'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.4 Auftragsvoraussetzungen und Unabhängigkeit (nur lesen; Leserecht laut Konzept offen – bis dahin M-Files, fehlenden Zugriff als Pendenz); 3.6 Auftragsteam (lesen); 7.1 Berichtsstrategie
+    (lesen, Offenlegung)
+  mfiles: Aufträge/Leistungserfassung Treuhand und Steuern für den Kunden, Auftragsbestätigung Buchführung, Organisationsreglement des Revisionsunternehmens (Trennung Treuhand/Revision)
+  fundstellen:
+  - quelle: ser-2022__1-3-1
+    zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision
+      beteiligt sein.
+  - quelle: ser-2022__anh-b-s049-1
+    zitat: wie die Entscheidung über die Handlungsalternativen beim Prüfungskunden verbleibt
+  - quelle: ser-2022__anh-b-s049-2
+    zitat: Dazu gehören insbesondere Nicht-Prüfungsdienstleistungen des Abschlussprüfers im Bereich des Steuer-, Abgabe- und Sozialversicherungsrechts.
+  - quelle: ser-2022__anh-b-s049-2
+    zitat: Das Erbringen solcher Nicht-Prüfungsdienstleistungen, bei welchen keine Gefahr der Selbstprüfung besteht, ist solange zulässig
+  - quelle: ser-2022__anh-b-s050-1
+    zitat: Dazu gehören beispielsweise durch das Revisionsunternehmen erstellte Bewertungsgutachten zu einzelnen Bilanzpositionen
+  - quelle: ser-2022__anh-b-s050-1
+    zitat: setzt die kumulative Einhaltung der nachfolgenden Bedingungen voraus
+  - quelle: ser-2022__anh-b-s050-1
+    zitat: ist gemäss Art. 729b Abs. 1 Ziff. 3 OR im Revisionsbericht offenzulegen
+  - quelle: ser-2022__anh-b-s050-2
+    zitat: Die damit verbundenen Risiken sind dem Prüfungskunden kommuniziert worden.
+  - quelle: ser-2022__anh-b-s050-2
+    zitat: wenn nicht dieselbe Person oder Personengruppe Arbeiten in der Buchführung und in der eingeschränkten Revision des gleichen Kunden durchführt
+  - quelle: hwp-er-2026__rz-0044-s159
+    zitat: Die prüfende Person darf auch nicht an die Weisungen einer Person gebunden sein, welche Einfluss auf die buchführende Person ausübt
+  - quelle: ser-2022__1-7
+    zitat: empfehlenswert, die Art und den Umfang dieser Unterstützungsleistungen in einer separaten schriftlichen Auftragsbestätigung
+  - quelle: ser-2022__anh-c-s059-1
+    zitat: Feststellung, dass die Mitwirkung bei der Buchführung personell und organisatorisch getrennt von der Prüfung erfolgt;
+- was: 'Mandatsrisiko und Ressourcen aufbereiten («Kann ich? Darf ich? Will ich?»): Geschäftstätigkeit, VR/GL, Beherrschungsverhältnisse, finanzielle Lage (Kapitalverlust/Überschuldung
+    aus Kennzahlen), Grund für den Wechsel der bisherigen Revisionsstelle, Hinweise zur Integrität, gewünschte Zusatzleistungen, Fachwissen und Kapazität des Teams. Vorschlag für Risikoklasse
+    und EQR-Kriterien (z. B. Fortführungsrisiko, Auslandsbezug, grosser Adressatenkreis des Berichts) nach den internen Kriterien des Revisionsunternehmens aufbereiten. Kontakt mit der
+    Vorgängerin nur nach Entbindung vom Berufsgeheimnis und durch den WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.1 Tätigkeit und Umfeld, 2.2 Auftragsannahme und Weiterführung (nur lesen; Leserecht 2.1 laut Konzept offen – bis dahin M-Files, fehlenden Zugriff als Pendenz); 1.2 Kennzahlen
+    und Dashboard (lesen)
+  mfiles: Jahresrechnungen der Vorjahre, Revisionsberichte und ggf. Rücktrittsschreiben der bisherigen Revisionsstelle, Korrespondenz, interne Risikoklassierung und EQR-Kriterien (QM-Handbuch)
+  fundstellen:
+  - quelle: leitfaden-qm-2025__5-1-t1
+    zitat: sind stets folgende drei Aspekte zu betrachten
+  - quelle: hwp-er-2026__rz-0149-s066
+    zitat: die Zusammensetzung des Verwaltungsrats und der Geschäftsleitung, die Beherrschungsverhältnisse sowie betreffend die finanzielle Lage der Gesellschaft
+  - quelle: hwp-er-2026__rz-0149-s066
+    zitat: ist zudem abzuklären, weshalb die bisherige Revisionsstelle ersetzt werden soll
+  - quelle: hwp-er-2026__rz-0088-s170
+    zitat: Vorab ist daher die Integrität des (potenziellen) Mandanten einschliesslich der Integrität des Managements zu beurteilen.
+  - quelle: hwp-er-2026__rz-0151-s066
+    zitat: die zur Verfügung stehenden personellen Ressourcen unter Beachtung der für eine einwandfreie Prüfung erforderlichen fachlichen Qualifikationen
+  - quelle: hwp-er-2026__rz-0152-s066
+    zitat: Es empfiehlt sich, mit der bisherigen Revisionsstelle Kontakt aufzunehmen; dies setzt allerdings voraus, dass der Verwaltungsrat die bisherige Revisionsstelle von ihrem Berufsgeheimnis
+      entbindet.
+  - quelle: hwp-er-2026__rz-0121-s176-t1
+    zitat: Die auftragsbegleitende Qualitätssicherung erfasst jene Mandate, bei denen das Revisionsunternehmen aufgrund der konkreten Risiko- und Mandatssituation dies für sachgerecht
+      oder notwendig erachtet.
+  - quelle: hwp-er-2026__rz-0121-s176-t1
+    zitat: Prüfungsmandate mit Risiken im Hinblick auf die Fähigkeit zur Unternehmensfortführung
+  - quelle: hwp-er-2026__rz-0121-s176-t1
+    zitat: Prüfungsmandate mit Auslandsbezug
+  - quelle: hwp-er-2026__rz-0121-s176-t1
+    zitat: einem grossen Adressatenkreis zugänglich gemacht werden soll
+  - quelle: leitfaden-qm-2025__6-1-5-t1
+    zitat: Für alle sonstigen Prüfungen und Reviews muss die Prüfgesellschaft Kriterien festlegen, bei deren Vorliegen eine auftragsbegleitende Qualitätssicherung durchzuführen ist.
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: 'Fortführung/Wiederwahl jährlich neu beurteilen (kein Automatismus): neue Fakten zur Unabhängigkeit, Honorarausstände trotz Mahnung (die Revisionsstelle wirkt vor dem Bericht
+    auf Bezahlung hin; Mahnung und Kundenkontakt nur durch den Menschen), geänderte Rahmenbedingungen (Revisionsart, Dienstleistungen, Team), offene Anzeigepflichten; Annahmeerklärung
+    nach Muster vorbereiten.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.2 Auftragsannahme und Weiterführung (nur lesen)
+  mfiles: GV-Protokoll (Wiederwahl, Amtsdauer), Annahmeerklärung, Auftragsbestätigung Vorjahr, OP-Liste Honorare
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0153-s067
+    zitat: Dennoch darf die Wiederwahl nicht als Automatismus angesehen werden.
+  - quelle: hwp-er-2026__rz-0153-s067
+    zitat: ob sich neue Fakten ergeben haben, die die Vorschriften zur Unabhängigkeit verletzen könnten
+  - quelle: hwp-er-2026__rz-0154-s067
+    zitat: Die Revisionsstelle hat weder einen Anspruch auf Wiederwahl noch eine Pflicht zur Annahme der Wiederwahl.
+  - quelle: ser-2022__anh-b-s053-1
+    zitat: In solchen Fällen wirkt die Revisionsstelle auf Bezahlung dieser Honorare vor der Erstellung des Prüfungsberichts hin.
+  - quelle: hwp-er-2026__rz-0143-s064
+    zitat: Für die Eintragung der Revisionsstelle im Handelsregister ist entweder ein originalunterzeichneter Protokollauszug oder eine schriftliche Annahmeerklärung erforderlich.
+- was: 'Auftragsbestätigung entwerfen nach SER Anhang C (Beispiel 1; bei Mitwirkung Buchführung empfohlen zusätzlich separat Beispiel 2; Zwischendividende Beispiel 3; Art. 725a Abs.
+    2 OR Beispiel 4 – Auftrag ohne Organstellung): Pflichtinhalte, Platzhalter gemäss redaktionellen Erläuterungen, Klausel «Auftrag neu definieren» bei Erreichen der Kriterien nach
+    Art. 727 OR, ggf. Klausel Peer Review/Datenschutz und Beizug externer Berufsangehöriger, Honorarschätzung nur nach Vorgabe des WP. Nur Entwurf an den WP, kein Versand an den Kunden.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.2 Auftragsannahme und Weiterführung (Ablage und Visum durch WP; Agent nur lesen)
+  mfiles: Entwurf Auftragsbestätigung (Word) im Mandatsordner Kunde/Geschäftsjahr; Suche nach gegengezeichnetem Doppel des Vorjahres
+  fundstellen:
+  - quelle: ser-2022__1-7
+    zitat: Es empfiehlt sich, die vereinbarten Bedingungen in einer Auftragsbestätigung – insbesondere bei Übernahme des Prüfungsmandats – auch schriftlich festzuhalten.
+  - quelle: hwp-er-2026__rz-0146-s065
+    zitat: Eine Auftragsbestätigung wird bei der eingeschränkten Revision gemäss SER nicht explizit verlangt; sie ist jedoch zu empfehlen.
+  - quelle: ser-2022__anh-c-s055-1
+    zitat: 'Zum Inhalt des Bestätigungsschreibens gehören folgende Punkte:'
+  - quelle: ser-2022__anh-c-s056-2
+    zitat: dass die gesetzlichen Voraussetzungen für die Durchführung einer eingeschränkten Revision erfüllt sind, insbesondere dass keine ordentliche Revision durchzuführen ist
+  - quelle: ser-2022__anh-c-s057-1
+    zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden,
+  - quelle: ser-2022__anh-c-s058-1
+    zitat: Ggf. zu ergänzen um Regelungen zu Geheimhaltung und Datenschutz
+  - quelle: ser-2022__1-7
+    zitat: den Beizug von externen Berufsangehörigen zum Zweck der Qualitätssicherung und den damit einhergehenden Zugang zu den Auftragsakten
+  - quelle: ser-2022__anh-c-s067-1
+    zitat: Feststellung, dass es sich um einen Auftrag handelt und keine Organstellung vorhanden ist;
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
+- was: 'Honorar und Budget vorbereiten: Vorjahresaufwand (Stunden je Teammitglied/Stufe), Abweichungen, offene Honorare, absehbarer Mehraufwand (Erstprüfung, Doppelmandat, Kapitalverlust,
+    EQR) zusammenstellen; Honorar nach Zeitaufwand und Stundensätzen; Höhe darf die Prüfung nicht einschränken, keine Erfolgshonorare. Budget und Honorar legt der WP fest.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.5 Strategische Planung (zugewiesene Mitarbeiter) und 3.6 Auftragsteam (nur lesen; Leserecht 3.5 laut Konzept offen – bis dahin Zeitrapporte aus M-Files)
+  mfiles: Honorarrechnungen und Zeitrapporte Vorjahr, Offerte, OP-Liste Revisionsunternehmen
+  fundstellen:
+  - quelle: ser-2022__anh-c-s057-2
+    zitat: Unser Honorar basiert auf dem zeitlichen Aufwand der Mitglieder des Prüfungsteams und deren Stundensätzen.
+  - quelle: hwp-er-2026__rz-0092-s171
+    zitat: Aus der Höhe des Honorars dürfen sich keine Einschränkungen auf die Prüfungsarbeit ergeben.
+  - quelle: hwp-er-2026__rz-0151-s066
+    zitat: die Wirtschaftlichkeit des Mandats unter Berücksichtigung des Schwierigkeitsgrads und der Risiken
+  - quelle: hwp-er-2026__rz-0153-s067
+    zitat: Falls grössere Revisionshonorare trotz Mahnung ausstehend sind, sollte die Annahme der Wiederwahl gut überlegt werden.
+  - quelle: ser-2022__anh-b-s053-1
+    zitat: In solchen Fällen wirkt die Revisionsstelle auf Bezahlung dieser Honorare vor der Erstellung des Prüfungsberichts hin.
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: 'Prüfungsvorbereitung organisieren: Ansprechpartner, Zeitpunkt, Teamzusammensetzung, benötigte Unterlagen und Infrastruktur; fehlende Unterlagen als Vorschlag für die PBC-Liste.
+    Bei Erstprüfung zusätzlich wesentliche Unterlagen (Grundbuchauszüge, Verträge) und Unterlagen zu den Eröffnungsbilanzwerten identifizieren.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 10.10 PBC-Liste (Vorschlag); 3.6 Auftragsteam (lesen); Anforderung beim Kunden durch den Menschen
+  mfiles: Vorjahres-PBC-Liste, Grundbuchauszüge, Verträge, geprüfte Vorjahresrechnung
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0007-s179
+    zitat: Zeitpunkt der eingeschränkten Revision, Verfügbarkeit der Ansprechpartner, Zusammensetzung des Prüfungsteams, benötigte Unterlagen und vorhandene Infrastruktur
+  - quelle: hwp-er-2026__rz-0009-s180
+    zitat: sind zusätzlich die notwendigen wesentlichen Unterlagen, namentlich Grundbuchauszüge, Verträge etc., zu identifizieren und einzufordern
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10)
+  - quelle: ser-2022__6-2-7
+    zitat: Ist die Jahresrechnung des Vorjahres nicht oder von einem anderen Abschlussprüfer geprüft worden, so hat der neue Abschlussprüfer den Vorjahresangaben eine besondere Aufmerksamkeit
+      zu schenken.
+- was: 'Dauerakte lesen und Aktualisierungsbedarf feststellen: über mehrere Jahre gültige Dokumente (Statuten, Registerauszüge, wichtige Verträge, Reglemente, Auftragsbestätigung) auf
+    Aktualität prüfen (Statutenänderung, VR-Wechsel laut GV-/VR-Protokoll); Ergebnis mit M-Files-ID und Version im Prüfschritt 322 bzw. P1-321 «Aktualisieren Dauerakten» dokumentieren
+    (Textfeld, Visum offen). Die Ablage in den revio-Dauerakten macht der Mensch.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Dauerakten nur lesen (rv_get_workpapers_LoadPermanentFilesForDossier; keine schreibenden Dauerakten-Werkzeuge); Prüfschritte 322 bzw. P1-321 «Aktualisieren Dauerakten» im Bereich
+    4 (Textfeld, Visum offen); Ablage in den Dauerakten durch den Menschen
+  mfiles: Statuten, HR-Auszug, Organisations-/Reglemente, wichtige Verträge (Miete, Leasing, Darlehen, Rangrücktritt) mit M-Files-ID und Version
+  fundstellen:
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen
+  - quelle: katalog-revio4__c003-13
+    zitat: Aktualisieren Dauerakten
+  - quelle: katalog-revio4__c003-53
+    zitat: P1-321
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 320 Anhang, 321 stille Reserven und 322 Dauerakten wiederholen sich
+  - quelle: konzept-ki-revisionsagent-2026__c006-1
+    zitat: Alle anderen Bereiche liest er höchstens
+- was: 'Ergebnis für den WP dokumentieren: Faktenlage und offene Punkte zu Revisionsart, Zulassung, Unabhängigkeit, Doppelmandat, Risikoklasse/EQR und Honorar als Notiz «Pendenz» bzw.
+    im Revisionsrapport; Entscheid, Visum und Abschluss in 2.2/2.4 bleiben beim WP. Jede Aktion und Quelle im Agentenprotokoll.'
+  wer: Agent
+  revio: Notizen-Übersicht (Kategorie Pendenz); 2.2/2.4 nur lesen; Revisionsrapport (Prozess 4)
+  mfiles: Agentenprotokoll pro Mandat und Jahr
+  fundstellen:
+  - quelle: ser-2022__7-2
+    zitat: Überlegungen zur Unabhängigkeit;
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 2.2 Auftragsannahme und Weiterführung, 2.4 Auftragsvoraussetzungen und Unabhängigkeit
+  - quelle: konzept-ki-revisionsagent-2026__c004-1
+    zitat: Er setzt nie ein Visum, schliesst nichts ab und gibt nichts frei.
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- was: 'Ablehnungs-/Rücktrittsgründe sofort melden: Pflicht zur ordentlichen Revision (ohne Befähigung oder ohne Einigung mit dem VR), Publikumsgesellschaft ohne staatlich beaufsichtigtes
+    Revisionsunternehmen, rechtswidrige Beschränkung des Prüfungsumfangs, Unabhängigkeitsverstoss, Rechtsstreit. Rücktritt, Zeitpunkt und Schreiben an den VR entscheidet der WP; bei
+    Rücktritt im Geschäftsjahr Folgeprüfung im Anhang (T1-112, T1-402).'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Notiz «Pendenz»/«Schlussbesprechung»; Prüffeld T1 (T1-112, T1-402) im Folgejahr
+  mfiles: Rücktrittsschreiben, GV-Protokoll
+  fundstellen:
+  - quelle: ser-2022__1-4-1
+    zitat: Wird dies von der Unternehmensleitung verweigert, informiert der Abschlussprüfer die Generalversammlung schriftlich und tritt als Revisionsstelle zurück.
+  - quelle: ser-2022__1-4-2
+    zitat: Bei einer rechtswidrigen Beschränkung des Prüfungsumfangs ist das Mandat abzulehnen bzw. niederzulegen.
+  - quelle: hwp-er-2026__rz-0172-s069
+    zitat: Der Rücktritt ist zwar formfrei gültig, doch ist zur Beweissicherung stets eine schriftliche Mitteilung angezeigt.
+  - quelle: katalog-revio4__c003-64
+    zitat: Befragung zu Gründen für einen vorzeitigen Rücktritt der Revisionsstelle
+entscheidungen_wp:
+- text: Annahme, Ablehnung oder Fortführung des Mandats und Annahme der (Wieder-)Wahl – nur durch zugelassene Personen, nie durch den Agenten.
+  quelle: ser-2022__anh-b-s054-1
+  zitat: Entscheide über die Annahme bzw. Niederlegung eines Prüfungsauftrags
+- text: Revisionsart festlegen; bei Pflicht zur ordentlichen Revision die eingeschränkte Revision ablehnen. Eine ordentliche Revision nur, wenn das Revisionsunternehmen dazu befähigt
+    ist (zugelassener Revisionsexperte; bei Publikumsgesellschaften staatlich beaufsichtigt) und sich mit dem VR geeinigt hat – sonst GV schriftlich informieren und zurücktreten.
+  quelle: ser-2022__1-4-1
+  zitat: sofern er dazu befähigt ist und sich mit der Unternehmensleitung (bei einer AG dem Verwaltungsrat) geeinigt hat
+- text: 'Werden die Kriterien nach Art. 727 OR während des Mandats erreicht: Auftrag neu definieren.'
+  quelle: ser-2022__anh-c-s057-1
+  zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden,
+- text: 'Neugründung mit absehbarem Überschreiten der Schwellenwerte: Nach SER 1.1 ist von Beginn weg ordentlich zu revidieren → eingeschränkte Revision ablehnen; eine ordentliche Revision
+    nur, wenn das Revisionsunternehmen zugelassener Revisionsexperte ist. Sieht der VR trotzdem davon ab: Mandatsannahme sorgfältig abwägen (HWP ER Rz 342, zweite Fundstelle).'
+  quelle: ser-2022__1-1-t2
+  zitat: so ist von Beginn weg eine ordentliche Revision durchzuführen
+- text: Unabhängigkeit abschliessend beurteilen, inkl. wirtschaftliche Abhängigkeit im Einzelfall.
+  quelle: hwp-er-2026__rz-0036-s156-t3
+  zitat: Wann eine wirtschaftliche Abhängigkeit vorhanden ist, muss im Einzelfall geprüft werden.
+- text: Doppelmandat zulassen oder nicht; Trennung (Personen, Weisungslinien) und Offenlegung im Bericht festlegen.
+  quelle: hwp-er-2026__rz-0040-s158
+  zitat: in jedem Falle kritisch zu prüfen
+- text: Risikoklasse des Mandats festlegen und entscheiden, ob eine auftragsbegleitende Qualitätssicherung (EQR) nötig ist.
+  quelle: hwp-er-2026__rz-0121-s176-t1
+  zitat: Die auftragsbegleitende Qualitätssicherung erfasst jene Mandate, bei denen das Revisionsunternehmen aufgrund der konkreten Risiko- und Mandatssituation dies für sachgerecht
+    oder notwendig erachtet.
+- text: 'Bei langjährigem Mandat: interne Übergabe der Mandatsleitung trotz fehlender Rotationspflicht.'
+  quelle: hwp-er-2026__rz-0167-s069
+  zitat: dass ein langjähriger leitender Revisor die Leitung eines Mandats intern an einen anderen Prüfer übergibt
+- text: Wiederwahl bei überfälligen Honoraren akzeptieren oder nicht; vor dem Bericht auf Bezahlung hinwirken (Mahnung und Kundenkontakt nur durch den Menschen).
+  quelle: ser-2022__anh-b-s053-1
+  zitat: ob es aufgrund der Bedeutung der überfälligen Honorare für das Revisionsunternehmen angebracht ist, eine Wiederwahl zu akzeptieren
+- text: Honorar/Budget festlegen, Auftragsbestätigung unterzeichnen, versenden und gegengezeichnetes Doppel einfordern.
+  quelle: ser-2022__anh-c-s057-2
+  zitat: Bitte senden Sie uns das beigelegte Doppel zum Zeichen Ihres Einverständnisses
+- text: Kontakt zur bisherigen Revisionsstelle; Vorgehen, wenn der VR die Entbindung vom Berufsgeheimnis verweigert.
+  quelle: hwp-er-2026__rz-0152-s066
+  zitat: Verweigert der Verwaltungsrat diese Zustimmung, ist bei der Annahme eines Mandats besondere Vorsicht geboten.
+- text: 'Rücktritt: Entscheid und Wirkungszeitpunkt (Unzeit vermeiden).'
+  quelle: hwp-er-2026__rz-0174-s070
+  zitat: Die Revisionsstelle sollte in ihrem Rücktrittsschreiben klarstellen, ab welchem Zeitpunkt der Rücktritt gelten soll.
+- text: 'Strittig RAB vs. EXPERTsuisse: Prüfung des Zwischenabschlusses nach Art. 725b Abs. 2 OR bei Doppelmandat; Mitwirkung Buchführung bei Tochtergesellschaften als Konzernprüfer.'
+  quelle: hwp-er-2026__rz-0054-s162
+  zitat: vertritt die RAB eine andere Auffassung
+- text: 'Nachträglich bekannte Informationen: Konsultation, Fortsetzung oder Niederlegung.'
+  quelle: leitfaden-qm-2025__9-2-4
+  zitat: Vornahme einer Konsultation im Prüfteam, allenfalls unter Beizug einer Rechtsberaterin bzw. eines Rechtsberaters
+unterlagen:
+- dokument: Aktueller Handelsregisterauszug
+  zweck: Rechtsform, Organe, eingetragene Revisionsstelle; Dauerakte
+  quelle: ser-2022__7-3
+  zitat: über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- dokument: Statuten (aktuelle Fassung)
+  zweck: Statutarisches Opting-up, Organisation der Revisionsstelle
+  quelle: or__art-727
+  zitat: so können die Statuten vorsehen oder kann die Generalversammlung beschliessen, dass die Jahresrechnung ordentlich geprüft wird
+- dokument: GV-Protokoll mit Wahl der Revisionsstelle, Annahmeerklärung
+  zweck: Zustandekommen des Mandats, HR-Eintrag
+  quelle: hwp-er-2026__rz-0143-s064
+  zitat: Für die Eintragung der Revisionsstelle im Handelsregister ist entweder ein originalunterzeichneter Protokollauszug oder eine schriftliche Annahmeerklärung erforderlich.
+- dokument: Handelsrechtliche Jahresrechnungen Berichts- und Vorjahr
+  zweck: Schwellenwerte Bilanzsumme und Umsatzerlös
+  quelle: hwp-er-2026__rz-0305-s097
+  zitat: ist auf die handelsrechtliche Jahresrechnung abzustellen
+- dokument: Personalbestände (Monats- oder Quartalsstände, Pensen)
+  zweck: Vollzeitstellen im Jahresdurchschnitt
+  quelle: hwp-er-2026__rz-0308-s097
+  zitat: sollten mindestens die Zahlen auf das Quartalsende, besser noch monatliche Personalstände, zur Durchschnittsbildung herangezogen werden
+- dokument: Konzernrechnung der Gruppe bzw. Angaben zu Kotierung und Anleihen der Muttergesellschaft
+  zweck: Publikumsgesellschaft nach Art. 727 Abs. 1 Ziff. 1 lit. c OR (Beitrag ≥ 20 %)
+  quelle: or__art-727
+  zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung einer Gesellschaft nach Buchstabe a oder b beitragen
+- dokument: Opting-out-Verzichtserklärungen und HR-Anmeldung mit Jahresrechnung
+  zweck: Gültigkeit eines Opting-out
+  quelle: or__art-727a
+  zitat: Der Anmeldung des Verzichts im Handelsregister muss die Jahresrechnung des zuletzt abgelaufenen Geschäftsjahres beigelegt werden.
+- dokument: Aktienbuch bzw. Gesellschafter-/Genossenschafterverzeichnis per Zustimmungsdatum; Zustimmungsschreiben samt Fristansetzung (revio LoadShareRegister nur lesend)
+  zweck: Nachweis der Zustimmung sämtlicher Aktionäre bzw. Gesellschafter zum Opting-out; schriftliches Verfahren
+  quelle: or__art-727a
+  zitat: Der Verwaltungsrat kann die Aktionäre schriftlich um Zustimmung ersuchen.
+- dokument: Begehren auf ordentliche Revision, Opting-in oder Abschluss nach anerkanntem Standard; Beschlüsse/Pläne zu Kapitalerhöhung, Kapitalherabsetzung, Fusion, Zwischenabschluss
+  zweck: Ordentliche Revision bzw. besondere Prüfungen ausserhalb der eingeschränkten Revision
+  quelle: ser-2022__1-1-t2
+  zitat: Wo das Gesetz eine andere Prüfung oder eine andere Bestätigung verlangt
+- dokument: Revisionsbericht Vorjahr (ggf. anderer Abschlussprüfer)
+  zweck: 'Erstprüfung: Einschätzung des früheren Abschlussprüfers'
+  quelle: hwp-er-2026__rz-0150-s209
+  zitat: versucht der Abschlussprüfer dessen fachliche Kompetenz und Unabhängigkeit einzuschätzen
+- dokument: Rücktrittsschreiben der Vorgängerin bzw. Anhang der Jahresrechnung mit den Rücktrittsgründen
+  zweck: Grund des Wechsels der Revisionsstelle
+  quelle: hwp-er-2026__rz-0149-s066
+  zitat: im Fall eines vorzeitigen Rücktritts der bisherigen Revisionsstelle müssen im Anhang
+- dokument: Übersicht der Leistungen des Revisionsunternehmens für den Kunden, Auftragsbestätigung Buchführung
+  zweck: Doppelmandat; Verantwortung für die Jahresrechnung beim Kunden
+  quelle: hwp-er-2026__rz-0043-s159
+  zitat: Die Verantwortung für die Jahresrechnung muss in jedem Fall nachweislich beim Kunden verbleiben.
+- dokument: Organisationsreglement des Revisionsunternehmens
+  zweck: Nachweis der organisatorischen Trennung Treuhand/Revision
+  quelle: hwp-er-2026__rz-0045-s159
+  zitat: und dies im Organisationsreglement so vorgesehen ist
+- dokument: Jährliche Unabhängigkeitsbestätigungen des Fachpersonals
+  zweck: Unabhängigkeit Team
+  quelle: leitfaden-qm-2025__9-2-2
+  zitat: eine dokumentierte Bestätigung der Einhaltung der Unabhängigkeitsanforderungen einholen
+- dokument: RAB-Registerauszug (Revisionsunternehmen, leitender Revisor)
+  zweck: Zulassungsart und -dauer
+  quelle: hwp-er-2026__rz-0159-s068
+  zitat: Durch Einsichtnahme in das Register der Eidg. Revisionsaufsichtsbehörde kann aber festgestellt werden, welche Art der Zulassung vorliegt
+- dokument: Interne Kriterien zur Risikoklassierung und zur auftragsbegleitenden Qualitätssicherung (QM-Handbuch)
+  zweck: Vorschlag Risikoklasse/EQR für den WP
+  quelle: leitfaden-qm-2025__6-1-5-t1
+  zitat: Für alle sonstigen Prüfungen und Reviews muss die Prüfgesellschaft Kriterien festlegen, bei deren Vorliegen eine auftragsbegleitende Qualitätssicherung durchzuführen ist.
+- dokument: Auftragsbestätigung Vorjahr (gegengezeichnet)
+  zweck: Weitergeltung oder Erneuerung
+  quelle: ser-2022__anh-c-s056-1
+  zitat: Diese Auftragsbestätigung gilt auch für die Revision in den nachfolgenden Jahren, sofern das Revisionsmandat verlängert und keine neue Auftragsbestätigung vereinbart wird.
+- dokument: Offene Honorarrechnungen gegenüber dem Kunden
+  zweck: Eigeninteresse, Wiederwahl
+  quelle: ser-2022__anh-b-s053-1
+  zitat: wenn Honorare, die von einem Prüfungskunden geschuldet sind, über einen längeren Zeitraum hinweg unbezahlt bleiben
+- dokument: 'Bei Erstprüfung: Grundbuchauszüge, Verträge, geprüfte Vorjahresrechnung'
+  zweck: Eröffnungsbilanzwerte, Dauerakte
+  quelle: hwp-er-2026__rz-0009-s180
+  zitat: namentlich Grundbuchauszüge, Verträge etc., zu identifizieren und einzufordern
+dokumentation:
+- text: Überlegungen zur Unabhängigkeit gehören in die Jahresakten.
+  quelle: ser-2022__7-2
+  zitat: Überlegungen zur Unabhängigkeit;
+- text: Wichtigste Dokumente datieren und mit Vermerk des Autors bzw. der Mandatsleitung versehen.
+  quelle: ser-2022__7-1
+  zitat: Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors oder derjenigen Person zu versehen, die das Revisionsmandat leitet.
+- text: Dauerakten mit mehrjährig gültigen Dokumenten führen (Ablage durch den Menschen; der Agent dokumentiert den Abgleich im Prüfschritt 322 bzw. P1-321).
+  quelle: ser-2022__7-3
+  zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- text: Aufbewahrung mindestens zehn Jahre ab Berichtsdatum; elektronische Ablage nur mit Änderungsnachweis und Lesbarkeit.
+  quelle: hwp-er-2026__rz-0288-s248
+  zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+- text: 'Bei Mitwirkung bei der Buchführung: Offenlegung im Revisionsbericht (Vorgabe für Prozess 5, GVB-Entwurf).'
+  quelle: ser-2022__8-4
+  zitat: Ein Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt. An der eingeschränkten Revision war er nicht beteiligt.
+- text: Wechsel der Revisionsart im Revisionsbericht mitteilen (Vorgabe für Prozess 5).
+  quelle: hwp-er-2026__rz-0354-s109
+  zitat: es empfehlenswert, den Wechsel der Revisionsart im Revisionsbericht mitzuteilen
+- text: Erstprüfung (Vorjahr nicht oder anders geprüft) im Revisionsbericht anmerken.
+  quelle: ser-2022__6-2-7
+  zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
+- text: 'Bei EQR: Revisionsbericht nicht vor Abschluss der auftragsbegleitenden Qualitätssicherung datieren (Vorgabe für Prozess 5).'
+  quelle: leitfaden-qm-2025__6-1-5-t1
+  zitat: Der Revisionsbericht zum Auftrag wird nicht vor dem Abschluss der auftragsbegleitenden Qualitätssicherung datiert.
+- text: 'Agent: offene Punkte als Notiz «Pendenz» mit konkretem Inhalt; Notizen nie löschen oder erledigen.'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Notizen löscht oder erledigt er nie.
+- text: 'Agent: jede Aktion, Quelle und Berechnung im Protokoll pro Mandat und Jahr in M-Files.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- text: 'Agent-Leseweise für revio Bereich 2: nur lesen (Empfehlung); die Leserechte für 2.1, 2.4 und 3.5 sind noch nicht entschieden – bis dahin Fakten aus M-Files, fehlenden Zugriff
+    als Pendenz.'
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+fallstricke:
+- text: Wiederwahl nicht als Automatismus behandeln; Anzeigepflichten aus dem laufenden Mandat bleiben.
+  quelle: hwp-er-2026__rz-0153-s067
+  zitat: dass die gesetzlichen Anzeigepflichten (Art. 728c und 729c OR), die vor Ablauf des Mandats entstanden sind, noch erfüllt werden müssen
+- text: 'Schwellenwerte: Im Berichts- und Vorjahr müssen nicht dieselben zwei Grössen überschritten sein.'
+  quelle: hwp-er-2026__rz-0309-s098
+  zitat: nicht erforderlich, dass im Berichts- und im Vorjahr die gleichen beiden Referenzgrössen die massgeblichen Schwellenwerte überschreiten
+- text: 'Erstmaliges Überschreiten löst die ordentliche Revision erst im zweiten Jahr aus – ausser bei Neugründung mit absehbarem Überschreiten (SER 1.1: von Beginn weg ordentlich).'
+  quelle: hwp-er-2026__rz-0310-s098
+  zitat: Gesellschaften, welche die Schwellenwerte erstmals in einem Geschäftsjahr überschreiten, müssen die entsprechende Jahresrechnung noch nicht ordentlich revidieren lassen.
+- text: 'Tochter einer kotierten oder anleihensemittierenden Gruppe mit mindestens 20 % Beitrag zur Konzernrechnung ist Publikumsgesellschaft: ordentliche Revision durch ein staatlich
+    beaufsichtigtes Revisionsunternehmen, unabhängig von den Schwellenwerten.'
+  quelle: or__art-727
+  zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung einer Gesellschaft nach Buchstabe a oder b beitragen
+- text: 'Abschluss nach anerkanntem Standard: ordentliche Revision durch einen Revisionsexperten, auch wenn die Schwellenwerte nicht überschritten sind.'
+  quelle: hwp-er-2026__rz-0320-s099
+  zitat: unabhängig vom Überschreiten der Schwellenwerte in Art. 727 OR
+- text: Opting-out seit 1.1.2025 nur noch für künftige Geschäftsjahre.
+  quelle: hwp-er-2026__rz-0061-s051
+  zitat: ist ein Opting-out nur für künftige Geschäftsjahre möglich
+- text: 'Besondere Prüfungen (Kapitalerhöhung, Kapitalherabsetzung, Fusion, Zwischenabschluss nach Art. 725b Abs. 2 OR): weder eingeschränkte Revision noch Opting-out zulässig; sie folgen
+    eigenen Prüfungsstandards.'
+  quelle: ser-2022__1-1-t2
+  zitat: ist weder eine eingeschränkte Revision noch ein Opting-out zulässig
+- text: Opting-out erfasst keine besonderen Prüfungen (Beispiel Kapitalherabsetzung).
+  quelle: hwp-er-2026__rz-0052-s049
+  zitat: So muss bspw. auch dann zwingend eine Kapitalherabsetzungsprüfung vorgenommen werden, wenn eine Gesellschaft ein Opting-out vorgenommen hat
+- text: Prüfung nach Art. 725a Abs. 2 OR erfolgt im Auftrag ohne Organstellung und ohne HR-Eintrag.
+  quelle: hwp-er-2026__rz-0065-s052
+  zitat: Die diesfalls beauftragte Revisionsgesellschaft erlangt hier jedoch keine Organstellung und wird nicht als Revisionsstelle im Handelsregister eingetragen.
+- text: Opting-up/-in-Begehren kurz vor der GV erzwingt meist eine Verschiebung der GV.
+  quelle: hwp-er-2026__rz-0057-s050
+  zitat: Vielmehr wird durch ein entsprechendes Begehren in der Regel eine Verschiebung der Generalversammlung nötig.
+- text: Beratende Unterstützung im Prüfungsprozess ist keine Mitwirkung (keine Trennung, keine Offenlegung) – Entscheidungen bleiben aber beim Kunden.
+  quelle: hwp-er-2026__rz-0049-s160
+  zitat: Erbringt eine Revisionsstelle solche Leistungen, muss sie jedenfalls sicherstellen, dass ihre Mitarbeiter keine Entscheidungen treffen, die in der alleinigen Verantwortung des
+    Prüfungskunden liegen.
+- text: Buchführende Person darf den Revisionsbericht nicht mitunterzeichnen.
+  quelle: hwp-er-2026__rz-0041-s159
+  zitat: Die Mitunterzeichnung des Revisionsberichts durch eine Person, die in der Buchführung mitgewirkt
+- text: 'Doppelmandat: Wissen der Treuhandabteilung wird der Revisionsstelle trotz Trennung zugerechnet (höheres Haftungsrisiko).'
+  quelle: hwp-er-2026__rz-0045-s159
+  zitat: das Wissen der Treuhandabteilung trotz organisatorischer und personeller Trennung der Revisionsstelle zugerechnet wird
+- text: Die 10 %-Honorargrenze des RAG gilt nicht für die eingeschränkte Revision; wirtschaftliche Abhängigkeit trotzdem prüfen.
+  quelle: hwp-er-2026__rz-0036-s156-t3
+  zitat: findet keine Anwendung bei der eingeschränkten Revision
+- text: 'Mandat ohne nötige Zulassung: Haftung aus Übernahmeverschulden und aufsichtsrechtliche Folgen.'
+  quelle: hwp-er-2026__rz-0142-s064
+  zitat: Für eine Revisionsstelle, die ein Mandat ohne die dafür notwendige Zulassung übernimmt, kann sich aus Übernahmeverschulden eine Haftung ergeben.
+- text: Handelsregister zeigt weder Revisionsart noch Zulassungsart.
+  quelle: hwp-er-2026__rz-0159-s068
+  zitat: Nicht eingetragen werden die Art der Revision und die Art der Zulassung der Revisionsstelle.
+- text: Neue Revisionsstelle muss vor Genehmigung der Jahresrechnung gewählt sein (erstes Traktandum).
+  quelle: hwp-er-2026__rz-0131-s062
+  zitat: unter einem ersten Traktandum vorerst die Wahl der Revisionsstelle vorzunehmen
+- text: Stille Wahl der Revisionsstelle ist nicht zulässig.
+  quelle: hwp-er-2026__rz-0129-s062
+  zitat: Eine stille Wahl der Revisionsstelle ist nicht zulässig.
+- text: 'Leitfaden QM gibt die frühere Rechtslage wieder (Abberufung «jederzeit mit sofortiger Wirkung»); massgebend ist Art. 730a Abs. 4 OR: Abberufung nur aus wichtigen Gründen (Gesetz
+    vor Leitfaden).'
+  quelle: leitfaden-qm-2025__5-1-t3
+  zitat: Die Generalversammlung kann die Revisionsstelle jedoch jederzeit mit sofortiger Wirkung abberufen.
+- text: Rücktritt zur Unzeit (unmittelbar vor/während der GV) kann ersatzpflichtig machen.
+  quelle: hwp-er-2026__rz-0169-s069
+  zitat: wenn sie ohne triftige Gründe unmittelbar vor oder während der Generalversammlung zurücktritt
+- text: 'Auffassung der RAB: Konzernprüfer darf bei Tochtergesellschaften nicht bei der Buchführung mitwirken – abweichend vom HWP.'
+  quelle: hwp-er-2026__rz-0046-s160
+  zitat: das Mandat als Konzernabschlussprüfer allfällige weitere Auftragsverhältnisse mit Tochtergesellschaften
+- text: 'Agent schreibt nur in Bereich 4 und 10: Bereich 2 und die revio-Dauerakten nur lesen; keine Kundenkontakte, kein Versand.'
+  quelle: konzept-ki-revisionsagent-2026__c006-1
+  zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
+fragen_kunde:
+- frage: Welche Rechtsform hat die Gesellschaft? Wie hoch waren Bilanzsumme, Umsatzerlös (alle Erträge) und Vollzeitstellen im Jahresdurchschnitt im Berichts- und im Vorjahr, und in
+    welcher Währung legt sie Rechnung?
+  zweck: Revisionsart nach Art. 727 Abs. 1 Ziff. 2 und Abs. 1bis OR (bei Vereinen Art. 69b ZGB), Opting-out-Grenze von zehn Vollzeitstellen
+- frage: Besteht eine Pflicht zur Konzernrechnung, sind Beteiligungspapiere kotiert oder Anleihen ausstehend, oder trägt die Gesellschaft mindestens 20 % der Aktiven oder des Umsatzes
+    zur Konzernrechnung einer kotierten oder anleihensemittierenden Gesellschaft bei?
+  zweck: Publikumsgesellschaft und Konzernrechnungspflicht (Art. 727 Abs. 1 Ziff. 1 und 3 OR); staatlich beaufsichtigtes Revisionsunternehmen
+- frage: Besteht eine Pflicht oder ein Begehren für einen Abschluss nach anerkanntem Standard (Art. 962 OR)? Sind Kapitalerhöhungen, Kapitalherabsetzungen, Fusionen oder Zwischenabschlüsse
+    geplant?
+  zweck: Ordentliche Revision nach Art. 962a Abs. 3 OR; besondere Prüfungen ausserhalb der eingeschränkten Revision und des Opting-out
+- frage: Liegen Begehren auf ordentliche Revision vor – von Aktionären mit mindestens 10 % des Aktienkapitals, von nachschusspflichtigen oder ausgeschiedenen, noch nicht vollständig
+    abgefundenen GmbH-Gesellschaftern bzw. von Genossenschaftern (10 % der Köpfe oder des Anteilscheinkapitals, haftende/nachschusspflichtige) –, eine Statutenbestimmung, ein GV-Beschluss
+    oder ein Opting-in-Begehren?
+  zweck: Opting-up/-in je Rechtsform und Fristen
+- frage: Wurde ein Opting-out beschlossen? Haben sämtliche Aktionäre bzw. Gesellschafter zugestimmt (ggf. schriftliches Verfahren mit Fristansetzung), und wann wurde der Verzicht im
+    Handelsregister angemeldet?
+  zweck: Gültigkeit des Opting-out (Art. 727a Abs. 2–3 OR)
+- frage: 'Bei Neugründung: Ist absehbar, dass die Schwellenwerte überschritten werden (Businessplan, Budget)?'
+  zweck: Von Beginn weg ordentliche Revision (SER 1.1)
+- frage: Wann und für welche Amtsdauer wurde die Revisionsstelle gewählt (GV-Protokoll), und ist sie im Handelsregister eingetragen?
+  zweck: Gültige Wahl, Amtsdauer, HR-Eintrag
+- frage: Weshalb wird die bisherige Revisionsstelle ersetzt, und entbindet der VR sie vom Berufsgeheimnis?
+  zweck: Mandatsrisiko, Kontakt zur Vorgängerin
+- frage: Welche Leistungen bezieht die Gesellschaft sonst vom Revisionsunternehmen (Buchführung, Abschlusserstellung, Löhne, MWST, Steuern, Bewertungen)?
+  zweck: Doppelmandat, Trennung, Offenlegung
+- frage: Bestehen Beteiligungen, Darlehen, Garantien, Arbeitsverhältnisse, Verwandtschaft oder Rechtsstreitigkeiten zwischen Gesellschaft, VR, Hauptaktionären und Revisionsunternehmen
+    bzw. Prüfungsteam?
+  zweck: Unabhängigkeit nach SER Anhang B
+- frage: Welches Organ ist für die Jahresrechnung verantwortlich und wer unterzeichnet sie bzw. die Vollständigkeitserklärung?
+  zweck: Platzhalter [7]/[8] der Auftragsbestätigung
+- frage: Gibt es Hinweise auf Kapitalverlust, Überschuldung oder Rangrücktritte? Bestehen Auslandsbezüge oder ein grosser Adressatenkreis für den Revisionsbericht?
+  zweck: Mandatsrisiko, Risikoklasse/EQR-Kriterien, Art. 725a OR, Prüfungsplanung
+- frage: Welche Änderungen gab es seit dem Vorjahr bei Statuten, VR, Aktionariat, Geschäftstätigkeit und wichtigen Verträgen?
+  zweck: Aktualisierungsbedarf Dauerakte, Fortführung beurteilen
+- frage: Wer sind die Ansprechpartner, welcher Prüfungstermin passt und welche Unterlagen und Infrastruktur stehen zur Verfügung?
+  zweck: Prüfungsvorbereitung und PBC-Liste
+muster:
+- vorlage: Auftragsbestätigung eingeschränkte Revision – Pflichtinhalte (SER Anhang C, Beispiel 1)
+  chunk: ser-2022__anh-c-s055-1
+- vorlage: Auftragsbestätigung eingeschränkte Revision – Textbeispiel (SER Anhang C, Beispiel 1)
+  chunk: ser-2022__anh-c-s056-1
+- vorlage: Redaktionelle Erläuterungen [1]–[12] zu Beispiel 1
+  chunk: ser-2022__anh-c-s058-1
+- vorlage: Auftragsbestätigung bei Mitwirkung bei der Buchführung – Pflichtinhalte (SER Anhang C, Beispiel 2)
+  chunk: ser-2022__anh-c-s059-1
+- vorlage: Auftragsbestätigung bei Mitwirkung bei der Buchführung – Textbeispiel (SER Anhang C, Beispiel 2)
+  chunk: ser-2022__anh-c-s060-1
+- vorlage: Auftragsbestätigung Zwischenabschluss für Zwischendividende (SER Anhang C, Beispiel 3)
+  chunk: ser-2022__anh-c-s063-1
+- vorlage: Auftragsbestätigung eingeschränkte Revision für den Zweck nach Art. 725a Abs. 2 OR – Pflichtinhalte (SER Anhang C, Beispiel 4; Primärquelle)
+  chunk: ser-2022__anh-c-s067-1
+- vorlage: 'Verweis Mustervorlagensammlung: Auftragsbestätigung eingeschränkte Revision'
+  chunk: muster-hwp-er-2026__c006-1
+- vorlage: 'Verweis Mustervorlagensammlung: Auftragsbestätigung Mitwirkung Buchführung'
+  chunk: muster-hwp-er-2026__c007-1
+- vorlage: 'Verweis Mustervorlagensammlung: Auftragsbestätigung Jahresrechnung für Zweck Art. 725a Abs. 2 OR (SER Beispiel 4)'
+  chunk: muster-hwp-er-2026__c009-1
+- vorlage: Annahmeerklärung bestehende Gesellschaft (Wahl/Wiederwahl)
+  chunk: muster-hwp-er-2026__c003-1
+- vorlage: Annahmeerklärung Gesellschaft in Gründung
+  chunk: muster-hwp-er-2026__c004-1
+- vorlage: Berichtseinschub bei Buchführungsarbeiten durch die Revisionsstelle (Verweis SER Anhang F, Beispiel 15)
+  chunk: muster-hwp-er-2026__c055-1
+- vorlage: 'Leitfaden QM: Abklärungen zur Notwendigkeit einer auftragsbegleitenden Qualitätssicherung (nur Titel im Chunk)'
+  chunk: leitfaden-qm-2025__5-2
+- vorlage: 'Leitfaden QM: Muster Vertraulichkeitserklärung mit angemessen qualifizierter externer Person (nur Titel im Chunk; passend zur Klausel Beizug externer Berufsangehöriger)'
+  chunk: leitfaden-qm-2025__5-3
+- vorlage: 'Leitfaden QM: Muster einer möglichen Risikoklassierung der Mandate (nur Titel im Chunk)'
+  chunk: leitfaden-qm-2025__5-5
+- vorlage: 'Leitfaden QM: Muster Ergänzung der Auftragsbestätigung bei Bezug externer Berufsangehöriger (nur Titel im Chunk)'
+  chunk: leitfaden-qm-2025__5-7
+- vorlage: 'Leitfaden QM: Checkliste «Unabhängigkeit beim Doppelmandat» (nur Titel im Chunk)'
+  chunk: leitfaden-qm-2025__2-1
+- vorlage: 'Leitfaden QM: Checkliste «Rücktritt vom Mandat» (nur Titel im Chunk)'
+  chunk: leitfaden-qm-2025__3-7
+prueffelder:
+- A1
+- P1
+- T1

@@ -1,0 +1,665 @@
+# Prüffeld K1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: K1
+bezeichnung: Verbindlichkeiten aus Lieferungen und Leistungen
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 19
+    korrigiert: false
+kurzbeschrieb: 'Kreditoren aus Lieferungen und Leistungen (Mindestgliederung Art. 959a Abs. 2 Ziff. 1 lit. a OR). In der eingeschränkten Revision stehen Vollständigkeit und Periodenabgrenzung
+  im Vordergrund: Befragung, Vorjahresvergleich, Abstimmung OP-Liste mit Jahresrechnung, Durchsicht neue Rechnung, Fremdwährung, Nahestehende. Kreditorenbestätigungen gehören nicht zur
+  eingeschränkten Revision.'
+gesetz:
+- thema: Bilanzierungspflicht von Verbindlichkeiten (Fremdkapital)
+  quelle: or__art-959
+  zitat: Verbindlichkeiten müssen als Fremdkapital bilanziert werden, wenn sie durch vergangene Ereignisse bewirkt wurden, ein Mittelabfluss wahrscheinlich ist
+- thema: 'Kurzfristige Verbindlichkeiten: Fälligkeit innert eines Jahres bzw. Geschäftszyklus'
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
+    Zahlung fällig werden.
+- thema: 'Mindestgliederung: Verbindlichkeiten aus LuL als erste Position des kurzfristigen Fremdkapitals'
+  quelle: or__art-959a-t1
+  zitat: a. Verbindlichkeiten aus Lieferungen und Leistungen,
+- thema: Gesonderter Ausweis gegenüber Beteiligten, Organen und Beteiligungsgesellschaften (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils
+    gesondert
+- thema: Bewertung zum Nennwert (Art. 960e Abs. 1 OR)
+  quelle: or__art-960e
+  zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden.
+- thema: Einzelbewertung (Art. 960 Abs. 1 OR)
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet
+- thema: Verrechnungsverbot (Art. 958c Abs. 1 Ziff. 7 OR)
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Bestandesnachweis durch Inventar oder auf andere Art (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Vollständige Erfassung der Geschäftsvorfälle (Art. 957a Abs. 2 Ziff. 1 OR)
+  quelle: or__art-957a
+  zitat: die vollständige, wahrheitsgetreue und systematische Erfassung der Geschäftsvorfälle und Sachverhalte
+- thema: Vorjahreszahlen in der Jahresrechnung (Art. 958d Abs. 2 OR)
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- thema: 'Anhang: Aktiven unter Eigentumsvorbehalt (Art. 959c Abs. 2 Ziff. 9 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: Eventualverbindlichkeiten, z. B. bestrittene Lieferantenrechnungen (Art. 959c Abs. 2 Ziff. 10 OR)'
+  quelle: or__art-959c-t2
+  zitat: Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
+- thema: 'Anhang: ausserordentliche, einmalige oder periodenfremde Positionen (Art. 959c Abs. 2 Ziff. 12 OR)'
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: Verjährung (Art. 127 OR) – relevant bei alten offenen Posten
+  quelle: or__art-127
+  zitat: Mit Ablauf von zehn Jahren verjähren alle Forderungen, für die das Bundeszivilrecht nicht etwas anderes bestimmt.
+risiken:
+- text: 'Unvollständige Erfassung: Rechnungen für im Geschäftsjahr erhaltene Lieferungen/Leistungen erst im Folgejahr verbucht oder weder als Kreditor noch als Abgrenzung erfasst (Unterbewertung,
+    Gewinn zu hoch).'
+  pruefziele:
+  - VO
+  - PA
+  quelle: ser-2022__4-3-4
+  zitat: Es müssen sämtliche Vermögenswerte, Verbindlichkeiten, Abgrenzungen und Rückstellungen bilanziert
+- text: Fiktive, doppelt erfasste oder überhöhte Kreditoren (z. B. zur Bildung stiller Reserven) – Bestand der Passiven ist wegen des Verbots fiktiver Verbindlichkeiten ebenfalls zu
+    prüfen.
+  pruefziele:
+  - EX
+  - RI
+  quelle: ser-2022__4-3-1
+  zitat: Wegen des Verbots der Bilanzierung fiktiver Verbindlichkeiten ist dies aber auch für die Passiven zu beachten.
+- text: Verbindlichkeiten, die nicht die Gesellschaft, sondern Aktionäre/Organe betreffen (private Rechnungen), sind in den Kreditoren erfasst.
+  pruefziele:
+  - RV
+  quelle: ser-2022__4-3-2
+  zitat: Bilanzierte Verpflichtungen müssen solche des Unternehmens (und nicht z. B. des Eigentümers) sein.
+- text: Falsche Periodenabgrenzung um den Bilanzstichtag (Wareneingang 2025, Rechnung 2026 oder umgekehrt), inkl. Inkonsistenz zu Vorräten und angefangenen Arbeiten.
+  pruefziele:
+  - PA
+  - VO
+  quelle: ser-2022__4-3-6
+  zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
+- text: Sollsalden (Gutschriften, Anzahlungen, Doppelzahlungen) mit Habensalden verrechnet statt als übrige kurzfristige Forderungen ausgewiesen.
+  pruefziele:
+  - DO
+  - RI
+  quelle: hwp-bur-2023__rz-0450-s251
+  zitat: Eine Verrechnung von Soll- und Habensalden innerhalb der Verbindlichkeiten aus Lieferungen und Leistungen ist nicht zulässig.
+- text: Kreditoren gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften nicht gesondert in Bilanz oder Anhang ausgewiesen bzw. nicht zu Drittkonditionen abgewickelt.
+  pruefziele:
+  - DO
+  - RV
+  - VO
+  quelle: hwp-bur-2023__rz-0451-s251
+  zitat: Für Verbindlichkeiten aus Lieferungen und Leistungen gegenüber nahestehenden Personen wird vom Gesetzgeber ein gesonderter Ausweis in der Bilanz oder im Anhang verlangt
+- text: Fremdwährungskreditoren nicht zum Jahresendkurs umgerechnet (Bewertungsfehler).
+  pruefziele:
+  - BE
+  quelle: ser-2022__anh-d-s084-1
+  zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+- text: Bestrittene Lieferantenrechnungen weder passiviert noch als Eventualverbindlichkeit im Anhang offengelegt.
+  pruefziele:
+  - VO
+  - DO
+  quelle: hwp-bur-2023__rz-0448-s250
+  zitat: Bestrittene Verbindlichkeiten sind, sofern sie nicht offensichtlich unberechtigt sind, zu bilanzieren oder als Eventualverbindlichkeiten im Anhang auszuweisen
+- text: Einkaufspreisminderungen (Rabatte, Boni, Skonti, Gutschriften) nicht periodengerecht abgegrenzt oder falsch ausgewiesen (z. B. ausserhalb des Materialaufwands).
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0756-s319
+  zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
+- text: Stark überfällige Kreditoren als Hinweis auf Liquiditätsengpässe und Zweifel an der Fortführungsfähigkeit.
+  pruefziele:
+  - VO
+  - BE
+  - DO
+  quelle: ser-2022__anh-g-s138-2
+  zitat: überzogene Zahlungsfristen für Kreditoren
+unterlagen:
+- dokument: 'Kreditoren-OP-Liste per 31.12. (je Posten: Kreditor, Beleg, Belegdatum, Fälligkeit, Währung, Betrag; mit Total)'
+  zweck: Bestandesnachweis, Abstimmung mit Hauptbuch/Jahresrechnung, Altersstruktur, Sollsalden (K1-101, K1-301, K1-403, K1-405, K1-406)
+  quelle: hwp-bur-2023__rz-0115-s186
+  zitat: Je nach Buchführungssystem erfolgt die Bestandsermittlung anhand der Konten pro Schuldner oder aufgrund der unbezahlten Fakturen gemäss der Offen-Posten-Kontrolle.
+- dokument: Saldoliste/Hauptbuch-Kontoblätter Kreditorenkonten und Einkaufs-/Materialaufwandskonten Geschäftsjahr und Vorjahr
+  zweck: Vorjahresvergleich, Abstimmung, Durchsicht Buchungen (K1-102, K1-201, K1-301, K1-408)
+  quelle: or__art-958d
+  zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
+- dokument: Kreditorenjournal und Kontoblätter des Folgejahres bis Revisionsdatum sowie Liste noch nicht verbuchter Eingangsrechnungen
+  zweck: Durchsicht neue Rechnung auf Rechnungen für Leistungen des Geschäftsjahres (K1-302, K1-407)
+  quelle: ser-2022__anh-d-s084-2
+  zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen
+- dokument: Aktuelle OP-Liste Kreditoren (Stand Revisionsdatum) und Bankauszüge Folgejahr
+  zweck: Nachweis Zahlung der Stichtagsposten, Hinweise nach dem Bilanzstichtag (K1-407)
+  quelle: ser-2022__6-1-3
+  zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
+- dokument: Lieferantenrechnungen zu ausgewählten offenen Posten und zu Rechnungen um den Stichtag
+  zweck: Abstimmung OP-Liste mit Belegen, Leistungsdatum, Empfänger, Betrag (K1-405, K1-302)
+  quelle: hwp-er-2026__rz-0115-s200
+  zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+- dokument: Wareneingangsbelege/Lieferscheine kurz vor und nach dem Bilanzstichtag
+  zweck: Cut-off-Prüfung Kreditoren/Vorräte (K1-303, K1-404)
+  quelle: ser-2022__anh-d-s084-2
+  zitat: Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Jahresende
+- dokument: Liste nahestehender Personen und Beteiligungen (Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle)
+  zweck: Identifikation Kreditoren gegenüber Beteiligten, Organen, Beteiligungsgesellschaften (K1-203, K1-402)
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: Devisenkurse per 31.12. gemäss Bankunterlagen (Kontoauszug/Bankbestätigung)
+  zweck: Kursvergleich Fremdwährungskreditoren (K1-202)
+  quelle: ser-2022__anh-d-s084-1
+  zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+- dokument: Beim Kunden vorhandene Lieferantenkontoauszüge/Saldomeldungen und ggf. Buchhaltung der Beteiligungsgesellschaft (Gegenbuchhaltung)
+  zweck: Abgleich nur mit intern verfügbaren Unterlagen; kein Einholen durch den Agenten (K1-401, K1-114)
+  quelle: hwp-er-2026__rz-0262-s085
+  zitat: Die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen.
+- dokument: Rabatt-, Bonus- und Skontovereinbarungen mit Hauptlieferanten, Gutschriften Folgejahr
+  zweck: Verkehr und Abgrenzung Einkaufspreisminderungen (K1-409)
+  quelle: hwp-bur-2023__rz-0218-s207
+  zitat: gekürzt um Rabatte aller Art, einschliesslich der erst am Jahresende gewährten Treue- oder Mengenrabatte
+- dokument: Aufstellung über Bestand und Veränderung stiller Reserven
+  zweck: Position Kreditoren in der Reservenaufstellung (K1-321)
+  quelle: ser-2022__anh-d-s097-2
+  zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+- dokument: Liste bestrittener Lieferantenrechnungen/Mängelrügen, Verträge mit Eigentumsvorbehalt
+  zweck: Bilanzierung bzw. Anhangsangaben (K1-320, K1-403)
+  quelle: ser-2022__anh-d-s097-1
+  zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- dokument: Unterzeichnete Vollständigkeitserklärung
+  zweck: Bestätigung Vollständigkeit inkl. Ausweis Nahestehende
+  quelle: ser-2022__anh-e-s103-2
+  zitat: der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen (Art. 959a Abs. 4 OR) ist vollständig und richtig
+bewertung:
+- regel: Verbindlichkeiten aus LuL sind mit dem Nominal- bzw. Nennwert zu bilanzieren (Art. 960e Abs. 1 OR).
+  quelle: hwp-bur-2023__rz-0447-s250
+  zitat: Die Verbindlichkeiten sind mit dem Nominalbetrag in die Bilanz einzusetzen
+- regel: 'Bestandsermittlung sinngemäss wie bei Forderungen: über Konten je Gläubiger oder OP-Kontrolle; Gutschriften und Akontozahlungen besonders beachten.'
+  quelle: hwp-bur-2023__rz-0447-s250
+  zitat: Die Bestandsermittlung der Verbindlichkeiten aus Lieferungen und Leistungen erfolgt sinngemäss wie bei den Forderungen aus Lieferungen und Leistungen
+- regel: Erhaltene, aber noch nicht fakturierte Lieferungen/Leistungen sind Abgrenzungsposten, nicht Kreditoren.
+  quelle: hwp-bur-2023__rz-0445-s250
+  zitat: Bereits erhaltene Lieferungen und Leistungen, die noch nicht fakturiert sind, stellen, auch wenn der Rechnungsbetrag bereits bestimmbar ist, Abgrenzungsposten dar
+- regel: Bestrittene Verbindlichkeiten bilanzieren oder als Eventualverbindlichkeit im Anhang ausweisen, ausser offensichtlich unberechtigt.
+  quelle: hwp-bur-2023__rz-0448-s250
+  zitat: Bestrittene Verbindlichkeiten sind, sofern sie nicht offensichtlich unberechtigt sind, zu bilanzieren oder als Eventualverbindlichkeiten im Anhang auszuweisen
+- regel: Keine Verrechnung von Soll- und Habensalden; wesentliche Sollsalden unter übrigen kurzfristigen Forderungen ausweisen.
+  quelle: hwp-bur-2023__rz-0450-s251
+  zitat: Wesentliche Sollsalden sind in den übrigen kurzfristigen Forderungen zu bilanzieren.
+- regel: Kurzfristig sind Verbindlichkeiten mit Fälligkeit innert eines Jahres bzw. des Geschäftszyklus.
+  quelle: hwp-bur-2023__rz-0449-s250
+  zitat: Als kurzfristig gelten Verbindlichkeiten, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur Zahlung fällig werden.
+- regel: Kreditoren gegenüber nahestehenden Personen gesondert in Bilanz oder Anhang ausweisen (Art. 959a Abs. 4 OR).
+  quelle: hwp-bur-2023__rz-0451-s251
+  zitat: Für Verbindlichkeiten aus Lieferungen und Leistungen gegenüber nahestehenden Personen wird vom Gesetzgeber ein gesonderter Ausweis in der Bilanz oder im Anhang verlangt
+- regel: Fremdwährungsverbindlichkeiten zum Stichtag nach dem Charakter der Position umrechnen (Briefkurs oder Durchschnittskurs des Bilanzstichtags).
+  quelle: hwp-bur-2023__rz-0088-s077
+  zitat: bei Verpflichtungen der Briefkurs oder auch der durchschnittliche Devisenkurs des Bilanzstichtags
+- regel: Bei Fremdwährungsumrechnung Bewertungsgrundsätze (Art. 960 OR) und Imparität einhalten.
+  quelle: hwp-bur-2023__rz-0089-s077
+  zitat: In Abhängigkeit von der Entwicklung der Fremdwährungskurse ist das Niederstwertprinzip zu beachten
+- regel: Einstandspreise sind um Rabatte aller Art inkl. Jahresendrabatte zu kürzen; handelsübliche Skonti müssen nicht abgezogen werden.
+  quelle: hwp-bur-2023__rz-0218-s207
+  zitat: Skonti müssen, sofern sie den handelsüblichen Rahmen nicht überschreiten, nicht abgezogen werden
+- regel: Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti) gehören in den Materialaufwand (sofern Skonti nicht im Finanzertrag).
+  quelle: hwp-bur-2023__rz-0756-s319
+  zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
+- regel: Stille Reserven dürfen nicht durch fiktive Verbindlichkeiten gebildet werden.
+  quelle: hwp-bur-2023__rz-0669-s296
+  zitat: Diese Formen der Bildung von stillen Reserven schliessen es unter anderem aus, Aktiven wegzulassen und fiktive Verbindlichkeiten zu bilanzieren.
+- regel: 'Bilanzierungszeitpunkt bei Warenbezug: Übergang von Nutzen und Gefahr (z. B. Incoterms); in einfachen Verhältnissen Wareneingang/Rechnungserhalt.'
+  quelle: hwp-bur-2023__rz-0210-s206
+  zitat: Der Übergang von Nutzen und Gefahr ist für die Aktivierungsfähigkeit in der Regel ausschlaggebend
+fallstricke:
+- text: Kreditorenbestätigungen (Saldobestätigungen) sind nicht Bestandteil der eingeschränkten Revision; K1-401 und K1-114 b) nicht von sich aus durchführen und nichts an Dritte versenden.
+  quelle: hwp-er-2026__rz-0262-s085
+  zitat: verlangt die eingeschränkte Revision von der Revisionsstelle weder das Einholen von Debitoren- und Kreditorenbestätigungen
+- text: Bei wesentlichen Kreditoren (über Toleranzwesentlichkeit) genügt die Befragung allein nicht; mit analytischen und/oder Detailprüfungen ergänzen.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'Der Agent kann nicht selbst befragen: 1xx-Schritte nur über schriftliche Antworten auswerten, sonst Frage als Pendenz; Schritt höchstens «teilweise bearbeitet».'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- text: Analytische Vergleiche können durch sich kompensierende Fehler oder Veränderungen stiller Reserven verzerrt sein; Zahlen bereinigen und Erklärungen plausibilisieren.
+  quelle: ser-2022__6-1-2-t3
+  zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können und deshalb bei analytischen Prüfungen nicht erkannt werden.
+- text: Interims-/Abgrenzungskonten für erhaltene, nicht fakturierte Lieferungen gehören nicht in die Verbindlichkeiten aus LuL; Zuordnung in Saldoliste/Bilanz prüfen.
+  quelle: hwp-bur-2023__rz-0445-s250
+  zitat: Bereits erhaltene Lieferungen und Leistungen, die noch nicht fakturiert sind, stellen, auch wenn der Rechnungsbetrag bereits bestimmbar ist, Abgrenzungsposten dar
+- text: Nachträgliche Lieferantenrabatte und Gutschriften sind Einkaufspreisminderungen und kein ausserordentlicher Ertrag; Ausweis in Erfolgsrechnung und Anhang prüfen.
+  quelle: hwp-bur-2023__rz-0756-s319
+  zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
+- text: 'Alte offene Kreditoren nicht ungeprüft weiterführen oder ausbuchen: Rechtsgrund (Bestreitung, Verzicht, Verjährung) klären lassen.'
+  quelle: or__art-127
+  zitat: Mit Ablauf von zehn Jahren verjähren alle Forderungen, für die das Bundeszivilrecht nicht etwas anderes bestimmt.
+- text: OP-Liste muss den Stand per Bilanzstichtag zeigen; bei nachträglich gedruckten Listen auf Folgejahresbuchungen achten.
+- text: Geleistete Anzahlungen an Lieferanten sind aktive Anzahlungen und dürfen nicht mit Kreditoren desselben Lieferanten verrechnet werden.
+  quelle: hwp-bur-2023__rz-0188-s202
+  zitat: Unter aktiven Anzahlungen werden geleistete Zahlungen für noch nicht oder erst teilweise erhaltene Lieferungen und Leistungen verstanden.
+- text: WP-gekennzeichnete Schritte (K1-302, K1-303) bereitet der Agent nur vor (Listen, Abgleiche); Beurteilung, Visum und Abschluss bleiben beim Wirtschaftsprüfer.
+fragen_kunde:
+- frage: Welches sind die Gründe für die alten, ungewöhnlich hohen und die Soll-Posten in der Kreditoren-OP-Liste per 31.12. (je Posten Kreditor, Beleg, Betrag)?
+  zweck: 'K1-101/K1-403/K1-406: Bestand, Vollständigkeit, Abgrenzung; schriftliche Antwort als Prüfungsnachweis'
+- frage: Worauf ist die Veränderung des Kreditorenbestands gegenüber dem Vorjahr zurückzuführen (Einkaufsvolumen, Zahlungsverhalten, Projekte)?
+  zweck: 'K1-102/K1-201: Erklärung wesentlicher Abweichungen'
+- frage: Wie wird sichergestellt, dass alle Eingangsrechnungen und erhaltenen, noch nicht fakturierten Lieferungen/Leistungen des Geschäftsjahres per Stichtag erfasst sind (Stichtagsregelung,
+    Abgrenzungen)?
+  zweck: 'K1-103/K1-302/K1-303: Vollständigkeit und Periodenabgrenzung'
+- frage: Bestehen Kreditoren gegenüber Aktionären, Organen oder Gesellschaften, an denen eine Beteiligung besteht bzw. die beteiligt sind? Zu welchen Konditionen?
+  zweck: 'K1-203/K1-402: gesonderter Ausweis Art. 959a Abs. 4 OR, Drittvergleich'
+- frage: Werden Kreditoren in Fremdwährung geführt, und welche Kurse wurden per 31.12. angewendet (Quelle)?
+  zweck: 'K1-202: Bewertung'
+- frage: Gibt es bestrittene Lieferantenrechnungen, Mängelrügen oder Streitigkeiten mit Lieferanten?
+  zweck: 'K1-320/K1-403: Bilanzierung oder Eventualverbindlichkeit'
+- frage: Wurden Waren unter Eigentumsvorbehalt bezogen oder Aktiven zur Sicherung von Lieferantenverbindlichkeiten verpfändet?
+  zweck: 'K1-320: Anhangsangabe Art. 959c Abs. 2 Ziff. 9 OR'
+- frage: Welche Rabatt-, Bonus- und Skontovereinbarungen bestehen, wie und auf welchen Konten werden Jahresboni und nachträgliche Gutschriften erfasst und abgegrenzt?
+  zweck: 'K1-409: Verkehr und Abgrenzung Einkaufspreisminderungen'
+- frage: Enthält die Position Kreditoren stille Reserven bzw. wurden solche im Geschäftsjahr gebildet oder aufgelöst (Berechnungsmethode)?
+  zweck: 'K1-321: Aufstellung stille Reserven'
+- frage: Liegen Lieferantenkontoauszüge/Saldomeldungen oder die Buchhaltung von Beteiligungsgesellschaften vor, die zur Abstimmung zur Verfügung gestellt werden können?
+  zweck: 'K1-401/K1-114: Abgleich mit intern verfügbaren Unterlagen'
+testakte_2025:
+- datei: H_Kreditoren/Kreditoren_OP_Liste_31.12.2025.md
+  bezug: 'OP-Liste per Stichtag: K1-101 (kritische Durchsicht), K1-203 (Namensabgleich Nahestehende), K1-301 (Total vs. Jahresrechnung), K1-403 (Altersstruktur), K1-405 (Auswahl für
+    Belegabgleich), K1-406 (Sollsalden)'
+- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
+  bezug: 'Eingangsrechnungen Folgeperiode: K1-302 (Rechnungen mit Leistung 2025), K1-303 (Lieferdaten um den Stichtag), K1-407'
+- datei: H_Kreditoren/Lieferantenrechnung_Teststein_2025-1187_Scan.md
+  bezug: 'Einzelbeleg (Scan mit Eingangsstempel, ohne Transkription – Original prüfen): K1-302, K1-405'
+- datei: H_Kreditoren/Saldobestaetigung_Lieferant_SolarTech_31.12.2025.md
+  bezug: 'Vorhandene Lieferantenbestätigung: K1-401 (Abgleich je Lieferant mit OP-Liste, nur als vorhandene Unterlage), K1-406 (Anzahlung), K1-302'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Salden Kreditorenkonten 2025/2024 und Einkaufs-/Materialaufwand: K1-102, K1-201, K1-301; Zuordnung Interimskonto Kreditoren; K1-409'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: Blatt «2000» (K1-301, K1-408), Blatt «2010» (K1-302, K1-409), Blatt «1012» (EUR-Zahlungen an Lieferanten, K1-202), Blatt «1192» (Anzahlungen, K1-406), Blatt «8510» (Lieferantenrabatte,
+    K1-409)
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'Blatt «2000 Kreditoren 2026»: Buchungen in neuer Rechnung für K1-302 und K1-407'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Bilanzposition Verbindlichkeiten aus L+L (K1-301), Anhang Nahestehende (K1-203, K1-320), Erläuterung a.o. Ertrag/Aufwand (K1-409, K1-320)
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'Organe, Geschäftsführung, Ansprechpersonen: K1-203 (Liste Nahestehende), K1-322'
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: 'Aktionäre als nahestehende Personen: K1-203'
+- datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
+  bezug: 'Beteiligungsgesellschaft (Tochter): K1-203, K1-402, K1-114 a) Abgleich mit Gegenbuchhaltung'
+- datei: C_Uebrige_kurzfristige_Forderungen/Anzahlungsrechnung_SolarTech_AZ-25-0388.md
+  bezug: 'Geleistete Anzahlung an Lieferanten: K1-406 (Sollsaldo/Verrechnung), K1-404'
+- datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
+  bezug: 'Bewertungskurs Fremdwährung per 31.12. als Referenz: K1-202'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1012_EUR_Dezember_2025.md
+  bezug: 'Devisenkurs per 31.12. und EUR-Lieferantenzahlungen: K1-202'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'Zahlungen an Lieferanten nach dem Stichtag: K1-407'
+- datei: D_Vorraete/Inventurprotokoll_31.12.2025.md
+  bezug: 'Stichtagsinventur, Lagersperre: K1-303, K1-404'
+- datei: D_Vorraete/Inventarliste_31.12.2025.md
+  bezug: 'Inventar per Stichtag für Abgleich mit Wareneingängen/Kreditoren: K1-303, K1-404'
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Projektliste_Angefangene_Arbeiten_31.12.2025.md
+  bezug: 'Projektkosten bis 31.12. (Fremdleistungen/Material): K1-404'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'Abgleich nicht erfasster Rechnungen mit passiven Abgrenzungen: K1-302; bestrittene Sachverhalte K1-320'
+schritte:
+- id: K1-101
+  vorgehen: 'Kreditoren-OP-Liste per 31.12. aus M-Files kritisch durchsehen: Posten mit Fälligkeit vor dem Stichtag (alt), ungewöhnlich hohe Posten (≥ Toleranzwesentlichkeit bzw. Vorgabe
+    WP) und Soll-Salden markieren. Schriftliche Kundenantworten auswerten; fehlen sie, je markiertem Posten Frage als Pendenz (Kreditor, Beleg, Betrag). Im Textfeld Auswahlkriterien,
+    Posten, Antworten und abgedeckte Prüfziele (EX, VO, PA) dokumentieren.'
+  nachweise:
+  - Kreditoren-OP-Liste 31.12.
+  - schriftliche Antworten der Finanzverantwortlichen
+  - Saldoliste
+  rechnen: Tage überfällig je Posten = 31.12. − Fälligkeitsdatum; Liste Posten ≥ Toleranzwesentlichkeit; Σ Sollsalden
+  feststellung_wenn: Alte oder ungewöhnlich hohe Posten bzw. Sollsalden ohne plausible schriftliche Begründung oder mit Hinweisen auf Bestreitung, Doppelerfassung oder nicht mehr geschuldete
+    Beträge.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Kritische Durchsicht der offenen Posten. Befragung über Gründe für alte, ungewöhnlich hohe Posten sowie Soll-Salden
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+- id: K1-102
+  vorgehen: Salden der Kreditorenkonten Geschäftsjahr/Vorjahr aus der Saldoliste gegenüberstellen und vorab eine Erwartung aus Einkaufs-/Materialaufwand und Geschäftsverlauf ableiten.
+    Wesentliche Abweichungen (über tolerierbarer Abweichung) als Frage an den Kunden (Pendenz) erfassen; schriftliche Antworten kritisch gegen Kenntnisse (Aufwand, Zahlungsverhalten,
+    Projekte) plausibilisieren und im Textfeld festhalten.
+  nachweise:
+  - Saldoliste 2025/2024
+  - Erfolgsrechnung (Material-/Fremdleistungsaufwand)
+  - schriftliche Antworten Kunde
+  rechnen: Δ = Saldo Kreditoren 31.12.2025 − Saldo 31.12.2024; Δ% = Δ / Saldo VJ; Abweichung zum Erwartungswert vs. tolerierbare Abweichung
+  feststellung_wenn: Wesentliche Abweichung ohne plausible Erklärung oder Erklärung widerspricht den übrigen Prüfungserkenntnissen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: ser-2022__6-1-1-t2
+    zitat: Insbesondere geht der Abschlussprüfer Diskrepanzen zu seinem Verständnis des geprüften Unternehmens und anderen nicht plausiblen Auskünften nach.
+- id: K1-103
+  vorgehen: Schriftliche Beschreibung des Rechnungseingangs und der Abschlussarbeiten auswerten (Erfassung nach Leistungsdatum, Behandlung erhaltener, nicht fakturierter Lieferungen,
+    Stichtagsregelung, Interimskonten); fehlt sie, Fragen als Pendenz. Aussagen mit Kontoblättern des Folgejahres und den passiven Abgrenzungen plausibilisieren (Verweis K1-302/K1-303).
+    Keine IKS-Prüfung; Ergebnis im Textfeld.
+  nachweise:
+  - Prozessbeschrieb/Antwort Kunde
+  - Kontoblätter Kreditoren Folgejahr
+  - Liste passive Abgrenzungen
+  rechnen: ''
+  feststellung_wenn: Kein Verfahren zur Stichtagsabgrenzung erkennbar oder Antwort steht im Widerspruch zu Buchungen in neuer Rechnung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
+  - quelle: ser-2022__4-3-4
+    zitat: Befragungen von Personen, die nicht an der Erstellung der Jahresrechnung beteiligt sind, analytische Prüfungshandlungen sowie die Prüfung von Ereignissen nach dem Bilanzstichtag
+- id: K1-201
+  vorgehen: Bestand der Verbindlichkeiten aus LuL (inkl. Unterkonten) mit dem Vorjahr vergleichen; ergänzend Kreditorenfrist beider Jahre berechnen. Erwartung vor dem Vergleich formulieren,
+    tolerierbare Abweichung aus der Toleranzwesentlichkeit ableiten. Ergebnis und Abweichungsanalyse im Textfeld; nicht plausible Abweichungen an K1-102 übergeben und mit Detailprüfungen
+    (K1-301 ff.) ergänzen.
+  nachweise:
+  - Saldoliste 2025/2024
+  - Jahresrechnung Vorjahr
+  - Erfolgsrechnung
+  rechnen: Δ = Kreditoren 2025 − Kreditoren 2024; Δ%; Kreditorenfrist (Tage) = Kreditoren / Material- und Fremdleistungsaufwand × 365 je Jahr; |Ist − Erwartung| ≤ tolerierbare Abweichung
+  feststellung_wenn: Veränderung oder Kreditorenfrist weicht wesentlich von der Erwartung ab und ist nicht erklärt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+  - quelle: ser-2022__6-1-2-t3
+    zitat: Bei wesentlichen Bilanzpositionen sind die analytischen Prüfungshandlungen in der Regel um angemessene Detailprüfungen zu ergänzen
+- id: K1-202
+  vorgehen: 'Fremdwährungskreditoren in OP-Liste und Hauptbuch identifizieren (Währung, FW-Betrag). Angewandten Umrechnungskurs je Posten mit dem Jahresendkurs aus Bankunterlagen (Kontoauszug,
+    Bankbestätigung per 31.12.) vergleichen und CHF-Wert nachrechnen. Keine FW-Kreditoren: im Textfeld «nicht anwendbar» mit Begründung festhalten.'
+  nachweise:
+  - OP-Liste mit Währungsangabe
+  - Kontoauszug/Bankbestätigung mit Devisenkurs 31.12.
+  - Kontoblätter FW-Konten
+  rechnen: CHF-Soll = FW-Betrag × Jahresendkurs; Differenz = CHF-Buchwert − CHF-Soll; Σ Differenzen je Währung vs. NAG
+  feststellung_wenn: Verwendeter Kurs weicht wesentlich vom Jahresendkurs ab bzw. Umrechnungsdifferenz über NAG oder Kurs nicht belegt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
+  - quelle: hwp-bur-2023__rz-0088-s077
+    zitat: bei Verpflichtungen der Briefkurs oder auch der durchschnittliche Devisenkurs des Bilanzstichtags
+- id: K1-203
+  vorgehen: 'Liste nahestehender Personen (Aktionäre gemäss Aktienbuch, VR/GL gemäss HR-Auszug, Beteiligungsgesellschaften) aus Dauerakte übernehmen bzw. erstellen und mit Kreditoren
+    in OP-Liste/Kreditorenstamm abgleichen (Name, Adresse). Treffer: gesonderten Ausweis in Bilanz oder Anhang prüfen und Konditionen plausibilisieren; fehlende Informationen als Pendenz.'
+  nachweise:
+  - Aktienbuch
+  - Handelsregisterauszug/Unternehmensinformationen
+  - OP-Liste Kreditoren
+  - Anhang Jahresrechnung
+  rechnen: Σ Kreditoren ggü. Nahestehenden = Σ OP-Posten mit Kreditor ∈ Liste Nahestehende; Abgleich mit Ausweis Bilanz/Anhang
+  feststellung_wenn: Kreditoren gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften ohne gesonderten Ausweis oder mit nicht marktüblichen Konditionen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung
+  - quelle: or__art-959a-t2
+    zitat: Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils
+      gesondert
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- id: K1-301
+  vorgehen: Total der Kreditoren-OP-Liste nachrechnen und mit Saldo Kreditorenkonto (Saldoliste, Kontoblatt) und Bilanzposition der Jahresrechnung abstimmen. Stichtag und Erstellungsdatum
+    der Liste prüfen (keine Folgejahresbuchungen). Ergebnis mit Beträgen und allfälliger Differenz im Textfeld dokumentieren.
+  nachweise:
+  - Kreditoren-OP-Liste 31.12.
+  - Saldoliste
+  - Kontoblatt Kreditoren
+  - Jahresrechnung (Bilanz)
+  rechnen: Σ Offen CHF (OP-Liste) = Saldo Kreditorenkonto (Hauptbuch/Saldoliste) = Bilanzposition Verbindlichkeiten aus LuL; Differenz = 0
+  feststellung_wenn: Nicht erklärte Differenz zwischen OP-Liste, Hauptbuch und Jahresrechnung oder OP-Liste nicht per Stichtag.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Abstimmung des Totals der Kreditoren-OP-Liste mit der Jahresrechnung
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- id: K1-302
+  vorgehen: 'Kreditorenjournal und Kontoblätter Kreditoren/Aufwand des Folgejahres bis Revisionsdatum sowie noch nicht verbuchte Rechnungen durchsehen; Rechnungen mit Liefer-/Leistungsdatum
+    ≤ 31.12. herausfiltern und prüfen, ob in OP-Liste, passiven Abgrenzungen oder Rückstellungen erfasst. WP-Schritt: Agent erstellt Abgleichsliste mit Summe, Beurteilung durch WP.'
+  nachweise:
+  - Kreditorenjournal Folgejahr
+  - Kontoblätter Folgejahr
+  - Lieferantenrechnungen
+  - Liste passive Abgrenzungen
+  rechnen: Σ Rechnungen Folgejahr mit Leistung ≤ 31.12.2025, die weder in OP-Liste noch in Abgrenzungen enthalten sind = mögliche Unterbewertung; Vergleich mit NAG/TW
+  feststellung_wenn: Rechnungen für im Geschäftsjahr erhaltene Lieferungen/Leistungen weder als Kreditor noch als Abgrenzung erfasst (Summe über NAG).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-2
+    zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen
+  - quelle: hwp-bur-2023__rz-0445-s250
+    zitat: Bereits erhaltene Lieferungen und Leistungen, die noch nicht fakturiert sind, stellen, auch wenn der Rechnungsbetrag bereits bestimmbar ist, Abgrenzungsposten dar
+  - quelle: ser-2022__4-3-6
+    zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
+- id: K1-303
+  vorgehen: 'Wareneingangsbelege/Lieferscheine kurz vor und nach dem Stichtag (Zeitraum gemäss Vorgabe WP) mit OP-Liste, Kreditorenjournal Folgejahr, Abgrenzungen und Inventar abgleichen:
+    Lieferung bis 31.12. → Verbindlichkeit/Abgrenzung im Geschäftsjahr; Lieferung danach → keine Erfassung. WP-Schritt: Agent stellt Abgleichstabelle bereit.'
+  nachweise:
+  - Wareneingangsbelege/Lieferscheine Dez./Jan.
+  - Kreditorenjournal Folgejahr
+  - Inventarliste
+  - OP-Liste
+  rechnen: 'Je Wareneingang: Lieferdatum ≤ 31.12. ⇒ Kreditor oder Abgrenzung per 31.12. erforderlich; Lieferdatum > 31.12. ⇒ keine Erfassung im Geschäftsjahr'
+  feststellung_wenn: Lieferungen vor dem Stichtag ohne Verbindlichkeit/Abgrenzung oder Lieferungen nach dem Stichtag im Geschäftsjahr passiviert (über NAG).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-2
+    zitat: Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Jahresende
+  - quelle: hwp-bur-2023__rz-0210-s206
+    zitat: Der Übergang von Nutzen und Gefahr ist für die Aktivierungsfähigkeit in der Regel ausschlaggebend
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+- id: K1-320
+  vorgehen: 'Ergebnisse des Prüffelds auf Anhangsangaben prüfen: gesonderter Ausweis Nahestehende (Art. 959a Abs. 4 OR), Aktiven unter Eigentumsvorbehalt, Eventualverbindlichkeiten aus
+    bestrittenen Rechnungen, Erläuterung ausserordentlicher/periodenfremder Positionen (z. B. Lieferantenrabatte, nachträgliche Rechnungen). Abgleich mit dem Anhang; Lücken als Wesentliche
+    Feststellung.'
+  nachweise:
+  - Anhang Jahresrechnung
+  - Ergebnisse K1-203, K1-403, K1-409
+  - Antworten Kunde zu Eigentumsvorbehalt/Bestreitungen
+  rechnen: ''
+  feststellung_wenn: Erforderliche Anhangsangabe (Nahestehende, Eigentumsvorbehalt, Eventualverbindlichkeit, a.o./periodenfremde Position) fehlt oder ist unvollständig.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s098-3
+    zitat: gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, in der Bilanz oder im Anhang ausgewiesen (Art. 959a Abs. 4 OR)
+  - quelle: ser-2022__anh-d-s097-1
+    zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: or__art-959c-t2
+    zitat: Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
+- id: K1-321
+  vorgehen: 'Aufstellung stille Reserven des Kunden beiziehen und Position Kreditoren prüfen: Bewertung zum Nennwert, keine Reserven über fiktive oder überhöhte Kreditoren. Bestand und
+    Veränderung der Position in die Gesamtaufstellung übernehmen; wesentliche Nettoauflösung für Anhang (Art. 959c Abs. 1 Ziff. 3 OR) an K1-320/Anhangsprüfung melden. Keine Reserven:
+    «keine» dokumentieren.'
+  nachweise:
+  - Aufstellung stille Reserven
+  - Ergebnisse K1-301/K1-405
+  rechnen: Veränderung = Bestand stille Reserven Kreditoren 31.12.2025 − 31.12.2024; Übertrag in Gesamtaufstellung
+  feststellung_wenn: Stille Reserven in den Kreditoren (fiktive oder überhöhte Verbindlichkeiten) oder wesentliche Nettoauflösung ohne Anhangsangabe.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0669-s296
+    zitat: Diese Formen der Bildung von stillen Reserven schliessen es unter anderem aus, Aktiven wegzulassen und fiktive Verbindlichkeiten zu bilanzieren.
+  - quelle: ser-2022__anh-d-s097-2
+    zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- id: K1-322
+  vorgehen: 'Dauerakte zum Prüffeld prüfen und aktualisieren: Rahmen-/Lieferverträge mit Hauptlieferanten (Konditionen, Boni, Eigentumsvorbehalt), Liste nahestehender Personen/Beteiligungen,
+    Beschrieb Kreditorenprozess. Neue oder geänderte Dokumente aus M-Files verknüpfen, Fehlendes als Pendenz; im Textfeld Stand und Änderungen festhalten.'
+  nachweise:
+  - Dauerakte
+  - Lieferverträge
+  - Liste Nahestehende
+  rechnen: ''
+  feststellung_wenn: Wesentliche mehrjährige Verträge oder die Liste Nahestehender fehlen bzw. sind veraltet (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__7-3
+    zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
+- id: K1-401
+  vorgehen: 'Einholen von Kreditorenbestätigungen geht über die eingeschränkte Revision hinaus: Agent holt nichts ein und versendet nichts; nur auf ausdrückliche Anweisung des WP vorbereiten.
+    Liegen beim Kunden bereits Lieferantenkontoauszüge/Saldomeldungen vor, diese je Lieferant mit der OP-Liste abgleichen. Im Textfeld «nicht durchgeführt – über ER hinausgehend» bzw.
+    Ergebnis des Abgleichs.'
+  nachweise:
+  - vorhandene Lieferantenkontoauszüge/Saldomeldungen
+  - OP-Liste Kreditoren
+  rechnen: 'Je Lieferant: Saldo gemäss Lieferantenauszug − Saldo OP-Liste = Differenz; Differenzen nach Ursache (Zahlung unterwegs, nicht erfasste Rechnung, Anzahlung) erklären'
+  feststellung_wenn: Vorhandene Lieferantenbestätigung zeigt nicht erfasste Rechnungen oder nicht erklärte Differenzen über NAG.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s084-2
+    zitat: Einholen von Kreditorenbestätigungen
+  - quelle: hwp-er-2026__rz-0262-s085
+    zitat: verlangt die eingeschränkte Revision von der Revisionsstelle weder das Einholen von Debitoren- und Kreditorenbestätigungen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+- id: K1-402
+  vorgehen: 'Sammelschritt zu K1-114: Aus K1-203 die Kreditoren gegenüber beteiligten Unternehmen und Beteiligungsgesellschaften übernehmen und je Gegenpartei Saldo per 31.12. auflisten;
+    Abstimmungsweg unter K1-114 dokumentieren. Kennzeichnung «?» im Katalog unklar: Zuständigkeit (EP/WP) beim WP als Pendenz klären.'
+  nachweise:
+  - Ergebnis K1-203
+  - OP-Liste/Kontoblätter Kreditoren
+  rechnen: 'Liste je Gegenpartei: Saldo Kreditor 31.12.2025'
+  feststellung_wenn: Kreditoren gegenüber Beteiligungen/beteiligten Unternehmen ohne Nachweis oder ohne gesonderten Ausweis.
+  fundstellen:
+  - quelle: or__art-959a-t2
+    zitat: Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils
+      gesondert
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Feststellung von Transaktionen mit nahestehenden Personen mittels Befragung (Prüfungsziel «Vorhandensein»)
+- id: K1-114
+  vorgehen: 'a) Liegt die Buchhaltung oder Jahresrechnung der Gegenpartei (z. B. Tochtergesellschaft) beim Kunden vor, reziproke Salden per 31.12. abgleichen (Kreditor hier = Forderung
+    dort) und Differenzen klären lassen. b) Saldobestätigungen Dritter gehören nicht zur eingeschränkten Revision: nur auf Anweisung WP, sonst vorhandene Unterlagen verwenden. Ergebnis
+    je Gegenpartei im Textfeld.'
+  nachweise:
+  - Jahresrechnung/Saldenliste der Gegenpartei
+  - OP-Liste Kreditoren
+  - allenfalls vorhandene Bestätigungen
+  rechnen: Saldo Kreditor (Gesellschaft) − Saldo Forderung (Gegenpartei, gleicher Stichtag/Währung) = Differenz; Differenz = 0 oder erklärt (Rechnungen/Zahlungen unterwegs)
+  feststellung_wenn: Nicht erklärte Differenz zwischen reziproken Salden oder Gegenpartei weist Forderungen aus, die nicht passiviert sind.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0262-s085
+    zitat: Die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen.
+  - quelle: hwp-or-2024__rz-0923-s360-t1
+    zitat: Abgleich der bilanzierten Salden mit der Gegenbuchhaltung
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen
+- id: K1-403
+  vorgehen: 'OP-Liste nach Fälligkeit in Altersklassen gliedern (nicht fällig, 1–30, 31–90, über 90 Tage überfällig) und mit Vorjahr vergleichen. Stark überfällige Posten hinterfragen:
+    Bestreitung (Bilanzierung/Eventualverbindlichkeit), Liquiditätsengpass (Hinweis Fortführung), nicht mehr geschuldete Posten. Fragen als Pendenz (Verknüpfung K1-101); Ergebnis im
+    Textfeld.'
+  nachweise:
+  - Kreditoren-OP-Liste 31.12. (Fälligkeiten)
+  - OP-Liste Vorjahr
+  - Antworten Kunde
+  rechnen: Tage überfällig = 31.12.2025 − Fälligkeitsdatum; Σ je Altersklasse; Anteil überfällig = Σ überfällig / Total OP
+  feststellung_wenn: Wesentlicher Anteil überfälliger Kreditoren, alte bestrittene Posten ohne Beurteilung oder alte Posten ohne Rechtsgrund weitergeführt bzw. ausgebucht.
+  fundstellen:
+  - quelle: ser-2022__anh-g-s138-2
+    zitat: überzogene Zahlungsfristen für Kreditoren
+  - quelle: hwp-bur-2023__rz-0448-s250
+    zitat: Bestrittene Verbindlichkeiten sind, sofern sie nicht offensichtlich unberechtigt sind, zu bilanzieren oder als Eventualverbindlichkeiten im Anhang auszuweisen
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Kritische Durchsicht der offenen Posten. Befragung über Gründe für alte, ungewöhnlich hohe Posten sowie Soll-Salden
+- id: K1-404
+  vorgehen: 'Für Lieferungen um den Stichtag Konsistenz zwischen Wareneingang, Inventar/angefangenen Arbeiten und Kreditoren prüfen: Ware im Inventar bzw. Material auf Projekten per
+    31.12. → zugehörige Rechnung als Kreditor oder Abgrenzung; Rechnung ohne Wareneingang → Anzahlung/Abgrenzung. Massgebend ist der Übergang von Nutzen und Gefahr. Ergebnisse mit den
+    Prüffeldern Vorräte/angefangene Arbeiten abstimmen.'
+  nachweise:
+  - Inventarliste/Inventurprotokoll 31.12.
+  - Projektliste angefangene Arbeiten
+  - Wareneingangsbelege
+  - OP-Liste/Kreditorenjournal Folgejahr
+  rechnen: 'Je Stichtagslieferung: (im Inventar/Projekt per 31.12.) ⇔ (Kreditor oder Abgrenzung per 31.12.); Σ Inkonsistenzen vs. NAG'
+  feststellung_wenn: Ware im Inventar/Projekt ohne korrespondierende Verbindlichkeit/Abgrenzung oder umgekehrt (über NAG).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende des Geschäftsjahres
+  - quelle: hwp-bur-2023__rz-0211-s206
+    zitat: Der konkrete Zeitpunkt des Übergangs von Nutzen und Gefahr ist aufgrund der vertraglichen Grundlagen zu bestimmen
+- id: K1-405
+  vorgehen: 'Wesentliche OP-Posten (Auswahl nach Betrag/Risiko bzw. Vorgabe WP, keine repräsentative Stichprobe) mit den Lieferantenrechnungen in M-Files abgleichen: Lieferant, Rechnungsnummer,
+    Datum, Leistungszeitraum, Betrag/Währung, Empfänger = Gesellschaft, Kontierung; Doppelerfassungen prüfen. Fehlende Rechnungen als Pendenz (Kreditor, Beleg, Betrag); Abdeckung im
+    Textfeld.'
+  nachweise:
+  - Kreditoren-OP-Liste 31.12.
+  - Lieferantenrechnungen
+  rechnen: 'Je Posten: Betrag OP-Liste − Rechnungsbetrag (abzüglich Teilzahlungen/Gutschriften) = 0; Abdeckung = Σ geprüfte Posten / Total OP'
+  feststellung_wenn: Rechnung fehlt, lautet nicht auf die Gesellschaft, Betrag/Datum weicht ab, Leistung nicht im Geschäftsjahr oder Doppelerfassung.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: ser-2022__6-1-3
+    zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+  - quelle: ser-2022__4-3-2
+    zitat: Bilanzierte Verpflichtungen müssen solche des Unternehmens (und nicht z. B. des Eigentümers) sein.
+- id: K1-406
+  vorgehen: OP-Liste bzw. Kreditorensaldi je Lieferant auf Soll-Salden (Gutschriften, Anzahlungen, Doppelzahlungen) durchsuchen und Summe ermitteln. Prüfen, ob wesentliche Sollsalden
+    in die übrigen kurzfristigen Forderungen (bzw. geleistete Anzahlungen) umgegliedert sind. Fehlende Umgliederung als Wesentliche Feststellung mit Buchungsvorschlag (keine Verbuchung).
+  nachweise:
+  - Kreditoren-OP-Liste/Saldenliste je Lieferant
+  - Kontoblatt geleistete Anzahlungen
+  rechnen: Σ Sollsalden je Lieferant; Kreditoren brutto = Kreditoren netto + Σ Sollsalden; Umgliederungsbedarf, falls Σ wesentlich
+  feststellung_wenn: Wesentliche Sollsalden mit Habensalden verrechnet oder nicht als übrige kurzfristige Forderungen ausgewiesen.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0450-s251
+    zitat: Wesentliche Sollsalden sind in den übrigen kurzfristigen Forderungen zu bilanzieren.
+  - quelle: hwp-bur-2023__rz-0155-s192
+    zitat: Sollsalden aus den Verbindlichkeiten aus Lieferungen und Leistungen sind als übrige kurzfristige Forderungen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- id: K1-407
+  vorgehen: 'Aktuelle OP-Liste (Stand Revisionsdatum) einsehen und mit der OP-Liste per 31.12. vergleichen: bezahlte Stichtagsposten (Bestätigung von Bestand und Höhe, Zahlungen mit
+    Bankauszug Folgejahr plausibilisieren), noch offene Posten (Gründe → K1-101/K1-403) und neue Posten mit Leistung im Geschäftsjahr (Vollständigkeit) identifizieren.'
+  nachweise:
+  - aktuelle OP-Liste Kreditoren
+  - OP-Liste 31.12.
+  - Bankauszüge Folgejahr
+  - Kontoblatt Kreditoren Folgejahr
+  rechnen: Bezahlt seit Stichtag = Σ OP 31.12. nicht mehr offen; Quote = bezahlt / Total OP 31.12.; Σ neue Posten mit Leistung ≤ 31.12.2025
+  feststellung_wenn: Neue Posten mit Leistung im Geschäftsjahr nicht passiviert oder Stichtagsposten ohne Zahlung und ohne plausible Erklärung.
+  fundstellen:
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Hinweise zu den Ereignissen nach dem Bilanzstichtag zu erhalten
+  - quelle: ser-2022__4-3-4
+    zitat: Befragungen von Personen, die nicht an der Erstellung der Jahresrechnung beteiligt sind, analytische Prüfungshandlungen sowie die Prüfung von Ereignissen nach dem Bilanzstichtag
+- id: K1-408
+  vorgehen: 'Kontoblätter des Kreditorenkontos und der Einkaufs-/Material-/Fremdleistungskonten kritisch durchsehen: manuelle Direktbuchungen, ungewöhnliche Gegenkonten, Sammel- und
+    Korrekturbuchungen, Buchungen um den Stichtag, Stornos, runde oder hohe Beträge. Auffällige Buchungen anhand Belegen in M-Files prüfen oder als Pendenz erfassen; Auswahl und Ergebnis
+    im Textfeld.'
+  nachweise:
+  - Kontoblatt Kreditoren
+  - Kontoblätter Einkauf/Material/Fremdleistungen
+  - Belege zu auffälligen Buchungen
+  rechnen: Eröffnungssaldo + Σ Haben − Σ Soll = Schlusssaldo = Saldoliste; Liste Buchungen > NAG bzw. mit ungewöhnlichem Gegenkonto
+  feststellung_wenn: Buchungen ohne Beleg, mit sachfremdem Gegenkonto oder falscher Periode, oder Kontoblatt nicht mit Saldoliste übereinstimmend.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Hauptbuch und Buchungsjournale
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand
+- id: K1-409
+  vorgehen: Konten für Einkaufspreisminderungen (Rabatte, Boni, Skonti, Gutschriften) mit Vorjahr analysieren. Bonusvereinbarungen der Hauptlieferanten einsehen und Jahresboni/Rückvergütungen
+    für das Geschäftsjahr auf Abgrenzung und Ausweis (Minderung Materialaufwand, nicht a.o. Ertrag) prüfen; Gutschriften des Folgejahres auf das Geschäftsjahr betreffende Posten durchsehen.
+  nachweise:
+  - Kontoblätter Einkaufspreisminderungen/Skonti
+  - Bonus-/Rabattvereinbarungen
+  - Gutschriften Folgejahr
+  - Erfolgsrechnung
+  rechnen: Erwarteter Bonus = bonusberechtigter Einkauf × Bonussatz gemäss Vertrag; Differenz zu gebuchtem Betrag/Abgrenzung; Skontoquote = Skonti / Einkäufe (Vergleich VJ)
+  feststellung_wenn: Boni/Rabatte des Geschäftsjahres nicht abgegrenzt, im falschen Jahr erfasst oder ausserhalb des Materialaufwands ausgewiesen (über NAG).
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0756-s319
+    zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
+  - quelle: hwp-bur-2023__rz-0218-s207
+    zitat: gekürzt um Rabatte aller Art, einschliesslich der erst am Jahresende gewährten Treue- oder Mengenrabatte
+  - quelle: hwp-or-2024__rz-0943-s366
+    zitat: Prüfung von Rückvergütungen durch Abgleich mit geeigneten Unterlagen

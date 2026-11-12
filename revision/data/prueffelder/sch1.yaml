@@ -1,0 +1,493 @@
+# Prüffeld SCH1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: SCH1
+bezeichnung: Betrieblicher Ertrag
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 14
+    korrigiert: false
+kurzbeschrieb: 'Nettoerlöse aus Lieferungen und Leistungen inkl. Erlösminderungen und Bestandesänderungen sowie Abgrenzung zu Finanz-, betriebsfremdem und a.o. Ertrag. ER-Prüfung: Befragung
+  zu Umsatzerfassung und Cut-off, Vorjahres-, Margen- und Budgetanalytik, Belegabstimmung, Cut-off-Einsicht (WP), Gliederung nach Art. 959b OR; JET nur auf WP-Anweisung, Drittbestätigungen
+  nicht Bestandteil der ER.'
+gesetz:
+- thema: Zeitliche und sachliche Abgrenzung von Aufwand und Ertrag (Cut-off)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: 'Erleichterung: Verzicht auf zeitliche Abgrenzung bei kleinen Nettoerlösen/Finanzerträgen'
+  quelle: or__art-958b
+  zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten
+- thema: Vollständige Erfassung und Belegnachweis (Grundsätze ordnungsmässiger Buchführung)
+  quelle: or__art-957a
+  zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+- thema: Vollständige, wahrheitsgetreue Erfassung der Geschäftsvorfälle
+  quelle: or__art-957a
+  zitat: die vollständige, wahrheitsgetreue und systematische Erfassung der Geschäftsvorfälle und Sachverhalte
+- thema: Verrechnungsverbot Aufwand/Ertrag (Bruttoprinzip)
+  quelle: or__art-958c
+  zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+- thema: Vorsichtsprinzip (Realisationszeitpunkt Umsatz)
+  quelle: or__art-958c
+  zitat: Sie muss vorsichtig sein.
+- thema: Mindestgliederung Produktionserfolgsrechnung (Art. 959b Abs. 2 OR)
+  quelle: or__art-959b-t1
+  zitat: In der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- thema: Mindestgliederung Absatzerfolgsrechnung (Art. 959b Abs. 3 OR)
+  quelle: or__art-959b-t1
+  zitat: In der Absatzerfolgsrechnung (Umsatzkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- thema: 'Absatzerfolgsrechnung: Personalaufwand und Abschreibungen im Anhang (Art. 959b Abs. 4 OR)'
+  quelle: or__art-959b-t2
+  zitat: Bei der Absatzerfolgsrechnung müssen im Anhang zudem der Personalaufwand sowie in einer Position Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen
+    werden.
+- thema: Zusätzliche Positionen, wenn für Beurteilung der Ertragslage wesentlich (Art. 959b Abs. 5 OR)
+  quelle: or__art-959b-t2
+  zitat: Weitere Positionen müssen in der Erfolgsrechnung oder im Anhang einzeln ausgewiesen werden, sofern dies für die Beurteilung der Ertragslage durch Dritte wesentlich
+- thema: 'Anhang: angewandte Grundsätze (u.a. Umsatzerfassung)'
+  quelle: or__art-959c-t1
+  zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+- thema: 'Anhang: Erläuterung ausserordentlicher, einmaliger oder periodenfremder Erträge'
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+risiken:
+- text: Umsatz vor Erfüllung der Leistungsverpflichtung erfasst (z.B. Fakturierung vor Lieferung/Abnahme, Akonto- oder Vorauszahlungsrechnungen als Ertrag).
+  pruefziele:
+  - EN
+  - PA
+  quelle: hwp-bur-2023__rz-0743-s314-t2
+  zitat: erst mit dem Erfüllen der jeweiligen vertraglichen Leistungsverpflichtung dem Unternehmen ein Anspruch auf Gegenleistung
+- text: 'Cut-off: im Berichtsjahr erbrachte Leistungen erst im Folgejahr fakturiert/gebucht oder umgekehrt.'
+  pruefziele:
+  - VO
+  - PA
+  quelle: ser-2022__4-3-6
+  zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
+- text: Gutschriften, Nachlässe oder Ausbuchungen nach dem Stichtag mit Ursache im Berichtsjahr nicht als Erlösminderung erfasst.
+  pruefziele:
+  - BE
+  - PA
+  quelle: ser-2022__anh-d-s076-1
+  zitat: Befragung, ob nach dem Bilanzstichtag grosse Nachlässe auf Umsatzerlösen gewährt und, wenn ja, ob diese korrekt erfasst worden sind
+- text: Nettoerlöse brutto inkl. MWST gebucht oder mit Aufwand verrechnet (z.B. Provisionen, Versandkosten abgezogen).
+  pruefziele:
+  - RI
+  - DO
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Umsatzsteuern wie die Mehrwertsteuer sind nicht als Umsatz auszuweisen
+- text: 'Fehlklassierung: betriebsfremde Nebenerlöse im Betriebsertrag bzw. betriebliche Erträge/Erlösminderungen als ausserordentlich ausgewiesen.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Nebenerlöse, welche nicht direkt mit dem primären Unternehmenszweck in Zusammenhang stehen, sind separat unter dem betriebsfremden Ertrag auszuweisen
+- text: 'Langfristige Aufträge: zu frühe oder zu hohe Gewinnrealisierung, Bestandesänderung falsch ermittelt oder im Nettoerlös ausgewiesen.'
+  pruefziele:
+  - BE
+  - PA
+  - DO
+  quelle: hwp-bur-2023__rz-0748-s316-t2
+  zitat: Dabei hat die Gewinnermittlung zurückhaltend zu erfolgen.
+- text: Umsätze mit nahestehenden Personen nicht zu marktüblichen Bedingungen oder nicht erkennbar.
+  pruefziele:
+  - EN
+  - BE
+  - DO
+  quelle: hwp-er-2026__rz-0157-s211
+  zitat: Transaktionen mit nahestehenden Personen möglicherweise nicht zu marktüblichen Bedingungen abgewickelt werden
+- text: Vermittlungsgeschäfte brutto statt nur mit Kommissionsertrag als Umsatz ausgewiesen.
+  pruefziele:
+  - DO
+  - RI
+  quelle: hwp-bur-2023__rz-0744-s314-t2
+  zitat: Für Vermittlungsgeschäfte wird lediglich der Kommissionsertrag als Umsatz ausgewiesen.
+- text: Erwartete Erlösminderungen (Rabatte, Retouren, variable Preisbestandteile) nicht geschätzt bzw. unsichere Erlösbestandteile zu früh erfasst.
+  pruefziele:
+  - BE
+  - EN
+  quelle: hwp-bur-2023__rz-0744-s314-t1
+  zitat: Zu erwartende Erlösminderungen sind angemessen zu schätzen und in Abzug zu bringen.
+unterlagen:
+- dokument: Saldoliste bzw. Erfolgsrechnung 2025 mit Vorjahreszahlen
+  zweck: Saldovergleich, Gliederung, Basis für SCH1-102/201/202/304/305
+  quelle: hwp-er-2026__rz-0107-s198
+  zitat: als Prüfungshandlungen zur Risikobeurteilung (vgl. SER, Ziff. 3; z.B. Vergleich der aktuellen Erfolgsrechnungspositionen mit jenen des Vorjahres)
+- dokument: Kontoblätter aller Ertrags- und Erlösminderungskonten (3xxx) 2025 sowie Buchungsjournal
+  zweck: Kritische Durchsicht, Belegauswahl, JET/Gegenkonten (SCH1-202b, 301, 302, 401, 155)
+  quelle: hwp-er-2026__rz-0124-s202
+  zitat: bestimmte Aufwands- oder Ertragskonten;
+- dokument: Umsatz- und Margenstatistik je Produktkategorie/Sparte (2025 und Vorjahr), Budget/Hochrechnung
+  zweck: Margen- und Budgetvergleich (SCH1-201, 202c/d)
+  quelle: ser-2022__anh-d-s092-1
+  zitat: Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr; Besprechung wesentlicher Abweichungen
+- dokument: Fakturajournal Dezember 2025 und Januar/Februar 2026 inkl. Gutschriften; Kontoblätter Ertrag/Debitoren Folgejahr
+  zweck: Cut-off und Durchsicht in neuer Rechnung (SCH1-302, 303)
+  quelle: ser-2022__anh-d-s075-2
+  zitat: Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+- dokument: Ausgangsrechnungen, Lieferscheine, Arbeitsrapporte, Abnahme-/Inbetriebnahmeprotokolle um den Stichtag
+  zweck: Belegabstimmung und Periodenzuordnung (SCH1-301, 303)
+  quelle: ser-2022__anh-d-s092-1
+  zitat: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+- dokument: MWST-Abrechnungen 2025 und MWST-Umsatzabstimmung
+  zweck: Abstimmung deklarierter Umsatz mit Ertragskonten (SCH1-202e, 301)
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der MWST-Abrechnungen mit den Konti und/oder der Umsatzabstimmung
+- dokument: Wesentliche Kundenverträge, Werk-/Rahmenverträge, Liefervereinbarungen (Preise, Rabatte, Abnahme, Zahlungsplan)
+  zweck: Realisationszeitpunkt, Erlösminderungen, Akontoregelungen (SCH1-101, 301, 303)
+  quelle: hwp-er-2026__rz-0119-s201
+  zitat: Kundendossiers, Korrespondenzen mit Rechtsanwälten, Kaufverträge, langfristige Liefervereinbarungen
+- dokument: Projektliste/Bewertung angefangene Arbeiten bzw. langfristige Aufträge per 31.12.
+  zweck: Bestandesänderung und Abgrenzung Ertrag vs. angefangene Arbeiten (SCH1-202, 303, 305)
+  quelle: hwp-bur-2023__rz-0747-s315
+  zitat: In der Schweizer Rechnungslegungspraxis hat sich ein Wahlrecht zur Verwendung folgender Methoden herausgebildet
+- dokument: Buchungsjournal-Export mit Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung (nur falls JET vom WP angeordnet)
+  zweck: Filter a)–k) (SCH1-401, 155)
+- dokument: Allfällige beim Kunden bereits vorhandene Abrechnungen/Bestätigungen Dritter (z.B. Plattform-, Netzbetreiber-, Kommissionsabrechnungen)
+  zweck: Interne Abstimmung statt Drittbestätigung (SCH1-402)
+  quelle: ser-2022__1-5
+  zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt – die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen
+bewertung:
+- regel: Umsatzrealisation, sobald die Leistungsverpflichtung so weit erfüllt ist, dass ein Entschädigungsanspruch rechtlich durchsetzbar ist.
+  quelle: hwp-bur-2023__rz-0745-s315
+  zitat: so weit abgewickelt ist, dass das erbringende Unternehmen einen Entschädigungsanspruch rechtlich durchsetzen kann
+- regel: 'Handelswaren: Umsatzerfassung bei Übergang von Nutzen und Gefahr; in einfachen Verhältnissen Zustellung und Rechnungsstellung.'
+  quelle: hwp-bur-2023__rz-0746-s315
+  zitat: Bei Warenlieferungen von Handelswaren erfolgt die Umsatzerfassung mit dem Übergang von Nutzen und Gefahr
+- regel: 'Langfristige Aufträge: Wahlrecht POCM, modifizierte POCM oder CCM; sich abzeichnende Verluste sofort vollumfänglich zurückstellen.'
+  quelle: hwp-bur-2023__rz-0747-s315
+  zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich zurückzustellen.
+- regel: Nettoerlös = Bruttoerlös abzüglich Erlösminderungen; keine Kürzung um anderen Aufwand.
+  quelle: hwp-bur-2023__rz-0230-s114
+  zitat: Es ist nicht zulässig, die Nettoerlöse mit anderem Aufwand zur Erzielung des Umsatzes zu verkürzen
+- regel: Nur Erlösminderungen im engeren Sinn (Rabatte, Skonti, Rückvergütungen) abziehen; Versandspesen/Vertreterprovisionen sind Vertriebsaufwand.
+  quelle: hwp-bur-2023__rz-0750-s317-t1
+  zitat: Nur Erlösminderungen im engeren Sinne sind vom Bruttoerlös abzugsfähig
+- regel: MWST ist kein Umsatz (Ertrag netto exkl. MWST).
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Umsatzsteuern wie die Mehrwertsteuer sind nicht als Umsatz auszuweisen
+- regel: Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen separat, nicht im Nettoerlös.
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Sie sind nicht Teil des Nettoerlöses
+- regel: Nettoerlöse = Erlöse aus der gewöhnlichen Geschäftstätigkeit; übrige Nebenerlöse als betriebsfremder Ertrag.
+  quelle: hwp-bur-2023__rz-0742-s313
+  zitat: diejenigen Erlöse zu betrachten, die aus der gewöhnlichen Geschäftstätigkeit eines Unternehmens resultieren
+- regel: Erwartete Erlösminderungen schätzen und abziehen; nicht gesicherte (variable) Erlösbestandteile erst bei hinreichender Sicherheit erfassen.
+  quelle: hwp-bur-2023__rz-0744-s314-t1
+  zitat: nicht gesicherte Erlösbestandteile wie variable Preisbestandteile
+- regel: Anzahlungsrechnungen mit reinem Vorauszahlungscharakter sind weder Forderung LuL noch Umsatz; Bilanzierung erst bei Zahlung.
+  quelle: hwp-bur-2023__rz-0109-s185
+  zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
+- regel: Erfolgswirksame Vorgänge über die Erfolgsrechnung buchen, nicht direkt auf Bilanzkonten (keine Umgehung der ER).
+  quelle: hwp-bur-2023__rz-0741-s313-t1
+  zitat: Grundsätzlich sind erfolgswirksame Vorgänge in der Erfolgsrechnung zu erfassen.
+- regel: Ereignisse nach dem Stichtag mit Ursache vor dem Stichtag (z.B. Gutschrift für Mängel an Leistungen des Berichtsjahres) sind im Berichtsjahr zu buchen.
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: Besteht die Ursache für ein Ereignis bereits am Bilanzstichtag, so ist das Ereignis in der Jahresrechnung des abgelaufenen Geschäftsjahres buchungspflichtig
+- regel: Wesentliche übrige Erträge sachgerecht aufgliedern, nicht als «Übriger Ertrag» zusammenfassen.
+  quelle: hwp-bur-2023__rz-0752-s318-t2
+  zitat: Es würde beispielsweise diesen Grundsätzen widersprechen, einen wesentlichen Teil des Gesamtertrags unter der wenig aussagekräftigen Bezeichnung «Übriger Ertrag» auszuweisen.
+- regel: 'Anhang: Grundsätze der Umsatzerfassung offenlegen, sofern für das Verständnis relevant.'
+  quelle: hwp-bur-2023__rz-0750-s317-t2
+  zitat: Im Anhang der Jahresrechnung sind die für die Umsatzerfassung angewandten Rechnungslegungsgrundsätze
+fallstricke:
+- text: 'SCH1-402: Drittbestätigungen (Umsatz- oder Debitorenbestätigungen) sind nicht Bestandteil der eingeschränkten Revision; der Agent holt keine ein und muss das Weglassen nicht
+    begründen.'
+  quelle: ser-2022__6-2-6
+  zitat: Der Abschlussprüfer muss deshalb nicht begründen, weshalb er diese Prüfungshandlungen nicht durchführt.
+- text: 'SCH1-401 JET: In der ER wird das Risiko deliktischer Handlungen nicht berücksichtigt; JET-Treffer nur als Hinweise der kritischen Durchsicht dokumentieren, keine Aussagen zu
+    Delikten.'
+  quelle: hwp-er-2026__rz-0012-s180
+  zitat: Bei der eingeschränkten Revision wird das Risiko deliktischer Handlungen nicht berücksichtigt
+- text: Vorjahres- und Margenvergleiche können durch Bildung/Auflösung stiller Reserven verzerrt sein; Zahlen vor der Analyse bereinigen.
+  quelle: hwp-er-2026__rz-0110-s199
+  zitat: dass in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden, und bereinigt die Zahlen entsprechend
+- text: 'Der Ertrag ist meist wesentlich: Befragungen allein genügen nicht, sie sind mit Analytik und/oder Detailprüfungen zu ergänzen.'
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: Per 31.12. gebuchte Akonto-/Vorausrechnungen (teilweise mit Rechnungsdatum im Folgejahr) für noch nicht erbrachte Leistungen sind kein Umsatz des Berichtsjahres.
+  quelle: hwp-bur-2023__rz-0109-s185
+  zitat: die reinen Vorauszahlungscharakter haben, weil noch keine Lieferungen und Leistungen erbracht worden sind
+- text: Gutschriften und Ausbuchungen in neuer Rechnung, die Fakturen des Berichtsjahres betreffen, werden leicht übersehen; Erlös- und Erlösminderungskonten der Folgeperiode durchsehen.
+  quelle: ser-2022__anh-d-s075-2
+  zitat: Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+- text: Fakturen werden über das Debitorenkonto oft brutto inkl. MWST erfasst; bei Direktbuchung auf Ertragskonten prüfen, ob die MWST ausgeschieden wurde (Abgleich mit MWST-Abrechnung).
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der MWST-Abrechnungen mit den Konti und/oder der Umsatzabstimmung
+- text: Bestandesänderungen (z.B. angefangene Arbeiten) im Total «Betrieblicher Ertrag» bzw. Nettoerlös ausgewiesen statt als eigene Mindestposition.
+  quelle: or__art-959b-t1
+  zitat: Nettoerlöse aus Lieferungen und Leistungen;
+- text: Einkaufsrabatte, Lieferantengutschriften oder Erlöse aus Anlageverkäufen werden als ausserordentlicher Ertrag ausgewiesen; Klassierung und Anhangserläuterung prüfen (Aufwandsminderung
+    bzw. Gewinn aus Anlageverkauf).
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- text: SCH1-303 ist als WP-Schritt gekennzeichnet; ob der Agent WP-Schritte vorbereiten darf, ist ein offener Entscheid. Bis zur Klärung nur Arbeitsliste vorbereiten, keine Würdigung.
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- text: 'Analytik ist eine indirekte Prüfung: Plausibilität genügt, keine exakte Übereinstimmung erwarten; tolerierbare Abweichung vorab festlegen.'
+  quelle: hwp-er-2026__rz-0108-s198
+  zitat: Dabei wird keine exakte Übereinstimmung der geprüften Daten mit den zur Verfügung stehenden Vergleichsgrössen angestrebt
+fragen_kunde:
+- frage: 'Nach welchen Grundsätzen erfassen Sie Umsätze (Zeitpunkt: Lieferung, Montageende, Abnahme oder Fakturierung)? Wie werden Akonto-/Teilrechnungen, langfristige Aufträge (POCM/CCM),
+    Rabatte/Skonti und die MWST verbucht?'
+  zweck: SCH1-101 Grundsätze Umsatzerfassung (EN, PA); Pendenz bis schriftliche Antwort vorliegt
+- frage: Wie stellen Sie per 31.12. die zeitliche Abgrenzung von Umsätzen und Waren-/Materialaufwand sicher (im Dezember erbrachte, aber erst im Januar fakturierte Leistungen; im Dezember
+    fakturierte Leistungen des Folgejahres)?
+  zweck: SCH1-101/303 Cut-off (VO, PA)
+- frage: Bitte erläutern Sie die in der beiliegenden Liste markierten Abweichungen der Ertragskonten gegenüber Vorjahr bzw. Budget.
+  zweck: SCH1-102/202 Ursachen wesentlicher Abweichungen
+- frage: Wie haben sich Umsätze und Bruttomargen je Produktkategorie (z.B. Anlagenbau, Service, Dienstleistungen, Handel) gegenüber dem Vorjahr entwickelt und weshalb?
+  zweck: SCH1-201 Margenvergleich; Plausibilisierung Vollständigkeit/Bewertung
+- frage: Wurden nach dem Bilanzstichtag Gutschriften, Preisnachlässe, Kulanzleistungen oder Forderungsausbuchungen für Leistungen des Berichtsjahres gewährt oder sind solche (z.B. aus
+    Mängelrügen) zu erwarten?
+  zweck: SCH1-302/303 Erlösminderungen mit Ursache vor Stichtag (BE, PA)
+- frage: Bestehen Umsätze mit Aktionären, Organen, Nahestehenden oder Konzerngesellschaften? Zu welchen Konditionen?
+  zweck: Risiko nahestehende Personen (EN, BE, DO)
+- frage: Werden Vermittlungs- oder Kommissionsgeschäfte abgewickelt, und wie werden diese verbucht?
+  zweck: Ausweis brutto/netto (DO)
+- frage: Liegt eine MWST-Umsatzabstimmung 2025 vor? Wie erklären sich Differenzen zwischen deklariertem Umsatz und Ertragskonten?
+  zweck: SCH1-202e/301 Vollständigkeit und Richtigkeit Umsatz
+- frage: Werden Ertragskonten nur über das Fakturierungs-/Debitorenmodul bebucht? Wer darf manuelle Buchungen auf Ertragskonten erfassen?
+  zweck: SCH1-401 a/d (nur falls JET vom WP angeordnet)
+- frage: Liegen Ihnen Abrechnungen oder Bestätigungen Dritter zu Umsätzen vor (z.B. Netzbetreiber, Plattformen, Kommissionäre)?
+  zweck: SCH1-402 interne Abstimmung; keine Drittbestätigungsanfrage in der ER
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Blatt «Erfolgsrechnung»: Ertragskonten 3200/3201/3205/3400, Erlösminderungen 3800/3802, Bestandesänderung 3900 sowie Waren-/Materialaufwand 42xx–43xx mit Vorjahr – SCH1-102,
+    201, 202a/d, 304/305 (Kontenzuordnung)'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: Erfolgsrechnung (Block «Betrieblicher Ertrag», Finanz-, Liegenschafts-, betriebsfremder und a.o. Ertrag) und Anhang Ziff. 1 Grundsätze, Ziff. 3 a.o. Positionen, Ziff. 4a POC
+    – SCH1-101, 304, 305
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Blatt «1100»: monatliche Fakturen-Sammelbuchungen und Dezember-Einzelfakturen mit Gegenkonto 3200 (Fakturen-Soll, Stichprobe, Cut-off); Blatt «1300»/Buchung AB-31 zu 3900;
+    Blatt «8510» a.o. Ertrag – SCH1-202b/e, 301, 302, 303, 401, 155. Kontoblätter der Ertragskonten selbst fehlen (PBC)'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: Blätter «1100» und «3200» Januar/Februar 2026 (Fakturen, Gutschrift, Ausbuchung in neuer Rechnung) – SCH1-302, 303
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: Zweck (PV-Kraftwerke, Handel Solarkomponenten) für Produktkategorien, Rahmenvertrag, Buchhaltungssoftware mit Debitorenmodul, Ansprechpersonen – SCH1-101, 201, 401
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: Abgleich vorhandener Unterlagen; fehlende Ertragskontoblätter, Umsatz-/Margenstatistik, Budget, Lieferpapiere als PBC-Pendenz
+- datei: B_Forderungen_aus_LuL/Debitorenrechnung_RE-2025-0481.md
+  bezug: Beleg zu Dezember-Faktura (Kontoblatt 1100) – SCH1-301, 303
+- datei: B_Forderungen_aus_LuL/Debitorenrechnung_RE-2025-0461.md
+  bezug: Beleg Ausgangsrechnung – SCH1-301
+- datei: B_Forderungen_aus_LuL/Debitorenrechnung_RE-2026-0004.md
+  bezug: Rechnung um den Stichtag (Rechnungsdatum, Leistungszeitraum, Akonto) – SCH1-301, 303
+- datei: B_Forderungen_aus_LuL/Debitoren_OP_Liste_31.12.2025.md
+  bezug: Belegdaten und Bemerkungen der offenen Posten für Cut-off und Kontenkonstellationen auf dem Debitorenkonto – SCH1-303, 155
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Projektliste_Angefangene_Arbeiten_31.12.2025.md
+  bezug: Grundlage Bestandesänderung 3900, Status/Fertigstellungsgrad je Projekt, Abgrenzung Umsatz vs. angefangene Arbeiten – SCH1-202, 303, 305
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Abnahmeprotokoll_P-2025-03_Fiktivia.md
+  bezug: Leistungsnachweis (Inbetriebnahme/Abnahme) für Realisationszeitpunkt – SCH1-301, 303
+- datei: J_Uebrige_kurzfristige_Verbindlichkeiten/MWST_Abrechnungen_2025_Zusammenzug.md
+  bezug: Deklarierter Umsatz je Quartal (Ziff. 200) für Umsatzabstimmung – SCH1-202e, 301
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Aktennotiz_Rechtsfall_Kunstrasen_Fiktiv_AG.md
+  bezug: Mängelrüge eines Kunden als Hintergrund für Erlösminderungen/Gutschriften nach dem Stichtag – SCH1-102, 302
+schritte:
+- id: SCH1-101
+  vorgehen: 'Agent befragt nicht selbst: Frage zu den Grundsätzen der Umsatzerfassung (Zeitpunkt Lieferung/Abnahme/Fakturierung, Akonto-/Teilrechnungen, langfristige Aufträge, Erlösminderungen,
+    MWST) und zum Cut-off von Umsatz und Waren-/Materialaufwand als Pendenz an den Kunden. Vorab Anhang (Grundsätze) und Vorjahresakte auswerten; schriftliche Antwort gegen JR und Kontoblätter
+    plausibilisieren und im Textfeld mit Quelle festhalten.'
+  nachweise:
+  - Schriftliche Antwort der Unternehmensleitung (Leitung Finanzen)
+  - Anhang Ziff. Grundsätze der Rechnungslegung
+  - Vorjahres-Arbeitspapiere SCH1
+  rechnen: ''
+  feststellung_wenn: Praxis widerspricht dem Realisationsprinzip (z.B. Umsatz bei Fakturierung vor Leistung, Akontorechnungen als Ertrag), Cut-off nicht geregelt oder Antwort fehlt (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand
+  - quelle: hwp-bur-2023__rz-0745-s315
+    zitat: Umsatz kann dann als realisiert betrachtet und somit erfasst werden, wenn die dem Vertrag zugrunde liegende Leistungsverpflichtung
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+- id: SCH1-102
+  vorgehen: Agent erstellt aus der Saldoliste eine Liste der Ertrags- und Erlösminderungskonten mit Abweichung zum Vorjahr (bzw. Budget) über der Schwelle und stellt sie als Fragenliste/Pendenz
+    an den Kunden. Schriftliche Antworten kritisch gegen Kenntnisse (Projekte, Verträge, Analytik) würdigen; nicht plausible oder fehlende Erklärungen als Pendenz an den WP.
+  nachweise:
+  - Saldoliste Erfolgsrechnung 2025/2024
+  - Fragenliste mit schriftlichen Antworten
+  - Budget (falls vorhanden)
+  rechnen: Abweichung je Konto = Saldo 2025 − Saldo 2024; Abw.-% = Abweichung / |Saldo 2024|; auflisten, wenn |Abweichung| > Schwelle (Toleranzwesentlichkeit bzw. WP-Vorgabe aus 3.3).
+  feststellung_wenn: Wesentliche Abweichung ohne plausible, dokumentierte Erklärung oder Erklärung widerspricht anderen Prüfungsnachweisen.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: hwp-er-2026__rz-0102-s197
+    zitat: Diskrepanzen zwischen den erhaltenen Antworten und seinen Kenntnissen über das Unternehmen geht der Abschlussprüfer nach.
+  - quelle: ser-2022__6-1-1-t2
+    zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
+- id: SCH1-201
+  vorgehen: 'Umsätze, Waren-/Materialaufwand und Bruttomarge je Produktkategorie (z.B. Anlagenbau, Service, Dienstleistungen, Handel) für 2025 und Vorjahr aus Saldoliste bzw. Umsatzstatistik
+    berechnen und gegenüberstellen. Wesentliche Margenverschiebungen als Frage an den Kunden. Fehlt eine Aufteilung nach Kategorien: Gesamtmarge rechnen und Umsatz-/Margenstatistik als
+    PBC-Pendenz.'
+  nachweise:
+  - Saldoliste ER 2025/2024
+  - Umsatz- und Margenstatistik je Produktkategorie
+  - Antworten zu Margenabweichungen
+  rechnen: Bruttomarge je Kategorie = (Nettoerlös − zugeordneter Waren-/Materialaufwand) / Nettoerlös; Veränderung in %-Punkten zum Vorjahr; Gesamtmarge = (Summe Nettoerlöse 3xxx − Summe
+    Waren-/Materialaufwand 4xxx) / Summe Nettoerlöse.
+  feststellung_wenn: Wesentliche, nicht erklärte Margenveränderung (Hinweis auf Cut-off-Fehler, fehlende Erlöse/Aufwände oder Fehlklassierung).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr; Besprechung wesentlicher Abweichungen
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: Analytische Prüfungshandlungen sind allgemein effizient und liefern beispielsweise bei der Prüfung der Erfolgsrechnung wertvolle Prüfungsnachweise.
+- id: SCH1-202
+  vorgehen: a) Saldovergleich Ertragskonten mit Vorjahr; b) Kontoblätter auf hohe/ungewöhnliche Beträge durchsehen (Soll-Buchungen, runde Beträge, Stichtagsnähe); c) Budgetvergleich,
+    falls Budget vorliegt; d) Margenvergleich aus SCH1-201; e) andere Unterlagen, v.a. MWST-Abrechnungen/Umsatzabstimmung und Fakturen-Soll Debitoren. Ursache je signifikanter Änderung
+    im Textfeld umschreiben; ungeklärte als Pendenz.
+  nachweise:
+  - Saldoliste ER 2025/2024
+  - Kontoblätter Ertragskonten
+  - Budget
+  - MWST-Abrechnungen/Umsatzabstimmung
+  - Kontoblatt Debitoren
+  rechnen: 'Umsatzabstimmung: deklarierter Umsatz MWST (Ziff. 200) − Ertragskonten netto gemäss Saldoliste = Differenz (zu erklären, z.B. steuerbefreite/nicht steuerbare Erträge, Abgrenzungen);
+    Fakturen-Soll Konto 1100 abzüglich MWST ≈ Ertragskonten 3xxx.'
+  feststellung_wenn: Signifikante Änderung ohne belegte Ursache, ungeklärte Differenz Umsatzabstimmung/Debitorenverkehr zu Ertrag, oder Budget-/Margenabweichung deutet auf fehlende bzw.
+    zu früh erfasste Erlöse.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Budgetvergleiche → je nach Betriebsgrösse unterschiedlich häufig anzutreffende Prüfungshandlung
+  - quelle: ser-2022__anh-d-s094-1
+    zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Abstimmung der MWST-Abrechnungen mit den Konti und/oder der Umsatzabstimmung
+- id: SCH1-301
+  vorgehen: Stichprobe aus den Ertragskonten bilden (alle Posten über Toleranzwesentlichkeit, ungewöhnliche Posten, weitere nach Risiko; WP-Vorgabe übernehmen) und je Posten Rechnung,
+    Vertrag/Auftrag, Leistungsnachweis (Rapport, Lieferschein, Abnahmeprotokoll) und Zahlungseingang in M-Files suchen. Betrag netto, Datum/Periode, Kunde und Kontierung abgleichen;
+    Auswahl und Ergebnis tabellarisch im Textfeld, fehlende Belege als PBC-Pendenz.
+  nachweise:
+  - Ausgangsrechnungen
+  - Verträge/Auftragsbestätigungen
+  - Lieferscheine, Rapporte, Abnahmeprotokolle
+  - Zahlungseingänge Bank
+  rechnen: 'Je Posten: gebuchter Betrag = Rechnungsbetrag netto (exkl. MWST) ± Erlösminderungen; Prüfabdeckung = Summe geprüfter Posten / Saldo Ertragskonto in %.'
+  feststellung_wenn: Beleg fehlt, Betrag/Periode/Kunde weicht ab, Ertrag inkl. MWST gebucht oder Leistung nicht erbracht (Akonto-/Vorausrechnung als Ertrag).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: or__art-957a
+    zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
+- id: SCH1-302
+  vorgehen: 'Kontoblätter aller Ertrags- und Erlösminderungskonten sowie das Debitorenkonto kritisch durchsehen: Soll-Buchungen auf Ertrag, Storni, Gutschriften, Umbuchungen, sachfremde
+    Gegenkonten, Buchungen Ende Dezember und Abschlussbuchungen. Zusätzlich Ertrags-/Erlösminderungskonten der neuen Rechnung auf Posten durchsehen, die das Berichtsjahr betreffen. Auffällige
+    Posten mit Beleg klären oder als Pendenz.'
+  nachweise:
+  - Kontoblätter Ertrags- und Erlösminderungskonten 2025
+  - Kontoblätter Ertrag/Debitoren Folgejahr
+  - Belege zu auffälligen Posten
+  rechnen: Monatsumsatz aus Fakturen-Buchungen je Monat; Abweichung je Monat zum Monatsdurchschnitt (Jahressaldo / 12), Ausreisser sowie Dezember/Januar gesondert ausweisen.
+  feststellung_wenn: Gutschrift/Ausbuchung im Folgejahr mit Ursache im Berichtsjahr nicht erfasst, ungewöhnliche Buchung ohne Beleg/Erklärung oder sachfremde Erträge im Betriebsertrag.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: bestimmte Aufwands- oder Ertragskonten;
+  - quelle: ser-2022__anh-d-s075-2
+    zitat: Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
+  - quelle: ser-2022__anh-d-s075-2
+    zitat: Durchsicht von Debitoren-, Erlös-, Warenretouren- und Erlösminderungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
+- id: SCH1-303
+  vorgehen: 'WP-Schritt: Agent bereitet nur eine Arbeitsliste vor (offener Entscheid zu WP-Schritten). Fakturen vor und nach dem Stichtag (Zeitraum gemäss WP-Vorgabe) aus Kontoblättern
+    Debitoren/Ertrag 2025 und Folgejahr auflisten, je Faktura Leistungs-/Lieferdatum aus Rechnung, Rapport, Lieferschein oder Abnahmeprotokoll erfassen und mit der Buchungsperiode vergleichen.
+    Abweichungen als Entwurf für den WP, keine Würdigung.'
+  nachweise:
+  - Fakturen Dezember 2025 und Januar 2026
+  - Lieferscheine, Rapporte, Abnahmeprotokolle
+  - Kontoblätter 1100/3xxx Dezember und Folgejahr
+  - Debitoren-OP-Liste 31.12.
+  rechnen: 'Je Faktura: Leistungsdatum ≤ 31.12. ↔ Buchungsperiode; Summe falsch abgegrenzter Nettobeträge = möglicher Korrekturbetrag, Vergleich mit Toleranzwesentlichkeit.'
+  feststellung_wenn: Faktura für Leistung der Folgeperiode als Ertrag des Berichtsjahres gebucht (oder umgekehrt) bzw. Akontorechnung ohne Leistung als Ertrag; Entwurf zur Entscheidung
+    durch WP.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- id: SCH1-304
+  vorgehen: 'Aus der JR feststellen, ob eine Absatzerfolgsrechnung (Umsatzkostenverfahren) vorliegt. Falls ja: Mindestpositionen nach Art. 959b Abs. 3 OR prüfen und im Anhang Personalaufwand
+    sowie Abschreibungen/Wertberichtigungen in einer Position suchen und mit der Saldoliste abstimmen. Bei Produktionserfolgsrechnung den Schritt als «nicht anwendbar» mit Begründung
+    dokumentieren.'
+  nachweise:
+  - Jahresrechnung inkl. Anhang
+  - Saldoliste
+  rechnen: Anhang Personalaufwand = Summe Personalaufwandskonten gemäss Saldoliste; Anhang Abschreibungen/Wertberichtigungen = Summe der entsprechenden Konten gemäss Saldoliste.
+  feststellung_wenn: Absatzerfolgsrechnung ohne Angabe von Personalaufwand oder Abschreibungen im Anhang, Beträge nicht abgestimmt oder Mindestpositionen fehlen.
+  fundstellen:
+  - quelle: or__art-959b-t2
+    zitat: Bei der Absatzerfolgsrechnung müssen im Anhang zudem der Personalaufwand sowie in einer Position Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen
+      werden.
+  - quelle: or__art-959b-t1
+    zitat: In der Absatzerfolgsrechnung (Umsatzkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- id: SCH1-305
+  vorgehen: 'Gliederung der ER mit den Mindestpositionen nach Art. 959b Abs. 2 OR (je einzeln, vorgegebene Reihenfolge) vergleichen und Kontenzuordnung gemäss Saldoliste prüfen: Nettoerlöse
+    ohne Bestandesänderungen und ohne MWST, Erlösminderungen abgezogen, Finanz-, betriebsfremde und a.o./periodenfremde Erträge separat, keine Verrechnung. Fehlende oder zusammengefasste
+    Positionen im Textfeld auflisten.'
+  nachweise:
+  - Jahresrechnung (Erfolgsrechnung)
+  - Saldoliste mit Kontenzuordnung
+  rechnen: 'Je Mindestposition: Summe zugeordneter Konten gemäss Saldoliste = Betrag in der ER; Summe aller Positionen = Jahresergebnis gemäss Saldoliste.'
+  feststellung_wenn: Mindestposition fehlt oder Reihenfolge abweichend, Bestandesänderungen im Nettoerlös, Ertrag/Aufwand verrechnet oder betriebsfremde/a.o. Posten falsch klassiert.
+  fundstellen:
+  - quelle: or__art-959b-t1
+    zitat: In der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+  - quelle: hwp-bur-2023__rz-0750-s317-t2
+    zitat: Sie sind nicht Teil des Nettoerlöses
+  - quelle: hwp-bur-2023__rz-0230-s114
+    zitat: Es ist nicht zulässig, die Nettoerlöse mit anderem Aufwand zur Erzielung des Umsatzes zu verkürzen
+- id: SCH1-401
+  vorgehen: 'Nur auf Anweisung des WP (Kennzeichnung offen; Aufdeckung deliktischer Handlungen ist nicht Teil der ER): Buchungsjournal-Export der Ertrags- und Erlösminderungskonten anfordern
+    und Filter a)–j) anwenden (manuell, Zeitpunkt, runde Beträge, Benutzer, Ausreisser, Buchungstext, Periode, Erfassungs- vs. Belegdatum, Wiederholungen, Währungskurs). Treffer mit
+    Begründung im Textfeld, Klärung als Pendenz.'
+  nachweise:
+  - Buchungsjournal-Export (Datum, Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung)
+  - Liste der buchungsberechtigten Personen
+  - Kurstabelle Fremdwährungen
+  rechnen: 'Filter (Schwellen gemäss WP-Vorgabe): Betrag ohne Rest durch 1''000 teilbar; Erfassung an Wochenende/Feiertag oder nach Abschlussdatum; |Betrag − Kontodurchschnitt| über
+    Schwelle; Erfassungsdatum − Belegdatum > N Tage; gleicher Betrag ≥ 3× je Konto; Kurs ausserhalb Referenzkurs ± Toleranz.'
+  feststellung_wenn: Treffer ohne plausible Erklärung oder Beleg, insbesondere manuelle Umsatzbuchung zum Jahresende ohne Leistungsnachweis, die den Ertrag wesentlich verändert.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Hauptbuch und Buchungsjournale;
+  - quelle: ser-2022__1-5
+    zitat: keine Prüfungen zur Aufdeckung von deliktischen Handlungen
+  - quelle: hwp-or-2024__rz-0375-s229-t2
+    zitat: Journalbuchungen oder andere Anpassungen weisen runde Zahlen oder Zahlen mit denselben Endziffern auf
+  - quelle: hwp-or-2024__rz-0375-s229-t1
+    zitat: Journalbuchungen oder andere Anpassungen wurden durch Personen vorgenommen, die typischerweise keine Journalbuchungen vornehmen
+- id: SCH1-155
+  vorgehen: 'Als Teil der kritischen Durchsicht bzw. des JET die Gegenkonten aller Buchungen auf Ertrags- und Debitorenkonten auswerten. Erwartet: Debitoren, Bank/Kasse, Erlösminderungen,
+    Abgrenzungen, angefangene Arbeiten. Ungewöhnlich: Ertrag gegen Aufwand-, Darlehens-, Aktionärs-/Nahestehenden-, Eigenkapital- oder Anlagekonten. Treffer mit Beleg klären und im Textfeld
+    auflisten; offene als Pendenz.'
+  nachweise:
+  - Buchungsjournal bzw. Kontoblätter mit Gegenkonten
+  - Belege der Treffer
+  rechnen: Kreuztabelle Ertragskonto × Gegenkonto (Anzahl, Summe); Kombinationen ausserhalb der erwarteten Gegenkontengruppen ausweisen.
+  feststellung_wenn: Ertrag gegen sachfremdes Gegenkonto ohne nachvollziehbaren Geschäftsvorfall (Verrechnung mit Aufwand, Nahestehenden- oder Bilanzkonten) oder Umgehung der Erfolgsrechnung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0741-s313-t1
+    zitat: Grundsätzlich sind erfolgswirksame Vorgänge in der Erfolgsrechnung zu erfassen.
+  - quelle: or__art-958c
+    zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+  - quelle: hwp-or-2024__rz-0375-s229-t1
+    zitat: Journalbuchungen oder andere Anpassungen auf nicht zusammenhängenden, ungewöhnlichen oder selten verwendeten Konten
+- id: SCH1-402
+  vorgehen: 'Drittbestätigungen sind nicht Bestandteil der eingeschränkten Revision: Agent holt keine Umsatzbestätigungen ein und dokumentiert den Schritt als «nicht Bestandteil ER»,
+    sofern der WP nichts anderes vorgibt. Liegen beim Kunden bereits Abrechnungen oder Bestätigungen Dritter vor (z.B. Netzbetreiber, Plattformen, Kommissionäre), diese als intern verfügbare
+    Unterlagen mit den gebuchten Umsätzen abstimmen.'
+  nachweise:
+  - Allfällige beim Kunden vorhandene Abrechnungen/Bestätigungen Dritter
+  - Kontoblätter Ertrag je Gegenpartei
+  rechnen: 'Falls vorhanden: bestätigter Umsatz je Gegenpartei − gebuchter Umsatz je Gegenpartei (netto MWST) = Differenz.'
+  feststellung_wenn: Vorhandene Drittabrechnung weicht wesentlich vom gebuchten Umsatz ab; das Fehlen einer Bestätigung ist in der ER keine Feststellung.
+  fundstellen:
+  - quelle: ser-2022__1-5
+    zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt – die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen
+  - quelle: hwp-er-2026__rz-0083-s194
+    zitat: ist das Einholen von Drittbestätigungen nicht vorgesehen
+  - quelle: ser-2022__6-2-6
+    zitat: Der Abschlussprüfer muss deshalb nicht begründen, weshalb er diese Prüfungshandlungen nicht durchführt.

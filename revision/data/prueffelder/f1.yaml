@@ -1,0 +1,787 @@
+# Prüffeld F1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: F1
+bezeichnung: Vorräte
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 12
+    korrigiert: false
+kurzbeschrieb: 'Vorräte (Rohmaterial, Handelswaren, Halb-/Fertigfabrikate, Verbrauchsmaterial) inkl. Wertberichtigungen. Eingeschränkte Revision: Bestand via Inventarliste/Inventurunterlagen
+  und Abstimmung Hauptbuch, Bewertung zu AK/HK bzw. tieferem Netto-Veräusserungswert (Art. 960c OR), Abgrenzung, Fremdware, Anhang, stille Reserven (Warendrittel). Keine Inventurbeobachtung,
+  keine Drittbestätigungen.'
+gesetz:
+- thema: 'Mindestgliederung: Position «Vorräte und nicht fakturierte Dienstleistungen» im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. d OR)'
+  quelle: or__art-959a-t1
+  zitat: d. Vorräte und nicht fakturierte Dienstleistungen
+- thema: Begriff Vorräte (Art. 960c Abs. 2 OR)
+  quelle: or__art-960c
+  zitat: Als Vorräte gelten Rohmaterial, Erzeugnisse in Arbeit, fertige Erzeugnisse und Handelswaren.
+- thema: Niederstwertprinzip / verlustfreie Bewertung in der Folgebewertung (Art. 960c Abs. 1 OR)
+  quelle: or__art-960c
+  zitat: der Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+- thema: Höchstwert bei Ersterfassung (Art. 960a Abs. 1 OR)
+  quelle: or__art-960a
+  zitat: Bei ihrer Ersterfassung müssen die Aktiven höchstens zu den Anschaffungs- oder Herstellungskosten bewertet werden.
+- thema: Höchstwert in der Folgebewertung (Art. 960a Abs. 2 OR)
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+- thema: Wertberichtigungen für anderweitige Wertverluste, aktivseitig abzusetzen (Art. 960a Abs. 3 OR)
+  quelle: or__art-960a
+  zitat: anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden
+- thema: Zusätzliche Wertberichtigungen / stille Reserven (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- thema: Einzel- vs. Gruppenbewertung (Art. 960 Abs. 1 OR)
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet, sofern sie wesentlich sind
+- thema: Vorsichtige Bewertung (Art. 960 Abs. 2 OR)
+  quelle: or__art-960
+  zitat: Die Bewertung muss vorsichtig erfolgen, darf aber die zuverlässige Beurteilung der wirtschaftlichen Lage des Unternehmens nicht verhindern.
+- thema: Überprüfung bei Anzeichen einer Überbewertung (Art. 960 Abs. 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: Bestandsnachweis durch Inventar (Art. 958c Abs. 2 OR)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- thema: Stetigkeit in Darstellung und Bewertung (Art. 958c Abs. 1 Ziff. 6 OR)
+  quelle: or__art-958c
+  zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Periodenabgrenzung (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: 'Erfolgsrechnung: Bestandesänderungen (Art. 959b Abs. 2 Ziff. 2 OR)'
+  quelle: or__art-959b-t1
+  zitat: Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen
+- thema: 'Anhang: angewandte Grundsätze (Art. 959c Abs. 1 Ziff. 1 OR)'
+  quelle: or__art-959c-t1
+  zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: verpfändete Aktiven und Aktiven unter Eigentumsvorbehalt (Art. 959c Abs. 2 Ziff. 9 OR)'
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+risiken:
+- text: 'Ausgewiesene Vorräte sind physisch nicht (mehr) vorhanden: Schwund, Zähl- oder Übertragungsfehler von der Zählliste in die Inventarliste, ungeklärte Inventurdifferenzen.'
+  pruefziele:
+  - EX
+  - RI
+  quelle: hwp-bur-2023__rz-0204-s205
+  zitat: Differenzen sind abzuklären und zu bereinigen.
+- text: Falsche Periodenabgrenzung von Wareneingängen/-ausgängen um den Stichtag (Ware im Inventar ohne Verbindlichkeit bzw. umgekehrt; Waren in Transit).
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0204-s205
+  zitat: Bei der Inventur ist der korrekten Abgrenzung besondere Beachtung zu schenken.
+- text: 'Doppelerfassung: bereits fakturierte, noch nicht ausgelieferte Ware zusätzlich im Inventar; Material auf Baustellen sowohl im Inventar als auch in den angefangenen Arbeiten
+    (F2).'
+  pruefziele:
+  - EX
+  - PA
+  quelle: hwp-bur-2023__rz-0234-s209
+  zitat: Sofern diese Ware bereits als Forderung gebucht ist, darf sie nicht zusätzlich in der Position Vorräte
+- text: Fremdware (Kommissions-/Konsignationsware Dritter, Kundeneigentum) im Inventar aktiviert; eigene Ware bei Dritten oder in Konsignation fehlt im Inventar.
+  pruefziele:
+  - RV
+  - VO
+  quelle: hwp-bur-2023__rz-0214-s207
+  zitat: In Kommission genommene Waren dürfen grundsätzlich nicht aktiviert werden
+- text: Überbewertung unkuranter, überalterter oder langsam drehender Ware; Netto-Veräusserungswert unter AK/HK nicht berücksichtigt.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0249-s213
+  zitat: Für unkurante Artikel ist eine Bewertungskorrektur unerlässlich
+- text: Verlustfreie Bewertung bei Produktkategorien mit tiefer oder negativer Marge nicht sichergestellt.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0246-s212
+  zitat: Sind die Anschaffungs- oder Herstellungskosten höher als dieser Vergleichswert, ist eine entsprechende Wertberichtigung vorzunehmen (verlustfreie Bewertung).
+- text: Einstandspreise falsch ermittelt (Rabatte nicht abgezogen, Finanzierungskosten aktiviert, veraltete Preise, Methode FIFO/Durchschnitt falsch angewandt).
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0219-s207
+  zitat: Die Kosten einer Finanzierung des Wareneinkaufs durch Wechsel oder verzinsliche Lieferantenkredite dürfen nicht den Anschaffungskosten zugerechnet werden.
+- text: Herstellkosten enthalten nicht aktivierbare Verwaltungs-/Vertriebskosten oder Kosten der Unterbeschäftigung.
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0222-s208
+  zitat: durch Unterbeschäftigung entstehende Mehrkosten dürfen den Fertigungsgemeinkosten der Vorräte nicht zugerechnet werden
+- text: Unbegründeter oder nicht offengelegter Wechsel der Bewertungsmethode bzw. des Kalkulationsschemas.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0059-s070
+  zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden
+- text: Rechen- und Additionsfehler in der Inventarliste (Menge × Preis, Zwischen- und Gesamttotale). Fundstelle aus HWP OR (nur ergänzend).
+  pruefziele:
+  - RI
+  - BE
+  quelle: hwp-or-2024__rz-0901-s348-t1
+  zitat: Prüfung der mathematischen Richtigkeit der Bewertung
+- text: Abbau des Warendrittels bzw. Auflösung zusätzlicher Wertberichtigungen führt zu einer offenlegungspflichtigen Nettoauflösung stiller Reserven, die im Anhang fehlt.
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0759-s320
+  zitat: zwangsläufig zu einer Auflösung stiller Reserven
+- text: Verpfändete Vorräte (z.B. Faustpfand) oder Ware unter Eigentumsvorbehalt nicht im Anhang angegeben.
+  pruefziele:
+  - RV
+  - DO
+  quelle: hwp-bur-2023__rz-0845-s349
+  zitat: Warenlager (Faustpfand)
+unterlagen:
+- dokument: Bewertete Inventarliste per Bilanzstichtag (Menge, Preis, Wert, Totale je Konto, Wertberichtigungen) inkl. Vorjahresinventar
+  zweck: Bestandsnachweis, Abstimmung Hauptbuch, Bewertung, rechnerische Prüfung, VJ-Vergleich (F1-201/203/301/302/405)
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- dokument: Inventurinstruktion, Inventurprotokoll, unterzeichnete Zähllisten, Differenzliste
+  zweck: Beurteilung Inventur, Abgleich Zählliste/Inventarliste, Inventurdifferenzen (F1-101/102/401/403)
+  quelle: hwp-bur-2023__rz-0204-s205
+  zitat: Eine genaue Inventurinstruktion kann Mängeln vorbeugen
+- dokument: Lagerbuchhaltung bzw. Nachweise permanente Inventur (Zählplan, Zählprotokolle, Fortschreibung auf Stichtag)
+  zweck: Bestandsnachweis ohne Stichtagsinventur (F1-103/402)
+  quelle: hwp-bur-2023__rz-0204-s205
+  zitat: Bei vorhandener Lagerbuchhaltung besteht neben der Stichtagsinventur die Möglichkeit der permanenten Inventur
+- dokument: Lagerumschlags-/Altersliste (letzte Bewegung, letzte Bestellung) und Berechnung der Wertberichtigung unkurant
+  zweck: Ladenhüter, Überalterung, Überbestände (F1-106/203/204)
+  quelle: hwp-bur-2023__rz-0249-s213
+  zitat: Die Höhe der Korrektur richtet sich im Allgemeinen nach der Umschlagshäufigkeit
+- dokument: Lieferantenrechnungen der letzten Einkäufe zu ausgewählten Inventarpositionen
+  zweck: Prüfung Einstandspreise (F1-302)
+  quelle: ser-2022__6-1-3
+  zitat: Bewertungsprüfungen können etwa mittels Belegprüfungen, Abstimmung mit Preislisten usw. durchgeführt werden.
+- dokument: Verkaufspreislisten, Verkaufsrechnungen nach Stichtag, Margenauswertung je Produktkategorie
+  zweck: Niederstwert und verlustfreie Bewertung, Margenanalyse (F1-104/107/202/304)
+  quelle: hwp-bur-2023__rz-0245-s212
+  zitat: Zur Beurteilung, ob der Preis des Absatzmarkts abzüglich Verwaltungs- und Vertriebskosten tiefer ist als die Anschaffungs- oder Herstellungskosten, dient die Rückrechnung.
+- dokument: Kalkulationen und Kostenrechnung/Betriebsabrechnung (bei eigener Herstellung)
+  zweck: Abstimmung Herstellkosten (F1-105/303)
+  quelle: ser-2022__anh-d-s079-1
+  zitat: Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung
+- dokument: Lieferscheine/Wareneingänge und Ein-/Ausgangsrechnungen der letzten Dezember- und ersten Januartage, Kreditorenjournal Folgejahr
+  zweck: Cut-off (F1-108/109)
+  quelle: hwp-bur-2023__rz-0210-s206
+  zitat: In einfachen Verhältnissen wird auf leicht nachvollziehbare physische Sachverhalte wie Wareneingang oder Rechnungserhalt abgestellt.
+- dokument: Vom Kunden eingeholte Bestätigungen, Lagerscheine bzw. Warenpapiere für Fremd- und Konsignationslager
+  zweck: Bestandsnachweis Ware bei Dritten (F1-111/404)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+- dokument: Kredit- und Pfandverträge, Kaufverträge mit Eigentumsvorbehalt, Kommissions-/Konsignationsverträge
+  zweck: Rechte/Verpflichtungen, Anhangsangaben (F1-110/111/320)
+  quelle: ser-2022__anh-d-s097-1
+  zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- dokument: Aufstellung stille Reserven (inkl. Warendrittel) GJ/VJ und Vollständigkeitserklärung
+  zweck: Bestand und Veränderung stiller Reserven (F1-321/320)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Sachversicherungspolice Warenlager/Betriebsinventar
+  zweck: Angemessenheit Versicherungswerte (F1-406)
+- dokument: Einkaufsstatistik nach Lieferanten, Rahmenverträge mit Hauptlieferanten
+  zweck: Lieferantenstruktur und Abhängigkeiten (F1-205)
+- dokument: Budget/Auftragsbestand bzw. Umsatzplanung
+  zweck: Analytischer Vergleich mit Erwartungen, ABC-Analyse (F1-203/204)
+  quelle: ser-2022__6-1-2-t1
+  zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen
+bewertung:
+- regel: Ersterfassung höchstens zu Anschaffungs- oder Herstellungskosten.
+  quelle: hwp-bur-2023__rz-0217-s207
+  zitat: Vorräte dürfen bei der Ersterfassung höchstens zu den Anschaffungs- oder Herstellungskosten bewertet werden (Art. 960a OR).
+- regel: Anschaffungskosten (Einstandspreis) = alle Kosten bis zur Einlagerung inkl. Bezugskosten, abzüglich Rabatte; handelsübliche Skonti müssen nicht abgezogen werden.
+  quelle: hwp-bur-2023__rz-0218-s207
+  zitat: Anschaffungskosten (Einstandspreise) umfassen alle Kosten, die bis zur Einlagerung anfallen, einschliesslich aller Bezugskosten wie Fracht, Zoll, Versicherungsprämien
+- regel: Finanzierungskosten des Wareneinkaufs sind keine Anschaffungskosten.
+  quelle: hwp-bur-2023__rz-0219-s207
+  zitat: Die Kosten einer Finanzierung des Wareneinkaufs durch Wechsel oder verzinsliche Lieferantenkredite dürfen nicht den Anschaffungskosten zugerechnet werden.
+- regel: 'Herstellungskosten: Material inkl. Materialgemeinkosten, Fertigungslöhne und Fertigungsgemeinkosten; keine allgemeinen Verwaltungs- und Vertriebskosten.'
+  quelle: hwp-bur-2023__rz-0220-s207
+  zitat: die Materialgemeinkosten, die Fertigungslöhne und die Fertigungsgemeinkosten
+- regel: Fixkosten auf Basis Normalbeschäftigung; Unterbeschäftigungskosten nicht aktivierbar; Eigenkapitalzinsen nie aktivierbar.
+  quelle: hwp-bur-2023__rz-0222-s208
+  zitat: Ein Eigenkapitalzinsanteil ist in keinem Fall aktivierungsfähig.
+- regel: 'Zulässige Verfahren zur Ermittlung der AK/HK: gewichteter Durchschnitt, Fifo, Lifo, Hifo, Rückrechnung vom Verkaufspreis, Standard-/Plankosten.'
+  quelle: hwp-bur-2023__rz-0236-s210
+  zitat: gewichtete Durchschnittsmethode
+- regel: 'Niederstwertprinzip: Ist der Veräusserungswert abzüglich noch anfallender Kosten tiefer als AK/HK, ist dieser tiefere Wert einzusetzen.'
+  quelle: hwp-bur-2023__rz-0233-s209
+  zitat: so muss in der Folgebewertung dieser tiefere Wert eingesetzt werden
+- regel: 'Rückrechnung: Verkaufspreis minus Erlösschmälerungen, Vertriebs-, Verwaltungs- und ggf. noch anfallende Herstellkosten ergibt den Vergleichswert; Korrektur unter Liquidationswert
+    nicht nötig.'
+  quelle: hwp-bur-2023__rz-0246-s212
+  zitat: Eine Wertkorrektur unter den Liquidationswert ist nicht notwendig.
+- regel: 'Massgebender Markt: für Rohmaterial, Hilfs-/Betriebsstoffe und fremdbeziehbare Halbfabrikate der Beschaffungsmarkt, für alle anderen Vorräte der Absatzmarkt.'
+  quelle: hwp-bur-2023__rz-0247-s213
+  zitat: für alle anderen Vorräte der Absatzmarkt
+- regel: 'Unkurante Artikel: Bewertungskorrektur zwingend; bei grossen Lagern pauschale Abschläge nach Umschlagshäufigkeit üblich.'
+  quelle: hwp-bur-2023__rz-0249-s213
+  zitat: In solchen Fällen ist es üblich, pauschale Abschläge von den Anschaffungs- oder Herstellungskosten vorzunehmen.
+- regel: Gruppenbewertung gleichartiger Vorratskategorien zulässig, ohne Verrechnung von Zwangsreserven.
+  quelle: hwp-bur-2023__rz-0231-s209
+  zitat: Gleichartige Vorratskategorien können dabei als Gruppen zu zweckmässigen Bewertungseinheiten
+- regel: Marktpreisbewertung (Art. 960b OR) bei Vorräten nur ausnahmsweise; eine Aufwertung von Vorräten ist ausgeschlossen.
+  quelle: hwp-bur-2023__rz-0886-s359
+  zitat: Nicht möglich ist eine Aufwertung damit z.B. bei Vorräten, mobilen Sachanlagen oder immateriellen Werten.
+- regel: 'Warendrittel (Steuerpraxis gemäss HWP BuR): steuerlich zulässiger Bewertungsabzug von einem Drittel auf dem gesetzlichen Höchstwert; nach allen handelsrechtlich nötigen Korrekturen
+    hat er Reservecharakter.'
+  quelle: hwp-bur-2023__rz-0253-s214
+  zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
+- regel: Aktivierung ab Übergang von Nutzen und Gefahr (z.B. Incoterms); versandbereite Ware bleibt bis dahin im Vorrat.
+  quelle: hwp-bur-2023__rz-0211-s206
+  zitat: Versandbereite Waren bleiben bis zum Übergang von Nutzen und Gefahr auf den Kaufenden Bestandteil der Vorräte.
+- regel: In Kommission gegebene Ware bleibt beim Kommittenten unter Vorräten; in Kommission genommene Ware wird nicht aktiviert.
+  quelle: hwp-bur-2023__rz-0213-s207
+  zitat: In Kommission gegebene Waren (Konsignationsware) sind separat unter Vorräten, nicht als Forderungen auszuweisen.
+- regel: 'Eigentumsvorbehalte Dritter: nur Anhangsangabe, bis Rückgabe verlangt wird.'
+  quelle: hwp-bur-2023__rz-0212-s206
+  zitat: Eigentumsvorbehalte Dritter an Waren sind bei der Rechnungslegung mit Ausnahme der Anhangsangabe (Art. 959c Abs. 2 Ziff. 9 OR) erst dann zu berücksichtigen, wenn die Rückgabe
+    verlangt wird.
+- regel: Hilfs-, Betriebs- und Büromaterial kann pro memoria bilanziert werden (Verzicht auf Inventur meist vertretbar).
+  quelle: hwp-bur-2023__rz-0209-s206
+  zitat: Beim Hilfs-, Betriebs- und Büromaterial ist es meistens vertretbar, auf eine Inventur zu verzichten
+- regel: Eine einmal gewählte Bewertungsmethode ist beizubehalten; Wechsel nur begründet und mit Anhangsangabe.
+  quelle: hwp-bur-2023__rz-0059-s070
+  zitat: Eine einmal gewählte Methode ist grundsätzlich beizubehalten.
+fallstricke:
+- text: Inventurbeobachtung (F1-401 a) und physisches Nachzählen (F1-401 c, F1-402 b) gehören nicht zur eingeschränkten Revision. Der Agent prüft nur anhand der Dokumente (Protokoll,
+    Zähllisten, Inventarliste). Ausführung nur auf separaten Entscheid des WP.
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: die Teilnahme an der Inventur (Beobachtung);
+- text: Externe Bestätigungen (z.B. Konsignationslager, F1-404) holt der Abschlussprüfer in der eingeschränkten Revision nicht selbst ein. Bestätigungen, die der Kunde selbst eingeholt
+    hat, dürfen beigezogen werden.
+  quelle: hwp-er-2026__rz-0095-s196
+  zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+- text: «Stichprobenmässig» heisst bewusste Auswahl (grosse/auffällige Positionen), keine repräsentative Stichprobe mit Hochrechnung.
+  quelle: ser-2022__6-1-3
+  zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+- text: Vertiefte Prüfungen der Herstellkostenkalkulation sind ausgeschlossen; zulässig ist eine Plausibilisierung bei entsprechender Risikolage (F1-303).
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: lediglich vertiefte Prüfungen sind ausgeschlossen
+- text: Befragungen allein genügen für die wesentliche Position Vorräte nicht. Antworten mit Analytik und/oder Detailprüfungen (mindestens F1-301) erhärten.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: Der Warendrittel ist (nach allen handelsrechtlich nötigen Korrekturen) eine stille Reserve, keine betriebsnotwendige Wertberichtigung. Sein Abbau bei Lagerrückgang ist eine Auflösung
+    stiller Reserven (Anhang prüfen).
+  quelle: hwp-bur-2023__rz-0253-s214
+  zitat: Damit werden zwangsläufig stille Reserven aufgelöst
+- text: Wertberichtigungen auf Vorräten dürfen nicht als Rückstellung unter den Passiven ausgewiesen werden.
+  quelle: or__art-960a
+  zitat: dürfen nicht unter den Passiven ausgewiesen werden
+- text: Bei vor- oder nachverlegter Inventur fehlt oft die Fortschreibung bzw. Rückrechnung auf den Bilanzstichtag.
+  quelle: hwp-bur-2023__rz-0204-s205
+  zitat: ist eine einwandfreie Fortschreibung oder Rückrechnung auf den Bilanzstichtag sicherzustellen
+- text: Inventarwerte zu Verkaufspreisen (Rückrechnungsmethode) oder nach Preiserhöhungen können über den tatsächlichen Einstandspreisen liegen.
+  quelle: hwp-bur-2023__rz-0241-s211
+  zitat: Die Rückrechnung darf jedenfalls nicht zur Folge haben, dass die Vorräte zu einem den tatsächlichen Einstandswert
+- text: Lifo bei sinkenden Preisen führt zu Werten über den aktuellen Einstandspreisen; Korrektur nötig.
+  quelle: hwp-bur-2023__rz-0239-s211
+  zitat: weshalb eine Korrektur erforderlich ist
+- text: Gruppenbewertung darf Unterbewertungen (Zwangsreserven) nicht mit Überbewertungen einzelner Artikel verrechnen. Einzelne Positionen mit Netto-Veräusserungswert unter AK/HK sind
+    trotzdem zu korrigieren.
+  quelle: hwp-bur-2023__rz-0231-s209
+  zitat: Im Rahmen der Gruppenbewertung dürfen allerdings keine Zwangsreserven zur (gedanklichen) Verrechnung gebracht werden
+- text: Die Inventarliste wird oft erst nach dem Stichtag bewertet und von Hand aus den Zähllisten übertragen. Übertragungs- und Formelfehler in Excel-Inventaren sind häufig; die Inventarliste
+    daher immer vollständig nachrechnen (F1-405). (Praxis, ohne Quelle)
+fragen_kunde:
+- frage: Wie wurde der Vorratsbestand per Bilanzstichtag ermittelt (Stichtagsinventur, permanente Inventur, Lagerbuchhaltung), und welche Lagerorte (inkl. Fremdlager, Baustellen) waren
+    einbezogen?
+  zweck: 'F1-101/F1-103: Methode der Bestandesermittlung (EX, VO)'
+- frage: Welche Inventurdifferenzen ergaben sich bei der letzten physischen Bestandesaufnahme, wie wurden sie abgeklärt und verbucht?
+  zweck: 'F1-102: Korrekturen aus der Inventur (EX, EN, BE, RI)'
+- frage: Nach welcher Methode wird jede Vorratskategorie bewertet (effektiver Einstandspreis, FIFO, gleitender Durchschnitt, Herstell-/Standardkosten), und wie wird sichergestellt, dass
+    der tiefere Netto-Veräusserungswert eingesetzt wird?
+  zweck: 'F1-104: Bewertungsgrundlagen, Niederstwertprinzip (BE, DO)'
+- frage: Wurden Bewertungsmethode, Kalkulationsschema oder Gemeinkostenzuschläge gegenüber dem Vorjahr geändert? Besteht eine Kostenrechnung, und hat sie sich bewährt (Nachkalkulationen)?
+  zweck: 'F1-105: Stetigkeit, Verlässlichkeit Kostenrechnung (BE, DO)'
+- frage: Wie werden Ladenhüter und überalterte Artikel identifiziert (Umschlag, letzte Bewegung) und wie wird die Wertberichtigung berechnet? Bitte Berechnung zustellen.
+  zweck: 'F1-106: unkurante Vorräte (VO, BE, DO)'
+- frage: Gibt es Produktkategorien mit geringer oder negativer Marge, und wie stellen Sie deren verlustfreie Bewertung sicher? Bitte Margenauswertung je Kategorie zustellen.
+  zweck: 'F1-107/F1-304: verlustfreie Bewertung (BE)'
+- frage: Wie werden Wareneingänge, Warenausgänge und Verbräuche laufend und per Bilanzstichtag abgegrenzt (Lagersperre, Lieferscheine, Waren in Transit, Abstimmung Lager-/Finanzbuchhaltung)?
+  zweck: 'F1-108/F1-109: zeitliche Abgrenzung (VO, PA)'
+- frage: Lagern bei Ihnen Waren Dritter (Kommissions-/Konsignationsware, Kundeneigentum)? Wie werden sie bei der Inventur ausgeschieden?
+  zweck: 'F1-110: Fremdware nicht im Inventar (VO)'
+- frage: Sind Vorräte verpfändet, unter Eigentumsvorbehalt erworben, bei Dritten eingelagert oder in Konsignation an Dritte gegeben? Bitte entsprechende Verträge bzw. Nachweise zustellen.
+  zweck: 'F1-111/F1-404/F1-320: Rechte, Bestand bei Dritten, Anhangsangabe (RV, DO)'
+- frage: Wurde Material, das bereits auf Baustellen bzw. in Projekten verwendet wird, aus dem Inventar ausgeschieden und ausschliesslich in den angefangenen Arbeiten erfasst?
+  zweck: 'F1-109/F1-203: Abgrenzung Vorräte/angefangene Arbeiten, keine Doppelerfassung (EX, PA)'
+- frage: Worauf sind die wesentlichen Veränderungen von Beständen, Mengen, Lagerumschlag und Margen gegenüber dem Vorjahr zurückzuführen?
+  zweck: 'F1-201/F1-202/F1-203/F1-204: Erklärung analytischer Abweichungen'
+- frage: Bestehen Abhängigkeiten von einzelnen Lieferanten oder Lieferengpässe, und ist die Belieferung (z.B. durch Rahmenverträge) gesichert?
+  zweck: 'F1-205: Lieferantenstruktur (VO, BE)'
+- frage: Wie hoch ist die Versicherungssumme für das Warenlager/Betriebsinventar? Bitte aktuelle Police zustellen.
+  zweck: 'F1-406: Angemessenheit Versicherungswerte (RV, BE)'
+- frage: Bitte Aufstellung der stillen Reserven auf den Vorräten (z.B. Warendrittel, zusätzliche Wertberichtigungen) per Stichtag und Vorjahr zustellen.
+  zweck: 'F1-321/F1-320: Bestand und Veränderung stiller Reserven, Anhang'
+testakte_2025:
+- datei: D_Vorraete/Inventarliste_31.12.2025.md
+  bezug: 'Bewertete Inventarliste (Konten 1201, 1202, 1205, WB 1290) mit Menge, Einstandspreis, Inventarwert und Marktpreis 12/2025: F1-301 (Totale vs. Hauptbuch), F1-302 (Einstandspreise),
+    F1-104/F1-106/F1-304 (Niederstwert, Altbestand, Wertberichtigung), F1-203 (Zusammensetzung/ABC), F1-405 (rechnerische Prüfung)'
+- datei: D_Vorraete/Inventurprotokoll_31.12.2025.md
+  bezug: 'Stichtagsinventur, Zählteams, Lagersperre, Fremdware, Übertrag Zähllisten, Hinweis Altbestand: F1-101, F1-102, F1-106, F1-109, F1-110, F1-401 (b, d), F1-403'
+- datei: D_Vorraete/Zaehlliste_Nr4_Wechselrichter_Scan.md
+  bezug: 'Scan einer Zählliste (ohne Transkription, Original/Bild beiziehen): F1-401 d / F1-405 Abgleich Zählmengen Wechselrichter mit Inventarliste (Konto 1202)'
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'Saldi 1201–1205 und 1290 GJ/VJ, Material-/Warenaufwand 4201–4209 und 4300–4304, Erlöse: F1-301, F1-201, F1-202, F1-203, F1-205'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'Kontoblätter 1201, 1202, 1203, 1205, 1290 (Eröffnung, Bestandesänderung gemäss Inventar): F1-301, F1-102, F1-321'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'Bilanzposition Vorräte und Anhang Ziff. 4 «Bewertung von Aktiven» (Warenvorräte): F1-104, F1-105, F1-320, F1-321'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'Buchungen in neuer Rechnung (Kreditoren 2026, Warenaufwand 4201): F1-109 Cut-off'
+- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
+  bezug: 'Eingangsrechnungen Januar 2026 mit Rechnungs-/Lieferdatum (Module, Kabel): F1-108, F1-109 (Abgrenzung), F1-302 (aktuelle Einstandspreise)'
+- datei: H_Kreditoren/Kreditoren_OP_Liste_31.12.2025.md
+  bezug: 'Offene Lieferantenrechnungen per Stichtag (Modul-/Komponentenlieferanten): F1-205 (Lieferantenstruktur), F1-109 (Dezember-Lieferungen)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'Geschäftstätigkeit (PV-Kraftwerke, Handel mit Solarkomponenten), Ansprechpersonen für Befragungen: F1-101 bis F1-111, F1-205'
+- datei: E_Angefangene_Arbeiten_Anzahlungen/Projektliste_Angefangene_Arbeiten_31.12.2025.md
+  bezug: 'Abgrenzung Vorräte/angefangene Arbeiten (Baustellenmaterial gemäss Inventurprotokoll in Projekten): F1-109, F1-203 (keine Doppelerfassung mit F2)'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'Übersicht der Vorratsbelege (Ordner D): F1-322 Dauerakte/Aktenführung'
+schritte:
+- id: F1-101
+  vorgehen: 'Schriftliche Antwort der Leitung Finanzen/Lager zur Bestandesermittlung auswerten: Stichtags- oder permanente Inventur, Lagerbuchhaltung (mengen-/wertmässig), einbezogene
+    Lagerorte inkl. Fremdlager, Zähl- und Übertragungsprozess. Antwort mit Inventurprotokoll abgleichen und im Textfeld zusammenfassen; fehlt sie, Frage als Pendenz erfassen.'
+  nachweise:
+  - Schriftliche Antwort Befragung Bestandesermittlung
+  - Inventurprotokoll
+  - Inventurinstruktion
+  rechnen: ''
+  feststellung_wenn: Keine nachvollziehbare Bestandesermittlung per Stichtag (weder Inventur noch verlässliche Lagerbuchhaltung) oder Angaben widersprechen dem Inventurprotokoll.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung über die Methode der Bestandsermittlung
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Die Bestandsermittlung erfolgt entweder durch Inventur oder durch Übernahme der Bestände aus der Lagerbuchhaltung.
+- id: F1-102
+  vorgehen: 'Inventurdifferenzen (Buchbestand vs. Zählung) der letzten physischen Aufnahme und die daraus verbuchten Korrekturen erfragen: Höhe je Kategorie, Ursachen, Verbuchung, Genehmigung.
+    Differenzliste und Korrekturbuchung im Kontoblatt (Bestandesänderung per Stichtag) einsehen und nachvollziehen; wiederkehrende oder ungeklärte Differenzen im Textfeld festhalten.'
+  nachweise:
+  - Differenzliste Inventur
+  - Kontoblätter Vorräte (Korrekturbuchung)
+  - Schriftliche Antwort
+  rechnen: Inventurdifferenz = Buchbestand vor Korrektur − Inventarwert; verbuchte Korrektur = Inventurdifferenz
+  feststellung_wenn: Wesentliche Inventurdifferenzen ungeklärt, nicht oder falsch verbucht, oder Korrektur ohne Beleg bzw. Genehmigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Besprechung von Korrekturen aufgrund der letzten physischen Bestandsaufnahme
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Differenzen sind abzuklären und zu bereinigen.
+- id: F1-103
+  vorgehen: 'Nur wenn per Bilanzstichtag nicht physisch aufgenommen wurde: erfragen, ob eine Lagerbuchhaltung mit permanenter Inventur besteht, wie oft welche Artikel gezählt und wie
+    Differenzen bereinigt werden; Zählnachweise des Jahres anfordern. Bei vor-/nachverlegter Inventur Fortschreibung bzw. Rückrechnung auf den Stichtag nachvollziehen. Sonst «nicht anwendbar
+    (Stichtagsinventur)» dokumentieren.'
+  nachweise:
+  - Zählplan und Zählprotokolle permanente Inventur
+  - Lagerbuchhaltung
+  - Fortschreibung/Rückrechnung auf Bilanzstichtag
+  rechnen: Bestand Bilanzstichtag = Bestand Inventurtag ± Zu-/Abgänge zwischen Inventurtag und Bilanzstichtag
+  feststellung_wenn: Weder Stichtagsinventur noch verlässliche permanente Inventur, oder Fortschreibung auf den Bilanzstichtag fehlt bzw. ist nicht nachvollziehbar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: ein System der permanenten Inventur eingesetzt wird und ein periodischer Vergleich mit tatsächlich vorhandenen Mengen stattfindet
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Bei vorhandener Lagerbuchhaltung besteht neben der Stichtagsinventur die Möglichkeit der permanenten Inventur
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: ist eine einwandfreie Fortschreibung oder Rückrechnung auf den Bilanzstichtag sicherzustellen
+- id: F1-104
+  vorgehen: Bewertungsgrundlage je Vorratskategorie erfragen (effektiver Einstandspreis, FIFO, gleitender Durchschnitt, Herstell-/Standardkosten) und mit dem Anhang abgleichen. In der
+    Inventarliste je Position Inventarpreis mit Markt-/Verkaufspreis abzüglich noch anfallender Kosten vergleichen; Positionen mit tieferem Netto-Veräusserungswert und deren Wertberichtigung
+    im Textfeld auflisten.
+  nachweise:
+  - Schriftliche Antwort Bewertungsgrundsätze
+  - Inventarliste mit Einstands- und Markt-/Verkaufspreisen
+  - Anhang (Bewertungsgrundsätze)
+  rechnen: 'Je Position: Wertberichtigungsbedarf = max(0; Menge × AK/HK − Menge × (Verkaufspreis − Erlösminderungen − noch anfallende Kosten)); Σ Bedarf vs. verbuchte Wertberichtigung'
+  feststellung_wenn: Bewertungsgrundlage unklar oder im Anhang abweichend beschrieben, oder Positionen mit Netto-Veräusserungswert unter AK/HK ohne ausreichende Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung über die Grundlagen der Bewertung in den einzelnen Kategorien
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Feststellung, ob das Niederstwertprinzip befolgt worden ist
+  - quelle: or__art-960c
+    zitat: der Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+- id: F1-105
+  vorgehen: Erfragen, ob Bewertungsmethode und Kalkulationsschema (Material, Löhne, Gemeinkostenzuschläge) gegenüber dem Vorjahr unverändert sind, ob eine Kostenrechnung/Betriebsbuchhaltung
+    besteht und ob sie verlässlich war (Nachkalkulationen). Antwort mit Vorjahres-/Dauerakte und Anhang abgleichen; Methodenwechsel mit Begründung und Anhangsangabe im Textfeld dokumentieren.
+  nachweise:
+  - Schriftliche Antwort
+  - Kalkulationsschema GJ/VJ
+  - Dauerakte Bewertungsgrundsätze
+  - Anhang
+  rechnen: ''
+  feststellung_wenn: Methoden- oder Kalkulationswechsel ohne Begründung bzw. Anhangsangabe, oder Kostenrechnung erweist sich als unzuverlässige Bewertungsgrundlage.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: unter Berücksichtigung von Faktoren wie Material, Saläre und Gemeinkosten stetig angewandt worden
+  - quelle: hwp-bur-2023__rz-0059-s070
+    zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden
+  - quelle: or__art-958c
+    zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- id: F1-106
+  vorgehen: Erfragen, wie Ladenhüter und überalterte Artikel erkannt werden (Lagerumschlag, letzte Bewegung/Bestellung, technische Überalterung) und wie der Wertberichtigungssatz festgelegt
+    wird. Lagerumschlags-/Altersliste anfordern und prüfen, ob die betroffenen Positionen zum Netto-Veräusserungswert bewertet sind; Methode und Ergebnis im Textfeld festhalten.
+  nachweise:
+  - Lagerumschlags-/Altersliste
+  - Berechnung Wertberichtigung unkurant
+  - Schriftliche Antwort
+  rechnen: Umschlagshäufigkeit = Abgänge zu AK / Ø Lagerbestand; WB unkurant = Σ (AK − Netto-Veräusserungswert) × Menge der identifizierten Artikel
+  feststellung_wenn: Keine Methode zur Erkennung unkuranter Ware oder identifizierte Ladenhüter nicht auf den Netto-Veräusserungswert wertberichtigt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung über die angewandte Methode zur Feststellung von Vorräten mit geringem Lagerumschlag und überalterten Vorräten
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: netto realisierbaren Wert bewertet sind
+  - quelle: hwp-bur-2023__rz-0249-s213
+    zitat: Die Höhe der Korrektur richtet sich im Allgemeinen nach der Umschlagshäufigkeit
+- id: F1-107
+  vorgehen: Erfragen, wie bei Produktkategorien mit tiefer oder negativer Marge sichergestellt wird, dass der Bilanzwert den erzielbaren Erlös abzüglich Erlösminderungen und noch anfallender
+    Kosten nicht übersteigt (Rückrechnung). Margenauswertung je Kategorie und Verkaufspreise nach Stichtag anfordern; Antwort im Textfeld, Nachrechnung in F1-304.
+  nachweise:
+  - Margenauswertung je Produktkategorie
+  - Verkaufspreislisten/Verkaufsrechnungen nach Stichtag
+  - Schriftliche Antwort
+  rechnen: Vergleichswert = Verkaufspreis − Erlösschmälerungen − Vertriebs-/Verwaltungskosten (− noch anfallende Herstellkosten)
+  feststellung_wenn: Keine Rückrechnung für margenschwache Kategorien oder Hinweise auf Verkaufspreise unter AK/HK ohne Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung, wie die verlustfreie Bewertung von Produktkategorien mit geringer Marge
+  - quelle: hwp-bur-2023__rz-0246-s212
+    zitat: Sind die Anschaffungs- oder Herstellungskosten höher als dieser Vergleichswert, ist eine entsprechende Wertberichtigung vorzunehmen (verlustfreie Bewertung).
+- id: F1-108
+  vorgehen: 'Erfragen, wie Wareneingänge, Warenausgänge und Verbräuche (Einkauf, Verkauf, Betriebsbuchhaltung) laufend und periodengerecht erfasst werden: massgeblicher Zeitpunkt (Wareneingang,
+    Rechnung, Übergang von Nutzen und Gefahr/Incoterms), Waren in Transit, Abstimmung Lager- mit Finanzbuchhaltung. Antwort im Textfeld zusammenfassen; fehlt sie, Pendenz.'
+  nachweise:
+  - Schriftliche Antwort
+  - Prozessbeschrieb Wareneingang/-ausgang
+  - Abstimmung Lager-/Finanzbuchhaltung
+  rechnen: ''
+  feststellung_wenn: Kein geregeltes Vorgehen zur periodengerechten Erfassung von Vorratsbewegungen bei wesentlichen Beständen oder keine Abstimmung Lager-/Finanzbuchhaltung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0210-s206
+    zitat: Der Übergang von Nutzen und Gefahr ist für die Aktivierungsfähigkeit in der Regel ausschlaggebend
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- id: F1-109
+  vorgehen: 'Cut-off per Stichtag erfragen (Lagersperre, letzte Lieferscheine, Waren in Transit, Material auf Baustellen). Wareneingänge/Eingangsrechnungen und Auslieferungen der letzten
+    Dezember- und ersten Januartage mit Inventarliste, Kreditoren und Debitoren abgleichen: Ware im Inventar nur mit Verbindlichkeit im alten Jahr; fakturierte, ausgelieferte Ware nicht
+    mehr im Inventar. Abweichungen im Textfeld.'
+  nachweise:
+  - Inventurprotokoll (Lagersperre)
+  - Lieferscheine/Wareneingänge Dez./Jan.
+  - Kreditorenjournal Januar Folgejahr
+  - Ausgangsrechnungen um den Stichtag
+  rechnen: 'Je Beleg: Lieferdatum ≤ 31.12. ⇒ Ware im Inventar bzw. Verbindlichkeit/Aufwand im alten Jahr; Lieferdatum > 31.12. ⇒ weder Inventar noch Verbindlichkeit im alten Jahr'
+  feststellung_wenn: Vorratsbewegungen um den Stichtag in der falschen Periode erfasst oder Ware sowohl als Forderung bzw. in Projekten als auch im Inventar bilanziert.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-2
+    zitat: Befragung über das Vorgehen zur Überwachung der zeitlichen Abgrenzung am Ende
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Bei der Inventur ist der korrekten Abgrenzung besondere Beachtung zu schenken.
+  - quelle: hwp-bur-2023__rz-0234-s209
+    zitat: Sofern diese Ware bereits als Forderung gebucht ist, darf sie nicht zusätzlich in der Position Vorräte
+- id: F1-110
+  vorgehen: Erfragen, ob Fremdware (Kommissions-/Konsignationsware, Kundeneigentum, Leihgebinde) im Lager liegt und wie sie bei der Inventur ausgeschieden wird (separate Lagerplätze,
+    Kennzeichnung, Aufzeichnungen). Antwort mit Inventurprotokoll abgleichen und Inventarliste auf fremde Artikel durchsehen; Ergebnis im Textfeld.
+  nachweise:
+  - Schriftliche Antwort
+  - Inventurprotokoll (Angabe Fremdware)
+  - Kommissionsverträge/Aufzeichnungen Fremdware
+  rechnen: ''
+  feststellung_wenn: Fremdware im Inventar aktiviert oder bei vorhandener Fremdware keine geregelte Ausscheidung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-2
+    zitat: Befragung, ob das Unternehmen Vorräte von Dritten in Konsignation besitzt und wie
+  - quelle: hwp-bur-2023__rz-0214-s207
+    zitat: In Kommission genommene Waren dürfen grundsätzlich nicht aktiviert werden
+- id: F1-111
+  vorgehen: Erfragen, ob Vorräte verpfändet (z.B. Faustpfand für Bankkredit), unter Eigentumsvorbehalt erworben, bei Dritten eingelagert oder in Konsignation an Dritte gegeben sind;
+    Kredit-/Pfandverträge, Lagerscheine und Konsignationsabrechnungen einsehen. Prüfen, ob Ware bei Dritten im Inventar enthalten ist und Verpfändung/Eigentumsvorbehalt im Anhang angegeben
+    werden.
+  nachweise:
+  - Schriftliche Antwort
+  - Kredit- und Pfandverträge
+  - Lagerscheine/Konsignationsabrechnungen
+  - Anhang
+  rechnen: Anhangsangabe = Gesamtbetrag (Buchwert) der verpfändeten Vorräte bzw. der Vorräte unter Eigentumsvorbehalt
+  feststellung_wenn: Verpfändete Vorräte oder Vorräte unter Eigentumsvorbehalt nicht im Anhang angegeben, oder eigene Ware bei Dritten/in Konsignation fehlt im Inventar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-2
+    zitat: Befragung, ob Vorräte verpfändet, an anderen Orten eingelagert oder in Konsignation
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: hwp-bur-2023__rz-0213-s207
+    zitat: In Kommission gegebene Waren (Konsignationsware) sind separat unter Vorräten, nicht als Forderungen auszuweisen.
+- id: F1-201
+  vorgehen: Saldi der Vorratskonten je Kategorie (inkl. Wertberichtigung) mit dem Vorjahr vergleichen und Lagerumschlag bzw. Lagerdauer je Kategorie aus Material-/Warenaufwand berechnen.
+    Wesentliche Veränderungen und gesunkene Umschläge (Hinweis auf Überalterung) identifizieren, Erklärung beim Kunden als Pendenz anfordern und im Textfeld dokumentieren.
+  nachweise:
+  - Saldoliste GJ/VJ
+  - Inventarliste GJ/VJ
+  - Material-/Warenaufwand je Kategorie
+  rechnen: Veränderung = Saldo GJ − Saldo VJ (CHF und %); Umschlag = Aufwand Kategorie / ((Bestand Anfang + Bestand Ende) / 2); Lagerdauer (Tage) = 365 / Umschlag
+  feststellung_wenn: Wesentliche, unerklärte Bestandesveränderung oder deutlich gesunkener Umschlag einer Kategorie ohne entsprechende Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-3
+    zitat: Vergleich des Lagerbestandes und -umschlages einzelner Produktkategorien mit jenem früherer Perioden
+  - quelle: ser-2022__6-1-2-t1
+    zitat: vergleichbaren Informationen über Vorperioden
+- id: F1-202
+  vorgehen: Bruttomarge je Produktkategorie (Erlös − Material-/Warenaufwand inkl. Bestandesänderung) für GJ und VJ berechnen. Margenrückgänge oder ungewöhnliche Margensprünge (Hinweis
+    auf Abgrenzungs- oder Bewertungsfehler, z.B. überhöhter Inventarwert) identifizieren und beim Kunden nachfragen; Ergebnis im Textfeld.
+  nachweise:
+  - Saldoliste Erfolgsrechnung GJ/VJ
+  - Umsatz- und Materialauswertung je Kategorie
+  rechnen: Bruttomarge % = (Nettoerlös − (Einkauf − Bestandeszunahme bzw. + Bestandesabnahme)) / Nettoerlös; Abweichung = Marge GJ − Marge VJ (Prozentpunkte)
+  feststellung_wenn: Wesentliche unerklärte Margenveränderung oder Marge einer Kategorie nahe/unter null (Hinweis auf fehlende verlustfreie Bewertung).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-3
+    zitat: Analytischer Vergleich der Margen einzelner Produktkategorien mit dem Vorjahr
+  - quelle: ser-2022__6-1-2-t1
+    zitat: z. B. Bruttomarge oder Sozialaufwand in Prozenten der
+- id: F1-203
+  vorgehen: 'a) Inventarliste mit Vorjahresinventar und Budget vergleichen (Mengen, Preise, Werte je Artikelgruppe); b) ABC-Analyse: Artikel nach Inventarwert sortieren, A-Anteil ermitteln
+    und mit erwarteten Umsätzen/Auftragsbestand vergleichen; c) Wertberichtigung unkurant (Bestand, Veränderung, Quote) mit Vorjahr und Lagerumschlag plausibilisieren. Auffälligkeiten
+    im Textfeld.'
+  nachweise:
+  - Inventarliste GJ/VJ
+  - Budget
+  - Auftragsbestand/Umsatzplanung
+  - Berechnung Wertberichtigung
+  rechnen: 'ABC: Artikel absteigend nach Inventarwert, kumulierter Anteil am Total; WB-Quote = Wertberichtigung / Bruttobestand, GJ vs. VJ'
+  feststellung_wenn: Unerklärte wesentliche Abweichung zu VJ/Budget, Lagerzusammensetzung passt nicht zu erwarteten Umsätzen, oder WB-Quote sinkt trotz Hinweisen auf Überalterung.
+  fundstellen:
+  - quelle: ser-2022__6-1-2-t1
+    zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen
+  - quelle: hwp-bur-2023__rz-0249-s213
+    zitat: In solchen Fällen ist es üblich, pauschale Abschläge von den Anschaffungs- oder Herstellungskosten vorzunehmen.
+- id: F1-204
+  vorgehen: Für bedeutende Vorratskategorien Mengen per Stichtag mit Mengen und Abgängen der Vorperioden sowie den erwarteten Beständen (Bestellungen, Auftragsbestand) vergleichen. Bedeutende
+    Schwankungen beim Kunden erfragen (Pendenz) und bei Überbeständen den Wertberichtigungsbedarf berechnen; Ergebnis im Textfeld.
+  nachweise:
+  - Inventarlisten mehrerer Perioden (Mengen)
+  - Abgangs-/Verbrauchsstatistik je Kategorie
+  - Bestell- und Auftragsbestand
+  rechnen: Reichweite (Monate) = Menge Stichtag / Ø monatlicher Abgang; Überbestand = Menge Stichtag − erwarteter Bedarf; WB Überbestand = Überbestand × (AK − Netto-Veräusserungswert)
+  feststellung_wenn: Bedeutende Mengenschwankung unerklärt oder Überbestände (Reichweite deutlich über Bedarf) ohne Wertberichtigung.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-2
+    zitat: Vergleich der mengenmässigen Bestände bedeutender Vorratskategorien mit den
+  - quelle: ser-2022__anh-d-s079-2
+    zitat: Ggf. Berechnung angemessener Wertberichtigungen
+  - quelle: hwp-bur-2023__rz-0247-s213
+    zitat: was vor allem bei Überbeständen der Fall sein wird
+- id: F1-205
+  vorgehen: 'Wareneinkauf nach Lieferanten auswerten (Kreditorenjournal/OP-Liste, Waren-/Materialaufwandkonten): Anteile der Hauptlieferanten berechnen; Abhängigkeiten und Belieferungssicherheit
+    (Rahmenverträge, Lieferengpässe) beim Kunden erfragen. Bedeutende Abhängigkeiten als Risikohinweis (Bewertung, Fortführung) im Textfeld festhalten.'
+  nachweise:
+  - Einkaufsstatistik nach Lieferanten
+  - Kreditoren-OP-Liste/-journal
+  - Rahmenverträge Lieferanten
+  - Schriftliche Antwort
+  rechnen: Anteil Lieferant = Einkaufsvolumen Lieferant / Total Wareneinkauf; Konzentration = Σ Anteile der 3 grössten Lieferanten
+  feststellung_wenn: Wesentliche Abhängigkeit von einem Lieferanten mit Hinweisen auf Lieferunterbruch oder Verlust des Lieferanten (Hinweis an WP, Fortführung).
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0192-s224
+    zitat: Verlust eines/einer umsatzstarken Kunden oder bedeutenden Absatzmarkts, Franchise, Lizenz oder Lieferanten
+  - quelle: ser-2022__6-1-2-t2
+    zitat: zwischen Finanzinformationen und relevanten nicht-finanziellen Informationen
+- id: F1-301
+  vorgehen: Totale der Inventarliste je Konto (inkl. Wertberichtigung) mit den Saldi der Hauptbuchkonten per Stichtag abstimmen und mit Saldoliste/Bilanzposition Vorräte abgleichen.
+    Differenzen sowie Vorratskonten ohne Inventarnachweis auflisten; Abstimmung im Textfeld dokumentieren. Bei wesentlicher Position mindestens diese Detailprüfung durchführen.
+  nachweise:
+  - Inventarliste per Bilanzstichtag
+  - Saldoliste/Kontoblätter Vorratskonten
+  - Bilanz
+  rechnen: Σ Inventarwerte je Konto = Saldo Hauptbuchkonto; Σ Inventarliste netto (nach Wertberichtigung) = Bilanzposition Vorräte
+  feststellung_wenn: Differenz zwischen Inventarliste und Hauptbuch oder Vorratskonto mit Saldo ohne Inventarnachweis.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s078-3
+    zitat: Abstimmung des Totals der Inventarlisten und des Nachweises der nicht fakturierten
+  - quelle: hwp-er-2026__rz-0140-s206-t2
+    zitat: Demnach ist im vorliegenden Beispiel die eine Detailprüfung
+  - quelle: or__art-958c
+    zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- id: F1-302
+  vorgehen: Bewusste Auswahl treffen (grösste Inventarpositionen, auffällige Preise); Inventarpreise mit den letzten Lieferantenrechnungen vergleichen (inkl. Bezugskosten, abzüglich
+    Rabatte; FIFO bzw. gleitender Durchschnitt gemäss Methode). Keine Hochrechnung; Einzelabweichungen mit Betrag und Auswahlkriterium im Textfeld dokumentieren.
+  nachweise:
+  - Inventarliste
+  - Lieferantenrechnungen (letzte Einkäufe)
+  - Lagerbewertung (FIFO/Durchschnitt)
+  rechnen: 'Je Position: Abweichung = (Inventarpreis − belegter Einstandspreis inkl. Bezugskosten abzüglich Rabatte) × Menge'
+  feststellung_wenn: Inventarpreise übersteigen belegte Einstandspreise oder die Methode (FIFO/Durchschnitt) ist nicht korrekt bzw. nicht stetig angewandt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-1
+    zitat: Stichprobenmässige Prüfung der Bewertung des Rohmaterials und eingekaufter Handelswaren zu Einstandspreisen
+  - quelle: hwp-bur-2023__rz-0218-s207
+    zitat: gekürzt um Rabatte aller Art
+  - quelle: ser-2022__6-1-3
+    zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+- id: F1-303
+  vorgehen: 'Nur bei eigener Herstellung (Anlagen-/Projektgeschäft): Herstellkostenwerte ausgewählter Positionen mit Kalkulation und Kostenrechnung abstimmen (Material, Fertigungslöhne,
+    Gemeinkostenzuschläge) und plausibilisieren, dass keine Verwaltungs-/Vertriebs- oder Unterbeschäftigungskosten aktiviert sind. Keine vertiefte Kalkulationsprüfung; sonst «nicht anwendbar»
+    dokumentieren.'
+  nachweise:
+  - Kalkulationen/Nachkalkulationen
+  - Betriebsabrechnung/Kostenrechnung
+  - Zuschlagssätze Gemeinkosten
+  rechnen: HK = Materialeinzelkosten + Materialgemeinkosten + Fertigungslöhne + Fertigungsgemeinkosten; HK gemäss Kalkulation = HK gemäss Inventar
+  feststellung_wenn: Herstellkosten enthalten nicht aktivierbare Kosten (Verwaltung/Vertrieb, Unterbeschäftigung) oder weichen wesentlich von der Kalkulation ab.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-1
+    zitat: Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: eine Plausibilisierung der Herstellkostenkalkulation vor
+  - quelle: hwp-bur-2023__rz-0221-s207
+    zitat: Nicht zu den Herstellungskosten gehören die allgemeinen Verwaltungs- und Vertriebskosten
+- id: F1-304
+  vorgehen: 'Wertberichtigungsberechnung des Kunden für Produktkategorien mit ungenügender Marge nachrechnen: erzielbare Verkaufspreise (Preislisten, Verkäufe nach Stichtag) abzüglich
+    Erlösminderungen und noch anfallender Kosten mit AK/HK vergleichen; Differenz × Menge mit der verbuchten Wertberichtigung abstimmen. Abweichungen im Textfeld.'
+  nachweise:
+  - Berechnung Wertberichtigung des Kunden
+  - Verkaufspreislisten/Verkaufsrechnungen nach Stichtag
+  - Inventarliste
+  - Kontoblatt Wertberichtigung Vorräte
+  rechnen: WB je Position = max(0; AK/HK − (Verkaufspreis − Erlösminderungen − noch anfallende Kosten)) × Menge; Σ WB nachgerechnet vs. Saldo Wertberichtigungskonto
+  feststellung_wenn: Nachgerechneter Wertberichtigungsbedarf übersteigt die verbuchte Wertberichtigung (Überbewertung) oder Berechnung ist nicht nachvollziehbar.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s079-1
+    zitat: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie
+  - quelle: hwp-bur-2023__rz-0246-s212
+    zitat: Eine Wertkorrektur unter den Liquidationswert ist nicht notwendig.
+  - quelle: or__art-960c
+    zitat: der Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+- id: F1-320
+  vorgehen: Prüfen, ob der Anhang die Bewertungsgrundsätze der Vorräte (soweit nicht gesetzlich vorgeschrieben), allfällige Methodenwechsel, verpfändete Vorräte bzw. Vorräte unter Eigentumsvorbehalt
+    und eine wesentliche Nettoauflösung stiller Reserven (z.B. Abbau Warendrittel) korrekt enthält. Abweichungen zu F1-104/105/111/321 im Textfeld festhalten.
+  nachweise:
+  - Anhang Jahresrechnung
+  - Ergebnisse F1-104, F1-105, F1-111, F1-321
+  rechnen: ''
+  feststellung_wenn: Pflichtangabe zu Vorräten fehlt oder ist falsch (Bewertungsgrundsätze, Methodenwechsel, Verpfändung/Eigentumsvorbehalt, Nettoauflösung stiller Reserven).
+  fundstellen:
+  - quelle: or__art-959c-t1
+    zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+  - quelle: or__art-959c-t2
+    zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: ser-2022__anh-d-s072-2
+    zitat: ggf. Offenlegung einer wesentlichen Nettoauflösung im Anhang
+- id: F1-321
+  vorgehen: Stille Reserven auf Vorräten (Warendrittel, zusätzliche Wertberichtigungen über den betriebsnotwendigen Bedarf) per Stichtag und Vorjahr aus der Aufstellung des Kunden übernehmen
+    und mit Inventarliste/Wertberichtigungskonto abstimmen. Veränderung (Bildung/Auflösung) berechnen, in die Gesamtaufstellung stille Reserven übertragen und Nettoauflösung für F1-320
+    vormerken.
+  nachweise:
+  - Aufstellung stille Reserven des Kunden
+  - Berechnung Wertberichtigung (betriebsnotwendig vs. steuerlich)
+  - Vollständigkeitserklärung
+  rechnen: Stille Reserve = Wertberichtigung total − betriebsnotwendige Wertberichtigung (unkurant/verlustfreie Bewertung); Veränderung = Reserve GJ − Reserve VJ (negativ = Auflösung)
+  feststellung_wenn: Aufstellung fehlt oder stimmt nicht mit Inventar/Wertberichtigung überein, oder wesentliche Nettoauflösung ohne Anhangsangabe.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: hwp-bur-2023__rz-0253-s214
+    zitat: hat der auf dem Restwert gebildete steuerliche Bewertungsabzug nicht mehr Wertberichtigungs-, sondern Reservecharakter
+  - quelle: hwp-bur-2023__rz-0759-s320
+    zitat: zwangsläufig zu einer Auflösung stiller Reserven
+- id: F1-322
+  vorgehen: 'Dauerakte Vorräte nachführen: Bewertungsgrundsätze und -methode, Inventurorganisation/-instruktion, Lagerorte und Fremdlager, Pfand- und Konsignationsverträge, Hauptlieferanten,
+    Berechnungsschema Wertberichtigung/Warendrittel. Änderungen gegenüber Vorjahr im Textfeld vermerken.'
+  nachweise:
+  - Dauerakte Vorräte
+  - aktuelle Verträge und Instruktionen
+  rechnen: ''
+  feststellung_wenn: Dauerakte veraltet und dadurch Änderungen (Methode, Verträge, Lagerorte) nicht erkennbar – als Pendenz für den WP erfassen.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung
+- id: F1-401
+  vorgehen: a) Inventurbeobachtung und c) Nachzählen sind nicht Bestandteil der eingeschränkten Revision (nur auf separaten Entscheid des WP; Agent führt sie nie aus). b) Inventurprotokoll
+    und Zähllisten mit der Instruktion vergleichen (Lagersperre, Zählteams, Fremdware, Unterschriften); d) Zählmengen mit der Inventarliste abstimmen und Inventur nachrechnen. Abweichungen
+    im Textfeld.
+  nachweise:
+  - Inventurinstruktion
+  - Inventurprotokoll
+  - Zähllisten (unterzeichnet)
+  - Inventarliste
+  rechnen: 'Je Artikel: Menge Zählliste = Menge Inventarliste; Inventarwert = Menge × Preis; Σ Positionen = Total je Konto'
+  feststellung_wenn: Zähllisten fehlen, sind unvollständig oder nicht unterzeichnet, Mengen weichen von der Inventarliste ab oder die Instruktion wurde nicht eingehalten.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: die Teilnahme an der Inventur (Beobachtung);
+  - quelle: hwp-er-2026__rz-0261-s085
+    zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Eine genaue Inventurinstruktion kann Mängeln vorbeugen
+- id: F1-402
+  vorgehen: 'Nur bei permanenter Inventur: a) Inventuranweisung und Zählplan einsehen (Zählzyklus, Abdeckung aller Artikel im Jahr, Differenzbehandlung); b) Bestandesnachweise am Revisionsstichtag
+    dokumentenbasiert (Zählprotokolle, Differenzlisten, Lagerbuchhaltung) erbringen, kein physisches Nachzählen. Ergebnis im Textfeld, sonst «nicht anwendbar».'
+  nachweise:
+  - Inventuranweisung permanente Inventur
+  - Zählprotokolle/Differenzlisten des Jahres
+  - Lagerbuchhaltung
+  rechnen: Abdeckung = im GJ gezählter Lagerwert / Total Lagerwert; Differenzquote = Σ Inventurdifferenzen / Lagerwert
+  feststellung_wenn: Wesentliche Artikel im Jahr nicht gezählt, hohe oder ungeklärte Inventurdifferenzen oder keine verlässliche Lagerbuchhaltung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Bei vorhandener Lagerbuchhaltung besteht neben der Stichtagsinventur die Möglichkeit der permanenten Inventur
+  - quelle: hwp-er-2026__rz-0078-s193
+    zitat: auf die beim geprüften Unternehmen intern vorhandenen Unterlagen
+- id: F1-403
+  vorgehen: 'Anhand Inventurinstruktion und -protokoll beurteilen: Zweck, Verantwortlichkeiten, Termine, Zählteams, Lagersperre/Abgrenzung, Behandlung Fremdware und unkuranter Ware,
+    Übertrag der Zähllisten, Klärung von Inventurdifferenzen. Mängel und mögliche Auswirkung auf Bestand/Vollständigkeit im Textfeld dokumentieren.'
+  nachweise:
+  - Inventurinstruktion
+  - Inventurprotokoll
+  - Zähllisten
+  - Differenzliste
+  rechnen: ''
+  feststellung_wenn: Wesentliche Mängel in Instruktion, Ablauf oder Überwachung (z.B. keine Lagersperre, keine unterzeichneten Zähllisten), die den Bestandsnachweis in Frage stellen.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Sie regelt insbesondere den Zweck der Inventur, Verantwortlichkeiten, Termine, zu verwendende Unterlagen
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Bei der Inventur ist der korrekten Abgrenzung besondere Beachtung zu schenken.
+- id: F1-404
+  vorgehen: 'Externe Bestätigungen holt der Abschlussprüfer in der eingeschränkten Revision nicht selbst ein. Beim Kunden vorhandene Nachweise beiziehen: vom Kunden eingeholte Bestandesbestätigungen,
+    Lagerscheine, Konsignationsabrechnungen per Stichtag; Mengen mit der Inventarliste abstimmen. Fehlen Nachweise für wesentliche Bestände bei Dritten, Pendenz erfassen.'
+  nachweise:
+  - Vom Kunden eingeholte Bestätigungen Konsignations-/Fremdlager
+  - Lagerscheine/Warenpapiere
+  - Konsignationsabrechnungen
+  rechnen: Menge gemäss Bestätigung bzw. Lagerschein = Menge Inventarliste (Fremdlager)
+  feststellung_wenn: Wesentliche Bestände bei Dritten ohne Nachweis oder Mengen weichen von der Inventarliste ab.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+  - quelle: hwp-er-2026__rz-0095-s196
+    zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+  - quelle: hwp-bur-2023__rz-0205-s206
+    zitat: durch ein Konnossement, einen Lagerschein oder andere Warenpapiere erfolgen
+- id: F1-405
+  vorgehen: 'Inventarliste vollständig nachrechnen: je Position Menge × Preis = Inventarwert, Zwischentotale je Konto/Kategorie, Abzug Wertberichtigung und Gesamttotal. Rechenmodul nutzen;
+    jede Differenz mit Position und Betrag im Textfeld festhalten.'
+  nachweise:
+  - Inventarliste (Excel/PDF)
+  rechnen: 'Je Zeile: Menge × Einstandspreis = Inventarwert; Σ Zeilen je Konto = ausgewiesenes Kontototal; Σ Kontototale − Wertberichtigung = Total Vorräte netto'
+  feststellung_wenn: Rechen- oder Additionsfehler in der Inventarliste (jede Differenz melden; Wesentlichkeit beurteilt der WP).
+  fundstellen:
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen
+  - quelle: hwp-or-2024__rz-0901-s348-t1
+    zitat: Prüfung der mathematischen Richtigkeit der Bewertung
+- id: F1-406
+  vorgehen: Sachversicherungspolice (Warenlager/Betriebsinventar) einsehen und Versicherungssumme mit dem Inventarwert brutto (zu AK, vor Wertberichtigungen/stillen Reserven) und mit
+    Spitzenbeständen vergleichen. Unterversicherung als Risikohinweis im Textfeld festhalten; die Versicherungssumme ist kein Bewertungsmassstab für die Bilanz.
+  nachweise:
+  - Sachversicherungspolice Warenlager
+  - Prämienrechnung
+  - Inventarliste
+  rechnen: Deckungsgrad = Versicherungssumme Waren / Inventarwert brutto zu AK
+  feststellung_wenn: Versicherungssumme deutlich unter dem Inventarwert brutto (Unterversicherung) – Hinweis an WP.
+  fundstellen:
+  - quelle: katalog-revio4__c003-20
+    zitat: Beurteilung Angemessenheit der Versicherungswerte

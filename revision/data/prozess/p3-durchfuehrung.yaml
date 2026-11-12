@@ -1,0 +1,568 @@
+# Prozessphase p3-durchfuehrung – was nötig ist (kein starrer Ablauf), mit Fundstellen.
+id: p3-durchfuehrung
+titel: 'Durchführung: Befragungen, analytische Prüfungshandlungen, angemessene Detailprüfungen'
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prozess-werte
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 13
+    korrigiert: false
+ziel: Je Prüffeld ausreichende und geeignete Prüfungsnachweise mit der gesetzlich beschränkten Kombination aus Befragungen, Analytik und angemessenen Detailprüfungen (v. a. Bestand/Bewertung)
+  erlangen, Feststellungen und Fehlaussagen erfassen und alles im revio-Prüfschritt nachvollziehbar dokumentieren; Beurteilung und Visum beim WP.
+wann: Nach Prozess 1 (Import; in der Testphase erst nach Kontrolle durch den WP) und gelesener Planung (3.1 Risiken, 3.3 Wesentlichkeit, 3.5 Strategie); laufend je markiertem Prüfschritt
+  bis vor Beendigung (Bereich 6) und Schlussbesprechung; erneut, wenn sich Risikolage oder Wesentlichkeit ändert.
+gesetz:
+- thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- thema: 'Prüfungsgegenstand: Gesetzes- und Statutenkonformität der Jahresrechnung (Art. 729a Abs. 1 OR)'
+  quelle: or__art-729a
+  zitat: die Jahresrechnung nicht den gesetzlichen Vorschriften und den Statuten entspricht
+- thema: Geschäftsführung nicht Prüfungsgegenstand (Art. 729a Abs. 3 OR)
+  quelle: or__art-729a
+  zitat: Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.
+- thema: Vorlage- und Auskunftspflicht des Verwaltungsrats (Art. 730b Abs. 1 OR)
+  quelle: or__art-730b
+  zitat: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich.
+- thema: Dokumentations- und Aufbewahrungspflicht (Art. 730c Abs. 1 OR)
+  quelle: or__art-730c
+  zitat: Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren
+- thema: Prüfbarkeit der Arbeitspapiere (Art. 730c Abs. 2 OR)
+  quelle: or__art-730c
+  zitat: Die Unterlagen müssen es ermöglichen, die Einhaltung der gesetzlichen Vorschriften in effizienter Weise zu prüfen.
+- thema: Gesonderter Ausweis von Forderungen/Verbindlichkeiten gegenüber Beteiligten und Organen (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+- thema: Rückerstattung ungerechtfertigter Leistungen an Aktionäre, Organe, Nahestehende (Art. 678 Abs. 1 OR)
+  quelle: or__art-678
+  zitat: sind zur Rückerstattung von Dividenden, Tantiemen, anderen Gewinnanteilen, Vergütungen
+- thema: Offensichtliches Missverhältnis bei Rechtsgeschäften mit Nahestehenden (Art. 678 Abs. 2 OR)
+  quelle: or__art-678
+  zitat: soweit ein offensichtliches Missverhältnis zwischen Leistung und Gegenleistung besteht
+- thema: Mitwirkung bei der Buchführung zulässig, Selbstprüfung organisatorisch ausschliessen (Art. 729 Abs. 2 OR)
+  quelle: or__art-729
+  zitat: Das Mitwirken bei der Buchführung und das Erbringen anderer Dienstleistungen für die zu prüfende Gesellschaft sind zulässig.
+- thema: Offenlegung der Mitwirkung im Revisionsbericht (Art. 729b Abs. 1 Ziff. 3 OR)
+  quelle: or__art-729b
+  zitat: Angaben zur Unabhängigkeit und gegebenenfalls zum Mitwirken bei der Buchführung
+- thema: 'Einzige Anzeigepflicht: offensichtliche Überschuldung (Art. 729c OR)'
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+schritte:
+- was: 'Arbeitsrahmen je Prüffeld laden: Wesentlichkeit aus 3.3 (Gesamt-, Toleranzwesentlichkeit, Nichtaufgriffsgrenze) nur lesen, Risiko aus 3.1 und Strategie aus 3.5 berücksichtigen,
+    markierte Prüfschritte mit Ziel und Prüfzielen laden, Vorjahresschritt zur Orientierung lesen. Unplausible Wesentlichkeitsfestlegung als Pendenz.'
+  wer: Agent
+  revio: '3.3 Wesentlichkeit (rv_get_workpapers_LoadMaterialityOfDossier), 3.1/3.5 lesen; Bereich 4 Prüffeld (rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId;
+    Vorjahr: rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId)'
+  mfiles: ''
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ziel und Prüfziele lesen → Risiko und Strategie aus 3.1 und 3.5 berücksichtigen → Nachweise in M-Files beschaffen
+  - quelle: hwp-er-2026__rz-0105-s198
+    zitat: Der Begriff der Wesentlichkeit bezieht sich in diesem Zusammenhang auf die sogenannte Toleranzwesentlichkeit
+- was: 'Kombination der Prüfungshandlungen je Position vorschlagen: bei wesentlichen Positionen (über Toleranzwesentlichkeit) die im konkreten Fall geeigneten empfohlenen Handlungen
+    aus SER Anhang D (nicht alle), mindestens zwei Arten kombiniert; weitergehende Handlungen (4xx) nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko und
+    nur auf Anweisung.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 'Bereich 4, Prüfschritte nach Typ 1xx/2xx/3xx/4xx; Auswahlstatus eines Schritts (CSV: rv_post_auditActivities_SetAuditActivitySelectionState, Bedeutung zu bestätigen) setzt
+    nicht der Agent'
+  mfiles: ''
+  fundstellen:
+  - quelle: ser-2022__6-2-1
+    zitat: In vielen Fällen wird nur eine effiziente Kombination von mindestens zwei Arten von Prüfungshandlungen
+  - quelle: hwp-er-2026__rz-0130-s203
+    zitat: sondern jene, welche in der konkreten Situation geeignet sind, das vorhandene Prüfungsrisiko zu reduzieren
+  - quelle: ser-2022__6-2-3
+    zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+- was: 'Befragungen (1xx) vorbereiten: je Frage festhalten, welche Aussage/welches Prüfziel geprüft wird und wer an der Quelle der Information sitzt (auch ausserhalb Rechnungswesen).
+    Der Agent befragt nicht selbst: schriftliche Antworten (10.11, Korrespondenz) auswerten, kritisch würdigen (Widersprüche zu Belegen und Unternehmensverständnis), offene Fragen als
+    Pendenz bzw. Schlussbesprechungspunkt; Status höchstens «teilweise bearbeitet».'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Prüfschritte 1xx (Textfeld); 10.11 Kundenbefragung lesen (rv_get_workpapers_LoadLocalQuestionnaire); Notiz «Pendenz» bzw. «Schlussbesprechung»
+  mfiles: Korrespondenz, Besprechungsnotizen, schriftliche Kundenantworten zum Geschäftsjahr
+  fundstellen:
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Wichtig ist eine angemessene Vorbereitung der Befragung.
+  - quelle: ser-2022__6-1-1-t2
+    zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+- was: 'Analytische Prüfungshandlungen (2xx): zuerst Erwartung bilden (Vorjahr, Budget, Kennzahlen, Relationen zu nicht-finanziellen Daten), tolerierbare Abweichung aus der Toleranzwesentlichkeit
+    ableiten, Zahlen um Bildung/Auflösung stiller Reserven bereinigen, Abweichungen im Rechenmodul berechnen und Erklärungen plausibilisieren; nicht plausible Entwicklungen mit Detailprüfung
+    oder Frage nachverfolgen.'
+  wer: Agent
+  revio: Kontenübersicht des Prüffelds (rv_get_financialStatement_LoadAccountView), 1.2 Kennzahlen (rv_get_financialStatement_LoadKeyFigureView), 10.3 Stille Reserven lesen; Ergebnis
+    im Textfeld 2xx
+  mfiles: Budget/Prognosen, Vorjahresabschluss, nicht-finanzielle Daten (z. B. Mitarbeitende, Mengen)
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: die Höhe der Differenzen zwischen den ausgewiesenen Beträgen und den erwarteten Werten, die für den Abschlussprüfer als noch vertretbar gelten können
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden, und bereinigt die Zahlen entsprechend
+  - quelle: ser-2022__6-1-2-t3
+    zitat: die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
+- was: 'Angemessene Detailprüfungen (3xx), v. a. Bestand und Bewertung: Saldo mit Detailnachweis/Nebenbuch abstimmen (Nachrechnen, Übertragung), Belege und Verträge einsehen (Grunderfassung
+    = Beleg, Datum, Kontierung, Echtheit), mit Auszügen abstimmen, Zahlungen/Belege in neuer Rechnung durchsehen; IT-Auswertungen des Kunden vorher mit Haupt-/Nebenbuch abstimmen. Fehlender
+    Beleg = Pendenz mit Konto, Datum, Betrag.'
+  wer: Agent
+  revio: Prüfschritte 3xx (Textfeld); Beleg beim Schritt ablegen (rv_post_auditActivities_AddAttachementsToAuditActivity); Notiz «Pendenz»
+  mfiles: Belege, OP-Listen, Bank-/Kontoauszüge, Anlagespiegel, Inventarlisten, Verträge – Suche über Metadaten Kunde/Geschäftsjahr/Klasse; M-Files-ID und Version notieren
+  fundstellen:
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
+  - quelle: ser-2022__6-1-3
+    zitat: Bewertungsprüfungen können etwa mittels Belegprüfungen, Abstimmung mit Preislisten usw. durchgeführt werden.
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: hwp-er-2026__rz-0266-s244
+    zitat: IT-gestützte Auswertungen werden abgestimmt mit Werten aus der Finanzbuchhaltung oder den Nebenbüchern
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'M-Files: REST-API, Suche über Metadaten (Kunde, Geschäftsjahr, Klasse) statt Volltext.'
+- was: 'Auswahl der zu prüfenden Elemente begründen: Vollerhebung (wenige Posten mit hohem Wert, bedeutsames Risiko) oder gezielte Auswahl (Posten über Toleranzwesentlichkeit, Schlüsselelemente,
+    ungewöhnliche Posten: Vorzeichen, runde Beträge, Stichtagsnähe, Nahestehende); keine repräsentative/statistische Stichprobe, keine Hochrechnung; Vorgaben des WP je Mandat/Prüffeld
+    übernehmen.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Textfeld des Prüfschritts (Auswahl und Umfang mit Begründung)
+  mfiles: Detaillisten (OP-, Anlagen-, Inventarlisten) als Grundgesamtheit
+  fundstellen:
+  - quelle: ser-2022__6-1-3
+    zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+  - quelle: hwp-er-2026__rz-0259-s243
+    zitat: a) Auswahl aller Elemente (Vollerhebung);
+  - quelle: hwp-er-2026__rz-0261-s243
+    zitat: beispielsweise Elemente mit einem hohen Wert oder Schlüsselelemente
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
+- was: 'Grenzen einhalten: nicht vorgesehene Handlungen ohne Begründung weglassen – keine Drittbestätigungen (Bank, Debitoren, Kreditoren, Anwalt), keine Inventurbeobachtung, keine IKS-/IT-Prüfung,
+    keine Suche nach deliktischen Handlungen. Vom Kunden selbst eingeholte Bestätigungen als Nachweis verwenden; sonst Ersatznachweise (Zahlungseingänge neues Jahr, Versandpapiere) und
+    im Textfeld nennen.'
+  wer: Agent
+  revio: 4xx-Schritte nur auf Anweisung; Ersatznachweis im Textfeld des betroffenen Schritts
+  mfiles: vom Kunden eingeholte Bank-/Anwaltsbestätigungen, Zahlungen in neuer Rechnung, Versandpapiere
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen
+  - quelle: ser-2022__6-2-6
+    zitat: Der Abschlussprüfer muss deshalb nicht begründen, weshalb er diese Prüfungshandlungen nicht durchführt.
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen, selbst wenn diese nicht direkt an ihn ge
+  - quelle: hwp-er-2026__rz-0139-s204-t1
+    zitat: namentlich mit der Durchsicht von Versandpapieren oder Nachweisen von Zahlungseingängen im neuen Jahr
+- was: 'GV- und VR-Protokolle des Geschäftsjahres und bis zur Prüfung lesen (A1-304): Sachverhalte mit Auswirkung auf die Jahresrechnung (Genehmigung Vorjahr, Gewinnverwendung, Darlehen,
+    Rechtsstreitigkeiten, Organwechsel) den betroffenen Prüffeldern zuordnen; fehlende Protokolle als Pendenz bzw. PBC-Vorschlag.'
+  wer: Agent
+  revio: A1-304; 10.9 Protokolle; 10.10 PBC-Liste (nur Vorschlag)
+  mfiles: GV-/VR-Protokolle, Statuten, Handelsregisterauszug (Dauerakten)
+  fundstellen:
+  - quelle: katalog-revio4__c003-4
+    zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen.
+  - quelle: hwp-er-2026__rz-0119-s201
+    zitat: Gegenstand des Aktenstudiums sind u.a. Statuten, Gesellschaftsverträge, Aktionärsbindungsverträge, Protokolle von Generalversammlungen und Verwaltungsratssitzungen
+- was: 'Nahestehende Personen: Kreis bestimmen (Befragung, Aktienbuch, HR-Auszug, Protokolle), Transaktionen und Salden feststellen (C1-204, D1-201, E1-203, H2-201, K1-203, L1-104, M1-304,
+    N1-104, R1-405), Hintergrund und Konditionen würdigen (Drittvergleich; Zinsen mit ESTV-Sätzen des Jahres vergleichen), gesonderten Ausweis prüfen (T1-315), bei Aktionärsdarlehen
+    freies Eigenkapital mit Forderungen vergleichen (D1-404) und die Drittvergleichsanalyse des VR einsehen.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Prüfschritte C1-204, D1-201, D1-404, E1-203, H2-201, K1-203, L1-104, M1-304, N1-104, R1-405, T1-315; Notiz «Wesentliche Feststellungen» bei Abweichung
+  mfiles: Aktienbuch, Handelsregisterauszug, Darlehens-/Kontokorrentverträge mit Aktionären und Organen, Lohnunterlagen Organe, Drittvergleichsanalyse des VR
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
+  - quelle: hwp-er-2026__rz-0167-s215
+    zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
+  - quelle: hwp-er-2026__rz-0181-s218
+    zitat: Die Revisionsstelle nimmt Einsicht in die Analyse, die der Verwaltungsrat oder die Geschäftsleitung erarbeitet hat.
+  - quelle: katalog-revio4__c003-67
+    zitat: Prüfung, ob Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+  - quelle: estv-zinsen-2026__s001-1
+    zitat: an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar
+- was: 'Gesetzes- und Statutenverstösse nicht aktiv suchen, aber bei der Arbeit festgestellte Verstösse mit direktem Bezug zur Jahresrechnung mit Fundstelle festhalten: Kapitalverlust/Überschuldung
+    (Art. 725a/725b OR, P1-313) immer; ferner z. B. eigene Aktien (Art. 659), Ungleichbehandlung (Art. 660), ungerechtfertigte Leistungen (Art. 678), Aktionärsdarlehen/Kapitalrückzahlung
+    (Art. 680), Einberufungsfrist (Art. 699), fehlende Genehmigung (Art. 958 Abs. 3). Organisationsreglement: keine Hinweispflicht.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: P1-313, A1-304; Notiz «Wesentliche Feststellungen» bzw. «Schlussbesprechung»
+  mfiles: Protokolle, Statuten, Aktienbuch
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0268-s086
+    zitat: Auch im Gesetz findet sich keine Verpflichtung, wonach im Rahmen der eingeschränkten Revision aktiv auf allfällige weitere Gesetzesverstösse zu achten
+  - quelle: ser-2022__8-3-2-t1
+    zitat: sind in jedem Fall im Revisionsbericht anzubringen
+  - quelle: ser-2022__8-3-2-t1
+    zitat: wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung aufweisen und aufgrund der durchgeführten Prüfungshandlungen (z. B. aus der Befragung) festgestellt wurden
+  - quelle: ser-2022__8-3-2-t2
+    zitat: Für Verstösse gegen das Organisationsreglement besteht keine Hinweispflicht.
+  - quelle: katalog-revio4__c003-52
+    zitat: Beurteilung Eigenkapital in Bezug auf OR 725
+- was: Hinweise auf verdeckte Gewinnausschüttung (Leistung an Aktionäre/Nahestehende ohne angemessene Gegenleistung) mit Betrag, Beleg und Berechnung als «Wesentliche Feststellung» erfassen;
+    schriftliche Mitteilung an den VR, Rückforderung nach Art. 678 OR, Verbuchung und Berichtsfolgen beurteilt der WP.
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Notiz «Wesentliche Feststellungen» mit Beilage; betroffener Prüfschritt (z. B. R1-405, D1-404)
+  mfiles: ''
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0163-s212
+    zitat: Bei der Beurteilung, ob eine Leistung der Gegenleistung entspricht, besteht in der Praxis ein erheblicher Ermessensspielraum.
+  - quelle: hwp-er-2026__rz-0164-s212-t1
+    zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+- was: 'Feststellungen und Fehlaussagen: Abweichungen über der Nichtaufgriffsgrenze laufend zusammenstellen (Konto, Betrag, Ursache, Prüfschritt) und als Notiz «Wesentliche Feststellungen»
+    mit begründetem Buchungsvorschlag erfassen; darunter nur protokollieren (qualitative Faktoren beachten). Keine Umbuchung in revio, keine Buchung beim Kunden; Kommunikation an die
+    Unternehmensleitung und Beurteilung nicht korrigierter Fehler (6.1, A1-203) durch den WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 'Notiz «Wesentliche Feststellungen» (CSV: rv_get_containerDefinitions_GetNoteTypes, rv_put_workpapers_UpdateNote – Zuordnung zu bestätigen); 10.2 Umbuchungsliste und 6.1 nur
+    lesen (rv_get_financialStatement_LoadLedgerAdjustements); rv_post_financialStatement_AppendLedgerAdjustement nie'
+  mfiles: ''
+  fundstellen:
+  - quelle: ser-2022__5-3
+    zitat: Während der Prüfung festgestellte Fehlaussagen werden laufend in einer Zusammenstellung nachgeführt
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
+- was: 'Unzureichende Nachweise oder geänderte Risikolage: zuerst alle vorgesehenen Handlungen ausschöpfen, Feststellung nicht als Einzelfall behandeln (verwandte Posten/Vorjahr prüfen);
+    verbleibende Lücke als Pendenz und im Rapport melden. Annahme, Einschränkung oder Unmöglichkeit der Prüfungsaussage entscheidet der WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Notiz «Pendenz»; Schrittstatus im Rapport «teilweise»
+  mfiles: ''
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0139-s204-t1
+    zitat: Wichtig ist, dass der Abschlussprüfer sämtliche ihm zur Verfügung stehenden Prüfungshandlungen durchführt, bevor er eine Annahme trifft.
+  - quelle: hwp-er-2026__rz-0270-s245
+    zitat: Der Abschlussprüfer geht im Regelfall nicht davon aus, dass eine konkrete Prüfungsfeststellung ein isoliertes Ereignis darstellt.
+  - quelle: hwp-er-2026__rz-0271-s245
+    zitat: ist die Prüfungsaussage ggf. einzuschränken oder – falls die Unmöglichkeit einer Prüfungsaussage besteht – auf diese zu verzichten
+- was: 'Vollständigkeitserklärung und schriftliche Bestätigung von Kernaussagen vorbereiten (A1-103): Muster SER Anhang E an das Mandat anpassen (nahestehende Personen, stille Reserven,
+    Ereignisse nach Stichtag) als Entwurf; Besprechung, Unterzeichnung und Versand über den WP, kein Kundenversand durch den Agenten.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: A1-103; 10.4 Jahresrechnung und Vollständigkeitserklärung (Ablage nach Eingang)
+  mfiles: Vorjahres-Vollständigkeitserklärung als Vorlage; Entwurf ablegen
+  fundstellen:
+  - quelle: katalog-revio4__c003-2
+    zitat: Vollständigkeitserklärung besprechen und unterzeichnen lassen.
+  - quelle: ser-2022__6-2-5
+    zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung
+  - quelle: ser-2022__anh-e-s103-1
+    zitat: Der Abschlussprüfer beurteilt im Einzelfall, welche Ergänzungen oder Streichungen angebracht bzw. notwendig sind
+- was: 'Je Prüfschritt im Textfeld dokumentieren: Prüfziele, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis und eigene Schlussfolgerung, Feststellungen,
+    Pendenzen, Status; Nachweise beim Schritt oder an der Notiz anhängen; Mandatskontext vor jeder Ablage prüfen; Visum, ✓ und Abschliessende Beurteilung offen lassen; jede Aktion im
+    Protokoll.'
+  wer: Agent
+  revio: 'Prüfschritt-Textfeld (CSV: rv_put_auditActivities_UpdateDossierActivity – Zuordnung zu bestätigen); Beilagen (rv_post_auditActivities_AddAttachementsToAuditActivity)'
+  mfiles: Agenten-Protokoll (Audit Trail) je Mandat und Jahr ablegen
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status
+  - quelle: hwp-er-2026__rz-0278-s246
+    zitat: Für die Prüfungshandlungen hält der Abschlussprüfer eigene Schlussfolgerungen fest.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Kein Visum, kein ✓, keine Abschliessende Beurteilung
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: Jeder Zugriff und jede Ablage wird dagegen geprüft; bei Abweichung bricht der Agent ab und erfasst eine Pendenz.
+entscheidungen_wp:
+- text: Ob der Agent WP-Schritte vorbereitet, welche Schritte als «markiert»/im Umfang gelten und ob weitergehende 4xx-Handlungen durchgeführt werden (offener Entscheid consis).
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- text: Standardauswahl der Elemente bestätigen bzw. Vorgabe je Mandat/Prüffeld erfassen.
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: 'Zu bestätigen: Standardauswahl und wo der Wirtschaftsprüfer seine Vorgabe erfasst.'
+- text: Ob ausreichende geeignete Prüfungsnachweise vorliegen.
+  quelle: hwp-er-2026__rz-0085-s195
+  zitat: liegt im professionellen Ermessen des Abschlussprüfers
+- text: Wesentlichkeit einzelner und kumulierter Feststellungen; Beurteilung nicht korrigierter Fehler (6.1, A1-203).
+  quelle: hwp-er-2026__rz-0053-s189
+  zitat: Die Beurteilung, ob eine Feststellung wesentlich ist, liegt im professionellen Ermessen des Abschlussprüfers.
+- text: Welche Auskünfte Kernaussagen sind und schriftlich bestätigt werden müssen.
+  quelle: hwp-er-2026__rz-0104-s198
+  zitat: Wann es sich um eine Kernaussage handelt, beurteilt der Abschlussprüfer in der jeweiligen Situation nach seinem professionellen Ermessen.
+- text: Korrekturvorschläge an die Unternehmensleitung richten und bei Verweigerung über die Modifizierung der Prüfungsaussage entscheiden.
+  quelle: ser-2022__5-3
+  zitat: In der Regel macht der Abschlussprüfer der Unternehmensleitung den Vorschlag, die in seiner Zusammenstellung festgehaltenen Fehlaussagen zu korrigieren.
+- text: Laufende Information der Organe über Feststellungen (Zeitpunkt, Form, Adressat).
+  quelle: hwp-er-2026__rz-0292-s249
+  zitat: In der Prüfungsphase wird der Abschlussprüfer die jeweiligen Organe des zu prüfenden Unternehmens fortlaufend über die Prüfungsfeststellungen informieren.
+- text: Annahme bei nicht prüfbarem Sachverhalt und Folgen (Einschränkung, Unmöglichkeit der Prüfungsaussage).
+  quelle: hwp-er-2026__rz-0138-s204
+  zitat: In solchen Situationen muss der Abschlussprüfer eine Annahme treffen
+- text: Ob ein festgestellter Gesetzesverstoss im Bericht als Hinweis erscheint.
+  quelle: hwp-er-2026__rz-0422-s279-t1
+  zitat: Demnach weist die Revisionsstelle nur auf diejenigen Gesetzesverstösse hin, die einen direkten Bezug zur Jahresrechnung aufweisen
+- text: Vorgehen bei verdeckter Gewinnausschüttung (schriftliche Mitteilung an VR, Rückforderung, Hinweis, Modifizierung).
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+- text: Abgrenzung Status «vorbereitet» vs. «teilweise bearbeitet», v. a. bei Befragungen (offener Entscheid consis).
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Ab wann ist ein Schritt «vorbereitet» statt «teilweise bearbeitet», insbesondere bei Befragungen?
+- text: Bei beeinträchtigtem Vertrauensverhältnis Mandatsniederlegung prüfen.
+  quelle: hwp-er-2026__rz-0102-s197
+  zitat: Ist das Vertrauensverhältnis beeinträchtigt, ist allenfalls eine Mandatsniederlegung in Betracht zu ziehen
+- text: Visum je Schritt, ✓ je Prüffeld, Abschliessende Beurteilung, Abschluss und Review.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: alles bleibt beim Menschen
+unterlagen:
+- dokument: Saldenbilanz/Hauptbuch und geprüfte Vorjahresrechnung (revio 10.1)
+  zweck: Abstimmung Vortrag und Saldi (A1-302, A1-303)
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+- dokument: 'Nebenbuch-Auswertungen: Debitoren-Altersgliederung/OP-Listen, Anlagenspiegel, Inventarlisten'
+  zweck: Bestand, Bewertung, Grundgesamtheit für die Auswahl
+  quelle: hwp-er-2026__rz-0266-s244
+  zitat: (Debitoren-Altersgliederungen, Anlagenspiegel, Inventarlisten etc.)
+- dokument: Kassenbücher, Bank- und PC-Auszüge, Wertschriftenverzeichnisse per Stichtag
+  zweck: Bestandsprüfung flüssige Mittel (B1)
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Abstimmung der Bestände mit Kassenbüchern, Bank- und PC-Auszügen oder Wertschriftenverzeichnissen
+- dokument: Belege, Verträge und Buchungen/Zahlungen in neuer Rechnung
+  zweck: Belegprüfung, Bestand und Bewertung, Ersatznachweis statt Bestätigungen
+  quelle: ser-2022__anh-d-s099-1
+  zitat: Abstimmung der ausgewiesenen Posten mit Belegen oder anderen geeigneten Unterlagen
+- dokument: Protokolle aller GV und VR-Sitzungen (revio 10.9)
+  zweck: A1-304, Beschlüsse mit Auswirkung, Gesetzesverstösse
+  quelle: ser-2022__anh-e-s103-2
+  zitat: sowie die Protokolle aller Generalversammlungen und Sitzungen des Verwaltungsrates zur Verfügung gestellt
+- dokument: Aktienbuch, Handelsregisterauszug
+  zweck: Bestimmung nahestehender Personen
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: Darlehens- und Kontokorrentverträge mit Aktionären/Nahestehenden, Drittvergleichsanalyse des VR
+  zweck: Drittvergleich, Einlagenrückgewähr, verdeckte Gewinnausschüttung
+  quelle: hwp-er-2026__rz-0168-s215
+  zitat: Das Fehlen eines schriftlichen Vertrags mit Zins und Rückzahlungskonditionen sowie allfällig notwendigen Sicherheiten kann ein Indiz dafür sein
+- dokument: ESTV-Rundschreiben steuerlich anerkannte Zinssätze des Geschäftsjahres
+  zweck: Anhaltspunkt für Zinskonditionen mit Beteiligten/Nahestehenden
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Für Vorschüsse an Beteiligte oder nahe stehende Dritte (in CHF)
+- dokument: Budget/Prognosen und nicht-finanzielle Daten (Mitarbeitende, Mengen)
+  zweck: Erwartungswerte für die Analytik
+  quelle: ser-2022__6-1-2-t2
+  zitat: Verfügbarkeit sowohl von finanziellen (z. B. Budgets oder Prognosen) als auch von nicht-finanziellen Informationen
+- dokument: Detailnachweis stille Reserven (revio 10.3)
+  zweck: Abstimmung Bestand/Veränderung, Bereinigung der Analytik
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Schriftliche Kundenantworten (10.11 Kundenbefragung), Korrespondenz, Gesprächsprotokolle
+  zweck: Nachweis für Befragungen
+  quelle: ser-2022__7-2
+  zitat: Korrespondenzen und Gesprächsprotokolle mit dem Prüfungskunden können ebenfalls Prüfungsnachweise darstellen.
+- dokument: Vom Unternehmen selbst eingeholte Drittbestätigungen (Bank, Anwalt)
+  zweck: Verwendbarer Nachweis, obwohl nicht direkt an die Revisionsstelle gesandt
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen, selbst wenn diese nicht direkt an ihn ge
+- dokument: Arbeitspapiere und Feststellungen des Vorjahres (revio Vorjahr)
+  zweck: Erwartungen, systematische Fehler, frühere Abschlusskorrekturen
+  quelle: ser-2022__6-1-2-t2
+  zitat: Kenntnisse aus früheren Prüfungen – insbesondere der Umstände, die in Vorperioden zu Abschlusskorrekturen geführt haben
+- dokument: Vollständigkeitserklärung (Entwurf, Unterzeichnung durch Kunde, revio 10.4)
+  zweck: Schriftliche Bestätigung der Auskünfte
+  quelle: ser-2022__anh-c-s057-1
+  zitat: Als Teil der eingeschränkten Revision werden wir bei den Verantwortlichen eine schriftliche Bestätigung der uns bei der eingeschränkten Revision gegebenen Auskünfte einholen
+dokumentation:
+- text: 'Einheitliches Ergebnis je Prüfschritt im Textfeld: Prüfziel, Quellen, Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen, Status.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status
+- text: Im Textfeld angeben, welche Prüfziele (EX, VO, EN, RV, BE, PA, DO) der Nachweis abdeckt.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: der Agent hält im Textfeld fest, welche Prüfziele sein Nachweis abdeckt
+- text: Wesentliche Fragen und Antworten festhalten; ohne Dokumentation taugt die Befragung nicht als Nachweis.
+  quelle: hwp-er-2026__rz-0103-s197
+  zitat: Ansonsten ist die Befragung als Prüfungsnachweis ungeeignet.
+- text: Eigene Schlussfolgerung je Handlung; Arbeitspapier datieren und Ersteller kennzeichnen (Agent als Ersteller erkennbar).
+  quelle: hwp-er-2026__rz-0278-s246
+  zitat: Die Arbeitspapiere sind zu datieren und vom Ersteller zu kennzeichnen.
+- text: Für eine nicht beteiligte erfahrene Fachperson nachvollziehbar dokumentieren.
+  quelle: hwp-er-2026__rz-0276-s246
+  zitat: Sie sind so zu gestalten, dass sich an der eingeschränkten Revision nicht beteiligte, erfahrene Fachleute ein Bild von der Planung und der Durchführung sowie dem Ergebnis der
+    Prüfungen machen können.
+- text: Fehlaussagen (festgestellt/angenommen) und ihre Behandlung sowie erlangte Nachweise mit Beurteilung gehören in die Jahresakten.
+  quelle: ser-2022__7-2
+  zitat: Fehlaussagen infolge festgestellter und/oder angenommener Sachverhalte und ihre
+- text: Notiz «Pendenz» für fehlende Unterlagen/Belege mit Konto, Datum und Betrag; Notizen nie löschen oder erledigen.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+- text: Notiz «Schlussbesprechung» für Punkte, die der WP mit dem Kunden klären soll.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+- text: Verwendete Nachweise beim Prüfschritt oder als Beilage der Notiz anhängen.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: der Agent hängt dort die verwendeten Nachweise an, wenn sie nicht direkt beim Prüfschritt liegen
+- text: Korrespondenz mit Nachweischarakter beim betroffenen Arbeitspapier ablegen.
+  quelle: hwp-er-2026__rz-0280-s247
+  zitat: an entsprechender Stelle in den Arbeitspapieren abgelegt sind
+- text: Mündlich kommunizierte wesentliche Sachverhalte (z. B. Telefon des WP) in den Arbeitspapieren festhalten.
+  quelle: hwp-er-2026__rz-0302-s250
+  zitat: Werden wesentliche Sachverhalte mündlich kommuniziert, dokumentiert der Abschlussprüfer dies in den Arbeitspapieren.
+- text: 'Widersprüchliche Feststellungen: festhalten, wie der Widerspruch aufgelöst wurde.'
+  quelle: hwp-er-2026__rz-0290-s248
+  zitat: wie er die Inkonsistenz oder den Widerspruch aufgelöst hat
+- text: Arbeitspapiere referenzieren (Prüfschritt-ID, Notiz, M-Files-ID) für Querverweise.
+  quelle: hwp-er-2026__rz-0282-s247
+  zitat: Unter Referenzierung versteht man die systematische Bezeichnung jedes Schriftstücks.
+- text: Wiederkehrende Schritte 320 Anhang, 321 stille Reserven, 322 Dauerakten je Prüffeld mitführen.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 320 Anhang, 321 stille Reserven und 322 Dauerakten wiederholen sich
+- text: 'Audit Trail: jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel in M-Files.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- text: Dokumentation aller Revisionsdienstleistungen und Aufbewahrung mindestens zehn Jahre.
+  quelle: or__art-730c
+  zitat: Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren
+fallstricke:
+- text: Wesentliche Posten (über Toleranzwesentlichkeit) nie nur mit Befragung abdecken.
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: Bei wesentlichen Bilanzpositionen Analytik in der Regel um Detailprüfungen ergänzen.
+  quelle: ser-2022__6-1-2-t3
+  zitat: Bei wesentlichen Bilanzpositionen sind die analytischen Prüfungshandlungen in der Regel um angemessene Detailprüfungen zu ergänzen
+- text: Sich kompensierende Fehler bleiben in der Analytik unsichtbar.
+  quelle: ser-2022__6-1-2-t3
+  zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können
+- text: Keine statistischen/repräsentativen Stichproben mit Hochrechnung auf die Grundgesamtheit.
+  quelle: hwp-er-2026__rz-0264-s243
+  zitat: entsprechen nicht dem Charakter der eingeschränkten Revision und sind nicht vorgesehen
+- text: Mehr Nachweise gleichen schlechte Qualität nicht aus.
+  quelle: hwp-er-2026__rz-0082-s194
+  zitat: Das Einholen von mehr Prüfungsnachweisen ist nicht notwendigerweise ein Ausgleich für deren schlechte Qualität.
+- text: Kundenauswertungen (Listen, Bildschirmausgaben) nicht ungeprüft übernehmen.
+  quelle: hwp-er-2026__rz-0266-s244
+  zitat: Der Abschlussprüfer geht nicht unbesehen von der Vollständigkeit und Richtigkeit solcher Auswertungen aus
+- text: Keine Inventurteilnahme und keine aktiv eingeholten Bestätigungen (auch keine Debitorenbestätigungen).
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: die Teilnahme an der Inventur (Beobachtung)
+- text: Vollständige Datenanalysen (z. B. Journal Entry Testing) sieht der SER nicht vor; nur auf Anweisung.
+  quelle: hwp-er-2026__rz-0142-s207
+  zitat: Der Einsatz von TDA in der eingeschränkten Revision ist vom SER nicht vorgesehen.
+- text: Eine Feststellung nicht als Einzelfall abhaken, verwandte Posten mitprüfen.
+  quelle: hwp-er-2026__rz-0270-s245
+  zitat: Der Abschlussprüfer geht im Regelfall nicht davon aus, dass eine konkrete Prüfungsfeststellung ein isoliertes Ereignis darstellt.
+- text: Systematische Fehler aus dem Vorjahr erneut beurteilen.
+  quelle: hwp-er-2026__rz-0057-s189
+  zitat: Wurden im Vorjahr Fehlaussagen aufgrund systematischer Fehler entdeckt
+- text: Fehlende Information oder Weigerung des Kunden ist selbst ein Prüfungsnachweis und als Pendenz zu melden.
+  quelle: hwp-er-2026__rz-0079-s193
+  zitat: In manchen Fällen wird zudem das Fehlen von Informationen
+- text: Geschäfte mit Nahestehenden sind oft informell und schlecht dokumentiert.
+  quelle: hwp-er-2026__rz-0157-s211
+  zitat: Transaktionen zwischen nahestehenden Personen häufig informell abgewickelt werden
+- text: 'Einlagenrückgewähr: kein «Eventualhinweis», sondern Nachweise erlangen.'
+  quelle: hwp-er-2026__rz-0180-s218
+  zitat: Ein Eventualhinweis im Bericht der Revisionsstelle an die Generalversammlung ist nicht angemessen
+- text: Die Revisionsstelle korrigiert den Abschluss nicht; der Agent bucht nie und trifft keine Entscheide des Kunden.
+  quelle: hwp-er-2026__rz-0411-s277
+  zitat: Der Abschlussprüfer ist nicht zur Korrektur des Abschlusses berechtigt
+- text: Korrekturvorschläge sind Teil der Prüfung, aber keine Kundenentscheide übernehmen.
+  quelle: hwp-er-2026__rz-0049-s160
+  zitat: dass ihre Mitarbeiter keine Entscheidungen treffen, die in der alleinigen Verantwortung des Prüfungskunden liegen
+- text: 'Doppelmandat: wer bei der Buchführung mitgewirkt hat, prüft nicht.'
+  quelle: hwp-er-2026__rz-0044-s159
+  zitat: nicht dieselbe Person bei der Buchführung mitwirken darf, die anschliessend die darauf basierende Jahresrechnung eingeschränkt prüft
+- text: Keine aktive Suche nach deliktischen Handlungen oder weiteren Gesetzesverstössen.
+  quelle: ser-2022__1-5
+  zitat: keine Prüfungen zur Aufdeckung von deliktischen Handlungen und keine Prüfungen zur Aufdeckung von weiteren Gesetzesverstössen
+- text: Treu und Glauben gilt nur mangels gegenteiliger Hinweise; kritische Grundhaltung bleibt.
+  quelle: ser-2022__1-2-t2
+  zitat: Er kann mangels gegenteiliger Hinweise von der Richtigkeit erhaltener Auskünfte und Unterlagen ausgehen
+- text: Prüfzielkürzel RI ist nicht bestätigt; im Textfeld nicht eigenmächtig deuten.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: RI vermutlich Richtigkeit/Genauigkeit (zu bestätigen)
+- text: SCH1–SCH5 sind in revio 4.0 Erfolgsrechnungs-Prüffelder (Betrieblicher Ertrag bis ausserordentlich), nicht Schlussarbeiten.
+  quelle: katalog-revio4__c004-3
+  zitat: SCH1 | Betrieblicher Ertrag
+- text: Schreibend nur in Bereich 4 und 10; Umbuchungsliste, 6.1 und Planung nur lesen.
+  quelle: konzept-ki-revisionsagent-2026__c006-1
+  zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
+fragen_kunde:
+- frage: Wer sind die Eigentümer und sonstigen nahestehenden Personen (Aktionäre, Organe, Familienangehörige, Konzern-/Schwestergesellschaften), und welche Geschäfte, Darlehen, Vergütungen
+    und Leistungen gab es mit ihnen im Geschäftsjahr (Konditionen, Verträge)?
+  zweck: Vollständigkeit und Vorhandensein Nahestehender, Drittvergleich, Ausweis nach Art. 959a Abs. 4 OR, Hinweise auf verdeckte Gewinnausschüttung
+- frage: Bestehen für Darlehen an Aktionäre/Nahestehende schriftliche Verträge mit Zins, Rückzahlung und Sicherheiten, und hat der VR den Drittvergleich beurteilt und dokumentiert?
+  zweck: Beurteilung Einlagenrückgewähr (Art. 680 Abs. 2 OR), Werthaltigkeit, D1-404
+- frage: Wurden Darstellung der Jahresrechnung oder Bewertungsgrundsätze gegenüber dem Vorjahr geändert?
+  zweck: A1-101, Stetigkeit, Vergleichbarkeit der Analytik
+- frage: Worauf sind die wesentlichen Abweichungen gegenüber Vorjahr und Budget in den einzelnen Positionen zurückzuführen?
+  zweck: Erklärung der Analytik; Abweichungen plausibilisieren oder Detailprüfung auslösen
+- frage: Wurden stille Reserven gebildet oder aufgelöst (je Position, Betrag)?
+  zweck: Bereinigung der Analytik, Abstimmung 10.3, Offenlegung Nettoauflösung
+- frage: Sind Forderungen oder andere Aktiven verpfändet, abgetreten oder mit Verfügungsbeschränkungen belastet?
+  zweck: Rechte und Verpflichtungen, Anhangangaben
+- frage: Bestehen Rechtsstreitigkeiten, Garantie- oder Eventualverpflichtungen oder schwebende Geschäfte mit Verlustrisiko, und hat das Unternehmen dazu selbst Bestätigungen (z. B. Anwalt,
+    Bank) eingeholt?
+  zweck: Vollständigkeit Rückstellungen/Offenlegung; Verwendung vom Kunden eingeholter Bestätigungen
+- frage: Liegen sämtliche GV- und VR-Protokolle des Geschäftsjahres und bis heute vor, inklusive Beschlüsse zu Gewinnverwendung, Darlehen und Vergütungen?
+  zweck: A1-304, Feststellung von Sachverhalten mit Auswirkung auf die Jahresrechnung und von Gesetzesverstössen
+- frage: Gab es Ereignisse nach dem Bilanzstichtag mit Auswirkung auf die Jahresrechnung?
+  zweck: Vollständigkeit und Offenlegung; Durchsicht neue Rechnung
+- frage: Wurden für die Vorjahresfeststellungen und -korrekturen Massnahmen getroffen?
+  zweck: Systematische Fehler aus Vorperioden erkennen
+- frage: Welche Auswertungen (OP-Listen, Anlagespiegel, Inventarlisten) stammen aus welchem System, und wer hat sie erstellt?
+  zweck: Verlässlichkeit von IT-Auswertungen einschätzen, Abstimmung mit Haupt-/Nebenbuch
+muster:
+- vorlage: SER Anhang D – Beispiele gebräuchlicher Prüfungshandlungen je Position (empfohlen, weitergehend, nicht Bestandteil)
+  chunk: ser-2022__anh-d-s071-1
+- vorlage: SER Anhang D a) Allgemeine Prüfungen (Abstimmungen, Protokolle, stille Reserven)
+  chunk: ser-2022__anh-d-s073-1
+- vorlage: HWP ER Abb. 25 – Prüfungsvorgehen in Abhängigkeit von der Toleranzwesentlichkeit (Beispiel Forderungen)
+  chunk: hwp-er-2026__rz-0105-s198
+- vorlage: HWP ER Abb. 26 – Plausibilisierung von Zinserträgen (Erwartungswert, tolerierbare Abweichung)
+  chunk: hwp-er-2026__rz-0111-s199-t1
+- vorlage: HWP ER Abb. 22 – Aggregieren und Auswerten von Fehlaussagen
+  chunk: hwp-er-2026__rz-0056-s189
+- vorlage: HWP ER Abb. 27/28 – Ersatzhandlungen statt Bestätigungen (Forderungen, Rechtsstreitigkeiten)
+  chunk: hwp-er-2026__rz-0139-s204-t1
+- vorlage: HWP ER Abb. 29 – Prüfungshandlungen bei angefangenen Arbeiten
+  chunk: hwp-er-2026__rz-0140-s206-t2
+- vorlage: HWP ER Abb. 30 – Entscheidungsbaum verdeckte Gewinnausschüttung
+  chunk: hwp-er-2026__rz-0165-s213-t1
+- vorlage: HWP ER Abb. 40 – Wesentliche Aspekte der Dokumentation
+  chunk: hwp-er-2026__rz-0278-s246
+- vorlage: HWP ER Abb. 51 – Formulierungsbeispiel Hinweis verbotene Kapitalrückzahlung (Art. 680 Abs. 2 OR)
+  chunk: hwp-er-2026__rz-0425-s280-t2
+- vorlage: SER Anhang E Beispiel 1 – Vollständigkeitserklärung eingeschränkte Revision
+  chunk: ser-2022__anh-e-s103-1
+- vorlage: Muster HWP ER – Vollständigkeitserklärung (Verweis SER Anhang E)
+  chunk: muster-hwp-er-2026__c011-1
+- vorlage: 'Musterbericht eingeschränkte Prüfungsaussage: Guthaben gegenüber Nahestehenden nicht gesondert ausgewiesen'
+  chunk: muster-hwp-er-2026__c027-1
+- vorlage: Musterbericht Hinweis auf verbotene Einlagenrückgewähr Art. 680 Abs. 2 OR
+  chunk: muster-hwp-er-2026__c052-1
+prueffelder:
+- A1
+- B1
+- C1
+- D1
+- E1
+- F1
+- F2
+- G1
+- G2
+- H1
+- H2
+- H3
+- I1
+- K1
+- L1
+- M1
+- M2
+- M3
+- N1
+- O1
+- P1
+- R1
+- S1
+- SCH1
+- SCH2
+- SCH3
+- SCH4
+- SCH5
+- T1

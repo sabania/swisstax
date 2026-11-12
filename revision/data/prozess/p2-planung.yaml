@@ -1,0 +1,712 @@
+# Prozessphase p2-planung – was nötig ist (kein starrer Ablauf), mit Fundstellen.
+id: p2-planung
+titel: 'Planung: Verständnis, Risiken, Wesentlichkeit, Prüfprogramm'
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prozess-werte
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 17
+    korrigiert: true
+ziel: 'Planung vorbereiten, damit der WP in revio 2.x/3.x rasch entscheidet: Revisionspflicht, Unabhängigkeit (Mitwirkung), Verständnis, Abschlussanalyse, Fortführung und Kapital aufbereiten;
+  Vorschläge zu Risiko, Wesentlichkeit, Plan und Programm nur auf Anweisung. Vor Prozess 2 prüfen, ob 3.1, 3.3, 3.5 erfasst sind. Nichts festlegen, nichts visieren.'
+wann: Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Prozess 1, revio 1.1); in der Testphase erst nach der Importkontrolle durch den WP. Endet mit dem Tor
+  vor Prozess 2 (3.1, 3.3 und 3.5 durch den WP erfasst). Bei neuen Erkenntnissen während der Prüfung laufend nachführen.
+gesetz:
+- thema: Umfang der eingeschränkten Revision (Rahmen für Plan und Programm)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- thema: Pflicht des VR, Unterlagen und Auskünfte zu liefern (Grundlage für die PBC-Liste)
+  quelle: or__art-730b
+  zitat: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt
+- thema: Dokumentation und Aufbewahrung der Revisionsarbeiten (10 Jahre)
+  quelle: or__art-730c
+  zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+- thema: 'Revisionspflicht Abs. 1 Ziff. 1: Publikumsgesellschaften (ordentliche Revision)'
+  quelle: or__art-727
+  zitat: Publikumsgesellschaften
+- thema: 'Revisionspflicht Abs. 1 Ziff. 2: Schwellenwerte in zwei aufeinander folgenden Geschäftsjahren'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+- thema: 'Revisionspflicht Abs. 1 Ziff. 3: Konzernrechnungspflicht'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+- thema: 'Revisionspflicht Abs. 2: Begehren von Aktionären mit mindestens 10 %'
+  quelle: or__art-727
+  zitat: wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+- thema: 'GmbH: Aktienrecht für die Revisionsstelle entsprechend anwendbar'
+  quelle: or__art-818
+  zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
+- thema: 'GmbH: Gesellschafter mit Nachschusspflicht kann ordentliche Revision verlangen'
+  quelle: or__art-818
+  zitat: Ein Gesellschafter, der einer Nachschusspflicht unterliegt, kann eine ordentliche Revision der Jahresrechnung verlangen.
+- thema: 'Unabhängigkeit: Mitwirkung bei der Buchführung zulässig, aber organisatorische und personelle Massnahmen nötig'
+  quelle: or__art-729
+  zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
+- thema: 'Revisionsbericht: Angaben zur Unabhängigkeit und zur Mitwirkung bei der Buchführung'
+  quelle: or__art-729b
+  zitat: Angaben zur Unabhängigkeit und gegebenenfalls zum Mitwirken bei der Buchführung
+- thema: Kapitalverlust als Risikoindikator (qualitative Wesentlichkeit, Going concern)
+  quelle: or__art-725a
+  zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
+    nicht mehr decken
+- thema: 'Überschuldung: begründete Besorgnis, Zwischenabschlüsse durch den VR'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+- thema: Anzeigepflicht der eingeschränkt prüfenden Revisionsstelle bei offensichtlicher Überschuldung
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: 'Zeitplan AG: ordentliche GV innert sechs Monaten'
+  quelle: or__art-699
+  zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
+- thema: 'Zeitplan GmbH: ordentliche Gesellschafterversammlung innert sechs Monaten'
+  quelle: or__art-805
+  zitat: Die ordentliche Versammlung findet alljährlich innerhalb von sechs Monaten nach Schluss des Geschäftsjahres statt.
+- thema: 'Zeitplan: Revisionsbericht muss vor dem GV-Beschluss vorliegen'
+  quelle: or__art-731
+  zitat: muss der Revisionsbericht vorliegen, bevor die Generalversammlung die Jahresrechnung und die Konzernrechnung genehmigt
+- thema: 'Folge eines fehlenden Revisionsberichts: Genehmigungs- und Gewinnverwendungsbeschlüsse nichtig'
+  quelle: or__art-731
+  zitat: so sind die Beschlüsse zur Genehmigung der Jahresrechnung und der Konzernrechnung sowie zur Verwendung des Bilanzgewinnes nichtig
+- thema: 'Zeitplan: Geschäftsbericht innert sechs Monaten erstellen'
+  quelle: or__art-958
+  zitat: Der Geschäftsbericht muss innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt
+schritte:
+- was: 'Planungsgrundlagen sichern. Mandatskontext fixieren und prüfen (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag); bei Abweichung abbrechen und Pendenz erfassen. Bestätigen,
+    dass Wahl, Annahmeerklärung und unterzeichnete Auftragsbestätigung vorliegen. Revisionspflicht nach Art. 727 OR vollständig prüfen: Ziff. 1 Publikumsgesellschaft, Ziff. 2 Schwellenwerte
+    in zwei aufeinander folgenden Jahren (Rechner `revisionspflicht`; Vollzeitstellen beim Kunden erfragen), Ziff. 3 Konzernrechnungspflicht, Abs. 2 Begehren von Aktionären mit mindestens
+    10 % (GmbH: Art. 818 OR, auch Gesellschafter mit Nachschusspflicht). Ferner: gesetzliche Pflicht zu einem anerkannten Standard (Art. 962 OR) führt zur ordentlichen Revision. Trifft
+    ein Kriterium zu: Pendenz an den WP (Neudefinition des Auftrags).'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: revio_open_dossier (Mandatskontext); 2.2 Auftragsannahme und Weiterführung (nur lesen); 1.1 Jahresrechnung (Bilanzsumme und Umsatz GJ und VJ)
+  mfiles: Auftragsbestätigung (unterzeichnet), Annahmeerklärung, GV-Protokoll zur Wahl der Revisionsstelle, Handelsregisterauszug, Vorjahresrechnung (Werte VJ)
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: 'Zu Beginn wird ein Kontext-Schlüssel fixiert: Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag.'
+  - quelle: konzept-ki-revisionsagent-2026__c009-1
+    zitat: bei Abweichung bricht der Agent ab und erfasst eine Pendenz
+  - quelle: ser-2022__1-4-1
+    zitat: Der Abschlussprüfer vergewissert sich bei Mandatsannahme bzw. vor Prüfungsbeginn, dass die zu prüfende Gesellschaft nicht die Voraussetzungen für eine ordentliche Revision
+      erfüllt.
+  - quelle: or__art-727
+    zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+  - quelle: or__art-727
+    zitat: wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+  - quelle: ser-2022__1-6-t1
+    zitat: Es ist in diesem Fall eine ordentliche Revision durchzuführen (Art. 962a Abs. 3 OR).
+  - quelle: ser-2022__anh-c-s057-1
+    zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden, so muss der Auftrag neu definiert werden.
+- was: 'Unabhängigkeit und Mitwirkung bei der Buchführung vorbereiten. Feststellen, ob das Revisionsunternehmen (consis) beim Kunden bei der Buchführung mitwirkt oder andere Dienstleistungen
+    mit Selbstprüfungsrisiko erbringt und welche Personen daran beteiligt sind. Mit dem Auftragsteam (3.6) abgleichen: Wer bei der Buchführung mitwirkt, darf nicht an der Revision beteiligt
+    sein. Bei Mitwirkung vormerken: Auftragsbestätigung nach SER Anhang C Beispiel 2 und Offenlegung im Revisionsbericht. Ergebnis als Pendenz an den WP; die Beurteilung der Unabhängigkeit
+    und ihre Dokumentation (2.4) liegen beim WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.4 Auftragsvoraussetzungen und Unabhängigkeit (nur lesen; Leserecht offen, Entscheid consis); 3.6 Auftragsteam (rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId
+    lesen); Notiz «Pendenz»
+  mfiles: Auftragsbestätigungen bzw. Verträge für Buchführung, Steuern und Beratung beim selben Kunden; Auftragsbestätigung Revision
+  fundstellen:
+  - quelle: or__art-729
+    zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
+  - quelle: ser-2022__1-3-1
+    zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision
+      beteiligt sein.
+  - quelle: ser-2022__anh-c-s059-1
+    zitat: Feststellung, dass die Mitwirkung bei der Buchführung personell und organisatorisch getrennt von der Prüfung erfolgt
+  - quelle: hwp-er-2026__rz-0047-s160
+    zitat: in allen Fällen der Mitwirkung bei der Buchführung diesen Sachverhalt im Revisionsbericht offenlegen
+  - quelle: ser-2022__7-2
+    zitat: Überlegungen zur Unabhängigkeit;
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: 'Vorjahr und offene Punkte auswerten. Dazu gehören: Prüfungsaussage und Wortlaut des Vorjahresberichts, nicht korrigierte Fehler (6.1 Vorjahr), offene Notizen (Pendenz, Schlussbesprechung,
+    Wesentliche Feststellungen) und Empfehlungen. Prüfen, ob systematische Fehler weiter bestehen. Eine Erstprüfung oder ein Opting-out im Vorjahr erkennen und dem WP melden (Eröffnungsbilanzwerte).
+    Die Ergebnisse fliessen in die Risikobeurteilung und die Toleranzwesentlichkeit ein.'
+  wer: Agent
+  revio: rv_get_workpapers_LoadDossierNotesByNoteType; rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId; 6.1 Nicht nachgebuchte Fehler im Vorjahresdossier
+    (lesen)
+  mfiles: Revisionsbericht und Revisionsrapport Vorjahr, PDF-Akte «AP revio» Vorjahr, genehmigte Vorjahresrechnung und GV-Protokoll
+  fundstellen:
+  - quelle: ser-2022__4-4
+    zitat: Er richtet sich dabei in erster Linie nach seinen Kenntnissen aus Prüfungen von Abschlüssen früherer Perioden
+  - quelle: hwp-er-2026__rz-0057-s189
+    zitat: Wurden im Vorjahr Fehlaussagen aufgrund systematischer Fehler entdeckt, die auch im Berichtsjahr nicht behoben worden sind
+  - quelle: ser-2022__6-2-7
+    zitat: so hat der neue Abschlussprüfer den Vorjahresangaben eine besondere Aufmerksamkeit zu schenken
+  - quelle: hwp-er-2026__rz-0148-s209
+    zitat: der Wortlaut des Revisionsberichts der Vorperiode
+- was: 'Verständnis von Unternehmen und Umfeld aktualisieren. Zu klären sind: Organisation, Geschäftsmodell, Rechnungswesen, Standorte, Eigentümer und nahestehende Personen, die Arten
+    von Vermögenswerten, Verbindlichkeiten, Erträgen und Aufwendungen sowie der anzuwendende Rechnungslegungsrahmen (OR; allenfalls zusätzlich Kern-FER mit negativer Zusicherung; gesetzliche
+    Pflicht zu einem anerkannten Standard → ordentliche Revision, siehe Schritt 1). Dazu VR- und GV-Protokolle, Vorjahres- und Zwischenabschlüsse sowie Website und Presse durchsehen.
+    Änderungen gegenüber dem Vorjahr und offene Fragen zusammenstellen und den Fragebogen 10.11 als Entwurf vorbereiten; Versand an den Kunden, mündliche Befragung und Betriebsbesichtigung
+    nur durch den Menschen. Die Dauerakten auf Aktualität prüfen.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 2.1 Tätigkeit und Umfeld (nur lesen, Eintrag durch WP; Leserecht offen, Entscheid consis); Prüfschritt A1-304; 10.9 Protokolle; 10.11 Kundenbefragung (rv_get_workpapers_LoadLocalQuestionnaire,
+    Vorlagen rv_get_workpapers_LoadQuestionnaireTemplates nur lesen)
+  mfiles: VR- und GV-Protokolle, Zwischenabschlüsse, Statuten, Handelsregisterauszug, wichtige Verträge (Dauerakten)
+  fundstellen:
+  - quelle: ser-2022__3-1
+    zitat: Diese Kenntnisse umfassen beispielsweise die Organisation, die wichtigsten Elemente des Geschäftsmodells, das Rechnungswesen, die Standorte, die Eigentümer und sonstige nahestehende
+      Personen
+  - quelle: ser-2022__1-6-t1
+    zitat: Falls die obligationenrechtliche Jahresrechnung zugleich den Anforderungen eines anerkannten Standards zur Rechnungslegung (z. B. Kern-FER) entspricht
+  - quelle: hwp-er-2026__rz-0148-s209
+    zitat: Die anzuwendenden Rechnungslegungsgrundsätze
+  - quelle: hwp-er-2026__rz-0026-s182
+    zitat: Durchsicht von Vorjahres- und Zwischenabschlüssen sowie Verwaltungsrats- und Generalversammlungsprotokollen
+  - quelle: katalog-revio4__c003-4
+    zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen.
+  - quelle: ser-2022__7-3
+    zitat: über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung)'
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
+- was: 'Abschlussanalyse für die Planung. Bilanz und Erfolgsrechnung mit dem Vorjahr und, wenn vorhanden, mit dem Budget vergleichen. Kennzahlen rechnen: Margen, Liquiditätsgrade, Umschlagshäufigkeiten,
+    EK-Anteil. Nicht-finanzielle Grössen wie Mengen und Personalbestand einbeziehen und Erwartungswerte bilden. Ungewöhnliche oder unerwartete Abweichungen je Prüffeld als mögliche Risikobereiche
+    auflisten. Gerechnet wird nur im Rechenmodul.'
+  wer: Agent
+  revio: 1.2 Kennzahlen und Dashboard (rv_get_financialStatement_LoadKeyFigureView, rv_get_financialStatement_LoadKeyFigureItems); 3.2 Abschlussanalyse (rv_get_workpapers_LoadAnalyticalAuditProcedure,
+    Kandidat; Würdigung durch WP)
+  mfiles: Bilanz und ER (provisorisch oder definitiv), Saldenbilanz, Budget, Vorjahresrechnung
+  fundstellen:
+  - quelle: ser-2022__3-2
+    zitat: Der Abschlussprüfer muss in der Planungsphase der Prüfung analytische Prüfungshandlungen durchführen
+  - quelle: hwp-er-2026__rz-0031-s183
+    zitat: Vergleiche wichtiger Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten im Umlaufvermögen, Eigenkapitalanteil etc.) sind in der Regel nützlich und effizient.
+  - quelle: hwp-er-2026__rz-0029-s183
+    zitat: Erwartungswerte können etwa abgeleitet werden aus Branchenkennzahlen
+  - quelle: konzept-ki-revisionsagent-2026__c009-2
+    zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
+- was: 'Hinweise zu Fortführung und Kapital früh erkennen. Kapitalverlust (Art. 725a OR) und Überschuldung (Art. 725b OR) mit dem Rechner `kapitalverlust` nachrechnen; Rangrücktritte
+    gesondert zeigen. Liquidität und Ereignisse nach SER Anhang G sichten. Den Befund mit Zahlen als Notiz «Pendenz» an den WP melden (Planungshinweis für 3.4; wirkt auf qualitative
+    Wesentlichkeit und Gesamtrisiko). Bei Hinweisen auf eine offensichtliche Überschuldung sofort melden: Die Erinnerung des VR an seine Pflichten und eine allfällige Anzeige ans Gericht
+    (Art. 729c OR) beurteilt der WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.4 Going concern (nur lesen; Leserecht offen, Entscheid consis); 1.1 Jahresrechnung; Prüfschritt A1-205; Notiz «Pendenz»
+  mfiles: Liquiditätsplanung oder Budget, Rangrücktrittsvereinbarungen, Finanzierungsverträge, Zwischenabschlüsse
+  fundstellen:
+  - quelle: ser-2022__3-3
+    zitat: Gewisse Risiken, z. B. die Fortführungsfähigkeit (Anhang G), beziehen sich nicht auf einzelne Bilanzpositionen
+  - quelle: ser-2022__anh-g-s138-1
+    zitat: Die Unternehmensleitung hat die Einschätzung der Fortführungsfähigkeit für einen Zeitraum von mindestens zwölf Monaten ab dem Bilanzstichtag vorzunehmen
+  - quelle: hwp-er-2026__rz-0036-s184
+    zitat: das Fehlen eines ausreichenden Betriebskapitals für die Fortführung der Geschäftstätigkeit
+  - quelle: or__art-725b-t1
+    zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+  - quelle: ser-2022__9-t3
+    zitat: muss sie den Verwaltungsrat an seine Pflichten
+  - quelle: ser-2022__9-t3
+    zitat: Die diesbezügliche Anzeigepflicht beschränkt sich auf die Benachrichtigung des Richters, wenn dies der Verwaltungsrat trotz offensichtlicher Überschuldung unterlässt.
+  - quelle: or__art-729c
+    zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- was: 'Nur auf Anweisung des WP (Praxis/intern; im Konzept liest der Agent 3.1 nur): Risikobeurteilung je Prüffeld und Aussage vorschlagen, vernachlässigbar, normal oder erhöht, jeweils
+    mit Begründung. Massgebend sind: Abhängigkeit von zukünftigen Ereignissen und Entscheiden, Komplexität, Anfälligkeit auf Wertschwankungen, Ermessensspielräume, einmalige oder aussergewöhnliche
+    Ereignisse, die Ergebnisse der vorherigen Schritte und bekannte Schwächen (z. B. Funktionentrennung). Kein Urteil zu IKS oder Kontrollrisiko, keine Deliktsrisiken. Bei erhöhtem Risiko
+    mögliche weitergehende Prüfungshandlungen kennzeichnen.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.1 Risikobeurteilung pro Prüffeld (rv_get_workpapers_LoadRiskAssessments lesen; Leserecht offen; rv_put_workpapers_UpdateRiskAssessmentArea nur WP)
+  mfiles: ''
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c006-1
+    zitat: Alle anderen Bereiche liest er höchstens
+  - quelle: ser-2022__3-3
+    zitat: welche Aussagen im Abschluss vernachlässigbare, normale oder erhöhte inhärente Risiken einer wesentlichen Fehlaussage
+  - quelle: ser-2022__3-3
+    zitat: Abhängigkeit von zukünftigen Ereignissen und Entscheiden
+  - quelle: ser-2022__3-3
+    zitat: Komplexität der zugrunde liegenden Geschäftsvorfälle
+  - quelle: ser-2022__3-3
+    zitat: Anfälligkeit auf Wertschwankungen durch externe Einflüsse
+  - quelle: ser-2022__3-3
+    zitat: Ausmass von Ermessensspielräumen
+  - quelle: hwp-er-2026__rz-0036-s184
+    zitat: Gewisse inhärente Risiken aus einmaligen oder aussergewöhnlichen Ereignissen
+  - quelle: hwp-er-2026__rz-0019-s181
+    zitat: Folglich entspricht bei der eingeschränkten Revision das Fehlerrisiko allein dem inhärenten Risiko.
+  - quelle: hwp-er-2026__rz-0032-s183
+    zitat: mangelnde Funktionentrennung oder eine mit ungeeigneten Mitteln geführte Buchhaltung das Risiko wesentlicher Fehlaussagen erhöhen
+  - quelle: ser-2022__3-3
+    zitat: Einem erhöhten inhärenten Risiko ist mit weiter gehenden Prüfungshandlungen Rechnung zu tragen.
+- was: 'Nur auf Anweisung des WP (Praxis/intern; im Konzept und Flussdiagramm liest der Agent 3.3 nur): Wesentlichkeitsvorschlag vorbereiten (Rechner `wesentlichkeit`). Bezugsgrösse
+    nach dem Unternehmensmerkmal wählen und den Richtwert nach HWP ER Abb. 20 zeigen: profitabel mit stabilen Umsätzen und Ergebnissen → 3–10 % des Jahresgewinns vor Steuern nach Berücksichtigung
+    stiller Reserven; Verlustsituation → 3–5 % des Eigenkapitals; anlageintensiv (z. B. Holding), auch mit Verlusten in Vorperioden → 1–3 % der Bilanzsumme; volatile Ergebnisse → 1–3
+    % der Umsätze; nicht gewinnorientiert → 1–3 % der Gesamtaufwendungen; Start-up → 2–5 % der operativen Aufwendungen. Qualitative Faktoren nennen, die eher eine tiefere Wesentlichkeit
+    verlangen: drohende Illiquidität oder Überschuldung, kleiner Fehler kippt Gewinn in Verlust, Aktionärsbindungsvertrag, Finanzierungsvereinbarungen, geplante Ausschüttung. Faktoren
+    für das obere Ende nennen: wenige, langfristig orientierte Eigentümer, geringe Fremdverschuldung, stabile Erträge. Wo nötig spezifische Wesentlichkeiten, TW und NAG vorschlagen.
+    Nach der Festlegung durch den WP: 3.3 nur lesen und prüfen, ob Bezugsgrösse, Prozentsatz und Begründung zusammenpassen; ein Widerspruch wird als Pendenz erfasst.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.3 Wesentlichkeit (rv_get_workpapers_LoadMateriality, rv_get_workpapers_LoadMaterialityOfDossier lesen; rv_put_workpapers_UpdateMateriality und rv_post_workpapers_SetMaterialitySealState
+    nur WP); 10.3 Stille Reserven
+  mfiles: Nachweis der stillen Reserven; Hochrechnung oder Budget bei provisorischer Jahresrechnung
+  fundstellen:
+  - quelle: flussdiagramm-revisionsagent-2026__s001-2
+    zitat: Wesentlichkeit aus 3.3 lesen
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: 3 % – 10 % des bereinigten Jahresgewinns vor Steuern
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: nach Berücksichtigung allfälliger stiller Reserven
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: Gewinnorientiertes Unter nehmen in Verlustsituation
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: 3 % – 5 % des Eigenkapitals
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: 1 % – 3 % der Bilanzsumme
+  - quelle: hwp-er-2026__rz-0042-s185-t1
+    zitat: 1 % – 3 % der Nettoerlöse aus Lieferungen und Leistungen (Umsätze)
+  - quelle: hwp-er-2026__rz-0042-s185-t2
+    zitat: 1 % – 3 % der Gesamt aufwendungen
+  - quelle: hwp-er-2026__rz-0042-s185-t2
+    zitat: 2 % – 5 % der operativen Aufwendungen
+  - quelle: hwp-er-2026__rz-0044-s186
+    zitat: in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein
+  - quelle: hwp-er-2026__rz-0044-s186
+    zitat: Selbst ein geringer Fehler, der den ausgewiesenen Gewinn zu einem Verlust werden lässt, kann wesentlich sein.
+  - quelle: hwp-er-2026__rz-0044-s186
+    zitat: Zu beachten sind ferner Bestimmungen in Aktionärsbindungsverträgen, Finanzierungsvereinbarungen oder eine geplante Ausschüttung
+  - quelle: hwp-er-2026__rz-0044-s186
+    zitat: In diesen genannten Fällen wird in der Regel die Wesentlichkeit tiefer angesetzt.
+  - quelle: hwp-er-2026__rz-0043-s186
+    zitat: eher am oberen Ende der jeweiligen Bandbreite festlegen
+  - quelle: hwp-er-2026__rz-0043-s186
+    zitat: wenige, langfristig orientierte Eigentümer, geringe Fremdverschuldung oder stabile Ertragsverhältnisse
+  - quelle: hwp-er-2026__rz-0050-s187
+    zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit
+  - quelle: hwp-er-2026__rz-0051-s187
+    zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+  - quelle: ser-2022__5-2-t1
+    zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: revio 4.0 berechnet sie aus einer gewählten Bezugsgrösse, einem Prozentsatz und einer Begründung.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst der Agent eine Pendenz.
+- was: 'Nur auf Anweisung des WP (Praxis/intern; im Konzept liest der Agent 3.5 nur): Prüfungsplan entwerfen. Festlegen, welche Positionen mit Befragung, Analytik und/oder Detailprüfungen
+    geprüft werden. Buchungssystematisch zusammenhängende Positionen bündeln (z. B. Sachanlagen mit Abschreibungen). Je Prüffeld die wichtigsten Prüfungsziele nennen: bei Aktiven meist
+    Vorhandensein und Bewertung, bei Verbindlichkeiten eher Vollständigkeit. Positionen unter der TW mit vernachlässigbarem Risiko als «nicht prüfen» vorschlagen, ausser es gibt qualitative
+    Gründe. Prüfungstiefe, Priorität und Mitarbeiter legt der WP in 3.5 fest.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.5 Strategische Planung (rv_get_workpapers_LoadStrategicalPlanning, rv_get_workpapers_LoadAuditFieldStrategy lesen; Leserecht offen; rv_post_workpapers_StoreStrategicalPlanningItem
+    nur WP)
+  mfiles: ''
+  fundstellen:
+  - quelle: ser-2022__4-2
+    zitat: auf die Definition von Positionen, die mit Befragungen, analytischen Prüfungshandlungen und/oder angemessenen Detailprüfungen geprüft werden
+  - quelle: hwp-er-2026__rz-0058-s189
+    zitat: So wird beispielsweise die Prüfung der Sachanlagen in der Regel auch die Prüfung der Abschreibungen umfassen.
+  - quelle: hwp-er-2026__rz-0063-s190
+    zitat: Die Prüfungsziele sind je nach Prüffeld unterschiedlich
+  - quelle: hwp-er-2026__rz-0063-s190
+    zitat: «Vorhandensein» und «Bewertung» meist im Vordergrund
+  - quelle: hwp-er-2026__rz-0063-s190
+    zitat: der Fokus eher auf «Vollständigkeit»
+  - quelle: hwp-er-2026__rz-0060-s190
+    zitat: werden üblicherweise nicht weiter beachtet und bleiben – qualitative Überlegungen vorbehalten – ungeprüft
+  - quelle: ser-2022__4-2
+    zitat: Auch eine betragsmässig kleine Position in der Jahresrechnung kann eine wesentliche Fehlaussage beinhalten.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 3.5 Strategische Planung (Prüfungstiefe, Priorität, zugewiesene Mitarbeiter)
+- was: 'Nur auf Anweisung des WP (Praxis/intern): Prüfprogramm vorschlagen. Die Planung betrifft alle Prüffelder A1–T1; je Prüffeld aus dem revio-Katalog die Schritte wählen, die zu
+    Risiko und Wesentlichkeit passen (Typ 1xx Befragung, 2xx Analytik, 3xx Detailprüfung, 4xx Sonstige; Prüfziele; EP/WP): empfohlene Handlungen für wesentliche Positionen, weitergehende
+    bei erhöhtem Risiko, wirksame und effiziente Nachweise (z. B. Depotauszug). 4xx-Schritte (Bestätigungen, Inventur, Gutachten) nur auf Anweisung, physische Tätigkeiten nie. Stützt
+    sich die Jahresrechnung auf Arbeiten Dritter oder Experten (z. B. Gutachten), dies dem WP melden; er beurteilt deren Eignung. Jede Auswahl begründen. Welche Schritte im Umfang sind
+    und wie WP-Schritte behandelt werden, entscheidet der WP; er nimmt auch die summarische Schlussbeurteilung des Programms vor. Verknüpft sind die Prüffelder mit direktem Planungsbezug
+    (A1 Allgemeines, P1 Eigenkapital/Kapitalverlust, S1 Steuern, T1 Anhang) und die Beispiele dieses Eintrags (C1, G1, H1, M2, M3, O1).'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: Bereich 4 Prüffelder A1–T1 (rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId, rv_get_auditProcedureCatalog_LoadAuditProcedureCatalog_by_containerDefinitionId,
+    rv_get_workpapers_LoadAuditPlanningCatalog lesen)
+  mfiles: Gutachten und Expertenberichte (falls vorhanden)
+  fundstellen:
+  - quelle: ser-2022__4-4
+    zitat: Bei der Erstellung des Prüfungsprogramms kann auf Anhang D zurückgegriffen werden.
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: 1xx Befragung, 2xx Analytische Prüfungshandlungen, 3xx Detailprüfungen, 4xx Sonstige Prüfungshandlungen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: ser-2022__6-2-2
+    zitat: für die wesentlichen Positionen der Jahresrechnung und/oder für die Jahresrechnung als Ganzes durchzuführen
+  - quelle: hwp-er-2026__rz-0067-s191
+    zitat: durch die Detailprüfung in Form der Abstimmung mit dem Depotauszug
+  - quelle: ser-2022__4-1
+    zitat: Verwendet der Abschlussprüfer Arbeiten eines anderen Abschlussprüfers oder eines Experten
+  - quelle: hwp-er-2026__rz-0068-s191
+    zitat: ob damit die identifizierten Risiken effektiv und effizient adressiert werden
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Welche Schritte gelten als «markiert» im Sinne des Pflichtenhefts?
+- was: 'Zeitplan und Organisation vorbereiten. Vom GV-Termin rückwärts planen: Die ordentliche GV (AG) bzw. Gesellschafterversammlung (GmbH) findet spätestens sechs Monate nach dem Bilanzstichtag
+    statt; der Geschäftsbericht ist innert derselben Frist zu erstellen. Der Revisionsbericht muss vor dem Genehmigungsbeschluss vorliegen, sonst sind die Beschlüsse zur Genehmigung
+    und zur Gewinnverwendung nichtig. Daraus Termine für Unterlagen, Feldarbeit, Schlussbesprechung und Bericht ableiten. Ansprechpartner, Verfügbarkeit, Team und Infrastruktur als Fragen
+    an WP und Kunde formulieren. Eine Teamorientierung zu Risiken und Schwerpunkten vorbereiten. Die Termine mit dem Kunden vereinbart der Mensch.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.6 Auftragsteam; 3.5 zugewiesene Mitarbeiter (rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId lesen)
+  mfiles: Korrespondenz zur Terminvereinbarung (revio 10.6 bzw. M-Files)
+  fundstellen:
+  - quelle: or__art-699
+    zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
+  - quelle: or__art-805
+    zitat: Die ordentliche Versammlung findet alljährlich innerhalb von sechs Monaten nach Schluss des Geschäftsjahres statt.
+  - quelle: or__art-731
+    zitat: muss der Revisionsbericht vorliegen, bevor die Generalversammlung die Jahresrechnung und die Konzernrechnung genehmigt
+  - quelle: or__art-731
+    zitat: Liegt der erforderliche Revisionsbericht nicht vor, so sind die Beschlüsse zur Genehmigung der Jahresrechnung
+  - quelle: hwp-er-2026__rz-0007-s179
+    zitat: organisatorische Aspekte wie Zeitpunkt der eingeschränkten Revision, Verfügbarkeit der Ansprechpartner, Zusammensetzung des Prüfungsteams, benötigte Unterlagen und vorhandene
+      Infrastruktur
+  - quelle: hwp-er-2026__rz-0072-s192
+    zitat: bereits in der Planungsphase das Prüfungsteam über die Verhältnisse beim Prüfungskunden und die wichtigsten Aspekte der eingeschränkten Revision zu orientieren
+  - quelle: ser-2022__4-4
+    zitat: Bei der Zuteilung der Arbeiten auf die einzelnen Teammitglieder wird auf deren Erfahrung und spezifische Kenntnisse geachtet.
+- was: PBC-Liste vorbereiten. Aus Prüfprogramm (bzw. Vorgabe des WP) und Vorjahr ableiten, welche Unterlagen und Dateien nötig sind; die PBC-Vorlagen in revio nur lesen. In M-Files prüfen,
+    was bereits vorliegt (Metadaten Kunde, Geschäftsjahr, Klasse). Fehlende Unterlagen als Vorschlag in 10.10 erfassen, mit Bezug auf Prüffeld bzw. Schritt und mit Termin. Bei einer
+    Erstprüfung zusätzlich Grundbuchauszüge und Verträge aufnehmen. Versand und Anforderung beim Kunden übernimmt nur der Mensch.
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 10.10 PBC-Liste (rv_get_workpapers_LoadLocalPbcWorkspace und rv_get_workpapers_LoadPbcTemplates lesen; rv_post_workpapers_StorePbcWorkspace nur nach Freigabe; rv_post_workpapers_SendPbcInviteMail
+    nie durch den Agenten); Dokumenteneingang (rv_get_workpapers_LoadInboxDocuments)
+  mfiles: 'Suche über Metadaten (Kunde, Geschäftsjahr, Klasse): Bilanz/ER Definitiv, OP-Listen, Anlagenbuchhaltung, Protokolle'
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0008-s179
+    zitat: Verzeichnis der vorzubereitenden Unterlagen und benötigten elektronischen Dateien
+  - quelle: hwp-er-2026__rz-0009-s180
+    zitat: namentlich Grundbuchauszüge, Verträge etc., zu identifizieren und einzufordern
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10)
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status bleibt offen; Anforderung beim Kunden durch den Menschen
+- was: 'Planung dokumentieren und an den WP übergeben. Die Planungsnotiz enthält: Prüfung der Revisionspflicht mit Zahlen GJ und VJ, Überlegungen zur Unabhängigkeit und Mitwirkung, Verständnis
+    vom Unternehmen, Ergebnisse der Analytik, Befund zu Fortführung und Kapital sowie – falls angewiesen – Entwürfe zu Risiko, Wesentlichkeit, Prüfungsplan und Prüfprogramm, jeweils
+    mit Quellen (M-Files-ID und Version). Offene Punkte als Notiz «Pendenz» erfassen, Themen für den Kunden als «Schlussbesprechung». Alles wird im Agenten-Protokoll festgehalten. Kein
+    Visum, kein Abschluss.'
+  wer: Agent
+  revio: Notizen-Übersicht (Pendenz, Schlussbesprechung; rv_put_workpapers_UpdateNote, Kandidat); Visum bleibt beim WP
+  mfiles: Agenten-Protokoll pro Mandat und Jahr
+  fundstellen:
+  - quelle: ser-2022__7-2
+    zitat: Überlegungen zur Unabhängigkeit;
+  - quelle: ser-2022__7-2
+    zitat: das inhärente Risiko sowie der darauf basierende Prüfungsplan;
+  - quelle: ser-2022__7-1
+    zitat: Zu dokumentieren sind insbesondere die Planung und die Durchführung der Prüfungsarbeiten.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: alles bleibt beim Menschen
+- was: 'Tor vor Prozess 2. Prüfen, ob die Importkontrolle durch den WP erfolgt ist (Testphase) und ob der WP 3.1 Risikobeurteilung, 3.3 Wesentlichkeit (erfasst, gegebenenfalls versiegelt)
+    und 3.5 Strategische Planung erfasst hat. Fehlt etwas oder fehlt das Leserecht: Pendenz an den WP und Prozess 2 nicht beginnen. Ergebnis im Agenten-Protokoll festhalten.'
+  wer: Agent
+  revio: 3.1 (rv_get_workpapers_LoadRiskAssessments), 3.3 (rv_get_workpapers_LoadMaterialityOfDossier), 3.5 (rv_get_workpapers_LoadStrategicalPlanning) nur lesen; Notiz «Pendenz»
+  mfiles: Agenten-Protokoll pro Mandat und Jahr
+  fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
+  - quelle: flussdiagramm-revisionsagent-2026__s001-2
+    zitat: Halt (gestrichelt, nur Testphase)
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  - quelle: flussdiagramm-revisionsagent-2026__s001-2
+    zitat: Wesentlichkeit aus 3.3 lesen
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: Planung laufend nachführen. Neue Erkenntnisse aus Prüfung, Unterlagen oder einer geänderten Jahresrechnung (z. B. definitiv statt provisorisch) dem WP melden. Ändert er Wesentlichkeit
+    oder Risiko, die betroffenen Prüfschritte neu beurteilen und im Rapport kennzeichnen.
+  wer: Agent bereitet vor, WP entscheidet
+  revio: 3.1 und 3.3 (lesen); Revisionsrapport (Prozess 4)
+  mfiles: ''
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0047-s186
+    zitat: wird er die Wesentlichkeit erneut auf ihre Angemessenheit hin beurteilen und bei Bedarf anpassen
+  - quelle: hwp-er-2026__rz-0022-s182
+    zitat: erstreckt sie sich als kontinuierlicher und dynamischer Prozess über die gesamte Abschlussprüfung
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Betroffene Prüfschritte werden neu beurteilt und im Rapport gekennzeichnet.
+entscheidungen_wp:
+- text: Revisionspflicht nach Art. 727 OR (Ziff. 1–3, Abs. 2; GmbH Art. 818 OR) beurteilen; sind die Kriterien erfüllt, eingeschränkte Revision ablehnen bzw. Auftrag neu definieren.
+  quelle: ser-2022__anh-c-s057-1
+  zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden, so muss der Auftrag neu definiert werden.
+- text: Unabhängigkeit beurteilen und über Annahme bzw. Weiterführung des Mandats entscheiden (Dokumentation in 2.4).
+  quelle: ser-2022__anh-b-s048-1
+  zitat: Können diese Anforderungen nicht erfüllt werden, ist die Annahme oder Weiterführung eines Revisionsmandats nicht
+- text: 'Bei Mitwirkung bei der Buchführung: personelle und organisatorische Trennung sicherstellen, Auftragsbestätigung nach SER Anhang C Beispiel 2, Offenlegung im Revisionsbericht.'
+  quelle: hwp-er-2026__rz-0047-s160
+  zitat: in allen Fällen der Mitwirkung bei der Buchführung diesen Sachverhalt im Revisionsbericht offenlegen
+- text: Ob der Agent überhaupt Planungsvorschläge (Risiko, Wesentlichkeit, Prüfungsplan, Prüfprogramm) vorbereitet; im Konzept liest er die Planungsbereiche nur.
+  quelle: konzept-ki-revisionsagent-2026__c006-1
+  zitat: Alle anderen Bereiche liest er höchstens
+- text: Leserechte des Agenten für 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2 (offener Entscheid consis).
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- text: Gesamtwesentlichkeit festlegen (Bezugsgrösse, Prozentsatz, Begründung), in 3.3 erfassen und versiegeln. Die HWP-Bandbreiten sind nur Orientierung.
+  quelle: hwp-er-2026__rz-0043-s186
+  zitat: Bei den angegebenen Prozentsätzen handelt es sich um Richtwerte.
+- text: 'Toleranzwesentlichkeit festlegen: HWP ER 50–75 %, consis/revio-Vorgabe 75 %. Bei Fehlern im Vorjahr oder hoher Schätzunsicherheit allenfalls tiefer. Dazu NAG (bis 5 %) und allfällige
+    spezifische Wesentlichkeiten.'
+  quelle: hwp-er-2026__rz-0050-s187
+  zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit
+- text: Inhärentes Risiko je Prüffeld bzw. Aussage (vernachlässigbar, normal, erhöht) und daraus abgeleitete weitergehende Prüfungshandlungen.
+  quelle: ser-2022__3-3
+  zitat: gelangt der Abschlussprüfer zu Erkenntnissen, welche Aussagen im Abschluss vernachlässigbare, normale oder erhöhte inhärente Risiken einer wesentlichen Fehlaussage
+- text: 'Strategische Planung in 3.5: Prüfungstiefe, Priorität, Zuteilung; welche Positionen ungeprüft bleiben; ob der Agent als «zugewiesener Mitarbeiter» geführt wird.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Optional wird der Agent in 3.5 als eigener «zugewiesener Mitarbeiter» geführt
+- text: Welche Prüfschritte markiert bzw. im Umfang sind und ob der Agent WP-Schritte vorbereiten darf (offener Entscheid consis).
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- text: Standardauswahl für Stichproben und Ort, an dem die Vorgabe je Mandat oder Prüffeld erfasst wird (offener Entscheid consis).
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit
+- text: 'Going concern und Kapitalverlust: Beurteilung in 3.4. Bei Zweifeln von der Unternehmensleitung eine detailliertere schriftliche Einschätzung verlangen.'
+  quelle: ser-2022__anh-g-s140-1
+  zitat: fordert er die Unternehmensleitung zu einer detaillierteren und schriftlich dokumentierten Einschätzung auf
+- text: 'Offensichtliche Überschuldung: VR an seine Pflichten erinnern und, wenn der VR die Anzeige unterlässt, das Gericht benachrichtigen.'
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- text: 'Erstprüfung bzw. Opting-out im Vorjahr oder Zweifel am Vorprüfer: Umfang der Prüfung der Vorjahreswerte (Befragungen und Analytik zu wesentlichen Vorjahreswerten) und Anmerkung
+    im Bericht.'
+  quelle: ser-2022__6-2-7
+  zitat: Befragungen und analytische Prüfungshandlungen zu den wesentlichen Vorjahreswerten vorzunehmen
+- text: 'Ergänzend bei Prüferwechsel: ob die Arbeitspapiere des Vorgängers durchgesehen werden.'
+  quelle: hwp-er-2026__rz-0151-s209
+  zitat: die Arbeitspapiere des anderen Abschlussprüfers durchzusehen
+- text: Eignung von Arbeiten eines anderen Abschlussprüfers oder eines Experten (z. B. Gutachten) für die eingeschränkte Revision.
+  quelle: ser-2022__4-1
+  zitat: muss er sich davon überzeugen, dass deren Arbeiten für Zwecke der eingeschränkten Revision geeignet sind
+- text: 'Bei Revisionsunternehmen unter ISQM-CH 1: Entscheid über eine Konsultation bei schwierigen oder umstrittenen Sachverhalten.'
+  quelle: hwp-er-2026__rz-0066-s191
+  zitat: Bei Revisionsunternehmen, welche den Bestimmungen von ISQM- CH 1 unterliegen, ist zu entscheiden, ob eine Konsultation durchgeführt werden sollte
+- text: Zeitplan und Team festlegen; Unterlagen beim Kunden anfordern, Fragebogen 10.11 und PBC-Liste versenden.
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Status bleibt offen; Anforderung beim Kunden durch den Menschen
+- text: Summarische Schlussbeurteilung des Prüfprogramms.
+  quelle: hwp-er-2026__rz-0068-s191
+  zitat: ob damit die identifizierten Risiken effektiv und effizient adressiert werden
+- text: Visum der Planung und aller Schritte; Abschluss- und Reviewstatus.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: alles bleibt beim Menschen
+unterlagen:
+- dokument: Unterzeichnete Auftragsbestätigung (bei Mitwirkung bei der Buchführung nach SER Anhang C Beispiel 2)
+  zweck: Art und Umfang des Auftrags; Erwartungen klären
+  quelle: hwp-er-2026__rz-0003-s179
+  zitat: die wesentlichen Punkte des Prüfungsauftrags in einer schriftlichen Auftragsbestätigung festzuhalten
+- dokument: Angaben zu Vollzeitstellen im Jahresdurchschnitt (GJ und VJ), Konzernverhältnissen sowie Kotierung bzw. Anleihen
+  zweck: Revisionspflicht nach Art. 727 OR
+  quelle: or__art-727
+  zitat: 250 Vollzeitstellen im Jahresdurchschnitt
+- dokument: Interne Übersicht der Dienstleistungen des Revisionsunternehmens für den Kunden (Buchführung, Steuern, Beratung) mit den beteiligten Personen
+  zweck: Unabhängigkeit; personelle Trennung von Buchführung und Revision
+  quelle: ser-2022__1-3-1
+  zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision beteiligt
+    sein.
+- dokument: Revisionsbericht des Vorjahres (Prüfungsaussage, Zusätze, Hinweise)
+  zweck: Vorjahreserkenntnisse; Umfang bei Erstprüfung bzw. Prüferwechsel
+  quelle: hwp-er-2026__rz-0148-s209
+  zitat: der Wortlaut des Revisionsberichts der Vorperiode
+- dokument: Genehmigte Vorjahresrechnung und Protokoll der genehmigenden GV
+  zweck: Vortrag der Vorjahresbestände, Reserven und Gewinnverwendung (A1-302, P1-302)
+  quelle: katalog-revio4__c003-51
+  zitat: Abstimmung der Reserven und des Bilanzgewinns/-verlusts mit der Jahresrechnung des Vorjahres und dem Protokoll der genehmigenden Versammlung
+- dokument: Jahresrechnung (provisorisch oder definitiv), Saldenbilanz, Umbuchungsliste
+  zweck: Abschlussanalyse, Bezugsgrössen der Wesentlichkeit
+  quelle: konzept-ki-revisionsagent-2026__c006-2
+  zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven
+- dokument: Detailnachweis der stillen Reserven (Bestand und Veränderung)
+  zweck: Bereinigter Gewinn vor Steuern; Offenlegung einer Nettoauflösung
+  quelle: katalog-revio4__c003-5
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: VR- und GV-Protokolle, Zwischenabschlüsse
+  zweck: Verständnis, Risiken, Sachverhalte für den Prüfungsplan (A1-304)
+  quelle: hwp-er-2026__rz-0026-s182
+  zitat: Durchsicht von Vorjahres- und Zwischenabschlüssen sowie Verwaltungsrats- und Generalversammlungsprotokollen
+- dokument: Statuten, Handelsregisterauszug, wichtige mehrjährige Verträge (Dauerakten)
+  zweck: Rechtliche Verhältnisse, Rechte und Verpflichtungen
+  quelle: ser-2022__7-3
+  zitat: über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+- dokument: Grundbuchauszüge und Verträge (bei Erstprüfung)
+  zweck: Eröffnungsbilanzwerte und Dauerakten aufbauen
+  quelle: hwp-er-2026__rz-0009-s180
+  zitat: namentlich Grundbuchauszüge, Verträge etc., zu identifizieren und einzufordern
+- dokument: Budget, Branchenkennzahlen, Mengen und Personalbestand
+  zweck: Erwartungswerte für die Planungsanalytik
+  quelle: hwp-er-2026__rz-0029-s183
+  zitat: Erwartungswerte können etwa abgeleitet werden aus Branchenkennzahlen
+- dokument: Firmenbroschüren, Website, Presseartikel
+  zweck: Verständnis von Geschäftstätigkeit und Umfeld
+  quelle: hwp-er-2026__rz-0026-s182
+  zitat: Studium von Firmenbroschüren, Website des Unternehmens sowie Presseartikeln
+- dokument: Liquiditätsplanung bzw. Einschätzung der Fortführungsfähigkeit durch die Unternehmensleitung
+  zweck: Going concern (revio 3.4), qualitative Wesentlichkeit
+  quelle: ser-2022__anh-g-s138-1
+  zitat: Die Unternehmensleitung hat die Einschätzung der Fortführungsfähigkeit für einen Zeitraum von mindestens zwölf Monaten ab dem Bilanzstichtag vorzunehmen
+- dokument: Rangrücktrittsvereinbarungen; bei begründeter Besorgnis einer Überschuldung die Zwischenabschlüsse nach Art. 725b OR
+  zweck: Kapitalverlust und Überschuldung beurteilen
+  quelle: or__art-725b-t1
+  zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten
+- dokument: Gutachten und Expertenberichte, auf die sich die Jahresrechnung stützt
+  zweck: Verwendung von Arbeiten Dritter bzw. Experten (Eignung beurteilt der WP)
+  quelle: ser-2022__4-1
+  zitat: Verwendet der Abschlussprüfer Arbeiten eines anderen Abschlussprüfers oder eines Experten
+- dokument: Detailnachweise gemäss Prüfprogramm, z. B. Debitoren- und Kreditoren-OP-Listen, Depotauszüge, MWST-Abrechnungen
+  zweck: Positionen der PBC-Liste (10.10) für die Feldarbeit
+  quelle: ser-2022__anh-d-s075-2
+  zitat: Abstimmung des Totals der Debitoren-OP-Liste mit dem Hauptbuch
+- dokument: Schriftliche Antworten aus der Kundenbefragung (revio 10.11)
+  zweck: Ersatz für mündliche Befragung, die der Agent nicht führen kann
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung)'
+dokumentation:
+- text: 'Zu dokumentieren sind gemäss SER 7.2: Überlegungen zur Unabhängigkeit, Verständnis vom Unternehmen, Überlegungen zur Wesentlichkeit, Ergebnisse der Planungsanalytik, inhärentes
+    Risiko mit dem darauf gestützten Prüfungsplan, Prüfprogramm.'
+  quelle: ser-2022__7-2
+  zitat: das inhärente Risiko sowie der darauf basierende Prüfungsplan;
+- text: Überlegungen zur Unabhängigkeit festhalten, einschliesslich Mitwirkung bei der Buchführung und personeller Trennung (Vorbereitung durch den Agenten, Beurteilung durch den WP).
+  quelle: ser-2022__7-2
+  zitat: Überlegungen zur Unabhängigkeit;
+- text: Prüfung der Revisionspflicht (Art. 727 OR) mit den Zahlen GJ und VJ in der Planungsnotiz festhalten.
+  quelle: ser-2022__1-4-1
+  zitat: Der Abschlussprüfer vergewissert sich bei Mandatsannahme bzw. vor Prüfungsbeginn, dass die zu prüfende Gesellschaft nicht die Voraussetzungen für eine ordentliche Revision erfüllt.
+- text: Planung und Durchführung dokumentieren; die wichtigsten Dokumente datieren und mit dem Vermerk des Autors versehen.
+  quelle: ser-2022__7-1
+  zitat: Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors
+- text: Die Wesentlichkeit wird in revio 3.3 mit Bezugsgrösse, Prozentsatz und Begründung erfasst (durch den WP). Der Agent verweist nur darauf.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: revio 4.0 berechnet sie aus einer gewählten Bezugsgrösse, einem Prozentsatz und einer Begründung.
+- text: Offene Punkte als Notiz «Pendenz» erfassen, mit Konto, Datum und Betrag. Notizen löscht oder erledigt der Agent nie.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+- text: Hinweise auf Schwächen im Ablauf als Notiz «Schlussbesprechung» für den WP festhalten.
+  quelle: hwp-er-2026__rz-0033-s183
+  zitat: anlässlich der Schlussbesprechung an die Unternehmensleitung weitergegeben werden können
+- text: Agenten-Protokoll (Audit Trail) mit Quellen, Berechnungen und dem Ergebnis der Torprüfung vor Prozess 2 pro Mandat und Jahr in M-Files ablegen.
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- text: Aufbewahrung der wesentlichen Unterlagen während mindestens zehn Jahren.
+  quelle: or__art-730c
+  zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+fallstricke:
+- text: 'Revisionspflicht nicht auf die Schwellenwerte verkürzen: Auch Publikumsgesellschaft, Konzernrechnungspflicht und das Begehren von Aktionären mit mindestens 10 % führen zur ordentlichen
+    Revision.'
+  quelle: or__art-727
+  zitat: wenn Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+- text: 'Mitwirkung bei der Buchführung durch das eigene Treuhandunternehmen nicht übersehen: Wer bei der Buchführung mitwirkt, darf nicht an der Revision beteiligt sein.'
+  quelle: ser-2022__1-3-1
+  zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision beteiligt
+    sein.
+- text: Ist das Ergebnis über stille Reserven gesteuert, die Wesentlichkeit nicht auf dem ausgewiesenen Gewinn rechnen, sondern auf dem effektiven Ergebnis.
+  quelle: ser-2022__5-2-t1
+  zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+- text: In Verlustsituationen, bei Holdings oder Start-ups passt der Gewinn als Bezugsgrösse nicht; EK, Bilanzsumme, Umsatz oder Aufwand prüfen.
+  quelle: ser-2022__5-2-t1
+  zitat: herangezogen werden (z. B. in Verlustsituationen)
+- text: 'Bandbreiten nur mit dem passenden Unternehmensmerkmal verwenden: 3–5 % des Eigenkapitals gilt für ein gewinnorientiertes Unternehmen in Verlustsituation, nicht allgemein.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: Gewinnorientiertes Unter nehmen in Verlustsituation
+- text: Bei einer Hochrechnung kann ein Sicherheitsabschlag angezeigt sein (illustratives Beispiel HWP ER Abb. 21, kein fester Satz); die Festlegung trifft der WP. Sobald die definitive
+    Jahresrechnung vorliegt, neu beurteilen lassen.
+  quelle: hwp-er-2026__rz-0052-s188-t1
+  zitat: Illustratives Beispiel für die Festlegung der einzelnen Grössen
+- text: Die consis/revio-Vorgabe für die TW (75 %) liegt am oberen Ende der HWP-Bandbreite. Bei Fehlern im Vorjahr oder hoher Schätzunsicherheit dem WP einen tieferen Wert zur Prüfung
+    vorlegen, nicht selbst ändern.
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+- text: Ein kleiner Betrag beweist keine Vollständigkeit; das gilt besonders bei Rückstellungen. Kleine Positionen deshalb nicht pauschal aus dem Plan streichen.
+  quelle: hwp-er-2026__rz-0060-s190
+  zitat: So ist beispielsweise eine im Betrag unbedeutende Rückstellung kein verlässliches Indiz dafür
+- text: 'Keine IKS- oder IT-Prüfung und keine Deliktsrisiken einplanen: Beides gehört nicht zur eingeschränkten Revision.'
+  quelle: hwp-er-2026__rz-0012-s180
+  zitat: Bei der eingeschränkten Revision wird das Risiko deliktischer Handlungen nicht berücksichtigt
+- text: Die Bereiche 2 und 3 liest der Agent höchstens (Leserechte für 2.1, 2.4, 3.1, 3.4 und 3.5 noch offen). Wesentlichkeit, Risiko und Strategie trägt er nie selbst ein; Planungsvorschläge
+    nur auf Anweisung des WP.
+  quelle: konzept-ki-revisionsagent-2026__c006-1
+  zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10). Alle anderen Bereiche liest er höchstens
+- text: 'Prozess 2 nicht beginnen, solange 3.1, 3.3 und 3.5 nicht erfasst sind oder in der Testphase die Importkontrolle aussteht: Eine falsche Kontenzuordnung verfälscht alle Folgeprüfungen.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
+- text: Keine PBC-Einladung, kein Fragebogen und keine E-Mail an den Kunden; Mails gehen nur als Entwurf oder an die freigegebene WP-Adresse.
+  quelle: konzept-ki-revisionsagent-2026__c009-2
+  zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
+- text: 'Erstprüfung oder Opting-out im Vorjahr früh erkennen: Das hat Folgen für Umfang und Bericht.'
+  quelle: ser-2022__6-2-7
+  zitat: ist im Revisionsbericht anzumerken
+- text: Fehlende Unterlagen früh anfordern lassen. Bleiben sie aus, droht eine modifizierte Prüfungsaussage.
+  quelle: hwp-er-2026__rz-0066-s191
+  zitat: wird dies in der Berichterstattung zu einer Modifizierung der Prüfungsaussage führen
+- text: 'Prüffeld-Bezeichnungen aus dem Katalog verwenden: SCH1–SCH5 sind Prüffelder der Erfolgsrechnung (z. B. SCH1 Betrieblicher Ertrag), nicht «Schlussarbeiten».'
+  quelle: katalog-revio4__c004-3
+  zitat: Betrieblicher Ertrag
+- text: Das Prüfzielkürzel RI ist nicht bestätigt; in Begründungen nicht als gesichert verwenden.
+  quelle: katalog-revio4__c002-2
+  zitat: vermutlich Richtigkeit / Genauigkeit – zu bestätigen
+- text: 'Kritische Grundhaltung schon in der Planung: Auskünfte und Unterlagen dürfen nur mangels gegenteiliger Hinweise als richtig gelten; Widersprüche als Pendenz melden.'
+  quelle: ser-2022__1-2-t2
+  zitat: Er kann mangels gegenteiliger Hinweise von der Richtigkeit erhaltener Auskünfte und Unterlagen ausgehen
+fragen_kunde:
+- frage: Wie viele Vollzeitstellen im Jahresdurchschnitt hatte die Gesellschaft im Geschäftsjahr und im Vorjahr? Besteht eine Konzernrechnungspflicht? Sind Beteiligungspapiere kotiert
+    oder Anleihen ausstehend? Hat ein Aktionär (bzw. GmbH-Gesellschafter mit Nachschusspflicht) eine ordentliche Revision verlangt?
+  zweck: Revisionspflicht nach Art. 727 OR vollständig prüfen (SER 1.4.1)
+- frage: Nach welchem Regelwerk wird die Jahresrechnung erstellt (OR, zusätzlich Kern-FER oder Swiss GAAP FER)? Besteht eine gesetzliche Pflicht zu einem anerkannten Standard?
+  zweck: Rechnungslegungsrahmen und Prüfungsgegenstand bestimmen (SER 1.6; HWP ER Rz 148)
+- frage: Gab es im Geschäftsjahr wesentliche Änderungen bei Geschäftsmodell, Organisation, Standorten, Eigentümern oder nahestehenden Personen?
+  zweck: Verständnis aktualisieren, Risiken und Nahestehende erkennen (SER 3.1)
+- frage: Gab es einmalige oder aussergewöhnliche Ereignisse, z. B. Stilllegungen, Sanierungen, Akquisitionen oder neue Geschäftsfelder?
+  zweck: Inhärente Risiken auf mehrere Aussagen oder auf den Abschluss als Ganzes erkennen
+- frage: Wurden Darstellung oder Bewertungsgrundsätze der Jahresrechnung geändert?
+  zweck: Stetigkeit; Prüfschritt A1-101; Vergleichbarkeit mit dem Vorjahr
+- frage: Wurden stille Reserven gebildet oder aufgelöst (Betrag, Positionen)?
+  zweck: Bereinigten Gewinn vor Steuern als Bezugsgrösse der Wesentlichkeit bestimmen
+- frage: Gibt es eine Liquiditätsplanung für mindestens zwölf Monate? Bestehen Rangrücktritte, Finanzierungsauflagen, Aktionärsbindungsverträge oder geplante Ausschüttungen?
+  zweck: Going concern, Kapitalverlust und Überschuldung, qualitative Wesentlichkeit, spezifische Wesentlichkeitsgrenzen
+- frage: Stützt sich die Jahresrechnung auf Gutachten oder Expertenberichte (z. B. Liegenschaftsbewertung, Rechtsgutachten)?
+  zweck: Verwendung von Arbeiten Dritter bzw. Experten planen (SER 4.1)
+- frage: Wurden die Feststellungen, Korrekturvorschläge und Empfehlungen aus der Vorjahresrevision umgesetzt?
+  zweck: Vorjahr und Pendenzen; systematische Fehler erkennen
+- frage: Wer sind die Ansprechpartner und wann sind sie verfügbar? Bis wann liegt die definitive Jahresrechnung vor, und wann findet die GV bzw. Gesellschafterversammlung statt?
+  zweck: Zeitplan und Organisation der Revision
+- frage: Welche Unterlagen und Dateien können bis wann bereitgestellt werden, z. B. Saldenbilanz, OP-Listen, Anlagespiegel, Bank- und Depotauszüge, MWST-Abrechnungen, Protokolle?
+  zweck: PBC-Liste und Termine
+- frage: Sind Rechtsfälle, Einsprachen oder Rekurse (auch in Steuersachen) hängig?
+  zweck: Risiken für Rückstellungen und Steuern (Prüfschritt S1-104)
+- frage: Gibt es Budget, Branchenkennzahlen und nicht-finanzielle Daten wie Mengen oder Personalbestand?
+  zweck: Erwartungswerte für die analytischen Prüfungshandlungen in der Planung
+- frage: Wer führt die Buchhaltung und mit welchem System? Wie ist die Funktionentrennung geregelt?
+  zweck: Bekannte Schwächen in die Risikobeurteilung einbeziehen (ohne IKS-Prüfung); Mitwirkung bei der Buchführung erkennen
+muster:
+- vorlage: 'SER Anhang C, Beispiel 1: Bestätigungsschreiben für die eingeschränkte Revision (Auftragsumfang, Bereitstellung der Unterlagen)'
+  chunk: ser-2022__anh-c-s055-1
+- vorlage: 'SER Anhang C, Beispiel 2: Bestätigungsschreiben im Fall der Mitwirkung bei der Buchführung (personelle und organisatorische Trennung)'
+  chunk: ser-2022__anh-c-s059-1
+- vorlage: 'SER Anhang C, Beispiel 4: Bestätigungsschreiben für die eingeschränkte Revision einer Jahresrechnung für den Zweck gemäss Art. 725a Abs. 2 OR'
+  chunk: ser-2022__anh-c-s067-1
+- vorlage: 'Mustervorlagensammlung HWP ER 2026: Annahmeerklärung für eine bestehende Gesellschaft'
+  chunk: muster-hwp-er-2026__c003-1
+- vorlage: 'Mustervorlagensammlung HWP ER 2026: Auftragsbestätigung (Verweis auf SER Anhang C, Beispiel 1)'
+  chunk: muster-hwp-er-2026__c006-1
+- vorlage: 'Mustervorlagensammlung HWP ER 2026: Auftragsbestätigung bei Mitwirkung bei der Buchführung (Verweis auf SER Anhang C, Beispiel 2)'
+  chunk: muster-hwp-er-2026__c007-1
+- vorlage: 'Mustervorlagensammlung HWP ER 2026: Auftragsbestätigung für die eingeschränkte Revision nach Art. 725a Abs. 2 OR (Verweis auf SER Anhang C, Beispiel 4)'
+  chunk: muster-hwp-er-2026__c009-1
+- vorlage: 'Mustervorlagensammlung HWP ER 2026: Berichtsmuster eingeschränkte Revision im Auftrag bei Opting-out-Gesellschaft mit Kapitalverlust (Art. 725a Abs. 2 OR; Verweis auf EXPERTsuisse)'
+  chunk: muster-hwp-er-2026__c058-1
+- vorlage: 'HWP ER Abbildung 20: Bestimmung der Gesamtwesentlichkeit (Unternehmensmerkmal, Bezugsgrösse, Richtwert; Fortsetzung und Bezeichnung in hwp-er-2026__rz-0042-s185-t2)'
+  chunk: hwp-er-2026__rz-0042-s185-t1
+- vorlage: 'HWP ER Abbildung 21: illustratives Beispiel zur Festlegung von GW, TW und NAG (Fortsetzung und Bezeichnung in hwp-er-2026__rz-0052-s188-t2)'
+  chunk: hwp-er-2026__rz-0052-s188-t1
+- vorlage: 'SER Anhang D: Beispiele gebräuchlicher Prüfungshandlungen (Grundlage des Prüfprogramms)'
+  chunk: ser-2022__anh-d-s071-1
+- vorlage: 'Prüfschritt-Katalog revio 4.0 (Anhang H): Prüfschritte A1–T1 mit Typ, EP/WP, Prüfzielen'
+  chunk: katalog-revio4__c003-2
+- vorlage: 'Prüfschritt-Katalog revio 4.0: Übersicht der 29 Prüffelder mit Anzahl Schritte'
+  chunk: katalog-revio4__c004-2
+- vorlage: Textbausteine Vorjahresangaben eingeschränkte Revision (Erstprüfung, Vorjahr nicht geprüft)
+  chunk: muster-hwp-er-2026__c073-1
+prueffelder:
+- A1
+- C1
+- G1
+- H1
+- M2
+- M3
+- O1
+- P1
+- S1
+- T1

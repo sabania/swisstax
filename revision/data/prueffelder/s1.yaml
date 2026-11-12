@@ -1,0 +1,613 @@
+# Prüffeld S1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
+code: S1
+bezeichnung: Steuern
+status: agent-geprueft
+erfasst:
+  agent: workflow revision-prueffelder-wissen
+  datum: '2026-11-12'
+  nachpruefung:
+    urteil: korrigieren
+    befunde: 17
+    korrigiert: false
+kurzbeschrieb: 'Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerverbindlichkeiten, -abgrenzungen, -rückstellungen, Steuerguthaben) und Erfolgsrechnung (separater
+  Ausweis). Eingeschränkte Revision: Vollständigkeit und Periodenabgrenzung laufender und früherer Steuerperioden, Abstimmung der Steuerabgrenzung, Veranlagungsstand, Steuerrisiken,
+  geldwerte Leistungen – keine Steuerprüfung.'
+gesetz:
+- thema: Direkte Steuern als eigene Mindestposition der Erfolgsrechnung (Art. 959b Abs. 2 Ziff. 10 bzw. Abs. 3 Ziff. 7 OR)
+  quelle: or__art-959b-t1
+  zitat: direkte Steuern
+- thema: 'Ausweis geschuldeter Steuern: übrige kurzfristige Verbindlichkeiten bzw. passive Rechnungsabgrenzungen (Art. 959a Abs. 2 Ziff. 1 lit. c/d OR)'
+  quelle: or__art-959a-t1
+  zitat: übrige kurzfristige Verbindlichkeiten
+- thema: Ausweis Rückstellungen (Art. 959a Abs. 2 Ziff. 2 lit. c OR)
+  quelle: or__art-959a-t1
+  zitat: Rückstellungen sowie vom Gesetz vorgesehene ähnliche Positionen
+- thema: Zeitliche und sachliche Abgrenzung (Art. 958b Abs. 1 OR)
+  quelle: or__art-958b
+  zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+- thema: Vollständigkeit der Rechnungslegung (Art. 958c Abs. 1 Ziff. 2 OR)
+  quelle: or__art-958c
+  zitat: Sie muss vollständig sein.
+- thema: Rückstellungspflicht bei erwartetem Mittelabfluss (Art. 960e Abs. 2 OR)
+  quelle: or__art-960e
+  zitat: Lassen vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten, so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung
+    gebildet werden.
+- thema: Keine Auflösungspflicht nicht mehr begründeter Rückstellungen (Art. 960e Abs. 4 OR) – stille Reserven
+  quelle: or__art-960e
+  zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+- thema: Überprüfung bei Anzeichen zu geringer Rückstellungen (Art. 960 Abs. 3 OR)
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Anhang: Eventualverbindlichkeiten, z.B. Steuerrisiken (Art. 959c Abs. 2 Ziff. 10 OR)'
+  quelle: or__art-959c-t2
+  zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
+- thema: 'Anhang: Erläuterung periodenfremder Positionen, z.B. Nachsteuern (Art. 959c Abs. 2 Ziff. 12 OR)'
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- thema: Gesonderter Ausweis gegenüber Beteiligten und Organen (Art. 959a Abs. 4 OR)
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
+- thema: Rückerstattung ungerechtfertigt bezogener Leistungen – geldwerte Leistungen (Art. 678 OR)
+  quelle: or__art-678
+  zitat: oder anderen Leistungen verpflichtet, wenn sie diese ungerechtfertigt bezogen haben
+- thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+risiken:
+- text: Steuern der laufenden Periode (Gewinn- und Kapitalsteuer) nicht oder zu tief abgegrenzt.
+  pruefziele:
+  - VO
+  - PA
+  - BE
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Der Steueraufwand ist in der dazugehörenden Gewinnperiode zu erfassen.
+- text: Direkte Steuern früherer Perioden weder bezahlt noch abgegrenzt; Nachzahlungen aus definitiven Veranlagungen nicht erfasst.
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0545-s268
+  zitat: Ebenso müssen Steuernachzahlungen als Folge definitiver Einschätzungen als Verbindlichkeit berücksichtigt werden.
+- text: Nachforderungen aus Steuerrevisionen, Auflagen oder hängigen Einsprachen/Rekursen nicht zurückgestellt bzw. nicht als Eventualverbindlichkeit offengelegt.
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0547-s269
+  zitat: Nachbelastungen können sich aufgrund von Steuerrevisionen und bei hängigen Rechtsmittelverfahren ergeben
+- text: Berechnung der Steuerabgrenzung fehlerhaft (Ausgangsgrösse ≠ Jahresrechnung, falsche Steuersätze/-füsse, nicht belegte Verlustverrechnung, fehlende Kapitalsteuer).
+  pruefziele:
+  - BE
+  - RI
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden)
+- text: 'Entwicklung der Steuerrückstellung nicht nachvollziehbar: Vorjahresrückstellung ausgebucht ohne Zahlung/Veranlagung, Differenzen nicht als periodenfremd erfasst.'
+  pruefziele:
+  - EN
+  - PA
+  - RI
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen
+- text: Separat besteuerte Gewinne (Grundstückgewinne, nicht steuerneutrale Umstrukturierungen) nicht periodengerecht abgegrenzt.
+  pruefziele:
+  - VO
+  - PA
+  quelle: hwp-bur-2023__rz-0548-s269
+  zitat: Auf Grundstückgewinnen geschuldete Steuern sind periodengerecht abzugrenzen.
+- text: Geldwerte Leistungen an Beteiligte/Nahestehende (z.B. nicht marktübliche Zinsen) mit möglichen Steuerfolgen (Gewinnsteuer, Verrechnungssteuer) nicht berücksichtigt.
+  pruefziele:
+  - RV
+  - VO
+  - BE
+  quelle: hwp-bur-2023__rz-0183-s199-t1
+  zitat: sind die allenfalls zu erwartenden Steuernachforderungen zu berücksichtigen
+- text: Zinsen auf Aktionärsdarlehen bei verdecktem Eigenkapital steuerlich aufgerechnet, Mehrsteuer nicht abgegrenzt.
+  pruefziele:
+  - BE
+  - VO
+  quelle: estv-ks-6a-2024__3-1
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+- text: Latente Steueraktiven (insbesondere auf steuerlichen Verlustvorträgen) unzulässig aktiviert.
+  pruefziele:
+  - EX
+  - BE
+  quelle: hwp-bur-2023__rz-0551-s270
+  zitat: Das Ansetzen von latenten Steueraktiven ist nur möglich, wenn die allgemeinen Aktivierungsvoraussetzungen von Art. 959 Abs. 2 OR erfüllt sind.
+- text: Steuerguthaben (Vorauszahlungen, Verrechnungssteuer) nicht bestehend oder verjährt.
+  pruefziele:
+  - EX
+  - BE
+  quelle: hwp-bur-2023__rz-0549-s269
+  zitat: Dabei gelten zum Teil verkürzte Verjährungsfristen (beispielsweise für die Rückerstattung der Verrechnungssteuer drei Jahre).
+- text: 'Ausweis falsch: direkte Steuern nicht separat in der Erfolgsrechnung, Nachsteuern/Bussen oder Kapitalsteuern uneinheitlich zugeordnet.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Direkte Steuern sind in der Erfolgsrechnung separat auszuweisen
+- text: Schwebende Steuerrisiken weder zurückgestellt noch im Anhang offengelegt.
+  pruefziele:
+  - VO
+  - DO
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Für schwebende Steuerrisiken sind Rückstellungen zu bilden oder es ist ein Ausweis als Eventualverbindlichkeit in Betracht zu ziehen.
+- text: Auflösung übersetzter Steuerrückstellungen (stille Reserven) schönt das Ergebnis und ist im Anhang nicht offengelegt.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: ist der Nettobetrag aus Reservenauflösung im Anhang offenzulegen
+unterlagen:
+- dokument: 'Berechnung der Steuerabgrenzung 2025 (Gewinn- und Kapitalsteuer Bund/Kanton/Gemeinde) mit Parametern: Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen'
+  zweck: 'S1-301, S1-304: Abstimmung mit Jahresrechnung und Nachrechnen'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden)
+- dokument: Steuererklärung (Selbstdeklaration) der letzten eingereichten Periode(n) inkl. Beilagen
+  zweck: 'S1-302, S1-303, S1-151: Abgleich Deklaration mit Jahresrechnung und Abgrenzung'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Steuererklärung mit der zugrunde liegenden Jahresrechnung
+- dokument: Veranlagungsverfügungen Bund und Kanton aller noch nicht abgeschlossenen bzw. im Geschäftsjahr veranlagten Perioden
+  zweck: 'S1-103, S1-302: Stand der Veranlagung, Nachzahlungen/Rückerstattungen'
+  quelle: ser-2022__anh-d-s089-2
+  zitat: Befragung, inwieweit Steuerveranlagungen definitiv sind
+- dokument: Steuerrechnungen (provisorisch/Akonto, Schlussrechnungen), Steuerkontoauszug der Steuerverwaltung, Zahlungsbelege
+  zweck: 'S1-302, S1-303: Vergleich gebuchter Steuern und Zahlungen'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen
+- dokument: Korrespondenz mit Steuerbehörden (Rückfragen, Auflagen, Steuerrevision, Nachsteuer-/Strafsteuerverfahren, Einsprachen, Rekurse)
+  zweck: 'S1-102, S1-104: Feststellung allfälliger Nachforderungen und Risiken'
+  quelle: ser-2022__anh-d-s089-2
+  zitat: Einblick in entsprechende Korrespondenz zur Feststellung allfälliger Nachforderungen und Risiken, für welche Rückstellungen zu bilden sind
+- dokument: Bericht/Verfügung der letzten Steuerrevision (Buchprüfung) inkl. Nachbelastungen und Auflagen
+  zweck: 'S1-403: Umsetzung der Ergebnisse, Rückstellung für Nachbelastungen'
+  quelle: hwp-bur-2023__rz-0547-s269
+  zitat: Nachbelastungen können sich aufgrund von Steuerrevisionen und bei hängigen Rechtsmittelverfahren ergeben
+- dokument: Detailnachweis stille Reserven (Bestand je Position 31.12. und Vorjahr), inkl. versteuerter stiller Reserven gemäss Steuerbilanz
+  zweck: 'S1-321: Bestand/Veränderung, Nettoauflösung'
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge mit Zinssätzen, Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle
+  zweck: 'S1-401: Festhalten geldwerter Leistungen'
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- dokument: ESTV-Rundschreiben «Steuerlich anerkannte Zinssätze» des Steuerjahres (für 2025 das Rundschreiben 2025; im Wiki nur 2026 vorhanden)
+  zweck: 'S1-401: Vergleich Zinssätze Aktionärsdarlehen'
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Schweizer Franken
+- dokument: Verrechnungssteuer-Deklarationen (Formular 102 für geldwerte Leistungen, Dividenden) und Rückforderungsanträge
+  zweck: 'S1-401, S1-402, S1-304: VSt-Folgen und VSt-Guthaben'
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Die geldwerten Leistungen sind mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren.
+- dokument: Saldoliste/Hauptbuch der Steuerkonten (Steueraufwand, Steuerrückstellung/-verbindlichkeit, Steuerguthaben) mit Vorjahr; Kontoblätter neue Rechnung
+  zweck: 'S1-201, S1-303: Vorjahresvergleich, Entwicklung, Zahlungen nach Stichtag'
+  quelle: ser-2022__anh-d-s088-1
+  zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+- dokument: Vollständigkeitserklärung (Einhaltung Vorschriften betreffend direkte Steuern)
+  zweck: Schriftliche Bestätigung der Kernaussagen zu S1-101 bis S1-104
+  quelle: ser-2022__anh-e-s103-2
+  zitat: betreffend direkte Steuern, Mehrwertsteuern, Sozialversicherungen oder Umweltschutz
+- dokument: 'Unterlagen zu besonderen Verhältnissen: Grundstückkäufe/-verkäufe, Umstrukturierungen, Kapitalerhöhungen/Sanierung (Emissionsabgabe), Steuerrulings'
+  zweck: S1-402
+  quelle: ser-2022__anh-d-s091-1
+  zitat: Prüfung der korrekten steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und -herabsetzungen sowie Gewinnausschüttungen (Verrechnungssteuer)
+bewertung:
+- regel: Steueraufwand in der zugehörigen Gewinnperiode erfassen; die Gewinnsteuerlast entsteht mit der Gewinnerzielung.
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Die Gewinnsteuerlast entsteht gleichzeitig mit der Gewinnerzielung.
+- regel: Steuern zurückstellen, soweit ein steuerbarer Gewinn entsteht.
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: soweit ein steuerbarer Gewinn entsteht, zurückzustellen sind
+- regel: Geschuldete Steuern – veranlagt oder nicht – sind Fremdkapital; bereits veranlagte Steuern unter den übrigen kurzfristigen Verbindlichkeiten.
+  quelle: hwp-bur-2023__rz-0545-s268
+  zitat: Geschuldete, von den Steuerverwaltungen am Bilanzstichtag bereits veranlagte Steuern sind in der Bilanz als übrige kurzfristige Verbindlichkeiten auszuweisen.
+- regel: Noch nicht veranlagte geschuldete Steuern unter übrigen kurzfristigen Verbindlichkeiten oder passiven Rechnungsabgrenzungen.
+  quelle: hwp-bur-2023__rz-0546-s269
+  zitat: Geschuldete Steuern sind schon vor der Veranlagung unter den übrigen kurzfristigen Verbindlichkeiten oder den passiven Rechnungsabgrenzungen auszuweisen.
+- regel: Steuern sind bei der Ermittlung des Steueraufwands als geschäftsmässig begründeter Aufwand zu berücksichtigen.
+  quelle: hwp-bur-2023__rz-0545-s268
+  zitat: Steuern sind als geschäftsmässig begründeter Aufwand bei der Ermittlung des Steueraufwands entsprechend zu berücksichtigen.
+- regel: 'Mögliche Nachbelastungen (Steuerrevision, Rechtsmittel): Rückstellung nach Wahrscheinlichkeit am Tag der Bilanzerstellung schätzen.'
+  quelle: hwp-bur-2023__rz-0547-s269
+  zitat: Je nach Wahrscheinlichkeit einer Steuernachforderung ist am Tag der Bilanzerstellung die Höhe der erforderlichen Rückstellung zu schätzen.
+- regel: 'Grundstückgewinnsteuern periodengerecht abgrenzen; SG (dualistisch) und Bund: Grundstückgewinne unterliegen der Gewinnsteuer; Steuern aus nicht steuerneutralen Umstrukturierungen
+    im laufenden Jahr zurückstellen.'
+  quelle: hwp-bur-2023__rz-0548-s269
+  zitat: In Kantonen mit dem dualistischen System (z.B. St. Gallen, Zug) sowie bei der Besteuerung auf Bundesebene unterliegen Grundstückgewinne der (regulären) Gewinnsteuer.
+- regel: Steuervorauszahlungen und erwartete Rückvergütungen können Aktiven sein; Bestand und Verjährung einzeln prüfen (VSt-Rückerstattung drei Jahre).
+  quelle: hwp-bur-2023__rz-0549-s269
+  zitat: Steuervorauszahlungen und erwartete Steuerrückvergütungen (beispielsweise Quellensteuern auf Zins- und Dividendenerträgen) können dazu führen, dass Steuern als Aktivposten erscheinen.
+- regel: Für die laufende Steuerabgrenzung ist die Verrechnung von Verlustvorträgen mit dem Gewinn der Periode zulässig.
+  quelle: hwp-bur-2023__rz-0551-s270
+  zitat: Hingegen ist für die Ermittlung der Abgrenzung der laufenden Steuern eine Verrechnung von Verlustvorträgen mit dem Gewinn der laufenden Steuerperiode zulässig.
+- regel: 'Latente Steuern nach OR: de facto Wahlrecht, stetig und für alle temporären Differenzen gleich; latente Steueraktiven nur bei erfüllten Aktivierungsvoraussetzungen (nicht auf
+    steuerlichen Verlustvorträgen).'
+  quelle: hwp-bur-2023__rz-0551-s270
+  zitat: ein Wahlrecht dar, das stetig und für alle temporären Differenzen gleich anzuwenden ist
+- regel: ER-Position direkte Steuern umfasst bezahlte und abgegrenzte Steuern; Aufteilung Gewinn-/Kapitalsteuern gesetzlich nicht verlangt.
+  quelle: hwp-bur-2023__rz-0234-s114
+  zitat: Diese Position beinhaltet nicht nur die bezahlten, sondern auch die abgegrenzten Steuern.
+- regel: Nachsteuern, Strafsteuern, Bussen können als ausserordentlicher/periodenfremder Aufwand gezeigt werden; Kapitalsteuern wahlweise im Steuer- oder übrigen betrieblichen Aufwand
+    (stetig).
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Nachsteuern, Strafsteuern oder Bussen können dem ausserordentlichen, einmaligen oder periodenfremden Aufwand zugeordnet werden.
+- regel: Handelsrechtlich notwendige Steuerrückstellungen sind unabhängig von der steuerlichen Anerkennung zu bilden.
+  quelle: hwp-bur-2023__rz-0513-s261
+  zitat: Handelsrechtlich notwendige Rückstellungen müssen auch dann gebildet werden, wenn sie steuerlich keine Anerkennung finden.
+- regel: 'Mögliche Anhangangaben zu direkten Steuern: Aufteilung Ertrags-/Kapitalsteuern, Stand der Veranlagung.'
+  quelle: hwp-bur-2023__rz-0816-s339-t4
+  zitat: Aufteilung Ertrags-/Kapitalsteuern
+- regel: Bestand stiller Reserven jährlich je Bilanzposition (Buchwert vs. zulässiger Höchstwert) ermitteln und mit Vorjahr vergleichen.
+  quelle: hwp-bur-2023__rz-0671-s297
+  zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+- regel: Unverzinste oder ungenügend verzinste Darlehen an Beteiligte bzw. übersetzte Zinsen auf Beteiligtendarlehen sind geldwerte Leistungen (VSt 35 %; gleiche Kriterien DBG). Massgebend
+    ist das Rundschreiben des jeweiligen Steuerjahres.
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+- regel: Zinsen auf verdecktem Eigenkapital werden dem steuerbaren Gewinn zugerechnet (KS ESTV 6a).
+  quelle: estv-ks-6a-2024__3-1
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+fallstricke:
+- text: 'Die eingeschränkte Revision ist keine Steuerprüfung: keine Prüfung der Steuerkonformität der Deklaration; beurteilt wird nur die Auswirkung auf die Jahresrechnung.'
+  quelle: ser-2022__anh-c-s057-1
+  zitat: keine Befragungen oder weiteren Prüfungen zur Aufdeckung von deliktischen Handlungen und weiteren Gesetzesverstössen (z. B. betreffend direkte Steuern
+- text: 'S1-102, S1-103 und S1-303 entsprechen im SER weiter gehenden Prüfungshandlungen: nur bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko, Begründung dokumentieren.'
+  quelle: hwp-er-2026__rz-0132-s203
+  zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
+    anzunehmen sind
+- text: Auch nicht veranlagte Steuern sind Fremdkapital – «noch keine Veranlagung» rechtfertigt keine fehlende Abgrenzung.
+  quelle: hwp-bur-2023__rz-0545-s268
+  zitat: dass geschuldete Steuern – veranlagt oder nicht veranlagt – Fremdkapital darstellen
+- text: 'Verlustjahr heisst nicht «kein Steueraufwand»: Kapitalsteuern, separat besteuerte Gewinne und periodenfremde Nachzahlungen bleiben; Kapitalsteuer kann im übrigen betrieblichen
+    Aufwand stecken (Analytik bereinigen).'
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Die Kapitalsteuern können entweder im Steueraufwand oder
+- text: Steuerliche Verlustvorträge wirken nur über die laufende Steuerrückstellung; ein latentes Steuerguthaben darauf ist im OR-Abschluss nicht zu aktivieren.
+  quelle: ef-2020-10-latente-steuern__s003-5
+  zitat: In diesem Fall wird der steuerliche Verlustvortrag jedoch für die Berechnung der laufenden Steuerrückstellung berücksichtigt
+- text: Steuerliche und handelsrechtliche Rückstellungszulässigkeit unterscheiden sich; steuerlich motivierte Rückstellungen über Bedarf sind stille Reserven (S1-321).
+  quelle: hwp-bur-2023__rz-0212-s107
+  zitat: Die steuerrechtliche Zulässigkeit von Rückstellungen kann von der handelsrechtlichen abweichen.
+- text: Zinssätze für geldwerte Leistungen nur aus dem ESTV-Rundschreiben des betreffenden Steuerjahres; das im Wiki vorhandene Rundschreiben 2026 gilt nicht für 2025.
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Schweizer Franken
+- text: 'Ob eine Leistung angemessen abgegolten ist, ist Ermessensfrage: der Agent hält geldwerte Leistungen nur fest; Beurteilung, Mitteilung an VR und Hinweis im Bericht entscheidet
+    der WP.'
+  quelle: hwp-er-2026__rz-0163-s212
+  zitat: Bei der Beurteilung, ob eine Leistung der Gegenleistung entspricht, besteht in der Praxis ein erheblicher Ermessensspielraum.
+- text: Keine Bestätigungen bei Steuerbehörden selbst einholen; nur beim Unternehmen vorhandene Verfügungen, Rechnungen und Korrespondenz verwenden.
+  quelle: hwp-er-2026__rz-0095-s196
+  zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
+- text: Befragungen nur als schriftlich festgehaltene Frage und Antwort verwertbar; bei wesentlichen Steuerpositionen zusätzlich analytisch/Detail prüfen.
+  quelle: hwp-er-2026__rz-0105-s198
+  zitat: Gemäss SER stützt sich der Abschlussprüfer bei wesentlichen Jahresabschlussposten nicht nur auf Befragungen ab
+- text: 'Hat die Revisionsstelle die Steuerabgrenzung oder Steuererklärung selbst erstellt, besteht Selbstprüfungsrisiko: Unabhängigkeitsmassnahmen beim WP klären.'
+  quelle: ser-2022__anh-b-s049-2
+  zitat: Da beim Mitwirken bei der Buchführung per se das Risiko der Selbstprüfung besteht
+- text: Auflösungsdifferenz der Vorjahres-Steuerrückstellung (Zahlung ≠ Rückstellung) ist periodenfremd und ggf. im Anhang zu erläutern; nicht mit dem laufenden Steueraufwand vermischen.
+  quelle: or__art-959c-t2
+  zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
+- text: Veranlagungsstand getrennt für Bund und Kanton/Gemeinde erfassen; eine definitive Veranlagung auf einer Ebene sagt nichts über die andere.
+fragen_kunde:
+- frage: Sind alle direkten Steuern früherer Perioden (Bund, Kanton/Gemeinde) bezahlt oder abgegrenzt? Bitte Liste je Steuerperiode mit Status (bezahlt/offen, Betrag).
+  zweck: S1-101 (VO, PA); Antwort schriftlich dokumentieren
+- frage: Fanden im Geschäftsjahr oder bis heute Steuerrevisionen, Buchprüfungen, Nachforschungen oder Rückfragen der Steuerbehörden statt? Bitte Korrespondenz und allfällige Revisionsberichte
+    beilegen.
+  zweck: S1-102, S1-403 (RV, VO)
+- frage: Für welche Steuerperioden liegen definitive Veranlagungen vor (getrennt Bund und Kanton)? Bitte Veranlagungsverfügungen einreichen.
+  zweck: S1-103 (RV); Stand der Veranlagung
+- frage: 'Sind Einsprachen, Rekurse oder Beschwerden in Steuersachen hängig? Wenn ja: Periode, Streitpunkt, Streitbetrag und Einschätzung des Ausgangs.'
+  zweck: S1-104 (RV, VO); Rückstellung oder Eventualverbindlichkeit
+- frage: Wer hat die Steuerabgrenzung 2025 berechnet und mit welchen Parametern (Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen)? Bitte Berechnung einreichen.
+  zweck: S1-301, S1-304 (BE, RI)
+- frage: Welche provisorischen Steuerrechnungen und Akontozahlungen betreffen 2025, und bestehen Steuerguthaben oder Rückerstattungsansprüche (inkl. Verrechnungssteuer)?
+  zweck: S1-302, S1-303, S1-304
+- frage: Gab es Leistungen an Aktionäre, Organe oder Nahestehende zu nicht marktüblichen Bedingungen (Darlehenszinsen, Saläre, Spesen, Privataufwand, Fahrzeugnutzung, Käufe/Verkäufe
+    von Aktiven)?
+  zweck: S1-401 (RV, VO, BE)
+- frage: Lagen 2025 besondere steuerliche Verhältnisse vor (Grundstückgewinne, Umstrukturierungen, Sanierungsmassnahmen/Forderungsverzichte, Kapitalerhöhung, Ausschüttungen aus Kapitaleinlagereserven,
+    Steuerrulings, abweichendes Geschäftsjahr)?
+  zweck: S1-402 (EN, VO, PA)
+- frage: Wie haben sich die stillen Reserven entwickelt (inkl. übersetzter Steuerrückstellungen und versteuerter stiller Reserven)? Bitte Detailnachweis einreichen.
+  zweck: S1-321 (BE); Nettoauflösung Anhang
+- frage: Werden latente Steuern erfasst (Wahlrecht), und falls ja, nach welcher Methode und mit welchem Steuersatz?
+  zweck: S1-301, Bewertung latente Steuern (Stetigkeit)
+testakte_2025:
+- datei: 00_Allgemein/Saldoliste_2025.md
+  bezug: 'S1-201: Konto 8900 Direkte Steuern 2025/2024 und Jahresergebnis; S1-303/S1-304: Konto 2340 Steuerrückstellung, 1176 Verrechnungssteuer; S1-401: Konto 2170 Zinsverbindlichkeiten
+    ggü. Aktionären'
+- datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
+  bezug: 'S1-101/S1-303: Kontoblatt 2340 Steuerrückstellung (Eröffnung, Beleg ST-24 Zahlung Steuern 2024); S1-304: Kontoblatt 1176 Verrechnungssteuer; enthält nur Bilanzkonten (und 8510),
+    kein Kontoblatt 8900'
+- datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
+  bezug: 'S1-201/S1-301: EBT und Direkte Steuern 2025/2024; S1-304: Ausweis Steuerrückstellung unter passiven Rechnungsabgrenzungen; S1-321: Anhang Ziff. 1 (Rückstellungen über betrieblich
+    benötigtes Ausmass) und Ziff. 3; S1-402: Anhang Ziff. 6 (Überschuldung, Sanierung)'
+- datei: 00_Allgemein/Unternehmensinformationen_2025.md
+  bezug: 'S1-301/S1-402: Sitz Wil SG (Steuerhoheit, Parameter), Kapitalerhöhung 20.01.2025, Geschäftsjahr; Ansprechpersonen für Fragen S1-101 bis S1-104'
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: 'PBC-Abgleich: welche Steuerunterlagen (Steuerberechnung, Steuererklärung, Veranlagungen, Steuerkorrespondenz, Revisionsbericht) in der Akte vorliegen → Pendenzen S1-101 bis
+    S1-303, S1-403'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'S1-303: Durchsicht neue Rechnung; enthält nur Konten 1100, 3200, 2000 – Steuerzahlungen 2026 über Bankauszug beiziehen'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'S1-303: Zahlungen an Steuerbehörden in neuer Rechnung (MWST-Zahlungen gehören zu M2)'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'S1-303/S1-304: Rückstellungsspiegel Zeile 2340 Steuerrückstellung (Stand 01.01., Verwendung, Stand 31.12., Bemerkung); S1-321: übrige Rückstellungen als mögliche stille Reserven'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
+  bezug: 'S1-401: vertraglicher Zinssatz Aktionärsdarlehen vs. ESTV-Zinssätze des Steuerjahres 2025; S1-402: verdecktes Eigenkapital (analog Verträge B, D, E)'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_B.md
+  bezug: 'S1-401/S1-402: wie Aktionär A'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_D.md
+  bezug: 'S1-401/S1-402: wie Aktionär A'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_E.md
+  bezug: 'S1-401/S1-402: wie Aktionär A'
+- datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
+  bezug: 'S1-401: Bestimmung der Beteiligten/Nahestehenden'
+- datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
+  bezug: 'S1-402: Kapitalerhöhung mit Agio und Verrechnungsliberierung im Rahmen der Sanierung (Emissionsabgabe, Kapitaleinlagereserven)'
+- datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
+  bezug: 'S1-402: beantragte Ausschüttung aus Kapitalreserven (Verrechnungssteuerfolgen)'
+- datei: L_Personal/Personalliste_Loehne_2025.md
+  bezug: 'S1-401: Saläre/Boni der Geschäftsleitung, falls nahestehend (Abgleich mit Aktienbuch)'
+schritte:
+- id: S1-101
+  vorgehen: 'Schriftliche Frage an Leitung Finanzen als Pendenz erfassen bzw. Antwort aus der Kundenbefragung (10.11) auswerten: Sind alle direkten Steuern früherer Perioden bezahlt
+    oder abgegrenzt? Antwort mit Kontoblatt Steuerrückstellung/-verbindlichkeit, Zahlungen im Geschäftsjahr und letzter Veranlagung abgleichen. Im Textfeld: Frage, Antwort, Datum, offene
+    Perioden, Abgleich.'
+  nachweise:
+  - Schriftliche Antwort der Unternehmensleitung
+  - Kontoblatt Steuerrückstellung/Steuerverbindlichkeiten
+  - Steuerrechnungen bzw. Steuerkontoauszug
+  - Zahlungsbelege
+  rechnen: 'Je offene Steuerperiode: Rückstellung/Verbindlichkeit 31.12. ≥ Steuer gemäss Rechnung/Schätzung − bezahlte Akonti; Summe offene Perioden = Saldo Steuerrückstellung + Steuerverbindlichkeiten'
+  feststellung_wenn: Offene Steuerperiode weder bezahlt noch abgegrenzt, Antwort widerspricht der Buchhaltung oder Antwort fehlt (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Befragung, ob alle direkten Steuern aus früheren Abschlussperioden bezahlt oder abgegrenzt wurden
+  - quelle: hwp-bur-2023__rz-0545-s268
+    zitat: Ebenso müssen Steuernachzahlungen als Folge definitiver Einschätzungen als Verbindlichkeit berücksichtigt werden.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+- id: S1-102
+  vorgehen: 'WP-Schritt (SER: weiter gehend); Agent bereitet vor: Frage nach Steuerrevisionen, Nachforschungen, Rückfragen als Pendenz erfassen; Steuerkorrespondenz in M-Files suchen
+    und je Schreiben Datum, Behörde, Periode, Gegenstand, geforderter Betrag, Status auflisten. Mögliche Nachforderungen der gebuchten Rückstellung gegenüberstellen. Beurteilung durch
+    WP.'
+  nachweise:
+  - Korrespondenz mit Steuerbehörden
+  - Bericht/Verfügung Steuerrevision
+  - Schriftliche Antwort der Unternehmensleitung
+  - Kontoblatt Steuerrückstellung
+  rechnen: Summe mögliche Nachforderungen gemäss Korrespondenz − gebuchte Rückstellung/Verbindlichkeit für diese Perioden = ungedeckter Betrag
+  feststellung_wenn: Nachforderung oder Auflage aus Korrespondenz ohne Rückstellung/Offenlegung, Korrespondenz nicht vorgelegt oder Widerspruch zur Antwort.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Einblick in entsprechende Korrespondenz zur Feststellung allfälliger Nachforderungen und Risiken, für welche Rückstellungen zu bilden sind
+  - quelle: hwp-bur-2023__rz-0547-s269
+    zitat: Je nach Wahrscheinlichkeit einer Steuernachforderung ist am Tag der Bilanzerstellung die Höhe der erforderlichen Rückstellung zu schätzen.
+- id: S1-103
+  vorgehen: 'WP-Schritt; Agent: Frage nach definitiven Veranlagungen als Pendenz, vorhandene Veranlagungsverfügungen sammeln. Tabelle je Periode und Ebene (Bund, Kanton/Gemeinde): Status
+    provisorisch/definitiv, Datum, veranlagter Gewinn/Kapital, Steuer, offener Betrag. Abweichungen zur Deklaration und Nachzahlungen markieren; Beurteilung WP.'
+  nachweise:
+  - Veranlagungsverfügungen Bund und Kanton
+  - Steuerrechnungen
+  - Schriftliche Antwort der Unternehmensleitung
+  rechnen: 'Je Periode/Ebene: Steuer gemäss definitiver Veranlagung − Rückstellung bzw. bezahlte Akonti = zu buchende Nachzahlung/Rückerstattung'
+  feststellung_wenn: Nachzahlung aus definitiver Veranlagung nicht gebucht, Veranlagung weicht von Deklaration ab ohne Folgeprüfung, oder Veranlagungsstand unbekannt (Pendenz).
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Befragung, inwieweit Steuerveranlagungen definitiv sind
+  - quelle: hwp-bur-2023__rz-0545-s268
+    zitat: Ebenso müssen Steuernachzahlungen als Folge definitiver Einschätzungen als Verbindlichkeit berücksichtigt werden.
+  - quelle: hwp-bur-2023__rz-0816-s339-t4
+    zitat: Stand der Veranlagung
+- id: S1-104
+  vorgehen: 'WP-Schritt; Agent: Frage an die Unternehmensleitung nach hängigen Einsprachen, Rekursen, Beschwerden (Periode, Streitpunkt, Streitbetrag, Einschätzung) als Pendenz. Antwort
+    mit Korrespondenz/Entscheiden abgleichen und gebuchter Rückstellung bzw. Anhangangabe Eventualverbindlichkeit gegenüberstellen. Risiko beurteilt der WP.'
+  nachweise:
+  - Einsprachen, Rekurse, Entscheide
+  - Einschätzung Steuervertreter
+  - Schriftliche Antwort der Unternehmensleitung
+  - Anhang Jahresrechnung
+  rechnen: 'Je Verfahren: Streitbetrag und geschätzter Mittelabfluss vs. gebuchte Rückstellung bzw. Betrag Eventualverbindlichkeit im Anhang'
+  feststellung_wenn: Hängiges Verfahren mit wahrscheinlichem Mittelabfluss ohne Rückstellung, oder unwahrscheinlicher/nicht schätzbarer Abfluss ohne Anhangangabe; fehlende Antwort als
+    Pendenz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Einsprachen und Rekurse hängig sind
+  - quelle: hwp-bur-2023__rz-0547-s269
+    zitat: Nachbelastungen können sich aufgrund von Steuerrevisionen und bei hängigen Rechtsmittelverfahren ergeben
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
+- id: S1-201
+  vorgehen: 'Aus Saldoliste/Jahresrechnung Ergebnis vor Steuern und direkte Steuern (laufend/Vorjahr) entnehmen, Steuerquote und Veränderung im Rechenmodul berechnen. Erwartung bilden:
+    Gewinnjahr Gewinn- plus Kapitalsteuer, Verlustjahr grundsätzlich nur Kapitalsteuer plus allf. periodenfremde Effekte. Abweichungen über Nicht-Aufgriffsgrenze als Frage erfassen.
+    Im Textfeld: Tabelle, Erwartung, Erklärung.'
+  nachweise:
+  - Saldoliste Erfolgsrechnung/Bilanz mit Vorjahr
+  - Jahresrechnung
+  - Steuerberechnung
+  rechnen: 'Steuerquote = Direkte Steuern / Ergebnis vor Steuern (bei Gewinn); Veränderung = Steuern X − Steuern X-1; Verlustjahr: Steueraufwand vs. erwartete Kapitalsteuer'
+  feststellung_wenn: Gewinnjahr ohne Gewinnsteuer, Verlustjahr mit unerklärtem Steueraufwand oder Quote/Veränderung ohne plausible Erklärung über der Nicht-Aufgriffsgrenze.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Beurteilung des Steueraufwands im Vergleich zum Periodenergebnis und zum Vorjahr
+  - quelle: hwp-bur-2023__rz-0801-s331
+    zitat: Die Gewinnsteuerlast entsteht gleichzeitig mit der Gewinnerzielung.
+  - quelle: hwp-er-2026__rz-0109-s199
+    zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+- id: S1-301
+  vorgehen: 'Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen; Verlustverrechnung gemäss letzter Veranlagung;
+    steuerbares Kapital = Eigenkapital JR (+ versteuerte Reserven); Steuersätze/-füsse von Sitz und Periode (Plausibilisierung Treuhand-Almanach 2025); Akonti. Resultat mit gebuchtem
+    Aufwand/Saldo abstimmen und nachrechnen.'
+  nachweise:
+  - Steuerberechnung 2025
+  - Jahresrechnung/Saldoliste
+  - Letzte Veranlagung (Verlustvortrag)
+  - Steuerfüsse/-sätze des Steuerjahres
+  - Akontorechnungen
+  rechnen: Ergebnis vor Steuern (Berechnung) = JR; Gewinnsteuer = max(0; steuerbarer Gewinn − verrechenbare Verluste) × Satz; Kapitalsteuer = steuerbares Kapital × Satz; Abgrenzung =
+    Gewinn- + Kapitalsteuer − Akonti = Saldo Steuerrückstellung/-verbindlichkeit
+  feststellung_wenn: Keine Berechnung, Ausgangswert ≠ JR, Satz/Steuerfuss falsch oder Vorjahr, Verlustvortrag unbelegt, Kapitalsteuer fehlt, oder Resultat ≠ gebuchter Betrag über Nicht-Aufgriffsgrenze.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden)
+  - quelle: hwp-bur-2023__rz-0551-s270
+    zitat: Hingegen ist für die Ermittlung der Abgrenzung der laufenden Steuern eine Verrechnung von Verlustvorträgen mit dem Gewinn der laufenden Steuerperiode zulässig.
+  - quelle: hwp-bur-2023__rz-0545-s268
+    zitat: Steuern sind als geschäftsmässig begründeter Aufwand bei der Ermittlung des Steueraufwands entsprechend zu berücksichtigen.
+  - quelle: treuhand-almanach-2026__s056-1
+    zitat: für die Steuerperiode 2025
+- id: S1-302
+  vorgehen: 'Kennzeichnung im Katalog offen («?», keine Prüfziele): als Detailprüfung vorbereiten, Kennzeichnung durch WP bestätigen lassen. Buchungen auf den Steuerkonten des Geschäftsjahres
+    mit Steuerrechnungen (Akonto, Schlussrechnung), Steuererklärung und Veranlagungsverfügungen je Periode/Ebene abgleichen. Abweichung Deklaration–Veranlagung (Aufrechnungen) festhalten.'
+  nachweise:
+  - Kontoblätter Steuerkonten
+  - Steuerrechnungen
+  - Steuererklärung (Kopie)
+  - Veranlagungsverfügungen
+  - Zahlungsbelege
+  rechnen: 'Je Buchung: Betrag Buchung = Betrag Steuerrechnung/Verfügung; deklarierter Gewinn/Kapital = Jahresrechnung der Periode; veranlagter − deklarierter Gewinn = Aufrechnungen'
+  feststellung_wenn: Buchung ohne Rechnung/Verfügung, Betragsdifferenz, oder Veranlagung weicht von Deklaration ab ohne gebuchte Konsequenz.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Abstimmung der Steuererklärung mit der zugrunde liegenden Jahresrechnung
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: hwp-or-2024__rz-0960-s369
+    zitat: Abgleich der Steuerrechnungen mit den Steuererklärungen und -einschätzungen
+- id: S1-151
+  vorgehen: 'Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an WP: Inhalt festlegen oder Schritt als
+    nicht anwendbar markieren. Hinweis (nicht bestätigt): Die SER-Detailprüfung «Abstimmung der Steuererklärung mit der zugrunde liegenden Jahresrechnung» hat in S1 keinen eigenen Schritt.'
+  nachweise:
+  - Katalog revio 4.0 (Anhang H)
+  - Vorgabe des Wirtschaftsprüfers
+  rechnen: ''
+  feststellung_wenn: Keine Feststellung; solange kein Katalogtext bzw. keine WP-Vorgabe vorliegt, Pendenz «Inhalt S1-151 festlegen» offen lassen.
+  fundstellen:
+  - quelle: katalog-revio4__c003-57
+    zitat: S1-151 | Detail | WP | RV VO BE RI
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Abstimmung der Steuererklärung mit der zugrunde liegenden Jahresrechnung
+- id: S1-303
+  vorgehen: 'WP-Schritt (SER: weiter gehend). Rückstellungsspiegel Steuern je Periode/Ebene erstellen: Anfangsbestand (= Vorjahres-JR) + Bildung (S1-301) − Zahlungen (Bank, Steuerkontoauszug)
+    ± Nachzahlung/Auflösung (Veranlagung) = Endbestand; mit Steuererklärung abgleichen. Zahlungen in neuer Rechnung einbeziehen; Auflösungsdifferenzen als periodenfremd kennzeichnen.'
+  nachweise:
+  - Rückstellungsspiegel
+  - Kontoblatt Steuerrückstellung
+  - Bankauszüge/Zahlungsbelege
+  - Steuererklärung
+  - Veranlagungen
+  - Kontoblätter/Bankauszüge Folgejahr
+  rechnen: AB + Bildung − Zahlungen ± Nachzahlung/Auflösung = EB = Saldo 31.12.; AB = Saldo Vorjahres-JR; Zahlung Vorjahresperiode − Rückstellung Vorjahr = periodenfremder Aufwand/Ertrag
+  feststellung_wenn: EB ≠ Saldo, Zahlung nicht belegt, Vorjahresrückstellung ausgebucht ohne Zahlung/Veranlagung oder Differenz nicht als periodenfremd erkannt.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s089-1
+    zitat: Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
+  - quelle: hwp-er-2026__rz-0132-s203
+    zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
+      anzunehmen sind
+- id: S1-304
+  vorgehen: Prüfen, ob für die laufende Periode (Gewinn- und Kapitalsteuer, ggf. Grundstückgewinnsteuer) und alle nicht veranlagten Vorperioden Rückstellung/Abgrenzung besteht (Ergebnisse
+    S1-101 bis S1-303). Ausweis und Bewertung beurteilen; Überdeckung als stille Reserve an S1-321; Steuerguthaben (Vorauszahlungen, VSt) auf Bestand und Verjährung prüfen.
+  nachweise:
+  - Steuerberechnung
+  - Kontoblätter Steuerkonten
+  - Veranlagungsstand (S1-103)
+  - Korrespondenz (S1-102/S1-104)
+  - Rückstellungsspiegel
+  rechnen: Soll = Σ (geschätzte Steuer je offene Periode/Ebene − Akonti) + Risiken; Ist = Steuerrückstellung + Steuerverbindlichkeiten − Steuerguthaben; Differenz = Ist − Soll
+  feststellung_wenn: Keine oder zu tiefe Rückstellung auf laufendem steuerbarem Gewinn/Kapital, falscher Ausweis, Steuerguthaben verjährt/unbelegt, oder Überdeckung ohne Begründung.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0801-s331
+    zitat: soweit ein steuerbarer Gewinn entsteht, zurückzustellen sind
+  - quelle: hwp-bur-2023__rz-0546-s269
+    zitat: Geschuldete Steuern sind schon vor der Veranlagung unter den übrigen kurzfristigen Verbindlichkeiten oder den passiven Rechnungsabgrenzungen auszuweisen.
+  - quelle: or__art-960e
+    zitat: Lassen vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten, so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung
+      gebildet werden.
+  - quelle: hwp-bur-2023__rz-0549-s269
+    zitat: Dabei gelten zum Teil verkürzte Verjährungsfristen (beispielsweise für die Rückerstattung der Verrechnungssteuer drei Jahre).
+- id: S1-321
+  vorgehen: 'Standardschritt: Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung berechnen. Steuerbezug: übersetzte Steuerrückstellungen
+    und versteuerte stille Reserven festhalten. Nettoauflösung mit Jahresergebnis vergleichen, Anhangangabe nach Art. 959c Abs. 1 Ziff. 3 OR prüfen. Fehlt der Nachweis: Pendenz.'
+  nachweise:
+  - Detailnachweis stille Reserven
+  - Saldoliste
+  - Steuerberechnung (versteuerte Reserven)
+  - Anhang
+  rechnen: 'Veränderung = Bestand 31.12.X − Bestand 31.12.X-1; bei Nettoauflösung: Anteil am Jahresergebnis; Anhangbetrag = Nettoauflösung'
+  feststellung_wenn: Wesentliche Nettoauflösung ohne Anhangangabe, Gewinn statt Verlust durch Auflösung, oder Detailnachweis fehlt/stimmt nicht mit Saldoliste.
+  fundstellen:
+  - quelle: ser-2022__anh-d-s073-1
+    zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+  - quelle: hwp-bur-2023__rz-0671-s297
+    zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+  - quelle: or__art-959c-t1
+    zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  - quelle: hwp-bur-2023__rz-0675-s298
+    zitat: wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
+- id: S1-401
+  vorgehen: Transaktionen mit Beteiligten/Nahestehenden aus anderen Prüffeldern und Kontendurchsicht zusammentragen (Darlehen/Zinsen, Saläre, Spesen, Privataufwand, Fahrzeuge, Käufe/Verkäufe,
+    entgangene Erträge). Zinssätze mit ESTV-Rundschreiben des Steuerjahres vergleichen. Liste mit Sachverhalt, Betrag, möglichen Steuerfolgen festhalten; Beurteilung und Vorgehen nach
+    Art. 678 OR durch WP.
+  nachweise:
+  - Darlehensverträge mit Beteiligten
+  - Kontoblätter Zinsen, Löhne, Spesen
+  - Aktienbuch, GV-/VR-Protokolle
+  - ESTV-Rundschreiben Zinssätze des Steuerjahres
+  rechnen: 'Je Darlehen: Zins vertraglich − Zins zum ESTV-Satz des Jahres = mögliche geldwerte Leistung; mögliche VSt = geldwerte Leistung × 35 %'
+  feststellung_wenn: Leistung an Beteiligte/Nahestehende ohne angemessene Gegenleistung oder Zinssatz ausserhalb der ESTV-Sätze ohne Nachweis; mögliche Steuerfolgen nicht zurückgestellt.
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0163-s212
+    zitat: Es handelt sich um eine geldwerte Leistung, die eine Gesellschaft ihren Gesellschaftern oder diesen nahestehenden Personen erbringt
+  - quelle: estv-zinsen-2026__s001-1
+    zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+  - quelle: hwp-bur-2023__rz-0680-s299
+    zitat: nicht marktgerechte Zinssätze (zu niedrig verzinste Darlehen der Gesellschaft oder überhöht verzinste Gesellschafterdarlehen)
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
+- id: S1-402
+  vorgehen: 'Aus Protokollen, Verträgen und Antworten besondere steuerliche Verhältnisse des Jahres festhalten: Grundstückgewinne, nicht steuerneutrale Umstrukturierungen, Sanierung/Kapitalerhöhung
+    (Emissionsabgabe), Ausschüttungen (VSt), verdecktes Eigenkapital, Kurz-/Langjahr, Rulings. Je Sachverhalt prüfen, ob Steuerfolgen abgegrenzt bzw. offengelegt sind; offene Punkte
+    als Frage.'
+  nachweise:
+  - GV-/VR-Protokolle
+  - Verträge (Grundstücke, Umstrukturierungen)
+  - Unternehmensinformationen
+  - Steuerberechnung
+  - Steuerrulings
+  rechnen: Separat besteuerter Gewinn × Satz = abzugrenzende Steuer; Zinsen auf verdecktem Eigenkapital = nicht abzugsfähiger Zins (Aufrechnung in Steuerberechnung)
+  feststellung_wenn: Besonderer Sachverhalt mit Steuerfolgen (z.B. Grundstückgewinn, Umstrukturierung, Emissionsabgabe, VSt) im Geschäftsjahr nicht abgegrenzt oder nicht offengelegt.
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0548-s269
+    zitat: Einmalige Steuerfolgen können sich zudem bei nicht steuerneutralen Umstrukturierungen ergeben. Diese Steuern sind im laufenden Geschäftsjahr zurückzustellen.
+  - quelle: ser-2022__anh-d-s091-1
+    zitat: Prüfung der korrekten steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und -herabsetzungen sowie Gewinnausschüttungen (Verrechnungssteuer)
+  - quelle: estv-ks-6a-2024__3-1
+    zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+  - quelle: hwp-bur-2023__rz-0550-s270
+    zitat: Art. 79 Abs. 3 DBG schreibt vor, dass in jedem Kalenderjahr ein Geschäftsabschluss zu erstellen ist.
+- id: S1-403
+  vorgehen: 'Bericht/Verfügung der letzten Steuerrevision aus Dauerakte bzw. M-Files beiziehen (sonst Pendenz). Feststellungen (Aufrechnungen, Auflagen, z.B. Abschreibungen, Rückstellungen,
+    Privatanteile, Zinsen) auflisten und prüfen: Nachforderung gebucht/bezahlt, Auflage im laufenden Abschluss umgesetzt, wiederkehrendes Risiko in Steuerberechnung berücksichtigt. Dauerakte
+    nachführen.'
+  nachweise:
+  - Bericht/Verfügung der Steuerrevision
+  - Nachsteuerrechnungen und Zahlungen
+  - Dauerakte
+  - Steuerberechnung laufendes Jahr
+  rechnen: Nachforderung gemäss Revision − gebuchte Verbindlichkeit/Zahlung = Differenz; gleichartige Aufrechnung im laufenden Jahr × Steuersatz = Risiko
+  feststellung_wenn: Nachforderung nicht gebucht, Auflage im laufenden Jahr nicht umgesetzt (gleiche Aufrechnung ohne Rückstellung), oder Revisionsergebnis nicht verfügbar (Pendenz).
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0547-s269
+    zitat: Nachbelastungen können sich aufgrund von Steuerrevisionen und bei hängigen Rechtsmittelverfahren ergeben
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben
+  - quelle: hwp-er-2026__rz-0279-s247
+    zitat: Neben den Jahresakten werden Dauerakten angelegt
