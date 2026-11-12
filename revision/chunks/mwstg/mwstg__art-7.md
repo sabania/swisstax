@@ -1,0 +1,21 @@
+---
+id: mwstg__art-7
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 7 MWSTG – Ort der Lieferung
+pfad: '1. Titel: Allgemeine Bestimmungen'
+artikel: Art. 7
+---
+> MWSTG · Art. 7 MWSTG – Ort der Lieferung
+
+**Abs. 1** Als Ort einer Lieferung gilt der Ort, an dem:
+- a. sich der Gegenstand zum Zeitpunkt der Verschaffung der Befähigung, über ihn wirtschaftlich zu verfügen, der Ablieferung oder der Überlassung zum Gebrauch oder zur Nutzung befindet;
+- b. die Beförderung oder Versendung des Gegenstandes zum Abnehmer oder zur Abnehmerin oder in dessen oder deren Auftrag zu einer Drittperson beginnt.
+
+**Abs. 2** Als Ort der Lieferung von Elektrizität in Leitungen, Gas über das Erdgasverteilnetz und Fernwärme gilt der Ort, an dem der Empfänger oder die Empfängerin der Lieferung den Sitz der wirtschaftlichen Tätigkeit oder eine Betriebsstätte hat, für welche die Lieferung erbracht wird, oder in Ermangelung eines solchen Sitzes oder einer solchen Betriebsstätte der Ort, an dem die Elektrizität, das Gas oder die Fernwärme tatsächlich genutzt oder verbraucht wird.
+
+**Abs. 3** Bei der Lieferung eines Gegenstands vom Ausland ins Inland gilt der Ort der Lieferung als im Inland gelegen, sofern der Leistungserbringer oder die Leistungserbringerin:
+- a. über eine Bewilligung der Eidgenössischen Steuerverwaltung (ESTV) verfügt, die Einfuhr im eigenen Namen vorzunehmen (Unterstellungserklärung), und im Zeitpunkt der Einfuhr nicht darauf verzichtet; oder
+- b. mit Gegenständen, die nach Artikel 53 Absatz 1 Buchstabe a aufgrund des geringfügigen Steuerbetrags von der Einfuhrsteuer befreit sind, Lieferungen nach Absatz 1 Buchstabe b des vorliegenden Artikels erbringt und daraus mindestens einen Umsatz von 100 000 Franken pro Jahr erzielt.

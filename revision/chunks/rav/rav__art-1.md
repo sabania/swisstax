@@ -1,0 +1,21 @@
+---
+id: rav__art-1
+quelle: rav
+kurz: RAV
+typ: verordnung
+rang: 1
+titel: Art. 1 RAV – Gesuch um Zulassung
+pfad: '1. Kapitel: Zulassung zur Erbringung von Revisionsdienstleistungen > 1. Abschnitt: Allgemeine Bestimmungen'
+artikel: Art. 1
+---
+> RAV · Art. 1 RAV – Gesuch um Zulassung
+
+**Abs. 1** Ein Gesuch um Zulassung bei der Aufsichtsbehörde muss einreichen:
+- a. jede natürliche Person, die als Revisorin oder Revisor oder als Revisionsexpertin oder Revisionsexperte Revisionsdienstleistungen erbringen will;
+- b. jedes Revisionsunternehmen, das als Revisor, als Revisionsexperte oder als staatlich beaufsichtigtes Revisionsunternehmen Revisionsdienstleistungen erbringen will;
+- c. jede natürliche Person, die basierend auf einer Zulassung gemäss Buchstabe a als leitende Prüferin oder leitender Prüfer Prüfungen nach den Finanzmarktgesetzen nach Artikel 1 Absatz 1 des Finanzmarktaufsichtsgesetzes vom 22. Juni 2007 (Finanzmarktgesetze) durchführen will (Art. 9a Abs. 2 RAG);
+- d. jedes Revisionsunternehmen, das basierend auf der Zulassung gemäss Buchstabe b als Prüfgesellschaft Prüfungen nach den Finanzmarktgesetzen durchführen will (Art. 9a Abs. 1 RAG);
+- e. jede natürliche Person, die basierend auf einer Zulassung gemäss Buchstabe a als leitende Prüferin oder leitender Prüfer Prüfungen nach den Artikeln 68 und 68a des Bundesgesetzes vom 20. Dezember 1946 über die Alters- und Hinterlassenenversicherung (AHVG) durchführen will;
+- f. jedes Revisionsunternehmen, das basierend auf der Zulassung gemäss Buchstabe b als Prüfgesellschaft Prüfungen nach den Artikeln 68 und 68a AHVG durchführen will.
+
+**Abs. 2** Die Gesuchstellerin oder der Gesuchsteller muss zusammen mit dem Gesuch den Nachweis über die Einzahlung der Gebühr nach Artikel 38 einreichen.

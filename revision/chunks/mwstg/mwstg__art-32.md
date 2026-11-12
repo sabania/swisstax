@@ -1,0 +1,17 @@
+---
+id: mwstg__art-32
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 32 MWSTG – Einlageentsteuerung
+pfad: '2. Titel: Inlandsteuer > 5. Kapitel: Vorsteuerabzug'
+artikel: Art. 32
+---
+> MWSTG · Art. 32 MWSTG – Einlageentsteuerung
+
+**Abs. 1** Treten die Voraussetzungen des Vorsteuerabzugs nachträglich ein (Einlageentsteuerung), so kann der Vorsteuerabzug in der Abrechnungsperiode vorgenommen werden, in der die Voraussetzungen hierfür eingetreten sind. Die früher nicht in Abzug gebrachte Vorsteuer, einschliesslich ihrer als Eigenverbrauch korrigierten Anteile, kann abgezogen werden.
+
+**Abs. 2** Wurde der Gegenstand oder die Dienstleistung in der Zeit zwischen dem Empfang der Leistung oder der Einfuhr und dem Eintritt der Voraussetzungen für den Vorsteuerabzug in Gebrauch genommen, so beschränkt sich die abziehbare Vorsteuer auf den Zeitwert des Gegenstandes oder der Dienstleistung. Zur Ermittlung des Zeitwertes wird der Vorsteuerbetrag linear für jedes abgelaufene Jahr bei beweglichen Gegenständen und bei Dienstleistungen um einen Fünftel, bei unbeweglichen Gegenständen um einen Zwanzigstel reduziert. Die buchmässige Behandlung ist nicht von Bedeutung. Der Bundesrat kann in begründeten Fällen Abweichungen von den Abschreibungsvorschriften festlegen.
+
+**Abs. 3** Wird ein Gegenstand nur vorübergehend für eine zum Vorsteuerabzug berechtigende unternehmerische Tätigkeit verwendet, so kann der Vorsteuerabzug im Umfang der Steuer, die auf einer einer unabhängigen Drittperson dafür in Rechnung gestellten Miete anfallen würde, geltend gemacht werden.

@@ -4,7 +4,7 @@ titel: Prüffeld K1 Verbindlichkeiten aus Lieferungen und Leistungen – Schnell
 jur: ch
 quellen: []
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-11
+generiert: tools/build_quick.py, 2026-11-12
 ---
 
 

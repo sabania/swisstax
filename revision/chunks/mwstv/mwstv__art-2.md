@@ -1,0 +1,18 @@
+---
+id: mwstv__art-2
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 2 MWSTV – Verpfändung und besondere Verhältnisse beim Verkauf
+pfad: '1. Titel: Allgemeine Bestimmungen'
+artikel: Art. 2
+---
+> MWSTV · Art. 2 MWSTV – Verpfändung und besondere Verhältnisse beim Verkauf
+
+(Art. 3 Bst. d MWSTG)
+**Abs. 1** Der Verkauf eines Gegenstands stellt auch dann eine Lieferung dar, wenn ein Eigentumsvorbehalt eingetragen wird.
+
+**Abs. 2** Die Übertragung eines Gegenstands im Rahmen einer Sicherungsübereignung oder einer Verpfändung stellt keine Lieferung dar. Wird das Recht aus der Sicherungsübereignung oder aus der Verpfändung in Anspruch genommen, so findet eine Lieferung statt.
+
+**Abs. 3** Der Verkauf eines Gegenstands bei dessen gleichzeitiger Rücküberlassung zum Gebrauch an den Verkäufer oder die Verkäuferin (Sale-and-lease-back-Geschäft) gilt nicht als Lieferung, wenn im Zeitpunkt des Vertragsschlusses eine Rückübereignung vereinbart wird. In diesem Fall gilt die Leistung des Leasinggebers oder der Leasinggeberin nicht als Gebrauchsüberlassung des Gegenstands, sondern als Finanzierungsdienstleistung nach Artikel 21 Absatz 2 Ziffer 19 Buchstabe a MWSTG.

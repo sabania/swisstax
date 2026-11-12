@@ -4,7 +4,7 @@ titel: Prüffeld I1 Immaterielle Anlagen – Schnellzugriff
 jur: ch
 quellen: []
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-11
+generiert: tools/build_quick.py, 2026-11-12
 ---
 
 

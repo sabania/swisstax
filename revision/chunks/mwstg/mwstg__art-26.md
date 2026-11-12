@@ -1,0 +1,23 @@
+---
+id: mwstg__art-26
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 26 MWSTG – Rechnung
+pfad: '2. Titel: Inlandsteuer > 4. Kapitel: Rechnungsstellung und Steuerausweis'
+artikel: Art. 26
+---
+> MWSTG · Art. 26 MWSTG – Rechnung
+
+**Abs. 1** Der Leistungserbringer oder die Leistungserbringerin hat dem Leistungsempfänger oder der Leistungsempfängerin auf Verlangen eine Rechnung auszustellen, die den Anforderungen nach den Absätzen 2 und 3 genügt.
+
+**Abs. 2** Die Rechnung muss den Leistungserbringer oder die Leistungserbringerin, den Leistungsempfänger oder die Leistungsempfängerin und die Art der Leistung eindeutig identifizieren und in der Regel folgende Elemente enthalten:
+- a. den Namen und den Ort des Leistungserbringers oder der Leistungserbringerin, wie er oder sie im Geschäftsverkehr auftritt, den Hinweis, dass er oder sie im Register der steuerpflichtigen Personen eingetragen ist, sowie die Nummer, unter der er oder sie eingetragen ist;
+- b. den Namen und den Ort des Leistungsempfängers oder der Leistungsempfängerin, wie er oder sie im Geschäftsverkehr auftritt;
+- c. Datum oder Zeitraum der Leistungserbringung, soweit diese nicht mit dem Rechnungsdatum übereinstimmen;
+- d. Art, Gegenstand und Umfang der Leistung;
+- e. das Entgelt für die Leistung;
+- f. den anwendbaren Steuersatz und den vom Entgelt geschuldeten Steuerbetrag; schliesst das Entgelt die Steuer ein, so genügt die Angabe des anwendbaren Steuersatzes.
+
+**Abs. 3** Bei Rechnungen, die von automatisierten Kassen ausgestellt werden (Kassenzettel), müssen die Angaben über den Leistungsempfänger oder die Leistungsempfängerin nicht aufgeführt sein, sofern das auf dem Beleg ausgewiesene Entgelt einen vom Bundesrat festzusetzenden Betrag nicht übersteigt.

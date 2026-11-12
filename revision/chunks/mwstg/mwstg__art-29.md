@@ -1,0 +1,23 @@
+---
+id: mwstg__art-29
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 29 MWSTG – Ausschluss des Anspruchs auf Vorsteuerabzug
+pfad: '2. Titel: Inlandsteuer > 5. Kapitel: Vorsteuerabzug'
+artikel: Art. 29
+---
+> MWSTG · Art. 29 MWSTG – Ausschluss des Anspruchs auf Vorsteuerabzug
+
+**Abs. 1** Kein Anspruch auf Vorsteuerabzug besteht bei Leistungen und bei der Einfuhr von Gegenständen, die für die Erbringung von Leistungen, die von der Steuer ausgenommen sind und für deren Versteuerung nicht optiert wurde, verwendet werden.
+
+**Abs. 1bis** Der Vorsteuerabzug für Leistungen, die im Ausland erbracht wurden, ist im selben Umfang möglich, wie wenn sie im Inland erbracht worden wären und nach Artikel 22 für deren Versteuerung hätte optiert werden können.
+
+**Abs. 1ter** Der Vorsteuerabzug für von Reisebüros weiterverkauften Reiseleistungen und die damit zusammenhängenden Dienstleistungen der Reisebüros ist möglich, sofern sie im Ausland bewirkt oder genutzt werden.
+
+**Abs. 2** Ungeachtet von Absatz 1 besteht ein Anspruch auf Vorsteuerabzug im Rahmen der zum Vorsteuerabzug berechtigenden unternehmerischen Tätigkeit für das Erwerben, Halten und Veräussern von Beteiligungen sowie für Umstrukturierungen im Sinne von Artikel 19 oder 61 des BG vom 14. Dezember 1990 über die direkte Bundessteuer (DBG).
+
+**Abs. 3** Beteiligungen sind Anteile am Kapital anderer Unternehmen, die mit der Absicht dauernder Anlage gehalten werden und einen massgeblichen Einfluss vermitteln. Anteile von mindestens 10 Prozent am Kapital gelten als Beteiligung.
+
+**Abs. 4** Holdinggesellschaften können zur Ermittlung der abziehbaren Vorsteuer auf die zum Vorsteuerabzug berechtigende unternehmerische Tätigkeit der von ihnen gehaltenen Unternehmen abstellen.

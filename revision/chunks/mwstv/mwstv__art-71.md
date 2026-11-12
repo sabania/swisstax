@@ -1,0 +1,14 @@
+---
+id: mwstv__art-71
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 71 MWSTV – Grossrenovationen von Liegenschaften
+pfad: '2. Titel: Inlandsteuer > 5. Kapitel: Vorsteuerabzug > 4. Abschnitt: Eigenverbrauch'
+artikel: Art. 71
+---
+> MWSTV · Art. 71 MWSTV – Grossrenovationen von Liegenschaften
+
+(Art. 31 MWSTG)
+Übersteigen die Renovationskosten einer Bauphase insgesamt 5 Prozent des Gebäudeversicherungswerts vor der Renovation, so muss der Vorsteuerabzug um die gesamten Kosten korrigiert werden, unabhängig davon, ob es sich um Kosten für wertvermehrende oder für werterhaltende Aufwendungen handelt.

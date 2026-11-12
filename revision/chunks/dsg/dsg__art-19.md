@@ -1,0 +1,24 @@
+---
+id: dsg__art-19
+quelle: dsg
+kurz: DSG
+typ: gesetz
+rang: 1
+titel: Art. 19 DSG – Informationspflicht bei der Beschaffung von Personendaten
+pfad: '3. Kapitel: Pflichten des Verantwortlichen und des Auftragsbearbeiters'
+artikel: Art. 19
+---
+> DSG · Art. 19 DSG – Informationspflicht bei der Beschaffung von Personendaten
+
+**Abs. 1** Der Verantwortliche informiert die betroffene Person angemessen über die Beschaffung von Personendaten; diese Informationspflicht gilt auch, wenn die Daten nicht bei der betroffenen Person beschafft werden.
+
+**Abs. 2** Er teilt der betroffenen Person bei der Beschaffung diejenigen Informationen mit, die erforderlich sind, damit sie ihre Rechte nach diesem Gesetz geltend machen kann und eine transparente Datenbearbeitung gewährleistet ist; er teilt ihr mindestens mit:
+- a. die Identität und die Kontaktdaten des Verantwortlichen;
+- b. den Bearbeitungszweck;
+- c. gegebenenfalls die Empfängerinnen und Empfänger oder die Kategorien von Empfängerinnen und Empfängern, denen Personendaten bekanntgegeben werden.
+
+**Abs. 3** Werden die Daten nicht bei der betroffenen Person beschafft, so teilt er ihr zudem die Kategorien der bearbeiteten Personendaten mit.
+
+**Abs. 4** Werden die Personendaten ins Ausland bekanntgegeben, so teilt er der betroffenen Person auch den Staat oder das internationale Organ und gegebenenfalls die Garantien nach Artikel 16 Absatz 2 oder die Anwendung einer Ausnahme nach Artikel 17 mit.
+
+**Abs. 5** Werden die Daten nicht bei der betroffenen Person beschafft, so teilt er ihr die Informationen nach den Absätzen 2–4 spätestens einen Monat, nachdem er die Daten erhalten hat, mit. Gibt der Verantwortliche die Personendaten vor Ablauf dieser Frist bekannt, so informiert er die betroffene Person spätestens im Zeitpunkt der Bekanntgabe.

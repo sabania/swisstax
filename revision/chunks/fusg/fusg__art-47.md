@@ -1,0 +1,20 @@
+---
+id: fusg__art-47
+quelle: fusg
+kurz: FusG
+typ: gesetz
+rang: 1
+titel: Art. 47 FusG – Subsidiäre Haftung der an der Spaltung beteiligten Gesellschaften
+pfad: '3. Kapitel: Spaltung von Gesellschaften > 6. Abschnitt: Gläubiger- und Arbeitnehmerschutz'
+artikel: Art. 47
+---
+> FusG · Art. 47 FusG – Subsidiäre Haftung der an der Spaltung beteiligten Gesellschaften
+
+**Abs. 1** Werden die Forderungen einer Gläubigerin oder eines Gläubigers von der Gesellschaft, der die Verbindlichkeiten durch den Spaltungsvertrag oder den Spaltungsplan zugeordnet wurden (primär haftende Gesellschaft), nicht befriedigt, so haften die übrigen an der Spaltung beteiligten Gesellschaften (subsidiär haftende Gesellschaften) solidarisch.
+
+**Abs. 2** Subsidiär haftende Gesellschaften können nur belangt werden, wenn eine Forderung nicht sichergestellt ist und die primär haftende Gesellschaft:
+- a. in Konkurs geraten ist;
+- b. Nachlassstundung oder Konkursaufschub erhalten hat;
+- c. bis zur Ausstellung eines definitiven Verlustscheins betrieben worden ist;
+- d. den Sitz ins Ausland verlegt hat und in der Schweiz nicht mehr belangt werden kann;
+- e. den Sitz im Ausland verlegt hat und dadurch eine erhebliche Erschwerung der Rechtsverfolgung eingetreten ist.

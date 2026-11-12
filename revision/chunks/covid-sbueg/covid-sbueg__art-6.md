@@ -1,0 +1,27 @@
+---
+id: covid-sbueg__art-6
+quelle: covid-sbueg
+kurz: Covid-19-SBüG
+typ: gesetz
+rang: 1
+titel: Art. 6 Covid-19-SBüG – Vertrag des Bundes mit den Bürgschaftsorganisationen
+pfad: '3. Abschnitt: Aufgaben der Bürgschaftsorganisationen und Vertrag mit dem Bund'
+artikel: Art. 6
+---
+> Covid-19-SBüG · Art. 6 Covid-19-SBüG – Vertrag des Bundes mit den Bürgschaftsorganisationen
+
+**Abs. 1** Das Eidgenössische Departement für Wirtschaft, Bildung und Forschung (WBF) schliesst mit jeder Bürgschaftsorganisation einen öffentlich-rechtlichen Vertrag über die Bürgschaftsgewährung zur Bekämpfung der wirtschaftlichen Auswirkungen der Covid-19-Epidemie ab.
+
+**Abs. 2** Im Vertrag werden insbesondere festgelegt:
+- a. Art und Umfang der Leistungen der Bürgschaftsorganisation bei der Verwaltung, Überwachung und Abwicklung der Bürgschaften sowie die Modalitäten des Beizugs Dritter;
+- b. die Abgeltung für die Leistungen nach Buchstabe a sowie für den Aufbau zusätzlicher administrativer Ressourcen und für den Beizug Dritter;
+- c. die Vorgaben betreffend die periodische Berichterstattung, die Qualitätskontrolle, die Budgetierung und die Rechnungslegung;
+- d. die für die Abrechnung der Verluste erforderliche Dokumentation;
+- e. die Sicherstellung der Bekanntgabe der Personendaten und der Informationen;
+- f. die Voraussetzungen, unter denen Strafanzeige zu erstatten ist oder auf eine solche verzichtet wird;
+- g. die Einzelheiten bezüglich der Zustimmung zum Rangrücktritt und zur vorzeitigen Honorierung der Bürgschaft nach Artikel 7;
+- h. die Einzelheiten zur Bewirtschaftung der Forderungen nach Artikel 8;
+- i. die Mitwirkung der Bürgschaftsorganisation bei der Verhinderung, Bekämpfung und Verfolgung von Missbrauch nach Artikel 10;
+- j. die Einzelheiten zu den Vorgaben an die Kreditgeberinnen bezüglich der Informationspflicht nach Artikel 11 Absatz 3;
+- k. das Vorgehen im Streitfall;
+- l. die Mindestvertragsdauer und die anschliessende Möglichkeit zur Kündigung.

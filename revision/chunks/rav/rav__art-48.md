@@ -1,0 +1,15 @@
+---
+id: rav__art-48
+quelle: rav
+kurz: RAV
+typ: verordnung
+rang: 1
+titel: Art. 48 RAV – Nachweis der notwendigen Kenntnisse des schweizerischen Rechts
+pfad: '7. Kapitel: Schlussbestimmungen'
+artikel: Art. 48
+---
+> RAV · Art. 48 RAV – Nachweis der notwendigen Kenntnisse des schweizerischen Rechts
+
+**Abs. 1** Wer innert vier Monaten nach Inkrafttreten des RAG ein Gesuch um Zulassung stellt und eine ausländische Ausbildung abgeschlossen hat, die mit einer schweizerischen Ausbildung vergleichbar ist (Art. 4 Abs. 2 Bst. d RAG), wird provisorisch für die Erbringung von Revisionsdienstleistungen zugelassen, wenn sie oder er einen Lehrgang zum Nachweis der notwendigen Kenntnisse des schweizerischen Rechts absolviert. Die provisorische Zulassung wird entzogen, wenn der Lehrgang und die Prüfung nicht bis zum 31. August 2008 erfolgreich abgeschlossen wurden.
+
+**Abs. 2** Waren Personen nach Absatz 1 während der drei Jahre vor der Gesuchstellung mehrheitlich für ein Revisionsunternehmen mit Sitz in der Schweiz tätig und haben sie vorwiegend Revisionsdienstleistungen nach schweizerischem Recht erbracht, so müssen sie weder einen Lehrgang noch eine Prüfung zum Nachweis der notwendigen Kenntnisse des schweizerischen Rechts absolvieren.

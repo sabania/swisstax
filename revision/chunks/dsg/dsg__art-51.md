@@ -1,0 +1,28 @@
+---
+id: dsg__art-51
+quelle: dsg
+kurz: DSG
+typ: gesetz
+rang: 1
+titel: Art. 51 DSG – Verwaltungsmassnahmen
+pfad: '7. Kapitel: Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter > 2. Abschnitt: Untersuchung von Verstössen gegen Datenschutzvorschriften'
+artikel: Art. 51
+---
+> DSG · Art. 51 DSG – Verwaltungsmassnahmen
+
+**Abs. 1** Liegt eine Verletzung von Datenschutzvorschriften vor, so kann der EDÖB verfügen, dass die Bearbeitung ganz oder teilweise angepasst, unterbrochen oder abgebrochen wird und die Personendaten ganz oder teilweise gelöscht oder vernichtet werden.
+
+**Abs. 2** Er kann die Bekanntgabe ins Ausland aufschieben oder untersagen, wenn sie gegen die Voraussetzungen nach Artikel 16 oder 17 oder gegen Bestimmungen betreffend die Bekanntgabe von Personendaten ins Ausland in anderen Bundesgesetzen verstösst.
+
+**Abs. 3** Er kann namentlich anordnen, dass das Bundesorgan oder die private Person:
+- a. ihn nach den Artikeln 16 Absatz 2 Buchstaben b und c sowie 17 Absatz 2 informiert;
+- b. die Vorkehren nach den Artikeln 7 und 8 trifft;
+- c. nach den Artikeln 19 und 21 die betroffenen Personen informiert;
+- d. eine Datenschutz-Folgenabschätzung nach Artikel 22 vornimmt;
+- e. ihn nach Artikel 23 konsultiert;
+- f. ihn oder gegebenenfalls die betroffenen Personen nach Artikel 24 informiert;
+- g. der betroffenen Person die Auskünfte nach Artikel 25 erteilt.
+
+**Abs. 4** Er kann auch anordnen, dass der private Verantwortliche mit Sitz oder Wohnsitz im Ausland eine Vertretung nach Artikel 14 bezeichnet.
+
+**Abs. 5** Hat das Bundesorgan oder die private Person während der Untersuchung die erforderlichen Massnahmen getroffen, um die Einhaltung der Datenschutzvorschriften wiederherzustellen, so kann der EDÖB sich darauf beschränken, eine Verwarnung auszusprechen.

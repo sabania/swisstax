@@ -1,0 +1,22 @@
+---
+id: mwstg__art-88
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 88 MWSTG – Vergütungen an die steuerpflichtige Person
+pfad: '5. Titel: Verfahrensrecht für die Inland- und die Bezugsteuer > 6. Kapitel: Bezug'
+artikel: Art. 88
+---
+> MWSTG · Art. 88 MWSTG – Vergütungen an die steuerpflichtige Person
+
+**Abs. 1** Ergibt sich aus der Steuerabrechnung oder aus der Anrechnung der bezahlten Raten an die Steuerforderung ein Überschuss zugunsten der steuerpflichtigen Person, so wird ihr dieser ausbezahlt.
+
+**Abs. 2** Vorbehalten bleiben:
+- a. die Verrechnung dieses Überschusses mit Einfuhrsteuerschulden, selbst wenn diese noch nicht fällig sind;
+- b. die Verwendung des Überschusses zur Steuersicherung nach Artikel 94 Absatz 1;
+- c. die Verwendung des Überschusses zur Verrechnung unter Bundesstellen.
+
+**Abs. 3** Die steuerpflichtige Person kann bezahlte, aber nicht geschuldete Steuern zurückfordern, sofern die Steuerforderung noch nicht rechtskräftig ist.
+
+**Abs. 4** Erfolgt die Auszahlung des Überschusses nach Absatz 1 oder die Rückerstattung nach Absatz 3 später als 60 Tage nach Eintreffen der Steuerabrechnung beziehungsweise der schriftlichen Geltendmachung des Anspruches bei der ESTV, so wird für die Zeit vom 61. Tag bis zur Auszahlung oder Rückerstattung ein Vergütungszins ausgerichtet.

@@ -1,0 +1,26 @@
+---
+id: hregv__art-99
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 99 HRegV – Inhalt des Eintrags
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 9. Kapitel: Kommanditgesellschaft für kollektive Kapitalanlagen'
+artikel: Art. 99
+---
+> HRegV · Art. 99 HRegV – Inhalt des Eintrags
+
+Bei Kommanditgesellschaften für kollektive Kapitalanlagen müssen ins Handelsregister eingetragen werden:
+- a. die Tatsache, dass es sich um die Gründung einer neuen Kommanditgesellschaft für kollektive Kapitalanlagen handelt;
+- b. die Firma und die Unternehmens-Identifikationsnummer;
+- c. der Sitz und das Rechtsdomizil;
+- d. die Rechtsform;
+- e. das Datum des Gesellschaftsvertrags;
+- f. die Dauer der Gesellschaft;
+- g. der Zweck;
+- h. der Betrag der gesamten Kommanditsumme oder die Bandbreite der Kommanditsumme;
+- i. falls die Kommanditsumme ganz oder teilweise in Form einer Sacheinlage geleistet wird, deren Gegenstand und Wert;
+- j. die Firma, der Sitz und die Unternehmens-Identifikationsnummer der unbeschränkt haftenden Gesellschafterinnen und die für diese handelnden natürlichen Personen;
+- k. die zur Vertretung berechtigten Personen;
+- l. die Tatsache, dass die Prüfung nach KAG durchgeführt wird;
+- m. die zugelassene Prüfgesellschaft;

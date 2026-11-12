@@ -1,0 +1,18 @@
+---
+id: rag__art-11
+quelle: rag
+kurz: RAG
+typ: gesetz
+rang: 1
+titel: Art. 11 RAG – Unabhängigkeit
+pfad: '4. Abschnitt: Pflichten staatlich beaufsichtigter Revisionsunternehmen'
+artikel: Art. 11
+---
+> RAG · Art. 11 RAG – Unabhängigkeit
+
+**Abs. 1** Über die allgemeinen gesetzlichen Vorschriften zur Unabhängigkeit der Revisionsstelle hinaus (Art. 728 OR) müssen staatlich beaufsichtigte Revisionsunternehmen bei der Erbringung von Revisionsdienstleistungen für Gesellschaften des öffentlichen Interesses folgende Grundsätze einhalten:
+- a. Die jährlichen Honorare aus Revisions- und anderen Dienstleistungen für eine einzelne Gesellschaft und die mit ihr durch einheitliche Leitung verbundenen Gesellschaften (Konzern) dürfen 10 Prozent ihrer gesamten Honorarsumme nicht übersteigen.
+- b. Treten Personen, die in einer Gesellschaft eine Entscheidfunktion innehatten oder in leitender Stellung in der Rechnungslegung tätig waren, in ein Revisionsunternehmen über und übernehmen sie dort eine leitende Stellung, so darf dieses während zwei Jahren ab Übertritt keine Revisionsdienstleistungen für diese Gesellschaft erbringen.
+- c. Treten Personen, die in einer Gesellschaft in der Rechnungslegung mitgewirkt haben, in ein Revisionsunternehmen über, so dürfen sie während zwei Jahren ab Übertritt keine Revisionsdienstleistungen für diese Gesellschaft leiten.
+
+**Abs. 2** Eine Gesellschaft des öffentlichen Interesses darf keine Personen beschäftigen, die während der zwei vorausgegangenen Jahre Revisionsdienstleistungen für diese Gesellschaft geleitet haben oder im betreffenden Revisionsunternehmen eine Entscheidfunktion inne hatten.

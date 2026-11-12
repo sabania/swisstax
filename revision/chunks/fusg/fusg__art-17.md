@@ -1,0 +1,15 @@
+---
+id: fusg__art-17
+quelle: fusg
+kurz: FusG
+typ: gesetz
+rang: 1
+titel: Art. 17 FusG – Veränderungen im Vermögen
+pfad: '2. Kapitel: Fusion von Gesellschaften > 4. Abschnitt: Fusionsvertrag, Fusionsbericht und Prüfung'
+artikel: Art. 17
+---
+> FusG · Art. 17 FusG – Veränderungen im Vermögen
+
+**Abs. 1** Treten bei einer der an der Fusion beteiligten Gesellschaften zwischen dem Abschluss des Fusionsvertrags und der Beschlussfassung durch die Generalversammlung wesentliche Änderungen im Aktiv- oder im Passivvermögen ein, so muss deren oberstes Leitungs- oder Verwaltungsorgan die obersten Leitungs- oder Verwaltungsorgane der anderen beteiligten Gesellschaften darüber informieren.
+
+**Abs. 2** Die obersten Leitungs- oder Verwaltungsorgane aller beteiligten Gesellschaften prüfen, ob der Fusionsvertrag abgeändert werden muss oder ob auf die Fusion zu verzichten ist; trifft dies zu, so müssen sie den Antrag auf Genehmigung zurückziehen. Andernfalls müssen sie in der Generalversammlung begründen, warum der Fusionsvertrag keiner Anpassung bedarf.

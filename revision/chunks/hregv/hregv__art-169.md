@@ -1,0 +1,27 @@
+---
+id: hregv__art-169
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 169 HRegV – Datenqualität
+pfad: '7. Titel: Aktenaufbewahrung, Aktenherausgabe, Datenqualität'
+artikel: Art. 169
+---
+> HRegV · Art. 169 HRegV – Datenqualität
+
+**Abs. 1** Die elektronischen Systeme für das Tages- und das Hauptregister sowie für die zentralen Datenbanken müssen folgende Anforderungen erfüllen:
+- a. Die aufgenommenen Daten bleiben in Bestand und Qualität langfristig erhalten.
+- b. Das Format der Daten ist vom Hersteller bestimmter elektronischer Systeme unabhängig.
+- c. Die Daten werden nach anerkannten Normen und entsprechend dem aktuellen Stand der Technik gesichert.
+- d. Eine Dokumentation zum Programm und zum Format liegt vor.
+
+**Abs. 2** Die Kantone und der Bund nehmen zur Sicherstellung der Funktionsfähigkeit und der Sicherheit ihrer elektronischen Systeme folgende Aufgaben wahr:
+- a. Sie gewährleisten den Datenaustausch zwischen den Systemen.
+- b. Sie sichern die Daten periodisch auf dezentralen Datenträgern.
+- c. Sie warten die Daten und die elektronischen Systeme.
+- d. Sie regeln die Zugriffsberechtigungen auf die Daten und die elektronischen Systeme.
+- e. Sie sichern die Daten und die elektronischen Systeme gegen Missbrauch.
+- f. Sie sehen Massnahmen zur Behebung technischer Störungen der elektronischen Systeme vor.
+
+**Abs. 3** Das EHRA kann das Datenaustauschverfahren sowie die Form, den Inhalt und die Struktur der übermittelten Daten in einer Weisung regeln. Es kann zudem Form, Inhalt und Struktur der Daten bestimmen, die Dritten zur Verfügung gestellt werden.

@@ -1,0 +1,20 @@
+---
+id: mwstv__art-72
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 72 MWSTV – Grundsätze
+pfad: '2. Titel: Inlandsteuer > 5. Kapitel: Vorsteuerabzug > 5. Abschnitt: Einlageentsteuerung'
+artikel: Art. 72
+---
+> MWSTV · Art. 72 MWSTV – Grundsätze
+
+(Art. 32 MWSTG)
+**Abs. 1** Der Vorsteuerabzug kann auf nicht in Gebrauch genommenen Gegenständen und Dienstleistungen vollumfänglich korrigiert werden.
+
+**Abs. 2** Der Vorsteuerabzug kann auf in Gebrauch genommenen Gegenständen und Dienstleistungen korrigiert werden, die im Zeitpunkt des Eintritts der Voraussetzungen des Vorsteuerabzugs noch vorhanden sind und einen Zeitwert haben. Bei Dienstleistungen in den Bereichen Beratung, Buchführung, Personalbeschaffung, Management und Werbung wird vermutet, dass sie bereits im Zeitpunkt ihres Bezugs verbraucht und nicht mehr vorhanden sind.
+
+**Abs. 3** Bei selbst hergestellten Gegenständen kann für die Ingebrauchnahme der Infrastruktur ein Pauschalzuschlag von 33 Prozent auf den Vorsteuern auf Material und allfälligen Drittarbeiten bei Halbfabrikaten vorgenommen werden. Vorbehalten bleibt der effektive Nachweis der Vorsteuern, die auf die Ingebrauchnahme der Infrastruktur entfallen.
+
+**Abs. 4** Treten die Voraussetzungen des Vorsteuerabzugs nur teilweise ein, so kann die Korrektur nur im Ausmass der nun zum Vorsteuerabzug berechtigenden Nutzung vorgenommen werden.

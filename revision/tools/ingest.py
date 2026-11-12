@@ -104,6 +104,11 @@ SELECT DISTINCT ?act ?consolidation ?dateApplicability ?xmlFile WHERE {
 
 
 def fetch_fedlex(e: dict) -> Path:
+    if e.get("xml_url"):   # geprüfte Direkt-URL der Konsolidierung (SPARQL findet einzelne Erlasse nicht, z.B. GeBüV, MWSTV)
+        dst = R / "raw" / f"{e['id']}.xml"
+        urllib.request.urlretrieve(e["xml_url"], dst)
+        e["download_url"] = e["xml_url"]
+        return dst
     day = datetime.date.today().isoformat()
     data = urllib.parse.urlencode({"query": Q % (e["sr"], day, day)}).encode()
     req = urllib.request.Request(FEDLEX, data=data, headers={"Accept": "application/sparql-results+json"})
@@ -117,12 +122,111 @@ def fetch_fedlex(e: dict) -> Path:
     return dst
 
 
+def artikel_passt(label: str, auswahl: list) -> bool:
+    m = re.match(r"Art\.\s*(\d+)([a-z]*)", label or "")
+    if not m:
+        return False
+    n, suf = int(m.group(1)), m.group(2)
+    for a in auswahl:
+        a = str(a).strip()
+        if "-" in a:
+            lo, hi = a.split("-", 1)
+            if int(lo) <= n <= int(hi):
+                return True
+        elif a == f"{n}{suf}" or (a.isdigit() and int(a) == n and not suf):
+            return True
+    return False
+
+
+def html_md(html: str) -> str:
+    """HTML (Hauptinhalt) → Markdown-nahe Textfassung: Überschriften, Absätze, Listen, Tabellen."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, "html.parser")
+    for t in soup(["script", "style", "nav", "header", "footer", "noscript", "form"]):
+        t.decompose()
+    root = soup.find("main") or soup.find("article") or soup.body or soup
+    out = []
+    for el in root.find_all(["h1", "h2", "h3", "h4", "p", "li", "tr", "dt", "dd"]):
+        if el.name == "tr":
+            cells = [c.get_text(" ", strip=True).replace("|", "/") for c in el.find_all(["th", "td"])]
+            if any(cells):
+                out.append("| " + " | ".join(cells) + " |")
+            continue
+        if el.find_parent(["li", "td", "th"]) and el.name in ("p",):
+            continue
+        t = el.get_text(" ", strip=True)
+        if not t:
+            continue
+        if el.name in ("h1", "h2", "h3", "h4"):
+            out += ["", "#" * (int(el.name[1]) + 1) + " " + t]
+        elif el.name == "li":
+            out.append("- " + t)
+        else:
+            out.append(t)
+    return "\n".join(out)
+
+
+def collector_md(d: dict) -> str:
+    """admin.ch «api/collector»-JSON (Inhaltsbaum) → Text: Überschriften, Absätze, Tabellen in Dokumentreihenfolge."""
+    out = []
+
+    def walk(o):
+        if isinstance(o, dict):
+            pr = o.get("properties") or {}
+            if pr.get("heading") and pr.get("label"):
+                lvl = int(str(pr["heading"]).lstrip("h") or 2) if str(pr["heading"]).lstrip("h").isdigit() else 2
+                out.extend(["", "#" * min(lvl + 1, 5) + " " + str(pr["label"])])
+            for k in ("text", "html", "content", "body"):
+                v = pr.get(k)
+                if isinstance(v, str) and v.strip():
+                    out.append(html_md(v) if "<" in v else v.strip())
+            if isinstance(pr.get("bodyRows"), list):   # Tabellen: headerColumns + bodyRows[cellContent[text]]
+                def zelle(c):
+                    t = " ".join(x.get("text", "") for x in (c.get("cellContent") or []) if isinstance(x, dict)) if isinstance(c, dict) else str(c)
+                    return re.sub(r"<[^>]+>", "", t).replace("|", "/").strip()
+                if pr.get("caption"):
+                    out.append(f"Tabelle: {re.sub(r'<[^>]+>', '', str(pr['caption']))}")
+                hc = [re.sub(r"<[^>]+>", "", h.get("text", "")) for h in pr.get("headerColumns") or [] if isinstance(h, dict)]
+                if hc:
+                    out.extend(["| " + " | ".join(hc) + " |", "|" + "---|" * len(hc)])
+                for r in pr["bodyRows"]:
+                    if isinstance(r, list):
+                        out.append("| " + " | ".join(zelle(c) for c in r) + " |")
+            for k in ("rows", "tableRows", "cells"):
+                if isinstance(pr.get(k), list):
+                    for r in pr[k]:
+                        if isinstance(r, list):
+                            out.append("| " + " | ".join(str(c.get("text", c) if isinstance(c, dict) else c) for c in r) + " |")
+            for k in ("content", "nestedContent", "children", "items"):
+                if isinstance(o.get(k), list):
+                    for x in o[k]:
+                        walk(x)
+        elif isinstance(o, list):
+            for x in o:
+                walk(x)
+    title = (d.get("metadata") or {}).get("title")
+    if title:
+        out.append(f"## {title}")
+    walk(d.get("content") or d)
+    return "\n".join(x for x in out if x is not None)
+
+
+def download(e: dict) -> Path:
+    raw = R / "raw" / f"{e['id']}.{e['format']}"
+    req = urllib.request.Request(e["download_url"], headers={"User-Agent": "revisionswiki-ingest/1.0 (+intern)"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        raw.write_bytes(r.read())
+    return raw
+
+
 def ingest(e: dict) -> str:
     now = datetime.date.today().isoformat()
     if e.get("quelle") == "fedlex":
         import akn
         raw = fetch_fedlex(e)
         units = akn.parse_units(str(raw), e["kurz"], e.get("download_url"))
+        if e.get("artikel"):   # nur ausgewählte Artikel (z.B. StGB 321, DBG 57–67)
+            units = [u for u in units if artikel_passt(u["label"], e["artikel"])]
         md, arts = [], []
         for u in units:
             body = akn.FN_RE.sub("", u["body"]).strip()
@@ -139,6 +243,9 @@ def ingest(e: dict) -> str:
         if src:
             shutil.copy2(src, raw)
             e["original"] = src.name
+        elif e.get("download_url") and (not raw.exists() or e.get("neu_laden")):
+            raw = download(e)
+            e.pop("neu_laden", None)
         if e.get("transkript"):
             # Bildscan ohne Textlayer: wörtliche Abschrift (Agent, nachgeprüft) aus registry/transkripte/ übernehmen
             text = (R / e["transkript"]).read_text(encoding="utf-8").strip()
@@ -151,10 +258,14 @@ def ingest(e: dict) -> str:
             text = docx_md(raw)
         elif e["format"] == "xlsx":
             text = xlsx_md(raw)
+        elif e["format"] == "html":
+            text = html_md(raw.read_text(encoding="utf-8", errors="replace"))
+        elif e["format"] == "json":
+            text = collector_md(json.loads(raw.read_text(encoding="utf-8")))
         elif e["format"] == "png":
             text = "(Bild – Inhalt in wiki/ beschrieben)"
         e.update({"raw": f"raw/{raw.name}", "sha256": sha(raw), "abgerufen": e.get("abgerufen") or now})
-    head = {k: e.get(k) for k in ("id", "kurz", "titel", "typ", "rang", "stand", "url", "raw", "sha256", "seiten", "lizenz", "transkript", "hinweis") if e.get(k) is not None}
+    head = {k: e.get(k) for k in ("id", "kurz", "titel", "typ", "rang", "stand", "url", "raw", "sha256", "seiten", "lizenz", "transkript", "hinweis", "artikel") if e.get(k) is not None}
     (R / "sources" / f"{e['id']}.md").write_text(fm(head) + f"# {e['titel']}\n\n" + text + "\n", encoding="utf-8")
     return f"{e['id']}: {len(text):,} Zeichen"
 

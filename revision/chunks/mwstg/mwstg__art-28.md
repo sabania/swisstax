@@ -1,0 +1,20 @@
+---
+id: mwstg__art-28
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 28 MWSTG – Grundsatz
+pfad: '2. Titel: Inlandsteuer > 5. Kapitel: Vorsteuerabzug'
+artikel: Art. 28
+---
+> MWSTG · Art. 28 MWSTG – Grundsatz
+
+**Abs. 1** Die steuerpflichtige Person kann im Rahmen ihrer unternehmerischen Tätigkeit, unter Vorbehalt der Artikel 29 und 33, die folgenden Vorsteuern abziehen:
+- a. die ihr in Rechnung gestellte Inlandsteuer;
+- b. die von ihr deklarierte Bezugsteuer (Art. 45–49);
+- c. die von ihr entrichtete oder zu entrichtende Einfuhrsteuer, die mit unbedingter Forderung veranlagt wurde oder die mit bedingter Forderung veranlagt wurde und fällig geworden ist, sowie die von ihr für die Einfuhr von Gegenständen deklarierte Steuer (Art. 52 und 63).
+
+**Abs. 2** Hat die steuerpflichtige Person bei nicht steuerpflichtigen Landwirten und Landwirtinnen, Forstwirten und Forstwirtinnen, Gärtnern und Gärtnerinnen, Viehhändlern und Viehhändlerinnen und Milchsammelstellen Erzeugnisse der Landwirtschaft, der Forstwirtschaft, der Gärtnerei, Vieh oder Milch im Rahmen ihrer zum Vorsteuerabzug berechtigenden unternehmerischen Tätigkeit bezogen, so kann sie als Vorsteuer 2,6 Prozent des ihr in Rechnung gestellten Betrags abziehen.
+
+**Abs. 3** Der Abzug der Vorsteuer nach Absatz 1 ist zulässig, wenn die steuerpflichtige Person nachweist, dass sie die Vorsteuer bezahlt hat.

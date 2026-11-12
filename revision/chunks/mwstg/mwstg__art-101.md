@@ -1,0 +1,21 @@
+---
+id: mwstg__art-101
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 101 MWSTG – Konkurrenz
+pfad: '6. Titel: Strafbestimmungen'
+artikel: Art. 101
+---
+> MWSTG · Art. 101 MWSTG – Konkurrenz
+
+**Abs. 1** Die Artikel 7, 9, 11 und 12 Absatz 4 und 13 VStrR sind nicht anwendbar.
+
+**Abs. 2** Eine Bestrafung nach Artikel 98 Buchstabe a dieses Gesetzes schliesst eine Bestrafung nach den Artikeln 96 und 97 nicht aus.
+
+**Abs. 3** Eine Bestrafung nach Artikel 14 VStrR schliesst eine zusätzliche Bestrafung wegen derselben Tat nach den Artikeln 96 und 97 des vorliegenden Gesetzes aus.
+
+**Abs. 4** Erfüllt eine Handlung sowohl den Tatbestand einer Hinterziehung der Einfuhrsteuer oder einer Steuerhehlerei als auch einer durch das BAZG zu verfolgenden Widerhandlung gegen andere Abgabenerlasse des Bundes, so wird die Strafe für die schwerste Widerhandlung verhängt; diese kann angemessen erhöht werden.
+
+**Abs. 5** Hat der Täter oder die Täterin durch eine oder mehrere Handlungen die Voraussetzungen für mehrere Strafen erfüllt, die in den Zuständigkeitsbereich der ESTV fallen, so wird die Strafe für die schwerste Widerhandlung verhängt; diese kann angemessen erhöht werden.

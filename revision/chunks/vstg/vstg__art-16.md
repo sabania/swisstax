@@ -1,0 +1,26 @@
+---
+id: vstg__art-16
+quelle: vstg
+kurz: VStG
+typ: gesetz
+rang: 1
+titel: Art. 16 VStG
+pfad: 'Erster Abschnitt: Steuererhebung > B. Steuerpflicht > III. Steuerentrichtung > 5. Fälligkeit; Verzugszins'
+artikel: Art. 16
+---
+> VStG · Art. 16 VStG
+
+**Abs. 1** Die Steuer wird fällig:
+- a. auf Zinsen von Kassenobligationen und Kundenguthaben bei inländischen Banken oder Sparkassen: 30 Tage nach Ablauf jedes Geschäftsvierteljahres für die in diesem Zeitraum fällig gewordenen Zinsen;
+- b. …
+- c. auf den übrigen Kapitalerträgen und auf Gewinnen aus Geldspielen, die nicht nach Artikel 24 Buchstaben i–iter DBG steuerfrei sind, sowie aus Lotterien und Geschicklichkeitsspielen zur Verkaufsförderung, die nicht nach Artikel 24 Buchstabe j DBG steuerfrei sind: 30 Tage nach Entstehung der Steuerforderung (Art. 12);
+- d. auf Versicherungsleistungen: 30 Tage nach Ablauf jedes Monats für die in diesem Monat erbrachten Leistungen.
+
+**Abs. 2** Auf Steuerbeträgen, die nach Ablauf der in Absatz 1 geregelten Fälligkeitstermine ausstehen, ist ohne Mahnung ein Verzugszins geschuldet. Der Zinssatz wird vom Eidgenössischen Finanzdepartement bestimmt.
+
+**Abs. 2bis** Kein Verzugszins ist geschuldet, wenn die materiellen Voraussetzungen für die Erfüllung der Steuerpflicht durch Meldung der steuerbaren Leistung erfüllt sind nach:
+- a. Artikel 20 und seinen Ausführungsbestimmungen;
+- abis. Artikel 20a und seinen Ausführungsbestimmungen; oder
+- b. dem im Einzelfall anwendbaren internationalen Abkommen und den Ausführungs¬bestimmungen zu diesem Abkommen.
+
+**Abs. 3** Wird über den Steuerpflichtigen der Konkurs eröffnet oder verlegt er seinen Wohnsitz oder Aufenthalt ins Ausland, so bewirkt dies die Fälligkeit der Steuer.

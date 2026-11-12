@@ -4,7 +4,7 @@ titel: Prüffeld SCH5 Nebenbetrieb, betriebsfremd und ausserordentlich – Schne
 jur: ch
 quellen: []
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-11
+generiert: tools/build_quick.py, 2026-11-12
 ---
 
 

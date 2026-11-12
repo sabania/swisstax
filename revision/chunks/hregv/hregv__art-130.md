@@ -1,0 +1,17 @@
+---
+id: hregv__art-130
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 130 HRegV – Anmeldung und zuständiges Handelsregisteramt
+pfad: '4. Titel: Rechtsformübergreifende Bestimmungen für die Eintragung > 3. Kapitel: Umstrukturierungen > 2. Abschnitt: Fusion von Rechtseinheiten'
+artikel: Art. 130
+---
+> HRegV · Art. 130 HRegV – Anmeldung und zuständiges Handelsregisteramt
+
+**Abs. 1** Jede an der Fusion beteiligte Rechtseinheit muss die sie betreffenden Tatsachen selber zur Eintragung in das Handelsregister anmelden (Art. 21 Abs. 1 FusG), und zwar in einer der Amtssprachen des betroffenen Handelsregisteramts.
+
+**Abs. 2** Befinden sich nicht alle an der Fusion beteiligten Rechtseinheiten im selben Registerbezirk, so ist das Handelsregisteramt am Ort der übernehmenden Rechtseinheit für den Entscheid über die Eintragung der Fusion zuständig. Es informiert die Handelsregisterämter am Sitz der übertragenden Rechtseinheiten über die Eintragung, die es vornehmen wird, und weist sie an, die bisherigen Einträge ohne weitere Prüfung zu löschen. Auf Verlangen übermittelt es ihnen Kopien der Anmeldung und der Belege.
+
+**Abs. 3** Sämtliche Belege und elektronische Daten zu den Eintragungen der übertragenden Rechtseinheiten sind nach deren Löschung an das Handelsregisteramt am Sitz der übernehmenden Rechtseinheit zu übermitteln und zu den Akten der übernehmenden Rechtseinheit zu nehmen.

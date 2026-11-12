@@ -1,0 +1,21 @@
+---
+id: mwstg__art-56
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 56 MWSTG – Entstehung, Verjährung und Entrichtung der Einfuhrsteuerschuld
+pfad: '4. Titel: Einfuhrsteuer'
+artikel: Art. 56
+---
+> MWSTG · Art. 56 MWSTG – Entstehung, Verjährung und Entrichtung der Einfuhrsteuerschuld
+
+**Abs. 1** Die Einfuhrsteuerschuld entsteht zur gleichen Zeit wie die Zollschuld (Art. 69 ZG).
+
+**Abs. 2** Der steuerpflichtigen Person nach Artikel 51, welche die Einfuhrsteuerschuld über das ZAZ begleicht, steht für die Bezahlung eine Frist von 60 Tagen nach Ausstellung der Rechnung zu; ausgenommen sind Einfuhren im Reiseverkehr, die mündlich zur Zollveranlagung angemeldet werden.
+
+**Abs. 3** Hinsichtlich der Sicherstellung können Erleichterungen gewährt werden, wenn dadurch der Steuereinzug nicht gefährdet wird.
+
+**Abs. 4** Die Einfuhrsteuerschuld verjährt zur gleichen Zeit wie die Zollschuld (Art. 75 ZG). Die Verjährung steht still, solange ein Steuerstrafverfahren nach diesem Gesetz durchgeführt wird und der zahlungspflichtigen Person dies mitgeteilt worden ist (Art. 104 Abs. 4).
+
+**Abs. 5** Ändert sich die Einfuhrsteuerschuld wegen nachträglicher Anpassung des Entgelts, namentlich aufgrund von Vertragsänderungen oder wegen Preisanpassungen zwischen verbundenen Unternehmen aufgrund anerkannter Richtlinien, so muss die zu niedrig bemessene Steuer innert 30 Tagen nach dieser Anpassung dem BAZG angezeigt werden. Die Meldung sowie die Anpassung der Steuerveranlagung können unterbleiben, wenn die nachzuentrichtende Steuer als Vorsteuer nach Artikel 28 abgezogen werden könnte.

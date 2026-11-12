@@ -1,0 +1,17 @@
+---
+id: fusg__art-100
+quelle: fusg
+kurz: FusG
+typ: gesetz
+rang: 1
+titel: Art. 100 FusG – Anwendbares Recht
+pfad: '8. Kapitel: Fusion, Umwandlung und Vermögensübertragung unter Beteiligung von Instituten des öffentlichen Rechts'
+artikel: Art. 100
+---
+> FusG · Art. 100 FusG – Anwendbares Recht
+
+**Abs. 1** Auf die Fusion von privatrechtlichen Rechtsträgern mit Instituten des öffentlichen Rechts, auf die Umwandlung solcher Institute in Rechtsträger des Privatrechts und auf die Vermögensübertragung unter Beteiligung eines Rechtsträgers des öffentlichen Rechts finden die Vorschriften dieses Gesetzes sinngemäss Anwendung. Bei der Fusion und der Umwandlung nach Artikel 99 Absatz 1 kann das öffentliche Recht für den beteiligten Rechtsträger des öffentlichen Rechts abweichende Vorschriften vorsehen. Die Artikel 99–101 finden jedoch in jedem Fall Anwendung, ausgenommen für konzessionierte Verkehrs- und Infrastrukturunternehmen, soweit das öffentliche Recht eine abweichende Regelung vorsieht.
+
+**Abs. 2** Institute des öffentlichen Rechts müssen in einem Inventar die Gegenstände des Aktiv- und des Passivvermögens, die von der Fusion, der Umwandlung oder der Vermögensübertragung erfasst werden, eindeutig bezeichnen und bewerten. Grundstücke, Wertpapiere und immaterielle Werte sind einzeln aufzuführen. Das Inventar muss von einer zugelassenen Revisionsexpertin oder einem zugelassenen Revisionsexperten geprüft werden, sofern nicht in anderer Weise sichergestellt ist, dass die Erstellung und die Bewertung des Inventars den anerkannten Rechnungslegungsgrundsätzen entsprechen.
+
+**Abs. 3** Die Beschlussfassung des Rechtsträgers des öffentlichen Rechts zur Fusion, Umwandlung oder Vermögensübertragung richtet sich nach den öffentlich-rechtlichen Vorschriften und Grundsätzen des Bundes, der Kantone und der Gemeinden.

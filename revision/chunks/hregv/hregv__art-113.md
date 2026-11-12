@@ -1,0 +1,20 @@
+---
+id: hregv__art-113
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 113 HRegV – Anmeldung und Belege
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 13. Kapitel: Zweigniederlassung > 2. Abschnitt: Zweigniederlassung einer Rechtseinheit mit Sitz im Ausland'
+artikel: Art. 113
+---
+> HRegV · Art. 113 HRegV – Anmeldung und Belege
+
+**Abs. 1** Mit der Anmeldung zur Eintragung einer Zweigniederlassung einer Rechtseinheit mit Sitz im Ausland müssen dem Handelsregisteramt folgende Belege eingereicht werden:
+- a. ein beglaubigter aktueller Auszug aus dem Handelsregister am Sitz der Hauptniederlassung oder, falls der Auszug keine genügenden Angaben enthält oder keine dem Handelsregister vergleichbare Institution besteht, ein amtlicher Nachweis darüber, dass die Hauptniederlassung nach den geltenden Bestimmungen des massgeblichen ausländischen Rechts rechtmässig besteht;
+- b. bei juristischen Personen ein beglaubigtes Exemplar der geltenden Statuten oder des entsprechenden Dokumentes der Hauptniederlassung;
+- c. das Protokoll oder der Protokollauszug des Organs der Hauptniederlassung, das die Errichtung der Zweigniederlassung beschlossen hat;
+- d. das Protokoll oder der Protokollauszug über die Bestellung der für die Zweigniederlassung vertretungsberechtigten Personen;
+- e. im Fall von Artikel 117 Absatz 3: die Erklärung der Domizilhalterin oder des Domizilhalters, dass sie oder er der Zweigniederlassung ein Rechtsdomizil am Ort von deren Sitz gewährt.
+
+**Abs. 2** Ist in der Schweiz bereits eine Zweigniederlassung derselben Rechtseinheit im Handelsregister eingetragen, so findet Absatz 1 Buchstaben a und b keine Anwendung.

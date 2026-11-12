@@ -1,0 +1,20 @@
+---
+id: mwstv__art-4a
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 4a MWSTV – Zeitpunkt des Übergangs des Lieferungsortes beim Versandhandel
+pfad: '1. Titel: Allgemeine Bestimmungen'
+artikel: Art. 4a
+---
+> MWSTV · Art. 4a MWSTV – Zeitpunkt des Übergangs des Lieferungsortes beim Versandhandel
+
+(Art. 7 Abs. 3 Bst. b MWSTG)
+**Abs. 1** Werden Gegenstände aus dem Ausland ins Inland geliefert, die aufgrund des geringfügigen Steuerbetrags von der Einfuhrsteuer befreit sind, so gilt der Ort der Lieferung bis zum Ende desjenigen Monats als im Ausland gelegen, in dem der Leistungserbringer oder die Leistungserbringerin die Umsatzgrenze von 100 000 Franken aus solchen Lieferungen erreicht hat.
+
+**Abs. 2** Ab dem Folgemonat gilt der Ort der Lieferung für alle Lieferungen des Leistungserbringers oder der Leistungserbringerin vom Ausland ins Inland als im Inland gelegen. Ab diesem Zeitpunkt muss er oder sie die Einfuhr im eigenen Namen vornehmen.
+
+**Abs. 3** Der Ort der Lieferung bleibt bis zum Ende desjenigen Kalenderjahres im Inland gelegen, in dem der Leistungserbringer oder die Leistungserbringerin die Umsatzgrenze von 100 000 Franken aus Lieferungen nach Absatz 1 unterschreitet.
+
+**Abs. 4** Unterschreitet der Leistungserbringer oder die Leistungserbringerin die Umsatzgrenze und teilt er oder sie dies der Eidgenössischen Steuerverwaltung (ESTV) nicht schriftlich mit, so gilt er oder sie als unterstellt nach Artikel 7 Absatz 3 Buchstabe a MWSTG.

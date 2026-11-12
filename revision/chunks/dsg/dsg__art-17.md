@@ -1,0 +1,25 @@
+---
+id: dsg__art-17
+quelle: dsg
+kurz: DSG
+typ: gesetz
+rang: 1
+titel: Art. 17 DSG – Ausnahmen
+pfad: '2. Kapitel: Allgemeine Bestimmungen > 3. Abschnitt: Bekanntgabe von Personendaten ins Ausland'
+artikel: Art. 17
+---
+> DSG · Art. 17 DSG – Ausnahmen
+
+**Abs. 1** Abweichend von Artikel 16 Absätze 1 und 2 dürfen in den folgenden Fällen Personendaten ins Ausland bekanntgegeben werden:
+- a. Die betroffene Person hat ausdrücklich in die Bekanntgabe eingewilligt.
+- b. Die Bekanntgabe steht in unmittelbarem Zusammenhang mit dem Abschluss oder der Abwicklung eines Vertrags:
+ - 1. zwischen dem Verantwortlichen und der betroffenen Person; oder
+ - 2. zwischen dem Verantwortlichen und seiner Vertragspartnerin oder seinem Vertragspartner im Interesse der betroffenen Person.
+- c. Die Bekanntgabe ist notwendig für:
+ - 1. die Wahrung eines überwiegenden öffentlichen Interesses; oder
+ - 2. die Feststellung, Ausübung oder Durchsetzung von Rechtsansprüchen vor einem Gericht oder einer anderen zuständigen ausländischen Behörde.
+- d. Die Bekanntgabe ist notwendig, um das Leben oder die körperliche Unversehrtheit der betroffenen Person oder eines Dritten zu schützen, und es ist nicht möglich, innerhalb einer angemessenen Frist die Einwilligung der betroffenen Person einzuholen.
+- e. Die betroffene Person hat die Daten allgemein zugänglich gemacht und eine Bearbeitung nicht ausdrücklich untersagt.
+- f. Die Daten stammen aus einem gesetzlich vorgesehenen Register, das öffentlich oder Personen mit einem schutzwürdigen Interesse zugänglich ist, soweit im Einzelfall die gesetzlichen Voraussetzungen der Einsichtnahme erfüllt sind.
+
+**Abs. 2** Der Verantwortliche oder der Auftragsbearbeiter informiert den EDÖB auf Anfrage über die Bekanntgabe von Personendaten nach Absatz 1 Buchstaben b Ziffer 2, c und d.

@@ -297,3 +297,488 @@
   sha256: a7a315ac9003783e59e2ab71437f10902e89179084ab145c08276ba923381710
   abgerufen: '2026-11-11'
   seiten: 1
+- id: rag
+  kurz: RAG
+  typ: gesetz
+  rang: 1
+  titel: Revisionsaufsichtsgesetz (RAG, SR 221.302)
+  format: xml
+  quelle: fedlex
+  sr: '221.302'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/533/20261001/de/xml/fedlex-data-admin-ch-eli-cc-2007-533-20261001-de-xml-2.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2007/533/20261001/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/533/20261001/de/xml/fedlex-data-admin-ch-eli-cc-2007-533-20261001-de-xml-2.xml
+  raw: raw/rag.xml
+  sha256: 82ce1b5604abc9e3f74f1fa32261cca2997d43dd8dafd8af543d6a04362a9ca6
+  einheiten: 59
+  abgerufen: '2026-11-12'
+- id: rav
+  kurz: RAV
+  typ: verordnung
+  rang: 1
+  titel: Revisionsaufsichtsverordnung (RAV, SR 221.302.3)
+  format: xml
+  quelle: fedlex
+  sr: 221.302.3
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/534/20240101/de/xml/fedlex-data-admin-ch-eli-cc-2007-534-20240101-de-xml-3.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2007/534/20240101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/534/20240101/de/xml/fedlex-data-admin-ch-eli-cc-2007-534-20240101-de-xml-3.xml
+  raw: raw/rav.xml
+  sha256: ff38b8702247c4f76d3b072870cadc63c38ebe7fee06e83ab48c2eb3987c87aa
+  einheiten: 80
+  abgerufen: '2026-11-12'
+- id: gebuev
+  kurz: GeBüV
+  typ: verordnung
+  rang: 1
+  titel: Geschäftsbücherverordnung (GeBüV, SR 221.431)
+  format: xml
+  quelle: fedlex
+  sr: '221.431'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/216/20130101/de/xml/fedlex-data-admin-ch-eli-cc-2002-216-20130101-de-xml-5.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2002/216/20130101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2002/216/20130101/de/xml/fedlex-data-admin-ch-eli-cc-2002-216-20130101-de-xml-5.xml
+  raw: raw/gebuev.xml
+  sha256: 8f1e7b662fec73f50b79d1698784648cb1db4ce5f6bc26087d6fa7b88c124c33
+  einheiten: 12
+  abgerufen: '2026-11-12'
+- id: hregv
+  kurz: HRegV
+  typ: verordnung
+  rang: 1
+  titel: Handelsregisterverordnung (HRegV, SR 221.411)
+  format: xml
+  quelle: fedlex
+  sr: '221.411'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/686/20261001/de/xml/fedlex-data-admin-ch-eli-cc-2007-686-20261001-de-xml.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2007/686/20261001/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2007/686/20261001/de/xml/fedlex-data-admin-ch-eli-cc-2007-686-20261001-de-xml.xml
+  raw: raw/hregv.xml
+  sha256: 230050488a432a9c98767b540df40df0221ebc0070f63bad86340dbc18e978ab
+  einheiten: 206
+  abgerufen: '2026-11-12'
+- id: mwstg
+  kurz: MWSTG
+  typ: gesetz
+  rang: 1
+  titel: Mehrwertsteuergesetz (MWSTG, SR 641.20)
+  format: xml
+  quelle: fedlex
+  sr: '641.20'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/615/20250331/de/xml/fedlex-data-admin-ch-eli-cc-2009-615-20250331-de-xml-4.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2009/615/20250331/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/615/20250331/de/xml/fedlex-data-admin-ch-eli-cc-2009-615-20250331-de-xml-4.xml
+  raw: raw/mwstg.xml
+  sha256: 3eb05b4d9b2860839cd442c22c61940049fe5c6c6507c77bdaba4b9c366d038d
+  einheiten: 133
+  abgerufen: '2026-11-12'
+- id: mwstv
+  kurz: MWSTV
+  typ: verordnung
+  rang: 1
+  titel: Mehrwertsteuerverordnung (MWSTV, SR 641.201)
+  format: xml
+  quelle: fedlex
+  sr: '641.201'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/828/20261028/de/xml/fedlex-data-admin-ch-eli-cc-2009-828-20261028-de-xml.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2009/828/20261028/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/828/20261028/de/xml/fedlex-data-admin-ch-eli-cc-2009-828-20261028-de-xml.xml
+  raw: raw/mwstv.xml
+  sha256: a5dbebac10c0370cf9b1419be3e44f3c554ac18d4c4627308506460025d0ad20
+  einheiten: 194
+  abgerufen: '2026-11-12'
+- id: estv-vo-sss
+  kurz: VO Saldosteuersätze
+  typ: verordnung
+  rang: 1
+  titel: Verordnung der ESTV über die Höhe der Saldosteuersätze nach Branchen und Tätigkeiten (SR 641.202.62)
+  format: xml
+  quelle: fedlex
+  sr: 641.202.62
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2024/500/20250101/de/xml/fedlex-data-admin-ch-eli-cc-2024-500-20250101-de-xml-2.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2024/500/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2024/500/20250101/de/xml/fedlex-data-admin-ch-eli-cc-2024-500-20250101-de-xml-2.xml
+  raw: raw/estv-vo-sss.xml
+  sha256: 70d16b63dca7092207dc2ff8c8fbaa82a5b4bd7675e539c8f5db4f7bd002e45d
+  einheiten: 4
+  abgerufen: '2026-11-12'
+- id: vstg
+  kurz: VStG
+  typ: gesetz
+  rang: 1
+  titel: Verrechnungssteuergesetz (VStG, SR 642.21)
+  format: xml
+  quelle: fedlex
+  sr: '642.21'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-de-xml-11.xml
+  url: https://www.fedlex.admin.ch/eli/cc/1966/371_385_384/20250101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/371_385_384/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-371_385_384-20250101-de-xml-11.xml
+  raw: raw/vstg.xml
+  sha256: afdc571c7fd9783e93c1685dd0192407d1d6cd4dbff95c671de862b8c0a1a8c2
+  einheiten: 83
+  abgerufen: '2026-11-12'
+- id: vstv
+  kurz: VStV
+  typ: verordnung
+  rang: 1
+  titel: Verrechnungssteuerverordnung (VStV, SR 642.211)
+  format: xml
+  quelle: fedlex
+  sr: '642.211'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-de-xml-6.xml
+  url: https://www.fedlex.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1966/1585_1641_1624/20250101/de/xml/fedlex-data-admin-ch-eli-cc-1966-1585_1641_1624-20250101-de-xml-6.xml
+  raw: raw/vstv.xml
+  sha256: 6c61ccdcfea3674d222a97352ec28ce83a8ef83a89751065c1d208e7df170642
+  einheiten: 82
+  abgerufen: '2026-11-12'
+- id: dsg
+  kurz: DSG
+  typ: gesetz
+  rang: 1
+  titel: Datenschutzgesetz (DSG, SR 235.1)
+  format: xml
+  quelle: fedlex
+  sr: '235.1'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/xml/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-xml-1.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2022/491/20250707/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2022/491/20250707/de/xml/fedlex-data-admin-ch-eli-cc-2022-491-20250707-de-xml-1.xml
+  raw: raw/dsg.xml
+  sha256: a99bce3dc59a5c3f25e69ed5e483380c0f1a9b57ec452fedb62e0e68b7baabef
+  einheiten: 79
+  abgerufen: '2026-11-12'
+- id: fusg
+  kurz: FusG
+  typ: gesetz
+  rang: 1
+  titel: Fusionsgesetz (FusG, SR 221.301)
+  format: xml
+  quelle: fedlex
+  sr: '221.301'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/320/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2004-320-20230101-de-xml-9.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2004/320/20230101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/320/20230101/de/xml/fedlex-data-admin-ch-eli-cc-2004-320-20230101-de-xml-9.xml
+  raw: raw/fusg.xml
+  sha256: af5da36bc863d41fad77a99cb20df887e3ea39fc23e949b1233610f364a0c039
+  einheiten: 112
+  abgerufen: '2026-11-12'
+- id: covid-sbueg
+  kurz: Covid-19-SBüG
+  typ: gesetz
+  rang: 1
+  titel: Covid-19-Solidarbürgschaftsgesetz (SR 951.26)
+  format: xml
+  quelle: fedlex
+  sr: '951.26'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/982/20260331/de/xml/fedlex-data-admin-ch-eli-cc-2020-982-20260331-de-xml.xml
+  url: https://www.fedlex.admin.ch/eli/cc/2020/982/20260331/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/982/20260331/de/xml/fedlex-data-admin-ch-eli-cc-2020-982-20260331-de-xml.xml
+  raw: raw/covid-sbueg.xml
+  sha256: 7e5fd93489172abf11f8cbc621aa47ba039abeedb5cf21ec32024556a4f8805a
+  einheiten: 31
+  abgerufen: '2026-11-12'
+- id: dbg
+  kurz: DBG
+  typ: gesetz
+  rang: 1
+  titel: Bundesgesetz über die direkte Bundessteuer (DBG, SR 642.11) – Gewinnsteuer juristischer Personen (Art. 57–82) und Verfahrensbeilagen (Art. 125–127)
+  format: xml
+  quelle: fedlex
+  sr: '642.11'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184/20260902/de/xml/fedlex-data-admin-ch-eli-cc-1991-1184_1184_1184-20260902-de-xml-1.xml
+  url: https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/20260902/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  artikel:
+  - 57-82
+  - 125-127
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1991/1184_1184_1184/20260902/de/xml/fedlex-data-admin-ch-eli-cc-1991-1184_1184_1184-20260902-de-xml-1.xml
+  raw: raw/dbg.xml
+  sha256: fa8b8259befc73a1e86d03622f523bf688200a99c0f02909cb4392acc0f1d971
+  einheiten: 28
+  abgerufen: '2026-11-12'
+- id: stgb
+  kurz: StGB
+  typ: gesetz
+  rang: 1
+  titel: Strafgesetzbuch (StGB, SR 311.0) – ausgewählte Artikel (Berufsgeheimnis, Buchführungs- und Urkundendelikte)
+  format: xml
+  quelle: fedlex
+  sr: '311.0'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261101/de/xml/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261101-de-xml-2.xml
+  url: https://www.fedlex.admin.ch/eli/cc/54/757_781_799/20261101/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  artikel:
+  - '146'
+  - '152'
+  - '153'
+  - '158'
+  - '162'
+  - '166'
+  - '251'
+  - '253'
+  - '321'
+  - '325'
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/54/757_781_799/20261101/de/xml/fedlex-data-admin-ch-eli-cc-54-757_781_799-20261101-de-xml-2.xml
+  raw: raw/stgb.xml
+  sha256: 1bcc8bd6d5654c53d3392e922a9f8f657ecd12e44d17a3d14d686f17cd90010b
+  einheiten: 10
+  abgerufen: '2026-11-12'
+- id: zgb
+  kurz: ZGB
+  typ: gesetz
+  rang: 1
+  titel: Zivilgesetzbuch (ZGB, SR 210) – Revision von Vereinen und Stiftungen
+  format: xml
+  quelle: fedlex
+  sr: '210'
+  xml_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20260701/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20260701-de-xml-2.xml
+  url: https://www.fedlex.admin.ch/eli/cc/24/233_245_233/20260701/de
+  chunking: artikel
+  lizenz: amtlich frei (Art. 5 Abs. 1 Bst. a URG) – Fedlex
+  artikel:
+  - 69a
+  - 69b
+  - 69c
+  - 69d
+  - 83a
+  - 83b
+  - 83c
+  - 83d
+  - 84a
+  - 84b
+  - '87'
+  download_url: https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20260701/de/xml/fedlex-data-admin-ch-eli-cc-24-233_245_233-20260701-de-xml-2.xml
+  raw: raw/zgb.xml
+  sha256: d0fe55605574de9403685c13836afb0db4212a4b88deb458cf2fe798c45bb694
+  einheiten: 11
+  abgerufen: '2026-11-12'
+- id: estv-mb-a-1995
+  kurz: ESTV MB A 1995
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Merkblatt A 1995: Abschreibungen auf dem Anlagevermögen geschäftlicher Betriebe'
+  format: pdf
+  download_url: https://www.estv.admin.ch/dam/de/sd-web/Qyxr5xBfdWDp/dbst-mb-a-1995-geschbetriebe-de.pdf
+  url: https://www.estv.admin.ch/dam/de/sd-web/Qyxr5xBfdWDp/dbst-mb-a-1995-geschbetriebe-de.pdf
+  stand: Merkblatt A/1995 (1 S.); PDF-Metadaten erstellt 15.11.2019; in merkblaetter-direkte-bundessteuer.json originalDate 2023-10-10 (Seite updatedAt 2026-03-17)
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 1
+  raw: raw/estv-mb-a-1995.pdf
+  sha256: cfffb7f5919d1c1815447ec14952a896b71e49f1abecfcb82dc9a028ac7ab408
+  abgerufen: '2026-11-12'
+- id: estv-ks-32a-2025
+  kurz: KS ESTV 32a
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Kreisschreiben Nr. 32a (20.01.2025): Sanierung von Kapitalgesellschaften und Genossenschaften'
+  format: pdf
+  download_url: https://www.estv.admin.ch/dam/de/sd-web/NkHH-TkCqMnq/dbst-ks-2025-1-032a-dvs-de.pdf
+  url: https://www.estv.admin.ch/dam/de/sd-web/NkHH-TkCqMnq/dbst-ks-2025-1-032a-dvs-de.pdf
+  stand: Bern, 20.01.2025 (PDF 18 S.); in kreisschreiben-direkten-bundessteuer.json originalDate 2025-01-20
+  chunking: abschnitt
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 18
+  raw: raw/estv-ks-32a-2025.pdf
+  sha256: 098c6c641f667aae0ead9c8aa716c16a0ca1d7547ff4a7d3879a860d8216c945
+  abgerufen: '2026-11-12'
+- id: estv-ks-29c-2022
+  kurz: KS ESTV 29c
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Kreisschreiben Nr. 29c (23.12.2022): Kapitaleinlageprinzip'
+  format: pdf
+  download_url: https://www.estv.admin.ch/dam/de/sd-web/h36nmhxQYuz5/dbst-ks-2022-1-029c-dvs-de.pdf
+  url: https://www.estv.admin.ch/dam/de/sd-web/h36nmhxQYuz5/dbst-ks-2022-1-029c-dvs-de.pdf
+  stand: Bern, 23.12.2022 (PDF 37 S.)
+  chunking: abschnitt
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 37
+  raw: raw/estv-ks-29c-2022.pdf
+  sha256: c0b160d7ebf862cd59ce9db6a00d13c803b1d5f49dc68f41d9b01ca298f7ca7d
+  abgerufen: '2026-11-12'
+- id: estv-ks-51-2026
+  kurz: KS ESTV 51
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Kreisschreiben Nr. 51 (05.11.2026): Eigene Beteiligungsrechte'
+  format: pdf
+  download_url: https://www.estv.admin.ch/dam/de/sd-web/TkF4qP5iBxtX/1-051-DVS-2026-de.pdf
+  url: https://www.estv.admin.ch/dam/de/sd-web/TkF4qP5iBxtX/1-051-DVS-2026-de.pdf
+  stand: Bern, 5. November 2026 (PDF 16 S.); tritt mit Publikation in Kraft, ersetzt KS Nr. 5 vom 19. August 1999, gilt für alle offenen Veranlagungen
+  chunking: abschnitt
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 16
+  raw: raw/estv-ks-51-2026.pdf
+  sha256: 33541dc31bef4f37badc77e31597b971f2c559af8c77d3b5fe833c56c5ed20ad
+  abgerufen: '2026-11-12'
+- id: estv-rs-2-219-2026
+  kurz: ESTV Zinssätze FW 2026
+  typ: praxis
+  rang: 3
+  titel: 'ESTV Rundschreiben Nr. 219 (30.01.2026): Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Fremdwährungen'
+  format: pdf
+  download_url: https://www.estv.admin.ch/dam/de/sd-web/04KIslBDT-PZ/2-219-DV-2026-d.pdf
+  url: https://www.estv.admin.ch/dam/de/sd-web/04KIslBDT-PZ/2-219-DV-2026-d.pdf
+  stand: Bern, 30. Januar 2026 (PDF 3 S.)
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 3
+  raw: raw/estv-rs-2-219-2026.pdf
+  sha256: fd0869b79c5f98635934db7799b3711f88b21aa1fe8d916208fdc4d72968c7de
+  abgerufen: '2026-11-12'
+- id: bsv-betraege-2026
+  kurz: BSV Beträge 2026
+  typ: praxis
+  rang: 3
+  titel: 'BSV: Beträge gültig ab dem 1. Januar 2026 (AHV/IV/EO/EL/BV)'
+  format: pdf
+  download_url: https://www.bsv.admin.ch/dam/de/sd-web/sAgdISSXenMT/d_Betr%C3%A4ge%202026.pdf
+  url: https://www.bsv.admin.ch/dam/de/sd-web/sAgdISSXenMT/d_Betr%C3%A4ge%202026.pdf
+  stand: Datum 06.11.2025 (PDF 2 S.); in leistungen-ahv-detail.json originalDate 2025-11-05; Vermerk «Keine Änderung der Beträge gegenüber 1.1.2025»
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  seiten: 2
+  raw: raw/bsv-betraege-2026.pdf
+  sha256: c135367761dd5e4f81d12c07a3c68059a642c43c2a27dbbe4bd79b9bad91d05d
+  abgerufen: '2026-11-12'
+- id: bsv-beitraege-ueberblick
+  kurz: BSV Beiträge
+  typ: praxis
+  rang: 3
+  titel: 'BSV: Beiträge an die Sozialversicherungen im Überblick (Webseite)'
+  format: json
+  download_url: https://www.bsv.admin.ch/api/collector/de/beitraege-im-ueberblick.json
+  url: https://www.bsv.admin.ch/de/beitraege-im-ueberblick
+  stand: JSON updatedAt 2026-11-05; Tabellenvermerk «in % des Einkommens, ab 1.1.2025»
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  raw: raw/bsv-beitraege-ueberblick.json
+  sha256: e872eda2799b66283555ea3b10fcdca3f1adf32450f253b0e315954271eedfe3
+  abgerufen: '2026-11-12'
+- id: edoeb-ki-datenschutz
+  kurz: EDÖB KI
+  typ: praxis
+  rang: 3
+  titel: 'EDÖB: KI und Datenschutz (Webseite)'
+  format: json
+  download_url: https://www.edoeb.admin.ch/api/collector/de/ki-und-datenschutz.json
+  url: https://www.edoeb.admin.ch/de/ki-und-datenschutz
+  stand: 'JSON: publicationDate 24.09.2025, updatedAt 10.11.2026; Mitteilung: publicationDate 09.11.2023, updatedAt 21.08.2025'
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  raw: raw/edoeb-ki-datenschutz.json
+  sha256: 8b99f8fc10d130a14392cd2f32838c6cb4935aa0e2ba27ef8ca13bd8eafa0f6e
+  abgerufen: '2026-11-12'
+- id: edoeb-cloud
+  kurz: EDÖB Cloud
+  typ: praxis
+  rang: 3
+  titel: 'EDÖB: Datenbearbeitungen in der Cloud (Webseite)'
+  format: json
+  download_url: https://www.edoeb.admin.ch/api/collector/de/datenbearbeitungen-in-der-cloud.json
+  url: https://www.edoeb.admin.ch/de/datenbearbeitungen-in-der-cloud
+  stand: 'JSON: publishDate 10.05.2023, updatedAt 18.05.2026'
+  chunking: seite
+  lizenz: 'Behördenpublikation (admin.ch-Rechtshinweis: Reproduktion nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben'
+  raw: raw/edoeb-cloud.json
+  sha256: b62b8f987ba54243627405a77293b5458f60aba1437b28691e29d1ea64fcc4ad
+  abgerufen: '2026-11-12'
+- id: rab-unabhaengigkeit
+  kurz: RAB Unabhängigkeit
+  typ: aufsicht
+  rang: 3
+  titel: 'RAB: Unabhängigkeit (eingeschränkte Revision, Mitwirkung, Schutzvorkehrungen)'
+  format: html
+  download_url: https://www.rab-asr.ch/de/unabhaengigkeit
+  url: https://www.rab-asr.ch/de/unabhaengigkeit
+  stand: sitemap.xml lastmod 2026-08-11; Last-Modified-Header dynamisch (11.11.2026); abgerufen 2026-11-11 (200, text/html, 89 kB)
+  chunking: seite
+  lizenz: © RAB (Reproduktion/Weiterverwendung nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben
+  raw: raw/rab-unabhaengigkeit.html
+  sha256: e722893ce4cf2e20633ae97a122f1fa9d74cf487fbfb241d3add8aedfa54af7b
+  abgerufen: '2026-11-12'
+- id: rab-faq-revisionsunternehmen
+  kurz: RAB FAQ
+  typ: aufsicht
+  rang: 3
+  titel: 'RAB: FAQ Revisionsunternehmen (Unterzeichnung, Vollzeitstellen, Revisionsart)'
+  format: html
+  download_url: https://www.rab-asr.ch/de/faq/revisionsunternehmen
+  url: https://www.rab-asr.ch/de/faq/revisionsunternehmen
+  stand: abgerufen 2026-11-11 (200, text/html, 82 kB); Seite nicht in sitemap.xml
+  chunking: seite
+  lizenz: © RAB (Reproduktion/Weiterverwendung nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben
+  raw: raw/rab-faq-revisionsunternehmen.html
+  sha256: f6b1b5e3e7441987a2760df2941c904ca542c836f0c6a6f4e534594c50992e2c
+  abgerufen: '2026-11-12'
+- id: rab-qualitaetssicherung
+  kurz: RAB QS
+  typ: aufsicht
+  rang: 3
+  titel: 'RAB: Qualitätssicherung – Vorgaben zur internen Nachschau'
+  format: html
+  download_url: https://www.rab-asr.ch/de/qualitaetssicherung
+  url: https://www.rab-asr.ch/de/qualitaetssicherung
+  stand: sitemap.xml lastmod 2026-02-25; abgerufen 2026-11-11 (200, text/html)
+  chunking: seite
+  lizenz: © RAB (Reproduktion/Weiterverwendung nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben
+  raw: raw/rab-qualitaetssicherung.html
+  sha256: 9a98e052962bee51c57a1f1366892de5f2c7ab6c346b0bac977c068d5ba30f6f
+  abgerufen: '2026-11-12'
+- id: rab-rs-1-2014
+  kurz: RAB RS 1/2014
+  typ: aufsicht
+  rang: 3
+  titel: RAB-Rundschreiben 1/2014 über die interne Qualitätssicherung in Revisionsunternehmen (Stand 1.1.2024)
+  format: pdf
+  download_url: https://www.rab-asr.ch/sites/default/files/2026-05/RS_1_2014_DE.pdf
+  url: https://www.rab-asr.ch/sites/default/files/2026-05/RS_1_2014_DE.pdf
+  stand: vom 24.11.2014 (Stand am 1. Januar 2024); PDF 7 Seiten, erstellt 20.04.2026, Last-Modified 29.05.2026; auf /de/rundschreiben weiterhin als aktuelle Fassung (01.
+  chunking: seite
+  lizenz: © RAB (Reproduktion/Weiterverwendung nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben
+  seiten: 7
+  raw: raw/rab-rs-1-2014.pdf
+  sha256: 951fcb9ed67a2cde8777729360378fc7e30bf165148000598a64cd73b45e57e7
+  abgerufen: '2026-11-12'
+- id: rab-rs-1-2014-aenderung-2026
+  kurz: RAB RS 1/2014 Änderung 2026
+  typ: aufsicht
+  rang: 3
+  titel: RAB-Rundschreiben 1/2014 – Änderung vom 19.06.2026 (in Kraft 15.12.2026)
+  format: pdf
+  download_url: https://www.rab-asr.ch/sites/default/files/2026-07/RS%201-2014_de_%C3%84nderung_20260619.pdf
+  url: https://www.rab-asr.ch/sites/default/files/2026-07/RS%201-2014_de_%C3%84nderung_20260619.pdf
+  stand: Beschluss 19.06.2026, in Kraft per 15.12.2026 (Liste der Änderungen im PDF); News vom 01.07.2026 (/de/news/aenderung-rundschreiben-12014); PDF 9 Seiten, erstell
+  chunking: seite
+  lizenz: © RAB (Reproduktion/Weiterverwendung nur mit Zustimmung) – intern als Referenz, nicht öffentlich weitergeben
+  seiten: 9
+  raw: raw/rab-rs-1-2014-aenderung-2026.pdf
+  sha256: dcf36bf5d7c4474a3605e89f2e71b5aa3039352e1eb20d1176f00b76ca2957cd
+  abgerufen: '2026-11-12'

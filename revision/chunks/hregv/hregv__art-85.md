@@ -1,0 +1,21 @@
+---
+id: hregv__art-85
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 85 HRegV – Öffentliche Urkunde über die Errichtung
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 6. Kapitel: Genossenschaft'
+artikel: Art. 85
+---
+> HRegV · Art. 85 HRegV – Öffentliche Urkunde über die Errichtung
+
+Die öffentliche Urkunde über die Errichtung muss folgende Angaben enthalten:
+- a. die Personenangaben zu den Gründerinnen und Gründern sowie zu deren Vertreterinnen und Vertretern;
+- b. die Erklärung der Gründerinnen und Gründer, eine Genossenschaft zu gründen;
+- c. die Bestätigung der Gründerinnen und Gründer, dass die Statuten festgelegt sind;
+- d. gegebenenfalls die Tatsache, dass der schriftliche Bericht der Gründerinnen und Gründer über Sacheinlagen der Versammlung bekannt gegeben und von dieser beraten wurde;
+- e. die Wahl der Mitglieder der Verwaltung sowie die entsprechenden Personenangaben;
+- f. die Tatsache, dass die Revisionsstelle gewählt wurde, beziehungsweise den Verzicht auf eine Revision;
+- g. die Unterschriften der Gründerinnen und Gründer;
+- h. die Bestätigung der Gründerinnen und Gründer, dass keine anderen Sacheinlagen, Verrechnungstatbestände oder besonderen Vorteile bestehen als die in den Belegen genannten.

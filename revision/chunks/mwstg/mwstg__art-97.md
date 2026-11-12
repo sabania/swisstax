@@ -1,0 +1,17 @@
+---
+id: mwstg__art-97
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 97 MWSTG – Strafzumessung und qualifizierte Steuerhinterziehung
+pfad: '6. Titel: Strafbestimmungen'
+artikel: Art. 97
+---
+> MWSTG · Art. 97 MWSTG – Strafzumessung und qualifizierte Steuerhinterziehung
+
+**Abs. 1** Die Busse wird in Anwendung von Artikel 106 Absatz 3 des Strafgesetzbuches (StGB) bemessen; dabei kann Artikel 34 StGB sinngemäss herangezogen werden. Sofern der durch die Tat erzielte Steuervorteil höher ist als die Strafdrohung, kann die Busse bei vorsätzlicher Begehung bis zum Doppelten des Steuervorteils erhöht werden.
+
+**Abs. 2** Bei erschwerenden Umständen wird das Höchstmass der angedrohten Busse um die Hälfte erhöht. Zugleich kann auf eine Freiheitsstrafe von bis zu zwei Jahren erkannt werden. Als erschwerende Umstände gelten:
+- a. das Anwerben einer oder mehrerer Personen für eine Widerhandlung gegen das Mehrwertsteuerrecht;
+- b. das gewerbsmässige Verüben von Widerhandlungen gegen das Mehrwertsteuerrecht.

@@ -1,0 +1,34 @@
+---
+id: hregv__art-22
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 22 HRegV – Statuten und Stiftungsurkunden
+pfad: '2. Titel: Eintragungsverfahren > 1. Kapitel: Anmeldung und Belege > 2. Abschnitt: Belege'
+artikel: Art. 22
+---
+> HRegV · Art. 22 HRegV – Statuten und Stiftungsurkunden
+
+**Abs. 1** Ins Handelsregister wird als Datum der Statuten der Tag eingetragen, an dem:
+- a. die Gründerinnen und Gründer die Statuten angenommen haben; oder
+- b. das zuständige Organ der Gesellschaft die letzte Änderung der Statuten beschlossen hat.
+
+**Abs. 2** Ins Handelsregister wird als Datum der Stiftungsurkunde der Tag eingetragen, an dem:
+- a. die öffentliche Urkunde über die Errichtung der Stiftung erstellt wurde;
+- b. die Verfügung von Todes wegen errichtet wurde; oder
+- c. die Stiftungsurkunde durch das Gericht oder eine Behörde geändert wurde.
+
+**Abs. 3** Werden die Statuten oder die Stiftungsurkunde geändert oder angepasst, so muss dem Handelsregisteramt eine vollständige neue Fassung der Statuten oder der Stiftungsurkunde eingereicht werden.
+
+**Abs. 4** Die folgenden Dokumente müssen von einer Urkundsperson beglaubigt werden:
+- a. die Statuten von:
+ - 1. Aktiengesellschaften,
+ - 2. Kommanditaktiengesellschaften,
+ - 3. Gesellschaften mit beschränkter Haftung,
+ - 4. Genossenschaften,
+ - 5. Investmentgesellschaften mit festem Kapital,
+ - 6. Investmentgesellschaften mit variablem Kapital;
+- b. Stiftungsurkunden.
+
+**Abs. 5** Die Statuten von Vereinen müssen von einem Mitglied des Vorstandes unterzeichnet sein.

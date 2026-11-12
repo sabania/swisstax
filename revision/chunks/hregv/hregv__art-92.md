@@ -1,0 +1,29 @@
+---
+id: hregv__art-92
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 92 HRegV – Inhalt des Eintrags
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 7. Kapitel: Verein'
+artikel: Art. 92
+---
+> HRegV · Art. 92 HRegV – Inhalt des Eintrags
+
+Bei Vereinen müssen ins Handelsregister eingetragen werden:
+- a. der Name und die Unternehmens-Identifikationsnummer;
+- b. der Sitz und das Rechtsdomizil;
+- c. die Rechtsform;
+- d. falls belegt: das Datum der Gründung;
+- e. das Datum der Statuten;
+- f. falls sie beschränkt ist: die Dauer des Vereins;
+- g. der Zweck;
+- h. die Mittel, wie Mitgliederbeiträge, Erträge aus dem Vereinsvermögen oder aus der Vereinstätigkeit und Schenkungen;
+- i. im Fall einer persönlichen Haftung oder einer Nachschusspflicht der Mitglieder des Vereins: ein Verweis auf die nähere Umschreibung in den Statuten;
+- j. falls der Verein der Pflicht zur Eintragung in das Handelsregister nach Artikel 61 Absatz 2 ZGB nicht untersteht und keine der zur Vertretung berechtigten Personen Wohnsitz in der Schweiz hat: ein Hinweis darauf sowie das Datum der Erklärung gemäss Artikel 90a Absatz 4;
+- k. die nachstehenden Personen:
+ - 1. bei Vereinen nach Artikel 90 Absatz 1 Buchstaben a und b: die Mitglieder des Vorstands und die zur Vertretung berechtigten Personen,
+ - 2. bei Vereinen nach Artikel 90 Absatz 1 Buchstabe c: mindestens ein Mitglied des Vorstands und mindestens eine zur Vertretung berechtigte Person mit Wohnsitz in der Schweiz,
+ - 3. bei anderen Vereinen: mindestens ein Mitglied des Vorstands und mindestens eine zur Vertretung berechtigte Person;
+- l. …
+- m. falls der Verein eine ordentliche oder eingeschränkte Revision durchführt: die Revisionsstelle.

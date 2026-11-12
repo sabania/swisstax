@@ -1,0 +1,33 @@
+---
+id: hregv__art-95
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 95 HRegV – Inhalt des Eintrags
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 8. Kapitel: Stiftung'
+artikel: Art. 95
+---
+> HRegV · Art. 95 HRegV – Inhalt des Eintrags
+
+**Abs. 1** Bei Stiftungen müssen ins Handelsregister eingetragen werden:
+- a. die Tatsache, dass es sich um die Errichtung einer Stiftung handelt;
+- b. der Name und die Unternehmens-Identifikationsnummer;
+- c. der Sitz und das Rechtsdomizil;
+- d. die Rechtsform;
+- e. eines der folgenden Daten:
+ - 1. das Datum der Stiftungsurkunde,
+ - 2. das Datum der Verfügung von Todes wegen,
+ - 3. bei kirchlichen Stiftungen, bei denen die Errichtung nicht mehr belegt werden kann: das im Protokoll oder im Protokollauszug nach Artikel 181a erklärte Datum der Errichtung der Stiftung;
+- f. der Zweck;
+- g. bei einem Vorbehalt der Zweckänderung durch die Stifterin oder den Stifter: ein Verweis auf die nähere Umschreibung in der Stiftungsurkunde;
+- h. …
+- i. die Mitglieder des obersten Stiftungsorgans;
+- j. die zur Vertretung berechtigten Personen;
+- k. falls die Stiftung einer Aufsicht untersteht: die Stiftungsaufsichtsbehörde, sobald sie ihre Tätigkeit aufgenommen hat;
+- l. falls die Stiftung keine ordentliche oder eingeschränkte Revision durchführt: ein Hinweis darauf sowie das Datum des Beginns des Geschäftsjahres, ab welchem die Befreiung gilt;
+- m. falls die Stiftung eine ordentliche oder eingeschränkte Revision durchführt: die Revisionsstelle;
+- n. falls die Stiftung der Durchführung der beruflichen Vorsorge dient: die Aufsichtsbehörde gemäss Artikel 61 des Bundesgesetzes vom 25. Juni 1982 über die berufliche Alters‑, Hinterlassenen- und Invalidenvorsorge;
+- o. falls es sich um eine kirchliche Stiftung oder eine Familienstiftung handelt: ein Hinweis darauf.
+
+**Abs. 2** …

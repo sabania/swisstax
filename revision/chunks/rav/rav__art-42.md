@@ -1,0 +1,21 @@
+---
+id: rav__art-42
+quelle: rav
+kurz: RAV
+typ: verordnung
+rang: 1
+titel: Art. 42 RAV – Aufsichtsabgabe
+pfad: '5. Kapitel: Gebühren und Aufsichtsabgabe'
+artikel: Art. 42
+---
+> RAV · Art. 42 RAV – Aufsichtsabgabe
+
+**Abs. 1** Die Aufsichtsbehörde erhebt von den staatlich beaufsichtigten Revisionsunternehmen jährlich eine Aufsichtsabgabe zur Finanzierung der nicht durch Gebühren gedeckten Kosten.
+
+**Abs. 2** Die Aufsichtsabgabe ergibt sich aus dem Verhältnis der Prüfhonorare des einzelnen Revisionsunternehmens zur Summe aller Prüfhonorare, welche die staatlich beaufsichtigten Revisionsunternehmen verbuchen. Sie beträgt mindestens 10 000 Franken.
+
+**Abs. 2bis** …
+
+**Abs. 2ter** Die Aufsichtsabgabe für staatlich beaufsichtigte Revisionsunternehmen, die nur Personen nach Artikel 1b BankG prüfen, beträgt mindestens 2500 Franken.
+
+**Abs. 3** Massgebend sind die Prüfhonorare nach Artikel 11 Absatz 3.

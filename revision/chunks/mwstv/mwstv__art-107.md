@@ -1,0 +1,18 @@
+---
+id: mwstv__art-107
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 107 MWSTV – Wechsel der Abrechnungsart bei Abrechnung nach der Saldosteuersatzmethode oder der Pauschalsteuersatzmethode
+pfad: '2. Titel: Inlandsteuer > 6. Kapitel: Ermittlung und Entstehung der Steuerforderung > 5. Abschnitt: Abrechnungsart und Abtretung der Steuerforderung'
+artikel: Art. 107
+---
+> MWSTV · Art. 107 MWSTV – Wechsel der Abrechnungsart bei Abrechnung nach der Saldosteuersatzmethode oder der Pauschalsteuersatzmethode
+
+(Art. 39 MWSTG)
+**Abs. 1** Wechselt die steuerpflichtige Person von der Abrechnung nach vereinnahmten Entgelten zur Abrechnung nach vereinbarten Entgelten, so muss sie in der auf den Wechsel folgenden Abrechnungsperiode die im Zeitpunkt des Wechsels bestehenden Debitorenposten mit den bewilligten Saldosteuersätzen beziehungsweise Pauschalsteuersätzen abrechnen, die nach den Artikeln 84, 86 und 88 für die Tätigkeiten massgebend sind, aus denen sich diese Debitorenposten ergeben.
+
+**Abs. 2** Wechselt die steuerpflichtige Person von der Abrechnung nach vereinbarten Entgelten zur Abrechnung nach vereinnahmten Entgelten, so muss sie in der Abrechnungsperiode, die auf den Wechsel folgt, die im Zeitpunkt des Wechsels bestehenden Debitorenposten von den in dieser Abrechnungsperiode vereinnahmten Entgelten aus den entsprechenden Tätigkeiten abziehen.
+
+**Abs. 3** Wird gleichzeitig mit dem Wechsel der Abrechnungsart auch die Abrechnungsmethode geändert, so gilt Artikel 79 Absatz 4 beziehungsweise Artikel 81 Absatz 5.

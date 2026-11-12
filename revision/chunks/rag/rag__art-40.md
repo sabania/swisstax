@@ -1,0 +1,22 @@
+---
+id: rag__art-40
+quelle: rag
+kurz: RAG
+typ: gesetz
+rang: 1
+titel: Art. 40 RAG – Vergehen
+pfad: '8. Abschnitt: Strafbestimmungen'
+artikel: Art. 40
+---
+> RAG · Art. 40 RAG – Vergehen
+
+**Abs. 1** Mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe wird bestraft, wer:
+- a. eine Revisionsdienstleistung ohne die erforderliche Zulassung oder trotz Verbot zur Ausübung seiner Tätigkeit erbringt;
+- abis. im Revisionsbericht, im Prüfbericht oder in der Prüfbestätigung zu wesentlichen Tatsachen falsche Angaben macht oder wesentliche Tatsachen verschweigt;
+- b. der Aufsichtsbehörde den Zutritt zu seinen Geschäftsräumlichkeiten nicht gewährt (Art. 13 Abs. 2), ihr die verlangten Auskünfte nicht erteilt oder die verlangten Unterlagen nicht herausgibt (Art. 15a Abs. 1) oder ihr gegenüber falsche oder unvollständige Angaben macht;
+- c. als staatlich beaufsichtigtes Revisionsunternehmen gegen die Pflichten zur Dokumentation und zur Aufbewahrung verstösst (Art. 730c OR);
+- d. während oder nach Beendigung der Tätigkeit als von der Aufsichtsbehörde beauftragte Drittperson (Art. 20) ein Geheimnis offenbart, das ihr in dieser Eigenschaft anvertraut worden ist oder das sie in dieser Eigenschaft wahrgenommen hat; vorbehalten bleiben die eidgenössischen und kantonalen Bestimmungen über die Zeugnispflicht und die Auskunftspflicht gegenüber einer Behörde.
+
+**Abs. 2** Wird die Tat fahrlässig begangen, so ist die Strafe Busse bis zu 100 000 Franken.
+
+**Abs. 3** Strafverfolgung und Beurteilung sind Sache der Kantone.

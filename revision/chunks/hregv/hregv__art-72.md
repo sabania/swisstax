@@ -1,0 +1,23 @@
+---
+id: hregv__art-72
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 72 HRegV – Errichtungsakt
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 5. Kapitel: Gesellschaft mit beschränkter Haftung > 1. Abschnitt: Gründung'
+artikel: Art. 72
+---
+> HRegV · Art. 72 HRegV – Errichtungsakt
+
+Die öffentliche Urkunde über den Errichtungsakt muss folgende Angaben enthalten:
+- a. die Personenangaben zu den Gründerinnen und Gründern sowie gegebenenfalls zu deren Vertreterinnen und Vertretern;
+- b. die Erklärung der Gründerinnen und Gründer, eine Gesellschaft mit beschränkter Haftung zu gründen;
+- c. die Bestätigung der Gründerinnen und Gründer, dass die Statuten festgelegt sind;
+- d. die Erklärung jeder Gründerin und jedes Gründers über die Zeichnung der Stammanteile unter Angabe von Anzahl, Nennwert, Kategorien und Ausgabebetrag;
+- e. die Feststellung der Gründerinnen und Gründer nach Artikel 777 Absatz 2 OR;
+- f. falls die Geschäftsführerinnen und Geschäftsführer gewählt wurden: einen Hinweis darauf und die entsprechenden Personenangaben;
+- g. die Tatsache, dass die Revisionsstelle gewählt wurde, beziehungsweise den Verzicht auf eine Revision;
+- h. die Nennung aller Belege sowie die Bestätigung der Urkundsperson, dass die Belege ihr und den Gründerinnen und Gründern vorgelegen haben;
+- i. die Unterschriften der Gründerinnen und Gründer;
+- j. falls das Stammkapital in ausländischer Währung festgelegt wird oder Einlagen in einer anderen Währung geleistet werden als derjenigen des Stammkapitals: die angewandten Umrechnungskurse.

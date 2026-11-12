@@ -1,0 +1,26 @@
+---
+id: mwstv__art-77
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 77 MWSTV – Grundsätze
+pfad: '2. Titel: Inlandsteuer > 6. Kapitel: Ermittlung und Entstehung der Steuerforderung > 2. Abschnitt: Saldosteuersatzmethode'
+artikel: Art. 77
+---
+> MWSTV · Art. 77 MWSTV – Grundsätze
+
+(Art. 37 Abs. 1–4 MWSTG)
+**Abs. 1** Bei der Abklärung, ob die Voraussetzungen nach Artikel 37 MWSTG erfüllt sind, sind die im Inland gegen Entgelt erbrachten steuerbaren Leistungen zu berücksichtigen.
+
+**Abs. 2** Die Saldosteuersatzmethode kann nicht gewählt werden von steuerpflichtigen Personen, die:
+- a. nach Artikel 37 Absatz 5 MWSTG nach der Pauschalsteuersatzmethode abrechnen können;
+- b. das Verlagerungsverfahren nach Artikel 63 MWSTG anwenden;
+- c. die Gruppenbesteuerung nach Artikel 13 MWSTG anwenden;
+- d. ihren Sitz oder eine Betriebsstätte in den Talschaften Samnaun oder Sampuoir haben;
+- e. mehr als 50 Prozent ihres Umsatzes aus steuerbaren Leistungen an andere steuerpflichtige, nach der effektiven Abrechnungsmethode abrechnende Personen erzielen, sofern die beteiligten Personen unter einheitlicher Leitung stehen;
+- f. gestützt auf Artikel 7 Absatz 3 MWSTG Lieferungen im Inland erbringen;
+- g. als Leistungserbringer oder Leistungserbringerinnen nach Artikel 20a MWSTG gelten;
+- h. ihren Sitz im Ausland haben.
+
+**Abs. 3** Steuerpflichtige Personen, die mit der Saldosteuersatzmethode abrechnen, können nicht für die Versteuerung von Leistungen nach Artikel 21 Absatz 2 Ziffern 1–24 und 27–31 MWSTG optieren. Wird die Steuer gleichwohl in Rechnung gestellt, so ist die ausgewiesene Steuer unter Vorbehalt von Artikel 27 Absatz 2 MWSTG der ESTV abzuliefern.

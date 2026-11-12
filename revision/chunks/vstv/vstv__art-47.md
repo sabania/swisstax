@@ -1,0 +1,28 @@
+---
+id: vstv__art-47
+quelle: vstv
+kurz: VStV
+typ: verordnung
+rang: 1
+titel: Art. 47 VStV
+pfad: 'Erster Titel: Steuererhebung > Vierter Abschnitt: Steuer auf Versicherungsleistungen > III. Meldung statt Steuerentrichtung > 1. Meldung'
+artikel: Art. 47
+---
+> VStV · Art. 47 VStV
+
+**Abs. 1** Der Versicherer hat die Meldungen gemäss Artikel 19 VStG auf den vorgeschriebenen Formularen und unaufgefordert zu erstatten.
+
+**Abs. 2** Die ESTV kann unter den von ihr festzulegenden Bedingungen und Auflagen nicht unterschriebene Meldungen zulassen.
+
+**Abs. 3** Sind aufgrund eines Versicherungsverhältnisses nacheinander mehrere Kapitalleistungen zu erbringen, so ist in der Meldung über die erste Leistung auf die später fällig werdenden Leistungen hinzuweisen.
+
+**Abs. 4** Zeitrenten sind bei der ersten Rentenzahlung als Kapitalleistung mit dem Barwert zu melden; die Berechnungsgrundlagen des Barwertes und die Fälligkeit der letzten Rentenzahlung sind anzugeben.
+
+**Abs. 5** Bei Leibrenten und Pensionen sind in der Meldung der ersten Rente der Beginn des Rentenlaufs, der Betrag der Jahresrente und die Fälligkeitsdaten der künftigen Renten anzugeben; eine neue Meldung ist jeweils nur zu erstatten, wenn der Rentenbetrag erhöht wird oder der Anspruchsberechtigte wechselt.
+
+**Abs. 6** Bei der Meldung von Leistungen aus Leibrentenversicherungen, die dem Versicherungsvertragsgesetz vom 2. April 1908 unterstehen, muss der Versicherer gesondert ausweisen:
+- a. den Zeitpunkt des Vertragsabschlusses des Versicherungsvertrags;
+- b. die Höhe der garantierten Leibrente;
+- c. die Überschussleistungen;
+- d. den Ertragsanteil aus den Überschussleistungen; und
+e. den gesamten steuerbaren Ertragsanteil.

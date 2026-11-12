@@ -1,0 +1,26 @@
+---
+id: hregv__art-71
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 71 HRegV – Anmeldung und Belege
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 5. Kapitel: Gesellschaft mit beschränkter Haftung > 1. Abschnitt: Gründung'
+artikel: Art. 71
+---
+> HRegV · Art. 71 HRegV – Anmeldung und Belege
+
+**Abs. 1** Mit der Anmeldung zur Eintragung der Gründung einer Gesellschaft mit beschränkter Haftung müssen dem Handelsregisteramt folgende Belege eingereicht werden:
+- a. die öffentliche Urkunde über den Errichtungsakt;
+- b. die Statuten;
+- c. falls die Funktion der Geschäftsführerinnen und Geschäftsführer auf einer Wahl beruht: der Nachweis, dass die betroffenen Personen die Wahl angenommen haben;
+- d. gegebenenfalls ein Nachweis, dass die gesetzlich vorgeschriebene Revisionsstelle ihre Wahl angenommen hat;
+- e. gegebenenfalls der Beschluss der Gründerinnen und Gründer oder, soweit die Statuten dies vorsehen, der Beschluss der Geschäftsführerinnen und Geschäftsführer über die Regelung des Vorsitzes der Geschäftsführung;
+- f. gegebenenfalls der Beschluss der Gründerinnen und Gründer oder, soweit die Statuten dies vorsehen, der Beschluss der Geschäftsführerinnen und Geschäftsführer über die Ernennung weiterer zur Vertretung berechtigter Personen;
+- g. bei Bareinlagen: eine Bescheinigung, aus der ersichtlich ist, bei welcher Bank die Einlagen hinterlegt sind, sofern die Bank in der öffentlichen Urkunde nicht genannt wird;
+- h. im Fall von Artikel 117 Absatz 3: die Erklärung der Domizilhalterin oder des Domizilhalters, dass sie oder er der Gesellschaft ein Rechtsdomizil am Ort von deren Sitz gewährt;
+- i. …
+
+**Abs. 2** Für Angaben, die bereits in der öffentlichen Urkunde über den Errichtungsakt festgehalten sind, ist kein zusätzlicher Beleg erforderlich.
+
+**Abs. 3** Bestehen Sacheinlagen, Verrechnungstatbestände oder besondere Vorteile, so gilt Artikel 43 Absatz 3 sinngemäss.

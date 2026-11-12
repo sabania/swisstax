@@ -1,0 +1,17 @@
+---
+id: vstv__art-59
+quelle: vstv
+kurz: VStV
+typ: verordnung
+rang: 1
+titel: Art. 59 VStV
+pfad: 'Zweiter Titel: Steuerrückerstattung > Erster Abschnitt: Anspruchsberechtigung > II. Besondere Verhältnisse > 3. Erbfälle > b. Verfahren'
+artikel: Art. 59
+---
+> VStV · Art. 59 VStV
+
+**Abs. 1** Ist eine mit der Verrechnungssteuer belastete Leistung zu Lebzeiten des Erblassers fällig geworden, so ist der Antrag auf Rückerstattung dieser Steuer durch alle Erben gemeinsam oder durch deren gemeinsamen Vertreter bei der Steuerbehörde zu stellen, die für die Rückerstattung der Verrechnungssteuer an den Erblasser zuständig war.
+
+**Abs. 2** Ist eine mit der Verrechnungssteuer belastete Leistung nach dem Ableben des Erblassers fällig geworden, so ist der Antrag auf Rückerstattung durch jeden Erben nach Massgabe seines Anteils an der Erbschaft bei der für ihn zuständigen Steuerbehörde zu stellen.
+
+**Abs. 3** In den Fällen nach Absatz 2 gibt die für die Rückerstattung der Verrechnungssteuer an den Erblasser zuständige Steuerbehörde der für den Erben zuständigen Steuerbehörde die Namen und Adressen der übrigen Erben und deren Anteile an der Erbschaft bekannt.

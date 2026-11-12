@@ -1,0 +1,20 @@
+---
+id: mwstg__art-107
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 107 MWSTG – Bundesrat
+pfad: '7. Titel: Schlussbestimmungen > 1. Kapitel: Ausführungsbestimmungen'
+artikel: Art. 107
+---
+> MWSTG · Art. 107 MWSTG – Bundesrat
+
+**Abs. 1** Der Bundesrat:
+- a. regelt die Entlastung von der Mehrwertsteuer für Begünstigte nach Artikel 2 des Gaststaatgesetzes vom 22. Juni 2007, die von der Steuerpflicht befreit sind;
+- b. bestimmt, unter welchen Voraussetzungen den Abnehmern und Abnehmerinnen mit Wohn- oder Geschäftssitz im Ausland die Steuer auf den an sie im Inland ausgeführten Leistungen sowie auf ihren Einfuhren bei Gewährung des Gegenrechts durch das Land ihres Wohn- oder Geschäftssitzes vergütet werden kann; dabei haben grundsätzlich die gleichen Anforderungen zu gelten, wie sie bei inländischen steuerpflichtigen Personen in Bezug auf den Vorsteuerabzug bestehen;
+- c. regelt die mehrwertsteuerrechtliche Behandlung von Leistungen an Personen, die zum Personal gehören und zugleich eng verbundene Personen sind; er beachtet dabei die Behandlung dieser Leistungen bei der direkten Bundessteuer und kann Ausnahmen von Artikel 24 Absatz 2 festlegen.
+
+**Abs. 2** …
+
+**Abs. 3** Der Bundesrat erlässt die Vollzugsvorschriften.

@@ -1,0 +1,20 @@
+---
+id: hregv__art-136
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 136 HRegV – Anmeldung und Belege
+pfad: '4. Titel: Rechtsformübergreifende Bestimmungen für die Eintragung > 3. Kapitel: Umstrukturierungen > 4. Abschnitt: Umwandlung von Gesellschaften'
+artikel: Art. 136
+---
+> HRegV · Art. 136 HRegV – Anmeldung und Belege
+
+**Abs. 1** Mit der Anmeldung zur Eintragung der Umwandlung (Art. 66 FusG) müssen dem Handelsregisteramt folgende Belege eingereicht werden:
+- a. der Umwandlungsplan (Art. 59 und 60 FusG);
+- b. die Umwandlungsbilanz, gegebenenfalls die Bilanz des Zwischenabschlusses (Art. 58 FusG);
+- c. der öffentlich beurkundeten Umwandlungsbeschluss (Art. 64 und 65 FusG);
+- d. der Prüfungsbericht (Art. 62 FusG);
+- e. soweit nach den Umständen erforderlich: dieselben Belege wie bei der Neugründung der neuen Rechtsform (Art. 57 FusG).
+
+**Abs. 2** Bei Umwandlungen von kleinen und mittleren Unternehmen kann das oberste Leitungs- oder Verwaltungsorgan anstelle des Belegs nach Absatz 1 Buchstabe d eine von mindestens einem Mitglied unterzeichnete Erklärung einreichen, wonach sämtliche Gesellschafterinnen und Gesellschafter auf die Erstellung des Umwandlungsberichts oder auf die Prüfung verzichten und die Gesellschaft die Anforderungen nach Artikel 2 Buchstabe e FusG erfüllt. In der Erklärung ist anzugeben, auf welche Unterlagen wie Erfolgsrechnungen, Bilanzen, Jahresberichte, Verzichtserklärungen oder das Protokoll der Generalversammlung sie sich stützt.

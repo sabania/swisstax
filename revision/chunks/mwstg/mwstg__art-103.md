@@ -1,0 +1,21 @@
+---
+id: mwstg__art-103
+quelle: mwstg
+kurz: MWSTG
+typ: gesetz
+rang: 1
+titel: Art. 103 MWSTG – Strafverfolgung
+pfad: '6. Titel: Strafbestimmungen'
+artikel: Art. 103
+---
+> MWSTG · Art. 103 MWSTG – Strafverfolgung
+
+**Abs. 1** Auf die Strafverfolgung ist mit Ausnahme der Artikel 63 Absätze 1 und 2, 69 Absatz 2, 73 Absatz 1 letzter Satz sowie 77 Absatz 4 das VStrR anwendbar.
+
+**Abs. 2** Die Strafverfolgung obliegt bei der Inlandsteuer und bei der Bezugsteuer der ESTV, bei der Einfuhrsteuer dem BAZG.
+
+**Abs. 3** In Strafsachen mit engem Sachzusammenhang, bei denen sowohl die Zuständigkeit der ESTV als auch die des BAZG gegeben ist, kann die ESTV im Einvernehmen mit dem BAZG die Vereinigung der Strafverfolgung bei einer der beiden Behörden beschliessen.
+
+**Abs. 4** Die Strafverfolgung kann unterbleiben, wenn Schuld und Tatfolgen gering sind (Art. 52 StGB). In diesen Fällen wird eine Nichtanhandnahme- oder Einstellungsverfügung erlassen.
+
+**Abs. 5** Hat die zuständige Behörde auch andere strafbare Handlungen, für welche das VStrR anwendbar ist, zu untersuchen oder zu beurteilen, so gilt Absatz 1 für alle strafbaren Handlungen.

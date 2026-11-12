@@ -1,0 +1,22 @@
+---
+id: mwstv__art-86
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 86 MWSTV – Bewilligung der Saldosteuersätze
+pfad: '2. Titel: Inlandsteuer > 6. Kapitel: Ermittlung und Entstehung der Steuerforderung > 2. Abschnitt: Saldosteuersatzmethode'
+artikel: Art. 86
+---
+> MWSTV · Art. 86 MWSTV – Bewilligung der Saldosteuersätze
+
+(Art. 37 Abs. 1–4 MWSTG)
+**Abs. 1** Für jede Tätigkeit, deren Anteil am Gesamtumsatz aus steuerbaren Leistungen mehr als 10 Prozent beträgt, wird der dafür festgelegte Saldosteuersatz bewilligt.
+
+**Abs. 2** Massgebend für die Abklärung, ob die 10-Prozent-Grenze überschritten ist, sind:
+- a. bei Personen, die neu steuerpflichtig werden, und bei steuerpflichtigen Personen, die eine neue Tätigkeit aufnehmen, die voraussichtlichen Umsätze in den ersten 12 Monaten;
+- b. bei den übrigen steuerpflichtigen Personen die in den drei vorangegangenen Steuerperioden erzielten Umsätze, wobei der Anteil der betreffenden Tätigkeit am Gesamtumsatz aus steuerbaren Leistungen in jeder dieser Steuerperioden mehr als 10 Prozent betragen haben muss.
+
+**Abs. 3** Die Umsätze von Tätigkeiten mit gleichem Saldosteuersatz sind bei der Abklärung, ob die 10-Prozent-Grenze überschritten wird, zusammenzuzählen.
+
+**Abs. 4** Überschreitet der Umsatz einer Tätigkeit oder der Umsatz mehrerer Tätigkeiten, für die der gleiche Saldosteuersatz festgelegt ist, während drei aufeinander folgenden Steuerperioden die 10-Prozent-Grenze nicht mehr, so fällt die Bewilligung zur Anwendung des betreffenden Saldosteuersatzes auf den Beginn der vierten Steuerperiode dahin.

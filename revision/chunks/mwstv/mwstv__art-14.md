@@ -1,0 +1,33 @@
+---
+id: mwstv__art-14
+quelle: mwstv
+kurz: MWSTV
+typ: verordnung
+rang: 1
+titel: Art. 14 MWSTV – Unternehmerische Leistungen eines Gemeinwesens
+pfad: '2. Titel: Inlandsteuer > 1. Kapitel: Steuersubjekt > 2. Abschnitt: Gemeinwesen'
+artikel: Art. 14
+---
+> MWSTV · Art. 14 MWSTV – Unternehmerische Leistungen eines Gemeinwesens
+
+(Art. 12 Abs. 4 MWSTG)
+Als unternehmerisch und damit steuerbar gelten Leistungen eines Gemeinwesens, die nicht hoheitliche Tätigkeiten nach Artikel 3 Buchstabe g MWSTG sind. Namentlich die folgenden Leistungen von Gemeinwesen sind unternehmerischer Natur:
+- 1. Dienstleistungen im Bereich von Radio und Fernsehen, Telekommunikationsdienstleistungen sowie elektronische Dienstleistungen;
+- 2. Lieferung von Wasser, Gas, Elektrizität, thermischer Energie, Ethanol, Vergällungsmitteln und ähnlichen Gegenständen;
+- 3. Beförderung von Gegenständen und Personen;
+- 4. Dienstleistungen in Häfen und auf Flughäfen;
+- 5. Lieferung von zum Verkauf bestimmten neuen Fertigwaren;
+- 6. …
+- 7. Veranstaltung von Messen und Ausstellungen mit gewerblichem Charakter;
+- 8. Betrieb von Sportanlagen wie Badeanstalten und Kunsteisbahnen;
+- 9. Lagerhaltung;
+- 10. Tätigkeiten gewerblicher Werbebüros;
+- 11. Tätigkeiten von Reisebüros;
+- 12. Leistungen von betrieblichen Kantinen, Personalrestaurants, Verkaufsstellen und ähnlichen Einrichtungen;
+- 13. Tätigkeiten von Amtsnotaren und Amtsnotarinnen;
+- 14. Tätigkeiten von Vermessungsbüros;
+- 15. Tätigkeiten im Entsorgungsbereich;
+- 16. Tätigkeiten, die durch vorgezogene Entsorgungsgebühren gestützt auf Artikel 32abis des Umweltschutzgesetzes vom 7. Oktober 1983 (USG) finanziert werden;
+- 17. Tätigkeiten im Rahmen der Erstellung von Verkehrsanlagen;
+- 18. Rauchgaskontrollen;
+- 19. Werbeleistungen.

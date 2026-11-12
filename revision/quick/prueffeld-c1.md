@@ -4,7 +4,7 @@ titel: Prüffeld C1 Forderungen aus Lieferungen und Leistungen – Schnellzugrif
 jur: ch
 quellen: []
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-11
+generiert: tools/build_quick.py, 2026-11-12
 ---
 
 

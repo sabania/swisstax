@@ -1,0 +1,25 @@
+---
+id: hregv__art-74
+quelle: hregv
+kurz: HRegV
+typ: verordnung
+rang: 1
+titel: Art. 74 HRegV – Anmeldung und Belege
+pfad: '3. Titel: Rechtsformspezifische Bestimmungen für die Eintragung > 5. Kapitel: Gesellschaft mit beschränkter Haftung > 2. Abschnitt: Erhöhung des Stammkapitals'
+artikel: Art. 74
+---
+> HRegV · Art. 74 HRegV – Anmeldung und Belege
+
+**Abs. 1** Eine Erhöhung des Stammkapitals muss innerhalb von sechs Monaten nach dem Beschluss der Gesellschafterversammlung beim Handelsregisteramt zur Eintragung angemeldet werden.
+
+**Abs. 2** Mit der Anmeldung müssen dem Handelsregisteramt folgende Belege eingereicht werden:
+- a. die öffentliche Urkunde über den Beschluss der Gesellschafterversammlung (Art. 650 Abs. 2 i. V. m. Art. 781 Abs. 5 Ziff. 1 OR);
+- b. die öffentliche Urkunde über den Beschluss der Geschäftsführerinnen und Geschäftsführer (Art. 652g Abs. 2 i. V. m. Art. 781 Abs. 5 Ziff. 5 OR);
+- c. die angepassten Statuten;
+- d. der von einer Geschäftsführerin oder einem Geschäftsführer unterzeichnete Kapitalerhöhungsbericht (Art. 652e i. V. m. Art. 781 Abs. 5 Ziff. 4 OR);
+- e. bei Bareinlagen: eine Bescheinigung, aus der ersichtlich ist, bei welcher Bank die Einlagen hinterlegt sind, sofern die Bank in der öffentlichen Urkunde nicht genannt wird;
+- f. …
+
+**Abs. 3** Bestehen Sacheinlagen, Verrechnungstatbestände oder besondere Vorteile oder wird die Erhöhung des Stammkapitals durch Umwandlung von Eigenkapital liberiert, so gilt Artikel 46 Absatz 3 sinngemäss.
+
+**Abs. 4** Werden die Bezugsrechte eingeschränkt oder aufgehoben, so gilt Artikel 46 Absatz 4 sinngemäss.
