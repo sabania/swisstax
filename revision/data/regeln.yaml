@@ -1,4 +1,4 @@
-# Arbeitsregeln des KI-Revisionsagenten (Konzept consis) und gesetzliche Kernregeln – jede Regel mit Fundstelle; Status: agent-geprueft
+# Arbeitsregeln des KI-Revisionsagenten (Konzept consis) und gesetzliche/fachliche Kernregeln – jede Regel mit Fundstelle; Status: agent-geprueft
 regeln:
 - bereich: schritttyp
   key: befragung
@@ -244,3 +244,91 @@ regeln:
   regel: Sonst eingeschränkte Revision (OR 727a Abs. 1); Opting-out mit Zustimmung sämtlicher Aktionäre bei höchstens zehn Vollzeitstellen (Abs. 2).
   quelle: or__art-727a
   zitat: Mit der Zustimmung sämtlicher Aktionäre kann auf die eingeschränkte Revision verzichtet werden, wenn die Gesellschaft nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat.
+- bereich: wesentlichkeit
+  key: hwp_toleranz
+  regel: Toleranzwesentlichkeit in der Regel 50–75 % der Gesamtwesentlichkeit (HWP ER Rz 50); dient zur Beurteilung der Risiken auf Aussagenebene und für Art, Zeitpunkt und Umfang der Prüfungshandlungen.
+  quelle: hwp-er-2026__rz-0050-s187
+  zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit.
+- bereich: wesentlichkeit
+  key: hwp_toleranz_zweck
+  regel: Toleranzwesentlichkeit liegt unter der Gesamtwesentlichkeit wegen des Aggregationsrisikos (einzeln unwesentliche Fehler können zusammen wesentlich sein).
+  quelle: ser-2022__5-2-t2
+  zitat: Um diesem sogenannten Aggregationsrisiko Rechnung zu tragen, legt der Abschlussprüfer eine entsprechend tiefere Toleranzwesentlichkeit fest.
+- bereich: wesentlichkeit
+  key: hwp_nag
+  regel: Nichtaufgriffsgrenze bis zu 5 % der Gesamtwesentlichkeit (HWP ER Rz 51); darunter keine Erfassung in der Zusammenstellung der Fehlaussagen.
+  quelle: hwp-er-2026__rz-0051-s187
+  zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+- bereich: wesentlichkeit
+  key: hwp_kumulieren
+  regel: Fehlaussagen über der Nichtaufgriffsgrenze werden erfasst, kumuliert und laufend auf Wesentlichkeit beurteilt (HWP ER Rz 53).
+  quelle: hwp-er-2026__rz-0053-s189
+  zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
+- bereich: gesetz
+  key: hwp_kombination
+  regel: 'Revisionspflicht: Im Berichts- und Vorjahr müssen nicht dieselben zwei Grössen überschritten sein (HWP ER Rz 309).'
+  quelle: hwp-er-2026__rz-0309-s098
+  zitat: ist es nicht erforderlich, dass im Berichts- und im Vorjahr die gleichen beiden Referenzgrössen die massgeblichen Schwellenwerte überschreiten
+- bereich: gesetz
+  key: hwp_optingout_vzs
+  regel: 'Opting-out: massgebend sind die Vollzeitstellen im betreffenden Geschäftsjahr, nicht der Zweijahresdurchschnitt (HWP ER Rz 313).'
+  quelle: hwp-er-2026__rz-0313-s098
+  zitat: sind für die Bestimmung der zehn Vollzeitstellen, die für das Opting-out nicht überschritten werden dürfen, die Tatsachen im betreffenden Geschäftsjahr massgebend
+- bereich: gesetz
+  key: geschuetztes_kapital
+  regel: Kapitalverlust, wenn das bilanzielle Eigenkapital kleiner ist als die Hälfte des geschützten Kapitals (HWP BuR Rz 889).
+  quelle: hwp-bur-2023__rz-0889-s359
+  zitat: Ein Kapitalverlust liegt also vor, wenn das bilanzielle Eigen
+- bereich: gesetz
+  key: geschuetztes_kapital_reserven
+  regel: Geschütztes Kapital = Grundkapital (AK + PS) + gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals (HWP BuR Rz 889).
+  quelle: hwp-bur-2023__rz-0889-s359
+  zitat: im Betrag von zusammen maximal 50 % – resp. bei Holdinggesellschaften 20 % – des Grundkapitals
+- bereich: gesetz
+  key: eigene_aktien_bezugsgroesse
+  regel: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital, die Bezugsgrösse nach Art. 725a OR bleibt unverändert (Q&A Kapitalverlust).
+  quelle: qa-kapitalverlust-2023__1-1-t1
+  zitat: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital.
+- bereich: gesetz
+  key: or725a_optingout
+  regel: Ohne Revisionsstelle (Opting-out) muss die Jahresrechnung bei Kapitalverlust vor der GV-Genehmigung eingeschränkt durch einen vom VR ernannten zugelassenen Revisor geprüft werden (OR 725a Abs.
+    2; entfällt bei Gesuch um Nachlassstundung, Abs. 3).
+  quelle: or__art-725a
+  zitat: Hat die Gesellschaft keine Revisionsstelle, so muss die letzte Jahresrechnung vor ihrer Genehmigung durch die Generalversammlung überdies einer eingeschränkten Revision durch einen zugelassenen
+    Revisor unterzogen werden.
+- bereich: gesetz
+  key: or725b_ohne_rs
+  regel: Ohne Revisionsstelle obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle (OR 725b Abs. 5).
+  quelle: or__art-725b-t2
+  zitat: Verfügt die Gesellschaft über keine Revisionsstelle, so obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle.
+- bereich: gesetz
+  key: rangruecktritt_umfang
+  regel: Rangrücktritt mindestens im Ausmass der Überschuldung; bei gegebener Fortführung genügt die Deckungslücke zu Fortführungswerten (HWP BuR Rz 719).
+  quelle: hwp-bur-2023__rz-0719-s307
+  zitat: Der Rangrücktritt hat mindestens im Ausmass der Überschuldung zu erfolgen
+- bereich: gesetz
+  key: rangruecktritt_keine_sanierung
+  regel: Ein Rangrücktritt beseitigt die Überschuldung nicht und ist keine Sanierungsmassnahme (Q&A Kapitalverlust).
+  quelle: qa-kapitalverlust-2023__2-2-2-t5
+  zitat: Ein Rangrücktritt an sich beseitigt die Überschuldung nicht und stellt auch keine Sanierungsmassnahme nach Art. 725a OR dar.
+- bereich: gesetz
+  key: aufwertung_or725c
+  regel: Aufwertung von Grundstücken/Beteiligungen zur Behebung von Kapitalverlust/Überschuldung (OR 725c), gesondert als Aufwertungsreserve, nur mit schriftlicher Bestätigung der Revisionsstelle bzw. eines
+    zugelassenen Revisors.
+  quelle: or__art-725c
+  zitat: Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve auszuweisen.
+- bereich: gesetz
+  key: aufwertung_passiv
+  regel: Maximaler passivseitiger Aufwertungsbetrag = (0,5 × geschütztes Kapital vor Aufwertung − bilanzielles Eigenkapital vor Aufwertung) × 2 (HWP BuR Rz 894).
+  quelle: hwp-bur-2023__rz-0894-s361-t1
+  zitat: Maximaler passivseitiger Aufwertungsbetrag = [0,5 × geschütztes Kapital vor Aufwertung . /. bilanzielles Eigenkapital vor Aufwertung] × 2.
+- bereich: gesetz
+  key: aufwertung_aktiv
+  regel: Maximaler aktivseitiger Aufwertungsbetrag = erzielbarer Wert − Buchwert (HWP BuR Rz 893).
+  quelle: hwp-bur-2023__rz-0893-s360-t2
+  zitat: Der maximale aktivseitige Aufwertungsbetrag entspricht der Differenz zwischen dem erzielbaren Wert und dem Buchwert in der Bilanz.
+- bereich: gesetz
+  key: aufwertung_tiefer
+  regel: Zulässig ist der tiefere der beiden Beträge (HWP BuR Rz 891).
+  quelle: hwp-bur-2023__rz-0891-s359-t1
+  zitat: Der maximale Aufwertungsbetrag entspricht hierbei dem tieferen Wert aus dem maximalen aktivseitigen Aufwertungsbetrag und dem maximalen passivseitigen Aufwertun

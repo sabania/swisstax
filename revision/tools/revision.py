@@ -98,6 +98,9 @@ def suche(query: str, quelle: str | None = None, typ: str | None = None, n: int 
         if "__" in quelle:
             sql += " and c.id like ?"
             par.append(quelle.replace("*", "%") + "%")
+    ordentlich = bool(re.search(r"(?i)ordentlich|sa-ch|isa|ps-ch|hwp or|konzern|kotiert|publikumsgesellschaft", query)) or bool(quelle)
+    if not ordentlich:   # Standard: eingeschränkte Revision – Quellen der ordentlichen Revision nur auf Wunsch
+        sql += " and c.quelle not in ('sa-ch-2026', 'hwp-or-2024')"
     if typ:
         sql += " and c.typ = ?"
         par.append(typ)
@@ -119,7 +122,8 @@ def suche(query: str, quelle: str | None = None, typ: str | None = None, n: int 
     for i, (cid, kurz, titel, seiten, rang, snip, _) in enumerate(rows, 1):
         out.append(f"{i}. **{cid}** · {kurz} · {cut(titel, 80)}" + (f" · S. {seiten}" if seiten else ""))
         out.append(f"   {cut(snip, 260)}")
-    out.append("\nVolltext: `zeige <chunk-id>`. Rang: OR (Gesetz) > SER > HWP ER > übrige; SA-CH/HWP OR nur ergänzend (ordentliche Revision).")
+    out.append("\nVolltext: `zeige <chunk-id>`. Rang: OR (Gesetz) > SER > HWP ER > übrige." +
+               ("" if ordentlich else " SA-CH/HWP OR (ordentliche Revision) ausgeblendet – nur bei Bedarf `--quelle sa-ch` bzw. `--quelle hwp-or`."))
     return "\n".join(out)
 
 
@@ -506,7 +510,9 @@ def revio(ref: str | None = None) -> str:
     wz = rv.get("werkzeuge", {})
     r = (ref or "").strip()
     if not r:
-        out = ["# revio 4.0 ↔ revio-MCP – Übersicht", "Der Agent schreibt nur in Bereich 4 (Prüffelder) und 10 (Unterlagen zum Abschluss); alles andere lesen. "
+        out = ["# revio 4.0 ↔ revio-MCP – Übersicht",
+               "Massgebend für Werkzeugfragen ist die revio-MCP-Werkzeugliste (849 Werkzeuge, Stand 11.11.2026); das Konzept (26.10.2026) ging noch von Oberflächenautomation ohne API aus.",
+               "Der Agent schreibt nur in Bereich 4 (Prüffelder) und 10 (Unterlagen zum Abschluss); alles andere lesen. "
                "Visum, ✓, Abschliessende Beurteilung, Siegel, Abschluss, Freigabe, Archiv, Löschen: nie.", "",
                "| Bereich | Rolle Agent | lesen | vorbereiten |", "|---|---|---|---|"]
         for b in rv.get("bereiche", []):
@@ -517,12 +523,26 @@ def revio(ref: str | None = None) -> str:
     if r in wz:
         return _wz(r)
     nr = norm(r)
-    if nr in ("nur-mensch", "nur_mensch", "gesperrt", "deny", "sperren", "verboten"):
-        nm = sorted(n for n, w in wz.items() if w.get("art") == "nur_mensch")
-        gs = sorted(n for n, w in wz.items() if w.get("art") == "gesperrt")
-        return "\n".join(["# Für den Agenten gesperrte revio-Werkzeuge (OpenClaw deny)", f"## nur Mensch ({len(nm)}) – Visum, Siegel, Abschluss, Freigabe, Archiv",
-                          *[f"- `{n}`" for n in nm], "", f"## gesperrt ({len(gs)}) – Löschen, Rechte, Einstellungen, Definitionen, generischer Aufruf",
-                          *[f"- `{n}`" for n in gs], "", "Vollständige Liste mit Begründung: wiki/revio/werkzeuge-nur-mensch.md"])
+    if nr in ("nur-mensch", "nur_mensch", "gesperrt", "deny", "sperren", "verboten", "gesperrte werkzeuge", "sperrliste"):
+        nm = sorted(n for n, w in wz.items() if w.get("art") in ("nur_mensch", "gesperrt"))
+        grp = [("Generischer Aufruf (umgeht jede Sperre)", r"^revio_call$"), ("Siegel / Versiegelung", r"(?i)seal"), ("Visum", r"(?i)visa|vise"),
+               ("Archivierung", r"(?i)archiv"), ("Freigabe / Review / Genehmigung", r"(?i)approve|release|review|accept"),
+               ("Abschluss / Status / Sperre", r"(?i)close|closed|lock|complete|commit|finali|state"), ("Löschen / Entfernen", r"(?i)^rv_delete|remove|delete"),
+               ("Mandant/Dossier anlegen, Import/Export", r"(?i)create_client|createclient|createdossier|import|export|copy|move"),
+               ("Benutzer, Rechte, Einstellungen, Definitionen, Vorlagen", r"(?i)user|right|permission|setting|license|definition|template|catalog")]
+        out = ["# Für den Agenten gesperrte revio-Werkzeuge (OpenClaw deny) – " + f"{len(nm)} von {len(wz)}",
+               "Grund: Visum, Siegel, Abschluss, Freigabe, Archiv und Löschen bleiben beim Menschen; Rechte/Einstellungen sind nicht Aufgabe des Agenten. "
+               "Der Agent ruft diese Werkzeuge nie auf, auch nicht über `revio_call`.", ""]
+        rest = set(nm)
+        for titel, rx in grp:
+            g = [n for n in sorted(rest) if re.search(rx, n)]
+            if g:
+                rest -= set(g)
+                out.append(f"**{titel}** ({len(g)}): " + ", ".join(f"`{n}`" for n in g[:8]) + (f" … (+{len(g) - 8})" if len(g) > 8 else ""))
+        if rest:
+            out.append(f"**Übrige** ({len(rest)}): " + ", ".join(f"`{n}`" for n in sorted(rest)[:8]) + (" …" if len(rest) > 8 else ""))
+        out += ["", "Vollständige Liste mit Begründung: wiki/revio/werkzeuge-nur-mensch.md · Vorschlag OpenClaw-Rechte: revio-tool-policy.json"]
+        return "\n".join(out)
     if nr in ("ketten", "ablauf", "aufgaben"):
         out = ["# Werkzeugketten (typische Aufgaben)"]
         for k in rv.get("ketten", []):
@@ -531,9 +551,14 @@ def revio(ref: str | None = None) -> str:
         return "\n".join(out)
     k = next((k for k in rv.get("ketten", []) if norm(k["id"]) == nr), None)
     if k:
-        out = [f"# {k['id']} · {k['aufgabe']}", f"Wann: {k.get('wann', '')} · Prozess: {k.get('prozess', '')}", ""]
-        for i, s in enumerate(k.get("schritte", []), 1):
-            out.append(f"{i}. `{s['werkzeug']}` [{s.get('art', '')}] – {s.get('zweck', '')}" + (f"\n   Parameter: {s['parameter']}" if s.get("parameter") else ""))
+        erl = [s for s in k.get("schritte", []) if s.get("art") != "nur_mensch"]
+        nie = [s for s in k.get("schritte", []) if s.get("art") == "nur_mensch"]
+        out = [f"# {k['id']} · {k['aufgabe']}",
+               "**Kurzablauf:** " + " → ".join(f"`{s['werkzeug']}`" + (" (schreibt, Freigabe)" if s.get("art") == "vorbereiten" else "") for s in erl),
+               ("**Nie (nur Mensch):** " + ", ".join(f"`{s['werkzeug']}`" for s in nie)) if nie else "",
+               f"Wann: {cut(k.get('wann', ''), 300)} · Prozess: {k.get('prozess', '')}", ""]
+        for i, s in enumerate(erl, 1):
+            out.append(f"{i}. `{s['werkzeug']}` [{s.get('art', '')}] – {cut(s.get('zweck', ''), 260)}" + (f"\n   Parameter: {cut(s['parameter'], 300)}" if s.get("parameter") else ""))
         if k.get("menschliche_freigabe"):
             out += ["", f"Mensch: {k['menschliche_freigabe']}"]
         if k.get("offene_fragen"):
@@ -542,9 +567,9 @@ def revio(ref: str | None = None) -> str:
     b = next((b for b in rv.get("bereiche", []) if norm(b["nr"]) == nr or norm(b["nr"]).split()[0] == nr), None)
     if b:
         out = [f"# revio Bereich {b['nr']} · {b['name']}", f"Rolle Agent: {b.get('rolle_agent', '')}"]
-        for t, key in (("lesen", "werkzeuge_lesen"), ("vorbereiten (OpenClaw mit Freigabe)", "werkzeuge_vorbereiten"), ("nur Mensch", "nur_mensch"), ("Kandidaten (unsicher)", "kandidaten")):
-            if b.get(key):
-                out.append(f"- {t}: " + ", ".join(f"`{w}`" for w in b[key]))
+        for t, feld in (("lesen", "werkzeuge_lesen"), ("vorbereiten (OpenClaw mit Freigabe)", "werkzeuge_vorbereiten"), ("nur Mensch", "nur_mensch"), ("Kandidaten (unsicher)", "kandidaten")):
+            if b.get(feld):
+                out.append(f"- {t}: " + ", ".join(f"`{w}`" for w in b[feld]))
         if b.get("hinweise"):
             out.append(f"\n{b['hinweise']}")
         return "\n".join(out)
@@ -559,8 +584,17 @@ def revio(ref: str | None = None) -> str:
         std = rv.get("prueffeld_standard", {})
         return "\n".join([f"# revio für Prüffeld {code} {_pfname(code)} (Bereich 4)", *_revio_fuer({"prueffeld": code, "typ": ""}),
                           f"\nParameter: {std.get('parameter', '')}" if std.get("parameter") else ""])
-    # Stichwortsuche über Ketten, Bereiche, Werkzeugnamen
+    # Stichwortsuche über Ketten, Bereiche, Werkzeugnamen (deutsche Begriffe → englische Namensteile)
     ts = terms_of(r)
+    SYN = {"checkliste": "checklist", "checklisten": "checklist", "notiz": "note", "notizen": "note", "pendenz": "note", "beilage": "attach",
+           "beilagen": "attach", "anhang": "appendix", "wesentlichkeit": "materiality", "saldenbilanz": "balance", "konto": "account", "konten": "account",
+           "kunde": "client", "kunden": "client", "mandant": "client", "jahresakte": "anualfile", "akte": "anualfile", "dossier": "dossier",
+           "prufschritt": "auditactivit", "prufschritte": "auditactivit", "prufungshandlung": "auditactivit", "prufungshandlungen": "auditactivit",
+           "textfeld": "activit", "visum": "visa", "siegel": "seal", "archiv": "archive", "freigabe": "approve", "abschluss": "seal",
+           "protokoll": "documentation", "protokolle": "documentation", "kundenbefragung": "questionnaire", "risiko": "risk", "risiken": "risk",
+           "strategie": "strateg", "vorjahr": "previousperiod", "umbuchung": "ledgeradjust", "umbuchungen": "ledgeradjust", "reserven": "hiddenreserve",
+           "pdf": "pdf", "bericht": "report", "periode": "financialyear", "geschaftsjahr": "financialyear", "beleg": "attach", "belege": "documentation"}
+    en = [SYN.get(key(t), "") for t in ts]
     hits = []
     for k in rv.get("ketten", []):
         sc = sum(1 for t in ts if t[:5] in norm(k["aufgabe"] + " " + k.get("wann", "")))
@@ -571,8 +605,10 @@ def revio(ref: str | None = None) -> str:
         if sc:
             hits.append((sc + 0.5, f"Bereich `{b['nr']}` {b['name']}"))
     for n, w in wz.items():
-        sc = sum(1 for t in ts if t[:5] in norm(n + " " + (w.get("z") or "")))
+        nl = n.lower()
+        sc = sum(1 for t in ts if t[:5] in norm(n + " " + (w.get("z") or ""))) + sum(2 for e in en if e and e in nl)
         if sc:
+            sc += 0.5 if w.get("art") in ("lesen", "vorbereiten") else 0
             hits.append((sc * 0.8, f"`{n}` [{w.get('art') or '?'}] {cut(w.get('z'), 70)}"))
     if not hits:
         return f"Nichts zu «{r}» gefunden. Übersicht: `revio`."
@@ -661,76 +697,151 @@ def _r(key):
     return fs(r.get("quelle"), r.get("zitat"), 200) if r else ""
 
 
-def kapitalverlust(aktiven, verbindlichkeiten, aktienkapital, kapitalreserve=0, gewinnreserve=0, rangruecktritt=0) -> str:
-    A, V, AK, KR, GR, RR = map(num, (aktiven, verbindlichkeiten, aktienkapital, kapitalreserve, gewinnreserve, rangruecktritt))
-    ek = A - V
-    basis = AK + KR + GR
-    haelfte = basis / 2
-    kv = ek < haelfte
-    ueber = V > A
-    out = ["# Kapitalverlust / Überschuldung (OR 725a / 725b) – Rechenhilfe, Beurteilung durch den WP", "",
-           "| Grösse | CHF |", "|---|---|",
-           f"| Aktiven | {chf(A)} |", f"| Verbindlichkeiten (Fremdkapital inkl. Rückstellungen) | {chf(V)} |",
-           f"| Aktiven − Verbindlichkeiten (Eigenkapital) | **{chf(ek)}** |",
-           f"| Aktienkapital | {chf(AK)} |", f"| gesetzliche Kapitalreserve (nicht zurückzahlbar) | {chf(KR)} |", f"| gesetzliche Gewinnreserve | {chf(GR)} |",
-           f"| Summe | {chf(basis)} |", f"| Hälfte (Schwelle OR 725a) | **{chf(haelfte)}** |", "",
-           f"**Kapitalverlust: {'JA' if kv else 'nein'}** (Eigenkapital {chf(ek)} {'<' if kv else '≥'} Hälfte {chf(haelfte)}; Deckung {(ek / basis * 100 if basis else 0):.1f} % der Summe)",
-           f"**Überschuldung (Bilanz zu Buchwerten): {'JA – Fehlbetrag ' + chf(V - A) if ueber else 'nein'}**"]
+def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichkeiten=None, kapitalreserve=0, gewinnreserve=0,
+                   holding=False, rangruecktritt=0, buchwert=None, verkehrswert=None) -> str:
+    """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals), Kapitalverlust, Überschuldung,
+    Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell) oder aus Aktiven − Verbindlichkeiten."""
+    AK, KR, GR, RR = num(aktienkapital), num(kapitalreserve), num(gewinnreserve), num(rangruecktritt)
+    if eigenkapital not in (None, ""):
+        EK = num(eigenkapital)
+        quelle_ek = "bilanzielles Eigenkapital (Eingabe)"
+    else:
+        EK = num(aktiven) - num(verbindlichkeiten)
+        quelle_ek = f"Aktiven {chf(num(aktiven))} − Verbindlichkeiten {chf(num(verbindlichkeiten))}"
+    hold = str(holding).lower() in ("1", "true", "ja", "yes", "holding")
+    satz = 0.2 if hold else 0.5
+    res_anr = min(KR + GR, satz * AK)
+    gesch = AK + res_anr
+    haelfte = gesch / 2
+    kv = EK < haelfte
+    ueber = EK < 0
+    out = ["# Kapitalverlust / Überschuldung – Rechenhilfe (Beurteilung und Bericht: WP)", "",
+           f"**Ergebnis: {'KAPITALVERLUST' if kv else 'kein Kapitalverlust'}" + (f" und ÜBERSCHULDUNG (Fehlbetrag {chf(-EK)})" if ueber else "") +
+           f"** – Eigenkapital {chf(EK)} {'<' if kv else '≥'} Hälfte des geschützten Kapitals {chf(haelfte)}" +
+           (f" (Unterdeckung {chf(haelfte - EK)})" if kv else ""), "",
+           "| Rechnung | CHF |", "|---|---|",
+           f"| Eigenkapital ({quelle_ek}) | **{chf(EK)}** |",
+           f"| Grundkapital (Aktien- + PS-Kapital) | {chf(AK)} |",
+           f"| gesetzliche Kapital- + Gewinnreserve | {chf(KR + GR)} |",
+           f"| davon anrechenbar: höchstens {int(satz * 100)} % des Grundkapitals{' (Holding)' if hold else ''} | {chf(res_anr)} |",
+           f"| geschütztes Kapital | {chf(gesch)} |",
+           f"| Hälfte = Schwelle OR 725a | **{chf(haelfte)}** |"]
     if ueber:
-        need = V - A
-        out.append(f"Rangrücktritt erfasst: {chf(RR)} → " + ("deckt den Fehlbetrag (OR 725b Abs. 4 Ziff. 1: Benachrichtigung kann unterbleiben, "
-                                                           "wenn Betrag UND Zinsen während der Überschuldung umfasst und Forderung gestundet)" if RR >= need
-                                                           else f"deckt den Fehlbetrag NICHT (fehlen {chf(need - RR)})"))
-    out += ["", "## Gesetz", f"- 725a: {_r('or725a_kapitalverlust')}", f"- 725b Abs. 1: {_r('or725b_zwischenabschluss')}",
-            f"- 725b Abs. 2: {_r('or725b_pruefung')}", f"- 725b Abs. 4: {_r('or725b_rangruecktritt')}", f"- 729c: {_r('or729c_anzeige')}",
-            "", "## Für den Agenten",
-            "- Nur rechnen und dokumentieren (Textfeld P1 / Notiz «Wesentliche Feststellungen»); Beurteilung, Hinweis im Bericht und Anzeige entscheidet der WP.",
-            "- Unterlagen: Zwischenabschlüsse (Fortführungs-/Veräusserungswerte), Rangrücktrittsvereinbarung, VR-Protokolle zu Sanierungsmassnahmen.",
-            "- Details: `prozess p6` · `wert kapitalverlust` · `suche \"Rangrücktritt Anforderungen\" --quelle qa-kapitalverlust`"]
+        need = -EK
+        out += ["", f"Rangrücktritt erfasst {chf(RR)} → " + ("deckt den Fehlbetrag zu Buchwerten" if RR >= need else f"deckt den Fehlbetrag NICHT (fehlen {chf(need - RR)})") +
+                " – muss Betrag UND Zinsen während der Überschuldung umfassen, Forderung gestundet; beseitigt die Überschuldung nicht."]
+    if buchwert not in (None, "") and verkehrswert not in (None, ""):
+        akt = max(0.0, num(verkehrswert) - num(buchwert))
+        pas = max(0.0, (haelfte - EK) * 2)
+        zul = min(akt, pas)
+        out += ["", "## Aufwertung OR 725c (Grundstücke/Beteiligungen)", "| Grenze | CHF |", "|---|---|",
+                f"| aktivseitig: Verkehrswert {chf(num(verkehrswert))} − Buchwert {chf(num(buchwert))} | {chf(akt)} |",
+                f"| passivseitig: (Hälfte geschütztes Kapital {chf(haelfte)} − EK {chf(EK)}) × 2 | {chf(pas)} |",
+                f"| **zulässig (tieferer Wert)** | **{chf(zul)}** |",
+                "Buchung erfolgsneutral: Grundstück/Beteiligung an Aufwertungsreserve (gesondert unter der gesetzlichen Gewinnreserve); "
+                "schriftliche Bestätigung der Revisionsstelle bzw. eines zugelassenen Revisors nötig; Anhangangaben."]
+    out += ["", "## Regeln (mit Fundstelle)"]
+    for k in ("geschuetztes_kapital", "geschuetztes_kapital_reserven", "or725a_kapitalverlust", "eigene_aktien_bezugsgroesse", "or725a_optingout",
+              "or725b_zwischenabschluss", "or725b_pruefung", "or725b_rangruecktritt", "rangruecktritt_umfang", "rangruecktritt_keine_sanierung",
+              "or725b_90tage", "or729c_anzeige"):
+        r = regel(k)
+        if r:
+            out.append(f"- {r['regel']} ^[{r['quelle']}]")
+    if buchwert not in (None, ""):
+        for k in ("aufwertung_or725c", "aufwertung_aktiv", "aufwertung_passiv", "aufwertung_tiefer"):
+            r = regel(k)
+            if r:
+                out.append(f"- {r['regel']} ^[{r['quelle']}]")
+    out += ["", "Für den Agenten: nur rechnen und dokumentieren (Textfeld P1, Notiz «Wesentliche Feststellungen»/«Schlussbesprechung»); "
+            "Hinweis im Bericht und Anzeige entscheidet der WP. Mehr: `aufgabe kapitalschutz` · `thema rangrücktritt`."]
     return "\n".join(out)
 
 
-def wesentlichkeit(bezugsgroesse, satz, toleranz=75, nichtaufgriff=5, bezeichnung="Bezugsgrösse") -> str:
-    B, S, T, N = num(bezugsgroesse), num(str(satz).rstrip("%")), num(str(toleranz).rstrip("%")), num(str(nichtaufgriff).rstrip("%"))
-    gw = B * S / 100
-    out = ["# Wesentlichkeit – Plausibilisierung (massgebend ist der Wert in revio 3.3; der Agent ändert ihn nie)", "",
+def wesentlichkeit(bezugsgroesse=None, satz=None, toleranz=None, nichtaufgriff=None, bezeichnung="Bezugsgrösse", gesamt=None) -> str:
+    """Gesamt-, Toleranz-, Nichtaufgriffsgrenze. Entweder Bezugsgrösse × Satz oder direkt die Gesamtwesentlichkeit (gesamt)."""
+    if gesamt not in (None, ""):
+        gw = num(gesamt)
+        herk = "Gesamtwesentlichkeit (Eingabe)"
+    else:
+        B, S = num(bezugsgroesse), num(str(satz).rstrip("%"))
+        gw = B * S / 100
+        herk = f"{chf(B)} × {chf(S)} % ({bezeichnung})"
+    T = num(str(toleranz).rstrip("%")) if toleranz not in (None, "") else 75
+    N = num(str(nichtaufgriff).rstrip("%")) if nichtaufgriff not in (None, "") else 5
+    out = ["# Wesentlichkeit – Rechenhilfe (massgebend ist der Wert in revio 3.3; der Agent ändert ihn nie)", "",
+           f"**Gesamtwesentlichkeit {chf(round(gw, 2))}** · Toleranzwesentlichkeit (HWP ER: in der Regel 50–75 %) **{chf(round(gw * 0.5, 2))} bis {chf(round(gw * 0.75, 2))}** · "
+           f"Nichtaufgriffsgrenze (HWP ER: bis 5 %) **höchstens {chf(round(gw * 0.05, 2))}**", "",
            "| Grösse | Rechnung | CHF |", "|---|---|---|",
-           f"| Gesamtwesentlichkeit | {chf(B)} × {chf(S)} % ({bezeichnung}) | **{chf(round(gw, 2))}** |",
-           f"| Toleranzwesentlichkeit | {chf(T)} % der Gesamtwesentlichkeit | **{chf(round(gw * T / 100, 2))}** |",
-           f"| Nichtaufgriffsgrenze | {chf(N)} % der Gesamtwesentlichkeit | **{chf(round(gw * N / 100, 2))}** |", "",
-           "## Anwendung (Konzept consis)"]
-    for k in ("lesen", "toleranz", "nichtaufgriff", "gesamt", "plausibel", "stichprobe_vorschlag"):
+           f"| Gesamtwesentlichkeit | {herk} | {chf(round(gw, 2))} |",
+           f"| Toleranzwesentlichkeit gewählt | {chf(T)} % | {chf(round(gw * T / 100, 2))} |",
+           f"| Nichtaufgriffsgrenze gewählt | {chf(N)} % | {chf(round(gw * N / 100, 2))} |"]
+    if T < 50 or T > 75:
+        out.append(f"⚠️ Toleranz {chf(T)} % liegt ausserhalb der üblichen Bandbreite 50–75 % (HWP ER Rz 50) → Begründung prüfen, sonst Pendenz.")
+    if N > 5:
+        out.append(f"⚠️ Nichtaufgriffsgrenze {chf(N)} % liegt über 5 % (HWP ER Rz 51) → Pendenz.")
+    out += ["", "## Regeln (mit Fundstelle)"]
+    for k in ("hwp_toleranz", "hwp_toleranz_zweck", "hwp_nag", "hwp_kumulieren", "lesen", "toleranz", "nichtaufgriff", "gesamt", "plausibel", "stichprobe_vorschlag"):
         r = regel(k)
         if r:
             out.append(f"- {r['regel']} ^[{r['quelle']}]")
     ws = [w for w in L().get("werte", []) if w.get("kategorie") == "wesentlichkeit"]
     if ws:
-        out += ["", "## Bezugsgrössen / Bandbreiten (Fachliteratur)"] + [f"- {w['bezeichnung']}: {w['wert']} {w.get('einheit', '')} ^[{w.get('quelle') or w.get('chunk')}]" for w in ws[:10]]
+        out += ["", "## Bezugsgrössen / Prozentsätze (Fachliteratur)"] + [f"- {w['bezeichnung']}: {w['wert']} {w.get('einheit', '')} ^[{w.get('quelle') or w.get('chunk')}]" for w in ws[:10]]
     return "\n".join(out)
 
 
+def _gross(x, art):
+    """Eingaben wie «22» (gemeint 22 Mio.) erkennen: Bilanzsumme/Umsatz < 1000 → Millionen."""
+    v = num(x)
+    if art in ("bilanzsumme", "umsatz") and 0 < v < 1000:
+        return v * 1_000_000, f"{x} als {chf(v * 1_000_000)} (Mio.) gelesen"
+    return v, None
+
+
 def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, vj_umsatz=None, vj_vollzeitstellen=None) -> str:
-    G = [("Bilanzsumme", 20_000_000), ("Umsatzerlös", 40_000_000), ("Vollzeitstellen (Jahresdurchschnitt)", 250)]
-    cur = [num(bilanzsumme), num(umsatz), num(vollzeitstellen)]
-    vj = [num(x) if x not in (None, "") else None for x in (vj_bilanzsumme, vj_umsatz, vj_vollzeitstellen)]
-    ue = [c > g for c, (_, g) in zip(cur, G)]
-    uev = [(v > g) if v is not None else None for v, (_, g) in zip(vj, G)]
-    out = ["# Revisionsart (OR 727 / 727a) – Rechenhilfe", "", "| Grösse | Schwelle | Berichtsjahr | überschritten | Vorjahr | überschritten |", "|---|---|---|---|---|---|"]
-    for (n, g), c, u, v, uv in zip(G, cur, ue, vj, uev):
-        out.append(f"| {n} | {chf(g)} | {chf(c)} | {'ja' if u else 'nein'} | {chf(v) if v is not None else '?'} | {'?' if uv is None else ('ja' if uv else 'nein')} |")
-    n_cur = sum(ue)
-    if any(x is None for x in uev):
-        res = ("Berichtsjahr: " + ("zwei oder mehr Grössen überschritten – Vorjahr nötig für den Entscheid" if n_cur >= 2 else "weniger als zwei Grössen überschritten") +
+    G = [("Bilanzsumme", 20_000_000, "bilanzsumme"), ("Umsatzerlös", 40_000_000, "umsatz"), ("Vollzeitstellen (Jahresdurchschnitt)", 250, "vzs")]
+    notes = []
+    cur, vj = [], []
+    for x, (_, _, art) in zip((bilanzsumme, umsatz, vollzeitstellen), G):
+        v, n = _gross(x, art)
+        cur.append(v)
+        if n:
+            notes.append(n)
+    for x, (_, _, art) in zip((vj_bilanzsumme, vj_umsatz, vj_vollzeitstellen), G):
+        if x in (None, ""):
+            vj.append(None)
+        else:
+            v, n = _gross(x, art)
+            vj.append(v)
+            if n:
+                notes.append("Vorjahr " + n)
+    ue = [c > g for c, (_, g, _) in zip(cur, G)]
+    uev = [(v > g) if v is not None else None for v, (_, g, _) in zip(vj, G)]
+    n_cur, n_vj = sum(ue), (sum(bool(x) for x in uev) if all(x is not None for x in uev) else None)
+    if n_vj is None:
+        res = ("Berichtsjahr: " + ("zwei oder mehr Grössen überschritten – Vorjahr nötig" if n_cur >= 2 else "weniger als zwei Grössen überschritten") +
                " → Vorjahreswerte angeben.")
         ordentlich = None if n_cur >= 2 else False
     else:
-        ordentlich = n_cur >= 2 and sum(bool(x) for x in uev) >= 2
-        res = "ORDENTLICHE Revision (Grössenkriterien in zwei aufeinander folgenden Jahren)" if ordentlich else "EINGESCHRÄNKTE Revision (sofern nicht Publikumsgesellschaft/Konzernrechnungspflicht/10 %-Begehren/Opting-up)"
-    out += ["", f"**Ergebnis: {res}**"]
+        ordentlich = n_cur >= 2 and n_vj >= 2
+        res = ("ORDENTLICHE Revision (in beiden Jahren je mindestens zwei Grössen überschritten – auch verschiedene)" if ordentlich else
+               "EINGESCHRÄNKTE Revision (sofern nicht Publikumsgesellschaft, Konzernrechnungspflicht, 10 %-Begehren oder Opting-up)")
+    out = ["# Revisionsart (OR 727 / 727a) – Rechenhilfe", "", f"**Ergebnis: {res}**", ""]
+    if notes:
+        out.append("ℹ️ Eingaben umgerechnet: " + "; ".join(notes) + " – Beträge bitte in CHF angeben.")
+    out += ["| Grösse | Schwelle | Berichtsjahr | überschritten | Vorjahr | überschritten |", "|---|---|---|---|---|---|"]
+    for (n, g, _), c, u, v, uv in zip(G, cur, ue, vj, uev):
+        out.append(f"| {n} | {chf(g)} | {chf(c)} | {'ja' if u else 'nein'} | {chf(v) if v is not None else '?'} | {'?' if uv is None else ('ja' if uv else 'nein')} |")
+    out.append(f"Überschritten: Berichtsjahr {n_cur} von 3 · Vorjahr {n_vj if n_vj is not None else '?'} von 3")
     if ordentlich is False and cur[2] <= 10:
-        out.append(f"Opting-out möglich (≤ 10 Vollzeitstellen): {_r('or727a_eingeschraenkt')}")
-    out += ["", f"- OR 727: {_r('or727_ordentlich')}", "- Weitere Gründe für ordentliche Revision: Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von Aktionären mit 10 % (OR 727 Abs. 1 Ziff. 1/3, Abs. 2) ^[or__art-727]",
-            "- Zuständig: Prüfung bei Auftragsannahme (`prozess p1`); Entscheid WP."]
+        out.append(f"Opting-out möglich (höchstens 10 Vollzeitstellen im betreffenden Geschäftsjahr, Zustimmung sämtlicher Aktionäre, Anmeldung vor Beginn des Geschäftsjahres).")
+    out += ["", "## Regeln (mit Fundstelle)"]
+    for k in ("or727_ordentlich", "hwp_kombination", "or727a_eingeschraenkt", "hwp_optingout_vzs"):
+        r = regel(k)
+        if r:
+            out.append(f"- {r['regel']} ^[{r['quelle']}]")
+    out += ["- Weitere Gründe für ordentliche Revision: Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von Aktionären mit 10 % (OR 727 Abs. 1 Ziff. 1/3, Abs. 2) ^[or__art-727]",
+            "- Prüfung bei Auftragsannahme/-fortführung (`aufgabe auftrag`); Entscheid WP. Kapitalverlust ohne Revisionsstelle (OR 725a Abs. 2) ist eine andere Frage → `aufgabe kapitalschutz`."]
     return "\n".join(out)
 
 
@@ -784,7 +895,10 @@ def _aufgabe_finden(text: str):
         hit = [a for a in ag if str(a.get("prozess")) == m.group(1) and a["id"] in ("mandat-start", "import", "prueffeld", "unterlagen", "rapport", "gvb-bericht", "pdf-akte")]
         if hit:
             return hit[0], pf_aus_text(t)
+    frage = bool(FRAGE.search(t)) or t.rstrip().endswith("?")
     code = pf_aus_text(t)
+    if frage and code and not re.search(r"\b([A-Za-z]{1,3}\d)\b", t):
+        code = None   # Fachfrage mit Stichwort (z.B. «Inventur») → kein Prüffeld-Bündel, sondern Fachkontext
     qt = toks(t)
     kt = " " + " ".join(qt) + " "
     scores = []
@@ -802,7 +916,7 @@ def _aufgabe_finden(text: str):
                         sc += 2
                     elif len(kx) >= 5 and len(w) >= 5 and (w.startswith(kx) or (len(w) >= 7 and kx.startswith(w)) or w[:7] == kx[:7]):
                         sc += 1
-        if a["id"] == "fachfrage" and FRAGE.search(t):
+        if a["id"] == "fachfrage" and frage:
             sc += 1.5
         scores.append((sc, -i, a))
     scores.sort(key=lambda x: (x[0], x[1]), reverse=True)
@@ -814,6 +928,42 @@ def _aufgabe_finden(text: str):
     if best and bs >= 1:
         return best, None
     return None, None
+
+
+def _fachkontext(text: str) -> str:
+    """Für Fachfragen in einem Aufruf: passende Themen, Werte, Regeln und die besten Fundstellen (eingeschränkte Revision zuerst)."""
+    qt = [t for t in toks(text) if len(t) > 2]
+    out = ["## Kontext zur Frage (zuerst lesen; die passendsten Stellen mit `zeige <chunk-id>` im Wortlaut öffnen)"]
+    th = []
+    for t in L().get("themen", []):
+        hay = key(t.get("titel", "") + " " + " ".join(t.get("stichworte", [])))
+        sc = sum(2 if f" {w} " in f" {hay} " else (1 if w[:6] in hay else 0) for w in qt)
+        if sc:
+            th.append((sc, t))
+    for sc, t in sorted(th, key=lambda x: -x[0])[:2]:
+        out += [f"### Thema «{t['titel']}» (`thema {t['id']}`)", cut(t.get("kurz"), 400)]
+        out += [f"- {cut(a['text'], 220)} ^[{a.get('quelle')}]" for a in (t.get("aussagen") or [])[:6]]
+    ws = []
+    for w in L().get("werte", []):
+        hay = key(" ".join(str(w.get(k, "")) for k in ("key", "bezeichnung", "kategorie")))
+        sc = sum(1 for x in qt if x[:6] in hay)
+        if sc >= 2 or (sc and len(qt) <= 2):
+            ws.append((sc, w))
+    if ws:
+        out.append("### Werte")
+        out += [f"- {w['bezeichnung']}: **{w['wert']} {w.get('einheit', '')}** ({w.get('gilt', '')}) ^[{w.get('quelle')}]" for sc, w in sorted(ws, key=lambda x: -x[0])[:5]]
+    rg = []
+    for r in L().get("regeln", []):
+        hay = key(r["regel"])
+        sc = sum(1 for x in qt if x[:6] in hay)
+        if sc >= 2:
+            rg.append((sc, r))
+    if rg:
+        out.append("### Regeln")
+        out += [f"- {r['regel']} ^[{r['quelle']}]" for sc, r in sorted(rg, key=lambda x: -x[0])[:4]]
+    hits = suche(text, n=6).split("\n")
+    out += ["### Beste Fundstellen (Volltext)"] + [h for h in hits[2:] if h.strip() and not h.startswith("Volltext")]
+    return "\n".join(out)
 
 
 def _kette_kurz(kid: str) -> list[str]:
@@ -840,6 +990,12 @@ def aufgabe(text: str | None = None) -> str:
         return aufgabe(None) + f"\n\n(«{text}» keiner Aufgabe zugeordnet – passende id wählen oder `suche` für Fachfragen.)"
     if a["id"] == "pruefschritt":
         return pruefschritt(par)
+    if a["id"] == "fachfrage" and key(text) not in ("fachfrage", "fachfrage beantworten"):
+        return "\n".join([f"# Fachfrage: {cut(text, 160)}",
+                          "Antwort: Ergebnis zuerst · Rechnung mit `rechne`/Rechner · jede Aussage mit Fundstelle ^[chunk-id] aus diesem Kontext · "
+                          "Quellenrang OR > SER > HWP ER > übrige · was der WP entscheidet. Für Prozess-Aufgaben: `aufgabe` ohne Text (Liste).", "",
+                          _fachkontext(text), "",
+                          "Rechner: `kapitalverlust` (OR 725a/b/c) · `revisionspflicht` (OR 727) · `wesentlichkeit` · `rechne`."])
     out = [f"# Aufgabe: {a['titel']}" + (f" – {par} {_pfname(par)}" if par and a['id'] == 'prueffeld' else ""),
            f"Ziel: {a['ziel']}" + (f" ^[{a['quelle']}]" if a.get("quelle") else "")]
     nie = regel("visum").get("regel", "")
@@ -955,9 +1111,10 @@ def main(argv=None):
     x = sub.add_parser("wert"); x.add_argument("begriff", nargs="+")
     x = sub.add_parser("thema"); x.add_argument("begriff", nargs="+")
     x = sub.add_parser("rechne"); x.add_argument("ausdruck", nargs="+")
-    x = sub.add_parser("wesentlichkeit"); x.add_argument("bezugsgroesse"); x.add_argument("satz"); x.add_argument("--toleranz", default=75); x.add_argument("--nichtaufgriff", default=5); x.add_argument("--bezeichnung", default="Bezugsgrösse")
-    x = sub.add_parser("kapitalverlust"); x.add_argument("--aktiven", required=True); x.add_argument("--verbindlichkeiten", required=True); x.add_argument("--aktienkapital", required=True)
-    x.add_argument("--kapitalreserve", default=0); x.add_argument("--gewinnreserve", default=0); x.add_argument("--rangruecktritt", default=0)
+    x = sub.add_parser("wesentlichkeit"); x.add_argument("bezugsgroesse", nargs="?"); x.add_argument("satz", nargs="?"); x.add_argument("--gesamt"); x.add_argument("--toleranz"); x.add_argument("--nichtaufgriff"); x.add_argument("--bezeichnung", default="Bezugsgrösse")
+    x = sub.add_parser("kapitalverlust"); x.add_argument("--aktienkapital", required=True); x.add_argument("--eigenkapital"); x.add_argument("--aktiven"); x.add_argument("--verbindlichkeiten")
+    x.add_argument("--kapitalreserve", default=0); x.add_argument("--gewinnreserve", default=0); x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
+    x.add_argument("--buchwert"); x.add_argument("--verkehrswert")
     x = sub.add_parser("revisionspflicht"); x.add_argument("--bilanzsumme", required=True); x.add_argument("--umsatz", required=True); x.add_argument("--vollzeitstellen", required=True)
     x.add_argument("--vj-bilanzsumme"); x.add_argument("--vj-umsatz"); x.add_argument("--vj-vollzeitstellen")
     a = ap.parse_args(argv)
@@ -979,8 +1136,9 @@ def main(argv=None):
         "wert": lambda: wert(j(a.begriff)),
         "thema": lambda: thema(j(a.begriff)),
         "rechne": lambda: rechne(j(a.ausdruck)),
-        "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse, a.satz, a.toleranz, a.nichtaufgriff, a.bezeichnung),
-        "kapitalverlust": lambda: kapitalverlust(a.aktiven, a.verbindlichkeiten, a.aktienkapital, a.kapitalreserve, a.gewinnreserve, a.rangruecktritt),
+        "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse, a.satz, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
+        "kapitalverlust": lambda: kapitalverlust(a.aktienkapital, a.eigenkapital, a.aktiven, a.verbindlichkeiten, a.kapitalreserve, a.gewinnreserve,
+                                                 a.holding, a.rangruecktritt, a.buchwert, a.verkehrswert),
         "revisionspflicht": lambda: revisionspflicht(a.bilanzsumme, a.umsatz, a.vollzeitstellen, a.vj_bilanzsumme, a.vj_umsatz, a.vj_vollzeitstellen),
     }[c]()
     print(res)
