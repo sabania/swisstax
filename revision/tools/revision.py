@@ -187,6 +187,7 @@ def zeige(ref: str, abschnitt: str | None = None) -> str:
 def _flat(t: str) -> str:
     t = t.replace("­", "").replace("\x08", "").replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     t = t.replace("„", '"').replace("«", '"').replace("»", '"').replace("–", "-").replace("—", "-").replace(" ", " ").replace("\xa0", " ")
+    t = t.replace("\u200b", "").replace("\u00ad", "")
     t = re.sub(r"\*\*|__", "", t)
     return re.sub(r"\s+", " ", t).strip()
 
