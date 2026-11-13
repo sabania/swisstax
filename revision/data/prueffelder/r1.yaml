@@ -470,12 +470,14 @@ schritte:
     zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
 - id: R1-201
   vorgehen: '1) Lohnsumme: AHV-Lohnsumme und Anzahl Personen gemäss Jahreslohnmeldung/Schlussabrechnung mit Lohn + Bonus und Anzahl Personen gemäss Lohnjournal/Personalliste vergleichen
-    (`rechne`). Differenz über der Nichtaufgriffsgrenze oder abweichende Personenzahl → Pendenz «Lohnabstimmung GJ» und Hinweis im Rapport «R1-410/R1-303 angezeigt» (Abgleich je Person
-    nur auf Anweisung). 2) Quoten je Versicherung (AHV/IV/EO/ALV/FAK, BVG, UVG, KTG) und total in % von Lohn + Bonus, GJ und VJ. 3) Richtwert AG-Quote Ausgleichskasse 2025: AHV/IV/EO
-    5,3 % (ohne Obergrenze) + ALV 1,1 % (nur bis 148''200 je Person) + FAK/VK gemäss Abrechnung der Ausgleichskasse (BSV-Übersicht ab 1.1.2025). BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen,
-    sonst Pendenz. Leistungen SV und QSt-Provision separat (brutto). Tabelle im Textfeld. Weicht die Personenzahl ab: Namen in Lohnjournal/Personalliste und AHV-Meldung einzeln vergleichen.
-    Fehlt eine Person mit Lohn ganz in der Meldung, ist das keine «erklärte Differenz»: Beiträge schätzen mit Satz der Schlussabrechnung, Beispiel `rechne "satz = 150000 / 1200000; lohn
-    = 72000; lohn * satz"` (satz = Beiträge total / gemeldete Lohnsumme).'
+    (`rechne`). Differenz über der Nichtaufgriffsgrenze oder abweichende Personenzahl → Pendenz «Lohnabstimmung GJ» und Hinweis im Rapport «R1-410/R1-303 angezeigt» (Namensvergleich bei
+    abweichender Personenzahl hier, siehe unten; Abstimmung der Lohnsummen je Person R1-410/R1-303 nur auf Anweisung). 2) Quoten je Versicherung (AHV/IV/EO/ALV/FAK, BVG, UVG, KTG) und total
+    in % von Lohn + Bonus, GJ und VJ. 3) Richtwert AG-Quote Ausgleichskasse 2025: AHV/IV/EO 5,3 % (ohne Obergrenze) + ALV 1,1 % (nur bis 148''200 je Person) + FAK/VK gemäss Abrechnung der
+    Ausgleichskasse (BSV-Übersicht ab 1.1.2025). BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen, sonst Pendenz. Leistungen SV und QSt-Provision separat (brutto). Tabelle im Textfeld. Weicht
+    die Personenzahl ab: Namen in Lohnjournal/Personalliste und AHV-Meldung einzeln vergleichen. Fehlt eine Person mit Lohn ganz in der Meldung, ist das keine «erklärte Differenz»:
+    Fehlaussage nur aus vorhandenen Unterlagen berechnen (keine Annahmen über fehlende Daten) = Lohn der Person laut Lohnjournal × Beitragssatz laut Schlussabrechnung, Beispiel `rechne "satz
+    = 150000 / 1200000; lohn = 72000; lohn * satz"` (satz = Beiträge total / gemeldete Lohnsumme; Näherung mit Durchschnittssatz, im Textfeld so bezeichnen). Fehlt Lohn oder Satz in den
+    Unterlagen → «Pendenz», nichts schätzen.'
   nachweise:
   - Saldoliste ER GJ/VJ (Lohn-, Bonus- und Sozialversicherungskonten)
   - AHV-Jahreslohnmeldung/Schlussabrechnung (AHV-Lohnsumme, Anzahl Personen)
@@ -519,9 +521,12 @@ schritte:
     zitat: Der Arbeitgeber bezahlt die Sozialversicherungsbeiträge an seine Ausgleichskasse
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
-  notiz: 'Person mit Lohn fehlt in der AHV-Meldung: geschätzte Beiträge ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag Sozialversicherungsaufwand an Kontokorrent
-    Ausgleichskasse (ohne Verbuchung), sonst nur Textfeld; zusätzlich «Schlussbesprechung» (Nachmeldung). Übrige unerklärte Lohnsummen- oder Quotenabweichung → «Pendenz» und Hinweis
-    im Rapport (R1-410/R1-303 angezeigt). Meldung oder Schlussabrechnung nicht gefunden → «Pendenz» mit durchsuchten Ordnern.'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
+  notiz: 'Person mit Lohn fehlt in der AHV-Meldung: berechnete Beiträge (Lohn laut Lohnjournal × Satz laut Schlussabrechnung) ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit
+    Buchungsvorschlag Sozialversicherungsaufwand an Kontokorrent Ausgleichskasse (ohne Verbuchung), darunter nur Textfeld (ausser qualitative Faktoren/besondere Umstände in 3.3 erfasst →
+    Notiz auch darunter); zusätzlich «Schlussbesprechung» (Nachmeldung). Übrige unerklärte Lohnsummen- oder Quotenabweichung → «Pendenz» und Hinweis im Rapport (R1-410/R1-303 angezeigt).
+    Meldung oder Schlussabrechnung nicht gefunden → «Pendenz» mit durchsuchten Ordnern.'
 - id: R1-202
   vorgehen: Personalaufwand je Konto GJ vs. VJ und vs. Budget gegenüberstellen; Erwartungswert aus Personalbestand (FTE GJ/VJ, Ein-/Austritte), Lohnrunde und Bonusregelung herleiten;
     FTE VJ aus Vorjahresakte in M-Files, sonst Pendenz. Unerwartete oder unübliche Entwicklungen (z.B. Spesen, übriger Personalaufwand, Leistungen SV) mit Kontoblatt/Belegen klären oder
@@ -568,17 +573,20 @@ schritte:
   - quelle: hwp-bur-2023__rz-0822-s344
     zitat: Für die Berechnung des Jahresdurchschnitts der Vollzeitstellen kann je nach Saisonalität vom Stand an den Monats- oder Quartalsenden ausgegangen werden.
 - id: R1-301
-  vorgehen: 'Jahrestotale des Lohnjournals je Lohnart (Bruttolohn, Bonus, Zulagen, AN-/AG-Beiträge, QSt) mit den Salden der Hauptbuchkonten (Lohnaufwand, Bonus, Sozialleistungen, Kontokorrente
-    Sozialversicherungen, Lohnsammelkonto) abstimmen. Differenzen je Konto ausweisen und Ursache (Abgrenzungen, manuelle Buchungen) klären; Abstimmungstabelle im Textfeld, unerklärte
-    Differenzen als Pendenz. Konkret: (1) Kontoblatt Lohnaufwand lesen und alle Buchungen mit Gegenkonto ≠ Lohnsammelkonto (Abgrenzungen, Umbuchungen, Abschlussbuchungen per 31.12.,
-    z.B. gegen passive Rechnungsabgrenzung oder Kontokorrente) auflisten; (2) Hauptbuchsaldo um deren Nettosumme (Soll − Haben) bereinigen und erst dann mit dem Lohnjournal vergleichen.
-    Stimmen Hauptbuch und Lohnjournal ohne Bereinigung genau überein, obwohl diese Nettosumme ≠ 0 ist, besteht eine Differenz in deren Höhe – nicht «abgestimmt».'
+  vorgehen: 'Jahrestotale des Lohnjournals je Lohnart (Bruttolohn, Bonus, Zulagen, AN-/AG-Beiträge, QSt) mit den Salden der Hauptbuchkonten (Lohnaufwand, Bonus, Sozialleistungen,
+    Kontokorrente Sozialversicherungen, Lohnsammelkonto) abstimmen. Differenzen je Konto ausweisen und Ursache (Abgrenzungen, manuelle Buchungen) klären; Abstimmungstabelle im Textfeld,
+    unerklärte Differenzen als Pendenz. Konkret: (1) Kontoblatt Lohnaufwand lesen und alle Buchungen auflisten, die nicht aus der Lohnverarbeitung stammen (Abgrenzungen, Umbuchungen,
+    Abschlussbuchungen per 31.12.; erkennbar am Gegenkonto – z.B. passive Rechnungsabgrenzung, Rückstellung, Kontokorrent ausserhalb des Lohnlaufs – bzw. am Buchungstext). Mit
+    Lohnsammelkonto: alle Buchungen mit Gegenkonto ≠ Lohnsammelkonto. Ohne Lohnsammelkonto (Lohnlauf direkt gegen Bank bzw. Kontokorrente Sozialversicherungen): die Lohnlauf-Buchungen über
+    die Lohnbuchungsbelege (Verbuchungsjournal der Lohnsoftware) identifizieren und nur die übrigen auflisten; lassen sie sich nicht eindeutig trennen → «Pendenz» (Lohnbuchungsbeleg
+    anfordern); (2) Hauptbuchsaldo um deren Nettosumme (Soll − Haben) bereinigen und erst dann mit dem Lohnjournal vergleichen. Stimmen Hauptbuch und Lohnjournal ohne Bereinigung genau
+    überein, obwohl diese Nettosumme ≠ 0 ist, besteht eine Differenz in deren Höhe – nicht «abgestimmt».'
   nachweise:
   - Jahreslohnjournal/Lohnartenjournal
   - Saldoliste bzw. Kontoblätter Personalkonten
   - Kontoblatt Lohnsammelkonto
   rechnen: 'Σ Bruttolohn + Bonus gemäss Lohnjournal = Saldo Lohnaufwand + Bonus Hauptbuch (± dokumentierte Abgrenzungen); Saldo Lohnsammelkonto 31.12. ≈ 0 bzw. erklärt; Bereinigt, Beispiel:
-    `rechne "hb = 1300000; abgr = 25000; lj = 1275000; hb - abgr - lj"` (abgr = Nettosumme der Buchungen mit Gegenkonto ≠ Lohnsammelkonto; 0 = abgestimmt).'
+    `rechne "hb = 1300000; abgr = 25000; lj = 1275000; hb - abgr - lj"` (abgr = Nettosumme der Buchungen, die nicht aus der Lohnverarbeitung stammen; 0 = abgestimmt).'
   feststellung_wenn: Unerklärte Differenz Lohnbuchhaltung–Hauptbuch über der Nichtaufgriffsgrenze oder Lohnsammelkonto mit unerklärtem Saldo → Notiz «Wesentliche Feststellungen» mit
     Buchungsvorschlag (keine Verbuchung).
   fundstellen:
@@ -592,15 +600,18 @@ schritte:
     zitat: dass er verdächtige Umstände übersieht oder übermässig verallgemeinert
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
-  notiz: Unerklärte Differenz ≥ Nichtaufgriffsgrenze oder Restsaldo Lohnsammelkonto → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); darunter nur Textfeld. Lohnjournal
-    oder Kontoblatt nicht gefunden → «Pendenz» mit durchsuchten Ordnern.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
+  notiz: 'Unerklärte Differenz ≥ Nichtaufgriffsgrenze oder Restsaldo Lohnsammelkonto → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); darunter nur Textfeld (ausser
+    qualitative Faktoren/besondere Umstände in 3.3 erfasst → Notiz auch darunter). Lohnjournal oder Kontoblatt nicht gefunden → «Pendenz» mit durchsuchten Ordnern.'
 - id: R1-302
-  vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld. Hinweise aus R1-201/R1-301 als Notiz «Schlussbesprechung» bzw. «Pendenz»; vorhandene Schlussabrechnungen
-    trotzdem auswerten (Praxis/intern – Entscheid consis): Saldo Schlussabrechnung (Beiträge total − Akonto) mit Saldo Kontokorrent 31.12. vergleichen bzw. Ergebnis aus M1-201/M1-301
-    übernehmen; Differenz nur als Notiz (≥ Nichtaufgriffsgrenze «Wesentliche Feststellungen» mit Buchungsvorschlag; darunter nur, wenn ungeklärt, «Pendenz»); im Rapport «nicht bearbeitet
-    – WP-Schritt». Mit Anweisung (als «Vorbereitung für WP»): Je Versicherung (AHV/FAK, UVG/UVGZ, KTG, BVG, QSt) Schlussabrechnung bzw. definitive Lohnsummendeklaration in M-Files suchen
-    und Saldo (Nachzahlung/Guthaben) mit Kontokorrent- bzw. Abgrenzungssaldo per 31.12. vergleichen. Überfällige SV-/BVG-Saldi (Überweisungsfrist Art. 331 Abs. 3 OR) als Hinweis Fortführung
-    an WP. Fehlende Abrechnungen als Pendenz; Beurteilung durch WP.'
+  vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld. Hinweise aus R1-201/R1-301 als Notiz «Schlussbesprechung» bzw. «Pendenz»; vorhandene
+    Schlussabrechnungen trotzdem auswerten (Praxis/intern – Entscheid consis): Saldo Schlussabrechnung (Beiträge total − Akonto) mit Saldo Kontokorrent 31.12. vergleichen bzw. Ergebnis aus
+    M1-201/M1-301 übernehmen. Die Differenz ist eine Feststellung von M1-301 (EP-Schritt; dort ≥ Nichtaufgriffsgrenze «Wesentliche Feststellungen» mit Buchungsvorschlag, einmal erfassen und
+    einmal kumulieren, A1-203/P1-313); ist sie dort noch nicht erfasst, in M1-301 erfassen. Hier keine zweite Notiz, nur Verweis auf die Notiz aus M1-301; weitere Punkte für den WP als Notiz
+    «Schlussbesprechung» bzw. «Pendenz»; im Rapport «nicht bearbeitet – WP-Schritt». Mit Anweisung (als «Vorbereitung für WP»): Je Versicherung (AHV/FAK, UVG/UVGZ, KTG, BVG, QSt)
+    Schlussabrechnung bzw. definitive Lohnsummendeklaration in M-Files suchen und Saldo (Nachzahlung/Guthaben) mit Kontokorrent- bzw. Abgrenzungssaldo per 31.12. vergleichen. Überfällige
+    SV-/BVG-Saldi (Überweisungsfrist Art. 331 Abs. 3 OR) als Hinweis Fortführung an WP. Fehlende Abrechnungen als Pendenz; Beurteilung durch WP.'
   nachweise:
   - AHV-Schlussabrechnung
   - BVG-Jahresabrechnung
@@ -608,8 +619,8 @@ schritte:
   - Quellensteuer-Abrechnung Dezember/Jahr
   - Kontoblätter Kontokorrente Sozialversicherungen und Quellensteuer
   rechnen: 'Je Versicherung: Saldo Schlussabrechnung (Beiträge total − Akonto) = Bilanzsaldo Kontokorrent/Abgrenzung 31.12.; Differenz = Abgrenzungsfehler'
-  feststellung_wenn: Nachzahlung/Guthaben aus Schlussabrechnung nicht bzw. falsch abgegrenzt oder Kontokorrent mit unerklärtem bzw. überfälligem Saldo → Notiz «Wesentliche Feststellungen»
-    mit Buchungsvorschlag (keine Verbuchung).
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Nachzahlung/Guthaben aus Schlussabrechnung nicht bzw. falsch abgegrenzt oder Kontokorrent mit unerklärtem bzw. überfälligem Saldo →
+    Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag (keine Verbuchung). Ist dieselbe Differenz bereits in M1-301 erfasst, nur Verweis (keine zweite Feststellung).'
   fundstellen:
   - quelle: hwp-bur-2023__rz-0048-s066
     zitat: der vollständigen Erfassung aller Verbindlichkeiten, passiven Rechnungsabgrenzungen und Rückstellungen

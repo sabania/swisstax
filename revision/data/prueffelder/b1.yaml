@@ -9,8 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 18
     korrigiert: true
-kurzbeschrieb: 'Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgeld bis 3 Monate, Bankchecks; kurzfristige Aktiven mit Marktpreis. Nicht: WIR-Verrechnung,
-  Anbieter ohne Banklizenz (Entscheid WP). SER: Abstimmung Auszüge, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.'
+kurzbeschrieb: 'Kasse, Sichtguthaben Post/Bank, Festgeld ≤ 3 Monate, Bankchecks; Wertschriften, Edelmetalle, Krypto mit Marktpreis. Nicht: WIR-Verrechnung (WIR bar zählt), Anbieter ohne
+  Banklizenz (Entscheid WP). SER: Abstimmung mit internen Unterlagen, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.'
 gesetz:
 - thema: 'Mindestgliederung: Bilanzposition flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs (Art. 959a Abs. 1 Ziff. 1 lit. a OR)'
   quelle: or__art-959a-t1
@@ -550,13 +550,14 @@ schritte:
     (Entscheid WP). Verpfändete Konten bleiben B1 (nur Anhang, B1-101/B1-320). Zuordnung Nachweis → Konto: jede Zeile von Bankauszug bzw. vorhandener Bankbestätigung über Bank, Währung
     und IBAN/Kontobezeichnung einem HB-Konto zuordnen; Ziffern der IBAN sind keine Kontonummern des Kontenplans. «Konto nicht erfasst» erst nach Suche über die ganze Saldoliste (Kautions-/Sperrkonten
     können unter übrigen Forderungen oder Finanzanlagen stehen). Eine vom Unternehmen eingeholte Bankbestätigung, die schon in der Akte liegt, hier auswerten – das ist kein Einholen
-    (Praxis/intern, Entscheid consis).'
+    (Unterlage des Kunden, HWP ER Rz 137).'
   nachweise:
   - Saldoliste/Hauptbuch
   - Kassabuch und Kassenaufnahmeprotokoll
   - Bank-/PC-Auszüge per 31.12.
   - Festgeldbestätigungen
   - Depotauszug per 31.12.
+  - Vorhandene, vom Unternehmen eingeholte Bankbestätigungen (falls in der Akte)
   rechnen: 'Je Konto: Saldo Hauptbuch 31.12. = Saldo Nachweis ± Überleitungsposten; Summe Konten flüssige Mittel = Bilanzposition; Festgeld: Fälligkeitsdatum ≤ 31.03. des Folgejahres
     (Restlaufzeit ≤ 3 Monate ab 31.12.)'
   feststellung_wenn: 'Differenz Buch-/Nachweissaldo ohne Überleitung: unter der Nichtaufgriffsgrenze (revio 3.3) nur im Textfeld protokollieren, ab NAG Notiz «Wesentliche Feststellungen»
@@ -585,6 +586,8 @@ schritte:
     zitat: Nicht zu den flüssigen Mitteln gehören Verrechnungsforderungen gegenüber der WIR-Bank
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Es handelt sich um Dokumente, welche beim Prüfungskunden vorliegen und folglich der Abschlussprüfer für die eingeschränkte Revision verwenden kann.
 - id: B1-302
   vorgehen: 'Für jedes Fremdwährungskonto einzeln (Kasse, Bank, auch Zahlungsdienst-/Online-Konten in FW): FW-Saldo laut Auszug, CHF-Buchwert laut HB und gebuchten Kurs ermitteln (Kurs
     Buchhaltung = CHF-Buchwert ÷ FW-Saldo; Buchung «Kursbewertung»/«Kursdifferenz» im Kontoblatt suchen). Stichtagskurs aus Bankauszug oder Kursliste per 31.12. (CHF je 1 FW-Einheit;
@@ -850,10 +853,12 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c006-1
     zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
 - id: B1-401
-  vorgehen: 'Gilt für das Einholen von Bankbestätigungen. Eine vom Unternehmen eingeholte Bestätigung, die schon in der Akte liegt, wird ohne Anweisung in B1-301 (Saldi), B1-101/B1-320
-    (Sicherheiten, Garantien) und C1-102 (Zession) ausgewertet (Praxis/intern, Entscheid consis). Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht
-    bearbeitet – nur auf Anweisung», keine Pendenz. Keine eigenen Bankbestätigungen anfordern. Vom Unternehmen eingeholte Bestätigungen: Herkunft dokumentieren, je Bank Konten, Salden,
-    Kredite, Garantien, Sicherheiten mit Hauptbuch und Anhang abgleichen. Fehlen sie: als nicht anwendbar vorschlagen (Entscheid WP); Vollständigkeit über Auszüge/Antworten belegen.'
+  vorgehen: 'Nur auf Anweisung des WP: systematischer Abgleich aller Positionen je Bank anhand von Bankbestätigungen (Konten, Salden, Kredite, Limiten, Garantien, Sicherheiten mit Hauptbuch
+    und Anhang). Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Keine eigenen Bankbestätigungen anfordern. Abgrenzung: Eine
+    vom Unternehmen eingeholte Bestätigung, die schon in der Akte liegt, ist eine Unterlage des Kunden (HWP ER Rz 137) und wird ohne Anweisung in den zugehörigen Schritten ausgewertet
+    – B1-301 (Saldi, Vollständigkeit der Konti), B1-101/B1-320 (Verpfändungen, Sicherheiten, Garantien), C1-102 (Zession), L1-102/L1-301/L1-303 (Kredite, Limiten, Sicherheiten). Mit
+    Anweisung: Herkunft dokumentieren, je Bank alle Positionen abgleichen. Fehlen Bestätigungen: als nicht anwendbar vorschlagen (Entscheid WP); Vollständigkeit über Auszüge/Antworten
+    belegen.'
   nachweise:
   - Vom Unternehmen eingeholte Bankbestätigungen
   - Hauptbuch/Saldoliste
@@ -868,6 +873,8 @@ schritte:
   - quelle: hwp-er-2026__rz-0137-s203
     zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat, kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise
       beiziehen
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Es handelt sich um Dokumente, welche beim Prüfungskunden vorliegen und folglich der Abschlussprüfer für die eingeschränkte Revision verwenden kann.
   - quelle: ser-2022__anh-d-s074-1
     zitat: Prüfungshandlungen, die nicht Bestandteil einer eingeschränkten Revision darstellen
   - quelle: ser-2022__anh-d-s074-2

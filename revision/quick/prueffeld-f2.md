@@ -11,7 +11,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 07e062963ffe1797aa8ebfa95bee356f8e67706ee81e906c3b6911f0b2e92ed1
+quelle_sha: 7e7486453d9b4568e67a5e589bbd57a54c7f4c43e535872d26e97555322c68f9
 ---
 
 
@@ -96,7 +96,7 @@ Nicht fakturierte Dienstleistungen/angefangene Arbeiten (Art. 959a OR) inkl. Anz
 - Praxis/intern: Anzahlungen werden oft im Prüffeld übrige kurzfristige Verbindlichkeiten geführt; Zuordnung je Projekt mit F2 abstimmen, um Doppel- oder Fehlbeurteilungen zu vermeiden.
 - Abnahme bzw. Fertigstellung vor dem Stichtag ist kein Ereignis nach dem Bilanzstichtag: Der Ertrag ist realisiert, sobald ein Entschädigungsanspruch durchsetzbar ist – auch wenn die Schlussrechnung erst im Folgejahr gestellt wird. Im Prüfjahr erfassen (F2-302). Spätere Belege liefern nur Nachweise; massgebend ist, ob der Sachverhalt am Stichtag bestand. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0745-s315.md) · [HWP ER S. 254](../chunks/hwp-er-2026/hwp-er-2026__rz-0317-s254.md)
 - Akonto-/Vorauszahlungsrechnungen für noch nicht erbrachte Leistungen (z.B. Leistungen des Folgejahres) sind weder Ertrag noch Forderung aus L+L: Anzahlungen werden erst bei Zahlungseingang bilanziert. Unbezahlte, als Ertrag/Debitor gebuchte Akontorechnung → Feststellung (Storno vorschlagen); bezahlte → erhaltene Anzahlung, nicht Ertrag. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
-- Verlustprojekte: Marge jeder Zeile der Projektliste mit `rechne` prüfen (Auftragswert − Kosten − Restkosten), nicht nur Totale oder die vom Kunden markierten Projekte. Ein sich abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
+- Verlustprojekte: Marge jeder Zeile der Projektliste mit `rechne` prüfen (Auftragswert − Kosten − Restkosten), nicht nur Totale oder die vom Kunden markierten Projekte. Ein sich abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung. −Marge ist nur der Verlustindikator; WB-Bedarf und Rückstellung ab dem Bilanzwert rechnen (F2-105). — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

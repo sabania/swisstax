@@ -32,11 +32,14 @@ revio ist proprietär – nicht weitergeben. Diese Datei ist das Regelwerk für 
 | Daten | `data/katalog.yaml` (538 Schritte), `data/prueffelder/<code>.yaml`, `data/prozess/<p>.yaml`, `data/werte.yaml`, `data/regeln.yaml`, `data/themen.yaml`, `data/revio/` | Agent (Workflow mit Zweitprüfung) + WP |
 | Quick | `quick/` | Index, Prüffelder, Prozess, Regeln, Werte, revio, PBC, Kundenfragen | `tools/build_quick.py` |
 | Detail | `wiki/prueffelder/`, `wiki/prozess/`, `wiki/themen/`, `wiki/revio/`, `wiki/quellen.md` | generiert (mit allen Zitaten) | `tools/build_quick.py` |
-| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (16 Tools), `skills/`, `openclaw/` (`revio-tool-policy.json` aus der OpenClaw-Liste) | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
+| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (17 Tools, u.a. `aufgabe`, `akte`), `skills/`, `openclaw/` (`revio-tool-policy.json` aus der OpenClaw-Liste, `openclaw-tools-empfehlung.json`) | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
 | Test | `eval/` | Testakte (fiktiv), Referenzlösung, Fragen, Messungen | Agent |
 
 ## 3. Anfragen beantworten (Routing)
 1. **Werkzeug zuerst:** `python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"` (Übersicht: `hilfe`) bzw. Tools `revisionswiki__…`.
+   Mehrere Prüffelder im Auftrag → alle Bündel + eine Statustabelle; Block «Arbeitsregeln Akte» gilt für jede Aufgabe.
+1a. **Mandantenakte:** `akte <pfad> --vj <vj-pfad>` (Übersicht) → `--pf <code>` → `--suche "a|b"` · grosse Dateien `--inhalt` /
+   `--abschnitt` / `--datei --von` (nur lesen, nichts speichern). «Fehlt» erst nach `--suche` über GJ- und VJ-Akte.
 2. Prüfschritt → `pruefschritt <id>`; Prüffeld → `prueffeld <code|stichwort>`; Ablauf/WP-Entscheid → `prozess [p1…p8]`, `regeln`;
    revio → `revio <bereich|code|id|stichwort|werkzeug|ketten|nur-mensch>`; Zahl → `wert`; Rechnen → `rechne`, `wesentlichkeit`,
    `kapitalverlust`, `revisionspflicht`; Thema → `thema`; sonst `suche` → `zeige`.
@@ -52,8 +55,15 @@ Fliesstext `^[chunk-id]`; Daten: `quelle: <chunk-id>` + `zitat: "<wörtlich>"` �
   nachführen (neue Werkzeuge = `unklar`, bis geprüft) → `tools/lint.py` (meldet unbekannte/unklassifizierte Werkzeuge).
 - **Erfassung mit Agenten:** Workflows mit Zweitprüfung; Ergebnisse mit `tools/build_data.py --runs <workflow-dir>` übernehmen
   (Zitate werden geprüft/repariert, Bericht `reports/import-*.md`).
+- **Einzelne Themen / Prüfen einzelner Dateien:** `tools/build_data.py --thema <id …>` (ruft am Ende `build_quick.py` auf; abschalten mit
+  `--ohne-build`) · `tools/lint.py --datei <pfad …>` (nur diese Dateien; `reports/lint.md` bleibt unverändert).
 - **Plugin:** `python3 revision/tools/build_plugin.py --version x.y.z` (Ausgabe `plugins/revisionswiki`), Version in
   `.claude-plugin/marketplace.json` nachführen.
+- **OpenClaw-Werkzeugrechte:** `openclaw/openclaw-tools-empfehlung.json` (Block `tools` in die Agent-Konfiguration übernehmen) sperrt
+  die eingebauten Gruppen `group:messaging` (message), `group:web` (web_search, x_search, web_fetch), `group:automation` (Cron,
+  Gateway, Plugins) und `group:nodes`: Der Agent versendet nichts an Kunden (E-Mail nur an die freigegebene WP-Adresse bzw. als
+  Entwurf, Regel `email`) und gibt Mandatsdaten nie in externe KI/Websuche (Regel `geheimnis_ki`; OR 730b Abs. 2, StGB 321). Ob
+  `browser` (group:ui) ebenfalls gesperrt wird, entscheidet consis. revio-MCP-Werkzeuge: `openclaw/revio-tool-policy.json`.
 
 ## 6. Log
 `log.md` chronologisch, nur anhängen: `## [YYYY-MM-DD] <ingest|daten|lint|eval|plugin> | <Titel>` + 1–5 Zeilen.

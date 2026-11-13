@@ -318,8 +318,9 @@ fallstricke:
     höchstens auf ausdrückliche Anweisung des WP.
   quelle: ser-2022__anh-d-s087-1
   zitat: Einholen von Bestätigungen
-- text: 'Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut)
-    → «Wesentliche Feststellungen» mit Buchungsvorschlag. Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in M3-321).'
+- text: 'Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut).
+    Differenz mit `rechne`: ≥ NAG (bzw. kleiner, wenn in 3.3 qualitative Faktoren erfasst sind) → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); < NAG nur Textfeld.
+    Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in M3-321).'
   quelle: or__art-960e
   zitat: so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung gebildet werden
   fundstellen:
@@ -329,13 +330,19 @@ fallstricke:
   - M3-301
   - M3-304
   - M3-321
-- text: 'Begriffe nicht vertauschen: bestmögliche Schätzung = wahrscheinlichster Betrag inkl. Prozesskosten; das obere Ende der Bandbreite ist der Vorsichtswert. Beide Werte getrennt
-    mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in den Unterlagen stehen.'
+- text: 'Begriffe nicht vertauschen: Die Höhe wird nach bestmöglicher Schätzung bemessen; das obere Ende der Bandbreite ist der Vorsichtswert. Grosse Grundgesamtheit (z.B. Garantien):
+    Erwartungswert. Einzelrisiko (z.B. Rechtsfall): Praxis/intern – wahrscheinlichster Betrag inkl. zu erwartender Verfahrenskosten (Prozesskosten gehören zur Verpflichtung, HWP BuR
+    Rz 526). Schätzwert und oberes Ende der Bandbreite getrennt mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in
+    den Unterlagen stehen.'
   quelle: hwp-bur-2023__rz-0516-s261
   zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0515-s261
+    zitat: bei einer grossen Grundgesamtheit beispielsweise mithilfe einer mathematischen Formel, die den Wahrscheinlichkeitsgrad berücksichtigt (Erwartungswert)
+  - quelle: hwp-bur-2023__rz-0515-s261
     zitat: dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist
+  - quelle: hwp-bur-2023__rz-0526-s263
+    zitat: Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
   - quelle: konzept-ki-revisionsagent-2026__c005-1
     zitat: fehlende Daten dürfen nicht erfunden werden
   schritte:
@@ -457,8 +464,9 @@ schritte:
   vorgehen: 'Detailliste der passiven Abgrenzungen und Rückstellungsspiegel beschaffen, Summen nachrechnen und mit Saldoliste/Bilanz abstimmen. Kritische Durchsicht: Gläubiger, Leistungszeitraum,
     Grundlage, Fristigkeit, Klassierung; mit Kreditoren-OP-Liste auf Doppelerfassung abgleichen; pauschale, runde oder unbelegte Positionen und offensichtlich Fehlendes (Revisionshonorar,
     Steuern, Ferien) markieren. Ferien/Überzeit: Liegt eine Saldenliste je Mitarbeiter in der Akte und kein Ergebnis aus R1, Abgrenzung mit `rechne` plausibilisieren (inkl. Arbeitgeber-Sozialleistungen).
-    Liegen Kreditorenjournal/Kontoblätter des Folgejahres bereits in der Akte: Rechnungen und Gutschriften mit Leistungsdatum ≤ Stichtag gegen Detailliste und Kreditoren-OP-Liste abgleichen
-    (Auswertung vorhandener Unterlagen, Praxis/intern; die systematische Kontendurchsicht neue Rechnung ist M3-305, WP).'
+    Folgejahresunterlagen (Kreditorenjournal, Kontoblätter, Zahlungen neue Rechnung) hier nicht durchsehen – die Kontendurchsicht in neuer Rechnung ist weiter gehend (M3-305, WP-Schritt);
+    liegen sie in der Akte → Notiz «Pendenz» mit Vorschlag «M3-305 anordnen?». Fällt beim Lesen anderer Schritte eine Rechnung für Leistung ≤ Stichtag ohne Abgrenzung/Kreditor auf:
+    nur als Hinweis an den WP (Notiz «Pendenz» bzw. «Schlussbesprechung» mit Beleg und Betrag), keine «Wesentliche Feststellungen» ohne Anweisung.'
   nachweise:
   - Detailliste passive Rechnungsabgrenzungen
   - Rückstellungsspiegel
@@ -469,7 +477,7 @@ schritte:
     Ferien/Überzeit: Soll = Σ je Mitarbeiter (Guthaben Std. × Stundenlohn) × (1 + AG-Satz); AG-Satz = Arbeitgeber-Sozialversicherungsaufwand / Bruttolohnsumme (Saldoliste bzw. Lohnjournal,
     sonst Satz der VJ-Berechnung; Praxis/intern); Differenz = Soll − gebuchte Abgrenzung'
   feststellung_wenn: Differenz Detailliste/Spiegel zu Saldo, keine Detailliste, Position ohne Grundlage, Doppelerfassung mit Kreditor, falsche Fristigkeit/Klassierung oder offensichtlich
-    fehlende Abgrenzung. Ferienabgrenzung pauschal oder ohne Sozialleistungen; Rechnung des Folgejahres für Leistung ≤ Stichtag ohne Abgrenzung/Kreditor.
+    fehlende Abgrenzung. Ferienabgrenzung pauschal oder ohne Sozialleistungen.
   fundstellen:
   - quelle: ser-2022__anh-d-s088-1
     zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht
@@ -483,8 +491,6 @@ schritte:
     zitat: der Verhinderung der mehrfachen Erfassung von Belegen
   - quelle: qa-or-rechnungslegung-2026__2-2-t1
     zitat: Multiplikation (pro Mitarbeiter) der Ferien- oder Überzeitguthaben in Stunden mit dem Stundensatz für Lohnkosten, Sozialleistungen etc.
-  - quelle: ser-2022__anh-d-s087-1
-    zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
   notiz: 'Eine Notiz je Sachverhalt (nicht doppelt in mehreren Kategorien): Bewertungsfehler mit Ergebniswirkung ≥ NAG (fehlende oder zu tiefe Abgrenzung/Rückstellung, Ferien ohne Sozialleistungen)
     → «Wesentliche Feststellungen» mit Buchungsvorschlag (Aufwand an pRA/Rückstellung; ohne Verbuchung); < NAG nur Textfeld. Reiner Ausweis ohne Ergebniswirkung (z.B. Ferien unter Rückstellungen)
     → «Schlussbesprechung». Fehlende Liste oder Unterlage → «Pendenz» (Konto, Datum, Betrag).'

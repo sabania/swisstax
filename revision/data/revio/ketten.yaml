@@ -511,7 +511,8 @@ ketten:
     nur nach Entscheid consis. Offen: Skala von priority; Bedeutung von showOutsideDossier.'
 - id: K8
   aufgabe: 'Unterlagen zum Abschluss: Protokoll in 10.9 ablegen, fehlende Unterlagen als Pendenz «PBC-Vorschlag» (PBC-Liste 10.10 erst nach Entscheid consis)'
-  wann: 'Prozess 3, nach K1: Protokoll Vorjahr (GV/VR) aus M-Files beschaffen und Zugehörigkeit prüfen; fehlende Unterlagen aus allen Prüffeldern sammeln'
+  wann: 'Prozess 3, nach K1: «Protokoll Vorjahr» = Protokoll der oGV im GJ über die Vorjahresrechnung plus alle ao GV und VR-Protokolle/Zirkularbeschlüsse
+    des GJ; Suchweg: Belegverzeichnis → Suche in GJ und VJ → erst dann «fehlt»; Zugehörigkeit prüfen; fehlende Unterlagen aus allen Prüffeldern sammeln'
   prozess: '3'
   schritte:
   - werkzeug: rv_get_workpapers_LoadContainerDocuments_by_areaId

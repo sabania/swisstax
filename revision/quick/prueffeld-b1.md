@@ -12,7 +12,7 @@ quellen:
 - vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 0538087eef4545adb5d6d8e781220d4dc782ba2d4a4d031959ec2cb6243e7599
+quelle_sha: 776d18eec54f9555aa2dfcb23e4efd277d04df220a8226f458d524ddb768871f
 ---
 
 
@@ -20,7 +20,7 @@ quelle_sha: 0538087eef4545adb5d6d8e781220d4dc782ba2d4a4d031959ec2cb6243e7599
 
 revio Bereich 4 · 22 Schritte (Befragung 2, Analytisch 2, Detail 12, Sonstige 6; EP 4, WP 5) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/b1.md](../wiki/prueffelder/b1.md)
 
-Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgeld bis 3 Monate, Bankchecks; kurzfristige Aktiven mit Marktpreis. Nicht: WIR-Verrechnung, Anbieter ohne Banklizenz (Entscheid WP). SER: Abstimmung Auszüge, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.
+Kasse, Sichtguthaben Post/Bank, Festgeld ≤ 3 Monate, Bankchecks; Wertschriften, Edelmetalle, Krypto mit Marktpreis. Nicht: WIR-Verrechnung (WIR bar zählt), Anbieter ohne Banklizenz (Entscheid WP). SER: Abstimmung mit internen Unterlagen, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.
 
 ## Risiken
 - Ausgewiesene Guthaben bestehen nicht oder nicht in dieser Höhe (fehlende Abstimmung mit Auszug, Kassabuch, Depotauszug per Stichtag). [EX] — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
@@ -147,7 +147,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | B1-310 | Detail | WP | RV | nur_mensch | Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
 | B1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben aus diesem Prüffeld prüfen: verpfändete/abgetretene Aktiven (Art. 959c Abs. 2 Ziff. 9 OR), Sicherheiten für Dritte (Ziff. 8), bei… |
 | B1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakten lesen (revio Dauerakten, M-Files) und mit aktuellen Bankverträgen, Kontenliste (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträgen… |
-| B1-401 | Sonstige |  | EX RV VO BE PA DO RI | auf_anweisung | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Gilt für das Einholen von Bankbestätigungen. Eine vom Unternehmen eingeholte Bestätigung, die schon in der Akte liegt, wird ohne Anweisung in B1-301 (Saldi)… |
+| B1-401 | Sonstige |  | EX RV VO BE PA DO RI | auf_anweisung | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Nur auf Anweisung des WP: systematischer Abgleich aller Positionen je Bank anhand von Bankbestätigungen (Konten, Salden, Kredite, Limiten, Garantien… |
 | B1-402 | Sonstige |  | BE | auf_anweisung | Beurteilung der Bankenbonität | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Je Bank bzw.… |
 | B1-404 | Sonstige |  | EX RV EN | auf_anweisung | Prüfung Ein- und Ausgänge anhand von Belegen | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Stichprobe von Ein- und… |
 | B1-405 | Sonstige |  | EX RV EN PA | auf_anweisung | Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Für ausgewählte… |

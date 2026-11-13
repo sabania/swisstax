@@ -9,8 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 16
     korrigiert: true
-kurzbeschrieb: 'Schlussarbeiten zur JR: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE); Gesamtanalytik (Going Concern, Kapitalverlust/Überschuldung/Rangrücktritte, nicht
-  korrigierte Fehler, stille Reserven); Abstimmungen (Unterzeichnung, VJ-Vortrag, HB↔JR, Gliederung, Ergebnis↔Antrag, Protokolle).'
+kurzbeschrieb: 'Schlussarbeiten: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE); Gesamtanalytik (Going Concern, Kapitalverlust/Überschuldung/Rangrücktritt, GoR, unkorrigierte
+  Fehler, stille Reserven); Abstimmungen (Unterschrift, VJ-Vortrag, HB↔JR, Gliederung, Ergebnis↔Antrag, Protokolle, ggf. GFR).'
 gesetz:
 - thema: Zweck der Rechnungslegung (zuverlässiges Urteil Dritter)
   quelle: or__art-958
@@ -487,8 +487,9 @@ fallstricke:
 - text: 'Verstoss gegen das Covid-19-SBüG: Der Agent meldet nur (Notiz, Rapport). Frist setzen sowie GV und Bürgschaftsorganisation informieren ist Sache des WP.'
   quelle: covid-sbueg__art-23
   zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
-- text: 'Vorjahresvortrag: Der Bilanzgewinn/-verlust der VJ-Bilanz enthält das VJ-Ergebnis bereits. «Vortrag VJ + Ergebnis VJ» nur auf den Vortrag vor Ergebnis anwenden; eine Differenz
-    genau in Höhe des VJ-Ergebnisses ist meist eine eigene Doppelzählung, keine Feststellung.'
+- text: 'Vorjahresvortrag: Der Bilanzgewinn/-verlust der VJ-Bilanz enthält das VJ-Ergebnis bereits. «Vortrag VJ + Ergebnis VJ» nur auf den Vortrag vor Ergebnis anwenden; bei einer Differenz
+    genau in Höhe des VJ-Ergebnisses zuerst die eigene Rechnung nach der Formel in A1-302 prüfen; bleibt die Differenz danach bestehen → Differenz im Textfeld, ab Nichtaufgriffsgrenze
+    Notiz «Wesentliche Feststellungen».'
   quelle: ser-2022__anh-d-s073-1
   zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres
   schritte:
@@ -503,8 +504,9 @@ fallstricke:
   fundstellen:
   - quelle: hwp-er-2026__rz-0091-s196
     zitat: Das Nachrechnen besteht aus der Prüfung der rechnerischen Richtigkeit von quantitativen Angaben in Dokumenten oder Aufzeichnungen.
-- text: 'Eigenkapital in der Bilanz negativ = Überschuldung zu Fortführungswerten (Aktiven < Fremdkapital): immer A1-205 mit `kapitalverlust` (Wiki-Rechner, kein revio-Werkzeug) und
-    `aufgabe kapitalschutz`; Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz.'
+- text: 'Eigenkapital in der Bilanz negativ = Anzeichen einer Überschuldung zu Fortführungswerten (Aktiven < Fremdkapital; Covid-19-Kredite und Härtefall-Darlehen zählen nicht als Fremdkapital
+    → `kapitalverlust --covid-kredit …`): immer A1-205 mit `kapitalverlust` (Wiki-Rechner, kein revio-Werkzeug), bei Kapitalverlust oder Überschuldung `aufgabe kapitalschutz`; Zwischenabschluss
+    zu Veräusserungswerten suchen, sonst Pendenz. Umgekehrt schliesst ein positives Eigenkapital einen Kapitalverlust (Art. 725a OR) nicht aus – A1-205 immer rechnen.'
   quelle: hwp-er-2026__rz-0381-s115
   zitat: wenn die (ordnungsgemäss bewerteten) Aktiven geringer sind als das Fremdkapital, bestehend aus Verbindlichkeiten, Rückstellungen und passiven Rechnungsabgrenzungsposten
   schritte:
@@ -512,6 +514,10 @@ fallstricke:
   fundstellen:
   - quelle: hwp-er-2026__rz-0402-s120-t3
     zitat: wenn die Jahresrechnung zu Fortführungswerten eine Überschuldung ausweist
+  - quelle: hwp-er-2026__rz-0381-s115
+    zitat: Für die Berechnung sind Covid-19-Kredite nicht als Fremdkapital zu berücksichtigen
+  - quelle: or__art-725a
+    zitat: die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
 - text: Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen – nicht mit Angaben aus Anhang, Bilanztext oder Kundenauskunft. Σ laut Vereinbarungen mit der Anhangsangabe
     vergleichen; fehlende Vereinbarung → Pendenz, Abweichung → Notiz «Wesentliche Feststellungen».
   quelle: ser-2022__anh-d-s085-2
@@ -620,18 +626,19 @@ schritte:
 - id: A1-102
   vorgehen: 'revio 3.4 und 6.3 lesen (nur lesen). Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten; fehlende Antwort
     als Pendenz. Prüfen: Ereignisse mit Ursache vor Stichtag gebucht, übrige wesentliche im Anhang mit Art und geschätzter Auswirkung. Ereignisse auf Auswirkung auf die Fortführung prüfen
-    (Verknüpfung A1-205). Status höchstens «teilweise bearbeitet». Pflicht-Durchsicht auch ohne schriftliche Antwort: Kreditorenjournal bzw. Kontoblätter Kreditoren und Aufwand sowie
-    Bankauszüge der ersten Monate des Folgejahres. Je Rechnung Leistungsdatum bzw. Leistungszeitraum lesen: Leistung bis zum Stichtag erbracht, im GJ aber weder als Verbindlichkeit noch
-    als passive Rechnungsabgrenzung erfasst → Ursache vor dem Stichtag → Aufwand gehört ins GJ (Cut-off, Querverweis K1/M3). Gleich behandeln: Gutschriften, Debitorenausfälle, Urteile/Vergleiche
-    nach dem Stichtag zu Sachverhalten vor dem Stichtag.'
+    (Verknüpfung A1-205). Status höchstens «teilweise bearbeitet». Ursache vor dem Stichtag (buchungspflichtig) haben z. B. Gutschriften, Debitorenausfälle, Urteile/Vergleiche nach dem
+    Stichtag zu Sachverhalten vor dem Stichtag. Zeigen die ausgewerteten Unterlagen eine Rechnung des Folgejahres für eine Leistung bis zum Stichtag, die im GJ weder als Verbindlichkeit
+    noch als passive Rechnungsabgrenzung erfasst ist: Hinweis mit Rechnung, Leistungsdatum und Betrag an K1/M3 übergeben (Beurteilung dort). Keine eigene systematische Durchsicht der
+    Kreditorenrechnungen bzw. Kreditoren- und Aufwandkonten des Folgejahres (Cut-off): Das ist eine weiter gehende Prüfungshandlung zu den Verbindlichkeiten (SER Anh. D, Abschnitt i;
+    Fundstelle ser-2022__anh-d-s084-2 = K1-Bezug) und nur auf Anweisung des WP (K1-302).'
   nachweise:
   - Anhang (Ereignisse nach dem Bilanzstichtag)
   - Kontoblätter/Journale Folgeperiode
   - Protokolle nach Stichtag
   - Vollständigkeitserklärung
   - schriftliche Antwort der Unternehmensleitung
-  rechnen: 'Mit `rechne`: nicht erfasster Aufwand = Σ Rechnungen des Folgejahres mit Leistung bis Stichtag ohne Abgrenzung (ohne MWST); je Ereignis Betrag gegen Nichtaufgriffsgrenze
-    (revio 3.3) vergleichen.'
+  rechnen: 'Mit `rechne`: je Ereignis mit Ursache vor dem Stichtag den Betrag (ohne abziehbare MWST) mit der Nichtaufgriffsgrenze (revio 3.3) vergleichen. Hinweise auf nicht erfasste
+    Leistungen des GJ nur auflisten (Rechnung, Leistungsdatum, Betrag) und an K1/M3 übergeben.'
   feststellung_wenn: Wesentliches Ereignis nach Stichtag weder gebucht (Ursache vor Stichtag) noch im Anhang mit finanzieller Auswirkung offengelegt, oder Ereignis stellt die Fortführung
     in Frage.
   fundstellen:
@@ -653,6 +660,8 @@ schritte:
     zitat: 3.4 Going concern
   - quelle: konzept-ki-revisionsagent-2026__c006-2
     zitat: 6.1 Nicht nachgebuchte Fehler, 6.2 Abschliessende analytische Prüfungen, 6.3 Ereignisse nach dem Bilanzstichtag und Going concern
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
   - quelle: ser-2022__anh-d-s084-2
     zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen, die im zu prüfenden
       Geschäftsjahr erhaltene Lieferungen und Leistungen betreffen
@@ -660,9 +669,12 @@ schritte:
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: ser-2022__anh-d-s100-1
+    zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlustrisiko beinhalten
   notiz: Ursache vor Stichtag, nicht erfasst, Betrag ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (z.B. Aufwand an passive Rechnungsabgrenzung bzw. Kreditoren;
-    keine Verbuchung); < NAG nur im Textfeld protokollieren. Ursache nach Stichtag, wesentlich, Anhangsangabe (Art. 959c Abs. 2 Ziff. 13 OR) fehlt → «Wesentliche Feststellungen». Leistungsdatum
-    unklar oder Antwort fehlt → «Pendenz» (Konto, Datum, Betrag).
+    keine Verbuchung) – nur wenn derselbe Posten nicht schon in einem Prüffeld (z. B. K1, M3, C1) erfasst ist, sonst nur Querverweis (keine Doppelerfassung in A1-203); < NAG nur im Textfeld
+    protokollieren. Rechnung des Folgejahres für eine Leistung im GJ ohne Erfassung → Hinweis an K1/M3, keine eigene Feststellung in A1-102. Ursache nach Stichtag, wesentlich, Anhangsangabe
+    (Art. 959c Abs. 2 Ziff. 13 OR) fehlt → «Wesentliche Feststellungen». Leistungsdatum unklar oder Antwort fehlt → «Pendenz» (Konto, Datum, Betrag).
 - id: A1-103
   vorgehen: 'Unterzeichnete VE in revio 10.4 bzw. M-Files suchen (`revio K17`). Im Textfeld mit M-Files-ID festhalten: an die Revisionsstelle adressiert, datiert, von denselben Personen
     wie die JR unterzeichnet; Datum notieren (Abgleich mit dem Berichtsdatum macht der WP). Fehlt die VE oder ist sie nicht unterzeichnet: Notiz «Pendenz» mit «PBC-Vorschlag: Vollständigkeitserklärung
@@ -693,8 +705,8 @@ schritte:
   vorgehen: Saldoliste Bilanz/ER mit Vorjahr vergleichen (absolute und relative Veränderungen, Kennzahlen wie Bruttomarge, Personalaufwand/Ertrag, Eigenkapitalquote, Liquidität) und
     mit den Kenntnissen zu Tätigkeit und Umfeld (Dauerakten, Planung) abgleichen. Kennzahlen aus revio 1.2 lesen, Veränderungen mit `rechne` berechnen. Jede Position mit |Veränderung|
     ≥ Toleranzwesentlichkeit (revio 3.3) mit Tätigkeit und Umfeld erklären; ohne Erklärung → Frage als Pendenz. Sind qualitative Faktoren erfasst, auch kleinere Veränderungen melden.
-    Gesamturteil beim WP. Vorjahreswerte (Saldi, Kennzahlen, Vollzeitstellen) nur aus der VJ-Jahresrechnung bzw. VJ-Akte übernehmen, nie schätzen; nicht gefunden → im Textfeld «VJ-Wert
-    nicht gefunden in <Ordner>» und Notiz «Pendenz».
+    Gesamturteil beim WP. Vorjahreswerte (Saldi, Kennzahlen, Vollzeitstellen) nur aus belegten Quellen nehmen (VJ-Spalte der Saldoliste, revio 1.2, VJ-Jahresrechnung bzw. VJ-Akte), nie
+    schätzen; nicht gefunden → im Textfeld «VJ-Wert nicht gefunden in <Ordner>» und Notiz «Pendenz».
   nachweise:
   - Saldoliste Bilanz und ER (Geschäftsjahr/Vorjahr)
   - Jahresrechnung
@@ -790,16 +802,17 @@ schritte:
     zitat: Verstösse gegen diese Rechnungslegungsvorschriften mit wesentlichem Einfluss auf die Jahresrechnung führen zu einer modifizierten Prüfungsaussage.
 - id: A1-205
   vorgehen: '1) revio 3.4 und 6.3 lesen (nur lesen). 2) Going Concern: Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan)
-    und Anhangsangaben prüfen; fehlt sie: Pendenz. 3) Kapitalverlust und Überschuldung mit `kapitalverlust` rechnen (Rechner dieses Wikis, kein revio-Werkzeug; siehe rechnen). Pflicht,
-    sobald das Eigenkapital in der Bilanz negativ ist (Aktiven < Fremdkapital = Überschuldung zu Fortführungswerten). Kapitalverlust oder Überschuldung festgestellt → `aufgabe kapitalschutz`
-    (WP sofort informieren). VR-Beschluss über Massnahmen (Art. 725a OR) in den Protokollen suchen; fehlt er → Notiz «Wesentliche Feststellungen». Den Hinweis im Bericht (SER 8.3.2.1)
-    formuliert und entscheidet der WP. 4) Bei Überschuldung: Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen (nicht laut Anhang, Bilanztext oder Kundenauskunft),
-    Σ laut Vereinbarungen mit der Anhangsangabe vergleichen (Abweichung → T1-315) und mit Darlehensverträgen/Saldoliste abgleichen (Betrag inkl. Zinsen, Stundung, keine Tilgung/Reduktion,
-    Bonität; `thema rangrücktritt`), Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. Ersetzter oder reduzierter Rangrücktritt: Bedingungen (a), (b) und (c) nach HWP ER
-    Rz 425 einzeln mit Beleg (M-Files-ID) im Textfeld festhalten. Fehlt eine Bedingung → Notiz «Wesentliche Feststellungen», Entscheid WP. 5) Covid-19-Kredit mit Solidarbürgschaft: Wurden
-    während der Solidarbürgschaft Darlehen an Aktionäre/Nahestehende gewährt oder deren Darlehen (auch rangrücktrittsbelastete) zurückbezahlt: Hinweis an den WP (Art. 2 Abs. 2 lit. b
-    Covid-19-SBüG). Ausnahmen für vorbestehende Pflichten gegenüber Schweizer Gruppengesellschaften beurteilt der WP. Querverweis H2/N1. 6) Ergebnis als Notiz; Bericht/Anzeige entscheidet
-    der WP.'
+    und Anhangsangaben prüfen; fehlt sie: Pendenz. 3) Kapitalverlust und Überschuldung mit `kapitalverlust` rechnen (Rechner dieses Wikis, kein revio-Werkzeug; siehe rechnen). Immer
+    rechnen: Ein Kapitalverlust (Art. 725a OR) kann auch bei positivem Eigenkapital vorliegen. Bei negativem Eigenkapital (Anzeichen einer Überschuldung zu Fortführungswerten; Fremdkapital
+    ohne Covid-19-Kredite, `--covid-kredit`) zusätzlich die Überschuldung prüfen; weist `kapitalverlust` eine Überschuldung aus, ist Schritt 4 zwingend. Kapitalverlust oder Überschuldung
+    festgestellt → `aufgabe kapitalschutz` (WP sofort informieren). VR-Beschluss über Massnahmen (Art. 725a OR) in den Protokollen suchen; fehlt er → Notiz «Wesentliche Feststellungen».
+    Den Hinweis im Bericht (SER 8.3.2.1) formuliert und entscheidet der WP. 4) Bei Überschuldung: Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen (nicht
+    laut Anhang, Bilanztext oder Kundenauskunft), Σ laut Vereinbarungen mit der Anhangsangabe vergleichen (Abweichung → T1-315) und mit Darlehensverträgen/Saldoliste abgleichen (Betrag
+    inkl. Zinsen, Stundung, keine Tilgung/Reduktion, Bonität; `thema rangrücktritt`), Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. Ersetzter oder reduzierter Rangrücktritt:
+    Bedingungen (a), (b) und (c) nach HWP ER Rz 425 einzeln mit Beleg (M-Files-ID) im Textfeld festhalten. Fehlt eine Bedingung → Notiz «Wesentliche Feststellungen», Entscheid WP. 5)
+    Covid-19-Kredit mit Solidarbürgschaft: Wurden während der Solidarbürgschaft Darlehen an Aktionäre/Nahestehende gewährt oder deren Darlehen (auch rangrücktrittsbelastete) zurückbezahlt:
+    Hinweis an den WP (Art. 2 Abs. 2 lit. b Covid-19-SBüG). Ausnahmen für vorbestehende Pflichten gegenüber Schweizer Gruppengesellschaften beurteilt der WP. Querverweis H2/N1. 6) Ergebnis
+    als Notiz; Bericht/Anzeige entscheidet der WP.'
   nachweise:
   - Jahresrechnung inkl. Anhang
   - Saldoliste
@@ -814,8 +827,8 @@ schritte:
     <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt
     …] [--holding]`. Gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals anrechenbar; gleiche Rechnung wie P1-313. Deckung = Σ Rangrücktritte
     (Kapital + aufgelaufene Zinsen) − Überschuldung ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); EK-Quote =
-    Eigenkapital / Bilanzsumme Überschuldung = Fremdkapital − Aktiven (> 0 = überschuldet); Σ Rangrücktritte nur aus unterzeichneten Vereinbarungen; Differenz Σ Vereinbarungen − Anhangsangabe
-    = 0?'
+    Eigenkapital / Bilanzsumme; Überschuldung = Fremdkapital (ohne Covid-19-Kredite) − Aktiven (> 0 = überschuldet); Σ Rangrücktritte nur aus unterzeichneten Vereinbarungen; Differenz
+    Σ Vereinbarungen − Anhangsangabe = 0?'
   feststellung_wenn: Erhebliche Zweifel an der Fortführung ohne Anhangsangabe, Einschätzung fehlt/< 12 Monate, Kapitalverlust, Überschuldung ohne genügende Rangrücktritte inkl. Zinsen,
     Reduktion/Tilgung trotz Überschuldung.
   fundstellen:
@@ -1028,7 +1041,7 @@ schritte:
   - Hauptbuch
   - Jahresrechnung
   rechnen: 'Σ Saldi der Konten je Position = Betrag Position JR; Total Aktiven = Total Passiven; Total Aktiven Saldoliste = Total Aktiven JR; Jahresergebnis Saldoliste ER = Jahresergebnis
-    JR Beispiel: `rechne "jr = <Betrag JR-Position>; sl = <Summe Konten Saldoliste>; jr - sl"`; Zwischentotal = Σ Positionen der Gruppe.'
+    JR. Beispiel: `rechne "jr = <Betrag JR-Position>; sl = <Summe Konten Saldoliste>; jr - sl"`; Zwischentotal = Σ Positionen der Gruppe.'
   feststellung_wenn: Differenz zwischen Hauptbuch/Saldoliste und JR-Position oder Totale Aktiven/Passiven ungleich, ohne belegte Umgliederung. Jede Differenz ≠ 0 im Textfeld (Konto,
     Betrag); unter der Nichtaufgriffsgrenze (revio 3.3) nur protokollieren, ab NAG Notiz «Wesentliche Feststellungen» (wird in A1-203 kumuliert).
   fundstellen:
@@ -1051,14 +1064,17 @@ schritte:
     Rechtsfälle, Investitionen, Ausschüttungen) mit Verweis auf das Prüffeld auflisten. Prüfen: Genehmigung letzte JR innert 6 Monaten, Wahl Revisionsstelle, Beschluss Verwendung Bilanzgewinn/-verlust,
     Unterzeichnung JR. Fehlende Protokolle: Pendenz. Wahl der Revisionsstelle für das geprüfte GJ belegen: Wahlbeschluss suchen (meist die ordentliche GV im GJ, die die VJ-Rechnung genehmigt;
     ggf. ausserordentliche GV). Amtsdauer 1–3 GJ, endet mit der Abnahme der letzten JR → die gewählten GJ ausschreiben und prüfen, ob das geprüfte GJ darin liegt. Suchweg: Beleg-/Inhaltsverzeichnis,
-    dann akteweite Suche nach «Protokoll», «Generalversammlung», «Verwaltungsrat», «Zirkular» in GJ- und VJ-Akte; «fehlt» erst danach, mit den durchsuchten Ordnern.'
+    dann akteweite Suche nach «Protokoll», «Generalversammlung», «Verwaltungsrat», «Zirkular» in GJ- und VJ-Akte; «fehlt» erst danach, mit den durchsuchten Ordnern. Vor einem Urteil
+    zusätzlich Statuten (Amtsdauer der Revisionsstelle) und HR-Auszug (eingetragene Revisionsstelle) lesen; der HR-Eintrag ist nur ein Indiz – massgebend ist der Wahlbeschluss der GV
+    mit Annahmeerklärung.'
   nachweise:
   - GV-Protokolle (ordentlich/ausserordentlich)
   - VR-Protokolle und Zirkularbeschlüsse
   - Handelsregisterauszug
   - Statuten
-  rechnen: Datum ordentliche GV − Bilanzstichtag Vorjahr ≤ 6 Monate Gewählte GJ gemäss Beschluss (Amtsdauer 1–3 GJ) enthalten das geprüfte GJ?
-  feststellung_wenn: Protokollierter Sachverhalt mit JR-Wirkung nicht berücksichtigt, GV nicht innert 6 Monaten, Wahl der Revisionsstelle oder Gewinnverwendungsbeschluss fehlt.
+  rechnen: Datum ordentliche GV − Bilanzstichtag Vorjahr ≤ 6 Monate; gewählte GJ gemäss Beschluss (Amtsdauer 1–3 GJ bzw. gemäss Statuten) enthalten das geprüfte GJ?
+  feststellung_wenn: 'Protokollierter Sachverhalt mit JR-Wirkung nicht berücksichtigt oder Gewinnverwendungsbeschluss fehlt. GV nicht innert 6 Monaten oder Wahl der Revisionsstelle nicht
+    belegt: Hinweis an den WP – Einstufung gemäss Notiz («Schlussbesprechung» bzw. «Pendenz»), Beurteilung WP.'
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
@@ -1074,9 +1090,20 @@ schritte:
     zitat: die Wahl der Mitglieder des Verwaltungsrates und der Revisionsstelle
   - quelle: hwp-er-2026__rz-0425-s280-t2
     zitat: Nichteinhaltung der gesetzlichen Vorlagepflicht des Geschäftsberichts zur Genehmigung durch das zuständige Organ
-  notiz: Protokolle gelesen, aber keine Wahl der Revisionsstelle für das GJ → «Wesentliche Feststellungen» an den WP (Mandatsgrundlage, kein Buchungsvorschlag; Entscheid WP). Protokoll
-    nicht gefunden → «Pendenz» mit durchsuchten Ordnern. Protokollierter Sachverhalt mit JR-Wirkung → Hinweis an das betroffene Prüffeld; ordentliche GV später als 6 Monate nach Ende
-    des genehmigten Geschäftsjahres → «Wesentliche Feststellungen» (Gesetzesverstoss, kein Buchungsvorschlag; Hinweis im Bericht entscheidet der WP).
+  - quelle: hwp-er-2026__rz-0164-s068
+    zitat: Die Amtsdauer der Revisionsstelle richtet sich nach den Statuten
+  - quelle: hwp-er-2026__rz-0161-s068
+    zitat: Für das Rechtsverhältnis konstitutiv sind vielmehr der Wahlbeschluss der Generalversammlung in Verbindung mit der Annahmeerklärung
+  - quelle: hwp-er-2026__rz-0425-s280-t1
+    zitat: Bei den folgenden Verstössen gegen gesetzliche Bestimmungen wird ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision empfohlen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+  notiz: Kein Wahlbeschluss für das GJ in Protokollen, Statuten und HR-Auszug belegt → «Pendenz» (Wahlbeschluss bzw. Protokoll der wählenden GV einverlangen, durchsuchte Ordner nennen)
+    und «Schlussbesprechung» an den WP (Mandatsgrundlage; Beurteilung WP). Protokoll nicht gefunden → «Pendenz» mit durchsuchten Ordnern. Protokollierter Sachverhalt mit JR-Wirkung →
+    Hinweis an das betroffene Prüffeld. Ordentliche GV später als 6 Monate nach Ende des genehmigten Geschäftsjahres → «Schlussbesprechung» an den WP (Gesetzesverstoss, kein Buchungsvorschlag;
+    ob ein Hinweis im Bericht nötig ist, entscheidet der WP).
 - id: A1-305
   vorgehen: Prüfen, ob die JR Bilanz, Erfolgsrechnung und Anhang enthält; Geldflussrechnung nur bei ordentlicher Revisionspflicht bzw. statutarisch/nach Standard verlangt; Antrag über
     die Verwendung des Bilanzgewinns (gesetzlicher Prüfungsgegenstand, Art. 729a Abs. 1 Ziff. 2 OR) als separates Dokument. Fehlende Bestandteile mit Fundstelle im Textfeld; Anhang-Detail
@@ -1129,7 +1156,7 @@ schritte:
   - Jahresrechnung
   - Antrag VR Verwendung Bilanzgewinn
   - Saldoliste
-  rechnen: 'Jahresergebnis ER = Position Jahresergebnis im EK = Jahresergebnis im Antrag; Bilanzgewinn/-verlust = Gewinn-/Verlustvortrag + Jahresergebnis Antrag mit `rechne` nachrechnen:
+  rechnen: 'Jahresergebnis ER = Position Jahresergebnis im EK = Jahresergebnis im Antrag; Bilanzgewinn/-verlust = Gewinn-/Verlustvortrag + Jahresergebnis. Antrag mit `rechne` nachrechnen:
     Zuweisung gesetzliche Gewinnreserve = 5 % × (Jahresgewinn − Verlustvortrag), solange gesetzliche Kapital- und Gewinnreserve zusammen < 50 % des Aktienkapitals (Holding 20 %); Dividende
     ≤ Bilanzgewinn + hierfür gebildete Reserven und erst nach den Zuweisungen; Verluste verrechnen in der Reihenfolge Gewinnvortrag → freiwillige Gewinnreserven → gesetzliche Gewinnreserve
     → gesetzliche Kapitalreserve (oder vortragen); Σ Verwendung + Vortrag auf neue Rechnung = Bilanzgewinn/-verlust.'

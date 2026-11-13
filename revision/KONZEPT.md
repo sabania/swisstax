@@ -15,8 +15,8 @@ Mandat, Risiko und Auftrag des WP. Harte Grenze überall: **vorbereiten ja, absc
 ## 2. Schichten (wie Steuer-Wiki)
 | Schicht | Inhalt | Zugriff |
 |---|---|---|
-| L0 Einstieg | `openclaw/AGENTS.workspace-snippet.md` (Grenzen, Tool-Tabelle) | immer geladen (AGENTS.md/CLAUDE.md des Agenten) |
-| L1 Werkzeug | `tools/revision.py` / MCP `revisionswiki` (15 Tools) über `index/lookup.json` | ein Aufruf → Antwort mit Fundstelle |
+| L0 Einstieg | `openclaw/AGENTS.workspace-snippet.md` (Grenzen, Arbeitsregeln Akte, Tool-Tabelle) | immer geladen (AGENTS.md/CLAUDE.md des Agenten) |
+| L1 Werkzeug | `tools/revision.py` / MCP `revisionswiki` (17 Tools, u.a. `aufgabe`, `akte`) über `index/lookup.json` | ein Aufruf → Antwort mit Fundstelle |
 | L1 Skills | `revision-pruefschritt`, `revision-mandat`, `revision` | bei Bedarf geladen |
 | L2 Quick | `quick/` – Index, Prüffelder, Prozess, Regeln, Werte, revio, PBC, Kundenfragen | `zeige quick/…` |
 | L2 Detail | `wiki/prueffelder/`, `wiki/prozess/`, `wiki/themen/`, `wiki/revio/` – alle Zitate | `zeige wiki/…` |
@@ -26,12 +26,15 @@ Mandat, Risiko und Auftrag des WP. Harte Grenze überall: **vorbereiten ja, absc
 ## 3. Wissen
 - **Katalog** (`data/katalog.yaml`): 29 Prüffelder, 538 Prüfschritte (Anhang H revio 4.0) mit Typ, EP/WP, Prüfzielen.
 - **Prüffeld-Wissen** (`data/prueffelder/<code>.yaml`): Kurzbeschrieb, Gesetz, Risiken (mit Prüfzielen), Bewertung/Bilanzierung,
-  Unterlagen (PBC), Fragen an den Kunden, Fallstricke, Testakte-Bezug; **je Schritt** Vorgehen, Nachweise, Rechenregel,
+  Unterlagen (PBC), Fragen an den Kunden, Fallstricke; **je Schritt** Vorgehen, Nachweise, Rechenregel,
   «Feststellung, wenn …» und Fundstellen. Erfasst je Prüffeld von einem Agenten, **skeptisch nachgeprüft** von einem zweiten,
-  bei Befunden korrigiert von einem dritten; Zitate maschinell geprüft (`tools/build_data.py`, `tools/lint.py`).
+  bei Befunden korrigiert von einem dritten; Zitate maschinell geprüft (`tools/build_data.py`, `tools/lint.py`). Bezüge zur
+  Testakte stehen nur unter `eval/testfall-2025/hinweise/` (nicht in quick/, wiki/ oder im Plugin).
 - **Rolle des Agenten je Schritt** – deterministisch aus Typ und Kennzeichnung (Konzept consis): Befragung (1xx) → «teilweise»
   (schriftliche Antwort auswerten, sonst Pendenz), Analytisch (2xx) und Detail (3xx) → «vorbereiten», Sonstige (4xx) → «nur auf
-  Anweisung», WP-Schritte → «nur Mensch» (bis consis entscheidet).
+  Anweisung», WP-Schritte → «nur Mensch» (bis consis entscheidet). Bei 4xx und WP-Schritten betrifft die Sperre das Textfeld und das
+  Einholen/Durchführen; Unterlagen, die schon in der Akte liegen, wertet der Agent trotzdem aus und erfasst Auffälligkeiten als Notiz
+  (Auslegung Praxis/intern, Entscheid consis).
 - **Prozess** (`data/prozess/`): p1 Auftrag/Unabhängigkeit · p2 Planung/Wesentlichkeit · p3 Durchführung · p4 Beendigung ·
   p5 Bericht · p6 Kapitalverlust/Überschuldung/Rangrücktritt · p7 Qualität/Dokumentation/Datenschutz · p8 Agent-Ablauf (Prozesse 1–6).
   Je Phase: was nötig ist (wer: Agent / WP / Kunde; wo: revio/M-Files), WP-Entscheide, Kundenfragen, Unterlagen, Dokumentation,
@@ -40,6 +43,18 @@ Mandat, Risiko und Auftrag des WP. Harte Grenze überall: **vorbereiten ja, absc
   Wesentlichkeit) und gesetzliche Kernregeln (OR 725–729c, 727/727a, 730b/c) – alle mit Zitat.
 - **Werte** (`data/werte.yaml`), **Themen** (`data/themen.yaml`): Schwellen/Sätze/Fristen und Querschnittsthemen mit Zitaten.
 - **Rechner** im Werkzeug: `rechne`, `wesentlichkeit`, `kapitalverlust`, `revisionspflicht` – Rechnen nie im Sprachmodell.
+
+## 3a. Führung durch eine ganze Aufgabe (E2E, schwache Modelle)
+Aus dem E2E-Lauf E0 (Hauptursache: Dateien nicht gelesen – OpenClaw-`read` kappt bei 32 KB –, «fehlt» ohne Suche, nur das erste
+Prüffeld bearbeitet, Abbruch «Token-Budget», falsche Notizkategorie, «✓», `message` zum Senden benutzt): `aufgabe` erkennt mehrere
+Prüffelder im Auftrag («L1/N1», «D1 und H3») und gibt alle Bündel nacheinander aus, dazu eine **Statustabelle** aller Schritte (Rolle,
+leere Statusspalte; fertig erst, wenn jede Zeile einen Status hat) und den Block **Arbeitsregeln Akte** (je Regel Fundstelle oder
+«Praxis/intern»). Das Werkzeug **`akte`** erschliesst den Mandantenordner nur lesend: Übersicht mit vermutetem Prüffeld je Ordner/Datei
+(Namensabgleich mit Prüffeld-Titeln und Synonymen, keine fest verdrahteten Ordnerbuchstaben), `--pf` (Dateien, Treffer in allgemeinen
+Dateien, Unterlagen → Fundort), `--suche`, `--inhalt`/`--abschnitt`/`--datei` für grosse Dateien. Inhalte werden nur zur Laufzeit gelesen,
+nicht gespeichert. Kettenzeilen nennen die wichtigsten revio-Werkzeuge mit Namen. **OpenClaw-Werkzeugrechte:**
+`openclaw/openclaw-tools-empfehlung.json` sperrt `group:messaging`, `group:web`, `group:automation` und `group:nodes` (kein
+Kundenversand; Mandatsdaten nie ins Web; keine eigenen Abläufe) – Ergänzung zu `openclaw/revio-tool-policy.json` (revio-MCP).
 
 ## 4. revio-Zuordnung (Idee enco/consis, umgesetzt)
 - `data/revio/werkzeuge.csv`: **alle 849 revio-MCP-Werkzeuge** klassifiziert: `lesen` · `vorbereiten` (schreibt Arbeitsinhalt, in

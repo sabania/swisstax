@@ -12,7 +12,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 695d3cd4d58fca34e35581d84ce6e819828144ae4a3c14734633069e4ffb2ed0
+quelle_sha: 44b4ced83f777f06d68263bf563081948f7f530b2e9d8e2d5d93b39f2ef5f375
 ---
 
 
@@ -20,7 +20,7 @@ quelle_sha: 695d3cd4d58fca34e35581d84ce6e819828144ae4a3c14734633069e4ffb2ed0
 
 revio Bereich 4 · 21 Schritte (Befragung 3, Analytisch 8, Detail 8, Sonstige 2; EP 18, WP 0) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/a1.md](../wiki/prueffelder/a1.md)
 
-Schlussarbeiten zur JR: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE); Gesamtanalytik (Going Concern, Kapitalverlust/Überschuldung/Rangrücktritte, nicht korrigierte Fehler, stille Reserven); Abstimmungen (Unterzeichnung, VJ-Vortrag, HB↔JR, Gliederung, Ergebnis↔Antrag, Protokolle).
+Schlussarbeiten: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE); Gesamtanalytik (Going Concern, Kapitalverlust/Überschuldung/Rangrücktritt, GoR, unkorrigierte Fehler, stille Reserven); Abstimmungen (Unterschrift, VJ-Vortrag, HB↔JR, Gliederung, Ergebnis↔Antrag, Protokolle, ggf. GFR).
 
 ## Risiken
 - Jahresrechnung unvollständig oder Mindestgliederung (Art. 959a/959b OR) nicht eingehalten. [DO] — [HWP ER S. 269](../chunks/hwp-er-2026/hwp-er-2026__rz-0377-s269.md)
@@ -128,9 +128,9 @@ Schlussarbeiten zur JR: Befragung (Darstellung/Bewertung, Ereignisse nach Sticht
 - «nicht anwendbar» ist kein Agentenstatus: Status «nicht bearbeitet» mit Begründung «Vorschlag: nicht anwendbar …», Entscheid WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c011-2.md)
 - Gesamtbeurteilung, Wesentlichkeitsurteil und Auswirkung auf die Prüfungsaussage (A1-2xx) sind Ermessensentscheide des WP; der Agent liefert nur Analysen und Hinweise. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c011-2.md)
 - Verstoss gegen das Covid-19-SBüG: Der Agent meldet nur (Notiz, Rapport). Frist setzen sowie GV und Bürgschaftsorganisation informieren ist Sache des WP. — [Covid-19-SBüG 23](../chunks/covid-sbueg/covid-sbueg__art-23.md)
-- Vorjahresvortrag: Der Bilanzgewinn/-verlust der VJ-Bilanz enthält das VJ-Ergebnis bereits. «Vortrag VJ + Ergebnis VJ» nur auf den Vortrag vor Ergebnis anwenden; eine Differenz genau in Höhe des VJ-Ergebnisses ist meist eine eigene Doppelzählung, keine Feststellung. — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Vorjahresvortrag: Der Bilanzgewinn/-verlust der VJ-Bilanz enthält das VJ-Ergebnis bereits. «Vortrag VJ + Ergebnis VJ» nur auf den Vortrag vor Ergebnis anwenden; bei einer Differenz genau in Höhe des VJ-Ergebnisses zuerst die eigene Rechnung nach der Formel in A1-302 prüfen; bleibt die Differenz danach bestehen → Differenz im Textfeld, ab Nichtaufgriffsgrenze Notiz «Wesentliche Feststellungen». — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
 - Gleiche Gesamttotale (Aktiven, Passiven, Ergebnis) beweisen nicht, dass jede Position stimmt – Fehler können sich ausgleichen. Immer positionsweise und je Zwischentotal mit `rechne` abstimmen und jede eigene Summe mit dem Wert der anderen Quelle vergleichen. — [HWP ER S. 202](../chunks/hwp-er-2026/hwp-er-2026__rz-0125-s202.md) · [HWP ER S. 196](../chunks/hwp-er-2026/hwp-er-2026__rz-0091-s196.md)
-- Eigenkapital in der Bilanz negativ = Überschuldung zu Fortführungswerten (Aktiven < Fremdkapital): immer A1-205 mit `kapitalverlust` (Wiki-Rechner, kein revio-Werkzeug) und `aufgabe kapitalschutz`; Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. — [HWP ER S. 115](../chunks/hwp-er-2026/hwp-er-2026__rz-0381-s115.md) · [HWP ER S. 120](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s120-t3.md)
+- Eigenkapital in der Bilanz negativ = Anzeichen einer Überschuldung zu Fortführungswerten (Aktiven < Fremdkapital; Covid-19-Kredite und Härtefall-Darlehen zählen nicht als Fremdkapital → `kapitalverlust --covid-kredit …`): immer A1-205 mit `kapitalverlust` (Wiki-Rechner, kein revio-Werkzeug), bei Kapitalverlust oder Überschuldung `aufgabe kapitalschutz`; Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. Umgekehrt schliesst ein positives Eigenkapital einen Kapitalverlust (Art. 725a OR) nicht aus – A1-205 immer rechnen. — [HWP ER S. 115](../chunks/hwp-er-2026/hwp-er-2026__rz-0381-s115.md) · [HWP ER S. 120](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s120-t3.md) · [OR 725A](../chunks/or/or__art-725a.md)
 - Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen – nicht mit Angaben aus Anhang, Bilanztext oder Kundenauskunft. Σ laut Vereinbarungen mit der Anhangsangabe vergleichen; fehlende Vereinbarung → Pendenz, Abweichung → Notiz «Wesentliche Feststellungen». — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-2.md)
 - PDF-Text der JR kann Konto, Bezeichnung und Betrag in getrennte Blöcke zerreissen: Zuordnung über Reihenfolge und Summenprobe (Σ zugeordnete Beträge = Positionstotal) absichern; bleibt sie unsicher, Original prüfen bzw. Pendenz – nie raten. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
 - Praxis/intern: Unterzeichnung, Datum und Antrag über die Verwendung des Bilanzergebnisses stehen meist am Ende der JR-Datei (nach dem Anhang) – Datei bis zum Ende lesen, bei gekappter Ausgabe weiterlesen.

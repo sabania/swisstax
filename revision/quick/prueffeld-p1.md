@@ -22,7 +22,7 @@ quellen:
 - vstg
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 4762fded9d12e512e07b69e1581ba976e6e9cf940b22ebf5e12770e64cb3712c
+quelle_sha: b1e1487544e1473e9ca3e9cf647779a7d9251e4eadb79b5a25823c08e95633d8
 ---
 
 
@@ -141,7 +141,7 @@ Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR). ER: Abstimmung mit Statuten/HR, Akti
 - Verzeichnis der wirtschaftlich berechtigten Personen: Art. 697j OR ist per 1.10.2026 durch das Transparenzgesetz aufgehoben – für GJ 2025 die damals geltende Fassung beachten. — [OR 697J](../chunks/or/or__art-697j.md)
 - Ohne Revisionsbericht gefasste GV-Beschlüsse zu Jahresrechnung und Gewinnverwendung sind nichtig – bei P1-302/P1-312 Datum Revisionsbericht Vorjahr vs. GV-Datum beachten. — [OR 731](../chunks/or/or__art-731.md)
 - Fehlerfalle P1-313: Reduktion oder Aufhebung eines Rangrücktritts ist keine Rückzahlung – das Darlehen bleibt in voller Höhe Fremdkapital (`--verbindlichkeiten` unverändert), kein Buchungsvorschlag auf das Darlehen. Zu prüfen ist, ob die Σ der Rangrücktritte die Überschuldung noch deckt und ob die Voraussetzungen der Reduktion (HWP ER Rz 425) erfüllt sind. — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0423-s125-t1.md)
-- P1-313: Rangrücktritt-Beträge für die Deckungsrechnung aus den unterzeichneten Vereinbarungen nehmen (aktuelle Fassung, auch aus VJ-Akte/Dauerakte), nicht aus Anhang oder Kontosaldo; die Anhangangabe damit abgleichen (P1-320). — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md)
+- P1-313: Anrechenbarer Rangrücktritt je Gläubiger = min(Betrag laut gültiger, unterzeichneter Vereinbarung (aktuelle Fassung, auch aus VJ-Akte/Dauerakte); bestehende Forderung inkl. aufgelaufener, vom Rangrücktritt erfasster Zinsen laut Kontoblatt) – nicht die Anhangangabe; ein Kontosaldo ohne Vereinbarung zählt nicht, der Teil eines Vereinbarungsbetrags über der bestehenden Forderung (z.B. nach Verzicht oder Umwandlung in EK) ebenfalls nicht; die Anhangangabe damit abgleichen (P1-320). — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md) · [OR 725B](../chunks/or/or__art-725b-t1.md) · [HWP ER S. 124](../chunks/hwp-er-2026/hwp-er-2026__rz-0416-s124.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -160,7 +160,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | P1-310 | Detail |  | VO DO | vorbereiten | Prüfung korrekte Gliederung | EK in der Bilanz mit Mindestgliederung Art. 959a Abs. 2 Ziff. 3 OR vergleichen: AK, gesetzliche Kapitalreserve (unterteilt in KER und übrige), gesetzliche… |
 | P1-311 | Detail |  | DO | vorbereiten | Richtiger Ausweis Aufwertungsreserve (OR 670) | Katalogverweis «OR 670» ist überholt; massgebend ist Art. 725c OR. Konten und VR-Beschlüsse auf Aufwertungen von Grundstücken/Beteiligungen durchsehen. Falls… |
 | P1-312 | Detail |  | RV EN PA RI | vorbereiten | Vollzug Gewinnverwendungsbeschluss des Vorjahres | GV-Beschluss über die Verwendung des Bilanzergebnisses des Vorjahres (Protokoll oGV) mit den Buchungen im Prüfjahr abgleichen: Vortrag Jahresergebnis… |
-| P1-313 | Detail |  | RV BE DO | vorbereiten | Beurteilung Eigenkapital in Bezug auf OR 725 | FEHLERFALLEN ZUERST: (1) Σ Rangrücktritte = Beträge laut unterzeichneten Vereinbarungen (aktuelle Fassung; auch VJ-Akte/Dauerakte), nicht Darlehenssaldo… |
+| P1-313 | Detail |  | RV BE DO | vorbereiten | Beurteilung Eigenkapital in Bezug auf OR 725 | FEHLERFALLEN ZUERST: (1) Σ Rangrücktritte = Summe je Gläubiger von min(Betrag laut gültiger, unterzeichneter Vereinbarung (aktuelle Fassung; auch… |
 | P1-314 | Detail |  | EX PA DO RI | vorbereiten | Festhalten von Statutenänderungen / Publikation im SHAB | Statutenänderungen des GJ und bis Berichtsdatum (Kapital, Firma, Sitz, Zweck, Kapitalband, Vinkulierung) anhand öffentlicher Urkunden, HR-Auszug und… |
 | P1-315 | Detail |  | RI | vorbereiten | Dividendenzahlungen / Abrechnung Verrechnungssteuern | Im GJ ausgerichtete und nach Stichtag beschlossene Dividenden/Rückzahlungen ermitteln (GV-Protokoll, Bank, Kontoblätter). Brutto/Netto, VSt-Entrichtung oder… |
 | P1-316 | Detail |  | RV EN PA RI | vorbereiten | Prüfung der Buchungen auf Eigenkapital-Konti | Alle Buchungen auf EK-Konten (Kontoblätter 28xx/29xx) auflisten und je Buchung Grundlage (GV-/VR-Beschluss, Urkunde, Abrechnung), Beleg, Datum und Gegenkonto… |

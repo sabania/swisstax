@@ -357,8 +357,9 @@ fallstricke:
     2 DBG). Steuerfolgen nur als Hinweis an Prüffeld S1, keine handelsrechtliche Feststellung.'
   quelle: dbg__art-63
   zitat: Bisherige Rückstellungen werden dem steuerbaren Gewinn zugerechnet, soweit sie nicht mehr begründet sind.
-- text: 'Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut)
-    → «Wesentliche Feststellungen» mit Buchungsvorschlag. Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in O1-321).'
+- text: 'Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut).
+    Differenz mit `rechne`: ≥ NAG (bzw. kleiner, wenn in 3.3 qualitative Faktoren erfasst sind) → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); < NAG nur Textfeld.
+    Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in O1-321).'
   quelle: or__art-960e
   zitat: so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung gebildet werden
   fundstellen:
@@ -368,13 +369,19 @@ fallstricke:
   - O1-102
   - O1-321
   - O1-403
-- text: 'Begriffe nicht vertauschen: bestmögliche Schätzung = wahrscheinlichster Betrag inkl. Prozesskosten; das obere Ende der Bandbreite ist der Vorsichtswert. Beide Werte getrennt
-    mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in den Unterlagen stehen.'
+- text: 'Begriffe nicht vertauschen: Die Höhe wird nach bestmöglicher Schätzung bemessen; das obere Ende der Bandbreite ist der Vorsichtswert. Grosse Grundgesamtheit (z.B. Garantien):
+    Erwartungswert. Einzelrisiko (z.B. Rechtsfall): Praxis/intern – wahrscheinlichster Betrag inkl. zu erwartender Verfahrenskosten (Prozesskosten gehören zur Verpflichtung, HWP BuR
+    Rz 526). Schätzwert und oberes Ende der Bandbreite getrennt mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in
+    den Unterlagen stehen.'
   quelle: hwp-bur-2023__rz-0516-s261
   zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0515-s261
+    zitat: bei einer grossen Grundgesamtheit beispielsweise mithilfe einer mathematischen Formel, die den Wahrscheinlichkeitsgrad berücksichtigt (Erwartungswert)
+  - quelle: hwp-bur-2023__rz-0515-s261
     zitat: dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist
+  - quelle: hwp-bur-2023__rz-0526-s263
+    zitat: Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
   - quelle: konzept-ki-revisionsagent-2026__c005-1
     zitat: fehlende Daten dürfen nicht erfunden werden
   schritte:
@@ -559,8 +566,8 @@ schritte:
   - quelle: hwp-bur-2023__rz-0854-s350
     zitat: Entstehen aus demselben Sachverhalt sowohl eine Rückstellung wie eine Eventualverbindlichkeit, ist es nicht ausreichend, aufgrund der gebildeten Rückstellung auf die Angaben
       zu einer eventuell deutlich höheren Eventualverbindlichkeit
-  notiz: Fehlende oder zu tiefe Anhangsangabe → «Wesentliche Feststellungen» (Korrekturvorschlag Anhang, keine Buchung); Klassierung unklar (Ziff. 8/9/10 oder Rückstellung) → «Schlussbesprechung»
-    mit Vorschlag; Unterlage fehlt → «Pendenz».
+  notiz: 'Fehlende oder zu tiefe Anhangsangabe: Betrag ≥ NAG (bzw. kleiner, wenn in 3.3 qualitative Faktoren erfasst sind) → «Wesentliche Feststellungen» (Korrekturvorschlag Anhang,
+    keine Buchung); sonst nur Textfeld. Klassierung unklar (Ziff. 8/9/10 oder Rückstellung) → «Schlussbesprechung» mit Vorschlag; Unterlage fehlt → «Pendenz».'
 - id: O1-201
   vorgehen: 'Rückstellungskonten aus der Saldoliste (31.12. Berichtsjahr vs. Vorjahr) je Konto vergleichen; Anfangsbestände des Rückstellungsspiegels mit den Vorjahressaldi abstimmen;
     Garantierückstellung mit Umsatz und Garantieaufwand plausibilisieren. Erklärungen aus vorhandenen schriftlichen Antworten/Unterlagen entnehmen; fehlt eine Erklärung → Frage als Pendenz
@@ -777,8 +784,8 @@ schritte:
   - Abnahmeprotokolle
   - Bankbestätigungen
   - Aktennotizen/Einschätzungen
-  rechnen: Schätzdifferenz = bestmögliche Schätzung (wahrscheinlichster Betrag inkl. Prozesskosten) − gebuchte Rückstellung; Differenz zum oberen Ende der Bandbreite separat als Spanne
-    ausweisen; Summe über alle Rückstellungen; Wesentlichkeit aus revio 3.3 lesen.
+  rechnen: 'Schätzdifferenz = bestmögliche Schätzung − gebuchte Rückstellung (Einzelrisiko wie Rechtsfall: wahrscheinlichster Betrag inkl. Prozesskosten, Praxis/intern; grosse Grundgesamtheit
+    wie Garantien: Erwartungswert); Differenz zum oberen Ende der Bandbreite separat als Spanne ausweisen; Summe über alle Rückstellungen; Wesentlichkeit aus revio 3.3 lesen.'
   feststellung_wenn: 'Differenz unter Nichtaufgriffsgrenze (3.3): nur im Textfeld protokollieren. Differenz über Nichtaufgriffsgrenze: Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
     (ohne Verbuchung; wird in A1 kumuliert). Ob einzeln oder kumuliert wesentlich, beurteilt der WP (6.1).'
   fundstellen:

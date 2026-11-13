@@ -17,7 +17,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: c3624e706574a3bd591509ca74f3b5ca8a46f3dcebea2137a0a0f45abe083e62
+quelle_sha: d60d52f385bb9d64dda41b09cdfe265530120c480ee2d4571dcab6c70c71316d
 ---
 
 
@@ -139,9 +139,9 @@ Langfristige Verbindlichkeiten (Bank-, Hypothekar-, Aktionärs-, Konzern-, Rangr
 - Covid-19-Kredit: Rückzahlung/Verrechnung von Aktionärsdarlehen oder neue Darlehen an Aktionäre während der Solidarbürgschaft = möglicher Verstoss gegen Art. 2 Abs. 2 Covid-19-SBüG → Notiz «Wesentliche Feststellungen» + «Schlussbesprechung». Fristansetzung und Information von GV und Bürgschaftsorganisation (Art. 23) nur durch den WP; der Agent kontaktiert niemanden. — [Covid-19-SBüG 23](../chunks/covid-sbueg/covid-sbueg__art-23.md)
 - Überschuldungs-/Kapitalverlustrechnung: nur den nach Art. 3 Covid-19-SBüV verbürgten Betrag (Kreditvereinbarung) aus dem Fremdkapital nehmen – mit `kapitalverlust … --covid-kredit <Betrag>`, nicht zusätzlich von Hand abziehen. — [Covid-19-SBüG 24](../chunks/covid-sbueg/covid-sbueg__art-24.md)
 - Darlehen unter Rangrücktritt nach dem Bilanzstichtag: nur mit tatsächlichem Zahlungsfluss zulässig und im Anhang als Ereignis nach dem Bilanzstichtag auszuweisen; rückwirkende Einbuchung gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber ist unzulässig → Notiz «Wesentliche Feststellungen». — [HWP BuR S. 307](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0721-s307.md)
-- Rangrücktritt: Für die Deckung zählt der Betrag laut unterzeichneter Vereinbarung (inkl. Zinsen), nicht der Darlehenssaldo und nicht die Anhangangabe; Anhang ↔ Vereinbarung abgleichen (N1-320), Deckung in P1-313 rechnen. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md)
+- Rangrücktritt: Für die Deckung zählt je Gläubiger min(Betrag laut gültiger, unterzeichneter Vereinbarung; bestehende Forderung = geschuldeter Betrag + aufgelaufene, vom Rangrücktritt erfasste Zinsen laut Kontoblatt) – nicht die Anhangangabe; ein Darlehenssaldo ohne Vereinbarung zählt nicht; nach Verzicht oder Umwandlung in EK fällt die Vereinbarung dahin (HWP ER Rz 416); Anhang ↔ Vereinbarung abgleichen (N1-320), Deckung in P1-313 rechnen. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md) · [OR 725B](../chunks/or/or__art-725b-t1.md) · [HWP ER S. 124](../chunks/hwp-er-2026/hwp-er-2026__rz-0416-s124.md)
 - RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht – die Verbindlichkeit bleibt in voller Höhe Fremdkapital; nie einen Buchungsvorschlag auf das Darlehen ableiten. Reduktion während Überschuldung ohne die drei Voraussetzungen (HWP ER Rz 425) → «Wesentliche Feststellungen» + «Schlussbesprechung» (N1-105, N1-401). — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0423-s125-t1.md)
-- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
+- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; frühere Grenze = Tag vor Zinsbeginn bzw. letzter bezahlter Zinstermin (Auszahlung 01.02. → monate(31.12.2025, 31.01.2025) = 11, nicht monate(31.12.2025, 01.02.2025) = 10); monate() zählt nur ganze Monate – beginnt der Zinslauf im Laufe eines Monats, tage()/365 bzw. tage360()/360 gemäss Vertrag verwenden; Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

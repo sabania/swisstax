@@ -13,7 +13,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 92ee1f96510e01f0bbbd2a95022fe711c208d59765a92ffcbde6f4fe5495a5e4
+quelle_sha: f3eac18565411b2753dddd61ffc0391fd659d2202836fe8a243463a6a6301805
 ---
 
 
@@ -120,7 +120,7 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Steuerlich, nicht handelsrechtlich: Schuldzinsen auf verdecktem Eigenkapital (z.B. Aktionärsdarlehen) gehören zum steuerbaren Gewinn (Art. 65 DBG; Aufrechnung/Ermittlung: KS 6a, estv-ks-6a-2024__3-1) – keine Bewertungsregel der Jahresrechnung, nur Hinweis an WP. — [DBG 65](../chunks/dbg/dbg__art-65.md)
 - Agentengrenze: Befragungen (1xx) kann der Agent nicht selbst führen (schriftliche Antwort auswerten oder Pendenz, höchstens «teilweise bearbeitet»); Sonstige Prüfungshandlungen (4xx) nur auf Anweisung; keine Buchung, Visum offen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur auf ausdrückliche Anweisung des WP vorbereiten, sonst kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz; Beurteilung immer WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
-- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; Praxis/intern: Kontonummern (z.B. 4-stellig) in Saldoliste und Kontoblatt nie als Betrag lesen (L1-201, L1-302). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
+- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; frühere Grenze = Tag vor Zinsbeginn bzw. letzter bezahlter Zinstermin (Auszahlung 01.02. → monate(31.12.2025, 31.01.2025) = 11, nicht monate(31.12.2025, 01.02.2025) = 10); monate() zählt nur ganze Monate – beginnt der Zinslauf im Laufe eines Monats, tage()/365 bzw. tage360()/360 gemäss Vertrag verwenden; Praxis/intern: Kontonummern (z.B. 4-stellig) in Saldoliste und Kontoblatt nie als Betrag lesen (L1-201, L1-302). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

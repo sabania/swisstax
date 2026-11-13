@@ -63,15 +63,36 @@ aufgaben:
       zitat: Jede Aktion, Quelle und Berechnung wird protokolliert
   - text: Kunde und Dossier (Jahresakte) in revio finden und öffnen.
     aufruf: revio K1
-  - text: Wesentlichkeit 3.3 nur lesen (nie ändern); Plausibilisierung in `aufgabe wesentlichkeit` nach dem Import.
-    aufruf: revio K3
+  - text: 'Akte erschliessen (GJ und VJ): Ordner und Dateien mit vermutetem Prüffeld. Prüffelder immer mit revio-Code (A1 … T1) nennen, nie mit den Ordnerbuchstaben der Akte (Praxis/intern).'
+    aufruf: akte <pfad> --vj <vj-pfad>
   - text: Risikobeurteilung 3.1 und strategische Planung 3.5 lesen – welche Prüffelder sind markiert, Prüfungstiefe, Priorität.
     aufruf: revio K4
-  - text: Vorjahr lesen (Vorjahresakte, Pendenzen, Feststellungen) und Vorjahresabstimmung einplanen.
+  - text: 'Vorjahresakte lesen: Revisionsbericht, Schlussbesprechung, Feststellungen/Pendenzen und Hinweise «im Folgejahr» – jeden Hinweis ins Geschäftsjahr übernehmen (Pendenz oder Prüfschritt). Grosse Dateien mit `akte <vj-pfad> --inhalt <datei>` (Praxis/intern).'
+    aufruf: akte <vj-pfad> --suche "Folgejahr|Schlussbesprechung|Feststellung|Pendenz"
+  - text: Vorjahr in revio lesen (ohne Kontextwechsel) und Vorjahresabstimmung einplanen.
     aufruf: revio K10
+  - text: 'Wahl der Revisionsstelle für das Geschäftsjahr im GV-Protokoll prüfen: Die GV wählt die Revisionsstelle für ein bis drei Geschäftsjahre; das Amt endet mit der Abnahme der letzten Jahresrechnung. Keine gültige Wahl für das Geschäftsjahr gefunden → Notiz für den WP (Pendenz).'
+    aufruf: akte <pfad> --vj <vj-pfad> --suche "Revisionsstelle"
+    fundstellen:
+    - quelle: or__art-730
+      zitat: Die Generalversammlung wählt die Revisionsstelle.
+    - quelle: or__art-730a
+      zitat: Die Revisionsstelle wird für ein bis drei Geschäftsjahre gewählt. Ihr Amt endet mit der Abnahme der letzten Jahresrechnung.
+  - text: 'Pflichtschritt Wesentlichkeit: 3.3 nur lesen (nie ändern) und plausibilisieren, inkl. Vergleich mit dem Vorjahr (Bezugsgrösse, Prozentsätze, Beträge). Passen Bezugsgrösse, Satz und Begründung nicht zusammen → Pendenz.'
+    aufruf: aufgabe wesentlichkeit
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c014-1
+      zitat: Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst der Agent eine Pendenz.
+  - text: 'Auslöser Eigenkapital negativ oder Kapitalverlust-Indiz (Bilanz, Vorjahresbericht, Anhang) → `aufgabe kapitalschutz` und `kapitalverlust` rechnen; Rangrücktritte mit den Beträgen laut unterzeichneten Vereinbarungen, nicht laut Anhang. Weicht die Anhangsangabe ab → Notiz.'
+    aufruf: aufgabe kapitalschutz
+    fundstellen:
+    - quelle: or__art-725b-t1
+      zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden
+    - quelle: ser-2022__1-2-t2
+      zitat: Eine kritische Grundhaltung bedeutet, dass der Abschlussprüfer die Stichhaltigkeit erlangter Informationen und Unterlagen hinterfragt
   - text: Revisionsart plausibilisieren (eingeschränkt? Opting-out?) – nur bei Zweifel, Entscheid WP.
     aufruf: revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen … --vj-bilanzsumme … --vj-umsatz … --vj-vollzeitstellen …
-  fertig_wenn: Kontext-Schlüssel und Betriebsart (Lesetest/Schreibtest) stehen, Protokoll läuft, Dossier offen, Wesentlichkeit und markierte Prüffelder bekannt.
+  fertig_wenn: Kontext-Schlüssel und Betriebsart (Lesetest/Schreibtest) stehen, Protokoll läuft, Dossier offen, Akte und Vorjahresakte erschlossen (Hinweise «im Folgejahr» übernommen), Wahl der Revisionsstelle geprüft, Wesentlichkeit plausibilisiert, markierte Prüffelder (revio-Codes) bekannt.
   naechste: [import, prueffeld]
 - id: import
   titel: Prozess 1 – Jahresrechnung importieren und abstimmen
@@ -84,6 +105,17 @@ aufgaben:
   regeln: [mandatskontext, schreibbereiche, rechenmodul, testphase_halt, pendenz]
   checkliste:
   - text: Definitive Bilanz und ER des Geschäftsjahres in M-Files suchen (Kunde, Geschäftsjahr, Klasse) – nur «definitiv», nicht Entwürfe.
+  - text: 'Jahresrechnung ganz lesen – Bilanz, Erfolgsrechnung, Anhang, Antrag über die Verwendung des Bilanzergebnisses, Unterzeichnung/Datum; grosse Dateien abschnittweise (Praxis/intern).'
+    aufruf: akte <pfad> --inhalt <Jahresrechnung>
+  - text: 'Formelle Grobprüfung: Mindestgliederung der Bilanz (OR 959a) und der Erfolgsrechnung (OR 959b) – Positionen einzeln und in der vorgegebenen Reihenfolge; jedes Zwischentotal und Total der Jahresrechnung mit `rechne` nachrechnen.'
+    aufruf: pruefschritt A1-306
+    fundstellen:
+    - quelle: or__art-959a-t1
+      zitat: mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+    - quelle: or__art-959b-t1
+      zitat: mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+    - quelle: konzept-ki-revisionsagent-2026__c009-2
+      zitat: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.
   - text: 'Import nur simulieren (LoadAccountSystems → LoadImportTemplates → GetImportSimulation). Import-Anfrage anlegen, übernehmen (AcceptImport) oder Konten in 1.1 zuordnen: nie, bis consis entscheidet.'
     aufruf: revio K2
     fundstellen:
@@ -95,11 +127,15 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c011-2
       zitat: Unklare Zuordnungen als Pendenz; Halt zur Kontrolle (Testphase)
-  - text: Bilanzgleichheit (Aktiven = Passiven), Totale, Jahresergebnis und Perioden (Geschäftsjahr/Vorjahr) gegen die Jahresrechnung abstimmen – im Rechenmodul. Differenz ≠ 0 → Pendenz und Halt bis Klärung.
-    aufruf: rechne "Aktiven = …; Passiven = …; Differenz = … - …"
+  - text: 'Bilanzgleichheit (Aktiven = Passiven), Totale, Jahresergebnis und Perioden (Geschäftsjahr/Vorjahr) abstimmen – im Rechenmodul: jede Position der Jahresrechnung mit der Saldoliste, nicht nur die Gesamttotale (ein Gesamttotal kann zufällig stimmen – Praxis/intern); jedes Saldolistenkonto in der Jahresrechnung wiederfinden; beide Werte aus verschiedenen Quellen. Differenz ≠ 0 → Pendenz und Halt bis Klärung.'
+    aufruf: rechne "aktiven = …; passiven = …; aktiven - passiven"
     fundstellen:
     - quelle: flussdiagramm-revisionsagent-2026__s001-7
       zitat: Bilanz, Totale, Perioden ok? → Pendenz erfassen – Notiz «Pendenz», Halt bis Klärung (nein)
+  - text: Jahresergebnis der Erfolgsrechnung = Jahresergebnis im Eigenkapital der Bilanz = Antrag über die Verwendung des Bilanzergebnisses.
+    aufruf: pruefschritt A1-307
+  - text: Vorjahreszahlen der Jahresrechnung mit der geprüften Vorjahresrechnung (Vorjahresakte) abstimmen.
+    aufruf: pruefschritt A1-302
   - text: Testphase – Halt nach dem Import, WP kontrolliert die Kontenzuordnung, bevor Prüffelder bearbeitet werden.
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c009-3
@@ -117,6 +153,15 @@ aufgaben:
   regeln: [je_schritt, ergebnis, pruefziele, befragung, analytisch, detail, sonstige, wp, rechenmodul, prozess2]
   checkliste:
   - text: Prüffeld-Bündel lesen (unten) – Risiken, Bewertungsregeln, Unterlagen, Fragen an den Kunden, Schritte mit Rolle.
+  - text: 'Akte erschliessen: Dateien des Prüffelds in GJ- und VJ-Akte (VJ: Feststellungen, Hinweise fürs Folgejahr), Treffer in Saldoliste/Hauptbuch/Jahresrechnung und in Ordnern anderer Prüffelder, Unterlagen → Fundort; alle gefundenen Dateien ganz lesen.'
+    aufruf: akte <pfad> --vj <vj-pfad> --pf <code>
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c012-1
+      zitat: Nachweise in M-Files beschaffen
+  - text: 'Statustabelle (unten) führen: jede Zeile bekommt einen Status; fertig erst, wenn alle Zeilen einen Status haben.'
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c011-2
+      zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
   - text: Konten und Saldi des Prüffelds mit Vorjahr lesen (Kontenübersicht, Kennzeichen unter Nichtaufgriffsgrenze); Toleranzwesentlichkeit aus 3.3 bereithalten.
     aufruf: revio K2
   - text: Risiko und Prüfungstiefe dieses Prüffelds aus 3.1/3.5 lesen.
@@ -140,7 +185,7 @@ aufgaben:
       zitat: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz
   - text: 'Unterlagen (PBC) in M-Files suchen; Fehlendes → Pendenz mit Titel «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)», nie direkt in 10.10.'
     aufruf: revio K7
-  - text: Je markierten Schritt einzeln bearbeiten (1xx → 2xx → 3xx; 4xx und WP-Schritte nur auf Anweisung) – für jeden Schritt genau einen Aufruf. Nicht im Umfang → Status «nicht bearbeitet» mit Grund für den Rapport.
+  - text: 'Je markierten Schritt einzeln bearbeiten – für jeden Schritt genau einen Aufruf. Reihenfolge: 1xx → 2xx → Befragung zu Abweichungen («Besprechung wesentlicher Abweichungen …», erst nach der Analytik) → 3xx (Praxis/intern; das Bündel nennt die Ids). 4xx und WP-Schritte: kein Textfeld ohne Anweisung, vorhandene Unterlagen trotzdem auswerten (Rolle unten). Nicht im Umfang → Status «nicht bearbeitet» mit Grund für den Rapport.'
     aufruf: pruefschritt <id>
     fundstellen:
     - quelle: flussdiagramm-revisionsagent-2026__s001-7
@@ -161,12 +206,19 @@ aufgaben:
   stichworte: [unterlagen, protokoll, protokolle, 10.9, pbc, pbc-liste, 10.10, kundenbefragung, 10.11, gv-protokoll, vr-protokoll, prozess 3, fehlende unterlagen, ablegen]
   prozess: "3"
   phase: p8-agentablauf
-  ziel: Protokoll Vorjahr (GV/VR) aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.
+  ziel: '«Protokoll Vorjahr» heisst: Protokoll der ordentlichen GV im Geschäftsjahr über die Vorjahresrechnung (Beispiel: Geschäftsjahr 2026 → oGV 2026 über die Jahresrechnung 2025), dazu alle ausserordentlichen GV und VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres – aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen
-  regeln: [schreibbereiche, befragung, pendenz, mandatskontext]
+  regeln: [schreibbereiche, befragung, pendenz, mandatskontext, nicht_erfinden]
   checkliste:
-  - text: 'Protokolle (ordentliche/ausserordentliche GV, VR) des Geschäftsjahres und des Vorjahres in M-Files suchen; Zugehörigkeit prüfen (Gesellschaft, Datum, Geschäftsjahr, Unterschriften). Nicht eindeutig (Gesellschaft, Datum, Geschäftsjahr) → nicht ablegen, sondern Pendenz «PBC-Vorschlag: Protokoll …».'
+  - text: 'Fester Suchweg (erst danach «fehlt»): (a) Belegverzeichnis/Inhaltsverzeichnis der Akte lesen; (b) GJ- und VJ-Akte nach Protokollen durchsuchen; (c) «fehlt» nur mit den durchsuchten Ordnern, sonst «nicht gefunden in <Ordner> → Pendenz». Gesucht: oGV im Geschäftsjahr über die Vorjahresrechnung (Genehmigung Jahresrechnung, Verwendung Bilanzergebnis, Wahl Revisionsstelle), alle ao GV, VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres bis zum Berichtsdatum.'
+    aufruf: akte <pfad> --vj <vj-pfad> --suche "Protokoll|Generalversammlung|Verwaltungsrat|Zirkular"
+    fundstellen:
+    - quelle: or__art-698
+      zitat: die Genehmigung der Jahresrechnung sowie die Beschlussfassung über die Verwendung des Bilanzgewinnes
+    - quelle: konzept-ki-revisionsagent-2026__c005-1
+      zitat: fehlende Daten dürfen nicht erfunden werden
+  - text: 'Zugehörigkeit prüfen (Gesellschaft, Organ, Datum, Geschäftsjahr, Unterschriften). Nicht eindeutig (Gesellschaft, Datum, Geschäftsjahr) → nicht ablegen, sondern Pendenz «PBC-Vorschlag: Protokoll …».'
     fundstellen:
     - quelle: flussdiagramm-revisionsagent-2026__s001-8
       zitat: Protokoll eindeutig? → Pendenz erfassen – Vorschlag für PBC-Liste 10.10 (nein)
@@ -179,7 +231,7 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c006-2
       zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
-  - text: Fehlende Unterlagen je markiertem Prüffeld einzeln bestimmen – `<Prüffeld-Code>` durch den Code ersetzen, z. B. `unterlagen C1`, nicht `unterlagen alle` (zu lang). Vorher die bereits angeforderten Unterlagen in 10.10 lesen (revio K8 Schritt 9).
+  - text: Fehlende Unterlagen je markiertem Prüffeld einzeln bestimmen – `<Prüffeld-Code>` durch den Code ersetzen, z. B. `unterlagen C1`, nicht `unterlagen alle` (zu lang); Fundorte in der Akte mit `akte <pfad> --vj <vj-pfad> --pf <Prüffeld-Code>`. Vorher die bereits angeforderten Unterlagen in 10.10 lesen (revio K8 Schritt 9).
     aufruf: unterlagen <Prüffeld-Code>
   - text: 'Je fehlende Unterlage eine Pendenz mit Titel «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)» erfassen – nie direkt in 10.10 schreiben; die Anforderung beim Kunden macht der Mensch.'
     aufruf: revio K8
@@ -278,8 +330,35 @@ aufgaben:
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Notizen löscht oder erledigt er nie.
   regeln: [pendenz, wesentliche_feststellungen, schlussbesprechung, review, nie_loeschen, beilage, buchung, nichtaufgriff]
+  tabelle:
+    titel: Entscheidungstabelle Notizkategorie (eine Kategorie je Sachverhalt)
+    zeilen:
+    - wenn: Möglicher Fehler ≥ Nichtaufgriffsgrenze (Betrag mit `rechne`)
+      dann: «Wesentliche Feststellungen»
+      inhalt: Konto, Betrag, Sachverhalt, Buchungsvorschlag Soll/Haben/Betrag (keine Verbuchung), überschrittene Schwelle (NAG, Toleranz-, Gesamtwesentlichkeit)
+      regeln: [wesentliche_feststellungen, gesamt]
+    - wenn: Möglicher Fehler < Nichtaufgriffsgrenze, ohne qualitative Faktoren
+      dann: keine Notiz
+      inhalt: nur im Textfeld protokollieren (Konto, Betrag)
+      regeln: [nichtaufgriff]
+    - wenn: In 3.3 qualitative Faktoren/besondere Umstände erfasst
+      dann: auch kleinere Abweichung als Notiz
+      inhalt: wie oben, Faktor nennen
+      regeln: [qualitativ]
+    - wenn: Unterlage fehlt (erst nach Suche in GJ- und VJ-Akte), Sachverhalt ungeklärt, schriftliche Antwort fehlt
+      dann: «Pendenz»
+      inhalt: Konto, Datum, Betrag, was fehlt, durchsuchte Ordner; fehlende Unterlage mit Titel «PBC-Vorschlag …»
+      regeln: [pendenz, kunde]
+    - wenn: Punkt, den der WP mit dem Kunden besprechen sollte
+      dann: «Schlussbesprechung»
+      inhalt: Sachverhalt, Bezug (Schritt, Konto), Vorschlag
+      regeln: [schlussbesprechung]
+    - wenn: Rückmeldung zu einer Notiz
+      dann: «Review» – nie (gehört dem WP)
+      inhalt: –
+      regeln: [review]
   checkliste:
-  - text: 'Kategorie wählen: Pendenz (fehlt/ungeklärt) · Wesentliche Feststellungen (möglicher Fehler + begründeter Buchungsvorschlag, keine Verbuchung) · Schlussbesprechung (Punkt für WP–Kunde) · Review: nie (gehört dem WP).'
+  - text: 'Kategorie nach der Entscheidungstabelle (unten) wählen – je Sachverhalt genau eine: Pendenz (fehlt/ungeklärt) · Wesentliche Feststellungen (möglicher Fehler ≥ Nichtaufgriffsgrenze + begründeter Buchungsvorschlag, keine Verbuchung) · Schlussbesprechung (Punkt für WP–Kunde) · Review: nie (gehört dem WP).'
   - text: 'Inhalt: Prüffeld und Schritt-Id, Konto, Datum, Betrag (im Rechenmodul gerechnet), Sachverhalt, Nachweis (M-Files-ID), bei Feststellung Buchungsvorschlag «Soll / Haben / Betrag».'
     aufruf: rechne "…"
   - text: Differenzen unter der Nichtaufgriffsgrenze nur im Textfeld protokollieren (keine Notiz), ausser qualitative Gründe.
@@ -301,6 +380,11 @@ aufgaben:
     aufruf: revio K3
   - text: Nachrechnen und plausibilisieren.
     aufruf: wesentlichkeit <bezugsgrösse> <satz%>
+  - text: 'Mit dem Vorjahr vergleichen (Wesentlichkeit des Vorjahres: revio K10 Schritt 5 bzw. Vorjahresakte, z.B. `akte <vj-pfad> --suche "Wesentlichkeit"`): Bezugsgrösse, Prozentsätze, Beträge. Geänderter Satz oder geänderte Bezugsgrösse ohne Begründung → Pendenz.'
+    aufruf: revio K10
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c014-1
+      zitat: Passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen, erfasst der Agent eine Pendenz.
   - text: Bandbreiten laut Fachliteratur vergleichen; passt es nicht → Pendenz (nie ändern).
     aufruf: thema wesentlichkeit
   - text: 'Anwenden: Toleranzwesentlichkeit steuert Umfang/Stichprobe (Vorschlag: alle Posten darüber + ungewöhnliche Posten + nach Risiko), Nichtaufgriffsgrenze = nur protokollieren, Gesamtwesentlichkeit = Massstab für Wesentliche Feststellungen.'

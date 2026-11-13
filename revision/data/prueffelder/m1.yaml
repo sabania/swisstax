@@ -498,14 +498,15 @@ schritte:
   - quelle: treuhand-almanach-2026__s052-2
     zitat: SG 32,2 (verschiedene) 32,7
 - id: M1-301
-  vorgehen: 'Einzelnachweise je Konto beschaffen (Abrechnungen Sozialversicherungen, QST, MWST Q4, Projektliste Anzahlungen, Lohnsammelkonto mit Lohnjournal Dezember und Auszahlungen
-    Januar) und mit Hauptbuch und Bilanz abstimmen. Klassierung prüfen: verzinsliche Schulden (L1), LuL bzw. Interimskreditoren (K1), Abgrenzungen (M3) gehören nicht in M1. Vorzeichen
-    je Konto prüfen: Sollsaldi (negativer Saldo auf Passivkonto) je Gegenpartei netto summieren (Saldoabrechnung derselben Gegenpartei: Verrechnung geboten). Netto-Sollsaldi gehören
-    zu den übrigen kurzfristigen Forderungen (Verrechnungsverbot). Bestand bzw. Rückforderbarkeit mit Schlussabrechnung/Kontoauszug belegen, sonst Pendenz (nicht belegter Teil = möglicher
-    Aufwand). Feststellung mit Umgliederungsvorschlag ohne Buchung; Detail M1-406 nur auf Anweisung. QST: Total der Dezember-Abrechnung mit der Dezember-Gutschrift (Abzüge) auf dem Kontoblatt
-    QST vergleichen; Saldo aus EB + Abzüge − Zahlungen herleiten. Differenzen mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz. Abschluss- und Umbuchungen per 31.12.
-    auf den Kontokorrenten Sozialversicherungen und QST einzeln mit der Schlussabrechnung belegen (Differenz = Beiträge total − Akonto); Buchungstext «gemäss Abstimmung» ohne Abrechnung
-    → «Pendenz».'
+  vorgehen: 'Einzelnachweise je Konto beschaffen (Abrechnungen Sozialversicherungen, QST, MWST Q4, Projektliste Anzahlungen, Lohnsammelkonto mit Lohnjournal Dezember und Auszahlungen Januar)
+    und mit Hauptbuch und Bilanz abstimmen. Klassierung prüfen: verzinsliche Schulden (L1), LuL bzw. Interimskreditoren (K1), Abgrenzungen (M3) gehören nicht in M1. Vorzeichen je Konto
+    prüfen: Sollsaldi (negativer Saldo auf Passivkonto) je Gegenpartei netto summieren (Saldoabrechnung derselben Gegenpartei: Verrechnung geboten). Netto-Sollsaldi gehören zu den übrigen
+    kurzfristigen Forderungen (Verrechnungsverbot). Bestand bzw. Rückforderbarkeit mit Schlussabrechnung/Kontoauszug belegen, sonst Pendenz (nicht belegter Teil = möglicher Aufwand).
+    Feststellung mit Umgliederungsvorschlag ohne Buchung; Detail M1-406 nur auf Anweisung. QST: Total der Dezember-Abrechnung mit der Dezember-Gutschrift (Abzüge) auf dem Kontoblatt QST
+    vergleichen; Saldo aus EB + Abzüge − Zahlungen herleiten. Differenzen mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz. Abschluss- und Umbuchungen per 31.12. auf den
+    Kontokorrenten Sozialversicherungen und QST einzeln mit der Schlussabrechnung belegen (Differenz = Beiträge total − Akonto); Buchungstext «gemäss Abstimmung» ohne Abrechnung → «Pendenz».
+    Differenz Schlussabrechnung ↔ Kontokorrent ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); R1-302 verweist nur darauf (keine zweite
+    Notiz).'
   nachweise:
   - Einzelnachweise/Abrechnungen je Konto
   - Lohnjournal Dezember, Auszahlungsbelege Januar

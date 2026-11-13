@@ -14,7 +14,7 @@ quellen:
 - vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 9ceac2428453b99185f0b974cb5afbcc7b4788450ba9fff2caeb6c304dbf8ef0
+quelle_sha: ceed3297b1d61141420cd750984795d52a166c41c53396c0279b20305d0e1fa9
 ---
 
 

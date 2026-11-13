@@ -12,7 +12,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 139ebd1998a0db071451c5b5e4af71fdf3e97d6ef59c16024bb5aa3b56115db6
+quelle_sha: f418d629ca778bb6a1fcbc5612f6161869fe6b3520b436c86ce6702cac215a61
 ---
 
 
@@ -112,8 +112,8 @@ Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Er
 - Bei Kapitalverlust oder Überschuldung erhöht eine zusätzliche Rückstellung die Unterdeckung; quantifizierte Differenz an Prüffeld Eigenkapital (P1) und den WP melden. — [OR 725A](../chunks/or/or__art-725a.md)
 - Weiter gehende Prüfungshandlungen (WP-Schritte O1-302/O1-303) löst der Agent nicht selbst aus; ob sie angezeigt sind, entscheidet der WP. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
 - Nicht mehr begründete Rückstellungen: handelsrechtlich keine Auflösungspflicht (Art. 960e Abs. 4 OR, stille Reserve → O1-321); steuerlich Zurechnung zum Gewinn (Art. 63 Abs. 2 DBG). Steuerfolgen nur als Hinweis an Prüffeld S1, keine handelsrechtliche Feststellung. — [DBG 63](../chunks/dbg/dbg__art-63.md)
-- Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut) → «Wesentliche Feststellungen» mit Buchungsvorschlag. Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in O1-321). — [OR 960E](../chunks/or/or__art-960e.md) · [HWP BuR S. 264](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0528-s264.md)
-- Begriffe nicht vertauschen: bestmögliche Schätzung = wahrscheinlichster Betrag inkl. Prozesskosten; das obere Ende der Bandbreite ist der Vorsichtswert. Beide Werte getrennt mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in den Unterlagen stehen. — [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0516-s261.md) · [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0515-s261.md) · [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
+- Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut). Differenz mit `rechne`: ≥ NAG (bzw. kleiner, wenn in 3.3 qualitative Faktoren erfasst sind) → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); < NAG nur Textfeld. Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in O1-321). — [OR 960E](../chunks/or/or__art-960e.md) · [HWP BuR S. 264](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0528-s264.md)
+- Begriffe nicht vertauschen: Die Höhe wird nach bestmöglicher Schätzung bemessen; das obere Ende der Bandbreite ist der Vorsichtswert. Grosse Grundgesamtheit (z.B. Garantien): Erwartungswert. Einzelrisiko (z.B. Rechtsfall): Praxis/intern – wahrscheinlichster Betrag inkl. zu erwartender Verfahrenskosten (Prozesskosten gehören zur Verpflichtung, HWP BuR Rz 526). Schätzwert und oberes Ende der Bandbreite getrennt mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in den Unterlagen stehen. — [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0516-s261.md) · [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0515-s261.md) · [HWP BuR S. 263](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0526-s263.md) · [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

@@ -585,8 +585,9 @@ schritte:
     zitat: Kennzahlenanalyse → wichtige Analyse bei der Prüfungsplanung
   - quelle: hwp-er-2026__rz-0191-s224
     zitat: kurzfristige Kredite werden im Übermass zur Finanzierung von Anlagevermögen herangezogen
-  notiz: Kennzahlen nur rechnen und kommentieren. Unterdeckung des Anlagevermögens oder kurzfristige Finanzierung → Notiz «Schlussbesprechung» an den WP (Hinweis Finanzierung/Fortführung).
-    Keine eigene Beurteilung von Fortführung, Kapitalverlust oder Überschuldung in G1 (Prüffeld P1 bzw. WP); danach mit den Detailschritten G1-301/G1-302 weiterfahren (Praxis/intern).
+  notiz: 'Kennzahlen nur rechnen und kommentieren. Unterdeckung des Anlagevermögens oder kurzfristige Finanzierung → Notiz «Schlussbesprechung» an den WP (Hinweis Finanzierung/Fortführung).
+    Keine eigene Beurteilung von Fortführung, Kapitalverlust oder Überschuldung in G1 (Fortführung: A1-205; Kapitalverlust/Überschuldung: A1-205 bzw. P1-313; Beurteilung WP); danach
+    mit den Detailschritten G1-301/G1-302 weiterfahren (Praxis/intern).'
 - id: G1-301
   vorgehen: Bilanzwerte Sachanlagen (AW und WB je Kategorie, Total) aus der Jahresrechnung mit Saldoliste/Hauptbuch und Anlagespiegel abstimmen; Anlagespiegel je Kategorie zeilenweise
     nachrechnen (AW und WB getrennt) und Abschreibung LJ mit Konten 68xx und ER abstimmen; Eröffnungssaldi mit Vorjahresabschluss vergleichen; Ausweis (Sachanlagen gesondert im Anlagevermögen,
@@ -625,7 +626,7 @@ schritte:
     abgleichen. Bei Zugängen Rechnungsbetrag (netto/brutto; MWST-Methode aus M2) und Rechnungsempfänger notieren. Ermessensfragen (Nutzungsdauer, Aktivierbarkeit) nicht selbst beurteilen,
     sondern als Notiz «Schlussbesprechung» an den WP (Vorschlag G1-403/G1-305); klare Buchungsfehler siehe Notiz. Abgänge: jeden Verkaufs- und Entsorgungsbeleg (Kontoblätter Sachanlagen,
     Ertrags-/a.o.-Konten, Belegverzeichnis) einem Objekt zuordnen und prüfen, ob AW und kumulierte Abschreibungen ausgebucht und der Bucherfolg erfasst sind. Zugänge: aktivierten Betrag
-    mit der Rechnung (netto/brutto) vergleichen. Je Objekt Soll-Restwert und Restdauer mit `rechne` (nie im Kopf).'
+    mit der Rechnung (netto/brutto) vergleichen. Je Objekt Soll-Buchwert (Abschreibung auf den geschätzten Restwert) und Restdauer mit `rechne` (nie im Kopf).'
   nachweise:
   - Anlagenverzeichnis/Inventarliste 31.12.
   - Anlagespiegel
@@ -633,9 +634,11 @@ schritte:
   rechnen: 'Σ AW Inventarliste je Konto = AW 31.12. Anlagespiegel = Saldo 15x0; Σ kumulierte Abschreibungen je Kategorie = WB 31.12. = Saldo 15x9; je Abgang: Restbuchwert = AW − kum.
     Abschreibung des Objekts, Bucherfolg = Erlös − Restbuchwert (Erlös als Ertrag gebucht, Objekt noch im Verzeichnis → Fehler); je Zugang bei effektiver MWST-Methode: aktivierter Betrag
     − Rechnungsbetrag ohne MWST = mitaktivierte Vorsteuer; je Objekt nach deklarierter Methode (G1-101), linear: Monate = verstrichene Monate seit Anschaffung, Soll-kum. Abschreibung
-    = AW × min(1; Monate / (Nutzungsdauer × 12)), Soll-Restwert = AW − Soll-kum. Abschreibung, Restdauer (Monate) = Nutzungsdauer × 12 − Monate'
+    = (AW − geschätzter Restwert) × min(1; Monate / (Nutzungsdauer × 12)) (Restwert laut Anlagenverzeichnis bzw. Abschreibungsgrundsätzen, sonst 0), Soll-Buchwert = AW − Soll-kum.
+    Abschreibung, Restdauer (Monate) = Nutzungsdauer × 12 − Monate'
   feststellung_wenn: Summe Inventarliste ≠ Anlagespiegel/Bilanz, abgegangene Objekte noch im Verzeichnis oder fehlende Angaben zu kumulierten Abschreibungen. Verkaufserlös gebucht, Objekt
-    aber nicht ausgebucht; Vorsteuer mitaktiviert (effektive Methode); Buchwert eines Objekts wesentlich über dem Soll-Restwert (→ Schlussbesprechung, G1-404).
+    aber nicht ausgebucht; abziehbare Vorsteuer mitaktiviert (effektive Methode, laut M2 kein Ausschluss vom Vorsteuerabzug und keine gemischte Verwendung); Buchwert eines Objekts
+    wesentlich über dem Soll-Buchwert (→ Schlussbesprechung, G1-404).
   fundstellen:
   - quelle: ser-2022__anh-d-s082-2
     zitat: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen
@@ -657,8 +660,9 @@ schritte:
     zitat: sofern sie vom Vorsteuerabzug nicht ausgeschlossen ist – rückforderbar
   - quelle: hwp-bur-2023__rz-0332-s229
     zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der Anschaffungs- oder Herstellungskosten auf die voraussichtliche Nutzungsdauer
-  notiz: Klarer Buchungsfehler ≥ NAG (Abgang nicht ausgebucht, Vorsteuer aktiviert, Summendifferenz) → «Wesentliche Feststellungen» mit Betrag und Buchungsvorschlag (ohne Verbuchung);
-    < NAG nur Textfeld. Beleg oder Vertrag fehlt → «Pendenz». Ermessensfragen → «Schlussbesprechung».
+  notiz: Klarer Buchungsfehler ≥ NAG (Abgang nicht ausgebucht, abziehbare Vorsteuer aktiviert, Summendifferenz) → «Wesentliche Feststellungen» mit Betrag und Buchungsvorschlag (ohne
+    Verbuchung); < NAG nur Textfeld. Abziehbarkeit der Vorsteuer unklar (Abrechnungsmethode, gemischte Verwendung, Vorsteuerkorrektur) → «Pendenz» mit Hinweis an M2, kein Fehler.
+    Beleg oder Vertrag fehlt → «Pendenz». Ermessensfragen → «Schlussbesprechung».
 - id: G1-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; bei Hinweisen aus 1xx/2xx/301/302 auf
     wesentliche Fehlaussagen oder erhöhtes inhärentes Risiko Vorschlag an WP als Notiz. Mit Anweisung: Kontoblätter 15xx/68xx auf ungewöhnliche Posten durchsehen (Vorzeichen, runde Beträge,
@@ -768,8 +772,9 @@ schritte:
       werden.
 - id: G1-321
   vorgehen: 'Aufstellung Bestand/Veränderung stiller Reserven in M-Files suchen. Je Kategorie Buchwert mit dem OR-Höchstwert aus der Aufstellung des Kunden vergleichen; Zwangsreserven
-    (Mehrwert über AK) nicht einrechnen. Fehlt die Aufstellung: Pendenz und Notiz Schlussbesprechung an WP; zusätzlich indikativ den Soll-Restwert je Objekt aus dem Anlagenverzeichnis
-    nach der deklarierten Methode (G1-101) mit `rechne` ermitteln, linear = AW × (1 − verstrichene Jahre / Nutzungsdauer), mindestens 0, und als «indikativ, Beurteilung WP» kennzeichnen.
+    (Mehrwert über AK) nicht einrechnen. Fehlt die Aufstellung: Pendenz und Notiz Schlussbesprechung an WP; zusätzlich indikativ den Soll-Buchwert je Objekt aus dem Anlagenverzeichnis
+    nach der deklarierten Methode (G1-101) mit `rechne` ermitteln, linear = AW − (AW − geschätzter Restwert) × min(1; verstrichene Jahre / Nutzungsdauer) (Restwert ohne Angabe 0),
+    und als «indikativ, Beurteilung WP» kennzeichnen.
     Methode mit Vorjahr abgleichen, Veränderung an G1-320 und T1-305 melden. Steuerliche Normalsätze nicht unbesehen übernehmen.'
   nachweise:
   - Aufstellung stille Reserven LJ/VJ
@@ -882,8 +887,8 @@ schritte:
   - Anlagespiegel
   - Verkaufsbelege/Marktpreise
   - Ergebnis G1-105
-  rechnen: Soll-Restwert linear = AW × (1 – verstrichene Jahre / Nutzungsdauer), mindestens 0; Differenz zu Buchwert je Kategorie
-  feststellung_wenn: Buchwert über Soll-Restwert bzw. erzielbarem Wert, Buchwert für nicht mehr vorhandene Objekte oder zur Veräusserung vorgesehenes Objekt im Anlagevermögen bzw. über
+  rechnen: Soll-Buchwert linear = AW − (AW − geschätzter Restwert) × min(1; verstrichene Jahre / Nutzungsdauer) (Restwert ohne Angabe 0); Differenz zu Buchwert je Kategorie
+  feststellung_wenn: Buchwert über Soll-Buchwert bzw. erzielbarem Wert, Buchwert für nicht mehr vorhandene Objekte oder zur Veräusserung vorgesehenes Objekt im Anlagevermögen bzw. über
     Buchwert bilanziert.
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
@@ -898,6 +903,8 @@ schritte:
     zitat: Zur Veräusserung vorgesehene Sachanlagegüter sind im Umlaufvermögen auszuweisen
   - quelle: hwp-bur-2023__rz-0375-s238
     zitat: Dies ist indessen kein Grund, solche Sachanlagen zum (höheren) Veräusserungswert zu bilanzieren.
+  - quelle: hwp-bur-2023__rz-0332-s229
+    zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der Anschaffungs- oder Herstellungskosten auf die voraussichtliche Nutzungsdauer
 - id: G1-405
   vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Mit Anweisung: Abschreibungen 2025 je Kategorie nachrechnen (Methode, Nutzungsdauer, pro rata) und mit Haben 15x9, Konten 68xx
     und Ausweis in ER bzw. Anhang (Absatzerfolgsrechnung) abstimmen. Kein Verzicht wegen höherem Verkehrswert; unterlassene/reduzierte bzw. überhöhte Abschreibungen an G1-321; steuerliche

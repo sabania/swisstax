@@ -78,6 +78,13 @@ regeln:
   regel: 'Protokoll (Audit Trail): jede Aktion, Quelle, Berechnung und jeden Fehler mit Zeitstempel festhalten; Ablage pro Mandat und Jahr in M-Files (im Lesetest nicht ablegen).'
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: Protokoll (Audit Trail). Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
+- bereich: ablauf
+  key: kritische_grundhaltung
+  regel: 'Kritische Grundhaltung: Angaben des Kunden (Anhang, Listen, Vermerke wie «bezahlt», «abgestimmt», «erledigt») mit den Belegen in der Akte abgleichen
+    und auf Widersprüche achten (Betrag, Datum, Gegenpartei); ein Widerspruch wird Notiz (Pendenz bzw. Wesentliche Feststellungen). Ohne gegenteilige
+    Hinweise darf von der Richtigkeit erhaltener Auskünfte und Unterlagen ausgegangen werden.'
+  quelle: ser-2022__1-2-t2
+  zitat: Eine kritische Grundhaltung bedeutet, dass der Abschlussprüfer die Stichhaltigkeit erlangter Informationen und Unterlagen hinterfragt sowie auf Hinweise achtet, welche die Verlässlichkeit von Dokumenten oder von Erklärungen der Unternehmensleitung widerlegen oder infrage stellen.
 - bereich: notizen
   key: pendenz
   regel: 'Notiz «Pendenz»: fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege – mit Konto, Datum und Betrag.'

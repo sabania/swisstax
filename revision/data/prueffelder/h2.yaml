@@ -532,10 +532,16 @@ schritte:
     zitat: so informiert die Revisionsstelle die zuständige Bürgschaftsorganisation
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
+  - quelle: hwp-er-2026__rz-0157-s211
+    zitat: 'Dennoch erfordern sie, dass der Abschlussprüfer ihnen besondere Aufmerksamkeit widmet'
   notiz: 'Darlehen an Aktionär/Organ/Beteiligungsgesellschaft unter Debitoren oder übrigen Forderungen ohne gesonderten Ausweis: Betrag ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen»
-    mit Ausweis-/Umgliederungsvorschlag (ohne Verbuchung), sonst nur Textfeld. Σ Aktionärsforderungen > freies EK oder EK negativ → «Pendenz» an WP (Art. 680 Abs. 2 OR; P1-305/H2-404)
-    und «Schlussbesprechung». Vertragszins unter ESTV-Satz → «Pendenz» Steuerrisiko (S1). Darlehen während Covid-Solidarbürgschaft → «Wesentliche Feststellungen». Vertrag oder VR-Beschluss
-    nicht gefunden → «Pendenz» (PBC) mit durchsuchten Ordnern.'
+    mit Ausweis-/Umgliederungsvorschlag (ohne Verbuchung), darunter nur Textfeld (ausser qualitative Faktoren/besondere Umstände in 3.3 erfasst → Notiz auch darunter). Forderungen gegenüber
+    Aktionären/Organen verlangen besondere Aufmerksamkeit (HWP ER Rz 157; gesonderter Ausweis Art. 959a Abs. 4 OR, Risiko Art. 680 Abs. 2 OR): Ausweisfehler unter der Nichtaufgriffsgrenze im
+    Textfeld ausdrücklich als solchen bezeichnen und im Rapport als Hinweis an den WP nennen; ob er qualitativ wesentlich ist, entscheidet der WP. Σ Aktionärsforderungen > freies EK oder EK
+    negativ → «Pendenz» an WP (Art. 680 Abs. 2 OR; P1-305/H2-404) und «Schlussbesprechung». Vertragszins unter ESTV-Satz → «Pendenz» Steuerrisiko (S1). Darlehen während
+    Covid-Solidarbürgschaft → «Wesentliche Feststellungen». Vertrag oder VR-Beschluss nicht gefunden → «Pendenz» (PBC) mit durchsuchten Ordnern.'
 - id: H2-301
   vorgehen: 'Darlehensaufstellung per 31.12. mit Hauptbuch und Bilanz abstimmen. Je Darlehen Saldo gegen beim Unternehmen vorhandene Nachweise prüfen: a) Saldomeldungen, b) Zinsquittungen/Bankbelege,
     c) Verträge, d) Gegenbuchhaltung (Konzern), e) Kontoauszüge u.a. Je Darlehen Fälligkeiten/Zinstermine mit den Zahlungseingängen in neuer Rechnung (Kontoblätter Folgejahr) vergleichen;
@@ -744,9 +750,11 @@ schritte:
   - Darlehensaufstellung mit Zinssätzen
   - Kontoblätter Zins-/Finanzertrag
   - Bankbelege Zinseingänge
-  rechnen: 'Erwarteter Zinsertrag = Σ (Darlehensbestand × Vertragszins × Laufzeitanteil im Geschäftsjahr); Differenz zu gebuchtem Zins-/Finanzertrag inkl. Abgrenzung; Laufzeit nie im
-    Kopf zählen, immer `rechne`: Beispiel `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.03.2025); saldo * satz * m / 12"` (Auszahlung 31.03. → 9 ganze Monate); taggenau
-    `tage(spaeter, frueher)`, 30/360 `tage360(spaeter, frueher)`.'
+  rechnen: 'Erwarteter Zinsertrag = Σ (Darlehensbestand × Vertragszins × Laufzeitanteil im Geschäftsjahr); Differenz zu gebuchtem Zins-/Finanzertrag inkl. Abgrenzung; Laufzeit nie im Kopf
+    zählen, immer `rechne`. Frühere Grenze = Tag VOR Zinsbeginn bzw. letzter bezahlter Zinstermin, spätere Grenze = 31.12.: Auszahlung 01.02. → `rechne "saldo = 500000; satz = 0.025; m =
+    monate(31.12.2025, 31.01.2025); saldo * satz * m / 12"` (m = 11; falsch wäre monate(31.12.2025, 01.02.2025) = 10). monate() zählt nur ganze Monate: beginnt der Zinslauf nicht am
+    Monatsersten, taggenau rechnen mit `tage(31.12.2025, <Tag vor Zinsbeginn>)` / 365 bzw. 30/360 `tage360(31.12.2025, <Tag vor Zinsbeginn>)` / 360 gemäss Vertrag; zählt der Vertrag den
+    Auszahlungstag nicht mit, das Auszahlungsdatum selbst eingeben. Verwendete Zählweise im Textfeld nennen.'
   feststellung_wenn: Vertraglich geschuldeter Zinsertrag nicht oder unvollständig verbucht, mit Aufwand verrechnet oder wesentliche ungeklärte Differenz zum erwarteten Ertrag.
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1

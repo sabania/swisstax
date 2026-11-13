@@ -11,7 +11,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 536924ad7740fa034be0ccf8301abb4bb7e5ad23ab4b3af0b15abdde86aacb8c
+quelle_sha: 417cc3a10f5b38398382e53f4a59dd0dafb213b78ede9c05bcc2ace26115dcfc
 ---
 
 
@@ -19,7 +19,7 @@ quelle_sha: 536924ad7740fa034be0ccf8301abb4bb7e5ad23ab4b3af0b15abdde86aacb8c
 
 revio Bereich 4 · 29 Schritte (Befragung 11, Analytisch 5, Detail 7, Sonstige 6; EP 11, WP 6) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/f1.md](../wiki/prueffelder/f1.md)
 
-Vorräte inkl. Wertberichtigungen. ER: Bestand via Inventarliste (Zeilen und Zähllisten nachrechnen) und Abstimmung Hauptbuch, Bewertung zu AK/HK bzw. tieferem Netto-Veräusserungswert je Zeile (Art. 960c OR), Abgrenzung, Anhang, stille Reserven. Keine Inventurteilnahme, keine Drittbestätigungen.
+Vorräte inkl. WB. ER: Inventarliste nachrechnen (Zeilen; Zählmengen wesentlicher Positionen) und mit Hauptbuch abstimmen, Bewertung zu AK/HK bzw. tieferem Netto-Veräusserungswert je Zeile (Art. 960c OR), Abgrenzung, Anhang, stille Reserven. Keine Inventurteilnahme, keine Drittbestätigungen.
 
 ## Risiken
 - Ausgewiesene Vorräte sind physisch nicht (mehr) vorhanden: Schwund, Zähl- oder Übertragungsfehler von der Zählliste in die Inventarliste, ungeklärte Inventurdifferenzen. [EX, RI] — [HWP BuR S. 205](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0204-s205.md)
@@ -68,7 +68,7 @@ Vorräte inkl. Wertberichtigungen. ER: Bestand via Inventarliste (Zeilen und Zä
 ## Unterlagen (PBC)
 - Schriftliche Antworten der Kundenbefragung (10.11) zu F1-101 bis F1-111 und zu den Erklärungen aus F1-201/202/204/205 – Auswertung der Befragungsschritte; fehlt eine Antwort, Frage als Pendenz für den WP (Agent befragt nicht selbst)
 - Bewertete Inventarliste per Bilanzstichtag (Menge, Preis, Wert, Totale je Konto, Wertberichtigungen) inkl. Vorjahresinventar – Bestandsnachweis, rechnerische Prüfung und Abstimmung Hauptbuch, Bewertung, VJ-Vergleich (F1-201/203/301/302/405)
-- Inventurinstruktion, Inventurprotokoll, unterzeichnete Zähllisten, Differenzliste – Beurteilung Inventur, Abgleich Zählliste/Inventarliste, Inventurdifferenzen (F1-101/102/401/403)
+- Inventurinstruktion, Inventurprotokoll, unterzeichnete Zähllisten, Differenzliste – Beurteilung Inventur und Inventurdifferenzen (F1-101/102); Abgleich Zählliste/Inventarliste: Auswahl wesentlicher Positionen in F1-301, übrige Artikel und Inventurablauf nur auf Anweisung (F1-401/403)
 - Lagerbuchhaltung bzw. Nachweise permanente Inventur oder Stichprobeninventur (Zählplan, Zählprotokolle, Fortschreibung auf Stichtag) – Bestandsnachweis ohne Stichtagsinventur; Unterscheidung Inventurdifferenz/Bestandesänderung (F1-102/103/402)
 - Lagerumschlags-/Altersliste (letzte Bewegung, letzte Bestellung) und Berechnung der Wertberichtigung unkurant – Ladenhüter, Überalterung, Überbestände (F1-106/203/204)
 - Nachweise zu Entsorgungs-/Recyclingkosten unverkäuflicher Ware (Offerten, Verträge) bzw. Rückstellungsberechnung – Rückstellung für künftige Entsorgungskosten unkuranter Ware (F1-106)
@@ -116,9 +116,8 @@ Vorräte inkl. Wertberichtigungen. ER: Bestand via Inventarliste (Zeilen und Zä
 - Inventarwerte zu Verkaufspreisen (Rückrechnungsmethode) oder nach Preiserhöhungen können über den tatsächlichen Einstandspreisen liegen. — [HWP BuR S. 211](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0241-s211.md)
 - Lifo bei sinkenden Preisen führt zu Werten über den aktuellen Einstandspreisen; Korrektur nötig. — [HWP BuR S. 211](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0239-s211.md)
 - Bei der Durchschnittsmethode weicht der Inventarpreis legitim vom letzten Rechnungspreis ab; Vergleich mit dem nachgerechneten gewichteten Durchschnitt, nicht mit der letzten Rechnung (F1-302). (Praxis, ohne Quelle)
-- Gruppenbewertung darf Unterbewertungen (Zwangsreserven) nicht mit Überbewertungen einzelner Artikel verrechnen. Einzelne Positionen mit Netto-Veräusserungswert unter AK/HK sind trotzdem zu korrigieren. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0231-s209.md)
+- Niederstwert für jede Zeile der Inventarliste prüfen, nicht nur für die im Inventurprotokoll oder vom Kunden genannten Positionen. Gleichartige Vorratskategorien dürfen als Gruppe bewertet werden, die Gruppenbewertung darf aber Unterbewertungen (Zwangsreserven) nicht mit Überbewertungen einzelner Artikel verrechnen: Positionen mit Netto-Veräusserungswert unter AK/HK sind trotzdem zu korrigieren. Σ WB-Bedarf aller Zeilen = betriebsnotwendige WB; nur der Rest der verbuchten WB ist stille Reserve (F1-321). — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0231-s209.md)
 - Die Inventarliste wird oft erst nach dem Stichtag bewertet und von Hand aus den Zähllisten übertragen; Übertragungs- und Formelfehler in Excel-Inventaren sind häufig. Ein mit dem Hauptbuch übereinstimmendes Total schliesst Zeilenfehler (Menge × Preis ≠ Inventarwert) nicht aus; die Zeilen daher bereits in F1-301 nachrechnen. (Praxis, ohne Quelle)
-- Niederstwert nicht nur für die im Inventurprotokoll oder vom Kunden genannten Positionen prüfen: jede Zeile mit Vergleichswert unter AK/HK hat WB-Bedarf (Einzelbewertung). Erst Σ aller Zeilen ist die betriebsnotwendige WB; nur der Rest der verbuchten WB ist stille Reserve (F1-321). — [OR 960](../chunks/or/or__art-960.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

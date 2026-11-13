@@ -441,8 +441,8 @@ fallstricke:
   - C1-102
   - C1-310
   - C1-312
-- text: Hinweise der Vorjahresprüfung je Debitor übernehmen (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) und im GJ neu beurteilen – nie ungelesen
-    «keine Feststellung».
+- text: Hinweise der Vorjahresprüfung je Debitor (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) aus der VJ-Akte lesen und im GJ neu beurteilen
+    (VJ-Text nicht kopieren) – nie ungelesen «keine Feststellung».
   quelle: hwp-er-2026__rz-0011-s180
   zitat: die Ergebnisse aus den vorhergehenden eingeschränkten Revisionen
   schritte:
@@ -778,7 +778,7 @@ schritte:
   - Debitoren-OP-Liste per 31.12.
   - Kontoblatt/Saldoliste Debitoren
   - Erklärung der Differenzen
-  rechnen: 'Σ OP-Liste (nachaddiert) = ausgewiesenes OP-Total = Saldo Konto Debitoren (HB) 31.12.; Differenz = HB − OP-Liste Immer mit `rechne`, auch wenn die Werte ähnlich aussehen:
+  rechnen: 'Σ OP-Liste (nachaddiert) = ausgewiesenes OP-Total = Saldo Konto Debitoren (HB) 31.12.; Differenz = HB − OP-Liste. Immer mit `rechne`, auch wenn die Werte ähnlich aussehen:
     `rechne "op = <Total OP-Liste>; hb = <Saldo Debitoren Saldoliste>; hb - op"`.'
   feststellung_wenn: Differenz ≠ 0 und nicht nachvollziehbar erklärt, oder Nachaddition weicht vom ausgewiesenen OP-Total ab.
   fundstellen:
@@ -976,8 +976,8 @@ schritte:
 - id: C1-310
   vorgehen: 'Die im Prüfungszeitpunkt noch offenen, überfälligen Guthaben einzeln beurteilen: Mahnstand, Betreibung/Konkurs, Bestreitung, Zahlungsvereinbarung, Sicherheiten. Je Posten
     einen Bewertungsvorschlag (werthaltig, Einzel-WB, Ausbuchung) dokumentieren, Korrekturbedarf als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag (keine Verbuchung;
-    bei Ausbuchung MWST-Anteil getrennt, Art. 41 MWSTG) und an C1-302 übergeben. Je Debitor Hinweise aus anderen Unterlagen übernehmen: VJ-Akte (nicht gebuchte Wertberichtigungen, «im
-    Folgejahr neu beurteilen»), Aktennotizen zu Rechtsfällen/Mängelrügen (Rückstellungen O1/M3), Korrespondenz, Zahlungseingänge des Folgejahres (C1-309); jeden Hinweis neu beurteilen
+    bei Ausbuchung MWST-Anteil getrennt, Art. 41 MWSTG) und an C1-302 übergeben. Je Debitor Hinweise aus anderen Unterlagen lesen (VJ-Text nicht kopieren): VJ-Akte (nicht gebuchte Wertberichtigungen,
+    «im Folgejahr neu beurteilen»), Aktennotizen zu Rechtsfällen/Mängelrügen (Rückstellungen O1/M3), Korrespondenz, Zahlungseingänge des Folgejahres (C1-309); jeden Hinweis neu beurteilen
     und das Ergebnis im Textfeld festhalten.'
   nachweise:
   - OP-Liste im Prüfungszeitpunkt

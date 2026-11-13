@@ -25,8 +25,9 @@ TOOLS = [
                     "genauen nächsten Aufrufen, revio-Werkzeugketten, Fertig-wenn, nächste Aufgabe; bei Fachfragen Themen, Regeln und Fundstellen. "
                     "Eingabe: Aufgabe/Frage in eigenen Worten oder id "
                     "(mandat-start, import, prueffeld, unterlagen, rapport, gvb-bericht, pdf-akte, notiz, wesentlichkeit, kapitalschutz, "
-                    "vorjahresabstimmung, delkredere, sachanlagen, abschluss, auftrag, fachfrage) oder direkt ein Prüffeld (C1) bzw. "
-                    "einen Prüfschritt (C1-302). Ohne Eingabe: Liste aller Aufgaben.",
+                    "vorjahresabstimmung, delkredere, sachanlagen, abschluss, auftrag, fachfrage) oder direkt ein Prüffeld (C1; mehrere: "
+                    "«D1 und H3», «L1/N1») bzw. einen Prüfschritt (C1-302). Mehrere Prüffelder: alle Bündel nacheinander + eine Statustabelle. "
+                    "Ohne Eingabe: Liste aller Aufgaben. Bei Prüffeld-Aufträgen danach `akte` (Mandantenordner erschliessen).",
      "inputSchema": obj({"aufgabe": {**S, "description": "z.B. «Prüffeld C1 vorbereiten», «Rapport schreiben», «kapitalschutz», «C1-302»"}}, [])},
     {"name": "pruefschritt", "fn": lambda a: rv.pruefschritt(a["id"]),
      "description": "Ein Prüfschritt des revio-4.0-Katalogs (z.B. C1-302): Katalogtext, Typ, EP/WP, Prüfziele, Rolle des Agenten (vorbereiten / "
@@ -128,6 +129,25 @@ TOOLS = [
                     "dsg/edoeb (Datenschutz/KI), stgb (Berufsgeheimnis), covid-sbueg, zgb, fusg). "
                     "Für Fragen, die die anderen Tools nicht beantworten; danach zeige.",
      "inputSchema": obj({"query": S, "quelle": S, "typ": S, "n": {"type": "integer"}}, ["query"])},
+    {"name": "akte", "fn": lambda a: rv.akte(a["pfad"], a.get("vj"), a.get("pf"), a.get("suche"), a.get("datei"), a.get("von"), a.get("bis"),
+                                             a.get("inhalt"), a.get("abschnitt"), a.get("ueberschrift"), int(a.get("n") or 40)),
+     "description": "Mandantenakte (Ordner mit .md/.txt/.csv; andere Dateien nur gelistet) erschliessen – NUR LESEN, nichts wird gespeichert. "
+                    "Nur pfad: Baum mit Zeilen/KB und vermutetem Prüffeld je Ordner/Datei. pf (z.B. C1): Dateien des Prüffelds, Treffer in "
+                    "Saldoliste/Hauptbuch/Jahresrechnung und in Ordnern anderer Prüffelder (Datei:Zeile), Unterlagen → Fundort. suche: "
+                    "Volltext über GJ (und vj), «a|b» = a oder b, Zahlen als ganzes Token (4711 ≠ 47110). inhalt (Datei): Überschriften, "
+                    "Gliederung, Seiten mit Zeilennummern. abschnitt (Datei) + ueberschrift: Text bis zur nächsten gleichrangigen Überschrift. "
+                    "datei + von/bis: Zeilen mit Nummern (höchstens 400). Grosse Dateien (> 30 KB) so lesen statt mit read. «fehlt» erst "
+                    "nach suche in GJ und VJ. Pfad absolut, relativ zum Arbeitsordner oder zum OpenClaw-Workspace.",
+     "inputSchema": obj({"pfad": {**S, "description": "Ordner der Akte (Geschäftsjahr), z.B. mandant/<kunde>-<jahr>"},
+                         "vj": {**S, "description": "Ordner der Vorjahresakte (bei Übersicht, pf und suche mitgelesen)"},
+                         "pf": {**S, "description": "Prüffeld-Code, z.B. C1"},
+                         "suche": {**S, "description": "z.B. «Protokoll|Generalversammlung|Verwaltungsrat|Zirkular» oder «4711»"},
+                         "datei": {**S, "description": "Datei relativ zur Akte (oder eindeutiger Dateiname) – Zeilen lesen"},
+                         "von": {"type": ["integer", "string"]}, "bis": {"type": ["integer", "string"]},
+                         "inhalt": {**S, "description": "Datei: Inhaltsverzeichnis mit Zeilennummern"},
+                         "abschnitt": {**S, "description": "Datei, aus der ein Abschnitt gelesen wird (mit ueberschrift)"},
+                         "ueberschrift": {**S, "description": "Überschrift oder Ziffer, z.B. «Anhang», «6», «5.8»"},
+                         "n": {"type": "integer", "description": "höchstens n Treffer (Standard 40)"}}, ["pfad"])},
     {"name": "zeige", "fn": lambda a: rv.zeige(a["ref"], a.get("abschnitt")),
      "description": "Wortlaut eines Chunks (Id wie ser-2022__anh-d-s075-1, hwp-er-2026__rz-0113-s060, or__art-725a) oder einer Seite (quick/…md, wiki/…md).",
      "inputSchema": obj({"ref": S, "abschnitt": S}, ["ref"])},
@@ -156,9 +176,10 @@ def main():
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "revisionswiki", "version": "1.0.0"},
                 "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0). IMMER ZUERST `aufgabe` mit der Aufgabe oder Frage in eigenen "
-                                "Worten – die Antwort nennt die nächsten Aufrufe (pruefschritt, revio, rechne …). Agent bereitet nur vor: nie Visum, ✓, "
-                                "Abschluss/Status, Freigabe, Buchung, Unterzeichnung, Kundenversand. revio-Werkzeuge mit ⛔ (deny) nie aufrufen, "
-                                "auch nicht über revio_call."}})
+                                "Worten – die Antwort nennt die nächsten Aufrufe (akte, pruefschritt, revio, rechne …). Mandantenakte mit `akte` "
+                                "erschliessen (grosse Dateien abschnittweise; «fehlt» erst nach `akte … suche`). Agent bereitet nur vor: nie Visum, ✓, "
+                                "Abschluss/Status, Freigabe, Buchung, Unterzeichnung, Kundenversand; keine Nachrichten-, Mail- oder Web-Werkzeuge. "
+                                "revio-Werkzeuge mit ⛔ (deny) nie aufrufen, auch nicht über revio_call."}})
         elif meth == "tools/list":
             send({"jsonrpc": "2.0", "id": i, "result": {"tools": [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]}})
         elif meth == "tools/call":

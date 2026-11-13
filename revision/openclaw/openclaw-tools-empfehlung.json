@@ -1,0 +1,11 @@
+{
+ "hinweis": "Empfehlung Werkzeugrechte für den Revisionsagenten in OpenClaw (eingebaute OpenClaw-Werkzeuge; revio-Werkzeuge: revio-tool-policy.json). Den Block «tools» in die Konfiguration des Agenten übernehmen (agents.list[].tools bzw. tools). Gruppen laut OpenClaw-Doku (gateway/config-tools/tool-policy): group:messaging = message; group:web = web_search, x_search, web_fetch; group:automation = heartbeat_respond, automations/cron, gateway, plugins, openclaw; group:nodes = nodes, computer. Begründung: Der Agent versendet nichts an Kunden – E-Mail nur an die freigegebene WP-Adresse, in der Testphase nur als Entwurf (Konzept consis, konzept-ki-revisionsagent-2026__c009-2; Regel email) –, Mandatsdaten gehören nie in externe KI-Dienste oder die Websuche (Berufsgeheimnis, konzept-ki-revisionsagent-2026__c015-3, seminar-ki-datenschutz-2026__s006-1; OR 730b Abs. 2, StGB 321; Regel geheimnis_ki), und der Agent plant oder startet keine Abläufe auf eigene Faust (Cron, Gateway, Plugins, Geräte). Im E2E-Lauf E0 hat der Agent das Werkzeug message zum «Senden» einer Notiz benutzt. Offen (Entscheid consis): browser (group:ui) erreicht ebenfalls das Web – bei Bedarf zusätzlich «browser» in deny aufnehmen. Lesen (read, ls) und die revisionswiki-Werkzeuge bleiben erlaubt.",
+ "tools": {
+  "deny": [
+   "group:messaging",
+   "group:web",
+   "group:automation",
+   "group:nodes"
+  ]
+ }
+}

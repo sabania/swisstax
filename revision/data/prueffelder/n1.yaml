@@ -453,17 +453,24 @@ fallstricke:
     Einbuchung gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber ist unzulässig → Notiz «Wesentliche Feststellungen».'
   quelle: hwp-bur-2023__rz-0721-s307
   zitat: Nicht zulässig ist daher die rückwirkende Einbuchung eines Passivdarlehens unter Rangrücktritt gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber oder der Darlehensgeberin.
-- text: 'Rangrücktritt: Für die Deckung zählt der Betrag laut unterzeichneter Vereinbarung (inkl. Zinsen), nicht der Darlehenssaldo und nicht die Anhangangabe; Anhang ↔ Vereinbarung
-    abgleichen (N1-320), Deckung in P1-313 rechnen.'
+- text: 'Rangrücktritt: Für die Deckung zählt je Gläubiger min(Betrag laut gültiger, unterzeichneter Vereinbarung; bestehende Forderung = geschuldeter Betrag + aufgelaufene, vom
+    Rangrücktritt erfasste Zinsen laut Kontoblatt) – nicht die Anhangangabe; ein Darlehenssaldo ohne Vereinbarung zählt nicht; nach Verzicht oder Umwandlung in EK fällt die Vereinbarung
+    dahin (HWP ER Rz 416); Anhang ↔ Vereinbarung abgleichen (N1-320), Deckung in P1-313 rechnen.'
   quelle: hwp-er-2026__rz-0410-s123
   zitat: Die Revisionsstelle vermag nur einen schriftlichen Rangrücktritt zu beurteilen.
+  fundstellen:
+  - quelle: or__art-725b-t1
+    zitat: 'sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst'
+  - quelle: hwp-er-2026__rz-0416-s124
+    zitat: 'beides führt zum Dahinfallen der Vereinbarung'
 - text: 'RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht – die Verbindlichkeit bleibt in voller Höhe Fremdkapital; nie einen
     Buchungsvorschlag auf das Darlehen ableiten. Reduktion während Überschuldung ohne die drei Voraussetzungen (HWP ER Rz 425) → «Wesentliche Feststellungen» + «Schlussbesprechung» (N1-105,
     N1-401).'
   quelle: hwp-er-2026__rz-0423-s125-t1
   zitat: Er bewirkt auch keine Veränderung der Forderung, ausser, dass sie gestundet und damit einredebelastet wird.
 - text: 'Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen;
-    Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303).'
+    frühere Grenze = Tag vor Zinsbeginn bzw. letzter bezahlter Zinstermin (Auszahlung 01.02. → monate(31.12.2025, 31.01.2025) = 11, nicht monate(31.12.2025, 01.02.2025) = 10); monate() zählt
+    nur ganze Monate – beginnt der Zinslauf im Laufe eines Monats, tage()/365 bzw. tage360()/360 gemäss Vertrag verwenden; Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303).'
   quelle: hwp-bur-2023__rz-0048-s066
   zitat: Der Grundsatz der zeitlichen Abgrenzung verlangt, dass Aufwand und Ertrag, die zeitraumbezogen anfallen (z.B. Zinsen, Miete), auch entsprechend abgegrenzt und erfasst werden.
 fragen_kunde:
@@ -661,10 +668,10 @@ schritte:
 - id: N1-105
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten. Ohne Anweisung: kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; erkannte Punkte als Notiz
     «Schlussbesprechung» bzw. «Pendenz», Rangrücktrittsvereinbarungen, Kontoblätter und Zwischenabschlüsse als Beilage. Mit Anweisung (weiter gehende Prüfungshandlung, SER Anh. D, als
-    «Vorbereitung für WP» kennzeichnen): schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen) auswerten; fehlt sie:
-    Frage als Pendenz. Mit Vereinbarungen (N1-401) und geprüften Zwischenabschlüssen abgleichen. Bonitätsnachweise zusammenstellen; Bonitätsbeurteilung als Pendenz an den WP (kein eigenes
-    Urteil). Ohne Anweisung trotzdem lesen (Praxis/intern): alle Rangrücktrittsvereinbarungen aus GJ-, VJ- und Dauerakte mit Gläubiger, Betrag laut Vereinbarung, Datum und Zinsklausel
-    auflisten (Beilage zur Notiz) und die Σ an P1-313 übergeben; dort `kapitalverlust … --rangruecktritt <Σ>` gegen die Überschuldung rechnen.'
+    «Vorbereitung für WP» kennzeichnen): schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen) auswerten; fehlt sie: Frage
+    als Pendenz. Mit Vereinbarungen (N1-401) und geprüften Zwischenabschlüssen abgleichen. Bonitätsnachweise zusammenstellen; Bonitätsbeurteilung als Pendenz an den WP (kein eigenes Urteil).
+    Ohne Anweisung trotzdem lesen (Praxis/intern): alle Rangrücktrittsvereinbarungen aus GJ-, VJ- und Dauerakte mit Gläubiger, Betrag laut Vereinbarung, Forderungssaldo inkl. aufgelaufener
+    Zinsen laut Kontoblatt, Datum und Zinsklausel auflisten (Beilage zur Notiz) und die Σ an P1-313 übergeben; dort `kapitalverlust … --rangruecktritt <Σ>` gegen die Überschuldung rechnen.'
   nachweise:
   - Antwort GL/VR zu Rangrücktritten
   - Rangrücktrittsvereinbarungen
@@ -733,8 +740,10 @@ schritte:
   - Kontoblatt Zinsaufwand
   - Verträge (Zinssatz, Auszahlungsdatum)
   rechnen: 'Erwarteter Zins = Σ (Saldo × Zinssatz × Laufzeit im Jahr ab Auszahlung bzw. bis Amortisation); Abweichung = gebuchter Zinsaufwand – Erwartungswert ≤ tolerierbare Abweichung
-    (Toleranzwesentlichkeit 3.3, `revio K3`); Laufzeit nie im Kopf zählen, immer `rechne`: Beispiel `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.03.2025); saldo *
-    satz * m / 12"` (Auszahlung 31.03. → 9 ganze Monate); taggenau `tage(spaeter, frueher)`, 30/360 `tage360(spaeter, frueher)`.'
+    (Toleranzwesentlichkeit 3.3, `revio K3`); Laufzeit nie im Kopf zählen, immer `rechne`. Frühere Grenze = Tag VOR Zinsbeginn bzw. letzter bezahlter Zinstermin, spätere Grenze = 31.12.:
+    Auszahlung 01.02. → `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.01.2025); saldo * satz * m / 12"` (m = 11; falsch wäre monate(31.12.2025, 01.02.2025) = 10). monate()
+    zählt nur ganze Monate: beginnt der Zinslauf nicht am Monatsersten, taggenau rechnen mit `tage(31.12.2025, <Tag vor Zinsbeginn>)` / 365 bzw. 30/360 `tage360(31.12.2025, <Tag vor
+    Zinsbeginn>)` / 360 gemäss Vertrag; zählt der Vertrag den Auszahlungstag nicht mit, das Auszahlungsdatum selbst eingeben. Verwendete Zählweise im Textfeld nennen.'
   feststellung_wenn: Abweichung zwischen Erwartungswert und gebuchtem Zinsaufwand über der tolerierbaren Abweichung (Toleranzwesentlichkeit 3.3, `revio K3`) und nicht erklärbar.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -813,8 +822,13 @@ schritte:
     zitat: wie beispielsweise Darlehens- und Hypothekenzinsen
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
-  notiz: Marchzins fehlt oder Differenz ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (Zinsaufwand an passive Rechnungsabgrenzung; ohne Verbuchung). Differenz
-    < Nichtaufgriffsgrenze → nur im Textfeld protokollieren. Zinsabgrenzungsberechnung, Vertrag oder Zinsabrechnung nicht gefunden → «Pendenz» (Konto, Datum, Betrag, durchsuchte Ordner).
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
+  notiz: 'Zins nicht erfasst (Marchzins fehlt) oder Differenz ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag Zinsaufwand an passive Rechnungsabgrenzung bzw.
+    Zinsverbindlichkeit (ohne Verbuchung). Zins im Zinsaufwand erfasst, aber dem Darlehenskonto gutgeschrieben, ohne dass der Vertrag die Kapitalisierung vorsieht → nur «Wesentliche
+    Feststellungen» mit Umgliederungsvorschlag Darlehen an passive Rechnungsabgrenzung bzw. Zinsverbindlichkeit (kein zusätzlicher Zinsaufwand; ab Nichtaufgriffsgrenze); Kapitalisierung
+    vertraglich vereinbart → keine Feststellung. Differenz < Nichtaufgriffsgrenze → nur im Textfeld protokollieren (ausser qualitative Faktoren/besondere Umstände in 3.3 erfasst → Notiz auch
+    darunter). Zinsabgrenzungsberechnung, Vertrag oder Zinsabrechnung nicht gefunden → «Pendenz» (Konto, Datum, Betrag, durchsuchte Ordner).'
 - id: N1-304
   vorgehen: 'Bei Darlehen Beteiligter/Nahestehender oder von ihnen sichergestellten Drittkrediten: zulässiges Fremdkapital nach ESTV-KS 6a berechnen (Verkehrswerte Ende Steuerperiode,
     mangels Nachweis Buchwerte) und mit dem Fremdkapital vergleichen. Zinssatz mit den ESTV-Höchstsätzen des Geschäftsjahres vergleichen: `wert zins beteiligte <GJ>` (z.B. `wert zins

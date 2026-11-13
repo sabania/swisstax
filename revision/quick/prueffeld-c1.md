@@ -12,7 +12,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 417769204b10edb45175cb7efaaf8e4daba29faf8efadab47439f072b86e29f3
+quelle_sha: f8db06ddc437e51941ff50f831b4d6d5330ebe199c9c6aebb398a0497fa44d54
 ---
 
 
@@ -138,7 +138,7 @@ Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte (106, 208, 304–3
 - Weiter gehende Prüfungshandlungen (WP-Schritte) nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
 - Betragsdifferenzen zwischen OP-Liste (Druckdatum nach Stichtag) und Saldoliste/Hauptbuch nicht wegrunden, sondern einzeln erklären lassen. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0114-s185-t2.md)
 - Nachweise für C1 liegen oft in anderen Ordnern/Prüffeldern: Bankbestätigung und Kreditverträge (flüssige Mittel, Bankverbindlichkeiten) → Zession; Projektliste/Abnahmeprotokolle (nicht fakturierte Leistungen) → Ertragsrealisierung/Akonto; Aktennotizen zu Rechtsfällen (Rückstellungen) → bestrittene Forderungen. «Nicht vorhanden» erst nach akteweiter Suche (GJ und VJ), sonst «nicht gefunden in <Ordner>» und Pendenz. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
-- Hinweise der Vorjahresprüfung je Debitor übernehmen (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) und im GJ neu beurteilen – nie ungelesen «keine Feststellung». — [HWP ER S. 180](../chunks/hwp-er-2026/hwp-er-2026__rz-0011-s180.md)
+- Hinweise der Vorjahresprüfung je Debitor (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) aus der VJ-Akte lesen und im GJ neu beurteilen (VJ-Text nicht kopieren) – nie ungelesen «keine Feststellung». — [HWP ER S. 180](../chunks/hwp-er-2026/hwp-er-2026__rz-0011-s180.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.

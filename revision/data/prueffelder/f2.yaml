@@ -288,7 +288,8 @@ fallstricke:
   - F2-202
   - F2-302
 - text: 'Verlustprojekte: Marge jeder Zeile der Projektliste mit `rechne` prüfen (Auftragswert − Kosten − Restkosten), nicht nur Totale oder die vom Kunden markierten Projekte. Ein sich
-    abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung.'
+    abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung. −Marge ist nur der Verlustindikator; WB-Bedarf und Rückstellung ab dem
+    Bilanzwert rechnen (F2-105).'
   quelle: hwp-bur-2023__rz-0747-s315
   zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich zurückzustellen.
   schritte:
@@ -431,10 +432,13 @@ schritte:
   - Schriftliche Antwort Geschäftsleitung/Projektleitung
   - Projektliste mit Restkosten
   - Rückstellungsspiegel
-  rechnen: 'Jede Zeile der Projektliste mit `rechne`, Ergebnis mit Projekt-Id beschriften: Marge = Auftragswert − Kosten bis Stichtag − geschätzte Restkosten; Marge < 0 → Verlustprojekt,
-    Verlust = −Marge (sofort voll erfassen: WB auf dem Projekt, Verlust über dem Bilanzwert als Rückstellung). Gegenprobe: Σ Zeilen = Listentotal.'
-  feststellung_wenn: Kein Verfahren zur verlustfreien Bewertung, Restkosten nicht geschätzt oder Projekt mit erwartetem Verlust ohne Wertberichtigung/Rückstellung. Verlust (−Marge) nicht
-    vollständig als WB/Rückstellung erfasst.
+  rechnen: 'Jede Zeile der Projektliste mit `rechne`, Ergebnis mit Projekt-Id beschriften. (1) Verlustindikator: Marge = Auftragswert − Kosten bis Stichtag − geschätzte Restkosten;
+    Marge < 0 → Verlustprojekt. (2) Bewertung ab dem Bilanzwert (verlustfreie Bewertung): Vergleichswert = noch zu erfassender Erlös (Auftragswert − bereits als Ertrag gebuchte Teilrechnungen)
+    − Erlösminderungen − noch anfallende Kosten (Restkosten inkl. Vertriebskosten); Bilanzwert = Wert vor WB; WB-Bedarf = min(Bilanzwert; max(0; Bilanzwert − Vergleichswert));
+    Rückstellung = max(0; −Vergleichswert) (Verlust über dem Bilanzwert); beide mit der verbuchten WB/Rückstellung vergleichen. Enthält der Bilanzwert einen Gewinnanteil, ist der WB-Bedarf
+    grösser als −Marge. Gegenprobe: Σ Zeilen = Listentotal.'
+  feststellung_wenn: Kein Verfahren zur verlustfreien Bewertung, Restkosten nicht geschätzt oder Projekt mit erwartetem Verlust ohne Wertberichtigung/Rückstellung. WB-Bedarf bzw. Rückstellung
+    nach (2) nicht vollständig erfasst.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-3
     zitat: Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen sichergestellt ist
@@ -444,9 +448,13 @@ schritte:
     zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich zurückzustellen.
   - quelle: hwp-bur-2023__rz-0747-s315
     zitat: eine Rückstellung für Verluste, die über die aufgelaufenen Kosten hinausgehen
-  notiz: 'Verlustprojekt ohne (ausreichende) WB/Rückstellung ≥ NAG → «Wesentliche Feststellungen» als Feststellung formuliert (nicht als Kundenfrage): Projekt, Verlust mit `rechne`,
-    Buchungsvorschlag (Aufwand bzw. Bestandesänderung an WB angefangene Arbeiten; Rest an Rückstellung drohende Verluste), Betrag auch mit der Gesamtwesentlichkeit (3.3) vergleichen
-    und nennen; < NAG nur Textfeld. Restkosten oder Antwort fehlen → «Pendenz».'
+  - quelle: hwp-bur-2023__rz-0246-s212
+    zitat: die Verminderung des Preises auf dem Absatzmarkt um die noch zu erwartenden Erlösschmälerungen und Kosten, ergibt den für Bewertungszwecke massgeblichen Vergleichswert
+  - quelle: hwp-bur-2023__rz-0246-s212
+    zitat: Sind die Anschaffungs- oder Herstellungskosten höher als dieser Vergleichswert, ist eine entsprechende Wertberichtigung vorzunehmen
+  notiz: 'Verlustprojekt ohne (ausreichende) WB/Rückstellung ≥ NAG → «Wesentliche Feststellungen» als Feststellung formuliert (nicht als Kundenfrage): Projekt, WB-Bedarf und Rückstellung
+    mit `rechne`, Buchungsvorschlag (Aufwand bzw. Bestandesänderung an WB angefangene Arbeiten; Rest an Rückstellung drohende Verluste), Betrag auch mit der Gesamtwesentlichkeit (3.3)
+    vergleichen und nennen; < NAG nur Textfeld. Restkosten oder Antwort fehlen → «Pendenz».'
 - id: F2-201
   vorgehen: Saldo nicht fakturierte Leistungen (Konto 1301) und Bestandesänderung (3900) mit Vorjahr vergleichen; Relationen zu Nettoerlös und erhaltenen Anzahlungen (2030) bilden. Wesentliche
     Veränderungen und unerwartete Entwicklungen im Textfeld begründen; Erklärungen der Gesellschaft als Pendenz anfordern und mit der Projektliste plausibilisieren.
@@ -527,7 +535,8 @@ schritte:
   - Kontoblätter Folgejahr
   - Fakturen/Schlussrechnungen neue Periode
   rechnen: 'Fertigstellungsgrad = Kosten bis 31.12. / (Kosten bis 31.12. + Restkosten); Vergleich Bilanzwert mit Folgefakturierung abzüglich Anzahlungen; Abnahme ≤ Stichtag → Ertrag
-    im Prüfjahr: Ergebniswirkung = Schlussrechnungsbetrag (Auftragswert − bereits als Ertrag erfasste Teilrechnungen) − Bilanzwert angefangene Arbeit (mit `rechne`)'
+    im Prüfjahr, mit `rechne`: Ertrag Prüfjahr = Auftragswert (exkl. MWST) − bereits als Ertrag gebuchte Teilrechnungen; Ergebniswirkung = Ertrag Prüfjahr − Bilanzwert angefangene Arbeit.
+    Nicht den Nettobetrag einer Schlussrechnung nach Abzug der Akonto-/Anzahlungen als Ertrag verwenden; erhaltene Anzahlungen werden mit der Forderung verrechnet (ohne Ergebniswirkung).'
   feststellung_wenn: Projekt vor dem Stichtag abgenommen, aber noch als angefangene Arbeit bilanziert; Folgefakturen oder Gutschriften deuten auf Überbewertung oder Verlust hin.
   fundstellen:
   - quelle: ser-2022__anh-d-s079-1
@@ -536,8 +545,11 @@ schritte:
     zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
   - quelle: hwp-bur-2023__rz-0745-s315
     zitat: Umsatz kann dann als realisiert betrachtet und somit erfasst werden, wenn die dem Vertrag zugrunde liegende Leistungsverpflichtung
-  notiz: 'Abnahme vor dem Stichtag, Projekt aber noch als angefangene Arbeit → «Wesentliche Feststellungen» (Sachverhalt des Prüfjahres, kein Ereignis nach dem Bilanzstichtag) mit Buchungsvorschlag:
-    Forderung bzw. aktive Abgrenzung an Ertrag; Bestandesänderung an angefangene Arbeiten (ohne Verbuchung). < NAG nur Textfeld; Abnahmedatum unklar → «Pendenz».'
+  - quelle: hwp-bur-2023__rz-0748-s316-t2
+    zitat: eine Forderung gegenüber dem Bauherrn, die mit den erhaltenen Anzahlungen zu verrechnen ist
+  notiz: 'Abnahme vor dem Stichtag, Projekt aber noch als angefangene Arbeit: Ergebniswirkung ≥ NAG → «Wesentliche Feststellungen» (Sachverhalt des Prüfjahres, kein Ereignis nach dem
+    Bilanzstichtag) mit Buchungsvorschlag (ohne Verbuchung): Forderung bzw. aktive Abgrenzung an Ertrag (Ertrag Prüfjahr); Bestandesänderung an angefangene Arbeiten (Bilanzwert); erhaltene
+    Anzahlungen an Forderung (Verrechnung). < NAG nur Textfeld; Abnahmedatum unklar → «Pendenz».'
 - id: F2-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung»:
     Hinweise auf erhöhtes Risiko aus F2-1xx/2xx an WP melden, nicht selbst starten. Mit Anweisung: Projekte mit hohem Wert bzw. Schlüsselprojekte auswählen; Kosten je Projekt mit Stundenrapporten,

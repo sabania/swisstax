@@ -24,6 +24,13 @@ Tools `revisionswiki__<name>` (OpenClaw) bzw. `mcp__plugin_revisionswiki_revisio
 6. **Antwort:** Ergebnis zuerst · Fundstelle(n) als Chunk-ID mit kurzem Zitat · Wissensstatus (z.B. ☑️ agent-geprüft) · was der
    WP entscheidet.
 
+## Akte und Grenzen
+- Fragen zu einer Mandantenakte (Belege, Protokolle, Jahresrechnung): `akte <pfad>` (Übersicht) · `--pf <code>` (Dateien je Prüffeld) ·
+  `--suche "a|b"` · `--inhalt <datei>` · `--abschnitt <datei> "<Überschrift>"` · `--datei <datei> --von N` – nur lesen. «Fehlt» erst nach
+  `--suche` in GJ- und VJ-Akte; nichts erfinden ^[konzept-ki-revisionsagent-2026__c005-1]; Status nie «abgeschlossen» oder «✓».
+- OpenClaw-Werkzeuge `message`, E-Mail und Web (`web_search`, `web_fetch`, `browser`) nie benutzen: kein Versand
+  ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche ^[konzept-ki-revisionsagent-2026__c015-3].
+
 ## Quellenrang
 OR (Gesetz) > **SER** (massgebend für die eingeschränkte Revision) > HWP ER > HWP BuR, Q&A, Muster, ESTV-Praxis > Fachliteratur > intern
 (Konzept consis). SA-CH und HWP OR gelten nur für die **ordentliche** Revision: für die eingeschränkte Revision nicht als Grundlage

@@ -666,8 +666,12 @@ schritte:
   - Jahresrechnung des Schuldners
   - Verträge und Sicherheiten
   - Zahlungseingänge neue Rechnung
-  rechnen: Ungedeckter Betrag = Forderung − werthaltige Sicherheiten; Gesamtengagement = Beteiligungsbuchwert + Darlehen + übrige Forderungen ggü. derselben Gesellschaft; Unterdeckung
-    = Gesamtengagement − anteiliges EK der Gesellschaft
+  rechnen: 'Ungedeckter Betrag = Forderung − werthaltige Sicherheiten. Beteiligungsgesellschaft (gleiche Begriffe wie H3-102): anteiliges EK = Eigenkapital der Gesellschaft × Kapitalquote;
+    Unterdeckung = Buchwert Beteiligung − anteiliges EK (> 0 = Indiz für Wertberichtigung der Beteiligung, höchstens bis zum Buchwert). Darlehen und Forderungen an die Gesellschaft sind
+    in deren Bilanz Fremdkapital und nicht nochmals vom EK abzuziehen. EK der Gesellschaft negativ: Beteiligung voll betroffen, zusätzlich Indiz auf Forderungen ≤ min(−EK der Gesellschaft;
+    Σ Darlehen und Forderungen ggü. der Gesellschaft), zuerst nachrangige, dann übrige Forderungen (Kaskade); bei gleichrangigen Drittgläubigern kleiner. Gesamtengagement = Buchwert
+    Beteiligung + Darlehen + übrige Forderungen; Σ Wertberichtigungen ≤ Gesamtengagement. Rechenschema Praxis/intern (Substanzwert als Indiz); höheren erzielbaren Wert nur mit Ertragswert-/Planungsbegründung
+    der GL (H3-102/H3-302); den Betrag bestimmt der WP.'
   feststellung_wenn: Schuldner mit schlechter oder unklarer Bonität (Verluste, negatives Eigenkapital, keine Sicherheit) ohne angemessene Wertberichtigung.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0160-s192
@@ -679,6 +683,10 @@ schritte:
   - quelle: hwp-bur-2023__rz-0293-s222
     zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
       zuzuordnen
+  - quelle: hwp-bur-2023__rz-0291-s222
+    zitat: Sinkt der erzielbare Wert einer Beteiligung unter den bisherigen Buchwert, wird eine Wertberichtigung erforderlich.
+  - quelle: hwp-bur-2023__rz-0292-s222
+    zitat: beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung
 - id: D1-307
   vorgehen: Zahlungskonditionen/Fälligkeit je wesentlicher Forderung mit dem Stichtag vergleichen und Zahlungseingänge nach dem Stichtag aus Kontoauszügen/Kontoblättern neue Rechnung
     erheben. Überfällige, nicht bezahlte oder bestrittene Posten auf Wertberichtigungsbedarf prüfen; gebuchte Wertberichtigung mit Bedarf vergleichen und Differenz dokumentieren.

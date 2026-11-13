@@ -179,12 +179,14 @@ aussagen:
   quelle: ser-2022__8-3-2-t3
   zitat: Beispiele für Fälle, in denen der Abschlussprüfer einen Zusatz mit weiteren Informationen für notwendig halten kann
 agent:
-- 'FEHLERFALLEN – zuerst lesen: (1) RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht, die Verbindlichkeit bleibt in voller
-  Höhe Fremdkapital (hwp-er-2026__rz-0423-s125-t1) – nie Buchungsvorschlag auf das Darlehen. (2) Reduktion während Überschuldung nur mit allen drei Voraussetzungen (a)–(c) (hwp-er-2026__rz-0425-s126);
-  fehlt eine → Notiz «Wesentliche Feststellungen» + «Schlussbesprechung». (3) Deckung = Σ Beträge laut unterzeichneten Vereinbarungen (aktuelle Fassung; auch VJ-Akte/Dauerakte), nicht
-  Darlehenssaldo und nicht Anhang (hwp-er-2026__rz-0410-s123); Anhangangabe damit abgleichen. (4) Rechnen, nie im Kopf: `kapitalverlust … --rangruecktritt <Σ>` (Verbindlichkeiten wie
-  bilanziert, RR-Darlehen bleiben Fremdkapital); vorher Korrekturvorschläge anderer Prüffelder kumulieren (hwp-er-2026__rz-0053-s189) und «nach Korrekturen» nochmals rechnen. (5) Die
-  Rechnung gehört in P1-313 (vorbereitbar); N1-105/L1-105/L1-304 (WP) und N1-401 (4xx) ohne Anweisung nur mit Notiz und Beilage.'
+- 'FEHLERFALLEN – zuerst lesen: (1) RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht, die Verbindlichkeit bleibt in voller Höhe
+  Fremdkapital (hwp-er-2026__rz-0423-s125-t1) – nie Buchungsvorschlag auf das Darlehen. (2) Reduktion während Überschuldung nur mit allen drei Voraussetzungen (a)–(c)
+  (hwp-er-2026__rz-0425-s126); fehlt eine → Notiz «Wesentliche Feststellungen» + «Schlussbesprechung». (3) Deckung = Σ je Gläubiger min(Betrag laut gültiger, unterzeichneter Vereinbarung
+  (aktuelle Fassung; auch VJ-Akte/Dauerakte; hwp-er-2026__rz-0410-s123); bestehende Forderung = geschuldeter Betrag + aufgelaufene, vom Rangrücktritt erfasste Zinsen laut Kontoblatt,
+  or__art-725b-t1) – nicht die Anhangangabe; ein Darlehenssaldo ohne Vereinbarung zählt nicht; nach Verzicht oder Umwandlung in EK fällt die Vereinbarung dahin (hwp-er-2026__rz-0416-s124).
+  Anhangangabe damit abgleichen. (4) Rechnen, nie im Kopf: `kapitalverlust … --rangruecktritt <Σ>` (Verbindlichkeiten wie bilanziert, RR-Darlehen bleiben Fremdkapital); vorher
+  Korrekturvorschläge anderer Prüffelder kumulieren (hwp-er-2026__rz-0053-s189) und «nach Korrekturen» nochmals rechnen. (5) Die Rechnung gehört in P1-313 (vorbereitbar);
+  N1-105/L1-105/L1-304 (WP) und N1-401 (4xx) ohne Anweisung nur mit Notiz und Beilage.'
 - 'Grenze: Die Rangrücktritt-Schritte im revio-Katalog sind WP-Schritte (nur_mensch): N1-105 (Befragung zu Rangrücktritten; Beurteilung der Bonität des Rangrücktrittgebers), L1-105 und
   L1-304 (katalog-revio4__c003-48, katalog-revio4__c003-40). N1-401 (Einsicht in Rangrücktrittsvereinbarungen) nur auf Anweisung. Ob der Agent WP-Schritte überhaupt vorbereitet, ist
   bei consis offen (konzept-ki-revisionsagent-2026__c012-1, c015-2). Ohne Anweisung: Schritt nicht bearbeiten, im Rapport Status «nicht bearbeitet – WP-Schritt» bzw. «nicht bearbeitet
