@@ -60,24 +60,24 @@ Löhne, Boni, Sozialleistungen, Spesen inkl. Abgrenzungen (Ferien/Überzeit, Bon
 - Vollzeitstellen: Beauftragte und ausgeliehene Mitarbeitende zählen beim rechtlichen Arbeitgeber. — [HWP ER S. 97](../chunks/hwp-er-2026/hwp-er-2026__rz-0307-s097.md)
 
 ## Unterlagen (PBC)
-- Jahreslohnjournal / Lohnartenjournal mit Jahrestotalen (Brutto, Bonus, Zulagen, AN-/AG-Beiträge, QSt) – R1-301 Abstimmung Lohnbuchhaltung–Hauptbuch; R1-203a Monatswerte
-- Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ; VJ ggf. aus Vorjahresakte in M-Files) – R1-202 Erwartung, R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende
-- AHV-Jahreslohnmeldung und Schlussabrechnung der Ausgleichskasse (inkl. FAK, Verwaltungskosten) – R1-201 (Lohnsumme, Anzahl Personen), R1-302, R1-303, R1-410
-- BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Mitteilung/Jahresbericht zum Deckungsgrad per 31.12. – nur beim Unternehmen vorhandene Exemplare (keine Anfrage bei VE/Sammelstiftung) – R1-302, R1-303, R1-321, R1-406, R1-407
-- UVG/UVGZ- und KTG-Prämienabrechnungen bzw. definitive Lohnsummendeklarationen – R1-302, R1-303, R1-410
-- Verträge und Abrechnungen mit den Beitrags-/Prämiensätzen des Unternehmens (BVG-Reglement/Beitragsübersicht, UVG/UVGZ, KTG, FAK-Satz Ausgleichskasse) – R1-201, R1-408, R1-410 (Sätze BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen; BSV-Werte dazu sind Durchschnitte)
-- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) und Belege Bezugsprovision – R1-202 Bezugsprovision, R1-302 Abgrenzung Konto Quellensteuer, R1-408
-- Ferien- und Überzeitsaldi pro Person per 31.12. mit Bewertungsgrundlage – R1-409b Nachrechnung Abgrenzung
-- Bonus-/Gratifikations- und Provisionsreglement, Zielvereinbarungen, VR-/GL-Beschlüsse zu Boni (auch nach Stichtag) – R1-101, R1-409a
-- Arbeitsverträge und Lohnänderungsmitteilungen (insb. GL, Nahestehende, hohe Löhne) – R1-403 Lohnfestsetzungen, R1-405
-- Berichte externer Prüfer (AHV-Arbeitgeberkontrolle, SUVA-Lohnbuchrevision) und allfällige Nachbelastungen – R1-304
-- Abrechnungen Familienzulagen, EO/Mutterschaft, Kranken- und Unfalltaggelder – R1-411
-- Kontoblätter Personalaufwand und Personal-Bilanzkonten (Lohnsammelkonto, Kontokorrente Sozialversicherungen, Quellensteuer, Ferien/Überzeit) GJ und Folgejahr bis Prüfungsdatum – R1-203, R1-305, R1-306, R1-404
-- Budget Personalaufwand (falls vorhanden) – R1-202 Budgetvergleich
-- Aufstellung Bezüge von VR, GL, Aktionären und Nahestehenden (Lohn, Bonus, Spesen, Fringe Benefits, Honorare) GJ/VJ; Aktienbuch, HR-Auszug, Protokolle – R1-405
-- Detailnachweis stille Reserven (inkl. Arbeitgeberbeitragsreserven) – R1-321, R1-406
-- Unterlagen zu arbeitsrechtlichen Streitigkeiten (Aktennotizen, Korrespondenz, ggf. vom Unternehmen selbst eingeholte Anwaltsbeurteilung) – R1-401 (Ersatz für Anwaltsbestätigung)
-- Lohnausweise (Kopien) und Jahreslohnkonten je Mitarbeiter – R1-412
+- Jahreslohnjournal / Lohnartenjournal mit Jahrestotalen (Brutto, Bonus, Zulagen, AN-/AG-Beiträge, QSt) – R1-301 Abstimmung Lohnbuchhaltung–Hauptbuch; R1-203a Monatswerte — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
+- Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ; VJ ggf. aus Vorjahresakte in M-Files) – R1-202 Erwartung, R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende — [SER](../chunks/ser-2022/ser-2022__6-1-2-t2.md)
+- AHV-Jahreslohnmeldung und Schlussabrechnung der Ausgleichskasse (inkl. FAK, Verwaltungskosten) – R1-201 (Lohnsumme, Anzahl Personen), R1-302, R1-303, R1-410 — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
+- BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Mitteilung/Jahresbericht zum Deckungsgrad per 31.12. – nur beim Unternehmen vorhandene Exemplare (keine Anfrage bei VE/Sammelstiftung) – R1-302, R1-303, R1-321, R1-406, R1-407 — [HWP ER S. 194](../chunks/hwp-er-2026/hwp-er-2026__rz-0083-s194.md)
+- UVG/UVGZ- und KTG-Prämienabrechnungen bzw. definitive Lohnsummendeklarationen – R1-302, R1-303, R1-410 — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0158-s192.md)
+- Verträge und Abrechnungen mit den Beitrags-/Prämiensätzen des Unternehmens (BVG-Reglement/Beitragsübersicht, UVG/UVGZ, KTG, FAK-Satz Ausgleichskasse) – R1-201, R1-408, R1-410 (Sätze BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen; BSV-Werte dazu sind Durchschnitte) — [BSV Beiträge](../chunks/bsv-beitraege-ueberblick/bsv-beitraege-ueberblick__c004-2.md)
+- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) und Belege Bezugsprovision – R1-202 Bezugsprovision, R1-302 Abgrenzung Konto Quellensteuer, R1-408 — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s050-1.md)
+- Ferien- und Überzeitsaldi pro Person per 31.12. mit Bewertungsgrundlage – R1-409b Nachrechnung Abgrenzung — [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0512-s261.md)
+- Bonus-/Gratifikations- und Provisionsreglement, Zielvereinbarungen, VR-/GL-Beschlüsse zu Boni (auch nach Stichtag) – R1-101, R1-409a — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
+- Arbeitsverträge und Lohnänderungsmitteilungen (insb. GL, Nahestehende, hohe Löhne) – R1-403 Lohnfestsetzungen, R1-405 — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Berichte externer Prüfer (AHV-Arbeitgeberkontrolle, SUVA-Lohnbuchrevision) und allfällige Nachbelastungen – R1-304 — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
+- Abrechnungen Familienzulagen, EO/Mutterschaft, Kranken- und Unfalltaggelder – R1-411 — [HWP BuR S. 320](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0760-s320.md)
+- Kontoblätter Personalaufwand und Personal-Bilanzkonten (Lohnsammelkonto, Kontokorrente Sozialversicherungen, Quellensteuer, Ferien/Überzeit) GJ und Folgejahr bis Prüfungsdatum – R1-203, R1-305, R1-306, R1-404 — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-2.md)
+- Budget Personalaufwand (falls vorhanden) – R1-202 Budgetvergleich — [SER](../chunks/ser-2022/ser-2022__6-1-2-t1.md)
+- Aufstellung Bezüge von VR, GL, Aktionären und Nahestehenden (Lohn, Bonus, Spesen, Fringe Benefits, Honorare) GJ/VJ; Aktienbuch, HR-Auszug, Protokolle – R1-405 — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Detailnachweis stille Reserven (inkl. Arbeitgeberbeitragsreserven) – R1-321, R1-406 — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Unterlagen zu arbeitsrechtlichen Streitigkeiten (Aktennotizen, Korrespondenz, ggf. vom Unternehmen selbst eingeholte Anwaltsbeurteilung) – R1-401 (Ersatz für Anwaltsbestätigung) — [HWP ER S. 204](../chunks/hwp-er-2026/hwp-er-2026__rz-0139-s204-t3.md)
+- Lohnausweise (Kopien) und Jahreslohnkonten je Mitarbeiter – R1-412 — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-56.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wurden nach dem 31.12. Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen oder zugesagt (Betrag, Datum, Organ)? Wie und in welchem Konto wurden sie per Stichtag erfasst bzw. abgegrenzt?

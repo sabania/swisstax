@@ -74,19 +74,19 @@ Kasse, Sichtguthaben Post/Bank, Festgeld ≤ 3 Monate, Bankchecks; Wertschriften
 - Verrechnungssteuer: Rückerstattungsantrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres, sonst erloschen (Art. 32 VStG). — [VStG 32](../chunks/vstg/vstg__art-32.md)
 
 ## Unterlagen (PBC)
-- Saldoliste und Hauptbuch-Kontoblätter aller Geldkonten (Kasse, Post, Banken, Online-Konten, Wertschriften) mit Vorjahr – Ausgangsbasis für Abstimmung, Vorjahresvergleich und Durchsicht
-- Bank-/Postauszüge bzw. Jahresabschlussauszüge per 31.12. für sämtliche Konten (inkl. Festgeld, Sparkonten, Fremdwährungskonten) – Bestandesnachweis je Konto
-- Kassabuch und Kassenaufnahmeprotokoll per 31.12. (unterzeichnet) – Nachweis Kassenbestand
-- Depot-/Wertschriftenauszug per 31.12. mit Kurswerten (inkl. Angabe allfälliger eigener Aktien) – Bestand und Bewertung kurzfristig gehaltener Aktiven mit Börsenkurs
-- Bankauszüge der ersten Wochen des Folgejahres (Geldkonten mit Stichtagsüberträgen) – Abklärung Überträge/Geld unterwegs um den Stichtag
-- Devisenkursliste per 31.12. (Bank oder andere Quelle) – Vergleich der Umrechnungskurse
-- Zins- und Kapitalausweise der Banken mit Verrechnungssteuerabzug – Prüfung Bruttoverbuchung Zinsen und VSt-Guthaben
-- Kredit-, Rahmen- und Kontokorrentverträge inkl. Limiten; Bankkorrespondenz – Kreditlimiten, Sicherheiten, Bedingungen
-- Pfand-, Garantie- und Sicherungsverträge (Verpfändungen, Garantiedepots, Sperrkonten) – Verfügungsbeschränkungen und Anhangangaben
-- Bankbestätigungen, sofern vom Unternehmen selbst bei der Abschlusserstellung eingeholt – Zusätzlicher Nachweis Bestand und Vollständigkeit (kein eigenes Einholen durch die Revisionsstelle)
-- Übersicht offene Devisentermingeschäfte/Derivate per 31.12. mit Marktwerten der Bank und Angabe des Absicherungszwecks – Bewertung offener Kontrakte (negativer Marktwert als Verbindlichkeit/Rückstellung)
-- Wertschriftenabrechnungen (Kauf/Verkauf) wesentlicher Transaktionen – Belegprüfung Wertschriftentransaktionen
-- Liquiditätsplanung / Budget Folgejahr – Beurteilung Liquiditätsentwicklung und Fortführung
+- Saldoliste und Hauptbuch-Kontoblätter aller Geldkonten (Kasse, Post, Banken, Online-Konten, Wertschriften) mit Vorjahr – Ausgangsbasis für Abstimmung, Vorjahresvergleich und Durchsicht — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Bank-/Postauszüge bzw. Jahresabschlussauszüge per 31.12. für sämtliche Konten (inkl. Festgeld, Sparkonten, Fremdwährungskonten) – Bestandesnachweis je Konto — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0014-s158.md)
+- Kassabuch und Kassenaufnahmeprotokoll per 31.12. (unterzeichnet) – Nachweis Kassenbestand — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0014-s158.md)
+- Depot-/Wertschriftenauszug per 31.12. mit Kurswerten (inkl. Angabe allfälliger eigener Aktien) – Bestand und Bewertung kurzfristig gehaltener Aktiven mit Börsenkurs — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0014-s158.md)
+- Bankauszüge der ersten Wochen des Folgejahres (Geldkonten mit Stichtagsüberträgen) – Abklärung Überträge/Geld unterwegs um den Stichtag — [HWP BuR S. 156](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0004-s156.md)
+- Devisenkursliste per 31.12. (Bank oder andere Quelle) – Vergleich der Umrechnungskurse — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
+- Zins- und Kapitalausweise der Banken mit Verrechnungssteuerabzug – Prüfung Bruttoverbuchung Zinsen und VSt-Guthaben — [VStG 25](../chunks/vstg/vstg__art-25.md)
+- Kredit-, Rahmen- und Kontokorrentverträge inkl. Limiten; Bankkorrespondenz – Kreditlimiten, Sicherheiten, Bedingungen — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Pfand-, Garantie- und Sicherungsverträge (Verpfändungen, Garantiedepots, Sperrkonten) – Verfügungsbeschränkungen und Anhangangaben — [SER S. 97](../chunks/ser-2022/ser-2022__anh-d-s097-1.md)
+- Bankbestätigungen, sofern vom Unternehmen selbst bei der Abschlusserstellung eingeholt – Zusätzlicher Nachweis Bestand und Vollständigkeit (kein eigenes Einholen durch die Revisionsstelle) — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
+- Übersicht offene Devisentermingeschäfte/Derivate per 31.12. mit Marktwerten der Bank und Angabe des Absicherungszwecks – Bewertung offener Kontrakte (negativer Marktwert als Verbindlichkeit/Rückstellung) — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0075-s176-t2.md)
+- Wertschriftenabrechnungen (Kauf/Verkauf) wesentlicher Transaktionen – Belegprüfung Wertschriftentransaktionen — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
+- Liquiditätsplanung / Budget Folgejahr – Beurteilung Liquiditätsentwicklung und Fortführung — [HWP ER S. 224](../chunks/hwp-er-2026/hwp-er-2026__rz-0191-s224.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Bestehen per Stichtag Verpfändungen, Sperren, Garantiedepots, Verrechnungsrechte der Bank oder andere Verfügungsbeschränkungen auf Konten oder Depots? Bitte Verträge beilegen.

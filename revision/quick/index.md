@@ -16,7 +16,7 @@ Grundsatz: Der Agent **bereitet vor**; der Wirtschaftsprüfer entscheidet (Visum
 |---|---|---|
 | Was ist bei Prüfschritt X zu tun? | [prueffeld-<code>.md](prueffelder.md) | `pruefschritt C1-302` |
 | Prüffeld: Risiken, Bewertung, PBC, Fragen | [prueffelder.md](prueffelder.md) | `prueffeld C1` |
-| Welche Unterlagen anfordern? | [pbc-liste.md](pbc-liste.md) | `unterlagen C1` |
+| Welche Unterlagen braucht es (PBC; Fehlendes → Pendenz «PBC-Vorschlag»)? | [pbc-liste.md](pbc-liste.md) | `unterlagen C1` |
 | Welche Fragen an den Kunden? | [fragen-kunde.md](fragen-kunde.md) | `fragen C1` |
 | Ablauf, Phasen, WP-Entscheide | [prozess.md](prozess.md) | `prozess p6` |
 | Was darf der Agent? Notizen? Ablauf je Schritt? | [regeln.md](regeln.md) | `regeln grenze` |

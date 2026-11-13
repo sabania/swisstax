@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld O1 Rückstellungen – Schnellzugriff
 jur: ch
 quellen:
+- dbg
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
@@ -70,19 +71,19 @@ Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Er
 - Hohe, bedeutsame Schätzunsicherheit bei völlig offenem Ausgang (z.B. Gerichtsentscheide, Haftungsfälle): Angabe im Anhang; der Abschlussprüfer wirkt auf angemessene Darstellung hin. — [HWP ER S. 273](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s273.md)
 
 ## Unterlagen (PBC)
-- Rückstellungsspiegel/Detailaufstellung per Bilanzstichtag (je Rückstellung: Konto, Zweck, Anfangsbestand, Bildung, Verwendung, Auflösung, Endbestand, Begründung) – O1-201, O1-301, O1-404; Grundlage Abstimmung mit Saldoliste/JR
-- Grundlagen je Rückstellung: Verträge, Klageschriften, Mängelrügen, Aktennotizen, Berechnungen – O1-302, O1-403 d)
-- Berechnung Garantierückstellung inkl. interner Richtlinie und Erfahrungszahlen (tatsächlicher Garantieaufwand, Garantiedauer) – O1-201, O1-302, O1-403
-- Vom Unternehmen selbst eingeholte Stellungnahmen der Rechtsvertreter/Gutachten (nicht durch die Revisionsstelle anfordern) – O1-401, O1-403 c)
-- Korrespondenz mit Rechtsanwälten, VR-/GV-Protokolle, Beschlüsse (z.B. Restrukturierung) – O1-101, O1-103, O1-302 (Aktenstudium)
-- Kontoblätter Rückstellungskonten und zugehörige Aufwandkonten (inkl. Rechts-/Beratungsaufwand) Berichtsjahr sowie Buchungen/Kreditorenjournal in neuer Rechnung bis Prüfungsdatum – O1-303, O1-402, O1-404
-- Schriftliche Antworten der Unternehmensleitung auf die Befragung (Rechtsfälle, Ansprüche, Eventualverbindlichkeiten, Schätzungen) – O1-101 bis O1-103; Dokumentationspflicht der Befragung
-- Vollständigkeitserklärung (Verbindlichkeiten und Eventualverbindlichkeiten erfasst bzw. offengelegt) – O1-103; ergänzende schriftliche Erklärung
-- Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition, inkl. Rückstellungen) – O1-321
-- Vorjahres-Rückstellungsspiegel und Vorjahresakte (Schätzung VJ, Verwendung/Auflösung im Berichtsjahr) – O1-102, O1-201, O1-403: Rückblick auf die Schätzgenauigkeit der Unternehmensleitung
-- Versicherungspolicen (Haftpflicht, Rechtsschutz) und Deckungszusagen zu Prozessrisiken; Angaben zu Gegenklagen – O1-102, O1-320: Bemessung (Erstattungsanspruch separat, Verrechnungsverbot) und Anhangsangabe
-- Steuerrechnungen, Veranlagungen, Steuerkorrespondenz (Revisionen, Einsprachen) – Schnittstelle Prüffeld Steuern (S1) – O1-201, O1-301: Steuerrückstellung/-abgrenzung und Steuerrisiken
-- Jahresrechnung inkl. Anhang (Berichtsjahr und Vorjahr), Saldoliste mit Vorjahressaldi – O1-201, O1-301, O1-320
+- Rückstellungsspiegel/Detailaufstellung per Bilanzstichtag (je Rückstellung: Konto, Zweck, Anfangsbestand, Bildung, Verwendung, Auflösung, Endbestand, Begründung) – O1-201, O1-301, O1-404; Grundlage Abstimmung mit Saldoliste/JR — [HWP BuR S. 259](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0505-s259.md)
+- Grundlagen je Rückstellung: Verträge, Klageschriften, Mängelrügen, Aktennotizen, Berechnungen – O1-302, O1-403 d) — [SER S. 88](../chunks/ser-2022/ser-2022__anh-d-s088-1.md)
+- Berechnung Garantierückstellung inkl. interner Richtlinie und Erfahrungszahlen (tatsächlicher Garantieaufwand, Garantiedauer) – O1-201, O1-302, O1-403 — [HWP BuR S. 262](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0523-s262.md)
+- Vom Unternehmen selbst eingeholte Stellungnahmen der Rechtsvertreter/Gutachten (nicht durch die Revisionsstelle anfordern) – O1-401, O1-403 c) — [HWP ER S. 204](../chunks/hwp-er-2026/hwp-er-2026__rz-0139-s204-t3.md)
+- Korrespondenz mit Rechtsanwälten, VR-/GV-Protokolle, Beschlüsse (z.B. Restrukturierung) – O1-101, O1-103, O1-302 (Aktenstudium) — [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0119-s201.md)
+- Kontoblätter Rückstellungskonten und zugehörige Aufwandkonten (inkl. Rechts-/Beratungsaufwand) Berichtsjahr sowie Buchungen/Kreditorenjournal in neuer Rechnung bis Prüfungsdatum – O1-303, O1-402, O1-404 — [SER S. 88](../chunks/ser-2022/ser-2022__anh-d-s088-1.md)
+- Schriftliche Antworten der Unternehmensleitung auf die Befragung (Rechtsfälle, Ansprüche, Eventualverbindlichkeiten, Schätzungen) – O1-101 bis O1-103; Dokumentationspflicht der Befragung — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
+- Vollständigkeitserklärung (Verbindlichkeiten und Eventualverbindlichkeiten erfasst bzw. offengelegt) – O1-103; ergänzende schriftliche Erklärung — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition, inkl. Rückstellungen) – O1-321 — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Vorjahres-Rückstellungsspiegel und Vorjahresakte (Schätzung VJ, Verwendung/Auflösung im Berichtsjahr) – O1-102, O1-201, O1-403: Rückblick auf die Schätzgenauigkeit der Unternehmensleitung — [HWP ER S. 273](../chunks/hwp-er-2026/hwp-er-2026__rz-0397-s273.md)
+- Versicherungspolicen (Haftpflicht, Rechtsschutz) und Deckungszusagen zu Prozessrisiken; Angaben zu Gegenklagen – O1-102, O1-320: Bemessung (Erstattungsanspruch separat, Verrechnungsverbot) und Anhangsangabe — [HWP BuR S. 351](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0855-s351-t1.md)
+- Steuerrechnungen, Veranlagungen, Steuerkorrespondenz (Revisionen, Einsprachen) – Schnittstelle Prüffeld Steuern (S1) – O1-201, O1-301: Steuerrückstellung/-abgrenzung und Steuerrisiken — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-2.md)
+- Jahresrechnung inkl. Anhang (Berichtsjahr und Vorjahr), Saldoliste mit Vorjahressaldi – O1-201, O1-301, O1-320 — [OR 958D](../chunks/or/or__art-958d.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei, Streitgegenstand, Streitwert, Verfahrensstand bzw. Stand im Instanzenzug, Einschätzung des Ausgangs, beauftragter Rechtsvertreter, allfällige Versicherungsdeckungen und Gegenklagen.

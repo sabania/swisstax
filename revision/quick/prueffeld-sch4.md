@@ -64,18 +64,18 @@ ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und 
 - Schuldzinsen auf verdecktem Eigenkapital gehören zum steuerbaren Gewinn (Art. 65 DBG; Ermittlung KS 6a) – Hinweis für Steuerrückstellung, keine handelsrechtliche Korrektur — [DBG 65](../chunks/dbg/dbg__art-65.md) · [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__3-1.md)
 
 ## Unterlagen (PBC)
-- Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag) – Vorjahresvergleich, Klassierung der Konten nach Natur, Abstimmung Konten → Position JR (SCH4-101/201)
-- Kontoblätter der Finanzkonten (Zinsaufwand, Zinsertrag, Bankspesen/-kommissionen, Kursgewinne/-verluste, Erträge Finanzanlagen) – Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302, nur weitergehend)
-- Kredit- und Darlehensverträge (Bank, Aktionäre, Nahestehende; inkl. Darlehen der Gesellschaft an Aktionäre) – Zinssätze, Zinsusanz, Beträge, Auszahlungsdaten, Zinsfälligkeiten für Erwartungswert Zinsen (SCH4-202)
-- Zinsabgrenzungsberechnung per Bilanzstichtag – Periodenabgrenzung aufgelaufener Zinsen (SCH4-202/301)
-- Aufstellung der verzinslichen Verbindlichkeiten (und Forderungen) mit Anfangs-/Endbestand – Basis für Ø-Bestände und Erwartungswert Zinsaufwand/-ertrag (SCH4-202)
-- Bankauszüge Dezember / Zins-, Spesen- und Kommissionsabrechnungen der Banken – Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301, nur weitergehend)
-- Kontoauszüge Fremdwährungskonten mit Devisenkurs per 31.12. und Kursbewertungsberechnung – Abgleich Umrechnungskurse und Plausibilisierung Kursdifferenzen (SCH4-203)
-- Rangrücktrittserklärungen zu Darlehen Nahestehender – Einschluss der Zinsen, Zinsverzicht/Stundung während Überschuldung (Erwartung Zinsaufwand, Ausweis)
-- VR-/GV-Protokolle (Genehmigung Darlehen und Zinskonditionen mit Nahestehenden) – Hintergrund und Konditionen von Darlehen/Zinsen mit Aktionären und Organen
-- Unterlagen zum Drittvergleich der Zinssätze mit Nahestehenden (Bankofferten/-konditionen, Bonitätsbeurteilung, Sicherheiten) – Handelsrechtliche Beurteilung der Marktkonformität (SCH4-202); Beurteilung vGA durch WP
-- ESTV-Zinssätze des Kalenderjahres der Zinsperiode (CHF; Fremdwährung: estv-rs-2-219-2026): Zinsen 2025 → `wert zins 2025` (Treuhand-Almanach, Sekundärquelle – ESTV-RS 2025 nicht im Wiki, so kennzeichnen); Zinsen 2026 → `wert zinssatz darlehen` / `wert betriebskredit` (ESTV-RS 2-218 vom 29.01.2026) – Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202)
-- Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen – Dokumentierte Befragung (SCH4-101/201)
+- Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag) – Vorjahresvergleich, Klassierung der Konten nach Natur, Abstimmung Konten → Position JR (SCH4-101/201) — [SER](../chunks/ser-2022/ser-2022__6-1-2-t1.md)
+- Kontoblätter der Finanzkonten (Zinsaufwand, Zinsertrag, Bankspesen/-kommissionen, Kursgewinne/-verluste, Erträge Finanzanlagen) – Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302, nur weitergehend) — [HWP ER S. 202](../chunks/hwp-er-2026/hwp-er-2026__rz-0124-s202.md)
+- Kredit- und Darlehensverträge (Bank, Aktionäre, Nahestehende; inkl. Darlehen der Gesellschaft an Aktionäre) – Zinssätze, Zinsusanz, Beträge, Auszahlungsdaten, Zinsfälligkeiten für Erwartungswert Zinsen (SCH4-202) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Zinsabgrenzungsberechnung per Bilanzstichtag – Periodenabgrenzung aufgelaufener Zinsen (SCH4-202/301) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Aufstellung der verzinslichen Verbindlichkeiten (und Forderungen) mit Anfangs-/Endbestand – Basis für Ø-Bestände und Erwartungswert Zinsaufwand/-ertrag (SCH4-202) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Bankauszüge Dezember / Zins-, Spesen- und Kommissionsabrechnungen der Banken – Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301, nur weitergehend) — [SER S. 95](../chunks/ser-2022/ser-2022__anh-d-s095-1.md)
+- Kontoauszüge Fremdwährungskonten mit Devisenkurs per 31.12. und Kursbewertungsberechnung – Abgleich Umrechnungskurse und Plausibilisierung Kursdifferenzen (SCH4-203) — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
+- Rangrücktrittserklärungen zu Darlehen Nahestehender – Einschluss der Zinsen, Zinsverzicht/Stundung während Überschuldung (Erwartung Zinsaufwand, Ausweis) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- VR-/GV-Protokolle (Genehmigung Darlehen und Zinskonditionen mit Nahestehenden) – Hintergrund und Konditionen von Darlehen/Zinsen mit Aktionären und Organen — [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0119-s201.md)
+- Unterlagen zum Drittvergleich der Zinssätze mit Nahestehenden (Bankofferten/-konditionen, Bonitätsbeurteilung, Sicherheiten) – Handelsrechtliche Beurteilung der Marktkonformität (SCH4-202); Beurteilung vGA durch WP — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
+- ESTV-Zinssätze des Kalenderjahres der Zinsperiode (CHF; Fremdwährung: estv-rs-2-219-2026): Zinsen 2025 → `wert zins 2025` (Treuhand-Almanach, Sekundärquelle – ESTV-RS 2025 nicht im Wiki, so kennzeichnen); Zinsen 2026 → `wert zinssatz darlehen` / `wert betriebskredit` (ESTV-RS 2-218 vom 29.01.2026) – Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202) — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
+- Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen – Dokumentierte Befragung (SCH4-101/201) — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welches sind die Gründe für die wesentlichen Veränderungen der Konten Finanzaufwand und Finanzertrag gegenüber dem Vorjahr (Zinsaufwand, Bankkommissionen/Garantien, Kursdifferenzen, Erträge Finanzanlagen)?

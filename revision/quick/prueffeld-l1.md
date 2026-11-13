@@ -4,6 +4,7 @@ titel: Prüffeld L1 Kurzfristige verzinsliche Verbindlichkeiten – Schnellzugri
 jur: ch
 quellen:
 - covid-sbueg
+- dbg
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
@@ -65,23 +66,23 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Gesamtbetrag der belasteten Aktiven im Anhang zu Buchwerten — [HWP BuR S. 349](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0846-s349.md)
 
 ## Unterlagen (PBC)
-- Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Konto, Saldo, Währung, Zinssatz, Fälligkeit/Amortisation, Sicherheiten, Nahestehende ja/nein) – Bestand, Vollständigkeit, Gliederung, Abstimmung mit Hauptbuch (L1-301, L1-103, L1-104)
-- Bank-/Kreditkontoauszüge, Kredit- und Zinsausweise per 31.12. (alle Banken) sowie Auszüge Januar Folgejahr – Bestandesnachweis, Zinsbelastungen, Stichtagsüberträge (L1-301, L1-302, L1-403, L1-407, L1-410)
-- Kredit-, Rahmenkredit-, Festvorschuss- und Darlehensverträge inkl. Allgemeiner Kreditbedingungen und Covenant-Klauseln; Pfand-, Zessions- und Sicherungsverträge – Konditionen, Fälligkeiten, Covenants, Sicherheiten (L1-101, L1-102, L1-103, L1-303, L1-406)
-- Bankkorrespondenz Geschäftsjahr und bis Revisionsdatum (Kündigungen, Limitenänderungen, Covenant-Reporting, Waiver-Schreiben mit Datum und Inhalt) – Covenant-Einhaltung, Waiver (schriftlich, vor Abschlusserstellung, Rückzahlungsverzicht), Ereignisse nach Stichtag (L1-101, L1-303, L1-406)
-- Zinsabgrenzungsberechnung per 31.12. und Zinsabrechnungen der Kreditgeber – Periodenabgrenzung und Verbuchung der Zinsen (L1-302, L1-410, L1-201)
-- Darlehensverträge mit Aktionären, Organen und Nahestehenden sowie Aktienbuch/Organliste – Identifikation Nahestehender, gesonderter Ausweis, Zinssätze (L1-104)
-- Verträge und Kontoblätter zu Forderungen der Gesellschaft gegenüber Rangrücktrittsgläubigern (z.B. Darlehen an Aktionäre) – Verrechnungslage bzw. mögliche Umgehung des Tilgungsverbots erkennen, Hinweis an WP (L1-104, L1-304, L1-404)
-- Unterzeichnete Rangrücktrittsvereinbarungen (aktuelle und ersetzte Fassungen) samt Begründung/Unterlagen zu Änderungen – Gültigkeit, Höhe inkl. Zinsen, Aufhebungsbedingung, Änderungen (L1-105, L1-304, L1-320)
-- Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten nach Art. 725b OR mit Prüfbericht (falls begründete Besorgnis der Überschuldung) – Massgebende Überschuldung für die Deckung durch Rangrücktritte; Bezugsgrösse bestimmt der WP (L1-105, L1-304)
-- Bei Ersatz/Reduktion eines Rangrücktritts: SA-CH-geprüfter (Zwischen-)Abschluss und schriftliche, begründete Darlegung des VR zu den nächsten zwölf Monaten – Voraussetzungen einer Reduktion dokumentieren, Beurteilung durch WP (L1-304)
-- Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – Grundlage für die Bonitätsbeurteilung durch den WP (L1-304)
-- Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle, Herkunft dokumentieren – Praxis/intern: oft im Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411)
-- Liquiditätsplanung/Finanzplan für mindestens zwölf Monate ab Bilanzstichtag – Liquiditätsentwicklung, Kreditlimiten, Fortführung (L1-406)
-- Liste offener Devisentermingeschäfte/Derivate per 31.12. mit Bankbewertung (Wiederbeschaffungswerte) und Zweck (Absicherung) – Bewertung offener Kontrakte (L1-411)
-- VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen von und an Nahestehende) – Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
-- Covid-19-Kreditvereinbarung, Amortisationsplan, aktuelle Zinsanzeige der Bank (nur falls ein Covid-19-Kredit besteht) – L1-103, L1-201 (Zinssatz aus der Bankanzeige, nicht 0,0 % aus Art. 4 Abs. 1: der Satz wird jährlich angepasst), L1-105/L1-304 (Abzug Art. 24)
-- Hauptbuch-Kontoblätter GJ aller Kredit-/Darlehenskonten und der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto) – Bestand, Bewegungen, Zinsplausibilisierung und -abgrenzung; Abschlussbuchungen (Zins, Umgliederung) erkennen (L1-201, L1-301, L1-302)
+- Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Konto, Saldo, Währung, Zinssatz, Fälligkeit/Amortisation, Sicherheiten, Nahestehende ja/nein) – Bestand, Vollständigkeit, Gliederung, Abstimmung mit Hauptbuch (L1-301, L1-103, L1-104) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Bank-/Kreditkontoauszüge, Kredit- und Zinsausweise per 31.12. (alle Banken) sowie Auszüge Januar Folgejahr – Bestandesnachweis, Zinsbelastungen, Stichtagsüberträge (L1-301, L1-302, L1-403, L1-407, L1-410) — [HWP BuR S. 256](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0485-s256.md)
+- Kredit-, Rahmenkredit-, Festvorschuss- und Darlehensverträge inkl. Allgemeiner Kreditbedingungen und Covenant-Klauseln; Pfand-, Zessions- und Sicherungsverträge – Konditionen, Fälligkeiten, Covenants, Sicherheiten (L1-101, L1-102, L1-103, L1-303, L1-406) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Bankkorrespondenz Geschäftsjahr und bis Revisionsdatum (Kündigungen, Limitenänderungen, Covenant-Reporting, Waiver-Schreiben mit Datum und Inhalt) – Covenant-Einhaltung, Waiver (schriftlich, vor Abschlusserstellung, Rückzahlungsverzicht), Ereignisse nach Stichtag (L1-101, L1-303, L1-406) — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0493-s257.md)
+- Zinsabgrenzungsberechnung per 31.12. und Zinsabrechnungen der Kreditgeber – Periodenabgrenzung und Verbuchung der Zinsen (L1-302, L1-410, L1-201) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Darlehensverträge mit Aktionären, Organen und Nahestehenden sowie Aktienbuch/Organliste – Identifikation Nahestehender, gesonderter Ausweis, Zinssätze (L1-104) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
+- Verträge und Kontoblätter zu Forderungen der Gesellschaft gegenüber Rangrücktrittsgläubigern (z.B. Darlehen an Aktionäre) – Verrechnungslage bzw. mögliche Umgehung des Tilgungsverbots erkennen, Hinweis an WP (L1-104, L1-304, L1-404) — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0415-s123-t2.md)
+- Unterzeichnete Rangrücktrittsvereinbarungen (aktuelle und ersetzte Fassungen) samt Begründung/Unterlagen zu Änderungen – Gültigkeit, Höhe inkl. Zinsen, Aufhebungsbedingung, Änderungen (L1-105, L1-304, L1-320) — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md)
+- Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten nach Art. 725b OR mit Prüfbericht (falls begründete Besorgnis der Überschuldung) – Massgebende Überschuldung für die Deckung durch Rangrücktritte; Bezugsgrösse bestimmt der WP (L1-105, L1-304) — [OR 725B](../chunks/or/or__art-725b-t1.md)
+- Bei Ersatz/Reduktion eines Rangrücktritts: SA-CH-geprüfter (Zwischen-)Abschluss und schriftliche, begründete Darlegung des VR zu den nächsten zwölf Monaten – Voraussetzungen einer Reduktion dokumentieren, Beurteilung durch WP (L1-304) — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
+- Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – Grundlage für die Bonitätsbeurteilung durch den WP (L1-304) — [SER S. 143](../chunks/ser-2022/ser-2022__anh-h-s143-1.md)
+- Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle, Herkunft dokumentieren – Praxis/intern: oft im Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411) — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
+- Liquiditätsplanung/Finanzplan für mindestens zwölf Monate ab Bilanzstichtag – Liquiditätsentwicklung, Kreditlimiten, Fortführung (L1-406) — [HWP ER S. 225](../chunks/hwp-er-2026/hwp-er-2026__rz-0194-s225.md)
+- Liste offener Devisentermingeschäfte/Derivate per 31.12. mit Bankbewertung (Wiederbeschaffungswerte) und Zweck (Absicherung) – Bewertung offener Kontrakte (L1-411) — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0075-s176-t2.md)
+- VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen von und an Nahestehende) – Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Covid-19-Kreditvereinbarung, Amortisationsplan, aktuelle Zinsanzeige der Bank (nur falls ein Covid-19-Kredit besteht) – L1-103, L1-201 (Zinssatz aus der Bankanzeige, nicht 0,0 % aus Art. 4 Abs. 1: der Satz wird jährlich angepasst), L1-105/L1-304 (Abzug Art. 24) — [Covid-19-SBüG 4](../chunks/covid-sbueg/covid-sbueg__art-4.md)
+- Hauptbuch-Kontoblätter GJ aller Kredit-/Darlehenskonten und der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto) – Bestand, Bewegungen, Zinsplausibilisierung und -abgrenzung; Abschlussbuchungen (Zins, Umgliederung) erkennen (L1-201, L1-301, L1-302) — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht eingehalten sind? Falls ja: welche Massnahmen, und liegt ein schriftlicher Waiver der Bank vor (Datum; Verzicht auf die sofortige bzw. innert eines Jahres fällige Rückzahlung)?

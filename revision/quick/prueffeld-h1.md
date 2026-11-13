@@ -3,12 +3,14 @@ typ: prueffeld
 titel: Prüffeld H1 Finanzanlagen – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - hwp-or-2024
 - katalog-revio4
 - konzept-ki-revisionsagent-2026
+- muster-hwp-er-2026
 - or
 - ser-2022
 - treuhand-almanach-2026
@@ -79,20 +81,20 @@ Finanzanlagen (Art. 959a Abs. 1 Ziff. 2 lit. a OR). Agent: 101–105 schriftlich
 - Verzinsung von Darlehen an Beteiligte: steuerlich anerkannte Mindestzinssätze gemäss ESTV-Rundschreiben des jeweiligen Jahres; Fassung 2026 gilt ab 1.1.2026 – für das GJ 2025 Rundschreiben 2025 nötig (nicht im Wiki, Lücke) — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 
 ## Unterlagen (PBC)
-- Aufstellung/Wertschriftenverzeichnis der Finanzanlagen per 31.12. (Titel, Menge, Anschaffungswert, Buchwert, Kurswert) – Bestand und Bewertung, Abstimmung mit Hauptbuch (H1-301, H1-305)
-- Depotauszüge/Vermögensausweise und Kontoauszüge (Kautionen, Depots) per 31.12. – Bestandesnachweis, Kurse, Sperrvermerke (H1-301, H1-402, H1-401)
-- Beteiligungsverzeichnis bzw. Verzeichnis gehaltener Anteile (Firma, Sitz, Quote, Stimmen, Buchwert, Einzahlungs-/Nachschusspflichten) – Abgrenzung Finanzanlage/Beteiligung (H1-103); Bewertung, Anhang und Einzahlungspflichten der Beteiligungen in H3 (H3-301/320/402)
-- Eigentumsnachweise nicht verbriefter Anteile (Kaufverträge, HR-Auszüge, Statuten, Aktien-/Anteilbuch) – Rechte und Bestand (H1-301, H1-310)
-- Letzte verfügbare Jahresrechnungen der nicht kotierten Gesellschaften und der Darlehensnehmer – Innerer Wert nicht kotierter Titel (H1-306); Beteiligungen → H3-302, Darlehensnehmer → H2-302
-- Darlehens-, Kautions-, Pfand- und Kreditverträge inkl. Rangrücktritte – Laufzeit/Gliederung, Verzinsung, Verpfändungen (H1-103, H1-307, H1-401); Aktivdarlehen → H2-401
-- Kauf-/Verkaufsabrechnungen, Ertragsabrechnungen (Zinsen, Dividenden mit VSt-Abzug) – Belegprüfung Zugänge/Abgänge/Erträge, VSt (H1-310, H1-311, H1-404)
-- Kursnachweise per 31.12. (Börsenkurse, ESTV-Kursliste, Devisenkurse) – Bewertung (H1-305, H1-402, H1-314); ESTV-Kursliste enthält Steuerwerte (Vermögenssteuer)
-- Krypto: Wallet-Liste (Public-Key-Adressen), Nebenbuch, Blockchain-Export, Sign-Message-Protokoll bzw. Custodian-Kontoauszug per 31.12. – Bestand, Verfügungsmacht, Cut-off (H1-104, H1-312, H1-313)
-- Aufstellung stille Reserven (Bestand und Veränderung je Position) – H1-321, Anhang Ziff. 3
-- Aktienbuch und Nachweis eigener Anteile (Kaufverträge, VR-Beschlüsse) – Bestand eigener Anteile, Erwerb im GJ (H1-302; gleicher Schritt H3-401)
-- Verrechnungssteuer-Rückerstattungsantrag bzw. Nachweis der Rückerstattung – Aktivierung und Werthaltigkeit VSt-Guthaben (H1-404)
-- Vom Unternehmen selbst eingeholte Bestätigungen Dritter (z.B. Bank, Custodian), sofern vorhanden – Zusätzlicher Bestandesnachweis ohne eigene Drittbestätigungsanfrage
-- Darlehensverträge mit Aktionären/Nahestehenden (Zins, Rückzahlung, Sicherheiten) und Dokumentation des Drittvergleichs durch die Gesellschaft – Risiko Einlagenrückgewähr und Verzinsung erkennen; Vertiefung in H2-404 (H1-307, H1-311)
+- Aufstellung/Wertschriftenverzeichnis der Finanzanlagen per 31.12. (Titel, Menge, Anschaffungswert, Buchwert, Kurswert) – Bestand und Bewertung, Abstimmung mit Hauptbuch (H1-301, H1-305) — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Depotauszüge/Vermögensausweise und Kontoauszüge (Kautionen, Depots) per 31.12. – Bestandesnachweis, Kurse, Sperrvermerke (H1-301, H1-402, H1-401) — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0269-s217.md)
+- Beteiligungsverzeichnis bzw. Verzeichnis gehaltener Anteile (Firma, Sitz, Quote, Stimmen, Buchwert, Einzahlungs-/Nachschusspflichten) – Abgrenzung Finanzanlage/Beteiligung (H1-103); Bewertung, Anhang und Einzahlungspflichten der Beteiligungen in H3 (H3-301/320/402) — [HWP BuR S. 219](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0279-s219.md)
+- Eigentumsnachweise nicht verbriefter Anteile (Kaufverträge, HR-Auszüge, Statuten, Aktien-/Anteilbuch) – Rechte und Bestand (H1-301, H1-310) — [HWP BuR S. 219](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0280-s219.md)
+- Letzte verfügbare Jahresrechnungen der nicht kotierten Gesellschaften und der Darlehensnehmer – Innerer Wert nicht kotierter Titel (H1-306); Beteiligungen → H3-302, Darlehensnehmer → H2-302 — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Darlehens-, Kautions-, Pfand- und Kreditverträge inkl. Rangrücktritte – Laufzeit/Gliederung, Verzinsung, Verpfändungen (H1-103, H1-307, H1-401); Aktivdarlehen → H2-401 — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0268-s217.md)
+- Kauf-/Verkaufsabrechnungen, Ertragsabrechnungen (Zinsen, Dividenden mit VSt-Abzug) – Belegprüfung Zugänge/Abgänge/Erträge, VSt (H1-310, H1-311, H1-404) — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Kursnachweise per 31.12. (Börsenkurse, ESTV-Kursliste, Devisenkurse) – Bewertung (H1-305, H1-402, H1-314); ESTV-Kursliste enthält Steuerwerte (Vermögenssteuer) — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Krypto: Wallet-Liste (Public-Key-Adressen), Nebenbuch, Blockchain-Export, Sign-Message-Protokoll bzw. Custodian-Kontoauszug per 31.12. – Bestand, Verfügungsmacht, Cut-off (H1-104, H1-312, H1-313) — [HWP BuR S. 165](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0042-s165.md)
+- Aufstellung stille Reserven (Bestand und Veränderung je Position) – H1-321, Anhang Ziff. 3 — [HWP BuR S. 296](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0667-s296.md)
+- Aktienbuch und Nachweis eigener Anteile (Kaufverträge, VR-Beschlüsse) – Bestand eigener Anteile, Erwerb im GJ (H1-302; gleicher Schritt H3-401) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
+- Verrechnungssteuer-Rückerstattungsantrag bzw. Nachweis der Rückerstattung – Aktivierung und Werthaltigkeit VSt-Guthaben (H1-404) — [VStG 29](../chunks/vstg/vstg__art-29.md)
+- Vom Unternehmen selbst eingeholte Bestätigungen Dritter (z.B. Bank, Custodian), sofern vorhanden – Zusätzlicher Bestandesnachweis ohne eigene Drittbestätigungsanfrage — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
+- Darlehensverträge mit Aktionären/Nahestehenden (Zins, Rückzahlung, Sicherheiten) und Dokumentation des Drittvergleichs durch die Gesellschaft – Risiko Einlagenrückgewähr und Verzinsung erkennen; Vertiefung in H2-404 (H1-307, H1-311) — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0168-s215.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Nach welchen Grundsätzen bewerten Sie die Finanzanlagen (Anschaffungs-/Niederstwert oder Kurswert nach Art. 960b OR, Schwankungsreserve) und gab es Änderungen gegenüber dem Vorjahr?

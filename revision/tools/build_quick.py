@@ -7,6 +7,9 @@ wiki/quellen.md) aus data/ erzeugen. Danach index/lookup.json neu bauen.
 Prüffeld-Seiten (quick/prueffeld-<code>.md, wiki/prueffelder/<code>.md) tragen im Frontmatter `quelle_sha` = sha256 der
 data/prueffelder/<code>.yaml (tools/lint.py aktualitaet() meldet veraltete Seiten). Das Feld testakte_2025 (fiktive Testakte)
 wird nur nach eval/testfall-2025/hinweise/<code>.md geschrieben – nie nach quick/, wiki/, lookup oder Plugin.
+Optionale Felder: `fundstellen`/`weitere_fundstellen` je Eintrag (Prüffelder, Prozess inkl. Gesetz und Schritte, Themen) als weitere
+Links bzw. «auch: …»-Zitate und im Frontmatter `quellen`; `aufrufe` je Prüfschritt («Werkzeuge für diesen Schritt») und je Phase
+bzw. `naechste`/`aufrufe` je Thema («Nächste Aufrufe»).
 """
 from __future__ import annotations
 import collections, csv, datetime, hashlib, json, os, re, subprocess, sys

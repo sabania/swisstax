@@ -10,6 +10,7 @@ quellen:
 - mwstg
 - or
 - ser-2022
+- vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
 quelle_sha: 7767561558fd3fadd0b34fe8ba8c6f3890ec4ed842166c61e1495ed6ddb675f1
@@ -59,18 +60,18 @@ Position nach Art. 959b Abs. 2 Ziff. 5 OR (u.a. Raum-, Unterhalts-, Fahrzeug-, V
 - Stetigkeit von Darstellung und Bewertung (Kontenzuordnung, Aktivierungspraxis) zwischen den Jahren; Änderungen sind zu erfragen und zu würdigen. — [OR 958C](../chunks/or/or__art-958c.md)
 
 ## Unterlagen (PBC)
-- Saldoliste Erfolgsrechnung mit Vorjahreszahlen auf Kontenebene – Grundlage für Vorjahresvergleich und Abstimmung mit der Jahresrechnung (SCH3-101, -201, -202)
-- Hauptbuch-Kontoblätter aller Aufwandkonten des übrigen betrieblichen Aufwands (Einzelbuchungen, inkl. Abschlussbuchungen) – Analytische Durchsicht auf Konten-/Monatsebene (SCH3-202b); Einzelbuchungsdurchsicht und Belegauswahl nur weitergehend (SCH3-303, -301); fehlen sie, PBC-Pendenz
-- Budget bzw. Forecast des Berichtsjahres (Kontenebene) – Budgetvergleich (SCH3-202c)
-- Eingangsrechnungen, Abrechnungen und Spesenbelege zu ausgewählten Posten – Belegabstimmung (SCH3-301)
-- Miet-, Leasing-, Versicherungs-, Wartungs- und Lizenzverträge (inkl. Nebenkostenabrechnungen, Prämienrechnungen) – Erwartungswerte (SCH3-202d), Belegabstimmung, Periodenabgrenzung und Anhangangabe Miet-/Leasingverpflichtungen
-- Detaillisten aktive und passive Rechnungsabgrenzungen per 31.12. mit Vorjahr und Belegen – Periodenabgrenzung des Aufwands (SCH3-302)
-- Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate des Folgejahres – Durchsicht in neuer Rechnung auf Aufwand des Berichtsjahres (SCH3-302)
-- Kreditoren-OP-Liste per 31.12. – Abgleich der Folgejahresrechnungen mit den erfassten Verbindlichkeiten (SCH3-302)
-- Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (Pendenzenmappe, Rechnungen nach Erfassungsschluss) – Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt die Unterlage: PBC-Pendenz
-- Liste der Nahestehenden (Aktionäre, VR, GL) und Vereinbarungen zu VR-Honoraren, Spesen, Fahrzeug- und Mietüberlassungen – Beurteilung geschäftsmässiger Aufwand und Drittvergleich (SCH3-301, -303)
-- Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen (Abweichungsanalyse) – Auswertung der Befragung (SCH3-101, -201)
-- Arbeitspapiere und Abschlusskorrekturen der Vorjahresprüfung – Erwartungen und Risikoschwerpunkte für die Analytik (SCH3-202)
+- Saldoliste Erfolgsrechnung mit Vorjahreszahlen auf Kontenebene – Grundlage für Vorjahresvergleich und Abstimmung mit der Jahresrechnung (SCH3-101, -201, -202) — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0109-s199.md)
+- Hauptbuch-Kontoblätter aller Aufwandkonten des übrigen betrieblichen Aufwands (Einzelbuchungen, inkl. Abschlussbuchungen) – Analytische Durchsicht auf Konten-/Monatsebene (SCH3-202b); Einzelbuchungsdurchsicht und Belegauswahl nur weitergehend (SCH3-303, -301); fehlen sie, PBC-Pendenz — [SER S. 94](../chunks/ser-2022/ser-2022__anh-d-s094-1.md)
+- Budget bzw. Forecast des Berichtsjahres (Kontenebene) – Budgetvergleich (SCH3-202c) — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0109-s199.md)
+- Eingangsrechnungen, Abrechnungen und Spesenbelege zu ausgewählten Posten – Belegabstimmung (SCH3-301) — [SER S. 94](../chunks/ser-2022/ser-2022__anh-d-s094-1.md)
+- Miet-, Leasing-, Versicherungs-, Wartungs- und Lizenzverträge (inkl. Nebenkostenabrechnungen, Prämienrechnungen) – Erwartungswerte (SCH3-202d), Belegabstimmung, Periodenabgrenzung und Anhangangabe Miet-/Leasingverpflichtungen — [HWP BuR S. 346](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0836-s346.md)
+- Detaillisten aktive und passive Rechnungsabgrenzungen per 31.12. mit Vorjahr und Belegen – Periodenabgrenzung des Aufwands (SCH3-302) — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0262-s216.md)
+- Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate des Folgejahres – Durchsicht in neuer Rechnung auf Aufwand des Berichtsjahres (SCH3-302) — [SER S. 94](../chunks/ser-2022/ser-2022__anh-d-s094-1.md)
+- Kreditoren-OP-Liste per 31.12. – Abgleich der Folgejahresrechnungen mit den erfassten Verbindlichkeiten (SCH3-302) — [SER S. 84](../chunks/ser-2022/ser-2022__anh-d-s084-2.md)
+- Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (Pendenzenmappe, Rechnungen nach Erfassungsschluss) – Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt die Unterlage: PBC-Pendenz — [SER S. 84](../chunks/ser-2022/ser-2022__anh-d-s084-2.md)
+- Liste der Nahestehenden (Aktionäre, VR, GL) und Vereinbarungen zu VR-Honoraren, Spesen, Fahrzeug- und Mietüberlassungen – Beurteilung geschäftsmässiger Aufwand und Drittvergleich (SCH3-301, -303) — [HWP ER S. 211](../chunks/hwp-er-2026/hwp-er-2026__rz-0159-s211.md)
+- Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen (Abweichungsanalyse) – Auswertung der Befragung (SCH3-101, -201) — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
+- Arbeitspapiere und Abschlusskorrekturen der Vorjahresprüfung – Erwartungen und Risikoschwerpunkte für die Analytik (SCH3-202) — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Bitte erläutern Sie schriftlich die Gründe für die wesentlichen Abweichungen der aufgeführten Aufwandkonten gegenüber Vorjahr bzw. Budget (Liste beigelegt), inkl. Einmaleffekte und Umgliederungen.

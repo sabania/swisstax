@@ -9,6 +9,7 @@ quellen:
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
+- qa-or-rechnungslegung-2026
 - ser-2022
 - treuhand-almanach-2026
 - vstv
@@ -61,21 +62,21 @@ revio Bereich 4 · 19 Schritte (Befragung 3, Analytisch 1, Detail 7, Sonstige 8;
 - Stetigkeit der Darstellung (z.B. Netto-/Bruttodarstellung Anzahlungen und angefangene Arbeiten) — [OR 958C](../chunks/or/or__art-958c.md)
 
 ## Unterlagen (PBC)
-- Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung) – Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303)
-- Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung – Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-301, Detail M1-406), BVG-Ausstände (M1-408)
-- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal und Personalliste (Bruttolöhne) – Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e), Plausibilisierung QST-Abzug je Person zum Bruttolohn (M1-201)
-- Lohnjournal und Lohnabrechnung Dezember, Auszahlungsbelege (Bank) Januar Folgejahr, Bonus-/Spesenabrechnungen der Geschäftsleitung – Nachweis Lohnsammelkonto (M1-301, M1-302e), Organguthaben im Lohnsammelkonto (M1-304), Boni (M1-103)
-- Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten 2025 sowie Buchungen/Zahlungen Januar–Februar Folgejahr – Buchungsdurchsicht (M1-401), Periodenabgrenzung und Zahlungen nach Stichtag (M1-103, M1-403, M1-408)
-- Projekt-/Auftragsliste mit erhaltenen Anzahlungen je Auftrag, Auftragsbestätigungen/Werkverträge, Anzahlungsrechnungen, Zahlungsbelege, Abnahmeprotokolle, Schlussrechnungen – Anzahlungen: Zugänge, Ausgleich, Abstimmung, Abgrenzung zu angefangenen Arbeiten (M1-402 bis M1-405, M1-302d)
-- Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle (u.a. Bonusbeschlüsse) – Identifikation nahestehender Personen (M1-304), Vollständigkeit Personalverbindlichkeiten (M1-103)
-- Kontokorrent-/Darlehensvereinbarungen mit Aktionären, Organen und Konzerngesellschaften inkl. Zinsabrechnungen – Bestandesnachweis (M1-302c), Verzinsung (M1-407), Ausweis (M1-304)
-- Beitragsrechnung/Kontoauszug der Vorsorgeeinrichtung per 31.12., Anschlussvertrag und Vorsorgereglement – Passivierung der Schuld gegenüber der VE und Anhangangabe (M1-408, M1-320), AGBR (M1-321), Dauerakte (M1-322)
-- Vom Kunden selbst eingeholte Saldobestätigungen/Richtigbefundsanzeigen (z.B. Sozialversicherungen, Nahestehende) – Bestandesnachweis (M1-302a); die Revisionsstelle holt keine Drittbestätigungen ein, Fragen/Anforderungen nur als Pendenz
-- Devisenkurse per 31.12. (Bankunterlagen) – Fremdwährungsumrechnung (M1-303)
-- Aufstellung Bestand und Veränderung stille Reserven (Berichtsjahr und Vorjahr) – M1-321, Anhang Art. 959c Abs. 1 Ziff. 3 OR
-- MWST-Abrechnung 4. Quartal bzw. Abrechnungskonto MWST – Nur Bestandsabstimmung in M1-301; materielle MWST-Prüfung in Prüffeld M2
-- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und der Angaben zu Nahestehenden (M1-103, M1-304)
-- Berichte über Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) bzw. Quellensteuer-Revisionen, sofern vorhanden – Nachforderungen und Vollständigkeit (M1-103), Nachweis (M1-302); Einsichtnahme ist weitergehende Prüfungshandlung (nur auf Anweisung WP)
+- Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung) – Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303) — [SER S. 86](../chunks/ser-2022/ser-2022__anh-d-s086-1.md)
+- Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung – Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-301, Detail M1-406), BVG-Ausstände (M1-408) — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0158-s192.md)
+- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal und Personalliste (Bruttolöhne) – Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e), Plausibilisierung QST-Abzug je Person zum Bruttolohn (M1-201) — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s050-1.md)
+- Lohnjournal und Lohnabrechnung Dezember, Auszahlungsbelege (Bank) Januar Folgejahr, Bonus-/Spesenabrechnungen der Geschäftsleitung – Nachweis Lohnsammelkonto (M1-301, M1-302e), Organguthaben im Lohnsammelkonto (M1-304), Boni (M1-103) — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0158-s192.md)
+- Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten 2025 sowie Buchungen/Zahlungen Januar–Februar Folgejahr – Buchungsdurchsicht (M1-401), Periodenabgrenzung und Zahlungen nach Stichtag (M1-103, M1-403, M1-408) — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0158-s192.md)
+- Projekt-/Auftragsliste mit erhaltenen Anzahlungen je Auftrag, Auftragsbestätigungen/Werkverträge, Anzahlungsrechnungen, Zahlungsbelege, Abnahmeprotokolle, Schlussrechnungen – Anzahlungen: Zugänge, Ausgleich, Abstimmung, Abgrenzung zu angefangenen Arbeiten (M1-402 bis M1-405, M1-302d) — [HWP BuR S. 251](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0456-s251.md)
+- Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle (u.a. Bonusbeschlüsse) – Identifikation nahestehender Personen (M1-304), Vollständigkeit Personalverbindlichkeiten (M1-103) — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Kontokorrent-/Darlehensvereinbarungen mit Aktionären, Organen und Konzerngesellschaften inkl. Zinsabrechnungen – Bestandesnachweis (M1-302c), Verzinsung (M1-407), Ausweis (M1-304) — [SER S. 86](../chunks/ser-2022/ser-2022__anh-d-s086-1.md)
+- Beitragsrechnung/Kontoauszug der Vorsorgeeinrichtung per 31.12., Anschlussvertrag und Vorsorgereglement – Passivierung der Schuld gegenüber der VE und Anhangangabe (M1-408, M1-320), AGBR (M1-321), Dauerakte (M1-322) — [HWP BuR S. 265](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0535-s265.md)
+- Vom Kunden selbst eingeholte Saldobestätigungen/Richtigbefundsanzeigen (z.B. Sozialversicherungen, Nahestehende) – Bestandesnachweis (M1-302a); die Revisionsstelle holt keine Drittbestätigungen ein, Fragen/Anforderungen nur als Pendenz — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
+- Devisenkurse per 31.12. (Bankunterlagen) – Fremdwährungsumrechnung (M1-303) — [SER S. 86](../chunks/ser-2022/ser-2022__anh-d-s086-1.md)
+- Aufstellung Bestand und Veränderung stille Reserven (Berichtsjahr und Vorjahr) – M1-321, Anhang Art. 959c Abs. 1 Ziff. 3 OR — [HWP BuR S. 296](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0667-s296.md)
+- MWST-Abrechnung 4. Quartal bzw. Abrechnungskonto MWST – Nur Bestandsabstimmung in M1-301; materielle MWST-Prüfung in Prüffeld M2 — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und der Angaben zu Nahestehenden (M1-103, M1-304) — [SER S. 111](../chunks/ser-2022/ser-2022__anh-e-s111-1.md)
+- Berichte über Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) bzw. Quellensteuer-Revisionen, sofern vorhanden – Nachforderungen und Vollständigkeit (M1-103), Nachweis (M1-302); Einsichtnahme ist weitergehende Prüfungshandlung (nur auf Anweisung WP) — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welche wesentlichen übrigen Verbindlichkeiten bestehen per 31.12. (Gläubiger, Grund, Fälligkeit), und welche sind gegenüber dem Vorjahr neu oder weggefallen?

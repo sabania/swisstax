@@ -92,6 +92,16 @@ def norm_items(items, ctx, keep_without=True):
     return out
 
 
+def weitere(s: dict, ctx: str):
+    """Optionale weitere_fundstellen eines Schritts (Hauptliste: fundstellen) prüfen/reparieren; leer → Feld weglassen."""
+    if "weitere_fundstellen" in s:
+        fs = norm_items([f for f in (s["weitere_fundstellen"] or []) if isinstance(f, dict)], f"{ctx}.weitere_fundstellen", keep_without=False)
+        if fs:
+            s["weitere_fundstellen"] = fs
+        else:
+            s.pop("weitere_fundstellen")
+
+
 def dump(p: Path, d, head: str):
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(head + yaml.safe_dump(d, allow_unicode=True, sort_keys=False, width=180), encoding="utf-8")
@@ -151,6 +161,7 @@ def prueffelder(res: dict, heute: str):
                 continue
             s = dict(s)
             s["fundstellen"] = norm_items(s.get("fundstellen"), sid, keep_without=False)
+            weitere(s, sid)
             sch.append(s)
         extra = set(by) - set(ids_by[c])
         if extra:
@@ -179,6 +190,7 @@ def prozess(res: dict, heute: str):
         for i, s in enumerate(d.get("schritte") or []):
             s = dict(s)
             s["fundstellen"] = norm_items(s.get("fundstellen"), f"{pid}.schritte[{i}]", False)
+            weitere(s, f"{pid}.schritte[{i}]")
             sch.append(s)
         out["schritte"] = sch
         for f in ("entscheidungen_wp", "unterlagen", "dokumentation", "fallstricke"):
@@ -187,6 +199,8 @@ def prozess(res: dict, heute: str):
         out["muster"] = [x for x in (d.get("muster") or []) if rv.chunk_text(x.get("chunk", "")) or LOG.append(f"- Muster-Chunk fehlt {pid}: {x}")]
         codes = {p["code"] for p in rv.L()["katalog"]["prueffelder"]}
         out["prueffelder"] = [c for c in (d.get("prueffelder") or []) if c in codes]
+        if d.get("aufrufe"):   # optionale «Nächste Aufrufe» der Phase (tools/revision.py prozess, build_quick.py) unverändert durchreichen
+            out["aufrufe"] = d["aufrufe"]
         dump(R / "data" / "prozess" / f"{pid}.yaml", out, f"# Prozessphase {pid} – was nötig ist (kein starrer Ablauf), mit Fundstellen.\n")
         n += 1
     return n

@@ -55,19 +55,19 @@ Nicht fakturierte Dienstleistungen/angefangene Arbeiten (Art. 959a OR) inkl. Anz
 - Umsatzerfassung nach OR nicht früher als nach einem parallel angewandten anerkannten Standard (Vorsichtsprinzip). — [HWP BuR S. 317](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0749-s317.md)
 
 ## Unterlagen (PBC)
-- Projektliste/Aufstellung angefangene Arbeiten per 31.12. (Auftragswert, Kosten, Restkosten, Fertigstellungsgrad, Bilanzwert, Bewertungsmethode, Anzahlungen) – Bestandesnachweis, Abstimmung mit Hauptbuch, Grundlage für Analytik und Auswahl (F2-201–203, 301–306, 402)
-- Werkverträge, Auftragsbestätigungen, Offerten und Vorkalkulationen der wesentlichen Projekte – Auftragswert, Abrechnungsart (Pauschal/Aufwand), Soll-Marge (F2-101, 405–407)
-- Stundenrapporte/Arbeitsfortschrittsaufzeichnungen, vereinbarte Abrechnungssätze, Kalkulations- und Kostenrechnungsunterlagen – Stichprobenweise Bewertung nachvollziehen (F2-303, 306)
-- Herleitung Gemeinkostenzuschlag und Auswertung Betriebsbuchhaltung/Projektkostenrechnung – Aktivierbarkeit und Stetigkeit der Gemeinkosten plausibilisieren (F2-104, 306)
-- Abnahmeprotokolle (Zwischen-/Schlussabnahme) der Projekte – Fertigstellung vor/nach Stichtag, Schlussfakturierung (F2-302, 401)
-- Fakturen/Schlussabrechnungen und Kontoblätter Ertrag/Debitoren der neuen Periode – Abrechnungen in neuer Periode, Cut-off (F2-302, 401, 405 d)
-- Kontoblatt erhaltene Anzahlungen mit Zuordnung je Projekt; Abrechnungen von Unterakkordanten/Kreditorenfakturen Fremdleistungen – Gegenüberstellung Anzahlungen/Kosten und Vollständigkeit Fremdkosten (F2-202, 401, 405 a)
-- Berechnung der Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge inkl. Restkostenschätzung der Projektleitung – Verlustfreie Bewertung nachvollziehen (F2-105, 304, 406)
-- Nachweis stille Reserven (Bestand und Veränderung) auf angefangenen Arbeiten – F2-321; Beitrag zur Nettoauflösung an T1-305
-- Konsortial-/ARGE-Verträge und Konsortialabrechnungen – Erfassung und Solidarhaftung beurteilen (F2-408)
+- Projektliste/Aufstellung angefangene Arbeiten per 31.12. (Auftragswert, Kosten, Restkosten, Fertigstellungsgrad, Bilanzwert, Bewertungsmethode, Anzahlungen) – Bestandesnachweis, Abstimmung mit Hauptbuch, Grundlage für Analytik und Auswahl (F2-201–203, 301–306, 402) — [SER S. 78](../chunks/ser-2022/ser-2022__anh-d-s078-3.md)
+- Werkverträge, Auftragsbestätigungen, Offerten und Vorkalkulationen der wesentlichen Projekte – Auftragswert, Abrechnungsart (Pauschal/Aufwand), Soll-Marge (F2-101, 405–407) — [HWP OR S. 349](../chunks/hwp-or-2024/hwp-or-2024__rz-0902-s349-t1.md)
+- Stundenrapporte/Arbeitsfortschrittsaufzeichnungen, vereinbarte Abrechnungssätze, Kalkulations- und Kostenrechnungsunterlagen – Stichprobenweise Bewertung nachvollziehen (F2-303, 306) — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
+- Herleitung Gemeinkostenzuschlag und Auswertung Betriebsbuchhaltung/Projektkostenrechnung – Aktivierbarkeit und Stetigkeit der Gemeinkosten plausibilisieren (F2-104, 306) — [HWP ER S. 206](../chunks/hwp-er-2026/hwp-er-2026__rz-0140-s206-t2.md)
+- Abnahmeprotokolle (Zwischen-/Schlussabnahme) der Projekte – Fertigstellung vor/nach Stichtag, Schlussfakturierung (F2-302, 401) — [HWP OR S. 349](../chunks/hwp-or-2024/hwp-or-2024__rz-0902-s349-t2.md)
+- Fakturen/Schlussabrechnungen und Kontoblätter Ertrag/Debitoren der neuen Periode – Abrechnungen in neuer Periode, Cut-off (F2-302, 401, 405 d) — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
+- Kontoblatt erhaltene Anzahlungen mit Zuordnung je Projekt; Abrechnungen von Unterakkordanten/Kreditorenfakturen Fremdleistungen – Gegenüberstellung Anzahlungen/Kosten und Vollständigkeit Fremdkosten (F2-202, 401, 405 a) — [HWP OR S. 357](../chunks/hwp-or-2024/hwp-or-2024__rz-0915-s357.md)
+- Berechnung der Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge inkl. Restkostenschätzung der Projektleitung – Verlustfreie Bewertung nachvollziehen (F2-105, 304, 406) — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
+- Nachweis stille Reserven (Bestand und Veränderung) auf angefangenen Arbeiten – F2-321; Beitrag zur Nettoauflösung an T1-305 — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Konsortial-/ARGE-Verträge und Konsortialabrechnungen – Erfassung und Solidarhaftung beurteilen (F2-408) — [HWP BuR S. 224](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0306-s224.md)
 - Versicherungspolicen (Bauwesen-/Montageversicherung) für laufende Projekte – Angemessenheit Versicherungswerte (F2-403) (Praxis/intern)
-- Vollständigkeitserklärung der Unternehmensleitung – Schriftliche Bestätigung u.a. zu stillen Reserven und Bewertung
-- Hauptbuch-Kontoblätter angefangene Arbeiten, erhaltene Anzahlungen, Projekterlöse und Debitoren (Dezember GJ und erste Monate Folgejahr); Jahresrechnung inkl. Anhang (ganz lesen) – Schlussrechnungen, Gutschriften und Ausbuchung abgenommener Projekte um den Stichtag (F2-302), Bestandesänderung (F2-201), Anhangsangabe Bewertungsmethode (F2-320)
+- Vollständigkeitserklärung der Unternehmensleitung – Schriftliche Bestätigung u.a. zu stillen Reserven und Bewertung — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Hauptbuch-Kontoblätter angefangene Arbeiten, erhaltene Anzahlungen, Projekterlöse und Debitoren (Dezember GJ und erste Monate Folgejahr); Jahresrechnung inkl. Anhang (ganz lesen) – Schlussrechnungen, Gutschriften und Ausbuchung abgenommener Projekte um den Stichtag (F2-302), Bestandesänderung (F2-201), Anhangsangabe Bewertungsmethode (F2-320) — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welcher Art sind die angefangenen Arbeiten bzw. nicht fakturierten Leistungen (Kundenaufträge mit Werkvertrag oder Arbeiten auf Lager)? Handelt es sich um Bauten auf fremdem Boden?

@@ -29,7 +29,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 # Unterlagen (PBC) je Prüffeld
 
-In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vorschlag für die PBC-Liste 10.10. Die Anforderung beim Kunden macht der Mensch.
+In M-Files suchen; Fehlendes als Pendenz-Notiz «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)» (Konto, Datum, Betrag) – nie direkt in 10.10 (PBC-Liste nur lesen). Die Anforderung beim Kunden macht der Mensch.
 
 ## A1 Allgemeine Prüfungshandlungen
 - Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) rechtsgültig unterzeichnet – A1-301, A1-305/306; Bestandteil der Jahresakten

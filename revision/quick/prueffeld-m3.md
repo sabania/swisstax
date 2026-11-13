@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld M3 Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen – Schnellzugriff
 jur: ch
 quellen:
+- ef-2026-08-buchungslogik
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
@@ -57,21 +58,21 @@ Passive Rechnungsabgrenzungen (GJ-Aufwand, im Folgejahr bezahlt, z.B. Honorare, 
 - Nettoauflösung stiller Reserven (auch aus Rückstellungen) ist nur offenzulegen, wenn das erwirtschaftete Ergebnis dadurch wesentlich günstiger dargestellt wird; offenzulegen ist der Nettobetrag. — [HWP BuR S. 341](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0817-s341-t1.md)
 
 ## Unterlagen (PBC)
-- Detailliste passive Rechnungsabgrenzungen per 31.12. (Text, Gläubiger, Leistungszeitraum, Betrag, Grundlage) – Abstimmung mit Saldo/Jahresrechnung und kritische Durchsicht (M3-301)
-- Rückstellungsspiegel (Stand 01.01., Bildung, Verwendung, Auflösung, Stand 31.12., Fristigkeit) – Abstimmung Bestände und Bewegungen (M3-301, M3-401, M3-321)
-- Berechnungsgrundlagen der Rückstellungen: Aktennotizen, Klageschriften, Korrespondenz, Berechnungen – Abstimmung der Bestände mit Unterlagen (M3-304)
-- Stellungnahme des Rechtsvertreters zu laufenden Prozessen (nur falls vom Unternehmen selbst eingeholt) – Prüfungsnachweis zur Bewertung von Prozessrisiken (M3-304)
-- Verträge mit Abgrenzungsbezug (Miete, Darlehen, Leasing, Service, Honorarofferten) – Abstimmung der Abgrenzungen und Nachrechnen des Periodenaufwands (M3-302, M3-304)
-- Ferien- und Überzeitsaldi je Mitarbeiter per 31.12. aus Zeiterfassung mit Lohnansätzen inkl. Sozialleistungen (Arbeitgeberbeiträge; Satz aus Lohnbuchhaltung bzw. Prüffeld R1) – Nachrechnen der Ferien-/Überzeitabgrenzung inkl. Sozialleistungen (M3-304)
-- Steuerberechnung/Steuerabgrenzung des Geschäftsjahrs – Abstimmung Steuerabgrenzung (Schnittstelle S1; M3-301)
-- Kreditorenjournal und Kontoblätter neue Rechnung bis Prüfungsdatum (Eingangsrechnungen, Zahlungen) – Kontendurchsicht neue Rechnung, Suche nach nicht abgegrenzten Leistungen (M3-305)
-- Detailnachweis stille Reserven (Geschäftsjahr und Vorjahr; revio 10.3) – Plausibilisierung Bestand/Veränderung stiller Reserven in Rückstellungen (M3-321); in M-Files suchen, sonst Pendenz bzw. PBC-Vorschlag
-- Detaillisten passive Abgrenzungen/Rückstellungen des Vorjahres (Vorjahresakte) – Vorjahresvergleich je Position (M3-202)
-- VR- und GL-Protokolle, Aktennotizen des Geschäftsjahrs und des Folgejahrs bis Prüfungsdatum – Hinweise auf Rechtsfälle und Risiken (M3-101, M3-305)
-- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und Eventualverbindlichkeiten (M3-301, M3-320)
-- Vollständigkeitserklärung – Passus stille Reserven – Bestätigung Bildung, Auflösung und Bestand stiller Reserven (M3-321)
-- Beilage zur Vollständigkeitserklärung: wesentliche Rechtsstreitigkeiten und Auseinandersetzungen – Abgleich der Rechtsfälle mit Rückstellungen und Anhang (M3-101, M3-304, M3-320)
-- Kreditoren-OP-Liste per 31.12. – Abgleich mit Detailliste passive Abgrenzungen gegen Doppelerfassung (Kreditor und Abgrenzung) und für die Klassierung (M3-301, M3-305; Schnittstelle K1)
+- Detailliste passive Rechnungsabgrenzungen per 31.12. (Text, Gläubiger, Leistungszeitraum, Betrag, Grundlage) – Abstimmung mit Saldo/Jahresrechnung und kritische Durchsicht (M3-301) — [SER S. 87](../chunks/ser-2022/ser-2022__anh-d-s087-1.md)
+- Rückstellungsspiegel (Stand 01.01., Bildung, Verwendung, Auflösung, Stand 31.12., Fristigkeit) – Abstimmung Bestände und Bewegungen (M3-301, M3-401, M3-321) — [HWP BuR S. 262](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0519-s262.md)
+- Berechnungsgrundlagen der Rückstellungen: Aktennotizen, Klageschriften, Korrespondenz, Berechnungen – Abstimmung der Bestände mit Unterlagen (M3-304) — [SER S. 88](../chunks/ser-2022/ser-2022__anh-d-s088-1.md)
+- Stellungnahme des Rechtsvertreters zu laufenden Prozessen (nur falls vom Unternehmen selbst eingeholt) – Prüfungsnachweis zur Bewertung von Prozessrisiken (M3-304) — [HWP ER S. 204](../chunks/hwp-er-2026/hwp-er-2026__rz-0139-s204-t3.md)
+- Verträge mit Abgrenzungsbezug (Miete, Darlehen, Leasing, Service, Honorarofferten) – Abstimmung der Abgrenzungen und Nachrechnen des Periodenaufwands (M3-302, M3-304) — [SER S. 87](../chunks/ser-2022/ser-2022__anh-d-s087-1.md)
+- Ferien- und Überzeitsaldi je Mitarbeiter per 31.12. aus Zeiterfassung mit Lohnansätzen inkl. Sozialleistungen (Arbeitgeberbeiträge; Satz aus Lohnbuchhaltung bzw. Prüffeld R1) – Nachrechnen der Ferien-/Überzeitabgrenzung inkl. Sozialleistungen (M3-304) — [Q&A Rechnungslegungsrecht](../chunks/qa-or-rechnungslegung-2026/qa-or-rechnungslegung-2026__2-2-t1.md)
+- Steuerberechnung/Steuerabgrenzung des Geschäftsjahrs – Abstimmung Steuerabgrenzung (Schnittstelle S1; M3-301) — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Kreditorenjournal und Kontoblätter neue Rechnung bis Prüfungsdatum (Eingangsrechnungen, Zahlungen) – Kontendurchsicht neue Rechnung, Suche nach nicht abgegrenzten Leistungen (M3-305) — [SER S. 84](../chunks/ser-2022/ser-2022__anh-d-s084-2.md)
+- Detailnachweis stille Reserven (Geschäftsjahr und Vorjahr; revio 10.3) – Plausibilisierung Bestand/Veränderung stiller Reserven in Rückstellungen (M3-321); in M-Files suchen, sonst Pendenz bzw. PBC-Vorschlag — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Detaillisten passive Abgrenzungen/Rückstellungen des Vorjahres (Vorjahresakte) – Vorjahresvergleich je Position (M3-202) — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0262-s216.md)
+- VR- und GL-Protokolle, Aktennotizen des Geschäftsjahrs und des Folgejahrs bis Prüfungsdatum – Hinweise auf Rechtsfälle und Risiken (M3-101, M3-305) — [HWP ER S. 202](../chunks/hwp-er-2026/hwp-er-2026__rz-0124-s202.md)
+- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und Eventualverbindlichkeiten (M3-301, M3-320) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Vollständigkeitserklärung – Passus stille Reserven – Bestätigung Bildung, Auflösung und Bestand stiller Reserven (M3-321) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Beilage zur Vollständigkeitserklärung: wesentliche Rechtsstreitigkeiten und Auseinandersetzungen – Abgleich der Rechtsfälle mit Rückstellungen und Anhang (M3-101, M3-304, M3-320) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-2.md)
+- Kreditoren-OP-Liste per 31.12. – Abgleich mit Detailliste passive Abgrenzungen gegen Doppelerfassung (Kreditor und Abgrenzung) und für die Klassierung (M3-301, M3-305; Schnittstelle K1) — [HWP ER S. 200](../chunks/hwp-er-2026/hwp-er-2026__rz-0115-s200.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wie stellen Sie sicher, dass alle Aufwände des Geschäftsjahrs, deren Rechnung erst im Folgejahr eintrifft (Honorare inkl. Revision, Energie, Telefon, Zinsen, Subunternehmer), abgegrenzt sind? Wer erstellt die Liste, auf welcher Grundlage und bis wann?

@@ -61,12 +61,17 @@ TOOLS = [
      "description": "Überblick eines Prüffelds (A1 … T1 oder Stichwort wie «Vorräte», «MWST», «Eigenkapital»): Risiken, Bewertungsregeln, "
                     "Unterlagen (PBC), Fragen an den Kunden, Fallstricke, alle Prüfschritte mit Rolle des Agenten, revio-Werkzeuge.",
      "inputSchema": obj({"prueffeld": S, "voll": {"type": "boolean", "description": "Schritttexte ungekürzt"}}, ["prueffeld"])},
-    {"name": "prozess", "fn": lambda a: rv.prozess(a.get("phase") or None),
+    {"name": "prozess", "fn": lambda a: rv.prozess(" ".join(str(x) for x in (a.get("phase"), a.get("abschnitt")) if x not in (None, "")) or None,
+                                                   ja(a.get("voll"))),
      "description": "Prozess der eingeschränkten Revision (kein starrer Ablauf): ohne Phase Übersicht p1–p8 inkl. Agent-Prozesse 1–6; mit Phase "
                     "(p1 Auftrag/Unabhängigkeit, p2 Planung/Wesentlichkeit, p3 Durchführung, p4 Beendigung/VE, p5 Bericht/Hinweise, "
-                    "p6 Kapitalverlust/Überschuldung, p7 Qualität/Dokumentation/Datenschutz, p8 Agent-Ablauf) was nötig ist, WP-Entscheide, "
-                    "Kundenfragen, Unterlagen, Muster, Fundstellen.",
-     "inputSchema": obj({"phase": {**S, "description": "z.B. p2 oder Stichwort (bericht, rangrücktritt)"}}, [])},
+                    "p6 Kapitalverlust/Überschuldung, p7 Qualität/Dokumentation/Datenschutz, p8 Agent-Ablauf) KOMPAKT: Ziel, alle Schritte "
+                    "gekürzt mit Prüfschritt-Kennzeichnung (EP/WP/4xx) und Aufruf, Zahl der WP-Entscheide, Rechtsgrundlagen, nächste Aufrufe. "
+                    "Ein Abschnitt ganz: abschnitt = schritte | entscheide | fallstricke | fragen | unterlagen | doku | muster | gesetz "
+                    "(gross: «ab 19» anhängen). voll=true: alle Abschnitte (lang). Eine Ziffer 1–6 = Agent-Prozess des Konzepts → `aufgabe`.",
+     "inputSchema": obj({"phase": {**S, "description": "z.B. p2 oder Stichwort (bericht, rangrücktritt); auch «p4 fallstricke»"},
+                         "abschnitt": {**S, "description": "schritte | entscheide | fallstricke | fragen | unterlagen | doku | muster | gesetz"},
+                         "voll": {"type": "boolean", "description": "true = alle Abschnitte ungekürzt (lang)"}}, [])},
     {"name": "regeln", "fn": lambda a: rv.regeln(a.get("bereich") or None),
      "description": "Verbindliche Arbeitsregeln des Agenten mit Fundstelle (Grenzen gehen vor). Ohne Bereich: alle Arbeitsregeln ohne gesetz. "
                     "Bereiche: grenze (nie Visum/Abschluss/Freigabe/Versand/Buchung; Vorjahr nur lesen; Mandatsdaten nur in freigegebenen "
@@ -105,28 +110,34 @@ TOOLS = [
                                                                  a.get("kapitalreserve", 0), a.get("gewinnreserve", 0), ja(a.get("holding", False)),
                                                                  a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert"),
                                                                  a.get("freiwillige_reserven"), a.get("vortrag"), a.get("jahresergebnis"), a.get("eigene_aktien"),
-                                                                 a.get("reserve_voll", 0), a.get("covid_kredit", 0)),
+                                                                 a.get("reserve_voll", 0), a.get("covid_kredit", 0), a.get("rr_polster")),
      "description": "Rechenhilfe Kapitalschutz OR 725a/725b/725c: geschütztes Kapital (gesetzliche Reserven höchstens 50 % bzw. Holding 20 % des "
                     "Aktienkapitals), Kapitalverlust (Hälfte-Test), Überschuldung, Rangrücktritt, zulässige Aufwertung (mit buchwert + verkehrswert). "
                     "Eigenkapital direkt ODER aus Bestandteilen (freiwillige_reserven, vortrag, jahresergebnis – Verluste negativ –, eigene_aktien) "
                     "ODER aktiven + verbindlichkeiten. reserve_voll = Gewinnreserven für eigene Kapitalanteile im Konzern/Aufwertungsreserve (zählen "
-                    "voll zum geschützten Kapital); covid_kredit = Kredit nach Art. 3 Covid-19-SBüV bzw. Art. 21 HFMV 20 (kein Fremdkapital). "
-                    "Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. "
-                    "Beurteilung: WP.",
-     "inputSchema": obj({"aktienkapital": {**N, "description": "Aktien- und PS-Kapital in CHF"}, "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
-                         "aktiven": N, "verbindlichkeiten": {**N, "description": "Fremdkapital inkl. Rückstellungen"},
-                         "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (z.B. Agio)"},
+                    "voll zum geschützten Kapital); covid_kredit = Kredite nach Art. 3 Covid-19-SBüV (nicht Art. 4) und HFMV-20-Darlehen (kein "
+                    "Fremdkapital; verbindlichkeiten trotzdem wie in der Bilanz). rangruecktritt = Σ laut unterzeichneten Vereinbarungen inkl. "
+                    "Zinsen; rr_polster = Sicherheitspolster für erwartete Verluste 12 Monate (HWP ER Rz 421, Höhe vom WP) → Deckungsrechnung. "
+                    "Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. Beurteilung: WP.",
+     "inputSchema": obj({"aktienkapital": {**N, "description": "nominelles Aktien- und PS-Kapital laut Handelsregister in CHF"},
+                         "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
+                         "aktiven": N, "verbindlichkeiten": {**N, "description": "Fremdkapital gesamt: Verbindlichkeiten + Rückstellungen + PRA, wie in "
+                                                                                  "der Bilanz (inkl. Covid-Kredit; diesen zusätzlich als covid_kredit)"},
+                         "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (Art. 671 Abs. 1 OR, z.B. Agio)"},
                          "gewinnreserve": {**N, "description": "nur gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) – ohne Aufwertungsreserve und Reserve für "
                                                                "eigene Kapitalanteile (diese in reserve_voll)"},
                          "freiwillige_reserven": N, "vortrag": {**N, "description": "Gewinn-/Verlustvortrag (Verlust negativ)"},
                          "jahresergebnis": {**N, "description": "Jahresgewinn/-verlust (Verlust negativ)"}, "eigene_aktien": {**N, "description": "Betrag eigene Aktien (wird abgezogen)"},
-                         "holding": {"type": "boolean"}, "rangruecktritt": N, "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
+                         "holding": {"type": "boolean"},
+                         "rangruecktritt": {**N, "description": "Σ Rangrücktritte laut unterzeichneten Vereinbarungen inkl. Zinsen (nicht laut Anhang)"},
+                         "rr_polster": {**N, "description": "Sicherheitspolster: in den nächsten 12 Monaten erwartete Verluste (HWP ER Rz 421; Höhe legt der WP fest)"},
+                         "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
                          "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"},
                          "reserve_voll": {**N, "description": "gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und Aufwertungsreserve "
                                                              "(OR 725c) – ohne 50-%-Grenze; nicht zusätzlich in gewinnreserve"},
-                         "covid_kredit": {**N, "description": "nur der nach Art. 3 Covid-19-SBüV verbürgte Kredit bzw. Darlehen/Kredit nach Art. 21 HFMV 20: "
-                                                              "kein Fremdkapital (Art. 24 Covid-19-SBüG; HWP ER Rz 373); andere Kredite bleiben "
-                                                              "Fremdkapital; verbindlichkeiten wie in der Bilanz eingeben"}},
+                         "covid_kredit": {**N, "description": "Kredite nach Art. 3 Covid-19-SBüV (nicht Art. 4) und Darlehen/Kredite nach Art. 21 HFMV 20: "
+                                                              "zählen nicht als Fremdkapital (Art. 24 Covid-19-SBüG; HWP ER Rz 373/381); Kredite nach "
+                                                              "Art. 4 SBüV und andere bleiben Fremdkapital; verbindlichkeiten unverändert wie in der Bilanz"}},
                         ["aktienkapital"])},
     {"name": "revisionspflicht", "fn": lambda a: rv.revisionspflicht(a["bilanzsumme"], a["umsatz"], a["vollzeitstellen"], a.get("vj_bilanzsumme"), a.get("vj_umsatz"), a.get("vj_vollzeitstellen")),
      "description": "Rechenhilfe OR 727/727a: ordentliche oder eingeschränkte Revision nach Grössen (Bilanzsumme, Umsatz in CHF, Vollzeitstellen; "

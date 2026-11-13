@@ -558,13 +558,51 @@ def _revio_fuer(s: dict, alle_lesen: bool = False) -> list[str]:
 DRIFT_TXT = "⚠ lookup veraltet für"
 
 
+def _eingaben() -> list[Path]:
+    """Eingaben von index/lookup.json – dieselbe Liste wie tools/build_lookup.py eingaben() (dort mit PyYAML; hier nur Standardbibliothek)."""
+    fs = [R / "registry" / "sources.yaml", *(R / "data").rglob("*.yaml"), *(R / "data" / "revio").glob("*.csv"),
+          *(R / "raw" / "revio" / n for n in ("revio-mcp-werkzeuge.csv", "revio-mcp-werkzeuge.md", "revio-schemas.json"))]
+    return sorted({p for p in fs if p.is_file()}, key=lambda p: p.relative_to(R).as_posix())
+
+
+_DRIFT_CACHE: dict = {}
+
+
+def _daten_drift() -> str:
+    """Übrige Daten (Prozess, Themen, Werte, Aufgaben, Regeln, revio): zuerst der günstige mtime-Vergleich (Eingabe jünger als lookup.json),
+    nur dann der Hash wie build_lookup inputs_sha256 – so keine Fehlwarnung nach git checkout. Rückgabe: geänderte Dateien (kurz) oder ''."""
+    soll = L().get("inputs_sha256")
+    lp = R / "index" / "lookup.json"
+    if not soll or not (R / "data").is_dir():
+        return ""
+    try:
+        lmt = lp.stat().st_mtime
+        fs = _eingaben()
+        jung = [p for p in fs if p.stat().st_mtime > lmt]
+    except (OSError, ValueError):
+        return ""
+    if not jung:
+        return ""
+    sig = (lmt, len(fs), max(p.stat().st_mtime for p in jung))
+    if sig not in _DRIFT_CACHE:
+        h = hashlib.sha256()
+        for p in fs:
+            h.update(p.relative_to(R).as_posix().encode("utf-8") + b"\0" + hashlib.sha256(p.read_bytes()).digest())
+        _DRIFT_CACHE.clear()
+        _DRIFT_CACHE[sig] = "" if h.hexdigest() == soll else ", ".join(p.relative_to(R).as_posix() for p in jung[:4]) + (" …" if len(jung) > 4 else "")
+    return _DRIFT_CACHE[sig]
+
+
 def _drift() -> str:
-    """Eine Warnzeile, wenn data/prueffelder/*.yaml nicht mehr zum lookup passt (sha256 ↔ lookup pf[code]._sha).
-    Ohne data/ (Plugin) oder ohne _sha im lookup (alter Stand): keine Prüfung."""
+    """Eine Warnzeile, wenn data/ nicht mehr zum lookup passt: Prüffelder über sha256 ↔ lookup pf[code]._sha, übrige Daten über
+    inputs_sha256 (nach mtime-Vorprüfung). Ohne data/ (Plugin) oder ohne Hash im lookup (alter Stand): keine Prüfung."""
     d = R / "data" / "prueffelder"
     pf = L().get("pf", {})
-    if not d.is_dir() or not any(isinstance(v, dict) and v.get("_sha") for v in pf.values()):
+    if not (R / "data").is_dir():
         return ""
+    if not d.is_dir() or not any(isinstance(v, dict) and v.get("_sha") for v in pf.values()):
+        x = _daten_drift()
+        return f"{DRIFT_TXT} data/ ({x}) – python3 revision/tools/build_quick.py" if x else ""
     alt = []
     for p in sorted(d.glob("*.yaml")):
         e = pf.get(p.stem.upper())
@@ -574,7 +612,10 @@ def _drift() -> str:
             continue
         if neu:
             alt.append(p.stem.upper())
-    return f"{DRIFT_TXT} {', '.join(alt)} – python3 revision/tools/build_quick.py" if alt else ""
+    if alt:
+        return f"{DRIFT_TXT} {', '.join(alt)} – python3 revision/tools/build_quick.py"
+    x = _daten_drift()
+    return f"{DRIFT_TXT} data/ ({x}) – python3 revision/tools/build_quick.py" if x else ""
 
 
 def _mit_drift(fn):
@@ -659,20 +700,22 @@ RECHNER_TXT = ("kapitalverlust", "wesentlichkeit", "revisionspflicht")
 
 
 def _aufrufe_in(*texte) -> list[str]:
-    """Werkzeugaufrufe in Backticks (nur bekannte Befehle), ohne Duplikate, Reihenfolge des Texts."""
+    """Werkzeugaufrufe in Backticks (nur bekannte Befehle), ohne Duplikate, Reihenfolge des Texts; ein Rechner-Aufruf ohne Argumente
+    entfällt, wenn derselbe Rechner ausführlich vorkommt (`revisionspflicht` neben `revisionspflicht --bilanzsumme …`)."""
     out = []
     for t in texte:
         for x in str(t or "").split("`")[1::2]:
             x = re.sub(r"\s+", " ", x.replace('\\"', '"')).strip()
             if re.match(rf"(?:{'|'.join(BEFEHLE)})(?:\s|$)", x) and x not in out:
                 out.append(x)
-    return out
+    return [x for x in out if not (x in RECHNER_TXT and any(y.startswith(x + " ") for y in out))]
 
 
 def _schritt_aufrufe(e: dict) -> list[str]:
     """Aufrufe für einen Prüfschritt: Datenfeld `aufrufe` (falls erfasst), sonst aus den Backticks von Vorgehen/Rechnen/Feststellung/Notiz.
     Ein blosses `rechne` (steht ohnehin im Fuss) und kürzere Varianten desselben Befehls entfallen."""
-    roh = list(e.get("aufrufe") or []) + _aufrufe_in(e.get("vorgehen"), e.get("rechnen"), e.get("feststellung_wenn"), e.get("notiz"),
+    af = e.get("aufrufe") or []
+    roh = [str(x).strip().strip("`") for x in (af if isinstance(af, list) else [af])] + _aufrufe_in(e.get("vorgehen"), e.get("rechnen"), e.get("feststellung_wenn"), e.get("notiz"),
                                                      " ".join(map(str, e.get("nachweise") or [])))
     out = []
     for x in dict.fromkeys(str(a).strip() for a in roh if str(a).strip()):
@@ -994,6 +1037,7 @@ def _uebersicht(feld: str, titel: str, befehl: str) -> str:
                      [f"- {c} {_pfname(c)}: {len(i)} → `{befehl} {c}`" for c, i in rows])
 
 
+@_mit_drift
 def unterlagen(ref: str | None = None) -> str:
     if (ref or "").strip().lower() in ALLE:   # nie die Vollausgabe aller Prüffelder (zu lang): kurze Übersicht + Aufruf je Prüffeld
         return (_uebersicht("unterlagen", "Unterlagen (PBC)", "unterlagen") + "\n\nJe markiertem Prüffeld einzeln: `unterlagen <Prüffeld>` "
@@ -1011,6 +1055,7 @@ def unterlagen(ref: str | None = None) -> str:
     return "\n".join(out)
 
 
+@_mit_drift
 def fragen(ref: str | None = None) -> str:
     if (ref or "").strip().lower() in ALLE:
         return _uebersicht("fragen_kunde", "Fragen an den Kunden", "fragen")
@@ -1032,54 +1077,314 @@ def _pfname(code):
 
 
 # ------------------------------------------------------------------ Prozess / Regeln
-def prozess(ref: str | None = None) -> str:
+# Abschnitte einer Phase: Token → Feld (in `prozess p4 fallstricke` usw.)
+PROZESS_ABSCHNITT = {"schritte": "schritte", "schritt": "schritte", "entscheide": "entscheidungen_wp", "entscheidungen": "entscheidungen_wp",
+                     "entscheid": "entscheidungen_wp", "wp": "entscheidungen_wp", "fallstricke": "fallstricke", "fallstrick": "fallstricke",
+                     "fragen": "fragen_kunde", "kundenfragen": "fragen_kunde", "unterlagen": "unterlagen", "pbc": "unterlagen",
+                     "doku": "dokumentation", "dokumentation": "dokumentation", "muster": "muster", "vorlagen": "muster",
+                     "mustervorlagen": "muster", "gesetz": "gesetz", "standard": "gesetz", "rechtsgrundlagen": "gesetz"}
+PROZESS_TOKEN = {"schritte": "schritte", "entscheidungen_wp": "entscheide", "fallstricke": "fallstricke", "fragen_kunde": "fragen",
+                 "unterlagen": "unterlagen", "dokumentation": "doku", "muster": "muster", "gesetz": "gesetz"}
+PROZESS_TITEL = {"schritte": "Schritte – was nötig ist (Reihenfolge flexibel)", "entscheidungen_wp": "Entscheide des WP (nie der Agent)",
+                 "fallstricke": "Fallstricke", "gesetz": "Gesetz / Standard", "unterlagen": "Unterlagen",
+                 "fragen_kunde": "Fragen an den Kunden (nie selbst befragen: schriftliche Antwort 10.11/Protokolle auswerten, sonst Notiz «Pendenz» "
+                                 "«Frage an Kunde: …»; Anforderung beim Kunden durch den Menschen)",
+                 "dokumentation": "Dokumentation", "muster": "Mustervorlagen"}
+PROZESS_FOLGE = ("schritte", "entscheidungen_wp", "fallstricke", "gesetz", "unterlagen", "fragen_kunde", "dokumentation", "muster")
+PROZESS_KOMPAKT_MAX = 6000   # Zeichen: Kompaktansicht einer Phase (Schritte immer alle, gekürzt; Rest über Abschnitte)
+WER_KURZ = {"Agent bereitet vor, WP entscheidet": "Agent bereitet vor → WP entscheidet"}
+PROZESS_ABSCHNITT_MAX = 24 * 1024   # Bytes je Abschnitt bzw. --voll-Teil (unter der read-Kappung von OpenClaw)
+LESERECHTE_RX = re.compile(r"Leserechte:\s*3\.3 immer lesen\..*?(?:Nichts annehmen\.|$)", re.S)
+TOR_RX = re.compile(r"^(?:Je Mandat )?[Vv]or dem ersten Zugriff auf Mandatsdaten\b")
+PS_ID_RX = re.compile(r"\b(?:SCH\d|[A-Z]\d)-\d{3}\b")
+
+
+def _agent_prozesse() -> list[tuple[int, str]]:
+    """Agent-Prozesse (Konzept consis) aus aufgaben.yaml: je Nummer die erste Aufgabe (0 mandat-start, 1 import, 2 prueffeld …)."""
+    out = {}
+    for a in L().get("aufgaben", []):
+        n = str(a.get("prozess", "")).strip()
+        if n.isdigit() and int(n) not in out:
+            out[int(n)] = a["id"]
+    return sorted(out.items())
+
+
+def _phase_wahl(ref: str):
+    """Phase zu einer Eingabe: exakt (p4, p4-abschluss, abschluss, 7/8) vor Stichwort-Gewichtung (zuerst Treffer in Id/Titel, dann
+    Häufigkeit im Inhalt)."""
     ph = L().get("prozess", [])
-    if not ref:
+    r = key(ref).strip()
+    for x in ph:
+        i = key(x["id"])
+        pre, _, name = i.partition("-")
+        if r in (i, pre, name, pre.lstrip("p")):
+            return x
+    if re.fullmatch(r"p?\d+", r):
+        return None
+    ts = terms_of(ref)
+    if not ts:
+        return None
+    best, bs = None, (0, 0)
+    for x in ph:   # Treffer in Id/Titel gehen vor (sonst gewinnt die längste Phase, z.B. «wesentlichkeit» → p3 statt p2)
+        kt, js = norm(x["id"] + " " + x["titel"]), norm(json.dumps(x, ensure_ascii=False))
+        sc = (sum(t[:6] in kt for t in ts), sum(js.count(t[:6]) for t in ts))
+        if sc > bs:
+            best, bs = x, sc
+    return best if bs[1] else None
+
+
+def _ps_kennz(sid: str) -> str:
+    """Kennzeichnung eines Prüfschritts wie im Banner von `pruefschritt` (WP / 4xx / EP)."""
+    s = L().get("katalog", {}).get("schritte", {}).get(sid)
+    if not s:
+        return ""
+    if s.get("kennzeichnung") in ("WP", "?"):
+        return "WP – ohne Anweisung des WP kein Textfeld"
+    if s.get("typ") == "Sonstige":
+        return "4xx – nur auf Anweisung"
+    return "EP" if s.get("kennzeichnung") == "EP" else ""
+
+
+def _ps_liste(ids: list[str]) -> str:
+    """«A1-102, T1-109 (EP) · SCH3-302 (WP – ohne Anweisung des WP kein Textfeld)» – benachbarte Ids mit gleicher Kennzeichnung gruppiert."""
+    grp = []
+    for i in ids:
+        k = _ps_kennz(i)
+        if grp and grp[-1][0] == k:
+            grp[-1][1].append(i)
+        else:
+            grp.append((k, [i]))
+    return " · ".join(", ".join(g) + (f" ({k})" if k else "") for k, g in grp)
+
+
+def _ohne_rv(t: str) -> str:
+    """rv_-Werkzeugnamen und reine Id-Klammern entfernen (Kompaktansicht; Namen: `prozess <id> schritte` bzw. `revio <id>`)."""
+    t = re.sub(r"\s*\((?:\s*(?:SCH\d|[A-Z]\d)-\d{3}\s*,?)+\)", "", str(t or ""))
+    t = re.sub(r"\s*\(\s*(?:rv_[A-Za-z_]+(?:\s*(?:,|und|bzw\.|/)\s*)?)+\s*\)", "", t)
+    t = re.sub(r"\s*(?:mit |via |über )?\brv_[A-Za-z_]+", "", t)
+    return re.sub(r"\s{2,}", " ", t).strip()
+
+
+def _cut_bt(t: str, n: int) -> str:
+    """Kürzen ohne offene Backticks: lange Aufrufe im Fliesstext auf den Befehl verkürzen (`kapitalverlust …`), danach cut()."""
+    t = re.sub(r"`([^`]{40,})`", lambda m: f"`{m.group(1).split()[0]} …`", str(t or ""))
+    z = cut(t, n)
+    return z if z.count("`") % 2 == 0 else z.rstrip("…").rstrip() + "`…"
+
+
+def _gesetz_zeile(gs: list[dict]) -> str:
+    """Rechtsgrundlagen kompakt: «OR 729a, 958a; Covid-19-SBüG 24; HWP ER Rz 42, 51; SER …» aus den Chunk-Ids."""
+    grp: dict = {}
+    for g in gs:
+        q = g.get("quelle") or g.get("chunk") or ""
+        src, _, rest = q.partition("__")
+        k = kurz_of(q).replace(" (ordentliche Revision, nur ergänzend)", "")
+        m = re.match(r"(art|par)-(\d+[a-z]?)", rest) or re.match(r"rz-0*(\d+)", rest)
+        nr = (m.group(2) if m and m.re.pattern.startswith("(art") else f"Rz {m.group(1)}") if m else ""
+        lst = grp.setdefault(k, [])
+        if nr and nr not in lst:
+            lst.append(nr)
+    return "; ".join(k + (" " + ", ".join(v[:8]) + (" …" if len(v) > 8 else "") if v else "") for k, v in grp.items())
+
+
+def _p_fmt(feld: str, x: dict, voll_gesetz: bool = True) -> str:
+    """Eine Zeile eines Abschnitts (vollständig, mit Fundstellen inkl. weitere_fundstellen)."""
+    if feld == "gesetz":
+        q = x.get("quelle") or x.get("chunk")
+        return (f"- {x.get('thema', '')}: {fs(q, x.get('zitat'), 150)}{_extra(x)}" if voll_gesetz
+                else f"- {x.get('thema', '')}" + _refs(x, x.get("thema", "")))
+    if feld == "fragen_kunde":
+        return f"- {x['frage']}" + (f" ({x['zweck']})" if x.get("zweck") else "")
+    if feld == "unterlagen":
+        t = f"{x['dokument']} – {x.get('zweck', '')}"
+        return f"- {t}{_refs(x, t)}"
+    if feld == "muster":
+        return f"- {x['vorlage']} ^[{x.get('chunk') or x.get('quelle')}]"
+    return f"- {x['text']}{_refs(x, x['text'])}"
+
+
+def _p_schritt(i: int, s: dict) -> str:
+    """Schritt vollständig: [wer] was (revio · M-Files) + bis zu 3 Fundstellen."""
+    loc = " · ".join(x for x in (f"revio: {s['revio']}" if s.get("revio") else "", f"M-Files: {s['mfiles']}" if s.get("mfiles") else "") if x)
+    ids = [f.get("quelle") or f.get("chunk") for f in s.get("fundstellen") or [] if isinstance(f, dict)]
+    ids = [q for q in dict.fromkeys(ids) if q and f"^[{q}]" not in s["was"]]
+    ref = " ".join(f"^[{q}]" for q in ids[:3]) + (f" (+{len(ids) - 3})" if len(ids) > 3 else "")
+    return f"{i}. [{s.get('wer', '')}] {s['was']}" + (f" ({loc})" if loc else "") + (f" {ref}" if ref else "")
+
+
+def _p_aufrufe(p: dict) -> list[str]:
+    """Nächste Aufrufe einer Phase: Datenfeld `aufrufe`, sonst Aufgaben der Phase (Agent-Ablauf: alle Agent-Prozesse) und Werkzeugaufrufe
+    aus den Schritten; ohne Aufgabe die Grenzen (`regeln grenze`, `revio nur-mensch`)."""
+    if p.get("aufrufe"):
+        af = p["aufrufe"]
+        return [str(a).strip().strip("`") for a in (af if isinstance(af, list) else [af]) if str(a).strip()][:8]
+    auf = [a["id"] for a in L().get("aufgaben", []) if a.get("phase") == p["id"]]
+    ap = _agent_prozesse()
+    if sum(1 for n, a in ap if a in auf or any(x.get("id") == a and x.get("phase") == p["id"] for x in L().get("aufgaben", []))) >= 3:
+        out = [f"aufgabe {a}" for _, a in ap]
+    else:
+        out = [f"aufgabe {a}" for a in auf]
+    own = p["id"].split("-")[0]
+    for x in _aufrufe_in(*[f"{s.get('was', '')} {s.get('revio', '')} {s.get('mfiles', '')}" for s in p.get("schritte") or []]):
+        b = x.split()[0]
+        if x in out or x == f"prozess {own}" or (b in RECHNER_TXT + ("rechne",) and any(y.split()[0] == b for y in out)):
+            continue
+        out.append(x)
+    if not auf:
+        out += [x for x in ("regeln grenze", "revio nur-mensch") if x not in out]
+    return out[:8]
+
+
+@_mit_drift
+def prozess(ref: str | None = None, voll: bool = False) -> str:
+    ph = L().get("prozess", [])
+    if not ref or not str(ref).strip():
+        ap = dict(_agent_prozesse())
+        a_ = lambda n: f" (`aufgabe {ap[n]}`)" if n in ap else ""  # noqa: E731
         out = ["# Prozess eingeschränkte Revision – Übersicht (kein starrer Ablauf: je Phase prüfen, was nötig ist)", "",
                "| Phase | Ziel | Wann | WP entscheidet |", "|---|---|---|---|"]
         for p in ph:
             out.append(f"| `{p['id']}` {p['titel']} | {cut(p.get('ziel'), 140)} | {cut(p.get('wann'), 80)} | {len(p.get('entscheidungen_wp') or [])} Punkte |")
-        out += ["", "## Agent-Prozesse 1–6 (Konzept consis)",
-                "1 Import Jahresrechnung (M-Files → revio 1.1; Halt zur Kontrolle in der Testphase) · 2 markierte Abschlussprüfungen (Bereich 4) · "
-                "3 Unterlagen zum Abschluss (10.9; PBC-Vorschläge 10.10) · 4 Revisionsrapport (E-Mail nur an WP) · 5 GVB-Bericht (Entwurf, keine Unterzeichnung/Datierung) · "
-                "6 PDF-Akte (nur auf Anweisung). Details: `prozess p8` · Werkzeugketten: `revio ketten`.",
-                "", "Detail einer Phase: `prozess p2` (oder Stichwort, z.B. `prozess wesentlichkeit`). Grenzen: `regeln grenze`."]
+        out += ["", "## Agent-Prozesse 1–6 (Konzept consis) – zu jedem eine Aufgabe mit Checkliste",
+                f"1 Import Jahresrechnung (M-Files → revio 1.1; Halt zur Kontrolle in der Testphase){a_(1)} · 2 markierte Abschlussprüfungen "
+                f"(Bereich 4){a_(2)} · 3 Unterlagen zum Abschluss (10.9 ablegen; fehlende Unterlagen → Pendenz-Notiz «PBC-Vorschlag», 10.10 nur "
+                f"lesen){a_(3)} · 4 Revisionsrapport (E-Mail nur an WP){a_(4)} · 5 GVB-Bericht (Entwurf, keine Unterzeichnung/Datierung){a_(5)} · "
+                f"6 PDF-Akte (nur auf Anweisung){a_(6)}. Ablauf: `prozess p8` · Werkzeugketten: `revio ketten`.",
+                "", "Phase kompakt: `prozess p2` (oder Stichwort, z.B. `prozess wesentlichkeit`) · ein Abschnitt ganz: `prozess p2 entscheide` "
+                "(schritte|entscheide|fallstricke|fragen|unterlagen|doku|muster|gesetz) · alles: `prozess p2 --voll`. Grenzen: `regeln grenze`."]
         return "\n".join(out)
-    r = norm(ref)
-    p = next((x for x in ph if norm(x["id"]).startswith(r) or r == norm(x["id"]).split("-")[0]), None)
+    toks = str(ref).split()
+    ab = 1   # Abschnitt ab Eintrag N (Fortsetzung grosser Abschnitte): `prozess p8 schritte ab 19`
+    if len(toks) >= 3 and toks[-1].isdigit() and (key(toks[-2]) in ("ab", "von") or key(toks[-2]) in PROZESS_ABSCHNITT):
+        ab = max(1, int(toks[-1]))
+        toks = toks[:-2] if key(toks[-2]) in ("ab", "von") else toks[:-1]
+    feld = PROZESS_ABSCHNITT.get(key(toks[-1])) if len(toks) >= 2 else None
+    pref = " ".join(toks[:-1]) if feld else " ".join(toks)
+    if len(toks) == 1 and key(toks[0]) in PROZESS_ABSCHNITT:
+        return (f"Abschnitt «{toks[0]}»: bitte mit Phase aufrufen, z.B. `prozess p4 {PROZESS_TOKEN[PROZESS_ABSCHNITT[key(toks[0])]]}` "
+                "(Phasen p1–p8: `prozess`).")
+    m = re.fullmatch(r"\s*(?:agent-?)?(?:prozess\s*)?([1-6])\s*", key(pref))
+    if m:   # «Prozess 4» = Agent-Prozess des Konzepts, nicht Phase p4
+        n = int(m.group(1))
+        a = dict(_agent_prozesse()).get(n)
+        p = next((x for x in ph if x["id"].startswith(f"p{n}-")), None)
+        return (f"Agent-Prozess {n} (Konzept consis) = `aufgabe {a}` (Checkliste mit Aufrufen)." if a else f"Agent-Prozess {n}: `prozess p8`.") + (
+            f" Die Wiki-Phasen heissen p1–p8: Phase {n} = `prozess p{n}` ({p['titel']})." if p else "") + " Übersicht: `prozess`."
+    p = _phase_wahl(pref)
     if not p:
-        ts = terms_of(ref)
-        sc = [(sum(1 for t in ts if t[:6] in norm(json.dumps(x, ensure_ascii=False))), x) for x in ph]
-        sc = [x for x in sc if x[0]]
-        p = max(sc, key=lambda x: x[0])[1] if sc else None
-    if not p:
-        return "Phase nicht gefunden. Übersicht: `prozess`."
-    out = [f"# {p['id']} · {p['titel']}", f"Ziel: {p.get('ziel', '')}", f"Wann: {p.get('wann', '')}"]
-    if p.get("gesetz"):
-        out += ["", "## Gesetz / Standard"] + [f"- {g.get('thema', '')}: {fs(g.get('quelle') or g.get('chunk'), g.get('zitat'), 150)}" for g in p["gesetz"]]
-    if p.get("schritte"):
-        out += ["", "## Was nötig ist (Reihenfolge flexibel)"]
-        for s in p["schritte"]:
-            loc = " · ".join(x for x in (f"revio: {s['revio']}" if s.get("revio") else "", f"M-Files: {s['mfiles']}" if s.get("mfiles") else "") if x)
-            f0 = (s.get("fundstellen") or [{}])[0]
-            out.append(f"- [{s.get('wer', '')}] {s['was']}" + (f" ({loc})" if loc else "") + (f" ^[{f0.get('quelle') or f0.get('chunk')}]" if (f0.get('quelle') or f0.get('chunk')) else ""))
-    for title, key, fmt in (("Entscheide des WP (nie der Agent)", "entscheidungen_wp", lambda x: f"- {x['text']}" + (f" ^[{x.get('quelle') or x.get('chunk')}]" if (x.get('quelle') or x.get('chunk')) else "")),
-                            ("Fragen an den Kunden", "fragen_kunde", lambda x: f"- {x['frage']}"),
-                            ("Unterlagen", "unterlagen", lambda x: f"- {x['dokument']} – {x.get('zweck', '')}"),
-                            ("Dokumentation", "dokumentation", lambda x: f"- {x['text']}" + (f" ^[{x.get('quelle') or x.get('chunk')}]" if (x.get('quelle') or x.get('chunk')) else "")),
-                            ("Fallstricke", "fallstricke", lambda x: f"- {x['text']}" + (f" ^[{x.get('quelle') or x.get('chunk')}]" if (x.get('quelle') or x.get('chunk')) else "")),
-                            ("Mustervorlagen", "muster", lambda x: f"- {x['vorlage']} ^[{x.get('chunk') or x.get('quelle')}]")):
-        if p.get(key):
-            out += ["", f"## {title}"] + [fmt(x) for x in p[key]]
-    if p.get("prueffelder"):
-        out += ["", "Verknüpfte Prüffelder: " + ", ".join(f"`{c}`" for c in p["prueffelder"])]
-    out += ["", f"Detail: wiki/prozess/{p['id']}.md · Status: {STATUS}"]
+        return (f"Phase «{pref}» nicht gefunden. Phasen: " + " · ".join(f"`{x['id'].split('-')[0]}` {cut(x['titel'], 40)}" for x in ph) +
+                ". Übersicht: `prozess`.")
+    pid = p["id"].split("-")[0]
+    kopf = f"# {p['id']} · {p['titel']}"
+    if feld:   # ein Abschnitt vollständig (bei Bedarf in Teilen: `… ab N`)
+        items = p.get(feld) or []
+        zeilen = [_p_schritt(i, x) if feld == "schritte" else _p_fmt(feld, x) for i, x in enumerate(items, 1)]
+        out = [kopf + f" – {PROZESS_TITEL[feld]} ({len(items)})"]
+        fuss = ["", f"Kompaktansicht: `prozess {pid}` · andere Abschnitte: `prozess {pid} " +
+                "|".join(PROZESS_TOKEN[f] for f in PROZESS_FOLGE if f != feld) + f"` · Status: {status_wissen(p)}"]
+        if not items:
+            return "\n".join(out + ["(keine Einträge)"] + fuss)
+        gr = len("\n".join(out + fuss).encode("utf-8")) + 200
+        bis = ab - 1
+        while bis < len(zeilen) and gr + len(zeilen[bis].encode("utf-8")) + 1 <= PROZESS_ABSCHNITT_MAX:
+            gr += len(zeilen[bis].encode("utf-8")) + 1
+            bis += 1
+        bis = max(bis, min(ab, len(zeilen)))   # mindestens ein Eintrag
+        if ab > 1 or bis < len(zeilen):
+            out.append(f"(Einträge {ab}–{bis} von {len(zeilen)}" + (f"; weiter: `prozess {pid} {PROZESS_TOKEN[feld]} ab {bis + 1}`)" if bis < len(zeilen) else ")"))
+        return "\n".join(out + zeilen[ab - 1: bis] + fuss)
+    if voll:
+        out = [kopf + " (alle Abschnitte – lang; einzeln kürzer: `prozess " + pid + " schritte|entscheide|fallstricke|…`)",
+               f"Ziel: {p.get('ziel', '')}", f"Wann: {p.get('wann', '')}"] + _p_zuerst(p)
+        for f in PROZESS_FOLGE:
+            items = p.get(f) or []
+            if not items:
+                continue
+            out += ["", f"## {PROZESS_TITEL[f]}" + (" – Wortlaut: `prozess " + pid + " gesetz`" if f == "gesetz" else "")]
+            out += ([_p_schritt(i, s) for i, s in enumerate(items, 1)] if f == "schritte" else [_p_fmt(f, x, voll_gesetz=False) for x in items])
+        if p.get("prueffelder"):
+            out += ["", "Verknüpfte Prüffelder: " + ", ".join(f"`{c}`" for c in p["prueffelder"])]
+        out += ["", f"Detail mit Zitaten: wiki/prozess/{p['id']}.md · Status: {status_wissen(p)}"]
+        return "\n".join(out)
+    return _prozess_kompakt(p)
+
+
+def _p_zuerst(p: dict) -> list[str]:
+    """Zeile «Zuerst: `aufgabe …`» (Checklisten) bzw. beim Agent-Ablauf die Agent-Prozesse 0–6 mit ihren Aufgaben."""
+    auf = [a["id"] for a in L().get("aufgaben", []) if a.get("phase") == p["id"]]
+    ap = _agent_prozesse()
+    if sum(1 for _, a in ap if a in auf) >= 3:
+        return ["Agent-Prozesse (je eine Aufgabe mit Checkliste): " + " · ".join(f"{n} `aufgabe {a}`" for n, a in ap) +
+                " – diese Seite ist das Nachschlagewerk."]
+    if auf:
+        return ["Zuerst: " + " · ".join(f"`aufgabe {a}`" for a in auf) + " (Checkliste mit Aufrufen) – diese Seite ist das Nachschlagewerk."]
+    return []
+
+
+def _prozess_kompakt(p: dict) -> str:
+    """Kompaktansicht (≤ PROZESS_KOMPAKT_MAX): Ziel/Wann, Tor und Leserechte einmal, alle Schritte gekürzt mit Prüfschritt-Kennzeichnung und
+    Aufruf, Zahl der WP-Entscheide, Fallstricke (Auswahl), Rechtsgrundlagen als Zeile, nächste Aufrufe."""
+    pid = p["id"].split("-")[0]
+    schritte = p.get("schritte") or []
+    lr = next((m.group(0) for s in schritte for m in [LESERECHTE_RX.search(s.get("was", ""))] if m), "")
+    tor_i = next((i for i, s in enumerate(schritte) if TOR_RX.match(s.get("was", ""))), None)
+    kopf = [f"# {p['id']} · {p['titel']} (kompakt)"] + _p_zuerst(p) + [f"Ziel: {cut(p.get('ziel'), 300)}", f"Wann: {cut(p.get('wann'), 250)}"]
+    tor = satz(schritte[tor_i]["was"], 340) if tor_i is not None else ""
+    if tor:
+        kopf.append(f"**Tor (vor allem anderen):** {_ohne_rv(tor)}")
+    if lr:
+        kopf.append(f"**Leserechte (gilt für alle Schritte):** {_ohne_rv(re.sub(r'^Leserechte:\s*', '', lr))}")
+    ids_alle = PS_ID_RX.findall(json.dumps([[s.get("was"), s.get("revio")] for s in schritte], ensure_ascii=False))
+    fs_ = p.get("fallstricke") or []
+    ew = p.get("entscheidungen_wp") or []
+    calls = _p_aufrufe(p)
+    tok = "|".join(PROZESS_TOKEN[f] for f in PROZESS_FOLGE)
+
+    def bau(n: int, kf: int) -> list[str]:
+        out = list(kopf)
+        out += ["", f"## Schritte (Reihenfolge flexibel; [wer] was → Aufruf; ganz mit revio/M-Files: `prozess {pid} schritte`)"]
+        for i, s in enumerate(schritte, 1):
+            was = LESERECHTE_RX.sub("", s.get("was", "")).strip()
+            if i - 1 == tor_i:
+                rest = was[len(tor):].strip() if was.startswith(tor) else ""
+                was = "Tor (oben)" + (f"; danach: {rest}" if rest else "")
+            ids = list(dict.fromkeys(PS_ID_RX.findall(f"{s.get('was', '')} {s.get('revio', '')}")))
+            auf = [x for x in _aufrufe_in(s.get("was"), s.get("revio"), s.get("mfiles")) if x != f"prozess {pid}"][:2]
+            f0 = next((f.get("quelle") or f.get("chunk") for f in s.get("fundstellen") or [] if isinstance(f, dict)), None)
+            z = f"{i}. [{WER_KURZ.get(s.get('wer', ''), s.get('wer', ''))}] {_cut_bt(_ohne_rv(was), n)}"
+            if ids:
+                z += f" – Prüfschritte: {_ps_liste(ids)}"
+            if auf:
+                z += " → " + " · ".join(f"`{cut(a, 120)}`" for a in auf)
+            out.append(z + (f" ^[{f0}]" if f0 else ""))
+        if ids_alle:
+            out.append("(EP = Kern, vorbereiten · WP = kein Textfeld ohne Anweisung des WP, vorhandene Unterlagen auswerten → Notiz · "
+                       "4xx = nur auf Anweisung · je Schritt: `pruefschritt <id>`)")
+        out += ["", f"**WP entscheidet (nie der Agent):** {len(ew)} Punkte → `prozess {pid} entscheide`"]
+        if fs_ and kf:
+            out += [f"**Fallstricke** ({min(kf, len(fs_))} von {len(fs_)}; alle: `prozess {pid} fallstricke`):"] + [
+                f"- {cut(f['text'], 160)}" + (f" ^[{f.get('quelle')}]" if f.get("quelle") else " (Praxis/intern)") for f in fs_[:kf]]
+        elif fs_:
+            out.append(f"**Fallstricke:** {len(fs_)} → `prozess {pid} fallstricke`")
+        if p.get("gesetz"):
+            out.append(f"Rechtsgrundlagen: {_gesetz_zeile(p['gesetz'])} (Wortlaut: `prozess {pid} gesetz`)")
+        if p.get("prueffelder"):
+            out.append("Verknüpfte Prüffelder: " + ", ".join(p["prueffelder"]) + " (`aufgabe prueffeld <code>`)")
+        out += ["", "**Nächste Aufrufe:** " + " · ".join(f"`{_cut_bt(c, 90).strip('`')}`" for c in calls) + f" · Abschnitte: `prozess {pid} {tok}` · alles: "
+                f"`prozess {pid} --voll`", f"Status: {status_wissen(p)}"]
+        return out
+
+    for n, kf in ((220, 5), (200, 4), (180, 3), (160, 3), (140, 2), (120, 2), (100, 0), (80, 0), (60, 0)):
+        out = bau(n, kf)
+        if len("\n".join(out)) <= PROZESS_KOMPAKT_MAX:
+            break
     return "\n".join(out)
 
 
 REGEL_FOLGE = ("grenze", "schritttyp", "ablauf", "notizen", "wesentlichkeit")   # ohne Bereich: Grenzen zuerst, gesetz nur auf Abruf
 
 
+@_mit_drift
 def regeln(bereich: str | None = None) -> str:
     alle = L().get("regeln", [])
     bereiche = list(dict.fromkeys(r["bereich"] for r in alle))
@@ -1309,71 +1614,167 @@ def _jahr_genannt(w: dict, jahre: set) -> bool:
 # Fachbegriffe ↔ Begriffe der Quellen (ESTV: «Beteiligte», «Vorschüsse»): Wortanfang → zusätzlich gesuchte Wortanfänge
 WERT_SYN = (("aktionar", ("beteilig", "nahesteh")), ("gesellschafter", ("beteilig",)), ("zinssatz", ("zins",)),
             ("darlehen", ("vorschuss", "kredit")))
+WERT_MAX, WERT_MAX_KAT, WERT_HINWEISE = 12, 25, 8
+# Weiter-Zeile je Kategorie des ersten Treffers (Aufrufe, die nach dem Wert typischerweise folgen)
+WERT_WEITER = {
+    "kapitalschutz": "`aufgabe kapitalschutz` · Rechner `kapitalverlust --aktienkapital … --eigenkapital … [--kapitalreserve … --gewinnreserve … "
+                     "--reserve-voll … --covid-kredit … --rangruecktritt …]` · `prueffeld P1`",
+    "reserven": "`prueffeld P1` (Antrag über die Verwendung des Bilanzgewinns mit `rechne` nachrechnen)",
+    "rechnungslegung": "Anhang vollständig: `prueffeld T1`",
+    "wesentlichkeit": "Werte aus revio 3.3 lesen (`revio 3.3`, nie ändern) · Rechenhilfe `wesentlichkeit <Bezugsgrösse> <Satz>` · Regeln "
+                      "`thema wesentlichkeit`",
+    "mwst": "`prueffeld M2` · Satz je Branche `suche \"<Branche>\" --quelle estv-vo-sss`",
+    "sozialversicherung": "Lohnabstimmung `prueffeld R1`",
+    "revisionspflicht": "Rechner `revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen … --vj-bilanzsumme … --vj-umsatz … "
+                        "--vj-vollzeitstellen …` · `prozess p1 schritte`",
+    "steuern_zinsen": "Steuerpraxis, keine handelsrechtliche Bewertungsregel · `thema verdecktes-eigenkapital` · `prueffeld H2` / `prueffeld N1`",
+}
 
 
+def _wstamm(t: str) -> str:
+    """Suchstamm eines Worts: kurze ganz, lange ohne Endung (zinssätze → zinssa, kapitalverlust → kapitalverl)."""
+    return t if len(t) < 8 else t[:max(6, len(t) - 3)]
+
+
+def _wfmt(w: dict) -> str:
+    """Betrag: CHF-Ganzzahl mit Tausendertrennung; Einheit weglassen bei ''/Text/Regel oder wenn sie schon im Wert steht."""
+    v, e = w.get("wert"), str(w.get("einheit") or "").strip()
+    if isinstance(v, (int, float)) and not isinstance(v, bool) and e.upper().startswith("CHF"):
+        v = chf(v)
+    vs = str(v)
+    if e in ("", "Text", "Regel") or re.search(rf"(?<![\w]){re.escape(e)}(?![\w])", vs):
+        return vs
+    return f"{vs} {e}"
+
+
+@_mit_drift
 def wert(begriff: str) -> str:
     alle = L().get("werte", [])
     jahre = set(re.findall(r"(?<!\d)(20\d{2})(?!\d)", begriff))   # auch «estv_zins_2024» (Jahr nach «_»)
-    kb = norm(begriff).strip()
+    b0 = str(begriff).strip()
+    ex = [w for w in alle if w.get("key") == b0]
+    if ex:   # genau ein Schlüssel: nur dieser Eintrag, Hinweis ungekürzt
+        return _wert_tabelle(begriff, ex, set(), voll=True)
+    kb = norm(b0)
     if re.fullmatch(r"[a-z0-9_]{4,}", kb) and "_" in kb:   # Schlüssel(präfix) wie estv_zins_2025 → nur diese Schlüssel
         sel = [w for w in alle if norm(w.get("key", "")).startswith(kb)]
         if sel:
             return _wert_tabelle(begriff, sel, set())
         # kein Schlüssel mit diesem Präfix (z.B. Jahr ohne Wert): weiter mit der Begriffssuche – das Jahr filtert unten und
         # «Kein Wert für <Jahr>» wird offengelegt (nie Werte eines anderen Jahres ohne Warnung)
-    ts = [t for t in terms_of(begriff) if t not in jahre]   # Jahr filtert (Schlüssel/«gilt»), zählt aber nicht als Suchwort
-    # Wortanfang: kurze Wörter ganz, lange mit Präfix len−5 (mind. 6): «kapitalverlust» trifft nicht «Kapitalsteuer», «Zinssätze» trifft «Zinssatz»
-    h1 = lambda t, x, wa=False: (bool(re.search(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])", x)) if len(t) <= 3  # noqa: E731
-                                 else ((" " if wa else "") + t[:max(6, len(t) - 5)] in x))
-    hit = lambda t, x, wa=False: h1(t, x, wa) or any(h1(z, x, wa) for p, syn in WERT_SYN if t.startswith(p) for z in syn)  # noqa: E731
+    # Kategorie: genau (mwst, kapitalschutz) oder eindeutiger Wortanfang ab 5 Zeichen (frist → fristen); mehrere → nur die Liste
+    kats = list(dict.fromkeys(str(w.get("kategorie", "")) for w in alle))
+    kq = key(re.sub(r"(?<!\d)20\d{2}(?!\d)", "", b0)).strip().replace(" ", "_")
+    kh = [k for k in kats if key(k) == kq] or ([k for k in kats if len(kq) >= 5 and key(k).startswith(kq)] if kq else [])
+    if len(kh) > 1:
+        return "\n".join([f"# Werte zu «{begriff}» – mehrere Kategorien, bitte wählen", ""] +
+                         [f"- `wert {k}` ({sum(1 for w in alle if w.get('kategorie') == k)} Werte)" for k in kh] +
+                         ["", "Oder Begriff genauer, z.B. `wert zinssatz darlehen 2026`."])
+    if len(kh) == 1:
+        sel = [w for w in alle if w.get("kategorie") == kh[0] and (not jahre or not _jahre_key(w) or _jahre_key(w) & jahre)]
+        auch = {}   # gleicher Begriff in Schlüssel/Bezeichnung anderer Kategorien (z.B. MWST-Fristen in «fristen»)
+        for w in alle:
+            if w.get("kategorie") != kh[0] and re.search(rf"(?<![a-z0-9]){re.escape(key(kq.split('_')[0]))}",
+                                                         " " + key(re.sub(r"[-/(),._]", " ", w.get("key", "") + " " + w.get("bezeichnung", "")))):
+                auch[w.get("kategorie")] = auch.get(w.get("kategorie"), 0) + 1
+        auch_z = ("Auch in anderen Kategorien: " + " · ".join(f"`wert {b0} {k}` ({n})" for k, n in sorted(auch.items(), key=lambda x: -x[1])[:3])
+                  if auch else "")
+        return _wert_tabelle(begriff, sel, jahre, n=WERT_MAX_KAT, kat=kh[0], auch=auch_z)
+    ts = [key(t) for t in terms_of(begriff) if t not in jahre]   # Jahr filtert (Schlüssel/«gilt»), zählt aber nicht als Suchwort
+    ts = list(dict.fromkeys(t for t in ts if t))
 
-    def punkte(liste, mit_hinweis: bool):
+    def alts(t):
+        return [t] + [z for p, syn in WERT_SYN if t.startswith(p) for z in syn]
+
+    def treffer(st: str, x: str, wa: bool) -> bool:
+        if st.isdigit():
+            return bool(re.search(rf"(?<!\d){st}(?!\d)", x))
+        if len(st) <= 3 or wa:   # kurze Wörter (alv, iv, ahv) und Wortanfang nur an der Wortgrenze
+            return bool(re.search(rf"(?<![a-z0-9]){re.escape(st)}", x))
+        return st in x
+
+    def punkte(liste, mit_hinweis: bool, stamm=_wstamm):
         sc = []
-        for w in liste:
-            kopf = norm(w.get("key", "").replace("_", " ") + " " + w.get("bezeichnung", ""))
-            rest = norm(str(w.get("kategorie", "")) + (" " + str(w.get("bemerkung", "")) if mit_hinweis else ""))
-            # Wortanfang im Kopf zählt mehr als ein Treffer mitten im Wort («kapitalverlust» ≠ «Eigenkapital»)
-            sk = " " + re.sub(r"[-/(),.]", " ", kopf)
-            s = sum(2 if hit(t, sk, True) else 1.5 if hit(t, kopf) else (1 if hit(t, rest) else 0) for t in ts)
+        for i, w in enumerate(liste):
+            kopf = " " + key(re.sub(r"[-/(),._]", " ", w.get("key", "") + " " + w.get("bezeichnung", "")))
+            kat = key(str(w.get("kategorie", "")).replace("_", " "))
+            rest = key(str(w.get("bemerkung", ""))) if mit_hinweis else ""
+            s = 0.0
+            for t in ts:
+                v = 0.0
+                for a in alts(t):
+                    st = stamm(a)
+                    if treffer(st, kopf, True):
+                        v = max(v, 2)
+                    elif len(st) > 3 and not st.isdigit() and st in kopf:   # mitten im Wort (Mindestzins) zählt weniger
+                        v = max(v, 1.5)
+                    elif treffer(st, kat, len(st) <= 3) or (rest and treffer(st, rest, len(st) <= 3)):
+                        v = max(v, 1)
+                s += v
             if s or (not ts and jahre and _jahr_genannt(w, jahre)):
-                sc.append((s + (0.5 if jahre and _jahr_genannt(w, jahre) else 0), w))
+                sc.append((s + (0.5 if jahre and _jahr_genannt(w, jahre) else 0), -i, w))
         return sc
 
     def finde(liste):   # Hinweistexte nur durchsuchen, wenn Schlüssel/Bezeichnung/Kategorie nichts treffen
-        return punkte(liste, False) or punkte(liste, True)
+        r = punkte(liste, False) or punkte(liste, True)
+        if r or not ts:
+            return r
+        # Komposita (kapitalverlustschwelle): längster Wortanfang, der in einem Schlüssel/einer Bezeichnung vorkommt
+        koepfe = " ".join(" " + key(re.sub(r"[-/(),._]", " ", w.get("key", "") + " " + w.get("bezeichnung", ""))) for w in liste)
+        kurz = {}
+        for t in ts:
+            for k in range(len(t) - 1, 5, -1):
+                if re.search(rf"(?<![a-z0-9]){re.escape(t[:k])}", koepfe):
+                    kurz[t] = t[:k]
+                    break
+        return punkte(liste, False, lambda a: kurz.get(a, _wstamm(a))) if kurz else []
 
-    ws = [w for w in alle if not _jahre_key(w) or _jahr_genannt(w, jahre)] if jahre else alle   # Jahr im Schlüssel muss passen
+    # Jahr im Schlüssel hat Vorrang vor «gilt»: estv_zins_2025_* nur bei 2025, auch wenn «gilt» 2026 nennt
+    ws = [w for w in alle if not _jahre_key(w) or _jahre_key(w) & jahre] if jahre else alle
     sc = finde(ws)
     fehlt = ""
     if jahre:   # Werte mit Jahr im Schlüssel gefunden, aber keiner für das gefragte Jahr → offenlegen
         mj = finde([w for w in alle if _jahre_key(w)])
-        bj = max((x for x, _ in mj), default=0)   # nur die gut passenden (sonst «erfasst: 2026» aus einem Zinssatz bei «kurs eur»)
-        mit_jahr = [w for x, w in mj if x >= (max(1, bj - 1) if ts else 0)]
-        if mit_jahr and not any(_jahr_genannt(w, jahre) for w in mit_jahr):
+        bj = max((x for x, _, _ in mj), default=0)   # nur die gut passenden (sonst «erfasst: 2026» aus einem Zinssatz bei «kurs eur»)
+        mit_jahr = [w for x, _, w in mj if x >= (max(1, bj - 1) if ts else 0)]
+        if mit_jahr and not any(_jahre_key(w) & jahre for w in mit_jahr):
             andere = sorted({j for w in mit_jahr for j in _jahre_key(w)})
             fehlt = (f"⚠ Kein Wert für {', '.join(sorted(jahre))} im Wiki (erfasst: {', '.join(andere)}). Vorjahreswert nur ausdrücklich als "
                      "«Vorjahr, nicht bestätigt» nennen; Satz des Jahres beim WP erfragen (Pendenz)." +
                      (" Unten nur jahresunabhängige Werte." if sc else ""))
     if not sc:
-        return fehlt or f"Kein Wert zu «{begriff}». Kategorien: " + ", ".join(sorted({w.get('kategorie', '') for w in alle})) + ". Sonst `suche`."
+        return fehlt or (f"Kein Wert zu «{begriff}». Kategorien: " + ", ".join(f"`wert {k}`" for k in kats) +
+                         ". Sonst `suche \"{begriff}\"`.")
     best = max(x[0] for x in sc)
-    sel = [w for x, w in sorted(sc, key=lambda x: -x[0]) if x >= (max(1, best - 1) if ts else 0.5)][:16]
+    sel = [w for x, _, w in sorted(sc, key=lambda x: (-x[0], -x[1])) if x >= (max(1, best - 1) if ts else 0.5)]
     return (fehlt + "\n\n" if fehlt else "") + _wert_tabelle(begriff, sel, jahre)
 
 
-def _wert_tabelle(begriff: str, sel: list, jahre: set) -> str:
-    out = [f"# Werte zu «{begriff}»" + (f" (nur Jahr {', '.join(sorted(jahre))} bzw. ohne Jahr)" if jahre else ""), "",
-           "| Wert | Betrag | gilt | Fundstelle |", "|---|---|---|---|"]
+def _wert_tabelle(begriff: str, sel: list, jahre: set, n: int = WERT_MAX, voll: bool = False, kat: str | None = None, auch: str = "") -> str:
+    rest = sel[n:]
+    sel = sel[:n]
+    out = [f"# Werte zu «{begriff}»" + (f" (Kategorie {kat}, {len(sel) + len(rest)} Werte)" if kat else "") +
+           (f" (nur Jahr {', '.join(sorted(jahre))} bzw. ohne Jahr)" if jahre else ""), "",
+           "| Wert | Betrag | gilt | Fundstelle | key |", "|---|---|---|---|---|"]
     for w in sel:
-        out.append(f"| {w['bezeichnung']} | **{w['wert']} {w.get('einheit', '')}** | {w.get('gilt', '')} | {kurz_of(w.get('quelle') or w.get('chunk'))} ^[{w.get('quelle') or w.get('chunk')}] |")
+        q = w.get("quelle") or w.get("chunk")
+        out.append(f"| {w['bezeichnung']} | **{_wfmt(w)}** | {w.get('gilt', '')} | {kurz_of(q)} ^[{q}] | `{w.get('key', '')}` |")
+    if rest:
+        out.append(f"(+{len(rest)} weitere Treffer: " + ", ".join(f"`{w.get('key')}`" for w in rest[:6]) + (" …" if len(rest) > 6 else "") +
+                   " – `wert <key>` oder Begriff genauer)")
+    ganz = voll or len(sel) <= 3
     seen, notes = set(), []
-    for w in sel:   # Hinweise ohne Wiederholungen (gleiche Sätze bei mehreren Werten nur einmal)
-        teile = [s for s in re.split(r"(?<=\.)\s+", str(w.get("bemerkung") or "")) if s and s not in seen]
+    for w in sel[: (len(sel) if ganz else WERT_HINWEISE)]:   # Hinweise ohne Wiederholungen (gleiche Sätze bei mehreren Werten nur einmal)
+        teile = [x for x in saetze(w.get("bemerkung") or "") if x not in seen]
         seen.update(teile)
         if teile:
-            notes.append(f"- {w['bezeichnung']}: {' '.join(teile)}")
+            t = " ".join(teile)
+            notes.append(f"- {w['bezeichnung']}: {t if ganz else satz(t, 250)}")
     if notes:
-        out += ["", "Hinweise:"] + notes
+        out += ["", "Hinweise:" if ganz else "Hinweise (gekürzt; ganz: `wert <key>`):"] + notes
+    k0 = kat or (sel[0].get("kategorie") if sel else None)
+    if k0 in WERT_WEITER or auch:
+        out += [""] + ([auch] if auch else []) + ([f"Weiter: {WERT_WEITER[k0]}"] if k0 in WERT_WEITER else [])
     out += ["", f"Zitat: `zeige <chunk-id>` · Status: {STATUS}"]
     return "\n".join(out)
 
@@ -1942,7 +2343,7 @@ def _fachkontext(text: str) -> str:
             ws.append((sc, w))
     if ws:
         out.append("### Werte")
-        out += [f"- {w['bezeichnung']}: **{w['wert']} {w.get('einheit', '')}** ({w.get('gilt', '')}) ^[{w.get('quelle')}]" for sc, w in sorted(ws, key=lambda x: -x[0])[:5]]
+        out += [f"- {w['bezeichnung']}: **{_wfmt(w)}** ({w.get('gilt', '')}) ^[{w.get('quelle')}]" for sc, w in sorted(ws, key=lambda x: -x[0])[:5]]
     rg = []
     for r in L().get("regeln", []):
         hay = key(r["regel"])
@@ -2157,8 +2558,11 @@ def aufgabe(text: str | None = None) -> str:
         out = ["# Aufgaben des Revisionsagenten – wähle eine und rufe `aufgabe <id>` auf", "", "| Aufgabe | id | Ziel |", "|---|---|---|"]
         for a in ag:
             out.append(f"| {a['titel']} | `{a['id']}` | {cut(a.get('ziel'), 90)} |")
-        out += ["", "Reihenfolge: auftrag (WP) → mandat-start → import → wesentlichkeit → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss → "
-                "rapport → gvb-bericht → pdf-akte nur auf Anweisung. Hilfsaufgaben (" + ", ".join(HILFSAUFGABEN) + ") nur aus einer Checkliste aufrufen.",
+        ids = {a["id"] for a in ag}
+        folge = [x for x in ("auftrag (WP)", "mandat-start", "import", "planung", "wesentlichkeit", "prueffeld (je markiertes Prüffeld)",
+                             "unterlagen", "abschluss", "rapport", "gvb-bericht", "pdf-akte nur auf Anweisung") if x.split()[0] in ids]
+        out += ["", "Reihenfolge: " + " → ".join(folge) + ". Hilfsaufgaben (" + ", ".join(h for h in HILFSAUFGABEN if h in ids) +
+                ") nur aus einer Checkliste aufrufen.",
                 "Prüffeld direkt: `aufgabe C1` (mehrere: `aufgabe \"D1 und H3\"`) · Prüfschritt direkt: `aufgabe C1-302` (= `pruefschritt C1-302`) · "
                 "Fachfrage: `aufgabe \"<Frage>\"` · Akte lesen: `akte <pfad>`."]
         return "\n".join(out)
@@ -3277,6 +3681,7 @@ def thema_wahl(begriff: str):
     return None, rang, None
 
 
+@_mit_drift
 def thema(begriff: str, voll: bool = False) -> str:
     th = L().get("themen", [])
     t, rang, seite = thema_wahl(begriff)
@@ -3391,7 +3796,8 @@ def main(argv=None):
     x = sub.add_parser("prueffeld"); x.add_argument("ref", nargs="+"); x.add_argument("--voll", action="store_true")
     x = sub.add_parser("unterlagen"); x.add_argument("ref", nargs="*")
     x = sub.add_parser("fragen"); x.add_argument("ref", nargs="*")
-    x = sub.add_parser("prozess"); x.add_argument("ref", nargs="*")
+    x = sub.add_parser("prozess", help="Phase p1–p8 kompakt; Abschnitt: prozess p4 schritte|entscheide|fallstricke|fragen|unterlagen|doku|muster|gesetz")
+    x.add_argument("ref", nargs="*"); x.add_argument("--voll", action="store_true", help="alle Abschnitte der Phase")
     x = sub.add_parser("regeln"); x.add_argument("bereich", nargs="*")
     x = sub.add_parser("revio"); x.add_argument("ref", nargs="*")
     x = sub.add_parser("wert"); x.add_argument("begriff", nargs="+")
@@ -3456,7 +3862,7 @@ def main(argv=None):
         "prueffeld": lambda: prueffeld(j(a.ref), a.voll),
         "unterlagen": lambda: unterlagen(j(a.ref) or None),
         "fragen": lambda: fragen(j(a.ref) or None),
-        "prozess": lambda: prozess(j(a.ref) or None),
+        "prozess": lambda: prozess(j(a.ref) or None, a.voll),
         "regeln": lambda: regeln(j(a.bereich) or None),
         "revio": lambda: revio(j(a.ref) or None),
         "wert": lambda: wert(j(a.begriff)),

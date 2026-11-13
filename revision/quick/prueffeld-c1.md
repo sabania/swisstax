@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld C1 Forderungen aus Lieferungen und Leistungen – Schnellzugriff
 jur: ch
 quellen:
+- ef-2026-08-buchungslogik
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
@@ -77,24 +78,24 @@ Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte (106, 208, 304–3
 - Bill-and-hold: bereits als Forderung gebuchte Ware nicht zusätzlich als Vorrat bilanzieren. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0234-s209.md)
 
 ## Unterlagen (PBC)
-- Debitoren-OP-Liste bzw. Saldenliste per Bilanzstichtag (mit Beleg-, Fälligkeitsdatum, Währung) – Grundlage für C1-101, 202, 301, 302, 402; Abstimmung mit Hauptbuch
-- Altersgliederung der Debitoren per Bilanzstichtag – Beurteilung Altersstruktur und Wertberichtigungsbedarf (C1-202, C1-302)
-- Delkredereberechnung (Einzel- und Pauschalwertberichtigung) aktuelles Jahr und Vorjahr mit Begründung – Beurteilung Angemessenheit Wertberichtigungen (C1-104, C1-302)
-- Kontoblätter Debitoren, Delkredere, Erlöse, Erlösminderungen, Warenretouren, Debitorenverluste (Geschäftsjahr) – Durchsicht auf ungewöhnliche Posten, Ausbuchungen (C1-305, C1-308, C1-406)
-- OP-Liste im Prüfungszeitpunkt, Kontoblätter Debitoren/Erlöse neue Rechnung, Bankauszüge Folgeperiode – Zahlungseingänge, Gutschriften und Ausbuchungen nach dem Stichtag (C1-106, 304, 306, 309, 310)
-- Ausgewählte Debitorenrechnungen mit Lieferscheinen/Abnahmeprotokollen und Verträgen – Nachweis Vorhandensein und Periodenzuordnung (C1-307, C1-105)
-- Mahn-, Betreibungs- und Konkursunterlagen, Aktennotizen zu Problemdebitoren – Einzelbeurteilung überfälliger Guthaben (C1-310, C1-408)
-- Kursliste bzw. Bankunterlagen mit Jahresendkursen (falls Fremdwährungsforderungen) – Kontrolle Fremdwährungsumrechnung (C1-203, C1-311)
-- Liste Aktionäre, Organe, Beteiligungen (Aktienbuch, HR-Auszug) und Verträge mit Nahestehenden (z. B. Darlehensverträge) – Identifikation Forderungen gegenüber Nahestehenden (C1-204)
-- Bankbestätigungen per Bilanzstichtag, sofern beim Unternehmen vorhanden (Abschnitt Sicherheiten, z. B. Globalzession) – Abgleich Verpfändung/Zession und Anhangsangabe (C1-102, C1-320)
-- Kredit-, Zessions-, Factoring- oder Pfandverträge – Verpfändung/Abtretung, Abgrenzung echtes Factoring/Zessionskredit und Anhangsangabe (C1-102, C1-320, C1-322)
-- Aufstellung Bestand und Veränderung stille Reserven (Vorjahr/aktuell) – C1-303, C1-321, Anhang (C1-320)
-- Umsatzstatistik nach Kunden, Produkt-/Artikelgruppen und Regionen; Budget – Umsatzanalyse und Kundenstruktur (C1-205, C1-206)
-- Ausbuchungs- und Gutschriftsbelege mit Genehmigung/Visum, Kompetenzregelung – Autorisierung Ausbuchungen (C1-308)
-- AGB, Verkaufs- und Zahlungsbedingungen, Rahmen-/Werkverträge mit wesentlichen Kunden (inkl. Rückgaberecht, Lieferbedingungen) – C1-407, C1-322 (Dauerakte), Abgrenzung Teil-/Akontorechnungen, Bill-and-hold, Rückgaberecht
-- Projektliste angefangene Arbeiten und Konto erhaltene Anzahlungen – Abgrenzung Akonto-/Anzahlungsrechnungen (C1-105, C1-312)
-- Schriftliche Antworten der Unternehmensleitung (revio 10.11 Kundenbefragung, Protokolle) – Auswertung statt eigener Befragung (alle 1xx-Schritte, C1-403, C1-404, C1-407)
-- Vollständigkeitserklärung der Unternehmensleitung – Schriftliche Bestätigung zu Belastungen, stillen Reserven und Ereignissen nach dem Stichtag
+- Debitoren-OP-Liste bzw. Saldenliste per Bilanzstichtag (mit Beleg-, Fälligkeitsdatum, Währung) – Grundlage für C1-101, 202, 301, 302, 402; Abstimmung mit Hauptbuch — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0115-s186.md)
+- Altersgliederung der Debitoren per Bilanzstichtag – Beurteilung Altersstruktur und Wertberichtigungsbedarf (C1-202, C1-302) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-1.md)
+- Delkredereberechnung (Einzel- und Pauschalwertberichtigung) aktuelles Jahr und Vorjahr mit Begründung – Beurteilung Angemessenheit Wertberichtigungen (C1-104, C1-302) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-2.md)
+- Kontoblätter Debitoren, Delkredere, Erlöse, Erlösminderungen, Warenretouren, Debitorenverluste (Geschäftsjahr) – Durchsicht auf ungewöhnliche Posten, Ausbuchungen (C1-305, C1-308, C1-406) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-2.md)
+- OP-Liste im Prüfungszeitpunkt, Kontoblätter Debitoren/Erlöse neue Rechnung, Bankauszüge Folgeperiode – Zahlungseingänge, Gutschriften und Ausbuchungen nach dem Stichtag (C1-106, 304, 306, 309, 310) — [SER S. 76](../chunks/ser-2022/ser-2022__anh-d-s076-1.md)
+- Ausgewählte Debitorenrechnungen mit Lieferscheinen/Abnahmeprotokollen und Verträgen – Nachweis Vorhandensein und Periodenzuordnung (C1-307, C1-105) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-2.md)
+- Mahn-, Betreibungs- und Konkursunterlagen, Aktennotizen zu Problemdebitoren – Einzelbeurteilung überfälliger Guthaben (C1-310, C1-408) — [HWP BuR S. 187](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0121-s187.md)
+- Kursliste bzw. Bankunterlagen mit Jahresendkursen (falls Fremdwährungsforderungen) – Kontrolle Fremdwährungsumrechnung (C1-203, C1-311) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-1.md)
+- Liste Aktionäre, Organe, Beteiligungen (Aktienbuch, HR-Auszug) und Verträge mit Nahestehenden (z. B. Darlehensverträge) – Identifikation Forderungen gegenüber Nahestehenden (C1-204) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-1.md)
+- Bankbestätigungen per Bilanzstichtag, sofern beim Unternehmen vorhanden (Abschnitt Sicherheiten, z. B. Globalzession) – Abgleich Verpfändung/Zession und Anhangsangabe (C1-102, C1-320) — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0112-s185.md)
+- Kredit-, Zessions-, Factoring- oder Pfandverträge – Verpfändung/Abtretung, Abgrenzung echtes Factoring/Zessionskredit und Anhangsangabe (C1-102, C1-320, C1-322) — [HWP BuR S. 191](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0146-s191.md)
+- Aufstellung Bestand und Veränderung stille Reserven (Vorjahr/aktuell) – C1-303, C1-321, Anhang (C1-320) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Umsatzstatistik nach Kunden, Produkt-/Artikelgruppen und Regionen; Budget – Umsatzanalyse und Kundenstruktur (C1-205, C1-206) — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
+- Ausbuchungs- und Gutschriftsbelege mit Genehmigung/Visum, Kompetenzregelung – Autorisierung Ausbuchungen (C1-308) — [SER S. 76](../chunks/ser-2022/ser-2022__anh-d-s076-1.md)
+- AGB, Verkaufs- und Zahlungsbedingungen, Rahmen-/Werkverträge mit wesentlichen Kunden (inkl. Rückgaberecht, Lieferbedingungen) – C1-407, C1-322 (Dauerakte), Abgrenzung Teil-/Akontorechnungen, Bill-and-hold, Rückgaberecht — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0114-s185-t1.md)
+- Projektliste angefangene Arbeiten und Konto erhaltene Anzahlungen – Abgrenzung Akonto-/Anzahlungsrechnungen (C1-105, C1-312) — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0115-s186.md)
+- Schriftliche Antworten der Unternehmensleitung (revio 10.11 Kundenbefragung, Protokolle) – Auswertung statt eigener Befragung (alle 1xx-Schritte, C1-403, C1-404, C1-407) — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
+- Vollständigkeitserklärung der Unternehmensleitung – Schriftliche Bestätigung zu Belastungen, stillen Reserven und Ereignissen nach dem Stichtag — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welches sind die Gründe für die markierten alten, ungewöhnlich hohen Ausstände und Habensalden der OP-Liste, und wie beurteilen Sie deren Einbringlichkeit?

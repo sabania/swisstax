@@ -5,6 +5,7 @@ jur: ch
 quellen:
 - hwp-bur-2023
 - hwp-er-2026
+- katalog-revio4
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
@@ -48,18 +49,18 @@ Aktive Rechnungsabgrenzungen: transitorische (im GJ bezahlter Aufwand des Folgej
 - Im Anhang ist nur der Nettobetrag der aufgelösten stillen Reserven offenzulegen, und nur sofern das Ergebnis dadurch wesentlich günstiger dargestellt wird (Art. 959c Abs. 1 Ziff. 3 OR). — [HWP BuR S. 341](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0817-s341-t1.md)
 
 ## Unterlagen (PBC)
-- Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2025 (Konto 1300) mit Text, Gegenpartei, Beleg, Leistungszeitraum, Berechnung und Betrag – Abstimmung mit Hauptbuch und Jahresrechnung (E1-301), Grundlage für E1-101, E1-203, E1-302, E1-304
-- Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2024 (Vorjahr) – Positionsweiser Vorjahresvergleich (E1-201), Auflösung Vorjahr (E1-306)
-- Belege der abgegrenzten Beträge (Rechnungen, Prämienrechnungen, Zahlungsbelege) – Echtheit, Betrag, Leistungszeitraum, Nachrechnen der Abgrenzung (E1-302, E1-306)
-- Verträge (Versicherungspolicen, Lizenz-, Miet-, Leasing-, Wartungsverträge) – Abstimmung der Bestände (E1-304), Werthaltigkeit/Laufzeit (E1-302), Drittvergleich bei Nahestehenden (E1-203)
-- Kontoblatt 1300 und Kontoblätter der zugehörigen Aufwands- und Ertragskonten 2025 – Bildung/Auflösung (E1-306), kritische Durchsicht (E1-303)
-- Kontoblätter neue Rechnung 2026 (Konto 1300 und zugehörige Konten, bis Prüfungsdatum) – Entwicklung in neuer Rechnung, Geldeingänge antizipativer Aktiven (E1-305)
-- Saldoliste Bilanz und Erfolgsrechnung 2025 mit Vorjahr – Analytik Bestand und zugehörige Aufwands-/Ertragskonten (E1-201, E1-202)
-- Liste nahestehender Personen/Organe/Beteiligungen (Aktienbuch, HR-Auszug, GV-/VR-Protokolle) – Feststellung von Abgrenzungen gegenüber Nahestehenden (E1-203)
-- Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition) – Beurteilung stille Reserven (E1-320)
-- Schriftliche Antworten Kundenbefragung zur Werthaltigkeit der aktivierten Beträge – Auswertung der Befragung E1-101 statt mündlicher Befragung
-- Vollständigkeitserklärung, Abschnitt stille Reserven – Bestätigung zu Bildung, Auflösung und Bestand stiller Reserven (E1-320)
-- Vollständigkeitserklärung, Abschnitt nahestehende Personen – Bestätigung der Vollständigkeit der Angaben zu Nahestehenden (E1-203)
+- Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2025 (Konto 1300) mit Text, Gegenpartei, Beleg, Leistungszeitraum, Berechnung und Betrag – Abstimmung mit Hauptbuch und Jahresrechnung (E1-301), Grundlage für E1-101, E1-203, E1-302, E1-304 — [SER S. 80](../chunks/ser-2022/ser-2022__anh-d-s080-1.md)
+- Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2024 (Vorjahr) – Positionsweiser Vorjahresvergleich (E1-201), Auflösung Vorjahr (E1-306) — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0262-s216.md)
+- Belege der abgegrenzten Beträge (Rechnungen, Prämienrechnungen, Zahlungsbelege) – Echtheit, Betrag, Leistungszeitraum, Nachrechnen der Abgrenzung (E1-302, E1-306) — [HWP ER S. 200](../chunks/hwp-er-2026/hwp-er-2026__rz-0115-s200.md)
+- Verträge (Versicherungspolicen, Lizenz-, Miet-, Leasing-, Wartungsverträge) – Abstimmung der Bestände (E1-304), Werthaltigkeit/Laufzeit (E1-302), Drittvergleich bei Nahestehenden (E1-203) — [SER S. 80](../chunks/ser-2022/ser-2022__anh-d-s080-1.md)
+- Kontoblatt 1300 und Kontoblätter der zugehörigen Aufwands- und Ertragskonten 2025 – Bildung/Auflösung (E1-306), kritische Durchsicht (E1-303) — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0262-s216.md)
+- Kontoblätter neue Rechnung 2026 (Konto 1300 und zugehörige Konten, bis Prüfungsdatum) – Entwicklung in neuer Rechnung, Geldeingänge antizipativer Aktiven (E1-305) — [SER S. 80](../chunks/ser-2022/ser-2022__anh-d-s080-1.md)
+- Saldoliste Bilanz und Erfolgsrechnung 2025 mit Vorjahr – Analytik Bestand und zugehörige Aufwands-/Ertragskonten (E1-201, E1-202) — [SER S. 80](../chunks/ser-2022/ser-2022__anh-d-s080-1.md)
+- Liste nahestehender Personen/Organe/Beteiligungen (Aktienbuch, HR-Auszug, GV-/VR-Protokolle) – Feststellung von Abgrenzungen gegenüber Nahestehenden (E1-203) — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition) – Beurteilung stille Reserven (E1-320) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Schriftliche Antworten Kundenbefragung zur Werthaltigkeit der aktivierten Beträge – Auswertung der Befragung E1-101 statt mündlicher Befragung — [HWP ER S. 198](../chunks/hwp-er-2026/hwp-er-2026__rz-0104-s198.md)
+- Vollständigkeitserklärung, Abschnitt stille Reserven – Bestätigung zu Bildung, Auflösung und Bestand stiller Reserven (E1-320) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Vollständigkeitserklärung, Abschnitt nahestehende Personen – Bestätigung der Vollständigkeit der Angaben zu Nahestehenden (E1-203) — [SER S. 103](../chunks/ser-2022/ser-2022__anh-e-s103-2.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Sind die aktivierten Beträge je Position werthaltig, d.h. wird die vorausbezahlte Leistung 2026 noch bezogen (Vertrag ungekündigt, Lieferant leistungsfähig) bzw. ist der Geldeingang der abgegrenzten Erträge gesichert?

@@ -67,22 +67,22 @@ Beteiligungen (langfristig, massgeblicher Einfluss ab 20 % Stimmen vermutet), Er
 - Eigene Kapitalanteile zum Anschaffungswert als Minusposten im Eigenkapital (Bruttodarstellung). — [HWP BuR S. 291](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0637-s291.md)
 
 ## Unterlagen (PBC)
-- Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Steuerwert, Buchwert, Aufwertungen Art. 725c OR, Wertberichtigungen, Aufbewahrungsort, Einzahlungs-/Nachschusspflichten) – H3-301 Abstimmung Bestand, H3-302 Steuerwert/Aufwertungen, H3-320 Anhang, H3-402 Verpflichtungen
-- Kauf-/Verkaufsverträge, Zahlungsbelege, VR-Beschlüsse zu Zu- und Abgängen, Kapitalerhöhungen und Zuschüssen – H3-301 Bestand, H3-303 Anschaffungskosten und Gegenbuchungen
-- Depotauszug bzw. Titel per 31.12.; bei GmbH-Anteilen HR-Auszug, Statuten, Gesellschafter-/Aktienregister der Beteiligung – H3-301 Bestands- und Eigentumsnachweis, Quote/Stimmrechte
-- Schriftlicher Abtretungsvertrag über GmbH-Stammanteile und Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung (entbehrlich nur bei statutarischem Verzicht; sonst ersatzweise Nachweis, dass die Sechsmonatsfrist ohne Ablehnung abgelaufen ist, Art. 787 Abs. 2 OR); HR-Auszug der Beteiligung – H3-301 Eigentumsübergang bei GmbH-Stammanteilen
-- Letzte verfügbare Jahresrechnungen (ggf. Revisionsberichte) der Beteiligungsgesellschaften – H3-302 innerer Wert, H3-403 Bonität, H3-102 Werthaltigkeit
-- Jahresendkurse kotierter Titel (Depotauszug, Kursliste) – H3-302 Bewertung kotierter Beteiligungen/Wertschriften
-- Werthaltigkeitsbeurteilung der Geschäftsleitung (Substanz-/Ertragswert, Planungsrechnung, Budget) – H3-102/H3-302 Nachvollzug der Bewertung
-- Bewertungsgutachten bzw. Unternehmensbewertung zur Beteiligung, nur soweit vom Kunden vorhanden und beigebracht (kein Einholen bei Dritten) – H3-302 Nachvollzug der Bewertung
-- Konzernrechnung (falls erstellt) bzw. Begründung der Befreiung nach Art. 963a OR – H3-320 Konzernrechnungspflicht; H3-302 Plausibilisierung der Beteiligungsbewertung
-- GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen (inkl. Angabe der Reserven, aus denen ausgeschüttet wird), Dividendenabrechnungen mit VSt-Ausweis – H3-304 Erfassung Erträge (Periode, brutto, KER), H3-405 VSt-Guthaben
-- VSt-Rückerstattungsanträge und Gutschriften der ESTV (laufendes Jahr und Vorjahre, je offener Posten mit Fälligkeitsjahr) – H3-405 Abbau und Verjährung älterer VSt-Guthaben
-- Aktienbuch/Anteilbuch, Verträge über Erwerb und Veräusserung eigener Anteile – H3-401 Bestand eigene Anteile
-- Garantie-, Bürgschafts- und Patronatserklärungen sowie Pfandbestellungen zugunsten von Beteiligungsgesellschaften – H3-402 c) Eventualverbindlichkeiten, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 8 und 10 OR)
-- Kredit- und Pfandverträge, Bankbestätigung (Abschnitt Sicherheiten) mit Verpfändung von Beteiligungstiteln für eigene Verbindlichkeiten – H3-402 b) Verpfändungen, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 9 OR)
-- Aufstellung Bestand und Veränderung der stillen Reserven (Kunde) – H3-321 stille Reserven
-- Unterzeichnete Vollständigkeitserklärung – H3-320/H3-402 Belastungen, Eventualverbindlichkeiten, stille Reserven
+- Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Steuerwert, Buchwert, Aufwertungen Art. 725c OR, Wertberichtigungen, Aufbewahrungsort, Einzahlungs-/Nachschusspflichten) – H3-301 Abstimmung Bestand, H3-302 Steuerwert/Aufwertungen, H3-320 Anhang, H3-402 Verpflichtungen — [HWP BuR S. 219](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0279-s219.md)
+- Kauf-/Verkaufsverträge, Zahlungsbelege, VR-Beschlüsse zu Zu- und Abgängen, Kapitalerhöhungen und Zuschüssen – H3-301 Bestand, H3-303 Anschaffungskosten und Gegenbuchungen — [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0119-s201.md)
+- Depotauszug bzw. Titel per 31.12.; bei GmbH-Anteilen HR-Auszug, Statuten, Gesellschafter-/Aktienregister der Beteiligung – H3-301 Bestands- und Eigentumsnachweis, Quote/Stimmrechte — [HWP BuR S. 219](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0280-s219.md)
+- Schriftlicher Abtretungsvertrag über GmbH-Stammanteile und Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung (entbehrlich nur bei statutarischem Verzicht; sonst ersatzweise Nachweis, dass die Sechsmonatsfrist ohne Ablehnung abgelaufen ist, Art. 787 Abs. 2 OR); HR-Auszug der Beteiligung – H3-301 Eigentumsübergang bei GmbH-Stammanteilen — [OR 787](../chunks/or/or__art-787.md)
+- Letzte verfügbare Jahresrechnungen (ggf. Revisionsberichte) der Beteiligungsgesellschaften – H3-302 innerer Wert, H3-403 Bonität, H3-102 Werthaltigkeit — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Jahresendkurse kotierter Titel (Depotauszug, Kursliste) – H3-302 Bewertung kotierter Beteiligungen/Wertschriften — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Werthaltigkeitsbeurteilung der Geschäftsleitung (Substanz-/Ertragswert, Planungsrechnung, Budget) – H3-102/H3-302 Nachvollzug der Bewertung — [HWP BuR S. 222](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0292-s222.md)
+- Bewertungsgutachten bzw. Unternehmensbewertung zur Beteiligung, nur soweit vom Kunden vorhanden und beigebracht (kein Einholen bei Dritten) – H3-302 Nachvollzug der Bewertung — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0134-s203.md)
+- Konzernrechnung (falls erstellt) bzw. Begründung der Befreiung nach Art. 963a OR – H3-320 Konzernrechnungspflicht; H3-302 Plausibilisierung der Beteiligungsbewertung — [HWP BuR S. 223](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0297-s223.md)
+- GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen (inkl. Angabe der Reserven, aus denen ausgeschüttet wird), Dividendenabrechnungen mit VSt-Ausweis – H3-304 Erfassung Erträge (Periode, brutto, KER), H3-405 VSt-Guthaben — [HWP BuR S. 226](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0319-s226.md)
+- VSt-Rückerstattungsanträge und Gutschriften der ESTV (laufendes Jahr und Vorjahre, je offener Posten mit Fälligkeitsjahr) – H3-405 Abbau und Verjährung älterer VSt-Guthaben — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0549-s269.md)
+- Aktienbuch/Anteilbuch, Verträge über Erwerb und Veräusserung eigener Anteile – H3-401 Bestand eigene Anteile — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
+- Garantie-, Bürgschafts- und Patronatserklärungen sowie Pfandbestellungen zugunsten von Beteiligungsgesellschaften – H3-402 c) Eventualverbindlichkeiten, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 8 und 10 OR) — [SER S. 97](../chunks/ser-2022/ser-2022__anh-d-s097-1.md)
+- Kredit- und Pfandverträge, Bankbestätigung (Abschnitt Sicherheiten) mit Verpfändung von Beteiligungstiteln für eigene Verbindlichkeiten – H3-402 b) Verpfändungen, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 9 OR) — [SER S. 97](../chunks/ser-2022/ser-2022__anh-d-s097-1.md)
+- Aufstellung Bestand und Veränderung der stillen Reserven (Kunde) – H3-321 stille Reserven — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Unterzeichnete Vollständigkeitserklärung – H3-320/H3-402 Belastungen, Eventualverbindlichkeiten, stille Reserven — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?

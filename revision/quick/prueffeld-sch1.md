@@ -57,17 +57,17 @@ Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzu
 - Anhang: Grundsätze der Umsatzerfassung offenlegen, sofern für das Verständnis relevant. — [HWP BuR S. 317](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0750-s317-t2.md)
 
 ## Unterlagen (PBC)
-- Saldoliste bzw. Erfolgsrechnung 2025 mit Vorjahreszahlen – Saldovergleich, Gliederung, Basis für SCH1-102/201/202/304/305
-- Kontoblätter aller Ertrags- und Erlösminderungskonten (3xxx) sowie Debitorenkonto 2025 – Kritische Durchsicht, Belegauswahl, Gegenkonten (SCH1-202b, 301, 302, 155)
-- Umsatz- und Margenstatistik je Produktkategorie/Sparte (2025 und Vorjahr), Budget/Hochrechnung – Margen- und Budgetvergleich (SCH1-201, 202c/d)
-- Fakturajournal Dezember 2025 und Januar/Februar 2026 inkl. Gutschriften; Kontoblätter Ertrag/Debitoren Folgejahr – Cut-off und Durchsicht in neuer Rechnung, Ereignisse nach dem Stichtag (SCH1-302, 303)
-- Kontoblatt Kreditoren bzw. Kreditorenjournal Januar/Februar 2026 (Eingangsrechnungen für Leistungen vor dem Stichtag) – Cut-off Waren-/Materialaufwand für Befragung und Margenanalyse (SCH1-101, 201; Schnittstelle SCH2)
-- Ausgangsrechnungen, Lieferscheine, Arbeitsrapporte, Abnahme-/Inbetriebnahmeprotokolle um den Stichtag – Belegabstimmung und Periodenzuordnung, weiter gehend bei Risikohinweisen (SCH1-301, 303)
-- MWST-Abrechnungen 2025 und MWST-Umsatzabstimmung – Vorhandensein der Umsatzabstimmung; Abstimmung deklarierter Umsatz mit Ertragskonten weiter gehend (SCH1-202e, 301)
-- Wesentliche Kundenverträge, Werk-/Rahmenverträge, Liefervereinbarungen (Preise, Rabatte, Rückgaberecht, Abnahme, Zahlungsplan) – Realisationszeitpunkt, Erlösminderungen, Retouren, Akontoregelungen (SCH1-101, 301, 303)
-- Projektliste/Bewertung angefangene Arbeiten bzw. langfristige Aufträge per 31.12. inkl. angewandter Methode (POCM/CCM) und Fertigstellungsgrad – Bestandesänderung, Betriebsleistung und Abgrenzung Ertrag vs. angefangene Arbeiten (SCH1-201, 202, 303, 305; Schnittstelle F2)
-- Buchungsjournal-Export mit Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung (nur falls JET bzw. vollständige Gegenkonten-Auswertung vom WP angeordnet) – Filter a)–k) (SCH1-401, 155); Anforderung als Pendenz-Notiz, Versand durch WP
-- Allfällige beim Kunden bereits vorhandene Abrechnungen/Bestätigungen Dritter (z.B. Plattform-, Netzbetreiber-, Kommissionsabrechnungen) – Interne Abstimmung statt Drittbestätigung (SCH1-402)
+- Saldoliste bzw. Erfolgsrechnung 2025 mit Vorjahreszahlen – Saldovergleich, Gliederung, Basis für SCH1-102/201/202/304/305 — [HWP ER S. 198](../chunks/hwp-er-2026/hwp-er-2026__rz-0107-s198.md)
+- Kontoblätter aller Ertrags- und Erlösminderungskonten (3xxx) sowie Debitorenkonto 2025 – Kritische Durchsicht, Belegauswahl, Gegenkonten (SCH1-202b, 301, 302, 155) — [HWP ER S. 202](../chunks/hwp-er-2026/hwp-er-2026__rz-0124-s202.md)
+- Umsatz- und Margenstatistik je Produktkategorie/Sparte (2025 und Vorjahr), Budget/Hochrechnung – Margen- und Budgetvergleich (SCH1-201, 202c/d) — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
+- Fakturajournal Dezember 2025 und Januar/Februar 2026 inkl. Gutschriften; Kontoblätter Ertrag/Debitoren Folgejahr – Cut-off und Durchsicht in neuer Rechnung, Ereignisse nach dem Stichtag (SCH1-302, 303) — [SER S. 75](../chunks/ser-2022/ser-2022__anh-d-s075-2.md)
+- Kontoblatt Kreditoren bzw. Kreditorenjournal Januar/Februar 2026 (Eingangsrechnungen für Leistungen vor dem Stichtag) – Cut-off Waren-/Materialaufwand für Befragung und Margenanalyse (SCH1-101, 201; Schnittstelle SCH2) — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
+- Ausgangsrechnungen, Lieferscheine, Arbeitsrapporte, Abnahme-/Inbetriebnahmeprotokolle um den Stichtag – Belegabstimmung und Periodenzuordnung, weiter gehend bei Risikohinweisen (SCH1-301, 303) — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
+- MWST-Abrechnungen 2025 und MWST-Umsatzabstimmung – Vorhandensein der Umsatzabstimmung; Abstimmung deklarierter Umsatz mit Ertragskonten weiter gehend (SCH1-202e, 301) — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Wesentliche Kundenverträge, Werk-/Rahmenverträge, Liefervereinbarungen (Preise, Rabatte, Rückgaberecht, Abnahme, Zahlungsplan) – Realisationszeitpunkt, Erlösminderungen, Retouren, Akontoregelungen (SCH1-101, 301, 303) — [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0119-s201.md)
+- Projektliste/Bewertung angefangene Arbeiten bzw. langfristige Aufträge per 31.12. inkl. angewandter Methode (POCM/CCM) und Fertigstellungsgrad – Bestandesänderung, Betriebsleistung und Abgrenzung Ertrag vs. angefangene Arbeiten (SCH1-201, 202, 303, 305; Schnittstelle F2) — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
+- Buchungsjournal-Export mit Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung (nur falls JET bzw. vollständige Gegenkonten-Auswertung vom WP angeordnet) – Filter a)–k) (SCH1-401, 155); Anforderung als Pendenz-Notiz, Versand durch WP — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
+- Allfällige beim Kunden bereits vorhandene Abrechnungen/Bestätigungen Dritter (z.B. Plattform-, Netzbetreiber-, Kommissionsabrechnungen) – Interne Abstimmung statt Drittbestätigung (SCH1-402) — [SER](../chunks/ser-2022/ser-2022__1-5.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Nach welchen Grundsätzen erfassen Sie Umsätze (Zeitpunkt: Lieferung, Montageende, Abnahme oder Fakturierung)? Wie werden Akonto-/Teilrechnungen, langfristige Aufträge (POCM/CCM), Rabatte/Skonti und die MWST verbucht?

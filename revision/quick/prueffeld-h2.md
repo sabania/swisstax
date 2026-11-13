@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld H2 Aktivdarlehen – Schnellzugriff
 jur: ch
 quellen:
+- camponovo-2026-hinweispflichten
 - covid-sbueg
 - estv-rs-2-219-2026
 - estv-zinsen-2026
@@ -65,21 +66,21 @@ Gewährte Darlehen an Dritte, Beteiligte/Organe, Konzerngesellschaften. ER: Befr
 - Steuerlich akzeptierte Zinssätze (safe haven) ersetzen den Drittvergleich nach Art. 680 Abs. 2 OR nicht; sie sind nach Marktkonditionen zu beurteilen. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
 
 ## Unterlagen (PBC)
-- Aufstellung der Aktivdarlehen per 31.12. (Darlehensnehmer, Betrag, Zins, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch und Jahresrechnung, Fristigkeit, Basis für alle Schritte
-- Darlehensverträge inkl. Nachträge/Konditionenänderungen – Bestand, Rechte, Konditionen, Drittvergleich
-- Saldomeldungen/Saldobestätigungen der Darlehensnehmer bzw. Abstimmung Gegenbuchhaltung (Konzern), soweit beim Unternehmen vorhanden – Bestandsnachweis (nicht durch die Revisionsstelle einholen)
-- Zinsabrechnungen/Zinsquittungen und Bankauszüge mit Zins- und Amortisationseingängen (inkl. neue Rechnung) – Termintreue, Vollständigkeit Zinsertrag, Bonitätsindiz
-- Letzte Jahresrechnungen bzw. Bonitätsinformationen der Darlehensnehmer – Bonitätsbeurteilung, Wertberichtigungsbedarf
-- Sicherheitenverträge (Pfand, Bürgschaft, Garantie) und Rangrücktrittsvereinbarungen (auch für Gegenforderungen der Darlehensnehmer gegenüber der Gesellschaft) – Werthaltigkeit und Verwertbarkeit der Sicherheiten; Verrechnungsverbot bei Rangrücktritt (H2-404)
-- VR- und GV-Protokolle (Beschluss zur Gewährung bzw. Änderung der Darlehen) – Genehmigung, Sachverhalte mit Auswirkung auf die Jahresrechnung
-- Aktienbuch, Handelsregisterauszug, Liste der Beteiligungen – Bestimmung nahestehender Personen/Gesellschaften (Vollständigkeit)
-- Drittvergleichsanalyse und Schlussfolgerung des VR zu Aktionärs-/Konzerndarlehen – Beurteilung Art. 680 Abs. 2 OR
-- Detailnachweis der stillen Reserven (Bestand und Veränderung) – Abstimmung stiller Reserven auf Darlehen, Nettoauflösung
-- Kontoblätter der Darlehens- und Zinskonten in neuer Rechnung – Rückzahlungen/Ausbuchungen nach dem Stichtag, Vorhandensein
-- Antrag des VR über die Verwendung des Bilanzgewinns – Ausschüttungsfähigkeit bei Aktionärsdarlehen (Sperrung freien Eigenkapitals)
-- Statuten (Zweckbestimmung) – Kreditgewährung an Aktionäre/Nahestehende vom Gesellschaftszweck nicht ausgeschlossen (H2-401)
-- Budget/Liquiditätsplanung bzw. Forecast für den Zeitpunkt der geplanten Ausschüttung – Ausreichende flüssige Mittel bei beantragter Ausschüttung trotz Aktionärs-/Konzerndarlehen (H2-404)
-- Cash-Pool-Vertrag und Bonitätsüberwachung der Pool-Teilnehmer (falls Cash Pooling) – Qualifikation als Aktionärsdarlehen, Haftung, Bonität, Anhang (H2-201/H2-302/H2-320)
+- Aufstellung der Aktivdarlehen per 31.12. (Darlehensnehmer, Betrag, Zins, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch und Jahresrechnung, Fristigkeit, Basis für alle Schritte — [SER S. 81](../chunks/ser-2022/ser-2022__anh-d-s081-1.md)
+- Darlehensverträge inkl. Nachträge/Konditionenänderungen – Bestand, Rechte, Konditionen, Drittvergleich — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0268-s217.md)
+- Saldomeldungen/Saldobestätigungen der Darlehensnehmer bzw. Abstimmung Gegenbuchhaltung (Konzern), soweit beim Unternehmen vorhanden – Bestandsnachweis (nicht durch die Revisionsstelle einholen) — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0172-s195.md)
+- Zinsabrechnungen/Zinsquittungen und Bankauszüge mit Zins- und Amortisationseingängen (inkl. neue Rechnung) – Termintreue, Vollständigkeit Zinsertrag, Bonitätsindiz — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0177-s217.md)
+- Letzte Jahresrechnungen bzw. Bonitätsinformationen der Darlehensnehmer – Bonitätsbeurteilung, Wertberichtigungsbedarf — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0173-s195.md)
+- Sicherheitenverträge (Pfand, Bürgschaft, Garantie) und Rangrücktrittsvereinbarungen (auch für Gegenforderungen der Darlehensnehmer gegenüber der Gesellschaft) – Werthaltigkeit und Verwertbarkeit der Sicherheiten; Verrechnungsverbot bei Rangrücktritt (H2-404) — [HWP BuR S. 218](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0273-s218.md)
+- VR- und GV-Protokolle (Beschluss zur Gewährung bzw. Änderung der Darlehen) – Genehmigung, Sachverhalte mit Auswirkung auf die Jahresrechnung — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Aktienbuch, Handelsregisterauszug, Liste der Beteiligungen – Bestimmung nahestehender Personen/Gesellschaften (Vollständigkeit) — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Drittvergleichsanalyse und Schlussfolgerung des VR zu Aktionärs-/Konzerndarlehen – Beurteilung Art. 680 Abs. 2 OR — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0181-s218.md)
+- Detailnachweis der stillen Reserven (Bestand und Veränderung) – Abstimmung stiller Reserven auf Darlehen, Nettoauflösung — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Kontoblätter der Darlehens- und Zinskonten in neuer Rechnung – Rückzahlungen/Ausbuchungen nach dem Stichtag, Vorhandensein — [SER S. 77](../chunks/ser-2022/ser-2022__anh-d-s077-2.md)
+- Antrag des VR über die Verwendung des Bilanzgewinns – Ausschüttungsfähigkeit bei Aktionärsdarlehen (Sperrung freien Eigenkapitals) — [HWP ER S. 216](../chunks/hwp-er-2026/hwp-er-2026__rz-0170-s216.md)
+- Statuten (Zweckbestimmung) – Kreditgewährung an Aktionäre/Nahestehende vom Gesellschaftszweck nicht ausgeschlossen (H2-401) — [HWP BuR S. 196](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0176-s196-t1.md)
+- Budget/Liquiditätsplanung bzw. Forecast für den Zeitpunkt der geplanten Ausschüttung – Ausreichende flüssige Mittel bei beantragter Ausschüttung trotz Aktionärs-/Konzerndarlehen (H2-404) — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0181-s218.md)
+- Cash-Pool-Vertrag und Bonitätsüberwachung der Pool-Teilnehmer (falls Cash Pooling) – Qualifikation als Aktionärsdarlehen, Haftung, Bonität, Anhang (H2-201/H2-302/H2-320) — [HWP BuR S. 198](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0179-s198.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Nach welchen Grundsätzen werden Aktivdarlehen erfasst und bewertet (Nominalwert, Wertberichtigungen, Fremdwährung, Zinsabgrenzung) und gab es Änderungen gegenüber dem Vorjahr?

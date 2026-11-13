@@ -69,25 +69,25 @@ Schlussarbeiten: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE)
 - Offensichtliche Überschuldung (Art. 729c OR): auch bei optimistischer Betrachtung nicht zu leugnen, u.a. wenn keine oder keine genügenden Rangrücktritte vorhanden sind. — [SER S. 142](../chunks/ser-2022/ser-2022__anh-h-s142-1.md)
 
 ## Unterlagen (PBC)
-- Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) rechtsgültig unterzeichnet – A1-301, A1-305/306; Bestandteil der Jahresakten
-- Vollständigkeitserklärung (an Revisionsstelle adressiert, datiert, unterzeichnet) – A1-103; schriftliche Bestätigung der Unternehmensleitung
-- Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres – A1-302 Abstimmung Vortrag Vorjahresbestände
-- Saldoliste / Hauptbuch per Bilanzstichtag (Bilanz und Erfolgsrechnung mit Vorjahr) – A1-201, A1-303 Abstimmung Hauptbuch mit Jahresrechnung
-- Protokolle GV und VR (Geschäftsjahr und bis Prüfungsdatum) – A1-304; Sachverhalte mit Auswirkung auf die Jahresrechnung
-- Antrag des VR über die Verwendung des Bilanzgewinns/-verlusts – A1-305, A1-307 (gesetzlicher Prüfungsgegenstand)
-- Detailnachweis stille Reserven (Bestand je Position per 31.12. und Vorjahr) – A1-207, A1-308
-- Einschätzung der Fortführungsfähigkeit für mindestens 12 Monate ab Bilanzstichtag: Budget, Liquiditätsplanung, Finanzierungszusagen – A1-205 Going Concern
-- Rangrücktrittsvereinbarungen (unterzeichnet) mit zugehörigen Darlehensverträgen und Kontoblättern Darlehen/Zinsen – A1-205 Deckung der Überschuldung (Betrag inkl. Zinsen, Stundung, Veränderungen/Tilgungen)
-- Zwischenabschluss zu Veräusserungswerten (falls die JR zu Fortführungswerten eine Überschuldung ausweist) – A1-205; sonst Pendenz
-- Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – A1-205 Gültigkeit/Werthaltigkeit des Rangrücktritts
-- Statuten (statutarische Bestandteile der Jahresrechnung, Organe) – A1-304, A1-305
-- Handelsregisterauszug (VR-Vorsitz, Zeichnungsberechtigung, Revisionsstelle) – A1-301 Abgleich der Unterzeichnenden, A1-304 Organe/Revisionsstelle
-- Buchungen/Kontoblätter der Folgeperiode und Informationen zu Ereignissen nach dem Bilanzstichtag – A1-102
-- Zwischenabschluss und Beschluss Zwischendividende (falls vorhanden) – A1-208
-- Zustimmung sämtlicher Aktionäre zur Zwischendividende (nur bei Verzicht auf die Prüfung des Zwischenabschlusses) – A1-208
-- Geldflussrechnung inkl. Fondsnachweis und Anlagespiegel (nur falls erstellt/vorgeschrieben) – A1-401, A1-402
-- Covid-19-Kreditvereinbarung bzw. Bürgschaftsvertrag und Saldo per 31.12. (falls vorhanden) – A1-205, A1-307
-- Vorjahresakte: Revisionsbericht, Schlussbesprechung, Feststellungen/Pendenzen und Hinweise für das Folgejahr – A1-302/A1-203: Erledigung der VJ-Punkte im GJ prüfen; im VJ nicht korrigierte Fehlaussagen
+- Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) rechtsgültig unterzeichnet – A1-301, A1-305/306; Bestandteil der Jahresakten — [SER](../chunks/ser-2022/ser-2022__7-2.md)
+- Vollständigkeitserklärung (an Revisionsstelle adressiert, datiert, unterzeichnet) – A1-103; schriftliche Bestätigung der Unternehmensleitung — [SER S. 102](../chunks/ser-2022/ser-2022__anh-e-s102-1.md)
+- Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres – A1-302 Abstimmung Vortrag Vorjahresbestände — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Saldoliste / Hauptbuch per Bilanzstichtag (Bilanz und Erfolgsrechnung mit Vorjahr) – A1-201, A1-303 Abstimmung Hauptbuch mit Jahresrechnung — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Protokolle GV und VR (Geschäftsjahr und bis Prüfungsdatum) – A1-304; Sachverhalte mit Auswirkung auf die Jahresrechnung — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Antrag des VR über die Verwendung des Bilanzgewinns/-verlusts – A1-305, A1-307 (gesetzlicher Prüfungsgegenstand) — [OR 729A](../chunks/or/or__art-729a.md)
+- Detailnachweis stille Reserven (Bestand je Position per 31.12. und Vorjahr) – A1-207, A1-308 — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Einschätzung der Fortführungsfähigkeit für mindestens 12 Monate ab Bilanzstichtag: Budget, Liquiditätsplanung, Finanzierungszusagen – A1-205 Going Concern — [SER S. 140](../chunks/ser-2022/ser-2022__anh-g-s140-2.md)
+- Rangrücktrittsvereinbarungen (unterzeichnet) mit zugehörigen Darlehensverträgen und Kontoblättern Darlehen/Zinsen – A1-205 Deckung der Überschuldung (Betrag inkl. Zinsen, Stundung, Veränderungen/Tilgungen) — [OR 725B](../chunks/or/or__art-725b-t1.md)
+- Zwischenabschluss zu Veräusserungswerten (falls die JR zu Fortführungswerten eine Überschuldung ausweist) – A1-205; sonst Pendenz — [HWP ER S. 120](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s120-t3.md)
+- Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – A1-205 Gültigkeit/Werthaltigkeit des Rangrücktritts — [SER S. 143](../chunks/ser-2022/ser-2022__anh-h-s143-1.md)
+- Statuten (statutarische Bestandteile der Jahresrechnung, Organe) – A1-304, A1-305 — [HWP ER S. 266](../chunks/hwp-er-2026/hwp-er-2026__rz-0365-s266.md)
+- Handelsregisterauszug (VR-Vorsitz, Zeichnungsberechtigung, Revisionsstelle) – A1-301 Abgleich der Unterzeichnenden, A1-304 Organe/Revisionsstelle — [OR 958](../chunks/or/or__art-958.md)
+- Buchungen/Kontoblätter der Folgeperiode und Informationen zu Ereignissen nach dem Bilanzstichtag – A1-102 — [SER](../chunks/ser-2022/ser-2022__8-6.md)
+- Zwischenabschluss und Beschluss Zwischendividende (falls vorhanden) – A1-208 — [OR 960F](../chunks/or/or__art-960f.md)
+- Zustimmung sämtlicher Aktionäre zur Zwischendividende (nur bei Verzicht auf die Prüfung des Zwischenabschlusses) – A1-208 — [OR 675A](../chunks/or/or__art-675a.md)
+- Geldflussrechnung inkl. Fondsnachweis und Anlagespiegel (nur falls erstellt/vorgeschrieben) – A1-401, A1-402 — [HWP BuR S. 333](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0802-s333.md)
+- Covid-19-Kreditvereinbarung bzw. Bürgschaftsvertrag und Saldo per 31.12. (falls vorhanden) – A1-205, A1-307 — [Covid-19-SBüG 24](../chunks/covid-sbueg/covid-sbueg__art-24.md)
+- Vorjahresakte: Revisionsbericht, Schlussbesprechung, Feststellungen/Pendenzen und Hinweise für das Folgejahr – A1-302/A1-203: Erledigung der VJ-Punkte im GJ prüfen; im VJ nicht korrigierte Fehlaussagen — [HWP ER S. 180](../chunks/hwp-er-2026/hwp-er-2026__rz-0011-s180.md) · [SER](../chunks/ser-2022/ser-2022__6-2-8.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wurden gegenüber dem Vorjahr die Darstellung (Gliederung, Bezeichnungen, Kontenzuordnung) oder Bewertungsgrundsätze/-methoden (z.B. Abschreibungsmethode, Vorrats- oder Auftragsbewertung) geändert? Falls ja: warum, und wo im Anhang dargelegt?

@@ -7,6 +7,7 @@ quellen:
 - fusg
 - hwp-bur-2023
 - hwp-er-2026
+- katalog-revio4
 - konzept-ki-revisionsagent-2026
 - muster-hwp-er-2026
 - mwstg
@@ -76,24 +77,24 @@ Anhang der Jahresrechnung (Art. 959c OR und weitere gesetzliche Angaben). Offenl
 - Rangrücktritt ist in Bilanz oder Anhang auszuweisen und zu erläutern. — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0430-s127.md)
 
 ## Unterlagen (PBC)
-- Definitive, vom VR genehmigte und unterzeichnete Jahresrechnung inkl. Anhang mit Vorjahreszahlen – Prüfgegenstand für alle Schritte; Vorjahresvergleich
-- Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), im Regelfall auf das Datum des Revisionsberichts datiert (vgl. T1-109) – Schriftliche Bestätigung zu Bildung/Auflösung/Bestand stiller Reserven (T1-111), Verbindlichkeiten und Eventualverbindlichkeiten (T1-107), Belastungen von Aktiven (T1-106), Ereignissen nach dem Stichtag (T1-109) und nahestehenden Personen (T1-315)
-- Aufstellung Bestand und Veränderung stiller Reserven je Bilanzposition (aktuell und Vorjahr) – T1-111, T1-305 Nettoauflösung
-- Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile (unabhängig vom gebuchten Konto) – T1-101
-- Aktienbuch und Aufstellung eigener Anteile inkl. Transaktionen (Datum, Anzahl, Art, Preis, Bedingungen) – T1-102, T1-317
-- Leasing- und Mietverträge mit Laufzeit, Kündigungsfristen und Berechnung des Restbetrags per Stichtag – T1-103
-- Kontoauszug/Saldobestätigung der Vorsorgeeinrichtung per 31.12. – T1-104, T1-309
-- Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte, Nachweise zu Sicherheitsleistungen (z.B. Bardepots, Kautionen) sowie die im Dossier vorhandenen Bankunterlagen – T1-105, T1-106 (belastete Aktiven, Sicherheiten)
-- Bankbestätigungen und Anwaltskorrespondenz nur, soweit im Dossier (M-Files) vorhanden – keine PBC-Pendenz «Bestätigung einholen» ohne Anweisung des WP (SER Anhang D: nicht Bestandteil der eingeschränkten Revision) – T1-105 bis T1-107: vorhandene Unterlagen auswerten; aktives Einholen gehört nicht zur eingeschränkten Revision
-- Bürgschafts-, Garantie- und Patronatsverträge zugunsten Dritter – T1-105 (volle Haftungssumme)
-- Aufstellung Rechtsfälle/Aktennotizen, vorhandene Anwaltskorrespondenz, Rückstellungsspiegel – T1-107 Eventualverbindlichkeiten vs. Rückstellungen
-- Beteiligungs-/Optionspläne und Zuteilungen im Geschäftsjahr – T1-108
-- Protokolle VR und GV (Geschäftsjahr und Folgejahr bis Berichtsdatum), Statuten, HR-Auszug – T1-109, T1-110 (Kapitalband), T1-112, T1-315, T1-319
-- Buchungen/Kontoblätter, Kreditorenjournal und Kontoauszüge des Folgejahres (bis möglichst nahe am Berichtsdatum) – T1-109 Ereignisse nach dem Bilanzstichtag (Durchsicht in neuer Rechnung)
-- Personalliste/Lohnjournal mit Pensen, Ein- und Austritten; AHV-Jahreslohnmeldung – T1-304 Vollzeitstellen
-- Darlehensverträge und Rangrücktrittsvereinbarungen mit Aktionären/Nahestehenden – T1-315, T1-307
-- Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend; in M-Files suchen, sonst Pendenz) – T1-112, T1-402
-- Nachweise zu Aufwertungen nach Art. 725c OR (VR-Beschluss, schriftliche Bestätigung der Revisionsstelle) – T1-319, T1-306
+- Definitive, vom VR genehmigte und unterzeichnete Jahresrechnung inkl. Anhang mit Vorjahreszahlen – Prüfgegenstand für alle Schritte; Vorjahresvergleich — [OR 958D](../chunks/or/or__art-958d.md)
+- Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), im Regelfall auf das Datum des Revisionsberichts datiert (vgl. T1-109) – Schriftliche Bestätigung zu Bildung/Auflösung/Bestand stiller Reserven (T1-111), Verbindlichkeiten und Eventualverbindlichkeiten (T1-107), Belastungen von Aktiven (T1-106), Ereignissen nach dem Stichtag (T1-109) und nahestehenden Personen (T1-315) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)
+- Aufstellung Bestand und Veränderung stiller Reserven je Bilanzposition (aktuell und Vorjahr) – T1-111, T1-305 Nettoauflösung — [HWP BuR S. 296](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0667-s296.md)
+- Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile (unabhängig vom gebuchten Konto) – T1-101 — [HWP BuR S. 344](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0826-s344.md)
+- Aktienbuch und Aufstellung eigener Anteile inkl. Transaktionen (Datum, Anzahl, Art, Preis, Bedingungen) – T1-102, T1-317 — [HWP BuR S. 345](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0829-s345.md)
+- Leasing- und Mietverträge mit Laufzeit, Kündigungsfristen und Berechnung des Restbetrags per Stichtag – T1-103 — [HWP BuR S. 346](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0836-s346.md)
+- Kontoauszug/Saldobestätigung der Vorsorgeeinrichtung per 31.12. – T1-104, T1-309 — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-67.md)
+- Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte, Nachweise zu Sicherheitsleistungen (z.B. Bardepots, Kautionen) sowie die im Dossier vorhandenen Bankunterlagen – T1-105, T1-106 (belastete Aktiven, Sicherheiten) — [HWP BuR S. 348](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0844-s348.md)
+- Bankbestätigungen und Anwaltskorrespondenz nur, soweit im Dossier (M-Files) vorhanden – keine PBC-Pendenz «Bestätigung einholen» ohne Anweisung des WP (SER Anhang D: nicht Bestandteil der eingeschränkten Revision) – T1-105 bis T1-107: vorhandene Unterlagen auswerten; aktives Einholen gehört nicht zur eingeschränkten Revision — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-2.md)
+- Bürgschafts-, Garantie- und Patronatsverträge zugunsten Dritter – T1-105 (volle Haftungssumme) — [HWP BuR S. 346](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0839-s346.md)
+- Aufstellung Rechtsfälle/Aktennotizen, vorhandene Anwaltskorrespondenz, Rückstellungsspiegel – T1-107 Eventualverbindlichkeiten vs. Rückstellungen — [HWP BuR S. 351](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0855-s351-t1.md)
+- Beteiligungs-/Optionspläne und Zuteilungen im Geschäftsjahr – T1-108 — [HWP BuR S. 352](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0858-s352-t1.md)
+- Protokolle VR und GV (Geschäftsjahr und Folgejahr bis Berichtsdatum), Statuten, HR-Auszug – T1-109, T1-110 (Kapitalband), T1-112, T1-315, T1-319 — [HWP BuR S. 356](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0869-s356.md)
+- Buchungen/Kontoblätter, Kreditorenjournal und Kontoauszüge des Folgejahres (bis möglichst nahe am Berichtsdatum) – T1-109 Ereignisse nach dem Bilanzstichtag (Durchsicht in neuer Rechnung) — [SER](../chunks/ser-2022/ser-2022__6-1-3.md)
+- Personalliste/Lohnjournal mit Pensen, Ein- und Austritten; AHV-Jahreslohnmeldung – T1-304 Vollzeitstellen — [HWP BuR S. 344](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0822-s344.md)
+- Darlehensverträge und Rangrücktrittsvereinbarungen mit Aktionären/Nahestehenden – T1-315, T1-307 — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0430-s127.md)
+- Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend; in M-Files suchen, sonst Pendenz) – T1-112, T1-402 — [HWP BuR S. 355](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0868-s355-t2.md)
+- Nachweise zu Aufwertungen nach Art. 725c OR (VR-Beschluss, schriftliche Bestätigung der Revisionsstelle) – T1-319, T1-306 — [OR 725C](../chunks/or/or__art-725c.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss, auch nicht als Beteiligung gebuchte Anteile)? Bitte Liste mit Firma, Rechtsform, Sitz, Kapital- und Stimmanteil sowie Halteabsicht.
@@ -174,7 +175,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | T1-317 | Detail |  | EX DO | vorbereiten | Prüfung der Angaben über Bestand und Veränderungen eigener Kapitalanteile | Anhangsangaben zu eigenen Anteilen (Anzahl per Stichtag; Erwerb/Veräusserung mit Datum, Anzahl, Art, Preis, Bedingungen) mit Aktienbuch, Kaufverträgen, Konto… |
 | T1-318 | Detail | EP | DO | vorbereiten | Prüfung, ob Abweichungen von der Annahme der Fortführung im Anhang vermerkt und ihr Einfluss auf die wirtschaftliche Lage dargelegt (falls… | Ergebnis der Fortführungsbeurteilung (Planung; SER Anhang G) übernehmen. Bei Abweichung von der Fortführung: Vermerk und Einfluss auf die wirtschaftliche Lage… |
 | T1-319 | Detail | ? |  | nur_mensch | Prüfen, ob Angaben über Gegenstand und Betrag von Aufwertungen vollständig und korrekt dargestellt sind? | Kennzeichnung «?» (Prüfziele leer) → bis zur Klärung wie WP-Schritt: ohne Anweisung kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – Kennzeichnung «?»… |
-| T1-173 | Detail | EP | DO RI | vorbereiten | None | Katalogtext leer (EP; Prüfziele DO, RI) – Schritttext zuerst in revio nachlesen (Aktivität); fehlt er auch dort: Inhalt durch WP/consis zu bestätigen… |
+| T1-173 | Detail | EP | DO RI | vorbereiten | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalogtext leer (EP; Prüfziele DO, RI) – Schritttext zuerst in revio nachlesen (Aktivität); fehlt er auch dort: Inhalt durch WP/consis zu bestätigen… |
 | T1-401 | Sonstige |  | EX DO | auf_anweisung | Prüfung, ob Anleihensobligationen ausstehend sind und wenn zutreffend, ob Angaben zu deren Beträgen, Zinssätze, Fälligkeiten und weitere… | Sonstige (4xx): nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung»; Hinweise zur… |
 | T1-402 | Sonstige |  | VO DO | auf_anweisung | Abstimmung der Offenlegung über die Gründe bei einem vorzeitigen Rücktritt der Revisionsstelle mit dem Wortlaut im Rücktrittsschreiben | Sonstige (4xx): nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung»; Hinweise zur… |
 | T1-403 | Sonstige |  | DO | auf_anweisung | Prüfung, ob bei grösseren Unternehmen korrekte Angaben zu den langfristigen verzinslichen Verbindlichkeiten gemacht werden, aufgeteilt… | Sonstige (4xx): nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung»; Hinweise zur… |

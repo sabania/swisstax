@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld I1 Immaterielle Anlagen – Schnellzugriff
 jur: ch
 quellen:
+- estv-mb-a-1995
 - hwp-bur-2023
 - hwp-er-2026
 - katalog-revio4
@@ -59,17 +60,17 @@ Immaterielle Werte (Software, Lizenzen, Patente, Marken, aktivierte Entwicklunge
 - Nicht einbezahltes Grundkapital: zum Nennwert passivieren, offenen Teil gesondert aktivieren und wie eine Forderung auf Werthaltigkeit prüfen; nötigenfalls Wertberichtigung. — [HWP BuR S. 273](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0562-s273.md)
 
 ## Unterlagen (PBC)
-- Anlagespiegel und Anlagenverzeichnis immaterielle Werte per 31.12. (je Objekt: Anschaffungsdatum, AK/HK, Zu-/Abgänge, kumulierte Abschreibungen, Nutzungsdauer, Buchwert) inkl. Vorjahr – Bestandsnachweis, Abstimmung Hauptbuch/Bilanz/ER, VJ-Vergleich, Nachrechnen Abschreibungen (I1-201/301/401/403/406)
-- Kauf-, Lizenz-, Entwicklungs- und Übernahmeverträge, Rechnungen und Zahlungsbelege zu Beständen und Zugängen – Bestand, Rechte, Höhe der Anschaffungskosten, Laufzeiten (I1-303/402)
-- Registerauszüge (Patente, Marken, Designs) und Gebühren-/Erneuerungsnachweise per Stichtag – Dokumentbasierte Bestandesaufnahme der Schutzrechte, Gültigkeit und Inhaberschaft (I1-401)
-- Bei Eigenentwicklungen: Projektkostenrechnung/Stundenrapporte, Projektbeschrieb mit Ergebnis (Prototyp, Marktreife), Finanzierungsnachweis – Beurteilung Aktivierungsfähigkeit und Höhe der Herstellungskosten (I1-402)
-- Abschreibungsrichtlinie bzw. Abschreibungsplan (Methode, Sätze, Nutzungsdauern je Kategorie) inkl. Änderungen ggü. Vorjahr – Bewertungsgrundlagen und Stetigkeit (I1-101/102/403)
-- Werthaltigkeitsnachweis der Unternehmensleitung bei Anzeichen (Ertrags-, Cashflow- oder Deckungsbeitragsprognosen, Budget) – Impairment-Beurteilung und Restwerte (I1-104/406)
-- Belege zu Abgängen (Verkaufsverträge, Kündigungen, Ausbuchungsbelege) – Abgänge und realisierte Gewinne/Verluste (I1-103)
-- Kontoblätter Bestandes-, Wertberichtigungs- und Abschreibungskonten immaterielle Werte sowie Aufwandkonten Software/Lizenzen/IT/Beratung – Durchsicht ungewöhnliche Posten, ER-gebuchte Investitionen (I1-302/405)
-- Detailnachweis stille Reserven bzw. Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (GJ und VJ) – Bestand und Veränderung stiller Reserven, Anhangangabe (I1-321/407/320)
-- VR- und GV-Protokolle (Investitionsentscheide, Projektabbrüche, Einforderung nicht einbezahlten Kapitals) – Zugänge, Wertbeeinträchtigungen, Liberierung (I1-103/104/408)
-- Bei nicht einbezahltem Kapital: Statuten, Handelsregisterauszug, Aktienbuch, VR-Beschluss zur Einforderung, Bonitätsunterlagen der Aktionäre – Bestand, Ausweis und Werthaltigkeit des nicht einbezahlten Grundkapitals (I1-408)
+- Anlagespiegel und Anlagenverzeichnis immaterielle Werte per 31.12. (je Objekt: Anschaffungsdatum, AK/HK, Zu-/Abgänge, kumulierte Abschreibungen, Nutzungsdauer, Buchwert) inkl. Vorjahr – Bestandsnachweis, Abstimmung Hauptbuch/Bilanz/ER, VJ-Vergleich, Nachrechnen Abschreibungen (I1-201/301/401/403/406) — [HWP BuR S. 244](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0415-s244.md)
+- Kauf-, Lizenz-, Entwicklungs- und Übernahmeverträge, Rechnungen und Zahlungsbelege zu Beständen und Zugängen – Bestand, Rechte, Höhe der Anschaffungskosten, Laufzeiten (I1-303/402) — [HWP BuR S. 244](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0416-s244.md)
+- Registerauszüge (Patente, Marken, Designs) und Gebühren-/Erneuerungsnachweise per Stichtag – Dokumentbasierte Bestandesaufnahme der Schutzrechte, Gültigkeit und Inhaberschaft (I1-401) — [HWP BuR S. 244](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0416-s244.md)
+- Bei Eigenentwicklungen: Projektkostenrechnung/Stundenrapporte, Projektbeschrieb mit Ergebnis (Prototyp, Marktreife), Finanzierungsnachweis – Beurteilung Aktivierungsfähigkeit und Höhe der Herstellungskosten (I1-402) — [HWP BuR S. 244](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0417-s244.md)
+- Abschreibungsrichtlinie bzw. Abschreibungsplan (Methode, Sätze, Nutzungsdauern je Kategorie) inkl. Änderungen ggü. Vorjahr – Bewertungsgrundlagen und Stetigkeit (I1-101/102/403) — [HWP BuR S. 230](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0337-s230.md)
+- Werthaltigkeitsnachweis der Unternehmensleitung bei Anzeichen (Ertrags-, Cashflow- oder Deckungsbeitragsprognosen, Budget) – Impairment-Beurteilung und Restwerte (I1-104/406) — [HWP BuR S. 245](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0421-s245.md)
+- Belege zu Abgängen (Verkaufsverträge, Kündigungen, Ausbuchungsbelege) – Abgänge und realisierte Gewinne/Verluste (I1-103) — [SER S. 83](../chunks/ser-2022/ser-2022__anh-d-s083-1.md)
+- Kontoblätter Bestandes-, Wertberichtigungs- und Abschreibungskonten immaterielle Werte sowie Aufwandkonten Software/Lizenzen/IT/Beratung – Durchsicht ungewöhnliche Posten, ER-gebuchte Investitionen (I1-302/405) — [SER S. 82](../chunks/ser-2022/ser-2022__anh-d-s082-2.md)
+- Detailnachweis stille Reserven bzw. Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (GJ und VJ) – Bestand und Veränderung stiller Reserven, Anhangangabe (I1-321/407/320) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- VR- und GV-Protokolle (Investitionsentscheide, Projektabbrüche, Einforderung nicht einbezahlten Kapitals) – Zugänge, Wertbeeinträchtigungen, Liberierung (I1-103/104/408) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Bei nicht einbezahltem Kapital: Statuten, Handelsregisterauszug, Aktienbuch, VR-Beschluss zur Einforderung, Bonitätsunterlagen der Aktionäre – Bestand, Ausweis und Werthaltigkeit des nicht einbezahlten Grundkapitals (I1-408) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
 - Vom Kunden vorhandene Bewertungsgutachten (z.B. Patent-/Markenbewertung), falls bereits erstellt – Beizug als Unterlage zur Werthaltigkeit; kein Einholen durch die Revisionsstelle (I1-404) (Praxis/intern)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)

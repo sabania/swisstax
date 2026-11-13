@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld P1 Eigenkapital – Schnellzugriff
 jur: ch
 quellen:
+- camponovo-2026-hinweispflichten
 - covid-sbueg
 - estv-ks-29c-2022
 - estv-ks-32a-2025
@@ -78,26 +79,26 @@ Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR). ER: Abstimmung mit Statuten/HR, Akti
 - Verrechnungsliberierung gilt auch bei nicht mehr gedeckter Forderung als Deckung — [OR 634A](../chunks/or/or__art-634a.md)
 
 ## Unterlagen (PBC)
-- Gültige Statuten (aktuelle Fassung) und aktueller Handelsregisterauszug – Abstimmung Aktienkapital, Statutenänderungen inkl. Statutenangabe zur Verrechnungsliberierung, Dauerakte (P1-301, P1-307, P1-314, P1-321)
-- Protokoll der ordentlichen GV im GJ über die Jahresrechnung des Vorjahres (Genehmigung JR, Verwendung Bilanzergebnis, Wahl Revisionsstelle) sowie Protokolle aller ausserordentlichen GV und VR-Beschlüsse/Zirkularbeschlüsse des GJ bis Berichtsdatum – Abstimmung Reserven/Bilanzergebnis, Vollzug Gewinnverwendung (P1-302, P1-312)
-- Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres – Vortrag der Vorjahresbestände (P1-302)
-- Antrag des VR über die Verwendung des Bilanzgewinns (inkl. allfälliger Antrag auf Rückzahlung aus gesetzlicher Kapitalreserve) – Prüfung Antrag nach Art. 729a Abs. 1 Ziff. 2 OR (P1-303)
-- Aktienbuch per Bilanzstichtag (und ggf. Verzeichnis der wirtschaftlich berechtigten Personen) – Führung Aktienbuch, Abstimmung Anzahl/Nominal, Aktionäre als Gegenparteien für P1-305 (P1-317, P1-301, P1-304, P1-305)
-- Unterlagen zu Kapitalveränderungen: öffentliche Urkunden GV/VR, Zeichnungsscheine, Kapitalerhöhungsbericht mit Prüfungsbestätigung, Einzahlungs-/Verrechnungsnachweis, HR-Eintrag – Kritische Durchsicht Kapitalveränderung, Buchungen (P1-307, P1-314, P1-316)
-- Kontoblätter aller Eigenkapitalkonten; Eigenkapitalspiegel des Kunden (in M-Files suchen, sonst PBC-Vorschlag) – Buchungen auf EK-Konti, Eigenkapitalspiegel (P1-316, P1-401)
-- Aufstellung eigene Kapitalanteile (Anzahl, Anschaffungswert, Käufe/Verkäufe mit Verträgen bzw. Abrechnungen, Bestand bei Tochtergesellschaften) – Bestand und Transaktionen eigener Anteile (P1-304, P1-306)
-- Debitoren-/OP-Listen und Kontoblätter aller Forderungskonten (1100 ff., 114x, 119x) mit Gegenparteien – Suche nach Forderungen mit Darlehenscharakter ggü. Aktionären/Organen, auch ausserhalb der Aktionärskonten (P1-305, P1-303)
-- Aufstellung Forderungen gegenüber Aktionären, Nahestehenden und Konzerngesellschaften (inkl. Cash-Pool) mit Darlehensverträgen, VR-Genehmigung und Drittvergleichsanalyse des VR – Einlagerückgewähr Art. 680 Abs. 2 OR (P1-305)
-- Darlehensverträge der Aktionäre an die Gesellschaft (Betrag, Zins, Laufzeit, Kündigung) – Abgleich Betrag/Zins mit Rangrücktritten, Verrechnungsmöglichkeit (P1-313, P1-305)
-- Budget/Liquiditätsplanung bis zum Ausschüttungszeitpunkt – Liquidität und Fortführung bei beantragter Ausschüttung (P1-303)
-- Abrechnungen/Korrespondenz ESTV: Emissionsabgabe, Verrechnungssteuer auf Ausschüttungen, Bestätigung bzw. Meldung der Kapitaleinlagereserven (Formular 170) – Steuerliche Behandlung (P1-308, P1-315, P1-320)
-- Rangrücktrittsvereinbarungen (schriftlich, beidseitig unterzeichnet, inkl. Änderungen/Ersatzerklärungen), ggf. Zwischenabschlüsse nach Art. 725b OR mit Prüfungsbericht, Sanierungsmassnahmen/-plan – Beurteilung Kapitalverlust/Überschuldung und Rangrücktritte (P1-313)
-- Bankauszüge und Kontoblätter des GJ und nach Stichtag zu Zahlungen, Verrechnungen und Darlehen an Gläubiger mit Rangrücktritt – Einhaltung Tilgungs- und Verrechnungsverbot (P1-313, P1-305)
-- VR-Protokolle des Geschäftsjahres und bis Berichtsdatum (Kapitalband, Aufwertung, Optionen, Ausschüttungen, Darlehen an Aktionäre/Organe) – Vollständigkeit Kapitalvorgänge, Nahestehende (P1-305, P1-307, P1-311, P1-314)
-- Bei Zwischendividende: Zwischenabschluss mit Prüfungsbericht der Revisionsstelle bzw. Zustimmung sämtlicher Aktionäre – Zulässigkeit Zwischendividende (P1-303, P1-315)
-- Bei Aufwertung: schriftliche Bestätigung der Revisionsstelle bzw. des zugelassenen Revisors und Bewertungsnachweis – Aufwertungsreserve (P1-311)
-- Beteiligungs-/Optionspläne für Organe und Mitarbeitende – Optionen, Anhangangabe (P1-307, P1-320)
-- Covid-19-Kreditvereinbarung/Bürgschaftsvertrag und Amortisationsplan – Covid-Kredit (Art. 3 oder 4 Covid-19-SBüV): Ausschüttungs- und Darlehensverbot während der Solidarbürgschaft (P1-303, P1-305), Fremdkapital bei Art. 725a/725b OR (P1-313)
+- Gültige Statuten (aktuelle Fassung) und aktueller Handelsregisterauszug – Abstimmung Aktienkapital, Statutenänderungen inkl. Statutenangabe zur Verrechnungsliberierung, Dauerakte (P1-301, P1-307, P1-314, P1-321) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
+- Protokoll der ordentlichen GV im GJ über die Jahresrechnung des Vorjahres (Genehmigung JR, Verwendung Bilanzergebnis, Wahl Revisionsstelle) sowie Protokolle aller ausserordentlichen GV und VR-Beschlüsse/Zirkularbeschlüsse des GJ bis Berichtsdatum – Abstimmung Reserven/Bilanzergebnis, Vollzug Gewinnverwendung (P1-302, P1-312) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
+- Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres – Vortrag der Vorjahresbestände (P1-302) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Antrag des VR über die Verwendung des Bilanzgewinns (inkl. allfälliger Antrag auf Rückzahlung aus gesetzlicher Kapitalreserve) – Prüfung Antrag nach Art. 729a Abs. 1 Ziff. 2 OR (P1-303) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
+- Aktienbuch per Bilanzstichtag (und ggf. Verzeichnis der wirtschaftlich berechtigten Personen) – Führung Aktienbuch, Abstimmung Anzahl/Nominal, Aktionäre als Gegenparteien für P1-305 (P1-317, P1-301, P1-304, P1-305) — [HWP BuR S. 273](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0560-s273.md)
+- Unterlagen zu Kapitalveränderungen: öffentliche Urkunden GV/VR, Zeichnungsscheine, Kapitalerhöhungsbericht mit Prüfungsbestätigung, Einzahlungs-/Verrechnungsnachweis, HR-Eintrag – Kritische Durchsicht Kapitalveränderung, Buchungen (P1-307, P1-314, P1-316) — [HWP BWP S. 223](../chunks/hwp-bwp-2024/hwp-bwp-2024__rz-0081-s223.md)
+- Kontoblätter aller Eigenkapitalkonten; Eigenkapitalspiegel des Kunden (in M-Files suchen, sonst PBC-Vorschlag) – Buchungen auf EK-Konti, Eigenkapitalspiegel (P1-316, P1-401) — [HWP BuR S. 277](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0572-s277-t1.md)
+- Aufstellung eigene Kapitalanteile (Anzahl, Anschaffungswert, Käufe/Verkäufe mit Verträgen bzw. Abrechnungen, Bestand bei Tochtergesellschaften) – Bestand und Transaktionen eigener Anteile (P1-304, P1-306) — [SER S. 97](../chunks/ser-2022/ser-2022__anh-d-s097-1.md)
+- Debitoren-/OP-Listen und Kontoblätter aller Forderungskonten (1100 ff., 114x, 119x) mit Gegenparteien – Suche nach Forderungen mit Darlehenscharakter ggü. Aktionären/Organen, auch ausserhalb der Aktionärskonten (P1-305, P1-303) — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md)
+- Aufstellung Forderungen gegenüber Aktionären, Nahestehenden und Konzerngesellschaften (inkl. Cash-Pool) mit Darlehensverträgen, VR-Genehmigung und Drittvergleichsanalyse des VR – Einlagerückgewähr Art. 680 Abs. 2 OR (P1-305) — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0181-s218.md)
+- Darlehensverträge der Aktionäre an die Gesellschaft (Betrag, Zins, Laufzeit, Kündigung) – Abgleich Betrag/Zins mit Rangrücktritten, Verrechnungsmöglichkeit (P1-313, P1-305) — [OR 725B](../chunks/or/or__art-725b-t1.md)
+- Budget/Liquiditätsplanung bis zum Ausschüttungszeitpunkt – Liquidität und Fortführung bei beantragter Ausschüttung (P1-303) — [HWP ER S. 242](../chunks/hwp-er-2026/hwp-er-2026__rz-0256-s242.md)
+- Abrechnungen/Korrespondenz ESTV: Emissionsabgabe, Verrechnungssteuer auf Ausschüttungen, Bestätigung bzw. Meldung der Kapitaleinlagereserven (Formular 170) – Steuerliche Behandlung (P1-308, P1-315, P1-320) — [HWP BuR S. 275](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0565-s275-t2.md)
+- Rangrücktrittsvereinbarungen (schriftlich, beidseitig unterzeichnet, inkl. Änderungen/Ersatzerklärungen), ggf. Zwischenabschlüsse nach Art. 725b OR mit Prüfungsbericht, Sanierungsmassnahmen/-plan – Beurteilung Kapitalverlust/Überschuldung und Rangrücktritte (P1-313) — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md)
+- Bankauszüge und Kontoblätter des GJ und nach Stichtag zu Zahlungen, Verrechnungen und Darlehen an Gläubiger mit Rangrücktritt – Einhaltung Tilgungs- und Verrechnungsverbot (P1-313, P1-305) — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0415-s123-t2.md)
+- VR-Protokolle des Geschäftsjahres und bis Berichtsdatum (Kapitalband, Aufwertung, Optionen, Ausschüttungen, Darlehen an Aktionäre/Organe) – Vollständigkeit Kapitalvorgänge, Nahestehende (P1-305, P1-307, P1-311, P1-314) — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- Bei Zwischendividende: Zwischenabschluss mit Prüfungsbericht der Revisionsstelle bzw. Zustimmung sämtlicher Aktionäre – Zulässigkeit Zwischendividende (P1-303, P1-315) — [OR 675A](../chunks/or/or__art-675a.md)
+- Bei Aufwertung: schriftliche Bestätigung der Revisionsstelle bzw. des zugelassenen Revisors und Bewertungsnachweis – Aufwertungsreserve (P1-311) — [OR 725C](../chunks/or/or__art-725c.md)
+- Beteiligungs-/Optionspläne für Organe und Mitarbeitende – Optionen, Anhangangabe (P1-307, P1-320) — [SER S. 97](../chunks/ser-2022/ser-2022__anh-d-s097-2.md)
+- Covid-19-Kreditvereinbarung/Bürgschaftsvertrag und Amortisationsplan – Covid-Kredit (Art. 3 oder 4 Covid-19-SBüV): Ausschüttungs- und Darlehensverbot während der Solidarbürgschaft (P1-303, P1-305), Fremdkapital bei Art. 725a/725b OR (P1-313) — [Covid-19-SBüG 3](../chunks/covid-sbueg/covid-sbueg__art-3.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wurden im Geschäftsjahr oder seit dem Bilanzstichtag die Statuten geändert oder Kapitalerhöhungen/-herabsetzungen (auch innerhalb eines Kapitalbands) beschlossen bzw. im Handelsregister eingetragen? Bitte Urkunden und HR-Auszug einreichen.
@@ -156,7 +157,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | P1-306 | Detail | WP | DO | nur_mensch | Analyse von Käufen oder Verkäufen eigener Anteile und deren Bilanzierung als Minusposten im Eigenkapital | WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz… |
 | P1-307 | Detail | WP | EX RV BE PA DO | nur_mensch | Bei Änderungen im Grundkapital und Ausgabe von Optionen: kritische Durchsicht | WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz… |
 | P1-308 | Detail | ? |  | nur_mensch | Prüfung der richtigen steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und - herabsetzungen sowie Gewinnausschüttungen… | Kennzeichnung «?» – bis Klärung wie WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – Kennzeichnung «?» (wie… |
-| P1-141 | Detail | WP | RV VO BE DO RI | nur_mensch | None | Katalogtext in revio leer (WP-Schritt, Prüfziele RV VO BE DO RI). Agent bearbeitet den Schritt nicht inhaltlich, sondern erfasst eine Pendenz an den WP zur… |
+| P1-141 | Detail | WP | RV VO BE DO RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalogtext in revio leer (WP-Schritt, Prüfziele RV VO BE DO RI). Agent bearbeitet den Schritt nicht inhaltlich, sondern erfasst eine Pendenz an den WP zur… |
 | P1-310 | Detail |  | VO DO | vorbereiten | Prüfung korrekte Gliederung | EK in der Bilanz mit Mindestgliederung Art. 959a Abs. 2 Ziff. 3 OR vergleichen: AK, gesetzliche Kapitalreserve (unterteilt in KER und übrige), gesetzliche… |
 | P1-311 | Detail |  | DO | vorbereiten | Richtiger Ausweis Aufwertungsreserve (OR 670) | Katalogverweis «OR 670» ist überholt; massgebend ist Art. 725c OR. Konten und VR-Beschlüsse auf Aufwertungen von Grundstücken/Beteiligungen durchsehen. Falls… |
 | P1-312 | Detail |  | RV EN PA RI | vorbereiten | Vollzug Gewinnverwendungsbeschluss des Vorjahres | GV-Beschluss über die Verwendung des Bilanzergebnisses des Vorjahres (Protokoll oGV) mit den Buchungen im Prüfjahr abgleichen: Vortrag Jahresergebnis… |

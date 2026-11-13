@@ -4,6 +4,7 @@ titel: Prüffeld S1 Steuern – Schnellzugriff
 jur: ch
 quellen:
 - dbg
+- ef-2020-10-latente-steuern
 - estv-ks-29c-2022
 - estv-ks-32a-2025
 - estv-ks-6a-2024
@@ -81,22 +82,22 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Sanierungsfreibetrag Emissionsabgabe: Leistungen der Anteilsinhaber bis gesamthaft CHF 10 Mio. (KS 32a Ziff. 3.3.2 lit. c). — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t2.md)
 
 ## Unterlagen (PBC)
-- Berechnung der Steuerabgrenzung 2025 (Gewinn- und Kapitalsteuer Bund/Kanton/Gemeinde) mit Parametern: Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen – S1-301, S1-304: Abstimmung mit Jahresrechnung und Nachrechnen
-- Steuererklärung (Selbstdeklaration) der letzten eingereichten Periode(n) inkl. Beilagen – S1-302, S1-303: Abgleich Deklaration mit Jahresrechnung und Abgrenzung (SER: weiter gehend)
-- Veranlagungsverfügungen Bund und Kanton aller noch nicht abgeschlossenen bzw. im Geschäftsjahr veranlagten Perioden – S1-103, S1-302: Stand der Veranlagung, Nachzahlungen/Rückerstattungen
-- Steuerrechnungen (provisorisch/Akonto, Schlussrechnungen), Steuerkontoauszug der Steuerverwaltung, Zahlungsbelege – S1-302, S1-303: Vergleich gebuchter Steuern und Zahlungen
-- Korrespondenz mit Steuerbehörden (Rückfragen, Auflagen, Steuerrevision, Nachsteuer-/Strafsteuerverfahren, Einsprachen, Rekurse) – S1-102, S1-104: Feststellung allfälliger Nachforderungen und Risiken
-- Bericht/Verfügung der letzten Steuerrevision (Buchprüfung) inkl. Nachbelastungen und Auflagen – S1-403: Umsetzung der Ergebnisse, Rückstellung für Nachbelastungen
-- Detailnachweis stille Reserven (Bestand je Position 31.12. und Vorjahr), inkl. versteuerter stiller Reserven gemäss Steuerbilanz – S1-321: Bestand/Veränderung, Nettoauflösung
-- Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge an und von Beteiligten mit Zinssatz, Sicherheit, Zweck; Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle – S1-401: Festhalten geldwerter Leistungen
-- INTERN, nicht beim Kunden anfordern: ESTV-Rundschreiben Zinssätze 2025 (im Wiki nicht vorhanden → Pendenz an WP, kein PBC-Vorschlag) – S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten
-- Verrechnungssteuer-Deklarationen (Formular 102 für geldwerte Leistungen, Dividenden) und Rückforderungsanträge – S1-401, S1-402, S1-304: VSt-Folgen und VSt-Guthaben
-- Verkehrswerte der Aktiven per 31.12.2025 und Berechnung des zulässigen Fremdkapitals bzw. verdeckten Eigenkapitals; Rangrücktrittserklärungen – S1-402: verdecktes Eigenkapital, Zinsaufrechnung und VSt
-- Bestätigung der ESTV zu den Kapitaleinlagereserven (Agio Kapitalerhöhung 2025) – S1-402: beantragte Ausschüttung aus Kapitalreserven (VSt), Anhanghinweis
-- Abrechnung der Emissionsabgabe zur Kapitalerhöhung bzw. Begründung/Gesuch der Befreiung (Sanierung, Freibetrag) – S1-402: Abgrenzung Emissionsabgabe
-- Saldoliste/Hauptbuch der Steuerkonten (Steueraufwand, Steuerrückstellung/-verbindlichkeit, Steuerguthaben) mit Vorjahr; Kontoblätter neue Rechnung – S1-201, S1-303: Vorjahresvergleich, Entwicklung, Zahlungen nach Stichtag
-- Vollständigkeitserklärung (Einhaltung Vorschriften betreffend direkte Steuern) – Schriftliche Bestätigung der Kernaussagen zu S1-101 bis S1-104
-- Unterlagen zu besonderen Verhältnissen: Grundstückkäufe/-verkäufe, Umstrukturierungen, Kapitalerhöhungen/Sanierung (Emissionsabgabe), Ausschüttungen, Steuerrulings – S1-402
+- Berechnung der Steuerabgrenzung 2025 (Gewinn- und Kapitalsteuer Bund/Kanton/Gemeinde) mit Parametern: Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen – S1-301, S1-304: Abstimmung mit Jahresrechnung und Nachrechnen — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Steuererklärung (Selbstdeklaration) der letzten eingereichten Periode(n) inkl. Beilagen – S1-302, S1-303: Abgleich Deklaration mit Jahresrechnung und Abgrenzung (SER: weiter gehend) — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Veranlagungsverfügungen Bund und Kanton aller noch nicht abgeschlossenen bzw. im Geschäftsjahr veranlagten Perioden – S1-103, S1-302: Stand der Veranlagung, Nachzahlungen/Rückerstattungen — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-2.md)
+- Steuerrechnungen (provisorisch/Akonto, Schlussrechnungen), Steuerkontoauszug der Steuerverwaltung, Zahlungsbelege – S1-302, S1-303: Vergleich gebuchter Steuern und Zahlungen — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Korrespondenz mit Steuerbehörden (Rückfragen, Auflagen, Steuerrevision, Nachsteuer-/Strafsteuerverfahren, Einsprachen, Rekurse) – S1-102, S1-104: Feststellung allfälliger Nachforderungen und Risiken — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-2.md)
+- Bericht/Verfügung der letzten Steuerrevision (Buchprüfung) inkl. Nachbelastungen und Auflagen – S1-403: Umsetzung der Ergebnisse, Rückstellung für Nachbelastungen — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0547-s269.md)
+- Detailnachweis stille Reserven (Bestand je Position 31.12. und Vorjahr), inkl. versteuerter stiller Reserven gemäss Steuerbilanz – S1-321: Bestand/Veränderung, Nettoauflösung — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge an und von Beteiligten mit Zinssatz, Sicherheit, Zweck; Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle – S1-401: Festhalten geldwerter Leistungen — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
+- INTERN, nicht beim Kunden anfordern: ESTV-Rundschreiben Zinssätze 2025 (im Wiki nicht vorhanden → Pendenz an WP, kein PBC-Vorschlag) – S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- Verrechnungssteuer-Deklarationen (Formular 102 für geldwerte Leistungen, Dividenden) und Rückforderungsanträge – S1-401, S1-402, S1-304: VSt-Folgen und VSt-Guthaben — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
+- Verkehrswerte der Aktiven per 31.12.2025 und Berechnung des zulässigen Fremdkapitals bzw. verdeckten Eigenkapitals; Rangrücktrittserklärungen – S1-402: verdecktes Eigenkapital, Zinsaufrechnung und VSt — [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__einleitung-t3.md)
+- Bestätigung der ESTV zu den Kapitaleinlagereserven (Agio Kapitalerhöhung 2025) – S1-402: beantragte Ausschüttung aus Kapitalreserven (VSt), Anhanghinweis — [HWP BuR S. 275](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0565-s275-t2.md)
+- Abrechnung der Emissionsabgabe zur Kapitalerhöhung bzw. Begründung/Gesuch der Befreiung (Sanierung, Freibetrag) – S1-402: Abgrenzung Emissionsabgabe — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t1.md)
+- Saldoliste/Hauptbuch der Steuerkonten (Steueraufwand, Steuerrückstellung/-verbindlichkeit, Steuerguthaben) mit Vorjahr; Kontoblätter neue Rechnung – S1-201, S1-303: Vorjahresvergleich, Entwicklung, Zahlungen nach Stichtag — [SER S. 88](../chunks/ser-2022/ser-2022__anh-d-s088-1.md)
+- Vollständigkeitserklärung (Einhaltung Vorschriften betreffend direkte Steuern) – Schriftliche Bestätigung der Kernaussagen zu S1-101 bis S1-104 — [SER S. 103](../chunks/ser-2022/ser-2022__anh-e-s103-2.md)
+- Unterlagen zu besonderen Verhältnissen: Grundstückkäufe/-verkäufe, Umstrukturierungen, Kapitalerhöhungen/Sanierung (Emissionsabgabe), Ausschüttungen, Steuerrulings – S1-402 — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Sind alle direkten Steuern früherer Perioden (Bund, Kanton/Gemeinde) bezahlt oder abgegrenzt? Bitte Liste je Steuerperiode mit Status (bezahlt/offen, Betrag).
@@ -149,7 +150,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | S1-201 | Analytisch | EP | VO BE PA | vorbereiten | Beurteilung des Steueraufwandes im Vergleich zum Periodenergebnis und zum Vorjahr | Aus Saldoliste/Jahresrechnung Ergebnis vor Steuern und direkte Steuern (laufend/Vorjahr) entnehmen, Steuerquote und Veränderung im Rechenmodul berechnen.… |
 | S1-301 | Detail | EP | VO BE PA RI | vorbereiten | Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden) | Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen (z.B. Bussen, Art. 59 Abs. 2… |
 | S1-302 | Detail | ? |  | nur_mensch | Vergleich der gebuchten Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen | Kennzeichnung offen («?», keine Prüfziele) → vom WP bestätigen lassen. SER: Abstimmung Steuererklärung–Jahresrechnung ist weiter gehend; Umfang erst nach… |
-| S1-151 | Detail | WP | RV VO BE RI | nur_mensch | None | Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an den WP: Inhalt festlegen… |
+| S1-151 | Detail | WP | RV VO BE RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an den WP: Inhalt festlegen… |
 | S1-303 | Detail | WP | EN VO BE PA RI | nur_mensch | Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
 | S1-304 | Detail |  | RV VO BE PA RI | vorbereiten | Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn | Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte Vorperioden; Risiken aus S1-101 bis S1-303… |
 | S1-321 | Detail |  | BE | vorbereiten | Bestand und Veränderung stiller Reserven | Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung berechnen. Steuerbezug: übersetzte… |

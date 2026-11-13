@@ -12,6 +12,7 @@ quellen:
 - or
 - ph-20-mwst-2016
 - ser-2022
+- treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
 quelle_sha: 7d343d6e7dcff5795a14c9ac70838ce4cbef23537d81a7fd6b9fce02a0dabcbf
@@ -63,22 +64,22 @@ MWST-Salden (Vorsteuer, Umsatzsteuer, Abrechnungs-/Einfuhrsteuerkonto) und MWST-
 - Ergänzend (PH 20, Abschlussprüfung nach PS): Auseinandersetzung mit der Steuerbehörde kann wesentliche Unsicherheit begründen; PS-Begriffe «Absatz zur Hervorhebung»/«Vermerk» nicht für den SER-Bericht übernehmen. — [PH 20](../chunks/ph-20-mwst-2016/ph-20-mwst-2016__c008-1.md)
 
 ## Unterlagen (PBC)
-- MWST-Abrechnungen aller Perioden des Geschäftsjahres (inkl. letzte Periode) mit Zahlungsnachweisen – Abstimmung der MWST-Salden mit den Abrechnungen (M2-301, empfohlen); Abstimmung je Periode mit den Konten (M2-303) nur auf Anweisung des WP
-- Umsatzabstimmung (Fibu ↔ deklarierte Umsätze) und Vorsteuerabstimmung, ggf. Korrekturabrechnung/Finalisierung – Vorhandensein der Umsatzabstimmung (M2-101); Nachvollzug (M2-302) und Vorsteuerplausibilisierung (M2-401) nur auf Anweisung des WP
-- Saldoliste und Kontoblätter der MWST-Konten (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer/Zoll) – Saldenabstimmung und Bilanzausweis (M2-301); Saldierung je Quartal (M2-303) nur auf Anweisung des WP
-- Korrespondenz mit der ESTV: Einschätzungsmitteilungen, Rückfragen, Rulings, Einsprachen/hängige Verfahren – Nachforderungen und Rückstellungsbedarf als Hinweis an den WP (M2-104, M2-408 nur auf Anweisung)
-- Kontrollberichte der ESTV (MWST-Revisionen der letzten drei Jahre) und Nachweis der Umsetzung – Prüfungsnachweis zu Feststellungen und Nachforderungen (weiter gehend; M2-104 nur auf Anweisung des WP)
-- Bewilligungen/Mitteilungen ESTV: Saldosteuersatz, Gruppenbesteuerung, Meldeverfahren (falls zutreffend) – Abrechnungsmethode und Sonderfälle belegen (M2-102 nur auf Anweisung, M2-305)
-- Nachweis aktueller oder früherer Zugehörigkeit zu einer MWST-Gruppe (Gruppenträger, Ein-/Austrittsdatum) – Anhangangabe Solidarhaftung (DO); Abgleich mit Anhang der Jahresrechnung
-- Abklärungen zur MWST-Registrierung im Ausland (Direktlieferungen, Reihengeschäfte) – Steuerpflicht im Ausland beurteilen (M2-305; M2-104 nur auf Anweisung)
-- Leistungskatalog / interne MWST-Richtlinie zur Qualifikation der Mittelzuflüsse – Beurteilung Steuersätze, befreite/ausgenommene Umsätze (M2-305; M2-407 nur auf Anweisung)
-- Kontenplan der Fibu mit hinterlegten MWST-Codes (Export Stammdaten) – Durchsicht der Kontendefinition (M2-404, nur auf Anweisung des WP)
-- Liste bzw. Rechnungen ausländischer Dienstleister (Kreditorenjournal) und Bezugsteuerdeklaration – Import von Dienstleistungen (M2-305 f; M2-103/M2-405 nur auf Anweisung des WP)
-- Veranlagungsverfügungen MWST (Zoll), Rechnungen der Spediteure/Transporteure, Auszüge ZAZ-Konto – Verbuchung der Einfuhrsteuer als Vorsteuer (M2-406, nur auf Anweisung des WP)
-- Ausfuhrnachweise (Ausfuhrveranlagungen) für steuerbefreite Lieferungen ins Ausland – Nachweis steuerbefreiter Exportumsätze (M2-305 b)
-- Berechnung Privatanteile (Fahrzeug, Spesen, Naturalleistungen), Spesenreglement, Lohnausweise – Abrechnung Privatanteile (M2-103/M2-304, WP-Schritte – nur auf Anweisung); Abgleich mit Lohnausweisen (Schnittstelle R1)
-- Berechnung Vorsteuerkorrektur/-kürzung (Schlüssel bei gemischter Verwendung, ausgenommene Umsätze, Subventionen) – Prüfung Vorsteuerkürzungen (M2-401, M2-407 – nur auf Anweisung des WP)
-- Vollständigkeitserklärung mit MWST-Ergänzung – Schriftliche Bestätigung der Verantwortung und der MWST-Risiken durch die Unternehmensleitung (Vorschlag an WP)
+- MWST-Abrechnungen aller Perioden des Geschäftsjahres (inkl. letzte Periode) mit Zahlungsnachweisen – Abstimmung der MWST-Salden mit den Abrechnungen (M2-301, empfohlen); Abstimmung je Periode mit den Konten (M2-303) nur auf Anweisung des WP — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Umsatzabstimmung (Fibu ↔ deklarierte Umsätze) und Vorsteuerabstimmung, ggf. Korrekturabrechnung/Finalisierung – Vorhandensein der Umsatzabstimmung (M2-101); Nachvollzug (M2-302) und Vorsteuerplausibilisierung (M2-401) nur auf Anweisung des WP — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-1.md)
+- Saldoliste und Kontoblätter der MWST-Konten (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer/Zoll) – Saldenabstimmung und Bilanzausweis (M2-301); Saldierung je Quartal (M2-303) nur auf Anweisung des WP — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
+- Korrespondenz mit der ESTV: Einschätzungsmitteilungen, Rückfragen, Rulings, Einsprachen/hängige Verfahren – Nachforderungen und Rückstellungsbedarf als Hinweis an den WP (M2-104, M2-408 nur auf Anweisung) — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-2.md)
+- Kontrollberichte der ESTV (MWST-Revisionen der letzten drei Jahre) und Nachweis der Umsetzung – Prüfungsnachweis zu Feststellungen und Nachforderungen (weiter gehend; M2-104 nur auf Anweisung des WP) — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-1.md)
+- Bewilligungen/Mitteilungen ESTV: Saldosteuersatz, Gruppenbesteuerung, Meldeverfahren (falls zutreffend) – Abrechnungsmethode und Sonderfälle belegen (M2-102 nur auf Anweisung, M2-305) — [MWSTG 37](../chunks/mwstg/mwstg__art-37.md)
+- Nachweis aktueller oder früherer Zugehörigkeit zu einer MWST-Gruppe (Gruppenträger, Ein-/Austrittsdatum) – Anhangangabe Solidarhaftung (DO); Abgleich mit Anhang der Jahresrechnung — [PH 20](../chunks/ph-20-mwst-2016/ph-20-mwst-2016__c011-5.md)
+- Abklärungen zur MWST-Registrierung im Ausland (Direktlieferungen, Reihengeschäfte) – Steuerpflicht im Ausland beurteilen (M2-305; M2-104 nur auf Anweisung) — [PH 20](../chunks/ph-20-mwst-2016/ph-20-mwst-2016__c011-1.md)
+- Leistungskatalog / interne MWST-Richtlinie zur Qualifikation der Mittelzuflüsse – Beurteilung Steuersätze, befreite/ausgenommene Umsätze (M2-305; M2-407 nur auf Anweisung) — [PH 20](../chunks/ph-20-mwst-2016/ph-20-mwst-2016__c004-2.md)
+- Kontenplan der Fibu mit hinterlegten MWST-Codes (Export Stammdaten) – Durchsicht der Kontendefinition (M2-404, nur auf Anweisung des WP) — [HWP BuR S. 150](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0366-s150.md)
+- Liste bzw. Rechnungen ausländischer Dienstleister (Kreditorenjournal) und Bezugsteuerdeklaration – Import von Dienstleistungen (M2-305 f; M2-103/M2-405 nur auf Anweisung des WP) — [HWP BuR S. 150](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0363-s150.md)
+- Veranlagungsverfügungen MWST (Zoll), Rechnungen der Spediteure/Transporteure, Auszüge ZAZ-Konto – Verbuchung der Einfuhrsteuer als Vorsteuer (M2-406, nur auf Anweisung des WP) — [MWSTG 28](../chunks/mwstg/mwstg__art-28.md)
+- Ausfuhrnachweise (Ausfuhrveranlagungen) für steuerbefreite Lieferungen ins Ausland – Nachweis steuerbefreiter Exportumsätze (M2-305 b) — [HWP BuR S. 148](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0354-s148.md)
+- Berechnung Privatanteile (Fahrzeug, Spesen, Naturalleistungen), Spesenreglement, Lohnausweise – Abrechnung Privatanteile (M2-103/M2-304, WP-Schritte – nur auf Anweisung); Abgleich mit Lohnausweisen (Schnittstelle R1) — [SER S. 90](../chunks/ser-2022/ser-2022__anh-d-s090-1.md)
+- Berechnung Vorsteuerkorrektur/-kürzung (Schlüssel bei gemischter Verwendung, ausgenommene Umsätze, Subventionen) – Prüfung Vorsteuerkürzungen (M2-401, M2-407 – nur auf Anweisung des WP) — [MWSTV 128](../chunks/mwstv/mwstv__art-128-t1.md)
+- Vollständigkeitserklärung mit MWST-Ergänzung – Schriftliche Bestätigung der Verantwortung und der MWST-Risiken durch die Unternehmensleitung (Vorschlag an WP) — [SER S. 106](../chunks/ser-2022/ser-2022__anh-e-s106-1.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Liegt die Umsatzabstimmung (Finanzbuchhaltung ↔ deklarierte MWST-Abrechnungen) und die Vorsteuerabstimmung für das Geschäftsjahr bzw. das Vorjahr vor? Wer hat sie erstellt, wie wurden Differenzen begründet und wurde eine Korrekturabrechnung eingereicht?
