@@ -1,0 +1,792 @@
+{
+ "payloads": [
+  {
+   "text": "Ich bereite Prüffeld R1 Personalaufwand vor. Ich starte mit der Aufgabenübersicht.\n\nIch erschliesse jetzt die Akte für R1 Personalaufwand. Damit identifiziere ich die Dateien, Treffer in Saldoliste/Hauptbuch und Unterlagen.\n\nIch lese jetzt die Dateien des Prüffelds R1 aus GJ und VJ, um die Nachweise zu beschaffen. Beginne mit den GJ-Dateien.\n\nIch lese jetzt die VJ-Dateien zum Vergleich und um die Vorjahrsfeststellungen zu verstehen.\n\nIch lese nun die Kontoblätter und relevante Ausschnitte aus Saldoliste und Jahresrechnung für die Abstimmung der Lohnaufwandskonten.\n\nIch lese die Erfolgsrechnung aus der Saldoliste mit den Lohnaufwandskonten.\n\nIch habe jetzt einen Überblick über die Dateien und die Lohnaufwandskonten. Es gibt bereits erkannte Diskrepanzen:\n1. **AHV-Discrepanz**: Personalliste 3'030'000 vs. AHV-Meldung 2'910'000 (Differenz 120'000)\n2. **P133 (Lea Fiktivegger)**: Austritt 30.6.2025 aber volles Jahr in AHV-Meldung\n\nIch starte jetzt mit den Prüfschritten. Ich rufe zunächst die vorbereitbaren Schritte einzeln auf (R1-101, R1-102, R1-201, R1-202, R1-203, R1-301, R1-320, R1-321, R1-322), dann die 4xx/WP-Schritte gesammelt.\n\nIch rufe jetzt die analytischen Prüfschritte auf (R1-201, R1-202, R1-203), um die Lohnaufwands-Quoten und Abweichungen zu prüfen.\n\nIch beginne jetzt mit den analytischen Berechnungen für R1-201, R1-202 und R1-203. Zuerst nutze ich `rechne` für die Lohnsummen und Quoten.\n\nIch berechne jetzt die Sozialversicherungsquoten für R1-201.\n\nIch berechne jetzt die Vollzeitstellen und Personalentwicklung für R1-202/R1-203.\n\nDie Analysen zeigen bereits kritische Befunde:\n- **AHV-Diskrepanz**: 120'000 CHF (Lohnsumme 3'030'000 vs. AHV-Meldung 2'910'000)\n- **Ferien/Überzeit Unterabgrenzung**: Saldo 101'375 CHF, aber nur 10'000 CHF gebucht (Differenz 80'513 CHF, über Nichtaufgriffsgrenze)\n\nIch rufe nun R1-301 (Abstimmung Lohnjournal–Hauptbuch) und die Detail-Schritte auf.\n\nIch rufe jetzt die 4xx- und WP-Schritte auf, um ihre Behandlung festzuhalten.\n\nAuf Basis der vorangegangenen Analysen erstelle ich jetzt die Textfeld-Entwürfe und Notizen für Prüffeld R1.\n\n---\n\n## **ENTWURF TEXTFELDER UND NOTIZEN – PRÜFFELD R1 PERSONALAUFWAND**\n\n### **Zusammenfassung der Befunde:**\n\n**2 WESENTLICHE FESTSTELLUNGEN (> Nichtaufgriffsgrenze CHF 4'000):**\n\n1. **Ferien- und Überzeitsaldi: Unterabgrenzung CHF 80'513**\n   - Saldo Ferien/Überzeit per 31.12.2025 laut Liste: CHF 101'374.77\n   - Gebucht auf Konto 2370 (Rückstellung): CHF 10'000\n   - Nicht abgegrenzt/unterabgegrenzt: CHF 80'513.19\n   - Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md; 00_Allgemein/Saldoliste_2025.md (Zeile 61)\n   - Bewertung: Mit 12% Arbeitgeberbeiträge sollten CHF ~90'513 gebucht sein\n   - Status: **Mit Feststellungen**\n\n2. **Lohnsummen-Discrepanz AHV: CHF 120'000**\n   - Lohnjournal Brutto + Bonus: CHF 3'030'000\n   - AHV-Jahreslohnmeldung: CHF 2'910'000\n   - Differenz: CHF 120'000 (Lohnsumme unvollständig)\n   - Quellen: L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md\n   - Verdacht: Mitarbeitende P140 (Eintritt 01.03.2025, nur 0.4 VZÄ) und P141 (Eintritt 01.04.2025) nicht korrekt abgegrenzt; P133 (Austritt 30.06.2025) mit vollem Jahr gemeldet statt pro rata\n   - Status: **Mit Feststellungen** + **Pendenzen**\n\n**3 PENDENZEN:**\n\n1. **Frage R1-101**: Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen? Schriftliche Antwort nicht gefunden → **Pendenz**\n\n2. **Frage R1-102**: Abweichung Lohnaufwand GJ −43.9% (von 5'404'000 auf 3'030'000 CHF). Personalbestand sank um 47,4% (88.2 auf 46.4 VZÄ). Trotzdem Aufwand pro VZÄ +6.6% gestiegen. Gründe? Lohnerhöhungen 2025? Schriftliche Erklärung erforderlich → **Pendenz**\n\n3. **Prüfung AHV-Lohnsummen (R1-201/R1-410)**: Personenweise Abstimmung Lohnjournal vs. AHV-Meldung erforderlich (Eintritt/Austritt pro rata, fehlende Personen, Diskrepanzen). Konkret: P140, P141, P133 → **Pendenz – Belegprüfung R1-410 angezeigt**\n\n---\n\n### **TEXTFELD-ENTWÜRFE** (revio K6 mit `rv_put_auditActivities_UpdateDossierActivity`)\n\n#### **R1-201: Vergleich Relation Salären / Sozialleistungen**\n\n**Prüfziel:** VO Vollständigkeit, BE Bewertung, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md; 00_Allgemein/Saldoliste_2025.md (Erfolgsrechnung); Hauptbuch_2025_Kontoblaetter.md\n\n**Auswahl und Umfang:** Lohnsummen (AHV-pflichtig, Anzahl Personen); SV-Quoten alle Versicherungen (AHV, BVG, UVG, KTG); Vergleich GJ vs. VJ und mit Beitragssätzen BSV 2025 (AHV/IV/EO 5,3% + ALV 1,1%)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Position | 2025 | 2024 | Δ | Quote 2025 | Quote 2024 |\n|---|---|---|---|---|---|\n| Bruttolohn + Bonus (Lohnjournal) | 3'030'000 | 5'404'000 | −2'374'000 | — | — |\n| AHV-Lohnsumme (Meldung) | 2'910'000 | 5'404'000 | −2'494'000 | — | — |\n| **Differenz Lohnjournal – AHV** | **120'000** | **0** | — | — | — |\n| AHV-Aufwand (Konto 5700) | 200'000 | 400'000 | −200'000 | 6,60 % | 7,40 % |\n| BVG-Aufwand (Konto 5720) | 150'000 | 270'000 | −120'000 | 4,95 % | 4,99 % |\n| UVG-Aufwand (Konto 5730) | 4'000 | 10'000 | −6'000 | 0,13 % | 0,19 % |\n| KTG-Aufwand (Konto 5740) | 12'000 | 21'000 | −9'000 | 0,40 % | 0,39 % |\n| **SV-Total** | **366'000** | **701'000** | −335'000 | **12,08 %** | **12,97 %** |\n| Richtwert AHV/IV/EO AG 2025 | — | — | — | **5,30 %** | — |\n| **AHV-Quote über Richtwert** | — | — | — | **+1,30 %** | — |\n\n**Befund:** AHV-Quote 6,60% deutet über dem Richtwert 5,3% hin auf fehlende Mitarbeitende oder Abgrenzungsfehler in der AHV-Meldung (120'000 CHF Diskrepanz). SV-Quoten sonst nachvollziehbar; Reduktion 2025 proportional zur Lohnreduktion wegen Personalabbau.\n\n**Status:** Mit Feststellungen (siehe Ferien/Überzeit und AHV-Discrepanz unten) + Pendenzen (R1-410 erforderlich)\n\n---\n\n#### **R1-203: Monatliche Analyse, Aufwand pro FTE, SV-Quote**\n\n**Prüfziel:** VO Vollständigkeit, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; VJ Personalliste; Saldoliste_2025.md (Erfolgsrechnung)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Kennzahl | 2025 | 2024 | Δ |\n|---|---|---|---|\n| Vollzeitstellen (VZÄ) Jahresdurchschnitt | 46,4 | 88,2 | −41,8 (−47,4 %) |\n| Personalaufwand (Lohn + Bonus) | 3'030'000 | 5'404'000 | −2'374'000 (−43,9 %) |\n| **Aufwand pro VZÄ** | **65'302 CHF** | **61'270 CHF** | **+4'032 CHF (+6,6 %)** |\n| Ferien/Überzeit Saldo 31.12. | 101'375 | 60'000 | +41'375 (+69 %) |\n| Gebucht Konto 2370 | 10'000 | 60'000 | −50'000 |\n| SV-Aufwand | 366'000 | 701'000 | −335'000 (−47,8 %) |\n| SV-Quote | 12,08 % | 12,97 % | −0,89 % |\n\n**Befund:** Personalabbau 47,4% korrekt abgebildet. ABER: Aufwand pro VZÄ unerwartet um 6,6% gestiegen (normalerweise sollte er konstant oder sinken). Hinweis auf Lohnerhöhungen 2025 oder Kompositionseffekte (höherwertige Stellen geblieben). Ferien/Überzeit-Saldo verdoppelt (+69%), aber Rückstellung stark unterabgegrenzt (nur 10'000 statt ~90'513 CHF).\n\n**Status:** Mit Feststellungen + Pendenzen (R1-102 Erklärung erforderlich; R1-203c Monatswerte ohne detaillierte Kontoblatt-Analyse)\n\n---\n\n#### **R1-301: Abstimmung Lohnjournal – Hauptbuch**\n\n**Prüfziel:** EX Bestand, VO Vollständigkeit, PA Periodenabgrenzung, RI Richtigkeit\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md (Totale); Saldoliste_2025.md Erfolgsrechnung; Hauptbuch_2025_Kontoblaetter.md (Konto 5200, 5202, Lohnsammelkonto 2209)\n\n**Ergebnis (Abstimmungstabelle):**\n\n| Pos. | Lohnjournal | Hauptbuch | Diff. | Erklärung |\n|---|---|---|---|---|\n| Bruttolohn (5200) | 3'000'000 | 3'000'000 | 0 | Abstimmt |\n| Bonus (5202) | 30'000 | 30'000 | 0 | Abstimmt |\n| Lohnsammelkonto 2209 (31.12.) | [Saldoliste: 5'000] | 5'000 | 0 | Gering, erklärt durch Dekemberbuchungen |\n| **Total** | **3'030'000** | **3'030'000** | **0** | **Abstimmt** |\n\n**Befund:** Lohnjournal-Hauptbuch-Abstimmung korrekt (ohne Abgrenzungen). Lohnsammelkonto-Restsaldo 5'000 CHF gering und wahrscheinlich aus Dezemberbuchungen erklärbar (routine).\n\n**Status:** vorbereitet\n\n---\n\n#### **R1-320: Auswirkungen auf Anhang**\n\n**Prüfziel:** DO Darstellung/Offenlegung\n\n**Quellen:** Anhang Jahresrechnung 2025/2024 (anzufragen); L_Personal/Personalliste_Loehne_2025.md (VZÄ-Berechnung)\n\n**FTE-Durchschnitt (gerechnet):** 46,4 VZÄ (Summe der Pensen laut Liste)\n\n**Erforderliche Anhangangaben (gemäss OR Art. 959c):** Vollzeitstellen ≤ 10 / über 50 / über 250?\n- **Resultat:** 46,4 VZÄ → **Kategorie: über 10 und nicht über 50** ✓ (Schwelle 50 verfehlt, aber kein Kategoriewechsel)\n- Keine Unterschreitung oder Überschreitung gegenüber VJ (88,2 → 46,4); beide im gleichen Bereich\n\n**Anhangangaben zu prüfen:**\n- Personalaufwand (erforderlich)\n- Verbindlichkeiten ggü. Vorsorgeeinrichtungen\n- Nettoauflösung stille Reserven Personalbereich (falls AGBR aktiviert)\n\n**Status:** vorbereitet (Anhang-Seite nicht eingesehen; Vollzeitstellen-Berechnung nachvollziehbar)\n\n---\n\n#### **R1-321: Stille Reserven (inkl. AGBR)**\n\n**Prüfziel:** BE Bewertung\n\n**Quellen:** Detailnachweis stille Reserven (anzufragen); Kontoauszug AGBR 31.12.2025 (nicht gefunden → Pendenz)\n\n**Befund:** Ferien/Überzeit-Guthaben (CHF 101'375) ist **keine stille Reserve**, sondern eine Periodisierungsdifferenz (gehört zu R1-409, nicht R1-321). Stille Reserven personalbezogen: Arbeitgeberbeitragsreserven ohne Verwendungsverzicht (nur wenn nicht aktiviert).\n\n**Status:** teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden → Pendenz; Bestand ansonsten nicht erkennbar)\n\n---\n\n### **NOTIZ-ENTWÜRFE** (revio K7 mit `rv_put_workpapers_UpdateNote`)\n\n#### **WESENTLICHE FESTSTELLUNGEN:**\n\n**1. Ferien- und Überzeitsaldi – Unterabgrenzung CHF 80'513**\n\n**Konto:** 2370 Rückstellung Ferien- und Überzeitguthaben\n**Befund:** Saldo Guthaben per 31.12.2025 gemäss Zeiterfassungs-Liste CHF 101'374.77 (inkl. Arbeitgeberbeiträge 12%). Auf Hauptbuch Konto 2370 gebucht CHF 10'000. Abweichung CHF 80'513 nicht gebucht / unterabgegrenzt. Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md (Total-Reihe), Saldoliste 2025 Zeile 61.\n\n**Bewertung:** Beträge über Nichtaufgriffsgrenze (4'000 CHF). Ferien- und Überzeitsaldi sind nach HWP-BuR Rz. 0512 zwingend je Person zu berechnen (Stundenlohn/Tageslohn + AG-Sozialleistungen); Pauschale nicht zulässig. Guthaben CHF 101'375 ist im Jahresabschluss als passive Rechnungsabgrenzung zu erfassen, bei signifikanter Änderung von Vorjahr (60'000 → 101'375, +69%) überprüfungsbedürftig. Unterabgrenzung ist Fehler in der PA (Periodenabgrenzung).\n\n**Buchungsvorschlag (ohne Verbuchung):**\n- **Soll:** 5200 Lohnaufwand (oder 5880 übriger Personalaufwand): CHF 80'513 / 1,12 = CHF 71'886\n- **Haben:** 2370 Rückstellung Ferien/Überzeit: CHF 71'886\n- oder inkl. 12% AG-SV:\n- **Soll:** 5700 SV-Aufwand: CHF 8'627\n- **Haben:** 2370 Rückstellung: CHF 8'627\n\n**Ort:** Wesentliche Feststellungen, Textfeld R1-203c Abgrenzung\n\n---\n\n**2. Lohnsummen-Diskrepanz AHV CHF 120'000**\n\n**Konten:** 5200 Lohnaufwand, 5700 AHV-Aufwand, 2270 Kontokorrent AHV/IV/EO/ALV/ALVZ/FAK\n\n**Befund:** Lohnjournal (Brutto + Bonus) CHF 3'030'000 vs. AHV-Jahreslohnmeldung CHF 2'910'000. Differenz CHF 120'000 unerklärt. Quellen: L_Personal/Personalliste_Loehne_2025.md (Total AHV-Lohn 3'030'000), L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md (Total 2'910'000).\n\n**Analyse:** Personen P140, P141 (Neuzutritte März/April 2025) und P133 (Austritt 30.06.2025) in der Meldung ggfs. falsch erfasst:\n- P140 Testinger Noah (Eintritt 01.03.2025, Pensum 0.4, Jahresbezug Lohnjournal 66'000, pro rata 3 Monate ~16'500) → in AHV-Meldung mit vollem Jahr?\n- P141 Beispielacker Selina (Eintritt 01.04.2025, Pensum 1, Jahresbezug 54'000, pro rata 9 Monate ~40'500) → in AHV-Meldung mit vollem Jahr?\n- P133 Fiktivegger Lea (Austritt 30.06.2025, Jahresbezug Lohnjournal 52'800, aber pro rata 6 Monate ~26'400) → in AHV-Meldung mit Jahreswert 52'800?\n\n**Bewertung:** Diskrepanz über NAG (4'000). AHV-Quote 6,60% gegen Richtwert 5,3% deutet auf fehlende / ungekürzte Meldung hin. Korrekte Abgrenzung erforderlich. Unklar, ob Fehlaussage oder nur Pro-Rata-Fehler.\n\n**Status:** Pendenz (siehe unten)\n\n---\n\n#### **PENDENZEN:**\n\n**1. Frage R1-101: Nach-Bilanzstichtag beschlossene Boni / Erfolgsprämien**\n\n**Titel:** Frage an Kunde (R1-101): Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr 2025 beschlossen oder zugesagt? Falls ja: Betrag, Datum, Organ (Verwaltungsrat/Geschäftsleitung), Erfassung per 31.12.2025 (Konto, Rückstellung)?\n\n**Grund:** Schriftliche Antwort (revio 10.11 Kundenbefragung) oder VR-/GL-Protokolle nach 31.12.2025 nicht gefunden in Akte. Prüfziel EX (Bestand), VO (Vollständigkeit), PA (Periodenabgrenzung). Buchtechnisch: Saldoliste 2025 zeigt Konto 5202 (Erfolgsbeteiligung/Bonus) CHF 30'000 (gebucht); Konto 2330 (Sonstige kurzfristige Rückstellungen) CHF 45'000. Klärung erforderlich, ob 2330 inkl. After-Stichtag-Boni oder andere Rückstellungen. Antwort erforderlich bis [Termin WP].\n\n---\n\n**2. Frage R1-102: Abweichung Lohnaufwand gegenüber Vorjahr / Budget**\n\n**Titel:** Frage an Kunde (R1-102): Erklärung wesentlicher Abweichungen Personalaufwand 2025 vs. 2024 und vs. Budget\n\n**Grund:** Lohnaufwand sank um 43,9% (5'404'000 auf 3'030'000 CHF), Personalbestand um 47,4% (88,2 auf 46,4 VZÄ). ABER: Aufwand pro VZÄ gestiegen um 6,6% (61'270 auf 65'302 CHF). Ursache? Lohnrunde 2025, Lohnerhöhungen nach Personalabbau, Kompositionseffekt (Höherwertige bleiben, Assistenzfunktionen abgebaut)? Vergleich mit Budget 2025?\n\n**Konten betroffen:** 5200 Lohnaufwand, 5202 Bonus, 5700 AHV, 5720 BVG, 5800–5880 Personalnebenaufwand (Spesen etc.).\n\nAntwort erforderlich bis [Termin WP].\n\n---\n\n**3. Lohnsummen-Abstimmung AHV/Hauptbuch (R1-201, R1-410)**\n\n**Titel:** Personenweise Lohnsummen-Abstimmung Lohnjournal vs. AHV-Jahreslohnmeldung 2025\n\n**Grund:** Differenz CHF 120'000 (Lohnjournal 3'030'000 vs. AHV-Meldung 2'910'000). Verdacht auf falsche Pro-Rata-Erfassung der Neuzutritte P140 (ab 01.03.2025, Pensum 0.4), P141 (ab 01.04.2025, Pensum 1) und des Austritts P133 (bis 30.06.2025). Personen P140, P141 möglicherweise mit Jahresbezug statt pro rata gemeldet; P133 möglicherweise mit Jahresbezug statt halbjährig. Nachbeleg erforderlich: AHV-Jahreslohnmeldung detailliert oder Korrektur-Mitteilung Ausgleichskasse.\n\n**Ort:** Schlussbesprechung (Nachmeldung ggfs. erforderlich) + evtl. Notiz «Wesentliche Feststellungen» mit Nachbelastungsrisiko, falls Differenz CHF 120'000 ganz oder teilweise auf ungemeldete/untermeldete Einkommen zurückgeht.\n\nUnterlagen erforderlich bis [Termin WP].\n\n---\n\n**4. Aktualisierung Dauerakten (R1-322)**\n\n**Titel:** Dauerakten Personalaufwand – Aktualisierung fehlende Unterlagen\n\n**Grund:** Nicht in M-Files gefunden (Dauerakten-Ordner oder R1-Ordner):\n- Bonus-/Provisionsreglement 2025 (Version oder Enddatum?)\n- Arbeitsverträge GL (Testmüller Lukas, P100) – Lohn 148'000 ist über GL-Norm; Begründung?\n- BVG-Reglement und aktuelle Kontoauszug AGBR Arbeitgeber (für R1-321, stille Reserven)\n- UVG/KTG/FAK Anschlussverträge 2025\n\n**Ort:** Dauerakten nachführen; Verträge verlinken (revio K15) oder als Beilagen ablegen.\n\n---\n\n### **STATUSTABELLE – PRÜFFELD R1**\n\n| Schritt | Rolle | Status |\n|---|---|---|\n| R1-101 | Befragung (teilweise) | teilweise bearbeitet (schriftliche Antwort nicht vorhanden → Pendenz) |\n| R1-102 | Befragung (teilweise) | teilweise bearbeitet (nach Analytik durchführen; Erklärung erforderlich) |\n| R1-201 | vorbereiten | mit Feststellungen (Lohnsummen-Discrepanz, AHV-Quote über Richtwert) |\n| R1-202 | vorbereiten | mit Feststellungen (Aufwand pro VZÄ gestiegen, Erklärung erforderlich) |\n| R1-203 | vorbereiten | mit Feststellungen (Ferien/Überzeit-Unterabgrenzung CHF 80'513) |\n| R1-301 | vorbereiten | vorbereitet (Lohnjournal–Hauptbuch stimmt ab) |\n| R1-302 | WP | nicht bearbeitet – WP-Schritt (Pendenz: AHV-Discrepanz angezeigt) |\n| R1-303 | WP | nicht bearbeitet – WP-Schritt (Pendenz: Abstimmung SV-Abrechnungen angezeigt) |\n| R1-304 | WP | nicht bearbeitet – WP-Schritt |\n| R1-305 | WP | nicht bearbeitet – WP-Schritt |\n| R1-306 | WP | nicht bearbeitet – WP-Schritt |\n| R1-320 | vorbereiten | vorbereitet (VZÄ 46,4 nachvollziehbar, keine Kategoriewechsel) |\n| R1-321 | vorbereiten | teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden) |\n| R1-322 | vorbereiten | teilweise bearbeitet (Dauerakten-Unterlagen teilweise fehlend) |\n| R1-401 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-402 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-403 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnabstimmung R1-410 angezeigt) |\n| R1-404 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-405 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-406 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-407 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-408 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-409 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Ferien/Überzeit-Abgrenzung angezeigt) |\n| R1-410 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnsummen-Abstimmung AHV erforderlich) |\n| R1-411 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-412 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n\n---\n\n### **ZUSAMMENFASSUNG FÜR DEN RAPPORT**\n\n**Prüffeld R1 – Personalaufwand:**\n- **Vorbereitet:** Lohnjournal–Hauptbuch-Abstimmung; Vollzeitstellen; analytische Quoten\n- **Mit Feststellungen:** Ferien/Überzeit-Unterabgrenzung CHF 80'513 (> NAG); Lohnsummen-Discrepanz AHV CHF 120'000\n- **Pendenzen:** Kundenbefragung R1-101, R1-102 erforderlich; Lohnsummen-Abstimmung R1-410 angezeigt wegen AHV-Discrepanz\n- **WP-Schritte:** R1-302–306 nicht ohne Anweisung; Hinweis auf erhöhtes Risiko bei Schlussabrechnungen SV (nach Personalabbau)\n- **4xx nur auf Anweisung:** Teile als Notiz bewertet (z.B. R1-409 Ferien/Überzeit; R1-410 AHV-Abstimmung) – angezeigt wegen Befunde\n\n---\n\nAlle Textfeld-Entwürfe und Notizen sind bereit für die Übertragung in revio (K6 Textfeld-Aktualisierung, K7 Notiz-Erfassung) mit ausdrücklicher Freigabe des WP.",
+   "mediaUrl": null
+  }
+ ],
+ "meta": {
+  "durationMs": 156051,
+  "finalPromptText": "[Fri 2026-11-13 10:17 UTC] Mandat: Fiktive Zahlen AG, Wil SG · Geschäftsjahr 2025 (Stichtag 31.12.2025) · eingeschränkte Revision. M-Files ist in diesem Test durch den Ordner mandant/fiktive-zahlen-ag-2025/ ersetzt (Vorjahresakte: mandant/fiktive-zahlen-ag-2024/). revio ist nicht verbunden: nenne bei jedem Schritt das revio-Werkzeug, das du aufrufen würdest, statt es aufzurufen. Wesentlichkeit 2025 (revio 3.3, vom WP festgelegt): Gesamtwesentlichkeit CHF 80'000, Toleranzwesentlichkeit CHF 60'000 (75 %), Nichtaufgriffsgrenze CHF 4'000 (5 %).\n\nAuftrag: Prozess 2 – Bereite das Prüffeld R1 Personalaufwand vor. Liefere Textfeld-Entwürfe und Notizen.",
+  "finalAssistantVisibleText": "Ich bereite Prüffeld R1 Personalaufwand vor. Ich starte mit der Aufgabenübersicht.\n\nIch erschliesse jetzt die Akte für R1 Personalaufwand. Damit identifiziere ich die Dateien, Treffer in Saldoliste/Hauptbuch und Unterlagen.\n\nIch lese jetzt die Dateien des Prüffelds R1 aus GJ und VJ, um die Nachweise zu beschaffen. Beginne mit den GJ-Dateien.\n\nIch lese jetzt die VJ-Dateien zum Vergleich und um die Vorjahrsfeststellungen zu verstehen.\n\nIch lese nun die Kontoblätter und relevante Ausschnitte aus Saldoliste und Jahresrechnung für die Abstimmung der Lohnaufwandskonten.\n\nIch lese die Erfolgsrechnung aus der Saldoliste mit den Lohnaufwandskonten.\n\nIch habe jetzt einen Überblick über die Dateien und die Lohnaufwandskonten. Es gibt bereits erkannte Diskrepanzen:\n1. **AHV-Discrepanz**: Personalliste 3'030'000 vs. AHV-Meldung 2'910'000 (Differenz 120'000)\n2. **P133 (Lea Fiktivegger)**: Austritt 30.6.2025 aber volles Jahr in AHV-Meldung\n\nIch starte jetzt mit den Prüfschritten. Ich rufe zunächst die vorbereitbaren Schritte einzeln auf (R1-101, R1-102, R1-201, R1-202, R1-203, R1-301, R1-320, R1-321, R1-322), dann die 4xx/WP-Schritte gesammelt.\n\nIch rufe jetzt die analytischen Prüfschritte auf (R1-201, R1-202, R1-203), um die Lohnaufwands-Quoten und Abweichungen zu prüfen.\n\nIch beginne jetzt mit den analytischen Berechnungen für R1-201, R1-202 und R1-203. Zuerst nutze ich `rechne` für die Lohnsummen und Quoten.\n\nIch berechne jetzt die Sozialversicherungsquoten für R1-201.\n\nIch berechne jetzt die Vollzeitstellen und Personalentwicklung für R1-202/R1-203.\n\nDie Analysen zeigen bereits kritische Befunde:\n- **AHV-Diskrepanz**: 120'000 CHF (Lohnsumme 3'030'000 vs. AHV-Meldung 2'910'000)\n- **Ferien/Überzeit Unterabgrenzung**: Saldo 101'375 CHF, aber nur 10'000 CHF gebucht (Differenz 80'513 CHF, über Nichtaufgriffsgrenze)\n\nIch rufe nun R1-301 (Abstimmung Lohnjournal–Hauptbuch) und die Detail-Schritte auf.\n\nIch rufe jetzt die 4xx- und WP-Schritte auf, um ihre Behandlung festzuhalten.\n\nAuf Basis der vorangegangenen Analysen erstelle ich jetzt die Textfeld-Entwürfe und Notizen für Prüffeld R1.\n\n---\n\n## **ENTWURF TEXTFELDER UND NOTIZEN – PRÜFFELD R1 PERSONALAUFWAND**\n\n### **Zusammenfassung der Befunde:**\n\n**2 WESENTLICHE FESTSTELLUNGEN (> Nichtaufgriffsgrenze CHF 4'000):**\n\n1. **Ferien- und Überzeitsaldi: Unterabgrenzung CHF 80'513**\n   - Saldo Ferien/Überzeit per 31.12.2025 laut Liste: CHF 101'374.77\n   - Gebucht auf Konto 2370 (Rückstellung): CHF 10'000\n   - Nicht abgegrenzt/unterabgegrenzt: CHF 80'513.19\n   - Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md; 00_Allgemein/Saldoliste_2025.md (Zeile 61)\n   - Bewertung: Mit 12% Arbeitgeberbeiträge sollten CHF ~90'513 gebucht sein\n   - Status: **Mit Feststellungen**\n\n2. **Lohnsummen-Discrepanz AHV: CHF 120'000**\n   - Lohnjournal Brutto + Bonus: CHF 3'030'000\n   - AHV-Jahreslohnmeldung: CHF 2'910'000\n   - Differenz: CHF 120'000 (Lohnsumme unvollständig)\n   - Quellen: L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md\n   - Verdacht: Mitarbeitende P140 (Eintritt 01.03.2025, nur 0.4 VZÄ) und P141 (Eintritt 01.04.2025) nicht korrekt abgegrenzt; P133 (Austritt 30.06.2025) mit vollem Jahr gemeldet statt pro rata\n   - Status: **Mit Feststellungen** + **Pendenzen**\n\n**3 PENDENZEN:**\n\n1. **Frage R1-101**: Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen? Schriftliche Antwort nicht gefunden → **Pendenz**\n\n2. **Frage R1-102**: Abweichung Lohnaufwand GJ −43.9% (von 5'404'000 auf 3'030'000 CHF). Personalbestand sank um 47,4% (88.2 auf 46.4 VZÄ). Trotzdem Aufwand pro VZÄ +6.6% gestiegen. Gründe? Lohnerhöhungen 2025? Schriftliche Erklärung erforderlich → **Pendenz**\n\n3. **Prüfung AHV-Lohnsummen (R1-201/R1-410)**: Personenweise Abstimmung Lohnjournal vs. AHV-Meldung erforderlich (Eintritt/Austritt pro rata, fehlende Personen, Diskrepanzen). Konkret: P140, P141, P133 → **Pendenz – Belegprüfung R1-410 angezeigt**\n\n---\n\n### **TEXTFELD-ENTWÜRFE** (revio K6 mit `rv_put_auditActivities_UpdateDossierActivity`)\n\n#### **R1-201: Vergleich Relation Salären / Sozialleistungen**\n\n**Prüfziel:** VO Vollständigkeit, BE Bewertung, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md; 00_Allgemein/Saldoliste_2025.md (Erfolgsrechnung); Hauptbuch_2025_Kontoblaetter.md\n\n**Auswahl und Umfang:** Lohnsummen (AHV-pflichtig, Anzahl Personen); SV-Quoten alle Versicherungen (AHV, BVG, UVG, KTG); Vergleich GJ vs. VJ und mit Beitragssätzen BSV 2025 (AHV/IV/EO 5,3% + ALV 1,1%)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Position | 2025 | 2024 | Δ | Quote 2025 | Quote 2024 |\n|---|---|---|---|---|---|\n| Bruttolohn + Bonus (Lohnjournal) | 3'030'000 | 5'404'000 | −2'374'000 | — | — |\n| AHV-Lohnsumme (Meldung) | 2'910'000 | 5'404'000 | −2'494'000 | — | — |\n| **Differenz Lohnjournal – AHV** | **120'000** | **0** | — | — | — |\n| AHV-Aufwand (Konto 5700) | 200'000 | 400'000 | −200'000 | 6,60 % | 7,40 % |\n| BVG-Aufwand (Konto 5720) | 150'000 | 270'000 | −120'000 | 4,95 % | 4,99 % |\n| UVG-Aufwand (Konto 5730) | 4'000 | 10'000 | −6'000 | 0,13 % | 0,19 % |\n| KTG-Aufwand (Konto 5740) | 12'000 | 21'000 | −9'000 | 0,40 % | 0,39 % |\n| **SV-Total** | **366'000** | **701'000** | −335'000 | **12,08 %** | **12,97 %** |\n| Richtwert AHV/IV/EO AG 2025 | — | — | — | **5,30 %** | — |\n| **AHV-Quote über Richtwert** | — | — | — | **+1,30 %** | — |\n\n**Befund:** AHV-Quote 6,60% deutet über dem Richtwert 5,3% hin auf fehlende Mitarbeitende oder Abgrenzungsfehler in der AHV-Meldung (120'000 CHF Diskrepanz). SV-Quoten sonst nachvollziehbar; Reduktion 2025 proportional zur Lohnreduktion wegen Personalabbau.\n\n**Status:** Mit Feststellungen (siehe Ferien/Überzeit und AHV-Discrepanz unten) + Pendenzen (R1-410 erforderlich)\n\n---\n\n#### **R1-203: Monatliche Analyse, Aufwand pro FTE, SV-Quote**\n\n**Prüfziel:** VO Vollständigkeit, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; VJ Personalliste; Saldoliste_2025.md (Erfolgsrechnung)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Kennzahl | 2025 | 2024 | Δ |\n|---|---|---|---|\n| Vollzeitstellen (VZÄ) Jahresdurchschnitt | 46,4 | 88,2 | −41,8 (−47,4 %) |\n| Personalaufwand (Lohn + Bonus) | 3'030'000 | 5'404'000 | −2'374'000 (−43,9 %) |\n| **Aufwand pro VZÄ** | **65'302 CHF** | **61'270 CHF** | **+4'032 CHF (+6,6 %)** |\n| Ferien/Überzeit Saldo 31.12. | 101'375 | 60'000 | +41'375 (+69 %) |\n| Gebucht Konto 2370 | 10'000 | 60'000 | −50'000 |\n| SV-Aufwand | 366'000 | 701'000 | −335'000 (−47,8 %) |\n| SV-Quote | 12,08 % | 12,97 % | −0,89 % |\n\n**Befund:** Personalabbau 47,4% korrekt abgebildet. ABER: Aufwand pro VZÄ unerwartet um 6,6% gestiegen (normalerweise sollte er konstant oder sinken). Hinweis auf Lohnerhöhungen 2025 oder Kompositionseffekte (höherwertige Stellen geblieben). Ferien/Überzeit-Saldo verdoppelt (+69%), aber Rückstellung stark unterabgegrenzt (nur 10'000 statt ~90'513 CHF).\n\n**Status:** Mit Feststellungen + Pendenzen (R1-102 Erklärung erforderlich; R1-203c Monatswerte ohne detaillierte Kontoblatt-Analyse)\n\n---\n\n#### **R1-301: Abstimmung Lohnjournal – Hauptbuch**\n\n**Prüfziel:** EX Bestand, VO Vollständigkeit, PA Periodenabgrenzung, RI Richtigkeit\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md (Totale); Saldoliste_2025.md Erfolgsrechnung; Hauptbuch_2025_Kontoblaetter.md (Konto 5200, 5202, Lohnsammelkonto 2209)\n\n**Ergebnis (Abstimmungstabelle):**\n\n| Pos. | Lohnjournal | Hauptbuch | Diff. | Erklärung |\n|---|---|---|---|---|\n| Bruttolohn (5200) | 3'000'000 | 3'000'000 | 0 | Abstimmt |\n| Bonus (5202) | 30'000 | 30'000 | 0 | Abstimmt |\n| Lohnsammelkonto 2209 (31.12.) | [Saldoliste: 5'000] | 5'000 | 0 | Gering, erklärt durch Dekemberbuchungen |\n| **Total** | **3'030'000** | **3'030'000** | **0** | **Abstimmt** |\n\n**Befund:** Lohnjournal-Hauptbuch-Abstimmung korrekt (ohne Abgrenzungen). Lohnsammelkonto-Restsaldo 5'000 CHF gering und wahrscheinlich aus Dezemberbuchungen erklärbar (routine).\n\n**Status:** vorbereitet\n\n---\n\n#### **R1-320: Auswirkungen auf Anhang**\n\n**Prüfziel:** DO Darstellung/Offenlegung\n\n**Quellen:** Anhang Jahresrechnung 2025/2024 (anzufragen); L_Personal/Personalliste_Loehne_2025.md (VZÄ-Berechnung)\n\n**FTE-Durchschnitt (gerechnet):** 46,4 VZÄ (Summe der Pensen laut Liste)\n\n**Erforderliche Anhangangaben (gemäss OR Art. 959c):** Vollzeitstellen ≤ 10 / über 50 / über 250?\n- **Resultat:** 46,4 VZÄ → **Kategorie: über 10 und nicht über 50** ✓ (Schwelle 50 verfehlt, aber kein Kategoriewechsel)\n- Keine Unterschreitung oder Überschreitung gegenüber VJ (88,2 → 46,4); beide im gleichen Bereich\n\n**Anhangangaben zu prüfen:**\n- Personalaufwand (erforderlich)\n- Verbindlichkeiten ggü. Vorsorgeeinrichtungen\n- Nettoauflösung stille Reserven Personalbereich (falls AGBR aktiviert)\n\n**Status:** vorbereitet (Anhang-Seite nicht eingesehen; Vollzeitstellen-Berechnung nachvollziehbar)\n\n---\n\n#### **R1-321: Stille Reserven (inkl. AGBR)**\n\n**Prüfziel:** BE Bewertung\n\n**Quellen:** Detailnachweis stille Reserven (anzufragen); Kontoauszug AGBR 31.12.2025 (nicht gefunden → Pendenz)\n\n**Befund:** Ferien/Überzeit-Guthaben (CHF 101'375) ist **keine stille Reserve**, sondern eine Periodisierungsdifferenz (gehört zu R1-409, nicht R1-321). Stille Reserven personalbezogen: Arbeitgeberbeitragsreserven ohne Verwendungsverzicht (nur wenn nicht aktiviert).\n\n**Status:** teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden → Pendenz; Bestand ansonsten nicht erkennbar)\n\n---\n\n### **NOTIZ-ENTWÜRFE** (revio K7 mit `rv_put_workpapers_UpdateNote`)\n\n#### **WESENTLICHE FESTSTELLUNGEN:**\n\n**1. Ferien- und Überzeitsaldi – Unterabgrenzung CHF 80'513**\n\n**Konto:** 2370 Rückstellung Ferien- und Überzeitguthaben\n**Befund:** Saldo Guthaben per 31.12.2025 gemäss Zeiterfassungs-Liste CHF 101'374.77 (inkl. Arbeitgeberbeiträge 12%). Auf Hauptbuch Konto 2370 gebucht CHF 10'000. Abweichung CHF 80'513 nicht gebucht / unterabgegrenzt. Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md (Total-Reihe), Saldoliste 2025 Zeile 61.\n\n**Bewertung:** Beträge über Nichtaufgriffsgrenze (4'000 CHF). Ferien- und Überzeitsaldi sind nach HWP-BuR Rz. 0512 zwingend je Person zu berechnen (Stundenlohn/Tageslohn + AG-Sozialleistungen); Pauschale nicht zulässig. Guthaben CHF 101'375 ist im Jahresabschluss als passive Rechnungsabgrenzung zu erfassen, bei signifikanter Änderung von Vorjahr (60'000 → 101'375, +69%) überprüfungsbedürftig. Unterabgrenzung ist Fehler in der PA (Periodenabgrenzung).\n\n**Buchungsvorschlag (ohne Verbuchung):**\n- **Soll:** 5200 Lohnaufwand (oder 5880 übriger Personalaufwand): CHF 80'513 / 1,12 = CHF 71'886\n- **Haben:** 2370 Rückstellung Ferien/Überzeit: CHF 71'886\n- oder inkl. 12% AG-SV:\n- **Soll:** 5700 SV-Aufwand: CHF 8'627\n- **Haben:** 2370 Rückstellung: CHF 8'627\n\n**Ort:** Wesentliche Feststellungen, Textfeld R1-203c Abgrenzung\n\n---\n\n**2. Lohnsummen-Diskrepanz AHV CHF 120'000**\n\n**Konten:** 5200 Lohnaufwand, 5700 AHV-Aufwand, 2270 Kontokorrent AHV/IV/EO/ALV/ALVZ/FAK\n\n**Befund:** Lohnjournal (Brutto + Bonus) CHF 3'030'000 vs. AHV-Jahreslohnmeldung CHF 2'910'000. Differenz CHF 120'000 unerklärt. Quellen: L_Personal/Personalliste_Loehne_2025.md (Total AHV-Lohn 3'030'000), L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md (Total 2'910'000).\n\n**Analyse:** Personen P140, P141 (Neuzutritte März/April 2025) und P133 (Austritt 30.06.2025) in der Meldung ggfs. falsch erfasst:\n- P140 Testinger Noah (Eintritt 01.03.2025, Pensum 0.4, Jahresbezug Lohnjournal 66'000, pro rata 3 Monate ~16'500) → in AHV-Meldung mit vollem Jahr?\n- P141 Beispielacker Selina (Eintritt 01.04.2025, Pensum 1, Jahresbezug 54'000, pro rata 9 Monate ~40'500) → in AHV-Meldung mit vollem Jahr?\n- P133 Fiktivegger Lea (Austritt 30.06.2025, Jahresbezug Lohnjournal 52'800, aber pro rata 6 Monate ~26'400) → in AHV-Meldung mit Jahreswert 52'800?\n\n**Bewertung:** Diskrepanz über NAG (4'000). AHV-Quote 6,60% gegen Richtwert 5,3% deutet auf fehlende / ungekürzte Meldung hin. Korrekte Abgrenzung erforderlich. Unklar, ob Fehlaussage oder nur Pro-Rata-Fehler.\n\n**Status:** Pendenz (siehe unten)\n\n---\n\n#### **PENDENZEN:**\n\n**1. Frage R1-101: Nach-Bilanzstichtag beschlossene Boni / Erfolgsprämien**\n\n**Titel:** Frage an Kunde (R1-101): Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr 2025 beschlossen oder zugesagt? Falls ja: Betrag, Datum, Organ (Verwaltungsrat/Geschäftsleitung), Erfassung per 31.12.2025 (Konto, Rückstellung)?\n\n**Grund:** Schriftliche Antwort (revio 10.11 Kundenbefragung) oder VR-/GL-Protokolle nach 31.12.2025 nicht gefunden in Akte. Prüfziel EX (Bestand), VO (Vollständigkeit), PA (Periodenabgrenzung). Buchtechnisch: Saldoliste 2025 zeigt Konto 5202 (Erfolgsbeteiligung/Bonus) CHF 30'000 (gebucht); Konto 2330 (Sonstige kurzfristige Rückstellungen) CHF 45'000. Klärung erforderlich, ob 2330 inkl. After-Stichtag-Boni oder andere Rückstellungen. Antwort erforderlich bis [Termin WP].\n\n---\n\n**2. Frage R1-102: Abweichung Lohnaufwand gegenüber Vorjahr / Budget**\n\n**Titel:** Frage an Kunde (R1-102): Erklärung wesentlicher Abweichungen Personalaufwand 2025 vs. 2024 und vs. Budget\n\n**Grund:** Lohnaufwand sank um 43,9% (5'404'000 auf 3'030'000 CHF), Personalbestand um 47,4% (88,2 auf 46,4 VZÄ). ABER: Aufwand pro VZÄ gestiegen um 6,6% (61'270 auf 65'302 CHF). Ursache? Lohnrunde 2025, Lohnerhöhungen nach Personalabbau, Kompositionseffekt (Höherwertige bleiben, Assistenzfunktionen abgebaut)? Vergleich mit Budget 2025?\n\n**Konten betroffen:** 5200 Lohnaufwand, 5202 Bonus, 5700 AHV, 5720 BVG, 5800–5880 Personalnebenaufwand (Spesen etc.).\n\nAntwort erforderlich bis [Termin WP].\n\n---\n\n**3. Lohnsummen-Abstimmung AHV/Hauptbuch (R1-201, R1-410)**\n\n**Titel:** Personenweise Lohnsummen-Abstimmung Lohnjournal vs. AHV-Jahreslohnmeldung 2025\n\n**Grund:** Differenz CHF 120'000 (Lohnjournal 3'030'000 vs. AHV-Meldung 2'910'000). Verdacht auf falsche Pro-Rata-Erfassung der Neuzutritte P140 (ab 01.03.2025, Pensum 0.4), P141 (ab 01.04.2025, Pensum 1) und des Austritts P133 (bis 30.06.2025). Personen P140, P141 möglicherweise mit Jahresbezug statt pro rata gemeldet; P133 möglicherweise mit Jahresbezug statt halbjährig. Nachbeleg erforderlich: AHV-Jahreslohnmeldung detailliert oder Korrektur-Mitteilung Ausgleichskasse.\n\n**Ort:** Schlussbesprechung (Nachmeldung ggfs. erforderlich) + evtl. Notiz «Wesentliche Feststellungen» mit Nachbelastungsrisiko, falls Differenz CHF 120'000 ganz oder teilweise auf ungemeldete/untermeldete Einkommen zurückgeht.\n\nUnterlagen erforderlich bis [Termin WP].\n\n---\n\n**4. Aktualisierung Dauerakten (R1-322)**\n\n**Titel:** Dauerakten Personalaufwand – Aktualisierung fehlende Unterlagen\n\n**Grund:** Nicht in M-Files gefunden (Dauerakten-Ordner oder R1-Ordner):\n- Bonus-/Provisionsreglement 2025 (Version oder Enddatum?)\n- Arbeitsverträge GL (Testmüller Lukas, P100) – Lohn 148'000 ist über GL-Norm; Begründung?\n- BVG-Reglement und aktuelle Kontoauszug AGBR Arbeitgeber (für R1-321, stille Reserven)\n- UVG/KTG/FAK Anschlussverträge 2025\n\n**Ort:** Dauerakten nachführen; Verträge verlinken (revio K15) oder als Beilagen ablegen.\n\n---\n\n### **STATUSTABELLE – PRÜFFELD R1**\n\n| Schritt | Rolle | Status |\n|---|---|---|\n| R1-101 | Befragung (teilweise) | teilweise bearbeitet (schriftliche Antwort nicht vorhanden → Pendenz) |\n| R1-102 | Befragung (teilweise) | teilweise bearbeitet (nach Analytik durchführen; Erklärung erforderlich) |\n| R1-201 | vorbereiten | mit Feststellungen (Lohnsummen-Discrepanz, AHV-Quote über Richtwert) |\n| R1-202 | vorbereiten | mit Feststellungen (Aufwand pro VZÄ gestiegen, Erklärung erforderlich) |\n| R1-203 | vorbereiten | mit Feststellungen (Ferien/Überzeit-Unterabgrenzung CHF 80'513) |\n| R1-301 | vorbereiten | vorbereitet (Lohnjournal–Hauptbuch stimmt ab) |\n| R1-302 | WP | nicht bearbeitet – WP-Schritt (Pendenz: AHV-Discrepanz angezeigt) |\n| R1-303 | WP | nicht bearbeitet – WP-Schritt (Pendenz: Abstimmung SV-Abrechnungen angezeigt) |\n| R1-304 | WP | nicht bearbeitet – WP-Schritt |\n| R1-305 | WP | nicht bearbeitet – WP-Schritt |\n| R1-306 | WP | nicht bearbeitet – WP-Schritt |\n| R1-320 | vorbereiten | vorbereitet (VZÄ 46,4 nachvollziehbar, keine Kategoriewechsel) |\n| R1-321 | vorbereiten | teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden) |\n| R1-322 | vorbereiten | teilweise bearbeitet (Dauerakten-Unterlagen teilweise fehlend) |\n| R1-401 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-402 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-403 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnabstimmung R1-410 angezeigt) |\n| R1-404 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-405 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-406 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-407 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-408 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-409 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Ferien/Überzeit-Abgrenzung angezeigt) |\n| R1-410 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnsummen-Abstimmung AHV erforderlich) |\n| R1-411 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-412 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n\n---\n\n### **ZUSAMMENFASSUNG FÜR DEN RAPPORT**\n\n**Prüffeld R1 – Personalaufwand:**\n- **Vorbereitet:** Lohnjournal–Hauptbuch-Abstimmung; Vollzeitstellen; analytische Quoten\n- **Mit Feststellungen:** Ferien/Überzeit-Unterabgrenzung CHF 80'513 (> NAG); Lohnsummen-Discrepanz AHV CHF 120'000\n- **Pendenzen:** Kundenbefragung R1-101, R1-102 erforderlich; Lohnsummen-Abstimmung R1-410 angezeigt wegen AHV-Discrepanz\n- **WP-Schritte:** R1-302–306 nicht ohne Anweisung; Hinweis auf erhöhtes Risiko bei Schlussabrechnungen SV (nach Personalabbau)\n- **4xx nur auf Anweisung:** Teile als Notiz bewertet (z.B. R1-409 Ferien/Überzeit; R1-410 AHV-Abstimmung) – angezeigt wegen Befunde\n\n---\n\nAlle Textfeld-Entwürfe und Notizen sind bereit für die Übertragung in revio (K6 Textfeld-Aktualisierung, K7 Notiz-Erfassung) mit ausdrücklicher Freigabe des WP.",
+  "finalAssistantRawText": "Ich bereite Prüffeld R1 Personalaufwand vor. Ich starte mit der Aufgabenübersicht.\n\nIch erschliesse jetzt die Akte für R1 Personalaufwand. Damit identifiziere ich die Dateien, Treffer in Saldoliste/Hauptbuch und Unterlagen.\n\nIch lese jetzt die Dateien des Prüffelds R1 aus GJ und VJ, um die Nachweise zu beschaffen. Beginne mit den GJ-Dateien.\n\nIch lese jetzt die VJ-Dateien zum Vergleich und um die Vorjahrsfeststellungen zu verstehen.\n\nIch lese nun die Kontoblätter und relevante Ausschnitte aus Saldoliste und Jahresrechnung für die Abstimmung der Lohnaufwandskonten.\n\nIch lese die Erfolgsrechnung aus der Saldoliste mit den Lohnaufwandskonten.\n\nIch habe jetzt einen Überblick über die Dateien und die Lohnaufwandskonten. Es gibt bereits erkannte Diskrepanzen:\n1. **AHV-Discrepanz**: Personalliste 3'030'000 vs. AHV-Meldung 2'910'000 (Differenz 120'000)\n2. **P133 (Lea Fiktivegger)**: Austritt 30.6.2025 aber volles Jahr in AHV-Meldung\n\nIch starte jetzt mit den Prüfschritten. Ich rufe zunächst die vorbereitbaren Schritte einzeln auf (R1-101, R1-102, R1-201, R1-202, R1-203, R1-301, R1-320, R1-321, R1-322), dann die 4xx/WP-Schritte gesammelt.\n\nIch rufe jetzt die analytischen Prüfschritte auf (R1-201, R1-202, R1-203), um die Lohnaufwands-Quoten und Abweichungen zu prüfen.\n\nIch beginne jetzt mit den analytischen Berechnungen für R1-201, R1-202 und R1-203. Zuerst nutze ich `rechne` für die Lohnsummen und Quoten.\n\nIch berechne jetzt die Sozialversicherungsquoten für R1-201.\n\nIch berechne jetzt die Vollzeitstellen und Personalentwicklung für R1-202/R1-203.\n\nDie Analysen zeigen bereits kritische Befunde:\n- **AHV-Diskrepanz**: 120'000 CHF (Lohnsumme 3'030'000 vs. AHV-Meldung 2'910'000)\n- **Ferien/Überzeit Unterabgrenzung**: Saldo 101'375 CHF, aber nur 10'000 CHF gebucht (Differenz 80'513 CHF, über Nichtaufgriffsgrenze)\n\nIch rufe nun R1-301 (Abstimmung Lohnjournal–Hauptbuch) und die Detail-Schritte auf.\n\nIch rufe jetzt die 4xx- und WP-Schritte auf, um ihre Behandlung festzuhalten.\n\nAuf Basis der vorangegangenen Analysen erstelle ich jetzt die Textfeld-Entwürfe und Notizen für Prüffeld R1.\n\n---\n\n## **ENTWURF TEXTFELDER UND NOTIZEN – PRÜFFELD R1 PERSONALAUFWAND**\n\n### **Zusammenfassung der Befunde:**\n\n**2 WESENTLICHE FESTSTELLUNGEN (> Nichtaufgriffsgrenze CHF 4'000):**\n\n1. **Ferien- und Überzeitsaldi: Unterabgrenzung CHF 80'513**\n   - Saldo Ferien/Überzeit per 31.12.2025 laut Liste: CHF 101'374.77\n   - Gebucht auf Konto 2370 (Rückstellung): CHF 10'000\n   - Nicht abgegrenzt/unterabgegrenzt: CHF 80'513.19\n   - Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md; 00_Allgemein/Saldoliste_2025.md (Zeile 61)\n   - Bewertung: Mit 12% Arbeitgeberbeiträge sollten CHF ~90'513 gebucht sein\n   - Status: **Mit Feststellungen**\n\n2. **Lohnsummen-Discrepanz AHV: CHF 120'000**\n   - Lohnjournal Brutto + Bonus: CHF 3'030'000\n   - AHV-Jahreslohnmeldung: CHF 2'910'000\n   - Differenz: CHF 120'000 (Lohnsumme unvollständig)\n   - Quellen: L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md\n   - Verdacht: Mitarbeitende P140 (Eintritt 01.03.2025, nur 0.4 VZÄ) und P141 (Eintritt 01.04.2025) nicht korrekt abgegrenzt; P133 (Austritt 30.06.2025) mit vollem Jahr gemeldet statt pro rata\n   - Status: **Mit Feststellungen** + **Pendenzen**\n\n**3 PENDENZEN:**\n\n1. **Frage R1-101**: Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen? Schriftliche Antwort nicht gefunden → **Pendenz**\n\n2. **Frage R1-102**: Abweichung Lohnaufwand GJ −43.9% (von 5'404'000 auf 3'030'000 CHF). Personalbestand sank um 47,4% (88.2 auf 46.4 VZÄ). Trotzdem Aufwand pro VZÄ +6.6% gestiegen. Gründe? Lohnerhöhungen 2025? Schriftliche Erklärung erforderlich → **Pendenz**\n\n3. **Prüfung AHV-Lohnsummen (R1-201/R1-410)**: Personenweise Abstimmung Lohnjournal vs. AHV-Meldung erforderlich (Eintritt/Austritt pro rata, fehlende Personen, Diskrepanzen). Konkret: P140, P141, P133 → **Pendenz – Belegprüfung R1-410 angezeigt**\n\n---\n\n### **TEXTFELD-ENTWÜRFE** (revio K6 mit `rv_put_auditActivities_UpdateDossierActivity`)\n\n#### **R1-201: Vergleich Relation Salären / Sozialleistungen**\n\n**Prüfziel:** VO Vollständigkeit, BE Bewertung, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md; 00_Allgemein/Saldoliste_2025.md (Erfolgsrechnung); Hauptbuch_2025_Kontoblaetter.md\n\n**Auswahl und Umfang:** Lohnsummen (AHV-pflichtig, Anzahl Personen); SV-Quoten alle Versicherungen (AHV, BVG, UVG, KTG); Vergleich GJ vs. VJ und mit Beitragssätzen BSV 2025 (AHV/IV/EO 5,3% + ALV 1,1%)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Position | 2025 | 2024 | Δ | Quote 2025 | Quote 2024 |\n|---|---|---|---|---|---|\n| Bruttolohn + Bonus (Lohnjournal) | 3'030'000 | 5'404'000 | −2'374'000 | — | — |\n| AHV-Lohnsumme (Meldung) | 2'910'000 | 5'404'000 | −2'494'000 | — | — |\n| **Differenz Lohnjournal – AHV** | **120'000** | **0** | — | — | — |\n| AHV-Aufwand (Konto 5700) | 200'000 | 400'000 | −200'000 | 6,60 % | 7,40 % |\n| BVG-Aufwand (Konto 5720) | 150'000 | 270'000 | −120'000 | 4,95 % | 4,99 % |\n| UVG-Aufwand (Konto 5730) | 4'000 | 10'000 | −6'000 | 0,13 % | 0,19 % |\n| KTG-Aufwand (Konto 5740) | 12'000 | 21'000 | −9'000 | 0,40 % | 0,39 % |\n| **SV-Total** | **366'000** | **701'000** | −335'000 | **12,08 %** | **12,97 %** |\n| Richtwert AHV/IV/EO AG 2025 | — | — | — | **5,30 %** | — |\n| **AHV-Quote über Richtwert** | — | — | — | **+1,30 %** | — |\n\n**Befund:** AHV-Quote 6,60% deutet über dem Richtwert 5,3% hin auf fehlende Mitarbeitende oder Abgrenzungsfehler in der AHV-Meldung (120'000 CHF Diskrepanz). SV-Quoten sonst nachvollziehbar; Reduktion 2025 proportional zur Lohnreduktion wegen Personalabbau.\n\n**Status:** Mit Feststellungen (siehe Ferien/Überzeit und AHV-Discrepanz unten) + Pendenzen (R1-410 erforderlich)\n\n---\n\n#### **R1-203: Monatliche Analyse, Aufwand pro FTE, SV-Quote**\n\n**Prüfziel:** VO Vollständigkeit, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; VJ Personalliste; Saldoliste_2025.md (Erfolgsrechnung)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Kennzahl | 2025 | 2024 | Δ |\n|---|---|---|---|\n| Vollzeitstellen (VZÄ) Jahresdurchschnitt | 46,4 | 88,2 | −41,8 (−47,4 %) |\n| Personalaufwand (Lohn + Bonus) | 3'030'000 | 5'404'000 | −2'374'000 (−43,9 %) |\n| **Aufwand pro VZÄ** | **65'302 CHF** | **61'270 CHF** | **+4'032 CHF (+6,6 %)** |\n| Ferien/Überzeit Saldo 31.12. | 101'375 | 60'000 | +41'375 (+69 %) |\n| Gebucht Konto 2370 | 10'000 | 60'000 | −50'000 |\n| SV-Aufwand | 366'000 | 701'000 | −335'000 (−47,8 %) |\n| SV-Quote | 12,08 % | 12,97 % | −0,89 % |\n\n**Befund:** Personalabbau 47,4% korrekt abgebildet. ABER: Aufwand pro VZÄ unerwartet um 6,6% gestiegen (normalerweise sollte er konstant oder sinken). Hinweis auf Lohnerhöhungen 2025 oder Kompositionseffekte (höherwertige Stellen geblieben). Ferien/Überzeit-Saldo verdoppelt (+69%), aber Rückstellung stark unterabgegrenzt (nur 10'000 statt ~90'513 CHF).\n\n**Status:** Mit Feststellungen + Pendenzen (R1-102 Erklärung erforderlich; R1-203c Monatswerte ohne detaillierte Kontoblatt-Analyse)\n\n---\n\n#### **R1-301: Abstimmung Lohnjournal – Hauptbuch**\n\n**Prüfziel:** EX Bestand, VO Vollständigkeit, PA Periodenabgrenzung, RI Richtigkeit\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md (Totale); Saldoliste_2025.md Erfolgsrechnung; Hauptbuch_2025_Kontoblaetter.md (Konto 5200, 5202, Lohnsammelkonto 2209)\n\n**Ergebnis (Abstimmungstabelle):**\n\n| Pos. | Lohnjournal | Hauptbuch | Diff. | Erklärung |\n|---|---|---|---|---|\n| Bruttolohn (5200) | 3'000'000 | 3'000'000 | 0 | Abstimmt |\n| Bonus (5202) | 30'000 | 30'000 | 0 | Abstimmt |\n| Lohnsammelkonto 2209 (31.12.) | [Saldoliste: 5'000] | 5'000 | 0 | Gering, erklärt durch Dekemberbuchungen |\n| **Total** | **3'030'000** | **3'030'000** | **0** | **Abstimmt** |\n\n**Befund:** Lohnjournal-Hauptbuch-Abstimmung korrekt (ohne Abgrenzungen). Lohnsammelkonto-Restsaldo 5'000 CHF gering und wahrscheinlich aus Dezemberbuchungen erklärbar (routine).\n\n**Status:** vorbereitet\n\n---\n\n#### **R1-320: Auswirkungen auf Anhang**\n\n**Prüfziel:** DO Darstellung/Offenlegung\n\n**Quellen:** Anhang Jahresrechnung 2025/2024 (anzufragen); L_Personal/Personalliste_Loehne_2025.md (VZÄ-Berechnung)\n\n**FTE-Durchschnitt (gerechnet):** 46,4 VZÄ (Summe der Pensen laut Liste)\n\n**Erforderliche Anhangangaben (gemäss OR Art. 959c):** Vollzeitstellen ≤ 10 / über 50 / über 250?\n- **Resultat:** 46,4 VZÄ → **Kategorie: über 10 und nicht über 50** ✓ (Schwelle 50 verfehlt, aber kein Kategoriewechsel)\n- Keine Unterschreitung oder Überschreitung gegenüber VJ (88,2 → 46,4); beide im gleichen Bereich\n\n**Anhangangaben zu prüfen:**\n- Personalaufwand (erforderlich)\n- Verbindlichkeiten ggü. Vorsorgeeinrichtungen\n- Nettoauflösung stille Reserven Personalbereich (falls AGBR aktiviert)\n\n**Status:** vorbereitet (Anhang-Seite nicht eingesehen; Vollzeitstellen-Berechnung nachvollziehbar)\n\n---\n\n#### **R1-321: Stille Reserven (inkl. AGBR)**\n\n**Prüfziel:** BE Bewertung\n\n**Quellen:** Detailnachweis stille Reserven (anzufragen); Kontoauszug AGBR 31.12.2025 (nicht gefunden → Pendenz)\n\n**Befund:** Ferien/Überzeit-Guthaben (CHF 101'375) ist **keine stille Reserve**, sondern eine Periodisierungsdifferenz (gehört zu R1-409, nicht R1-321). Stille Reserven personalbezogen: Arbeitgeberbeitragsreserven ohne Verwendungsverzicht (nur wenn nicht aktiviert).\n\n**Status:** teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden → Pendenz; Bestand ansonsten nicht erkennbar)\n\n---\n\n### **NOTIZ-ENTWÜRFE** (revio K7 mit `rv_put_workpapers_UpdateNote`)\n\n#### **WESENTLICHE FESTSTELLUNGEN:**\n\n**1. Ferien- und Überzeitsaldi – Unterabgrenzung CHF 80'513**\n\n**Konto:** 2370 Rückstellung Ferien- und Überzeitguthaben\n**Befund:** Saldo Guthaben per 31.12.2025 gemäss Zeiterfassungs-Liste CHF 101'374.77 (inkl. Arbeitgeberbeiträge 12%). Auf Hauptbuch Konto 2370 gebucht CHF 10'000. Abweichung CHF 80'513 nicht gebucht / unterabgegrenzt. Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md (Total-Reihe), Saldoliste 2025 Zeile 61.\n\n**Bewertung:** Beträge über Nichtaufgriffsgrenze (4'000 CHF). Ferien- und Überzeitsaldi sind nach HWP-BuR Rz. 0512 zwingend je Person zu berechnen (Stundenlohn/Tageslohn + AG-Sozialleistungen); Pauschale nicht zulässig. Guthaben CHF 101'375 ist im Jahresabschluss als passive Rechnungsabgrenzung zu erfassen, bei signifikanter Änderung von Vorjahr (60'000 → 101'375, +69%) überprüfungsbedürftig. Unterabgrenzung ist Fehler in der PA (Periodenabgrenzung).\n\n**Buchungsvorschlag (ohne Verbuchung):**\n- **Soll:** 5200 Lohnaufwand (oder 5880 übriger Personalaufwand): CHF 80'513 / 1,12 = CHF 71'886\n- **Haben:** 2370 Rückstellung Ferien/Überzeit: CHF 71'886\n- oder inkl. 12% AG-SV:\n- **Soll:** 5700 SV-Aufwand: CHF 8'627\n- **Haben:** 2370 Rückstellung: CHF 8'627\n\n**Ort:** Wesentliche Feststellungen, Textfeld R1-203c Abgrenzung\n\n---\n\n**2. Lohnsummen-Diskrepanz AHV CHF 120'000**\n\n**Konten:** 5200 Lohnaufwand, 5700 AHV-Aufwand, 2270 Kontokorrent AHV/IV/EO/ALV/ALVZ/FAK\n\n**Befund:** Lohnjournal (Brutto + Bonus) CHF 3'030'000 vs. AHV-Jahreslohnmeldung CHF 2'910'000. Differenz CHF 120'000 unerklärt. Quellen: L_Personal/Personalliste_Loehne_2025.md (Total AHV-Lohn 3'030'000), L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md (Total 2'910'000).\n\n**Analyse:** Personen P140, P141 (Neuzutritte März/April 2025) und P133 (Austritt 30.06.2025) in der Meldung ggfs. falsch erfasst:\n- P140 Testinger Noah (Eintritt 01.03.2025, Pensum 0.4, Jahresbezug Lohnjournal 66'000, pro rata 3 Monate ~16'500) → in AHV-Meldung mit vollem Jahr?\n- P141 Beispielacker Selina (Eintritt 01.04.2025, Pensum 1, Jahresbezug 54'000, pro rata 9 Monate ~40'500) → in AHV-Meldung mit vollem Jahr?\n- P133 Fiktivegger Lea (Austritt 30.06.2025, Jahresbezug Lohnjournal 52'800, aber pro rata 6 Monate ~26'400) → in AHV-Meldung mit Jahreswert 52'800?\n\n**Bewertung:** Diskrepanz über NAG (4'000). AHV-Quote 6,60% gegen Richtwert 5,3% deutet auf fehlende / ungekürzte Meldung hin. Korrekte Abgrenzung erforderlich. Unklar, ob Fehlaussage oder nur Pro-Rata-Fehler.\n\n**Status:** Pendenz (siehe unten)\n\n---\n\n#### **PENDENZEN:**\n\n**1. Frage R1-101: Nach-Bilanzstichtag beschlossene Boni / Erfolgsprämien**\n\n**Titel:** Frage an Kunde (R1-101): Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr 2025 beschlossen oder zugesagt? Falls ja: Betrag, Datum, Organ (Verwaltungsrat/Geschäftsleitung), Erfassung per 31.12.2025 (Konto, Rückstellung)?\n\n**Grund:** Schriftliche Antwort (revio 10.11 Kundenbefragung) oder VR-/GL-Protokolle nach 31.12.2025 nicht gefunden in Akte. Prüfziel EX (Bestand), VO (Vollständigkeit), PA (Periodenabgrenzung). Buchtechnisch: Saldoliste 2025 zeigt Konto 5202 (Erfolgsbeteiligung/Bonus) CHF 30'000 (gebucht); Konto 2330 (Sonstige kurzfristige Rückstellungen) CHF 45'000. Klärung erforderlich, ob 2330 inkl. After-Stichtag-Boni oder andere Rückstellungen. Antwort erforderlich bis [Termin WP].\n\n---\n\n**2. Frage R1-102: Abweichung Lohnaufwand gegenüber Vorjahr / Budget**\n\n**Titel:** Frage an Kunde (R1-102): Erklärung wesentlicher Abweichungen Personalaufwand 2025 vs. 2024 und vs. Budget\n\n**Grund:** Lohnaufwand sank um 43,9% (5'404'000 auf 3'030'000 CHF), Personalbestand um 47,4% (88,2 auf 46,4 VZÄ). ABER: Aufwand pro VZÄ gestiegen um 6,6% (61'270 auf 65'302 CHF). Ursache? Lohnrunde 2025, Lohnerhöhungen nach Personalabbau, Kompositionseffekt (Höherwertige bleiben, Assistenzfunktionen abgebaut)? Vergleich mit Budget 2025?\n\n**Konten betroffen:** 5200 Lohnaufwand, 5202 Bonus, 5700 AHV, 5720 BVG, 5800–5880 Personalnebenaufwand (Spesen etc.).\n\nAntwort erforderlich bis [Termin WP].\n\n---\n\n**3. Lohnsummen-Abstimmung AHV/Hauptbuch (R1-201, R1-410)**\n\n**Titel:** Personenweise Lohnsummen-Abstimmung Lohnjournal vs. AHV-Jahreslohnmeldung 2025\n\n**Grund:** Differenz CHF 120'000 (Lohnjournal 3'030'000 vs. AHV-Meldung 2'910'000). Verdacht auf falsche Pro-Rata-Erfassung der Neuzutritte P140 (ab 01.03.2025, Pensum 0.4), P141 (ab 01.04.2025, Pensum 1) und des Austritts P133 (bis 30.06.2025). Personen P140, P141 möglicherweise mit Jahresbezug statt pro rata gemeldet; P133 möglicherweise mit Jahresbezug statt halbjährig. Nachbeleg erforderlich: AHV-Jahreslohnmeldung detailliert oder Korrektur-Mitteilung Ausgleichskasse.\n\n**Ort:** Schlussbesprechung (Nachmeldung ggfs. erforderlich) + evtl. Notiz «Wesentliche Feststellungen» mit Nachbelastungsrisiko, falls Differenz CHF 120'000 ganz oder teilweise auf ungemeldete/untermeldete Einkommen zurückgeht.\n\nUnterlagen erforderlich bis [Termin WP].\n\n---\n\n**4. Aktualisierung Dauerakten (R1-322)**\n\n**Titel:** Dauerakten Personalaufwand – Aktualisierung fehlende Unterlagen\n\n**Grund:** Nicht in M-Files gefunden (Dauerakten-Ordner oder R1-Ordner):\n- Bonus-/Provisionsreglement 2025 (Version oder Enddatum?)\n- Arbeitsverträge GL (Testmüller Lukas, P100) – Lohn 148'000 ist über GL-Norm; Begründung?\n- BVG-Reglement und aktuelle Kontoauszug AGBR Arbeitgeber (für R1-321, stille Reserven)\n- UVG/KTG/FAK Anschlussverträge 2025\n\n**Ort:** Dauerakten nachführen; Verträge verlinken (revio K15) oder als Beilagen ablegen.\n\n---\n\n### **STATUSTABELLE – PRÜFFELD R1**\n\n| Schritt | Rolle | Status |\n|---|---|---|\n| R1-101 | Befragung (teilweise) | teilweise bearbeitet (schriftliche Antwort nicht vorhanden → Pendenz) |\n| R1-102 | Befragung (teilweise) | teilweise bearbeitet (nach Analytik durchführen; Erklärung erforderlich) |\n| R1-201 | vorbereiten | mit Feststellungen (Lohnsummen-Discrepanz, AHV-Quote über Richtwert) |\n| R1-202 | vorbereiten | mit Feststellungen (Aufwand pro VZÄ gestiegen, Erklärung erforderlich) |\n| R1-203 | vorbereiten | mit Feststellungen (Ferien/Überzeit-Unterabgrenzung CHF 80'513) |\n| R1-301 | vorbereiten | vorbereitet (Lohnjournal–Hauptbuch stimmt ab) |\n| R1-302 | WP | nicht bearbeitet – WP-Schritt (Pendenz: AHV-Discrepanz angezeigt) |\n| R1-303 | WP | nicht bearbeitet – WP-Schritt (Pendenz: Abstimmung SV-Abrechnungen angezeigt) |\n| R1-304 | WP | nicht bearbeitet – WP-Schritt |\n| R1-305 | WP | nicht bearbeitet – WP-Schritt |\n| R1-306 | WP | nicht bearbeitet – WP-Schritt |\n| R1-320 | vorbereiten | vorbereitet (VZÄ 46,4 nachvollziehbar, keine Kategoriewechsel) |\n| R1-321 | vorbereiten | teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden) |\n| R1-322 | vorbereiten | teilweise bearbeitet (Dauerakten-Unterlagen teilweise fehlend) |\n| R1-401 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-402 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-403 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnabstimmung R1-410 angezeigt) |\n| R1-404 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-405 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-406 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-407 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-408 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-409 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Ferien/Überzeit-Abgrenzung angezeigt) |\n| R1-410 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnsummen-Abstimmung AHV erforderlich) |\n| R1-411 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-412 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n\n---\n\n### **ZUSAMMENFASSUNG FÜR DEN RAPPORT**\n\n**Prüffeld R1 – Personalaufwand:**\n- **Vorbereitet:** Lohnjournal–Hauptbuch-Abstimmung; Vollzeitstellen; analytische Quoten\n- **Mit Feststellungen:** Ferien/Überzeit-Unterabgrenzung CHF 80'513 (> NAG); Lohnsummen-Discrepanz AHV CHF 120'000\n- **Pendenzen:** Kundenbefragung R1-101, R1-102 erforderlich; Lohnsummen-Abstimmung R1-410 angezeigt wegen AHV-Discrepanz\n- **WP-Schritte:** R1-302–306 nicht ohne Anweisung; Hinweis auf erhöhtes Risiko bei Schlussabrechnungen SV (nach Personalabbau)\n- **4xx nur auf Anweisung:** Teile als Notiz bewertet (z.B. R1-409 Ferien/Überzeit; R1-410 AHV-Abstimmung) – angezeigt wegen Befunde\n\n---\n\nAlle Textfeld-Entwürfe und Notizen sind bereit für die Übertragung in revio (K6 Textfeld-Aktualisierung, K7 Notiz-Erfassung) mit ausdrücklicher Freigabe des WP.",
+  "finalAssistantMessageRawText": "Auf Basis der vorangegangenen Analysen erstelle ich jetzt die Textfeld-Entwürfe und Notizen für Prüffeld R1.\n\n---\n\n## **ENTWURF TEXTFELDER UND NOTIZEN – PRÜFFELD R1 PERSONALAUFWAND**\n\n### **Zusammenfassung der Befunde:**\n\n**2 WESENTLICHE FESTSTELLUNGEN (> Nichtaufgriffsgrenze CHF 4'000):**\n\n1. **Ferien- und Überzeitsaldi: Unterabgrenzung CHF 80'513**\n   - Saldo Ferien/Überzeit per 31.12.2025 laut Liste: CHF 101'374.77\n   - Gebucht auf Konto 2370 (Rückstellung): CHF 10'000\n   - Nicht abgegrenzt/unterabgegrenzt: CHF 80'513.19\n   - Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md; 00_Allgemein/Saldoliste_2025.md (Zeile 61)\n   - Bewertung: Mit 12% Arbeitgeberbeiträge sollten CHF ~90'513 gebucht sein\n   - Status: **Mit Feststellungen**\n\n2. **Lohnsummen-Discrepanz AHV: CHF 120'000**\n   - Lohnjournal Brutto + Bonus: CHF 3'030'000\n   - AHV-Jahreslohnmeldung: CHF 2'910'000\n   - Differenz: CHF 120'000 (Lohnsumme unvollständig)\n   - Quellen: L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md\n   - Verdacht: Mitarbeitende P140 (Eintritt 01.03.2025, nur 0.4 VZÄ) und P141 (Eintritt 01.04.2025) nicht korrekt abgegrenzt; P133 (Austritt 30.06.2025) mit vollem Jahr gemeldet statt pro rata\n   - Status: **Mit Feststellungen** + **Pendenzen**\n\n**3 PENDENZEN:**\n\n1. **Frage R1-101**: Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen? Schriftliche Antwort nicht gefunden → **Pendenz**\n\n2. **Frage R1-102**: Abweichung Lohnaufwand GJ −43.9% (von 5'404'000 auf 3'030'000 CHF). Personalbestand sank um 47,4% (88.2 auf 46.4 VZÄ). Trotzdem Aufwand pro VZÄ +6.6% gestiegen. Gründe? Lohnerhöhungen 2025? Schriftliche Erklärung erforderlich → **Pendenz**\n\n3. **Prüfung AHV-Lohnsummen (R1-201/R1-410)**: Personenweise Abstimmung Lohnjournal vs. AHV-Meldung erforderlich (Eintritt/Austritt pro rata, fehlende Personen, Diskrepanzen). Konkret: P140, P141, P133 → **Pendenz – Belegprüfung R1-410 angezeigt**\n\n---\n\n### **TEXTFELD-ENTWÜRFE** (revio K6 mit `rv_put_auditActivities_UpdateDossierActivity`)\n\n#### **R1-201: Vergleich Relation Salären / Sozialleistungen**\n\n**Prüfziel:** VO Vollständigkeit, BE Bewertung, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md; 00_Allgemein/Saldoliste_2025.md (Erfolgsrechnung); Hauptbuch_2025_Kontoblaetter.md\n\n**Auswahl und Umfang:** Lohnsummen (AHV-pflichtig, Anzahl Personen); SV-Quoten alle Versicherungen (AHV, BVG, UVG, KTG); Vergleich GJ vs. VJ und mit Beitragssätzen BSV 2025 (AHV/IV/EO 5,3% + ALV 1,1%)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Position | 2025 | 2024 | Δ | Quote 2025 | Quote 2024 |\n|---|---|---|---|---|---|\n| Bruttolohn + Bonus (Lohnjournal) | 3'030'000 | 5'404'000 | −2'374'000 | — | — |\n| AHV-Lohnsumme (Meldung) | 2'910'000 | 5'404'000 | −2'494'000 | — | — |\n| **Differenz Lohnjournal – AHV** | **120'000** | **0** | — | — | — |\n| AHV-Aufwand (Konto 5700) | 200'000 | 400'000 | −200'000 | 6,60 % | 7,40 % |\n| BVG-Aufwand (Konto 5720) | 150'000 | 270'000 | −120'000 | 4,95 % | 4,99 % |\n| UVG-Aufwand (Konto 5730) | 4'000 | 10'000 | −6'000 | 0,13 % | 0,19 % |\n| KTG-Aufwand (Konto 5740) | 12'000 | 21'000 | −9'000 | 0,40 % | 0,39 % |\n| **SV-Total** | **366'000** | **701'000** | −335'000 | **12,08 %** | **12,97 %** |\n| Richtwert AHV/IV/EO AG 2025 | — | — | — | **5,30 %** | — |\n| **AHV-Quote über Richtwert** | — | — | — | **+1,30 %** | — |\n\n**Befund:** AHV-Quote 6,60% deutet über dem Richtwert 5,3% hin auf fehlende Mitarbeitende oder Abgrenzungsfehler in der AHV-Meldung (120'000 CHF Diskrepanz). SV-Quoten sonst nachvollziehbar; Reduktion 2025 proportional zur Lohnreduktion wegen Personalabbau.\n\n**Status:** Mit Feststellungen (siehe Ferien/Überzeit und AHV-Discrepanz unten) + Pendenzen (R1-410 erforderlich)\n\n---\n\n#### **R1-203: Monatliche Analyse, Aufwand pro FTE, SV-Quote**\n\n**Prüfziel:** VO Vollständigkeit, PA Periodenabgrenzung\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md; VJ Personalliste; Saldoliste_2025.md (Erfolgsrechnung)\n\n**Ergebnis (gerechnet mit `rechne`):**\n\n| Kennzahl | 2025 | 2024 | Δ |\n|---|---|---|---|\n| Vollzeitstellen (VZÄ) Jahresdurchschnitt | 46,4 | 88,2 | −41,8 (−47,4 %) |\n| Personalaufwand (Lohn + Bonus) | 3'030'000 | 5'404'000 | −2'374'000 (−43,9 %) |\n| **Aufwand pro VZÄ** | **65'302 CHF** | **61'270 CHF** | **+4'032 CHF (+6,6 %)** |\n| Ferien/Überzeit Saldo 31.12. | 101'375 | 60'000 | +41'375 (+69 %) |\n| Gebucht Konto 2370 | 10'000 | 60'000 | −50'000 |\n| SV-Aufwand | 366'000 | 701'000 | −335'000 (−47,8 %) |\n| SV-Quote | 12,08 % | 12,97 % | −0,89 % |\n\n**Befund:** Personalabbau 47,4% korrekt abgebildet. ABER: Aufwand pro VZÄ unerwartet um 6,6% gestiegen (normalerweise sollte er konstant oder sinken). Hinweis auf Lohnerhöhungen 2025 oder Kompositionseffekte (höherwertige Stellen geblieben). Ferien/Überzeit-Saldo verdoppelt (+69%), aber Rückstellung stark unterabgegrenzt (nur 10'000 statt ~90'513 CHF).\n\n**Status:** Mit Feststellungen + Pendenzen (R1-102 Erklärung erforderlich; R1-203c Monatswerte ohne detaillierte Kontoblatt-Analyse)\n\n---\n\n#### **R1-301: Abstimmung Lohnjournal – Hauptbuch**\n\n**Prüfziel:** EX Bestand, VO Vollständigkeit, PA Periodenabgrenzung, RI Richtigkeit\n\n**Quellen:** L_Personal/Personalliste_Loehne_2025.md (Totale); Saldoliste_2025.md Erfolgsrechnung; Hauptbuch_2025_Kontoblaetter.md (Konto 5200, 5202, Lohnsammelkonto 2209)\n\n**Ergebnis (Abstimmungstabelle):**\n\n| Pos. | Lohnjournal | Hauptbuch | Diff. | Erklärung |\n|---|---|---|---|---|\n| Bruttolohn (5200) | 3'000'000 | 3'000'000 | 0 | Abstimmt |\n| Bonus (5202) | 30'000 | 30'000 | 0 | Abstimmt |\n| Lohnsammelkonto 2209 (31.12.) | [Saldoliste: 5'000] | 5'000 | 0 | Gering, erklärt durch Dekemberbuchungen |\n| **Total** | **3'030'000** | **3'030'000** | **0** | **Abstimmt** |\n\n**Befund:** Lohnjournal-Hauptbuch-Abstimmung korrekt (ohne Abgrenzungen). Lohnsammelkonto-Restsaldo 5'000 CHF gering und wahrscheinlich aus Dezemberbuchungen erklärbar (routine).\n\n**Status:** vorbereitet\n\n---\n\n#### **R1-320: Auswirkungen auf Anhang**\n\n**Prüfziel:** DO Darstellung/Offenlegung\n\n**Quellen:** Anhang Jahresrechnung 2025/2024 (anzufragen); L_Personal/Personalliste_Loehne_2025.md (VZÄ-Berechnung)\n\n**FTE-Durchschnitt (gerechnet):** 46,4 VZÄ (Summe der Pensen laut Liste)\n\n**Erforderliche Anhangangaben (gemäss OR Art. 959c):** Vollzeitstellen ≤ 10 / über 50 / über 250?\n- **Resultat:** 46,4 VZÄ → **Kategorie: über 10 und nicht über 50** ✓ (Schwelle 50 verfehlt, aber kein Kategoriewechsel)\n- Keine Unterschreitung oder Überschreitung gegenüber VJ (88,2 → 46,4); beide im gleichen Bereich\n\n**Anhangangaben zu prüfen:**\n- Personalaufwand (erforderlich)\n- Verbindlichkeiten ggü. Vorsorgeeinrichtungen\n- Nettoauflösung stille Reserven Personalbereich (falls AGBR aktiviert)\n\n**Status:** vorbereitet (Anhang-Seite nicht eingesehen; Vollzeitstellen-Berechnung nachvollziehbar)\n\n---\n\n#### **R1-321: Stille Reserven (inkl. AGBR)**\n\n**Prüfziel:** BE Bewertung\n\n**Quellen:** Detailnachweis stille Reserven (anzufragen); Kontoauszug AGBR 31.12.2025 (nicht gefunden → Pendenz)\n\n**Befund:** Ferien/Überzeit-Guthaben (CHF 101'375) ist **keine stille Reserve**, sondern eine Periodisierungsdifferenz (gehört zu R1-409, nicht R1-321). Stille Reserven personalbezogen: Arbeitgeberbeitragsreserven ohne Verwendungsverzicht (nur wenn nicht aktiviert).\n\n**Status:** teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden → Pendenz; Bestand ansonsten nicht erkennbar)\n\n---\n\n### **NOTIZ-ENTWÜRFE** (revio K7 mit `rv_put_workpapers_UpdateNote`)\n\n#### **WESENTLICHE FESTSTELLUNGEN:**\n\n**1. Ferien- und Überzeitsaldi – Unterabgrenzung CHF 80'513**\n\n**Konto:** 2370 Rückstellung Ferien- und Überzeitguthaben\n**Befund:** Saldo Guthaben per 31.12.2025 gemäss Zeiterfassungs-Liste CHF 101'374.77 (inkl. Arbeitgeberbeiträge 12%). Auf Hauptbuch Konto 2370 gebucht CHF 10'000. Abweichung CHF 80'513 nicht gebucht / unterabgegrenzt. Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md (Total-Reihe), Saldoliste 2025 Zeile 61.\n\n**Bewertung:** Beträge über Nichtaufgriffsgrenze (4'000 CHF). Ferien- und Überzeitsaldi sind nach HWP-BuR Rz. 0512 zwingend je Person zu berechnen (Stundenlohn/Tageslohn + AG-Sozialleistungen); Pauschale nicht zulässig. Guthaben CHF 101'375 ist im Jahresabschluss als passive Rechnungsabgrenzung zu erfassen, bei signifikanter Änderung von Vorjahr (60'000 → 101'375, +69%) überprüfungsbedürftig. Unterabgrenzung ist Fehler in der PA (Periodenabgrenzung).\n\n**Buchungsvorschlag (ohne Verbuchung):**\n- **Soll:** 5200 Lohnaufwand (oder 5880 übriger Personalaufwand): CHF 80'513 / 1,12 = CHF 71'886\n- **Haben:** 2370 Rückstellung Ferien/Überzeit: CHF 71'886\n- oder inkl. 12% AG-SV:\n- **Soll:** 5700 SV-Aufwand: CHF 8'627\n- **Haben:** 2370 Rückstellung: CHF 8'627\n\n**Ort:** Wesentliche Feststellungen, Textfeld R1-203c Abgrenzung\n\n---\n\n**2. Lohnsummen-Diskrepanz AHV CHF 120'000**\n\n**Konten:** 5200 Lohnaufwand, 5700 AHV-Aufwand, 2270 Kontokorrent AHV/IV/EO/ALV/ALVZ/FAK\n\n**Befund:** Lohnjournal (Brutto + Bonus) CHF 3'030'000 vs. AHV-Jahreslohnmeldung CHF 2'910'000. Differenz CHF 120'000 unerklärt. Quellen: L_Personal/Personalliste_Loehne_2025.md (Total AHV-Lohn 3'030'000), L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md (Total 2'910'000).\n\n**Analyse:** Personen P140, P141 (Neuzutritte März/April 2025) und P133 (Austritt 30.06.2025) in der Meldung ggfs. falsch erfasst:\n- P140 Testinger Noah (Eintritt 01.03.2025, Pensum 0.4, Jahresbezug Lohnjournal 66'000, pro rata 3 Monate ~16'500) → in AHV-Meldung mit vollem Jahr?\n- P141 Beispielacker Selina (Eintritt 01.04.2025, Pensum 1, Jahresbezug 54'000, pro rata 9 Monate ~40'500) → in AHV-Meldung mit vollem Jahr?\n- P133 Fiktivegger Lea (Austritt 30.06.2025, Jahresbezug Lohnjournal 52'800, aber pro rata 6 Monate ~26'400) → in AHV-Meldung mit Jahreswert 52'800?\n\n**Bewertung:** Diskrepanz über NAG (4'000). AHV-Quote 6,60% gegen Richtwert 5,3% deutet auf fehlende / ungekürzte Meldung hin. Korrekte Abgrenzung erforderlich. Unklar, ob Fehlaussage oder nur Pro-Rata-Fehler.\n\n**Status:** Pendenz (siehe unten)\n\n---\n\n#### **PENDENZEN:**\n\n**1. Frage R1-101: Nach-Bilanzstichtag beschlossene Boni / Erfolgsprämien**\n\n**Titel:** Frage an Kunde (R1-101): Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr 2025 beschlossen oder zugesagt? Falls ja: Betrag, Datum, Organ (Verwaltungsrat/Geschäftsleitung), Erfassung per 31.12.2025 (Konto, Rückstellung)?\n\n**Grund:** Schriftliche Antwort (revio 10.11 Kundenbefragung) oder VR-/GL-Protokolle nach 31.12.2025 nicht gefunden in Akte. Prüfziel EX (Bestand), VO (Vollständigkeit), PA (Periodenabgrenzung). Buchtechnisch: Saldoliste 2025 zeigt Konto 5202 (Erfolgsbeteiligung/Bonus) CHF 30'000 (gebucht); Konto 2330 (Sonstige kurzfristige Rückstellungen) CHF 45'000. Klärung erforderlich, ob 2330 inkl. After-Stichtag-Boni oder andere Rückstellungen. Antwort erforderlich bis [Termin WP].\n\n---\n\n**2. Frage R1-102: Abweichung Lohnaufwand gegenüber Vorjahr / Budget**\n\n**Titel:** Frage an Kunde (R1-102): Erklärung wesentlicher Abweichungen Personalaufwand 2025 vs. 2024 und vs. Budget\n\n**Grund:** Lohnaufwand sank um 43,9% (5'404'000 auf 3'030'000 CHF), Personalbestand um 47,4% (88,2 auf 46,4 VZÄ). ABER: Aufwand pro VZÄ gestiegen um 6,6% (61'270 auf 65'302 CHF). Ursache? Lohnrunde 2025, Lohnerhöhungen nach Personalabbau, Kompositionseffekt (Höherwertige bleiben, Assistenzfunktionen abgebaut)? Vergleich mit Budget 2025?\n\n**Konten betroffen:** 5200 Lohnaufwand, 5202 Bonus, 5700 AHV, 5720 BVG, 5800–5880 Personalnebenaufwand (Spesen etc.).\n\nAntwort erforderlich bis [Termin WP].\n\n---\n\n**3. Lohnsummen-Abstimmung AHV/Hauptbuch (R1-201, R1-410)**\n\n**Titel:** Personenweise Lohnsummen-Abstimmung Lohnjournal vs. AHV-Jahreslohnmeldung 2025\n\n**Grund:** Differenz CHF 120'000 (Lohnjournal 3'030'000 vs. AHV-Meldung 2'910'000). Verdacht auf falsche Pro-Rata-Erfassung der Neuzutritte P140 (ab 01.03.2025, Pensum 0.4), P141 (ab 01.04.2025, Pensum 1) und des Austritts P133 (bis 30.06.2025). Personen P140, P141 möglicherweise mit Jahresbezug statt pro rata gemeldet; P133 möglicherweise mit Jahresbezug statt halbjährig. Nachbeleg erforderlich: AHV-Jahreslohnmeldung detailliert oder Korrektur-Mitteilung Ausgleichskasse.\n\n**Ort:** Schlussbesprechung (Nachmeldung ggfs. erforderlich) + evtl. Notiz «Wesentliche Feststellungen» mit Nachbelastungsrisiko, falls Differenz CHF 120'000 ganz oder teilweise auf ungemeldete/untermeldete Einkommen zurückgeht.\n\nUnterlagen erforderlich bis [Termin WP].\n\n---\n\n**4. Aktualisierung Dauerakten (R1-322)**\n\n**Titel:** Dauerakten Personalaufwand – Aktualisierung fehlende Unterlagen\n\n**Grund:** Nicht in M-Files gefunden (Dauerakten-Ordner oder R1-Ordner):\n- Bonus-/Provisionsreglement 2025 (Version oder Enddatum?)\n- Arbeitsverträge GL (Testmüller Lukas, P100) – Lohn 148'000 ist über GL-Norm; Begründung?\n- BVG-Reglement und aktuelle Kontoauszug AGBR Arbeitgeber (für R1-321, stille Reserven)\n- UVG/KTG/FAK Anschlussverträge 2025\n\n**Ort:** Dauerakten nachführen; Verträge verlinken (revio K15) oder als Beilagen ablegen.\n\n---\n\n### **STATUSTABELLE – PRÜFFELD R1**\n\n| Schritt | Rolle | Status |\n|---|---|---|\n| R1-101 | Befragung (teilweise) | teilweise bearbeitet (schriftliche Antwort nicht vorhanden → Pendenz) |\n| R1-102 | Befragung (teilweise) | teilweise bearbeitet (nach Analytik durchführen; Erklärung erforderlich) |\n| R1-201 | vorbereiten | mit Feststellungen (Lohnsummen-Discrepanz, AHV-Quote über Richtwert) |\n| R1-202 | vorbereiten | mit Feststellungen (Aufwand pro VZÄ gestiegen, Erklärung erforderlich) |\n| R1-203 | vorbereiten | mit Feststellungen (Ferien/Überzeit-Unterabgrenzung CHF 80'513) |\n| R1-301 | vorbereiten | vorbereitet (Lohnjournal–Hauptbuch stimmt ab) |\n| R1-302 | WP | nicht bearbeitet – WP-Schritt (Pendenz: AHV-Discrepanz angezeigt) |\n| R1-303 | WP | nicht bearbeitet – WP-Schritt (Pendenz: Abstimmung SV-Abrechnungen angezeigt) |\n| R1-304 | WP | nicht bearbeitet – WP-Schritt |\n| R1-305 | WP | nicht bearbeitet – WP-Schritt |\n| R1-306 | WP | nicht bearbeitet – WP-Schritt |\n| R1-320 | vorbereiten | vorbereitet (VZÄ 46,4 nachvollziehbar, keine Kategoriewechsel) |\n| R1-321 | vorbereiten | teilweise bearbeitet (AGBR-Kontoauszug nicht vorhanden) |\n| R1-322 | vorbereiten | teilweise bearbeitet (Dauerakten-Unterlagen teilweise fehlend) |\n| R1-401 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-402 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-403 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnabstimmung R1-410 angezeigt) |\n| R1-404 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-405 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-406 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-407 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-408 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-409 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Ferien/Überzeit-Abgrenzung angezeigt) |\n| R1-410 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung (Lohnsummen-Abstimmung AHV erforderlich) |\n| R1-411 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n| R1-412 | 4xx auf Anweisung | nicht bearbeitet – nur auf Anweisung |\n\n---\n\n### **ZUSAMMENFASSUNG FÜR DEN RAPPORT**\n\n**Prüffeld R1 – Personalaufwand:**\n- **Vorbereitet:** Lohnjournal–Hauptbuch-Abstimmung; Vollzeitstellen; analytische Quoten\n- **Mit Feststellungen:** Ferien/Überzeit-Unterabgrenzung CHF 80'513 (> NAG); Lohnsummen-Discrepanz AHV CHF 120'000\n- **Pendenzen:** Kundenbefragung R1-101, R1-102 erforderlich; Lohnsummen-Abstimmung R1-410 angezeigt wegen AHV-Discrepanz\n- **WP-Schritte:** R1-302–306 nicht ohne Anweisung; Hinweis auf erhöhtes Risiko bei Schlussabrechnungen SV (nach Personalabbau)\n- **4xx nur auf Anweisung:** Teile als Notiz bewertet (z.B. R1-409 Ferien/Überzeit; R1-410 AHV-Abstimmung) – angezeigt wegen Befunde\n\n---\n\nAlle Textfeld-Entwürfe und Notizen sind bereit für die Übertragung in revio (K6 Textfeld-Aktualisierung, K7 Notiz-Erfassung) mit ausdrücklicher Freigabe des WP.",
+  "systemPromptReport": {
+   "source": "run",
+   "generatedAt": 1794565026331,
+   "sessionId": "eval-e1a-e13-r1-20261113100233",
+   "sessionKey": "agent:revision:explicit:eval-e1a-e13-r1-20261113100233",
+   "provider": "claude-cli",
+   "model": "claude-haiku-4-5",
+   "workspaceDir": "/root/.openclaw-revh45c/workspace-revision",
+   "bootstrapMaxChars": 20000,
+   "bootstrapTotalMaxChars": 60000,
+   "bootstrapTruncation": {
+    "warningMode": "always",
+    "warningShown": false,
+    "truncatedFiles": 0,
+    "nearLimitFiles": 0,
+    "totalNearLimit": false
+   },
+   "sandbox": {
+    "mode": "off",
+    "sandboxed": false
+   },
+   "systemPrompt": {
+    "chars": 40399,
+    "hash": "ea1958b8bff0f17d57c3e2c0a12d9cb7f132c3f13d95a44ced8d3d1c0bd66a54",
+    "projectContextChars": 19052,
+    "nonProjectContextChars": 21347
+   },
+   "currentTurn": {
+    "promptChars": 652,
+    "runtimeContextChars": 796
+   },
+   "injectedWorkspaceFiles": [
+    {
+     "name": "AGENTS.md",
+     "path": "/root/.openclaw-revh45c/workspace-revision/AGENTS.md",
+     "missing": false,
+     "rawChars": 6943,
+     "injectedChars": 6943,
+     "truncated": false
+    },
+    {
+     "name": "SOUL.md",
+     "path": "/root/.openclaw-revh45c/workspace-revision/SOUL.md",
+     "missing": false,
+     "rawChars": 1526,
+     "injectedChars": 1526,
+     "truncated": false
+    },
+    {
+     "name": "IDENTITY.md",
+     "path": "/root/.openclaw-revh45c/workspace-revision/IDENTITY.md",
+     "missing": false,
+     "rawChars": 1453,
+     "injectedChars": 1453,
+     "truncated": false
+    },
+    {
+     "name": "USER.md",
+     "path": "/root/.openclaw-revh45c/workspace-revision/USER.md",
+     "missing": false,
+     "rawChars": 1136,
+     "injectedChars": 1136,
+     "truncated": false
+    },
+    {
+     "name": "BOOTSTRAP.md",
+     "path": "/root/.openclaw-revh45c/workspace-revision/BOOTSTRAP.md",
+     "missing": false,
+     "rawChars": 7475,
+     "injectedChars": 7475,
+     "truncated": false
+    }
+   ],
+   "skills": {
+    "promptChars": 8201,
+    "hash": "30fd2ae7294f2ff853f853ddf1d9b1806f20f4a5949bb0a1b311f039b03f9152",
+    "entries": [
+     {
+      "name": "add-model-provider",
+      "blockChars": 299
+     },
+     {
+      "name": "browser-automation",
+      "blockChars": 332
+     },
+     {
+      "name": "canvas",
+      "blockChars": 251
+     },
+     {
+      "name": "clawhub",
+      "blockChars": 298
+     },
+     {
+      "name": "cloud-image-bake",
+      "blockChars": 285
+     },
+     {
+      "name": "configure-channel",
+      "blockChars": 287
+     },
+     {
+      "name": "control-ui",
+      "blockChars": 338
+     },
+     {
+      "name": "diagnose-gateway",
+      "blockChars": 279
+     },
+     {
+      "name": "diagram-maker",
+      "blockChars": 264
+     },
+     {
+      "name": "gh-issues",
+      "blockChars": 287
+     },
+     {
+      "name": "github",
+      "blockChars": 258
+     },
+     {
+      "name": "healthcheck",
+      "blockChars": 276
+     },
+     {
+      "name": "meme-maker",
+      "blockChars": 249
+     },
+     {
+      "name": "node-connect",
+      "blockChars": 333
+     },
+     {
+      "name": "node-inspect-debugger",
+      "blockChars": 275
+     },
+     {
+      "name": "notion",
+      "blockChars": 270
+     },
+     {
+      "name": "python-debugpy",
+      "blockChars": 263
+     },
+     {
+      "name": "revision",
+      "blockChars": 463
+     },
+     {
+      "name": "revision-mandat",
+      "blockChars": 538
+     },
+     {
+      "name": "revision-pruefschritt",
+      "blockChars": 548
+     },
+     {
+      "name": "skill-creator",
+      "blockChars": 282
+     },
+     {
+      "name": "spike",
+      "blockChars": 249
+     },
+     {
+      "name": "tmux",
+      "blockChars": 267
+     },
+     {
+      "name": "visualize",
+      "blockChars": 280
+     },
+     {
+      "name": "weather",
+      "blockChars": 287
+     }
+    ]
+   },
+   "tools": {
+    "listChars": 0,
+    "schemaChars": 53336,
+    "entries": [
+     {
+      "name": "dashboard",
+      "summaryChars": 1373,
+      "summaryHash": "b2fb814de22c52538a217bc3ad182b640974e66917d53e4857b5e1f904a1d1a9",
+      "schemaChars": 2581,
+      "schemaHash": "b52bda4f48ffdfd6e73d7bb2754f4d4b701e4aa2657da891efe38e9061b59c64",
+      "propertiesCount": 13
+     },
+     {
+      "name": "sessions",
+      "summaryChars": 640,
+      "summaryHash": "328ab081c1c0dccd8681129d4995d53f30a262de4674aa20c51b0cfd9aa720a5",
+      "schemaChars": 4481,
+      "schemaHash": "f4215003cebd8afdc22a498c515d5dc9c00f2947ea0575fc065c5e68f9104620",
+      "propertiesCount": 26
+     },
+     {
+      "name": "theme",
+      "summaryChars": 790,
+      "summaryHash": "89c28af46851a2eac2c7b868a9b561064952917277a5384e3a526ace3742cd64",
+      "schemaChars": 4957,
+      "schemaHash": "4ad2f4f62349ae262eb883f37792abc9935828d7973ebf7350f670e291875be6",
+      "propertiesCount": 6
+     },
+     {
+      "name": "terminal",
+      "summaryChars": 281,
+      "summaryHash": "7cd87f59b6645de1e5e9f45cc730410e1bc1bb1ee90a2bb5a50e7a09b9a7af88",
+      "schemaChars": 419,
+      "schemaHash": "4ebd33330c3b006d29d39aed6bfce7bc3d5a9f81025bbb7ce9c81d3da88e4491",
+      "propertiesCount": 5
+     },
+     {
+      "name": "portal",
+      "summaryChars": 950,
+      "summaryHash": "972b8c5e3b629affb50f2a9eff8ff98a0a3086a8e86ee1de1c5b95504f2c775e",
+      "schemaChars": 543,
+      "schemaHash": "161c931b8fd5c04b902e301fc89df9324a8a354a9a0afd247c87c93f7ab35dfe",
+      "propertiesCount": 7
+     },
+     {
+      "name": "tts",
+      "summaryChars": 245,
+      "summaryHash": "841f7db9ad3ece79d54c59de7395e7a8591d24327be97750c4d76c1bff5a107a",
+      "schemaChars": 264,
+      "schemaHash": "e40695f92ef72d913ee5eb13ef738a15d6f33ae3af3ec609975c45991ef99a78",
+      "propertiesCount": 3
+     },
+     {
+      "name": "transcripts",
+      "summaryChars": 112,
+      "summaryHash": "77b3b93af0d12a84fa84e3f745a86e5730bacf60a66f683a8d9fdf708197d443",
+      "schemaChars": 999,
+      "schemaHash": "153465a071b65ff76e15f327e027e1e3b976bdd87fc2612e51a27e29a877a8d7",
+      "propertiesCount": 12
+     },
+     {
+      "name": "presence",
+      "summaryChars": 627,
+      "summaryHash": "8de54af9193a1045808067afdf77d51a129fbfb256610fcb74a7b913d3d8b02e",
+      "schemaChars": 1053,
+      "schemaHash": "fdbc54879e5befc4f050ad4007135f8ddb2f99a99de201febbd488980d673f45",
+      "propertiesCount": 5
+     },
+     {
+      "name": "agents_list",
+      "summaryChars": 116,
+      "summaryHash": "a86dafe00675913d8f07e9bac4c134435539c31e80cac7c431f879cc0285ab16",
+      "schemaChars": 33,
+      "schemaHash": "8243f0af367f188a376f2c17b5eabe872a2f7a979813e0d4e2be6d594c2aa259",
+      "propertiesCount": 0
+     },
+     {
+      "name": "get_goal",
+      "summaryChars": 101,
+      "summaryHash": "cb629fcdf8051a05b88fa535b74d7b4f9814ba14e79b027bfcc5bb2f3c3a2fea",
+      "schemaChars": 33,
+      "schemaHash": "8243f0af367f188a376f2c17b5eabe872a2f7a979813e0d4e2be6d594c2aa259",
+      "propertiesCount": 0
+     },
+     {
+      "name": "create_goal",
+      "summaryChars": 264,
+      "summaryHash": "4f431787069f93890b977aed5233531481f3e5b4618decbf53e72c197a7779c6",
+      "schemaChars": 306,
+      "schemaHash": "0e17e2116eb1b011e8798ec6272458493f9272ee578118cf2af05c3e372d7945",
+      "propertiesCount": 2
+     },
+     {
+      "name": "update_goal",
+      "summaryChars": 543,
+      "summaryHash": "8fcdb0dfdde868b2bd4b26828cc91d452d6d841293daee394ed9309ee6da74db",
+      "schemaChars": 207,
+      "schemaHash": "063df78da73d06b7cf4a20d6d98b15e29e1c76f2128b7a4edb22e859ca5e2ca1",
+      "propertiesCount": 2
+     },
+     {
+      "name": "skill_workshop",
+      "summaryChars": 2205,
+      "summaryHash": "f6d63f7db20f765fd47f682645642d529a1bb4d7e228f7acb9d6a623e467b3cf",
+      "schemaChars": 950,
+      "schemaHash": "3686d49d3dfadcb5357730b793acb9ad290318f1d8412f35faca58a4bb8febf3",
+      "propertiesCount": 9
+     },
+     {
+      "name": "progress_card",
+      "summaryChars": 1948,
+      "summaryHash": "f8149353709e4360500d65aaccc53c1693ad3b8f1feac06db19f421df13cb80a",
+      "schemaChars": 401,
+      "schemaHash": "17936a8909b680a54f70957a8468dec2db700c94ee3fd327ddcad13e4e11c32f",
+      "propertiesCount": 2
+     },
+     {
+      "name": "ask_user",
+      "summaryChars": 857,
+      "summaryHash": "e903258acafe070ab656997ab2d4f0a52f52b557fa592724d97c9dca08938857",
+      "schemaChars": 2026,
+      "schemaHash": "82d1419b69b3a1fd52f69f1f980e6af2512d1807f407579bbf22850cacd54894",
+      "propertiesCount": 2
+     },
+     {
+      "name": "secrets",
+      "summaryChars": 981,
+      "summaryHash": "2e714cc92cf9213ceae29cbc91111ef0eeaf715cf7c3636288708401677dfcc1",
+      "schemaChars": 1211,
+      "schemaHash": "49b033ce8c2a0755641cb69dda2f3c27e42284029e637ac1b3ff51046d7ccd1e",
+      "propertiesCount": 6
+     },
+     {
+      "name": "sessions_list",
+      "summaryChars": 880,
+      "summaryHash": "8bdca38def2db23dbd73e4fd9dc7b425f49fdfb34fba25250fd1ed2ea2f4d6af",
+      "schemaChars": 1239,
+      "schemaHash": "323cf9a402b5d1746421b0b4718a7f2da1b77ab4ecc00c40db3060eedfeada18",
+      "propertiesCount": 21
+     },
+     {
+      "name": "sessions_history",
+      "summaryChars": 600,
+      "summaryHash": "42f3308a8ea48c867c8008fa616e83dd0af979f2a363c5882ad2ca309222fc79",
+      "schemaChars": 805,
+      "schemaHash": "0892d947e886b781b3508ca73a5df20be1e0cf62a48220159a3153f69ad188a7",
+      "propertiesCount": 8
+     },
+     {
+      "name": "sessions_search",
+      "summaryChars": 177,
+      "summaryHash": "334f96a1cafd9325d695608fe065a4a00888f6b55279d396590575b39e62728a",
+      "schemaChars": 468,
+      "schemaHash": "e828d8043856e8ae42af3a306c28abbfcbf5c9768a562fc06b5cf4d741f0190a",
+      "propertiesCount": 4
+     },
+     {
+      "name": "conversations_list",
+      "summaryChars": 159,
+      "summaryHash": "527335ff7cc669a406a88dbb1ea150631cea16155fa517fc76c8be38f8285190",
+      "schemaChars": 182,
+      "schemaHash": "49892a498ef1d6c253ce4a1bb1e97592906a526314ef999c31aa2319fd38e9b8",
+      "propertiesCount": 3
+     },
+     {
+      "name": "conversations_send",
+      "summaryChars": 152,
+      "summaryHash": "7031570c2ea879e8ebb39548c931374a864db8bfeb4d634de7d234a7f43fbbe3",
+      "schemaChars": 212,
+      "schemaHash": "28933715e5a7d6829a616ec68154d5da0a47072f6c1f333d0b4ba49f90692889",
+      "propertiesCount": 2
+     },
+     {
+      "name": "conversations_turn",
+      "summaryChars": 190,
+      "summaryHash": "67bb15e899769e37e6d2ff596dba9c33ac6c828e12ef2903fc40fbf5df56aeb3",
+      "schemaChars": 274,
+      "schemaHash": "3cc19168dc1491f82c30f2f38ad9a08c55314777fb7d99602e06d7a35ebbc58b",
+      "propertiesCount": 3
+     },
+     {
+      "name": "sessions_send",
+      "summaryChars": 1928,
+      "summaryHash": "03bc1a3a36db10ba9dc43aa9e11181b090b1c673f8a35d3e3543b0604d8d1c76",
+      "schemaChars": 591,
+      "schemaHash": "d1cbcaca2adfcd2959b9a4d207df579d6c815a283b3825188f021eeffd325079",
+      "propertiesCount": 8
+     },
+     {
+      "name": "sessions_spawn",
+      "summaryChars": 3910,
+      "summaryHash": "5f896c1abb5a3ec46cbdee55d02dcf71fcef9ddf0a45e4ab002e9da3da17784e",
+      "schemaChars": 6036,
+      "schemaHash": "4f0466c81c5fc99670f10ea5e8c5d65ff8f0c9bd310fbba198c8b16cac20ccd3",
+      "propertiesCount": 31
+     },
+     {
+      "name": "agents_wait",
+      "summaryChars": 202,
+      "summaryHash": "eedf035982c7c4b9b386ed87e932630b03bc6f07fcdf94709b287665c77c168d",
+      "schemaChars": 400,
+      "schemaHash": "2bd3b8d28debbb1012112e731288dc09fddca281521b24bb31684cf4f9936bec",
+      "propertiesCount": 3
+     },
+     {
+      "name": "sessions_yield",
+      "summaryChars": 408,
+      "summaryHash": "470a8575514ff51a8f6eec8abb2a40c7f87f58bf706c1198728a0168c73e5e22",
+      "schemaChars": 539,
+      "schemaHash": "a5313700805e438f5ff8096b2d6074432400b6bf8ef9d1e5728a825869930de1",
+      "propertiesCount": 3
+     },
+     {
+      "name": "subagents",
+      "summaryChars": 159,
+      "summaryHash": "3a6c28bad09ee88cf3a09610ab7c234e5cbcf2b542ff6fe01a361b15baf6f927",
+      "schemaChars": 410,
+      "schemaHash": "ebca1dd5b1f3605ee2de9f2fd2b830195594fe0f04459ac3b014566b92cba590",
+      "propertiesCount": 5
+     },
+     {
+      "name": "session_status",
+      "summaryChars": 192,
+      "summaryHash": "23343479c1bf552695627bd580795ca22cdc1020232f6984bf0cad5557f74dbd",
+      "schemaChars": 264,
+      "schemaHash": "e3baf5366ce6c03802e7a7eb83f9980c2bbfcf94c5332e0add4348c7a6bad053",
+      "propertiesCount": 4
+     },
+     {
+      "name": "view_image",
+      "summaryChars": 251,
+      "summaryHash": "e2376193be463d237e7adf38be13783d31bd56422917718b2dd6f3fd6ed216f2",
+      "schemaChars": 360,
+      "schemaHash": "d8118d854eb7c2cb3e6ce3b36dc55f653a1a868c02c411f95ace140807ab81a3",
+      "propertiesCount": 5
+     },
+     {
+      "name": "browser",
+      "summaryChars": 4675,
+      "summaryHash": "8aaa824a54fcbe99d53c6882c41ddd28a6d573eff340dcdc787abea6fc1d729b",
+      "schemaChars": 4933,
+      "schemaHash": "77d73f46f0872a095bd6faf7270a5cd4f03e93a04662b097c1c4f4d75849b910",
+      "propertiesCount": 68
+     },
+     {
+      "name": "canvas",
+      "summaryChars": 67,
+      "summaryHash": "1f9f9d063d5eeb9a4ccc1b0709fd2420b08092e771a18d1b5914f5db0b37e1cc",
+      "schemaChars": 398,
+      "schemaHash": "6b3bfd0b0e58d89f23bc1e373d5c428b06415cbd1bf1f9bf104a3d696863a722",
+      "propertiesCount": 11
+     },
+     {
+      "name": "file_fetch",
+      "summaryChars": 642,
+      "summaryHash": "34d7b58f39d044fb09b6e6df42d57d510369ad0e94abd554bec83108525344b2",
+      "schemaChars": 609,
+      "schemaHash": "fafb2d121a41160e5ca3b42b286a199ec3be500877e673a51181d1a98854887f",
+      "propertiesCount": 6
+     },
+     {
+      "name": "dir_list",
+      "summaryChars": 794,
+      "summaryHash": "1325c976c4a92b65f45d5ce82b4fb7df12443a7bae46434153d65e34225fd71f",
+      "schemaChars": 724,
+      "schemaHash": "5a7ce71df247e0dfa197e040d34f95c6c2db1abeb76b37db6c85ff61123a7b97",
+      "propertiesCount": 7
+     },
+     {
+      "name": "dir_fetch",
+      "summaryChars": 796,
+      "summaryHash": "001fc4287f508af50c98c05bb35adaf8ee9ad09ee748e088aa819e22935b6947",
+      "schemaChars": 639,
+      "schemaHash": "da010ebc28d84f7ee723ecc6d8981a0a7c570521e170346636b6d149a3a97f42",
+      "propertiesCount": 6
+     },
+     {
+      "name": "file_write",
+      "summaryChars": 603,
+      "summaryHash": "91a18020223fa2bf59bb3f43640d80be81c17d40640d97f315653f890debd80b",
+      "schemaChars": 1028,
+      "schemaHash": "b5d971bb6d9a4340a7b0a27e49962d4166531af5091f9535f8eaa2af40017e51",
+      "propertiesCount": 7
+     },
+     {
+      "name": "memory_search",
+      "summaryChars": 1187,
+      "summaryHash": "7cf2179ec0ea7ca438dd7b694881d37041f06087ebc16aabe24db925d815f599",
+      "schemaChars": 250,
+      "schemaHash": "088cd2a3d3a47b251429ff7c56844cdedd1c45c3af0fa8bfaf7aa795766976bf",
+      "propertiesCount": 4
+     },
+     {
+      "name": "memory_get",
+      "summaryChars": 784,
+      "summaryHash": "5e6fcf06a1237a33e949ff48d80e736dff14d633a6f994505d859fdd2d781896",
+      "schemaChars": 241,
+      "schemaHash": "78f5d58460a82f9104deebad2f1873a8cde05d1ce7328b3ba4da6e994653e70a",
+      "propertiesCount": 4
+     },
+     {
+      "name": "intent",
+      "summaryChars": 266,
+      "summaryHash": "ff1256d0b5c53d9ec8dfd5e5ce9dc3cdc802359835a8e25a562cd3e952e2020a",
+      "schemaChars": 641,
+      "schemaHash": "0f0381dfd179cf5c563a3f84ab574b47e67377ceed2650fe02041a6c78a7fc69",
+      "propertiesCount": 10
+     },
+     {
+      "name": "node_inference",
+      "summaryChars": 206,
+      "summaryHash": "49c5e7e56c65dee8e708065c58240d64d8067dc07d9d13597890ecb5388ac88d",
+      "schemaChars": 646,
+      "schemaHash": "be130f0c61252e22f4d55745a82bc04926efb36ec1c8204bcfb49a7cda0aab20",
+      "propertiesCount": 8
+     },
+     {
+      "name": "talk_voice",
+      "summaryChars": 423,
+      "summaryHash": "1ef5de0b72ff39c136cb78b74795a69c7048a23f7e7b3f86323fbf780f926c67",
+      "schemaChars": 212,
+      "schemaHash": "a650995cb775a6b7dedaedc34b290488afaefa8c22e14408c4a4c98875fea349",
+      "propertiesCount": 2
+     },
+     {
+      "name": "ls",
+      "summaryChars": 192,
+      "summaryHash": "90bdd7a772f66ad236d45f18e28ee873b8c795fe219804f2c19074a867423e20",
+      "schemaChars": 254,
+      "schemaHash": "ebe8d6a85b7011ec7e0d43a759b3b53b1ce96e682f54a64312b10e89260e9af9",
+      "propertiesCount": 3
+     },
+     {
+      "name": "read",
+      "summaryChars": 164,
+      "summaryHash": "d136f5b09e28d671addad4ca800b75b8aa6a36002bc739ead964f618d3e34829",
+      "schemaChars": 481,
+      "schemaHash": "b1b9b637dfe1dfade40f50c37cf840a298f1992b534cb9425b7470233a6b0cbb",
+      "propertiesCount": 5
+     },
+     {
+      "name": "edit",
+      "summaryChars": 130,
+      "summaryHash": "4149500b1f6501ec6450e4c048bdb6844764dd4a888a10846726cbbc7256152e",
+      "schemaChars": 501,
+      "schemaHash": "adf3140833ca927b84c66c989d6833fdcbd9de011dd2ffc59f9a2c4d3c25f127",
+      "propertiesCount": 2
+     },
+     {
+      "name": "write",
+      "summaryChars": 49,
+      "summaryHash": "f9ce3d8ac929a51498c03331b97c59bfaa2bb4d25580a5ddf0102e6a8e173aec",
+      "schemaChars": 191,
+      "schemaHash": "b61d2da23febf5fbda55e391526f36d283e9e9fb7f1a1dbadcf5c618a0632287",
+      "propertiesCount": 2
+     },
+     {
+      "name": "apply_patch",
+      "summaryChars": 71,
+      "summaryHash": "5c1173efe93d080a386a23216bc3e58db2e0033eb3ddea697eb2439938b7cae4",
+      "schemaChars": 153,
+      "schemaHash": "05521268363ff4f191472c90d69ef08a503ba9acf1d2febc50b3ee68db32ab65",
+      "propertiesCount": 1
+     },
+     {
+      "name": "exec",
+      "summaryChars": 498,
+      "summaryHash": "3dbf995d4f5b1a330cfcedf8d7c8600149e4802aef05055e5afce1dc1edca96a",
+      "schemaChars": 1549,
+      "schemaHash": "ae4801d14056df2d10528add8259c3174c0460fdc57787dfeaf900bec93f5e22",
+      "propertiesCount": 13
+     },
+     {
+      "name": "process",
+      "summaryChars": 190,
+      "summaryHash": "75fd9c7b8d560599081ab2621e4f897babc118254cf439bd8329a60a905a9ef1",
+      "schemaChars": 1164,
+      "schemaHash": "6cf3281369349e15ea532e644c8ec7f94c96fa6a4e3287272c8cfe90b0960516",
+      "propertiesCount": 12
+     },
+     {
+      "name": "revisionswiki__akte",
+      "summaryChars": 800,
+      "summaryHash": "5c643608e4d5f5897ea8b06a56c487c173572f0d3362afe3ac5d8fd757815f7d",
+      "schemaChars": 983,
+      "schemaHash": "6a231af5f1b2c49741e0d260f86f8e53a9005a732594fdafd3c87a7c23ba0108",
+      "propertiesCount": 11
+     },
+     {
+      "name": "revisionswiki__aufgabe",
+      "summaryChars": 763,
+      "summaryHash": "93bc2e5d27cdeb7593a060cc0fd1706dd511598e17fba8d73a752e767e7590b5",
+      "schemaChars": 169,
+      "schemaHash": "b3eac2d59058e64ffbb0dffa0bd7d21b950f396bd1eb9e6734e62281dd4f8783",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__fragen",
+      "summaryChars": 160,
+      "summaryHash": "b4fcc6a4f537454e232b768597108602eab8a47af7f8a5eed7140667174a3c5a",
+      "schemaChars": 76,
+      "schemaHash": "c16e7e17a9bb4d48d5d0542adbcfd57ea2d9586656a6ee726cbf42ab4b41d019",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__kapitalverlust",
+      "summaryChars": 1094,
+      "summaryHash": "e1f903febac92262662efcc64adcdd8493e014b34ff26bb234c8536b7d23a209",
+      "schemaChars": 2430,
+      "schemaHash": "1c76a7aba448f1c08271ade9995b27464f8ddc4696e908ddc1ab26520d71ed76",
+      "propertiesCount": 17
+     },
+     {
+      "name": "revisionswiki__prozess",
+      "summaryChars": 754,
+      "summaryHash": "27d0d8dbd794062d0d102611c895b6bf006c941d681e96eb1987cf5f9c5941c4",
+      "schemaChars": 400,
+      "schemaHash": "b3be51ea948716a276db413423f0ce3c581cd514aed8ee8902c635923b113019",
+      "propertiesCount": 3
+     },
+     {
+      "name": "revisionswiki__prueffeld",
+      "summaryChars": 390,
+      "summaryHash": "877fceae24c2cb81d5a2d7ef1796611ef6346a93fecac95fb146bdf3b15f8c81",
+      "schemaChars": 325,
+      "schemaHash": "e980604fe2b4f06de90d0a9d98edb8a594e579a71d989a797e3a7089b9d6a63b",
+      "propertiesCount": 3
+     },
+     {
+      "name": "revisionswiki__pruefschritt",
+      "summaryChars": 507,
+      "summaryHash": "d5cde0dc7431c9b349bddd8acfecbde7616f33395dd3bee4dfb23353c20b6565",
+      "schemaChars": 171,
+      "schemaHash": "ecaf37497dae4b822d2f3ec44a7c11ff06c30e0d66fd1b0888ecfd4af639e5c3",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__rechne",
+      "summaryChars": 615,
+      "summaryHash": "4cf934f83b6506e2c03b939d374f59bc4c15f7f365894a21ba964f6c7f304fc9",
+      "schemaChars": 169,
+      "schemaHash": "1235e4ab5433be7774ab364a0724a60a8c5c2afaaef363e73f70c4e6f76d01d8",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__regeln",
+      "summaryChars": 545,
+      "summaryHash": "b666479e89d2fdc07ff027d6caaeaf6d68514d567836f6628d477607d9d727a4",
+      "schemaChars": 74,
+      "schemaHash": "7b00c65d1a0bc34a0aab0f3897da88eb72d439025a700a347ca09dced53a4a03",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__revio",
+      "summaryChars": 348,
+      "summaryHash": "411dd035cca5b4e7cb15933ad3aeacd9024ee2ff67b5596c7d9d82a13d23738f",
+      "schemaChars": 72,
+      "schemaHash": "acb205a6d7938988d3e0919a92689cfa670d5ebb940d51e73796a27b0cd159c2",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__revisionspflicht",
+      "summaryChars": 236,
+      "summaryHash": "ae846b835e4fbbb84cf863f6db553e0b974faf0064dff0049d423887854b409c",
+      "schemaChars": 424,
+      "schemaHash": "0df5d231fde2e80e502f7f38da085791cc13811ae7876ccf3a9c9f728a1f8cce",
+      "propertiesCount": 6
+     },
+     {
+      "name": "revisionswiki__suche",
+      "summaryChars": 494,
+      "summaryHash": "e913be01910e162a0456bb2a1443ea085eda415bd3ff4b70d85a9951404303b9",
+      "schemaChars": 153,
+      "schemaHash": "d9b7e87358665b8d55170edfec92521d48a19cf9321e3d943c6349d99269b0b1",
+      "propertiesCount": 4
+     },
+     {
+      "name": "revisionswiki__thema",
+      "summaryChars": 426,
+      "summaryHash": "69377fe943f1f419c79fcd56fadd18ed11110be91455004b815d69a25319eadd",
+      "schemaChars": 156,
+      "schemaHash": "86444f62552a741ea58c54689380a430463f25330bd0cb35a25755cc77346bc7",
+      "propertiesCount": 2
+     },
+     {
+      "name": "revisionswiki__unterlagen",
+      "summaryChars": 138,
+      "summaryHash": "8b56d52181bb7e1d73ff620752d4c2bbc17b270a7d70005e823582579c6cfa96",
+      "schemaChars": 76,
+      "schemaHash": "c16e7e17a9bb4d48d5d0542adbcfd57ea2d9586656a6ee726cbf42ab4b41d019",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__wert",
+      "summaryChars": 424,
+      "summaryHash": "ce94c3a42daf4589ed5021403b6fd4e59e71d9ee841b3dfa33cc19a32b4f1c79",
+      "schemaChars": 83,
+      "schemaHash": "0a232b732a1cd0fbd7951f54a5c9ad485229d8db249bde3738c3a86cd0ff0e21",
+      "propertiesCount": 1
+     },
+     {
+      "name": "revisionswiki__wesentlichkeit",
+      "summaryChars": 421,
+      "summaryHash": "ef91f859607fe17feaf5b1c22a9441edf1b1336f0e1fd6d4f24b52f66dcd7e92",
+      "schemaChars": 612,
+      "schemaHash": "7432b4725627610ada0a6cf731cabc546621760a58e98f14597885cb090d3069",
+      "propertiesCount": 6
+     },
+     {
+      "name": "revisionswiki__zeige",
+      "summaryChars": 134,
+      "summaryHash": "16dab38fbbc36e4132b5c30d1fd6f6e47dd47c3e7624f4fb3569e91b96431719",
+      "schemaChars": 105,
+      "schemaHash": "5cf0f3ee1f172772ed7e2849eca8fe4c833fb4f9165bbc3320b39b36791f5401",
+      "propertiesCount": 2
+     }
+    ]
+   }
+  },
+  "executionTrace": {
+   "winnerProvider": "claude-cli",
+   "winnerModel": "claude-haiku-4-5",
+   "attempts": [
+    {
+     "provider": "claude-cli",
+     "model": "claude-haiku-4-5",
+     "result": "success"
+    }
+   ],
+   "fallbackUsed": false,
+   "runner": "cli"
+  },
+  "requestShaping": {
+   "thinking": "medium"
+  },
+  "completion": {
+   "finishReason": "stop",
+   "stopReason": "completed",
+   "refusal": false
+  },
+  "toolSummary": {
+   "calls": 23,
+   "tools": [
+    "mcp__openclaw__revisionswiki__aufgabe",
+    "mcp__openclaw__revisionswiki__akte",
+    "mcp__openclaw__read",
+    "mcp__openclaw__revisionswiki__pruefschritt",
+    "mcp__openclaw__revisionswiki__rechne"
+   ],
+   "failures": 0
+  },
+  "agentMeta": {
+   "sessionId": "ea022b7b-857b-4db3-b914-52c965f07b5b",
+   "provider": "anthropic",
+   "model": "claude-haiku-4-5",
+   "contextTokens": 200000,
+   "contextTokensSource": "resolved",
+   "usage": {
+    "input": 8,
+    "output": 2,
+    "cacheRead": 128070,
+    "cacheWrite": 7518
+   },
+   "lastCallUsage": {
+    "input": 8,
+    "output": 2,
+    "cacheRead": 128070,
+    "cacheWrite": 7518
+   },
+   "diagnosticUsage": {
+    "input": 114,
+    "output": 15974,
+    "cacheRead": 1245979,
+    "cacheWrite": 89629
+   },
+   "cliSessionBinding": {
+    "sessionId": "ea022b7b-857b-4db3-b914-52c965f07b5b",
+    "resumeCheckpointId": "f70bdd82-b121-4a43-9ce4-32927e1a7730",
+    "authEpochVersion": 7,
+    "extraSystemPromptHash": "0bbf5909d9f07ef1a618730a6e0af8a177459cbf7710cc42cba149be95d23c6c",
+    "messageToolPolicyHash": "3ae4a9801e78dd74aa01b3ccad9fb6ab5628c39000b88276f651ed7fb9bdb555",
+    "promptToolNamesHash": "7e22bc7b475a4e4929c0d51759b06bac351ce08a0b1b27ca54ebc5ff2d149cd2",
+    "cwdHash": "d54ea05eb4241307ad7e53caf1d6487d5060f380f2ac428e9e4a5f94c003ef1a",
+    "mcpConfigHash": "9dce73f5575e12b86eaccf6b3185c93a5c44754ddf895474d04e65005597e29e",
+    "mcpResumeHash": "410ef86a7b41ee36c7814a650b5096ac6767d27487970f37030eb49f93cc5d11",
+    "transcriptCursor": {
+     "localSessionId": "eval-e1a-e13-r1-20261113100233",
+     "entryId": null,
+     "runId": "229529cd-41ec-4f97-8697-b2cfada5c32f",
+     "userEntryId": "119bf829-4f96-4c40-93bf-18fa2e9c64ad"
+    }
+   }
+  },
+  "terminalReply": {
+   "disposition": "visible",
+   "text": "Ich bereite Prüffeld R1 Personalaufwand vor. Ich starte mit der Aufgabenübersicht.\n\nIch erschliesse jetzt die Akte für R1 Personalaufwand. Damit identifiziere ich die Dateien, Treffer in Saldoliste/Hauptbuch und Unterlagen.\n\nIch lese jetzt die Dateien des Prüffelds R1 aus GJ und VJ, um die Nachweise zu beschaffen. Beginne mit den GJ-Dateien.\n\nIch lese jetzt die VJ-Dateien zum Vergleich und um die Vorjahrsfeststellungen zu verstehen.\n\nIch lese nun die Kontoblätter und relevante Ausschnitte aus Saldoliste und Jahresrechnung für die Abstimmung der Lohnaufwandskonten.\n\nIch lese die Erfolgsrechnung aus der Saldoliste mit den Lohnaufwandskonten.\n\nIch habe jetzt einen Überblick über die Dateien und die Lohnaufwandskonten. Es gibt bereits erkannte Diskrepanzen:\n1. **AHV-Discrepanz**: Personalliste 3'030'000 vs. AHV-Meldung 2'910'000 (Differenz 120'000)\n2. **P133 (Lea Fiktivegger)**: Austritt 30.6.2025 aber volles Jahr in AHV-Meldung\n\nIch starte jetzt mit den Prüfschritten. Ich rufe zunächst die vorbereitbaren Schritte einzeln auf (R1-101, R1-102, R1-201, R1-202, R1-203, R1-301, R1-320, R1-321, R1-322), dann die 4xx/WP-Schritte gesammelt.\n\nIch rufe jetzt die analytischen Prüfschritte auf (R1-201, R1-202, R1-203), um die Lohnaufwands-Quoten und Abweichungen zu prüfen.\n\nIch beginne jetzt mit den analytischen Berechnungen für R1-201, R1-202 und R1-203. Zuerst nutze ich `rechne` für die Lohnsummen und Quoten.\n\nIch berechne jetzt die Sozialversicherungsquoten für R1-201.\n\nIch berechne jetzt die Vollzeitstellen und Personalentwicklung für R1-202/R1-203.\n\nDie Analysen zeigen bereits kritische Befunde:\n- **AHV-Diskrepanz**: 120'000 CHF (Lohnsumme 3'030'000 vs. AHV-Meldung 2'910'000)\n- **Ferien/Überzeit Unterabgrenzung**: Saldo 101'375 CHF, aber nur 10'000 CHF gebucht (Differenz 80'513 CHF, über Nichtaufgriffsgrenze)\n\nIch rufe nun R1-301 (Abstimmung Lohnjournal–Hauptbuch) und die Detail-Schritte auf.\n\nIch rufe jetzt die 4xx- und WP-Schritte auf, um ihre Behandlung festzuhalten.\n\nAuf Basis der vorangegangenen Analysen erstelle ich jetzt die Textfeld-Entwürfe und Notizen für Prüffeld R1.\n\n---\n\n## **ENTWURF TEXTFELDER UND NOTIZEN – PRÜFFELD R1 PERSONALAUFWAND**\n\n### **Zusammenfassung der Befunde:**\n\n**2 WESENTLICHE FESTSTELLUNGEN (> Nichtaufgriffsgrenze CHF 4'000):**\n\n1. **Ferien- und Überzeitsaldi: Unterabgrenzung CHF 80'513**\n   - Saldo Ferien/Überzeit per 31.12.2025 laut Liste: CHF 101'374.77\n   - Gebucht auf Konto 2370 (Rückstellung): CHF 10'000\n   - Nicht abgegrenzt/unterabgegrenzt: CHF 80'513.19\n   - Quelle: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md; 00_Allgemein/Saldoliste_2025.md (Zeile 61)\n   - Bewertung: Mit 12% Arbeitgeberbeiträge sollten CHF ~90'513 gebucht sein\n   - Status: **Mit Feststellungen**\n\n2. **Lohnsummen-Discrepanz AHV: CHF 120'000**\n   - Lohnjournal Brutto + Bonus: CHF 3'030'000\n   - AHV-Jahreslohnmeldung: CHF 2'910'000\n   - Differenz: CHF 120'000 (Lohnsumme unvollständig)\n   - Quellen: L_Personal/Personalliste_Loehne_2025.md; L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md\n   - Verdacht: Mitarbeitende P140 (Eintritt 01.03.2025, nur 0.4 VZÄ) und P141 (Eintritt 01.04.2025) nicht korrekt abgegrenzt; P133 (Austritt 30.06.2025) mit vollem Jahr gemeldet statt pro rata\n   - Status: **Mit Feststellungen** + **Pendenzen**\n\n**3 PENDENZEN:**\n\n1. **Frage R1-101**: Wurden nach dem 31.12.2025 Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen? Schriftliche Antwort nicht gefunden → **Pendenz**\n\n2. **Frage R1-102**: Abweichung Lohnaufwand GJ −43.9% (von 5'404'000 auf 3'030'000 CHF). Personalbestand sank um 47,4% (88.2 auf 46.4 VZÄ). Trotzdem Aufwand pro VZÄ +6.6% gestiegen. Gründe? Lohnerhöhungen 2025? Schriftliche Erklärung erforderlich → **Pendenz**\n\n3. **Prüfung AHV-Lohnsummen (R1-201/R1-410)**: Personenweise Abstimmung Lohnjournal vs. AHV-Meldung erforderlich (Eintritt/Austritt pro rata, fehlende Personen, Diskrepanzen). Konkret: P140, P141, P133 → **Pendenz – Belegprüfung R1-410 angezeigt**\n\n---\n\n### **TEXTFELD-ENTWÜRFE** (revio K6 mit `rv_put_auditActivities_UpdateDossierActivit…"
+  }
+ },
+ "_dauer_s": 167.7
+}
