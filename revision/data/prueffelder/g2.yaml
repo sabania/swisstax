@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 14
     korrigiert: false
-kurzbeschrieb: 'Grundstücke und Bauten im Eigentum (Land, Geschäfts-/Wohnliegenschaften, Stockwerkeigentum, Baurechtsbauten, angefangene Bauten) mit Abschreibungen, Unterhalt, Grundpfand
-  und Liegenschaftsertrag. Eingeschränkte Revision: Befragungen zu Bewertung, Abschreibung und Abgrenzung Unterhalt, Vorjahresvergleich, Abstimmung Anlagespiegel/Grundbuch mit JR; weitergehende
-  Handlungen nur bei Risiko.'
+kurzbeschrieb: 'Grundstücke und Bauten im Eigentum (inkl. Baurecht, angefangene Bauten). Agent: 101–106 schriftlich auswerten, 201/202, 301/302, 320–322. WP-Schritte 303–306 und 4xx
+  (z.B. Grundbuch, Gutachten) nur mit Anweisung des WP. Keine Liegenschaften: je Schritt «Vorschlag: nicht anwendbar» (Entscheid WP).'
 gesetz:
 - thema: Sachanlagen als Mindestposition des Anlagevermögens (Art. 959a Abs. 1 Ziff. 2 lit. c OR)
   quelle: or__art-959a-t1
@@ -160,12 +159,14 @@ risiken:
   - PA
   quelle: ser-2022__anh-d-s082-2
   zitat: Durchsicht der Bestands- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
-- text: Mieterträge unvollständig erfasst oder nicht als betriebsfremder Ertrag ausgewiesen.
+- text: 'Mieterträge unvollständig erfasst; Mieterträge ohne direkten Zusammenhang mit dem Hauptzweck (z.B. Wohnliegenschaft eines Produktionsbetriebs) nicht separat als betriebsfremder
+    Ertrag ausgewiesen (gehört die Vermietung zum Hauptzweck, z.B. Immobiliengesellschaft: kein betriebsfremder Ertrag).'
   pruefziele:
   - VO
   - DO
   quelle: hwp-bur-2023__rz-0750-s317-t2
-  zitat: Nebenerlöse, welche nicht direkt mit dem primären Unternehmenszweck in Zusammenhang stehen, sind separat unter dem betriebsfremden Ertrag auszuweisen
+  zitat: Nebenerlöse, welche nicht direkt mit dem primären Unternehmenszweck in Zusammenhang stehen, sind separat unter dem betriebsfremden Ertrag auszuweisen (beispielsweise Mieterträge
+    aus Wohnliegenschaften in einem Produktionsunternehmen)
 unterlagen:
 - dokument: Anlagespiegel/Anlagenverzeichnis Liegenschaften (je Objekt AK/HK, kum. Abschreibungen, Zu-/Abgänge, Nutzungsdauer, Land/Gebäude getrennt)
   zweck: Abstimmung mit Jahresrechnung, Nachrechnen der Abschreibungen (G2-301/302/407)
@@ -209,7 +210,7 @@ unterlagen:
   zweck: Vollständigkeit Zu-/Abgänge, Ereignisse (G2-104)
   quelle: ser-2022__anh-d-s073-1
   zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
-- dokument: Kontoblätter Liegenschafts-, Unterhalts- und Liegenschaftsertragskonten 2025 sowie in neuer Rechnung (2026)
+- dokument: Kontoblätter Liegenschafts-, Unterhalts- und Liegenschaftsertragskonten Berichtsjahr sowie Folgejahr (neue Rechnung)
   zweck: Durchsicht ungewöhnlicher Posten und Vorjahresbeträge (G2-303/304/409)
   quelle: ser-2022__anh-d-s082-2
   zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
@@ -218,6 +219,18 @@ unterlagen:
   quelle: ser-2022__anh-e-s104-1
   zitat: ist nachweislich Verfügungsberechtigte aller aktivierten Vermögenswerte
 bewertung:
+- regel: 'Folgebewertung: AK/HK abzüglich notwendiger Abschreibungen und Wertberichtigungen.'
+  quelle: hwp-bur-2023__rz-0360-s234
+  zitat: Bei der Folgebewertung hat die Bilanzierung zu Anschaffungs- oder Herstellungskosten, vermindert um die notwendigen Abschreibungen sowie allfällige Wertberichtigungen, zu erfolgen.
+- regel: Gebäude nach Nutzungsdauer abschreiben; Restwert nicht unbesehen übernehmen, sondern auf erzielbaren Wert prüfen.
+  quelle: hwp-bur-2023__rz-0362-s235
+  zitat: Der nach Vornahme der Abschreibungen verbleibende Restwert von Liegenschaften kann nicht unbesehen in die Bilanz übernommen werden, sondern ist zu überprüfen.
+- regel: 'Unbebautes Land: in der Regel keine planmässige Abschreibung; Wertberichtigung bei dauernder Werteinbusse (z.B. Umzonung).'
+  quelle: hwp-bur-2023__rz-0361-s235
+  zitat: Unbebaute Grundstücke unterliegen im Allgemeinen keinem nutzungsbedingten Wertverzehr, weshalb Abschreibungen normalerweise nicht erforderlich sind.
+- regel: Aufwertung über AK nur bei aktivem Markt (bei Immobilien sehr selten) oder nach Art. 725c OR; eine Immobilienschätzung genügt nicht.
+  quelle: hwp-bur-2023__rz-0367-s236
+  zitat: wonach eine Aufwertung über den Anschaffungswert zwecks Bilanzsanierung unter bestimmten Voraussetzungen zulässig ist (Art. 725c OR
 - regel: Ersterfassung zu AK/HK inkl. aller unmittelbar verbundenen Kosten (z.B. Handänderungsgebühren, Vermittlungsprovisionen); Rückvergütungen abziehen.
   quelle: hwp-bur-2023__rz-0356-s233-t1
   zitat: Alle mit dem Kauf oder der Erstellung eines Objekts unmittelbar verbundenen Kosten gelten als Anschaffungs- oder Herstellungskosten.
@@ -233,15 +246,6 @@ bewertung:
 - regel: Einzelbewertung je Grundstück/Baute; Zusammenfassung nur in sachlich begründeten Fällen.
   quelle: hwp-bur-2023__rz-0360-s234
   zitat: Grundstücke und Bauten sind in der Regel einzeln zu bewerten (Art. 960 Abs. 1 OR).
-- regel: 'Folgebewertung: AK/HK abzüglich notwendiger Abschreibungen und Wertberichtigungen.'
-  quelle: hwp-bur-2023__rz-0360-s234
-  zitat: Bei der Folgebewertung hat die Bilanzierung zu Anschaffungs- oder Herstellungskosten, vermindert um die notwendigen Abschreibungen sowie allfällige Wertberichtigungen, zu erfolgen.
-- regel: 'Unbebautes Land: in der Regel keine planmässige Abschreibung; Wertberichtigung bei dauernder Werteinbusse (z.B. Umzonung).'
-  quelle: hwp-bur-2023__rz-0361-s235
-  zitat: Unbebaute Grundstücke unterliegen im Allgemeinen keinem nutzungsbedingten Wertverzehr, weshalb Abschreibungen normalerweise nicht erforderlich sind.
-- regel: Gebäude nach Nutzungsdauer abschreiben; Restwert nicht unbesehen übernehmen, sondern auf erzielbaren Wert prüfen.
-  quelle: hwp-bur-2023__rz-0362-s235
-  zitat: Der nach Vornahme der Abschreibungen verbleibende Restwert von Liegenschaften kann nicht unbesehen in die Bilanz übernommen werden, sondern ist zu überprüfen.
 - regel: 'Impairment-Test: Buchwert vs. erzielbarer Wert (höherer von Nutzwert und Netto-Marktwert).'
   quelle: hwp-bur-2023__rz-0342-s231
   zitat: Der erzielbare Wert ist der höhere von Nutzwert und Netto-Marktwert.
@@ -268,22 +272,20 @@ bewertung:
 - regel: Über den nötigen Wertverlust hinausgehende Abschreibungen bilden stille Reserven; deren Auflösung kann offenlegungspflichtig sein.
   quelle: hwp-bur-2023__rz-0329-s228-t2
   zitat: Falls jedoch auf dem Anlagegegenstand mehr abgeschrieben worden war, als gemäss nutzungs- und altersbedingtem Wertverlust erforderlich gewesen wäre, wurden stille Reserven gebildet
-- regel: Aufwertung über AK nur bei aktivem Markt (bei Immobilien sehr selten) oder nach Art. 725c OR; eine Immobilienschätzung genügt nicht.
-  quelle: hwp-bur-2023__rz-0367-s236
-  zitat: wonach eine Aufwertung über den Anschaffungswert zwecks Bilanzsanierung unter bestimmten Voraussetzungen zulässig ist (Art. 725c OR
 - regel: 'Hypothekarschulden: tatsächlicher Schuldbetrag (nicht Grundbuchbelastung), Nennwert; Eigentümerschuldbriefe nicht bilanzieren.'
   quelle: hwp-bur-2023__rz-0460-s252
   zitat: In der Buchhaltung ist nicht die Gesamtbelastung gemäss Grundbuch, sondern der tatsächliche Schuldbetrag zu führen.
 - regel: Anhangangabe verpfändeter Liegenschaften zu Buchwerten.
   quelle: hwp-bur-2023__rz-0846-s349
   zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen Ansätzen wie in der Bilanz, also zu Buchwerten.
-- regel: Steuerliche Normalsätze ESTV-Merkblatt A 1995 (Wohn-/Geschäftshäuser, Fabrikgebäude; mit/ohne Boden) gelten vom Buchwert (Tabelle 26 Treuhand-Almanach; Sätze wegen PDF-Layout
-    im Original prüfen).
-  quelle: treuhand-almanach-2026__s061-1
-  zitat: Die genannten Abschreibungssätze sind vom Buchwert zu berücksichtigen.
-- regel: 'Steuerlich: Abschreibung von Gebäuden mit Anteil Boden nur bis zum Wert des Landes.'
-  quelle: treuhand-almanach-2026__s061-1
-  zitat: Abschreibung nur bis zum Wert des Landes erlaubt.
+- regel: 'Steuerliche Normalsätze ESTV-Merkblatt A 1995 (Steuerpraxis, kein handelsrechtlicher Massstab): Prozent vom Buchwert, vom Anschaffungswert die Hälfte; Sätze je Gebäudeart mit
+    `wert abschreibung gebäude` (Original geprüft). Wohnhaus-Satz nur für Wohnhäuser von Immobiliengesellschaften und Personalwohnhäuser; gemischte Nutzung anteilig.'
+  quelle: estv-mb-a-1995__s001-5
+  zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
+- regel: 'Höherer Satz «Gebäude allein» nur, wenn das Gebäude separat aktiviert ist; Gebäude und Land in einer Bilanzposition: tieferer Satz und Abschreibung nur bis auf den Landwert;
+    auf Land grundsätzlich keine Abschreibung.'
+  quelle: estv-mb-a-1995__s001-5
+  zitat: Der höhere Abschreibungssatz für Gebäude allein kann nur angewendet werden, wenn der restliche Buchwert bzw. die Gestehungskosten der Gebäude separat aktiviert sind.
 fallstricke:
 - text: 'Bewertungsgutachten sind nicht Bestandteil der eingeschränkten Revision: keine Einholung bzw. Beauftragung; nur vorhandene Unterlagen des Kunden auswerten.'
   quelle: hwp-er-2026__rz-0134-s203
@@ -306,7 +308,8 @@ fallstricke:
 - text: Im Grundbuch als Zugehör angemerkte Maschinen/Betriebseinrichtungen gehören nicht zu den Grundstücken (Abgrenzung zu G1 mobile Sachanlagen).
   quelle: hwp-bur-2023__rz-0353-s233
   zitat: Nicht zu den Grundstücken im juristischen Sinne zählen Maschinen und Betriebseinrichtungen, selbst wenn sie im Grundbuch als Zugehör angemerkt sind
-- text: 'Land und Gebäude getrennt führen: steuerliche Sätze unterscheiden sich je nach Bilanzierungsart.'
+- text: 'Land und Gebäude getrennt führen: steuerliche Sätze unterscheiden sich je nach Bilanzierungsart (ESTV MB A: tieferer Satz, wenn Gebäude und Land in einer einzigen Bilanzposition
+    erscheinen ^[estv-mb-a-1995__s001-5]).'
   quelle: hwp-bur-2023__rz-0354-s233
   zitat: da für die beiden Bilanzierungsarten die steuerlich zulässigen Abschreibungssätze unterschiedlich sind
 - text: Ein getrennter Ausweis mobiler/immobiler Sachanlagen ist nicht vorgeschrieben; ein fehlender Ausweis ist daher kein Gliederungsfehler.
@@ -315,34 +318,39 @@ fallstricke:
 - text: Aufwertung nach Art. 725c OR ist eine besondere Prüfung mit schriftlicher Bestätigung; Entscheid und Bestätigung nur durch den WP.
   quelle: or__art-725c
   zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt
-- text: 'Keine immobilen Sachanlagen bilanziert: Prüffeld nicht einfach leer lassen, sondern Begründung (z.B. Geschäftsräume gemietet) und Hinweise auf Mieterausbauten, Liegenschaftserträge
-    oder Mietverpflichtungen dokumentieren; Anwendbarkeit entscheidet der WP.'
+- text: Stille Reserven = Differenz Buchwert zu gesetzlichem Höchstwert, nicht zum Verkehrswert; Wertsteigerungen von Grundstücken über AK/HK sind Zwangsreserven und fallen nicht unter
+    die Offenlegung der Nettoauflösung ^[hwp-bur-2023__rz-0817-s341-t2].
+  quelle: hwp-bur-2023__rz-0654-s294
+  zitat: Solche Zwangsreserven entstehen z.B. durch die Wertzunahme von Grundstücken.
+- text: 'Keine Konten für Grundstücke/Bauten (Saldoliste, Anlagespiegel): je Schritt Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine immobilen Sachanlagen)»,
+    Entscheid WP. Hinweise weitergeben: langfristiger Mietvertrag → Anhang (T1-103) ^[hwp-bur-2023__rz-0835-s346], Mietkaution → H1-103, Untermiete 7500 → SCH5.'
+  quelle: konzept-ki-revisionsagent-2026__c011-2
+  zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 fragen_kunde:
 - frage: Nach welchen Grundsätzen werden die Liegenschaften bewertet (AK/HK, Land und Gebäude getrennt), welche Nutzungsdauern, Abschreibungssätze und -methoden gelten, und wurde gegenüber
     dem Vorjahr etwas geändert (mit Begründung)?
   zweck: 'G2-101/102: Bewertungsgrundlagen und Stetigkeit'
-- frage: Wie wird Unterhalt von wertvermehrenden Investitionen abgegrenzt (Aktivierungsgrenze, Projektbetrachtung) und welche grösseren Renovationen/Umbauten fanden 2025 statt, wie wurden
-    sie verbucht?
+- frage: Wie wird Unterhalt von wertvermehrenden Investitionen abgegrenzt (Aktivierungsgrenze, Projektbetrachtung) und welche grösseren Renovationen/Umbauten fanden im Berichtsjahr statt,
+    wie wurden sie verbucht?
   zweck: 'G2-103/403/409: Aktivierungsfähigkeit, stille Reserven'
-- frage: Wurden 2025 oder nach dem Bilanzstichtag Liegenschaften gekauft oder verkauft? Bitte Verträge, Datum des Grundbucheintrags und Abrechnung des Verkaufserfolgs einreichen.
+- frage: Wurden im Berichtsjahr oder nach dem Bilanzstichtag Liegenschaften gekauft oder verkauft? Bitte Verträge, Datum des Grundbucheintrags und Abrechnung des Verkaufserfolgs einreichen.
   zweck: 'G2-104: Bestand, Periodenabgrenzung, Erfassung Gewinne/Verluste'
 - frage: 'Bestehen Anzeichen einer dauerhaften Wertminderung (Leerstand, Umzonung, Schäden, Altlasten, Nutzungsänderung, ungenügende Erträge)? Falls ja: Wie wurde die Werthaltigkeit
     beurteilt?'
   zweck: 'G2-105/404/408: Bewertung'
 - frage: Welche Grundpfandrechte/Schuldbriefe lasten auf den Liegenschaften, wofür sind sie verpfändet (auch für Dritte), und bestehen Kaufs-, Vorkaufs-, Bau- oder Bauhandwerkerpfandrechte?
   zweck: 'G2-106/401/320: Rechte und Verpflichtungen, Anhang'
-- frage: Sind alle Mieterträge (inkl. Parkplätze, Untermiete, Mieten von Nahestehenden) erfasst, welche Leerstände und Mietzinsreduktionen bestanden 2025?
+- frage: Sind alle Mieterträge (inkl. Parkplätze, Untermiete, Mieten von Nahestehenden) erfasst, welche Leerstände und Mietzinsreduktionen bestanden im Berichtsjahr?
   zweck: 'G2-411: Vollständigkeit der Erträge'
 - frage: Liegen Schätzungen oder Gutachten zu den Liegenschaften vor (Bank, Steuer, Versicherung)? Bitte Kopie einreichen.
   zweck: 'G2-402/408: Hinweise zur Werthaltigkeit (keine Einholung durch die Revision)'
-- frage: Wie werden die stillen Reserven auf Liegenschaften berechnet (Methode wie Vorjahr?) und wie haben sie sich 2025 verändert?
+- frage: Wie werden die stillen Reserven auf Liegenschaften berechnet (Methode wie Vorjahr?) und wie haben sie sich im Berichtsjahr verändert?
   zweck: 'G2-321/410: stille Reserven, Anhang'
 - frage: Bestehen Verpflichtungen für Sanierungen, Altlasten oder Rückbau (z.B. aus Baurecht)?
   zweck: 'G2-105/407: Rückstellungen, Bewertung'
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'G2-201/G2-301: Bilanzkonten mit Vorjahr (Feststellung, ob Konten für Grundstücke/Bauten geführt werden; Abgrenzung zu 1500–1549 mobil); Erfolgsrechnung mit Raumaufwand, Unterhalt
-    (6000/6050) und Liegenschaftsertrag (7500) für G2-404/409/411'
+  bezug: 'Keine Konten für Grundstücke/Bauten (nur 1500–1549 mobil) → G2 «Vorschlag: nicht anwendbar» (Entscheid WP); 7500 Untermiete → SCH5'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: 'G2-301 (Bilanzposition Sachanlagen), G2-320 (Anhang: Bewertung von Aktiven, nicht bilanzierte Mietverbindlichkeiten), G2-411 (Liegenschaftsertrag)'
 - datei: G_Anlagevermoegen/Anlagespiegel_2025.md
@@ -352,7 +360,7 @@ testakte_2025:
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
   bezug: 'G2-304: Buchungen in neuer Rechnung (Auszug) für die Durchsicht auf Vorjahresbeträge'
 - datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
-  bezug: 'G2-405/406/411: Nutzung gemieteter statt eigener Liegenschaft, Untermiete Parkplätze, Mietkaution (Abgrenzung Eigentum/Miete)'
+  bezug: Gemietete statt eigene Liegenschaft (Begründung «nicht anwendbar»); Mietdauer fest bis 31.12.2033 → Anhang langfristige Mietverpflichtung (T1-103); Mietkaution → H1
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
   bezug: 'G2-106/401: Abschnitt «Sicherheiten zu unseren Gunsten» (Abgleich auf allfällige Grundpfandsicherheiten)'
 - datei: G_Anlagevermoegen/Kaufvertrag_Verkauf_Lieferwagen_14.10.2025.md
@@ -372,7 +380,7 @@ schritte:
   - Anlagespiegel Liegenschaften
   - Anhang (Bewertungsgrundsätze)
   - Vorjahres-Arbeitspapier
-  rechnen: Abschreibungssatz je Objekt = Abschreibung 2025 / Abschreibungsbasis (AK bzw. Buchwert 01.01.); Vergleich mit Vorjahressatz
+  rechnen: Abschreibungssatz je Objekt = Abschreibung Berichtsjahr / Abschreibungsbasis (AK bzw. Buchwert 01.01.); Vergleich mit Vorjahressatz
   feststellung_wenn: Antwort widerspricht Buchhaltung/Anhang, Bewertung über AK/HK, Land planmässig abgeschrieben oder Methode/Satz ohne Begründung geändert.
   fundstellen:
   - quelle: ser-2022__anh-d-s082-1
@@ -382,13 +390,13 @@ schritte:
   - quelle: or__art-960a
     zitat: Bei ihrer Ersterfassung müssen die Aktiven höchstens zu den Anschaffungs- oder Herstellungskosten bewertet werden.
 - id: G2-102
-  vorgehen: 'Abschreibungssätze und -methoden 2025 je Objekt mit dem Vorjahr (Vorjahresakte, Anlagespiegel VJ) vergleichen und die schriftliche Kundenantwort zur Stetigkeit auswerten.
-    Bei Änderungen dokumentieren, ob Schätzungsänderung (Nutzungsdauer) oder Methodenwechsel; Effekt an G2-321 (stille Reserven) übergeben. Fehlende Antwort: Pendenz.'
+  vorgehen: 'Abschreibungssätze und -methoden des Berichtsjahres je Objekt mit dem Vorjahr (Vorjahresakte, Anlagespiegel Vorjahr) vergleichen und die schriftliche Kundenantwort zur Stetigkeit
+    auswerten. Bei Änderungen dokumentieren, ob Schätzungsänderung (Nutzungsdauer) oder Methodenwechsel; Effekt an G2-321 (stille Reserven) übergeben. Fehlende Antwort: Pendenz.'
   nachweise:
-  - Anlagespiegel 2025 und Vorjahr
+  - Anlagespiegel Berichtsjahr und Vorjahr
   - Schriftliche Kundenantwort
   - Vorjahresakte
-  rechnen: Satz 2025 – Satz VJ je Objekt; Abschreibung 2025 zum VJ-Satz als Vergleichswert; Differenz = Effekt der Änderung
+  rechnen: Satz Berichtsjahr – Satz Vorjahr je Objekt; Abschreibung Berichtsjahr zum Vorjahressatz als Vergleichswert; Differenz = Effekt der Änderung
   feststellung_wenn: Satz oder Methode ohne sachliche Begründung geändert, Abschreibung unterlassen oder Änderung nicht bei stillen Reserven/Anhang berücksichtigt.
   fundstellen:
   - quelle: or__art-958c
@@ -398,13 +406,13 @@ schritte:
   - quelle: hwp-bur-2023__rz-0337-s230
     zitat: Die gewählte Methode ist stetig anzuwenden.
 - id: G2-103
-  vorgehen: 'Schriftliche Kundenantwort zur Abgrenzungspraxis (Aktivierungsgrenze, Projektbetrachtung) auswerten und mit den Buchungen 2025 vergleichen: Zugänge auf Liegenschaftskonten
+  vorgehen: 'Schriftliche Kundenantwort zur Abgrenzungspraxis (Aktivierungsgrenze, Projektbetrachtung) auswerten und mit den Buchungen des Berichtsjahres vergleichen: Zugänge auf Liegenschaftskonten
     und grosse Posten in Unterhalts-/Reparaturkonten nach Beleginhalt (Reparatur, Erneuerung, Umbau) klassieren. Fehlende Antwort: Pendenz.'
   nachweise:
   - Schriftliche Kundenantwort
   - Kontoblätter Liegenschaften und Unterhalt
   - Bau- und Handwerkerrechnungen
-  rechnen: Unterhaltsaufwand 2025 vs. VJ; Anteil aktivierter Zugänge an den gesamten Liegenschaftsausgaben
+  rechnen: Unterhaltsaufwand Berichtsjahr vs. Vorjahr; Anteil aktivierter Zugänge an den gesamten Liegenschaftsausgaben
   feststellung_wenn: Reiner Unterhalt aktiviert (Überbewertung) oder wesentliche wertvermehrende Investition ohne Begründung im Aufwand (stille Reserve, an G2-321/409).
   fundstellen:
   - quelle: ser-2022__anh-d-s082-1
@@ -412,8 +420,8 @@ schritte:
   - quelle: hwp-bur-2023__rz-0364-s235
     zitat: Kosten, die ausschliesslich dem Unterhalt dienen, sind der Erfolgsrechnung zu belasten.
 - id: G2-104
-  vorgehen: 'Kundenantwort zu Käufen/Verkäufen 2025 und nach Stichtag mit Anlagespiegel (Zu-/Abgänge), Kontoblättern und VR-Protokollen abgleichen. Je Transaktion Vertrag, Datum Grundbucheintrag,
-    Ausbuchung (AK und kum. Abschreibungen) und Ausweis des Buchgewinns/-verlusts in der ER prüfen. Fehlende Unterlagen: Pendenz.'
+  vorgehen: 'Kundenantwort zu Käufen/Verkäufen im Berichtsjahr und nach Stichtag mit Anlagespiegel (Zu-/Abgänge), Kontoblättern und VR-Protokollen abgleichen. Je Transaktion Vertrag,
+    Datum Grundbucheintrag, Ausbuchung (AK und kum. Abschreibungen) und Ausweis des Buchgewinns/-verlusts in der ER prüfen. Fehlende Unterlagen: Pendenz.'
   nachweise:
   - Kauf-/Verkaufsverträge
   - Grundbuchauszug/-anmeldung
@@ -465,13 +473,14 @@ schritte:
   - quelle: ser-2022__anh-e-s104-1
     zitat: ist nachweislich Verfügungsberechtigte aller aktivierten Vermögenswerte
 - id: G2-201
-  vorgehen: Aus Saldoliste und Anlagespiegel Bestände (AK, kum. Abschreibungen, Buchwert), Zugänge, Abgänge, Abschreibungsaufwand und -sätze je Liegenschaftskonto 2025 vs. 2024 tabellieren.
-    Abweichungen über der Toleranz (Wesentlichkeit) begründen bzw. Begründung als Pendenz anfordern; Ergebnis im Textfeld.
+  vorgehen: Aus Saldoliste und Anlagespiegel Bestände (AK, kum. Abschreibungen, Buchwert), Zugänge, Abgänge, Abschreibungsaufwand und -sätze je Liegenschaftskonto Berichtsjahr vs. Vorjahr
+    tabellieren. Abweichungen über der Toleranz (Wesentlichkeit) begründen bzw. Begründung als Pendenz anfordern; Ergebnis im Textfeld.
   nachweise:
-  - Saldoliste 2025 mit Vorjahr
-  - Anlagespiegel 2025 und Vorjahr
+  - Saldoliste Berichtsjahr mit Vorjahr
+  - Anlagespiegel Berichtsjahr und Vorjahr
   - Kontoblätter Abschreibungen
-  rechnen: 'Veränderung = Saldo 31.12.2025 – Saldo 31.12.2024 (CHF und %); Abschreibungssatz = Abschreibung / Basis; Kontrolle: BW 01.01. + Zugänge – Abgänge – Abschreibungen = BW 31.12.'
+  rechnen: 'Veränderung = Saldo 31.12. Berichtsjahr – Saldo 31.12. Vorjahr (CHF und %); Abschreibungssatz = Abschreibung / Basis; Kontrolle: BW 01.01. + Zugänge – Abgänge – Abschreibungen
+    = BW 31.12.'
   feststellung_wenn: Wesentliche unerklärte Veränderung, Abschreibungssatz/-aufwand ohne Zu-/Abgang deutlich verändert oder Abschreibung fehlt.
   fundstellen:
   - quelle: ser-2022__anh-d-s082-1
@@ -479,10 +488,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - id: G2-202
-  vorgehen: Mit dem Rechenmodul Anlagenintensität und Finanzierung der Investitionen (Anlagedeckungsgrade, Belehnung) für 2025 und Vorjahr berechnen und Veränderungen kommentieren. Auffälligkeiten
-    (z.B. Liegenschaften kurzfristig finanziert) an die Prüffelder Finanzierung und Fortführung weitergeben.
+  vorgehen: Mit dem Rechenmodul Anlagenintensität und Finanzierung der Investitionen (Anlagedeckungsgrade, Belehnung) für Berichtsjahr und Vorjahr berechnen und Veränderungen kommentieren.
+    Auffälligkeiten (z.B. Liegenschaften kurzfristig finanziert) an die Prüffelder Finanzierung und Fortführung weitergeben.
   nachweise:
-  - Bilanz 2025 und Vorjahr (Saldoliste)
+  - Bilanz Berichtsjahr und Vorjahr (Saldoliste)
   - Hypothekar-/Darlehenskonten
   rechnen: a) Anlagenintensität = Anlagevermögen / Gesamtvermögen (zusätzlich immobile Sachanlagen / Gesamtvermögen); b) Anlagedeckungsgrad I = EK / AV, II = (EK + langfristiges FK)
     / AV; Belehnung = Hypotheken / Buchwert Liegenschaften
@@ -492,15 +501,17 @@ schritte:
     zitat: Kennzahlenanalyse → wichtige Analyse bei der Prüfungsplanung
   - quelle: hwp-er-2026__rz-0191-s224
     zitat: kurzfristige Kredite werden im Übermass zur Finanzierung von Anlagevermögen herangezogen
-  - quelle: hwp-or-2024__rz-0676-s303
-    zitat: Anlagedeckungsgrade I bis III (Eigenkapital und Fremdkapital/Anlagen und Vorräte)
+  - quelle: hwp-er-2026__rz-0031-s183
+    zitat: Vergleiche wichtiger Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten im Umlaufvermögen, Eigenkapitalanteil etc.) sind in der Regel nützlich und effizient.
 - id: G2-301
-  vorgehen: 'Saldi der Liegenschaftskonten inkl. Wertberichtigungskonten gemäss Hauptbuch/Saldoliste mit der Bilanzposition der Jahresrechnung und mit dem Total des Anlagespiegels (Grundstücke/Bauten)
-    abstimmen. Differenzen mit Konto und Betrag im Textfeld; fehlender Anlagespiegel: Pendenz.'
+  vorgehen: 'Keine Konten für Grundstücke/Bauten (Saldoliste, Anlagespiegel): je Schritt Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine immobilen Sachanlagen)»,
+    Entscheid WP. Hinweise weitergeben: langfristiger Mietvertrag → Anhang (T1-103), Mietkaution → H1-103, Untermiete 7500 → SCH5. Saldi der Liegenschaftskonten inkl. Wertberichtigungskonten
+    gemäss Hauptbuch/Saldoliste mit der Bilanzposition der Jahresrechnung und mit dem Total des Anlagespiegels (Grundstücke/Bauten) abstimmen. Differenzen mit Konto und Betrag im Textfeld;
+    fehlender Anlagespiegel: Pendenz.'
   nachweise:
-  - Saldoliste/Hauptbuch 2025
-  - Jahresrechnung 2025 (Bilanz)
-  - Anlagespiegel 2025
+  - Saldoliste/Hauptbuch Berichtsjahr
+  - Jahresrechnung Berichtsjahr (Bilanz)
+  - Anlagespiegel Berichtsjahr
   rechnen: Σ Konten Liegenschaften (AK – WB) gemäss Saldoliste = Bilanzposition = Buchwert 31.12. gemäss Anlagespiegel; Differenz = 0
   feststellung_wenn: Differenz zwischen Hauptbuch, Anlagespiegel und Bilanz.
   fundstellen:
@@ -508,12 +519,16 @@ schritte:
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
+  - quelle: hwp-bur-2023__rz-0835-s346
+    zitat: Somit sind auch langfristige Mietverträge, welche nicht innerhalb von zwölf Monaten auslaufen oder gekündigt werden können, im Anhang offenzulegen.
 - id: G2-302
   vorgehen: Anlagenverzeichnis je Objekt (Land/Gebäude getrennt) mit AK/HK, kumulierten Abschreibungen und Buchwert summieren und mit der Jahresrechnung abstimmen; Spiegelbewegungen
     nachrechnen und Anfangsbestand mit dem Vorjahresabschluss vergleichen.
   nachweise:
   - Anlagenverzeichnis/Anlagespiegel
-  - Jahresrechnung 2025
+  - Jahresrechnung Berichtsjahr
   - Vorjahresabschluss
   rechnen: Σ AK je Objekt – Σ kum. Abschreibungen = Buchwert JR; AK 01.01. + Zugänge – Abgänge = AK 31.12.; WB 01.01. + Abschreibung – WB auf Abgängen = WB 31.12.
   feststellung_wenn: Summe Inventarliste ≠ Jahresrechnung, Anlagespiegel rechnerisch falsch oder Anfangsbestand ≠ Vorjahresabschluss.
@@ -524,8 +539,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0330-s229
     zitat: Die Führung einer Anlagebuchhaltung ist für den Vermögensschutz sowie im Hinblick auf die Ermittlung stiller Reserven und zur Feststellung des Gewinns aus Anlageabgängen unumgänglich.
 - id: G2-303
-  vorgehen: 'WP-Schritt, weitergehende Handlung: nur auf Anweisung bzw. bei erhöhtem Risiko vorbereiten. Kontoblätter der Liegenschafts- und Abschreibungskonten auf ungewöhnliche Posten
-    (manuelle Korrekturen, Gegenbuchung Ertrag/Eigenkapital, Rundbeträge, Jahresendbuchungen) durchsehen; Auswahl mit Begründung und Belege aus M-Files dokumentieren; Visum offen.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D h): nur mit ausdrücklicher Anweisung des WP; ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung». Mit Anweisung: Kontoblätter der Liegenschafts- und Abschreibungskonten auf ungewöhnliche Posten (manuelle Korrekturen,
+    Gegenbuchung Ertrag/Eigenkapital, Rundbeträge, Jahresendbuchungen) durchsehen; Auswahl mit Begründung und Belege aus M-Files dokumentieren; Visum offen.'
   nachweise:
   - Kontoblätter Liegenschafts- und Abschreibungskonten
   - Belege zu ausgewählten Posten
@@ -537,22 +553,24 @@ schritte:
   - quelle: ser-2022__6-2-3
     zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt
 - id: G2-304
-  vorgehen: 'WP-Schritt, weitergehende Handlung: Kontoblätter Liegenschaften und Unterhalt in neuer Rechnung (bis Abschlussdatum) auf Rechnungen mit Leistung 2025 durchsehen (Text, Leistungsdatum).
-    Treffer: prüfen, ob per 31.12.2025 abgegrenzt oder aktiviert; Korrektur nur als Buchungsvorschlag in den Feststellungen.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D h): nur mit ausdrücklicher Anweisung des WP; ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung». Mit Anweisung: Kontoblätter Liegenschaften und Unterhalt in neuer Rechnung (bis Abschlussdatum) auf Rechnungen mit
+    Leistung im Berichtsjahr durchsehen (Text, Leistungsdatum). Treffer: prüfen, ob per 31.12. Berichtsjahr abgegrenzt oder aktiviert; Korrektur nur als Buchungsvorschlag in den Feststellungen.'
   nachweise:
-  - Kontoblätter neue Rechnung 2026
-  - Rechnungen mit Leistungsdatum 2025
-  - Kreditoren/Abgrenzungen 31.12.2025
+  - Kontoblätter Folgejahr (neue Rechnung)
+  - Rechnungen mit Leistungsdatum im Berichtsjahr
+  - Kreditoren/Abgrenzungen 31.12. Berichtsjahr
   rechnen: Σ nicht abgegrenzte Vorjahresbeträge vs. Wesentlichkeit
-  feststellung_wenn: Bau- oder Unterhaltsrechnung mit Leistung 2025 in neuer Rechnung ohne Abgrenzung/Aktivierung per 31.12.2025.
+  feststellung_wenn: Bau- oder Unterhaltsrechnung mit Leistung im Berichtsjahr in neuer Rechnung ohne Abgrenzung/Aktivierung per 31.12. Berichtsjahr.
   fundstellen:
   - quelle: ser-2022__anh-d-s082-2
     zitat: Durchsicht der Bestands- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
   - quelle: or__art-958b
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
 - id: G2-305
-  vorgehen: 'WP-Schritt, weitergehende Handlung: für wesentliche Zu- und Abgänge Kaufverträge, Bauabrechnungen, Handwerkerrechnungen, Grundbuchanmeldung und ggf. Leasing-/Baurechtsverträge
-    aus M-Files mit der Buchung vergleichen (Betrag, Datum, Eigentümerin, Objekt). Fehlende Belege als Pendenz mit Konto, Datum und Betrag.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D h): nur mit ausdrücklicher Anweisung des WP; ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung». Mit Anweisung: für wesentliche Zu- und Abgänge Kaufverträge, Bauabrechnungen, Handwerkerrechnungen, Grundbuchanmeldung
+    und ggf. Leasing-/Baurechtsverträge aus M-Files mit der Buchung vergleichen (Betrag, Datum, Eigentümerin, Objekt). Fehlende Belege als Pendenz mit Konto, Datum und Betrag.'
   nachweise:
   - Kaufverträge
   - Bauabrechnungen/Rechnungen
@@ -581,7 +599,7 @@ schritte:
   vorgehen: 'Anhang auf liegenschaftsbezogene Angaben prüfen: angewandte Grundsätze (Bewertung/Abschreibung), verpfändete Aktiven zu Buchwerten, Sicherheiten für Dritte, Leasing/Baurecht,
     ausserordentliche Gewinne aus Liegenschaftsverkäufen, Nettoauflösung stiller Reserven; mit Ergebnissen G2-104/106/321/401 abgleichen und an Prüffeld Anhang übergeben.'
   nachweise:
-  - Anhang 2025
+  - Anhang Berichtsjahr
   - Grundbuchauszüge/Kreditverträge
   - Arbeitspapiere G2-104/106/321/401
   rechnen: Anhangbetrag verpfändete Aktiven = Σ Buchwerte belasteter Liegenschaften (+ übrige verpfändete Aktiven)
@@ -594,14 +612,15 @@ schritte:
   - quelle: hwp-bur-2023__rz-0846-s349
     zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen Ansätzen wie in der Bilanz, also zu Buchwerten.
 - id: G2-321
-  vorgehen: Detailnachweis der stillen Reserven auf Liegenschaften beim Kunden beschaffen; Bestand 01.01. mit Vorjahresakte abstimmen, Veränderung 2025 (zusätzliche/unterlassene Abschreibungen,
-    Abgänge, aufwandwirksame Investitionen) nachvollziehen und Berechnungsmethode mit Vorjahr vergleichen. Nettoauflösung an Prüffeld stille Reserven/Anhang übergeben.
+  vorgehen: Detailnachweis der stillen Reserven auf Liegenschaften beim Kunden beschaffen; Bestand 01.01. mit Vorjahresakte abstimmen, Veränderung im Berichtsjahr (zusätzliche/unterlassene
+    Abschreibungen, Abgänge, aufwandwirksame Investitionen) nachvollziehen und Berechnungsmethode mit Vorjahr vergleichen. Nettoauflösung an Prüffeld stille Reserven/Anhang übergeben.
   nachweise:
-  - Detailnachweis stille Reserven 2025 und Vorjahr
+  - Detailnachweis stille Reserven Berichtsjahr und Vorjahr
   - Anlagespiegel
   - Ergebnisse G2-102/409/410
-  rechnen: Stille Reserve je Objekt = betriebswirtschaftlicher Wert – Buchwert; Veränderung = Bestand 31.12. – Bestand 01.01.; negative Veränderung = Auflösung
-  feststellung_wenn: Kein Nachweis, Methode gegenüber Vorjahr geändert oder wesentliche Nettoauflösung ohne Anhangangabe.
+  rechnen: Stille Reserve je Objekt = gesetzlich zulässiger Höchstwert (AK/HK abzüglich der nutzungsbedingt nötigen Abschreibungen, höchstens erzielbarer Wert) – Buchwert; Veränderung
+    = Bestand 31.12. – Bestand Vorjahr; negative Veränderung = Auflösung. Verkehrs-/Schätzwert über AK/HK zählt nicht (Zwangsreserve).
+  feststellung_wenn: Kein Nachweis, Methode gegenüber Vorjahr geändert, wesentliche Nettoauflösung ohne Anhangangabe oder Reserve auf Basis Verkehrs-/Schätzwert über AK/HK berechnet.
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
@@ -609,12 +628,17 @@ schritte:
     zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
   - quelle: hwp-bur-2023__rz-0341-s230
     zitat: Der Auflösungsbetrag hat in die Berechnung des Gesamtbetrags der Reserveveränderung einzufliessen
+  - quelle: hwp-bur-2023__rz-0817-s341-t2
+    zitat: ist für die obligationenrechtliche Jahresrechnung eine stichtagsbezogene Bestandsermittlung der stillen Reserven aufgrund der Differenz zwischen dem Buchwert und dem gesetzlich
+      zulässigen Höchstwert bzw. erforderlichen Betrag gemeint
+  - quelle: hwp-bur-2023__rz-0660-s295
+    zitat: Die Veränderung der Zwangsreserven ist bei der Offenlegung von Reservenauflösungen im Anhang (Art. 959c Abs. 1 Ziff. 3 OR) nicht zu berücksichtigen.
 - id: G2-322
   vorgehen: 'Dauerakte Liegenschaften in M-Files auf Aktualität prüfen und ergänzen: Grundbuchauszüge, Kauf-, Baurechts- und Mietverträge, Hypothekar-/Kreditverträge, Schuldbriefverzeichnis,
     Versicherungspolicen, Abschreibungsplan. Fehlende oder veraltete Dokumente als Pendenz; nichts löschen.'
   nachweise:
   - Dauerakte M-Files
-  - Neue Verträge/Grundbuchauszüge 2025
+  - Neue Verträge/Grundbuchauszüge Berichtsjahr
   rechnen: ''
   feststellung_wenn: 'Nur Pendenz: Dauerakte fehlt oder ist veraltet (z.B. Grundbuchauszug vor letztem Zu-/Abgang).'
   fundstellen:
@@ -640,11 +664,13 @@ schritte:
   - quelle: or__art-959c-t2
     zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
 - id: G2-402
-  vorgehen: 'Bewertungsgutachten sind nicht Bestandteil der eingeschränkten Revision: der Agent holt keine ein und beauftragt niemanden. Er prüft nur, ob in M-Files bereits Schätzungen
-    des Kunden (Bank, Steuer, Versicherung) liegen, und vermerkt Datum und Wert für G2-105/408; Einholung nur auf ausdrückliche Anweisung des WP.'
+  vorgehen: 'Nur auf Anweisung des WP. Ein Gutachten einholen oder beauftragen: nie durch den Agenten (nicht Bestandteil der eingeschränkten Revision, SER Anhang D h); ob eines eingeholt
+    wird, entscheidet und veranlasst der WP. Mit Anweisung: nur bereits in M-Files vorhandene Schätzungen des Kunden (Bank, Steuer, Versicherung) suchen und Datum, Ersteller und Wert
+    für G2-105/408 notieren.'
   nachweise:
   - Vorhandene Schätzungen/Gutachten des Kunden (falls vorhanden)
-  rechnen: Vorhandener Schätzwert – Buchwert = Hinweis auf Reserve bzw. Unterdeckung (kein Bewertungsmassstab)
+  rechnen: Buchwert – vorhandener Schätzwert; nur ein positiver Betrag (Schätzwert unter Buchwert) ist ein Hinweis für G2-105/408. Ein Schätzwert über dem Buchwert ist weder Aufwertungsgrundlage
+    noch stille Reserve.
   feststellung_wenn: Vorhandene Schätzung liegt unter dem Buchwert (Hinweis auf Wertberichtigungsbedarf, an G2-105/408).
   fundstellen:
   - quelle: ser-2022__anh-d-s083-1
@@ -653,6 +679,9 @@ schritte:
     zitat: Experten- und Bewertungsgutachten
   - quelle: hwp-bur-2023__rz-0366-s235
     zitat: erfüllt eine unabhängige Immobilienschätzung das Kriterium des beobachtbaren Marktpreises im Sinne von Art. 960b Abs. 1 OR nicht
+  - quelle: hwp-bur-2023__rz-0817-s341-t2
+    zitat: ist für die obligationenrechtliche Jahresrechnung eine stichtagsbezogene Bestandsermittlung der stillen Reserven aufgrund der Differenz zwischen dem Buchwert und dem gesetzlich
+      zulässigen Höchstwert bzw. erforderlichen Betrag gemeint
 - id: G2-403
   vorgehen: 'Je wesentlichem Zugang anhand Beleg beurteilen: Erwerb (Kaufpreis plus direkt zurechenbare Nebenkosten wie Handänderungsgebühren, Provisionen, abzüglich Rückvergütungen),
     Bau (Baukosten, ggf. Bauzinsen), Umbau/Erneuerung (Wertvermehrung oder zusätzliche Nutzung, Projektbetrachtung). Nicht aktivierbare Teile im Textfeld beziffern.'
@@ -718,14 +747,17 @@ schritte:
   - quelle: hwp-er-2026__rz-0134-s203
     zitat: das Einholen von Bestätigungen von Dritten
 - id: G2-407
-  vorgehen: Abschreibungen 2025 je Objekt nachrechnen (Basis, Satz, Methode, pro rata bei Zugängen) und mit dem Abschreibungsaufwand der ER abstimmen. Nutzungsdauer plausibilisieren
-    (Gebäude/Land getrennt, Baurecht). Abweichungen zu steuerlichen Normalsätzen nur als Hinweis auf stille Reserven an G2-321.
+  vorgehen: 'Abschreibungen des Berichtsjahres je Objekt nachrechnen (Basis, Satz, Methode, pro rata bei Zugängen) und mit dem Abschreibungsaufwand der ER abstimmen. Nutzungsdauer plausibilisieren
+    (Gebäude/Land getrennt, Baurecht). Abweichungen zu steuerlichen Normalsätzen nur als Hinweis auf stille Reserven an G2-321. Steuerlich erhöhte Abschreibungen auf energiesparende
+    Investitionen (MB A Ziff. 2: bis 50 % vom Buchwert im 1. und 2. Jahr) sind kein handelsrechtlicher Massstab; der über den nutzungsbedingten Wertverlust hinausgehende Teil ist stille
+    Reserve → G2-321.'
   nachweise:
   - Anlagespiegel
   - Abschreibungsplan
   - Kontoblatt Abschreibungen Liegenschaften
   - Baurechtsvertrag (falls vorhanden)
-  rechnen: 'Soll-Abschreibung = Basis × Satz (linear: AK; degressiv: Buchwert 01.01.), pro rata bei Zugang; Σ Soll = Abschreibungsaufwand ER; Differenz'
+  rechnen: 'Soll-Abschreibung = Basis × Satz (linear: AK; degressiv: Buchwert 01.01.), pro rata bei Zugang; Σ Soll = Abschreibungsaufwand ER; Differenz; ESTV-Vergleichssatz je Objekt:
+    `wert abschreibung gebäude` (vom Buchwert; vom Anschaffungswert ½) – Differenz nur als Hinweis an G2-321 bzw. Prüffeld S1'
   feststellung_wenn: Abschreibung unterlassen oder rechnerisch falsch, Land planmässig abgeschrieben oder Abschreibung unter den Passiven ausgewiesen.
   fundstellen:
   - quelle: or__art-960a
@@ -734,8 +766,13 @@ schritte:
     zitat: Die Abschreibungen von Gebäuden richten sich nach der Nutzungsdauer.
   - quelle: hwp-bur-2023__rz-0361-s235
     zitat: Unbebaute Grundstücke unterliegen im Allgemeinen keinem nutzungsbedingten Wertverzehr, weshalb Abschreibungen normalerweise nicht erforderlich sind.
-  - quelle: treuhand-almanach-2026__s061-1
-    zitat: Die genannten Abschreibungssätze sind vom Buchwert zu berücksichtigen.
+  - quelle: estv-mb-a-1995__s001-1
+    zitat: Normalsätze in Prozenten des Buchwertes
+  - quelle: estv-mb-a-1995__s001-3
+    zitat: im ersten und im zweiten Jahr bis zu 50% vom Buchwert
+  - quelle: hwp-bur-2023__rz-0329-s228-t2
+    zitat: Falls jedoch auf dem Anlagegegenstand mehr abgeschrieben worden war, als gemäss nutzungs- und altersbedingtem Wertverlust erforderlich gewesen wäre, wurden stille Reserven
+      gebildet
 - id: G2-408
   vorgehen: Restbuchwert je Objekt mit verfügbaren Indikatoren für den erzielbaren Wert vergleichen (Rentabilität G2-404, vorhandene Schätzungen G2-402, Zustand/Unterhalt, Leerstand);
     Ermessenspunkte für den WP im Textfeld festhalten. Bei möglicher Unterdeckung Werthaltigkeitsnachweis des Kunden als Pendenz.
@@ -751,8 +788,9 @@ schritte:
   - quelle: or__art-960a
     zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
 - id: G2-409
-  vorgehen: Unterhalts-, Reparatur- und Renovationskonten 2025 auf grössere Posten (Schwelle nach Wesentlichkeit) durchsehen und nach Beleg in werterhaltend/wertvermehrend klassieren.
-    Wertvermehrende Beträge im Aufwand beziffern und als stille Reserve an G2-321 übergeben; steuerliche Folgen beurteilt der WP (Schlussbesprechung).
+  vorgehen: Unterhalts-, Reparatur- und Renovationskonten des Berichtsjahres auf grössere Posten (Schwelle nach Wesentlichkeit) durchsehen und nach Beleg in werterhaltend/wertvermehrend
+    klassieren. Umbauten und Renovationen als Projekt als Ganzes klassieren, nicht je Einzelrechnung. Wertvermehrende Beträge im Aufwand beziffern und als stille Reserve an G2-321 übergeben;
+    steuerliche Folgen beurteilt der WP (Schlussbesprechung).
   nachweise:
   - Kontoblätter Unterhalt/Reparaturen Liegenschaften
   - Rechnungen grösserer Posten
@@ -762,6 +800,8 @@ schritte:
   - quelle: hwp-bur-2023__rz-0364-s235
     zitat: Hingegen ist die Aktivierung von Kosten für Erneuerungen, Verbesserungen und Umbauten gerechtfertigt, sofern damit eine Wertvermehrung oder eine zusätzliche Nutzungsmöglichkeit
       geschaffen wird.
+  - quelle: hwp-bur-2023__rz-0364-s235
+    zitat: In diesem Sinne sind weniger einzelne Bautätigkeiten zu beurteilen, sondern das Projekt als Ganzes.
   - quelle: hwp-bur-2023__rz-0739-s311-t1
     zitat: wertvermehrenden Unterhaltskosten
   - quelle: or__art-960a
@@ -786,9 +826,10 @@ schritte:
   nachweise:
   - Mieterspiegel/Mietverträge
   - Kontoblatt Liegenschaftsertrag
-  - Erfolgsrechnung 2025 und Vorjahr
-  rechnen: Soll-Ertrag = Σ (Monatsmiete × vermietete Monate) je Vertrag; Differenz zum gebuchten Ertrag; Ertrag 2025 vs. VJ
-  feststellung_wenn: Unerklärte Differenz Soll/Ist, Ertrag fällt ohne Begründung weg, Mieten Nahestehender auffällig oder falscher Ausweis.
+  - Erfolgsrechnung Berichtsjahr und Vorjahr
+  rechnen: Soll-Ertrag = Σ (Monatsmiete × vermietete Monate) je Vertrag; Differenz zum gebuchten Ertrag; Ertrag Berichtsjahr vs. Vorjahr
+  feststellung_wenn: Unerklärte Differenz Soll/Ist, Ertrag fällt ohne Begründung weg, Mieten Nahestehender auffällig oder Ausweis passt nicht zum Hauptzweck (betriebsfremd nur, wenn
+    die Vermietung nicht zum Hauptzweck gehört).
   fundstellen:
   - quelle: or__art-959b-t1
     zitat: betriebsfremder Aufwand und betriebsfremder Ertrag

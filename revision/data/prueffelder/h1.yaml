@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 17
     korrigiert: true
-kurzbeschrieb: 'Finanzanlagen (Art. 959a Abs. 1 Ziff. 2 lit. a OR): langfristig gehaltene Wertschriften, Darlehen, Kautionen/Depots, Krypto-Assets mit langfristiger Halteabsicht. Eingeschränkte
-  Revision: Bestand (Aufstellung/Depotauszug), Bewertung (Anschaffungs-/Niederstwert oder Kurs, Art. 960b OR), Gliederung, eigene Anteile, Verpfändungen, VSt, Anhang. Abgrenzung: Beteiligungen
-  → H3, Aktivdarlehen → H2.'
+kurzbeschrieb: 'Finanzanlagen (Art. 959a Abs. 1 Ziff. 2 lit. a OR). Agent: 101–105 schriftlich, 201/202, 301, 302 eigene Anteile, 312–315 nur bei Krypto, 320–322. WP-Schritte 305–311
+  und 4xx (Verpfändung, Kursliste, VSt) nur mit Anweisung des WP. Beteiligungen → H3, Aktivdarlehen → H2.'
 gesetz:
 - thema: 'Mindestgliederung: Finanzanlagen und Beteiligungen als eigene Positionen des Anlagevermögens (Art. 959a Abs. 1 Ziff. 2 OR)'
   quelle: or__art-959a-t1
@@ -84,6 +83,18 @@ gesetz:
 - thema: 'Eigene Aktien: Erwerbsgrenze 10 % des Aktienkapitals (Art. 659 Abs. 2 OR)'
   quelle: or__art-659
   zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+- thema: 'Eigene Aktien: Höchstgrenze 20 % bei Erwerb wegen Übertragbarkeitsbeschränkung oder Auflösungsklage (Art. 659 Abs. 3 OR)'
+  quelle: or__art-659
+  zitat: Steht der Erwerb im Zusammenhang mit einer Übertragbarkeitsbeschränkung oder einer Auflösungsklage, so beträgt die Höchstgrenze 20 Prozent.
+- thema: 'Eigene Aktien: Überhang über 10 % innert zweier Jahre veräussern oder vernichten (Art. 659 Abs. 3 OR)'
+  quelle: or__art-659
+  zitat: Die über 10 Prozent hinaus erworbenen Aktien sind innert zweier Jahre zu veräussern oder durch Kapitalherabsetzung zu vernichten.
+- thema: 'GmbH: eigene Stammanteile bis 10 % des Stammkapitals (Art. 783 Abs. 1 OR)'
+  quelle: or__art-783
+  zitat: der gesamte Nennwert dieser Stammanteile zehn Prozent des Stammkapitals nicht übersteigt
+- thema: 'GmbH: Höchstgrenze 35 % bei Übertragbarkeitsbeschränkung, Austritt oder Ausschluss (Art. 783 Abs. 2 OR)'
+  quelle: or__art-783
+  zitat: so beträgt die Höchstgrenze 35 Prozent
 - thema: 'Eigene Aktien: Erwerb nur mit frei verwendbarem Eigenkapital in Höhe des Anschaffungswerts (Art. 659 Abs. 1 OR)'
   quelle: or__art-659
   zitat: Die Gesellschaft darf eigene Aktien nur dann erwerben, wenn frei verwendbares Eigenkapital in der Höhe des Anschaffungswerts vorhanden ist.
@@ -117,6 +128,24 @@ risiken:
   - BE
   quelle: hwp-bur-2023__rz-0271-s217
   zitat: In der Folgebewertung sind die Finanzanlagen zu ihrem Anschaffungswert abzüglich notwendiger Wertberichtigungen zu bilanzieren
+- text: 'Falsche Gliederung: langfristig gebundene Aktiven (z.B. bis Mietende gesperrte Kautionen) im Umlaufvermögen; langfristig gehaltene Anteile mit massgeblichem Einfluss (vermutet
+    ab 20 % Stimmrechte) als Finanzanlage oder Anzahlung statt Beteiligung.'
+  pruefziele:
+  - DO
+  quelle: hwp-bur-2023__rz-0266-s217
+  zitat: Nicht als Finanzanlagen, sondern separat als Beteiligungen zu bilanzieren sind
+- text: Verpfändete, gesperrte oder als Sicherheit hinterlegte Finanzanlagen im Anhang nicht offengelegt.
+  pruefziele:
+  - RV
+  - DO
+  quelle: or__art-959c-t2
+  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- text: Eigene Anteile als Finanzanlage aktiviert statt als Minusposten im Eigenkapital; gesetzliche Grenzen überschritten.
+  pruefziele:
+  - EX
+  - DO
+  quelle: or__art-659a
+  zitat: einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
 - text: Unzulässige Höherbewertung über den Anschaffungswert (z.B. unrealisierte Kurs- oder Fremdwährungsgewinne), ohne dass die Voraussetzungen der Kursbewertung nach Art. 960b OR erfüllt
     sind.
   pruefziele:
@@ -141,12 +170,6 @@ risiken:
   - BE
   quelle: ser-2022__anh-d-s081-1
   zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
-- text: 'Falsche Gliederung: langfristig gebundene Aktiven (z.B. bis Mietende gesperrte Kautionen) im Umlaufvermögen; langfristig gehaltene Anteile mit massgeblichem Einfluss (vermutet
-    ab 20 % Stimmrechte) als Finanzanlage oder Anzahlung statt Beteiligung.'
-  pruefziele:
-  - DO
-  quelle: hwp-bur-2023__rz-0266-s217
-  zitat: Nicht als Finanzanlagen, sondern separat als Beteiligungen zu bilanzieren sind
 - text: Erträge (Zinsen, Dividenden, Kursgewinne) nicht, netto oder in falscher Periode erfasst.
   pruefziele:
   - VO
@@ -157,49 +180,21 @@ risiken:
   pruefziele:
   - VO
   - BE
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
-- text: Verpfändete, gesperrte oder als Sicherheit hinterlegte Finanzanlagen im Anhang nicht offengelegt.
-  pruefziele:
-  - RV
-  - DO
-  quelle: or__art-959c-t2
-  zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+    Verrechnungssteuer
 - text: 'Einzahlungs- oder Nachschusspflichten aus gehaltenen Titeln im Anhang nicht als Eventualverbindlichkeit offengelegt (Beteiligungen: H3-402).'
   pruefziele:
   - RV
   - DO
   quelle: hwp-bur-2023__rz-0317-s226
   zitat: Nachschusspflichten und ähnliche latente Verbindlichkeiten sind im Anhang als Eventualverbindlichkeiten
-- text: Eigene Anteile als Finanzanlage aktiviert statt als Minusposten im Eigenkapital; gesetzliche Grenzen überschritten.
-  pruefziele:
-  - EX
-  - DO
-  quelle: or__art-659a
-  zitat: einen dem Anschaffungswert entsprechenden Betrag als Minusposten des Eigenkapitals darzustellen
 - text: Eigene Aktien erworben ohne frei verwendbares Eigenkapital in Höhe des Anschaffungswerts, auch durch kontrollierte Unternehmen (Art. 659 Abs. 1, Art. 659b OR).
   pruefziele:
   - RV
   - DO
   quelle: or__art-659
   zitat: Die Gesellschaft darf eigene Aktien nur dann erwerben, wenn frei verwendbares Eigenkapital in der Höhe des Anschaffungswerts vorhanden ist.
-- text: 'Krypto-Assets: Verfügungsmacht nicht nachgewiesen bzw. Bestand gemäss Blockchain gehört nicht dem Unternehmen.'
-  pruefziele:
-  - EX
-  - RV
-  quelle: hwp-bur-2023__rz-0044-s166-t2
-  zitat: Diese Information belegt die Verfügungsmacht über die entsprechenden Bestände jedoch noch nicht.
-- text: 'Krypto-Assets: unvollständige Erfassung (nicht erfasste Wallets, Forks, Airdrops, Staking-Rewards).'
-  pruefziele:
-  - VO
-  quelle: hwp-bur-2023__rz-0043-s166
-  zitat: Zu beachten ist dabei auch die Vollständigkeit der Erfassung von Token aus Abspaltungen (sog. Forks)
-- text: 'Krypto-Assets: hohe Volatilität, falsche Preisquelle oder Stichtag; wesentliche Kursverluste nach dem Stichtag nicht offengelegt.'
-  pruefziele:
-  - BE
-  - DO
-  quelle: hwp-bur-2023__rz-0055-s170
-  zitat: Falls nach dem Bilanzstichtag, aber vor Genehmigung der Jahresrechnung wesentliche Wertberichtigungen auf Kryptowährungen im neuen Jahr notwendig werden
 - text: Nettoauflösung stiller Reserven auf Finanzanlagen beschönigt das Ergebnis und ist nicht offengelegt.
   pruefziele:
   - BE
@@ -220,6 +215,13 @@ risiken:
   - BE
   quelle: hwp-er-2026__rz-0168-s215
   zitat: Das Fehlen eines schriftlichen Vertrags mit Zins und Rückzahlungskonditionen sowie allfällig notwendigen Sicherheiten kann ein Indiz dafür sein
+- text: Offener Covid-19-Kredit und Darlehen an Gesellschafter/Nahestehende gewährt oder Darlehen von ihnen zurückbezahlt (Art. 2 Abs. 2 lit. b Covid-19-SBüG) – Pflichten der Revisionsstelle
+    nach Art. 23.
+  pruefziele:
+  - RV
+  - DO
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
 - text: 'Unverzinste oder ungenügend verzinste Darlehen an Beteiligte = geldwerte Leistung (VSt 35 %, unaufgefordert mit Formular 102 zu deklarieren). Achtung Fassung: Rundschreiben
     2026 gilt für 2026; für das GJ 2025 ist das Rundschreiben 2025 massgebend (nicht im Wiki erfasst).'
   pruefziele:
@@ -227,6 +229,23 @@ risiken:
   - DO
   quelle: estv-zinsen-2026__s001-1
   zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+- text: 'Krypto-Assets: Verfügungsmacht nicht nachgewiesen bzw. Bestand gemäss Blockchain gehört nicht dem Unternehmen.'
+  pruefziele:
+  - EX
+  - RV
+  quelle: hwp-bur-2023__rz-0044-s166-t2
+  zitat: Diese Information belegt die Verfügungsmacht über die entsprechenden Bestände jedoch noch nicht.
+- text: 'Krypto-Assets: unvollständige Erfassung (nicht erfasste Wallets, Forks, Airdrops, Staking-Rewards).'
+  pruefziele:
+  - VO
+  quelle: hwp-bur-2023__rz-0043-s166
+  zitat: Zu beachten ist dabei auch die Vollständigkeit der Erfassung von Token aus Abspaltungen (sog. Forks)
+- text: 'Krypto-Assets: hohe Volatilität, falsche Preisquelle oder Stichtag; wesentliche Kursverluste nach dem Stichtag nicht offengelegt.'
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0055-s170
+  zitat: Falls nach dem Bilanzstichtag, aber vor Genehmigung der Jahresrechnung wesentliche Wertberichtigungen auf Kryptowährungen im neuen Jahr notwendig werden
 unterlagen:
 - dokument: Aufstellung/Wertschriftenverzeichnis der Finanzanlagen per 31.12. (Titel, Menge, Anschaffungswert, Buchwert, Kurswert)
   zweck: Bestand und Bewertung, Abstimmung mit Hauptbuch (H1-301, H1-305)
@@ -275,8 +294,8 @@ unterlagen:
   zitat: Feststellen des Bestands an eigenen Kapitalanteilen
 - dokument: Verrechnungssteuer-Rückerstattungsantrag bzw. Nachweis der Rückerstattung
   zweck: Aktivierung und Werthaltigkeit VSt-Guthaben (H1-404)
-  quelle: treuhand-almanach-2026__s068-2
-  zitat: Der Antrag auf Rückerstattung der Verrechnungssteuer muss bei der zuständigen Behörde schriftlich beantragt werden.
+  quelle: vstg__art-29
+  zitat: Wer Rückerstattung der Verrechnungssteuer beansprucht, hat sie bei der zuständigen Behörde schriftlich zu beantragen.
 - dokument: Vom Unternehmen selbst eingeholte Bestätigungen Dritter (z.B. Bank, Custodian), sofern vorhanden
   zweck: Zusätzlicher Bestandesnachweis ohne eigene Drittbestätigungsanfrage
   quelle: hwp-er-2026__rz-0137-s203
@@ -385,11 +404,11 @@ fallstricke:
   quelle: konzept-ki-revisionsagent-2026__c008-1
   zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
 - text: Weitergehende Handlungen nur bei angenommener wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko; ohne solches Risiko und bei ausreichenden Nachweisen keine. Der Agent
-    beurteilt das Risiko nicht selbst, sondern übernimmt es aus der Risikobeurteilung 3.1 bzw. der Anweisung des WP.
+    löst weitergehende Handlungen nie selbst aus; ein erhöhtes Risiko meldet er dem WP als Notiz.
   quelle: hwp-er-2026__rz-0133-s203
   zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
     vorzunehmen.
-- text: 'Ob der Agent WP-Schritte überhaupt vorbereitet, ist noch offen: bis zum Entscheid nur bei Risiko gemäss 3.1 oder auf Anweisung, sonst Hinweis als Pendenz.'
+- text: 'Ob der Agent WP-Schritte vorbereitet, ist offen (consis): bis zum Entscheid nur mit ausdrücklicher Anweisung des WP; ein erhöhtes Risiko aus 3.1 nur als Notiz an den WP.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: 'Befragungsschritte 1xx: Agent befragt nicht selbst, wertet nur schriftliche Antworten aus (10.11 Kundenbefragung), sonst Frage als Pendenz; Status höchstens «teilweise bearbeitet».'
@@ -432,13 +451,17 @@ fallstricke:
 - text: Blockexplorer-Daten Dritter nur ausnahmsweise und mit zusätzlicher Prüfung der Verlässlichkeit verwenden (HWP OR, ergänzend).
   quelle: hwp-or-2024__rz-1172-s418
   zitat: Der Abschlussprüfer stützt sich nur in Ausnahmefällen auf Informationen von Drittparteien (sog. «Blockexplorer») ab.
-- text: Steuerwerte (ESTV-Kursliste, Formelwerte nicht kotierter Titel) sind Steuerwerte; die handelsrechtliche Werthaltigkeit (innerer Wert, Bonität) ist separat zu beurteilen.
+- text: 'Steuerwerte (ESTV-Kursliste, Formelwerte nicht kotierter Titel) sind Steuerwerte; die handelsrechtliche Werthaltigkeit (innerer Wert, Bonität) ist separat zu beurteilen. Ausnahme
+    Krypto-Assets mit Marktpreisbewertung: ESTV-Kurs als Preisquelle zulässig (siehe Bewertung, HWP BuR Rz 45).'
+  quelle: treuhand-almanach-2026__s060-1
+  zitat: Bewertung von Wertschriften für die Vermögenssteuer
 - text: Gratisaktien nicht aktivieren; Abgänge zum Buchwert ausbuchen, damit realisierte Gewinne/Verluste sichtbar sind.
   quelle: hwp-bur-2023__rz-0279-s219
   zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
 - text: Verrechnungssteuer nur rückforderbar, wenn der Ertrag ordnungsgemäss (brutto) als Ertrag verbucht ist.
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+    Verrechnungssteuer
 - text: 'Doppelbearbeitung vermeiden: Beteiligungen (Bestand, Bewertung, Zugang, Einzahlungs-/Nachschusspflicht, Anhang) in H3 (H3-301/302/303/320/402), Aktivdarlehen in H2 (Bonität
     H2-302, Einlagenrückgewähr H2-404); H1 hält nur Fehlklassierungen fest und verweist.'
   quelle: katalog-revio4__c003-34
@@ -449,10 +472,11 @@ fallstricke:
 - text: 'Eigene Anteile: H1-302 und H3-401 sind inhaltlich gleich; einmal bearbeiten, im anderen Schritt verweisen.'
   quelle: katalog-revio4__c003-34
   zitat: Feststellen des Bestandes an eigenen Anteilen (Aktien, Stammanteile)
-- text: Möglicher Verstoss gegen Art. 659 OR (eigene Aktien ohne freie Reserven bzw. über 10 %) oder Art. 680 OR (Einlagenrückgewähr) kann eine Hinweispflicht auslösen; Entscheid beim
-    WP, der Agent erfasst nur eine Pendenz.
-  quelle: camponovo-2026-hinweispflichten__s088-1
-  zitat: 659 Eigene Aktien erworben - ohne freie Reserven - > 10%
+- text: 'Möglicher Verstoss gegen Art. 659 OR (eigene Aktien ohne freie Reserven bzw. über der Grenze) oder Art. 680 OR: Hinweis im Bericht empfohlen, sofern für den Berichtsempfänger
+    bedeutsam (HWP ER Rz 425); Entscheid WP, der Agent erfasst nur eine Notiz.'
+  quelle: hwp-er-2026__rz-0425-s280-t1
+  zitat: Bei den folgenden Verstössen gegen gesetzliche Bestimmungen wird ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision empfohlen, sofern die Gesetzesverstösse
+    für die Meinungsbildung des Berichtsempfängers von Bedeutung sind
 - text: Kann die Bewertung von Darlehen bzw. Finanzanlagen mangels Unterlagen nicht beurteilt werden, entscheidet nur der WP über die Berichtsfolge (z.B. eingeschränkte Prüfungsaussage);
     Agent erfasst Pendenz.
   quelle: muster-hwp-er-2026__c029-1
@@ -461,9 +485,14 @@ fallstricke:
     beschaffen bzw. als «Vorjahr, nicht bestätigt» kennzeichnen).'
   quelle: estv-zinsen-2026__s001-1
   zitat: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in Schweizer Franken
-- text: 'Verrechnungssteuer: 35 % nur auf VSt-pflichtigen Erträgen; Ausnahmen nach Art. 5 VStG beachten (nicht jeder Zins ist VSt-pflichtig).'
-  quelle: treuhand-almanach-2026__s068-1
-  zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
+- text: 'Verrechnungssteuer: 35 % nur auf VSt-pflichtigen Erträgen; Ausnahmen nach Art. 5 VStG beachten (nicht jeder Zins ist VSt-pflichtig), z.B. Zins auf Kundenguthaben bis CHF 200
+    im Kalenderjahr, einmal jährlich vergütet ^[vstv__art-16].'
+  quelle: vstg__art-5-t1
+  zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
+- text: 'Bei offenem Covid-Kredit (Saldoliste/Kreditvertrag) jede Darlehensgewährung an Gesellschafter/Nahestehende und jede Rückzahlung ihrer Darlehen als Notiz für den WP markieren;
+    Frist setzen, GV bzw. Bürgschaftsorganisation informieren: nur WP.'
+  quelle: covid-sbueg__art-23
+  zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
 fragen_kunde:
 - frage: Nach welchen Grundsätzen bewerten Sie die Finanzanlagen (Anschaffungs-/Niederstwert oder Kurswert nach Art. 960b OR, Schwankungsreserve) und gab es Änderungen gegenüber dem
     Vorjahr?
@@ -588,9 +617,10 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz; höchstens «teilweise bearbeitet»'
 - id: H1-104
-  vorgehen: 'Nur wenn Krypto-Assets vorhanden (Saldoliste, Kontenplan, Antwort 10.11). Schriftliche Antwort auswerten: Self-Custody oder Custodian, vollständige Wallet-/Adressliste,
-    Eigentumsnachweis (Sign-Message, Custodian-Auszug, Mikrotransaktion), Zuständigkeiten, Verpfändung/Staking-Sperre. Fehlendes als Pendenz an den WP; Status höchstens «teilweise bearbeitet».
-    HWP OR nur ergänzend (ordentliche Revision).'
+  vorgehen: 'Nur wenn Krypto-Assets vorhanden (Saldoliste, Kontenplan, Antwort 10.11). Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung
+    «Vorschlag: nicht anwendbar (keine Krypto-Assets)», Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den
+    übrigen Krypto-Schritten darauf verweisen. Schriftliche Antwort auswerten: Self-Custody oder Custodian, vollständige Wallet-/Adressliste, Eigentumsnachweis (Sign-Message, Custodian-Auszug,
+    Mikrotransaktion), Zuständigkeiten, Verpfändung/Staking-Sperre. Fehlendes als Pendenz an den WP; Status höchstens «teilweise bearbeitet». HWP OR nur ergänzend (ordentliche Revision).'
   nachweise:
   - Antwort Kunde
   - Wallet-Liste
@@ -605,9 +635,13 @@ schritte:
     zitat: Befragung der Geschäftsleitung oder anderer verantwortlicher Mitarbeitender, in welchen Wallets und unter welchem Namen die Token verwahrt werden.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz; höchstens «teilweise bearbeitet»'
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-105
-  vorgehen: Nur bei Krypto-Assets. Schriftliche Angaben (10.11) zu Preisquellen (ESTV-Kursliste, Handelsplatz, Börsenfeed), Bewertungszeitpunkt (Stichtag) und Wahlrecht (Anschaffungs-/Niederstwert
-    oder Marktpreis, Schwankungsreserve) auswerten; Stetigkeit ggü. Vorjahr prüfen. Fehlendes als Pendenz an den WP; Status höchstens «teilweise bearbeitet».
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Schriftliche
+    Angaben (10.11) zu Preisquellen (ESTV-Kursliste, Handelsplatz, Börsenfeed), Bewertungszeitpunkt (Stichtag) und Wahlrecht (Anschaffungs-/Niederstwert oder Marktpreis, Schwankungsreserve)
+    auswerten; Stetigkeit ggü. Vorjahr prüfen. Fehlendes als Pendenz an den WP; Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Antwort Kunde
   - Bewertungsliste Krypto 31.12.
@@ -621,6 +655,8 @@ schritte:
     zitat: Die Bewertung per Bilanzstichtag erfolgt nach dem Stichtagsprinzip.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz; höchstens «teilweise bearbeitet»'
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-201
   vorgehen: 'Saldoliste: Finanzanlagekonten und zugehörige Erfolgskonten (Finanzertrag, Kurserfolge, Wertberichtigungen) mit Vorjahr vergleichen; Veränderung in Zugänge, Abgänge und
     Wertänderungen zerlegen und mit Belegen/Antworten erklären; Ertrag im Verhältnis zum Bestand plausibilisieren; Zuordnung der Konten zu den Zwischensummen der Erfolgsrechnung prüfen.
@@ -637,8 +673,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: Gemäss SER sind wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen
 - id: H1-202
-  vorgehen: Nur bei Krypto-Assets. Menge und Wert je Token Vorjahr vs. 31.12. aufstellen; Wertänderung in Mengeneffekt (Käufe, Verkäufe, Forks, Airdrops, Staking) und Preiseffekt (Kurs
-    Vorjahr vs. Stichtag) zerlegen; mit Kursverlauf plausibilisieren. Unerklärte Differenzen als Pendenz.
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Menge
+    und Wert je Token Vorjahr vs. 31.12. aufstellen; Wertänderung in Mengeneffekt (Käufe, Verkäufe, Forks, Airdrops, Staking) und Preiseffekt (Kurs Vorjahr vs. Stichtag) zerlegen; mit
+    Kursverlauf plausibilisieren. Unerklärte Differenzen als Pendenz.'
   nachweise:
   - Nebenbuch/Bestandesliste Krypto
   - Kursnachweise Vorjahr und 31.12.
@@ -650,6 +688,8 @@ schritte:
     zitat: Zu beachten ist dabei auch die Vollständigkeit der Erfassung von Token aus Abspaltungen (sog. Forks)
   - quelle: hwp-bur-2023__rz-0052-s169
     zitat: Kryptowährungen weisen eine derart hohe Volatilität auf
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-301
   vorgehen: Aufstellung der Finanzanlagen per 31.12. (Titel, Menge, Buchwert) mit Saldoliste/Hauptbuch und Bilanz abstimmen; a) je Titel mit Depot- bzw. Kontoauszug oder vom Kunden eingeholter
     Bestätigung per 31.12.; b) bei Eigenverwahrung mit Verzeichnis, Titeln/Verträgen. Keine Teilnahme an der Inventur (nicht Teil der eingeschränkten Revision); allfällige Einsichtnahme
@@ -676,8 +716,9 @@ schritte:
     zitat: nur auf Anweisung, physische Tätigkeiten nie
 - id: H1-302
   vorgehen: 'Eigene Aktien/Anteile der Gesellschaft und kontrollierter Unternehmen feststellen (Aktienbuch vs. Aktienkapital gemäss HR, Kaufverträge, VR-Protokolle): Anzahl, Anschaffungswert,
-    Erwerb/Veräusserung. Prüfen: Minusposten im Eigenkapital, 10-%-Grenze, Anhang; bei Erwerb im GJ frei verwendbares Eigenkapital ≥ Anschaffungswert (Art. 659 Abs. 1, 659b OR). Möglicher
-    Verstoss: Pendenz an den WP (Hinweispflicht). Gleicher Schritt H3-401.'
+    Erwerb/Veräusserung. Prüfen: Minusposten im Eigenkapital, Erwerbsgrenze (Art. 659 Abs. 2/3 bzw. 783 OR), Anhang; bei Erwerb im GJ frei verwendbares Eigenkapital ≥ Anschaffungswert
+    (Art. 659 Abs. 1, 659b OR). Erwerb über diesen Rahmen oder Haltedauer über 6 Jahre: Notiz für den WP (VSt-Folge nach Art. 4a VStG, Prüffeld S1). Möglicher Verstoss: Pendenz an den
+    WP (Hinweis im Bericht möglich, Entscheid WP). Gleicher Schritt H3-401.'
   nachweise:
   - Aktienbuch
   - Handelsregisterauszug/Statuten
@@ -686,9 +727,10 @@ schritte:
   - Bilanz (Eigenkapital)
   - Anhang
   rechnen: 'Total Aktien gemäss Aktienbuch (inkl. von der Gesellschaft gehaltene) = Anzahl gemäss HR/Statuten; Anteil = Anzahl eigene Aktien × Nennwert / Aktienkapital gemäss HR ≤ 10
-    %; bei Erwerb im GJ: frei verwendbares Eigenkapital (Ermittlung durch WP) ≥ Anschaffungswert'
-  feststellung_wenn: Eigene Anteile als Aktivum, 10-%-Grenze überschritten, Erwerb ohne frei verwendbares Eigenkapital, Bestand unklar (Aktienbuch ≠ Aktienkapital) oder Anhangangaben
-    fehlen.
+    % (20 % bei Erwerb wegen Übertragbarkeitsbeschränkung oder Auflösungsklage, Überhang über 10 % innert 2 Jahren veräussern oder vernichten; GmbH: 10 % bzw. 35 %, Art. 783 OR); Erwerbsdatum
+    je Erwerb festhalten; bei Erwerb im GJ: frei verwendbares Eigenkapital (Ermittlung durch WP) ≥ Anschaffungswert'
+  feststellung_wenn: Eigene Anteile als Aktivum, Grenze nach Art. 659 Abs. 2/3 bzw. Art. 783 OR überschritten oder Überhang nicht innert 2 Jahren abgebaut, Erwerb ohne frei verwendbares
+    Eigenkapital, Bestand unklar (Aktienbuch ≠ Aktienkapital) oder Anhangangaben fehlen.
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: Feststellen des Bestands an eigenen Kapitalanteilen
@@ -702,12 +744,25 @@ schritte:
     zitat: Die Gesellschaft darf eigene Aktien nur dann erwerben, wenn frei verwendbares Eigenkapital in der Höhe des Anschaffungswerts vorhanden ist.
   - quelle: or__art-659b
     zitat: so gelten für den Erwerb ihrer Aktien durch diese Unternehmen die Voraussetzungen, Einschränkungen und Folgen für den Erwerb eigener Aktien sinngemäss
-  - quelle: camponovo-2026-hinweispflichten__s088-1
-    zitat: 659 Eigene Aktien erworben - ohne freie Reserven - > 10%
+  - quelle: hwp-er-2026__rz-0425-s280-t1
+    zitat: Bei den folgenden Verstössen gegen gesetzliche Bestimmungen wird ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision empfohlen, sofern die Gesetzesverstösse
+      für die Meinungsbildung des Berichtsempfängers von Bedeutung sind
+  - quelle: or__art-659
+    zitat: Steht der Erwerb im Zusammenhang mit einer Übertragbarkeitsbeschränkung oder einer Auflösungsklage, so beträgt die Höchstgrenze 20 Prozent.
+  - quelle: or__art-659
+    zitat: Die über 10 Prozent hinaus erworbenen Aktien sind innert zweier Jahre zu veräussern oder durch Kapitalherabsetzung zu vernichten.
+  - quelle: or__art-783
+    zitat: so beträgt die Höchstgrenze 35 Prozent
+  - quelle: hwp-er-2026__rz-0425-s280-t1
+    zitat: bzw. 20 % bei Vinkulierung
+  - quelle: vstg__art-4a-t1
+    zitat: Dasselbe gilt, soweit der Erwerb eigener Beteiligungsrechte den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) überschreitet.
+  - quelle: vstg__art-4a-t1
+    zitat: wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
 - id: H1-305
-  vorgehen: 'Kennzeichnung WP (Wirtschaftsprüfer), weitergehende Handlung nach SER Anhang D g): nur vorbereiten, wenn erhöhtes Risiko in 3.1 festgehalten oder vom WP angewiesen; sonst
-    Pendenz. Je kotiertem Titel Buchwert mit Menge × Jahresendkurs (Depotauszug/Börse) vergleichen, Fremdwährung zum Stichtagskurs; ohne Art. 960b OR höchstens tieferer Wert, mit Art.
-    960b OR alle Titel der Position zum Kurs.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D g): nur mit ausdrücklicher Anweisung des WP. Ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung» für den WP. Mit Anweisung: Je kotiertem Titel Buchwert mit Menge × Jahresendkurs (Depotauszug/Börse) vergleichen, Fremdwährung
+    zum Stichtagskurs; ohne Art. 960b OR höchstens tieferer Wert, mit Art. 960b OR alle Titel der Position zum Kurs.'
   nachweise:
   - Depotauszug 31.12.
   - Kursnachweise 31.12.
@@ -720,21 +775,10 @@ schritte:
     zitat: Vergleich der Buchwerte kotierter Wertpapiere mit den Jahresendkursen
   - quelle: hwp-bur-2023__rz-0030-s163
     zitat: Wertschriften in Fremdwährungen sind neben ihrem Kurswert auch zum Stichtagskurs der Fremdwährung zu bewerten.
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: hwp-er-2026__rz-0133-s203
-    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
-      vorzunehmen.
-  - quelle: konzept-ki-revisionsagent-2026__c008-1
-    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
-  - quelle: konzept-ki-revisionsagent-2026__c012-1
-    zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
-  - quelle: konzept-ki-revisionsagent-2026__c012-1
-    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: H1-306
-  vorgehen: 'Kennzeichnung WP (Wirtschaftsprüfer), weitergehende Handlung nach SER Anhang D g): nur vorbereiten, wenn erhöhtes Risiko in 3.1 festgehalten oder vom WP angewiesen; sonst
-    Pendenz. Nur nicht kotierte Titel ohne Beteiligungscharakter: anteiliges Eigenkapital gemäss letzter Jahresrechnung mit Buchwert vergleichen, Wertminderungsanzeichen festhalten;
-    Umfang entscheidet der WP. Beteiligungen (z.B. Tochter) in H3-302, hier nur verweisen.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D g): nur mit ausdrücklicher Anweisung des WP. Ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung» für den WP. Mit Anweisung: Nur nicht kotierte Titel ohne Beteiligungscharakter: anteiliges Eigenkapital gemäss letzter
+    Jahresrechnung mit Buchwert vergleichen, Wertminderungsanzeichen festhalten; Umfang entscheidet der WP. Beteiligungen (z.B. Tochter) in H3-302, hier nur verweisen.'
   nachweise:
   - Letzte Jahresrechnung der Gesellschaft
   - Kaufvertrag/Anschaffungswert
@@ -747,16 +791,12 @@ schritte:
     zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
   - quelle: hwp-bur-2023__rz-0292-s222
     zitat: näherungsweise Bewertungsmethoden (beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung)
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: konzept-ki-revisionsagent-2026__c008-1
-    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
   - quelle: katalog-revio4__c003-34
     zitat: Prüfung Bewertung anhand a) Börsenkurs, Steuerkurs b) Buchhaltungsabschlüssen, Revisionsberichten c) anderen Unterlagen
 - id: H1-307
-  vorgehen: 'Kennzeichnung WP (Wirtschaftsprüfer), weitergehende Handlung nach SER Anhang D g): nur vorbereiten, wenn erhöhtes Risiko in 3.1 festgehalten oder vom WP angewiesen; sonst
-    Pendenz. Obligationen/Forderungsrechte ohne Kurswert: Bonität des Schuldners (Jahresabschluss, Zins-/Amortisationszahlungen, Sicherheiten, Rangrücktritt) beurteilen. Aktivdarlehen
-    in H2-302, Darlehen an Beteiligte in H2-404; hier nur verweisen.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D g): nur mit ausdrücklicher Anweisung des WP. Ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung» für den WP. Mit Anweisung: Obligationen/Forderungsrechte ohne Kurswert: Bonität des Schuldners (Jahresabschluss, Zins-/Amortisationszahlungen,
+    Sicherheiten, Rangrücktritt) beurteilen. Aktivdarlehen in H2-302, Darlehen an Beteiligte in H2-404; hier nur verweisen.'
   nachweise:
   - Darlehensvertrag
   - Jahresabschluss Schuldner
@@ -773,14 +813,10 @@ schritte:
     zitat: Besonders sorgfältige Bewertungsüberlegungen sind erforderlich, wenn gewährte Darlehen mit einem Rangrücktritt belastet sind
   - quelle: hwp-er-2026__rz-0167-s215
     zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: konzept-ki-revisionsagent-2026__c008-1
-    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
 - id: H1-310
-  vorgehen: 'Kennzeichnung WP (Wirtschaftsprüfer), weitergehende Handlung nach SER Anhang D g): nur vorbereiten, wenn erhöhtes Risiko in 3.1 festgehalten oder vom WP angewiesen; sonst
-    Pendenz. Kontoblätter der Finanzanlagekonten durchgehen; wesentliche Zu-/Abgänge und Wertänderungen mit Beleg und Gegenbuchung abstimmen (Periode, Betrag inkl. Nebenkosten, Position,
-    Abgangserfolg). Beteiligungszugänge in H3-303, hier nur verweisen.'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D g): nur mit ausdrücklicher Anweisung des WP. Ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung» für den WP. Mit Anweisung: Kontoblätter der Finanzanlagekonten durchgehen; wesentliche Zu-/Abgänge und Wertänderungen
+    mit Beleg und Gegenbuchung abstimmen (Periode, Betrag inkl. Nebenkosten, Position, Abgangserfolg). Beteiligungszugänge in H3-303, hier nur verweisen.'
   nachweise:
   - Kontoblätter Hauptbuch
   - Kauf-/Verkaufsabrechnungen
@@ -795,39 +831,35 @@ schritte:
     zitat: Abgänge sind zum Buchwert zu erfassen, damit realisierte Gewinne oder Verluste ausgewiesen werden können.
   - quelle: hwp-bur-2023__rz-0281-s220
     zitat: transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber Finanzierungskosten)
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: konzept-ki-revisionsagent-2026__c008-1
-    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
 - id: H1-311
-  vorgehen: 'Kennzeichnung WP (Wirtschaftsprüfer), weitergehende Handlung nach SER Anhang D g): nur vorbereiten, wenn erhöhtes Risiko in 3.1 festgehalten oder vom WP angewiesen; sonst
-    Pendenz. Erfolgskonten (Zinsen, Dividenden, Kurserfolge, Wertberichtigungen) mit erwarteten Erträgen je Titel vergleichen; Bruttoverbuchung mit VSt-Guthaben (soweit VSt-pflichtig),
-    Zinsabgrenzung, Ausweis prüfen. Zins an Beteiligte unter ESTV-Satz des GJ: Pendenz (H2-404).'
+  vorgehen: 'WP-Schritt (weitergehende Handlung, SER Anhang D g): nur mit ausdrücklicher Anweisung des WP. Ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet – WP-Schritt»;
+    ein erhöhtes Risiko aus 3.1 nur als Notiz «Schlussbesprechung» für den WP. Mit Anweisung: Erfolgskonten (Zinsen, Dividenden, Kurserfolge, Wertberichtigungen) mit erwarteten Erträgen
+    je Titel vergleichen; Bruttoverbuchung mit VSt-Guthaben (soweit VSt-pflichtig), Zinsabgrenzung, Ausweis prüfen. Zins an Beteiligte unter ESTV-Satz des GJ: Pendenz (H2-404).'
   nachweise:
   - Kontoblätter Finanzertrag/-aufwand
   - Ertragsabrechnungen
   - Darlehensverträge
-  rechnen: Erwarteter Zins = Nominal × Zinssatz gemäss Vertrag (Zinsberechnung gemäss Darlehensvertrag); VSt = 35 % des Bruttoertrags, nur soweit VSt-pflichtig (Ausnahmen Art. 5 VStG);
-    Bruttoertrag = Nettogutschrift / 0.65; Saldo Ertragskonto = Σ Bruttogutschriften gemäss Kontoblatt
+  rechnen: 'Erwarteter Zins = Nominal × Zinssatz gemäss Vertrag (Zinsberechnung gemäss Darlehensvertrag); VSt = 35 % des Bruttoertrags (Satz: `wert verrechnungssteuer`), nur soweit VSt-pflichtig
+    (Ausnahmen Art. 5 VStG); Bruttoertrag = Nettogutschrift / 0.65; Saldo Ertragskonto = Σ Bruttogutschriften gemäss Kontoblatt'
   feststellung_wenn: Erträge fehlen trotz Bestand, Nettoverbuchung ohne VSt-Guthaben, fehlende Zinsabgrenzung, Saldoliste ≠ Kontoblatt oder Zins an Beteiligte unter dem anerkannten Satz.
   fundstellen:
   - quelle: ser-2022__anh-d-s081-1
     zitat: Durchsicht von Konten und Belegen, ob Gewinne, Verluste und Erträge ordnungsgemäss erfasst worden sind
   - quelle: hwp-bur-2023__rz-0789-s328
     zitat: Zinsen und Dividenden aus Wertpapieren
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: vstg__art-5-t1
+    zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
+  - quelle: vstv__art-16
+    zitat: Die Freigrenze nach Artikel 5 Absatz 1 Buchstabe c VStG gilt für Zinsbeträge, die für das Kundenguthaben einmal pro Kalenderjahr vergütet werden.
   - quelle: estv-zinsen-2026__s001-1
     zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: konzept-ki-revisionsagent-2026__c008-1
-    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
 - id: H1-312
-  vorgehen: Nur bei Krypto-Assets. Gebuchten Bestand je Token/Wallet per 31.12. mit Nebenbuch und den vom Kunden gelieferten Blockchain-Nachweisen (Wallet-Explorer-Export, Sign-Message)
-    bzw. Custodian-Auszug abstimmen; Vollständigkeit der Adressliste prüfen. Keine eigenen Bestätigungsanfragen beim Custodian; nur vorhandene Kundendokumente verwenden.
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Gebuchten
+    Bestand je Token/Wallet per 31.12. mit Nebenbuch und den vom Kunden gelieferten Blockchain-Nachweisen (Wallet-Explorer-Export, Sign-Message) bzw. Custodian-Auszug abstimmen; Vollständigkeit
+    der Adressliste prüfen. Keine eigenen Bestätigungsanfragen beim Custodian; nur vorhandene Kundendokumente verwenden.'
   nachweise:
   - Nebenbuch Krypto
   - Wallet-Liste
@@ -842,9 +874,13 @@ schritte:
     zitat: insbesondere für selbstverwaltete Wallets die Durchführung von Verfahren wie Sign-Message empfehlenswert
   - quelle: hwp-er-2026__rz-0137-s203
     zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-313
-  vorgehen: Nur bei Krypto-Assets. Transaktionen kurz vor und nach dem 31.12. aus Blockchain-Export bzw. Custodian-Report (vom Kunden) mit Buchungsdatum im Hauptbuch und in den Kontoblättern
-    des Folgejahres vergleichen; Zeitstempel der Blockchain beachten. Fehlende oder periodenfremde Buchungen mit Datum und Betrag dokumentieren.
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Transaktionen
+    kurz vor und nach dem 31.12. aus Blockchain-Export bzw. Custodian-Report (vom Kunden) mit Buchungsdatum im Hauptbuch und in den Kontoblättern des Folgejahres vergleichen; Zeitstempel
+    der Blockchain beachten. Fehlende oder periodenfremde Buchungen mit Datum und Betrag dokumentieren.'
   nachweise:
   - Blockchain-Export/Custodian-Report um den Stichtag
   - Hauptbuch Dezember
@@ -856,9 +892,13 @@ schritte:
     zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
   - quelle: hwp-bur-2023__rz-0042-s165
     zitat: allein der Eintrag einer Transaktion in einer Blockchain als Verbuchungsnachweis für Zwecke der Buchführung nicht als ausreichend
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-314
-  vorgehen: Nur bei Krypto-Assets. Buchwert je Token mit Stichtagskursen aus mindestens zwei unabhängigen Quellen (z.B. ESTV-Kursliste, Börsen-/Datenfeed) vergleichen; Methode (Anschaffungs-/Niederstwert
-    oder Marktpreis für die ganze Position), Bewertungszeitpunkt und Schwankungsreserve im Textfeld dokumentieren. HWP OR nur ergänzend (ordentliche Revision).
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Buchwert
+    je Token mit Stichtagskursen aus mindestens zwei unabhängigen Quellen (z.B. ESTV-Kursliste, Börsen-/Datenfeed) vergleichen; Methode (Anschaffungs-/Niederstwert oder Marktpreis für
+    die ganze Position), Bewertungszeitpunkt und Schwankungsreserve im Textfeld dokumentieren. HWP OR nur ergänzend (ordentliche Revision).'
   nachweise:
   - Bewertungsliste Krypto 31.12.
   - Kursnachweise mehrerer Quellen
@@ -874,10 +914,13 @@ schritte:
     zitat: die ESTV publiziert die Steuerwerte der verbreitetsten Kryptowährungen in der Kursliste
   - quelle: hwp-or-2024__rz-1183-s420
     zitat: Die Bewertungspreise für die Folgebewertung sind grundsätzlich mit einer unabhängigen externen Kursquelle vom Prüfer nachzuvollziehen.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-315
-  vorgehen: Nur bei Krypto-Assets. Prüfen, ob der Ausweis sachgerecht ist (Wertschriften im Umlauf-/Anlagevermögen, Vorräte oder immaterielle Werte; nicht flüssige Mittel/Forderungen)
-    und der Anhang Grundsätze, Hinweis auf Marktpreisbewertung mit Gesamtwert, Schwankungsreserve und wesentliche Wertverluste nach dem Stichtag enthält. Swiss GAAP FER/IFRS nur, falls
-    angewendet.
+  vorgehen: 'Nur bei Krypto-Assets. Keine Krypto-Assets gemäss Saldoliste und Antwort 10.11: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine Krypto-Assets)»,
+    Entscheid WP. Fehlt die Antwort 10.11: nur einmal eine Pendenz (Frage «Hält die Gesellschaft Krypto-Assets?», in H1-104), in den übrigen Krypto-Schritten darauf verweisen. Prüfen,
+    ob der Ausweis sachgerecht ist (Wertschriften im Umlauf-/Anlagevermögen, Vorräte oder immaterielle Werte; nicht flüssige Mittel/Forderungen) und der Anhang Grundsätze, Hinweis auf
+    Marktpreisbewertung mit Gesamtwert, Schwankungsreserve und wesentliche Wertverluste nach dem Stichtag enthält. Swiss GAAP FER/IFRS nur, falls angewendet.'
   nachweise:
   - Bilanz und Anhang
   - Bewertungsliste Krypto
@@ -891,6 +934,8 @@ schritte:
     zitat: Entsprechend ist gemäss Art. 959c Abs. 1 Ziff. 1 OR im Anhang offenzulegen, wie Kryptowährungen im Jahresabschluss berücksichtigt worden sind.
   - quelle: hwp-bur-2023__rz-0053-s170
     zitat: Sofern Bewertungen zu beobachtbaren Marktpreisen vorgenommen worden sind, ist im Anhang auf diese Bewertungen hinzuweisen
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: H1-320
   vorgehen: 'Anhang auf Angaben zu Finanzanlagen prüfen: Grundsätze, Marktpreisbewertung mit Gesamtwert und Schwankungsreserve, eigene Anteile, zur Sicherung eigener Verbindlichkeiten
     verwendete Aktiven (Ziff. 9), Eventualverbindlichkeiten inkl. Einzahlungs-/Nachschusspflichten (Ziff. 10), Forderungen ggü. Beteiligten, Nettoauflösung stiller Reserven, Ereignisse
@@ -1005,24 +1050,33 @@ schritte:
   - quelle: hwp-bur-2023__rz-0272-s218
     zitat: Das gesamte Engagement gegenüber dem Schuldnerunternehmen ist in die Beurteilung einzubeziehen
 - id: H1-404
-  vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. VSt-pflichtige Erträge (inländische Zinsen, Dividenden; Ausnahmen Art. 5 VStG beachten) aus Ertragsabrechnungen/Kontoauszügen
+  vorgehen: 'Sonstige Prüfungshandlung, nur auf Anweisung. VSt-pflichtige Erträge (inländische Zinsen, Dividenden; Ausnahmen Art. 5 VStG beachten) aus Ertragsabrechnungen/Kontoauszügen
     erheben; prüfen, ob Ertrag brutto gebucht und 35 % VSt als Guthaben aktiviert sind; Belegnummern und Salden Ertragskonto/VSt-Konto abstimmen; Vorjahresguthaben und Rückforderung
-    (frühestens nach Ablauf des Kalenderjahres) abgleichen.
+    (frühestens nach Ablauf des Kalenderjahres) abgleichen. Zins auf Kundenguthaben bis CHF 200 im Kalenderjahr (einmal jährlich vergütet) ist VSt-frei: ein VSt-Abzug darauf → Pendenz
+    klären.'
   nachweise:
   - Ertragsabrechnungen/Kontoauszüge
   - Kontoblatt VSt-Guthaben
   - Rückerstattungsantrag/-gutschrift
-  rechnen: VSt-Guthaben = Σ VSt-pflichtige Bruttoerträge × 35 % (nur soweit VSt-pflichtig, Ausnahmen Art. 5 VStG); Saldo VSt-Konto = VSt Berichtsjahr + noch nicht zurückerstattete Vorjahresguthaben;
-    Bruttoertrag gemäss Kontoblatt = Saldo Ertragskonto in Saldoliste
-  feststellung_wenn: VSt nicht aktiviert, Ertrag netto gebucht (Rückerstattung gefährdet), Ertrag fehlt in Saldoliste/Erfolgsrechnung oder alte Guthaben ohne Rückforderung.
+  rechnen: 'VSt-Guthaben = Σ VSt-pflichtige Bruttoerträge × 35 % (Satz: `wert verrechnungssteuer`; nur soweit VSt-pflichtig, Ausnahmen Art. 5 VStG); Saldo VSt-Konto = VSt Berichtsjahr
+    + noch nicht zurückerstattete Vorjahresguthaben; Bruttoertrag gemäss Kontoblatt = Saldo Ertragskonto in Saldoliste; je Vorjahresguthaben: Fälligkeitsjahr + 3 Jahre = letzter Antragstermin;
+    abgelaufen ohne Antrag → verwirkt'
+  feststellung_wenn: VSt nicht aktiviert, Ertrag netto gebucht (Rückerstattung gefährdet), Ertrag fehlt in Saldoliste/Erfolgsrechnung, alte Guthaben ohne Rückforderung oder Guthaben
+    nach Art. 32 VStG verwirkt und nicht wertberichtigt.
   fundstellen:
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
-  - quelle: treuhand-almanach-2026__s069-2
-    zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
-  - quelle: treuhand-almanach-2026__s068-2
-    zitat: Dieser Antrag kann gemäss Art. 29 Abs. 2 VStG frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt werden.
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: vstg__art-5-t1
+    zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
+  - quelle: vstv__art-16
+    zitat: Die Freigrenze nach Artikel 5 Absatz 1 Buchstabe c VStG gilt für Zinsbeträge, die für das Kundenguthaben einmal pro Kalenderjahr vergütet werden.
+  - quelle: vstg__art-25
+    zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+      Verrechnungssteuer
+  - quelle: vstg__art-29
+    zitat: Der Antrag kann frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt werden.
+  - quelle: vstg__art-32
+    zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
+      wird.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie

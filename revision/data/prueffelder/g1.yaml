@@ -175,7 +175,7 @@ unterlagen:
   quelle: ser-2022__anh-d-s082-1
   zitat: Abschreibungssätze und -methoden und deren stetige Anwendung
 - dokument: Einkaufsrechnungen der Zugänge; Kauf-, Verkaufs- und Entsorgungsbelege der Abgänge
-  zweck: Aktivierungsfähigkeit (G1-403), Abgänge (G1-104); Belegprüfung Bestand/Rechte (G1-305, nur nach Freigabe)
+  zweck: Aktivierungsfähigkeit (G1-403), Abgänge (G1-104); Belegprüfung Bestand/Rechte (G1-305, nur auf ausdrückliche Anweisung des WP)
   quelle: ser-2022__anh-d-s083-1
   zitat: Durchsicht von Einkaufsfakturen, Leasing- und anderen Verträgen sowie weiteren
 - dokument: Leasing- und Mietkaufverträge, Kaufverträge mit Eigentumsvorbehalt
@@ -188,19 +188,19 @@ unterlagen:
   quelle: ser-2022__anh-d-s097-1
   zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
 - dokument: Hauptbuch-Kontoblätter 1500–1549, Abschreibungskonten 68xx, Unterhalts-/Reparatur- und GWG-Konten 2025
-  zweck: Wertvermehrende Anlagen im Aufwand (G1-406); Durchsicht ungewöhnlicher Posten (G1-303, nur nach Freigabe)
+  zweck: Wertvermehrende Anlagen im Aufwand (G1-406); Durchsicht ungewöhnlicher Posten (G1-303, nur auf ausdrückliche Anweisung des WP)
   quelle: ser-2022__anh-d-s082-2
   zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
 - dokument: Kontoblätter Sachanlagen/Unterhalt und Kreditorenjournal der neuen Rechnung bis Prüfungsdatum
-  zweck: Periodenabgrenzung (G1-304, nur nach Freigabe)
+  zweck: Periodenabgrenzung (G1-304, nur auf ausdrückliche Anweisung des WP)
   quelle: ser-2022__anh-d-s082-2
   zitat: Durchsicht der Bestands- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
 - dokument: Aufstellung Bestand und Veränderung der stillen Reserven auf Sachanlagen (LJ und VJ), erstellt auf Basis der OR-Höchstwerte
-  zweck: G1-321, Anhangangabe Nettoauflösung (G1-320, T1)
+  zweck: G1-321, Anhangangabe Nettoauflösung (G1-320, T1-305)
   quelle: hwp-bur-2023__rz-0667-s296
   zitat: über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen
 - dokument: Anlageninventar bzw. Inventurprotokoll der Anlagen (sofern vom Kunden erstellt)
-  zweck: Bestandesnachweis (G1-402 nur auf Anweisung, G1-306 nur nach Freigabe)
+  zweck: Bestandesnachweis (G1-402 nur auf Anweisung, G1-306 nur auf ausdrückliche Anweisung des WP)
   quelle: or__art-958c
   zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
 - dokument: MWST-Abrechnungen bzw. Angabe der Abrechnungsmethode (effektiv/Saldosteuersatz), aus Prüffeld M2
@@ -215,6 +215,16 @@ bewertung:
 - regel: Ersterfassung höchstens zu Anschaffungs- oder Herstellungskosten.
   quelle: or__art-960a
   zitat: Bei ihrer Ersterfassung müssen die Aktiven höchstens zu den Anschaffungs- oder Herstellungskosten bewertet werden.
+- regel: Planmässige Abschreibung auf den geschätzten Restwert über die Nutzungsdauer (direkt/indirekt; linear, degressiv oder leistungsabhängig).
+  quelle: hwp-bur-2023__rz-0332-s229
+  zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der
+- regel: 'Wertbeeinträchtigung: Buchwert mit erzielbarem Wert (höherer von Nutzwert und Netto-Marktwert) vergleichen; tiefer → ausserplanmässige Wertberichtigung.'
+  quelle: hwp-bur-2023__rz-0342-s231
+  zitat: Der erzielbare Wert ist der höhere von Nutzwert und Netto-Marktwert.
+- regel: Kein Verzicht auf planmässige Abschreibungen mit der Begründung eines höheren Nutz-, Veräusserungs- oder Verkehrswerts (ausser zur Kompensation früherer Mehrabschreibungen =
+    Auflösung stiller Reserven).
+  quelle: hwp-bur-2023__rz-0345-s231
+  zitat: Gegen den Grundsatz der Vorsicht und damit unzulässig wäre es, auf planmässige Abschreibungen von Anlagegütern
 - regel: Anschaffungskosten umfassen Bezugs-, Einrichtungs-, Prüf- und Abnahmekosten.
   quelle: hwp-bur-2023__rz-0370-s236
   zitat: Zu den Anschaffungskosten gehören auch Bezugskosten, Kosten für Einrichtung
@@ -231,9 +241,6 @@ bewertung:
 - regel: Unterhalt/Reparaturen in die Erfolgsrechnung; wertvermehrende Investitionen (höherer Nutzwert, längere Lebensdauer) können aktiviert werden.
   quelle: hwp-bur-2023__rz-0370-s236
   zitat: nachhaltig erhöhen oder die Lebensdauer wesentlich verlängern, können aktiviert werden
-- regel: Planmässige Abschreibung auf den geschätzten Restwert über die Nutzungsdauer (direkt/indirekt; linear, degressiv oder leistungsabhängig).
-  quelle: hwp-bur-2023__rz-0332-s229
-  zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der
 - regel: Indirekte Abschreibungsmethode ist vorzuziehen (AK bleiben ersichtlich).
   quelle: hwp-bur-2023__rz-0333-s229
   zitat: Der indirekten Abschreibungsmethode ist gegenüber der direkten Methode der Vorzug zu geben.
@@ -246,16 +253,9 @@ bewertung:
 - regel: Nutzungsdauer periodisch und bei Anzeichen einer Wertverminderung überprüfen.
   quelle: hwp-bur-2023__rz-0336-s230
   zitat: Anzeichen auf Wertverminderung zu überprüfen
-- regel: 'Wertbeeinträchtigung: Buchwert mit erzielbarem Wert (höherer von Nutzwert und Netto-Marktwert) vergleichen; tiefer → ausserplanmässige Wertberichtigung.'
-  quelle: hwp-bur-2023__rz-0342-s231
-  zitat: Der erzielbare Wert ist der höhere von Nutzwert und Netto-Marktwert.
 - regel: Ist der erzielbare Wert tiefer als der planmässige Restwert, ist auf diesen Wert wertzuberichtigen.
   quelle: hwp-bur-2023__rz-0345-s231
   zitat: (ausserplanmässige) Wertberichtigung auf diesen Wert vorzunehmen
-- regel: Kein Verzicht auf planmässige Abschreibungen mit der Begründung eines höheren Nutz-, Veräusserungs- oder Verkehrswerts (ausser zur Kompensation früherer Mehrabschreibungen =
-    Auflösung stiller Reserven).
-  quelle: hwp-bur-2023__rz-0345-s231
-  zitat: Gegen den Grundsatz der Vorsicht und damit unzulässig wäre es, auf planmässige Abschreibungen von Anlagegütern
 - regel: Endgültig stillgelegte Anlagen auf Veräusserungs- bzw. Schrottwert wertberichtigen.
   quelle: hwp-bur-2023__rz-0373-s237
   zitat: Im letzteren Fall ist eine Wertberichtigung auf den Veräusserungswert
@@ -285,8 +285,9 @@ bewertung:
 - regel: Bilanzierte Leasinggüter als solche bezeichnen; Aktiven unter Eigentumsvorbehalt und verpfändete Aktiven je im Gesamtbetrag offenlegen.
   quelle: hwp-bur-2023__rz-0377-s238
   zitat: Für Aktiven unter Eigentumsvorbehalt sowie zur Sicherung eigener Verbindlichkeiten verwendete Aktiven ist je der Gesamtbetrag offenlegungspflichtig
-- regel: Steuerliche Normalsätze (ESTV-Merkblatt A 1995) gelten vom Buchwert; bei Abschreibung vom Anschaffungswert halbe Sätze – nur Plausibilisierung, nicht handelsrechtlicher Massstab.
-  quelle: treuhand-almanach-2026__s061-1
+- regel: 'Steuerpraxis ESTV (Merkblatt A 1995; Art. 62 DBG ^[dbg__art-62]): Normalsätze in Prozent vom Buchwert ^[estv-mb-a-1995__s001-1], vom Anschaffungswert die Hälfte; gilt nur für
+    Abschreibungen nach Art. 960a Abs. 3 OR. Nur zur Plausibilisierung, kein handelsrechtlicher Massstab (Sätze: `wert abschreibung`).'
+  quelle: estv-mb-a-1995__s001-5
   zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
 fallstricke:
 - text: 'Physische Bestandsaufnahme (G1-306) ist in der SER eine weiter gehende Prüfungshandlung: nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko; sie
@@ -297,7 +298,8 @@ fallstricke:
     vor.
   quelle: hwp-er-2026__rz-0134-s203
   zitat: die Teilnahme an der Inventur (Beobachtung)
-- text: Bewertungsgutachten (G1-401) sind nicht Bestandteil der eingeschränkten Revision; der Verzicht muss nicht begründet werden. Kein Einholen ohne ausdrückliche Anweisung des Wirtschaftsprüfers.
+- text: Bewertungsgutachten (G1-401) sind nicht Bestandteil der eingeschränkten Revision; der Verzicht muss nicht begründet werden. Der Agent holt keine Gutachten ein und gibt keine
+    in Auftrag; ein vom Kunden ohnehin erstelltes Gutachten in M-Files nur auswerten.
   quelle: ser-2022__6-2-6
   zitat: Der Abschlussprüfer muss deshalb nicht begründen, weshalb er diese Prüfungshandlungen nicht durchführt.
 - text: Keine Bestätigungen Dritter (Bank, Lieferanten, Leasinggeber) einholen; nur intern verfügbare bzw. bereits in M-Files abgelegte Dokumente auswerten.
@@ -325,14 +327,15 @@ fallstricke:
     melden.'
   quelle: hwp-bur-2023__rz-0340-s230
   zitat: In solchen Fällen wird der Nutzwert wie auch der Netto-Marktwert der Sachanlagen erst recht kritisch beurteilt werden müssen
-- text: Steuerlich fix definierte Normalsätze sind nicht automatisch der betriebswirtschaftliche Wertverzehr; höhere Sätze sind steuerlich möglich, bedürfen aber eines konkreten Nachweises.
-  quelle: ef-2026-08-buchungslogik__s005-1
-  zitat: Eine Abweichung davon (Verwendung höherer Sätze) ist zwar möglich
+- text: ESTV-Normalsätze sind Steuerpraxis. Handelsrechtlicher Massstab ist der nutzungs- und altersbedingte Wertverlust (Art. 960a Abs. 3 OR); Abschreibungen darüber hinaus sind stille
+    Reserven (an G1-321). Steuerlich sind höhere Sätze nur mit konkretem Nachweis möglich (Fachliteratur ^[ef-2026-08-buchungslogik__s005-1]).
+  quelle: or__art-960a
+  zitat: Der nutzungs- und altersbedingte Wertverlust muss durch Abschreibungen, anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden.
 - text: Abschreibungen über das betriebswirtschaftliche Mass hinaus bilden handelsrechtlich stille Reserven (an G1-321 melden); Basis ist der OR-Höchstwert, nicht der Markt- oder Verkehrswert.
   quelle: hwp-bur-2023__rz-0669-s296
   zitat: Durch Abschreibungen, Rückstellungen und Wertberichtigungen, die über das betriebswirtschaftliche Mass hinaus vorgenommen werden
 - text: 'Nettoauflösung stiller Reserven betrifft den Gesamtbetrag über alle Bilanzpositionen und ist nur offenzulegen, wenn das Ergebnis dadurch wesentlich günstiger dargestellt wird:
-    G1-Ergebnis an T1 übergeben, nicht isoliert beurteilen.'
+    G1-Ergebnis an T1-305 übergeben, nicht isoliert beurteilen.'
   quelle: or__art-959c-t1
   zitat: wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
 - text: Eigentumsvorbehalt des Lieferanten ändert die Aktivierung nicht, ist aber im Anhang offenzulegen.
@@ -350,22 +353,22 @@ fallstricke:
     mit M2 abstimmen, bevor eine Bruttoaktivierung als Fehler gemeldet wird.'
   quelle: hwp-bur-2023__rz-0356-s148
   zitat: bei Investitionen und übrigem Betriebsaufwand bezahlte Vorsteuer ist – sofern sie vom Vorsteuerabzug nicht ausgeschlossen ist – rückforderbar
-- text: Verkauf oder Nutzungsänderung von Anlagen kann MWST-Folgen haben (Eigenverbrauch, Einlageentsteuerung); Verkäufe «ohne MWST» als Hinweis an M2 geben. Zur Steuerbarkeit des Verkaufs
-    selbst liegt im Wiki keine Fundstelle vor (Beurteilung M2/WP).
-  quelle: hwp-bur-2023__rz-0372-s152
-  zitat: Mehrwertsteuerliche Nutzungsänderungen können bei aktivierbaren Gegenständen und Dienstleistungen zu einer Eigenverbrauchsbesteuerung bzw. einer Einlageentsteuerung führen.
+- text: 'Verkauf von Anlagen durch eine steuerpflichtige Gesellschaft ist grundsätzlich steuerbar (Art. 18 Abs. 1 MWSTG), ausser bei einer Ausnahme nach Art. 21 Abs. 2 MWSTG (z.B. Ziff.
+    24: gebrauchte Gegenstände, die ausschliesslich für ausgenommene Leistungen verwendet wurden ^[mwstg__art-21-t9]). Nutzungsänderung oder Privatentnahme: Eigenverbrauch (Art. 31 MWSTG
+    ^[mwstg__art-31-t1]) bzw. Einlageentsteuerung ^[hwp-bur-2023__rz-0372-s152]. Vermerk «ohne MWST» → Hinweis an M2; Beurteilung M2/WP.'
+  quelle: mwstg__art-18-t1
+  zitat: Der Inlandsteuer unterliegen die im Inland durch steuerpflichtige Personen gegen Entgelt erbrachten Leistungen; sie sind steuerbar, soweit dieses Gesetz keine Ausnahme vorsieht.
 - text: Anlagespiegel kann immaterielle Werte (Konten 17xx) enthalten; für G1 nur Konten 1500–1549 abstimmen, immaterielle Werte in I1, Liegenschaften in G2.
 - text: Abschreibungsbuchungen müssen in der Erfolgsrechnung unter der richtigen Position (Abschreibungen auf Anlagevermögen) und Gruppierung ausgewiesen sein; Saldo Abschreibungskonto
     mit Ausweis in der Jahresrechnung abgleichen. Bei Absatzerfolgsrechnung gehören sie in den Anhang.
   quelle: or__art-959b-t1
   zitat: Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens
-- text: WP-gekennzeichnete Schritte (303–306) bereitet der Agent nur vor, wenn consis dies freigibt, und schlägt sie dem WP nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem
-    inhärentem Risiko vor; Visum, Abschluss und Buchungen bleiben beim Menschen.
+- text: WP-gekennzeichnete Schritte (303–306) bereitet der Agent nur auf ausdrückliche Anweisung des WP vor (offener Entscheid consis ^[konzept-ki-revisionsagent-2026__c012-1]) und schlägt
+    sie dem WP nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko vor; Visum, Abschluss und Buchungen bleiben beim Menschen.
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
-- text: '4xx-Schritte: Das Konzept ordnet 4xx als weitergehende Handlungen «nur auf Anweisung» ein. G1-403 bis G1-407 sind inhaltlich aber Bewertungs-Detailprüfungen (SER 6.1.3; G1-403
-    gehört zum Pflichtenheft-Beispiel «G1 Einkaufsfakturen»): vorbereiten, sofern Mandatsvorgabe oder WP nichts anderes bestimmen, und die Einordnung als offenen Entscheid an consis
-    melden. G1-401/G1-402 nur auf Anweisung.'
+- text: '4xx-Schritte G1-401 bis G1-407: nur auf ausdrückliche Anweisung des WP (Konzept). G1-403 gehört zum Pflichtenheft-Beispiel «G1 Einkaufsfakturen» (Hauptschritt G1-305, WP ^[konzept-ki-revisionsagent-2026__c013-1])
+    und wird bei Anweisung zusammen mit G1-305 vorbereitet. Ob 403–407 künftig ohne Anweisung laufen, entscheidet consis – nicht selbst entscheiden.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 fragen_kunde:
@@ -393,8 +396,8 @@ testakte_2025:
   bezug: 'G1-201, G1-301, G1-302, G1-402, G1-404, G1-405, G1-407: Blatt Anlagespiegel (AW, Zu-/Abgänge, WB, Abschreibung je Kategorie) und Blatt Anlagenverzeichnis (Einzelobjekte, Anschaffung,
     Nutzungsdauer); Zeile 1700/1709 gehört zu I1. Zugang 1520 = 24''000 (= Rechnungstotal ITF-25-0512 inkl. MWST); Fahrzeuge Abgänge 0, Lieferwagen noch im Verzeichnis'
 - datei: G_Anlagevermoegen/Rechnung_ITF-25-0512_Server_Notebooks.md
-  bezug: 'G1-403 (Aktivierungsfähigkeit Zugang 2025 Konto 1520: netto 22''201, MWST 1''799, total 24''000; Netto-/Bruttoaktivierung je MWST-Methode), G1-305 (nur nach Freigabe); Rechnungsempfänger
-    ist eine Privatperson/Privatadresse, nicht die Gesellschaft (RV)'
+  bezug: 'G1-403 (Aktivierungsfähigkeit Zugang 2025 Konto 1520: netto 22''201, MWST 1''799, total 24''000; Netto-/Bruttoaktivierung je MWST-Methode), G1-305 (nur auf ausdrückliche Anweisung
+    des WP); Rechnungsempfänger ist eine Privatperson/Privatadresse, nicht die Gesellschaft (RV)'
 - datei: G_Anlagevermoegen/Kaufvertrag_Verkauf_Lieferwagen_14.10.2025.md
   bezug: 'G1-104 (Abgang Fahrzeug: Erlös 6''500, Übergabe 14.10.2025), G1-302/G1-404 (Abgleich mit Anlagenverzeichnis/Anlagespiegel); Vermerk «ohne MWST (Verkauf wie unter Privaten)»
     → Hinweis an M2'
@@ -403,13 +406,13 @@ testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
   bezug: 'G1-201, G1-202, G1-301, G1-103: Saldi 1500–1549 und Abschreibungskonten 6810–6850, Unterhalt/Reparaturen/GWG (6120, 6169, 6560), Konten 8510/8520/8530, LJ und VJ'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
-  bezug: 'G1-104, G1-301, G1-303 (nur nach Freigabe): Kontoblätter 1500–1549 und Konto 8510 (a.o. Ertrag; Erlös Verkauf Lieferwagen 14.10.2025)'
+  bezug: 'G1-104, G1-301, G1-303 (nur auf ausdrückliche Anweisung des WP): Kontoblätter 1500–1549 und Konto 8510 (a.o. Ertrag; Erlös Verkauf Lieferwagen 14.10.2025)'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: G1-301 (Bilanz Sachanlagen), G1-405 (Ausweis und Gruppierung der Abschreibungen 6810–6850 in der ER), G1-320 (Anhang), G1-202 (Kennzahlen)
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
-  bezug: 'G1-304 (nur nach Freigabe): Folgejahr-Auszug (enthält Konten 1100, 3200, 2000; fehlende Anlage- und Unterhaltskonten als Pendenz erfassen)'
+  bezug: 'G1-304 (nur auf ausdrückliche Anweisung des WP): Folgejahr-Auszug (enthält Konten 1100, 3200, 2000; fehlende Anlage- und Unterhaltskonten als Pendenz erfassen)'
 - datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
-  bezug: 'G1-406, G1-304 (nur nach Freigabe): Kreditorenbuchungen der neuen Rechnung auf Anlagekäufe/Unterhalt mit Leistung im Vorjahr'
+  bezug: 'G1-406, G1-304 (nur auf ausdrückliche Anweisung des WP): Kreditorenbuchungen der neuen Rechnung auf Anlagekäufe/Unterhalt mit Leistung im Vorjahr'
 - datei: H_Kreditoren/Kreditoren_OP_Liste_31.12.2025.md
   bezug: 'G1-104, G1-403: offene Rechnungen von Anlagelieferanten per Stichtag (Periodenabgrenzung)'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
@@ -477,12 +480,14 @@ schritte:
     zitat: spätestens jedoch im Zeitpunkt des Eigentumsübergangs zu erfassen
   - quelle: hwp-bur-2023__rz-0372-s152
     zitat: Mehrwertsteuerliche Nutzungsänderungen können bei aktivierbaren Gegenständen und Dienstleistungen zu einer Eigenverbrauchsbesteuerung bzw. einer Einlageentsteuerung führen.
+  - quelle: mwstg__art-18-t1
+    zitat: Der Inlandsteuer unterliegen die im Inland durch steuerpflichtige Personen gegen Entgelt erbrachten Leistungen; sie sind steuerbar, soweit dieses Gesetz keine Ausnahme vorsieht.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: höchstens «teilweise bearbeitet»
 - id: G1-105
   vorgehen: Schriftliche Aussage zu stillgelegten, beschädigten, überholten, ungenutzten oder zum Verkauf vorgesehenen Anlagen auswerten, sonst Pendenz. Mit Anlagenverzeichnis (Alter
     vs. Nutzungsdauer), Abgängen und Geschäftslage plausibilisieren. Bei Anzeichen fehlende Vergleichsrechnung Buchwert/erzielbarer Wert als Pendenz (Konto, Datum, Betrag), Kundenpunkt
-    als Notiz Schlussbesprechung; Ergebnis an G1-404. Status höchstens «teilweise bearbeitet».
+    als Notiz Schlussbesprechung; Ergebnis als Notiz «Schlussbesprechung» an WP (Vorschlag G1-404). Status höchstens «teilweise bearbeitet».
   nachweise:
   - Kundenantwort Wertbeeinträchtigung
   - Anlagenverzeichnis
@@ -580,16 +585,19 @@ schritte:
   - quelle: hwp-er-2026__rz-0191-s224
     zitat: kurzfristige Kredite werden im Übermass zur Finanzierung von Anlagevermögen herangezogen
 - id: G1-301
-  vorgehen: Bilanzwerte Sachanlagen (AW und WB je Kategorie, Total) aus der Jahresrechnung mit Saldoliste/Hauptbuch und Anlagespiegel abstimmen; Eröffnungssaldi mit Vorjahresabschluss
-    vergleichen; Ausweis (Sachanlagen gesondert im Anlagevermögen, WB als Minusposten) prüfen. Differenzen mit Konto, Betrag und Ursache im Textfeld; fehlender Anlagespiegel → Pendenz.
+  vorgehen: Bilanzwerte Sachanlagen (AW und WB je Kategorie, Total) aus der Jahresrechnung mit Saldoliste/Hauptbuch und Anlagespiegel abstimmen; Anlagespiegel je Kategorie zeilenweise
+    nachrechnen (AW und WB getrennt) und Abschreibung LJ mit Konten 68xx und ER abstimmen; Eröffnungssaldi mit Vorjahresabschluss vergleichen; Ausweis (Sachanlagen gesondert im Anlagevermögen,
+    WB als Minusposten) prüfen. Differenzen mit Konto, Betrag und Ursache im Textfeld; fehlender Anlagespiegel → Pendenz.
   nachweise:
   - Jahresrechnung 2025 (Bilanz)
   - Saldoliste
   - Hauptbuch Konten 1500–1549
   - Anlagespiegel
-  rechnen: Σ Buchwert 31.12. Anlagespiegel (Sachanlagen) = Σ Saldi 1500–1549 = Total Sachanlagen Bilanz; je Kategorie AW 31.12. = Saldo 15x0, WB 31.12. = Saldo 15x9; AW/WB 01.01. = Vorjahr
-    31.12.
-  feststellung_wenn: Differenz zwischen Bilanz, Hauptbuch und Anlagespiegel über der Nicht-Aufgriffsgrenze oder Eröffnungsdifferenz zum Vorjahr.
+  rechnen: 'Je Kategorie (nur 1500–1549; Zeilen 17xx gehören zu I1): AW 01.01. + Zugänge − Abgänge = AW 31.12. = Saldo 15x0; WB 01.01. + Abschreibung LJ − WB auf Abgängen = WB 31.12.
+    = Saldo 15x9; Abschreibung LJ = Saldo zugehöriges Abschreibungskonto 68xx. Σ (AW − WB) = Total Sachanlagen Bilanz. Σ aller Abschreibungskonten 68xx (inkl. I1/G2) = Position Abschreibungen
+    ER bzw. Anhang (Absatzerfolgsrechnung). AW/WB 01.01. = Vorjahr 31.12. Alles mit `rechne`.'
+  feststellung_wenn: Differenz zwischen Bilanz, Hauptbuch und Anlagespiegel über der Nicht-Aufgriffsgrenze, Eröffnungsdifferenz zum Vorjahr oder Abschreibung LJ laut Anlagespiegel ≠
+    Saldo 68xx bzw. Σ 68xx ≠ Ausweis ER; fehlende Kontoblätter 68xx → Pendenz.
   fundstellen:
   - quelle: katalog-revio4__c003-24
     zitat: Abstimmen Bilanzbestand mit Buchhaltung oder anderen geeigneten Unterlagen (Anlagenspiegel)
@@ -599,10 +607,15 @@ schritte:
     zitat: Die Sachanlagen sind unter dem Anlagevermögen gesondert auszuweisen
   - quelle: or__art-959a-t1
     zitat: c. Sachanlagen
+  - quelle: hwp-er-2026__rz-0058-s189
+    zitat: So wird beispielsweise die Prüfung der Sachanlagen in der Regel auch die Prüfung der Abschreibungen umfassen.
+  - quelle: hwp-er-2026__rz-0266-s244
+    zitat: Der Abschlussprüfer geht nicht unbesehen von der Vollständigkeit und Richtigkeit solcher Auswertungen aus
 - id: G1-302
   vorgehen: Anlagenverzeichnis/Inventarliste (Einzelobjekte mit Anschaffung, AW, Nutzungsdauer, kumulierten Abschreibungen) je Kategorie summieren und mit Anlagespiegel und Jahresrechnung
     abstimmen. Fehlende kumulierte Abschreibungen je Objekt aus Nutzungsdauer nachrechnen oder als Pendenz erfassen. Zugänge laut Rechnungen und Abgänge laut Verträgen im Verzeichnis
-    abgleichen.
+    abgleichen. Bei Zugängen Rechnungsbetrag (netto/brutto; MWST-Methode aus M2) und Rechnungsempfänger notieren. Abweichungen nicht selbst beurteilen, sondern als Notiz «Schlussbesprechung»
+    an den WP (Vorschlag G1-403/G1-305).
   nachweise:
   - Anlagenverzeichnis/Inventarliste 31.12.
   - Anlagespiegel
@@ -618,16 +631,22 @@ schritte:
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+  - quelle: konzept-ki-revisionsagent-2026__c013-1
+    zitat: G1 Einkaufsfakturen | G1-305 (WP) | 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
 - id: G1-303
-  vorgehen: Weiter gehende Handlung (WP), nur nach Freigabe. Vorschlag an WP, wenn Ergebnisse aus 1xx/2xx/301/302 auf wesentliche Fehlaussagen oder erhöhtes inhärentes Risiko hindeuten.
-    Kontoblätter 15xx/68xx auf ungewöhnliche Posten durchsehen (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen, unübliches Gegenkonto, Stornos; Kriterien = Vorschlag,
-    durch consis zu bestätigen). Belege aus M-Files prüfen; fehlende als Pendenz.
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; bei Hinweisen aus 1xx/2xx/301/302 auf
+    wesentliche Fehlaussagen oder erhöhtes inhärentes Risiko Vorschlag an WP als Notiz. Mit Anweisung: Kontoblätter 15xx/68xx auf ungewöhnliche Posten durchsehen (Vorzeichen, runde Beträge,
+    Stichtagsnähe, nahestehende Personen, unübliches Gegenkonto, Stornos; Kriterien = Vorschlag, durch consis zu bestätigen). Belege aus M-Files prüfen; fehlende als Pendenz.'
   nachweise:
   - Hauptbuch Kontoblätter 15xx und 68xx
   - Buchungsbelege der ausgewählten Posten
   rechnen: Bewegung je Konto = Saldo 31.12. – Saldo 01.01.; Σ Abschreibungsbuchungen auf 15x9 = Saldo zugehöriges Abschreibungskonto 68x0
   feststellung_wenn: Ungewöhnlicher Posten ohne Beleg oder sachliche Begründung, Gegenbuchung auf falschem Konto oder Abschreibung auf 15x9 ≠ Abschreibungskonto.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s082-2
     zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
   - quelle: ser-2022__anh-d-s082-2
@@ -639,9 +658,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0261-s243
     zitat: Elemente mit einem hohen Wert oder Schlüsselelemente
 - id: G1-304
-  vorgehen: Weiter gehende Handlung (WP), nur nach Freigabe; Vorschlag an WP bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko (Ergebnisse 1xx/2xx/301/302).
-    Kontoblätter Sachanlagen/Unterhalt und Kreditorenjournal der neuen Rechnung (bis Prüfungsdatum) auf auffällige Beträge mit Leistungsdatum im alten Jahr durchsehen; Treffer mit Rechnung
-    und Abgrenzung per 31.12. abgleichen. Fehlende Folgejahreskonten als Pendenz erfassen.
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; bei Hinweisen aus 1xx/2xx/301/302 auf
+    wesentliche Fehlaussagen oder erhöhtes inhärentes Risiko Vorschlag an WP als Notiz. Mit Anweisung: Kontoblätter Sachanlagen/Unterhalt und Kreditorenjournal der neuen Rechnung (bis
+    Prüfungsdatum) auf auffällige Beträge mit Leistungsdatum im alten Jahr durchsehen; Treffer mit Rechnung und Abgrenzung per 31.12. abgleichen. Fehlende Folgejahreskonten als Pendenz
+    erfassen.'
   nachweise:
   - Kontoblätter 15xx und Unterhaltskonten Folgejahr
   - Kreditorenjournal Folgejahr
@@ -649,6 +669,8 @@ schritte:
   rechnen: Σ Folgejahresposten mit Leistungsdatum ≤ 31.12. ohne Kreditor/Abgrenzung per 31.12.; Vergleich mit Toleranzwesentlichkeit
   feststellung_wenn: Anlagezugang oder Unterhalt des alten Jahres erst in neuer Rechnung erfasst und per 31.12. nicht abgegrenzt (wesentlich).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s082-2
     zitat: Durchsicht der Bestands- sowie Unterhaltskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen
   - quelle: ser-2022__anh-d-s082-2
@@ -656,9 +678,10 @@ schritte:
   - quelle: ser-2022__6-1-3
     zitat: Durchsicht von Belegen in neuer Rechnung
 - id: G1-305
-  vorgehen: 'Pflichtenheft-Beispiel «G1 Einkaufsfakturen» (mit 301, 302, 403); WP-Schritt, nur nach Freigabe; Vorschlag an WP bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem
-    inhärentem Risiko. Für wesentliche/auffällige Zu- und Abgänge Rechnungen, Kauf-, Leasing- und Verkaufsverträge sowie Zahlungen in M-Files suchen; prüfen: Empfänger = Gesellschaft,
-    Objekt, Datum, Betrag (netto/brutto je MWST-Methode), Konto. Fehlende Belege als Pendenz.'
+  vorgehen: 'WP-Schritt (Hauptschritt Pflichtenheft-Beispiel «G1 Einkaufsfakturen», zugehörig 301, 302, 403): nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein
+    Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise aus G1-301/302 als Notiz «Schlussbesprechung». Mit Anweisung: Für wesentliche/auffällige Zu- und Abgänge Rechnungen,
+    Kauf-, Leasing- und Verkaufsverträge sowie Zahlungen in M-Files suchen; prüfen: Empfänger = Gesellschaft, Objekt, Datum, Betrag (netto/brutto je MWST-Methode), Konto. Fehlende Belege
+    als Pendenz.'
   nachweise:
   - Einkaufsrechnungen Zugänge
   - Kauf-/Verkaufsverträge Abgänge
@@ -667,6 +690,8 @@ schritte:
   rechnen: Rechnungsbetrag (netto bei effektiver MWST-Methode, brutto bei Saldosteuersatz) = aktivierter Betrag 15x0; Abdeckung = Σ geprüfte Zugänge / Σ Zugänge Anlagespiegel
   feststellung_wenn: Beleg fehlt, lautet nicht auf die Gesellschaft, Betrag/Datum weicht ab, oder Abgang laut Vertrag ist nicht verbucht.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s083-1
     zitat: Durchsicht von Einkaufsfakturen, Leasing- und anderen Verträgen sowie weiteren
   - quelle: ser-2022__anh-d-s083-1
@@ -674,11 +699,11 @@ schritte:
   - quelle: ser-2022__anh-d-s082-2
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
   - quelle: konzept-ki-revisionsagent-2026__c013-1
-    zitat: 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
+    zitat: G1 Einkaufsfakturen | G1-305 (WP) | 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
 - id: G1-306
   vorgehen: 'Physische Tätigkeit: führt der Agent nie aus. Weiter gehende Handlung, nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko als Vorschlag an WP.
     Vorbereitung nur auf Anweisung: Auswahlliste wesentlicher Objekte aus dem Anlagenverzeichnis (Bezeichnung, Standort, Anschaffung) für eine allfällige Besichtigung durch den WP; vorhandene
-    Inventurprotokolle des Kunden auswerten. Im Textfeld: Schritt dem WP vorbehalten.'
+    Inventurprotokolle des Kunden auswerten. Ohne Anweisung kein Eintrag im Textfeld; im Rapport «nicht bearbeitet – WP-Schritt (physisch)».'
   nachweise:
   - Anlagenverzeichnis
   - Inventurprotokoll Anlagen (falls vorhanden)
@@ -695,14 +720,14 @@ schritte:
     zitat: die Teilnahme an der Inventur (Beobachtung)
 - id: G1-320
   vorgehen: 'Anhang auf G1-Angaben durchsehen: Grundsätze (Abschreibungsmethode, Methodenwechsel), Leasingverpflichtungen, verpfändete Aktiven/Eigentumsvorbehalt, wesentliche a.o./einmalige
-    Positionen (z.B. Anlagenverkäufe), bei Absatzerfolgsrechnung Abschreibungen auf Anlagevermögen. Nettoauflösung stiller Reserven nur als Beitrag an T1 (Gesamtbetrag aller Positionen).
-    Mit G1-101 bis G1-106 und G1-321 abgleichen; Lücken als Feststellung, Übergabe an T1.'
+    Positionen (z.B. Anlagenverkäufe), bei Absatzerfolgsrechnung Abschreibungen auf Anlagevermögen. Nettoauflösung stiller Reserven nur als Beitrag an T1-305 (Gesamtbetrag aller Positionen).
+    Mit G1-101 bis G1-106 und G1-321 abgleichen; Lücken als Feststellung, Übergabe an T1-305.'
   nachweise:
   - Anhang Jahresrechnung 2025
   - Ergebnisse G1-101 bis G1-106, G1-321
-  rechnen: Anhangbeträge (Leasing-Restbetrag, verpfändete Aktiven) = Summen aus Verträgen/Befragung; G1-Beitrag zur Nettoauflösung aus G1-321 an T1
+  rechnen: Anhangbeträge (Leasing-Restbetrag, verpfändete Aktiven) = Summen aus Verträgen/Befragung; G1-Beitrag zur Nettoauflösung aus G1-321 an T1-305
   feststellung_wenn: Pflichtangabe nach Art. 959b Abs. 4 / 959c OR fehlt oder weicht vom Prüfungsergebnis ab (Leasing, Sicherheiten, Grundsätze, Abschreibungen bei Absatzerfolgsrechnung);
-    Nettoauflösung → T1.
+    Nettoauflösung → T1-305.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-2
     zitat: Durchsicht des Anhangs auf vollständige Offenlegung der aufgrund der Befragungen zutreffenden Positionen gemäss Art. 959c OR
@@ -718,17 +743,18 @@ schritte:
     zitat: Bei der Absatzerfolgsrechnung müssen im Anhang zudem der Personalaufwand sowie in einer Position Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen
       werden.
 - id: G1-321
-  vorgehen: Aufstellung Bestand/Veränderung stiller Reserven in M-Files suchen; fehlt sie, Pendenz und Notiz Schlussbesprechung an WP. Je Kategorie Buchwert mit OR-Höchstwert (AK – betriebswirtschaftlich
-    notwendige Abschreibungen, max. erzielbarer Wert; aus G1-407) vergleichen; Zwangsreserven (Mehrwert über AK) nicht einrechnen. Methode mit Vorjahr abgleichen, Veränderung an G1-320/T1
-    melden. Steuerliche Normalsätze nicht unbesehen übernehmen.
+  vorgehen: 'Aufstellung Bestand/Veränderung stiller Reserven in M-Files suchen. Je Kategorie Buchwert mit dem OR-Höchstwert aus der Aufstellung des Kunden vergleichen; Zwangsreserven
+    (Mehrwert über AK) nicht einrechnen. Fehlt die Aufstellung: Pendenz und Notiz Schlussbesprechung an WP; zusätzlich indikativ den Soll-Restwert je Objekt aus dem Anlagenverzeichnis
+    nach der deklarierten Methode (G1-101) mit `rechne` ermitteln, linear = AW × (1 − verstrichene Jahre / Nutzungsdauer), mindestens 0, und als «indikativ, Beurteilung WP» kennzeichnen.
+    Methode mit Vorjahr abgleichen, Veränderung an G1-320 und T1-305 melden. Steuerliche Normalsätze nicht unbesehen übernehmen.'
   nachweise:
   - Aufstellung stille Reserven LJ/VJ
-  - OR-Höchstwerte je Kategorie (G1-407)
+  - Anlagenverzeichnis (AW, Anschaffungsdatum, Nutzungsdauer)
   - Anlagespiegel
   rechnen: Stille Reserve je Kategorie = OR-Höchstwert (AK – betriebswirtschaftlich notwendige planmässige Abschreibungen, max. erzielbarer Wert) – Buchwert; Mehrwerte über AK-Basis
-    (Zwangsreserven) nicht einrechnen; Veränderung = Bestand LJ – Bestand VJ; G1-Nettoauflösung = Σ Auflösungen – Σ Bildungen (> 0) → T1
-  feststellung_wenn: Nettoauflösung (Gesamtbetrag über alle Positionen, in T1) stellt Ergebnis wesentlich günstiger dar und fehlt im Anhang; Methode ggü. Vorjahr geändert; keine Aufstellung
-    → Pendenz.
+    (Zwangsreserven) nicht einrechnen; Veränderung = Bestand LJ – Bestand VJ; G1-Nettoauflösung = Σ Auflösungen – Σ Bildungen (> 0) → T1-305
+  feststellung_wenn: Nettoauflösung (Gesamtbetrag über alle Positionen, in T1-305) stellt Ergebnis wesentlich günstiger dar und fehlt im Anhang; Methode ggü. Vorjahr geändert; keine
+    Aufstellung → Pendenz.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0671-s297
     zitat: Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
@@ -742,8 +768,12 @@ schritte:
     zitat: Befragung nach der Berechnungsmethode der stillen Reserven im Vergleich zum Vorjahr
   - quelle: or__art-959c-t1
     zitat: wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Enthält der Anhang Angaben über die Nettoauflösung von stillen Reserven (wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird)?
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+  - quelle: hwp-bur-2023__rz-0332-s229
+    zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der
 - id: G1-322
   vorgehen: 'Dauerakte nachführen: gültige Abschreibungsrichtlinie/Nutzungsdauern, mehrjährige Leasing-, Mietkauf- und Kaufverträge mit Eigentumsvorbehalt, Pfand-/Sicherungsverträge
     sowie Basis des Anlagenverzeichnisses in M-Files ablegen bzw. Verweis aktualisieren. Veraltete Dokumente (abgelaufene Verträge, verkaufte Objekte) kennzeichnen, nichts löschen.'
@@ -758,9 +788,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: wie beispielsweise wichtige Verträge, Registerauszüge, Statuten etc.
 - id: G1-401
-  vorgehen: 'Nur auf Anweisung (4xx, weitergehende Handlung). Nicht Bestandteil der eingeschränkten Revision: Agent holt keine Bewertungsgutachten ein und schlägt dies nur auf ausdrückliche
-    Anweisung des WP vor. Liegt ein vom Kunden ohnehin erstelltes Gutachten in M-Files vor, als Nachweis (Ersteller, Stichtag, Wert) für G1-404 erfassen. Im Textfeld: nicht durchgeführt,
-    gemäss SER nicht Bestandteil.'
+  vorgehen: 'Nur auf Anweisung (4xx, weitergehende Handlung). Nicht Bestandteil der eingeschränkten Revision: Der Agent holt nie Gutachten ein und gibt keine in Auftrag (Auftrag an Dritte
+    = nur Mensch). Liegt ein vom Kunden ohnehin erstelltes Gutachten in M-Files vor, als Nachweis (Ersteller, Stichtag, Wert) für G1-404 erfassen. Kein Eintrag im Textfeld; im Rapport
+    «nicht bearbeitet – gemäss SER nicht Bestandteil».'
   nachweise:
   - Allfälliges vorhandenes Gutachten des Kunden
   rechnen: ''
@@ -792,9 +822,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - id: G1-403
-  vorgehen: 'Bewertungs-Detailprüfung (SER 6.1.3, Beispiel «G1 Einkaufsfakturen»); vorbereiten, sofern Mandat/WP nichts anderes bestimmt (4xx-Einordnung offen bei consis). Zugänge laut
-    Anlagespiegel/Kontoblatt 15x0: Rechnungen in M-Files beiziehen (G1-305 nur übernehmen, falls freigegeben). Beurteilen: Verfügungsmacht, Nutzung > 12 Monate, höchstens AK inkl. Bezugskosten
-    abzüglich Rabatte, MWST je Methode (M2), kein Unterhalt. Korrektur nur als Feststellung.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Ohne Anweisung: nicht bearbeiten, kein Eintrag im Textfeld; Hinweise aus G1-302 als Notiz «Schlussbesprechung» (Vorschlag G1-403).
+    Mit Anweisung: Zugänge laut Anlagespiegel/Kontoblatt 15x0, Rechnungen in M-Files beiziehen (G1-305 ist WP-Schritt). Beurteilen: Verfügungsmacht, Nutzung > 12 Monate, höchstens AK
+    inkl. Bezugskosten abzüglich Rabatte, MWST je Methode (M2), kein Unterhalt. Korrektur nur als Feststellung.'
   nachweise:
   - Rechnungen der Zugänge
   - Anlagespiegel Zugänge / Kontoblatt 15x0
@@ -805,12 +835,10 @@ schritte:
   feststellung_wenn: Zugang nicht aktivierungsfähig (Unterhalt, keine Verfügungsmacht der Gesellschaft, kurzfristige Nutzung) oder aktivierter Betrag > Anschaffungskosten (z.B. Vorsteuer
     bei effektiver Methode aktiviert).
   fundstellen:
-  - quelle: ser-2022__6-1-3
-    zitat: Bei einer eingeschränkten Revision sind angemessene Detailprüfungen – namentlich von Bestand und Bewertung – vorgesehen.
-  - quelle: konzept-ki-revisionsagent-2026__c013-1
-    zitat: 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: konzept-ki-revisionsagent-2026__c013-1
+    zitat: G1 Einkaufsfakturen | G1-305 (WP) | 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
   - quelle: or__art-959
     zitat: Als Aktiven müssen Vermögenswerte bilanziert werden, wenn aufgrund vergangener Ereignisse über sie verfügt werden kann
   - quelle: or__art-960d
@@ -822,9 +850,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0360-s149
     zitat: Die Aufwendungen werden immer brutto inklusive der darauf lastenden Vorsteuern erfasst.
 - id: G1-404
-  vorgehen: 'Bewertungs-Detailprüfung (SER 6.1.3); vorbereiten, sofern Mandat/WP nichts anderes bestimmt. Restbuchwerte beurteilen: höchstens AW abzüglich planmässiger Abschreibungen;
-    Objekte nach Ablauf der Nutzungsdauer, stillgelegte/verkaufte Objekte mit Buchwert; bei Anzeichen Vergleich mit erzielbarem Wert. Zur Veräusserung innert 12 Monaten vorgesehene Objekte:
-    Ausweis im Umlaufvermögen, Bewertung nicht über Buchwert. Korrektur nur als Feststellung.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Mit Anweisung: Restbuchwerte beurteilen: höchstens AW abzüglich planmässiger Abschreibungen; Objekte nach Ablauf der Nutzungsdauer,
+    stillgelegte/verkaufte Objekte mit Buchwert; bei Anzeichen Vergleich mit erzielbarem Wert. Zur Veräusserung innert 12 Monaten vorgesehene Objekte: Ausweis im Umlaufvermögen, Bewertung
+    nicht über Buchwert. Korrektur nur als Feststellung.'
   nachweise:
   - Anlagenverzeichnis
   - Anlagespiegel
@@ -834,8 +862,8 @@ schritte:
   feststellung_wenn: Buchwert über Soll-Restwert bzw. erzielbarem Wert, Buchwert für nicht mehr vorhandene Objekte oder zur Veräusserung vorgesehenes Objekt im Anlagevermögen bzw. über
     Buchwert bilanziert.
   fundstellen:
-  - quelle: ser-2022__6-1-3
-    zitat: Bei einer eingeschränkten Revision sind angemessene Detailprüfungen – namentlich von Bestand und Bewertung – vorgesehen.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: or__art-960a
     zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
   - quelle: hwp-bur-2023__rz-0345-s231
@@ -847,9 +875,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0375-s238
     zitat: Dies ist indessen kein Grund, solche Sachanlagen zum (höheren) Veräusserungswert zu bilanzieren.
 - id: G1-405
-  vorgehen: Bewertungs-Detailprüfung (SER 6.1.3); vorbereiten, sofern Mandat/WP nichts anderes bestimmt. Abschreibungen 2025 je Kategorie nachrechnen (Methode, Nutzungsdauer, pro rata)
-    und mit Haben 15x9, Konten 68xx und Ausweis in ER bzw. Anhang (Absatzerfolgsrechnung) abstimmen. Kein Verzicht wegen höherem Verkehrswert; unterlassene/reduzierte bzw. überhöhte
-    Abschreibungen an G1-321; steuerliche Normalsätze nur zur Plausibilisierung.
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Mit Anweisung: Abschreibungen 2025 je Kategorie nachrechnen (Methode, Nutzungsdauer, pro rata) und mit Haben 15x9, Konten 68xx
+    und Ausweis in ER bzw. Anhang (Absatzerfolgsrechnung) abstimmen. Kein Verzicht wegen höherem Verkehrswert; unterlassene/reduzierte bzw. überhöhte Abschreibungen an G1-321; steuerliche
+    Normalsätze nur zur Plausibilisierung (Sätze: `wert abschreibung`; Sätze gelten vom Buchwert, vom AW die Hälfte).'
   nachweise:
   - Anlagenverzeichnis
   - Kontoblätter 15x9/68xx
@@ -859,8 +887,8 @@ schritte:
   feststellung_wenn: Wesentliche Differenz zwischen Soll-, gebuchter und ausgewiesener Abschreibung, falsche ER-Gruppierung, fehlende Anhangangabe (Absatzerfolgsrechnung) oder unterlassene
     planmässige Abschreibung.
   fundstellen:
-  - quelle: ser-2022__6-1-3
-    zitat: Bei einer eingeschränkten Revision sind angemessene Detailprüfungen – namentlich von Bestand und Bewertung – vorgesehen.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: or__art-960a
     zitat: Der nutzungs- und altersbedingte Wertverlust muss durch Abschreibungen, anderweitige Wertverluste müssen durch Wertberichtigungen berücksichtigt werden.
   - quelle: hwp-bur-2023__rz-0332-s229
@@ -872,10 +900,14 @@ schritte:
   - quelle: or__art-959b-t2
     zitat: Bei der Absatzerfolgsrechnung müssen im Anhang zudem der Personalaufwand sowie in einer Position Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens ausgewiesen
       werden.
+  - quelle: estv-mb-a-1995__s001-1
+    zitat: Normalsätze in Prozenten des Buchwertes
+  - quelle: estv-mb-a-1995__s001-5
+    zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
 - id: G1-406
-  vorgehen: Vorbereiten, sofern Mandat/WP nichts anderes bestimmt (4xx-Einordnung offen bei consis). Aufwandskonten Unterhalt/Reparaturen, GWG/Hardware, Software, Fahrzeugaufwand sowie
-    Kreditorenbuchungen auf wertvermehrende Einzelposten durchsehen (neue Geräte/Fahrzeuge, mehrjährige Nutzung, Betrag über Aktivierungsgrenze). Treffer mit Rechnung belegen und im
-    Textfeld auflisten; bewusst sofort abgeschriebene Posten an G1-321 melden.
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Mit Anweisung: Aufwandskonten Unterhalt/Reparaturen, GWG/Hardware, Software, Fahrzeugaufwand sowie Kreditorenbuchungen auf
+    wertvermehrende Einzelposten durchsehen (neue Geräte/Fahrzeuge, mehrjährige Nutzung, Betrag über Aktivierungsgrenze). Treffer mit Rechnung belegen und im Textfeld auflisten; bewusst
+    sofort abgeschriebene Posten an G1-321 melden.'
   nachweise:
   - Kontoblätter Unterhalt/Reparaturen/GWG
   - Kreditorenjournal
@@ -884,18 +916,18 @@ schritte:
   rechnen: Σ wertvermehrende Beträge im Aufwand je Kategorie; Ergebniswirkung = Betrag – anteilige Abschreibung LJ
   feststellung_wenn: Wesentliche wertvermehrende Anschaffungen der Erfolgsrechnung belastet, ohne stetige Regel bzw. ohne Erfassung als stille Reserve.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
   - quelle: katalog-revio4__c003-25
     zitat: Ermitteln der zulasten der ER gebuchten wertvermehrenden Anlagen
   - quelle: hwp-bur-2023__rz-0370-s236
     zitat: nachhaltig erhöhen oder die Lebensdauer wesentlich verlängern, können aktiviert werden
   - quelle: hwp-bur-2023__rz-0368-s236
     zitat: sind die Grenzen zum Verbrauchsmaterial bzw. zum Unterhaltsaufwand fliessend
-  - quelle: konzept-ki-revisionsagent-2026__c012-1
-    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - id: G1-407
-  vorgehen: 'Vorbereiten, sofern Mandat/WP nichts anderes bestimmt. Prüfen, ob eine Anlagenbuchhaltung bzw. ein der Grösse angemessener Bestandes- und Wertnachweis (Nutzungsdauer, Wertverzehr)
-    geführt wird und mit dem Hauptbuch abstimmt. Je Kategorie OR-Höchstwert (AK – betriebswirtschaftlich notwendige Abschreibungen, max. erzielbarer Wert) – Buchwert als Grundlage für
-    G1-321; Zwangsreserven nicht einrechnen. Fehlt der Nachweis: Pendenz, Hinweis an WP.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP (4xx). Mit Anweisung: Prüfen, ob eine Anlagenbuchhaltung bzw. ein der Grösse angemessener Bestandes- und Wertnachweis (Nutzungsdauer,
+    Wertverzehr) geführt wird und mit dem Hauptbuch abstimmt. Je Kategorie OR-Höchstwert (AK – betriebswirtschaftlich notwendige Abschreibungen, max. erzielbarer Wert) – Buchwert als
+    Grundlage für G1-321; Zwangsreserven nicht einrechnen. Fehlt der Nachweis: Pendenz, Hinweis an WP.'
   nachweise:
   - Anlagenbuchhaltung/Nebenbuch bzw. anderer Bestandesnachweis
   - Anlagespiegel
@@ -904,6 +936,8 @@ schritte:
     nicht einrechnen; Σ Nebenbuch = Σ Hauptbuch
   feststellung_wenn: Kein geeigneter Bestandes- bzw. Wertnachweis (der Grösse angemessen), Nebenbuch ≠ Hauptbuch oder OR-Höchstwert < Buchwert (Überbewertung).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: katalog-revio4__c003-26
     zitat: Prüfung der Anlagenbuchhaltung zu betriebswirtschaftlichen Werten
   - quelle: hwp-bur-2023__rz-0330-s229

@@ -153,7 +153,7 @@ unterlagen:
   quelle: ser-2022__anh-d-s079-1
   zitat: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten Dienstleistungen mit ungenügenden Margen
 - dokument: Nachweis stille Reserven (Bestand und Veränderung) auf angefangenen Arbeiten
-  zweck: F2-321, Anhangangabe Nettoauflösung
+  zweck: F2-321; Beitrag zur Nettoauflösung an T1-305
   quelle: ser-2022__anh-d-s073-1
   zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
 - dokument: Konsortial-/ARGE-Verträge und Konsortialabrechnungen
@@ -167,6 +167,18 @@ unterlagen:
   quelle: ser-2022__anh-e-s104-1
   zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt
 bewertung:
+- regel: Verlustfreie Bewertung mittels Rückrechnung (erwarteter Erlös abzüglich Erlösminderungen und noch anfallender Kosten); liegt der Vergleichswert tiefer, Wertberichtigung.
+  quelle: hwp-bur-2023__rz-0246-s212
+  zitat: ist eine entsprechende Wertberichtigung vorzunehmen
+- regel: Ein sich abzeichnender Auftragsverlust ist sofort vollumfänglich zu berücksichtigen (Wertberichtigung, ggf. Rückstellung).
+  quelle: hwp-bur-2023__rz-0747-s315
+  zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich
+- regel: POCM nur bei kumulativen Voraussetzungen, u.a. zuverlässige Ermittlung von Erlösen, Kosten und Fertigstellungsgrad.
+  quelle: hwp-bur-2023__rz-0748-s316-t2
+  zitat: Eine zuverlässige Ermittlung aller mit dem Auftrag im Zusammenhang stehenden Auftragserlöse, Auftragsaufwendungen sowie des Fertigstellungsgrads ist möglich.
+- regel: Keine Verrechnung von Projekten mit negativem und positivem Saldo (Bruttoprinzip).
+  quelle: hwp-bur-2023__rz-0748-s316-t1
+  zitat: Eine Verrechnung von Aufträgen mit negativem Saldo mit solchen mit positivem Saldo widerspricht dem Bruttoprinzip
 - regel: Nicht fakturierte Dienstleistungen sind buchhalterisch wie Vorräte (Erzeugnisse in Arbeit) zu behandeln.
   quelle: hwp-bur-2023__rz-0197-s204
   zitat: Die aufgelaufenen Kosten noch nicht fakturierter Dienstleistungen stellen also Vorräte dar
@@ -179,33 +191,26 @@ bewertung:
 - regel: Allgemeine Verwaltungs- und Vertriebskosten sind nicht aktivierbar.
   quelle: hwp-bur-2023__rz-0221-s207
   zitat: Nicht zu den Herstellungskosten gehören die allgemeinen Verwaltungs-
+- regel: 'Fabrikationsbezogene Verwaltungskosten (z.B. technische Leitung, Betriebs-/Lohnbuchhaltung) dürfen eingerechnet werden; allgemeine Verwaltung und Vertrieb nie. Kostenstelle
+    «Verwaltung» im Zuschlag: Fabrikationsbezug als Pendenz erfragen, ohne Nachweis Hinweis an WP.'
+  quelle: hwp-bur-2023__rz-0222-s208
+  zitat: Teile der Verwaltungskosten, die sich auf die Materialverwaltung (ohne Verkaufslager) und die Fabrikation beziehen, beispielsweise Kosten der technischen Leitung oder der Betriebs-
+    und Lohnbuchhaltung, können in die Herstellungskosten eingerechnet werden.
 - regel: Fixe Gemeinkosten auf Basis Normalbeschäftigung zurechnen; Eigenkapitalzins nie aktivierbar.
   quelle: hwp-bur-2023__rz-0222-s208
   zitat: Bei der Zurechnung fester Kosten ist von einer Normalbeschäftigung auszugehen
-- regel: Verlustfreie Bewertung mittels Rückrechnung (erwarteter Erlös abzüglich Erlösminderungen und noch anfallender Kosten); liegt der Vergleichswert tiefer, Wertberichtigung.
-  quelle: hwp-bur-2023__rz-0246-s212
-  zitat: ist eine entsprechende Wertberichtigung vorzunehmen
 - regel: Pauschalbewertung von Aufträgen in Arbeit nur zulässig, wenn Aktivierungsfähigkeit und verlustfreie Bewertung nachvollzogen sind.
   quelle: hwp-bur-2023__rz-0232-s209
   zitat: ob alle aktivierten Kosten tatsächlich aktivierungsfähig sind und ob eine verlustfreie Bewertung gegeben ist
 - regel: 'Wahlrecht für langfristige Aufträge: POCM (anteilige Gewinnrealisierung), modifizierte POCM (ohne Gewinn) oder Completed Contract.'
   quelle: hwp-bur-2023__rz-0747-s315
   zitat: 'Modifizierte POCM: Umsatzerfassung im Ausmass der angefallenen Kosten, aber ohne Gewinnrealisierung'
-- regel: POCM nur bei kumulativen Voraussetzungen, u.a. zuverlässige Ermittlung von Erlösen, Kosten und Fertigstellungsgrad.
-  quelle: hwp-bur-2023__rz-0748-s316-t2
-  zitat: Eine zuverlässige Ermittlung aller mit dem Auftrag im Zusammenhang stehenden Auftragserlöse, Auftragsaufwendungen sowie des Fertigstellungsgrads ist möglich.
 - regel: Gewinnermittlung bei POCM zurückhaltend; bei Pauschal-/Festpreisen erhöhte Vorsicht.
   quelle: hwp-bur-2023__rz-0748-s316-t2
   zitat: Bei Pauschal- oder Festpreisen ist grössere Vorsicht geboten als beispielsweise bei Abrechnung nach Aufwand.
-- regel: Ein sich abzeichnender Auftragsverlust ist sofort vollumfänglich zu berücksichtigen (Wertberichtigung, ggf. Rückstellung).
-  quelle: hwp-bur-2023__rz-0747-s315
-  zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich
 - regel: 'Erhaltene Anzahlungen: Brutto- oder Nettodarstellung; bei Nettodarstellung Nettobuchwert je Projekt, Überfinanzierung passivieren.'
   quelle: hwp-bur-2023__rz-0254-s214
   zitat: Bei der häufig angewandten Nettodarstellung wird für jedes einzelne Projekt ein Nettobuchwert ermittelt, der entweder aktiviert oder passiviert wird
-- regel: Keine Verrechnung von Projekten mit negativem und positivem Saldo (Bruttoprinzip).
-  quelle: hwp-bur-2023__rz-0748-s316-t1
-  zitat: Eine Verrechnung von Aufträgen mit negativem Saldo mit solchen mit positivem Saldo widerspricht dem Bruttoprinzip
 - regel: Kundenanzahlungen werden erst bei Zahlungseingang bilanziert.
   quelle: hwp-bur-2023__rz-0109-s185
   zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
@@ -222,17 +227,17 @@ bewertung:
   quelle: hwp-bur-2023__rz-0749-s317
   zitat: eine frühere Erfassung des Umsatzes unter OR als unter dem anerkannten Standard zur Rechnungslegung nicht mit dem Vorsichtsprinzip nach Art. 958c Abs. 1 Ziff. 5 OR vereinbar
 fallstricke:
-- text: Vertiefte Prüfungen der Herstellkostenkalkulation gehören nicht zur eingeschränkten Revision; bei entsprechender Risikolage nur Plausibilisierung.
-  quelle: hwp-er-2026__rz-0134-s203
-  zitat: lediglich vertiefte Prüfungen sind ausgeschlossen; hingegen nimmt der Abschlussprüfer bei entsprechender Risikolage ggf. eine Plausibilisierung der Herstellkostenkalkulation
-    vor
+- text: Vertiefte Prüfungen der Herstellkostenkalkulation gehören nicht zur eingeschränkten Revision; bei entsprechender Risikolage nur Plausibilisierung ^[hwp-er-2026__rz-0134-s203].
+  quelle: ser-2022__anh-d-s079-2
+  zitat: Vertiefte Prüfungen im Bereich der Kalkulation von Herstellkosten
 - text: Inventurteilnahme ist nicht Bestandteil der eingeschränkten Revision.
   quelle: ser-2022__anh-d-s079-2
   zitat: Inventurteilnahme
 - text: 'Bei wesentlicher Position nicht nur auf Befragungen abstützen: Antworten mit Analytik und angemessenen Detailprüfungen erhärten.'
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
-- text: 'F2-203, 303, 304, 306 sind weitergehende Prüfungshandlungen (WP): nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko; Agent bereitet nur vor, WP entscheidet.'
+- text: 'F2-203, 303, 304, 306 sind weitergehende Prüfungshandlungen (WP): nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko; der Agent bereitet sie nur auf
+    ausdrückliche Anweisung des WP vor (offener Entscheid consis); ohne Anweisung «nicht bearbeitet – WP-Schritt». Beurteilung beim WP ^[konzept-ki-revisionsagent-2026__c012-1].'
   quelle: ser-2022__anh-d-s079-1
   zitat: wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
 - text: 4xx-Schritte gelten als sonstige/weitergehende Handlungen und werden nur auf Anweisung bearbeitet.
@@ -352,9 +357,11 @@ schritte:
   - Projektliste (Spalte Bewertungsmethode)
   - Anhang Jahresrechnung (Bewertungsgrundsätze)
   - Schriftliche Antwort Geschäftsleitung
-  rechnen: 'je Projekt: Bilanzwert ≤ Herstellkosten (Einzel- + Gemeinkosten) und ≤ Vergleichswert (Auftragswert − Restkosten)'
-  feststellung_wenn: Bewertung über Herstellkosten (z.B. anteiliger Auftragswert) ohne erfüllte POCM-Voraussetzungen, uneinheitliche Methode je Projekt oder Anhangangabe weicht von der
-    angewandten Bewertung ab.
+  rechnen: 'je Projekt mit `rechne`: Bilanzwert − Herstellkosten (Einzel- + Gemeinkosten); > 0 = Bewertung über HK, Methode und Betrag notieren. Bilanzwert ≤ Vergleichswert (Auftragswert
+    − Erlösminderungen − Restkosten). Bei Bewertung zum anteiligen Auftragswert: FG laut Liste vs. FG = Kosten / (Kosten + Restkosten); Wert = FG × Auftragswert vs. Bilanzwert.'
+  feststellung_wenn: 'Feststellung, wenn: Bilanzwert > Vergleichswert; Methode je Projekt uneinheitlich (z.B. ein Projekt zum anteiligen Auftragswert, übrige zu HK) oder Anhang widerspricht
+    der angewandten Methode; FG laut Liste ≠ berechneter FG. Ist die Bewertung einheitlich über HK (POCM bzw. Honoraransätze): Projekt, Methode und Differenz zu HK als Hinweis an WP.
+    Die POCM-Voraussetzungen beurteilt der WP (F2-406).'
   fundstellen:
   - quelle: ser-2022__anh-d-s078-2
     zitat: Feststellung, ob das Niederstwertprinzip befolgt worden ist oder ob alternativ die nicht fakturierten Dienstleistungen zu den zu erwartenden Honoraransätzen bewertet wurden
@@ -362,6 +369,8 @@ schritte:
     zitat: der Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden.
   - quelle: or__art-960a
     zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+  - quelle: hwp-bur-2023__rz-0747-s315
+    zitat: In der Schweizer Rechnungslegungspraxis hat sich ein Wahlrecht zur Verwendung folgender Methoden herausgebildet
 - id: F2-104
   vorgehen: Schriftliche Auskunft zu Bewertungsgrundsätzen (Material, Saläre, Gemeinkosten), Kostenrechnungssystem und dessen Verlässlichkeit auswerten. Herleitung des Gemeinkostenzuschlags
     mit Vorjahr vergleichen (Stetigkeit) und auf nicht aktivierbare Bestandteile (allg. Verwaltung, Vertrieb) durchsehen. Verlässlichkeit anhand Nachkalkulation abgeschlossener Projekte
@@ -372,7 +381,8 @@ schritte:
   - Nachkalkulationen abgeschlossener Projekte
   - Anhang (Bewertungsgrundsätze)
   rechnen: Σ Zuschlagssätze je Kostenstelle = Total-Gemeinkostenzuschlag; Vergleich Zuschlag Berichtsjahr/Vorjahr
-  feststellung_wenn: Zuschlag enthält allgemeine Verwaltungs- oder Vertriebskosten, Methodenwechsel ohne Anhangangabe oder Kostenrechnung nicht verlässlich (grosse Abweichungen Vor-/Nachkalkulation).
+  feststellung_wenn: Zuschlag enthält allgemeine Verwaltungs- oder Vertriebskosten (Verwaltung ohne nachgewiesenen Fabrikationsbezug), Methodenwechsel ohne Anhangangabe oder Kostenrechnung
+    nicht verlässlich (grosse Abweichungen Vor-/Nachkalkulation).
   fundstellen:
   - quelle: ser-2022__anh-d-s078-2
     zitat: ob ein Kostenrechnungssystem verwendet wird und dieses in der Vergangenheit verlässliche Informationen erbracht hat
@@ -380,6 +390,9 @@ schritte:
     zitat: die Änderung der Ermittlung der Herstellungskosten (Kalkulationsschema, Kostenrechnungssystem etc.)
   - quelle: hwp-bur-2023__rz-0221-s207
     zitat: Nicht zu den Herstellungskosten gehören die allgemeinen Verwaltungs-
+  - quelle: hwp-bur-2023__rz-0222-s208
+    zitat: Teile der Verwaltungskosten, die sich auf die Materialverwaltung (ohne Verkaufslager) und die Fabrikation beziehen, beispielsweise Kosten der technischen Leitung oder der
+      Betriebs- und Lohnbuchhaltung, können in die Herstellungskosten eingerechnet werden.
 - id: F2-105
   vorgehen: Schriftliche Antwort auswerten, wie die verlustfreie Bewertung sichergestellt wird (Restkostenschätzung je Projekt, Vergleich mit Auftragswert, Verlustrückstellungen). Prüfen,
     ob die Projektliste Auftragswert und Restkosten je Projekt enthält und Verlustprojekte erkennbar macht. Fehlende Auskunft als Pendenz; Ergebnis im Textfeld.
@@ -427,7 +440,8 @@ schritte:
   - quelle: hwp-or-2024__rz-0915-s357
     zitat: Abgleich der Anzahlungen von Kunden mit dem Stand der begonnenen Arbeiten
 - id: F2-203
-  vorgehen: 'Weitergehende Analytik (WP-Schritt, nur vorbereiten): je Projekt Bilanzwert mit aufgelaufenen Herstellkosten (Einzel- + Gemeinkosten) vergleichen; Differenz = möglicher
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung»:
+    Projekte mit Bilanzwert über Herstellkosten aus F2-103. Mit Anweisung: je Projekt Bilanzwert mit aufgelaufenen Herstellkosten (Einzel- + Gemeinkosten) vergleichen; Differenz = möglicher
     Gewinnanteil. Bei Bewertung nach POCM Voraussetzungen und Anhangangabe kennzeichnen. Ergebnis als Tabelle im Textfeld; Beurteilung dem WP überlassen.'
   nachweise:
   - Projektliste (Kosten, Bilanzwert, Bewertungsmethode)
@@ -436,6 +450,8 @@ schritte:
   rechnen: je Projekt Gewinnanteil = Bilanzwert − (Einzelkosten + Gemeinkosten); Vergleich Bilanzwert/Auftragswert mit Kosten/(Kosten + Restkosten)
   feststellung_wenn: Bilanzwert eines Projekts übersteigt die aufgelaufenen Herstellkosten, ohne dass POCM-Voraussetzungen dokumentiert und im Anhang offengelegt sind.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s079-2
     zitat: Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist
   - quelle: hwp-bur-2023__rz-0050-s067
@@ -474,9 +490,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0317-s254
     zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
 - id: F2-303
-  vorgehen: 'Weitergehende Detailprüfung (WP-Schritt, nur bei erhöhtem Risiko/Anweisung vorbereiten): Projekte mit hohem Wert bzw. Schlüsselprojekte auswählen; Kosten je Projekt mit
-    Stundenrapporten, Materialbezügen, Fremdleistungsrechnungen, vereinbarten Abrechnungssätzen und Kalkulation abgleichen. Auswahlbegründung, Nachweise und Abweichungen im Textfeld
-    dokumentieren.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung»:
+    Hinweise auf erhöhtes Risiko aus F2-1xx/2xx an WP melden, nicht selbst starten. Mit Anweisung: Projekte mit hohem Wert bzw. Schlüsselprojekte auswählen; Kosten je Projekt mit Stundenrapporten,
+    Materialbezügen, Fremdleistungsrechnungen, vereinbarten Abrechnungssätzen und Kalkulation abgleichen. Auswahlbegründung, Nachweise und Abweichungen im Textfeld dokumentieren.'
   nachweise:
   - Stunden-/Arbeitsfortschrittsaufzeichnungen
   - Kreditorenrechnungen Fremdleistungen
@@ -485,6 +501,8 @@ schritte:
   rechnen: 'je Stichprobenprojekt: Σ belegte Einzelkosten × (1 + GK-Zuschlag) = ausgewiesene Kosten total; Abweichung'
   feststellung_wenn: Kosten nicht belegt oder nicht projektbezogen, oder Bewertung liegt über den belegten Herstellkosten.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s079-1
     zitat: Stichprobenmässige Prüfung der Bewertung der nicht fakturierten Dienstleistungen und angefangenen Arbeiten anhand geeigneter Dokumente
   - quelle: hwp-er-2026__rz-0140-s206-t2
@@ -492,9 +510,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0261-s243
     zitat: beispielsweise Elemente mit einem hohen Wert oder Schlüsselelemente
 - id: F2-304
-  vorgehen: 'Weitergehender WP-Schritt: Berechnung der Gesellschaft zu Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge nachvollziehen (Rückrechnung: Auftragswert
-    abzüglich Erlösminderungen und Restkosten). Fehlt eine Berechnung, Rückrechnung je Projekt aus der Projektliste vorbereiten, Rückstellungsspiegel durchsehen und Abweichungen dem
-    WP vorlegen.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung»:
+    Verlustprojekte aus F2-105. Mit Anweisung: Berechnung der Gesellschaft zu Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge nachvollziehen (Rückrechnung:
+    Auftragswert abzüglich Erlösminderungen und Restkosten). Fehlt eine Berechnung, Rückrechnung je Projekt aus der Projektliste vorbereiten, Rückstellungsspiegel durchsehen und Abweichungen
+    dem WP vorlegen.'
   nachweise:
   - Berechnung Wertberichtigungen/Verlustrückstellungen
   - Projektliste (Auftragswert, Restkosten)
@@ -502,6 +521,8 @@ schritte:
   rechnen: Vergleichswert = Auftragswert − Erlösminderungen − Restkosten; erforderliche WB = max(0; Bilanzwert − Vergleichswert); übersteigender Verlust → Rückstellung
   feststellung_wenn: Bilanzwert eines Projekts über dem Vergleichswert ohne Wertberichtigung oder erwarteter Projektverlust nicht vollständig berücksichtigt.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s079-1
     zitat: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten Dienstleistungen mit ungenügenden Margen
   - quelle: hwp-bur-2023__rz-0246-s212
@@ -509,15 +530,19 @@ schritte:
   - quelle: hwp-bur-2023__rz-0211-s107
     zitat: Somit sind auch für drohende Verluste aus schwebenden Geschäften Rückstellungen zu bilden.
 - id: F2-306
-  vorgehen: 'Weitergehender WP-Schritt bei Anlagen-/Projektgeschäft: Herstellkostenwerte der Projektliste mit Kalkulation und Kostenrechnung (Projektkostenauswertung, Herleitung Gemeinkostenzuschlag)
-    abstimmen. Nur Abstimmung/Plausibilisierung, keine vertiefte Kalkulationsprüfung. Abweichungen und nicht aktivierbare Zuschlagsbestandteile im Textfeld aufführen.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung».
+    Mit Anweisung (bei Anlagen-/Projektgeschäft): Herstellkostenwerte der Projektliste mit Kalkulation und Kostenrechnung (Projektkostenauswertung, Herleitung Gemeinkostenzuschlag) abstimmen.
+    Nur Abstimmung/Plausibilisierung, keine vertiefte Kalkulationsprüfung. Abweichungen und nicht aktivierbare Zuschlagsbestandteile im Textfeld aufführen.'
   nachweise:
   - Projektkostenauswertung Betriebsbuchhaltung
   - Herleitung Gemeinkostenzuschlag
   - Projektliste
   rechnen: Gemeinkosten je Projekt = Einzelkosten × Zuschlagssatz; Σ Kostenstellensätze = Total-Zuschlag; Kosten total Projektliste = Kosten gemäss Kostenrechnung
-  feststellung_wenn: Abweichung zwischen Projektliste und Kostenrechnung oder Zuschlag enthält nicht aktivierbare Kosten (allg. Verwaltung, Vertrieb, Unterbeschäftigung).
+  feststellung_wenn: Abweichung zwischen Projektliste und Kostenrechnung oder Zuschlag enthält nicht aktivierbare Kosten (allg. Verwaltung ohne nachgewiesenen Fabrikationsbezug, Vertrieb,
+    Unterbeschäftigung).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s079-1
     zitat: Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und Projektgeschäft tätig sind)
   - quelle: hwp-er-2026__rz-0134-s203
@@ -525,6 +550,9 @@ schritte:
       vor
   - quelle: hwp-bur-2023__rz-0221-s207
     zitat: Nicht zu den Herstellungskosten gehören die allgemeinen Verwaltungs-
+  - quelle: hwp-bur-2023__rz-0222-s208
+    zitat: Teile der Verwaltungskosten, die sich auf die Materialverwaltung (ohne Verkaufslager) und die Fabrikation beziehen, beispielsweise Kosten der technischen Leitung oder der
+      Betriebs- und Lohnbuchhaltung, können in die Herstellungskosten eingerechnet werden.
 - id: F2-320
   vorgehen: 'Anhang auf Angaben zu den angefangenen Arbeiten durchsehen: Bewertungsgrundsätze (Herstellkosten/POCM, Fertigstellungsgrad), Methodenwechsel, Aufgliederung bei Nettodarstellung
     mit Anzahlungen, ggf. Eventualverbindlichkeiten aus ARGE. Anhangtext mit der tatsächlich angewandten Bewertung in der Projektliste abgleichen; Ergebnis im Textfeld.'
@@ -542,18 +570,23 @@ schritte:
     zitat: im Anhang eine erläuternde Aufgliederung vorzunehmen
 - id: F2-321
   vorgehen: Aufstellung der Gesellschaft über stille Reserven auf angefangenen Arbeiten (Bestand Vorjahr, Bildung, Auflösung, Bestand 31.12.) einholen und mit dem Detailnachweis abstimmen;
-    mit Prüfungserkenntnissen (z.B. Bewertung unter Herstellkosten) plausibilisieren. Wesentliche Nettoauflösung für F2-320 vormerken; fehlende Aufstellung als Pendenz.
+    mit Prüfungserkenntnissen (z.B. Bewertung unter Herstellkosten) plausibilisieren. F2-Beitrag (Bildung, Auflösung, Nettoauflösung) an T1-305 melden; nicht isoliert beurteilen; fehlende
+    Aufstellung als Pendenz.
   nachweise:
   - Aufstellung stille Reserven
   - Projektliste
   - Vollständigkeitserklärung
-  rechnen: Bestand Ende = Bestand Anfang + Bildung − Auflösung; Nettoauflösung = Auflösung − Bildung (gesamthaft über alle Positionen beurteilen)
-  feststellung_wenn: Aufstellung fehlt oder ist nicht abgestimmt; wesentliche Nettoauflösung ohne Anhangangabe.
+  rechnen: Bestand Ende = Bestand Anfang + Bildung − Auflösung; Nettoauflösung = Auflösung − Bildung → T1-305 (gesamthaft über alle Positionen beurteilen)
+  feststellung_wenn: Aufstellung fehlt oder ist nicht abgestimmt; Nettoauflösung F2 > 0 → Übergabe an T1-305 (Feststellung nur dort, Gesamtbetrag über alle Positionen).
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
   - quelle: or__art-959c-t1
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  - quelle: or__art-959c-t1
+    zitat: wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Enthält der Anhang Angaben über die Nettoauflösung von stillen Reserven (wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird)?
 - id: F2-322
   vorgehen: 'Dauerakte mit mehrjährig gültigen Unterlagen dieses Prüffelds aktualisieren: Bewertungsrichtlinie/Kalkulationsschema, Herleitung Gemeinkostenzuschlag, wesentliche Werk-
     und Rahmenverträge, ARGE-/Konsortialverträge. Neue oder geänderte Dokumente in M-Files ablegen bzw. verknüpfen und Änderungen im Textfeld vermerken.'
