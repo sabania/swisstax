@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 19
     korrigiert: true
-kurzbeschrieb: 'Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR): Bankkontokorrente, Festvorschüsse, kurzfristige Darlehen; innert 12 Monaten fällig:
-  Amortisationen und verzinsliche Darlehen Nahestehender. ER: Bestand, Gliederung, Covenants, Zinsen/Abgrenzung, Sicherheiten, Anhang; langfristige Rangrücktrittsdarlehen nur für Befragung
-  und Ausweis (L1-104, L1-105, L1-304).'
+kurzbeschrieb: 'Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR): Bankkontokorrente, Festvorschüsse, kurzfristige Darlehen, fällige Amortisationen. ER:
+  Bestand, Gliederung, Covenants, Zinsen/Abgrenzung, Sicherheiten, Nahestehende, Anhang; Rangrücktritte L1-105/L1-304 (WP).'
 gesetz:
 - thema: 'Mindestgliederung: kurzfristige verzinsliche Verbindlichkeiten als eigene Position des kurzfristigen Fremdkapitals (Art. 959a Abs. 2 Ziff. 1 lit. b OR)'
   quelle: or__art-959a-t1
@@ -226,8 +225,8 @@ unterlagen:
   zweck: Grundlage für die Bonitätsbeurteilung durch den WP (L1-304)
   quelle: ser-2022__anh-h-s143-1
   zitat: Wenn der Darlehensgeber nicht in der Lage ist, einen allfälligen Ausfall finanziell zu verkraften, können an der Gültigkeit des Rangrücktritts Zweifel bestehen.
-- dokument: Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle,
-    Herkunft dokumentieren
+- dokument: 'Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle,
+    Herkunft dokumentieren – Praxis/intern: oft im Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen'
   zweck: Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411)
   quelle: hwp-er-2026__rz-0137-s203
   zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
@@ -248,6 +247,10 @@ unterlagen:
   quelle: covid-sbueg__art-4
   zitat: Der Bundesrat passt auf Antrag des Eidgenössischen Finanzdepartements (EFD) jährlich per 31. März, erstmals per 31. März 2021, die Zinssätze nach Absatz 1 Buchstaben a und b
     an die Marktentwicklungen an.
+- dokument: Hauptbuch-Kontoblätter GJ aller Kredit-/Darlehenskonten und der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto)
+  zweck: Bestand, Bewegungen, Zinsplausibilisierung und -abgrenzung; Abschlussbuchungen (Zins, Umgliederung) erkennen (L1-201, L1-301, L1-302)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint
 bewertung:
 - regel: Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert
   quelle: hwp-bur-2023__rz-0486-s256
@@ -400,6 +403,10 @@ fallstricke:
     Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz; Beurteilung immer WP.'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+- text: 'Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen;
+    Praxis/intern: Kontonummern (z.B. 4-stellig) in Saldoliste und Kontoblatt nie als Betrag lesen (L1-201, L1-302).'
+  quelle: hwp-bur-2023__rz-0048-s066
+  zitat: Der Grundsatz der zeitlichen Abgrenzung verlangt, dass Aufwand und Ertrag, die zeitraumbezogen anfallen (z.B. Zinsen, Miete), auch entsprechend abgegrenzt und erfasst werden.
 fragen_kunde:
 - frage: 'Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht
     eingehalten sind? Falls ja: welche Massnahmen, und liegt ein schriftlicher Waiver der Bank vor (Datum; Verzicht auf die sofortige bzw. innert eines Jahres fällige Rückzahlung)?'
@@ -601,7 +608,8 @@ schritte:
   vorgehen: 'WP-Schritt, laut SER weiter gehend (bei Überschuldung angezeigt, Entscheid WP): Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis). Ohne Anweisung:
     kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; Hinweise (Überschuldung, Rangrücktritte gemäss Anhang) als Notiz «Schlussbesprechung»/«Pendenz». Nach Anweisung
     (Textfeld als «Vorbereitung für WP»): schriftliche Antwort zu bestehenden, neuen, ersetzten, reduzierten oder aufgehobenen Rangrücktritten auswerten, sonst Pendenz; Liste (Gläubiger,
-    Konto, Betrag inkl. Zinsen, Datum) der Überschuldung gemäss Zwischenabschluss gegenüberstellen; Beurteilung WP.'
+    Konto, Betrag inkl. Zinsen, Datum) der Überschuldung gemäss Zwischenabschluss gegenüberstellen; Beurteilung WP. Die Deckungsrechnung Σ Rangrücktritte (Beträge laut unterzeichneten
+    Vereinbarungen) ↔ Überschuldung macht der Agent in P1-313 (`kapitalverlust … --rangruecktritt …`); hier nur verweisen.'
   nachweise:
   - Antwort Kundenbefragung
   - Rangrücktrittsvereinbarungen
@@ -641,7 +649,9 @@ schritte:
   - Kredit-/Darlehensverträge (Zinssätze)
   - Erfolgsrechnung Finanz-/Zinsaufwand
   - Bankzinsabrechnungen
-  rechnen: Erwarteter Zins = Σ (Durchschnittssaldo × Zinssatz × Monate/12) je Kredit; Abweichung = gebuchter Zinsaufwand – Erwartungswert; Vergleich mit tolerierbarer Abweichung
+  rechnen: 'Erwarteter Zins = Σ (Durchschnittssaldo × Zinssatz × Monate/12) je Kredit; Abweichung = gebuchter Zinsaufwand – Erwartungswert; Vergleich mit tolerierbarer Abweichung; Laufzeit
+    nie im Kopf zählen, immer `rechne`: Beispiel `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.03.2025); saldo * satz * m / 12"` (Auszahlung 31.03. → 9 ganze Monate);
+    taggenau `tage(spaeter, frueher)`, 30/360 `tage360(spaeter, frueher)`.'
   feststellung_wenn: Abweichung zwischen Erwartungswert und gebuchtem Zinsaufwand über der tolerierbaren Abweichung ohne plausible Erklärung.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -675,13 +685,16 @@ schritte:
 - id: L1-302
   vorgehen: 'Zinsabgrenzungsberechnung des Kunden einsehen (sonst Pendenz bzw. eigene Berechnung): aufgelaufener Zins vom letzten Zinstermin bis 31.12. je Kredit/Darlehen; mit gebuchter
     Abgrenzung bzw. Zinsverbindlichkeit vergleichen; Zinsbelastung im Folgejahr (Bankauszüge Januar) als Nachweis einsehen, fehlt sie: Pendenz. Bei Zinstermin 31.12. (Belastung per Stichtag)
-    Nullabgrenzung begründen.'
+    Nullabgrenzung begründen. Gegenbuchung der Zins-Abschlussbuchung im Kontoblatt Zinsaufwand nachsehen: aufgelaufener Zins gehört in die passive Rechnungsabgrenzung bzw. Zinsverbindlichkeit;
+    wurde er dem Darlehenskonto gutgeschrieben (kapitalisiert), Vertrag prüfen (Kapitalisierung vereinbart?). Derselbe Betrag ergibt nur eine Feststellung (Ausweis), nicht zusätzlich
+    «nicht abgegrenzt» (Praxis/intern).'
   nachweise:
   - Zinsabgrenzungsberechnung
   - Kredit-/Darlehensverträge (Zinssatz, Zinstermine)
   - Kontoblatt Abgrenzung/Zinsverbindlichkeit
   - Zinsbelastungen Folgejahr
-  rechnen: Marchzins = Saldo × Zinssatz × Tage seit letztem Zinstermin / Zinsbasis (360 oder 365 gemäss Vertrag); Vergleich mit gebuchter Abgrenzung
+  rechnen: Marchzins = Saldo × Zinssatz × Tage seit letztem Zinstermin / Zinsbasis (360 oder 365 gemäss Vertrag); Vergleich mit gebuchter Abgrenzung; Beispiel `rechne "saldo = 420000;
+    satz = 0.0275; t = tage360(31.12.2025, 30.09.2025); saldo * satz * t / 360"`.
   feststellung_wenn: Aufgelaufene Zinsen nicht oder mit wesentlicher Differenz abgegrenzt.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -690,6 +703,10 @@ schritte:
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
   - quelle: hwp-bur-2023__rz-0257-s215
     zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: Marchzins fehlt oder Differenz ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (Zinsaufwand an passive Rechnungsabgrenzung; ohne Verbuchung). Differenz
+    < Nichtaufgriffsgrenze → nur im Textfeld protokollieren. Zinsabgrenzungsberechnung, Vertrag oder Zinsabrechnung nicht gefunden → «Pendenz» (Konto, Datum, Betrag, durchsuchte Ordner).
 - id: L1-303
   vorgehen: Kredit-, Rahmenkredit-, Festvorschuss-, Darlehens-, Pfand- und Zessionsverträge sowie Bankkorrespondenz (Geschäftsjahr und nach Stichtag) aus M-Files einsehen; Limiten, Zinssätze,
     Laufzeiten, Amortisationen, Kündigungen, Covenants, Sicherheiten und Waiver (Datum, Inhalt) in die Aufstellung übernehmen; mit Buchhaltung, Gliederung und Anhang abgleichen; nicht

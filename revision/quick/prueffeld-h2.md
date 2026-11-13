@@ -3,14 +3,20 @@ typ: prueffeld
 titel: Prüffeld H2 Aktivdarlehen – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
+- estv-rs-2-219-2026
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
+- treuhand-almanach-2026
+- vstg
+- vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 641a5d891be652b5d1a45a867a89cf44780427ba94aaac5c6a069b2e151175d7
 ---
 
 
@@ -18,12 +24,12 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 14 Schritte (Befragung 2, Analytisch 1, Detail 7, Sonstige 4; EP 3, WP 3) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/h2.md](../wiki/prueffelder/h2.md)
 
-Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-/langfristig). Eingeschränkte Revision: Befragung zu Bewertung und Fristigkeit, Feststellung nahestehender Darlehensnehmer, Abstimmung mit internen Nachweisen, Ausweis (Art. 959a Abs. 4 OR); WP-Schritte (Bonität, Zu-/Abgänge) und 4xx inkl. Einlagenrückgewähr (Art. 680 Abs. 2 OR) nur auf Anweisung des WP.
+Gewährte Darlehen an Dritte, Beteiligte/Organe, Konzerngesellschaften. ER: Befragung (Bewertung, Fristigkeit), Feststellung nahestehender Darlehensnehmer (auch unter Debitoren), Abstimmung mit Nachweisen, Ausweis (Art. 959a Abs. 4 OR); WP-Schritte und 4xx (u.a. Art. 680 OR) nur auf Anweisung.
 
 ## Risiken
 - Darlehen besteht nicht (mehr) oder Saldo ist falsch (z.B. Rückzahlung nicht verbucht, Saldo nicht durch Vertrag/Saldomeldung gedeckt). [EX, VO] — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0269-s217.md)
 - Überbewertung: ungenügende Bonität des Darlehensnehmers oder unverwertbare Sicherheiten ohne angemessene Wertberichtigung. [BE] — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0271-s217.md)
-- Darlehen an Nahestehende (Aktionäre, Organe, Beteiligungsgesellschaften) nicht gesondert ausgewiesen, z.B. unter Debitoren oder übrigen Forderungen versteckt. [VO, DO] — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0174-s195.md)
+- Aktionärs-/Organdarlehen in der Debitoren-OP-Liste oder unter übrigen Forderungen versteckt und nicht gesondert ausgewiesen: OP-Liste, Forderungskonten und Darlehensverträge nach Namen der Aktionäre/Organe durchsuchen (H2-201). [VO, DO] — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0174-s195.md)
 - Falsche Fristigkeit: langfristige Darlehen im Umlaufvermögen bzw. innert 12 Monaten fällige Teile im Anlagevermögen. [DO] — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0265-s216.md)
 - Verbotene Einlagenrückgewähr: Aktionärsdarlehen übersteigen das freie Eigenkapital und halten dem Drittvergleich nicht stand. [RV, DO] — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md)
 - Beantragte Ausschüttung trotz Sperrung: Aktionärs-/Konzerndarlehen ohne bestandenen Drittvergleich sperren freies Eigenkapital im vollen Umfang; nur offene Reserven zählen. [RV, DO] — [HWP ER S. 216](../chunks/hwp-er-2026/hwp-er-2026__rz-0170-s216.md)
@@ -35,6 +41,7 @@ Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-
 - Tief- oder unverzinsliche langfristige Darlehen zum Nennwert statt zum Barwert bilanziert. [BE] — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0270-s217.md)
 - Fremdwährungsdarlehen: unrealisierte Kursgewinne erfasst (Bewertung über Anschaffungskosten). [BE] — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0271-s217.md)
 - Cash Pooling (Zero Balancing): Mittel nicht mehr im Zugriff der Gesellschaft, Bonität der Pool-Teilnehmer nicht laufend überwacht, Haftung für andere Teilnehmer bzw. Ausweis/Anhang fehlt. [BE, RV, DO] — [HWP BuR S. 199](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0180-s199.md)
+- Covid-19-Kredit offen und Darlehen an Aktionär/Nahestehende gewährt oder erhöht (unzulässige Mittelverwendung, Pflichten der Revisionsstelle). [RV, DO] — [Covid-19-SBüG 2](../chunks/covid-sbueg/covid-sbueg__art-2-t1.md)
 
 ## Bewertung / Bilanzierung
 - Ersterfassung zu Anschaffungskosten (Art. 960a Abs. 1 OR); Forderungen grundsätzlich zum Nominalwert. — [HWP BuR S. 217](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0270-s217.md)
@@ -55,7 +62,6 @@ Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-
 - Zinserträge aus kurzfristigen Darlehen (Forderungen) im Finanzertrag ausweisen. — [HWP BuR S. 328](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0789-s328.md)
 - Erträge aus langfristigen Darlehen (Finanzanlagen) im Finanzertrag ausweisen. — [HWP BuR S. 328](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0789-s328.md)
 - Stille Reserven auf Finanzanlagen über die sachlich zugehörige Erfolgsposition bilden. — [HWP BuR S. 296](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0669-s296.md)
-- Steuerlich: un- oder ungenügend verzinste Darlehen an Beteiligte sind geldwerte Leistungen. ESTV-Rundschreiben 2026 gilt seit 1.1.2026 (Sätze: estv-zinsen-2026__s002-1, nur GJ 2026); Rundschreiben 2025 fehlt im Wiki; Treuhand-Almanach Tabelle 30 (treuhand-almanach-2026__s064-2/s065-1, Sekundärquelle) enthält 2023–2026, Spaltenlayout im Chunk nicht gesichert → Original prüfen. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
 - Steuerlich akzeptierte Zinssätze (safe haven) ersetzen den Drittvergleich nach Art. 680 Abs. 2 OR nicht; sie sind nach Marktkonditionen zu beurteilen. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
 
 ## Unterlagen (PBC)
@@ -89,6 +95,7 @@ Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-
 - Bestehen Verbindlichkeiten der Gesellschaft gegenüber Darlehensnehmern (z.B. Aktionärsdarlehen mit Rangrücktritt)? Wurden diese mit Aktivdarlehen verrechnet oder ist eine Verrechnung geplant?
 - Nimmt die Gesellschaft an einem Cash Pool teil (Zero Balancing/Notional Pooling)? Bitte Poolvertrag und Unterlagen zur Bonitätsüberwachung der Teilnehmer zustellen.
 - Liegen Budget bzw. Liquiditätsplanung für den Zeitpunkt der beantragten Ausschüttung vor? Bitte zustellen.
+- Besteht noch ein Covid-19-Kredit (Solidarbürgschaft)? Wurden seit der Kreditgewährung Darlehen an Gesellschafter/Nahestehende gewährt oder erhöht?
 
 ## Fallstricke
 - Aktionärsdarlehen werden oft in der Debitoren-OP-Liste oder unter übrigen Forderungen geführt: Ausweis je Forderungsposition gesondert verlangen und Fristigkeit prüfen. — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0174-s195.md)
@@ -106,30 +113,29 @@ Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-
 - Garantien von Gesellschaften im gleichen Cash Pool sind als Sicherheit bzw. für den Verzicht auf Wertberichtigung kaum belastbar. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
 - Darlehen an Aktionäre/Nahestehende nur zulässig, wenn der Gesellschaftszweck (Statuten) die Kreditgewährung nicht ausschliesst. — [HWP BuR S. 196](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0176-s196-t1.md)
 - Bei Verdacht auf Einlagenrückgewähr kein Eventualhinweis: notwendige Prüfungshandlungen durchführen und dem WP vorlegen. — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0180-s218.md)
-- ESTV-Zinssätze sind jahresbezogen (safe haven): Im Wiki liegt nur das Rundschreiben 2026 vor (ab 1.1.2026, Sätze in estv-zinsen-2026__s002-1); nur für GJ 2026 verwenden. Rundschreiben 2025 fehlt. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
-- Treuhand-Almanach Tabelle 30 (Sekundärquelle) enthält die Sätze 2023–2026; das Spaltenlayout ist im Chunk (s064-1/s065-1) nicht gesichert lesbar → Original prüfen, Wert nicht ungeprüft übernehmen. — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s064-2.md)
+- Steuerpraxis (safe haven), keine Bewertungsregel: Zins auf Darlehen an Beteiligte/Nahestehende unter dem ESTV-Mindestsatz des Kalenderjahrs = mögliche geldwerte Leistung (VSt 35 %). Ohne verzinsliches Fremdkapital: GJ 2025 1,00 % (`wert estv_zins_2025_vorschuss_an_beteiligte_ek`, Sekundärquelle Treuhand-Almanach, ESTV-Rundschreiben 2025 nicht im Wiki), GJ 2026 0,75 % (`wert zinssatz darlehen`). Mit verzinslichem Fremdkapital: Selbstkosten (eigener FK-Zins inkl. Gebühren) + ½ % (bis und mit CHF 10 Mio.; darüber ¼ %), mindestens Satz 1.1. Fremdwährung: RS 219, mindestens CHF-Satz. Unterschreitung → Notiz «Pendenz» Steuerrisiko an WP (Rückstellung in S1 prüfen, S1-401); keine Wertberichtigung des Darlehens. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
 - Steuerlich akzeptierte Zinssätze ersetzen den Drittvergleich (Art. 680 Abs. 2 OR) nicht. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
 - Kapitalisierte statt bezahlte Zinsen sind ein Bonitäts- und Drittvergleichsindiz und keine Bestätigung der Werthaltigkeit. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0177-s217.md)
 - Auch betragsmässig kleine Aktionärsdarlehen können wegen Wiederholungsgefahr für einen Hinweis wichtig sein. — [Camponovo Hinweispflichten](../chunks/camponovo-2026-hinweispflichten/camponovo-2026-hinweispflichten__s057-1.md)
 - Cash Pooling: Bestände aus Zero Balancing als Forderungen ggü. Konzerngesellschaften ausweisen und für Art. 680 Abs. 2 OR wie Aktionärsdarlehen behandeln; Bonität der Teilnehmer laufend überwachen. — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0181-s218.md)
-- Abgrenzung zu benachbarten Prüffeldern beachten (H1 Finanzanlagen/Wertschriften, H3 Beteiligungen, Forderungen B/C): Darlehen nur einmal prüfen, Querverweis in revio setzen.
+- Praxis/intern: Abgrenzung zu H1 Finanzanlagen/Wertschriften, H3 Beteiligungen, C1 Forderungen LuL (Darlehen in der Debitoren-OP-Liste) und D1 übrige kurzfristige Forderungen (innert 12 Monaten fällige Darlehen): Darlehen nur einmal prüfen, Querverweis in revio setzen.
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
 
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
-| H2-101 | Befragung | EP | BE PA | teilweise | Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze | Befragung der Leiterin Finanzen/GL vorbereiten: Nominalwert, Wertberichtigungen, Bonitätsüberwachung, allfällige niedrigere Werte, Fremdwährung… |
-| H2-102 | Befragung | EP | DO | teilweise | Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen | Fristigkeit je Darlehen erfragen bzw. aus dem Vertrag ableiten: innert 12 Monaten nach Bilanzstichtag fällige Beträge/Amortisationen ins Umlaufvermögen… |
-| H2-201 | Analytisch |  | VO DO | vorbereiten | Feststellung von Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder… | Kreis der Nahestehenden bestimmen (Aktienbuch, HR-Auszug, VR/GL, Beteiligungen) und Darlehensaufstellung, OP-Listen Debitoren/übrige Forderungen sowie… |
+| H2-101 | Befragung | EP | BE PA | teilweise | Befragung über die angewandten Bilanzierungs- und Bewertungsgrundsätze | Zuerst schriftliche Antwort (10.11, Protokolle) suchen und auswerten: Nominalwert, Wertberichtigungen, Bonitätsüberwachung, niedrigere Werte, Fremdwährung… |
+| H2-102 | Befragung | EP | DO | teilweise | Befragung zur Gliederung in langfristige und kurzfristige Finanzanlagen | Fristigkeit je Darlehen aus schriftlicher Antwort (10.11) bzw. dem Vertrag ableiten: innert 12 Monaten nach Bilanzstichtag fällige Beträge/Amortisationen ins… |
+| H2-201 | Analytisch |  | VO DO | vorbereiten | Feststellung von Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder… | 1) Ausweis (Art. 959a Abs. 4 OR): Kreis der Nahestehenden bestimmen (Aktienbuch, HR-Auszug, VR/GL, Beteiligungen) und Darlehensaufstellung, OP-Listen… |
 | H2-301 | Detail | EP | EX VO BE PA | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und a) Saldobestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung e) anderen Unterlagen | Darlehensaufstellung per 31.12. mit Hauptbuch und Bilanz abstimmen. Je Darlehen Saldo gegen beim Unternehmen vorhandene Nachweise prüfen: a) Saldomeldungen… |
 | H2-302 | Detail | WP | BE PA | nur_mensch | Beurteilung der Bonität der Darlehensnehmer anhand: a) deren Jahresabschlüsse b) Termingerechte Zinszahlungen und Amortisationen c)… | Weitergehend (WP) – nur auf ausdrückliche Anweisung des WP vorbereiten; Beurteilung beim WP. Nur bei angenommenen wesentlichen Fehlaussagen oder erhöhtem… |
 | H2-303 | Detail | WP | EX VO BE PA | nur_mensch | Prüfung der Zu- und Abgänge anhand von Belegen | Weitergehend (WP) – nur auf ausdrückliche Anweisung des WP vorbereiten; Beurteilung beim WP. Nur bei angenommenen wesentlichen Fehlaussagen oder erhöhtem… |
 | H2-304 | Detail | WP | VO BE PA | nur_mensch | Prüfung Verbuchung von Gewinnen und Verlusten | Weitergehend (WP) – nur auf ausdrückliche Anweisung des WP vorbereiten; Beurteilung beim WP. Nur bei angenommenen wesentlichen Fehlaussagen oder erhöhtem… |
 | H2-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben zu Aktivdarlehen prüfen: gesonderter Ausweis ggü. Beteiligten/Organen und Beteiligungsgesellschaften (falls nicht in Bilanz), Grundsätze… |
-| H2-321 | Detail |  | BE | vorbereiten | Aufstellung über Bestand und Veränderung stiller Reserven | Detailnachweis der stillen Reserven beim Kunden anfordern; Anteil auf Aktivdarlehen (Wertberichtigungen über das notwendige Mass) mit Ergebnis H2-302… |
+| H2-321 | Detail |  | BE | vorbereiten | Aufstellung über Bestand und Veränderung stiller Reserven | Detailnachweis der stillen Reserven in M-Files suchen; fehlt er → Notiz «Pendenz» «PBC-Vorschlag: Detailnachweis stille Reserven (H2-321)»; Anteil auf… |
 | H2-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Neue/geänderte Darlehensverträge, Nachträge, Sicherheiten- und Rangrücktrittsvereinbarungen, VR-Beschlüsse und Drittvergleichsdokumentation in M-Files… |
 | H2-401 | Sonstige |  | EX RV VO | auf_anweisung | Einsichtnahme in Verträge | Sonstige Prüfungshandlung (4xx): nur auf Anweisung des WP; ohne Anweisung offen lassen, Hinweise als Notiz. Mit Anweisung: Verträge einsehen und Eckdaten… |
 | H2-402 | Sonstige |  | PA | auf_anweisung | Abgrenzung der Zinsen | Sonstige Prüfungshandlung (4xx): nur auf Anweisung des WP; ohne Anweisung offen lassen, Hinweise als Notiz. Mit Anweisung: je verzinslichem Darlehen Marchzins… |
 | H2-403 | Sonstige |  | VO PA | auf_anweisung | Prüfung vollständige Verbuchung der Erträge | Sonstige Prüfungshandlung (4xx): nur auf Anweisung des WP; ohne Anweisung offen lassen, Hinweise als Notiz. Mit Anweisung: erwarteten Zinsertrag aus… |
-| H2-404 | Sonstige |  | RV DO | auf_anweisung | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | Nur auf Anweisung des WP (4xx); ohne Anweisung offen lassen, Anzeichen (Aktionärsforderung > freies EK, negatives EK) als Pendenz an WP. Mit Anweisung… |
+| H2-404 | Sonstige |  | RV DO | auf_anweisung | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | Nur auf Anweisung des WP (4xx); ohne Anweisung offen lassen, Anzeichen (Aktionärsforderung > freies EK, negatives EK) als Pendenz an WP. Die vorbereitbare… |

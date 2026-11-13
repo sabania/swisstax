@@ -3,21 +3,27 @@ typ: prueffeld
 titel: Prüffeld D1 Übrige kurzfristige Forderungen – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
+- estv-rs-2-219-2026
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
+- konzept-ki-revisionsagent-2026
 - or
 - ser-2022
+- treuhand-almanach-2026
+- vstg
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: cf5ac8fc302abd713edd96cdd639c92a34215556531c1c9fad47f3a5781cf283
 ---
 
 
 # D1 · Übrige kurzfristige Forderungen
 
-revio Bereich 4 · 20 Schritte (Befragung 3, Analytisch 2, Detail 11, Sonstige 4; EP 7, WP 2) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/d1.md](../wiki/prueffelder/d1.md)
+revio Bereich 4 · 20 Schritte (Befragung 3, Analytisch 2, Detail 11, Sonstige 4; EP 7, WP 2) · Status 🟡 extrahiert · Detail mit Zitaten: [wiki/prueffelder/d1.md](../wiki/prueffelder/d1.md)
 
-Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST/VSt-Guthaben, Sozialversicherungen, Personal, Depots/Kautionen, geleistete Anzahlungen, Darlehen/Kontokorrente an Nahestehende). Eingeschränkte Revision: Bestand und Bewertung via Befragung, Analytik, Detailprüfungen; Ausweis Nahestehender (Art. 959a Abs. 4 OR), Fristigkeit, Einlagenrückgewähr (Art. 680 OR).
+Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte D1-302/308 und 4xx nur auf Anweisung; keine Bestätigungen bei Dritten; Einlagenrückgewähr in P1-305. Inhalt: MWST-/VSt-Guthaben, Sozialversicherungen, Personal, Kautionen, Anzahlungen, Darlehen an Nahestehende; Ausweis, Fristigkeit.
 
 ## Risiken
 - Ausgewiesene Forderungen bestehen nicht (mehr) oder sind nicht belegt (z.B. bereits verrechnete MWST/VSt, erledigte Anzahlungen). [EX, RI] — [SER S. 77](../chunks/ser-2022/ser-2022__anh-d-s077-2.md)
@@ -30,7 +36,7 @@ Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST
 - Geleistete Anzahlungen werden nach erfolgter Lieferung nicht ausgebucht (Doppelerfassung mit Kreditor/Vorrat/Anlage) oder enthalten Fremdvorgänge. [EX, PA, RI] — [HWP BuR S. 202](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0189-s202.md)
 - Zinsen auf Darlehen/Kontokorrenten an Nahestehende nicht, zu tief oder periodenfremd erfasst (geldwerte Leistung, Steuerrisiko). [PA, BE] — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
 - Fremdwährungsforderungen mit falschem Kurs umgerechnet oder unrealisierte Kursgewinne erfasst. [BE] — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0089-s077.md)
-- Verrechnungssteuer-Guthaben nicht rückforderbar, wenn die belasteten Erträge nicht ordnungsgemäss verbucht wurden; MWST-Guthaben nicht mit Abrechnungen abgestimmt. [EX, BE] — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s069-2.md)
+- Verrechnungssteuer-Guthaben nicht rückforderbar, wenn die belasteten Erträge nicht ordnungsgemäss verbucht wurden; MWST-Guthaben nicht mit Abrechnungen abgestimmt. [EX, BE] — [VStG 25](../chunks/vstg/vstg__art-25.md)
 - Verjährte Forderungen weiterhin bilanziert. [EX, BE] — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0160-s192.md)
 
 ## Bewertung / Bilanzierung
@@ -58,15 +64,17 @@ Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST
 - Einlagenrückgewähr: stille Reserven (netto) dürfen beim freien Eigenkapital berücksichtigt werden. — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md)
 - Aktionärs-/Konzerndarlehen ohne bestandenen Drittvergleich sperren ausschüttbares Eigenkapital im gesamten Darlehensumfang. — [HWP ER S. 216](../chunks/hwp-er-2026/hwp-er-2026__rz-0170-s216.md)
 - ESTV-Praxis: unverzinste oder ungenügend verzinste Darlehen an Beteiligte sind geldwerte Leistungen; ESTV-Zinssätze gelten als safe haven (Rundschreiben je Jahr). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
+- VSt-Guthaben: Der Anspruch erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Fälligkeitsjahres gestellt wird; ältere Guthaben ohne Antrag sind nicht werthaltig. — [VStG 32](../chunks/vstg/vstg__art-32.md)
+- VSt-Guthaben nur plausibel bei VSt-pflichtigem Ertrag: Zinsen von Kundenguthaben bis CHF 200 pro Kalenderjahr sind von der Steuer ausgenommen. — [VStG 5](../chunks/vstg/vstg__art-5-t1.md)
 
 ## Unterlagen (PBC)
 - Saldoliste und Hauptbuch-Kontoblätter aller Konten der Gruppe «Übrige kurzfristige Forderungen» (Geschäftsjahr und Vorjahr) – Abstimmung Bilanz–Hauptbuch, Vorjahresvergleich, Durchsicht der Buchungen (D1-202, D1-301, D1-303, D1-401)
 - Einzelnachweis/Aufstellung je Konto (Gegenpartei, Betrag, Fälligkeit, Währung) – Abstimmung Gesamtbetrag mit Einzelnachweis (D1-301)
 - MWST-Abrechnungen (insb. letzte Periode) und MWST-Umsatzabstimmung – Nachweis Vorsteuer-/MWST-Guthaben (D1-302 f)
-- Bank-Zinsabrechnungen mit Verrechnungssteuerabzug und Rückerstattungsantrag VSt – Nachweis VSt-Guthaben (D1-302 c)
+- Bank-Zinsabrechnungen mit Verrechnungssteuerabzug und Rückerstattungsantrag VSt – Nachweis VSt-Guthaben (D1-301; D1-302 c nur auf Anweisung)
 - Schlussabrechnungen Sozialversicherungen (AHV/FAK, UVG, KTG, BVG) – Nachweis allfälliger Guthaben gegenüber Sozialversicherungen (D1-302 b)
 - Darlehens- und Kontokorrentverträge mit Nahestehenden, Zinsabrechnungen, Saldomeldungen – Bestand, Verzinsung, Drittvergleich (D1-302 d, D1-304, D1-404)
-- Analyse/Dokumentation des Verwaltungsrats zum Drittvergleich von Aktionärs-/Konzerndarlehen – Beurteilung Einlagenrückgewähr (D1-404)
+- Analyse/Dokumentation des Verwaltungsrats zum Drittvergleich von Aktionärs-/Konzerndarlehen – Beurteilung Einlagenrückgewähr (P1-305; D1-404 nur auf Anweisung)
 - Jahresrechnungen der Schuldner (nahestehende Personen, Beteiligungsgesellschaften) – Bonitätsbeurteilung (D1-306)
 - Anzahlungen: Bestellungen/Auftragsbestätigungen, Kaufverträge, Anzahlungsrechnungen, Zahlungsbelege, Schlussrechnungen/Lieferscheine neue Rechnung – Nachweis, Eintritt und Ausgleich der Anzahlungen (D1-302 e, D1-402, D1-403)
 - Bestätigungen zu Kautions-/Sperrkonten und Sicherheitsleistungen, Verpfändungs- und Zessionsverträge (vom Kunden vorgelegt) – Bestand und Offenlegung verpfändeter/gesperrter Aktiven (D1-101, D1-320)
@@ -87,6 +95,7 @@ Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST
 - Bestehen Forderungen in Fremdwährung und mit welchen Kursen wurden sie per Stichtag umgerechnet?
 - Wurden auf übrigen Forderungen stille Reserven gebildet oder aufgelöst (Betrag, Berechnung gegenüber Vorjahr)?
 - Wurde der Antrag auf Rückerstattung der Verrechnungssteuer gestellt bzw. wann wird er gestellt?
+- Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Betrag, Datum, Rückzahlungsstand)?
 
 ## Fallstricke
 - Langfristig gesperrte Guthaben (z.B. Mietkaution mit Freigabe erst nach Ende eines mehrjährigen Mietverhältnisses) erfüllen das Kriterium Umlaufvermögen nicht; Klassierung prüfen und Umgliederungsvorschlag erfassen. — [OR 959](../chunks/or/or__art-959.md)
@@ -96,36 +105,39 @@ Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST
 - Bestätigung der Gesetzeskonformität nur in der Vollständigkeitserklärung genügt nicht als Dokumentation des Drittvergleichs; fehlen Unterlagen, gilt der Drittvergleich als nicht gegeben. — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0182-s218.md)
 - Bei Anzeichen einer Einlagenrückgewähr ist ein Eventualhinweis im Bericht nicht angemessen; Prüfungsnachweise einholen und Auswirkung auf Gewinnverwendungsantrag dem WP vorlegen. — [HWP ER S. 218](../chunks/hwp-er-2026/hwp-er-2026__rz-0180-s218.md)
 - Für Art. 680 OR zählen nur Forderungen mit Darlehenscharakter; konzerninterne LuL-Forderungen mit üblichen Zahlungszielen nicht. — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md)
-- Im Wiki ist nur das ESTV-Rundschreiben Zinssätze 2026 (ab 1.1.2026) erfasst; für das Geschäftsjahr 2025 die Sätze des Rundschreibens 2025 beiziehen (nicht im Wiki, nicht übertragen). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- Zinssätze Nahestehende je Kalenderjahr, nie übertragen: Zinsen 2026 nach ESTV-RS 2026 CHF (estv-zinsen-2026) bzw. Fremdwährung (estv-rs-2-219-2026); Zinsen 2025 nur aus Sekundärquelle Treuhand-Almanach (`wert estv_zins_2025_vorschuss_an_beteiligte_fk` bzw. `wert estv_zins_2025_vorschuss_an_beteiligte_ek`), das Rundschreiben 2025 selbst fehlt im Wiki. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 - MWST: Vorsteuer und Umsatzsteuer werden gegenüber der ESTV über einen Saldo abgerechnet; Vorsteuerkonten mit Saldo 0 können korrekt sein, wenn auf ein Abrechnungskonto umgebucht wurde – Abstimmung mit der Abrechnung vornehmen. — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
 - Unangemessen günstige Darlehenskonditionen an Nahestehende können eine verdeckte Gewinnausschüttung darstellen, auch ohne Einlagenrückgewähr. — [HWP BuR S. 197](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0177-s197.md)
 - Weitergehende Prüfungshandlungen (z.B. D1-308, Teile von D1-302) nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko; Entscheid durch den Wirtschaftsprüfer. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0132-s203.md)
 - Bei wesentlichen Positionen genügt die Befragung allein nicht; Antworten mit Analytik oder Detailprüfung ergänzen. — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
-- Unterjährig negative Saldi auf Forderungs-/Anzahlungskonten (Sammelbuchungen) können auf Fehlbuchungen oder Vermischung mit Kreditorenvorgängen hindeuten (Praxishinweis).
-- Der Agent schlägt Umgliederungen, Wertberichtigungen oder Anhangergänzungen nur vor (Pendenz/Feststellung); er bucht nicht und setzt kein Visum (Praxis gemäss Agentenrolle).
+- Unterjährig negative Saldi auf Forderungs-/Anzahlungskonten (Sammelbuchungen) können auf Fehlbuchungen oder Vermischung mit Kreditorenvorgängen hindeuten (Praxis/intern).
+- Der Agent schlägt Umgliederungen, Wertberichtigungen oder Anhangergänzungen nur vor (Pendenz/Feststellung); er bucht nicht und setzt kein Visum. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c007-1.md)
+- Besteht ein Covid-19-Kredit (Prüffelder L1/N1), ist ein in D1-201 gefundenes Darlehen an Gesellschafter/Nahestehende, das während der Dauer der Solidarbürgschaft gewährt oder erhöht wurde, eine mögliche Verletzung von Art. 2 Abs. 2 lit. b Covid-19-SBüG. Dann Notiz «Wesentliche Feststellungen» an den WP. Fristsetzung und Information der GV (Art. 23) entscheidet der WP. — [Covid-19-SBüG 2](../chunks/covid-sbueg/covid-sbueg__art-2-t1.md)
+- Darlehen an Aktionäre nie nur unter dem Ausweis prüfen: Zins/Marchzins (D1-304), Bonität (D1-306) und Kapitalschutz (freies EK, Art. 680 Abs. 2 OR → P1-305) gehören dazu; ist das Eigenkapital negativ, besteht kein freies EK. — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md) · [OR 680](../chunks/or/or__art-680.md)
+- Forderung gegenüber einer Beteiligungsgesellschaft und Beteiligung (H3) nicht getrennt beurteilen: zeigt H3 eine Unterdeckung, ist auch die Forderung kritisch zu prüfen (Kaskade Beteiligung → nachrangige Finanzierung → übrige Forderungen); kein «D1 ohne Feststellung» im Widerspruch zu H3. — [HWP BuR S. 222](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0293-s222.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
 
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
-| D1-100 | Befragung | EP | EX VO BE | teilweise | Befragung zum geschäftlichen Hintergrund wesentlicher übriger Forderungen | Aus Saldoliste/Hauptbuch alle Konten der Gruppe «Übrige kurzfristige Forderungen» mit Saldo erfassen und wesentliche Posten (Toleranzwesentlichkeit… |
-| D1-101 | Befragung | EP | RV DO | teilweise | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind | Frage an Kunde als Pendenz: Sind Forderungen/Guthaben verpfändet, abgetreten, zum Inkasso gegeben oder gesperrt? Antwort mit Bankbestätigungen… |
+| D1-100 | Befragung | EP | EX VO BE | teilweise | Befragung zum geschäftlichen Hintergrund wesentlicher übriger Forderungen | Aus Saldoliste/Hauptbuch alle Konten der Gruppe «Übrige kurzfristige Forderungen» mit Saldo erfassen und wesentliche Posten (≥ Toleranzwesentlichkeit… |
+| D1-101 | Befragung | EP | RV DO | teilweise | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind | Nicht selbst befragen: schriftliche Antworten (10.11, Vollständigkeitserklärung) auswerten, sonst Frage als Notiz «Pendenz» (Versand durch WP): Sind… |
 | D1-102 | Befragung | EP | VO | teilweise | Besprechung wesentlicher Abweichungen einzelner Forderungen gegenüber früheren Perioden oder gegenüber den Erwartungen | Ergebnisse aus D1-202 auswerten: wesentliche Abweichungen je Konto gegenüber Vorjahr oder Erwartung (neue/aufgelöste Konten, starke Veränderungen… |
 | D1-201 | Analytisch | EP | EX VO DO | vorbereiten | Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder… | Kreis der Beteiligten, Organe und Beteiligungsgesellschaften aus Aktienbuch, HR-Auszug, Unternehmensinformationen und GV-/VR-Protokollen bestimmen. Alle… |
 | D1-202 | Analytisch | EP | VO BE | vorbereiten | Vergleich des Bestands der Forderungen mit dem Vorjahr | Saldoliste Geschäftsjahr und Vorjahr je Konto gegenüberstellen (Betrag, Veränderung absolut/%). Neue, aufgelöste, stark veränderte Konten und Saldo 0 bzw.… |
 | D1-301 | Detail | EP | EX VO BE RI | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und Einzelnachweisen | Bilanzposition gemäss Jahresrechnung mit Summe der Hauptbuchkonten (Saldoliste) abstimmen, danach jeden Kontosaldo mit dem Einzelnachweis (Abrechnung… |
-| D1-302 | Detail | WP | EX VO RI | nur_mensch | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) VSt-Rückerstattungsantrag d) Verträgen… | Je Konto Nachweis in M-Files suchen: a) vom Kunden vorgelegte Saldobestätigung, b) SV-Abrechnung, c) VSt-Antrag/Zinsabrechnung, d) Vertrag/Zinsabrechnung, e)… |
-| D1-303 | Detail |  | VO RI | vorbereiten | Ausgliedern von Habensaldi | Alle Forderungskonten und Personenkonten/OP-Listen auf Habensaldi per Stichtag prüfen; unterjährige Habensaldi als Hinweis auf Fehlbuchungen vermerken.… |
+| D1-302 | Detail | WP | EX VO RI | nur_mensch | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) VSt-Rückerstattungsantrag d) Verträgen… | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Ohne… |
+| D1-303 | Detail |  | VO RI | vorbereiten | Ausgliedern von Habensaldi | (1) Forderungskonten und Debitoren-/Personenkonten auf Habensaldi per Stichtag prüfen → Umgliederung in übrige kurzfristige Verbindlichkeiten vorschlagen. (2)… |
 | D1-304 | Detail |  | VO PA RI | vorbereiten | Prüfung der richtigen Verzinsung der Kontokorrente (insbesondere Konzern / Nahestehende) | Für verzinsliche Kontokorrente/Darlehen (v.a. Konzern, Aktionäre, Organe) Vertrag, Zinssatz und Zinsperiode erheben; Zins nachrechnen und mit Zinsertrag bzw.… |
 | D1-305 | Detail |  | BE RI | vorbereiten | Beurteilung Umrechnung Fremdwährung | Forderungskonten und Einzelposten in Fremdwährung identifizieren. Verwendete Stichtagskurse mit Jahresendkursen gemäss Bankunterlagen vergleichen und… |
 | D1-306 | Detail |  | BE | vorbereiten | Beurteilung Bonität der einzelnen Ausstände | Je wesentlicher Forderung Schuldner, Fälligkeit, Sicherheiten und Zahlungsverhalten erheben. Bei Nahestehenden und Beteiligungsgesellschaften Jahresrechnung… |
 | D1-307 | Detail | EP | BE | vorbereiten | Beurteilung der Notwendigkeit einer Wertberichtigung durch Prüfung der Zahlungskonditionen oder dem nachträglichen Eingang der Zahlungen | Zahlungskonditionen/Fälligkeit je wesentlicher Forderung mit dem Stichtag vergleichen und Zahlungseingänge nach dem Stichtag aus Kontoauszügen/Kontoblättern… |
-| D1-308 | Detail | WP | EX BE | nur_mensch | Durchsicht der Konten in neuer Rechnung auf auffällige Beträge, die darauf hindeuten, dass Forderungen des Vorjahres ausgebucht wurden | Weitergehende Prüfungshandlung, nur bei Hinweisen oder erhöhtem Risiko auf Entscheid des WP: Kontoblätter der übrigen Forderungskonten in neuer Rechnung bis… |
+| D1-308 | Detail | WP | EX BE | nur_mensch | Durchsicht der Konten in neuer Rechnung auf auffällige Beträge, die darauf hindeuten, dass Forderungen des Vorjahres ausgebucht wurden | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Mit… |
 | D1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben zu übrigen Forderungen prüfen: gesonderter Ausweis gegenüber Beteiligten/Organen und Beteiligungsgesellschaften (aus D1-201), Gesamtbetrag… |
 | D1-321 | Detail |  | VO BE | vorbereiten | Feststellen von Bestand und Veränderung der stillen Reserven | Auf übrigen Forderungen festgestellte stille Reserven erheben (z.B. Wertberichtigungen über dem betriebswirtschaftlichen Bedarf) und Bestand Vorjahr… |
 | D1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Prüfen, ob mehrjährig gültige Dokumente zu den übrigen Forderungen (Darlehens-/Kontokorrentverträge mit Nahestehenden, Kautions- und… |
-| D1-401 | Sonstige |  | VO RI | auf_anweisung | Buchungen auf Bestandes- und Erfolgskonten | Kontoblätter der übrigen Forderungskonten auf ungewöhnliche Buchungen durchsehen: Gegenkonten Erfolgsrechnung, Sammel- und Korrekturbuchungen, untypische… |
-| D1-402 | Sonstige |  | EN VO RI | auf_anweisung | Anzahlungen: Prüfung Verkehr mit Auftragsbestätigungen, Bestellungen etc. | Für wesentliche Zugänge auf Anzahlungskonten Bestellung/Auftragsbestätigung bzw. Vertrag, Anzahlungsrechnung und Zahlungsbeleg beiziehen. Prüfen, ob die… |
-| D1-403 | Sonstige |  | PA RI | auf_anweisung | Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes | Anzahlungskonto objektweise auflösen: welche Anzahlungen per Stichtag sind durch Lieferung/Schlussrechnung bereits erfüllt? Lieferscheine und… |
-| D1-404 | Sonstige |  | RV DO | auf_anweisung | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | Forderungen mit Darlehenscharakter an Aktionäre und Nahestehende (up-/cross-stream, aus D1-201) summieren und dem freien Eigenkapital gegenüberstellen.… |
+| D1-401 | Sonstige |  | VO RI | auf_anweisung | Buchungen auf Bestandes- und Erfolgskonten | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung… |
+| D1-402 | Sonstige |  | EN VO RI | auf_anweisung | Anzahlungen: Prüfung Verkehr mit Auftragsbestätigungen, Bestellungen etc. | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung: Für… |
+| D1-403 | Sonstige |  | PA RI | auf_anweisung | Anzahlungen: Prüfung Ausgleich Anzahlungskonti nach Abwicklung des Geschäftes | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung… |
+| D1-404 | Sonstige |  | RV DO | auf_anweisung | Beurteilung des Vorliegens von Einlagenrückgewähr (OR 680) bei Darlehen gegenüber Beteiligten | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung» und Ergebnis aus D1-201 (Forderungen mit… |

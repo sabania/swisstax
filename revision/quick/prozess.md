@@ -3,13 +3,22 @@ typ: prozess
 titel: Prozess eingeschränkte Revision – Übersicht
 jur: ch
 quellen:
+- covid-sbueg
 - dsg
+- gebuev
+- hregv
 - hwp-er-2026
 - leitfaden-qm-2025
 - or
+- rab-qualitaetssicherung
+- rab-rs-1-2014
+- rab-rs-1-2014-aenderung-2026
+- rag
+- rav
 - seminar-ki-datenschutz-2026
 - ser-2022
 - stgb
+- zgb
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
 ---
@@ -21,14 +30,14 @@ Kein starrer Ablauf: je Phase prüfen, was im Mandat nötig ist. Der Agent berei
 
 | Phase | Ziel | Wann | WP entscheidet | Detail |
 |---|---|---|---|---|
-| **p1-auftrag** Auftrag: Annahme/Fortführung, Unabhängigkeit, Revisionsart | Vor Wahl/Wiederwahl bzw. Prüfungsbeginn Fakten aufbereiten, damit der WP entscheidet, ob das SER-Mandat angenommen bzw. fortgeführt werden darf, kann und… | Vor Annahme der Wahl bzw. Wiederwahl durch die GV und vor Prüfungsbeginn jedes… | 14 | [Detail](../wiki/prozess/p1-auftrag.md) |
-| **p2-planung** Planung: Verständnis, Risiken, Wesentlichkeit, Prüfprogramm | Planung vorbereiten, damit der WP in revio 2.x/3.x rasch entscheidet: Revisionspflicht, Unabhängigkeit (Mitwirkung), Verständnis, Abschlussanalyse… | Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Prozess 1… | 20 | [Detail](../wiki/prozess/p2-planung.md) |
-| **p3-durchfuehrung** Durchführung: Befragungen, analytische Prüfungshandlungen, angemessene Detailprüfungen | Je Prüffeld ausreichende und geeignete Prüfungsnachweise mit der gesetzlich beschränkten Kombination aus Befragungen, Analytik und angemessenen… | Nach Prozess 1 (Import; in der Testphase erst nach Kontrolle durch den WP) und gelesener… | 21 | [Detail](../wiki/prozess/p3-durchfuehrung.md) |
-| **p4-abschluss** Beendigung: Ereignisse nach Bilanzstichtag, Fortführung, Vollständigkeitserklärung, Schlussbesprechung | Vor dem Berichtsdatum alles zusammentragen, was der WP für die Gesamtbeurteilung braucht: Ereignisse nach Stichtag, Fortführung, Kapitalverlust/Überschuldung… | Nach Bearbeitung der Prüffelder (Prozess 2), möglichst nahe am Datum des… | 22 | [Detail](../wiki/prozess/p4-abschluss.md) |
-| **p5-bericht** Bericht: zusammenfassender Revisionsbericht, Modifikationen, Hinweise | Den zusammenfassenden Bericht an die GV (OR 729b) als GVB-Entwurf vorbereiten: aus den Feststellungen Normalwortlaut oder Vorschlag für Einschränkung… | Nach Abschluss der Prüffelder, der Beendigungsarbeiten (revio 6.1–6.3) und des… | 15 | [Detail](../wiki/prozess/p5-bericht.md) |
-| **p6-kapitalschutz** Kapitalverlust, Überschuldung, Rangrücktritt, Zahlungsunfähigkeit (OR 725–725c, 729c) | Kapitalschutz-Tatbestände (drohende Zahlungsunfähigkeit, hälftiger Kapitalverlust, begründete Besorgnis bzw. Überschuldung) aus… | Bei jedem Mandat nach dem Import der Jahresrechnung (Prozess 1) als Schwellen-Check… | 17 | [Detail](../wiki/prozess/p6-kapitalschutz.md) |
+| **p1-auftrag** Auftrag: Annahme/Fortführung, Unabhängigkeit, Revisionsart | Vor Wahl/Wiederwahl bzw. Prüfungsbeginn Fakten aufbereiten, damit der WP entscheidet, ob das SER-Mandat angenommen bzw. fortgeführt werden darf, kann und… | Vor Annahme der Wahl bzw. Wiederwahl durch die GV und vor Prüfungsbeginn jedes… | 16 | [Detail](../wiki/prozess/p1-auftrag.md) |
+| **p2-planung** Planung: Verständnis, Risiken, Wesentlichkeit, Prüfprogramm | Planung vorbereiten, damit der WP in revio 2.x/3.x rasch entscheidet: Revisionspflicht, Unabhängigkeit (Mitwirkung), Verständnis, Abschlussanalyse… | Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Prozess 1… | 21 | [Detail](../wiki/prozess/p2-planung.md) |
+| **p3-durchfuehrung** Durchführung: Befragungen, analytische Prüfungshandlungen, angemessene Detailprüfungen | Je Prüffeld ausreichende und geeignete Prüfungsnachweise mit der gesetzlich beschränkten Kombination aus Befragungen, Analytik und angemessenen… | Nach Agent-Prozess 1 Import (`aufgabe import`; in der Testphase erst nach Kontrolle… | 22 | [Detail](../wiki/prozess/p3-durchfuehrung.md) |
+| **p4-abschluss** Beendigung: Ereignisse nach Bilanzstichtag, Fortführung, Vollständigkeitserklärung, Schlussbesprechung | Vor dem Berichtsdatum alles zusammentragen, was der WP für die Gesamtbeurteilung braucht: Ereignisse nach Stichtag, Fortführung, Kapitalverlust/Überschuldung… | Nach Bearbeitung der Prüffelder (Agent-Prozess 2 Prüffelder, `aufgabe prueffeld`)… | 23 | [Detail](../wiki/prozess/p4-abschluss.md) |
+| **p5-bericht** Bericht: zusammenfassender Revisionsbericht, Modifikationen, Hinweise | Den zusammenfassenden Bericht an die GV (OR 729b) als GVB-Entwurf vorbereiten: aus den Feststellungen Normalwortlaut oder Vorschlag für Einschränkung… | Nach Abschluss der Prüffelder und der Beendigungsarbeiten (revio 6.1–6.3): direkt nach… | 16 | [Detail](../wiki/prozess/p5-bericht.md) |
+| **p6-kapitalschutz** Kapitalverlust, Überschuldung, Rangrücktritt, Zahlungsunfähigkeit (OR 725–725c, 729c) | Kapitalschutz-Tatbestände (drohende Zahlungsunfähigkeit, hälftiger Kapitalverlust, begründete Besorgnis bzw. Überschuldung) aus… | Bei jedem Mandat nach dem Import der Jahresrechnung (Prozess 1) als Schwellen-Check… | 18 | [Detail](../wiki/prozess/p6-kapitalschutz.md) |
 | **p7-qualitaet** Qualitätsmanagement, Dokumentation, Archivierung, Berufsgeheimnis, KI/Datenschutz | Revisionsakte so vorbereiten, dass sie OR 730c und SER 7 genügt (nachvollziehbar, datiert, referenziert, Quellen mit M-Files-ID), Revisions- und… | Vor dem ersten Test mit Echtdaten und vor jedem weiteren Einsatz: KI-, Datenschutz- und… | 24 | [Detail](../wiki/prozess/p7-qualitaet.md) |
-| **p8-agentablauf** Arbeitsablauf des KI-Revisionsagenten (Prozesse 1–6, revio 4.0, M-Files) | Übersicht, wie der KI-Revisionsagent eine eingeschränkte Revision in revio 4.0 und M-Files über die Prozesse 1–6 vorbereitet (Import, Prüfschritte, Unterlagen… | Durchgehend ab dem Auftrag des WP (Mandat, Geschäftsjahr) bis zur bestätigten Ablage der… | 23 | [Detail](../wiki/prozess/p8-agentablauf.md) |
+| **p8-agentablauf** Arbeitsablauf des KI-Revisionsagenten (Prozesse 1–6, revio 4.0, M-Files) | Übersicht, wie der KI-Revisionsagent eine eingeschränkte Revision in revio 4.0 und M-Files über die Prozesse 1–6 vorbereitet (Import, Prüfschritte, Unterlagen… | Durchgehend ab dem Auftrag des WP (Mandat, Geschäftsjahr, Bestätigung der Grundlage für… | 23 | [Detail](../wiki/prozess/p8-agentablauf.md) |
 
 ## Agent-Prozesse 1–6 (Konzept consis)
 

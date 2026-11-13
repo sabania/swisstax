@@ -9,9 +9,9 @@ erfasst:
     urteil: korrigieren
     befunde: 12
     korrigiert: true
-kurzbeschrieb: 'Vorräte (Rohmaterial, Handelswaren, Halb-/Fertigfabrikate, Verbrauchsmaterial) inkl. Wertberichtigungen. Eingeschränkte Revision: Bestand via Inventarliste/Inventur und
-  Abstimmung Hauptbuch, Bewertung zu AK/HK bzw. tieferem Netto-Veräusserungswert (Art. 960c OR), Abgrenzung, Fremdware, Anhang, stille Reserven. Keine Inventurteilnahme, keine Drittbestätigungen;
-  WP-/4xx-Schritte nur auf Anordnung.'
+  ergaenzt: '2026-11-13 Runde R2: Wissenslücken aus E2E-Lauf ergänzt (Zitate maschinell geprüft, Zweitprüfung offen)'
+kurzbeschrieb: 'Vorräte inkl. Wertberichtigungen. ER: Bestand via Inventarliste (Zeilen und Zähllisten nachrechnen) und Abstimmung Hauptbuch, Bewertung zu AK/HK bzw. tieferem Netto-Veräusserungswert
+  je Zeile (Art. 960c OR), Abgrenzung, Anhang, stille Reserven. Keine Inventurteilnahme, keine Drittbestätigungen.'
 gesetz:
 - thema: 'Mindestgliederung: Position «Vorräte und nicht fakturierte Dienstleistungen» im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. d OR)'
   quelle: or__art-959a-t1
@@ -209,11 +209,16 @@ unterlagen:
 - dokument: Sachversicherungspolice Warenlager/Betriebsinventar
   zweck: Angemessenheit Versicherungswerte (F1-406, nur auf Anweisung des WP; Praxis)
 - dokument: Einkaufsstatistik nach Lieferanten, Rahmenverträge mit Hauptlieferanten
-  zweck: Lieferantenstruktur und Abhängigkeiten (F1-205)
+  zweck: Lieferantenstruktur und Abhängigkeiten (F1-205) (Praxis/intern)
 - dokument: Budget/Auftragsbestand bzw. Umsatzplanung
   zweck: Analytischer Vergleich mit Erwartungen, ABC-Analyse (F1-203/204)
   quelle: ser-2022__6-1-2-t1
   zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen
+- dokument: Saldoliste mit Vorjahresspalte, Hauptbuch-Kontoblätter der Vorrats-, Wertberichtigungs- und Bestandesänderungskonten (inkl. Abschlussbuchung «gemäss Inventar») und Jahresrechnung
+    inkl. Anhang (ganz lesen)
+  zweck: Abstimmung Inventar ↔ Hauptbuch ↔ Bilanz (F1-301), Bestandesänderung ↔ Erfolgsrechnung (F1-201), Anhang (F1-320)
+  quelle: ser-2022__anh-d-s078-3
+  zitat: Abstimmung des Totals der Inventarlisten und des Nachweises der nicht fakturierten Dienstleistungen mit dem Hauptbuch
 bewertung:
 - regel: 'Niederstwertprinzip: Ist der Veräusserungswert abzüglich noch anfallender Kosten tiefer als AK/HK, ist dieser tiefere Wert einzusetzen.'
   quelle: hwp-bur-2023__rz-0233-s209
@@ -361,6 +366,13 @@ fallstricke:
   zitat: Im Rahmen der Gruppenbewertung dürfen allerdings keine Zwangsreserven zur (gedanklichen) Verrechnung gebracht werden
 - text: Die Inventarliste wird oft erst nach dem Stichtag bewertet und von Hand aus den Zähllisten übertragen; Übertragungs- und Formelfehler in Excel-Inventaren sind häufig. Ein mit
     dem Hauptbuch übereinstimmendes Total schliesst Zeilenfehler (Menge × Preis ≠ Inventarwert) nicht aus; die Zeilen daher bereits in F1-301 nachrechnen. (Praxis, ohne Quelle)
+- text: 'Niederstwert nicht nur für die im Inventurprotokoll oder vom Kunden genannten Positionen prüfen: jede Zeile mit Vergleichswert unter AK/HK hat WB-Bedarf (Einzelbewertung). Erst
+    Σ aller Zeilen ist die betriebsnotwendige WB; nur der Rest der verbuchten WB ist stille Reserve (F1-321).'
+  quelle: or__art-960
+  zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet
+  schritte:
+  - F1-104
+  - F1-321
 fragen_kunde:
 - frage: Wie wurde der Vorratsbestand per Bilanzstichtag ermittelt (Stichtagsinventur, permanente Inventur, Stichprobeninventur, Lagerbuchhaltung), und welche Lagerorte (inkl. Fremdlager,
     Baustellen) waren einbezogen?
@@ -455,8 +467,8 @@ schritte:
   - Differenzliste Inventur (nur bei Lagerbuchhaltung)
   - Kontoblätter Vorräte (Stichtagsbuchung)
   rechnen: 'Nur bei Lagerbuchhaltung bzw. permanenter Inventur: Inventurdifferenz = Soll-Bestand Lagerbuchhaltung − Ist-Bestand gemäss Zählung; verbuchte Korrektur = Inventurdifferenz.
-    Ohne Lagerbuchhaltung: Stichtagsbuchung = Bestandesänderung = Σ Inventarliste GJ − Saldo VJ (keine Inventurdifferenz); Mengenabgleich Zählliste ↔ Inventarliste nur in F1-401 d (auf
-    Anweisung des WP)'
+    Ohne Lagerbuchhaltung: Stichtagsbuchung = Bestandesänderung = Σ Inventarliste GJ − Saldo VJ (keine Inventurdifferenz); Übertragungsprüfung der vorhandenen Zähllisten (Menge Zählliste
+    = Menge Inventarliste) in F1-301; systematischer Abgleich aller Zählmengen nur in F1-401 d (auf Anweisung des WP)'
   feststellung_wenn: 'Bei Lagerbuchhaltung: wesentliche Inventurdifferenzen ungeklärt, nicht/falsch verbucht oder ohne Beleg/Genehmigung. Ohne Lagerbuchhaltung ist die Stichtagsbuchung
     allein keine Feststellung.'
   fundstellen:
@@ -495,8 +507,9 @@ schritte:
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: F1-104
   vorgehen: Schriftliche Antwort (10.11) zur Bewertungsgrundlage je Kategorie (Einstandspreis, FIFO, gleitender Durchschnitt, Herstell-/Standardkosten) auswerten und mit dem Anhang abgleichen;
-    fehlt sie, Pendenz für den WP. In der Inventarliste je Position AK/HK mit dem massgebenden Vergleichswert (Absatz- bzw. Beschaffungsmarkt) vergleichen; Positionen mit tieferem Wert
-    und deren Wertberichtigung im Textfeld. Den Nachvollzug der Kundenberechnung der Wertberichtigung nicht hier, sondern nur in F1-304 auf Anordnung. Status höchstens «teilweise bearbeitet».
+    fehlt sie, Pendenz für den WP. In der Inventarliste jede Zeile (nicht nur die im Inventurprotokoll oder vom Kunden genannten Positionen) AK/HK mit dem massgebenden Vergleichswert
+    (Absatz- bzw. Beschaffungsmarkt) vergleichen; Positionen mit tieferem Wert und deren Wertberichtigung im Textfeld. Den Nachvollzug der Kundenberechnung der Wertberichtigung nicht
+    hier, sondern nur in F1-304 auf Anordnung. Status höchstens «teilweise bearbeitet».
   nachweise:
   - Schriftliche Antwort Kundenbefragung (10.11) Bewertungsgrundsätze
   - Inventarliste mit Einstands- und Markt-/Verkaufspreisen
@@ -504,7 +517,8 @@ schritte:
   - Anhang (Bewertungsgrundsätze)
   rechnen: 'Vergleichswert Absatzmarkt = Verkaufspreis − Erlösminderungen − noch anfallende Vertriebs-/Verwaltungskosten (bei erheblicher Lagerdauer zusätzlich − Fremdkapitalkosten).
     Rohmaterial/Hilfsstoffe: Wiederbeschaffungspreis, ausser Preissenkungen wirken sich nicht auf die Verkaufspreise aus; bei Überbeständen tieferer Rückrechnungswert, mindestens Liquidationswert.
-    WB-Bedarf je Position = max(0; AK/HK − Vergleichswert) × Menge; Σ Bedarf vs. verbuchte Wertberichtigung'
+    WB-Bedarf je Position = max(0; AK/HK − Vergleichswert) × Menge; Σ Bedarf vs. verbuchte Wertberichtigung – Über ALLE Zeilen mit `rechne` (Einzelbewertung); Zeilen mit Bedarf > 0 einzeln
+    auflisten; Σ Bedarf = betriebsnotwendige WB (Basis für F1-321).'
   feststellung_wenn: Bewertungsgrundlage unklar oder im Anhang abweichend beschrieben, oder Positionen mit Vergleichswert unter AK/HK ohne ausreichende Wertberichtigung.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-2
@@ -523,6 +537,8 @@ schritte:
     zitat: Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: or__art-960
+    zitat: Aktiven und Verbindlichkeiten werden in der Regel einzeln bewertet
 - id: F1-105
   vorgehen: 'Schriftliche Antwort (10.11) auswerten: Bewertungsmethode und Kalkulationsschema (Material, Löhne, Gemeinkostenzuschläge) gegenüber Vorjahr unverändert, Kostenrechnung vorhanden
     und verlässlich (Nachkalkulationen)? Mit Vorjahres-/Dauerakte und Anhang abgleichen; Methodenwechsel mit Begründung und Anhangsangabe im Textfeld. Fehlt die Antwort, Pendenz für
@@ -613,7 +629,9 @@ schritte:
 - id: F1-109
   vorgehen: 'Schriftliche Antwort (10.11) zum Cut-off auswerten (Lagersperre, Lieferscheine, Waren in Transit, Baustellenmaterial), sonst Pendenz für den WP. Wareneingänge, Eingangsrechnungen
     und Auslieferungen um den Stichtag mit Inventarliste, Kreditoren und Debitoren abgleichen: Ware im Inventar nur mit Verbindlichkeit im alten Jahr; fakturierte, ausgelieferte Ware
-    nicht im Inventar. Abweichungen im Textfeld; Status höchstens «teilweise bearbeitet».'
+    nicht im Inventar. Abweichungen im Textfeld; Status höchstens «teilweise bearbeitet». Liegen Kreditorenjournal/Kontoblatt Kreditoren des Folgejahres oder Bankauszüge Januar in der
+    Akte: Rechnungen und Zahlungen für Ware mit Lieferung ≤ Stichtag gegen Inventarliste und Kreditoren-OP-Liste 31.12. abgleichen; Ware im Inventar ohne Kreditor/Abgrenzung = fehlende
+    Verbindlichkeit (Auswertung vorhandener Unterlagen, Schnittstelle K1).'
   nachweise:
   - Inventurprotokoll (Lagersperre)
   - Lieferscheine/Wareneingänge Dez./Jan.
@@ -637,6 +655,8 @@ schritte:
     zitat: Sofern diese Ware bereits als Forderung gebucht ist, darf sie nicht zusätzlich in der Position Vorräte
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: ser-2022__4-3-4
+    zitat: die Prüfung von Ereignissen nach dem Bilanzstichtag vermögen die vom Gesetz vorgesehene begrenzte Prüfungssicherheit zu vermitteln
 - id: F1-110
   vorgehen: 'WP-Schritt (weiter gehend): nur auf ausdrückliche Anordnung des WP; ob Hinweise auf wesentliche Fehlaussagen oder erhöhtes Risiko (3.1) vorliegen, beurteilt der WP. Ohne
     Anordnung: nicht bearbeiten (kein Eintrag im Textfeld, Rapport «nicht bearbeitet – WP-Schritt»), allenfalls Notiz «Pendenz»: «F1-110 anordnen?». Mit Anordnung: Schriftliche Antwort
@@ -697,8 +717,10 @@ schritte:
   - Inventarliste GJ/VJ
   - Material-/Warenaufwand je Kategorie
   - Schriftliche Antwort Kundenbefragung (10.11)
-  rechnen: Veränderung = Saldo GJ − Saldo VJ (CHF und %); Umschlag = Aufwand Kategorie / ((Bestand Anfang + Bestand Ende) / 2); Lagerdauer (Tage) = 365 / Umschlag
-  feststellung_wenn: Wesentliche, unerklärte Bestandesveränderung oder deutlich gesunkener Umschlag einer Kategorie ohne entsprechende Wertberichtigung.
+  rechnen: Veränderung = Saldo GJ − Saldo VJ (CHF und %); Umschlag = Aufwand Kategorie / ((Bestand Anfang + Bestand Ende) / 2); Lagerdauer (Tage) = 365 / Umschlag; Veränderung Vorratskonten
+    netto (inkl. WB) = gebuchte Bestandesänderung (eigene Konten oder im Material-/Warenaufwand), je Kategorie mit `rechne`, Vorzeichen beachten
+  feststellung_wenn: Wesentliche, unerklärte Bestandesveränderung oder deutlich gesunkener Umschlag einer Kategorie ohne entsprechende Wertberichtigung. Gebuchte Bestandesänderung weicht
+    von der Veränderung der Vorratskonten ab.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-3
     zitat: Vergleich des Lagerbestandes und -umschlages einzelner Produktkategorien mit jenem früherer Perioden
@@ -706,6 +728,8 @@ schritte:
     zitat: vergleichbaren Informationen über Vorperioden
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: or__art-959b-t1
+    zitat: Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen
 - id: F1-202
   vorgehen: Bruttomarge je Produktkategorie (Erlös − Material-/Warenaufwand inkl. Bestandesänderung) für GJ und VJ berechnen. Margenrückgänge oder ungewöhnliche Margensprünge (Hinweis
     auf Abgrenzungs- oder Bewertungsfehler, z.B. überhöhter Inventarwert) identifizieren; Erklärung aus schriftlicher Antwort (10.11) übernehmen, sonst Frage als Pendenz für den WP.
@@ -787,16 +811,21 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: F1-301
-  vorgehen: Inventarliste zuerst rechnerisch nachvollziehen (je Zeile Menge × Preis = Inventarwert, Summe je Konto; Nachrechnen inkl. Übertragungsprüfung ist Prüfungstechnik der ER nach
-    HWP ER Rz 91 – ein stimmendes Total schliesst Zeilenfehler nicht aus). Dann Totale je Konto (inkl. Wertberichtigung) mit Hauptbuchsaldi und Bilanzposition Vorräte abstimmen. Zeilenfehler,
-    Differenzen und Konten ohne Inventarnachweis im Textfeld; bei wesentlicher Position mindestens diese Detailprüfung.
+  vorgehen: 'Inventarliste zuerst rechnerisch nachvollziehen (je Zeile Menge × Preis = Inventarwert, Summe je Konto; Nachrechnen inkl. Übertragungsprüfung ist Prüfungstechnik der ER
+    nach HWP ER Rz 91 – ein stimmendes Total schliesst Zeilenfehler nicht aus). Dann Totale je Konto (inkl. Wertberichtigung) mit Hauptbuchsaldi und Bilanzposition Vorräte abstimmen.
+    Zeilenfehler, Differenzen und Konten ohne Inventarnachweis im Textfeld; bei wesentlicher Position mindestens diese Detailprüfung. Liegen Zähllisten/Inventurprotokoll in der Akte:
+    Anzahl Zähllisten laut Protokoll mit den vorhandenen vergleichen und je Artikel Menge Zählliste mit Menge Inventarliste abgleichen (Übertragungsprüfung; bei langen Listen mindestens
+    alle Positionen ≥ Toleranzwesentlichkeit und auffällige). Wurde der Vorratssaldo per Abschlussbuchung «gemäss Inventar» auf die Inventarliste gesetzt, beweist HB = Inventarliste
+    allein nichts; der Nachweis liegt dann in Zähllisten und Bewertung (Praxis/intern).'
   nachweise:
   - Inventarliste per Bilanzstichtag (Excel/PDF)
   - Saldoliste/Kontoblätter Vorratskonten
   - Bilanz
   rechnen: 'Je Zeile: Menge × Preis = Inventarwert (jede Abweichung mit Artikel und Betrag); Σ Zeilen je Konto = ausgewiesenes Kontototal = Saldo Hauptbuchkonto; Σ Kontototale − Wertberichtigung
-    = Bilanzposition Vorräte netto'
-  feststellung_wenn: Zeilen- oder Additionsfehler in der Inventarliste, Differenz zwischen Inventarliste und Hauptbuch oder Vorratskonto mit Saldo ohne Inventarnachweis.
+    = Bilanzposition Vorräte netto; Zählliste: Menge Zählliste − Menge Inventarliste je Artikel = 0 (Differenz × Preis = Wertdifferenz); Anzahl Zähllisten laut Protokoll − vorhandene
+    = 0'
+  feststellung_wenn: Zeilen- oder Additionsfehler in der Inventarliste, Differenz zwischen Inventarliste und Hauptbuch oder Vorratskonto mit Saldo ohne Inventarnachweis. Mengendifferenz
+    Zählliste ↔ Inventarliste; Zähllisten fehlen oder sind unlesbar (Scan ohne Text) → Pendenz.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-3
     zitat: Abstimmung des Totals der Inventarlisten und des Nachweises der nicht fakturierten
@@ -811,6 +840,13 @@ schritte:
     zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen
   - quelle: or__art-958c
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: hwp-er-2026__rz-0091-s196
+    zitat: Dies beinhaltet auch Abstimmungsund Übertragungsprüfungen.
+  - quelle: hwp-bur-2023__rz-0204-s205
+    zitat: Differenzen sind abzuklären und zu bereinigen.
+  notiz: Rechen-, Übertragungs- oder Mengenfehler bzw. Differenz zum Hauptbuch ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Betrag (`rechne`) und Buchungsvorschlag (Vorräte
+    an Bestandesänderung bzw. umgekehrt; ohne Verbuchung); < NAG nur im Textfeld. Fehlende Zählliste/Inventarliste → «Pendenz» (Konto, Datum, Betrag). Eine Quelle nur nennen, wenn sie
+    gelesen wurde.
 - id: F1-302
   vorgehen: 'WP-Schritt (weiter gehend): nur auf ausdrückliche Anordnung des WP; ob Hinweise auf wesentliche Fehlaussagen oder erhöhtes Risiko (3.1) vorliegen, beurteilt der WP. Ohne
     Anordnung: nicht bearbeiten (kein Eintrag im Textfeld, Rapport «nicht bearbeitet – WP-Schritt»), allenfalls Notiz «Pendenz»: «F1-302 anordnen?». Mit Anordnung: Auswahl: alle Positionen
@@ -911,7 +947,8 @@ schritte:
   vorgehen: Prüfen, ob der Anhang die Bewertungsgrundsätze der Vorräte (soweit nicht gesetzlich vorgeschrieben), allfällige Methodenwechsel, verpfändete Vorräte bzw. Vorräte unter Eigentumsvorbehalt
     und eine Nettoauflösung stiller Reserven (Auflösung > Neubildung, z.B. Abbau Warendrittel), die das Ergebnis wesentlich günstiger darstellt, korrekt enthält. Verpfändung/Eigentumsvorbehalt
     unabhängig von F1-111 anhand der Verträge, der schriftlichen Antwort (10.11) bzw. T1-106 prüfen (SER Anh. D u) Anhang, empfohlen). Abweichungen zu F1-104/105/321 (F1-111 nur falls
-    bearbeitet) im Textfeld festhalten.
+    bearbeitet) im Textfeld festhalten. Verpfändung/Zession nur mit gelesener Fundstelle nennen (Kredit-/Pfandvertrag, Bankdokument – auch aus den Akten anderer Prüffelder wie flüssige
+    Mittel und Finanzverbindlichkeiten); ohne Dokument → Pendenz, nie vermuten.
   nachweise:
   - Anhang Jahresrechnung
   - Ergebnisse F1-104, F1-105, F1-321 und T1-106 (F1-111 nur, falls auf Anordnung bearbeitet)
@@ -932,6 +969,8 @@ schritte:
     zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
   - quelle: ser-2022__anh-d-s072-2
     zitat: ggf. Offenlegung einer wesentlichen Nettoauflösung im Anhang
+  - quelle: konzept-ki-revisionsagent-2026__c005-1
+    zitat: fehlende Daten dürfen nicht erfunden werden
 - id: F1-321
   vorgehen: Stille Reserven auf Vorräten (Warendrittel, zusätzliche sowie beibehaltene, nicht mehr begründete Wertberichtigungen) per Stichtag und Vorjahr aus der Aufstellung des Kunden
     übernehmen und mit Inventarliste/Wertberichtigungskonto abstimmen. Veränderung (Bildung/Auflösung) berechnen, in die Gesamtaufstellung stille Reserven übertragen und für die Nettoauflösung
@@ -940,7 +979,8 @@ schritte:
   - Aufstellung stille Reserven des Kunden
   - Berechnung Wertberichtigung (betriebsnotwendig vs. steuerlich)
   - Vollständigkeitserklärung
-  rechnen: Stille Reserve = Wertberichtigung total − betriebsnotwendige Wertberichtigung (unkurant/verlustfreie Bewertung); Veränderung = Reserve GJ − Reserve VJ (negativ = Auflösung)
+  rechnen: Stille Reserve = Wertberichtigung total − betriebsnotwendige Wertberichtigung (unkurant/verlustfreie Bewertung = Σ WB-Bedarf aller Zeilen aus F1-104); Veränderung = Reserve
+    GJ − Reserve VJ (negativ = Auflösung)
   feststellung_wenn: Aufstellung fehlt oder stimmt nicht mit Inventar/Wertberichtigung überein, oder wesentliche Nettoauflösung ohne Anhangsangabe.
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
@@ -951,6 +991,10 @@ schritte:
     zitat: Zu den gleichen Zwecken kann davon abgesehen werden, nicht mehr begründete Abschreibungen und Wertberichtigungen aufzulösen.
   - quelle: hwp-bur-2023__rz-0759-s320
     zitat: zwangsläufig zu einer Auflösung stiller Reserven
+  - quelle: or__art-960a
+    zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+  notiz: 'Zulässige stille Reserve (Warendrittel, zusätzliche WB nach Art. 960a Abs. 4 OR) ist kein Fehler: nur im Textfeld und in der Gesamtaufstellung erfassen, keine «Wesentliche
+    Feststellungen». WB unter dem betriebsnotwendigen Betrag ist ein Fehler (F1-104). Nettoauflösung ohne Anhangsangabe → F1-320/T1. Aufstellung fehlt → «Pendenz».'
 - id: F1-322
   vorgehen: 'Dauerakte Vorräte nachführen: Bewertungsgrundsätze und -methode, Inventurorganisation/-instruktion, Lagerbuchhaltung ja/nein, Lagerorte und Fremdlager, Pfand- und Konsignationsverträge,
     Hauptlieferanten, Berechnungsschema Wertberichtigung/Warendrittel. Änderungen gegenüber Vorjahr im Textfeld vermerken.'

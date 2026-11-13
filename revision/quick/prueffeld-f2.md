@@ -11,6 +11,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 07e062963ffe1797aa8ebfa95bee356f8e67706ee81e906c3b6911f0b2e92ed1
 ---
 
 
@@ -18,7 +19,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 24 Schritte (Befragung 5, Analytisch 3, Detail 8, Sonstige 8; EP 7, WP 4) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/f2.md](../wiki/prueffelder/f2.md)
 
-Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Aufträge (Teil der Position «Vorräte und nicht fakturierte Dienstleistungen», Art. 959a OR) inkl. Abgrenzung zu erhaltenen Anzahlungen und Bestandesänderung. Eingeschränkte Revision: v.a. Befragungen und Analytik zu Bestand, Bewertung (höchstens Herstellkosten, verlustfrei) und Abgrenzung, ergänzt um Detailprüfungen.
+Nicht fakturierte Dienstleistungen/angefangene Arbeiten (Art. 959a OR) inkl. Anzahlungen und Bestandesänderung. ER: Befragung, Analytik und Detailprüfung zu Bestand, Bewertung (höchstens Herstellkosten, verlustfrei je Projekt) und Abgrenzung (vor dem Stichtag abgenommen = Ertrag des Prüfjahres).
 
 ## Risiken
 - Erhöhtes inhärentes Risiko bei Bestand und Bewertung, da Ermittlung und Bewertung angefangener Arbeiten komplex sind (v.a. Projektgeschäft). [EX, BE] — [HWP ER S. 181](../chunks/hwp-er-2026/hwp-er-2026__rz-0018-s181.md)
@@ -33,19 +34,20 @@ Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Auftr�
 - Bauten auf fremdem Boden: Eigentum geht mit Baufortschritt über – Ausweis und Bezeichnung (Forderungscharakter). [RV, DO] — [HWP BuR S. 204](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0198-s204.md)
 
 ## Bewertung / Bilanzierung
+- Verlustfreie Bewertung mittels Rückrechnung (erwarteter Erlös abzüglich Erlösminderungen und noch anfallender Kosten); liegt der Vergleichswert tiefer, Wertberichtigung. — [HWP BuR S. 212](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0246-s212.md)
+- Ein sich abzeichnender Auftragsverlust ist sofort vollumfänglich zu berücksichtigen (Wertberichtigung, ggf. Rückstellung). — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
+- POCM nur bei kumulativen Voraussetzungen, u.a. zuverlässige Ermittlung von Erlösen, Kosten und Fertigstellungsgrad. — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t2.md)
+- Keine Verrechnung von Projekten mit negativem und positivem Saldo (Bruttoprinzip). — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t1.md)
 - Nicht fakturierte Dienstleistungen sind buchhalterisch wie Vorräte (Erzeugnisse in Arbeit) zu behandeln. — [HWP BuR S. 204](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0197-s204.md)
 - Mit der Leistungserbringung zusammenhängende Kosten sind wie Herstellungskosten zu behandeln. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0230-s209.md)
 - Herstellungskosten umfassen Material, Materialgemeinkosten, Fertigungslöhne und Fertigungsgemeinkosten. — [HWP BuR S. 207](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0220-s207.md)
 - Allgemeine Verwaltungs- und Vertriebskosten sind nicht aktivierbar. — [HWP BuR S. 207](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0221-s207.md)
+- Fabrikationsbezogene Verwaltungskosten (z.B. technische Leitung, Betriebs-/Lohnbuchhaltung) dürfen eingerechnet werden; allgemeine Verwaltung und Vertrieb nie. Kostenstelle «Verwaltung» im Zuschlag: Fabrikationsbezug als Pendenz erfragen, ohne Nachweis Hinweis an WP. — [HWP BuR S. 208](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0222-s208.md)
 - Fixe Gemeinkosten auf Basis Normalbeschäftigung zurechnen; Eigenkapitalzins nie aktivierbar. — [HWP BuR S. 208](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0222-s208.md)
-- Verlustfreie Bewertung mittels Rückrechnung (erwarteter Erlös abzüglich Erlösminderungen und noch anfallender Kosten); liegt der Vergleichswert tiefer, Wertberichtigung. — [HWP BuR S. 212](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0246-s212.md)
 - Pauschalbewertung von Aufträgen in Arbeit nur zulässig, wenn Aktivierungsfähigkeit und verlustfreie Bewertung nachvollzogen sind. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0232-s209.md)
 - Wahlrecht für langfristige Aufträge: POCM (anteilige Gewinnrealisierung), modifizierte POCM (ohne Gewinn) oder Completed Contract. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
-- POCM nur bei kumulativen Voraussetzungen, u.a. zuverlässige Ermittlung von Erlösen, Kosten und Fertigstellungsgrad. — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t2.md)
 - Gewinnermittlung bei POCM zurückhaltend; bei Pauschal-/Festpreisen erhöhte Vorsicht. — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t2.md)
-- Ein sich abzeichnender Auftragsverlust ist sofort vollumfänglich zu berücksichtigen (Wertberichtigung, ggf. Rückstellung). — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
 - Erhaltene Anzahlungen: Brutto- oder Nettodarstellung; bei Nettodarstellung Nettobuchwert je Projekt, Überfinanzierung passivieren. — [HWP BuR S. 214](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0254-s214.md)
-- Keine Verrechnung von Projekten mit negativem und positivem Saldo (Bruttoprinzip). — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t1.md)
 - Kundenanzahlungen werden erst bei Zahlungseingang bilanziert. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
 - Angefangene Bauten auf fremdem Boden haben Forderungscharakter; bei Ausweis unter Vorräten zweckmässig bezeichnen. — [HWP BuR S. 204](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0198-s204.md)
 - Anhang: Bewertungsgrundsätze für Vorräte und angefangene Arbeiten inkl. Methode langfristiger Fertigungsaufträge offenlegen. — [HWP BuR S. 338](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0814-s338.md)
@@ -61,10 +63,11 @@ Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Auftr�
 - Fakturen/Schlussabrechnungen und Kontoblätter Ertrag/Debitoren der neuen Periode – Abrechnungen in neuer Periode, Cut-off (F2-302, 401, 405 d)
 - Kontoblatt erhaltene Anzahlungen mit Zuordnung je Projekt; Abrechnungen von Unterakkordanten/Kreditorenfakturen Fremdleistungen – Gegenüberstellung Anzahlungen/Kosten und Vollständigkeit Fremdkosten (F2-202, 401, 405 a)
 - Berechnung der Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge inkl. Restkostenschätzung der Projektleitung – Verlustfreie Bewertung nachvollziehen (F2-105, 304, 406)
-- Nachweis stille Reserven (Bestand und Veränderung) auf angefangenen Arbeiten – F2-321, Anhangangabe Nettoauflösung
+- Nachweis stille Reserven (Bestand und Veränderung) auf angefangenen Arbeiten – F2-321; Beitrag zur Nettoauflösung an T1-305
 - Konsortial-/ARGE-Verträge und Konsortialabrechnungen – Erfassung und Solidarhaftung beurteilen (F2-408)
-- Versicherungspolicen (Bauwesen-/Montageversicherung) für laufende Projekte – Angemessenheit Versicherungswerte (F2-403)
+- Versicherungspolicen (Bauwesen-/Montageversicherung) für laufende Projekte – Angemessenheit Versicherungswerte (F2-403) (Praxis/intern)
 - Vollständigkeitserklärung der Unternehmensleitung – Schriftliche Bestätigung u.a. zu stillen Reserven und Bewertung
+- Hauptbuch-Kontoblätter angefangene Arbeiten, erhaltene Anzahlungen, Projekterlöse und Debitoren (Dezember GJ und erste Monate Folgejahr); Jahresrechnung inkl. Anhang (ganz lesen) – Schlussrechnungen, Gutschriften und Ausbuchung abgenommener Projekte um den Stichtag (F2-302), Bestandesänderung (F2-201), Anhangsangabe Bewertungsmethode (F2-320)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welcher Art sind die angefangenen Arbeiten bzw. nicht fakturierten Leistungen (Kundenaufträge mit Werkvertrag oder Arbeiten auf Lager)? Handelt es sich um Bauten auf fremdem Boden?
@@ -79,10 +82,10 @@ Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Auftr�
 - Welche Versicherungsdeckung (Bauwesen-/Montageversicherung) besteht für laufende Projekte und decken die Versicherungssummen die Projektwerte?
 
 ## Fallstricke
-- Vertiefte Prüfungen der Herstellkostenkalkulation gehören nicht zur eingeschränkten Revision; bei entsprechender Risikolage nur Plausibilisierung. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0134-s203.md)
+- Vertiefte Prüfungen der Herstellkostenkalkulation gehören nicht zur eingeschränkten Revision; bei entsprechender Risikolage nur Plausibilisierung ^[hwp-er-2026__rz-0134-s203]. — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-2.md)
 - Inventurteilnahme ist nicht Bestandteil der eingeschränkten Revision. — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-2.md)
 - Bei wesentlicher Position nicht nur auf Befragungen abstützen: Antworten mit Analytik und angemessenen Detailprüfungen erhärten. — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
-- F2-203, 303, 304, 306 sind weitergehende Prüfungshandlungen (WP): nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko; Agent bereitet nur vor, WP entscheidet. — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
+- F2-203, 303, 304, 306 sind weitergehende Prüfungshandlungen (WP): nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko; der Agent bereitet sie nur auf ausdrückliche Anweisung des WP vor (offener Entscheid consis); ohne Anweisung «nicht bearbeitet – WP-Schritt». Beurteilung beim WP ^[konzept-ki-revisionsagent-2026__c012-1]. — [SER S. 79](../chunks/ser-2022/ser-2022__anh-d-s079-1.md)
 - 4xx-Schritte gelten als sonstige/weitergehende Handlungen und werden nur auf Anweisung bearbeitet. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Befragungen (1xx) kann der Agent nicht selbst führen: schriftliche Antworten auswerten, sonst Frage als Pendenz; Visum offen lassen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Gesamtsaldo «angefangene Arbeiten minus Anzahlungen» verdeckt überfinanzierte Projekte – immer je Projekt beurteilen. — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t1.md)
@@ -90,7 +93,10 @@ Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Auftr�
 - SER-Analytik «kein Gewinnanteil» setzt Bewertung zu Herstellkosten voraus; bei POCM ist ein Gewinnanteil nur unter den kumulativen Voraussetzungen und bei zurückhaltender Ermittlung zulässig. — [HWP BuR S. 316](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0748-s316-t2.md)
 - Abgenommene Projekte: nicht gleichzeitig als Forderung/Ertrag und als angefangene Arbeit erfassen. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0234-s209.md)
 - Verluste, die vor dem Stichtag verursacht, aber erst danach bekannt wurden (z.B. Mängel, Gutschriften im Folgejahr), betreffen das alte Geschäftsjahr. — [HWP BuR S. 264](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0530-s264.md)
-- Anzahlungen werden oft im Prüffeld übrige kurzfristige Verbindlichkeiten geführt; Zuordnung je Projekt mit F2 abstimmen, um Doppel- oder Fehlbeurteilungen zu vermeiden.
+- Praxis/intern: Anzahlungen werden oft im Prüffeld übrige kurzfristige Verbindlichkeiten geführt; Zuordnung je Projekt mit F2 abstimmen, um Doppel- oder Fehlbeurteilungen zu vermeiden.
+- Abnahme bzw. Fertigstellung vor dem Stichtag ist kein Ereignis nach dem Bilanzstichtag: Der Ertrag ist realisiert, sobald ein Entschädigungsanspruch durchsetzbar ist – auch wenn die Schlussrechnung erst im Folgejahr gestellt wird. Im Prüfjahr erfassen (F2-302). Spätere Belege liefern nur Nachweise; massgebend ist, ob der Sachverhalt am Stichtag bestand. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0745-s315.md) · [HWP ER S. 254](../chunks/hwp-er-2026/hwp-er-2026__rz-0317-s254.md)
+- Akonto-/Vorauszahlungsrechnungen für noch nicht erbrachte Leistungen (z.B. Leistungen des Folgejahres) sind weder Ertrag noch Forderung aus L+L: Anzahlungen werden erst bei Zahlungseingang bilanziert. Unbezahlte, als Ertrag/Debitor gebuchte Akontorechnung → Feststellung (Storno vorschlagen); bezahlte → erhaltene Anzahlung, nicht Ertrag. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
+- Verlustprojekte: Marge jeder Zeile der Projektliste mit `rechne` prüfen (Auftragswert − Kosten − Restkosten), nicht nur Totale oder die vom Kunden markierten Projekte. Ein sich abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0747-s315.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -104,12 +110,12 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | F2-105 | Befragung | EP | BE | teilweise | Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen sichergestellt ist | Schriftliche Antwort auswerten, wie die verlustfreie Bewertung sichergestellt wird (Restkostenschätzung je Projekt, Vergleich mit Auftragswert… |
 | F2-201 | Analytisch |  | VO BE PA | vorbereiten | Analyse der wesentliche Veränderungen und unerwartete Entwicklungen | Saldo nicht fakturierte Leistungen (Konto 1301) und Bestandesänderung (3900) mit Vorjahr vergleichen; Relationen zu Nettoerlös und erhaltenen Anzahlungen… |
 | F2-202 | Analytisch |  | VO BE PA | vorbereiten | Gegenüberstellung angefangene Arbeiten und Anzahlungen von Kunden oder Abrechnungen von Unterakkordanten | Je Projekt Bilanzwert (aufgelaufene Kosten) den erhaltenen Anzahlungen bzw. Abrechnungen von Unterakkordanten gegenüberstellen. Summe Anzahlungen gemäss… |
-| F2-203 | Analytisch | WP | BE PA | nur_mensch | Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist | Weitergehende Analytik (WP-Schritt, nur vorbereiten): je Projekt Bilanzwert mit aufgelaufenen Herstellkosten (Einzel- + Gemeinkosten) vergleichen; Differenz =… |
+| F2-203 | Analytisch | WP | BE PA | nur_mensch | Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als… |
 | F2-301 | Detail | EP | VO | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und Bestandeslisten/ Aufstellungen | Total der Projektliste (Bilanzwert) mit Saldo Konto 1301 laut Hauptbuch/Saldoliste und mit der Bilanzposition nicht fakturierte Dienstleistungen abstimmen… |
 | F2-302 | Detail | EP | VO BE PA | vorbereiten | Prüfung angefangener Arbeiten anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode | Je wesentliches Projekt Arbeitsfortschritt (Fertigstellungsgrad, Abnahmeprotokolle, Status) und Abrechnungen der neuen Periode (Fakturen… |
-| F2-303 | Detail | WP | VO BE PA | nur_mensch | Stichprobenmässige Prüfung der Bewertung der nicht fakturierten Dienstleistungen und angefangenen Arbeiten anhand geeigneter Dokumente… | Weitergehende Detailprüfung (WP-Schritt, nur bei erhöhtem Risiko/Anweisung vorbereiten): Projekte mit hohem Wert bzw. Schlüsselprojekte auswählen; Kosten je… |
-| F2-304 | Detail | WP | BE | nur_mensch | Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten… | Weitergehender WP-Schritt: Berechnung der Gesellschaft zu Wertberichtigungen/Verlustrückstellungen für Projekte mit ungenügender Marge nachvollziehen… |
-| F2-306 | Detail | WP | EX BE | nur_mensch | Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und… | Weitergehender WP-Schritt bei Anlagen-/Projektgeschäft: Herstellkostenwerte der Projektliste mit Kalkulation und Kostenrechnung (Projektkostenauswertung… |
+| F2-303 | Detail | WP | VO BE PA | nur_mensch | Stichprobenmässige Prüfung der Bewertung der nicht fakturierten Dienstleistungen und angefangenen Arbeiten anhand geeigneter Dokumente… | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als… |
+| F2-304 | Detail | WP | BE | nur_mensch | Nachvollzug der vom Kunden berechneten Wertberichtigungen für die verlustfreie Bewertung von Produktkategorien und nicht fakturierten… | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als… |
+| F2-306 | Detail | WP | EX BE | nur_mensch | Abstimmung der Herstellkostenwerte mit den Unterlagen der Kalkulation und Kostenrechnung (bei Unternehmen, welche im Anlagen- und… | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als… |
 | F2-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben zu den angefangenen Arbeiten durchsehen: Bewertungsgrundsätze (Herstellkosten/POCM, Fertigstellungsgrad), Methodenwechsel, Aufgliederung… |
 | F2-321 | Detail |  | VO BE | vorbereiten | Aufstellung über Bestand und Veränderung der stillen Reserven | Aufstellung der Gesellschaft über stille Reserven auf angefangenen Arbeiten (Bestand Vorjahr, Bildung, Auflösung, Bestand 31.12.) einholen und mit dem… |
 | F2-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakte mit mehrjährig gültigen Unterlagen dieses Prüffelds aktualisieren: Bewertungsrichtlinie/Kalkulationsschema, Herleitung Gemeinkostenzuschlag… |

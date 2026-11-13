@@ -7,10 +7,12 @@ quellen:
 - hwp-er-2026
 - hwp-or-2024
 - konzept-ki-revisionsagent-2026
+- mwstg
 - or
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: bc4d9abb0b127affd77dc530e0a11ab6ab48c495d103b631544e3998afb116f5
 ---
 
 
@@ -18,7 +20,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 12 Schritte (Befragung 2, Analytisch 2, Detail 5, Sonstige 3; EP 2, WP 1) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/sch1.md](../wiki/prueffelder/sch1.md)
 
-Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzung zu Finanz-, betriebsfremdem und a.o. Ertrag. ER: empfohlen Befragung zu Umsatzerfassung/Cut-off und Margenvergleich; dazu Saldo-/Budgetanalytik, Gliederung nach Art. 959b OR. Belegabstimmung und Cut-off-Einsicht (WP) weiter gehend bei Risiko; JET nur auf WP-Anweisung, Drittbestätigungen nicht Bestandteil.
+Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzung zu Finanz-, betriebsfremdem und a.o. Ertrag. ER: empfohlen Befragung zu Umsatzerfassung/Cut-off und Margenvergleich; dazu Saldo-/Budgetanalytik, Gliederung nach Art. 959b OR. Belegabstimmung weiter gehend bei Risiko; Cut-off-Einsicht ist WP-Schritt (nur auf Anweisung); JET nur auf WP-Anweisung, Drittbestätigungen nicht Bestandteil.
 
 ## Risiken
 - Umsatz vor Erfüllung der Leistungsverpflichtung erfasst (z.B. Fakturierung vor Lieferung/Abnahme, Akonto- oder Vorauszahlungsrechnungen als Ertrag). [EN, PA] — [HWP BuR S. 314](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0743-s314-t2.md)
@@ -30,7 +32,7 @@ Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzu
 - Umsätze mit nahestehenden Personen nicht zu marktüblichen Bedingungen oder nicht erkennbar. [EN, BE, DO] — [HWP ER S. 211](../chunks/hwp-er-2026/hwp-er-2026__rz-0157-s211.md)
 - Vermittlungsgeschäfte brutto statt nur mit Kommissionsertrag als Umsatz ausgewiesen. [DO, RI] — [HWP BuR S. 314](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0744-s314-t2.md)
 - Erwartete Erlösminderungen (Rabatte, Retouren, variable Preisbestandteile) nicht geschätzt bzw. unsichere Erlösbestandteile zu früh erfasst. [BE, EN] — [HWP BuR S. 314](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0744-s314-t1.md)
-- Warenhandel (z.B. Solarkomponenten) mit Rückgaberecht: Umsatz vor Bezahlung bzw. Ablauf der Rückgabefrist erfasst, für erwartete Retouren keine Rückerstattungsverbindlichkeit gebildet. [BE, PA, EN] — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
+- Warenhandel mit Rückgaberecht: Umsatz vor Bezahlung bzw. Ablauf der Rückgabefrist erfasst, für erwartete Retouren keine Rückerstattungsverbindlichkeit gebildet. [BE, PA, EN] — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
 
 ## Bewertung / Bilanzierung
 - Umsatzrealisation, sobald die Leistungsverpflichtung so weit erfüllt ist, dass ein Entschädigungsanspruch rechtlich durchsetzbar ist. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0745-s315.md)
@@ -82,8 +84,8 @@ Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzu
 - Liegen Ihnen Abrechnungen oder Bestätigungen Dritter zu Umsätzen vor (z.B. Netzbetreiber, Plattformen, Kommissionäre)?
 
 ## Fallstricke
-- SCH1-402: Debitorenbestätigungen führt SER Anhang D c) als nicht Bestandteil der ER auf; Umsatzbestätigungen analog. Agent holt keine ein und schlägt «nicht Bestandteil ER» nur vor; Entscheid, Visum und Status beim WP. — [SER S. 76](../chunks/ser-2022/ser-2022__anh-d-s076-1.md)
-- Belegabstimmung (301), Cut-off-Einsicht (303) und Abstimmung MWST-Abrechnungen mit den Konten (202e) sind nach SER Anhang D weiter gehende Handlungen; nicht pauschal ausdehnen, Auslöser und Umfang im Textfeld begründen. — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
+- SCH1-402: Debitorenbestätigungen führt SER Anhang D c) als nicht Bestandteil der ER auf; Umsatzbestätigungen analog. Agent holt keine ein und nennt «nicht Bestandteil ER» als Grund im Rapport; Entscheid, Visum und Status beim WP. — [SER S. 76](../chunks/ser-2022/ser-2022__anh-d-s076-1.md)
+- Belegabstimmung (301) und Abstimmung MWST-Abrechnungen mit den Konten (202e) sind nach SER Anhang D weiter gehende Handlungen; nicht pauschal ausdehnen, Auslöser und Umfang im Textfeld begründen. SCH1-303 (Cut-off-Einsicht) ist zusätzlich WP-Schritt: nur auf Anweisung. — [SER S. 92](../chunks/ser-2022/ser-2022__anh-d-s092-1.md)
 - SCH1-401 JET: In der ER wird das Risiko deliktischer Handlungen nicht berücksichtigt; JET-Treffer nur als Hinweise der kritischen Durchsicht dokumentieren, keine Aussagen zu Delikten. — [HWP ER S. 180](../chunks/hwp-er-2026/hwp-er-2026__rz-0012-s180.md)
 - Vorjahres- und Margenvergleiche können durch Bildung/Auflösung stiller Reserven verzerrt sein; Zahlen vor der Analyse bereinigen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
 - Margenanalyse nicht über «alle Konten 3xxx»: Bestandesänderung (z.B. 3900) ist nicht Nettoerlös und verzerrt die Marge; separat zeigen bzw. als Betriebsleistung rechnen. — [HWP BuR S. 317](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0750-s317-t2.md)
@@ -95,7 +97,7 @@ Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzu
 - Bestandesänderungen (z.B. angefangene Arbeiten) im Total «Betrieblicher Ertrag» bzw. Nettoerlös ausgewiesen statt als eigene Mindestposition. — [OR 959B](../chunks/or/or__art-959b-t1.md)
 - A.o., einmalige und periodenfremde Erträge eng auslegen; im Zweifel betrieblich klassieren; a.o. Ausweis im Anhang erläutern (Art. 959c Abs. 2 Ziff. 12 OR). Detailprüfung der Klassierung bei SCH5. — [HWP BuR S. 330](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0800-s330-t2.md)
 - Nachträgliche Lieferantenrabatte, Lieferantengutschriften und Rücksendungen mindern den Materialaufwand und gehören nicht in den (a.o.) Ertrag; Schnittstelle SCH2/SCH5. — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
-- SCH1-303 ist als WP-Schritt gekennzeichnet; ob der Agent WP-Schritte vorbereiten darf, ist ein offener Entscheid. Bis zur Klärung nur Arbeitsliste vorbereiten, keine Würdigung. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
+- SCH1-303 ist als WP-Schritt gekennzeichnet; ob der Agent WP-Schritte vorbereiten darf, ist ein offener Entscheid. Bis zur Klärung ohne ausdrückliche Anweisung nicht bearbeiten; Hinweise nur als Notiz an den WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
 - Stichprobenregel des Konzepts ist nur ein Vorschlag (offener Entscheid); nicht als geltende Regel zitieren, WP-Vorgabe hat Vorrang. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
 - Agent hat kein Recht auf Kundenversand: Fragen und Anforderungen nur als Pendenz-Notiz in revio erfassen, Versand durch den WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c009-3.md)
 - Analytik ist eine indirekte Prüfung: Plausibilität genügt, keine exakte Übereinstimmung erwarten; tolerierbare Abweichung vorab festlegen. — [HWP ER S. 198](../chunks/hwp-er-2026/hwp-er-2026__rz-0108-s198.md)
@@ -107,13 +109,13 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 |---|---|---|---|---|---|---|
 | SCH1-101 | Befragung | EP | EN VO PA | teilweise | Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand | Agent befragt nicht selbst: Frage zur Umsatzerfassung (Lieferung/Abnahme/Fakturierung, Akonto, langfristige Aufträge, Erlösminderungen, MWST) und zum Cut-off… |
 | SCH1-102 | Befragung |  | VO BE PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Aus der Saldoliste Ertrags- und Erlösminderungskonten mit Abweichung zum Vorjahr (bzw. Budget) über der Schwelle auflisten, inkl. neu bebuchter Konten, und… |
-| SCH1-201 | Analytisch | EP | VO BE | vorbereiten | Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen | Nettoerlös (Konten 3000–3899 inkl. Erlösminderungen 38xx, ohne Bestandesänderung 3900), Waren-/Materialaufwand (4xxx inkl. Bestandesänderungen 4207–4209) und… |
+| SCH1-201 | Analytisch | EP | VO BE | vorbereiten | Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen | Nettoerlös (Konten 3000–3899 inkl. Erlösminderungen 38xx, ohne Bestandesänderungen 3900 und ohne aktivierte Eigenleistungen), Waren-/Materialaufwand (4xxx… |
 | SCH1-202 | Analytisch |  | VO BE PA RI | vorbereiten | Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b)… | a) Saldovergleich Ertragskonten mit VJ; b) Kontoblätter auf hohe/ungewöhnliche Beträge durchsehen; c) Budgetvergleich, falls vorhanden; d) Margenvergleich aus… |
-| SCH1-301 | Detail |  | EX EN VO RI | vorbereiten | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Weiter gehende Handlung (SER Anhang D): durchführen/ausdehnen, wenn empfohlene Handlungen auf wesentliche Fehlaussagen deuten oder inhärentes Risiko erhöht… |
+| SCH1-301 | Detail |  | EX EN VO RI | vorbereiten | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Weiter gehende Handlung (SER Anhang D). Ist der Schritt markiert (3.5/WP-Vorgabe): durchführen. Umfang nach Auslösern aus SCH1-101/102/201/202 und dem Risiko… |
 | SCH1-302 | Detail |  | EN VO PA | vorbereiten | Kritische Durchsicht der Hauptbuchkonten und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht | Kontoblätter aller Ertrags- und Erlösminderungskonten sowie das Debitorenkonto kritisch durchsehen: Soll-Buchungen auf Ertrag, Storni, Gutschriften… |
-| SCH1-303 | Detail | WP | EN VO PA | nur_mensch | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung | WP-Schritt und weiter gehende Handlung (SER Anhang D p): nur bei Risikohinweisen oder WP-Vorgabe; Agent bereitet nur eine Arbeitsliste vor (offener Entscheid… |
+| SCH1-303 | Detail | WP | EN VO PA | nur_mensch | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung | WP-Schritt (weiter gehend, SER Anhang D p). Ohne ausdrückliche Anweisung des WP: nicht bearbeiten, kein Textfeld, Status «nicht bearbeitet – WP-Schritt»… |
 | SCH1-304 | Detail |  | VO DO | vorbereiten | Bei Verwendung der Absatzerfolgsrechnung folgende Positionen festhalten: Personalaufwand, Materialaufwand und Abschreibungen | In der JR feststellen, ob eine Absatzerfolgsrechnung vorliegt. Falls ja: Mindestpositionen nach Art. 959b Abs. 3 OR prüfen, Personalaufwand, Materialaufwand… |
 | SCH1-305 | Detail |  | VO DO | vorbereiten | Bei Verwendung der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der… | Gliederung der ER mit Mindestpositionen nach Art. 959b Abs. 2 OR (einzeln, Reihenfolge) vergleichen und Kontenzuordnung (Saldoliste) prüfen: Nettoerlöse ohne… |
 | SCH1-401 | Sonstige | ? |  | nur_mensch | JET: Journal entry testing a) Manuelle Buchungen auf sonst nur maschinell bebuchbaren Konten b) Buchungen zu ungewöhnlichen Zeitpunkten c)… | Nur auf Anweisung des WP (Kennzeichnung offen; Deliktsaufdeckung nicht Teil der ER): Journal-Export der Ertrags- und Erlösminderungskonten als Pendenz-Notiz… |
-| SCH1-155 | Sonstige |  | RV EN RI | auf_anweisung | k) Ungewöhnliche Konstellationen hinsichtlich Konten und Gegenkonten | Gegenkonten-Auswertung aus vorliegenden Kontoblättern (1100, 3xxx) als Teil der kritischen Durchsicht SCH1-302 durchführen; vollständige Journal-Auswertung… |
-| SCH1-402 | Sonstige |  | EX RV EN VO PA DO | auf_anweisung | Abstimmung gebuchter Umsätze mit direkten Umsatzbestätigungen | Umsatz-/Debitorenbestätigungen sind nicht Bestandteil der ER (SER Anhang D c): Agent holt keine ein und schlägt im Textfeld «nicht Bestandteil ER» vor; Visum… |
+| SCH1-155 | Sonstige |  | RV EN RI | auf_anweisung | k) Ungewöhnliche Konstellationen hinsichtlich Konten und Gegenkonten | Nur auf Anweisung des WP. Ohne Anweisung: kein Textfeld, Status «nicht bearbeitet – nur auf Anweisung»; Gegenkonten aus den vorliegenden Kontoblättern wertet… |
+| SCH1-402 | Sonstige |  | EX RV EN VO PA DO | auf_anweisung | Abstimmung gebuchter Umsätze mit direkten Umsatzbestätigungen | Nur auf Anweisung des WP. Ohne Anweisung: kein Textfeld; im Rapport Status «nicht bearbeitet – nur auf Anweisung», Grund: Drittbestätigungen nicht Bestandteil… |

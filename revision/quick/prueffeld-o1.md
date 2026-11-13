@@ -6,11 +6,13 @@ quellen:
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
+- mwstg
 - or
 - qa-or-rechnungslegung-2026
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 139ebd1998a0db071451c5b5e4af71fdf3e97d6ef59c16024bb5aa3b56115db6
 ---
 
 
@@ -18,7 +20,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 15 Schritte (Befragung 3, Analytisch 1, Detail 6, Sonstige 5; EP 4, WP 2) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/o1.md](../wiki/prueffelder/o1.md)
 
-Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Ereignissen (Prozesse, Garantien, Drohverluste): Bestand, Vollständigkeit, Bewertung (Vertretbarkeit der Schätzung), Ausweis, Abgrenzung zu pRA und Eventualverbindlichkeiten (Anhang). Eingeschränkte Revision: schriftliche Antworten, Vorjahresvergleich, Abstimmung Rückstellungsspiegel; keine Anwaltsbestätigungen.
+Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Ereignissen (Prozesse, Garantien, Drohverluste): Bestand, Vollständigkeit, Bewertung (bestmögliche Schätzung), Ausweis, Abgrenzung zu pRA und Eventualverbindlichkeiten (Anhang). Keine Anwaltsbestätigungen einholen.
 
 ## Risiken
 - Unvollständige Rückstellungen: hängige oder angedrohte Rechtsfälle, Mängelrügen, Garantie- oder andere Verpflichtungen mit Ursache vor dem Stichtag sind nicht erfasst. [VO, EN, PA] — [HWP BuR S. 260](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0510-s260.md)
@@ -109,6 +111,9 @@ Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Er
 - Rückstellungen nach Stichtag verursachter Verluste sind keine Pflicht, aber als stille Reserven zulässig: nicht als unzulässig beurteilen, sondern in O1-321 erfassen. — [HWP BuR S. 264](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0531-s264.md)
 - Bei Kapitalverlust oder Überschuldung erhöht eine zusätzliche Rückstellung die Unterdeckung; quantifizierte Differenz an Prüffeld Eigenkapital (P1) und den WP melden. — [OR 725A](../chunks/or/or__art-725a.md)
 - Weiter gehende Prüfungshandlungen (WP-Schritte O1-302/O1-303) löst der Agent nicht selbst aus; ob sie angezeigt sind, entscheidet der WP. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
+- Nicht mehr begründete Rückstellungen: handelsrechtlich keine Auflösungspflicht (Art. 960e Abs. 4 OR, stille Reserve → O1-321); steuerlich Zurechnung zum Gewinn (Art. 63 Abs. 2 DBG). Steuerfolgen nur als Hinweis an Prüffeld S1, keine handelsrechtliche Feststellung. — [DBG 63](../chunks/dbg/dbg__art-63.md)
+- Unterdeckung ist keine stille Reserve: Liegt eine Rückstellung oder Abgrenzung unter dem voraussichtlich erforderlichen Betrag, ist das ein möglicher Fehler (Ergebnis zu gut) → «Wesentliche Feststellungen» mit Buchungsvorschlag. Stille Reserve ist nur der Teil über dem erforderlichen Betrag (Bestand/Veränderung in O1-321). — [OR 960E](../chunks/or/or__art-960e.md) · [HWP BuR S. 264](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0528-s264.md)
+- Begriffe nicht vertauschen: bestmögliche Schätzung = wahrscheinlichster Betrag inkl. Prozesskosten; das obere Ende der Bandbreite ist der Vorsichtswert. Beide Werte getrennt mit `rechne` ausweisen und beschriften; welcher massgebend ist, entscheidet der WP. Keine Fakten ergänzen, die nicht in den Unterlagen stehen. — [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0516-s261.md) · [HWP BuR S. 261](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0515-s261.md) · [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -125,7 +130,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | O1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf rückstellungsbezogene Angaben durchsehen: Eventualverbindlichkeiten (nicht schätzbare Prozessrisiken: Partei, Streitgegenstand, Streitwert… |
 | O1-321 | Detail |  | BE | vorbereiten | Bestand und Veränderung der stillen Reserven | Rückstellungen über dem betriebswirtschaftlich erforderlichen Betrag (inkl. nicht mehr begründete, Art. 960e Abs. 3 Ziff. 4 OR und Rückstellungen für nach dem… |
 | O1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Mehrjährig gültige Unterlagen zu Rückstellungen (z.B. Garantierichtlinie/Berechnungsmethode, langfristige Verträge mit Garantie-, Rückbau- oder… |
-| O1-401 | Sonstige |  | EX RV VO BE | auf_anweisung | Rechtsanwaltsbestätigungen, Experten-Gutachten | 4xx/nicht Bestandteil der eingeschränkten Revision: Agent holt keine Anwalts-/Expertenbestätigungen ein und schlägt dies nicht vor. Auf Anweisung des WP sucht… |
+| O1-401 | Sonstige |  | EX RV VO BE | auf_anweisung | Rechtsanwaltsbestätigungen, Experten-Gutachten | 4xx, nicht Bestandteil der eingeschränkten Revision: Der Agent holt keine Anwalts-/Expertenbestätigung ein, kontaktiert keinen Anwalt und verlangt sie nicht… |
 | O1-402 | Sonstige |  | EN VO PA | auf_anweisung | Durchsicht der verbuchten Aufwände für Rechtsberatung | 4xx: nur auf Anweisung des WP; Analogie zu SER Anhang D r) (dort weiter gehende Handlung). Rechts-/Beratungsaufwand und Rechtsschutz im Berichtsjahr sowie… |
 | O1-403 | Sonstige |  | EX VO BE PA | auf_anweisung | Beurteilung Angemessenheit und Vollständigkeit a) in Zusammenhang mit entsprechenden Bilanzpositionen b) anhand Vorjahresvergleich c)… | 4xx: nur auf Anweisung des WP. Gesamtwürdigung je Rückstellung: a) Zusammenhang mit Debitoren (Mängelrügen), Abnahmen, Bankgarantien, Steuern (S1), b) O1-201… |
 | O1-404 | Sonstige |  | VO PA RI | auf_anweisung | Prüfung Gutschriften und Belastungen anhand von Belegen | 4xx: nur auf Anweisung des WP. Bewegungen auf den Rückstellungskonten (Bildung im Haben, Verwendung/Auflösung im Soll) anhand Buchungsbelegen und Grundlagen… |

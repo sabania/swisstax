@@ -195,6 +195,8 @@ unterlagen:
   zitat: Durchsicht von Versandpapieren, Zahlungen in neuer Rechnung und Verträgen zur Feststellung des Vorhandenseins von Forderungen
 - dokument: Mahn-, Betreibungs- und Konkursunterlagen, Aktennotizen zu Problemdebitoren
   zweck: Einzelbeurteilung überfälliger Guthaben (C1-310, C1-408)
+  quelle: hwp-bur-2023__rz-0121-s187
+  zitat: Verjährte oder aufgrund von Konkursen uneinbringliche Forderungen sind nicht bilanzierungsfähig und daher auszubuchen.
 - dokument: Kursliste bzw. Bankunterlagen mit Jahresendkursen (falls Fremdwährungsforderungen)
   zweck: Kontrolle Fremdwährungsumrechnung (C1-203, C1-311)
   quelle: ser-2022__anh-d-s075-1
@@ -430,6 +432,23 @@ fallstricke:
 - text: Betragsdifferenzen zwischen OP-Liste (Druckdatum nach Stichtag) und Saldoliste/Hauptbuch nicht wegrunden, sondern einzeln erklären lassen.
   quelle: hwp-bur-2023__rz-0114-s185-t2
   zitat: Dieses muss periodisch mit den Salden der Hilfsbuchhaltung(en) abgestimmt werden.
+- text: 'Nachweise für C1 liegen oft in anderen Ordnern/Prüffeldern: Bankbestätigung und Kreditverträge (flüssige Mittel, Bankverbindlichkeiten) → Zession; Projektliste/Abnahmeprotokolle
+    (nicht fakturierte Leistungen) → Ertragsrealisierung/Akonto; Aktennotizen zu Rechtsfällen (Rückstellungen) → bestrittene Forderungen. «Nicht vorhanden» erst nach akteweiter Suche
+    (GJ und VJ), sonst «nicht gefunden in <Ordner>» und Pendenz.'
+  quelle: konzept-ki-revisionsagent-2026__c005-1
+  zitat: fehlende Daten dürfen nicht erfunden werden
+  schritte:
+  - C1-102
+  - C1-310
+  - C1-312
+- text: Hinweise der Vorjahresprüfung je Debitor übernehmen (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) und im GJ neu beurteilen – nie ungelesen
+    «keine Feststellung».
+  quelle: hwp-er-2026__rz-0011-s180
+  zitat: die Ergebnisse aus den vorhergehenden eingeschränkten Revisionen
+  schritte:
+  - C1-102
+  - C1-302
+  - C1-310
 fragen_kunde:
 - frage: Welches sind die Gründe für die markierten alten, ungewöhnlich hohen Ausstände und Habensalden der OP-Liste, und wie beurteilen Sie deren Einbringlichkeit?
   zweck: C1-101, C1-202 (EX, VO, BE)
@@ -525,7 +544,9 @@ schritte:
 - id: C1-102
   vorgehen: 'Beim Unternehmen vorhandene Bankbestätigungen (Abschnitt Sicherheiten; keine eigenen anfordern) sowie Kredit-, Zessions- und Factoringverträge in M-Files auf Verpfändung,
     Zession, Factoring oder Inkasso durchsehen; schriftliche Antworten (10.11, Vollständigkeitserklärung) auswerten, sonst Frage als Notiz «Pendenz». Zessionskredit: bleibt bilanziert,
-    Anhangsangabe; echtes Factoring: Ausbuchung. Ergebnis an C1-320. Status höchstens «teilweise bearbeitet».'
+    Anhangsangabe; echtes Factoring: Ausbuchung. Ergebnis an C1-320. Status höchstens «teilweise bearbeitet». Bankbestätigungen und Kreditverträge liegen meist bei den flüssigen Mitteln
+    bzw. Bankverbindlichkeiten, nicht bei den Debitoren: akteweit suchen («Zession», «Abtretung», «Sicherheiten», «Pfand»; GJ- und VJ-Akte) und den VJ-Anhang lesen (im VJ offengelegte
+    Zession: Fortbestand prüfen). «Keine Zession» nur schreiben, wenn Bankbestätigung bzw. Kreditvertrag gelesen ist; sonst Status «teilweise bearbeitet» und Pendenz.'
   nachweise:
   - Bankbestätigungen per 31.12. (Sicherheiten zugunsten der Bank), sofern beim Unternehmen vorhanden
   - Kredit-, Zessions- oder Factoringverträge (Dauerakte)
@@ -547,6 +568,10 @@ schritte:
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
   - quelle: hwp-er-2026__rz-0262-s085
     zitat: weder das Einholen von Debitoren- und Kreditorenbestätigungen noch von Bank- oder Anwaltsbestätigungen oder Experten-Gutachten
+  - quelle: hwp-er-2026__rz-0011-s180
+    zitat: die Ergebnisse aus den vorhergehenden eingeschränkten Revisionen
+  - quelle: konzept-ki-revisionsagent-2026__c005-1
+    zitat: fehlende Daten dürfen nicht erfunden werden
 - id: C1-103
   vorgehen: Aus Saldoliste aktuell/VJ und ggf. Budget die Veränderungen der Konten Debitoren, Delkredere, Erlöse und Erlösminderungen berechnen. Für wesentliche Abweichungen vorhandene
     schriftliche Erläuterungen (10.11, Protokolle) auswerten und gegen das Unternehmensverständnis würdigen; fehlt eine Erklärung, Frage als Notiz «Pendenz» (Versand durch WP). Status
@@ -753,7 +778,8 @@ schritte:
   - Debitoren-OP-Liste per 31.12.
   - Kontoblatt/Saldoliste Debitoren
   - Erklärung der Differenzen
-  rechnen: Σ OP-Liste (nachaddiert) = ausgewiesenes OP-Total = Saldo Konto Debitoren (HB) 31.12.; Differenz = HB − OP-Liste
+  rechnen: 'Σ OP-Liste (nachaddiert) = ausgewiesenes OP-Total = Saldo Konto Debitoren (HB) 31.12.; Differenz = HB − OP-Liste Immer mit `rechne`, auch wenn die Werte ähnlich aussehen:
+    `rechne "op = <Total OP-Liste>; hb = <Saldo Debitoren Saldoliste>; hb - op"`.'
   feststellung_wenn: Differenz ≠ 0 und nicht nachvollziehbar erklärt, oder Nachaddition weicht vom ausgewiesenen OP-Total ab.
   fundstellen:
   - quelle: ser-2022__anh-d-s075-2
@@ -762,6 +788,12 @@ schritte:
     zitat: Dieses muss periodisch mit den Salden der Hilfsbuchhaltung(en) abgestimmt werden.
   - quelle: hwp-er-2026__rz-0266-s244
     zitat: IT-gestützte Auswertungen werden abgestimmt mit Werten aus der Finanzbuchhaltung oder den Nebenbüchern und auf die rechnerische Richtigkeit hin geprüft
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+  notiz: Jede Differenz ≠ 0 im Textfeld (OP-Total, HB, Differenz, Datum OP-Liste). Ungeklärt und ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» (Korrekturvorschlag erst mit Ursache,
+    keine Verbuchung); < NAG nur protokollieren; Ursache unbekannt → zusätzlich «Pendenz» (Konto, Datum, Betrag).
 - id: C1-302
   vorgehen: 'Delkredereberechnung nachvollziehen: zuerst Einzel-WB gefährdeter Posten (Konkurs, Betreibung, Bestreitung, stark überfällig), dann Pauschal-WB auf dem Rest. Einzel-WB für
     die Posten aus C1-310 (Vorauswahl C1-101/C1-202) und für die in neuer Rechnung gutgeschriebenen/ausgebuchten Posten mit Ursache am Stichtag (C1-309); Methode aus C1-104 und Verlustquote
@@ -801,6 +833,16 @@ schritte:
     zitat: ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und Forderungen mit voller Deckung
   - quelle: hwp-bur-2023__rz-0438-s248
     zitat: Sofern eine Exportrisikoversicherung oder eine Kreditversicherung besteht, hat das Delkredere nur den unversicherten Teil betrag zu decken.
+  - quelle: or__art-960a
+    zitat: Sie sind direkt oder indirekt bei den betreffenden Aktiven zulasten der Erfolgsrechnung abzusetzen und dürfen nicht unter den Passiven ausgewiesen werden.
+  - quelle: hwp-bur-2023__rz-0750-s317-t2
+    zitat: Wertberichtigungen auf Forderungen für latente Ausfallrisiken (pauschales Delkredere, Einzelwertberichtigungen) können von den Erlösen aus Lieferungen und Leistungen in Abzug
+      gebracht werden
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: 'Unterdeckung ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag «Debitorenverluste bzw. Veränderung Delkredere (Erlösminderung/Aufwand) an Delkredere
+    (Wertberichtigung, aktivseitig von den Forderungen abgesetzt)», Betrag = Soll − gebucht; uneinbringliche Forderung: «Debitorenverluste an Debitoren» (MWST-Korrektur Art. 41 MWSTG
+    getrennt); keine Verbuchung. < NAG nur protokollieren. Überdeckung → stille Reserve (C1-303), keine Feststellung.'
 - id: C1-303
   vorgehen: 'Aufstellung der stillen Reserven in M-Files suchen bzw. aus C1-302 den Teil des Delkredere über dem betriebswirtschaftlich notwendigen Wert ermitteln. Bestand Stichtag und
     VJ sowie Bildung/Auflösung tabellarisch erfassen; fehlt die Aufstellung, Notiz «Pendenz» und PBC-Vorschlag (10.10). Umgang mit stillen Reserven ist offener Entscheid (consis): Vorgabe
@@ -934,7 +976,9 @@ schritte:
 - id: C1-310
   vorgehen: 'Die im Prüfungszeitpunkt noch offenen, überfälligen Guthaben einzeln beurteilen: Mahnstand, Betreibung/Konkurs, Bestreitung, Zahlungsvereinbarung, Sicherheiten. Je Posten
     einen Bewertungsvorschlag (werthaltig, Einzel-WB, Ausbuchung) dokumentieren, Korrekturbedarf als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag (keine Verbuchung;
-    bei Ausbuchung MWST-Anteil getrennt, Art. 41 MWSTG) und an C1-302 übergeben.'
+    bei Ausbuchung MWST-Anteil getrennt, Art. 41 MWSTG) und an C1-302 übergeben. Je Debitor Hinweise aus anderen Unterlagen übernehmen: VJ-Akte (nicht gebuchte Wertberichtigungen, «im
+    Folgejahr neu beurteilen»), Aktennotizen zu Rechtsfällen/Mängelrügen (Rückstellungen O1/M3), Korrespondenz, Zahlungseingänge des Folgejahres (C1-309); jeden Hinweis neu beurteilen
+    und das Ergebnis im Textfeld festhalten.'
   nachweise:
   - OP-Liste im Prüfungszeitpunkt
   - Mahn- und Betreibungsunterlagen
@@ -951,6 +995,8 @@ schritte:
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
   - quelle: mwstg__art-41
     zitat: so ist im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt wird, eine Anpassung der Umsatzsteuerschuld vorzunehmen
+  - quelle: hwp-er-2026__rz-0011-s180
+    zitat: die Ergebnisse aus den vorhergehenden eingeschränkten Revisionen
 - id: C1-311
   vorgehen: 'Grossdebitoren (über Toleranzwesentlichkeit bzw. Top-Positionen aus C1-206) einzeln bewerten: Bonität, Zahlungsverhalten, Sicherheiten, Kreditversicherung. Kurzfristige
     FW-Debitoren zum Stichtagskurs nachrechnen (Kursdifferenzen können als realisiert gelten); Niederstwertprinzip v. a. bei langfristigen FW-Forderungen beachten. Ergebnis an C1-302.'
@@ -973,7 +1019,9 @@ schritte:
 - id: C1-312
   vorgehen: 'Akonto-, Voraus- und Anzahlungsrechnungen in OP-Liste und Kontoblatt identifizieren und mit Projektliste und Konto erhaltene Anzahlungen abstimmen. Prüfen: Teilfakturen
     für erbrachte Leistungen als Forderung, Anzahlungsrechnungen ohne erbrachte Leistung erst bei Zahlung (als erhaltene Anzahlung im Fremdkapital). Korrekturbedarf als Notiz «Wesentliche
-    Feststellungen».'
+    Feststellungen». Erkennungsmerkmale je Rechnung lesen: «Akonto», «Anzahlung», «Vorauszahlung», «Etappe», «Teilzahlung» und Leistungsdatum/-zeitraum. Liegt die Leistung ganz oder
+    teilweise nach dem Stichtag, ist dieser Teil keine Forderung und kein Ertrag des GJ – auch wenn das Rechnungsdatum im GJ liegt. Projektliste/Abnahmeprotokolle (nicht fakturierte
+    Leistungen, F2) beiziehen.'
   nachweise:
   - OP-Liste
   - Akonto-/Anzahlungsrechnungen
@@ -988,6 +1036,13 @@ schritte:
     zitat: Soweit erhaltene Anzahlungen reinen Vorleistungscharakter haben, sind sie im kurz fristigen oder – in Ausnahmefällen – im langfristigen Fremdkapital auszuweisen.
   - quelle: hwp-bur-2023__rz-0115-s186
     zitat: Besondere Beachtung ist dabei allfälligen Gutschriften und Akontozahlungen zu schen ken.
+  - quelle: hwp-bur-2023__rz-0455-s251
+    zitat: fällige, jedoch noch nicht bezahlte Rechnungen mit den Anzahlungen zu saldieren
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: 'Akontorechnung für Leistung nach dem Stichtag als Ertrag gebucht, Betrag ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag: unbezahlt Storno «Nettoerlös
+    an Debitoren» (MWST-Teil je Abrechnungsart dem WP vorlegen), bezahlt «Nettoerlös an erhaltene Anzahlungen»; keine Verbuchung. < NAG nur protokollieren. Leistungsdatum unklar → «Pendenz»
+    (Rechnung, Datum, Betrag).'
 - id: C1-320
   vorgehen: 'Prüffeldergebnisse auf Anhangsangaben übertragen: gesonderter Ausweis Forderungen gegenüber Beteiligten/Organen, verpfändete/abgetretene Forderungen (inkl. Globalzession
     gemäss Bankbestätigung, C1-102), Nettoauflösung stiller Reserven, wesentliche Ereignisse nach dem Stichtag, Grundsätze Delkredere. Anhang abgleichen; fehlende/abweichende Angaben

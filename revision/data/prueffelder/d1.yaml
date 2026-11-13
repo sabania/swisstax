@@ -342,6 +342,24 @@ fallstricke:
     der WP.
   quelle: covid-sbueg__art-2-t1
   zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
+- text: 'Darlehen an Aktionäre nie nur unter dem Ausweis prüfen: Zins/Marchzins (D1-304), Bonität (D1-306) und Kapitalschutz (freies EK, Art. 680 Abs. 2 OR → P1-305) gehören dazu; ist
+    das Eigenkapital negativ, besteht kein freies EK.'
+  quelle: hwp-er-2026__rz-0167-s215
+  zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
+  schritte:
+  - D1-201
+  - D1-304
+  - D1-404
+  fundstellen:
+  - quelle: or__art-680
+    zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
+- text: 'Forderung gegenüber einer Beteiligungsgesellschaft und Beteiligung (H3) nicht getrennt beurteilen: zeigt H3 eine Unterdeckung, ist auch die Forderung kritisch zu prüfen (Kaskade
+    Beteiligung → nachrangige Finanzierung → übrige Forderungen); kein «D1 ohne Feststellung» im Widerspruch zu H3.'
+  quelle: hwp-bur-2023__rz-0293-s222
+  zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
+    zuzuordnen
+  schritte:
+  - D1-306
 fragen_kunde:
 - frage: Welche Geschäftsvorfälle liegen den wesentlichen übrigen Forderungen zugrunde (Gegenpartei, Entstehung, Fälligkeit, Sicherheiten)?
   zweck: 'D1-100: Hintergrund, Bestand und Werthaltigkeit; Klassierung kurz-/langfristig'
@@ -471,7 +489,9 @@ schritte:
 - id: D1-201
   vorgehen: 'Kreis der Beteiligten, Organe und Beteiligungsgesellschaften aus Aktienbuch, HR-Auszug, Unternehmensinformationen und GV-/VR-Protokollen bestimmen. Alle Forderungskonten,
     Debitoren-OP-Liste und Buchungstexte nach diesen Namen durchsuchen (auch ausserhalb D1). Treffer mit Betrag, Grundlage und Ausweis (Bilanz/Anhang) auflisten und an D1-304, D1-320
-    und P1-305 (Einlagenrückgewähr, EP: `pruefschritt P1-305`) übergeben.'
+    und P1-305 (Einlagenrückgewähr, EP: `pruefschritt P1-305`) übergeben. Jede Forderung mit Darlehenscharakter gegenüber Aktionären/Nahestehenden durch alle vier Prüfungen führen, nicht
+    nur Ausweis: (1) Ausweis (hier, D1-320), (2) Zins und Marchzins (D1-304), (3) Bonität (D1-306), (4) Kapitalschutz: freies EK mit `rechne`; Σ Aktionärsdarlehen > freies EK oder EK
+    negativ → Notiz an P1-305 (Einlagenrückgewähr Art. 680 Abs. 2 OR; Entscheid WP).'
   nachweise:
   - Aktienbuch
   - Handelsregisterauszug
@@ -480,7 +500,8 @@ schritte:
   - Debitoren-OP-Liste
   - Kontoblätter
   - Darlehensverträge
-  rechnen: Σ Forderungen ggü. Beteiligten/Organen bzw. Beteiligungsgesellschaften = gesonderter Ausweis Bilanz/Anhang
+  rechnen: Σ Forderungen ggü. Beteiligten/Organen bzw. Beteiligungsgesellschaften = gesonderter Ausweis Bilanz/Anhang; freies EK = Eigenkapital total − einbezahltes Aktienkapital; Test
+    Σ Forderungen mit Darlehenscharakter ggü. Aktionären ≤ freies EK (Ergebnis an P1-305)
   feststellung_wenn: Forderung gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften nicht gesondert ausgewiesen oder unter falscher Position (z.B. LuL) bilanziert; oder Darlehen
     an Gesellschafter/Nahestehende, gewährt während eines bestehenden Covid-19-Kredits.
   fundstellen:
@@ -494,6 +515,12 @@ schritte:
     zitat: Bei Anzeichen auf einen Verstoss gegen das Verbot der Einlagenrückgewähr sind die notwendigen Prüfungshandlungen vorzunehmen
   - quelle: covid-sbueg__art-2-t1
     zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+  - quelle: hwp-er-2026__rz-0167-s215
+    zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
+  - quelle: hwp-er-2026__rz-0167-s215
+    zitat: Das freie Eigenkapital entspricht gemäss bundesgerichtlicher Rechtsprechung dem gesamten Eigenkapital abzüglich des einbezahlten Aktienkapitals.
+  - quelle: or__art-680
+    zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
 - id: D1-202
   vorgehen: Saldoliste Geschäftsjahr und Vorjahr je Konto gegenüberstellen (Betrag, Veränderung absolut/%). Neue, aufgelöste, stark veränderte Konten und Saldo 0 bzw. Vorzeichenwechsel
     markieren; Erwartung formulieren (z.B. MWST-Periode, VSt auf Zinsen, Anzahlungen gemäss Bestellungen). Vorjahreszahlen mit Vorjahresabschluss abstimmen; Abweichungen an D1-102 übergeben.
@@ -631,14 +658,16 @@ schritte:
   - quelle: hwp-bur-2023__rz-0090-s077-t2
     zitat: unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
 - id: D1-306
-  vorgehen: Je wesentlicher Forderung Schuldner, Fälligkeit, Sicherheiten und Zahlungsverhalten erheben. Bei Nahestehenden und Beteiligungsgesellschaften Jahresrechnung des Schuldners
+  vorgehen: 'Je wesentlicher Forderung Schuldner, Fälligkeit, Sicherheiten und Zahlungsverhalten erheben. Bei Nahestehenden und Beteiligungsgesellschaften Jahresrechnung des Schuldners
     beiziehen (Eigenkapital, Verluste, Ausblick); bei Anzahlungen Leistungsfähigkeit des Lieferanten. Je Posten werthaltig/zweifelhaft im Textfeld begründen; zweifelhafte Posten an D1-307
-    übergeben.
+    übergeben. Forderungen gegenüber einer Beteiligungsgesellschaft zusammen mit der Beteiligung (H3) beurteilen: JR der Beteiligung ganz lesen (EK, Ergebnis, Ausblick/Ereignisse nach
+    Stichtag); Wertberichtigungen zuerst der Beteiligung, dann nachrangigen Finanzierungen, dann den übrigen Forderungen zuordnen. Ergebnis D1 und H3 gleichlautend.'
   nachweise:
   - Jahresrechnung des Schuldners
   - Verträge und Sicherheiten
   - Zahlungseingänge neue Rechnung
-  rechnen: Ungedeckter Betrag = Forderung − werthaltige Sicherheiten
+  rechnen: Ungedeckter Betrag = Forderung − werthaltige Sicherheiten; Gesamtengagement = Beteiligungsbuchwert + Darlehen + übrige Forderungen ggü. derselben Gesellschaft; Unterdeckung
+    = Gesamtengagement − anteiliges EK der Gesellschaft
   feststellung_wenn: Schuldner mit schlechter oder unklarer Bonität (Verluste, negatives Eigenkapital, keine Sicherheit) ohne angemessene Wertberichtigung.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0160-s192
@@ -647,6 +676,9 @@ schritte:
     zitat: Der Bonitätsprüfung ist besondere Aufmerksamkeit zu schenken
   - quelle: hwp-bur-2023__rz-0191-s202
     zitat: Bei der Bewertung geleisteter Anzahlungen sind Bonität und Leistungsfähigkeit des Empfängers, allfällige Sicherheiten wie Anzahlungs- oder Bankgarantien
+  - quelle: hwp-bur-2023__rz-0293-s222
+    zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
+      zuzuordnen
 - id: D1-307
   vorgehen: Zahlungskonditionen/Fälligkeit je wesentlicher Forderung mit dem Stichtag vergleichen und Zahlungseingänge nach dem Stichtag aus Kontoauszügen/Kontoblättern neue Rechnung
     erheben. Überfällige, nicht bezahlte oder bestrittene Posten auf Wertberichtigungsbedarf prüfen; gebuchte Wertberichtigung mit Bedarf vergleichen und Differenz dokumentieren.

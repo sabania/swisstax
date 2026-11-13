@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 17
     korrigiert: true
-kurzbeschrieb: 'MWST-Salden (Vorsteuer, Umsatzsteuer, Abrechnungs-/Einfuhrsteuerkonto) und MWST-Risiken. Empfohlen (SER Anh. D n): Abstimmung der Salden mit den Abrechnungen, Vorhandensein
-  der Umsatzabstimmung. Weiter gehend bzw. WP-/4xx-Schritte nur auf Anweisung: Nachvollzug der Umsatzabstimmung, Kontenabstimmung je Quartal, MWST-Befragungen. Rückstellungs- und Anhangbedarf
-  (MWST-Gruppe).'
+kurzbeschrieb: 'MWST-Salden (Vorsteuer, Umsatzsteuer, Abrechnungs-/Einfuhrsteuerkonto) und MWST-Risiken. Empfohlen (SER Anh. D n): Summe der MWST-Salden mit den Abrechnungen abstimmen,
+  Vorhandensein der Umsatzabstimmung. Nachvollzug Umsatzabstimmung, Quartalsabstimmung, Befragungen: WP/4xx nur auf Anweisung.'
 gesetz:
 - thema: 'Bilanzausweis Vorsteuerguthaben: übrige kurzfristige Forderungen (Art. 959a Abs. 1 Ziff. 1 lit. c OR)'
   quelle: or__art-959a-t1
@@ -434,11 +433,14 @@ fallstricke:
     Tag nach Geschäftsabschluss fällt (nicht pauschal «180 Tage»). Dann Abstimmung des Vorjahres einsehen und für das laufende Jahr Pendenz an das Unternehmen.'
   quelle: ph-20-mwst-2016__c003-1
   zitat: Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten Geschäftsabschluss fällt.
-- text: Die Umsatzabstimmung muss das Unternehmen erstellen; eine eigene Überleitung des Prüfers ersetzt sie nicht und ist höchstens Analytik auf Anweisung des WP (M2-302 ist WP-Schritt).
+- text: 'Die Umsatzabstimmung muss das Unternehmen erstellen; eine eigene Überleitung des Prüfers ersetzt sie nicht und ist höchstens Analytik auf Anweisung des WP (M2-302 ist WP-Schritt).
+    Ohne Anweisung zulässig (Praxis/intern – Entscheid consis): liegen die Abrechnungen des GJ vor, Grobvergleich Σ Ziff. 200 aller Perioden ↔ Nettoerlöse ER mit `rechne`; Differenz
+    ≥ Nichtaufgriffsgrenze nur als Notiz «Pendenz» (Umsatzabstimmung anfordern) bzw. «Schlussbesprechung», kein Textfeld M2-302.'
   quelle: ph-20-mwst-2016__c011-5
   zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen, und allfällige Abweichungen sind zu begründen.
-- text: 'Saldo 0 auf Vorsteuer-/Umsatzsteuerkonten bzw. auf «Geschuldete MWST» per 31.12. ist weder Nachweis noch Fehler: Die Zahllast der letzten Periode liegt oft im Abrechnungskonto
-    und ist mit der Abrechnung abzustimmen (M2-301).'
+- text: Massgebend ist die SUMME aller MWST-Konten (Umsatzsteuer − Vorsteuer ± Abrechnungs-/Einfuhrsteuerkonto) gegenüber Zahllast bzw. Guthaben laut Abrechnung(en) der offenen Periode(n),
+    nicht ein einzelnes Konto. Ein Konto mit Saldo 0 (z.B. «Geschuldete MWST») oder ≠ 0 ist für sich weder Nachweis noch Fehler – die Zahllast der letzten Periode steht oft im Abrechnungskonto.
+    Feststellung nur, wenn die Summe von der Abrechnung abweicht (M2-301).
   quelle: hwp-bur-2023__rz-0163-s193
   zitat: aus der Mehrwertsteuerpflicht eine Forderung oder Verbindlichkeit, die dem Saldo geschuldeter Umsatzsteuern abzüglich erbrachter Vorsteuern entspricht
 - text: 'Bezugsteuer: Verzicht auf buchhalterische Erfassung nur, wenn der Grenzbetrag von CHF 10 000 nicht erreicht und keine Steuerpflicht gegeben ist.'
@@ -645,12 +647,15 @@ schritte:
     sowie offener Vorperioden abgleichen; Zahlung im Folgejahr prüfen. Massgebend ist der Nettosaldo gegenüber der ESTV, nicht der Saldo eines einzelnen Kontos. Abweichungen, Restsaldi
     und Bilanzausweis (Saldogrösse gegenüber ESTV, übrige kurzfristige Forderungen/Verbindlichkeiten) im Textfeld dokumentieren. Abstimmung je Quartal (M2-303) nur falls vom WP angewiesen.
     Abrechnung nach vereinnahmten Entgelten: MWST auf offenen Debitoren/Kreditoren ist noch nicht deklariert (Art. 40 Abs. 2 MWSTG) → als Überleitungsposten erklären, nicht als Differenz
-    werten. MWST-Gruppenmitglied: mit der internen MWST-Abrechnung (Art. 21 Abs. 2 MWSTV) und dem Kontokorrent Gruppenträger (Praxis/intern) abstimmen.'
+    werten. MWST-Gruppenmitglied: mit der internen MWST-Abrechnung (Art. 21 Abs. 2 MWSTV) und dem Kontokorrent Gruppenträger (Praxis/intern) abstimmen. Kontoblätter der MWST-Konten lesen:
+    Saldo von Umsatz- und Vorsteuerkonto an jedem Periodenende notieren; bleibt nach der Abrechnung ein Restsaldo stehen oder wächst er über die Perioden → Restsaldo erklären lassen
+    («Pendenz»; Detailabstimmung je Periode M2-303 nur auf Anweisung) (Praxis/intern).'
   nachweise:
   - Saldoliste 31.12.
   - Kontoblätter MWST-Konten
   - MWST-Abrechnung letzte Periode inkl. Zahlungsbeleg
-  rechnen: Σ Salden MWST-Konten (Umsatzsteuer – Vorsteuer ± Abrechnungskonto) = Zahllast bzw. Guthaben gemäss Abrechnung(en) der offenen Perioden; Differenz = 0
+  rechnen: 'Σ Salden MWST-Konten (Umsatzsteuer – Vorsteuer ± Abrechnungskonto) = Zahllast bzw. Guthaben gemäss Abrechnung(en) der offenen Perioden; Differenz = 0; Beispiel (Habensaldi
+    positiv, Sollsaldi negativ): `rechne "ust = 47300; vst = 16800; abr = 0; netto = ust - vst + abr; zahllast = 30500; netto - zahllast"` → 0 = abgestimmt.'
   feststellung_wenn: Summe aller MWST-Konten (Umsatzsteuer, Vorsteuer, Abrechnungs-, Einfuhrsteuerkonto) weicht von Zahllast/Guthaben der offenen Abrechnung(en) ab, unerklärte Restsaldi
     aus Vorperioden, Abrechnung fehlt oder Nettosaldo in falscher Bilanzposition. KEINE Feststellung, wenn einzelne MWST-Konten (z.B. «Geschuldete MWST») 0 zeigen und die Zahllast im
     Abrechnungskonto steht; keine Umbuchung zwischen MWST-Konten derselben Bilanzposition vorschlagen (Praxis/intern).
@@ -666,9 +671,16 @@ schritte:
       des Entgelts.
   - quelle: mwstv__art-21
     zitat: Jedes Mitglied muss eine interne Mehrwertsteuerabrechnung erstellen, die in der Abrechnung der Mehrwertsteuergruppe zu konsolidieren ist.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: Differenz Σ MWST-Konten − Zahllast/Guthaben = 0 → keine Notiz (auch wenn einzelne Konten ≠ 0). Differenz ungeklärt → «Pendenz» (Konto, Periode, Betrag). Differenz ≥ Nichtaufgriffsgrenze
+    und belegt (z.B. Abrechnung nicht verbucht) → «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung); darunter nur Textfeld. Nettosaldo in falscher Bilanzposition →
+    Umgliederungsvorschlag nur ab Nichtaufgriffsgrenze.
 - id: M2-302
-  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Weiter gehend
-    (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Umsatzabstimmung mit Ertragskonten (inkl. betriebsfremd/a.o.,
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Ohne Anweisung
+    trotzdem (Praxis/intern – Entscheid consis): liegen die MWST-Abrechnungen des GJ in der Akte, Grobvergleich, Beispiel `rechne "ziff200 = 3640000; er = 3712000; er - ziff200"` (ziff200
+    = Σ Ziff. 200 aller Perioden, er = Nettoerlöse ER); Differenz ≥ Nichtaufgriffsgrenze → Notiz «Pendenz» (Umsatzabstimmung anfordern) bzw. «Schlussbesprechung», kein Textfeld. Weiter
+    gehend (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Umsatzabstimmung mit Ertragskonten (inkl. betriebsfremd/a.o.,
     Anlageverkäufe, gruppenintern) und Überleitungsposten (Art. 128 Abs. 2 MWSTV) nachvollziehen.'
   nachweise:
   - Umsatzabstimmung des Kunden
@@ -696,6 +708,10 @@ schritte:
   - quelle: mwstg__art-37
     zitat: wird die Steuerforderung durch Multiplikation des Totals aller in einer Abrechnungsperiode erzielten steuerbaren Entgelte, einschliesslich Steuer, mit dem von der ESTV bewilligten
       Saldosteuersatz ermittelt
+  - quelle: ser-2022__6-1-2-t1
+    zitat: Analytische Prüfungshandlungen beinhalten Schlussfolgerungen aus Vergleichen der Finanzinformationen des Unternehmens
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
 - id: M2-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Weiter gehend
     (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Kontoblätter Vorsteuer/Umsatzsteuer je Quartal auf Übertrag (Saldo

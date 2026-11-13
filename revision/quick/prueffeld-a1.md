@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld A1 Allgemeine Prüfungshandlungen – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
 - hwp-bur-2023
 - hwp-er-2026
 - katalog-revio4
@@ -11,6 +12,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 695d3cd4d58fca34e35581d84ce6e819828144ae4a3c14734633069e4ffb2ed0
 ---
 
 
@@ -18,7 +20,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 21 Schritte (Befragung 3, Analytisch 8, Detail 8, Sonstige 2; EP 18, WP 0) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/a1.md](../wiki/prueffelder/a1.md)
 
-Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewertung, Ereignisse nach dem Stichtag, VE, Gesamtanalytik (Going Concern inkl. Kapitalverlust/Überschuldung/Rangrücktritte, GoR, nicht korrigierte Fehler, stille Reserven) sowie formelle Abstimmungen (Unterzeichnung, Vorjahresvortrag, Hauptbuch↔JR, Mindestgliederung, Jahresergebnis↔Antrag, Protokolle, ggf. GFR).
+Schlussarbeiten zur JR: Befragung (Darstellung/Bewertung, Ereignisse nach Stichtag, VE); Gesamtanalytik (Going Concern, Kapitalverlust/Überschuldung/Rangrücktritte, nicht korrigierte Fehler, stille Reserven); Abstimmungen (Unterzeichnung, VJ-Vortrag, HB↔JR, Gliederung, Ergebnis↔Antrag, Protokolle).
 
 ## Risiken
 - Jahresrechnung unvollständig oder Mindestgliederung (Art. 959a/959b OR) nicht eingehalten. [DO] — [HWP ER S. 269](../chunks/hwp-er-2026/hwp-er-2026__rz-0377-s269.md)
@@ -58,7 +60,8 @@ Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewe
 - Höhe: mindestens im Ausmass der Überschuldung; ist die Fortführung nicht gefährdet, genügt die Ausrichtung auf die Deckungslücke zu Fortführungswerten. — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0420-s125.md)
 - Der Rangrücktritt beseitigt die Überschuldung nicht und ist keine Sanierungsmassnahme; er dispensiert nur von der Anzeige an das Gericht. — [HWP ER S. 122](../chunks/hwp-er-2026/hwp-er-2026__rz-0405-s122.md)
 - Rangrücktrittsbelastete Darlehen bleiben Verbindlichkeiten (kein Ausbuchen); der Rangrücktritt ist in Bilanz oder Anhang auszuweisen und zu erläutern. — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0430-s127.md)
-- Rangrücktritt darf grundsätzlich nicht reduziert werden (Ausnahmen: geprüfter Abschluss zeigt entsprechend reduzierte Überschuldung, begründete VR-Darlegung ohne absehbare Verluste in 12 Monaten, keine Benachteiligung anderer Rangrücktrittsgläubiger). — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
+- Rangrücktritt darf grundsätzlich nicht reduziert werden. Ausnahme nur, wenn ALLE drei Bedingungen erfüllt sind: (a) ein nach SA-CH geprüfter (Zwischen-)Abschluss zeigt eine mindestens entsprechend reduzierte Überschuldung (SA-CH = ordentliche Prüfung; die eingeschränkte Revision der JR genügt nicht, nötig ist ein separater Prüfungsbericht nach SA-CH; im Zweifel Frage an den WP), UND (b) der VR hat schriftlich und begründet dargelegt, dass in den nächsten 12 Monaten keine weiteren Verluste absehbar sind, UND (c) keine anderen Rangrücktrittsgläubiger werden benachteiligt (oder sie haben zugestimmt). Danach alle Anforderungen an den Rangrücktritt erneut prüfen. — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
+- Reduktion oder Aufhebung des Rangrücktritts auf Basis eines Zwischenabschlusses: separater Prüfungsbericht nach SA-CH nötig; ohne separaten Bericht genügt nur eine ordentlich geprüfte JR mit Veränderung zum Jahresende. — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0426-s126.md)
 - Weist die JR zu Fortführungswerten eine Überschuldung aus, ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen. — [HWP ER S. 120](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s120-t3.md)
 - Ergibt die eingeschränkte Revision eine Überschuldung, wird sie im Revisionsbericht festgehalten und die Organe werden auf ihre Pflichten aufmerksam gemacht; die JR gilt als Zwischenabschluss zu Fortführungswerten (Entscheid WP). — [SER](../chunks/ser-2022/ser-2022__9-t2.md)
 - Berichtsbeispiel bei Überschuldung mit Rangrücktritt und eingehaltenen VR-Pflichten: nicht modifizierte Prüfungsaussage mit Zusatz (SER Anhang F, Beispiel 9). — [SER S. 126](../chunks/ser-2022/ser-2022__anh-f-s126-2.md)
@@ -83,6 +86,8 @@ Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewe
 - Zwischenabschluss und Beschluss Zwischendividende (falls vorhanden) – A1-208
 - Zustimmung sämtlicher Aktionäre zur Zwischendividende (nur bei Verzicht auf die Prüfung des Zwischenabschlusses) – A1-208
 - Geldflussrechnung inkl. Fondsnachweis und Anlagespiegel (nur falls erstellt/vorgeschrieben) – A1-401, A1-402
+- Covid-19-Kreditvereinbarung bzw. Bürgschaftsvertrag und Saldo per 31.12. (falls vorhanden) – A1-205, A1-307
+- Vorjahresakte: Revisionsbericht, Schlussbesprechung, Feststellungen/Pendenzen und Hinweise für das Folgejahr – A1-302/A1-203: Erledigung der VJ-Punkte im GJ prüfen; im VJ nicht korrigierte Fehlaussagen
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wurden gegenüber dem Vorjahr die Darstellung (Gliederung, Bezeichnungen, Kontenzuordnung) oder Bewertungsgrundsätze/-methoden (z.B. Abschreibungsmethode, Vorrats- oder Auftragsbewertung) geändert? Falls ja: warum, und wo im Anhang dargelegt?
@@ -97,6 +102,7 @@ Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewe
 - Liegen alle Protokolle der GV und der VR-Sitzungen des Geschäftsjahres und bis heute vor (inkl. Zirkularbeschlüsse)?
 - Wurde im Geschäftsjahr ein Zwischenabschluss für eine Zwischendividende erstellt oder ist eine geplant? Falls ja: Wurde er geprüft oder haben sämtliche Aktionäre der Ausrichtung zugestimmt?
 - Wird eine Geldflussrechnung erstellt (gesetzlich, statutarisch, auf Verlangen von Kreditgebern oder freiwillig) und welcher Fonds wird verwendet?
+- Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Art. 3 oder Art. 4 Covid-19-SBüV) oder ein Härtefall-Darlehen? Art des Kredits, Saldo per 31.12., Kreditvereinbarung und Amortisationsplan beilegen.
 
 ## Fallstricke
 - Die Vollständigkeitserklärung ersetzt keine Prüfungsnachweise; wesentliche Positionen nicht allein darauf abstützen. — [HWP ER S. 259](../chunks/hwp-er-2026/hwp-er-2026__rz-0338-s259.md)
@@ -104,7 +110,7 @@ Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewe
 - Datum der Vollständigkeitserklärung = Datum Revisionsbericht; Bericht frühestens auf Datum der Unterzeichnung/Genehmigung der Jahresrechnung. — [SER S. 102](../chunks/ser-2022/ser-2022__anh-e-s102-1.md)
 - Ereignisse nach dem Bilanzstichtag sind bis zum Berichtsdatum zu berücksichtigen, nicht nur bis zum Abschluss der Feldarbeit. — [SER](../chunks/ser-2022/ser-2022__8-6.md)
 - Ereignisse nach dem Stichtag nicht nur auf Buchung/Offenlegung, sondern auch auf Risiken für die Fortführung beurteilen (A1-102 mit A1-205 verknüpfen). — [SER S. 141](../chunks/ser-2022/ser-2022__anh-g-s141-1.md)
-- Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten und im Bericht anmerken. — [SER](../chunks/ser-2022/ser-2022__6-2-7.md)
+- Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten; Anmerkung im Bericht: Entscheid WP (Agent liefert nur den Hinweis). — [SER](../chunks/ser-2022/ser-2022__6-2-7.md)
 - Analytik in kleinen Verhältnissen ist durch Bildung/Auflösung stiller Reserven verzerrt; Zahlen vor Vergleich bereinigen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
 - Wesentlichkeit der Nettoauflösung nicht nur relativ beurteilen: kippt das Ergebnis von Verlust zu Gewinn, ist sie regelmässig wesentlich. — [HWP BuR S. 298](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0675-s298.md)
 - Auch kleine Fehler können wesentlich sein, wenn sie Gewinn in Verlust verwandeln. — [HWP ER S. 186](../chunks/hwp-er-2026/hwp-er-2026__rz-0044-s186.md)
@@ -121,6 +127,13 @@ Schlussarbeiten zur JR als Ganzes: Befragung zu Änderungen von Darstellung/Bewe
 - Sonstige Schritte (4xx, hier Geldflussrechnung) nur auf Anweisung des WP bearbeiten. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - «nicht anwendbar» ist kein Agentenstatus: Status «nicht bearbeitet» mit Begründung «Vorschlag: nicht anwendbar …», Entscheid WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c011-2.md)
 - Gesamtbeurteilung, Wesentlichkeitsurteil und Auswirkung auf die Prüfungsaussage (A1-2xx) sind Ermessensentscheide des WP; der Agent liefert nur Analysen und Hinweise. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c011-2.md)
+- Verstoss gegen das Covid-19-SBüG: Der Agent meldet nur (Notiz, Rapport). Frist setzen sowie GV und Bürgschaftsorganisation informieren ist Sache des WP. — [Covid-19-SBüG 23](../chunks/covid-sbueg/covid-sbueg__art-23.md)
+- Vorjahresvortrag: Der Bilanzgewinn/-verlust der VJ-Bilanz enthält das VJ-Ergebnis bereits. «Vortrag VJ + Ergebnis VJ» nur auf den Vortrag vor Ergebnis anwenden; eine Differenz genau in Höhe des VJ-Ergebnisses ist meist eine eigene Doppelzählung, keine Feststellung. — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
+- Gleiche Gesamttotale (Aktiven, Passiven, Ergebnis) beweisen nicht, dass jede Position stimmt – Fehler können sich ausgleichen. Immer positionsweise und je Zwischentotal mit `rechne` abstimmen und jede eigene Summe mit dem Wert der anderen Quelle vergleichen. — [HWP ER S. 202](../chunks/hwp-er-2026/hwp-er-2026__rz-0125-s202.md) · [HWP ER S. 196](../chunks/hwp-er-2026/hwp-er-2026__rz-0091-s196.md)
+- Eigenkapital in der Bilanz negativ = Überschuldung zu Fortführungswerten (Aktiven < Fremdkapital): immer A1-205 mit `kapitalverlust` (Wiki-Rechner, kein revio-Werkzeug) und `aufgabe kapitalschutz`; Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. — [HWP ER S. 115](../chunks/hwp-er-2026/hwp-er-2026__rz-0381-s115.md) · [HWP ER S. 120](../chunks/hwp-er-2026/hwp-er-2026__rz-0402-s120-t3.md)
+- Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen – nicht mit Angaben aus Anhang, Bilanztext oder Kundenauskunft. Σ laut Vereinbarungen mit der Anhangsangabe vergleichen; fehlende Vereinbarung → Pendenz, Abweichung → Notiz «Wesentliche Feststellungen». — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-2.md)
+- PDF-Text der JR kann Konto, Bezeichnung und Betrag in getrennte Blöcke zerreissen: Zuordnung über Reihenfolge und Summenprobe (Σ zugeordnete Beträge = Positionstotal) absichern; bleibt sie unsicher, Original prüfen bzw. Pendenz – nie raten. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
+- Praxis/intern: Unterzeichnung, Datum und Antrag über die Verwendung des Bilanzergebnisses stehen meist am Ende der JR-Datei (nach dem Anhang) – Datei bis zum Ende lesen, bei gekappter Ausgabe weiterlesen.
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -128,13 +141,13 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
 | A1-101 | Befragung |  | DO | teilweise | Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze. | Agent befragt nicht selbst: Frage zu Änderungen von Darstellung und Bewertungsgrundsätzen als Pendenz erfassen; Anforderung beim Kunden durch den Menschen.… |
-| A1-102 | Befragung | EP | DO | teilweise | Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offen gelegt? | Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten; fehlende Antwort als Pendenz. Prüfen… |
-| A1-103 | Befragung |  |  | teilweise | Vollständigkeitserklärung besprechen und unterzeichnen lassen. | VE-Entwurf nach SER Anhang E vorbereiten (an Revisionsstelle adressiert; mandatsspezifische Punkte z.B. Fortführung, Rangrücktritte, Ereignisse nach Stichtag… |
+| A1-102 | Befragung | EP | DO | teilweise | Wurden die Ereignisse entsprechend in der Jahresrechnung oder im Anhang offen gelegt? | revio 3.4 und 6.3 lesen (nur lesen). Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten… |
+| A1-103 | Befragung |  |  | teilweise | Vollständigkeitserklärung besprechen und unterzeichnen lassen. | Unterzeichnete VE in revio 10.4 bzw. M-Files suchen (`revio K17`). Im Textfeld mit M-Files-ID festhalten: an die Revisionsstelle adressiert, datiert, von… |
 | A1-201 | Analytisch | EP |  | vorbereiten | Entspricht die Jahresrechnung dem Verständnis des Abschlussprüfers von der Tätigkeit und dem Umfeld des Unternehmens? | Saldoliste Bilanz/ER mit Vorjahr vergleichen (absolute und relative Veränderungen, Kennzahlen wie Bruttomarge, Personalaufwand/Ertrag, Eigenkapitalquote… |
-| A1-202 | Analytisch | EP |  | vorbereiten | Werden die zuvor aus der Prüfung einzelner Positionen gezogenen Schlüsse erhärtet? | Ergebnisse, Wesentliche Feststellungen und Pendenzen aller Prüffelder zusammentragen und der Gesamtanalytik (A1-201) gegenüberstellen. Widersprüche (Position… |
+| A1-202 | Analytisch | EP |  | vorbereiten | Werden die zuvor aus der Prüfung einzelner Positionen gezogenen Schlüsse erhärtet? | revio 6.2 als Leitfaden lesen (nur lesen). Ergebnisse, Wesentliche Feststellungen und Pendenzen aller Prüffelder zusammentragen und der Gesamtanalytik… |
 | A1-203 | Analytisch | EP |  | vorbereiten | Beurteilung der Auswirkung nicht korrigierter Fehler - sowohl einzeln als auch zusammen gekommen. Information der Unternehmensleitung über… | Alle Fehlaussagen über der Nichtaufgriffsgrenze aus den Prüffeldern (Wesentliche Feststellungen) in einer Zusammenstellung mit Wirkung auf Ergebnis… |
 | A1-204 | Analytisch | EP |  | vorbereiten | Sind die Grundlagen und Grundsätze ordnungsmässiger Rechnungslegung eingehalten? | Checkliste Art. 958a–958d OR anhand JR, Anhang und Saldoliste: Fortführung, Abgrenzung, Klarheit, Vollständigkeit, Verlässlichkeit, Wesentlichkeit, Vorsicht… |
-| A1-205 | Analytisch | EP |  | vorbereiten | Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern)? | Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan) und Anhangsangaben prüfen, fehlt sie… |
+| A1-205 | Analytisch | EP |  | vorbereiten | Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern)? | 1) revio 3.4 und 6.3 lesen (nur lesen). 2) Going Concern: Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate… |
 | A1-206 | Analytisch | EP | DO | vorbereiten | Werden die für die Beurteilung der Vermögens-, Finanz- und Ertragslage durch Dritte oder aufgrund der Tätigkeit des Unternehmens… | Saldoliste auf wesentliche Konten prüfen, die in Sammelpositionen aufgehen, und Bilanz/ER/Anhang auf gesondert auszuweisende Positionen (u.a.… |
 | A1-207 | Analytisch | EP | DO | vorbereiten | Plausibilisierung von Bestand und Veränderungen stiller Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen… | Aus den Prüffeldern Hinweise auf Bildung/Auflösung stiller Reserven sammeln (Wertberichtigungen, Abschreibungen über betriebswirtschaftlichem Mass… |
 | A1-208 | Analytisch | EP | DO | vorbereiten | Bei einem Zwischenabschluss: Feststellung, ob die Vereinfachungen und Verkürzungen bei der Erstellung eines Zwischenabschlusses nach Art.… | Nur relevant bei Zwischenabschluss für eine Zwischendividende (Protokolle, Antrag VR); sonst Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar… |

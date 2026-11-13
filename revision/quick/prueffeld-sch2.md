@@ -10,6 +10,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 1d89cb9e6288f81f9340850d159efcf537ff5633e189092c53faf9cb6f48ed4f
 ---
 
 
@@ -32,22 +33,22 @@ Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestand
 - Analytik ohne Befund trotz Fehlern, weil sich Fehlaussagen (z.B. fehlende Abgrenzung und doppelte Buchung, nicht erfasster und vorgezogener Aufwand) gegenseitig kompensieren. [VO, PA] — [SER](../chunks/ser-2022/ser-2022__6-1-2-t3.md)
 
 ## Bewertung / Bilanzierung
+- Gesamtleistung = Nettoerlös ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; ihr wird der Produktionsaufwand gegenübergestellt (Bezugsgrösse Margenvergleich) — [HWP BuR S. 115](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0235-s115.md)
+- Sachliche Abgrenzung (matching): Aufwand zeitgleich mit dem zugehörigen Ertrag — [HWP BuR S. 67](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0049-s067.md)
 - Materialaufwand umfasst alle mit der Produktion verbundenen Aufwendungen — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
+- Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti sofern nicht im Finanzertrag) mindern den Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Bestandteile: Einkauf von Handelswaren, Rohmaterial, Hilfs- und Betriebsstoffen — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Fremdarbeiten an Material und Erzeugnissen gehören zum Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Direkte Bezugskosten (Frachten, Zölle) sind Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
-- Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti sofern nicht im Finanzertrag) mindern den Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Inventurdifferenzen auf zugekauften Vorräten gehören zum Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Bildung von Wertberichtigungen auf zugekauften Vorräten im Materialaufwand — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Kursdifferenzen aus Beschaffung nur bei dokumentiertem Einzelzusammenhang im Materialaufwand, sonst Finanzergebnis — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0756-s319.md)
 - Kursdifferenzen aus dem normalen Geschäftszweck: prüfen, ob sie zusammen mit dem Grundgeschäft (z.B. als Warenaufwand) zu erfassen sind (EUR-Einkäufe) — [HWP BuR S. 78](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0093-s078.md)
 - Bestandesänderungen Handelswaren/Rohmaterial dürfen direkt im Material-/Warenaufwand erfasst werden — [HWP BuR S. 114](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0232-s114.md)
 - Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen separat ausweisen — [HWP BuR S. 319](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0755-s319.md)
-- Gesamtleistung = Nettoerlös ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; ihr wird der Produktionsaufwand gegenübergestellt (Bezugsgrösse Margenvergleich) — [HWP BuR S. 115](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0235-s115.md)
 - Bezeichnung «Aufwand für Material, Waren und Dienstleistungen» zulässig und umfassender — [HWP BuR S. 113](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0228-s113.md)
 - Bei zusammengefasstem Ausweis ggf. Aufschlüsselung im Anhang — [HWP BuR S. 320](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0758-s320.md)
 - Absatzerfolgsrechnung: Abschreibungen und Wertberichtigungen sind in den Herstellungskosten der verkauften Produkte enthalten (Offenlegung im Anhang) — [HWP BuR S. 328](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0793-s328.md)
-- Sachliche Abgrenzung (matching): Aufwand zeitgleich mit dem zugehörigen Ertrag — [HWP BuR S. 67](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0049-s067.md)
 - Periodengerechte Aufwandsabgrenzung: vollständige Erfassung von Verbindlichkeiten, passiven Abgrenzungen und Rückstellungen — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 - Aufwand früherer Perioden als periodenfremd buchen, sobald bekannt — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 - Umsatzerfassung Handelswaren grundsätzlich mit Übergang von Nutzen und Gefahr (Bezug für die zeitliche Abgrenzung des zugehörigen Aufwands) — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
@@ -88,7 +89,7 @@ Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestand
 - Befragung allein genügt bei wesentlichem direktem Aufwand nicht; Antworten mit Analytik und/oder Detailprüfungen ergänzen. — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
 - Der Agent kann nicht selbst befragen: Befragungsschritte nur mit schriftlicher Antwort auswerten, sonst Frage als Pendenz für WP/Mandatsleitung; kein direkter Kundenkontakt. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Wesentliche Fragen und Antworten dokumentieren, sonst ist die Befragung kein Prüfungsnachweis. — [HWP ER S. 197](../chunks/hwp-er-2026/hwp-er-2026__rz-0103-s197.md)
-- SER Anh. D p) empfiehlt für den Materialaufwand nur Befragung und Margenvergleich; Belegeinsicht/Cut-off sind weiter gehend und setzen einen Auslöser voraus. Anh.-D-Stellen anderer Positionen (i, l, q, r, t) nur als gekennzeichnete Analogie zitieren. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
+- SER Anh. D p) empfiehlt Befragung (SCH2-101) und Margenvergleich (SCH2-201). Als weiter gehend nennt p) nur die Einsicht in Rechnungen und Lieferpapiere um den Stichtag (Cut-off, SCH2-303: nur auf Anweisung WP). Die Katalogschritte SCH2-301/302 bereitet der Agent als angemessene Detailprüfung vor (SER 6.1.3), mit Umfang nach Wesentlichkeit und Risiko (3.1), begründet im Textfeld. Anh.-D-Stellen anderer Positionen (i, l, q, r, t) nur als gekennzeichnete Analogie zitieren. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
 - Analytik kann kompensierende Fehler übersehen; Erklärungen aus der Abweichungsanalyse sind zu plausibilisieren. — [SER](../chunks/ser-2022/ser-2022__6-1-2-t3.md)
 - Margenvergleich nicht nur auf Nettoerlöse beziehen: Im Projekt-/POC-Geschäft verzerren Bestandesänderungen an angefangenen Arbeiten (z.B. Vorzeichenwechsel gegenüber Vorjahr) die Bruttomarge; Bezugsgrösse ist die Gesamtleistung. — [HWP BuR S. 115](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0235-s115.md)
 - In KMU verzerren Bildung/Auflösung stiller Reserven (z.B. Vorratsreserven) Material- und Margenzahlen; vor der Analyse bereinigen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
@@ -112,6 +113,6 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | SCH2-102 | Befragung |  | VO PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Wortlaut wie SER Anh. D q) (Analogie; gleich in i) und t)). Aus Saldovergleich (SCH2-202 a) 4xxx-Konten mit Abweichung über der Schwelle (vertretbare… |
 | SCH2-201 | Analytisch | EP | VO PA | vorbereiten | Vergleich von Umsätzen, Warenaufwand und Bruttomargen je Produktkategorie mit dem Vorjahr. Besprechung wesentlicher Abweichungen | Je Produktkategorie (BJ, VJ) Gesamtleistung, direkten Aufwand und Bruttomarge berechnen; bei Projektgeschäft Marge je Projekt aus… |
 | SCH2-202 | Analytisch |  | VO PA | vorbereiten | Analyse signifikanter Änderungen gegenüber dem Vorjahr und Umschreibung der Ursachen dafür, durch: a) Saldovergleich mit dem Vorjahr b)… | a) Saldovergleich aller 4xxx-Konten mit VJ; b) Kontoblätter kritisch auf hohe/ungewöhnliche Beträge durchsehen (Vorzeichen, runde Beträge, Stichtagsnähe… |
-| SCH2-301 | Detail |  | EX VO RI | vorbereiten | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Bewusste Auswahl aus 4xxx-Konten, Umfang nach Wesentlichkeit und Risiko begründen. Standardauswahl gemäss Konzeptvorschlag (noch nicht bestätigt; Vorgabe WP… |
+| SCH2-301 | Detail |  | EX VO RI | vorbereiten | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | Angemessene Detailprüfung (SER 6.1.3), Umfang nach Wesentlichkeit/Risiko: bewusste Auswahl aus 4xxx-Konten, Auswahl im Textfeld begründen. Standardauswahl… |
 | SCH2-302 | Detail |  | VO PA | vorbereiten | Kritische Durchsicht und Plausibilitätsprüfungen in sachlicher und zeitlicher Hinsicht | Kontoblätter 4xxx kritisch durchsehen, Umfang nach Wesentlichkeit/Risiko begründen. Sachlich: richtiges Konto, Abgrenzung zu übrigem Aufwand/Investitionen… |
-| SCH2-303 | Detail | WP | EX VO PA | nur_mensch | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung | WP-Schritt; gemäss SER weiter gehend. Nur bearbeiten, wenn consis WP-Schritte für den Agenten freigegeben hat und der WP ihn anordnet (Auslöser: Hinweise auf… |
+| SCH2-303 | Detail | WP | EX VO PA | nur_mensch | Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung | WP-Schritt; gemäss SER weiter gehend. Nur auf ausdrückliche Anweisung des WP bearbeiten (Entscheid consis offen; Auslöser: Hinweise auf Abgrenzungsfehler aus… |

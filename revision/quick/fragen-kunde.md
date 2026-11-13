@@ -25,6 +25,7 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Liegen alle Protokolle der GV und der VR-Sitzungen des Geschäftsjahres und bis heute vor (inkl. Zirkularbeschlüsse)?
 - Wurde im Geschäftsjahr ein Zwischenabschluss für eine Zwischendividende erstellt oder ist eine geplant? Falls ja: Wurde er geprüft oder haben sämtliche Aktionäre der Ausrichtung zugestimmt?
 - Wird eine Geldflussrechnung erstellt (gesetzlich, statutarisch, auf Verlangen von Kreditgebern oder freiwillig) und welcher Fonds wird verwendet?
+- Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Art. 3 oder Art. 4 Covid-19-SBüV) oder ein Härtefall-Darlehen? Art des Kredits, Saldo per 31.12., Kreditvereinbarung und Amortisationsplan beilegen.
 
 ## B1 Flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs
 - Bestehen per Stichtag Verpfändungen, Sperren, Garantiedepots, Verrechnungsrechte der Bank oder andere Verfügungsbeschränkungen auf Konten oder Depots? Bitte Verträge beilegen.
@@ -66,6 +67,7 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Bestehen Forderungen in Fremdwährung und mit welchen Kursen wurden sie per Stichtag umgerechnet?
 - Wurden auf übrigen Forderungen stille Reserven gebildet oder aufgelöst (Betrag, Berechnung gegenüber Vorjahr)?
 - Wurde der Antrag auf Rückerstattung der Verrechnungssteuer gestellt bzw. wann wird er gestellt?
+- Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Betrag, Datum, Rückzahlungsstand)?
 
 ## E1 Aktive Rechnungsabgrenzung
 - Sind die aktivierten Beträge je Position werthaltig, d.h. wird die vorausbezahlte Leistung 2026 noch bezogen (Vertrag ungekündigt, Lieferant leistungsfähig) bzw. ist der Geldeingang der abgegrenzten Erträge gesichert?
@@ -116,13 +118,13 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 
 ## G2 Immobile Sachanlagen
 - Nach welchen Grundsätzen werden die Liegenschaften bewertet (AK/HK, Land und Gebäude getrennt), welche Nutzungsdauern, Abschreibungssätze und -methoden gelten, und wurde gegenüber dem Vorjahr etwas geändert (mit Begründung)?
-- Wie wird Unterhalt von wertvermehrenden Investitionen abgegrenzt (Aktivierungsgrenze, Projektbetrachtung) und welche grösseren Renovationen/Umbauten fanden 2025 statt, wie wurden sie verbucht?
-- Wurden 2025 oder nach dem Bilanzstichtag Liegenschaften gekauft oder verkauft? Bitte Verträge, Datum des Grundbucheintrags und Abrechnung des Verkaufserfolgs einreichen.
+- Wie wird Unterhalt von wertvermehrenden Investitionen abgegrenzt (Aktivierungsgrenze, Projektbetrachtung) und welche grösseren Renovationen/Umbauten fanden im Berichtsjahr statt, wie wurden sie verbucht?
+- Wurden im Berichtsjahr oder nach dem Bilanzstichtag Liegenschaften gekauft oder verkauft? Bitte Verträge, Datum des Grundbucheintrags und Abrechnung des Verkaufserfolgs einreichen.
 - Bestehen Anzeichen einer dauerhaften Wertminderung (Leerstand, Umzonung, Schäden, Altlasten, Nutzungsänderung, ungenügende Erträge)? Falls ja: Wie wurde die Werthaltigkeit beurteilt?
 - Welche Grundpfandrechte/Schuldbriefe lasten auf den Liegenschaften, wofür sind sie verpfändet (auch für Dritte), und bestehen Kaufs-, Vorkaufs-, Bau- oder Bauhandwerkerpfandrechte?
-- Sind alle Mieterträge (inkl. Parkplätze, Untermiete, Mieten von Nahestehenden) erfasst, welche Leerstände und Mietzinsreduktionen bestanden 2025?
+- Sind alle Mieterträge (inkl. Parkplätze, Untermiete, Mieten von Nahestehenden) erfasst, welche Leerstände und Mietzinsreduktionen bestanden im Berichtsjahr?
 - Liegen Schätzungen oder Gutachten zu den Liegenschaften vor (Bank, Steuer, Versicherung)? Bitte Kopie einreichen.
-- Wie werden die stillen Reserven auf Liegenschaften berechnet (Methode wie Vorjahr?) und wie haben sie sich 2025 verändert?
+- Wie werden die stillen Reserven auf Liegenschaften berechnet (Methode wie Vorjahr?) und wie haben sie sich im Berichtsjahr verändert?
 - Bestehen Verpflichtungen für Sanierungen, Altlasten oder Rückbau (z.B. aus Baurecht)?
 
 ## H1 Finanzanlagen
@@ -153,13 +155,14 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Bestehen Verbindlichkeiten der Gesellschaft gegenüber Darlehensnehmern (z.B. Aktionärsdarlehen mit Rangrücktritt)? Wurden diese mit Aktivdarlehen verrechnet oder ist eine Verrechnung geplant?
 - Nimmt die Gesellschaft an einem Cash Pool teil (Zero Balancing/Notional Pooling)? Bitte Poolvertrag und Unterlagen zur Bonitätsüberwachung der Teilnehmer zustellen.
 - Liegen Budget bzw. Liquiditätsplanung für den Zeitpunkt der beantragten Ausschüttung vor? Bitte zustellen.
+- Besteht noch ein Covid-19-Kredit (Solidarbürgschaft)? Wurden seit der Kreditgewährung Darlehen an Gesellschafter/Nahestehende gewährt oder erhöht?
 
 ## H3 Beteiligungen
 - Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?
 - Bestehen Anzeichen für tiefere Werte einzelner Beteiligungen (Verluste, rückläufige Aufträge, Verkaufsabsicht oder -angebote, Wegfall der Betriebsnotwendigkeit)? Wie haben Sie die Werthaltigkeit per 31.12. beurteilt (bitte Unterlagen beilegen)?
 - Welche Beteiligungen wurden im Geschäftsjahr erworben, veräussert, aufgestockt, saniert oder mit Zuschüssen versehen, und auf welchen Konten wurden diese Vorgänge gebucht?
 - Von wem wurden Beteiligungen im Geschäftsjahr erworben? Steht der Verkäufer der Gesellschaft, ihren Organen, Aktionären oder Mitarbeitenden nahe (z. B. familiäre Beziehung)? Wie wurde der Kaufpreis festgelegt (Bewertung, Ertragsaussichten)?
-- Ist für die Abtretung erworbener GmbH-Stammanteile die Zustimmung der Gesellschafterversammlung erforderlich, liegt sie vor, und ist die Gesellschaft als Gesellschafterin eingetragen?
+- Liegt der Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung zur Abtretung vor, oder verzichten deren Statuten darauf (bitte Statuten beilegen)? Ist die Gesellschaft als Gesellschafterin eingetragen?
 - Werden die Anteile langfristig gehalten, und vermitteln sie einen massgeblichen Einfluss (Kapital- und Stimmenanteil)?
 - Bestehen nicht voll einbezahlte Titel, statutarische Nachschusspflichten, Garantien, Bürgschaften, Patronatserklärungen oder Verpfändungen im Zusammenhang mit Beteiligungen?
 - Hält die Gesellschaft oder eine von ihr kontrollierte Gesellschaft eigene Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert (Anzahl, Preis, Bedingungen)?
@@ -203,6 +206,7 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Gab es im Geschäftsjahr oder kurz nach dem Stichtag aussergewöhnliche Geldtransaktionen (grosse Bareinzahlungen, Zahlungen an/von Nahestehenden, kurzfristige Kreditrückführungen über den Stichtag, Überträge zwischen Banken)?
 - Welche Kreditlimiten bestehen je Bank, wie stark sind sie beansprucht, gibt es Kündigungen oder Limitenreduktionen, und liegt eine Liquiditätsplanung für mindestens zwölf Monate vor?
 - Waren per 31.12. Devisentermingeschäfte, Währungs-/Zinsswaps oder Optionen offen? Zu welchem Zweck (Absicherung) und mit welcher Bankbewertung?
+- Besteht ein Covid-19-Kredit (Art. 3 oder Art. 4 Covid-19-SBüV; Saldo 31.12., Amortisationsplan, Zinssatz)? Wurden seit der Auszahlung Dividenden/Tantiemen ausgeschüttet, Kapitaleinlagen zurückerstattet, Darlehen an Aktionäre/Nahestehende gewährt, Darlehen von Aktionären/Nahestehenden zurückbezahlt oder bestehende Kredite mit Covid-Mitteln abgelöst?
 
 ## M1 übrige kurzfristige Verbindlichkeiten
 - Welche wesentlichen übrigen Verbindlichkeiten bestehen per 31.12. (Gläubiger, Grund, Fälligkeit), und welche sind gegenüber dem Vorjahr neu oder weggefallen?
@@ -252,6 +256,7 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Bestehen Darlehen in Fremdwährung? Zu welchem Kurs wurden sie erfasst und per 31.12. bewertet?
 - Was ist der Hintergrund der Zu- und Abgänge auf den Darlehenskonten (Neuaufnahmen, Rückzahlungen, Umbuchungen, Verrechnungsliberierung)? Liegen die entsprechenden Verträge und Beschlüsse vor?
 - Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Kündigung, Neuverhandlung, Rückzahlung, neue Sicherheiten, Änderung von Rangrücktritten)?
+- Besteht ein Covid-19-Kredit (nach Art. 3 oder Art. 4 Covid-19-SBüV) oder ein Härtefall-Darlehen (HFMV 20)? Bitte Kreditvereinbarung, Amortisationsplan und verbürgten Betrag per 31.12. zur Verfügung stellen. Wurden während der Solidarbürgschaft Dividenden/Tantiemen ausgerichtet, Kapitaleinlagen zurückerstattet, Darlehen an Aktionäre/Nahestehende gewährt oder Darlehen von ihnen zurückbezahlt bzw. verrechnet?
 
 ## O1 Rückstellungen
 - Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei, Streitgegenstand, Streitwert, Verfahrensstand bzw. Stand im Instanzenzug, Einschätzung des Ausgangs, beauftragter Rechtsvertreter, allfällige Versicherungsdeckungen und Gegenklagen.
@@ -275,11 +280,13 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Hat die Gesellschaft im Geschäftsjahr oder nach dem Stichtag Gläubigern mit Rangrücktritt Darlehen gewährt, Zahlungen geleistet oder Forderungen verrechnet? Wurden Rangrücktritte geändert, reduziert oder ersetzt?
 - Wurden Optionen oder Beteiligungsrechte an Verwaltungsrat, Geschäftsleitung oder Mitarbeitende ausgegeben?
 - Wurden Grundstücke oder Beteiligungen zur Behebung eines Kapitalverlusts oder einer Überschuldung aufgewertet?
+- Besteht oder bestand im GJ bzw. bis zur GV ein nach Covid-19-SBüV verbürgter Kredit (Art. 3 oder Art. 4)? Betrag, Kreditvereinbarung bzw. Bürgschaftsvertrag und Amortisationsplan einreichen.
 
 ## R1 Personalaufwand
 - Wurden nach dem 31.12. Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen oder zugesagt (Betrag, Datum, Organ)? Wie und in welchem Konto wurden sie per Stichtag erfasst bzw. abgegrenzt?
 - Welche Gründe haben die wesentlichen Veränderungen gegenüber Vorjahr/Budget bei Lohnaufwand, Boni, Sozialleistungen, Spesen und übrigem Personalaufwand (Personalbestand, Ein-/Austritte, Pensen, Lohnrunde, Reorganisation)?
 - Liegen die Schlussabrechnungen 2025 von Ausgleichskasse (AHV/FAK), Vorsorgeeinrichtung, UVG/UVGZ, KTG sowie die Quellensteuer-Jahresabrechnung vor, und wurden Nachzahlungen/Guthaben per 31.12. abgegrenzt?
+- Liegt eine Lohnabstimmung 2025 vor (Lohnjournal ↔ AHV-, UVG-, KTG- und BVG-Lohnmeldungen)? Wurden alle Ein- und Austritte gemeldet?
 - Fanden in den letzten Jahren AHV-Arbeitgeberkontrollen, SUVA-Lohnbuchrevisionen oder andere Kontrollen statt? Gab es Nachbelastungen oder offene Feststellungen?
 - Bestehen arbeitsrechtliche Streitigkeiten, Lohnforderungen, Kündigungsanfechtungen, Sozialplan- oder Abgangsentschädigungsverpflichtungen? Liegt dazu eine Beurteilung eines Anwalts vor?
 - Welche Vergütungen (Lohn, Bonus, Spesen, Fahrzeug, Fringe Benefits, VR-Honorare) erhielten VR, GL, Aktionäre und ihnen nahestehende Personen im Geschäftsjahr und Vorjahr, und auf welcher Grundlage (Vertrag, Beschluss)?
@@ -366,9 +373,9 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Hält die Gesellschaft oder ein von ihr kontrolliertes Unternehmen eigene Anteile? Gab es im Geschäftsjahr Erwerbe/Veräusserungen (Datum, Anzahl, Preis, Bedingungen)?
 - Bestehen nicht bilanzierte Leasing- oder Mietverträge, die nicht innert zwölf Monaten nach dem Stichtag auslaufen oder (wirtschaftlich) gekündigt werden können? Bitte Verträge und Restbetrag.
 - Bestehen per Stichtag Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Beiträge, Kontokorrent, Darlehen)? Bitte Kontoauszug der Vorsorgeeinrichtung per 31.12.
-- Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge und allfällige Rückstellungen dafür.
+- Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge und allfällige Rückstellungen dafür. Bei Krediten Dritter: Besteht eine feste Rückzahlungsvereinbarung? Sind Patronatserklärungen rechtlich verbindlich (klagbar)?
 - Welche Aktiven sind zur Sicherung eigener Verbindlichkeiten verpfändet oder abgetreten (z.B. Globalzession, Guthaben/Depots bei kreditgebender Bank, Bardepots/Sicherheitsleistungen bei Behörden, Kautionen) oder stehen unter Eigentumsvorbehalt? Welche Kreditlimiten waren am Stichtag beansprucht?
-- Bestehen Rechtsstreitigkeiten, Garantie-/Gewährleistungsfälle, Konventionalstrafen oder Solidarhaftungen, für die keine Rückstellung gebildet wurde? Wie wird die Eintretenswahrscheinlichkeit beurteilt?
+- Bestehen Rechtsstreitigkeiten, Garantie-/Gewährleistungsfälle, Konventionalstrafen oder Solidarhaftungen, für die keine Rückstellung gebildet wurde? Wie wird die Eintretenswahrscheinlichkeit beurteilt? Ist die Gesellschaft Mitglied einer MWST-Gruppe oder Gesellschafterin einer einfachen Gesellschaft/ARGE?
 - Wurden im Geschäftsjahr Aktien oder Optionen an VR, Geschäftsleitung oder Mitarbeitende zugeteilt (Anzahl, Wert, Bewertungsmethode)?
 - Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Verluste, Klagen, Debitorenausfälle, Kapitalmassnahmen, Verträge)? Mit welcher geschätzten finanziellen Auswirkung? Wann hat der VR die Jahresrechnung freigegeben?
 - Sehen die Statuten ein Kapitalband vor, und hat der VR im Geschäftsjahr innerhalb dieses Bands das Kapital erhöht oder herabgesetzt?

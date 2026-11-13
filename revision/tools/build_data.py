@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
 """Revisions-Wiki: Ergebnisse der Erfassungs-Workflows (journal.jsonl) in die Datenschicht übernehmen.
 
-  python3 revision/tools/build_data.py --runs <workflow-transcript-dir> [...] [--nur prueffelder|prozess|werte|revio|testfall]
+  python3 revision/tools/build_data.py --runs <workflow-transcript-dir> [...] [--nur prueffelder|prozess|werte|revio|themen|testfall]
+                                       [--codes C1 D1] [--thema stille-reserven …] [--ohne-build]
 
 Je Einheit gilt das jüngste Ergebnis (korrigieren > erfassen). Jedes Zitat wird gegen den Chunk geprüft; ist es dort nicht
 wörtlich, wird es in den übrigen Chunks derselben Quelle gesucht (Chunk-Id korrigiert) – sonst wird die Fundstelle entfernt
-und gezählt. Ausgabe: data/prueffelder/<code>.yaml, data/prozess/<id>.yaml, data/werte.yaml, data/revio/*.yaml,
-eval/testfall-2025/referenz.yaml; Bericht reports/import.md.
+und gezählt. Ausgabe: data/prueffelder/<code>.yaml, data/prozess/<id>.yaml, data/werte/*.yaml, data/revio/*.yaml,
+data/themen/<id>.yaml, eval/testfall-2025/referenz.yaml; Bericht reports/import-<teile>.md. Danach baut build_quick.py
+quick/, wiki/ und index/lookup.json neu (abschaltbar mit --ohne-build), damit sie nie hinter data/ zurückbleiben.
+
+Status: agent-geprueft nur mit Nachprüfung, deren Urteil nicht «korrigieren» lautet oder deren Korrektur-Lauf übernommen ist;
+sonst extrahiert. ACHTUNG: Ein erneuter Import überschreibt Handkorrekturen in data/ – nur mit --codes/--thema auf die
+betroffenen Einheiten beschränken.
 """
 from __future__ import annotations
-import argparse, collections, datetime, json, re, sqlite3, sys
+import argparse, collections, datetime, json, re, sqlite3, subprocess, sys
 from pathlib import Path
 import yaml
 
@@ -86,6 +92,17 @@ def pick(res: dict, key: str):
     return res.get(f"korrigieren:{key}") or res.get(f"erfassen:{key}")
 
 
+def status(v: dict, korrigiert: bool) -> str:
+    """agent-geprueft nur, wenn eine Nachprüfung vorliegt und ihr Urteil nicht «korrigieren» ist – oder der Korrektur-Lauf
+    übernommen wurde (offenes «korrigieren» bleibt extrahiert)."""
+    return "agent-geprueft" if v and (v.get("urteil") != "korrigieren" or korrigiert) else "extrahiert"
+
+
+def testakte_ordner() -> list[Path]:
+    """Ordner der fiktiven Testakte 2025 (eval/testdaten/*2025/text) – Name nicht fest verdrahtet."""
+    return sorted((R / "eval" / "testdaten").glob("*2025/text"))
+
+
 CODES = None   # optional: nur diese Prüffelder übernehmen (--codes)
 
 
@@ -103,16 +120,18 @@ def prueffelder(res: dict, heute: str):
         if not d:
             continue
         v = res.get(f"nachpruefen:{c}") or {}
-        out = {"code": c, "bezeichnung": p["bezeichnung"], "status": "agent-geprueft" if v else "extrahiert",
+        korr = bool(res.get(f"korrigieren:{c}"))
+        out = {"code": c, "bezeichnung": p["bezeichnung"], "status": status(v, korr),
                "erfasst": {"agent": "workflow revision-prueffelder-wissen", "datum": heute,
                            "nachpruefung": {"urteil": v.get("urteil"), "befunde": len(v.get("befunde") or []),
-                                            "korrigiert": bool(res.get(f"korrigieren:{c}"))}},
+                                            "korrigiert": korr}},
                "kurzbeschrieb": d.get("kurzbeschrieb", "")}
         for k, keep in (("gesetz", False), ("risiken", True), ("unterlagen", True), ("bewertung", False), ("fallstricke", True)):
             out[k] = norm_items(d.get(k), f"{c}.{k}", keep)
         out["fragen_kunde"] = d.get("fragen_kunde") or []
-        tdir = R / "eval" / "testdaten" / "fiktive-zahlen-ag-2025" / "text"
-        out["testakte_2025"] = [t for t in (d.get("testakte_2025") or []) if (tdir / t["datei"]).exists() or LOG.append(f"- Testakte-Datei fehlt {c}: {t['datei']}")]
+        tdirs = testakte_ordner()   # testakte_2025 bleibt nur in data/ (build_quick.py → eval/testfall-2025/hinweise/)
+        out["testakte_2025"] = [t for t in (d.get("testakte_2025") or [])
+                                if any((x / t["datei"]).exists() for x in tdirs) or LOG.append(f"- Testakte-Datei fehlt {c}: {t['datei']}")]
         by = {s.get("id"): s for s in d.get("schritte") or []}
         sch = []
         for sid in ids_by[c]:
@@ -142,7 +161,7 @@ def prozess(res: dict, heute: str):
             continue
         pid = m.group(1)
         v = res.get(f"nachpruefen:{pid}") or {}
-        out = {"id": pid, "titel": d.get("titel"), "status": "agent-geprueft" if v else "extrahiert",
+        out = {"id": pid, "titel": d.get("titel"), "status": status(v, k.startswith("korrigieren")),
                "erfasst": {"agent": "workflow revision-prozess-werte", "datum": heute,
                            "nachpruefung": {"urteil": v.get("urteil"), "befunde": len(v.get("befunde") or []), "korrigiert": k.startswith("korrigieren")}},
                "ziel": d.get("ziel"), "wann": d.get("wann"),
@@ -229,21 +248,34 @@ def revio(res: dict, heute: str, outdir: Path | None):
         (R / "data" / "revio" / "werkzeuge.csv").write_text(src, encoding="utf-8")
 
 
-def themen(res: dict, heute: str):
+def themen(res: dict, heute: str, nur=None):
+    """Themen übernehmen; nur: Liste von Themen-Ids (--thema) – alle anderen bleiben unangetastet."""
     alle = []
     for k, d in sorted(res.items()):
         m = re.match(r"(korrigieren|erfassen):([a-z0-9-]+)$", k)
         if not m or not isinstance(d, dict) or "aussagen" not in d or (m.group(1) == "erfassen" and f"korrigieren:{m.group(2)}" in res):
             continue
         tid = m.group(2)
+        if nur and tid not in nur:
+            continue
         v = res.get(f"nachpruefen:{tid}") or {}
+        korr = m.group(1) == "korrigieren"
         codes = {p["code"] for p in rv.L()["katalog"]["prueffelder"]}
-        alle.append({"id": tid, "titel": d.get("titel"), "status": "agent-geprueft" if v else "extrahiert",
-                     "nachpruefung": {"urteil": v.get("urteil"), "befunde": len(v.get("befunde") or []), "korrigiert": m.group(1) == "korrigieren"},
-                     "stichworte": d.get("stichworte") or [], "kurz": d.get("kurz", ""),
-                     "aussagen": norm_items(d.get("aussagen"), f"thema {tid}", keep_without=False),
-                     "agent": d.get("agent") or [], "prueffelder": [c for c in d.get("prueffelder") or [] if c in codes],
-                     "phasen": [x for x in d.get("phasen") or [] if re.match(r"p\d-", x)]})
+        t = {"id": tid, "titel": d.get("titel"), "status": status(v, korr),
+             "nachpruefung": {"urteil": v.get("urteil"), "befunde": len(v.get("befunde") or []), "korrigiert": korr},
+             "stichworte": d.get("stichworte") or [], "kurz": d.get("kurz", ""),
+             "aussagen": norm_items(d.get("aussagen"), f"thema {tid}", keep_without=False),
+             "agent": d.get("agent") or []}
+        for f in ("naechste", "aufrufe"):   # optionale «Nächste Aufrufe» (tools/revision.py thema) unverändert durchreichen
+            if d.get(f):
+                t[f] = d[f]
+        t["prueffelder"] = [c for c in d.get("prueffelder") or [] if c in codes]
+        t["phasen"] = [x for x in d.get("phasen") or [] if re.match(r"p\d-", x)]
+        alle.append(t)
+    if nur:
+        fehlt = sorted(set(nur) - {t["id"] for t in alle})
+        if fehlt:
+            LOG.append(f"- --thema ohne Ergebnis in den Läufen: {fehlt}")
     for t in alle:
         dump(R / "data" / "themen" / f"{t['id']}.yaml", t, f"# Themenseite – jede Aussage mit Fundstelle. Erfasst {heute} (Workflow, nachgeprüft).\n")
     return len(alle)
@@ -262,16 +294,20 @@ def testfall(res: dict, heute: str):
     if alle:
         dump(R / "eval" / "testfall-2025" / "referenz.yaml", {"status": "agent-erstellt, adversarial nachgeprüft – fachliche Abnahme durch WP offen",
                                                               "erstellt": heute, "befunde": alle},
-             "# Referenzlösung Testakte «Fiktive Zahlen AG» 2025 (fiktiv) – je Bereich zwei unabhängige Prüfer + skeptische Nachprüfung.\n")
+             "# Referenzlösung Testakte 2025 (fiktiv) – je Bereich zwei unabhängige Prüfer + skeptische Nachprüfung.\n")
     return len(alle)
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--runs", nargs="+", required=True)
-    ap.add_argument("--nur", nargs="*", default=["prueffelder", "prozess", "werte", "revio", "themen", "testfall"])
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__.split("\n\n", 1)[1],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--runs", nargs="+", required=True, help="Workflow-Ordner mit journal.jsonl")
+    ap.add_argument("--nur", nargs="*", default=["prueffelder", "prozess", "werte", "revio", "themen", "testfall"],
+                    help="nur diese Teile (prueffelder prozess werte revio themen testfall)")
     ap.add_argument("--revio-out", default=None, help="Ordner mit werkzeuge_klassifiziert.csv")
     ap.add_argument("--codes", nargs="*", help="nur diese Prüffelder (Daten anderer Prüffelder bleiben unangetastet)")
+    ap.add_argument("--thema", nargs="*", help="nur diese Themen-Ids, z.B. stille-reserven (andere Themen bleiben unangetastet)")
+    ap.add_argument("--ohne-build", action="store_true", help="build_quick.py (quick/, wiki/, lookup) danach nicht aufrufen")
     a = ap.parse_args()
     global CODES
     CODES = set(a.codes) if a.codes else None
@@ -290,7 +326,7 @@ def main():
         revio(res, heute, Path(a.revio_out) if a.revio_out else None)
         rep.append("revio: übernommen")
     if "themen" in a.nur:
-        rep.append(f"Themen: {themen(res, heute)}")
+        rep.append(f"Themen: {themen(res, heute, set(a.thema) if a.thema else None)}")
     if "testfall" in a.nur:
         rep.append(f"Testfall-Befunde: {testfall(res, heute)}")
     rep += ["", f"Zitate: {STAT['zitate']} geprüft · {STAT['ok']} ok · {STAT['repariert']} Chunk-Id repariert · {STAT['entfernt']} entfernt; "
@@ -298,6 +334,8 @@ def main():
     (R / "reports").mkdir(exist_ok=True)
     (R / "reports" / f"import-{'-'.join(a.nur)}.md").write_text("\n".join(rep) + "\n", encoding="utf-8")
     print("\n".join(rep[:12]))
+    if not a.ohne_build:   # lookup/quick/wiki nie hinter data/ zurücklassen (lint.py aktualitaet)
+        subprocess.run([sys.executable, str(R / "tools" / "build_quick.py")], check=True)
 
 
 if __name__ == "__main__":

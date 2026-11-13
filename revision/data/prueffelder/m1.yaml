@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 17
     korrigiert: true
-kurzbeschrieb: 'Übrige kurzfristige Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. c OR): nicht verzinsliche, nicht aus Lieferungen/Leistungen stammende Schulden bis 12 Monate (Sozialversicherungen,
-  QST, MWST, Personal, Kundenanzahlungen). Eingeschränkte Revision: Vollständigkeit, Abstimmung mit Abrechnungen, Klassierung, Sollsaldi, Ausweis (Art. 959a Abs. 4, 959c OR); Compliance
-  nicht Gegenstand.'
+kurzbeschrieb: 'Übrige kurzfristige Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. c OR): Sozialversicherungen, QST, MWST-Abrechnungskonto, Personal, Kundenanzahlungen. ER: Vollständigkeit,
+  Abstimmung mit Abrechnungen, Klassierung, Sollsaldi, Ausweis (Art. 959a Abs. 4, 959c OR); Compliance nicht Gegenstand.'
 gesetz:
 - thema: 'Mindestgliederung: übrige kurzfristige Verbindlichkeiten als eigene Position des kurzfristigen Fremdkapitals (Art. 959a Abs. 2 Ziff. 1 lit. c OR)'
   quelle: or__art-959a-t1
@@ -288,8 +287,8 @@ fallstricke:
     Gegenpartei (bei Saldoabrechnung derselben Gegenpartei ist die Verrechnung geboten).'
   quelle: hwp-bur-2023__rz-0154-s192
   zitat: Forderungen und Verbindlichkeiten gegenüber Sozialversicherungen
-- text: 'Doppelarbeit vermeiden: MWST-Abrechnungskonto nur Bestandsabstimmung (materielle MWST-Prüfung in M2), Aufwandabstimmung Sozialversicherungen primär in R1, Zinsprüfung Kontokorrente
-    koordiniert mit L1/N1/SCH4.'
+- text: 'Praxis/intern: Doppelarbeit vermeiden: MWST-Abrechnungskonto nur Bestandsabstimmung (materielle MWST-Prüfung in M2), Aufwandabstimmung Sozialversicherungen primär in R1, Zinsprüfung
+    Kontokorrente koordiniert mit L1/N1/SCH4.'
 - text: Abgrenzung Ferien-/Überzeitguthaben gehört nicht zu M1, sondern ist als passive Rechnungsabgrenzung auszuweisen (Prüffeld M3); hier nur Abgrenzung.
   quelle: qa-or-rechnungslegung-2026__2-2-t1
   zitat: die als passive Rechnungsabgrenzung auszuweisen ist
@@ -334,6 +333,11 @@ fallstricke:
 - text: Verzinste Kontokorrente (Aktionäre, Organe, Konzern) gehören nicht in M1, sondern unter kurzfristige verzinsliche Verbindlichkeiten (Prüffeld L1).
   quelle: or__art-959a-t1
   zitat: b. kurzfristige verzinsliche Verbindlichkeiten
+- text: 'Kundenangaben nie ungeprüft übernehmen: «bezahlt» → Zahlung im Bankauszug bzw. Kontoblatt des Folgejahres suchen; «gemäss Abstimmung» → Abstimmung bzw. Abrechnung beiziehen;
+    Kopie/Entwurf → definitive Abrechnung als «Pendenz». Datum jeder Unterlage mit dem Buchungsstand vergleichen: eine Abrechnung, die nach dem Export bzw. Abschluss der Buchhaltung
+    datiert ist, kann der Buchung nicht zugrunde liegen → Buchungsgrundlage als «Pendenz» erfragen (M1-201, M1-301).'
+  quelle: ser-2022__1-2-t2
+  zitat: auf Hinweise achtet, welche die Verlässlichkeit von Dokumenten oder von Erklärungen der Unternehmensleitung widerlegen oder infrage stellen
 fragen_kunde:
 - frage: Welche wesentlichen übrigen Verbindlichkeiten bestehen per 31.12. (Gläubiger, Grund, Fälligkeit), und welche sind gegenüber dem Vorjahr neu oder weggefallen?
   zweck: M1-101 geschäftlicher Hintergrund, M1-102 Abweichungen
@@ -499,7 +503,9 @@ schritte:
     je Konto prüfen: Sollsaldi (negativer Saldo auf Passivkonto) je Gegenpartei netto summieren (Saldoabrechnung derselben Gegenpartei: Verrechnung geboten). Netto-Sollsaldi gehören
     zu den übrigen kurzfristigen Forderungen (Verrechnungsverbot). Bestand bzw. Rückforderbarkeit mit Schlussabrechnung/Kontoauszug belegen, sonst Pendenz (nicht belegter Teil = möglicher
     Aufwand). Feststellung mit Umgliederungsvorschlag ohne Buchung; Detail M1-406 nur auf Anweisung. QST: Total der Dezember-Abrechnung mit der Dezember-Gutschrift (Abzüge) auf dem Kontoblatt
-    QST vergleichen; Saldo aus EB + Abzüge − Zahlungen herleiten. Differenzen mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz.'
+    QST vergleichen; Saldo aus EB + Abzüge − Zahlungen herleiten. Differenzen mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz. Abschluss- und Umbuchungen per 31.12.
+    auf den Kontokorrenten Sozialversicherungen und QST einzeln mit der Schlussabrechnung belegen (Differenz = Beiträge total − Akonto); Buchungstext «gemäss Abstimmung» ohne Abrechnung
+    → «Pendenz».'
   nachweise:
   - Einzelnachweise/Abrechnungen je Konto
   - Lohnjournal Dezember, Auszahlungsbelege Januar
@@ -529,6 +535,8 @@ schritte:
     zitat: Nicht nur zulässig, sondern geboten ist eine Verrechnung dann, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird.
   - quelle: hwp-bur-2023__rz-0158-s192
     zitat: Der Bestand wird zweckmässigerweise mit Bestandsmeldungen oder Abrechnungen
+  - quelle: ser-2022__1-2-t2
+    zitat: auf Hinweise achtet, welche die Verlässlichkeit von Dokumenten oder von Erklärungen der Unternehmensleitung widerlegen oder infrage stellen
 - id: M1-302
   vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld. Punkte für den WP (z.B. Ergebnisse aus M1-301) als Notiz «Schlussbesprechung» bzw. «Pendenz»; im
     Rapport Status «nicht bearbeitet – WP-Schritt». Mit Anweisung (Textfeld als «Vorbereitung für WP» kennzeichnen): a) vom Unternehmen selbst eingeholte Bestätigungen (Kreditoren- und

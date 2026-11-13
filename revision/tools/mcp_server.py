@@ -44,9 +44,11 @@ TOOLS = [
                     "Kundenfragen, Unterlagen, Muster, Fundstellen.",
      "inputSchema": obj({"phase": {**S, "description": "z.B. p2 oder Stichwort (bericht, rangrücktritt)"}}, [])},
     {"name": "regeln", "fn": lambda a: rv.regeln(a.get("bereich") or None),
-     "description": "Verbindliche Arbeitsregeln des Agenten mit Fundstelle: schritttyp (Befragung/Analytisch/Detail/Sonstige/WP), ablauf (je "
-                    "Prüfschritt, Textfeld, Mandatskontext), notizen (Pendenz, Wesentliche Feststellungen, Schlussbesprechung), grenze "
-                    "(nie Visum/Abschluss/Freigabe/Versand), wesentlichkeit, gesetz (OR-Kernregeln).",
+     "description": "Verbindliche Arbeitsregeln des Agenten mit Fundstelle (Grenzen gehen vor). Ohne Bereich: alle Arbeitsregeln ohne gesetz. "
+                    "Bereiche: grenze (nie Visum/Abschluss/Freigabe/Versand/Buchung; Vorjahr nur lesen; Mandatsdaten nur in freigegebenen "
+                    "Systemen; nichts erfinden), schritttyp (Befragung/Analytisch/Detail/Sonstige/WP), ablauf (je Prüfschritt, Textfeld, "
+                    "Mandatskontext), notizen (Pendenz, Wesentliche Feststellungen, Schlussbesprechung), wesentlichkeit, gesetz (OR-Kernregeln). "
+                    "Auch ein Regelschlüssel oder Stichwort (z.B. vorjahr, datenschutz).",
      "inputSchema": obj({"bereich": S}, [])},
     {"name": "revio", "fn": lambda a: rv.revio(a.get("frage") or None),
      "description": "Welches revio-MCP-Werkzeug wann: Bereich (z.B. 10.9, 3.3, 4), Prüffeld (prueffeld C1), Prüfschritt (C1-302), Aufgabe/Stichwort "
@@ -58,16 +60,22 @@ TOOLS = [
                     "zinssatz darlehen aktionär 2026, verdecktes eigenkapital, delkredere, mwst, wesentlichkeit).",
      "inputSchema": obj({"begriff": S}, ["begriff"])},
     {"name": "rechne", "fn": lambda a: rv.rechne(a["ausdruck"]),
-     "description": "Rechnet exakt statt im Kopf (Summen, Abstimmungen, Differenzen, %, min/max). Mehrere Rechnungen mit ; trennen, optional "
-                    "«Name = Ausdruck». Jede Abstimmung (OP-Liste = Saldo, Bilanzgleichheit, Vorjahresdifferenz, Delkredere) damit.",
-     "inputSchema": obj({"ausdruck": S}, ["ausdruck"])},
+     "description": "Rechnet exakt statt im Kopf (Summen, Abstimmungen, Differenzen, %, min/max/round/abs/sum). Mehrere Rechnungen mit ; "
+                    "oder Zeilenumbruch; «name = Ausdruck» – Namen ohne Leerzeichen gelten in den folgenden Teilen, z.B. "
+                    "«op = 1200; hb = 1500; hb - op». Datum TT.MM.JJJJ oder JJJJ-MM-TT: tage(später, früher) (Tage), tage360(später, "
+                    "früher) (30E/360), monate(später, früher) (ganze Monate), datum_plus(datum, jahre=6) (Fristende). Minus als -. "
+                    "Jede Abstimmung (OP-Liste = Saldo, Bilanzgleichheit, Vorjahresdifferenz, Delkredere, Marchzins, Fälligkeit) damit.",
+     "inputSchema": obj({"ausdruck": {**S, "description": "z.B. «a = 1200; b = 300; a - b» oder «tage(31.12.2025, 15.10.2025)»"}}, ["ausdruck"])},
     {"name": "wesentlichkeit", "fn": lambda a: rv.wesentlichkeit(a.get("bezugsgroesse"), a.get("satz"), a.get("toleranz"), a.get("nichtaufgriff"), a.get("bezeichnung") or "Bezugsgrösse", a.get("gesamt")),
      "description": "Wesentlichkeit: aus Gesamtwesentlichkeit (gesamt) ODER Bezugsgrösse × Satz → Toleranzwesentlichkeit (HWP ER 50–75 %), "
-                    "Nichtaufgriffsgrenze (bis 5 %), mit Regeln und Fundstellen. Beträge in CHF. Der Agent ändert revio 3.3 nie.",
-     "inputSchema": obj({"gesamt": {**N, "description": "Gesamtwesentlichkeit in CHF, falls bekannt (z.B. 80000)"},
-                         "bezugsgroesse": {**N, "description": "Bezugsgrösse in CHF (z.B. Umsatz 8000000), nur ohne gesamt"},
-                         "satz": {**N, "description": "Prozentsatz zur Bezugsgrösse, z.B. 1"}, "toleranz": {**N, "description": "gewählte Toleranz in % (Standard 75)"},
-                         "nichtaufgriff": {**N, "description": "gewählte Nichtaufgriffsgrenze in % (Standard 5)"}, "bezeichnung": S}, [])},
+                    "Nichtaufgriffsgrenze (bis 5 %), mit Herkunft je Wert, Regeln, Richtwerten und Fundstellen. toleranz/nichtaufgriff wie in "
+                    "revio 3.3 in % oder CHF; leer = Konzept-Standard 75 %/5 % (wird als «nicht aus 3.3» gekennzeichnet). Ohne gesamt bzw. "
+                    "bezugsgroesse+satz: Aufrufhilfe. Der Agent ändert revio 3.3 nie.",
+     "inputSchema": obj({"gesamt": {**N, "description": "Gesamtwesentlichkeit in CHF, falls bekannt (z.B. 50000)"},
+                         "bezugsgroesse": {**N, "description": "Bezugsgrösse in CHF (z.B. Umsatz 5000000), nur ohne gesamt"},
+                         "satz": {**N, "description": "Prozentsatz zur Bezugsgrösse, z.B. 1"},
+                         "toleranz": {**N, "description": "Wert aus 3.3 in % (z.B. 75) oder CHF (z.B. 37500)"},
+                         "nichtaufgriff": {**N, "description": "Wert aus 3.3 in % (z.B. 5) oder CHF (z.B. 2500)"}, "bezeichnung": S}, [])},
     {"name": "kapitalverlust", "fn": lambda a: rv.kapitalverlust(a["aktienkapital"], a.get("eigenkapital"), a.get("aktiven"), a.get("verbindlichkeiten"),
                                                                  a.get("kapitalreserve", 0), a.get("gewinnreserve", 0), a.get("holding", False),
                                                                  a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert"),
@@ -77,18 +85,23 @@ TOOLS = [
                     "Aktienkapitals), Kapitalverlust (Hälfte-Test), Überschuldung, Rangrücktritt, zulässige Aufwertung (mit buchwert + verkehrswert). "
                     "Eigenkapital direkt ODER aus Bestandteilen (freiwillige_reserven, vortrag, jahresergebnis – Verluste negativ –, eigene_aktien) "
                     "ODER aktiven + verbindlichkeiten. reserve_voll = Gewinnreserven für eigene Kapitalanteile im Konzern/Aufwertungsreserve (zählen "
-                    "voll zum geschützten Kapital); covid_kredit = Covid-19-Kredit (kein Fremdkapital). Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. "
+                    "voll zum geschützten Kapital); covid_kredit = Kredit nach Art. 3 Covid-19-SBüV bzw. Art. 21 HFMV 20 (kein Fremdkapital). "
+                    "Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. "
                     "Beurteilung: WP.",
      "inputSchema": obj({"aktienkapital": {**N, "description": "Aktien- und PS-Kapital in CHF"}, "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
                          "aktiven": N, "verbindlichkeiten": {**N, "description": "Fremdkapital inkl. Rückstellungen"},
-                         "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (z.B. Agio)"}, "gewinnreserve": {**N, "description": "gesetzliche Gewinnreserve"},
+                         "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (z.B. Agio)"},
+                         "gewinnreserve": {**N, "description": "nur gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) – ohne Aufwertungsreserve und Reserve für "
+                                                               "eigene Kapitalanteile (diese in reserve_voll)"},
                          "freiwillige_reserven": N, "vortrag": {**N, "description": "Gewinn-/Verlustvortrag (Verlust negativ)"},
                          "jahresergebnis": {**N, "description": "Jahresgewinn/-verlust (Verlust negativ)"}, "eigene_aktien": {**N, "description": "Betrag eigene Aktien (wird abgezogen)"},
                          "holding": {"type": "boolean"}, "rangruecktritt": N, "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
                          "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"},
                          "reserve_voll": {**N, "description": "gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und Aufwertungsreserve "
                                                              "(OR 725c) – ohne 50-%-Grenze; nicht zusätzlich in gewinnreserve"},
-                         "covid_kredit": {**N, "description": "Covid-19-Kredit (Art. 3 Covid-19-SBüV): zählt nicht als Fremdkapital (Art. 24 Covid-19-SBüG)"}},
+                         "covid_kredit": {**N, "description": "nur der nach Art. 3 Covid-19-SBüV verbürgte Kredit bzw. Darlehen/Kredit nach Art. 21 HFMV 20: "
+                                                              "kein Fremdkapital (Art. 24 Covid-19-SBüG; HWP ER Rz 373); andere Kredite bleiben "
+                                                              "Fremdkapital; verbindlichkeiten wie in der Bilanz eingeben"}},
                         ["aktienkapital"])},
     {"name": "revisionspflicht", "fn": lambda a: rv.revisionspflicht(a["bilanzsumme"], a["umsatz"], a["vollzeitstellen"], a.get("vj_bilanzsumme"), a.get("vj_umsatz"), a.get("vj_vollzeitstellen")),
      "description": "Rechenhilfe OR 727/727a: ordentliche oder eingeschränkte Revision nach Grössen (Bilanzsumme, Umsatz in CHF, Vollzeitstellen; "
@@ -102,10 +115,12 @@ TOOLS = [
      "description": "Fragen an den Kunden eines Prüffelds (z.B. C1) – der Agent befragt nie selbst: Antwort aus 10.11/Protokollen auswerten, sonst Pendenz. "
                     "Ohne Prüffeld: Übersicht.",
      "inputSchema": obj({"prueffeld": S}, [])},
-    {"name": "thema", "fn": lambda a: rv.thema(a["begriff"]),
-     "description": "Themenseite mit Zitaten (z.B. Rangrücktritt, Hinweispflichten, Unabhängigkeit, Vollständigkeitserklärung, nahestehende "
-                    "Personen, stille Reserven, Going Concern, Ereignisse nach dem Bilanzstichtag, Delkredere, verdecktes Eigenkapital).",
-     "inputSchema": obj({"begriff": S}, ["begriff"])},
+    {"name": "thema", "fn": lambda a: rv.thema(a["begriff"], bool(a.get("voll"))),
+     "description": "Themenseite: zuerst «Für den Agenten» (Vorgehen, nummeriert) und «Nächste Aufrufe», dann Fundstellen (gekürzt, je mit "
+                    "^[chunk-id]). Themen z.B. Rangrücktritt, Kapitalverlust, Hinweispflichten, Unabhängigkeit, Vollständigkeitserklärung, "
+                    "nahestehende Personen, stille Reserven, Going Concern, Ereignisse nach dem Bilanzstichtag, Delkredere, verdecktes Eigenkapital, "
+                    "MWST/Sozialversicherungen. voll=true: alle Aussagen ungekürzt.",
+     "inputSchema": obj({"begriff": S, "voll": {"type": "boolean", "description": "true = alle Aussagen ungekürzt"}}, ["begriff"])},
     {"name": "suche", "fn": lambda a: rv.suche(a["query"], a.get("quelle"), a.get("typ"), int(a.get("n") or 8)),
      "description": "Volltextsuche in allen Quellen (OR, SER, HWP ER, HWP BuR, Q&A, Muster, ESTV, Fachliteratur, Konzept). quelle = Präfix "
                     "(or, ser-2022, ser-2022__anh-d, hwp-er-2026, hwp-bur-2023, qa-kapitalverlust, muster-hwp-er-2026, estv, konzept, "

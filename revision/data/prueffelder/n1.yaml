@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 14
     korrigiert: true
-kurzbeschrieb: 'Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypothekardarlehen, Aktionärs- und Konzerndarlehen, Darlehen mit Rangrücktritt) inkl. Zinsen.
-  Eingeschränkte Revision: Befragungen (Covenants, Sicherheiten, Fristigkeit, Nahestehende), Zinsplausibilisierung, Detailprüfungen (Abstimmung, Verträge, Zinsabgrenzung, verdecktes
-  EK, Anhang); Rangrücktritte weiter gehend.'
+kurzbeschrieb: 'Langfristige Verbindlichkeiten (Bank-, Hypothekar-, Aktionärs-, Konzern-, Rangrücktrittsdarlehen) inkl. Zinsen. ER: Befragungen (Covenants, Sicherheiten, Fristigkeit,
+  Nahestehende), Zinsplausibilisierung, Abstimmung, Verträge, Marchzins, verdecktes EK, Anhang; Rangrücktritte weiter gehend (WP).'
 gesetz:
 - thema: Ansatz von Verbindlichkeiten als Fremdkapital (Art. 959 Abs. 5 OR)
   quelle: or__art-959
@@ -172,7 +171,8 @@ unterlagen:
   zweck: Konditionen, Fälligkeit, Sicherheiten, Covenants (N1-101 bis N1-103, N1-302)
   quelle: ser-2022__anh-d-s085-1
   zitat: Einsicht in Kredit- und Darlehensverträge
-- dokument: Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12.
+- dokument: 'Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12. – Praxis/intern: oft im
+    Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen'
   zweck: Bestandesnachweis je Darlehen (N1-301 a/b)
   quelle: hwp-bur-2023__rz-0485-s256
   zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
@@ -228,6 +228,15 @@ unterlagen:
   zweck: Schriftliche Bestätigung der Befragungsergebnisse
   quelle: ser-2022__anh-e-s111-1
   zitat: der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen (Art. 959a Abs. 4 OR) ist vollständig und richtig
+- dokument: Hauptbuch-Kontoblätter GJ aller Darlehens- und Rangrücktrittskonten sowie der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto)
+  zweck: Abstimmung, Saldoentwicklung, Zinsplausibilisierung und -abgrenzung, Tilgung/Verrechnung von RR-Forderungen (N1-201, N1-301, N1-303, N1-403)
+  quelle: ser-2022__anh-d-s085-1
+  zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
+- dokument: Rangrücktrittsvereinbarungen früherer Jahre aus Vorjahresakte bzw. Dauerakte (unbefristet, gelten bis zur Aufhebung weiter) sowie Feststellungen und Hinweise «im Folgejahr»
+    der Vorjahresprüfung
+  zweck: Vollständige Σ der Rangrücktritte für die Deckungsrechnung (P1-313); Nachverfolgung Vorjahrespunkte (N1-105, N1-401)
+  quelle: hwp-er-2026__rz-0414-s123
+  zitat: Er darf an keine Bedingungen geknüpft sein, die einer zeitlichen Beschränkung oder einer Kündigung vor einer nachhaltigen Beseitigung der Überschuldung gleichzusetzen sind.
 bewertung:
 - regel: Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert.
   quelle: hwp-bur-2023__rz-0486-s256
@@ -444,6 +453,19 @@ fallstricke:
     Einbuchung gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber ist unzulässig → Notiz «Wesentliche Feststellungen».'
   quelle: hwp-bur-2023__rz-0721-s307
   zitat: Nicht zulässig ist daher die rückwirkende Einbuchung eines Passivdarlehens unter Rangrücktritt gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber oder der Darlehensgeberin.
+- text: 'Rangrücktritt: Für die Deckung zählt der Betrag laut unterzeichneter Vereinbarung (inkl. Zinsen), nicht der Darlehenssaldo und nicht die Anhangangabe; Anhang ↔ Vereinbarung
+    abgleichen (N1-320), Deckung in P1-313 rechnen.'
+  quelle: hwp-er-2026__rz-0410-s123
+  zitat: Die Revisionsstelle vermag nur einen schriftlichen Rangrücktritt zu beurteilen.
+- text: 'RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht – die Verbindlichkeit bleibt in voller Höhe Fremdkapital; nie einen
+    Buchungsvorschlag auf das Darlehen ableiten. Reduktion während Überschuldung ohne die drei Voraussetzungen (HWP ER Rz 425) → «Wesentliche Feststellungen» + «Schlussbesprechung» (N1-105,
+    N1-401).'
+  quelle: hwp-er-2026__rz-0423-s125-t1
+  zitat: Er bewirkt auch keine Veränderung der Forderung, ausser, dass sie gestundet und damit einredebelastet wird.
+- text: 'Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen;
+    Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303).'
+  quelle: hwp-bur-2023__rz-0048-s066
+  zitat: Der Grundsatz der zeitlichen Abgrenzung verlangt, dass Aufwand und Ertrag, die zeitraumbezogen anfallen (z.B. Zinsen, Miete), auch entsprechend abgegrenzt und erfasst werden.
 fragen_kunde:
 - frage: 'Wurden im Geschäftsjahr oder bis heute Bestimmungen von Kredit-/Darlehensverträgen (Covenants/Kennzahlen, Amortisationen, Zinszahlungen, Verwendungszweck) nicht eingehalten?
     Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor (Datum)?'
@@ -641,7 +663,8 @@ schritte:
     «Schlussbesprechung» bzw. «Pendenz», Rangrücktrittsvereinbarungen, Kontoblätter und Zwischenabschlüsse als Beilage. Mit Anweisung (weiter gehende Prüfungshandlung, SER Anh. D, als
     «Vorbereitung für WP» kennzeichnen): schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen) auswerten; fehlt sie:
     Frage als Pendenz. Mit Vereinbarungen (N1-401) und geprüften Zwischenabschlüssen abgleichen. Bonitätsnachweise zusammenstellen; Bonitätsbeurteilung als Pendenz an den WP (kein eigenes
-    Urteil).'
+    Urteil). Ohne Anweisung trotzdem lesen (Praxis/intern): alle Rangrücktrittsvereinbarungen aus GJ-, VJ- und Dauerakte mit Gläubiger, Betrag laut Vereinbarung, Datum und Zinsklausel
+    auflisten (Beilage zur Notiz) und die Σ an P1-313 übergeben; dort `kapitalverlust … --rangruecktritt <Σ>` gegen die Überschuldung rechnen.'
   nachweise:
   - Antwort GL/VR zu Rangrücktritten
   - Rangrücktrittsvereinbarungen
@@ -699,6 +722,8 @@ schritte:
     zitat: gilt bis zum 31. Dezember 2032
   - quelle: hwp-er-2026__rz-0373-s113
     zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung 2020 (Art. 21 HFMV 20).
+  - quelle: hwp-er-2026__rz-0410-s123
+    zitat: Die Revisionsstelle vermag nur einen schriftlichen Rangrücktritt zu beurteilen.
 - id: N1-201
   vorgehen: Erwartungswert Zinsaufwand je Darlehen bilden (Saldo bzw. zeitgewichteter Saldo ab Auszahlung/Amortisation × Vertragszins) und mit gebuchtem Zinsaufwand vergleichen. Abweichungen
     über der tolerierbaren Abweichung (= Toleranzwesentlichkeit 3.3, lesen mit `revio K3`; tieferer Wert nur auf Vorgabe WP) klären (fehlende Abgrenzung, Gebühren, Zinsen unter Rangrücktritt).
@@ -707,8 +732,9 @@ schritte:
   - Darlehensspiegel mit Zinssätzen
   - Kontoblatt Zinsaufwand
   - Verträge (Zinssatz, Auszahlungsdatum)
-  rechnen: Erwarteter Zins = Σ (Saldo × Zinssatz × Laufzeit im Jahr ab Auszahlung bzw. bis Amortisation); Abweichung = gebuchter Zinsaufwand – Erwartungswert ≤ tolerierbare Abweichung
-    (Toleranzwesentlichkeit 3.3, `revio K3`)
+  rechnen: 'Erwarteter Zins = Σ (Saldo × Zinssatz × Laufzeit im Jahr ab Auszahlung bzw. bis Amortisation); Abweichung = gebuchter Zinsaufwand – Erwartungswert ≤ tolerierbare Abweichung
+    (Toleranzwesentlichkeit 3.3, `revio K3`); Laufzeit nie im Kopf zählen, immer `rechne`: Beispiel `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.03.2025); saldo *
+    satz * m / 12"` (Auszahlung 31.03. → 9 ganze Monate); taggenau `tage(spaeter, frueher)`, 30/360 `tage360(spaeter, frueher)`.'
   feststellung_wenn: Abweichung zwischen Erwartungswert und gebuchtem Zinsaufwand über der tolerierbaren Abweichung (Toleranzwesentlichkeit 3.3, `revio K3`) und nicht erklärbar.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -764,7 +790,9 @@ schritte:
     zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
 - id: N1-303
   vorgehen: 'Zinsabgrenzungsberechnung des Kunden einsehen bzw. nachrechnen: aufgelaufene, per Stichtag unbezahlte Zinsen je Darlehen gemäss vertraglichen Zinsterminen. Mit passiven
-    Rechnungsabgrenzungen bzw. Zinsverbindlichkeiten abstimmen; Ausweis von Zinsen auf RR-Forderungen (unter Rangrücktritt) beachten.'
+    Rechnungsabgrenzungen bzw. Zinsverbindlichkeiten abstimmen; Ausweis von Zinsen auf RR-Forderungen (unter Rangrücktritt) beachten. Gegenbuchung der Zins-Abschlussbuchung im Kontoblatt
+    Zinsaufwand nachsehen: aufgelaufener Zins gehört in die passive Rechnungsabgrenzung bzw. Zinsverbindlichkeit; wurde er dem Darlehenskonto gutgeschrieben (kapitalisiert), Vertrag
+    prüfen (Kapitalisierung vereinbart?). Derselbe Betrag ergibt nur eine Feststellung (Ausweis), nicht zusätzlich «nicht abgegrenzt» (Praxis/intern).'
   nachweise:
   - Zinsabgrenzungsberechnung
   - Verträge (Zinstermine, Zinsusanz)
@@ -781,6 +809,12 @@ schritte:
     zitat: Der Zinsendienst wird durch den Rangrücktritt nicht unterbrochen, jedoch müssen die Zinsen ebenfalls dem Rangrücktritt unterliegen
   - quelle: hwp-er-2026__rz-0053-s189
     zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
+  - quelle: hwp-bur-2023__rz-0257-s215
+    zitat: wie beispielsweise Darlehens- und Hypothekenzinsen
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: Marchzins fehlt oder Differenz ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (Zinsaufwand an passive Rechnungsabgrenzung; ohne Verbuchung). Differenz
+    < Nichtaufgriffsgrenze → nur im Textfeld protokollieren. Zinsabgrenzungsberechnung, Vertrag oder Zinsabrechnung nicht gefunden → «Pendenz» (Konto, Datum, Betrag, durchsuchte Ordner).
 - id: N1-304
   vorgehen: 'Bei Darlehen Beteiligter/Nahestehender oder von ihnen sichergestellten Drittkrediten: zulässiges Fremdkapital nach ESTV-KS 6a berechnen (Verkehrswerte Ende Steuerperiode,
     mangels Nachweis Buchwerte) und mit dem Fremdkapital vergleichen. Zinssatz mit den ESTV-Höchstsätzen des Geschäftsjahres vergleichen: `wert zins beteiligte <GJ>` (z.B. `wert zins

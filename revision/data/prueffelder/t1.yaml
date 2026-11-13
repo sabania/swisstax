@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 18
     korrigiert: true
-kurzbeschrieb: Prüffeld T1 umfasst den Anhang der Jahresrechnung (Art. 959c OR und weitere gesetzliche Angaben). In der eingeschränkten Revision werden offenlegungspflichtige Sachverhalte
-  durch Befragungen (SER Anhang D Bst. u) erhoben und durch Detailprüfungen beurteilt, ob der Anhang vollständig, richtig und mit Bilanz/Erfolgsrechnung abgestimmt ist. Bank- und Anwaltsbestätigungen
-  werden nicht eingeholt.
+kurzbeschrieb: 'Anhang der Jahresrechnung (Art. 959c OR und weitere gesetzliche Angaben). Offenlegungspflichtige Sachverhalte über Befragungen (SER Anhang D Bst. u) erheben; Detailprüfung:
+  Anhang vollständig, richtig, mit Bilanz/ER und Grundlagen abgestimmt. Bank- und Anwaltsbestätigungen werden nicht eingeholt.'
 gesetz:
 - thema: Zweck und Inhalt des Anhangs (Art. 959c Abs. 1 OR)
   quelle: or__art-959c-t1
@@ -489,6 +488,33 @@ fallstricke:
   zitat: Sie wird idealerweise nicht erst gegen Ende des Prüfungsprozesses, sondern bereits zu einem früheren Zeitpunkt vorgenommen
 - text: 'Praxis/intern: Katalogschritt T1-173 hat keinen Text; T1-319 hat Kennzeichnung «?» und keine Prüfziele – zuerst in revio nachlesen; Inhalt bzw. Zuordnung einmalig durch WP/consis
     bestätigen lassen (keine Pendenz je Mandat).'
+- text: 'Anhangziffer je Sachverhalt: Ziff. 8 = Sicherheiten für Verbindlichkeiten Dritter (volle Haftungssumme); Ziff. 9 = eigene Aktiven zur Sicherung eigener Verbindlichkeiten bzw.
+    unter Eigentumsvorbehalt; Ziff. 10 = Eventualverbindlichkeiten (z.B. Prozessrisiken, Solidarhaftungen, weiche Patronatserklärungen). Bankgarantien für eigene Verpflichtungen gehören
+    nicht zu Ziff. 8 – Ziff. 10 prüfen, Entscheid WP.'
+  quelle: hwp-bur-2023__rz-0850-s350
+  zitat: sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 10 OR)
+  schritte:
+  - T1-105
+  - T1-106
+  - T1-107
+  fundstellen:
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
+  - quelle: hwp-bur-2023__rz-0842-s348
+    zitat: Erfüllungsgarantien für eigenes Handeln zugunsten Dritter stellen keine Sicherungsverpflichtungen im Sinne des Gesetzes dar.
+  - quelle: hwp-bur-2023__rz-0839-s346
+    zitat: Der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten ist im Anhang anzugeben (Art. 959c Abs. 2 Ziff. 8 OR).
+- text: 'Anhangsbeträge gegen die Grundlagen abstimmen, nicht umgekehrt: Rangrücktritte gegen unterzeichnete Vereinbarungen, Sicherheiten gegen Verträge/Bankunterlagen, Leasing gegen
+    Verträge. Eine Anhangsangabe ist kein Nachweis.'
+  quelle: ser-2022__anh-d-s085-2
+  zitat: Einsicht in Rangrücktrittsvereinbarungen
+  schritte:
+  - T1-303
+  - T1-315
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
 fragen_kunde:
 - frage: Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss, auch nicht als Beteiligung gebuchte Anteile)? Bitte Liste
     mit Firma, Rechtsform, Sitz, Kapital- und Stimmanteil sowie Halteabsicht.
@@ -686,7 +712,8 @@ schritte:
   vorgehen: 'Zuerst schriftliche Antwort zu Bürgschaften, Garantien, Pfandbestellungen und Patronatserklärungen zugunsten Dritter (Bestand, Veränderung) suchen und auswerten (10.11 Kundenbefragung,
     nur userSubmitted; Vollständigkeitserklärung; VR-/GV-Protokolle); nur wenn keine vorliegt: Notiz «Pendenz» mit der Frage (Wortlaut: Vorlage in `pruefschritt` bzw. `fragen T1`). Vorhandene
     Bankunterlagen, Verträge und VR-Protokolle durchsehen; keine Bankbestätigung einholen (nur auf Anweisung WP). Abgrenzung zu Garantien für eigenes Handeln festhalten, WP vorlegen.
-    Volle Haftungssummen mit Anhang vergleichen.'
+    Volle Haftungssummen mit Anhang vergleichen. Ziffer je Sachverhalt bestimmen: Sicherheit für fremde Schuld → Ziff. 8; Garantie für eigenes Handeln bzw. Bankgarantie für eine eigene
+    Verpflichtung → nicht Ziff. 8, Offenlegung als Eventualverbindlichkeit (Ziff. 10, T1-107) prüfen; Entscheid WP.'
   nachweise:
   - Schriftliche Antwort VR/GF
   - Vorhandene Bankunterlagen/-bestätigungen (M-Files)
@@ -721,6 +748,8 @@ schritte:
     zitat: Kein Einholen von Bankbestätigungen vorgesehen
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: hwp-bur-2023__rz-0850-s350
+    zitat: sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 10 OR)
 - id: T1-106
   vorgehen: 'Zuerst schriftliche Antwort zu verpfändeten/abgetretenen Aktiven, Sicherheitsleistungen (z.B. Bardepots, Kautionen) und Aktiven unter Eigentumsvorbehalt suchen und auswerten
     (10.11 Kundenbefragung, nur userSubmitted; Vollständigkeitserklärung; VR-/GV-Protokolle); nur wenn keine vorliegt: Notiz «Pendenz» mit der Frage (Wortlaut: Vorlage in `pruefschritt`
@@ -759,7 +788,9 @@ schritte:
   vorgehen: 'Zuerst schriftliche Antwort zu Rechtsfällen, Gewährleistungsrisiken, Konventionalstrafen und Solidarhaftungen (MWST-Gruppe, einfache Gesellschaft/ARGE) suchen und auswerten
     (10.11 Kundenbefragung, nur userSubmitted; Vollständigkeitserklärung; VR-/GV-Protokolle); nur wenn keine vorliegt: Notiz «Pendenz» mit der Frage (Wortlaut: Vorlage in `pruefschritt`
     bzw. `fragen T1`). Aktennotizen, vorhandene Anwaltskorrespondenz (M-Files), Rückstellungsspiegel und Konten in neuer Rechnung durchsehen; keine Anwaltsbestätigung einholen (nur auf
-    Anweisung WP). Je Sachverhalt: Rückstellung (wahrscheinlich, schätzbar) oder Anhangsangabe; Beurteilung dem WP vorlegen.'
+    Anweisung WP). Je Sachverhalt: Rückstellung (wahrscheinlich, schätzbar) oder Anhangsangabe; Beurteilung dem WP vorlegen. Auch Bankunterlagen/vorhandene Bankbestätigungen auf Garantien
+    und Verpflichtungen durchsehen (Übergabe aus B1-320/T1-105). Ziff. 10 erfasst rechtliche oder tatsächliche Verpflichtungen mit unwahrscheinlichem oder nicht verlässlich schätzbarem
+    Mittelabfluss.'
   nachweise:
   - Schriftliche Antwort VR/GF, Vollständigkeitserklärung
   - Aktennotizen, vorhandene Anwaltskorrespondenz
@@ -798,6 +829,10 @@ schritte:
     zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: hwp-bur-2023__rz-0850-s350
+    zitat: sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 10 OR)
+  - quelle: hwp-bur-2023__rz-0842-s348
+    zitat: Erfüllungsgarantien für eigenes Handeln zugunsten Dritter stellen keine Sicherungsverpflichtungen im Sinne des Gesetzes dar.
 - id: T1-108
   vorgehen: 'Zuerst schriftliche Antwort zu im Geschäftsjahr an VR, Geschäftsleitung oder Mitarbeitende zugeteilten Aktien/Optionen suchen und auswerten (10.11 Kundenbefragung, nur userSubmitted;
     Vollständigkeitserklärung; VR-/GV-Protokolle); nur wenn keine vorliegt: Notiz «Pendenz» mit der Frage (Wortlaut: Vorlage in `pruefschritt` bzw. `fragen T1`). Aktienbuch, Lohnunterlagen
@@ -923,8 +958,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: T1-301
-  vorgehen: 'Anhang der definitiven Jahresrechnung (M-Files/revio 1.1) gegen Gliederung Art. 959c OR prüfen: Hinweis auf Rechnungslegungsrecht, angewandte Grundsätze, Erläuterungen zu
-    Bilanz/ER, Nettoauflösung stiller Reserven, weitere gesetzliche Angaben, Pflichtangaben Abs. 2 inkl. Firma/Rechtsform/Sitz (genügt auch im Titel oder in Kopf-/Fusszeile) und Vorjahresangaben.
+  vorgehen: 'Zuerst die JR-Datei bis zum Ende lesen: Anhang, Antrag über die Verwendung des Bilanzergebnisses und Datum/Unterschrift stehen meist am Schluss; bei gekappter Ausgabe weiterlesen
+    (Praxis/intern). Anhang der definitiven Jahresrechnung (M-Files/revio 1.1) gegen Gliederung Art. 959c OR prüfen: Hinweis auf Rechnungslegungsrecht, angewandte Grundsätze, Erläuterungen
+    zu Bilanz/ER, Nettoauflösung stiller Reserven, weitere gesetzliche Angaben, Pflichtangaben Abs. 2 inkl. Firma/Rechtsform/Sitz (genügt auch im Titel oder in Kopf-/Fusszeile) und Vorjahresangaben.
     Checkliste «vorhanden/nicht zutreffend/fehlt» im Textfeld. Fehlt der Anhang: nur zulässig bei Einzelunternehmen/Personengesellschaften, die nicht nach den Vorschriften für grössere
     Unternehmen rechnungslegungspflichtig sind; dann die von der Mindestgliederung verlangten Zusatzangaben direkt in Bilanz/ER prüfen.'
   nachweise:
@@ -992,7 +1028,7 @@ schritte:
   vorgehen: 'Anhangsangabe mit Personalliste, Lohnjournal und AHV-Jahreslohnmeldung plausibilisieren: Jahresdurchschnitt aus Monats- oder Quartalsendbeständen, Teilzeit anteilig, Auszubildende
     üblicherweise als Teilzeit, nur Mitarbeitende mit Arbeitsvertrag beim Unternehmen. Vorjahresangabe vergleichen; Bedeutung der Schwellen für den WP vermerken (10 = Opting-out, 50
     = Kriterium Vereine, 250 = Kriterium ordentliche Revision). Katalog/SER «weniger als 10» weicht vom Gesetz ab: massgebend ist Art. 959c Abs. 2 Ziff. 2 OR «nicht über 10» (genau 10,0
-    = nicht über 10).'
+    = nicht über 10). Vorjahresangabe aus VJ-Jahresrechnung bzw. VJ-Akte übernehmen, nie schätzen; nicht gefunden → «nicht gefunden in <Ordner>» und Pendenz.'
   nachweise:
   - Personalliste/Lohnjournal mit Pensen, Ein- und Austritten
   - AHV-Jahreslohnmeldung
@@ -1017,6 +1053,8 @@ schritte:
     zitat: '50 Vollzeitstellen im Jahresdurchschnitt: eines von drei Kriterien bei Vereinen für die Beurteilung, ob die Vereinsrechnung ordentlich geprüft werden muss (Art. 69b ZGB)'
   - quelle: zgb__art-69b
     zitat: 50 Vollzeitstellen im Jahresdurchschnitt.
+  - quelle: konzept-ki-revisionsagent-2026__c005-1
+    zitat: fehlende Daten dürfen nicht erfunden werden
 - id: T1-305
   vorgehen: 'Veränderung der stillen Reserven aus T1-111 übernehmen. Bei Nettoauflösung mit dem bereinigten Jahresergebnis (vor Auflösung) vergleichen und immer kennzeichnen, wenn die
     Auflösung einen Verlust in einen Gewinn dreht; Beurteilung im Einzelfall. Falls offenlegungspflichtig: Nettobetrag mit Anhang abgleichen. Zwangs- und Schwankungsreserven ausklammern;
@@ -1167,9 +1205,10 @@ schritte:
   - quelle: hwp-bur-2023__rz-0800-s330-t1
     zitat: im Zweifelsfall als Teil des ordentlichen bzw. betrieblichen Ergebnisses zu klassifizieren sein wird
 - id: T1-315
-  vorgehen: Nahestehende über schriftliche Antwort/Vollständigkeitserklärung, Aktienbuch, HR-Auszug und GV-/VR-Protokolle identifizieren. Forderungen und Verbindlichkeiten gegenüber
+  vorgehen: 'Nahestehende über schriftliche Antwort/Vollständigkeitserklärung, Aktienbuch, HR-Auszug und GV-/VR-Protokolle identifizieren. Forderungen und Verbindlichkeiten gegenüber
     Beteiligten, Organen und Beteiligungsgesellschaften aus Saldoliste und Darlehensverträgen erheben; prüfen, ob sie in Bilanz oder Anhang gesondert ausgewiesen sind und Beträge (inkl.
-    Zinsen, Vorjahr) stimmen. Rangrücktritte (Betrag, Umfang) mit Vereinbarungen abgleichen.
+    Zinsen, Vorjahr) stimmen. Rangrücktritte: Betrag je Gläubiger aus der unterzeichneten Vereinbarung (nicht aus dem Anhang) summieren und mit der Anhangsangabe vergleichen; im Anhang
+    genannter Rangrücktritt ohne Vereinbarung → Pendenz.'
   nachweise:
   - Saldoliste/Hauptbuch
   - Darlehensverträge, Rangrücktrittsvereinbarungen
@@ -1177,7 +1216,8 @@ schritte:
   - Anhang
   - Vollständigkeitserklärung (nahestehende Personen)
   rechnen: Summe Konten ggü. Beteiligten/Organen/Beteiligungen = gesonderter Ausweis Bilanz + Anhang; Summe Rangrücktritte gemäss Vereinbarungen vs. Anhang
-  feststellung_wenn: Position ggü. Beteiligten/Organen/Beteiligungen weder in Bilanz noch Anhang gesondert; Betrags- oder Vorjahresdifferenz; Rangrücktritt nicht erläutert.
+  feststellung_wenn: Position ggü. Beteiligten/Organen/Beteiligungen weder in Bilanz noch Anhang gesondert; Betrags- oder Vorjahresdifferenz; Rangrücktritt nicht erläutert. Σ Rangrücktritte
+    laut Anhang ≠ Σ laut unterzeichneten Vereinbarungen.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-3
     zitat: Sind Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten
@@ -1189,6 +1229,8 @@ schritte:
     zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
   - quelle: ser-2022__anh-e-s103-2
     zitat: der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen (Art. 959a Abs. 4 OR) ist vollständig und richtig.
+  - quelle: ser-2022__anh-d-s085-2
+    zitat: Einsicht in Rangrücktrittsvereinbarungen
 - id: T1-316
   vorgehen: 'Feststellen, ob die Erfolgsrechnung als Absatzerfolgsrechnung (Umsatzkostenverfahren) gegliedert ist. Falls ja: Personalaufwand sowie Abschreibungen und Wertberichtigungen
     auf Anlagevermögen im Anhang mit Personalkonten und Anlagespiegel abstimmen. Bei Produktionserfolgsrechnung «nicht zutreffend» dokumentieren.'

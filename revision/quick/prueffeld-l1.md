@@ -3,14 +3,17 @@ typ: prueffeld
 titel: Prüffeld L1 Kurzfristige verzinsliche Verbindlichkeiten – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
+- treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 92ee1f96510e01f0bbbd2a95022fe711c208d59765a92ffcbde6f4fe5495a5e4
 ---
 
 
@@ -18,7 +21,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 23 Schritte (Befragung 5, Analytisch 1, Detail 6, Sonstige 11; EP 8, WP 2) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/l1.md](../wiki/prueffelder/l1.md)
 
-Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR): Bankkontokorrente, Festvorschüsse, kurzfristige Darlehen; innert 12 Monaten fällig: Amortisationen und verzinsliche Darlehen Nahestehender. ER: Bestand, Gliederung, Covenants, Zinsen/Abgrenzung, Sicherheiten, Anhang; langfristige Rangrücktrittsdarlehen nur für Befragung und Ausweis (L1-104, L1-105, L1-304).
+Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR): Bankkontokorrente, Festvorschüsse, kurzfristige Darlehen, fällige Amortisationen. ER: Bestand, Gliederung, Covenants, Zinsen/Abgrenzung, Sicherheiten, Nahestehende, Anhang; Rangrücktritte L1-105/L1-304 (WP).
 
 ## Risiken
 - Unvollständigkeit: nicht gebuchte Bankkredite, Festvorschüsse oder Darlehen; Bilanzsaldo nicht durch Aufstellung, Auszug oder Vertrag per 31.12. belegt. [EX, VO] — [SER S. 85](../chunks/ser-2022/ser-2022__anh-d-s085-1.md)
@@ -27,7 +30,7 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Falsche Gliederung: innert 12 Monaten fällige Amortisationen oder kurzfristig kündbare Kredite unter langfristigem Fremdkapital. [DO] — [HWP BuR S. 253](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0463-s253.md)
 - Falsche Gliederung: verzinsliche Darlehen (z.B. Aktionärsdarlehen) unter übrigen (unverzinslichen) Verbindlichkeiten statt separat als verzinsliche Verbindlichkeiten. [DO] — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0489-s257.md)
 - Fehlende oder falsche Zinsabgrenzung (Marchzinsen per 31.12.), Zinsaufwand in falscher Periode oder auf falschem Konto. [PA, VO, RI] — [HWP BuR S. 215](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0257-s215.md)
-- Verbindlichkeiten gegenüber Aktionären, Organen oder Nahestehenden nicht gesondert ausgewiesen; übersetzte Zinsen an Beteiligte (geldwerte Leistung, Verrechnungssteuer; Satz des Steuerjahres 2025 fehlt im Wiki). [DO, BE] — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
+- Verbindlichkeiten gegenüber Aktionären, Organen oder Nahestehenden nicht gesondert ausgewiesen; übersetzte Zinsen an Beteiligte (geldwerte Leistung, Art. 20 Abs. 1 VStV, vstv__art-20; Verrechnungssteuer; Sätze 2025: `wert estv_zins_2025`, Sekundärquelle). [DO, BE] — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
 - Sicherheiten (Pfand, Globalzession, verpfändete Konten) zugunsten der Kreditgeber im Anhang nicht oder mit falschem Betrag offengelegt. [DO, RV] — [HWP BuR S. 348](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0843-s348.md)
 - Rangrücktritt qualitativ oder quantitativ ungenügend: nicht schriftlich, Zinsen/Stundung nicht erfasst, befristet, Aufhebung nicht an genügenden Ersatz oder SA-CH-geprüften (Zwischen-)Abschluss gebunden, reduziert, Gläubiger ohne genügende Bonität, Deckung nur an der Jahresrechnung statt am Zwischenabschluss gemessen. [DO, RV] — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0432-s127.md)
 - Tilgung oder Verrechnung subordinierter Forderungen (inkl. Zinsen) während der Überschuldung, auch über Forderungen der Gesellschaft gegenüber dem Rangrücktrittsgläubiger (Verrechnungslage, mögliche Umgehung des Tilgungsverbots). [RV, DO] — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0415-s123-t2.md)
@@ -36,12 +39,14 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Offene Devisentermingeschäfte mit negativem Marktwert ohne Absicherungszweck nicht als Verbindlichkeit/Rückstellung erfasst. [BE, VO, DO] — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0075-s176-t2.md)
 - Liquiditätsengpass: grössere Kredite werden fällig ohne gelöste Folgefinanzierung, Kündigungen, ausgeschöpfte Limiten (Fortführungsfähigkeit, Ausweis); HWP ER rz-0191 ergänzend. [RV, DO] — [SER S. 138](../chunks/ser-2022/ser-2022__anh-g-s138-2.md)
 - Bankgarantien bzw. Eventualverbindlichkeiten gemäss Bankunterlagen im Anhang nicht offengelegt (Abgrenzung: Gesamtbeurteilung im Prüffeld Anhang). [DO] — [OR 959C](../chunks/or/or__art-959c-t2.md)
+- Covid-19-Kredit offen: Während der Solidarbürgschaft Dividenden/Tantiemen, Rückerstattung von Kapitaleinlagen, Darlehen an Aktionäre/Nahestehende gewährt bzw. deren Darlehen zurückbezahlt oder vorbestehende Kredite umgeschuldet (Art. 2 Abs. 2/3; vertraglich ausgeschlossen, Abs. 5) → Hinweis an WP (Art. 23). Vertragswidrige Verwendung ist Kündigungsgrund → Ausweis kurzfristig prüfen (hwp-bur-2023__rz-0463-s253). [RV, DO] — [Covid-19-SBüG 2](../chunks/covid-sbueg/covid-sbueg__art-2-t1.md)
 
 ## Bewertung / Bilanzierung
 - Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert — [HWP BuR S. 256](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0486-s256.md)
 - Verzinsliche Verbindlichkeiten separat bilanzieren; innert zwölf Monaten fällige Beträge als kurzfristig — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0489-s257.md)
 - Kurzfristige verzinsliche Verbindlichkeiten umfassen z.B. Bankkontokorrente und kurzfristige Darlehen — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0156-s192.md)
 - Innert eines Jahres fällige Amortisationsraten langfristiger Darlehen sind kurzfristig auszuweisen — [HWP BuR S. 253](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0463-s253.md)
+- Covid-19-Kredite innert acht Jahren amortisieren (Verlängerung höchstens auf zehn Jahre, Art. 3 Abs. 3); innert 12 Monaten fällige Raten gemäss Amortisationsplan kurzfristig ausweisen (hwp-bur-2023__rz-0463-s253, L1-103) — [Covid-19-SBüG 3](../chunks/covid-sbueg/covid-sbueg__art-3.md)
 - Covenant-Verletzung: Einhaltung bei Abschlusserstellung prüfen; sonst Umgliederung in kurzfristig — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0493-s257.md)
 - Waiver: Umgliederung nur «allenfalls» vermeidbar, wenn die Bank vor Erstellung des Abschlusses schriftlich bestätigt; ob sie entfällt, beurteilt der WP — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0493-s257.md)
 - Inhalt des Waivers: Verzicht der Bank trotz Verletzung auf die sofortige bzw. innert eines Jahres fällige Rückzahlung — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0493-s257.md)
@@ -71,10 +76,12 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten nach Art. 725b OR mit Prüfbericht (falls begründete Besorgnis der Überschuldung) – Massgebende Überschuldung für die Deckung durch Rangrücktritte; Bezugsgrösse bestimmt der WP (L1-105, L1-304)
 - Bei Ersatz/Reduktion eines Rangrücktritts: SA-CH-geprüfter (Zwischen-)Abschluss und schriftliche, begründete Darlegung des VR zu den nächsten zwölf Monaten – Voraussetzungen einer Reduktion dokumentieren, Beurteilung durch WP (L1-304)
 - Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – Grundlage für die Bonitätsbeurteilung durch den WP (L1-304)
-- Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle, Herkunft dokumentieren – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411)
+- Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle, Herkunft dokumentieren – Praxis/intern: oft im Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411)
 - Liquiditätsplanung/Finanzplan für mindestens zwölf Monate ab Bilanzstichtag – Liquiditätsentwicklung, Kreditlimiten, Fortführung (L1-406)
 - Liste offener Devisentermingeschäfte/Derivate per 31.12. mit Bankbewertung (Wiederbeschaffungswerte) und Zweck (Absicherung) – Bewertung offener Kontrakte (L1-411)
 - VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen von und an Nahestehende) – Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
+- Covid-19-Kreditvereinbarung, Amortisationsplan, aktuelle Zinsanzeige der Bank (nur falls ein Covid-19-Kredit besteht) – L1-103, L1-201 (Zinssatz aus der Bankanzeige, nicht 0,0 % aus Art. 4 Abs. 1: der Satz wird jährlich angepasst), L1-105/L1-304 (Abzug Art. 24)
+- Hauptbuch-Kontoblätter GJ aller Kredit-/Darlehenskonten und der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto) – Bestand, Bewegungen, Zinsplausibilisierung und -abgrenzung; Abschlussbuchungen (Zins, Umgliederung) erkennen (L1-201, L1-301, L1-302)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht eingehalten sind? Falls ja: welche Massnahmen, und liegt ein schriftlicher Waiver der Bank vor (Datum; Verzicht auf die sofortige bzw. innert eines Jahres fällige Rückzahlung)?
@@ -87,11 +94,11 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Gab es im Geschäftsjahr oder kurz nach dem Stichtag aussergewöhnliche Geldtransaktionen (grosse Bareinzahlungen, Zahlungen an/von Nahestehenden, kurzfristige Kreditrückführungen über den Stichtag, Überträge zwischen Banken)?
 - Welche Kreditlimiten bestehen je Bank, wie stark sind sie beansprucht, gibt es Kündigungen oder Limitenreduktionen, und liegt eine Liquiditätsplanung für mindestens zwölf Monate vor?
 - Waren per 31.12. Devisentermingeschäfte, Währungs-/Zinsswaps oder Optionen offen? Zu welchem Zweck (Absicherung) und mit welcher Bankbewertung?
+- Besteht ein Covid-19-Kredit (Art. 3 oder Art. 4 Covid-19-SBüV; Saldo 31.12., Amortisationsplan, Zinssatz)? Wurden seit der Auszahlung Dividenden/Tantiemen ausgeschüttet, Kapitaleinlagen zurückerstattet, Darlehen an Aktionäre/Nahestehende gewährt, Darlehen von Aktionären/Nahestehenden zurückbezahlt oder bestehende Kredite mit Covid-Mitteln abgelöst?
 
 ## Fallstricke
 - Eingeschränkte Revision: Die Revisionsstelle holt keine Bankbestätigungen ein (L1-401 nur mit beim Unternehmen vorhandenen Unterlagen bzw. nur auf Anweisung des WP). — [HWP ER S. 196](../chunks/hwp-er-2026/hwp-er-2026__rz-0095-s196.md)
-- Vom Unternehmen selbst eingeholte Bankbestätigungen dürfen als Prüfungsnachweis verwendet werden, auch wenn sie nicht direkt an die Revisionsstelle gingen. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
-- Liegen an die Revisionsstelle adressierte Bankbestätigungen vor (z.B. «auf Ersuchen des Kunden»), die Herkunft (wer hat angefragt, wann) dokumentieren; über die Verwendung als Nachweis entscheidet der WP.
+- Bestätigungen Dritter (Bank, Lieferant): verwendbar sind Bestätigungen, die das Unternehmen von sich aus bei der Abschlusserstellung eingeholt hat. An die Revisionsstelle adressiert oder «auf Ersuchen des Kunden»: Herkunft (wer hat angefragt, wann, Adressat) festhalten (Textfeld bzw. bei 4xx ohne Anweisung Notiz), Pendenz an WP – Verwendung entscheidet WP. Nie selbst anfordern. Praxis/intern: Inhalt trotzdem lesen; Abweichungen zu Hauptbuch/Aufstellung/Anhang immer als Hinweis-Notiz an WP, auch ohne Anweisung für 4xx (neue Information für die Risikobeurteilung, hwp-er-2026__rz-0269-s245). — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
 - Befragung allein genügt bei wesentlichen Positionen nicht; Antworten mit analytischen Prüfungen oder Detailprüfungen (Verträge, Auszüge) erhärten. — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
 - Keine repräsentativen Stichproben und keine Hochrechnung: Auswahl in L1-403/L1-408 bewusst und begründet (Toleranzwesentlichkeit, Risiko, Vorgabe WP). — [SER](../chunks/ser-2022/ser-2022__6-1-3.md)
 - Kurzfristiger Anteil langfristiger Darlehen (Amortisationen innert 12 Monaten) gehört in L1, nicht in die langfristigen verzinslichen Verbindlichkeiten. — [HWP BuR S. 356](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0875-s356.md)
@@ -109,10 +116,11 @@ Kurzfristige verzinsliche Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. b OR)
 - Reduktion eines Rangrücktritts grundsätzlich unzulässig; Ausnahme nur kumulativ: (a) SA-CH-geprüfter (Zwischen-)Abschluss zeigt, dass die Überschuldung mindestens im entsprechenden Umfang gesunken ist, (b) VR legt schriftlich und begründet dar, dass in den nächsten zwölf Monaten keine weiteren Verluste absehbar sind, (c) keine Benachteiligung anderer Rangrücktrittsgläubiger. — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
 - Bei einer Reduktion ohne schriftliche, begründete VR-Darlegung zu den nächsten zwölf Monaten ist Voraussetzung (b) nicht belegt (an WP). — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
 - Tilgung subordinierter Forderungen trotz andauernder Überschuldung: Hinweis nach Art. 729c OR und Auswirkung auf Prüfungsaussage durch WP beurteilen; deckt der reduzierte Rangrücktritt die Überschuldung nicht mehr, lebt die Anzeigepflicht wieder auf. — [HWP ER S. 128](../chunks/hwp-er-2026/hwp-er-2026__rz-0434-s128.md)
-- Steuerlich anerkannte Zinssätze gelten je Kalenderjahr: Für 2025 ist das ESTV-Rundschreiben 2025 massgebend; es fehlt im Wiki, Werte 2026 nicht übertragen; Hinweis an WP. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
-- Steuerlich, nicht handelsrechtlich: Schuldzinsen auf verdecktem Eigenkapital (z.B. Aktionärsdarlehen) werden dem Reingewinn hinzugerechnet – keine Bewertungsregel der Jahresrechnung, nur Hinweis an WP. — [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__3-1.md)
+- Steuerlich anerkannte Zinssätze gelten je Kalenderjahr: für Zinsen 2025 `wert estv_zins_2025` (Sekundärquelle Treuhand-Almanach; ESTV-Rundschreiben 2025 nicht im Wiki, Status ☑️ nennen); Werte 2026 nicht übertragen; nur Hinweis an WP (Steuerpraxis, keine handelsrechtliche Regel). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- Steuerlich, nicht handelsrechtlich: Schuldzinsen auf verdecktem Eigenkapital (z.B. Aktionärsdarlehen) gehören zum steuerbaren Gewinn (Art. 65 DBG; Aufrechnung/Ermittlung: KS 6a, estv-ks-6a-2024__3-1) – keine Bewertungsregel der Jahresrechnung, nur Hinweis an WP. — [DBG 65](../chunks/dbg/dbg__art-65.md)
 - Agentengrenze: Befragungen (1xx) kann der Agent nicht selbst führen (schriftliche Antwort auswerten oder Pendenz, höchstens «teilweise bearbeitet»); Sonstige Prüfungshandlungen (4xx) nur auf Anweisung; keine Buchung, Visum offen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
-- WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur Unterlagen zusammenstellen, keine Beurteilung. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
+- WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur auf ausdrückliche Anweisung des WP vorbereiten, sonst kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz; Beurteilung immer WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
+- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; Praxis/intern: Kontonummern (z.B. 4-stellig) in Saldoliste und Kontoblatt nie als Betrag lesen (L1-201, L1-302). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -123,12 +131,12 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | L1-102 | Befragung | EP | DO | teilweise | Befragung über Sicherheiten zugunsten von Darlehensgebern | Schriftliche Antwort zu Sicherheiten zugunsten der Kreditgeber auswerten (Grundpfand, verpfändete Konten/Depots, Globalzession, Sicherungsübereignung), sonst… |
 | L1-103 | Befragung | EP | DO | teilweise | Befragung zur Gliederung in langfristige und kurzfristige verzinsliche Verbindlichkeiten | Schriftliche Antwort zu Fälligkeiten und Verlängerungsabsichten auswerten, sonst Pendenz. Je Kredit aus Verträgen/Bankunterlagen Fälligkeitsübersicht… |
 | L1-104 | Befragung | EP | DO | teilweise | Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt… | Schriftliche Antwort zu Darlehen von Beteiligten, Organen und Nahestehenden auswerten, sonst Pendenz. Gläubiger mit Aktienbuch, Organen und Verträgen… |
-| L1-105 | Befragung | WP | DO | nur_mensch | Befragung zu Rangrücktritten | WP-Schritt; laut SER weiter gehende Prüfungshandlung, wegen Überschuldung angezeigt (Entscheid WP). Agent bereitet nur vor (offener Entscheid), beurteilt… |
+| L1-105 | Befragung | WP | DO | nur_mensch | Befragung zu Rangrücktritten | WP-Schritt, laut SER weiter gehend (bei Überschuldung angezeigt, Entscheid WP): Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis).… |
 | L1-201 | Analytisch | EP | VO PA | vorbereiten | Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint | Erwartungswert Zinsaufwand je Kredit aus Durchschnittssaldo (Anfangs-/Endsaldo bzw. Monatssalden) und Vertragszins ab Auszahlungsdatum berechnen; Summe mit… |
 | L1-301 | Detail | EP | EX VO | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und Auszügen | Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten (Gläubiger, Konto, Saldo) übernehmen oder aus Saldoliste erstellen; Summe mit Hauptbuch und… |
 | L1-302 | Detail | EP | PA RI | vorbereiten | Einsichtnahme in die Zinsabgrenzungsberechnung | Zinsabgrenzungsberechnung des Kunden einsehen (sonst Pendenz bzw. eigene Berechnung): aufgelaufener Zins vom letzten Zinstermin bis 31.12. je Kredit/Darlehen… |
 | L1-303 | Detail | EP | EX RV VO DO | vorbereiten | Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge | Kredit-, Rahmenkredit-, Festvorschuss-, Darlehens-, Pfand- und Zessionsverträge sowie Bankkorrespondenz (Geschäftsjahr und nach Stichtag) aus M-Files… |
-| L1-304 | Detail | WP | DO | nur_mensch | Einsichtnahme in Rangrücktrittsvereinbarungen | WP-Schritt, laut SER weiter gehend; Agent bereitet nur vor. Checkliste je Rangrücktritt: schriftlich, zweiseitig, Betrag inkl. Zinsen, Stundung, unbefristet… |
+| L1-304 | Detail | WP | DO | nur_mensch | Einsichtnahme in Rangrücktrittsvereinbarungen | WP-Schritt, laut SER weiter gehend: Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis); ohne Anweisung kein Eintrag im Textfeld… |
 | L1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf L1-bezogene Angaben prüfen: gesonderter Ausweis Nahestehende, Gesamtbetrag belastete Aktiven, Darlehen mit Rangrücktritt (gesondert, erkennbar)… |
 | L1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakte in M-Files mit mehrjährig gültigen Dokumenten ergänzen bzw. aktualisieren: Kredit-, Rahmenkredit- und Darlehensverträge, Pfand-/Zessionsverträge… |
 | L1-401 | Sonstige |  | EX RV VO BE DO | auf_anweisung | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Sonstige Prüfungshandlung, nur auf Anweisung. Keine Bankbestätigungen anfordern (laut SER nicht Bestandteil der eingeschränkten Revision). Vorhandene… |

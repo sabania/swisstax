@@ -6,11 +6,13 @@ quellen:
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
+- mwstg
 - or
 - qa-or-rechnungslegung-2026
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 417769204b10edb45175cb7efaaf8e4daba29faf8efadab47439f072b86e29f3
 ---
 
 
@@ -18,7 +20,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 36 Schritte (Befragung 6, Analytisch 8, Detail 15, Sonstige 7; EP 9, WP 7) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/c1.md](../wiki/prueffelder/c1.md)
 
-Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollständigkeit, Bewertung (Einzel- vor Pauschal-WB, Fremdwährung), Abgrenzung (Akonto, Bill-and-hold, Rückgaberecht, Gutschriften), Ausweis (Nahestehende, Habensalden, Zession/Factoring). SER: Befragung (Agent nur schriftlich), Analytik, Detailprüfungen; keine Debitorenbestätigungen; WP-/4xx-Schritte nur auf Anweisung.
+Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte (106, 208, 304–308) und 4xx nur auf Anweisung; keine Debitoren-/Bankbestätigungen einholen. Inhalt: Debitoren inkl. Delkredere (Einzel- vor Pauschal-WB), Erlöse, Abgrenzung, Fremdwährung, Nahestehende, Habensalden, Zession.
 
 ## Risiken
 - Ausgewiesene Forderungen bestehen nicht (bereits bezahlt, doppelt oder fiktiv erfasst). [EX, EN, RI] — [HWP ER S. 194](../chunks/hwp-er-2026/hwp-er-2026__rz-0080-s194.md)
@@ -40,22 +42,24 @@ Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollst
 - Ereignisse nach dem Stichtag (Konkurs eines Kunden, Gutschriften, Ausbuchungen) nicht im Abschluss berücksichtigt. [BE, PA] — [HWP BuR S. 354](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0864-s354.md)
 
 ## Bewertung / Bilanzierung
+- Delkredere: zuerst Einzelwertberichtigungen gefährdeter Forderungen, danach Pauschalwertberichtigung auf dem Rest. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0120-s186.md)
+- Nur Steuerpraxis, keine handelsrechtliche Bewertungsregel: Die ESTV-Pauschale deckt nur das allgemeine Kreditrisiko, d. h. die nach Einzelwertberichtigungen verbleibenden Ausfallrisiken; sie ersetzt keine Einzelwertberichtigung. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0437-s248.md)
+- Konkurs/Zahlungsunfähigkeit eines Schuldners nach dem Stichtag erfordert eine Wertberichtigung im abzuschliessenden Jahr. — [HWP BuR S. 354](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0864-s354.md)
+- SER: Monetäre Aktiven zum Nominalwert abzüglich angemessener Wertberichtigungen (Delkredere). — [SER](../chunks/ser-2022/ser-2022__4-3-5.md)
 - Forderungen aus L+L umfassen Ansprüche aus erbrachten und fakturierten betriebstypischen Lieferungen und Leistungen. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0108-s185.md)
 - Erfassung im Zeitpunkt der Rechnungstellung, sofern das Geschäft so weit abgewickelt ist, dass ein Anspruch auf Gegenleistung besteht. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0114-s185-t1.md)
 - Bei Handelswaren Umsatzerfassung mit Übergang von Nutzen und Gefahr. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
 - Lieferungen mit Rückgaberecht: Realisation erst bei Bezahlung bzw. Ablauf der Rückgabefrist; bis dahin keine Forderung, Ware bleibt in den Vorräten. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
 - Teilfakturen für erbrachte Leistungen sind Forderungen; Anzahlungsrechnungen ohne erbrachte Leistung werden erst bei Zahlung (als erhaltene Anzahlung, Fremdkapital) erfasst. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
 - Bewertung grundsätzlich zum Nominalwert. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0117-s186.md)
-- SER: Monetäre Aktiven zum Nominalwert abzüglich angemessener Wertberichtigungen (Delkredere). — [SER](../chunks/ser-2022/ser-2022__4-3-5.md)
-- Delkredere: zuerst Einzelwertberichtigungen gefährdeter Forderungen, danach Pauschalwertberichtigung auf dem Rest. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0120-s186.md)
 - Ausnahme: Bei einer Vielzahl geringer Forderungsbeträge darf direkt pauschal wertberichtigt werden. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0120-s186.md)
 - Für die Pauschalwertberichtigung sind Gruppen (z. B. Inlandforderungen) und Modelle für erwartete Verluste (expected credit losses) zulässig. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0120-s186.md)
 - Pauschalwertberichtigung aufgrund Erfahrungswerten und erwarteter Entwicklung quantifizieren. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0120-s186.md)
-- Steuerliche Pauschale ESTV gemäss HWP BuR (Stand 2023, nicht für Steuerjahr bestätigt): 5 % auf inländischen, 10 % auf ausländischen Guthaben, ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen; Kantone teils abweichend. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0437-s248.md)
-- Die ESTV-Pauschale deckt nur das allgemeine Kreditrisiko, d. h. die nach Einzelwertberichtigungen verbleibenden Ausfallrisiken; sie ersetzt keine Einzelwertberichtigung. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0437-s248.md)
+- Nur Steuerpraxis, keine handelsrechtliche Bewertungsregel: Steuerliche Pauschale ESTV gemäss HWP BuR (Stand 2023, nicht für Steuerjahr bestätigt): 5 % auf inländischen, 10 % auf ausländischen Guthaben, ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen; Kantone teils abweichend. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0437-s248.md)
 - Sicherheiten und Kreditversicherung reduzieren das Delkredere auf den ungedeckten Teil. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0438-s248.md)
 - Uneinbringliche (Konkurs) und verjährte Forderungen sind auszubuchen. — [HWP BuR S. 187](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0121-s187.md)
 - Erwartete Erlösminderungen (Rabatte, Skonto, Umsatzprämien) als Wertberichtigung; nicht von der Rechnung abgezogene Umsatzrückvergütungen abgrenzen. — [HWP BuR S. 186](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0119-s186.md)
+- Gutschriften, Rabatte und Ausbuchungen (Korrektur des Entgelts): Anpassung der Umsatzsteuerschuld im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt wird; im Buchungsvorschlag MWST-Anteil getrennt ausweisen. Eine blosse Wertberichtigung (Delkredere) ändert die MWST nicht (Praxis/intern). MWST-Folgen Prüffeld M2. — [MWSTG 41](../chunks/mwstg/mwstg__art-41.md)
 - Delkredere ist Korrekturposten auf der Aktivseite, keine Rückstellung; Ausweis unter den Passiven unzulässig. — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0440-s248.md)
 - Nicht aufgelöste, nicht mehr begründete Wertberichtigungen bilden stille Reserven (Wahlrecht, kein Wertaufholungsgebot). — [HWP BuR S. 248](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0440-s248.md)
 - Kurzfristige Fremdwährungsforderungen werden zum Stichtagskurs bewertet; Kursgewinne oder -verluste können als realisiert betrachtet werden, wenn die Laufzeit bei Ersterfassung unter zwölf Monaten lag (Wahlrecht). — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t1.md)
@@ -67,7 +71,6 @@ Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollst
 - Abgrenzung: Beim Zessionskredit werden Forderungen nur zur Sicherung abgetreten; beim Factoring übernimmt der Factor sie tatsächlich. — [HWP BuR S. 189](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0137-s189.md)
 - Echtes Factoring (Factor übernimmt das Delkredererisiko): abgetretene Forderungen werden ausgebucht. — [HWP BuR S. 190](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0141-s190.md)
 - Regressrisiken aus zedierten Forderungen mit Rückstellungen berücksichtigen. — [HWP BuR S. 187](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0122-s187.md)
-- Konkurs/Zahlungsunfähigkeit eines Schuldners nach dem Stichtag erfordert eine Wertberichtigung im abzuschliessenden Jahr. — [HWP BuR S. 354](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0864-s354.md)
 - Konsignationsware ist Vorrat, keine Forderung. — [HWP BuR S. 207](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0213-s207.md)
 - Fakturierte, noch nicht ausgelieferte Ware (Bill-and-hold) ist nur dann Forderung, wenn die Lieferung am Bilanzstichtag fertiggestellt ist und der Kunde Nutzen und Gefahr trägt (schriftliche Bestätigung empfohlen). — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0234-s209.md)
 - Bill-and-hold: noch zu erwartende Kosten, Risiken und nicht realisierte Margenanteile mit Rückstellung bzw. Wertberichtigung berücksichtigen. — [HWP BuR S. 209](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0234-s209.md)
@@ -83,7 +86,7 @@ Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollst
 - Mahn-, Betreibungs- und Konkursunterlagen, Aktennotizen zu Problemdebitoren – Einzelbeurteilung überfälliger Guthaben (C1-310, C1-408)
 - Kursliste bzw. Bankunterlagen mit Jahresendkursen (falls Fremdwährungsforderungen) – Kontrolle Fremdwährungsumrechnung (C1-203, C1-311)
 - Liste Aktionäre, Organe, Beteiligungen (Aktienbuch, HR-Auszug) und Verträge mit Nahestehenden (z. B. Darlehensverträge) – Identifikation Forderungen gegenüber Nahestehenden (C1-204)
-- Bankbestätigungen per Bilanzstichtag (Abschnitt Sicherheiten zugunsten der Bank, z. B. Globalzession) – Abgleich Verpfändung/Zession und Anhangsangabe (C1-102, C1-320)
+- Bankbestätigungen per Bilanzstichtag, sofern beim Unternehmen vorhanden (Abschnitt Sicherheiten, z. B. Globalzession) – Abgleich Verpfändung/Zession und Anhangsangabe (C1-102, C1-320)
 - Kredit-, Zessions-, Factoring- oder Pfandverträge – Verpfändung/Abtretung, Abgrenzung echtes Factoring/Zessionskredit und Anhangsangabe (C1-102, C1-320, C1-322)
 - Aufstellung Bestand und Veränderung stille Reserven (Vorjahr/aktuell) – C1-303, C1-321, Anhang (C1-320)
 - Umsatzstatistik nach Kunden, Produkt-/Artikelgruppen und Regionen; Budget – Umsatzanalyse und Kundenstruktur (C1-205, C1-206)
@@ -121,7 +124,7 @@ Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollst
 - Keine repräsentativen bzw. statistischen Stichproben ziehen; Auswahl bewusst (Grösse, Risiko, Auffälligkeit) und begründet. — [SER](../chunks/ser-2022/ser-2022__6-1-3.md)
 - OP-Liste und Altersgliederung sind IT-Auswertungen des Kunden: nicht unbesehen übernehmen, sondern mit Hauptbuch abstimmen und Klassierung stichprobenweise nachprüfen. — [HWP ER S. 244](../chunks/hwp-er-2026/hwp-er-2026__rz-0266-s244.md)
 - Darlehen an Aktionäre/Organe gehören nicht zu den Forderungen aus L+L (Ausweis übrige Forderungen bzw. gesondert). Forderungen mit Darlehenscharakter zählen für die Prüfung der Einlagenrückgewähr – Hinweis an das Eigenkapital-Prüffeld. — [HWP ER S. 215](../chunks/hwp-er-2026/hwp-er-2026__rz-0167-s215.md)
-- Stille Zession (z. B. Globalzession an eine Bank) ist aus OP-Liste und Kontoblättern nicht erkennbar – Abschnitt Sicherheiten der Bankbestätigungen durchsehen.
+- Stille Zession (z. B. Globalzession an eine Bank) ist aus OP-Liste und Kontoblättern nicht erkennbar – Abschnitt Sicherheiten der beim Unternehmen vorhandenen Bankbestätigungen durchsehen (Praxis/intern).
 - Akonto-/Anzahlungsrechnungen für noch nicht erbrachte Leistungen (oft mit Rechnungsdatum im Folgejahr) nicht als Forderung/Ertrag akzeptieren. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
 - Rückgaberecht: Eine Realisation vor Bezahlung bzw. Fristablauf ist nur vertretbar, wenn Retouren verlässlich geschätzt und am Stichtag abgegrenzt werden. — [HWP BuR S. 315](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0746-s315.md)
 - Habensalden in der OP-Liste werden mit dem OP-Total netto ausgewiesen – auf Verrechnungsverbot achten. — [HWP BuR S. 187](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0125-s187.md)
@@ -131,17 +134,19 @@ Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollst
 - Stille Reserven im Delkredere, deren Bildung steuerlich nicht klar akzeptiert ist, können bei der Beurteilung einer Rückerstattungspflicht aus Gewinnbeteiligung zu einer Abgrenzung führen – Hinweis an den WP, keine eigene Beurteilung. — [Q&A Rechnungslegungsrecht](../chunks/qa-or-rechnungslegung-2026/qa-or-rechnungslegung-2026__4-5.md)
 - Analytische Vergleiche durch Bildung/Auflösung stiller Reserven verzerrt – Zahlen bereinigen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
 - Mahnwesen und Genehmigung von Verkaufsbedingungen nur zur Kenntnis und Risikobeurteilung erheben – keine IKS-Prüfung in der SER. — [SER](../chunks/ser-2022/ser-2022__1-5.md)
-- Offene interne Entscheide (consis) zu C1: Delkredere betriebswirtschaftlich oder ESTV-Pauschale, Umgang mit stillen Reserven, Altersgrenze «alt». Bis zum Entscheid Vorgabe des WP anwenden; fehlt sie, gewählte Annahme im Textfeld begründen und beide Delkredere-Varianten ausweisen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
+- Offene interne Entscheide (consis) zu C1: Delkredere betriebswirtschaftlich oder ESTV-Pauschale, Umgang mit stillen Reserven, Altersgrenze «alt». Bis zum Entscheid Vorgabe des WP anwenden. Fehlt sie: keine eigene Altersgrenze oder Methode festlegen, Pendenz erfassen und beide Delkredere-Varianten ausweisen (a betriebswirtschaftlich, b ESTV-Pauschale nur als Steuerpraxis). — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
 - Weiter gehende Prüfungshandlungen (WP-Schritte) nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko. — [SER](../chunks/ser-2022/ser-2022__6-2-3.md)
 - Betragsdifferenzen zwischen OP-Liste (Druckdatum nach Stichtag) und Saldoliste/Hauptbuch nicht wegrunden, sondern einzeln erklären lassen. — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0114-s185-t2.md)
+- Nachweise für C1 liegen oft in anderen Ordnern/Prüffeldern: Bankbestätigung und Kreditverträge (flüssige Mittel, Bankverbindlichkeiten) → Zession; Projektliste/Abnahmeprotokolle (nicht fakturierte Leistungen) → Ertragsrealisierung/Akonto; Aktennotizen zu Rechtsfällen (Rückstellungen) → bestrittene Forderungen. «Nicht vorhanden» erst nach akteweiter Suche (GJ und VJ), sonst «nicht gefunden in <Ordner>» und Pendenz. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md)
+- Hinweise der Vorjahresprüfung je Debitor übernehmen (nicht gebuchte Wertberichtigungen, «im Folgejahr neu beurteilen», offengelegte Zession) und im GJ neu beurteilen – nie ungelesen «keine Feststellung». — [HWP ER S. 180](../chunks/hwp-er-2026/hwp-er-2026__rz-0011-s180.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
 
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
-| C1-101 | Befragung | EP | EX VO BE | teilweise | Durchsicht der Debitoren OP-Liste und Befragung über Gründe für alte, ungewöhnliche hohe Ausstände sowie Haben-Salden | OP-Liste per Stichtag laden und alte (über Altersgrenze), im Verhältnis zum Total ungewöhnlich hohe Posten und Habensalden markieren. Nicht selbst befragen… |
-| C1-102 | Befragung | EP | RV DO | teilweise | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind | Bankbestätigungen (Abschnitt Sicherheiten) sowie Kredit-, Zessions- und Factoringverträge in M-Files auf Verpfändung, Zession, Factoring oder Inkasso… |
+| C1-101 | Befragung | EP | EX VO BE | teilweise | Durchsicht der Debitoren OP-Liste und Befragung über Gründe für alte, ungewöhnliche hohe Ausstände sowie Haben-Salden | OP-Liste per Stichtag laden und alte (Altersgrenze nur nach Vorgabe WP, siehe Rechnen), im Verhältnis zum Total ungewöhnlich hohe Posten und Habensalden… |
+| C1-102 | Befragung | EP | RV DO | teilweise | Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind | Beim Unternehmen vorhandene Bankbestätigungen (Abschnitt Sicherheiten; keine eigenen anfordern) sowie Kredit-, Zessions- und Factoringverträge in M-Files auf… |
 | C1-103 | Befragung | EP | BE PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Aus Saldoliste aktuell/VJ und ggf. Budget die Veränderungen der Konten Debitoren, Delkredere, Erlöse und Erlösminderungen berechnen. Für wesentliche… |
 | C1-104 | Befragung |  | BE | teilweise | Befragung, wie säumige Zahler identifiziert und wie allfällige Wertberichtigungen festgelegt werden. Beurteilung von deren Angemessenheit | Schriftliche Beschreibung von Mahnwesen und Delkrederemethode (Einzel-/Pauschal-WB, Sätze, Stetigkeit) aus 10.11 bzw. M-Files auswerten, sonst Frage als Notiz… |
 | C1-105 | Befragung |  | EN VO PA | teilweise | Befragung über das Vorgehen zur Sicherstellung einer korrekten zeitlichen Abgrenzung von Verkäufen und Gutschriften (Angefangene Arbeiten… | Schriftliche Antwort zum Abgrenzungsvorgehen (Fakturierung nach Lieferung/Abnahme, Teil- vs. Akontorechnungen, Bill-and-hold, Rückgaberecht, angefangene… |
@@ -162,7 +167,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | C1-306 | Detail | WP | EN VO BE PA | nur_mensch | Durchsicht der Erlös- und Erlösminderungskonten in neuer Rechnung auf auffällige Beträge, die das Vorjahr betreffen | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Mit… |
 | C1-307 | Detail | WP | EX RV EN VO BE | nur_mensch | Durchsicht von Versandpapieren, Zahlungen in neuer Rechnung und Verträgen zur Feststellung des Vorhandenseins von Forderungen | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Mit… |
 | C1-308 | Detail | WP | EN BE | nur_mensch | Durchsicht des Kontos Debitorenverluste und Feststellung der korrekten Autorisierung von Ausbuchungen | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Mit… |
-| C1-309 | Detail |  | EN VO BE | vorbereiten | Festhalten der seit dem Bilanzstichtag erfolgten Zahlungen | Die seit dem Bilanzstichtag eingegangenen Zahlungen auf die Stichtagsposten aus Kontoblatt bzw. Bankauszügen der neuen Rechnung festhalten (Datum, Betrag… |
+| C1-309 | Detail |  | EN VO BE | vorbereiten | Festhalten der seit dem Bilanzstichtag erfolgten Zahlungen | Die seit dem Bilanzstichtag eingegangenen Zahlungen auf die Stichtagsposten aus Kontoblatt Debitoren bzw. Bankauszügen der neuen Rechnung festhalten (Posten… |
 | C1-310 | Detail |  | EN VO BE | vorbereiten | Prüfung der am Revisionsstichtag überfälligen Guthaben | Die im Prüfungszeitpunkt noch offenen, überfälligen Guthaben einzeln beurteilen: Mahnstand, Betreibung/Konkurs, Bestreitung, Zahlungsvereinbarung… |
 | C1-311 | Detail |  | BE | vorbereiten | Spezielle Bewertung Fremdwährungs- und Gross-Debitoren | Grossdebitoren (über Toleranzwesentlichkeit bzw. Top-Positionen aus C1-206) einzeln bewerten: Bonität, Zahlungsverhalten, Sicherheiten, Kreditversicherung.… |
 | C1-312 | Detail |  | PA | vorbereiten | Behandlung von Voraus- und Anzahlungen | Akonto-, Voraus- und Anzahlungsrechnungen in OP-Liste und Kontoblatt identifizieren und mit Projektliste und Konto erhaltene Anzahlungen abstimmen. Prüfen… |

@@ -3,15 +3,21 @@ typ: prueffeld
 titel: Prüffeld SCH4 Finanzaufwand und Finanzertrag – Schnellzugriff
 jur: ch
 quellen:
+- dbg
 - estv-ks-6a-2024
+- estv-rs-2-219-2026
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
+- treuhand-almanach-2026
+- vstg
+- vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 880c78d7a5dce2e0c00a3fe2fed861886c8e6ec4b347fefe3cf0e3aec73a7fc5
 ---
 
 
@@ -52,10 +58,10 @@ ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und 
 - Aufgelaufene, erst im Folgejahr vereinnahmte Zinserträge (z.B. Zins zahlbar mit Rückzahlung) als antizipative Aktiven abgrenzen. — [HWP BuR S. 215](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0256-s215.md)
 - Bestandsaufnahme der Rechnungsabgrenzungen u.a. im Zusammenhang mit der Beurteilung der Aktiv- und Passivposten (Marchzinsen) und durch Vergleich mit dem Vorjahr. — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0262-s216.md)
 - Handelsrechtlich massgebend: Zinssätze mit Nahestehenden nach Drittvergleich beurteilen (Marktkonditionen für den Darlehensnehmer, Währung, Bonität, Sicherheiten); auch steuerlich akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen. — [HWP ER S. 217](../chunks/hwp-er-2026/hwp-er-2026__rz-0176-s217.md)
-- ESTV-Praxis (steuerlich, keine handelsrechtliche Bewertungsregel): unverzinsliche/ungenügend verzinste Darlehen an Beteiligte sowie übersetzte Zinsen an Beteiligte gelten als geldwerte Leistung (Verrechnungssteuer, Gewinnsteuer). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
-- ESTV-Zinssätze sind jahresbezogen und betreffen im Rundschreiben 2-218 nur CHF-Darlehen (Fremdwährungen: separates Rundschreiben, im Wiki estv-rs-2-219-2026); im Wiki nur Fassung 2026 – für GJ 2025 nicht bestätigt. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- ESTV-Praxis (steuerlich, keine handelsrechtliche Bewertungsregel): unverzinsliche/ungenügend verzinste Darlehen an Beteiligte sowie übersetzte Zinsen an Beteiligte gelten als geldwerte Leistung (Verrechnungssteuer, Gewinnsteuer). Folge der geldwerten Leistung: Gewinnsteuer (Art. 58 Abs. 1 lit. b DBG) und VSt 35 % (Art. 4 Abs. 1 lit. b VStG, Art. 20 Abs. 1 VStV; Satz Art. 13 VStG), Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit – nur Hinweis an WP (mögliche nicht erfasste VSt-Verbindlichkeit). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md) · [DBG 58](../chunks/dbg/dbg__art-58.md) · [VStG 4](../chunks/vstg/vstg__art-4.md) · [VStV 20](../chunks/vstv/vstv__art-20.md) · [VStG 13](../chunks/vstg/vstg__art-13.md)
+- ESTV-Sätze gelten je Kalenderjahr der Zinsperiode (RS 2-218 nur CHF; FW: RS 2-219). 2026 aus dem ESTV-RS, 2025 nur aus dem Treuhand-Almanach (Sekundärquelle). Sätze nie aus dem Gedächtnis: `wert zins 2025` bzw. `wert zinssatz darlehen`. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 - ESTV-Sätze sind Safe Haven; der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten (Abweichung ist Indiz, kein Beweis einer vGA). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
-- ESTV KS 6a: Schuldzinsen auf verdecktem Eigenkapital werden steuerlich zum Gewinn hinzugerechnet (Hinweis für Steuerrückstellung, nicht handelsrechtliche Korrektur). — [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__3-1.md)
+- Schuldzinsen auf verdecktem Eigenkapital gehören zum steuerbaren Gewinn (Art. 65 DBG; Ermittlung KS 6a) – Hinweis für Steuerrückstellung, keine handelsrechtliche Korrektur — [DBG 65](../chunks/dbg/dbg__art-65.md) · [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__3-1.md)
 
 ## Unterlagen (PBC)
 - Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag) – Vorjahresvergleich, Klassierung der Konten nach Natur, Abstimmung Konten → Position JR (SCH4-101/201)
@@ -68,7 +74,7 @@ ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und 
 - Rangrücktrittserklärungen zu Darlehen Nahestehender – Einschluss der Zinsen, Zinsverzicht/Stundung während Überschuldung (Erwartung Zinsaufwand, Ausweis)
 - VR-/GV-Protokolle (Genehmigung Darlehen und Zinskonditionen mit Nahestehenden) – Hintergrund und Konditionen von Darlehen/Zinsen mit Aktionären und Organen
 - Unterlagen zum Drittvergleich der Zinssätze mit Nahestehenden (Bankofferten/-konditionen, Bonitätsbeurteilung, Sicherheiten) – Handelsrechtliche Beurteilung der Marktkonformität (SCH4-202); Beurteilung vGA durch WP
-- ESTV-Rundschreiben steuerlich anerkannte Zinssätze des geprüften Geschäftsjahres (CHF und Fremdwährungen; Drittunterlage – im Wiki nur Fassung 2026, für GJ 2025 nicht bestätigt) – Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202)
+- ESTV-Zinssätze des Kalenderjahres der Zinsperiode (CHF; Fremdwährung: estv-rs-2-219-2026): Zinsen 2025 → `wert zins 2025` (Treuhand-Almanach, Sekundärquelle – ESTV-RS 2025 nicht im Wiki, so kennzeichnen); Zinsen 2026 → `wert zinssatz darlehen` / `wert betriebskredit` (ESTV-RS 2-218 vom 29.01.2026) – Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202)
 - Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen – Dokumentierte Befragung (SCH4-101/201)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
@@ -89,14 +95,14 @@ ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und 
 - Stille Reserven und deren Veränderung können die Zahlen der Vorjahresanalyse verzerren; Zahlen für die Analytik bereinigen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0110-s199.md)
 - Verrechnungsverbot gilt für Finanzaufwand/-ertrag (z.B. Zinsaufwand mit Weiterverrechnungserträgen), Kursgewinne und -verluste derselben Währung dürfen hingegen verrechnet werden – nicht verwechseln. — [HWP BuR S. 78](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0091-s078.md)
 - Stichtagsgewinne auf EUR-Bankkonten/Sichtguthaben gelten als realisiert und gehören zulässigerweise in den Ertrag – nicht als «unrealisierter Kursgewinn» beanstanden; die Realisationssperre betrifft nur langfristige Posten. — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t1.md)
-- ESTV-Zinssätze sind jahresbezogen und das Rundschreiben 2-218 gilt nur für CHF: Im Wiki liegt nur die Fassung 2026 (ab 1.1.2026) vor; für das Geschäftsjahr 2025 die Sätze 2025 beiziehen, sonst ausdrücklich als «andere Periode, nicht bestätigt» kennzeichnen. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- ESTV-Sätze 2026 nicht auf Zinsen 2025 anwenden. 2025 (Sekundärquelle Treuhand-Almanach): Mindestzins an Beteiligte 1,00 % (2026: 0,75 %), Betriebskredit von Beteiligten ab CHF 1 Mio. 1,75 %/1,50 % (2026: 1,50 %/1,25 %) → `wert zins 2025`. — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s065-1.md) · [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 - ESTV-Safe-Haven-Sätze sind kein handelsrechtliches Feststellungskriterium: Ob eine Zinskondition mit Nahestehenden eine vGA darstellt, ist Ermessensfrage des WP. Agent dokumentiert Vertrag, Satz, Drittvergleich und ESTV-Abgleich und meldet einen Hinweis an den WP. — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0163-s212.md)
 - Nicht korrigierte wesentliche Transaktionen mit Nahestehenden führen zu einer eingeschränkten oder verneinenden Prüfungsaussage – Entscheid des WP; der Agent dokumentiert nur Sachverhalt und Beträge. — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0162-s212.md)
 - Bei offensichtlicher und wesentlicher vGA: schriftliche Mitteilung an den VR und Beurteilung der Rückerstattung nach Art. 678 OR sind Sache der Revisionsstelle (WP); der Agent bereitet den Sachverhalt nur auf. — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0164-s212-t1.md)
 - Zinsen auf Darlehen unter Rangrücktritt: Zinsendienst läuft grundsätzlich weiter (Erwartungswert Zinsaufwand nicht auf null setzen), Zinsen müssen aber ebenfalls unter Rangrücktritt stehen; Vertragsklauseln zum Zinsverzicht bzw. zur Stundung genau lesen. — [HWP BuR S. 305](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0714-s305.md)
-- Bankbestätigungen einzuholen ist nicht Bestandteil der eingeschränkten Revision (SER Anhang D lit. b, Aufzählung in ser-2022__anh-d-s074-2): vorhandene Bankbestätigungen (Testakte: Fiktiva Regionalbank, Testbank Ostschweiz) auswerten; keine eigene Kontaktaufnahme mit Banken. — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
+- Bankbestätigungen einzuholen ist nicht Bestandteil der eingeschränkten Revision (SER Anhang D lit. b, Aufzählung in ser-2022__anh-d-s074-2): vorhandene Bankbestätigungen auswerten; keine eigene Kontaktaufnahme mit Banken. — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
 - Weitergehende Handlungen wie Bestätigungen führt der Agent nur auf Anweisung des WP aus. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
-- Verzinsliche Bankguthaben mit Verrechnungssteuer: Zinsertrag brutto erfassen, VSt als Guthaben (nicht Netto-Zins als Ertrag) – Praxis, ohne Quelle im Wiki.
+- Zinsen auf Kundenguthaben bei inländischen Banken unterliegen der VSt von 35 % (ausgenommen: Zinsbetrag ≤ CHF 200 pro Kalenderjahr bei einmaliger jährlicher Vergütung, Art. 5 Abs. 1 lit. c VStG / Art. 16 VStV). Die Bankabrechnung weist den Bruttobetrag vor VSt-Abzug aus: Zinsertrag brutto im Finanzertrag, VSt als Forderung gegenüber der Steuerverwaltung (übrige kurzfristige Forderungen), nicht mit dem Ertrag verrechnen. — [VStG 4](../chunks/vstg/vstg__art-4.md) · [VStG 13](../chunks/vstg/vstg__art-13.md) · [VStG 5](../chunks/vstg/vstg__art-5-t1.md) · [VStV 16](../chunks/vstv/vstv__art-16.md) · [VStV 3](../chunks/vstv/vstv__art-3.md) · [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0154-s192.md) · [OR 958C](../chunks/or/or__art-958c.md)
 - Der Agent dokumentiert und schlägt Feststellungen vor; Beurteilung vGA/Korrekturbedarf und Visum bleiben beim Wirtschaftsprüfer. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 
 ## Prüfschritte
@@ -104,9 +110,9 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
-| SCH4-101 | Befragung |  | VO PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Katalogtext stammt aus SER Anhang D lit. t (lit. s enthält keine Befragung). Agent befragt nicht selbst: aus der Saldoliste ER (GJ/VJ) Finanzkonten mit… |
+| SCH4-101 | Befragung |  | VO PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen | Katalogtext stammt aus SER Anhang D lit. t (lit. s hat keinen Abschnitt Befragungen; die Befragung zu Abweichungen ist dort Teil der Analytik, SCH4-201).… |
 | SCH4-201 | Analytisch | EP | EN VO PA | vorbereiten | Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen | Alle Finanzkonten aus der Saldoliste ER GJ/VJ gegenüberstellen (Rechenmodul). Jedes Konto nach seiner Natur als Aufwand oder Ertrag klassieren, unabhängig von… |
 | SCH4-202 | Analytisch | EP | EN VO PA RI | vorbereiten | Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven | Aufstellung der verzinslichen Aktiven und Passiven (Bankkredite, Festvorschüsse, Aktionärsdarlehen, Darlehen an Aktionäre, Bankguthaben) mit Bestand, Datum… |
 | SCH4-203 | Analytisch | EP | EN VO PA RI | vorbereiten | Vergleich und Plausibilisierung der Fremdwährungsdifferenzen mit dem Geschäftsmodell und den Entwicklungen der entsprechenden Fremdwährungen | FW-Bestände und -Geschäfte (FW-Bankkonten, FW-Debitoren/-Kreditoren, Einkäufe in FW) und Geschäftsmodell erfassen. Kursentwicklung im GJ mit Beständen… |
-| SCH4-301 | Detail | WP | EX EN VO RI | nur_mensch | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | WP-Schritt: nur auf Anweisung des WP oder wenn SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes inhärentes Risiko anzeigen (Begründung im… |
-| SCH4-302 | Detail | WP | EN VO RI | nur_mensch | Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge | WP-Schritt: nur auf Anweisung des WP oder wenn SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes inhärentes Risiko anzeigen (Begründung im… |
+| SCH4-301 | Detail | WP | EX EN VO RI | nur_mensch | Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen | WP-Schritt: nur mit ausdrücklicher Anweisung des WP. Zeigen SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes Risiko: als Notiz «Pendenz» an… |
+| SCH4-302 | Detail | WP | EN VO RI | nur_mensch | Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge | WP-Schritt: nur mit ausdrücklicher Anweisung des WP. Zeigen SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes Risiko: als Notiz «Pendenz» an… |

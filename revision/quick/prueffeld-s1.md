@@ -3,6 +3,7 @@ typ: prueffeld
 titel: Prüffeld S1 Steuern – Schnellzugriff
 jur: ch
 quellen:
+- dbg
 - estv-ks-29c-2022
 - estv-ks-32a-2025
 - estv-ks-6a-2024
@@ -17,6 +18,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: e01a67db7bfb3cffde3817adf74dc675f03498b4cf9bffaee90f6829698f257e
 ---
 
 
@@ -40,6 +42,7 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Zinsen auf verdecktem Eigenkapital unterliegen als geldwerte Leistung der Verrechnungssteuer; VSt-Folge (auch im Verlustjahr prüfen) nicht abgegrenzt. [VO, BE] — [KS ESTV 6a](../chunks/estv-ks-6a-2024/estv-ks-6a-2024__3-2.md)
 - Ausschüttung aus Kapitalreserven als verrechnungssteuerfrei behandelt, obwohl die Kapitaleinlagereserven von der ESTV nicht genehmigt bzw. durch Verlustverrechnung vermindert sind; Anhanghinweis fehlt. [BE, DO] — [HWP BuR S. 275](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0565-s275-t2.md)
 - Emissionsabgabe auf Kapitalerhöhung/Agio (Sanierung) nicht abgegrenzt, weil eine Befreiung angenommen wird, deren Voraussetzungen nicht erfüllt sind. [VO, PA] — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t1.md)
+- Erfolgswirksamer Forderungsverzicht von Aktionären als steuerfrei behandelt; Gewinnsteuer nicht abgegrenzt. [VO, BE] — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__4-1-1-1-t1.md)
 - Latente Steueraktiven (insbesondere auf steuerlichen Verlustvorträgen) unzulässig aktiviert. [EX, BE] — [HWP BuR S. 270](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0551-s270.md)
 - Steuerguthaben (Vorauszahlungen, Verrechnungssteuer) nicht bestehend oder verjährt. [EX, BE] — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0549-s269.md)
 - Ausweis falsch: direkte Steuern nicht separat in der Erfolgsrechnung, Nachsteuern/Bussen oder Kapitalsteuern uneinheitlich zugeordnet, Steuerguthaben mit Steuerverbindlichkeiten saldiert. [DO] — [HWP BuR S. 331](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0801-s331.md)
@@ -52,10 +55,11 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Geschuldete Steuern – veranlagt oder nicht – sind Fremdkapital; bereits veranlagte Steuern unter den übrigen kurzfristigen Verbindlichkeiten. — [HWP BuR S. 268](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0545-s268.md)
 - Noch nicht veranlagte geschuldete Steuern unter übrigen kurzfristigen Verbindlichkeiten oder passiven Rechnungsabgrenzungen. — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0546-s269.md)
 - Steuern sind bei der Ermittlung des Steueraufwands als geschäftsmässig begründeter Aufwand zu berücksichtigen (Satz daher auf den Gewinn vor Steuern effektiv bzw. auf den Gewinn nach Steuern statutarisch anwenden). — [HWP BuR S. 268](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0545-s268.md)
+- Bund: Die eidgenössischen, kantonalen und kommunalen Steuern gehören zum geschäftsmässig begründeten Aufwand (Art. 59 Abs. 1 lit. a DBG). — [DBG 59](../chunks/dbg/dbg__art-59-t1.md)
 - Mögliche Nachbelastungen (Steuerrevision, Rechtsmittel): Rückstellung nach Wahrscheinlichkeit am Tag der Bilanzerstellung schätzen. — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0547-s269.md)
 - Grundstückgewinnsteuern periodengerecht abgrenzen; SG (dualistisch) und Bund: Grundstückgewinne unterliegen der Gewinnsteuer; Steuern aus nicht steuerneutralen Umstrukturierungen im laufenden Jahr zurückstellen. — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0548-s269.md)
 - Steuervorauszahlungen und erwartete Rückvergütungen können Aktiven sein; Bestand und Verjährung einzeln prüfen (VSt-Rückerstattung drei Jahre); nicht mit Steuerverbindlichkeiten verrechnen. — [HWP BuR S. 269](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0549-s269.md)
-- Für die laufende Steuerabgrenzung ist die Verrechnung von Verlustvorträgen mit dem Gewinn der Periode zulässig. — [HWP BuR S. 270](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0551-s270.md)
+- Für die laufende Steuerabgrenzung ist die Verrechnung von Verlustvorträgen mit dem Gewinn der Periode zulässig (Bund: höchstens 7 Vorjahre, Art. 67 DBG). — [HWP BuR S. 270](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0551-s270.md)
 - Latente Steuern nach OR: de facto Wahlrecht, stetig und für alle temporären Differenzen gleich; latente Steueraktiven nur bei erfüllten Aktivierungsvoraussetzungen (nicht auf steuerlichen Verlustvorträgen). — [HWP BuR S. 270](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0551-s270.md)
 - ER-Position direkte Steuern umfasst bezahlte und abgegrenzte Steuern; Aufteilung Gewinn-/Kapitalsteuern gesetzlich nicht verlangt. — [HWP BuR S. 114](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0234-s114.md)
 - Nachsteuern, Strafsteuern, Bussen können als ausserordentlicher/periodenfremder Aufwand gezeigt werden; Kapitalsteuern wahlweise im Steuer- oder übrigen betrieblichen Aufwand (stetig). — [HWP BuR S. 331](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0801-s331.md)
@@ -73,7 +77,8 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Kapitaleinlagen aus Sanierungen gelten nur als KER, soweit sie nicht durch Ausbuchung von Verlustvorträgen vernichtet werden (KS ESTV 29c Ziff. 2.2.3); mit KER verrechnete Verluste vermindern diese definitiv. — [KS ESTV 29c](../chunks/estv-ks-29c-2022/estv-ks-29c-2022__2-2-3-t1.md)
 - Emissionsabgabe grundsätzlich 1 % des Zuflusses (Sekundärquelle Treuhand-Almanach; für 2025 vom WP bestätigen lassen). — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s067-1.md)
 - Freibetrag CHF 1 Mio. bei Gründung/formeller Kapitalerhöhung, einmalig (Sekundärquelle, Stand «gegenwärtig» – für 2025 vom WP bestätigen lassen). — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s067-1.md)
-- Sanierungen sind unter kumulativen Voraussetzungen von der Emissionsabgabe ausgenommen (Art. 6 Abs. 1 lit. k StG, KS ESTV 32a Ziff. 3.3.2); u.a. ist die Verrechnung mit bestehenden Verlusten zwingend. — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t1.md)
+- Offene/stille Sanierung: Leistungen der Anteilsinhaber bis gesamthaft CHF 10 Mio. von der Emissionsabgabe ausgenommen (Art. 6 Abs. 1 lit. k StG, KS 32a Ziff. 3.3.2), Verrechnung mit bestehenden Verlusten zwingend. — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t1.md)
+- Sanierungsfreibetrag Emissionsabgabe: Leistungen der Anteilsinhaber bis gesamthaft CHF 10 Mio. (KS 32a Ziff. 3.3.2 lit. c). — [KS ESTV 32a](../chunks/estv-ks-32a-2025/estv-ks-32a-2025__3-3-2-t2.md)
 
 ## Unterlagen (PBC)
 - Berechnung der Steuerabgrenzung 2025 (Gewinn- und Kapitalsteuer Bund/Kanton/Gemeinde) mit Parametern: Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen – S1-301, S1-304: Abstimmung mit Jahresrechnung und Nachrechnen
@@ -84,7 +89,7 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Bericht/Verfügung der letzten Steuerrevision (Buchprüfung) inkl. Nachbelastungen und Auflagen – S1-403: Umsetzung der Ergebnisse, Rückstellung für Nachbelastungen
 - Detailnachweis stille Reserven (Bestand je Position 31.12. und Vorjahr), inkl. versteuerter stiller Reserven gemäss Steuerbilanz – S1-321: Bestand/Veränderung, Nettoauflösung
 - Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge an und von Beteiligten mit Zinssatz, Sicherheit, Zweck; Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle – S1-401: Festhalten geldwerter Leistungen
-- ESTV-Rundschreiben «Steuerlich anerkannte Zinssätze 2025» (fehlt im Wiki – Quellenlücke; Rundschreiben 2026 gilt erst ab 1.1.2026, Treuhand-Almanach-Tabelle nicht verwenden) – S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten
+- INTERN, nicht beim Kunden anfordern: ESTV-Rundschreiben Zinssätze 2025 (im Wiki nicht vorhanden → Pendenz an WP, kein PBC-Vorschlag) – S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten
 - Verrechnungssteuer-Deklarationen (Formular 102 für geldwerte Leistungen, Dividenden) und Rückforderungsanträge – S1-401, S1-402, S1-304: VSt-Folgen und VSt-Guthaben
 - Verkehrswerte der Aktiven per 31.12.2025 und Berechnung des zulässigen Fremdkapitals bzw. verdeckten Eigenkapitals; Rangrücktrittserklärungen – S1-402: verdecktes Eigenkapital, Zinsaufrechnung und VSt
 - Bestätigung der ESTV zu den Kapitaleinlagereserven (Agio Kapitalerhöhung 2025) – S1-402: beantragte Ausschüttung aus Kapitalreserven (VSt), Anhanghinweis
@@ -111,7 +116,7 @@ Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerv
 - Die eingeschränkte Revision ist keine Steuerprüfung: keine Prüfung der Steuerkonformität der Deklaration; beurteilt wird nur die Auswirkung auf die Jahresrechnung. — [SER S. 57](../chunks/ser-2022/ser-2022__anh-c-s057-1.md)
 - S1-102, S1-103, S1-104 und S1-303 (sowie der Abgleich Steuererklärung–Jahresrechnung in S1-302) entsprechen im SER weiter gehenden Prüfungshandlungen (SER Anhang D n): nur bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko, Begründung dokumentieren. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0132-s203.md)
 - Die Frage nach hängigen Einsprachen und Rekursen (S1-104) steht im SER unter den weiter gehenden Befragungen, nicht unter den empfohlenen. — [SER S. 89](../chunks/ser-2022/ser-2022__anh-d-s089-2.md)
-- Ob der Agent WP-Schritte (S1-102 bis S1-104, S1-151, S1-303) vorbereitet, ist noch offen: bis zum Entscheid nur vorbereiten und nie beurteilen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
+- Ob der Agent WP-Schritte (S1-102 bis S1-104, S1-151, S1-303) vorbereitet, ist noch offen: bis zum Entscheid ohne ausdrückliche Anweisung kein Textfeld (nur Notiz), nie beurteilen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - S1-401 bis S1-403 (Typ Sonstige) nur auf Anweisung des WP bearbeiten; der Agent hält fest und bereitet vor. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Auch nicht veranlagte Steuern sind Fremdkapital – «noch keine Veranlagung» rechtfertigt keine fehlende Abgrenzung. — [HWP BuR S. 268](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0545-s268.md)
 - Verlustjahr heisst nicht «kein Steueraufwand»: Kapitalsteuern, separat besteuerte Gewinne, periodenfremde Nachzahlungen und VSt-Folgen (z.B. Zinsen auf verdecktem Eigenkapital) bleiben; Kapitalsteuer kann im übrigen betrieblichen Aufwand stecken (Analytik bereinigen). — [HWP BuR S. 331](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0801-s331.md)
@@ -138,16 +143,16 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
 | S1-101 | Befragung | EP | VO PA | teilweise | Befragung, ob alle direkten Steuern aus früheren Abschlussperioden bezahlt oder abgegrenzt wurden | Schriftliche Frage an Leitung Finanzen als Pendenz erfassen bzw. Antwort aus der Kundenbefragung (10.11) auswerten: Sind alle direkten Steuern früherer… |
-| S1-102 | Befragung | WP | RV VO RI | nur_mensch | Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben. Einblick in… | WP-Schritt (SER: weiter gehend; ob der Agent WP-Schritte vorbereitet, ist noch offen). Agent bereitet nur vor: Frage nach Steuerrevisionen, Nachforschungen… |
-| S1-103 | Befragung | WP | RV | nur_mensch | Befragung, inwieweit Steuerveranlagungen definitiv sind (Bund / Kanton) | WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent: Frage nach definitiven Veranlagungen als Pendenz, vorhandene… |
-| S1-104 | Befragung | WP | RV VO | nur_mensch | Befragung der Unternehmensleitung, ob Einsprachen oder Rekurse hängig sind und das allfällige Risiko | WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent: Frage an die Unternehmensleitung nach hängigen Einsprachen, Rekursen… |
+| S1-102 | Befragung | WP | RV VO RI | nur_mensch | Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben. Einblick in… | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
+| S1-103 | Befragung | WP | RV | nur_mensch | Befragung, inwieweit Steuerveranlagungen definitiv sind (Bund / Kanton) | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
+| S1-104 | Befragung | WP | RV VO | nur_mensch | Befragung der Unternehmensleitung, ob Einsprachen oder Rekurse hängig sind und das allfällige Risiko | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
 | S1-201 | Analytisch | EP | VO BE PA | vorbereiten | Beurteilung des Steueraufwandes im Vergleich zum Periodenergebnis und zum Vorjahr | Aus Saldoliste/Jahresrechnung Ergebnis vor Steuern und direkte Steuern (laufend/Vorjahr) entnehmen, Steuerquote und Veränderung im Rechenmodul berechnen.… |
-| S1-301 | Detail | EP | VO BE PA RI | vorbereiten | Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden) | Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen; Verlustverrechnung gemäss… |
+| S1-301 | Detail | EP | VO BE PA RI | vorbereiten | Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden) | Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen (z.B. Bussen, Art. 59 Abs. 2… |
 | S1-302 | Detail | ? |  | nur_mensch | Vergleich der gebuchten Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen | Kennzeichnung offen («?», keine Prüfziele) → vom WP bestätigen lassen. SER: Abstimmung Steuererklärung–Jahresrechnung ist weiter gehend; Umfang erst nach… |
 | S1-151 | Detail | WP | RV VO BE RI | nur_mensch | None | Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an den WP: Inhalt festlegen… |
-| S1-303 | Detail | WP | EN VO BE PA RI | nur_mensch | Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen | WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent bereitet den Rückstellungsspiegel Steuern vor, Beurteilung durch den WP: je… |
-| S1-304 | Detail |  | RV VO BE PA RI | vorbereiten | Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn | Kennzeichnung leer → vom WP bestätigen lassen. Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte… |
-| S1-321 | Detail |  | BE | vorbereiten | Bestand und Veränderung stiller Reserven | Kennzeichnung leer → vom WP bestätigen lassen. Standardschritt: Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste… |
-| S1-401 | Sonstige |  | RV VO BE | auf_anweisung | Festhalten geldwerte Leistungen | Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Agent trägt Transaktionen mit Beteiligten/Nahestehenden zusammen (Darlehen an und… |
-| S1-402 | Sonstige |  | EN VO PA | auf_anweisung | Beachtung besonderer Verhältnisse | Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Festhalten: Grundstückgewinne, Umstrukturierungen, Sanierung/Kapitalerhöhung… |
-| S1-403 | Sonstige |  | RV VO BE | auf_anweisung | Berücksichtigung der Ergebnisse der letzten Steuerrevision | Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Bericht/Verfügung der letzten Steuerrevision aus Dauerakte bzw. M-Files beiziehen… |
+| S1-303 | Detail | WP | EN VO BE PA RI | nur_mensch | Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
+| S1-304 | Detail |  | RV VO BE PA RI | vorbereiten | Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn | Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte Vorperioden; Risiken aus S1-101 bis S1-303… |
+| S1-321 | Detail |  | BE | vorbereiten | Bestand und Veränderung stiller Reserven | Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung berechnen. Steuerbezug: übersetzte… |
+| S1-401 | Sonstige |  | RV VO BE | auf_anweisung | Festhalten geldwerte Leistungen | Typ Sonstige: nur auf Anweisung des WP. Agent trägt Transaktionen mit Beteiligten/Nahestehenden zusammen (Darlehen an und von Beteiligten mit Zins… |
+| S1-402 | Sonstige |  | EN VO PA | auf_anweisung | Beachtung besonderer Verhältnisse | Typ Sonstige: nur auf Anweisung des WP. Festhalten: Grundstückgewinne, Umstrukturierungen, Sanierung/Kapitalerhöhung (Emissionsabgabe, Befreiung)… |
+| S1-403 | Sonstige |  | RV VO BE | auf_anweisung | Berücksichtigung der Ergebnisse der letzten Steuerrevision | Typ Sonstige: nur auf Anweisung des WP. Bericht/Verfügung der letzten Steuerrevision aus Dauerakte bzw. M-Files beiziehen (sonst Pendenz). Feststellungen… |

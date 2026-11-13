@@ -8,9 +8,11 @@ quellen:
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
-- treuhand-almanach-2026
+- vstg
+- vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 0538087eef4545adb5d6d8e781220d4dc782ba2d4a4d031959ec2cb6243e7599
 ---
 
 
@@ -18,7 +20,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 22 Schritte (Befragung 2, Analytisch 2, Detail 12, Sonstige 6; EP 4, WP 5) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/b1.md](../wiki/prueffelder/b1.md)
 
-Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgelder bis 3 Monate, Bankchecks; kurzfristig gehaltene Wertschriften, Edelmetalle, Kryptowährungen, Rohstoffe mit Marktpreis. Nicht: WIR-Guthaben (ausser WIR bar), Zahlungsdienstkonten ohne Banklizenz (Beurteilung WP). SER: Abstimmung mit internen Unterlagen, Kurse, Verpfändungen, Anhang; keine eigenen Bankbestätigungen.
+Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgeld bis 3 Monate, Bankchecks; kurzfristige Aktiven mit Marktpreis. Nicht: WIR-Verrechnung, Anbieter ohne Banklizenz (Entscheid WP). SER: Abstimmung Auszüge, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.
 
 ## Risiken
 - Ausgewiesene Guthaben bestehen nicht oder nicht in dieser Höhe (fehlende Abstimmung mit Auszug, Kassabuch, Depotauszug per Stichtag). [EX] — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
@@ -32,7 +34,7 @@ Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgel
 - Geld unterwegs und Überträge zwischen Geldkonten um den Stichtag doppelt oder nicht erfasst (Valuta-Datum). [EX, VO, PA] — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0014-s158.md)
 - Ungewöhnliche oder nicht geschäftsmässig begründete Geldabflüsse (z.B. an Nahestehende, Bargeldbezüge). [EN, RV] — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
 - Negative Bankkonten mit Guthaben verrechnet statt als kurzfristige verzinsliche Verbindlichkeiten ausgewiesen. [DO] — [HWP BuR S. 159](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0016-s159.md)
-- Verrechnungssteuerpflichtige Zinsen netto statt brutto verbucht, Verrechnungssteuerguthaben fehlt; Rückerstattungsanspruch gefährdet. [VO, PA] — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s069-2.md)
+- Verrechnungssteuerpflichtige Zinsen netto statt brutto verbucht, Verrechnungssteuerguthaben fehlt; Rückerstattungsanspruch gefährdet. [VO, PA] — [VStG 25](../chunks/vstg/vstg__art-25.md)
 - Offene Devisentermingeschäfte ohne Absicherungszweck mit negativem Marktwert nicht als Verbindlichkeit/Rückstellung erfasst. [BE, VO] — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0075-s176-t2.md)
 - Guthaben bei notleidenden Instituten oder mit Transferrestriktionen als flüssige Mittel ausgewiesen. [BE, DO] — [HWP BuR S. 157](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0010-s157.md)
 - Liquiditätsengpass bzw. Verletzung von Kreditbedingungen als Hinweis auf gefährdete Fortführung. [RV, BE] — [HWP ER S. 224](../chunks/hwp-er-2026/hwp-er-2026__rz-0191-s224.md)
@@ -53,7 +55,7 @@ Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgel
 - Flüssige Mittel und Bankguthaben auf Sicht uneingeschränkt zum Devisenkurs des Bilanzstichtags. — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t1.md)
 - Nach OR ist die Folgebewertung zum Kurs oder Marktpreis am Bilanzstichtag ein Wahlrecht («dürfen»), einheitlich für die ganze Position. — [OR 960B](../chunks/or/or__art-960b.md)
 - Ohne Ausübung des Wahlrechts: Folgebewertung höchstens zu Anschaffungskosten (Niederstwertprinzip). — [OR 960A](../chunks/or/or__art-960a.md)
-- Nach HWP setzt der Ausweis unter dieser Position die Bewertung zum Kurs am Bilanzstichtag voraus; Kursgewinne/-verluste gelten als realisiert. — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0015-s158.md)
+- Unter B1 nur Aktiven, die liquid gehandelt UND zum Kurs am Stichtag bewertet werden (HWP). Werden Wertschriften unter B1 zu Anschaffungs- oder Niederstwert geführt: Ausweis und Bewertung als Hinweis an den WP, keine eigene Umgliederung. — [HWP BuR S. 157](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0011-s157.md)
 - Bei Kursbewertung Schwankungsreserve zulässig (zulasten Erfolgsrechnung), gesamthaft in Bilanz oder Anhang gesondert auszuweisen. — [OR 960B](../chunks/or/or__art-960b.md)
 - Obergrenze Schwankungsreserve: Buchwert nach Reserve nicht unter Anschaffungswert und zugleich nicht unter dem allenfalls tieferen Kurswert, d.h. Reserve ≤ Kurswert – min(Anschaffungswert; Kurswert). — [OR 960B](../chunks/or/or__art-960b.md)
 - Bei Kursbewertung im Anhang: Hinweis und Gesamtwert je für Wertschriften und übrige Aktiven mit Marktpreis gesondert. — [OR 960B](../chunks/or/or__art-960b.md)
@@ -66,9 +68,10 @@ Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgel
 - Negativer Marktwert eines Derivats ohne Absicherungszweck: Verbindlichkeit/Rückstellung in Höhe des negativen Marktwerts. — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0075-s176-t2.md)
 - Derivate mit Absicherungszweck: wahlweise wie ohne Absicherungszweck oder mit Hedge Accounting (Grund- und Absicherungsgeschäft als Bewertungseinheit). — [HWP BuR S. 176](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0076-s176.md)
 - Getrennter Ausweis von flüssigen Mitteln und Wertschriften in Bilanz oder Anhang empfohlen. — [HWP BuR S. 159](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0016-s159.md)
-- Verrechnungssteuer: Satz 35 % auf Kapitalerträgen (Art. 13 VStG). — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s068-1.md)
-- Verrechnungssteuer: Ausnahmen von der Steuerpflicht nach Art. 5 VStG beachten; nicht jeder Zins unterliegt der VSt. — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s068-1.md)
-- Verrechnungssteuer: Rückerstattung an juristische Personen nur bei ordnungsgemässer Verbuchung der belasteten Erträge als Ertrag. — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s069-2.md)
+- Verrechnungssteuer: Satz 35 % auf Kapitalerträgen (Art. 13 VStG). — [VStG 13](../chunks/vstg/vstg__art-13.md)
+- VSt nur auf Zinsen von Kundenguthaben bei inländischen Banken/Sparkassen; keine VSt, wenn der Zins eines Kundenguthabens CHF 200 je Kalenderjahr nicht übersteigt und nur einmal pro Kalenderjahr vergütet wird (Art. 4 Abs. 1 lit. d, Art. 5 Abs. 1 lit. c VStG, Art. 16 VStV). — [VStG 5](../chunks/vstg/vstg__art-5-t1.md)
+- Verrechnungssteuer: Rückerstattung an juristische Personen nur bei ordnungsgemässer Verbuchung der belasteten Erträge als Ertrag. — [VStG 25](../chunks/vstg/vstg__art-25.md)
+- Verrechnungssteuer: Rückerstattungsantrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres, sonst erloschen (Art. 32 VStG). — [VStG 32](../chunks/vstg/vstg__art-32.md)
 
 ## Unterlagen (PBC)
 - Saldoliste und Hauptbuch-Kontoblätter aller Geldkonten (Kasse, Post, Banken, Online-Konten, Wertschriften) mit Vorjahr – Ausgangsbasis für Abstimmung, Vorjahresvergleich und Durchsicht
@@ -100,7 +103,7 @@ Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgel
 
 ## Fallstricke
 - Bankbestätigungen selbst einholen ist nicht Teil der eingeschränkten Revision; der Agent fordert keine Bestätigungen bei Banken an und verwendet nur beim Unternehmen vorhandene Bestätigungen. — [HWP ER S. 196](../chunks/hwp-er-2026/hwp-er-2026__rz-0095-s196.md)
-- Weitergehende Handlungen (Durchsicht Geldkonti, Belegprüfung Wertschriften, Eigentumsrechte, Befragung zu aussergewöhnlichen Transaktionen) nur bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko; Begründung dokumentieren. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0132-s203.md)
+- SER: weitergehende Handlungen (Durchsicht Geldkonti, Belegprüfung Wertschriften, Eigentumsrechte, Befragung zu aussergewöhnlichen Transaktionen) bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko. Ob sie durchgeführt werden, entscheidet der WP (Auswahl im Prüfprogramm bzw. Anweisung); der Agent meldet solche Hinweise als Notiz. — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
 - WP-Schritte (Katalog: B1-102, 201, 202, 309, 310) bereitet der Agent nur vor, wenn der WP dies vorsieht; Entscheid ist offen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Sonstige Prüfungshandlungen (4xx) nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Befragungsschritte: Agent wertet nur schriftliche Antworten aus, sonst Frage als Pendenz; Status höchstens «teilweise bearbeitet». — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
@@ -114,10 +117,14 @@ Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgel
 - Zero-Balancing-Cash-Pool-Guthaben sind in der Regel keine flüssigen Mittel. — [HWP BuR S. 156](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0007-s156.md)
 - Negative Kontokorrente nicht mit Guthaben anderer Konten/Banken saldieren (Verrechnungsverbot). — [OR 958C](../chunks/or/or__art-958c.md)
 - Das Wahlrecht zur Börsenkursbewertung gilt für die ganze Bilanzposition, nicht titelweise. — [OR 960B](../chunks/or/or__art-960b.md)
-- VSt-Hochrechnung (Netto / 0.65) nicht pauschal auf alle Zinsen anwenden; nur bei Zinsen mit VSt-Abzug gemäss Ausweis (Ausnahmen Art. 5 VStG). — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s068-1.md)
+- VSt-Hochrechnung (Netto / 0.65) nicht pauschal auf alle Zinsen anwenden; nur bei Zinsen mit VSt-Abzug gemäss Ausweis (Ausnahmen Art. 5 VStG). — [VStG 5](../chunks/vstg/vstg__art-5-t1.md)
 - Der Agent kann keine Kassenaufnahme durchführen; er stützt sich auf das Protokoll des Kunden und erfasst bei Fehlen eine Pendenz. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Keine Funktionsprüfungen des IKS (z.B. Visa-/Zahlungsfreigaben) als eigenes Prüfziel. — [HWP ER S. 197](../chunks/hwp-er-2026/hwp-er-2026__rz-0098-s197.md)
 - Visierung nur als Nachweis im Einzelfall (z.B. Prüfziel Verpflichtungen), nicht als IKS-Prüfung. — [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0116-s201.md)
+- IBAN-Ziffern sind keine Kontonummern des Kontenplans: Nachweiszeilen über Bank, Währung und IBAN/Kontobezeichnung dem HB-Konto zuordnen (Praxis/intern). «Konto nicht erfasst» erst nach Suche über die ganze Saldoliste; Kautions-/Sperrkonten können unter übrigen Forderungen stehen – sonst Pendenz. — [SER S. 74](../chunks/ser-2022/ser-2022__anh-d-s074-1.md)
+- Nachweis nur als Bild/Screenshot und Text nicht lesbar (z.B. leere Transkription): Saldo nicht aus der Saldoliste übernehmen und nicht als bestätigt bezeichnen; Notiz «Pendenz: Nachweis nicht lesbar – Original prüfen». — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c005-1.md) · [HWP ER S. 201](../chunks/hwp-er-2026/hwp-er-2026__rz-0116-s201.md)
+- Fremdwährung: CHF = FW-Betrag × Kurs (CHF je 1 Einheit), nie FW ÷ Kurs. Jedes FW-Konto einzeln rechnen und zurückrechnen (CHF ÷ FW = Kurs); widersprüchliche Ergebnisse nie stehen lassen. — [HWP BuR S. 158](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0015-s158.md)
+- Anhangziffer je Sachverhalt bestimmen: Ziff. 8 Sicherheiten für Verbindlichkeiten Dritter, Ziff. 9 eigene Aktiven zur Sicherung eigener Verbindlichkeiten, Ziff. 10 Eventualverbindlichkeiten. Garantien für eigenes Handeln sind keine Sicherheiten für Dritte (nicht Ziff. 8) – Ziff. 10 prüfen, Entscheid WP. — [HWP BuR S. 348](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0842-s348.md) · [HWP BuR S. 350](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0850-s350.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -125,24 +132,24 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
 | B1-101 | Befragung | EP | RV | teilweise | Befragung über allfällige Verpfändung und Verfügungsbeschränkungen | Zuerst vorhandene schriftliche Antworten (z. B. 10.11 Kundenbefragung) zu Verpfändungen, Sperren, Garantiedepots und Verrechnungsrechten auswerten, sonst… |
-| B1-102 | Befragung | WP | EN PA | nur_mensch | Befragung zu aussergewöhnlichen Geldtransaktionen | Weitergehend (WP): nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko bzw. auf Anweisung des WP; Begründung dokumentieren.… |
-| B1-201 | Analytisch | WP | VO BE | nur_mensch | Kritische Beurteilung des Kassenbestandes (Höhe, Entwicklung) | WP-Schritt (Katalog): nur auf Anweisung des WP oder bei Hinweisen auf wesentliche Fehlaussagen bzw. erhöhtem inhärentem Risiko; Begründung dokumentieren.… |
-| B1-202 | Analytisch | WP | EX VO PA | nur_mensch | Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag | WP-Schritt (Katalog): nur auf Anweisung des WP oder bei Hinweisen auf wesentliche Fehlaussagen bzw. erhöhtem inhärentem Risiko; Begründung dokumentieren.… |
+| B1-102 | Befragung | WP | EN PA | nur_mensch | Befragung zu aussergewöhnlichen Geldtransaktionen | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
+| B1-201 | Analytisch | WP | VO BE | nur_mensch | Kritische Beurteilung des Kassenbestandes (Höhe, Entwicklung) | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
+| B1-202 | Analytisch | WP | EX VO PA | nur_mensch | Abklärung von Überweisungen innerhalb der Geldkonten unmittelbar vor und nach dem Stichtag | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
 | B1-301 | Detail | EP | EX VO | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und ▪ Kassabuch, Kassenaufnahmeprotokoll ▪ PC-Standmeldung ▪ Bankauszug ▪ Korrespondenz… | Je Geldkonto Saldo Hauptbuch 31.12. mit Nachweis per Stichtag abstimmen: Kassabuch/Kassenaufnahmeprotokoll, PC-/Bankauszug, Festgeldkorrespondenz… |
-| B1-302 | Detail | EP | BE | vorbereiten | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc. | Für alle Fremdwährungskonten (Kasse, Bank) Währungssaldo und angewandten Kurs aus der Buchhaltung mit dem Jahresendkurs gemäss Bankauszug oder Kursliste per… |
-| B1-303 | Detail |  | VO PA | vorbereiten | Prüfung richtige Verbuchung Zinsen, Verrechnungssteuern | Zins-/Kapitalausweise mit Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zins brutto erfasst, VSt als Forderung gebucht, Periode korrekt.… |
+| B1-302 | Detail | EP | BE | vorbereiten | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken etc. | Für jedes Fremdwährungskonto einzeln (Kasse, Bank, auch Zahlungsdienst-/Online-Konten in FW): FW-Saldo laut Auszug, CHF-Buchwert laut HB und gebuchten Kurs… |
+| B1-303 | Detail |  | VO PA | vorbereiten | Prüfung richtige Verbuchung Zinsen, Verrechnungssteuern | Zins-/Kapitalausweise mit Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zins brutto erfasst, VSt als Forderung gebucht, Periode korrekt. VSt… |
 | B1-304 | Detail |  | RV VO | vorbereiten | Beurteilung der Liquiditätsentwicklung und Überprüfung der Kreditlimiten | Entwicklung flüssige Mittel und Bankkredite (X/X-1, Monatsverlauf) analysieren; Kreditlimiten aus Verträgen/Auszügen mit Beanspruchung per Stichtag… |
-| B1-305 | Detail |  | RV EN PA | vorbereiten | Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen | Gemäss SER weitergehend: nur bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko bzw. auf Anweisung des WP; Begründung dokumentieren. Geldkonti… |
+| B1-305 | Detail |  | RV EN PA | vorbereiten | Kritische Durchsicht der Hauptbuchkonti und Abklärung der wirtschaftlichen Tatbestände für grössere oder ungewöhnliche Buchungen | Vorbereiten, falls im Prüfprogramm markiert (3xx, keine WP-Kennzeichnung). SER führt die Durchsicht als weitergehende Handlung; den Umfang nach Risiko 3.1 und… |
 | B1-306 | Detail |  | RV VO | vorbereiten | Einsichtnahme in die Bankenkorrespondenz und die Bankenverträge | Bankkorrespondenz und Bankverträge (Kontokorrent-, Kredit-, Pfand-, Garantie-, Depotverträge) in M-Files einsehen: Konten, Limiten, Sicherheiten, Garantien… |
-| B1-307 | Detail |  | BE | vorbereiten | Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte | Frage nach offenen Devisenkontrakten und Absicherungszweck als Pendenz erfassen; vorhandene Kontraktübersicht/Bankbewertung per 31.12. in M-Files auswerten… |
-| B1-308 | Detail | EP | BE | vorbereiten | Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anhand anderer… | Für kurzfristig gehaltene Wertschriften Anzahl und Kurs der Buchhaltung mit Depotauszug bzw. Jahresendkursen per 31.12. vergleichen und Wert nachrechnen.… |
-| B1-309 | Detail | WP | EX VO | nur_mensch | Belegprüfung einzelner wesentlicher Wertschriftentransaktionen | Weitergehend (WP): wesentliche Käufe/Verkäufe von Wertschriften aus Hauptbuch auswählen und mit Börsenabrechnung abgleichen (Titel, Anzahl, Kurs, Spesen… |
-| B1-310 | Detail | WP | RV | nur_mensch | Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen | Weitergehend (WP): auf Depot-/Kontoauszügen und Verträgen Inhaber der Konten und Wertschriften prüfen (lautet auf das Unternehmen, nicht auf… |
+| B1-307 | Detail |  | BE | vorbereiten | Prüfung der Bewertung der per Bilanzstichtag offenen Devisenkontrakte | Zuerst Saldoliste, Bankauszüge, vorhandene Bankbestätigungen sowie schriftliche Antworten (10.11, VE) auf Devisentermingeschäfte/Derivate durchsehen. Keine… |
+| B1-308 | Detail | EP | BE | vorbereiten | Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anhand anderer… | Keine Wertschriften bzw. Aktiven mit Börsenkurs in Saldoliste und Depotauszügen: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar», Entscheid… |
+| B1-309 | Detail | WP | EX VO | nur_mensch | Belegprüfung einzelner wesentlicher Wertschriftentransaktionen | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
+| B1-310 | Detail | WP | RV | nur_mensch | Prüfung der Eigentumsrechte des Unternehmens an den ausgewiesenen Beständen | WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»… |
 | B1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben aus diesem Prüffeld prüfen: verpfändete/abgetretene Aktiven (Art. 959c Abs. 2 Ziff. 9 OR), Sicherheiten für Dritte (Ziff. 8), bei… |
-| B1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakte nachführen: Liste der Bankbeziehungen und Konten (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträge, Zeichnungsberechtigungen… |
-| B1-401 | Sonstige |  | EX RV VO BE PA DO RI | auf_anweisung | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Keine eigenen Bankbestätigungen anfordern. Vom Unternehmen eingeholte… |
-| B1-402 | Sonstige |  | BE | auf_anweisung | Beurteilung der Bankenbonität | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Je Bank bzw. Kontoanbieter beurteilen, ob Hinweise auf… |
-| B1-404 | Sonstige |  | EX RV EN | auf_anweisung | Prüfung Ein- und Ausgänge anhand von Belegen | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Stichprobe von Ein- und Ausgängen auf den Geldkonten (risikoorientiert… |
-| B1-405 | Sonstige |  | EX RV EN PA | auf_anweisung | Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Für ausgewählte Zahlungen die zugrunde liegenden Unterlagen einsehen… |
-| B1-406 | Sonstige |  | EX VO RI | auf_anweisung | Saldenabstimmung Prüfungszeitraum (Anfang/Ende) | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Eröffnungssalden 01.01. der Geldkonten mit Schlusssalden der… |
-| B1-407 | Sonstige |  | EN VO RI | auf_anweisung | Prüfung interner Überträge (Kassa/Postcheck/Banken) | Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Interne Überträge Kasse/Post/Banken im Jahresverlauf aus dem Hauptbuch… |
+| B1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakten lesen (revio Dauerakten, M-Files) und mit aktuellen Bankverträgen, Kontenliste (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträgen… |
+| B1-401 | Sonstige |  | EX RV VO BE PA DO RI | auf_anweisung | Prüfung der Banken anhand von Bankenbestätigungen (Nachweis Bestand, Vollständigkeit der Konti, Vollständigkeit der Verpflichtungen) | Gilt für das Einholen von Bankbestätigungen. Eine vom Unternehmen eingeholte Bestätigung, die schon in der Akte liegt, wird ohne Anweisung in B1-301 (Saldi)… |
+| B1-402 | Sonstige |  | BE | auf_anweisung | Beurteilung der Bankenbonität | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Je Bank bzw.… |
+| B1-404 | Sonstige |  | EX RV EN | auf_anweisung | Prüfung Ein- und Ausgänge anhand von Belegen | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Stichprobe von Ein- und… |
+| B1-405 | Sonstige |  | EX RV EN PA | auf_anweisung | Einsichtnahme in die Unterlagen, die zu Zahlungen Anlass gaben | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Für ausgewählte… |
+| B1-406 | Sonstige |  | EX VO RI | auf_anweisung | Saldenabstimmung Prüfungszeitraum (Anfang/Ende) | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Mit Anweisung… |
+| B1-407 | Sonstige |  | EN VO RI | auf_anweisung | Prüfung interner Überträge (Kassa/Postcheck/Banken) | Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Interne Überträge… |

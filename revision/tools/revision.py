@@ -38,8 +38,14 @@ def cut(s, n):
     if len(s) <= n:
         return s
     t = s[: n - 1]
-    w = t.rsplit(" ", 1)[0] if " " in t else t
-    return (w if len(w) >= n // 2 else t).rstrip(" ,;:–-") + "…"
+    if not s[n - 1].isspace() and not t[-1:].isspace():   # Schnitt fiele ins Wort
+        w = t.rsplit(" ", 1)[0] if " " in t else ""
+        if len(w) < n // 2:   # Wortgrenze zu weit vorne: Wort zu Ende führen (lange Komposita), sonst an der Wortgrenze
+            ende = s[: n - 1] + re.match(r"\S*", s[n - 1:]).group(0)
+            t = ende if len(ende) <= n + 20 else (w or t)
+        else:
+            t = w
+    return s if t == s else t.rstrip(" ,;:–-") + "…"
 
 
 ABK = set("bzw z.b u.a ca abs art ziff nr vgl evtl inkl d.h rz lit bst max min sog usw etc ggf allf insb resp spez gem mio chf "
@@ -70,6 +76,21 @@ def erster_satz(s, n=220):
             continue
         return s[: m.start() + 1]
     return s if len(s) <= n else cut(s, n)
+
+
+def saetze(s) -> list[str]:
+    """Text in Sätze teilen (Satzende nicht nach Abkürzungen wie «Art.», «z.B.», «Abs. 1.»)."""
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    out, a = [], 0
+    for m in re.finditer(r"[.!?](?= )", s):
+        w = (re.findall(r"[\w.]+$", s[a: m.start()]) or [""])[0].lower()
+        if s[m.start()] == "." and (w in ABK or w.isdigit() or len(w) <= 1):
+            continue
+        out.append(s[a: m.start() + 1].strip())
+        a = m.start() + 1
+    if s[a:].strip():
+        out.append(s[a:].strip())
+    return out
 
 
 def _refs(x: dict, text: str = "") -> str:
@@ -524,8 +545,10 @@ def _themen_zu(code: str | None = None, sid: str | None = None, n: int = 3) -> l
     hits = []
     for i, t in enumerate(L().get("themen", [])):
         sw = [str(x).strip() for x in t.get("stichworte") or []]
-        if sid:
-            sc = 3 if sid in sw else 0
+        if sid:   # Stichwort = Schritt-Id zuerst; sonst Thema, dessen Agent-Anweisungen den Schritt nennen (Hauptprüffeld und Häufigkeit gewichtet)
+            cnt = len(re.findall(rf"(?<![\w-]){re.escape(sid)}(?!\d)", " ".join(map(str, t.get("agent") or []))))
+            pfs, c0 = t.get("prueffelder") or [], sid.split("-")[0]
+            sc = 3 if sid in sw else (1 + 0.1 * min(cnt, 5) + (0.3 if pfs[:1] == [c0] else 0.1 if c0 in pfs else 0) if cnt else 0)
         else:
             sc = (2 if any(x.startswith(f"{code}-") for x in sw) else 0) + (1 if code in (t.get("prueffelder") or []) else 0)
             sc += 0.5 if (t.get("prueffelder") or [None])[0] == code else 0
@@ -783,20 +806,36 @@ def prozess(ref: str | None = None) -> str:
     return "\n".join(out)
 
 
+REGEL_FOLGE = ("grenze", "schritttyp", "ablauf", "notizen", "wesentlichkeit")   # ohne Bereich: Grenzen zuerst, gesetz nur auf Abruf
+
+
 def regeln(bereich: str | None = None) -> str:
     alle = L().get("regeln", [])
-    rs = alle
-    if bereich:
-        b = norm(bereich).strip()
-        if b in {norm(r["bereich"]) for r in alle}:   # genauer Bereich zuerst (sonst trifft «grenze» auch «Nichtaufgriffsgrenze»)
-            rs = [r for r in alle if norm(r["bereich"]) == b]
-        else:
-            rs = [r for r in alle if norm(r["bereich"]).startswith(b) or b in norm(r["key"]) or b in norm(r["regel"])]
+    bereiche = list(dict.fromkeys(r["bereich"] for r in alle))
+    if not bereich:   # Übersicht: verbindliche Arbeitsregeln ohne Zitat-Duplikat; gesetz weglassen
+        folge = [b for b in REGEL_FOLGE if b in bereiche] + [b for b in bereiche if b not in REGEL_FOLGE and b != "gesetz"]
+        out = ["# Regeln des Agenten – verbindlich; Grenzen gehen vor"]
+        for b in folge:
+            out += ["", f"## {b}"]
+            out += [f"- {r['regel']}" + ("" if not r.get("quelle") or f"^[{r['quelle']}]" in r["regel"] else f" ^[{r['quelle']}]")
+                    for r in alle if r["bereich"] == b]
+        out += ["", "Unklar → Notiz «Pendenz», nichts erfinden. Wortlaut: `zeige <chunk-id>`. Gesetz/Kapitalschutz: `regeln gesetz`. "
+                "Ein Bereich mit Zitaten: `regeln <bereich>` (" + ", ".join(bereiche) + ")."]
+        return "\n".join(out)
+    b = norm(bereich).strip()
+    if b in {norm(x) for x in bereiche}:   # genauer Bereich zuerst (sonst trifft «grenze» auch «Nichtaufgriffsgrenze»)
+        rs = [r for r in alle if norm(r["bereich"]) == b]
+    elif len(b) >= 4 and any(norm(x).startswith(b) for x in bereiche):   # «notiz» → notizen
+        rs = [r for r in alle if norm(r["bereich"]).startswith(b)]
+    else:   # exakter Schlüssel zuerst, dann Wortanfang in Schlüssel/Regeltext («vorjahr» trifft nicht «Nichtvorjahr…»)
+        ex = [r for r in alle if norm(r["key"]) == b.replace(" ", "_")]
+        pat = re.compile(r"(?<![a-z0-9])" + re.escape(b))
+        rs = ex + [r for r in alle if r not in ex and pat.search(norm(r["key"].replace("_", " ") + " " + r["regel"]))]
     if not rs:
-        return "Keine Regel gefunden. Bereiche: " + ", ".join(dict.fromkeys(r["bereich"] for r in alle)) + "."
-    order = {b: i for i, b in enumerate(dict.fromkeys(r["bereich"] for r in alle))}
-    rs = sorted(rs, key=lambda r: order[r["bereich"]])   # je Bereich eine Überschrift
-    out = ["# Regeln des Revisionsagenten" + (f" · {bereich}" if bereich else "")]
+        return "Keine Regel gefunden. Bereiche: " + ", ".join(bereiche) + "."
+    order = {x: i for i, x in enumerate(bereiche)}
+    rs = sorted(rs, key=lambda r: order[r["bereich"]])   # je Bereich eine Überschrift (stabil: exakter Schlüssel bleibt vorne)
+    out = [f"# Regeln des Agenten · {bereich} – verbindlich; Grenzen gehen vor"]
     cur = None
     for r in rs:
         if r["bereich"] != cur:
@@ -937,6 +976,9 @@ def revio(ref: str | None = None) -> str:
         if b.get("hinweise"):
             out.append(f"\n{b['hinweise']}")
         return "\n".join(out)
+    m = re.match(r"^(\d+)\.(\d+|x)$", nr)   # Unterbereich ohne eigenen Eintrag (1.1, 2.x, 10.5) → Elternbereich
+    if m and any(norm(x["nr"]) == m.group(1) for x in rv.get("bereiche", [])):
+        return f"(Unterbereich {r} gehört zu Bereich {m.group(1)})\n" + revio(m.group(1))
     sid = schritt_id(r)
     if sid and sid in L().get("katalog", {}).get("schritte", {}):
         s = L()["katalog"]["schritte"][sid]
@@ -980,46 +1022,174 @@ def revio(ref: str | None = None) -> str:
 
 
 # ------------------------------------------------------------------ Werte und Rechnen
+def _jahre_key(w: dict) -> set:
+    return set(re.findall(r"_(20\d{2})(?=_|$)", w.get("key", "")))
+
+
+def _jahr_genannt(w: dict, jahre: set) -> bool:
+    """Wert gilt ausdrücklich für eines der Jahre (Jahr im Schlüssel oder im Feld «gilt», z.B. «GJ 2025 und 2026»)."""
+    return bool(_jahre_key(w) & jahre) or any(re.search(rf"(?<!\d){j}(?!\d)", str(w.get("gilt", ""))) for j in jahre)
+
+
+# Fachbegriffe ↔ Begriffe der Quellen (ESTV: «Beteiligte», «Vorschüsse»): Wortanfang → zusätzlich gesuchte Wortanfänge
+WERT_SYN = (("aktionar", ("beteilig", "nahesteh")), ("gesellschafter", ("beteilig",)), ("zinssatz", ("zins",)),
+            ("darlehen", ("vorschuss", "kredit")))
+
+
 def wert(begriff: str) -> str:
-    ws = L().get("werte", [])
-    ts = terms_of(begriff)
-    sc = []
-    for w in ws:
-        txt = norm(" ".join(str(w.get(k, "")) for k in ("key", "bezeichnung", "kategorie", "bemerkung")))
-        s = sum(2 if t[:6] in norm(w.get("key", "") + " " + w.get("bezeichnung", "")) else (1 if t[:6] in txt else 0) for t in ts)
-        if s:
-            sc.append((s, w))
+    alle = L().get("werte", [])
+    jahre = set(re.findall(r"(?<![\d_])(20\d{2})(?![\d_])", begriff))
+    kb = norm(begriff).strip()
+    if re.fullmatch(r"[a-z0-9_]{4,}", kb) and "_" in kb:   # Schlüssel(präfix) wie estv_zins_2025 → nur diese Schlüssel
+        sel = [w for w in alle if norm(w.get("key", "")).startswith(kb)]
+        if sel:
+            return _wert_tabelle(begriff, sel, set())
+    ts = [t for t in terms_of(begriff) if t not in jahre]   # Jahr filtert (Schlüssel/«gilt»), zählt aber nicht als Suchwort
+    # Wortanfang: kurze Wörter ganz, lange mit Präfix len−5 (mind. 6): «kapitalverlust» trifft nicht «Kapitalsteuer», «Zinssätze» trifft «Zinssatz»
+    h1 = lambda t, x, wa=False: (bool(re.search(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])", x)) if len(t) <= 3  # noqa: E731
+                                 else ((" " if wa else "") + t[:max(6, len(t) - 5)] in x))
+    hit = lambda t, x, wa=False: h1(t, x, wa) or any(h1(z, x, wa) for p, syn in WERT_SYN if t.startswith(p) for z in syn)  # noqa: E731
+
+    def punkte(liste, mit_hinweis: bool):
+        sc = []
+        for w in liste:
+            kopf = norm(w.get("key", "").replace("_", " ") + " " + w.get("bezeichnung", ""))
+            rest = norm(str(w.get("kategorie", "")) + (" " + str(w.get("bemerkung", "")) if mit_hinweis else ""))
+            # Wortanfang im Kopf zählt mehr als ein Treffer mitten im Wort («kapitalverlust» ≠ «Eigenkapital»)
+            sk = " " + re.sub(r"[-/(),.]", " ", kopf)
+            s = sum(2 if hit(t, sk, True) else 1.5 if hit(t, kopf) else (1 if hit(t, rest) else 0) for t in ts)
+            if s or (not ts and jahre and _jahr_genannt(w, jahre)):
+                sc.append((s + (0.5 if jahre and _jahr_genannt(w, jahre) else 0), w))
+        return sc
+
+    def finde(liste):   # Hinweistexte nur durchsuchen, wenn Schlüssel/Bezeichnung/Kategorie nichts treffen
+        return punkte(liste, False) or punkte(liste, True)
+
+    ws = [w for w in alle if not _jahre_key(w) or _jahr_genannt(w, jahre)] if jahre else alle   # Jahr im Schlüssel muss passen
+    sc = finde(ws)
+    fehlt = ""
+    if jahre:   # Werte mit Jahr im Schlüssel gefunden, aber keiner für das gefragte Jahr → offenlegen
+        mit_jahr = [w for _, w in finde([w for w in alle if _jahre_key(w)])]
+        if mit_jahr and not any(_jahr_genannt(w, jahre) for w in mit_jahr):
+            andere = sorted({j for w in mit_jahr for j in _jahre_key(w)})
+            fehlt = (f"⚠ Kein Wert für {', '.join(sorted(jahre))} im Wiki (erfasst: {', '.join(andere)}). Vorjahreswert nur ausdrücklich als "
+                     "«Vorjahr, nicht bestätigt» nennen; Satz des Jahres beim WP erfragen (Pendenz)." +
+                     (" Unten nur jahresunabhängige Werte." if sc else ""))
     if not sc:
-        return f"Kein Wert zu «{begriff}». Kategorien: " + ", ".join(sorted({w.get('kategorie', '') for w in ws})) + ". Sonst `suche`."
+        return fehlt or f"Kein Wert zu «{begriff}». Kategorien: " + ", ".join(sorted({w.get('kategorie', '') for w in alle})) + ". Sonst `suche`."
     best = max(x[0] for x in sc)
-    sel = [w for s, w in sorted(sc, key=lambda x: -x[0]) if s >= max(1, best - 1)][:12]
-    out = [f"# Werte zu «{begriff}»", "", "| Wert | Betrag | gilt | Fundstelle |", "|---|---|---|---|"]
+    sel = [w for x, w in sorted(sc, key=lambda x: -x[0]) if x >= (max(1, best - 1) if ts else 0.5)][:16]
+    return (fehlt + "\n\n" if fehlt else "") + _wert_tabelle(begriff, sel, jahre)
+
+
+def _wert_tabelle(begriff: str, sel: list, jahre: set) -> str:
+    out = [f"# Werte zu «{begriff}»" + (f" (nur Jahr {', '.join(sorted(jahre))} bzw. ohne Jahr)" if jahre else ""), "",
+           "| Wert | Betrag | gilt | Fundstelle |", "|---|---|---|---|"]
     for w in sel:
         out.append(f"| {w['bezeichnung']} | **{w['wert']} {w.get('einheit', '')}** | {w.get('gilt', '')} | {kurz_of(w.get('quelle') or w.get('chunk'))} ^[{w.get('quelle') or w.get('chunk')}] |")
-    notes = [f"- {w['bezeichnung']}: {w['bemerkung']}" for w in sel if w.get("bemerkung")]
+    seen, notes = set(), []
+    for w in sel:   # Hinweise ohne Wiederholungen (gleiche Sätze bei mehreren Werten nur einmal)
+        teile = [s for s in re.split(r"(?<=\.)\s+", str(w.get("bemerkung") or "")) if s and s not in seen]
+        seen.update(teile)
+        if teile:
+            notes.append(f"- {w['bezeichnung']}: {' '.join(teile)}")
     if notes:
         out += ["", "Hinweise:"] + notes
     out += ["", f"Zitat: `zeige <chunk-id>` · Status: {STATUS}"]
     return "\n".join(out)
 
 
+def zahl(v) -> str:
+    """Ergebnis anzeigen: Datum als TT.MM.JJJJ, kleine Nicht-Ganzzahlen mit bis zu 4 Stellen (0.8333), sonst wie Beträge (1'234.50)."""
+    if isinstance(v, date):
+        return v.strftime("%d.%m.%Y")
+    if isinstance(v, float) and abs(v) < 100 and abs(v - round(v)) > 1e-9:
+        t = f"{v:.4f}".rstrip("0").rstrip(".")
+        return t if t not in ("0", "-0") else f"{v:.6g}"
+    return chf(v)
+
+
+RECHNE_HILFE = ("erlaubt: Zahlen (6'800, 12.5 %), + - * / ( ), min, max, round, abs, sum; Namen aus früheren Teilen ohne Leerzeichen "
+                "(«a = 1200; b = 300; a - b»); Datum TT.MM.JJJJ oder JJJJ-MM-TT nur in tage(später, früher), tage360(später, früher), "
+                "monate(später, früher), datum_plus(datum, jahre=…, monate=…, tage=…); Minus als - schreiben")
+_DATUM = re.compile(r"(?<![\d.\-])(?:(\d{1,2})\.(\d{1,2})\.(\d{4})|(\d{4})-(\d{2})-(\d{2}))(?:[ T]\d{1,2}:\d{2}(?::\d{2})?)?(?![\d.]\d)")
+
+
+def _d(x) -> date:
+    if isinstance(x, date):
+        return x
+    raise ValueError("Datum erwartet (TT.MM.JJJJ oder JJJJ-MM-TT)")
+
+
+def _monatsende(d: date) -> bool:
+    return d.day == calendar.monthrange(d.year, d.month)[1]
+
+
+def _monate(a, b) -> int:
+    a, b = _d(a), _d(b)
+    if a < b:
+        return -_monate(b, a)
+    m = (a.year - b.year) * 12 + (a.month - b.month)
+    return m - 1 if a.day < b.day and not _monatsende(a) else m   # nur ganze Monate (Monatsende zählt als voll)
+
+
+def _ganz(x, was: str) -> int:
+    if isinstance(x, date) or abs(x - round(x)) > 1e-9:
+        raise ValueError(f"{was}: ganze Zahl erwartet")
+    return int(round(x))
+
+
+def _datum_plus(d, jahre=0, monate=0, tage=0) -> date:
+    d = _d(d)
+    m0 = d.month - 1 + _ganz(jahre, "jahre") * 12 + _ganz(monate, "monate")
+    y, m = d.year + m0 // 12, m0 % 12 + 1
+    return date(y, m, min(d.day, calendar.monthrange(y, m)[1])) + timedelta(days=_ganz(tage, "tage"))
+
+
 def rechne(ausdruck) -> str:
-    """Rechnet exakt: + - * / ( ), %, min(), max(), round(), abs(); Zahlen auch als 6'800. Mehrere mit «;», optional «Name = Ausdruck»."""
+    """Rechnet exakt: + - * / ( ), %, min(), max(), round(), abs(), sum(); Zahlen auch als 6'800. Mehrere mit «;» oder Zeilenumbruch,
+    optional «Name = Ausdruck» (Namen ohne Leerzeichen gelten in den folgenden Teilen). Datum: tage(später, früher), tage360 (30E/360),
+    monate (ganze Monate), datum_plus(datum, jahre=, monate=, tage=)."""
     import ast
     import operator as op
     ops = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul, ast.Div: op.truediv, ast.USub: op.neg, ast.UAdd: op.pos}
-    funcs = {"min": min, "max": max, "round": round, "abs": abs, "sum": lambda *a: sum(a)}
+    funcs = {"min": min, "max": max, "round": round, "abs": abs, "sum": lambda *a: sum(a),
+             "tage": lambda a, b: (_d(a) - _d(b)).days,
+             "tage360": lambda a, b: ((_d(a).year - _d(b).year) * 360 + (_d(a).month - _d(b).month) * 30
+                                      + (min(_d(a).day, 30) - min(_d(b).day, 30))),
+             "monate": _monate, "datum_plus": _datum_plus}
+    env: dict = {}
+    dat: dict = {}
 
     def ev(n):
-        if isinstance(n, ast.Constant) and isinstance(n.value, (int, float)):
+        if isinstance(n, ast.Constant) and isinstance(n.value, (int, float)) and not isinstance(n.value, bool):
             return n.value
-        if isinstance(n, ast.BinOp) and type(n.op) in ops:
-            return ops[type(n.op)](ev(n.left), ev(n.right))
-        if isinstance(n, ast.UnaryOp) and type(n.op) in ops:
-            return ops[type(n.op)](ev(n.operand))
-        if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in funcs and not n.keywords:
-            return funcs[n.func.id](*[ev(a) for a in n.args])
+        if isinstance(n, ast.Name):
+            if n.id in dat:
+                return dat[n.id]
+            if n.id in env:
+                return env[n.id]
+            raise ValueError(f"unbekannter Name «{n.id}» – zuerst «{n.id} = …» rechnen (Namen ohne Leerzeichen)")
+        if isinstance(n, (ast.BinOp, ast.UnaryOp)) and type(n.op) in ops:
+            xs = [ev(n.left), ev(n.right)] if isinstance(n, ast.BinOp) else [ev(n.operand)]
+            if any(isinstance(x, date) for x in xs):
+                raise ValueError("mit einem Datum nur tage(), tage360(), monate() oder datum_plus() rechnen")
+            return ops[type(n.op)](*xs)
+        if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in funcs:
+            kw = {}
+            for k in n.keywords:
+                if n.func.id != "datum_plus" or k.arg not in ("jahre", "monate", "tage"):
+                    raise ValueError(f"Parameter «{k.arg}» nicht erlaubt (nur datum_plus: jahre=, monate=, tage=)")
+                kw[k.arg] = ev(k.value)
+            args = [ev(x) for x in n.args]
+            if n.func.id in ("min", "max", "round", "abs", "sum") and any(isinstance(x, date) for x in args):
+                raise ValueError(f"{n.func.id}() rechnet nur mit Zahlen")
+            try:
+                return funcs[n.func.id](*args, **kw)
+            except TypeError:
+                raise ValueError(f"{n.func.id}(): falsche Anzahl Werte") from None
         raise ValueError("nicht erlaubt")
+
     out, teile, tiefe, akt = [], [], 0, ""
     for ch in str(ausdruck):
         tiefe += (ch == "(") - (ch == ")")
@@ -1031,15 +1201,32 @@ def rechne(ausdruck) -> str:
     teile.append(akt)
     for teil in [t.strip() for t in teile if t.strip()]:
         name, expr = (teil.split("=", 1) + [""])[:2] if re.match(r"^[^=()]+=[^=]", teil) else ("", teil)
+        name = unicodedata.normalize("NFKC", name.strip())
         e = expr.strip() or teil
-        e2 = re.sub(r"(?<=\d)['’](?=\d{3})", "", e).replace("×", "*").replace("÷", "/")
-        e2 = re.sub(r"(?<=[\d)\s])x(?=[\s\d(])", "*", e2).replace(";", ",")
-        e2 = re.sub(r"(\d+(?:\.\d+)?)\s*%", r"(\1/100)", e2)
+
+        def datum(m):
+            try:
+                d = date(int(m.group(3)), int(m.group(2)), int(m.group(1))) if m.group(1) else date(int(m.group(4)), int(m.group(5)), int(m.group(6)))
+            except ValueError:
+                raise ValueError(f"ungültiges Datum «{m.group(0)}»") from None
+            dat[f"_D{len(dat)}_"] = d
+            return f"_D{len(dat) - 1}_"
         try:
+            e2 = _DATUM.sub(datum, e)   # Datum zuerst (sonst wäre 2025-12-31 eine Subtraktion)
+            e2 = re.sub(r"(?<=\d)['’](?=\d{3})", "", e2).replace("×", "*").replace("·", "*").replace("÷", "/").replace("−", "-")
+            e2 = re.sub(r"(?<=[\w)])\s+–\s+(?=[\w(])", " - ", e2)   # Gedankenstrich mit Leerzeichen = Minus; «3000–3099» (Kontenbereich) bleibt Fehler
+            e2 = re.sub(r"(?<=[\d)])\s*x\s*(?=[\d(])", " * ", e2).replace(";", ",")
+            e2 = re.sub(r"(\d+(?:\.\d+)?)\s*%", r"(\1/100)", e2)
             v = ev(ast.parse(e2, mode="eval").body)
-            out.append(f"{name.strip() + ' = ' if name.strip() else ''}{e.strip()} = **{chf(v)}**")
+            if name.isidentifier():
+                env[name] = v
+            out.append(f"{name + ' = ' if name else ''}{e.strip()} = **{zahl(v)}**")
+        except ZeroDivisionError:
+            out.append(f"{teil}: nicht rechenbar – Division durch 0")
+        except ValueError as x:
+            out.append(f"{teil}: nicht rechenbar – {x} ({RECHNE_HILFE})")
         except Exception:
-            out.append(f"{teil}: nicht rechenbar (erlaubt: Zahlen, + - * / ( ), %, min, max, round, abs, sum)")
+            out.append(f"{teil}: nicht rechenbar ({RECHNE_HILFE})")
     return "\n".join(out)
 
 
@@ -1055,7 +1242,7 @@ def num(x) -> float:
     try:
         return float(s) * mult
     except ValueError:
-        raise ValueError(f"Zahl erwartet, z.B. 80000 (erhalten: {x!r})") from None
+        raise ValueError(f"Zahl erwartet, z.B. 50000 (erhalten: {x!r})") from None
 
 
 def _r(key):
@@ -1068,7 +1255,8 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
                    jahresergebnis=None, eigene_aktien=None, reserve_voll=0, covid_kredit=0) -> str:
     """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals, reserve_voll ohne Kappung), Kapitalverlust,
     Überschuldung, Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell), aus Bestandteilen oder aus Aktiven − Verbindlichkeiten.
-    covid_kredit (Art. 3 Covid-19-SBüV) zählt nicht als Fremdkapital (Art. 24 Covid-19-SBüG)."""
+    covid_kredit (Kredit nach Art. 3 Covid-19-SBüV bzw. Darlehen/Kredit nach Art. 21 HFMV 20) zählt nicht als Fremdkapital
+    (Art. 24 Covid-19-SBüG; HWP ER Rz 373)."""
     AK, KR, GR, RR = num(aktienkapital), num(kapitalreserve), num(gewinnreserve), num(rangruecktritt)
     RV, CK = num(reserve_voll), num(covid_kredit)
     teile = [x for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien) if x not in (None, "")]
@@ -1093,14 +1281,19 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
     haelfte = gesch / 2
     kv = EK < haelfte
     ueber = EK < 0
-    out = ["# Kapitalverlust / Überschuldung – Rechenhilfe (Beurteilung und Bericht: WP)", "",
-           f"**Ergebnis: {'KAPITALVERLUST' if kv else 'kein Kapitalverlust'}" + (f" und ÜBERSCHULDUNG (Fehlbetrag {chf(-EK)})" if ueber else "") +
-           f"** – Eigenkapital{' inkl. Covid-19-Kredit' if CK else ''} {chf(EK)} {'<' if kv else '≥'} Hälfte des geschützten Kapitals {chf(haelfte)}" +
-           (f" (Unterdeckung {chf(haelfte - EK)})" if kv else ""), "",
+    ergebnis = (f"**Ergebnis: {'KAPITALVERLUST' if kv else 'kein Kapitalverlust'}" + (f" und BUCHMÄSSIGE ÜBERSCHULDUNG (Fehlbetrag {chf(-EK)})" if ueber else "") +
+                f"** – Eigenkapital{' inkl. Covid-19-Kredit' if CK else ''} {chf(EK)} {'<' if kv else '≥'} Hälfte des geschützten Kapitals {chf(haelfte)}" +
+                (f" (Unterdeckung {chf(haelfte - EK)})" if kv else f" (Abstand zur Schwelle {chf(EK - haelfte)} – mit GW aus 3.3 vergleichen)") +
+                (f" (Abstand zu 0: {chf(EK)})" if kv and not ueber else ""))
+    out = ["# Kapitalverlust / Überschuldung – Rechenhilfe (Beurteilung und Bericht: WP)", "", ergebnis]
+    if ueber:
+        out.append("→ begründete Besorgnis einer Überschuldung: VR erstellt unverzüglich Zwischenabschlüsse (OR 725b Abs. 1); ob die Gesellschaft "
+                   "überschuldet ist, zeigen erst die geprüften Zwischenabschlüsse (OR 725b Abs. 2/3) ^[or__art-725b-t1]")
+    out += ["",
            "| Rechnung | CHF |", "|---|---|",
            (f"| Eigenkapital ({quelle_ek}) | {chf(EK_bil)} |" if CK else f"| Eigenkapital ({quelle_ek}) | **{chf(EK)}** |")]
     if CK:
-        out += [f"| + Covid-19-Kredit (Art. 3 Covid-19-SBüV) nicht als Fremdkapital (Art. 24 Covid-19-SBüG) | {chf(CK)} |",
+        out += [f"| + Kredit nach Art. 3 Covid-19-SBüV bzw. Darlehen/Kredit nach Art. 21 HFMV 20 – kein Fremdkapital (Art. 24 Covid-19-SBüG; HWP ER Rz 373) | {chf(CK)} |",
                 f"| Eigenkapital für OR 725a/725b | **{chf(EK)}** |"]
     out += [f"| Grundkapital (Aktien- + PS-Kapital) | {chf(AK)} |",
             f"| gesetzliche Kapital- + Gewinnreserve | {chf(KR + GR)} |",
@@ -1111,30 +1304,44 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
             f"| Hälfte = Schwelle OR 725a | **{chf(haelfte)}** |"]
     if ueber:
         need = -EK
-        out += ["", f"Rangrücktritt erfasst {chf(RR)} → " + ("deckt den Fehlbetrag zu Buchwerten" if RR >= need else f"deckt den Fehlbetrag NICHT (fehlen {chf(need - RR)})") +
-                " – muss Betrag UND Zinsen während der Überschuldung umfassen, Forderung gestundet; beseitigt die Überschuldung nicht."]
+        out += ["", f"Rangrücktritt erfasst {chf(RR)} → " +
+                ("deckt den Fehlbetrag gemäss Eingabe (Jahresrechnung = nur Indikator; massgebend der geprüfte Zwischenabschluss)" if RR >= need
+                 else f"deckt den Fehlbetrag gemäss Eingabe NICHT (fehlen {chf(need - RR)}; massgebend der geprüfte Zwischenabschluss)") +
+                " – muss Betrag UND Zinsen während der Überschuldung umfassen, Forderung gestundet; beseitigt die Überschuldung nicht. "
+                "Ohne Sicherheitspolster für die in den nächsten 12 Monaten erwarteten Verluste ^[hwp-er-2026__rz-0421-s125]; bei gefährdeter "
+                "Fortführung höherer Betrag, bei konkreter Gefahr Deckungslücke zu Liquidationswerten ^[hwp-bur-2023__rz-0720-s307]. "
+                "Massgebendes Ausmass wählt der WP."]
     if buchwert not in (None, "") and verkehrswert not in (None, ""):
         akt = max(0.0, num(verkehrswert) - num(buchwert))
         pas = max(0.0, (haelfte - EK) * 2)
         zul = min(akt, pas)
         out += ["", "## Aufwertung OR 725c (Grundstücke/Beteiligungen)", "| Grenze | CHF |", "|---|---|",
-                f"| aktivseitig: Verkehrswert {chf(num(verkehrswert))} − Buchwert {chf(num(buchwert))} | {chf(akt)} |",
+                f"| aktivseitig: wirklicher bzw. erzielbarer Wert (`--verkehrswert`) {chf(num(verkehrswert))} − Buchwert {chf(num(buchwert))} | {chf(akt)} |",
                 f"| passivseitig: (Hälfte geschütztes Kapital {chf(haelfte)} − EK {chf(EK)}) × 2 | {chf(pas)} |",
                 f"| **zulässig (tieferer Wert)** | **{chf(zul)}** |",
                 "Buchung erfolgsneutral: Grundstück/Beteiligung an Aufwertungsreserve (gesondert unter der gesetzlichen Gewinnreserve); "
-                "schriftliche Bestätigung der Revisionsstelle bzw. eines zugelassenen Revisors nötig; Anhangangaben."]
+                "schriftliche Bestätigung der Revisionsstelle bzw. eines zugelassenen Revisors nötig; Anhangangaben. "
+                "Die Aufwertungsreserve zählt danach voll zum geschützten Kapital ^[hwp-bur-2023__rz-0889-s359]: im Folgejahr mit `--reserve-voll` "
+                "eingeben, nicht in `--gewinnreserve`."]
+    if CK:
+        out += ["", "ℹ️ Nur Kredite nach Art. 3 Covid-19-SBüV (Art. 24 Covid-19-SBüG nennt nur diese) bzw. Darlehen/Kredite nach Art. 21 HFMV 20 "
+                "^[hwp-er-2026__rz-0373-s113]; andere Kredite nicht abziehen, im Zweifel WP. Gilt bis 31.12.2032 ^[covid-sbueg__art-31] "
+                "(HFMV 20: bis 31.12.2031). Verbindlichkeiten wie in der Bilanz eingeben (Kredit nicht zusätzlich abziehen)."]
     if not (RV or CK):
         out += ["", "ℹ️ Nicht erfasst: Gewinnreserven für eigene Kapitalanteile im Konzern/aus Aufwertung (zählen voll → `reserve_voll` bzw. "
-                "`--reserve-voll`), Covid-19-Kredit (kein Fremdkapital → `covid_kredit` bzw. `--covid-kredit`) – falls vorhanden, neu rechnen."]
+                "`--reserve-voll`), Covid-19-Kredit nach Art. 3 Covid-19-SBüV bzw. Art. 21 HFMV 20 (kein Fremdkapital → `covid_kredit` bzw. "
+                "`--covid-kredit`; Verbindlichkeiten wie in der Bilanz, Kredit nicht vorher abziehen) – falls vorhanden, neu rechnen."]
     out += ["", "## Regeln (mit Fundstelle)"]
     for k in ("geschuetztes_kapital", "geschuetztes_kapital_reserven", "geschuetztes_kapital_voll", "or725a_kapitalverlust", "eigene_aktien_bezugsgroesse",
               "covid_kredit", "or725a_optingout", "or725b_zwischenabschluss", "or725b_pruefung", "or725b_rangruecktritt", "rangruecktritt_umfang",
-              "rangruecktritt_keine_sanierung", "or725b_90tage", "or729c_anzeige"):
+              "rangruecktritt_keine_sanierung", "or725b_90tage", "or729c_anzeige", "or725b_ohne_rs"):
         if (k == "geschuetztes_kapital_voll" and not RV) or (k == "covid_kredit" and not CK):
             continue
         r = regel(k)
         if r:
-            out.append(f"- {r['regel']} ^[{r['quelle']}]")
+            out.append(f"- {r['regel']}" + ("" if f"^[{r['quelle']}]" in r["regel"] else f" ^[{r['quelle']}]"))
+        if r and k == "or725b_ohne_rs":
+            out.append("- Welcher zugelassene Revisor anzeigepflichtig ist (Opting-out): offen/strittig → `thema kapitalverlust`; Entscheid WP.")
     if buchwert not in (None, ""):
         for k in ("aufwertung_or725c", "aufwertung_aktiv", "aufwertung_passiv", "aufwertung_tiefer"):
             r = regel(k)
@@ -1145,36 +1352,62 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
     return "\n".join(out)
 
 
+def _pct(x, gw: float, std: float, was: str) -> tuple[float, str]:
+    """TW/NAG aus 3.3: leer → Konzept-Standard; «…%» oder ≤ 100 → Prozent; «CHF …» oder > 100 → Betrag (in % der GW umgerechnet)."""
+    if x in (None, ""):
+        return std, f"Konzept-Standard {chf(std)} %, nicht aus 3.3 eingegeben"
+    s = str(x).strip()
+    if s.endswith("%"):
+        v = num(s.rstrip("%").strip())
+        return v, f"Eingabe {zahl(float(v))} %"
+    betrag = bool(re.search(r"(?i)chf|fr\.", s))
+    v = num(re.sub(r"(?i)chf|fr\.", "", s))
+    if betrag or v > 100:
+        if gw <= 0:
+            raise ValueError(f"{was} als Betrag braucht eine Gesamtwesentlichkeit > 0")
+        return v / gw * 100, f"Eingabe CHF {chf(v)} = {zahl(v / gw * 100)} % der GW"
+    return v, f"Eingabe {zahl(float(v))} %"
+
+
 def wesentlichkeit(bezugsgroesse=None, satz=None, toleranz=None, nichtaufgriff=None, bezeichnung="Bezugsgrösse", gesamt=None) -> str:
-    """Gesamt-, Toleranz-, Nichtaufgriffsgrenze. Entweder Bezugsgrösse × Satz oder direkt die Gesamtwesentlichkeit (gesamt)."""
-    if gesamt not in (None, ""):
+    """Gesamt-, Toleranz-, Nichtaufgriffsgrenze. Entweder Bezugsgrösse × Satz oder direkt die Gesamtwesentlichkeit (gesamt).
+    toleranz/nichtaufgriff wie in revio 3.3: in % (75) oder als Betrag (CHF 37500 bzw. Zahl > 100)."""
+    leer = lambda v: v in (None, "")  # noqa: E731
+    if leer(gesamt) and (leer(bezugsgroesse) or leer(satz)):
+        return ("Aufruf: `wesentlichkeit <Bezugsgrösse CHF> <Satz %> [--toleranz 75 | 37500] [--nichtaufgriff 5 | 2500]` oder "
+                "`wesentlichkeit --gesamt <CHF> [--toleranz …] [--nichtaufgriff …]` (MCP: gesamt bzw. bezugsgroesse + satz). "
+                "Toleranz/NAG in % oder CHF wie in revio 3.3. Massgebend sind die Werte in revio 3.3 (`revio K3`); der Agent legt sie nie selbst fest.")
+    if not leer(gesamt):
         gw = num(gesamt)
         herk = "Gesamtwesentlichkeit (Eingabe)"
     else:
         B, S = num(bezugsgroesse), num(str(satz).rstrip("%"))
         gw = B * S / 100
-        herk = f"{chf(B)} × {chf(S)} % ({bezeichnung})"
-    T = num(str(toleranz).rstrip("%")) if toleranz not in (None, "") else 75
-    N = num(str(nichtaufgriff).rstrip("%")) if nichtaufgriff not in (None, "") else 5
+        herk = f"{chf(B)} × {zahl(float(S))} % ({bezeichnung})"
+    T, t_h = _pct(toleranz, gw, 75, "Toleranzwesentlichkeit")
+    N, n_h = _pct(nichtaufgriff, gw, 5, "Nichtaufgriffsgrenze")
     out = ["# Wesentlichkeit – Rechenhilfe (massgebend ist der Wert in revio 3.3; der Agent ändert ihn nie)", "",
            f"**Gesamtwesentlichkeit {chf(round(gw, 2))}** · Toleranzwesentlichkeit (HWP ER: in der Regel 50–75 %) **{chf(round(gw * 0.5, 2))} bis {chf(round(gw * 0.75, 2))}** · "
            f"Nichtaufgriffsgrenze (HWP ER: bis 5 %) **höchstens {chf(round(gw * 0.05, 2))}**", "",
            "| Grösse | Rechnung | CHF |", "|---|---|---|",
            f"| Gesamtwesentlichkeit | {herk} | {chf(round(gw, 2))} |",
-           f"| Toleranzwesentlichkeit gewählt | {chf(T)} % | {chf(round(gw * T / 100, 2))} |",
-           f"| Nichtaufgriffsgrenze gewählt | {chf(N)} % | {chf(round(gw * N / 100, 2))} |"]
-    if T < 50 or T > 75:
-        out.append(f"⚠️ Toleranz {chf(T)} % liegt ausserhalb der üblichen Bandbreite 50–75 % (HWP ER Rz 50) → Begründung prüfen, sonst Pendenz.")
-    if N > 5:
-        out.append(f"⚠️ Nichtaufgriffsgrenze {chf(N)} % liegt über 5 % (HWP ER Rz 51) → Pendenz.")
+           f"| Toleranzwesentlichkeit ({t_h}) | {zahl(float(T))} % | {chf(round(gw * T / 100, 2))} |",
+           f"| Nichtaufgriffsgrenze ({n_h}) | {zahl(float(N))} % | {chf(round(gw * N / 100, 2))} |"]
+    if T < 50 - 1e-9 or T > 75 + 1e-9:
+        out.append(f"⚠️ Toleranz {zahl(float(T))} % liegt ausserhalb der üblichen Bandbreite 50–75 % (HWP ER Rz 50) → Begründung in 3.3 prüfen, sonst Pendenz.")
+    if N > 5 + 1e-9:
+        out.append(f"⚠️ Nichtaufgriffsgrenze {zahl(float(N))} % liegt über 5 % (HWP ER Rz 51) → Pendenz.")
     out += ["", "## Regeln (mit Fundstelle)"]
-    for k in ("hwp_toleranz", "hwp_toleranz_zweck", "hwp_nag", "hwp_kumulieren", "lesen", "toleranz", "nichtaufgriff", "gesamt", "plausibel", "stichprobe_vorschlag"):
+    for k in ("hwp_toleranz", "hwp_toleranz_zweck", "hwp_nag", "hwp_kumulieren", "lesen", "toleranz", "nichtaufgriff", "gesamt", "plausibel",
+              "stichprobe_vorschlag", "keine_repraesentative_stichprobe"):
         r = regel(k)
         if r:
-            out.append(f"- {r['regel']} ^[{r['quelle']}]")
-    ws = [w for w in L().get("werte", []) if w.get("kategorie") == "wesentlichkeit"]
+            out.append(f"- {r['regel']}" + ("" if f"^[{r['quelle']}]" in r["regel"] else f" ^[{r['quelle']}]"))
+    ws = [w for w in L().get("werte", []) if w.get("kategorie") == "wesentlichkeit" and str(w.get("einheit", "")).strip() == "%"
+          and "beispiel" not in norm(w.get("bezeichnung", ""))]
     if ws:
-        out += ["", "## Bezugsgrössen / Prozentsätze (Fachliteratur)"] + [f"- {w['bezeichnung']}: {w['wert']} {w.get('einheit', '')} ^[{w.get('quelle') or w.get('chunk')}]" for w in ws[:10]]
+        out += ["", "## Richtwerte (HWP ER Rz 42/50/51; kein Muss – Rz 43)"] + [
+            f"- {w['bezeichnung']}: {w.get('zitat') or (str(w['wert']) + ' %')} ^[{w.get('quelle') or w.get('chunk')}]" for w in ws]
     return "\n".join(out)
 
 
@@ -1228,7 +1461,9 @@ def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, 
         r = regel(k)
         if r:
             out.append(f"- {r['regel']} ^[{r['quelle']}]")
-    out += ["- Weitere Gründe für ordentliche Revision: Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von Aktionären mit 10 % (OR 727 Abs. 1 Ziff. 1/3, Abs. 2) ^[or__art-727]",
+    q727 = regel("or727_ordentlich").get("quelle") or "or__art-727"
+    out += [f"- Weitere Gründe für ordentliche Revision (unabhängig von den Grössen): Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von "
+            f"Aktionären mit 10 % (OR 727 Abs. 1 Ziff. 1/3, Abs. 2); Statuten/GV bzw. Opting-up (OR 727 Abs. 3) ^[{q727}] → Statuten und GV-Protokolle prüfen.",
             "- Prüfung bei Auftragsannahme/-fortführung (`aufgabe auftrag`); Entscheid WP. Kapitalverlust ohne Revisionsstelle (OR 725a Abs. 2) ist eine andere Frage → `aufgabe kapitalschutz`."]
     return "\n".join(out)
 
@@ -1397,11 +1632,18 @@ def _kette_kurz(kid: str, gezeigt: set | None = None) -> list[str]:
 
 HILFSAUFGABEN = ("notiz", "kapitalschutz", "vorjahresabstimmung", "delkredere", "sachanlagen")
 GRENZE_AUFGABE = ("Grenze: vorbereiten ja, abschliessen nie – kein Visum/✓/«Abgeschlossen»/«Review», kein Status in Bereich 10, keine Buchung "
-                  "(Buchungsvorschlag nur als Notiz), keine Freigabe, keine Unterzeichnung/Datierung, kein Kundenversand; Unklares als Pendenz. "
+                  "(Buchungsvorschlag nur als Notiz), keine Freigabe, keine Unterzeichnung/Datierung, kein Kundenversand; Unklares als Pendenz – "
+                  "fehlende Daten nie schätzen oder erfinden ^[konzept-ki-revisionsagent-2026__c005-1]. Mandatsdaten nur in freigegebenen Systemen, "
+                  "nie in externe KI/Websuche ^[konzept-ki-revisionsagent-2026__c015-3] ^[seminar-ki-datenschutz-2026__s006-1]. "
                   "Jede Aktion, Quelle, Berechnung und jeden Fehler protokollieren (Audit Trail). ^[flussdiagramm-revisionsagent-2026__s001-5] "
                   "^[konzept-ki-revisionsagent-2026__c011-2] ^[konzept-ki-revisionsagent-2026__c009-3]")
+# grenze-Regeln, deren Inhalt die Grenze-Zeile schon wiedergibt (nach Regeltext, nicht nach Quelle – sonst fielen z.B. testphase_halt
+# und gvb weg, weil ihre Quelle zufällig auch in der Zeile steht). geheimnis_ki bleibt sichtbar, wenn eine Aufgabe sie nennt
+# (Zusatz «Echtdaten erst nach Regelung durch consis» steht nicht in der Zeile).
+GRENZE_IN_ZEILE = {"visum", "prozess2", "buchung", "dienstbenutzer", "nicht_erfinden"}
 
 
+@_mit_drift
 def aufgabe(text: str | None = None) -> str:
     """Einstieg: zu einer Prozess-Aufgabe (oder Prüffeld/Prüfschritt) alles in einem Aufruf – Ziel, Checkliste mit Aufrufen, Regeln, revio, Fertig-wenn."""
     ag = L().get("aufgaben", [])
@@ -1431,7 +1673,7 @@ def aufgabe(text: str | None = None) -> str:
            GRENZE_AUFGABE, "", "## Regeln für diese Aufgabe"]
     for k in a.get("regeln", []):
         r = regel(k)
-        if r and not (r["bereich"] == "grenze" and f"^[{r['quelle']}]" in GRENZE_AUFGABE):   # schon in der Grenze-Zeile
+        if r and not (r["bereich"] == "grenze" and r["key"] in GRENZE_IN_ZEILE):   # Inhalt schon in der Grenze-Zeile
             out.append(f"- {r['regel']} ^[{r['quelle']}]")
     out += ["", "## Checkliste (der Reihe nach; Aufrufe genau so verwenden)"]
     ketten = set()
@@ -1498,47 +1740,630 @@ def _prueffeld_kompakt(code: str) -> str:
     return "\n".join(out)
 
 
+# ------------------------------------------------------------------ Akte (Mandantenordner) – nur lesen, nichts speichern
+# Generisch für jede Akte: keine Ordnerbuchstaben, keine Dateinamen einer bestimmten Akte. Inhalte werden nur zur Laufzeit gelesen
+# (kein Cache – der MCP-Server läuft lange; Mandantendaten dürfen nicht im Speicher bleiben oder abgelegt werden).
+AKTE_TEXT = (".md", ".txt", ".csv")
+AKTE_GROSS = 30 * 1024          # ab hier nicht mit read lesen (OpenClaw-read kappt bei 32 KB)
+AKTE_ZEILEN = 400               # höchstens je Aufruf --datei / --abschnitt
+AKTE_BYTES = 24 * 1024          # zusätzlich höchstens so viele Bytes je Aufruf (bleibt unter der read-Kappung)
+AKTE_MAX_DATEIEN = 2000
+# Wörter in Datei-/Ordnernamen, die nur die Dokumentart nennen (zählen nicht für die Prüffeld-Zuordnung)
+DOKWORT = set("liste listen abstimmung auszug kontoauszug bestaetigung bestatigung protokoll vertrag scan kopie entwurf zusammenzug "
+              "aktennotiz notiz rechnung uebersicht ubersicht aufstellung nachweis beleg belege dezember januar februar per stand "
+              "unterzeichnet ausgefullt ausgefuellt tabelle teil fassung testfassung version original".split())
+# Dokumente für alle Prüffelder (Saldoliste, Hauptbuch, Jahresrechnung …) – «allgemein»
+ALLG_WORT = ("allgemein", "saldoliste", "saldenliste", "saldobilanz", "saldenbilanz", "hauptbuch", "kontoblatt", "jahresrechnung",
+             "belegverzeichnis", "inhaltsverzeichnis", "erfolgsrechnung", "dauerakte")
+SEITE_RX = re.compile(r"<!--\s*Seite\s+(\d+)\s*-->|(?:^|\s)Seite\s+(\d+)(?:\s+von\s+\d+)?\s*$|^\f")
+GLIED_RX = re.compile(r"^(?:(Bilanz|Erfolgsrechnung|Anhang|Geldflussrechnung|Antrag|Lagebericht|Revisionsbericht|Bericht der Revisionsstelle|"
+                      r"AKTIVEN|PASSIVEN|Aktiven|Passiven)\b|(\d{1,2}(?:\.\d{1,2}){0,2})\.?\s+[A-ZÄÖÜ])")
+
+
+def _akte_basen() -> list[Path]:
+    out = []
+    for v in ("REVISION_AKTE_BASIS", "OPENCLAW_WORKSPACE", "PWD"):
+        if os.environ.get(v):
+            out.append(Path(os.environ[v]).expanduser())
+    try:
+        out += sorted(p for p in Path.home().glob(".openclaw*/workspace*") if p.is_dir())
+    except OSError:
+        pass
+    return list(dict.fromkeys(out))
+
+
+def _akte_wurzel(pfad: str) -> Path:
+    """Akte-Ordner auflösen: absolut; sonst relativ zu cwd; sonst gegen $REVISION_AKTE_BASIS, $OPENCLAW_WORKSPACE, $PWD und
+    ~/.openclaw*/workspace*/ (erster existierender Treffer)."""
+    p = Path(str(pfad or "").strip().strip("\"'`")).expanduser()
+    if not str(pfad or "").strip():
+        raise ValueError("Pfad der Akte fehlt, z.B. `akte mandant/<kunde>-<jahr>` (wie im Auftrag genannt).")
+    kand = [p] if p.is_absolute() else [Path.cwd() / p] + [b / p for b in _akte_basen()]
+    for q in kand:
+        if q.is_dir():
+            q = q.resolve()
+            if q == Path(q.anchor) or q == Path.home().resolve():
+                raise ValueError(f"«{q}» ist kein Aktenordner (Wurzel/Home) – Ordner der Akte angeben.")
+            return q
+        if q.is_file():
+            raise ValueError(f"«{pfad}» ist eine Datei. Ordner der Akte angeben und die Datei mit `--datei` lesen: "
+                             f"`akte {q.parent} --datei {q.name}`.")
+    such = ", ".join(["absolut"] if p.is_absolute() else ["aktueller Ordner", "$REVISION_AKTE_BASIS", "$OPENCLAW_WORKSPACE", "$PWD",
+                                                         "~/.openclaw*/workspace*"])
+    raise ValueError(f"Akte «{pfad}» nicht gefunden (gesucht: {such}). Pfad wie im Auftrag angeben, z.B. `akte mandant/<kunde>-<jahr>`; "
+                     "ohne Akte: «nicht gefunden» als Pendenz, nichts erfinden.")
+
+
+def _akte_dateien(root: Path) -> list[tuple[str, Path]]:
+    """Alle Dateien der Akte (relativer Pfad, Pfad); versteckte Ordner/Dateien und Links nach aussen ausgelassen."""
+    out = []
+    for d, dirs, files in os.walk(root, followlinks=False):
+        dirs[:] = sorted(x for x in dirs if not x.startswith("."))
+        for f in sorted(files):
+            if f.startswith("."):
+                continue
+            p = Path(d) / f
+            try:
+                if not p.resolve().is_relative_to(root):
+                    continue
+            except OSError:
+                continue
+            out.append((p.relative_to(root).as_posix(), p))
+            if len(out) >= AKTE_MAX_DATEIEN:
+                return sorted(out, key=lambda x: x[0].lower())
+    return sorted(out, key=lambda x: x[0].lower())
+
+
+def _akte_text(p: Path) -> list[str]:
+    try:
+        return p.read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError:
+        return []
+
+
+def _akte_datei(root: Path, rel: str, vj: Path | None = None) -> tuple[Path, Path]:
+    """Datei in der Akte (bzw. VJ-Akte) finden: relativer Pfad, Pfad mit Aktenordner davor, absoluter Pfad oder eindeutiger Dateiname.
+    Pfade ausserhalb der Akte («..», Links) werden abgelehnt."""
+    r = str(rel or "").strip().strip("\"'`")
+    if not r:
+        raise ValueError("Datei fehlt, z.B. `--datei 00_Allgemein/<datei>.md` (Namen aus `akte <pfad>`).")
+    wurzeln = [root] + ([vj] if vj else [])
+    for w in wurzeln:
+        q = Path(r).expanduser()
+        kand = [q] if q.is_absolute() else [w / q, Path.cwd() / q] + [b / q for b in _akte_basen()]
+        for c in kand:
+            try:
+                c = c.resolve()
+            except OSError:
+                continue
+            if c.is_file():
+                if c.is_relative_to(w):
+                    return w, c
+                if not q.is_absolute() and c == (w / q).resolve():
+                    raise ValueError(f"«{rel}» liegt ausserhalb der Akte – nur Dateien unter {w} lesen.")
+    if ".." in Path(r).parts or Path(r).is_absolute():
+        raise ValueError(f"«{rel}» liegt ausserhalb der Akte oder existiert nicht – nur Dateien unter {root} lesen.")
+    name = key(Path(r).name)
+    treffer = [(w, p) for w in wurzeln for rr, p in _akte_dateien(w) if key(p.name) == name or key(rr) == key(r)]
+    if len(treffer) == 1:
+        return treffer[0]
+    if len(treffer) > 1:
+        raise ValueError(f"«{rel}» ist mehrdeutig: " + ", ".join(p.relative_to(w).as_posix() for w, p in treffer[:8]) + " – Pfad angeben.")
+    raise ValueError(f"Datei «{rel}» nicht gefunden in {root}" + (f" bzw. {vj}" if vj else "") + ". Liste: `akte <pfad>`; "
+                     "Suche: `akte <pfad> --suche \"<begriff>\"`.")
+
+
+def _ntok(s: str) -> list[str]:
+    """Namens-Tokens: klein, Umlaute ↔ ae/oe/ue vereinheitlicht, «_»/«-»/«.» trennen; Ziffern, Einzelbuchstaben und Füllwörter weg."""
+    return [t for t in re.split(r"[^a-z0-9]+", key(s)) if len(t) >= 3 and not t.isdigit() and t not in STOP
+            and not re.fullmatch(r"\d+[a-z]?|[a-z]\d+", t)]
+
+
+@lru_cache(maxsize=1)
+def _pf_phrasen() -> tuple[dict, dict]:
+    """Je Prüffeld die Namensphrasen (Bezeichnung + Synonyme aus data/aufgaben.yaml) und die Seltenheit je Token (1/Anzahl Prüffelder)."""
+    ph = {}
+    for p in L().get("katalog", {}).get("prueffelder", []):
+        c = p["code"]
+        ph[c] = [x for x in ([_ntok(p["bezeichnung"])] + [_ntok(s) for s in (L().get("pf_synonyme") or {}).get(c, [])]) if x]
+    df = {}
+    for c, lst in ph.items():
+        for t in {t for x in lst for t in x}:
+            df[t] = df.get(t, 0) + 1
+    return ph, {t: 1 / n for t, n in df.items()}
+
+
+def _tok_passt(a: str, b: str) -> float:
+    """1 = gleich; 0.8 = Wortstamm/Kompositum (Präfix oder Suffix ab 6 Zeichen, Präfix ab 4 Zeichen am Wortanfang, Plural); sonst 0."""
+    if a == b:
+        return 1.0
+    k, l = sorted((a, b), key=len)
+    if len(k) >= 4 and l.startswith(k):
+        return 0.8
+    if len(k) >= 6 and l.endswith(k):
+        return 0.8
+    n = len(os.path.commonprefix([a, b]))
+    return 0.8 if n >= 6 and n >= len(k) - 1 else 0.0
+
+
+def _pf_zu_namen(name: str) -> tuple[list[str], bool]:
+    """Vermutete Prüffelder für einen Datei-/Ordnernamen (höchstens 3) und ob die Zuordnung sicher ist (Bezeichnung/Synonym ganz enthalten)."""
+    nt = [t for t in _ntok(name) if t not in DOKWORT]
+    if not nt:
+        return [], False
+    ph, w = _pf_phrasen()
+    kand = {}
+    for c, lst in ph.items():
+        best, menge, exakt = 0.0, set(), False
+        for x in lst:
+            tot = sum(w.get(t, 1) for t in x)
+            hit, cov = set(), 0.0
+            for t in x:
+                m, wo = max(((_tok_passt(t, n), n) for n in nt), default=(0, None))
+                if m:
+                    cov += w.get(t, 1) * m
+                    hit.add(wo)
+            cov = cov / tot if tot else 0
+            if cov >= 0.5:
+                menge |= hit
+                best = max(best, cov)
+                exakt = exakt or (cov >= 0.999 and all(t in nt for t in x))
+        if best:
+            kand[c] = (best, menge, exakt)
+    # Codes streichen, deren Treffer ganz in einem anderen Code enthalten sind (z.B. «Verbindlichkeiten» allein, wenn «Übrige kurzfristige
+    # Verbindlichkeiten» passt) – ausser die Bezeichnung/das Synonym steht exakt im Namen (Ordner für zwei Prüffelder).
+    weg = {c for c, (b, m, e) in kand.items() for d, (b2, m2, e2) in kand.items()
+           if c != d and m <= m2 and (m < m2 or (e2 and not e) or (e2 == e and b2 > b)) and not (e and m == m2 and e2)}
+    weg |= {c for c, (b, m, e) in kand.items() if not e and any(d != c and e2 and m <= m2 for d, (b2, m2, e2) in kand.items())}
+    rest = sorted(((-(b + 0.01 * sum(len(t) for t in m)), c) for c, (b, m, e) in kand.items() if c not in weg))
+    codes = [c for _, c in rest[:3]]
+    return codes, bool(codes) and all(kand[c][2] for c in codes[:1])
+
+
+def _allgemein(name: str) -> bool:
+    return any(_tok_passt(a, t) for t in _ntok(name) for a in ALLG_WORT)
+
+
+def _akte_index(root: Path) -> list[dict]:
+    """Je Datei: rel, Pfad, Grösse, Text?, Ordner-Zuordnung, Datei-Zuordnung (Prüffelder, sicher), allgemein."""
+    ordner = {}
+    out = []
+    for rel, p in _akte_dateien(root):
+        teile = rel.split("/")
+        codes, sicher = [], False
+        for i in range(len(teile) - 1):   # nächster Ordner mit Zuordnung (von innen nach aussen)
+            o = "/".join(teile[: i + 1])
+            if o not in ordner:
+                ordner[o] = _pf_zu_namen(teile[i]) if not _allgemein(teile[i]) else ([], False)
+        for i in range(len(teile) - 2, -1, -1):
+            o = "/".join(teile[: i + 1])
+            if ordner[o][0]:
+                codes, sicher = ordner[o]
+                break
+        stem = Path(teile[-1]).stem
+        fc, fs_ = _pf_zu_namen(stem)
+        try:
+            gr = p.stat().st_size
+        except OSError:
+            gr = 0
+        out.append({"rel": rel, "p": p, "kb": gr / 1024, "text": p.suffix.lower() in AKTE_TEXT, "ordner": codes, "o_sicher": sicher,
+                    "datei": fc if fs_ or not codes else [c for c in fc if c not in codes and fs_], "allg": _allgemein(stem) or
+                    (not codes and not fc and any(_allgemein(t) for t in teile[:-1])), "ord": "/".join(teile[:-1])})
+        if out[-1]["allg"] and not fs_:
+            out[-1]["datei"] = []
+    return out
+
+
+def _codes_txt(codes, sicher=True) -> str:
+    return "/".join(codes) + ("" if sicher else "?") if codes else "–"
+
+
+def _datei_codes(e: dict) -> list[str]:
+    return list(dict.fromkeys(e["datei"] + e["ordner"])) if e["datei"] else e["ordner"]
+
+
+def _zeilen_info(e: dict) -> str:
+    if not e["text"]:
+        return f"{e['kb']:.0f} KB · nicht lesbar ({Path(e['rel']).suffix or 'ohne Endung'}) – nur gelistet"
+    n = len(_akte_text(e["p"]))
+    return f"{n} Z. · {e['kb']:.0f} KB" + (" ⚠ gross" if e["kb"] * 1024 > AKTE_GROSS else "")
+
+
+def _akte_baum(root: Path, idx: list[dict], titel: str) -> list[str]:
+    out = [f"## {titel}: {root}", f"{len(idx)} Dateien, davon {sum(e['text'] for e in idx)} lesbar (.md/.txt/.csv)"]
+    cur = None
+    for e in idx:
+        if e["ord"] != cur:
+            cur = e["ord"]
+            if e["ordner"]:
+                z = f"→ {_codes_txt(e['ordner'], e['o_sicher'])} " + " · ".join(_pfname(c) for c in e["ordner"])
+            else:
+                z = "→ allgemein (alle Prüffelder)" if any(_allgemein(t) for t in cur.split("/")) or not cur else "→ ? (kein Prüffeld erkannt)"
+            out.append(f"{cur or '.'}/ {z}")
+        extra = ""
+        if e["datei"] and e["datei"] != e["ordner"]:
+            extra = f" → {_codes_txt(e['datei'])}?"
+        elif e["allg"] and e["ordner"]:
+            extra = " → allgemein"
+        out.append(f"  - {Path(e['rel']).name} · {_zeilen_info(e)}{extra}")
+    return out
+
+
+def _vj_txt(vj: Path | None) -> str:
+    return f" --vj {vj}" if vj else ""
+
+
+def _akte_kopf(root: Path, vj: Path | None, was: str) -> list[str]:
+    return [f"# Akte · {was}", f"GJ: {root}" + (f" · VJ: {vj}" if vj else ""),
+            "Nur lesen. Grosse Dateien (> 30 KB, ⚠) nicht mit read lesen, sondern `akte … --inhalt <datei>` und `--abschnitt <datei> "
+            "\"<Überschrift>\"` bzw. `--datei <datei> --von N --bis M`."]
+
+
+def _such_muster(q: str):
+    """«a b|c» → [[a, b], [c]]: Alternativen mit «|», Wörter einer Alternative müssen alle in derselben Zeile stehen.
+    Reine Zahlen als ganzes Token (1100 trifft nicht 11000; 1'250 = 1250)."""
+    alts = []
+    for a in str(q or "").split("|"):
+        ws = []
+        for w in a.split():
+            if re.fullmatch(r"[\d'’.,]*\d[\d'’.,]*", w):
+                z = re.sub(r"['’]", "", w).rstrip(".,")
+                ws.append(re.compile(rf"(?<![\d.,]){re.escape(z)}(?!\d|[.,]\d*[1-9])"))
+            elif key(w).strip():
+                kw = re.escape(key(w).strip(".,;:()«»\"'"))
+                ws.append(re.compile(rf"(?<![a-z0-9]){kw}" if len(kw) <= 3 else kw))
+        if ws:
+            alts.append(ws)
+    return alts
+
+
+def _such_zeile(alts, zeile: str) -> bool:
+    kz = key(zeile)
+    nz = re.sub(r"(?<=\d)['’](?=\d{3})", "", zeile)
+    for ws in alts:
+        if all(w.search(nz if w.pattern.startswith("(?<![\\d.,])") else kz) for w in ws):
+            return True
+    return False
+
+
+def _treffer_zeile(rel: str, i: int, z: str, alts=None) -> str:
+    z = re.sub(r"\s+", " ", z).strip()
+    if len(z) > 220 and alts:   # Ausschnitt um den ersten Treffer
+        kz = key(z)
+        pos = min((m.start() for ws in alts for w in ws for m in [w.search(kz)] if m), default=0)
+        a = max(0, pos - 80)
+        z = ("…" if a else "") + z[a: a + 200] + ("…" if a + 200 < len(z) else "")
+    return f"- {rel}:{i}  {cut(z, 230)}"
+
+
+def _akte_suche(wurzeln: list[tuple[str, Path, list[dict]]], q: str, n: int, nur=None) -> tuple[list[str], int, dict]:
+    alts = _such_muster(q)
+    if not alts:
+        raise ValueError("Suchtext fehlt, z.B. `--suche \"Protokoll|Generalversammlung\"` oder `--suche 1100`.")
+    hits, je = [], {}
+    for lab, root, idx in wurzeln:
+        for e in idx:
+            if not e["text"] or (nur and not nur(e)):
+                continue
+            for i, z in enumerate(_akte_text(e["p"]), 1):
+                if _such_zeile(alts, z):
+                    r = f"{lab}{e['rel']}"
+                    je[r] = je.get(r, 0) + 1
+                    hits.append(_treffer_zeile(r, i, z, alts))
+    return hits[:n], len(hits), je
+
+
+def _akte_inhalt_liste(zeilen: list[str]) -> list[tuple[int, int, str, str]]:
+    """(Zeile, Ebene, Art, Text): Markdown-Überschriften; bei wenigen Überschriften zusätzlich Gliederungszeilen (Bilanz, Erfolgsrechnung,
+    Anhang, Antrag, «1. …»); Seitenmarker mit Ebene 99 (nur Orientierung)."""
+    md = [(i, len(m.group(1)), "#", m.group(2).strip()) for i, z in enumerate(zeilen, 1) for m in [re.match(r"^(#{1,6})\s+(.*)$", z)] if m]
+    out = list(md)
+    if len(md) <= 3:
+        for i, z in enumerate(zeilen, 1):
+            s = z.strip()
+            if 2 < len(s) <= 100 and "|" not in s and not s.startswith("#"):
+                m = GLIED_RX.match(s)
+                if m and sum(ch.isdigit() for ch in s) <= len(s) // 3:
+                    lev = 1 if m.group(1) else 2 + m.group(2).count(".")
+                    out.append((i, lev, "·", s))
+    for i, z in enumerate(zeilen, 1):
+        m = SEITE_RX.search(z)
+        if m:
+            out.append((i, 99, "S.", f"Seite {m.group(1) or m.group(2) or '(Seitenwechsel)'}"))
+    return sorted(out)
+
+
+def _akte_zeilen(rel: str, zeilen: list[str], von: int, bis: int, root: Path, vj: Path | None, kopf: str) -> str:
+    von = max(1, von)
+    bis = min(len(zeilen), bis, von + AKTE_ZEILEN - 1)
+    out, gr = [kopf], len(kopf)
+    for i in range(von, bis + 1):
+        z = f"{i:>5}| {zeilen[i - 1]}"
+        if gr + len(z.encode("utf-8")) > AKTE_BYTES and i > von:
+            bis = i - 1
+            break
+        out.append(z)
+        gr += len(z.encode("utf-8")) + 1
+    out[0] = kopf.replace("{von}", str(von)).replace("{bis}", str(bis))
+    if bis < len(zeilen):
+        out.append(f"(Zeilen {von}–{bis} von {len(zeilen)}) weiter: `akte {root}{_vj_txt(vj)} --datei {rel} --von {bis + 1}`")
+    else:
+        out.append(f"(Dateiende: Zeile {len(zeilen)})")
+    return "\n".join(out)
+
+
+def akte(pfad: str, vj: str | None = None, pf: str | None = None, suche: str | None = None, datei: str | None = None, von=None, bis=None,
+         inhalt: str | None = None, abschnitt=None, ueberschrift: str | None = None, n: int = 40) -> str:
+    """Mandantenakte (Ordner mit Textfassungen der Unterlagen) erschliessen – nur lesen, nichts speichern."""
+    root = _akte_wurzel(pfad)
+    vjr = _akte_wurzel(vj) if vj else None
+    n = max(5, min(int(n or 40), 200))
+    if isinstance(abschnitt, (list, tuple)):
+        abschnitt, ueberschrift = (abschnitt[0] if abschnitt else None), (" ".join(map(str, abschnitt[1:])) or ueberschrift)
+    if datei or inhalt or abschnitt:
+        w, p = _akte_datei(root, datei or inhalt or abschnitt, vjr)
+        rel = p.relative_to(w).as_posix()
+        if p.suffix.lower() not in AKTE_TEXT:
+            return f"«{rel}» ist keine Textdatei ({p.suffix}) – nur gelistet. Textfassung (.md/.txt) in der Akte suchen: `akte {root} --suche \"{Path(rel).stem[:30]}\"`."
+        zeilen = _akte_text(p)
+        lab = "VJ" if vjr and w == vjr else "GJ"
+        if datei:
+            v = int(von or 1)
+            b = int(bis) if bis else v + AKTE_ZEILEN - 1
+            return _akte_zeilen(rel, zeilen, v, b, w, None, f"# {lab} {rel} · Zeilen {{von}}–{{bis}} von {len(zeilen)} · {p}")
+        liste = _akte_inhalt_liste(zeilen)
+        if inhalt:
+            out = [f"# Inhalt {lab} {rel} · {len(zeilen)} Zeilen · {p.stat().st_size / 1024:.0f} KB · {p}",
+                   "Überschriften (#), Gliederung (·) und Seiten (S.) mit Zeilennummer:"]
+            gl = [x for x in liste if x[1] != 99][:120]
+            se = [x for x in liste if x[1] == 99]
+            out += [f"- Z. {i}: {'  ' * max(0, min(lev, 6) - 1)}{art} {cut(t, 110)}" for i, lev, art, t in gl]
+            if se:
+                out.append("Seiten: " + " · ".join(f"{t} = Z. {i}" for i, _, _, t in se[:60]))
+            if not gl and not se:
+                out.append("(keine Überschriften/Seitenmarker – mit `--datei` in Teilen lesen)")
+            out += ["", f"Abschnitt lesen: `akte {w} --abschnitt {rel} \"<Überschrift>\"` · Zeilen: `akte {w} --datei {rel} --von N --bis M`"]
+            return "\n".join(out)
+        # --abschnitt
+        u = key(str(ueberschrift or "")).strip(" .#")
+        if not u:
+            raise ValueError("Überschrift fehlt: `--abschnitt <datei> \"<Überschrift>\"` (Liste: `--inhalt <datei>`).")
+        kand = [x for x in liste if x[1] != 99]
+        nk = lambda t: key(t).strip(" .#")  # noqa: E731
+        num = re.fullmatch(r"(?:ziff(?:er)?\.?\s*)?(\d{1,2}(?:\.\d{1,2})*)\.?", u)
+        hit = (next((x for x in kand if nk(x[3]) == u), None) or next((x for x in kand if nk(x[3]).startswith(u)), None)
+               or (next((x for x in kand if re.match(rf"{re.escape(num.group(1))}\.?\s", x[3])), None) if num else None)
+               or next((x for x in kand if u in nk(x[3])), None))
+        if not hit:
+            return (f"Überschrift «{ueberschrift}» nicht gefunden in {rel}. Vorhanden: " +
+                    " · ".join(f"«{cut(t, 50)}» (Z. {i})" for i, _, _, t in kand[:30]) + f". Sonst: `akte {w} --datei {rel} --von N`.")
+        i0, lev = hit[0], hit[1]
+        ende = next((x[0] - 1 for x in kand if x[0] > i0 and x[1] <= lev), len(zeilen))
+        return _akte_zeilen(rel, zeilen, i0, ende, w, None, f"# {lab} {rel} · Abschnitt «{cut(hit[3], 80)}» · Zeilen {{von}}–{{bis}} "
+                            f"(Abschnitt bis Z. {ende}) · {p}")
+    idx = _akte_index(root)
+    vidx = _akte_index(vjr) if vjr else []
+    wurzeln = [("", root, idx)] + ([("VJ:", vjr, vidx)] if vjr else [])
+    if suche:
+        hits, tot, je = _akte_suche(wurzeln, suche, n)
+        fn = [f"{lab}{e['rel']}" for lab, _, ix in wurzeln for e in ix if _such_zeile(_such_muster(suche), Path(e["rel"]).stem.replace("_", " "))]
+        out = _akte_kopf(root, vjr, f"Suche «{suche}»") + [""]
+        if fn:
+            out += ["Dateinamen: " + " · ".join(fn[:15]) + (f" (+{len(fn) - 15})" if len(fn) > 15 else "")]
+        out += [f"## {tot} Treffer (Datei:Zeile)" if tot else "## Keine Treffer im Text"] + hits
+        if tot > len(hits):
+            out.append(f"(+{tot - len(hits)} weitere – Suche verfeinern: mehr Wörter in einer Alternative, `--n {min(200, n * 2)}`, "
+                       f"oder Datei lesen. Treffer je Datei: " + ", ".join(f"{k} ({v})" for k, v in sorted(je.items(), key=lambda x: -x[1])[:10]) + ")")
+        if not tot:
+            out.append("Durchsucht: alle .md/.txt/.csv der GJ-Akte" + (" und der VJ-Akte" if vjr else " (VJ-Akte mit `--vj <pfad>` einbeziehen)") +
+                       ". Erst jetzt gilt: «nicht gefunden in <Akte> → Pendenz» (durchsuchte Ordner nennen).")
+        return "\n".join(out)
+    if pf:
+        return _akte_pf(root, vjr, idx, vidx, pf, n)
+    out = _akte_kopf(root, vjr, "Übersicht") + [
+        "Prüffeld je Ordner/Datei aus dem Namen vermutet (? = unsicher; Prüffelder immer mit revio-Code nennen, nicht mit Ordnerbuchstaben).",
+        f"Nächste Aufrufe: `akte {root}{_vj_txt(vjr)} --pf <code>` (Dateien + Fundorte je Prüffeld) · `akte {root}{_vj_txt(vjr)} --suche \"<text>\"` · "
+        f"`akte {root} --inhalt <datei>`", ""]
+    out += _akte_baum(root, idx, "GJ")
+    if vjr:
+        out += [""] + _akte_baum(vjr, vidx, "VJ (Vorjahresakte)")
+    return "\n".join(out)
+
+
+def _unterlage_fundorte(dok: str, wurzeln) -> list[str]:
+    """Mögliche Fundorte einer PBC-Unterlage über Dateinamen und Titelzeile (ohne Inhalt): bis 3 Dateien."""
+    gen = DOKWORT | set("aktuelles aktuelle vorjahr geschaftsjahr folgejahr bilanzstichtag stichtag ausgewahlte allfallige allfalliger falls "
+                        "sofern vorhanden inkl bzw sowie mit unternehmen unternehmens kunden kunde wesentlicher wesentliche".split())
+    dt = [t for t in _ntok(dok) if t not in gen]
+    if not dt:
+        return []
+    res = []
+    for lab, root, idx in wurzeln:
+        for e in idx:
+            if not e["text"]:
+                continue
+            nt = set(_ntok(Path(e["rel"]).stem))
+            sc, lang = 0.0, False
+            for t in dt:
+                m = max((_tok_passt(t, x) for x in nt), default=0)
+                if m:
+                    sc += m * len(t)
+                    lang = lang or len(t) >= 6
+            if lang and sc >= 6:
+                res.append((-sc, f"{lab}{e['rel']}"))
+    return [r for _, r in sorted(res)[:3]]
+
+
+def _akte_pf(root: Path, vjr: Path | None, idx: list[dict], vidx: list[dict], ref: str, n: int) -> str:
+    code = pf_code(ref)
+    if not code:
+        raise ValueError(f"Prüffeld «{ref}» unbekannt – Code angeben (A1 … T1), z.B. `--pf C1`.")
+    wurzeln = [("", root, idx)] + ([("VJ:", vjr, vidx)] if vjr else [])
+    out = _akte_kopf(root, vjr, f"Prüffeld {code} {_pfname(code)}") + [""]
+    eig = [(lab, e) for lab, _, ix in wurzeln for e in ix if code in _datei_codes(e)]
+    out.append(f"## Dateien des Prüffelds (nach Namen; ganz lesen) – {len(eig)}")
+    out += [f"- {lab}{e['rel']} · {_zeilen_info(e)}" for lab, e in eig] or ["(keine Datei nach Namen zugeordnet – Suche unten und `akte <pfad>`)"]
+    # Suchwörter: Bezeichnung und Synonyme als Phrasen
+    ph = [p for p in [_pfname(code)] + list((L().get("pf_synonyme") or {}).get(code, [])) if len(key(p)) >= 3]
+    q = "|".join(dict.fromkeys(re.sub(r"\s+", " ", p) for p in ph))
+    eigene = {id(e) for _, e in eig}
+    hits, tot, je = _akte_suche(wurzeln, q, n, nur=lambda e: id(e) not in eigene and not _datei_codes(e))
+    out += ["", f"## Allgemeine Dateien (Saldoliste, Hauptbuch, Jahresrechnung …) – Treffer «{cut(q, 120)}»"] + (hits or ["(keine)"])
+    if tot > len(hits):
+        out.append(f"(+{tot - len(hits)} weitere: " + ", ".join(f"{k} ({v})" for k, v in sorted(je.items(), key=lambda x: -x[1])[:6]) +
+                   f" – `akte {root}{_vj_txt(vjr)} --suche \"…\"` verfeinern)")
+    kt = sorted({m.group(1) for h in hits for m in [re.search(r"^- [^ ]+:\d+  (?:\|\s*)?(?:Konto\s+)?(\d{4})\b", h)] if m})
+    if kt:
+        out.append(f"Konten in den Treffern (vermutet): {', '.join(kt[:12])} → Kontoblätter: `akte {root}{_vj_txt(vjr)} --suche \"{'|'.join(kt[:6])}\"`")
+    k = max(8, n // 3)
+    h2, t2, je2 = _akte_suche(wurzeln, q, k, nur=lambda e: id(e) not in eigene and bool(_datei_codes(e)))
+    if h2:
+        out += ["", "## Treffer in Dateien anderer Prüffelder (Querbezüge, z.B. Sicherheiten, Nahestehende)"] + h2
+        if t2 > len(h2):
+            out.append(f"(+{t2 - len(h2)} weitere: " + ", ".join(f"{k_} ({v})" for k_, v in sorted(je2.items(), key=lambda x: -x[1])[:6]) + ")")
+    un = L().get("pf", {}).get(code, {}).get("unterlagen") or []
+    if un:
+        out += ["", f"## Unterlagen (PBC) {code} → Fundort (nach Datei-/Ordnernamen; Inhalt selbst prüfen)"]
+        gesucht = "Dateinamen der GJ-Akte" + (" und VJ-Akte" if vjr else "")
+        for u in un:
+            fo = _unterlage_fundorte(u["dokument"], wurzeln)
+            sw = sorted({t for t in _ntok(u["dokument"]) if len(t) >= 6 and t not in DOKWORT}, key=len, reverse=True)[:2]
+            out.append(f"- {cut(u['dokument'], 110)} → " + (" · ".join(fo) if fo else
+                       f"nicht gefunden (gesucht in: {gesucht}) → `akte {root}{_vj_txt(vjr)} --suche \"{'|'.join(sw) or '…'}\"`, erst dann Pendenz"))
+    out += ["", f"Nächste Aufrufe: Dateien oben ganz lesen (gross: `akte {root} --inhalt <datei>`) · `aufgabe prueffeld {code}` · je Schritt `pruefschritt <id>`."]
+    return "\n".join(out)
+
+
 # ------------------------------------------------------------------ Themen / Hilfe
-def thema(begriff: str) -> str:
+NUM_TOK = re.compile(r"\d+[a-z]?")   # Artikel-/Ziffern-Token (725b, 729, 51)
+SCHRITT_RX = re.compile(r"^[A-Z]{1,4}\d-\d{3}$")
+FUELL = {"art", "abs", "ziff", "lit", "bst", "al"}   # Füllwörter in Gesetzeszitaten (Art. 725b Abs. 5 OR ~ OR 725b)
+# Zahlenregel in einer Aussage (Prozent, Betrag, Mio., Frist, Datum) → in der Kurzform nicht kürzen
+ZAHL_RX = re.compile(r"\d+(?:[.,]\d+)?\s*(?:%|Prozent)|\d['’ ]\d{3}|CHF\s*[\d'’]|\d\s*Mio\b|\b\d+\s*(?:Tage|Tagen|Monate|Monaten|Jahre|Jahren)\b"
+                     r"|\b\d{1,2}\.\d{1,2}\.\d{4}\b")
+
+
+def _thema_rang(begriff: str):
+    """Themen nach Passung: (Punkte, exakte Treffer, -Reihenfolge, Thema), beste zuerst; dazu die Suchwörter."""
     th = L().get("themen", [])
-    qt = [t for t in toks(begriff) if len(t) > 2]
+    kurzw = {key(s) for t in th for s in t.get("stichworte") or [] if len(key(s)) <= 2}   # Kurz-Stichworte wie KI, VE, IV
+    filt = lambda ws: [w for w in ws if (len(w) > 2 or w in kurzw or NUM_TOK.fullmatch(w)) and w.rstrip(".") not in FUELL]  # noqa: E731
+    sids = {f"{m.group(1).upper()}-{m.group(2)}" for m in re.finditer(r"\b([A-Za-z]{1,4}\d)-(\d{3})\b", begriff)}   # Schritt-Ids (C1-321)
+    qt = filt(toks(re.sub(r"\b[A-Za-z]{1,4}\d-\d{3}\b", " ", begriff)))   # ohne Schritt-Ids, sonst trifft «321» auch «Art. 321 StGB»
     kq = " " + " ".join(qt) + " "
-    best, bs = None, 0.0
-    for t in th:
-        sc = 0.0
+    res = []
+    for i, t in enumerate(th):
+        sc, ex = 0.0, 0
         if key(t["id"].replace("-", " ")) in key(begriff) or any(w == key(t["id"]) for w in qt):
             sc += 5
+            ex += 1
         tit = toks(t.get("titel", ""))
         for w in qt:
             if w in tit:
                 sc += 3
             elif any(len(w) >= 5 and (x.startswith(w[:6]) or w.startswith(x[:6])) for x in tit if len(x) >= 5):
                 sc += 1.5
-        for x in t.get("stichworte", []):
-            kx = " ".join(toks(x))
+        for x in t.get("stichworte") or []:
+            if SCHRITT_RX.match(str(x).strip()):   # Schritt-Id als Stichwort: nur bei genau dieser Id im Begriff
+                if str(x).strip() in sids:
+                    sc += 3
+                    ex += 1
+                continue
+            kt = filt(toks(x))
+            kx = " ".join(kt)
             if not kx:
                 continue
-            if " " in kx and f" {kx} " in kq:
+            if " " in kx and f" {kx} " in kq:          # Mehrwort-Stichwort mit Wortgrenzen
                 sc += 3
-            elif kx in qt:
+                ex += 1
+            elif " " in kx and set(kt) <= set(qt):      # alle Wörter vorhanden, andere Reihenfolge (StGB 321 ~ Art. 321 StGB)
+                sc += 2.5
+                ex += 1
+            elif kx in qt:                               # exaktes Stichwort
                 sc += 2
+                ex += 1
+            elif any(NUM_TOK.fullmatch(y) and y in qt for y in kt):   # Artikel-/Ziffernnummer exakt (OR 725b ~ Art. 725b Abs. 5)
+                sc += 2
+            elif " " not in kx and any(len(w) >= 8 and len(kx) >= 8 and (len(os.path.commonprefix([w, kx])) >= max(len(w), len(kx)) - 2
+                                                                         or kx.startswith(w) or w.startswith(kx)) for w in qt):
+                sc += 1                                  # Beugung/Ableitung langer Wörter (Zwischenabschlüsse ~ Zwischenabschluss, Rechtsstreit ~ Rechtsstreitigkeiten)
             elif any(len(w) >= 6 and (kx.startswith(w[:6]) or w.startswith(kx[:6])) for w in qt):
                 sc += 0.5
-        if sc > bs:
-            best, bs = t, sc
-    if not best or bs < 1:
-        pages = [p for p in L().get("seiten", []) if p.startswith("wiki/themen/") and any(x[:6] in key(p) for x in qt)]
-        if pages:
-            return zeige(pages[0])
-        return f"Kein Thema zu «{begriff}». Themen: " + ", ".join(t.get("id", "") for t in th) + ". Sonst `aufgabe \"<Frage>\"` oder `suche`."
-    t = best
-    out = [f"# Thema: {t['titel']} (Status {t.get('status', '')})", t.get("kurz", ""), ""]
-    out += [f"- {a['text']} ^[{a.get('quelle')}]" for a in t.get("aussagen") or []]
+        res.append((sc, ex, -i, t))
+    res.sort(key=lambda r: (r[0], r[1], r[2]), reverse=True)
+    return qt, res
+
+
+def _aussage(a: dict, voll: bool) -> str:
+    """Aussage mit Fundstelle; kompakt: voller Text bei Zahlenregeln, sonst erster Satz (≤ 220 Zeichen); Unterpunkte eingerückt."""
+    text = str(a.get("text") or "").strip()
+    zeilen = [z.rstrip() for z in text.split("\n") if z.strip()]
+    if voll or (ZAHL_RX.search(text) and len(text) <= 700):
+        body = "\n  ".join(zeilen)
+    elif ZAHL_RX.search(text) and len(zeilen) == 1:   # lange Zahlenregel: erster Satz + alle Sätze mit Zahlen (Rest «…»)
+        st = saetze(text)
+        keep = [i for i, x in enumerate(st) if i == 0 or ZAHL_RX.search(x)]
+        body = " ".join((x if i == 0 or keep[k - 1] == i - 1 else "… " + x) for k, (i, x) in enumerate((i, st[i]) for i in keep))
+        body += " …" if keep[-1] < len(st) - 1 else ""
+    elif len(zeilen) > 1:   # Aufzählung: Einleitung + Unterpunkte kurz
+        body = "\n  ".join([erster_satz(zeilen[0], 220)] + [cut(z, 120) for z in zeilen[1:]])
+    else:
+        body = erster_satz(text, 220)
+    return f"- {body}{_refs(a, body)}"
+
+
+def _themen_aufrufe(t: dict) -> list[str]:
+    """Nächste Aufrufe: Feld naechste/aufrufe der Themen-YAML; sonst Prüfschritte aus stichworte + Prüffelder (höchstens 5)."""
+    x = t.get("naechste") or t.get("aufrufe")
+    if x:
+        return [str(v).strip().strip("`") for v in (x if isinstance(x, list) else [x]) if str(v).strip()]
+    sch = L().get("katalog", {}).get("schritte", {})
+    steps = [str(v).strip() for v in t.get("stichworte") or [] if SCHRITT_RX.match(str(v).strip()) and str(v).strip() in sch]
+    calls = [f"pruefschritt {v}" for v in list(dict.fromkeys(steps))[:3]]
+    calls += [f"aufgabe prueffeld {c}" for c in (t.get("prueffelder") or [])[: min(3, max(2, 5 - len(calls)))]]
+    return calls[:5]
+
+
+def thema_wahl(begriff: str):
+    """(Thema | None, Rangliste, Rückfallseite | None): bestes Thema; ohne Treffer (< 1 Punkt) Rückfall über ganze Wörter des Dateinamens."""
+    qt, rang = _thema_rang(begriff)
+    if rang and rang[0][0] >= 1:
+        return rang[0][3], rang, None
+    for pg in L().get("seiten", []):   # Rückfall: wiki/themen/<id>.md, Dateiname in Wörtern (nicht «wiki/themen/…»)
+        if pg.startswith("wiki/themen/") and set(key(Path(pg).stem).split("-")) & set(qt):
+            return next((x for x in L().get("themen", []) if x["id"] == Path(pg).stem), None), rang, pg
+    return None, rang, None
+
+
+def thema(begriff: str, voll: bool = False) -> str:
+    th = L().get("themen", [])
+    t, rang, seite = thema_wahl(begriff)
+    if seite:
+        if t:
+            return "\n".join([f"# Thema: {t['titel']} (Status {t.get('status', '')})", t.get("kurz", ""), "", f"Volltext: `thema {t['id']}`"])
+        return zeige(seite)
+    if not t:
+        return f"Kein Thema zu «{begriff}». Themen: " + ", ".join(x.get("id", "") for x in th) + ". Sonst `aufgabe \"<Frage>\"` oder `suche`."
+    bs = rang[0][0]
+    out = [f"# Thema: {t['titel']} (Status {t.get('status', '')})"]
+    if _np_warnung(t):
+        out.append(_np_warnung(t))
+    out.append(t.get("kurz", ""))
     if t.get("agent"):
-        out += ["", "## Für den Agenten"] + [f"- {x}" for x in t["agent"]]
-    if t.get("prueffelder") or t.get("phasen"):
-        out += ["", "Verknüpft: " + ", ".join([f"`prueffeld {c}`" for c in t.get("prueffelder") or []] + [f"`prozess {p}`" for p in t.get("phasen") or []])]
-    out.append("Wortlaut einer Fundstelle: `zeige <chunk-id>`.")
+        out += ["", "## Für den Agenten (zuerst)"] + [f"{i}. " + str(x).strip().replace("\n", "\n   ") for i, x in enumerate(t["agent"], 1)]
+    calls = _themen_aufrufe(t)
+    if calls:
+        out += ["", "**Nächste Aufrufe:** " + " · ".join(f"`{c}`" for c in calls)]
+    if t.get("aussagen"):
+        out += ["", "## Fundstellen" + ("" if voll else f" (gekürzt; Volltext `thema {t['id']} --voll`)")]
+        out += [_aussage(a, voll) for a in t["aussagen"]]
+    vk = [f"`prueffeld {c}`" for c in t.get("prueffelder") or []] + [f"`prozess {x}`" for x in t.get("phasen") or []]
+    if vk:
+        out += ["", "Verknüpft: " + ", ".join(vk if voll else vk[:6]) + ("" if voll or len(vk) <= 6 else f" (+{len(vk) - 6} weitere: `thema {t['id']} --voll`)")]
+    zweit = next((r for r in rang[1:] if r[3]["id"] != t["id"]), None)
+    if zweit and zweit[0] >= 0.75 * bs and zweit[0] >= 1:
+        out.append(f"Auch passend: `thema {zweit[3]['id']}`")
+    out.append("Wortlaut: `zeige <chunk-id>`" if voll else f"Volltext: `thema {t['id']} --voll` · Wortlaut: `zeige <chunk-id>`")
     return "\n".join(out)
 
 
@@ -1556,8 +2381,9 @@ def hilfe() -> str:
         "| Was darf der Agent, Notizen, Ablauf je Schritt? | `regeln` · `regeln notizen` · `regeln grenze` |",
         "| Welches revio-Werkzeug? | `revio 10.9` · `revio C1-302` · `revio notiz` · `revio ketten` · `revio nur-mensch` |",
         "| Schwellenwert, Satz, Frist | `wert zinssatz darlehen` · `wert revisionspflicht` |",
-        "| Rechnen | `rechne \"…\"` · `wesentlichkeit --gesamt 80000` · `kapitalverlust --aktienkapital … [--reserve-voll … --covid-kredit …]` · `revisionspflicht …` |",
-        "| Fachfrage mit Quelle | `thema rangrücktritt` · `suche \"…\" --quelle ser-2022` → `zeige <chunk-id>` |", "",
+        "| Rechnen | `rechne \"a = 1200; b = 300; a - b\"` · `rechne \"tage(31.12.2025, 15.10.2025)\"` · `wesentlichkeit --gesamt 50000 --toleranz 37500` · "
+        "`kapitalverlust --aktienkapital … [--reserve-voll … --covid-kredit …]` · `revisionspflicht …` |",
+        "| Fachfrage mit Quelle | `thema rangrücktritt` (Volltext: `--voll`) · `suche \"…\" --quelle ser-2022` → `zeige <chunk-id>` |", "",
         "Prüffelder: " + " · ".join(f"{p['code']} {p['bezeichnung']}" for p in kat),
         "", "Quellenrang: OR > SER (massgebend) > HWP ER > HWP BuR/Q&A/Muster > Fachliteratur > intern. Antworten immer mit Fundstelle ^[chunk-id].",
     ])
@@ -1603,16 +2429,28 @@ def main(argv=None):
     x = sub.add_parser("regeln"); x.add_argument("bereich", nargs="*")
     x = sub.add_parser("revio"); x.add_argument("ref", nargs="*")
     x = sub.add_parser("wert"); x.add_argument("begriff", nargs="+")
-    x = sub.add_parser("thema"); x.add_argument("begriff", nargs="+")
-    x = sub.add_parser("rechne"); x.add_argument("ausdruck", nargs="+")
-    x = sub.add_parser("wesentlichkeit"); x.add_argument("bezugsgroesse", nargs="?"); x.add_argument("satz", nargs="?"); x.add_argument("--gesamt"); x.add_argument("--toleranz"); x.add_argument("--nichtaufgriff"); x.add_argument("--bezeichnung", default="Bezugsgrösse")
+    x = sub.add_parser("thema", help="Themenseite: zuerst Anweisungen für den Agenten, dann Fundstellen (gekürzt; --voll ungekürzt)")
+    x.add_argument("begriff", nargs="+"); x.add_argument("--voll", action="store_true", help="alle Aussagen ungekürzt")
+    x = sub.add_parser("rechne", help='exakt rechnen, z.B. "a = 1200; b = 300; a - b" oder "tage(31.12.2025, 15.10.2025)"',
+                       description="Rechnet exakt. Mehrere Teile mit ; oder Zeilenumbruch; «name = Ausdruck» (Namen ohne Leerzeichen) gilt in den "
+                                   "folgenden Teilen. Datum TT.MM.JJJJ oder JJJJ-MM-TT: tage(später, früher), tage360(später, früher) (30E/360), "
+                                   "monate(später, früher) (ganze Monate), datum_plus(datum, jahre=0, monate=0, tage=0). Minus als - (auch − oder « – »).")
+    x.add_argument("ausdruck", nargs="+")
+    x = sub.add_parser("wesentlichkeit", help="Wesentlichkeit (GW, TW, NAG) – Werte aus revio 3.3")
+    x.add_argument("bezugsgroesse", nargs="?"); x.add_argument("satz", nargs="?"); x.add_argument("--gesamt", help="Gesamtwesentlichkeit in CHF")
+    x.add_argument("--toleranz", help="Wert aus 3.3 in %% (z.B. 75) oder CHF (z.B. 37500)")
+    x.add_argument("--nichtaufgriff", help="Wert aus 3.3 in %% (z.B. 5) oder CHF (z.B. 2500)"); x.add_argument("--bezeichnung", default="Bezugsgrösse")
     x.add_argument("--bezugsgroesse", dest="bezugsgroesse_opt"); x.add_argument("--satz", dest="satz_opt")
     x = sub.add_parser("kapitalverlust"); x.add_argument("--aktienkapital", required=True); x.add_argument("--eigenkapital"); x.add_argument("--aktiven"); x.add_argument("--verbindlichkeiten")
-    x.add_argument("--kapitalreserve", default=0); x.add_argument("--gewinnreserve", default=0); x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
+    x.add_argument("--kapitalreserve", default=0, help="gesetzliche Kapitalreserve (OR 671)")
+    x.add_argument("--gewinnreserve", default=0, help="nur gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) – ohne Aufwertungsreserve und Reserve "
+                                                      "für eigene Kapitalanteile (diese in --reserve-voll)")
+    x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
     x.add_argument("--buchwert"); x.add_argument("--verkehrswert")
     x.add_argument("--freiwillige-reserven"); x.add_argument("--vortrag"); x.add_argument("--jahresergebnis"); x.add_argument("--eigene-aktien")
     x.add_argument("--reserve-voll", default=0, help="gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b) und Aufwertungsreserve (OR 725c) – zählen voll")
-    x.add_argument("--covid-kredit", default=0, help="Covid-19-Kredit (Art. 3 Covid-19-SBüV) – kein Fremdkapital für OR 725a/725b")
+    x.add_argument("--covid-kredit", default=0, help="Kredit nach Art. 3 Covid-19-SBüV bzw. Darlehen/Kredit nach Art. 21 HFMV 20 – kein Fremdkapital "
+                                                     "(Art. 24 Covid-19-SBüG; HWP ER Rz 373); --verbindlichkeiten wie in der Bilanz eingeben")
     x = sub.add_parser("revisionspflicht"); x.add_argument("--bilanzsumme", required=True); x.add_argument("--umsatz", required=True); x.add_argument("--vollzeitstellen", required=True)
     x.add_argument("--vj-bilanzsumme"); x.add_argument("--vj-umsatz"); x.add_argument("--vj-vollzeitstellen")
     a = ap.parse_args(_kv_args(list(sys.argv[1:] if argv is None else argv), sub))
@@ -1632,7 +2470,7 @@ def main(argv=None):
         "regeln": lambda: regeln(j(a.bereich) or None),
         "revio": lambda: revio(j(a.ref) or None),
         "wert": lambda: wert(j(a.begriff)),
-        "thema": lambda: thema(j(a.begriff)),
+        "thema": lambda: thema(j(a.begriff), a.voll),
         "rechne": lambda: rechne(j(a.ausdruck)),
         "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse or a.bezugsgroesse_opt, a.satz or a.satz_opt, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
         "kapitalverlust": lambda: kapitalverlust(a.aktienkapital, a.eigenkapital, a.aktiven, a.verbindlichkeiten, a.kapitalreserve, a.gewinnreserve,
@@ -1641,10 +2479,29 @@ def main(argv=None):
         "revisionspflicht": lambda: revisionspflicht(a.bilanzsumme, a.umsatz, a.vollzeitstellen, a.vj_bilanzsumme, a.vj_umsatz, a.vj_vollzeitstellen),
     }[c]
     try:
-        print(fn())
+        res = fn()
     except ValueError as e:
-        print(f"Fehler: {e}")
-        sys.exit(2)
+        res, code = f"Fehler: {e}", 2
+    else:
+        code = 0
+    _ausgeben(res)
+    sys.exit(code)
+
+
+def _ausgeben(text: str) -> None:
+    """Ausgabe mit UTF-8 (auch Windows-Konsole) und ohne Traceback, wenn der Leser die Pipe schliesst (`… | head -1`)."""
+    try:
+        if (getattr(sys.stdout, "encoding", "") or "").lower().replace("-", "") != "utf8" and hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        print(text)
+        sys.stdout.flush()
+    except BrokenPipeError:   # kein signal.SIGPIPE (fehlt unter Windows)
+        try:
+            devnull = os.open(os.devnull, os.O_WRONLY)
+            os.dup2(devnull, sys.stdout.fileno())
+        except (OSError, ValueError):
+            pass
+        sys.exit(0)
 
 
 if __name__ == "__main__":

@@ -1,25 +1,68 @@
 #!/usr/bin/env python3
 """Revisions-Wiki: deterministische Prüfung → reports/lint.md (Exit 1 bei Fehlern).
 
-  python3 revision/tools/lint.py
-  python3 revision/tools/lint.py --datei data/prueffelder/c1.yaml   # nur Zitate einer Datei
+  python3 revision/tools/lint.py                                    # alles; Bericht reports/lint.md
+  python3 revision/tools/lint.py --datei data/prueffelder/c1.yaml   # nur diese Datei(en); reports/lint.md bleibt unverändert
 
-Prüft: Zitate in data/ (wörtlich im Chunk), Schritt-Ids gegen Katalog, Prüffeld-Codes, revio-Werkzeugnamen gegen die
-Werkzeugliste, OpenClaw-Liste ↔ Klassifikation (werkzeuge.csv) ↔ Ketten ↔ Policy, Besonderheiten (Codes/Schritte), ^[chunk-id] in
-Code/Skills/OpenClaw, Links in quick/ und wiki/, Dateinamen (kebab-case, ASCII, kein Datumspräfix), Hash der Originale (raw/).
+Prüft (ERR): Zitate in data/ und eval/ (wörtlich im Chunk, auch `fundstellen`/`weitere_fundstellen`), Schritt-Ids gegen Katalog,
+Prüffeld-Codes und Dateinamen, revio-Werkzeugnamen gegen die Werkzeugliste, OpenClaw-Liste ↔ Klassifikation (werkzeuge.csv) ↔ Ketten
+↔ Policy, Besonderheiten (Codes/Schritte), ^[chunk-id] in Code/Skills/OpenClaw/data/aufgaben.yaml/data/regeln.yaml/data/revio,
+nackte Chunk-Ids im Fliesstext von data/**/*.yaml (z.B. «(dbg__art-67)»), Links in quick/, wiki/ und eval/testfall-2025/hinweise/,
+Dateinamen (kebab-case, ASCII, kein Datumspräfix), «Testakte» ausserhalb des Feldes testakte_2025 (data/prueffelder) und überall in
+quick/ und wiki/, Aktualität (sha256 data/prueffelder/<code>.yaml = lookup pf[code]._sha = quelle_sha der Seiten quick/prueffeld-<code>.md
+und wiki/prueffelder/<code>.md; lookup inputs_sha256 = Eingaben), Hash der Originale (raw/).
+Warnungen (WARN): Einträge ohne Fundstelle in gesetz/risiken/fallstricke/bewertung/unterlagen ohne «Praxis» im Text, kurzbeschrieb
+> 300 Zeichen (Kompaktbündel kürzt), Kürzel mit Testakte-Bezug in data/**, Schritte ohne Detailwissen/Fundstelle u.a.
 """
 from __future__ import annotations
-import csv, hashlib, json, re, sys
+import argparse, collections, csv, hashlib, json, re, sys
 from pathlib import Path
 import yaml
 
 R = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(R / "tools"))
 import revision as rv  # noqa: E402
+import build_lookup  # noqa: E402  (inputs_sha256: dieselbe Berechnung wie beim Bauen)
 
 ERR: list[str] = []
 WARN: list[str] = []
-N = {"zitate": 0, "links": 0, "dateien": 0, "verweise": 0}
+N = collections.Counter()
+KURZ_MAX = 300   # Kürzung des kurzbeschriebs im Kompaktbündel (tools/revision.py _prueffeld_kompakt)
+FELDER_FS = ("gesetz", "risiken", "fallstricke", "bewertung", "unterlagen")   # Einträge, die eine Fundstelle oder «Praxis/intern» brauchen
+TESTAKTE = re.compile(r"(?i)testakte")
+
+
+def rel(p: Path) -> str:
+    return p.relative_to(R).as_posix()
+
+
+_CACHE: dict = {}
+
+
+def laden(p: Path):
+    """YAML laden (einmal je Lauf); Syntaxfehler als ERR statt Abbruch."""
+    if p not in _CACHE:
+        try:
+            _CACHE[p] = yaml.safe_load(p.read_text(encoding="utf-8"))
+        except (yaml.YAMLError, UnicodeDecodeError) as e:
+            ERR.append(f"{rel(p)}: YAML nicht lesbar – {str(e).splitlines()[0]}")
+            _CACHE[p] = None
+    return _CACHE[p]
+
+
+def texte(o, path="", ohne=("testakte_2025",)):
+    """(Pfad, Text) aller Zeichenketten (Werte und Schlüssel) rekursiv; Teilbäume unter Schlüsseln in `ohne` auslassen."""
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if k in ohne:
+                continue
+            yield f"{path}.{k}", str(k)
+            yield from texte(v, f"{path}.{k}", ohne)
+    elif isinstance(o, list):
+        for i, v in enumerate(o):
+            yield from texte(v, f"{path}[{i}]", ohne)
+    elif isinstance(o, str):
+        yield path, o
 
 
 def walk(o, path=""):
@@ -33,13 +76,12 @@ def walk(o, path=""):
             yield from walk(v, f"{path}[{i}]")
 
 
-DATEI = None
-
-
-def zitate():
-    files = [R / DATEI] if DATEI else list((R / "data").rglob("*.yaml")) + list((R / "eval").glob("*/*.yaml"))
+def zitate(files=None):
+    files = files if files is not None else sorted((R / "data").rglob("*.yaml")) + sorted((R / "eval").glob("*/*.yaml"))
     for p in files:
-        d = yaml.safe_load(p.read_text(encoding="utf-8"))
+        if p.suffix not in (".yaml", ".yml"):
+            continue
+        d = laden(p)
         for path, cid, z in walk(d):
             if not cid and not z:
                 continue
@@ -62,6 +104,8 @@ def katalog():
         d = yaml.safe_load(p.read_text(encoding="utf-8"))
         if d["code"] not in codes:
             ERR.append(f"{p.name}: unbekannter Code {d['code']}")
+        if p.stem != str(d["code"]).lower():   # lookup _sha/quelle_sha und revision.py setzen data/prueffelder/<code klein>.yaml voraus
+            ERR.append(f"{p.name}: Dateiname passt nicht zum Code {d['code']} (erwartet {str(d['code']).lower()}.yaml)")
         mine = {s["id"] for s in kat["schritte"] if s["prueffeld"] == d["code"]}
         have = {s["id"] for s in d.get("schritte") or []}
         if have - ids:
@@ -181,35 +225,159 @@ def openclaw(art: dict):
             ERR.append(f"zuordnung.yaml Besonderheit «{b.get('code', '')[:40]}»: weder prueffelder noch schritte/schritt_nr – trifft nie")
 
 
-def verweise():
-    """^[chunk-id] in Werkzeug-Code, Aufgaben, revio-Daten, Skills und OpenClaw-Snippet müssen existieren."""
-    files = [R / "tools" / "revision.py", R / "tools" / "mcp_server.py", R / "data" / "aufgaben.yaml", *(R / "data" / "revio").glob("*.yaml"),
-             *(R / "openclaw").glob("*.md"), *(R / "skills").rglob("*.md")]
-    for p in files:
+CARET = re.compile(r"\^\[([a-z0-9][\w.-]*__[\w.-]+)\]")
+NACKT = re.compile(r"\b([a-z0-9][a-z0-9.-]*__[a-z0-9.-]*[a-z0-9])\b")   # Chunk-Id ohne ^[…], z.B. «(covid-sbueg__art-2-t2)»
+
+
+def verweise_dateien():
+    """Dateien mit ^[chunk-id]-Verweisen (ganzer Text) – data/**/*.yaml zusätzlich mit nackten Ids im Fliesstext."""
+    return [R / "tools" / "revision.py", R / "tools" / "mcp_server.py", R / "data" / "aufgaben.yaml", R / "data" / "regeln.yaml",
+            *sorted((R / "data" / "revio").glob("*.yaml")), *sorted((R / "openclaw").glob("*.md")), *sorted((R / "skills").rglob("*.md"))]
+
+
+def verweise(files=None):
+    """^[chunk-id] in Werkzeug-Code, Aufgaben, Regeln, revio-Daten, Skills und OpenClaw-Snippet sowie nackte Chunk-Ids im Fliesstext
+    von data/**/*.yaml (ohne die Felder quelle/chunk/zitat, die zitate() prüft) müssen existieren. Je Datei und Id eine Meldung."""
+    caret = set(verweise_dateien())
+    data = set(sorted((R / "data").rglob("*.yaml")))
+    if files is not None:
+        caret, data = {p for p in files if p in caret or p.suffix in (".md", ".py")}, {p for p in files if p in data}
+    for p in sorted(caret | data):
         if not p.exists():
             continue
-        for cid in sorted(set(re.findall(r"\^\[([a-z0-9][\w.-]*__[\w.-]+)\]", p.read_text(encoding="utf-8")))):
-            N["verweise"] += 1
+        ids = {}
+        if p in caret:
+            for cid in CARET.findall(p.read_text(encoding="utf-8")):
+                ids.setdefault(cid, "^[…]")
+        if p in data:
+            for _, s in texte(laden(p), ohne=("testakte_2025", "quelle", "chunk", "zitat")):
+                for cid in NACKT.findall(s):
+                    ids.setdefault(cid, "nackt")
+        for cid, art in sorted(ids.items()):
+            N["verweise" if art == "^[…]" else "nackt"] += 1
             if rv.chunk_text(cid) is None:
-                ERR.append(f"{p.relative_to(R)}: Verweis auf fehlenden Chunk ^[{cid}]")
+                ERR.append(f"{rel(p)}: Verweis auf fehlenden Chunk " + (f"^[{cid}]" if art == "^[…]" else f"«{cid}» (Fliesstext)"))
 
 
 def links():
-    for p in list((R / "quick").glob("*.md")) + list((R / "wiki").rglob("*.md")):
-        N["dateien"] += 1
-        name = p.stem
-        if re.match(r"^\d{4}-\d{2}-\d{2}", name) or not re.match(r"^[a-z0-9-]+$", name):
-            ERR.append(f"Dateiname nicht kebab-case/ASCII oder mit Datum: {p.relative_to(R)}")
+    for p in sorted((R / "quick").glob("*.md")) + sorted((R / "wiki").rglob("*.md")) + sorted((R / "eval" / "testfall-2025" / "hinweise").glob("*.md")):
         t = p.read_text(encoding="utf-8")
-        if not t.startswith("---\n"):
-            WARN.append(f"{p.relative_to(R)}: ohne Frontmatter")
+        if p.parts[len(R.parts)] in ("quick", "wiki"):   # Seitenregeln nur für quick/ und wiki/
+            N["dateien"] += 1
+            name = p.stem
+            if re.match(r"^\d{4}-\d{2}-\d{2}", name) or not re.match(r"^[a-z0-9-]+$", name):
+                ERR.append(f"Dateiname nicht kebab-case/ASCII oder mit Datum: {rel(p)}")
+            if not t.startswith("---\n"):
+                WARN.append(f"{rel(p)}: ohne Frontmatter")
         for m in re.finditer(r"\]\(([^)#\s]+)(#[^)]*)?\)", t):
             href = m.group(1)
             if href.startswith(("http://", "https://", "mailto:")):
                 continue
             N["links"] += 1
             if not (p.parent / href).resolve().exists():
-                ERR.append(f"{p.relative_to(R)}: toter Link {href}")
+                ERR.append(f"{rel(p)}: toter Link {href}")
+
+
+def testakte_kuerzel():
+    """Kürzel mit Testakte-Bezug: «Testakte», «Testdaten», «Testfall» und die Namen der Testakten-Ordner unter eval/testdaten/
+    (ohne Jahreszahl, «-»/«_»/« » gleichwertig) – aus den Ordnernamen abgeleitet, damit keine Testakten-Namen im Werkzeug stehen."""
+    teile = [r"testakte", r"testdaten", r"testfall"]
+    for d in sorted((R / "eval" / "testdaten").glob("*")) if (R / "eval" / "testdaten").exists() else []:
+        tok = [t for t in re.split(r"[-_ ]+", re.sub(r"[-_ ]*\d{4}$", "", d.name.lower())) if t]
+        if len(tok) >= 2:   # die ersten zwei Wörter des Ordnernamens (trifft auch Schreibweisen mit Rechtsform)
+            teile.append(r"[-_ ]?".join(re.escape(t) for t in tok[:2]))
+        elif tok and len(tok[0]) >= 6:
+            teile.append(re.escape(tok[0]))
+    return re.compile(r"(?i)(?<![a-z])(" + "|".join(dict.fromkeys(teile)) + r")")
+
+
+def testakte(files=None):
+    """ERR: «Testakte» ausserhalb des Feldes testakte_2025 in data/prueffelder/*.yaml (rekursiv) und überall in quick/ und wiki/
+    (Testakte-Bezüge nur in eval/testfall-2025/hinweise/). WARN: Kürzel mit Testakte-Bezug in data/** (Überanpassung an die Messung)."""
+    kz = testakte_kuerzel()
+    pf_dir = R / "data" / "prueffelder"
+    data = sorted(p for p in (R / "data").rglob("*") if p.is_file() and p.suffix in (".yaml", ".yml", ".csv", ".md"))
+    seiten = sorted((R / "quick").glob("*.md")) + sorted((R / "wiki").rglob("*.md"))
+    if files is not None:
+        data, seiten = [p for p in files if p in set(data)], [p for p in files if p in set(seiten)]
+    for p in data:
+        N["testakte"] += 1
+        treffer = []   # (Ort, Text, ist «Testakte»)
+        if p.suffix in (".yaml", ".yml"):
+            treffer += [(pfad or "/", s, bool(TESTAKTE.search(s))) for pfad, s in texte(laden(p)) if kz.search(s)]
+            treffer += [(f":{i}", s, bool(TESTAKTE.search(s))) for i, s in enumerate(p.read_text(encoding="utf-8").splitlines(), 1)
+                        if s.lstrip().startswith("#") and kz.search(s)]   # YAML-Kommentare
+        else:
+            treffer += [(f":{i}", s, bool(TESTAKTE.search(s))) for i, s in enumerate(p.read_text(encoding="utf-8-sig").splitlines(), 1) if kz.search(s)]
+        for ort, s, ist_ta in treffer:
+            m = kz.search(s)
+            ctx = rv.cut(s[max(0, m.start() - 40):m.end() + 40], 110)
+            if p.parent == pf_dir and ist_ta:
+                ERR.append(f"{rel(p)}{ort}: «Testakte» ausserhalb von testakte_2025 – allgemeingültig formulieren (Testakte-Bezüge nur im Feld "
+                           f"testakte_2025): «{ctx}»")
+            else:
+                WARN.append(f"{rel(p)}{ort}: Kürzel mit Testakte-Bezug «{m.group(1)}» – allgemeingültig formulieren: «{ctx}»")
+    for p in seiten:
+        N["testakte_seiten"] += 1
+        zeilen = [i for i, s in enumerate(p.read_text(encoding="utf-8").splitlines(), 1) if TESTAKTE.search(s)]
+        if zeilen:
+            ERR.append(f"{rel(p)}: «Testakte» in Zeile {', '.join(map(str, zeilen[:5]))}{' …' if len(zeilen) > 5 else ''} – Testakte-Bezüge gehören nur "
+                       "nach eval/testfall-2025/hinweise/ (Daten korrigieren, dann build_quick.py)")
+
+
+def praxis_kurz(files=None):
+    """WARN: Einträge in gesetz/risiken/fallstricke/bewertung/unterlagen ohne Fundstelle (quelle oder fundstellen/weitere_fundstellen)
+    und ohne «Praxis» im Text; kurzbeschrieb länger als die Kürzung im Kompaktbündel."""
+    pf = sorted((R / "data" / "prueffelder").glob("*.yaml"))
+    for p in (pf if files is None else [x for x in files if x in set(pf)]):
+        d = laden(p) or {}
+        for k in FELDER_FS:
+            for i, x in enumerate(d.get(k) or []):
+                if not isinstance(x, dict) or x.get("quelle") or x.get("fundstellen") or x.get("weitere_fundstellen"):
+                    continue
+                txt = " ".join(str(v) for kk, v in x.items() if isinstance(v, str))
+                if "Praxis" not in txt:
+                    WARN.append(f"{rel(p)} {k}[{i}]: ohne Fundstelle und ohne «Praxis» – Quelle+Zitat ergänzen oder «Praxis/intern: …» schreiben: "
+                                f"«{rv.cut(txt, 70)}»")
+        kb = re.sub(r"\s+", " ", str(d.get("kurzbeschrieb") or "")).strip()
+        if len(kb) > KURZ_MAX:
+            WARN.append(f"{rel(p)}: kurzbeschrieb {len(kb)} Zeichen > {KURZ_MAX} – das Kompaktbündel schneidet ab «…{rv.cut(kb[KURZ_MAX - 1:], 50)}»")
+
+
+def frontmatter(p: Path) -> dict:
+    if not p.exists():
+        return {}
+    t = p.read_text(encoding="utf-8")
+    if not t.startswith("---\n") or "\n---\n" not in t[4:]:
+        return {}
+    try:
+        return yaml.safe_load(t[4:t.index("\n---\n", 4) + 1]) or {}
+    except yaml.YAMLError:
+        return {}
+
+
+def aktualitaet(files=None):
+    """ERR, wenn lookup/quick/wiki hinter data/ zurückbleiben: sha256 data/prueffelder/<code>.yaml ≠ lookup pf[code]._sha bzw. ≠ quelle_sha
+    der Seiten quick/prueffeld-<code>.md und wiki/prueffelder/<code>.md; ganzer Lauf zusätzlich lookup inputs_sha256 ≠ Eingaben."""
+    lp = R / "index" / "lookup.json"
+    try:
+        lk = json.loads(lp.read_text(encoding="utf-8")) if lp.exists() else {}
+    except json.JSONDecodeError:
+        lk = {}
+    pf = sorted((R / "data" / "prueffelder").glob("*.yaml"))
+    alt = collections.defaultdict(list)   # «lookup + quick + wiki» → Codes
+    for p in (pf if files is None else [x for x in files if x in set(pf)]):
+        N["aktualitaet"] += 1
+        sha, code = hashlib.sha256(p.read_bytes()).hexdigest(), p.stem.upper()
+        wo = [] if ((lk.get("pf") or {}).get(code) or {}).get("_sha") == sha else ["index/lookup.json"]
+        wo += [s for s in (f"quick/prueffeld-{p.stem}.md", f"wiki/prueffelder/{p.stem}.md") if str(frontmatter(R / s).get("quelle_sha") or "") != sha]
+        if wo:
+            alt[" + ".join(x.split("/")[0] if x.startswith(("quick", "wiki")) else x for x in wo)].append(code)
+    for wo, codes in alt.items():
+        ERR.append(f"{', '.join(codes)}: {wo} veraltet (data/prueffelder geändert) – python3 revision/tools/build_quick.py")
+    if files is None and lk.get("inputs_sha256") != build_lookup.inputs_sha256():
+        ERR.append("index/lookup.json veraltet (registry/ oder data/ geändert"
+                   + (", ohne inputs_sha256" if not lk.get("inputs_sha256") else "") + ") – python3 revision/tools/build_quick.py")
 
 
 def hashes():
@@ -223,33 +391,72 @@ def hashes():
             ERR.append(f"Original fehlt {e['id']}: {e['raw']}")
 
 
+def aufloesen(x: str) -> Path | None:
+    """--datei: absolut, relativ zu revision/ (auch mit Präfix «revision/») oder zum aktuellen Ordner; nur Dateien im Wiki."""
+    p = Path(x)
+    for c in ([p] if p.is_absolute() else [R / x.removeprefix("revision/"), Path.cwd() / x]):
+        c = c.resolve()
+        if c.is_file() and (c == R or R in c.parents):
+            return c
+    return None
+
+
 def main():
-    global DATEI
-    if len(sys.argv) > 2 and sys.argv[1] == "--datei":   # nur Zitate einer Datei prüfen (für Korrektur-Agenten)
-        DATEI = sys.argv[2].removeprefix("revision/")
-        zitate()
-        print(f"{DATEI}: {N['zitate']} Zitate, {len(ERR)} Fehler")
-        for e in ERR:
-            print("  ", e)
-        sys.exit(1 if ERR else 0)
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__.split("\n\n", 1)[1],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--datei", nargs="+", metavar="PFAD",
+                    help="nur diese Datei(en) prüfen, z.B. data/prueffelder/c1.yaml: Zitate, Verweise, Testakte, Praxis-Kennzeichnung, "
+                         "kurzbeschrieb, Aktualität (Prüffeld). reports/lint.md bleibt unverändert.")
+    a = ap.parse_args()
+    if a.datei:   # für Korrektur-Agenten: schnell, nur die eigenen Dateien
+        files = []
+        for x in a.datei:
+            p = aufloesen(x)
+            if p is None:
+                ERR.append(f"{x}: Datei nicht gefunden (Pfad relativ zu revision/ oder absolut)")
+            else:
+                files.append(p)
+        zitate(files)
+        verweise(files)
+        testakte(files)
+        praxis_kurz(files)
+        aktualitaet(files)
+        err, warn = list(dict.fromkeys(ERR)), list(dict.fromkeys(WARN))
+        print(f"{', '.join(rel(p) for p in files) or '–'}: {N['zitate']} Zitate, {N['verweise'] + N['nackt']} Verweise · "
+              f"Fehler: {len(err)} · Warnungen: {len(warn)}")
+        for e in err:
+            print("  ERR ", e)
+        for w in warn[:40]:
+            print("  WARN", w)
+        if len(warn) > 40:
+            print(f"  … {len(warn) - 40} weitere Warnungen")
+        sys.exit(1 if err else 0)
     zitate()
     katalog()
     werkzeuge()
     verweise()
     links()
+    testakte()
+    praxis_kurz()
+    aktualitaet()
     hashes()
-    rep = ["# Lint Revisions-Wiki", "", f"Zitate geprüft: {N['zitate']} · Verweise ^[…]: {N['verweise']} · Links: {N['links']} · Seiten: {N['dateien']}",
-           f"**Fehler: {len(ERR)} · Warnungen: {len(WARN)}**", ""]
-    if ERR:
-        rep += ["## Fehler"] + [f"- {e}" for e in ERR] + [""]
-    if WARN:
-        rep += ["## Warnungen"] + [f"- {w}" for w in WARN[:300]] + ([f"- … {len(WARN) - 300} weitere"] if len(WARN) > 300 else [])
+    err, warn = list(dict.fromkeys(ERR)), list(dict.fromkeys(WARN))
+    rep = ["# Lint Revisions-Wiki", "",
+           f"Zitate geprüft: {N['zitate']} · Verweise ^[…]: {N['verweise']} · nackte Chunk-Ids: {N['nackt']} · Links: {N['links']} · Seiten: {N['dateien']} · "
+           f"Testakte-Prüfung: {N['testakte']} Datendateien + {N['testakte_seiten']} Seiten · Aktualität: {N['aktualitaet']} Prüffelder",
+           f"**Fehler: {len(err)} · Warnungen: {len(warn)}**", ""]
+    if err:
+        rep += ["## Fehler"] + [f"- {e}" for e in err] + [""]
+    if warn:
+        rep += ["## Warnungen"] + [f"- {w}" for w in warn[:300]] + ([f"- … {len(warn) - 300} weitere"] if len(warn) > 300 else [])
     (R / "reports").mkdir(exist_ok=True)
     (R / "reports" / "lint.md").write_text("\n".join(rep) + "\n", encoding="utf-8")
     print("\n".join(rep[:6]))
-    for e in ERR[:20]:
+    for e in err[:20]:
         print("  ", e)
-    sys.exit(1 if ERR else 0)
+    if len(err) > 20:
+        print(f"   … {len(err) - 20} weitere Fehler: reports/lint.md")
+    sys.exit(1 if err else 0)
 
 
 if __name__ == "__main__":

@@ -9,9 +9,9 @@ erfasst:
     urteil: korrigieren
     befunde: 13
     korrigiert: false
-kurzbeschrieb: 'Nicht fakturierte Dienstleistungen bzw. angefangene Arbeiten/langfristige Aufträge (Teil der Position «Vorräte und nicht fakturierte Dienstleistungen», Art. 959a OR)
-  inkl. Abgrenzung zu erhaltenen Anzahlungen und Bestandesänderung. Eingeschränkte Revision: v.a. Befragungen und Analytik zu Bestand, Bewertung (höchstens Herstellkosten, verlustfrei)
-  und Abgrenzung, ergänzt um Detailprüfungen.'
+  ergaenzt: '2026-11-13 Runde R2: Wissenslücken aus E2E-Lauf ergänzt (Zitate maschinell geprüft, Zweitprüfung offen)'
+kurzbeschrieb: 'Nicht fakturierte Dienstleistungen/angefangene Arbeiten (Art. 959a OR) inkl. Anzahlungen und Bestandesänderung. ER: Befragung, Analytik und Detailprüfung zu Bestand,
+  Bewertung (höchstens Herstellkosten, verlustfrei je Projekt) und Abgrenzung (vor dem Stichtag abgenommen = Ertrag des Prüfjahres).'
 gesetz:
 - thema: 'Mindestgliederung Bilanz: Ausweis Vorräte und nicht fakturierte Dienstleistungen (Art. 959a Abs. 1 Ziff. 1 lit. d OR)'
   quelle: or__art-959a-t1
@@ -161,11 +161,16 @@ unterlagen:
   quelle: hwp-bur-2023__rz-0306-s224
   zitat: wird in der Regel die Führung einer separaten Konsortialbuchhaltung einem der Gesellschafter übertragen
 - dokument: Versicherungspolicen (Bauwesen-/Montageversicherung) für laufende Projekte
-  zweck: Angemessenheit Versicherungswerte (F2-403)
+  zweck: Angemessenheit Versicherungswerte (F2-403) (Praxis/intern)
 - dokument: Vollständigkeitserklärung der Unternehmensleitung
   zweck: Schriftliche Bestätigung u.a. zu stillen Reserven und Bewertung
   quelle: ser-2022__anh-e-s104-1
   zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt
+- dokument: Hauptbuch-Kontoblätter angefangene Arbeiten, erhaltene Anzahlungen, Projekterlöse und Debitoren (Dezember GJ und erste Monate Folgejahr); Jahresrechnung inkl. Anhang (ganz
+    lesen)
+  zweck: Schlussrechnungen, Gutschriften und Ausbuchung abgenommener Projekte um den Stichtag (F2-302), Bestandesänderung (F2-201), Anhangsangabe Bewertungsmethode (F2-320)
+  quelle: ser-2022__anh-d-s079-1
+  zitat: Prüfung angefangener Arbeiten und nicht fakturierter Dienstleistungen anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode
 bewertung:
 - regel: Verlustfreie Bewertung mittels Rückrechnung (erwarteter Erlös abzüglich Erlösminderungen und noch anfallender Kosten); liegt der Vergleichswert tiefer, Wertberichtigung.
   quelle: hwp-bur-2023__rz-0246-s212
@@ -263,7 +268,33 @@ fallstricke:
 - text: Verluste, die vor dem Stichtag verursacht, aber erst danach bekannt wurden (z.B. Mängel, Gutschriften im Folgejahr), betreffen das alte Geschäftsjahr.
   quelle: hwp-bur-2023__rz-0530-s264
   zitat: Verluste, die vor dem Bilanzstichtag verursacht, aber erst danach bekannt geworden sind, zulasten des alten Geschäftsjahres zurückzustellen
-- text: Anzahlungen werden oft im Prüffeld übrige kurzfristige Verbindlichkeiten geführt; Zuordnung je Projekt mit F2 abstimmen, um Doppel- oder Fehlbeurteilungen zu vermeiden.
+- text: 'Praxis/intern: Anzahlungen werden oft im Prüffeld übrige kurzfristige Verbindlichkeiten geführt; Zuordnung je Projekt mit F2 abstimmen, um Doppel- oder Fehlbeurteilungen zu
+    vermeiden.'
+- text: 'Abnahme bzw. Fertigstellung vor dem Stichtag ist kein Ereignis nach dem Bilanzstichtag: Der Ertrag ist realisiert, sobald ein Entschädigungsanspruch durchsetzbar ist – auch
+    wenn die Schlussrechnung erst im Folgejahr gestellt wird. Im Prüfjahr erfassen (F2-302). Spätere Belege liefern nur Nachweise; massgebend ist, ob der Sachverhalt am Stichtag bestand.'
+  quelle: hwp-bur-2023__rz-0745-s315
+  zitat: Umsatz kann dann als realisiert betrachtet und somit erfasst werden, wenn die dem Vertrag zugrunde liegende Leistungsverpflichtung
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0317-s254
+    zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
+  schritte:
+  - F2-102
+  - F2-302
+- text: 'Akonto-/Vorauszahlungsrechnungen für noch nicht erbrachte Leistungen (z.B. Leistungen des Folgejahres) sind weder Ertrag noch Forderung aus L+L: Anzahlungen werden erst bei
+    Zahlungseingang bilanziert. Unbezahlte, als Ertrag/Debitor gebuchte Akontorechnung → Feststellung (Storno vorschlagen); bezahlte → erhaltene Anzahlung, nicht Ertrag.'
+  quelle: hwp-bur-2023__rz-0109-s185
+  zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
+  schritte:
+  - F2-202
+  - F2-302
+- text: 'Verlustprojekte: Marge jeder Zeile der Projektliste mit `rechne` prüfen (Auftragswert − Kosten − Restkosten), nicht nur Totale oder die vom Kunden markierten Projekte. Ein sich
+    abzeichnender Verlust ist sofort vollumfänglich zu erfassen: WB auf dem Projekt, Rest als Rückstellung.'
+  quelle: hwp-bur-2023__rz-0747-s315
+  zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich zurückzustellen.
+  schritte:
+  - F2-105
+  - F2-301
+  - F2-304
 fragen_kunde:
 - frage: Welcher Art sind die angefangenen Arbeiten bzw. nicht fakturierten Leistungen (Kundenaufträge mit Werkvertrag oder Arbeiten auf Lager)? Handelt es sich um Bauten auf fremdem
     Boden?
@@ -400,13 +431,22 @@ schritte:
   - Schriftliche Antwort Geschäftsleitung/Projektleitung
   - Projektliste mit Restkosten
   - Rückstellungsspiegel
-  rechnen: 'je Projekt: Auftragswert − (Kosten bis 31.12. + geschätzte Restkosten) < 0 → Verlustprojekt'
-  feststellung_wenn: Kein Verfahren zur verlustfreien Bewertung, Restkosten nicht geschätzt oder Projekt mit erwartetem Verlust ohne Wertberichtigung/Rückstellung.
+  rechnen: 'Jede Zeile der Projektliste mit `rechne`, Ergebnis mit Projekt-Id beschriften: Marge = Auftragswert − Kosten bis Stichtag − geschätzte Restkosten; Marge < 0 → Verlustprojekt,
+    Verlust = −Marge (sofort voll erfassen: WB auf dem Projekt, Verlust über dem Bilanzwert als Rückstellung). Gegenprobe: Σ Zeilen = Listentotal.'
+  feststellung_wenn: Kein Verfahren zur verlustfreien Bewertung, Restkosten nicht geschätzt oder Projekt mit erwartetem Verlust ohne Wertberichtigung/Rückstellung. Verlust (−Marge) nicht
+    vollständig als WB/Rückstellung erfasst.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-3
     zitat: Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen sichergestellt ist
   - quelle: hwp-bur-2023__rz-0233-s209
     zitat: so muss in der Folgebewertung dieser tiefere Wert eingesetzt werden
+  - quelle: hwp-bur-2023__rz-0747-s315
+    zitat: Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung vollumfänglich zurückzustellen.
+  - quelle: hwp-bur-2023__rz-0747-s315
+    zitat: eine Rückstellung für Verluste, die über die aufgelaufenen Kosten hinausgehen
+  notiz: 'Verlustprojekt ohne (ausreichende) WB/Rückstellung ≥ NAG → «Wesentliche Feststellungen» als Feststellung formuliert (nicht als Kundenfrage): Projekt, Verlust mit `rechne`,
+    Buchungsvorschlag (Aufwand bzw. Bestandesänderung an WB angefangene Arbeiten; Rest an Rückstellung drohende Verluste), Betrag auch mit der Gesamtwesentlichkeit (3.3) vergleichen
+    und nennen; < NAG nur Textfeld. Restkosten oder Antwort fehlen → «Pendenz».'
 - id: F2-201
   vorgehen: Saldo nicht fakturierte Leistungen (Konto 1301) und Bestandesänderung (3900) mit Vorjahr vergleichen; Relationen zu Nettoerlös und erhaltenen Anzahlungen (2030) bilden. Wesentliche
     Veränderungen und unerwartete Entwicklungen im Textfeld begründen; Erklärungen der Gesellschaft als Pendenz anfordern und mit der Projektliste plausibilisieren.
@@ -414,13 +454,16 @@ schritte:
   - Saldoliste 2025 mit Vorjahr
   - Jahresrechnung (Bilanz/ER)
   - Projektliste
-  rechnen: 'Veränderung = Saldo 1301 31.12.2025 − Saldo 31.12.2024 (absolut/%); Kennzahlen: angefangene Arbeiten in % Nettoerlös, Anzahlungen in % angefangene Arbeiten, je mit Vorjahr'
+  rechnen: 'Veränderung = Saldo 1301 31.12.2025 − Saldo 31.12.2024 (absolut/%); Kennzahlen: angefangene Arbeiten in % Nettoerlös, Anzahlungen in % angefangene Arbeiten, je mit Vorjahr;
+    Bestandesänderung ER = Saldo angefangene Arbeiten GJ − Saldo VJ (Vorzeichen beachten) – Differenz als Hinweis (Detail F2-404)'
   feststellung_wenn: Veränderung über Toleranzwesentlichkeit ohne plausible Erklärung oder nicht plausible Kennzahlen (dann Detailprüfungen ergänzen).
   fundstellen:
   - quelle: ser-2022__6-1-2-t1
     zitat: Sie bestehen in der Analyse wesentlicher Kennzahlen und Trends, einschliesslich der Beurteilung von Veränderungen und Relationen
   - quelle: ser-2022__6-1-2-t3
     zitat: insbesondere wenn die Analysen nicht plausible Relationen oder Entwicklungen hervorbringen
+  - quelle: or__art-959b-t1
+    zitat: Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen
 - id: F2-202
   vorgehen: Je Projekt Bilanzwert (aufgelaufene Kosten) den erhaltenen Anzahlungen bzw. Abrechnungen von Unterakkordanten gegenüberstellen. Summe Anzahlungen gemäss Projektliste mit
     Konto 2030 abstimmen; überfinanzierte Projekte (Anzahlungen > Kosten) und Projekte ohne Anzahlungen kennzeichnen. Prüfen, ob Brutto- oder Nettodarstellung stetig und ohne Verrechnung
@@ -466,7 +509,8 @@ schritte:
   - Kontoblatt 1301
   - Saldoliste
   - Jahresrechnung (Bilanz)
-  rechnen: Σ Bilanzwert Projektliste = Saldo Konto 1301 = Bilanzposition «Nicht fakturierte Dienstleistungen»; Differenz = 0
+  rechnen: Σ Bilanzwert Projektliste = Saldo Konto 1301 = Bilanzposition «Nicht fakturierte Dienstleistungen»; Differenz = 0; jede Spalte der Projektliste selbst summieren (gedrucktes
+    Total nur vergleichen); Marge je Zeile siehe F2-105
   feststellung_wenn: Differenz zwischen Projektliste, Hauptbuch und Jahresrechnung oder kein Bestandesnachweis vorhanden.
   fundstellen:
   - quelle: ser-2022__anh-d-s078-3
@@ -482,13 +526,18 @@ schritte:
   - Abnahmeprotokolle
   - Kontoblätter Folgejahr
   - Fakturen/Schlussrechnungen neue Periode
-  rechnen: Fertigstellungsgrad = Kosten bis 31.12. / (Kosten bis 31.12. + Restkosten); Vergleich Bilanzwert mit Folgefakturierung abzüglich Anzahlungen
+  rechnen: 'Fertigstellungsgrad = Kosten bis 31.12. / (Kosten bis 31.12. + Restkosten); Vergleich Bilanzwert mit Folgefakturierung abzüglich Anzahlungen; Abnahme ≤ Stichtag → Ertrag
+    im Prüfjahr: Ergebniswirkung = Schlussrechnungsbetrag (Auftragswert − bereits als Ertrag erfasste Teilrechnungen) − Bilanzwert angefangene Arbeit (mit `rechne`)'
   feststellung_wenn: Projekt vor dem Stichtag abgenommen, aber noch als angefangene Arbeit bilanziert; Folgefakturen oder Gutschriften deuten auf Überbewertung oder Verlust hin.
   fundstellen:
   - quelle: ser-2022__anh-d-s079-1
     zitat: Prüfung angefangener Arbeiten und nicht fakturierter Dienstleistungen anhand des Arbeitsfortschritts und/oder Abrechnungen in neuer Periode
   - quelle: hwp-er-2026__rz-0317-s254
     zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
+  - quelle: hwp-bur-2023__rz-0745-s315
+    zitat: Umsatz kann dann als realisiert betrachtet und somit erfasst werden, wenn die dem Vertrag zugrunde liegende Leistungsverpflichtung
+  notiz: 'Abnahme vor dem Stichtag, Projekt aber noch als angefangene Arbeit → «Wesentliche Feststellungen» (Sachverhalt des Prüfjahres, kein Ereignis nach dem Bilanzstichtag) mit Buchungsvorschlag:
+    Forderung bzw. aktive Abgrenzung an Ertrag; Bestandesänderung an angefangene Arbeiten (ohne Verbuchung). < NAG nur Textfeld; Abnahmedatum unklar → «Pendenz».'
 - id: F2-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz «Schlussbesprechung»:
     Hinweise auf erhöhtes Risiko aus F2-1xx/2xx an WP melden, nicht selbst starten. Mit Anweisung: Projekte mit hohem Wert bzw. Schlüsselprojekte auswählen; Kosten je Projekt mit Stundenrapporten,

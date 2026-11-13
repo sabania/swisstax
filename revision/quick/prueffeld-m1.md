@@ -3,14 +3,18 @@ typ: prueffeld
 titel: Prüffeld M1 übrige kurzfristige Verbindlichkeiten – Schnellzugriff
 jur: ch
 quellen:
+- estv-rs-2-219-2026
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
+- treuhand-almanach-2026
+- vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: 9ceac2428453b99185f0b974cb5afbcc7b4788450ba9fff2caeb6c304dbf8ef0
 ---
 
 
@@ -18,7 +22,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 19 Schritte (Befragung 3, Analytisch 1, Detail 7, Sonstige 8; EP 7, WP 1) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/m1.md](../wiki/prueffelder/m1.md)
 
-Übrige kurzfristige Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. c OR): nicht verzinsliche, nicht aus Lieferungen/Leistungen stammende Schulden bis 12 Monate (Sozialversicherungen, QST, MWST, Personal, Kundenanzahlungen). Eingeschränkte Revision: Vollständigkeit, Abstimmung mit Abrechnungen, Klassierung, Sollsaldi, Ausweis (Art. 959a Abs. 4, 959c OR); Compliance nicht Gegenstand.
+Übrige kurzfristige Verbindlichkeiten (Art. 959a Abs. 2 Ziff. 1 lit. c OR): Sozialversicherungen, QST, MWST-Abrechnungskonto, Personal, Kundenanzahlungen. ER: Vollständigkeit, Abstimmung mit Abrechnungen, Klassierung, Sollsaldi, Ausweis (Art. 959a Abs. 4, 959c OR); Compliance nicht Gegenstand.
 
 ## Risiken
 - Unvollständige Erfassung: Schulden gegenüber Sozialversicherungen (Schlussabrechnungen AHV, UVG, KTG, BVG), Quellensteuer oder Personal (Boni, Lohnnachzahlungen) fehlen per Stichtag. [VO, PA] — [SER](../chunks/ser-2022/ser-2022__4-3-4.md)
@@ -36,13 +40,13 @@ revio Bereich 4 · 19 Schritte (Befragung 3, Analytisch 1, Detail 7, Sonstige 8;
 ## Bewertung / Bilanzierung
 - Klassierung: übrige kurzfristige Verbindlichkeiten sind nicht verzinslich und stammen nicht aus Lieferungen/Leistungen (verzinste Kontokorrente → kurzfristige verzinsliche Verbindlichkeiten) — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0154-s192.md)
 - Verbindlichkeiten zum Nennwert — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0159-s192.md)
+- Saldierung von Forderungen und Verbindlichkeiten nur bei gegenseitiger Verrechenbarkeit — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
+- Verrechnung geboten, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird (z.B. Unterkonten derselben Ausgleichskasse); auszugliedern sind nur Netto-Sollsaldi je Gegenpartei — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
 - Erhaltene Anzahlungen zum Nennwert — [HWP BuR S. 252](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0457-s252.md)
 - Anzahlungen mit reinem Vorleistungscharakter im kurzfristigen (ausnahmsweise langfristigen) Fremdkapital — [HWP BuR S. 252](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0458-s252.md)
 - Kundenanzahlungen erst bei Zahlungseingang bilanzieren — [HWP BuR S. 185](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0109-s185.md)
 - Bei Abschluss fällige, unbezahlte Anzahlungsrechnungen mit Anzahlungen saldieren (keine Bilanzverlängerung) — [HWP BuR S. 251](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0455-s251.md)
 - Nettodarstellung je Projekt: Überfinanzierung (Anzahlungen über Projektkosten) unter übrigen Verbindlichkeiten — [HWP BuR S. 214](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0254-s214.md)
-- Saldierung von Forderungen und Verbindlichkeiten nur bei gegenseitiger Verrechenbarkeit — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
-- Verrechnung geboten, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird (z.B. Unterkonten derselben Ausgleichskasse); auszugliedern sind nur Netto-Sollsaldi je Gegenpartei — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
 - MWST: Saldo Umsatzsteuer abzüglich Vorsteuer als eine Forderung bzw. Verbindlichkeit (Verrechnung geboten) — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0163-s193.md)
 - Kurzfristige Fremdwährungsverbindlichkeiten zum Stichtagskurs — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t1.md)
 - Verjährte Verbindlichkeiten bleiben bilanziert, wenn Erfüllungsabsicht oder Verrechnung möglich — [HWP BuR S. 193](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0161-s193.md)
@@ -58,7 +62,7 @@ revio Bereich 4 · 19 Schritte (Befragung 3, Analytisch 1, Detail 7, Sonstige 8;
 
 ## Unterlagen (PBC)
 - Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung) – Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303)
-- Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung – Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-406), BVG-Ausstände (M1-408)
+- Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung – Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-301, Detail M1-406), BVG-Ausstände (M1-408)
 - Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal und Personalliste (Bruttolöhne) – Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e), Plausibilisierung QST-Abzug je Person zum Bruttolohn (M1-201)
 - Lohnjournal und Lohnabrechnung Dezember, Auszahlungsbelege (Bank) Januar Folgejahr, Bonus-/Spesenabrechnungen der Geschäftsleitung – Nachweis Lohnsammelkonto (M1-301, M1-302e), Organguthaben im Lohnsammelkonto (M1-304), Boni (M1-103)
 - Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten 2025 sowie Buchungen/Zahlungen Januar–Februar Folgejahr – Buchungsdurchsicht (M1-401), Periodenabgrenzung und Zahlungen nach Stichtag (M1-103, M1-403, M1-408)
@@ -87,23 +91,25 @@ revio Bereich 4 · 19 Schritte (Befragung 3, Analytisch 1, Detail 7, Sonstige 8;
 - Werden Kontokorrente von Aktionären, Organen oder Konzerngesellschaften verzinst, und unter welcher Bilanzposition werden sie ausgewiesen?
 
 ## Fallstricke
-- Drittbestätigungen (AHV, SUVA, BVG/PK) und Kreditorenbestätigungen holt die Revisionsstelle in der eingeschränkten Revision nicht selbst ein (SER Anh. D q) und k): nicht Bestandteil); Nachweis über intern vorhandene Abrechnungen. — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-2.md)
+- Drittbestätigungen (AHV, SUVA, BVG/PK) holt die Revisionsstelle in der eingeschränkten Revision nicht selbst ein (SER Anh. D q: nicht Bestandteil); Nachweis über intern vorhandene Abrechnungen. — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-2.md)
+- Kreditorenbestätigungen holt die Revisionsstelle in der eingeschränkten Revision nicht ein (SER Anh. D k: nicht Bestandteil); Nachweis über intern vorhandene Abrechnungen. — [SER S. 86](../chunks/ser-2022/ser-2022__anh-d-s086-2.md)
 - Vom Unternehmen selbst eingeholte Bestätigungen (z.B. Kontoauszug Pensionskasse, Richtigbefundsanzeige) dürfen als Nachweis verwendet werden. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
 - Wesentliche Posten (z.B. hohe erhaltene Anzahlungen) nicht allein mit Befragungen abdecken; analytische Prüfungshandlungen und/oder Detailprüfungen ergänzen. — [SER](../chunks/ser-2022/ser-2022__6-1-1-t1.md)
 - Vorzeichen in Saldolisten beachten: negative Salden auf Passivkonten (z.B. Abrechnungskonten Sozialversicherungen) sind Sollsaldi; auszugliedern sind die Netto-Sollsaldi je Gegenpartei (bei Saldoabrechnung derselben Gegenpartei ist die Verrechnung geboten). — [HWP BuR S. 192](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0154-s192.md)
-- Doppelarbeit vermeiden: MWST-Abrechnungskonto nur Bestandsabstimmung (materielle MWST-Prüfung in M2), Aufwandabstimmung Sozialversicherungen primär in R1, Zinsprüfung Kontokorrente koordiniert mit L1/N1/SCH4.
+- Praxis/intern: Doppelarbeit vermeiden: MWST-Abrechnungskonto nur Bestandsabstimmung (materielle MWST-Prüfung in M2), Aufwandabstimmung Sozialversicherungen primär in R1, Zinsprüfung Kontokorrente koordiniert mit L1/N1/SCH4.
 - Abgrenzung Ferien-/Überzeitguthaben gehört nicht zu M1, sondern ist als passive Rechnungsabgrenzung auszuweisen (Prüffeld M3); hier nur Abgrenzung. — [Q&A Rechnungslegungsrecht](../chunks/qa-or-rechnungslegung-2026/qa-or-rechnungslegung-2026__2-2-t1.md)
 - Abgrenzung zwischen passiven Anzahlungen und passiven Rechnungsabgrenzungen ist nicht eindeutig; Praxis: Anzahlungen bei Lieferungen/Grossprojekten, passive Abgrenzung bei laufenden Erträgen. — [HWP BuR S. 251](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0454-s251.md)
 - ESTV-Zinssätze gelten je Kalenderjahr: das Rundschreiben 2026 gilt erst ab 1.1.2026; für das Geschäftsjahr 2025 das Rundschreiben 2025 beiziehen (im Wiki nicht vorhanden), Werte nicht übertragen. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 - ESTV-Sätze sind steuerliche Safe-Haven-Werte; ein höherer Zins kann im Drittvergleich begründet sein. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
 - Möglicher Ablauf gemäss HWP ER bei offensichtlicher und wesentlicher verdeckter Gewinnausschüttung (z.B. übersetzte Zinsen): schriftliche Mitteilung an den VR, Beurteilung der Rückerstattung nach Art. 678 OR, allenfalls Hinweis im Bericht; Entscheid ausschliesslich beim WP, kein Kundenkontakt durch den Agenten. — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0164-s212-t1.md)
-- Agent befragt nicht selbst (1xx nur über schriftliche Antworten, sonst Pendenz); WP-Schritt M1-302 nur vorbereiten, vorbehältlich Entscheid consis; 4xx-Schritte nur auf Anweisung des Wirtschaftsprüfers. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
-- Ob der Agent WP-Schritte (hier M1-302) vorbereiten darf, ist ein offener Entscheid von consis; bis zum Entscheid nur vorbereiten, Beurteilung beim WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
+- Agent befragt nicht selbst (1xx nur über schriftliche Antworten, sonst Pendenz); WP-Schritt M1-302 nur auf ausdrückliche Anweisung des WP; 4xx-Schritte nur auf Anweisung des Wirtschaftsprüfers. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
+- Ob der Agent WP-Schritte (hier M1-302) vorbereiten darf, ist ein offener Entscheid von consis; bis zum Entscheid ohne ausdrückliche Anweisung kein Eintrag im Textfeld (nur Notiz); Beurteilung beim WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c015-2.md)
 - Fragen an den Kunden (fragen_kunde, fehlende Unterlagen) nur als Pendenz erfassen; der Agent versendet nichts an Kunden. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c009-3.md)
 - Einhaltung arbeits- und verwaltungsrechtlicher Vorgaben (z.B. Art. 331 Abs. 3 OR: Beitragshöhe, Überweisungsfrist BVG) ist nicht Bestandteil der eingeschränkten Revision; nur auf ausdrückliche Anweisung des WP, Verstoss nur als Notiz an den WP. — [SER S. 93](../chunks/ser-2022/ser-2022__anh-d-s093-2.md)
 - Gesetzesverstösse ohne direkten Bezug zur Rechnungslegung lösen keine gesetzliche Hinweispflicht aus; ein Hinweis im Bericht kommt nur bei Wesentlichkeit und direktem Bezug zur Jahresrechnung in Frage – Entscheid beim WP. — [SER](../chunks/ser-2022/ser-2022__8-3-2-t1.md)
 - Kennzahl «Sozialversicherungsbeiträge zur Lohnsumme» bezieht sich auf den Aufwand; der Stichtagssaldo hängt vom Akonto- und Abrechnungsrhythmus ab und ist nicht zur Lohnsumme ins Verhältnis zu setzen (für den Bestand Erwartung aus Abrechnung bilden). — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0109-s199.md)
 - Verzinste Kontokorrente (Aktionäre, Organe, Konzern) gehören nicht in M1, sondern unter kurzfristige verzinsliche Verbindlichkeiten (Prüffeld L1). — [OR 959A](../chunks/or/or__art-959a-t1.md)
+- Kundenangaben nie ungeprüft übernehmen: «bezahlt» → Zahlung im Bankauszug bzw. Kontoblatt des Folgejahres suchen; «gemäss Abstimmung» → Abstimmung bzw. Abrechnung beiziehen; Kopie/Entwurf → definitive Abrechnung als «Pendenz». Datum jeder Unterlage mit dem Buchungsstand vergleichen: eine Abrechnung, die nach dem Export bzw. Abschluss der Buchhaltung datiert ist, kann der Buchung nicht zugrunde liegen → Buchungsgrundlage als «Pendenz» erfragen (M1-201, M1-301). — [SER](../chunks/ser-2022/ser-2022__1-2-t2.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -111,11 +117,11 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |
 |---|---|---|---|---|---|---|
 | M1-101 | Befragung | EP | EX RV VO PA | teilweise | Befragung zum geschäftlichen Hintergrund wesentlicher übriger Verbindlichkeiten | Agent befragt nicht selbst: schriftliche Antwort der Geschäftsleitung zu Gläubiger, Grund und Fälligkeit wesentlicher übriger Verbindlichkeiten… |
-| M1-102 | Befragung | EP | VO PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Verbindlichkeiten gegenüber früheren Perioden oder gegenüber den Erwartungen | Veränderung je Konto gegenüber Vorjahr und Erwartung (Lohnsumme, Projektvolumen, Abrechnungsrhythmus) berechnen. Wesentliche Abweichungen als schriftliche… |
+| M1-102 | Befragung | EP | VO PA | teilweise | Besprechung wesentlicher Abweichungen einzelner Verbindlichkeiten gegenüber früheren Perioden oder gegenüber den Erwartungen | Erst nach M1-201 bearbeiten: Veränderung je Konto gegenüber Vorjahr und Erwartung (Lohnsumme, Projektvolumen, Abrechnungsrhythmus) berechnen. Wesentliche… |
 | M1-103 | Befragung | EP | VO PA | teilweise | Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde | Schriftliche Darstellung des Abschlussprozesses auswerten: Erfassung von Schlussabrechnungen Sozialversicherungen, QST, Boni/Lohnnachzahlungen und… |
 | M1-201 | Analytisch | EP | VO | vorbereiten | Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr | Konten mit Vorjahr vergleichen: neue/weggefallene Konten, Vorzeichenwechsel, Anzahlungen zum Auftragsbestand. Bestand mit Erwartung vergleichen (Saldo… |
 | M1-301 | Detail | EP | EX VO BE DO RI | vorbereiten | Abstimmen Bilanzbestand mit Einzelnachweisen | Einzelnachweise je Konto beschaffen (Abrechnungen Sozialversicherungen, QST, MWST Q4, Projektliste Anzahlungen, Lohnsammelkonto mit Lohnjournal Dezember und… |
-| M1-302 | Detail | WP | EX RV VO BE | nur_mensch | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) Verträgen, Zinsabrechnungen d)… | WP-Schritt, vorbehältlich Entscheid consis nur vorbereiten: Nachweise abgleichen: a) vom Kunden selbst eingeholte Bestätigungen… |
+| M1-302 | Detail | WP | EX RV VO BE | nur_mensch | Nachweis der Bestände anhand: a) Richtigbefundsanzeigen b) Abrechnung der Sozialversicherungen c) Verträgen, Zinsabrechnungen d)… | WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld. Punkte für den WP (z.B. Ergebnisse aus M1-301) als Notiz «Schlussbesprechung» bzw.… |
 | M1-303 | Detail | EP | BE PA RI | vorbereiten | Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw. | Fremdwährungssalden der Position identifizieren (Konto- bzw. Gläubigerwährung). Angewandte Umrechnungskurse mit den Jahresendkursen gemäss Bankunterlagen… |
 | M1-304 | Detail | EP | VO DO | vorbereiten | Feststellung von Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt… | Nahestehende aus Aktienbuch, HR-Auszug, Unternehmensinformationen und Protokollen bestimmen: Beteiligte (mind. ab 20 % Stimmrechte), Organe = VR und… |
 | M1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Anhang auf Angaben zur Position prüfen: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen, Verbindlichkeiten gegenüber Nahestehenden (falls nicht in der… |

@@ -3,15 +3,21 @@ typ: prueffeld
 titel: Prüffeld N1 Langfristige Verbindlichkeiten – Schnellzugriff
 jur: ch
 quellen:
+- covid-sbueg
+- dbg
 - estv-ks-6a-2024
+- estv-rs-2-219-2026
 - estv-zinsen-2026
 - hwp-bur-2023
 - hwp-er-2026
 - konzept-ki-revisionsagent-2026
 - or
+- qa-kapitalverlust-2023
 - ser-2022
+- treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: c3624e706574a3bd591509ca74f3b5ca8a46f3dcebea2137a0a0f45abe083e62
 ---
 
 
@@ -19,7 +25,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 15 Schritte (Befragung 5, Analytisch 1, Detail 6, Sonstige 3; EP 9, WP 1) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/n1.md](../wiki/prueffelder/n1.md)
 
-Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypothekardarlehen, Aktionärs- und Konzerndarlehen, Darlehen mit Rangrücktritt) inkl. Zinsen. Eingeschränkte Revision: Befragungen (Covenants, Sicherheiten, Fristigkeit, Nahestehende), Zinsplausibilisierung, Detailprüfungen (Abstimmung, Verträge, Zinsabgrenzung, verdecktes EK, Anhang); Rangrücktritte weiter gehend.
+Langfristige Verbindlichkeiten (Bank-, Hypothekar-, Aktionärs-, Konzern-, Rangrücktrittsdarlehen) inkl. Zinsen. ER: Befragungen (Covenants, Sicherheiten, Fristigkeit, Nahestehende), Zinsplausibilisierung, Abstimmung, Verträge, Marchzins, verdecktes EK, Anhang; Rangrücktritte weiter gehend (WP).
 
 ## Risiken
 - Nicht erfasste Darlehen, Zinsen oder Verpflichtungen (z.B. Aktionärsdarlehen nur mündlich vereinbart, Zinsen nicht gebucht). [VO, PA] — [SER](../chunks/ser-2022/ser-2022__4-3-4.md)
@@ -32,6 +38,7 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 - Übersetzte Zinsen an Beteiligte bzw. Zinsen auf verdecktem Eigenkapital (verdeckte Gewinnausschüttung, steuerliche Aufrechnung, Verrechnungssteuer). [BE, RI, PA] — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-1.md)
 - Verletzte Kreditbedingungen oder auslaufende Finanzierungen gefährden die Fortführung (Bewertung zu Fortführungswerten, Anhangangaben). [BE, DO] — [HWP ER S. 224](../chunks/hwp-er-2026/hwp-er-2026__rz-0191-s224.md)
 - Fremdwährungsdarlehen falsch bewertet (unrealisierte Kursgewinne erfasst, Kursverluste nicht erfasst). [BE] — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t2.md)
+- Covid-19-Kredit: Verwendungsverbote verletzt (Rückzahlung/Verrechnung Aktionärsdarlehen, Darlehen an Aktionär, Dividende) oder kurzfristiger Amortisationsanteil nicht umgegliedert. [RV, DO, VO] — [Covid-19-SBüG 2](../chunks/covid-sbueg/covid-sbueg__art-2-t1.md)
 
 ## Bewertung / Bilanzierung
 - Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert. — [HWP BuR S. 256](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0486-s256.md)
@@ -48,7 +55,13 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 - Langfristige Verbindlichkeiten gegenüber Nahestehenden gesondert in Bilanz oder Anhang. — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0490-s257.md)
 - Passivdarlehen mit Rangrücktritt gesondert ausweisen, Nachrangigkeit durch Bezeichnung erkennbar. — [HWP BuR S. 257](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0494-s257.md)
 - Zinsen laufen trotz Rangrücktritt weiter und müssen dem Rangrücktritt unterliegen. — [HWP BuR S. 305](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0714-s305.md)
-- Höhe des Rangrücktritts: Ausrichtung auf die Deckungslücke zu Fortführungswerten genügt nur, wenn die Fortführung nicht gefährdet ist; sonst Veräusserungswerte (Entscheid WP). — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0420-s125.md)
+- RR nur nötig, wenn die Gesellschaft gemäss beiden geprüften Zwischenabschlüssen überschuldet ist (bei fehlender Fortführungsannahme: gemäss dem Zwischenabschluss zu Veräusserungswerten, Art. 725b Abs. 1 Satz 3 OR); nur zu Fortführungswerten überschuldet → kein RR nötig, Sanierungspflicht des VR bleibt. — [OR 725B](../chunks/or/or__art-725b-t1.md)
+- Nur zu Fortführungswerten überschuldet (Zwischenabschluss zu Veräusserungswerten ohne Überschuldung): keine durch RR abwendbare Pflicht zur Benachrichtigung des Gerichts; der VR muss aber Sanierungsmassnahmen ergreifen bzw. beantragen (HWP ER Rz 406). — [HWP ER S. 122](../chunks/hwp-er-2026/hwp-er-2026__rz-0406-s122.md)
+- Höhe des Rangrücktritts: Fortführung nicht infrage → Deckungslücke zu Fortführungswerten (HWP ER Rz 420 / HWP BuR Rz 719); Fortführungsfähigkeit/-willigkeit infrage → Betrag über dieser Lücke; konkrete Gefahr der Fortführungsunfähigkeit → Deckungslücke zu Liquidationswerten (HWP BuR Rz 720); bei absehbaren Verlusten zusätzlich Sicherheitspolster für die in 12 Monaten nach Unterzeichnung, mindestens bis zur nächsten Prüfung erwarteten Verluste (HWP ER Rz 421). Stufe und Polster wählt der WP. — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0420-s125.md)
+- RR-Höhe Stufe 1: Fortführungsfähigkeit/-willigkeit nicht infrage → Deckungslücke zu Fortführungswerten genügt (HWP BuR Rz 719). — [HWP BuR S. 307](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0719-s307.md)
+- RR-Höhe Stufe 2: Fortführungsfähigkeit/-willigkeit infrage → RR über der Deckungslücke zu Fortführungswerten (HWP BuR Rz 720). — [HWP BuR S. 307](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0720-s307.md)
+- RR-Höhe Stufe 3: konkrete Gefahr der Fortführungsunfähigkeit → RR deckt die Deckungslücke zu Liquidationswerten (HWP BuR Rz 720). — [HWP BuR S. 307](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0720-s307.md)
+- Sicherheitspolster bei absehbaren weiteren Verlusten: erwartete Verluste der nächsten 12 Monate nach Unterzeichnung des RR, mindestens bis zur nächsten Prüfung, zusätzlich abdecken (HWP ER Rz 421; Höhe beurteilt der WP). — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0421-s125.md)
 - Anhang: Buchwert der infolge Sicherung nicht frei verfügbaren Aktiven (nicht die gesicherten Schulden) angeben. — [HWP BuR S. 348](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0844-s348.md)
 - Für jede langfristige Verbindlichkeit gesonderte Aufzeichnung der Eigenschaften und Bedingungen führen; schriftliche Verträge auch bei Nahestehenden. — [HWP BuR S. 256](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0484-s256.md)
 - Fremdwährungsdarlehen (langfristig): unrealisierte Kursverluste aufwandwirksam erfassen, unrealisierte Kursgewinne nicht ausweisen (Kurssicherungen berücksichtigen). — [HWP BuR S. 77](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0090-s077-t2.md)
@@ -65,7 +78,7 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 ## Unterlagen (PBC)
 - Darlehensspiegel/Aufstellung aller lang- und kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Währung, Saldo VJ, Zu-/Abgänge, Saldo, Zinssatz, Zinsaufwand, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch/Bilanz (N1-301, N1-402, N1-403)
 - Kredit- und Darlehensverträge inkl. Nachträge, Amortisationspläne, Covenant-Klauseln – Konditionen, Fälligkeit, Sicherheiten, Covenants (N1-101 bis N1-103, N1-302)
-- Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12. – Bestandesnachweis je Darlehen (N1-301 a/b)
+- Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12. – Praxis/intern: oft im Ordner/Register der flüssigen Mittel abgelegt, dort ebenfalls suchen – Bestandesnachweis je Darlehen (N1-301 a/b)
 - Kontoauszug der Gegenbuchhaltung bzw. vom Unternehmen selbst eingeholte Saldobestätigung bei Konzern- und Aktionärsdarlehen (keine Einholung durch Revisionsstelle oder Agent) – Abstimmung Gegenbuchhaltung (N1-301 d)
 - Zinsabgrenzungsberechnung per 31.12. – Prüfung Marchzinsen (N1-303)
 - Rangrücktrittsvereinbarungen inkl. ersetzter/geänderter Fassungen – Ausgestaltung, Höhe, Einschluss Zinsen (N1-105, N1-401)
@@ -79,6 +92,8 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 - Kontoblätter/Bankauszüge des Folgejahres bis zum Prüfungsdatum (Darlehens- und RR-Konten) – Zahlungen/Verrechnungen auf RR-Forderungen, Ereignisse nach dem Stichtag (N1-320, N1-403)
 - Schriftliche Antworten von GL/VR zu den Befragungen (z.B. 10.11 Kundenbefragung) – Grundlage der Befragungsschritte N1-101 bis N1-105
 - Vollständigkeitserklärung (u.a. Nahestehende, Belastungen, Verbindlichkeiten) – Schriftliche Bestätigung der Befragungsergebnisse
+- Hauptbuch-Kontoblätter GJ aller Darlehens- und Rangrücktrittskonten sowie der Zinsaufwandkonten (inkl. Abschluss- und Umbuchungen per 31.12. mit Gegenkonto) – Abstimmung, Saldoentwicklung, Zinsplausibilisierung und -abgrenzung, Tilgung/Verrechnung von RR-Forderungen (N1-201, N1-301, N1-303, N1-403)
+- Rangrücktrittsvereinbarungen früherer Jahre aus Vorjahresakte bzw. Dauerakte (unbefristet, gelten bis zur Aufhebung weiter) sowie Feststellungen und Hinweise «im Folgejahr» der Vorjahresprüfung – Vollständige Σ der Rangrücktritte für die Deckungsrechnung (P1-313); Nachverfolgung Vorjahrespunkte (N1-105, N1-401)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Wurden im Geschäftsjahr oder bis heute Bestimmungen von Kredit-/Darlehensverträgen (Covenants/Kennzahlen, Amortisationen, Zinszahlungen, Verwendungszweck) nicht eingehalten? Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor (Datum)?
@@ -91,17 +106,20 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 - Bestehen Darlehen in Fremdwährung? Zu welchem Kurs wurden sie erfasst und per 31.12. bewertet?
 - Was ist der Hintergrund der Zu- und Abgänge auf den Darlehenskonten (Neuaufnahmen, Rückzahlungen, Umbuchungen, Verrechnungsliberierung)? Liegen die entsprechenden Verträge und Beschlüsse vor?
 - Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Kündigung, Neuverhandlung, Rückzahlung, neue Sicherheiten, Änderung von Rangrücktritten)?
+- Besteht ein Covid-19-Kredit (nach Art. 3 oder Art. 4 Covid-19-SBüV) oder ein Härtefall-Darlehen (HFMV 20)? Bitte Kreditvereinbarung, Amortisationsplan und verbürgten Betrag per 31.12. zur Verfügung stellen. Wurden während der Solidarbürgschaft Dividenden/Tantiemen ausgerichtet, Kapitaleinlagen zurückerstattet, Darlehen an Aktionäre/Nahestehende gewährt oder Darlehen von ihnen zurückbezahlt bzw. verrechnet?
 
 ## Fallstricke
 - Bankbestätigungen werden in der eingeschränkten Revision nicht selbst eingeholt (N1-301 a); vom Unternehmen selbst eingeholte Bestätigungen dürfen verwendet werden. — [HWP ER S. 196](../chunks/hwp-er-2026/hwp-er-2026__rz-0095-s196.md)
 - Vom Unternehmen selbst eingeholte Drittbestätigungen sind zulässige Prüfungsnachweise, auch wenn sie nicht direkt an die Revisionsstelle gingen. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
 - Saldobestätigungen von Aktionären/Konzerngesellschaften fordert der Agent nicht an; an die Revisionsstelle adressierte Bestätigungen: Herkunft im Textfeld dokumentieren, über die Verwendung entscheidet der WP. — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
-- Rangrücktritt ohne ausdrücklichen Einschluss der Zinsen genügt dem Gesetz nicht; aufgelaufene Zinsen auf RR-Darlehen mitberücksichtigen. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0412-s123.md)
+- Rangrücktritt ohne ausdrücklichen Einschluss der Zinsen genügt dem Gesetz nicht; aufgelaufene Zinsen auf RR-Darlehen mitberücksichtigen. Alte Rangrücktritte ohne Zinsklausel: Übergangsfrist lief bis 31.12.2024 (Q&A Antwort 23); seither gilt das neue Recht für alle Verträge → für GJ ab 2025 ist ein RR ohne ausdrückliche Zinsklausel eine Feststellung (HWP ER Rz 412). Je RR Datum der Fassung und Zinsklausel festhalten; fehlt die Klausel: Notiz «Wesentliche Feststellungen» + «Schlussbesprechung». Die in der Q&A 2023 erwähnte Rechtsunsicherheit würdigt nur der WP. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0412-s123.md)
+- Q&A Kapitalverlust Antwort 23: Nach Ablauf der Übergangsfrist (31.12.2024) gilt das neue Recht für alle Rangrücktritte – Zinsen müssen ausdrücklich eingeschlossen sein. — [Q&A Kapitalverlust](../chunks/qa-kapitalverlust-2023/qa-kapitalverlust-2023__5-t2.md)
+- RR ohne Zinsklausel trotzdem als Feststellung erfassen: Die Q&A 2023 (vor Fristablauf) sah dazu «keine gefestigte Meinung»; diese Rechtsunsicherheit würdigt nur der WP. — [Q&A Kapitalverlust](../chunks/qa-kapitalverlust-2023/qa-kapitalverlust-2023__5-t2.md)
 - Rangrücktritt muss unwiderruflich (Vertrag zugunsten Dritter) und ohne Befristung/Kündigungsmöglichkeit vor Beseitigung der Überschuldung ausgestaltet sein. — [HWP BuR S. 305](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0715-s305.md)
 - Aufhebung eines Rangrücktritts erst nach SA-CH-geprüftem (Zwischen-)Abschluss ohne Überschuldung; der Bericht zur eingeschränkten Revision genügt dafür nicht. — [HWP BuR S. 305](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0717-s305-t1.md)
 - Reduktion eines Rangrücktritts ist nur unter engen Bedingungen zulässig (u.a. SA-CH-geprüfter Zwischenabschluss); bei Reduktion/Ersatz prüft die Revisionsstelle sämtliche Anforderungen erneut. — [HWP ER S. 126](../chunks/hwp-er-2026/hwp-er-2026__rz-0425-s126.md)
 - Keine Tilgung, Zinszahlung oder Verrechnung (z.B. mit einem Aktivdarlehen an denselben Aktionär) auf Forderungen unter Rangrücktritt. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0415-s123-t2.md)
-- Ungültiger oder ungenügender Rangrücktritt ohne andere bilanzwirksame Sanierungsmassnahmen: Benachrichtigung des Gerichts unvermeidbar, Mahnung des VR und subsidiäre Anzeige durch die Revisionsstelle. Darüber entscheidet nur der WP; der Agent erfasst eine wesentliche Feststellung und einen Punkt für die Schlussbesprechung und kontaktiert weder VR noch Gericht. — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0433-s127.md)
+- Ungültiger oder ungenügender Rangrücktritt ohne andere unmittelbar bilanzwirksame Sanierungsmassnahmen und ohne begründete Aussicht, die Überschuldung spätestens 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse zu beheben, ohne die Gläubiger zusätzlich zu gefährden (Art. 725b Abs. 4 Ziff. 2 OR): Benachrichtigung des Gerichts nicht vermeidbar, Mahnung des VR und subsidiäre Anzeige durch die Revisionsstelle. Darüber entscheidet nur der WP; der Agent erfasst eine wesentliche Feststellung und einen Punkt für die Schlussbesprechung und kontaktiert weder VR noch Gericht. — [HWP ER S. 127](../chunks/hwp-er-2026/hwp-er-2026__rz-0433-s127.md)
 - RR-Forderung trotz andauernder Überschuldung getilgt oder verrechnet (auch im Folgejahr): Hinweis nach Art. 729c OR und Auswirkung auf die Prüfungsaussage beurteilt der WP; der Agent eskaliert als wesentliche Feststellung. — [HWP ER S. 128](../chunks/hwp-er-2026/hwp-er-2026__rz-0434-s128.md)
 - Umwandlung einer RR-Forderung in Eigenkapital (Verrechnungsliberierung) bzw. Verzicht ist zulässig und lässt den Rangrücktritt dahinfallen; danach Deckung der Überschuldung neu beurteilen. — [HWP ER S. 124](../chunks/hwp-er-2026/hwp-er-2026__rz-0416-s124.md)
 - Rangrücktritte ersetzen bei Überschuldung nicht die Pflicht zu Zwischenabschlüssen; sie erlauben nur den Verzicht auf die Benachrichtigung des Gerichts. — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0423-s125-t2.md)
@@ -114,10 +132,16 @@ Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypo
 - Verzinsliche Aktionärsdarlehen gehören unter die langfristigen verzinslichen (nicht unter übrige) Verbindlichkeiten; Gruppenzuordnung der Konten in der Saldoliste prüfen. — [OR 959A](../chunks/or/or__art-959a-t1.md)
 - Fälligkeitsaufteilung 1–5 / über 5 Jahre (Art. 961a Ziff. 1 OR) ist nur bei ordentlicher Revision Pflicht; Fehlen bei SER-Mandat nicht als Mangel erfassen. — [OR 961](../chunks/or/or__art-961.md)
 - Kündbare Hypotheken bzw. sinngemäss Darlehen mit unbestimmter Laufzeit nicht mechanisch nach Kündigungsfrist umgliedern: kurzfristig nur bei konkreter Kündigungsabsicht des Schuldners oder wahrscheinlicher Kündigung durch den Gläubiger; Annahme im Textfeld dokumentieren. — [HWP BuR S. 253](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0463-s253.md)
-- ESTV-Zinssätze gelten je Kalenderjahr: das Rundschreiben 2026 gilt ab 1.1.2026 und darf nicht auf das Geschäftsjahr 2025 übertragen werden; das Rundschreiben 2025 ist im Wiki nicht erfasst (Pendenz/Quelle beschaffen). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
+- ESTV-Zinssätze gelten je Kalenderjahr: Rundschreiben 2026 gilt ab 1.1.2026, nicht für Zinsen 2025. Für 2025: `wert zins beteiligte 2025` (Treuhand-Almanach, Sekundärquelle; im Textfeld «Sekundärquelle, ESTV-Rundschreiben 2025 nicht im Wiki» vermerken; Original als Pendenz). — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s001-2.md)
 - Für ESTV-Limiten sind Kredite sämtlicher Beteiligter und Nahestehender zusammenzuzählen; höhere Sätze nur mit Drittvergleich. — [ESTV Zinssätze 2026](../chunks/estv-zinsen-2026/estv-zinsen-2026__s002-1.md)
 - Festgestellte verdeckte Gewinnausschüttung (z.B. übersetzte Zinsen): Mitteilung an den VR, Rückerstattung nach Art. 678 OR, Hinweis im Bericht und VSt-Aspekte entscheidet der WP; der Agent erfasst eine wesentliche Feststellung. — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0164-s212-t1.md)
 - Zinsplausibilisierung allein genügt für wesentliche Positionen nicht; mit Detailprüfungen (Abstimmung, Verträge) ergänzen. — [HWP ER S. 199](../chunks/hwp-er-2026/hwp-er-2026__rz-0111-s199-t1.md)
+- Covid-19-Kredit: Rückzahlung/Verrechnung von Aktionärsdarlehen oder neue Darlehen an Aktionäre während der Solidarbürgschaft = möglicher Verstoss gegen Art. 2 Abs. 2 Covid-19-SBüG → Notiz «Wesentliche Feststellungen» + «Schlussbesprechung». Fristansetzung und Information von GV und Bürgschaftsorganisation (Art. 23) nur durch den WP; der Agent kontaktiert niemanden. — [Covid-19-SBüG 23](../chunks/covid-sbueg/covid-sbueg__art-23.md)
+- Überschuldungs-/Kapitalverlustrechnung: nur den nach Art. 3 Covid-19-SBüV verbürgten Betrag (Kreditvereinbarung) aus dem Fremdkapital nehmen – mit `kapitalverlust … --covid-kredit <Betrag>`, nicht zusätzlich von Hand abziehen. — [Covid-19-SBüG 24](../chunks/covid-sbueg/covid-sbueg__art-24.md)
+- Darlehen unter Rangrücktritt nach dem Bilanzstichtag: nur mit tatsächlichem Zahlungsfluss zulässig und im Anhang als Ereignis nach dem Bilanzstichtag auszuweisen; rückwirkende Einbuchung gegen eine (kurzfristige) Forderung gegenüber dem Darlehensgeber ist unzulässig → Notiz «Wesentliche Feststellungen». — [HWP BuR S. 307](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0721-s307.md)
+- Rangrücktritt: Für die Deckung zählt der Betrag laut unterzeichneter Vereinbarung (inkl. Zinsen), nicht der Darlehenssaldo und nicht die Anhangangabe; Anhang ↔ Vereinbarung abgleichen (N1-320), Deckung in P1-313 rechnen. — [HWP ER S. 123](../chunks/hwp-er-2026/hwp-er-2026__rz-0410-s123.md)
+- RR-Reduktion ≠ Darlehensreduktion: Reduktion oder Aufhebung eines Rangrücktritts ändert die Forderung nicht – die Verbindlichkeit bleibt in voller Höhe Fremdkapital; nie einen Buchungsvorschlag auf das Darlehen ableiten. Reduktion während Überschuldung ohne die drei Voraussetzungen (HWP ER Rz 425) → «Wesentliche Feststellungen» + «Schlussbesprechung» (N1-105, N1-401). — [HWP ER S. 125](../chunks/hwp-er-2026/hwp-er-2026__rz-0423-s125-t1.md)
+- Zinsen zeitanteilig: Monate bzw. Tage ab Auszahlung, Amortisation oder letztem Zinstermin immer mit `rechne` bestimmen (`monate(…)`, `tage(…)`, `tage360(…)`), nie im Kopf zählen; Praxis/intern: Kontonummern nie als Betrag lesen (N1-201, N1-303). — [HWP BuR S. 66](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0048-s066.md)
 
 ## Prüfschritte
 Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.
@@ -128,7 +152,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | N1-102 | Befragung | EP | RV BE DO | teilweise | Befragung über Sicherheiten zugunsten von Darlehensgebern | Schriftliche Antwort zu Sicherheiten (Grundpfand, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien) auswerten; fehlt sie: Frage als Pendenz, Status… |
 | N1-103 | Befragung | EP | VO DO | teilweise | Befragung zur Gliederung in langfristige und kurzfristige Darlehen | Schriftliche Antwort der GL (z.B. 10.11 Kundenbefragung) zur Fristigkeit auswerten; fehlt sie: Frage als Pendenz, Status höchstens «teilweise bearbeitet».… |
 | N1-104 | Befragung | EP | VO DO | teilweise | Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt… | Liste der Nahestehenden (Aktionäre, VR/GL, Beteiligungen) aus Aktienbuch, HR-Auszug und GV-/VR-Protokollen erstellen. Schriftliche Antwort der GL zu deren… |
-| N1-105 | Befragung | WP | EX RV BE | nur_mensch | Befragung zu Rangrücktritten; Beurteilung der Bonität des Rangrücktrittgebers | Weiter gehende Prüfungshandlung (SER Anh. D), WP-Schritt. Schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen… |
+| N1-105 | Befragung | WP | EX RV BE | nur_mensch | Befragung zu Rangrücktritten; Beurteilung der Bonität des Rangrücktrittgebers | WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten. Ohne Anweisung: kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; erkannte… |
 | N1-201 | Analytisch | EP | VO BE PA RI | vorbereiten | Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint | Erwartungswert Zinsaufwand je Darlehen bilden (Saldo bzw. zeitgewichteter Saldo ab Auszahlung/Amortisation × Vertragszins) und mit gebuchtem Zinsaufwand… |
 | N1-301 | Detail | EP | EX RV EN VO BE | vorbereiten | Abstimmen Bilanzbestand mit Buchhaltung und: a) Bankbestätigungen b) Zinsquittungen c) Verträgen d) Gegenbuchhaltung(en) e) anderen… | Darlehensspiegel/Saldoliste mit Hauptbuch und Bilanz abstimmen; je Darlehen Saldo 31.12. abgleichen mit a) beim Unternehmen vorhandener… |
 | N1-302 | Detail | EP | EX RV VO BE | vorbereiten | Einsicht in Kredit- und Darlehensverträge | Kredit- und Darlehensverträge inkl. Nachträge einsehen; Parteien, Betrag, Währung, Auszahlung, Zinssatz, Fälligkeit/Amortisation, Kündigung, Sicherheiten… |

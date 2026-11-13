@@ -10,6 +10,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
+quelle_sha: d6116a9c0d11396eeda61febd57cc1e8e7ce74a10a432714ab523bde43147077
 ---
 
 
@@ -17,7 +18,7 @@ generiert: tools/build_quick.py, 2026-11-13
 
 revio Bereich 4 · 11 Schritte (Befragung 1, Analytisch 3, Detail 7, Sonstige 0; EP 4, WP 3) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/e1.md](../wiki/prueffelder/e1.md)
 
-Aktive Rechnungsabgrenzungen (Konto 1300): transitorische Aktiven (2025 bezahlter Aufwand des Folgejahres) und antizipative Aktiven (Ertrag 2025, Geldeingang 2026). Eingeschränkte Revision: Bestand, Vollständigkeit, Bewertung (künftiger Geld- oder Nutzenzugang) und Periodenabgrenzung mit Befragung, Analytik und Abstimmung der Detailaufstellung; Abgrenzungen ggü. Nahestehenden erkennen.
+Aktive Rechnungsabgrenzungen: transitorische (im GJ bezahlter Aufwand des Folgejahres) und antizipative Aktiven (Ertrag GJ, Geldeingang Folgejahr). ER: Bestand, Vollständigkeit, Bewertung (künftiger Nutzen/Geldeingang), Periodenabgrenzung – Befragung, Analytik, Detailaufstellung, Nahestehende.
 
 ## Risiken
 - Überbewertung: aktivierte Beträge ohne künftigen Geld- oder Nutzenzugang (Leistung entfällt, Vertrag gekündigt, Gegenpartei insolvent, antizipativer Ertrag nicht einbringlich). [BE, EX] — [OR 960](../chunks/or/or__art-960.md)
@@ -25,7 +26,7 @@ Aktive Rechnungsabgrenzungen (Konto 1300): transitorische Aktiven (2025 bezahlte
 - Unvollständige antizipative Aktiven: Erträge 2025 (Zinsen, Mieten, Provisionen, Umsatzprämien/Boni) mit Geldeingang 2026 nicht erfasst. [VO, PA] — [HWP BuR S. 215](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0256-s215.md)
 - Falsche Periodenabgrenzung: zeitanteiliger Betrag falsch berechnet oder Leistungszeitraum betrifft ganz/teilweise 2025. [PA, BE, RI] — [OR 958B](../chunks/or/or__art-958b.md)
 - Vorjahresabgrenzung nicht oder falsch aufgelöst (doppelte Aktivierung) bzw. bei Belassen-Methode nicht an die aktuelle Situation angepasst. [EX, PA] — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0261-s216.md)
-- Fehlerhafter Ausweis: Saldierung mit passiven Abgrenzungen, Vermischung mit Anzahlungen oder langfristigen Anteilen. [DO] — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0264-s216.md)
+- Fehlerhafter Ausweis: Saldierung mit passiven Abgrenzungen oder falsche Fristigkeit (Anteile, die erst später als 12 Monate nach dem Stichtag realisiert werden, im Umlaufvermögen). [DO] — [HWP BuR S. 216](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0264-s216.md)
 - Vorschüsse oder Darlehen an Nahestehende werden als aktive Rechnungsabgrenzung verbucht und umgehen so den gesonderten Ausweis von Forderungen nach Art. 959a Abs. 4 OR (aRA selbst sind keine Forderungen im Sinne der Mindestgliederung). [DO] — [HWP BuR S. 195](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0174-s195.md)
 - Vorauszahlungen bzw. Abgrenzungen gegenüber Nahestehenden sind nicht geschäftlich begründet, betreffen eine Verpflichtung des Eigentümers statt der Gesellschaft oder sind nicht zu Drittpreisen vereinbart. [EN, RV, BE] — [HWP ER S. 212](../chunks/hwp-er-2026/hwp-er-2026__rz-0161-s212.md)
 - Bestand/Veränderung stiller Reserven in der Position nicht im Nachweis erfasst; wesentliche Nettoauflösung ohne Anhangangabe. [VO, BE, DO] — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
@@ -80,7 +81,7 @@ Aktive Rechnungsabgrenzungen (Konto 1300): transitorische Aktiven (2025 bezahlte
 - Agent führt keine Befragung selbst: nur schriftliche Antworten auswerten, sonst Frage als Pendenz; Visum bleibt offen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Kennzeichnung «WP» im revio-Katalog (E1-303 bis E1-305) bedeutet «Wirtschaftsprüfer», nicht «weitergehend». — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c002-2.md)
 - E1-303 bis E1-305 sind nach SER Anhang D weitergehende Prüfungshandlungen: vor allem bei angenommenen wesentlichen Fehlaussagen oder erhöhtem inhärentem Risiko in der Position. — [SER S. 80](../chunks/ser-2022/ser-2022__anh-d-s080-1.md)
-- Agentengrenze: Ob der Agent WP-Schritte vorbereitet, ist offen. Der Agent stellt das erhöhte Risiko nicht selbst fest; WP-Schritte nur auf Anweisung des WP bzw. gemäss Risikobeurteilung des WP (3.1), sonst offen lassen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
+- Agentengrenze: Ob der Agent WP-Schritte vorbereitet, ist offen. Der Agent stellt das erhöhte Risiko nicht selbst fest; WP-Schritte nur auf ausdrückliche Anweisung des WP; ein erhöhtes Risiko in 3.1 genügt allein nicht (dann nur Notiz «Pendenz» an den WP). — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Mehrjährige Software-/Lizenzzahlungen: prüfen, ob eine Abgrenzung oder ein immaterieller Wert vorliegt und ob der Nutzen im Folgejahr tatsächlich anfällt (Praxis, keine Quelle).
 
 ## Prüfschritte
@@ -94,8 +95,8 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | E1-203 | Analytisch |  | VO DO | vorbereiten | Festellung von Abgrenzungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder… | Liste Nahestehender (Aktionäre, VR, GL, Beteiligungen) aus Unternehmensinformationen, HR-Auszug, Aktienbuch, GV-/VR-Protokollen erstellen, mit Gegenparteien… |
 | E1-301 | Detail | EP | EX VO PA | vorbereiten | Abstimmung einer Detailaufstellung mit der Jahresrechnung | Detailaufstellung 1300 (PBC) in M-Files suchen, Summe nachrechnen und mit Saldo Konto 1300 (Hauptbuch, Saldoliste) und der Bilanzposition «Aktive… |
 | E1-302 | Detail |  | EX BE | vorbereiten | Prüfung aktivierte Forderungen auf Echtheit, Bonität und Werthaltigkeit (künftiger Geld- oder Nutzenzugang) | Wesentliche Positionen: Beleg (Rechnung, Police) einsehen, Echtheit (Gegenpartei, Betrag, Zahlung 2025) prüfen, zeitanteiligen Betrag nachrechnen.… |
-| E1-303 | Detail | WP | EX EN VO PA RI | nur_mensch | Kritische Durchsicht von Ertrags- und Aufwandskonten, welche häufig aktive Rechnungsabgrenzungen enthalten | Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. wenn seine Risikobeurteilung (3.1) ein erhöhtes inhärentes Risiko für aRA… |
-| E1-304 | Detail | WP | EX VO | nur_mensch | Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.) | Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. bei erhöhtem inhärentem Risiko gemäss Risikobeurteilung des WP (3.1)… |
-| E1-305 | Detail | WP | EN VO PA | nur_mensch | Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung | Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. bei erhöhtem inhärentem Risiko gemäss Risikobeurteilung des WP (3.1)… |
+| E1-303 | Detail | WP | EX EN VO PA RI | nur_mensch | Kritische Durchsicht von Ertrags- und Aufwandskonten, welche häufig aktive Rechnungsabgrenzungen enthalten | WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur… |
+| E1-304 | Detail | WP | EX VO | nur_mensch | Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.) | WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur… |
+| E1-305 | Detail | WP | EN VO PA | nur_mensch | Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung | WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur… |
 | E1-306 | Detail |  | PA RI | vorbereiten | Prüfung korrekte Verbuchung bei Bildung und Auflösung anhand von Belegen | Kontoblatt 1300 anhand Belegen prüfen: Auflösung der Vorjahresabgrenzung (Rückbuchung Anfang 2025 = Saldo 31.12.2024, in die richtigen… |
 | E1-320 | Detail |  | VO BE | vorbereiten | Beurteilung von Bestand und Veränderung der stillen Reserven | Nachweis stille Reserven (Kunde) in M-Files suchen; Bestand und Veränderung in der Position aktive Rechnungsabgrenzungen mit den Erkenntnissen aus E1-101 bis… |

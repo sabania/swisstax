@@ -3,9 +3,13 @@
 wiki/quellen.md) aus data/ erzeugen. Danach index/lookup.json neu bauen.
 
   python3 revision/tools/build_quick.py
+
+Prüffeld-Seiten (quick/prueffeld-<code>.md, wiki/prueffelder/<code>.md) tragen im Frontmatter `quelle_sha` = sha256 der
+data/prueffelder/<code>.yaml (tools/lint.py aktualitaet() meldet veraltete Seiten). Das Feld testakte_2025 (fiktive Testakte)
+wird nur nach eval/testfall-2025/hinweise/<code>.md geschrieben – nie nach quick/, wiki/, lookup oder Plugin.
 """
 from __future__ import annotations
-import collections, csv, datetime, json, re, subprocess, sys
+import collections, csv, datetime, hashlib, json, os, re, subprocess, sys
 from pathlib import Path
 import yaml
 
@@ -25,7 +29,18 @@ REG = {e["id"]: e for e in y(R / "registry" / "sources.yaml", [])}
 KAT = y(R / "data" / "katalog.yaml", {})
 SCH = {s["id"]: s for s in KAT.get("schritte", [])}
 PFK = {p["code"]: p for p in KAT.get("prueffelder", [])}
-PF = {d["code"]: d for d in (y(p) for p in sorted((R / "data" / "prueffelder").glob("*.yaml")))}
+def pf_laden():
+    """data/prueffelder/*.yaml → (Daten je Code, sha256 je Code). Inhalt und Hash aus denselben Bytes (kein Versatz, wenn die
+    Datei während des Laufs geändert wird; lint.py meldet die Seite dann als veraltet)."""
+    pf, sha = {}, {}
+    for p in sorted((R / "data" / "prueffelder").glob("*.yaml")):
+        b = p.read_bytes()
+        d = yaml.safe_load(b.decode("utf-8"))
+        pf[d["code"]], sha[d["code"]] = d, hashlib.sha256(b).hexdigest()
+    return pf, sha
+
+
+PF, PF_SHA = pf_laden()
 PH = sorted((y(p) for p in (R / "data" / "prozess").glob("*.yaml")), key=lambda d: d["id"])
 WE = [w for p in sorted((R / "data" / "werte").glob("*.yaml")) for w in (y(p, {}) or {}).get("werte", [])]
 RG = (y(R / "data" / "regeln.yaml", {}) or {}).get("regeln", [])
@@ -58,10 +73,40 @@ def zit(x, depth, n=220):
     return f"«{z}» — {link(cid, depth)}"
 
 
-def fm(typ, titel, quellen, status="entwurf"):
+def fm(typ, titel, quellen, status="entwurf", **extra):
+    """Frontmatter; extra (z.B. quelle_sha) wird nach «generiert» angehängt, leere Werte weggelassen."""
     d = {"typ": typ, "titel": titel, "jur": "ch", "quellen": sorted(set(q for q in quellen if q))[:40], "status": status,
-         "generiert": f"tools/build_quick.py, {HEUTE}"}
+         "generiert": f"tools/build_quick.py, {HEUTE}", **{k: v for k, v in extra.items() if v}}
     return "---\n" + yaml.safe_dump(d, allow_unicode=True, sort_keys=False, width=200) + "---\n\n"
+
+
+def weitere(x):
+    """Zusätzliche Fundstellen eines Eintrags (gesetz/risiken/fallstricke/bewertung/unterlagen …): optionale Liste
+    `fundstellen: [{quelle, zitat}]`, gleichwertig `weitere_fundstellen`. Nicht für Prüfschritte (dort ist `fundstellen` die Hauptliste)."""
+    if not isinstance(x, dict):
+        return []
+    return [f for k in ("fundstellen", "weitere_fundstellen") for f in (x.get(k) or []) if isinstance(f, dict) and f.get("quelle")]
+
+
+def praxis(x, *texte):
+    """« (Praxis/intern)» für Einträge ohne Fundstelle (AGENTS.md §1.1), ausser der Text nennt schon «Praxis»."""
+    if x.get("quelle") or weitere(x) or any("Praxis" in str(t or "") for t in texte):
+        return ""
+    return " (Praxis/intern)"
+
+
+def fs_quick(x, depth=1):
+    """quick/: alle Fundstellen eines Eintrags als Links (Haupt-Fundstelle zuerst), sonst leer."""
+    ids = list(dict.fromkeys(c for c in [x.get("quelle")] + [f["quelle"] for f in weitere(x)] if c))
+    return (" — " + " · ".join(link(c, depth) for c in ids)) if ids else ""
+
+
+def fs_wiki(x, depth=2, n=220, sep=" — "):
+    """wiki/: Haupt-Fundstelle mit Zitat, weitere Fundstellen als eingerückte Unterpunkte «auch: …», sonst leer."""
+    fs = ([x] if x.get("quelle") else []) + weitere(x)
+    if not fs:
+        return ""
+    return sep + zit(fs[0], depth, n) + "".join(f"\n  - auch: {zit(f, depth, n)}" for f in fs[1:])
 
 
 def qs(*lists):
@@ -71,9 +116,10 @@ def qs(*lists):
             if isinstance(x, dict):
                 if x.get("quelle"):
                     out.append(x["quelle"].split("__")[0])
-                for f in x.get("fundstellen") or []:
-                    if f.get("quelle"):
-                        out.append(f["quelle"].split("__")[0])
+                for k in ("fundstellen", "weitere_fundstellen"):
+                    for f in x.get(k) or []:
+                        if isinstance(f, dict) and f.get("quelle"):
+                            out.append(f["quelle"].split("__")[0])
     return out
 
 
@@ -131,7 +177,8 @@ def pf_seiten():
                     f"{arts['vorbereiten']} · {arts['teilweise']} · {arts['auf_anweisung']} · {arts['nur_mensch']} | {ICON.get(status, '')} {status} | "
                     f"[Detail](../wiki/prueffelder/{code.lower()}.md) |")
         # quick/prueffeld-<code>.md (kompakt)
-        q = [fm("prueffeld", f"Prüffeld {code} {p['bezeichnung']} – Schnellzugriff", qs(d.get("gesetz"), d.get("bewertung"), d.get("schritte")), "entwurf"),
+        q = [fm("prueffeld", f"Prüffeld {code} {p['bezeichnung']} – Schnellzugriff", qs(d.get("gesetz"), d.get("bewertung"), d.get("schritte")), "entwurf",
+                quelle_sha=PF_SHA.get(code)),
              f"# {code} · {p['bezeichnung']}", "",
              f"revio Bereich 4 · {len(st)} Schritte (Befragung {p['anzahl'].get('befragung', 0)}, Analytisch {p['anzahl'].get('analytisch', 0)}, "
              f"Detail {p['anzahl'].get('detail', 0)}, Sonstige {p['anzahl'].get('sonstige', 0)}; EP {p['anzahl'].get('ep', 0)}, WP {p['anzahl'].get('wp', 0)}) · "
@@ -140,15 +187,16 @@ def pf_seiten():
             q += [d["kurzbeschrieb"], ""]
         if d.get("risiken"):
             q += ["## Risiken"] + [f"- {r['text']}" + (f" [{', '.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") +
-                                   (f" — {link(r.get('quelle'), 1)}" if r.get("quelle") else "") for r in d["risiken"]] + [""]
+                                   fs_quick(r) + praxis(r, r.get("text")) for r in d["risiken"]] + [""]
         if d.get("bewertung"):
-            q += ["## Bewertung / Bilanzierung"] + [f"- {b['regel']} — {link(b.get('quelle'), 1)}" for b in d["bewertung"]] + [""]
+            q += ["## Bewertung / Bilanzierung"] + [f"- {b['regel']}" + fs_quick(b) + praxis(b, b.get("regel")) for b in d["bewertung"]] + [""]
         if d.get("unterlagen"):
-            q += ["## Unterlagen (PBC)"] + [f"- {u['dokument']} – {u.get('zweck', '')}" for u in d["unterlagen"]] + [""]
+            q += ["## Unterlagen (PBC)"] + [f"- {u['dokument']} – {u.get('zweck', '')}" + praxis(u, u.get("dokument"), u.get("zweck"))
+                                            for u in d["unterlagen"]] + [""]
         if d.get("fragen_kunde"):
             q += ["## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)"] + [f"- {f['frage']}" for f in d["fragen_kunde"]] + [""]
         if d.get("fallstricke"):
-            q += ["## Fallstricke"] + [f"- {f['text']}" + (f" — {link(f.get('quelle'), 1)}" if f.get("quelle") else "") for f in d["fallstricke"]] + [""]
+            q += ["## Fallstricke"] + [f"- {f['text']}" + fs_quick(f) + praxis(f, f.get("text")) for f in d["fallstricke"]] + [""]
         q += ["## Prüfschritte", "Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_mensch (WP-Schritt). Tool: `pruefschritt <id>`.", "",
               "| Id | Typ | Kennz. | Ziele | Agent | Prüfschritt | Vorgehen (kurz) |", "|---|---|---|---|---|---|---|"]
         by = {s["id"]: s for s in d.get("schritte") or []}
@@ -159,17 +207,20 @@ def pf_seiten():
         write(f"quick/prueffeld-{code.lower()}.md", "\n".join(q) + "\n")
         # wiki/prueffelder/<code>.md (Detail mit allen Zitaten)
         if d:
-            w = [fm("prueffeld-detail", f"Prüffeld {code} {p['bezeichnung']} – Detail mit Fundstellen", qs(d.get("gesetz"), d.get("bewertung"), d.get("risiken"), d.get("schritte")), "entwurf"),
+            w = [fm("prueffeld-detail", f"Prüffeld {code} {p['bezeichnung']} – Detail mit Fundstellen", qs(d.get("gesetz"), d.get("bewertung"), d.get("risiken"), d.get("schritte")), "entwurf",
+                    quelle_sha=PF_SHA.get(code)),
                  f"# {code} · {p['bezeichnung']} – Detail", "", f"Status {ICON.get(status, '')} {status} · erfasst {d.get('erfasst', {}).get('datum', '')} · "
                  f"Nachprüfung: {d.get('erfasst', {}).get('nachpruefung', {})} · Schnellzugriff: [quick/prueffeld-{code.lower()}.md](../../quick/prueffeld-{code.lower()}.md)", "",
                  d.get("kurzbeschrieb", ""), ""]
-            for title, key, f in (("Gesetz", "gesetz", lambda g: f"- **{g.get('thema', '')}**: {zit(g, 2)}"),
-                                  ("Risiken", "risiken", lambda r: f"- {r['text']}" + (f" [{', '.join(r.get('pruefziele') or [])}]" if r.get('pruefziele') else '') + (f" — {zit(r, 2, 160)}" if r.get('quelle') else '')),
-                                  ("Bewertung / Bilanzierung", "bewertung", lambda b: f"- **{b['regel']}** — {zit(b, 2)}"),
-                                  ("Unterlagen (PBC)", "unterlagen", lambda u: f"- {u['dokument']} – {u.get('zweck', '')}" + (f" — {zit(u, 2, 140)}" if u.get('quelle') else '')),
+            # testakte_2025 bewusst nicht: nur eval/testfall-2025/hinweise/ (testfall_hinweise), nie in wiki/ oder Plugin
+            for title, key, f in (("Gesetz", "gesetz", lambda g: f"- **{g.get('thema', '')}**:" + (fs_wiki(g, 2, 220, " ") or praxis(g, g.get("thema")))),
+                                  ("Risiken", "risiken", lambda r: f"- {r['text']}" + (f" [{', '.join(r.get('pruefziele') or [])}]" if r.get('pruefziele') else '')
+                                   + fs_wiki(r, 2, 160) + praxis(r, r.get("text"))),
+                                  ("Bewertung / Bilanzierung", "bewertung", lambda b: f"- **{b['regel']}**" + fs_wiki(b, 2) + praxis(b, b.get("regel"))),
+                                  ("Unterlagen (PBC)", "unterlagen", lambda u: f"- {u['dokument']} – {u.get('zweck', '')}" + fs_wiki(u, 2, 140)
+                                   + praxis(u, u.get("dokument"), u.get("zweck"))),
                                   ("Fragen an den Kunden", "fragen_kunde", lambda x: f"- {x['frage']} ({x.get('zweck', '')})"),
-                                  ("Fallstricke", "fallstricke", lambda x: f"- {x['text']}" + (f" — {zit(x, 2, 160)}" if x.get('quelle') else '')),
-                                  ("Testakte 2025 (fiktiv)", "testakte_2025", lambda t: f"- [{t['datei']}](../../eval/testdaten/fiktive-zahlen-ag-2025/text/{t['datei']}) – {t['bezug']}")):
+                                  ("Fallstricke", "fallstricke", lambda x: f"- {x['text']}" + fs_wiki(x, 2, 160) + praxis(x, x.get("text")))):
                 if d.get(key):
                     w += [f"## {title}"] + [f(x) for x in d[key]] + [""]
             w.append("## Prüfschritte")
@@ -195,6 +246,44 @@ def pf_seiten():
            "Spalte «Agent»: Anzahl Schritte vorbereiten · teilweise (Befragung) · auf Anweisung (4xx) · nur Mensch (WP).", "",
            "| Code | Prüffeld | Schritte | EP/WP | Agent | Status | Detail |", "|---|---|---|---|---|---|---|"]
     write("quick/prueffelder.md", "\n".join(hdr + rows) + "\n")
+
+
+HINWEISE = Path("eval") / "testfall-2025" / "hinweise"
+
+
+def testfall_hinweise():
+    """Feld testakte_2025 → eval/testfall-2025/hinweise/<code>.md (nur für Tests; nicht in quick/, wiki/, lookup, Plugin).
+    Testakte-Ordner nicht fest verdrahtet: erster Ordner eval/testdaten/*2025/text, in dem die Datei liegt."""
+    ziel = R / HINWEISE
+    basis = sorted((R / "eval" / "testdaten").glob("*2025/text"))
+    alt = {p for p in ziel.glob("*.md")} if ziel.exists() else set()
+    kopf = "> **Nur für Tests, nicht ins Plugin.** Bezüge der fiktiven Testakte 2025 (Feld `testakte_2025` in data/prueffelder/). " \
+           "Nicht nach quick/ oder wiki/ übernehmen und nicht als Wissen des Agenten verwenden (Überanpassung an die Messung)."
+    idx = []
+    for code, d in PF.items():
+        ta = [t for t in d.get("testakte_2025") or [] if isinstance(t, dict) and t.get("datei")]
+        if not ta:
+            continue
+        bez = PFK.get(code, {}).get("bezeichnung") or d.get("bezeichnung", "")
+        w = [fm("testfall-hinweise", f"Testakte 2025 (fiktiv) – Prüffeld {code} (nur für Tests, nicht ins Plugin)", [], "entwurf"),
+             f"# {code} · {bez} – Testakte 2025 (fiktiv)", "", kopf, "", f"Quelle: data/prueffelder/{code.lower()}.yaml (Feld testakte_2025)", "",
+             "## Testakte 2025 (fiktiv)"]
+        for t in ta:
+            b = next((x for x in basis if (x / t["datei"]).exists()), None)
+            href = os.path.relpath(b / t["datei"], ziel).replace(os.sep, "/") if b else None
+            w.append((f"- [{t['datei']}]({href})" if href else f"- {t['datei']} (Datei nicht gefunden)") + f" – {t.get('bezug', '')}")
+        p = ziel / f"{code.lower()}.md"
+        write(p.relative_to(R), "\n".join(w) + "\n")
+        alt.discard(p)
+        idx.append(f"| [{code}]({p.name}) | {bez} | {len(ta)} |")
+    ix = ziel / "index.md"
+    alt.discard(ix)
+    write(ix.relative_to(R), "\n".join([fm("testfall-hinweise", "Testakte 2025 (fiktiv) – Hinweise je Prüffeld (nur für Tests, nicht ins Plugin)", []),
+                                        "# Testakte 2025 (fiktiv) – Hinweise je Prüffeld", "", kopf, "",
+                                        "| Prüffeld | Bezeichnung | Dateien |", "|---|---|---|"] + idx) + "\n")
+    for p in alt:   # Prüffeld ohne testakte_2025 mehr → alte Hinweisseite entfernen
+        p.unlink()
+    return len(idx)
 
 
 def pbc_fragen():
@@ -230,11 +319,12 @@ def prozess_seiten():
                 w.append(f"| {s.get('wer', '')} | {s['was'].replace('|', '/')} | {s.get('revio', '').replace('|', '/')} | {s.get('mfiles', '').replace('|', '/')} | "
                          f"{'<br>'.join(link(f.get('quelle'), 2) for f in f0 if f.get('quelle'))} |")
             w.append("")
-        for title, key, fn in (("Entscheide des Wirtschaftsprüfers", "entscheidungen_wp", lambda x: f"- {x['text']}" + (f" — {zit(x, 2, 160)}" if x.get('quelle') else '')),
+        for title, key, fn in (("Entscheide des Wirtschaftsprüfers", "entscheidungen_wp", lambda x: f"- {x['text']}" + fs_wiki(x, 2, 160) + praxis(x, x.get("text"))),
                                ("Fragen an den Kunden", "fragen_kunde", lambda x: f"- {x['frage']} ({x.get('zweck', '')})"),
-                               ("Unterlagen", "unterlagen", lambda x: f"- {x['dokument']} – {x.get('zweck', '')}" + (f" — {zit(x, 2, 140)}" if x.get('quelle') else '')),
-                               ("Dokumentation", "dokumentation", lambda x: f"- {x['text']}" + (f" — {zit(x, 2, 160)}" if x.get('quelle') else '')),
-                               ("Fallstricke", "fallstricke", lambda x: f"- {x['text']}" + (f" — {zit(x, 2, 160)}" if x.get('quelle') else '')),
+                               ("Unterlagen", "unterlagen", lambda x: f"- {x['dokument']} – {x.get('zweck', '')}" + fs_wiki(x, 2, 140)
+                                + praxis(x, x.get("dokument"), x.get("zweck"))),
+                               ("Dokumentation", "dokumentation", lambda x: f"- {x['text']}" + fs_wiki(x, 2, 160) + praxis(x, x.get("text"))),
+                               ("Fallstricke", "fallstricke", lambda x: f"- {x['text']}" + fs_wiki(x, 2, 160) + praxis(x, x.get("text"))),
                                ("Mustervorlagen", "muster", lambda x: f"- {x['vorlage']} — {link(x.get('chunk'), 2)}")):
             if p.get(key):
                 w += [f"## {title}"] + [fn(x) for x in p[key]] + [""]
@@ -432,6 +522,9 @@ def themen_seiten():
             w.append(f"- {a['text']}" + (f" — {zit(a, 2, 200)}" if a.get("quelle") else ""))
         if t.get("agent"):
             w += ["", "## Für den Agenten"] + [f"- {x}" for x in t["agent"]]
+        nx = t.get("naechste") or t.get("aufrufe")   # optionale Felder (build_data.py reicht sie durch; tools/revision.py thema)
+        if nx:
+            w += ["", "**Nächste Aufrufe:** " + " · ".join(f"`{x}`" for x in ([nx] if isinstance(nx, str) else nx))]
         if t.get("prueffelder"):
             w += ["", "Prüffelder: " + ", ".join(f"[{c}](../prueffelder/{c.lower()}.md)" for c in t["prueffelder"])]
         if t.get("phasen"):
@@ -474,6 +567,7 @@ def index_seite():
 
 def main():
     pf_seiten()
+    nh = testfall_hinweise()
     pbc_fragen()
     prozess_seiten()
     regeln_seite()
@@ -486,7 +580,7 @@ def main():
     index_seite()
     subprocess.run([sys.executable, str(R / "tools" / "build_lookup.py")], check=True)
     n = sum(1 for _ in (R / "quick").glob("*.md")) + sum(1 for _ in (R / "wiki").rglob("*.md"))
-    print(f"Seiten: {n}")
+    print(f"Seiten: {n} · Testfall-Hinweise (nur eval/, nicht im Plugin): {nh} Prüffelder")
 
 
 if __name__ == "__main__":

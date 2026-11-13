@@ -18,7 +18,7 @@ Spalte «Agent»: Anzahl Schritte vorbereiten · teilweise (Befragung) · auf An
 | [A1](prueffeld-a1.md) | Allgemeine Prüfungshandlungen | 21 | 18/0 | 16 · 3 · 2 · 0 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/a1.md) |
 | [B1](prueffeld-b1.md) | Flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs | 22 | 4/5 | 10 · 1 · 6 · 5 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/b1.md) |
 | [C1](prueffeld-c1.md) | Forderungen aus Lieferungen und Leistungen | 36 | 9/7 | 17 · 5 · 7 · 7 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/c1.md) |
-| [D1](prueffeld-d1.md) | Übrige kurzfristige Forderungen | 20 | 7/2 | 11 · 3 · 4 · 2 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/d1.md) |
+| [D1](prueffeld-d1.md) | Übrige kurzfristige Forderungen | 20 | 7/2 | 11 · 3 · 4 · 2 | 🟡 extrahiert | [Detail](../wiki/prueffelder/d1.md) |
 | [E1](prueffeld-e1.md) | Aktive Rechnungsabgrenzung | 11 | 4/3 | 7 · 1 · 0 · 3 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/e1.md) |
 | [F1](prueffeld-f1.md) | Vorräte | 29 | 11/6 | 8 · 9 · 6 · 6 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/f1.md) |
 | [F2](prueffeld-f2.md) | Nicht fakturierte Leistungen | 24 | 7/4 | 7 · 5 · 8 · 4 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/f2.md) |

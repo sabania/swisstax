@@ -479,6 +479,14 @@ fallstricke:
     von Fragen.'
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- text: 'Auslöser selbst rechnen: Auch wenn H3-302/303/304 (WP) nicht angewiesen sind, die Indikatoren (Buchwert > anteiliges EK, Verluste, negativer Ausblick in der JR der Beteiligung)
+    in H3-102/H3-201 mit `rechne` ermitteln und als Notiz an den WP melden – kein «keine Feststellung» ohne gelesene JR der Beteiligung.'
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: unter den Erwartungen liegende Gewinne oder wiederkehrende Verluste bei der Beteiligung
+  schritte:
+  - H3-102
+  - H3-201
+  - H3-302
 fragen_kunde:
 - frage: Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung
     Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?
@@ -566,13 +574,16 @@ schritte:
     zitat: Beteiligungen dürfen höchstens zu den Anschaffungskosten bewertet werden
 - id: H3-102
   vorgehen: 'Schriftliche Stellungnahme der Geschäftsleitung zur Werthaltigkeit jeder Beteiligung auswerten (Anzeichen: Verluste, negativer Ausblick, Verkaufsangebote, Wegfall Betriebsnotwendigkeit)
-    und mit Jahresrechnung/Ausblick der Beteiligung abgleichen. Fehlt die Stellungnahme: Frage als Pendenz und Punkt für die Schlussbesprechung; Beurteilung beim WP.'
+    und mit Jahresrechnung/Ausblick der Beteiligung abgleichen. Fehlt die Stellungnahme: Frage als Pendenz und Punkt für die Schlussbesprechung; Beurteilung beim WP. JR der Beteiligung
+    in der Akte ganz lesen (Bilanz, ER, Anhang mit Ereignissen nach Stichtag/Ausblick, ggf. Budget). Auch ohne schriftliche Stellungnahme die Indikatoren mit `rechne` ermitteln (siehe
+    Rechnen) und als Auslöser an den WP melden; Forderungen gegenüber derselben Gesellschaft in D1-306 gleich beurteilen.'
   nachweise:
   - Stellungnahme GL/Werthaltigkeitsbeurteilung
   - Jahresrechnung der Beteiligung
   - Planungsrechnung/Budget der Beteiligung
   - VR-Protokolle
-  rechnen: ''
+  rechnen: Anteiliges EK = Eigenkapital Beteiligung × Kapitalquote; Unterdeckung = Buchwert − anteiliges EK; Jahresergebnis der Beteiligung GJ und VJ (Verlust, wiederkehrend?); Gesamtengagement
+    = Buchwert + Darlehen/Forderungen gegenüber der Beteiligung (D1/H2).
   feststellung_wenn: Anzeichen einer Wertminderung (z.B. wiederkehrende Verluste, Verlustprognose) ohne Werthaltigkeitsbeurteilung oder Wertberichtigung, oder GL-Aussage widerspricht
     vorliegenden Abschlüssen.
   fundstellen:
@@ -584,6 +595,13 @@ schritte:
     zitat: Der Abschlussprüfer würdigt die erhaltenen Auskünfte in jedem Fall kritisch.
   - quelle: or__art-960
     zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+  - quelle: hwp-bur-2023__rz-0290-s221
+    zitat: unter den Erwartungen liegende Gewinne oder wiederkehrende Verluste bei der Beteiligung
+  - quelle: hwp-bur-2023__rz-0293-s222
+    zitat: Wertberichtigungen zuerst der Beteiligung, dann nachrangig gewährten Finanzierungen und schliesslich den übrigen Forderungen des Unternehmens gegenüber dem Tochterunternehmen
+      zuzuordnen
+  notiz: Unterdeckung > 0 zusammen mit Verlust oder negativem Ausblick → Notiz «Schlussbesprechung» an den WP mit Zahlen (Auslöser für H3-302, Entscheid WP). Stellungnahme oder JR der
+    Beteiligung fehlt → «Pendenz» (Beteiligung, Stichtag, Buchwert).
 - id: H3-201
   vorgehen: Beteiligungskonten, Wertberichtigungen und Beteiligungs-/Finanzerträge gemäss Saldoliste mit dem Vorjahr vergleichen und jede Veränderung über der Nicht-Aufgriffsgrenze einem
     Vorgang zuordnen (Kauf, Verkauf, Kapitalerhöhung, Zuschuss, Wertberichtigung, Dividende). Zugänge auf fremden Konten (z.B. Anzahlungen) und fehlende Erträge trotz bekannter Ausschüttung

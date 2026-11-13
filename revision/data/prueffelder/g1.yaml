@@ -9,9 +9,9 @@ erfasst:
     urteil: korrigieren
     befunde: 17
     korrigiert: true
-kurzbeschrieb: 'Mobile Sachanlagen (Maschinen, Mobiliar, Informatik, Fahrzeuge, Werkzeuge; Konten 1500–1549 inkl. Wertberichtigungen) samt Abschreibungen, Zu-/Abgängen und Unterhalt.
-  In der SER: Befragungen, Vorjahresanalyse, Abstimmung Bilanz–Hauptbuch–Anlagespiegel/Inventarliste, Belegprüfung von Zu-/Abgängen, Beurteilung von Aktivierung, Restwerten, Abschreibungen,
-  Anhang und stillen Reserven.'
+  ergaenzt: '2026-11-13 Runde R2: Wissenslücken aus E2E-Lauf ergänzt (Zitate maschinell geprüft, Zweitprüfung offen)'
+kurzbeschrieb: 'Mobile Sachanlagen (Maschinen, Mobiliar, Informatik, Fahrzeuge; inkl. Wertberichtigungen) mit Abschreibungen, Zu-/Abgängen, Unterhalt. ER: Befragung, Vorjahresanalyse,
+  Abstimmung Bilanz–Hauptbuch–Anlagespiegel–Inventarliste inkl. Abschreibung ↔ ER, Abgänge je Beleg, Anhang, stille Reserven.'
 gesetz:
 - thema: Prüfungsumfang eingeschränkte Revision
   quelle: or__art-729a
@@ -187,8 +187,9 @@ unterlagen:
   zweck: Verpfändete Aktiven (G1-106, G1-320)
   quelle: ser-2022__anh-d-s097-1
   zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
-- dokument: Hauptbuch-Kontoblätter 1500–1549, Abschreibungskonten 68xx, Unterhalts-/Reparatur- und GWG-Konten 2025
-  zweck: Wertvermehrende Anlagen im Aufwand (G1-406); Durchsicht ungewöhnlicher Posten (G1-303, nur auf ausdrückliche Anweisung des WP)
+- dokument: Hauptbuch-Kontoblätter 1500–1549, Abschreibungskonten 68xx, Unterhalts-/Reparatur- und GWG-Konten 2025 sowie Ertrags-/a.o.-Konten mit Erlösen aus Anlageverkäufen
+  zweck: 'Pflichtlektüre für G1-301/G1-302: Abschreibungsbuchungen, Abgänge und Verkaufserlöse je Buchung; Wertvermehrende Anlagen im Aufwand (G1-406); Durchsicht ungewöhnlicher Posten
+    (G1-303, nur auf ausdrückliche Anweisung des WP)'
   quelle: ser-2022__anh-d-s082-2
   zitat: Durchsicht der Bestands- sowie der Abschreibungskonten im Hauptbuch auf ungewöhnliche Posten; Belegprüfung solcher Posten
 - dokument: Kontoblätter Sachanlagen/Unterhalt und Kreditorenjournal der neuen Rechnung bis Prüfungsdatum
@@ -358,7 +359,7 @@ fallstricke:
     ^[mwstg__art-31-t1]) bzw. Einlageentsteuerung ^[hwp-bur-2023__rz-0372-s152]. Vermerk «ohne MWST» → Hinweis an M2; Beurteilung M2/WP.'
   quelle: mwstg__art-18-t1
   zitat: Der Inlandsteuer unterliegen die im Inland durch steuerpflichtige Personen gegen Entgelt erbrachten Leistungen; sie sind steuerbar, soweit dieses Gesetz keine Ausnahme vorsieht.
-- text: Anlagespiegel kann immaterielle Werte (Konten 17xx) enthalten; für G1 nur Konten 1500–1549 abstimmen, immaterielle Werte in I1, Liegenschaften in G2.
+- text: 'Praxis/intern: Anlagespiegel kann immaterielle Werte (Konten 17xx) enthalten; für G1 nur Konten 1500–1549 abstimmen, immaterielle Werte in I1, Liegenschaften in G2.'
 - text: Abschreibungsbuchungen müssen in der Erfolgsrechnung unter der richtigen Position (Abschreibungen auf Anlagevermögen) und Gruppierung ausgewiesen sein; Saldo Abschreibungskonto
     mit Ausweis in der Jahresrechnung abgleichen. Bei Absatzerfolgsrechnung gehören sie in den Anhang.
   quelle: or__art-959b-t1
@@ -584,10 +585,13 @@ schritte:
     zitat: Kennzahlenanalyse → wichtige Analyse bei der Prüfungsplanung
   - quelle: hwp-er-2026__rz-0191-s224
     zitat: kurzfristige Kredite werden im Übermass zur Finanzierung von Anlagevermögen herangezogen
+  notiz: Kennzahlen nur rechnen und kommentieren. Unterdeckung des Anlagevermögens oder kurzfristige Finanzierung → Notiz «Schlussbesprechung» an den WP (Hinweis Finanzierung/Fortführung).
+    Keine eigene Beurteilung von Fortführung, Kapitalverlust oder Überschuldung in G1 (Prüffeld P1 bzw. WP); danach mit den Detailschritten G1-301/G1-302 weiterfahren (Praxis/intern).
 - id: G1-301
   vorgehen: Bilanzwerte Sachanlagen (AW und WB je Kategorie, Total) aus der Jahresrechnung mit Saldoliste/Hauptbuch und Anlagespiegel abstimmen; Anlagespiegel je Kategorie zeilenweise
     nachrechnen (AW und WB getrennt) und Abschreibung LJ mit Konten 68xx und ER abstimmen; Eröffnungssaldi mit Vorjahresabschluss vergleichen; Ausweis (Sachanlagen gesondert im Anlagevermögen,
-    WB als Minusposten) prüfen. Differenzen mit Konto, Betrag und Ursache im Textfeld; fehlender Anlagespiegel → Pendenz.
+    WB als Minusposten) prüfen. Differenzen mit Konto, Betrag und Ursache im Textfeld; fehlender Anlagespiegel → Pendenz. AW/WB 01.01. nur aus Vorjahresunterlagen übernehmen (VJ-Anlagespiegel,
+    VJ-Jahresrechnung, Saldoliste VJ-Spalte; die VJ-Akte kann anders gegliedert sein – suchen statt Pfad raten); nicht gefunden → Pendenz, nie schätzen oder einsetzen.
   nachweise:
   - Jahresrechnung 2025 (Bilanz)
   - Saldoliste
@@ -611,17 +615,27 @@ schritte:
     zitat: So wird beispielsweise die Prüfung der Sachanlagen in der Regel auch die Prüfung der Abschreibungen umfassen.
   - quelle: hwp-er-2026__rz-0266-s244
     zitat: Der Abschlussprüfer geht nicht unbesehen von der Vollständigkeit und Richtigkeit solcher Auswertungen aus
+  - quelle: konzept-ki-revisionsagent-2026__c005-1
+    zitat: fehlende Daten dürfen nicht erfunden werden
+  notiz: Differenz ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Betrag (`rechne`) und Buchungsvorschlag (ohne Verbuchung); < NAG nur Textfeld; fehlende Kontoblätter oder
+    Vorjahreswerte → «Pendenz» (Konto, Datum, Betrag).
 - id: G1-302
-  vorgehen: Anlagenverzeichnis/Inventarliste (Einzelobjekte mit Anschaffung, AW, Nutzungsdauer, kumulierten Abschreibungen) je Kategorie summieren und mit Anlagespiegel und Jahresrechnung
+  vorgehen: 'Anlagenverzeichnis/Inventarliste (Einzelobjekte mit Anschaffung, AW, Nutzungsdauer, kumulierten Abschreibungen) je Kategorie summieren und mit Anlagespiegel und Jahresrechnung
     abstimmen. Fehlende kumulierte Abschreibungen je Objekt aus Nutzungsdauer nachrechnen oder als Pendenz erfassen. Zugänge laut Rechnungen und Abgänge laut Verträgen im Verzeichnis
-    abgleichen. Bei Zugängen Rechnungsbetrag (netto/brutto; MWST-Methode aus M2) und Rechnungsempfänger notieren. Abweichungen nicht selbst beurteilen, sondern als Notiz «Schlussbesprechung»
-    an den WP (Vorschlag G1-403/G1-305).
+    abgleichen. Bei Zugängen Rechnungsbetrag (netto/brutto; MWST-Methode aus M2) und Rechnungsempfänger notieren. Ermessensfragen (Nutzungsdauer, Aktivierbarkeit) nicht selbst beurteilen,
+    sondern als Notiz «Schlussbesprechung» an den WP (Vorschlag G1-403/G1-305); klare Buchungsfehler siehe Notiz. Abgänge: jeden Verkaufs- und Entsorgungsbeleg (Kontoblätter Sachanlagen,
+    Ertrags-/a.o.-Konten, Belegverzeichnis) einem Objekt zuordnen und prüfen, ob AW und kumulierte Abschreibungen ausgebucht und der Bucherfolg erfasst sind. Zugänge: aktivierten Betrag
+    mit der Rechnung (netto/brutto) vergleichen. Je Objekt Soll-Restwert und Restdauer mit `rechne` (nie im Kopf).'
   nachweise:
   - Anlagenverzeichnis/Inventarliste 31.12.
   - Anlagespiegel
   - Jahresrechnung
-  rechnen: Σ AW Inventarliste je Konto = AW 31.12. Anlagespiegel = Saldo 15x0; Σ kumulierte Abschreibungen je Kategorie = WB 31.12. = Saldo 15x9
-  feststellung_wenn: Summe Inventarliste ≠ Anlagespiegel/Bilanz, abgegangene Objekte noch im Verzeichnis oder fehlende Angaben zu kumulierten Abschreibungen.
+  rechnen: 'Σ AW Inventarliste je Konto = AW 31.12. Anlagespiegel = Saldo 15x0; Σ kumulierte Abschreibungen je Kategorie = WB 31.12. = Saldo 15x9; je Abgang: Restbuchwert = AW − kum.
+    Abschreibung des Objekts, Bucherfolg = Erlös − Restbuchwert (Erlös als Ertrag gebucht, Objekt noch im Verzeichnis → Fehler); je Zugang bei effektiver MWST-Methode: aktivierter Betrag
+    − Rechnungsbetrag ohne MWST = mitaktivierte Vorsteuer; je Objekt nach deklarierter Methode (G1-101), linear: Monate = verstrichene Monate seit Anschaffung, Soll-kum. Abschreibung
+    = AW × min(1; Monate / (Nutzungsdauer × 12)), Soll-Restwert = AW − Soll-kum. Abschreibung, Restdauer (Monate) = Nutzungsdauer × 12 − Monate'
+  feststellung_wenn: Summe Inventarliste ≠ Anlagespiegel/Bilanz, abgegangene Objekte noch im Verzeichnis oder fehlende Angaben zu kumulierten Abschreibungen. Verkaufserlös gebucht, Objekt
+    aber nicht ausgebucht; Vorsteuer mitaktiviert (effektive Methode); Buchwert eines Objekts wesentlich über dem Soll-Restwert (→ Schlussbesprechung, G1-404).
   fundstellen:
   - quelle: ser-2022__anh-d-s082-2
     zitat: Abstimmung der Inventarliste mit Angabe der Anschaffungs- bzw. Herstellungskosten und der kumulierten Abschreibungen
@@ -635,6 +649,16 @@ schritte:
     zitat: G1 Einkaufsfakturen | G1-305 (WP) | 301 Anlagespiegel (EP), 302 Inventarliste (EP), 403 Aktivierungsfähigkeit
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+  - quelle: hwp-bur-2023__rz-0329-s228-t1
+    zitat: bei indirekter Abschreibung die Anschaffungskosten sowie die kumulierten Abschreibungen und Wertberichtigungen
+  - quelle: hwp-bur-2023__rz-0329-s228-t1
+    zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+  - quelle: hwp-bur-2023__rz-0356-s148
+    zitat: sofern sie vom Vorsteuerabzug nicht ausgeschlossen ist – rückforderbar
+  - quelle: hwp-bur-2023__rz-0332-s229
+    zitat: Die Abschreibung der Anlagegüter auf den geschätzten Restwert erfolgt zur Verteilung der Anschaffungs- oder Herstellungskosten auf die voraussichtliche Nutzungsdauer
+  notiz: Klarer Buchungsfehler ≥ NAG (Abgang nicht ausgebucht, Vorsteuer aktiviert, Summendifferenz) → «Wesentliche Feststellungen» mit Betrag und Buchungsvorschlag (ohne Verbuchung);
+    < NAG nur Textfeld. Beleg oder Vertrag fehlt → «Pendenz». Ermessensfragen → «Schlussbesprechung».
 - id: G1-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; bei Hinweisen aus 1xx/2xx/301/302 auf
     wesentliche Fehlaussagen oder erhöhtes inhärentes Risiko Vorschlag an WP als Notiz. Mit Anweisung: Kontoblätter 15xx/68xx auf ungewöhnliche Posten durchsehen (Vorzeichen, runde Beträge,

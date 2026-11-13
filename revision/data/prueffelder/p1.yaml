@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 16
     korrigiert: true
-kurzbeschrieb: 'Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR): Aktienkapital, gesetzliche Kapital- und Gewinnreserven, freiwillige Gewinnreserven, eigene Kapitalanteile, Bilanzergebnis.
-  Eingeschränkte Revision: Abstimmung mit Statuten/HR, Vorjahr und GV-Protokoll, Antrag Gewinnverwendung (Art. 729a OR), Kapitalschutz (Art. 680, 725a/b OR, Rangrücktritte), Kapitalveränderungen,
-  Steuern, Gliederung, Anhang.'
+kurzbeschrieb: 'Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR). ER: Abstimmung mit Statuten/HR, Aktienbuch, Vorjahr und GV-Protokoll, Antrag Gewinnverwendung (Art. 729a OR), Kapitalschutz
+  (Art. 680, 725a/b OR, Rangrücktritte), Kapitalveränderungen, Steuern, Gliederung, Anhang.'
 gesetz:
 - thema: Mindestgliederung Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR)
   quelle: or__art-959a-t1
@@ -224,7 +223,8 @@ unterlagen:
   zweck: Abstimmung Aktienkapital, Statutenänderungen inkl. Statutenangabe zur Verrechnungsliberierung, Dauerakte (P1-301, P1-307, P1-314, P1-321)
   quelle: ser-2022__anh-d-s091-1
   zitat: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
-- dokument: Protokoll der ordentlichen GV über das Vorjahr (Genehmigung Jahresrechnung, Gewinnverwendung) sowie Protokolle ausserordentlicher GV
+- dokument: Protokoll der ordentlichen GV im GJ über die Jahresrechnung des Vorjahres (Genehmigung JR, Verwendung Bilanzergebnis, Wahl Revisionsstelle) sowie Protokolle aller ausserordentlichen
+    GV und VR-Beschlüsse/Zirkularbeschlüsse des GJ bis Berichtsdatum
   zweck: Abstimmung Reserven/Bilanzergebnis, Vollzug Gewinnverwendung (P1-302, P1-312)
   quelle: ser-2022__anh-d-s091-1
   zitat: Abstimmung der Reserven und des Bilanzgewinns/-verlusts mit der Jahresrechnung des Vorjahres und dem GV-Protokoll
@@ -480,6 +480,15 @@ fallstricke:
   quelle: or__art-731
   zitat: Liegt der erforderliche Revisionsbericht nicht vor, so sind die Beschlüsse zur Genehmigung der Jahresrechnung und der Konzernrechnung sowie zur Verwendung des Bilanzgewinnes
     nichtig.
+- text: 'Fehlerfalle P1-313: Reduktion oder Aufhebung eines Rangrücktritts ist keine Rückzahlung – das Darlehen bleibt in voller Höhe Fremdkapital (`--verbindlichkeiten` unverändert),
+    kein Buchungsvorschlag auf das Darlehen. Zu prüfen ist, ob die Σ der Rangrücktritte die Überschuldung noch deckt und ob die Voraussetzungen der Reduktion (HWP ER Rz 425) erfüllt
+    sind.'
+  quelle: hwp-er-2026__rz-0423-s125-t1
+  zitat: Er bewirkt auch keine Veränderung der Forderung, ausser, dass sie gestundet und damit einredebelastet wird.
+- text: 'P1-313: Rangrücktritt-Beträge für die Deckungsrechnung aus den unterzeichneten Vereinbarungen nehmen (aktuelle Fassung, auch aus VJ-Akte/Dauerakte), nicht aus Anhang oder Kontosaldo;
+    die Anhangangabe damit abgleichen (P1-320).'
+  quelle: hwp-er-2026__rz-0410-s123
+  zitat: Die Revisionsstelle vermag nur einen schriftlichen Rangrücktritt zu beurteilen.
 fragen_kunde:
 - frage: Wurden im Geschäftsjahr oder seit dem Bilanzstichtag die Statuten geändert oder Kapitalerhöhungen/-herabsetzungen (auch innerhalb eines Kapitalbands) beschlossen bzw. im Handelsregister
     eingetragen? Bitte Urkunden und HR-Auszug einreichen.
@@ -614,11 +623,13 @@ schritte:
   - Budget/Liquiditätsplanung
   - Ergebnis P1-305 (Aktionärsforderungen)
   - Ergebnis P1-313 (Kapitalverlust/Überschuldung)
-  rechnen: Bilanzgewinn/-verlust = Vortrag + Jahresergebnis; Σ Antrag = Bilanzgewinn/-verlust; Zuweisung 5 % Jahresgewinn (nach Beseitigung Verlustvortrag) bis gesetzl. Kapital- + Gewinnreserve
+  rechnen: 'Bilanzgewinn/-verlust = Vortrag + Jahresergebnis; Σ Antrag = Bilanzgewinn/-verlust; Zuweisung 5 % Jahresgewinn (nach Beseitigung Verlustvortrag) bis gesetzl. Kapital- + Gewinnreserve
     = 50 % AK, Holding 20 % (Art. 672 Abs. 2, Abs. 3 i.V.m. 671 Abs. 4); Rückzahlung KR nur soweit (gesetzl. Kapital- + Gewinnreserve ohne Aufwertungsreserve und Reserve eigene Aktien
     im Konzern − Verluste) > 50 % AK (Holding > 20 %); Ausschüttung ≤ ausschüttbares EK (nur offene Reserven − Bilanzverlust − gesperrte Reserven − nicht drittvergleichskonforme Aktionärsforderungen);
     Verlustverrechnung zwingend in der Reihenfolge Gewinnvortrag → freiwillige Gewinnreserven → gesetzliche Gewinnreserve → gesetzliche Kapitalreserve; nur anstelle der Verrechnung mit
-    den gesetzlichen Reserven darf vorgetragen werden (Art. 674 Abs. 1/2 OR); Dividende erst nach den Reservezuweisungen (Art. 675 Abs. 3 OR)
+    den gesetzlichen Reserven darf vorgetragen werden (Art. 674 Abs. 1/2 OR); Dividende erst nach den Reservezuweisungen (Art. 675 Abs. 3 OR); Beispiel Art. 671 Abs. 2 OR: `rechne "ak
+    = 100000; kr = 70000; gr = 10000; verlust = 20000; reserven = kr + gr - verlust; reserven - ak / 2"` (> 0 = höchstens dieser Betrag aus der Kapitalreserve rückzahlbar; ≤ 0 = keine
+    Rückzahlung). Liquidität: `rechne "fluessig = 45000; ausschuettung = 48000; fluessig - ausschuettung"` (< 0 oder knapp → Budget/Liquiditätsplanung bis Auszahlung als «Pendenz»).'
   feststellung_wenn: Antrag rechnerisch falsch/nicht bilanzkonform, Zuweisung oder Verlustverrechnung fehlerhaft, Ausschüttung > ausschüttbares EK bzw. Schwelle Art. 671 OR verletzt,
     Liquidität nicht belegt oder Fortführung gefährdet.
   fundstellen:
@@ -675,6 +686,9 @@ schritte:
     zitat: Verluste, die den KER bzw. den Ausland-KER belastet wurden, vermindern diese definitiv.
   - quelle: estv-ks-32a-2025__3-3-2-t1
     zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
+  notiz: Antrag rechnerisch falsch, Zuweisung oder Verlustverrechnung fehlerhaft, Ausschüttung > ausschüttbares EK oder Schwelle Art. 671 Abs. 2 OR verletzt → «Wesentliche Feststellungen»
+    (kein Buchungsvorschlag; Stellungnahme im Bericht entscheidet der WP) + «Schlussbesprechung». Antrag, Budget oder Liquiditätsplanung nicht gefunden → «Pendenz». Flüssige Mittel decken
+    die Ausschüttung nicht → «Schlussbesprechung» (Fortführung, WP).
 - id: P1-304
   vorgehen: Saldoliste/Kontoblätter auf eigene Kapitalanteile (Minusposten) durchsehen; Bestand (Anzahl, Anschaffungswert) mit Aufstellung, Aktienbuch bzw. Depotauszug abstimmen. Schriftliche
     Antwort zur Befragung nach Bestand, Erwerb und Veräusserung (auch durch Tochtergesellschaften) auswerten, sonst Frage als Pendenz. Grenzen Art. 659 OR und Anhangangabe der Anzahl
@@ -722,9 +736,9 @@ schritte:
   - quelle: estv-ks-51-2026__4
     zitat: Es ist auf alle dannzumal noch offenen Veranlagungen anzuwenden.
 - id: P1-305
-  vorgehen: Gegenparteien lt. Aktienbuch und Organen in Debitoren-/OP-Listen, Kontoblättern aller Forderungskonten (1100 ff., 114x, 119x) und Ergebnissen der Prüffelder B/C suchen; Forderungen
-    mit Darlehenscharakter (up-/cross-stream, Cash-Pool; ohne operative L+L) erfassen. Freies EK berechnen, mit dem Total vergleichen; ist das Total höher, Drittvergleichsanalyse des
-    VR (Vertrag, Zins, Rückzahlung, Sicherheit) einsehen, sonst Pendenz. Dokumentieren.
+  vorgehen: Gegenparteien lt. Aktienbuch und Organen (je Name `akte <pfad> --suche "<Name>"`) in Debitoren-/OP-Listen, Kontoblättern aller Forderungskonten (1100 ff., 114x, 119x) und
+    Ergebnissen der Prüffelder B/C suchen; Forderungen mit Darlehenscharakter (up-/cross-stream, Cash-Pool; ohne operative L+L) erfassen. Freies EK berechnen, mit dem Total vergleichen;
+    ist das Total höher, Drittvergleichsanalyse des VR (Vertrag, Zins, Rückzahlung, Sicherheit) einsehen, sonst Pendenz. Dokumentieren.
   nachweise:
   - Aktienbuch, Organe lt. HR-Auszug
   - Debitoren-/OP-Listen, Kontoblätter aller Forderungskonten
@@ -952,7 +966,8 @@ schritte:
 - id: P1-312
   vorgehen: 'GV-Beschluss über die Verwendung des Bilanzergebnisses des Vorjahres (Protokoll oGV) mit den Buchungen im Prüfjahr abgleichen: Vortrag Jahresergebnis, Reservezuweisungen,
     Verlustverrechnung, Dividende/Rückzahlung inkl. Buchungsdatum (GV-Datum) und Gegenkonten. Abweichung des GV-Beschlusses vom geprüften VR-Antrag festhalten (Prüfung im Folgejahr).
-    Ergebnis dokumentieren.'
+    Ergebnis dokumentieren. Zuordnung: Die ordentliche GV im GJ beschliesst über die Jahresrechnung des Vorjahres – Basis ist das Bilanzergebnis laut geprüfter JR VJ, nicht jenes des
+    Vorvorjahres. Alle ao GV-Protokolle und VR-Beschlüsse des GJ ebenfalls lesen (Kapitalmassnahmen → P1-316); Wahl der Revisionsstelle im selben Protokoll → A1-304.'
   nachweise:
   - Protokoll oGV über das Vorjahr
   - Antrag VR Vorjahr
@@ -966,12 +981,17 @@ schritte:
     zitat: Die Revisionsstelle wird den Gewinnverwendungsbeschluss erst im Folgejahr prüfen können.
   - quelle: ser-2022__anh-d-s073-2
     zitat: Beschluss über die Verwendung des Bilanzgewinns (umfasst auch einen allfälligen Bilanzverlust)
+  - quelle: or__art-699
+    zitat: Die ordentliche Generalversammlung findet jährlich innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt.
 - id: P1-313
-  vorgehen: 'Rechnen mit `kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …] --rangruecktritt
-    …` (`--verbindlichkeiten` unverändert aus der Bilanz; Kredite nach Art. 3 Covid-19-SBüV und HFMV-20-Darlehen nur über `--covid-kredit`), Ausgabe ins Textfeld; Ablauf: `aufgabe kapitalschutz`.
-    Geschütztes EK berechnen, hälftig mit dem EK für OR 725a/725b vergleichen. Bei Überschuldung: Vorliegen/Datum der Zwischenabschlüsse feststellen (Prüfung: separater Auftrag PS-CH
-    290); Rangrücktritte prüfen (schriftlich, zweiseitig, Betrag + Zinsen, Stundung, unwiderruflich, unbefristet, Bonität); Zahlungen, Verrechnungen, Darlehen an Rangrücktrittsgläubiger
-    im GJ und nach Stichtag suchen; Sanierungsaussicht, Anhang würdigen; für WP dokumentieren.'
+  vorgehen: 'FEHLERFALLEN ZUERST: (1) Σ Rangrücktritte = Beträge laut unterzeichneten Vereinbarungen (aktuelle Fassung; auch VJ-Akte/Dauerakte), nicht Darlehenssaldo, nicht Anhang →
+    in `--rangruecktritt` eingeben. (2) RR-Reduktion ≠ Darlehensreduktion: das Darlehen bleibt in voller Höhe Fremdkapital – nie Buchungsvorschlag auf das Darlehen; Reduktion während
+    Überschuldung ohne die Voraussetzungen (a)–(c) HWP ER Rz 425 → «Wesentliche Feststellungen». (3) Korrekturvorschläge (Wesentliche Feststellungen) aller Prüffelder mit Ergebniswirkung
+    kumulieren und zusätzlich «nach Korrekturen» rechnen. Rechnen mit `kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll
+    …] [--covid-kredit …] --rangruecktritt …` (`--verbindlichkeiten` unverändert aus der Bilanz; Kredite nach Art. 3 Covid-19-SBüV und HFMV-20-Darlehen nur über `--covid-kredit`), Ausgabe
+    ins Textfeld; Ablauf: `aufgabe kapitalschutz`. Geschütztes EK berechnen, hälftig mit dem EK für OR 725a/725b vergleichen. Bei Überschuldung: Vorliegen/Datum der Zwischenabschlüsse
+    feststellen (Prüfung: separater Auftrag PS-CH 290); Rangrücktritte prüfen (schriftlich, zweiseitig, Betrag + Zinsen, Stundung, unwiderruflich, unbefristet, Bonität); Zahlungen, Verrechnungen,
+    Darlehen an Rangrücktrittsgläubiger im GJ und nach Stichtag suchen; Sanierungsaussicht, Anhang würdigen; für WP dokumentieren.'
   nachweise:
   - Bilanz/Eigenkapital
   - HR-Auszug (eingetragenes AK/PS-Kapital)
@@ -980,10 +1000,11 @@ schritte:
   - Kontoblätter/Bankauszüge GJ und nach Stichtag
   - Zwischenabschlüsse/Sanierungsplan
   - Anhang (Fortführung, Ereignisse nach Stichtag)
-  rechnen: Geschütztes EK = AK + PS-Kapital + min(gesetzl. Kapitalreserve + gesetzl. Gewinnreserve i.e.S.; 50 % von AK + PS, Holding 20 %) + Aufwertungsreserve + Reserve eigene Anteile
+  rechnen: 'Geschütztes EK = AK + PS-Kapital + min(gesetzl. Kapitalreserve + gesetzl. Gewinnreserve i.e.S.; 50 % von AK + PS, Holding 20 %) + Aufwertungsreserve + Reserve eigene Anteile
     im Konzern; EK für OR 725a/725b = bilanzielles EK + Kredite nach Art. 3 Covid-19-SBüV + Darlehen nach Art. 21 HFMV 20. Im Rechner nur über `--covid-kredit` eingeben; `--verbindlichkeiten`
     unverändert aus der Bilanz übernehmen (nicht zusätzlich abziehen). Kredite nach Art. 4 SBüV bleiben FK; Kapitalverlust, wenn EK für OR 725a/725b < 50 % geschütztes EK; Überschuldung,
-    wenn EK für OR 725a/725b < 0; Σ gültige Rangrücktritte (Betrag + Zinsen) ≥ Überschuldung (+ Polster für erwartete Verluste)
+    wenn EK für OR 725a/725b < 0; Σ gültige Rangrücktritte (Betrag + Zinsen) ≥ Überschuldung (+ Polster für erwartete Verluste); Nach Korrekturen und Deckung, Beispiel: `rechne "ek =
+    -420000; korr = -35000; ek_neu = ek + korr; rr = 380000; rr + ek_neu"` (< 0 = Deckungslücke in dieser Höhe).'
   feststellung_wenn: Kapitalverlust/Überschuldung ohne erfüllte VR-Pflichten oder Rangrücktritte ungenügend/mangelhaft/umgangen; bei Anzeichen offensichtlicher Überschuldung sofort Notiz
     «Wesentliche Feststellung» an WP (Art. 729c OR).
   fundstellen:
@@ -1032,6 +1053,17 @@ schritte:
     zitat: erscheint es geboten, dass der zugelassene Revisor in seinem Bericht einen entsprechenden Zusatz im Sinne der nachstehenden Textbeispiele anbringt
   - quelle: or__art-729c
     zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  - quelle: hwp-er-2026__rz-0423-s125-t1
+    zitat: Er bewirkt auch keine Veränderung der Forderung, ausser, dass sie gestundet und damit einredebelastet wird.
+  - quelle: hwp-er-2026__rz-0423-s125-t1
+    zitat: Der Rangrücktritt bewirkt auch keine Umwandlung von Fremdkapital in Eigenkapital.
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
+  notiz: Deckungslücke (Σ RR laut Vereinbarungen < Überschuldung) oder Rangrücktritt mangelhaft, reduziert oder getilgt → «Wesentliche Feststellungen» (kein Buchungsvorschlag auf das
+    Darlehen) + «Schlussbesprechung»; Anzeichen offensichtlicher Überschuldung → zusätzlich sofort an den WP (Art. 729c OR). Zwischenabschluss oder Vereinbarung nach Suche in GJ-, VJ-
+    und Dauerakte nicht gefunden → «Pendenz» mit durchsuchten Ordnern. Kapitalverlust ohne Sanierungsmassnahmen des VR → «Schlussbesprechung».
 - id: P1-314
   vorgehen: Statutenänderungen des GJ und bis Berichtsdatum (Kapital, Firma, Sitz, Zweck, Kapitalband, Vinkulierung) anhand öffentlicher Urkunden, HR-Auszug und SHAB-Publikation festhalten;
     Beschluss-, HR-Eintrags- und Buchungsdatum vergleichen; bei Verrechnungsliberierung Statutenangabe (Forderung, Aktionär, Aktien) prüfen; geltende Statuten in der Dauerakte ablegen.
@@ -1118,7 +1150,9 @@ schritte:
   - Kontoblätter EK-Konten
   - GV-/VR-Protokolle
   - Urkunden/Belege der Buchungen
-  rechnen: Σ Buchungen je EK-Konto = Saldo 31.12. − Saldo VJ (Abstimmung mit Eigenkapitalspiegel P1-401); Buchungsbetrag = Betrag lt. Beschluss/Urkunde
+  rechnen: 'Σ Buchungen je EK-Konto = Saldo 31.12. − Saldo VJ (Abstimmung mit Eigenkapitalspiegel P1-401); Buchungsbetrag = Betrag lt. Beschluss/Urkunde; Kapitalerhöhung im GJ: `rechne
+    "anzahl = 1000; nennwert = 100; ausgabepreis = 250; ak_zugang = anzahl * nennwert; agio = anzahl * (ausgabepreis - nennwert); anzahl * ausgabepreis"` → Zugang Aktienkapital = ak_zugang,
+    Zugang gesetzliche Kapitalreserve = agio (abzüglich Ausgabekosten), Liberierung laut Bank/Verrechnung = Ausgabebetrag laut GV-Beschluss.'
   feststellung_wenn: Buchung ohne Beschluss oder Beleg, Betrag weicht vom Beschluss ab, falsches Datum oder Gegenkonto, oder erfolgswirksamer Vorgang direkt im Eigenkapital erfasst.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0572-s277-t1
@@ -1129,6 +1163,8 @@ schritte:
     zitat: Alle übrigen Veränderungen der Nettoaktiven sind grundsätzlich durch eine erfolgswirksame Buchung zu erfassen.
   - quelle: hwp-or-2024__rz-0925-s361
     zitat: Abgleich der Buchungen über die Kapitalkonten mit Gegenbuchungen und Belegen
+  - quelle: or__art-671
+    zitat: der Erlös, der bei der Ausgabe von Aktien über den Nennwert und die Ausgabekosten hinaus erzielt wird
 - id: P1-317
   vorgehen: 'Aktienbuch per Stichtag einsehen: Eigentümer/Nutzniesser mit Name und Adresse, Anzahl, Nennwert; Summe mit AK lt. Statuten/HR und Konto 2800 abstimmen; Nachführung von Übertragungen
     und Kapitalerhöhungen (Zeichner) prüfen; Verzeichnis der wirtschaftlich berechtigten Personen nach der für GJ 2025 geltenden Fassung erfragen (Art. 697j OR per 1.10.2026 aufgehoben).

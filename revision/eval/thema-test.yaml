@@ -1,0 +1,91 @@
+hinweis: 'Regressionstest für `thema` (Matching und Ausgabe), analog routing-test.yaml. Erwartungen aus den Reviews th-1, th-2, th-4, th-7,
+  th-9, th-10, th-11 (Code-Vorschläge 2026-11-13), nur soweit sie mit den aktuellen Daten fachlich stimmen. `thema` ist ein Id oder eine Liste
+  gleichwertiger Ids (mehrdeutige Begriffe; Hauptsache nicht falsch, z.B. Forderungsverzicht nie delkredere-forderungen). Nicht aufgenommen:
+  Art. 727 OR / Art. 727c OR (Stichworte fehlen noch in eingeschraenkte-revision-grundlagen), Art. 729b OR (Revisionsbericht – grundlagen,
+  gesetzesverstoesse und hinweispflichten gleich stark), Solidarbürgschaft (Stichwort in fünf Themen), Fremdwährungsdarlehen (fachlich offen).'
+faelle:
+# th-7 Vorräte
+- {begriff: Überalterung, thema: vorraete-bewertung}
+- {begriff: überalterte Vorräte, thema: vorraete-bewertung}
+- {begriff: unkurante Ware, thema: vorraete-bewertung}
+- {begriff: angefangene Arbeit, thema: vorraete-bewertung}
+- {begriff: Auftrag in Arbeit, thema: vorraete-bewertung}
+- {begriff: Fertigungsauftrag, thema: vorraete-bewertung}
+- {begriff: langfristige Fertigungsaufträge, thema: vorraete-bewertung}
+- {begriff: Warenlager, thema: vorraete-bewertung}
+- {begriff: verpfändete Vorräte, thema: vorraete-bewertung}
+# th-7 Rückstellungen
+- {begriff: Bürgschaft, thema: rueckstellungen}
+- {begriff: Drohverlust, thema: rueckstellungen}
+- {begriff: drohende Verluste, thema: rueckstellungen}
+- {begriff: Rechtsstreit, thema: rueckstellungen}
+- {begriff: Rechtsstreit Rückstellung, thema: rueckstellungen}
+- {begriff: Sicherheiten Dritter, thema: [rueckstellungen, anhang-jahresrechnung]}
+- {begriff: Garantie, thema: rueckstellungen}
+- {begriff: Prozessrisiko, thema: rueckstellungen}
+# th-7 Kontrollbegriffe
+- {begriff: stille Reserven, thema: stille-reserven}
+- {begriff: Steuerrückstellung, thema: steuern-latente-steuern}
+- {begriff: Kapitalverlust, thema: kapitalverlust-ueberschuldung}
+- {begriff: Bürgschaften Anhang, thema: anhang-jahresrechnung}
+# th-1 Unabhängigkeit / Grundlagen / Buchführung (Artikel exakt, «OR» und «Art.» als Füllwörter)
+- {begriff: Buchhaltung führen und revidieren, thema: unabhaengigkeit}
+- {begriff: Art. 729 OR, thema: unabhaengigkeit}
+- {begriff: OR 729, thema: unabhaengigkeit}
+- {begriff: Art. 728 OR, thema: unabhaengigkeit}
+- {begriff: Art. 730a OR, thema: unabhaengigkeit}
+- {begriff: Steuerberatung, thema: unabhaengigkeit}
+- {begriff: Unabhängigkeit, thema: unabhaengigkeit}
+- {begriff: Art. 727a OR, thema: eingeschraenkte-revision-grundlagen}
+- {begriff: Art. 727a Abs. 2 OR, thema: eingeschraenkte-revision-grundlagen}
+- {begriff: Opting-out, thema: eingeschraenkte-revision-grundlagen}
+- {begriff: Opting-up, thema: eingeschraenkte-revision-grundlagen}
+- {begriff: Art. 730c OR, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Aufbewahrung, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Dokumentation, thema: buchfuehrung-aufbewahrung-dokumentation}   # Rückfall über den Dateinamen
+# th-2 / th-10 Kapitalverlust, Rangrücktritt, Wesentlichkeit
+- {begriff: Art. 725a OR, thema: kapitalverlust-ueberschuldung}
+- {begriff: Art. 725b OR, thema: kapitalverlust-ueberschuldung}
+- {begriff: OR 725a, thema: kapitalverlust-ueberschuldung}
+- {begriff: OR 725b, thema: kapitalverlust-ueberschuldung}
+- {begriff: Art. 725b Abs. 5, thema: kapitalverlust-ueberschuldung}
+- {begriff: Härtefall, thema: kapitalverlust-ueberschuldung}
+- {begriff: Zwischenabschluss, thema: kapitalverlust-ueberschuldung}
+- {begriff: Zwischenabschlüsse, thema: kapitalverlust-ueberschuldung}
+- {begriff: Covid-19-Kredit, thema: kapitalverlust-ueberschuldung}
+- {begriff: Covid, thema: kapitalverlust-ueberschuldung}
+- {begriff: KS 32a, thema: kapitalverlust-ueberschuldung}
+- {begriff: Wesentlichkeit, thema: wesentlichkeit}
+- {begriff: Rangrücktritt, thema: rangruecktritt}
+- {begriff: Forderungsverzicht, thema: [rangruecktritt, kapitalverlust-ueberschuldung]}
+- {begriff: Verrechnungssteuer, thema: [verdecktes-eigenkapital, nahestehende-personen, eigenkapital-gewinnverwendung]}
+# th-9 MWST / Sozialversicherungen
+- {begriff: ALV, thema: mwst-sozialversicherungen}
+- {begriff: Saldosteuersatz, thema: mwst-sozialversicherungen}
+- {begriff: Abrechnungsperiode, thema: mwst-sozialversicherungen}
+- {begriff: Beitragssätze Sozialversicherungen, thema: mwst-sozialversicherungen}
+# th-11 Kurz-Stichworte (KI, VE) und KI/Datenschutz
+- {begriff: KI, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Künstliche Intelligenz, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Datenschutz, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Cloud, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: Websuche, thema: buchfuehrung-aufbewahrung-dokumentation}
+- {begriff: VE, thema: vollstaendigkeitserklaerung}
+# th-4 und übrige
+- {begriff: going concern, thema: going-concern}
+- {begriff: ereignisse nach dem bilanzstichtag, thema: ereignisse-nach-bilanzstichtag}
+- {begriff: nahestehende personen, thema: nahestehende-personen}
+- {begriff: latente Steuern, thema: steuern-latente-steuern}
+- {begriff: Delkredere, thema: delkredere-forderungen}
+- {begriff: verdecktes Eigenkapital, thema: verdecktes-eigenkapital}
+- {begriff: Abschreibungen Sachanlagen, thema: sachanlagen}
+# Artikelnummer nicht über Schritt-Ids oder fremde Ziffern (StGB 321 ≠ Schritt xx-321)
+- {begriff: StGB 321, thema: [buchfuehrung-aufbewahrung-dokumentation, gesetzesverstoesse]}
+- {begriff: Art. 321 StGB, thema: [buchfuehrung-aufbewahrung-dokumentation, gesetzesverstoesse]}
+ausgabe:
+# Reihenfolge: Für den Agenten vor den Fundstellen; Agent-Teil früh (th-4: vor Zeichen 1'500; Ziel: in den ersten 3 KB)
+- {begriff: going concern, agent_vor_zeichen: 1500}
+- {begriff: ereignisse nach dem bilanzstichtag, agent_vor_zeichen: 1500}
+- {begriff: kapitalverlust, agent_vor_bytes: 3000, enthaelt: ['**Nächste Aufrufe:**', '## Fundstellen (gekürzt', 'Volltext: `thema kapitalverlust-ueberschuldung --voll`']}
+- {begriff: Rechtsstreit, enthaelt: ['Auch passend: `thema unabhaengigkeit`']}
+- {begriff: rangrücktritt, voll: true, enthaelt: ['## Fundstellen', 'Wortlaut: `zeige <chunk-id>`'], nicht: ['(gekürzt']}

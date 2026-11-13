@@ -9,9 +9,9 @@ erfasst:
     urteil: korrigieren
     befunde: 13
     korrigiert: true
-kurzbeschrieb: 'Aktive Rechnungsabgrenzungen (Konto 1300): transitorische Aktiven (2025 bezahlter Aufwand des Folgejahres) und antizipative Aktiven (Ertrag 2025, Geldeingang 2026). Eingeschränkte
-  Revision: Bestand, Vollständigkeit, Bewertung (künftiger Geld- oder Nutzenzugang) und Periodenabgrenzung mit Befragung, Analytik und Abstimmung der Detailaufstellung; Abgrenzungen
-  ggü. Nahestehenden erkennen.'
+  ergaenzt: '2026-11-13 Runde R2: Wissenslücken aus E2E-Lauf ergänzt (Zitate maschinell geprüft, Zweitprüfung offen)'
+kurzbeschrieb: 'Aktive Rechnungsabgrenzungen: transitorische (im GJ bezahlter Aufwand des Folgejahres) und antizipative Aktiven (Ertrag GJ, Geldeingang Folgejahr). ER: Bestand, Vollständigkeit,
+  Bewertung (künftiger Nutzen/Geldeingang), Periodenabgrenzung – Befragung, Analytik, Detailaufstellung, Nahestehende.'
 gesetz:
 - thema: 'Mindestgliederung: aktive Rechnungsabgrenzungen als eigene Position im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. e OR)'
   quelle: or__art-959a-t1
@@ -384,7 +384,8 @@ schritte:
   - Detailaufstellung 1300 per 31.12.2025
   - Kontoblatt 1300 / Saldoliste
   - Jahresrechnung 2025 (Bilanz)
-  rechnen: Summe Detailaufstellung = Saldo Konto 1300 (Hauptbuch) = Bilanzposition Aktive Rechnungsabgrenzungen JR 31.12.2025; Differenz = 0
+  rechnen: Summe Detailaufstellung = Saldo Konto 1300 (Hauptbuch) = Bilanzposition Aktive Rechnungsabgrenzungen JR 31.12.2025; Differenz = 0; Positionen selbst summieren (`rechne "sum(…)"`),
+    gedrucktes Total nur vergleichen
   feststellung_wenn: Differenz zwischen Aufstellung, Hauptbuch und Jahresrechnung; Position betrifft Leistungszeitraum 2025; Saldierung mit passiven Abgrenzungen; Aufstellung fehlt (Pendenz).
   fundstellen:
   - quelle: ser-2022__anh-d-s080-1
@@ -402,9 +403,10 @@ schritte:
   - Zahlungsbelege 2025
   - Zahlungseingänge 2026 (antizipative Aktiven)
   - Detailaufstellung 1300
-  rechnen: 'Transitorisch (2025 bezahlt, Leistung 2026): Abgrenzung = Rechnungsbetrag × Tage Leistungszeitraum nach 31.12.2025 / Tage gesamter Leistungszeitraum. Antizipativ (Ertrag
-    2025, Geldeingang 2026, z.B. Marchzins, Miete, Bonus): Abgrenzung = Ertrag der Abrechnungsperiode × Tage der Periode bis 31.12.2025 / Tage gesamte Abrechnungsperiode. Zähler und
-    Nenner in derselben Einheit (Tage; bei Perioden in ganzen Monaten Monate). Differenz zum gebuchten Betrag mit `rechne`'
+  rechnen: 'Leistungsperiode aus dem Beleg lesen (Police, Rechnung, Vertrag – z.B. Versicherungsjahr ≠ Kalenderjahr), nicht annehmen; Tage bzw. Monate mit `rechne` zählen, nie im Kopf.
+    Transitorisch (2025 bezahlt, Leistung 2026): Abgrenzung = Rechnungsbetrag × Tage Leistungszeitraum nach 31.12.2025 / Tage gesamter Leistungszeitraum. Antizipativ (Ertrag 2025, Geldeingang
+    2026, z.B. Marchzins, Miete, Bonus): Abgrenzung = Ertrag der Abrechnungsperiode × Tage der Periode bis 31.12.2025 / Tage gesamte Abrechnungsperiode. Zähler und Nenner in derselben
+    Einheit (Tage; bei Perioden in ganzen Monaten Monate). Differenz zum gebuchten Betrag mit `rechne`'
   feststellung_wenn: Beleg fehlt oder weicht ab; Leistungszeitraum ganz/teilweise 2025; Geldeingang zweifelhaft oder kein künftiger Nutzen; wesentliche Rechendifferenz.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0263-s216
@@ -419,6 +421,10 @@ schritte:
     zitat: 'Antizipative Aktiven: Erträge des alten Jahres, die erst im neuen Jahr zu Einnahmen führen'
   - quelle: hwp-bur-2023__rz-0262-s216
     zitat: im Zusammenhang mit der Beurteilung von Aktiv- und Passivposten (beispielsweise Marchzinsen)
+  - quelle: hwp-er-2026__rz-0091-s196
+    zitat: Dies beinhaltet auch Abstimmungsund Übertragungsprüfungen.
+  notiz: Zu hohe oder zu tiefe Abgrenzung bzw. Leistungszeitraum im GJ ≥ NAG → «Wesentliche Feststellungen» mit Betrag und Buchungsvorschlag (Aufwand an aktive Rechnungsabgrenzung bzw.
+    umgekehrt; ohne Verbuchung); < NAG nur Textfeld; Beleg fehlt → «Pendenz».
 - id: E1-303
   vorgehen: 'WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur Notiz «Pendenz»:
     «Risiko 3.1 erhöht – WP: E1-303 anordnen?». Ohne Anweisung: nicht bearbeiten, kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt». Mit Anweisung: Kontoblätter typischer

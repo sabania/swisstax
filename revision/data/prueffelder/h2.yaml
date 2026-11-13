@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 16
     korrigiert: true
-kurzbeschrieb: 'Gewährte Darlehen an Dritte, Beteiligte/Organe und Konzerngesellschaften (kurz-/langfristig). Eingeschränkte Revision: Befragung zu Bewertung und Fristigkeit, Feststellung
-  nahestehender Darlehensnehmer, Abstimmung mit internen Nachweisen, Ausweis (Art. 959a Abs. 4 OR); WP-Schritte (Bonität, Zu-/Abgänge) und 4xx inkl. Einlagenrückgewähr (Art. 680 Abs.
-  2 OR) nur auf Anweisung des WP.'
+kurzbeschrieb: 'Gewährte Darlehen an Dritte, Beteiligte/Organe, Konzerngesellschaften. ER: Befragung (Bewertung, Fristigkeit), Feststellung nahestehender Darlehensnehmer (auch unter
+  Debitoren), Abstimmung mit Nachweisen, Ausweis (Art. 959a Abs. 4 OR); WP-Schritte und 4xx (u.a. Art. 680 OR) nur auf Anweisung.'
 gesetz:
 - thema: 'Mindestgliederung: Finanzanlagen im Anlagevermögen (Art. 959a Abs. 1 Ziff. 2 lit. a OR)'
   quelle: or__art-959a-t1
@@ -78,7 +77,8 @@ risiken:
   - BE
   quelle: hwp-bur-2023__rz-0271-s217
   zitat: aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners, unter Berücksichtigung erhaltener Sicherheiten
-- text: Darlehen an Nahestehende (Aktionäre, Organe, Beteiligungsgesellschaften) nicht gesondert ausgewiesen, z.B. unter Debitoren oder übrigen Forderungen versteckt.
+- text: 'Aktionärs-/Organdarlehen in der Debitoren-OP-Liste oder unter übrigen Forderungen versteckt und nicht gesondert ausgewiesen: OP-Liste, Forderungskonten und Darlehensverträge
+    nach Namen der Aktionäre/Organe durchsuchen (H2-201).'
   pruefziele:
   - VO
   - DO
@@ -459,12 +459,13 @@ schritte:
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: H2-201
   vorgehen: '1) Ausweis (Art. 959a Abs. 4 OR): Kreis der Nahestehenden bestimmen (Aktienbuch, HR-Auszug, VR/GL, Beteiligungen) und Darlehensaufstellung, OP-Listen Debitoren/übrige Forderungen
-    sowie Hauptbuch nach diesen Namen durchsuchen. Treffer mit Betrag, Konto und Ausweisort (Bilanz/Anhang) im Textfeld dokumentieren; Vollständigkeitsbestätigung der GL als Frage/Pendenz
-    erfassen. 2) Zinsvergleich ESTV (Steuerpraxis): Je Treffer Vertragszins erfassen und mit dem ESTV-Mindestsatz des GJ vergleichen (verzinsliches FK in der Saldoliste? → Selbstkosten
-    + ½ %). 3) Art. 680 Abs. 2 OR: Summe der Aktionärsforderungen an P1-305 übergeben (Querverweis in revio). Anzeichen (Σ > freies EK = Total EK − einbezahltes Grundkapital, oder EK
-    negativ): Notiz «Pendenz» an WP mit Beträgen und Verweis P1-305/H2-404; keine eigene Würdigung. 4) Covid-19-Kredit offen (Bankverbindlichkeiten L1/N1, Anhang)? Dann jedes während
-    der Solidarbürgschaft gewährte oder erhöhte Darlehen an Beteiligte/Nahestehende als Notiz «Wesentliche Feststellungen» (Konto, Datum, Betrag) für den WP markieren. Frist und Information
-    von GV/Bürgschaftsorganisation (Art. 23) entscheidet und veranlasst nur der WP (vgl. `aufgabe gvb-bericht`).'
+    sowie Hauptbuch nach diesen Namen durchsuchen (je Name `akte <pfad> --suche "<Name>"` in GJ- und VJ-Akte; Darlehensverträge auch in den Ordnern der Darlehen/Verbindlichkeiten lesen).
+    Treffer mit Betrag, Konto und Ausweisort (Bilanz/Anhang) im Textfeld dokumentieren; Vollständigkeitsbestätigung der GL als Frage/Pendenz erfassen. 2) Zinsvergleich ESTV (Steuerpraxis):
+    Je Treffer Vertragszins erfassen und mit dem ESTV-Mindestsatz des GJ vergleichen (verzinsliches FK in der Saldoliste? → Selbstkosten + ½ %). 3) Art. 680 Abs. 2 OR: Summe der Aktionärsforderungen
+    an P1-305 übergeben (Querverweis in revio). Anzeichen (Σ > freies EK = Total EK − einbezahltes Grundkapital, oder EK negativ): Notiz «Pendenz» an WP mit Beträgen und Verweis P1-305/H2-404;
+    keine eigene Würdigung. 4) Covid-19-Kredit offen (Bankverbindlichkeiten L1/N1, Anhang)? Dann jedes während der Solidarbürgschaft gewährte oder erhöhte Darlehen an Beteiligte/Nahestehende
+    als Notiz «Wesentliche Feststellungen» (Konto, Datum, Betrag) für den WP markieren. Frist und Information von GV/Bürgschaftsorganisation (Art. 23) entscheidet und veranlasst nur
+    der WP (vgl. `aufgabe gvb-bericht`).'
   nachweise:
   - Aktienbuch
   - Handelsregisterauszug
@@ -529,6 +530,12 @@ schritte:
     zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
   - quelle: covid-sbueg__art-23
     zitat: so informiert die Revisionsstelle die zuständige Bürgschaftsorganisation
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: 'Darlehen an Aktionär/Organ/Beteiligungsgesellschaft unter Debitoren oder übrigen Forderungen ohne gesonderten Ausweis: Betrag ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen»
+    mit Ausweis-/Umgliederungsvorschlag (ohne Verbuchung), sonst nur Textfeld. Σ Aktionärsforderungen > freies EK oder EK negativ → «Pendenz» an WP (Art. 680 Abs. 2 OR; P1-305/H2-404)
+    und «Schlussbesprechung». Vertragszins unter ESTV-Satz → «Pendenz» Steuerrisiko (S1). Darlehen während Covid-Solidarbürgschaft → «Wesentliche Feststellungen». Vertrag oder VR-Beschluss
+    nicht gefunden → «Pendenz» (PBC) mit durchsuchten Ordnern.'
 - id: H2-301
   vorgehen: 'Darlehensaufstellung per 31.12. mit Hauptbuch und Bilanz abstimmen. Je Darlehen Saldo gegen beim Unternehmen vorhandene Nachweise prüfen: a) Saldomeldungen, b) Zinsquittungen/Bankbelege,
     c) Verträge, d) Gegenbuchhaltung (Konzern), e) Kontoauszüge u.a. Je Darlehen Fälligkeiten/Zinstermine mit den Zahlungseingängen in neuer Rechnung (Kontoblätter Folgejahr) vergleichen;
@@ -717,7 +724,8 @@ schritte:
   - Darlehensverträge (Zinssatz, Zinstermine)
   - Kontoblatt aktive Rechnungsabgrenzung
   - Zinsabrechnungen
-  rechnen: Marchzins = Darlehensbetrag × Zinssatz × Tage (letzter Zinstermin bis 31.12.) / Tagebasis gemäss Vertrag; Differenz = Marchzins − gebuchte Abgrenzung
+  rechnen: 'Marchzins = Darlehensbetrag × Zinssatz × Tage (letzter Zinstermin bis 31.12.) / Tagebasis gemäss Vertrag; Differenz = Marchzins − gebuchte Abgrenzung; Tage nie im Kopf zählen:
+    `rechne "betrag = 240000; satz = 0.0175; t = tage360(31.12.2025, 30.06.2025); betrag * satz * t / 360"` (30/360) bzw. `tage(…)` / 365 gemäss Vertrag.'
   feststellung_wenn: Aufgelaufener Zins nicht oder falsch abgegrenzt (ausser zulässiger Verzicht nach Art. 958b Abs. 2 OR) oder Zinsen werden kapitalisiert statt bezahlt.
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
@@ -736,7 +744,9 @@ schritte:
   - Darlehensaufstellung mit Zinssätzen
   - Kontoblätter Zins-/Finanzertrag
   - Bankbelege Zinseingänge
-  rechnen: Erwarteter Zinsertrag = Σ (Darlehensbestand × Vertragszins × Laufzeitanteil im Geschäftsjahr); Differenz zu gebuchtem Zins-/Finanzertrag inkl. Abgrenzung
+  rechnen: 'Erwarteter Zinsertrag = Σ (Darlehensbestand × Vertragszins × Laufzeitanteil im Geschäftsjahr); Differenz zu gebuchtem Zins-/Finanzertrag inkl. Abgrenzung; Laufzeit nie im
+    Kopf zählen, immer `rechne`: Beispiel `rechne "saldo = 500000; satz = 0.025; m = monate(31.12.2025, 31.03.2025); saldo * satz * m / 12"` (Auszahlung 31.03. → 9 ganze Monate); taggenau
+    `tage(spaeter, frueher)`, 30/360 `tage360(spaeter, frueher)`.'
   feststellung_wenn: Vertraglich geschuldeter Zinsertrag nicht oder unvollständig verbucht, mit Aufwand verrechnet oder wesentliche ungeklärte Differenz zum erwarteten Ertrag.
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1

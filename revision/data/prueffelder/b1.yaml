@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 18
     korrigiert: true
-kurzbeschrieb: 'Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgelder bis 3 Monate, Bankchecks; kurzfristig gehaltene Wertschriften, Edelmetalle, Kryptowährungen,
-  Rohstoffe mit Marktpreis. Nicht: WIR-Guthaben (ausser WIR bar), Zahlungsdienstkonten ohne Banklizenz (Beurteilung WP). SER: Abstimmung mit internen Unterlagen, Kurse, Verpfändungen,
-  Anhang; keine eigenen Bankbestätigungen.'
+kurzbeschrieb: 'Art. 959a Abs. 1 Ziff. 1 lit. a OR: Kasse, Post-/Bankguthaben auf Sicht, Festgeld bis 3 Monate, Bankchecks; kurzfristige Aktiven mit Marktpreis. Nicht: WIR-Verrechnung,
+  Anbieter ohne Banklizenz (Entscheid WP). SER: Abstimmung Auszüge, FW-Kurse, Verpfändungen, Anhang; keine Bestätigungen einholen.'
 gesetz:
 - thema: 'Mindestgliederung: Bilanzposition flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs (Art. 959a Abs. 1 Ziff. 1 lit. a OR)'
   quelle: or__art-959a-t1
@@ -370,6 +369,37 @@ fallstricke:
 - text: Visierung nur als Nachweis im Einzelfall (z.B. Prüfziel Verpflichtungen), nicht als IKS-Prüfung.
   quelle: hwp-er-2026__rz-0116-s201
   zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
+- text: 'IBAN-Ziffern sind keine Kontonummern des Kontenplans: Nachweiszeilen über Bank, Währung und IBAN/Kontobezeichnung dem HB-Konto zuordnen (Praxis/intern). «Konto nicht erfasst»
+    erst nach Suche über die ganze Saldoliste; Kautions-/Sperrkonten können unter übrigen Forderungen stehen – sonst Pendenz.'
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Abstimmung der Bestände mit Kassenbüchern, Bank- und PC-Auszügen oder Wertschriftenverzeichnissen
+  schritte:
+  - B1-301
+- text: 'Nachweis nur als Bild/Screenshot und Text nicht lesbar (z.B. leere Transkription): Saldo nicht aus der Saldoliste übernehmen und nicht als bestätigt bezeichnen; Notiz «Pendenz:
+    Nachweis nicht lesbar – Original prüfen».'
+  quelle: konzept-ki-revisionsagent-2026__c005-1
+  zitat: fehlende Daten dürfen nicht erfunden werden
+  schritte:
+  - B1-301
+  fundstellen:
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: Echtheit des Belegs (insbesondere bei nur in elektronischer Form vorliegenden Belegen)
+- text: 'Fremdwährung: CHF = FW-Betrag × Kurs (CHF je 1 Einheit), nie FW ÷ Kurs. Jedes FW-Konto einzeln rechnen und zurückrechnen (CHF ÷ FW = Kurs); widersprüchliche Ergebnisse nie stehen
+    lassen.'
+  quelle: hwp-bur-2023__rz-0015-s158
+  zitat: Fremdwährungsguthaben und -schulden bei Post und Banken sind anhand der Devisenkurse am Bilanzstichtag umzurechnen
+  schritte:
+  - B1-302
+- text: 'Anhangziffer je Sachverhalt bestimmen: Ziff. 8 Sicherheiten für Verbindlichkeiten Dritter, Ziff. 9 eigene Aktiven zur Sicherung eigener Verbindlichkeiten, Ziff. 10 Eventualverbindlichkeiten.
+    Garantien für eigenes Handeln sind keine Sicherheiten für Dritte (nicht Ziff. 8) – Ziff. 10 prüfen, Entscheid WP.'
+  quelle: hwp-bur-2023__rz-0842-s348
+  zitat: Erfüllungsgarantien für eigenes Handeln zugunsten Dritter stellen keine Sicherungsverpflichtungen im Sinne des Gesetzes dar.
+  schritte:
+  - B1-306
+  - B1-320
+  fundstellen:
+  - quelle: hwp-bur-2023__rz-0850-s350
+    zitat: sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 10 OR)
 fragen_kunde:
 - frage: Bestehen per Stichtag Verpfändungen, Sperren, Garantiedepots, Verrechnungsrechte der Bank oder andere Verfügungsbeschränkungen auf Konten oder Depots? Bitte Verträge beilegen.
   zweck: B1-101 (RV), Ausweis und Anhangangabe Art. 959c Abs. 2 Ziff. 9 OR
@@ -517,7 +547,10 @@ schritte:
     Kunden-Überleitung einsehen. Auszug auf anderen Stichtag oder unverbuchte Belege als Pendenz. Vollständigkeit der Konti mit Bankenliste abgleichen. Im Textfeld: Konto, Buchsaldo,
     Nachweissaldo, Differenz, Dokument (M-Files-ID). Je Konto die Einstufung festhalten: Kasse, Sichtguthaben und Festgeld mit Fälligkeit bis 31.03. des Folgejahres = B1. Festgeld mit
     späterer Fälligkeit, Kautions-/Sperrkonten mit eingeschränkter Verfügbarkeit, WIR-Verrechnung und Anbieter ohne Banklizenz → Hinweis auf Ausweis unter übrigen kurzfristigen Forderungen
-    (Entscheid WP). Verpfändete Konten bleiben B1 (nur Anhang, B1-101/B1-320).'
+    (Entscheid WP). Verpfändete Konten bleiben B1 (nur Anhang, B1-101/B1-320). Zuordnung Nachweis → Konto: jede Zeile von Bankauszug bzw. vorhandener Bankbestätigung über Bank, Währung
+    und IBAN/Kontobezeichnung einem HB-Konto zuordnen; Ziffern der IBAN sind keine Kontonummern des Kontenplans. «Konto nicht erfasst» erst nach Suche über die ganze Saldoliste (Kautions-/Sperrkonten
+    können unter übrigen Forderungen oder Finanzanlagen stehen). Eine vom Unternehmen eingeholte Bankbestätigung, die schon in der Akte liegt, hier auswerten – das ist kein Einholen
+    (Praxis/intern, Entscheid consis).'
   nachweise:
   - Saldoliste/Hauptbuch
   - Kassabuch und Kassenaufnahmeprotokoll
@@ -553,14 +586,17 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
 - id: B1-302
-  vorgehen: 'Für alle Fremdwährungskonten (Kasse, Bank) Währungssaldo und angewandten Kurs aus der Buchhaltung mit dem Jahresendkurs gemäss Bankauszug oder Kursliste per 31.12. vergleichen
-    und den CHF-Wert nachrechnen. Kursdifferenzen mit den Konten Kursgewinn/-verlust plausibilisieren. Im Textfeld: Konto, FW-Saldo, Kurs Buchhaltung, Kurs Quelle, CHF-Differenz.'
+  vorgehen: 'Für jedes Fremdwährungskonto einzeln (Kasse, Bank, auch Zahlungsdienst-/Online-Konten in FW): FW-Saldo laut Auszug, CHF-Buchwert laut HB und gebuchten Kurs ermitteln (Kurs
+    Buchhaltung = CHF-Buchwert ÷ FW-Saldo; Buchung «Kursbewertung»/«Kursdifferenz» im Kontoblatt suchen). Stichtagskurs aus Bankauszug oder Kursliste per 31.12. (CHF je 1 FW-Einheit;
+    Kurse je 100 Einheiten durch 100 teilen). CHF-Sollwert nachrechnen und Differenz aufteilen: Saldodifferenz in FW (gehört zu B1-301) und Bewertungsdifferenz (Kurs). Kursdifferenzen
+    mit den Konten Kursgewinn/-verlust plausibilisieren. Im Textfeld: Konto, FW-Saldo, Kurs Buchhaltung, Kurs Quelle, CHF-Soll, CHF-Differenz.'
   nachweise:
   - Bankauszüge Fremdwährungskonten per 31.12.
   - Devisenkursliste per 31.12.
   - Kontoblätter Kursdifferenzen
-  rechnen: FW-Saldo × Stichtagskurs = Soll-Buchwert CHF; Differenz = Buchwert CHF – Soll-Buchwert CHF
-  feststellung_wenn: 'Umrechnung nicht zum Stichtagskurs oder Differenz über der Nicht-Aufgriffsgrenze: begründeter Buchungsvorschlag als Notiz «Wesentliche Feststellungen», keine Verbuchung.'
+  rechnen: 'Je Konto mit `rechne`: soll = FW-Saldo × Stichtagskurs; diff = Buchwert CHF − soll (nie FW ÷ Kurs). Probe: soll ÷ FW-Saldo = Stichtagskurs. Bewertungsdifferenz = FW-Saldo
+    × (Kurs Buchhaltung − Stichtagskurs). Mittelkurs zulässig, wenn die Differenz Geld-/Briefkurs unwesentlich ist.'
+  feststellung_wenn: Umrechnung nicht zum Stichtagskurs bzw. CHF-Differenz ≠ 0 oder FW-Saldo weicht vom Auszug ab.
   fundstellen:
   - quelle: ser-2022__anh-d-s074-1
     zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
@@ -572,6 +608,12 @@ schritte:
     zitat: Vergleich und Plausibilisierung der Fremdwährungsdifferenzen mit dem Geschäftsmodell
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: hwp-bur-2023__rz-0015-s158
+    zitat: Fremdwährungsguthaben und -schulden bei Post und Banken sind anhand der Devisenkurse am Bilanzstichtag umzurechnen
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  notiz: 'Differenz < Nichtaufgriffsgrenze (revio 3.3): nur im Textfeld protokollieren. ≥ NAG: «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag (Kursverlust: Finanzaufwand
+    an Bankkonto FW; Kursgewinn: Bankkonto FW an Finanzertrag), keine Verbuchung. Auszug oder Kurs fehlt: «Pendenz» (Konto, Datum, Betrag).'
 - id: B1-303
   vorgehen: 'Zins-/Kapitalausweise mit Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zins brutto erfasst, VSt als Forderung gebucht, Periode korrekt. VSt nur für Zinsen
     mit VSt-Abzug gemäss Ausweis rechnen. Kein Abzug zu erwarten bei Zinsen ≤ CHF 200 je Kundenguthaben und Kalenderjahr (einmalige Vergütung) sowie bei ausländischen Banken. VSt-Guthaben
@@ -765,12 +807,14 @@ schritte:
   vorgehen: 'Anhang auf Angaben aus diesem Prüffeld prüfen: verpfändete/abgetretene Aktiven (Art. 959c Abs. 2 Ziff. 9 OR), Sicherheiten für Dritte (Ziff. 8), bei Kursbewertung Hinweis,
     Gesamtwert je Wertschriften/übrige Aktiven gesondert und Schwankungsreserve (Art. 960b OR), Umrechnungskurse bei Fremdwährungsabschluss. Beträge mit B1-101/306/308 abgleichen. Bilanzbezeichnung
     prüfen: Enthält die Position nur flüssige Mittel, muss sie «Flüssige Mittel» heissen; bei Wertschriften ist ein getrennter Ausweis in Bilanz oder Anhang empfohlen (Hinweis, keine
-    Feststellung).'
+    Feststellung). Ziff. 10 (Eventualverbindlichkeiten) nicht vergessen: aus Bankunterlagen bzw. Bankbestätigung ersichtliche Garantien und Verpflichtungen je Sachverhalt einer Ziffer
+    zuordnen – Sicherheit für fremde Schuld → Ziff. 8; eigene Aktiven verpfändet/gesperrt → Ziff. 9; Garantie der Bank für eine eigene Verpflichtung des Unternehmens (z.B. Miet-, Erfüllungs-,
+    Anzahlungsgarantie) ist keine Sicherheit für Dritte → Offenlegung als Eventualverbindlichkeit (Ziff. 10) prüfen, Entscheid WP; Übergabe an T1-105/T1-107.'
   nachweise:
   - Anhang der Jahresrechnung
   - Ergebnisse B1-101, B1-306, B1-308
   rechnen: Anhangbetrag verpfändete Aktiven = Summe gemäss Verträgen/Auszügen; Gesamtwert Wertschriften bzw. übrige Aktiven zum Kurs = Summe gemäss B1-308
-  feststellung_wenn: Pflichtangabe fehlt oder Betrag weicht von den Unterlagen ab.
+  feststellung_wenn: Pflichtangabe fehlt (Ziff. 8, 9, 10, Kursbewertung), falsche Ziffer oder Betrag weicht von den Unterlagen ab.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
@@ -782,6 +826,13 @@ schritte:
     zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
   - quelle: hwp-bur-2023__rz-0016-s159
     zitat: ist die Position aus Gründen der Klarheit mit «Flüssige Mittel» zu bezeichnen
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
+  - quelle: hwp-bur-2023__rz-0850-s350
+    zitat: sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 10 OR)
+  - quelle: hwp-bur-2023__rz-0842-s348
+    zitat: Erfüllungsgarantien für eigenes Handeln zugunsten Dritter stellen keine Sicherungsverpflichtungen im Sinne des Gesetzes dar.
 - id: B1-322
   vorgehen: Dauerakten lesen (revio Dauerakten, M-Files) und mit aktuellen Bankverträgen, Kontenliste (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträgen, Zeichnungsberechtigungen
     und dem Bewertungsgrundsatz Wertschriften vergleichen. Dauerakten nicht ändern und nichts verknüpfen (offener Entscheid consis). Änderungen gegenüber dem Vorjahr im Textfeld auflisten
@@ -799,9 +850,10 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c006-1
     zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
 - id: B1-401
-  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Keine eigenen Bankbestätigungen anfordern.
-    Vom Unternehmen eingeholte Bestätigungen: Herkunft dokumentieren, je Bank Konten, Salden, Kredite, Garantien, Sicherheiten mit Hauptbuch und Anhang abgleichen. Fehlen sie: als nicht
-    anwendbar vorschlagen (Entscheid WP); Vollständigkeit über Auszüge/Antworten belegen.'
+  vorgehen: 'Gilt für das Einholen von Bankbestätigungen. Eine vom Unternehmen eingeholte Bestätigung, die schon in der Akte liegt, wird ohne Anweisung in B1-301 (Saldi), B1-101/B1-320
+    (Sicherheiten, Garantien) und C1-102 (Zession) ausgewertet (Praxis/intern, Entscheid consis). Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht
+    bearbeitet – nur auf Anweisung», keine Pendenz. Keine eigenen Bankbestätigungen anfordern. Vom Unternehmen eingeholte Bestätigungen: Herkunft dokumentieren, je Bank Konten, Salden,
+    Kredite, Garantien, Sicherheiten mit Hauptbuch und Anhang abgleichen. Fehlen sie: als nicht anwendbar vorschlagen (Entscheid WP); Vollständigkeit über Auszüge/Antworten belegen.'
   nachweise:
   - Vom Unternehmen eingeholte Bankbestätigungen
   - Hauptbuch/Saldoliste
