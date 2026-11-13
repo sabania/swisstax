@@ -3,6 +3,7 @@ typ: pbc
 titel: Unterlagen (PBC) je Prüffeld
 jur: ch
 quellen:
+- estv-ks-32a-2025
 - estv-ks-6a-2024
 - estv-zinsen-2026
 - hwp-bur-2023
@@ -11,6 +12,8 @@ quellen:
 - hwp-or-2024
 - katalog-revio4
 - konzept-ki-revisionsagent-2026
+- mwstg
+- mwstv
 - or
 - ph-20-mwst-2016
 - qa-or-rechnungslegung-2026
@@ -99,28 +102,31 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2025 (Konto 1300) mit Text, Gegenpartei, Beleg, Leistungszeitraum, Berechnung und Betrag – Abstimmung mit Hauptbuch und Jahresrechnung (E1-301), Grundlage für E1-101, E1-203, E1-302, E1-304
 - Detailaufstellung aktive Rechnungsabgrenzungen per 31.12.2024 (Vorjahr) – Positionsweiser Vorjahresvergleich (E1-201), Auflösung Vorjahr (E1-306)
 - Belege der abgegrenzten Beträge (Rechnungen, Prämienrechnungen, Zahlungsbelege) – Echtheit, Betrag, Leistungszeitraum, Nachrechnen der Abgrenzung (E1-302, E1-306)
-- Verträge (Versicherungspolicen, Lizenz-, Miet-, Leasing-, Wartungsverträge) – Abstimmung der Bestände (E1-304), Werthaltigkeit/Laufzeit (E1-302)
+- Verträge (Versicherungspolicen, Lizenz-, Miet-, Leasing-, Wartungsverträge) – Abstimmung der Bestände (E1-304), Werthaltigkeit/Laufzeit (E1-302), Drittvergleich bei Nahestehenden (E1-203)
 - Kontoblatt 1300 und Kontoblätter der zugehörigen Aufwands- und Ertragskonten 2025 – Bildung/Auflösung (E1-306), kritische Durchsicht (E1-303)
 - Kontoblätter neue Rechnung 2026 (Konto 1300 und zugehörige Konten, bis Prüfungsdatum) – Entwicklung in neuer Rechnung, Geldeingänge antizipativer Aktiven (E1-305)
 - Saldoliste Bilanz und Erfolgsrechnung 2025 mit Vorjahr – Analytik Bestand und zugehörige Aufwands-/Ertragskonten (E1-201, E1-202)
 - Liste nahestehender Personen/Organe/Beteiligungen (Aktienbuch, HR-Auszug, GV-/VR-Protokolle) – Feststellung von Abgrenzungen gegenüber Nahestehenden (E1-203)
 - Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition) – Beurteilung stille Reserven (E1-320)
 - Schriftliche Antworten Kundenbefragung zur Werthaltigkeit der aktivierten Beträge – Auswertung der Befragung E1-101 statt mündlicher Befragung
-- Vollständigkeitserklärung (stille Reserven, nahestehende Personen) – Bestätigung zu stillen Reserven (E1-320) und Nahestehenden (E1-203)
+- Vollständigkeitserklärung, Abschnitt stille Reserven – Bestätigung zu Bildung, Auflösung und Bestand stiller Reserven (E1-320)
+- Vollständigkeitserklärung, Abschnitt nahestehende Personen – Bestätigung der Vollständigkeit der Angaben zu Nahestehenden (E1-203)
 
 ## F1 Vorräte
-- Bewertete Inventarliste per Bilanzstichtag (Menge, Preis, Wert, Totale je Konto, Wertberichtigungen) inkl. Vorjahresinventar – Bestandsnachweis, Abstimmung Hauptbuch, Bewertung, rechnerische Prüfung, VJ-Vergleich (F1-201/203/301/302/405)
+- Schriftliche Antworten der Kundenbefragung (10.11) zu F1-101 bis F1-111 und zu den Erklärungen aus F1-201/202/204/205 – Auswertung der Befragungsschritte; fehlt eine Antwort, Frage als Pendenz für den WP (Agent befragt nicht selbst)
+- Bewertete Inventarliste per Bilanzstichtag (Menge, Preis, Wert, Totale je Konto, Wertberichtigungen) inkl. Vorjahresinventar – Bestandsnachweis, rechnerische Prüfung und Abstimmung Hauptbuch, Bewertung, VJ-Vergleich (F1-201/203/301/302/405)
 - Inventurinstruktion, Inventurprotokoll, unterzeichnete Zähllisten, Differenzliste – Beurteilung Inventur, Abgleich Zählliste/Inventarliste, Inventurdifferenzen (F1-101/102/401/403)
-- Lagerbuchhaltung bzw. Nachweise permanente Inventur (Zählplan, Zählprotokolle, Fortschreibung auf Stichtag) – Bestandsnachweis ohne Stichtagsinventur (F1-103/402)
+- Lagerbuchhaltung bzw. Nachweise permanente Inventur oder Stichprobeninventur (Zählplan, Zählprotokolle, Fortschreibung auf Stichtag) – Bestandsnachweis ohne Stichtagsinventur; Unterscheidung Inventurdifferenz/Bestandesänderung (F1-102/103/402)
 - Lagerumschlags-/Altersliste (letzte Bewegung, letzte Bestellung) und Berechnung der Wertberichtigung unkurant – Ladenhüter, Überalterung, Überbestände (F1-106/203/204)
-- Lieferantenrechnungen der letzten Einkäufe zu ausgewählten Inventarpositionen – Prüfung Einstandspreise (F1-302)
-- Verkaufspreislisten, Verkaufsrechnungen nach Stichtag, Margenauswertung je Produktkategorie – Niederstwert und verlustfreie Bewertung, Margenanalyse (F1-104/107/202/304)
+- Nachweise zu Entsorgungs-/Recyclingkosten unverkäuflicher Ware (Offerten, Verträge) bzw. Rückstellungsberechnung – Rückstellung für künftige Entsorgungskosten unkuranter Ware (F1-106)
+- Lieferantenrechnungen der letzten Einkäufe zu ausgewählten Inventarpositionen bzw. Berechnung gewichteter Durchschnittspreis – Prüfung Einstandspreise nach gewählter Methode (F1-302)
+- Verkaufspreislisten, Verkaufsrechnungen nach Stichtag, Margenauswertung je Produktkategorie, aktuelle Beschaffungspreise für Rohmaterial – Niederstwert und verlustfreie Bewertung, Margenanalyse (F1-104/107/202/304)
 - Kalkulationen und Kostenrechnung/Betriebsabrechnung (bei eigener Herstellung) – Abstimmung Herstellkosten (F1-105/303)
-- Lieferscheine/Wareneingänge und Ein-/Ausgangsrechnungen der letzten Dezember- und ersten Januartage, Kreditorenjournal Folgejahr – Cut-off (F1-108/109)
+- Lieferscheine/Wareneingänge, Lieferverträge (Incoterms) und Ein-/Ausgangsrechnungen der letzten Dezember- und ersten Januartage, Kreditorenjournal Folgejahr – Cut-off, Übergang von Nutzen und Gefahr, Waren in Transit (F1-108/109)
 - Vom Kunden eingeholte Bestätigungen, Lagerscheine bzw. Warenpapiere für Fremd- und Konsignationslager – Bestandsnachweis Ware bei Dritten (F1-111/404)
 - Kredit- und Pfandverträge, Kaufverträge mit Eigentumsvorbehalt, Kommissions-/Konsignationsverträge – Rechte/Verpflichtungen, Anhangsangaben (F1-110/111/320)
-- Aufstellung stille Reserven (inkl. Warendrittel) GJ/VJ und Vollständigkeitserklärung – Bestand und Veränderung stiller Reserven (F1-321/320)
-- Sachversicherungspolice Warenlager/Betriebsinventar – Angemessenheit Versicherungswerte (F1-406)
+- Aufstellung stille Reserven (inkl. Warendrittel und beibehaltene, nicht mehr begründete Wertberichtigungen) GJ/VJ und Vollständigkeitserklärung – Bestand und Veränderung stiller Reserven, Nettoauflösung (F1-321/320)
+- Sachversicherungspolice Warenlager/Betriebsinventar – Angemessenheit Versicherungswerte (F1-406, nur auf Anweisung des WP; Praxis)
 - Einkaufsstatistik nach Lieferanten, Rahmenverträge mit Hauptlieferanten – Lieferantenstruktur und Abhängigkeiten (F1-205)
 - Budget/Auftragsbestand bzw. Umsatzplanung – Analytischer Vergleich mit Erwartungen, ABC-Analyse (F1-203/204)
 
@@ -171,17 +177,18 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 ## H1 Finanzanlagen
 - Aufstellung/Wertschriftenverzeichnis der Finanzanlagen per 31.12. (Titel, Menge, Anschaffungswert, Buchwert, Kurswert) – Bestand und Bewertung, Abstimmung mit Hauptbuch (H1-301, H1-305)
 - Depotauszüge/Vermögensausweise und Kontoauszüge (Kautionen, Depots) per 31.12. – Bestandesnachweis, Kurse, Sperrvermerke (H1-301, H1-402, H1-401)
-- Beteiligungsverzeichnis bzw. Verzeichnis gehaltener Anteile (Firma, Sitz, Quote, Stimmen, Buchwert, Einzahlungs-/Nachschusspflichten) – Abgrenzung Finanzanlage/Beteiligung, Anhang, Einzahlungspflichten (H1-103, H1-320, H1-401)
+- Beteiligungsverzeichnis bzw. Verzeichnis gehaltener Anteile (Firma, Sitz, Quote, Stimmen, Buchwert, Einzahlungs-/Nachschusspflichten) – Abgrenzung Finanzanlage/Beteiligung (H1-103); Bewertung, Anhang und Einzahlungspflichten der Beteiligungen in H3 (H3-301/320/402)
 - Eigentumsnachweise nicht verbriefter Anteile (Kaufverträge, HR-Auszüge, Statuten, Aktien-/Anteilbuch) – Rechte und Bestand (H1-301, H1-310)
-- Letzte verfügbare Jahresrechnungen der nicht kotierten Gesellschaften und der Darlehensnehmer – Innerer Wert und Bonität (H1-306, H1-307)
-- Darlehens-, Kautions-, Pfand- und Kreditverträge inkl. Rangrücktritte – Laufzeit/Gliederung, Verzinsung, Verpfändungen (H1-103, H1-307, H1-401)
+- Letzte verfügbare Jahresrechnungen der nicht kotierten Gesellschaften und der Darlehensnehmer – Innerer Wert nicht kotierter Titel (H1-306); Beteiligungen → H3-302, Darlehensnehmer → H2-302
+- Darlehens-, Kautions-, Pfand- und Kreditverträge inkl. Rangrücktritte – Laufzeit/Gliederung, Verzinsung, Verpfändungen (H1-103, H1-307, H1-401); Aktivdarlehen → H2-401
 - Kauf-/Verkaufsabrechnungen, Ertragsabrechnungen (Zinsen, Dividenden mit VSt-Abzug) – Belegprüfung Zugänge/Abgänge/Erträge, VSt (H1-310, H1-311, H1-404)
-- Kursnachweise per 31.12. (Börsenkurse, ESTV-Kursliste, Devisenkurse) – Bewertung (H1-305, H1-402, H1-314)
+- Kursnachweise per 31.12. (Börsenkurse, ESTV-Kursliste, Devisenkurse) – Bewertung (H1-305, H1-402, H1-314); ESTV-Kursliste enthält Steuerwerte (Vermögenssteuer)
 - Krypto: Wallet-Liste (Public-Key-Adressen), Nebenbuch, Blockchain-Export, Sign-Message-Protokoll bzw. Custodian-Kontoauszug per 31.12. – Bestand, Verfügungsmacht, Cut-off (H1-104, H1-312, H1-313)
 - Aufstellung stille Reserven (Bestand und Veränderung je Position) – H1-321, Anhang Ziff. 3
-- Aktienbuch und Nachweis eigener Anteile (Kaufverträge, VR-Beschlüsse) – Bestand eigener Anteile (H1-302)
+- Aktienbuch und Nachweis eigener Anteile (Kaufverträge, VR-Beschlüsse) – Bestand eigener Anteile, Erwerb im GJ (H1-302; gleicher Schritt H3-401)
 - Verrechnungssteuer-Rückerstattungsantrag bzw. Nachweis der Rückerstattung – Aktivierung und Werthaltigkeit VSt-Guthaben (H1-404)
 - Vom Unternehmen selbst eingeholte Bestätigungen Dritter (z.B. Bank, Custodian), sofern vorhanden – Zusätzlicher Bestandesnachweis ohne eigene Drittbestätigungsanfrage
+- Darlehensverträge mit Aktionären/Nahestehenden (Zins, Rückzahlung, Sicherheiten) und Dokumentation des Drittvergleichs durch die Gesellschaft – Risiko Einlagenrückgewähr und Verzinsung erkennen; Vertiefung in H2-404 (H1-307, H1-311)
 
 ## H2 Aktivdarlehen
 - Aufstellung der Aktivdarlehen per 31.12. (Darlehensnehmer, Betrag, Zins, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch und Jahresrechnung, Fristigkeit, Basis für alle Schritte
@@ -189,13 +196,16 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Saldomeldungen/Saldobestätigungen der Darlehensnehmer bzw. Abstimmung Gegenbuchhaltung (Konzern), soweit beim Unternehmen vorhanden – Bestandsnachweis (nicht durch die Revisionsstelle einholen)
 - Zinsabrechnungen/Zinsquittungen und Bankauszüge mit Zins- und Amortisationseingängen (inkl. neue Rechnung) – Termintreue, Vollständigkeit Zinsertrag, Bonitätsindiz
 - Letzte Jahresrechnungen bzw. Bonitätsinformationen der Darlehensnehmer – Bonitätsbeurteilung, Wertberichtigungsbedarf
-- Sicherheitenverträge (Pfand, Bürgschaft, Garantie) und Rangrücktrittsvereinbarungen – Werthaltigkeit und Verwertbarkeit der Sicherheiten
-- VR- und GV-Protokolle (Genehmigung der Darlehen) – Genehmigung, Sachverhalte mit Auswirkung auf die Jahresrechnung
+- Sicherheitenverträge (Pfand, Bürgschaft, Garantie) und Rangrücktrittsvereinbarungen (auch für Gegenforderungen der Darlehensnehmer gegenüber der Gesellschaft) – Werthaltigkeit und Verwertbarkeit der Sicherheiten; Verrechnungsverbot bei Rangrücktritt (H2-404)
+- VR- und GV-Protokolle (Beschluss zur Gewährung bzw. Änderung der Darlehen) – Genehmigung, Sachverhalte mit Auswirkung auf die Jahresrechnung
 - Aktienbuch, Handelsregisterauszug, Liste der Beteiligungen – Bestimmung nahestehender Personen/Gesellschaften (Vollständigkeit)
 - Drittvergleichsanalyse und Schlussfolgerung des VR zu Aktionärs-/Konzerndarlehen – Beurteilung Art. 680 Abs. 2 OR
 - Detailnachweis der stillen Reserven (Bestand und Veränderung) – Abstimmung stiller Reserven auf Darlehen, Nettoauflösung
 - Kontoblätter der Darlehens- und Zinskonten in neuer Rechnung – Rückzahlungen/Ausbuchungen nach dem Stichtag, Vorhandensein
 - Antrag des VR über die Verwendung des Bilanzgewinns – Ausschüttungsfähigkeit bei Aktionärsdarlehen (Sperrung freien Eigenkapitals)
+- Statuten (Zweckbestimmung) – Kreditgewährung an Aktionäre/Nahestehende vom Gesellschaftszweck nicht ausgeschlossen (H2-401)
+- Budget/Liquiditätsplanung bzw. Forecast für den Zeitpunkt der geplanten Ausschüttung – Ausreichende flüssige Mittel bei beantragter Ausschüttung trotz Aktionärs-/Konzerndarlehen (H2-404)
+- Cash-Pool-Vertrag und Bonitätsüberwachung der Pool-Teilnehmer (falls Cash Pooling) – Qualifikation als Aktionärsdarlehen, Haftung, Bonität, Anhang (H2-201/H2-302/H2-320)
 
 ## H3 Beteiligungen
 - Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Buchwert, Wertberichtigungen, Aufbewahrungsort, Einzahlungs-/Nachschusspflichten) – H3-301 Abstimmung Bestand, H3-320 Anhang, H3-402 Verpflichtungen
@@ -227,30 +237,35 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 ## K1 Verbindlichkeiten aus Lieferungen und Leistungen
 - Kreditoren-OP-Liste per 31.12. (je Posten: Kreditor, Beleg, Belegdatum, Fälligkeit, Währung, Betrag; mit Total) – Bestandesnachweis, Abstimmung mit Hauptbuch/Jahresrechnung, Altersstruktur, Sollsalden (K1-101, K1-301, K1-403, K1-405, K1-406)
 - Saldoliste/Hauptbuch-Kontoblätter Kreditorenkonten und Einkaufs-/Materialaufwandskonten Geschäftsjahr und Vorjahr – Vorjahresvergleich, Abstimmung, Durchsicht Buchungen (K1-102, K1-201, K1-301, K1-408)
-- Kreditorenjournal und Kontoblätter des Folgejahres bis Revisionsdatum sowie Liste noch nicht verbuchter Eingangsrechnungen – Durchsicht neue Rechnung auf Rechnungen für Leistungen des Geschäftsjahres (K1-302, K1-407)
+- Kreditorenjournal und Kontoblätter des Folgejahres bis Revisionsdatum sowie Liste noch nicht verbuchter Eingangsrechnungen – Durchsicht neue Rechnung (K1-302, weitergehend, nur auf Anweisung WP) und aktuelle OP-Liste (K1-407)
 - Aktuelle OP-Liste Kreditoren (Stand Revisionsdatum) und Bankauszüge Folgejahr – Nachweis Zahlung der Stichtagsposten, Hinweise nach dem Bilanzstichtag (K1-407)
 - Lieferantenrechnungen zu ausgewählten offenen Posten und zu Rechnungen um den Stichtag – Abstimmung OP-Liste mit Belegen, Leistungsdatum, Empfänger, Betrag (K1-405, K1-302)
-- Wareneingangsbelege/Lieferscheine kurz vor und nach dem Bilanzstichtag – Cut-off-Prüfung Kreditoren/Vorräte (K1-303, K1-404)
+- Wareneingangsbelege/Lieferscheine kurz vor und nach dem Bilanzstichtag – Cut-off Kreditoren/Vorräte (K1-303 weitergehend, nur auf Anweisung WP; K1-404); fehlen sie in M-Files → Pendenz
 - Liste nahestehender Personen und Beteiligungen (Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle) – Identifikation Kreditoren gegenüber Beteiligten, Organen, Beteiligungsgesellschaften (K1-203, K1-402)
-- Devisenkurse per 31.12. gemäss Bankunterlagen (Kontoauszug/Bankbestätigung) – Kursvergleich Fremdwährungskreditoren (K1-202)
-- Beim Kunden vorhandene Lieferantenkontoauszüge/Saldomeldungen und ggf. Buchhaltung der Beteiligungsgesellschaft (Gegenbuchhaltung) – Abgleich nur mit intern verfügbaren Unterlagen; kein Einholen durch den Agenten (K1-401, K1-114)
-- Rabatt-, Bonus- und Skontovereinbarungen mit Hauptlieferanten, Gutschriften Folgejahr – Verkehr und Abgrenzung Einkaufspreisminderungen (K1-409)
+- Devisenkurse per 31.12. aus beim Unternehmen vorhandenen Bankunterlagen (Kontoauszug, allenfalls vorhandene Bankbestätigung); keine Bankbestätigung einholen – Kursvergleich Fremdwährungskreditoren (K1-202)
+- Beim Unternehmen bereits vorhandene Lieferantenkontoauszüge/Saldomeldungen und ggf. Buchhaltung der Beteiligungsgesellschaft (Gegenbuchhaltung) – Abgleich nur mit intern verfügbaren Unterlagen, nur auf Anweisung WP; kein Einholen, kein Kontakt mit Dritten durch den Agenten (K1-401, K1-114)
+- Rabatt-, Bonus- und Skontovereinbarungen mit Hauptlieferanten, Gutschriften Folgejahr – Verkehr und Abgrenzung Einkaufspreisminderungen (K1-409); Fundstelle betrifft Einstandspreis Vorräte (Bezug Vorräte, relevant für K1-409), keine Bewertungsregel Kreditoren
 - Aufstellung über Bestand und Veränderung stiller Reserven – Position Kreditoren in der Reservenaufstellung (K1-321)
 - Liste bestrittener Lieferantenrechnungen/Mängelrügen, Verträge mit Eigentumsvorbehalt – Bilanzierung bzw. Anhangsangaben (K1-320, K1-403)
-- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit inkl. Ausweis Nahestehende
+- Unterzeichnete Vollständigkeitserklärung – Klausel Nahestehende – Bestätigung Vollständigkeit und Richtigkeit Ausweis Nahestehende (K1-203)
+- Unterzeichnete Vollständigkeitserklärung – Klausel Verbindlichkeiten/Eventualverbindlichkeiten und Ereignisse nach dem Bilanzstichtag – Bestätigung Vollständigkeit der Verbindlichkeiten (K1-101, K1-302, K1-320)
 
 ## L1 Kurzfristige verzinsliche Verbindlichkeiten
 - Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Konto, Saldo, Währung, Zinssatz, Fälligkeit/Amortisation, Sicherheiten, Nahestehende ja/nein) – Bestand, Vollständigkeit, Gliederung, Abstimmung mit Hauptbuch (L1-301, L1-103, L1-104)
-- Bank-/Kreditkontoauszüge, Kredit- und Zinsausweise per 31.12. (alle Banken) sowie Auszüge Januar Folgejahr – Bestandesnachweis, Zinsbelastungen, Stichtagsüberträge (L1-301, L1-403, L1-407, L1-410)
+- Bank-/Kreditkontoauszüge, Kredit- und Zinsausweise per 31.12. (alle Banken) sowie Auszüge Januar Folgejahr – Bestandesnachweis, Zinsbelastungen, Stichtagsüberträge (L1-301, L1-302, L1-403, L1-407, L1-410)
 - Kredit-, Rahmenkredit-, Festvorschuss- und Darlehensverträge inkl. Allgemeiner Kreditbedingungen und Covenant-Klauseln; Pfand-, Zessions- und Sicherungsverträge – Konditionen, Fälligkeiten, Covenants, Sicherheiten (L1-101, L1-102, L1-103, L1-303, L1-406)
-- Bankkorrespondenz Geschäftsjahr und bis Revisionsdatum (Kündigungen, Limitenänderungen, Covenant-Reporting, Waiver-Schreiben) – Covenant-Einhaltung, Waiver vor Abschlusserstellung, Ereignisse nach Stichtag (L1-101, L1-303, L1-406)
+- Bankkorrespondenz Geschäftsjahr und bis Revisionsdatum (Kündigungen, Limitenänderungen, Covenant-Reporting, Waiver-Schreiben mit Datum und Inhalt) – Covenant-Einhaltung, Waiver (schriftlich, vor Abschlusserstellung, Rückzahlungsverzicht), Ereignisse nach Stichtag (L1-101, L1-303, L1-406)
 - Zinsabgrenzungsberechnung per 31.12. und Zinsabrechnungen der Kreditgeber – Periodenabgrenzung und Verbuchung der Zinsen (L1-302, L1-410, L1-201)
 - Darlehensverträge mit Aktionären, Organen und Nahestehenden sowie Aktienbuch/Organliste – Identifikation Nahestehender, gesonderter Ausweis, Zinssätze (L1-104)
-- Unterzeichnete Rangrücktrittsvereinbarungen (aktuelle und ersetzte Fassungen) samt Begründung/Unterlagen zu Änderungen – Gültigkeit, Höhe inkl. Zinsen, Änderungen (L1-105, L1-304, L1-320)
-- Vom Unternehmen selbst eingeholte Bankbestätigungen/Bankauskünfte per 31.12., falls vorhanden (keine Anfrage durch die Revisionsstelle) – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate (L1-401, L1-102, L1-411)
+- Verträge und Kontoblätter zu Forderungen der Gesellschaft gegenüber Rangrücktrittsgläubigern (z.B. Darlehen an Aktionäre) – Verrechnungslage bzw. mögliche Umgehung des Tilgungsverbots erkennen, Hinweis an WP (L1-104, L1-304, L1-404)
+- Unterzeichnete Rangrücktrittsvereinbarungen (aktuelle und ersetzte Fassungen) samt Begründung/Unterlagen zu Änderungen – Gültigkeit, Höhe inkl. Zinsen, Aufhebungsbedingung, Änderungen (L1-105, L1-304, L1-320)
+- Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten nach Art. 725b OR mit Prüfbericht (falls begründete Besorgnis der Überschuldung) – Massgebende Überschuldung für die Deckung durch Rangrücktritte; Bezugsgrösse bestimmt der WP (L1-105, L1-304)
+- Bei Ersatz/Reduktion eines Rangrücktritts: SA-CH-geprüfter (Zwischen-)Abschluss und schriftliche, begründete Darlegung des VR zu den nächsten zwölf Monaten – Voraussetzungen einer Reduktion dokumentieren, Beurteilung durch WP (L1-304)
+- Angaben zur finanziellen Lage (Bonität) der Rangrücktrittsgläubiger – Grundlage für die Bonitätsbeurteilung durch den WP (L1-304)
+- Beim Unternehmen vorliegende Bankbestätigungen/Bankauskünfte per 31.12. (auch auf Ersuchen des Kunden an die Revisionsstelle adressierte); keine Anfrage durch die Revisionsstelle, Herkunft dokumentieren – Vollständigkeit Konten, Kredite, Sicherheiten, Garantien, Derivate; Verwendung entscheidet der WP (L1-401, L1-102, L1-320, L1-411)
 - Liquiditätsplanung/Finanzplan für mindestens zwölf Monate ab Bilanzstichtag – Liquiditätsentwicklung, Kreditlimiten, Fortführung (L1-406)
 - Liste offener Devisentermingeschäfte/Derivate per 31.12. mit Bankbewertung (Wiederbeschaffungswerte) und Zweck (Absicherung) – Bewertung offener Kontrakte (L1-411)
-- VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen Nahestehender) – Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
+- VR- und GV-Protokolle (Kreditaufnahmen, Sicherheiten, Rangrücktritte, Darlehen von und an Nahestehende) – Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
 
 ## M1 übrige kurzfristige Verbindlichkeiten
 - Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung) – Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303)
@@ -268,19 +283,22 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und der Angaben zu Nahestehenden (M1-103, M1-304)
 
 ## M2 Mehrwertsteuer
-- MWST-Abrechnungen aller Perioden des Geschäftsjahres (inkl. letzte Periode) mit Zahlungsnachweisen – Abstimmung der MWST-Salden und der Konten je Periode (M2-301, M2-303)
-- Umsatzabstimmung (Fibu ↔ deklarierte Umsätze) und Vorsteuerabstimmung, ggf. Korrekturabrechnung/Finalisierung – Vorhandensein und Nachvollzug der Umsatzabstimmung (M2-101, M2-302, M2-401)
-- Saldoliste und Kontoblätter der MWST-Konten (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer/Zoll) – Saldenabstimmung und Durchsicht auf Saldierung per Periodenende (M2-301, M2-303)
-- Korrespondenz mit der ESTV: Kontrollberichte, Einschätzungsmitteilungen, Rückfragen, Rulings, Einsprachen/hängige Verfahren – Feststellung von Nachforderungen und Rückstellungsbedarf (M2-104, M2-408)
-- Bewilligungen/Mitteilungen ESTV: Saldosteuersatz, Gruppenbesteuerung, Meldeverfahren (falls zutreffend) – Abrechnungsmethode und Sonderfälle belegen (M2-102, M2-305)
-- Leistungskatalog / interne MWST-Richtlinie zur Qualifikation der Mittelzuflüsse – Beurteilung Steuersätze, befreite/ausgenommene Umsätze (M2-305, M2-407)
-- Kontenplan der Fibu mit hinterlegten MWST-Codes (Export Stammdaten) – Durchsicht der Kontendefinition (M2-404)
-- Liste bzw. Rechnungen ausländischer Dienstleister (Kreditorenjournal) und Bezugsteuerdeklaration – Prüfung Import von Dienstleistungen (M2-103, M2-405)
-- Veranlagungsverfügungen MWST (Zoll), Rechnungen der Spediteure/Transporteure, Auszüge ZAZ-Konto – Verbuchung der Einfuhrsteuer (M2-406)
+- MWST-Abrechnungen aller Perioden des Geschäftsjahres (inkl. letzte Periode) mit Zahlungsnachweisen – Abstimmung der MWST-Salden mit den Abrechnungen (M2-301, empfohlen); Abstimmung je Periode mit den Konten (M2-303) nur auf Anweisung des WP
+- Umsatzabstimmung (Fibu ↔ deklarierte Umsätze) und Vorsteuerabstimmung, ggf. Korrekturabrechnung/Finalisierung – Vorhandensein der Umsatzabstimmung (M2-101); Nachvollzug (M2-302) und Vorsteuerplausibilisierung (M2-401) nur auf Anweisung des WP
+- Saldoliste und Kontoblätter der MWST-Konten (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer/Zoll) – Saldenabstimmung und Bilanzausweis (M2-301); Saldierung je Quartal (M2-303) nur auf Anweisung des WP
+- Korrespondenz mit der ESTV: Einschätzungsmitteilungen, Rückfragen, Rulings, Einsprachen/hängige Verfahren – Nachforderungen und Rückstellungsbedarf als Hinweis an den WP (M2-104, M2-408 nur auf Anweisung)
+- Kontrollberichte der ESTV (MWST-Revisionen der letzten drei Jahre) und Nachweis der Umsetzung – Prüfungsnachweis zu Feststellungen und Nachforderungen (weiter gehend; M2-104 nur auf Anweisung des WP)
+- Bewilligungen/Mitteilungen ESTV: Saldosteuersatz, Gruppenbesteuerung, Meldeverfahren (falls zutreffend) – Abrechnungsmethode und Sonderfälle belegen (M2-102 nur auf Anweisung, M2-305)
+- Nachweis aktueller oder früherer Zugehörigkeit zu einer MWST-Gruppe (Gruppenträger, Ein-/Austrittsdatum) – Anhangangabe Solidarhaftung (DO); Abgleich mit Anhang der Jahresrechnung
+- Abklärungen zur MWST-Registrierung im Ausland (Direktlieferungen, Reihengeschäfte) – Steuerpflicht im Ausland beurteilen (M2-305; M2-104 nur auf Anweisung)
+- Leistungskatalog / interne MWST-Richtlinie zur Qualifikation der Mittelzuflüsse – Beurteilung Steuersätze, befreite/ausgenommene Umsätze (M2-305; M2-407 nur auf Anweisung)
+- Kontenplan der Fibu mit hinterlegten MWST-Codes (Export Stammdaten) – Durchsicht der Kontendefinition (M2-404, nur auf Anweisung des WP)
+- Liste bzw. Rechnungen ausländischer Dienstleister (Kreditorenjournal) und Bezugsteuerdeklaration – Import von Dienstleistungen (M2-305 f; M2-103/M2-405 nur auf Anweisung des WP)
+- Veranlagungsverfügungen MWST (Zoll), Rechnungen der Spediteure/Transporteure, Auszüge ZAZ-Konto – Verbuchung der Einfuhrsteuer als Vorsteuer (M2-406, nur auf Anweisung des WP)
 - Ausfuhrnachweise (Ausfuhrveranlagungen) für steuerbefreite Lieferungen ins Ausland – Nachweis steuerbefreiter Exportumsätze (M2-305 b)
-- Berechnung Privatanteile (Fahrzeug, Spesen, Naturalleistungen), Spesenreglement, Lohnausweise – Abrechnung Eigenverbrauch/Privatanteile (M2-103, M2-304)
-- Berechnung Vorsteuerkorrektur/-kürzung (Schlüssel bei gemischter Verwendung, ausgenommene Umsätze, Subventionen) – Prüfung Vorsteuerkürzungen (M2-401, M2-407)
-- Vollständigkeitserklärung mit MWST-Ergänzung – Schriftliche Bestätigung der Verantwortung und der MWST-Risiken durch die Unternehmensleitung
+- Berechnung Privatanteile (Fahrzeug, Spesen, Naturalleistungen), Spesenreglement, Lohnausweise – Abrechnung Privatanteile (M2-103/M2-304, WP-Schritte – nur auf Anweisung)
+- Berechnung Vorsteuerkorrektur/-kürzung (Schlüssel bei gemischter Verwendung, ausgenommene Umsätze, Subventionen) – Prüfung Vorsteuerkürzungen (M2-401, M2-407 – nur auf Anweisung des WP)
+- Vollständigkeitserklärung mit MWST-Ergänzung – Schriftliche Bestätigung der Verantwortung und der MWST-Risiken durch die Unternehmensleitung (Vorschlag an WP)
 
 ## M3 Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen
 - Detailliste passive Rechnungsabgrenzungen per 31.12. (Text, Gläubiger, Leistungszeitraum, Betrag, Grundlage) – Abstimmung mit Saldo/Jahresrechnung und kritische Durchsicht (M3-301)
@@ -288,27 +306,33 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Berechnungsgrundlagen der Rückstellungen: Aktennotizen, Klageschriften, Korrespondenz, Berechnungen – Abstimmung der Bestände mit Unterlagen (M3-304)
 - Stellungnahme des Rechtsvertreters zu laufenden Prozessen (nur falls vom Unternehmen selbst eingeholt) – Prüfungsnachweis zur Bewertung von Prozessrisiken (M3-304)
 - Verträge mit Abgrenzungsbezug (Miete, Darlehen, Leasing, Service, Honorarofferten) – Abstimmung der Abgrenzungen und Nachrechnen des Periodenaufwands (M3-302, M3-304)
-- Ferien- und Überzeitsaldi je Mitarbeiter per 31.12. aus Zeiterfassung mit Lohnansätzen – Nachrechnen der Ferien-/Überzeitabgrenzung (M3-304)
+- Ferien- und Überzeitsaldi je Mitarbeiter per 31.12. aus Zeiterfassung mit Lohnansätzen inkl. Sozialleistungen (Arbeitgeberbeiträge; Satz aus Lohnbuchhaltung bzw. Prüffeld R1) – Nachrechnen der Ferien-/Überzeitabgrenzung inkl. Sozialleistungen (M3-304)
 - Steuerberechnung/Steuerabgrenzung des Geschäftsjahrs – Abstimmung Steuerabgrenzung (Schnittstelle S1; M3-301)
 - Kreditorenjournal und Kontoblätter neue Rechnung bis Prüfungsdatum (Eingangsrechnungen, Zahlungen) – Kontendurchsicht neue Rechnung, Suche nach nicht abgegrenzten Leistungen (M3-305)
-- Detailnachweis stille Reserven (Geschäftsjahr und Vorjahr) – Plausibilisierung Bestand/Veränderung stiller Reserven in Rückstellungen (M3-321)
+- Detailnachweis stille Reserven (Geschäftsjahr und Vorjahr; revio 10.3) – Plausibilisierung Bestand/Veränderung stiller Reserven in Rückstellungen (M3-321); in M-Files suchen, sonst Pendenz bzw. PBC-Vorschlag
 - Detaillisten passive Abgrenzungen/Rückstellungen des Vorjahres (Vorjahresakte) – Vorjahresvergleich je Position (M3-202)
 - VR- und GL-Protokolle, Aktennotizen des Geschäftsjahrs und des Folgejahrs bis Prüfungsdatum – Hinweise auf Rechtsfälle und Risiken (M3-101, M3-305)
-- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit Verbindlichkeiten/Eventualverbindlichkeiten und stille Reserven (M3-320, M3-321)
+- Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und Eventualverbindlichkeiten (M3-301, M3-320)
+- Vollständigkeitserklärung – Passus stille Reserven – Bestätigung Bildung, Auflösung und Bestand stiller Reserven (M3-321)
+- Beilage zur Vollständigkeitserklärung: wesentliche Rechtsstreitigkeiten und Auseinandersetzungen – Abgleich der Rechtsfälle mit Rückstellungen und Anhang (M3-101, M3-304, M3-320)
+- Kreditoren-OP-Liste per 31.12. – Abgleich mit Detailliste passive Abgrenzungen gegen Doppelerfassung (Kreditor und Abgrenzung) und für die Klassierung (M3-301, M3-305; Schnittstelle K1)
 
 ## N1 Langfristige Verbindlichkeiten
-- Darlehensspiegel/Aufstellung aller lang- und kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Saldo VJ, Zu-/Abgänge, Saldo, Zinssatz, Zinsaufwand, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch/Bilanz (N1-301, N1-402, N1-403)
+- Darlehensspiegel/Aufstellung aller lang- und kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Währung, Saldo VJ, Zu-/Abgänge, Saldo, Zinssatz, Zinsaufwand, Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt) – Abstimmung mit Hauptbuch/Bilanz (N1-301, N1-402, N1-403)
 - Kredit- und Darlehensverträge inkl. Nachträge, Amortisationspläne, Covenant-Klauseln – Konditionen, Fälligkeit, Sicherheiten, Covenants (N1-101 bis N1-103, N1-302)
-- Bankauszüge, Zins- und Amortisationsabrechnungen sowie vom Kunden selbst eingeholte Bank-/Saldobestätigungen per 31.12. – Bestandesnachweis je Darlehen (N1-301 a/b)
-- Saldobestätigung bzw. Kontoauszug der Gegenbuchhaltung bei Konzern- und Aktionärsdarlehen – Abstimmung Gegenbuchhaltung (N1-301 d)
+- Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12. – Bestandesnachweis je Darlehen (N1-301 a/b)
+- Kontoauszug der Gegenbuchhaltung bzw. vom Unternehmen selbst eingeholte Saldobestätigung bei Konzern- und Aktionärsdarlehen (keine Einholung durch Revisionsstelle oder Agent) – Abstimmung Gegenbuchhaltung (N1-301 d)
 - Zinsabgrenzungsberechnung per 31.12. – Prüfung Marchzinsen (N1-303)
 - Rangrücktrittsvereinbarungen inkl. ersetzter/geänderter Fassungen – Ausgestaltung, Höhe, Einschluss Zinsen (N1-105, N1-401)
 - Bonitätsnachweise der Rangrücktrittsgläubiger (z.B. Jahresrechnung, Vermögensnachweis) und Nachweis des VR zur Einhaltung der Rangrücktrittsanforderungen – Beurteilung Bonität durch WP (N1-105)
-- Covenant-Berechnung/Compliance-Bestätigung und ggf. schriftlicher Waiver der Bank – Einhaltung Kreditbedingungen, Fristigkeit (N1-101, N1-402)
+- Covenant-Berechnung/Compliance-Bestätigung und ggf. schriftlicher Waiver der Bank (mit Datum) – Einhaltung Kreditbedingungen, Fristigkeit (N1-101, N1-402)
+- Korrespondenz/Offerten der Bank zu auslaufenden Festhypotheken bzw. Festkrediten (Verlängerungsabsicht) – Fristigkeit auslaufender Festhypotheken (N1-103, N1-402)
 - Pfand-, Zessions- und Sicherungsverträge, Grundbuchauszug/Schuldbriefe – Sicherheiten und Anhangangabe verpfändete Aktiven (N1-102, N1-320)
 - Aktienbuch, Handelsregisterauszug, GV- und VR-Protokolle – Identifikation Nahestehender, Beschlüsse zu Darlehen/Verrechnungsliberierung (N1-104, N1-403)
-- Bei Überschuldung: geprüfte Zwischenabschlüsse bzw. Überschuldungsstatus – Höhe der erforderlichen Rangrücktritte (N1-105, N1-401)
-- Berechnung verdecktes Eigenkapital (Aktiven zu Verkehrs-/Buchwerten) bei Darlehen von Beteiligten – Beurteilung verdecktes Eigenkapital (N1-304)
+- Bei begründeter Besorgnis einer Überschuldung: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (durch die Revisionsstelle geprüft) bzw. Überschuldungsstatus – Massstab und Höhe der erforderlichen Rangrücktritte (N1-105, N1-401)
+- Berechnung verdecktes Eigenkapital (Aktiven zu Verkehrswerten Ende Steuerperiode, mangels Nachweis Buchwerte) inkl. von Beteiligten/Nahestehenden sichergestellter Drittkredite – Beurteilung verdecktes Eigenkapital (N1-304)
+- Kontoblätter/Bankauszüge des Folgejahres bis zum Prüfungsdatum (Darlehens- und RR-Konten) – Zahlungen/Verrechnungen auf RR-Forderungen, Ereignisse nach dem Stichtag (N1-320, N1-403)
+- Schriftliche Antworten von GL/VR zu den Befragungen (z.B. 10.11 Kundenbefragung) – Grundlage der Befragungsschritte N1-101 bis N1-105
 - Vollständigkeitserklärung (u.a. Nahestehende, Belastungen, Verbindlichkeiten) – Schriftliche Bestätigung der Befragungsergebnisse
 
 ## O1 Rückstellungen
@@ -321,22 +345,29 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Schriftliche Antworten der Unternehmensleitung auf die Befragung (Rechtsfälle, Ansprüche, Eventualverbindlichkeiten, Schätzungen) – O1-101 bis O1-103; Dokumentationspflicht der Befragung
 - Vollständigkeitserklärung (Verbindlichkeiten und Eventualverbindlichkeiten erfasst bzw. offengelegt) – O1-103; ergänzende schriftliche Erklärung
 - Nachweis stille Reserven (Bestand und Veränderung je Bilanzposition, inkl. Rückstellungen) – O1-321
+- Vorjahres-Rückstellungsspiegel und Vorjahresakte (Schätzung VJ, Verwendung/Auflösung im Berichtsjahr) – O1-102, O1-201, O1-403: Rückblick auf die Schätzgenauigkeit der Unternehmensleitung
+- Versicherungspolicen (Haftpflicht, Rechtsschutz) und Deckungszusagen zu Prozessrisiken; Angaben zu Gegenklagen – O1-102, O1-320: Bemessung (Erstattungsanspruch separat, Verrechnungsverbot) und Anhangsangabe
+- Steuerrechnungen, Veranlagungen, Steuerkorrespondenz (Revisionen, Einsprachen) – Schnittstelle Prüffeld Steuern (S1) – O1-201, O1-301: Steuerrückstellung/-abgrenzung und Steuerrisiken
 - Jahresrechnung inkl. Anhang (Berichtsjahr und Vorjahr), Saldoliste mit Vorjahressaldi – O1-201, O1-301, O1-320
 
 ## P1 Eigenkapital
-- Gültige Statuten (aktuelle Fassung) und aktueller Handelsregisterauszug – Abstimmung Aktienkapital, Statutenänderungen, Dauerakte (P1-301, P1-314, P1-321)
+- Gültige Statuten (aktuelle Fassung) und aktueller Handelsregisterauszug – Abstimmung Aktienkapital, Statutenänderungen inkl. Statutenangabe zur Verrechnungsliberierung, Dauerakte (P1-301, P1-307, P1-314, P1-321)
 - Protokoll der ordentlichen GV über das Vorjahr (Genehmigung Jahresrechnung, Gewinnverwendung) sowie Protokolle ausserordentlicher GV – Abstimmung Reserven/Bilanzergebnis, Vollzug Gewinnverwendung (P1-302, P1-312)
 - Geprüfte Jahresrechnung und Revisionsbericht des Vorjahres – Vortrag der Vorjahresbestände (P1-302)
 - Antrag des VR über die Verwendung des Bilanzgewinns (inkl. allfälliger Antrag auf Rückzahlung aus gesetzlicher Kapitalreserve) – Prüfung Antrag nach Art. 729a Abs. 1 Ziff. 2 OR (P1-303)
-- Aktienbuch per Bilanzstichtag (und ggf. Verzeichnis der wirtschaftlich berechtigten Personen) – Führung Aktienbuch, Abstimmung Anzahl/Nominal, Aktionäre (P1-317, P1-301, P1-304)
+- Aktienbuch per Bilanzstichtag (und ggf. Verzeichnis der wirtschaftlich berechtigten Personen) – Führung Aktienbuch, Abstimmung Anzahl/Nominal, Aktionäre als Gegenparteien für P1-305 (P1-317, P1-301, P1-304, P1-305)
 - Unterlagen zu Kapitalveränderungen: öffentliche Urkunden GV/VR, Zeichnungsscheine, Kapitalerhöhungsbericht mit Prüfungsbestätigung, Einzahlungs-/Verrechnungsnachweis, HR-Eintrag – Kritische Durchsicht Kapitalveränderung, Buchungen (P1-307, P1-314, P1-316)
-- Kontoblätter aller Eigenkapitalkonten und Eigenkapitalspiegel (Bewegungen je Position) – Buchungen auf EK-Konti, Eigenkapitalspiegel (P1-316, P1-401)
+- Kontoblätter aller Eigenkapitalkonten; Eigenkapitalspiegel des Kunden (in M-Files suchen, sonst PBC-Vorschlag) – Buchungen auf EK-Konti, Eigenkapitalspiegel (P1-316, P1-401)
 - Aufstellung eigene Kapitalanteile (Anzahl, Anschaffungswert, Käufe/Verkäufe mit Verträgen bzw. Abrechnungen, Bestand bei Tochtergesellschaften) – Bestand und Transaktionen eigener Anteile (P1-304, P1-306)
-- Aufstellung Forderungen gegenüber Aktionären, Nahestehenden und Konzerngesellschaften (inkl. Cash-Pool) mit Verträgen und Drittvergleichsanalyse des VR – Einlagerückgewähr Art. 680 Abs. 2 OR (P1-305)
-- Budget/Liquiditätsplanung bis zum Ausschüttungszeitpunkt – Liquidität für beantragte Ausschüttung (P1-303)
-- Abrechnungen/Korrespondenz ESTV: Emissionsabgabe, Verrechnungssteuer auf Ausschüttungen, Bestätigung bzw. Meldung der Kapitaleinlagereserven – Steuerliche Behandlung (P1-308, P1-315, P1-320)
-- Rangrücktrittsvereinbarungen, ggf. Zwischenabschlüsse nach Art. 725b OR, Sanierungsmassnahmen/-plan – Beurteilung Kapitalverlust/Überschuldung (P1-313)
-- VR-Protokolle des Geschäftsjahres und bis Berichtsdatum (Kapitalband, Aufwertung, Optionen, Ausschüttungen) – Vollständigkeit Kapitalvorgänge, Nahestehende (P1-307, P1-311, P1-314)
+- Debitoren-/OP-Listen und Kontoblätter aller Forderungskonten (1100 ff., 114x, 119x) mit Gegenparteien – Suche nach Forderungen mit Darlehenscharakter ggü. Aktionären/Organen, auch ausserhalb der Aktionärskonten (P1-305, P1-303)
+- Aufstellung Forderungen gegenüber Aktionären, Nahestehenden und Konzerngesellschaften (inkl. Cash-Pool) mit Darlehensverträgen, VR-Genehmigung und Drittvergleichsanalyse des VR – Einlagerückgewähr Art. 680 Abs. 2 OR (P1-305)
+- Darlehensverträge der Aktionäre an die Gesellschaft (Betrag, Zins, Laufzeit, Kündigung) – Abgleich Betrag/Zins mit Rangrücktritten, Verrechnungsmöglichkeit (P1-313, P1-305)
+- Budget/Liquiditätsplanung bis zum Ausschüttungszeitpunkt – Liquidität und Fortführung bei beantragter Ausschüttung (P1-303)
+- Abrechnungen/Korrespondenz ESTV: Emissionsabgabe, Verrechnungssteuer auf Ausschüttungen, Bestätigung bzw. Meldung der Kapitaleinlagereserven (Formular 170) – Steuerliche Behandlung (P1-308, P1-315, P1-320)
+- Rangrücktrittsvereinbarungen (schriftlich, beidseitig unterzeichnet, inkl. Änderungen/Ersatzerklärungen), ggf. Zwischenabschlüsse nach Art. 725b OR mit Prüfungsbericht, Sanierungsmassnahmen/-plan – Beurteilung Kapitalverlust/Überschuldung und Rangrücktritte (P1-313)
+- Bankauszüge und Kontoblätter des GJ und nach Stichtag zu Zahlungen, Verrechnungen und Darlehen an Gläubiger mit Rangrücktritt – Einhaltung Tilgungs- und Verrechnungsverbot (P1-313, P1-305)
+- VR-Protokolle des Geschäftsjahres und bis Berichtsdatum (Kapitalband, Aufwertung, Optionen, Ausschüttungen, Darlehen an Aktionäre/Organe) – Vollständigkeit Kapitalvorgänge, Nahestehende (P1-305, P1-307, P1-311, P1-314)
+- Bei Zwischendividende: Zwischenabschluss mit Prüfungsbericht der Revisionsstelle bzw. Zustimmung sämtlicher Aktionäre – Zulässigkeit Zwischendividende (P1-303, P1-315)
 - Bei Aufwertung: schriftliche Bestätigung der Revisionsstelle bzw. des zugelassenen Revisors und Bewertungsnachweis – Aufwertungsreserve (P1-311)
 - Beteiligungs-/Optionspläne für Organe und Mitarbeitende – Optionen, Anhangangabe (P1-307, P1-320)
 
@@ -361,29 +392,33 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 
 ## S1 Steuern
 - Berechnung der Steuerabgrenzung 2025 (Gewinn- und Kapitalsteuer Bund/Kanton/Gemeinde) mit Parametern: Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen – S1-301, S1-304: Abstimmung mit Jahresrechnung und Nachrechnen
-- Steuererklärung (Selbstdeklaration) der letzten eingereichten Periode(n) inkl. Beilagen – S1-302, S1-303, S1-151: Abgleich Deklaration mit Jahresrechnung und Abgrenzung
+- Steuererklärung (Selbstdeklaration) der letzten eingereichten Periode(n) inkl. Beilagen – S1-302, S1-303: Abgleich Deklaration mit Jahresrechnung und Abgrenzung (SER: weiter gehend)
 - Veranlagungsverfügungen Bund und Kanton aller noch nicht abgeschlossenen bzw. im Geschäftsjahr veranlagten Perioden – S1-103, S1-302: Stand der Veranlagung, Nachzahlungen/Rückerstattungen
 - Steuerrechnungen (provisorisch/Akonto, Schlussrechnungen), Steuerkontoauszug der Steuerverwaltung, Zahlungsbelege – S1-302, S1-303: Vergleich gebuchter Steuern und Zahlungen
 - Korrespondenz mit Steuerbehörden (Rückfragen, Auflagen, Steuerrevision, Nachsteuer-/Strafsteuerverfahren, Einsprachen, Rekurse) – S1-102, S1-104: Feststellung allfälliger Nachforderungen und Risiken
 - Bericht/Verfügung der letzten Steuerrevision (Buchprüfung) inkl. Nachbelastungen und Auflagen – S1-403: Umsetzung der Ergebnisse, Rückstellung für Nachbelastungen
 - Detailnachweis stille Reserven (Bestand je Position 31.12. und Vorjahr), inkl. versteuerter stiller Reserven gemäss Steuerbilanz – S1-321: Bestand/Veränderung, Nettoauflösung
-- Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge mit Zinssätzen, Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle – S1-401: Festhalten geldwerter Leistungen
-- ESTV-Rundschreiben «Steuerlich anerkannte Zinssätze» des Steuerjahres (für 2025 das Rundschreiben 2025; im Wiki nur 2026 vorhanden) – S1-401: Vergleich Zinssätze Aktionärsdarlehen
+- Liste der Transaktionen mit Beteiligten und Nahestehenden (Darlehensverträge an und von Beteiligten mit Zinssatz, Sicherheit, Zweck; Saläre, Spesen, Käufe/Verkäufe), Aktienbuch, GV-/VR-Protokolle – S1-401: Festhalten geldwerter Leistungen
+- ESTV-Rundschreiben «Steuerlich anerkannte Zinssätze 2025» (fehlt im Wiki – Quellenlücke; Rundschreiben 2026 gilt erst ab 1.1.2026, Treuhand-Almanach-Tabelle nicht verwenden) – S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten
 - Verrechnungssteuer-Deklarationen (Formular 102 für geldwerte Leistungen, Dividenden) und Rückforderungsanträge – S1-401, S1-402, S1-304: VSt-Folgen und VSt-Guthaben
+- Verkehrswerte der Aktiven per 31.12.2025 und Berechnung des zulässigen Fremdkapitals bzw. verdeckten Eigenkapitals; Rangrücktrittserklärungen – S1-402: verdecktes Eigenkapital, Zinsaufrechnung und VSt
+- Bestätigung der ESTV zu den Kapitaleinlagereserven (Agio Kapitalerhöhung 2025) – S1-402: beantragte Ausschüttung aus Kapitalreserven (VSt), Anhanghinweis
+- Abrechnung der Emissionsabgabe zur Kapitalerhöhung bzw. Begründung/Gesuch der Befreiung (Sanierung, Freibetrag) – S1-402: Abgrenzung Emissionsabgabe
 - Saldoliste/Hauptbuch der Steuerkonten (Steueraufwand, Steuerrückstellung/-verbindlichkeit, Steuerguthaben) mit Vorjahr; Kontoblätter neue Rechnung – S1-201, S1-303: Vorjahresvergleich, Entwicklung, Zahlungen nach Stichtag
 - Vollständigkeitserklärung (Einhaltung Vorschriften betreffend direkte Steuern) – Schriftliche Bestätigung der Kernaussagen zu S1-101 bis S1-104
-- Unterlagen zu besonderen Verhältnissen: Grundstückkäufe/-verkäufe, Umstrukturierungen, Kapitalerhöhungen/Sanierung (Emissionsabgabe), Steuerrulings – S1-402
+- Unterlagen zu besonderen Verhältnissen: Grundstückkäufe/-verkäufe, Umstrukturierungen, Kapitalerhöhungen/Sanierung (Emissionsabgabe), Ausschüttungen, Steuerrulings – S1-402
 
 ## SCH1 Betrieblicher Ertrag
 - Saldoliste bzw. Erfolgsrechnung 2025 mit Vorjahreszahlen – Saldovergleich, Gliederung, Basis für SCH1-102/201/202/304/305
-- Kontoblätter aller Ertrags- und Erlösminderungskonten (3xxx) 2025 sowie Buchungsjournal – Kritische Durchsicht, Belegauswahl, JET/Gegenkonten (SCH1-202b, 301, 302, 401, 155)
+- Kontoblätter aller Ertrags- und Erlösminderungskonten (3xxx) sowie Debitorenkonto 2025 – Kritische Durchsicht, Belegauswahl, Gegenkonten (SCH1-202b, 301, 302, 155)
 - Umsatz- und Margenstatistik je Produktkategorie/Sparte (2025 und Vorjahr), Budget/Hochrechnung – Margen- und Budgetvergleich (SCH1-201, 202c/d)
-- Fakturajournal Dezember 2025 und Januar/Februar 2026 inkl. Gutschriften; Kontoblätter Ertrag/Debitoren Folgejahr – Cut-off und Durchsicht in neuer Rechnung (SCH1-302, 303)
-- Ausgangsrechnungen, Lieferscheine, Arbeitsrapporte, Abnahme-/Inbetriebnahmeprotokolle um den Stichtag – Belegabstimmung und Periodenzuordnung (SCH1-301, 303)
-- MWST-Abrechnungen 2025 und MWST-Umsatzabstimmung – Abstimmung deklarierter Umsatz mit Ertragskonten (SCH1-202e, 301)
-- Wesentliche Kundenverträge, Werk-/Rahmenverträge, Liefervereinbarungen (Preise, Rabatte, Abnahme, Zahlungsplan) – Realisationszeitpunkt, Erlösminderungen, Akontoregelungen (SCH1-101, 301, 303)
-- Projektliste/Bewertung angefangene Arbeiten bzw. langfristige Aufträge per 31.12. – Bestandesänderung und Abgrenzung Ertrag vs. angefangene Arbeiten (SCH1-202, 303, 305)
-- Buchungsjournal-Export mit Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung (nur falls JET vom WP angeordnet) – Filter a)–k) (SCH1-401, 155)
+- Fakturajournal Dezember 2025 und Januar/Februar 2026 inkl. Gutschriften; Kontoblätter Ertrag/Debitoren Folgejahr – Cut-off und Durchsicht in neuer Rechnung, Ereignisse nach dem Stichtag (SCH1-302, 303)
+- Kontoblatt Kreditoren bzw. Kreditorenjournal Januar/Februar 2026 (Eingangsrechnungen für Leistungen vor dem Stichtag) – Cut-off Waren-/Materialaufwand für Befragung und Margenanalyse (SCH1-101, 201; Schnittstelle SCH2)
+- Ausgangsrechnungen, Lieferscheine, Arbeitsrapporte, Abnahme-/Inbetriebnahmeprotokolle um den Stichtag – Belegabstimmung und Periodenzuordnung, weiter gehend bei Risikohinweisen (SCH1-301, 303)
+- MWST-Abrechnungen 2025 und MWST-Umsatzabstimmung – Vorhandensein der Umsatzabstimmung; Abstimmung deklarierter Umsatz mit Ertragskonten weiter gehend (SCH1-202e, 301)
+- Wesentliche Kundenverträge, Werk-/Rahmenverträge, Liefervereinbarungen (Preise, Rabatte, Rückgaberecht, Abnahme, Zahlungsplan) – Realisationszeitpunkt, Erlösminderungen, Retouren, Akontoregelungen (SCH1-101, 301, 303)
+- Projektliste/Bewertung angefangene Arbeiten bzw. langfristige Aufträge per 31.12. inkl. angewandter Methode (POCM/CCM) und Fertigstellungsgrad – Bestandesänderung, Betriebsleistung und Abgrenzung Ertrag vs. angefangene Arbeiten (SCH1-201, 202, 303, 305; Schnittstelle F2)
+- Buchungsjournal-Export mit Erfassungsdatum, Benutzer, Beleg, Text, Konto/Gegenkonto, Betrag, Währung (nur falls JET bzw. vollständige Gegenkonten-Auswertung vom WP angeordnet) – Filter a)–k) (SCH1-401, 155); Anforderung als Pendenz-Notiz, Versand durch WP
 - Allfällige beim Kunden bereits vorhandene Abrechnungen/Bestätigungen Dritter (z.B. Plattform-, Netzbetreiber-, Kommissionsabrechnungen) – Interne Abstimmung statt Drittbestätigung (SCH1-402)
 
 ## SCH2 Direkter Aufwand
@@ -413,47 +448,50 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Arbeitspapiere und Abschlusskorrekturen der Vorjahresprüfung – Erwartungen und Risikoschwerpunkte für die Analytik (SCH3-202)
 
 ## SCH4 Finanzaufwand und Finanzertrag
-- Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag) – Vorjahresvergleich, Abstimmung Konten → Position JR (SCH4-101/201)
-- Kontoblätter der Finanzkonten (Zinsaufwand, Zinsertrag, Bankspesen/-kommissionen, Kursgewinne/-verluste, Erträge Finanzanlagen) – Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302)
-- Kredit- und Darlehensverträge (Bank, Aktionäre, Nahestehende; inkl. Darlehen der Gesellschaft an Aktionäre) – Zinssätze, Beträge, Auszahlungsdaten, Fälligkeiten für Erwartungswert Zinsen (SCH4-202)
+- Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag) – Vorjahresvergleich, Klassierung der Konten nach Natur, Abstimmung Konten → Position JR (SCH4-101/201)
+- Kontoblätter der Finanzkonten (Zinsaufwand, Zinsertrag, Bankspesen/-kommissionen, Kursgewinne/-verluste, Erträge Finanzanlagen) – Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302, nur weitergehend)
+- Kredit- und Darlehensverträge (Bank, Aktionäre, Nahestehende; inkl. Darlehen der Gesellschaft an Aktionäre) – Zinssätze, Zinsusanz, Beträge, Auszahlungsdaten, Zinsfälligkeiten für Erwartungswert Zinsen (SCH4-202)
 - Zinsabgrenzungsberechnung per Bilanzstichtag – Periodenabgrenzung aufgelaufener Zinsen (SCH4-202/301)
 - Aufstellung der verzinslichen Verbindlichkeiten (und Forderungen) mit Anfangs-/Endbestand – Basis für Ø-Bestände und Erwartungswert Zinsaufwand/-ertrag (SCH4-202)
-- Bankauszüge Dezember / Zins-, Spesen- und Kommissionsabrechnungen der Banken – Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301)
+- Bankauszüge Dezember / Zins-, Spesen- und Kommissionsabrechnungen der Banken – Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301, nur weitergehend)
 - Kontoauszüge Fremdwährungskonten mit Devisenkurs per 31.12. und Kursbewertungsberechnung – Abgleich Umrechnungskurse und Plausibilisierung Kursdifferenzen (SCH4-203)
 - Rangrücktrittserklärungen zu Darlehen Nahestehender – Einschluss der Zinsen, Zinsverzicht/Stundung während Überschuldung (Erwartung Zinsaufwand, Ausweis)
 - VR-/GV-Protokolle (Genehmigung Darlehen und Zinskonditionen mit Nahestehenden) – Hintergrund und Konditionen von Darlehen/Zinsen mit Aktionären und Organen
-- ESTV-Rundschreiben steuerlich anerkannte Zinssätze für das geprüfte Geschäftsjahr (Drittunterlage; im Wiki nur Fassung 2026) – Abgleich Zinssätze mit Beteiligten (Safe Haven) als Hinweis auf vGA-Risiko (SCH4-202/302)
+- Unterlagen zum Drittvergleich der Zinssätze mit Nahestehenden (Bankofferten/-konditionen, Bonitätsbeurteilung, Sicherheiten) – Handelsrechtliche Beurteilung der Marktkonformität (SCH4-202); Beurteilung vGA durch WP
+- ESTV-Rundschreiben steuerlich anerkannte Zinssätze des geprüften Geschäftsjahres (CHF und Fremdwährungen; Drittunterlage – im Wiki nur Fassung 2026, für GJ 2025 nicht bestätigt) – Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202)
 - Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen – Dokumentierte Befragung (SCH4-101/201)
 
 ## SCH5 Nebenbetrieb, betriebsfremd und ausserordentlich
-- Kontoblätter der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag mit Einzelbuchungen des Geschäftsjahres – Grundlage Vorjahresvergleich (SCH5-201) und Belegabstimmung (SCH5-301)
+- Kontoblätter der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag mit Einzelbuchungen des Geschäftsjahres (fehlen sie: Bilanz-Kontoblätter mit Gegenbuchungen auf diese Konten) – Grundlage Vorjahresvergleich (SCH5-201) und Belegabstimmung (SCH5-301)
 - Saldoliste bzw. Erfolgsrechnung Geschäftsjahr und Vorjahr (inkl. Vorjahres-Jahresrechnung mit Gliederung) – Vorjahresvergleich der Salden und der Kontenzuordnung (SCH5-101, SCH5-201)
 - Aufstellung der ausserordentlichen, einmaligen und periodenfremden Posten mit Begründung je Posten (Grundlage der Anhangerläuterung) – Klassierung nachvollziehen; Abstimmung Anhang mit Erfolgsrechnung
 - Schriftliche Beschreibung der Kriterien bzw. Kontierungsregeln zur Identifikation betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Posten (inkl. Änderungen ggü. Vorjahr) – Befragung SCH5-102 schriftlich auswerten; Stetigkeit (SCH5-201)
 - Belege zu wesentlichen Einzelposten (Verträge, Gutschriften, Abrechnungen, Versicherungs- oder Vergleichsunterlagen) – Belegabstimmung SCH5-301 (Eintritt, Betrag, Periode, Sachverhalt)
-- Bei Anlagenverkäufen: Kaufvertrag, Zahlungseingang, Anlagespiegel mit Abgang (Anschaffungswert, kumulierte Abschreibungen, Restbuchwert) – Buchgewinn/-verlust nachrechnen, Ausbuchung des Abgangs prüfen (SCH5-202, SCH5-301)
-- Bei betriebsfremden Liegenschaften, Untervermietung oder Nebenbetrieben: Miet-/Untermietverträge, Mieterspiegel, Liegenschaftsabrechnung mit direkt zuordenbarem Aufwand – Erwartungswerte bilden (SCH5-202); Aufschlüsselung im Anhang beurteilen
+- Bei Anlagenverkäufen: Kaufvertrag, Zahlungseingang, Anlagespiegel mit Abgang (Anschaffungswert, kumulierte Abschreibungen, Restbuchwert), Belege zu Verkaufsnebenkosten – Buchgewinn/-verlust nachrechnen, Ausbuchung des Abgangs prüfen (SCH5-202, SCH5-301)
+- Bei betriebsfremden Liegenschaften, Untervermietung oder Nebenbetrieben: Miet-/Untermietverträge, Mieterspiegel, Liegenschaftsabrechnung mit direkt zuordenbarem Aufwand – Erwartungswerte bilden (SCH5-202); Grundlage für die Aufschlüsselung betriebsfremder Ertrag/Aufwand im Anhang
 - Budget/Forecast bzw. Erwartungsgrundlagen der Unternehmensleitung – Vergleich mit erwarteten Werten (SCH5-202)
 - Protokolle der Verwaltungsratssitzungen und Generalversammlungen des Geschäftsjahres – Sondervorgänge (Verkäufe, Vergleiche, Restrukturierungen) als Erwartungsgrundlage und Vollständigkeitskontrolle
+- Rückstellungsspiegel und Aktennotizen zu Rechtsfällen bzw. Garantien (Bildung, Verwendung, Auflösung mit Gegenkonto) – Klassierung der Rückstellungsbildung bzw. -auflösung (betrieblich oder ausserordentlich) prüfen (SCH5-202, SCH5-301)
 - Aufstellung Bildung/Auflösung stiller Reserven (Berechnungsmethode wie Vorjahr) – Nettoauflösung über ausserordentlichen Ertrag erkennen; Anhangangabe
 - Unterzeichnete Vollständigkeitserklärung – Schriftliche Bestätigung u.a. zu stillen Reserven und Kernaussagen
 
 ## T1 Anhang zur Jahresrechnung
 - Definitive, vom VR genehmigte und unterzeichnete Jahresrechnung inkl. Anhang mit Vorjahreszahlen – Prüfgegenstand für alle Schritte; Vorjahresvergleich
-- Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), datiert auf das Berichtsdatum – Schriftliche Bestätigung zu Eventualverbindlichkeiten, stillen Reserven, Ereignissen nach Stichtag, nahestehenden Personen
+- Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), im Regelfall auf das Datum des Revisionsberichts datiert (vgl. T1-109) – Schriftliche Bestätigung zu Bildung/Auflösung/Bestand stiller Reserven (T1-111), Verbindlichkeiten und Eventualverbindlichkeiten (T1-107), Belastungen von Aktiven (T1-106), Ereignissen nach dem Stichtag (T1-109) und nahestehenden Personen (T1-315)
 - Aufstellung Bestand und Veränderung stiller Reserven je Bilanzposition (aktuell und Vorjahr) – T1-111, T1-305 Nettoauflösung
-- Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile – T1-101
+- Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile (unabhängig vom gebuchten Konto) – T1-101
 - Aktienbuch und Aufstellung eigener Anteile inkl. Transaktionen (Datum, Anzahl, Art, Preis, Bedingungen) – T1-102, T1-317
 - Leasing- und Mietverträge mit Laufzeit, Kündigungsfristen und Berechnung des Restbetrags per Stichtag – T1-103
 - Kontoauszug/Saldobestätigung der Vorsorgeeinrichtung per 31.12. – T1-104, T1-309
-- Bankbestätigungen (Garantien, Sicherheiten, Kredite), Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte – T1-105, T1-106
+- Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte, Nachweise zu Sicherheitsleistungen (z.B. Bardepots, Kautionen) sowie die im Dossier vorhandenen Bankunterlagen – T1-105, T1-106 (belastete Aktiven, Sicherheiten)
+- Bankbestätigungen und Anwaltskorrespondenz nur, soweit im Dossier (M-Files) vorhanden – keine PBC-Pendenz «Bestätigung einholen» ohne Anweisung des WP – T1-105 bis T1-107: vorhandene Unterlagen auswerten; aktives Einholen gehört nicht zur eingeschränkten Revision
 - Bürgschafts-, Garantie- und Patronatsverträge zugunsten Dritter – T1-105 (volle Haftungssumme)
-- Aufstellung Rechtsfälle/Aktennotizen, Anwaltskorrespondenz, Rückstellungsspiegel – T1-107 Eventualverbindlichkeiten vs. Rückstellungen
+- Aufstellung Rechtsfälle/Aktennotizen, vorhandene Anwaltskorrespondenz, Rückstellungsspiegel – T1-107 Eventualverbindlichkeiten vs. Rückstellungen
 - Beteiligungs-/Optionspläne und Zuteilungen im Geschäftsjahr – T1-108
-- Protokolle VR und GV (Geschäftsjahr und Folgejahr bis Berichtsdatum), Statuten, HR-Auszug – T1-109, T1-110 (Kapitalband), T1-112, T1-319
-- Buchungen/Kontoblätter und Kontoauszüge des Folgejahres – T1-109 Ereignisse nach dem Bilanzstichtag
-- Personalliste/Lohnjournal mit Pensen, Ein- und Austritten – T1-304 Vollzeitstellen
+- Protokolle VR und GV (Geschäftsjahr und Folgejahr bis Berichtsdatum), Statuten, HR-Auszug – T1-109, T1-110 (Kapitalband), T1-112, T1-315, T1-319
+- Buchungen/Kontoblätter, Kreditorenjournal und Kontoauszüge des Folgejahres (bis möglichst nahe am Berichtsdatum) – T1-109 Ereignisse nach dem Bilanzstichtag (Durchsicht in neuer Rechnung)
+- Personalliste/Lohnjournal mit Pensen, Ein- und Austritten; AHV-Jahreslohnmeldung – T1-304 Vollzeitstellen
 - Darlehensverträge und Rangrücktrittsvereinbarungen mit Aktionären/Nahestehenden – T1-315, T1-307
-- Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend) – T1-112, T1-402
+- Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend; in M-Files suchen, sonst Pendenz) – T1-112, T1-402
 - Nachweise zu Aufwertungen nach Art. 725c OR (VR-Beschluss, schriftliche Bestätigung der Revisionsstelle) – T1-319, T1-306
 

@@ -1,4 +1,4 @@
-# Werte Kategorie fristen – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie fristen – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: or727a_anmeldung_vor_gj
   bezeichnung: 'Opting-out: Anmeldung beim Handelsregister'
@@ -115,14 +115,18 @@ werte:
   zitat: Die Gesellschafterversammlung ist spätestens 20 Tage vor dem Versammlungstag einzuberufen.
   status: agent-geprueft
 - key: ser_berichtsdatum
-  bezeichnung: 'Berichtsdatum: frühestens'
-  wert: frühestens Datum der Unterzeichnung/Genehmigung der Jahresrechnung
+  bezeichnung: Berichtsdatum des Revisionsberichts
+  wert: Datum der Beendigung der eingeschränkten Revision; frühestens Unterzeichnung/formelle Gutheissung der Jahresrechnung durch die Unternehmensleitung (VR) – nicht GV-Genehmigung
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: fristen
-  bemerkung: SER 8.6; Vollständigkeitserklärung auf dieses Datum zusammen mit der Jahresrechnung unterzeichnen (HWP ER Rz 448). Der Agent datiert und unterzeichnet nie (Konzept consis).
+  bemerkung: 'SER 8.6, gleicher Chunk: «darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet
+    oder formell gutgeheissen hat». Unternehmensleitung = VR: «Unternehmensleitung (z.B. Verwaltungsrat einer Aktiengesellschaft) den Abschluss unterzeichnet oder formell gutgeheissen
+    hat» (HWP ER Rz 448, hwp-er-2026__rz-0448-s287 – nicht Rz 448 auf S. 131 zum Kapitalverlust); Vollständigkeitserklärung auf dieses Datum zusammen mit der Jahresrechnung unterzeichnen
+    (ebenda). Die GV-Genehmigung folgt erst danach: der Revisionsbericht muss vorliegen, bevor die GV genehmigt (Art. 731 Abs. 1 OR, or__art-731). Der Agent datiert und unterzeichnet
+    nie; Datum setzt der WP (Konzept consis).'
   quelle: ser-2022__8-6
-  zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+  zitat: Der Revisionsbericht trägt das Datum, an dem die eingeschränkte Revision beendet wurde.
   status: agent-geprueft
 - key: or958f_aufbewahrung
   bezeichnung: Aufbewahrung Geschäftsbücher, Belege, Geschäfts- und Revisionsbericht
@@ -160,58 +164,79 @@ werte:
   einheit: Tage nach Fälligkeit
   gilt: ESTV-Rundschreiben vom 29.01.2026
   kategorie: fristen
-  bemerkung: Die geschuldete VSt ist innert derselben Frist zu entrichten.
+  bemerkung: Die geschuldete VSt ist innert derselben Frist zu entrichten (estv-zinsen-2026__s001-1 «Innert der gleichen Frist ist auch die geschuldete Verrechnungssteuer zu entrichten.»).
   quelle: estv-zinsen-2026__s001-1
   zitat: mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren
   status: agent-geprueft
 - key: mwst_aufbewahrung_immobilien
-  bezeichnung: MWST-Aufbewahrungsfrist für Belege zu Immobilien
-  wert: '25'
+  bezeichnung: MWST-Aufbewahrungsfrist für Geschäftsunterlagen zur Einlageentsteuerung und zum Eigenverbrauch von unbeweglichen Gegenständen
+  wert: '20'
   einheit: Jahre
-  gilt: PH 20 (02-2016)
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 70 Abs. 3)
   kategorie: fristen
-  bemerkung: Mindestfrist. Stand PH 20 (2016), gegen die aktuelle MWSTG-Fassung prüfen.
-  quelle: ph-20-mwst-2016__c004-2
-  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  bemerkung: 'Gesetz geht vor. PH 20 vom 02-2016 nennt abweichend mindestens 25 Jahre (ph-20-mwst-2016__c004-2 «für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens
+    25 Jahren») – nicht als gesetzliche Frist verwenden; Abweichung dem WP melden. Eine Frist von 26 Jahren ist im Wiki nicht belegt (MWSTG im Wiki, Fassung 31.03.2025: 20 Jahre). Übrige
+    Unterlagen: mwst_aufbewahrung_uebrige.'
+  quelle: mwstg__art-70
+  zitat: sind während 20 Jahren aufzubewahren (Art. 31 Abs. 3 und 32 Abs. 2)
   status: agent-geprueft
 - key: mwst_aufbewahrung_uebrige
-  bezeichnung: MWST-Aufbewahrungsfrist für übrige Belege
+  bezeichnung: MWST-Aufbewahrungsfrist für Geschäftsbücher, Belege und übrige Aufzeichnungen
   wert: '10'
-  einheit: Jahre
-  gilt: PH 20 (02-2016)
+  einheit: Jahre nach Ablauf der Steuerperiode (bis zur absoluten Verjährung)
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 70 Abs. 2 i. V. m. Art. 42 Abs. 6)
   kategorie: fristen
-  bemerkung: Mindestfrist. Stand PH 20 (2016).
-  quelle: ph-20-mwst-2016__c004-2
-  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  bemerkung: 'Absolute Verjährung: mwstg__art-42 «verjährt in jedem Fall zehn Jahre nach Ablauf der Steuerperiode». Art. 958f OR bleibt vorbehalten (mwstg__art-70 «Artikel 958f des Obligationenrechts
+    bleibt vorbehalten.»). PH 20 (2016) nennt mindestens 10 Jahre (ph-20-mwst-2016__c004-2 «für übrige Belege von mindestens 10 Jahren»).'
+  quelle: mwstg__art-70
+  zitat: bis zum Eintritt der absoluten Verjährung der Steuerforderung (Art. 42 Abs. 6) ordnungsgemäss aufzubewahren
   status: agent-geprueft
 - key: mwst_festsetzungsverjaehrung
-  bezeichnung: Festsetzungsverjährung MWST (Schweiz)
+  bezeichnung: Festsetzungsverjährung MWST (Schweiz), relative Frist
   wert: '5'
-  einheit: Jahre
-  gilt: PH 20 (02-2016)
+  einheit: Jahre nach Ablauf der Steuerperiode
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 42 Abs. 1)
   kategorie: fristen
-  bemerkung: Für die Wesentlichkeit die noch nicht rechtskräftig festgesetzten Steuerforderungen und -verbindlichkeiten der abgeschlossenen Perioden heranziehen. Für ausländische MWST
-    gelten ggf. andere Fristen. Stand PH 20 (2016).
-  quelle: ph-20-mwst-2016__c006-2
-  zitat: in der Schweiz beträgt die Festsetzungsverjährung fünf Jahre
+  bemerkung: 'Unterbrechung u. a. durch Erklärung, Verfügung oder Ankündigung einer Kontrolle; bei Unterbrechung durch ESTV oder Rechtsmittelinstanz neue Frist (mwstg__art-42 «Sie beträgt
+    neu zwei Jahre.»). Absolute Frist: mwst_festsetzungsverjaehrung_absolut. Für die Wesentlichkeit die noch nicht rechtskräftig festgesetzten Steuerforderungen und -verbindlichkeiten
+    der abgeschlossenen Perioden heranziehen (ph-20-mwst-2016__c006-2 «in der Schweiz beträgt die Festsetzungsverjährung fünf Jahre»). Für ausländische MWST gelten ggf. andere Fristen.'
+  quelle: mwstg__art-42
+  zitat: verjährt fünf Jahre nach Ablauf der Steuerperiode, in der die Steuerforderung entstanden ist
+  status: agent-geprueft
+- key: mwst_festsetzungsverjaehrung_absolut
+  bezeichnung: Festsetzungsverjährung MWST (Schweiz), absolute Frist
+  wert: '10'
+  einheit: Jahre nach Ablauf der Steuerperiode
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 42 Abs. 6)
+  kategorie: fristen
+  bemerkung: Gilt ungeachtet von Unterbrechungen. Massgebend auch für die Aufbewahrung (mwst_aufbewahrung_uebrige). Rechtskraft u. a. mit Eintritt der Festsetzungsverjährung (mwstg__art-43
+    «den Eintritt der Festsetzungsverjährung»).
+  quelle: mwstg__art-42
+  zitat: verjährt in jedem Fall zehn Jahre nach Ablauf der Steuerperiode, in der die Steuerforderung entstanden ist
   status: agent-geprueft
 - key: mwst_finalisierung_180_tage
-  bezeichnung: 'MWST-Finalisierung: Korrekturfrist nach Geschäftsabschluss'
+  bezeichnung: 'MWST-Finalisierung: Korrektur von Mängeln spätestens in der Abrechnungsperiode, in die der 180. Tag nach Geschäftsjahresende fällt'
   wert: '180'
-  einheit: Tage nach Geschäftsabschluss
-  gilt: PH 20 (02-2016)
+  einheit: Tage nach Ende des Geschäftsjahres
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 72 Abs. 1)
   kategorie: fristen
-  bemerkung: 'Selbstveranlagung: Spätestens bei der Finalisierung muss die Umsetzung korrekt sein.'
-  quelle: ph-20-mwst-2016__c003-1
-  zitat: Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten Geschäftsabschluss fällt.
+  bemerkung: 'Selbstveranlagung; PH 20: ph-20-mwst-2016__c003-1 «Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten
+    Geschäftsabschluss fällt.» Frühere Perioden: erkannte Mängel nachträglich korrigieren, soweit nicht rechtskräftig oder verjährt (Art. 72 Abs. 2 MWSTG). Die Korrektur ist Sache des
+    Kunden; Feststellungen gehen in den Rapport an den WP.'
+  quelle: mwstg__art-72
+  zitat: spätestens in der Abrechnung über jene Abrechnungsperiode korrigieren, in die der 180. Tag seit Ende des betreffenden Geschäftsjahres fällt
   status: agent-geprueft
 - key: mwst_umsatzabstimmung_frist
-  bezeichnung: Frist für die Umsatzabstimmung (Art. 128 Abs. 2 MWSTV)
+  bezeichnung: Frist für die Umsatzabstimmung (Inhalt nach Art. 128 Abs. 2 MWSTV)
   wert: '180'
   einheit: Tage
   gilt: PH 20 (02-2016)
   kategorie: fristen
-  bemerkung: 'PH 20 Anhang 2, B 1: Liegt für das Vorjahr eine plausible und nachvollziehbare Umsatzabstimmung vor? Abweichungen sind zu begründen. Unterlage beim Kunden anfordern.'
+  bemerkung: 'PH 20 Anhang 2, B 1: Liegt für das Vorjahr eine plausible und nachvollziehbare Umsatzabstimmung vor? Abweichungen sind zu begründen. Inhalt: mwstv__art-128-t1 «Aus der
+    Umsatzabstimmung muss ersichtlich sein, wie die Deklaration für die Steuerperiode» mit dem Jahresabschluss übereinstimmt; die ESTV kann sie einfordern (Art. 128 Abs. 1 Bst. d MWSTV).
+    Die 180 Tage stehen nicht in Art. 128 MWSTV; vgl. Korrekturfrist Art. 72 Abs. 1 MWSTG (mwst_finalisierung_180_tage). Fehlt die Umsatzabstimmung: Pendenz erfassen und als Vorschlag
+    für die PBC-Liste (revio 10.10) aufnehmen. Die Anforderung beim Kunden macht der Mensch (konzept-ki-revisionsagent-2026__c011-2 «fehlende Unterlagen als Vorschlag für die PBC-Liste
+    (10.10)» und «Anforderung beim Kunden durch den Menschen»; konzept-ki-revisionsagent-2026__c009-3 «ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand»).'
   quelle: ph-20-mwst-2016__c011-5
   zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen
   status: agent-geprueft

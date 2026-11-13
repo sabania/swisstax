@@ -1,4 +1,4 @@
-# Werte Kategorie uebrige – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie uebrige – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: or730a_amtsdauer
   bezeichnung: Amtsdauer der Revisionsstelle
@@ -33,25 +33,82 @@ werte:
   zitat: Das Mitwirken bei der Buchführung und das Erbringen anderer Dienstleistungen für die zu prüfende Gesellschaft sind zulässig.
   status: agent-geprueft
 - key: hwp_er_honorar_10_grenze
-  bezeichnung: 'Unabhängigkeit: 10%-Honorargrenze RAG'
-  wert: 10 % (gilt nicht bei eingeschränkter Revision)
-  einheit: '%'
+  bezeichnung: 'Unabhängigkeit: 10%-Honorargrenze RAG bei eingeschränkter Revision'
+  wert: nicht anwendbar bei eingeschränkter Revision (10%-Grenze Art. 11 Abs. 1 Bst. a RAG nur für Gesellschaften des öffentlichen Interesses)
+  einheit: Text
   gilt: HWP ER, Ausgabe 2026
   kategorie: uebrige
-  bemerkung: 'HWP ER Rz 36: Die für Gesellschaften des öffentlichen Interesses geltende gesetzliche 10%-Grenze (Art. 11 Abs. 1 Bst. a RAG) findet keine Anwendung bei der eingeschränkten
-    Revision; wirtschaftliche Abhängigkeit im Einzelfall prüfen; Erfolgshonorare unzulässig.'
+  bemerkung: 'HWP ER Rz 36: keine feste Honorarquote; wirtschaftliche Abhängigkeit im Einzelfall prüfen («Wann eine wirtschaftliche Abhängigkeit vorhanden ist, muss im Einzelfall geprüft
+    werden.»); Erfolgshonorare unzulässig («Erfolgshonorare für Prüfungsdienstleistungen sind nicht vereinbar mit der Unabhängigkeit.»), beide gleicher Chunk. Beurteilung WP.'
   quelle: hwp-er-2026__rz-0036-s156-t3
-  zitat: «10%-Grenze» (Honorare aus Revisions- und anderen Dienstleistungen für einen Kunden im Verhältnis zur gesamten Honorarsumme
+  zitat: findet keine Anwendung bei der eingeschränkten Revision
+  status: agent-geprueft
+- key: or729a_pruefgegenstand
+  bezeichnung: 'Eingeschränkte Revision: Prüfgegenstand'
+  wert: Jahresrechnung und Antrag des VR über die Verwendung des Bilanzgewinns (Gesetz und Statuten)
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 729a Abs. 1 OR (gesetzliche Grundlage des SER): Die Revisionsstelle prüft, ob Sachverhalte vorliegen, aus denen zu schliessen ist, dass die Jahresrechnung (Ziff. 1)
+    oder der Antrag über die Verwendung des Bilanzgewinns (Ziff. 2) nicht Gesetz und Statuten entspricht. Für Ziff. 2 Art. 671–675 OR beiziehen. Abs. 3: «Die Geschäftsführung des Verwaltungsrats
+    ist nicht Gegenstand der Prüfung durch die Revisionsstelle.»'
+  quelle: or__art-729a
+  zitat: über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
+  status: agent-geprueft
+- key: or729a_pruefungsumfang
+  bezeichnung: 'Eingeschränkte Revision: Art der Prüfungshandlungen'
+  wert: Befragungen, analytische Prüfungshandlungen, angemessene Detailprüfungen
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: Art. 729a Abs. 2 OR; Ausgestaltung im SER.
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+  status: agent-geprueft
+- key: or729b_berichtsinhalt
+  bezeichnung: 'Revisionsbericht eingeschränkte Revision: Pflichtinhalt'
+  wert: Hinweis auf eingeschränkte Natur; Stellungnahme zum Ergebnis; Unabhängigkeit/Mitwirken; leitende Person und Befähigung
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 729b Abs. 1 OR: schriftlicher zusammenfassender Bericht an die GV mit (1) Hinweis auf die eingeschränkte Natur, (2) Stellungnahme zum Ergebnis der Prüfung, (3) Angaben
+    zur Unabhängigkeit und ggf. zum Mitwirken bei der Buchführung und zu anderen Dienstleistungen, (4) Angaben zur leitenden Person und deren fachlicher Befähigung. Berichterstattung:
+    SER Kapitel 8; Muster: muster-hwp-er-2026.'
+  quelle: or__art-729b
+  zitat: einen Hinweis auf die eingeschränkte Natur der Revision
+  status: agent-geprueft
+- key: or729b_unterzeichnung
+  bezeichnung: 'Revisionsbericht: Unterzeichnung'
+  wert: durch die Person, die die Revision geleitet hat
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 729b Abs. 2 OR: gesetzliche Grenze für den Agenten – er unterzeichnet und datiert nie. Konzept consis: «Er setzt nie ein Visum, schliesst nichts ab und gibt nichts
+    frei.» (konzept-ki-revisionsagent-2026__c004-1).'
+  quelle: or__art-729b
+  zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
+  status: agent-geprueft
+- key: or730b_unterlagen_auskuenfte
+  bezeichnung: Vorlage- und Auskunftspflicht des VR gegenüber der Revisionsstelle
+  wert: alle benötigten Unterlagen und Auskünfte, auf Verlangen schriftlich
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 730b Abs. 1 OR: Grundlage für Unterlagen- und Fragenlisten. Abs. 2: «Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen», soweit keine gesetzliche Bekanntgabepflicht
+    besteht, und wahrt die Geschäftsgeheimnisse. Kein Kundenversand durch den Agenten (Dienstbenutzer «ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand», konzept-ki-revisionsagent-2026__c009-3).'
+  quelle: or__art-730b
+  zitat: übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte
   status: agent-geprueft
 - key: vst_satz_kapitalertraege
-  bezeichnung: Verrechnungssteuersatz auf Kapitalerträgen (z.B. Dividenden) und Lotteriegewinnen
+  bezeichnung: Verrechnungssteuersatz auf Kapitalerträgen (z.B. Dividenden) und bestimmten Geldspiel-/Lotteriegewinnen
   wert: '35'
   einheit: '%'
-  gilt: Treuhand-Almanach 2026 (Art. 13 VStG)
+  gilt: VStG, Fassung Stand 01.01.2025 (Art. 13 Abs. 1 Bst. a)
   kategorie: uebrige
-  bemerkung: 'Anwendung: Gewinnverwendung und Dividende, VSt-Verbindlichkeit plausibilisieren. Sekundärquelle.'
-  quelle: treuhand-almanach-2026__s068-1
-  zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  bemerkung: 'Gesetz (Art. 13 Abs. 1 Bst. a VStG). Sekundär gleichlautend: treuhand-almanach-2026__s068-1 «35 % auf Kapitalerträgen und Lotteriegewinnen». Anwendung: Gewinnverwendung
+    und Dividende, VSt-Verbindlichkeit plausibilisieren.'
+  quelle: vstg__art-13
+  zitat: 35 Prozent der steuerbaren Leistung
   status: agent-geprueft
 - key: or104_verzugszins
   bezeichnung: Gesetzlicher Verzugszins bei Geldschulden (Art. 104 Abs. 1 OR)
@@ -59,8 +116,9 @@ werte:
   einheit: '% pro Jahr'
   gilt: OR, geltende Fassung
   kategorie: uebrige
-  bemerkung: 'Gilt auch, wenn der vertragliche Zins tiefer ist. Vertraglich höhere Zinsen können auch während des Verzugs gefordert werden (Abs. 2). Anwendung: Verzugszinsen und Rückstellungen
-    für Verzugsfolgen plausibilisieren.'
+  bemerkung: 'Gilt auch, wenn der vertragliche Zins tiefer ist. Vertraglich höhere Zinsen können auch während des Verzugs gefordert werden (Abs. 2). Unter Kaufleuten kann ein höherer
+    Bankdiskonto gelten (Abs. 3): or__art-104 «Unter Kaufleuten können für die Zeit, wo der übliche Bankdiskonto am Zahlungsorte fünf vom Hundert übersteigt». Anwendung: Verzugszinsen
+    und Rückstellungen für Verzugsfolgen plausibilisieren.'
   quelle: or__art-104
   zitat: Verzugszinse zu fünf vom Hundert für das Jahr zu bezahlen
   status: agent-geprueft

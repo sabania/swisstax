@@ -4,13 +4,13 @@ bezeichnung: Rückstellungen
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 12
-    korrigiert: false
-kurzbeschrieb: 'Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Ereignissen (Prozesse, Garantien, Drohverluste usw.): Bestand, Vollständigkeit, Bewertung,
-  Ausweis und Abgrenzung zu passiven Rechnungsabgrenzungen und Eventualverbindlichkeiten (Anhang). Eingeschränkte Revision: Befragung, Vorjahresvergleich, Abstimmung Rückstellungsspiegel;
+    korrigiert: true
+kurzbeschrieb: 'Rückstellungen (Art. 960e OR) für ungewisse Verpflichtungen aus vergangenen Ereignissen (Prozesse, Garantien, Drohverluste): Bestand, Vollständigkeit, Bewertung (Vertretbarkeit
+  der Schätzung), Ausweis, Abgrenzung zu pRA und Eventualverbindlichkeiten (Anhang). Eingeschränkte Revision: schriftliche Antworten, Vorjahresvergleich, Abstimmung Rückstellungsspiegel;
   keine Anwaltsbestätigungen.'
 gesetz:
 - thema: Rückstellungspflicht bei erwartetem Mittelabfluss aus vergangenen Ereignissen
@@ -20,7 +20,7 @@ gesetz:
 - thema: Zulässige weitere Rückstellungen (Garantie, Sanierung Sachanlagen, Restrukturierung, dauerndes Gedeihen)
   quelle: or__art-960e
   zitat: regelmässig anfallende Aufwendungen aus Garantieverpflichtungen
-- thema: Rückstellungen zur Sicherung des dauernden Gedeihens (Charakter stiller Reserven)
+- thema: Zulässige Rückstellungen zur Sicherung des dauernden Gedeihens des Unternehmens (Art. 960e Abs. 3 Ziff. 4 OR)
   quelle: or__art-960e
   zitat: die Sicherung des dauernden Gedeihens des Unternehmens
 - thema: Keine Auflösungspflicht nicht mehr begründeter Rückstellungen
@@ -69,6 +69,12 @@ gesetz:
 - thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
   quelle: or__art-959c-t1
   zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+- thema: 'Kapitalverlust (Art. 725a Abs. 1 OR): Auswirkung zusätzlicher Rückstellungen auf die Kapitaldeckung (Querverweis Prüffeld Eigenkapital P1)'
+  quelle: or__art-725a
+  zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital
+- thema: 'Überschuldung (Art. 725b OR): begründete Besorgnis, Zwischenabschlüsse; Rangrücktritt im Ausmass der Überschuldung (Querverweis P1)'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
 risiken:
 - text: 'Unvollständige Rückstellungen: hängige oder angedrohte Rechtsfälle, Mängelrügen, Garantie- oder andere Verpflichtungen mit Ursache vor dem Stichtag sind nicht erfasst.'
   pruefziele:
@@ -77,11 +83,17 @@ risiken:
   - PA
   quelle: hwp-bur-2023__rz-0510-s260
   zitat: Zur Ermittlung des Rückstellungsbedarfs sind sämtliche am Abschlussstichtag bestehenden sowie die erkennbaren und vor dem Stichtag verursachten Risiken und Lasten
-- text: 'Unterbewertung: gebuchter Betrag liegt unter der bestmöglichen Schätzung bzw. am unteren Ende der Bandbreite oder wird über mehrere Jahre aufgebaut.'
+- text: 'Unterbewertung: gebuchter Betrag liegt unter der bestmöglichen Schätzung bzw. am unteren Ende der Bandbreite.'
   pruefziele:
   - BE
   quelle: hwp-bur-2023__rz-0515-s261
   zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
+- text: Bestehende Verpflichtung wird über mehrere Jahre aufgebaut statt sofort und vollständig zurückgestellt.
+  pruefziele:
+  - BE
+  - VO
+  quelle: hwp-bur-2023__rz-0513-s261
+  zitat: Ein Aufbauen einer Rückstellung über mehrere Jahre ist in diesem Falle nicht zulässig.
 - text: 'Falsche Klassifikation: Verzicht auf Rückstellung zugunsten einer blossen Eventualverbindlichkeit im Anhang trotz schätzbarer Bandbreite.'
   pruefziele:
   - BE
@@ -112,11 +124,25 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0508-s260
   zitat: Eine Inanspruchnahme von Rückstellungen durch Direktbelastung auf dem Rückstellungskonto ist nur für artgleiche Posten zulässig.
-- text: 'Fehlausweis: passive Rechnungsabgrenzungen (Ferien/Überzeit, laufende Steuern) oder Wertberichtigungen unter den Rückstellungen.'
+- text: 'Ausweis: passive Rechnungsabgrenzungen (Ferien/Überzeit, laufende Steuern) unter den Rückstellungen (Grenzen fliessend, ohne Ergebniswirkung → Umgliederung) oder Wertberichtigungen
+    unter den Passiven.'
   pruefziele:
   - DO
-  quelle: hwp-bur-2023__rz-0501-s258
-  zitat: Rückstellungen lassen sich von Rechnungsabgrenzungen (vgl. III.2.13) dadurch unterscheiden, dass bei ihnen Unsicherheiten bezüglich des Zeitpunkts und/oder der Höhe
+  quelle: hwp-bur-2023__rz-0512-s261
+  zitat: Eher unter die passiven Rechnungsabgrenzungen fallen z.B.
+- text: 'Hohe Schätzunsicherheit (v.a. Rechtsstreitigkeiten): Schätzung der Unternehmensleitung nicht vertretbar (Methode ungeeignet oder nicht stetig, Erfahrungen aus Vorjahren nicht
+    berücksichtigt).'
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-er-2026__rz-0395-s272
+  zitat: geschätzte Werte im Zusammenhang mit dem Ausgang von Rechtsstreitigkeiten
+- text: 'Ferien-/Überzeitguthaben pauschal statt je Mitarbeiter (Guthaben × Stundensatz) bemessen: Bewertungsmangel, nicht bloss Ausweisfrage.'
+  pruefziele:
+  - BE
+  - VO
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: Abgrenzungen in Form von Pauschalbeträgen oder Berechnungen auf der Basis von entgangenem Umsatz oder Gewinn sind nicht angemessen.
 unterlagen:
 - dokument: 'Rückstellungsspiegel/Detailaufstellung per Bilanzstichtag (je Rückstellung: Konto, Zweck, Anfangsbestand, Bildung, Verwendung, Auflösung, Endbestand, Begründung)'
   zweck: O1-201, O1-301, O1-404; Grundlage Abstimmung mit Saldoliste/JR
@@ -156,6 +182,18 @@ unterlagen:
   zweck: O1-321
   quelle: ser-2022__anh-d-s073-1
   zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- dokument: Vorjahres-Rückstellungsspiegel und Vorjahresakte (Schätzung VJ, Verwendung/Auflösung im Berichtsjahr)
+  zweck: 'O1-102, O1-201, O1-403: Rückblick auf die Schätzgenauigkeit der Unternehmensleitung'
+  quelle: hwp-er-2026__rz-0397-s273
+  zitat: Die Erfahrungen aus vorangegangenen Prüfungen können ebenfalls hilfreich sein
+- dokument: Versicherungspolicen (Haftpflicht, Rechtsschutz) und Deckungszusagen zu Prozessrisiken; Angaben zu Gegenklagen
+  zweck: 'O1-102, O1-320: Bemessung (Erstattungsanspruch separat, Verrechnungsverbot) und Anhangsangabe'
+  quelle: hwp-bur-2023__rz-0855-s351-t1
+  zitat: allfällige Versicherungsdeckungen und Gegenklagen des Unternehmens
+- dokument: Steuerrechnungen, Veranlagungen, Steuerkorrespondenz (Revisionen, Einsprachen) – Schnittstelle Prüffeld Steuern (S1)
+  zweck: 'O1-201, O1-301: Steuerrückstellung/-abgrenzung und Steuerrisiken'
+  quelle: ser-2022__anh-d-s089-2
+  zitat: Feststellung allfälliger Nachforderungen und Risiken, für welche Rückstellungen zu bilden sind
 - dokument: Jahresrechnung inkl. Anhang (Berichtsjahr und Vorjahr), Saldoliste mit Vorjahressaldi
   zweck: O1-201, O1-301, O1-320
 bewertung:
@@ -177,18 +215,25 @@ bewertung:
 - regel: 'Bemessung nach bestmöglicher Schätzung; Bandbreite genügt als verlässliche Schätzung; Vorsicht: eher oberes Ende der Bandbreite.'
   quelle: hwp-bur-2023__rz-0516-s261
   zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
+- regel: Bei hohen Beträgen und langen Zeiträumen (z.B. langfristige Garantierückstellungen) kann eine Diskontierung mit anschliessender Aufzinsung sinnvoll sein.
+  quelle: hwp-bur-2023__rz-0515-s261
+  zitat: Eine Diskontierung des erwarteten Mittelabflusses mit anschliessender Aufzinsung des Rückstellungsbetrags kann bei hohen Beträgen und langen Zeiträumen sinnvoll sein.
 - regel: 'Nur ausnahmsweise nicht schätzbar: dann Eventualverbindlichkeit im Anhang statt Rückstellung.'
   quelle: hwp-bur-2023__rz-0516-s261
   zitat: Derartige Verbindlichkeiten sind im Anhang als Eventualverbindlichkeiten auszuweisen.
 - regel: Bei bestehender Verpflichtung sofort und vollständig bilden, kein Aufbau über mehrere Jahre; handelsrechtlich nötige Rückstellungen auch ohne steuerliche Anerkennung.
   quelle: hwp-bur-2023__rz-0513-s261
   zitat: Bei einer bestehenden Verpflichtung ist eine Rückstellung sofort und in vollem Umfang zu bilden.
-- regel: 'Stichtagsprinzip: Ursache vor Stichtag, Kenntnis danach (vor Abschlusserstellung) → zurückstellen; Ursache nach Stichtag → keine Rückstellungspflicht.'
+- regel: 'Stichtagsprinzip: Ursache vor Stichtag, Kenntnis danach (vor Abschlusserstellung) → zurückstellen; Ursache nach Stichtag → keine Rückstellungspflicht, aber als stille Reserve
+    zulässig (→ O1-321).'
   quelle: hwp-bur-2023__rz-0531-s264
-  zitat: Für Verluste, deren Ursache nach dem Bilanzstichtag eingetreten ist, besteht keine Rückstellungspflicht
+  zitat: doch können solche Rückstellungen im schweizerischen Recht gestützt auf die Zulässigkeit stiller Reserven gebildet werden
 - regel: Prozessrisiken sind trotz Schwierigkeit abzuschätzen und zurückzustellen; Stellungnahmen der beauftragten Anwälte empfohlen (Erstellerseite).
   quelle: hwp-bur-2023__rz-0526-s263
   zitat: Es empfiehlt sich, bei laufenden Prozessen von den beauftragten Anwältinnen und Anwälten Stellungnahmen über den mutmasslichen Prozessausgang
+- regel: 'Bemessung Prozessrisiko: mutmasslicher Ausgang und Höhe der Schadenersatzverpflichtung einschliesslich Prozesskosten.'
+  quelle: hwp-bur-2023__rz-0526-s263
+  zitat: die Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
 - regel: Garantierückstellungen anhand Erfahrungszahlen und Garantiedauer ermitteln.
   quelle: hwp-bur-2023__rz-0523-s262
   zitat: Beispielsweise kann bei Serienprodukten die Rückstellung aufgrund von Erfahrungszahlen unter Berücksichtigung der durchschnittlichen vertraglichen oder gesetzlichen Garantiedauer
@@ -199,12 +244,24 @@ bewertung:
 - regel: 'Solidarbürgschaften/-schulden: bei Gefährdung des Hauptschuldners oft ganzer Betrag zurückzustellen.'
   quelle: hwp-bur-2023__rz-0529-s264
   zitat: Für Solidarbürgschaften und -schulden ist bei Gefährdung der Hauptschuldnerin bzw. des Hauptschuldners häufig der ganze Betrag zurückzustellen
-- regel: Steuernachforderungen (Revisionen, Rechtsmittelverfahren) je nach Wahrscheinlichkeit zurückstellen; laufende Steuern sind eher passive Rechnungsabgrenzung.
+- regel: Steuernachforderungen (Steuerrevisionen, hängige Rechtsmittelverfahren) je nach Wahrscheinlichkeit zurückstellen.
   quelle: hwp-bur-2023__rz-0547-s269
   zitat: Je nach Wahrscheinlichkeit einer Steuernachforderung ist am Tag der Bilanzerstellung die Höhe der erforderlichen Rückstellung zu schätzen.
-- regel: 'Ferien- und Überzeitguthaben: zwingend abzugrenzen, als passive Rechnungsabgrenzung; Pauschalbeträge nicht angemessen.'
+- regel: Geschuldete laufende Steuern sind schon vor der Veranlagung unter den übrigen kurzfristigen Verbindlichkeiten oder den pRA auszuweisen.
+  quelle: hwp-bur-2023__rz-0546-s269
+  zitat: Geschuldete Steuern sind schon vor der Veranlagung unter den übrigen kurzfristigen Verbindlichkeiten oder den passiven Rechnungsabgrenzungen auszuweisen.
+- regel: 'Ferien- und Überzeitguthaben sind zwingend abzugrenzen (je Mitarbeiter: Guthaben × Stundensatz inkl. Sozialleistungen); Pauschalbeträge sind nicht angemessen.'
   quelle: qa-or-rechnungslegung-2026__2-2-t1
   zitat: Abgrenzungen in Form von Pauschalbeträgen oder Berechnungen auf der Basis von entgangenem Umsatz oder Gewinn sind nicht angemessen.
+- regel: 'Abgrenzung pRA/Rückstellung: Grenzen fliessend; laufende Steuern, Ferien/Überzeit, Boni u.ä. fallen eher unter die pRA.'
+  quelle: hwp-bur-2023__rz-0512-s261
+  zitat: wobei die Grenzen fliessend sein können
+- regel: Ausweis von Ferien-/Überzeitabgrenzungen unter den Rückstellungen ist in der Praxis anzutreffen und ohne Einfluss auf das Periodenergebnis (→ Umgliederungshinweis).
+  quelle: qa-or-rechnungslegung-2026__2-2-t2
+  zitat: In der Praxis ist auch ein Ausweis unter den Rückstellungen anzutreffen, was jedoch keinen Einfluss auf das Periodenergebnis hat.
+- regel: Kurzfristige Rückstellungen dürfen als Teil der pRA oder als separate Position ausgewiesen werden.
+  quelle: hwp-bur-2023__rz-0225-s111
+  zitat: Kurzfristige Rückstellungen sind als Teil der passiven Rechnungsabgrenzungen oder als separate Position auszuweisen.
 - regel: Bildung zulasten der sachlich zugehörigen Aufwandposition; ausserordentliche/einmalige/periodenfremde Bildung als solche erfassen und im Anhang erläutern.
   quelle: hwp-bur-2023__rz-0504-s259
   zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
@@ -220,6 +277,26 @@ bewertung:
 - regel: Wertberichtigungen sind von Rückstellungen zu unterscheiden und beim Aktivum abzusetzen, nicht unter den Passiven.
   quelle: hwp-bur-2023__rz-0499-s258
   zitat: Die Rückstellungen sind von den Wertberichtigungen zu unterscheiden
+- regel: 'Prüfungsmassstab ER für geschätzte Werte: mit dem Regelwerk vereinbar und daher vertretbar (HWP ER III.4.2.8.1.2).'
+  quelle: hwp-er-2026__rz-0397-s273
+  zitat: ob die durch die Unternehmensleitung geschätzten Werte im zu prüfenden Abschluss mit den Anforderungen des massgebenden Regelwerks der Rechnungslegung vereinbar und daher vertretbar
+    sind
+- regel: Der Abschlussprüfer prüft Eignung und stetige Anwendung der Bewertungsmethode.
+  quelle: hwp-er-2026__rz-0397-s273
+  zitat: Eignung der Bewertungsmethode wie auch deren stetige Anwendung prüft
+- regel: 'Erfahrungen aus Vorjahren nutzen (Rückblick: Vorjahresschätzung gegenüber tatsächlicher Verwendung/Auflösung).'
+  quelle: hwp-er-2026__rz-0397-s273
+  zitat: Die Erfahrungen aus vorangegangenen Prüfungen können ebenfalls hilfreich sein
+- regel: Geschätzte Werte zum Ausgang von Rechtsstreitigkeiten haben eine relativ hohe Schätzunsicherheit.
+  quelle: hwp-er-2026__rz-0395-s272
+  zitat: geschätzte Werte im Zusammenhang mit dem Ausgang von Rechtsstreitigkeiten
+- regel: 'Nicht vertretbare Schätzung: der Abschlussprüfer (WP) verlangt eine Korrektur, sonst modifizierte Prüfungsaussage; der Agent meldet nur.'
+  quelle: hwp-er-2026__rz-0400-s273
+  zitat: Gelangt der Abschlussprüfer zum Schluss, dass der durch die Unternehmensleitung geschätzte Wert nicht vertretbar ist, verlangt er eine Korrektur des Abschlusses.
+- regel: 'Hohe, bedeutsame Schätzunsicherheit bei völlig offenem Ausgang (z.B. Gerichtsentscheide, Haftungsfälle): Angabe im Anhang; der Abschlussprüfer wirkt auf angemessene Darstellung
+    hin.'
+  quelle: hwp-er-2026__rz-0402-s273
+  zitat: In diesen Fällen wirkt der Abschlussprüfer darauf hin, dass die Angaben im Anhang des Abschlusses die vorhandene Unsicherheit angemessen darstellen.
 fallstricke:
 - text: 'Anwaltsbestätigungen und Experten-Gutachten sind nicht Bestandteil der eingeschränkten Revision: der Agent fordert sie nie an; nur vom Unternehmen selbst eingeholte Stellungnahmen
     werden als Nachweis verwendet.'
@@ -232,9 +309,10 @@ fallstricke:
     ist zu hinterfragen.
   quelle: hwp-bur-2023__rz-0516-s261
   zitat: Eine grosse Bandbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten
-- text: Konten mit der Bezeichnung «Rückstellung» für Ferien/Überzeit oder laufende Steuern sind inhaltlich passive Rechnungsabgrenzungen; pauschale Ferienabgrenzungen sind nicht angemessen.
-  quelle: qa-or-rechnungslegung-2026__2-2-t1
-  zitat: die als passive Rechnungsabgrenzung auszuweisen ist
+- text: Konten «Rückstellung» für Ferien/Überzeit oder laufende Steuern gehören eher zu den pRA; der Ausweis unter Rückstellungen ist ohne Ergebniswirkung (Q&A 2.2) → nur Umgliederungshinweis.
+    Eine pauschale Ferienabgrenzung ist dagegen eine Bewertungsfeststellung.
+  quelle: hwp-bur-2023__rz-0512-s261
+  zitat: Eher unter die passiven Rechnungsabgrenzungen fallen z.B.
 - text: Umwidmung nicht benötigter Rückstellungen (z.B. Garantie in Prozessrisiko) ohne Erfolgsrechnung ist unzulässig.
   quelle: hwp-bur-2023__rz-0508-s260
   zitat: Eine nicht benötigte Garantierückstellung darf auch nicht durch blosse Änderung der Bezeichnung
@@ -242,10 +320,15 @@ fallstricke:
     meldet nur).
   quelle: hwp-er-2026__rz-0139-s204-t3
   zitat: Im Grundsatz gilt, dass immer dann, wenn der Abschlussprüfer die Höhe der noch erforderlichen Rückstellung nicht abschätzen kann
-- text: Bei völlig offenem Ausgang aussergewöhnlicher Rechtsstreitigkeiten kommt ein Zusatz im Revisionsbericht in Frage (objektive Unüberprüfbarkeit, angemessene Offenlegung vorausgesetzt)
-    – Entscheid WP.
+- text: Bei völlig offenem Ausgang von Rechtsstreitigkeiten kann ein Zusatz mit weiteren Informationen im Revisionsbericht in Frage kommen – Entscheid WP.
   quelle: ser-2022__8-3-2-t3
-  zitat: 'wesentliche Unsicherheiten (objektive Unüberprüfbarkeiten, Beispiele: Gerichtsentscheide'
+  zitat: dies immer unter der Voraussetzung, dass der Ausgang der hängigen Situation völlig offen ist
+- text: Bei hoher Schätzunsicherheit muss der Anhang die Unsicherheit angemessen darstellen; sonst modifiziert der WP die Prüfungsaussage (Agent meldet nur).
+  quelle: hwp-er-2026__rz-0402-s273
+  zitat: In diesen Fällen wirkt der Abschlussprüfer darauf hin, dass die Angaben im Anhang des Abschlusses die vorhandene Unsicherheit angemessen darstellen.
+- text: 'Prozess ohne Rückstellung und ohne Anhangsangabe: SER Anhang F Beispiel 3 zeigt dafür eine verneinende Prüfungsaussage – Beurteilung allein durch den WP.'
+  quelle: ser-2022__anh-f-s120-2
+  zitat: Entsprechende Angaben im Anhang der Jahresrechnung fehlen.
 - text: Stille Reserven in Rückstellungen sind zulässig, fiktive Verbindlichkeiten nicht; eine wesentliche Nettoauflösung ist im Anhang offenzulegen.
   quelle: hwp-bur-2023__rz-0669-s296
   zitat: schliessen es unter anderem aus, Aktiven wegzulassen und fiktive Verbindlichkeiten zu bilanzieren
@@ -259,12 +342,21 @@ fallstricke:
 - text: 'Der Agent bucht nicht: Korrekturbedarf nur als begründeter Buchungsvorschlag unter «Wesentliche Feststellungen»; Visum bleibt offen.'
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- text: 'Rückstellungen nach Stichtag verursachter Verluste sind keine Pflicht, aber als stille Reserven zulässig: nicht als unzulässig beurteilen, sondern in O1-321 erfassen.'
+  quelle: hwp-bur-2023__rz-0531-s264
+  zitat: doch können solche Rückstellungen im schweizerischen Recht gestützt auf die Zulässigkeit stiller Reserven gebildet werden
+- text: Bei Kapitalverlust oder Überschuldung erhöht eine zusätzliche Rückstellung die Unterdeckung; quantifizierte Differenz an Prüffeld Eigenkapital (P1) und den WP melden.
+  quelle: or__art-725a
+  zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital
+- text: Weiter gehende Prüfungshandlungen (WP-Schritte O1-302/O1-303) löst der Agent nicht selbst aus; ob sie angezeigt sind, entscheidet der WP.
+  quelle: ser-2022__6-2-3
+  zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
 fragen_kunde:
 - frage: 'Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei,
-    Streitgegenstand, Streitwert, Verfahrensstand, Einschätzung des Ausgangs, beauftragter Rechtsvertreter.'
+    Streitgegenstand, Streitwert, Verfahrensstand bzw. Stand im Instanzenzug, Einschätzung des Ausgangs, beauftragter Rechtsvertreter, allfällige Versicherungsdeckungen und Gegenklagen.'
   zweck: O1-101, O1-320; Pendenz bis schriftliche Antwort vorliegt
-- frage: Wie hat die Geschäftsleitung das finanzielle Ausmass je Risiko geschätzt (Bandbreite, wahrscheinlichster Betrag, Anwalts- und Gerichtskosten), und weshalb wurde genau der gebuchte
-    Betrag gewählt?
+- frage: Wie hat die Geschäftsleitung das finanzielle Ausmass je Risiko geschätzt (Methode, Bandbreite, wahrscheinlichster Betrag, Anwalts- und Gerichtskosten), weshalb wurde genau der
+    gebuchte Betrag gewählt, und wie wurden die Vorjahresrückstellungen tatsächlich verwendet oder aufgelöst?
   zweck: O1-102, O1-403; Nachvollzug der Schätzung
 - frage: Gibt es nicht erfasste Verbindlichkeiten oder Eventualverbindlichkeiten (Bürgschaften, Garantien, Patronatserklärungen, Solidarhaftungen, für Dritte bestellte Sicherheiten,
     Rückbau-/Rücknahmeverpflichtungen, verlustbringende schwebende Geschäfte)?
@@ -274,28 +366,30 @@ fragen_kunde:
   zweck: O1-201, O1-302, O1-403
 - frage: Sind nach dem Bilanzstichtag Zahlungen, Vergleiche, Urteile, Gutschriften oder Kulanzleistungen zu Sachverhalten erfolgt oder absehbar, deren Ursache vor dem Stichtag liegt?
   zweck: O1-303; Ereignisse nach dem Bilanzstichtag
-- frage: Gibt es beschlossene Restrukturierungen, belastende Liefer-/Abnahmeverträge (Drohverluste) oder Steuerrisiken aus laufenden Veranlagungen bzw. Revisionen?
-  zweck: O1-101; Vollständigkeit der Rückstellungen
+- frage: Gibt es beschlossene Restrukturierungen, bedeutende schwebende Geschäfte (z.B. belastende Liefer-/Abnahmeverträge, Drohverluste) oder andere Ursachen vor dem Stichtag mit Verlustrisiko,
+    oder Steuerrisiken aus laufenden Veranlagungen bzw. Revisionen?
+  zweck: 'O1-101, O1-303; Vollständigkeit der Rückstellungen (Steuerrisiken: Abstimmung mit S1)'
 - frage: Welche Rückstellungen sind betriebswirtschaftlich nicht mehr oder nicht in dieser Höhe erforderlich (stille Reserven), und wie haben sich diese gegenüber dem Vorjahr verändert?
   zweck: O1-321; Nettoauflösung im Anhang
 - frage: Hat die Gesellschaft selbst Stellungnahmen von Anwälten oder Gutachten zu Rechtsfällen oder Schätzungen eingeholt? Falls ja, bitte zur Verfügung stellen.
   zweck: O1-401, O1-403 c); Revisionsstelle fordert solche Bestätigungen nicht selbst an
 testakte_2025:
 - datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
-  bezug: 'Blatt «Rückstellungen» (Rückstellungsspiegel 2330/2630/2370/2340: Stand 01.01., Bildung, Verwendung/Auflösung, Stand 31.12.): O1-201, O1-301, O1-321, O1-404; Blatt «Berechnung
-    Garantie» (Satz × Umsatz Kraftwerke, gebucht gerundet): O1-302, O1-403; Blatt «Passive Abgrenzungen» nur zur Abgrenzung pRA/Rückstellung (O1-301, O1-405)'
+  bezug: 'Blatt «Rückstellungen» (Rückstellungsspiegel 2330/2630/2370/2340: Stand 01.01., Bildung, Verwendung/Auflösung, Stand 31.12.): O1-201, O1-301, O1-321, O1-404; 2370 «pauschal
+    geschätzt GF» = Bewertungsfrage (O1-301/O1-403), Ausweis nur Umgliederungshinweis (O1-405); 2340 per 31.12.2025 = 0 (VJ 130''000, ST-24 verwendet): Abgrenzung Steuern 2025 mit S1
+    klären; Blatt «Berechnung Garantie» (Satz × Umsatz Kraftwerke, gebucht gerundet): O1-302, O1-403'
 - datei: K_Passive_Abgrenzungen_Rueckstellungen/Aktennotiz_Rechtsfall_Kunstrasen_Fiktiv_AG.md
-  bezug: 'Grundlage Rückstellung 2330 (Sachverhalt, Klageankündigung, Einschätzung Rechtsvertreter mit Bandbreite/Kosten, Entscheid GF): O1-101, O1-102, O1-302, O1-403 b)/d), O1-320
-    (Anhangsangaben), O1-401 (vorhandene Einschätzung des Rechtsvertreters)'
+  bezug: 'Grundlage Rückstellung 2330 (Sachverhalt, Klageankündigung, Einschätzung Rechtsvertreter mit Bandbreite/wahrscheinlichstem Betrag/Kosten, Entscheid GF): O1-101, O1-102 (Vertretbarkeit,
+    Schätzdifferenz), O1-302, O1-403, O1-320 (Anhangsangaben), O1-401 (vorhandene Einschätzung des Rechtsvertreters)'
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'Konten 2330, 2630, 2340, 2370 mit Vorjahr/Veränderung und Gruppenzuordnung: O1-201, O1-301, O1-405; Erfolgskonten 3200 (Bemessungsgrundlage Garantie), 4404 (Garantieaufwand),
-    6530/6330 (Beratung/Rechtsschutz), 8500 (a.o. Aufwand): O1-201, O1-402, O1-405'
+  bezug: 'Konten 2330, 2630, 2340, 2370 mit Vorjahr/Veränderung und Gruppenzuordnung (2340/2370 bereits unter pRA): O1-201, O1-301, O1-405; Erfolgskonten 3200 (Bemessungsgrundlage Garantie),
+    4404 (Garantieaufwand), 6530/6330 (Beratung/Rechtsschutz), 8500 (a.o. Aufwand), 8900 Direkte Steuern (Schnittstelle S1): O1-201, O1-402, O1-405'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
   bezug: 'Kontoblätter 2330, 2630, 2370, 2340 (Buchungen AB-34/36/37, ST-24, AB-01 mit Gegenkonten): O1-301, O1-404, O1-405; Kontoblatt 1100 (Faktura RE-2025-0499 Kunstrasen) für O1-403
     a)'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: 'Bilanzpositionen kurz-/langfristige Rückstellungen und pRA (O1-301, O1-405), ER a.o. Aufwand (O1-405), Anhang Ziff. 1 Grundsätze (stille Reserven), Ziff. 3 a.o. Positionen,
-    Ziff. 6 Ereignisse nach Stichtag, Ziff. 7 sonstige Angaben: O1-320, O1-321'
+    Ziff. 6 Ereignisse nach Stichtag, Ziff. 7 sonstige Angaben: O1-320, O1-321; negatives Eigenkapital/Rangrücktritte (Ziff. 6): Auswirkung einer Unterdeckung an P1 melden (O1-403)'
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
   bezug: 'Buchungen in neuer Rechnung (u.a. Gutschrift Kunstrasen Fiktiv AG GS-2026-003 auf 1100/3200): O1-303, O1-403 a), O1-402'
 - datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
@@ -307,7 +401,8 @@ testakte_2025:
 - datei: E_Angefangene_Arbeiten_Anzahlungen/Abnahmeprotokoll_P-2025-03_Fiktivia.md
   bezug: 'Abnahme und Beginn Garantiefrist eines Projekts: O1-302, O1-403 a) (Grundlage/Plausibilisierung Garantierückstellung)'
 - datei: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md
-  bezug: 'Detailnachweis Ferien-/Überzeitguthaben zu Konto 2370 (im Rückstellungsspiegel geführt): O1-301 kritische Durchsicht, O1-405 Ausweis pRA vs. Rückstellung'
+  bezug: 'Detailnachweis Ferien-/Überzeitguthaben je Mitarbeiter zu Konto 2370: Total Liste (101''374.77) ≠ pauschal gebuchte 10''000 → Bewertungsdifferenz (O1-301, O1-403); Ausweis
+    unter «Rückstellung» nur Umgliederungshinweis (O1-405)'
 - datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
   bezug: 'Protokolldurchsicht auf Hinweise zu Risiken/Beschlüssen: O1-101, O1-103'
 - datei: 00_Allgemein/Belegverzeichnis.md
@@ -336,16 +431,21 @@ schritte:
     zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: ser-2022__anh-d-s100-1
+    zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlustrisiko beinhalten
 - id: O1-102
-  vorgehen: 'Besprechung führt der WP. Agent bereitet vor: Schätzung der Unternehmensleitung je Risiko (Bandbreite, wahrscheinlichster Betrag, Kosten) aus Aktennotizen/Antworten zusammenstellen
-    und mit dem gebuchten Betrag vergleichen; Abweichungen und offene Fragen als Punkt «Schlussbesprechung» bzw. Pendenz erfassen. Im Textfeld Herleitung und Vergleich dokumentieren.'
+  vorgehen: 'Besprechung führt der WP. Agent bereitet vor: Schätzung der Unternehmensleitung je Risiko (Methode, Bandbreite, wahrscheinlichster Betrag, Prozesskosten) aus Aktennotizen/Antworten
+    zusammenstellen, mit dem gebuchten Betrag vergleichen und Vertretbarkeit beurteilen (Methode geeignet und stetig; Rückblick Vorjahresrückstellung gegenüber Verwendung/Auflösung).
+    Nicht vertretbar: Hinweis an WP; die Korrektur verlangt nur der WP.'
   nachweise:
   - Aktennotiz/Einschätzung Unternehmensleitung bzw. Rechtsvertreter
   - schriftliche Antwort zur Schätzung
-  - Rückstellungsspiegel
-  rechnen: 'Je Risiko: Differenz = (wahrscheinlichster Betrag gemäss Einschätzung + erwartete Anwalts-/Gerichtskosten) − gebuchte Rückstellung; Lage des gebuchten Betrags innerhalb der
-    Bandbreite (unter/innerhalb/über).'
-  feststellung_wenn: Gebuchter Betrag liegt unter der eigenen Schätzung bzw. Bandbreite der Unternehmensleitung/Rechtsvertretung oder Schätzung ist nicht dokumentiert bzw. nicht nachvollziehbar.
+  - Rückstellungsspiegel Berichtsjahr und Vorjahr
+  - Kontoblätter (Verwendung/Auflösung Vorjahresrückstellungen)
+  rechnen: 'Je Risiko: bestmögliche Schätzung = wahrscheinlichster Betrag + erwartete Anwalts-/Gerichtskosten; Differenz = bestmögliche Schätzung − gebuchte Rückstellung; Lage in der
+    Bandbreite (unter/innerhalb/über); Rückblick: Rückstellung VJ − (Verwendung + Auflösung) Berichtsjahr.'
+  feststellung_wenn: Gebuchter Betrag unter Schätzung bzw. Bandbreite von Unternehmensleitung/Rechtsvertretung, Schätzung nicht dokumentiert oder Methode ungeeignet/nicht stetig (nicht
+    vertretbar) → Hinweis an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s088-1
     zitat: Besprechung der Einschätzung des finanziellen Ausmasses solcher Risiken durch die Unternehmensleitung
@@ -355,6 +455,19 @@ schritte:
     zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
   - quelle: hwp-bur-2023__rz-0515-s261
     zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
+  - quelle: hwp-er-2026__rz-0397-s273
+    zitat: ob die durch die Unternehmensleitung geschätzten Werte im zu prüfenden Abschluss mit den Anforderungen des massgebenden Regelwerks der Rechnungslegung vereinbar und daher
+      vertretbar sind
+  - quelle: hwp-er-2026__rz-0397-s273
+    zitat: Eignung der Bewertungsmethode wie auch deren stetige Anwendung prüft
+  - quelle: hwp-er-2026__rz-0397-s273
+    zitat: Die Erfahrungen aus vorangegangenen Prüfungen können ebenfalls hilfreich sein
+  - quelle: hwp-er-2026__rz-0400-s273
+    zitat: Gelangt der Abschlussprüfer zum Schluss, dass der durch die Unternehmensleitung geschätzte Wert nicht vertretbar ist, verlangt er eine Korrektur des Abschlusses.
+  - quelle: hwp-er-2026__rz-0395-s272
+    zitat: geschätzte Werte im Zusammenhang mit dem Ausgang von Rechtsstreitigkeiten
+  - quelle: hwp-bur-2023__rz-0526-s263
+    zitat: die Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
 - id: O1-103
   vorgehen: Schriftliche Antworten und Vollständigkeitserklärung zu nicht erfassten Verbindlichkeiten/Eventualverbindlichkeiten auswerten; Hinweise aus Bankbestätigungen (Garantien,
     Sicherheiten), Verträgen und Protokollen sammeln. Je Sachverhalt Einordnung nach Ungewissheit (Verbindlichkeit/Rückstellung/Eventualverbindlichkeit/kein Ausweis) vorschlagen und
@@ -381,9 +494,9 @@ schritte:
     zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten (Garantien, Bürgschaften und vergleichbare Erklärungen gegenüber Dritten) in der Jahresrechnung
       ordnungsgemäss erfasst
 - id: O1-201
-  vorgehen: Rückstellungskonten aus der Saldoliste (31.12. Berichtsjahr vs. Vorjahr) je Konto vergleichen; Anfangsbestände des Rückstellungsspiegels mit den Vorjahressaldi abstimmen.
-    Wesentliche Veränderungen (neu, aufgelöst, verwendet) erklären lassen; Garantierückstellung mit Bemessungsgrundlage (Umsatz) und Garantieaufwand im Zeitvergleich plausibilisieren.
-    Ergebnis tabellarisch im Textfeld.
+  vorgehen: 'Rückstellungskonten aus der Saldoliste (31.12. Berichtsjahr vs. Vorjahr) je Konto vergleichen; Anfangsbestände des Rückstellungsspiegels mit den Vorjahressaldi abstimmen;
+    Garantierückstellung mit Umsatz und Garantieaufwand plausibilisieren. Erklärungen aus vorhandenen schriftlichen Antworten/Unterlagen entnehmen; fehlt eine Erklärung → Frage als Pendenz
+    (Kundenbefragung über WP). Steuerrückstellung: Hinweis an S1. Tabelle im Textfeld.'
   nachweise:
   - Saldoliste mit Vorjahressaldi
   - Rückstellungsspiegel
@@ -400,16 +513,17 @@ schritte:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - id: O1-301
-  vorgehen: 'Rückstellungsspiegel/Detailaufstellung mit Saldoliste, Hauptbuch und Bilanzposition der JR abstimmen und Zeilenarithmetik nachrechnen. Kritische Durchsicht: Zweck und Begründung
-    je Position dokumentiert, vergangenes Ereignis erkennbar, Abgrenzung zu pRA (Ferien/Überzeit, laufende Steuern) und Wertberichtigungen, Fristigkeit. Abweichungen und Auffälligkeiten
-    im Textfeld.'
+  vorgehen: 'Rückstellungsspiegel mit Saldoliste, Hauptbuch und Bilanzposition der JR abstimmen, Zeilenarithmetik nachrechnen. Kritische Durchsicht: Zweck und Begründung je Position,
+    vergangenes Ereignis, Bemessungsgrundlage (pauschal?), Abgrenzung zu pRA und Wertberichtigungen, Fristigkeit. Steuerrückstellung/-abgrenzung: klären, wo laufende Steuern abgegrenzt
+    sind (Prüffeld S1). Abweichungen im Textfeld.'
   nachweise:
   - Rückstellungsspiegel
   - Saldoliste
   - Kontoblätter Rückstellungskonten
   - Jahresrechnung (Bilanz)
   rechnen: 'Je Zeile: Anfang + Bildung − Verwendung − Auflösung = Ende; Summe Endbestände je Gruppe = Saldo Konten (z.B. 2330 bzw. 2630) gemäss Saldoliste = Bilanzposition JR.'
-  feststellung_wenn: Differenz Spiegel ↔ Saldoliste/JR, Rechenfehler, Position ohne erkennbaren Zweck/Grundlage oder sachfremder Inhalt (pRA, Wertberichtigung) unter Rückstellungen.
+  feststellung_wenn: Differenz Spiegel ↔ Saldoliste/JR, Rechenfehler, Position ohne erkennbaren Zweck/Grundlage, pauschale Bemessung oder Wertberichtigung unter Rückstellungen; pRA unter
+    Rückstellungen → Umgliederungshinweis (O1-405).
   fundstellen:
   - quelle: ser-2022__anh-d-s088-1
     zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung und kritische Durchsicht
@@ -419,10 +533,14 @@ schritte:
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
   - quelle: hwp-bur-2023__rz-0501-s258
     zitat: Rückstellungen lassen sich von Rechnungsabgrenzungen (vgl. III.2.13) dadurch unterscheiden, dass bei ihnen Unsicherheiten bezüglich des Zeitpunkts und/oder der Höhe
+  - quelle: ser-2022__anh-d-s089-2
+    zitat: Feststellung allfälliger Nachforderungen und Risiken, für welche Rückstellungen zu bilden sind
+  - quelle: qa-or-rechnungslegung-2026__2-2-t1
+    zitat: Abgrenzungen in Form von Pauschalbeträgen oder Berechnungen auf der Basis von entgangenem Umsatz oder Gewinn sind nicht angemessen.
 - id: O1-302
-  vorgehen: 'Weiter gehende Handlung (WP-Schritt): nur bei erhöhtem Risiko bzw. Anweisung WP vorbereiten. Je wesentliche Rückstellung Grundlagen in M-Files suchen (Verträge, Klageschriften,
-    Mängelrügen, Aktennotizen, Berechnungen/Richtlinien) und prüfen: vergangenes Ereignis vor Stichtag, Verpflichtung gegenüber Dritten, Berechnung nachvollziehbar. Fehlende Grundlagen
-    als Pendenz mit Konto/Betrag.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten. Bei Anzeichen erhöhten Risikos (z.B. angekündigte Klage, Rückstellung unter der Bandbreite) meldet der Agent
+    dem WP, dass weiter gehende Handlungen nach SER 6.2.3 angezeigt sein können (Notiz Pendenz). Mit Anweisung: je Rückstellung Grundlagen in M-Files suchen, Ereignis vor Stichtag, Verpflichtung
+    gegenüber Dritten und Berechnung prüfen; Fehlendes als Pendenz.'
   nachweise:
   - Verträge, Klageschriften, Mängelrügen
   - Aktennotizen/Einschätzungen
@@ -439,10 +557,12 @@ schritte:
     zitat: müssen gebildet werden, wenn die folgenden Voraussetzungen kumulativ erfüllt sind
   - quelle: ser-2022__4-3-1
     zitat: Wegen des Verbots der Bilanzierung fiktiver Verbindlichkeiten ist dies aber auch für die Passiven zu beachten.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: O1-303
-  vorgehen: 'Weiter gehende Handlung (WP-Schritt): Kontoblätter der neuen Rechnung (Rückstellungs-, Debitoren-, Ertrags-/Erlösminderungs-, Rechts- und Garantieaufwandkonten) und Kreditorenjournal
-    bis zum Prüfungsdatum auf Verwendungen, Zahlungen, Vergleiche, Gutschriften/Kulanz und neue Ansprüche mit Ursache vor dem Stichtag durchsehen; Ergebnis mit gebuchter Rückstellung
-    vergleichen und im Textfeld auflisten.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; Anzeichen erhöhten Risikos dem WP melden (SER 6.2.3, Notiz Pendenz). Mit Anweisung: Kontoblätter neue Rechnung
+    (Rückstellungs-, Debitoren-, Erlösminderungs-, Rechts-, Garantieaufwand) und Kreditorenjournal bis Prüfungsdatum auf Verwendungen, Zahlungen, Vergleiche, Gutschriften und neue Ansprüche
+    mit Ursache vor Stichtag durchsehen; mit Rückstellung vergleichen.'
   nachweise:
   - Kontoblätter neue Rechnung
   - Kreditorenjournal neue Rechnung
@@ -460,16 +580,23 @@ schritte:
     zitat: Verluste, deren Ursache vor dem Abschlussstichtag liegt, die aber erst danach, jedoch vor Erstellung des Abschlusses bekannt werden, müssen zurückgestellt werden.
   - quelle: hwp-er-2026__rz-0321-s255-t2
     zitat: ob Ereignisse eingetreten sind, die für die Ermittlung von geschätzten Werten oder Rückstellungen im Abschluss relevant sind
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: ser-2022__6-2-3
+    zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
+  - quelle: ser-2022__anh-d-s100-1
+    zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlustrisiko beinhalten
 - id: O1-320
-  vorgehen: 'Anhang auf rückstellungsbezogene Angaben durchsehen: Eventualverbindlichkeiten (insb. nicht schätzbare Prozessrisiken mit Partei, Streitgegenstand, Streitwert), Sicherheiten
-    für Dritte, Erläuterung ausserordentlicher/einmaliger/periodenfremder Bildung oder Auflösung, Ereignisse nach dem Stichtag, Grundsätze und Nettoauflösung stiller Reserven. Fehlende
-    Angaben im Textfeld und als Feststellung.'
+  vorgehen: 'Anhang auf rückstellungsbezogene Angaben durchsehen: Eventualverbindlichkeiten (nicht schätzbare Prozessrisiken: Partei, Streitgegenstand, Streitwert, allfällige Versicherungsdeckungen
+    und Gegenklagen, Stand im Instanzenzug), hohe Schätzunsicherheit, Sicherheiten für Dritte, a.o./periodenfremde Bildung oder Auflösung, Ereignisse nach Stichtag, Nettoauflösung stiller
+    Reserven. Fehlendes im Textfeld und als Feststellung.'
   nachweise:
   - Anhang Jahresrechnung
   - Ergebnisse O1-101 bis O1-303
   - Rückstellungsspiegel
   rechnen: ''
-  feststellung_wenn: Nach Befragung/Prüfung erforderliche Anhangsangabe (Eventualverbindlichkeit, a.o. Position, Ereignis nach Stichtag, Nettoauflösung) fehlt oder ist unvollständig.
+  feststellung_wenn: Erforderliche Anhangsangabe (Eventualverbindlichkeit, Schätzunsicherheit, a.o. Position, Ereignis nach Stichtag, Nettoauflösung) fehlt oder ist unvollständig → Feststellung;
+    Berichtsfolge beurteilt der WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-2
     zitat: Durchsicht des Anhangs auf vollständige Offenlegung der aufgrund der Befragungen zutreffenden Positionen gemäss Art. 959c OR
@@ -481,9 +608,16 @@ schritte:
     zitat: Rückstellungen für ausserordentliche, einmalige oder periodenfremde Aufwendungen sind als solche in der Erfolgsrechnung zu erfassen und im Anhang zu erläutern
   - quelle: or__art-959c-t2
     zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+  - quelle: hwp-bur-2023__rz-0855-s351-t1
+    zitat: allfällige Versicherungsdeckungen und Gegenklagen des Unternehmens
+  - quelle: hwp-bur-2023__rz-0855-s351-t1
+    zitat: Stand der rechtlichen Auseinandersetzung im Instanzenzug
+  - quelle: hwp-er-2026__rz-0402-s273
+    zitat: In diesen Fällen wirkt der Abschlussprüfer darauf hin, dass die Angaben im Anhang des Abschlusses die vorhandene Unsicherheit angemessen darstellen.
 - id: O1-321
-  vorgehen: Rückstellungen über dem betriebswirtschaftlich erforderlichen Betrag (inkl. nicht mehr begründete und Art. 960e Abs. 3 Ziff. 4 OR) als stille Reserven identifizieren und
-    mit dem Nachweis stiller Reserven des Kunden abstimmen; Veränderung zum Vorjahr ermitteln und an die Gesamtbeurteilung (Nettoauflösung) weitergeben.
+  vorgehen: Rückstellungen über dem betriebswirtschaftlich erforderlichen Betrag (inkl. nicht mehr begründete, Art. 960e Abs. 3 Ziff. 4 OR und Rückstellungen für nach dem Stichtag verursachte
+    Verluste) als stille Reserven identifizieren und mit dem Nachweis stiller Reserven des Kunden abstimmen; Veränderung zum Vorjahr ermitteln und an die Gesamtbeurteilung (Nettoauflösung)
+    weitergeben.
   nachweise:
   - Nachweis stille Reserven (Kunde)
   - Rückstellungsspiegel
@@ -499,6 +633,8 @@ schritte:
     zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
   - quelle: or__art-959c-t1
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  - quelle: hwp-bur-2023__rz-0531-s264
+    zitat: doch können solche Rückstellungen im schweizerischen Recht gestützt auf die Zulässigkeit stiller Reserven gebildet werden
 - id: O1-322
   vorgehen: Mehrjährig gültige Unterlagen zu Rückstellungen (z.B. Garantierichtlinie/Berechnungsmethode, langfristige Verträge mit Garantie-, Rückbau- oder Abnahmeverpflichtungen, mehrjährige
     Prozessdossiers) in der Dauerakte prüfen; neue oder geänderte Dokumente zur Aufnahme vorschlagen, überholte kennzeichnen. Im Textfeld Änderungen festhalten.
@@ -513,9 +649,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
 - id: O1-401
-  vorgehen: 'Nicht Bestandteil der eingeschränkten Revision: Agent holt keine Anwalts-/Expertenbestätigungen ein und schlägt dies nicht vor. Er sucht in M-Files nur vom Unternehmen selbst
-    eingeholte Stellungnahmen/Gutachten und wertet sie als Nachweis aus (Ausgang, Betrag, Kosten). Ist das Risiko ohne Bestätigung nicht reduzierbar, Hinweis an WP (Annahme/Prüfungsaussage).
-    Im Textfeld «nicht anwendbar» oder Auswertung.'
+  vorgehen: '4xx/nicht Bestandteil der eingeschränkten Revision: Agent holt keine Anwalts-/Expertenbestätigungen ein und schlägt dies nicht vor. Auf Anweisung des WP sucht er in M-Files
+    nur vom Unternehmen selbst eingeholte Stellungnahmen/Gutachten und wertet sie aus (Ausgang, Betrag, Kosten). Ist das Risiko ohne Bestätigung nicht reduzierbar: Hinweis an WP. Im
+    Textfeld «nicht anwendbar» oder Auswertung.'
   nachweise:
   - vom Unternehmen eingeholte Stellungnahme Rechtsvertreter/Gutachten (falls vorhanden)
   - Aktennotizen mit Einschätzung Rechtsvertreter
@@ -534,8 +670,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
 - id: O1-402
-  vorgehen: Konten für Rechts-/Beratungsaufwand und Rechtsschutz im Berichtsjahr sowie Buchungen/Kreditorenjournal der neuen Rechnung auf Anwalts-, Gerichts- und Gutachterrechnungen
-    durchsehen; je Mandat/Gegenpartei prüfen, ob der Sachverhalt im Rückstellungsspiegel oder Anhang berücksichtigt ist. Liste der Rechnungen mit Abgleich im Textfeld.
+  vorgehen: '4xx: nur auf Anweisung des WP; Analogie zu SER Anhang D r) (dort weiter gehende Handlung). Rechts-/Beratungsaufwand und Rechtsschutz im Berichtsjahr sowie Buchungen/Kreditorenjournal
+    der neuen Rechnung auf Anwalts-, Gerichts- und Gutachterrechnungen durchsehen; je Mandat/Gegenpartei prüfen, ob der Sachverhalt im Rückstellungsspiegel oder Anhang berücksichtigt
+    ist. Liste mit Abgleich im Textfeld.'
   nachweise:
   - Kontoblätter Rechts-/Beratungsaufwand
   - Kreditorenjournal/Kontoblätter neue Rechnung
@@ -543,6 +680,8 @@ schritte:
   rechnen: Saldo Rechts-/Beratungsaufwand Berichtsjahr vs. Vorjahr (Veränderung absolut/%); Summe Anwalts-/Gerichtskosten je Sachverhalt.
   feststellung_wenn: Anwalts-/Gerichtsrechnung deutet auf Rechtsfall hin, der weder zurückgestellt noch offengelegt ist, oder Kosten des Berichtsjahres sind nicht abgegrenzt.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: ser-2022__anh-d-s094-1
     zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
   - quelle: ser-2022__anh-d-s094-1
@@ -550,19 +689,22 @@ schritte:
   - quelle: hwp-er-2026__rz-0119-s201
     zitat: Korrespondenzen mit Rechtsanwälten
 - id: O1-403
-  vorgehen: 'Gesamtwürdigung je Rückstellung: a) Zusammenhang mit anderen Positionen (Debitoren mit Mängelrügen/Gutschriften, Garantiebeginn aus Abnahmen, Bankgarantien, Steuern), b)
-    Ergebnis O1-201, c) vom Unternehmen eingeholte Anwaltseinschätzungen, d) andere Unterlagen. Bemessung gegen bestmögliche Schätzung, Vorsicht und sofortige Vollbildung beurteilen;
-    Restdifferenz quantifizieren und für WP im Textfeld darstellen.'
+  vorgehen: '4xx: nur auf Anweisung des WP. Gesamtwürdigung je Rückstellung: a) Zusammenhang mit Debitoren (Mängelrügen), Abnahmen, Bankgarantien, Steuern (S1), b) O1-201, c) vom Unternehmen
+    eingeholte Anwaltseinschätzungen, d) andere Unterlagen. Vertretbarkeit der Schätzung beurteilen (Methode geeignet, stetig; Rückblick VJ). Nicht vertretbar: Hinweis an WP, Korrektur
+    verlangt nur der WP. Differenz quantifizieren; bei Kapitalverlust/Überschuldung an P1.'
   nachweise:
   - Ergebnisse O1-101 bis O1-402
   - Debitoren-OP-Liste/Gutschriften
   - Abnahmeprotokolle
   - Bankbestätigungen
   - Aktennotizen/Einschätzungen
-  rechnen: Schätzdifferenz = bestmögliche Schätzung (bzw. oberes Ende der Bandbreite) − gebuchte Rückstellung; Vergleich mit Toleranzwesentlichkeit; Summe der Differenzen über alle Rückstellungen.
-  feststellung_wenn: Rückstellung unvollständig oder zu tief (Differenz über Toleranzwesentlichkeit oder kumuliert wesentlich) bzw. nicht begründet; Buchungsvorschlag unter «Wesentliche
-    Feststellungen».
+  rechnen: Schätzdifferenz = bestmögliche Schätzung (wahrscheinlichster Betrag inkl. Prozesskosten) − gebuchte Rückstellung; Differenz zum oberen Ende der Bandbreite separat als Spanne
+    ausweisen; Summe über alle Rückstellungen; Wesentlichkeit aus revio 3.3 lesen.
+  feststellung_wenn: Differenz unter Nichtaufgriffsgrenze nur protokollieren; einzeln oder kumuliert wesentlich gemessen an der Gesamtwesentlichkeit → «Wesentliche Feststellungen» mit
+    Buchungsvorschlag; Summe beurteilt der WP (6.1).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: or__art-960
     zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
   - quelle: hwp-bur-2023__rz-0513-s261
@@ -571,9 +713,21 @@ schritte:
     zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
   - quelle: hwp-er-2026__rz-0139-s204-t3
     zitat: muss er ermessen, wie hoch der Fehlbetrag sein könnte
+  - quelle: hwp-er-2026__rz-0397-s273
+    zitat: ob die durch die Unternehmensleitung geschätzten Werte im zu prüfenden Abschluss mit den Anforderungen des massgebenden Regelwerks der Rechnungslegung vereinbar und daher
+      vertretbar sind
+  - quelle: hwp-er-2026__rz-0400-s273
+    zitat: Gelangt der Abschlussprüfer zum Schluss, dass der durch die Unternehmensleitung geschätzte Wert nicht vertretbar ist, verlangt er eine Korrektur des Abschlusses.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Gesamtwesentlichkeit: Massstab für Wesentliche Feststellungen; die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1.'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: or__art-725a
+    zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital
 - id: O1-404
-  vorgehen: 'Bewegungen auf den Rückstellungskonten (Bildung im Haben, Verwendung/Auflösung im Soll) anhand Buchungsbelegen und Grundlagen prüfen: Betrag, Datum, Gegenkonto, Begründung;
-    Verwendung nur für artgleiche Posten, Auflösung nicht benötigter Beträge über die Erfolgsrechnung. Je Buchung Ergebnis im Textfeld; fehlende Belege als Pendenz mit Konto/Datum/Betrag.'
+  vorgehen: '4xx: nur auf Anweisung des WP. Bewegungen auf den Rückstellungskonten (Bildung im Haben, Verwendung/Auflösung im Soll) anhand Buchungsbelegen und Grundlagen prüfen: Betrag,
+    Datum, Gegenkonto, Begründung; Verwendung nur für artgleiche Posten, Auflösung nicht benötigter Beträge über die Erfolgsrechnung. Ergebnis je Buchung im Textfeld; fehlende Belege
+    als Pendenz mit Konto/Datum/Betrag.'
   nachweise:
   - Kontoblätter Rückstellungskonten
   - Buchungsbelege (Abschlussbuchungen)
@@ -582,6 +736,8 @@ schritte:
   rechnen: Summe Haben-Buchungen = Bildung gemäss Spiegel; Summe Soll-Buchungen = Verwendung + Auflösung gemäss Spiegel.
   feststellung_wenn: Buchung ohne Beleg/Begründung, Verwendung für artfremden Zweck, Umwidmung ohne Erfolgsrechnung oder Bewegungen weichen vom Rückstellungsspiegel ab.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-bur-2023__rz-0507-s259
@@ -591,16 +747,19 @@ schritte:
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
 - id: O1-405
-  vorgehen: 'Gegenkonten der Bildung/Auflösung beurteilen (sachlich zugehöriger Aufwand, z.B. Garantieaufwand; a.o./einmalig/periodenfremd nur wenn zutreffend und dann im Anhang erläutert).
-    Ausweis prüfen: Rückstellungen gesondert im Fremdkapital, kurz-/langfristig nach erwartetem Mittelabfluss; Ferien/Überzeit und laufende Steuern als pRA; keine Wertberichtigungen
-    unter Passiven. Abweichungen mit Umgliederungsvorschlag.'
+  vorgehen: '4xx: nur auf Anweisung des WP. Gegenkonten der Bildung/Auflösung beurteilen (sachlich zugehöriger Aufwand; a.o./periodenfremd nur wenn zutreffend, dann im Anhang erläutert).
+    Ausweis: Rückstellungen gesondert, kurz-/langfristig nach Mittelabfluss; Ferien/Überzeit und laufende Steuern eher pRA (Grenzen fliessend, ohne Ergebniswirkung); keine Wertberichtigungen
+    unter Passiven. Pauschale Bemessung → O1-301/O1-403.'
   nachweise:
   - Kontoblätter mit Gegenkonten
   - Jahresrechnung (Bilanz, ER, Anhang)
   - Kontenplan/Gruppenzuordnung Saldoliste
   rechnen: ''
-  feststellung_wenn: Bildung/Auflösung über sachfremde Position oder unzutreffend als ausserordentlich, Fristigkeit/Positionszuordnung falsch, pRA bzw. Wertberichtigung unter Rückstellungen.
+  feststellung_wenn: 'Sachfremde Gegenposition, unzutreffend a.o., Fristigkeit falsch, Wertberichtigung unter Passiven. Ferien/Überzeit bzw. Steuern unter Rückstellungen: nur Umgliederungshinweis
+    (Schlussbesprechung), ausser wesentlich.'
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-bur-2023__rz-0504-s259
     zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
   - quelle: hwp-bur-2023__rz-0518-s262
@@ -609,5 +768,9 @@ schritte:
     zitat: Rückstellungen sowie vom Gesetz vorgesehene ähnliche Positionen
   - quelle: hwp-bur-2023__rz-0509-s260
     zitat: Bei der Auflösung nicht benötigter Rückstellungen über die Erfolgsrechnung sind für den Ausweis analoge Überlegungen wie bei der Bildung anzustellen.
-  - quelle: qa-or-rechnungslegung-2026__2-2-t1
-    zitat: die als passive Rechnungsabgrenzung auszuweisen ist
+  - quelle: hwp-bur-2023__rz-0512-s261
+    zitat: wobei die Grenzen fliessend sein können
+  - quelle: qa-or-rechnungslegung-2026__2-2-t2
+    zitat: In der Praxis ist auch ein Ausweis unter den Rückstellungen anzutreffen, was jedoch keinen Einfluss auf das Periodenergebnis hat.
+  - quelle: hwp-bur-2023__rz-0225-s111
+    zitat: Kurzfristige Rückstellungen sind als Teil der passiven Rechnungsabgrenzungen oder als separate Position auszuweisen.

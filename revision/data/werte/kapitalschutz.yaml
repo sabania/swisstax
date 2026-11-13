@@ -1,4 +1,4 @@
-# Werte Kategorie kapitalschutz – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie kapitalschutz – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: or725a_kapitalverlust_haelfte
   bezeichnung: 'Kapitalverlust: Schwelle'
@@ -7,8 +7,9 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
   bemerkung: 'Art. 725a Abs. 1 OR, massgebend ist die letzte Jahresrechnung: Aktiven abzüglich Verbindlichkeiten < 50 % von (Aktienkapital + nicht zurückzahlbare gesetzliche Kapitalreserve
-    + gesetzliche Gewinnreserve). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2); gebotene Eile (Abs. 4). Rechner: revision.py kapitalverlust. GmbH:
-    Art. 820 OR.'
+    + gesetzliche Gewinnreserve). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2); gebotene Eile (Abs. 4). Bleibt der VR untätig, ist der Hinweis auf
+    den Gesetzesverstoss ohne Wesentlichkeitsprüfung aufzunehmen: «sind in jedem Fall im Revisionsbericht anzubringen» (SER 8.3.2.1, ser-2022__8-3-2-t1). Agent erfasst Pendenz/Entwurf;
+    ob ein Hinweis erfolgt und wie er lautet, entscheidet ausschliesslich der WP. Rechner: revision.py kapitalverlust. GmbH: Art. 820 OR.'
   quelle: or__art-725a
   zitat: die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
   status: agent-geprueft
@@ -61,17 +62,22 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
   bemerkung: 'Art. 725b Abs. 1–3 OR: VR erstellt unverzüglich Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, lässt sie durch die Revisionsstelle prüfen und benachrichtigt
-    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1).'
+    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1). Bleibt der VR untätig: Hinweis im Revisionsbericht ohne
+    Wesentlichkeitsprüfung («sind in jedem Fall im Revisionsbericht anzubringen», SER 8.3.2.1, ser-2022__8-3-2-t1) und zusätzlich Anzeigepflicht nach Art. 729c OR. Agent erfasst Pendenz/Entwurf;
+    ob ein Hinweis erfolgt, wie er lautet und ob eine Anzeige nach Art. 729c OR erfolgt, entscheidet ausschliesslich der WP.'
   quelle: or__art-725b-t1
   zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
   status: agent-geprueft
 - key: hwp_er_zwischenabschluss_immer
   bezeichnung: 'Überschuldung: Zwischenabschluss auch kurz nach Bilanzstichtag'
-  wert: keine Erleichterung innert sechs Monaten ab Bilanzstichtag
+  wert: keine Erleichterung innert sechs Monaten ab Bilanzstichtag (eng begrenzte Ausnahmen)
   einheit: Text
   gilt: HWP ER, Ausgabe 2026
   kategorie: kapitalschutz
-  bemerkung: 'HWP ER Rz 402 (ebenso Q&A Frage 10): Zwischenabschluss in jedem Fall einverlangen; er startet die 90-Tage-Frist und dient der Bemessung des Rangrücktritts.'
+  bemerkung: 'HWP ER Rz 402 (ebenso Q&A Frage 10): Zwischenabschluss grundsätzlich in jedem Fall einverlangen; er startet die 90-Tage-Frist und dient der Bemessung des Rangrücktritts.
+    «Einzig denkbare Ausnahmen» (gleicher Chunk): Konkursanmeldung bei massiver, offensichtlicher Überschuldung, wenn sehr rasches Handeln geboten ist; Stichtag der Jahresrechnung und
+    des Zwischenabschlusses fallen zusammen – dann ggf. zusätzlich Abschluss zu Veräusserungswerten, und «Auch in diesem Fall sind jedoch zwei Berichte zu verfassen» (Jahresrechnung
+    und PS-CH 290; hwp-er-2026__rz-0402-s120-t3). Ob eine Ausnahme vorliegt, entscheidet der WP.'
   quelle: hwp-er-2026__rz-0402-s120-t2
   zitat: Art. 725 b OR sieht eine solche Erleichterung nicht vor.
   status: agent-geprueft
@@ -92,9 +98,21 @@ werte:
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: Art. 729c OR. Der Agent bereitet nur vor; Beurteilung und Anzeige entscheidet ausschliesslich der WP.
+  bemerkung: 'Art. 729c OR. SER 8.3.2.1: Hinweis auf die Untätigkeit des VR bei Überschuldung «sind in jedem Fall im Revisionsbericht anzubringen» (ser-2022__8-3-2-t1); die Anzeigepflicht
+    nach Art. 729c OR kommt zusätzlich hinzu. Agent erfasst Pendenz/Entwurf; ob ein Hinweis erfolgt, wie er lautet und ob eine Anzeige erfolgt, entscheidet ausschliesslich der WP.'
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  status: agent-geprueft
+- key: or725b_abs5_ohne_revisionsstelle
+  bezeichnung: 'Gesellschaft ohne Revisionsstelle: Anzeigepflichten des zugelassenen Revisors'
+  wert: Anzeigepflichten wie eingeschränkt prüfende Revisionsstelle
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725b Abs. 5 OR: Spezialmandat bei Opting-out (Prüfung nach Art. 725a Abs. 2 bzw. 725b Abs. 2 OR durch zugelassenen Revisor). Abs. 6: VR und Revisionsstelle oder zugelassener
+    Revisor «handeln mit der gebotenen Eile». Anzeige entscheidet ausschliesslich der WP.'
+  quelle: or__art-725b-t2
+  zitat: so obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle
   status: agent-geprueft
 - key: or725c_aufwertung
   bezeichnung: Aufwertung zur Behebung von Kapitalverlust/Überschuldung
@@ -102,7 +120,9 @@ werte:
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2).'
+  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2). Rollen: Agent
+    führt nur einen Entwurf/eine Pendenz; Bestätigung und Unterzeichnung durch den WP; kein Kundenversand, keine Buchungen durch den Agenten (Dienstbenutzer «ohne Recht für Visum, Abschlussstatus,
+    Freigabe und Kundenversand», konzept-ki-revisionsagent-2026__c009-3; «Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung (Pflichtenheft).», konzept-ki-revisionsagent-2026__c015-1).'
   quelle: or__art-725c
   zitat: deren wirklicher Wert über die Anschaffungs- oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden
   status: agent-geprueft

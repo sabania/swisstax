@@ -4,15 +4,16 @@ titel: Qualitätsmanagement, Dokumentation, Archivierung, Berufsgeheimnis, KI/Da
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prozess-werte
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 14
-    korrigiert: false
+    korrigiert: true
 ziel: Revisionsakte so vorbereiten, dass sie OR 730c und SER 7 genügt (nachvollziehbar, datiert, referenziert, Quellen mit M-Files-ID), Revisions- und Berufsgeheimnis sowie Datenschutz
-  wahrt und den KI-Einsatz lückenlos protokolliert; Durchsicht, Visum, Abschluss und Archivierung bleiben beim WP.
-wann: Durchgehend ab Auftragserteilung (Mandatskontext, Protokoll, Dokumentation je Prüfschritt); verdichtet vor Rapport und Berichtsabgabe (Vollständigkeit der Akte, Review durch WP);
-  nach dem Berichtsdatum (Abschluss endgültige Auftragsakte, Archivierung, 10 Jahre Aufbewahrung); KI-/Datenschutz-Voraussetzungen vor dem ersten Test mit Echtdaten.
+  auch beim KI-Einsatz wahrt und diesen lückenlos protokolliert; Durchsicht, Visum, Abschluss, Archivierung und Kundenkontakt bleiben beim WP.
+wann: 'Vor dem ersten Test mit Echtdaten und vor jedem weiteren Einsatz: KI-, Datenschutz- und Berufsgeheimnis-Voraussetzungen (Anbieterbedingungen neu prüfen); je Mandat vor der Bearbeitung:
+  Grundlage für den KI-Einsatz vorhanden; durchgehend ab Auftragserteilung: Mandatskontext, Protokoll, Dokumentation je Prüfschritt; verdichtet vor Rapport und Berichtsabgabe: Vollständigkeit
+  der Akte, Review durch den WP; nach dem Berichtsdatum: Abschluss der endgültigen Auftragsakte innerhalb der internen Frist, Archivierung, 10 Jahre Aufbewahrung.'
 gesetz:
 - thema: Dokumentationspflicht und Aufbewahrung mind. 10 Jahre (OR 730c Abs. 1)
   quelle: or__art-730c
@@ -32,6 +33,33 @@ gesetz:
 - thema: Herausgabe- und Auskunftspflicht des VR, auf Verlangen schriftlich (OR 730b Abs. 1) – Grundlage Vollständigkeitserklärung
   quelle: or__art-730b
   zitat: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt
+- thema: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung (OR 729c) – gesetzliche Offenbarungspflicht; Agent meldet nur dem WP
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: Strafrechtliches Berufsgeheimnis der Revisoren (Art. 321 Ziff. 1 StGB)
+  quelle: stgb__art-321
+  zitat: nach Obligationenrecht zur Verschwiegenheit verpflichtete Revisoren
+- thema: Berufsgeheimnis erfasst auch Hilfspersonen; Strafe Freiheitsstrafe bis 3 Jahre oder Geldstrafe (Art. 321 Ziff. 1 StGB) – Grundlage für KI-Anbieter als Hilfsperson
+  quelle: stgb__art-321
+  zitat: sowie ihre Hilfspersonen, die ein Geheimnis offenbaren, das ihnen infolge ihres Berufes anvertraut worden ist
+- thema: Straflos mit Einwilligung des Berechtigten (Art. 321 Ziff. 2 StGB) – Grundlage der schriftlichen Entbindung durch den Mandanten
+  quelle: stgb__art-321
+  zitat: Der Täter ist nicht strafbar, wenn er das Geheimnis auf Grund einer Einwilligung des Berechtigten
+- thema: Auftragsbearbeitung (z.B. KI-Anbieter) nur, wenn keine Geheimhaltungspflicht die Übertragung verbietet (Art. 9 Abs. 1 lit. b DSG)
+  quelle: dsg__art-9
+  zitat: keine gesetzliche oder vertragliche Geheimhaltungspflicht die Übertragung verbietet
+- thema: Verantwortlicher muss sich der Datensicherheit des Auftragsbearbeiters vergewissern (Art. 9 Abs. 2 DSG)
+  quelle: dsg__art-9
+  zitat: Der Verantwortliche muss sich insbesondere vergewissern, dass der Auftragsbearbeiter in der Lage ist, die Datensicherheit zu gewährleisten.
+- thema: Datensicherheit durch technische und organisatorische Massnahmen (Art. 8 DSG)
+  quelle: dsg__art-8
+  zitat: Der Verantwortliche und der Auftragsbearbeiter gewährleisten durch geeignete technische und organisatorische Massnahmen eine dem Risiko angemessene Datensicherheit.
+- thema: Bekanntgabe ins Ausland nur bei angemessenem bzw. geeignetem Schutz (Art. 16 DSG) – Datenstandort des KI-Anbieters
+  quelle: dsg__art-16
+  zitat: Personendaten dürfen ins Ausland bekanntgegeben werden, wenn der Bundesrat festgestellt hat
+- thema: Busse bis CHF 250'000 bei Verstoss gegen Art. 9 oder 16 DSG (Art. 61 DSG)
+  quelle: dsg__art-61
+  zitat: Mit Busse bis zu 250 000 Franken werden private Personen auf Antrag bestraft
 - thema: 'Zweck der Dokumentation: Prüfungsaussage gestützt, SER eingehalten (SER 7.1)'
   quelle: ser-2022__7-1
   zitat: Der Abschlussprüfer muss wichtige Sachverhalte dokumentieren als Nachweis dafür
@@ -56,38 +84,74 @@ gesetz:
 - thema: Zugang externer Berufsangehöriger zu Auftragsakten für QS vereinbaren (SER 1.7)
   quelle: ser-2022__1-7
   zitat: den Beizug von externen Berufsangehörigen zum Zweck der Qualitätssicherung und den damit einhergehenden Zugang zu den Auftragsakten
+- thema: Verschwiegenheitspflicht (HWP ER II.2.1 Rz 10)
+  quelle: hwp-er-2026__rz-0010-s150-t1
+  zitat: Die Verschwiegenheitspflicht erstreckt sich auf alle in Ausübung ihrer Tätigkeit bekannt gewordenen Sachverhalte.
+- thema: 'Gesetzliche Offenbarungspflichten als Ausnahme vom Revisionsgeheimnis: Inhalt des Revisionsberichts und GV-Auskünfte, gesetzliche Anzeigepflichten, Sonderprüfer, Art. 13 und
+    15a RAG (HWP ER Rz 10)'
+  quelle: hwp-er-2026__rz-0010-s150-t1
+  zitat: Eine solche Verpflichtung besteht u.a. mit Bezug auf
+- thema: Zeugen- und Editionspflicht nach StPO (HWP ER Rz 10)
+  quelle: hwp-er-2026__rz-0010-s150-t1
+  zitat: die Zeugen- und Editionspflicht gemäss Strafprozessordnung
+- thema: 'Geheimbereich Dritter: auch deren Zustimmung einholen (HWP ER Rz 10)'
+  quelle: hwp-er-2026__rz-0010-s150-t2
+  zitat: Soweit (ausnahmsweise) Sachverhalte betroffen sind, die den rechtlich geschützten Geheimbereich Dritter betreffen, ist auch deren Zustimmung einzuholen.
+- thema: 'Externe Nachschau: Vertraulichkeit, Revisions- und Berufsgeheimnis; Zugang in den Auftragsbedingungen vereinbaren (HWP ER Rz 124)'
+  quelle: hwp-er-2026__rz-0124-s177
+  zitat: Es besteht die Möglichkeit, mit den Mandanten in den Auftragsbedingungen zu vereinbaren, dass für Zwecke der Qualitätssicherung externen Berufsangehörigen Zugang zu den Auftragsakten
+    gewährt wird.
 - thema: Aufbewahrung ab Berichtsdatum (HWP ER III.2.9 Rz 288)
   quelle: hwp-er-2026__rz-0288-s248
   zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
 - thema: 'Elektronische Aufbewahrung: Änderungen feststellbar, Daten lesbar (HWP ER Rz 288)'
   quelle: hwp-er-2026__rz-0288-s248
   zitat: für die Dauer der gesetzlichen Aufbewahrungspflicht nachträgliche Änderungen festgestellt und die Daten wieder lesbar gemacht werden können
+- thema: 'Änderungen nach dem Berichtsdatum: zusätzlich GeBüV beachten (HWP ER Rz 287)'
+  quelle: hwp-er-2026__rz-0287-s248
+  zitat: Zudem sind die Bestimmungen der Geschäftsbücherverordnung
 - thema: Aufbewahrung auch nach Mandatsende (HWP ER Rz 186)
   quelle: hwp-er-2026__rz-0186-s072
   zitat: Die Pflicht zur Aufbewahrung gilt auch über eine allfällige Beendigung des Mandats hinaus.
-- thema: Verschwiegenheitspflicht (HWP ER II.2.1 Rz 10)
-  quelle: hwp-er-2026__rz-0010-s150-t1
-  zitat: Die Verschwiegenheitspflicht erstreckt sich auf alle in Ausübung ihrer Tätigkeit bekannt gewordenen Sachverhalte.
-- thema: Strafrechtliches Berufsgeheimnis (Art. 321 StGB; HWP ER Rz 491)
-  quelle: hwp-er-2026__rz-0491-s140
-  zitat: Art. 321 StGB (Verletzung des Berufsgeheimnisses)
 - thema: Verantwortung für die Durchsicht (HWP ER II.4.4.1 Rz 119)
   quelle: hwp-er-2026__rz-0119-s175-t1
   zitat: Der Auftragsverantwortliche trägt aber die Verantwortung dafür, dass eine angemessene Durchsicht erfolgt.
-- thema: Frist zur Zusammenstellung der endgültigen Auftragsakte (HWP ER Rz 334; ISQM-CH 1 Tz. A83)
+- thema: Durchsicht nur durch Personen mit mindestens gleichwertiger Qualifikation wie die Erstellenden (HWP ER Rz 119) – der Agent ist nie Reviewer
+  quelle: hwp-er-2026__rz-0119-s175-t1
+  zitat: welche über eine mindestens gleichwertige Qualifikation verfügen wie die Erstellenden der Prüfungsakten
+- thema: Durchsichtspflicht entsteht mit der Delegation von Prüfungshandlungen (Leitfaden QM 6.2) – also auch bei Vorbereitung durch den Agenten (Auslegung)
+  quelle: leitfaden-qm-2025__6-2-t6
+  zitat: ein Prüfungsteam einsetzt und die Durchführung von Prüfungshandlungen delegiert
+- thema: Interne Frist zur Zusammenstellung der endgültigen Auftragsakte (HWP ER Rz 334; ISQM-CH 1 Tz. A83)
   quelle: hwp-er-2026__rz-0334-s258
-  zitat: beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
+  zitat: Das Revisionsunternehmen legt intern Fristen fest, innerhalb deren die Zusammenstellung der endgültigen Auftragsakte abzuschliessen ist.
+- thema: 'Beispiel, keine Regelfrist der eingeschränkten Revision: bei Abschlussprüfungen in der Regel höchstens 60 Tage nach Berichtsdatum (HWP ER Rz 334)'
+  quelle: hwp-er-2026__rz-0334-s258
+  zitat: Bei Abschlussprüfungen beispielsweise beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
 - thema: Datenschutz im Qualitätsmanagement (HWP ER II.4.2.7 Rz 103)
   quelle: hwp-er-2026__rz-0103-s173
   zitat: jedoch sind immer die Vorgaben bezüglich Datenschutz zu beachten
 - thema: Vertraulichkeit der Auftragsdokumentation (Leitfaden QM 6.1.11, ISQM-CH 1 Tz. 31(f))
   quelle: leitfaden-qm-2025__6-1-11-t1
   zitat: Die Auftragsdokumentation ist vertraulich.
+- thema: Zugriff auf die Auftragsdokumentation nur für autorisierte Personen (Leitfaden QM 6.1.11 b)
+  quelle: leitfaden-qm-2025__6-1-11-t2
+  zitat: nur autorisierten Personen Zugriff auf die Auftragsdokumentation gewähren
+- thema: Beizug Dritter berührt Revisions- und Berufsgeheimnis (Leitfaden QM 6.1.12)
+  quelle: leitfaden-qm-2025__6-1-12-t1
+  zitat: es stellt sich damit die Frage des Revisionsgeheimnisses (Art. 730b Abs. 2 OR) wie auch des Berufsgeheimnisses (Art. 321 StGB)
+- thema: 'KI: Berufsgeheimnis geht weiter als Datenschutz – DPA/AVV allein genügt nicht (Seminar KI 11/2026, Fachliteratur Rang 4)'
+  quelle: seminar-ki-datenschutz-2026__s003-1
+  zitat: Ein DPA/AVV allein genügt nicht
+- thema: KI-Anbieter als Hilfsperson nur bei vertraglicher Bindung ans Berufsgeheimnis und Arbeit auf Weisung, sonst schriftliche Entbindung (Seminar KI; Rechtslage ungeklärt)
+  quelle: seminar-ki-datenschutz-2026__s003-1
+  zitat: möglich, wenn er vertraglich ans Berufsgeheimnis gebunden ist und nur auf Weisung arbeitet
 schritte:
 - was: 'Mandatskontext als Geheimnisschutz: vor jedem Zugriff und jeder Ablage (revio, M-Files, E-Mail) prüfen, ob Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr und Stichtag dem
-    fixierten Kontext-Schlüssel entsprechen; bei Abweichung abbrechen und Pendenz erfassen. Nichts mandatsfremd lesen oder ablegen.'
+    fixierten Kontext-Schlüssel entsprechen; bei Abweichung abbrechen und Pendenz erfassen. Nichts mandatsfremd lesen oder ablegen; Zugriff nur über den eigenen, mandatsbezogen berechtigten
+    Dienstbenutzer.'
   wer: Agent
-  revio: Dossier-Anmeldung lesend (rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId); bei Abweichung Notiz «Pendenz»
+  revio: Dossier-Anmeldung lesend (rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId); bei Abweichung Notiz «Pendenz»; mandats- oder aktenübergreifende Werkzeuge nie
   mfiles: Suche nur über Metadaten (Kunde, Geschäftsjahr, Klasse) des fixierten Mandats, nicht Volltext
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c009-1
@@ -96,6 +160,8 @@ schritte:
     zitat: 'M-Files: REST-API, Suche über Metadaten (Kunde, Geschäftsjahr, Klasse) statt Volltext.'
   - quelle: or__art-730b
     zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen, soweit sie nicht von Gesetzes wegen zur Bekanntgabe verpflichtet ist.
+  - quelle: leitfaden-qm-2025__6-1-11-t2
+    zitat: nur autorisierten Personen Zugriff auf die Auftragsdokumentation gewähren
 - was: 'Agenten-Protokoll (Audit Trail) laufend führen: jede Aktion, Quelle (M-Files-ID/Version), Berechnung und jeder Fehler mit Zeitstempel, damit feststellbar bleibt, wer (Dienstbenutzer
     des Agenten) was wann erstellt oder geändert hat. Rechnen nur im Rechenmodul (Code), nie im Sprachmodell.'
   wer: Agent
@@ -111,16 +177,19 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
 - was: 'Je Prüfschritt im Textfeld einheitlich dokumentieren: Prüfziel(e) und welche davon der Nachweis abdeckt, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung,
-    Ergebnis, eigene Schlussfolgerung, Feststellungen, Pendenzen, Status – so, dass ein nicht beteiligter, erfahrener Prüfer Planung, Durchführung und Ergebnis nachvollziehen kann. Visum
-    offen lassen.'
+    Ergebnis, eigene Schlussfolgerung, Feststellungen, Pendenzen, Status – so, dass ein nicht beteiligter, erfahrener Prüfer Planung, Durchführung und Ergebnis nachvollziehen kann. Nur
+    nicht visierte Schritte bearbeiten; Visum offen lassen.'
   wer: Agent
-  revio: Bereich 4, Textfeld des Prüfschritts (vermutlich rv_put_auditActivities_UpdateDossierActivity – im Machbarkeitstest bestätigen); kein Visum, kein ✓
+  revio: 'Bereich 4, Textfeld des Prüfschritts (rv_put_auditActivities_UpdateDossierActivityItemTemplateField, Kernwerkzeug Prozess 2); Zellen über rv_put_auditActivities_UpdateDossierActivity
+    nur mit Feldregel: isVised, visaDate, visaText, visaUserId nie setzen (Praxis/intern, revio-Klassierung); kein Visum, kein ✓'
   mfiles: Nachweise mit M-Files-ID und Version referenzieren
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c009-3
     zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.
   - quelle: konzept-ki-revisionsagent-2026__c008-1
     zitat: der Agent hält im Textfeld fest, welche Prüfziele sein Nachweis abdeckt
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Kein Visum, kein ✓, keine Abschliessende Beurteilung
   - quelle: hwp-er-2026__rz-0276-s246
     zitat: Sie sind so zu gestalten, dass sich an der eingeschränkten Revision nicht beteiligte, erfahrene Fachleute ein Bild von der Planung und der Durchführung sowie dem Ergebnis
       der Prüfungen machen können.
@@ -128,10 +197,11 @@ schritte:
     zitat: Für die Prüfungshandlungen hält der Abschlussprüfer eigene Schlussfolgerungen fest.
   - quelle: hwp-er-2026__rz-0277-s246
     zitat: Zudem muss die Einhaltung der Vorgaben des SER aus den Arbeitspapieren hervorgehen.
-- was: 'Nachweise und Korrespondenz ablegen und referenzieren: verwendete Belege beim Prüfschritt anhängen oder als Beilage an die Notiz; jedes Dokument eindeutig bezeichnen; relevante
-    E-Mails und Gesprächsnotizen mit dem Kunden in die Akte übernehmen. Kundenoriginale nicht zurückbehalten – in der Akte nur Kopien.'
+- was: 'Nachweise und Korrespondenz ablegen und referenzieren: verwendete Belege beim Prüfschritt anhängen oder als Beilage an die eigene Notiz; jedes Dokument eindeutig bezeichnen;
+    relevante E-Mails und Gesprächsnotizen mit dem Kunden in die Akte übernehmen. Erhaltene Kundenoriginale nur auflisten (Pendenz bzw. Rapport); die Rückgabe veranlasst der WP.'
   wer: Agent
-  revio: Bereich 4 Belegablage (rv_post_auditActivities_AddAttachementsToAuditActivity), Beilage an Notiz (rv_post_workpapers_MoveAttachmentsToNote); 10.6 Korrespondenz und Diverses
+  revio: 'Bereich 4 Belegablage (rv_post_auditActivities_AddAttachementsToAuditActivity); Beilage an Notiz (rv_post_workpapers_MoveAttachmentsToNote, Feldregel: noteId nur eigene Notizen);
+    10.6 Korrespondenz und Diverses'
   mfiles: Nachweise aus M-Files mit ID/Version; mandatsbezogene E-Mail-Korrespondenz
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
@@ -142,17 +212,25 @@ schritte:
     zitat: Für die relevanten elektronischen Dateien (z.B. per E-Mail ausgetauschter Schriftverkehr) wird eine sachgemässe Aufbewahrung sichergestellt.
   - quelle: ser-2022__7-2
     zitat: Korrespondenzen und Gesprächsprotokolle mit dem Prüfungskunden können ebenfalls Prüfungsnachweise darstellen.
-- was: Jahresakte auf die Pflichtinhalte nach SER 7.2 prüfen (Unabhängigkeit 2.4, Verständnis 2.1, Wesentlichkeit 3.3, Analytik/Risiko 3.1/3.2, Prüfprogramm, Fehlaussagen 6.1, Nachweise
-    mit Beurteilung) und Lücken als Pendenz melden – Bereiche 2, 3 und 6 nur lesen. Unterzeichnete Jahresrechnung und Vollständigkeitserklärung in M-Files suchen und in 10.4 ablegen;
-    A1-103 und A1-301 vorbereiten.
+  - quelle: hwp-er-2026__rz-0284-s248
+    zitat: die ihm anvertrauten Akten sowie alle Dokumente, die er für die Prüfung angefordert hat, dem Unternehmen zurückzugeben
+- was: 'Jahresakte auf die Pflichtinhalte nach SER 7.2 prüfen (Unabhängigkeit, Verständnis, Wesentlichkeit, Analytik/Risiko, Prüfprogramm, Fehlaussagen, Nachweise mit Beurteilung) und
+    Lücken als Pendenz melden – Bereiche 2, 3 und 6 nur lesen. Leserechte für 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2 sind noch nicht entschieden: bis zum Entscheid diese Bereiche nicht lesen,
+    betroffene Pflichtinhalte als Pendenz «nicht geprüft – Leserecht offen» melden. Unterzeichnete Jahresrechnung und Vollständigkeitserklärung in M-Files suchen und in 10.4 ablegen;
+    A1-103 und A1-301 vorbereiten.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: lesen 2.1, 2.4, 3.1–3.5, 6.1; schreiben 10.4; Prüffeld A1 (A1-103 VE, A1-301 Unterzeichnung)
+  revio: lesen nur, was das Konzept vorsieht (z.B. 3.3 Wesentlichkeit, 6.1); 2.1, 2.4, 3.1, 3.4, 3.5, 6.2 erst nach Entscheid Leserechte; schreiben 10.4; Prüffeld A1 (A1-103 VE, A1-301
+    Unterzeichnung)
   mfiles: Unterzeichnete JR und VE des Geschäftsjahres suchen; fehlt → Vorschlag PBC-Liste 10.10
   fundstellen:
   - quelle: ser-2022__7-2
     zitat: erlangte Prüfungsnachweise und ihre Beurteilung durch den Abschlussprüfer
   - quelle: ser-2022__7-2
     zitat: Zudem sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: nur lesen; 3.3 gemäss Pflichtenheft
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
   - quelle: katalog-revio4__c003-2
     zitat: Vollständigkeitserklärung besprechen und unterzeichnen lassen.
   - quelle: katalog-revio4__c003-3
@@ -174,8 +252,8 @@ schritte:
 - was: 'Widersprüche und offene Punkte führen: Inkonsistenzen zwischen Feststellungen und Prüfungsaussage offenlegen; alles Ungeklärte als Pendenz (Konto, Datum, Betrag); im Revisionsrapport
     an den WP Status aller Schritte, offene und wesentliche Punkte zuerst, mit Verweis auf Schritt und Notiz (Pendenzenkontrolle für den WP). Notizen nie löschen oder erledigen.'
   wer: Agent
-  revio: Notizen «Pendenz», «Wesentliche Feststellungen», «Schlussbesprechung» (rv_put_workpapers_UpdateNote; lesen rv_get_workpapers_LoadDossierNotesByNoteType); Rapport per E-Mail
-    nur an freigegebene WP-Adresse
+  revio: 'Notizen «Pendenz», «Wesentliche Feststellungen», «Schlussbesprechung» (rv_put_workpapers_UpdateNote, Feldregeln: isClosed immer false, nur eigene Notizen ändern, Kategorie
+    «Review» nie – Praxis/intern, revio-Klassierung); lesen rv_get_workpapers_LoadDossierNotesByNoteType; Rapport per E-Mail nur an freigegebene WP-Adresse'
   mfiles: Rapport im Protokoll des Mandats/Jahres
   fundstellen:
   - quelle: hwp-er-2026__rz-0290-s248
@@ -187,41 +265,52 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Notizen löscht oder erledigt er nie.
 - was: 'Review durch den WP: begleitende und abschliessende Durchsicht der Prüfungsdokumentation vor Berichtsabgabe, mindestens der wesentlichen Prüfungsgebiete und signifikanten Risiken;
-    Rückmeldungen in Notiz «Review». Visum, ✓, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status Bereich 10 setzt nur der Mensch.'
+    Rückmeldungen in Notiz «Review». Die Durchsicht ist zwingend, weil Prüfungshandlungen an den Agenten delegiert sind; die Ausnahme für eigenständig ohne Team geführte Mandate (Leitfaden
+    QM 6.2) greift dann nicht (Auslegung, Praxis). Durchsehen kann nur eine Person mit mindestens gleichwertiger Qualifikation – der Agent ist nie Reviewer, weder der eigenen Arbeit
+    noch eines anderen Agentenlaufs. Visum, ✓, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status Bereich 10 setzt nur der Mensch.'
   wer: WP
-  revio: Visum je Schritt, ✓ je Prüffeld, 9.0; Notiz «Review» (rv_post_workpapers_CreateNoteFeedback), Review-Workflow (rv_post_clientsManagement_RequestGlobalDossierReview_by_dossierId_by_reviewerId,
-    rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId) – für den Agenten gesperrt
+  revio: Visum je Schritt, ✓ je Prüffeld, 9.0; Notiz «Review» (rv_post_workpapers_CreateNoteFeedback) und Review-Workflow (Request-, Approve-, Reject-, CancelGlobalDossierReview…) –
+    nur Mensch, s. Liste «revio nur-mensch» (revision.py revio nur-mensch)
   mfiles: ''
   fundstellen:
   - quelle: hwp-er-2026__rz-0332-s258
     zitat: Während der Prüfungsarbeiten nimmt der Mandatsleiter, abhängig vom Arbeitsfortschritt, eine begleitende Durchsicht der Prüfungsdokumentation vor.
   - quelle: leitfaden-qm-2025__6-2-t6
+    zitat: ein Prüfungsteam einsetzt und die Durchführung von Prüfungshandlungen delegiert
+  - quelle: leitfaden-qm-2025__6-2-t6
     zitat: Im Minimum aber muss der Auftragsverantwortliche die durchgeführten Prüfungshandlungen und dokumentierten Feststellungen in Bezug auf die wesentlichen Prüfungsgebiete und
       signifikanten Risiken
+  - quelle: leitfaden-qm-2025__6-2-t3
+    zitat: In Fällen, in welchen der Auftragsverantwortliche ein Prüfungsmandat eigenständig und ohne Beizug von Teammitgliedern durchführt, entfällt die Verpflichtung zur Durchsicht.
+  - quelle: hwp-er-2026__rz-0119-s175-t1
+    zitat: welche über eine mindestens gleichwertige Qualifikation verfügen wie die Erstellenden der Prüfungsakten
   - quelle: leitfaden-qm-2025__6-1-3
     zitat: Die Durchsicht der Arbeit erfolgt in der Regel nach der Auftragsabwicklung, aber vor der Berichterstattung bzw. der Beendigung des Mandats.
   - quelle: konzept-ki-revisionsagent-2026__c008-1
     zitat: alles bleibt beim Menschen
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: keine; für Rückmeldungen des Wirtschaftsprüfers
-- was: 'Review-Rückmeldungen abarbeiten: Notiz «Review» lesen, Textfeld ergänzen, fehlende Nachweise beschaffen, Änderung mit Datum und Grund im Protokoll festhalten und im Rapport melden.
-    Review-Notiz weder als erledigt markieren noch löschen; bereits visierte Schritte nur auf Anweisung des WP ergänzen.'
+- was: 'Review-Rückmeldungen abarbeiten: Notiz «Review» lesen, Textfeld nicht visierter Schritte ergänzen, fehlende Nachweise beschaffen, Änderung mit Datum und Grund im Protokoll festhalten
+    und im Rapport melden. Review-Notiz weder beantworten, als erledigt markieren noch löschen. Ergänzungen zu bereits visierten Schritten schreibt der Agent nie selbst: er erfasst sie
+    als eigene Notiz «Pendenz» mit Verweis auf Schritt, Text und Nachweis und meldet sie im Rapport; den Nachtrag am visierten Schritt hängt der WP an.'
   wer: Agent
-  revio: lesen rv_get_workpapers_LoadDossierNotesByNoteType (Typ Review); Textfeld Bereich 4; Kommentar an visierten Schritt (rv_post_auditActivities_AppendCommentToSignedActivity) nur
-    auf Anweisung
+  revio: lesen rv_get_workpapers_LoadDossierNotesByNoteType (Typ Review); Textfeld Bereich 4 (rv_put_auditActivities_UpdateDossierActivityItemTemplateField) nur bei nicht visierten Schritten;
+    Pendenz-Notiz (rv_put_workpapers_UpdateNote); rv_post_auditActivities_AppendCommentToSignedActivity und rv_post_workpapers_CreateNoteFeedback = nur Mensch, nie aufrufen
   mfiles: fehlende Nachweise nachbeschaffen; Protokolleintrag
   fundstellen:
   - quelle: leitfaden-qm-2025__6-1-1
     zitat: die durchgeführten Tätigkeiten und Schlussfolgerungen zu diesen Arbeiten zur Durchsicht vorlegen
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Notizen löscht oder erledigt er nie.
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: alles bleibt beim Menschen
   - quelle: hwp-er-2026__rz-0119-s175-t1
     zitat: Hierfür ist es nicht notwendig, dass der leitende Revisor sämtliche Arbeitspapiere durchsieht und visiert.
-- was: 'Konsultation, auftragsbegleitende QS und Memorandum vorbereiten: Sachverhalte markieren, die eine Konsultation oder aQS nahelegen (z.B. Fortführungsrisiko aus 3.4, Überschuldung,
-    umstrittene Bewertung), und im Rapport als Entscheidungspunkt aufführen; auf Anweisung Entwurf einer Zusammenfassung der Prüfungsergebnisse als Basis für Memorandum und Schlussbesprechung.
-    Durchführung und Dokumentation der Konsultation beim WP.'
+- was: 'Konsultation, auftragsbegleitende QS und Memorandum vorbereiten: Sachverhalte markieren, die eine Konsultation oder aQS nahelegen (z.B. Fortführungsrisiko, Überschuldung, umstrittene
+    Bewertung), und im Rapport als Entscheidungspunkt aufführen; auf Anweisung Entwurf einer Zusammenfassung der Prüfungsergebnisse als Basis für Memorandum und Schlussbesprechung. 3.4
+    Going concern erst nach dem Entscheid Leserechte lesen; bis dahin Hinweise aus Kennzahlen und Prüffeldern ableiten. Durchführung und Dokumentation der Konsultation beim WP.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 3.4 Going concern lesen; Notiz «Schlussbesprechung»; Rapport (Prozess 4)
+  revio: 1.2 Kennzahlen; 3.4 Going concern erst nach Entscheid Leserechte; Notiz «Schlussbesprechung»; Rapport (Prozess 4)
   mfiles: Memorandum/Konsultationsnotiz des WP ablegen (Ablageort durch consis festzulegen)
   fundstellen:
   - quelle: hwp-er-2026__rz-0120-s176
@@ -234,25 +323,32 @@ schritte:
     zitat: Es kann beispielsweise auch als Basis für die Abschlussbesprechung mit dem Prüfungskunden dienen.
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
-- was: 'Abschluss der endgültigen Auftragsakte und Archivierung: nach dem Berichtsdatum innerhalb der internen Frist (in der Regel höchstens 60 Tage) Akte zusammenstellen, Archivierungsreife
-    und Schlussvermerk setzen, versiegeln, archivieren. Danach nichts mehr entfernen; Änderungen nur mit Wer/Datum/Grund/Auswirkung.'
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- was: 'Abschluss der endgültigen Auftragsakte und Archivierung: nach dem Berichtsdatum innerhalb der intern festgelegten Frist (Beispiel Abschlussprüfung: in der Regel höchstens 60
+    Tage nach Berichtsdatum) Akte zusammenstellen, Archivierungsreife und Schlussvermerk setzen, versiegeln, archivieren. Danach nichts mehr entfernen; Änderungen nur mit Wer/Datum/Grund/Auswirkung
+    und unter Beachtung der GeBüV.'
   wer: WP
-  revio: Bereich 9.0 (Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk); Siegel/Archiv (rv_post_clientsManagement_RequestSeal_by_dossierId, rv_post_clientsManagement_SealAnualFile,
-    rv_post_clientsManagement_ArchiveDossier, rv_put_workpapers_UpdateDocumentationAttachementSealedState) – nur Mensch
+  revio: 'Bereich 9.0 (Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk) – Agent: keine Rolle; Siegel-, Archiv- und Review-Werkzeuge (z.B. RequestSeal, CancelSealRequest,
+    SealAnualFile, UnSealAnualFile, ArchiveDossier, UpdateDocumentationAttachementSealedState) gemäss Liste «revio nur-mensch» – nur Mensch'
   mfiles: ''
   fundstellen:
   - quelle: leitfaden-qm-2025__6-1-11-t1
     zitat: Die Prüfgesellschaft muss Fristen festlegen, bis wann die endgültigen Auftragsakten abzuschliessen sind.
   - quelle: hwp-er-2026__rz-0334-s258
-    zitat: beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
+    zitat: Bei Abschlussprüfungen beispielsweise beträgt diese Frist in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts
   - quelle: konzept-ki-revisionsagent-2026__c006-2
-    zitat: 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk
+    zitat: 9 Qualitätssicherung | 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk | keine
   - quelle: hwp-er-2026__rz-0286-s248
     zitat: sollte der Abschlussprüfer bis zum Ablauf der Aufbewahrungsfrist keine Dokumentationen mehr entfernen oder aussortieren
+  - quelle: hwp-er-2026__rz-0287-s248
+    zitat: Zudem sind die Bestimmungen der Geschäftsbücherverordnung
 - was: 'PDF-Akte (Prozess 6) nur auf ausdrückliche Anweisung des WP: aus revio erzeugen, auf Vollständigkeit prüfen, in M-Files ablegen; nichts überschreiben, Speicherort im Protokoll
-    bestätigen, bei Fehler Pendenz.'
+    bestätigen, bei Fehler Pendenz. Das Werkzeug ist standardmässig gesperrt und wird nur je Prozess-6-Auftrag befristet freigegeben; isArchiveJob immer false – die Archivierung bleibt
+    beim WP (Praxis/intern, revio-Klassierung).'
   wer: Agent
-  revio: PDF-Erzeugung (vermutlich rv_post_containerDefinitions_GeneratePdfReport; Machbarkeit offen) – nur auf Anweisung
+  revio: rv_post_containerDefinitions_GeneratePdfReport (OpenClaw standardmässig deny, nur je Auftrag befristet freigeben; Feldregel isArchiveJob=false, da in OpenClaw nicht je Feld
+    sperrbar); Einstellungen nur lesen (rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId)
   mfiles: Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»; bestehende Version nie überschreiben
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c010-1
@@ -262,10 +358,12 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c011-2
     zitat: Nichts überschreiben; Ablage mit Speicherort bestätigen
 - was: 'Aufbewahrung und Integrität: Revisionsberichte, Arbeitspapiere und wesentliche Unterlagen mindestens 10 Jahre ab Berichtsdatum sicher, lesbar und änderungsnachweisbar aufbewahren,
-    auch nach Mandatsende; Kundenakten zurückgeben und Kopien behalten. Löschen oder Bereinigen von Archiven nie durch den Agenten.'
+    auch nach Mandatsende; Kundenakten zurückgeben und Kopien behalten. Der Agent hat in Bereich 9 keine Rolle; Archivprüfungen nur durch den WP oder auf dessen ausdrückliche Anweisung;
+    Löschen oder Bereinigen von Archiven nie durch den Agenten.'
   wer: WP
-  revio: Archiv nur lesend (rv_get_clientsManagement_LoadArchiveAuditLog_by_dossierId, rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId); rv_get_clientsManagement_GetExpiredArchivesPurged
-    nie
+  revio: 'Agent: Bereich 9 keine Rolle. Nie (gesperrt/nur Mensch): rv_get_clientsManagement_LoadArchiveAuditLog_by_dossierId, rv_get_clientsManagement_GetExpiredArchivesPurged, rv_get_clientsManagement_LoadArchiveForYear_by_year,
+    rv_post_clientsManagement_LogArchiveAccess, rv_post_clientsManagement_ArchiveDossier. Archivprüfung (rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId, rv_get_clientsManagement_LoadArchiveVersions_by_dossierId)
+    nur durch den WP oder auf ausdrückliche Anweisung'
   mfiles: Aufbewahrungsregel für Klasse «Revision» und Agenten-Protokolle (consis/enco, offen)
   fundstellen:
   - quelle: or__art-730c
@@ -276,30 +374,67 @@ schritte:
     zitat: Die Arbeitspapiere des Abschlussprüfers sollten in sicherer Umgebung aufbewahrt werden.
   - quelle: hwp-er-2026__rz-0186-s072
     zitat: hat die Revisionsstelle Kopien zu erstellen und diese aufzubewahren
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 9 Qualitätssicherung | 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk | keine
 - was: 'Geheimnis und Datenschutz im laufenden Betrieb: keine Mandantendaten an Dritte oder ausserhalb der freigegebenen Systeme; E-Mail in der Testphase nur als Entwurf oder an die
-    fixe WP-Adresse, nie an Kunden; Geschäftsgeheimnisse auch in Rapport- und GVB-Entwurf wahren; Anfragen Dritter (Behörden, Nachfolgerevisor, Aktionäre) nie selbst beantworten, sondern
-    als Pendenz an den WP.'
+    fixe WP-Adresse, nie an Kunden; Geschäftsgeheimnisse auch in Rapport- und GVB-Entwurf wahren. Anfragen Dritter (Behörden, Nachfolgerevisor, Aktionäre, Sonderprüfer) nie selbst beantworten.
+    Hinweise auf gesetzliche Offenbarungs- oder Anzeigepflichten (z.B. offensichtliche Überschuldung OR 729c, Edition/Zeugnis nach StPO, RAG) und auf Geheimbereiche Dritter erkennen
+    und als Pendenz dem WP melden – der WP entscheidet.'
   wer: Agent
-  revio: kein Kundenversand (Dienstbenutzer ohne Versandrecht)
+  revio: kein Kundenversand (Dienstbenutzer ohne Versandrecht); Hinweise als Notiz «Pendenz» bzw. «Wesentliche Feststellungen»
   mfiles: nur Dokumente des fixierten Mandats lesen/ablegen
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
   - quelle: or__art-730b
     zitat: Sie wahrt bei der Berichterstattung, bei der Erstattung von Anzeigen und bei der Auskunftserteilung an die Generalversammlung die Geschäftsgeheimnisse der Gesellschaft.
+  - quelle: hwp-er-2026__rz-0010-s150-t1
+    zitat: Eine solche Verpflichtung besteht u.a. mit Bezug auf
+  - quelle: hwp-er-2026__rz-0010-s150-t1
+    zitat: die Zeugen- und Editionspflicht gemäss Strafprozessordnung
+  - quelle: or__art-729c
+    zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  - quelle: hwp-er-2026__rz-0010-s150-t2
+    zitat: Soweit (ausnahmsweise) Sachverhalte betroffen sind, die den rechtlich geschützten Geheimbereich Dritter betreffen, ist auch deren Zustimmung einzuholen.
   - quelle: leitfaden-qm-2025__8-1-t2
     zitat: Datenschutz oder Geheimhaltung können die Praxis auch daran hindern, Informationen an Dritte weiterzugeben.
   - quelle: leitfaden-qm-2025__4-1-t2
     zitat: Dritten gegenüber solche Informationen nicht ohne geeignete und ausdrückliche Genehmigung preiszugeben
-- was: 'Voraussetzungen für den KI-Einsatz vor dem ersten Test mit Echtdaten klären: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht
-    OR 730b; Berechtigungskonzept und Dienstbenutzer; Lizenz HWP/SER; Aufbewahrung der Agenten-Protokolle; Abnahmekriterien. Der Agent ist eine Ressource eines Dienstleisters – die Verantwortung
-    für das QM bleibt bei der Praxis.'
+- was: 'Voraussetzungen für den KI-Einsatz vor dem ersten Test mit Echtdaten klären (consis mit enco und AI-Partner; der Agent liefert nur die Checkliste): (1) Datenschutz: DPA/AVV und
+    Datensicherheit (Art. 8/9 DSG), Datenstandort bzw. Bekanntgabe ins Ausland (Art. 16 DSG), revDSG; (2) Berufsgeheimnis: DPA/AVV allein genügt nicht – Vertragsergänzung zum Berufsgeheimnis,
+    damit der Anbieter als Hilfsperson gilt (vertraglich gebunden, nur auf Weisung), sonst schriftliche Entbindung durch den Mandanten; Rechtslage ungeklärt, Verlautbarung der EXPERTsuisse-Rechtskommission
+    verfolgen; (3) Anbieterbedingungen: Enterprise-Variante mit No-Training- und No-Monitoring-Commitment (Abuse Monitoring), Websuche aus, nur Firmenkonten, Zugriffe berechtigen; Bedingungen
+    vor dem Einsatz und jährlich neu prüfen; (4) QM: KI-Weisung, KI-Nutzung als Risiko in der Risiko-Kontroll-Matrix, Schulung, Prüfung in der Nachschau, KI-Einsatz in den Auftragsbedingungen
+    regeln; (5) Berechtigungskonzept und Dienstbenutzer, Lizenz HWP/SER, Aufbewahrung der Agenten-Protokolle, Abnahmekriterien. Der Agent ist eine Ressource eines Dienstleisters – die
+    Verantwortung für das QM bleibt bei der Praxis.'
   wer: WP
-  revio: Dienstbenutzer ohne Recht für Visum, Abschlussstatus, Freigabe, Kundenversand; Löschrechte eingeschränkt
-  mfiles: Berechtigungskonzept und Dienstbenutzer (enco)
+  revio: Dienstbenutzer ohne Recht für Visum, Abschlussstatus, Freigabe, Kundenversand; Löschrechte eingeschränkt; gesperrte Werkzeuge gemäss Liste «revio nur-mensch» (OpenClaw deny)
+  mfiles: Berechtigungskonzept und Dienstbenutzer (enco); KI-Weisung, Anbieterverträge und Risiko-Kontroll-Matrix im QM-Ablageort der Praxis
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c015-3
     zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
+  - quelle: seminar-ki-datenschutz-2026__s003-1
+    zitat: Auftragsbearbeitung nur mit Vertrag (DPA/AVV¹) und Datensicherheit
+  - quelle: seminar-ki-datenschutz-2026__s003-1
+    zitat: nur bei angemessenem Schutz, z.B. zertifizierter US-Anbieter (Art. 16 DSG)
+  - quelle: seminar-ki-datenschutz-2026__s003-1
+    zitat: Ein DPA/AVV allein genügt nicht
+  - quelle: seminar-ki-datenschutz-2026__s003-1
+    zitat: möglich, wenn er vertraglich ans Berufsgeheimnis gebunden ist und nur auf Weisung arbeitet
+  - quelle: seminar-ki-datenschutz-2026__s003-3
+    zitat: Ob KI-Anbieter als Hilfspersonen von Revisoren gelten, ist nicht geklärt.
+  - quelle: seminar-ki-datenschutz-2026__s003-3
+    zitat: Enterprise-Variante mit No-Training- und No-Monitoring-Commitment
+  - quelle: seminar-ki-datenschutz-2026__s006-1
+    zitat: Training und Websuche ausschalten, Zugriffe berechtigen
+  - quelle: seminar-ki-datenschutz-2026__s004-2
+    zitat: Bedingungen vor dem Einsatz neu prüfen.
+  - quelle: seminar-ki-datenschutz-2026__s006-1
+    zitat: KI-Nutzung als Risiko in die Risiko-Kontroll-Matrix aufnehmen
+  - quelle: seminar-ki-datenschutz-2026__s006-1
+    zitat: KI-Einsatz in den Auftragsbedingungen regeln oder schriftlich entbinden lassen
+  - quelle: dsg__art-9
+    zitat: keine gesetzliche oder vertragliche Geheimhaltungspflicht die Übertragung verbietet
   - quelle: konzept-ki-revisionsagent-2026__c009-3
     zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt
   - quelle: konzept-ki-revisionsagent-2026__c022-1
@@ -308,8 +443,23 @@ schritte:
     zitat: Lizenz für HWP und SER vorher mit EXPERTsuisse klären
   - quelle: leitfaden-qm-2025__7-1-4
     zitat: Ungeachtet dessen, dass eine Praxis Ressourcen eines Dienstleisters nutzen kann, bleibt die Praxis für ihr Qualitätsmanagementsystem verantwortlich.
-- was: 'Testphase stufenweise: technische Machbarkeit, dann nur lesend (Rapport ohne Ablage, Vergleich mit der Arbeit des Revisors), erst danach schreibend; Halt nach dem Import; revio-Updates
-    auf dem Agenten-Arbeitsplatz erst nach Test; nie direkt in die Datenbank schreiben.'
+- was: 'Je Mandat vor der Bearbeitung prüfen, ob die vom WP gewählte Grundlage für den KI-Einsatz vorliegt (Vertragsergänzung zum Berufsgeheimnis mit dem Anbieter gemäss Praxis-Entscheid
+    bzw. KI-Regelung in den Auftragsbedingungen oder schriftliche Entbindung des Mandanten); fehlt sie oder ist sie unklar: keine Mandantendaten verarbeiten, Pendenz an den WP, keine
+    Kundenanfrage.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: keine Schreibhandlung im Dossier; Meldung im Rapport an den WP
+  mfiles: Auftragsbestätigung bzw. Entbindungserklärung des Mandanten über Metadaten des fixierten Mandats suchen
+  fundstellen:
+  - quelle: seminar-ki-datenschutz-2026__s006-1
+    zitat: KI-Einsatz in den Auftragsbedingungen regeln oder schriftlich entbinden lassen
+  - quelle: seminar-ki-datenschutz-2026__s008-1
+    zitat: Auch Firmenversionen brauchen dafür eine Vertragsergänzung oder die schriftliche Entbindung durch den Mandanten.
+  - quelle: hwp-er-2026__rz-0010-s150-t2
+    zitat: Die Revisionsstelle kann weiter durch ihren Auftraggeber vom Revisionsgeheimnis entbunden werden (dies sollte unbedingt schriftlich festgehalten werden).
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Anforderung beim Kunden durch den Menschen
+- was: 'Testphase stufenweise: technische Machbarkeit, dann nur lesend (Rapport ohne Ablage, Vergleich mit der Arbeit des Revisors), erst danach schreibend; Halt nach dem Import; keine
+    Echtdaten, bevor Datenschutz und Berufsgeheimnis geregelt sind; revio-Updates auf dem Agenten-Arbeitsplatz erst nach Test; nie direkt in die Datenbank schreiben.'
   wer: Agent bereitet vor, WP entscheidet
   revio: Bedienung über die Oberfläche mit eigenem Benutzer; in der lesenden Phase keine schreibenden Werkzeuge
   mfiles: 'lesende Phase: nichts ablegen'
@@ -318,6 +468,8 @@ schritte:
     zitat: Zuerst die technische Machbarkeit klären, dann lesend testen und erst danach schreibend arbeiten lassen.
   - quelle: konzept-ki-revisionsagent-2026__c023-1
     zitat: 'Nur lesend testen: Der Agent bearbeitet ein Testmandat, schreibt den Rapport, legt aber nichts in revio oder M-Files ab.'
+  - quelle: konzept-ki-revisionsagent-2026__c015-3
+    zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: Direktes Schreiben in die Datenbank ist ausgeschlossen, weil es Anwendungslogik, Historie und Support umgeht.
   - quelle: konzept-ki-revisionsagent-2026__c009-2
@@ -328,39 +480,72 @@ entscheidungen_wp:
 - text: Ob die erlangten Nachweise ausreichend und geeignet sind und der Bericht abgegeben werden kann (Durchsicht vor Berichtsdatum).
   quelle: hwp-er-2026__rz-0119-s175-t1
   zitat: Speziell ist im Rahmen der Durchsicht darauf zu achten, dass die erlangten Nachweise ausreichend und geeignet sind, um die Prüfungsaussage im Revisionsbericht zu stützen.
-- text: Visum je Schritt, ✓ je Prüffeld, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status in Bereich 10.
+- text: 'Wer die Durchsicht vornimmt: der WP oder eine Person mit mindestens gleichwertiger Qualifikation – nie der Agent (auch nicht für eigene Arbeit oder einen anderen Agentenlauf).'
+  quelle: hwp-er-2026__rz-0119-s175-t1
+  zitat: welche über eine mindestens gleichwertige Qualifikation verfügen wie die Erstellenden der Prüfungsakten
+- text: Visum je Schritt, ✓ je Prüffeld, «Abgeschlossen»/«Review», Abschliessende Beurteilung und Status in Bereich 10; Nachträge an visierten Schritten.
   quelle: konzept-ki-revisionsagent-2026__c008-1
   zitat: alles bleibt beim Menschen
 - text: Ob bei schwierigen oder umstrittenen Sachverhalten eine Konsultation durchgeführt wird; deren Dokumentation und Umsetzung.
   quelle: leitfaden-qm-2025__6-1-4-t1
   zitat: Die aus der Konsultation resultierenden Schlussfolgerungen müssen umgesetzt werden.
-- text: Ob eine auftragsbegleitende Qualitätssicherung nötig ist (Kriterien der Praxis; bei KMU meist nicht).
-  quelle: leitfaden-qm-2025__6-2-t1
-  zitat: In kleineren Prüfgesellschaften kann folglich in den meisten Fällen von einer auftragsbegleitenden Qualitätssicherung abgesehen werden
+- text: 'Ob eine auftragsbegleitende Qualitätssicherung nötig ist: massgebend sind die Kriterien der Praxis, z.B. Fortführungsrisiko, Auslandsbezug, grosser Adressatenkreis; in kleineren
+    Prüfgesellschaften meist nicht (Leitfaden QM 6.2).'
+  quelle: hwp-er-2026__rz-0121-s176-t1
+  zitat: 'Als Kriterien kommen u.a. in Betracht: Prüfungsmandate mit Risiken im Hinblick auf die Fähigkeit zur Unternehmensfortführung'
 - text: Entscheid über Meinungsverschiedenheiten vor Berichtsabgabe.
   quelle: leitfaden-qm-2025__6-1-10
   zitat: Ein Revisionsbericht darf nicht abgegeben werden, bevor nicht eine Entscheidung hinsichtlich einer allfälligen Meinungsverschiedenheit getroffen wurde
 - text: Ob ein Memorandum zur abschliessenden Durchsicht erstellt wird (empfohlen) und dessen Inhalt.
   quelle: ser-2022__7-2
   zitat: Ein Memorandum, das die abschliessende Durchsicht der Prüfungsdokumentation durch den leitenden Abschlussprüfer und die Prüfungsergebnisse
-- text: Abschluss der endgültigen Auftragsakte innerhalb der internen Frist, Archivierungsreife, Schlussvermerk, Siegel und Archivierung.
+- text: Interne Frist für den Abschluss der endgültigen Auftragsakte (Praxis-Regelung; Beispiel Abschlussprüfung höchstens 60 Tage).
+  quelle: leitfaden-qm-2025__6-1-11-t1
+  zitat: Die Prüfgesellschaft muss Fristen festlegen, bis wann die endgültigen Auftragsakten abzuschliessen sind.
+- text: Abschluss der endgültigen Auftragsakte, Archivierungsreife, Schlussvermerk, Siegel und Archivierung sowie Archivprüfungen.
   quelle: konzept-ki-revisionsagent-2026__c006-2
   zitat: 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk
-- text: Nachträgliche Änderungen an abgeschlossenen Arbeitspapieren (nur mit Wer/Datum/Grund/Auswirkung).
+- text: Nachträgliche Änderungen an abgeschlossenen Arbeitspapieren (nur mit Wer/Datum/Grund/Auswirkung, GeBüV beachten).
   quelle: hwp-er-2026__rz-0286-s248
   zitat: Wer diese Änderungen an welchem Datum ausführte und wer ggf. zu welchem Zeitpunkt die Durchsicht vornahm
-- text: Anweisung zur PDF-Akte (Prozess 6).
+- text: Anweisung zur PDF-Akte (Prozess 6) und befristete Freigabe des Werkzeugs je Auftrag.
   quelle: konzept-ki-revisionsagent-2026__c010-1
   zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
 - text: Entbindung vom Revisionsgeheimnis bzw. Weitergabe an Dritte (schriftlich, durch Auftraggeber).
   quelle: hwp-er-2026__rz-0010-s150-t2
   zitat: Die Revisionsstelle kann weiter durch ihren Auftraggeber vom Revisionsgeheimnis entbunden werden (dies sollte unbedingt schriftlich festgehalten werden).
+- text: Ob der Geheimbereich Dritter betroffen ist und deren Zustimmung eingeholt werden muss.
+  quelle: hwp-er-2026__rz-0010-s150-t2
+  zitat: Soweit (ausnahmsweise) Sachverhalte betroffen sind, die den rechtlich geschützten Geheimbereich Dritter betreffen, ist auch deren Zustimmung einzuholen.
+- text: Ob eine gesetzliche Offenbarungs- oder Anzeigepflicht besteht und wahrgenommen wird (z.B. Benachrichtigung des Gerichts nach OR 729c, Auskunft an Sonderprüfer, Edition/Zeugnis
+    nach StPO).
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- text: Rückgabe der anvertrauten Kundenakten bei Beendigung der Prüfung (Agent liefert nur die Liste).
+  quelle: hwp-er-2026__rz-0284-s248
+  zitat: Es besteht kein Retentionsrecht des Abschlussprüfers an den Akten, die er vom geprüften Unternehmen erhalten hat.
 - text: 'E-Mail-Versand des Rapports: Freigabe, Empfängeradresse, Anhänge (consis, technisch enco).'
   quelle: konzept-ki-revisionsagent-2026__c015-3
   zitat: Wer gibt was frei? Welche Empfängeradresse, welche Anhänge?
 - text: Datenschutz und Berufsgeheimnis beim KI-Einsatz vor dem ersten Echtdaten-Test (consis mit enco und AI-Partner).
   quelle: konzept-ki-revisionsagent-2026__c015-3
   zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
+- text: 'Rechtsgrundlage des KI-Einsatzes für das Berufsgeheimnis: Anbieter als Hilfsperson (Vertragsergänzung, Arbeit nur auf Weisung) oder schriftliche Entbindung je Mandant; Rechtslage
+    ungeklärt, Verlautbarung der EXPERTsuisse-Rechtskommission verfolgen.'
+  quelle: seminar-ki-datenschutz-2026__s003-3
+  zitat: Ob KI-Anbieter als Hilfspersonen von Revisoren gelten, ist nicht geklärt.
+- text: 'Anbieter und Konfiguration: Enterprise-Variante mit No-Training- und No-Monitoring-Commitment, Websuche aus, nur Firmenkonten; Bedingungen vor dem Einsatz und jährlich neu prüfen.'
+  quelle: seminar-ki-datenschutz-2026__s003-3
+  zitat: Enterprise-Variante mit No-Training- und No-Monitoring-Commitment
+- text: 'QM-Verankerung: KI-Weisung erlassen, KI-Nutzung als Risiko in die Risiko-Kontroll-Matrix (ISQM-CH 1), Schulung und Überwachung in der Nachschau.'
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: KI-Nutzung als Risiko in die Risiko-Kontroll-Matrix aufnehmen
+- text: Ob der KI-Einsatz in den Auftragsbedingungen geregelt oder die schriftliche Entbindung beim Mandanten eingeholt wird (Kundenkontakt durch den WP).
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: KI-Einsatz in den Auftragsbedingungen regeln oder schriftlich entbinden lassen
+- text: Leserechte des Agenten für 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2 (consis/WP); bis zum Entscheid nicht lesen.
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
 - text: Aufbewahrung der Agenten-Protokolle und Abnahmekriterien der Testphase (Governance, offen).
   quelle: konzept-ki-revisionsagent-2026__c022-1
   zitat: 'Abnahmekriterien: Wann gilt die Testphase als bestanden?'
@@ -380,10 +565,38 @@ unterlagen:
   zweck: Prüfungsnachweise; Ablage 10.6 Korrespondenz und Diverses
   quelle: ser-2022__7-2
   zitat: Korrespondenzen und Gesprächsprotokolle mit dem Prüfungskunden können ebenfalls Prüfungsnachweise darstellen.
-- dokument: Auftragsbestätigung (ggf. mit Regelung zu Geheimhaltung, Datenschutz und Zugang Dritter für Peer Review)
-  zweck: Grundlage für Weitergabe an externe Qualitätssicherer
+- dokument: Auftragsbestätigung (ggf. mit Regelung zu Geheimhaltung, Datenschutz, Zugang Dritter für Peer Review und KI-Einsatz)
+  zweck: Grundlage für Weitergabe an externe Qualitätssicherer und für den KI-Einsatz
   quelle: ser-2022__anh-c-s058-1
   zitat: Ggf. zu ergänzen um Regelungen zu Geheimhaltung und Datenschutz für den Fall
+- dokument: Schriftliche Entbindungserklärung des Mandanten bzw. KI-Regelung in den Auftragsbedingungen
+  zweck: Berufsgeheimnis beim KI-Einsatz, soweit nicht über die Hilfsperson-Lösung abgedeckt
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: KI-Einsatz in den Auftragsbedingungen regeln oder schriftlich entbinden lassen
+- dokument: KI-Weisung der Praxis (erlaubte Tools je Datenart, Verbot privater Abos für Mandatsdaten)
+  zweck: QM-Rahmen für den KI-Einsatz
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: private Abos für Mandatsdaten verbieten
+- dokument: DPA/AVV mit dem KI-Anbieter und Ergänzung zum Berufsgeheimnis (Geheimhaltung)
+  zweck: Datenschutz (Art. 9 DSG) und Berufsgeheimnis (Hilfsperson)
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: für Berufsgeheimnisse eine Ergänzung zur Geheimhaltung mit dem Anbieter vereinbaren
+- dokument: Aktuelle Nutzungsbedingungen des KI-Anbieters (No-Training, No-Monitoring, Websuche, Datenstandort)
+  zweck: Bedingungen vor dem Einsatz und jährlich prüfen
+  quelle: seminar-ki-datenschutz-2026__s004-2
+  zitat: Bedingungen vor dem Einsatz neu prüfen.
+- dokument: Risiko-Kontroll-Matrix des QM-Systems mit KI-Risiko
+  zweck: QM-Verankerung des KI-Einsatzes (ISQM-CH 1)
+  quelle: seminar-ki-datenschutz-2026__s006-1
+  zitat: KI-Nutzung als Risiko in die Risiko-Kontroll-Matrix aufnehmen
+- dokument: Vertraulichkeitserklärung bzw. Vertraulichkeitsklausel der externen Person (Nachschau, Konsultation, aQS)
+  zweck: Revisions- und Berufsgeheimnis bei externer Qualitätssicherung
+  quelle: hwp-er-2026__rz-0124-s177
+  zitat: eine Vertraulichkeitsklausel (persönliche Geheimhaltungsklausel) zu integrieren
+- dokument: Liste der erhaltenen Originalunterlagen des Kunden
+  zweck: Rückgabe durch den WP bei Beendigung der Prüfung
+  quelle: hwp-er-2026__rz-0284-s248
+  zitat: die ihm anvertrauten Akten sowie alle Dokumente, die er für die Prüfung angefordert hat, dem Unternehmen zurückzugeben
 - dokument: Protokoll der Schlussbesprechung
   zweck: Dokumentation der mündlichen Berichterstattung
   quelle: hwp-er-2026__rz-0459-s289
@@ -397,7 +610,7 @@ unterlagen:
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: Interne Prüfungsanweisungen, SER, Wesentlichkeitsmethodik und Muster-Arbeitspapiere als durchsuchbare Wissensbasis
 - dokument: Berechtigungskonzept M-Files/revio und Dienstbenutzer
-  zweck: Zugriffsschutz und Vertraulichkeit der Auftragsdokumentation
+  zweck: Zugriffsschutz und Vertraulichkeit der Auftragsdokumentation (nur autorisierte Personen, mandatsbezogen)
   quelle: konzept-ki-revisionsagent-2026__c018-1
   zitat: Berechtigungskonzept und Möglichkeit eines Dienstbenutzers
 - dokument: PDF-Akte «AP revio» (nur auf Anweisung)
@@ -417,12 +630,27 @@ dokumentation:
 - text: Datum und Ersteller (Dienstbenutzer des Agenten) jedes Arbeitspapiers; Review-Datum und Reviewer setzt der WP.
   quelle: hwp-er-2026__rz-0278-s246
   zitat: Die Arbeitspapiere sind zu datieren und vom Ersteller zu kennzeichnen.
+- text: Ergänzungen zu bereits visierten Schritten nur als eigene Notiz «Pendenz» mit Verweis auf Schritt, Text und Nachweis; den Nachtrag am Schritt hängt der WP an.
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: alles bleibt beim Menschen
 - text: Auflösung von Inkonsistenzen zwischen Feststellungen und Prüfungsaussage.
   quelle: hwp-er-2026__rz-0290-s248
   zitat: dokumentiert der Abschlussprüfer in den Arbeitspapieren, wie er die Inkonsistenz oder den Widerspruch aufgelöst hat
 - text: Mündliche und schriftliche Berichterstattung (Schlussbesprechung, Rapport).
   quelle: hwp-er-2026__rz-0290-s248
   zitat: Der Abschlussprüfer achtet darauf, dass die mündliche wie auch die schriftliche Berichterstattung in den Arbeitspapieren dokumentiert ist.
+- text: Nicht geprüfte Pflichtinhalte nach SER 7.2 wegen offener Leserechte als Pendenz «Leserecht offen».
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+- text: Hinweise auf gesetzliche Offenbarungs- oder Anzeigepflichten als Pendenz an den WP (kein eigenes Handeln).
+  quelle: hwp-er-2026__rz-0010-s150-t1
+  zitat: die gesetzlichen Anzeigepflichten
+- text: Schriftliche Entbindung bzw. KI-Regelung in den Auftragsbedingungen in der Akte (Ablage durch den WP).
+  quelle: hwp-er-2026__rz-0010-s150-t2
+  zitat: (dies sollte unbedingt schriftlich festgehalten werden)
+- text: Liste der erhaltenen Kundenoriginale im Rapport.
+  quelle: hwp-er-2026__rz-0284-s248
+  zitat: die ihm anvertrauten Akten sowie alle Dokumente, die er für die Prüfung angefordert hat, dem Unternehmen zurückzugeben
 - text: Konsultationen (durch den WP) angemessen dokumentieren.
   quelle: leitfaden-qm-2025__6-1-4-t1
   zitat: Die Konsultation ist angemessen zu dokumentieren.
@@ -442,13 +670,15 @@ fallstricke:
 - text: E-Mail an Kunden oder Dritte in der Testphase – nur Entwurf oder fixe WP-Adresse.
   quelle: konzept-ki-revisionsagent-2026__c009-2
   zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
-- text: Notizen (auch «Review») löschen oder als erledigt markieren.
+- text: Notizen (auch «Review») löschen, als erledigt markieren (isClosed) oder fremde Notizen ändern.
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Notizen löscht oder erledigt er nie.
-- text: Siegel-, Archiv-, Review-Freigabe- und Löschwerkzeuge in revio aufrufen (z.B. SealAnualFile, ArchiveDossier, ApproveGlobalDossierReview, DeleteNote, GetExpiredArchivesPurged)
-    – nur Mensch.
+- text: 'Werkzeuge der Liste «revio nur-mensch» aufrufen (revision.py revio nur-mensch; wiki/revio/werkzeuge-nur-mensch.md: Siegel inkl. UnSealAnualFile/CancelSealRequest, Visum, Archiv
+    inkl. LoadArchiveAuditLog, Review-Workflow inkl. Reject/CancelGlobalDossierReview, AppendCommentToSignedActivity, Löschen) – auch nicht auf Anweisung oder über revio_call.'
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand; Löschrechte eingeschränkt
+- text: 'Feldregeln missachten: Visum-Felder (isVised, visaDate, visaText, visaUserId) in UpdateDossierActivity, isClosed in UpdateNote oder isArchiveJob=true in GeneratePdfReport setzen
+    (Praxis/intern, revio-Klassierung).'
 - text: Direkt in die revio-Datenbank schreiben – umgeht Historie und Nachvollziehbarkeit.
   quelle: konzept-ki-revisionsagent-2026__c009-2
   zitat: Direktes Schreiben in die Datenbank ist ausgeschlossen, weil es Anwendungslogik, Historie und Support umgeht.
@@ -456,46 +686,76 @@ fallstricke:
   quelle: leitfaden-qm-2025__6-2-t3
   zitat: hat der Auftragsverantwortliche vor Abgabe des Revisionsberichts sicherzustellen, dass eine entsprechende Durchsicht der Arbeiten der weniger erfahrenen Teammitglieder stattgefunden
     hat
+- text: Agent als Reviewer einsetzen (eigene Arbeit oder anderer Agentenlauf) oder die Ausnahme «eigenständig ohne Teammitglieder» auf vom Agenten vorbereitete Mandate anwenden.
+  quelle: hwp-er-2026__rz-0119-s175-t1
+  zitat: welche über eine mindestens gleichwertige Qualifikation verfügen wie die Erstellenden der Prüfungsakten
 - text: Vollständigkeitserklärung als Ersatz für Nachweise verwenden.
   quelle: hwp-er-2026__rz-0338-s259
   zitat: die Vollständigkeitserklärung kein Ersatz für Prüfungsnachweise ist
 - text: Nach Abschluss der endgültigen Akte Dokumente entfernen oder überschreiben.
   quelle: hwp-er-2026__rz-0286-s248
   zitat: sollte der Abschlussprüfer bis zum Ablauf der Aufbewahrungsfrist keine Dokumentationen mehr entfernen oder aussortieren
-- text: Kundenoriginale zurückbehalten statt zurückgeben (nur Kopien aufbewahren).
+- text: 60 Tage als gesetzliche Regelfrist der eingeschränkten Revision nennen – massgebend ist die intern festgelegte Frist; 60 Tage sind ein Beispiel.
+  quelle: hwp-er-2026__rz-0334-s258
+  zitat: Bei Abschlussprüfungen beispielsweise beträgt diese Frist
+- text: Rückgabe von Kundenoriginalen selbst veranlassen oder Originale zurückbehalten – der Agent listet nur, die Rückgabe veranlasst der WP.
   quelle: hwp-er-2026__rz-0284-s248
   zitat: Es besteht kein Retentionsrecht des Abschlussprüfers an den Akten, die er vom geprüften Unternehmen erhalten hat.
 - text: Fehlende Angaben oder Nachweise ergänzen statt als Pendenz melden.
   quelle: konzept-ki-revisionsagent-2026__c005-1
   zitat: fehlende Daten dürfen nicht erfunden werden
+- text: 'Leserechte vorwegnehmen: 2.1, 2.4, 3.1, 3.4, 3.5 oder 6.2 lesen, bevor consis/WP entschieden haben.'
+  quelle: konzept-ki-revisionsagent-2026__c017-1
+  zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
 - text: Annahme, der KI-Dienstleister trage die Qualitätsverantwortung – sie bleibt bei der Praxis bzw. beim WP.
   quelle: leitfaden-qm-2025__7-1-4
   zitat: Ungeachtet dessen, dass eine Praxis Ressourcen eines Dienstleisters nutzen kann, bleibt die Praxis für ihr Qualitätsmanagementsystem verantwortlich.
+- text: Annahme, ein DPA/AVV oder eine Firmenversion (Team/Enterprise) genüge für das Berufsgeheimnis – es braucht eine Vertragsergänzung oder die schriftliche Entbindung.
+  quelle: seminar-ki-datenschutz-2026__s008-1
+  zitat: Auch Firmenversionen brauchen dafür eine Vertragsergänzung oder die schriftliche Entbindung durch den Mandanten.
+- text: Mandantendaten verarbeiten, bevor Datenschutz und Berufsgeheimnis geregelt sind oder die Grundlage im Mandat vorliegt.
+  quelle: konzept-ki-revisionsagent-2026__c015-3
+  zitat: Datenstandort, Auftragsbearbeitungsvertrag, kein Training mit Mandantendaten, revDSG, Schweigepflicht nach Art. 730b OR; vor dem ersten Test mit Echtdaten regeln.
+- text: Pauschale Klausel «wir setzen KI ein» als ausreichende Einwilligung des Mandanten ansehen – nötig ist eine spezifische Einwilligung bzw. schriftliche Entbindung.
+  quelle: seminar-ki-datenschutz-2026__s003-3
+  zitat: nur mit spezifischer Einwilligung des Mandanten; «wir setzen KI ein» schützt kaum.
+- text: Anbieterbedingungen (Ampel Seminar Folie 60, Stand 8. Juli 2026) als dauerhaft gültig übernehmen – sie ändern sich laufend.
+  quelle: seminar-ki-datenschutz-2026__s004-2
+  zitat: Bedingungen vor dem Einsatz neu prüfen.
 - text: Verdacht auf Straftaten selbst bei Behörden melden – die Verschwiegenheit schliesst Anzeigen an Strafverfolgungsbehörden aus; Sachverhalt nur dem WP melden.
   quelle: hwp-er-2026__rz-0010-s150-t2
   zitat: die Verschwiegenheitspflicht der Revisionsstelle eine Anzeige an Strafverfolgungsbehörden ausschliesst
+- text: Gesetzliche Anzeige (z.B. Gericht bei offensichtlicher Überschuldung) oder Auskunft an Sonderprüfer/Behörden selbst auslösen – Entscheid und Handlung beim WP.
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
 - text: Wissensbasis (HWP, SER, Muster) oder revio-Werkzeugliste nach aussen geben – lizenziert bzw. proprietär, Lizenzlage offen.
   quelle: konzept-ki-revisionsagent-2026__c019-1
   zitat: Lizenzsituation für HWP und SER
 - text: revio-Updates ungetestet auf dem Agenten-Arbeitsplatz einspielen.
   quelle: konzept-ki-revisionsagent-2026__c009-2
   zitat: Updates werden deshalb auf dem Agenten-Arbeitsplatz erst nach einem Test eingespielt.
-- text: Seminarunterlagen «Datenschutz bei der Nutzung von KI» (seminar-ki-datenschutz-2026, Folien 53–68) sind ein Bildscan ohne Textlayer und nicht gechunkt – daraus nichts zitieren;
-    Original raw/seminar-ki-datenschutz-2026.pdf vom WP lesen lassen.
+- text: Seminar «Datenschutz bei der Nutzung von KI» (seminar-ki-datenschutz-2026) ist eine Agenten-Abschrift eines Bildscans (Fachliteratur Rang 4, nach Gesetz und HWP); im Zweifel
+    Original raw/seminar-ki-datenschutz-2026.pdf prüfen.
 fragen_kunde:
 - frage: Sind Sie einverstanden, dass für die gesetzlich vorgesehene Qualitätssicherung (Nachschau/Peer Review) externe Berufsangehörige unter Vertraulichkeit Einsicht in die Auftragsakten
-    erhalten (Regelung in der Auftragsbestätigung)?
-  zweck: 'SER 1.7, SER Anhang C Fn. [9], Leitfaden QM 6.1.12: Zugang Dritter und Entbindung vom Revisionsgeheimnis vereinbaren; Frage stellt der WP, der Agent bereitet nur die Formulierung
-    vor.'
+    erhalten, und entbinden Sie uns dafür vom Revisionsgeheimnis (Regelung in der Auftragsbestätigung)?
+  zweck: 'SER 1.7; SER Anhang C Fn. [9] (ser-2022__anh-c-s058-1); HWP ER Rz 124 (hwp-er-2026__rz-0124-s177); Leitfaden QM 6.1.12 (leitfaden-qm-2025__6-1-12-t1): Zugang Dritter und Entbindung
+    vom Revisionsgeheimnis vereinbaren. Frage stellt der WP; der Agent bereitet nur die Formulierung vor.'
+- frage: Sind Sie mit dem Einsatz eines KI-Agenten (Anbieter, Datenstandort) bei der Revision einverstanden bzw. entbinden Sie uns dafür schriftlich vom Revisionsgeheimnis?
+  zweck: 'Berufsgeheimnis beim KI-Einsatz: KI-Einsatz in den Auftragsbedingungen regeln oder schriftlich entbinden lassen (seminar-ki-datenschutz-2026__s006-1, s008-1; Art. 321 Ziff.
+    2 StGB; HWP ER Rz 10). Die Einwilligung muss spezifisch sein (seminar-ki-datenschutz-2026__s003-3: «wir setzen KI ein» schützt kaum); wegen der ungeklärten Rechtslage auch neben
+    der Hilfsperson-Lösung zu prüfen (Massnahme «Mandanten einbinden»). Entscheid und Frage beim WP.'
 - frage: Liegen die vom Vorsitzenden des Verwaltungsrats und der für die Rechnungslegung zuständigen Person unterzeichnete Jahresrechnung und Vollständigkeitserklärung vor?
-  zweck: 'SER 7.2: Bestandteil der Jahresakten; Ablage 10.4, Prüfschritte A1-103/A1-301.'
+  zweck: 'SER 7.2: Bestandteil der Jahresakten; Unterzeichnende gemäss SER Anhang C Fn. [8] (ser-2022__anh-c-s058-1: VE in der Regel von denselben Personen wie die JR); Ablage 10.4,
+    Prüfschritte A1-103/A1-301.'
 - frage: Haben sich Statuten, Handelsregistereintrag oder wesentliche mehrjährige Verträge seit dem Vorjahr geändert?
   zweck: Dauerakten aktualisieren (SER 7.3; Schritte xx-322/P1-321).
 - frage: Welche Originalunterlagen haben Sie uns übergeben, und wie sollen sie zurückgegeben werden?
-  zweck: 'HWP ER Rz 284: Rückgabe anvertrauter Akten, kein Retentionsrecht; in der Akte bleiben Kopien (Rz 186).'
-- frage: Bestehen besondere Geheimhaltungs- oder Datenschutzanforderungen (z.B. Personendaten, Geschäftsgeheimnisse, vertragliche Vertraulichkeit), die bei Übermittlung und Ablage der
-    Unterlagen zu beachten sind?
-  zweck: OR 730b Abs. 2 und Datenschutzvorgaben (HWP ER Rz 103) einhalten; sichere Übermittlungswege mit dem WP festlegen.
+  zweck: 'HWP ER Rz 284: Rückgabe anvertrauter Akten, kein Retentionsrecht; in der Akte bleiben Kopien (Rz 186). Frage und Rückgabe durch den WP; der Agent liefert die Liste der erhaltenen
+    Originale.'
+- frage: Bestehen besondere Geheimhaltungs- oder Datenschutzanforderungen (z.B. Personendaten, Geschäftsgeheimnisse, vertragliche Vertraulichkeit, Geheimbereich Dritter), die bei Übermittlung
+    und Ablage der Unterlagen zu beachten sind?
+  zweck: OR 730b Abs. 2, HWP ER Rz 10 (Zustimmung Dritter) und Datenschutzvorgaben (HWP ER Rz 103) einhalten; sichere Übermittlungswege mit dem WP festlegen.
 muster:
 - vorlage: 'SER Anhang C, Redaktionelle Erläuterung [9]: Auftragsbestätigung um Geheimhaltung und Datenschutz für Peer Review ergänzen'
   chunk: ser-2022__anh-c-s058-1
@@ -503,6 +763,10 @@ muster:
   chunk: muster-hwp-er-2026__c006-1
 - vorlage: 'Muster HWP ER: Vollständigkeitserklärung eingeschränkte Revision (Verweis auf SER Anhang E, Beispiel 1)'
   chunk: muster-hwp-er-2026__c011-1
+- vorlage: 'Seminar KI Folie 63: Fünf Führungsmassnahmen (KI-Weisung, Verträge, Tools konfigurieren, Mandanten einbinden, Schulen/Überwachen) als Gerüst der KI-Weisung'
+  chunk: seminar-ki-datenschutz-2026__s006-1
+- vorlage: 'Seminar KI Folie 64: Beispielhafte Leitplanken, welche Datenart in welches Tool darf (branchenfremd, keine Empfehlung)'
+  chunk: seminar-ki-datenschutz-2026__s006-2
 - vorlage: 'Leitfaden QM Arbeitshilfe 5.1: Checkliste «Laufende Überwachung und abschliessende Durchsicht» (im Wiki nur Titel, Inhalt im Original)'
   chunk: leitfaden-qm-2025__5-1
 - vorlage: 'Leitfaden QM Arbeitshilfe 5.2: Abklärungen zur Notwendigkeit einer auftragsbegleitenden Qualitätssicherung (nur Titel)'

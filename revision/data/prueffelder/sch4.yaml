@@ -4,11 +4,11 @@ bezeichnung: Finanzaufwand und Finanzertrag
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 14
-    korrigiert: false
+    korrigiert: true
 kurzbeschrieb: 'ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre und Bankguthaben, Bankspesen/-kommissionen, Erträge
   aus Finanzanlagen, Fremdwährungsdifferenzen. In der eingeschränkten Revision v.a. analytisch (Vorjahresvergleich, Erwartungswert aus verzinslichen Positionen, Plausibilisierung FX);
   Detailprüfungen nur weitergehend (WP).'
@@ -31,18 +31,28 @@ gesetz:
 - thema: Vorjahreszahlen in der Jahresrechnung (Grundlage Vorjahresvergleich)
   quelle: or__art-958d
   zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
-- thema: Funktionale Währung; Offenlegung der Umrechnungskurse im Anhang
+- thema: Währung der Rechnungslegung (Landeswährung oder für die Geschäftstätigkeit wesentliche Währung); Offenlegung der Umrechnungskurse im Anhang nur, wenn nicht in der Landeswährung
+    Rechnung gelegt wird (bei CHF-Rechnungslegung nicht anwendbar, vgl. SER Anhang E)
   quelle: or__art-958d
-  zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
+  zitat: Wird nicht die Landeswährung verwendet, so müssen die Werte zusätzlich in der Landeswährung angegeben werden. Die verwendeten Umrechnungskurse sind im Anhang offenzulegen
+- thema: 'Anhang: angewandte Grundsätze, soweit nicht gesetzlich vorgeschrieben (z.B. Fremdwährungsumrechnung, Ausweis der Kursdifferenzen)'
+  quelle: or__art-959c-t1
+  zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
 - thema: 'Anhang: Aufschlüsselungen und Erläuterungen zu ER-Positionen'
   quelle: or__art-959c-t1
   zitat: Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung
+- thema: Schwankungsreserve auf Aktiven zum Börsenkurs/Marktpreis (Veränderung im Finanzerfolg, vgl. HWP BuR Rz 788)
+  quelle: or__art-960b
+  zitat: so darf eine Wertberichtigung zulasten der Erfolgsrechnung gebildet werden, um Schwankungen im Kursverlauf Rechnung zu tragen
 - thema: Gesonderter Ausweis von Forderungen/Verbindlichkeiten gegenüber Beteiligten und Organen (Basis der Zinsen Nahestehender)
   quelle: or__art-959a-t2
   zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
 - thema: Rückerstattungspflicht bei offensichtlichem Missverhältnis von Leistung und Gegenleistung (nicht marktkonforme Zinsen mit Aktionären)
   quelle: or__art-678
   zitat: soweit ein offensichtliches Missverhältnis zwischen Leistung und Gegenleistung besteht
+- thema: Verbot der Einlagenrückgewähr (Darlehen an Aktionäre zu nicht marktkonformen Bedingungen, vgl. HWP BuR Rz 175)
+  quelle: or__art-680
+  zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
 - thema: Rangrücktritt muss auch die Zinsforderungen umfassen
   quelle: or__art-725b-t1
   zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
@@ -56,22 +66,47 @@ risiken:
   - PA
   quelle: hwp-bur-2023__rz-0257-s215
   zitat: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird, wie beispielsweise Darlehens- und Hypothekenzinsen
-- text: Zinserträge (z.B. auf Darlehen an Aktionäre oder verzinsliche Bankguthaben) nicht oder nicht periodengerecht erfasst (antizipative Aktiven).
+- text: Zinserträge (z.B. auf Darlehen an Aktionäre oder verzinsliche Bankguthaben) nicht oder nicht periodengerecht erfasst (antizipative Aktiven), insbesondere wenn der Zins erst mit
+    der Rückzahlung fällig ist.
   pruefziele:
   - VO
   - EN
   - PA
   quelle: hwp-bur-2023__rz-0256-s215
   zitat: Erträge des alten Jahres, die erst im neuen Jahr zu Einnahmen führen, wie beispielsweise Kapitalzinsen
-- text: Nicht marktkonforme Zinsen mit Aktionären/Nahestehenden (übersetzter Zins auf Aktionärsdarlehen, zu tiefer oder fehlender Zins auf Darlehen an Aktionäre) → verdeckte Gewinnausschüttung,
-    Rückerstattung Art. 678 OR, steuerliche Folgen.
+- text: 'Zinsen auf Darlehen (von und an Aktionäre/Nahestehende) nicht vereinbarungsgemäss bezahlt, sondern kapitalisiert oder erst mit Rückzahlung fällig: Zinsaufwand/-ertrag nicht
+    abgegrenzt; zugleich Hinweis auf Bonitäts- bzw. Drittvergleichsproblem.'
+  pruefziele:
+  - VO
+  - PA
+  - BE
+  quelle: hwp-er-2026__rz-0177-s217
+  zitat: Werden die Zinsen vereinbarungsgemäss bezahlt und nicht mit dem Darlehen kapitalisiert?
+- text: Nicht marktkonforme Zinsen mit Aktionären/Nahestehenden (übersetzter Zins auf Aktionärsdarlehen, zu tiefer oder fehlender Zins auf Darlehen an Aktionäre) → verdeckte Gewinnausschüttung
+    (zu hohe Aufwendungen bzw. zu geringe Erträge), Rückerstattung Art. 678 OR; steuerliche Folgen als geldwerte Leistung (ESTV, vgl. Bewertung).
   pruefziele:
   - EN
   - RI
   - DO
-  quelle: hwp-bur-2023__rz-0678-s298
-  zitat: überhöhte Aufwendungen für Lizenzgebühren, Royalties, Management Fees, Zinsen
-- text: Finanzaufwand und Finanzertrag miteinander verrechnet (Nettoausweis) oder Positionen falsch zugeordnet (z.B. Weiterverrechnungen, Garantiekommissionen, Erträge Finanzanlagen).
+  quelle: hwp-er-2026__rz-0163-s212
+  zitat: Eine verdeckte Gewinnausschüttung liegt dann vor, wenn eine Gesellschaft Leistungen erbringt, ohne dafür eine (angemessene) Gegenleistung zu erhalten.
+- text: Darlehen der Gesellschaft an Aktionäre/Nahestehende zu unangemessen günstigen Bedingungen (tiefer Zins, fehlende Sicherheit, ungenügende Bonität) → Zinsertrag zu tief, möglicher
+    vGA-Tatbestand.
+  pruefziele:
+  - VO
+  - BE
+  - DO
+  quelle: hwp-bur-2023__rz-0177-s197
+  zitat: die Darlehensbedingungen für den Schuldner oder die Schuldnerin unangemessen
+- text: Darlehen an Aktionäre verstossen gegen das Verbot der Einlagenrückgewähr (Art. 680 Abs. 2 OR); Konditionen und Zinsertrag sind dann nicht nur eine Frage des Finanzerfolgs (Hinweis
+    an WP).
+  pruefziele:
+  - RI
+  - DO
+  quelle: hwp-bur-2023__rz-0175-s196
+  zitat: Darlehen gegen das Verbot der Einlagenrückgewähr verstossen (Art. 680 Abs. 2 OR)
+- text: Finanzaufwand und Finanzertrag miteinander verrechnet (Nettoausweis, z.B. Ertragskonten innerhalb der Gruppe «Finanzaufwand») oder Positionen falsch zugeordnet (z.B. Weiterverrechnungen,
+    Garantiekommissionen, Erträge Finanzanlagen).
   pruefziele:
   - DO
   quelle: hwp-bur-2023__rz-0787-s327
@@ -87,7 +122,7 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0092-s078
   zitat: Diese Kursdifferenzen dürfen daher den Bruttogewinn nicht beeinflussen.
-- text: Wertberichtigungen auf Finanzanlagen fälschlich im Finanzaufwand statt in der dafür vorgesehenen Position.
+- text: Wertberichtigungen auf übrigen, nicht zum Börsenkurs bewerteten Finanzanlagen fälschlich im Finanzaufwand statt unter Abschreibungen und Wertberichtigungen (HWP BuR III.3.9).
   pruefziele:
   - DO
   quelle: hwp-bur-2023__rz-0792-s328
@@ -100,15 +135,15 @@ risiken:
   zitat: Der Zinsendienst wird durch den Rangrücktritt nicht unterbrochen, jedoch müssen die Zinsen ebenfalls dem Rangrücktritt unterliegen
 unterlagen:
 - dokument: Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr (Konten Finanzaufwand/-ertrag)
-  zweck: Vorjahresvergleich, Abstimmung Konten → Position JR (SCH4-101/201)
+  zweck: Vorjahresvergleich, Klassierung der Konten nach Natur, Abstimmung Konten → Position JR (SCH4-101/201)
   quelle: ser-2022__6-1-2-t1
   zitat: vergleichbaren Informationen über Vorperioden
 - dokument: Kontoblätter der Finanzkonten (Zinsaufwand, Zinsertrag, Bankspesen/-kommissionen, Kursgewinne/-verluste, Erträge Finanzanlagen)
-  zweck: Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302)
+  zweck: Kritische Durchsicht auf ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH4-301/302, nur weitergehend)
   quelle: hwp-er-2026__rz-0124-s202
   zitat: bestimmte Aufwands- oder Ertragskonten
 - dokument: Kredit- und Darlehensverträge (Bank, Aktionäre, Nahestehende; inkl. Darlehen der Gesellschaft an Aktionäre)
-  zweck: Zinssätze, Beträge, Auszahlungsdaten, Fälligkeiten für Erwartungswert Zinsen (SCH4-202)
+  zweck: Zinssätze, Zinsusanz, Beträge, Auszahlungsdaten, Zinsfälligkeiten für Erwartungswert Zinsen (SCH4-202)
   quelle: ser-2022__anh-d-s085-1
   zitat: Einsicht in Kredit- und Darlehensverträge
 - dokument: Zinsabgrenzungsberechnung per Bilanzstichtag
@@ -120,9 +155,9 @@ unterlagen:
   quelle: ser-2022__anh-d-s085-1
   zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
 - dokument: Bankauszüge Dezember / Zins-, Spesen- und Kommissionsabrechnungen der Banken
-  zweck: Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301)
-  quelle: ser-2022__6-1-3
-  zitat: Abstimmung mit Auszügen
+  zweck: Belegabstimmung Zinsen, Kommissionen, Spesen (SCH4-301, nur weitergehend)
+  quelle: ser-2022__anh-d-s095-1
+  zitat: Abstimmung der ausgewiesenen Posten mit Belegen und geeigneten Unterlagen
 - dokument: Kontoauszüge Fremdwährungskonten mit Devisenkurs per 31.12. und Kursbewertungsberechnung
   zweck: Abgleich Umrechnungskurse und Plausibilisierung Kursdifferenzen (SCH4-203)
   quelle: ser-2022__anh-d-s074-1
@@ -135,8 +170,12 @@ unterlagen:
   zweck: Hintergrund und Konditionen von Darlehen/Zinsen mit Aktionären und Organen
   quelle: hwp-er-2026__rz-0119-s201
   zitat: Protokolle von Generalversammlungen und Verwaltungsratssitzungen
-- dokument: ESTV-Rundschreiben steuerlich anerkannte Zinssätze für das geprüfte Geschäftsjahr (Drittunterlage; im Wiki nur Fassung 2026)
-  zweck: Abgleich Zinssätze mit Beteiligten (Safe Haven) als Hinweis auf vGA-Risiko (SCH4-202/302)
+- dokument: Unterlagen zum Drittvergleich der Zinssätze mit Nahestehenden (Bankofferten/-konditionen, Bonitätsbeurteilung, Sicherheiten)
+  zweck: Handelsrechtliche Beurteilung der Marktkonformität (SCH4-202); Beurteilung vGA durch WP
+  quelle: hwp-er-2026__rz-0176-s217
+  zitat: Entspricht der Zinssatz den Marktkonditionen für den Darlehensnehmer
+- dokument: ESTV-Rundschreiben steuerlich anerkannte Zinssätze des geprüften Geschäftsjahres (CHF und Fremdwährungen; Drittunterlage – im Wiki nur Fassung 2026, für GJ 2025 nicht bestätigt)
+  zweck: Steuerlicher Zusatzhinweis zu Zinssätzen mit Beteiligten (Safe Haven) als vGA-Indiz an WP; nicht handelsrechtliches Feststellungskriterium (SCH4-202)
   quelle: estv-zinsen-2026__s002-1
   zitat: Diese Zinssätze gelten als „safe haven“.
 - dokument: Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen
@@ -158,18 +197,30 @@ bewertung:
     ER-Position möglich.
   quelle: hwp-bur-2023__rz-0791-s328
   zitat: realisierte und nicht realisierte Kursverluste auf Fremdwährungsposten
-- regel: Im Finanzertrag nur realisierte Kursgewinne auf Fremdwährungsposten.
-  quelle: hwp-bur-2023__rz-0789-s328
-  zitat: realisierte Kursgewinne auf Fremdwährungsposten
-- regel: Flüssige Mittel und Bankguthaben/-schulden auf Sicht zum Devisenkurs des Bilanzstichtags; Kursgewinne und -verluste gelten als realisiert.
+- regel: 'Kursgewinne auf Fremdwährungsposten nur, soweit realisiert oder als realisiert geltend: flüssige Mittel/Sichtguthaben zum Stichtagskurs; übrige kurzfristige Posten (auch ggü.
+    Nahestehenden) mit Laufzeit < 12 Mt. bei Ersterfassung; keine unrealisierten Gewinne auf langfristigen Posten (Rz 90, 2. Teil).'
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Gewinne oder Verluste können als realisiert betrachtet werden, wenn diese Positionen bei ihrer Ersterfassung eine Lauf
+- regel: Flüssige Mittel, Bankguthaben/-schulden auf Sicht und Aktiven mit Börsenkurs zum Devisenkurs des Bilanzstichtags; Kursgewinne und -verluste gelten als realisiert (Stichtagsbewertung
+    EUR-Bankkonten ist zulässig).
   quelle: hwp-bur-2023__rz-0090-s077-t1
   zitat: Gewinne oder Verluste sind als realisiert zu betrachten.
+- regel: Die Umgliederung des kurzfristigen Anteils eines langfristigen Fremdwährungsdarlehens ist kein Realisationstatbestand (kein Ausweis unrealisierter Kursgewinne).
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Die Umgliederung des kurzfristigen Anteils eines langfristigen Darlehens stellt jedoch keinen Realisationstatbestand dar.
+- regel: Realisierte und nicht realisierte Kursgewinne auf finanziellen Aktiven mit Börsenkurs oder beobachtbarem Marktpreis gehören in den Finanzertrag; realisierte Kursgewinne auf
+    Fremdwährungsposten ebenfalls, bei klarem Zusammenhang mit betrieblichen Grundgeschäften in der entsprechenden ER-Position.
+  quelle: hwp-bur-2023__rz-0789-s328
+  zitat: realisierte und nicht realisierte Kursgewinne auf finanziellen Aktiven mit Börsenkurs
 - regel: 'Langfristige Guthaben und Verpflichtungen in Fremdwährung: Niederstwertprinzip; unrealisierte Kursverluste aufwandswirksam, unrealisierte Kursgewinne nicht in der ER.'
   quelle: hwp-bur-2023__rz-0090-s077-t2
   zitat: allfällige noch nicht realisierte Kursverluste sind aufwandswirksam zu erfassen
 - regel: Kursgewinne und -verluste innerhalb der gleichen Währung dürfen verrechnet werden; wesentliche Kursdifferenzen im Anhang offenlegen.
   quelle: hwp-bur-2023__rz-0091-s078
   zitat: Eine Offenlegung der Kursgewinne und -verluste im Anhang ist bei wesentlichen Beträgen vorzunehmen.
+- regel: Umrechnungskurse sind im Anhang nur offenzulegen, wenn die Rechnungslegung nicht in der Landeswährung erfolgt; bei CHF-Rechnungslegung keine Feststellung wegen fehlender Kursangabe.
+  quelle: ser-2022__anh-e-s112-2
+  zitat: sofern die Rechnungslegung nicht in der Landeswährung erfolgt (Art. 958d Abs. 3 OR)
 - regel: Kursdifferenzen aus eindeutig betrieblichen Geschäftsvorfällen können zusammen mit dem Grundgeschäft (z.B. Warenaufwand) erfasst werden.
   quelle: hwp-bur-2023__rz-0093-s078
   zitat: zusammen mit dem Grundgeschäft in der Erfolgsrechnung (beispielsweise als Warenaufwand) erfasst werden sollen
@@ -177,17 +228,38 @@ bewertung:
   quelle: hwp-bur-2023__rz-0788-s327
   zitat: Die Wertveränderungen von Finanzanlagen, welche zum Börsenkurs oder zu anderen beobachtbaren Marktpreisen bewertet werden, sind entweder als Finanzertrag oder Finanzaufwand
     zu erfassen.
-- regel: Aufgelaufene, erst im Folgejahr bezahlte Darlehenszinsen als antizipative Passiven abgrenzen; Marchzinsen bei der Beurteilung der Aktiv-/Passivposten erfassen.
+- regel: Aufgelaufene, erst im Folgejahr bezahlte Darlehenszinsen als antizipative Passiven abgrenzen.
+  quelle: hwp-bur-2023__rz-0257-s215
+  zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
+- regel: Aufgelaufene, erst im Folgejahr vereinnahmte Zinserträge (z.B. Zins zahlbar mit Rückzahlung) als antizipative Aktiven abgrenzen.
+  quelle: hwp-bur-2023__rz-0256-s215
+  zitat: 'Antizipative Aktiven: Erträge des alten Jahres, die erst im neuen Jahr zu Einnahmen führen'
+- regel: Bestandsaufnahme der Rechnungsabgrenzungen u.a. im Zusammenhang mit der Beurteilung der Aktiv- und Passivposten (Marchzinsen) und durch Vergleich mit dem Vorjahr.
   quelle: hwp-bur-2023__rz-0262-s216
   zitat: im Zusammenhang mit der Beurteilung von Aktiv- und Passivposten (beispielsweise Marchzinsen)
-- regel: 'ESTV-Praxis: unverzinsliche/ungenügend verzinste Darlehen an Beteiligte sowie übersetzte Zinsen an Beteiligte gelten als geldwerte Leistung (VSt, Gewinnsteuer); massgebend
-    sind die Zinssätze des jeweiligen Jahres.'
+- regel: 'Handelsrechtlich massgebend: Zinssätze mit Nahestehenden nach Drittvergleich beurteilen (Marktkonditionen für den Darlehensnehmer, Währung, Bonität, Sicherheiten); auch steuerlich
+    akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen.'
+  quelle: hwp-er-2026__rz-0176-s217
+  zitat: Auch steuerlich akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen.
+- regel: 'ESTV-Praxis (steuerlich, keine handelsrechtliche Bewertungsregel): unverzinsliche/ungenügend verzinste Darlehen an Beteiligte sowie übersetzte Zinsen an Beteiligte gelten als
+    geldwerte Leistung (Verrechnungssteuer, Gewinnsteuer).'
   quelle: estv-zinsen-2026__s001-1
   zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
+- regel: 'ESTV-Zinssätze sind jahresbezogen und betreffen im Rundschreiben 2-218 nur CHF-Darlehen (Fremdwährungen: separates Rundschreiben, im Wiki estv-rs-2-219-2026); im Wiki nur Fassung
+    2026 – für GJ 2025 nicht bestätigt.'
+  quelle: estv-zinsen-2026__s001-2
+  zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+- regel: ESTV-Sätze sind Safe Haven; der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten (Abweichung ist Indiz, kein Beweis einer vGA).
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
 - regel: 'ESTV KS 6a: Schuldzinsen auf verdecktem Eigenkapital werden steuerlich zum Gewinn hinzugerechnet (Hinweis für Steuerrückstellung, nicht handelsrechtliche Korrektur).'
   quelle: estv-ks-6a-2024__3-1
   zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
 fallstricke:
+- text: 'Abstimmung «Summe Konten = Position JR» bestätigt nur die Gruppierung der Jahresrechnung: Ertragskonten innerhalb des Finanzaufwands (verdeckte Verrechnung) bleiben so unentdeckt
+    – Konten nach ihrer Natur klassieren (Ausnahme: Kursdifferenzen derselben Währung).'
+  quelle: hwp-bur-2023__rz-0787-s327
+  zitat: dürfen nicht miteinander verrechnet werden (Art. 959b Abs. 2 und 3 OR)
 - text: Analytik allein kann kompensierende Fehler verdecken (z.B. fehlende Aktionärszinsen und überhöhte Bankzinsen); Abweichungserklärungen sind zu plausibilisieren.
   quelle: ser-2022__6-1-2-t3
   zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können
@@ -204,18 +276,37 @@ fallstricke:
     – nicht verwechseln.
   quelle: hwp-bur-2023__rz-0091-s078
   zitat: innerhalb der gleichen Währung Kursgewinne und -verluste ohne Weiteres verrechnet werden können
-- text: 'ESTV-Zinssätze sind jahresbezogen: Im Wiki liegt nur das Rundschreiben 2026 (ab 1.1.2026) vor; für das Geschäftsjahr 2025 die Sätze 2025 beiziehen, sonst ausdrücklich als «andere
-    Periode, nicht bestätigt» kennzeichnen.'
+- text: Stichtagsgewinne auf EUR-Bankkonten/Sichtguthaben gelten als realisiert und gehören zulässigerweise in den Ertrag – nicht als «unrealisierter Kursgewinn» beanstanden; die Realisationssperre
+    betrifft nur langfristige Posten.
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Gewinne oder Verluste sind als realisiert zu betrachten.
+- text: 'ESTV-Zinssätze sind jahresbezogen und das Rundschreiben 2-218 gilt nur für CHF: Im Wiki liegt nur die Fassung 2026 (ab 1.1.2026) vor; für das Geschäftsjahr 2025 die Sätze 2025
+    beiziehen, sonst ausdrücklich als «andere Periode, nicht bestätigt» kennzeichnen.'
   quelle: estv-zinsen-2026__s001-2
   zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
+- text: 'ESTV-Safe-Haven-Sätze sind kein handelsrechtliches Feststellungskriterium: Ob eine Zinskondition mit Nahestehenden eine vGA darstellt, ist Ermessensfrage des WP. Agent dokumentiert
+    Vertrag, Satz, Drittvergleich und ESTV-Abgleich und meldet einen Hinweis an den WP.'
+  quelle: hwp-er-2026__rz-0163-s212
+  zitat: Bei der Beurteilung, ob eine Leistung der Gegenleistung entspricht, besteht in der Praxis ein erheblicher Ermessensspielraum.
+- text: Nicht korrigierte wesentliche Transaktionen mit Nahestehenden führen zu einer eingeschränkten oder verneinenden Prüfungsaussage – Entscheid des WP; der Agent dokumentiert nur
+    Sachverhalt und Beträge.
+  quelle: hwp-er-2026__rz-0162-s212
+  zitat: hat dies eine eingeschränkte oder – bei grundlegendem Einfluss auf das Gesamtbild – gar eine verneinende Prüfungsaussage zur Folge
+- text: 'Bei offensichtlicher und wesentlicher vGA: schriftliche Mitteilung an den VR und Beurteilung der Rückerstattung nach Art. 678 OR sind Sache der Revisionsstelle (WP); der Agent
+    bereitet den Sachverhalt nur auf.'
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
 - text: 'Zinsen auf Darlehen unter Rangrücktritt: Zinsendienst läuft grundsätzlich weiter (Erwartungswert Zinsaufwand nicht auf null setzen), Zinsen müssen aber ebenfalls unter Rangrücktritt
-    stehen; Vertragsklauseln zum Zinsverzicht genau lesen.'
+    stehen; Vertragsklauseln zum Zinsverzicht bzw. zur Stundung genau lesen.'
   quelle: hwp-bur-2023__rz-0714-s305
   zitat: Der Zinsendienst wird durch den Rangrücktritt nicht unterbrochen
-- text: Bankbestätigungen selbst einzuholen ist in SER Anhang D als über die eingeschränkte Revision hinausgehend aufgeführt; vom Kunden vorgelegte Bankunterlagen nutzen, Einholung nur
-    auf Anweisung des WP.
-  quelle: ser-2022__anh-d-s074-2
-  zitat: Einholen von Bestätigungen zu Salden und Wertschriftenbeständen von Banken oder anderen Dritten
+- text: 'Bankbestätigungen einzuholen ist nicht Bestandteil der eingeschränkten Revision (SER Anhang D lit. b, Aufzählung in ser-2022__anh-d-s074-2): vorhandene Bankbestätigungen (Testakte:
+    Fiktiva Regionalbank, Testbank Ostschweiz) auswerten; keine eigene Kontaktaufnahme mit Banken.'
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Prüfungshandlungen, die nicht Bestandteil einer eingeschränkten Revision darstellen
+- text: Weitergehende Handlungen wie Bestätigungen führt der Agent nur auf Anweisung des WP aus.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung
 - text: 'Verzinsliche Bankguthaben mit Verrechnungssteuer: Zinsertrag brutto erfassen, VSt als Guthaben (nicht Netto-Zins als Ertrag) – Praxis, ohne Quelle im Wiki.'
 - text: Der Agent dokumentiert und schlägt Feststellungen vor; Beurteilung vGA/Korrekturbedarf und Visum bleiben beim Wirtschaftsprüfer.
   quelle: konzept-ki-revisionsagent-2026__c012-1
@@ -224,31 +315,37 @@ fragen_kunde:
 - frage: Welches sind die Gründe für die wesentlichen Veränderungen der Konten Finanzaufwand und Finanzertrag gegenüber dem Vorjahr (Zinsaufwand, Bankkommissionen/Garantien, Kursdifferenzen,
     Erträge Finanzanlagen)?
   zweck: 'SCH4-101/201: Erklärung von Abweichungen (VO, PA)'
-- frage: Welche verzinslichen Kredite und Darlehen (Bank, Aktionäre, Nahestehende) bestanden im Geschäftsjahr, zu welchen Zinssätzen und Zinsterminen, und sind die bis 31.12. aufgelaufenen
-    Zinsen vollständig verbucht bzw. abgegrenzt?
+- frage: Welche verzinslichen Kredite und Darlehen (Bank, Aktionäre, Nahestehende) bestanden im Geschäftsjahr, zu welchen Zinssätzen, Zinsusanzen und Zinsterminen, und sind die bis 31.12.
+    aufgelaufenen Zinsen vollständig verbucht bzw. abgegrenzt?
   zweck: 'SCH4-202: Erwartungswert Zinsaufwand, Periodenabgrenzung'
-- frage: Hat die Gesellschaft Darlehen an Aktionäre, Organe oder Nahestehende gewährt? Wie sind sie verzinst und wie wird der Zins per Stichtag erfasst bzw. abgegrenzt?
-  zweck: 'SCH4-202: Vollständigkeit Zinsertrag, vGA-Risiko'
-- frage: Wie wurden die Zinssätze für Darlehen von bzw. an Beteiligte festgelegt, und weichen sie von den steuerlich anerkannten Zinssätzen der ESTV ab?
-  zweck: 'SCH4-202/302: Marktkonformität, verdeckte Gewinnausschüttung'
+- frage: Hat die Gesellschaft Darlehen an Aktionäre, Organe oder Nahestehende gewährt? Wie sind sie verzinst, werden die Zinsen vereinbarungsgemäss bezahlt (oder kapitalisiert bzw. erst
+    mit Rückzahlung fällig) und wie wird der Zins per Stichtag erfasst bzw. abgegrenzt?
+  zweck: 'SCH4-202: Vollständigkeit/Abgrenzung Zinsertrag, vGA-Risiko (SER Anhang D lit. j; HWP ER Rz 177)'
+- frage: Wie wurden die Zinssätze für Darlehen von bzw. an Beteiligte festgelegt (Marktkonditionen, Bonität, Sicherheiten, Vergleichsofferten) und liegen sie innerhalb der steuerlich
+    anerkannten ESTV-Sätze des Geschäftsjahres?
+  zweck: 'SCH4-202/302: Drittvergleich (HWP ER Rz 176); ESTV-Abgleich nur steuerlicher Hinweis; vGA-Beurteilung durch WP'
+- frage: Bestehen Rangrücktritte mit Zinsverzicht oder Zinsstundung während der Überschuldung, und wie wurden die betroffenen Zinsen verbucht?
+  zweck: 'SCH4-202: Erwartungswert Zinsaufwand unter Rangrücktritt, Ausweis Zinsverbindlichkeiten'
 - frage: In welchen Fremdwährungen bestehen Bankkonten, Forderungen und Verbindlichkeiten bzw. wesentliche Einkäufe/Verkäufe, welche Stichtagskurse wurden verwendet und wo werden Kursdifferenzen
     aus dem operativen Geschäft verbucht?
   zweck: 'SCH4-203: Plausibilisierung FX-Differenzen mit Geschäftsmodell, Zuordnung'
 - frage: Bestehen Kurs- oder Zinsabsicherungsgeschäfte (z.B. Devisentermingeschäfte, Zinsswaps) oder Finanzanlagen mit Börsenkurs?
   zweck: 'SCH4-203: Vollständigkeit und Ausweis Finanzerfolg'
-- frage: Welchen Inhalt haben ungewöhnliche Positionen im Finanzerfolg (z.B. Weiterverrechnungen, Garantiekommissionen, Sammel- oder Jahresendbuchungen) und weshalb werden sie dort ausgewiesen?
-  zweck: 'SCH4-302: Hintergrund ungewöhnlicher Posten, Zuordnung (DO)'
+- frage: Welchen Inhalt haben ungewöhnliche Positionen im Finanzerfolg (z.B. Weiterverrechnungen, Garantiekommissionen, Ertragskonten innerhalb des Finanzaufwands, Sammel- oder Jahresendbuchungen)
+    und weshalb werden sie dort ausgewiesen?
+  zweck: 'SCH4-201/302: Hintergrund ungewöhnlicher Posten, Zuordnung und Verrechnung (DO)'
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'Blatt «Erfolgsrechnung» Konten 6900–6970 (2025/2024): SCH4-101, SCH4-201 Vorjahresvergleich; Blatt «Bilanz» verzinsliche Positionen (2100, 2170, 2400, 2450–2455) für SCH4-202
-    und Fremdwährungskonten (1012, 1014, 1031, 1032) für SCH4-203'
+  bezug: 'Blatt «Erfolgsrechnung» Konten 6900–6970 (2025/2024): SCH4-101, SCH4-201 Vorjahresvergleich und Klassierung nach Natur; Blatt «Bilanz» verzinsliche Positionen (2100, 2170,
+    2400, 2450–2455) für SCH4-202 und Fremdwährungskonten (1012, 1014, 1031, 1032) für SCH4-203'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: ER S. 4 Abschnitte «Finanzaufwand»/«Finanzertrag» (Gliederung, Bruttoausweis, Abstimmung mit Saldoliste) für SCH4-201; Anhang Ziff. 2 Darlehen/Zinsverbindlichkeiten nahestehender
-    Parteien und Rangrücktritt für SCH4-202
+  bezug: 'ER Abschnitte «Finanzaufwand»/«Finanzertrag»: Ertragskonten 6960 Ertrag Finanzanlagen (VJ 10''200), 6970 Zinsertrag und 6944 Währungsgewinne stehen im «Total Finanzaufwand»
+    → Verrechnungsprüfung SCH4-201 (6942/6944: Ausnahme gleiche Währung prüfen); Anhang Darlehen/Zinsverbindlichkeiten nahestehender Parteien und Rangrücktritt für SCH4-202; CHF-Rechnungslegung
+    (keine Pflicht zur Angabe der Umrechnungskurse, SCH4-203)'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
   bezug: 'Nur Bilanzkonten: Gegenbuchungen auf 69xx in Blatt 1010 (Zins Festvorschuss, Kommission Bankgarantien, Zins DL-2021-044), 1011/1012/1014 (Kontoführungsgebühren, Kursbewertung
-    KB-12), 1013/1176 (Zinsgutschrift brutto, VSt), 2170/2170k (Zinsen Aktionärsdarlehen), 2400, 2451–2455 für SCH4-202, SCH4-203, SCH4-301, SCH4-302; Kontoblätter der Erfolgskonten
-    69xx fehlen (PBC)'
+    KB-12 auf 6942/6944 – Stichtagsbewertung Sichtguthaben, gilt als realisiert), 1013/1176 (Zinsgutschrift brutto, VSt), 2170/2170k (Zinsen Aktionärsdarlehen), 2400, 2451–2455 für SCH4-202,
+    SCH4-203, SCH4-301, SCH4-302; Kontoblätter der Erfolgskonten 69xx fehlen (PBC)'
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
   bezug: 'Geschäftsmodell (Handel mit Solarkomponenten), Banken, Ansprechpersonen für Befragungen: SCH4-101, SCH4-203'
 - datei: 00_Allgemein/Belegverzeichnis.md
@@ -262,15 +359,15 @@ testakte_2025:
 - datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_E.md
   bezug: 'Konditionen Aktionärsdarlehen E: SCH4-202, SCH4-301'
 - datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
-  bezug: 'Einschluss der Zinsen, Zinsverzicht während Überschuldung: Erwartung Zinsaufwand SCH4-202, Ausweis Zinsverbindlichkeiten'
+  bezug: 'Einschluss der Zinsen, Zinsverzicht/Stundung während Überschuldung: Erwartung Zinsaufwand SCH4-202, Ausweis Zinsverbindlichkeiten'
 - datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_B.md
   bezug: 'Wie A: SCH4-202'
 - datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_D.md
   bezug: 'Wie A: SCH4-202'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
-  bezug: 'Festvorschuss und Darlehen mit Zinssätzen, Garantien (Kommissionen): SCH4-202, SCH4-301'
+  bezug: 'Vorliegende Bankbestätigung auswerten (keine eigene Einholung): Festvorschuss und Darlehen mit Zinssätzen, Garantien (Kommissionen): SCH4-202, SCH4-301'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
-  bezug: 'Zinssatz Sparkonto, Bewertungskurs EUR per 31.12.2025: SCH4-202, SCH4-203'
+  bezug: 'Vorliegende Bankbestätigung auswerten: Zinssatz Sparkonto, Bewertungskurs EUR per 31.12.2025: SCH4-202, SCH4-203'
 - datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1010_CHF_Dezember_2025.md
   bezug: 'Zins- und Kommissionsbelastungen 4. Quartal: Belegabstimmung SCH4-301'
 - datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1012_EUR_Dezember_2025.md
@@ -280,12 +377,13 @@ testakte_2025:
 - datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1013_Reserve_2025.md
   bezug: 'Zinsgutschrift und VSt Reservekonto: SCH4-202, SCH4-301'
 - datei: B_Forderungen_aus_LuL/Darlehensvertrag_Gesellschaft_an_Aktionaer_A.md
-  bezug: 'Darlehen der Gesellschaft an Aktionär mit Zinsklausel: erwarteter Zinsertrag/Abgrenzung SCH4-202, Abgleich ESTV-Mindestsatz'
+  bezug: 'Darlehen CHF 150''000 an Aktionär A (VR-Präsident) ab 15.10.2025, Zins 1.0 % p.a. «zahlbar mit Rückzahlung», ohne Sicherheit: aufgelaufener Zinsertrag 2025 abzugrenzen (Konto
+    6970 = 0) und Drittvergleich (HWP ER Rz 176/177) für SCH4-202; ESTV-Abgleich nur als steuerlicher Hinweis an WP'
 schritte:
 - id: SCH4-101
-  vorgehen: 'Agent befragt nicht selbst: aus der Saldoliste ER (Jahr/Vorjahr) die Finanzkonten mit wesentlichen Abweichungen gegenüber Vorjahr oder Erwartung ermitteln und je Konto eine
-    konkrete Frage als Pendenz an die Unternehmensleitung formulieren. Liegt eine schriftliche Antwort vor, diese kritisch mit Verträgen und Kontoblättern abgleichen und im Textfeld
-    dokumentieren; Status höchstens «teilweise bearbeitet».'
+  vorgehen: 'Katalogtext stammt aus SER Anhang D lit. t (lit. s enthält keine Befragung). Agent befragt nicht selbst: aus der Saldoliste ER (GJ/VJ) Finanzkonten mit wesentlichen Abweichungen
+    ggü. Vorjahr oder Erwartung ermitteln und je Konto eine konkrete Frage als Pendenz formulieren. Liegt eine schriftliche Antwort vor, kritisch mit Verträgen und Kontoblättern abgleichen
+    und im Textfeld dokumentieren; Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Saldoliste Erfolgsrechnung laufendes Jahr und Vorjahr
   - schriftliche Antwort der Unternehmensleitung (Kundenbefragung)
@@ -295,20 +393,25 @@ schritte:
   fundstellen:
   - quelle: ser-2022__anh-d-s096-1
     zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
   - quelle: ser-2022__6-1-1-t2
     zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
   - quelle: hwp-er-2026__rz-0103-s197
     zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
 - id: SCH4-201
-  vorgehen: Alle Konten Finanzaufwand und Finanzertrag aus der Saldoliste ER Jahr/Vorjahr gegenüberstellen (Rechenmodul) und Kontosummen mit den Positionen der Jahresrechnung abstimmen.
-    Wesentliche Veränderungen gegen die Toleranzwesentlichkeit beurteilen und Ursachen aus Bilanzveränderungen (verzinsliche Positionen, Fremdwährungsbestände) und Kontoblättern herleiten;
-    offene Gründe als Frage/Pendenz (vgl. SCH4-101). Ergebnis im Textfeld.
+  vorgehen: Alle Finanzkonten aus der Saldoliste ER GJ/VJ gegenüberstellen (Rechenmodul). Jedes Konto nach seiner Natur als Aufwand oder Ertrag klassieren, unabhängig von der JR-Gruppierung,
+    und die Bruttosummen mit den JR-Positionen Finanzaufwand/-ertrag abstimmen. Wesentliche Veränderungen gegen die Toleranzwesentlichkeit beurteilen, Ursachen aus Bilanz und Kontoblättern
+    herleiten; offene Gründe als Pendenz (vgl. SCH4-101). Ergebnis im Textfeld.
   nachweise:
   - Saldoliste ER und Bilanz GJ/VJ
   - Jahresrechnung mit Vorjahreszahlen
   - Kontoblätter Bank-, Darlehens- und Zinsverbindlichkeitskonten
-  rechnen: Δ je Konto = GJ − VJ; Δ% = Δ / |VJ|; Summe Konten Finanzaufwand = Position Finanzaufwand JR und Summe Konten Finanzertrag = Position Finanzertrag JR (GJ und VJ)
-  feststellung_wenn: Veränderung über Toleranzwesentlichkeit/Schwelle ohne plausible Erklärung, Kontosummen ≠ Positionen der Jahresrechnung oder Aufwand und Ertrag verrechnet ausgewiesen.
+  rechnen: Δ je Konto = GJ − VJ; Δ% = Δ / |VJ|; Klassierung je Konto nach Natur (Aufwand/Ertrag), unabhängig von der JR-Gruppierung; Σ Aufwandskonten = Position Finanzaufwand JR und
+    Σ Ertragskonten = Position Finanzertrag JR (GJ und VJ); Ertragskonto innerhalb Finanzaufwand (oder Aufwandskonto im Finanzertrag) = Verrechnung, ausser Kursgewinne/-verluste derselben
+    Währung → Feststellungskandidat
+  feststellung_wenn: Veränderung über Schwelle ohne plausible Erklärung, Kontosummen ≠ JR-Positionen oder Ertragskonto im Finanzaufwand bzw. Aufwandskonto im Finanzertrag (Verrechnung;
+    ausser Kursdifferenzen gleicher Währung).
   fundstellen:
   - quelle: ser-2022__anh-d-s095-1
     zitat: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
@@ -316,42 +419,64 @@ schritte:
     zitat: Analytische Prüfungshandlungen liefern bei der Prüfung der Erfolgsrechnung wertvolle Prüfungsnachweise.
   - quelle: ser-2022__6-1-2-t1
     zitat: vergleichbaren Informationen über Vorperioden
+  - quelle: or__art-958c
+    zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+  - quelle: hwp-bur-2023__rz-0787-s327
+    zitat: Unter dem Finanzergebnis sind der Finanzertrag sowie der Finanzaufwand je gesondert auszuweisen und dürfen nicht miteinander verrechnet werden
+  - quelle: hwp-bur-2023__rz-0091-s078
+    zitat: innerhalb der gleichen Währung Kursgewinne und -verluste ohne Weiteres verrechnet werden können
 - id: SCH4-202
-  vorgehen: Aufstellung der verzinslichen Aktiven und Passiven (Bankkredite, Festvorschüsse, Aktionärsdarlehen, Darlehen an Aktionäre, verzinsliche Bankguthaben) mit Bestand, Auszahlungsdatum
-    und Vertragszins erstellen. Erwarteten Zins zeitanteilig berechnen, mit gebuchten Zinsen inkl. Abgrenzungen vergleichen und gegen die tolerierbare Abweichung beurteilen. Zinssätze
-    mit Beteiligten mit den ESTV-Sätzen des Geschäftsjahres abgleichen; Ergebnis im Textfeld.
+  vorgehen: Aufstellung der verzinslichen Aktiven und Passiven (Bankkredite, Festvorschüsse, Aktionärsdarlehen, Darlehen an Aktionäre, Bankguthaben) mit Bestand, Datum, Vertragszins
+    und Zinsfälligkeit erstellen. Erwarteten Zins zeitanteilig berechnen, mit gebuchten Zinsen inkl. Abgrenzungen vergleichen. Zinssätze mit Beteiligten nach Drittvergleich würdigen;
+    ESTV-Sätze des GJ nur als steuerlicher Hinweis an WP. Ergebnis im Textfeld.
   nachweise:
-  - Kredit- und Darlehensverträge
-  - Bankunterlagen mit Zinssätzen/Zinsabrechnungen
+  - Kredit- und Darlehensverträge (inkl. Darlehen an Aktionäre)
+  - Bankunterlagen/Bankbestätigungen mit Zinssätzen und Zinsabrechnungen
   - Kontoblätter Darlehen und Zinsverbindlichkeiten
   - Zinsabgrenzungsberechnung
-  - ESTV-Rundschreiben Zinssätze des Geschäftsjahres
-  rechnen: Erwarteter Zins je Darlehen = Kapital × Zinssatz × Laufzeit im GJ (Tage/360 bzw. Monate/12) oder Ø-Bestand ((Anfangs- + Endbestand)/2) × Ø-Zinssatz; Differenz = gebuchter
-    Zinsaufwand bzw. -ertrag − Σ Erwartungswerte; |Differenz| vs. tolerierbare Abweichung
-  feststellung_wenn: Differenz Erwartungswert/Buchung > tolerierbare Abweichung, fehlende Zinsabgrenzung per Stichtag, fehlender Zinsertrag auf verzinslichen Forderungen oder Zinssätze
-    ggü. Beteiligten ausserhalb ESTV-Sätze.
+  - Rangrücktrittserklärungen (Zinsverzicht/Stundung)
+  - Unterlagen zum Drittvergleich (Marktkonditionen, Bonität, Sicherheiten)
+  - ESTV-Rundschreiben Zinssätze des GJ (steuerlicher Hinweis; im Wiki nur Fassung 2026, für GJ 2025 nicht bestätigt; 2-218 nur CHF-Darlehen)
+  rechnen: Erwarteter Zins je Darlehen = Kapital × Zinssatz × Laufzeit im GJ (Zinsusanz gemäss Vertrag bzw. Bankabrechnung) oder Ø-Bestand ((Anfangs- + Endbestand)/2) × Ø-Zinssatz; Zinsverzicht
+    bzw. Stundung gemäss Rangrücktritt gesondert berücksichtigen; Zins fällig nach Stichtag (z.B. mit Rückzahlung) → Abgrenzung erwartet; Differenz = gebuchter Zinsaufwand bzw. -ertrag
+    − Σ Erwartungswerte; |Differenz| vs. tolerierbare Abweichung
+  feststellung_wenn: Differenz > tolerierbare Abweichung, fehlende Zinsabgrenzung oder fehlender Zinsertrag. Zins ggü. Beteiligten ausserhalb ESTV-Sätze des GJ oder ohne Drittvergleich
+    → Hinweis an WP (vGA-Indiz), keine eigene Feststellung.
   fundstellen:
   - quelle: ser-2022__anh-d-s095-1
     zitat: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven
   - quelle: ser-2022__anh-d-s085-1
     zitat: Beurteilung, ob der Zinsaufwand im Verhältnis zu den Darlehenssalden plausibel erscheint
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen
+  - quelle: ser-2022__anh-d-s077-1
+    zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
-  - quelle: hwp-er-2026__rz-0111-s199-t2
-    zitat: Da die Abweichung zwischen dem Erwartungswert und dem Ausweis der
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der durchschnittliche Bestand an Bankguthaben kann näherungsweise ermittelt werden aus (8 + 22) / 2
+  - quelle: hwp-er-2026__rz-0176-s217
+    zitat: Auch steuerlich akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen.
+  - quelle: hwp-er-2026__rz-0177-s217
+    zitat: Werden die Zinsen vereinbarungsgemäss bezahlt und nicht mit dem Darlehen kapitalisiert?
+  - quelle: hwp-er-2026__rz-0163-s212
+    zitat: Bei der Beurteilung, ob eine Leistung der Gegenleistung entspricht, besteht in der Praxis ein erheblicher Ermessensspielraum.
   - quelle: estv-zinsen-2026__s001-2
     zitat: Für die Bemessung einer angemessenen Verzinsung von Vorschüssen oder Darlehen in Schweizer Franken an Beteiligte
+  - quelle: estv-zinsen-2026__s002-1
+    zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
 - id: SCH4-203
-  vorgehen: Fremdwährungsbestände und -geschäfte (FW-Bankkonten, FW-Debitoren/-Kreditoren, Einkäufe in FW) und Geschäftsmodell erfassen. Kursentwicklung der Währungen im Geschäftsjahr
-    mit Beständen vergleichen und gebuchte Kursgewinne/-verluste plausibilisieren; verwendete Stichtagskurse mit Bankunterlagen abgleichen. Zuordnung (Finanzerfolg vs. betriebliche Position)
-    und Anhangsangabe beurteilen; Ergebnis im Textfeld.
+  vorgehen: 'FW-Bestände und -Geschäfte (FW-Bankkonten, FW-Debitoren/-Kreditoren, Einkäufe in FW) und Geschäftsmodell erfassen. Kursentwicklung im GJ mit Beständen vergleichen, gebuchte
+    Kursgewinne/-verluste plausibilisieren, Stichtagskurse mit Bankunterlagen abgleichen. Zuordnung (Finanzerfolg vs. betrieblich) und Anhang beurteilen: Grundsätze, wesentliche Kursdifferenzen;
+    Umrechnungskurse nur bei Rechnungslegung in FW. Ergebnis im Textfeld.'
   nachweise:
   - Kontoauszüge Fremdwährungskonten Dezember mit Devisenkurs
   - Kursbewertungsbuchungen/-berechnung
   - Bankbestätigung bzw. Bankunterlagen mit Jahresendkurs
   - Saldoliste FW-Konten GJ/VJ
+  - Anhang der Jahresrechnung (Grundsätze, Kursdifferenzen)
   rechnen: Erwartete Bewertungsdifferenz je FW-Konto = FW-Saldo × (Stichtagskurs − Buchkurs); Σ erwartete Differenzen vs. (Kursgewinne − Kursverluste) gebucht; Kursdifferenz Buchhaltung
-    vs. Bank = Kurs_Buchhaltung − Kurs_Bank
+    vs. Bank = Kurs_Buchhaltung − Kurs_Bank; Kursgewinne nur auf Sichtguthaben/kurzfristigen Posten (Laufzeit < 12 Mt. bei Ersterfassung), nicht auf langfristigen Posten
   feststellung_wenn: Kurs weicht vom Jahresendkurs der Bank ab, Kursdifferenzen passen nicht zu Bestand/Kursentwicklung, unrealisierte Kursgewinne auf langfristigen Posten erfasst oder
     wesentliche Kursdifferenzen nicht offengelegt.
   fundstellen:
@@ -361,12 +486,18 @@ schritte:
     zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
   - quelle: hwp-bur-2023__rz-0092-s078
     zitat: Kursdifferenzen auf Geschäftsvorfällen, die nicht zum normalen Geschäftszweck gehören, sind als Teil des Finanzaufwands oder -ertrags auszuweisen.
-  - quelle: or__art-958d
-    zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
+  - quelle: hwp-bur-2023__rz-0090-s077-t2
+    zitat: unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
+  - quelle: hwp-bur-2023__rz-0091-s078
+    zitat: Eine Offenlegung der Kursgewinne und -verluste im Anhang ist bei wesentlichen Beträgen vorzunehmen.
+  - quelle: or__art-959c-t1
+    zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
+  - quelle: ser-2022__anh-e-s112-2
+    zitat: sofern die Rechnungslegung nicht in der Landeswährung erfolgt (Art. 958d Abs. 3 OR)
 - id: SCH4-301
-  vorgehen: 'WP-Schritt (weitergehende Prüfung): Agent bereitet nur vor. Wesentliche Buchungen der Finanzkonten (Zinsen, Kommissionen, Spesen, Kursbewertungen, Erträge Finanzanlagen)
-    auswählen und mit Belegen in M-Files (Bank-/Zinsabrechnungen, Verträge, Kursbewertungsberechnung) nach Betrag, Periode, Gegenpartei und Konto abstimmen, ohne Stichprobenverfahren.
-    Ergebnis im Textfeld; fehlende Belege als PBC-Pendenz; Visum offen.'
+  vorgehen: 'WP-Schritt: nur auf Anweisung des WP oder wenn SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes inhärentes Risiko anzeigen (Begründung im Textfeld); sonst
+    nicht bearbeiten, Hinweis an WP. Dann wesentliche Buchungen in bewusster Auswahl (Betrag/Risiko), ohne repräsentative Stichprobenverfahren, mit Belegen in M-Files nach Betrag, Periode,
+    Gegenpartei, Konto abstimmen; fehlende Belege als PBC-Pendenz; Visum offen.'
   nachweise:
   - Bank-, Zins- und Kommissionsabrechnungen, Kontoauszüge
   - Darlehens- und Kreditverträge
@@ -377,26 +508,37 @@ schritte:
   fundstellen:
   - quelle: ser-2022__anh-d-s095-1
     zitat: Abstimmung der ausgewiesenen Posten mit Belegen und geeigneten Unterlagen
-  - quelle: hwp-er-2026__rz-0115-s200
-    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: hwp-er-2026__rz-0132-s203
     zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
+  - quelle: hwp-er-2026__rz-0115-s200
+    zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: ser-2022__6-1-3
     zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
 - id: SCH4-302
-  vorgehen: 'WP-Schritt (weitergehende Prüfung): Kontoblätter der Finanzkonten bzw. Gegenbuchungen auf Bank-, Darlehens- und Zinsverbindlichkeitskonten kritisch durchsehen auf hohe,
-    runde, manuelle, periodenfremde oder ungewöhnliche Buchungen (Jahresend-/Sammelbuchungen, Zinsen Nahestehender, Stornos). Auffällige Posten mit Datum, Text, Betrag und Gegenkonto
-    auflisten, als Kandidaten für SCH4-301 bzw. Kundenfrage erfassen; Visum offen.'
+  vorgehen: 'WP-Schritt: nur auf Anweisung des WP oder wenn SCH4-201 bis -203 eine wesentliche Fehlaussage oder ein erhöhtes inhärentes Risiko anzeigen (Begründung im Textfeld); sonst
+    Hinweis an WP. Dann Finanzkonten/Gegenbuchungen auf hohe, runde, manuelle, periodenfremde oder ungewöhnliche Buchungen durchsehen (Jahresend-, Sammelbuchungen, Zinsen Nahestehender,
+    Stornos); Posten mit Datum, Betrag, Gegenkonto auflisten → SCH4-301/Kundenfrage; Visum offen.'
   nachweise:
   - Kontoblätter Finanzkonten 69xx
   - Kontoblätter Bank-, Darlehens- und Zinsverbindlichkeitskonten
   - Buchungsjournal Dezember
   rechnen: 'Filter: |Buchungsbetrag| ≥ Schwelle (Anteil Toleranzwesentlichkeit) oder Gegenkonto Nahestehende/Darlehen/Abgrenzung oder runder Betrag; Anzahl und Summe auffälliger Posten'
-  feststellung_wenn: Ungewöhnliche Buchung ohne nachvollziehbaren Geschäftshintergrund, nicht marktkonforme Zinsen ggü. Nahestehenden oder Hinweis auf periodenfremde/fehlerhafte Erfassung.
+  feststellung_wenn: Ungewöhnliche Buchung ohne nachvollziehbaren Geschäftshintergrund oder Hinweis auf periodenfremde/fehlerhafte Erfassung; auffällige Zinsen ggü. Nahestehenden → Hinweis
+    an WP (vGA-Beurteilung durch WP).
   fundstellen:
   - quelle: ser-2022__anh-d-s095-1
     zitat: Durchsicht der Konten auf hohe oder sonst ungewöhnliche Beträge
+  - quelle: ser-2022__anh-d-s095-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: hwp-er-2026__rz-0124-s202
     zitat: bestimmte Aufwands- oder Ertragskonten
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten
   - quelle: hwp-er-2026__rz-0163-s212
     zitat: hierbei enthält die Erfolgsrechnung zu hohe Aufwendungen und/oder zu geringe Erträge

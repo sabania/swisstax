@@ -4,14 +4,14 @@ bezeichnung: Nebenbetrieb, betriebsfremd und ausserordentlich
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 12
-    korrigiert: false
-kurzbeschrieb: 'Erfolgspositionen ausserhalb des betrieblichen Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand und Ertrag (z.B. nicht betriebliche Liegenschaften) sowie
-  ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag (z.B. Anlagenverkäufe, Vorjahreskorrekturen). Geprüft werden Eintritt, Vollständigkeit, Abgrenzung, Klassierung
-  (Art. 959b OR) und Anhangerläuterung.'
+    korrigiert: true
+kurzbeschrieb: 'Erfolgspositionen ausserhalb des Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand/Ertrag (z.B. nicht betriebsnotwendige Liegenschaften) sowie ausserordentlicher,
+  einmaliger oder periodenfremder Aufwand/Ertrag (z.B. Vorjahreskorrekturen). Anlagenverkaufserfolge nach Sachverhalt klassieren. Geprüft: Eintritt, Vollständigkeit, Abgrenzung, Klassierung
+  (Art. 959b OR), Anhang.'
 gesetz:
 - thema: 'Mindestgliederung Produktionserfolgsrechnung: separater Ausweis betriebsfremder Aufwand/Ertrag (Art. 959b Abs. 2 Ziff. 8 OR)'
   quelle: or__art-959b-t1
@@ -43,9 +43,12 @@ gesetz:
 - thema: Vorjahreszahlen in der Jahresrechnung (Art. 958d Abs. 2 OR)
   quelle: or__art-958d
   zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
-- thema: Belegnachweis für Buchungen (Art. 957a Abs. 2 Ziff. 2 und Abs. 3 OR)
+- thema: Belegnachweis für Buchungen (Art. 957a Abs. 2 Ziff. 2 OR)
   quelle: or__art-957a
   zitat: der Belegnachweis für die einzelnen Buchungsvorgänge;
+- thema: Buchungsbeleg muss den Geschäftsvorfall nachvollziehbar machen (Art. 957a Abs. 3 OR)
+  quelle: or__art-957a
+  zitat: die notwendig sind, um den einer Buchung zugrunde liegenden Geschäftsvorfall oder Sachverhalt nachvollziehen zu können
 - thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
   quelle: or__art-729a
   zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
@@ -58,6 +61,13 @@ risiken:
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Erfahrungsgemäss besteht eine gewisse Versuchung, Aufwendungen möglichst dem ausserordentlichen, einmaligen oder periodenfremden Bereich zuzuordnen, um bessere Betriebsergebnisse
     auszuweisen.
+- text: Rückstellungen für Vorgänge aus dem operativen Geschäft (z.B. Mängelrügen, Rechtsfälle oder Garantien aus eigenen Lieferungen und Leistungen) werden zulasten des ausserordentlichen
+    statt des betrieblichen Aufwands gebildet.
+  pruefziele:
+  - DO
+  - VO
+  quelle: hwp-bur-2023__rz-0504-s259
+  zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
 - text: Gebuchte Erträge/Aufwände in den Konten Nebenbetrieb, betriebsfremd oder ausserordentlich sind nicht eingetreten, nicht belegt oder Sammelbuchungen ohne nachvollziehbaren Sachverhalt.
   pruefziele:
   - EN
@@ -71,13 +81,21 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Typischerweise stellt die Korrektur von Fehlern aus einem Vorjahr, sofern wesentlich, einen periodenfremden Vorgang dar.
-- text: Unzulässige Verrechnung von Aufwand und Ertrag (z.B. ausserordentlicher Aufwand mit Ertrag, Gewinne mit Verlusten aus Anlagenabgängen, Mietertrag mit Liegenschaftsaufwand).
+- text: Unzulässige Verrechnung von betriebsfremdem Aufwand und Ertrag (z.B. Mietertrag mit direkt zuordenbarem Liegenschaftsaufwand) bzw. von ausserordentlichem Aufwand mit ausserordentlichem
+    Ertrag.
   pruefziele:
   - DO
   - RI
   quelle: hwp-bur-2023__rz-0067-s071
-  zitat: ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
-- text: 'Anlagenverkauf falsch abgebildet: Verkaufserlös statt Buchgewinn/-verlust erfasst, Anschaffungswert und kumulierte Abschreibungen nicht ausgebucht (Sachanlagen und Ertrag überhöht).'
+  zitat: betriebsfremder Aufwand und Ertrag; • ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
+- text: Gewinne und Verluste aus Anlagenabgängen werden miteinander verrechnet (Nettoausweis in einem Konto bzw. einer ER-Position).
+  pruefziele:
+  - DO
+  - RI
+  quelle: hwp-bur-2023__rz-0382-s238
+  zitat: Eine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen ist gemäss Verrechnungsverbot nicht zulässig
+- text: 'Anlagenverkauf falsch abgebildet: Verkaufserlös statt Buchgewinn/-verlust erfasst, Anschaffungswert und kumulierte Abschreibungen bzw. Restbuchwert nicht ausgebucht (Sachanlagen
+    und Ertrag überhöht).'
   pruefziele:
   - RI
   - BE
@@ -91,7 +109,8 @@ risiken:
   - VO
   quelle: or__art-959c-t2
   zitat: 12. Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung;
-- text: Wesentliche Nettoauflösung stiller Reserven (z.B. Auflösung von Rückstellungen/Wertberichtigungen oder Buchgewinne über ausserordentlichen Ertrag) wird nicht offengelegt.
+- text: Wesentliche Nettoauflösung gewillkürter stiller Reserven (z.B. Auflösung übersetzter Rückstellungen/Wertberichtigungen oder Buchgewinne auf übermässig abgeschriebenen Anlagen
+    über ausserordentlichen Ertrag) wird nicht offengelegt, obwohl das Ergebnis dadurch wesentlich günstiger dargestellt wird. Die Auflösung von Zwangsreserven ist nicht offenlegungspflichtig.
   pruefziele:
   - DO
   quelle: hwp-bur-2023__rz-0817-s341-t1
@@ -115,7 +134,8 @@ risiken:
   quelle: hwp-er-2026__rz-0163-s212
   zitat: hierbei enthält die Erfolgsrechnung zu hohe Aufwendungen und/oder zu geringe Erträge
 unterlagen:
-- dokument: Kontoblätter der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag mit Einzelbuchungen des Geschäftsjahres
+- dokument: 'Kontoblätter der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag mit Einzelbuchungen des Geschäftsjahres
+    (fehlen sie: Bilanz-Kontoblätter mit Gegenbuchungen auf diese Konten)'
   zweck: Grundlage Vorjahresvergleich (SCH5-201) und Belegabstimmung (SCH5-301)
   quelle: ser-2022__anh-d-s096-1
   zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
@@ -135,15 +155,15 @@ unterlagen:
 - dokument: Belege zu wesentlichen Einzelposten (Verträge, Gutschriften, Abrechnungen, Versicherungs- oder Vergleichsunterlagen)
   zweck: Belegabstimmung SCH5-301 (Eintritt, Betrag, Periode, Sachverhalt)
   quelle: or__art-957a
-  zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
-- dokument: 'Bei Anlagenverkäufen: Kaufvertrag, Zahlungseingang, Anlagespiegel mit Abgang (Anschaffungswert, kumulierte Abschreibungen, Restbuchwert)'
+  zitat: die notwendig sind, um den einer Buchung zugrunde liegenden Geschäftsvorfall oder Sachverhalt nachvollziehen zu können
+- dokument: 'Bei Anlagenverkäufen: Kaufvertrag, Zahlungseingang, Anlagespiegel mit Abgang (Anschaffungswert, kumulierte Abschreibungen, Restbuchwert), Belege zu Verkaufsnebenkosten'
   zweck: Buchgewinn/-verlust nachrechnen, Ausbuchung des Abgangs prüfen (SCH5-202, SCH5-301)
   quelle: ser-2022__anh-d-s083-1
   zitat: Dokumenten im Zusammenhang mit Anschaffung bzw. Veräusserung von Sachanlagen
 - dokument: 'Bei betriebsfremden Liegenschaften, Untervermietung oder Nebenbetrieben: Miet-/Untermietverträge, Mieterspiegel, Liegenschaftsabrechnung mit direkt zuordenbarem Aufwand'
-  zweck: Erwartungswerte bilden (SCH5-202); Aufschlüsselung im Anhang beurteilen
-  quelle: hwp-bur-2023__rz-0799-s329-t2
-  zitat: im Anhang eine Aufschlüsselung entsprechend der Mindestgliederung zweckmässig
+  zweck: Erwartungswerte bilden (SCH5-202); Grundlage für die Aufschlüsselung betriebsfremder Ertrag/Aufwand im Anhang
+  quelle: ser-2022__anh-d-s096-1
+  zitat: Vergleich der Salden mit den erwarteten Werten aufgrund der Kenntnisse der Geschäftstätigkeit im zu prüfenden Geschäftsjahr
 - dokument: Budget/Forecast bzw. Erwartungsgrundlagen der Unternehmensleitung
   zweck: Vergleich mit erwarteten Werten (SCH5-202)
   quelle: ser-2022__6-1-2-t1
@@ -152,6 +172,10 @@ unterlagen:
   zweck: Sondervorgänge (Verkäufe, Vergleiche, Restrukturierungen) als Erwartungsgrundlage und Vollständigkeitskontrolle
   quelle: hwp-er-2026__rz-0119-s201
   zitat: Protokolle von Generalversammlungen und Verwaltungsratssitzungen
+- dokument: Rückstellungsspiegel und Aktennotizen zu Rechtsfällen bzw. Garantien (Bildung, Verwendung, Auflösung mit Gegenkonto)
+  zweck: Klassierung der Rückstellungsbildung bzw. -auflösung (betrieblich oder ausserordentlich) prüfen (SCH5-202, SCH5-301)
+  quelle: hwp-bur-2023__rz-0504-s259
+  zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
 - dokument: Aufstellung Bildung/Auflösung stiller Reserven (Berechnungsmethode wie Vorjahr)
   zweck: Nettoauflösung über ausserordentlichen Ertrag erkennen; Anhangangabe
   quelle: ser-2022__anh-d-s097-2
@@ -168,7 +192,11 @@ bewertung:
 - regel: Klassierung betrieblich/betriebsfremd je einzelne Anlage; keine Aufsplittung z.B. gemischt genutzter Liegenschaften.
   quelle: hwp-bur-2023__rz-0799-s329-t1
   zitat: Die Klassifizierung in betrieblich oder betriebsfremd ist dabei für die einzelne Anlage vorzunehmen
-- regel: Betriebsfremde Positionen nach dem Finanzerfolg ausweisen; keine explizite Anhangpflicht, Aufschlüsselung (z.B. Mietertrag und direkter Liegenschaftsaufwand) aber zweckmässig.
+- regel: 'Klassierungsbeispiel betriebsfremd (HWP BuR Abbildung 22): Aufwendungen für betriebsfremde Liegenschaften und Verkauf von nicht betriebsnotwendigen Liegenschaften.'
+  quelle: hwp-bur-2023__rz-0800-s330-t3
+  zitat: Verkauf von nicht betriebsnotwendigen Liegenschaften
+- regel: Betriebsfremde Positionen nach dem Finanzerfolg ausweisen; keine explizite Anhangpflicht, Aufschlüsselung (z.B. Mietertrag und direkter Liegenschaftsaufwand als betriebsfremder
+    Aufwand) aber zweckmässig.
   quelle: hwp-bur-2023__rz-0799-s329-t2
   zitat: Der betriebsfremde Aufwand und der betriebsfremde Ertrag sind in der Erfolgsrechnung nach dem Finanzaufwand und Finanzertrag auszuweisen.
 - regel: Nebenerlöse ohne direkten Zusammenhang mit dem primären Unternehmenszweck sind als betriebsfremder Ertrag auszuweisen.
@@ -177,6 +205,10 @@ bewertung:
 - regel: 'Ausserordentlich: ungewöhnliche, in der Regel einmalige oder mit dem Geschäftsgang nicht ohne Weiteres zusammenhängende Vorgänge.'
   quelle: hwp-bur-2023__rz-0800-s330-t1
   zitat: Als ausserordentliche Aufwendungen und Erträge gelten ungewöhnliche, in der Regel einmalige oder mit dem Geschäftsgang nicht ohne Weiteres zusammenhängende Vorgänge.
+- regel: 'Klassierungsbeispiele ausserordentlich, einmalig oder periodenfremd (HWP BuR Abbildung 22): Korrektur von Fehlern und Effekt aus der erstmaligen Anwendung neuer Rechnungslegungsgrundsätze
+    (kein Zusammenhang mit dem laufenden Geschäftsgang, nicht wiederkehrend).'
+  quelle: hwp-bur-2023__rz-0800-s330-t3
+  zitat: Korrektur von Fehlern
 - regel: Kein Wahlrecht bei der Einordnung; im Zweifel ordentliches/betriebliches Ergebnis; Ausweis als ausserordentlich ist im Einzelnen zu begründen.
   quelle: hwp-bur-2023__rz-0800-s330-t1
   zitat: Bezüglich Einordung von Aufwendungen und Erträgen als ordentlich oder ausserordentlich besteht grundsätzlich kein Wahlrecht.
@@ -186,24 +218,48 @@ bewertung:
 - regel: Sporadisch wiederkehrende oder unüblich grosse Posten aus der normalen Geschäftstätigkeit sind nicht ausserordentlich/periodenfremd; Begriffe eng auslegen.
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: In der Rechnungslegungspraxis sollten die Begriffe ausserordentlich, einmalig und periodenfremd eng ausgelegt werden.
+- regel: Rückstellungsbildung zulasten der ER-Position, der der Vorgang inhaltlich zufällt; nur Rückstellungen für ausserordentliche, einmalige oder periodenfremde Aufwendungen als solche
+    erfassen und im Anhang erläutern.
+  quelle: hwp-bur-2023__rz-0504-s259
+  zitat: Rückstellungen für ausserordentliche, einmalige oder periodenfremde Aufwendungen sind als solche in der Erfolgsrechnung zu erfassen und im Anhang zu erläutern
 - regel: 'Fehlerkorrekturen aus Vorjahren: keine Anpassung des Vorjahresergebnisses; Korrektur über die Erfolgsrechnung des laufenden Jahres mit Anhangerläuterung (periodenfremd).'
   quelle: hwp-bur-2023__rz-0071-s072
   zitat: Notwendige Korrekturen sind über die Erfolgsrechnung des laufenden Jahres mit entsprechenden Erläuterungen im Anhang vorzunehmen.
 - regel: Ausserordentliche, einmalige und periodenfremde Posten dürfen in einer Position zusammengefasst werden; Verrechnung von Aufwand und Ertrag nur bei unwesentlichen Grössen.
   quelle: hwp-bur-2023__rz-0233-s114
   zitat: Eine Verrechnung ist nur bei unwesentlichen Grössen statthaft.
-- regel: Verrechnungsverbot gilt ausdrücklich auch für betriebsfremden sowie ausserordentlichen, einmaligen und periodenfremden Aufwand und Ertrag.
+- regel: Verrechnungsverbot gilt ausdrücklich auch für betriebsfremden sowie für ausserordentlichen, einmaligen und periodenfremden Aufwand und Ertrag.
   quelle: hwp-bur-2023__rz-0067-s071
-  zitat: ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
+  zitat: betriebsfremder Aufwand und Ertrag; • ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
 - regel: 'Anlagenabgang: bei indirekter Abschreibung Anschaffungskosten und kumulierte Abschreibungen ausbuchen; Buchgewinn bzw. -verlust in der Erfolgsrechnung erfassen.'
   quelle: hwp-bur-2023__rz-0329-s228-t1
   zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
-- regel: Keine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen; bedeutende Gewinne/Verluste aus Veräusserung von Sachanlagen einzeln ausweisen und erläutern.
+- regel: 'Anlagenabgang bei direkter Abschreibung: Restbuchwert ausbuchen.'
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: bei direkter Abschreibung der Restbuchwert auszubuchen
+- regel: Keine direkte Verrechnung realisierter Buchgewinne mit bestehenden Sachanlagen (käme einer ausserplanmässigen Abschreibung gleich).
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Eine direkte Verrechnung von realisierten Buchgewinnen mit bestehenden Sachanlagen
+- regel: Keine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen.
   quelle: hwp-bur-2023__rz-0382-s238
   zitat: Eine Verrechnung von Gewinnen mit Verlusten aus Anlagenabgängen ist gemäss Verrechnungsverbot nicht zulässig
-- regel: Buchgewinne aus Anlagenverkäufen bedeuten aufgelöste stille Reserven; bei wesentlich günstigerer Ergebnisdarstellung Nettoauflösung im Anhang offenlegen (Nettobetrag).
-  quelle: hwp-bur-2023__rz-0329-s228-t1
-  zitat: Entstehen aus der Veräusserung von Sachanlagen Buchgewinne, sind stille Reserven zur Auflösung gekommen.
+- regel: Direkt mit dem Verkauf zusammenhängende Aufwendungen (z.B. Handänderungssteuern, Beurkundungsgebühren, Maklerprovisionen) dürfen mit dem Veräusserungserlös verrechnet werden.
+  quelle: hwp-bur-2023__rz-0382-s238
+  zitat: Es ist vertretbar, Aufwendungen, die direkt mit dem Verkauf in Zusammenhang stehen
+- regel: Bedeutende Gewinne oder Verluste aus der Veräusserung von Sachanlagen in der Erfolgsrechnung oder im Anhang einzeln ausweisen und erläutern, sofern für die Beurteilung der Ertragslage
+    durch Dritte wesentlich oder aufgrund der Art der Unternehmenstätigkeit üblich.
+  quelle: hwp-bur-2023__rz-0380-s238
+  zitat: Bedeutende Gewinne oder Verluste aus der Veräusserung von Sachanlagen sind in der Erfolgsrechnung oder im Anhang einzeln auszuweisen und zu erläutern
+- regel: Buchgewinne aus Anlagenverkäufen bedeuten aufgelöste stille Reserven; handelt es sich um Zwangsreserven (Wertsteigerung trotz Nutzung), ist die Auflösung nicht offenlegungspflichtig.
+  quelle: hwp-bur-2023__rz-0329-s228-t2
+  zitat: Die Auflösung solcher Zwangsreserven ist nach dem Gesetz nicht offenlegungspflichtig.
+- regel: Offenlegungspflichtig sein kann nur die Auflösung gewillkürter stiller Reserven, d.h. aus Abschreibungen über dem nutzungs- und altersbedingten Wertverlust (Art. 960a Abs. 4
+    OR, Art. 959c Abs. 1 Ziff. 3 OR).
+  quelle: hwp-bur-2023__rz-0329-s228-t2
+  zitat: mehr abgeschrieben worden war, als gemäss nutzungs- und altersbedingtem Wertverlust erforderlich gewesen wäre
+- regel: Offenlegung nur, wenn das Ergebnis durch die Nettoauflösung wesentlich günstiger dargestellt wird; anzugeben ist nur der Nettobetrag (Gesamtbetrag über alle Bilanzpositionen).
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
 - regel: Nur tatsächliche Erträge ausweisen, keine kalkulatorischen Eigenmieten oder Sollmieterträge.
   quelle: hwp-bur-2023__rz-0753-s319
   zitat: keine kalkulatorischen oder budgetierten Werte, wie z.B. kalkulatorische Eigenmieten oder Sollmieterträge
@@ -219,32 +275,56 @@ fallstricke:
   zitat: Gleiches gilt auch für unüblich grosse Posten, soweit sie aus der normalen Geschäftstätigkeit des Unternehmens stammen.
 - text: 'Im Zweifel ordentlich: Ermessensfälle sind dem betrieblichen Ergebnis zuzuordnen; die Begründungslast liegt beim Ausweis als ausserordentlich.'
   quelle: hwp-bur-2023__rz-0800-s330-t1
-  zitat: mit den entsprechenden Aufwendungen und Erträgen im Zweifelsfall als Teil des
+  zitat: im Zweifelsfall als Teil des ordentlichen bzw. betrieblichen Ergebnisses zu klassifizieren sein wird
+- text: 'Rechtsfälle und Mängelrügen aus eigenen Lieferungen und Leistungen sind Teil des operativen Geschäfts; die Rückstellung dafür nicht automatisch als ausserordentlichen Aufwand
+    akzeptieren (Vergleich: Garantierückstellung auf Betriebsaufwand gebucht?).'
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Teil des operativen Geschäfts
+- text: 'Gewinne/Verluste aus Anlagenverkäufen sind nicht automatisch ausserordentlich: Verkauf nicht betriebsnotwendiger Liegenschaften ist betriebsfremd; sonst nach Sachverhalt, im
+    Zweifel betrieblich.'
+  quelle: hwp-bur-2023__rz-0800-s330-t3
+  zitat: Mit nicht betriebsnotwendigen
 - text: 'Anlagenverkauf: voller Verkaufserlös als Ertrag gebucht und Anlage im Anlagespiegel nicht ausgebucht – Ertrag und Sachanlagen überhöht; Buchgewinn = Erlös minus Restbuchwert.'
   quelle: hwp-bur-2023__rz-0329-s228-t1
   zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
-- text: Aufwandkonto mit Habensaldo bzw. Nettoausweis von ausserordentlichem Aufwand und Ertrag deutet auf Verrechnung oder Fehlbuchung hin.
+- text: 'Buchgewinn direkt gegen bestehende Sachanlagen gebucht: Gewinn fehlt in der Erfolgsrechnung, wirkt wie ausserplanmässige Abschreibung.'
+  quelle: hwp-bur-2023__rz-0329-s228-t1
+  zitat: Eine direkte Verrechnung von realisierten Buchgewinnen mit bestehenden Sachanlagen
+- text: Aufwandkonto mit Habensaldo bzw. Nettoausweis von ausserordentlichem Aufwand und Ertrag (oder von Gewinnen und Verlusten aus Anlagenabgängen in einer Position) deutet auf Verrechnung
+    oder Fehlbuchung hin.
   quelle: hwp-bur-2023__rz-0067-s071
   zitat: Das Verbot der Verrechnung von Aufwand und Ertrag bezieht sich auch auf artgleiche Aufwendungen und Erträge
+- text: 'Fehlende Anhangangabe zur Nettoauflösung stiller Reserven nicht vorschnell als Feststellung erfassen: Buchgewinne aus Zwangsreserven sind nicht offenlegungspflichtig.'
+  quelle: hwp-bur-2023__rz-0329-s228-t2
+  zitat: Die Auflösung solcher Zwangsreserven ist nach dem Gesetz nicht offenlegungspflichtig.
 - text: Anhangerläuterung der ausserordentlichen Posten stimmt betragsmässig oder inhaltlich nicht mit den Positionen der Erfolgsrechnung überein – immer abstimmen.
   quelle: ser-2022__anh-d-s098-2
   zitat: insbes. zu wesentlichen ausserordentlichen, einmaligen oder periodenfremden Positionen
+- text: Für dasselbe Erfolgskonto können Saldoliste, Gegenbuchungen in den Bilanz-Kontoblättern und Anhangerläuterung verschiedene Beträge zeigen; alle drei Quellen abstimmen. Fehlt
+    ein Kontoblatt eines Erfolgskontos, Buchungen über die Gegenkonten in den Bilanz-Kontoblättern rekonstruieren.
 - text: Konten (z.B. Nebenbetrieb, Liegenschafts-/Untermietertrag) wechseln zwischen den Jahren die ER-Position; Kontenzuordnung immer mit dem Vorjahr vergleichen.
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
-- text: Pauschale Sammelbuchungen per Jahresende ohne spezifischen Belegtext sind ohne Einzelbeleg nicht nachvollziehbar.
+- text: 'Direkt zuordenbarer Aufwand zu betriebsfremdem Ertrag (z.B. Inserate für Untermiete) im betrieblichen Aufwand gebucht: Zuordnung und Aufschlüsselung prüfen.'
+  quelle: hwp-bur-2023__rz-0799-s329-t2
+  zitat: direkt zuordenbaren Aufwendungen
+- text: Pauschale Sammelbuchungen per Jahresende ohne spezifischen Belegtext (z.B. «Diverse Gutschriften») sind ohne Einzelbeleg nicht nachvollziehbar.
   quelle: or__art-957a
-  zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
+  zitat: die notwendig sind, um den einer Buchung zugrunde liegenden Geschäftsvorfall oder Sachverhalt nachvollziehen zu können
 - text: Bei KMU verzerren Bildung/Auflösung stiller Reserven die Vergleichswerte; analytische Vergleiche bereinigen.
   quelle: hwp-er-2026__rz-0110-s199
   zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
 - text: Bei wesentlichen Posten nicht allein auf Befragung abstützen; mit Analytik bzw. Detailprüfung ergänzen.
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
-- text: 'SCH5-301 ist im SER eine weiter gehende Prüfungshandlung (Kennzeichnung WP): nur bei vermuteter wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko; Agent bereitet vor,
-    der Wirtschaftsprüfer entscheidet.'
-  quelle: ser-2022__anh-d-s096-1
-  zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+- text: 'SCH5-301 trägt zwei getrennte Merkmale: revio-Kennzeichnung WP = Wirtschaftsprüfer (nicht «weiter gehend») und SER-Einstufung als weiter gehende Prüfungshandlung (vor allem
+    bei vermuteter wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko).'
+  quelle: konzept-ki-revisionsagent-2026__c008-1
+  zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
+- text: 'Ob der Agent WP-Schritte vorbereitet, ist offen (Entscheid consis): SCH5-301 nur auf Anweisung des Wirtschaftsprüfers bzw. gemäss Entscheid consis vorbereiten; sonst Status
+    «nicht bearbeitet» mit Grund als Notiz für den Rapport.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: Kalkulatorische Mieten (z.B. Eigennutzung einer Liegenschaft) dürfen nicht als betriebsfremder Ertrag gebucht werden.
   quelle: hwp-bur-2023__rz-0753-s319
   zitat: keine kalkulatorischen oder budgetierten Werte, wie z.B. kalkulatorische Eigenmieten oder Sollmieterträge
@@ -258,23 +338,35 @@ fragen_kunde:
 - frage: Welche Sondervorgänge gab es im Geschäftsjahr (z.B. Anlagenverkäufe, Versicherungsleistungen, Vergleiche, Rückerstattungen, Nachbuchungen oder Fehlerkorrekturen für Vorjahre),
     und auf welchen Konten sind sie erfasst?
   zweck: 'SCH5-202: Erwartungswerte bilden; Vollständigkeit und Periodenabgrenzung'
+- frage: Wurden Rückstellungen (z.B. Rechtsfälle, Mängelrügen, Garantien) zulasten des ausserordentlichen Aufwands gebildet oder zugunsten des ausserordentlichen Ertrags aufgelöst, und
+    weshalb gehört der zugrunde liegende Vorgang nicht zum operativen Geschäft?
+  zweck: 'SCH5-202/301: Klassierung betrieblich oder ausserordentlich (DO, VO)'
 - frage: Besitzt die Gesellschaft nicht betriebsnotwendige Vermögenswerte oder Nebenbetriebe (z.B. Liegenschaften, Untervermietung)? Bestehen dazu Verträge mit Aktionären oder Nahestehenden,
-    und zu welchen Konditionen?
-  zweck: Abgrenzung betrieblich/betriebsfremd; Hinweise auf verdeckte Gewinnausschüttung
-- frage: Wie wurden Anlagenverkäufe des Geschäftsjahres erfasst (Erlös, Ausbuchung Anschaffungswert und Abschreibungen, Buchgewinn bzw. -verlust, Konto)?
+    und zu welchen Konditionen? Welche Aufwendungen sind diesen Erträgen direkt zuordenbar und wo gebucht?
+  zweck: Abgrenzung betrieblich/betriebsfremd, Verrechnungsverbot; Hinweise auf verdeckte Gewinnausschüttung
+- frage: Wie wurden Anlagenverkäufe des Geschäftsjahres erfasst (Erlös, Verkaufsnebenkosten, Ausbuchung Anschaffungswert und Abschreibungen bzw. Restbuchwert, Buchgewinn bzw. -verlust,
+    Konto)?
   zweck: 'SCH5-202/301: Richtigkeit und Verrechnungsverbot (RI, BE)'
-- frage: Wurden im Geschäftsjahr stille Reserven netto aufgelöst (z.B. über ausserordentlichen Ertrag), und in welchem Betrag?
+- frage: Wurden im Geschäftsjahr stille Reserven netto aufgelöst (z.B. über ausserordentlichen Ertrag), und in welchem Betrag? Handelt es sich bei Buchgewinnen aus Anlagenverkäufen um
+    Zwangsreserven oder um Reserven aus übermässigen Abschreibungen?
   zweck: Anhangangabe Art. 959c Abs. 1 Ziff. 3 OR (DO)
 - frage: Können Sie die Kernaussagen zur Klassierung und zu den Sondervorgängen schriftlich bestätigen?
-  zweck: Schriftliche Bestätigung von Kernaussagen (Befragung dokumentieren)
+  zweck: Schriftliche Bestätigung von Kernaussagen gemäss SER 6.1.1 (Befragung dokumentieren)
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'SCH5-101, -201, -202: Blatt «Erfolgsrechnung», Konten 7000, 7500, 8100, 8500, 8510, 8520, 8530 mit Saldi 2025/2024'
+  bezug: 'SCH5-101, -201, -202: Blatt «Erfolgsrechnung», Konten 7000, 7500, 8100, 8500, 8510, 8520, 8530 mit Saldi 2025/2024; 8500 A.o. Aufwand 2025 mit +3''000 (Habensaldo auf Aufwandkonto);
+    6031 «Aufwand Inserate Untermiete» im betrieblichen Raumaufwand als direkt zuordenbarer Aufwand zu 7500 (Zuordnung prüfen)'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: 'SCH5-201, -301: Gliederung ER (Liegenschaftsertrag, Betriebsfremder Ertrag, Ausserordentlicher Aufwand/Ertrag) und Anhang Ziff. 3 «Erläuterung über ausserordentliche Aufwände
-    und Erträge»'
+  bezug: 'SCH5-201, -301: Gliederung ER (Liegenschaftsertrag, Betriebsfremder Ertrag, Ausserordentlicher Aufwand/Ertrag; Vorjahr: 8530 Gewinn aus Anlageverkauf im Total a.o. Aufwand
+    mit 8520/8500 zusammengefasst) und Anhang Ziff. 3 (a.o. Aufwand -28''892, a.o. Ertrag 49''959) gegen ER (3''000 bzw. 50''000) und Einzelposten abstimmen'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
-  bezug: 'SCH5-301: Blatt «8510» A.o. Ertrag mit Einzelbuchungen (übrige Erfolgskonten nicht als Kontoblatt enthalten)'
+  bezug: 'SCH5-301: Blatt «8510» A.o. Ertrag mit Einzelbuchungen (u.a. Erlös Verkauf Lieferwagen 6''500; AB-38 «Diverse Gutschriften» 4''202 per 31.12.2025); Blatt «2330» AB-36 Rückstellung
+    Rechtsfall Kunstrasen Fiktiv AG 45''000 gegen 8500 (übrige Erfolgskonten ohne Kontoblatt, über Gegenkonten der Bilanz-Kontoblätter rekonstruieren); Blatt «2630» AB-37 Garantierückstellung
+    gegen 4404 (Vergleich Klassierung)'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Aktennotiz_Rechtsfall_Kunstrasen_Fiktiv_AG.md
+  bezug: 'SCH5-201, -301: Sachverhalt der Rückstellung auf 8500 (Mängelrüge an 2024 erstellter PV-Anlage = betriebliche Leistung); Klassierung a.o. vs. betrieblich'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'SCH5-201, -301: Rückstellungsspiegel (2330 Rechtsfall 45''000, 2630 Garantie 40''000); Abstimmung Kontoblatt 2330 / Saldoliste 8500 / Anhang Ziff. 3'
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
   bezug: 'SCH5-102, -202: Zweck (Abgrenzung betrieblich/betriebsfremd) und Ansprechpersonen für die Befragung'
 - datei: 00_Allgemein/Belegverzeichnis.md
@@ -284,7 +376,8 @@ testakte_2025:
 - datei: G_Anlagevermoegen/Anlagespiegel_2025.md
   bezug: 'SCH5-202, -301: Anschaffungswert und Nutzungsdauer des verkauften Fahrzeugs (Restbuchwert, Ausbuchung Abgang)'
 - datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
-  bezug: 'SCH5-202: Ziff. 6 Untermiete Parkplätze als Erwartungsgrundlage für Konto 7500'
+  bezug: 'SCH5-202: Ziff. 2 (18 Parkplätze) und Ziff. 6 nur Zulässigkeit der Untermiete (Zustimmung Vermieterin), keine Beträge – Erwartung zu Konto 7500 nur qualitativ; Untermietverträge
+    als Pendenz anfordern'
 schritte:
 - id: SCH5-101
   vorgehen: 'Aus der Saldoliste ER die Konten Nebenbetrieb, betriebsfremd und ausserordentlich/periodenfremd mit dem Vorjahr gegenüberstellen; Abweichungen ab Toleranzwesentlichkeit
@@ -308,9 +401,9 @@ schritte:
   - quelle: ser-2022__6-1-1-t1
     zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
 - id: SCH5-102
-  vorgehen: 'Kriterienbeschrieb bzw. Kontierungsregeln zur Identifikation betriebsfremder, ausserordentlicher, einmaliger und periodenfremder Posten in M-Files/Dauerakte suchen. Schriftliche
-    Kundenantwort gegen HWP BuR würdigen (betriebsfremd: nicht betriebstypisch, regelmässig; ausserordentlich: ungewöhnlich, nicht wiederkehrend; eng auslegen) und gegen den Zweck gemäss
-    Unternehmensinformationen. Fehlt beides: Frage als Pendenz. Ergebnis im Textfeld.'
+  vorgehen: 'Kriterienbeschrieb bzw. Kontierungsregeln in M-Files/Dauerakte suchen; schriftliche Kundenantwort (10.11) gegen HWP BuR (betriebsfremd: nicht betriebstypisch, regelmässig;
+    ausserordentlich: ungewöhnlich, nicht wiederkehrend; eng auslegen) und den Zweck würdigen. Fehlt beides: Frage als Pendenz. Im Textfeld wesentliche Fragen, Antworten und Würdigung
+    dokumentieren; Status höchstens «teilweise bearbeitet», Visum offen.'
   nachweise:
   - schriftliche Kriterienbeschreibung oder Kundenantwort
   - Kontenplan mit Zuordnung zu den ER-Positionen
@@ -322,6 +415,14 @@ schritte:
   fundstellen:
   - quelle: ser-2022__anh-d-s096-1
     zitat: Besprechung der angewandten Kriterien zur Identifikation von betriebsfremden
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Visum offen lassen
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Um Missverständnisse zu vermeiden, sind die Kernaussagen vom Befragten allenfalls schriftlich bestätigen zu lassen.
   - quelle: hwp-bur-2023__rz-0800-s330-t1
     zitat: Somit ist zwar im Einzelnen zu begründen, wenn ein Posten als ausserordentlich erfasst wurde, nicht jedoch, wenn dies nicht der Fall ist.
   - quelle: hwp-bur-2023__rz-0800-s330-t2
@@ -349,17 +450,18 @@ schritte:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - id: SCH5-202
-  vorgehen: 'Erwartungswerte aus Kenntnissen bilden und vor dem Vergleich festhalten: Miet-/Untermietverträge, Anlagenabgänge (Kaufvertrag, Anlagespiegel), VR-/GV-Protokolle, bekannte
-    Sondervorgänge und Vorjahreskorrekturen. Mit gebuchten Salden vergleichen; Differenzen über der tolerierbaren Abweichung (aus Toleranzwesentlichkeit) begründen lassen bzw. als Pendenz.
-    Bekannte Vorgänge ohne Buchung als Vollständigkeitsthema festhalten.'
+  vorgehen: Erwartungswerte vor dem Vergleich festhalten (Miet-/Untermietverträge, Kaufvertrag/Anlagespiegel, Rückstellungsspiegel, VR-/GV-Protokolle, Sondervorgänge, Vorjahreskorrekturen)
+    und mit den Salden vergleichen. Begründung für Differenzen über der tolerierbaren Abweichung aus schriftlicher Kundenantwort (10.11) bzw. Akte entnehmen, sonst Frage als Pendenz
+    mit Konto, Betrag und Differenz. Bekannte Vorgänge ohne Buchung als Vollständigkeitsthema.
   nachweise:
   - Miet- und Untermietverträge
   - Kaufverträge Anlagenverkäufe und Anlagespiegel
+  - Rückstellungsspiegel und Aktennotizen
   - VR-/GV-Protokolle
   - Budget/Forecast
   - Saldoliste Erfolgsrechnung
-  rechnen: Buchgewinn Anlagenverkauf = Verkaufserlös − (Anschaffungswert − kumulierte Abschreibungen bis Abgang); erwarteter Mietertrag = Monatsmiete × Monate; Differenz = gebucht −
-    Erwartung, vergleichen mit tolerierbarer Abweichung
+  rechnen: Buchgewinn Anlagenverkauf = Verkaufserlös (ggf. abzüglich direkter Verkaufskosten) − (Anschaffungswert − kumulierte Abschreibungen bis Abgang); erwarteter Mietertrag = Monatsmiete
+    × Monate; Differenz = gebucht − Erwartung, vergleichen mit tolerierbarer Abweichung (aus Toleranzwesentlichkeit)
   feststellung_wenn: 'Pendenz: Differenz Erwartung/Ist über tolerierbarer Abweichung unerklärt. Wesentliche Feststellung: bekannter Sondervorgang nicht oder falsch erfasst (z.B. Erlös
     statt Buchgewinn) bzw. Buchung ohne Vorgang.'
   fundstellen:
@@ -367,35 +469,54 @@ schritte:
     zitat: Vergleich der Salden mit den erwarteten Werten aufgrund der Kenntnisse der Geschäftstätigkeit im zu prüfenden Geschäftsjahr
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Die tolerierbare Abweichung zwischen dem Erwartungswert und dem Ausweis
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
   - quelle: hwp-er-2026__rz-0029-s183
     zitat: stellt er dabei eine ungewöhnliche oder unerwartete Abweichung fest, untersucht er, ob erhöhte Risiken wesentlicher Fehlaussagen in der Jahresrechnung bestehen könnten
   - quelle: hwp-bur-2023__rz-0329-s228-t1
     zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
+  - quelle: hwp-bur-2023__rz-0382-s238
+    zitat: Es ist vertretbar, Aufwendungen, die direkt mit dem Verkauf in Zusammenhang stehen
   - quelle: hwp-er-2026__rz-0110-s199
     zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
 - id: SCH5-301
-  vorgehen: 'Weiter gehende Handlung (WP): vorbereiten, wenn SCH5-101 bis -202 eine wesentliche Fehlaussage vermuten lassen oder das Risiko erhöht ist. Posten ab Toleranzwesentlichkeit
-    und auffällige (Jahresend-, Sammel-, runde Buchungen) aus den Kontoblättern wählen, Belege in M-Files suchen; Betrag, Datum/Periode, Sachverhalt, Klassierung und Verrechnung prüfen;
-    Anhangerläuterung mit den Konten abstimmen. Fehlende Belege als Pendenz.'
+  vorgehen: revio WP = Wirtschaftsprüfer; im SER weiter gehend. Nur auf Anweisung des Wirtschaftsprüfers bzw. gemäss Entscheid consis vorbereiten, sonst Status «nicht bearbeitet» mit
+    Grund als Notiz. Posten ab Toleranzwesentlichkeit und auffällige (Jahresend-, Sammel-, runde Buchungen) wählen; ohne Kontoblatt Gegenbuchungen auf 7xxx/8xxx in Bilanz-Kontoblättern
+    suchen. Belege in M-Files; Betrag, Periode, Sachverhalt, Klassierung, Verrechnung, Anhang prüfen.
   nachweise:
-  - Kontoblätter der Konten Nebenbetrieb, betriebsfremd, ausserordentlich
-  - Belege (Verträge, Gutschriften, Abrechnungen)
+  - Kontoblätter der Konten Nebenbetrieb, betriebsfremd, ausserordentlich bzw. Bilanz-Kontoblätter mit Gegenbuchungen
+  - Belege (Verträge, Gutschriften, Abrechnungen, Aktennotizen)
+  - Rückstellungsspiegel
   - Anhang der Jahresrechnung
   - Anlagespiegel bei Anlagenverkäufen
-  rechnen: Summe Einzelbuchungen Kontoblatt = Saldo Saldoliste je Konto; Summe a.o.-Konten = Total a.o. Aufwand bzw. Ertrag in der ER = Anhangangabe; Abdeckung % = geprüfte Posten /
-    Kontosaldo
-  feststellung_wenn: 'Pendenz: Beleg fehlt (Konto, Datum, Betrag). Wesentliche Feststellung mit Buchungsvorschlag: Beleg widerspricht Buchung, falsche Periode oder Klassierung, Verrechnung,
-    Anhang ≠ ER.'
+  rechnen: Summe Einzelbuchungen Kontoblatt (bzw. Gegenbuchungen aus Bilanz-Kontoblättern) = Saldo Saldoliste je Konto; Summe a.o.-Konten = Total a.o. Aufwand bzw. Ertrag in der ER =
+    Anhangangabe; Abdeckung % = geprüfte Posten / Kontosaldo
+  feststellung_wenn: 'Pendenz: Beleg fehlt (Konto, Datum, Betrag). Notiz «Wesentliche Feststellung» mit begründetem Buchungsvorschlag, keine Verbuchung: Beleg ≠ Buchung, falsche Periode/Klassierung,
+    Verrechnung, Anhang ≠ ER.'
   fundstellen:
   - quelle: ser-2022__anh-d-s096-1
     zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
   - quelle: ser-2022__anh-d-s096-1
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c023-1
+    zitat: consis entscheidet über WP-Schritte
+  - quelle: flussdiagramm-revisionsagent-2026__s001-3
+    zitat: Status «nicht bearbeitet»
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0116-s201
     zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
+  - quelle: hwp-bur-2023__rz-0504-s259
+    zitat: Die Bildung einer Rückstellung erfolgt zulasten jener Position der Erfolgsrechnung, welcher der zugrunde liegende Vorgang inhaltlich zufällt.
   - quelle: or__art-959c-t2
     zitat: 12. Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung;
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)

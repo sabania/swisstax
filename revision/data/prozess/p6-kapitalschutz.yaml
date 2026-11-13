@@ -4,11 +4,11 @@ titel: Kapitalverlust, Überschuldung, Rangrücktritt, Zahlungsunfähigkeit (OR 
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prozess-werte
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 14
-    korrigiert: false
+    korrigiert: true
 ziel: Kapitalschutz-Tatbestände (drohende Zahlungsunfähigkeit, hälftiger Kapitalverlust, begründete Besorgnis bzw. Überschuldung) aus Jahresrechnung/Zwischenabschluss erkennen, rechnen
   und belegen; Rangrücktritte und Sanierungsmassnahmen prüfen; Zusatz/Hinweis im Bericht und Anzeigepflicht OR 729c für den WP vorbereiten.
 wann: Bei jedem Mandat nach dem Import der Jahresrechnung (Prozess 1) als Schwellen-Check; vertieft, sobald JR oder Zwischenabschluss Kapitalverlust/Überschuldung zeigt, Indikatoren
@@ -18,7 +18,10 @@ gesetz:
 - thema: VR überwacht Zahlungsfähigkeit (drohende Zahlungsunfähigkeit)
   quelle: or__art-725
   zitat: Der Verwaltungsrat überwacht die Zahlungsfähigkeit der Gesellschaft.
-- thema: Massnahmen bei drohender Zahlungsunfähigkeit, Nachlassstundung
+- thema: Massnahmen bei drohender Zahlungsunfähigkeit (OR 725 Abs. 2)
+  quelle: or__art-725
+  zitat: Droht die Gesellschaft zahlungsunfähig zu werden, so ergreift der Verwaltungsrat Massnahmen zur Sicherstellung der Zahlungsfähigkeit.
+- thema: Nachlassstundung als Massnahme (OR 725 Abs. 2)
   quelle: or__art-725
   zitat: Er reicht nötigenfalls ein Gesuch um Nachlassstundung ein.
 - thema: 'Kapitalverlust: Schwelle (hälftige Deckung)'
@@ -34,31 +37,47 @@ gesetz:
 - thema: Wegfall Revisionspflicht 725a Abs. 2 bei Nachlassstundung
   quelle: or__art-725a
   zitat: Die Revisionspflicht nach Absatz 2 entfällt, wenn der Verwaltungsrat ein Gesuch um Nachlassstundung einreicht.
-- thema: Gebotene Eile (VR und Revisionsstelle)
+- thema: Gebotene Eile bei Kapitalverlust (OR 725a Abs. 4)
   quelle: or__art-725a
   zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
 - thema: 'Überschuldung: Zwischenabschlüsse bei begründeter Besorgnis'
   quelle: or__art-725b-t1
   zitat: so erstellt der Verwaltungsrat unverzüglich je einen Zwischenabschluss zu Fortführungswerten und Veräusserungswerten
-- thema: Verzicht auf Zwischenabschluss zu Veräusserungswerten
+- thema: 'Verzicht auf Zwischenabschluss zu Veräusserungswerten – nur kumulativ: Fortführung gegeben UND keine Überschuldung zu Fortführungswerten'
   quelle: or__art-725b-t1
-  zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist
+  zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist und der Zwischenabschluss zu Fortführungswerten keine Überschuldung
+    aufweist.
+- thema: 'Fortführung nicht gegeben: Zwischenabschluss zu Veräusserungswerten genügt'
+  quelle: or__art-725b-t1
+  zitat: Ist die Annahme der Fortführung nicht gegeben, so genügt ein Zwischenabschluss zu Veräusserungswerten.
 - thema: Prüfung der Zwischenabschlüsse durch die Revisionsstelle
   quelle: or__art-725b-t1
   zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen
 - thema: Benachrichtigung des Gerichts durch den VR
   quelle: or__art-725b-t1
   zitat: Ist die Gesellschaft gemäss den beiden Zwischenabschlüssen überschuldet, so benachrichtigt der Verwaltungsrat das Gericht.
-- thema: 'Ausnahme 1: Rangrücktritt inkl. Zinsen'
+- thema: 'Ausnahme 1: Rangrücktritt hinter alle Gläubiger im Ausmass der Überschuldung und Stundung'
+  quelle: or__art-725b-t1
+  zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden
+- thema: 'Ausnahme 1: Rangrücktritt umfasst Betrag und Zinsen'
   quelle: or__art-725b-t1
   zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
-- thema: 'Ausnahme 2: Sanierung innert höchstens 90 Tagen'
+- thema: 'Ausnahme 2: Behebung innert angemessener Frist, höchstens 90 Tage'
   quelle: or__art-725b-t1
   zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse, behoben werden kann
+- thema: 'Ausnahme 2: kumulativ keine zusätzliche Gefährdung der Gläubiger'
+  quelle: or__art-725b-t1
+  zitat: und dass die Forderungen der Gläubiger nicht zusätzlich gefährdet werden
 - thema: Anzeigepflichten des zugelassenen Revisors (ohne Revisionsstelle)
   quelle: or__art-725b-t2
   zitat: Verfügt die Gesellschaft über keine Revisionsstelle, so obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle.
-- thema: Aufwertung Grundstücke/Beteiligungen zur Behebung
+- thema: Gebotene Eile bei Überschuldung (OR 725b Abs. 6)
+  quelle: or__art-725b-t2
+  zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
+- thema: 'Aufwertung: Zweckbindung (nur zur Behebung von Kapitalverlust/Überschuldung)'
+  quelle: or__art-725c
+  zitat: Zur Behebung eines Kapitalverlusts nach Artikel 725a oder einer Überschuldung nach Artikel 725b
+- thema: Aufwertung Grundstücke/Beteiligungen bis höchstens zum wirklichen Wert
   quelle: or__art-725c
   zitat: dürfen Grundstücke und Beteiligungen, deren wirklicher Wert über die Anschaffungs- oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden
 - thema: Ausweis Aufwertungsreserve
@@ -67,26 +86,57 @@ gesetz:
 - thema: Schriftliche Bestätigung der Revisionsstelle zur Aufwertung
   quelle: or__art-725c
   zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt
+- thema: Auflösung der Aufwertungsreserve (OR 725c Abs. 3; Folgejahre)
+  quelle: or__art-725c
+  zitat: Die Aufwertungsreserve kann nur durch Umwandlung in Aktien- oder Partizipationskapital sowie durch Wertberichtigung oder Veräusserung der aufgewerteten Aktiven aufgelöst werden.
 - thema: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
-- thema: Geltung für GmbH/Genossenschaft (SER-Fussnote)
-  quelle: ser-2022__9-t2
-  zitat: 'GmbH: Art. 820 OR; Genossenschaft: Art. 903 OR'
+- thema: 'Gesellschaft in Liquidation: Überschuldungsanzeige durch die Liquidatoren (OR 743 Abs. 2)'
+  quelle: or__art-743
+  zitat: Sie haben, sobald sie eine Überschuldung feststellen, das Gericht zu benachrichtigen
+- thema: 'Fortführung nicht gegeben: Veräusserungswerte (OR 958a Abs. 2)'
+  quelle: or__art-958a
+  zitat: so sind der Rechnungslegung für die betreffenden Unternehmensteile Veräusserungswerte zugrunde zu legen
+- thema: Abweichung von der Fortführung im Anhang (OR 958a Abs. 3)
+  quelle: or__art-958a
+  zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken
+- thema: 'GmbH: Aktienrecht zu Zahlungsunfähigkeit, Kapitalverlust, Überschuldung, Aufwertung sinngemäss (OR 820)'
+  quelle: or__art-820
+  zitat: Die Bestimmungen des Aktienrechts zur drohenden Zahlungsunfähigkeit, zum Kapitalverlust, zur Überschuldung sowie zur Aufwertung von Grundstücken und Beteiligungen sind entsprechend
+    anwendbar.
+- thema: 'Genossenschaft: Zahlungsunfähigkeit, Überschuldung, Aufwertung sinngemäss (OR 903 Abs. 1)'
+  quelle: or__art-903
+  zitat: Die Bestimmungen des Aktienrechts zur drohenden Zahlungsunfähigkeit, zur Überschuldung sowie zur Aufwertung von Grundstücken und Beteiligungen sind entsprechend anwendbar.
+- thema: 'Genossenschaft: Kapitalverlust nur bei Anteilscheinen (OR 903 Abs. 2)'
+  quelle: or__art-903
+  zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
 schritte:
-- was: 'Schwellen-Check aus der importierten Jahresrechnung: geschütztes Eigenkapital ermitteln (Aktien-/PS-Kapital + gesetzliche Kapital- und Gewinnreserve bis max. 50 % bzw. 20 % bei
-    Holdings + volle Reserven für eigene Anteile im Konzern und Aufwertungsreserve), Hälfte als Bezugsgrösse mit Aktiven − Verbindlichkeiten vergleichen; Überschuldung (Aktiven < Fremdkapital
-    inkl. Rückstellungen und PRA) feststellen. Stille Reserven nicht einrechnen, Covid-19-Kredite/Härtefall-Darlehen nicht als Fremdkapital, eigene Kapitalanteile ändern die Bezugsgrösse
-    nicht, Rangrücktritte beseitigen nichts; massgebend ist der Einzelabschluss. Rechnen im Rechenmodul (`revision.py kapitalverlust …`), nicht im Sprachmodell.'
+- was: 'Schwellen-Check aus der importierten Jahresrechnung (Einzelabschluss): geschütztes Eigenkapital herleiten = nominelles Aktien- und PS-Kapital + gesetzliche Kapitalreserve (OR
+    671 Abs. 1) und gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) zusammen höchstens 50 % (Holding 20 %) des im HR eingetragenen Aktien- und PS-Kapitals + voller Betrag der Reserven
+    für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und der Aufwertungsreserve (OR 725c). Kapitalverlust, wenn 0 ≤ bilanzielles EK < Hälfte davon; Überschuldung, wenn Aktiven <
+    Fremdkapital (Verbindlichkeiten, Rückstellungen, PRA). Stille Reserven nicht einrechnen; Covid-19-Kredite und HFMV-20-Darlehen nicht als Fremdkapital (befristet, Stichtag beachten);
+    direkt gehaltene eigene Anteile ändern die Bezugsgrösse nicht; Rangrücktritte beseitigen nichts; Konzernrechnung unerheblich. Rechtsform beachten: GmbH sinngemäss (OR 820), Genossenschaft
+    Kapitalverlust nur mit Anteilscheinen (OR 903 Abs. 2). Herleitung (Kappung, 659b-Reserve, Aufwertungsreserve, Abzug Covid-/HFMV-Kredite) offen im Textfeld P1-313 ausweisen. Rechnen
+    nur im Code: `revision.py kapitalverlust` kappt gesetzliche Kapital- und Gewinnreserve bei 50 %/20 % von --aktienkapital (PS-Kapital dort einrechnen, --holding setzen), kennt aber
+    weder 659b- noch Aufwertungsreserve noch Covid-Kredite: diese Reserven nicht in --gewinnreserve eingeben (würden mitgekappt), sondern das geschützte EK mit `rechne` herleiten; --verbindlichkeiten
+    bzw. --eigenkapital um Covid-/HFMV-Kredite bereinigen.'
   wer: Agent
-  revio: Bereich 1.1/1.2 lesen (rv_get_financialStatement_LoadBalanceAccounts, rv_get_financialStatement_LoadKeyFigureItems); Ergebnis im Textfeld P1-313 «Beurteilung Eigenkapital in
-    Bezug auf OR 725» (rv_put_auditActivities_UpdateDossierActivity), Querverweis A1-205
-  mfiles: Definitive Bilanz/ER/Anhang, HR-Auszug bzw. Statuten (Aktienkapital), GV-Protokoll Vorjahr (Reserven), Aufstellung Covid-/Härtefallkredite
+  revio: 'Bereich 1.1/1.2 lesen (rv_get_financialStatement_LoadBalanceAccounts, rv_get_financialStatement_LoadKeyFigureItems); Ergebnis mit Herleitung im Textfeld P1-313 «Beurteilung
+    Eigenkapital in Bezug auf OR 725» (rv_put_auditActivities_UpdateDossierActivity), Querverweis A1-205; Rechnen: `revision.py kapitalverlust` bzw. `rechne`'
+  mfiles: Definitive Bilanz/ER/Anhang, HR-Auszug bzw. Statuten (Aktien-/PS-Kapital), GV-Protokoll Vorjahr (Reserven), Nachweis Reserven nach OR 659b bzw. Aufwertungsreserve, Aufstellung
+    Covid-/Härtefallkredite
   fundstellen:
-  - quelle: hwp-er-2026__rz-0369-s112
-    zitat: wobei allfällige stille Reserven bei der Berechnung grundsätzlich keine Berücksichtigung
+  - quelle: hwp-er-2026__rz-0370-s112
+    zitat: des im Handelsregister eingetragenen Aktienund Partizipationskapitals
   - quelle: hwp-er-2026__rz-0370-s112
     zitat: resp. bei Holdinggesellschaften 20 %
+  - quelle: hwp-er-2026__rz-0370-s112
+    zitat: der volle Betrag der gesetzlichen Reserven für eigene Kapitalanteile im Konzern
+  - quelle: hwp-er-2026__rz-0370-s112
+    zitat: aus Aufwertungen (Art. 725c Abs. 1 OR)
+  - quelle: hwp-er-2026__rz-0369-s112
+    zitat: wobei allfällige stille Reserven bei der Berechnung grundsätzlich keine Berücksichtigung
   - quelle: hwp-er-2026__rz-0372-s112
     zitat: Ist das bilanzielle Eigenkapital grösser oder gleich null, aber kleiner als die Bezugsgrösse des geschützten Eigenkapitals, dann liegt ein Kapitalverlust im Sinne von Art.
       725a Abs. 1 OR vor.
@@ -97,17 +147,23 @@ schritte:
   - quelle: hwp-er-2026__rz-0381-s115
     zitat: Für die Berechnung sind Covid-19-Kredite nicht als Fremdkapital zu berücksichtigen
   - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
+  - quelle: hwp-er-2026__rz-0373-s113
     zitat: Ein Rangrücktritt beseitigt den Kapitalverlust nicht
   - quelle: hwp-er-2026__rz-0358-s110
     zitat: Der Konzernrechnung kommt diesbezüglich keine Bedeutung zu.
+  - quelle: or__art-903
+    zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.
-- was: Indikatoren für drohende Zahlungsunfähigkeit und begründete Besorgnis einer Überschuldung sammeln (Verluste, Cash Drain, Liquidität, Fälligkeiten, Verletzung von Kreditbedingungen,
-    Rückstellungs-/Wertberichtigungsbedarf) und die Fortführungseinschätzung des VR (mindestens 12 Monate ab Stichtag) beschaffen; Befragung der Unternehmensleitung vorbereiten. Für
-    die Revisionsstelle bestehen bei (drohender) Zahlungsunfähigkeit keine direkten Handlungspflichten, ein Verstoss des VR gegen OR 725 wäre aber im Bericht anzuzeigen.
+- was: 'Indikatoren für drohende Zahlungsunfähigkeit und begründete Besorgnis einer Überschuldung sammeln (Verluste, Cash Drain, Liquidität, Fälligkeiten, Verletzung von Kreditbedingungen,
+    Rückstellungs-/Wertberichtigungsbedarf) und die Fortführungseinschätzung des VR (mindestens 12 Monate ab Stichtag) beschaffen; Befragung der Unternehmensleitung vorbereiten (der
+    Agent befragt nicht selbst, er wertet nur schriftliche Antworten aus). Ist die Fortführung nicht gegeben: Veräusserungswerte und Anhangangabe nach OR 958a prüfen (T1-318). Für die
+    Revisionsstelle bestehen bei (drohender) Zahlungsunfähigkeit keine direkten Handlungspflichten, ein Verstoss des VR gegen OR 725 wäre aber im Bericht anzuzeigen.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 3.4 Going concern und 6.3 Ereignisse nach dem Bilanzstichtag/Going concern nur lesen; Textfeld A1-205 (Going Concern), T1-318 (Abweichung Fortführung im Anhang), T1-109
-  mfiles: Liquiditätsplanung/Budget ≥ 12 Monate, Kredit- und Darlehensverträge, jüngster Zwischenabschluss, VR-Protokolle
+  revio: '3.4 Going concern und 6.3 Ereignisse nach dem Bilanzstichtag/Going concern nur lesen; Textfeld A1-205 (Going Concern), T1-318 (Abweichung Fortführung im Anhang); T1-109 ist
+    Befragungsschritt: nur schriftliche Antworten (z.B. 10.11 Kundenbefragung) auswerten, sonst Frage als Notiz «Pendenz», Status höchstens «teilweise bearbeitet»'
+  mfiles: Liquiditätsplanung/Budget ≥ 12 Monate, Kredit- und Darlehensverträge, jüngster Zwischenabschluss, VR-Protokolle, Vollständigkeitserklärung (Going-concern-Bestätigung)
   fundstellen:
   - quelle: hwp-er-2026__rz-0385-s115
     zitat: wenn sich aus der Jahresrechnung oder einem Zwischenabschluss zu Fortführungswerten eine Überschuldung ergibt
@@ -123,11 +179,15 @@ schritte:
     zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
   - quelle: hwp-er-2026__rz-0193-s225
     zitat: Verstösse gegen gesetzliche Eigenkapitalvorschriften (z.B. Art. 725 OR)
+  - quelle: or__art-958a
+    zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: höchstens «teilweise bearbeitet»
 - was: 'Informationsfluss sicherstellen: Hinweise aus dem eigenen Buchführungsmandat (Doppelmandat) und klare Informationen von VR/GL über eine offensichtliche Überschuldung sofort an
     den WP melden, auch unter dem Jahr. Keine laufende Überwachungspflicht der Revisionsstelle; Pflichten entstehen erst bei klarer Information von kompetenter Stelle bzw. Feststellung
     im Rahmen der Prüfung.'
   wer: Agent
-  revio: Notiz «Wesentliche Feststellung» im Prüffeld P1 (rv_put_workpapers_UpdateNote); Rapport an WP (Prozess 4) zuoberst
+  revio: Notiz «Wesentliche Feststellungen» im Prüffeld P1 (rv_put_workpapers_UpdateNote); Rapport an WP (Prozess 4) zuoberst
   mfiles: Buchhaltungsdossier/Korrespondenz der Treuhandabteilung (nur Mandatskontext), Mitteilungen VR/GL
   fundstellen:
   - quelle: hwp-er-2026__rz-0388-s116
@@ -142,7 +202,7 @@ schritte:
     Aufwertung 725c, Kapitalschnitt, Kapitalerhöhung) und den Zeitablauf seit Abschlusserstellung festhalten. Ob die Massnahmen genügen und ob eine Pflichtwidrigkeit vorliegt, beurteilt
     die Revisionsstelle (WP), nicht der Agent; welche Massnahmen nötig sind, entscheidet der VR.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: Textfeld P1-313; Befragungsprotokoll A1; Notiz «Wesentliche Feststellung»
+  revio: Textfeld P1-313; Befragungsprotokoll A1 (nur schriftliche Antworten auswerten); Notiz «Wesentliche Feststellungen»
   mfiles: VR-Protokolle, GV-Einladung/Traktanden, Sanierungskonzept, Verzichts-/Zuschussvereinbarungen, Kapitalerhöhungsunterlagen
   fundstellen:
   - quelle: hwp-er-2026__rz-0378-s114
@@ -158,28 +218,48 @@ schritte:
     zitat: obliegt der Beurteilung der Revisionsstelle bzw. des zugelassenen Revisors
   - quelle: hwp-er-2026__rz-0380-s115
     zitat: ob sich der Verwaltungsrat der Überschuldungsgefahr bewusst ist und die allenfalls erforderlichen Massnahmen ergreift
-- was: 'Bei begründeter Besorgnis bzw. buchmässiger Überschuldung: Zwischenabschlüsse zu Fortführungs- und (falls nötig) Veräusserungswerten einverlangen bzw. Vorliegen, Stichtag, VR-Genehmigung
-    und Bewertungsbasis (Veräusserungswerte inkl. Stilllegungskosten) festhalten; fehlt er, Pendenz und PBC-Vorschlag. Die Prüfung des Zwischenabschlusses ist ein separater Auftrag nach
-    SA-CH/PS-CH 290 (weder eingeschränkte noch ordentliche Revision); fallen Stichtage zusammen, braucht es zwei Berichte. Ergibt die eingeschränkte Revision eine Überschuldung, entspricht
-    die JR dem Zwischenabschluss zu Fortführungswerten.'
+- was: 'Bei begründeter Besorgnis bzw. buchmässiger Überschuldung: Zwischenabschlüsse einverlangen bzw. Vorliegen, Stichtag, VR-Genehmigung und Bewertungsbasis festhalten. Erforderliche
+    ZA nach OR 725b Abs. 1: (a) Fortführung gegeben und ZA zu Fortführungswerten ohne Überschuldung → ZA zu Veräusserungswerten entbehrlich; (b) Fortführung gegeben, ZA zu Fortführungswerten
+    zeigt Überschuldung → beide ZA; (c) Fortführung nicht gegeben → ZA zu Veräusserungswerten genügt (inkl. Stilllegungsaufwand). Der ZA ist grundsätzlich in jedem Fall einzuverlangen;
+    einzige Ausnahme gemäss Q&A: sofortige Konkursanmeldung bei massiver, offensichtlicher Überschuldung (Entscheid WP). Fehlt er: Notiz «Pendenz» mit Titelpräfix «PBC-Vorschlag» (Eintrag
+    in PBC-Liste 10.10 erst nach Entscheid consis; Anforderung beim Kunden durch den Menschen). Prüfung des ZA: separater Prüfungsfall nach PS-CH 290 (weder eingeschränkte noch ordentliche
+    Revision); ausser bei Opting-out ist die gesetzliche Revisionsstelle zuständig (kein Annahmeentscheid); fallen Stichtage zusammen, zwei Berichte. Prüfung auf hinreichende Sicherheit;
+    Vereinfachung nur bei offensichtlicher, erheblicher Überschuldung ohne mögliche/beabsichtigte Sanierung (Entscheid WP, Hinweis im Bericht). Ergibt die eingeschränkte Revision eine
+    Überschuldung, entspricht die JR dem ZA zu Fortführungswerten. Ablauf: SER Anhang H (Übersicht Vorgehen bei Überschuldung).'
   wer: Agent bereitet vor, WP entscheidet
-  revio: Textfeld P1-313; Notiz «Pendenz»; Vorschlag PBC-Liste 10.10; Ablage Unterlagen Bereich 10
+  revio: Textfeld P1-313; Notiz «Pendenz» mit Titelpräfix «PBC-Vorschlag» (rv_put_workpapers_UpdateNote; PBC-Liste 10.10 erst nach Entscheid consis); erhaltene Unterlagen in Bereich
+    10 ablegen
   mfiles: Zwischenabschlüsse (Fortführungs-/Veräusserungswerte) mit VR-Beschluss, Fortführungseinschätzung VR
   fundstellen:
+  - quelle: or__art-725b-t1
+    zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist und der Zwischenabschluss zu Fortführungswerten keine
+      Überschuldung aufweist.
+  - quelle: or__art-725b-t1
+    zitat: Ist die Annahme der Fortführung nicht gegeben, so genügt ein Zwischenabschluss zu Veräusserungswerten.
+  - quelle: qa-kapitalverlust-2023__2-2-2-t1
+    zitat: Der Zwischenabschluss sollte deshalb in jedem Fall einverlangt werden
+  - quelle: qa-kapitalverlust-2023__2-2-2-t1
+    zitat: Für die Konkursanmeldung, wenn bei massiver, offensichtlicher Überschuldung ein sehr
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Anforderung beim Kunden durch den Menschen
   - quelle: ser-2022__9-t2
     zitat: handelt es sich weder um eine eingeschränkte noch um eine ordentliche Revision
   - quelle: ser-2022__9-t2
+    zitat: Ausser in den Fällen eines Opting-out ist die gesetzliche Revisionsstelle für die Prüfung des Zwischenabschlusses nach Art. 725b OR zuständig.
+  - quelle: ser-2022__9-t2
     zitat: Die Jahresrechnung entspricht in diesem Fall dem Zwischenabschluss zu Fortführungswerten und ist zu prüfen (Art. 725b OR).
-  - quelle: qa-kapitalverlust-2023__2-2-2-t1
-    zitat: Der Zwischenabschluss sollte deshalb in jedem Fall einverlangt werden
   - quelle: qa-kapitalverlust-2023__2-2-2-t2
     zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen (Bericht zur eingeschränkten Revision und Bericht gemäss PS-CH 290).
   - quelle: hwp-er-2026__rz-0401-s119
     zitat: Die Prüfung ist auf eine hinreichende Sicherheit ausgelegt
+  - quelle: hwp-er-2026__rz-0401-s119
+    zitat: Vereinfachungen bei Prüfung und Bewertung sind dann vertretbar
   - quelle: hwp-er-2026__rz-0392-s117
     zitat: Zudem müssen alle mit der Einstellung der Tätigkeit verbundenen Aufwendungen
   - quelle: hwp-er-2026__rz-0397-s119
     zitat: Es ist zu beachten, dass der Verwaltungsrat für seine Behauptung, die Gesellschaft sei nicht überschuldet
+  - quelle: ser-2022__anh-h-s144-1
+    zitat: Übersicht zum Vorgehen bei Überschuldung einer Aktiengesellschaft
 - was: 'Andauernde Überschuldung in Folgejahren: festhalten, ob erneut Zwischenabschlüsse vorliegen; ein Verzicht ist nur in übersichtlichen Verhältnissen nach individueller Risikobeurteilung
     (Geschäftstätigkeit, Volatilität, Ertragslage, Höhe Rangrücktritte) möglich – Entscheid beim WP.'
   wer: Agent bereitet vor, WP entscheidet
@@ -191,11 +271,15 @@ schritte:
   - quelle: qa-kapitalverlust-2023__2-2-2-t3
     zitat: jedoch ist dies gemäss individueller Risikobeurteilung
 - was: 'Rangrücktritt auf formelle und materielle Anforderungen prüfen (Checkliste vorbereiten): schriftlich, zweiseitig, unbedingt, zeitlich unbefristet, Rang hinter alle Gläubiger
-    und Stundung von Kapital UND Zinsen, Betrag mindestens Überschuldung plus Sicherheitspolster für erwartete Verluste der nächsten 12 Monate (Fremdwährung!), keine Tilgung/Verrechnung,
-    Sicherheiten nicht geltend machbar, Schweizer Recht massgebend; Bonität des Gläubigers. Garantien/Patronatserklärungen genügen nicht. L1-105/L1-304/N1-105 sind WP-Schritte: Agent
-    nur auf Anweisung vorbereiten.'
+    und Stundung von Kapital UND Zinsen (Zinsen ausdrücklich vereinbart; Rangrücktritt ohne Zinsklausel → Notiz «Wesentliche Feststellungen», Ergänzung als «Pendenz»), Betrag mindestens
+    im Ausmass der Überschuldung plus Sicherheitspolster für erwartete Verluste der nächsten 12 Monate (Fremdwährung!), keine Tilgung/Verrechnung, keine nachträgliche Sicherstellung;
+    Bonität des Gläubigers. Ob die Deckungslücke zu Fortführungs- oder zu Veräusserungswerten massgebend ist, entscheidet der WP. Anwendbares Recht: Der Rangrücktritt untersteht grundsätzlich
+    dem Recht des Gläubigers (IPRG), ob er genügt, bestimmt allein OR 725b Abs. 4; bei ausländischen Gläubigern ist die Unterstellung unter Schweizer Recht nur empfohlen, strengere ausländische
+    Formvorschriften bleiben zu beachten. Garantien/Patronatserklärungen genügen nicht. L1-105/L1-304/N1-105 sind WP-Schritte (offener Entscheid consis): dort weder Eintrag noch Beilage,
+    ausser auf ausdrückliche Anweisung.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: L1-105, L1-304, N1-105 (WP-Schritte; Textfeld nur auf Anweisung), Beilage Vereinbarung (rv_post_auditActivities_AddAttachementsToAuditActivity); Querverweis P1-313
+  revio: Checkliste und Vereinbarung als Beilage zu P1-313 (rv_post_auditActivities_AddAttachementsToAuditActivity) bzw. zur Notiz; L1-105, L1-304, N1-105 (WP-Schritte) nur lesen, Eintrag/Beilage
+    nur auf Anweisung
   mfiles: Rangrücktrittsvereinbarung(en) unterzeichnet, Darlehensverträge, Saldo inkl. Zinsen, Jahresrechnung/Bonitätsnachweis des Gläubigers
   fundstellen:
   - quelle: ser-2022__anh-h-s142-2
@@ -208,12 +292,20 @@ schritte:
     zitat: Der Rangrücktritt muss zeitlich unbefristet abgeschlossen werden
   - quelle: hwp-er-2026__rz-0415-s123-t2
     zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+  - quelle: hwp-er-2026__rz-0420-s125
+    zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
   - quelle: hwp-er-2026__rz-0421-s125
     zitat: angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten nach Unterzeichnung des Rangrücktritts
   - quelle: hwp-er-2026__rz-0418-s124
     zitat: Eine nachträgliche Sicherstellung der Forderung ist abzulehnen.
   - quelle: hwp-er-2026__rz-0419-s124
+    zitat: untersteht der Rangrücktritt dem Recht des Gesellschaftsgläubigers
+  - quelle: hwp-er-2026__rz-0419-s124
     zitat: Ob ein Rangrücktritt zugunsten einer schweizerischen Gesellschaft genügend ist, beurteilt sich jedoch allein nach Art. 725b Abs. 4 OR
+  - quelle: hwp-er-2026__rz-0419-s124
+    zitat: ist daher zu empfehlen, die Vereinbarung schweizerischem Recht
+  - quelle: hwp-er-2026__rz-0419-s124
+    zitat: allfällige strengere Formvorschriften des ausländischen Rechts zu beachten
   - quelle: hwp-er-2026__rz-0406-s122
     zitat: Keinen Ersatz für einen Rangrücktritt bilden «Deckungsgarantien» bzw. Garantien und Patronatserklärungen.
   - quelle: hwp-er-2026__rz-0432-s127
@@ -222,35 +314,52 @@ schritte:
     zitat: Dies beinhaltet auch die Beurteilung der Bonität des Rangrücktrittgläubigers
   - quelle: ser-2022__anh-d-s085-2
     zitat: Einsicht in Rangrücktrittsvereinbarungen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - was: 'Ausweis und Bestand des Rangrücktritts prüfen: Verbindlichkeit bleibt bilanziert, Rangrücktritt in Bilanz oder Anhang offengelegt; in Folgejahren Bewegungen (Tilgung, Verrechnung)
-    auf rangrücktrittsbelasteten Forderungen analysieren. Reduktion/Aufhebung nur mit geprüftem (Zwischen-)Abschluss, schriftlicher VR-Begründung und schriftlicher Vereinbarung; bei
-    Zwischenabschluss separater SA-CH-Prüfungsbericht.'
+    auf rangrücktrittsbelasteten Forderungen analysieren – Tilgung trotz andauernder Überschuldung als «Wesentliche Feststellungen» an den WP (Hinweis, Prüfungsaussage, Anzeige entscheidet
+    der WP). Reduktion nur ausnahmsweise und kumulativ: (a) geprüfter (Zwischen-)Abschluss zeigt eine mindestens entsprechend tiefere Überschuldung, (b) schriftliche, begründete VR-Darlegung,
+    dass in den nächsten zwölf Monaten keine weiteren Verluste absehbar sind, (c) keine Benachteiligung anderer Rangrücktrittsgläubiger (ausser mit deren Zustimmung); danach alle Anforderungen
+    erneut prüfen. Aufhebung schriftlich; bei Zwischenabschluss separater SA-CH-Prüfungsbericht.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: T1 Anhang (Textfeld), L1/N1 Kontenübersicht und Textfeld; Notiz «Wesentliche Feststellung» bei Tilgung trotz Überschuldung
-  mfiles: Anhang JR, Kontoblatt Darlehen mit Rangrücktritt, Aufhebungs-/Reduktionsvereinbarung, VR-Begründung
+  revio: T1 Anhang (Textfeld), L1/N1 Kontenübersicht nur lesen (WP-Schritte nur auf Anweisung); Notiz «Wesentliche Feststellungen» bei Tilgung trotz Überschuldung; Querverweis P1-313
+  mfiles: Anhang JR, Kontoblatt Darlehen mit Rangrücktritt, Aufhebungs-/Reduktionsvereinbarung, VR-Begründung, Zustimmung anderer Rangrücktrittsgläubiger
   fundstellen:
   - quelle: hwp-er-2026__rz-0430-s127
     zitat: muss deshalb in der Jahresrechnung des Schuldners (in der Bilanz oder im Anhang) ausgewiesen und erläutert werden
   - quelle: hwp-er-2026__rz-0434-s128
     zitat: dass dem Rangrücktritt unterstellte Forderungen trotz andauernder Überschuldung ganz oder teilweise getilgt wurden
+  - quelle: hwp-er-2026__rz-0434-s128
+    zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
+  - quelle: hwp-er-2026__rz-0434-s128
+    zitat: allfällige Auswirkungen auf die Prüfungsaussage zu beurteilen
   - quelle: hwp-er-2026__rz-0425-s126
     zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: durch die Reduktion keine anderen Rangrücktrittsgläubiger benachteiligt
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: Die Revisionsstelle prüft erneut sämtliche Anforderungen an einen gültigen Rangrücktritt.
   - quelle: hwp-er-2026__rz-0427-s127
     zitat: Im Interesse der rechtlichen Sicherheit für die Beteiligten ist eine schriftliche Aufhebung unerlässlich.
   - quelle: hwp-er-2026__rz-0426-s126
     zitat: Sollen die Rangrücktritte auf Basis eines Zwischenabschlusses reduziert oder aufgehoben werden, bedarf es eines separaten Prüfungsberichts
 - was: 'Sanierung statt Gerichtsanzeige (OR 725b Abs. 4 Ziff. 2) bzw. Nachlassstundung: Datum der geprüften Zwischenabschlüsse (Fristbeginn) und 90-Tage-Frist festhalten, Zusagen und
-    Vollzug bilanzwirksamer Massnahmen belegen; erhöht sich die Überschuldung oder reicht die Frist nicht, entfällt die Ausnahme. Erfolgsaussichten von Sanierungsplänen für die Nachlassstundung
-    beurteilt das Gericht. Auch nach Beseitigung der Überschuldung bleiben die Pflichten aus Kapitalverlust bestehen.'
+    Vollzug bilanzwirksamer Massnahmen belegen; kumulativ dürfen die Gläubigerforderungen nicht zusätzlich gefährdet werden. Erhöht sich die Überschuldung oder reicht die Frist nicht,
+    entfällt die Ausnahme. Realistische kurzfristige Sanierung ist kein Grund, Prüfungen aufzuschieben. Erfolgsaussichten von Sanierungsplänen für die Nachlassstundung beurteilt das
+    Gericht. Auch nach Beseitigung der Überschuldung bleiben die Pflichten aus Kapitalverlust bestehen.'
   wer: Agent bereitet vor, WP entscheidet
   revio: Textfeld P1-313; Notiz «Pendenz» mit Fristdatum; Rapport (Prozess 4)
   mfiles: Sanierungszusagen, Zahlungsbelege Kapitaleinschuss/Zuschuss, Verzichtserklärungen, Gesuch Nachlassstundung
   fundstellen:
+  - quelle: or__art-725b-t1
+    zitat: und dass die Forderungen der Gläubiger nicht zusätzlich gefährdet werden
   - quelle: hwp-er-2026__rz-0435-s128
     zitat: Wenn es sich abzeichnet, dass die 90 Tage nicht ausreichend sind, oder wenn sich die Überschuldung wesentlich erhöht, darf von der Überschuldungsanzeige nicht mehr abgesehen
       werden
   - quelle: ser-2022__anh-h-s145-1
     zitat: Der Vollzug der Sanierungsmassnahmen ist zu überprüfen.
+  - quelle: hwp-er-2026__rz-0452-s132
+    zitat: ist dies kein Grund, die notwendigen Prüfungen aufzuschieben
   - quelle: hwp-er-2026__rz-0441-s129
     zitat: Es ist nicht Aufgabe der Revisionsstelle, die Erfolgsaussichten von Sanierungsplänen im Hinblick auf eine Nachlassstundung zu beurteilen.
   - quelle: hwp-er-2026__rz-0436-s128
@@ -259,10 +368,11 @@ schritte:
   - quelle: hwp-er-2026__rz-0437-s128
     zitat: so lange bestehen bleiben, als noch ein Kapitalverlust im Sinne von Art. 725a Abs. 1 OR vorliegt
 - was: 'Untätiger VR (keine Zwischenabschlüsse, keine Gerichtsanzeige, ungenügende Rangrücktritte): Sachverhalt, Fristen und Entwurf einer Mahnung mit Fristansetzung und Hinweis auf
-    die subsidiäre Anzeigepflicht nur zuhanden des WP vorbereiten. Offensichtlichkeit der Überschuldung, Frist, Mahnung, Anzeige beim Gericht (OR 729c) und allfälliger Rücktritt entscheidet
+    die subsidiäre Anzeigepflicht nur zuhanden des WP vorbereiten. Erstellt der VR trotz Aufforderung innert Frist keine Zwischenabschlüsse, ist eine offensichtliche Überschuldung anzunehmen
+    (Beweislast beim VR) – Handlungspflicht der Revisionsstelle, dem WP sofort melden. Offensichtlichkeit, Frist, Mahnung, Anzeige beim Gericht (OR 729c) und allfälliger Rücktritt entscheidet
     ausschliesslich der WP; kein Versand an Kunde oder Gericht durch den Agenten.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: Notiz «Wesentliche Feststellung» an WP; Rapport (Prozess 4) zuoberst; Korrespondenz 10.6 nur lesen/Entwurf
+  revio: Notiz «Wesentliche Feststellungen» an WP; Rapport (Prozess 4) zuoberst; Korrespondenz 10.6 nur lesen/Entwurf
   mfiles: Entwurf Mahnschreiben (nur Entwurf, nicht versenden), Fristenkontrolle, letzte Jahresrechnung als Grundlage einer allfälligen Darstellung
   fundstellen:
   - quelle: hwp-er-2026__rz-0439-s129
@@ -271,6 +381,14 @@ schritte:
     zitat: nur wenige Tage betragen dürfen
   - quelle: hwp-er-2026__rz-0440-s129
     zitat: dem Gericht die Überschuldung ersatzweise zu melden (Art. 729c OR)
+  - quelle: ser-2022__anh-h-s145-1
+    zitat: Revisionsstelle muss VR mit Fristansetzung ermahnen
+  - quelle: hwp-er-2026__rz-0386-s116
+    zitat: keine Zwischenabschlüsse erstellt und daher das Vorliegen einer
+  - quelle: hwp-er-2026__rz-0386-s116
+    zitat: diesfalls ist eine oﬀensichtliche Überschuldung anzunehmen
+  - quelle: hwp-er-2026__rz-0444-s129
+    zitat: Liegen der Revisionsstelle innert der von ihr gesetzten Frist keine Zwischenabschlüsse
   - quelle: ser-2022__anh-h-s142-1
     zitat: wenn jeder verständige Bilanzleser ohne weitere Abklärungen sofort sieht, dass die Aktiven die Verbindlichkeiten nicht zu decken vermögen
   - quelle: hwp-er-2026__rz-0442-s129
@@ -281,15 +399,28 @@ schritte:
     zitat: weder verpflichtet noch berechtigt, selbst und ohne Honorierung
   - quelle: hwp-er-2026__rz-0451-s131
     zitat: keine Formfehler begeht
-- was: 'Berichterstattung im GVB-Entwurf vorbereiten: Zusatz (Kapitalverlust, Überschuldung, Rangrücktritt, wesentliche Unsicherheit Fortführung, ggf. Eventualzusatz) nach der Prüfungsaussage,
-    Hinweis auf Gesetzesverstoss bei Untätigkeit des VR danach; passendes Berichtsbeispiel (SER Anhang F Bsp. 9/10/11/13, Muster HWP ER) vorschlagen. Bei Jahresverlust ohne Bilanzgewinn
-    entfällt der Verwendungsantrag. Wortlaut, Zusatz vs. Hinweis und Prüfungsaussage entscheidet der WP (offener Entscheid im Konzept).'
+- was: 'Berichterstattung im GVB-Entwurf vorbereiten: Zusatz (Kapitalverlust, Überschuldung, Rangrücktritt, wesentliche Unsicherheit Fortführung, ggf. Eventualzusatz) nach der Prüfungsaussage;
+    Hinweis auf Gesetzesverstoss bei Untätigkeit des VR nach OR 725a/725b danach – nach SER 8.3.2.1 «in jedem Fall», nach HWP Rz 423 «zwingend»; HWP Rz 424 knüpft den Hinweis zu OR 725a
+    Abs. 1 zusätzlich kumulativ an (1) keine/offensichtlich unzureichende Sanierungsmassnahmen UND (2) nicht informierte Aktionäre mit Auswirkung auf deren Sanierungswillen (Spannung
+    dem WP vorlegen, SER hat Vorrang). Gesellschaft in Liquidation: unterlassen die Liquidatoren die Überschuldungsanzeige, Hinweis auf OR 743 Abs. 2. Passendes Berichtsbeispiel vorschlagen
+    (SER Anhang F Bsp. 9/10/11/13, Muster HWP ER; bei fehlender Fortführung Muster mit verneinender/eingeschränkter Prüfungsaussage); für den Zusatz Kapitalverlust die Formulierung nach
+    OR 725a Abs. 1 (HWP Rz 430, Abb. 53) statt der alten Formulierung in SER Bsp. 11 vorschlagen. Bei Jahresverlust ohne Bilanzgewinn entfällt der Verwendungsantrag. Wortlaut, Zusatz
+    vs. Hinweis und Prüfungsaussage entscheidet der WP (offener Entscheid im Konzept).'
   wer: Agent bereitet vor, WP entscheidet
   revio: 7.1 Berichtsstrategie und 7.5 Berichtskritik nur lesen; Entwurf in M-Files (Prozess 5), keine Unterzeichnung/Datierung
   mfiles: GVB-Entwurf (Word) neben Vorjahresbericht; Mustervorlagen SER/HWP ER
   fundstellen:
   - quelle: ser-2022__8-3-2-t1
     zitat: sind in jedem Fall im Revisionsbericht anzubringen
+  - quelle: hwp-er-2026__rz-0423-s280
+    zitat: Bei folgenden Verstössen ist ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision zwingend notwendig
+  - quelle: hwp-er-2026__rz-0424-s280
+    zitat: der Verwaltungsrat keine oder offensichtlich unzureichende Sanierungsmassnahmen
+  - quelle: hwp-er-2026__rz-0424-s280
+    zitat: die Aktionäre nicht informiert sind und davon ausgegangen werden muss, dass eine Information der Aktionäre durch die Revisionsstelle Auswirkungen auf den Sanierungswillen
+      der Aktionäre hätte
+  - quelle: ser-2022__8-3-2-t1
+    zitat: Bei Unterlassung der Überschuldungsanzeige durch die Liquidatoren erfolgt ein Hinweis
   - quelle: ser-2022__8-3-2-t3
     zitat: das Vorliegen eines Kapitalverlusts oder einer Überschuldung
   - quelle: ser-2022__8-3-2-t3
@@ -298,48 +429,68 @@ schritte:
     zitat: sind als solche keine Gesetzesverletzungen
   - quelle: hwp-er-2026__rz-0477-s292
     zitat: unabhängig von eventuell vorhandenen Rangrücktritten
-  - quelle: hwp-er-2026__rz-0424-s280
-    zitat: der Verwaltungsrat keine oder offensichtlich unzureichende Sanierungsmassnahmen
   - quelle: ser-2022__anh-f-s129-2
     zitat: Annahme ist, dass der Verwaltungsrat vom Zeitablauf her noch keine Gelegenheit hatte
+  - quelle: ser-2022__anh-f-s129-2
+    zitat: dass die Hälfte des Aktienkapitals und der gesetzlichen Reserven nicht mehr gedeckt ist
+  - quelle: hwp-er-2026__rz-0430-s282-t2
+    zitat: dass die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve
   - quelle: hwp-er-2026__rz-0434-s283
     zitat: worin auf mögliche Rechtsfolgen der wesentlichen Unsicherheit im Hinblick auf Art. 725a OR oder Art. 725b OR aufmerksam gemacht wird
   - quelle: hwp-er-2026__rz-0442-s285
     zitat: Insoweit ist kein Verwendungsantrag des Verwaltungsrats erforderlich.
-- was: 'Sonderfall Opting-out mit Kapitalverlust (OR 725a Abs. 2, Mandat als zugelassener Revisor): Auftragsart aus der Auftragsbestätigung erkennen; Prüfpflicht gilt auch bei Rangrücktritten;
-    Bericht an den VR (Bsp. 17, Überschrift «zugelassener Revisor», keine Organstellung), Gewinnverwendungsteil entfällt; gleiche Unabhängigkeitsregeln wie Revisionsstelle.'
+- was: 'Sonderfall Opting-out mit Kapitalverlust (OR 725a Abs. 2, Mandat als zugelassener Revisor): Auftragsart aus der Auftragsbestätigung erkennen (SER Anhang C Bsp. 4) und Vollständigkeitserklärung
+    nach SER Anhang E Bsp. 3 vorschlagen; Prüfpflicht gilt auch bei Rangrücktritten; Bericht an den VR (Bsp. 17 bzw. Muster HWP ER, Überschrift «zugelassener Revisor», keine Organstellung),
+    Gewinnverwendungsteil entfällt; gleiche Unabhängigkeitsregeln wie Revisionsstelle. Zeigt der Abschluss eine Überschuldung, macht der zugelassene Revisor den VR im Bericht auf die
+    Handlungspflichten nach OR 725b aufmerksam; zur Übernahme der ZA-Prüfung ist er nicht verpflichtet (Annahme: WP-Entscheid); Gerichtsanzeige strittig (siehe Fallstricke).'
   wer: Agent bereitet vor, WP entscheidet
   revio: 2.2 Auftragsannahme und 2.4 Unabhängigkeit nur lesen; Bericht als Entwurf (Prozess 5)
-  mfiles: Auftragsbestätigung nach OR 725a Abs. 2, VR-Beschluss zur Ernennung
+  mfiles: Auftragsbestätigung nach OR 725a Abs. 2, VR-Beschluss zur Ernennung, Vollständigkeitserklärung gegenüber dem zugelassenen Revisor
   fundstellen:
   - quelle: hwp-er-2026__rz-0454-s133
     zitat: Diese Revisionspflicht gilt auch, wenn ausreichende Rangrücktritte vorliegen, die den Kapitalverlust decken.
   - quelle: hwp-er-2026__rz-0457-s134
     zitat: Der mandatierte Revisor übernimmt keine Organstellung.
+  - quelle: hwp-er-2026__rz-0458-s134
+    zitat: den Verwaltungsrat auf die entsprechenden Handlungspflichten gemäss Art. 725b OR aufmerksam machen
+  - quelle: hwp-er-2026__rz-0458-s134
+    zitat: Es besteht auch keine Pflicht zur Übernahme eines zusätzlichen Prüfauftrags nach Art. 725b OR
+  - quelle: ser-2022__anh-c-s067-1
+    zitat: Feststellung, dass es sich um einen Auftrag handelt und keine Organstellung vorhanden ist
+  - quelle: ser-2022__anh-e-s110-1
+    zitat: Wir haben verstanden, dass Sie im vorliegenden Auftrag nicht als Organ der Gesellschaft und nicht als Revisionsstelle handeln.
   - quelle: ser-2022__anh-f-s135-1
     zitat: Im vorliegenden Auftrag handeln wir nicht als Organ der Gesellschaft und sind demnach nicht Revisionsstelle der [2].
   - quelle: qa-kapitalverlust-2023__2-t2
     zitat: weshalb dieser Teil im Revisionsbericht entfällt
   - quelle: qa-kapitalverlust-2023__2-2-3-t4
     zitat: Es handelt sich dabei um eine gesetzliche Prüfung und es gelten dieselben Bestimmungen wie bei einer eingeschränkten Revision durch die Revisionsstelle.
-- was: 'Aufwertung nach OR 725c: nur Grundstücke und Beteiligungen, höchstens bis zum wirklichen Wert, Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; schriftliche
-    Bestätigung der Revisionsstelle (separater Bericht an den VR) muss vorliegen; Offenlegung im Anhang. Bewertungsnachweise beschaffen; Bestätigung erteilt nur der WP.'
+- was: 'Aufwertung nach OR 725c: nur zur Behebung eines Kapitalverlusts oder einer Überschuldung, nur Grundstücke und Beteiligungen, höchstens bis zum wirklichen Wert, Aufwertungsreserve
+    gesondert unter der gesetzlichen Gewinnreserve; schriftliche Bestätigung der Revisionsstelle (separater Bericht an den VR) muss vorliegen; Offenlegung im Anhang. In Folgejahren:
+    Auflösung der Aufwertungsreserve nur durch Umwandlung in AK/PS-Kapital, Wertberichtigung oder Veräusserung der aufgewerteten Aktiven. Der revio-Katalogtext zu P1-311 verweist noch
+    auf OR 670 (aufgehoben seit 1.1.2023); massgebend ist OR 725c. Bewertungsnachweise beschaffen; Bestätigung erteilt nur der WP.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: P1-311 «Richtiger Ausweis Aufwertungsreserve», G2 bzw. H3 (Bewertung), T1 Anhang
+  revio: P1-311 «Richtiger Ausweis Aufwertungsreserve» (Katalogverweis OR 670 überholt → OR 725c), G2 bzw. H3 (Bewertung), T1 Anhang
   mfiles: Verkehrswertgutachten/Bewertung, VR-Beschluss Aufwertung, Bestätigung nach OR 725c Abs. 2
   fundstellen:
+  - quelle: or__art-725c
+    zitat: Zur Behebung eines Kapitalverlusts nach Artikel 725a oder einer Überschuldung nach Artikel 725b
   - quelle: hwp-bur-2023__rz-0886-s359
     zitat: Für eine Aufwertung kommen ausschliesslich Beteiligungen oder Grundstücke in Frage.
+  - quelle: or__art-725c
+    zitat: Die Aufwertungsreserve kann nur durch Umwandlung in Aktien- oder Partizipationskapital sowie durch Wertberichtigung oder Veräusserung der aufgewerteten Aktiven aufgelöst werden.
+  - quelle: or__art-670
+    zitat: Aufgehoben durch Ziff. I des BG vom 19. Juni 2020 (Aktienrecht), mit Wirkung seit 1. Jan. 2023
   - quelle: hwp-bur-2023__rz-0895-s362
     zitat: Der Prüfungsbericht der Revisionsstelle resp. des zugelassenen Revisors ist an den Verwaltungsrat gerichtet
   - quelle: hwp-bur-2023__rz-0895-s362
     zitat: in der Regel mittels entsprechender Anhangsangabe in der Jahresrechnung
   - quelle: hwp-er-2026__rz-0370-s112
     zitat: aus Aufwertungen (Art. 725c Abs. 1 OR)
-- was: 'Rapport an den WP: Berechnung, Indikatoren, Stand Zwischenabschlüsse/Rangrücktritte/Massnahmen, Fristen und offene Entscheide als wesentliche Punkte zuoberst; Mandat als Risiko-Mandat
-    kennzeichnen. Visum, Abschliessende Beurteilung und Freigabe bleiben beim WP.'
+- was: 'Rapport an den WP: Berechnung mit Herleitung, Indikatoren, Stand Zwischenabschlüsse/Rangrücktritte/Massnahmen, Fristen und offene Entscheide als wesentliche Punkte zuoberst;
+    Mandat als Risiko-Mandat kennzeichnen. Visum, Abschliessende Beurteilung und Freigabe bleiben beim WP.'
   wer: Agent
-  revio: Rapport per E-Mail nur an WP-Adresse (Prozess 4); Prüfschritt-Status «mit Feststellungen»; Visum offen
+  revio: Rapport per E-Mail nur an WP-Adresse (Prozess 4); Prüfschritt-Status «mit Feststellungen» (Befragungsschritte höchstens «teilweise bearbeitet»); Visum offen
   mfiles: Protokoll (Audit Trail) je Mandat und Jahr
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c011-2
@@ -351,25 +502,46 @@ entscheidungen_wp:
   quelle: qa-kapitalverlust-2023__1-2-t3
   zitat: In der Praxis sind Fälle denkbar, in denen z.B. aufgrund der Art und beabsichtigten Entwicklung der Geschäftstätigkeit die Erlangung von Rangrücktritten eine hinreichende Massnahme
     darstellen kann.
+- text: 'Hinweis nach OR 725a Abs. 1 bei Untätigkeit des VR auch dann, wenn die Aktionäre informiert sind: SER 8.3.2.1 (höherer Rang) und HWP Rz 423 verlangen ihn «in jedem Fall» bzw.
+    «zwingend», HWP Rz 424 knüpft ihn kumulativ an fehlende Information der Aktionäre – Auslegung beim WP.'
+  quelle: ser-2022__8-3-2-t1
+  zitat: sind in jedem Fall im Revisionsbericht anzubringen
 - text: Ob eine begründete Besorgnis einer Überschuldung besteht (Einzelfallbeurteilung).
   quelle: hwp-er-2026__rz-0385-s115
   zitat: lässt sich nicht in allgemein gültiger Weise sagen
+- text: Verzicht auf das Einverlangen des Zwischenabschlusses zugunsten sofortiger Konkursanmeldung bei massiver, offensichtlicher Überschuldung.
+  quelle: qa-kapitalverlust-2023__2-2-2-t1
+  zitat: Für die Konkursanmeldung, wenn bei massiver, offensichtlicher Überschuldung ein sehr
+- text: Vereinfachte Prüfung der Zwischenabschlüsse bei offensichtlicher, erheblicher Überschuldung ohne mögliche/beabsichtigte Sanierung (mit Hinweis im Bericht; Muster PH 10 Bsp. 18).
+  quelle: hwp-er-2026__rz-0401-s119
+  zitat: Vereinfachungen bei Prüfung und Bewertung sind dann vertretbar
 - text: Gültigkeit und Genügen des Rangrücktritts inkl. Bonität des Gläubigers (WP-Schritte L1-105, L1-304, N1-105).
   quelle: ser-2022__anh-h-s143-1
   zitat: Wenn der Darlehensgeber nicht in der Lage ist, einen allfälligen Ausfall finanziell zu verkraften, können an der Gültigkeit des Rangrücktritts Zweifel bestehen.
+- text: 'Höhe des Rangrücktritts: Ausrichtung auf die Deckungslücke zu Fortführungswerten oder zu Veräusserungswerten.'
+  quelle: hwp-er-2026__rz-0420-s125
+  zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
+- text: 'Tilgung/Verrechnung rangrücktrittsbelasteter Forderungen trotz Überschuldung: Hinweis nach OR 729c, Auswirkung auf die Prüfungsaussage, erneute Anzeigepflicht.'
+  quelle: hwp-er-2026__rz-0434-s128
+  zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
 - text: Verzicht auf erneute Zwischenabschlüsse bei andauernder Überschuldung.
   quelle: hwp-er-2026__rz-0389-s117
   zitat: gemäss individueller Risikobeurteilung
-- text: Annahme des Prüfauftrags für Zwischenabschlüsse (OR 725b Abs. 2) bzw. 725a-Abs.-2-Mandat, insbesondere bei Doppelmandat/Unabhängigkeit.
+- text: 'Nur bei Opting-out (keine Revisionsstelle) bzw. als zugelassener Revisor nach OR 725a Abs. 2: Annahme eines zusätzlichen Auftrags zur Prüfung der Zwischenabschlüsse nach OR
+    725b Abs. 2 (keine Übernahmepflicht; Unabhängigkeit bei Doppelmandat). Für die gesetzliche Revisionsstelle stellt sich diese Frage nicht – sie ist zuständig.'
   quelle: qa-kapitalverlust-2023__2-2-3-t6
   zitat: Die Annahme solcher Mandate ist von der Prüferin oder dem Prüfer daher in Eigenverantwortung und unter angemessener Dokumentation zu entscheiden.
+- text: 'Zugelassener Revisor (OR 725a Abs. 2): Benachrichtigung des Gerichts bei Untätigkeit des VR – HWP Rz 458 verneint, Q&A Antwort 16 bejaht.'
+  quelle: qa-kapitalverlust-2023__2-2-2-t8
+  zitat: Entsprechend muss der zugelassene Revisor das Gericht benachrichtigen, wenn der Verwaltungsrat die Anzeige unterlässt (Art. 729c OR).
 - text: Mahnung des VR mit Fristansetzung und Länge der Frist.
   quelle: hwp-er-2026__rz-0433-s127
   zitat: hat ihn die Revisionsstelle unter Ansetzung einer Frist
-- text: Offensichtlichkeit der Überschuldung und Benachrichtigung des Gerichts nach OR 729c, auch im Zweifelsfall (Beweislast für das behauptete Eigenkapital liegt beim VR).
+- text: Offensichtlichkeit der Überschuldung und Benachrichtigung des Gerichts nach OR 729c, auch im Zweifelsfall bzw. wenn der VR trotz Fristansetzung keine Zwischenabschlüsse vorlegt
+    (Beweislast für das behauptete Eigenkapital liegt beim VR).
   quelle: hwp-er-2026__rz-0444-s129
   zitat: Es liegt beim Verwaltungsrat, gegenüber der Revisionsstelle und ggf. gegenüber dem Gericht das eﬀektive Vorhandensein des von ihm behaupteten Eigenkapitals zu belegen.
-- text: 'Berichtswortlaut: Zusatz, Hinweis, Eventualzusatz, Einschränkung; Wahl des Berichtsbeispiels (offener Entscheid consis).'
+- text: 'Berichtswortlaut: Zusatz, Hinweis, Eventualzusatz, Einschränkung; Wahl des Berichtsbeispiels und der Formulierung (SER Bsp. 11 alt vs. OR 725a Abs. 1) (offener Entscheid consis).'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Vorgehen bei Einschränkung, Zusatz (z. B. Überschuldung, Rangrücktritt) oder Hinweis.
 - text: Beizug einer Zweitmeinung bzw. rechtlichen Rats.
@@ -387,9 +559,13 @@ unterlagen:
   quelle: hwp-er-2026__rz-0368-s112
   zitat: Ausgangspunkt für die Feststellung eines Kapitalverlusts bildet die «letzte Jahresrechnung» zu Fortführungswerten
 - dokument: Handelsregisterauszug bzw. Statuten, GV-Protokoll Vorjahr
-  zweck: Aktienkapital und Reserven für das geschützte Eigenkapital abstimmen
+  zweck: Aktien-/PS-Kapital (Basis der 50 %/20 %) und Reserven für das geschützte Eigenkapital abstimmen
   quelle: ser-2022__anh-d-s091-1
   zitat: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
+- dokument: Aufstellung Covid-19-Kredite und HFMV-20-Darlehen per Stichtag
+  zweck: Bereinigung des Fremdkapitals für Kapitalverlust und Überschuldung
+  quelle: hwp-er-2026__rz-0373-s113
+  zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
 - dokument: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (mit VR-Genehmigung, ggf. Prüfbericht)
   zweck: Massgebende Grundlage für die Beurteilung der Überschuldung
   quelle: qa-kapitalverlust-2023__2-2-2-t1
@@ -422,19 +598,31 @@ unterlagen:
   zweck: Zulässigkeit der Aufwertung
   quelle: or__art-725c
   zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt
+- dokument: Vollständigkeitserklärung mit Going-concern-Bestätigung
+  zweck: Schriftliche Bestätigung des VR zur Fortführung
+  quelle: ser-2022__anh-e-s104-1
+  zitat: erhebliche Zweifel an der Fähigkeit der [1] zur Fortführung ihrer Tätigkeit
 - dokument: Schriftliche Erklärung der Unternehmensleitung über Pläne (z.B. in der Vollständigkeitserklärung)
   zweck: Nachweis zu Plänen bei Zweifeln an der Fortführung
   quelle: hwp-er-2026__rz-0195-s225
   zitat: eine schriftliche Erklärung der Unternehmensleitung über die Pläne für zukünftige Aktivitäten einfordern
-- dokument: Schriftliche, begründete VR-Darlegung bei Reduktion eines Rangrücktritts
-  zweck: Voraussetzung für Reduktion des Rangrücktritts
+- dokument: Schriftliche, begründete VR-Darlegung bei Reduktion eines Rangrücktritts; ggf. Zustimmung anderer Rangrücktrittsgläubiger
+  zweck: Voraussetzungen für Reduktion des Rangrücktritts
   quelle: hwp-er-2026__rz-0425-s126
   zitat: der Verwaltungsrat der Gesellschaft schriftlich und begründet dargelegt hat, dass während der nächsten zwölf Monate keine weiteren Verluste absehbar sind
+- dokument: 'Opting-out: Auftragsbestätigung und Vollständigkeitserklärung für die eingeschränkte Revision nach OR 725a Abs. 2'
+  zweck: Auftragsart (keine Organstellung) und Erklärungen der Unternehmensleitung belegen
+  quelle: ser-2022__anh-c-s067-1
+  zitat: Feststellung, dass es sich um einen Auftrag handelt und keine Organstellung vorhanden ist
 dokumentation:
 - text: 'Textfeld P1-313 je Schritt einheitlich: Prüfziel, Quellen (M-Files-ID und Version), Berechnung (Bezugsgrösse, Eigenkapital, Deckungsgrad, Überschuldungsbetrag), Ergebnis, Feststellungen,
     Pendenzen, Status.'
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: Prüfziel, Quellen (M-Files-ID und Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen und Status.
+- text: 'Herleitung des geschützten Eigenkapitals offen ausweisen: Aktien-/PS-Kapital, Kappung der gesetzlichen Kapital- und Gewinnreserve (50 %/20 %), Reserven nach OR 659b Abs. 2,
+    Aufwertungsreserve, Abzug Covid-/HFMV-Kredite; Werkzeugaufruf mit Eingabewerten.'
+  quelle: hwp-er-2026__rz-0370-s112
+  zitat: Zuerst muss das geschützte Eigenkapital berechnet werden
 - text: Kapitalschutz-Fälle als Risiko-Mandat besonders sorgfältig dokumentieren; nur Fakten, keine Hoffnungen auf Sanierung.
   quelle: hwp-er-2026__rz-0452-s132
   zitat: Was zählt, sind einzig Fakten und deren vorsichtige Abwägung bzw. Bewertung.
@@ -444,10 +632,15 @@ dokumentation:
 - text: 'Fristen dokumentieren: Datum Vorliegen der geprüften Zwischenabschlüsse (Start 90 Tage), Mahnungen und gesetzte Fristen.'
   quelle: qa-kapitalverlust-2023__2-2-2-t1
   zitat: Beginn der gesetzlichen 90-Tage-Frist
+- text: Bei vereinfachter Prüfung der Zwischenabschlüsse die Vereinfachung im Bericht offenlegen (Entwurf für den WP).
+  quelle: hwp-er-2026__rz-0401-s119
+  zitat: wobei in der Berichterstattung auf diese «Vereinfachung» hinzuweisen ist
 - text: Jede Aktion, Quelle und Berechnung im Audit Trail protokollieren.
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
-- text: Kopie der Rangrücktrittsvereinbarung als Beilage zum Prüfschritt und in den Dauerakten führen (Praxis/intern).
+- text: Kopie der Rangrücktrittsvereinbarung als Beilage zu P1-313 bzw. zur Notiz ablegen (in den WP-Schritten L1-105/L1-304/N1-105 nur auf Anweisung) und in den Dauerakten führen.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: der Agent hängt dort die verwendeten Nachweise an, wenn sie nicht direkt beim Prüfschritt liegen
 fallstricke:
 - text: Rangrücktritt beseitigt weder Kapitalverlust noch Überschuldung und ist keine Sanierungsmassnahme; er dispensiert nur von der Gerichtsanzeige.
   quelle: hwp-er-2026__rz-0405-s122
@@ -455,12 +648,20 @@ fallstricke:
 - text: Kein Verzicht auf Zwischenabschluss, nur weil eine geprüfte JR jünger als 6 Monate ist oder Rangrücktritte die Überschuldung decken.
   quelle: qa-kapitalverlust-2023__2-2-2-t3
   zitat: Art. 725b OR sieht keine solche Erleichterung vor.
+- text: 'Verzicht auf den ZA zu Veräusserungswerten nicht schon bei gegebener Fortführung: kumulativ darf der ZA zu Fortführungswerten keine Überschuldung zeigen.'
+  quelle: or__art-725b-t1
+  zitat: Auf den Zwischenabschluss zu Veräusserungswerten kann verzichtet werden, wenn die Annahme der Fortführung gegeben ist und der Zwischenabschluss zu Fortführungswerten keine Überschuldung
+    aufweist.
 - text: Kapitalverlust/Überschuldung an sich ist ein Zusatz, kein Hinweis; Hinweis erst bei Untätigkeit des VR.
   quelle: hwp-er-2026__rz-0447-s130
   zitat: Eine Verletzung des Gesetzes liegt erst dann vor, wenn der Verwaltungsrat seine entsprechenden Handlungs- und Anzeigepflichten
 - text: Unterbilanz ist nicht gleich Kapitalverlust im Sinne von OR 725a.
   quelle: hwp-er-2026__rz-0367-s112
   zitat: Vom Kapitalverlust im Sinne des Aktienrechts zu unterscheiden ist die «Unterbilanz».
+- text: 'Rechenmodul: Reserven nach OR 659b und Aufwertungsreserve zählen voll und dürfen nicht in --gewinnreserve eingegeben werden (das Werkzeug würde sie mitkappen); Covid-/HFMV-Kredite
+    vor der Eingabe aus den Verbindlichkeiten nehmen.'
+  quelle: hwp-er-2026__rz-0370-s112
+  zitat: der volle Betrag der gesetzlichen Reserven für eigene Kapitalanteile im Konzern
 - text: 'Konzerngesellschaften: Beurteilung nur auf Ebene Einzelabschluss, solide Gruppe relativiert nichts.'
   quelle: hwp-er-2026__rz-0452-s132
   zitat: Kapitalverlust und Überschuldung sind Betrachtungen auf Ebene Einzelabschluss
@@ -473,12 +674,25 @@ fallstricke:
 - text: Fremdwährungs-Rangrücktritt kann sich durch Kursrückgang vermindern (Sicherheitspolster).
   quelle: hwp-er-2026__rz-0415-s123-t2
   zitat: dass die mit Rangrücktritt belastete Forderung auf eine fremde Währung lautet und sich durch einen Kursrückgang vermindert
-- text: 'Alte Rangrücktritte ohne Zinsen: Anpassungsfrist bis 31.12.2024; Rechtslage nicht gefestigt – Ergänzung prüfen.'
-  quelle: qa-kapitalverlust-2023__5-t1
-  zitat: müssen Verträge innerhalb von 2 Jahren (also bis 31.12.2024) angepasst werden
+- text: 'Alte Rangrücktritte ohne Zinsen: Die Übergangsfrist ist am 31.12.2024 abgelaufen; für die Geschäftsjahre 2025/2026 gilt neues Recht für alle Verträge.'
+  quelle: qa-kapitalverlust-2023__5-t2
+  zitat: Nach Ablauf dieser Frist sind die Vorschriften des neuen Rechts auf alle Verträge anwendbar.
+- text: 'Zinsen müssen ausdrücklich vereinbart sein: Rangrücktritt ohne Zinsklausel → Notiz «Wesentliche Feststellungen» an den WP, Ergänzung als «Pendenz». Ob Zinsen ex lege erfasst
+    sind, ist nicht gefestigt (Q&A) – nur als Unsicherheit erwähnen, nicht als Entlastung.'
+  quelle: hwp-er-2026__rz-0412-s123
+  zitat: Gemäss Gesetz müssen die Zinsen zwingend dem Rangrücktritt unterliegen, was ausdrücklich vereinbart werden muss.
+- text: 'Rangrücktritt mit ausländischem Gläubiger: untersteht grundsätzlich dessen Recht; «Schweizer Recht» ist nur Empfehlung, ausländische Formvorschriften beachten.'
+  quelle: hwp-er-2026__rz-0419-s124
+  zitat: untersteht der Rangrücktritt dem Recht des Gesellschaftsgläubigers
 - text: Covid-19-Kredite nur befristet nicht als Fremdkapital (SBüG bis 31.12.2032, HFMV 20 bis 31.12.2031) – Stichtag beachten.
   quelle: hwp-er-2026__rz-0373-s113
   zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
+- text: Realistische kurzfristige Sanierung ist kein Grund, die Prüfungen aufzuschieben.
+  quelle: hwp-er-2026__rz-0452-s132
+  zitat: ist dies kein Grund, die notwendigen Prüfungen aufzuschieben
+- text: Erstellt der VR trotz Aufforderung keine Zwischenabschlüsse, ist eine offensichtliche Überschuldung anzunehmen – kein Abwarten.
+  quelle: hwp-er-2026__rz-0386-s116
+  zitat: diesfalls ist eine oﬀensichtliche Überschuldung anzunehmen
 - text: Mandatsniederlegung oder Abwahl entbindet nicht von der Anzeigepflicht nach OR 729c.
   quelle: hwp-er-2026__rz-0445-s130
   zitat: kann diese Pflicht nicht durch Mandatsbeendigung ausgehebelt werden
@@ -497,9 +711,16 @@ fallstricke:
 - text: 'Bei Missachtung der Prüfpflicht nach OR 725a Abs. 2 sind GV-Beschlüsse nichtig – spätere Prüfer: rechtlichen Rat einholen.'
   quelle: hwp-er-2026__rz-0455-s133
   zitat: sind die Beschlüsse der Generalversammlung zur Genehmigung der Jahresrechnung sowie zur Verrechnung des Bilanzverlusts oder anderweitiger Verwendung von Reserven nichtig
+- text: 'Rechtsform: Genossenschaft ohne Anteilscheine – Kapitalverlust-Regeln nicht anwendbar (Überschuldung schon).'
+  quelle: or__art-903
+  zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
 - text: Stiftungen erstellen keinen Zwischenabschluss nach OR 725b; Rechtsform beachten.
   quelle: ser-2022__9-t2
   zitat: Stiftungen haben gemäss Art. 84a ZGB keinen Zwischenabschluss zu erstellen.
+- text: SER Anhang F Bsp. 11 verwendet die alte Formulierung («Hälfte des Aktienkapitals und der gesetzlichen Reserven»); für den Zusatz den Wortlaut nach OR 725a Abs. 1 vorschlagen,
+    Wahl beim WP.
+  quelle: ser-2022__anh-f-s129-2
+  zitat: dass die Hälfte des Aktienkapitals und der gesetzlichen Reserven nicht mehr gedeckt ist
 - text: Fachliteratur (Camponovo, Seminar) hält den Hinweis zur 2. Satzhälfte von OR 725a für unzulässig – nachrangige Quelle, SER/HWP ER massgebend, WP entscheidet.
   quelle: camponovo-2026-hinweispflichten__s119-1
   zitat: Bezüglich Teil 2 ist ein Hinweis m.E. nicht erlaubt
@@ -507,40 +728,64 @@ fragen_kunde:
 - frage: Liegt eine Liquiditätsplanung bzw. ein Budget für mindestens 12 Monate ab Bilanzstichtag vor? Bestehen Zahlungsrückstände (Löhne, Sozialversicherungen, MWST, Lieferanten) oder
     verletzte Kreditbedingungen?
   zweck: Drohende Zahlungsunfähigkeit und Fortführungsfähigkeit beurteilen (OR 725, A1-205).
-- frage: Welche Massnahmen hat der VR seit Feststellung des Kapitalverlusts ergriffen oder der GV beantragt (mit Datum und Protokoll)?
-  zweck: Pflichten nach OR 725a Abs. 1 belegen; Grundlage für Zusatz bzw. Hinweis.
-- frage: Wurden Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten erstellt? Per welchem Stichtag, genehmigt wann, geprüft von wem?
-  zweck: Pflichten nach OR 725b Abs. 1/2 und Fristbeginn der 90 Tage feststellen.
-- frage: Bestehen Rangrücktritte? Gläubiger, Betrag, Zinsen eingeschlossen, Datum, Original unterzeichnet? Wurden im Geschäftsjahr Zahlungen oder Verrechnungen auf diese Forderungen
-    vorgenommen?
-  zweck: Formelle und materielle Gültigkeit sowie Einhaltung des Rangrücktritts prüfen.
+- frage: Welche Massnahmen hat der VR seit Feststellung des Kapitalverlusts ergriffen oder der GV beantragt (mit Datum und Protokoll)? Wurden die Aktionäre über den Kapitalverlust informiert?
+  zweck: Pflichten nach OR 725a Abs. 1 belegen; Grundlage für Zusatz bzw. Hinweis (SER 8.3.2.1, HWP Rz 424).
+- frage: Wurden Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten erstellt? Per welchem Stichtag, genehmigt wann, geprüft von wem? Ist die Fortführung gegeben?
+  zweck: Pflichten nach OR 725b Abs. 1/2, erforderliche ZA und Fristbeginn der 90 Tage feststellen.
+- frage: Bestehen Rangrücktritte? Gläubiger (Sitz, anwendbares Recht), Betrag, Zinsen ausdrücklich eingeschlossen, Datum, Original unterzeichnet? Wurden im Geschäftsjahr Zahlungen oder
+    Verrechnungen auf diese Forderungen vorgenommen?
+  zweck: Formelle und materielle Gültigkeit sowie Einhaltung des Rangrücktritts prüfen (OR 725b Abs. 4 Ziff. 1, HWP Rz 412/419).
 - frage: Kann der Rangrücktrittsgläubiger einen Ausfall der Forderung finanziell tragen (z.B. Jahresrechnung des Gläubigers)?
   zweck: Bonität des Gläubigers beurteilen (Anfechtungsrisiko).
-- frage: Bestehen Covid-19-Kredite oder Härtefall-Darlehen und in welcher Höhe per Stichtag?
-  zweck: Korrekte Berechnung von Kapitalverlust und Überschuldung.
+- frage: Bestehen Covid-19-Kredite oder Härtefall-Darlehen und in welcher Höhe per Stichtag? Bestehen Reserven für eigene Kapitalanteile im Konzern oder eine Aufwertungsreserve; ist
+    die Gesellschaft eine Holding; besteht PS-Kapital?
+  zweck: Korrekte Herleitung des geschützten Eigenkapitals und Berechnung von Kapitalverlust und Überschuldung.
 - frage: Sind Sanierungsmassnahmen zugesagt oder vollzogen (Kapitalerhöhung, Forderungsverzicht, À-fonds-perdu-Zuschuss, Aufwertung nach OR 725c) – mit Datum und Belegen?
   zweck: Behebung innert 90 Tagen bzw. Sanierungswirkung belegen.
-- frage: Wurde ein Gesuch um Nachlassstundung eingereicht oder das Gericht benachrichtigt?
-  zweck: Wegfall der Prüfpflicht (OR 725a Abs. 3) bzw. Erfüllung OR 725b Abs. 3 feststellen.
+- frage: Wurde ein Gesuch um Nachlassstundung eingereicht oder das Gericht benachrichtigt? Befindet sich die Gesellschaft in Liquidation?
+  zweck: Wegfall der Prüfpflicht (OR 725a Abs. 3) bzw. Erfüllung OR 725b Abs. 3 / OR 743 Abs. 2 feststellen.
 - frage: Sind nach dem Bilanzstichtag weitere Verluste, Kreditkündigungen oder Liquiditätsengpässe eingetreten?
   zweck: Ereignisse nach dem Stichtag und Aktualität der Beurteilung (Sicherheitspolster Rangrücktritt).
 muster:
+- vorlage: SER Anhang H – Übersicht zum Vorgehen bei Überschuldung (Ablauf, Teil 1)
+  chunk: ser-2022__anh-h-s144-1
+- vorlage: 'SER Anhang H – Übersicht zum Vorgehen bei Überschuldung (Ablauf, Teil 2: Zwischenabschlüsse, Mahnung, 90 Tage)'
+  chunk: ser-2022__anh-h-s145-1
 - vorlage: SER Anhang F Bsp. 9 – Zusatz wegen Überschuldung bei Rangrücktrittsvereinbarung
   chunk: ser-2022__anh-f-s126-2
 - vorlage: SER Anhang F Bsp. 10 – Zusatz wesentliche Unsicherheit Unternehmensfortführung
   chunk: ser-2022__anh-f-s127-2
-- vorlage: SER Anhang F Bsp. 11 – Zusatz wegen Kapitalverlust
+- vorlage: SER Anhang F Bsp. 11 – Zusatz wegen Kapitalverlust (alte Formulierung «Hälfte des Aktienkapitals und der gesetzlichen Reserven»; Wortlaut nach OR 725a Abs. 1 gemäss HWP Rz
+    430/Muster c050-2, erster Absatz, vorschlagen – Wahl WP)
   chunk: ser-2022__anh-f-s129-2
 - vorlage: SER Anhang F Bsp. 13 – Zusatz Überschuldung, Hinweis Untätigkeit VR (OR 725b)
   chunk: ser-2022__anh-f-s131-2
 - vorlage: SER Anhang F Bsp. 17 – Bericht zugelassener Revisor (OR 725a Abs. 2)
   chunk: ser-2022__anh-f-s135-1
+- vorlage: SER Anhang C Bsp. 4 – Auftragsbestätigung eingeschränkte Revision für den Zweck gemäss OR 725a Abs. 2
+  chunk: ser-2022__anh-c-s067-1
+- vorlage: Muster HWP ER – Auftragsbestätigung OR 725a Abs. 2 (Verweis auf SER Anhang C Bsp. 4)
+  chunk: muster-hwp-er-2026__c009-1
+- vorlage: SER Anhang E Bsp. 3 – Vollständigkeitserklärung gegenüber dem zugelassenen Revisor (OR 725a Abs. 2)
+  chunk: ser-2022__anh-e-s110-1
+- vorlage: Muster HWP ER – Vollständigkeitserklärung OR 725a Abs. 2 (Verweis auf SER Anhang E Bsp. 3)
+  chunk: muster-hwp-er-2026__c013-1
+- vorlage: SER Anhang E – Vollständigkeitserklärung, Going-concern-Bestätigung
+  chunk: ser-2022__anh-e-s104-1
+- vorlage: Muster HWP ER – Berichtsmuster eingeschränkte Revision im Auftrag bei Opting-out-Gesellschaft mit Kapitalverlust (OR 725a Abs. 2)
+  chunk: muster-hwp-er-2026__c058-1
 - vorlage: Muster HWP ER – Zusatz Überschuldung bei sofortigen finanziellen Sanierungsmassnahmen
   chunk: muster-hwp-er-2026__c045-2
 - vorlage: Muster HWP ER – Zusatz Überschuldung; VR hat Zwischenabschluss erstellt
   chunk: muster-hwp-er-2026__c047-2
-- vorlage: Muster HWP ER – Hinweis auf Untätigkeit des VR bei OR 725a Abs. 1
+- vorlage: Muster HWP ER – Hinweis auf Untätigkeit des VR bei OR 725a Abs. 1 (erster Absatz = Zusatz Kapitalverlust im Wortlaut OR 725a Abs. 1)
   chunk: muster-hwp-er-2026__c050-2
+- vorlage: 'Muster HWP ER – Verneinende Prüfungsaussage: Bewertung zu Fortführungs- statt Veräusserungswerten'
+  chunk: muster-hwp-er-2026__c032-1
+- vorlage: 'Muster HWP ER – Verneinende Prüfungsaussage: Unsicherheit über die Fortführung nicht offengelegt'
+  chunk: muster-hwp-er-2026__c033-1
+- vorlage: 'Muster HWP ER – Eingeschränkte Prüfungsaussage: Unsicherheit über die Fortführung nicht ausreichend offengelegt'
+  chunk: muster-hwp-er-2026__c026-1
 - vorlage: Muster HWP ER – Prüfungsbericht Zwischenabschlüsse OR 725b Abs. 2 (PH 10 Bsp. 17)
   chunk: muster-hwp-er-2026__c059-1
 - vorlage: Muster HWP ER – Zwischenabschluss Veräusserungswerte, vereinfachte Prüfung PS-CH 290 (PH 10 Bsp. 18)
@@ -551,7 +796,7 @@ muster:
   chunk: muster-hwp-er-2026__c069-1
 - vorlage: Mustervorlage Aufhebung Rangrücktritt
   chunk: muster-hwp-er-2026__c070-1
-- vorlage: HWP ER Formulierungsbeispiel Zusatz und Hinweis Kapitalverlust
+- vorlage: HWP ER Formulierungsbeispiel Zusatz und Hinweis Kapitalverlust (Abb. 53)
   chunk: hwp-er-2026__rz-0430-s282-t2
 - vorlage: HWP ER Formulierungsbeispiel Zusatz Überschuldung mit Rangrücktritt
   chunk: hwp-er-2026__rz-0430-s282-t1

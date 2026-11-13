@@ -1,65 +1,80 @@
-# Werte Kategorie mwst – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie mwst – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: mwst_normalsatz
   bezeichnung: MWST-Normalsatz
   wert: '8.1'
   einheit: '%'
-  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  gilt: seit 01.01.2024 (Art. 25 Abs. 1 MWSTG; MWSTG, Fassung Stand 31.03.2025)
   kategorie: mwst
-  bemerkung: 'Tab. 17, gültig seit 1. Januar 2024. Anwendung: analytische Prüfung der MWST-Abrechnungen (Umsatzaufteilung nach Steuersätzen).'
-  quelle: treuhand-almanach-2026__s047-1
-  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  bemerkung: 'Seit 01.01.2024: treuhand-almanach-2026__s047-1 «Gültig seit 1. Januar 2024». Anwendung: analytische Prüfung der MWST-Abrechnungen (Umsatzaufteilung nach Steuersätzen).'
+  quelle: mwstg__art-25-t1
+  zitat: Die Steuer beträgt 8,1 Prozent (Normalsatz)
   status: agent-geprueft
 - key: mwst_reduzierter_satz
   bezeichnung: MWST reduzierter Satz
   wert: '2.6'
   einheit: '%'
-  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  gilt: seit 01.01.2024 (Art. 25 Abs. 2 MWSTG; MWSTG, Fassung Stand 31.03.2025)
   kategorie: mwst
-  bemerkung: Tab. 17.
-  quelle: treuhand-almanach-2026__s047-1
-  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  bemerkung: 'Anwendungsfälle in Art. 25 Abs. 2 MWSTG (u. a. Lebensmittel, Medikamente, Druckerzeugnisse). Sekundär: Almanach Tab. 17 (treuhand-almanach-2026__s047-1).'
+  quelle: mwstg__art-25-t1
+  zitat: Der reduzierte Steuersatz von 2,6 Prozent findet Anwendung
   status: agent-geprueft
 - key: mwst_sondersatz_beherbergung
   bezeichnung: MWST-Sondersatz für Beherbergung
   wert: '3.8'
   einheit: '%'
-  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  gilt: seit 01.01.2024, befristet bis längstens 31.12.2027 (Art. 25 Abs. 4 MWSTG; MWSTG, Fassung Stand 31.03.2025)
   kategorie: mwst
-  bemerkung: Tab. 17.
-  quelle: treuhand-almanach-2026__s047-1
-  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  bemerkung: 'Befristung: mwstg__art-25-t2 «bis längstens zum 31. Dezember 2027». Beherbergung inkl. Frühstück.'
+  quelle: mwstg__art-25-t2
+  zitat: Die Steuer auf Beherbergungsleistungen beträgt 3,8 Prozent (Sondersatz).
   status: agent-geprueft
 - key: mwst_steuerpflicht_umsatzgrenze
   bezeichnung: Umsatzgrenze Befreiung von der MWST-Pflicht (Unternehmen)
   wert: '100000'
   einheit: CHF
-  gilt: Treuhand-Almanach 2026 (Art. 10 MWSTG)
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 10 Abs. 2 Bst. a)
   kategorie: mwst
-  bemerkung: 'Gezählt werden Umsätze aus nicht ausgenommenen Leistungen, nach vereinbarten Entgelten ohne Steuer. Revision: bei Umsatz über der Grenze ohne MWST-Registrierung PH 20 Eingangsfrage
-    1a (plausible Erklärung?).'
-  quelle: treuhand-almanach-2026__s042-1
-  zitat: innerhalb eines Jahres im In- und Ausland weniger als CHF 100 000 Umsatz aus Leistungen erzielt
+  bemerkung: 'Gezählt werden Umsätze aus nicht nach Art. 21 Abs. 2 ausgenommenen Leistungen, nach vereinbarten Entgelten ohne Steuer: mwstg__art-10-t2 «Der Umsatz berechnet sich nach
+    den vereinbarten Entgelten ohne die Steuer.»; gleichlautend treuhand-almanach-2026__s042-2 «Der für die Beurteilung der Steuerpflicht massgebende Umsatz bemisst sich jeweils nach
+    den vereinbarten Entgelten ohne die Steuer.» Sport-/Kulturvereine und gemeinnützige Organisationen: mwst_steuerpflicht_umsatzgrenze_vereine. Revision: bei Umsatz über der Grenze
+    ohne MWST-Registrierung PH 20 Eingangsfrage 1a (plausible Erklärung?).'
+  quelle: mwstg__art-10-t1
+  zitat: innerhalb eines Jahres im In- und Ausland weniger als 100 000 Franken Umsatz aus Leistungen erzielt
+  status: agent-geprueft
+- key: mwst_steuerpflicht_umsatzgrenze_vereine
+  bezeichnung: Umsatzgrenze Befreiung von der MWST-Pflicht für nicht gewinnstrebige, ehrenamtlich geführte Sport- und Kulturvereine sowie gemeinnützige Organisationen
+  wert: '250000'
+  einheit: CHF
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 10 Abs. 2 Bst. c)
+  kategorie: mwst
+  bemerkung: 'Gilt nur für nicht gewinnstrebige, ehrenamtlich geführte Sport- oder Kulturvereine und gemeinnützige Organisationen. Sekundär: treuhand-almanach-2026__s042-2 «weniger als
+    CHF 250 000 Umsatz». Umsatz nach vereinbarten Entgelten ohne Steuer (Art. 10 Abs. 2bis MWSTG).'
+  quelle: mwstg__art-10-t2
+  zitat: gemeinnützige Organisation innerhalb eines Jahres im In- und Ausland weniger als 250 000 Franken Umsatz
   status: agent-geprueft
 - key: mwst_sss_umsatzgrenze
-  bezeichnung: 'Saldosteuersatzmethode: maximaler steuerbarer Jahresumsatz (inkl. Steuer)'
+  bezeichnung: 'Saldosteuersatzmethode: maximaler Jahresumsatz aus steuerbaren Leistungen'
   wert: '5024000'
   einheit: CHF
-  gilt: Treuhand-Almanach 2026
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 37 Abs. 1)
   kategorie: mwst
-  bemerkung: Gilt kumulativ mit der Steuerschuld von höchstens CHF 108 000 pro Jahr. Zusätzlich die Restriktionen von Art. 77 Abs. 2 MWSTV prüfen.
-  quelle: treuhand-almanach-2026__s047-1
-  zitat: der steuerbare Jahresumsatz (inkl. Steuer) beträgt nicht mehr als CHF 5,024 Mio.;
+  bemerkung: 'Kumulativ mit der Steuerschuld von höchstens CHF 108 000 pro Jahr (mwst_sss_steuerschuld_max). Der Almanach präzisiert inkl. Steuer: treuhand-almanach-2026__s047-1 «der
+    steuerbare Jahresumsatz (inkl. Steuer) beträgt nicht mehr als CHF 5,024 Mio.;» Ausschlüsse nach Art. 77 Abs. 2 MWSTV prüfen (mwstv__art-77 «Die Saldosteuersatzmethode kann nicht
+    gewählt werden von steuerpflichtigen Personen»).'
+  quelle: mwstg__art-37
+  zitat: jährlich nicht mehr als 5 024 000 Franken Umsatz aus steuerbaren Leistungen erzielt
   status: agent-geprueft
 - key: mwst_sss_steuerschuld_max
   bezeichnung: 'Saldosteuersatzmethode: maximale geschuldete Steuer pro Jahr'
   wert: '108000'
   einheit: CHF
-  gilt: Treuhand-Almanach 2026
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 37 Abs. 1)
   kategorie: mwst
-  bemerkung: Gilt kumulativ mit der Umsatzgrenze CHF 5,024 Mio.
-  quelle: treuhand-almanach-2026__s047-1
-  zitat: die geschuldete Steuer beträgt nicht mehr als CHF 108 000 pro Jahr.
+  bemerkung: Berechnet nach dem massgebenden Saldosteuersatz. Gilt kumulativ mit der Umsatzgrenze CHF 5,024 Mio. (mwst_sss_umsatzgrenze).
+  quelle: mwstg__art-37
+  zitat: nicht mehr als 108 000 Franken Steuern
   status: agent-geprueft
 - key: mwst_sss_umsatzgrenzen_je_satz
   bezeichnung: Umsatzgrenzen je Saldosteuersatz
@@ -67,48 +82,52 @@ werte:
   einheit: CHF
   gilt: Treuhand-Almanach 2026 (Tab. 18)
   kategorie: mwst
-  bemerkung: 'Die Saldosteuersätze setzt die ESTV je Branche/Tätigkeit fest (SR 641.202.62, Stand 01.01.2025). Anwendung: geschuldete MWST mit SSS-Methode plausibilisieren.'
+  bemerkung: 'Die Saldosteuersätze setzt die ESTV je Branche/Tätigkeit fest (SR 641.202.62, Stand 01.01.2025). Sekundärquelle. Anwendung: geschuldete MWST mit SSS-Methode plausibilisieren.'
   quelle: treuhand-almanach-2026__s048-1
   zitat: 0,1% / 0,6 % / 1,3 % / 2,1% max. CHF 5,024 Mio. 3,0 % max. CHF 3,60 Mio. 3,7 % max. CHF 2,92 Mio. 4,5 % max. CHF 2,40 Mio. 5,3 % max. CHF 2,04 Mio. 6,2 % max. CHF 1,74 Mio.
     6,8 % max. CHF 1,59 Mio.
   status: agent-geprueft
 - key: mwst_sss_mehrere_saetze_umsatzanteil
-  bezeichnung: Mindestumsatzanteil für zusätzlichen bewilligten Saldosteuersatz
+  bezeichnung: Umsatzanteil einer Tätigkeit, der für einen zusätzlichen Saldosteuersatz überschritten sein muss (mehr als 10 %)
   wert: '10'
-  einheit: '% des Umsatzes'
-  gilt: Treuhand-Almanach 2026
+  einheit: '% des Umsatzes aus steuerbaren Leistungen'
+  gilt: MWSTV, Fassung Stand 28.10.2026 (Art. 86 Abs. 1)
   kategorie: mwst
-  bemerkung: Keine Obergrenze der Anzahl bewilligter Saldosteuersätze. Früher waren höchstens zwei zulässig.
-  quelle: treuhand-almanach-2026__s047-2
-  zitat: sofern der Umsatzanteil 10 % übersteigt
+  bemerkung: 'Genau 10 % genügt nicht. Bestehende Pflichtige: in jeder der drei vorangegangenen Steuerperioden mehr als 10 % (mwstv__art-86 «in jeder dieser Steuerperioden mehr als 10
+    Prozent betragen haben muss»); Tätigkeiten mit gleichem Satz zusammenzählen. Keine Obergrenze der Anzahl Sätze: treuhand-almanach-2026__s047-2 «Es gibt keine Obergrenze der bewilligten
+    Saldosteuersätze.» Für Perioden vor dem Stand der Wiki-Fassung die damalige MWSTV prüfen (früher höchstens zwei Sätze).'
+  quelle: mwstv__art-86
+  zitat: deren Anteil am Gesamtumsatz aus steuerbaren Leistungen mehr als 10 Prozent beträgt
   status: agent-geprueft
 - key: mwst_sss_mindestdauer
   bezeichnung: Mindestdauer der Saldosteuersatzmethode nach Bewilligung
   wert: '1'
   einheit: Steuerperiode
-  gilt: Treuhand-Almanach 2026
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 37 Abs. 4)
   kategorie: mwst
-  bemerkung: Die Methode ist bei der ESTV schriftlich zu beantragen.
-  quelle: treuhand-almanach-2026__s047-2
+  bemerkung: Die Methode ist bei der ESTV zu beantragen (mwstg__art-37 «Die Abrechnung nach der Saldosteuersatzmethode ist bei der ESTV zu beantragen»).
+  quelle: mwstg__art-37
   zitat: muss während mindestens einer Steuerperiode beibehalten werden
   status: agent-geprueft
 - key: mwst_wechsel_effektiv_zu_sss
   bezeichnung: Frühester Wechsel von der effektiven Methode zur Saldosteuersatzmethode
   wert: '3'
-  einheit: ganze Steuerperioden
-  gilt: Treuhand-Almanach 2026
+  einheit: Jahre
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 37 Abs. 4)
   kategorie: mwst
-  bemerkung: Gilt nach Wahl der effektiven Abrechnungsmethode.
-  quelle: treuhand-almanach-2026__s047-2
-  zitat: so kann frühestens nach drei ganzen Steuerperioden zur Saldosteuersatzmethode gewechselt werden
+  bemerkung: 'Wechsel nur auf Beginn einer Steuerperiode: mwstg__art-37 «Wechsel sind jeweils auf Beginn einer Steuerperiode möglich.» Der Almanach formuliert: treuhand-almanach-2026__s047-2
+    «frühestens nach drei ganzen Steuerperioden».'
+  quelle: mwstg__art-37
+  zitat: so kann sie frühestens nach drei Jahren zur Saldosteuersatzmethode wechseln
   status: agent-geprueft
 - key: mwst_bezugsteuer_grenzbetrag
-  bezeichnung: Grenzbetrag Bezugsteuer für nicht steuerpflichtige Unternehmen (Leistungen aus dem Ausland pro Kalenderjahr)
+  bezeichnung: Grenzbetrag Bezugsteuer für nicht steuerpflichtige Empfänger (Leistungen nach Art. 45 Abs. 1 MWSTG pro Kalenderjahr)
   wert: '10000'
   einheit: CHF
-  gilt: 'PH 20 (EXPERTsuisse, 02-2016): «derzeit»'
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 45 Abs. 2 Bst. b)
   kategorie: mwst
-  bemerkung: 'Stand PH 20 von 2016, gegen die aktuelle MWSTG-Fassung prüfen. Revision: PH 20 Eingangsfrage 2 (Bezugsteuer bei Befreiung beachtet?).'
-  quelle: ph-20-mwst-2016__c004-2
-  zitat: Grenzbetrag pro Kalenderjahr (von derzeit CHF 10'000) für solche Leistungen überschritten wird
+  bemerkung: 'Betrifft u. a. Dienstleistungen von Unternehmen mit Sitz im Ausland, die nicht im MWST-Register eingetragen sind (Art. 45 Abs. 1 MWSTG). PH 20 nennt denselben Betrag (ph-20-mwst-2016__c004-2
+    «von derzeit CHF 10''000»). Revision: PH 20 Eingangsfrage 2 (Bezugsteuer bei Befreiung beachtet?).'
+  quelle: mwstg__art-45-t2
+  zitat: im Kalenderjahr solche Leistungen für mehr als 10 000 Franken bezieht
   status: agent-geprueft

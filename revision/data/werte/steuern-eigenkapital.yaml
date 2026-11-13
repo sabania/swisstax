@@ -1,4 +1,4 @@
-# Werte Kategorie steuern_eigenkapital – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie steuern_eigenkapital – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: ks6a_bewertungsstichtag
   bezeichnung: Massgebender Wert für die Ermittlung des verdeckten Eigenkapitals
@@ -10,14 +10,90 @@ werte:
   quelle: estv-ks-6a-2024__einleitung-t2
   zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
   status: agent-geprueft
+- key: ks6a_verdecktes_ek_ermittlung
+  bezeichnung: 'Verdecktes Eigenkapital: Ermittlung (ausgewiesene Schulden über dem zulässigen Fremdkapital)'
+  wert: Ausgewiesene Schulden (gesamtes Fremdkapital) − zulässiges Fremdkapital (Summe Verkehrswert × Belehnungssatz); verdeckt nur, soweit von Anteilsinhabern/Nahestehenden stammend
+  einheit: Regel
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Verglichen wird das gesamte ausgewiesene Fremdkapital mit dem zulässigen Fremdkapital (Belehnungssätze ks6a_belehnung_*; Finanzgesellschaften ks6a_finanzgesellschaften_max_fremdkapital).
+    Verdeckt ist davon nur der Teil, der von Beteiligten/Nahestehenden stammt: estv-ks-6a-2024__einleitung-t3 «nur derjenige Teil als verdeckt gilt, der direkt oder indirekt von Anteilsinhabern
+    oder diesen nahestehenden Personen stammt». Fremdkapital unabhängiger Dritter ohne Sicherstellung durch Beteiligte zählt nicht (ks6a_kein_vek_drittfinanzierung). Drittvergleich bleibt
+    vorbehalten. Folgen: Zinsaufrechnung (ks6a_zinsaufrechnung_gewinnsteuer), VSt (ks6a_vst_zinsen_vek), Kapitalsteuer (vek_kapitalsteuer). Der Agent rechnet nur vor (Werkzeug rechne);
+    die Beurteilung macht der WP.'
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.
+  status: agent-geprueft
+- key: ks6a_kein_vek_drittfinanzierung
+  bezeichnung: Kein verdecktes Eigenkapital bei Fremdkapital unabhängiger Dritter ohne Sicherstellung durch Beteiligte/Nahestehende
+  wert: kein verdecktes Eigenkapital
+  einheit: Regel
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Umkehrschluss (direkt oder indirekt stammend): Von Beteiligten/Nahestehenden sichergestellte Drittkredite (z.B. Bankkredit mit Aktionärsbürgschaft) können zum verdeckten
+    Eigenkapital zählen. Revision: Sicherheiten von Beteiligten (Bürgschaften, Verpfändungen) aus Kreditverträgen und Anhang erheben; die Einstufung beurteilt der WP. Gleichlautend Almanach:
+    treuhand-almanach-2026__s063-1 «wenn die Fremdmittel von unabhängigen Dritten».'
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Wird das Fremdkapital von unabhängigen Dritten – ohne Sicherstellung durch den Anteilsinhaber oder diesem nahestehenden Personen – zur Verfügung gestellt, liegt kein verdecktes
+    Eigenkapital vor.
+  status: agent-geprueft
+- key: ks6a_zinsaufrechnung_gewinnsteuer
+  bezeichnung: Aufrechnung der Schuldzinsen auf verdecktem Eigenkapital zum steuerbaren Gewinn (Art. 65 DBG)
+  wert: Schuldzinsen auf verdecktem Eigenkapital aufrechnen; bei Beteiligtendarlehen unter Marktzins nur der Rest über dem auf das anerkannte Fremdkapital zulässigen Zins
+  einheit: Regel
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a, Ziff. 3.1)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Darlehen von Beteiligten/Nahestehenden unter dem marktüblichen Zins: Als Aufwand anerkannt bleibt der Zins, der gemäss ESTV-Zinsrundschreiben (CHF bzw. Fremdwährung) auf
+    das anerkannte Fremdkapital zulässig wäre; estv-ks-6a-2024__3-1 «Nur der verbleibende Rest wird aufgerechnet.» Anwendung: Steueraufwand und Steuerrückstellung plausibilisieren; Steuerrisiko
+    dem WP melden.'
+  quelle: estv-ks-6a-2024__3-1
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+  status: agent-geprueft
+- key: ks6a_vst_zinsen_vek
+  bezeichnung: Verrechnungssteuer auf Schuldzinsen, die auf verdecktes Eigenkapital entfallen (geldwerte Leistung)
+  wert: '35'
+  einheit: '%'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a, Ziff. 3.2)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Satz: estv-zinsen-2026__s001-1 «der Verrechnungssteuer von 35 %». Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit (vst_frist_formular_102). Revision: mögliche
+    VSt-Schuld dem WP melden.'
+  quelle: estv-ks-6a-2024__3-2
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen gemäss Ziffer 3.1 oben unterliegen als geldwerte Leistung
+  status: agent-geprueft
+- key: ks6a_rueckzahlung_vek
+  bezeichnung: Rückzahlung von Fremdkapital, das als verdecktes Eigenkapital qualifiziert
+  wert: keine geldwerte Leistung (weder VSt noch Einkommenssteuer im Privatvermögen)
+  einheit: Regel
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a, Ziff. 3.3)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'estv-ks-6a-2024__3-3 «unterliegt daher weder der Verrechnungssteuer noch der Einkommenssteuer (Privatvermögen)». Revision: Rückzahlung von Aktionärsdarlehen nicht als Ausschüttung
+    behandeln; Einstufung beurteilt der WP.'
+  quelle: estv-ks-6a-2024__3-3
+  zitat: stellt keine geldwerte Leistung der Kapitalgesellschaft oder Genossenschaft an ihren Anteilsinhaber
+  status: agent-geprueft
+- key: vek_kapitalsteuer
+  bezeichnung: Verdecktes Eigenkapital unterliegt der kantonalen Kapitalsteuer (Art. 29a StHG)
+  wert: Zurechnung zum steuerbaren Eigenkapital
+  einheit: Regel
+  gilt: Treuhand-Almanach 2026 (Art. 29a StHG)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Sekundärquelle; das StHG ist nicht im Wiki. Anwendung: Kapitalsteuer in der Steuerrückstellung plausibilisieren (steuerbares Eigenkapital einschliesslich verdecktes Eigenkapital).
+    Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  quelle: treuhand-almanach-2026__s063-1
+  zitat: welches der Kapitalsteuer unterliegt (Art. 29a StHG)
+  status: agent-geprueft
 - key: ks6a_belehnung_fluessige_mittel
   bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Flüssige Mittel'
   wert: '100'
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 1 von 16. Im Chunk sind Bezeichnungen und Ansätze getrennt. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2). Übersteigen Schulden gegenüber Beteiligten/Nahestehenden
-    das zulässige Fremdkapital, liegt verdecktes Eigenkapital vor: Zinsen werden aufgerechnet und unterliegen der VSt.'
+  bemerkung: 'Zeile 1 von 16 (Wert 1 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 1/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Flüssige Mittel 100 %». Mechanik: Übersteigen die ausgewiesenen Schulden
+    (gesamtes Fremdkapital) das zulässige Fremdkapital, liegt verdecktes Eigenkapital vor, jedoch nur im Umfang der Mittel von Anteilsinhabern/Nahestehenden (estv-ks-6a-2024__einleitung-t3
+    «Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.» und «nur derjenige Teil als verdeckt gilt, der direkt oder indirekt
+    von Anteilsinhabern oder diesen nahestehenden Personen stammt»). Fremdkapital unabhängiger Dritter ohne deren Sicherstellung zählt nicht dazu. Folgen: Zinsaufrechnung Gewinnsteuer
+    (Ziff. 3.1) und VSt (estv-ks-6a-2024__3-2 «unterliegen als geldwerte Leistung»). Siehe ks6a_verdecktes_ek_ermittlung.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -27,7 +103,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 2 von 16. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2).
+  bemerkung: 'Zeile 2 von 16 (Wert 2 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 2/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Forderungen aus Lieferungen und Leistungen 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -37,7 +114,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 3 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 3 von 16 (Wert 3 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 3/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -47,7 +125,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 4 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 4 von 16 (Wert 4 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 4/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Vorräte 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -57,7 +136,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 5 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 5 von 16 (Wert 5 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 5/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -67,7 +147,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 6 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 6 von 16 (Wert 6 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 6/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «In- und ausländische Obligationen in CHF 90 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -77,7 +158,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 7 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 7 von 16 (Wert 7 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 7/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Ausländische Obligationen in Fremdwährung 80 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -87,7 +169,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 8 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 8 von 16 (Wert 8 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 8/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Kotierte in- und ausländische Aktien 60 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -97,7 +180,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 9 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 9 von 16 (Wert 9 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 9/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Übrige Aktien und GmbH-Anteile 50 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -107,7 +191,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 10 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 10 von 16 (Wert 10 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 10/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Darlehen 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -117,7 +202,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 11 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 11 von 16 (Wert 11 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 11/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Beteiligungen 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -127,7 +213,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 12 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 12 von 16 (Wert 12 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 12/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -137,7 +224,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 13 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 13 von 16 (Wert 13 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 13/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Fabrikliegenschaften 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -147,7 +235,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 14 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 14 von 16 (Wert 14 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 14/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Villen, Eigentumswohnungen, Ferienhäuser und Bauland 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -157,7 +246,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 15 von 16. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Zeile 15 von 16 (Wert 15 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 15/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Übrige Liegenschaften 80 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -167,8 +257,10 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: Zeile 16 von 16 (letzter Wert). Zuordnung im Original geprüft (S. 2). Der Treuhand-Almanach (Tab. 29, treuhand-almanach-2026__s063-1) nennt zusätzlich Gründungs-, Kapitalerhöhungs-
-    und Organisationskosten mit 0 %. Dieser Ansatz steht nicht im KS 6a vom 10.10.2024.
+  bemerkung: 'Zeile 16 von 16 (Wert 16 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 16/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Andere immaterielle Anlagen 70 %». Der Almanach (Tab. 29) nennt zusätzlich
+    Gründungs-, Kapitalerhöhungs- und Organisationskosten mit 0 % (treuhand-almanach-2026__s063-1 «Gründungs-, Kapitalerhöhungs- und Organisationskosten 0 %»); dieser Ansatz steht nicht
+    im KS 6a vom 10.10.2024.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -188,8 +280,8 @@ werte:
   einheit: '%'
   gilt: Treuhand-Almanach 2026 (StG)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Gilt auch für Zuschüsse ohne Nennwerterhöhung (Art. 5 Abs. 2 StG). Abgabepflichtig ist die inländische Gesellschaft. Revision: bei Gründung, Kapitalerhöhung oder Zuschuss
-    Abgabe bzw. Abgrenzung prüfen.'
+  bemerkung: 'Gilt auch für Zuschüsse ohne Nennwerterhöhung (Art. 5 Abs. 2 StG). Abgabepflichtig ist die inländische Gesellschaft. Ausnahmen: emissionsabgabe_freibetrag, emissionsabgabe_sanierung_freibetrag.
+    Sekundärquelle; das StG ist nicht im Wiki. Revision: bei Gründung, Kapitalerhöhung oder Zuschuss Abgabe bzw. Abgrenzung prüfen.'
   quelle: treuhand-almanach-2026__s067-1
   zitat: Die Emissionsabgabe beträgt grundsätzlich 1 % vom Wert dessen, was der Gesellschaft zufliesst.
   status: agent-geprueft
@@ -199,7 +291,23 @@ werte:
   einheit: CHF
   gilt: Treuhand-Almanach 2026 (Art. 6 Abs. 1 Bst. b und h StG)
   kategorie: steuern_eigenkapital
-  bemerkung: Einmalig, nicht pro Ereignis. Für reine Zuschüsse nicht anwendbar.
+  bemerkung: 'Einmalig, nicht pro Ereignis (treuhand-almanach-2026__s067-1 «einmalig, d. h. nicht pro Ereignis»); für reine Zuschüsse nicht anwendbar (treuhand-almanach-2026__s067-1
+    «Bei reinen Zuschüssen kann der Freibetrag nicht in Anspruch genommen werden.»). Bei Sanierungen: emissionsabgabe_sanierung_freibetrag.'
   quelle: treuhand-almanach-2026__s067-1
   zitat: gilt gegenwärtig für entgeltlich ausgegebene Beteiligungsrechte ein Freibetrag von CHF 1 Mio.
+  status: agent-geprueft
+- key: emissionsabgabe_sanierung_freibetrag
+  bezeichnung: 'Emissionsabgabe: Freibetrag für Sanierungsleistungen der Anteilsinhaber bei offener oder stiller Sanierung (Art. 6 Abs. 1 Bst. k StG)'
+  wert: '10000000'
+  einheit: CHF
+  gilt: KS ESTV Nr. 32a vom 20.01.2025
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Kumulative Voraussetzungen u. a.: Sanierung (Kapitalschnitt oder Zuschüsse/Agio-Einlagen zur Verlustdeckung) und Beseitigung bestehender Verluste – estv-ks-32a-2025__3-3-2-t1
+    «die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend»; Beschluss spätestens durch die GV, die die Jahresrechnung der Sanierungsperiode genehmigt.
+    Einmalig: estv-ks-32a-2025__31 «Der Freibetrag von 10 Millionen Franken ist einmalig, kann sich aber auf mehrere Sanierungen aufteilen.» Darüber Erlass nach Art. 12 StG auf Gesuch
+    möglich. Weitere Ausnahmen (u. a. Umstrukturierungen) in Art. 6 StG: treuhand-almanach-2026__s067-3 «Diverse Tatbestände (u. a. im Rahmen von Umstrukturierungen und Sanierungen)
+    sind von der Emissionsabgabe ausgenommen.» Revision: bei Sanierungszuschüssen (Kapitalverlust, Überschuldung) Abgabe bzw. Ausnahme dem WP zur Beurteilung vorlegen.'
+  quelle: estv-ks-32a-2025__3-3-2-t2
+  zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
+    ausgenommen.
   status: agent-geprueft

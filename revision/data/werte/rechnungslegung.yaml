@@ -1,4 +1,4 @@
-# Werte Kategorie rechnungslegung – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie rechnungslegung – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: or957_buchfuehrungspflicht
   bezeichnung: 'Pflicht zur Buchführung und Rechnungslegung: Umsatzerlös Einzelunternehmen/Personengesellschaften'
@@ -39,6 +39,27 @@ werte:
   bemerkung: 'HWP ER Rz 194: Zeitraum beginnt mit dem Bilanzstichtag; zudem Befragung zu Ereignissen jenseits der zwölf Monate.'
   quelle: hwp-er-2026__rz-0194-s225
   zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
+  status: agent-geprueft
+- key: or958d_vorjahreszahlen
+  bezeichnung: 'Jahresrechnung: Vorjahreszahlen'
+  wert: Vorjahreswerte zwingend anzugeben
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958d Abs. 2 OR. Abs. 1: Konto- oder Staffelform; Positionen ohne oder mit unwesentlichem Wert müssen nicht separat aufgeführt werden. Abs. 4: Landessprache oder Englisch.'
+  quelle: or__art-958d
+  zitat: die entsprechenden Werte des Vorjahres anzugeben
+  status: agent-geprueft
+- key: or958d_waehrung
+  bezeichnung: Darstellungswährung und Umrechnungskurse
+  wert: Landeswährung oder für die Geschäftstätigkeit wesentliche Währung; dann Werte zusätzlich in Landeswährung, Kurse im Anhang
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958d Abs. 3 OR: Kurse offenlegen und gegebenenfalls erläutern. Für die Schwellen nach Art. 727 Abs. 1bis OR gelten Stichtagskurs (Bilanzsumme) bzw. Jahresdurchschnittskurs
+    (Umsatzerlös).'
+  quelle: or__art-958d
+  zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen
   status: agent-geprueft
 - key: or959_kurzfristig
   bezeichnung: Abgrenzung kurzfristig/Umlaufvermögen
@@ -154,12 +175,13 @@ werte:
   status: agent-geprueft
 - key: or961_groessere_unternehmen
   bezeichnung: 'Grössere Unternehmen: Zusatzvorschriften'
-  wert: gilt bei gesetzlicher ordentlicher Revisionspflicht
+  wert: gilt nur bei Pflicht zur ordentlichen Revision nach Art. 727 Abs. 1 OR
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: rechnungslegung
-  bemerkung: 'Art. 961 OR: zusätzliche Anhangangaben (Art. 961a), Geldflussrechnung, Lagebericht. Gilt nur bei gesetzlicher ordentlicher Revisionspflicht (Art. 727 OR); bei eingeschränkter
-    Revision nicht verlangt.'
+  bemerkung: 'Art. 961 OR: zusätzliche Anhangangaben (Art. 961a), Geldflussrechnung, Lagebericht. Gilt nur bei Pflicht nach Art. 727 Abs. 1 OR (AG: «für die Aktiengesellschaft in Art.
+    727 Abs. 1 OR», HWP BuR Rz 257, hwp-bur-2023__rz-0257-s124); nicht bei Opting-up nach Art. 727 Abs. 2/3 OR («Entscheid zur freiwilligen ordentlichen Revision», HWP ER Rz 53, hwp-er-2026__rz-0053-s050)
+    und nicht bei eingeschränkter Revision.'
   quelle: or__art-961
   zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
   status: agent-geprueft
@@ -169,8 +191,11 @@ werte:
   einheit: CHF / CHF / Vollzeitstellen
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: rechnungslegung
-  bemerkung: 'Art. 963a Abs. 1 Ziff. 1 OR: befreit, wenn zusammen mit den kontrollierten Unternehmen zwei der Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschritten
-    werden. Dennoch Pflicht u.a. auf Verlangen von 20 % des Grundkapitals (Abs. 2). Konzernrechnungspflicht → ordentliche Revision (Art. 727 Abs. 1 Ziff. 3).'
+  bemerkung: 'Art. 963a Abs. 1 Ziff. 1 OR: befreit, wenn die juristische Person zusammen mit den kontrollierten Unternehmen zwei der Grössen Bilanzsumme 20 Mio., Umsatzerlös 40 Mio.,
+    250 Vollzeitstellen in zwei aufeinander folgenden Geschäftsjahren NICHT überschreitet (gleiche Zahlen wie Art. 727 OR, aber Befreiungsgrenze auf Konzernebene). Weitere Befreiung
+    (Subkonzern): Kontrolle durch ein Unternehmen, dessen Konzernrechnung nach schweizerischen oder gleichwertigen ausländischen Vorschriften erstellt und ordentlich geprüft worden ist
+    (Abs. 1 Ziff. 2), oder Übertragung an ein kontrolliertes Unternehmen nach Art. 963 Abs. 4 OR (Abs. 1 Ziff. 3). Dennoch Pflicht u.a. auf Verlangen von 20 % des Grundkapitals (Abs.
+    2). Fremdwährung: Abs. 3. Konzernrechnungspflicht → ordentliche Revision (Art. 727 Abs. 1 Ziff. 3).'
   quelle: or__art-963a
-  zitat: a. Bilanzsumme von 20 Millionen Franken, - b. Umsatzerlös von 40 Millionen Franken, - c. 250 Vollzeitstellen im Jahresdurchschnitt
+  zitat: zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschreitet
   status: agent-geprueft

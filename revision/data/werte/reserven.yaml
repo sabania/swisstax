@@ -1,4 +1,4 @@
-# Werte Kategorie reserven – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie reserven – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: or672_zuweisung_gewinnreserve
   bezeichnung: 'Gesetzliche Gewinnreserve: Zuweisung'
@@ -61,4 +61,35 @@ werte:
   bemerkung: 'Art. 673 OR: Bildung durch Statuten oder GV-Beschluss (Abs. 1); Verwendung beschliesst die GV (Abs. 3). Keine Zahlenwerte.'
   quelle: or__art-673
   zitat: Freiwillige Gewinnreserven dürfen nur gebildet werden, wenn das dauernde Gedeihen des Unternehmens unter Berücksichtigung der Interessen aller Aktionäre dies rechtfertigt.
+  status: agent-geprueft
+- key: or674_verlustverrechnung
+  bezeichnung: 'Verlustverrechnung: Reihenfolge'
+  wert: Gewinnvortrag → freiwillige Gewinnreserven → gesetzliche Gewinnreserve → gesetzliche Kapitalreserve
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 674 Abs. 1 OR. Abs. 2: anstelle der Verrechnung mit der gesetzlichen Gewinn- oder Kapitalreserve dürfen «verbleibende Verluste auch teilweise oder ganz auf die neue
+    Jahresrechnung vorgetragen werden». Prüfen beim Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR).'
+  quelle: or__art-674
+  zitat: Verluste müssen in folgender Reihenfolge verrechnet werden mit
+  status: agent-geprueft
+- key: or675_dividenden_quelle
+  bezeichnung: 'Dividenden: zulässige Quelle'
+  wert: nur aus Bilanzgewinn und hierfür gebildeten Reserven
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 675 Abs. 2 OR; Abs. 1: keine Zinsen auf dem Aktienkapital. Prüfen beim Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR).'
+  quelle: or__art-675
+  zitat: Dividenden dürfen nur aus dem Bilanzgewinn und aus hierfür gebildeten Reserven ausgerichtet werden.
+  status: agent-geprueft
+- key: or675_dividenden_nach_zuweisung
+  bezeichnung: 'Dividenden: erst nach Zuweisung an die Gewinnreserven'
+  wert: Festsetzung erst nach Zuweisungen an gesetzliche und freiwillige Gewinnreserven
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: Art. 675 Abs. 3 OR; Zuweisung an die gesetzliche Gewinnreserve 5 % des Jahresgewinns nach Beseitigung eines Verlustvortrags (Art. 672 Abs. 1 OR, Eintrag or672_zuweisung_gewinnreserve).
+  quelle: or__art-675
+  zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
   status: agent-geprueft

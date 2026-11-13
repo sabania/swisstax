@@ -4,14 +4,14 @@ bezeichnung: Langfristige Verbindlichkeiten
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 14
-    korrigiert: false
+    korrigiert: true
 kurzbeschrieb: 'Langfristige verzinsliche und übrige langfristige Verbindlichkeiten (Bank-/Hypothekardarlehen, Aktionärs- und Konzerndarlehen, Darlehen mit Rangrücktritt) inkl. Zinsen.
-  In der eingeschränkten Revision: Befragungen (Covenants, Sicherheiten, Fristigkeit, Nahestehende, Rangrücktritte), Zinsplausibilisierung und Detailprüfungen (Abstimmung, Verträge,
-  Zinsabgrenzung, Gliederung, Anhang).'
+  Eingeschränkte Revision: Befragungen (Covenants, Sicherheiten, Fristigkeit, Nahestehende), Zinsplausibilisierung, Detailprüfungen (Abstimmung, Verträge, Zinsabgrenzung, verdecktes
+  EK, Anhang); Rangrücktritte weiter gehend.'
 gesetz:
 - thema: Ansatz von Verbindlichkeiten als Fremdkapital (Art. 959 Abs. 5 OR)
   quelle: or__art-959
@@ -41,15 +41,27 @@ gesetz:
 - thema: 'Anhang: Sicherheiten für Dritte und Ereignisse nach dem Bilanzstichtag (Art. 959c Abs. 2 Ziff. 8 und 13 OR)'
   quelle: or__art-959c-t2
   zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+- thema: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten bei begründeter Besorgnis einer Überschuldung (Art. 725b Abs. 1 OR)
+  quelle: or__art-725b-t1
+  zitat: erstellt der Verwaltungsrat unverzüglich je einen Zwischenabschluss zu Fortführungswerten und Veräusserungswerten
+- thema: Prüfung der Zwischenabschlüsse durch die Revisionsstelle (Art. 725b Abs. 2 OR)
+  quelle: or__art-725b-t1
+  zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen
 - thema: Rangrücktritt bei Überschuldung inkl. Zinsforderungen (Art. 725b Abs. 4 Ziff. 1 OR)
   quelle: or__art-725b-t1
   zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- thema: Subsidiäre Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung (Art. 729c OR)
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
 - thema: Liberierung durch Verrechnung mit Darlehensforderung (Art. 634a Abs. 1 OR)
   quelle: or__art-634a
   zitat: Die Liberierung kann auch durch Verrechnung mit einer Forderung erfolgen.
-- thema: Zusatzangaben (u.a. Fälligkeiten langfristiger verzinslicher Verbindlichkeiten, Art. 961a OR) nur bei ordentlicher Revision (Art. 961 OR)
+- thema: Zusatzangaben (u.a. Art. 961a OR) nur bei ordentlicher Revision (Art. 961 OR)
   quelle: or__art-961
   zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
+- thema: Fälligkeitsaufteilung der langfristigen verzinslichen Verbindlichkeiten 1–5 Jahre / über 5 Jahre (Art. 961a Ziff. 1 OR; nur ordentliche Revision)
+  quelle: or__art-961a
+  zitat: zu den langfristigen verzinslichen Verbindlichkeiten, aufgeteilt nach Fälligkeit innerhalb von einem bis fünf Jahren und nach fünf Jahren
 risiken:
 - text: Nicht erfasste Darlehen, Zinsen oder Verpflichtungen (z.B. Aktionärsdarlehen nur mündlich vereinbart, Zinsen nicht gebucht).
   pruefziele:
@@ -63,7 +75,8 @@ risiken:
   - RV
   quelle: ser-2022__4-3-2
   zitat: Bilanzierte Verpflichtungen müssen solche des Unternehmens (und nicht z. B. des Eigentümers) sein.
-- text: 'Falsche Fristigkeit: innert 12 Monaten fällige Amortisationen/Rückzahlungen oder Darlehen mit verletzten Covenants weiterhin als langfristig ausgewiesen.'
+- text: 'Falsche Fristigkeit: voraussichtlich innert 12 Monaten fällige Amortisationen/Rückzahlungen oder Darlehen mit wahrscheinlicher Kündigung (z.B. Covenant-Verletzung) weiterhin
+    langfristig – bzw. umgekehrt Hypotheken oder auslaufende Festhypotheken mit wahrscheinlicher Verlängerung unnötig umgegliedert.'
   pruefziele:
   - DO
   - VO
@@ -76,8 +89,8 @@ risiken:
   - VO
   quelle: hwp-er-2026__rz-0162-s212
   zitat: Stellt der Abschlussprüfer wesentliche Transaktionen mit nahestehenden Personen fest, welche nicht korrekt erfasst, bewertet und/oder offengelegt sind
-- text: Rangrücktritt ungenügend (Höhe < Überschuldung, Zinsen nicht eingeschlossen, befristet/kündbar, unzulässig reduziert) oder Gläubiger ohne ausreichende Bonität; Verletzung des
-    Tilgungs-/Verrechnungsverbots.
+- text: Rangrücktritt ungültig oder ungenügend (Höhe < Überschuldung, Zinsen nicht eingeschlossen, befristet/widerruflich, unzulässig reduziert) oder Gläubiger ohne ausreichende Bonität;
+    Verletzung des Tilgungs-/Verrechnungsverbots. Folge kann die Benachrichtigung des Gerichts sein.
   pruefziele:
   - EX
   - RV
@@ -91,7 +104,7 @@ risiken:
   - RI
   quelle: ser-2022__4-3-6
   zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
-- text: Verpfändungen/Zessionen (inkl. Bank-AGB-Pfandrecht, Globalzession) nicht im Anhang offengelegt.
+- text: Verpfändungen/Zessionen nicht im Anhang offengelegt, insbesondere Bank-AGB-Pfandrecht bei beanspruchtem, nicht vollständig besonders gesichertem Kredit.
   pruefziele:
   - DO
   - RV
@@ -110,9 +123,14 @@ risiken:
   - DO
   quelle: hwp-er-2026__rz-0191-s224
   zitat: Unfähigkeit, die Bedingungen von Kreditvereinbarungen zu erfüllen
+- text: Fremdwährungsdarlehen falsch bewertet (unrealisierte Kursgewinne erfasst, Kursverluste nicht erfasst).
+  pruefziele:
+  - BE
+  quelle: hwp-bur-2023__rz-0090-s077-t2
+  zitat: allfällige noch nicht realisierte Kursverluste sind aufwandswirksam zu erfassen – unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
 unterlagen:
-- dokument: Darlehensspiegel/Aufstellung aller lang- und kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Saldo VJ, Zu-/Abgänge, Saldo, Zinssatz, Zinsaufwand, Fälligkeit/Amortisation,
-    Sicherheiten, Rangrücktritt)
+- dokument: Darlehensspiegel/Aufstellung aller lang- und kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Währung, Saldo VJ, Zu-/Abgänge, Saldo, Zinssatz, Zinsaufwand,
+    Fälligkeit/Amortisation, Sicherheiten, Rangrücktritt)
   zweck: Abstimmung mit Hauptbuch/Bilanz (N1-301, N1-402, N1-403)
   quelle: ser-2022__anh-d-s085-1
   zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
@@ -120,11 +138,11 @@ unterlagen:
   zweck: Konditionen, Fälligkeit, Sicherheiten, Covenants (N1-101 bis N1-103, N1-302)
   quelle: ser-2022__anh-d-s085-1
   zitat: Einsicht in Kredit- und Darlehensverträge
-- dokument: Bankauszüge, Zins- und Amortisationsabrechnungen sowie vom Kunden selbst eingeholte Bank-/Saldobestätigungen per 31.12.
+- dokument: Bankauszüge, Zins- und Amortisationsabrechnungen sowie beim Unternehmen vorhandene, von ihm selbst eingeholte Bank-/Saldobestätigungen per 31.12.
   zweck: Bestandesnachweis je Darlehen (N1-301 a/b)
   quelle: hwp-bur-2023__rz-0485-s256
   zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
-- dokument: Saldobestätigung bzw. Kontoauszug der Gegenbuchhaltung bei Konzern- und Aktionärsdarlehen
+- dokument: Kontoauszug der Gegenbuchhaltung bzw. vom Unternehmen selbst eingeholte Saldobestätigung bei Konzern- und Aktionärsdarlehen (keine Einholung durch Revisionsstelle oder Agent)
   zweck: Abstimmung Gegenbuchhaltung (N1-301 d)
   quelle: hwp-bur-2023__rz-0485-s256
   zitat: Bei Darlehen zwischen Konzerngesellschaften sind die Salden der Buchhaltungen gegenseitig abzustimmen.
@@ -140,10 +158,14 @@ unterlagen:
   zweck: Beurteilung Bonität durch WP (N1-105)
   quelle: hwp-bur-2023__rz-0717-s305-t2
   zitat: Der Verwaltungsrat hat die Einhaltung sämtlicher Anforderungen an einen gültigen Rangrücktritt, auch die Bonität des Gläubigers oder der Gläubigerin, nachzuweisen.
-- dokument: Covenant-Berechnung/Compliance-Bestätigung und ggf. schriftlicher Waiver der Bank
+- dokument: Covenant-Berechnung/Compliance-Bestätigung und ggf. schriftlicher Waiver der Bank (mit Datum)
   zweck: Einhaltung Kreditbedingungen, Fristigkeit (N1-101, N1-402)
   quelle: hwp-bur-2023__rz-0493-s257
   zitat: dass sie trotz Verletzung der Kreditbedingungen auf die sofortige bzw. innert eines Jahres fällige Rückzahlung verzichtet
+- dokument: Korrespondenz/Offerten der Bank zu auslaufenden Festhypotheken bzw. Festkrediten (Verlängerungsabsicht)
+  zweck: Fristigkeit auslaufender Festhypotheken (N1-103, N1-402)
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: Im Folgejahr auslaufende Festhypotheken können weiterhin als langfristig bilanziert werden, soweit ihre Verlängerung beabsichtigt und wahrscheinlich ist.
 - dokument: Pfand-, Zessions- und Sicherungsverträge, Grundbuchauszug/Schuldbriefe
   zweck: Sicherheiten und Anhangangabe verpfändete Aktiven (N1-102, N1-320)
   quelle: hwp-bur-2023__rz-0844-s348
@@ -152,14 +174,22 @@ unterlagen:
   zweck: Identifikation Nahestehender, Beschlüsse zu Darlehen/Verrechnungsliberierung (N1-104, N1-403)
   quelle: hwp-er-2026__rz-0161-s212
   zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
-- dokument: 'Bei Überschuldung: geprüfte Zwischenabschlüsse bzw. Überschuldungsstatus'
-  zweck: Höhe der erforderlichen Rangrücktritte (N1-105, N1-401)
-  quelle: hwp-er-2026__rz-0423-s125-t2
-  zitat: Art. 725 b OR sieht keine solche Erleichterung vor.
-- dokument: Berechnung verdecktes Eigenkapital (Aktiven zu Verkehrs-/Buchwerten) bei Darlehen von Beteiligten
+- dokument: 'Bei begründeter Besorgnis einer Überschuldung: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (durch die Revisionsstelle geprüft) bzw. Überschuldungsstatus'
+  zweck: Massstab und Höhe der erforderlichen Rangrücktritte (N1-105, N1-401)
+  quelle: or__art-725b-t1
+  zitat: erstellt der Verwaltungsrat unverzüglich je einen Zwischenabschluss zu Fortführungswerten und Veräusserungswerten
+- dokument: Berechnung verdecktes Eigenkapital (Aktiven zu Verkehrswerten Ende Steuerperiode, mangels Nachweis Buchwerte) inkl. von Beteiligten/Nahestehenden sichergestellter Drittkredite
   zweck: Beurteilung verdecktes Eigenkapital (N1-304)
-  quelle: estv-ks-6a-2024__einleitung-t3
-  zitat: Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.
+  quelle: estv-ks-6a-2024__einleitung-t2
+  zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+- dokument: Kontoblätter/Bankauszüge des Folgejahres bis zum Prüfungsdatum (Darlehens- und RR-Konten)
+  zweck: Zahlungen/Verrechnungen auf RR-Forderungen, Ereignisse nach dem Stichtag (N1-320, N1-403)
+  quelle: hwp-er-2026__rz-0434-s128
+  zitat: trotz andauernder Überschuldung ganz oder teilweise getilgt wurden
+- dokument: Schriftliche Antworten von GL/VR zu den Befragungen (z.B. 10.11 Kundenbefragung)
+  zweck: Grundlage der Befragungsschritte N1-101 bis N1-105
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - dokument: Vollständigkeitserklärung (u.a. Nahestehende, Belastungen, Verbindlichkeiten)
   zweck: Schriftliche Bestätigung der Befragungsergebnisse
   quelle: ser-2022__anh-e-s111-1
@@ -168,7 +198,7 @@ bewertung:
 - regel: Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert.
   quelle: hwp-bur-2023__rz-0486-s256
   zitat: Das Nennwertprinzip für die Verbindlichkeiten schliesst eine Bewertung zum tieferen Marktwert aus.
-- regel: Innert 12 Monaten fällige Teilbeträge sind kurzfristig, übrige langfristig; verzinsliche Verbindlichkeiten gesondert.
+- regel: Voraussichtlich innert 12 Monaten fällige Teilbeträge sind kurzfristig, übrige langfristig; verzinsliche Verbindlichkeiten gesondert.
   quelle: hwp-bur-2023__rz-0489-s257
   zitat: die voraussichtlich innerhalb von zwölf Monaten nach Bilanzstichtag zur Zahlung fällig werden, sind in der Bilanz als kurzfristig auszuweisen
 - regel: Kurzfristiger Anteil langfristiger Verbindlichkeiten ist unter den kurzfristigen verzinslichen Verbindlichkeiten zu bilanzieren.
@@ -177,9 +207,27 @@ bewertung:
 - regel: Innert eines Jahres fällige Amortisationsraten sind kurzfristig auszuweisen.
   quelle: hwp-bur-2023__rz-0463-s253
   zitat: Kurzfristige, innert eines Jahres fällige Amortisationsraten sind in den kurzfristigen Verbindlichkeiten auszuweisen.
-- regel: Covenant-Einhaltung bei Abschlusserstellung prüfen; bei Verletzung Umgliederung in kurzfristig, ausser schriftlicher Waiver vor Abschlusserstellung.
+- regel: Hypotheken bleiben trotz kurzfristiger Kündbarkeit langfristig (keine mechanische Umgliederung nach Kündigungsfrist).
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: Hypothekarschulden sind unter den langfristigen Verbindlichkeiten auszuweisen, auch wenn sie in der Praxis häufig kurzfristig kündbar sind.
+- regel: Im Folgejahr auslaufende Festhypotheken bleiben langfristig, soweit die Verlängerung beabsichtigt und wahrscheinlich ist (Wahrscheinlichkeit beurteilt WP).
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: Im Folgejahr auslaufende Festhypotheken können weiterhin als langfristig bilanziert werden, soweit ihre Verlängerung beabsichtigt und wahrscheinlich ist.
+- regel: Kurzfristig auszuweisen sind kündbare Hypotheken/Darlehen bei konkreter Kündigungsabsicht des Schuldners oder wenn mit einer Kündigung durch den Gläubiger zu rechnen ist.
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: wenn eine konkrete kurzfristige Kündigungsabsicht durch den Schuldner oder die Schuldnerin besteht
+- regel: Wahrscheinliche Kündigung durch den Gläubiger liegt z.B. bei Verletzung von Covenants vor.
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: wenn aufgrund der Verletzung bestimmter Kreditvertragsklauseln (sog. Covenants) eine frühzeitige Vertragsauflösung als wahrscheinlich erscheint
+- regel: Covenant-Einhaltung ist bei der Abschlusserstellung zu überprüfen; bei Verletzung grundsätzlich Umgliederung in kurzfristige verzinsliche Verbindlichkeiten.
   quelle: hwp-bur-2023__rz-0493-s257
   zitat: Bei der Abschlusserstellung muss deshalb überprüft werden, ob die Covenants eingehalten sind
+- regel: Ein schriftlicher Waiver der Bank vor Abschlusserstellung kann die Umgliederung nur allenfalls vermeiden (kein Automatismus; Beurteilung WP).
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: Die Umgliederung in die kurzfristigen verzinslichen Verbindlichkeiten kann allenfalls vermieden werden
+- regel: Bei Covenant-Verletzung/Waiver ist eine Offenlegung als Ereignis nach dem Bilanzstichtag zu prüfen (N1-320).
+  quelle: hwp-bur-2023__rz-0493-s257
+  zitat: Eine Offenlegung als Ereignis nach dem Bilanzstichtag ist zu prüfen.
 - regel: Langfristige Verbindlichkeiten gegenüber Nahestehenden gesondert in Bilanz oder Anhang.
   quelle: hwp-bur-2023__rz-0490-s257
   zitat: Ein gesonderter Ausweis in der Bilanz oder im Anhang wird vom Gesetz für langfristige Verbindlichkeiten gegenüber nahestehenden Personen verlangt
@@ -189,28 +237,65 @@ bewertung:
 - regel: Zinsen laufen trotz Rangrücktritt weiter und müssen dem Rangrücktritt unterliegen.
   quelle: hwp-bur-2023__rz-0714-s305
   zitat: Der Zinsendienst wird durch den Rangrücktritt nicht unterbrochen, jedoch müssen die Zinsen ebenfalls dem Rangrücktritt unterliegen
+- regel: 'Höhe des Rangrücktritts: Ausrichtung auf die Deckungslücke zu Fortführungswerten genügt nur, wenn die Fortführung nicht gefährdet ist; sonst Veräusserungswerte (Entscheid WP).'
+  quelle: hwp-er-2026__rz-0420-s125
+  zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
 - regel: 'Anhang: Buchwert der infolge Sicherung nicht frei verfügbaren Aktiven (nicht die gesicherten Schulden) angeben.'
   quelle: hwp-bur-2023__rz-0844-s348
   zitat: Das Gesetz verlangt nicht den separaten Ausweis der Verbindlichkeiten, für die eine Sicherstellung erfolgte
 - regel: Für jede langfristige Verbindlichkeit gesonderte Aufzeichnung der Eigenschaften und Bedingungen führen; schriftliche Verträge auch bei Nahestehenden.
   quelle: hwp-bur-2023__rz-0484-s256
   zitat: Es ist zweckmässig, für jede langfristige Verbindlichkeit eine gesonderte Aufzeichnung mit den relevanten Eigenschaften und Bedingungen zu führen.
-- regel: 'Steuerlich: verdecktes Eigenkapital nur soweit von Anteilsinhabern/Nahestehenden stammend; Zinsen darauf werden aufgerechnet (Gewinnsteuer, Verrechnungssteuer).'
+- regel: 'Fremdwährungsdarlehen (langfristig): unrealisierte Kursverluste aufwandwirksam erfassen, unrealisierte Kursgewinne nicht ausweisen (Kurssicherungen berücksichtigen).'
+  quelle: hwp-bur-2023__rz-0090-s077-t2
+  zitat: allfällige noch nicht realisierte Kursverluste sind aufwandswirksam zu erfassen – unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
+- regel: Die Umgliederung des kurzfristigen Anteils eines langfristigen Fremdwährungsdarlehens realisiert keinen Kursgewinn.
+  quelle: hwp-bur-2023__rz-0090-s077-t1
+  zitat: Die Umgliederung des kurzfristigen Anteils eines langfristigen Darlehens stellt jedoch keinen Realisationstatbestand dar.
+- regel: 'Steuerlich (KS 6a): Basis sind die Verkehrswerte der Aktiven am Ende der Steuerperiode.'
+  quelle: estv-ks-6a-2024__einleitung-t2
+  zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+- regel: Ohne Nachweis höherer Verkehrswerte gelten die Buchwerte bzw. Gewinnsteuerwerte.
+  quelle: estv-ks-6a-2024__einleitung-t2
+  zitat: Sofern keine höheren Verkehrswerte nachgewiesen sind, geht die Veranlagungsbehörde von den Buchwerten
+- regel: Als verdecktes Eigenkapital gilt nur der Teil des übersteigenden Fremdkapitals, der direkt oder indirekt von Anteilsinhabern/Nahestehenden stammt.
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Wesentlich ist, dass nur derjenige Teil als verdeckt gilt, der direkt oder indirekt von Anteilsinhabern oder diesen nahestehenden Personen stammt.
-- regel: Auf verdecktes Eigenkapital entfallende Schuldzinsen sind dem Reingewinn hinzuzurechnen.
+- regel: Fremdkapital unabhängiger Dritter ist nur dann kein verdecktes Eigenkapital, wenn es nicht von Anteilsinhabern/Nahestehenden sichergestellt ist.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: ohne Sicherstellung durch den Anteilsinhaber oder diesem nahestehenden Personen
+- regel: Der Nachweis, dass die Finanzierung dem Drittvergleich standhält, bleibt vorbehalten.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Der Nachweis, dass die konkrete Finanzierung dem Drittvergleich standhält, bleibt vorbehalten.
+- regel: Auf verdecktes Eigenkapital entfallende Schuldzinsen sind dem Reingewinn hinzuzurechnen (Gewinnsteuer).
   quelle: estv-ks-6a-2024__3-1
   zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+- regel: Bei Darlehen Beteiligter zu einem Zins unter dem Marktniveau wird nur der über den zulässigen Zins hinausgehende Rest aufgerechnet.
+  quelle: estv-ks-6a-2024__3-1
+  zitat: Nur der verbleibende Rest wird aufgerechnet.
+- regel: Zinsen auf verdecktem Eigenkapital unterliegen als geldwerte Leistung der Verrechnungssteuer.
+  quelle: estv-ks-6a-2024__3-2
+  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen gemäss Ziffer 3.1 oben unterliegen als geldwerte Leistung
 fallstricke:
-- text: Bankbestätigungen werden in der eingeschränkten Revision nicht selbst eingeholt (N1-301 a); vom Kunden selbst eingeholte Bestätigungen dürfen verwendet werden.
+- text: Bankbestätigungen werden in der eingeschränkten Revision nicht selbst eingeholt (N1-301 a); vom Unternehmen selbst eingeholte Bestätigungen dürfen verwendet werden.
   quelle: hwp-er-2026__rz-0095-s196
   zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
 - text: Vom Unternehmen selbst eingeholte Drittbestätigungen sind zulässige Prüfungsnachweise, auch wenn sie nicht direkt an die Revisionsstelle gingen.
   quelle: hwp-er-2026__rz-0137-s203
   zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
+- text: 'Saldobestätigungen von Aktionären/Konzerngesellschaften fordert der Agent nicht an; an die Revisionsstelle adressierte Bestätigungen: Herkunft im Textfeld dokumentieren, über
+    die Verwendung entscheidet der WP.'
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Die eingeschränkte Revision beschränkt sich auf die im Unternehmen intern vorhandenen Unterlagen.
 - text: Rangrücktritt ohne ausdrücklichen Einschluss der Zinsen genügt dem Gesetz nicht; aufgelaufene Zinsen auf RR-Darlehen mitberücksichtigen.
   quelle: hwp-er-2026__rz-0412-s123
   zitat: Gemäss Gesetz müssen die Zinsen zwingend dem Rangrücktritt unterliegen, was ausdrücklich vereinbart werden muss.
+- text: Rangrücktritt muss unwiderruflich (Vertrag zugunsten Dritter) und ohne Befristung/Kündigungsmöglichkeit vor Beseitigung der Überschuldung ausgestaltet sein.
+  quelle: hwp-bur-2023__rz-0715-s305
+  zitat: Der Rangrücktritt muss als Vertrag zugunsten Dritter unwiderruflich ausgestaltet werden.
+- text: Aufhebung eines Rangrücktritts erst nach SA-CH-geprüftem (Zwischen-)Abschluss ohne Überschuldung; der Bericht zur eingeschränkten Revision genügt dafür nicht.
+  quelle: hwp-bur-2023__rz-0717-s305-t1
+  zitat: Der Revisionsbericht bei eingeschränkter Revision genügt zur Aufhebung einer Rangrücktrittsvereinbarung deshalb nicht
 - text: Reduktion eines Rangrücktritts ist nur unter engen Bedingungen zulässig (u.a. SA-CH-geprüfter Zwischenabschluss); bei Reduktion/Ersatz prüft die Revisionsstelle sämtliche Anforderungen
     erneut.
   quelle: hwp-er-2026__rz-0425-s126
@@ -218,6 +303,15 @@ fallstricke:
 - text: Keine Tilgung, Zinszahlung oder Verrechnung (z.B. mit einem Aktivdarlehen an denselben Aktionär) auf Forderungen unter Rangrücktritt.
   quelle: hwp-er-2026__rz-0415-s123-t2
   zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+- text: 'Ungültiger oder ungenügender Rangrücktritt ohne andere bilanzwirksame Sanierungsmassnahmen: Benachrichtigung des Gerichts unvermeidbar, Mahnung des VR und subsidiäre Anzeige
+    durch die Revisionsstelle. Darüber entscheidet nur der WP; der Agent erfasst eine wesentliche Feststellung und einen Punkt für die Schlussbesprechung und kontaktiert weder VR noch
+    Gericht.'
+  quelle: hwp-er-2026__rz-0433-s127
+  zitat: lässt sich die Benachrichtigung des Gerichts nicht vermeiden
+- text: 'RR-Forderung trotz andauernder Überschuldung getilgt oder verrechnet (auch im Folgejahr): Hinweis nach Art. 729c OR und Auswirkung auf die Prüfungsaussage beurteilt der WP;
+    der Agent eskaliert als wesentliche Feststellung.'
+  quelle: hwp-er-2026__rz-0434-s128
+  zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
 - text: Umwandlung einer RR-Forderung in Eigenkapital (Verrechnungsliberierung) bzw. Verzicht ist zulässig und lässt den Rangrücktritt dahinfallen; danach Deckung der Überschuldung neu
     beurteilen.
   quelle: hwp-er-2026__rz-0416-s124
@@ -228,15 +322,33 @@ fallstricke:
 - text: Nachträgliche Sicherstellung einer Forderung unter Rangrücktritt ist abzulehnen.
   quelle: hwp-er-2026__rz-0418-s124
   zitat: Eine nachträgliche Sicherstellung der Forderung ist abzulehnen.
-- text: Bank-AGB-Pfandrecht/Globalzession bei beanspruchtem Kredit ist im Anhang offenzulegen, auch wenn die Bank es nicht geltend macht.
+- text: 'Rangrücktritt in anderer Währung als das Darlehen: Deckung wegen Kursrisiko zum Stichtagskurs nachrechnen; Überwachung obliegt dem VR.'
+  quelle: hwp-bur-2023__rz-0717-s305-t2
+  zitat: ist dessen Höhe vom Verwaltungsrat zu überwachen, um dem Kursrisiko Rechnung zu tragen
+- text: N1-105 (Befragung RR) und N1-401 (Einsicht RR) sind in SER Anh. D weiter gehende Prüfungshandlungen; die 4xx-Schritte (N1-401 bis N1-403) bearbeitet der Agent nur, wenn der WP
+    sie markiert bzw. angewiesen hat.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: nur auf Anweisung, physische Tätigkeiten nie
+- text: Bank-AGB-Pfandrecht ist im Anhang offenzulegen (sämtliche Guthaben/Depots bei dieser Bank), soweit ein nicht oder nicht vollständig besonders gesichertes Kreditverhältnis besteht
+    – auch wenn die Bank es nicht geltend macht.
   quelle: hwp-bur-2023__rz-0847-s349-t2
-  zitat: stellt diese Verpfändung einen ausweispflichtigen Tatbestand dar
+  zitat: ein nicht oder nicht vollständig durch besondere Sicherheiten gesichertes Kreditverhältnis hat
+- text: Kein Ausweis des AGB-Pfandrechts, wenn am Stichtag kein Kreditverhältnis besteht oder die Kreditlimiten nicht beansprucht sind.
+  quelle: hwp-bur-2023__rz-0847-s349-t2
+  zitat: Besteht hingegen am Abschlussstichtag kein Kreditverhältnis oder sind gewährte Kreditlimiten nicht beansprucht
+- text: Neben dem AGB-Pfandrecht häufig Sicherungszession/Abtretungsvereinbarung; für den Anhang zählt, ob die Abtretungs- bzw. Pfandrechte am Stichtag noch bestehen.
+  quelle: hwp-bur-2023__rz-0847-s349-t1
+  zitat: Abtretungsvereinbarung (fiduziarische Sicherungsübereignung bzw. Sicherungszession)
 - text: Verzinsliche Aktionärsdarlehen gehören unter die langfristigen verzinslichen (nicht unter übrige) Verbindlichkeiten; Gruppenzuordnung der Konten in der Saldoliste prüfen.
   quelle: or__art-959a-t1
   zitat: langfristige verzinsliche Verbindlichkeiten
-- text: Fälligkeitsaufteilung 1–5 / über 5 Jahre (Art. 961a OR) ist nur bei ordentlicher Revision Pflicht; Fehlen bei SER-Mandat nicht als Mangel erfassen.
+- text: Fälligkeitsaufteilung 1–5 / über 5 Jahre (Art. 961a Ziff. 1 OR) ist nur bei ordentlicher Revision Pflicht; Fehlen bei SER-Mandat nicht als Mangel erfassen.
   quelle: or__art-961
   zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
+- text: 'Kündbare Hypotheken bzw. sinngemäss Darlehen mit unbestimmter Laufzeit nicht mechanisch nach Kündigungsfrist umgliedern: kurzfristig nur bei konkreter Kündigungsabsicht des
+    Schuldners oder wahrscheinlicher Kündigung durch den Gläubiger; Annahme im Textfeld dokumentieren.'
+  quelle: hwp-bur-2023__rz-0463-s253
+  zitat: wenn eine konkrete kurzfristige Kündigungsabsicht durch den Schuldner oder die Schuldnerin besteht
 - text: 'ESTV-Zinssätze gelten je Kalenderjahr: das Rundschreiben 2026 gilt ab 1.1.2026 und darf nicht auf das Geschäftsjahr 2025 übertragen werden; das Rundschreiben 2025 ist im Wiki
     nicht erfasst (Pendenz/Quelle beschaffen).'
   quelle: estv-zinsen-2026__s001-2
@@ -244,27 +356,36 @@ fallstricke:
 - text: Für ESTV-Limiten sind Kredite sämtlicher Beteiligter und Nahestehender zusammenzuzählen; höhere Sätze nur mit Drittvergleich.
   quelle: estv-zinsen-2026__s002-1
   zitat: Für die Berechnung der Limiten sind die Kredite sämtlicher Beteiligten und nahestehender Personen zusammen zu zählen.
+- text: 'Festgestellte verdeckte Gewinnausschüttung (z.B. übersetzte Zinsen): Mitteilung an den VR, Rückerstattung nach Art. 678 OR, Hinweis im Bericht und VSt-Aspekte entscheidet der
+    WP; der Agent erfasst eine wesentliche Feststellung.'
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
 - text: Zinsplausibilisierung allein genügt für wesentliche Positionen nicht; mit Detailprüfungen (Abstimmung, Verträge) ergänzen.
   quelle: hwp-er-2026__rz-0111-s199-t1
   zitat: Gemäss SER sind wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen
-- text: 'Darlehen mit unbestimmter Laufzeit und kurzer Kündigungsfrist: Fristigkeit nach voraussichtlicher Fälligkeit beurteilen (Kündigungsabsicht, Rangrücktritt schliesst Rückzahlung
-    aus) und Annahme dokumentieren.'
 fragen_kunde:
 - frage: 'Wurden im Geschäftsjahr oder bis heute Bestimmungen von Kredit-/Darlehensverträgen (Covenants/Kennzahlen, Amortisationen, Zinszahlungen, Verwendungszweck) nicht eingehalten?
-    Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor?'
-  zweck: 'N1-101: Fristigkeit, Fortführung, allfällige Korrekturen'
+    Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor (Datum)?'
+  zweck: 'N1-101: Fristigkeit, Fortführung, Ereignis nach dem Stichtag, allfällige Korrekturen'
 - frage: Welche Sicherheiten bestehen zugunsten der Darlehensgeber (Grundpfand/Schuldbriefe, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien/Bürgschaften)? Wie hoch ist der Buchwert
-    der verpfändeten/abgetretenen Aktiven per 31.12.?
+    der verpfändeten/abgetretenen Aktiven per 31.12.? Welche Kreditlimiten waren am Stichtag beansprucht?
   zweck: 'N1-102/N1-320: Rechte/Verpflichtungen, Anhang Art. 959c Abs. 2 Ziff. 9 OR'
-- frage: Welche Amortisationen/Rückzahlungen werden innert 12 Monaten nach Bilanzstichtag fällig? Bestehen Kündigungen, Kündigungsabsichten oder auslaufende Festkredite (Verlängerung
-    beabsichtigt)?
+- frage: Welche Amortisationen/Rückzahlungen werden innert 12 Monaten nach Bilanzstichtag fällig? Bestehen Kündigungen oder konkrete Kündigungsabsichten (eigene oder der Bank)? Laufen
+    Festhypotheken/Festkredite im Folgejahr aus und ist ihre Verlängerung beabsichtigt (Nachweis)?
   zweck: 'N1-103/N1-402: Gliederung kurz-/langfristig'
 - frage: Bestehen Darlehen von Aktionären, VR-/GL-Mitgliedern, diesen nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht? Zu welchen Konditionen (Zins, Laufzeit,
     Sicherheiten) und wie wurde der Zins festgelegt?
   zweck: 'N1-104/N1-304: Vollständigkeit, Ausweis Art. 959a Abs. 4 OR, Drittvergleich'
-- frage: Welche Rangrücktritte bestehen (Gläubiger, Betrag inkl. Zinsen)? Wurden sie im Jahr oder danach geändert, reduziert, ersetzt oder aufgehoben? Wurden darauf Zinsen/Rückzahlungen
+- frage: Haben Aktionäre oder ihnen Nahestehende Kredite Dritter an die Gesellschaft sichergestellt (Bürgschaft, Garantie, Verpfändung)? Liegen Nachweise für Verkehrswerte der Aktiven
+    über den Buchwerten vor?
+  zweck: 'N1-304: Berechnung verdecktes Eigenkapital nach ESTV-KS 6a'
+- frage: Bestand im Geschäftsjahr begründete Besorgnis einer Überschuldung? Wurden Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten erstellt und geprüft?
+  zweck: 'N1-105/N1-401: Massstab für die Höhe der Rangrücktritte'
+- frage: Welche Rangrücktritte bestehen (Gläubiger, Betrag inkl. Zinsen, Währung)? Wurden sie im Jahr oder danach geändert, reduziert, ersetzt oder aufgehoben? Wurden darauf Zinsen/Rückzahlungen
     bezahlt oder Verrechnungen vorgenommen? Welche Bonitätsnachweise der Gläubiger liegen vor?
   zweck: 'N1-105/N1-401: Gültigkeit und Höhe der Rangrücktritte, Bonität (WP-Beurteilung)'
+- frage: Bestehen Darlehen in Fremdwährung? Zu welchem Kurs wurden sie erfasst und per 31.12. bewertet?
+  zweck: 'N1-301: Bewertung Fremdwährungsdarlehen'
 - frage: Was ist der Hintergrund der Zu- und Abgänge auf den Darlehenskonten (Neuaufnahmen, Rückzahlungen, Umbuchungen, Verrechnungsliberierung)? Liegen die entsprechenden Verträge und
     Beschlüsse vor?
   zweck: 'N1-403: Eintritt, Rechte/Verpflichtungen'
@@ -291,14 +412,23 @@ testakte_2025:
   bezug: 'N1-403, N1-301, N1-201, N1-303: Kontoblätter 2400, 2450, 2451–2455, 2170, 2100 und Zinsbuchungen'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: 'N1-402, N1-320, N1-105: Bilanzgliederung, Anhang Ziff. 2 (Nahestehende/Rangrücktritt) und Ziff. 6 (Überschuldung/Ereignisse)'
+- datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
+  bezug: 'N1-320, N1-403: Buchungen Jan./Feb. 2026 – Auszug enthält nur Konten 1100, 3200, 2000, keine Darlehens-/RR-Konten; Bewegungen 2026 auf 2170/2451–2455 fehlen (bei Bedarf Pendenz)'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'N1-320, N1-403: Zahlungen Januar 2026 – Durchsicht auf Zahlungen an Aktionäre/RR-Gläubiger nach dem Stichtag'
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'N1-303: Liste passive Rechnungsabgrenzungen Konto 2300 (Abgleich, ob Marchzinsen abgegrenzt sind; Zinsen Aktionärsdarlehen separat auf Konto 2170)'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
-  bezug: 'N1-301 a, N1-102, N1-103: Bankdarlehen/Festvorschuss, Konditionen, Sicherheiten zugunsten der Bank'
+  bezug: 'N1-301 a, N1-102, N1-103: Festvorschuss FV-2023-118 (fällig 31.03.2026), Darlehen DL-2021-044 (Amortisation pro Quartal), Sicherheiten; an die Revisionsstelle adressiert –
+    Herkunft dokumentieren, Verwendung entscheidet WP'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
-  bezug: 'N1-102, N1-301 a: Kreditlimiten und Sicherheiten'
+  bezug: 'N1-102, N1-301 a: Kreditlimiten und Sicherheiten; an die Revisionsstelle adressiert – Herkunft dokumentieren, Verwendung entscheidet WP'
 - datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1010_CHF_Dezember_2025.md
   bezug: 'N1-301 b, N1-403, N1-201: Zins- und Amortisationsbelastungen Bankdarlehen'
 - datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
   bezug: 'N1-104: Identifikation der beteiligten Aktionäre/Darlehensgeber'
+- datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
+  bezug: 'N1-104, N1-105, N1-403: Wahl VR (Organe), Vortrag Bilanzverlust 2024; keine Beschlüsse zu Darlehen'
 - datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
   bezug: 'N1-403, N1-401: Abgang Konto 2450 durch Verrechnungsliberierung'
 - datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
@@ -311,15 +441,17 @@ testakte_2025:
   bezug: Übersicht der Belege Ordner I und A (Vollständigkeit der Unterlagen)
 schritte:
 - id: N1-101
-  vorgehen: 'Schriftliche Antwort von GL/VR auswerten (fehlt sie: Frage als Pendenz erfassen): Wurden Kreditbedingungen (Covenants, Amortisationen, Zinszahlungen) verletzt? Antwort mit
-    Kreditverträgen und Bankkorrespondenz abgleichen; bei Verletzung Massnahmen, Waiver und Folgen für Fristigkeit und Fortführung festhalten. Frage und Antwort im Textfeld dokumentieren.'
+  vorgehen: 'Schriftliche Antwort von GL/VR (z.B. 10.11 Kundenbefragung) auswerten; fehlt sie: Frage als Pendenz, Status höchstens «teilweise bearbeitet». Wurden Kreditbedingungen (Covenants,
+    Amortisationen, Zinsen) verletzt? Mit Kreditverträgen und Bankkorrespondenz abgleichen; bei Verletzung Massnahmen, Waiver (Datum) und Folgen für Fristigkeit (N1-402), Fortführung
+    und Anhang (Ereignis nach Stichtag, N1-320) festhalten.'
   nachweise:
   - Schriftliche Antwort GL/VR
   - Kreditverträge mit Covenant-Klauseln
   - Covenant-Berechnung/Compliance-Bestätigung
   - Waiver der Bank (falls Verletzung)
   rechnen: Covenant-Kennzahlen gemäss Vertragsdefinition aus Jahresrechnung nachrechnen und mit Schwellenwert vergleichen
-  feststellung_wenn: Verletzte Kreditbedingungen ohne schriftlichen Waiver vor Abschlusserstellung bei weiterhin langfristigem Ausweis, oder Antwort fehlt bzw. widerspricht den Unterlagen.
+  feststellung_wenn: Covenant verletzt und weiterhin langfristig ausgewiesen ohne Waiver vor Abschlusserstellung (Wirkung beurteilt WP), Offenlegung nach Stichtag fehlt, oder Antwort
+    widerspricht den Unterlagen.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (z. B. Kennzahlen in Kreditverträgen) nicht eingehalten hat
@@ -327,17 +459,27 @@ schritte:
     zitat: Besprechung der Massnahmen der Unternehmensleitung und der allfällig erforderlichen Korrekturen in der Jahresrechnung
   - quelle: hwp-bur-2023__rz-0493-s257
     zitat: Bei der Abschlusserstellung muss deshalb überprüft werden, ob die Covenants eingehalten sind
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: Die Umgliederung in die kurzfristigen verzinslichen Verbindlichkeiten kann allenfalls vermieden werden
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: Eine Offenlegung als Ereignis nach dem Bilanzstichtag ist zu prüfen.
   - quelle: hwp-er-2026__rz-0103-s197
     zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: sonst Frage als Pendenz; höchstens «teilweise bearbeitet»
 - id: N1-102
-  vorgehen: Antwort zu Sicherheiten (Grundpfand, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien) auswerten bzw. als Pendenz erfragen; mit Kreditverträgen, Pfand-/Zessionsverträgen
-    und vorhandener Bankbestätigung (Abschnitt Sicherheiten) abgleichen. Buchwert verpfändeter/abgetretener Aktiven ermitteln und mit Anhangangabe vergleichen.
+  vorgehen: 'Schriftliche Antwort zu Sicherheiten (Grundpfand, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien) auswerten; fehlt sie: Frage als Pendenz, Status höchstens «teilweise
+    bearbeitet». Mit Kredit-, Pfand-/Zessionsverträgen und Bankunterlagen (Sicherheiten, Limiten) abgleichen. Buchwert verpfändeter/abgetretener Aktiven ermitteln (AGB-Pfandrecht nur
+    bei beanspruchtem, nicht voll besonders gesichertem Kredit) und mit Anhang vergleichen.'
   nachweise:
   - Antwort GL zu Sicherheiten
   - Pfand-, Zessions- und Sicherungsverträge
-  - Bankbestätigung/Kreditvertrag (Sicherheiten)
+  - Bankunterlagen/Kreditvertrag (Sicherheiten, Limiten)
   - Anhang der Jahresrechnung
-  rechnen: Summe Buchwerte verpfändeter/abgetretener Aktiven per 31.12. = Anhangangabe zur Sicherung eigener Verbindlichkeiten verwendete Aktiven
+  rechnen: Summe Buchwerte verpfändeter/abgetretener Aktiven per 31.12. (inkl. Guthaben bei Banken mit AGB-Pfandrecht und beanspruchtem Kredit) = Anhangangabe zur Sicherung eigener Verbindlichkeiten
+    verwendete Aktiven
   feststellung_wenn: Verpfändung/Zession besteht, ist aber nicht oder mit abweichendem Betrag im Anhang offengelegt, oder Antwort widerspricht Verträgen/Bankunterlagen.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -346,24 +488,46 @@ schritte:
     zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
   - quelle: hwp-bur-2023__rz-0844-s348
     zitat: Das Gesetz verlangt nicht den separaten Ausweis der Verbindlichkeiten, für die eine Sicherstellung erfolgte
+  - quelle: hwp-bur-2023__rz-0847-s349-t2
+    zitat: ein nicht oder nicht vollständig durch besondere Sicherheiten gesichertes Kreditverhältnis hat
+  - quelle: hwp-bur-2023__rz-0847-s349-t2
+    zitat: Besteht hingegen am Abschlussstichtag kein Kreditverhältnis oder sind gewährte Kreditlimiten nicht beansprucht
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: N1-103
-  vorgehen: 'Antwort der GL zur Fristigkeit auswerten bzw. erfragen: innert 12 Monaten fällige Amortisationen/Rückzahlungen, Kündigungen, auslaufende Festkredite und Verlängerungsabsichten.
-    Mit Amortisationsplänen und Verträgen abgleichen; Ergebnis als Grundlage für N1-402 im Textfeld festhalten.'
+  vorgehen: 'Schriftliche Antwort der GL (z.B. 10.11 Kundenbefragung) zur Fristigkeit auswerten; fehlt sie: Frage als Pendenz, Status höchstens «teilweise bearbeitet». Inhalt: Fälligkeiten
+    innert 12 Monaten, Kündigungen/Kündigungsabsichten, Covenant-Verletzungen, auslaufende Festhypotheken mit Verlängerungsabsicht. Mit Amortisationsplänen, Verträgen und Bankkorrespondenz
+    abgleichen; Ergebnis als Grundlage für N1-402 festhalten.'
   nachweise:
   - Antwort GL zur Fälligkeit
   - Kreditverträge/Amortisationspläne
-  - Kündigungs-/Verlängerungskorrespondenz
-  rechnen: Kurzfristiger Anteil = Summe der vertraglich zwischen 01.01. und 31.12. des Folgejahres fälligen Amortisationen/Rückzahlungen
-  feststellung_wenn: Innert 12 Monaten fällige Beträge gemäss Antwort oder Vertrag sind nicht als kurzfristig ausgewiesen, oder Antwort widerspricht den Verträgen.
+  - Kündigungs-/Verlängerungskorrespondenz, Bankofferten
+  rechnen: Kurzfristiger Anteil = Σ vertraglich innert 12 Monaten nach Stichtag fällige Amortisationen/Rückzahlungen – im Folgejahr auslaufende Festhypotheken mit belegter Verlängerungsabsicht
+    (Wahrscheinlichkeit beurteilt WP) + kündbare Darlehen mit konkreter Kündigungsabsicht bzw. Covenant-Verletzung ohne Waiver
+  feststellung_wenn: Voraussichtlich innert 12 Monaten fällige Beträge langfristig ausgewiesen, Antwort widerspricht den Verträgen, oder Grenzfall (Verlängerung, Waiver) ohne Nachweis
+    – dann Pendenz an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Befragung zur Gliederung in langfristige und kurzfristige Darlehen
   - quelle: or__art-959
     zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag oder innerhalb des normalen Geschäftszyklus zur
       Zahlung fällig werden.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: Hypothekarschulden sind unter den langfristigen Verbindlichkeiten auszuweisen, auch wenn sie in der Praxis häufig kurzfristig kündbar sind.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: Im Folgejahr auslaufende Festhypotheken können weiterhin als langfristig bilanziert werden, soweit ihre Verlängerung beabsichtigt und wahrscheinlich ist.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: wenn eine konkrete kurzfristige Kündigungsabsicht durch den Schuldner oder die Schuldnerin besteht
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: wenn aufgrund der Verletzung bestimmter Kreditvertragsklauseln (sog. Covenants) eine frühzeitige Vertragsauflösung als wahrscheinlich erscheint
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: sonst Frage als Pendenz; höchstens «teilweise bearbeitet»
 - id: N1-104
-  vorgehen: Liste der Nahestehenden (Aktionäre, VR/GL, Beteiligungen) aus Aktienbuch, HR-Auszug und GV-/VR-Protokollen erstellen; schriftliche Antwort der GL zu deren Darlehen auswerten
-    und mit Hauptbuchkonten abgleichen. Gesonderten Ausweis in Bilanz/Anhang prüfen und Konditionen für N1-304 notieren.
+  vorgehen: 'Liste der Nahestehenden (Aktionäre, VR/GL, Beteiligungen) aus Aktienbuch, HR-Auszug und GV-/VR-Protokollen erstellen. Schriftliche Antwort der GL zu deren Darlehen (z.B.
+    10.11 Kundenbefragung) auswerten; fehlt sie: Frage als Pendenz, Status höchstens «teilweise bearbeitet». Mit Hauptbuchkonten abgleichen, gesonderten Ausweis in Bilanz/Anhang prüfen
+    und Konditionen für N1-304 notieren.'
   nachweise:
   - Aktienbuch, HR-Auszug, GV-/VR-Protokolle
   - Antwort GL zu Darlehen Nahestehender
@@ -378,25 +542,46 @@ schritte:
     zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
   - quelle: or__art-959a-t2
     zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: sonst Frage als Pendenz; höchstens «teilweise bearbeitet»
 - id: N1-105
-  vorgehen: Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen) auswerten bzw. erfragen und mit den Vereinbarungen (N1-401) und
-    dem Überschuldungsstatus abgleichen. Bonitätsnachweise der Gläubiger zusammenstellen und die Bonitätsbeurteilung als Pendenz an den WP übergeben (Kennzeichnung WP, kein eigenes Urteil).
+  vorgehen: 'Weiter gehende Prüfungshandlung (SER Anh. D), WP-Schritt. Schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen)
+    auswerten; fehlt sie: Frage als Pendenz. Mit Vereinbarungen (N1-401) und geprüften Zwischenabschlüssen abgleichen. Bonitätsnachweise zusammenstellen; Bonitätsbeurteilung als Pendenz
+    an den WP (kein eigenes Urteil).'
   nachweise:
   - Antwort GL/VR zu Rangrücktritten
   - Rangrücktrittsvereinbarungen
-  - Überschuldungsstatus/Zwischenabschluss
+  - Geprüfte Zwischenabschlüsse (Fortführungs-/Veräusserungswerte) bzw. Überschuldungsstatus
   - Bonitätsnachweise der Gläubiger
-  rechnen: Überschuldung = Fremdkapital – Aktiven (zu Fortführungswerten) per 31.12.; Summe Rangrücktritte inkl. Zinsen – Überschuldung ≥ 0
-  feststellung_wenn: Rangrücktritte decken die Überschuldung inkl. Zinsen nicht, Bonitätsnachweis fehlt, oder auf RR-Forderungen wurden Zahlungen/Verrechnungen vorgenommen.
+  rechnen: Überschuldung gemäss (geprüftem) Zwischenabschluss zu Fortführungswerten, bei gefährdeter Fortführung zu Veräusserungswerten (Massstab entscheidet WP); Σ Rangrücktritte inkl.
+    Zinsen – Überschuldung ≥ 0
+  feststellung_wenn: 'RR deckt Überschuldung inkl. Zinsen nicht, ist ungültig, Bonitätsnachweis fehlt oder RR-Forderung getilgt/verrechnet: wesentliche Feststellung + Schlussbesprechung,
+    sofort an WP.'
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Befragung zu Rangrücktritten
+  - quelle: ser-2022__anh-d-s085-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0432-s127
+    zitat: Die Revisionsstelle hat sich davon zu überzeugen, dass der Rangrücktritt in qualitativer und quantitativer Hinsicht ausreichend ist.
   - quelle: hwp-er-2026__rz-0432-s127
     zitat: Dies beinhaltet auch die Beurteilung der Bonität des Rangrücktrittgläubigers
   - quelle: hwp-er-2026__rz-0420-s125
     zitat: Gemäss Art. 725b Abs. 4 OR hat der Rangrücktritt mindestens im Ausmass der Überschuldung zu erfolgen.
+  - quelle: hwp-er-2026__rz-0420-s125
+    zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
+  - quelle: or__art-725b-t1
+    zitat: erstellt der Verwaltungsrat unverzüglich je einen Zwischenabschluss zu Fortführungswerten und Veräusserungswerten
   - quelle: hwp-bur-2023__rz-0717-s305-t2
     zitat: Der Verwaltungsrat hat die Einhaltung sämtlicher Anforderungen an einen gültigen Rangrücktritt, auch die Bonität des Gläubigers oder der Gläubigerin, nachzuweisen.
+  - quelle: hwp-er-2026__rz-0433-s127
+    zitat: lässt sich die Benachrichtigung des Gerichts nicht vermeiden
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: sonst Frage als Pendenz; höchstens «teilweise bearbeitet»
 - id: N1-201
   vorgehen: Erwartungswert Zinsaufwand je Darlehen bilden (Saldo bzw. zeitgewichteter Saldo ab Auszahlung/Amortisation × Vertragszins) und mit gebuchtem Zinsaufwand vergleichen. Abweichungen
     über der tolerierbaren Abweichung klären (fehlende Abgrenzung, Gebühren, Zinsen unter Rangrücktritt). Rechnung, Toleranz und Ergebnis im Textfeld dokumentieren.
@@ -414,28 +599,37 @@ schritte:
   - quelle: hwp-er-2026__rz-0108-s198
     zitat: Dabei wird keine exakte Übereinstimmung der geprüften Daten mit den zur Verfügung stehenden Vergleichsgrössen angestrebt
 - id: N1-301
-  vorgehen: Darlehensspiegel/Saldoliste mit Hauptbuch und Bilanz abstimmen; je Darlehen Saldo 31.12. abgleichen mit a) vom Kunden vorliegender Bankbestätigung/Kontoauszug, b) Zins-/Amortisationsabrechnungen,
-    c) Verträgen, d) Gegenbuchhaltung/Saldobestätigung, e) übrigen Unterlagen (z.B. GV-Protokoll). Keine Bankbestätigung selbst einholen; fehlende Nachweise als Pendenz.
+  vorgehen: Darlehensspiegel/Saldoliste mit Hauptbuch und Bilanz abstimmen; je Darlehen Saldo 31.12. abgleichen mit a) beim Unternehmen vorhandener Bankbestätigung/Kontoauszug, b) Zins-/Amortisationsabrechnungen,
+    c) Verträgen, d) Gegenbuchhaltung bzw. vom Unternehmen selbst eingeholter Saldobestätigung, e) übrigen Unterlagen (z.B. GV-Protokoll). Keine Bestätigung selbst einholen; Herkunft
+    dokumentieren, fehlende Nachweise als Pendenz.
   nachweise:
   - Darlehensspiegel
   - Saldoliste/Kontoblätter
-  - Bankbestätigung bzw. Kontoauszug per 31.12.
+  - Bankbestätigung bzw. Kontoauszug per 31.12. (beim Unternehmen vorhanden)
   - Zinsabrechnungen
   - Verträge
-  - Saldobestätigung Gegenpartei
-  rechnen: Σ Einzelsalden Darlehensspiegel = Saldo Bilanzposition = Σ Hauptbuchkonten; je Darlehen Saldo Buchhaltung = Saldo Nachweis
-  feststellung_wenn: Differenz zwischen Bilanz, Hauptbuch und Nachweis je Darlehen, oder kein Nachweis für ein wesentliches Darlehen vorhanden.
+  - Gegenbuchhaltung bzw. vom Unternehmen eingeholte Saldobestätigung
+  rechnen: 'Σ Einzelsalden Darlehensspiegel = Saldo Bilanzposition = Σ Hauptbuchkonten; je Darlehen Saldo Buchhaltung = Saldo Nachweis; Fremdwährungsdarlehen: FW-Betrag × höherer von
+    historischem und Stichtagskurs (unrealisierte Kursgewinne nicht erfassen, Kurssicherung vorbehalten)'
+  feststellung_wenn: Differenz zwischen Bilanz, Hauptbuch und Nachweis je Darlehen, kein Nachweis für ein wesentliches Darlehen, oder unrealisierter Kursgewinn auf Fremdwährungsdarlehen
+    erfasst.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Abstimmung einer Aufstellung der Verbindlichkeiten mit der Jahresrechnung
   - quelle: hwp-bur-2023__rz-0485-s256
     zitat: Neben Verträgen dienen vor allem Saldobestätigungen, Depot- oder Kontoauszüge als Bestandsnachweis.
   - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Die eingeschränkte Revision beschränkt sich auf die im Unternehmen intern vorhandenen Unterlagen.
+  - quelle: hwp-er-2026__rz-0137-s203
     zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
+  - quelle: hwp-er-2026__rz-0095-s196
+    zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: hwp-bur-2023__rz-0090-s077-t2
+    zitat: allfällige noch nicht realisierte Kursverluste sind aufwandswirksam zu erfassen – unrealisierte Kursgewinne dürfen in der Erfolgsrechnung nicht ausgewiesen werden
 - id: N1-302
-  vorgehen: Kredit- und Darlehensverträge inkl. Nachträge einsehen; Parteien, Betrag, Auszahlung, Zinssatz, Fälligkeit/Amortisation, Kündigung, Sicherheiten, Covenants und Rangrücktrittsklauseln
+  vorgehen: Kredit- und Darlehensverträge inkl. Nachträge einsehen; Parteien, Betrag, Währung, Auszahlung, Zinssatz, Fälligkeit/Amortisation, Kündigung, Sicherheiten, Covenants und Rangrücktrittsklauseln
     tabellarisch erfassen und mit Buchhaltung und Anhang abgleichen. Fehlende oder nicht unterzeichnete Verträge als Pendenz erfassen; Verträge für Dauerakte vormerken.
   nachweise:
   - Kredit- und Darlehensverträge inkl. Nachträge
@@ -447,50 +641,67 @@ schritte:
     zitat: Einsicht in Kredit- und Darlehensverträge
   - quelle: hwp-bur-2023__rz-0484-s256
     zitat: Es ist zweckmässig, für jede langfristige Verbindlichkeit eine gesonderte Aufzeichnung mit den relevanten Eigenschaften und Bedingungen zu führen.
-  - quelle: hwp-er-2026__rz-0175-s217
-    zitat: Hat die Gesellschaft selbst nachweislich einen rechtsgültigen Vertrag über das Darlehen abgeschlossen
+  - quelle: hwp-bur-2023__rz-0484-s256
+    zitat: Insbesondere sollten bei allen längerfristigen Darlehensverhältnissen die wichtigsten Vertragspunkte im Interesse der Beweisbarkeit schriftlich festgehalten werden.
 - id: N1-303
   vorgehen: 'Zinsabgrenzungsberechnung des Kunden einsehen bzw. nachrechnen: aufgelaufene, per Stichtag unbezahlte Zinsen je Darlehen gemäss vertraglichen Zinsterminen. Mit passiven
-    Rechnungsabgrenzungen bzw. Zinsverbindlichkeiten abstimmen; Ausweis von Zinsen auf RR-Forderungen beachten.'
+    Rechnungsabgrenzungen bzw. Zinsverbindlichkeiten abstimmen; Ausweis von Zinsen auf RR-Forderungen (unter Rangrücktritt) beachten.'
   nachweise:
   - Zinsabgrenzungsberechnung
-  - Verträge (Zinstermine)
+  - Verträge (Zinstermine, Zinsusanz)
   - Kontoblätter Zinsaufwand und Abgrenzungen
-  rechnen: Marchzins = Saldo × Zinssatz × Tage seit letztem Zinstermin bis 31.12. / 360; Σ Marchzinsen = gebuchte Zinsabgrenzung
+  rechnen: Marchzins = Saldo × Zinssatz × Tage seit letztem Zinstermin bis 31.12. / Jahrestage gemäss vertraglicher Zinsusanz (z.B. 30/360 oder act/365; Praxis, keine Fundstelle); Σ
+    Marchzinsen = gebuchte Zinsabgrenzung
   feststellung_wenn: Aufgelaufene Zinsen nicht oder falsch abgegrenzt und Differenz nicht unwesentlich.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Einsicht in die Zinsabgrenzungsberechnung
   - quelle: or__art-958b
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: hwp-bur-2023__rz-0714-s305
+    zitat: Der Zinsendienst wird durch den Rangrücktritt nicht unterbrochen, jedoch müssen die Zinsen ebenfalls dem Rangrücktritt unterliegen
 - id: N1-304
-  vorgehen: 'Bei Darlehen von Beteiligten/Nahestehenden: zulässiges Fremdkapital nach ESTV-KS 6a (Ansätze auf Aktiven) berechnen und mit dem Fremdkapital vergleichen; Zinssatz mit den
-    steuerlich anerkannten Sätzen des massgebenden Jahres und Drittvergleich vergleichen. Mögliches verdecktes Eigenkapital bzw. übersetzte Zinsen (verdeckte Gewinnausschüttung) als
-    Pendenz an den WP.'
+  vorgehen: 'Bei Darlehen Beteiligter/Nahestehender oder von ihnen sichergestellten Drittkrediten: zulässiges Fremdkapital nach ESTV-KS 6a berechnen (Verkehrswerte Ende Steuerperiode,
+    mangels Nachweis Buchwerte) und mit dem Fremdkapital vergleichen. Zinssatz mit den ESTV-Sätzen des Geschäftsjahres (Rundschreiben 2026 nicht für GJ 2025) und Drittvergleich vergleichen.
+    Mögliches verdecktes EK bzw. übersetzte Zinsen (vGA, VSt) als Pendenz an den WP.'
   nachweise:
   - Berechnung verdecktes Eigenkapital
+  - Nachweise Verkehrswerte (falls über Buchwert)
   - Darlehensverträge mit Beteiligten
+  - Sicherstellungen Beteiligter für Drittkredite (Bürgschaften, Garantien, Pfänder)
   - ESTV-Rundschreiben Zinssätze des Geschäftsjahres
-  - Bilanz zu Buch-/Verkehrswerten
-  rechnen: Zulässiges FK = Σ (Aktiven × Ansatz KS 6a); verdecktes EK = max(0, FK – zulässiges FK), höchstens FK von Beteiligten/Nahestehenden; aufzurechnender Zins = Zins auf verdecktem
-    EK
-  feststellung_wenn: Fremdkapital über zulässigem Fremdkapital aus Mitteln Beteiligter oder Zinssatz über dem steuerlich anerkannten Satz ohne Drittvergleich.
+  rechnen: Zulässiges FK = Σ (Verkehrswert, mangels Nachweis Buchwert, × Ansatz KS 6a); verdecktes EK = max(0, FK – zulässiges FK), begrenzt auf FK, das direkt/indirekt von Beteiligten/Nahestehenden
+    stammt oder von ihnen sichergestellt ist; aufzurechnender Zins = Zins auf verdecktem EK, bei Zins unter Marktniveau nur der Rest nach KS 6a Ziff. 3.1
+  feststellung_wenn: Fremdkapital über zulässigem FK, soweit von Beteiligten/Nahestehenden stammend oder sichergestellt, oder Zinssatz über steuerlich anerkanntem Satz ohne Drittvergleich
+    (Folgen vGA/VSt entscheidet WP).
   fundstellen:
   - quelle: estv-ks-6a-2024__einleitung-t3
     zitat: Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.
+  - quelle: estv-ks-6a-2024__einleitung-t2
+    zitat: Sofern keine höheren Verkehrswerte nachgewiesen sind, geht die Veranlagungsbehörde von den Buchwerten
+  - quelle: estv-ks-6a-2024__einleitung-t2
+    zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+  - quelle: estv-ks-6a-2024__einleitung-t3
+    zitat: ohne Sicherstellung durch den Anteilsinhaber oder diesem nahestehenden Personen
   - quelle: estv-ks-6a-2024__3-1
     zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+  - quelle: estv-ks-6a-2024__3-1
+    zitat: Nur der verbleibende Rest wird aufgerechnet.
+  - quelle: estv-ks-6a-2024__3-2
+    zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen gemäss Ziffer 3.1 oben unterliegen als geldwerte Leistung
+  - quelle: estv-zinsen-2026__s001-1
+    zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
   - quelle: hwp-er-2026__rz-0163-s212
     zitat: Eine verdeckte Gewinnausschüttung liegt dann vor, wenn eine Gesellschaft Leistungen erbringt, ohne dafür eine (angemessene) Gegenleistung zu erhalten.
-  - quelle: hwp-er-2026__rz-0176-s217
-    zitat: Entspricht der Zinssatz den Marktkonditionen für den Darlehensnehmer
+  - quelle: hwp-er-2026__rz-0164-s212-t1
+    zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
 - id: N1-320
-  vorgehen: 'Anhang prüfen auf: gesonderten Ausweis der Verbindlichkeiten ggü. Beteiligten/Organen, Kennzeichnung der Rangrücktritte, Gesamtbetrag verpfändeter/abgetretener Aktiven,
-    Sicherheiten für Dritte und wesentliche Ereignisse nach dem Stichtag. Ergebnisse aus N1-102, N1-104, N1-105 einbeziehen; Fälligkeitsaufteilung nach Art. 961a OR nur bei ordentlicher
-    Revision.'
+  vorgehen: 'Anhang prüfen auf: gesonderten Ausweis der Verbindlichkeiten ggü. Beteiligten/Organen, Kennzeichnung der Rangrücktritte, Gesamtbetrag verpfändeter/abgetretener Aktiven (inkl.
+    AGB-Pfandrecht bei beanspruchtem Kredit), Sicherheiten für Dritte, wesentliche Ereignisse nach dem Stichtag (z.B. Covenant-Verletzung, Kündigung). Ergebnisse N1-101, N1-102, N1-104,
+    N1-105 einbeziehen; Fälligkeitsaufteilung Art. 961a OR nur bei ordentlicher Revision.'
   nachweise:
   - Anhang der Jahresrechnung
-  - Ergebnisse N1-102, N1-104, N1-105
+  - Ergebnisse N1-101, N1-102, N1-104, N1-105
   rechnen: Anhangbeträge (Nahestehende, Rangrücktritte, verpfändete Aktiven) = Werte gemäss Prüfung
   feststellung_wenn: Pflichtangabe fehlt oder Betrag im Anhang weicht von den Prüfungsergebnissen ab.
   fundstellen:
@@ -502,6 +713,10 @@ schritte:
     zitat: Passivdarlehen mit Rangrücktritt sind in der Jahresrechnung oder im Anhang gesondert auszuweisen
   - quelle: or__art-959c-t2
     zitat: wesentliche Ereignisse nach dem Bilanzstichtag
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: Eine Offenlegung als Ereignis nach dem Bilanzstichtag ist zu prüfen.
+  - quelle: or__art-961
+    zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
 - id: N1-322
   vorgehen: Neue oder geänderte Kredit-/Darlehensverträge, Rangrücktrittsvereinbarungen und Pfand-/Zessionsverträge für die Dauerakte in M-Files vorschlagen bzw. ablegen; ersetzte Fassungen
     kennzeichnen. Darlehensübersicht (Gläubiger, Konditionen, Sicherheiten, Rangrücktritt) fortschreiben.
@@ -516,56 +731,88 @@ schritte:
   - quelle: ser-2022__7-3
     zitat: über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
 - id: N1-401
-  vorgehen: 'Rangrücktrittsvereinbarungen einsehen und je Vereinbarung festhalten: Betrag (≥ Überschuldung), Einschluss Zinsen, unbefristet/unwiderruflich, Stundung, Aufhebungs-/Ersatzbedingung,
-    Unterzeichnung, Datum. Ersetzte/reduzierte Fassungen gegen die HWP-Bedingungen prüfen; Abgleich mit Hauptbuch und Anhang.'
+  vorgehen: 'Nur auf Anweisung/Markierung des WP (4xx; SER Anh. D: weiter gehend). Je Vereinbarung festhalten: Betrag (≥ Überschuldung gemäss geprüftem Zwischenabschluss), Einschluss
+    Zinsen, Stundung, unbefristet, unwiderruflich, Aufhebungs-/Ersatzbedingung, Währung, Unterzeichnung, Datum. Ersetzte/reduzierte Fassungen gegen die HWP-Bedingungen prüfen; Abgleich
+    mit Hauptbuch und Anhang.'
   nachweise:
   - Rangrücktrittsvereinbarungen (alle Fassungen)
-  - Überschuldungsstatus
+  - Geprüfte Zwischenabschlüsse bzw. Überschuldungsstatus
   - Kontoblätter der RR-Darlehen und Zinsen
-  rechnen: Σ Rangrücktritte inkl. Zinsen – Überschuldung per 31.12. ≥ 0; RR-Betrag je Gläubiger ≤ Forderung inkl. Zinsen gemäss Hauptbuch
-  feststellung_wenn: Vereinbarung ohne Zinseinschluss, befristet/kündbar, unzulässig reduziert, nicht unterzeichnet, oder Summe deckt die Überschuldung nicht.
+  rechnen: Σ Rangrücktritte inkl. Zinsen (Fremdwährung zum Stichtagskurs) – Überschuldung gemäss (geprüftem) Zwischenabschluss (Fortführungs- oder Veräusserungswerte, Massstab entscheidet
+    WP) ≥ 0; RR-Betrag je Gläubiger ≤ Forderung inkl. Zinsen gemäss Hauptbuch
+  feststellung_wenn: 'RR ohne Zinseinschluss, befristet/kündbar/widerruflich, unzulässig reduziert, nicht unterzeichnet oder deckt Überschuldung nicht: wesentliche Feststellung + Schlussbesprechung,
+    sofort an WP.'
   fundstellen:
   - quelle: ser-2022__anh-d-s085-2
     zitat: Einsicht in Rangrücktrittsvereinbarungen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-er-2026__rz-0412-s123
     zitat: Gemäss Gesetz müssen die Zinsen zwingend dem Rangrücktritt unterliegen, was ausdrücklich vereinbart werden muss.
   - quelle: hwp-er-2026__rz-0415-s123-t1
     zitat: Der Rangrücktritt muss zeitlich unbefristet abgeschlossen werden
+  - quelle: hwp-bur-2023__rz-0715-s305
+    zitat: Der Rangrücktritt muss als Vertrag zugunsten Dritter unwiderruflich ausgestaltet werden.
   - quelle: hwp-er-2026__rz-0425-s126
     zitat: Die Revisionsstelle prüft erneut sämtliche Anforderungen an einen gültigen Rangrücktritt.
   - quelle: or__art-725b-t1
     zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+  - quelle: hwp-er-2026__rz-0420-s125
+    zitat: sollte ein Rangrücktritt, der «nur» auf die Deckungslücke zu Fortführungswerten ausgerichtet ist, genügen
+  - quelle: hwp-bur-2023__rz-0717-s305-t2
+    zitat: ist dessen Höhe vom Verwaltungsrat zu überwachen, um dem Kursrisiko Rechnung zu tragen
+  - quelle: hwp-er-2026__rz-0433-s127
+    zitat: lässt sich die Benachrichtigung des Gerichts nicht vermeiden
 - id: N1-402
-  vorgehen: 'Ausweis gemäss Mindestgliederung prüfen: langfristige verzinsliche vs. übrige langfristige Verbindlichkeiten; innert 12 Monaten fällige Amortisationen/Rückzahlungen (aus
-    N1-103/N1-302) und Darlehen mit verletzten Covenants ohne Waiver unter kurzfristigen verzinslichen Verbindlichkeiten. Umgliederungsbedarf im Textfeld beziffern.'
+  vorgehen: 'Nur auf Anweisung des WP (4xx). Ausweis gemäss Mindestgliederung prüfen: langfristige verzinsliche vs. übrige langfristige Verbindlichkeiten; kurzfristiger Anteil gemäss
+    N1-103 (inkl. Covenant-Verletzung ohne wirksamen Waiver) unter kurzfristigen verzinslichen Verbindlichkeiten; Hypotheken und auslaufende Festhypotheken mit wahrscheinlicher Verlängerung
+    bleiben langfristig. Umgliederungsbedarf im Textfeld beziffern.'
   nachweise:
   - Bilanz/Saldoliste mit Gruppenzuordnung
   - Ergebnisse N1-101, N1-103, N1-302
-  rechnen: Umgliederung = Σ innert 12 Monaten fällige Beträge gemäss Verträgen – bereits kurzfristig ausgewiesene Beträge
-  feststellung_wenn: Kurzfristig fällige Anteile langfristig ausgewiesen oder verzinsliche Darlehen unter übrigen Verbindlichkeiten, und Betrag nicht unwesentlich.
+  rechnen: Umgliederung = kurzfristiger Anteil gemäss N1-103 (Σ innert 12 Monaten fällige Amortisationen/Rückzahlungen – auslaufende Festhypotheken mit belegter Verlängerungsabsicht
+    + Darlehen mit konkreter Kündigungsabsicht bzw. Covenant-Verletzung ohne Waiver) – bereits kurzfristig ausgewiesene Beträge
+  feststellung_wenn: Kurzfristig fällige Anteile langfristig ausgewiesen oder verzinsliche Darlehen unter übrigen Verbindlichkeiten, und Betrag nicht unwesentlich; Grenzfälle (Verlängerung,
+    Waiver) als Pendenz an WP.
   fundstellen:
   - quelle: or__art-959a-t1
     zitat: Unter den Passiven müssen ihrer Fälligkeit entsprechend mindestens folgende Positionen einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
   - quelle: hwp-bur-2023__rz-0463-s253
     zitat: Kurzfristige, innert eines Jahres fällige Amortisationsraten sind in den kurzfristigen Verbindlichkeiten auszuweisen.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: Hypothekarschulden sind unter den langfristigen Verbindlichkeiten auszuweisen, auch wenn sie in der Praxis häufig kurzfristig kündbar sind.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: Im Folgejahr auslaufende Festhypotheken können weiterhin als langfristig bilanziert werden, soweit ihre Verlängerung beabsichtigt und wahrscheinlich ist.
+  - quelle: hwp-bur-2023__rz-0463-s253
+    zitat: wenn aufgrund der Verletzung bestimmter Kreditvertragsklauseln (sog. Covenants) eine frühzeitige Vertragsauflösung als wahrscheinlich erscheint
   - quelle: hwp-bur-2023__rz-0875-s356
     zitat: sind grundsätzlich als kurzfristige verzinsliche Verbindlichkeiten zu bilanzieren
+  - quelle: hwp-bur-2023__rz-0493-s257
+    zitat: Die Umgliederung in die kurzfristigen verzinslichen Verbindlichkeiten kann allenfalls vermieden werden
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
 - id: N1-403
-  vorgehen: Bewegungen der Darlehenskonten (Kontoblätter) mit Verträgen, Bankbelegen, Amortisationsplänen und Beschlüssen (z.B. GV-Protokoll bei Verrechnungsliberierung) abgleichen.
-    Umbuchungen und Verrechnungen auf Zulässigkeit prüfen (Verrechnungsverbot, Tilgungsverbot bei Rangrücktritt). Saldofortschreibung je Konto dokumentieren.
+  vorgehen: Nur auf Anweisung des WP (4xx). Bewegungen der Darlehenskonten mit Verträgen, Bankbelegen, Amortisationsplänen und Beschlüssen (z.B. GV-Protokoll bei Verrechnungsliberierung)
+    abgleichen; bei RR-Forderungen auch Folgejahr bis Prüfungsdatum. Umbuchungen, Verrechnungen und Rückzahlungen auf Zulässigkeit prüfen (Verrechnungsverbot, Tilgungsverbot bei RR).
+    Saldofortschreibung je Konto dokumentieren.
   nachweise:
-  - Kontoblätter Darlehenskonten
+  - Kontoblätter Darlehenskonten (inkl. Folgejahr)
   - Verträge/Nachträge
   - Bankbelege (Auszahlung, Amortisation)
   - GV-/VR-Beschlüsse
   rechnen: Saldo 01.01. + Zugänge – Abgänge (Amortisation, Rückzahlung, Verrechnung) = Saldo 31.12. je Konto
-  feststellung_wenn: Zu-/Abgang ohne Vertrag/Beleg/Beschluss, unzulässige Verrechnung oder Rückzahlung einer Forderung unter Rangrücktritt.
+  feststellung_wenn: 'Zu-/Abgang ohne Vertrag/Beleg/Beschluss oder unzulässige Verrechnung; Tilgung/Verrechnung einer RR-Forderung trotz Überschuldung: wesentliche Feststellung, sofort
+    an WP (Art. 729c OR).'
   fundstellen:
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0415-s123-t2
     zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+  - quelle: hwp-er-2026__rz-0434-s128
+    zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
   - quelle: or__art-634a
     zitat: Die Liberierung kann auch durch Verrechnung mit einer Forderung erfolgen.
   - quelle: hwp-er-2026__rz-0416-s124
     zitat: Gestattet ist der Verzicht auf eine im Rang zurückgestellte Forderung oder deren Umwandlung in Eigenkapital der Gesellschaft
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie

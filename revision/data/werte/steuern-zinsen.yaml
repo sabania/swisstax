@@ -1,23 +1,27 @@
-# Werte Kategorie steuern_zinsen – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie steuern_zinsen – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: estv_zins_2026_vorschuss_an_beteiligte_ek
-  bezeichnung: Mindestzins für Vorschüsse/Darlehen an Beteiligte oder Nahestehende (CHF), aus Eigenkapital finanziert
+  bezeichnung: Mindestzins für Vorschüsse/Darlehen an Beteiligte oder Nahestehende (CHF), aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss
   wert: '0.75'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Safe haven, ein höherer Satz im Drittvergleich bleibt vorbehalten. Liegt der Zins darunter, ist es eine geldwerte Leistung (VSt 35 %, Aufrechnung Gewinn). Anwendung: Aktivdarlehen
-    und Kontokorrent Aktionär, Zinsertrag und Zinsabgrenzung plausibilisieren. Für GJ 2025: siehe estv_zins_2025_vorschuss_an_beteiligte_ek.'
+  bemerkung: 'Beide Bedingungen gelten kumulativ. Hat die Gesellschaft verzinsliches Fremdkapital, gilt estv_zins_2026_vorschuss_an_beteiligte_fk (Selbstkosten plus Zuschlag, mindestens
+    0,75 %). Safe haven: estv-zinsen-2026__s002-1 «Diese Zinssätze gelten als „safe haven“.» Liegt der Zins darunter, ist es eine geldwerte Leistung (VSt 35 %, Aufrechnung Gewinn; vst_satz_geldwerte_leistung).
+    Anwendung: Aktivdarlehen und Kontokorrent Aktionär, Zinsertrag und Zinsabgrenzung plausibilisieren. Darlehen in Fremdwährung: estv_zins_2026_fremdwaehrung. Gültigkeit: estv-zinsen-2026__s001-2
+    «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: 1.1 aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss ¾%
   status: agent-geprueft
 - key: estv_zins_2026_vorschuss_an_beteiligte_fk
-  bezeichnung: Mindestzins für Vorschüsse an Beteiligte oder Nahestehende (CHF), aus Fremdkapital finanziert
+  bezeichnung: Mindestzins für Vorschüsse/Darlehen an Beteiligte oder Nahestehende (CHF), aus Fremdkapital finanziert
   wert: Selbstkosten + 0.25–0.5, mindestens 0.75
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Zuschlag auf die eigenen Fremdkapitalkosten gemäss Fussnote 1 (estv_zins_2026_zuschlag_fk). Untergrenze 0,75 %.
+  bemerkung: 'Anwendbar, wenn die Gesellschaft verzinsliches Fremdkapital hat. Zuschlag auf die eigenen Fremdkapitalkosten gemäss Fussnote 1 (estv_zins_2026_zuschlag_fk). Untergrenze
+    0,75 %. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen,
+    estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: 1.2 aus Fremdkapital finanziert Selbstkosten zuzügl. ¼ – ½ % 1 mindestens ¾%
   status: agent-geprueft
@@ -25,9 +29,11 @@ werte:
   bezeichnung: Zuschlag auf Selbstkosten bei fremdfinanzierten Vorschüssen an Beteiligte (Fussnote 1)
   wert: 0.5 (bis und mit CHF 10 Mio.) / 0.25 (über CHF 10 Mio.)
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Ergänzt Ziff. 1.2 des Rundschreibens (Vorschüsse aus Fremdkapital).
+  bemerkung: 'Ergänzt Ziff. 1.2 des Rundschreibens (Vorschüsse aus Fremdkapital). Original: raw/estv-zinsen-2026.pdf S. 2 (Fussnote 1). Bei Fremdwährungen gilt ein Zuschlag von ½ % (estv_zins_2026_fremdwaehrung).
+    Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_*
+    verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-2
   zitat: – bis und mit CHF 10 Mio. ½ % – über CHF 10 Mio. ¼ %
   status: agent-geprueft
@@ -35,10 +41,11 @@ werte:
   bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit bis 1. Hypothek (2/3 Verkehrswert), Wohnbau und Landwirtschaft
   wert: '1.25'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
   bemerkung: 'Ein höherer Zins gilt als übersetzt und ist eine geldwerte Leistung. Anwendung: Passivdarlehen Aktionär, Zinsaufwand plausibilisieren. Zusätzlich verdecktes Eigenkapital
-    (KS 6a) beachten.'
+    beachten (ks6a_verdecktes_ek_ermittlung). Original: raw/estv-zinsen-2026.pdf S. 2, Spalte Wohnbau und Landwirtschaft, Ziff. 2.1 erste Hypothek. Gültigkeit: estv-zinsen-2026__s001-2
+    «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: bis zu einem Kredit in der Höhe der ersten Hypothek, 1 ¼ % d.h. 2/3 des Verkehrswertes der Liegenschaft
   status: agent-geprueft
@@ -46,10 +53,11 @@ werte:
   bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit bis 1. Hypothek, Industrie und Gewerbe
   wert: '1.75'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Spalte Industrie und Gewerbe: erster Wert bis 1. Hypothek, zweiter Wert Rest. Das PDF-Layout trennt im Chunk die Spalten. Die Zuordnung ist im Original geprüft (raw/estv-zinsen-2026.pdf
-    S. 2).'
+  bemerkung: 'Spalte Industrie und Gewerbe: erster Wert bis 1. Hypothek, zweiter Wert Rest. Im Chunk sind Bezeichnungen und Werte getrennt. Original: raw/estv-zinsen-2026.pdf S. 2, Spalte
+    Industrie und Gewerbe, Ziff. 2.1 erste Hypothek (Layout geprüft). Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die
+    Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2
   status: agent-geprueft
@@ -57,9 +65,12 @@ werte:
   bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit Rest (über 1. Hypothek), Wohnbau und Landwirtschaft
   wert: '2'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Fussnote 2: verdecktes Eigenkapital beachten. Fremdfinanzierung höchstens 70 % bzw. 80 % des Verkehrswerts (estv_zins_2026_fremdfinanzierung_*).'
+  bemerkung: 'Fussnote 2: estv-zinsen-2026__s002-2 «ist auch ein allfällig bestehendes verdecktes Eigenkapital zu beachten» (KS 6a, ks6a_verdecktes_ek_ermittlung). Fremdfinanzierung
+    höchstens 70 % bzw. 80 % des Verkehrswerts (estv_zins_2026_fremdfinanzierung_*). Original: raw/estv-zinsen-2026.pdf S. 2, Spalte Wohnbau und Landwirtschaft, Ziff. 2.1 Rest. Gültigkeit:
+    estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_*
+    verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: – Rest 2%2
   status: agent-geprueft
@@ -67,9 +78,11 @@ werte:
   bezeichnung: Höchstzins für Darlehen von Beteiligten/Nahestehenden, Liegenschaftskredit Rest, Industrie und Gewerbe
   wert: '2.5'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Zweiter Wert der Spalte Industrie und Gewerbe. Zuordnung im Original geprüft (raw/estv-zinsen-2026.pdf S. 2). Fussnote 2: verdecktes Eigenkapital beachten.'
+  bemerkung: 'Zweiter Wert der Spalte Industrie und Gewerbe. Original: raw/estv-zinsen-2026.pdf S. 2, Spalte Industrie und Gewerbe, Ziff. 2.1 Rest (Layout geprüft). Fussnote 2: verdecktes
+    Eigenkapital beachten (estv-zinsen-2026__s002-2). Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr
+    fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2
   status: agent-geprueft
@@ -77,9 +90,11 @@ werte:
   bezeichnung: 'Höchstsatz Fremdfinanzierung Liegenschaften: Bauland, Villen, Eigentumswohnungen, Ferienhäuser, Fabrikliegenschaften'
   wert: '70'
   einheit: '% vom Verkehrswert'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1). Der Wert stimmt mit dem Belehnungssatz des KS 6a überein.
+  bemerkung: 'Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1). Der Wert stimmt mit dem Belehnungssatz des KS 6a überein (ks6a_belehnung_fabrikliegenschaften, ks6a_belehnung_villen_etw_ferienhaeuser_bauland).
+    Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_*
+    verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Ferienhäuser und Fabrikliegenschaften bis 70 % vom Verkehrswert
   status: agent-geprueft
@@ -87,9 +102,10 @@ werte:
   bezeichnung: Höchstsatz Fremdfinanzierung übrige Liegenschaften
   wert: '80'
   einheit: '% vom Verkehrswert'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1).
+  bemerkung: 'Gilt im Rahmen der Liegenschaftskredite (Ziff. 2.1). Der Wert stimmt mit ks6a_belehnung_uebrige_liegenschaften überein. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1.
+    Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Übrige Liegenschaften bis 80 % vom Verkehrswert
   status: agent-geprueft
@@ -97,10 +113,13 @@ werte:
   bezeichnung: Höchstzins Betriebskredit von Beteiligten bis CHF 1 Mio., Handels- und Fabrikationsunternehmen
   wert: '3.5'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Reihenfolge der Betriebskredit-Sätze: bis 1 Mio. Handel/Fabrikation 3½ %, Holding/VV 3 %; ab 1 Mio. Handel/Fabrikation 1½ %, Holding/VV 1¼ %. Im Chunk stehen die Werte
-    getrennt von den Bezeichnungen. Zuordnung im Original geprüft (raw/estv-zinsen-2026.pdf S. 2). Für die Limite die Kredite aller Beteiligten und Nahestehenden zusammenzählen.'
+  bemerkung: 'Reihenfolge der Werte in der Spalte Industrie und Gewerbe: 1. Hypothek 1¾ %, Rest 2½ %, dann Betriebskredite bis 1 Mio. Handel/Fabrikation 3½ %, Holding/VV 3 %; ab 1 Mio.
+    Handel/Fabrikation 1½ %, Holding/VV 1¼ %. Im Chunk stehen die Werte getrennt von den Bezeichnungen. Original: raw/estv-zinsen-2026.pdf S. 2, Ziff. 2.2 a, Wert 3 von 6 der Spalte
+    (Layout geprüft). Für die Limite die Kredite aller Beteiligten und Nahestehenden zusammenzählen: estv-zinsen-2026__s002-1 «Für die Berechnung der Limiten sind die Kredite sämtlicher
+    Beteiligten und nahestehender Personen zusammen zu zählen.» Fussnote 2: verdecktes Eigenkapital beachten. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden
+    Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
   status: agent-geprueft
@@ -108,9 +127,11 @@ werte:
   bezeichnung: Höchstzins Betriebskredit von Beteiligten bis CHF 1 Mio., Holding- und Vermögensverwaltungsgesellschaften
   wert: '3'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: 'Vierter Wert der Folge (siehe estv_zins_2026_betriebskredit_bis_1mio_handel). Zuordnung im Original geprüft (S. 2). Fussnote 2: verdecktes Eigenkapital beachten.'
+  bemerkung: 'Siehe Reihenfolge bei estv_zins_2026_betriebskredit_bis_1mio_handel. Original: raw/estv-zinsen-2026.pdf S. 2, Ziff. 2.2 a, Wert 4 von 6 der Spalte (Layout geprüft). Fussnote
+    2: verdecktes Eigenkapital beachten. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest;
+    für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
   status: agent-geprueft
@@ -118,9 +139,11 @@ werte:
   bezeichnung: Höchstzins Betriebskredit von Beteiligten ab CHF 1 Mio., Handels- und Fabrikationsunternehmen
   wert: '1.5'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Fünfter Wert der Folge. Zuordnung im Original geprüft (S. 2). Die Kredite aller Beteiligten und Nahestehenden zusammenzählen.
+  bemerkung: 'Siehe Reihenfolge bei estv_zins_2026_betriebskredit_bis_1mio_handel. Original: raw/estv-zinsen-2026.pdf S. 2, Ziff. 2.2 b, Wert 5 von 6 der Spalte (Layout geprüft). Die
+    Kredite aller Beteiligten und Nahestehenden zusammenzählen. Fussnote 2: verdecktes Eigenkapital beachten. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden
+    Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest; für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
   status: agent-geprueft
@@ -128,20 +151,40 @@ werte:
   bezeichnung: Höchstzins Betriebskredit von Beteiligten ab CHF 1 Mio., Holding- und Vermögensverwaltungsgesellschaften
   wert: '1.25'
   einheit: '%'
-  gilt: ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 29.01.2026)
   kategorie: steuern_zinsen
-  bemerkung: Sechster Wert der Folge. Zuordnung im Original geprüft (S. 2).
+  bemerkung: 'Siehe Reihenfolge bei estv_zins_2026_betriebskredit_bis_1mio_handel. Original: raw/estv-zinsen-2026.pdf S. 2, Ziff. 2.2 b, Wert 6 von 6 der Spalte (Layout geprüft). Fussnote
+    2: verdecktes Eigenkapital beachten. Gültigkeit: estv-zinsen-2026__s001-2 «seit dem 1. Januar 2026 auf die folgenden Zinssätze ab». Die ESTV legt die Sätze je Kalenderjahr fest;
+    für Zinsen, die auf 2025 entfallen, estv_zins_2025_* verwenden (Sekundärquelle).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Industrie und Gewerbe 1¾ % 2½ %2 3½ %2 3 %2 1½ %2 1¼ %2
   status: agent-geprueft
+- key: estv_zins_2026_fremdwaehrung
+  bezeichnung: Zinssätze für Vorschüsse/Darlehen in Fremdwährung an bzw. von Beteiligten/Nahestehenden (Richtwerte je Währung)
+  wert: Tabelle je Währung (Rundschreiben S. 3); an Beteiligte mindestens der entsprechende CHF-Satz
+  einheit: '%'
+  gilt: Kalenderjahr 2026, ab 01.01.2026 (ESTV-Rundschreiben vom 30.01.2026)
+  kategorie: steuern_zinsen
+  bemerkung: 'Für Fremdwährungen publiziert die ESTV eigene Sätze: treuhand-almanach-2026__s064-2 «Für Vorschüsse und Darlehen in Fremdwährungen gelten andere Zinssätze.» Gültigkeit:
+    estv-rs-2-219-2026__s001-2 «seit dem 1. Januar 2026 auf die auf der letzten Seite dieses Rundschreibens publizierten Zinssätze (Richtwerte) ab». An Beteiligte, aus Fremdkapital finanziert:
+    Selbstkosten plus Zuschlag, mindestens Tabellensatz (estv-rs-2-219-2026__s002-1 «zuzüglich eines Zuschlags von ½ %»). Von Beteiligten: Tabellensätze als safe haven; für Betriebskredite
+    kann derselbe Spread wie in CHF berücksichtigt werden (estv-rs-2-219-2026__s002-2 «bis Gegenwert CHF 1 Mio. 2.75 % resp. 2.25 %; ab Gegenwert CHF 1 Mio. 0.75 % resp. 0.50 %»). Die
+    Wahl der Fremdwährung ist geschäftsmässig zu begründen (estv-rs-2-219-2026__s002-2 «weshalb keine Verpflichtung in tiefer verzinsliche Schweizer Franken eingegangen wurde»). Verdecktes
+    Eigenkapital beachten. Lücke: Die Tabelle S. 3 steht im Chunk estv-rs-2-219-2026__s003-1 nur bis Spalte 2025; die Spalte 2026 nur in sources/estv-rs-2-219-2026.md bzw. raw/estv-rs-2-219-2026.pdf
+    S. 3 (dort ablesen; Chunking nachführen).'
+  quelle: estv-rs-2-219-2026__s002-1
+  zitat: so ist mindestens der entsprechende Zinssatz für Schweizer Franken zu berücksichtigen
+  status: agent-geprueft
 - key: estv_zins_2025_vorschuss_an_beteiligte_ek
-  bezeichnung: Mindestzins für Vorschüsse an Beteiligte (CHF), aus Eigenkapital finanziert, Jahr 2025
+  bezeichnung: Mindestzins für Vorschüsse an Beteiligte (CHF), aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss, Jahr 2025
   wert: '1.00'
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: 'Gilt für GJ 2025 (Revision 2026). Sekundärquelle Treuhand-Almanach Tab. 30, das ESTV-Rundschreiben 2025 ist nicht im Wiki. Spalten: 2024 | 2025 | 2026, Zuordnung im Original
-    geprüft (raw/treuhand-almanach-2026.pdf S. 65). Der Wert 2026 stimmt mit dem ESTV-Rundschreiben 2026 überein.'
+  bemerkung: 'Gilt für Zinsen, die auf 2025 entfallen (GJ 2025, Revision 2026). Bedingungen kumulativ, Zeilentext der Almanach-Tabelle: treuhand-almanach-2026__s064-1 «aus Eigenkapital
+    finanziert und wenn kein Fremdkapital verzinst werden muss». Bei verzinslichem Fremdkapital gilt estv_zins_2025_vorschuss_an_beteiligte_fk. Sekundärquelle Treuhand-Almanach Tab.
+    30; das ESTV-Rundschreiben 2025 ist nicht im Wiki. Original: raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024 | 2025 | 2026, Layout geprüft). Der Wert 2026 stimmt mit dem ESTV-Rundschreiben
+    2026 überein.'
   quelle: treuhand-almanach-2026__s065-1
   zitat: 2024 2025 2026 mindestens mindestens mindestens 1,50 % 1,00 % 0,75 %
   status: agent-geprueft
@@ -151,7 +194,8 @@ werte:
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: Sekundärquelle Almanach Tab. 30, Zuordnung im Original geprüft (S. 65).
+  bemerkung: 'Anwendbar, wenn die Gesellschaft verzinsliches Fremdkapital hat. Sekundärquelle Almanach Tab. 30. Original: raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024 | 2025 |
+    2026, Layout geprüft).'
   quelle: treuhand-almanach-2026__s065-1
   zitat: 0,25–0,50 %* 1,00 %
   status: agent-geprueft
@@ -161,7 +205,8 @@ werte:
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: Wertpaare 2024 | 2025 | 2026, jeweils Wohnbau/Landwirtschaft und Industrie/Gewerbe. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  bemerkung: 'Wertpaare 2024 | 2025 | 2026, jeweils Wohnbau/Landwirtschaft und Industrie/Gewerbe. Sekundärquelle. Original: raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024 | 2025
+    | 2026, Layout geprüft).'
   quelle: treuhand-almanach-2026__s065-1
   zitat: 2,25 % 2,75 % 1,25 % 1,75 % 1,25 % 1,75 %
   status: agent-geprueft
@@ -171,7 +216,8 @@ werte:
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: Wertpaare 2024 | 2025 | 2026. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  bemerkung: 'Wertpaare 2024 | 2025 | 2026. Fussnote ** = verdecktes Eigenkapital beachten (treuhand-almanach-2026__s064-2 «allfällig bestehendes verdecktes Eigenkapital zu beachten»).
+    Sekundärquelle. Original: raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024 | 2025 | 2026, Layout geprüft).'
   quelle: treuhand-almanach-2026__s065-1
   zitat: 3,00 %** 3,50 %** 2,00 % 2,50 %** 2,00 % 2,50 %
   status: agent-geprueft
@@ -181,7 +227,9 @@ werte:
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: Spalte 2025 (mit Fussnote **). Für 2026 gelten dieselben Werte ohne Fussnote. Sekundärquelle, Zuordnung im Original geprüft (S. 65).
+  bemerkung: 'Spalte 2025; Fussnote ** = verdecktes Eigenkapital beachten (treuhand-almanach-2026__s064-2 «allfällig bestehendes verdecktes Eigenkapital zu beachten»). 2026 gleiche Sätze;
+    der Vorbehalt verdecktes Eigenkapital gilt auch 2026 (estv-zinsen-2026__s002-1 «3½ %2»), der Almanach druckt die Fussnote nur in der Spalte 2026 nicht ab. Sekundärquelle. Original:
+    raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024 | 2025 | 2026, Layout geprüft).'
   quelle: treuhand-almanach-2026__s065-1
   zitat: bis CHF 1 Mio. 3,50 %** 3,00 %**
   status: agent-geprueft
@@ -191,7 +239,8 @@ werte:
   einheit: '%'
   gilt: Kalenderjahr 2025
   kategorie: steuern_zinsen
-  bemerkung: Spalte 2025. Sekundärquelle, Zuordnung im Original geprüft (S. 65). Für die Limite von CHF 1 Mio. die Kredite aller Beteiligten und Nahestehenden zusammenzählen.
+  bemerkung: 'Spalte 2025 (2026 tiefer: 1,50 % / 1,25 %). Fussnote ** = verdecktes Eigenkapital beachten. Sekundärquelle. Original: raw/treuhand-almanach-2026.pdf S. 65 (Spalten 2024
+    | 2025 | 2026, Layout geprüft). Für die Limite von CHF 1 Mio. die Kredite aller Beteiligten und Nahestehenden zusammenzählen.'
   quelle: treuhand-almanach-2026__s065-1
   zitat: ab CHF 1 Mio. 1,75 %** 1,50 %**
   status: agent-geprueft
@@ -201,7 +250,8 @@ werte:
   einheit: '%'
   gilt: ESTV-Rundschreiben vom 29.01.2026 (Art. 4 Abs. 1 Bst. b VStG, Art. 20 Abs. 1 VStV)
   kategorie: steuern_zinsen
-  bemerkung: 'Dieselben Kriterien gelten bei der direkten Bundessteuer (Art. 58 Abs. 1 Bst. b DBG). Revision: Zinskonditionen ausserhalb des Safe haven dem WP als Steuerrisiko melden.'
+  bemerkung: 'Dieselben Kriterien gelten bei der direkten Bundessteuer (Art. 58 Abs. 1 Bst. b DBG). Zinsen auf verdecktem Eigenkapital: ks6a_vst_zinsen_vek. Revision: Zinskonditionen
+    ausserhalb des Safe haven dem WP als Steuerrisiko melden.'
   quelle: estv-zinsen-2026__s001-1
   zitat: der Verrechnungssteuer von 35 %
   status: agent-geprueft

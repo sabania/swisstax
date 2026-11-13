@@ -4,17 +4,17 @@ titel: 'Bericht: zusammenfassender Revisionsbericht, Modifikationen, Hinweise'
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prozess-werte
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 11
-    korrigiert: false
-ziel: Den zusammenfassenden Bericht an die GV (OR 729b) als GVB-Entwurf vorbereiten. Aus den Feststellungen wird der Normalwortlaut oder ein Vorschlag für Einschränkung, Verneinung,
-  Unmöglichkeit, Zusatz oder Hinweis abgeleitet, belegt und gegen 7.1/7.5 und die Mustervorlagen abgeglichen. Prüfungsaussage, Datum, Unterschrift, Freigabe und Versand bleiben beim
-  WP.
-wann: Nach Abschluss der Prüffelder, der Beendigungsarbeiten (revio 6.1–6.3) und des Revisionsrapports (Prozess 4), sobald der WP die Feststellungen gesichtet hat. Das Berichtsdatum
-  liegt frühestens bei der Unterzeichnung oder Genehmigung der JR durch den VR. Der Bericht muss vor der GV vorliegen und 20 Tage vorher zugänglich sein. Nach der Abgabe nur noch bei
-  neuen Tatsachen tätig werden.
+    korrigiert: true
+ziel: 'Den zusammenfassenden Bericht an die GV (OR 729b) als GVB-Entwurf vorbereiten: aus den Feststellungen Normalwortlaut oder Vorschlag für Einschränkung, Verneinung, Unmöglichkeit,
+  Zusatz oder Hinweis ableiten, belegen und gegen 7.1/7.5 und die Mustervorlagen abgleichen. Prüfungsaussage, Datum, Unterschrift, Freigabe und Versand bleiben beim WP.'
+wann: 'Nach Abschluss der Prüffelder, der Beendigungsarbeiten (revio 6.1–6.3) und des Revisionsrapports (Prozess 4), sobald der WP die Feststellungen gesichtet hat. Das Berichtsdatum
+  liegt frühestens bei der Unterzeichnung oder Genehmigung der JR durch den VR und soll dem tatsächlichen Prüfungsende entsprechen; liegt die Abgabe später, trägt der Bericht das Abgabedatum
+  (keine Rückdatierung). Der Bericht muss vor der GV vorliegen und 20 Tage vorher zugänglich sein. Nach der Abgabe nur noch bei neuen Tatsachen tätig werden. Hinweise auf Kapitalverlust
+  oder Überschuldung warten nicht auf den Bericht: sofort an den WP melden.'
 gesetz:
 - thema: Zusammenfassender Bericht an die GV, schriftlich (OR 729b Abs. 1)
   quelle: or__art-729b
@@ -25,7 +25,10 @@ gesetz:
 - thema: Unterzeichnung durch die leitende Person (OR 729b Abs. 2), nie durch den Agenten
   quelle: or__art-729b
   zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
-- thema: 'Prüfungsgegenstand: JR und Antrag über die Verwendung des Bilanzgewinns (OR 729a Abs. 1)'
+- thema: Prüfungsgegenstand Jahresrechnung (OR 729a Abs. 1 Ziff. 1)
+  quelle: or__art-729a
+  zitat: die Jahresrechnung nicht den gesetzlichen Vorschriften und den Statuten entspricht
+- thema: Prüfungsgegenstand Antrag über die Verwendung des Bilanzgewinns (OR 729a Abs. 1 Ziff. 2)
   quelle: or__art-729a
   zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - thema: Geschäftsführung des VR ist kein Prüfungsgegenstand (OR 729a Abs. 3)
@@ -50,21 +53,36 @@ gesetz:
 - thema: 'Kapitalverlust: Massnahmenpflicht des VR (OR 725a Abs. 1)'
   quelle: or__art-725a
   zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+- thema: 'Kapitalverlust: VR und Revisionsstelle handeln mit der gebotenen Eile (OR 725a Abs. 4)'
+  quelle: or__art-725a
+  zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
 - thema: 'Überschuldung: Prüfung der Zwischenabschlüsse durch die Revisionsstelle (OR 725b Abs. 2)'
   quelle: or__art-725b-t1
   zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen
 - thema: Rangrücktritt als Ausnahme von der Benachrichtigung des Gerichts (OR 725b Abs. 4 Ziff. 1)
   quelle: or__art-725b-t1
   zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+- thema: Sanierungsaussicht als Ausnahme von der Benachrichtigung des Gerichts, längstens 90 Tage (OR 725b Abs. 4 Ziff. 2)
+  quelle: or__art-725b-t1
+  zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
+- thema: 'Überschuldung: VR und Revisionsstelle handeln mit der gebotenen Eile (OR 725b Abs. 6)'
+  quelle: or__art-725b-t2
+  zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
 - thema: Anzeigepflicht der eingeschränkt prüfenden Revisionsstelle (OR 729c)
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: 'Liquidation: Überschuldungsanzeige durch die Liquidatoren (OR 743 Abs. 2)'
+  quelle: or__art-743
+  zitat: sobald sie eine Überschuldung feststellen, das Gericht zu benachrichtigen
 - thema: Geheimhaltung der Feststellungen (OR 730b Abs. 2)
   quelle: or__art-730b
   zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen
 - thema: Aufbewahrung der Berichte 10 Jahre (OR 730c)
   quelle: or__art-730c
   zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+- thema: 'SER 5.3: Korrekturvorschlag; bei Verweigerung Wesentlichkeit beurteilen, ggf. Modifizierung'
+  quelle: ser-2022__5-3
+  zitat: Wird diese Korrektur verweigert, so muss der Abschlussprüfer beurteilen, ob die Jahresrechnung dadurch eine wesentliche Fehlaussage vermittelt.
 - thema: 'SER 8.1: Pflichtelemente des Revisionsberichts'
   quelle: ser-2022__8-1
   zitat: Der Revisionsbericht muss folgende Elemente enthalten
@@ -74,12 +92,21 @@ gesetz:
 - thema: 'SER 8.3.2.1: Hinweis bei Untätigkeit des VR (OR 725a/725b) zwingend'
   quelle: ser-2022__8-3-2-t1
   zitat: sind in jedem Fall im Revisionsbericht anzubringen
+- thema: 'SER 8.3.2.1 Fn. 3: Hinweis bei unterlassener Überschuldungsanzeige der Liquidatoren (OR 743 Abs. 2)'
+  quelle: ser-2022__8-3-2-t1
+  zitat: Bei Unterlassung der Überschuldungsanzeige durch die Liquidatoren erfolgt ein Hinweis auf Art. 743 Abs. 2 OR.
+- thema: 'HWP ER Rz 424: Hinweis zu OR 725a Abs. 1 nur kumulativ bei unzureichenden Massnahmen und fehlender Information der Aktionäre'
+  quelle: hwp-er-2026__rz-0424-s280
+  zitat: die Aktionäre nicht informiert sind und davon ausgegangen werden muss
 - thema: 'SER 8.5: Unterschrift der leitenden Person'
   quelle: ser-2022__8-5
   zitat: Zudem muss der Revisionsbericht die Unterschrift derjenigen Person tragen, welche die eingeschränkte Revision geleitet hat
 - thema: 'SER 8.6: Berichtsdatum frühestens bei Unterzeichnung oder Genehmigung der JR'
   quelle: ser-2022__8-6
   zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+- thema: 'HWP ER Rz 450: Berichtsdatum = tatsächliches Prüfungsende, keine Rückdatierung'
+  quelle: hwp-er-2026__rz-0450-s288
+  zitat: Die Datierung des Berichts der Revisionsstelle sollte mit dem tatsächlichen Prüfungsende übereinstimmen.
 schritte:
 - was: Ausgangslage für den Bericht zusammentragen (nur lesen). Dazu gehören die Ergebnisse und Notizen aller Prüffelder (Wesentliche Feststellungen, Pendenzen, Schlussbesprechung),
     die nicht nachgebuchten Fehler (6.1), Ereignisse nach dem Stichtag und Going concern (6.3, 3.4), die Wesentlichkeit (3.3), die Berichtsstrategie (7.1) und die Berichtskritik (7.5).
@@ -96,7 +123,8 @@ schritte:
   - quelle: hwp-er-2026__rz-0456-s289
     zitat: Bis zum Abschluss seiner Arbeiten hat der Abschlussprüfer seine Feststellungen und Bemerkungen zusammengestellt.
 - was: 'Jede berichtsrelevante Feststellung mit Betrag (Rechenmodul `rechne`) und Fundstelle einordnen: (a) korrigiert: keine Berichtsfolge; (b) nicht korrigierte wesentliche Fehlaussage,
-    festgestellt oder angenommen: Modifizierung; (c) keine ausreichenden Prüfungsnachweise, z.B. eine verweigerte Erklärung in der VE (Beschränkung des Prüfungsumfangs): Modifizierung;
+    festgestellt oder angenommen: Modifizierung. Der Abschlussprüfer schlägt der Unternehmensleitung die Korrektur vor; wird sie verweigert, beurteilt er, ob eine wesentliche Fehlaussage
+    bleibt (SER 5.3); (c) zu einem wesentlichen Sachverhalt kein genügender Prüfungsnachweis über eine Erklärung der Unternehmensleitung hinaus (Beschränkung des Prüfungsumfangs): Modifizierung;
     (d) wesentliche Unsicherheit mit angemessener Anhangsangabe, Kapitalverlust, Überschuldung mit Rangrücktritt: Zusatz; (e) Gesetzesverstoss ausserhalb der Rechnungslegung: Hinweis.
     Ergebnis nur als Vorschlag bei A1-202/A1-203 erfassen.'
   wer: Agent bereitet vor, WP entscheidet
@@ -107,11 +135,15 @@ schritte:
     zitat: Der Abschlussprüfer nimmt eine Modifizierung der Prüfungsaussage vor, wenn er
   - quelle: ser-2022__8-3-1-t2
     zitat: so sind diese Sachverhalte im Revisionsbericht darzulegen, sofern der Prüfungskunde die Fehlaussagen nicht korrigiert
+  - quelle: ser-2022__5-3
+    zitat: Wird diese Korrektur verweigert, so muss der Abschlussprüfer beurteilen, ob die Jahresrechnung dadurch eine wesentliche Fehlaussage vermittelt.
+  - quelle: ser-2022__anh-e-s101-2
+    zitat: über eine Erklärung der Unternehmensleitung hinaus keinen genügenden Prüfungsnachweis erlangen
+  - quelle: ser-2022__anh-e-s101-2
+    zitat: liegt eine Beschränkung des Prüfungsumfangs vor. In diesem Fall modifiziert der Abschlussprüfer die Prüfungsaussage.
   - quelle: hwp-er-2026__rz-0426-s282
     zitat: Mittels Hinweisen werden bei der eingeschränkten Revision festgestellte Verstösse gegen gesetzliche Bestimmungen ausserhalb der Rechnungslegungsvorschriften zur Jahresrechnung
       angezeigt.
-  - quelle: ser-2022__anh-e-s101-2
-    zitat: liegt eine Beschränkung des Prüfungsumfangs vor. In diesem Fall modifiziert der Abschlussprüfer die Prüfungsaussage.
 - was: 'Art der Prüfungsaussage nach der Übersicht in SER Anhang F vorschlagen. Ohne negative Sachverhalte: nicht modifiziert (Bsp. 1). Bei einem festgestellten Sachverhalt: eingeschränkt
     (Bsp. 2) oder, wenn das Gesamtbild grundlegend verändert wird, verneinend (Bsp. 3, zum Antrag Bsp. 8). Bei einem angenommenen Sachverhalt oder einer Beschränkung: eingeschränkt (Bsp.
     4/6) oder Unmöglichkeit (Bsp. 5/7). Argumente für «grundlegend» sammeln, z.B. wenn die Korrektur eine Überschuldung zeigen oder die Ausschüttung verunmöglichen würde. Das Urteil
@@ -129,13 +161,18 @@ schritte:
     zitat: Ausweis einer Überschuldung, Verunmöglichung einer beabsichtigten Gewinnausschüttung
   - quelle: hwp-er-2026__rz-0412-s277
     zitat: Es liegt im Ermessen des Abschlussprüfers, zu entscheiden, ob das Gesamtbild der Jahresrechnung grundlegend verändert wird oder nicht.
-- was: Eigenkapital nach OR 725a/725b beurteilen (Werkzeug `kapitalverlust`). Ein hälftiger Kapitalverlust führt zu einem Zusatz (SER Bsp. 11). Hat der VR trotz Zeitablauf keine oder
-    offensichtlich unzureichende Massnahmen ergriffen, kommt zusätzlich ein Hinweis dazu (Muster «Untätigkeit 725a»). Bei buchmässiger Überschuldung Zwischenabschlüsse und Rangrücktritte
-    (Betrag inkl. Zinsen, Stundung, Bonität) prüfen. Daraus folgt ein Zusatz (Bsp. 9, Muster c045/c047) oder ein Zusatz mit Hinweis auf Untätigkeit (Bsp. 13). Deutet etwas auf eine offensichtliche
-    Überschuldung ohne Anzeige des VR hin, sofort Pendenz und Meldung an den WP (OR 729c).
+- was: 'Eigenkapital nach OR 725a/725b beurteilen (Werkzeug `kapitalverlust`). Ein hälftiger Kapitalverlust führt zu einem Zusatz (SER Bsp. 11). Ein Hinweis auf Untätigkeit (Muster c050)
+    kommt nach HWP Rz 424 dazu, wenn der VR trotz Zeitablauf keine oder offensichtlich unzureichende Massnahmen ergriffen hat UND die Aktionäre nicht informiert sind (mit Auswirkung
+    auf deren Sanierungswillen). SER 8.3.2.1 verlangt den Hinweis bei Untätigkeit «in jedem Fall»; die Abgrenzung entscheidet der WP. Bei buchmässiger Überschuldung Zwischenabschlüsse
+    und Rangrücktritte (Betrag inkl. Zinsen, Stundung, Bonität) prüfen. Daraus folgt ein Zusatz mit Rangrücktritt (Bsp. 9), ein Zusatz bei Deckung zu Veräusserungswerten im Zwischenabschluss
+    (Muster c047), ein Zusatz bei begründeter Sanierungsaussicht innert längstens 90 Tagen nach Vorliegen der geprüften Zwischenabschlüsse (OR 725b Abs. 4 Ziff. 2, Muster c045) oder
+    ein Zusatz mit Hinweis auf Untätigkeit (Bsp. 13). Die Prüfung der Zwischenabschlüsse (OR 725b Abs. 2) ergibt einen eigenen Bericht nach PS-CH 290 (Muster c059/c060); der GVB ersetzt
+    ihn nicht. Gesellschaft in Liquidation: Unterlassen die Liquidatoren die Überschuldungsanzeige, Hinweis auf OR 743 Abs. 2 vorschlagen. Deutet etwas auf eine offensichtliche Überschuldung
+    ohne Anzeige des VR hin, sofort Pendenz und Meldung an den WP (gebotene Eile, OR 725a Abs. 4/725b Abs. 6). Ermahnung und Anzeige nach OR 729c nur durch den WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: P1-313, A1-205 (Bereich 4); 3.4 und 6.3 (lesen)
-  mfiles: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, Rangrücktrittsvereinbarungen, VR-Protokolle zu Sanierungsmassnahmen (Suche über Kunde, Geschäftsjahr, Klasse)
+  mfiles: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, Rangrücktrittsvereinbarungen, VR-Protokolle zu Sanierungsmassnahmen, Sanierungszusagen, bei Liquidation Liquidationsbilanz
+    (Suche über Kunde, Geschäftsjahr, Klasse)
   fundstellen:
   - quelle: ser-2022__8-3-2-t1
     zitat: sind in jedem Fall im Revisionsbericht anzubringen
@@ -143,23 +180,37 @@ schritte:
     zitat: das Vorliegen eines Kapitalverlusts (im Unterschied zum Hinweis bei gesetzeswidriger Untätigkeit des Verwaltungsrats bei Kapitalverlust)
   - quelle: hwp-er-2026__rz-0424-s280
     zitat: der Verwaltungsrat keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift
+  - quelle: hwp-er-2026__rz-0424-s280
+    zitat: die Aktionäre nicht informiert sind
   - quelle: or__art-725b-t1
     zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+  - quelle: or__art-725b-t1
+    zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
+  - quelle: hwp-er-2026__rz-0402-s120-t3
+    zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen
+  - quelle: ser-2022__8-3-2-t1
+    zitat: Bei Unterlassung der Überschuldungsanzeige durch die Liquidatoren erfolgt ein Hinweis
+  - quelle: or__art-725a
+    zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
 - was: 'Bei wesentlicher Unsicherheit (Fortführung, Rechtsfall, Finanzierung, Konzession usw.) prüfen, ob der Anhang sie angemessen offenlegt. Wenn ja: Zusatz mit Verweis auf die Anhangsangabe
-    (Bsp. 10), allenfalls mit Eventualzusatz zu OR 725a/725b. Wenn nein: Modifizierung vorschlagen. Unsicherheiten von einer Beschränkung des Prüfungsumfangs abgrenzen.'
+    (Bsp. 10), allenfalls mit Eventualzusatz zu OR 725a/725b. Wenn nein: Modifizierung vorschlagen, z.B. eingeschränkt bei ungenügender Offenlegung (Muster c026) oder verneinend bei
+    fehlender Offenlegung (Muster c033); die Art entscheidet der WP. Rechtsfälle und Risiken aus O1-101/O1-102 einbeziehen. Unsicherheiten von einer Beschränkung des Prüfungsumfangs
+    abgrenzen.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: T1-318, T1-306, A1-205 (Bereich 4); 6.3 (lesen)
-  mfiles: Anhang der definitiven JR, Budget/Liquiditätsplanung, Finanzierungszusagen
+  revio: T1-318, T1-306, A1-205 (Bereich 4); O1-101, O1-102 (Rechtsfälle/Risiken); 6.3 (lesen)
+  mfiles: Anhang der definitiven JR, Budget/Liquiditätsplanung, Finanzierungszusagen, Aktennotizen/Korrespondenz zu Rechtsfällen
   fundstellen:
   - quelle: ser-2022__8-3-2-t4
     zitat: ist eine angemessene Offenlegung im Anhang der Jahresrechnung erforderlich, da sonst eine eingeschränkte oder verneinende Prüfungsaussage erforderlich wird
   - quelle: hwp-er-2026__rz-0434-s283
     zitat: worin auf mögliche Rechtsfolgen der wesentlichen Unsicherheit im Hinblick auf Art. 725a OR oder Art. 725b OR aufmerksam gemacht wird
+  - quelle: muster-hwp-er-2026__c026-2
+    zitat: bringt diese Unsicherheit nicht hinreichend zum Ausdruck
   - quelle: hwp-er-2026__rz-0392-s272
     zitat: Die Beschränkungen des Prüfungsumfangs sind zu unterscheiden von Sachverhalten, die im Rahmen der eingeschränkten Revision nicht geprüft werden, sowie von Unsicherheiten
 - was: 'Weitere Hinweise auf Gesetzesverstösse nur vorschlagen, wenn der Verstoss wesentlich ist, einen direkten Bezug zur JR hat und aus den Prüfungshandlungen festgestellt wurde. Beispiele:
     Aktionärsdarlehen oder Kapitalrückzahlung ohne freie Reserven (OR 680), eigene Aktien (OR 659), Ungleichbehandlung (OR 660), Leistungen an Nahestehende (OR 678), Einberufungsfrist
-    (OR 699), Dividende mit erheblichem Liquiditätsentzug (OR 717), Vorlagepflicht (OR 958 Abs. 3). Statutenverstösse nur mit Bezug zum Prüfungsgegenstand, das Organisationsreglement
+    (OR 699), Dividende mit nicht vertretbarem Liquiditätsentzug (OR 717), Vorlagepflicht (OR 958 Abs. 3). Statutenverstösse nur mit Bezug zum Prüfungsgegenstand, das Organisationsreglement
     nie.'
   wer: Agent bereitet vor, WP entscheidet
   revio: P1-305, P1-304, H2, H3, A1-304 (Protokolle)
@@ -172,25 +223,33 @@ schritte:
   - quelle: ser-2022__8-3-2-t2
     zitat: Für Verstösse gegen das Organisationsreglement besteht keine Hinweispflicht.
 - was: 'Antrag des VR zur Gewinnverwendung prüfen und die passende Formulierung wählen. Bilanzgewinn: «… sowie der Antrag über die Verwendung des Bilanzgewinns …». Kein Bilanzgewinn
-    und kein Antrag: gekürzte Aussage nur zur JR. Verlustverrechnung oder -vortrag, Rückzahlung aus der gesetzlichen Kapitalreserve oder mehrere Anträge: Textbausteine EXPERTsuisse 2022
-    bzw. HWP Abb. 56–59 (einzeln oder summarisch). Zuweisung an die gesetzliche Gewinnreserve und Liquidität nach der Ausschüttung prüfen. Bei Verstössen eine verneinende Aussage zum
-    Antrag (Bsp. 8) oder einen Hinweis nach OR 717 vorschlagen.'
+    und kein Antrag: gekürzte Aussage nur zur JR. Verlustverrechnung oder -vortrag (HWP Abb. 56), Rückzahlung aus der gesetzlichen Kapitalreserve oder mehrere Anträge (HWP Abb. 57–59,
+    einzeln oder summarisch): Textbausteine EXPERTsuisse 2022. Zuweisung an die gesetzliche Gewinnreserve und Liquidität nach der Ausschüttung prüfen. OR 717: Beeinflusst die Dividende
+    die Liquidität erheblich, ist sie aber vertretbar, weil die betriebsnotwendige Liquidität sichergestellt ist → Zusatz (SER Bsp. 12, Muster c048). Wird die Vertretbarkeit verneint
+    → Gesetzesverstoss, Hinweis (HWP Abb. 55, Muster c053). Verstösst der Antrag sonst gegen Gesetz oder Statuten → verneinende Aussage zum Antrag (Bsp. 8) vorschlagen.'
   wer: Agent bereitet vor, WP entscheidet
   revio: P1-303, A1-307 (Bereich 4); 1.1 Antrag VR (lesen)
   mfiles: Definitiver Antrag des VR über die Verwendung des Bilanzgewinns, Liquiditätsplanung
   fundstellen:
   - quelle: textbausteine-gewinnverwendung-2022__s001-3
     zitat: Die Bestätigung zum Antrag über die Verwendung des Bilanzgewinns entfällt, wenn kein Bilanzgewinn vorliegt
+  - quelle: hwp-er-2026__rz-0443-s285
+    zitat: Formulierungsbeispiel für die Berichterstattung im Fall der Verrechnung
   - quelle: hwp-er-2026__rz-0439-s284
     zitat: Insbesondere ist zu prüfen, ob die Zuweisungen an die gesetzliche Gewinnreserve richtig erfolgen
   - quelle: hwp-er-2026__rz-0440-s284
     zitat: kann die Stellungnahme entweder unter Auflistung der einzelnen Anträge oder alternativ summarisch
+  - quelle: ser-2022__anh-f-s130-2
+    zitat: Sie ist nur dann vertretbar, wenn sichergestellt wird, dass die zur Betriebstätigkeit erforderliche Liquidität auch nach dem Dividendenabgang zur Verfügung stehen wird
+  - quelle: ser-2022__anh-f-s130-2
+    zitat: Verneint sie diese, liegt ein Gesetzesverstoss vor, und es bedarf eines Hinweises.
   - quelle: hwp-er-2026__rz-0441-s285
     zitat: Der Verstoss ist mit einem Hinweis anzuzeigen
 - was: 'Mandatsspezifische Pflichtangaben bestimmen. Dazu gehören Adressat und verantwortliches Organ nach Rechtsform (AG, GmbH mit Art. 818 OR, Genossenschaft, Verein, Stiftung) und
     ein Geschäftsjahr, das nicht zwölf Monate umfasst. Wurde das Vorjahr von einem anderen Prüfer geprüft, dessen Prüfungsaussage wiedergeben. Wurde es nicht geprüft, folgt der Satz
-    «Vergleichszahlen nicht geprüft». Weiter: Mitwirkung bei der Buchführung (Einschub Bsp. 15), Kern-FER-Bestätigung, Zweck nach OR 725a Abs. 2 (zugelassener Revisor, Adressat VR).
-    Ob bei der Buchführung mitgewirkt wurde, bestätigt der WP.'
+    «Vergleichszahlen nicht geprüft» (Textbausteine Vorjahresangaben, Muster c073). Weiter: Mitwirkung bei der Buchführung (Einschub Bsp. 15), Kern-FER-Bestätigung, Zweck nach OR 725a
+    Abs. 2 (zugelassener Revisor, Adressat VR, VE gegenüber dem zugelassenen Revisor nach Muster c013, Zusatz bei Kapitalverlust, begründeter Besorgnis einer Überschuldung oder Überschuldung
+    zwingend, keine Aussage zum Gewinnverwendungsantrag). Ob bei der Buchführung mitgewirkt wurde, bestätigt der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 2.2 Auftragsannahme, 2.4 Unabhängigkeit (lesen)
   mfiles: HR-Auszug, Statuten, Revisionsbericht des Vorjahres bzw. der Vorgänger-Revisionsstelle
@@ -203,6 +262,10 @@ schritte:
     zitat: Die Vergleichszahlen in der Jahresrechnung wurden nicht geprüft.
   - quelle: ser-2022__8-4
     zitat: ist dies im Revisionsbericht z. B. wie folgt offenzulegen
+  - quelle: hwp-er-2026__rz-0474-s291
+    zitat: muss dies durch einen entsprechenden Zusatz mit weiteren Informationen im Bericht hervorgehoben werden
+  - quelle: hwp-er-2026__rz-0479-s292
+    zitat: dem zugelassenen Revisor keine Prüfpflichten bezüglich etwaiger Anträge zur Verwendung des Bilanzgewinns obliegen
 - was: GVB-Entwurf erstellen (Prozess 5). Vorjahres-Deckblatt und Berichtstext in M-Files suchen und als Kopie für das neue Geschäftsjahr anlegen. Firma, Sitz, Stichtag, Geschäftsjahr,
     Jahresergebnis bzw. Bilanzgewinn und Beilagen aktualisieren. Den Wortlaut gegen die aktuelle Mustervorlagensammlung (Normalwortlaut verbindlich) und SER Anhang F prüfen. Ort/Datum,
     Unterschrift, Name und Zulassung des leitenden Revisors als leere Platzhalter lassen und Unklares markieren.
@@ -218,8 +281,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: 'Dokumentenmodul: GVB-Kopien in Word erstellen und aktualisieren, ohne die Formatierung zu zerstören.'
 - was: 'Texte, die vom Normalwortlaut abweichen (Einschränkung, Verneinung, Unmöglichkeit, Zusatz, Hinweis), nur auf ausdrückliche Anweisung des WP einsetzen (offener Entscheid consis).
-    Reihenfolge: begründender Absatz (Sachverhalt, Auswirkung quantifiziert oder Bandbreite), dann Prüfungsaussage, dann Zusatz, zuletzt Hinweis. Formulierungen aus SER Anhang F bzw.
-    den Mustervorlagen übernehmen und als Vorschlag kennzeichnen.'
+    Reihenfolge: begründender Absatz (Sachverhalt, Auswirkung quantifiziert oder Bandbreite), dann Prüfungsaussage, dann Zusatz, zuletzt Hinweis. Formulierungen aus den Mustervorlagen
+    HWP ER 2026 bzw. SER Anhang F übernehmen und als Vorschlag kennzeichnen. SER-Beispiele 2022 (z.B. Bsp. 9, 11, 13, 17) verwenden teils alten Gesetzeswortlaut («Hälfte des Aktienkapitals
+    und der gesetzlichen Reserven», «Richter», «Zwischenbilanz»): an den geltenden Wortlaut von OR 725a/725b anpassen und markieren; die Wortwahl bestätigt der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 7.1 Berichtsstrategie (lesen)
   mfiles: GVB-Entwurf (Kopie), Status Entwurf
@@ -230,6 +294,10 @@ schritte:
     zitat: Wesentliche Fehlaussagen werden vom Abschlussprüfer beschrieben und wo möglich quantifiziert.
   - quelle: ser-2022__8-3-2-t3
     zitat: vor einem Hinweis auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands angebracht
+  - quelle: muster-hwp-er-2026__c050-2
+    zitat: Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr gedeckt ist
+  - quelle: ser-2022__anh-f-s129-2
+    zitat: die Hälfte des Aktienkapitals und der gesetzlichen Reserven nicht mehr gedeckt ist
 - was: Entwurf gegen 7.1 Berichtsstrategie, 7.5 Berichtskritik und die Beilage abgleichen. Bezeichnung und Bestandteile der JR, Stichtag, Jahresergebnis und Antrag müssen mit der unterzeichneten
     Fassung übereinstimmen. Beilage sind die Jahresrechnung und gegebenenfalls der Antrag. Bericht und ergänzende Berichterstattung müssen widerspruchsfrei sein. Abweichungen als Pendenz
     erfassen.
@@ -242,7 +310,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0453-s288
     zitat: Dem Bericht der Revisionsstelle werden die Jahresrechnung (i.d.R. Bilanz, Erfolgsrechnung und Anhang) und ggf. der Antrag über die Verwendung des Bilanzgewinns
 - was: 'Voraussetzungen für das Berichtsdatum zusammenstellen und als Pendenz melden, wenn etwas fehlt: rechtsgültig unterzeichnete JR, datierte und an die Revisionsstelle adressierte
-    VE (Datum wie Bericht), Ereignisse nach dem Stichtag bis zum voraussichtlichen Berichtsdatum (A1-102: Folgeperiode, Protokolle). Das Datum setzt der WP.'
+    VE (Datum wie Bericht), Ereignisse nach dem Stichtag bis zum voraussichtlichen Berichtsdatum (A1-102: Folgeperiode, Protokolle). Das Datum soll dem tatsächlichen Prüfungsende entsprechen.
+    Liegt die Abgabe später, trägt der Bericht das Abgabedatum (keine Rückdatierung) und bezeichnet das Datum der Beendigung gesondert (SER Anh. F [8], siehe Dokumentation). Das Datum
+    setzt der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 10.4 Jahresrechnung und Vollständigkeitserklärung (Status offen lassen); A1-102, A1-103, A1-301
   mfiles: unterzeichnete JR, VE, Genehmigungsbeschluss des VR
@@ -253,25 +323,37 @@ schritte:
     zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
   - quelle: hwp-er-2026__rz-0450-s288
     zitat: sie hat wesentliche Ereignisse nach dem Bilanzstichtag bis zum Abschluss der eingeschränkten Revision in ihrem Bericht zu berücksichtigen
-- was: 'Schlussbesprechung vorbereiten. In der Notiz «Schlussbesprechung» festhalten: erwartete Modifizierung, Zusätze und Hinweise, nicht korrigierte Fehler, Korrektur- oder Ergänzungsmöglichkeiten
-    (Anhangsangaben, Gutachten). Die Mitteilung an die Unternehmensleitung vor einer modifizierten Aussage macht der WP.'
+  - quelle: hwp-er-2026__rz-0450-s288
+    zitat: Die Datierung des Berichts der Revisionsstelle sollte mit dem tatsächlichen Prüfungsende übereinstimmen.
+  - quelle: hwp-er-2026__rz-0450-s288
+    zitat: trägt der Bericht das Datum der Berichtsabgabe (keine Rückdatierung)
+  - quelle: ser-2022__anh-f-s136-2
+    zitat: soll das Datum der Beendigung der eingeschränkten Revision im Revisionsbericht gesondert bezeichnet werden
+- was: 'Schlussbesprechung vorbereiten. In der Notiz «Schlussbesprechung» festhalten: erwartete Modifizierung, Zusätze und Hinweise, nicht korrigierte Fehler mit dem Korrekturvorschlag
+    an die Unternehmensleitung (SER 5.3), Korrektur- oder Ergänzungsmöglichkeiten (Anhangsangaben, Gutachten). Die Mitteilung an die Unternehmensleitung vor einer modifizierten Aussage
+    macht der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: Notiz «Schlussbesprechung» (Bereich 4, A1)
   mfiles: ''
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
+  - quelle: ser-2022__5-3
+    zitat: In der Regel macht der Abschlussprüfer der Unternehmensleitung den Vorschlag
   - quelle: hwp-er-2026__rz-0404-s274
     zitat: sollte er die Umstände, welche zur erwarteten Abweichung führen, den für die Erstellung der Jahresrechnung Verantwortlichen mitteilen
   - quelle: hwp-er-2026__rz-0458-s289
     zitat: Punkte, die zu einer Modifizierung der Prüfungsaussage, zu Hinweisen bzw. Zusätzen im Bericht der Revisionsstelle geführt haben
-- was: 'GVB-Entwurf mit dem Rapport an die freigegebene WP-Adresse übergeben: vorgeschlagene Prüfungsaussage, Zusätze/Hinweise mit Fundstellen, offene Pendenzen, M-Files-ID/Version.
-    Durchsicht, Freigabe, Datierung, Unterzeichnung durch den leitenden Revisor und Versand an den Kunden erledigen ausschliesslich Menschen.'
-  wer: WP
-  revio: rv_post_workpapers_CreateNotesReport (Notizenbericht als Rapportbeilage); nie rv_post_clientsManagement_SetUserSignature, rv_post_workpapers_SetDeliveryVisa_by_componentId,
-    rv_post_clientsManagement_RequestSeal_by_dossierId
+- was: 'GVB-Entwurf mit dem Rapport an die freigegebene WP-Adresse übergeben (Handlung des Agenten, Prozess 4/5): vorgeschlagene Prüfungsaussage, Zusätze/Hinweise mit Fundstellen, offene
+    Pendenzen, M-Files-ID/Version. Durchsicht, Freigabe, Datierung, Unterzeichnung durch den leitenden Revisor und Versand an den Kunden entscheidet und erledigt ausschliesslich der
+    WP.'
+  wer: Agent bereitet vor, WP entscheidet
+  revio: rv_post_workpapers_CreateNotesReport (Notizenbericht als Rapportbeilage). Gesperrt sind alle Werkzeuge der Liste `revio nur-mensch`, insbesondere rv_post_clientsManagement_SealAnualFile,
+    rv_post_clientsManagement_RequestSeal_by_dossierId, rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId, rv_post_workpapers_StoreDynamicFormPanelVisaState
   mfiles: Entwurf bleibt im Status Entwurf; keine Ablage als definitiver Bericht
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Nur an die freigegebene WP-Adresse
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
   - quelle: konzept-ki-revisionsagent-2026__c011-2
@@ -293,12 +375,21 @@ schritte:
     zitat: keine Pflicht zur Teilnahme an der Versammlung der Anteilseigner
   - quelle: hwp-er-2026__rz-0446-s287
     zitat: Die Revisionsstelle wird den Gewinnverwendungsbeschluss erst im Folgejahr prüfen können.
-- was: Den unterzeichneten Bericht nur auf Anweisung des WP in 10.5 Berichtsablage bzw. in M-Files ablegen und den Speicherort bestätigen. Status und Visum bleiben beim Menschen. Aufbewahrung
-    mindestens zehn Jahre.
-  wer: Agent
-  revio: 10.5 Berichtsablage (Status offen lassen)
-  mfiles: unterzeichneter Revisionsbericht mit Beilage; nichts überschreiben
+- was: 'Praxis/intern – offener Entscheid consis: Die Ablage des unterzeichneten Berichts in 10.5 Berichtsablage bzw. in M-Files ist kein Prozess des Pflichtenhefts. Der Agent beschränkt
+    sich in Bereich 10 auf 10.9, PBC-Vorschläge und das Auswerten von 10.11. Ablage daher durch den WP oder durch den Agenten nur auf ausdrückliche Anweisung des WP (analog Prozess 6);
+    dann Speicherort bestätigen und nichts überschreiben. Status in Bereich 10 und Visum bleiben beim Menschen. Aufbewahrung mindestens zehn Jahre.'
+  wer: WP
+  revio: 10.5 Berichtsablage (Status offen lassen; Agent nur auf Anweisung)
+  mfiles: unterzeichneter Revisionsbericht mit Beilage (nur auf Anweisung); nichts überschreiben
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: Prozess 3 (Protokoll in 10.9); Vorschläge für die PBC-Liste
+  - quelle: konzept-ki-revisionsagent-2026__c008-1
+    zitat: 'Status in Bereich 10: alles bleibt beim Menschen.'
+  - quelle: konzept-ki-revisionsagent-2026__c010-1
+    zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Nichts überschreiben; Ablage mit Speicherort bestätigen
   - quelle: katalog-revio4__c002-3
     zitat: 10.4 Jahresrechnung und Vollständigkeitserklärung, 10.5 Berichtsablage
   - quelle: or__art-730c
@@ -310,7 +401,8 @@ entscheidungen_wp:
 - text: Wesentlichkeit der nicht korrigierten Fehler (einzeln und kumuliert) in revio 6.1.
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
-- text: Ob bei einem Kapitalverlust die Massnahmen des VR genügen, also nur ein Zusatz oder zusätzlich ein Hinweis auf einen Gesetzesverstoss.
+- text: Ob bei einem Kapitalverlust die Massnahmen des VR genügen und die Aktionäre informiert sind (HWP Rz 424), also nur ein Zusatz oder zusätzlich ein Hinweis auf einen Gesetzesverstoss.
+    Spannungsfeld zu SER 8.3.2.1 («in jedem Fall») bewusst entscheiden.
   quelle: qa-kapitalverlust-2023__1-2-t3
   zitat: obliegt der Beurteilung der Revisionsstelle bzw. des zugelassenen Revisors
 - text: Ermahnung des VR mit Fristansetzung und Anzeige ans Gericht bei offensichtlicher Überschuldung (OR 729c). Der Agent meldet nur.
@@ -319,6 +411,12 @@ entscheidungen_wp:
 - text: Anzeigepflicht beschränkt auf die Benachrichtigung des Gerichts bei Untätigkeit des VR. Der Entscheid und die Ausführung liegen allein beim WP.
   quelle: ser-2022__9-t3
   zitat: Die diesbezügliche Anzeigepflicht beschränkt sich auf die Benachrichtigung des Richters, wenn dies der Verwaltungsrat trotz offensichtlicher Überschuldung unterlässt.
+- text: Auftrag und Bericht zur Prüfung der Zwischenabschlüsse (OR 725b Abs. 2, PS-CH 290) neben dem GVB; Erstellung, Datierung und Unterzeichnung durch den WP.
+  quelle: hwp-er-2026__rz-0402-s120-t3
+  zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen
+- text: 'Vertretbarkeit einer beantragten Dividende mit erheblichem Liquiditätseinfluss: Zusatz (vertretbar) oder Hinweis (nicht vertretbar, OR 717).'
+  quelle: ser-2022__anh-f-s130-2
+  zitat: Im Allgemeinen dürfte die Revisionsstelle zu einer Beurteilung der Vertretbarkeit der vorgesehenen Ausschüttung in der Lage sein.
 - text: Ob weitere Gesetzes- oder Statutenverstösse mit direktem Bezug zur JR einen Hinweis im Bericht erhalten.
   quelle: ser-2022__1-6-t2
   zitat: so ist ein Hinweis im Revisionsbericht in Erwägung zu ziehen
@@ -366,13 +464,17 @@ unterlagen:
   quelle: hwp-er-2026__rz-0367-s267
   zitat: Ferner wird die Art der abgegebenen Prüfungaussage des Vorgängers wiedergegeben
 - dokument: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (OR 725b)
-  zweck: Überschuldung beurteilen, Zusatz/Hinweis ableiten
+  zweck: Überschuldung beurteilen, Zusatz/Hinweis ableiten; Grundlage für den separaten Bericht nach PS-CH 290
   quelle: ser-2022__anh-h-s142-2
   zitat: je einen Zwischenabschluss nach Art. 960f OR zu Fortführungswerten und zu Veräusserungswerten zu erstellen
 - dokument: Rangrücktrittsvereinbarungen (inkl. Angaben zur Bonität des Gläubigers)
   zweck: Gültigkeit und Umfang für den Zusatz bei Überschuldung
   quelle: ser-2022__anh-h-s143-1
   zitat: Wenn der Darlehensgeber nicht in der Lage ist, einen allfälligen Ausfall finanziell zu verkraften, können an der Gültigkeit des Rangrücktritts Zweifel bestehen.
+- dokument: Verbindliche Sanierungszusagen (z.B. des Hauptaktionärs) bei Überschuldung
+  zweck: Voraussetzung für den Zusatz bei sofortiger finanzieller Sanierung (OR 725b Abs. 4 Ziff. 2, Muster c045)
+  quelle: muster-hwp-er-2026__c045-2
+  zitat: die nachhaltige finanzielle Sanierung innert 90 Tagen zugesagt hat
 - dokument: VR- und GV-Protokolle (Sanierungsmassnahmen, Genehmigung JR, Einladung GV)
   zweck: Massnahmen bei Kapitalverlust, GV-Termin, mögliche Gesetzesverstösse
   quelle: or__art-725a
@@ -394,7 +496,7 @@ unterlagen:
   quelle: hwp-er-2026__rz-0361-s263
   zitat: Für die Berichterstattung an das oberste Organ sind die Normalwortlaute gemäss der Mustervorlagensammlung von EXPERTsuisse verbindlich.
 - dokument: Handelsregisterauszug und Statuten
-  zweck: Firma, Sitz, Rechtsform, damit Adressat und verantwortliches Organ
+  zweck: Firma, Sitz, Rechtsform (auch «in Liquidation»), damit Adressat und verantwortliches Organ
   quelle: hwp-er-2026__rz-0364-s266
   zitat: Bei den unterschiedlichen Rechtsformen sind die Revisionsberichte an folgende Organe zu richten
 - dokument: Angaben zum leitenden Revisor und seiner Zulassung (intern)
@@ -406,7 +508,7 @@ dokumentation:
     Zusatz oder Hinweis).'
   quelle: ser-2022__7-1
   zitat: Der Abschlussprüfer muss wichtige Sachverhalte dokumentieren als Nachweis dafür
-- text: 'Fehlaussagen (festgestellt/angenommen) und ihre Behandlung festhalten: korrigiert, nicht korrigiert, Auswirkung auf den Bericht.'
+- text: 'Fehlaussagen (festgestellt/angenommen) und ihre Behandlung festhalten: Korrekturvorschlag, korrigiert, nicht korrigiert, Auswirkung auf den Bericht.'
   quelle: ser-2022__7-2
   zitat: Fehlaussagen infolge festgestellter und/oder angenommener Sachverhalte und ihre Behandlung
 - text: Ergebnis des Agenten einheitlich dokumentieren, für den GVB-Entwurf mit M-Files-ID und Version der Vorjahresvorlage und der Kopie.
@@ -421,13 +523,14 @@ dokumentation:
 - text: Über die Schlussbesprechung ein Kurzprotokoll erstellen. Der Agent bereitet die Punkte in der Notiz «Schlussbesprechung» vor.
   quelle: hwp-er-2026__rz-0459-s289
   zitat: Es empfiehlt sich, über die Schlussbesprechung ein (Kurz-)Protokoll zu erstellen.
-- text: Liegen Prüfungsende und Berichtsabgabe zeitlich auseinander, das Datum der Beendigung im Bericht gesondert nennen. Im Entwurf als Hinweis an den WP vermerken.
+- text: Liegen Prüfungsende und Berichtsabgabe zeitlich auseinander, trägt der Bericht das Abgabedatum (HWP Rz 450, keine Rückdatierung) und bezeichnet das Datum der Beendigung gesondert.
+    Im Entwurf als Hinweis an den WP vermerken (Schritt Berichtsdatum).
   quelle: ser-2022__anh-f-s136-2
   zitat: soll das Datum der Beendigung der eingeschränkten Revision im Revisionsbericht gesondert bezeichnet werden
 - text: Notizen (Pendenz, Wesentliche Feststellungen, Schlussbesprechung) nie löschen oder erledigen. Rückmeldungen erfasst der WP unter «Review».
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Notizen löscht oder erledigt er nie.
-- text: Bericht und alle wesentlichen Unterlagen mindestens zehn Jahre aufbewahren (Ablage 10.5 bzw. M-Files nur auf Anweisung).
+- text: Bericht und alle wesentlichen Unterlagen mindestens zehn Jahre aufbewahren (Ablage 10.5 bzw. M-Files durch den WP, Agent nur auf Anweisung).
   quelle: or__art-730c
   zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
 - text: 'Geheimhaltung: Entwürfe, Feststellungen und Rapport nur intern und an die WP-Adresse, keine Mandantendaten ins Wiki.'
@@ -438,7 +541,7 @@ fallstricke:
   quelle: hwp-er-2026__rz-0433-s283
   zitat: In keinem Fall kann ein Zusatz infolge einer wesentlichen Unsicherheit eine Einschränkung ersetzen.
 - text: Ein Kapitalverlust allein führt zu einem Zusatz, nicht zu einem Hinweis. SER Bsp. 11 setzt voraus, dass der VR noch keine Gelegenheit zum Handeln hatte. Hatte er Zeit und blieb
-    untätig, kommt der Hinweis dazu (Muster c050).
+    untätig, kommt der Hinweis dazu (Muster c050; Voraussetzungen HWP Rz 424).
   quelle: ser-2022__anh-f-s129-2
   zitat: Annahme ist, dass der Verwaltungsrat vom Zeitablauf her noch keine Gelegenheit hatte, seinen Pflichten nach Art. 725a OR nachzukommen
 - text: 'Fachliteratur (Camponovo) bestätigt: Der Zustand Kapitalverlust ist kein Gesetzesverstoss, seine Erwähnung ist ein Zusatz.'
@@ -447,8 +550,16 @@ fallstricke:
 - text: Ein Rangrücktritt beseitigt weder den Kapitalverlust, noch ist er eine Sanierungsmassnahme. Er befreit nur von der Benachrichtigung des Gerichts.
   quelle: qa-kapitalverlust-2023__1-2-t3
   zitat: Ein Rangrücktritt an sich beseitigt den Kapitalverlust nicht und stellt auch keine Sanierungsmassnahme nach Art. 725a OR dar.
-- text: Bei Überschuldung entspricht die JR dem Zwischenabschluss zu Fortführungswerten. Die Fachliteratur hält einen Bericht zu Fortführungswerten bei Überschuldung und untätigem VR
-    für problematisch (abweichend vom SER). Das ist immer ein WP-Entscheid.
+- text: Fallen die Stichtage von JR und Zwischenabschluss zusammen, kann die JR zu Fortführungswerten als Zwischenabschluss dienen. Weist sie eine Überschuldung aus, ist zusätzlich ein
+    Abschluss zu Veräusserungswerten nötig, und es sind zwei Berichte zu erstellen (GVB und Bericht nach PS-CH 290).
+  quelle: hwp-er-2026__rz-0402-s120-t3
+  zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen
+- text: Sonst ist der Zwischenabschluss bei begründeter Besorgnis einer Überschuldung immer einzuverlangen, auch wenn eine geprüfte JR vorliegt und weniger als sechs Monate seit dem
+    Stichtag vergangen sind.
+  quelle: hwp-er-2026__rz-0402-s120-t2
+  zitat: Der Zwischenabschluss sollte deshalb in jedem Fall einverlangt werden
+- text: Die Fachliteratur (Camponovo, Rang unter SER/HWP ER) hält einen Bericht zu einer JR zu Fortführungswerten bei Überschuldung und untätigem VR für problematisch und verlangt stattdessen
+    die Anzeige. Abweichend vom SER; immer ein WP-Entscheid.
   quelle: camponovo-2026-hinweispflichten__s120-1
   zitat: Welche Revisionsstelle würde im worst case (Überschuldung und Untätigkeit VR) einen Revisionsbericht zu einer Jahresrechnung zu Fortführungswerten abgeben?
 - text: Keine Rückdatierung. Wird die JR nach dem Bericht geändert, braucht es einen neuen Bericht, frühestens auf das Datum der geänderten Fassung.
@@ -457,6 +568,10 @@ fallstricke:
 - text: 'Vorjahrestext nicht ungeprüft übernehmen: Ohne Bilanzgewinn und ohne Antrag entfällt die Bestätigung zum Antrag. Bei einer Rückzahlung aus der Kapitalreserve den Wortlaut anpassen.'
   quelle: muster-hwp-er-2026__c017-2
   zitat: Die Bestätigung zum Antrag über die Verwendung des Bilanzgewinns entfällt, wenn kein Bilanzgewinn vorliegt
+- text: 'SER-Beispiele 2022 nicht unbesehen übernehmen: Den Zusatz zum Kapitalverlust und zur Überschuldung an den aktuellen Gesetzeswortlaut anpassen (HWP ER 2026/Muster c050-2 statt
+    SER Bsp. 11 «die Hälfte des Aktienkapitals und der gesetzlichen Reserven»; «Gericht» statt «Richter», «Zwischenabschluss» statt «Zwischenbilanz»). Die Wortwahl bestätigt der WP.'
+  quelle: muster-hwp-er-2026__c050-2
+  zitat: Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr gedeckt ist
 - text: Ein Sachverhalt, der eine Modifizierung erfordert, darf nicht nur in einem Management Letter oder einer Aktennotiz stehen.
   quelle: hwp-er-2026__rz-0461-s289
   zitat: Insbesondere muss unbedingt vermieden werden, dass Sachverhalte, die eine Modifizierung der Prüfungsaussage erfordern, nur in der ergänzenden schriftlichen Berichterstattung
@@ -467,12 +582,20 @@ fallstricke:
 - text: Zusätze müssen wesentlich sein und dürfen keine Geheimhaltungspflichten verletzen. Kein «Sicherheitszusatz» ohne Grund.
   quelle: ser-2022__8-3-2-t3
   zitat: Sie müssen wesentlich sein und dürfen keine Geheimhaltungspflichten verletzen.
-- text: Ein bedeutender Hinweis (z.B. Überschuldung) kann nicht bis zum Bericht warten. Sofort Pendenz und Meldung an den WP (Fachliteratur).
+- text: 'Ein bedeutender Hinweis (z.B. Überschuldung) kann nicht bis zum Bericht warten. Sofort Pendenz und Meldung an den WP. Gesetzliche Grundlage: OR 725a Abs. 4 und 725b Abs. 6 (gebotene
+    Eile, siehe gesetz); die Fachliteratur bestätigt den Zeitpunkt.'
   quelle: camponovo-2026-hinweispflichten__s040-1
   zitat: Die Hinweispflicht und die Erstattung des Revisionsberichtes hängen nicht zwingend zusammen
-- text: 'Bericht nach OR 725a Abs. 2 (Opting-out): Prüfer handelt als zugelassener Revisor, nicht als Revisionsstelle, Adressat ist der VR. Die Aussage zum Gewinnverwendungsantrag entfällt.'
+- text: 'Bericht nach OR 725a Abs. 2 (Opting-out): Der Prüfer handelt als zugelassener Revisor, nicht als Revisionsstelle; primärer Adressat ist der VR.'
   quelle: hwp-er-2026__rz-0474-s291
   zitat: Der zugelassene Revisor führt diese Prüfung im Rahmen eines spezifischen Auftrags durch, nicht in seiner Funktion als Revisionsstelle.
+- text: 'Bericht nach OR 725a Abs. 2: Stellt der zugelassene Revisor einen Kapitalverlust, eine begründete Besorgnis einer Überschuldung oder eine Überschuldung fest, ist ein Zusatz
+    zwingend.'
+  quelle: hwp-er-2026__rz-0474-s291
+  zitat: muss dies durch einen entsprechenden Zusatz mit weiteren Informationen im Bericht hervorgehoben werden
+- text: 'Bericht nach OR 725a Abs. 2: Die Aussage zum Gewinnverwendungsantrag und zu anderen Anträgen an die GV entfällt, auch bei Kapitalverlust.'
+  quelle: hwp-er-2026__rz-0479-s292
+  zitat: dem zugelassenen Revisor keine Prüfpflichten bezüglich etwaiger Anträge zur Verwendung des Bilanzgewinns obliegen
 - text: Überschrift mit «Revisionsstelle», auch wenn die Statuten «Kontrollstelle» nennen.
   quelle: hwp-er-2026__rz-0363-s266
   zitat: Andere Bezeichnungen wie «Kontrollstelle» sind nach Möglichkeit nicht zu verwenden
@@ -490,18 +613,20 @@ fragen_kunde:
 - frage: Wie lautet der definitive Antrag des Verwaltungsrats (Dividende, Zuweisung an Reserven, Verlustverrechnung oder -vortrag, Rückzahlung aus der gesetzlichen Kapitalreserve)?
   zweck: Prüfung des Antrags und Wahl des passenden Textbausteins bzw. der Kurzform ohne Antrag.
 - frage: Ist die für den Betrieb nötige Liquidität auch nach der beantragten Ausschüttung gesichert (Liquiditätsplanung)?
-  zweck: Beurteilung, ob ein Zusatz oder Hinweis wegen der Sorgfaltspflicht nötig ist (OR 717, SER Bsp. 12).
+  zweck: Beurteilung, ob ein Zusatz (vertretbar) oder ein Hinweis (nicht vertretbar) wegen der Sorgfaltspflicht nötig ist (OR 717, SER Bsp. 12).
 - frage: Welche Massnahmen hat der Verwaltungsrat beim Kapitalverlust ergriffen oder der GV beantragt, und sind die Aktionäre informiert?
-  zweck: Abgrenzung Zusatz (Kapitalverlust) gegenüber Hinweis (Untätigkeit VR, OR 725a).
+  zweck: Abgrenzung Zusatz (Kapitalverlust) gegenüber Hinweis (Untätigkeit VR, OR 725a, HWP Rz 424).
 - frage: Wurden bei Besorgnis einer Überschuldung Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten erstellt? Bestehen Rangrücktritte (Betrag inkl. Zinsen, Stundung, Unterzeichnung,
-    Bonität des Gläubigers)?
-  zweck: Zusatz Überschuldung/Rangrücktritt oder Hinweis auf Untätigkeit. Allfällige Anzeigepflicht klärt der WP.
+    Bonität des Gläubigers) oder verbindliche Sanierungszusagen?
+  zweck: Zusatz Überschuldung/Rangrücktritt bzw. Sanierung innert 90 Tagen (OR 725b Abs. 4) oder Hinweis auf Untätigkeit. Allfällige Anzeigepflicht klärt der WP.
+- frage: Befindet sich die Gesellschaft in Liquidation, und haben die Liquidatoren bei festgestellter Überschuldung das Gericht benachrichtigt?
+  zweck: Möglicher Hinweis auf OR 743 Abs. 2 (SER 8.3.2.1 Fn. 3).
 - frage: Ist die Unternehmensleitung bereit, die mitgeteilten Fehlaussagen zu korrigieren bzw. fehlende Anhangsangaben (z.B. wesentliche Unsicherheit) zu ergänzen?
-  zweck: Eine Modifizierung entfällt, wenn korrigiert wird. Bei Unsicherheiten ist die Offenlegung Voraussetzung für einen blossen Zusatz.
+  zweck: Eine Modifizierung entfällt, wenn korrigiert wird (SER 5.3). Bei Unsicherheiten ist die Offenlegung Voraussetzung für einen blossen Zusatz.
 - frage: Können für Positionen, die sich nicht beurteilen lassen (z.B. Bewertung von Darlehen, Vorräten oder Rechtsfällen), geeignete Unterlagen wie Gutachten beigebracht werden?
   zweck: Einen angenommenen Sachverhalt oder eine Beschränkung des Prüfungsumfangs vermeiden (HWP ER Rz 390).
 - frage: Welche wesentlichen Ereignisse sind seit dem Bilanzstichtag bis heute eingetreten?
-  zweck: Ereignisse bis zum Berichtsdatum berücksichtigen (SER 8.6).
+  zweck: Ereignisse bis zum Berichtsdatum berücksichtigen (SER 8.6, HWP ER Rz 450).
 - frage: Bestehen Darlehen oder sonstige Leistungen an Aktionäre, VR oder Nahestehende, Erwerb eigener Aktien oder Abweichungen bei der Einberufung der GV?
   zweck: Mögliche Hinweise auf Gesetzesverstösse prüfen (OR 659, 660, 678, 680, 699).
 - frage: Wurde die Vorjahresrechnung von einer anderen Revisionsstelle oder gar nicht geprüft (Opting-out), und mit welcher Prüfungsaussage?
@@ -529,10 +654,16 @@ muster:
   chunk: muster-hwp-er-2026__c021-1
 - vorlage: 'Muster HWP ER: AG mit Bestätigung Kern-FER'
   chunk: muster-hwp-er-2026__c022-1
+- vorlage: 'Muster HWP ER: Summarische Berichterstattung, Normalwortlaut (Verweis auf Art. 729a Abs. 1 OR, Textbausteine EXPERTsuisse)'
+  chunk: muster-hwp-er-2026__c016-1
+- vorlage: 'Muster HWP ER: Textbausteine Vorjahresangaben eingeschränkte Revision'
+  chunk: muster-hwp-er-2026__c073-1
 - vorlage: SER Bsp. 2 Eingeschränkte Prüfungsaussage (festgestellter Sachverhalt, Bewertung)
   chunk: ser-2022__anh-f-s119-1
 - vorlage: 'Muster HWP ER: Einschränkung Offenlegung Nettoauflösung stiller Reserven'
   chunk: muster-hwp-er-2026__c025-1
+- vorlage: 'Muster HWP ER: Einschränkung, Unsicherheit Fortführung nicht ausreichend offengelegt'
+  chunk: muster-hwp-er-2026__c026-1
 - vorlage: 'Muster HWP ER: Einschränkung angenommener Sachverhalt'
   chunk: muster-hwp-er-2026__c028-1
 - vorlage: 'Muster HWP ER: Einschränkung wegen Beschränkung des Prüfungsumfangs'
@@ -541,6 +672,8 @@ muster:
   chunk: ser-2022__anh-f-s120-1
 - vorlage: 'Muster HWP ER: Verneinend wegen Fortführung und Wertbasis'
   chunk: muster-hwp-er-2026__c032-1
+- vorlage: 'Muster HWP ER: Verneinend, Unsicherheit Fortführung nicht offengelegt'
+  chunk: muster-hwp-er-2026__c033-1
 - vorlage: SER Bsp. 8 Verneinend zum Antrag über die Verwendung des Bilanzgewinns
   chunk: ser-2022__anh-f-s125-1
 - vorlage: 'Muster HWP ER: Unmöglichkeit (angenommener Sachverhalt)'
@@ -551,20 +684,28 @@ muster:
   chunk: ser-2022__anh-f-s127-1
 - vorlage: HWP ER Abb. 54 Eventualzusatz (OR 725a/725b)
   chunk: hwp-er-2026__rz-0434-s283
-- vorlage: SER Bsp. 9 Zusatz Überschuldung mit Rangrücktritt
+- vorlage: SER Bsp. 9 Zusatz Überschuldung mit Rangrücktritt (alter Wortlaut «Richter» anpassen)
   chunk: ser-2022__anh-f-s126-1
-- vorlage: 'Muster HWP ER: Zusatz Überschuldung bei sofortiger finanzieller Sanierung'
+- vorlage: 'Muster HWP ER: Zusatz Überschuldung bei sofortiger finanzieller Sanierung (OR 725b Abs. 4 Ziff. 2)'
   chunk: muster-hwp-er-2026__c045-1
 - vorlage: 'Muster HWP ER: Zusatz Überschuldung, Zwischenabschluss erstellt'
   chunk: muster-hwp-er-2026__c047-1
-- vorlage: SER Bsp. 11 Zusatz Kapitalverlust
+- vorlage: 'Muster HWP ER: Prüfungsbericht zu den Zwischenabschlüssen zu Fortführungs- und Veräusserungswerten (OR 725b Abs. 2, PS-CH 290)'
+  chunk: muster-hwp-er-2026__c059-1
+- vorlage: 'Muster HWP ER: Prüfungsbericht zum Zwischenabschluss zu Veräusserungswerten (vereinfachte Prüfung nach PS-CH 290)'
+  chunk: muster-hwp-er-2026__c060-1
+- vorlage: SER Bsp. 11 Zusatz Kapitalverlust (alten Wortlaut an OR 725a anpassen)
   chunk: ser-2022__anh-f-s129-1
 - vorlage: 'Muster HWP ER: Hinweis auf Untätigkeit des VR bei OR 725a'
   chunk: muster-hwp-er-2026__c050-1
-- vorlage: SER Bsp. 13 Zusatz Überschuldung und Hinweis Untätigkeit OR 725b
+- vorlage: SER Bsp. 13 Zusatz Überschuldung und Hinweis Untätigkeit OR 725b (alter Wortlaut «Zwischenbilanz» anpassen)
   chunk: ser-2022__anh-f-s131-1
 - vorlage: SER Bsp. 12 Zusatz Dividendenausschüttung
   chunk: ser-2022__anh-f-s130-1
+- vorlage: 'Muster HWP ER: Zusatz Dividendenausschüttung (Verweis auf SER Bsp. 12)'
+  chunk: muster-hwp-er-2026__c048-1
+- vorlage: HWP ER Abb. 55 Hinweis Sorgfaltspflichtverletzung (OR 717)
+  chunk: hwp-er-2026__rz-0441-s285
 - vorlage: 'Muster HWP ER: Hinweis gesetzeswidriger Antrag (fehlende Liquidität, OR 717)'
   chunk: muster-hwp-er-2026__c053-1
 - vorlage: SER Bsp. 14 Hinweis verbotene Einlagenrückgewähr OR 680
@@ -579,10 +720,14 @@ muster:
   chunk: textbausteine-gewinnverwendung-2022__s001-2
 - vorlage: 'Textbausteine Gewinnverwendung: Verlustverrechnung, Rückzahlung Kapitalreserve'
   chunk: textbausteine-gewinnverwendung-2022__s002-1
+- vorlage: 'HWP ER Abb. 56: Verrechnung/Vortrag des Bilanzverlusts'
+  chunk: hwp-er-2026__rz-0443-s285
 - vorlage: 'HWP ER Abb. 57–59: mehrere Anträge des VR, einzeln oder summarisch'
   chunk: hwp-er-2026__rz-0445-s286-t1
 - vorlage: 'Muster HWP ER: Vollständigkeitserklärung'
   chunk: muster-hwp-er-2026__c011-1
+- vorlage: 'Muster HWP ER: Vollständigkeitserklärung gegenüber dem zugelassenen Revisor (OR 725a Abs. 2)'
+  chunk: muster-hwp-er-2026__c013-1
 - vorlage: 'Muster HWP ER: Rangrücktrittsvereinbarung'
   chunk: muster-hwp-er-2026__c068-1
 prueffelder:
@@ -590,4 +735,5 @@ prueffelder:
 - P1
 - T1
 - H2
+- H3
 - O1

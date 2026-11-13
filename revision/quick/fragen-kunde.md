@@ -72,25 +72,25 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Worauf sind die Veränderungen des Kontos 1300 gegenüber dem Vorjahr (neue, weggefallene, veränderte Positionen) zurückzuführen?
 - Wie erklären sich wesentliche Abweichungen der zugehörigen Aufwands- und Ertragskonten (z.B. Versicherungen, Software/Lizenzen, Miete, Zinsertrag) gegenüber dem Vorjahr?
 - Wie werden die aktiven Abgrenzungen ermittelt (Verfahren, Durchsicht welcher Konten, Rückbuchungs- oder Belassen-Methode) und wurden auch antizipative Erträge (Zinsen, Boni, Rückvergütungen, Provisionen) erfasst?
-- Bestehen aktive Abgrenzungen gegenüber Aktionären, Organen, nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht?
+- Bestehen aktive Abgrenzungen (Vorauszahlungen, ausstehende Erträge) gegenüber Aktionären, Organen, nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht? Falls ja: geschäftlicher Hintergrund, Konditionen wie unter Dritten, und handelt es sich um Vorschüsse oder Darlehen?
 - Wurden in der Position stille Reserven gebildet oder aufgelöst (z.B. bewusster Verzicht auf Aktivierung) und wurde die Berechnungsmethode gegenüber dem Vorjahr beibehalten?
 - Enthält die Position Anteile mit Leistungszeitraum über 12 Monate nach dem Bilanzstichtag oder Anzahlungen für Waren/Anlagen?
 
 ## F1 Vorräte
-- Wie wurde der Vorratsbestand per Bilanzstichtag ermittelt (Stichtagsinventur, permanente Inventur, Lagerbuchhaltung), und welche Lagerorte (inkl. Fremdlager, Baustellen) waren einbezogen?
-- Welche Inventurdifferenzen ergaben sich bei der letzten physischen Bestandesaufnahme, wie wurden sie abgeklärt und verbucht?
-- Nach welcher Methode wird jede Vorratskategorie bewertet (effektiver Einstandspreis, FIFO, gleitender Durchschnitt, Herstell-/Standardkosten), und wie wird sichergestellt, dass der tiefere Netto-Veräusserungswert eingesetzt wird?
+- Wie wurde der Vorratsbestand per Bilanzstichtag ermittelt (Stichtagsinventur, permanente Inventur, Stichprobeninventur, Lagerbuchhaltung), und welche Lagerorte (inkl. Fremdlager, Baustellen) waren einbezogen?
+- Führen Sie eine Lagerbuchhaltung? Falls ja: Welche Inventurdifferenzen ergaben sich bei der letzten physischen Bestandesaufnahme, wie wurden sie abgeklärt und verbucht?
+- Nach welcher Methode wird jede Vorratskategorie bewertet (effektiver Einstandspreis, FIFO, gleitender Durchschnitt, Herstell-/Standardkosten), und wie wird sichergestellt, dass der tiefere Netto-Veräusserungswert bzw. bei Rohmaterial der tiefere Wiederbeschaffungspreis eingesetzt wird?
 - Wurden Bewertungsmethode, Kalkulationsschema oder Gemeinkostenzuschläge gegenüber dem Vorjahr geändert? Besteht eine Kostenrechnung, und hat sie sich bewährt (Nachkalkulationen)?
-- Wie werden Ladenhüter und überalterte Artikel identifiziert (Umschlag, letzte Bewegung) und wie wird die Wertberichtigung berechnet? Bitte Berechnung zustellen.
+- Wie werden Ladenhüter und überalterte Artikel identifiziert (Umschlag, letzte Bewegung) und wie wird die Wertberichtigung berechnet? Fallen für unverkäufliche Ware Entsorgungskosten an? Bitte Berechnung zustellen.
 - Gibt es Produktkategorien mit geringer oder negativer Marge, und wie stellen Sie deren verlustfreie Bewertung sicher? Bitte Margenauswertung je Kategorie zustellen.
-- Wie werden Wareneingänge, Warenausgänge und Verbräuche laufend und per Bilanzstichtag abgegrenzt (Lagersperre, Lieferscheine, Waren in Transit, Abstimmung Lager-/Finanzbuchhaltung)?
+- Wie werden Wareneingänge, Warenausgänge und Verbräuche laufend und per Bilanzstichtag abgegrenzt (Lagersperre, Lieferscheine, Lieferbedingungen/Incoterms, Waren in Transit, Abstimmung Lager-/Finanzbuchhaltung)?
 - Lagern bei Ihnen Waren Dritter (Kommissions-/Konsignationsware, Kundeneigentum)? Wie werden sie bei der Inventur ausgeschieden?
 - Sind Vorräte verpfändet, unter Eigentumsvorbehalt erworben, bei Dritten eingelagert oder in Konsignation an Dritte gegeben? Bitte entsprechende Verträge bzw. Nachweise zustellen.
 - Wurde Material, das bereits auf Baustellen bzw. in Projekten verwendet wird, aus dem Inventar ausgeschieden und ausschliesslich in den angefangenen Arbeiten erfasst?
 - Worauf sind die wesentlichen Veränderungen von Beständen, Mengen, Lagerumschlag und Margen gegenüber dem Vorjahr zurückzuführen?
 - Bestehen Abhängigkeiten von einzelnen Lieferanten oder Lieferengpässe, und ist die Belieferung (z.B. durch Rahmenverträge) gesichert?
 - Wie hoch ist die Versicherungssumme für das Warenlager/Betriebsinventar? Bitte aktuelle Police zustellen.
-- Bitte Aufstellung der stillen Reserven auf den Vorräten (z.B. Warendrittel, zusätzliche Wertberichtigungen) per Stichtag und Vorjahr zustellen.
+- Bitte Aufstellung der stillen Reserven auf den Vorräten (z.B. Warendrittel, zusätzliche oder nicht mehr begründete Wertberichtigungen) per Stichtag und Vorjahr zustellen.
 
 ## F2 Nicht fakturierte Leistungen
 - Welcher Art sind die angefangenen Arbeiten bzw. nicht fakturierten Leistungen (Kundenaufträge mit Werkvertrag oder Arbeiten auf Lager)? Handelt es sich um Bauten auf fremdem Boden?
@@ -128,17 +128,20 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 ## H1 Finanzanlagen
 - Nach welchen Grundsätzen bewerten Sie die Finanzanlagen (Anschaffungs-/Niederstwert oder Kurswert nach Art. 960b OR, Schwankungsreserve) und gab es Änderungen gegenüber dem Vorjahr?
 - Liegen bei einzelnen Titeln, Darlehen oder Beteiligungen per 31.12. oder seither Markt- bzw. innere Werte unter dem Buchwert (Kursrückgänge, Verluste, Zahlungsrückstände)?
-- Welche Anlagen sollen länger als zwölf Monate gehalten werden bzw. sind länger gebunden (Laufzeiten, Sperrfristen, Kautionen), und welche Anteile vermitteln mindestens 20 % der Stimmrechte?
+- Welche Anlagen sollen länger als zwölf Monate gehalten werden bzw. sind länger gebunden (Laufzeiten, Sperrfristen, Kautionen), und welche Anteile an anderen Unternehmen werden langfristig gehalten und vermitteln massgeblichen Einfluss (insbesondere ab 20 % der Stimmrechte)?
 - Hält die Gesellschaft Krypto-Assets? Wenn ja: Verwahrung (Self-Custody oder Custodian), Liste aller Wallets/Adressen, Eigentumsnachweis (Sign-Message, Custodian-Auszug) und zuständige Personen?
 - Welche Preisquellen und welchen Bewertungszeitpunkt verwenden Sie für Krypto-Assets?
 - Welche Käufe, Verkäufe, Rückzahlungen und Wertberichtigungen erklären die Veränderung der Finanzanlagen gegenüber dem Vorjahr?
 - Sind Finanzanlagen verpfändet, gesperrt oder als Sicherheit hinterlegt, und bestehen offene Einzahlungs- oder Nachschusspflichten?
-- Hält die Gesellschaft (oder eine kontrollierte Gesellschaft) eigene Aktien/Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert und zu welchen Bedingungen?
+- Hält die Gesellschaft (oder eine kontrollierte Gesellschaft) eigene Aktien/Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert, zu welchen Bedingungen und aus welchem frei verwendbaren Eigenkapital?
 - Wie berechnen Sie die stillen Reserven auf den Finanzanlagen und wie haben sie sich gegenüber dem Vorjahr verändert?
 - Wurde die Verrechnungssteuer auf erhaltenen Zinsen/Dividenden zurückgefordert bzw. wann wird sie zurückgefordert?
+- Bestehen Darlehen oder Vorschüsse an Aktionäre, Organe oder Nahestehende? Wenn ja: Vertrag, Zinssatz, Rückzahlung, Sicherheiten und Dokumentation des Drittvergleichs.
+- Sind Kautionen oder Depots (z.B. Mietkaution) bis zum Vertragsende gesperrt, und wann werden sie frühestens freigegeben?
 
 ## H2 Aktivdarlehen
 - Nach welchen Grundsätzen werden Aktivdarlehen erfasst und bewertet (Nominalwert, Wertberichtigungen, Fremdwährung, Zinsabgrenzung) und gab es Änderungen gegenüber dem Vorjahr?
+- Gibt es Hinweise, dass einzelne Darlehen weniger wert sind als ihr Buchwert (Bonität, Zahlungsrückstand, tiefe Verzinsung, Fremdwährung)?
 - Welche Darlehen bzw. Amortisationen sind innert 12 Monaten nach dem Bilanzstichtag fällig?
 - Bestehen Darlehen oder darlehensähnliche Forderungen gegenüber Aktionären, VR, GL, ihnen nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht – auch wenn sie unter Debitoren oder übrigen Forderungen gebucht sind?
 - Wie beurteilt die Geschäftsleitung die Bonität der Darlehensnehmer? Gibt es Zahlungsrückstände, Stundungen, Rangrücktritte oder Hinweise auf finanzielle Schwierigkeiten?
@@ -147,6 +150,9 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Sind die Zinsen vereinbarungsgemäss bezahlt und per Bilanzstichtag abgegrenzt worden?
 - Hat der Verwaltungsrat für Darlehen an Aktionäre bzw. Konzerngesellschaften den Drittvergleich bei Gewährung und per Abschluss beurteilt und dokumentiert? Bitte Analyse und VR-Beschluss zustellen.
 - Bestehen auf Aktivdarlehen zusätzliche Wertberichtigungen (stille Reserven) und wurden solche im Geschäftsjahr gebildet oder aufgelöst?
+- Bestehen Verbindlichkeiten der Gesellschaft gegenüber Darlehensnehmern (z.B. Aktionärsdarlehen mit Rangrücktritt)? Wurden diese mit Aktivdarlehen verrechnet oder ist eine Verrechnung geplant?
+- Nimmt die Gesellschaft an einem Cash Pool teil (Zero Balancing/Notional Pooling)? Bitte Poolvertrag und Unterlagen zur Bonitätsüberwachung der Teilnehmer zustellen.
+- Liegen Budget bzw. Liquiditätsplanung für den Zeitpunkt der beantragten Ausschüttung vor? Bitte zustellen.
 
 ## H3 Beteiligungen
 - Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?
@@ -175,18 +181,21 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Wie wird sichergestellt, dass alle Eingangsrechnungen und erhaltenen, noch nicht fakturierten Lieferungen/Leistungen des Geschäftsjahres per Stichtag erfasst sind (Stichtagsregelung, Abgrenzungen)?
 - Bestehen Kreditoren gegenüber Aktionären, Organen oder Gesellschaften, an denen eine Beteiligung besteht bzw. die beteiligt sind? Zu welchen Konditionen?
 - Werden Kreditoren in Fremdwährung geführt, und welche Kurse wurden per 31.12. angewendet (Quelle)?
-- Gibt es bestrittene Lieferantenrechnungen, Mängelrügen oder Streitigkeiten mit Lieferanten?
+- Gibt es bestrittene Lieferantenrechnungen, Mängelrügen oder Streitigkeiten mit Lieferanten, auch nach dem Bilanzstichtag?
 - Wurden Waren unter Eigentumsvorbehalt bezogen oder Aktiven zur Sicherung von Lieferantenverbindlichkeiten verpfändet?
 - Welche Rabatt-, Bonus- und Skontovereinbarungen bestehen, wie und auf welchen Konten werden Jahresboni und nachträgliche Gutschriften erfasst und abgegrenzt?
+- Nach welchen Kriterien werden Positionen als ausserordentlich, einmalig oder periodenfremd klassiert (z. B. nachträgliche Lieferantenrabatte, Gutschriften, nachträgliche Rechnungen Vorjahr)?
 - Enthält die Position Kreditoren stille Reserven bzw. wurden solche im Geschäftsjahr gebildet oder aufgelöst (Berechnungsmethode)?
-- Liegen Lieferantenkontoauszüge/Saldomeldungen oder die Buchhaltung von Beteiligungsgesellschaften vor, die zur Abstimmung zur Verfügung gestellt werden können?
+- Liegen Lieferantenkontoauszüge/Saldomeldungen oder die Buchhaltung von Beteiligungsgesellschaften bereits vor, die zur Abstimmung zur Verfügung gestellt werden können?
 
 ## L1 Kurzfristige verzinsliche Verbindlichkeiten
-- Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht eingehalten sind? Falls ja: welche Massnahmen, liegt ein schriftlicher Waiver der Bank vor (Datum)?
-- Welche Sicherheiten haben Sie Kreditgebern bestellt (Grundpfand/Schuldbriefe, Verpfändung von Konten/Depots, Globalzession der Debitoren, Sicherungsübereignung, Eigentumsvorbehalt) und zu welchem Buchwert per 31.12.?
-- Welche verzinslichen Verbindlichkeiten oder Teilbeträge (Amortisationen, Festvorschüsse, gekündigte Kredite) werden innert zwölf Monaten nach dem 31.12. fällig, und welche sollen verlängert werden?
+- Bestehen in Kredit- oder Darlehensverträgen Bestimmungen (Covenants wie Eigenfinanzierungsgrad, Verschuldungsfaktor, Informationspflichten), die per 31.12. oder seither nicht eingehalten sind? Falls ja: welche Massnahmen, und liegt ein schriftlicher Waiver der Bank vor (Datum; Verzicht auf die sofortige bzw. innert eines Jahres fällige Rückzahlung)?
+- Welche Sicherheiten haben Sie Kreditgebern bestellt (Grundpfand/Schuldbriefe, Verpfändung von Konten/Depots, Globalzession der Debitoren, Sicherungsübereignung, Eigentumsvorbehalt) und zu welchem Buchwert per 31.12.? Bestehen Sicherheiten oder Garantien für Verbindlichkeiten Dritter?
+- Welche verzinslichen Verbindlichkeiten oder Teilbeträge (Amortisationen, Festvorschüsse, Festhypotheken, gekündigte Kredite) werden innert zwölf Monaten nach dem 31.12. fällig, und welche sollen verlängert werden?
 - Bestehen Darlehen oder Kontokorrente von Aktionären, Verwaltungsräten, Geschäftsleitung, diesen nahestehenden Personen oder Konzern-/Beteiligungsgesellschaften? Zu welchen Zinssätzen und Konditionen?
-- Welche Rangrücktritte bestehen per 31.12. (Gläubiger, Betrag inkl. Zinsen, Datum)? Wurden im Geschäftsjahr oder seither Rangrücktritte neu erklärt, ersetzt, reduziert oder aufgehoben, oder subordinierte Forderungen bzw. Zinsen bezahlt oder verrechnet?
+- Welche Rangrücktritte bestehen per 31.12. (Gläubiger, Betrag inkl. Zinsen, Datum)? Wurden im Geschäftsjahr oder seither Rangrücktritte neu erklärt, ersetzt, reduziert oder aufgehoben, oder subordinierte Forderungen bzw. Zinsen bezahlt oder verrechnet? Liegen Zwischenabschlüsse nach Art. 725b OR vor, und wurden sie geprüft?
+- Bestehen Forderungen der Gesellschaft (Darlehen, Kontokorrente) gegenüber Gläubigern mit Rangrücktritt? Wurden solche Forderungen mit subordinierten Forderungen verrechnet oder ist eine Verrechnung vorgesehen?
+- Wie ist die finanzielle Lage der Rangrücktrittsgläubiger (wäre ein Ausfall der Forderung für sie tragbar)? Welche Unterlagen liegen dazu vor?
 - Gab es im Geschäftsjahr oder kurz nach dem Stichtag aussergewöhnliche Geldtransaktionen (grosse Bareinzahlungen, Zahlungen an/von Nahestehenden, kurzfristige Kreditrückführungen über den Stichtag, Überträge zwischen Banken)?
 - Welche Kreditlimiten bestehen je Bank, wie stark sind sie beansprucht, gibt es Kündigungen oder Limitenreduktionen, und liegt eine Liquiditätsplanung für mindestens zwölf Monate vor?
 - Waren per 31.12. Devisentermingeschäfte, Währungs-/Zinsswaps oder Optionen offen? Zu welchem Zweck (Absicherung) und mit welcher Bankbewertung?
@@ -204,11 +213,12 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 
 ## M2 Mehrwertsteuer
 - Liegt die Umsatzabstimmung (Finanzbuchhaltung ↔ deklarierte MWST-Abrechnungen) und die Vorsteuerabstimmung für das Geschäftsjahr bzw. das Vorjahr vor? Wer hat sie erstellt, wie wurden Differenzen begründet und wurde eine Korrekturabrechnung eingereicht?
-- Nach welcher Methode wird abgerechnet (effektiv oder Saldo-/Pauschalsteuersatz), nach vereinbartem oder vereinnahmtem Entgelt, in welcher Periodizität? Ist die Gesellschaft Mitglied einer MWST-Gruppe?
+- Nach welcher Methode wird abgerechnet (effektiv oder Saldo-/Pauschalsteuersatz), nach vereinbartem oder vereinnahmtem Entgelt, in welcher Periodizität? Ist oder war die Gesellschaft Mitglied einer MWST-Gruppe?
 - Werden Umsätze zum reduzierten oder Sondersatz, steuerbefreite Umsätze (Export) oder von der Steuer ausgenommene Umsätze (z.B. Vermietung, Geld- und Kapitalverkehr) erzielt? Wurde für ausgenommene Umsätze optiert?
 - Werden Privatanteile (Geschäftsfahrzeuge, Spesen, Naturalleistungen an Mitarbeitende und Aktionäre) mit MWST abgerechnet? Bitte Berechnung und Deklaration in der Abrechnung angeben.
 - Werden Dienstleistungen von Unternehmen mit Sitz im Ausland bezogen (z.B. Software, Lizenzen, Beratung, Werbung)? Wird darauf die Bezugsteuer deklariert?
-- Gibt es branchenspezifische MWST-Eigenheiten, Rulings, Vereinbarungen oder Bewilligungen der ESTV? Fanden in den letzten Jahren ESTV-Kontrollen statt, gibt es Rückfragen, Einsprachen oder hängige Verfahren?
+- Ist die Gesellschaft im Ausland für MWST registriert oder werden im Ausland Direktlieferungen bzw. Reihengeschäfte ausgeführt?
+- Gibt es branchenspezifische MWST-Eigenheiten, Rulings, Vereinbarungen oder Bewilligungen der ESTV? Fanden in den letzten drei Jahren ESTV-Kontrollen statt, gibt es Rückfragen, Einsprachen oder hängige Verfahren, und welche Steuerperioden sind noch nicht rechtskräftig festgesetzt?
 - Wie werden Wareneinfuhren abgewickelt (ZAZ-Konto, Spediteur) und wie wird die Einfuhrsteuer verbucht?
 - Bestehen Leistungen an Nahestehende oder Verrechnungs-/Tauschgeschäfte, gab es eine Übernahme oder Übergabe eines Betriebs(teils) mit Meldeverfahren oder Nutzungsänderungen bei Immobilien bzw. Anlagen?
 - Welche Probleme, Unsicherheiten, Korrekturabrechnungen, verspäteten Abrechnungen oder Verzugszinsen gab es bei der Erstellung der MWST-Abrechnungen?
@@ -217,7 +227,8 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Wie stellen Sie sicher, dass alle Aufwände des Geschäftsjahrs, deren Rechnung erst im Folgejahr eintrifft (Honorare inkl. Revision, Energie, Telefon, Zinsen, Subunternehmer), abgegrenzt sind? Wer erstellt die Liste, auf welcher Grundlage und bis wann?
 - Bestehen per Bilanzstichtag oder bis heute pendente Risiken (Rechtsfälle, Mängelrügen, angedrohte Schadenersatz- oder Garantieansprüche)? Wie schätzt die Geschäftsleitung das finanzielle Ausmass ein (Bandbreite, wahrscheinlichster Betrag, Verfahrenskosten)?
 - Welche Gründe haben die wesentlichen Veränderungen der passiven Abgrenzungen, der Rückstellungen und der zugehörigen Aufwandskonten gegenüber dem Vorjahr?
-- Wie wurde die Abgrenzung der Ferien- und Überzeitguthaben ermittelt (Saldi je Mitarbeiter × Lohnansatz oder Pauschale)? Bitte Saldoliste aus der Zeiterfassung beilegen.
+- Wie werden die Abgrenzungen des Vorjahres im Folgejahr behandelt (Rückbuchung per 01.01., Belassen und Anpassen oder Auflösung durch Verbuchung der Zahlung über das Abgrenzungskonto)? Nur fragen, falls aus den Kontoblättern nicht ersichtlich.
+- Wie wurde die Abgrenzung der Ferien- und Überzeitguthaben ermittelt (Saldi je Mitarbeiter × Lohnansatz inkl. Arbeitgeber-Sozialleistungen oder Pauschale)? Bitte Saldoliste aus der Zeiterfassung und den verwendeten Sozialleistungssatz beilegen.
 - Wurden die direkten Steuern des Geschäftsjahrs berechnet und abgegrenzt? Bitte Steuerberechnung beilegen.
 - Ist das Revisionshonorar für das geprüfte Geschäftsjahr abgegrenzt?
 - Gab es nach dem Bilanzstichtag Entwicklungen bei zurückgestellten Sachverhalten (Vergleich, Urteil, Gutschriften, Zahlungen) oder neue Ansprüche Dritter?
@@ -225,33 +236,37 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Enthalten Rückstellungen oder Abgrenzungen Beträge über das betriebswirtschaftlich Notwendige (stille Reserven)? Bitte Detailnachweis Bestand und Veränderung.
 
 ## N1 Langfristige Verbindlichkeiten
-- Wurden im Geschäftsjahr oder bis heute Bestimmungen von Kredit-/Darlehensverträgen (Covenants/Kennzahlen, Amortisationen, Zinszahlungen, Verwendungszweck) nicht eingehalten? Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor?
-- Welche Sicherheiten bestehen zugunsten der Darlehensgeber (Grundpfand/Schuldbriefe, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien/Bürgschaften)? Wie hoch ist der Buchwert der verpfändeten/abgetretenen Aktiven per 31.12.?
-- Welche Amortisationen/Rückzahlungen werden innert 12 Monaten nach Bilanzstichtag fällig? Bestehen Kündigungen, Kündigungsabsichten oder auslaufende Festkredite (Verlängerung beabsichtigt)?
+- Wurden im Geschäftsjahr oder bis heute Bestimmungen von Kredit-/Darlehensverträgen (Covenants/Kennzahlen, Amortisationen, Zinszahlungen, Verwendungszweck) nicht eingehalten? Wenn ja: welche Massnahmen, liegt ein schriftlicher Waiver vor (Datum)?
+- Welche Sicherheiten bestehen zugunsten der Darlehensgeber (Grundpfand/Schuldbriefe, Faustpfand, Zession, Bank-AGB-Pfandrecht, Garantien/Bürgschaften)? Wie hoch ist der Buchwert der verpfändeten/abgetretenen Aktiven per 31.12.? Welche Kreditlimiten waren am Stichtag beansprucht?
+- Welche Amortisationen/Rückzahlungen werden innert 12 Monaten nach Bilanzstichtag fällig? Bestehen Kündigungen oder konkrete Kündigungsabsichten (eigene oder der Bank)? Laufen Festhypotheken/Festkredite im Folgejahr aus und ist ihre Verlängerung beabsichtigt (Nachweis)?
 - Bestehen Darlehen von Aktionären, VR-/GL-Mitgliedern, diesen nahestehenden Personen oder Gesellschaften, an denen eine Beteiligung besteht? Zu welchen Konditionen (Zins, Laufzeit, Sicherheiten) und wie wurde der Zins festgelegt?
-- Welche Rangrücktritte bestehen (Gläubiger, Betrag inkl. Zinsen)? Wurden sie im Jahr oder danach geändert, reduziert, ersetzt oder aufgehoben? Wurden darauf Zinsen/Rückzahlungen bezahlt oder Verrechnungen vorgenommen? Welche Bonitätsnachweise der Gläubiger liegen vor?
+- Haben Aktionäre oder ihnen Nahestehende Kredite Dritter an die Gesellschaft sichergestellt (Bürgschaft, Garantie, Verpfändung)? Liegen Nachweise für Verkehrswerte der Aktiven über den Buchwerten vor?
+- Bestand im Geschäftsjahr begründete Besorgnis einer Überschuldung? Wurden Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten erstellt und geprüft?
+- Welche Rangrücktritte bestehen (Gläubiger, Betrag inkl. Zinsen, Währung)? Wurden sie im Jahr oder danach geändert, reduziert, ersetzt oder aufgehoben? Wurden darauf Zinsen/Rückzahlungen bezahlt oder Verrechnungen vorgenommen? Welche Bonitätsnachweise der Gläubiger liegen vor?
+- Bestehen Darlehen in Fremdwährung? Zu welchem Kurs wurden sie erfasst und per 31.12. bewertet?
 - Was ist der Hintergrund der Zu- und Abgänge auf den Darlehenskonten (Neuaufnahmen, Rückzahlungen, Umbuchungen, Verrechnungsliberierung)? Liegen die entsprechenden Verträge und Beschlüsse vor?
 - Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Kündigung, Neuverhandlung, Rückzahlung, neue Sicherheiten, Änderung von Rangrücktritten)?
 
 ## O1 Rückstellungen
-- Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei, Streitgegenstand, Streitwert, Verfahrensstand, Einschätzung des Ausgangs, beauftragter Rechtsvertreter.
-- Wie hat die Geschäftsleitung das finanzielle Ausmass je Risiko geschätzt (Bandbreite, wahrscheinlichster Betrag, Anwalts- und Gerichtskosten), und weshalb wurde genau der gebuchte Betrag gewählt?
+- Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei, Streitgegenstand, Streitwert, Verfahrensstand bzw. Stand im Instanzenzug, Einschätzung des Ausgangs, beauftragter Rechtsvertreter, allfällige Versicherungsdeckungen und Gegenklagen.
+- Wie hat die Geschäftsleitung das finanzielle Ausmass je Risiko geschätzt (Methode, Bandbreite, wahrscheinlichster Betrag, Anwalts- und Gerichtskosten), weshalb wurde genau der gebuchte Betrag gewählt, und wie wurden die Vorjahresrückstellungen tatsächlich verwendet oder aufgelöst?
 - Gibt es nicht erfasste Verbindlichkeiten oder Eventualverbindlichkeiten (Bürgschaften, Garantien, Patronatserklärungen, Solidarhaftungen, für Dritte bestellte Sicherheiten, Rückbau-/Rücknahmeverpflichtungen, verlustbringende schwebende Geschäfte)?
 - Nach welcher Methode wird die Garantierückstellung ermittelt (Satz, Bemessungsgrundlage, Erfahrungswerte zum tatsächlichen Garantieaufwand, Garantiedauer) und wurde die Methode gegenüber dem Vorjahr geändert?
 - Sind nach dem Bilanzstichtag Zahlungen, Vergleiche, Urteile, Gutschriften oder Kulanzleistungen zu Sachverhalten erfolgt oder absehbar, deren Ursache vor dem Stichtag liegt?
-- Gibt es beschlossene Restrukturierungen, belastende Liefer-/Abnahmeverträge (Drohverluste) oder Steuerrisiken aus laufenden Veranlagungen bzw. Revisionen?
+- Gibt es beschlossene Restrukturierungen, bedeutende schwebende Geschäfte (z.B. belastende Liefer-/Abnahmeverträge, Drohverluste) oder andere Ursachen vor dem Stichtag mit Verlustrisiko, oder Steuerrisiken aus laufenden Veranlagungen bzw. Revisionen?
 - Welche Rückstellungen sind betriebswirtschaftlich nicht mehr oder nicht in dieser Höhe erforderlich (stille Reserven), und wie haben sich diese gegenüber dem Vorjahr verändert?
 - Hat die Gesellschaft selbst Stellungnahmen von Anwälten oder Gutachten zu Rechtsfällen oder Schätzungen eingeholt? Falls ja, bitte zur Verfügung stellen.
 
 ## P1 Eigenkapital
 - Wurden im Geschäftsjahr oder seit dem Bilanzstichtag die Statuten geändert oder Kapitalerhöhungen/-herabsetzungen (auch innerhalb eines Kapitalbands) beschlossen bzw. im Handelsregister eingetragen? Bitte Urkunden und HR-Auszug einreichen.
 - Hält die Gesellschaft oder eine von ihr kontrollierte Gesellschaft eigene Aktien, und wurden im Geschäftsjahr eigene Aktien erworben oder veräussert (Anzahl, Preis, Bedingungen)?
-- Bestehen Darlehen oder andere Forderungen gegenüber Aktionären, Nahestehenden oder Konzerngesellschaften (inkl. Cash-Pool)? Liegt eine dokumentierte Beurteilung des Drittvergleichs durch den VR vor?
-- Ist das Aktienbuch vollständig nachgeführt (alle Übertragungen, Zeichner von Kapitalerhöhungen) und wird das Verzeichnis der wirtschaftlich berechtigten Personen geführt?
-- Wurden im Geschäftsjahr oder nach dem Bilanzstichtag Dividenden, Zwischendividenden oder Rückzahlungen aus Kapitalreserven beschlossen bzw. ausbezahlt? Wie wurden Verrechnungssteuer bzw. Kapitaleinlagereserven gegenüber der ESTV abgerechnet bzw. gemeldet?
+- Bestehen Darlehen oder andere Forderungen gegenüber Aktionären, Organen, Nahestehenden oder Konzerngesellschaften (inkl. Cash-Pool, auch unter Debitoren oder übrigen Forderungen verbucht)? Liegt eine dokumentierte Beurteilung des Drittvergleichs durch den VR vor?
+- Ist das Aktienbuch vollständig nachgeführt (alle Übertragungen, Zeichner von Kapitalerhöhungen) und wird das Verzeichnis der wirtschaftlich berechtigten Personen nach der für das Geschäftsjahr geltenden Fassung geführt?
+- Wurden im Geschäftsjahr oder nach dem Bilanzstichtag Dividenden, Zwischendividenden oder Rückzahlungen aus Kapitalreserven beschlossen bzw. ausbezahlt? Wie wurden Verrechnungssteuer bzw. Kapitaleinlagereserven gegenüber der ESTV abgerechnet bzw. gemeldet (Formular 170)?
 - Wurde die Emissionsabgabe auf Kapitalerhöhungen oder Zuschüssen abgerechnet oder eine Ausnahme bzw. der Freibetrag beansprucht? Bitte Abrechnung/Verfügung der ESTV einreichen.
 - Bestehen statutarische Bestimmungen zur Gewinnverwendung oder Reservenbildung, und reicht die Liquidität im Zeitpunkt der beantragten Ausschüttung (Budget/Liquiditätsplanung)?
 - Welche Massnahmen hat der VR bei Kapitalverlust bzw. Überschuldung ergriffen (Sanierung, Zwischenabschlüsse, Rangrücktritte inkl. Zinsen, Stundung)? Gelten die Rangrücktritte unverändert und wurden darunter fallende Forderungen getilgt oder verrechnet?
+- Hat die Gesellschaft im Geschäftsjahr oder nach dem Stichtag Gläubigern mit Rangrücktritt Darlehen gewährt, Zahlungen geleistet oder Forderungen verrechnet? Wurden Rangrücktritte geändert, reduziert oder ersetzt?
 - Wurden Optionen oder Beteiligungsrechte an Verwaltungsrat, Geschäftsleitung oder Mitarbeitende ausgegeben?
 - Wurden Grundstücke oder Beteiligungen zur Behebung eines Kapitalverlusts oder einer Überschuldung aufgewertet?
 
@@ -275,17 +290,21 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Sind Einsprachen, Rekurse oder Beschwerden in Steuersachen hängig? Wenn ja: Periode, Streitpunkt, Streitbetrag und Einschätzung des Ausgangs.
 - Wer hat die Steuerabgrenzung 2025 berechnet und mit welchen Parametern (Steuersätze/-füsse, Verlustvorträge, steuerbares Kapital, Akontozahlungen)? Bitte Berechnung einreichen.
 - Welche provisorischen Steuerrechnungen und Akontozahlungen betreffen 2025, und bestehen Steuerguthaben oder Rückerstattungsansprüche (inkl. Verrechnungssteuer)?
-- Gab es Leistungen an Aktionäre, Organe oder Nahestehende zu nicht marktüblichen Bedingungen (Darlehenszinsen, Saläre, Spesen, Privataufwand, Fahrzeugnutzung, Käufe/Verkäufe von Aktiven)?
+- Gab es Leistungen an Aktionäre, Organe oder Nahestehende zu nicht marktüblichen Bedingungen (Darlehen an oder von Aktionären mit Zinssatz und Sicherheit, Saläre, Spesen, Privataufwand, Fahrzeugnutzung, Käufe/Verkäufe von Aktiven)? Wurde die Verrechnungssteuer auf allfällige geldwerte Leistungen überwälzt?
 - Lagen 2025 besondere steuerliche Verhältnisse vor (Grundstückgewinne, Umstrukturierungen, Sanierungsmassnahmen/Forderungsverzichte, Kapitalerhöhung, Ausschüttungen aus Kapitaleinlagereserven, Steuerrulings, abweichendes Geschäftsjahr)?
+- Wurde die Emissionsabgabe auf der Kapitalerhöhung vom 20.01.2025 abgerechnet oder eine Befreiung (Sanierung, Freibetrag) beansprucht? Liegt eine Bestätigung der ESTV zu den Kapitaleinlagereserven aus dem Agio vor?
+- Bitte Verkehrswerte der Aktiven per 31.12.2025 und eine allfällige Berechnung des verdeckten Eigenkapitals (Aktionärsdarlehen) einreichen.
 - Wie haben sich die stillen Reserven entwickelt (inkl. übersetzter Steuerrückstellungen und versteuerter stiller Reserven)? Bitte Detailnachweis einreichen.
 - Werden latente Steuern erfasst (Wahlrecht), und falls ja, nach welcher Methode und mit welchem Steuersatz?
 
 ## SCH1 Betrieblicher Ertrag
 - Nach welchen Grundsätzen erfassen Sie Umsätze (Zeitpunkt: Lieferung, Montageende, Abnahme oder Fakturierung)? Wie werden Akonto-/Teilrechnungen, langfristige Aufträge (POCM/CCM), Rabatte/Skonti und die MWST verbucht?
-- Wie stellen Sie per 31.12. die zeitliche Abgrenzung von Umsätzen und Waren-/Materialaufwand sicher (im Dezember erbrachte, aber erst im Januar fakturierte Leistungen; im Dezember fakturierte Leistungen des Folgejahres)?
-- Bitte erläutern Sie die in der beiliegenden Liste markierten Abweichungen der Ertragskonten gegenüber Vorjahr bzw. Budget.
+- Wie stellen Sie per 31.12. die zeitliche Abgrenzung von Umsätzen und Waren-/Materialaufwand sicher (im Dezember erbrachte, aber erst im Januar fakturierte bzw. von Lieferanten verrechnete Leistungen; im Dezember fakturierte Leistungen des Folgejahres)?
+- Bitte erläutern Sie die in der beiliegenden Liste markierten Abweichungen der Ertrags- und Erlösminderungskonten gegenüber Vorjahr bzw. Budget (inkl. neu bebuchter Konten).
 - Wie haben sich Umsätze und Bruttomargen je Produktkategorie (z.B. Anlagenbau, Service, Dienstleistungen, Handel) gegenüber dem Vorjahr entwickelt und weshalb?
+- Haben sich Rabatt-, Skonto-, Retouren- oder Rückgabekonditionen gegenüber dem Vorjahr geändert? Wo verbuchen Sie Kundenskonti und Debitorenverluste (Erlösminderung oder Finanz-/übriger Aufwand) und wie berücksichtigen Sie erwartete Retouren?
 - Wurden nach dem Bilanzstichtag Gutschriften, Preisnachlässe, Kulanzleistungen oder Forderungsausbuchungen für Leistungen des Berichtsjahres gewährt oder sind solche (z.B. aus Mängelrügen) zu erwarten?
+- Nach welchen Kriterien stufen Sie Erträge als betriebsfremd, ausserordentlich, einmalig oder periodenfremd ein, und was enthalten neue oder stark veränderte Ertragskonten (z.B. «Ertrag Allgemein», betriebsfremder Ertrag)?
 - Bestehen Umsätze mit Aktionären, Organen, Nahestehenden oder Konzerngesellschaften? Zu welchen Konditionen?
 - Werden Vermittlungs- oder Kommissionsgeschäfte abgewickelt, und wie werden diese verbucht?
 - Liegt eine MWST-Umsatzabstimmung 2025 vor? Wie erklären sich Differenzen zwischen deklariertem Umsatz und Ertragskonten?
@@ -315,31 +334,33 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 
 ## SCH4 Finanzaufwand und Finanzertrag
 - Welches sind die Gründe für die wesentlichen Veränderungen der Konten Finanzaufwand und Finanzertrag gegenüber dem Vorjahr (Zinsaufwand, Bankkommissionen/Garantien, Kursdifferenzen, Erträge Finanzanlagen)?
-- Welche verzinslichen Kredite und Darlehen (Bank, Aktionäre, Nahestehende) bestanden im Geschäftsjahr, zu welchen Zinssätzen und Zinsterminen, und sind die bis 31.12. aufgelaufenen Zinsen vollständig verbucht bzw. abgegrenzt?
-- Hat die Gesellschaft Darlehen an Aktionäre, Organe oder Nahestehende gewährt? Wie sind sie verzinst und wie wird der Zins per Stichtag erfasst bzw. abgegrenzt?
-- Wie wurden die Zinssätze für Darlehen von bzw. an Beteiligte festgelegt, und weichen sie von den steuerlich anerkannten Zinssätzen der ESTV ab?
+- Welche verzinslichen Kredite und Darlehen (Bank, Aktionäre, Nahestehende) bestanden im Geschäftsjahr, zu welchen Zinssätzen, Zinsusanzen und Zinsterminen, und sind die bis 31.12. aufgelaufenen Zinsen vollständig verbucht bzw. abgegrenzt?
+- Hat die Gesellschaft Darlehen an Aktionäre, Organe oder Nahestehende gewährt? Wie sind sie verzinst, werden die Zinsen vereinbarungsgemäss bezahlt (oder kapitalisiert bzw. erst mit Rückzahlung fällig) und wie wird der Zins per Stichtag erfasst bzw. abgegrenzt?
+- Wie wurden die Zinssätze für Darlehen von bzw. an Beteiligte festgelegt (Marktkonditionen, Bonität, Sicherheiten, Vergleichsofferten) und liegen sie innerhalb der steuerlich anerkannten ESTV-Sätze des Geschäftsjahres?
+- Bestehen Rangrücktritte mit Zinsverzicht oder Zinsstundung während der Überschuldung, und wie wurden die betroffenen Zinsen verbucht?
 - In welchen Fremdwährungen bestehen Bankkonten, Forderungen und Verbindlichkeiten bzw. wesentliche Einkäufe/Verkäufe, welche Stichtagskurse wurden verwendet und wo werden Kursdifferenzen aus dem operativen Geschäft verbucht?
 - Bestehen Kurs- oder Zinsabsicherungsgeschäfte (z.B. Devisentermingeschäfte, Zinsswaps) oder Finanzanlagen mit Börsenkurs?
-- Welchen Inhalt haben ungewöhnliche Positionen im Finanzerfolg (z.B. Weiterverrechnungen, Garantiekommissionen, Sammel- oder Jahresendbuchungen) und weshalb werden sie dort ausgewiesen?
+- Welchen Inhalt haben ungewöhnliche Positionen im Finanzerfolg (z.B. Weiterverrechnungen, Garantiekommissionen, Ertragskonten innerhalb des Finanzaufwands, Sammel- oder Jahresendbuchungen) und weshalb werden sie dort ausgewiesen?
 
 ## SCH5 Nebenbetrieb, betriebsfremd und ausserordentlich
 - Welches sind die Gründe für die wesentlichen Veränderungen der Konten Nebenbetrieb, betriebsfremder Aufwand/Ertrag und ausserordentlicher/periodenfremder Aufwand/Ertrag gegenüber dem Vorjahr (je Konto mit Betrag und Sachverhalt)?
 - Nach welchen Kriterien ordnen Sie Posten als betriebsfremd, ausserordentlich, einmalig oder periodenfremd ein, und haben sich Kriterien oder Kontenzuordnung gegenüber dem Vorjahr geändert?
 - Welche Sondervorgänge gab es im Geschäftsjahr (z.B. Anlagenverkäufe, Versicherungsleistungen, Vergleiche, Rückerstattungen, Nachbuchungen oder Fehlerkorrekturen für Vorjahre), und auf welchen Konten sind sie erfasst?
-- Besitzt die Gesellschaft nicht betriebsnotwendige Vermögenswerte oder Nebenbetriebe (z.B. Liegenschaften, Untervermietung)? Bestehen dazu Verträge mit Aktionären oder Nahestehenden, und zu welchen Konditionen?
-- Wie wurden Anlagenverkäufe des Geschäftsjahres erfasst (Erlös, Ausbuchung Anschaffungswert und Abschreibungen, Buchgewinn bzw. -verlust, Konto)?
-- Wurden im Geschäftsjahr stille Reserven netto aufgelöst (z.B. über ausserordentlichen Ertrag), und in welchem Betrag?
+- Wurden Rückstellungen (z.B. Rechtsfälle, Mängelrügen, Garantien) zulasten des ausserordentlichen Aufwands gebildet oder zugunsten des ausserordentlichen Ertrags aufgelöst, und weshalb gehört der zugrunde liegende Vorgang nicht zum operativen Geschäft?
+- Besitzt die Gesellschaft nicht betriebsnotwendige Vermögenswerte oder Nebenbetriebe (z.B. Liegenschaften, Untervermietung)? Bestehen dazu Verträge mit Aktionären oder Nahestehenden, und zu welchen Konditionen? Welche Aufwendungen sind diesen Erträgen direkt zuordenbar und wo gebucht?
+- Wie wurden Anlagenverkäufe des Geschäftsjahres erfasst (Erlös, Verkaufsnebenkosten, Ausbuchung Anschaffungswert und Abschreibungen bzw. Restbuchwert, Buchgewinn bzw. -verlust, Konto)?
+- Wurden im Geschäftsjahr stille Reserven netto aufgelöst (z.B. über ausserordentlichen Ertrag), und in welchem Betrag? Handelt es sich bei Buchgewinnen aus Anlagenverkäufen um Zwangsreserven oder um Reserven aus übermässigen Abschreibungen?
 - Können Sie die Kernaussagen zur Klassierung und zu den Sondervorgängen schriftlich bestätigen?
 
 ## T1 Anhang zur Jahresrechnung
-- Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss)? Bitte Liste mit Firma, Rechtsform, Sitz, Kapital- und Stimmanteil.
+- Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss, auch nicht als Beteiligung gebuchte Anteile)? Bitte Liste mit Firma, Rechtsform, Sitz, Kapital- und Stimmanteil sowie Halteabsicht.
 - Hält die Gesellschaft oder ein von ihr kontrolliertes Unternehmen eigene Anteile? Gab es im Geschäftsjahr Erwerbe/Veräusserungen (Datum, Anzahl, Preis, Bedingungen)?
 - Bestehen nicht bilanzierte Leasing- oder Mietverträge, die nicht innert zwölf Monaten nach dem Stichtag auslaufen oder (wirtschaftlich) gekündigt werden können? Bitte Verträge und Restbetrag.
 - Bestehen per Stichtag Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Beiträge, Kontokorrent, Darlehen)? Bitte Kontoauszug der Vorsorgeeinrichtung per 31.12.
-- Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge.
-- Welche Aktiven sind zur Sicherung eigener Verbindlichkeiten verpfändet oder abgetreten (z.B. Globalzession, Bankguthaben, Depots) oder stehen unter Eigentumsvorbehalt?
+- Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge und allfällige Rückstellungen dafür.
+- Welche Aktiven sind zur Sicherung eigener Verbindlichkeiten verpfändet oder abgetreten (z.B. Globalzession, Guthaben/Depots bei kreditgebender Bank, Bardepots/Sicherheitsleistungen bei Behörden, Kautionen) oder stehen unter Eigentumsvorbehalt? Welche Kreditlimiten waren am Stichtag beansprucht?
 - Bestehen Rechtsstreitigkeiten, Garantie-/Gewährleistungsfälle, Konventionalstrafen oder Solidarhaftungen, für die keine Rückstellung gebildet wurde? Wie wird die Eintretenswahrscheinlichkeit beurteilt?
-- Wurden im Geschäftsjahr Aktien oder Optionen an VR, Geschäftsleitung oder Mitarbeitende zugeteilt (Anzahl, Wert)?
+- Wurden im Geschäftsjahr Aktien oder Optionen an VR, Geschäftsleitung oder Mitarbeitende zugeteilt (Anzahl, Wert, Bewertungsmethode)?
 - Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Verluste, Klagen, Debitorenausfälle, Kapitalmassnahmen, Verträge)? Mit welcher geschätzten finanziellen Auswirkung? Wann hat der VR die Jahresrechnung freigegeben?
 - Sehen die Statuten ein Kapitalband vor, und hat der VR im Geschäftsjahr innerhalb dieses Bands das Kapital erhöht oder herabgesetzt?
 - Nach welcher Methode werden die stillen Reserven ermittelt, hat sie gegenüber dem Vorjahr geändert, und wie haben sich Bestand und Veränderung je Bilanzposition entwickelt?

@@ -4,13 +4,14 @@ bezeichnung: Anhang zur Jahresrechnung
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 18
-    korrigiert: false
+    korrigiert: true
 kurzbeschrieb: Prüffeld T1 umfasst den Anhang der Jahresrechnung (Art. 959c OR und weitere gesetzliche Angaben). In der eingeschränkten Revision werden offenlegungspflichtige Sachverhalte
-  durch Befragungen (SER Anhang D Bst. u) erhoben und durch Detailprüfungen beurteilt, ob der Anhang vollständig, richtig und mit Bilanz/Erfolgsrechnung abgestimmt ist.
+  durch Befragungen (SER Anhang D Bst. u) erhoben und durch Detailprüfungen beurteilt, ob der Anhang vollständig, richtig und mit Bilanz/Erfolgsrechnung abgestimmt ist. Bank- und Anwaltsbestätigungen
+  werden nicht eingeholt.
 gesetz:
 - thema: Zweck und Inhalt des Anhangs (Art. 959c Abs. 1 OR)
   quelle: or__art-959c-t1
@@ -24,10 +25,16 @@ gesetz:
 - thema: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)
   quelle: or__art-959c-t1
   zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+- thema: Weitere vom Gesetz verlangte Angaben (Art. 959c Abs. 1 Ziff. 4 OR; Grundlage T1-306)
+  quelle: or__art-959c-t1
+  zitat: weitere vom Gesetz verlangte Angaben
 - thema: Pflichtangaben, sofern nicht aus Bilanz/ER ersichtlich (Art. 959c Abs. 2 OR)
   quelle: or__art-959c-t1
   zitat: Der Anhang muss weiter folgende Angaben enthalten, sofern diese nicht bereits aus der Bilanz oder der Erfolgsrechnung ersichtlich sind
-- thema: Firma, Rechtsform, Sitz; Vollzeitstellen (Art. 959c Abs. 2 Ziff. 1–2 OR)
+- thema: Firma oder Name, Rechtsform und Sitz (Art. 959c Abs. 2 Ziff. 1 OR)
+  quelle: or__art-959c-t1
+  zitat: Firma oder Name sowie Rechtsform und Sitz des Unternehmens
+- thema: Vollzeitstellen im Jahresdurchschnitt (Art. 959c Abs. 2 Ziff. 2 OR)
   quelle: or__art-959c-t1
   zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
 - thema: Beteiligungen (Art. 959c Abs. 2 Ziff. 3 OR)
@@ -114,6 +121,9 @@ gesetz:
 - thema: Ordentliche Revisionspflicht bei ausstehenden Anleihen (Art. 727 Abs. 1 Ziff. 1 lit. b OR)
   quelle: or__art-727
   zitat: Anleihensobligationen ausstehend haben,
+- thema: 'Ordentliche Revisionspflicht: Schwellenwerte in zwei Folgejahren und Konzernrechnungspflicht (Art. 727 Abs. 1 Ziff. 2–3 OR)'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
 risiken:
 - text: Pflichtangaben nach Art. 959c OR fehlen oder sind unrichtig (z.B. Leasing/Miete, Sicherheiten, Eventualverbindlichkeiten, Beteiligungen), weil Sachverhalte nicht erhoben wurden.
   pruefziele:
@@ -134,11 +144,17 @@ risiken:
   - RI
   quelle: muster-hwp-er-2026__c025-1
   zitat: Nettoauflösung stiller Reserven im Anhang nicht offengelegt
+- text: Nettoauflösung wird nur an der relativen Höhe gemessen und übersehen, obwohl sie einen Jahresverlust in einen Jahresgewinn dreht.
+  pruefziele:
+  - DO
+  - BE
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
 - text: Erhebliche Fortführungsunsicherheit (z.B. Überschuldung, angespannte Liquidität) im Anhang nicht oder unzureichend offengelegt.
   pruefziele:
   - DO
-  quelle: hwp-er-2026__rz-0200-s226-t1
-  zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
+  quelle: ser-2022__anh-g-s141-2
+  zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
 - text: Langfristige Mietverträge werden nicht als Leasingverpflichtungen im Anhang erfasst oder nur mit Teilbetrag.
   pruefziele:
   - VO
@@ -165,13 +181,19 @@ risiken:
   - RI
   quelle: hwp-bur-2023__rz-0059-s070
   zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden (Art. 959c Abs. 1 Ziff. 1 OR).
-- text: Bankpfandrecht/Zessionen bei bestehendem Kreditverhältnis werden nicht als belastete Aktiven ausgewiesen.
+- text: Guthaben/Depots bei einer Bank mit nicht oder nicht vollständig besonders gesichertem Kreditverhältnis (AGB-Pfandrecht) sowie Zessionen werden nicht als belastete Aktiven ausgewiesen.
   pruefziele:
   - RV
   - DO
   - EX
   quelle: hwp-bur-2023__rz-0847-s349-t2
   zitat: stellt diese Verpfändung einen ausweispflichtigen Tatbestand dar
+- text: Beteiligungen werden nicht erkannt, weil erworbene Anteile nicht als Beteiligung (z.B. unter kurzfristigen Forderungen) gebucht sind.
+  pruefziele:
+  - EX
+  - DO
+  quelle: hwp-bur-2023__rz-0825-s344
+  zitat: Als Beteiligungen gelten Anteile am Kapital eines anderen Unternehmens, die langfristig gehalten werden und einen massgeblichen Einfluss vermitteln.
 - text: Anhangsbeträge stimmen nicht mit Bilanz, Erfolgsrechnung oder Vorjahr überein.
   pruefziele:
   - RI
@@ -183,15 +205,16 @@ unterlagen:
   zweck: Prüfgegenstand für alle Schritte; Vorjahresvergleich
   quelle: or__art-958d
   zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
-- dokument: Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), datiert auf das Berichtsdatum
-  zweck: Schriftliche Bestätigung zu Eventualverbindlichkeiten, stillen Reserven, Ereignissen nach Stichtag, nahestehenden Personen
-  quelle: ser-2022__anh-e-s102-1
-  zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+- dokument: Vollständigkeitserklärung der Unternehmensleitung (SER Anhang E), im Regelfall auf das Datum des Revisionsberichts datiert (vgl. T1-109)
+  zweck: Schriftliche Bestätigung zu Bildung/Auflösung/Bestand stiller Reserven (T1-111), Verbindlichkeiten und Eventualverbindlichkeiten (T1-107), Belastungen von Aktiven (T1-106),
+    Ereignissen nach dem Stichtag (T1-109) und nahestehenden Personen (T1-315)
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt (Art. 959c Abs. 1 Ziff. 3 OR).
 - dokument: Aufstellung Bestand und Veränderung stiller Reserven je Bilanzposition (aktuell und Vorjahr)
   zweck: T1-111, T1-305 Nettoauflösung
   quelle: hwp-bur-2023__rz-0667-s296
   zitat: über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen.
-- dokument: Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile
+- dokument: Beteiligungsliste (Firma, Rechtsform, Sitz, Kapital- und Stimmanteil, direkt/indirekt) und Kaufverträge über Anteile (unabhängig vom gebuchten Konto)
   zweck: T1-101
   quelle: hwp-bur-2023__rz-0826-s344
   zitat: Für offenlegungspflichtige Beteiligungen sind zumindest Firma, Rechtsform, Sitz, Kapital- und Stimmrechtsanteil anzugeben, sowie ob sie direkt oder indirekt gehalten werden.
@@ -207,15 +230,19 @@ unterlagen:
   zweck: T1-104, T1-309
   quelle: katalog-revio4__c003-67
   zitat: Kontoauszug BVG
-- dokument: Bankbestätigungen (Garantien, Sicherheiten, Kredite), Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte
-  zweck: T1-105, T1-106
+- dokument: Kredit-, Pfand- und Zessionsverträge, Eigentumsvorbehalte, Nachweise zu Sicherheitsleistungen (z.B. Bardepots, Kautionen) sowie die im Dossier vorhandenen Bankunterlagen
+  zweck: T1-105, T1-106 (belastete Aktiven, Sicherheiten)
   quelle: hwp-bur-2023__rz-0844-s348
   zitat: gemäss Eigentumsvorbehaltsregister, Grundbuch, Leasingvertrag, Pfandvertrag
+- dokument: Bankbestätigungen und Anwaltskorrespondenz nur, soweit im Dossier (M-Files) vorhanden – keine PBC-Pendenz «Bestätigung einholen» ohne Anweisung des WP
+  zweck: 'T1-105 bis T1-107: vorhandene Unterlagen auswerten; aktives Einholen gehört nicht zur eingeschränkten Revision'
+  quelle: hwp-er-2026__rz-0300-s092-t2
+  zitat: Kein Einholen von Bankbestätigungen vorgesehen
 - dokument: Bürgschafts-, Garantie- und Patronatsverträge zugunsten Dritter
   zweck: T1-105 (volle Haftungssumme)
   quelle: hwp-bur-2023__rz-0839-s346
   zitat: Nach dem Wortlaut des Gesetzes ist das Gesamttotal der vollen Haftungssummen aller Sicherungsgeschäfte in einem Betrag auszuweisen.
-- dokument: Aufstellung Rechtsfälle/Aktennotizen, Anwaltskorrespondenz, Rückstellungsspiegel
+- dokument: Aufstellung Rechtsfälle/Aktennotizen, vorhandene Anwaltskorrespondenz, Rückstellungsspiegel
   zweck: T1-107 Eventualverbindlichkeiten vs. Rückstellungen
   quelle: hwp-bur-2023__rz-0855-s351-t1
   zitat: Offene Rechtsstreitigkeiten und Prozessrisiken
@@ -224,14 +251,14 @@ unterlagen:
   quelle: hwp-bur-2023__rz-0858-s352-t1
   zitat: Es sind Anzahl und Wert von Beteiligungsrechten oder Optionen auf solche Rechte
 - dokument: Protokolle VR und GV (Geschäftsjahr und Folgejahr bis Berichtsdatum), Statuten, HR-Auszug
-  zweck: T1-109, T1-110 (Kapitalband), T1-112, T1-319
+  zweck: T1-109, T1-110 (Kapitalband), T1-112, T1-315, T1-319
   quelle: hwp-bur-2023__rz-0869-s356
   zitat: Im Anhang sind die in den Statuten festgelegte Bandbreite, deren Laufzeit sowie die erfolgten Erhöhungen und Herabsetzungen
-- dokument: Buchungen/Kontoblätter und Kontoauszüge des Folgejahres
-  zweck: T1-109 Ereignisse nach dem Bilanzstichtag
-  quelle: hwp-er-2026__rz-0321-s255-t1
-  zitat: Der Abschlussprüfer befragt die Unternehmensleitung zu allfälligen eingetretenen Ereignissen, die Anpassungen des Abschlusses oder Angaben im Abschluss erfordern.
-- dokument: Personalliste/Lohnjournal mit Pensen, Ein- und Austritten
+- dokument: Buchungen/Kontoblätter, Kreditorenjournal und Kontoauszüge des Folgejahres (bis möglichst nahe am Berichtsdatum)
+  zweck: T1-109 Ereignisse nach dem Bilanzstichtag (Durchsicht in neuer Rechnung)
+  quelle: ser-2022__6-1-3
+  zitat: Durchsicht von Belegen in neuer Rechnung
+- dokument: Personalliste/Lohnjournal mit Pensen, Ein- und Austritten; AHV-Jahreslohnmeldung
   zweck: T1-304 Vollzeitstellen
   quelle: hwp-bur-2023__rz-0822-s344
   zitat: Für die Ermittlung der Anzahl Stellen ist die rechtliche Stellung der Mitarbeitenden massgebend.
@@ -240,7 +267,7 @@ unterlagen:
   quelle: hwp-er-2026__rz-0430-s127
   zitat: Der Umstand, dass ein Gläubiger dem Unternehmen für seine Forderung einen Rangrücktritt gewährt hat, ist für die Beurteilung der Vermögens- und Finanzierungslage durch Dritte
     wesentlich
-- dokument: Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend)
+- dokument: Rücktrittsschreiben der Revisionsstelle bzw. GV-Beschluss zur Abberufung (falls zutreffend; in M-Files suchen, sonst Pendenz)
   zweck: T1-112, T1-402
   quelle: hwp-bur-2023__rz-0868-s355-t2
   zitat: Wortlaut und Umfang der Offenlegung richten sich nach der Begründung der
@@ -253,16 +280,30 @@ bewertung:
 - regel: Im Anhang sind Geschäftsjahr und Vorjahr anzugeben; nur zutreffende Positionen (keine Negativangaben).
   quelle: hwp-bur-2023__rz-0810-s337
   zitat: gelten auch für die Darstellung der Positionen im Anhang (Angaben zum Geschäftsjahr und zum Vorjahr)
+- regel: Firma/Name, Rechtsform und Sitz sind im Anhang nur nötig, wenn sie nicht sonst aus der Jahresrechnung ersichtlich sind (z.B. Titel, Kopf- oder Fusszeile).
+  quelle: hwp-bur-2023__rz-0819-s343
+  zitat: sofern diese Informationen nicht sonst aus der Jahresrechnung ersichtlich sind
 - regel: Angewandte Grundsätze = Wahlrechte bei Erfassung, Darstellung und Bewertung (Accounting policies).
   quelle: hwp-bur-2023__rz-0814-s338
   zitat: Darunter sind die Wahlmöglichkeiten in der Erfassung, Darstellung und Bewertung zu verstehen (Accounting policies).
+- regel: Werden freiwillig weitergehende Angaben zu Erfassung, Darstellung und Bewertung gemacht und gleichzeitig stille Reserven gebildet/aufgelöst, ist im Anhang darauf hinzuweisen.
+  quelle: hwp-bur-2023__rz-0815-s339
+  zitat: wird gleichzeitig die Möglichkeit der Bildung und Auflösung stiller Reserven wahrgenommen, ist auf diesen Umstand hinzuweisen.
 - regel: 'Stetigkeit: gleiche Massstäbe in Darstellung und Bewertung; Methodenwechsel im Anhang begründen.'
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
 - regel: 'Nettoauflösung stiller Reserven: nur Nettobetrag, als Gesamtbetrag, nur wenn wesentlich ergebnisverbessernd.'
   quelle: hwp-bur-2023__rz-0817-s341-t1
   zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
-- regel: Stille Reserven jährlich per Stichtag als Differenz Buchwert zu gesetzlich zulässigem Höchstwert ermitteln und mit Vorjahr vergleichen.
+- regel: Eine Nettoabnahme stiller Reserven ist mit dem tatsächlichen (bereinigten) Jahresergebnis, d.h. vor Auflösung, zu vergleichen; ob sie das Ergebnis wesentlich günstiger darstellt,
+    ist im Einzelfall zu beurteilen.
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: mit dem tatsächlichen (bereinigten) Jahresergebnis verglichen werden
+- regel: Die relative Höhe der Auflösung ist nicht allein ausschlaggebend, wenn durch die Auflösung ein Jahresgewinn statt eines Jahresverlusts entsteht.
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: Die relative Höhe der Auflösung, z.B. im Verhältnis zum Jahresergebnis, ist insbesondere dann nicht allein ausschlaggebend
+- regel: Stille Reserven jährlich per Stichtag als Differenz Buchwert zu gesetzlich zulässigem Höchstwert (bzw. erforderlichem Betrag) je Bilanzposition nach stetiger Methode ermitteln
+    und mit Vorjahr vergleichen.
   quelle: hwp-bur-2023__rz-0671-s297
   zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz
 - regel: Bildung stiller Reserven ist zulässig (zusätzliche Abschreibungen/Wertberichtigungen, Nichtauflösung).
@@ -274,9 +315,20 @@ bewertung:
 - regel: 'Sicherheiten für Dritte: volle Haftungssumme (Maximalbetrag) ausweisen.'
   quelle: hwp-bur-2023__rz-0841-s347
   zitat: Ausweispflichtig ist grundsätzlich die volle Haftungssumme.
+- regel: Drohen aus Sicherungsverpflichtungen oder Eventualverbindlichkeiten Verluste, ist eine Rückstellung zu bilden.
+  quelle: hwp-bur-2023__rz-0842-s348
+  zitat: Verluste drohen, sind Rückstellungen zu bilden
+- regel: 'Besteht für eine Sicherungsverpflichtung bereits eine Rückstellung, besteht ein Darstellungswahlrecht: volle Offenlegung mit Hinweis auf die Rückstellung oder Ausweis nur über
+    die Rückstellung hinaus.'
+  quelle: hwp-bur-2023__rz-0842-s348
+  zitat: In solchen Fällen besteht ein Darstellungswahlrecht
 - regel: Belastete Aktiven werden zu Buchwerten wie in der Bilanz angegeben.
   quelle: hwp-bur-2023__rz-0846-s349
   zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen
+- regel: 'AGB-Pfandrecht: Ausweispflicht, soweit bei der Bank ein nicht oder nicht vollständig besonders gesichertes Kreditverhältnis besteht; dann sämtliche Vermögenswerte bei allen
+    Niederlassungen dieser Bank. Ohne Kreditverhältnis oder bei nicht beanspruchter Limite kein Ausweis.'
+  quelle: hwp-bur-2023__rz-0847-s349-t2
+  zitat: ein nicht oder nicht vollständig durch besondere Sicherheiten gesichertes Kreditverhältnis hat
 - regel: 'Eventualverbindlichkeit vs. Rückstellung: grosse Schätzbandbreite rechtfertigt keinen Verzicht auf Rückstellung.'
   quelle: hwp-bur-2023__rz-0853-s350
   zitat: Eine grosse Spannbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten
@@ -289,18 +341,37 @@ bewertung:
 - regel: 'Ereignisse nach Stichtag: Art und geschätzte finanzielle Auswirkung offenlegen; sonst Unmöglichkeit der Schätzung angeben.'
   quelle: hwp-bur-2023__rz-0860-s353
   zitat: Es sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen offenzulegen.
-- regel: 'Beteiligung: massgeblicher Einfluss wird ab 20 % Stimmrechten vermutet.'
+- regel: 'Empfohlen: Angabe des Datums der Freigabe der Jahresrechnung durch den VR; zeigt, bis wann Ereignisse nach dem Stichtag berücksichtigt sind.'
+  quelle: hwp-bur-2023__rz-0863-s353
+  zitat: Weiter empfiehlt sich auch die Angabe des Datums, wann die Jahresrechnung durch das zuständige Gremium
+- regel: Beteiligung = langfristig gehaltene Anteile mit massgeblichem Einfluss; massgebend ist die Definition, nicht das gebuchte Konto.
+  quelle: hwp-bur-2023__rz-0825-s344
+  zitat: Als Beteiligungen gelten Anteile am Kapital eines anderen Unternehmens, die langfristig gehalten werden und einen massgeblichen Einfluss vermitteln.
+- regel: Massgeblicher Einfluss wird ab 20 % der Stimmrechte (mindestens 20 %) vermutet.
   quelle: or__art-960d
   zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
 - regel: 'Beteiligungsrechte/Optionen: nur die im Berichtsjahr zugeteilten, mit Anzahl und Wert.'
   quelle: hwp-bur-2023__rz-0858-s352-t1
   zitat: dass im Anhang nur die im Berichtsjahr zugeteilte Anzahl von Beteiligungsrechten und Optionen auf solche Rechte sowie deren Werte
+- regel: 'Beteiligungsrechte/Optionen: Angaben getrennt für Leitungs-/Verwaltungsorgane und übrige Mitarbeitende; Nennwert ist als Wert ungeeignet (stattdessen z.B. Kurswert, Steuerwert,
+    finanzmathematisch).'
+  quelle: hwp-bur-2023__rz-0858-s352-t2
+  zitat: Der Nennwert widerspiegelt den Wert der Vergütung in der Regel nicht.
 - regel: 'Vollzeitstellen: Zurechnung nach Arbeitsvertrag; Teilzeit anteilig.'
   quelle: hwp-bur-2023__rz-0823-s344
   zitat: Teilzeitmitarbeitende können anteilig berücksichtigt werden.
+- regel: 'Vollzeitstellen: Jahresdurchschnitt je nach Saisonalität aus den Monats- oder Quartalsendbeständen.'
+  quelle: hwp-bur-2023__rz-0822-s344
+  zitat: kann je nach Saisonalität vom Stand an den Monats- oder Quartalsenden ausgegangen werden
+- regel: 'Bedeutung der Schwellen: 10 Vollzeitstellen = Opting-out; 250 = eines von drei Kriterien für die ordentliche Revision (Art. 727 OR).'
+  quelle: hwp-bur-2023__rz-0820-s343
+  zitat: '10 Vollzeitstellen im Jahresdurchschnitt: Opting-out (Art. 727a Abs. 2 OR)'
 - regel: 'Verbindlichkeiten gegenüber Vorsorgeeinrichtungen: Gesamtbetrag genügt üblicherweise.'
   quelle: hwp-bur-2023__rz-0838-s346
   zitat: Der Ausweis eines Gesamtbetrags genügt üblicherweise.
+- regel: 'Bewertung zu Börsenkursen/Marktpreisen: Hinweis sowie gesonderte Offenlegung des Gesamtwerts, aufgeteilt in Wertschriften und übrige Aktiven.'
+  quelle: hwp-bur-2023__rz-0818-s342-t2
+  zitat: gesonderte Offenlegung des Gesamtwerts der entsprechenden Aktiven
 - regel: Grössere Unternehmen (Art. 961a OR) sind die von Gesetzes wegen ordentlich revisionspflichtigen.
   quelle: hwp-bur-2023__rz-0871-s356
   zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, gelten als grössere Unternehmen im Sinne des Rechnungslegungsrechts
@@ -317,6 +388,13 @@ fallstricke:
 - text: Anteile unter 20 % können trotzdem Beteiligungen sein; die 20-%-Schwelle ist nur eine Vermutung.
   quelle: hwp-bur-2023__rz-0825-s344
   zitat: Der Umkehrschluss, dass Anteile unter 20 % keine Beteiligungen darstellen, ist unzulässig
+- text: 'Katalogtext T1-101 («Stimmanteil von mehr als 20%») weicht vom Gesetz ab: Die Vermutung gilt ab mindestens 20 % (Art. 960d Abs. 3 OR); massgebend ist das Gesetz.'
+  quelle: or__art-960d
+  zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
+- text: Erworbene Anteile können unter anderen Konten (z.B. kurzfristige Forderungen) gebucht sein; Beteiligungen nicht nur aus dem Beteiligungskonto ableiten, Bilanzierung (Beteiligung
+    vs. Forderung) dem WP vorlegen.
+  quelle: hwp-bur-2023__rz-0825-s344
+  zitat: Als Beteiligungen gelten Anteile am Kapital eines anderen Unternehmens, die langfristig gehalten werden und einen massgeblichen Einfluss vermitteln.
 - text: 'Vertragliche Kündbarkeit genügt nicht: Leasing/Miete ist nur dann nicht anzugeben, wenn eine Kündigung auch wirtschaftlich möglich ist.'
   quelle: hwp-bur-2023__rz-0834-s345
   zitat: tatsächlich in der Lage sein, aus wirtschaftlicher Sicht eine Kündigung
@@ -327,9 +405,10 @@ fallstricke:
 - text: Nicht nur den beanspruchten Kreditbetrag, sondern die volle Haftungssumme der Sicherheit ausweisen.
   quelle: hwp-bur-2023__rz-0841-s347
   zitat: Dies gilt auch dann, wenn das Ausmass des Grundgeschäfts
-- text: 'AGB-Pfandrecht der Bank: belastete Guthaben/Depots sind nur auszuweisen, wenn ein beanspruchtes Kreditverhältnis besteht – dann aber alle bei dieser Bank.'
+- text: 'AGB-Pfandrecht der Bank: Guthaben/Depots sind nur auszuweisen, wenn bei dieser Bank ein nicht oder nicht vollständig besonders gesichertes Kreditverhältnis besteht – dann aber
+    alle Vermögenswerte bei allen Niederlassungen. Ohne Kreditverhältnis oder bei nicht beanspruchter Limite entfällt der Ausweis.'
   quelle: hwp-bur-2023__rz-0847-s349-t2
-  zitat: stellt diese Verpfändung einen ausweispflichtigen Tatbestand dar
+  zitat: sind gewährte Kreditlimiten nicht beansprucht, ist ein Ausweis unter dem Sicherstellungstitel nicht erforderlich
 - text: Gebildete Rückstellung entbindet nicht von der Angabe einer deutlich höheren Eventualverbindlichkeit aus demselben Sachverhalt.
   quelle: hwp-bur-2023__rz-0854-s350
   zitat: ist es nicht ausreichend, aufgrund der gebildeten Rück
@@ -345,22 +424,48 @@ fallstricke:
 - text: Rücktritt auf Ende der Amtsdauer mit erstattetem Bericht ist kein vorzeitiger Rücktritt; bei Abberufung sind die Gründe aber ebenfalls offenzulegen.
   quelle: hwp-bur-2023__rz-0868-s355-t3
   zitat: Bei einer Abberufung sind die Gründe, welche dazu geführt haben, ebenso im Anhang offenzulegen.
-- text: Ordentliche Kapitalerhöhung durch die GV ist keine Kapitalband-Angabe nach Ziff. 15; massgebend für Kapitalveränderungen ist der HR-Eintrag.
+- text: Ziff. 15 erfasst nur Kapitalveränderungen, die der VR innerhalb eines Kapitalbands vornimmt; eine ordentliche Kapitalerhöhung durch die GV ist keine Kapitalband-Angabe.
+  quelle: or__art-959c-t2
+  zitat: alle Kapitalerhöhungen und Kapitalherabsetzungen, die der Verwaltungsrat innerhalb eines Kapitalbands vorgenommen hat
+- text: Für den Zeitpunkt einer Kapitalerhöhung oder -herabsetzung ist grundsätzlich die Eintragung im Handelsregister massgebend (konstitutiv).
   quelle: hwp-bur-2023__rz-0866-s354
   zitat: Analog hat bei einer Kapitalerhöhung oder eine Kapitalherabsetzung die Eintragung im Handelsregister konstitutive Wirkung.
 - text: Zwangs- und Schwankungsreserven gehören nicht zur offenlegungspflichtigen Nettoauflösung stiller Reserven.
   quelle: hwp-bur-2023__rz-0817-s341-t2
   zitat: so auch nicht die Schwankungsreserven, welche separat auszuweisen sind
-- text: Die genaue Zahl der Vollzeitstellen ist nicht anzugeben, nur die Schwelle; Auszubildende gelten üblicherweise als Teilzeit.
+- text: Eine Nettoauflösung unter der Gesamtwesentlichkeit kann offenlegungspflichtig sein, wenn sie einen Jahresverlust in einen Gewinn dreht (z.B. bei negativem Eigenkapital); Gesamtwesentlichkeit
+    nicht als alleiniges Kriterium verwenden.
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
+- text: Die genaue Zahl der Vollzeitstellen ist nicht anzugeben, nur die Schwelle.
   quelle: hwp-bur-2023__rz-0821-s343
   zitat: Die genaue Anzahl der Vollzeitzeitstellen ist hingegen nicht offenzulegen.
-- text: Art. 961a OR (Fälligkeiten langfristiger Verbindlichkeiten, Revisionshonorar) gilt nur für grössere Unternehmen – in der eingeschränkten Revision meist «nicht zutreffend»; Anleihen
-    ausstehend bedeuten ordentliche Revisionspflicht.
+- text: Auszubildende gelten üblicherweise als Teilzeit-, nicht als Vollzeitangestellte (Ansichten uneinheitlich).
+  quelle: hwp-bur-2023__rz-0823-s344
+  zitat: werden Auszubildende üblicherweise nicht als Vollzeit-, sondern als Teilzeitangestellte
+- text: Art. 961a OR (Fälligkeiten langfristiger Verbindlichkeiten, Revisionshonorar) gilt nur für grössere Unternehmen = von Gesetzes wegen ordentlich revisionspflichtige. Ist die eingeschränkte
+    Revision zulässig, ist er nicht anwendbar; Hinweise auf ein Überschreiten von Art. 727 Abs. 1 OR betreffen die Revisionsart → Pendenz an WP.
+  quelle: hwp-bur-2023__rz-0871-s356
+  zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, gelten als grössere Unternehmen im Sinne des Rechnungslegungsrechts
+- text: Ausstehende Anleihensobligationen bedeuten ordentliche Revisionspflicht (Publikumsgesellschaft).
   quelle: or__art-727
   zitat: Anleihensobligationen ausstehend haben,
+- text: 'SER-Grenze: Bankbestätigungen werden in der eingeschränkten Revision nicht eingeholt; nur vorhandene Bankunterlagen auswerten, keine PBC-Pendenz «Bankbestätigung einholen» ohne
+    Anweisung des WP.'
+  quelle: hwp-er-2026__rz-0300-s092-t2
+  zitat: Kein Einholen von Bankbestätigungen vorgesehen
+- text: 'SER-Grenze: Anwaltsbestätigungen werden nicht eingeholt; vorhandene Anwaltskorrespondenz und Kontendurchsicht in neuer Rechnung nutzen, Restrisiko dem WP melden.'
+  quelle: hwp-er-2026__rz-0139-s204-t2
+  zitat: im SER als «Einholen von Anwaltsbestätigungen» bezeichnet, ist bei der eingeschränkten Revision nicht vorgesehen
 - text: 'Der Agent kann Befragungen nicht selbst führen: schriftliche Antworten auswerten oder Frage als Pendenz erfassen; Befragungsschritte höchstens «teilweise bearbeitet».'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz; höchstens «teilweise bearbeitet»'
+- text: 'Kein Kundenversand durch den Agenten: Fragen an den Kunden nur als Pendenz (revio-Notiz) erfassen; die Einholung beim Kunden machen Mitarbeitende/WP.'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
+- text: WP-Schritte (T1-308) nur auf Anweisung des WP vorbereiten; ob der Agent WP-Schritte vorbereitet, ist im Konzept ein offener Entscheid.
+  quelle: konzept-ki-revisionsagent-2026__c015-2
+  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
 - text: Visum, Abschluss und Review des Prüffelds bleiben beim Menschen.
   quelle: konzept-ki-revisionsagent-2026__c008-1
   zitat: 'Visum (Kürzel und Datum) pro Schritt, ✓ pro Prüffeld, «Abgeschlossen» und «Review» in der Fusszeile, Status in Bereich 10: alles bleibt beim Menschen.'
@@ -369,8 +474,8 @@ fallstricke:
   zitat: Sie wird idealerweise nicht erst gegen Ende des Prüfungsprozesses, sondern bereits zu einem früheren Zeitpunkt vorgenommen
 - text: Katalogschritt T1-173 hat keinen Text; T1-319 hat Kennzeichnung «?» und keine Prüfziele – Inhalt bzw. Zuordnung durch WP bestätigen lassen.
 fragen_kunde:
-- frage: Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss)? Bitte Liste mit Firma, Rechtsform, Sitz, Kapital- und
-    Stimmanteil.
+- frage: Hält die Gesellschaft direkt oder indirekt Anteile an anderen Unternehmen (auch unter 20 % mit massgeblichem Einfluss, auch nicht als Beteiligung gebuchte Anteile)? Bitte Liste
+    mit Firma, Rechtsform, Sitz, Kapital- und Stimmanteil sowie Halteabsicht.
   zweck: T1-101 Beteiligungen (Art. 959c Abs. 2 Ziff. 3 OR)
 - frage: Hält die Gesellschaft oder ein von ihr kontrolliertes Unternehmen eigene Anteile? Gab es im Geschäftsjahr Erwerbe/Veräusserungen (Datum, Anzahl, Preis, Bedingungen)?
   zweck: T1-102, T1-317 eigene Anteile
@@ -379,14 +484,16 @@ fragen_kunde:
   zweck: T1-103 (Art. 959c Abs. 2 Ziff. 6 OR)
 - frage: Bestehen per Stichtag Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Beiträge, Kontokorrent, Darlehen)? Bitte Kontoauszug der Vorsorgeeinrichtung per 31.12.
   zweck: T1-104, T1-309
-- frage: Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge.
+- frage: Hat die Gesellschaft Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen oder Patronatserklärungen zugunsten Dritter abgegeben oder verändert? Bitte Haftungsbeträge
+    und allfällige Rückstellungen dafür.
   zweck: T1-105 (Art. 959c Abs. 2 Ziff. 8 OR)
-- frage: Welche Aktiven sind zur Sicherung eigener Verbindlichkeiten verpfändet oder abgetreten (z.B. Globalzession, Bankguthaben, Depots) oder stehen unter Eigentumsvorbehalt?
+- frage: Welche Aktiven sind zur Sicherung eigener Verbindlichkeiten verpfändet oder abgetreten (z.B. Globalzession, Guthaben/Depots bei kreditgebender Bank, Bardepots/Sicherheitsleistungen
+    bei Behörden, Kautionen) oder stehen unter Eigentumsvorbehalt? Welche Kreditlimiten waren am Stichtag beansprucht?
   zweck: T1-106 (Art. 959c Abs. 2 Ziff. 9 OR)
 - frage: Bestehen Rechtsstreitigkeiten, Garantie-/Gewährleistungsfälle, Konventionalstrafen oder Solidarhaftungen, für die keine Rückstellung gebildet wurde? Wie wird die Eintretenswahrscheinlichkeit
     beurteilt?
   zweck: T1-107 Eventualverbindlichkeiten
-- frage: Wurden im Geschäftsjahr Aktien oder Optionen an VR, Geschäftsleitung oder Mitarbeitende zugeteilt (Anzahl, Wert)?
+- frage: Wurden im Geschäftsjahr Aktien oder Optionen an VR, Geschäftsleitung oder Mitarbeitende zugeteilt (Anzahl, Wert, Bewertungsmethode)?
   zweck: T1-108 (Art. 959c Abs. 2 Ziff. 11 OR)
 - frage: Sind nach dem Bilanzstichtag wesentliche Ereignisse eingetreten (Verluste, Klagen, Debitorenausfälle, Kapitalmassnahmen, Verträge)? Mit welcher geschätzten finanziellen Auswirkung?
     Wann hat der VR die Jahresrechnung freigegeben?
@@ -401,13 +508,13 @@ fragen_kunde:
   zweck: T1-302, T1-306, T1-319
 testakte_2025:
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: 'Anhang Ziff. 1–7 (Grundsätze, nahestehende Parteien/Rangrücktritt, a.o. Positionen, Bewertung, Vollzeitstellen, Ereignisse/Fortführung, Mietverbindlichkeiten) sowie Bilanz/ER:
-    Prüfgegenstand für T1-301 bis T1-307, T1-310, T1-315, T1-318, T1-173'
+  bezug: 'Anhang Ziff. 1–7 (Grundsätze inkl. Hinweis auf Reservenbildung, nahestehende Parteien/Rangrücktritt, a.o. Positionen, Bewertung, Vollzeitstellen, Ereignisse/Fortführung bei
+    negativem Eigenkapital, Mietverbindlichkeiten) sowie Bilanz/ER: Prüfgegenstand für T1-301 bis T1-307, T1-310, T1-315, T1-318, T1-173'
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'Abstimmung Anhang mit Kontensalden 2025/2024 (u.a. 2170, 2450–2455 nahestehende, 2274 BVG, 8500/8510 a.o., 6000 Miete, 6540 VR/Revisionsstelle): T1-303, T1-304, T1-309, T1-310,
-    T1-315, T1-104'
+  bezug: 'Abstimmung Anhang mit Kontensalden 2025/2024 (u.a. 1050 ZAZ-Depot, 1192, 2170, 2450–2455 nahestehende, 2274 BVG, 8500/8510 a.o., 6000 Miete, 6540 VR/Revisionsstelle): T1-101,
+    T1-106, T1-303, T1-304, T1-309, T1-310, T1-315, T1-104'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
-  bezug: 'Kontoblätter 2274 BVG, 2451–2455/2170 Aktionärsdarlehen, 2800/2962 Eigenkapital, 8510 a.o. Ertrag: T1-309, T1-310, T1-315, T1-110'
+  bezug: 'Kontoblätter 2274 BVG, 2451–2455/2170 Aktionärsdarlehen, 2800/2962 Eigenkapital, 8510 a.o. Ertrag, Kauf Stammanteile (30.09.2025): T1-101, T1-309, T1-310, T1-315, T1-110'
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
   bezug: 'Firma/Rechtsform/Sitz, Mitarbeitende, Revisionsart, Kapitalerhöhung 20.01.2025, Organe: T1-301, T1-304, T1-110, T1-112, T1-173, T1-403/404 (Anwendbarkeit)'
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
@@ -415,62 +522,91 @@ testakte_2025:
 - datei: 00_Allgemein/Belegverzeichnis.md
   bezug: 'Übersicht vorhandener Unterlagen; Abgleich mit PBC-Liste (fehlende Nachweise als Pendenz): alle Schritte'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Fiktiva_Regionalbank_31.12.2025.md
-  bezug: 'Abschnitt B Garantien und C Sicherheiten zugunsten der Bank, verpfändetes Garantiedepot: T1-105, T1-106'
+  bezug: 'Vorhandene Bankbestätigung (nur auswerten): Abschnitt B Garantien und C Sicherheiten zugunsten der Bank, verpfändetes Garantiedepot: T1-105, T1-106'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
-  bezug: 'Sicherheiten/Verpfändungen und Kreditverhältnisse: T1-106'
+  bezug: 'Vorhandene Bankbestätigung (nur auswerten): Sicherheiten/Verpfändungen und Kreditverhältnisse: T1-106'
 - datei: A_Fluessige_Mittel/Kontoauszug_Fiktiva_1052_Garantiedepot_Dezember_2025.md
   bezug: 'Garantiedepot (Buchwert belasteter Aktiven): T1-106'
+- datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
+  bezug: 'Zahlungsein- und -ausgänge Januar 2026: T1-109; ausgewiesene Kreditlimite (Beanspruchung per Stichtag klären, AGB-Pfandrecht): T1-106'
+- datei: C_Uebrige_kurzfristige_Forderungen/Abstimmung_ZAZ_Depot_2025.md
+  bezug: 'ZAZ-Depot Konto 1050, Bardepot CHF 10''000 als Sicherheitsleistung für das zentralisierte Abrechnungsverfahren Zoll: mögliches belastetes Aktivum nach Ziff. 9 (Einordnung durch
+    WP): T1-106'
 - datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
   bezug: 'Feste Mietdauer, Mietzins, Mietkaution: Restbetrag langfristiger Mietverpflichtungen T1-103; Verfügungsbeschränkung T1-307'
 - datei: C_Uebrige_kurzfristige_Forderungen/Bestaetigung_Mietkautionskonto_31.12.2025.md
   bezug: 'Gesperrtes Kautionskonto: T1-106/T1-307 (Verfügungsbeschränkung)'
 - datei: C_Uebrige_kurzfristige_Forderungen/Kaufvertrag_Stammanteile_Solarservice_Probe_GmbH.md
-  bezug: 'Erwerb von Stammanteilen einer anderen Gesellschaft: T1-101 Beteiligungen'
+  bezug: 'Erwerb von 100 % der Stammanteile einer anderen Gesellschaft, abgelegt bei den kurzfristigen Forderungen: T1-101 Beteiligungen (Bilanzierung Beteiligung vs. Forderung dem WP
+    vorlegen), T1-315'
 - datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
   bezug: 'Angaben zu Firma, Rechtsform, Sitz, Kapital der Gesellschaft: T1-101'
+- datei: G_Anlagevermoegen/Anlagespiegel_2025.md
+  bezug: 'Abschreibungen/Anlagen als Grundlage stiller Reserven und Absatzerfolgsrechnung: T1-111, T1-316'
+- datei: G_Anlagevermoegen/Kaufvertrag_Verkauf_Lieferwagen_14.10.2025.md
+  bezug: 'Verkauf Lieferwagen (einmaliger Vorgang, Erfolg aus Anlagenverkauf): T1-310'
+- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
+  bezug: 'Im Januar 2026 erfasste Eingangsrechnungen (u.a. mit Leistungen 2025): T1-109 Ereignisse/Abgrenzung nach dem Bilanzstichtag'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
+  bezug: 'Darlehensvertrag Aktionär A: T1-315 nahestehende Beteiligte'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_B.md
+  bezug: 'Darlehensvertrag Aktionär B: T1-315'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_D.md
+  bezug: 'Darlehensvertrag Aktionär D: T1-315'
+- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_E.md
+  bezug: 'Darlehensvertrag Aktionär E: T1-315'
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
+  bezug: 'Rangrücktrittserklärung Aktionär A: T1-315, T1-307, T1-318'
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_B.md
+  bezug: 'Rangrücktrittserklärung Aktionär B: T1-315, T1-307, T1-318'
+- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_D.md
+  bezug: 'Rangrücktrittserklärung Aktionär D: T1-315, T1-307, T1-318'
+- datei: B_Forderungen_aus_LuL/Darlehensvertrag_Gesellschaft_an_Aktionaer_A.md
+  bezug: 'Forderung gegenüber Aktionär: T1-315'
 - datei: K_Passive_Abgrenzungen_Rueckstellungen/Aktennotiz_Rechtsfall_Kunstrasen_Fiktiv_AG.md
   bezug: 'Rechtsfall mit Bandbreite und gebildeter Rückstellung: T1-107 Abgrenzung Rückstellung/Eventualverbindlichkeit, T1-109'
 - datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
   bezug: 'Rückstellungsspiegel: T1-107, T1-111 (stille Reserven), T1-307'
-- datei: G_Anlagevermoegen/Anlagespiegel_2025.md
-  bezug: 'Abschreibungen/Anlagen als Grundlage stiller Reserven und Absatzerfolgsrechnung: T1-111, T1-316'
-- datei: I_Bank_und_Aktionaersdarlehen/Darlehensvertrag_Aktionaer_A.md
-  bezug: 'Darlehensverträge Aktionäre (analog B, D, E): T1-315 nahestehende Beteiligte'
-- datei: I_Bank_und_Aktionaersdarlehen/Rangruecktritt_Aktionaer_A.md
-  bezug: 'Rangrücktrittserklärungen (analog B, D): T1-315, T1-307, T1-318'
-- datei: B_Forderungen_aus_LuL/Darlehensvertrag_Gesellschaft_an_Aktionaer_A.md
-  bezug: 'Forderung gegenüber Aktionär: T1-315'
 - datei: L_Personal/Personalliste_Loehne_2025.md
   bezug: 'Pensen, Ein-/Austritte: T1-304 Vollzeitstellen; T1-108 Bonus/Beteiligungen'
+- datei: L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md
+  bezug: 'Beschäftigungsdauer je Person (Abgleich mit Personalliste): T1-304 Vollzeitstellen'
 - datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
   bezug: 'Aktionäre und Aktienzahl: T1-102, T1-317 eigene Anteile, T1-108, T1-315 (Identifikation Beteiligte)'
 - datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
   bezug: 'Kapitalerhöhung durch GV (Abgrenzung zum Kapitalband): T1-110'
 - datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
-  bezug: 'GV-Traktanden (Revisionsstelle, Organe): T1-112, T1-402'
+  bezug: 'GV-Traktanden (Revisionsstelle, Organe): T1-112, T1-402, T1-315'
 schritte:
 - id: T1-101
-  vorgehen: 'Agent befragt nicht selbst: schriftliche Antwort (Kundenbefragung/Vollständigkeitserklärung) auswerten, sonst Frage als Pendenz an VR/GF. Abgleich mit Saldoliste/Hauptbuch
-    (Beteiligungs-, Finanzanlage- und Anzahlungskonten), Kaufverträgen über Anteile und Anhang: je direkte/wesentliche indirekte Beteiligung Firma, Rechtsform, Sitz, Kapital- und Stimmenanteil.
-    Quelle der Antwort und Abdeckung EX/DO im Textfeld festhalten.'
+  vorgehen: 'Schriftliche Antwort (Kundenbefragung, VE) auswerten, sonst Frage als Pendenz (revio-Notiz); Einholung beim Kunden durch Mitarbeitende/WP. Alle Konten (auch kurzfr. Forderungen),
+    Kaufverträge über Anteile und Anhang abgleichen (Firma, Rechtsform, Sitz, Kapital-/Stimmenanteil). Katalog «mehr als 20 %» weicht ab: massgebend Art. 960d Abs. 3 OR (≥ 20 %), Definition
+    langfristig/massgeblicher Einfluss. Bilanzierung dem WP vorlegen.'
   nachweise:
   - Schriftliche Antwort VR/GF bzw. Kundenbefragung
   - Beteiligungsliste, Kaufverträge über Anteile
-  - Saldoliste/Hauptbuch
+  - Saldoliste/Hauptbuch (alle Konten mit Anteilen)
   - Anhang der Jahresrechnung
   rechnen: Stimmanteil je Gesellschaft = gehaltene Stimmrechte / total Stimmrechte; Kennzeichnung >= 20 % (Vermutung Beteiligung, Art. 960d Abs. 3 OR)
-  feststellung_wenn: Beteiligung (auch < 20 % mit massgeblichem Einfluss) bekannt, aber im Anhang fehlend oder ohne Firma/Rechtsform/Sitz/Kapital- und Stimmenanteil; Antwort fehlt →
-    Pendenz.
+  feststellung_wenn: Beteiligung (auch < 20 % mit massgeblichem Einfluss oder nicht als Beteiligung gebucht) im Anhang fehlend oder ohne Firma/Rechtsform/Sitz/Kapital-/Stimmenanteil;
+    Antwort fehlt → Pendenz.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung nach direkt oder wesentlichen indirekt gehaltenen Anteilen an anderen
   - quelle: or__art-959c-t1
     zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
+  - quelle: or__art-960d
+    zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
+  - quelle: hwp-bur-2023__rz-0825-s344
+    zitat: Als Beteiligungen gelten Anteile am Kapital eines anderen Unternehmens, die langfristig gehalten werden und einen massgeblichen Einfluss vermitteln.
   - quelle: hwp-bur-2023__rz-0825-s344
     zitat: Der Umkehrschluss, dass Anteile unter 20 % keine Beteiligungen darstellen, ist unzulässig
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
 - id: T1-102
-  vorgehen: Frage nach Bestand per Stichtag sowie Erwerb/Veräusserung eigener Anteile (auch durch kontrollierte Unternehmen) als Pendenz erfassen bzw. schriftliche Antwort auswerten.
-    Abgleich mit Aktienbuch (Anzahl Aktien vs. Aktienkapital gemäss Statuten/HR), Konto eigene Kapitalanteile und VR-/GV-Protokollen. Ergebnis mit Verweis auf T1-317 dokumentieren.
+  vorgehen: Frage nach Bestand per Stichtag sowie Erwerb/Veräusserung eigener Anteile (auch durch kontrollierte Unternehmen) als Pendenz (revio-Notiz) erfassen bzw. vorliegende schriftliche
+    Antwort auswerten. Abgleich mit Aktienbuch (Anzahl Aktien vs. Aktienkapital gemäss Statuten/HR), Konto eigene Kapitalanteile und VR-/GV-Protokollen. Ergebnis mit Verweis auf T1-317
+    dokumentieren.
   nachweise:
   - Schriftliche Antwort VR/GF
   - Aktienbuch
@@ -486,8 +622,9 @@ schritte:
   - quelle: or__art-959c-t1
     zitat: Erwerb und Veräusserung eigener Anteile und die Bedingungen, zu denen sie erworben oder veräussert wurden
 - id: T1-103
-  vorgehen: Frage nach nicht bilanzierten Leasing- und Mietverträgen mit Laufzeit/Kündbarkeit > 12 Monate als Pendenz bzw. Antwort auswerten. Verträge in M-Files suchen (Miet-, Leasingverträge;
-    Konten Raumaufwand/Leasing), Restbetrag bis Vertragsende bzw. Ablauf Kündigungsfrist nachrechnen und mit Anhang vergleichen. Wirtschaftliche Kündbarkeit dem WP zur Beurteilung vorlegen.
+  vorgehen: Frage nach nicht bilanzierten Leasing- und Mietverträgen mit Laufzeit/Kündbarkeit > 12 Monate als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten. Verträge in M-Files
+    suchen (Miet-, Leasingverträge; Konten Raumaufwand/Leasing), Restbetrag bis Vertragsende bzw. Ablauf Kündigungsfrist nachrechnen und mit Anhang vergleichen. Wirtschaftliche Kündbarkeit
+    dem WP zur Beurteilung vorlegen.
   nachweise:
   - Schriftliche Antwort VR/GF
   - Miet- und Leasingverträge
@@ -506,8 +643,8 @@ schritte:
   - quelle: hwp-bur-2023__rz-0836-s346
     zitat: noch zu leistenden Beträge einschliesslich Zinsen und Kosten auszuweisen, und zwar in voller Höhe und nicht bloss der Teil, der erst nach zwölf Monaten fällig ist.
 - id: T1-104
-  vorgehen: Frage nach Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (ausstehende Beiträge, Kontokorrent, Darlehen) als Pendenz bzw. Antwort auswerten. Mit Saldoliste (Konto Abrechnung
-    BVG u.ä.) und Anhang abgleichen; Detailabstimmung mit Kontoauszug in T1-309.
+  vorgehen: Frage nach Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (ausstehende Beiträge, Kontokorrent, Darlehen) als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten. Mit
+    Saldoliste (Konto Abrechnung BVG u.ä.) und Anhang abgleichen; Detailabstimmung mit Kontoauszug in T1-309.
   nachweise:
   - Schriftliche Antwort VR/GF
   - Saldoliste/Hauptbuch Vorsorgekonten
@@ -522,17 +659,19 @@ schritte:
   - quelle: hwp-bur-2023__rz-0838-s346
     zitat: Die Ausweispflicht ist unabhängig von der Form der Vorsorge zu verstehen
 - id: T1-105
-  vorgehen: Frage nach Bürgschaften, Garantien, Pfandbestellungen und Patronatserklärungen zugunsten Dritter (Bestand, Veränderung) als Pendenz bzw. Antwort auswerten. Bankbestätigungen
-    (Abschnitt Garantien), Verträge und VR-Protokolle durchsehen; Abgrenzung zu Garantien für eigenes Handeln festhalten und WP vorlegen. Gesamtbetrag der vollen Haftungssummen mit Anhang
-    vergleichen.
+  vorgehen: Frage nach Bürgschaften, Garantien, Pfandbestellungen und Patronatserklärungen zugunsten Dritter (Bestand, Veränderung) als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten.
+    Vorhandene Bankunterlagen, Verträge und VR-Protokolle durchsehen; keine Bankbestätigung einholen (nur auf Anweisung WP). Abgrenzung zu Garantien für eigenes Handeln festhalten, WP
+    vorlegen. Volle Haftungssummen mit Anhang vergleichen.
   nachweise:
   - Schriftliche Antwort VR/GF
-  - Bankbestätigungen
+  - Vorhandene Bankunterlagen/-bestätigungen (M-Files)
   - Bürgschafts-, Garantie-, Pfandverträge
   - VR-Protokolle
   - Anhang
-  rechnen: Summe volle Haftungsbeträge aller Sicherheiten zugunsten Dritter = Anhangsangabe Art. 959c Abs. 2 Ziff. 8 OR
-  feststellung_wenn: Sicherheit zugunsten Dritter nicht oder nur mit beanspruchtem statt vollem Betrag offengelegt; Einordnung eigene/Dritte unklar → Pendenz an WP.
+  rechnen: Summe volle Haftungsbeträge aller Sicherheiten zugunsten Dritter = Anhangsangabe Art. 959c Abs. 2 Ziff. 8 OR; bei bestehender Rückstellung gewählte Darstellung (voll mit Hinweis
+    oder über Rückstellung hinaus) kennzeichnen
+  feststellung_wenn: Sicherheit zugunsten Dritter nicht oder nur mit beanspruchtem statt vollem Betrag offengelegt; drohender Verlust ohne Rückstellung; Einordnung eigene/Dritte unklar
+    → Pendenz an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter (nicht für eigene Verpflichtungen)
@@ -542,18 +681,24 @@ schritte:
     zitat: Ausweispflichtig ist grundsätzlich die volle Haftungssumme.
   - quelle: hwp-bur-2023__rz-0842-s348
     zitat: Erfüllungsgarantien für eigenes Handeln zugunsten Dritter stellen keine Sicherungsverpflichtungen im Sinne des Gesetzes dar.
+  - quelle: hwp-bur-2023__rz-0842-s348
+    zitat: In solchen Fällen besteht ein Darstellungswahlrecht
+  - quelle: hwp-er-2026__rz-0300-s092-t2
+    zitat: Kein Einholen von Bankbestätigungen vorgesehen
 - id: T1-106
-  vorgehen: Frage nach verpfändeten/abgetretenen Aktiven und Aktiven unter Eigentumsvorbehalt als Pendenz bzw. Antwort auswerten. Bankbestätigungen (Sicherheiten zugunsten Bank, Zessionen,
-    Pfandrecht bei Kredit), Kredit- und Pfandverträge durchsehen; Buchwerte der belasteten Aktiven aus der Saldoliste summieren und mit Anhang vergleichen.
+  vorgehen: Frage nach verpfändeten/abgetretenen Aktiven, Sicherheitsleistungen (z.B. Bardepots, Kautionen) und Aktiven unter Eigentumsvorbehalt als Pendenz (revio-Notiz) erfassen bzw.
+    Antwort auswerten. Vorhandene Bankunterlagen, Kredit- und Pfandverträge durchsehen (keine Bankbestätigung einholen). AGB-Pfandrecht nur bei nicht (voll) gesichertem, beanspruchtem
+    Kredit – dann alle Guthaben bei dieser Bank. Buchwerte summieren, mit Anhang vergleichen.
   nachweise:
   - Schriftliche Antwort VR/GF
-  - Bankbestätigungen
-  - Kredit-, Pfand-, Zessionsverträge
+  - Vorhandene Bankunterlagen/-bestätigungen, Kontoauszüge (Kreditlimiten)
+  - Kredit-, Pfand-, Zessionsverträge, Nachweise Sicherheitsleistungen
   - Saldoliste (Buchwerte)
   - Anhang
-  rechnen: Summe Buchwerte verpfändeter/abgetretener Aktiven (inkl. zedierte Debitoren, Guthaben bei kreditgebender Bank) sowie separat Aktiven unter Eigentumsvorbehalt = Anhangsangabe
-    Ziff. 9
-  feststellung_wenn: Belastete Aktiven (z.B. Zession, verpfändetes Depot, Guthaben bei kreditgebender Bank) nicht oder nicht zu Buchwerten im Anhang.
+  rechnen: Summe Buchwerte verpfändeter/abgetretener Aktiven und Sicherheitsleistungen (inkl. zedierte Debitoren; alle Guthaben/Depots bei Banken mit beanspruchtem, nicht voll besonders
+    gesichertem Kredit) sowie separat Aktiven unter Eigentumsvorbehalt = Anhangsangabe Ziff. 9
+  feststellung_wenn: Belastete Aktiven (z.B. Zession, verpfändetes Depot, Bardepot als Sicherheitsleistung, Guthaben bei Bank mit beanspruchtem Kredit) nicht oder nicht zu Buchwerten
+    im Anhang.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung über den Gesamtbetrag der zur Sicherung eigener Verpflichtungen verpfändeten oder abgetretenen Aktiven sowie der Aktiven unter Eigentumsvorbehalt
@@ -562,14 +707,20 @@ schritte:
   - quelle: hwp-bur-2023__rz-0846-s349
     zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen
   - quelle: hwp-bur-2023__rz-0847-s349-t2
-    zitat: stellt diese Verpfändung einen ausweispflichtigen Tatbestand dar
+    zitat: ein nicht oder nicht vollständig durch besondere Sicherheiten gesichertes Kreditverhältnis hat
+  - quelle: hwp-bur-2023__rz-0847-s349-t2
+    zitat: sind gewährte Kreditlimiten nicht beansprucht, ist ein Ausweis unter dem Sicherstellungstitel nicht erforderlich
+  - quelle: hwp-er-2026__rz-0300-s092-t2
+    zitat: Kein Einholen von Bankbestätigungen vorgesehen
 - id: T1-107
-  vorgehen: Frage nach Rechtsfällen, Gewährleistungsrisiken, Konventionalstrafen und Solidarhaftungen als Pendenz bzw. Antwort auswerten. Aktennotizen, Anwaltskorrespondenz und Rückstellungsspiegel
-    durchsehen; je Sachverhalt festhalten, ob Rückstellung (wahrscheinlich, schätzbar) oder Anhangsangabe (Umschreibung, möglicher Umfang). Beurteilung dem WP vorlegen.
+  vorgehen: 'Frage nach Rechtsfällen, Gewährleistungsrisiken, Konventionalstrafen und Solidarhaftungen als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten. Aktennotizen, vorhandene
+    Anwaltskorrespondenz (M-Files), Rückstellungsspiegel und Konten in neuer Rechnung durchsehen; keine Anwaltsbestätigung einholen (nur auf Anweisung WP). Je Sachverhalt: Rückstellung
+    (wahrscheinlich, schätzbar) oder Anhangsangabe; Beurteilung dem WP vorlegen.'
   nachweise:
   - Schriftliche Antwort VR/GF, Vollständigkeitserklärung
-  - Aktennotizen/Anwaltskorrespondenz
+  - Aktennotizen, vorhandene Anwaltskorrespondenz
   - Rückstellungsspiegel
+  - Kontoblätter Folgejahr
   - Anhang
   rechnen: 'Je Sachverhalt: Obergrenze der möglichen Inanspruchnahme vs. gebildete Rückstellung; übersteigender Betrag = Hinweis für Anhangsangabe'
   feststellung_wenn: Sachverhalt mit möglichem Mittelabfluss weder zurückgestellt noch im Anhang umschrieben, oder Verzicht auf Rückstellung nur wegen grosser Bandbreite.
@@ -583,16 +734,22 @@ schritte:
     zitat: Eine grosse Spannbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten
   - quelle: hwp-bur-2023__rz-0854-s350
     zitat: umfasst die Offenlegung im Anhang der Jahresrechnung eine Umschreibung der rechtlichen oder faktischen Verpflichtung
+  - quelle: hwp-er-2026__rz-0139-s204-t2
+    zitat: die Kontendurchsicht in neuer Rechnung können helfen, das Risiko zu reduzieren
+  - quelle: hwp-er-2026__rz-0139-s204-t2
+    zitat: im SER als «Einholen von Anwaltsbestätigungen» bezeichnet, ist bei der eingeschränkten Revision nicht vorgesehen
+  - quelle: ser-2022__anh-e-s104-1
+    zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten
 - id: T1-108
-  vorgehen: Frage nach im Geschäftsjahr an VR, Geschäftsleitung oder Mitarbeitende zugeteilten Aktien/Optionen als Pendenz bzw. Antwort auswerten. Aktienbuch, Lohnunterlagen und VR-Protokolle
-    auf Zuteilungen durchsehen; Anzahl und Wert getrennt nach Organen/Mitarbeitenden und nach Rechten/Optionen mit Anhang abgleichen.
+  vorgehen: Frage nach im Geschäftsjahr an VR, Geschäftsleitung oder Mitarbeitende zugeteilten Aktien/Optionen als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten. Aktienbuch,
+    Lohnunterlagen und VR-Protokolle auf Zuteilungen durchsehen; Anzahl und Wert getrennt nach Organen/Mitarbeitenden und nach Rechten/Optionen mit Anhang abgleichen.
   nachweise:
   - Schriftliche Antwort VR/GF
   - Beteiligungs-/Optionspläne
   - Aktienbuch
   - Lohnunterlagen
   - VR-Protokolle
-  rechnen: Anzahl × Wert je Kategorie (Kurswert, Steuerwert oder finanzmathematisch – nicht Nennwert)
+  rechnen: Anzahl × Wert je Kategorie (Organe/Mitarbeitende; Rechte/Optionen); Wert z.B. Kurswert, Steuerwert oder finanzmathematisch – nicht Nennwert
   feststellung_wenn: Zuteilungen im Berichtsjahr ohne Anhangsangabe oder ohne Trennung Organe/Mitarbeitende; Bewertung zum Nennwert.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-2
@@ -601,11 +758,16 @@ schritte:
     zitat: Anzahl und Wert von Beteiligungsrechten oder Optionen auf solche Rechte für alle Leitungs- und Verwaltungsorgane sowie für die Mitarbeitenden
   - quelle: hwp-bur-2023__rz-0858-s352-t1
     zitat: dass im Anhang nur die im Berichtsjahr zugeteilte Anzahl von Beteiligungsrechten und Optionen auf solche Rechte sowie deren Werte
+  - quelle: hwp-bur-2023__rz-0858-s352-t2
+    zitat: die Angaben in Bezug auf die Leitungs- bzw. Verwaltungsorgane getrennt von denjenigen betreffend die übrigen Mitarbeitenden vorzunehmen
+  - quelle: hwp-bur-2023__rz-0858-s352-t2
+    zitat: Der Nennwert widerspiegelt den Wert der Vergütung in der Regel nicht.
 - id: T1-109
-  vorgehen: 'Frage nach wesentlichen Ereignissen nach dem Stichtag (Ursache vor/nach Stichtag, quantitative Auswirkung) als Pendenz bzw. Antwort auswerten, möglichst nahe am Berichtsdatum.
-    Kontoblätter/Kontoauszüge Folgejahr und VR-/GV-Protokolle durchsehen; je Ereignis: buchungspflichtig (Ursache vor Stichtag) oder Anhangsangabe (Art, geschätzte Auswirkung).'
+  vorgehen: Frage nach wesentlichen Ereignissen nach dem Stichtag (Ursache vor/nach Stichtag, Auswirkung) als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten, möglichst nahe am
+    Berichtsdatum. Kontoblätter, Kreditorenjournal, Kontoauszüge Folgejahr und VR-/GV-Protokolle durchsehen; je Ereignis buchungspflichtig oder Anhangsangabe (Art, geschätzte Auswirkung).
+    Freigabedatum VR im Anhang (empfohlen) vermerken.
   nachweise:
-  - Schriftliche Antwort VR/GF, Vollständigkeitserklärung
+  - Schriftliche Antwort VR/GF, Vollständigkeitserklärung (Datum)
   - Kontoblätter und Kontoauszüge Folgejahr
   - Kreditorenjournal Folgejahr
   - VR-/GV-Protokolle nach Stichtag
@@ -618,11 +780,20 @@ schritte:
     zitat: Befragung nach anderen wesentlichen positiven oder negativen Ereignissen nach
   - quelle: hwp-er-2026__rz-0321-s255-t1
     zitat: Der Abschlussprüfer befragt die Unternehmensleitung zu allfälligen eingetretenen Ereignissen, die Anpassungen des Abschlusses oder Angaben im Abschluss erfordern.
+  - quelle: hwp-er-2026__rz-0321-s255-t1
+    zitat: so nahe wie praktisch möglich am Datum des Revisionsberichts
+  - quelle: ser-2022__anh-e-s102-1
+    zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+  - quelle: ser-2022__anh-e-s104-1
+    zitat: Sämtliche wesentlichen Ereignisse nach dem Bilanzstichtag sind in der Jahresrechnung erfasst bzw. offengelegt.
   - quelle: hwp-bur-2023__rz-0861-s353
     zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+  - quelle: hwp-bur-2023__rz-0863-s353
+    zitat: Weiter empfiehlt sich auch die Angabe des Datums, wann die Jahresrechnung durch das zuständige Gremium
 - id: T1-110
-  vorgehen: Frage, ob die Statuten ein Kapitalband vorsehen und der VR im Geschäftsjahr Erhöhungen/Herabsetzungen vorgenommen hat, als Pendenz bzw. Antwort auswerten. Statuten, HR-Auszug,
-    VR-Beschlüsse und Konto Aktienkapital prüfen; Bandbreite, Laufzeit und Veränderungen mit Anhang abgleichen. Ordentliche Kapitalerhöhungen durch die GV gesondert kennzeichnen.
+  vorgehen: Frage, ob die Statuten ein Kapitalband vorsehen und der VR im Geschäftsjahr Erhöhungen/Herabsetzungen vorgenommen hat, als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten.
+    Statuten, HR-Auszug, VR-Beschlüsse und Konto Aktienkapital prüfen; Bandbreite, Laufzeit und Veränderungen mit Anhang abgleichen. Ordentliche Kapitalerhöhungen durch die GV gesondert
+    kennzeichnen.
   nachweise:
   - Schriftliche Antwort VR/GF
   - Statuten, HR-Auszug
@@ -638,15 +809,15 @@ schritte:
   - quelle: hwp-bur-2023__rz-0869-s356
     zitat: Im Anhang sind die in den Statuten festgelegte Bandbreite, deren Laufzeit sowie die erfolgten Erhöhungen und Herabsetzungen
 - id: T1-111
-  vorgehen: Frage nach Methode und Nachweis der stillen Reserven (Aufstellung Bestand/Veränderung je Bilanzposition, Stetigkeit zum Vorjahr) als Pendenz bzw. Antwort auswerten; Aufstellung
-    in M-Files suchen. Bestand und Veränderung mit den Prüfungsresultaten der Einzelpositionen (Vorräte, Anlagen, Rückstellungen, Wertberichtigungen) plausibilisieren; Ergebnis als Grundlage
-    für T1-305 dokumentieren.
+  vorgehen: Frage nach Methode und Nachweis der stillen Reserven (Aufstellung Bestand/Veränderung je Bilanzposition, Stetigkeit zum Vorjahr) als Pendenz (revio-Notiz) erfassen bzw. Antwort
+    auswerten; Aufstellung in M-Files suchen. Bestand und Veränderung mit den Prüfungsresultaten der Einzelpositionen (Vorräte, Anlagen, Rückstellungen, Wertberichtigungen) plausibilisieren;
+    Ergebnis als Grundlage für T1-305 dokumentieren.
   nachweise:
   - Aufstellung stille Reserven aktuell und Vorjahr
   - Arbeitspapiere der Prüffelder (Vorräte, Anlagen, Rückstellungen)
   - Vollständigkeitserklärung
-  rechnen: 'Je Position: stille Reserve = gesetzlich zulässiger Höchstwert bzw. erforderlicher Betrag minus Buchwert (Passiven umgekehrt); Total Stichtag − Total Vorjahr = Bildung (+)
-    bzw. Auflösung (−)'
+  rechnen: 'Aktiven: stille Reserve = gesetzlich zulässiger Höchstwert − Buchwert; Passiven (Rückstellungen/Wertberichtigungen): Buchwert − erforderlicher Betrag; je Position nach stetiger
+    Methode; Veränderung = Total Stichtag − Total Vorjahr (+ Bildung, − Auflösung)'
   feststellung_wenn: Keine Aufstellung oder Methode, Methodenwechsel ohne Begründung, oder Widerspruch zu Prüfungsresultaten der Einzelpositionen → Pendenz an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s097-2
@@ -656,8 +827,9 @@ schritte:
   - quelle: ser-2022__anh-e-s104-1
     zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt (Art. 959c Abs. 1 Ziff. 3 OR).
 - id: T1-112
-  vorgehen: Frage, ob im Geschäftsjahr die Revisionsstelle vorzeitig zurückgetreten ist oder abberufen wurde, als Pendenz bzw. Antwort auswerten. GV-Protokolle (Wahl, Amtsdauer), HR-Auszug
-    und Mandatsunterlagen durchsehen; falls zutreffend Rücktrittsschreiben beschaffen (→ T1-402). Sonst «nicht zutreffend» mit Nachweis dokumentieren.
+  vorgehen: Frage, ob die Revisionsstelle im Geschäftsjahr vorzeitig zurückgetreten ist oder abberufen wurde, als Pendenz (revio-Notiz) erfassen bzw. Antwort auswerten. GV-Protokolle
+    (Wahl, Amtsdauer), HR-Auszug und Mandatsunterlagen durchsehen; falls zutreffend Rücktrittsschreiben in M-Files suchen, sonst Pendenz (→ T1-402). Sonst «nicht zutreffend» mit Nachweis
+    dokumentieren.
   nachweise:
   - Schriftliche Antwort VR/GF
   - GV-Protokolle
@@ -675,14 +847,14 @@ schritte:
     zitat: Ein vorzeitiger Rücktritt liegt vor, wenn die Revisionsstelle vor Ablauf der Amtsdauer zurücktritt, ohne dass sie der Generalversammlung Bericht über die Revision erstattet.
 - id: T1-301
   vorgehen: 'Anhang der definitiven Jahresrechnung (M-Files/revio 1.1) gegen Gliederung Art. 959c OR prüfen: Hinweis auf Rechnungslegungsrecht, angewandte Grundsätze, Erläuterungen zu
-    Bilanz/ER, Nettoauflösung stiller Reserven, weitere gesetzliche Angaben, Pflichtangaben Abs. 2 inkl. Firma/Rechtsform/Sitz und Vorjahresangaben. Checkliste «vorhanden/nicht zutreffend/fehlt»
-    im Textfeld festhalten.'
+    Bilanz/ER, Nettoauflösung stiller Reserven, weitere gesetzliche Angaben, Pflichtangaben Abs. 2 inkl. Firma/Rechtsform/Sitz (genügt auch im Titel oder in Kopf-/Fusszeile) und Vorjahresangaben.
+    Checkliste «vorhanden/nicht zutreffend/fehlt» im Textfeld.'
   nachweise:
   - Definitive, vom VR genehmigte Jahresrechnung inkl. Anhang
   - Anhang Vorjahr
   - Checkliste Art. 959c OR
   rechnen: ''
-  feststellung_wenn: Pflichtbestandteil fehlt, Firma/Rechtsform/Sitz nicht ersichtlich, Vorjahresangaben fehlen oder Gliederung unvollständig.
+  feststellung_wenn: Pflichtbestandteil fehlt, Firma/Rechtsform/Sitz nirgends in der Jahresrechnung ersichtlich, Vorjahresangaben fehlen oder Gliederung unvollständig.
   fundstellen:
   - quelle: or__art-959c-t1
     zitat: Der Anhang der Jahresrechnung ergänzt und erläutert die anderen Bestandteile der Jahresrechnung.
@@ -690,18 +862,22 @@ schritte:
     zitat: Enthält der Anhang Angaben über die angewandten Grundsätze, soweit diese
   - quelle: ser-2022__anh-d-s098-2
     zitat: Enthält der Anhang Angaben zu Firma oder Namen sowie Rechtsform und Sitz des
+  - quelle: hwp-bur-2023__rz-0819-s343
+    zitat: sofern diese Informationen nicht sonst aus der Jahresrechnung ersichtlich sind
   - quelle: hwp-bur-2023__rz-0810-s337
     zitat: gelten auch für die Darstellung der Positionen im Anhang (Angaben zum Geschäftsjahr und zum Vorjahr)
 - id: T1-302
-  vorgehen: Im Anhang beschriebene Grundsätze (z.B. Bewertung Vorräte und angefangene Arbeiten, Umsatzerfassung, Rückstellungen, Fremdwährung) mit den in den Prüffeldern festgestellten
-    tatsächlichen Methoden vergleichen; Änderungen gegenüber Vorjahr identifizieren und Begründung im Anhang prüfen. Abweichungen mit Verweis auf das betroffene Prüffeld im Textfeld
-    dokumentieren.
+  vorgehen: Im Anhang beschriebene Grundsätze (z.B. Vorräte, angefangene Arbeiten, Umsatzerfassung, Rückstellungen, Fremdwährung) mit den in den Prüffeldern festgestellten Methoden vergleichen;
+    Änderungen gegenüber Vorjahr und deren Begründung prüfen. Bei freiwillig weitergehenden Angaben und Bildung/Auflösung stiller Reserven den Hinweis darauf prüfen. Abweichungen mit
+    Verweis auf das Prüffeld im Textfeld dokumentieren.
   nachweise:
   - Anhang (Grundsätze, Bewertung)
   - Arbeitspapiere der Prüffelder (Vorräte, angefangene Arbeiten, Anlagen, Rückstellungen)
   - Anhang Vorjahr
+  - Aufstellung stille Reserven (T1-111)
   rechnen: ''
-  feststellung_wenn: Beschriebene Methode weicht von der angewandten ab, Methodenwechsel nicht begründet/offengelegt, oder wesentliche Wahlrechte nicht beschrieben.
+  feststellung_wenn: Beschriebene Methode weicht von der angewandten ab, Methodenwechsel nicht begründet/offengelegt, wesentliche Wahlrechte nicht beschrieben oder Hinweis auf stille
+    Reserven fehlt.
   fundstellen:
   - quelle: or__art-959c-t1
     zitat: Angaben über die in der Jahresrechnung angewandten Grundsätze, soweit diese nicht vom Gesetz vorgeschrieben sind
@@ -709,6 +885,8 @@ schritte:
     zitat: Darunter sind die Wahlmöglichkeiten in der Erfassung, Darstellung und Bewertung zu verstehen (Accounting policies).
   - quelle: hwp-bur-2023__rz-0059-s070
     zitat: Ein Methodenwechsel ist in begründeten Fällen zulässig, muss aber im Anhang begründet und dargelegt werden (Art. 959c Abs. 1 Ziff. 1 OR).
+  - quelle: hwp-bur-2023__rz-0815-s339
+    zitat: wird gleichzeitig die Möglichkeit der Bildung und Auflösung stiller Reserven wahrgenommen, ist auf diesen Umstand hinzuweisen.
 - id: T1-303
   vorgehen: Jede betragsmässige Anhangsangabe (Aufschlüsselungen, nahestehende Parteien, a.o. Positionen, Mietverpflichtungen, Vorjahr) mit Bilanz, Erfolgsrechnung und Saldoliste abstimmen
     und Summen nachrechnen. Differenzen je Angabe mit Konto und Betrag im Textfeld festhalten.
@@ -726,14 +904,16 @@ schritte:
   - quelle: or__art-958d
     zitat: In der Jahresrechnung sind neben den Zahlen für das Geschäftsjahr die entsprechenden Werte des Vorjahres anzugeben.
 - id: T1-304
-  vorgehen: 'Anhangsangabe (nicht über 10 / über 50 / über 250) mit Personalliste, Lohnjournal bzw. AHV-Lohnmeldung plausibilisieren: Jahresdurchschnitt aus Monats- oder Quartalsendbeständen,
-    Teilzeit anteilig, nur Mitarbeitende mit Arbeitsvertrag beim Unternehmen. Vorjahresangabe und Bedeutung für Opting-out/Revisionspflicht für den WP vermerken.'
+  vorgehen: 'Anhangsangabe mit Personalliste, Lohnjournal und AHV-Jahreslohnmeldung plausibilisieren: Jahresdurchschnitt aus Monats- oder Quartalsendbeständen, Teilzeit anteilig, Auszubildende
+    üblicherweise als Teilzeit, nur Mitarbeitende mit Arbeitsvertrag beim Unternehmen. Vorjahresangabe vergleichen; Bedeutung der Schwellen für den WP vermerken (10 = Opting-out, 250
+    = Kriterium ordentliche Revision).'
   nachweise:
   - Personalliste/Lohnjournal mit Pensen, Ein- und Austritten
   - AHV-Jahreslohnmeldung
   - Anhang
-  rechnen: FTE-Jahresdurchschnitt = Σ (Pensum × Beschäftigungsmonate im Jahr) / 12; Einordnung in Schwelle ≤ 10 / > 50 / > 250
-  feststellung_wenn: Berechneter Jahresdurchschnitt liegt in einer anderen Schwelle als die Anhangsangabe, oder Angabe fehlt.
+  rechnen: FTE-Jahresdurchschnitt = Σ Vollzeitäquivalente an den Monats- (oder Quartals-)enden / Anzahl Stichtage (Teilzeit anteilig); Einordnung in Band ≤ 10 / > 10 bis 50 / > 50 bis
+    250 / > 250 und Vergleich mit Anhangsangabe
+  feststellung_wenn: Berechneter Jahresdurchschnitt liegt in einem anderen Band als die Anhangsangabe, oder Angabe fehlt; Hinweis auf Schwelle 250 (Revisionsart) → Pendenz an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-2
     zitat: Plausibilisierung der Angabe der Vollzeitstellen (weniger als 10, über 50 beziehungsweise über 250) im Jahresdurchschnitt
@@ -741,43 +921,59 @@ schritte:
     zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
   - quelle: hwp-bur-2023__rz-0822-s344
     zitat: Für die Ermittlung der Anzahl Stellen ist die rechtliche Stellung der Mitarbeitenden massgebend.
+  - quelle: hwp-bur-2023__rz-0822-s344
+    zitat: kann je nach Saisonalität vom Stand an den Monats- oder Quartalsenden ausgegangen werden
   - quelle: hwp-bur-2023__rz-0823-s344
     zitat: Teilzeitmitarbeitende können anteilig berücksichtigt werden.
+  - quelle: hwp-bur-2023__rz-0820-s343
+    zitat: '10 Vollzeitstellen im Jahresdurchschnitt: Opting-out (Art. 727a Abs. 2 OR)'
 - id: T1-305
-  vorgehen: 'Veränderung der stillen Reserven aus T1-111 übernehmen; bei Nettoauflösung prüfen, ob das Ergebnis dadurch wesentlich günstiger dargestellt wird (Vergleich mit Wesentlichkeit
-    3.3). Falls ja: Gesamtbetrag der Nettoauflösung im Anhang abgleichen. Zwangs- und Schwankungsreserven ausklammern; Wesentlichkeitsurteil dem WP vorlegen.'
+  vorgehen: 'Veränderung der stillen Reserven aus T1-111 übernehmen. Bei Nettoauflösung mit dem bereinigten Jahresergebnis (vor Auflösung) vergleichen und immer kennzeichnen, wenn die
+    Auflösung einen Verlust in einen Gewinn dreht; Beurteilung im Einzelfall. Falls offenlegungspflichtig: Nettobetrag mit Anhang abgleichen. Zwangs- und Schwankungsreserven ausklammern;
+    Urteil «wesentlich günstiger» dem WP vorlegen.'
   nachweise:
   - Aufstellung stille Reserven (T1-111)
+  - Erfolgsrechnung (Jahresergebnis)
   - Wesentlichkeit (3.3)
   - Anhang
-  rechnen: Nettoauflösung = Total stille Reserven Vorjahr − Total Stichtag (falls > 0); Vergleich mit Gesamtwesentlichkeit; Anhangsbetrag = Nettoauflösung
-  feststellung_wenn: Wesentliche Nettoauflösung ohne Anhangsangabe oder mit abweichendem Betrag; Ermittlungsunterlagen fehlen → Pendenz.
+  rechnen: Nettoauflösung = Total stille Reserven Vorjahr − Total Stichtag (falls > 0); Verhältnis zum bereinigten Jahresergebnis (Ergebnis vor Auflösung); immer kennzeichnen, wenn die
+    Auflösung einen Verlust in einen Gewinn dreht; Gesamtwesentlichkeit nur als Massstab für die Feststellung; Anhangsbetrag = Nettoauflösung; Urteil WP
+  feststellung_wenn: Nettoauflösung offenlegungspflichtig (wesentlich ggü. bereinigtem Ergebnis oder Verlust→Gewinn), aber ohne Anhangsangabe oder mit abweichendem Betrag; Ermittlungsunterlagen
+    fehlen → Pendenz.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-2
     zitat: Enthält der Anhang Angaben über die Nettoauflösung von stillen Reserven (wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird)?
   - quelle: or__art-959c-t1
     zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  - quelle: hwp-bur-2023__rz-0675-s298
+    zitat: mit dem tatsächlichen (bereinigten) Jahresergebnis verglichen werden
+  - quelle: hwp-bur-2023__rz-0675-s298
+    zitat: wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
   - quelle: hwp-bur-2023__rz-0817-s341-t1
     zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
   - quelle: muster-hwp-er-2026__c025-1
     zitat: Nettoauflösung stiller Reserven im Anhang nicht offengelegt
 - id: T1-306
   vorgehen: 'Prüfen, ob zutreffende weitere Angaben offengelegt sind: Abweichungen von Stetigkeit und Fortführung, Umrechnungskurse bei Fremdwährungsabschluss, Bewertung zu Börsen-/Marktpreisen
-    und Schwankungsreserven, Aufwertungen (Art. 725c OR), Angaben nach Spezialgesetzen (z.B. FusG). Je Punkt «zutreffend/nicht zutreffend» mit Nachweis (Saldoliste, Bewertungsgrundlagen,
-    Protokolle) dokumentieren.'
+    (Hinweis, Gesamtwert aufgeteilt in Wertschriften und übrige Aktiven) und Schwankungsreserven, Aufwertungen (Art. 725c OR), Angaben nach Spezialgesetzen (z.B. FusG). Je Punkt «zutreffend/nicht
+    zutreffend» mit Nachweis dokumentieren.'
   nachweise:
   - Anhang
   - Saldoliste/Bewertungsunterlagen
   - VR-/GV-Protokolle
   - Arbeitspapiere übrige Prüffelder
-  rechnen: ''
+  rechnen: 'Bei Kursbewertung: Gesamtwert Wertschriften + übrige Aktiven zu Kurs-/Marktwerten gemäss Saldoliste = Anhangsangabe'
   feststellung_wenn: Ein zutreffender Sachverhalt (Methodenwechsel, Fortführungsabweichung, Fremdwährung, Kursbewertung, Schwankungsreserve, Aufwertung, FusG) ist im Anhang nicht oder
     unvollständig offengelegt.
   fundstellen:
+  - quelle: or__art-959c-t1
+    zitat: weitere vom Gesetz verlangte Angaben
   - quelle: or__art-958d
     zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
   - quelle: ser-2022__anh-d-s098-3
     zitat: Weist der Anhang darauf hin, dass ggf. Aktiven zum Börsenkurs oder beobachtbaren
+  - quelle: hwp-bur-2023__rz-0818-s342-t2
+    zitat: gesonderte Offenlegung des Gesamtwerts der entsprechenden Aktiven
   - quelle: or__art-960b
     zitat: Der Betrag der Schwankungsreserven ist insgesamt in der Bilanz oder im Anhang gesondert auszuweisen.
   - quelle: hwp-bur-2023__rz-0818-s342-t2
@@ -804,10 +1000,12 @@ schritte:
     zitat: Der Umstand, dass ein Gläubiger dem Unternehmen für seine Forderung einen Rangrücktritt gewährt hat, ist für die Beurteilung der Vermögens- und Finanzierungslage durch Dritte
       wesentlich
 - id: T1-308
-  vorgehen: 'Weiter gehende Prüfungshandlung (Kennzeichnung WP; nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem Risiko): Agent bereitet für jede betragsmässige Anhangsangabe
-    die Belege aus M-Files vor (Verträge, Bank- und Saldobestätigungen, Aufstellungen) und stellt Anhangsbetrag und Belegbetrag gegenüber; Auswahl und Umfang legt der WP fest.'
+  vorgehen: 'Weiter gehende Prüfungshandlung (Kennzeichnung WP; nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem Risiko). Nur auf Anweisung des WP (offener Entscheid im Konzept):
+    Belege je betragsmässiger Anhangsangabe aus M-Files bereitstellen (Verträge, vorhandene Bestätigungen, Aufstellungen) und Anhangs- und Belegbetrag gegenüberstellen; Auswahl und Umfang
+    legt der WP fest. Ohne Anweisung: Schritt offen lassen.'
   nachweise:
-  - Belege je Anhangsposten (Verträge, Bestätigungen, Aufstellungen)
+  - Anweisung des WP (Auswahl, Umfang)
+  - Belege je Anhangsposten (Verträge, vorhandene Bestätigungen, Aufstellungen)
   - Anhang
   rechnen: 'Je Anhangsposten: Betrag Anhang − Betrag gemäss Beleg = Differenz'
   feststellung_wenn: Anhangsbetrag nicht durch Beleg gestützt oder Differenz zum Beleg; Beleg fehlt → PBC-Pendenz.
@@ -818,6 +1016,8 @@ schritte:
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
   - quelle: or__art-958c
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
 - id: T1-309
   vorgehen: Anhangsangabe der Verbindlichkeiten gegenüber Vorsorgeeinrichtungen mit Kontoauszug bzw. Saldobestätigung der Vorsorgeeinrichtung per 31.12. und mit dem Konto BVG (Saldoliste/Hauptbuch)
     abstimmen; Dezemberbeiträge und Schlussabrechnung berücksichtigen. Fehlender Auszug → PBC-Pendenz.
@@ -839,8 +1039,9 @@ schritte:
   - Saldoliste und Hauptbuch a.o. Konten
   - Anhang (Erläuterung a.o. Positionen)
   - Erfolgsrechnung
-  rechnen: Summe erläuterte a.o. Posten im Anhang = Total a.o. Aufwand bzw. Ertrag gemäss ER = Summe Konten Saldoliste
-  feststellung_wenn: Wesentlicher a.o./einmaliger/periodenfremder Posten nicht erläutert, oder Anhangsbetrag stimmt nicht mit ER/Saldoliste überein.
+  - Verträge zu einmaligen Vorgängen (z.B. Anlagenverkauf)
+  rechnen: Total a.o. Aufwand/Ertrag gemäss Anhang (falls angegeben) = ER = Saldoliste; wesentliche Einzelposten mit Ursache erläutert (nicht jeder Posten)
+  feststellung_wenn: Wesentlicher a.o./einmaliger/periodenfremder Posten nicht erläutert, oder angegebenes Total im Anhang stimmt nicht mit ER/Saldoliste überein.
   fundstellen:
   - quelle: or__art-959c-t2
     zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
@@ -849,12 +1050,13 @@ schritte:
   - quelle: ser-2022__anh-d-s096-1
     zitat: Vergleich der Salden und Identifikationskriterien mit dem Vorjahr
 - id: T1-315
-  vorgehen: Forderungen und Verbindlichkeiten gegenüber Aktionären/Beteiligten, Organen und Beteiligungsgesellschaften aus Saldoliste, Darlehensverträgen und Aktienbuch identifizieren;
-    prüfen, ob sie in Bilanz oder Anhang gesondert ausgewiesen sind und die Beträge (inkl. Zinsen, Vorjahr) übereinstimmen. Rangrücktritte (Betrag, Umfang) mit den Vereinbarungen abgleichen.
+  vorgehen: Nahestehende über schriftliche Antwort/Vollständigkeitserklärung, Aktienbuch, HR-Auszug und GV-/VR-Protokolle identifizieren. Forderungen und Verbindlichkeiten gegenüber
+    Beteiligten, Organen und Beteiligungsgesellschaften aus Saldoliste und Darlehensverträgen erheben; prüfen, ob sie in Bilanz oder Anhang gesondert ausgewiesen sind und Beträge (inkl.
+    Zinsen, Vorjahr) stimmen. Rangrücktritte (Betrag, Umfang) mit Vereinbarungen abgleichen.
   nachweise:
   - Saldoliste/Hauptbuch
   - Darlehensverträge, Rangrücktrittsvereinbarungen
-  - Aktienbuch
+  - Aktienbuch, HR-Auszug, GV-/VR-Protokolle
   - Anhang
   - Vollständigkeitserklärung (nahestehende Personen)
   rechnen: Summe Konten ggü. Beteiligten/Organen/Beteiligungen = gesonderter Ausweis Bilanz + Anhang; Summe Rangrücktritte gemäss Vereinbarungen vs. Anhang
@@ -866,6 +1068,8 @@ schritte:
     zitat: in der Bilanz oder im Anhang ausgewiesen (Art. 959a Abs. 4 OR)?
   - quelle: or__art-959a-t2
     zitat: müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
   - quelle: ser-2022__anh-e-s103-2
     zitat: der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen (Art. 959a Abs. 4 OR) ist vollständig und richtig.
 - id: T1-316
@@ -903,9 +1107,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0829-s345
     zitat: Zumindest anzugeben sind das Datum, die Anzahl und die Art der Anteile, der bezahlte Preis sowie weitere Bedingungen wie beispielsweise Rückkaufvereinbarungen.
 - id: T1-318
-  vorgehen: 'Ergebnis der Fortführungsbeurteilung (Planung, SER Anhang G) übernehmen. Bei Abweichung von der Fortführung: Vermerk und Einfluss auf die wirtschaftliche Lage im Anhang
-    prüfen; bei wesentlicher Unsicherheit (z.B. Überschuldung mit Rangrücktritten, angespannte Liquidität) prüfen, ob sie klar offengelegt ist. Folgen für den Bericht (Zusatz/Modifizierung)
-    entscheidet der WP.'
+  vorgehen: 'Ergebnis der Fortführungsbeurteilung (Planung; SER Anhang G) übernehmen. Bei Abweichung von der Fortführung: Vermerk und Einfluss auf die wirtschaftliche Lage im Anhang
+    prüfen; bei wesentlicher Unsicherheit (z.B. Überschuldung mit Rangrücktritten, negatives Eigenkapital, angespannte Liquidität) prüfen, ob sie klar offengelegt ist. Folgen für den
+    Bericht (Zusatz/Modifizierung) entscheidet der WP.'
   nachweise:
   - Anhang (Fortführung, Ereignisse)
   - Fortführungsbeurteilung/Liquiditätsplanung
@@ -917,6 +1121,8 @@ schritte:
     zitat: Abweichungen von der Annahme der Fortführung sind im Anhang zu vermerken; ihr Einfluss auf die wirtschaftliche Lage ist darzulegen.
   - quelle: ser-2022__anh-d-s098-3
     zitat: Werden Abweichungen von der Annahme der Fortführung im Anhang vermerkt und
+  - quelle: ser-2022__anh-g-s141-2
+    zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
   - quelle: hwp-er-2026__rz-0199-s226
     zitat: Bestehen erhebliche Zweifel an der Fortführungsfähigkeit, muss dies in der Jahresrechnung klar offengelegt werden.
   - quelle: hwp-er-2026__rz-0200-s226-t1
@@ -955,15 +1161,16 @@ schritte:
   - quelle: ser-2022__anh-d-s098-2
     zitat: zutreffenden Positionen gemäss Art. 959c OR sowie der weiteren vom Gesetz verlangten Angaben
 - id: T1-401
-  vorgehen: 'Anhand Saldoliste (Anleihenskonten), Protokollen und Befragung feststellen, ob Anleihensobligationen ausstehend sind. Falls ja: Angaben je Anleihe (Betrag, Zinssatz, Fälligkeit,
-    weitere Konditionen) mit Anleihensbedingungen abgleichen und den WP auf die Revisionsart hinweisen (ausstehende Anleihen bedingen ordentliche Revision). Sonst «nicht zutreffend».'
+  vorgehen: 'Anhand Saldoliste (Anleihenskonten), Protokollen und schriftlicher Antwort feststellen, ob Anleihensobligationen ausstehend sind. Falls ja: Angaben je Anleihe (Betrag, Zinssatz,
+    Fälligkeit, weitere Konditionen) mit Anleihensbedingungen abgleichen und den WP auf die Revisionsart hinweisen (ausstehende Anleihen bedingen ordentliche Revision). Sonst «nicht
+    zutreffend».'
   nachweise:
   - Saldoliste
   - Anleihensbedingungen/Prospekt
   - VR-Protokolle
   - Anhang
   rechnen: Anleihensbetrag gemäss Anhang = Saldo Anleihenskonto
-  feststellung_wenn: Ausstehende Anleihe ohne vollständige Angaben im Anhang; zudem Hinweis an WP zur Revisionspflicht (ordentliche statt eingeschränkte Revision).
+  feststellung_wenn: Ausstehende Anleihe ohne vollständige Angaben im Anhang; zudem wesentliche Feststellung/Pendenz an WP zur Revisionspflicht (ordentliche statt eingeschränkte Revision).
   fundstellen:
   - quelle: or__art-959c-t3
     zitat: Unternehmen, die Anleihensobligationen ausstehend haben, müssen Angaben zu deren Beträgen, Zinssätzen, Fälligkeiten und zu den weiteren Konditionen machen.
@@ -972,8 +1179,8 @@ schritte:
   - quelle: or__art-727
     zitat: Anleihensobligationen ausstehend haben,
 - id: T1-402
-  vorgehen: 'Nur falls T1-112 einen vorzeitigen Rücktritt oder eine Abberufung ergibt: Rücktrittsschreiben bzw. GV-Beschluss in M-Files beschaffen und den Anhangstext mit den darin genannten
-    Gründen vergleichen (Wortlaut, Umfang). Sonst «nicht zutreffend» mit Verweis auf T1-112.'
+  vorgehen: 'Nur falls T1-112 einen vorzeitigen Rücktritt oder eine Abberufung ergibt: Rücktrittsschreiben bzw. GV-Beschluss in M-Files suchen (sonst Pendenz) und den Anhangstext mit
+    den darin genannten Gründen vergleichen (Wortlaut, Umfang). Sonst «nicht zutreffend» mit Verweis auf T1-112.'
   nachweise:
   - Rücktrittsschreiben der Revisionsstelle
   - GV-Protokoll (Abberufung)
@@ -988,34 +1195,41 @@ schritte:
   - quelle: hwp-er-2026__rz-0171-s069
     zitat: Zudem sind diese Gründe im Anhang der Jahresrechnung darzulegen (Art. 959c Abs. 2 Ziff. 14 OR).
 - id: T1-403
-  vorgehen: 'Prüfen, ob das Unternehmen von Gesetzes wegen ordentlich revisionspflichtig und damit «grösseres Unternehmen» ist; in der eingeschränkten Revision in der Regel nicht zutreffend
-    → begründet dokumentieren. Falls anwendbar oder freiwillig angegeben: Fälligkeitsaufteilung (1–5 Jahre, > 5 Jahre) mit Darlehensverträgen und Bilanzposition abstimmen.'
+  vorgehen: 'Ist die eingeschränkte Revision zulässig, ist das Unternehmen nicht von Gesetzes wegen ordentlich revisionspflichtig und damit kein grösseres Unternehmen → «nicht zutreffend»
+    begründet dokumentieren. Hinweise auf Überschreiten von Art. 727 Abs. 1 OR (Schwellen in zwei Folgejahren, Anleihen, Konzernrechnung) als Feststellung/Pendenz an WP zur Revisionsart.
+    Falls freiwillig angegeben: Fälligkeiten mit Verträgen und Bilanz abstimmen.'
   nachweise:
-  - Unternehmensinformationen/Schwellenwerte
+  - Unternehmensinformationen/Schwellenwerte (Bilanzsumme, Umsatz, Vollzeitstellen, 2 Jahre)
   - Darlehens- und Kreditverträge
   - Bilanz
   - Anhang
-  rechnen: Summe Fälligkeiten 1–5 Jahre + > 5 Jahre = Bilanzposition langfristige verzinsliche Verbindlichkeiten
-  feststellung_wenn: Bei Pflicht (grösseres Unternehmen) fehlt die Fälligkeitsaufteilung, die Summe weicht ab, oder der kurzfristige Anteil ist nicht umgegliedert.
+  rechnen: Summe Fälligkeiten 1–5 Jahre + > 5 Jahre = Bilanzposition langfristige verzinsliche Verbindlichkeiten (nur falls angegeben)
+  feststellung_wenn: Hinweise auf ordentliche Revisionspflicht nach Art. 727 Abs. 1 OR → wesentliche Feststellung/Pendenz an WP zur Revisionsart; freiwillige Fälligkeitsangabe weicht
+    von Bilanz ab.
   fundstellen:
   - quelle: or__art-961a
     zitat: zu den langfristigen verzinslichen Verbindlichkeiten, aufgeteilt nach Fälligkeit innerhalb von einem bis fünf Jahren und nach fünf Jahren
   - quelle: hwp-bur-2023__rz-0871-s356
     zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, gelten als grössere Unternehmen im Sinne des Rechnungslegungsrechts
+  - quelle: or__art-727
+    zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
   - quelle: hwp-bur-2023__rz-0875-s356
     zitat: (kurzfristiger Anteil langfristiger Verbindlichkeiten) sind grundsätzlich als kurzfristige verzinsliche Verbindlichkeiten zu bilanzieren
 - id: T1-404
-  vorgehen: 'Anwendbarkeit wie T1-403 klären (grösseres Unternehmen); in der eingeschränkten Revision in der Regel nicht zutreffend. Falls anwendbar oder freiwillig angegeben: Honorare
-    je Revisionsdienstleistungen und andere Dienstleistungen mit Honorarrechnungen und Aufwandkonto abstimmen (Revisionshonorar periodengerecht).'
+  vorgehen: 'Anwendbarkeit wie T1-403: Bei zulässiger eingeschränkter Revision kein grösseres Unternehmen → «nicht zutreffend» begründet dokumentieren; Hinweise auf Art. 727 Abs. 1 OR
+    als Pendenz an WP zur Revisionsart. Falls freiwillig angegeben: Honorare je Revisionsdienstleistungen und andere Dienstleistungen mit Honorarrechnungen und Aufwandkonto abstimmen
+    (Revisionshonorar periodengerecht).'
   nachweise:
   - Honorarrechnungen der Revisionsstelle
   - Aufwandkonto VR/GV/Revisionsstelle
   - Anhang
-  rechnen: Revisionshonorar Anhang = periodengerecht erfasster Aufwand gemäss Konto/Rechnungen; andere Dienstleistungen separat
-  feststellung_wenn: Bei Pflicht fehlt die getrennte Honorarangabe oder die Beträge weichen von Rechnungen/Konto ab.
+  rechnen: Revisionshonorar Anhang = periodengerecht erfasster Aufwand gemäss Konto/Rechnungen; andere Dienstleistungen separat (nur falls angegeben)
+  feststellung_wenn: Hinweise auf ordentliche Revisionspflicht → Pendenz an WP zur Revisionsart; freiwillige Honorarangabe ohne Trennung oder abweichend von Rechnungen/Konto.
   fundstellen:
   - quelle: or__art-961a
     zitat: zum Honorar der Revisionsstelle je gesondert für Revisionsdienstleistungen und andere Dienstleistungen
+  - quelle: hwp-bur-2023__rz-0871-s356
+    zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, gelten als grössere Unternehmen im Sinne des Rechnungslegungsrechts
   - quelle: hwp-bur-2023__rz-0876-s356
     zitat: periodengerecht im Aufwand erfassten Honorare (Accrual-Prinzip)
   - quelle: hwp-bur-2023__rz-0877-s357

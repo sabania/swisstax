@@ -1,4 +1,4 @@
-# Werte Kategorie wesentlichkeit – je Wert Fundstelle (quelle/zitat).
+# Werte Kategorie wesentlichkeit – je Wert Fundstelle (quelle/zitat). Erfasst 2026-11-13.
 werte:
 - key: ser_wesentlichkeit_bezugsgroesse_gewinn
   bezeichnung: 'Wesentlichkeit: übliche Bezugsgrösse'
@@ -66,8 +66,9 @@ werte:
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
-  bemerkung: 'SER 5.3: übrige Fehlaussagen laufend in einer Zusammenstellung nachführen; Korrekturvorschlag an die Unternehmensleitung; bei Verweigerung beurteilen, ob modifizierte Prüfungsaussage
-    (Entscheid WP). Prozentsatz: HWP ER Rz 51.'
+  bemerkung: 'SER 5.3: übrige Fehlaussagen laufend in einer Zusammenstellung nachführen; Korrekturvorschlag an die Unternehmensleitung; bei Verweigerung beurteilen, ob modifizierte Prüfungsaussage.
+    Prozentsatz: HWP ER Rz 51. Rollen: Agent führt nur die Zusammenstellung der Fehlaussagen und hält Buchungsvorschläge «als Notiz, ohne Verbuchung» fest (konzept-ki-revisionsagent-2026__c015-1);
+    Korrekturvorschlag an die Unternehmensleitung, Beurteilung und Unterzeichnung durch den WP; kein Kundenversand, keine Buchungen durch den Agenten.'
   quelle: ser-2022__5-3
   zitat: mit Ausnahme jener, die derart gering sind, dass auch ihre Summe voraussichtlich unwesentlich sein wird (Nichtaufgriffsgrenze)
   status: agent-geprueft
@@ -180,28 +181,30 @@ werte:
   einheit: Text
   gilt: Konzept consis 26.10.2026 (Testphase 1)
   kategorie: wesentlichkeit
-  bemerkung: 'Konzept consis: der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie; passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen → Pendenz. Gesamtwesentlichkeit
-    = Massstab für wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1).'
+  bemerkung: 'Konzept consis: «Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie» (gleicher Chunk); passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen → Pendenz.
+    Gesamtwesentlichkeit = Massstab für wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1).'
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: revio 4.0 berechnet sie aus einer gewählten Bezugsgrösse, einem Prozentsatz und einer Begründung.
   status: agent-geprueft
 - key: konzept_toleranzwesentlichkeit_75
   bezeichnung: Toleranzwesentlichkeit consis (revio 3.3)
   wert: '75'
-  einheit: '%'
+  einheit: '% (Basis im Konzept nicht genannt; sinngemäss der Gesamtwesentlichkeit, HWP ER Rz 50/51)'
   gilt: Konzept consis 26.10.2026 (Testphase 1)
   kategorie: wesentlichkeit
-  bemerkung: Interne Festlegung consis, liegt am oberen Ende der Bandbreite HWP ER Rz 50 (50–75 % der Gesamtwesentlichkeit).
+  bemerkung: Interne Festlegung consis; das Konzept nennt die Bezugsbasis nicht. Sinngemäss % der Gesamtwesentlichkeit, oberes Ende der Bandbreite HWP ER Rz 50 (50–75 %, hwp-er-2026__rz-0050-s187).
+    Massgebend ist der in revio 3.3 erfasste Wert; «Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie» (gleicher Chunk); Abweichungen entscheidet der WP.
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
   status: agent-geprueft
 - key: konzept_nichtaufgriffsgrenze_5
   bezeichnung: Nichtaufgriffsgrenze consis (revio 3.3)
   wert: '5'
-  einheit: '%'
+  einheit: '% (Basis im Konzept nicht genannt; sinngemäss der Gesamtwesentlichkeit, HWP ER Rz 50/51)'
   gilt: Konzept consis 26.10.2026 (Testphase 1)
   kategorie: wesentlichkeit
-  bemerkung: Interne Festlegung consis, entspricht dem Höchstwert nach HWP ER Rz 51 (bis 5 % der Gesamtwesentlichkeit).
+  bemerkung: Interne Festlegung consis; das Konzept nennt die Bezugsbasis nicht. Sinngemäss % der Gesamtwesentlichkeit, Höchstwert nach HWP ER Rz 51 (bis 5 %, hwp-er-2026__rz-0051-s187).
+    Massgebend ist der in revio 3.3 erfasste Wert; «Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie» (gleicher Chunk); Abweichungen entscheidet der WP.
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
   status: agent-geprueft
