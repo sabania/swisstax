@@ -76,9 +76,14 @@ aussagen:
     Naheliegende Erfahrungswerte sind die Debitorenverluste der Vorjahre (Agentenvorschlag; vgl. revio-Kennzahl C1-207 «Debitorenverluste in % vom Umsatz»).'
   quelle: hwp-bur-2023__rz-0120-s186
   zitat: Die pauschale Wertberichtigung ist aufgrund von Erfahrungen aus der Vergangenheit und unter Berücksichtigung der erwarteten Entwicklung zu quantifizieren.
+- text: Erstellt das Unternehmen zusätzlich einen Abschluss nach einem anerkannten Standard, der eine Pauschalwertberichtigung für erwartete Verluste verlangt, darf das Delkredere nach
+    OR nicht tiefer sein; die Pauschalwertberichtigung ist zu übernehmen (HWP BuR Rz 439). Modelle für erwartete Verluste (expected credit losses) sind auch nach OR zulässig ^[hwp-bur-2023__rz-0120-s186].
+  quelle: hwp-bur-2023__rz-0439-s248
+  zitat: ist ein tieferes Delkredere unter OR als unter dem anerkannten Standard zur Rechnungslegung nicht mit dem Vorsichtsprinzip nach Art. 958c Abs. 1 Ziff. 5 OR vereinbar
 - text: 'ESTV-Pauschale, nur steuerliche Praxis: Gemäss HWP BuR Rz 437 lässt die ESTV für das allgemeine Kreditrisiko nach Abzug der Einzelwertberichtigungen 5 % auf inländischen und
-    10 % auf ausländischen Guthaben zu. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen. Eine ESTV-Primärquelle fehlt im Wiki; das
-    HWP gibt die Praxis nur wieder.'
+    10 % auf ausländischen Guthaben zu. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen. Steuerliche Rechtsgrundlage (juristische
+    Personen) ist DBG Art. 63 Abs. 1 Bst. b ^[dbg__art-63]. Die Sätze 5 %/10 % stehen nicht im DBG; sie sind ESTV-Praxis und im Wiki nur über HWP BuR Rz 437 und EF 2026/08 belegt. Handelsrechtlich
+    bleibt das Delkredere eine Wertberichtigung auf der Aktivseite, auch wenn das DBG von Rückstellungen spricht ^[hwp-bur-2023__rz-0113-s185].'
   quelle: hwp-bur-2023__rz-0437-s248
   zitat: auf inländischen Guthaben (ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und Forderungen mit voller Deckung) eine pauschale Wertberichtigung von 5 % und
     auf ausländischen von 10 % zu
@@ -103,11 +108,9 @@ aussagen:
     Reserven, «soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird» ^[or__art-959c-t1].'
   quelle: hwp-bur-2023__rz-0671-s297
   zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
-- text: 'Prüfungsumfang (SER 6.1.1, massgebend): Bei wesentlichen Jahresabschlussposten darf sich der Prüfer nicht ausschliesslich auf Befragungen stützen; die Antworten sind mit analytischen
-    Prüfungshandlungen und/oder angemessenen Detailprüfungen zu ergänzen. «Wesentlich» bezieht sich hier auf die Toleranzwesentlichkeit: «Der Begriff der Wesentlichkeit bezieht sich
-    in diesem Zusammenhang auf die sogenannte Toleranzwesentlichkeit» ^[hwp-er-2026__rz-0105-s198]; «Der Abschlussprüfer ergänzt in diesen Situationen die erhaltenen Antworten mittels
-    analytischer und/oder angemessener Detailprüfungen.» ^[hwp-er-2026__rz-0105-s198] Die empfohlenen Prüfungshandlungen nach Anhang D sind «in der Regel und sofern anwendbar – für die
-    wesentlichen Positionen der Jahresrechnung» durchzuführen ^[ser-2022__6-2-2].'
+- text: 'Prüfungsumfang (SER 6.1.1): Sind die Forderungen LuL höher als die Toleranzwesentlichkeit (revio 3.3, nur lesen), genügen Befragungen allein nicht; analytische Prüfungshandlungen
+    (C1-2xx) und/oder Detailprüfungen (C1-3xx) sind nötig. «Da die Kundenforderungen grösser sind als die Toleranzwesentlichkeit, darf die Bilanzposition nicht nur mit Befragungen geprüft
+    werden.» ^[hwp-er-2026__rz-0105-s198]'
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
 - text: 'SER Anhang D c), empfohlene Befragungen: die Debitoren-OP-Liste durchsehen und nach Gründen für alte und ungewöhnlich hohe Ausstände sowie für Habensalden fragen (revio C1-101/C1-202).
@@ -177,26 +180,31 @@ agent:
   als Kriterium erst nach Vorgabe des WP bzw. Entscheid consis verwenden ^[konzept-ki-revisionsagent-2026__c015-2]. (2) PWB auf dem Rest gegen die Erfahrungen der Vorjahre, die Altersstruktur
   und die Befragungsergebnisse plausibilisieren ^[ser-2022__anh-d-s075-2]; die PWB beruht auf Erfahrungen aus der Vergangenheit und der erwarteten Entwicklung ^[hwp-bur-2023__rz-0120-s186].
   Eignung und stetige Anwendung der Bewertungsmethode im Textfeld festhalten ^[hwp-er-2026__rz-0397-s273]. (3) Sicherheiten berücksichtigen; bei Kredit- oder Exportrisikoversicherung
-  deckt das Delkredere nur den unversicherten Teil ^[hwp-bur-2023__rz-0438-s248].'
-- Die ESTV-Pauschale (5 % Inland, 10 % Ausland) immer als «steuerliche Praxis» bezeichnen. Fundstelle ist HWP BuR Rz 437 und sekundär EF 2026/08 (Fachartikel); ein ESTV-Merkblatt ist
-  nicht im Wiki. HWP BuR 2023 erwähnt abweichende kantonale Sätze, z.B. ZH 10 %/20 % ^[hwp-bur-2023__rz-0437-s248]. Diese Sätze sind für das Geschäftsjahr nicht bestätigt und dürfen
-  nicht als geltend verwendet werden. Höhere Sätze erkennt die Steuer laut EF 2026/08 nur mit konkretem Nachweis an ^[ef-2026-08-buchungslogik__s005-1].
+  deckt das Delkredere nur den unversicherten Teil ^[hwp-bur-2023__rz-0438-s248]. (4) Erstellt der Kunde zusätzlich einen Abschluss nach einem anerkannten Standard (z.B. Konzern-Reporting):
+  Delkredere OR ≥ Delkredere nach Standard? Ist es tiefer, die Differenz mit `rechne` ermitteln und wie eine Unterdeckung behandeln (unter der Nicht-Aufgriffsgrenze nur protokollieren,
+  sonst Notiz «Wesentliche Feststellungen») ^[hwp-bur-2023__rz-0439-s248].'
+- 'Die ESTV-Pauschale (5 % Inland, 10 % Ausland) immer als «steuerliche Praxis» bezeichnen. Fundstelle ist HWP BuR Rz 437 und sekundär EF 2026/08 (Fachartikel); die Sätze stehen in keiner
+  amtlichen Quelle des Wikis (steuerliche Grundlage: DBG Art. 63 Abs. 1 Bst. b ^[dbg__art-63]). HWP BuR 2023 erwähnt abweichende kantonale Sätze, z.B. ZH 10 %/20 % ^[hwp-bur-2023__rz-0437-s248].
+  Diese Sätze sind für das Geschäftsjahr nicht bestätigt und dürfen nicht als geltend verwendet werden. Höhere Sätze erkennt die Steuer laut EF 2026/08 nur mit konkretem Nachweis an
+  ^[ef-2026-08-buchungslogik__s005-1].'
 - 'Bis consis entschieden hat (Methode, stille Reserven, Altersgrenze «alt»), legt der Agent beide Werte offen: den betriebswirtschaftlich hergeleiteten Bedarf und das gebuchte Delkredere
   bzw. die ESTV-Pauschale ^[konzept-ki-revisionsagent-2026__c015-2]. Die Differenz mit `rechne` quantifizieren. Ist das Delkredere tiefer als der Bedarf, ist das eine mögliche Überbewertung:
   Liegt die Differenz unter der Nicht-Aufgriffsgrenze, nur protokollieren (ausser bei erfassten qualitativen Faktoren); sonst Notiz «Wesentliche Feststellungen» mit Betrag und begründetem
   Buchungsvorschlag, ohne Verbuchung ^[konzept-ki-revisionsagent-2026__c014-1] ^[konzept-ki-revisionsagent-2026__c007-1]. Massstab ist die Gesamtwesentlichkeit; die Summe der nicht korrigierten
-  Fehler beurteilt der WP in 6.1 ^[konzept-ki-revisionsagent-2026__c014-1]. Ist das Delkredere höher, ist der Überhang eine stille Reserve und grundsätzlich keine Fehlaussage ^[hwp-bur-2023__rz-0056-s069]:
-  Bestand und Veränderung in C1-303/C1-321 festhalten und an A1-207/A1-308 sowie T1-305 weitergeben (Nettoauflösung im Anhang). Eine Altersgrenze legt der Agent nicht selbst fest; er
-  übernimmt die Vorgabe des WP oder erfasst eine Pendenz.'
+  Fehler beurteilt der WP in 6.1 ^[konzept-ki-revisionsagent-2026__c014-1]. Ist das Delkredere höher, ist der Überhang eine stille Reserve und grundsätzlich keine Fehlaussage ^[hwp-bur-2023__rz-0056-s069].
+  Bis zum Entscheid consis gilt: In C1-303 Bestand GJ/VJ und Veränderung mit `rechne` ermitteln und dokumentieren. In C1-321 nur Fakten festhalten (Abstimmung mit dem Detailnachweis
+  10.3, Methode stetig zum VJ ja/nein, Nettoauflösung ja/nein mit Betrag) und an T1-305 weitergeben. Ob die Reserve zulässig oder die Auflösung wesentlich ist, beurteilt der WP. Die
+  Zahlen gehen auch an A1-207/A1-308. Eine Altersgrenze legt der Agent nicht selbst fest; er übernimmt die Vorgabe des WP oder erfasst eine Pendenz.'
 - 'Befragungen (C1-101, C1-102, C1-104, C1-202) kann der Agent nicht selbst führen. Er wertet schriftliche Antworten aus (revio 10.11) oder erfasst die Frage als Pendenz; der Status
   ist dann höchstens «teilweise bearbeitet» ^[konzept-ki-revisionsagent-2026__c012-1]. Ab wann ein Schritt «vorbereitet» statt «teilweise bearbeitet» gilt, ist bei consis noch offen
   ^[konzept-ki-revisionsagent-2026__c015-2]. Vorgeschlagene Fragen: Gründe für alte, ungewöhnlich hohe Ausstände und Habensalden (C1-101)? Wie werden säumige Zahler identifiziert und
   Wertberichtigungen festgelegt (C1-104)? Sind Forderungen verpfändet, abgetreten oder zum Inkasso gegeben (C1-102) ^[ser-2022__anh-d-s075-1]?'
 - 'Zahlungen nach dem Stichtag: C1-309 (seit dem Bilanzstichtag erfolgte Zahlungen festhalten) und C1-310 (am Revisionsstichtag überfällige Guthaben) vorbereiten; sie stützen Vorhandensein
-  und Bewertung ^[hwp-er-2026__rz-0139-s204-t1] ^[hwp-er-2026__rz-0397-s273]. C1-304, C1-307 und C1-308 sind WP-Schritte (nur_mensch); im SER sind sie weiter gehende Prüfungshandlungen
-  (C1-307 ^[ser-2022__anh-d-s075-2]; C1-304 und C1-308 ^[ser-2022__anh-d-s076-1]). Ob der Agent WP-Schritte vorbereitet, ist offen ^[konzept-ki-revisionsagent-2026__c012-1]; bis zum
-  Entscheid nur auf ausdrückliche Anweisung des WP. Ist nach dem Stichtag ein Konkurs oder eine Zahlungsunfähigkeit eines Schuldners bekannt geworden, eine Notiz mit Buchungsvorschlag
-  erfassen (Wertberichtigung im alten Jahr) ^[hwp-bur-2023__rz-0864-s354], ohne Verbuchung.'
+  und Bewertung ^[hwp-er-2026__rz-0139-s204-t1] ^[hwp-er-2026__rz-0397-s273]. C1-304, C1-307 und C1-308 sind WP-Schritte (offener Entscheid consis ^[konzept-ki-revisionsagent-2026__c015-2]):
+  ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld (Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz); mit Anweisung als «Vorbereitung für WP» vorbereiten; die
+  Beurteilung macht immer der WP. Im SER sind sie weiter gehende Prüfungshandlungen (C1-307 ^[ser-2022__anh-d-s075-2]; C1-304 und C1-308 ^[ser-2022__anh-d-s076-1]). Ist nach dem Stichtag
+  ein Konkurs oder eine Zahlungsunfähigkeit eines Schuldners bekannt geworden, eine Notiz mit Buchungsvorschlag erfassen (Wertberichtigung im alten Jahr) ^[hwp-bur-2023__rz-0864-s354],
+  ohne Verbuchung.'
 - Debitorenbestätigungen (C1-401) gehören nicht zur SER ^[ser-2022__anh-d-s076-1] ^[hwp-er-2026__rz-0262-s085]. Weitergehende Handlungen wie Bestätigungen führt der Agent nur auf ausdrückliche
   Anweisung des WP aus ^[konzept-ki-revisionsagent-2026__c012-1].
 - 'Ausweis prüfen: Das Delkredere wird direkt oder indirekt bei den Forderungen abgesetzt, nie unter den Passiven ^[or__art-960a]. Wesentliche Habensalden gehören in die übrigen kurzfristigen

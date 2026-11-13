@@ -5,7 +5,7 @@ status: agent-geprueft
 nachpruefung:
   urteil: korrigieren
   befunde: 13
-  korrigiert: false
+  korrigiert: true
 stichworte:
 - Vollständigkeitserklärung
 - VE
@@ -63,16 +63,27 @@ aussagen:
     und zu unterzeichnen (SER Anhang E Ziff. 4).'
   quelle: ser-2022__anh-e-s102-1
   zitat: Der Abschlussprüfer ersucht die Unternehmensleitung, die Vollständigkeitserklärung ausdrücklich an ihn zu adressieren
+- text: 'Einleitung Beispiel 1: Die Unternehmensleitung anerkennt die Verantwortung des Verwaltungsrats für die Jahresrechnung und bestätigt, dass er sie zur Bekanntgabe an die GV gutgeheissen
+    hat. Sie bestätigt, dass die gesetzlichen Voraussetzungen für eine eingeschränkte Revision erfüllt sind; Gegenstand sind die Jahresrechnung und der Antrag über die Verwendung des
+    Bilanzgewinns (SER Anhang E, S. 103).'
+  quelle: ser-2022__anh-e-s103-1
+  zitat: Wir bestätigen, dass die gesetzlichen Voraussetzungen für eine eingeschränkte Revision erfüllt sind.
 - text: 'Inhalt gemäss Beispiel 1 (Auszug): Jahresrechnung entspricht Gesetz und Statuten und ist frei von wesentlichen Fehlaussagen; alle Informationen, Aufzeichnungen der Buchhaltung,
     Belege, Geschäftskorrespondenzen und Protokolle (GV/VR) wurden zur Verfügung gestellt und uneingeschränkter Zugang zu Personen gewährt; Grundsätze im Anhang korrekt; vertragliche
     und gesetzliche Vorschriften (z. B. direkte Steuern, MWST, Sozialversicherungen, Umweltschutz) eingehalten; Angaben zu nahestehenden Personen vollständig (SER Anhang E, S. 103).'
   quelle: ser-2022__anh-e-s103-2
   zitat: Wir haben Ihnen alle Informationen sowie sämtliche Aufzeichnungen der Buchhaltung, Belege und Geschäftskorrespondenzen [7] sowie die Protokolle aller Generalversammlungen
 - text: 'Weitere Standardbestätigungen in Beispiel 1: keine Pläne oder Ereignisse mit erheblichen Zweifeln an der Fortführung; Bildung, Auflösung und Bestand stiller Reserven im Einzelnen
-    mitgeteilt; Verfügungsberechtigung und Belastungen der Aktiven; alle Verbindlichkeiten und Eventualverbindlichkeiten erfasst bzw. offengelegt; wesentliche Ereignisse nach dem Bilanzstichtag
-    erfasst bzw. offengelegt, mit Mitteilungszusage bis zur Generalversammlung (SER Anhang E, S. 104).'
+    mitgeteilt; keine Pläne oder Absichten, die Bilanzierung, Bewertung oder Darstellung wesentlich ändern; Verfügungsberechtigung und Belastungen der Aktiven; alle Verbindlichkeiten
+    und Eventualverbindlichkeiten erfasst bzw. offengelegt; wesentliche Ereignisse nach dem Bilanzstichtag erfasst bzw. offengelegt, mit Mitteilungszusage bis zur Generalversammlung
+    (SER Anhang E, S. 104).'
   quelle: ser-2022__anh-e-s104-1
   zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt (Art. 959c Abs. 1 Ziff. 3 OR).
+- text: 'Weitere Standardpunkte Beispiel 1: Rechtsstreitigkeiten bestanden nicht bzw. sind in einer Beilage aufgeführt [9]/[10]; sämtliche Kreditvereinbarungen sind offengelegt und
+    ihre Bedingungen am Bilanzstichtag und im Zeitpunkt der VE eingehalten; nicht frei verwendbare Bestandteile des Eigenkapitals sind erfasst bzw. offengelegt [11, nur wenn gesetzlich
+    erforderlich]. Beilage: unterzeichnetes Exemplar der Jahresrechnung (SER Anhang E, S. 104; redaktionelle Erläuterungen [9]–[11]: ser-2022__anh-e-s105-1).'
+  quelle: ser-2022__anh-e-s104-2
+  zitat: Die entsprechenden Bedingungen waren am Bilanzstichtag – und sind zum Zeitpunkt dieser Vollständigkeitserklärung – eingehalten.
 - text: 'Mandatsspezifische Ergänzungen: Aufzunehmen sind Erklärungen zu jedem für die Jahresrechnung wesentlichen Sachverhalt, für den keine anderen ausreichenden geeigneten Prüfungsnachweise
     vorliegen; mögliche weitere Erklärungen betreffen z. B. Derivate, Umrechnungskurse, Absatzerfolgsrechnung oder Bewertung zu Marktpreisen (SER Anhang E, redaktionelle Erläuterung
     [12]).'
@@ -122,33 +133,40 @@ aussagen:
   quelle: hwp-er-2026__rz-0341-s260
   zitat: Der Abschlussprüfer muss die Prüfungsaussage somit einschränken, sofern eine Prüfungsaussage überhaupt abgegeben werden kann.
 agent:
-- 'revio: Prüfschritt A1-103 «Vollständigkeitserklärung besprechen und unterzeichnen lassen» ist ein Befragungsschritt. Der Agent bespricht nichts mit dem Kunden und holt keine Unterschrift
-  ein. Er bereitet nur vor, setzt den Status höchstens auf «teilweise bearbeitet» und lässt das Visum offen.'
+- 'revio: Prüfschritt A1-103 «Vollständigkeitserklärung besprechen und unterzeichnen lassen» ist ein Befragungsschritt. Der Agent bespricht nichts mit dem Kunden und holt keine
+  Unterschrift ein. Er bereitet nur vor, setzt den Status höchstens auf «teilweise bearbeitet» und lässt das Visum offen.'
 - 'Ablage: Unterzeichnete VE und unterzeichnete Jahresrechnung gehören in revio 10.4 «Jahresrechnung und Vollständigkeitserklärung» (konzept-ki-revisionsagent-2026__c006-2). Nach SER
   sind je eine unterzeichnete Jahresrechnung und VE Bestandteil der Jahresakten (ser-2022__7-2, hwp-er-2026__rz-0339-s259).'
-- 'Entwurf vorbereiten (nur auf Anweisung, als Vorschlag an den WP): Grundlage ist SER Anhang E Beispiel 1, S. 103 (Muster HWP ER Nr. 7). Für einen Zwischenabschluss zur Zwischendividende
-  gilt Beispiel 2, S. 107 (muster-hwp-er-2026__c012-1), für Art. 725a Abs. 2 OR Beispiel 3, S. 110 (muster-hwp-er-2026__c013-1). Platzhalter [1]–[15] nach den redaktionellen Erläuterungen
-  füllen: Firma, Revisionsstelle, Bilanzstichtag, verantwortliches Organ (ser-2022__anh-e-s105-1). Firma, Stichtag und Geschäftsjahr gegen den Mandatskontext prüfen. Den Entwurf nie
-  an den Kunden senden, sondern nur als Entwurf oder an die fixe WP-Adresse.'
-- 'Ergänzungen aus den Prüffeldern sammeln und als Vorschlag in der Notiz «Schlussbesprechung» erfassen: wesentliche Sachverhalte ohne andere ausreichende Nachweise ([12]), MWST-Baustein
-  [13] bei MWST-Risiken (M2), FinfraG bei Derivaten, Meldepflicht Inhaberaktien/GAFI, Rechtsstreitigkeiten als Beilage [9] (O1), Eventualverbindlichkeiten und Kreditvereinbarungen/Covenants
-  (L1/N1), nicht frei verwendbares Eigenkapital [11] (P1), Hinweis auf verdeckte Gewinnausschüttung oder Privatauslagen [8] (S1). Was aufgenommen wird, entscheidet der WP.'
-- 'Formelle Prüfung der eingegangenen VE: Ist sie an die Revisionsstelle adressiert, datiert, rechtsgültig unterzeichnet und von denselben Personen wie die Jahresrechnung unterschrieben
-  (VR-Präsident und für die Rechnungslegung zuständige Person, Art. 958 Abs. 3 OR; ser-2022__anh-e-s101-1)? Liegt die unterzeichnete Jahresrechnung bei? Ist der Text gegenüber dem Entwurf
-  unverändert, also ohne gestrichene Bestätigungen? Jede Abweichung als Pendenz erfassen. Gestrichene oder geänderte Bestätigungen zusätzlich als «Wesentliche Feststellung» erfassen.'
-- 'Datum: Das VE-Datum soll dem geplanten Berichtsdatum entsprechen und darf nicht vor der Unterzeichnung bzw. Genehmigung der Jahresrechnung liegen (ser-2022__8-6, hwp-er-2026__rz-0448-s287).
-  Der Agent datiert und unterzeichnet weder den Bericht noch die VE. Fehlt die VE vor der Berichtsabgabe, eine Pendenz und einen Punkt für die Schlussbesprechung erfassen.'
-- 'Prüfungsnachweise: Die VE in keinem Prüffeld als alleinigen Nachweis für wesentliche Positionen verwenden. Im Textfeld den eigentlichen Nachweis (M-Files-ID) nennen. Ausnahmen nach
-  SER bzw. HWP ER: Bestehen keine Zweifel an der Fortführung, genügt die Erklärung in der VE als Nachweis der Einschätzung (ser-2022__anh-g-s140-1). Für die Gesetzeskonformität bei Drittvergleich
-  genügt die VE allein nicht (hwp-er-2026__rz-0182-s218). Ereignisse nach dem Stichtag lässt man sich in der VE bestätigen (hwp-er-2026__rz-0323-s256), gleicht sie aber zusätzlich mit
-  Protokollen und Folgebuchungen ab.'
-- 'Rechtliche Bedeutung nicht überschätzen: Nach BGE 2005 ist eine wahrheitswidrige VE keine strafrechtliche Falschbeurkundung (hwp-er-2026__rz-0340-s259). Bei Hinweisen auf verschwiegene
-  Sachverhalte trotz VE (Seminarfall: camponovo-2026-hinweispflichten__s211-1) sofort eine «Wesentliche Feststellung» erfassen und an den WP eskalieren.'
-- 'Weigerung oder fehlende Erklärung: Nur als Feststellung und Pendenz melden. Ob eine Beschränkung des Prüfungsumfangs vorliegt und ob eine eingeschränkte Prüfungsaussage oder die Unmöglichkeit
-  einer Prüfungsaussage folgt (ser-2022__8-3-1-t4, Anhang F Beispiele 6/7), entscheidet allein der WP. Nur ergänzend (ordentliche Revision): Nach HWP OR liegt bei einer Weigerung ein
-  hinweispflichtiger Gesetzesverstoss gegen Art. 730b Abs. 1 OR vor (hwp-or-2024__rz-1389-s469). Ob das bei der SER gilt, entscheidet der WP.'
-- 'Auftragsphase: Die Auftragsbestätigung nach SER Anhang C kündigt die schriftliche Bestätigung der Auskünfte an (ser-2022__anh-c-s057-1). Fehlt dieser Passus in revio 2.2, als Hinweis
-  für den WP notieren (nur lesen, nicht ändern).'
+- 'Entwurf vorbereiten (Teil von A1-103, Vorschlag an den WP): Grundlage ist SER Anhang E Beispiel 1, S. 103 (Muster HWP ER Nr. 7). Für einen Zwischenabschluss zur Zwischendividende
+  gilt Beispiel 2, S. 107 (muster-hwp-er-2026__c012-1), für Art. 725a Abs. 2 OR Beispiel 3, S. 110 (muster-hwp-er-2026__c013-1). Platzhalter [1]–[15] nach den redaktionellen
+  Erläuterungen füllen: Firma, Revisionsstelle, Bilanzstichtag, verantwortliches Organ (ser-2022__anh-e-s105-1). Firma, Stichtag und Geschäftsjahr gegen den Mandatskontext prüfen. Den
+  Entwurf nie an den Kunden senden, nur als Entwurf oder an die fixe WP-Adresse (konzept-ki-revisionsagent-2026__c009-2).'
+- 'Inhalt des Entwurfs: (a) Standardpunkte von Beispiel 1 nicht streichen, sondern mit den Ergebnissen der Prüffelder abgleichen: Rechtsstreitigkeiten-Beilage [9] (O1),
+  Kreditvereinbarungen/Covenants eingehalten (L1/N1), Eventualverbindlichkeiten (T1), nicht frei verwendbares Eigenkapital [11] nur wenn gesetzlich erforderlich (P1), Voraussetzungen
+  der eingeschränkten Revision (Ergebnis `revisionspflicht`). (b) Ergänzungen als Vorschlag in der Notiz «Schlussbesprechung»: wesentliche Sachverhalte ohne andere ausreichende
+  Nachweise [12] (ser-2022__anh-e-s105-2), z.B. bei offenem Covid-19-Kredit: Bestätigung der Einhaltung von Art. 2 Abs. 2–4 Covid-19-SBüG (Entscheid WP; ersetzt die Kontendurchsicht
+  nicht; covid-sbueg__art-2-t1, `thema nahestehende personen`); MWST [13] (M2), FinfraG [14] bei Derivaten, GAFI/Meldepflicht [15], verdeckte Gewinnausschüttung/Privatauslagen in [8]
+  (S1). Was aufgenommen wird, entscheidet der WP.'
+- 'Formelle Prüfung der eingegangenen VE: Ist sie an die Revisionsstelle adressiert, datiert, rechtsgültig unterzeichnet und von denselben Personen wie die Jahresrechnung
+  unterschrieben (VR-Präsident und für die Rechnungslegung zuständige Person, Art. 958 Abs. 3 OR; ser-2022__anh-e-s101-1)? Liegt die unterzeichnete Jahresrechnung bei? Ist der Text
+  gegenüber dem Entwurf unverändert, also ohne gestrichene Bestätigungen? Jede Abweichung als Pendenz erfassen. Gestrichene oder geänderte Bestätigungen zusätzlich als Notiz
+  «Schlussbesprechung» erfassen.'
+- 'Datum: Das VE-Datum soll dem geplanten Berichtsdatum entsprechen und darf nicht vor der Unterzeichnung bzw. Genehmigung der Jahresrechnung liegen (ser-2022__8-6,
+  hwp-er-2026__rz-0448-s287). Der Agent datiert und unterzeichnet weder den Bericht noch die VE. Fehlt die VE vor der Berichtsabgabe, eine Pendenz und einen Punkt für die
+  Schlussbesprechung erfassen.'
+- 'Prüfungsnachweise: Die VE in keinem Prüffeld als alleinigen Nachweis für wesentliche Positionen verwenden. Im Textfeld den eigentlichen Nachweis (M-Files-ID) nennen. Ausnahme (SER
+  Anhang G): Bestehen keine Zweifel an der Fortführung, genügt die Erklärung in der VE als Nachweis der Einschätzung (ser-2022__anh-g-s140-1). Keine Ausnahme: Für die
+  Gesetzeskonformität von Aktionärsdarlehen (Drittvergleich) genügt die VE allein nicht (hwp-er-2026__rz-0182-s218). Ereignisse nach dem Stichtag lässt man sich in der VE bestätigen
+  (hwp-er-2026__rz-0323-s256), gleicht sie aber zusätzlich mit Protokollen und Folgebuchungen ab.'
+- 'Rechtliche Bedeutung nicht überschätzen: Nach BGE 2005 ist eine wahrheitswidrige VE keine strafrechtliche Falschbeurkundung (hwp-er-2026__rz-0340-s259). Bei Hinweisen auf
+  verschwiegene Sachverhalte trotz VE (Seminarfall: camponovo-2026-hinweispflichten__s211-1) Notiz «Wesentliche Feststellungen» (Sachverhalt mit möglicher Auswirkung auf die
+  Jahresrechnung, Beleg M-Files-ID) und Notiz «Schlussbesprechung» erfassen.'
+- 'Weigerung oder fehlende Erklärung: VE fehlt oder ist nicht unterzeichnet → Notiz «Pendenz» (Dokument, angefragt am, benötigt bis). Weigerung oder gestrichene Bestätigung → Notiz
+  «Schlussbesprechung» und Vermerk im Textfeld A1-103. Ob eine Beschränkung des Prüfungsumfangs vorliegt und ob eine eingeschränkte Prüfungsaussage oder die Unmöglichkeit einer
+  Prüfungsaussage folgt (ser-2022__8-3-1-t4, Anhang F Beispiele 6/7), entscheidet allein der WP. Ob zusätzlich ein Hinweis im Bericht nötig ist, entscheidet der WP (empfohlene Hinweise
+  bei der eingeschränkten Revision: HWP ER Abb. 50, hwp-er-2026__rz-0425-s280-t1).'
+- 'Auftragsphase: Die Auftragsbestätigung nach SER Anhang C kündigt die schriftliche Bestätigung der Auskünfte an (ser-2022__anh-c-s057-1). Fehlt dieser Passus in revio 2.2, als
+  Hinweis für den WP notieren (nur lesen, nicht ändern).'
 prueffelder:
 - A1
 - T1

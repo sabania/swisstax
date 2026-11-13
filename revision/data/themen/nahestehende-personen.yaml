@@ -5,7 +5,7 @@ status: agent-geprueft
 nachpruefung:
   urteil: korrigieren
   befunde: 11
-  korrigiert: false
+  korrigiert: true
 stichworte:
 - nahestehende Personen
 - Nahestehende
@@ -41,9 +41,17 @@ stichworte:
 - Formular 102
 - verdecktes Eigenkapital
 - Vollständigkeitserklärung
-kurz: Forderungen und Verbindlichkeiten gegenüber Beteiligten, Organen und Beteiligungsunternehmen sind gesondert in Bilanz oder Anhang auszuweisen (Art. 959a Abs. 4 OR). Der Prüfer
-  identifiziert Nahestehende und prüft Ausweis und Konditionen im Drittvergleich; ESTV-Zinssätze 2026 sind steuerliche Praxis (safe haven). Nicht marktkonforme Leistungen sind verdeckte
-  Gewinnausschüttungen (Art. 678 OR); ungedeckte Aktionärsdarlehen ohne Drittvergleich verletzen Art. 680 Abs. 2 OR.
+- Covid-19-SBüG
+- Solidarbürgschaft
+- Covid Darlehen Gesellschafter
+- Art. 2 Covid-19-SBüG
+- Art. 23 Covid-19-SBüG
+kurz: 'Forderungen und Verbindlichkeiten gegenüber Beteiligten, Organen und Beteiligungsunternehmen sind gesondert in Bilanz oder Anhang auszuweisen (Art. 959a Abs. 4 OR). Der Prüfer
+  identifiziert Nahestehende und prüft Ausweis und Konditionen im Drittvergleich; ESTV-Zinssätze 2026 sind steuerliche Praxis (safe haven). Leistungen an Beteiligte oder Nahestehende
+  ohne angemessene Gegenleistung sind verdeckte Gewinnausschüttungen (HWP ER, Ermessen beim WP). Ungerechtfertigt bezogene Leistungen bzw. Geschäfte mit offensichtlichem Missverhältnis
+  sind zurückzuerstatten (Art. 678 Abs. 1/2 OR). Aktionärsdarlehen, die weder durch freies Eigenkapital gedeckt sind noch dem Drittvergleich standhalten, verletzen Art. 680 Abs. 2
+  OR. Bei offenem Covid-19-Kredit sind die Gewährung von Darlehen an Gesellschafter/Nahestehende und die Rückzahlung ihrer Darlehen sowie Dividenden, Tantiemen und Rückerstattungen
+  von Kapitaleinlagen ausgeschlossen (Art. 2 Abs. 2 Bst. a/b Covid-19-SBüG).'
 aussagen:
 - text: 'Begriff (HWP ER): Wer als nahestehende Person gilt, richtet sich primär nach den massgeblichen Rechnungslegungsgrundsätzen. Sind diese minimal oder nicht definiert, gelten in
     der Regel als nahestehend: (a) wer unmittelbar oder mittelbar Beherrschung oder massgeblichen Einfluss auf die Einheit ausübt (z.B. Konzernobergesellschaft, Eigentümer, Mehrheitsaktionär),
@@ -76,20 +84,36 @@ aussagen:
     die Befragung zu Darlehen gegenüber Beteiligten und Organen (ser-2022__anh-d-s085-1).'
   quelle: ser-2022__anh-d-s077-1
   zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
-- text: 'Vollständigkeitserklärung (SER Anhang E): Das Muster enthält die Bestätigung der Unternehmensleitung, dass die Informationen zur Identifizierung nahestehender Personen vollständig
-    sind und der Ausweis von Guthaben und Verbindlichkeiten gegenüber Nahestehenden (Art. 959a Abs. 4 OR) vollständig und richtig ist.'
-  quelle: ser-2022__anh-e-s111-1
+- text: 'Vollständigkeitserklärung (SER Anhang E, Beispiel 1, S. 103): Das Muster enthält die Bestätigung der Unternehmensleitung, dass die Informationen zur Identifizierung nahestehender
+    Personen vollständig sind und der Ausweis von Guthaben und Verbindlichkeiten gegenüber Nahestehenden (Art. 959a Abs. 4 OR) vollständig und richtig ist.'
+  quelle: ser-2022__anh-e-s103-2
   zitat: Die Ihnen gegebenen Informationen zur Identifizierung nahestehender Personen sind vollständig, und der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen
 - text: 'Konditionen / Drittvergleich (HWP ER): Zu beurteilen ist u.a., ob der Zinssatz den Marktkonditionen für den Darlehensnehmer entspricht (Währung/Leitzins, Risikozu- oder -abschläge
     für Bonität, besondere Bedingungen), ob Laufzeit, Kündigungsmöglichkeit, Rückzahlungspflichten und Sicherheiten marktüblich sind. Auch steuerlich akzeptierte Zinssätze sind nach
     diesen Kriterien zu beurteilen, d.h. ein ESTV-konformer Satz ist am Markt zu messen.'
   quelle: hwp-er-2026__rz-0176-s217
   zitat: Auch steuerlich akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen.
-- text: 'Steuerliche Praxis (ESTV-Rundschreiben vom 29.01.2026): Unverzinsliche oder ungenügend verzinste Vorschüsse/Darlehen an Beteiligte oder ihnen nahestehende Dritte sowie übersetzte
-    Zinsen auf Verpflichtungen gegenüber diesen sind geldwerte Leistungen. Sie unterliegen der Verrechnungssteuer von 35 % und sind mit Formular 102 unaufgefordert innert 30 Tagen nach
-    Fälligkeit zu deklarieren; dieselben Kriterien gelten für die direkte Bundessteuer (Art. 58 Abs. 1 Bst. b DBG).'
+- text: 'Bewertung (HWP BuR Rz 173): Für Forderungen gegenüber Nahestehenden gelten dieselben Bewertungsgrundsätze wie gegenüber Dritten. Der Bonitätsprüfung ist besondere Aufmerksamkeit
+    zu schenken (ggf. anhand der Jahresrechnung des Schuldners). Bei zweifelhafter Bonität ist eine angemessene Wertberichtigung zu bilden. Bei tief- oder unverzinslichen langfristigen
+    Forderungen mit erheblicher Differenz zwischen Nenn- und Barwert ist auf den Barwert wertzuberichtigen.'
+  quelle: hwp-bur-2023__rz-0173-s195
+  zitat: Für die Bewertung von Forderungen gegenüber nahestehenden Personen sind dieselben Grundsätze anzuwenden wie bei Forderungen gegenüber Dritten.
+- text: 'Steuerliche Praxis (ESTV-Rundschreiben 2-218-DV-2026 vom 29.01.2026): Unverzinsliche oder ungenügend verzinste Vorschüsse/Darlehen an Beteiligte oder ihnen nahestehende Dritte
+    sowie übersetzte Zinsen auf Verpflichtungen gegenüber diesen sind geldwerte Leistungen. Sie unterliegen der Verrechnungssteuer von 35 % und sind mit Formular 102 unaufgefordert innert
+    30 Tagen nach Fälligkeit zu deklarieren; dieselben Kriterien gelten für die direkte Bundessteuer (Art. 58 Abs. 1 Bst. b DBG).'
   quelle: estv-zinsen-2026__s001-1
   zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+- text: 'Verrechnungssteuer (Gesetz): Steuerbarer Ertrag ist jede geldwerte Leistung der Gesellschaft an die Inhaber der Beteiligungsrechte oder an ihnen nahestehende Dritte, die nicht
+    Rückzahlung von einbezahltem Grund- oder Stammkapital ist (Art. 20 Abs. 1 VStV; Art. 4 Abs. 1 Bst. b VStG, vstg__art-4). Die Steuer beträgt 35 % (Art. 13 Abs. 1 Bst. a VStG,
+    vstg__art-13) und ist auf den Empfänger zu überwälzen (Art. 14 Abs. 1 VStG, vstg__art-14). Sie ist innert 30 Tagen nach Fälligkeit mit amtlichem Formular zu entrichten (Art.
+    21 Abs. 2 VStV, vstv__art-21-t2); danach ist ohne Mahnung Verzugszins geschuldet (Art. 16 Abs. 2 VStG, vstg__art-16).'
+  quelle: vstv__art-20
+  zitat: jede geldwerte Leistung der Gesellschaft oder Genossenschaft an die Inhaber gesellschaftlicher Beteiligungsrechte oder an ihnen nahestehende Dritte
+- text: 'Bilanzierung (HWP BuR Rz 183): Erfüllen Darlehen oder Forderungen an Nahestehende den Tatbestand steuerbarer geldwerter Leistungen, sind die zu erwartenden Steuernachforderungen
+    (Gewinnsteuer, VSt) zu berücksichtigen. Die VSt ist auf die Begünstigten zu überwälzen; unterbleibt das, belastet sie die Gesellschaft mit 53,8 % (Aufrechnung ins Hundert). Details:
+    `thema verdecktes eigenkapital`.'
+  quelle: hwp-bur-2023__rz-0183-s199-t1
+  zitat: sind die allenfalls zu erwartenden Steuernachforderungen zu berücksichtigen
 - text: 'Steuerliche Praxis 2026 – Mindestzins für Vorschüsse AN Beteiligte oder nahestehende Dritte (in CHF, ab 1.1.2026 gemäss estv-zinsen-2026__s001-2): ¾ %, wenn aus Eigenkapital
     finanziert und kein Fremdkapital verzinst werden muss; aus Fremdkapital finanziert: Selbstkosten zuzüglich ¼–½ %, mindestens ¾ % (Zuschlag gemäss Fussnote: ½ % bis und mit CHF 10
     Mio., ¼ % über CHF 10 Mio., estv-zinsen-2026__s002-2). Tabelle im Chunk durch PDF-Layout zerrissen; Zuordnung gegen raw/estv-zinsen-2026.pdf S. 2 geprüft.'
@@ -102,12 +126,22 @@ aussagen:
     gegen raw/estv-zinsen-2026.pdf S. 2 geprüft; übereinstimmend Treuhand-Almanach Spalte 2026 (treuhand-almanach-2026__s065-1, sekundär).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Diese Zinssätze gelten als „safe haven“. Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+- text: 'Steuerliche Praxis 2026 – Fremdwährungen (ESTV-RS 2-219-DV-2026 vom 30.01.2026, estv-rs-2-219-2026__s001-1): Richtwerte je Währung (Tabelle S. 3, Spalte 2026, z.B. EUR 2.50
+    %, USD 4.00 %, GBP 4.00 %, estv-rs-2-219-2026__s003-1). Liegt der Satz der Fremdwährung unter dem CHF-Satz, gilt für Darlehen an Beteiligte mindestens der CHF-Satz. Bei verzinslichem
+    Fremdkapital gelten Selbstkosten + ½ %, mindestens Tabellensatz.'
+  quelle: estv-rs-2-219-2026__s002-1
+  zitat: so ist mindestens der entsprechende Zinssatz für Schweizer Franken zu berücksichtigen
 - text: 'Verdeckte Gewinnausschüttung (HWP ER): Sie liegt vor, wenn die Gesellschaft Leistungen ohne (angemessene) Gegenleistung erbringt – eine geldwerte Leistung an Gesellschafter
     oder ihnen Nahestehende, die einem unbeteiligten Dritten nicht erbracht würde («Arm’s-length»-Prinzip). Die Erfolgsrechnung enthält zu hohe Aufwendungen und/oder zu geringe Erträge
     (Gewinnvorwegnahme); bei der Beurteilung besteht in der Praxis ein erheblicher Ermessensspielraum.'
   quelle: hwp-er-2026__rz-0163-s212
   zitat: Es handelt sich um eine geldwerte Leistung, die eine Gesellschaft ihren Gesellschaftern oder diesen nahestehenden Personen erbringt, einem unbeteiligten Dritten unter gleichen
     Umständen aber nicht erbringen würde
+- text: 'Rückerstattung (Gesetz, Art. 678 OR): Aktionäre, VR-Mitglieder, mit der Geschäftsführung befasste Personen, Beiratsmitglieder und ihnen Nahestehende müssen ungerechtfertigt
+    bezogene Leistungen zurückerstatten (Abs. 1). Bei Rechtsgeschäften mit diesen Personen besteht die Rückerstattungspflicht, soweit ein offensichtliches Missverhältnis zwischen Leistung
+    und Gegenleistung besteht (Abs. 2).'
+  quelle: or__art-678
+  zitat: Aktionäre, Mitglieder des Verwaltungsrats, mit der Geschäftsführung befasste Personen und Mitglieder des Beirats sowie ihnen nahestehende Personen sind zur Rückerstattung
 - text: 'Vorgehen bei offensichtlicher und wesentlicher vGA (HWP ER): schriftliche Mitteilung der Revisionsstelle an den VR; Beurteilung der Rückerstattung nach Art. 678 OR (Wille des
     VR zur Rückforderung, Wille und Fähigkeit des Empfängers → Forderung verbuchen bzw. wertberichtigen). Ist der VR nicht willens, die Forderung einzutreiben, folgt ein Hinweis auf
     Verstoss gegen Art. 678 Abs. 1 OR im Bericht. Fehlten frei verfügbare und ausschüttbare Mittel, liegt zudem eine verdeckte Kapitalrückzahlung vor (Hinweis Art. 680 Abs. 2 OR, hwp-er-2026__rz-0164-s212-t2).'
@@ -116,7 +150,7 @@ aussagen:
     678 Abs. 1 OR
 - text: 'Kapitalrückzahlung (Gesetz): Art. 680 Abs. 2 OR schliesst ein Recht des Aktionärs auf Rückforderung des eingezahlten Betrags aus (Verbot der Einlagenrückgewähr). Darlehen an
     Aktionäre und ihnen Nahestehende sind grundsätzlich zulässig, sofern der Gesellschaftszweck die Kreditgewährung nicht ausschliesst und die Kapitalschutzbestimmungen eingehalten sind
-    (hwp-er-2026__rz-0166-s215).'
+    (hwp-er-2026__rz-0166-s215). Ein Verstoss führt zur Nichtigkeit des Darlehensvertrags (HWP BuR Rz 176, hwp-bur-2023__rz-0176-s196-t3).'
   quelle: or__art-680
   zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
 - text: 'Beurteilung Einlagenrückgewähr (HWP ER; GmbH: Art. 793 Abs. 2 OR): Das freie Eigenkapital (gesamtes Eigenkapital abzüglich einbezahltes Aktienkapital; stille Reserven netto
@@ -141,6 +175,17 @@ aussagen:
   quelle: hwp-er-2026__rz-0170-s216
   zitat: Bestehen Aktionärs- bzw. Konzerndarlehen, die einem Drittvergleich nicht standhalten, führt dies zu einer Sperrung von frei verfügbarem Eigenkapital im gesamten Umfang dieser
     Darlehen.
+- text: 'Covid-19-Kredite (Covid-19-SBüG, gilt bis 31.12.2032, Art. 31, covid-sbueg__art-31): Während der Dauer der Solidarbürgschaft sind ausgeschlossen: Dividenden und Tantiemen sowie
+    die Rückerstattung von Kapitaleinlagen (Art. 2 Abs. 2 Bst. a); die Gewährung von Darlehen und die Rückzahlung von Darlehen von Gesellschaftern oder nahestehenden Personen (Bst.
+    b). Zulässig bleibt die Erfüllung vorbestehender Verpflichtungen gegenüber verbundenen Gruppengesellschaften mit Sitz in der Schweiz. Die Solidarbürgschaft dauert höchstens acht
+    Jahre; bei erheblicher Härte kann die Amortisationsfrist auf höchstens zehn Jahre verlängert werden (Art. 3, covid-sbueg__art-3).'
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+- text: 'Pflicht der Revisionsstelle (Art. 23 Abs. 1 Covid-19-SBüG): Stellt sie bei der eingeschränkten oder ordentlichen Revision eine Verletzung von Art. 2 Abs. 2–4 fest, setzt sie
+    eine angemessene Frist. Wird der ordnungsgemässe Zustand nicht innert Frist hergestellt, informiert sie die Generalversammlung; stellt der VR ihn auch dann nicht unverzüglich her,
+    informiert sie die Bürgschaftsorganisation. Die Organe haften persönlich und solidarisch (Art. 22, covid-sbueg__art-22).'
+  quelle: covid-sbueg__art-23
+  zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
 - text: 'Folgen für die Prüfungsaussage (HWP ER): Werden wesentliche Transaktionen mit Nahestehenden nicht korrekt erfasst, bewertet und/oder offengelegt und von der Unternehmensleitung
     nicht korrigiert, folgt eine eingeschränkte oder – bei grundlegendem Einfluss auf das Gesamtbild – eine verneinende Prüfungsaussage (Musterberichte bei nicht gesondert ausgewiesenen
     Guthaben gegenüber Nahestehenden: muster-hwp-er-2026__c027-2, muster-hwp-er-2026__c037-2).'
@@ -161,27 +206,52 @@ agent:
 - 'Ausweis prüfen (T1-315): Die Forderungen und Verbindlichkeiten gegenüber Nahestehenden müssen in der Bilanz oder im Anhang je Position gesondert erscheinen, unterteilt in Beteiligte/Organe
   einerseits und Beteiligungsunternehmen andererseits (hwp-bur-2023__rz-0174-s195). Fehlt der Ausweis oder steckt ein Saldo z.B. in den LuL-Forderungen, erfasst der Agent eine Notiz
   «Wesentliche Feststellungen» mit Konto, Betrag und Fundstelle. Über eine Einschränkung oder eine verneinende Prüfungsaussage entscheidet der WP.'
-- 'Konditionen (D1-304, M1-407, SCH4-202): Den effektiven Zinssatz rechnet der Agent im Rechenmodul (`rechne`), nie im Kopf: Zins geteilt durch den durchschnittlichen Saldo. Er vergleicht
-  ihn mit dem ESTV-Rundschreiben 2026 und bezeichnet diesen Vergleich ausdrücklich als steuerliche Praxis (safe haven). Massstab ist handelsrechtlich der Drittvergleich. Liegt der Satz
-  bei Darlehen an Beteiligte unter ¾ % oder bei Darlehen von Beteiligten über dem Höchstsatz, erfasst er eine Notiz «Schlussbesprechung» oder «Wesentliche Feststellungen». Darin nennt
-  er die mögliche geldwerte Leistung (Verrechnungssteuer 35 %, Formular 102), ohne steuerlich abschliessend zu beurteilen.'
-- 'Zeitbezug der ESTV-Sätze: Das Rundschreiben gilt seit dem 1.1.2026 und nur für Darlehen in CHF. Für Geschäftsjahre oder Zeitabschnitte in 2025 liegt das ESTV-Rundschreiben 2025 nicht
-  im Wiki vor. Der Treuhand-Almanach (treuhand-almanach-2026__s065-1) ist nur eine Sekundärquelle, die Werte sind als «nicht primär bestätigt» zu kennzeichnen. Für Fremdwährungsdarlehen
-  sind keine Sätze im Wiki: Pendenz erfassen. Verdecktes Eigenkapital (N1-304) beurteilt der Agent nach ESTV-KS 6a (estv-ks-6a-2024__3-1), ebenfalls als steuerliche Praxis.'
-- 'Einlagenrückgewähr (D1-404, H2-404, P1-305): Das freie Eigenkapital (Eigenkapital minus einbezahltes Aktienkapital) und das Total der Forderungen mit Darlehenscharakter gegenüber
-  Aktionären (up-/cross-stream, inkl. Cash-Pool) rechnet der Agent im Rechenmodul. Verbindlichkeiten zieht er nur bei Verrechenbarkeit nach Art. 120 OR ab. Übersteigen die Forderungen
-  das freie Eigenkapital, fordert er die Drittvergleichs-Analyse des VR als Pendenz an. Fehlt sie, gilt der Drittvergleich als nicht gegeben (hwp-er-2026__rz-0182-s218); die Vollständigkeitserklärung
-  allein genügt nicht. Ob der Drittvergleich besteht, ist eine Ermessensfrage (hwp-er-2026__rz-0179-s218) und bleibt beim WP.'
+- 'Werthaltigkeit (D1-306 vorbereiten; H2-302 ist WP-Schritt): Für wesentliche Forderungen an Nahestehende Bonitätsnachweise aus M-Files suchen (Jahresrechnung des Schuldners,
+  Zahlungseingänge nach dem Stichtag) und als Beilage bereitlegen (hwp-bur-2023__rz-0173-s195). Fehlen sie → Notiz «Pendenz». Anzeichen zweifelhafter Bonität ohne Wertberichtigung →
+  Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung). Die Bonitätsbeurteilung in H2-302 trifft der WP.'
+- 'Konditionen (D1-304, SCH4-202 vorbereiten; M1-407 nur auf Anweisung des WP): 1. Zinssatz in % im Rechenmodul rechnen, nie im Kopf: Zins / ((Saldo Anfang + Saldo Ende) / 2) * 100,
+  z.B. `rechne "1000 / ((100000 + 140000) / 2) * 100"` → rund 0.83 (%). 2. Vergleichssatz für das Kalenderjahr holen, auf das der Zins entfällt: `wert zinssatz darlehen aktionär 2026`
+  bzw. `wert zinssatz darlehen aktionär 2025`. Nur Zeilen verwenden, deren Spalte «gilt» dieses Kalenderjahr nennt; fehlt eine Zeile, die Sätze aus Punkt 3 und 4 verwenden. Werte 2025
+  stammen nur aus dem Treuhand-Almanach (Sekundärquelle) → als «nicht primär bestätigt» kennzeichnen. 3. Darlehen AN Beteiligte/Nahestehende: 2026 mindestens ¾ % (2025: 1,00 %), nur
+  wenn aus Eigenkapital finanziert UND kein verzinsliches Fremdkapital. Hat die Gesellschaft verzinsliches Fremdkapital: Selbstkosten + ½ % (bis CHF 10 Mio.) bzw. + ¼ % (über CHF 10
+  Mio.), mindestens ¾ % (2025: mindestens 1,00 %) (estv-zinsen-2026__s002-1, estv-zinsen-2026__s002-2; treuhand-almanach-2026__s065-1). 4. Darlehen VON Beteiligten/Nahestehenden:
+  Höchstsatz nach Kreditart. 2026: Betriebskredit bis CHF 1 Mio. 3½ % (Handel/Fabrikation) bzw. 3 % (Holding/Vermögensverwaltung), ab CHF 1 Mio. 1½ % bzw. 1¼ % (2025: 1¾ % bzw. 1½ %,
+  Almanach); Liegenschaftskredit 1¼–2½ % je nach Rang und Nutzung. Für die Limite von CHF 1 Mio. die Kredite aller Beteiligten und Nahestehenden zusammenzählen
+  (estv-zinsen-2026__s002-1). Fremdwährung: siehe Punkt «Zeitbezug der ESTV-Sätze» (RS 2-219). 5. Satz ausserhalb → Notiz «Wesentliche Feststellungen» mit Konto, Betrag, Satz und
+  Fundstelle (mögliche geldwerte Leistung, VSt 35 %, Formular 102; Steuerrückstellung S1-401 nur auf Anweisung des WP). Immer als steuerliche Praxis (safe haven) bezeichnen;
+  handelsrechtlich gilt der Drittvergleich; keine abschliessende steuerliche Beurteilung.'
+- 'Zeitbezug der ESTV-Sätze: Massgebend ist das Kalenderjahr, auf das der Zins entfällt. CHF 2026: ESTV-Rundschreiben 2-218-DV-2026 vom 29.01.2026, gilt seit 1.1.2026
+  (estv-zinsen-2026__s001-1, estv-zinsen-2026__s001-2). Fremdwährung 2026: ESTV-Rundschreiben 2-219-DV-2026 vom 30.01.2026 (estv-rs-2-219-2026__s001-1, estv-rs-2-219-2026__s001-2);
+  Richtwert je Währung aus Spalte 2026 der Tabelle S. 3 (estv-rs-2-219-2026__s003-1, z.B. EUR 2.50 %, USD 4.00 %, GBP 4.00 %). An Beteiligte: Tabellensatz, mindestens aber der
+  entsprechende CHF-Satz; bei verzinslichem Fremdkapital Selbstkosten + ½ %, mindestens Tabellensatz (estv-rs-2-219-2026__s002-1). Von Beteiligten: Tabellensatz als safe haven, bei
+  Betriebskrediten zuzüglich Spread (bis Gegenwert CHF 1 Mio. 2.75 % bzw. 2.25 %, ab CHF 1 Mio. 0.75 % bzw. 0.50 %); die Wahl der Fremdwährung ist geschäftsmässig zu begründen
+  (estv-rs-2-219-2026__s002-2). 2025: kein ESTV-Rundschreiben im Wiki; CHF-Werte aus dem Treuhand-Almanach (treuhand-almanach-2026__s065-1) als «nicht primär bestätigt» kennzeichnen;
+  Fremdwährung 2025: Spalte 2025 derselben Tabelle (estv-rs-2-219-2026__s003-1, Rundschreiben 2026, nicht primär für 2025 bestätigt). Verdecktes Eigenkapital (N1-304) nach ESTV-KS 6a
+  (estv-ks-6a-2024__3-1), ebenfalls steuerliche Praxis.'
+- 'Einlagenrückgewähr (P1-305 vorbereiten; D1-404/H2-404 nur auf Anweisung des WP): Freies Eigenkapital = Eigenkapital − einbezahltes Aktienkapital (hwp-er-2026__rz-0167-s215); zuerst
+  ohne stille Reserven rechnen. Reicht es nicht, im Textfeld vermerken, dass netto stille Reserven (revio 10.3, nach latenten Steuern) angerechnet werden dürfen
+  (hwp-er-2026__rz-0167-s215). Für die Ausschüttung zählen nur offene Reserven (hwp-er-2026__rz-0172-s216). Das freie Eigenkapital und das Total der Forderungen mit Darlehenscharakter
+  gegenüber Aktionären (up-/cross-stream, inkl. Cash-Pool) rechnet der Agent im Rechenmodul. Verbindlichkeiten zieht er nur bei Verrechenbarkeit nach Art. 120 OR ab. Übersteigen die
+  Forderungen das freie Eigenkapital, fordert er die Drittvergleichs-Analyse des VR als Pendenz an. Fehlt sie, gilt der Drittvergleich als nicht gegeben (hwp-er-2026__rz-0182-s218);
+  die Vollständigkeitserklärung allein genügt nicht. Ob der Drittvergleich besteht, ist eine Ermessensfrage (hwp-er-2026__rz-0179-s218) und bleibt beim WP.'
 - 'Gewinnverwendung: Das ausschüttbare Eigenkapital rechnet der Agent nach Abbildung 31 (hwp-er-2026__rz-0170-s216) und vergleicht es mit dem Dividendenantrag. Wesentliche Ereignisse
   nach dem Bilanzstichtag (Forderungen, Eigenkapital, Liquidität) bezieht er ein (hwp-er-2026__rz-0185-s223). Das Ergebnis hält er als Notiz für den WP fest; die Berichtsfolgen nach
   Abbildung 32 (hwp-er-2026__rz-0184-s219-t1 bis -t6) entscheidet der WP.'
-- 'Verdeckte Gewinnausschüttung: Bezüge Nahestehender hält der Agent mit Vorjahresvergleich fest (R1-405), geldwerte Leistungen ebenso (S1-401). Anzeichen sind z.B. Privataufwand, übersetzte
-  Löhne, Honorare oder Mieten und Ertragsverzicht. Er erfasst sie als Notiz mit Beleg (M-Files-ID). Die schriftliche Mitteilung an den VR, die Beurteilung der Rückerstattung nach Art.
-  678 OR und Hinweise im Bericht sind Sache des WP.'
-- 'Vollständigkeitserklärung prüfen: Sie muss den Passus zu nahestehenden Personen und zu Art. 959a Abs. 4 OR enthalten (ser-2022__anh-e-s111-1). Eine verdeckte Gewinnausschüttung kann
-  eigens erwähnt werden (ser-2022__anh-e-s105-1). Fehlt der Passus, erfasst der Agent eine Pendenz.'
-- 'Grenzen: Den Wortlaut eines Hinweises nach SER Anhang F Nr. 14 entwirft der Agent höchstens als Notiz «Schlussbesprechung». Er setzt kein Visum und kein ✓, gibt keine abschliessende
-  Beurteilung ab und unterzeichnet oder datiert keinen Bericht. Ob ein Hinweis oder eine Modifizierung nötig ist, entscheidet der WP.'
+- 'Covid-19-Kredit (L1/N1/P1): Aufstellung der Covid-19-Kredite per Stichtag aus M-Files (siehe `prozess p6`). Ist ein verbürgter Kredit offen, die Konten der Darlehen an und von
+  Gesellschaftern/Nahestehenden (D1, H2, L1, M1, N1) und das Eigenkapital (P1) auf Neugewährungen, Rückzahlungen, Dividenden, Tantiemen und Rückerstattungen von Kapitaleinlagen im
+  Geschäftsjahr durchsehen. Treffer → Notiz «Wesentliche Feststellungen» mit Konto, Datum, Betrag und Fundstelle covid-sbueg__art-2-t1. Dividendenantrag trotz offenem Kredit →
+  zusätzlich Notiz «Schlussbesprechung». Fristsetzung und Information von GV und Bürgschaftsorganisation (Art. 23, covid-sbueg__art-23) entscheidet und veranlasst nur der WP (siehe
+  `aufgabe gvb-bericht`).'
+- 'Verdeckte Gewinnausschüttung: Anzeichen sind z.B. Privataufwand, übersetzte Löhne, Honorare oder Mieten und Ertragsverzicht. Der Agent erfasst sie als Notiz «Wesentliche
+  Feststellungen» mit Beleg (M-Files-ID). Bezüge Nahestehender mit Vorjahresvergleich (R1-405) und geldwerte Leistungen (S1-401) sind 4xx-Schritte: nur auf Anweisung des WP.
+  Steuerfolgen: Bei möglicher geldwerter Leistung im Textfeld des betroffenen Prüfschritts vermerken, ob eine Rückstellung bzw. Verbindlichkeit für VSt (inkl. Verzugszins) und
+  Gewinnsteuer gebildet ist; fehlt sie → Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag (ohne Verbuchung). Die schriftliche Mitteilung an den VR, die Beurteilung der
+  Rückerstattung nach Art. 678 OR und Hinweise im Bericht sind Sache des WP.'
+- 'Vollständigkeitserklärung prüfen: Sie muss den Passus zu nahestehenden Personen und zu Art. 959a Abs. 4 OR enthalten (ser-2022__anh-e-s103-2; nur beim Auftrag nach Art. 725a Abs. 2
+  OR: Beispiel 3, ser-2022__anh-e-s111-1). Eine verdeckte Gewinnausschüttung kann eigens erwähnt werden (ser-2022__anh-e-s105-1). Fehlt der Passus, erfasst der Agent eine Pendenz.'
+- 'Grenzen: Den Wortlaut eines Hinweises nach SER Anhang F Nr. 14 entwirft der Agent höchstens als Notiz «Schlussbesprechung» (Formulierungsbeispiel: hwp-er-2026__rz-0425-s280-t2 bzw.
+  ser-2022__anh-f-s132-2). Er setzt kein Visum und kein ✓, gibt keine abschliessende Beurteilung ab und unterzeichnet oder datiert keinen Bericht. Ob ein Hinweis oder eine
+  Modifizierung nötig ist, entscheidet der WP.'
 prueffelder:
 - A1
 - C1

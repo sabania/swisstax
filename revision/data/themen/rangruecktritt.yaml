@@ -48,9 +48,12 @@ stichworte:
 - Abtretung Rangrücktritt
 - Vertrag zugunsten Dritter
 - Opting-out
+- Covid-19-Kredit
+- Art. 24 Covid-19-SBüG
 kurz: Ein Rangrücktritt erlaubt dem VR bei Überschuldung, auf die Benachrichtigung des Gerichts zu verzichten, wenn Gläubiger im Ausmass der Überschuldung im Rang zurücktreten und Betrag
   und Zinsen während der Dauer der Überschuldung stunden (Art. 725b Abs. 4 Ziff. 1 OR). Nach HWP ER muss er schriftlich, unbedingt, unwiderruflich und unbefristet sein. Er ist keine
-  Sanierungsmassnahme, beseitigt weder Überschuldung noch Kapitalverlust; die Verbindlichkeit bleibt Fremdkapital und ist offenzulegen.
+  Sanierungsmassnahme, beseitigt weder Überschuldung noch Kapitalverlust; die Verbindlichkeit bleibt Fremdkapital und ist offenzulegen. Gültigkeit und Ausmass beurteilt der WP; der Agent
+  rechnet, legt Unterlagen bei und erfasst Notizen (WP-Schritte N1-105/L1-105/L1-304 und N1-401 nur auf Anweisung).
 aussagen:
 - text: 'Gesetzliche Grundlage (Art. 725b Abs. 4 Ziff. 1 OR): Bei Überschuldung kann die Benachrichtigung des Gerichts unterbleiben, wenn Gesellschaftsgläubiger im Ausmass der Überschuldung
     im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden. Der Rangrücktritt muss den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung
@@ -69,9 +72,11 @@ aussagen:
   zitat: und zwar mindestens solange, als ungedeckte Forderungen der Gläubiger bestehen. Es handelt sich um einen Vertrag zugunsten Dritter
 - text: 'Grundsatz zur Wirkung: Der Rangrücktritt dispensiert lediglich von der Überschuldungsanzeige an das Gericht. Er beseitigt die Überschuldung nicht und ist keine Sanierungsmassnahme
     nach Art. 725a Abs. 1 OR; ebenso Q&A Kapitalverlust, Antwort 5a (qa-kapitalverlust-2023__1-2-t3: «Ein Rangrücktritt an sich beseitigt den Kapitalverlust nicht und stellt auch keine
-    Sanierungsmassnahme nach Art. 725a OR dar.»). Die übrigen Pflichten des VR nach Art. 725a und 725b OR bleiben grundsätzlich bestehen (hwp-er-2026__rz-0422-s125), jene nach Art. 725a
-    OR, solange ein Kapitalverlust vorliegt (hwp-er-2026__rz-0437-s128). Ausnahme (Q&A Antwort 5b): Im Einzelfall kann die Erlangung von Rangrücktritten eine hinreichende Massnahme darstellen;
-    das beurteilt die Revisionsstelle, also der WP.'
+    Sanierungsmassnahme nach Art. 725a OR dar.»); für die Überschuldung gleichlautend Q&A Antwort 14a (qa-kapitalverlust-2023__2-2-2-t5: «Ein Rangrücktritt an sich beseitigt die Überschuldung
+    nicht und stellt auch keine Sanierungsmassnahme nach Art. 725a OR dar.»; ebenso PS-CH 290 A21, sa-ch-2026__ps-ch-290-s0385-1). Nach Antwort 14c macht die Revisionsstelle im Bericht
+    auf die Überschuldung aufmerksam und bringt je nach Beurteilung (14b) einen Hinweis an. Die übrigen Pflichten des VR nach Art. 725a und 725b OR bleiben grundsätzlich bestehen (hwp-er-2026__rz-0422-s125),
+    jene nach Art. 725a OR, solange ein Kapitalverlust vorliegt (hwp-er-2026__rz-0437-s128). Ausnahme (Q&A Antwort 5b bzw. 14b): Im Einzelfall kann die Erlangung von Rangrücktritten
+    eine hinreichende Massnahme darstellen; das beurteilt die Revisionsstelle, also der WP.'
   quelle: hwp-er-2026__rz-0405-s122
   zitat: Er beseitigt weder die Überschuldung noch stellt er eine Sanierungsmassnahme im Sinne von Art. 725a Abs. 1 OR dar.
 - text: 'Abgrenzung zum Forderungsverzicht: Beim Forderungsverzicht geht die Forderung unter und lebt nicht wieder auf. Anders als der Rangrücktritt bewirkt er eine echte Sanierung der
@@ -100,10 +105,11 @@ aussagen:
   quelle: hwp-er-2026__rz-0415-s123-t2
   zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
 - text: 'Ausmass: Der Rangrücktritt muss mindestens das Ausmass der Überschuldung abdecken. Ist die Fortführung nicht gefährdet und bestehen gute Voraussetzungen, die Überschuldung zu
-    überwinden, sollte ein Rangrücktritt genügen, der auf die Deckungslücke zu Fortführungswerten ausgerichtet ist. Steht die Fortführungsfähigkeit und -willigkeit infrage, ist ein höherer
-    Betrag angezeigt; bei konkreter Gefahr der Fortführungsunfähigkeit muss er die Deckungslücke zu Liquidationswerten abdecken (hwp-bur-2023__rz-0720-s307). Ist die Gesellschaft nur
-    zu Fortführungswerten, nicht aber zu Veräusserungswerten überschuldet, ist kein Rangrücktritt nötig, um die Benachrichtigung des Gerichts zu vermeiden; die Sanierungspflicht des
-    VR bleibt (hwp-er-2026__rz-0406-s122, Abb. 11).'
+    überwinden, sollte ein Rangrücktritt genügen, der auf die Deckungslücke zu Fortführungswerten ausgerichtet ist. Ähnlich HWP BuR Rz 719 (hwp-bur-2023__rz-0719-s307), das aber «oder»
+    statt «und» sowie «genügt» statt «sollte … genügen» formuliert. Massgebend ist das ranghöhere HWP ER: Fortführung nicht gefährdet UND gute Voraussetzungen. Steht die Fortführungsfähigkeit
+    und -willigkeit infrage, ist ein höherer Betrag angezeigt; bei konkreter Gefahr der Fortführungsunfähigkeit muss er die Deckungslücke zu Liquidationswerten abdecken (hwp-bur-2023__rz-0720-s307).
+    Ist die Gesellschaft nur zu Fortführungswerten, nicht aber zu Veräusserungswerten überschuldet, ist kein Rangrücktritt nötig, um die Benachrichtigung des Gerichts zu vermeiden; die
+    Sanierungspflicht des VR bleibt (hwp-er-2026__rz-0406-s122, Abb. 11).'
   quelle: hwp-er-2026__rz-0420-s125
   zitat: Gemäss Art. 725b Abs. 4 OR hat der Rangrücktritt mindestens im Ausmass der Überschuldung zu erfolgen.
 - text: 'Sicherheitspolster: Sind weitere Verluste absehbar, ist ein angemessenes Polster für die erwarteten Verluste einzurechnen. Es deckt die nächsten 12 Monate nach Unterzeichnung,
@@ -155,16 +161,16 @@ aussagen:
     Ausbuchen, keine Umwandlung). Beim Gläubiger ist die Forderung angemessen wertzuberichtigen.'
   quelle: hwp-er-2026__rz-0430-s127
   zitat: muss deshalb in der Jahresrechnung des Schuldners (in der Bilanz oder im Anhang) ausgewiesen und erläutert werden
-- text: 'Kapitalverlust und Opting-out: Rangrücktritte beseitigen einen Kapitalverlust nach Art. 725a Abs. 1 OR nicht. Bei Opting-out bleibt deshalb die Pflicht zur eingeschränkten Revision
-    durch einen zugelassenen Revisor bestehen (Art. 725a Abs. 2 OR), auch wenn ausreichende Rangrücktritte vorliegen. Sie gilt, solange ein Kapitalverlust vorliegt; Ausnahme ist ein
-    Gesuch um Nachlassstundung.'
+- text: 'Kapitalverlust und Opting-out: Bei Opting-out bleibt die Pflicht zur eingeschränkten Revision durch einen zugelassenen Revisor bestehen (Art. 725a Abs. 2 OR), auch wenn ausreichende
+    Rangrücktritte vorliegen, die den Kapitalverlust decken. Sie gilt, solange ein Kapitalverlust vorliegt; Ausnahme ist ein Gesuch um Nachlassstundung.'
   quelle: hwp-er-2026__rz-0454-s133
-  zitat: Rangrücktritte beseitigen einen Kapitalverlust nach Art. 725a Abs. 1 OR nicht.
+  zitat: Diese Revisionspflicht gilt auch, wenn ausreichende Rangrücktritte vorliegen, die den Kapitalverlust decken.
 - text: 'Berichterstattung: SER 8.3.2.2 nennt das Bestehen einer Rangrücktrittsvereinbarung bei Überschuldung als Beispiel für einen Zusatz mit weiteren Informationen; Zusätze müssen
     wesentlich sein und dürfen keine Geheimhaltungspflichten verletzen. Nach HWP ER sind Kapitalverlust und Überschuldung als solche keine Gesetzesverletzungen (erst die Untätigkeit
     des VR), das Bestehen einer Rangrücktrittsvereinbarung ist aber als Zusatz in den Bericht aufzunehmen (hwp-er-2026__rz-0447-s130). Musterformulierung SER Anhang F Beispiel 9 «Zusatz
     wegen Überschuldung bei Vorliegen einer Rangrücktrittsvereinbarung» (ser-2022__anh-f-s126-1): «Da Gläubiger der Gesellschaft der [2] im Betrag von … CHF Rangrücktritt erklärt haben,
-    hat der Verwaltungsrat von der Benachrichtigung des Richters abgesehen.» (ser-2022__anh-f-s126-2). Ob und wie ein Zusatz angebracht wird, entscheidet der WP.'
+    hat der Verwaltungsrat von der Benachrichtigung des Richters abgesehen.» (ser-2022__anh-f-s126-2). Geltender Wortlaut mit «Gericht»: HWP ER Abb. 52 (hwp-er-2026__rz-0430-s282-t1).
+    Ob und wie ein Zusatz angebracht wird, entscheidet der WP.'
   quelle: ser-2022__8-3-2-t3
   zitat: Beispiele für Fälle, in denen der Abschlussprüfer einen Zusatz mit weiteren Informationen für notwendig halten kann
 agent:
@@ -185,47 +191,55 @@ agent:
   genügen, ist nicht gefestigt («gibt es derzeit keine gefestigte Meinung», 5-t2). Datum und Zinsklausel feststellen; fehlt die Klausel → Notiz «Wesentliche Feststellungen» (möglicherweise
   ungenügender Rangrücktritt, Folge siehe rz-0433) und «Schlussbesprechung»; Beurteilung durch den WP. Die Q&A-Empfehlung, bestehende Rangrücktritte «zeitnah» zu ergänzen, ist Stand
   2023 (historisch).'
-- 'Ausmass rechnen, nie im Kopf: Rangrücktrittsbetrag gegen die Überschuldung gemäss geprüftem Zwischenabschluss im Rechenmodul (`rechne`) vergleichen, je Stufe: Fortführung nicht gefährdet
-  → Deckungslücke zu Fortführungswerten (hwp-er-2026__rz-0420-s125); Fortführungsfähigkeit und -willigkeit infrage → Betrag über diese Lücke hinaus; konkrete Gefahr der Fortführungsunfähigkeit
-  → Deckungslücke zu Liquidationswerten (hwp-bur-2023__rz-0720-s307). Sicherheitspolster für 12 Monate, mindestens bis zum nächsten Prüfungszeitpunkt (rz-0421). Nur zu Fortführungswerten,
-  nicht zu Veräusserungswerten überschuldet → kein Rangrücktritt nötig, um die Benachrichtigung des Gerichts zu vermeiden (hwp-er-2026__rz-0406-s122, Abb. 11). Welches Ausmass massgebend
-  ist, wählt der WP; Varianten nur rechnen und zeigen. Unterdeckung → «Wesentliche Feststellungen».'
+- 'Ausmass rechnen, nie im Kopf: Rangrücktrittsbetrag gegen die Überschuldung gemäss geprüftem Zwischenabschluss (ZA) mit `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten
+  … --rangruecktritt …` rechnen: Variante 1 mit Werten aus dem ZA zu Fortführungswerten, Variante 2 aus dem ZA zu Veräusserungswerten. Sicherheitspolster separat mit `rechne`. Stufen:
+  Fortführung nicht gefährdet und gute Voraussetzungen zur Überwindung → Deckungslücke zu Fortführungswerten (hwp-er-2026__rz-0420-s125); Fortführungsfähigkeit und -willigkeit infrage
+  → Betrag über diese Lücke hinaus; konkrete Gefahr der Fortführungsunfähigkeit → Deckungslücke zu Liquidationswerten (hwp-bur-2023__rz-0720-s307). Sicherheitspolster für 12 Monate,
+  mindestens bis zum nächsten Prüfungszeitpunkt (rz-0421). Nur zu Fortführungswerten, nicht zu Veräusserungswerten überschuldet → kein Rangrücktritt nötig, um die Benachrichtigung des
+  Gerichts zu vermeiden (hwp-er-2026__rz-0406-s122, Abb. 11). Welches Ausmass massgebend ist, wählt der WP; Varianten nur rechnen und zeigen. Unterdeckung → «Wesentliche Feststellungen».'
 - 'Saldo-Kontrolle: Kontoblatt der rangrücktrittsbelasteten Verbindlichkeit vom Vorjahr bis zum Stichtag auf Abgänge prüfen (Rückzahlung, Verrechnung, Zinszahlung). Abgänge durch Forderungsverzicht
   oder Umwandlung in Eigenkapital (Kapitalerhöhung durch Verrechnung, Zuschuss in die Kapitalreserve) sind zulässig (hwp-er-2026__rz-0416-s124): Beleg prüfen und nicht als Tilgung werten.
   Übrige Abgänge trotz Überschuldung → Notizen «Wesentliche Feststellungen» und «Schlussbesprechung» (rz-0434). Begründet der VR eine Rückzahlung mit reduzierter Überschuldung, Unterlagen
   (geprüfter Zwischenabschluss, Spezialbericht) für den WP beilegen; nach Camponovo kann der Hinweis dann ev. entfallen (camponovo-2026-hinweispflichten__s124-1, Seminarunterlage). Ob
-  ein Hinweis angebracht wird, entscheidet der WP. Camponovo-Formulierungsvorschlag nur als Seminarvorschlag nennen: «Dadurch könnte Art. 725b Abs. 4 OR verletzt worden sein.» (s124-1).'
+  ein Hinweis angebracht wird, entscheidet der WP. Camponovo-Formulierungsvorschlag nur als Seminarvorschlag nennen: «Dadurch könnte Art. 725b Abs. 4 OR verletzt worden sein.» (s124-1).
+  Besteht ein Covid-19-Kredit, ist die Rückzahlung von Darlehen von Gesellschaftern oder Nahestehenden während der Solidarbürgschaft zusätzlich verboten (covid-sbueg__art-2-t1; Ausnahme
+  lit. b für vorbestehende Pflichten gegenüber CH-Gruppengesellschaften nur kennzeichnen) → Notiz «Wesentliche Feststellungen» mit Verweis covid-sbueg__art-23.'
 - 'Keine Ersatzinstrumente: Garantien, «Deckungsgarantien» und Patronatserklärungen ersetzen keinen Rangrücktritt (hwp-er-2026__rz-0406-s122). Camponovo schildert einen Gerichtsfall,
   in dem die Revisionsstelle haftete, weil die «Rangrücktritte» nur Garantien waren (camponovo-2026-hinweispflichten__s130-1). Liegt ein solches Dokument statt eines Rangrücktritts vor
   → «Wesentliche Feststellungen».'
 - 'Darlehen nach dem Bilanzstichtag unter Rangrücktritt: zulässig nur mit tatsächlichem Zahlungsfluss, im Anhang unter Ereignissen nach dem Bilanzstichtag auszuweisen. Eine rückwirkende
   Einbuchung ist unzulässig (hwp-bur-2023__rz-0721-s307). Buchungsvorschläge nur als Notiz, ohne Verbuchung.'
-- 'Darstellung prüfen (N1-320/L1-320, T1): Passivdarlehen mit Rangrücktritt gesondert in der Bilanz oder im Anhang ausweisen, die Nachrangigkeit durch Bezeichnung erkennbar (hwp-bur-2023__rz-0494-s257,
-  hwp-bur-2023__rz-0728-s309). Bilanziell bleibt die Verbindlichkeit Fremdkapital (kein Ausbuchen, hwp-er-2026__rz-0430-s127), auch wenn sie wirtschaftlich Eigenkapital entspricht (rz-0494);
-  keine Umgliederung ins Eigenkapital vorschlagen. Fehlender Ausweis → «Wesentliche Feststellungen».'
-- 'Kapitalverlust (P1-313, A1): Die Verbindlichkeit mit Rangrücktritt bleibt in der Berechnung nach Art. 725a/725b OR Fremdkapital. Der Rangrücktritt beseitigt den Kapitalverlust nicht
-  (hwp-er-2026__rz-0373-s113) und ist keine Sanierungsmassnahme nach Art. 725a Abs. 1 OR (hwp-er-2026__rz-0405-s122, qa-kapitalverlust-2023__1-2-t3). Gesetzlich ausgenommen sind Covid-19-Kredite
-  und Härtefall-Darlehen (rz-0373). Die Pflichten des VR nach Art. 725a OR bleiben bestehen, solange ein Kapitalverlust vorliegt (hwp-er-2026__rz-0437-s128). Ob Rangrücktritte im Einzelfall
-  ausnahmsweise eine hinreichende Massnahme sind (Q&A Antwort 5b, qa-kapitalverlust-2023__1-2-t3), beurteilt der WP. Fehlen weitere Sanierungsmassnahmen → Notiz «Schlussbesprechung».'
+- 'Darstellung prüfen (N1-320/L1-320/T1): gesonderter Ausweis in Bilanz oder Anhang mit erkennbarer Nachrangigkeit vorhanden (hwp-bur-2023__rz-0494-s257)? Keine Umgliederung ins Eigenkapital
+  vorschlagen. Fehlt → «Wesentliche Feststellungen».'
+- 'Kapitalverlust (P1-313, A1): Die Verbindlichkeit mit Rangrücktritt bleibt in der Berechnung nach Art. 725a/725b OR Fremdkapital. Nicht als Fremdkapital gelten Kredite, die gestützt
+  auf Art. 3 Covid-19-SBüV verbürgt wurden (covid-sbueg__art-24; gilt bis 31.12.2032, covid-sbueg__art-31), sowie Darlehen und Kredite nach Art. 21 HFMV 20 (hwp-er-2026__rz-0373-s113;
+  gültig bis 31.12.2031). Kredite nach Art. 4 Covid-19-SBüV nennt Art. 24 nicht (das Gesetz unterscheidet sie in covid-sbueg__art-3); sie gelten nach dem Wortlaut als Fremdkapital. Die
+  Einordnung aus dem Kreditvertrag dem WP vorlegen. Rechnen: Kredit nach Art. 3 Covid-19-SBüV mit `kapitalverlust … --covid-kredit <Betrag>` (übrige Eingaben wie bilanziert); HFMV-Darlehen
+  vor dem Aufruf aus --verbindlichkeiten herausnehmen; Herleitung im Textfeld zeigen. Die Pflichten des VR nach Art. 725a OR bleiben bestehen, solange ein Kapitalverlust vorliegt (hwp-er-2026__rz-0437-s128).
+  Ob Rangrücktritte im Einzelfall ausnahmsweise eine hinreichende Massnahme sind (Q&A Antwort 5b, qa-kapitalverlust-2023__1-2-t3), beurteilt der WP. Fehlen weitere Sanierungsmassnahmen
+  → Notiz «Schlussbesprechung».'
 - 'Zwischenabschluss: Ein Rangrücktritt befreit nicht von der Erstellung und Prüfung eines Zwischenabschlusses (hwp-er-2026__rz-0423-s125-t2, qa-kapitalverlust-2023__2-2-2-t3). Ein Verzicht
-  in Folgejahren ist nur nach individueller Risikobeurteilung möglich (hwp-er-2026__rz-0389-s117); darüber entscheidet der WP. Fehlt der Zwischenabschluss → «Pendenz».'
-- 'Prüfung der Zwischenabschlüsse (Art. 725b Abs. 2 OR): Massstab sind SA-CH bzw. PS-CH 290 mit hinreichender Sicherheit, auch bei SER-Mandaten (hwp-er-2026__rz-0401-s119; ser-2022__anh-h-s145-1).
-  Die qualitativen Anforderungen nach PS-CH 290 A22 an den Rangrücktritt sind dabei zu beachten (betraglich bestimmte Forderung, «kein flexibler Rangrücktritt»; für den Gläubiger nicht
-  offensichtlich finanziell untragbar; sa-ch-2026__ps-ch-290-s0385-1). Für die Prüfung der Jahresrechnung nach SER gelten SER Anhang H und HWP ER. Die Prüfung des Zwischenabschlusses
-  ist ein WP-Auftrag; der Agent arbeitet nur auf Anweisung zu und unterzeichnet nie. Widerspruch dem WP vorlegen: Camponovo erwähnt einen «flexiblen Rangrücktritt» im Muster («Der flexible
-  Rangrücktritt war damals noch nicht im Muster integriert», camponovo-2026-hinweispflichten__s158-1); der Begriff ist unklar.'
+  in Folgejahren ist nur nach individueller Risikobeurteilung möglich (hwp-er-2026__rz-0389-s117); darüber entscheidet der WP. Fehlt der Zwischenabschluss: Notiz «Pendenz» (Unterlage
+  anfordern). Liegt keine vom WP bestätigte Begründung für einen Verzicht in einem Folgejahr vor, zusätzlich Notiz «Wesentliche Feststellungen»: möglicher zwingender Hinweis wegen Untätigkeit
+  des VR («Zwischenabschlüsse nicht erstellt», HWP ER Abb. 49, hwp-er-2026__rz-0423-s280); Vorschlag SER Anhang F Bsp. 13 = Muster 41 (ser-2022__anh-f-s131-2). Bei offensichtlicher Überschuldung
+  den WP sofort informieren (gebotene Eile, or__art-725b-t2).'
+- 'Prüfung der Zwischenabschlüsse (Art. 725b Abs. 2 OR; Massstab PS-CH 290, siehe Fachaussage «Prüfung der Zwischenabschlüsse»): Für die Prüfung der Jahresrechnung nach SER gelten SER
+  Anhang H und HWP ER. Die Prüfung des Zwischenabschlusses ist ein WP-Auftrag; der Agent arbeitet nur auf Anweisung zu und unterzeichnet nie. Widerspruch «flexibler Rangrücktritt» (PS-CH
+  290 A22 vs. camponovo-2026-hinweispflichten__s158-1) dem WP vorlegen.'
 - 'Aufhebung/Reduktion: Der Bericht zur eingeschränkten Revision genügt nicht. Nötig ist ein separater Prüfungsbericht nach SA-CH (hwp-er-2026__rz-0426-s126, hwp-bur-2023__rz-0716-s305,
   hwp-bur-2023__rz-0717-s305-t1). Die Aufhebung muss schriftlich erfolgen (hwp-er-2026__rz-0427-s127). Bei einer Reduktion alle drei Bedingungen (a)–(c) nach hwp-er-2026__rz-0425-s126
   als Unterlagen bereitstellen (inkl. Zustimmung anderer Rangrücktrittsgläubiger). Der Agent bereitet einen solchen Bericht nur auf Anweisung vor und unterzeichnet nie.'
-- 'Grenze bei ungenügendem Rangrücktritt: Mahnung des VR mit Fristansetzung und Benachrichtigung des Gerichts nach Art. 729c OR (hwp-er-2026__rz-0433-s127; Ablaufschema SER Anhang H,
-  ser-2022__anh-h-s145-1) sind Handlungen der Revisionsstelle bzw. des WP. Der Agent erfasst nur Notizen («Wesentliche Feststellungen», «Schlussbesprechung»), entwirft keine Mahnung
-  ohne Anweisung und meldet nie an das Gericht; E-Mails nur als Entwurf bzw. an die WP-Adresse (konzept-ki-revisionsagent-2026__c009-2). Bei der Prüfung nach Art. 725a Abs. 2 OR (Opting-out)
-  hat der zugelassene Revisor keine Pflicht zur Benachrichtigung des Gerichts (hwp-er-2026__rz-0458-s134).'
-- 'Berichtswortlaut: Die Zusatz-Formulierungen weichen voneinander ab. SER Anhang F Bsp. 9 (Titel ser-2022__anh-f-s126-1) nennt «Art. 725b OR» und «des Richters» (ser-2022__anh-f-s126-2).
-  HWP ER Abb. 52 nennt «Art. 725 b Abs. 3 OR» und «des Gerichts» (hwp-er-2026__rz-0430-s282-t1). Der Bericht an den VR beim Zwischenabschluss erwähnt die Überschuldung unabhängig von
-  Rangrücktritten (hwp-er-2026__rz-0477-s292). Bei der Prüfung nach Art. 725a Abs. 2 OR (Opting-out) lautet der Zusatz des zugelassenen Revisors «Überschuldung (unabhängig, ob Rangrücktritte
-  vorhanden)» (hwp-er-2026__rz-0459-s134). Nach SER 8.3.2.2 muss ein Zusatz wesentlich sein (ser-2022__8-3-2-t3). Einen Entwurf nur als Notiz «Schlussbesprechung» erfassen, den Wortlaut
-  wählt der WP. Das Vorgehen bei Zusatz bzw. Rangrücktritt im GVB-Bericht ist bei consis noch offen (konzept-ki-revisionsagent-2026__c015-2).'
+- 'Grenze bei ungenügendem Rangrücktritt: Mahnung und Anzeige (Fachaussage «Folge eines ungültigen oder ungenügenden Rangrücktritts», hwp-er-2026__rz-0433-s127) sind WP-Handlungen. Der
+  Agent erfasst nur Notizen («Wesentliche Feststellungen», «Schlussbesprechung»), entwirft keine Mahnung ohne Anweisung und meldet nie an das Gericht; E-Mails nur als Entwurf bzw. an
+  die WP-Adresse (konzept-ki-revisionsagent-2026__c009-2). Bei der Prüfung nach Art. 725a Abs. 2 OR (Opting-out) hat der zugelassene Revisor keine Pflicht zur Benachrichtigung des Gerichts
+  (hwp-er-2026__rz-0458-s134).'
+- 'Berichtswortlaut (Zusatz bei Rangrücktritt): Entwurf nach HWP ER Abb. 52 (hwp-er-2026__rz-0430-s282-t1; geltender Wortlaut «Gericht», Art. 725b Abs. 3 OR, or__art-725b-t1). Abb. 52
+  beginnt mit «Ferner» (folgt auf einen anderen Zusatz); steht der Zusatz allein, Satzanfang wie SER Bsp. 9 «Wir machen darauf aufmerksam». SER Bsp. 9 = Muster 35 (ser-2022__anh-f-s126-2)
+  enthält noch «des Richters» und «Art. 725b OR» → Abweichung für den WP markieren, Notiz «Schlussbesprechung». Muster 35 setzt voraus, dass der VR seine Pflichten nach Art. 725b eingehalten
+  hat (muster-hwp-er-2026__c044-1); ohne Zwischenabschluss Bsp. 13/Muster 41. Den Wortlaut wählt der WP. Der Bericht an den VR beim Zwischenabschluss erwähnt die Überschuldung unabhängig
+  von Rangrücktritten (hwp-er-2026__rz-0477-s292). Bei der Prüfung nach Art. 725a Abs. 2 OR (Opting-out) lautet der Zusatz des zugelassenen Revisors «Überschuldung (unabhängig, ob Rangrücktritte
+  vorhanden)» (hwp-er-2026__rz-0459-s134). Nach SER 8.3.2.2 muss ein Zusatz wesentlich sein (ser-2022__8-3-2-t3). Das Vorgehen bei Zusatz bzw. Rangrücktritt im GVB-Bericht ist bei consis
+  noch offen (konzept-ki-revisionsagent-2026__c015-2).'
 - 'Musterformulierungen: Die EXPERTsuisse-Muster für Rangrücktrittsvereinbarung, Reduktion und Aufhebung sind nur als Verweis im Wiki (muster-hwp-er-2026__c068-1, c069-1, c070-1); ihr
   Volltext fehlt. Bekannt aus HWP ER: Im Muster verzichtet der Gläubiger im Insolvenzfall, nicht aber im freiwilligen Liquidationsfall, auf seine im Wert verminderte oder wertlose Forderung
   (hwp-er-2026__rz-0409-s123). Hintergrund ist die Rechtsprechung des Bundesgerichts; die Problematik ist durch Art. 757 Abs. 4 OR entschärft (rz-0411). Zinsen sind ausdrücklich eingeschlossen

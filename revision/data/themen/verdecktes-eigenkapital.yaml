@@ -47,6 +47,17 @@ stichworte:
 - N1-302
 - S1-304
 - S1-401
+- Art. 13 VStG
+- Art. 16 VStG
+- Art. 20 VStV
+- Meldeverfahren
+- Art. 24 VStV
+- Covid-19-Kredit
+- Solidarbürgschaft
+- Covid-19-SBüG
+- DBG Art. 65
+- Fremdwährungsdarlehen
+- Rundschreiben 219
 kurz: 'Steuerliche Praxis der ESTV (KS Nr. 6a vom 10.10.2024, Art. 65 DBG), keine handelsrechtliche Regel: zulässiges Fremdkapital = Verkehrswert (sonst Buch-/Gewinnsteuerwert) der Aktiven
   per Ende Steuerperiode × Belehnungssatz. Schulden darüber gelten als verdecktes EK, soweit von Beteiligten/Nahestehenden; Zinsen darauf werden aufgerechnet und unterliegen der VSt.
   Das ist nicht automatisch eine handelsrechtliche vGA. Revision: N1-304, Steuerrückstellung S1/O1; WP entscheidet.'
@@ -74,10 +85,8 @@ aussagen:
   zitat: In- und ausländische Obligationen in Schweizer Franken Ausländische Obligationen in Fremdwährung Kotierte in- und ausländische Aktien Übrige Aktien und GmbH-Anteile Darlehen
     Beteiligungen
 - text: 'Belehnungssätze Sach- und immaterielle Anlagen: mobile Sachanlagen 50 %, Fabrikliegenschaften 70 %, Villen, Eigentumswohnungen, Ferienhäuser und Bauland 70 %, übrige Liegenschaften
-    80 %, andere immaterielle Anlagen 70 %. Die Zuordnung ist am Original S. 2 geprüft. Der Treuhand-Almanach (Fachliteratur, Tab. 29 ^[treuhand-almanach-2026__s063-1]) stimmt in den
-    Prozentsätzen überein; die Positionsbezeichnungen weichen teilweise ab (der Reihenfolge nach «Andere Forderungen» statt «Übrige kurzfristige Forderungen», «Vorräte» statt «Vorräte
-    und nicht fakturierte Dienstleistungen», «Übriges Umlaufvermögen» statt «Aktive Rechnungsabgrenzungen», «Betriebseinrichtungen» statt «Mobile Sachanlagen»), und er enthält zusätzlich
-    eine Zeile mit 0 %, die nicht im KS 6a steht.'
+    80 %, andere immaterielle Anlagen 70 %. Die Zuordnung ist am Original S. 2 geprüft. Der Treuhand-Almanach (Fachliteratur, Tab. 29 ^[treuhand-almanach-2026__s063-1]) hat dieselben
+    Sätze mit teils anderen Bezeichnungen und eine zusätzliche Zeile 0 % (Gründungs-/Organisationskosten). Diese steht nicht im KS 6a: nicht verwenden.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Mobile Sachanlagen Fabrikliegenschaften Villen, Eigentumswohnungen, Ferienhäuser und Bauland Übrige Liegenschaften Andere immaterielle Anlagen
 - text: 'Sonderregel Finanzgesellschaften: Das maximal zulässige Fremdkapital beträgt in der Regel 6/7 der Bilanzsumme (statt der Sätze je Aktivum).'
@@ -89,25 +98,31 @@ aussagen:
     der Regel»: «Der Nachweis, dass die konkrete Finanzierung dem Drittvergleich standhält, bleibt vorbehalten.» ^[estv-ks-6a-2024__einleitung-t3]'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Wesentlich ist, dass nur derjenige Teil als verdeckt gilt, der direkt oder indirekt von Anteilsinhabern oder diesen nahestehenden Personen stammt.
-- text: 'Folge Gewinnsteuer (Bund, Art. 65 DBG): Die Schuldzinsen, die auf das verdeckte Eigenkapital entfallen, werden zum ausgewiesenen Reingewinn hinzugerechnet und nach Art. 57 ff.
-    DBG besteuert.'
-  quelle: estv-ks-6a-2024__3-1
-  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen und gemäss Artikel 57 ff. DBG zu besteuern.
+- text: 'Folge Gewinnsteuer (Bund). Gesetz (Art. 65 DBG): Zum steuerbaren Gewinn gehören auch die Schuldzinsen auf dem Teil des Fremdkapitals, dem wirtschaftlich die Bedeutung von Eigenkapital
+    zukommt. Praxis (KS 6a Ziff. 3.1): Diese Zinsen werden dem ausgewiesenen Reingewinn hinzugerechnet und nach Art. 57 ff. DBG besteuert ^[estv-ks-6a-2024__3-1].'
+  quelle: dbg__art-65
+  zitat: Zum steuerbaren Gewinn der Kapitalgesellschaften und Genossenschaften gehören auch die Schuldzinsen, die auf jenen Teil des Fremdkapitals entfallen, dem wirtschaftlich die Bedeutung
+    von Eigenkapital zukommt.
 - text: 'Darlehen unter dem marktüblichen Zinsniveau: Stellen Beteiligte oder Nahestehende ein solches Darlehen zur Verfügung, wird vom gesamten Darlehenszins so viel als Aufwand anerkannt,
     wie nach dem ESTV-Rundschreiben zu den Zinssätzen auf dem anerkannten Fremdkapital zulässig wäre. «Nur der verbleibende Rest wird aufgerechnet.» ^[estv-ks-6a-2024__3-1]'
   quelle: estv-ks-6a-2024__3-1
   zitat: der unter dem marktüblichen Zinsniveau liegt, wird vom gesamten Darlehenszins soviel als abzugsfähiger Aufwand anerkannt
 - text: 'Folge Verrechnungssteuer (KS 6a Ziff. 3.2): Die Zinsen auf verdecktes Eigenkapital unterliegen als geldwerte Leistung nach Art. 4 Abs. 1 lit. b VStG i.V.m. Art. 20 Abs. 1 VStV
-    der Verrechnungssteuer. ESTV-Praxis, Ableitung: Das Zinssatz-Rundschreiben 2026 regelt geldwerte Leistungen allgemein (unverzinsliche oder ungenügend verzinste Vorschüsse, übersetzte
-    Zinsen), nicht ausdrücklich Zinsen auf verdecktem Eigenkapital. Danach unterliegen solche Leistungen «der Verrechnungssteuer von 35 %»; «Die geldwerten Leistungen sind mittels Formular
-    102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren.» ^[estv-zinsen-2026__s001-1]. Das Rundschreiben gilt für 2026; eine Fassung für frühere Geschäftsjahre ist
-    nicht im Wiki.'
+    der Verrechnungssteuer. Gesetz (VStG/VStV, Fassung 1.1.2025): Steuerbar ist jede geldwerte Leistung an Beteiligte oder Nahestehende (Art. 20 Abs. 1 VStV) ^[vstv__art-20]. Satz 35
+    % (Art. 13 Abs. 1 Bst. a VStG) ^[vstg__art-13]. Fällig 30 Tage nach Entstehung der Steuerforderung (Art. 16 Abs. 1 Bst. c VStG) ^[vstg__art-16]. Unaufgefordert abrechnen und zahlen
+    (Art. 38 Abs. 2 VStG) ^[vstg__art-38]. ESTV-Praxis: Deklaration mit Formular 102 ^[estv-zinsen-2026__s001-1].'
   quelle: estv-ks-6a-2024__3-2
   zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen gemäss Ziffer 3.1 oben unterliegen als geldwerte Leistung
 - text: Die Rückzahlung von Fremdkapital, das steuerlich als verdecktes Eigenkapital gilt, ist keine geldwerte Leistung. Sie unterliegt weder der Verrechnungssteuer noch der Einkommenssteuer
     (Privatvermögen).
   quelle: estv-ks-6a-2024__3-3
   zitat: stellt keine geldwerte Leistung der Kapitalgesellschaft oder Genossenschaft an ihren Anteilsinhaber oder diesen nahestehenden Personen dar
+- text: 'Gesetz (Covid-19-SBüG): Solange die Solidarbürgschaft besteht, sind Gewährung und Rückzahlung von Darlehen von Gesellschaftern oder Nahestehenden ausgeschlossen (Art. 2 Abs.
+    2 Bst. b). Zulässig bleibt die Erfüllung vorbestehender Verpflichtungen gegenüber verbundenen Gruppengesellschaften mit Sitz in der Schweiz, namentlich ordentlicher Zins- und Amortisationspflichten.
+    Stellt die Revisionsstelle eine Verletzung fest: (1) Sie setzt eine angemessene Frist zur Herstellung des ordnungsgemässen Zustands. (2) Wird dieser nicht hergestellt, informiert
+    sie die GV. (3) Stellt der VR ihn auch dann nicht unverzüglich her, informiert sie die Bürgschaftsorganisation (Art. 23 Abs. 1) ^[covid-sbueg__art-23].'
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
 - text: 'Folge Kapitalsteuer: Das KS 6a enthält keine Ausführungen zur Kapitalsteuer mehr; sie wurden wegen der Unternehmenssteuerreform 1997 entfernt ^[estv-ks-6a-2024__einleitung-t2].
     Laut Treuhand-Almanach (Fachliteratur) unterliegt verdecktes Eigenkapital der Kapitalsteuer (Art. 29a StHG). StHG und kantonale Steuergesetze sind nicht im Wiki, daher im Einzelfall
     klären.'
@@ -143,8 +158,11 @@ aussagen:
   zitat: Je nach Wahrscheinlichkeit einer Steuernachforderung ist am Tag der Bilanzerstellung die Höhe der erforderlichen Rückstellung zu schätzen.
 - text: 'Bemessung der Steuerrückstellung, Verrechnungssteuer (HWP BuR Rz 183 zu Forderungen an Nahestehende; hier nur sinngemäss angewendet, Ableitung, Beurteilung WP): «Erfüllen Darlehen
     und andere Forderungen an nahestehende Personen den Tatbestand steuerbarer geldwerter Leistungen, sind die allenfalls zu erwartenden Steuernachforderungen zu berücksichtigen». Gewinnsteuern
-    belasten die Gesellschaft; die VSt ist auf die Begünstigten zu überwälzen (Art. 14 VStG). «Unterbleibt die Überwälzung, so führt dies bei einem Verrechnungssteuersatz von 35 % zu
-    einer Belastung der Gesellschaft von 53,8 %» (Aufrechnung ins Hundert) ^[hwp-bur-2023__rz-0183-s199-t1].'
+    belasten die Gesellschaft; die VSt ist auf die Begünstigten zu überwälzen (Art. 14 VStG: Kürzungspflicht; widersprechende Vereinbarungen sind nichtig) ^[vstg__art-14]. «Unterbleibt
+    die Überwälzung, so führt dies bei einem Verrechnungssteuersatz von 35 % zu einer Belastung der Gesellschaft von 53,8 %» (Aufrechnung ins Hundert) ^[hwp-bur-2023__rz-0183-s199-t1].
+    53,8 % ist der Höchstwert bei unterbliebener Überwälzung. Wird die Leistung erst bei einer amtlichen Kontrolle für ein Vorjahr aufgerechnet, kann die ESTV auf Gesuch das Meldeverfahren
+    gestatten. Voraussetzung: Die Empfänger sind rückerstattungsberechtigt und es sind höchstens 20 (Art. 24 Abs. 1 Bst. a und Abs. 2 VStV) ^[vstv__art-24]. Dann ist kein Verzugszins
+    geschuldet (Art. 16 Abs. 2bis VStG) ^[vstg__art-16].'
   quelle: hwp-bur-2023__rz-0183-s199-t1
   zitat: Während Erstere die Gesellschaft belasten, ist die Verrechnungssteuer eine Belastung der Begünstigten
 - text: 'Abgrenzung (AGENTS.md Regel 7): Steuerlich aufgerechnete Zinsen auf verdecktem Eigenkapital (geldwerte Leistung nach KS 6a Ziff. 3.2) sind nicht ohne Weiteres eine handelsrechtliche
@@ -168,7 +186,9 @@ agent:
   «teilweise bearbeitet» ^[konzept-ki-revisionsagent-2026__c012-1].'
 - 'Auslöser für N1-304: Darlehen, Kontokorrente oder Vorschüsse von Aktionären, Organen oder Nahestehenden in L1, M1 oder N1. Diese sind gesondert in Bilanz oder Anhang auszuweisen (Art.
   959a Abs. 4 OR ^[or__art-959a-t2]). Auslöser sind auch Bankkredite mit Sicherstellung durch den Aktionär (Bürgschaft, Pfand); vgl. die Formulierung «ohne Sicherstellung durch den Anteilsinhaber»
-  ^[estv-ks-6a-2024__einleitung-t3].'
+  ^[estv-ks-6a-2024__einleitung-t3]. Besteht ein Covid-19-Kredit (Kreditvertrag in M-Files oder Konto in L1/N1): die Zu- und Abgänge der Darlehen von Aktionären und Nahestehenden im
+  Geschäftsjahr aus den Kontoblättern auflisten; Summen mit `rechne`. Jede Rückzahlung oder Neugewährung als Notiz «Wesentliche Feststellungen» erfassen mit dem Vermerk «möglicher Verstoss
+  Art. 2 Abs. 2 Bst. b Covid-19-SBüG» ^[covid-sbueg__art-2-t1]. Fristsetzung sowie Information der GV bzw. der Bürgschaftsorganisation entscheidet nur der WP (vgl. `aufgabe gvb-bericht`).'
 - 'revio-Schritte (SER Anhang D j ^[ser-2022__anh-d-s085-1], Katalog ^[katalog-revio4__c003-48]): N1-104 Befragung zu Darlehen Beteiligter (nur schriftliche Antworten, sonst Pendenz),
   N1-201 Zinsaufwand im Verhältnis zu den Darlehenssalden (Rechenmodul), N1-302 Einsicht in Kredit- und Darlehensverträge, N1-304 Beurteilung verdecktes EK (vorbereiten, Visum offen).
   Steuerfolge in S1-304 «Prüfung der Steuerrückstellungen». S1-401 «Festhalten geldwerte Leistungen» ^[katalog-revio4__c003-57] ist ein Sonstiger Schritt (4xx): nur auf Anweisung des
@@ -183,30 +203,33 @@ agent:
   der Teil von Anteilsinhabern oder Nahestehenden. (5) Aufzurechnen sind die darauf entfallenden Schuldzinsen ^[estv-ks-6a-2024__3-1]. (5b) Bei Darlehen von Beteiligten/Nahestehenden
   unter dem marktüblichen Zinsniveau: zulässigen Zins auf dem anerkannten Fremdkapital nach dem Rundschreiben des Geschäftsjahrs berechnen; nur der Rest wird aufgerechnet ^[estv-ks-6a-2024__3-1].
   Für den Grundfall (Zuordnung der Zinsen auf den verdeckten Teil) nennt das KS 6a im Wiki keinen Verteilschlüssel: Annahme im Textfeld offenlegen, Entscheid beim WP.'
-- 'Layout: Im Chunk estv-ks-6a-2024__einleitung-t3 stehen Positionen und Prozentsätze getrennt. Die Zuordnung ist am Original raw/estv-ks-6a-2024.pdf S. 2 geprüft. Der Treuhand-Almanach
-  (Tab. 29, ^[treuhand-almanach-2026__s063-1]) stimmt in den Prozentsätzen überein, bezeichnet Positionen aber teilweise anders und nennt zusätzlich «Gründungs-, Kapitalerhöhungs- und
-  Organisationskosten 0 %». Diese Zeile steht nicht im KS 6a, ist also nur Fachliteratur: nicht als ESTV-Satz verwenden.'
+- 'Layout: Belehnungssätze nur aus dem KS 6a (Zuordnung am Original raw/estv-ks-6a-2024.pdf S. 2 geprüft); die Almanach-Zeile «Gründungs-, Kapitalerhöhungs- und Organisationskosten 0
+  %» ^[treuhand-almanach-2026__s063-1] steht nicht im KS 6a: nicht verwenden.'
 - 'Zinssätze (ESTV-Praxis): Das Rundschreiben ist jahresbezogen («Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen» ^[estv-zinsen-2026__s001-1]). Im Wiki liegt nur das
   Rundschreiben 2026 (estv-zinsen-2026, «safe haven» ^[estv-zinsen-2026__s002-1]). Für ein Geschäftsjahr 2025 (typische SER im Jahr 2026) Pendenz «ESTV-Rundschreiben Zinssätze 2025 beschaffen»;
   Werte 2026 nie auf andere Jahre übertragen. Die Zinstabelle 2026 ist im Chunk verschoben, deshalb die Werte am Original raw/estv-zinsen-2026.pdf S. 2 ablesen. Treuhand-Almanach Tab.
-  30 (2023–2026) höchstens als Fachliteratur nennen; die Tabelle ist im Chunk zerrissen ^[treuhand-almanach-2026__s064-1], daher am Original raw/treuhand-almanach-2026.pdf prüfen. Für
-  Fremdwährungsdarlehen gelten eigene Sätze ^[treuhand-almanach-2026__s064-2].'
+  30 (2023–2026) höchstens als Fachliteratur nennen; die Tabelle ist im Chunk zerrissen ^[treuhand-almanach-2026__s064-1], daher am Original raw/treuhand-almanach-2026.pdf prüfen. Fremdwährungsdarlehen
+  von Beteiligten/Nahestehenden: ESTV-Rundschreiben Nr. 219 vom 30.1.2026 ^[estv-rs-2-219-2026__s001-1], gilt nur für 2026. Tabelle S. 3 am Original raw/estv-rs-2-219-2026.pdf ablesen;
+  Überblick `wert fremdwährung`. Die Sätze gelten als safe haven auch für verzinsliche Verpflichtungen in Fremdwährung ^[estv-rs-2-219-2026__s002-2]. Das Unternehmen muss nachweisen,
+  weshalb keine tiefer verzinsliche CHF-Verpflichtung eingegangen wurde; fehlt der Nachweis: Pendenz. Das KS 6a gilt auch hier. GJ 2025: Rundschreiben 2025 fehlt im Wiki → Pendenz, Werte
+  2026 nicht übertragen.'
 - 'Steuerfolgen in der Jahresrechnung (S1-304, O1): Bei Überschreitung droht eine Aufrechnung bei der Gewinnsteuer ^[estv-ks-6a-2024__3-1] und die Verrechnungssteuer auf den aufgerechneten
-  Zinsen ^[estv-ks-6a-2024__3-2] (35 %, Formular 102, 30 Tage: ESTV-Praxis aus dem Rundschreiben 2026, das geldwerte Leistungen allgemein regelt ^[estv-zinsen-2026__s001-1]). Für schwebende
-  Steuerrisiken sind Rückstellungen zu bilden oder ein Ausweis als Eventualverbindlichkeit in Betracht zu ziehen ^[hwp-bur-2023__rz-0801-s331]. Sinngemäss nach HWP BuR Rz 183 (Ableitung,
-  Beurteilung WP): Erfüllen Darlehen an Nahestehende den Tatbestand geldwerter Leistungen, sind zu erwartende Steuernachforderungen zu berücksichtigen. Gewinnsteuern belasten die Gesellschaft;
-  die VSt belastet die Begünstigten und ist zu überwälzen; unterbleibt die Überwälzung, belastet sie die Gesellschaft mit 53,8 % ^[hwp-bur-2023__rz-0183-s199-t1]. Zeitbezug der Rundschreiben:
-  siehe «Zinssätze». Ob überwälzt wurde oder noch überwälzt werden kann: schriftliche Kundenfrage bzw. Pendenz an den WP. Höhe, Wahrscheinlichkeit und Rückstellung beurteilt der WP.'
+  Zinsen ^[estv-ks-6a-2024__3-2] (35 % Art. 13 VStG ^[vstg__art-13], fällig nach 30 Tagen Art. 16 VStG ^[vstg__art-16]; Formular 102 ist ESTV-Praxis ^[estv-zinsen-2026__s001-1]). Für
+  schwebende Steuerrisiken sind Rückstellungen zu bilden oder ein Ausweis als Eventualverbindlichkeit in Betracht zu ziehen ^[hwp-bur-2023__rz-0801-s331]. Sinngemäss nach HWP BuR Rz
+  183 (Ableitung, Beurteilung WP): Erfüllen Darlehen an Nahestehende den Tatbestand geldwerter Leistungen, sind zu erwartende Steuernachforderungen zu berücksichtigen. Gewinnsteuern
+  belasten die Gesellschaft; die VSt belastet die Begünstigten und ist zu überwälzen; unterbleibt die Überwälzung, belastet sie die Gesellschaft mit 53,8 % ^[hwp-bur-2023__rz-0183-s199-t1].
+  53,8 % ist der Höchstwert: Kommt das Meldeverfahren in Frage (Aufrechnung erst bei amtlicher Kontrolle für ein Vorjahr, höchstens 20 rückerstattungsberechtigte Empfänger, Art. 24 VStV
+  ^[vstv__art-24]), beurteilt das der WP; dafür eine Pendenz erfassen und im Vorschlag beide Beträge (mit und ohne Meldeverfahren) mit `rechne` ausweisen. Zeitbezug der Rundschreiben:
+  siehe «Zinssätze». Ob überwälzt wurde oder noch überwälzt werden kann: schriftliche Antwort (z.B. revio 10.11) auswerten, sonst Frage als Notiz «Pendenz» erfassen; nie selbst an den
+  Kunden senden ^[konzept-ki-revisionsagent-2026__c012-1] ^[konzept-ki-revisionsagent-2026__c009-2]. Höhe, Wahrscheinlichkeit und Rückstellung beurteilt der WP.'
 - 'Notizen: «Pendenz» für fehlende Verträge, Sicherheiten, Verkehrswertnachweise, das Zinssatz-Rundschreiben des Geschäftsjahrs oder Angaben zur VSt-Überwälzung (mit Konto, Datum, Betrag).
-  Mögliche Steuerfolge im Rechenmodul beziffern. «Wesentliche Feststellung» nur, wenn sie gemessen an der Gesamtwesentlichkeit relevant ist (Massstab nach Konzept ^[konzept-ki-revisionsagent-2026__c014-1]);
-  dann mit Berechnung als Beilage und begründetem Vorschlag zur Steuerrückstellung, ohne Verbuchung. Sonst «Schlussbesprechung» (Finanzierungsstruktur, Zinssätze der Aktionärsdarlehen,
-  allfälliger Nachweis zum Drittvergleich). Differenzen unter der Nichtaufgriffsgrenze nur protokollieren ^[konzept-ki-revisionsagent-2026__c014-1].'
-- 'Kapitalsteuer: Das KS 6a regelt sie nicht mehr ^[estv-ks-6a-2024__einleitung-t2]. Der Hinweis auf Art. 29a StHG stammt nur aus dem Treuhand-Almanach; StHG und kantonales Recht sind
-  nicht im Wiki. Kantonale Praxis daher als Pendenz an WP oder Steuerexperte geben, nichts aus dem Gedächtnis ergänzen.'
+  Mögliche Steuerfolge (fehlende Steuerrückstellung) mit `rechne` beziffern. Über der Nichtaufgriffsgrenze: Notiz «Wesentliche Feststellungen» mit Berechnung als Beilage und begründetem
+  Vorschlag zur Steuerrückstellung, ohne Verbuchung; die Summe der Feststellungen beurteilt der WP (6.1) ^[hwp-er-2026__rz-0053-s189] ^[konzept-ki-revisionsagent-2026__c014-1]. Darunter:
+  nur protokollieren. Zusätzlich Notiz «Schlussbesprechung» zu Finanzierungsstruktur, Zinssätzen der Aktionärsdarlehen und Drittvergleich.'
+- 'Kapitalsteuer: im KS 6a nicht geregelt ^[estv-ks-6a-2024__einleitung-t2], Art. 29a StHG nur aus dem Almanach; kantonale Praxis als Pendenz an WP/Steuerexperte, nichts aus dem Gedächtnis.'
 - 'WP entscheidet: ob eine verdeckte Gewinnausschüttung vorliegt und ob sie offensichtlich und wesentlich ist (Vorgehen nach HWP ER III.2.4.2.2 ^[hwp-er-2026__rz-0164-s212-t1]), über
   Wesentlichkeit und Rückstellungshöhe sowie über die Folgen für den Bericht. Geldwerte Leistungen können sowohl steuerliche Fragen aufwerfen als auch handelsrechtliche Konsequenzen
   für Gewinnausweis und Gewinnverwendung haben ^[hwp-er-2026__rz-0158-s211]. Der Agent nennt nur Sachverhalt und Zahlen, lässt das Visum offen und schreibt nichts in den Bericht.'
-- HWP OR rz-0936/0937 ist nur ergänzend (ordentliche Revision) und verweist noch auf das alte KS Nr. 6. Massgebend ist das KS 6a vom 10.10.2024 ^[estv-ks-6a-2024__4].
 prueffelder:
 - N1
 - L1

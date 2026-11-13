@@ -32,8 +32,14 @@ stichworte:
 - Art. 958f OR
 - GeBüV
 - Geschäftsbücherverordnung
+- Hauptbuch
+- Hilfsbücher
 - Archivierung
 - Integrität
+- Informationsträger
+- Zeitstempel
+- Datenmigration
+- elektronische Bücher
 - elektronische Aufbewahrung
 - MWST Aufbewahrung Immobilien
 - Prüfungsdokumentation
@@ -51,21 +57,36 @@ stichworte:
 - Qualitätsmanagement
 - Qualitätssicherung
 - ISQM-CH 1
+- RAB-Rundschreiben 1/2014
+- AQM
+- TREUHAND|SUISSE
 - Durchsicht
 - Nachschau
+- File-Review
+- Firm-Review
 - Revisionsgeheimnis
 - Berufsgeheimnis
 - Art. 730b OR
 - Art. 321 StGB
 - Verschwiegenheit
 - Geschäftsgeheimnis
+- Datenschutz
+- DSG
+- KI
+- Künstliche Intelligenz
+- Hilfsperson
+- Websuche
+- Auftragsbearbeitung
+- Cloud
 - Audit Trail
 kurz: Buchführung und GoB (Art. 957–957a OR) sowie GoR (Art. 958c OR) verantwortet die Unternehmensleitung; Geschäftsbücher, Belege, Geschäfts- und Revisionsbericht sind 10 Jahre ab
   Ende des Geschäftsjahres aufzubewahren (Art. 958f OR). Die Revisionsstelle dokumentiert alle Revisionsdienstleistungen nachvollziehbar und bewahrt Arbeitspapiere mind. 10 Jahre auf
   (Art. 730c OR, SER 7, HWP ER III.2.9); internes QM-System und Revisionsgeheimnis (Art. 730b OR) sind Pflicht.
 aussagen:
 - text: 'Pflicht zur Buchführung und Rechnungslegung (Art. 957 Abs. 1 OR): juristische Personen sowie Einzelunternehmen und Personengesellschaften mit mindestens CHF 500 000 Umsatzerlös
-    im letzten Geschäftsjahr. Darunter genügt eine Buchführung über Einnahmen, Ausgaben und Vermögenslage (Abs. 2), für die die GoB sinngemäss gelten (Abs. 3).'
+    im letzten Geschäftsjahr. Eine Buchführung nur über Einnahmen, Ausgaben und Vermögenslage genügt (Abs. 2) für Einzelunternehmen und Personengesellschaften unter CHF 500 000 Umsatzerlös,
+    für Vereine und Stiftungen ohne Pflicht zur Eintragung im Handelsregister und für Stiftungen, die nach Art. 83b Abs. 2 ZGB von der Revisionsstelle befreit sind; für sie gelten die
+    GoB sinngemäss (Abs. 3).'
   quelle: or__art-957
   zitat: Einzelunternehmen und Personengesellschaften, die einen Umsatzerlös von mindestens 500 000 Franken im letzten Geschäftsjahr erzielt haben
 - text: 'Die Buchführung ist die Grundlage der Rechnungslegung und folgt den GoB (Art. 957a Abs. 2 OR): vollständige, wahrheitsgetreue und systematische Erfassung, Belegnachweis für
@@ -95,14 +116,27 @@ aussagen:
   quelle: or__art-958f
   zitat: Die Geschäftsbücher und die Buchungsbelege sowie der Geschäftsbericht und der Revisionsbericht sind während zehn Jahren aufzubewahren. Die Aufbewahrungsfrist beginnt mit dem
     Ablauf des Geschäftsjahres.
-- text: 'Grundsätze der Aufbewahrung nach GeBüV (HWP BuR II.3.6.2.2): Integrität, das heisst keine Änderung ohne Feststellbarkeit. Je nach Art und Umfang braucht es Arbeitsanweisungen,
-    eine geregelte Verantwortung für das Archiv, eine Archivsystematik, Schutz vor unbefugtem Zugriff und die Aufzeichnung von Zugriffen.'
-  quelle: hwp-bur-2023__rz-0142-s093-t1
-  zitat: Die Aufbewahrung muss so erfolgen, dass keine Änderungen vorgenommen werden können, ohne dass sich dies feststellen lässt
-- text: 'Spezialgesetze können längere Fristen vorsehen. Nach MWST-Recht (steuerrechtliche Vorschrift, nicht OR) gelten laut HWP BuR 2023 für Belege zu Immobilien mindestens 20 Jahre,
-    für übrige Belege mindestens 10 Jahre, jeweils bis zur Verjährung der Steuerforderung. Abweichung: PH 20 (2016) nennt 25 Jahre (siehe Agent-Hinweise).'
-  quelle: hwp-bur-2023__rz-0143-s093
-  zitat: Demnach beträgt die Aufbewahrungsfrist für Belege, welche Immobilien betreffen, mindestens 20 Jahre, für übrige Belege mindestens 10 Jahre.
+- text: 'Pflichtbücher (Art. 1 GeBüV): ein Hauptbuch (Konten und Journal) und je nach Art und Umfang des Geschäfts Hilfsbücher (Lohn-, Debitoren-, Kreditorenbuchhaltung, Warenbestände
+    bzw. nicht fakturierte Dienstleistungen).'
+  quelle: gebuev__art-1
+  zitat: Darunter fallen insbesondere die Lohnbuchhaltung, die Debitoren- und Kreditorenbuchhaltung
+- text: 'GeBüV: Bücher und Belege so führen und aufbewahren, dass jede Änderung feststellbar ist (Art. 3, Integrität). Werden sie elektronisch geführt, gelten die Grundsätze der ordnungsgemässen
+    Datenverarbeitung (Art. 2 Abs. 2). Je nach Art und Umfang des Geschäfts braucht es Arbeitsanweisungen zu Organisation, Zuständigkeiten, Abläufen und Infrastruktur (Art. 4). Bis zum
+    Ende der Frist müssen die Unterlagen einsehbar und prüfbar sein (Art. 6). Die Verantwortung für das Archiv ist zu regeln, Zugriffe und Zutritte sind aufzuzeichnen (Art. 7/8). Siehe
+    auch HWP BuR Rz 142 ^[hwp-bur-2023__rz-0142-s093-t1].'
+  quelle: gebuev__art-3
+  zitat: dass sie nicht geändert werden können, ohne dass sich dies feststellen lässt
+- text: 'Informationsträger (Art. 9/10 GeBüV): Zulässig sind unveränderbare Träger (Papier, Bildträger, unveränderbare Datenträger). Veränderbare Träger nur mit Integritätsverfahren
+    (z.B. digitale Signatur), unverfälschbar nachweisbarem Speicherzeitpunkt (Zeitstempel) sowie festgelegten und dokumentierten Abläufen samt aufbewahrten Protokollen. Die Träger sind
+    regelmässig auf Integrität und Lesbarkeit zu prüfen, jede Datenmigration ist zu protokollieren ^[gebuev__art-10].'
+  quelle: gebuev__art-9
+  zitat: unveränderbare Informationsträger, namentlich Papier, Bildträger und unveränderbare Datenträger
+- text: 'Spezialgesetze können längere Fristen vorsehen (Steuerrecht, nicht OR). MWST (Art. 70 MWSTG, Fassung 31.03.2025): Geschäftsbücher, Belege und Aufzeichnungen bis zur absoluten
+    Verjährung der Steuerforderung aufbewahren, also 10 Jahre nach Ablauf der Steuerperiode, in der die Forderung entstanden ist (Art. 42 Abs. 6 MWSTG ^[mwstg__art-42]). Unterlagen zur
+    Einlageentsteuerung und zum Eigenverbrauch von unbeweglichen Gegenständen: 20 Jahre (Art. 70 Abs. 3), ebenso HWP BuR Rz 143 ^[hwp-bur-2023__rz-0143-s093]. Art. 958f OR bleibt vorbehalten.'
+  quelle: mwstg__art-70
+  zitat: Geschäftsunterlagen, die im Zusammenhang mit der Berechnung der Einlageentsteuerung und des Eigenverbrauchs von unbeweglichen Gegenständen benötigt werden, sind während 20 Jahren
+    aufzubewahren
 - text: 'Dokumentationspflicht der Revisionsstelle (Art. 730c OR): Alle Revisionsdienstleistungen werden dokumentiert. Revisionsberichte und alle wesentlichen Unterlagen sind mindestens
     10 Jahre aufzubewahren, und elektronische Daten müssen so lange lesbar bleiben. Die Unterlagen müssen eine effiziente Prüfung erlauben, ob die gesetzlichen Vorschriften eingehalten
     wurden (Abs. 2).'
@@ -130,14 +164,26 @@ aussagen:
     sind und die Daten wieder lesbar gemacht werden können (HWP ER Rz 288 mit Art. 730c Abs. 1 OR).
   quelle: hwp-er-2026__rz-0288-s248
   zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
-- text: 'Qualitätssicherung: Gesetzliche Revisionsdienstleistungen darf nur erbringen, wer ein internes Qualitätssicherungssystem hat (Art. 6 Abs. 1 lit. d RAG i.V.m. Art. 9 Abs. 1 RAV).
-    Die Ausgestaltung liegt beim Revisionsunternehmen und richtet sich nach Umfang und Komplexität der Mandate (skalierte Qualitätssicherung, SER 1.3.2).'
-  quelle: ser-2022__1-3-2
-  zitat: Gesetzliche Revisionsdienstleistungen darf nur erbringen, wer über ein internes Qualitätssicherungssystem verfügt
-- text: 'Leitfaden QM (ISQM-CH 1 Tz. 31(f)): Die Prüfgesellschaft legt eine Frist für die endgültigen Auftragsakten fest, bei Abschlussprüfungen in der Regel höchstens 60 Tage nach dem
-    Datum des Revisionsberichts. Die Auftragsdokumentation ist vertraulich. Kontrollen sollen festhalten, wer sie wann erstellt, geändert und durchgesehen hat, und ihre Integrität wahren.'
+- text: 'Qualitätssicherung: Zugelassen wird nur ein Revisionsunternehmen, dessen Führungsstruktur die einzelnen Mandate genügend überwacht (Art. 6 Abs. 1 lit. d RAG ^[rag__art-6]).
+    Dazu braucht es ein internes Qualitätssicherungssystem und die Überwachung seiner Angemessenheit und Wirksamkeit (Art. 9 Abs. 1 RAV). Die Ausgestaltung richtet sich nach Umfang und
+    Komplexität der Mandate (skalierte Qualitätssicherung, SER 1.3.2 ^[ser-2022__1-3-2]).'
+  quelle: rav__art-9
+  zitat: ein internes Qualitätssicherungssystem aufweist
+- text: 'Mindeststandard (RAB-RS 1/2014 Rz 3): Für die eingeschränkte Revision gilt mindestens die Anleitung von TREUHAND|SUISSE, ab 15.12.2026 die AQM ^[rab-rs-1-2014-aenderung-2026__s002-1].
+    Das gilt auch für Revisionsexperten ohne ordentliche Revisionen (Rz 6 ^[rab-rs-1-2014__s002-2]). ISQC-/ISQM-CH 1 ist Mindeststandard für die ordentliche Revision (Rz 7 ^[rab-rs-1-2014__s003-1]).
+    Die Anleitung selbst liegt nicht im Wiki.'
+  quelle: rab-rs-1-2014__s002-1
+  zitat: Die interne Qualitätssicherung in Bezug auf die Prüfung der Jahresrechnung muss mindestens die Vorgaben der Anleitung von TREUHAND|SUISSE zur Qualitätssicherung bei kleinen und
+    mittelgrossen Revisionsunternehmen in der aktuellen Fassung erfüllen.
+- text: 'Leitfaden QM (EXPERTsuisse, Umsetzung ISQM-CH 1 Tz. 31(f); für SER-Mandate ergänzend): Die Prüfgesellschaft legt eine Frist für die endgültigen Auftragsakten fest, bei Abschlussprüfungen
+    in der Regel höchstens 60 Tage nach dem Datum des Revisionsberichts. Die Auftragsdokumentation ist vertraulich. Kontrollen können festhalten, wer sie wann erstellt, geändert und durchgesehen
+    hat, und ihre Integrität wahren.'
   quelle: leitfaden-qm-2025__6-1-11-t1
   zitat: die Feststellung ermöglichen, wann und von wem die Auftragsdokumentation erstellt, (zuletzt) geändert und durchgesehen wurde
+- text: 'Nachschau (RAB): jährlich, mit Firm- und File-Review und schriftlichem Nachschaubericht. Die verantwortliche Person unterzeichnet die Berichte, die Unterlagen werden mindestens
+    10 Jahre aufbewahrt ^[rab-qualitaetssicherung__c002-3].'
+  quelle: rab-qualitaetssicherung__c002-2
+  zitat: Die Nachschau ist jährlich durchzuführen. Sie umfasst sowohl eine Firm- als auch eine File-Review.
 - text: 'Auskunft und Geheimhaltung (Art. 730b OR): Der VR übergibt der Revisionsstelle alle Unterlagen und erteilt die nötigen Auskünfte, auf Verlangen schriftlich (Abs. 1). Die Revisionsstelle
     wahrt das Geheimnis über ihre Feststellungen, soweit keine gesetzliche Bekanntgabepflicht besteht. Bei Bericht, Anzeigen und Auskünften an die GV wahrt sie die Geschäftsgeheimnisse
     (Abs. 2).'
@@ -160,11 +206,12 @@ agent:
   Notiz «Pendenz» mit Konto, Datum und Betrag erfassen.'
 - 'Bestandsnachweis (Art. 958c Abs. 2 OR): je Bilanzposition einen Detailnachweis aus M-Files verwenden (z.B. Bankauszug, OP-Liste, Inventarliste, Anlagespiegel, Darlehensvertrag) und
   im Textfeld mit M-Files-ID und Version angeben. Fehlt der Nachweis, eine Pendenz erfassen.'
-- 'Aufbewahrung beim Kunden: Hinweise auf fehlende, unlesbare oder nicht revisionssicher abgelegte Bücher oder Belege (GeBüV-Integrität ^[hwp-bur-2023__rz-0142-s093-t1]) nur als Notiz
-  «Schlussbesprechung» festhalten. Ob darin ein Verstoss liegt, beurteilt der WP.'
-- 'MWST-Aufbewahrungsfrist für Immobilienbelege: Die Quellen widersprechen sich. HWP BuR 2023 nennt 20 Jahre ^[hwp-bur-2023__rz-0143-s093], PH 20 (2016) nennt 25 Jahre ^[ph-20-mwst-2016__c004-2].
-  Die geltende MWSTG-Fassung liegt nicht im Wiki. Deshalb als «strittig» kennzeichnen, die jüngere Fundstelle nennen und vom WP bzw. einer Fachperson bestätigen lassen. Es ist eine steuerliche
-  Vorschrift, keine Vorschrift des OR.'
+- 'Aufbewahrung beim Kunden (GeBüV): Fehlt ein Beleg zu einem geprüften Posten → Notiz «Pendenz» mit Konto, Datum und Betrag (wie Prüfpfad). Bei Systemmängeln der Aufbewahrung → Notiz
+  «Schlussbesprechung» mit dem Artikel der GeBüV ^[gebuev__art-3]. Systemmängel sind: keine Arbeitsanweisungen, keine Aufzeichnung der Zugriffe, Unterlagen nicht lesbar, Änderungen
+  nicht feststellbar. Ob ein Gesetzesverstoss vorliegt (`thema gesetzesverstoesse`), beurteilt der WP.'
+- 'MWST-Aufbewahrung: Massgebend ist das Gesetz (`wert aufbewahrung`). 20 Jahre für Unterlagen zur Einlageentsteuerung und zum Eigenverbrauch unbeweglicher Gegenstände ^[mwstg__art-70],
+  übrige Unterlagen 10 Jahre nach Ablauf der Steuerperiode ^[mwstg__art-42]. Die 25 Jahre aus PH 20 (2016) nicht verwenden und nicht als «strittig» markieren. Es ist eine steuerliche
+  Pflicht des Kunden, keine Pflicht nach OR. Hinweise nur als Notiz «Schlussbesprechung».'
 - 'Dokumentation in revio: Je Prüfschritt das Textfeld nach Vorlage ausfüllen (Prüfziel, Quellen mit M-Files-ID und Version, Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen,
   Pendenzen, Status; ^[konzept-ki-revisionsagent-2026__c009-3]). Ziel ist, dass eine nicht beteiligte Fachperson die Arbeit nachvollziehen kann (^[hwp-er-2026__rz-0276-s246]). Bei vom
   Kunden gelieferten Aufstellungen festhalten, wer sie erstellt hat und wann sie eingegangen sind.'
@@ -173,21 +220,24 @@ agent:
 - 'Dauerakten (Prüfschritte x-322) nachführen: Verträge, HR-Auszug, Statuten (^[ser-2022__7-3], ^[hwp-er-2026__rz-0279-s247]). Änderungen gegenüber dem Vorjahr im Textfeld nennen.'
 - 'Jahresakten: Die unterzeichnete Jahresrechnung und die Vollständigkeitserklärung gehören in revio 10.4 (^[ser-2022__7-2]). Fehlt eine Unterschrift oder ein Dokument, eine Pendenz
   erfassen. Der Agent lässt nie selbst unterzeichnen.'
-- 'Abgeschlossene Akte: Die interne Frist für den Aktenabschluss beträgt in der Regel höchstens 60 Tage nach Berichtsdatum (^[hwp-er-2026__rz-0334-s258]). Danach nichts entfernen oder
-  ändern. Spätere Änderungen nur auf Anweisung des WP, festgehalten mit Person, Datum, Grund und Auswirkung (^[hwp-er-2026__rz-0286-s248]). Der Agent löscht nie.'
+- 'Abgeschlossene Akte: Die Frist für den Aktenabschluss legt das Revisionsunternehmen intern fest (QM-Handbuch). HWP ER nennt als Beispiel in der Regel höchstens 60 Tage nach Berichtsdatum
+  ^[hwp-er-2026__rz-0334-s258]. Danach nichts entfernen oder ändern. Spätere Änderungen nur auf Anweisung des WP, festgehalten mit Person, Datum, Grund und Auswirkung (^[hwp-er-2026__rz-0286-s248]). Der Agent löscht nie.'
 - 'Audit Trail: Jede Aktion, Quelle und Berechnung mit Zeitstempel je Mandat und Jahr in M-Files ablegen (^[konzept-ki-revisionsagent-2026__c009-3]). Wie lange die Agenten-Protokolle
   aufbewahrt werden, ist noch nicht entschieden (Governance ^[konzept-ki-revisionsagent-2026__c022-1]); bis zum Entscheid nichts löschen.'
-- 'Revisions- und Berufsgeheimnis (Art. 730b Abs. 2 OR, Art. 321 StGB ^[hwp-er-2026__rz-0491-s140]): Mandatsdaten nur im festgelegten Mandatskontext verwenden und nie an Dritte weitergeben.
-  E-Mails nur als Entwurf oder an die feste WP-Adresse. Verlangen Behörden, RAB oder Dritte Akten, sofort an den WP weiterleiten; die RAB sollte eine formelle Editionsverfügung erlassen
-  (^[hwp-er-2026__rz-0244-s082]).'
+- 'Revisions- und Berufsgeheimnis (Art. 730b Abs. 2 OR, Art. 321 StGB ^[stgb__art-321]; strafbar sind auch die Hilfspersonen): Mandatsdaten nur im festgelegten Mandatskontext und nur
+  in den von consis freigegebenen Systemen bearbeiten. Nie an Dritte oder an nicht freigegebene externe Dienste senden (Websuche, Cloud-KI, Übersetzer, private Konten). Ein Auftragsbearbeiter
+  ist nur zulässig, wenn keine Geheimhaltungspflicht die Übertragung verbietet (Art. 9 Abs. 1 lit. b DSG ^[dsg__art-9]). Für das Berufsgeheimnis genügt ein DPA/AVV allein nicht ^[seminar-ki-datenschutz-2026__s003-1].
+  Verlangt ein Schritt einen externen Dienst: abbrechen und Pendenz an den WP. Details: `prozess p7-qualitaet`. E-Mails nur als Entwurf oder an die feste WP-Adresse. Verlangen Behörden,
+  die RAB oder Dritte Akten: sofort an den WP weiterleiten (^[hwp-er-2026__rz-0244-s082]).'
 - Gegenüber dem VR besteht eine uneingeschränkte Auskunftspflicht (^[hwp-er-2026__rz-0468-s290]). Die Kommunikation mit dem Kunden führt jedoch der WP; der Agent erfasst offene Fragen
   als Pendenz oder in revio 10.11.
 - 'QM: Der Auftragsverantwortliche muss vor Abgabe des Revisionsberichts die Durchsicht der Arbeiten weniger erfahrener Teammitglieder sicherstellen (^[leitfaden-qm-2025__6-2-t3]). Die
-  Vorarbeit des Agenten gilt dafür wie Teamarbeit, die der WP durchsieht. Der Agent meldet den Status im Rapport, gibt aber nichts frei.'
+  Vorarbeit des Agenten gilt dafür wie Teamarbeit, die der WP durchsieht. Der Agent meldet den Status im Rapport, gibt aber nichts frei. Nachschau (Firm-/File-Review) und Firmen-QS
+  gehören nicht zur Akte. Der Agent hat dort keine Rolle (`revio 9`), auf Anweisung stellt er höchstens Akten bereit.'
 - 'Externe Nachschau oder auftragsbegleitende Qualitätssicherung: Akteneinsicht für Dritte erfordert eine Entbindung vom Revisionsgeheimnis und eine Vertraulichkeitserklärung (^[leitfaden-qm-2025__6-1-12-t1],
   ^[hwp-er-2026__rz-0124-s177]). Das regelt der WP, nicht der Agent.'
-- 'Doppelmandat (Mitwirkung bei der Buchführung, Art. 729 Abs. 2 OR): prüfen, ob in revio 2.x eine separate Auftragsbestätigung vorliegt (^[ser-2022__1-7]). Fehlt sie, eine Pendenz für
-  den WP erfassen.'
+- 'Doppelmandat (Mitwirkung bei der Buchführung, Art. 729 Abs. 2 OR): prüfen, ob in revio Bereich 2 (2.2 Auftragsannahme; Aufruf `revio 2`) eine separate Auftragsbestätigung vorliegt.
+  Die Mitwirkung braucht eine separate Auftragsbestätigung ^[rab-unabhaengigkeit__c004-4], SER 1.7 empfiehlt sie ^[ser-2022__1-7]. Fehlt sie, eine Pendenz für den WP erfassen.'
 prueffelder:
 - A1
 - T1
