@@ -12,15 +12,15 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 823d69cc227be5a518db69fa3734b6869e39999be93ce673328cfe6f8024656f
+quelle_sha: c653e02c6866a55a6ec154288a2bdfdeaf796e80e57177a42227cd64549249a2
 ---
 
 
 # I1 · Immaterielle Anlagen
 
-revio Bereich 4 · 19 Schritte (Befragung 4, Analytisch 1, Detail 6, Sonstige 8; EP 5, WP 2) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/i1.md](../wiki/prueffelder/i1.md)
+revio Bereich 4 · 19 Schritte (Befragung 4, Analytisch 1, Detail 6, Sonstige 8; EP 5, WP 2) · Status 🟡 extrahiert · Detail mit Zitaten: [wiki/prueffelder/i1.md](../wiki/prueffelder/i1.md)
 
-Immaterielle Werte (Software, Lizenzen, Patente, Marken, aktivierte Entwicklungen, derivativer Goodwill) inkl. Abschreibungen sowie nicht einbezahltes Grundkapital. Eingeschränkte Revision (vorbereiten): Befragung (I1-101–104, schriftliche Antwort/Pendenz), VJ-Vergleich (I1-201), Abstimmung Anlagespiegel/Hauptbuch/Bilanz/ER (I1-301), Anhang, stille Reserven, Dauerakten (I1-320–322); WP-Schritte (I1-302/303) und 4xx (I1-401–408) nur auf Anweisung des WP. Keine Bewertungsgutachten.
+Immaterielle Werte (Software, Lizenzen, Patente, Marken, Entwicklungen, derivativer Goodwill) inkl. Abschreibungen; nicht einbezahltes Grundkapital. Vorbereiten: Befragung, VJ-Vergleich, Abstimmung Anlagespiegel/Bilanz, Anhang, stille Reserven; WP-Schritte und 4xx nur auf Anweisung; keine Gutachten.
 
 ## Risiken
 - Aktivierung nicht aktivierbarer Aufwendungen (Gründungs-, Kapitalerhöhungs-, Organisations-, Schulungs-, Forschungs- oder Restrukturierungskosten) als immaterieller Wert. [EX, BE] — [HWP BuR S. 243](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0411-s243.md)
@@ -71,7 +71,7 @@ Immaterielle Werte (Software, Lizenzen, Patente, Marken, aktivierte Entwicklunge
 - Detailnachweis stille Reserven bzw. Anlagenbuchhaltung zu betriebswirtschaftlichen Werten (GJ und VJ) – Bestand und Veränderung stiller Reserven, Anhangangabe (I1-321/407/320) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
 - VR- und GV-Protokolle (Investitionsentscheide, Projektabbrüche, Einforderung nicht einbezahlten Kapitals) – Zugänge, Wertbeeinträchtigungen, Liberierung (I1-103/104/408) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
 - Bei nicht einbezahltem Kapital: Statuten, Handelsregisterauszug, Aktienbuch, VR-Beschluss zur Einforderung, Bonitätsunterlagen der Aktionäre – Bestand, Ausweis und Werthaltigkeit des nicht einbezahlten Grundkapitals (I1-408) — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
-- Vom Kunden vorhandene Bewertungsgutachten (z.B. Patent-/Markenbewertung), falls bereits erstellt – Beizug als Unterlage zur Werthaltigkeit; kein Einholen durch die Revisionsstelle (I1-404) (Praxis/intern)
+- Vom Kunden vorhandene Bewertungsgutachten (z.B. Patent-/Markenbewertung), falls bereits erstellt – Beizug als Unterlage zur Werthaltigkeit; kein Einholen durch die Revisionsstelle (I1-404) — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md) · [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0134-s203.md)
 
 ## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)
 - Welche Aktivierungs- und Bewertungsgrundsätze wenden Sie für immaterielle Werte an (Kategorien, Ersterfassung, Abschreibungsmethode linear/degressiv, direkt/indirekt, Nutzungsdauern bzw. Sätze je Kategorie)?

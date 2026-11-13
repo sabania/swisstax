@@ -10,7 +10,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 1d89cb9e6288f81f9340850d159efcf537ff5633e189092c53faf9cb6f48ed4f
+quelle_sha: c1d0b5b08fef1d92693e221fda14176bbd2d6c003e1a2161c8bb59a4a7b185cd
 ---
 
 
@@ -18,7 +18,7 @@ quelle_sha: 1d89cb9e6288f81f9340850d159efcf537ff5633e189092c53faf9cb6f48ed4f
 
 Status ☑️ agent-geprueft · erfasst 2026-11-13 · Nachprüfung: {'urteil': 'korrigieren', 'befunde': 16, 'korrigiert': True} · Schnellzugriff: [quick/prueffeld-sch2.md](../../quick/prueffeld-sch2.md)
 
-Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen gemäss SER Anh. D p): Befragung zu Grundsätzen und Abgrenzung (101), Margenvergleich je Produktkategorie (201); ergänzend Abweichungs-/Kontenanalyse (102/202). Detailprüfungen (301/302) nach Risiko und Wesentlichkeit. Cut-off (303): weiter gehend, WP-Schritt.
+Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen (SER Anh. D): Befragung Grundsätze/Abgrenzung (101), Margenvergleich (201), Analytik (102/202). Detailprüfungen (301/302) nach Risiko; Cut-off (303) WP-Schritt.
 
 ## Gesetz
 - **Wahl Produktions- oder Absatzerfolgsrechnung (Art. 959b Abs. 1 OR)**: «Sie kann als Produktionserfolgsrechnung oder als Absatzerfolgsrechnung dargestellt werden.» — [OR 959B](../../chunks/or/or__art-959b-t1.md)

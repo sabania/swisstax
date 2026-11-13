@@ -1011,8 +1011,8 @@ schritte:
   rechnen: 'Geschütztes EK = AK + PS-Kapital + min(gesetzl. Kapitalreserve + gesetzl. Gewinnreserve i.e.S.; 50 % von AK + PS, Holding 20 %) + Aufwertungsreserve + Reserve eigene Anteile im
     Konzern; EK für OR 725a/725b = bilanzielles EK + Kredite nach Art. 3 Covid-19-SBüV + Darlehen nach Art. 21 HFMV 20. Im Rechner nur über `--covid-kredit` eingeben; `--verbindlichkeiten`
     unverändert aus der Bilanz übernehmen (nicht zusätzlich abziehen). Kredite nach Art. 4 SBüV bleiben FK; Kapitalverlust, wenn EK für OR 725a/725b < 50 % geschütztes EK; Überschuldung,
-    wenn EK für OR 725a/725b < 0; Σ anrechenbare Rangrücktritte (je Gläubiger min(Betrag laut Vereinbarung; Forderung + aufgelaufene Zinsen)) ≥ Überschuldung (+ Polster für erwartete
-    Verluste); Nach Korrekturen und Deckung, Beispiel: `rechne "ek = -420000; korr = -35000; ek_neu = ek + korr; rr = 380000; rr + ek_neu"` (< 0 = Deckungslücke in dieser Höhe).'
+    wenn EK für OR 725a/725b < 0; Σ anrechenbare Rangrücktritte (je Gläubiger min(Betrag laut Vereinbarung; Forderung + aufgelaufene Zinsen)) ≥ Überschuldung + Sicherheitspolster für erwartete
+    Verluste (Höhe legt der WP fest; im Rechner `--rr-polster`, Ausgabe «Deckung»); Nach Korrekturen und Deckung, Beispiel: `rechne "ek = -420000; korr = -35000; ek_neu = ek + korr; rr = 380000; rr + ek_neu"` (< 0 = Deckungslücke in dieser Höhe).'
   feststellung_wenn: Kapitalverlust/Überschuldung ohne erfüllte VR-Pflichten oder Rangrücktritte ungenügend/mangelhaft/umgangen; bei Anzeichen offensichtlicher Überschuldung sofort Notiz
     «Wesentliche Feststellung» an WP (Art. 729c OR).
   fundstellen:
@@ -1073,6 +1073,8 @@ schritte:
     zitat: 'beides führt zum Dahinfallen der Vereinbarung'
   - quelle: hwp-er-2026__rz-0424-s126
     zitat: 'dass er erst dann wieder aufgehoben werden kann, wenn er entweder durch einen anderen in Höhe und Ausgestaltung genügenden Rangrücktritt ersetzt wird'
+  - quelle: hwp-er-2026__rz-0421-s125
+    zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten nach Unterzeichnung des Rangrücktritts
   notiz: 'Deckungslücke (Σ anrechenbare RR < Überschuldung) oder Rangrücktritt mangelhaft, getilgt oder ohne die Voraussetzungen reduziert bzw. aufgehoben (Reduktion: (a)–(c) HWP ER Rz 425;
     Aufhebung: Rz 424; zulässig ist Verzicht oder Umwandlung in EK, Rz 416) → «Wesentliche Feststellungen» (kein Buchungsvorschlag auf das Darlehen) + «Schlussbesprechung»; Anzeichen
     offensichtlicher Überschuldung → zusätzlich sofort an den WP (Art. 729c OR). Zwischenabschluss oder Vereinbarung nach Suche in GJ-, VJ- und Dauerakte nicht gefunden → «Pendenz» mit

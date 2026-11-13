@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 14
     korrigiert: true
-kurzbeschrieb: 'ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre und Bankguthaben, Bankspesen/-kommissionen, Erträge
-  aus Finanzanlagen, Fremdwährungsdifferenzen. In der eingeschränkten Revision v.a. analytisch (Vorjahresvergleich, Erwartungswert aus verzinslichen Positionen, Plausibilisierung FX);
-  Detailprüfungen nur weitergehend (WP).'
+kurzbeschrieb: 'Finanzaufwand und -ertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre, Bankguthaben, Bankspesen, Erträge aus Finanzanlagen,
+  Fremdwährungsdifferenzen. Vor allem analytisch (Vorjahr, Erwartungswert aus verzinslichen Positionen, FX); Detailprüfungen weiter gehend (WP).'
 gesetz:
 - thema: 'Mindestgliederung ER: Finanzaufwand und Finanzertrag als eigene Position (Produktionserfolgsrechnung Ziff. 7; Absatzerfolgsrechnung Ziff. 4)'
   quelle: or__art-959b-t1

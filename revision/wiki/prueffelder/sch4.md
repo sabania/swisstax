@@ -17,7 +17,7 @@ quellen:
 - vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 880c78d7a5dce2e0c00a3fe2fed861886c8e6ec4b347fefe3cf0e3aec73a7fc5
+quelle_sha: db7cdb8373a475b8e5afa8bd0b651f3c8efe7ac1220869e9f2bc4ae74a72bd75
 ---
 
 
@@ -25,7 +25,7 @@ quelle_sha: 880c78d7a5dce2e0c00a3fe2fed861886c8e6ec4b347fefe3cf0e3aec73a7fc5
 
 Status ☑️ agent-geprueft · erfasst 2026-11-13 · Nachprüfung: {'urteil': 'korrigieren', 'befunde': 14, 'korrigiert': True} · Schnellzugriff: [quick/prueffeld-sch4.md](../../quick/prueffeld-sch4.md)
 
-ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre und Bankguthaben, Bankspesen/-kommissionen, Erträge aus Finanzanlagen, Fremdwährungsdifferenzen. In der eingeschränkten Revision v.a. analytisch (Vorjahresvergleich, Erwartungswert aus verzinslichen Positionen, Plausibilisierung FX); Detailprüfungen nur weitergehend (WP).
+Finanzaufwand und -ertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre, Bankguthaben, Bankspesen, Erträge aus Finanzanlagen, Fremdwährungsdifferenzen. Vor allem analytisch (Vorjahr, Erwartungswert aus verzinslichen Positionen, FX); Detailprüfungen weiter gehend (WP).
 
 ## Gesetz
 - **Mindestgliederung ER: Finanzaufwand und Finanzertrag als eigene Position (Produktionserfolgsrechnung Ziff. 7; Absatzerfolgsrechnung Ziff. 4)**: «7. Finanzaufwand und Finanzertrag» — [OR 959B](../../chunks/or/or__art-959b-t1.md)

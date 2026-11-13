@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 12
     korrigiert: true
-kurzbeschrieb: 'Erfolgspositionen ausserhalb des Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand/Ertrag (z.B. nicht betriebsnotwendige Liegenschaften) sowie ausserordentlicher,
-  einmaliger oder periodenfremder Aufwand/Ertrag (z.B. Vorjahreskorrekturen). Anlagenverkaufserfolge nach Sachverhalt klassieren. Geprüft: Eintritt, Vollständigkeit, Abgrenzung, Klassierung
-  (Art. 959b OR), Anhang.'
+kurzbeschrieb: 'Erfolg ausserhalb des Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand/Ertrag (z.B. nicht betriebsnotwendige Liegenschaften), a.o., einmaliger oder
+  periodenfremder Erfolg; Anlagenverkäufe nach Sachverhalt klassieren. Geprüft: Eintritt, Vollständigkeit, Abgrenzung, Ausweis, Anhang.'
 gesetz:
 - thema: 'Mindestgliederung Produktionserfolgsrechnung: separater Ausweis betriebsfremder Aufwand/Ertrag (Art. 959b Abs. 2 Ziff. 8 OR)'
   quelle: or__art-959b-t1

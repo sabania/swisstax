@@ -1,7 +1,7 @@
 # Prüffeld G2 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
 code: G2
 bezeichnung: Immobile Sachanlagen
-status: agent-geprueft
+status: extrahiert
 erfasst:
   agent: workflow revision-prueffelder-wissen
   datum: '2026-11-12'
@@ -202,10 +202,22 @@ unterlagen:
   zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
 - dokument: Mieterspiegel, Mietverträge, Leerstandsliste
   zweck: Vollständigkeit Mieterträge, Rentabilität (G2-404/411)
+  quelle: katalog-revio4__c003-29
+  zitat: Vollständigkeit der Erträge (Mieten etc.)
+  weitere_fundstellen:
+  - quelle: katalog-revio4__c003-28
+    zitat: Beurteilung der Bewertung anhand der Rentabilität
 - dokument: Gebäudeversicherungspolice/-nachweis (Versicherungswert)
   zweck: Existenzhinweis, Plausibilisierung Wert (G2-406)
+  quelle: katalog-revio4__c003-28
+  zitat: Bestandesnachweis durch Grundbuchauszüge, Versicherungsnachweise etc.
 - dokument: Bereits vorhandene Schätzungen/Gutachten des Kunden (z.B. Bank- oder Steuerschätzung) – nur sofern vorhanden, keine Einholung durch die Revision
   zweck: Indikator für Werthaltigkeit (G2-105/402/408)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Die eingeschränkte Revision beschränkt sich auf die im Unternehmen intern vorhandenen Unterlagen.
+  weitere_fundstellen:
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten
 - dokument: VR- und GV-Protokolle (Investitions-, Kauf- und Verkaufsentscheide)
   zweck: Vollständigkeit Zu-/Abgänge, Ereignisse (G2-104)
   quelle: ser-2022__anh-d-s073-1

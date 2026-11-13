@@ -127,3 +127,9 @@ faelle:
 - text: 'Pendenz: Inventarliste Lager fehlt'
   aufgabe: notiz
   param: F1
+- text: Planung vorbereiten
+  aufgabe: planung
+- text: Prüfprogramm vorschlagen
+  aufgabe: planung
+- text: Abschlussanalyse für die Planung rechnen
+  aufgabe: planung

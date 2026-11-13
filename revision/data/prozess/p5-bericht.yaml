@@ -11,11 +11,18 @@ erfasst:
     korrigiert: true
 ziel: 'Den zusammenfassenden Bericht an die GV (OR 729b) als GVB-Entwurf vorbereiten: aus den Feststellungen Normalwortlaut oder Vorschlag für Einschränkung, Verneinung, Unmöglichkeit,
   Zusatz oder Hinweis ableiten, belegen und gegen 7.1/7.5 und die Mustervorlagen abgleichen. Prüfungsaussage, Datum, Unterschrift, Freigabe und Versand bleiben beim WP.'
-wann: 'Nach Abschluss der Prüffelder und der Beendigungsarbeiten (revio 6.1–6.3): direkt nach dem Versand des Revisionsrapports (Prozess 4), ohne auf das Visum zu warten; der WP prüft
+wann: 'Nach Abschluss der Prüffelder und der Beendigungsarbeiten (revio 6.1–6.3): direkt nach dem Versand des Revisionsrapports (Agent-Prozess 4), ohne auf das Visum zu warten; der WP prüft
   und visiert den Rapport und gibt danach den Bericht (Entwurf) frei (Flussdiagramm). Das Berichtsdatum
   liegt frühestens bei der Unterzeichnung oder Genehmigung der JR durch den VR und soll dem tatsächlichen Prüfungsende entsprechen; liegt die Abgabe später, trägt der Bericht das Abgabedatum
   (keine Rückdatierung). Der Bericht muss vor der GV vorliegen und 20 Tage vorher zugänglich sein. Nach der Abgabe nur noch bei neuen Tatsachen tätig werden. Hinweise auf Kapitalverlust
   oder Überschuldung warten nicht auf den Bericht: sofort an den WP melden.'
+aufrufe:
+- aufgabe gvb-bericht
+- revio K12
+- aufgabe kapitalschutz
+- suche "Hinweis Kapitalverlust Bericht" --quelle muster-hwp-er-2026
+- revio nur-mensch
+- aufgabe pdf-akte
 gesetz:
 - thema: Zusammenfassender Bericht an die GV, schriftlich (OR 729b Abs. 1)
   quelle: or__art-729b
@@ -333,7 +340,7 @@ schritte:
     zitat: so weist der Revisionsbericht einzig darauf hin, dass die gesetzlichen Anforderungen der Unabhängigkeit erfüllt sind
   - quelle: ser-2022__8-5
     zitat: Wir bestätigen, dass wir die gesetzlichen Anforderungen hinsichtlich Zulassung (und Unabhängigkeit) erfüllen.
-- was: GVB-Entwurf erstellen (Prozess 5). Vorjahres-Deckblatt und Berichtstext in M-Files suchen und als Kopie für das neue Geschäftsjahr anlegen. Firma, Sitz, Stichtag, Geschäftsjahr,
+- was: GVB-Entwurf erstellen (Agent-Prozess 5). Vorjahres-Deckblatt und Berichtstext in M-Files suchen und als Kopie für das neue Geschäftsjahr anlegen. Firma, Sitz, Stichtag, Geschäftsjahr,
     Jahresergebnis bzw. Bilanzgewinn und Beilagen aktualisieren. Den Wortlaut gegen die aktuelle Mustervorlagensammlung (Normalwortlaut verbindlich) und SER Anhang F prüfen. Ort/Datum,
     Unterschrift, Name und Zulassung des leitenden Revisors als leere Platzhalter lassen und Unklares markieren.
   wer: Agent
@@ -411,7 +418,7 @@ schritte:
     zitat: sollte er die Umstände, welche zur erwarteten Abweichung führen, den für die Erstellung der Jahresrechnung Verantwortlichen mitteilen
   - quelle: hwp-er-2026__rz-0458-s289
     zitat: Punkte, die zu einer Modifizierung der Prüfungsaussage, zu Hinweisen bzw. Zusätzen im Bericht der Revisionsstelle geführt haben
-- was: 'GVB-Entwurf mit dem Rapport an die freigegebene WP-Adresse übergeben (Handlung des Agenten, Prozess 4/5): vorgeschlagene Prüfungsaussage, Zusätze/Hinweise mit Fundstellen, offene
+- was: 'GVB-Entwurf mit dem Rapport an die freigegebene WP-Adresse übergeben (Handlung des Agenten, Agent-Prozess 4/5): vorgeschlagene Prüfungsaussage, Zusätze/Hinweise mit Fundstellen, offene
     Pendenzen, M-Files-ID/Version. Durchsicht, Freigabe, Datierung, Unterzeichnung durch den leitenden Revisor und Versand an den Kunden entscheidet und erledigt ausschliesslich der
     WP.'
   wer: Agent bereitet vor, WP entscheidet
@@ -444,7 +451,7 @@ schritte:
   - quelle: hwp-er-2026__rz-0446-s287
     zitat: Die Revisionsstelle wird den Gewinnverwendungsbeschluss erst im Folgejahr prüfen können.
 - was: 'Praxis/intern – offener Entscheid consis: Die Ablage des unterzeichneten Berichts in 10.5 Berichtsablage bzw. in M-Files ist kein Prozess des Pflichtenhefts. Der Agent beschränkt
-    sich in Bereich 10 auf 10.9, PBC-Vorschläge und das Auswerten von 10.11. Ablage daher durch den WP oder durch den Agenten nur auf ausdrückliche Anweisung des WP (analog Prozess 6);
+    sich in Bereich 10 auf 10.9, PBC-Vorschläge und das Auswerten von 10.11. Ablage daher durch den WP oder durch den Agenten nur auf ausdrückliche Anweisung des WP (analog Agent-Prozess 6);
     dann Speicherort bestätigen und nichts überschreiben. Status in Bereich 10 und Visum bleiben beim Menschen. Aufbewahrung mindestens zehn Jahre.'
   wer: WP
   revio: 10.5 Berichtsablage (Status offen lassen; Agent nur auf Anweisung)
@@ -526,7 +533,7 @@ unterlagen:
   quelle: or__art-729a
   zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
 - dokument: GVB-Deckblatt und Berichtstext des Vorjahres (M-Files-Vorlagen)
-  zweck: Ausgangspunkt für den GVB-Entwurf (Prozess 5)
+  zweck: Ausgangspunkt für den GVB-Entwurf (Agent-Prozess 5)
   quelle: konzept-ki-revisionsagent-2026__c019-1
   zitat: 'GVB-Deckblatt und Berichtstext: Vorlagen vorhanden, werden für den produktiven Agenten bereitgestellt'
 - dokument: Revisionsbericht des Vorjahres bzw. der Vorgänger-Revisionsstelle

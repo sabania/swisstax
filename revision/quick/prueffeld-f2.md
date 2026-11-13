@@ -11,13 +11,13 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 7e7486453d9b4568e67a5e589bbd57a54c7f4c43e535872d26e97555322c68f9
+quelle_sha: f603a274e09dc311d01a6468bc464f16fd43b76856f5cddce0aa8dc7ba746800
 ---
 
 
 # F2 · Nicht fakturierte Leistungen
 
-revio Bereich 4 · 24 Schritte (Befragung 5, Analytisch 3, Detail 8, Sonstige 8; EP 7, WP 4) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/f2.md](../wiki/prueffelder/f2.md)
+revio Bereich 4 · 24 Schritte (Befragung 5, Analytisch 3, Detail 8, Sonstige 8; EP 7, WP 4) · Status 🟡 extrahiert · Detail mit Zitaten: [wiki/prueffelder/f2.md](../wiki/prueffelder/f2.md)
 
 Nicht fakturierte Dienstleistungen/angefangene Arbeiten (Art. 959a OR) inkl. Anzahlungen und Bestandesänderung. ER: Befragung, Analytik und Detailprüfung zu Bestand, Bewertung (höchstens Herstellkosten, verlustfrei je Projekt) und Abgrenzung (vor dem Stichtag abgenommen = Ertrag des Prüfjahres).
 

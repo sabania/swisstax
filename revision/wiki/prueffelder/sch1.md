@@ -12,7 +12,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: bc4d9abb0b127affd77dc530e0a11ab6ab48c495d103b631544e3998afb116f5
+quelle_sha: c48d8f4b2751ab90ef0f0c12ceace8a9297ded54bb18ab58eb68acfd80720ae4
 ---
 
 
@@ -20,7 +20,7 @@ quelle_sha: bc4d9abb0b127affd77dc530e0a11ab6ab48c495d103b631544e3998afb116f5
 
 Status ☑️ agent-geprueft · erfasst 2026-11-13 · Nachprüfung: {'urteil': 'korrigieren', 'befunde': 14, 'korrigiert': True} · Schnellzugriff: [quick/prueffeld-sch1.md](../../quick/prueffeld-sch1.md)
 
-Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzung zu Finanz-, betriebsfremdem und a.o. Ertrag. ER: empfohlen Befragung zu Umsatzerfassung/Cut-off und Margenvergleich; dazu Saldo-/Budgetanalytik, Gliederung nach Art. 959b OR. Belegabstimmung weiter gehend bei Risiko; Cut-off-Einsicht ist WP-Schritt (nur auf Anweisung); JET nur auf WP-Anweisung, Drittbestätigungen nicht Bestandteil.
+Nettoerlöse LuL inkl. Erlösminderungen; Abgrenzung zu Bestandesänderungen, Finanz-, betriebsfremdem und a.o. Ertrag. Empfohlen: Befragung Umsatzerfassung/Cut-off, Margenvergleich, Saldo-/Budgetanalytik, Gliederung (Art. 959b OR). Belege weiter gehend; Cut-off-Einsicht und JET nur auf WP-Anweisung.
 
 ## Gesetz
 - **Zeitliche und sachliche Abgrenzung von Aufwand und Ertrag (Cut-off)**: «Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.» — [OR 958B](../../chunks/or/or__art-958b.md)

@@ -32,7 +32,7 @@ werte:
   einheit: Text
   gilt: HWP ER, Ausgabe 2026
   kategorie: kapitalschutz
-  bemerkung: 'HWP ER Rz 370. Schwelle = Hälfte davon, Vergleich mit dem bilanziellen Eigenkapital der letzten Jahresrechnung (Rz 371). Rechner: kapitalverlust --aktienkapital … --eigenkapital
+  bemerkung: 'HWP ER Rz 370. Schwelle = Hälfte davon, Vergleich mit dem bilanziellen Eigenkapital der letzten Jahresrechnung (Rz 371 ^[hwp-er-2026__rz-0371-s112]). Rechner: kapitalverlust --aktienkapital … --eigenkapital
     … --kapitalreserve … --gewinnreserve … [--holding] [--reserve-voll …].'
   quelle: hwp-er-2026__rz-0370-s112
   zitat: im Betrag von zusammen maximal 50 % – resp. bei Holdinggesellschaften 20 % –

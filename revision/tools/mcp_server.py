@@ -86,7 +86,9 @@ TOOLS = [
      "inputSchema": obj({"frage": S}, [])},
     {"name": "wert", "fn": lambda a: rv.wert(a["begriff"]),
      "description": "Schwellenwerte, Sätze, Fristen mit Fundstelle (z.B. revisionspflicht, kapitalverlust, reserven, aufbewahrung, "
-                    "zinssatz darlehen aktionär 2026, verdecktes eigenkapital, delkredere, mwst, wesentlichkeit).",
+                    "zinssatz darlehen aktionär 2026, verdecktes eigenkapital, delkredere, mwst, wesentlichkeit). Kategorie (mwst, fristen, "
+                    "kapitalschutz, revisionspflicht …) = alle Werte der Kategorie; genauer Schlüssel (Spalte key) = ein Wert mit ganzem Hinweis; "
+                    "Jahr im Begriff filtert (nie Werte eines anderen Jahres ohne Warnung).",
      "inputSchema": obj({"begriff": S}, ["begriff"])},
     {"name": "rechne", "fn": lambda a: rv.rechne(a["ausdruck"]),
      "description": "Rechnet exakt statt im Kopf (Summen, Abstimmungen, Differenzen, %, min/max/abs/sum; round kaufmännisch, runden5 = auf "

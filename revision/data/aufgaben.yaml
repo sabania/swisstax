@@ -3,7 +3,7 @@
 # Fertig-wenn, nächste Aufgabe. Ziel: der Agent hat nach EINEM Aufruf alles, was er für die Aufgabe braucht.
 # Grundlage: Konzept KI-Revisionsagent (consis) – Fundstelle je Aufgabe. Status: agent-geprueft (Review offen).
 # Checklistenpunkte mit eigener fachlicher Aussage tragen `fundstellen` (quelle + zitat, von lint.py geprüft).
-# Hauptkette (naechste): auftrag → mandat-start → import → wesentlichkeit → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss
+# Hauptkette (naechste): auftrag → mandat-start → import → planung → wesentlichkeit → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss
 # → rapport → gvb-bericht (Ende; pdf-akte nur auf Anweisung). Hilfsaufgaben (notiz, kapitalschutz, Playbooks) haben naechste: [] –
 # danach zurück zur aufrufenden Checkliste.
 # Synonyme je Prüffeld (für «Vorräte prüfen», «MWST», «Debitoren» …)
@@ -144,6 +144,58 @@ aufgaben:
     - quelle: konzept-ki-revisionsagent-2026__c009-3
       zitat: Menschliche Kontrollpunkte. In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
   fertig_wenn: Simulation stimmt mit der definitiven Jahresrechnung überein (Differenz 0) oder Differenzen als Pendenz; Halt, WP informiert.
+  naechste: [planung, wesentlichkeit, prueffeld]
+- id: planung
+  titel: Planung vorbereiten – Verständnis, Abschlussanalyse, Planungsnotiz, Tor vor Agent-Prozess 2
+  stichworte: [planung, pruefplanung, pruefprogramm, pruefplan, strategische planung, planung vorbereiten, risikobeurteilung, abschlussanalyse]
+  prozess: "0"
+  phase: p2-planung
+  ziel: 'Planung für den WP vorbereiten: Verständnis von Unternehmen und Umfeld aktualisieren, Abschlussanalyse rechnen, Planungsnotiz an den WP übergeben und das Tor vor Agent-Prozess 2 prüfen. revio 3 Planung (3.1–3.6) nur lesen; Vorschläge zu Risiko, Wesentlichkeit, Prüfungsplan und Prüfprogramm nur auf Anweisung des WP (Praxis/intern).'
+  quelle: konzept-ki-revisionsagent-2026__c006-2
+  zitat: 3.1 Risikobeurteilung pro Prüffeld, 3.2 Abschlussanalyse, 3.3 Wesentlichkeit, 3.4 Going concern, 3.5 Strategische Planung
+  regeln: [lesen, schreibbereiche, rechenmodul, testphase_halt, pendenz, kunde]
+  checkliste:
+  - text: 'Voraussetzung: `aufgabe mandat-start` (Kontext, Akte, Vorjahr, Revisionsart, 3.1/3.5 lesen, Wesentlichkeit 3.3) und `aufgabe import` sind erledigt – dort Erledigtes nicht wiederholen, Ergebnisse übernehmen (Praxis/intern). Phase lesen: `prozess p2` (kompakt); Wortlaut der Schritte: `prozess p2 schritte`.'
+    aufruf: prozess p2
+  - text: 'Verständnis von Unternehmen und Umfeld aktualisieren: Organisation, Geschäftsmodell, Rechnungswesen, Standorte, Eigentümer und nahestehende Personen, Rechnungslegungsrahmen – aus GV-/VR-Protokollen, Vorjahres- und Zwischenabschlüssen und Dauerakte; Änderungen gegenüber dem Vorjahr festhalten. Fragen nie selbst stellen: schriftliche Antworten (10.11) auswerten, sonst Notiz «Pendenz» mit Titel «Frage an Kunde». 2.1 nur lesen.'
+    aufruf: akte <pfad> --vj <vj-pfad> --suche "Protokoll|Statuten|Handelsregister|Organigramm"
+    fundstellen:
+    - quelle: ser-2022__3-1
+      zitat: Diese Kenntnisse umfassen beispielsweise die Organisation, die wichtigsten Elemente des Geschäftsmodells, das Rechnungswesen, die Standorte
+    - quelle: hwp-er-2026__rz-0026-s182
+      zitat: Durchsicht von Vorjahres- und Zwischenabschlüssen sowie Verwaltungsrats- und Generalversammlungsprotokollen
+    - quelle: konzept-ki-revisionsagent-2026__c012-1
+      zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung)'
+  - text: 'Abschlussanalyse: Bilanz und Erfolgsrechnung mit dem Vorjahr (und, wenn vorhanden, mit dem Budget) vergleichen, Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten, Eigenkapitalanteil) mit `rechne`; ungewöhnliche oder unerwartete Abweichungen je Prüffeld als mögliche Risikobereiche für den WP auflisten (Würdigung WP).'
+    aufruf: rechne "marge = <Bruttogewinn> / <Umsatz>; marge_vj = <Bruttogewinn VJ> / <Umsatz VJ>; marge - marge_vj"
+    fundstellen:
+    - quelle: ser-2022__3-2
+      zitat: Der Abschlussprüfer muss in der Planungsphase der Prüfung analytische Prüfungshandlungen durchführen
+    - quelle: hwp-er-2026__rz-0031-s183
+      zitat: Vergleiche wichtiger Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten im Umlaufvermögen, Eigenkapitalanteil etc.)
+    - quelle: konzept-ki-revisionsagent-2026__c009-2
+      zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
+  - text: 'Nur auf Anweisung des WP (Praxis/intern): Entwürfe zu Risikobeurteilung je Prüffeld, Wesentlichkeit (Rechner `wesentlichkeit`), Prüfungsplan und Prüfprogramm – nur in der Planungsnotiz, nie in revio 3.x erfassen. Ohne Anweisung keine Entwürfe; fehlende Unterlagen als Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen).'
+    aufruf: prozess p2 schritte
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c006-1
+      zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
+  - text: 'Planungsnotiz an den WP: Revisionspflicht mit Zahlen GJ/VJ, Unabhängigkeit/Mitwirkung (Angabe WP), Verständnis, Ergebnisse der Analytik, Befund Fortführung und Kapital (`kapitalverlust` aus `aufgabe mandat-start`), angewiesene Entwürfe – je mit Quelle (M-Files-ID); offene Punkte als Notiz «Pendenz», Themen für den Kunden als «Schlussbesprechung». Kein Visum.'
+    aufruf: revio K7
+    fundstellen:
+    - quelle: ser-2022__7-1
+      zitat: Zu dokumentieren sind insbesondere die Planung und die Durchführung der Prüfungsarbeiten.
+    - quelle: ser-2022__7-2
+      zitat: das inhärente Risiko sowie der darauf basierende Prüfungsplan;
+  - text: 'Tor vor Agent-Prozess 2 (Ergebnis ins Agenten-Protokoll): (1) Testphase: Importkontrolle durch den WP erfolgt? Sonst Halt und Pendenz. (2) Wesentlichkeit 3.3 erfasst und gelesen (`aufgabe wesentlichkeit`)? Sonst Pendenz und keine Prüffelder beginnen. (3) 3.1/3.5 gelesen? Fehlen Leserecht oder Eintrag: Pendenz, keine Annahme zu Risiko oder Strategie, nur die vom WP markierten bzw. angewiesenen Prüfschritte bearbeiten.'
+    fundstellen:
+    - quelle: konzept-ki-revisionsagent-2026__c009-3
+      zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
+    - quelle: konzept-ki-revisionsagent-2026__c014-1
+      zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+    - quelle: konzept-ki-revisionsagent-2026__c012-1
+      zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
+  fertig_wenn: Planungsnotiz (Verständnis, Analytik, Fortführung/Kapital; Entwürfe nur auf Anweisung) beim WP, offene Punkte als Notiz «Pendenz», Tor-Ergebnis im Agenten-Protokoll.
   naechste: [wesentlichkeit, prueffeld]
 - id: prueffeld
   titel: Prozess 2 – Prüffeld bearbeiten (markierte Abschlussprüfung)
@@ -211,7 +263,7 @@ aufgaben:
   stichworte: [unterlagen, protokoll, protokolle, 10.9, pbc, pbc-liste, 10.10, kundenbefragung, 10.11, gv-protokoll, vr-protokoll, prozess 3, fehlende unterlagen, ablegen]
   prozess: "3"
   phase: p8-agentablauf
-  ziel: '«Protokoll Vorjahr» heisst (Auslegung Praxis/intern; Befugnisse der GV: OR 698 ^[or__art-698]): Protokoll der ordentlichen GV im Geschäftsjahr über die Vorjahresrechnung (Beispiel: Geschäftsjahr 2026 → oGV 2026 über die Jahresrechnung 2025), dazu alle ausserordentlichen GV und VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres – aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.'
+  ziel: '«Protokoll Vorjahr» heisst (Auslegung Praxis/intern; Befugnisse der GV: OR 698 ^[or__art-698]): Protokoll der ordentlichen GV im Geschäftsjahr über die Vorjahresrechnung (Beispiel: Geschäftsjahr 2026 → oGV 2026 über die Jahresrechnung 2025), dazu alle ausserordentlichen GV und VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres – aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (Pendenz-Notiz «PBC-Vorschlag», nie direkt in 10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen
   regeln: [schreibbereiche, befragung, pendenz, mandatskontext, nicht_erfinden]
@@ -405,11 +457,21 @@ aufgaben:
   zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
   regeln: [or725a_kapitalverlust, or725b_zwischenabschluss, or725b_pruefung, or725b_rangruecktritt, or725b_90tage, or725b_gericht, or729c_anzeige, or725_zahlungsfaehigkeit]
   checkliste:
-  - text: Aktiven, Verbindlichkeiten inkl. Rückstellungen OHNE verbürgte Covid-19-Kredite (Art. 24 Covid-19-SBüG), Aktienkapital, nicht an die Aktionäre zurückzahlbare gesetzliche Kapitalreserve und gesetzliche Gewinnreserve aus der Jahresrechnung lesen; stille Reserven grundsätzlich nicht einrechnen (HWP ER Rz 369); dann rechnen.
-    aufruf: kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … --rangruecktritt …
+  - text: 'Aus der Jahresrechnung lesen: Aktiven; Fremdkapital (Verbindlichkeiten inkl. Rückstellungen und passive Rechnungsabgrenzungen) unverändert aus der Bilanz; Aktienkapital (nominell laut HR); gesetzliche Kapitalreserve (OR 671 Abs. 1) und gesetzliche Gewinnreserve im engeren Sinn (OR 672 Abs. 1). Kredite nach Art. 3 Covid-19-SBüV und Darlehen/Kredite nach Art. 21 HFMV 20 nur mit `--covid-kredit` eingeben – nicht zusätzlich von den Verbindlichkeiten abziehen; Kredite nach Art. 4 Covid-19-SBüV bleiben Fremdkapital. Aufwertungsreserve (OR 725c) und Reserve für eigene Kapitalanteile im Konzern (OR 659b) mit `--reserve-voll`, nicht in `--gewinnreserve`. Stille Reserven grundsätzlich nicht einrechnen (HWP ER Rz 369); dann rechnen.'
+    aufruf: kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …] [--rangruecktritt …]
     fundstellen:
     - quelle: covid-sbueg__art-24
       zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+    - quelle: qa-or-rechnungslegung-2026__10-t3
+      zitat: gilt der verbürgte COVID-19-Kredit im Umfang von CHF 0.5 Mio. nicht als Fremdkapital
+    - quelle: hwp-er-2026__rz-0373-s113
+      zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung 2020 (Art. 21 HFMV 20).
+    - quelle: hwp-er-2026__rz-0371-s112
+      zitat: resultierend aus der Summe der Aktiven abzüglich der Summe der Verbindlichkeiten
+    - quelle: hwp-er-2026__rz-0370-s112
+      zitat: die gesetzliche Kapitalreserve (Art. 671 Abs. 1 OR) und die gesetzliche Gewinnreserve im engeren Sinn (Art. 672 Abs. 1 OR)
+    - quelle: hwp-er-2026__rz-0370-s112
+      zitat: der volle Betrag der gesetzlichen Reserven für eigene Kapitalanteile im Konzern (Art. 659b Abs. 2 OR) und aus Aufwertungen (Art. 725c Abs. 1 OR)
     - quelle: qa-kapitalverlust-2023__1-1-t2
       zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
     - quelle: or__art-725a
@@ -426,8 +488,13 @@ aufgaben:
     fundstellen:
     - quelle: or__art-725b-t1
       zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
-  - text: 'Rangrücktrittsvereinbarungen prüfen: Betrag UND Zinsen während der Dauer der Überschuldung, Stundung, Ausmass ≥ Überschuldung, unterzeichnet.'
+  - text: 'Rangrücktrittsvereinbarungen prüfen: Betrag UND Zinsen während der Dauer der Überschuldung, Stundung, Ausmass ≥ Überschuldung, unterzeichnet. Sind weitere Verluste absehbar: Sicherheitspolster (Höhe legt der WP fest) – Deckung mit `kapitalverlust … --rangruecktritt <Σ laut Vereinbarungen inkl. Zinsen> --rr-polster <Polster>`.'
     aufruf: thema rangruecktritt
+    fundstellen:
+    - quelle: or__art-725b-t1
+      zitat: sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung umfasst
+    - quelle: hwp-er-2026__rz-0421-s125
+      zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten nach Unterzeichnung des Rangrücktritts
   - text: VR-Massnahmen (Protokolle) und Sanierung dokumentieren; Fortführungsfähigkeit beachten (ergänzend `pruefschritt A1-205`, Going Concern).
     aufruf: pruefschritt P1-313
   - text: Für den WP aufbereiten (Notiz Wesentliche Feststellungen/Schlussbesprechung) – Hinweis/Zusatz im Bericht und Anzeige (OR 729c) entscheidet der WP.
@@ -520,10 +587,21 @@ aufgaben:
   zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
   regeln: [gesamt, schlussbesprechung, visum]
   checkliste:
-  - text: Phase lesen (was nötig ist, WP-Entscheide).
-    aufruf: prozess p4
-  - text: Ereignisse nach dem Stichtag – Kontoblätter Folgejahr, Protokolle nach Stichtag durchsehen.
+  - text: Schritte der Phase ganz lesen (mit Prüfschritt-Ids und revio); WP-Entscheide bei Bedarf mit `prozess p4 entscheide`.
+    aufruf: prozess p4 schritte
+  - text: 'Ereignisse nach dem Stichtag: Befragung der Unternehmensleitung vorbereiten (bedeutende schwebende Geschäfte und Sachverhalte vor dem Stichtag mit Verlustrisiko, andere wesentliche Ereignisse; schriftliche Antworten auswerten, sonst Fragen als Pendenz) und GV-/VR-Protokolle nach dem Stichtag lesen (A1-102, A1-304). Durchsicht von Konten/Belegen in neuer Rechnung (SCH3-302 u.a.) ist WP-Schritt – nur auf Anweisung des WP; was in bereits vorhandenen Unterlagen auffällt → Notiz.'
     aufruf: thema ereignisse nach dem bilanzstichtag
+    fundstellen:
+    - quelle: hwp-er-2026__rz-0318-s254
+      zitat: Dabei wird sich der Abschlussprüfer bei der eingeschränkten Revision auf die Befragung zu bedeutenden schwebenden Geschäften und anderen Sachverhalten
+    - quelle: hwp-er-2026__rz-0321-s255-t1
+      zitat: Der Abschlussprüfer befragt die Unternehmensleitung zu allfälligen eingetretenen Ereignissen, die Anpassungen des Abschlusses oder Angaben im Abschluss erfordern.
+    - quelle: ser-2022__anh-d-s073-1
+      zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung
+    - quelle: katalog-revio4__c003-61
+      zitat: SCH3-302 | Detail | WP
+    - quelle: konzept-ki-revisionsagent-2026__c012-1
+      zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
   - text: Vollständigkeitserklärung – Muster und Inhalt.
     aufruf: thema vollstaendigkeitserklaerung
   - text: Nicht korrigierte Fehler summieren (Rechenmodul) – Beurteilung in 6.1 durch den WP.

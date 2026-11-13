@@ -6,18 +6,19 @@ quellen:
 - estv-mb-a-1995
 - hwp-bur-2023
 - hwp-er-2026
+- katalog-revio4
 - konzept-ki-revisionsagent-2026
 - or
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 20c4392f1f5068421ee0363f7d55fee26618742ae797311f8cf9d68ff3aadb7a
+quelle_sha: fcedb46d9f8a458d5e2c338e3fa42c5a3e23ef4acc38e5185399cf1efbf7e9db
 ---
 
 
 # G2 · Immobile Sachanlagen
 
-revio Bereich 4 · 28 Schritte (Befragung 6, Analytisch 2, Detail 9, Sonstige 11; EP 9, WP 4) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/g2.md](../wiki/prueffelder/g2.md)
+revio Bereich 4 · 28 Schritte (Befragung 6, Analytisch 2, Detail 9, Sonstige 11; EP 9, WP 4) · Status 🟡 extrahiert · Detail mit Zitaten: [wiki/prueffelder/g2.md](../wiki/prueffelder/g2.md)
 
 Grundstücke und Bauten im Eigentum (inkl. Baurecht, angefangene Bauten). Agent: 101–106 schriftlich auswerten, 201/202, 301/302, 320–322. WP-Schritte 303–306 und 4xx (z.B. Grundbuch, Gutachten) nur mit Anweisung des WP. Keine Liegenschaften: je Schritt «Vorschlag: nicht anwendbar» (Entscheid WP).
 
@@ -67,9 +68,9 @@ Grundstücke und Bauten im Eigentum (inkl. Baurecht, angefangene Bauten). Agent:
 - Baurechtsvertrag (bei Gebäuden auf fremdem Boden) – Abschreibungsgrundlage und -dauer (G2-407) — [HWP BuR S. 235](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0365-s235.md)
 - Abschreibungsplan / Rechnungslegungsgrundsätze Liegenschaften (Nutzungsdauer, Methode, Sätze) – Stetigkeit und Angemessenheit der Abschreibungen (G2-101/102/407) — [HWP BuR S. 230](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0336-s230.md)
 - Detailnachweis stille Reserven (betriebswirtschaftliche Werte je Liegenschaft, Bestand und Veränderung) – Aufstellung stille Reserven, Nettoauflösung (G2-321/410) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
-- Mieterspiegel, Mietverträge, Leerstandsliste – Vollständigkeit Mieterträge, Rentabilität (G2-404/411) (Praxis/intern)
-- Gebäudeversicherungspolice/-nachweis (Versicherungswert) – Existenzhinweis, Plausibilisierung Wert (G2-406) (Praxis/intern)
-- Bereits vorhandene Schätzungen/Gutachten des Kunden (z.B. Bank- oder Steuerschätzung) – nur sofern vorhanden, keine Einholung durch die Revision – Indikator für Werthaltigkeit (G2-105/402/408) (Praxis/intern)
+- Mieterspiegel, Mietverträge, Leerstandsliste – Vollständigkeit Mieterträge, Rentabilität (G2-404/411) — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-29.md) · [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-28.md)
+- Gebäudeversicherungspolice/-nachweis (Versicherungswert) – Existenzhinweis, Plausibilisierung Wert (G2-406) — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-28.md)
+- Bereits vorhandene Schätzungen/Gutachten des Kunden (z.B. Bank- oder Steuerschätzung) – nur sofern vorhanden, keine Einholung durch die Revision – Indikator für Werthaltigkeit (G2-105/402/408) — [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md) · [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0134-s203.md)
 - VR- und GV-Protokolle (Investitions-, Kauf- und Verkaufsentscheide) – Vollständigkeit Zu-/Abgänge, Ereignisse (G2-104) — [SER S. 73](../chunks/ser-2022/ser-2022__anh-d-s073-1.md)
 - Kontoblätter Liegenschafts-, Unterhalts- und Liegenschaftsertragskonten Berichtsjahr sowie Folgejahr (neue Rechnung) – Durchsicht ungewöhnlicher Posten und Vorjahresbeträge (G2-303/304/409) — [SER S. 82](../chunks/ser-2022/ser-2022__anh-d-s082-2.md)
 - Unterzeichnete Vollständigkeitserklärung (Verfügungsberechtigung, Belastungen, stille Reserven) – Schriftliche Bestätigung Eigentum/Belastungen (G2-106/321) — [SER S. 104](../chunks/ser-2022/ser-2022__anh-e-s104-1.md)

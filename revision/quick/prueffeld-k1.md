@@ -11,7 +11,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 36a9f58bb4ca85c708c4269b25e665283397d19b9a3be85836061885a7333fc9
+quelle_sha: 88155476cdf6242c551c6e6352bebaa15766cd86a4e27d3ca7fdfeb8296dc7cb
 ---
 
 

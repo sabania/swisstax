@@ -11,9 +11,16 @@ erfasst:
     korrigiert: true
 ziel: 'Vor Wahl/Wiederwahl bzw. Prüfungsbeginn Fakten aufbereiten, damit der WP entscheidet, ob das SER-Mandat angenommen bzw. fortgeführt werden darf, kann und soll: Revisionsart (OR
   727/727a, Rechtsform, Opting), Zulassung, Unabhängigkeit inkl. Doppelmandat, Mandatsrisiko/EQR, Honorar; Entwurf Auftragsbestätigung, Abgleich Dauerakten.'
-wann: 'Vor Annahme der Wahl bzw. Wiederwahl durch die GV und vor Prüfungsbeginn jedes Geschäftsjahres (vor Prozess 1); nach dem Import (Prozess 1) Schwellenwerte erneut abgleichen; erneut
+wann: 'Vor Annahme der Wahl bzw. Wiederwahl durch die GV und vor Prüfungsbeginn jedes Geschäftsjahres (vor Agent-Prozess 1); nach dem Import (Agent-Prozess 1) Schwellenwerte erneut abgleichen; erneut
   bei neuen Fakten: Schwellenwerte überschritten, Opting-up/-in-Begehren, Begehren auf Abschluss nach anerkanntem Standard, geplante Kapitalveränderung/Fusion/Zwischenabschluss, neue
   Dienstleistungen (Doppelmandat), Honorarausstände, Rechtsstreit, Wechsel im Team.'
+aufrufe:
+- aufgabe auftrag
+- revisionspflicht --bilanzsumme <CHF> --umsatz <CHF> --vollzeitstellen <n> --vj-bilanzsumme <CHF> --vj-umsatz <CHF> --vj-vollzeitstellen <n>
+- thema unabhaengigkeit
+- revio 2
+- aufgabe mandat-start
+- prozess p7
 gesetz:
 - thema: Wahl der Revisionsstelle ist unübertragbare Befugnis der GV
   quelle: or__art-698
@@ -188,7 +195,7 @@ schritte:
     <CHF> --umsatz <CHF> --vollzeitstellen <n> --vj-bilanzsumme <CHF> --vj-umsatz <CHF> --vj-vollzeitstellen <n>` (aktienrechtliche Schwellen in CHF; Verein und Fremdwährung gesondert
     bzw. vorher umrechnen). Fehlende Zahlen und Abweichungen nach dem Import als Pendenz.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: '1.1 Jahresrechnung und 1.2 Kennzahlen: Vorjahr lesen; Berichtsjahr vor Prozess 1 aus der definitiven Jahresrechnung in M-Files, nach dem Import (Prozess 1) abgleichen; Berechnung
+  revio: '1.1 Jahresrechnung und 1.2 Kennzahlen: Vorjahr lesen; Berichtsjahr vor Agent-Prozess 1 aus der definitiven Jahresrechnung in M-Files, nach dem Import (Agent-Prozess 1) abgleichen; Berechnung
     mit `revisionspflicht` (volle Syntax im Text). 2.4 Auftragsvoraussetzungen und Unabhängigkeit nur lesen, Eintrag durch WP – Leserecht 2.4 laut Konzept noch nicht entschieden: bis
     dahin Fakten aus M-Files, fehlenden Zugriff als Pendenz.'
   mfiles: Definitive Jahresrechnungen Berichts- und Vorjahr, Personalbestände (Monats-/Quartalsstände, Temporäre und ausgeliehene Mitarbeitende), Konzernrechnung bzw. Angaben zu Kotierung/Anleihen
@@ -403,7 +410,7 @@ schritte:
     bei Steuer-, Abgabe- und SV-Dienstleistungen Selbstprüfungsgefahr, sobald sie über die reine Deklaration ohne Ermessensausübung hinausgehen → dann wie (iv): personelle und organisatorische
     Trennung und Offenlegung im Bericht. Abweichung SER ↔ RAB dem WP vorlegen. (iii) Mitwirkung bei der Buchführung und (iv) andere Dienstleistungen mit Selbstprüfung (z. B. Bewertungsgutachten):
     kumulative Bedingungen (a)–(d) nach SER Anhang B, personelle und organisatorische Trennung (nicht dieselbe Person/Personengruppe, keine Weisungsbindung), Risiken dem Kunden kommuniziert,
-    Offenlegung im Revisionsbericht (Vorgabe für Prozess 5). Bei (iii) und (iv) separate schriftliche Auftragsbestätigung (SER 1.7: bei Mitwirkung empfohlen; RAB: für Mitwirkung und
+    Offenlegung im Revisionsbericht (Vorgabe für Agent-Prozess 5). Bei (iii) und (iv) separate schriftliche Auftragsbestätigung (SER 1.7: bei Mitwirkung empfohlen; RAB: für Mitwirkung und
     andere relevante Dienstleistungen verlangt). Der Agent entwirft sie als Entwurf (SER Anhang C, Beispiel 2, u. a. mit Feststellung der personellen und organisatorischen Trennung;
     bei (iv) sinngemäss), Entscheid WP. Erstellen Mitarbeitende des Revisionsunternehmens die Jahresrechnung ganz oder in wesentlichen Teilen (auch ausserhalb des Revisionsteams), wird
     es nach RAB faktisch Urheber → sofort Pendenz an den WP.'
@@ -592,7 +599,7 @@ schritte:
 - was: 'Ergebnis für den WP dokumentieren: Faktenlage und offene Punkte zu Revisionsart, Zulassung, Unabhängigkeit, Doppelmandat, Risikoklasse/EQR und Honorar als Notiz «Pendenz» bzw.
     im Revisionsrapport; Entscheid, Visum und Abschluss in 2.2/2.4 bleiben beim WP. Jede Aktion und Quelle im Agentenprotokoll.'
   wer: Agent
-  revio: Notizen-Übersicht (Kategorie Pendenz); 2.2/2.4 nur lesen; Revisionsrapport (Prozess 4)
+  revio: Notizen-Übersicht (Kategorie Pendenz); 2.2/2.4 nur lesen; Revisionsrapport (Agent-Prozess 4)
   mfiles: Agentenprotokoll pro Mandat und Jahr
   fundstellen:
   - quelle: ser-2022__7-2
@@ -806,16 +813,16 @@ dokumentation:
 - text: Aufbewahrung mindestens zehn Jahre ab Berichtsdatum; elektronische Ablage nur mit Änderungsnachweis und Lesbarkeit.
   quelle: hwp-er-2026__rz-0288-s248
   zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
-- text: 'Bei Mitwirkung bei der Buchführung: Offenlegung im Revisionsbericht (Vorgabe für Prozess 5, GVB-Entwurf).'
+- text: 'Bei Mitwirkung bei der Buchführung: Offenlegung im Revisionsbericht (Vorgabe für Agent-Prozess 5, GVB-Entwurf).'
   quelle: ser-2022__8-4
   zitat: Ein Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt. An der eingeschränkten Revision war er nicht beteiligt.
-- text: Wechsel der Revisionsart im Revisionsbericht mitteilen (Vorgabe für Prozess 5).
+- text: Wechsel der Revisionsart im Revisionsbericht mitteilen (Vorgabe für Agent-Prozess 5).
   quelle: hwp-er-2026__rz-0354-s109
   zitat: es empfehlenswert, den Wechsel der Revisionsart im Revisionsbericht mitzuteilen
 - text: Erstprüfung (Vorjahr nicht oder anders geprüft) im Revisionsbericht anmerken.
   quelle: ser-2022__6-2-7
   zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
-- text: 'Bei EQR: Revisionsbericht nicht vor Abschluss der auftragsbegleitenden Qualitätssicherung datieren (Vorgabe für Prozess 5).'
+- text: 'Bei EQR: Revisionsbericht nicht vor Abschluss der auftragsbegleitenden Qualitätssicherung datieren (Vorgabe für Agent-Prozess 5).'
   quelle: leitfaden-qm-2025__6-1-5-t1
   zitat: Der Revisionsbericht zum Auftrag wird nicht vor dem Abschluss der auftragsbegleitenden Qualitätssicherung datiert.
 - text: 'Agent: offene Punkte als Notiz «Pendenz» mit konkretem Inhalt; Notizen nie löschen oder erledigen.'

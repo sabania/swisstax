@@ -294,7 +294,7 @@ schritte:
   wer: Agent bereitet vor, WP entscheidet
   revio: lesen nur, was das Konzept vorsieht (z.B. 3.3 Wesentlichkeit, 6.1); 2.1, 2.4, 3.1, 3.4, 3.5, 6.2 nur bei freigegebenem Leserecht, sonst Pendenz; 10.4 über K17 (Upload K15 deny
     bis Entscheid consis); Prüffeld A1 (A1-103 VE, A1-301 Unterzeichnung)
-  mfiles: Unterzeichnete JR und VE des Geschäftsjahres suchen; fehlt → Vorschlag PBC-Liste 10.10
+  mfiles: Unterzeichnete JR und VE des Geschäftsjahres suchen; fehlt → Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen)
   fundstellen:
   - quelle: ser-2022__7-2
     zitat: erlangte Prüfungsnachweise und ihre Beurteilung durch den Abschlussprüfer
@@ -317,7 +317,7 @@ schritte:
 - was: 'Dauerakten aktualisieren (Schritte xx-322 bzw. P1-321 «Aktualisieren Dauerakten»): prüfen, ob Statuten, Registerauszug und wesentliche mehrjährige Verträge aktuell vorliegen;
     Änderungen im Textfeld festhalten, fehlende Dokumente als Vorschlag für die PBC-Liste.'
   wer: Agent
-  revio: Bereich 4, Schritte B1-322 … R1-322 und P1-321 (Textfeld, Belegablage); PBC-Vorschlag 10.10
+  revio: Bereich 4, Schritte B1-322 … R1-322 und P1-321 (Textfeld, Belegablage); fehlende Unterlagen → Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen)
   mfiles: Statuten, Handelsregisterauszug, mehrjährige Verträge des Kunden
   fundstellen:
   - quelle: ser-2022__7-3
@@ -394,7 +394,7 @@ schritte:
     Going concern nur bei freigegebenem Leserecht lesen, sonst Notiz «Pendenz: 3.4 nicht gelesen – Leserecht offen» und Hinweise aus Kennzahlen und Prüffeldern ableiten. Durchführung
     und Dokumentation der Konsultation beim WP.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 1.2 Kennzahlen; 3.4 Going concern nur bei freigegebenem Leserecht, sonst Pendenz; Notiz «Schlussbesprechung»; Rapport (Prozess 4)
+  revio: 1.2 Kennzahlen; 3.4 Going concern nur bei freigegebenem Leserecht, sonst Pendenz; Notiz «Schlussbesprechung»; Rapport (Agent-Prozess 4)
   mfiles: Memorandum/Konsultationsnotiz des WP ablegen (Ablageort durch consis festzulegen)
   fundstellen:
   - quelle: hwp-er-2026__rz-0120-s176
@@ -427,7 +427,7 @@ schritte:
     zitat: sollte der Abschlussprüfer bis zum Ablauf der Aufbewahrungsfrist keine Dokumentationen mehr entfernen oder aussortieren
   - quelle: hwp-er-2026__rz-0287-s248
     zitat: Zudem sind die Bestimmungen der Geschäftsbücherverordnung
-- was: 'PDF-Akte (Prozess 6) nur auf ausdrückliche Anweisung des WP: aus revio erzeugen, auf Vollständigkeit prüfen, in M-Files ablegen; nichts überschreiben, Speicherort im Protokoll
+- was: 'PDF-Akte (Agent-Prozess 6) nur auf ausdrückliche Anweisung des WP: aus revio erzeugen, auf Vollständigkeit prüfen, in M-Files ablegen; nichts überschreiben, Speicherort im Protokoll
     bestätigen, bei Fehler Pendenz. Das Werkzeug ist standardmässig gesperrt und wird nur je Prozess-6-Auftrag befristet freigegeben; isArchiveJob immer false – die Archivierung bleibt
     beim WP (Praxis/intern, revio-Klassierung).'
   wer: Agent
@@ -627,7 +627,7 @@ entscheidungen_wp:
 - text: Nachträgliche Änderungen an abgeschlossenen Arbeitspapieren (nur mit Wer/Datum/Grund/Auswirkung, GeBüV beachten).
   quelle: hwp-er-2026__rz-0286-s248
   zitat: Wer diese Änderungen an welchem Datum ausführte und wer ggf. zu welchem Zeitpunkt die Durchsicht vornahm
-- text: Anweisung zur PDF-Akte (Prozess 6) und befristete Freigabe des Werkzeugs je Auftrag.
+- text: Anweisung zur PDF-Akte (Agent-Prozess 6) und befristete Freigabe des Werkzeugs je Auftrag.
   quelle: konzept-ki-revisionsagent-2026__c010-1
   zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
 - text: Entbindung vom Revisionsgeheimnis bzw. Weitergabe an Dritte (schriftlich, durch Auftraggeber).

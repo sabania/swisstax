@@ -370,9 +370,12 @@ fallstricke:
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - text: Debitorenbestätigungen (Saldobestätigungen) sind in der eingeschränkten Revision nicht vorgesehen – der Agent fordert keine an; Vorhandensein über Versandpapiere/Zahlungseingänge
-    belegen.
+    belegen. Vorhandene, vom Unternehmen selbst eingeholte Bestätigungen dagegen ohne Anweisung auswerten (C1-401).
   quelle: hwp-er-2026__rz-0262-s085
   zitat: verlangt die eingeschränkte Revision von der Revisionsstelle weder das Einholen von Debitoren- und Kreditorenbestätigungen
+  weitere_fundstellen:
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Es handelt sich um Dokumente, welche beim Prüfungskunden vorliegen und folglich der Abschlussprüfer für die eingeschränkte Revision verwenden kann.
 - text: Liegen für einen wesentlichen Posten weder Versandpapiere noch Zahlungseingang vor, ist das Risiko kaum reduzierbar – Hinweis an den WP (mögliche Einschränkung), nicht selbst
     beurteilen.
   quelle: hwp-er-2026__rz-0139-s204-t1
@@ -1096,14 +1099,19 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
 - id: C1-401
-  vorgehen: 'Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Debitorenbestätigungen sind nicht
-    Bestandteil der SER; der Agent holt keine ein. Mit Anweisung: beim Kunden bereits vorhandene Saldobestätigungen/Kontoabstimmungen mit der OP-Liste abgleichen; Bestandesnachweis sonst
-    über C1-309 bzw. C1-307.'
+  vorgehen: 'Vorhandene, vom Unternehmen eingeholte Saldobestätigungen bzw. Kontoabstimmungen mit Kunden ohne Anweisung auswerten (HWP ER Rz 137 ^[hwp-er-2026__rz-0137-s203]): je Kunde
+    den bestätigten Saldo mit der OP-Liste abgleichen, Herkunft (wer hat eingeholt, Datum) festhalten; Differenzen und Auffälligkeiten als Notiz, ohne Anweisung kein Textfeld und Status
+    «nicht bearbeitet – nur auf Anweisung». Systematisches Einholen von Debitorenbestätigungen geht über die eingeschränkte Revision hinaus (SER Anh. D) – nur auf Anweisung des WP; der
+    Agent fragt nie selbst bei Kunden an (Versand durch den Menschen), mit Anweisung wertet er die Antworten wie oben aus. Bestandesnachweis sonst über C1-309 bzw. C1-307.'
   nachweise:
-  - ggf. beim Kunden vorhandene Saldobestätigungen/Kontoabstimmungen
-  rechnen: 'Nur mit Anweisung, falls vorhanden: bestätigter Saldo je Kunde = Saldo OP-Liste; Differenz erklären'
-  feststellung_wenn: Bestand eines wesentlichen Postens wäre nur über eine Drittbestätigung nachweisbar → Hinweis an WP (Prüfungsrisiko nicht reduzierbar).
+  - beim Kunden vorhandene, von ihm eingeholte Saldobestätigungen/Kontoabstimmungen (Herkunft festhalten)
+  rechnen: 'Je vorhandene Bestätigung: `rechne "diff = <bestätigter Saldo> - <Saldo OP-Liste>"`; Differenz erklären (Zahlung unterwegs, Gutschrift, bestrittener Posten)'
+  feststellung_wenn: Vorhandene Bestätigung weicht ungeklärt von der OP-Liste ab, oder der Bestand eines wesentlichen Postens wäre nur über eine Drittbestätigung nachweisbar → Hinweis an
+    WP (Prüfungsrisiko nicht reduzierbar).
   fundstellen:
+  - quelle: hwp-er-2026__rz-0137-s203
+    zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat, kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise
+      beiziehen
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: ser-2022__anh-d-s076-1

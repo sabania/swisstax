@@ -17,7 +17,7 @@ werte:
   einheit: '%'
   gilt: HWP ER, Ausgabe 2026
   kategorie: wesentlichkeit
-  bemerkung: 'HWP ER Rz 42 (Abbildung 20): Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven; Durchschnittswerte möglich. Richtwert, Ermessen WP (Rz 43).'
+  bemerkung: 'HWP ER Rz 42 (Abbildung 20): Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven; Durchschnittswerte möglich. Richtwert, Ermessen WP (Rz 43 ^[hwp-er-2026__rz-0043-s186]).'
   quelle: hwp-er-2026__rz-0042-s185-t1
   zitat: 3 % – 10 % des bereinigten Jahresgewinns vor Steuern
   status: agent-geprueft
@@ -118,7 +118,7 @@ werte:
   gilt: HWP ER, Ausgabe 2026
   kategorie: wesentlichkeit
   bemerkung: 'HWP ER Rz 51: in % der Gesamtwesentlichkeit; darunter keine Erfassung in der Zusammenstellung der Fehlaussagen. Fehlaussagen über der NAG kumulieren und laufend beurteilen
-    (Rz 53).'
+    (Rz 53 ^[hwp-er-2026__rz-0053-s189]).'
   quelle: hwp-er-2026__rz-0051-s187
   zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
   status: agent-geprueft
@@ -141,7 +141,7 @@ werte:
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
-  bemerkung: 'SER 5.2: quantitative und qualitative Kriterien; Anhaltspunkte auch Umsatz, Bilanzsumme oder Ergebnis. Prozentsätze nennt erst HWP ER Rz 42. revio 3.3 (Konzept consis).'
+  bemerkung: 'SER 5.2: quantitative und qualitative Kriterien; Anhaltspunkte auch Umsatz, Bilanzsumme oder Ergebnis. Prozentsätze nennt erst HWP ER Rz 42 ^[hwp-er-2026__rz-0042-s185-t1]. revio 3.3 (Konzept consis).'
   quelle: ser-2022__5-2-t1
   zitat: Oft wird die quantitative Wesentlichkeit in Bezug auf den Gewinn vor Steuern als eine Bezugsgrösse der wirtschaftlichen Tätigkeit
   status: agent-geprueft
@@ -151,7 +151,7 @@ werte:
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
-  bemerkung: 'SER 5.2; HWP ER Rz 42: bereinigter Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven, Durchschnittswerte möglich.'
+  bemerkung: 'SER 5.2; HWP ER Rz 42 ^[hwp-er-2026__rz-0042-s185-t1]: bereinigter Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven, Durchschnittswerte möglich.'
   quelle: ser-2022__5-2-t1
   zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
   status: agent-geprueft
@@ -171,7 +171,7 @@ werte:
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
-  bemerkung: 'SER 5.2: auch ein geringer Fehler, der Gewinn in Verlust dreht, kann wesentlich sein. HWP ER Rz 44: dann häufig Eigenkapital als Bezugsgrösse.'
+  bemerkung: 'SER 5.2: auch ein geringer Fehler, der Gewinn in Verlust dreht, kann wesentlich sein. HWP ER Rz 44 ^[hwp-er-2026__rz-0044-s186]: dann häufig Eigenkapital als Bezugsgrösse.'
   quelle: ser-2022__5-2-t1
   zitat: So kann beispielsweise in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein.
   status: agent-geprueft
@@ -181,7 +181,7 @@ werte:
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
-  bemerkung: 'SER 5.2 / HWP ER Rz 48: für Geschäftsvorfälle, Kontensalden oder Abschlussangaben, die die Entscheide der Berichtsempfänger beeinflussen könnten.'
+  bemerkung: 'SER 5.2 / HWP ER Rz 48 ^[hwp-er-2026__rz-0048-s187]: für Geschäftsvorfälle, Kontensalden oder Abschlussangaben, die die Entscheide der Berichtsempfänger beeinflussen könnten.'
   quelle: ser-2022__5-2-t2
   zitat: eine oder mehrere spezifische Wesentlichkeitsgrenzen fest, welche tiefer als die Gesamtwesentlichkeit anzusetzen sind
   status: agent-geprueft
@@ -192,7 +192,7 @@ werte:
   gilt: SER, Ausgabe 2022
   kategorie: wesentlichkeit
   bemerkung: 'SER 5.3: übrige Fehlaussagen laufend in einer Zusammenstellung nachführen; Korrekturvorschlag an die Unternehmensleitung; bei Verweigerung beurteilen, ob modifizierte Prüfungsaussage.
-    Prozentsatz: HWP ER Rz 51. Rollen: Agent führt nur die Zusammenstellung der Fehlaussagen und hält Buchungsvorschläge «als Notiz, ohne Verbuchung» fest (konzept-ki-revisionsagent-2026__c015-1);
+    Prozentsatz: HWP ER Rz 51 ^[hwp-er-2026__rz-0051-s187]. Rollen: Agent führt nur die Zusammenstellung der Fehlaussagen und hält Buchungsvorschläge «als Notiz, ohne Verbuchung» fest (konzept-ki-revisionsagent-2026__c015-1);
     Korrekturvorschlag an die Unternehmensleitung, Beurteilung und Unterzeichnung durch den WP; kein Kundenversand, keine Buchungen durch den Agenten.'
   quelle: ser-2022__5-3
   zitat: mit Ausnahme jener, die derart gering sind, dass auch ihre Summe voraussichtlich unwesentlich sein wird (Nichtaufgriffsgrenze)

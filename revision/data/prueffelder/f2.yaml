@@ -1,7 +1,7 @@
 # Prüffeld F2 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
 code: F2
 bezeichnung: Nicht fakturierte Leistungen
-status: agent-geprueft
+status: extrahiert
 erfasst:
   agent: workflow revision-prueffelder-wissen
   datum: '2026-11-12'

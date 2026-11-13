@@ -14,7 +14,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: f3eac18565411b2753dddd61ffc0391fd659d2202836fe8a243463a6a6301805
+quelle_sha: 5266dfa26be85254b9800f5f809baa3463a9e08faf984ed2108b487fcba6c26f
 ---
 
 

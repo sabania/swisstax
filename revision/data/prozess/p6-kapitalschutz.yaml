@@ -11,9 +11,17 @@ erfasst:
     korrigiert: true
 ziel: Kapitalschutz-Tatbestände (drohende Zahlungsunfähigkeit, hälftiger Kapitalverlust, begründete Besorgnis bzw. Überschuldung) aus Jahresrechnung/Zwischenabschluss erkennen, rechnen
   und belegen; Rangrücktritte und Sanierungsmassnahmen prüfen; Zusatz/Hinweis im Bericht und Anzeigepflicht OR 729c für den WP vorbereiten.
-wann: Bei jedem Mandat nach dem Import der Jahresrechnung (Prozess 1) als Schwellen-Check; vertieft, sobald JR oder Zwischenabschluss Kapitalverlust/Überschuldung zeigt, Indikatoren
-  (Verluste, Cash Drain, Liquiditätsprobleme) vorliegen oder VR/GL bzw. die eigene Treuhandabteilung (Doppelmandat) eine Schieflage meldet; spätestens vor dem GVB-Entwurf (Prozess 5).
+wann: Bei jedem Mandat nach dem Import der Jahresrechnung (Agent-Prozess 1) als Schwellen-Check; vertieft, sobald JR oder Zwischenabschluss Kapitalverlust/Überschuldung zeigt, Indikatoren
+  (Verluste, Cash Drain, Liquiditätsprobleme) vorliegen oder VR/GL bzw. die eigene Treuhandabteilung (Doppelmandat) eine Schieflage meldet; spätestens vor dem GVB-Entwurf (Agent-Prozess 5).
   Fristen laufen ab Kenntnis («gebotene Eile»).
+aufrufe:
+- aufgabe kapitalschutz
+- kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …] [--rangruecktritt …] [--rr-polster …]
+- pruefschritt P1-313
+- pruefschritt A1-205
+- thema rangrücktritt
+- thema kapitalverlust-ueberschuldung
+- prozess p5
 gesetz:
 - thema: VR überwacht Zahlungsfähigkeit (drohende Zahlungsunfähigkeit)
   quelle: or__art-725
@@ -221,7 +229,7 @@ schritte:
     den WP melden, auch unter dem Jahr. Keine laufende Überwachungspflicht der Revisionsstelle; Pflichten entstehen erst bei klarer Information von kompetenter Stelle bzw. Feststellung
     im Rahmen der Prüfung.'
   wer: Agent
-  revio: Notiz «Wesentliche Feststellungen» im Prüffeld P1 (rv_put_workpapers_UpdateNote); Rapport an WP (Prozess 4) zuoberst
+  revio: Notiz «Wesentliche Feststellungen» im Prüffeld P1 (rv_put_workpapers_UpdateNote); Rapport an WP (Agent-Prozess 4) zuoberst
   mfiles: Buchhaltungsdossier/Korrespondenz der Treuhandabteilung (nur Mandatskontext), Mitteilungen VR/GL
   fundstellen:
   - quelle: hwp-er-2026__rz-0388-s116
@@ -412,7 +420,7 @@ schritte:
     entfällt die Ausnahme. Realistische kurzfristige Sanierung ist kein Grund, Prüfungen aufzuschieben. Erfolgsaussichten von Sanierungsplänen für die Nachlassstundung beurteilt das
     Gericht. Auch nach Beseitigung der Überschuldung bleiben die Pflichten aus Kapitalverlust bestehen.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: Textfeld P1-313; Notiz «Pendenz» mit Fristdatum; Rapport (Prozess 4)
+  revio: Textfeld P1-313; Notiz «Pendenz» mit Fristdatum; Rapport (Agent-Prozess 4)
   mfiles: Sanierungszusagen, Zahlungsbelege Kapitaleinschuss/Zuschuss, Verzichtserklärungen, Gesuch Nachlassstundung
   fundstellen:
   - quelle: or__art-725b-t1
@@ -436,7 +444,7 @@ schritte:
     (Beweislast beim VR) – Handlungspflicht der Revisionsstelle, dem WP sofort melden. Offensichtlichkeit, Frist, Mahnung, Anzeige beim Gericht (OR 729c) und allfälliger Rücktritt entscheidet
     ausschliesslich der WP; kein Versand an Kunde oder Gericht durch den Agenten.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: Notiz «Wesentliche Feststellungen» an WP; Rapport (Prozess 4) zuoberst; Korrespondenz 10.6 nur lesen/Entwurf
+  revio: Notiz «Wesentliche Feststellungen» an WP; Rapport (Agent-Prozess 4) zuoberst; Korrespondenz 10.6 nur lesen/Entwurf
   mfiles: Entwurf Mahnschreiben (nur Entwurf, nicht versenden), Fristenkontrolle, letzte Jahresrechnung als Grundlage einer allfälligen Darstellung
   fundstellen:
   - quelle: hwp-er-2026__rz-0439-s129
@@ -472,7 +480,7 @@ schritte:
     OR 725a Abs. 1 (HWP Rz 430, Abb. 53) statt der alten Formulierung in SER Bsp. 11 vorschlagen. Bei Jahresverlust ohne Bilanzgewinn entfällt der Verwendungsantrag. Wortlaut, Zusatz
     vs. Hinweis und Prüfungsaussage entscheidet der WP (offener Entscheid im Konzept).'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 7.1 Berichtsstrategie und 7.5 Berichtskritik nur lesen; Entwurf in M-Files (Prozess 5), keine Unterzeichnung/Datierung
+  revio: 7.1 Berichtsstrategie und 7.5 Berichtskritik nur lesen; Entwurf in M-Files (Agent-Prozess 5), keine Unterzeichnung/Datierung
   mfiles: GVB-Entwurf (Word) neben Vorjahresbericht; Mustervorlagen SER/HWP ER
   fundstellen:
   - quelle: ser-2022__8-3-2-t1
@@ -512,7 +520,7 @@ schritte:
     Handlungspflichten nach OR 725b aufmerksam; zur Übernahme der ZA-Prüfung ist er nicht verpflichtet (Annahme: WP-Entscheid); Gerichtsanzeige strittig (HWP Rz 458 und Q&A Antwort
     6 verneinen, Q&A Antwort 16 bejaht; Konstellation mit eigener ZA-Prüfung abgrenzen – siehe Fallstricke, Entscheid WP).'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 2.2 Auftragsannahme und 2.4 Unabhängigkeit nur lesen; Bericht als Entwurf (Prozess 5)
+  revio: 2.2 Auftragsannahme und 2.4 Unabhängigkeit nur lesen; Bericht als Entwurf (Agent-Prozess 5)
   mfiles: Auftragsbestätigung nach OR 725a Abs. 2, VR-Beschluss zur Ernennung, Vollständigkeitserklärung gegenüber dem zugelassenen Revisor
   fundstellen:
   - quelle: hwp-er-2026__rz-0454-s133
@@ -574,7 +582,7 @@ schritte:
 - was: 'Rapport an den WP: Berechnung mit Herleitung, Indikatoren, Stand Zwischenabschlüsse/Rangrücktritte/Massnahmen, Fristen und offene Entscheide als wesentliche Punkte zuoberst;
     Mandat als Risiko-Mandat kennzeichnen. Visum, Abschliessende Beurteilung und Freigabe bleiben beim WP.'
   wer: Agent
-  revio: Rapport per E-Mail nur an WP-Adresse (Prozess 4); Prüfschritt-Status «mit Feststellungen» (Befragungsschritte höchstens «teilweise bearbeitet»); Visum offen
+  revio: Rapport per E-Mail nur an WP-Adresse (Agent-Prozess 4); Prüfschritt-Status «mit Feststellungen» (Befragungsschritte höchstens «teilweise bearbeitet»); Visum offen
   mfiles: Protokoll (Audit Trail) je Mandat und Jahr
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c011-2

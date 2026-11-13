@@ -1,7 +1,7 @@
 # Prüffeld I1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
 code: I1
 bezeichnung: Immaterielle Anlagen
-status: agent-geprueft
+status: extrahiert
 erfasst:
   agent: workflow revision-prueffelder-wissen
   datum: '2026-11-12'
@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 20
     korrigiert: false
-kurzbeschrieb: 'Immaterielle Werte (Software, Lizenzen, Patente, Marken, aktivierte Entwicklungen, derivativer Goodwill) inkl. Abschreibungen sowie nicht einbezahltes Grundkapital. Eingeschränkte
-  Revision (vorbereiten): Befragung (I1-101–104, schriftliche Antwort/Pendenz), VJ-Vergleich (I1-201), Abstimmung Anlagespiegel/Hauptbuch/Bilanz/ER (I1-301), Anhang, stille Reserven,
-  Dauerakten (I1-320–322); WP-Schritte (I1-302/303) und 4xx (I1-401–408) nur auf Anweisung des WP. Keine Bewertungsgutachten.'
+kurzbeschrieb: 'Immaterielle Werte (Software, Lizenzen, Patente, Marken, Entwicklungen, derivativer Goodwill) inkl. Abschreibungen; nicht einbezahltes Grundkapital. Vorbereiten: Befragung,
+  VJ-Vergleich, Abstimmung Anlagespiegel/Bilanz, Anhang, stille Reserven; WP-Schritte und 4xx nur auf Anweisung; keine Gutachten.'
 gesetz:
 - thema: 'Mindestgliederung: immaterielle Werte im Anlagevermögen (Art. 959a Abs. 1 Ziff. 2 lit. d OR)'
   quelle: or__art-959a-t1
@@ -208,6 +207,11 @@ unterlagen:
   zitat: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
 - dokument: Vom Kunden vorhandene Bewertungsgutachten (z.B. Patent-/Markenbewertung), falls bereits erstellt
   zweck: Beizug als Unterlage zur Werthaltigkeit; kein Einholen durch die Revisionsstelle (I1-404)
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Die eingeschränkte Revision beschränkt sich auf die im Unternehmen intern vorhandenen Unterlagen.
+  weitere_fundstellen:
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten
 bewertung:
 - regel: Aktivierungspflicht, wenn Verfügungsmacht, wahrscheinlicher Mittelzufluss und verlässliche Bewertbarkeit gegeben sind (Art. 959 Abs. 2 OR).
   quelle: hwp-bur-2023__rz-0413-s243

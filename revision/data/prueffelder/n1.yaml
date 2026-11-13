@@ -671,7 +671,7 @@ schritte:
     «Vorbereitung für WP» kennzeichnen): schriftliche Antwort von GL/VR zu Rangrücktritten (Gläubiger, Betrag inkl. Zinsen, Änderungen, Zahlungen/Verrechnungen) auswerten; fehlt sie: Frage
     als Pendenz. Mit Vereinbarungen (N1-401) und geprüften Zwischenabschlüssen abgleichen. Bonitätsnachweise zusammenstellen; Bonitätsbeurteilung als Pendenz an den WP (kein eigenes Urteil).
     Ohne Anweisung trotzdem lesen (Praxis/intern): alle Rangrücktrittsvereinbarungen aus GJ-, VJ- und Dauerakte mit Gläubiger, Betrag laut Vereinbarung, Forderungssaldo inkl. aufgelaufener
-    Zinsen laut Kontoblatt, Datum und Zinsklausel auflisten (Beilage zur Notiz) und die Σ an P1-313 übergeben; dort `kapitalverlust … --rangruecktritt <Σ>` gegen die Überschuldung rechnen.'
+    Zinsen laut Kontoblatt, Datum und Zinsklausel auflisten (Beilage zur Notiz) und die Σ an P1-313 übergeben; dort mit `kapitalverlust` (Aufruf unter «Rechnen», inkl. `--rangruecktritt <Σ>`) gegen die Überschuldung rechnen.'
   nachweise:
   - Antwort GL/VR zu Rangrücktritten
   - Rangrücktrittsvereinbarungen
@@ -679,7 +679,9 @@ schritte:
   - Bonitätsnachweise der Gläubiger
   rechnen: 'Nur wenn überschuldet gemäss beiden geprüften Zwischenabschlüssen (bzw. nur gemäss Zwischenabschluss zu Veräusserungswerten bei fehlender Fortführung; Art. 725b Abs. 1 und
     3 OR): Deckung = Σ gültige RR inkl. Zinsen (Fremdwährung zum Stichtagskurs) − Überschuldung der vom WP gewählten Stufe (HWP BuR Rz 719/720) − Sicherheitspolster (HWP ER Rz 421, Höhe
-    WP) ≥ 0; Covid-19-Kredite nach Art. 3 SBüV (und HFMV 20) nicht als Fremdkapital (Art. 24 Covid-19-SBüG; `--covid-kredit`). Varianten mit `rechne` zeigen, nicht entscheiden.'
+    WP) ≥ 0; Covid-19-Kredite nach Art. 3 SBüV (und HFMV 20) nicht als Fremdkapital (Art. 24 Covid-19-SBüG; `--covid-kredit`). Je Stufe ein Aufruf mit den Werten des
+    jeweiligen Zwischenabschlusses: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten … [--covid-kredit …] --rangruecktritt <Σ RR inkl. Zinsen> --rr-polster <Polster laut WP>`
+    (Ausgabe «Deckung»); Varianten zeigen, nicht entscheiden.'
   feststellung_wenn: 'RR deckt Überschuldung inkl. Zinsen nicht, ist ungültig, Bonitätsnachweis fehlt oder RR-Forderung getilgt/verrechnet: wesentliche Feststellung + Schlussbesprechung,
     sofort an WP.'
   fundstellen:
@@ -935,7 +937,9 @@ schritte:
   - Kontoblätter der RR-Darlehen und Zinsen
   rechnen: 'Nur wenn überschuldet gemäss beiden geprüften Zwischenabschlüssen (bzw. nur gemäss Zwischenabschluss zu Veräusserungswerten bei fehlender Fortführung; Art. 725b Abs. 1 und
     3 OR): Deckung = Σ gültige RR inkl. Zinsen (Fremdwährung zum Stichtagskurs) − Überschuldung der vom WP gewählten Stufe (HWP BuR Rz 719/720) − Sicherheitspolster (HWP ER Rz 421, Höhe
-    WP) ≥ 0; Covid-19-Kredite nach Art. 3 SBüV (und HFMV 20) nicht als Fremdkapital (Art. 24 Covid-19-SBüG; `--covid-kredit`). Varianten mit `rechne` zeigen, nicht entscheiden. RR-Betrag
+    WP) ≥ 0; Covid-19-Kredite nach Art. 3 SBüV (und HFMV 20) nicht als Fremdkapital (Art. 24 Covid-19-SBüG; `--covid-kredit`). Je Stufe ein Aufruf mit den Werten des
+    jeweiligen Zwischenabschlusses: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten … [--covid-kredit …] --rangruecktritt <Σ RR inkl. Zinsen> --rr-polster <Polster laut WP>`
+    (Ausgabe «Deckung»); Varianten zeigen, nicht entscheiden. RR-Betrag
     je Gläubiger ≤ Forderung inkl. Zinsen gemäss Hauptbuch.'
   feststellung_wenn: 'RR ohne Zinseinschluss, befristet/kündbar/widerruflich, unzulässig reduziert, nicht unterzeichnet oder deckt Überschuldung nicht: wesentliche Feststellung + Schlussbesprechung,
     sofort an WP.'

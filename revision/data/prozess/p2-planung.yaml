@@ -10,10 +10,19 @@ erfasst:
     befunde: 17
     korrigiert: true
 ziel: 'Planung vorbereiten, damit der WP in revio 2.x/3.x rasch entscheidet: Revisionspflicht, Unabhängigkeit (Mitwirkung), Verständnis, Abschlussanalyse, Fortführung und Kapital aufbereiten;
-  Vorschläge zu Risiko, Wesentlichkeit, Plan und Programm nur auf Anweisung. Vor Prozess 2 das Tor prüfen (Importkontrolle, 3.3 erfasst; 3.1/3.5 gelesen oder Pendenz). Nichts festlegen,
+  Vorschläge zu Risiko, Wesentlichkeit, Plan und Programm nur auf Anweisung. Vor Agent-Prozess 2 das Tor prüfen (Importkontrolle, 3.3 erfasst; 3.1/3.5 gelesen oder Pendenz). Nichts festlegen,
   nichts visieren.'
-wann: Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Prozess 1, revio 1.1); in der Testphase erst nach der Importkontrolle durch den WP. Endet mit dem Tor
-  vor Prozess 2 (Importkontrolle erfolgt, 3.3 gelesen; 3.1/3.5 gelesen oder als Pendenz gemeldet). Bei neuen Erkenntnissen während der Prüfung laufend nachführen.
+wann: Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Agent-Prozess 1, revio 1.1); in der Testphase erst nach der Importkontrolle durch den WP. Endet mit dem Tor
+  vor Agent-Prozess 2 (Importkontrolle erfolgt, 3.3 gelesen; 3.1/3.5 gelesen oder als Pendenz gemeldet). Bei neuen Erkenntnissen während der Prüfung laufend nachführen.
+aufrufe:
+- aufgabe planung
+- aufgabe wesentlichkeit
+- revio K4
+- revio 3.3
+- wesentlichkeit <Bezugsgrösse CHF> <Satz %>
+- kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--covid-kredit …]
+- revisionspflicht --bilanzsumme <CHF> --umsatz <CHF> --vollzeitstellen <n> --vj-bilanzsumme <CHF> --vj-umsatz <CHF> --vj-vollzeitstellen <n>
+- aufgabe prueffeld
 gesetz:
 - thema: Umfang der eingeschränkten Revision (Rahmen für Plan und Programm)
   quelle: or__art-729a
@@ -414,8 +423,8 @@ schritte:
     zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
   - quelle: konzept-ki-revisionsagent-2026__c008-1
     zitat: alles bleibt beim Menschen
-- was: 'Tor vor Prozess 2. (1) Testphase: Hat der WP die Importkontrolle gemacht? Sonst Halt und Pendenz. (2) 3.3 lesen (rv_get_workpapers_LoadMaterialityOfDossier). Ist keine Wesentlichkeit
-    erfasst: Pendenz und Prozess 2 nicht beginnen, weil die Toleranzwesentlichkeit Umfang und Stichprobe steuert. Ist 3.3 nicht versiegelt (isSealed=false): weiterarbeiten und betroffene
+- was: 'Tor vor Agent-Prozess 2. (1) Testphase: Hat der WP die Importkontrolle gemacht? Sonst Halt und Pendenz. (2) 3.3 lesen (rv_get_workpapers_LoadMaterialityOfDossier). Ist keine Wesentlichkeit
+    erfasst: Pendenz und Agent-Prozess 2 nicht beginnen, weil die Toleranzwesentlichkeit Umfang und Stichprobe steuert. Ist 3.3 nicht versiegelt (isSealed=false): weiterarbeiten und betroffene
     Schritte im Rapport kennzeichnen. (3) 3.1/3.5 lesen, soweit ein Leserecht besteht. Fehlen Leserecht oder Eintrag: Pendenz, keine Annahme zu Risiko oder Strategie, nur die vom WP
     markierten bzw. angewiesenen Prüfschritte bearbeiten (wie `prozess p8`). Ergebnis im Agenten-Protokoll.'
   wer: Agent
@@ -439,7 +448,7 @@ schritte:
 - was: Planung laufend nachführen. Neue Erkenntnisse aus Prüfung, Unterlagen oder einer geänderten Jahresrechnung (z. B. definitiv statt provisorisch) dem WP melden. Ändert er Wesentlichkeit
     oder Risiko, die betroffenen Prüfschritte neu beurteilen und im Rapport kennzeichnen.
   wer: Agent bereitet vor, WP entscheidet
-  revio: 3.1 und 3.3 (lesen); Revisionsrapport (Prozess 4)
+  revio: 3.1 und 3.3 (lesen); Revisionsrapport (Agent-Prozess 4)
   mfiles: ''
   fundstellen:
   - quelle: hwp-er-2026__rz-0047-s186
@@ -611,7 +620,7 @@ dokumentation:
 - text: Hinweise auf Schwächen im Ablauf als Notiz «Schlussbesprechung» für den WP festhalten.
   quelle: hwp-er-2026__rz-0033-s183
   zitat: anlässlich der Schlussbesprechung an die Unternehmensleitung weitergegeben werden können
-- text: Agenten-Protokoll (Audit Trail) mit Quellen, Berechnungen und dem Ergebnis der Torprüfung vor Prozess 2 pro Mandat und Jahr in M-Files ablegen.
+- text: Agenten-Protokoll (Audit Trail) mit Quellen, Berechnungen und dem Ergebnis der Torprüfung vor Agent-Prozess 2 pro Mandat und Jahr in M-Files ablegen.
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
 - text: Aufbewahrung der wesentlichen Unterlagen während mindestens zehn Jahren.
@@ -653,7 +662,7 @@ fallstricke:
     nur auf Anweisung des WP.
   quelle: konzept-ki-revisionsagent-2026__c006-1
   zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10). Alle anderen Bereiche liest er höchstens
-- text: Prozess 2 nicht beginnen, solange in der Testphase die Importkontrolle aussteht oder 3.3 nicht erfasst ist. Fehlen 3.1/3.5 → Pendenz statt Annahme.
+- text: Agent-Prozess 2 nicht beginnen, solange in der Testphase die Importkontrolle aussteht oder 3.3 nicht erfasst ist. Fehlen 3.1/3.5 → Pendenz statt Annahme.
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
   weitere_fundstellen:

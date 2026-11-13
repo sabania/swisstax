@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 17
     korrigiert: true
-kurzbeschrieb: 'Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerverbindlichkeiten, -abgrenzungen, -rückstellungen, Steuerguthaben) und Erfolgsrechnung (separater
-  Ausweis). Eingeschränkte Revision: Abgrenzung, Abstimmung der Steuerabgrenzung, Veranlagungsstand, Steuerrisiken, geldwerte Leistungen, verdecktes Eigenkapital, VSt und Emissionsabgabe
-  bei Sanierung – keine Steuerprüfung.'
+kurzbeschrieb: 'Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Schulden, Abgrenzungen, Rückstellungen, Guthaben) und ER. Eingeschränkte Revision: Steuerabgrenzung
+  abstimmen, Veranlagungsstand, Steuerrisiken (geldwerte Leistungen, verdecktes Eigenkapital, VSt) – keine Steuerprüfung.'
 gesetz:
 - thema: Direkte Steuern als eigene Mindestposition der Erfolgsrechnung (Art. 959b Abs. 2 Ziff. 10 bzw. Abs. 3 Ziff. 7 OR)
   quelle: or__art-959b-t1

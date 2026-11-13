@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 16
     korrigiert: true
-kurzbeschrieb: 'Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen gemäss SER Anh. D p): Befragung zu
-  Grundsätzen und Abgrenzung (101), Margenvergleich je Produktkategorie (201); ergänzend Abweichungs-/Kontenanalyse (102/202). Detailprüfungen (301/302) nach Risiko und Wesentlichkeit.
-  Cut-off (303): weiter gehend, WP-Schritt.'
+kurzbeschrieb: 'Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen (SER Anh. D): Befragung
+  Grundsätze/Abgrenzung (101), Margenvergleich (201), Analytik (102/202). Detailprüfungen (301/302) nach Risiko; Cut-off (303) WP-Schritt.'
 gesetz:
 - thema: Wahl Produktions- oder Absatzerfolgsrechnung (Art. 959b Abs. 1 OR)
   quelle: or__art-959b-t1

@@ -19,7 +19,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: e01a67db7bfb3cffde3817adf74dc675f03498b4cf9bffaee90f6829698f257e
+quelle_sha: 8099685eb8383f058c444096fe03d30351aa832bb7dde045fda867bc553e5a89
 ---
 
 
@@ -27,7 +27,7 @@ quelle_sha: e01a67db7bfb3cffde3817adf74dc675f03498b4cf9bffaee90f6829698f257e
 
 revio Bereich 4 · 14 Schritte (Befragung 4, Analytisch 1, Detail 6, Sonstige 3; EP 3, WP 5) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/s1.md](../wiki/prueffelder/s1.md)
 
-Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Steuerverbindlichkeiten, -abgrenzungen, -rückstellungen, Steuerguthaben) und Erfolgsrechnung (separater Ausweis). Eingeschränkte Revision: Abgrenzung, Abstimmung der Steuerabgrenzung, Veranlagungsstand, Steuerrisiken, geldwerte Leistungen, verdecktes Eigenkapital, VSt und Emissionsabgabe bei Sanierung – keine Steuerprüfung.
+Direkte Steuern (Gewinn-, Kapital-, Grundstückgewinnsteuern) in Bilanz (Schulden, Abgrenzungen, Rückstellungen, Guthaben) und ER. Eingeschränkte Revision: Steuerabgrenzung abstimmen, Veranlagungsstand, Steuerrisiken (geldwerte Leistungen, verdecktes Eigenkapital, VSt) – keine Steuerprüfung.
 
 ## Risiken
 - Steuern der laufenden Periode (Gewinn- und Kapitalsteuer) nicht oder zu tief abgegrenzt. [VO, PA, BE] — [HWP BuR S. 331](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0801-s331.md)

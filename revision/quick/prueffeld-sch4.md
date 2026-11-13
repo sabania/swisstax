@@ -17,7 +17,7 @@ quellen:
 - vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 880c78d7a5dce2e0c00a3fe2fed861886c8e6ec4b347fefe3cf0e3aec73a7fc5
+quelle_sha: db7cdb8373a475b8e5afa8bd0b651f3c8efe7ac1220869e9f2bc4ae74a72bd75
 ---
 
 
@@ -25,7 +25,7 @@ quelle_sha: 880c78d7a5dce2e0c00a3fe2fed861886c8e6ec4b347fefe3cf0e3aec73a7fc5
 
 revio Bereich 4 · 6 Schritte (Befragung 1, Analytisch 3, Detail 2, Sonstige 0; EP 3, WP 2) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/sch4.md](../wiki/prueffelder/sch4.md)
 
-ER-Position Finanzaufwand und Finanzertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre und Bankguthaben, Bankspesen/-kommissionen, Erträge aus Finanzanlagen, Fremdwährungsdifferenzen. In der eingeschränkten Revision v.a. analytisch (Vorjahresvergleich, Erwartungswert aus verzinslichen Positionen, Plausibilisierung FX); Detailprüfungen nur weitergehend (WP).
+Finanzaufwand und -ertrag (Art. 959b OR): Zinsen auf Bank- und Aktionärsdarlehen, Darlehen an Aktionäre, Bankguthaben, Bankspesen, Erträge aus Finanzanlagen, Fremdwährungsdifferenzen. Vor allem analytisch (Vorjahr, Erwartungswert aus verzinslichen Positionen, FX); Detailprüfungen weiter gehend (WP).
 
 ## Risiken
 - Zinsaufwand für Bank- und Aktionärsdarlehen nicht vollständig oder nicht periodengerecht erfasst (fehlende Abgrenzung aufgelaufener Zinsen per Bilanzstichtag). [VO, PA] — [HWP BuR S. 215](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0257-s215.md)

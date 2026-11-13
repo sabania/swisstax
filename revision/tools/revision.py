@@ -3,7 +3,8 @@
 
 Einstieg:   python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"   (Liste: aufgabe · Übersicht: hilfe)
 Prüfen:     pruefschritt C1-302 · prueffeld C1 (oder Stichwort «Vorräte») · unterlagen C1 · fragen C1
-Vorgehen:   prozess [p1…p8] · regeln [bereich] · revio <Bereich 10.9 | Prüffeld | Schritt | Werkzeug | Aufgabe | nur-mensch>
+Vorgehen:   prozess [p1…p8] [schritte|entscheide|fallstricke|fragen|unterlagen|doku|muster|gesetz] [--voll] · regeln [bereich]
+            · revio <Bereich 10.9 | Prüffeld | Schritt | Werkzeug | Aufgabe | nur-mensch>
 Zahlen:     wert <begriff> · rechne "a = 1200; b = 300; a - b" · rechne "tage(31.12.2025, 15.10.2025)" · wesentlichkeit <bezugsgrösse> <satz%>
             · kapitalverlust … · revisionspflicht …
 Akte:       akte <pfad> [--vj <pfad>] (Übersicht) · --pf C1 (Dateien, Treffer, Fundorte) · --suche "a|b" · --inhalt <datei>
@@ -1179,12 +1180,17 @@ def _gesetz_zeile(gs: list[dict]) -> str:
         q = g.get("quelle") or g.get("chunk") or ""
         src, _, rest = q.partition("__")
         k = kurz_of(q).replace(" (ordentliche Revision, nur ergänzend)", "")
-        m = re.match(r"(art|par)-(\d+[a-z]?)", rest) or re.match(r"rz-0*(\d+)", rest)
-        nr = (m.group(2) if m and m.re.pattern.startswith("(art") else f"Rz {m.group(1)}") if m else ""
+        ma, mr = re.match(r"(?:art|par)-(\d+[a-z]?)", rest), re.match(r"rz-0*(\d+)", rest)
+        nr = ma.group(1) if ma else (f"Rz {mr.group(1)}" if mr else "")
         lst = grp.setdefault(k, [])
         if nr and nr not in lst:
             lst.append(nr)
-    return "; ".join(k + (" " + ", ".join(v[:8]) + (" …" if len(v) > 8 else "") if v else "") for k, v in grp.items())
+    out = []
+    for k, v in grp.items():
+        rz = bool(v) and all(x.startswith("Rz ") for x in v)
+        w = [x[3:] if rz else x for x in v[:12]]
+        out.append(k + ((" Rz " if rz else " ") + ", ".join(w) + (" …" if len(v) > 12 else "") if v else ""))
+    return "; ".join(out)
 
 
 def _p_fmt(feld: str, x: dict, voll_gesetz: bool = True) -> str:
@@ -1220,7 +1226,7 @@ def _p_aufrufe(p: dict) -> list[str]:
         return [str(a).strip().strip("`") for a in (af if isinstance(af, list) else [af]) if str(a).strip()][:8]
     auf = [a["id"] for a in L().get("aufgaben", []) if a.get("phase") == p["id"]]
     ap = _agent_prozesse()
-    if sum(1 for n, a in ap if a in auf or any(x.get("id") == a and x.get("phase") == p["id"] for x in L().get("aufgaben", []))) >= 3:
+    if sum(1 for _, a in ap if a in auf) >= 3:   # Agent-Ablauf (p8): alle Agent-Prozesse in ihrer Reihenfolge
         out = [f"aufgabe {a}" for _, a in ap]
     else:
         out = [f"aufgabe {a}" for a in auf]
@@ -1702,14 +1708,14 @@ def wert(begriff: str) -> str:
             s = 0.0
             for t in ts:
                 v = 0.0
-                for a in alts(t):
-                    st = stamm(a)
+                for j, a in enumerate(alts(t)):
+                    st, ab = stamm(a), (0.25 if j else 0.0)   # Synonym (zinssatz → zins) etwas schwächer als das Suchwort selbst
                     if treffer(st, kopf, True):
-                        v = max(v, 2)
+                        v = max(v, 2 - ab)
                     elif len(st) > 3 and not st.isdigit() and st in kopf:   # mitten im Wort (Mindestzins) zählt weniger
-                        v = max(v, 1.5)
+                        v = max(v, 1.5 - ab)
                     elif treffer(st, kat, len(st) <= 3) or (rest and treffer(st, rest, len(st) <= 3)):
-                        v = max(v, 1)
+                        v = max(v, 1 - ab)
                 s += v
             if s or (not ts and jahre and _jahr_genannt(w, jahre)):
                 sc.append((s + (0.5 if jahre and _jahr_genannt(w, jahre) else 0), -i, w))
@@ -2209,7 +2215,7 @@ def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, 
         out.append(f"| {n} | {chf(g)} | {chf(c)} | {'ja' if u else 'nein'} | {chf(v) if v is not None else '?'} | {'?' if uv is None else ('ja' if uv else 'nein')} |")
     out.append(f"Überschritten: Berichtsjahr {n_cur} von 3 · Vorjahr {n_vj if n_vj is not None else '?'} von 3")
     if ordentlich is False and cur[2] <= 10:
-        out.append(f"Opting-out möglich (höchstens 10 Vollzeitstellen im betreffenden Geschäftsjahr, Zustimmung sämtlicher Aktionäre, Anmeldung vor Beginn des Geschäftsjahres).")
+        out.append("Opting-out möglich (höchstens 10 Vollzeitstellen im betreffenden Geschäftsjahr, Zustimmung sämtlicher Aktionäre, Anmeldung vor Beginn des Geschäftsjahres).")
     out += ["", "## Regeln (mit Fundstelle)"]
     for k in ("or727_ordentlich", "hwp_kombination", "or727a_eingeschraenkt", "hwp_optingout_vzs"):
         r = regel(k)
@@ -3748,10 +3754,10 @@ def hilfe() -> str:
         "`--suche \"Protokoll|Zirkular\"` · `--inhalt <datei>` → `--abschnitt <datei> \"Anhang\"` · `--datei <datei> --von 401` |",
         "| Überblick Prüffeld (Risiken, PBC, Fragen, Schritte) | `prueffeld C1` oder `prueffeld Vorräte` |",
         "| Welche Unterlagen / Kundenfragen? | `unterlagen C1` · `fragen C1` (Übersicht: ohne Code) |",
-        "| Wie läuft die Revision ab, was entscheidet der WP? | `prozess` · `prozess p6` |",
+        "| Wie läuft die Revision ab, was entscheidet der WP? | `prozess` · `prozess p6` (kompakt) · `prozess p6 entscheide` (ein Abschnitt ganz) |",
         "| Was darf der Agent, Notizen, Ablauf je Schritt? | `regeln` · `regeln notizen` · `regeln grenze` |",
         "| Welches revio-Werkzeug? | `revio 10.9` · `revio C1-302` · `revio notiz` · `revio ketten` · `revio nur-mensch` |",
-        "| Schwellenwert, Satz, Frist | `wert zinssatz darlehen` · `wert revisionspflicht` |",
+        "| Schwellenwert, Satz, Frist | `wert zinssatz darlehen` · `wert revisionspflicht` (Kategorie) · `wert <key>` (ein Wert, Hinweis ganz) |",
         "| Rechnen | `rechne \"a = 1200; b = 300; a - b\"` · `rechne \"tage(31.12.2025, 15.10.2025)\"` · `wesentlichkeit --gesamt 50000 --toleranz 37500` · "
         "`kapitalverlust --aktienkapital … [--reserve-voll … --covid-kredit …]` · `revisionspflicht …` |",
         "| Fachfrage mit Quelle | `thema rangrücktritt` (Volltext: `--voll`) · `suche \"…\" --quelle ser-2022` → `zeige <chunk-id>` |", "",

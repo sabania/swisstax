@@ -15,6 +15,15 @@ wann: 'Nach Bearbeitung der Prüffelder (Agent-Prozess 2 Prüffelder, `aufgabe p
   Jahresrechnung unterzeichnet bzw. formell gutgeheissen hat; rückwärts planen ab GV-Datum: Revisionsbericht muss den Aktionären mindestens 20 Tage vor der GV zugänglich sein (OR 699a).
   Vor Agent-Prozess 4 Revisionsrapport (`aufgabe rapport`) und Agent-Prozess 5 GVB-Entwurf (`aufgabe gvb-bericht`). Neue Tatsachen nach dem Berichtsdatum sofort an den WP. Danach: Abschluss
   der Auftragsakte innert interner Frist (in der Regel höchstens 60 Tage nach Berichtsdatum), Agent-Prozess 6 PDF-Akte (`aufgabe pdf-akte`) nur auf Anweisung des WP.'
+aufrufe:
+- aufgabe abschluss
+- thema ereignisse nach dem bilanzstichtag
+- thema vollstaendigkeitserklaerung
+- thema going concern
+- aufgabe kapitalschutz
+- pruefschritt A1-203
+- aufgabe rapport
+- aufgabe gvb-bericht
 gesetz:
 - thema: 'Prüfungsgegenstand: Jahresrechnung und Antrag über die Verwendung des Bilanzgewinns (OR 729a Abs. 1)'
   quelle: or__art-729a
@@ -128,7 +137,7 @@ schritte:
     Auswirkung auf die Jahresrechnung festhalten (Ereignisse nach Stichtag, Finanzierung, Sanierung, Rechtsfälle, Dividenden). Zusätzlich feststellen: Genehmigung der letzten JR innert
     sechs Monaten, Wahl der Revisionsstelle, Gewinnverwendungsbeschluss Vorjahr, Unterzeichnung bzw. formelle Gutheissung der JR. Fehlen Protokolle nach dem Stichtag: Pendenz bzw. PBC-Vorschlag.'
   wer: Agent
-  revio: 'Bereich 4: A1-304 (rv_put_auditActivities_UpdateDossierActivity); 10.9 Protokolle lesen (rv_get_workpapers_LoadContainerDocuments_by_areaId); 10.10 PBC nur Vorschlag'
+  revio: 'Bereich 4: A1-304 (rv_put_auditActivities_UpdateDossierActivity); 10.9 Protokolle lesen (rv_get_workpapers_LoadContainerDocuments_by_areaId); 10.10 nur lesen (fehlende Unterlagen → Pendenz-Notiz «PBC-Vorschlag»)'
   mfiles: GV- und VR-Protokolle des Geschäftsjahres und nach dem Stichtag (Kunde, Geschäftsjahr, Klasse); Protokoll-ID/Version im Textfeld referenzieren
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
@@ -144,7 +153,7 @@ schritte:
     (Protokolle aus A1-304, Erkenntnisse aus Schritten im Umfang). Keine zusätzliche Durchsicht zu Sachverhalten, die bereits zufriedenstellend geprüft sind.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 'Bereich 4: A1-102, T1-109 (Textfeld); SCH3-302 ist WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld, Status «nicht bearbeitet – WP-Schritt»; 10.11 Kundenbefragung
-    lesen; 10.10 PBC nur Vorschlag; 6.3 nur lesen'
+    lesen; 10.10 nur lesen (fehlende Unterlagen → Pendenz-Notiz «PBC-Vorschlag»); 6.3 nur lesen'
   mfiles: Protokolle nach Stichtag, schriftliche Antworten 10.11
   fundstellen:
   - quelle: ser-2022__anh-d-s100-1
@@ -438,7 +447,8 @@ schritte:
     markieren; Datum mit vorgesehenem Berichtsdatum abgleichen; in 10.4 ablegen, Status offen lassen. Liegt die VE vor der vorgesehenen Berichtsabgabe nicht vor: Pendenz an den WP (Vorgehen
     entscheidet der WP).'
   wer: Agent
-  revio: 10.4 Jahresrechnung und Vollständigkeitserklärung (rv_post_workpapers_StoreContainerDocuments_by_areaId); A1-103 Textfeld
+  revio: '10.4 Jahresrechnung und Vollständigkeitserklärung ablegen wie `revio K17` (Schritte 7 und 9, mit Freigabe; rv_post_workpapers_StoreContainerDocuments_by_areaId nie – deny
+    bis Entscheid consis); A1-103 Textfeld'
   mfiles: Unterzeichnete VE und JR mit M-Files-ID/Version referenzieren
   fundstellen:
   - quelle: ser-2022__anh-e-s102-2

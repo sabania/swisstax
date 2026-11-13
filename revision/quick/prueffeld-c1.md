@@ -13,7 +13,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: f8db06ddc437e51941ff50f831b4d6d5330ebe199c9c6aebb398a0497fa44d54
+quelle_sha: 30b3ddb467a6ba9c023085d2d8fbba9251b430410d0401f68ad28e61a3014f32
 ---
 
 
@@ -119,7 +119,7 @@ Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte (106, 208, 304–3
 - Das Pflichtenheft-Beispiel «C1 Delkredere» nennt die WP-Schritte 208 und 304 als zugehörig; trotzdem nur auf Anweisung bearbeiten. Ohne Anweisung Zahlungen nach dem Stichtag über C1-309 und Verlustquote über C1-207 in C1-302 einbeziehen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c013-1.md)
 - Sonstige Prüfungshandlungen (C1-401 bis C1-408) nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise als Notiz. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
 - Mögliche Fehler und Korrekturen nur als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag – nie selbst buchen. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c007-1.md)
-- Debitorenbestätigungen (Saldobestätigungen) sind in der eingeschränkten Revision nicht vorgesehen – der Agent fordert keine an; Vorhandensein über Versandpapiere/Zahlungseingänge belegen. — [HWP ER S. 85](../chunks/hwp-er-2026/hwp-er-2026__rz-0262-s085.md)
+- Debitorenbestätigungen (Saldobestätigungen) sind in der eingeschränkten Revision nicht vorgesehen – der Agent fordert keine an; Vorhandensein über Versandpapiere/Zahlungseingänge belegen. Vorhandene, vom Unternehmen selbst eingeholte Bestätigungen dagegen ohne Anweisung auswerten (C1-401). — [HWP ER S. 85](../chunks/hwp-er-2026/hwp-er-2026__rz-0262-s085.md) · [HWP ER S. 203](../chunks/hwp-er-2026/hwp-er-2026__rz-0137-s203.md)
 - Liegen für einen wesentlichen Posten weder Versandpapiere noch Zahlungseingang vor, ist das Risiko kaum reduzierbar – Hinweis an den WP (mögliche Einschränkung), nicht selbst beurteilen. — [HWP ER S. 204](../chunks/hwp-er-2026/hwp-er-2026__rz-0139-s204-t1.md)
 - Liegt der Debitorenbestand über der Toleranzwesentlichkeit, genügen Befragungen allein nicht; Antworten mit Analytik/Detailprüfungen erhärten. — [HWP ER S. 198](../chunks/hwp-er-2026/hwp-er-2026__rz-0105-s198.md)
 - Keine repräsentativen bzw. statistischen Stichproben ziehen; Auswahl bewusst (Grösse, Risiko, Auffälligkeit) und begründet. — [SER](../chunks/ser-2022/ser-2022__6-1-3.md)
@@ -175,7 +175,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | C1-320 | Detail |  | DO | vorbereiten | Auswirkungen auf Anhang | Prüffeldergebnisse auf Anhangsangaben übertragen: gesonderter Ausweis Forderungen gegenüber Beteiligten/Organen, verpfändete/abgetretene Forderungen (inkl.… |
 | C1-321 | Detail |  | VO BE | vorbereiten | Beurteilung von Bestand und Veränderung der stillen Reserven | Bestand und Veränderung der stillen Reserven im Delkredere (aus C1-303) beurteilen: Methode stetig zum VJ, Abstimmung mit Detailnachweis und Resultat C1-302.… |
 | C1-322 | Detail |  |  | vorbereiten | Aktualisieren Dauerakten | Dauerakte prüfen und aktualisieren: AGB/Verkaufs- und Zahlungsbedingungen, wesentliche Rahmen- und Werkverträge mit Kunden, Zessions-/Factoringverträge (z. B.… |
-| C1-401 | Sonstige |  | EX VO PA RI | auf_anweisung | Bestandesnachweise durch Einholung von Saldobestätigungen | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Debitorenbestätigungen… |
+| C1-401 | Sonstige |  | EX VO PA RI | auf_anweisung | Bestandesnachweise durch Einholung von Saldobestätigungen | Vorhandene, vom Unternehmen eingeholte Saldobestätigungen bzw. Kontoabstimmungen mit Kunden ohne Anweisung auswerten (HWP ER Rz 137… |
 | C1-402 | Sonstige |  | EX VO PA | auf_anweisung | Saldoliste abgestimmt mit: a) offenen Rechnungen b) Einzelkonten | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung… |
 | C1-403 | Sonstige |  | VO BE | auf_anweisung | Befragung, ob Forderungen Vorräte, die in Konsignation gegeben wurden, betreffen und, wenn ja, ob Korrekturen zum Storno solcher… | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung… |
 | C1-404 | Sonstige |  | BE PA | auf_anweisung | Befragung, ob nach dem Bilanzstichtag grosse Nachlässe auf Umsatzerlösen gewährt und, wenn ja, ob diese korrekt erfasst worden sind. | Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung… |

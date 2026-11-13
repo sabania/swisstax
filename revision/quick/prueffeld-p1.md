@@ -23,7 +23,7 @@ quellen:
 - vstg
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: b1e1487544e1473e9ca3e9cf647779a7d9251e4eadb79b5a25823c08e95633d8
+quelle_sha: 5acf91f587c5a51e7625de4a77cc5c5076453218ab558d514cddc11a69570341
 ---
 
 

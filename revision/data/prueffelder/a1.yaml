@@ -825,12 +825,17 @@ schritte:
   rechnen: 'Fremdkapital = Verbindlichkeiten + Rückstellungen + passive Rechnungsabgrenzungen (inkl. rangrücktrittsbelasteter Darlehen und Zinsen); Covid-19-Kredite nach Art. 3 SBüV
     und Härtefall-Darlehen (HFMV 20) gelten nicht als Fremdkapital. Kapitalverlust und Überschuldung nie von Hand rechnen, sondern: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten
     <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt
-    …] [--holding]`. Gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals anrechenbar; gleiche Rechnung wie P1-313. Deckung = Σ Rangrücktritte
-    (Kapital + aufgelaufene Zinsen) − Überschuldung ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); EK-Quote =
+    …] [--rr-polster …] [--holding]`. Gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals anrechenbar; gleiche Rechnung wie P1-313. Deckung = Σ Rangrücktritte
+    (Kapital + aufgelaufene Zinsen) − Überschuldung − Sicherheitspolster (Höhe WP, `--rr-polster`) ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); EK-Quote =
     Eigenkapital / Bilanzsumme; Überschuldung = Fremdkapital (ohne Covid-19-Kredite) − Aktiven (> 0 = überschuldet); Σ Rangrücktritte nur aus unterzeichneten Vereinbarungen; Differenz
     Σ Vereinbarungen − Anhangsangabe = 0?'
   feststellung_wenn: Erhebliche Zweifel an der Fortführung ohne Anhangsangabe, Einschätzung fehlt/< 12 Monate, Kapitalverlust, Überschuldung ohne genügende Rangrücktritte inkl. Zinsen,
     Reduktion/Tilgung trotz Überschuldung.
+  aufrufe:
+  - kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt …] [--rr-polster …] [--holding]
+  - aufgabe kapitalschutz
+  - thema going concern
+  - thema rangrücktritt
   fundstellen:
   - quelle: ser-2022__anh-d-s072-1
     zitat: Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird
@@ -914,6 +919,8 @@ schritte:
     zitat: Einsicht in Rangrücktrittsvereinbarungen
   - quelle: hwp-er-2026__rz-0402-s120-t3
     zitat: wenn die Jahresrechnung zu Fortführungswerten eine Überschuldung ausweist
+  - quelle: hwp-er-2026__rz-0421-s125
+    zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten nach Unterzeichnung des Rangrücktritts
 - id: A1-206
   vorgehen: Saldoliste auf wesentliche Konten prüfen, die in Sammelpositionen aufgehen, und Bilanz/ER/Anhang auf gesondert auszuweisende Positionen (u.a. Forderungen/Verbindlichkeiten
     gegenüber Beteiligten und Organen, ausserordentliche/periodenfremde Posten, branchenübliche Positionen, Rangrücktritte). Fehlende Ausweise mit Konto und Betrag im Textfeld.

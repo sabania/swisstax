@@ -10,7 +10,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 1d89cb9e6288f81f9340850d159efcf537ff5633e189092c53faf9cb6f48ed4f
+quelle_sha: c1d0b5b08fef1d92693e221fda14176bbd2d6c003e1a2161c8bb59a4a7b185cd
 ---
 
 
@@ -18,7 +18,7 @@ quelle_sha: 1d89cb9e6288f81f9340850d159efcf537ff5633e189092c53faf9cb6f48ed4f
 
 revio Bereich 4 · 7 Schritte (Befragung 2, Analytisch 2, Detail 3, Sonstige 0; EP 2, WP 1) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/sch2.md](../wiki/prueffelder/sch2.md)
 
-Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen gemäss SER Anh. D p): Befragung zu Grundsätzen und Abgrenzung (101), Margenvergleich je Produktkategorie (201); ergänzend Abweichungs-/Kontenanalyse (102/202). Detailprüfungen (301/302) nach Risiko und Wesentlichkeit. Cut-off (303): weiter gehend, WP-Schritt.
+Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen (SER Anh. D): Befragung Grundsätze/Abgrenzung (101), Margenvergleich (201), Analytik (102/202). Detailprüfungen (301/302) nach Risiko; Cut-off (303) WP-Schritt.
 
 ## Risiken
 - Unvollständigkeit/Cut-off: Lieferungen und Leistungen des Geschäftsjahres werden erst in neuer Rechnung gebucht, ohne Kreditor oder passive Rechnungsabgrenzung (Aufwand zu tief, Marge zu hoch). [VO, PA] — [SER S. 84](../chunks/ser-2022/ser-2022__anh-d-s084-2.md)

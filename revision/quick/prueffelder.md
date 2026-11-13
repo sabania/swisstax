@@ -21,13 +21,13 @@ Spalte «Agent»: Anzahl Schritte vorbereiten · teilweise (Befragung) · auf An
 | [D1](prueffeld-d1.md) | Übrige kurzfristige Forderungen | 20 | 7/2 | 11 · 3 · 4 · 2 | 🟡 extrahiert | [Detail](../wiki/prueffelder/d1.md) |
 | [E1](prueffeld-e1.md) | Aktive Rechnungsabgrenzung | 11 | 4/3 | 7 · 1 · 0 · 3 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/e1.md) |
 | [F1](prueffeld-f1.md) | Vorräte | 29 | 11/6 | 8 · 9 · 6 · 6 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/f1.md) |
-| [F2](prueffeld-f2.md) | Nicht fakturierte Leistungen | 24 | 7/4 | 7 · 5 · 8 · 4 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/f2.md) |
+| [F2](prueffeld-f2.md) | Nicht fakturierte Leistungen | 24 | 7/4 | 7 · 5 · 8 · 4 | 🟡 extrahiert | [Detail](../wiki/prueffelder/f2.md) |
 | [G1](prueffeld-g1.md) | Mobile Sachanlagen | 24 | 8/4 | 7 · 6 · 7 · 4 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/g1.md) |
-| [G2](prueffeld-g2.md) | Immobile Sachanlagen | 28 | 9/4 | 7 · 6 · 11 · 4 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/g2.md) |
+| [G2](prueffeld-g2.md) | Immobile Sachanlagen | 28 | 9/4 | 7 · 6 · 11 · 4 | 🟡 extrahiert | [Detail](../wiki/prueffelder/g2.md) |
 | [H1](prueffeld-h1.md) | Finanzanlagen | 25 | 4/5 | 11 · 5 · 4 · 5 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/h1.md) |
 | [H2](prueffeld-h2.md) | Aktivdarlehen | 14 | 3/3 | 5 · 2 · 4 · 3 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/h2.md) |
 | [H3](prueffeld-h3.md) | Beteiligungen | 15 | 3/3 | 5 · 2 · 5 · 3 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/h3.md) |
-| [I1](prueffeld-i1.md) | Immaterielle Anlagen | 19 | 5/2 | 5 · 4 · 8 · 2 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/i1.md) |
+| [I1](prueffeld-i1.md) | Immaterielle Anlagen | 19 | 5/2 | 5 · 4 · 8 · 2 | 🟡 extrahiert | [Detail](../wiki/prueffelder/i1.md) |
 | [K1](prueffeld-k1.md) | Verbindlichkeiten aus Lieferungen und Leistungen | 22 | 7/2 | 7 · 3 · 9 · 3 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/k1.md) |
 | [L1](prueffeld-l1.md) | Kurzfristige verzinsliche Verbindlichkeiten | 23 | 8/2 | 6 · 4 · 11 · 2 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/l1.md) |
 | [M1](prueffeld-m1.md) | übrige kurzfristige Verbindlichkeiten | 19 | 7/1 | 7 · 3 · 8 · 1 | ☑️ agent-geprueft | [Detail](../wiki/prueffelder/m1.md) |

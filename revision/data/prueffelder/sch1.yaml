@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 14
     korrigiert: true
-kurzbeschrieb: 'Nettoerlöse LuL inkl. Erlösminderungen, Bestandesänderungen separat, Abgrenzung zu Finanz-, betriebsfremdem und a.o. Ertrag. ER: empfohlen Befragung zu Umsatzerfassung/Cut-off
-  und Margenvergleich; dazu Saldo-/Budgetanalytik, Gliederung nach Art. 959b OR. Belegabstimmung weiter gehend bei Risiko; Cut-off-Einsicht ist WP-Schritt (nur auf Anweisung); JET nur
-  auf WP-Anweisung, Drittbestätigungen nicht Bestandteil.'
+kurzbeschrieb: 'Nettoerlöse LuL inkl. Erlösminderungen; Abgrenzung zu Bestandesänderungen, Finanz-, betriebsfremdem und a.o. Ertrag. Empfohlen: Befragung Umsatzerfassung/Cut-off,
+  Margenvergleich, Saldo-/Budgetanalytik, Gliederung (Art. 959b OR). Belege weiter gehend; Cut-off-Einsicht und JET nur auf WP-Anweisung.'
 gesetz:
 - thema: Zeitliche und sachliche Abgrenzung von Aufwand und Ertrag (Cut-off)
   quelle: or__art-958b

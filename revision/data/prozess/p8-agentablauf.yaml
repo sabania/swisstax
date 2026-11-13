@@ -1,6 +1,6 @@
 # Prozessphase p8-agentablauf – was nötig ist (kein starrer Ablauf), mit Fundstellen.
 id: p8-agentablauf
-titel: Arbeitsablauf des KI-Revisionsagenten (Prozesse 1–6, revio 4.0, M-Files)
+titel: Arbeitsablauf des KI-Revisionsagenten (Agent-Prozesse 1–6, revio 4.0, M-Files)
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prozess-werte
@@ -9,10 +9,10 @@ erfasst:
     urteil: korrigieren
     befunde: 16
     korrigiert: true
-ziel: 'Übersicht, wie der KI-Revisionsagent eine eingeschränkte Revision in revio 4.0 und M-Files über die Prozesse 1–6 vorbereitet (Import, Prüfschritte, Unterlagen 10.9, PBC-Vorschläge,
+ziel: 'Übersicht, wie der KI-Revisionsagent eine eingeschränkte Revision in revio 4.0 und M-Files über die Agent-Prozesse 1–6 vorbereitet (Import, Prüfschritte, Unterlagen 10.9, PBC-Vorschläge,
   Beendigung, Rapport, GVB-Entwurf, PDF-Akte): was nötig ist, wo es hingehört, welche Notizen er erfasst, was der WP entscheidet. Nie Visum, Abschluss, Freigabe.'
-wann: 'Durchgehend ab dem Auftrag des WP (Mandat, Geschäftsjahr, Bestätigung der Grundlage für den KI-Einsatz) bis zur bestätigten Ablage der PDF-Akte. Prozesse 1–5 grundsätzlich der
-  Reihe nach, Prozess 6 nur auf Anweisung. Stimmen Bilanz, Totale oder Perioden nicht: Halt bis Klärung (immer); in Testphase 1 zusätzlich Halt nach dem Import.'
+wann: 'Durchgehend ab dem Auftrag des WP (Mandat, Geschäftsjahr, Bestätigung der Grundlage für den KI-Einsatz) bis zur bestätigten Ablage der PDF-Akte. Agent-Prozesse 1–5 grundsätzlich der
+  Reihe nach, Agent-Prozess 6 nur auf Anweisung. Stimmen Bilanz, Totale oder Perioden nicht: Halt bis Klärung (immer); in Testphase 1 zusätzlich Halt nach dem Import.'
 gesetz:
 - thema: 'Prüfungsumfang der eingeschränkten Revision: Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen. Das ist der Rahmen der Schritttypen 1xx/2xx/3xx.'
   quelle: or__art-729a
@@ -24,7 +24,7 @@ gesetz:
 - thema: 'Unabhängigkeit und Selbstprüfungsrisiko bei Mitwirkung an der Buchführung: Vorbedingung, die der WP vor dem Start beurteilt (2.2/2.4). Der Agent liest nur.'
   quelle: or__art-729
   zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
-- thema: Den Bericht an die GV unterzeichnet die leitende Person, nie der Agent (Prozess 5 nur Entwurf).
+- thema: Den Bericht an die GV unterzeichnet die leitende Person, nie der Agent (Agent-Prozess 5 nur Entwurf).
   quelle: or__art-729b
   zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
 - thema: Pflichtangaben im Bericht (eingeschränkte Natur, Unabhängigkeit, Mitwirken bei der Buchführung, leitende Person). Im GVB-Entwurf prüfen und Abweichungen markieren.
@@ -139,7 +139,7 @@ schritte:
     zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
   - quelle: flussdiagramm-revisionsagent-2026__s001-2
     zitat: Ziel, Prüfziele, Risiko aus 3.1 und Strategie 3.5
-- was: 'Prozess 1 – Import der Jahresrechnung vorbereiten: Siegelstatus des Geschäftsjahrs prüfen (versiegelt → kein Import). Definitive Bilanz und ER (keine Entwürfe) in M-Files suchen
+- was: 'Agent-Prozess 1 – Import der Jahresrechnung vorbereiten: Siegelstatus des Geschäftsjahrs prüfen (versiegelt → kein Import). Definitive Bilanz und ER (keine Entwürfe) in M-Files suchen
     und ausserhalb revio auslesen. In der Importsimulation Kontenzuordnung, Vorzeichen der Passiven (ImportOptions) und Perioden (Geschäftsjahr, Vorjahr) prüfen. Bilanzgleichheit, Totale,
     Jahresergebnis (Eigenkapital, ER, Antrag über die Gewinnverwendung) und Vorjahresvortrag im Rechenmodul abstimmen, nie im Sprachmodell. Unklare Zuordnungen und Vorzeichenabweichungen
     als Pendenz mit Konto und Betrag. Stimmen Bilanzgleichheit, Totale oder Perioden nicht: Pendenz (Notiz «Pendenz») und Halt bis Klärung durch den WP, keine Prüffelder bearbeiten –
@@ -172,12 +172,12 @@ schritte:
     zitat: Importoption in revio 4.0 oder Zwischenschritt über Excel?
   - quelle: flussdiagramm-revisionsagent-2026__s001-7
     zitat: Bilanz, Totale, Perioden ok? → Pendenz erfassen – Notiz «Pendenz», Halt bis Klärung (nein)
-- was: 'Halt nach dem Import und Freigabe für Prozess 2: In der Testphase meldet der Agent Simulation und Pendenzen; der WP kontrolliert die Kontenzuordnung, übernimmt den Import selbst
-    und gibt «weiter». Immer gilt: Prozess 2 erst beginnen, wenn die definitive Jahresrechnung in revio 1.1 übernommen ist (Übernahme nur Mensch; Kontrolle mit K2 Schritt 1 LoadFinancialStatementState).
+- was: 'Halt nach dem Import und Freigabe für Agent-Prozess 2: In der Testphase meldet der Agent Simulation und Pendenzen; der WP kontrolliert die Kontenzuordnung, übernimmt den Import selbst
+    und gibt «weiter». Immer gilt: Agent-Prozess 2 erst beginnen, wenn die definitive Jahresrechnung in revio 1.1 übernommen ist (Übernahme nur Mensch; Kontrolle mit K2 Schritt 1 LoadFinancialStatementState).
     Zudem müssen Bilanzgleichheit, Totale und Jahresergebnis in revio (K2 Schritt 4 LoadAccountViewForSmartPanelOfDossier) im Rechenmodul mit der definitiven Fassung aus M-Files übereinstimmen.
     Sonst Notiz «Pendenz» und Halt bis Klärung (Auslegung: Folge der Schreibgrenze 4/10).'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 'Bereich 1.1: Übernahme rv_post_financialStatement_AcceptImport nur durch den Menschen. Kontrolle vor Prozess 2 (Kette K2, nur lesen): rv_get_financialStatement_LoadFinancialStatementState
+  revio: 'Bereich 1.1: Übernahme rv_post_financialStatement_AcceptImport nur durch den Menschen. Kontrolle vor Agent-Prozess 2 (Kette K2, nur lesen): rv_get_financialStatement_LoadFinancialStatementState
     (Schritt 1), rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier (Schritt 4)'
   mfiles: ''
   fundstellen:
@@ -204,7 +204,7 @@ schritte:
     zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: konzept-ki-revisionsagent-2026__c011-2
     zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet), offene und wesentliche Punkte zuerst, Verweis auf Schritt und Notiz
-- was: 'Prozess 2 – Prüfschritt bearbeiten, gleicher Ablauf je Schritt: Ziel und Prüfziele lesen → Risiko und Strategie (3.1/3.5, nur bei freigegebenem Leserecht, sonst Pendenz) berücksichtigen
+- was: 'Agent-Prozess 2 – Prüfschritt bearbeiten, gleicher Ablauf je Schritt: Ziel und Prüfziele lesen → Risiko und Strategie (3.1/3.5, nur bei freigegebenem Leserecht, sonst Pendenz) berücksichtigen
     → Nachweise in M-Files beschaffen → Umfang nach Wesentlichkeit festlegen (Stichprobe begründen) → prüfen und rechnen (Vorjahresvergleich, Widersprüche suchen) → im Textfeld dokumentieren
     → Belege ablegen → Notizen erfassen → Visum offen lassen. Vor dem Schreiben den Schritt neu laden; ist er visiert, deaktiviert oder hat ein Mensch schon Text erfasst: nicht überschreiben,
     sondern Notiz. Mit Playbooks beginnen: Vorjahresabstimmung (A1-302), C1 Delkredere, G1.'
@@ -270,7 +270,7 @@ schritte:
     zitat: Die Beurteilung, ob eine Feststellung wesentlich ist, liegt im professionellen Ermessen des Abschlussprüfers.
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Gesamtwesentlichkeit: Massstab für Wesentliche Feststellungen; die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1.'
-- was: 'Prozess 3 – Unterlagen zum Abschluss: GV- und VR-Protokolle (Vorjahr, ggf. Geschäftsjahr) in M-Files beschaffen, Zugehörigkeit prüfen (Gesellschaft, Organ, Datum, Jahr) und in
+- was: 'Agent-Prozess 3 – Unterlagen zum Abschluss: GV- und VR-Protokolle (Vorjahr, ggf. Geschäftsjahr) in M-Files beschaffen, Zugehörigkeit prüfen (Gesellschaft, Organ, Datum, Jahr) und in
     10.9 ablegen. Der Status bleibt offen. Den Inhalt für A1/P1 auswerten (Reserven und Bilanzgewinn gegen GV-Protokoll). Prüfen, ob die unterzeichnete Jahresrechnung und die Vollständigkeitserklärung
     in 10.4 vorliegen. Ist ein Protokoll nicht eindeutig oder fehlt etwas: Pendenz mit Präfix «PBC-Vorschlag». 10.1–10.4 lesend mit Bereich 1 abgleichen (K17 Schritte 1–6). Ablage in
     10.x erst nach Freigabe des Uploads (K15). VE nur auf Vorliegen prüfen (A1-103, K17 Schritt 11).'
@@ -368,7 +368,7 @@ schritte:
     zitat: so sind diese Gesetzesverletzungen im Revisionsbericht
   - quelle: hwp-er-2026__rz-0447-s130
     zitat: Das Bestehen eines Kapitalverlusts, einer Überschuldung
-- was: 'Prozess 4 – Revisionsrapport an den WP: aus dem einheitlichen Ergebnis je Schritt zusammenstellen, jeweils mit Verweis auf Schritt und Notiz, in dieser Reihenfolge: (1) Wesentliche
+- was: 'Agent-Prozess 4 – Revisionsrapport an den WP: aus dem einheitlichen Ergebnis je Schritt zusammenstellen, jeweils mit Verweis auf Schritt und Notiz, in dieser Reihenfolge: (1) Wesentliche
     Feststellungen (Schritt-Id, Notiz, Betrag, Buchungsvorschlag); (2) Punkte der Beendigung (Kapitalverlust/Überschuldung, Fortführung, Ereignisse nach dem Stichtag); (3) offene Pendenzen
     inkl. «PBC-Vorschlag» und «Leserecht offen»; (4) Status je Prüffeld (vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet + Grund); (5) Entscheide für den WP (Konsultation/aQS,
     Hinweise im Bericht, WP-Schritte, Summe nicht korrigierter Fehler für 6.1); (6) Änderungen nach Review (Schritt, Datum, Grund); (7) Liste der erhaltenen Kundenoriginale. Summe der
@@ -437,7 +437,7 @@ schritte:
     zitat: je nach deren Wichtigkeit verschiedene Schlussbesprechungen veranlassen
   - quelle: ser-2022__5-3
     zitat: In der Regel macht der Abschlussprüfer der Unternehmensleitung den Vorschlag, die in seiner Zusammenstellung festgehaltenen Fehlaussagen zu korrigieren.
-- was: 'Prozess 5 – GVB-Bericht (Entwurf): Vorjahres-Deckblatt und -Berichtstext in M-Files kopieren, das Original bleibt unverändert. Jahreszahlen, Stichtage und Jahresergebnis aktualisieren,
+- was: 'Agent-Prozess 5 – GVB-Bericht (Entwurf): Vorjahres-Deckblatt und -Berichtstext in M-Files kopieren, das Original bleibt unverändert. Jahreszahlen, Stichtage und Jahresergebnis aktualisieren,
     Word-Formatierung erhalten. Zusätzlich prüfen: Wortlaut gegen den aktuellen Normalwortlaut (2026 sprachlich angepasst, «Demnach …»); Adressat und Wortlaut je Rechtsform (AG: Generalversammlung,
     GmbH: Gesellschafterversammlung); Pflichtangaben nach Art. 729b OR (Unabhängigkeit, Mitwirken bei der Buchführung mit Einschub, leitende Person). Gegen 7.1 Berichtsstrategie und
     7.5 Berichtskritik prüfen. Abweichungen (Einschränkung, Hinweis, Zusatz Kapitalverlust/Überschuldung) nur markieren, Entscheid beim WP. Keine Unterzeichnung, keine Datierung.'
@@ -471,7 +471,7 @@ schritte:
     zitat: Der Bericht muss von der Person unterzeichnet werden, die die Revision geleitet hat.
   - quelle: ser-2022__8-6
     zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
-- was: 'Prozess 6 – PDF-Akte nur auf Anweisung des WP: erzeugen, prüfen (richtiges Mandat und Jahr, vollständig) und in M-Files ablegen. Nichts überschreiben. Speicherort im Protokoll
+- was: 'Agent-Prozess 6 – PDF-Akte nur auf Anweisung des WP: erzeugen, prüfen (richtiges Mandat und Jahr, vollständig) und in M-Files ablegen. Nichts überschreiben. Speicherort im Protokoll
     bestätigen, bei einem Fehler eine Pendenz erfassen. Archivieren und Siegeln macht der Mensch.'
   wer: Agent
   revio: 'Kette K13: rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId, rv_post_containerDefinitions_GeneratePdfReport nur mit isArchiveJob=false (standardmässig gesperrt,
@@ -534,7 +534,7 @@ entscheidungen_wp:
   quelle: or__art-729
   zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
 - text: 'Import in die Akte übernehmen (AcceptImport) und Werte oder Struktur in 1.1 ändern: nur Mensch. Offener Entscheid consis: Darf der Agent in 1.1 Import-Entwürfe anlegen bzw.
-    eigene verwerfen (Widerspruch Prozess 1 zur Schreibgrenze 4/10)?'
+    eigene verwerfen (Widerspruch Agent-Prozess 1 zur Schreibgrenze 4/10)?'
   quelle: konzept-ki-revisionsagent-2026__c006-1
   zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
 - text: 'Import und Kontenzuordnung kontrollieren und «weiter» geben (Halt, nur Testphase). Bei Fehlern in Bilanz, Totalen oder Perioden: Klärung vor der Weiterarbeit.'
@@ -613,7 +613,7 @@ entscheidungen_wp:
   zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
 unterlagen:
 - dokument: Definitive Bilanz und Erfolgsrechnung des Geschäftsjahres (M-Files, «Bilanz/ER Definitiv»)
-  zweck: 'Prozess 1: Importsimulation für revio 1.1, Abstimmung von Bilanzgleichheit, Totalen und Perioden'
+  zweck: 'Agent-Prozess 1: Importsimulation für revio 1.1, Abstimmung von Bilanzgleichheit, Totalen und Perioden'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Definitive Bilanz und ER in M-Files suchen
 - dokument: Antrag des VR über die Verwendung des Bilanzgewinns (Teil der Jahresrechnung) und Statuten
@@ -621,11 +621,11 @@ unterlagen:
   quelle: hwp-er-2026__rz-0219-s235
   zitat: Beurteilung des aktuellen Antrags über die Verwendung des Bilanzgewinns
 - dokument: GV-/VR-Protokolle, insbesondere das Protokoll des Vorjahres (M-Files)
-  zweck: 'Prozess 3: Ablage in 10.9; Auswertung für P1 und A1'
+  zweck: 'Agent-Prozess 3: Ablage in 10.9; Auswertung für P1 und A1'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen
 - dokument: 'Nachweise je Prüfschritt: OP-Listen, Anlagenbuchhaltung, weitere Belege (M-Files, auch unsauber abgelegt)'
-  zweck: 'Prozess 2: Detailprüfungen 3xx und Playbooks C1/G1'
+  zweck: 'Agent-Prozess 2: Detailprüfungen 3xx und Playbooks C1/G1'
   quelle: konzept-ki-revisionsagent-2026__c018-1
   zitat: Typische Dokumentbezeichnungen mit Beispielen (Bilanz/ER Definitiv, OP-Listen, Anlagenbuchhaltung, Protokolle, GVB-Vorlagen), auch unsaubere Ablagen
 - dokument: 'Planung in revio: Wesentlichkeit 3.3, Risikobeurteilung 3.1, strategische Planung 3.5'
@@ -653,7 +653,7 @@ unterlagen:
   quelle: ser-2022__anh-g-s140-3
   zitat: kritische Durchsicht von Sitzungsprotokollen der Unternehmensorgane
 - dokument: GVB-Deckblatt und Berichtstext des Vorjahres (M-Files, Word-Vorlage)
-  zweck: 'Prozess 5: Kopie als Entwurf für das Geschäftsjahr'
+  zweck: 'Agent-Prozess 5: Kopie als Entwurf für das Geschäftsjahr'
   quelle: konzept-ki-revisionsagent-2026__c019-1
   zitat: 'GVB-Deckblatt und Berichtstext: Vorlagen vorhanden'
 - dokument: Katalog der 538 Prüfschritte (Anhang H der Konzept-/Pflichtenheft-Beilagen, nicht SER Anhang H; EP/WP, Prüfziele)
@@ -714,7 +714,7 @@ fallstricke:
 - text: Eine falsche Kontenzuordnung im Import verfälscht alle Folgeprüfungen. Deshalb gilt in der Testphase ein Halt, und Abstimmungen laufen im Rechenmodul.
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
-- text: 'Import ausserhalb der Schreibgrenze: Prozess 1 wirkt in 1.1, der Agent schreibt aber nur in 4 und 10. Bis zum Entscheid consis nur simulieren; AcceptImport und Werteänderungen
+- text: 'Import ausserhalb der Schreibgrenze: Agent-Prozess 1 wirkt in 1.1, der Agent schreibt aber nur in 4 und 10. Bis zum Entscheid consis nur simulieren; AcceptImport und Werteänderungen
     (InvertValuesForPeriod) nie.'
   quelle: konzept-ki-revisionsagent-2026__c006-1
   zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
@@ -800,11 +800,11 @@ fallstricke:
 fragen_kunde:
 - frage: Welche Version der Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang, Antrag über die Verwendung des Bilanzgewinns) ist definitiv, und ist sie vom VR unterzeichnet und in M-Files
     abgelegt?
-  zweck: Prozess 1 (Import nur der definitiven Fassung); Antrag Gewinnverwendung (Art. 729a OR); unterzeichnete Jahresrechnung für 10.4; frühestes Berichtsdatum. Die Frage geht über
+  zweck: Agent-Prozess 1 (Import nur der definitiven Fassung); Antrag Gewinnverwendung (Art. 729a OR); unterzeichnete Jahresrechnung für 10.4; frühestes Berichtsdatum. Die Frage geht über
     den WP, der Agent hat keinen Kundenkontakt.
 - frage: Liegen das GV-Protokoll des Vorjahres (Genehmigung Jahresrechnung, Gewinnverwendung, Wahl der Revisionsstelle) und die VR-Protokolle des Geschäftsjahres und seit dem Bilanzstichtag
     vor?
-  zweck: Prozess 3 (Ablage 10.9); Abstimmung der Reserven und des Bilanzgewinns mit dem GV-Protokoll (P1, A1); Ereignisse nach dem Bilanzstichtag.
+  zweck: Agent-Prozess 3 (Ablage 10.9); Abstimmung der Reserven und des Bilanzgewinns mit dem GV-Protokoll (P1, A1); Ereignisse nach dem Bilanzstichtag.
 - frage: Gab es Änderungen in der Darstellung der Jahresrechnung oder in den Bewertungsgrundsätzen gegenüber dem Vorjahr?
   zweck: Befragungsschritt A1 (SER Anhang D a); Stetigkeit. Schriftlich über 10.11, sonst Pendenz.
 - frage: Sind nach dem Bilanzstichtag bis heute wesentliche Ereignisse eingetreten, oder bestehen bedeutende schwebende Geschäfte mit Verlustrisiko (z. B. Prozesse, Garantien)?

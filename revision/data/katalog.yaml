@@ -4576,7 +4576,7 @@ schritte:
   - BE
   - DO
   - RI
-  text: None
+  text: ''
   beispiel_pflichtenheft: ''
 - id: P1-310
   prueffeld: P1
@@ -5059,7 +5059,7 @@ schritte:
   - VO
   - BE
   - RI
-  text: None
+  text: ''
   beispiel_pflichtenheft: ''
 - id: S1-303
   prueffeld: S1
@@ -5829,7 +5829,7 @@ schritte:
   pruefziele:
   - DO
   - RI
-  text: None
+  text: ''
   beispiel_pflichtenheft: ''
 - id: T1-401
   prueffeld: T1

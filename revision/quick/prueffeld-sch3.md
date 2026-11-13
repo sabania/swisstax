@@ -13,7 +13,7 @@ quellen:
 - vstv
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 7767561558fd3fadd0b34fe8ba8c6f3890ec4ed842166c61e1495ed6ddb675f1
+quelle_sha: 050d427b3ba7d1fda428c30db1a36f59db1b2d7aa45a42ee8566a41fc6584f9c
 ---
 
 
@@ -21,7 +21,7 @@ quelle_sha: 7767561558fd3fadd0b34fe8ba8c6f3890ec4ed842166c61e1495ed6ddb675f1
 
 revio Bereich 4 · 6 Schritte (Befragung 1, Analytisch 2, Detail 3, Sonstige 0; EP 1, WP 3) · Status ☑️ agent-geprueft · Detail mit Zitaten: [wiki/prueffelder/sch3.md](../wiki/prueffelder/sch3.md)
 
-Position nach Art. 959b Abs. 2 Ziff. 5 OR (u.a. Raum-, Unterhalts-, Fahrzeug-, Versicherungs-, Verwaltungs-, IT-, Werbeaufwand). SER Anhang D r): Vorjahresvergleich mit Befragung über Gründe wesentlicher Abweichungen (Befragung ist Teil der Analytik); Belegabstimmung, Durchsicht ungewöhnlicher Beträge und neue Rechnung nur weitergehend (WP). Fokus: EN, VO, PA, RI (EX bei Detail) sowie Ausweis.
+Übriger betrieblicher Aufwand (Art. 959b Abs. 2 Ziff. 5 OR: Raum-, Unterhalts-, Fahrzeug-, Versicherungs-, Verwaltungs-, IT-, Werbeaufwand). Empfohlen: Vorjahresvergleich mit Befragung zu wesentlichen Abweichungen. Belegabstimmung, ungewöhnliche Beträge und neue Rechnung nur weiter gehend (WP).
 
 ## Risiken
 - Aufwand ohne geschäftlichen Zusammenhang erfasst (Privataufwand von Aktionären/Organen, Leistungen an Nahestehende nicht zu Drittbedingungen, überhöhte Honorare/Spesen). [EN, RI] — [HWP BuR S. 299](../chunks/hwp-bur-2023/hwp-bur-2023__rz-0680-s299.md)

@@ -11,7 +11,7 @@ quellen:
 - ser-2022
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 10f64ba9662c3945e593d98781882550a57fd2498351592c677c88399bb81f2c
+quelle_sha: eae3b4ecc2649e0af54765ad60644d09cbee0b1079e5bdb7a9746a14ce5b023d
 ---
 
 
@@ -19,7 +19,7 @@ quelle_sha: 10f64ba9662c3945e593d98781882550a57fd2498351592c677c88399bb81f2c
 
 Status ☑️ agent-geprueft · erfasst 2026-11-13 · Nachprüfung: {'urteil': 'korrigieren', 'befunde': 12, 'korrigiert': True} · Schnellzugriff: [quick/prueffeld-sch5.md](../../quick/prueffeld-sch5.md)
 
-Erfolgspositionen ausserhalb des Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand/Ertrag (z.B. nicht betriebsnotwendige Liegenschaften) sowie ausserordentlicher, einmaliger oder periodenfremder Aufwand/Ertrag (z.B. Vorjahreskorrekturen). Anlagenverkaufserfolge nach Sachverhalt klassieren. Geprüft: Eintritt, Vollständigkeit, Abgrenzung, Klassierung (Art. 959b OR), Anhang.
+Erfolg ausserhalb des Kerngeschäfts: Nebenbetrieb/Nebenerlöse, betriebsfremder Aufwand/Ertrag (z.B. nicht betriebsnotwendige Liegenschaften), a.o., einmaliger oder periodenfremder Erfolg; Anlagenverkäufe nach Sachverhalt klassieren. Geprüft: Eintritt, Vollständigkeit, Abgrenzung, Ausweis, Anhang.
 
 ## Gesetz
 - **Mindestgliederung Produktionserfolgsrechnung: separater Ausweis betriebsfremder Aufwand/Ertrag (Art. 959b Abs. 2 Ziff. 8 OR)**: «8. betriebsfremder Aufwand und betriebsfremder Ertrag;» — [OR 959B](../../chunks/or/or__art-959b-t1.md)
