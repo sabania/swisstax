@@ -1,0 +1,69 @@
+hinweis: Holdout-Set (unabhängig vom Entwicklungsset formuliert, Review «Prozess-Aufgaben und Routing», 2026-11-13). Nicht zum Tunen der Stichworte verwenden; getrennt messen.
+faelle:
+- text: Neues Mandat Muster GmbH, Geschäftsjahr 2025 – bitte anfangen
+  aufgabe: mandat-start
+- text: Kannst du die definitive Jahresrechnung aus M-Files in revio einlesen?
+  aufgabe: import
+- text: Vorzeichen der Passiven nach dem Import kontrollieren
+  aufgabe: import
+- text: kreditoren bitte vorbereiten
+  aufgabe: prueffeld
+  param: K1
+- text: Bearbeite das Prüffeld Rückstellungen
+  aufgabe: prueffeld
+  param: O1
+- text: Bankkonten per 31.12. abstimmen
+  aufgabe: prueffeld
+  param: B1
+- text: Inventur und Lagerbewertung prüfen
+  aufgabe: prueffeld
+  param: F1
+- text: Was muss ich bei A1-205 machen?
+  aufgabe: pruefschritt
+  param: A1-205
+- text: VR-Protokolle 2025 suchen und in 10.9 ablegen
+  aufgabe: unterlagen
+- text: PBC-Liste für den Kunden zusammenstellen
+  aufgabe: unterlagen
+- text: Antworten aus der Kundenbefragung den Prüfschritten zuordnen
+  aufgabe: unterlagen
+- text: Status-Mail an den Wirtschaftsprüfer mit den offenen Punkten
+  aufgabe: rapport
+- text: Revisionsbericht für die GV entwerfen
+  aufgabe: gvb-bericht
+- text: Arbeitspapiere als PDF in M-Files ablegen
+  aufgabe: pdf-akte
+- text: Kassendifferenz als wesentliche Feststellung notieren
+  aufgabe: notiz
+- text: Toleranzwesentlichkeit und Nichtaufgriffsgrenze nachrechnen
+  aufgabe: wesentlichkeit
+- text: Ist die Gesellschaft überschuldet?
+  aufgabe: kapitalschutz
+- text: Zwischenabschluss zu Veräusserungswerten nötig?
+  aufgabe: kapitalschutz
+- text: Saldovortrag mit dem Vorjahresabschluss abgleichen
+  aufgabe: vorjahresabstimmung
+- text: Wertberichtigung auf Debitoren nachrechnen
+  aufgabe: delkredere
+- text: Anlagenspiegel mit Hauptbuch abstimmen
+  aufgabe: sachanlagen
+- text: Vollständigkeitserklärung vorbereiten
+  aufgabe: abschluss
+- text: Brauchen wir dieses Jahr eine ordentliche Revision?
+  aufgabe: auftrag
+- text: Welche Abschreibungssätze akzeptiert die ESTV für Fahrzeuge?
+  aufgabe: fachfrage
+- text: Wie hoch ist der Zinssatz für Aktionärsdarlehen in CHF gemäss ESTV-Rundschreiben?
+  aufgabe: fachfrage
+- text: Darf ich Mandantendaten in ein Cloud-KI-Tool hochladen?
+  aufgabe: fachfrage
+- text: Wie lange müssen Geschäftsbücher aufbewahrt werden?
+  aufgabe: fachfrage
+- text: 'Mehrwertsteuer: Umsatzabstimmung machen'
+  aufgabe: prueffeld
+  param: M2
+- text: Was muss die Revisionsstelle bei Verletzung des Covid-Ausschüttungsverbots tun?
+  aufgabe: fachfrage
+- text: Lohnabstimmung mit der AHV-Abrechnung
+  aufgabe: prueffeld
+  param: R1
