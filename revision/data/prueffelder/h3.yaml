@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 13
     korrigiert: true
-kurzbeschrieb: 'Beteiligungen (Kapitalanteile, langfristig, massgeblicher Einfluss; vermutet ab 20 % Stimmen) inkl. Beteiligungserträge, eigene Anteile, VSt-Guthaben. ER: Befragung zu
-  Grundsätzen und tieferen Werten, Vorjahresvergleich, Abstimmung Verzeichnis/Belege mit JR, Anhang; Bewertungsvergleich, Belegprüfung, Ertragsdurchsicht, Bonität (302–304, 403) nur
-  weitergehend bei Risiko oder auf Anweisung WP.'
+kurzbeschrieb: 'Beteiligungen (langfristig, massgeblicher Einfluss ab 20 % Stimmen vermutet), Erträge, eigene Anteile, VSt-Guthaben. ER: Befragung, VJ-Vergleich, Abstimmung mit JR, Anhang.
+  Bewertung, Belegprüfung, Ertragsdurchsicht, Bonität (302–304, 403) weiter gehend: nur auf Anweisung WP, Auslöser melden.'
 gesetz:
 - thema: Begriff Beteiligung, Vermutung massgeblicher Einfluss ab 20 % (Art. 960d Abs. 3 OR)
   quelle: or__art-960d
@@ -25,12 +24,21 @@ gesetz:
 - thema: 'Anhang: Beteiligungen mit Kapital- und Stimmenanteil (Art. 959c Abs. 2 Ziff. 3 OR)'
   quelle: or__art-959c-t1
   zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
-- thema: 'Anhang: eigene Anteile, Erwerb und Veräusserung (Art. 959c Abs. 2 Ziff. 4 und 5 OR)'
+- thema: 'Anhang: Anzahl eigener Anteile (Art. 959c Abs. 2 Ziff. 4 OR)'
   quelle: or__art-959c-t1
   zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
-- thema: 'Anhang: Sicherheiten für Dritte, verpfändete Aktiven, Eventualverbindlichkeiten (Art. 959c Abs. 2 Ziff. 8–10 OR)'
+- thema: 'Anhang: Erwerb und Veräusserung eigener Anteile mit Bedingungen (Art. 959c Abs. 2 Ziff. 5 OR)'
+  quelle: or__art-959c-t1
+  zitat: Erwerb und Veräusserung eigener Anteile und die Bedingungen, zu denen sie erworben oder veräussert wurden
+- thema: 'Anhang: Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten (Art. 959c Abs. 2 Ziff. 8 OR)'
+  quelle: or__art-959c-t2
+  zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+- thema: 'Anhang: zur Sicherung eigener Verbindlichkeiten verwendete (verpfändete) Aktiven (Art. 959c Abs. 2 Ziff. 9 OR)'
   quelle: or__art-959c-t2
   zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+- thema: 'Anhang: Eventualverbindlichkeiten (Art. 959c Abs. 2 Ziff. 10 OR)'
+  quelle: or__art-959c-t2
+  zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
 - thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR)'
   quelle: or__art-959c-t1
   zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven, soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven
@@ -99,9 +107,15 @@ gesetz:
 - thema: Abtretung von Stammanteilen nur schriftlich (Art. 785 Abs. 1 OR)
   quelle: or__art-785
   zitat: Die Abtretung von Stammanteilen sowie die Verpflichtung zur Abtretung bedürfen der schriftlichen Form.
+- thema: Abtretung von Stammanteilen braucht von Gesetzes wegen die Zustimmung der Gesellschafterversammlung; nur die Statuten können verzichten (Art. 786 Abs. 1 und Abs. 2 Ziff. 1 OR)
+  quelle: or__art-786
+  zitat: Die Abtretung von Stammanteilen bedarf der Zustimmung der Gesellschafterversammlung.
 - thema: Abtretung erst mit erforderlicher Zustimmung der Gesellschafterversammlung rechtswirksam (Art. 787 Abs. 1 OR)
   quelle: or__art-787
   zitat: Ist für die Abtretung von Stammanteilen die Zustimmung der Gesellschafterversammlung erforderlich, so wird die Abtretung erst mit dieser Zustimmung rechtswirksam.
+- thema: Zustimmung gilt als erteilt ohne Ablehnung innert sechs Monaten (Art. 787 Abs. 2 OR)
+  quelle: or__art-787
+  zitat: Lehnt die Gesellschafterversammlung das Gesuch um Zustimmung zur Abtretung nicht innerhalb von sechs Monaten nach Eingang ab, so gilt die Zustimmung als erteilt.
 - thema: Konzernrechnungspflicht bei Kontrolle anderer Unternehmen (Art. 963 Abs. 1 OR)
   quelle: or__art-963
   zitat: Kontrolliert eine rechnungslegungspflichtige juristische Person ein oder mehrere rechnungslegungspflichtige Unternehmen
@@ -111,9 +125,29 @@ gesetz:
 - thema: Befreiung von der Konzernrechnungspflicht bei kontrollierten Beteiligungen (Art. 963a OR)
   quelle: or__art-963a
   zitat: zusammen mit den kontrollierten Unternehmen zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschreitet
+- thema: Konzernrechnung trotz Grössenbefreiung (Art. 963a Abs. 2 OR)
+  quelle: or__art-963a
+  zitat: Eine Konzernrechnung ist dennoch zu erstellen, wenn
+- thema: Konzernrechnungspflicht → ordentliche Revision, Pflicht entsteht unmittelbar (Art. 727 Abs. 1 Ziff. 3 OR; HWP ER Rz 310/336)
+  quelle: or__art-727
+  zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+- thema: Verrechnungssteuer 35 % auf Kapitalerträgen (Art. 13 Abs. 1 Bst. a VStG)
+  quelle: vstg__art-13
+  zitat: 35 Prozent der steuerbaren Leistung
+- thema: VSt-Forderung entsteht mit Fälligkeit der steuerbaren Leistung (Art. 12 Abs. 1 VStG)
+  quelle: vstg__art-12
+  zitat: entsteht die Steuerforderung im Zeitpunkt, in dem die steuerbare Leistung fällig wird
 - thema: Meldeverfahren statt Steuerentrichtung, insbesondere bei Dividenden im Konzernverhältnis (Art. 20 Abs. 2 VStG)
   quelle: vstg__art-20
   zitat: Das Meldeverfahren ist insbesondere bei Dividendenausschüttungen und geldwerten Leistungen im inländischen und grenzüberschreitenden Konzernverhältnis zuzulassen.
+- thema: Meldeverfahren für Dividenden möglich bei unmittelbarer Beteiligung von mindestens 10 % (Anweisung mit amtlichem Formular; Art. 26a Abs. 1 VStV)
+  quelle: vstv__art-26a
+  zitat: unmittelbar zu mindestens 10 Prozent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft beteiligt, so kann sie diese mittels eines amtlichen Formulars
+    anweisen, ihr die Dividende ohne Abzug der Verrechnungssteuer auszurichten
+- thema: Rückerstattungsanspruch verwirkt, wenn VSt-belastete Einkünfte nicht ordnungsgemäss als Ertrag verbucht sind (Art. 25 Abs. 1 VStG)
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+    Verrechnungssteuer
 - thema: Rückerstattungsantrag VSt frühestens nach Ablauf des Fälligkeitsjahres (Art. 29 Abs. 2 VStG)
   quelle: vstg__art-29
   zitat: Der Antrag kann frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt werden.
@@ -121,6 +155,12 @@ gesetz:
   quelle: vstg__art-32
   zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
     wird.
+- thema: 'Eigene Beteiligungsrechte über den Rahmen von Art. 659/783 OR: Verrechnungssteuer (Art. 4a Abs. 1 VStG)'
+  quelle: vstg__art-4a-t1
+  zitat: Dasselbe gilt, soweit der Erwerb eigener Beteiligungsrechte den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) überschreitet.
+- thema: 'Eigene Beteiligungsrechte im Rahmen von Art. 659/783 OR: Verrechnungssteuer, wenn nicht innert sechs Jahren wieder veräussert (Art. 4a Abs. 2 VStG)'
+  quelle: vstg__art-4a-t1
+  zitat: so gilt Absatz 1 sinngemäss, wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
 risiken:
 - text: 'Bewertung: Beteiligung trotz Verlusten, negativem Ausblick oder Substanzverzehr der Beteiligungsgesellschaft ohne Wertberichtigung über dem erzielbaren Wert bilanziert.'
   pruefziele:
@@ -145,7 +185,8 @@ risiken:
   - RV
   quelle: hwp-bur-2023__rz-0280-s219
   zitat: gelten beispielsweise Bestätigungen der jeweiligen Beteiligung, Handelsregisterauszüge, Verträge, Statuten oder Aktienregister als Bestandsnachweis
-- text: 'Eigentum an GmbH-Stammanteilen nicht übergegangen: Abtretung ohne Schriftform oder ohne statutarisch erforderliche Zustimmung der Gesellschafterversammlung (noch nicht rechtswirksam).'
+- text: 'Eigentum an GmbH-Stammanteilen nicht übergegangen: Abtretung ohne Schriftform oder ohne Zustimmung der Gesellschafterversammlung (gesetzlich nötig, Art. 786 Abs. 1 OR, ausser
+    die Statuten verzichten) – Abtretung noch nicht rechtswirksam.'
   pruefziele:
   - EX
   - RV
@@ -170,12 +211,14 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0322-s227
   zitat: Erst bei Fälligkeit der steuerbaren Leistung darf der Beteiligungsertrag definitiv realisiert werden.
-- text: Beteiligungsertrag netto statt brutto oder gar nicht erfasst; VSt-Rückerstattungsanspruch dadurch gefährdet.
+- text: Beteiligungsertrag netto statt brutto oder gar nicht erfasst; Anspruch auf Rückerstattung verwirkt, wenn der Ertrag nicht ordnungsgemäss (brutto) als Ertrag verbucht ist (Art.
+    25 Abs. 1 VStG).
   pruefziele:
   - VO
   - BE
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+    Verrechnungssteuer
 - text: Ausschüttung aus Kapitaleinlagereserven direkt mit dem Beteiligungsbuchwert verrechnet statt als Beteiligungsertrag erfasst (allfällige Wertkorrektur über den Aufwand).
   pruefziele:
   - BE
@@ -235,8 +278,8 @@ unterlagen:
   zweck: H3-301 Bestands- und Eigentumsnachweis, Quote/Stimmrechte
   quelle: hwp-bur-2023__rz-0280-s219
   zitat: Das Eigentum des bilanzierenden Unternehmens wird durch die Titel oder die Depotbestätigung eines oder einer Dritten nachgewiesen.
-- dokument: Schriftlicher Abtretungsvertrag über GmbH-Stammanteile und – falls statutarisch erforderlich – Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung; HR-Auszug
-    der Beteiligung
+- dokument: Schriftlicher Abtretungsvertrag über GmbH-Stammanteile und Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung (entbehrlich nur bei statutarischem Verzicht;
+    sonst ersatzweise Nachweis, dass die Sechsmonatsfrist ohne Ablehnung abgelaufen ist, Art. 787 Abs. 2 OR); HR-Auszug der Beteiligung
   zweck: H3-301 Eigentumsübergang bei GmbH-Stammanteilen
   quelle: or__art-787
   zitat: Ist für die Abtretung von Stammanteilen die Zustimmung der Gesellschafterversammlung erforderlich, so wird die Abtretung erst mit dieser Zustimmung rechtswirksam.
@@ -255,7 +298,7 @@ unterlagen:
 - dokument: Bewertungsgutachten bzw. Unternehmensbewertung zur Beteiligung, nur soweit vom Kunden vorhanden und beigebracht (kein Einholen bei Dritten)
   zweck: H3-302 Nachvollzug der Bewertung
   quelle: hwp-er-2026__rz-0134-s203
-  zitat: Experten- und Bewertungsgutachten
+  zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten
 - dokument: Konzernrechnung (falls erstellt) bzw. Begründung der Befreiung nach Art. 963a OR
   zweck: H3-320 Konzernrechnungspflicht; H3-302 Plausibilisierung der Beteiligungsbewertung
   quelle: hwp-bur-2023__rz-0297-s223
@@ -293,6 +336,15 @@ bewertung:
   quelle: hwp-bur-2023__rz-0281-s220
   zitat: Zu den Anschaffungskosten gehören neben dem Kaufpreis der eigentlichen Kapitalanteile auch transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber
     Finanzierungskosten)
+- regel: Keine planmässigen Abschreibungen, sondern Wertberichtigungen bei Wertverlust; Prüfung auf Anzeichen einer Wertminderung an jedem Abschlussstichtag.
+  quelle: hwp-bur-2023__rz-0290-s221
+  zitat: Die Prüfung auf Anzeichen für eine Wertminderung hat mindestens an jedem Abschlussstichtag zu erfolgen.
+- regel: 'Wertminderungstest: Buchwert vs. erzielbarer Wert (höherer aus Nutzwert und Netto-Marktwert).'
+  quelle: hwp-bur-2023__rz-0291-s222
+  zitat: wird der Buchwert der Beteiligung mit dem erzielbaren Wert (höherer Wert aus Nutzwert und Netto-Marktwert) verglichen
+- regel: Einzelbewertung; Gruppenbewertung nur in sachlich begründeten Einzelfällen (wirtschaftliche Einheit, kleinstmögliche Gruppe).
+  quelle: hwp-bur-2023__rz-0289-s221
+  zitat: Beteiligungen sind in der Regel einzeln zu bewerten (Art. 960 Abs. 1 OR).
 - regel: Aufgeschobene und bedingte Kaufpreiszahlungen (Earn-out) gehören zu den Anschaffungskosten; bedingte, sobald die Ansatzkriterien erfüllt sind, zusammen mit Verbindlichkeit bzw.
     Rückstellung; Schätzungsänderungen erfolgsneutral.
   quelle: hwp-bur-2023__rz-0281-s220
@@ -304,15 +356,6 @@ bewertung:
 - regel: Gratisaktien dürfen nicht aktiviert werden.
   quelle: hwp-bur-2023__rz-0283-s220
   zitat: Eine Aktivierung von Gratisaktien ist nicht zulässig
-- regel: Einzelbewertung; Gruppenbewertung nur in sachlich begründeten Einzelfällen (wirtschaftliche Einheit, kleinstmögliche Gruppe).
-  quelle: hwp-bur-2023__rz-0289-s221
-  zitat: Beteiligungen sind in der Regel einzeln zu bewerten (Art. 960 Abs. 1 OR).
-- regel: Keine planmässigen Abschreibungen, sondern Wertberichtigungen bei Wertverlust; Prüfung auf Anzeichen einer Wertminderung an jedem Abschlussstichtag.
-  quelle: hwp-bur-2023__rz-0290-s221
-  zitat: Die Prüfung auf Anzeichen für eine Wertminderung hat mindestens an jedem Abschlussstichtag zu erfolgen.
-- regel: 'Wertminderungstest: Buchwert vs. erzielbarer Wert (höherer aus Nutzwert und Netto-Marktwert).'
-  quelle: hwp-bur-2023__rz-0291-s222
-  zitat: wird der Buchwert der Beteiligung mit dem erzielbaren Wert (höherer Wert aus Nutzwert und Netto-Marktwert) verglichen
 - regel: Bei unwesentlichen oder unproblematischen Beteiligungen genügen summarische Überlegungen (Substanzwert, einfache Ertragswertermittlung); sonst vertiefte Abklärungen.
   quelle: hwp-bur-2023__rz-0292-s222
   zitat: Andernfalls sind vertiefte Abklärungen vorzunehmen.
@@ -379,8 +422,9 @@ fallstricke:
     WP.
   quelle: hwp-er-2026__rz-0041-s033
   zitat: Aufwertung von Grundstücken und Beteiligungen über den Anschaffungswert bzw. die Herstellungskosten zwecks Beseitigung einer Unterbilanz (Art. 725c Abs. 2 OR)
-- text: Befragungen sind in der eingeschränkten Revision auf Personen im Unternehmen beschränkt; Bestätigungen von Banken/Dritten zu Wertschriftenbeständen einholen ist nicht Bestandteil
-    der ER – Depotauszug/Bankbestätigung als Kundendokument verwenden.
+- text: Befragungen sind in der eingeschränkten Revision auf Personen im Unternehmen beschränkt; Bestätigungen von Banken/Dritten zu Wertschriftenbeständen sowie Bewertungs- oder Expertengutachten
+    zur Beteiligung bei Dritten einzuholen ist nicht Bestandteil der ER – Depotauszug/Bankbestätigung und vom Kunden vorhandene Bewertungen als Kundendokumente verwenden und kritisch
+    würdigen.
   quelle: hwp-er-2026__rz-0134-s203
   zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten
 - text: 'Körperliche Aufnahme von Titeln (H3-301 c) ist eine physische Tätigkeit. Das Konzept schliesst physische Tätigkeiten für die Sonstigen Prüfungshandlungen (4xx) aus; sinngemäss
@@ -392,33 +436,41 @@ fallstricke:
   quelle: hwp-er-2026__rz-0111-s199-t1
   zitat: Gemäss SER sind wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen; vielmehr ist das Prüfungsvorgehen mit angemessenen Detailprüfungen
     zu ergänzen.
-- text: Bei Erwerb einer kontrollierten Gesellschaft (z. B. 100 % der Stimmen) besteht grundsätzlich Konzernrechnungspflicht; Befreiung nach Art. 963a OR (Grössen) abklären und an den
-    WP melden; Forderungen/Verbindlichkeiten gegenüber der Beteiligung gesondert ausweisen.
+- text: 'Bei Erwerb einer kontrollierten Gesellschaft (z. B. 100 % der Stimmen) besteht grundsätzlich Konzernrechnungspflicht; Befreiung nach Art. 963a OR (Grössen) abklären und an den
+    WP melden; Forderungen/Verbindlichkeiten gegenüber der Beteiligung gesondert ausweisen. Folge: Besteht die Konzernrechnungspflicht (keine Befreiung nach Art. 963a Abs. 1 OR oder
+    ein Fall von Abs. 2), muss die Jahresrechnung ordentlich geprüft werden (Art. 727 Abs. 1 Ziff. 3 OR), ohne Aufschub, auch bei Kontrolle erst am Stichtag (HWP ER Rz 310/336). Neu
+    geschaffener Konzern: von Beginn an befreit, wenn die Grössen im ersten und absehbar im zweiten Jahr nicht überschritten werden und kein Fall von Abs. 2 vorliegt (HWP ER Rz 335).
+    Sofort Notiz «Wesentliche Feststellungen» an den WP (Revisionsart/Mandat betroffen). Der Entscheid liegt beim WP.'
   quelle: or__art-963
   zitat: Kontrolliert eine rechnungslegungspflichtige juristische Person ein oder mehrere rechnungslegungspflichtige Unternehmen
-- text: VSt wird juristischen Personen nur zurückerstattet, wenn der Ertrag ordnungsgemäss (brutto) als Ertrag verbucht wurde; Netto-Verbuchung gefährdet den Anspruch.
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+- text: VSt wird juristischen Personen nur zurückerstattet, wenn der Ertrag ordnungsgemäss (brutto) als Ertrag verbucht wurde; Netto-Verbuchung verwirkt den Anspruch (Art. 25 Abs. 1
+    VStG).
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+    Verrechnungssteuer
 - text: Kann eine nötige Wertberichtigung auf Beteiligungen einen Kapitalverlust oder eine Überschuldung auslösen, wirkt sie direkt auf Art. 725a/725b OR; bei Unsicherheit kommt ein
     Eventualzusatz im Bericht in Betracht (Entscheid WP). Ergebnis an Prüffeld Eigenkapital/Fortführung melden.
   quelle: hwp-er-2026__rz-0434-s283
   zitat: könnte ein Kapitalverlust oder eine Überschuldung im Sinne von Art. 725 a OR
-- text: 'Vergleich Buchwert/innerer Wert bzw. Kurs, Belegprüfung der Buchungen, Durchsicht der Erträge und Bonitätsbeurteilung (H3-302–304, H3-403) sind gemäss SER weitergehende Prüfungshandlungen:
-    nur bei Anzeichen wesentlicher Fehlaussagen, erhöhtem inhärentem Risiko oder auf Anweisung des WP – nicht als Routine abarbeiten, sonst Verzicht mit Begründung vorschlagen.'
+- text: Vergleich Buchwert/innerer Wert bzw. Kurs, Belegprüfung, Ertragsdurchsicht und Bonität (H3-302–304, H3-403) sind gemäss SER weiter gehend und im Katalog WP- bzw. 4xx-Schritte.
+    Der Agent führt sie nur auf Anweisung des WP aus. Erkannte Auslöser (Anzeichen wesentlicher Fehlaussagen, erhöhtes inhärentes Risiko) meldet er mit Begründung als Notiz.
   quelle: hwp-er-2026__rz-0133-s203
   zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
     vorzunehmen.
-- text: Bewertungs- oder Expertengutachten zur Beteiligung bei Dritten einzuholen ist nicht Teil der eingeschränkten Revision; nur vom Kunden vorhandene Bewertungen verwenden und kritisch
-    würdigen.
-  quelle: hwp-er-2026__rz-0134-s203
-  zitat: Experten- und Bewertungsgutachten
 - text: Der Steuerwert (Beteiligungsverzeichnis) ist kein handelsrechtlicher Wertmassstab, sondern nur ein Indiz; massgebend bleibt der erzielbare Wert, höchstens die Anschaffungskosten
-    (Praxis).
+    (Steuerwert = Steuerpraxis, kein handelsrechtlicher Massstab; handelsrechtlich HWP BuR Rz 281/291).
+  quelle: hwp-bur-2023__rz-0291-s222
+  zitat: wird der Buchwert der Beteiligung mit dem erzielbaren Wert (höherer Wert aus Nutzwert und Netto-Marktwert) verglichen
 - text: Bruttohochrechnung «Nettogutschrift / 0.65» gilt nur für inländische, VSt-belastete Ausschüttungen – nicht für Ausschüttungen aus Kapitaleinlagereserven (VSt-frei), das Meldeverfahren
     (keine Steuerentrichtung) oder ausländische Dividenden (Quellensteuer gemäss Abrechnung).
   quelle: estv-ks-29c-2022__2-2-3-t4
   zitat: Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungssteuer
     (Art. 5 Abs. 1bis VStG).
+- text: 'Eigene Anteile: Erwerb über den Rahmen von Art. 659/783 OR (10 %) oder im Hinblick auf eine Kapitalherabsetzung löst die Verrechnungssteuer auf der Teilliquidation sofort aus.
+    Innerhalb des Rahmens gilt dasselbe, wenn die Anteile nicht innert sechs Jahren wieder veräussert werden (Art. 4a VStG; HWP BuR Rz 632; KS ESTV 51 Ziff. 3.1.2.3). Hinweis an Prüffeld
+    P1/S1; die Beurteilung liegt beim WP (steuerliche Behandlung gemäss SER Anh. D o) weiter gehend).'
+  quelle: vstg__art-4a-t1
+  zitat: Dasselbe gilt, soweit der Erwerb eigener Beteiligungsrechte den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) überschreitet.
 - text: 'Erwerb von einer möglicherweise nahestehenden Person zu einem Preis deutlich über dem anteiligen Eigenkapital: Beziehung und Preisfestlegung erfragen (Drittvergleich); ein gleicher
     Familienname allein belegt keine Nahestehung.'
   quelle: hwp-er-2026__rz-0161-s212
@@ -439,7 +491,8 @@ fragen_kunde:
 - frage: Von wem wurden Beteiligungen im Geschäftsjahr erworben? Steht der Verkäufer der Gesellschaft, ihren Organen, Aktionären oder Mitarbeitenden nahe (z. B. familiäre Beziehung)?
     Wie wurde der Kaufpreis festgelegt (Bewertung, Ertragsaussichten)?
   zweck: H3-303, H3-302 (nahestehende Personen, Drittvergleich Kaufpreis, Begründung eines Kaufpreises über dem anteiligen Eigenkapital)
-- frage: Ist für die Abtretung erworbener GmbH-Stammanteile die Zustimmung der Gesellschafterversammlung erforderlich, liegt sie vor, und ist die Gesellschaft als Gesellschafterin eingetragen?
+- frage: Liegt der Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung zur Abtretung vor, oder verzichten deren Statuten darauf (bitte Statuten beilegen)? Ist die Gesellschaft
+    als Gesellschafterin eingetragen?
   zweck: H3-301 Eigentumsnachweis
 - frage: Werden die Anteile langfristig gehalten, und vermitteln sie einen massgeblichen Einfluss (Kapital- und Stimmenanteil)?
   zweck: H3-101, H3-301 (Abgrenzung Beteiligung/Wertschriften/Finanzanlagen)
@@ -468,8 +521,8 @@ testakte_2025:
 - datei: 00_Allgemein/Belegverzeichnis.md
   bezug: H3-301/H3-303 Zuordnung der Belege zu Konten (Kaufvertrag Stammanteile → Konto 1192; Jahresrechnung Tochter)
 - datei: C_Uebrige_kurzfristige_Forderungen/Kaufvertrag_Stammanteile_Solarservice_Probe_GmbH.md
-  bezug: H3-301 Bestand/Quote/Eigentum (20 Stammanteile = 100 %, Schriftform, Zustimmungsbeschluss nicht in der Akte → Pendenz, falls statutarisch erforderlich), H3-303 Anschaffungskosten
-    CHF 30'000 und Gegenbuchung, Verkäufer Marco Probeggli-Senior → Nahestehung erfragen; H3-322 Dauerakte
+  bezug: 'H3-301 Bestand/Quote/Eigentum (20 Stammanteile = 100 %, Schriftform, Zustimmungsbeschluss nicht in der Akte → Pendenz: Zustimmung oder statutarischen Verzicht nachweisen),
+    H3-303 Anschaffungskosten CHF 30''000 und Gegenbuchung, Verkäufer Marco Probeggli-Senior → Nahestehung erfragen; H3-322 Dauerakte'
 - datei: C_Uebrige_kurzfristige_Forderungen/Jahresrechnung_2025_Solarservice_Probe_GmbH.md
   bezug: 'H3-102/H3-302 innerer Wert: EK 31.12.2025 CHF 12''000 bei Kaufpreis CHF 30''000 (Unterdeckung CHF 18''000), Verluste 2024/2025, Ausblick 2026 Verlust, keine Dividende → Auslöser
     für weitergehende Handlungen H3-302–304/H3-403 (in Begründung festhalten); H3-404 Risikoverteilung'
@@ -534,7 +587,7 @@ schritte:
 - id: H3-201
   vorgehen: Beteiligungskonten, Wertberichtigungen und Beteiligungs-/Finanzerträge gemäss Saldoliste mit dem Vorjahr vergleichen und jede Veränderung über der Nicht-Aufgriffsgrenze einem
     Vorgang zuordnen (Kauf, Verkauf, Kapitalerhöhung, Zuschuss, Wertberichtigung, Dividende). Zugänge auf fremden Konten (z.B. Anzahlungen) und fehlende Erträge trotz bekannter Ausschüttung
-    als Pendenz/Frage erfassen.
+    als Pendenz/Frage erfassen. (SER Anh. D g) enthält keine analytische Handlung; Wortlaut aus s) Finanzaufwand/-ertrag als Analogie.)
   nachweise:
   - Saldoliste LJ/VJ
   - Kontoblätter Beteiligungen/Finanzertrag
@@ -551,17 +604,17 @@ schritte:
     zitat: Zudem können analytische Prüfungshandlungen bei der Identifikation ungewöhnlicher Geschäftsvorfälle, Buchungen, Beträge oder Trends hilfreich sein.
 - id: H3-301
   vorgehen: 'Bilanzposition mit Hauptbuch und Beteiligungsverzeichnis abstimmen; je Beteiligung Bestand, Quote und Eigentum mit Depotauszug/Titel bzw. bei GmbH-Anteilen mit schriftlichem
-    Abtretungsvertrag, ggf. Zustimmung der Gesellschafterversammlung und HR-Auszug belegen; Stimmenanteil und Halteabsicht prüfen. Körperliche Aufnahme: nur Pendenz an WP. Fehlklassierung
-    als Wesentliche Feststellung mit Buchungsvorschlag, keine Verbuchung.'
+    Abtretungsvertrag, Zustimmung der Gesellschafterversammlung (Art. 786 OR; entfällt nur bei statutarischem Verzicht) und HR-Auszug belegen; Stimmenanteil und Halteabsicht prüfen.
+    Körperliche Aufnahme: nur Pendenz an WP. Fehlklassierung als Wesentliche Feststellung mit Buchungsvorschlag, keine Verbuchung.'
   nachweise:
   - Beteiligungsverzeichnis 31.12.
   - Saldoliste/Kontoblätter
   - Depotauszug bzw. Titel 31.12.
   - HR-Auszug/Statuten der Beteiligung
   - Kaufvertrag
-  - Abtretungsvertrag und ggf. Zustimmungsbeschluss der Gesellschafterversammlung (GmbH-Stammanteile)
+  - Abtretungsvertrag und Zustimmungsbeschluss der Gesellschafterversammlung bzw. statutarischer Verzicht (GmbH-Stammanteile)
   rechnen: Summe Buchwerte Beteiligungsverzeichnis = Saldo Beteiligungskonten (netto nach Wertberichtigungen) = Bilanzposition Beteiligungen; Stimmenanteil = Stimmen gehalten / Stimmen
-    total (≥ 20 % → Vermutung Beteiligung; Stimmenmehrheit → Kontrolle, Hinweis Konzernrechnungspflicht an H3-320)
+    total (≥ 20 % → Vermutung Beteiligung; Stimmenmehrheit → Kontrolle → H3-320 (Befreiung Art. 963a OR prüfen, sonst ordentliche Revision))
   feststellung_wenn: Differenz Verzeichnis/Hauptbuch/Bilanz; Eigentum nicht belegt (z. B. Abtretung ohne Schriftform oder nötige Zustimmung); Beteiligung nicht gesondert im Anlagevermögen
     bzw. auf anderem Konto (z. B. Anzahlungen).
   fundstellen:
@@ -575,6 +628,10 @@ schritte:
     zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren.
   - quelle: or__art-785
     zitat: Die Abtretung von Stammanteilen sowie die Verpflichtung zur Abtretung bedürfen der schriftlichen Form.
+  - quelle: or__art-786
+    zitat: Die Abtretung von Stammanteilen bedarf der Zustimmung der Gesellschafterversammlung.
+  - quelle: or__art-786
+    zitat: auf das Erfordernis der Zustimmung zur Abtretung verzichten
   - quelle: or__art-787
     zitat: so wird die Abtretung erst mit dieser Zustimmung rechtswirksam
   - quelle: or__art-963
@@ -584,28 +641,29 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: H3-302
-  vorgehen: 'Weitergehend (SER): nur wenn H3-101/102/201/301 Anzeichen wesentlicher Fehlaussagen oder ein erhöhtes inhärentes Risiko (3.1) ergeben oder auf Anweisung WP; sonst Verzicht
-    mit Begründung vorschlagen, Visum offen. Falls durchgeführt: Buchwert mit anteiligem EK (letzte JR), Kurs und Steuerwert (Indiz) vergleichen; Aufwertungen (Art. 725c OR) erfassen;
-    nur Kundenbewertungen nutzen. Unterdeckung als Wesentliche Feststellung mit Buchungsvorschlag.'
+  vorgehen: 'WP-Schritt (SER: weiter gehend): nur auf ausdrückliche Anweisung des WP. Ohne Anweisung: nicht bearbeiten, Status «nicht bearbeitet – WP-Schritt». Erkannte Auslöser aus
+    H3-101/102/201/301 (z. B. Buchwert > anteiliges EK, wiederkehrende Verluste) mit Zahlen als Notiz «Schlussbesprechung» bzw. Pendenz an den WP. Bei Anweisung: Buchwert mit anteiligem
+    EK (letzte JR), Kurs und Steuerwert (Indiz) vergleichen; Aufwertungen (Art. 725c OR) erfassen; nur Kundenbewertungen nutzen. Unterdeckung > 0: zuerst die Ertragswert-/Planungsbegründung
+    der GL auswerten (fehlt sie → Pendenz). Wesentliche Feststellung mit Buchungsvorschlag nur, wenn keine nachvollziehbare Begründung vorliegt und Verluste oder ein negativer Ausblick
+    bestehen. Betrag = Buchwert − erzielbarer Wert. Ist der erzielbare Wert nicht belegt: Unterdeckung zum anteiligen EK als Indiz nennen; den Betrag bestimmt der WP.'
   nachweise:
   - Jahresrechnung/Revisionsbericht der Beteiligung
   - Jahresendkurs/Depotauszug
   - Werthaltigkeitsbeurteilung/Planungsrechnung GL
   - Kaufvertrag (Kaufpreisbasis)
   - Beteiligungsverzeichnis (Steuerwert, Aufwertungen)
-  rechnen: 'Anteiliges EK = Eigenkapital Beteiligung × Kapitalquote; Unterdeckung = Buchwert − anteiliges EK (> 0: Ertragswert-/Goodwill-Begründung als Frage/Pendenz für den WP erfassen);
-    kotiert: Kurswert = Stückzahl × Jahresendkurs; Steuerwert gemäss Verzeichnis vs. Buchwert (nur Indiz); Obergrenze Buchwert = min(Anschaffungskosten; erzielbarer Wert)'
-  feststellung_wenn: Buchwert über anteiligem EK bzw. Kurswert ohne nachvollziehbare Ertragswertbegründung, wiederkehrende Verluste ohne Wertberichtigung, Bewertung über AK oder Aufwertung
-    ohne Voraussetzungen (Art. 725c OR).
+  rechnen: 'Anteiliges EK = Eigenkapital Beteiligung × Kapitalquote; Unterdeckung = Buchwert − anteiliges EK (> 0: Ertragswertbegründung prüfen; fehlt sie → Pendenz; widersprechen Verluste/Ausblick
+    → Wesentliche Feststellung); kotiert: Kurswert = Stückzahl × Jahresendkurs; Steuerwert gemäss Verzeichnis vs. Buchwert (nur Indiz); Obergrenze Buchwert = min(Anschaffungskosten;
+    erzielbarer Wert)'
+  feststellung_wenn: Buchwert über anteiligem EK bzw. Kurswert ohne nachvollziehbare Ertragswertbegründung bei Verlusten oder negativem Ausblick, wiederkehrende Verluste ohne Wertberichtigung,
+    Bewertung über AK oder Aufwertung ohne Voraussetzungen (Art. 725c OR).
   fundstellen:
-  - quelle: ser-2022__anh-d-s081-1
-    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
-  - quelle: hwp-er-2026__rz-0132-s203
-    zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
-  - quelle: hwp-er-2026__rz-0133-s203
-    zitat: sind keine weitergehenden Prüfungshandlungen vorzunehmen
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: ser-2022__anh-d-s081-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
   - quelle: ser-2022__anh-d-s081-1
     zitat: Vergleich der Buchwerte nicht kotierter Wertpapiere mit dem inneren Wert aufgrund der letzten verfügbaren Jahresrechnung
   - quelle: ser-2022__anh-d-s081-1
@@ -614,24 +672,20 @@ schritte:
     zitat: Sinkt der erzielbare Wert einer Beteiligung unter den bisherigen Buchwert, wird eine Wertberichtigung erforderlich.
   - quelle: hwp-bur-2023__rz-0292-s222
     zitat: beispielsweise eine Substanzwertbetrachtung oder eine einfache Ertragswertermittlung anhand einer Planungsrechnung
+  - quelle: hwp-bur-2023__rz-0292-s222
+    zitat: Andernfalls sind vertiefte Abklärungen vorzunehmen.
   - quelle: hwp-bur-2023__rz-0281-s220
     zitat: Beteiligungen dürfen höchstens zu den Anschaffungskosten bewertet werden
   - quelle: hwp-bur-2023__rz-0279-s219
-    zitat: Steuerwert, Buchwert
-  - quelle: hwp-bur-2023__rz-0279-s219
-    zitat: Betrag von Aufwertungen (Art. 725c OR)
-  - quelle: or__art-725c
-    zitat: Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve auszuweisen.
+    zitat: Steuerwert, Buchwert, Betrag von Aufwertungen (Art. 725c OR)
   - quelle: hwp-er-2026__rz-0134-s203
-    zitat: Experten- und Bewertungsgutachten
+    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
-  - quelle: konzept-ki-revisionsagent-2026__c009-3
-    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
 - id: H3-303
-  vorgehen: 'Weitergehend (SER): nur wenn H3-101/102/201/301 Anzeichen wesentlicher Fehlaussagen oder ein erhöhtes inhärentes Risiko (3.1) ergeben oder auf Anweisung WP; sonst Verzicht
-    mit Begründung vorschlagen, Visum offen. Falls durchgeführt: Buchungen auf Beteiligungs-/WB-Konten mit Belegen (Kaufvertrag, Zahlung, VR-Beschluss, HR) und Gegenkonto abgleichen;
-    AK inkl. Nebenkosten/Earn-out und Abgangserfolg nachrechnen; Nahestehung Verkäufer als Frage.'
+  vorgehen: 'WP-Schritt (SER: weiter gehend): nur auf ausdrückliche Anweisung des WP. Ohne Anweisung: nicht bearbeiten, Status «nicht bearbeitet – WP-Schritt». Erkannte Auslöser aus
+    H3-101/102/201/301 (z. B. Buchwert > anteiliges EK, wiederkehrende Verluste) mit Zahlen als Notiz «Schlussbesprechung» bzw. Pendenz an den WP. Bei Anweisung: Buchungen auf Beteiligungs-/WB-Konten
+    mit Belegen (Kaufvertrag, Zahlung, VR-Beschluss, HR) und Gegenkonto abgleichen; AK inkl. Nebenkosten/Earn-out und Abgangserfolg nachrechnen; Nahestehung Verkäufer als Frage.'
   nachweise:
   - Kontoblätter Beteiligungen/Wertberichtigungen
   - Kauf-/Verkaufsverträge
@@ -649,6 +703,8 @@ schritte:
     zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
   - quelle: hwp-bur-2023__rz-0281-s220
     zitat: transaktionsbezogene Nebenkosten wie Courtagen, Kommissionen und Spesen (nicht aber Finanzierungskosten)
   - quelle: hwp-bur-2023__rz-0279-s219
@@ -664,9 +720,10 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: H3-304
-  vorgehen: 'Weitergehend (SER): nur wenn H3-101/102/201/301 Anzeichen wesentlicher Fehlaussagen oder ein erhöhtes inhärentes Risiko (3.1) ergeben oder auf Anweisung WP; sonst Verzicht
-    mit Begründung vorschlagen, Visum offen. Falls durchgeführt: Ertrags-/a.o. Konten durchsehen, Ausschüttungsbeschlüsse und Abrechnungen mit Erfassung (brutto, Periode) abgleichen;
-    zeitgleiche Aktivierung: Voraussetzungen und Schema prüfen; KER-Ausschüttung als Ertrag.'
+  vorgehen: 'WP-Schritt (SER: weiter gehend): nur auf ausdrückliche Anweisung des WP. Ohne Anweisung: nicht bearbeiten, Status «nicht bearbeitet – WP-Schritt». Erkannte Auslöser aus
+    H3-101/102/201/301 (z. B. Buchwert > anteiliges EK, wiederkehrende Verluste) mit Zahlen als Notiz «Schlussbesprechung» bzw. Pendenz an den WP. Bei Anweisung: Ertrags-/a.o. Konten
+    durchsehen, Ausschüttungsbeschlüsse und Abrechnungen mit Erfassung (brutto, Periode) abgleichen; zeitgleiche Aktivierung: Voraussetzungen und Schema prüfen; KER-Ausschüttung als
+    Ertrag.'
   nachweise:
   - Dividendenabrechnungen
   - GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen
@@ -683,6 +740,8 @@ schritte:
     zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
   - quelle: hwp-bur-2023__rz-0319-s226
     zitat: gilt als Realisationszeitpunkt des Beteiligungsertrags normalerweise der Ausschüttungsbeschluss oder das Datum der Ausschüttung
   - quelle: hwp-bur-2023__rz-0321-s227
@@ -699,23 +758,29 @@ schritte:
     zitat: ungeachtet der steuerlichen Qualifikation im Grundsatz als Beteiligungsertrag
   - quelle: hwp-bur-2023__rz-0324-s227
     zitat: sind diese über den Aufwand zu erfassen und nicht mit der erhaltenen Ausschüttung zu verrechnen
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
   - quelle: estv-ks-29c-2022__2-2-3-t4
     zitat: Rückzahlungen aus KER bzw. Ausland-KER einer Kapitalgesellschaft oder Genossenschaft unterliegen weder der Einkommenssteuer (Art. 20 Abs. 3 DBG) noch der Verrechnungssteuer
       (Art. 5 Abs. 1bis VStG).
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: In speziellen Fällen kann die Steuerpflicht durch Meldung anstatt Entrichtung der steuerbaren Leistung erfüllt werden
-  - quelle: treuhand-almanach-2026__s069-2
-    zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  - quelle: vstv__art-26a
+    zitat: unmittelbar zu mindestens 10 Prozent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft beteiligt, so kann sie diese mittels eines amtlichen Formulars
+      anweisen, ihr die Dividende ohne Abzug der Verrechnungssteuer auszurichten
+  - quelle: vstg__art-25
+    zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+      Verrechnungssteuer
 - id: H3-320
   vorgehen: 'Anhang prüfen: Beteiligungen mit Firma, Rechtsform, Sitz, Kapital- und Stimmenanteil; eigene Anteile; Forderungen/Verbindlichkeiten gegenüber Beteiligungen; Sicherheiten,
-    verpfändete Aktiven, Eventualverbindlichkeiten; Hinweis bei Kursbewertung; Offenlegung zeitgleich aktivierter Beteiligungserträge; Aufwertungsreserve. Bei Kontrolle Konzernrechnungspflicht/Befreiung
-    an WP melden. Lücken als Wesentliche Feststellung.'
+    verpfändete Aktiven, Eventualverbindlichkeiten; Hinweis bei Kursbewertung; Offenlegung zeitgleich aktivierter Beteiligungserträge; Aufwertungsreserve. Bei Kontrolle (Stimmenmehrheit):
+    Bilanzsumme, Umsatz und Vollzeitstellen zusammen mit den kontrollierten Unternehmen für BJ und VJ mit `rechne` summieren und mit 20 Mio. / 40 Mio. / 250 vergleichen (Art. 963a Abs.
+    1 Ziff. 1 OR). Dafür NICHT `revisionspflicht` verwenden: Dort gilt die Zweijahresregel von Art. 727 Abs. 1 Ziff. 2 OR, und die Befreiung ist strenger (HWP ER Rz 334). Sind zwei Grössen
+    im BJ oder VJ überschritten oder liegt ein Fall von Art. 963a Abs. 2 OR vor: Befreiung fraglich, ordentliche Revision möglich (Art. 727 Abs. 1 Ziff. 3 OR) → sofort Notiz «Wesentliche
+    Feststellungen» an den WP. Lücken als Wesentliche Feststellung.'
   nachweise:
   - Anhang Jahresrechnung
   - Beteiligungsverzeichnis
   - Vollständigkeitserklärung
+  - Jahresrechnungen der kontrollierten Unternehmen BJ/VJ (Grössen nach Art. 963a OR)
   rechnen: ''
   feststellung_wenn: Pflichtangabe nach Art. 959c Abs. 2 Ziff. 3–5 und 8–10 OR, Hinweis auf Kursbewertung oder Offenlegung zeitgleich vereinnahmter Beteiligungserträge fehlt bzw. weicht
     vom Verzeichnis ab.
@@ -724,10 +789,19 @@ schritte:
     zitat: Firma, Rechtsform und Sitz der Unternehmen, an denen direkte oder wesentliche indirekte Beteiligungen bestehen, unter Angabe des Kapital- und des Stimmenanteils
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung nach direkt oder wesentlichen indirekt gehaltenen Anteilen an anderen Unternehmen
+  - quelle: or__art-959c-t1
+    zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
+  - quelle: or__art-959c-t1
+    zitat: Erwerb und Veräusserung eigener Anteile und die Bedingungen, zu denen sie erworben oder veräussert wurden
   - quelle: or__art-959a-t2
     zitat: gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden
   - quelle: or__art-959c-t2
+    zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+  - quelle: or__art-959c-t2
     zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
   - quelle: or__art-960b
     zitat: Im Anhang muss auf diese Bewertung hingewiesen werden.
   - quelle: hwp-bur-2023__rz-0321-s227
@@ -736,6 +810,20 @@ schritte:
     zitat: Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve auszuweisen.
   - quelle: or__art-963
     zitat: Kontrolliert eine rechnungslegungspflichtige juristische Person ein oder mehrere rechnungslegungspflichtige Unternehmen
+  - quelle: or__art-963a
+    zitat: 'zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschreitet: a. Bilanzsumme von 20 Millionen Franken, b. Umsatzerlös von 40 Millionen
+      Franken, c. 250 Vollzeitstellen im Jahresdurchschnitt'
+  - quelle: or__art-963a
+    zitat: Eine Konzernrechnung ist dennoch zu erstellen, wenn
+  - quelle: hwp-er-2026__rz-0334-s104
+    zitat: Art. 963a Abs. 1 Ziff. 1 OR statuiert hingegen eine höhere Hürde, weil trotz erstmaligem Unterschreiten der Schwellenwerte die Konsolidierungspflicht für ein weiteres Geschäftsjahr
+      erfüllt werden muss
+  - quelle: or__art-727
+    zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+  - quelle: hwp-er-2026__rz-0336-s104
+    zitat: Selbst wenn die Gesellschaft erst am letzten Tag eines Geschäftsjahrs konsolidierungspflichtig wird, entsteht die Pflicht zur ordentlichen Revision bereits für dieses Geschäftsjahr.
+  - quelle: hwp-er-2026__rz-0335-s104
+    zitat: Die Jahresrechnung der Obergesellschaft wäre dann im ersten Jahr ggf. nur eingeschränkt zu prüfen.
 - id: H3-321
   vorgehen: Aufstellung der stillen Reserven des Kunden einholen; Anteil Beteiligungen (Differenz Buchwert zu Höchstwert = Anschaffungskosten bzw. tieferer erzielbarer Wert) mit den
     Ergebnissen aus H3-302 plausibilisieren und mit Vorjahr vergleichen. Wesentliche Nettoauflösung an Anhangprüfung melden; fehlende Aufstellung als Pendenz.
@@ -764,9 +852,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben, wie beispielsweise wichtige Verträge, Registerauszüge, Statuten etc.
 - id: H3-401
-  vorgehen: Aktienbuch/Anteilbuch, HR-Auszug und Konten auf eigene Anteile durchsehen (auch von kontrollierten Gesellschaften gehaltene); Bestand mit Minusposten (Anschaffungswert),
-    Anhang und ggf. Reserve nach Art. 659b Abs. 2 OR abstimmen; Grenzen (10 %, Ausnahmen 20 % AG / 35 % GmbH) und frei verwendbares EK im Erwerbszeitpunkt nachrechnen. Ergebnis mit Prüffeld
-    Eigenkapital abstimmen.
+  vorgehen: Der Bestand eigener Anteile wird im Prüffeld Eigenkapital als EP-Schritt geprüft → `pruefschritt P1-304`; hier nur auf Anweisung des WP ergänzen. Aktienbuch/Anteilbuch, HR-Auszug
+    und Konten auf eigene Anteile durchsehen (auch von kontrollierten Gesellschaften gehaltene); Bestand mit Minusposten (Anschaffungswert), Anhang und ggf. Reserve nach Art. 659b Abs.
+    2 OR abstimmen; Grenzen (10 %, Ausnahmen 20 % AG / 35 % GmbH) und frei verwendbares EK im Erwerbszeitpunkt nachrechnen. Ergebnis mit Prüffeld Eigenkapital abstimmen.
   nachweise:
   - Aktienbuch/Anteilbuch
   - HR-Auszug/Statuten
@@ -799,7 +887,8 @@ schritte:
 - id: H3-402
   vorgehen: Aus Statuten/HR-Auszug der Beteiligungen (Liberierung, Nachschusspflicht), Kredit- und Pfandverträgen, Bankbestätigung sowie Garantie-/Bürgschafts-/Patronatserklärungen Verpflichtungen
     gegenüber Beteiligungsgesellschaften und Verpfändungen von Beteiligungstiteln festhalten; Nachschusspflicht als Wertminderungsindiz an H3-302 melden; mit Anhang und Vollständigkeitserklärung
-    abgleichen. Lücken als Frage/Pendenz.
+    abgleichen. Bürgschaften, Garantien, Pfandbestellungen für Verbindlichkeiten der Beteiligung sowie klagbare (harte) Patronatserklärungen → Anhang Ziff. 8 (Art. 959c Abs. 2 OR), volle
+    Haftungssumme (HWP BuR Rz 840/841). Übrige Patronatserklärungen und Zusagen → Ziff. 10 (HWP BuR Rz 855). Lücken als Frage/Pendenz.
   nachweise:
   - Statuten/HR-Auszug der Beteiligung
   - Kredit- und Pfandverträge, Bankbestätigung
@@ -822,12 +911,27 @@ schritte:
     zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter
+  - quelle: or__art-959c-t2
+    zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+  - quelle: hwp-bur-2023__rz-0840-s347-t1
+    zitat: beispielsweise für den Bankkredit eines Tochterunternehmens
+  - quelle: hwp-bur-2023__rz-0841-s347
+    zitat: Verpflichtungen aus Patronatserklärungen, sofern aufgrund der darin enthaltenen Willenserklärung die Erfüllung der Verpflichtung klagbar ist.
+  - quelle: hwp-bur-2023__rz-0841-s347
+    zitat: Ausweispflichtig ist grundsätzlich die volle Haftungssumme.
   - quelle: ser-2022__anh-d-s097-2
     zitat: Befragung nach rechtlichen oder tatsächlichen Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint
+  - quelle: or__art-959c-t2
+    zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann
+      (Eventualverbindlichkeit)
+  - quelle: hwp-bur-2023__rz-0855-s351-t2
+    zitat: Aus einer Patronatserklärung zugunsten einer Beteiligung ergibt sich ggf. als auszuweisende Eventualverbindlichkeit der Betrag, bei dessen Leistung sich das Mutterunternehmen
+      vollumfänglich aus der eingegangenen Verpflichtung lösen kann
 - id: H3-403
-  vorgehen: 'Weitergehend (SER): nur wenn H3-101/102/201/301 Anzeichen wesentlicher Fehlaussagen oder ein erhöhtes inhärentes Risiko (3.1) ergeben oder auf Anweisung WP; sonst Verzicht
-    mit Begründung vorschlagen, Visum offen. Falls durchgeführt: für nicht kotierte Titel und Forderungen (z. B. Darlehen an Beteiligungen) Bonität anhand letzter Jahresrechnung beurteilen;
-    Gesamtengagement und WB-Reihenfolge beachten; Ergebnis für den WP.'
+  vorgehen: 'Sonstige Prüfungshandlung (4xx; SER: weiter gehend): nur auf ausdrückliche Anweisung des WP. Ohne Anweisung: nicht bearbeiten, Status «nicht bearbeitet – nur auf Anweisung».
+    Erkannte Auslöser aus H3-101/102/201/301 (z. B. Buchwert > anteiliges EK, wiederkehrende Verluste) mit Zahlen als Notiz «Schlussbesprechung» bzw. Pendenz an den WP. Bei Anweisung:
+    für nicht kotierte Titel und Forderungen (z. B. Darlehen an Beteiligungen) Bonität anhand letzter Jahresrechnung beurteilen; Gesamtengagement und WB-Reihenfolge beachten; Ergebnis
+    für den WP.'
   nachweise:
   - Jahresrechnung des Schuldners/Emittenten
   - Darlehensverträge
@@ -841,6 +945,10 @@ schritte:
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
   - quelle: hwp-er-2026__rz-0132-s203
     zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Punkte, die der Wirtschaftsprüfer mit dem Kunden besprechen sollte
   - quelle: hwp-bur-2023__rz-0271-s217
     zitat: aufgrund der finanziellen Situation der Schuldnerin oder des Schuldners, unter Berücksichtigung erhaltener Sicherheiten
   - quelle: hwp-bur-2023__rz-0293-s222
@@ -866,7 +974,9 @@ schritte:
     zitat: könnte ein Kapitalverlust oder eine Überschuldung im Sinne von Art. 725 a OR
 - id: H3-405
   vorgehen: 'Kontoblatt VSt-Guthaben mit VSt-pflichtigen Erträgen (Dividenden, Zinsen) abstimmen: Ertrag brutto, 35 % VSt aktiviert, Antrag nach Ablauf des Fälligkeitsjahres. Guthaben
-    entsteht erst bei Fälligkeit (nicht bei zeitgleicher Aktivierung per 31.12.) und nicht beim Meldeverfahren. Guthaben älter als drei Jahre auf Antrag/Verwirkung prüfen.'
+    entsteht erst bei Fälligkeit (nicht bei zeitgleicher Aktivierung per 31.12.) und nicht beim Meldeverfahren. Meldeverfahren im Konzern möglich bei unmittelbarer Beteiligung von mindestens
+    10 % (Art. 26a VStV, amtliches Formular; nicht mit den 20 % von Art. 960d OR verwechseln). Wurde es angewandt: kein VSt-Abzug, kein VSt-Guthaben. Guthaben älter als drei Jahre auf
+    Antrag/Verwirkung prüfen.'
   nachweise:
   - Kontoblatt VSt-Guthaben
   - Dividenden-/Zinsabrechnungen, Bankauszüge
@@ -877,16 +987,20 @@ schritte:
   feststellung_wenn: Ertrag netto gebucht (VSt nicht aktiviert), VSt-Guthaben ohne zugrunde liegenden Ertrag bzw. vor Fälligkeit, oder Guthaben älter als drei Jahre ohne Antrag (Ausbuchung
     als Feststellung vorschlagen, keine Buchung).
   fundstellen:
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-  - quelle: treuhand-almanach-2026__s069-2
-    zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
-  - quelle: treuhand-almanach-2026__s068-2
-    zitat: frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: vstg__art-25
+    zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung der von diesen Einkünften abgezogenen
+      Verrechnungssteuer
+  - quelle: vstg__art-29
+    zitat: Der Antrag kann frühestens nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt werden.
   - quelle: hwp-bur-2023__rz-0322-s227
     zitat: Erst bei Fälligkeit der steuerbaren Leistung darf der Beteiligungsertrag definitiv realisiert werden.
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: In speziellen Fällen kann die Steuerpflicht durch Meldung anstatt Entrichtung der steuerbaren Leistung erfüllt werden
+  - quelle: vstg__art-12
+    zitat: entsteht die Steuerforderung im Zeitpunkt, in dem die steuerbare Leistung fällig wird
+  - quelle: vstv__art-26a
+    zitat: unmittelbar zu mindestens 10 Prozent am Grund- oder Stammkapital einer Kapitalgesellschaft oder Genossenschaft beteiligt, so kann sie diese mittels eines amtlichen Formulars
+      anweisen, ihr die Dividende ohne Abzug der Verrechnungssteuer auszurichten
   - quelle: hwp-bur-2023__rz-0549-s269
     zitat: für die Rückerstattung der Verrechnungssteuer drei Jahre
   - quelle: vstg__art-32

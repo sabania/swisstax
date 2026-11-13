@@ -5,7 +5,7 @@ status: agent-geprueft
 nachpruefung:
   urteil: korrigieren
   befunde: 10
-  korrigiert: false
+  korrigiert: true
 stichworte:
 - Steuern
 - direkte Steuern
@@ -50,6 +50,22 @@ stichworte:
 - geldwerte Leistung
 - Kapitalschutz latente Steuern
 - S1
+- Bussen
+- Aufrechnung
+- geschäftsmässig begründeter Aufwand
+- Gewinnsteuersatz
+- Steuerbelastung
+- Gewinnsteuer Hauptort
+- DBG
+- Art. 58 DBG
+- Art. 59 DBG
+- Art. 63 DBG
+- Art. 67 DBG
+- Art. 68 DBG
+- Verlustverrechnung sieben Jahre
+- Sanierungsertrag Steuern
+- Forderungsverzicht Gewinnsteuer
+- Verlustverrechnung Sanierung
 kurz: Direkte Steuern sind periodengerecht zu erfassen und in der Erfolgsrechnung separat auszuweisen; geschuldete Steuern sind Fremdkapital (übrige kurzfristige Verbindlichkeiten oder
   PRA), Nachforderungsrisiken früherer Perioden sind zurückzustellen. Latente Steuern sind im OR-Einzelabschluss ein stetiges Wahlrecht; auf steuerlichen Verlustvorträgen sind keine
   latenten Steuerguthaben aktivierbar, sie wirken nur über die laufende Steuerabgrenzung. Prüfung nach SER Anhang D n).
@@ -59,8 +75,14 @@ aussagen:
     Aufwand ausgewiesen werden (HWP BuR).
   quelle: hwp-bur-2023__rz-0801-s331
   zitat: Direkte Steuern sind in der Erfolgsrechnung separat auszuweisen (Art. 959b Abs. 2 Ziff. 10 und Abs. 3 Ziff. 7 OR)
+- text: 'Gewinnsteuersatz Bund (direkte Bundessteuer; DBG Stand 02.09.2026): Die Gewinnsteuer der Kapitalgesellschaften und Genossenschaften beträgt 8,5 % des Reingewinns (Art. 68 DBG,
+    statutarischer Satz). Die eidgenössischen, kantonalen und kommunalen Steuern gehören zum geschäftsmässig begründeten Aufwand (Art. 59 Abs. 1 Bst. a DBG, dbg__art-59-t1; ebenso HWP
+    BuR Rz 545, hwp-bur-2023__rz-0545-s268). Der Satz bezieht sich daher auf den Reingewinn nach Steuern; nicht auf den Gewinn vor Steuern anwenden, die Belastung mit `rechne` herleiten.
+    Kantons- und Gemeindesteuern regelt das DBG nicht.'
+  quelle: dbg__art-68
+  zitat: Die Gewinnsteuer der Kapitalgesellschaften und Genossenschaften beträgt 8,5 Prozent des Reingewinns.
 - text: 'Bilanz, laufende Steuern: Geschuldete Steuern, die am Bilanzstichtag bereits veranlagt sind, gehören in die übrigen kurzfristigen Verbindlichkeiten. Geschuldete Steuern sind
-    Fremdkapital, ob veranlagt oder nicht. Diese HWP-Ausführungen gelten nur für juristische Personen.'
+    Fremdkapital, ob veranlagt oder nicht.'
   quelle: hwp-bur-2023__rz-0545-s268
   zitat: Geschuldete, von den Steuerverwaltungen am Bilanzstichtag bereits veranlagte Steuern sind in der Bilanz als übrige kurzfristige Verbindlichkeiten auszuweisen.
 - text: 'Laufende Steuerabgrenzung: Geschuldete, noch nicht veranlagte Steuern sind schon vor der Veranlagung auszuweisen, und zwar unter den übrigen kurzfristigen Verbindlichkeiten
@@ -78,16 +100,17 @@ aussagen:
     einmaligen oder periodenfremden Aufwand zugeordnet werden (HWP BuR).
   quelle: hwp-bur-2023__rz-0801-s331
   zitat: Für schwebende Steuerrisiken sind Rückstellungen zu bilden oder es ist ein Ausweis als Eventualverbindlichkeit in Betracht zu ziehen.
-- text: 'Massgeblichkeit (Fachliteratur EF 2026/08): Der handelsrechtliche Gewinn ist die Ausgangsbasis der Steuerbemessung. Handelsrechtliche Buchungen sind steuerlich wirksam, ausser
-    das Steuerrecht enthält abweichende Vorschriften. Steuerliche Gestaltungsspielräume wirken deshalb nur, wenn sie im OR-Abschluss entsprechend gebucht sind.'
-  quelle: ef-2026-08-buchungslogik__s001-2
-  zitat: Sämtliche handelsrechtlich vorgenommenen Buchungen sind damit materiell massgeblich, d. h., sie sind steuerlich wirksam, es sei denn, das Steuerrecht enthält abweichende Vorschriften
-- text: Steuerlich sind Rückstellungen enger zugelassen als im Rechnungslegungsrecht, nämlich nur unter Beachtung des Vorsichtsprinzips. Nicht mehr begründete Rückstellungen werden dem
-    steuerbaren Gewinn zugerechnet. Steuerliche Korrekturen betreffen überhöhten Aufwand und nicht ausgewiesenen Ertrag; Grundlage sind Art. 58 Abs. 1 Bst. b und c DBG und Art. 24 Abs.
-    1 Bst. a und b StHG (Fachliteratur EF 2026/08).
-  quelle: ef-2026-08-buchungslogik__s005-1
-  zitat: schränkt der Gesetzgeber die steuerrechtliche Möglichkeit der Bildung von Rückstellungen im Vergleich zum Rechnungslegungsrecht auf die Rückstellungen unter Beachtung des Vorsichtsprinzips
-    ein
+- text: 'Massgeblichkeit: Der steuerbare Reingewinn geht vom Saldo der Erfolgsrechnung aus (Art. 58 Abs. 1 Bst. a DBG, direkte Bundessteuer). Die OR-Jahresrechnung wird grundsätzlich
+    als Steuerabschluss anerkannt (HWP BuR Rz 551, hwp-bur-2023__rz-0551-s270). Handelsrechtliche Buchungen sind steuerlich wirksam, ausser das Steuerrecht weicht ab; steuerliche Spielräume
+    wirken nur, wenn sie im OR-Abschluss gebucht sind (EF 2026/08, ef-2026-08-buchungslogik__s001-2).'
+  quelle: dbg__art-58
+  zitat: dem Saldo der Erfolgsrechnung unter Berücksichtigung des Saldovortrages des Vorjahres
+- text: 'Direkte Bundessteuer: Rückstellungen zulasten der Erfolgsrechnung sind zulässig für die in Art. 63 Abs. 1 DBG genannten Fälle (u. a. im Geschäftsjahr bestehende Verpflichtungen,
+    deren Höhe noch unbestimmt ist, sowie Verlustrisiken auf Aktiven des Umlaufvermögens). Nicht mehr begründete Rückstellungen werden dem steuerbaren Gewinn zugerechnet (Art. 63 Abs.
+    2 DBG). Geschäftsmässig nicht begründete Abschreibungen und Rückstellungen werden aufgerechnet (Art. 58 Abs. 1 Bst. b DBG, dbg__art-58). Kantonal: Art. 24 StHG (nicht im Wiki; EF
+    2026/08, ef-2026-08-buchungslogik__s005-1).'
+  quelle: dbg__art-63
+  zitat: Bisherige Rückstellungen werden dem steuerbaren Gewinn zugerechnet, soweit sie nicht mehr begründet sind.
 - text: Handelsrechtlich notwendige Rückstellungen sind auch dann zu bilden, wenn die Steuerbehörde sie nicht anerkennt. Besteht eine Verpflichtung, ist die Rückstellung sofort und in
     vollem Umfang zu bilden, nicht über mehrere Jahre aufgebaut (HWP BuR).
   quelle: hwp-bur-2023__rz-0513-s261
@@ -137,9 +160,8 @@ aussagen:
   quelle: ef-2020-10-latente-steuern__s003-6
   zitat: Nicht zulässig wäre es insbesondere, wenn Kapitalschutzmassnahmen gemäss Art. 725 Abs. 1 oder 2 OR via Aktivierung latenter Steuerguthaben auf steuerlichen Verlustvorträgen
     umgangen würden.
-- text: 'Handelsrechtliche Jahresverluste, nicht zu verwechseln mit steuerlichen Verlustvorträgen: Seit Art. 674 OR (in Kraft 1.1.2023) ist die Verrechnung mit dem Gewinnvortrag und
-    den freiwilligen Gewinnreserven gesetzlich vorgeschrieben. Dafür braucht es keinen GV-Antrag; die Verbuchung erfolgt erst im Folgejahr, und die Stellungnahme im Bericht entfällt.
-    Die Verrechnung mit gesetzlichen Reserven oder den Vortrag auf neue Rechnung (Fälle c–e) muss der VR beantragen, und die Revisionsstelle prüft diesen Antrag (Fachliteratur EF 2023/08).'
+- text: 'Nicht verwechseln: Steuerliche Verlustvorträge (DBG, laufende Steuerabgrenzung) ≠ handelsrechtliche Verlustverrechnung nach Art. 674 OR (Reserven, Antrag an die GV) → `thema
+    eigenkapital-gewinnverwendung`.'
   quelle: ef-2023-08-jahresverluste__s001-3
   zitat: Entsprechend muss der Verwaltungsrat der GV die Verrechnung in den Fällen c) und d), resp. den Vortrag auf neue Rechnung im Fall e), beantragen. Der dazugehörige Antrag des
     Verwaltungsrats an die GV ist zu prüfen.
@@ -151,17 +173,33 @@ agent:
   Einsprachen/Rekurse. Fehlt etwas: Notiz «Pendenz» mit Konto, Datum, Betrag.'
 - 'S1-101 (Befragung): Der Agent befragt nicht selbst. Er wertet schriftliche Antworten aus (revio 10.11); sonst erfasst er die Frage als Pendenz. Status höchstens «teilweise bearbeitet».
   S1-102, S1-103 und S1-104 sind WP-Schritte (nur Mensch): nur Unterlagen bereitlegen, z. B. welche Perioden definitiv veranlagt sind und welche Korrespondenz vorliegt.'
-- 'S1-201 (analytisch): Steueraufwand im Verhältnis zum Gewinn vor Steuern für Laufjahr und Vorjahr mit `rechne` ermitteln und Abweichungen begründen. Zur Plausibilisierung des Satzes
-  dient die Tabelle Gewinnsteuerbelastung im Treuhand-Almanach (Steuerperiode 2025, treuhand-almanach-2026__s056-1). Die Tabelle ist im Chunk layoutgestört, daher Werte nur aus dem Original
-  lesen und nie aus dem Gedächtnis.'
-- 'S1-301: Den Saldo der Steuerabgrenzung (üKV/PRA, Prüffelder M1/M3) mit der Berechnung abstimmen und die Parameter nachvollziehen. Eine Verlustverrechnung ist nur in der laufenden
-  Abgrenzung zulässig (hwp-bur-2023__rz-0551-s270). Verlustvorträge mit der letzten definitiven Veranlagung belegen: Die Steuerbehörden bestätigen die Verrechenbarkeit i. d. R. erst
-  mit der definitiven Veranlagung, Saldenbestätigungen sind unüblich (ef-2020-10-latente-steuern__s005-4). Aufrechnungen (z. B. steuerlich nicht anerkannte Rückstellungen) müssen in
-  der Berechnung enthalten sein.'
-- 'S1-302 (Kennzeichnung im Katalog «?»): Gebuchte Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen vergleichen. Nachzahlungen aus definitiven Veranlagungen
-  früherer Perioden gehören als Verbindlichkeit erfasst. Fehlt die Buchung: Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag, ohne Verbuchung.'
+- 'S1-201 (analytisch): Steueraufwand im Verhältnis zum Gewinn vor Steuern für Laufjahr und Vorjahr mit `rechne` ermitteln und Abweichungen begründen. Zur Plausibilisierung des Satzes:
+  `wert "gewinnsteuer hauptort"` (Treuhand-Almanach, Sekundärquelle; Steuerperiode 2025; effektiver Grenzsteuersatz inkl. direkte Bundessteuer am Hauptort AR/SG/TG/ZH; Gemeinde kann
+  abweichen). Maximalbelastung (Grenzsteuersatz); bei tieferem Gewinn oder ohne Kirchensteuer tiefer. Werte aus `wert` übernehmen, nicht aus dem layoutgestörten Chunk (treuhand-almanach-2026__s056-1)
+  und nie aus dem Gedächtnis; für andere Steuerperioden als 2025 als «nicht bestätigt» kennzeichnen. Bundesanteil: 8,5 % des Reingewinns (Art. 68 DBG, statutarisch). Da Steuern abziehbarer
+  Aufwand sind (Art. 59 Abs. 1 Bst. a DBG), den Satz nicht auf den Gewinn vor Steuern anwenden; Belastung mit `rechne` herleiten.'
+- 'S1-301 in vier Schritten: (1) Den Saldo der Steuerabgrenzung (üKV/PRA, Prüffelder M1/M3) mit der Berechnung abstimmen und die Parameter nachvollziehen (Gewinn, Kapital, Aufrechnungen,
+  Verlustverrechnung, Satz). (2) Ausgangsgrösse nachvollziehen: Saldo der Erfolgsrechnung (Art. 58 Abs. 1 Bst. a DBG) plus Aufrechnungen, z. B. geschäftsmässig nicht begründete Abschreibungen
+  und Rückstellungen sowie offene und verdeckte Gewinnausschüttungen (Art. 58 Abs. 1 Bst. b DBG), Bussen (Art. 59 Abs. 2 Bst. c DBG) und nicht mehr begründete Rückstellungen (Art. 63
+  Abs. 2 DBG). Fehlt eine erkennbare Aufrechnung in der Berechnung: Notiz an den WP. (3) Verlustverrechnung: Abziehbar sind Verluste aus den sieben vorangegangenen Geschäftsjahren (Art.
+  67 Abs. 1 DBG). Ältere Verluste nur, soweit Leistungen zum Ausgleich einer Unterbilanz im Rahmen einer Sanierung vorliegen, die keine Kapitaleinlagen der Beteiligten sind (Art. 67
+  Abs. 2 DBG); Beurteilung WP. Eine Verlustverrechnung ist nur in der laufenden Abgrenzung zulässig (hwp-bur-2023__rz-0551-s270). Verlustvorträge mit der letzten definitiven Veranlagung
+  belegen: Die Steuerbehörden bestätigen die Verrechenbarkeit i. d. R. erst mit der definitiven Veranlagung, Saldenbestätigungen sind unüblich (ef-2020-10-latente-steuern__s005-4). (4)
+  Rechtsgrundlage im Wiki: DBG (Fassung Stand 02.09.2026, nur direkte Bundessteuer; dbg__art-58, dbg__art-59-t1, dbg__art-63, dbg__art-67). Kantonale Regeln (StHG, kantonale Steuergesetze)
+  sind nicht im Wiki: Abweichungen als Frage an den WP. Beträge mit `rechne`.'
+- 'S1-302 (Kennzeichnung unlesbar, gilt wie ein WP-Schritt): Nur mit ausdrücklicher Anweisung des WP bearbeiten und dann als «Vorbereitung für WP» kennzeichnen. Ohne Anweisung kein Eintrag
+  im Textfeld; auffällige Punkte nur als Notiz «Pendenz» oder «Schlussbesprechung» erfassen. Bei Anweisung: Gebuchte Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen
+  vergleichen. Nachzahlungen aus definitiven Veranlagungen früherer Perioden gehören als Verbindlichkeit erfasst. Fehlt die Buchung: Notiz «Wesentliche Feststellungen» mit begründetem
+  Buchungsvorschlag, ohne Verbuchung.'
 - 'S1-304 / O1: Steuerrückstellungen für Nachbelastungsrisiken (Steuerrevision, hängige Rechtsmittel, vGA, überhöhte Abschreibungen) auflisten und mit Korrespondenz belegen. Schwebende
   Risiken ohne Rückstellung als mögliche Eventualverbindlichkeit (T1) für den WP markieren. Hängige Verfahren als Punkt für die Notiz «Schlussbesprechung» erfassen.'
+- 'Sanierung / Forderungsverzicht (S1-304; Kundenfrage S1 «Sanierungsmassnahmen/Forderungsverzichte»): Forderungsverzichte von Anteilsinhabern, die über die Erfolgsrechnung oder das
+  Sanierungskonto gebucht werden, sind grundsätzlich gleich zu behandeln wie Forderungsverzichte Dritter (echter Sanierungsertrag; Ausnahmen bei Darlehen, die als verdecktes Eigenkapital
+  behandelt oder wegen schlechten Geschäftsganges gewährt wurden; estv-ks-32a-2025__4-1-1-1-t1). Direkt ins Eigenkapital gebuchte Verzichte von Anteilsinhabern sind immer gewinnsteuerneutral;
+  sie sind Kapitaleinlagen und begründen keine Ausdehnung der Verlustverrechnung (estv-ks-32a-2025__4-1-1-1-t2; dbg__art-67). Bei echtem Sanierungsertrag (Verzicht Dritter bzw. über
+  die Erfolgsrechnung gebuchter Aktionärsverzicht) kann die Verlustverrechnungsperiode nach Art. 67 Abs. 2 DBG ausgedehnt werden (estv-ks-32a-2025__4-1-1-1-t1, -t3). Im Textfeld festhalten:
+  Gläubiger (Dritter, Anteilsinhaber, Gruppengesellschaft), Betrag, Verbuchung (Erfolgsrechnung oder Eigenkapital) und ob die Steuerabgrenzung Sanierungsertrag und Verlustverrechnung
+  berücksichtigt. Steuerliche Praxis der ESTV (KS 32a); Beurteilung WP.'
 - 'Latente Steuern: Prüfen, ob der Einzelabschluss latente Steuern erfasst. Falls ja, Stetigkeit und Gleichbehandlung aller temporären Differenzen prüfen. Ist ein latentes Steuerguthaben
   auf steuerlichen Verlustvorträgen, Step-ups oder Patentbox-Eintritt aktiviert, als Hinweis auf möglichen Fehler in «Wesentliche Feststellungen» erfassen. Bei Kapitalverlust oder Überschuldung
   zusätzlich Prüffeld P1 und den Kapitalschutz-Prozess einbeziehen. Die Beurteilung entscheidet der WP.'
@@ -174,19 +212,23 @@ agent:
   keine Rückstellung (ef-2026-08-buchungslogik__s003-4, F1). Pauschale Rückstellungen für Grossreparaturen werden steuerlich nicht mehr anerkannt (ef-2026-08-buchungslogik__s002-4, O1).
   Eine Schwankungsreserve auf Wertschriften wird steuerlich unter Umständen nicht als geschäftsmässig begründet anerkannt (ef-2026-08-buchungslogik__s006-3). Solche Fälle als mögliches
   Steuerrisiko an S1-304 melden.'
-- 'D1: Steuervorauszahlungen und erwartete Rückvergütungen (z. B. Verrechnungssteuer) können Aktiven sein. Die Rückerstattung der Verrechnungssteuer verjährt nach drei Jahren (hwp-bur-2023__rz-0549-s269).
-  Alte Rückforderungen auf Verjährung prüfen. Grundstückgewinnsteuern und Steuerfolgen nicht steuerneutraler Umstrukturierungen periodengerecht abgrenzen (hwp-bur-2023__rz-0548-s269).'
+- 'D1: Steuervorauszahlungen und erwartete Rückvergütungen (z. B. Verrechnungssteuer) können Aktiven sein. Rückerstattung der Verrechnungssteuer: Der Anspruch erlischt, wenn der Antrag
+  nicht innert drei Jahren nach Ablauf des Kalenderjahres gestellt wird, in dem die steuerbare Leistung fällig geworden ist (Art. 32 Abs. 1 VStG, vstg__art-32; HWP BuR spricht von Verjährung,
+  hwp-bur-2023__rz-0549-s269). Je Rückforderung Fälligkeitsjahr und Fristende (31.12. des dritten Folgejahres) tabellieren. Sonderfall: nachträglich auf Beanstandung der ESTV entrichtete
+  Steuer → neue 60-Tage-Frist (Art. 32 Abs. 2 VStG); als Frage an den WP. Erloschene Ansprüche als mögliche Überbewertung an den WP melden. Grundstückgewinnsteuern und Steuerfolgen nicht
+  steuerneutraler Umstrukturierungen periodengerecht abgrenzen (hwp-bur-2023__rz-0548-s269).'
 - 'S1-401 (geldwerte Leistungen) nur auf Anweisung. Steuerliche Praxis der ESTV: Unverzinste oder ungenügend verzinste Darlehen an Beteiligte sind geldwerte Leistungen; Verrechnungssteuer
   35 %, Meldung mit Formular 102 innert 30 Tagen (estv-zinsen-2026__s001-1, Rundschreiben 2026). Abgleich mit H2/N1 vorbereiten und mögliche Nachbelastung an S1-304 melden. Die Beurteilung
   entscheidet der WP.'
-- 'P1 / Bericht: Handelsrechtliche Verlustverrechnung nach Art. 674 OR prüfen. Reihenfolge: Gewinnvortrag, freiwillige Gewinnreserven, gesetzliche Gewinnreserve, gesetzliche Kapitalreserve
-  (hwp-er-2026__rz-0207-s229). In den Fällen c–e den Antrag des VR an die GV vorbereitend prüfen (EF 2023/08). Nicht mit steuerlichen Verlustvorträgen vermischen. Freies Eigenkapital
-  (Einlagenrückgewähr): stille Reserven nur netto, unter Berücksichtigung latenter Steuerfolgen (hwp-er-2026__rz-0167-s215).'
+- 'P1: Handelsrechtliche Verlustverrechnung (Art. 674 OR) mit `thema eigenkapital-gewinnverwendung` prüfen, nicht hier. Freies Eigenkapital (Einlagenrückgewähr): stille Reserven nur
+  netto nach latenten Steuern (hwp-er-2026__rz-0167-s215).'
 - 'Abschluss: In der Vollständigkeitserklärung muss die Bestätigung zur Einhaltung der Vorschriften über direkte Steuern enthalten sein (ser-2022__anh-e-s103-2). Die SER sieht keine
   gezielten Prüfungen zur Aufdeckung von Steuer-Gesetzesverstössen vor (ser-2022__anh-c-s057-1). Festgestellte Verstösse mit direktem Bezug zur Jahresrechnung als Notiz an den WP; über
   einen Hinweis im Bericht entscheidet der WP.'
-- 'Unabhängigkeit: Unterstützung bei Steuerdeklarationen ist bei der eingeschränkten Revision zulässig (hwp-er-2026__rz-0050-s160). Im Textfeld festhalten, wer Steuerabgrenzung und Steuererklärung
-  erstellt hat; die Beurteilung bleibt beim WP.'
+- 'Unabhängigkeit: Unterstützung bei der Erstellung der Steuerdeklarationen ist eine zulässige Steuerdienstleistung (hwp-er-2026__rz-0050-s160). Berechnet oder verbucht die Revisionsstelle
+  die Steuerabgrenzung, ist das Mitwirkung bei der Buchführung mit per se Selbstprüfungsrisiko (hwp-er-2026__rz-0044-s159, ser-2022__anh-b-s049-2); dann braucht es geeignete organisatorische
+  und personelle Massnahmen (Art. 729 Abs. 2 OR, or__art-729). Im Textfeld festhalten, wer Steuerabgrenzung und Steuererklärung erstellt hat; die Beurteilung bleibt beim WP. Bei Mitwirkung
+  zusätzlich die Offenlegung im Bericht für den WP markieren (ser-2022__8-4; `aufgabe gvb-bericht`).'
 - HWP OR (hwp-or-2024__rz-0960-s369) nur ergänzend als Checkliste der ordentlichen Revision verwenden, nicht als SER-Pflicht ausgeben. Alle Beträge mit `rechne` ermitteln, Wesentlichkeit
   aus revio 3.3 lesen, kein Visum setzen.
 prueffelder:

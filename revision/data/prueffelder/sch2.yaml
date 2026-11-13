@@ -192,9 +192,19 @@ unterlagen:
   quelle: ser-2022__anh-e-s103-2
   zitat: Die Ihnen gegebenen Informationen zur Identifizierung nahestehender Personen sind
 bewertung:
+- regel: Gesamtleistung = Nettoerlös ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; ihr wird der Produktionsaufwand gegenübergestellt
+    (Bezugsgrösse Margenvergleich)
+  quelle: hwp-bur-2023__rz-0235-s115
+  zitat: Gesamtleistung (Nettoerlös zuzüglich oder abzüglich der Bestandsänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen)
+- regel: 'Sachliche Abgrenzung (matching): Aufwand zeitgleich mit dem zugehörigen Ertrag'
+  quelle: hwp-bur-2023__rz-0049-s067
+  zitat: alle Aufwendungen, die dazu dienen, bestimmte Erträge zu erzielen, zeitgleich mit dem Ertragsanfall in der Erfolgsrechnung zu berücksichtigen sind
 - regel: Materialaufwand umfasst alle mit der Produktion verbundenen Aufwendungen
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Der Materialaufwand umfasst alle mit der Produktion verbundenen Aufwendungen
+- regel: Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti sofern nicht im Finanzertrag) mindern den Materialaufwand
+  quelle: hwp-bur-2023__rz-0756-s319
+  zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
 - regel: 'Bestandteile: Einkauf von Handelswaren, Rohmaterial, Hilfs- und Betriebsstoffen'
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Einkauf von Handelswaren, Rohmaterial, Hilfs- und Betriebsstoffen, Zubehörteilen
@@ -204,9 +214,6 @@ bewertung:
 - regel: Direkte Bezugskosten (Frachten, Zölle) sind Materialaufwand
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: direkte Bezugskosten (Frachten, Zölle u.a.)
-- regel: Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti sofern nicht im Finanzertrag) mindern den Materialaufwand
-  quelle: hwp-bur-2023__rz-0756-s319
-  zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
 - regel: Inventurdifferenzen auf zugekauften Vorräten gehören zum Materialaufwand
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Inventurdifferenzen auf zugekauften Vorratsbeständen
@@ -225,10 +232,6 @@ bewertung:
 - regel: Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen separat ausweisen
   quelle: hwp-bur-2023__rz-0755-s319
   zitat: sowie an nicht fakturierten Dienstleistungen separat auszuweisen (Art. 959b Abs. 2 Ziff. 2 OR)
-- regel: Gesamtleistung = Nettoerlös ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; ihr wird der Produktionsaufwand gegenübergestellt
-    (Bezugsgrösse Margenvergleich)
-  quelle: hwp-bur-2023__rz-0235-s115
-  zitat: Gesamtleistung (Nettoerlös zuzüglich oder abzüglich der Bestandsänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen)
 - regel: Bezeichnung «Aufwand für Material, Waren und Dienstleistungen» zulässig und umfassender
   quelle: hwp-bur-2023__rz-0228-s113
   zitat: Umfassender ist die Bezeichnung «Aufwand für Material, Waren und Dienstleistungen».
@@ -238,9 +241,6 @@ bewertung:
 - regel: 'Absatzerfolgsrechnung: Abschreibungen und Wertberichtigungen sind in den Herstellungskosten der verkauften Produkte enthalten (Offenlegung im Anhang)'
   quelle: hwp-bur-2023__rz-0793-s328
   zitat: sind die Abschreibungen und Wertberichtigungen in den Herstellungskosten der verkauften Produkte
-- regel: 'Sachliche Abgrenzung (matching): Aufwand zeitgleich mit dem zugehörigen Ertrag'
-  quelle: hwp-bur-2023__rz-0049-s067
-  zitat: alle Aufwendungen, die dazu dienen, bestimmte Erträge zu erzielen, zeitgleich mit dem Ertragsanfall in der Erfolgsrechnung zu berücksichtigen sind
 - regel: 'Periodengerechte Aufwandsabgrenzung: vollständige Erfassung von Verbindlichkeiten, passiven Abgrenzungen und Rückstellungen'
   quelle: hwp-bur-2023__rz-0048-s066
   zitat: der periodengerechten Abgrenzung des Aufwands, d.h. der vollständigen Erfassung aller Verbindlichkeiten, passiven Rechnungsabgrenzungen und Rückstellungen
@@ -281,8 +281,9 @@ fallstricke:
 - text: Wesentliche Fragen und Antworten dokumentieren, sonst ist die Befragung kein Prüfungsnachweis.
   quelle: hwp-er-2026__rz-0103-s197
   zitat: Ansonsten ist die Befragung als Prüfungsnachweis ungeeignet.
-- text: SER Anh. D p) empfiehlt für den Materialaufwand nur Befragung und Margenvergleich; Belegeinsicht/Cut-off sind weiter gehend und setzen einen Auslöser voraus. Anh.-D-Stellen anderer
-    Positionen (i, l, q, r, t) nur als gekennzeichnete Analogie zitieren.
+- text: 'SER Anh. D p) empfiehlt Befragung (SCH2-101) und Margenvergleich (SCH2-201). Als weiter gehend nennt p) nur die Einsicht in Rechnungen und Lieferpapiere um den Stichtag (Cut-off,
+    SCH2-303: nur auf Anweisung WP). Die Katalogschritte SCH2-301/302 bereitet der Agent als angemessene Detailprüfung vor (SER 6.1.3), mit Umfang nach Wesentlichkeit und Risiko (3.1),
+    begründet im Textfeld. Anh.-D-Stellen anderer Positionen (i, l, q, r, t) nur als gekennzeichnete Analogie zitieren.'
   quelle: ser-2022__6-2-3
   zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
 - text: Analytik kann kompensierende Fehler übersehen; Erklärungen aus der Abweichungsanalyse sind zu plausibilisieren.
@@ -329,7 +330,7 @@ fallstricke:
 - text: Die Vollständigkeit von Kreditoren und passiven Rechnungsabgrenzungen wird in eigenen Prüffeldern befragt (SER Anh. D i) und l)); Cut-off-Arbeiten damit abstimmen – gleiche Belege,
     keine Doppelarbeit, Feststellungen gegenseitig verweisen (Praxis).
   quelle: ser-2022__anh-d-s087-1
-  zitat: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rech
+  zitat: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rechnungsabgrenzungen
 fragen_kunde:
 - frage: Zu welchem Zeitpunkt erfassen Sie Material-, Waren- und Fremdleistungsaufwand (Lieferung/Leistungserbringung oder Rechnungseingang), und wie behandeln Sie Bestandesänderungen,
     Rabatte, Skonti, Rückvergütungen und Fremdwährungseinkäufe? Gab es Änderungen gegenüber dem Vorjahr?
@@ -408,14 +409,16 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: SCH2-102
-  vorgehen: Wortlaut wie SER Anh. D q) (Analogie; gleich in i) und t)). Aus Saldovergleich (SCH2-202 a) 4xxx-Konten mit Abweichung über der Schwelle (vertretbare Differenz, Vorgabe WP)
-    auflisten; vorhandene schriftliche Erklärungen auswerten, fehlende als Pendenz für WP/Mandatsleitung. Erklärungen kritisch mit Umsatz-, Projekt- und Margenentwicklung abgleichen;
-    Nachfragen zu nicht plausiblen Antworten als Pendenz; Frage/Antwort im Textfeld.
+  vorgehen: 'Wortlaut wie SER Anh. D q) (Analogie; gleich in i) und t)). Aus Saldovergleich (SCH2-202 a) 4xxx-Konten mit Abweichung über der Schwelle (vertretbare Differenz) auflisten.
+    Schwelle = Vorgabe WP; fehlt sie: vorläufig Toleranzwesentlichkeit aus revio 3.3 (`revio 3.3`, Regel: `regeln wesentlichkeit`), im Textfeld als vorläufig kennzeichnen, Pendenz an
+    den WP. Vorhandene schriftliche Erklärungen auswerten, fehlende als Pendenz für WP/Mandatsleitung. Erklärungen kritisch mit Umsatz-, Projekt- und Margenentwicklung abgleichen; Nachfragen
+    zu nicht plausiblen Antworten als Pendenz; Frage/Antwort im Textfeld.'
   nachweise:
   - Saldoliste Erfolgsrechnung Berichts-/Vorjahr
   - Abweichungsliste 4xxx
   - Schriftliche Erklärungen Finanzen/GF
-  rechnen: Abweichung je Konto = Saldo BJ − Saldo VJ (CHF und %); Auswahl Konten mit |Abweichung| > Schwelle (noch vertretbare Differenz, Vorgabe WP)
+  rechnen: 'Abweichung je Konto = Saldo BJ − Saldo VJ (CHF; % = (BJ - VJ) / abs(VJ) * 100; VJ = 0 → «neu»); Auswahl Konten mit |Abweichung| > Schwelle (noch vertretbare Differenz). Schwelle
+    = Vorgabe WP; fehlt sie: vorläufig Toleranzwesentlichkeit aus revio 3.3 (`revio 3.3`, Regel: `regeln wesentlichkeit`), im Textfeld als vorläufig kennzeichnen, Pendenz an den WP'
   feststellung_wenn: Wesentliche Abweichung ohne plausible Erklärung oder Erklärung im Widerspruch zu Umsatz-, Projekt- oder Margenentwicklung.
   fundstellen:
   - quelle: ser-2022__anh-d-s093-1
@@ -428,6 +431,8 @@ schritte:
     zitat: Diskrepanzen zwischen den erhaltenen Antworten und seinen Kenntnissen über das Unternehmen geht der Abschlussprüfer nach.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
 - id: SCH2-201
   vorgehen: Je Produktkategorie (BJ, VJ) Gesamtleistung, direkten Aufwand und Bruttomarge berechnen; bei Projektgeschäft Marge je Projekt aus Projektliste/Nachkalkulation. Erlösminderungen
     und Bestandesänderung angefangene Arbeiten ausdrücklich zuordnen. Margenveränderung in Prozentpunkten mit Erwartung aus Geschäftskenntnis vergleichen; Ursachen (Preise, Mix, Verlustprojekte,
@@ -436,8 +441,11 @@ schritte:
   - Saldoliste/Erfolgsrechnung Berichts- und Vorjahr
   - Margen-/Deckungsbeitragsstatistik je Kategorie
   - Projektliste bzw. Nachkalkulation
-  rechnen: Gesamtleistung = Nettoerlöse (nach Erlösminderungen, z.B. Skonti) ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen (Testakte
-    3900); Bruttomarge % = (Gesamtleistung − direkter Aufwand inkl. Bestandesänderung Handelswaren 4207–4209) / Gesamtleistung je Kategorie und Jahr; Δ Marge = Marge BJ − Marge VJ (Prozentpunkte)
+  rechnen: 'Gesamtleistung = Nettoerlöse (nach Erlösminderungen, z.B. Skonti) ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; Bruttomarge
+    % = (Gesamtleistung − direkter Aufwand) / Gesamtleistung × 100, je Kategorie und Jahr; direkter Aufwand inkl. Bestandesänderung Handelswaren (Konten gemäss Kontenplan des Mandats);
+    Δ Marge = Marge BJ − Marge VJ (Prozentpunkte). Vorzeichen: Erlöse und Aufwand als positive Zahlen einsetzen. Gesamtleistung: Bestandeszunahme angefangene Arbeiten/Erzeugnisse +,
+    Abnahme −. Direkter Aufwand: Bestandeszunahme Handelswaren −, Bestandesabnahme + (wie SCH2-302). Aufruf: rechne "Marge BJ = (<Gesamtleistung BJ> - <direkter Aufwand BJ>) / <Gesamtleistung
+    BJ> * 100; Marge VJ = (<Gesamtleistung VJ> - <direkter Aufwand VJ>) / <Gesamtleistung VJ> * 100"'
   feststellung_wenn: Marge weicht wesentlich von Vorjahr/Erwartung ab ohne plausible Erklärung oder Aufwand und zugehöriger Ertrag fallen zeitlich auseinander (Hinweis auf Cut-off-/Matching-Fehler).
   fundstellen:
   - quelle: ser-2022__anh-d-s092-1
@@ -461,8 +469,9 @@ schritte:
   - Kontoblätter 4xxx
   - Budget/Forecast
   - Inventarlisten, Projektliste, MWST-Abrechnungen
-  rechnen: Δ je Konto = Saldo BJ − Saldo VJ; Aufwandquote = direkter Aufwand (inkl. Bestandesänderung Handelswaren 4207–4209) / Gesamtleistung (Definition wie SCH2-201; BJ, VJ); Budgetabweichung
-    = Ist − Budget; signifikant, wenn |Δ| > Schwelle (Vorgabe WP)
+  rechnen: 'Δ je Konto = Saldo BJ − Saldo VJ; Aufwandquote = direkter Aufwand (inkl. Bestandesänderung Handelswaren, Konten gemäss Kontenplan) / Gesamtleistung (Definition wie SCH2-201;
+    BJ, VJ); Budgetabweichung = Ist − Budget; signifikant, wenn |Δ| > Schwelle. Schwelle = Vorgabe WP; fehlt sie: vorläufig Toleranzwesentlichkeit aus revio 3.3 (`revio 3.3`, Regel:
+    `regeln wesentlichkeit`), im Textfeld als vorläufig kennzeichnen, Pendenz an den WP'
   feststellung_wenn: Signifikante Änderung nicht erklärbar, ungewöhnliche Einzelbuchung ohne Begründung oder Hinweis auf Fehlklassierung (z.B. Rabatte bzw. Vorjahresrechnungen im ausserordentlichen
     Ergebnis).
   fundstellen:
@@ -480,10 +489,12 @@ schritte:
     zitat: Einfluss der Bildung oder Auflösung stiller Reserven auf die ausgewiesenen Werte in der Jahresrechnung.
   - quelle: hwp-er-2026__rz-0110-s199
     zitat: die Höhe der Differenzen zwischen den ausgewiesenen Beträgen und den erwarteten Werten, die für den Abschlussprüfer als noch vertretbar gelten können
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
 - id: SCH2-301
-  vorgehen: 'Bewusste Auswahl aus 4xxx-Konten, Umfang nach Wesentlichkeit und Risiko begründen. Standardauswahl gemäss Konzeptvorschlag (noch nicht bestätigt; Vorgabe WP je Mandat/Prüffeld
-    geht vor): Posten über Toleranzwesentlichkeit, ungewöhnliche, stichtagsnahe Posten, Nahestehende. Je Posten Beleg/Vertrag in M-Files mit Buchung abgleichen (Betrag, Währung, Periode,
-    Konto, Empfänger, Geschäftsbezug, Doppelerfassung); fehlende Belege als PBC-Pendenz.'
+  vorgehen: 'Angemessene Detailprüfung (SER 6.1.3), Umfang nach Wesentlichkeit/Risiko: bewusste Auswahl aus 4xxx-Konten, Auswahl im Textfeld begründen. Standardauswahl gemäss Konzeptvorschlag
+    (noch nicht bestätigt; Vorgabe WP je Mandat/Prüffeld geht vor): Posten über Toleranzwesentlichkeit, ungewöhnliche, stichtagsnahe Posten, Nahestehende. Je Posten Beleg/Vertrag in
+    M-Files mit Buchung abgleichen (Betrag, Währung, Periode, Konto, Empfänger, Geschäftsbezug, Doppelerfassung); fehlende Belege als PBC-Pendenz.'
   nachweise:
   - Kontoblätter 4xxx
   - Lieferantenrechnungen/Gutschriften der Auswahl
@@ -502,8 +513,8 @@ schritte:
     zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
-  - quelle: ser-2022__anh-d-s096-1
-    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  - quelle: ser-2022__6-1-3
+    zitat: Bei einer eingeschränkten Revision sind angemessene Detailprüfungen – namentlich von Bestand und Bewertung – vorgesehen.
   - quelle: konzept-ki-revisionsagent-2026__c015-2
     zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
   - quelle: konzept-ki-revisionsagent-2026__c015-2
@@ -516,9 +527,9 @@ schritte:
   - Kontoblätter 4xxx
   - Inventarlisten Berichts-/Vorjahr
   - Belege zu auffälligen Buchungen
-  rechnen: 'Bestandesänderung Handelswaren = Inventarwert 31.12. VJ − Inventarwert 31.12. BJ (Einstandswerte); positiver Wert = Bestandesabnahme = Mehraufwand, negativer Wert = Bestandeszunahme
-    = Aufwandminderung; Abgleich mit Σ Salden Bestandesänderungskonten (Testakte 4207–4209) unter Beachtung der Buchungsrichtung (Soll/Haben) bzw. Vorzeichenkonvention der Saldoliste
-    (Testakte: Aufwand negativ, Mehraufwand = negativer Saldo); Wertberichtigung 1290 separat abstimmen'
+  rechnen: Bestandesänderung Handelswaren = Inventarwert 31.12. VJ − Inventarwert 31.12. BJ (Einstandswerte); positiver Wert = Bestandesabnahme = Mehraufwand, negativer Wert = Bestandeszunahme
+    = Aufwandminderung; Abgleich mit Σ Salden der Bestandesänderungskonten (gemäss Kontenplan) unter Beachtung der Buchungsrichtung (Soll/Haben); Vorzeichenkonvention der Saldoliste
+    vorab feststellen und im Textfeld nennen; Wertberichtigung Vorräte (Konto gemäss Kontenplan) separat abstimmen
   feststellung_wenn: Fehlkontierung, unzulässige Verrechnung, Aufwand früherer Perioden nicht als periodenfremd erkennbar, Rabatte/Gutschriften falsch klassiert oder Bestandesänderung
     nicht abstimmbar.
   fundstellen:
@@ -535,9 +546,9 @@ schritte:
   - quelle: ser-2022__6-1-3
     zitat: Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
 - id: SCH2-303
-  vorgehen: 'WP-Schritt; gemäss SER weiter gehend. Nur bearbeiten, wenn consis WP-Schritte für den Agenten freigegeben hat und der WP ihn anordnet (Auslöser: Hinweise auf Abgrenzungsfehler
-    aus SCH2-101/201/202 oder erhöhtes inhärentes Risiko). Sonst Textfeld «nicht bearbeitet – Entscheid WP» mit beobachteten Auslösern; Visum offen. Bei Anordnung: Rechnungen/Lieferpapiere
-    im Zeitfenster um 31.12. (Vorgabe WP) mit Buchungsperiode und OP-/PRA-Liste abgleichen.'
+  vorgehen: 'WP-Schritt; gemäss SER weiter gehend. Nur auf ausdrückliche Anweisung des WP bearbeiten (Entscheid consis offen; Auslöser: Hinweise auf Abgrenzungsfehler aus SCH2-101/201/202
+    oder erhöhtes inhärentes Risiko). Sonst Status «nicht bearbeitet – WP-Schritt», beobachtete Auslöser als Notiz für den WP; Visum offen. Bei Anordnung: Rechnungen/Lieferpapiere im
+    Zeitfenster um 31.12. (Vorgabe WP) mit Buchungsperiode und OP-/PRA-Liste abgleichen.'
   nachweise:
   - Kreditorenjournal/Kontoblätter Folgejahr
   - Eingangsrechnungen mit Leistungsdatum

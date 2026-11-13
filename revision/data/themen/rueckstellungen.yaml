@@ -67,6 +67,11 @@ stichworte:
 - T1-105
 - T1-107
 - O1-401
+- Bürgschaft
+- Drohverlust
+- drohende Verluste
+- Rechtsstreit Rückstellung
+- Sicherheiten Dritter
 kurz: Rückstellungen sind zu bilden, wenn vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten lassen (OR 960e Abs. 2); freiwillige und nicht mehr begründete
   Rückstellungen sind zulässig, bilden aber stille Reserven. Eventualverbindlichkeiten (OR 959c Abs. 2 Ziff. 10) und für Dritte bestellte Sicherheiten (Ziff. 8) sind getrennt im Anhang
   anzugeben. Anwaltsbestätigungen gehören nicht zur SER; über Beurteilung und Bericht entscheidet der WP.
@@ -78,6 +83,9 @@ aussagen:
   quelle: or__art-960e
   zitat: Lassen vergangene Ereignisse einen Mittelabfluss in künftigen Geschäftsjahren erwarten, so müssen die voraussichtlich erforderlichen Rückstellungen zulasten der Erfolgsrechnung
     gebildet werden.
+- text: Bestehen konkrete Anzeichen für zu geringe Rückstellungen, sind die Werte zu überprüfen und gegebenenfalls anzupassen (OR 960 Abs. 3).
+  quelle: or__art-960
+  zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
 - text: 'Die Bildungspflicht greift, wenn kumulativ vorliegen: vergangenes Ereignis, erwarteter Mittelabfluss in künftigen Geschäftsjahren und verlässlich schätzbare Höhe des Mittelabflusses
     (HWP BuR III.2.26.1, Rz 496).'
   quelle: hwp-bur-2023__rz-0496-s258
@@ -242,10 +250,10 @@ agent:
 - O1-302/O1-303 und M3-302/304/305 sind WP-Schritte (nur Mensch). Der Agent bereitet sie nur auf ausdrückliche Anweisung vor, z.B. eine Liste der Zahlungen zulasten Rückstellungen und
   des Rechtsaufwands in neuer Rechnung. Die Kontendurchsicht in neuer Rechnung, auf die sich die Annahme nach hwp-er-2026__rz-0139-s204-t3 stützt, ist O1-303 und damit WP-Schritt. Die
   Beurteilung bleibt beim WP.
-- 'O1-401 Anwaltsbestätigungen/Experten-Gutachten (ebenso R1-401): ohne Anweisung nicht bearbeiten (Status «nicht bearbeitet – nur auf Anweisung»), da nicht Bestandteil der SER (ser-2022__anh-d-s088-1,
-  ser-2022__6-2-6, hwp-er-2026__rz-0262-s085). Auf ausdrückliche Anweisung des WP höchstens einen Anfrageentwurf vorbereiten; nie selbst an Anwälte oder Kunden versenden (E-Mail nur
-  als Entwurf oder an die fixe WP-Adresse). Liegt eine vom Unternehmen eingeholte Bestätigung in M-Files, verwendet der Agent sie als Nachweis (hwp-er-2026__rz-0139-s204-t3). Ist das
-  Risiko nur mit einer Bestätigung reduzierbar, erfasst er eine Notiz für den WP; die Annahme trifft der WP (hwp-er-2026__rz-0139-s204-t2).'
+- 'O1-401 Anwaltsbestätigungen/Experten-Gutachten (ebenso R1-401): nicht Bestandteil der SER (ser-2022__anh-d-s088-1, ser-2022__6-2-6, hwp-er-2026__rz-0262-s085). Ohne Anweisung Status
+  «nicht bearbeitet – nur auf Anweisung». Keine Anfrage an Anwälte, auch nicht als Entwurf (hwp-er-2026__rz-0134-s203). Den Kunden nur über die bestehende PBC-Frage nach selbst eingeholten
+  Stellungnahmen fragen (Entwurf oder fixe WP-Adresse). Eine vom Unternehmen eingeholte Stellungnahme in M-Files nennt der Agent in O1-301 als Nachweis (M-Files-ID, hwp-er-2026__rz-0139-s204-t3).
+  Die Auswertung (Ausgang, Betrag, Kosten) erfolgt in O1-401 nur auf Anweisung. Ist das Risiko nur mit einer Bestätigung reduzierbar: Notiz «Pendenz»; die Annahme trifft der WP (hwp-er-2026__rz-0139-s204-t2).'
 - 'O1-320/M3-320/T1 (Anhang): Prüfen, ob Eventualverbindlichkeiten (OR 959c Abs. 2 Ziff. 10; T1-107) mit Umschreibung, möglichem Umfang, Begründung und Eintretenswahrscheinlichkeit angegeben
   sind (hwp-bur-2023__rz-0854-s350); bei Prozessen auch klagende Partei, Streitwert und Stand des Verfahrens (hwp-bur-2023__rz-0855-s351-t1). Gesondert davon den Gesamtbetrag der für
   Verbindlichkeiten Dritter bestellten Sicherheiten (Ziff. 8; T1-105) mit Bürgschaften, Garantieverpflichtungen und Pfandbestellungen (hwp-bur-2023__rz-0839-s346) sowie verpflichtende
@@ -257,18 +265,24 @@ agent:
   ob die Anhangangabe vorhanden ist (T1-305); ob sie wesentlich ist, entscheidet der WP.'
 - 'Abgrenzung M3/O1: Provisionen, laufende Steuern, Ferien- und Überzeitguthaben, Boni sowie Kundenbindungsprogramme fallen eher unter passive Rechnungsabgrenzungen (hwp-bur-2023__rz-0512-s261;
   Ferien/Überzeit: qa-or-rechnungslegung-2026__2-2-t1). Rückstellungen werden je nach erwartetem Zeitpunkt des Mittelabflusses kurz- oder langfristig ausgewiesen (hwp-bur-2023__rz-0518-s262).
-  Fehlklassierungen meldet der Agent als Feststellung, nicht als Fehler im Ergebnis.'
+  Die Grenzen sind fliessend (hwp-bur-2023__rz-0512-s261): Fehlklassierung im Textfeld vermerken und als Umgliederungshinweis in der Notiz «Schlussbesprechung» erfassen (wie O1-405);
+  Notiz «Wesentliche Feststellungen» nur, wenn der Betrag wesentlich ist (Gesamtwesentlichkeit, konzept-ki-revisionsagent-2026__c014-1); keine Ergebniswirkung.'
 - 'Steuern (S1): Laufende Steuern sind eher passive Rechnungsabgrenzung (hwp-bur-2023__rz-0512-s261); Steuerrisiken aus gewählten Steuerpositionen werden analog zu Prozessrisiken beurteilt
   (hwp-bur-2023__rz-0526-s263). SER Anhang D n: Befragung zu Steuerrevisionen, Rückfragen, hängigen Einsprachen und Rekursen sowie Einblick in die Korrespondenz (ser-2022__anh-d-s089-2).
   S1-304 (Steuerrückstellungen auf dem laufenden Gewinn) bereitet der Agent vor; S1-102 bis S1-104 sind WP-Schritte (nur Mensch). Steuerliche Sicht immer als Steuerrecht bzw. Praxis
-  kennzeichnen: Die steuerrechtliche Zulässigkeit kann von der handelsrechtlichen abweichen, und nicht mehr begründete Rückstellungen werden steuerlich zugerechnet (Art. 29/63 DBG; hwp-bur-2023__rz-0212-s107).
-  Laut Fachliteratur sind pauschale Rückstellungen für Grossreparaturen steuerlich grundsätzlich nicht mehr zulässig (ef-2026-08-buchungslogik__s002-4). Steuerlich zulässige Pauschalen
-  ersetzen die Ermittlung der handelsrechtlich notwendigen Rückstellung nicht; darüber hinausgehende Beträge sind weitere (nicht notwendige) Rückstellungen (hwp-bur-2023__rz-0513-s261).'
+  kennzeichnen: Die steuerrechtliche Zulässigkeit kann von der handelsrechtlichen abweichen, und nicht mehr begründete Rückstellungen werden steuerlich zugerechnet (direkte Bundessteuer:
+  DBG Art. 63 Abs. 2, dbg__art-63; geschäftsmässig nicht begründete Rückstellungen werden aufgerechnet: DBG Art. 58 Abs. 1 lit. b, dbg__art-58; ergänzend hwp-bur-2023__rz-0212-s107).
+  Steuerlich zulässige Rückstellungen nennt DBG Art. 63 Abs. 1 (u. a. lit. d: F&E-Aufträge an Dritte bis 10 % des steuerbaren Gewinns, höchstens 1 Mio. Franken) – Steuerrecht, keine
+  handelsrechtliche Bewertungsregel; kantonales Recht (StHG) ist im Wiki nicht erfasst. Laut Fachliteratur sind pauschale Rückstellungen für Grossreparaturen steuerlich grundsätzlich
+  nicht mehr zulässig (ef-2026-08-buchungslogik__s002-4). Steuerlich zulässige Pauschalen ersetzen die Ermittlung der handelsrechtlich notwendigen Rückstellung nicht; darüber hinausgehende
+  Beträge sind weitere (nicht notwendige) Rückstellungen (hwp-bur-2023__rz-0513-s261).'
 - 'Ereignisse nach dem Bilanzstichtag: Liegt die Ursache vor dem Stichtag, ist der Verlust zurückzustellen; liegt sie danach, besteht i.d.R. keine Rückstellungspflicht (hwp-bur-2023__rz-0517-s262;
-  schwebende Geschäfte: hwp-bur-2023__rz-0525-s263); wird trotzdem zurückgestellt, ist das als stille Reserve zulässig (hwp-bur-2023__rz-0531-s264). Entwicklungen bei Rückstellungen
-  und Eventualverbindlichkeiten möglichst nahe am Berichtsdatum erfragen lassen (hwp-er-2026__rz-0321-s255-t1, -t2, ser-2022__anh-d-s100-1). Offene Antworten erfasst der Agent als Pendenz.'
+  schwebende Geschäfte: hwp-bur-2023__rz-0525-s263); wird trotzdem zurückgestellt, ist das als stille Reserve zulässig (hwp-bur-2023__rz-0531-s264), aber nur für Verluste aus einzelnen
+  Geschäftsvorfällen, nicht für den gesamten budgetierten Unternehmensverlust (gleiche Rz). Eine Rückstellung für den budgetierten Gesamtverlust nicht selbst als zulässig werten: Notiz
+  «Pendenz» mit Konto und Betrag (Entscheid WP; vgl. OR 960e Abs. 3 Ziff. 4, or__art-960e). Entwicklungen bei Rückstellungen und Eventualverbindlichkeiten möglichst nahe am Berichtsdatum
+  erfragen lassen (hwp-er-2026__rz-0321-s255-t1, -t2, ser-2022__anh-d-s100-1). Offene Antworten erfasst der Agent als Pendenz.'
 - 'Kapitalschutz (P6): Rückstellungen gehören zum Fremdkapital für die Überschuldungsprüfung (hwp-er-2026__rz-0381-s115). Ein vergrösserter Rückstellungsbedarf oder aktualisierte Eventualverbindlichkeiten
-  können Anlass zu begründeter Besorgnis sein (hwp-er-2026__rz-0385-s115). Diese Hinweise meldet der Agent dem WP.'
+  können Anlass zu begründeter Besorgnis sein (hwp-er-2026__rz-0385-s115). Notiz «Pendenz» mit Verweis auf `prozess p6`.'
 - 'Bericht (P5): Ob eine Einschränkung, eine verneinende Prüfungsaussage, keine Prüfungsaussage oder ein Zusatz wegen wesentlicher Unsicherheit nötig ist, entscheidet ausschliesslich
   der WP. Für die Notiz die Abgrenzung festhalten: wesentliche Unsicherheit mit offenem Ausgang und angemessener Anhangangabe → Zusatz (ser-2022__8-3-2-t3, hwp-er-2026__rz-0432-s283);
   fehlende oder ungenügende Anhangangabe → Fehlaussage (hwp-er-2026__rz-0433-s283; Beispiel ser-2022__anh-f-s120-2); in der SER nicht prüfbarer Sachverhalt → Annahme mit möglicher Einschränkung

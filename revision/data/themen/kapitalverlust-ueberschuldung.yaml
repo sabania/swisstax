@@ -10,6 +10,10 @@ stichworte:
 - Kapitalverlust
 - hälftiger Kapitalverlust
 - Art. 725a OR
+- OR 725a
+- OR 725b
+- OR 725b Abs. 5
+- OR 729c
 - Unterbilanz
 - geschütztes Eigenkapital
 - Bezugsgrösse
@@ -20,6 +24,8 @@ stichworte:
 - Art. 725b OR
 - Art. 725b Abs. 5 OR
 - Zwischenabschluss
+- Zwischenabschlüsse
+- Zwischenabschluss Überschuldung
 - Zwischenbilanz
 - Fortführungswerte
 - Veräusserungswerte
@@ -55,7 +61,16 @@ stichworte:
 - PS-CH 290
 - PH 10
 - Covid-19-Kredit
+- Covid-19-Kredite
+- Covid
+- Härtefall
 - Härtefall-Darlehen
+- Art. 24 Covid-19-SBüG
+- Ausschüttungsverbot Covid
+- Art. 23 Covid-19-SBüG
+- Forderungsverzicht
+- Sanierungsertrag
+- KS 32a
 - Covenants
 - Doppelmandat
 - Wissenszurechnung
@@ -65,9 +80,13 @@ stichworte:
 - Hinweis Gesetzesverstoss
 - Eventualzusatz
 - Nichtigkeit GV-Beschluss
-kurz: 'Kapitalverlust (OR 725a): Aktiven − Verbindlichkeiten < Hälfte von Aktienkapital + nicht rückzahlbarer gesetzlicher Kapital- und Gewinnreserve → VR saniert; Opting-out: zugelassener
-  Revisor prüft. OR 725b: Überschuldung gemäss beiden Zwischenabschlüssen → VR benachrichtigt das Gericht, ausser Rangrücktritt inkl. Zinsen und Stundung oder begründete Aussicht auf
-  Behebung innert spätestens 90 Tagen ohne zusätzliche Gläubigergefährdung. Revisionsstelle: Zusatz/Hinweis, OR 729c; WP entscheidet.'
+kurz: 'Kapitalverlust (OR 725a Abs. 1): bilanzielles EK (Aktiven − Verbindlichkeiten) < Hälfte des geschützten Kapitals = Grundkapital (AK + PS) + gesetzliche Kapital- und Gewinnreserve
+  zusammen max. 50 % (Holding 20 %) des Grundkapitals + Aufwertungsreserve und Reserve für eigene Kapitalanteile im Konzern voll. Covid-19-Kredite nach Art. 3 Covid-19-SBüV sind kein
+  Fremdkapital (Art. 24 Covid-19-SBüG). Rechnen: `kapitalverlust --aktienkapital … --eigenkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …] [--holding]`.
+  EK < 0 = buchmässige Überschuldung → begründete Besorgnis; der VR erstellt Zwischenabschlüsse und lässt sie prüfen (OR 725b Abs. 1–2). Ist die Gesellschaft gemäss beiden Zwischenabschlüssen
+  überschuldet, benachrichtigt der VR das Gericht, ausser bei Rangrücktritt inkl. Zinsen mit Stundung oder bei begründeter Aussicht auf Behebung innert spätestens 90 Tagen ohne zusätzliche
+  Gefährdung der Gläubiger (OR 725b Abs. 3–4). Opting-out: zugelassener Revisor (OR 725a Abs. 2/3, 725b Abs. 5). Der Agent rechnet und dokumentiert; Zusatz, Hinweis und Anzeige (OR
+  729c): nur WP.'
 aussagen:
 - text: 'OR 725 (drohende Zahlungsunfähigkeit): Der Verwaltungsrat überwacht die Zahlungsfähigkeit. Droht die Zahlungsunfähigkeit, ergreift er Massnahmen zur Sicherstellung der Zahlungsfähigkeit,
     trifft soweit erforderlich weitere Sanierungsmassnahmen (bzw. beantragt sie der GV, soweit in deren Zuständigkeit), reicht nötigenfalls ein Gesuch um Nachlassstundung ein und handelt
@@ -99,11 +118,19 @@ aussagen:
   quelle: hwp-er-2026__rz-0372-s112
   zitat: Ist das bilanzielle Eigenkapital grösser oder gleich null, aber kleiner als die Bezugsgrösse
 - text: 'Besonderheiten der Berechnung (HWP ER I.5.3.1 Rz 373, S. 113): Direkt gehaltene eigene Kapitalanteile vermindern nur das frei verfügbare Eigenkapital, die Bezugsgrösse bleibt
-    unverändert. Covid-19-Kredite (Art. 24 Covid-19-SBüG, gültig bis 31.12.2032) und Darlehen/Kredite nach Art. 21 HFMV 20 (gültig bis 31.12.2031) gelten für OR 725a und 725b nicht als
-    Fremdkapital. Ein Rangrücktritt beseitigt den Kapitalverlust nicht.'
-  quelle: hwp-er-2026__rz-0373-s113
-  zitat: Für die Berechnung der Deckung von Kapital und Reserven nach Art. 725a Abs. 1 OR und für die Berechnung einer Überschuldung nach Art. 725b OR sind Covid-19-Kredite nicht als
-    Fremdkapital zu berücksichtigen
+    unverändert; ein Rangrücktritt beseitigt den Kapitalverlust nicht («Ein Rangrücktritt beseitigt den Kapitalverlust nicht» ^[hwp-er-2026__rz-0373-s113]). Covid-19-Kredite (Gesetz
+    geht vor): Nach Art. 24 Abs. 1 Covid-19-SBüG werden für OR 725a Abs. 1 und 725b Abs. 1 nur Kredite, die gestützt auf Art. 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital
+    berücksichtigt (Zinssatz nach Art. 4 Abs. 1 lit. a Covid-19-SBüG: 0,0 %; «für den Kreditbetrag, besichert durch eine Solidarbürgschaft nach Artikel 3 Covid-19-SBüV: 0,0 Prozent
+    pro Jahr» ^[covid-sbueg__art-4]). Kredite nach Art. 4 Covid-19-SBüV (Bürgschaftsvertrag, Art. 3 Abs. 1 lit. b: «ab der Unterzeichnung des Bürgschaftsvertrags für einen Kredit nach
+    Artikel 4 Covid-19-SBüV» ^[covid-sbueg__art-3]) und der unverbürgte Teil bleiben Fremdkapital; im Beispiel der Q&A Rechnungslegungsrecht («einen verbürgten COVID-19-Kredit von total
+    CHF 2.5 Mio.» ^[qa-or-rechnungslegung-2026__10-t2]) gilt nur 0.5 Mio. nicht als Fremdkapital («gilt der verbürgte COVID-19-Kredit im Umfang von CHF 0.5 Mio. nicht als Fremdkapital»
+    ^[qa-or-rechnungslegung-2026__10-t3]). Massgebend ist die Kreditvereinbarung (Art.-3-Kredit) bzw. der Bürgschaftsvertrag (Art.-4-Kredit); der Zinssatz 0,0 % ist nur ein Indiz, weil
+    er jährlich angepasst werden kann (Art. 4 Abs. 2: «jährlich per 31. März, erstmals per 31. März 2021, die Zinssätze nach Absatz 1 Buchstaben a und b an die Marktentwicklungen an»
+    ^[covid-sbueg__art-4]). Gilt sinngemäss für alle Rechtsformen mit Anzeigepflicht nach OR 725a/725b (Abs. 2: «Absatz 1 gilt sinngemäss für alle Rechtsformen» ^[covid-sbueg__art-24]);
+    gültig bis 31.12.2032 (Art. 31 Abs. 2: «gilt bis zum 31. Dezember 2032» ^[covid-sbueg__art-31]). Darlehen/Kredite nach Art. 21 HFMV 20 ebenso (HWP ER Rz 373: «Dies gilt auch für
+    Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung 2020 (Art. 21 HFMV 20).» ^[hwp-er-2026__rz-0373-s113]; gültig bis 31.12.2031).'
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 - text: 'Sanierungsmassnahmen bei Kapitalverlust (HWP ER I.5.3.2 Rz 379, S. 114): Die Pflichten nach OR 725a Abs. 1 treffen ausschliesslich den VR; eine Sanierungsversammlung ist nicht
     nötig, wenn keine Massnahmen erforderlich sind oder diese in der Kompetenz des VR liegen. Die Revisionsstelle beurteilt nicht, ob und welche Sanierungsmassnahmen nötig sind, und
     hat bei Kapitalverlust keine Pflicht, nach OR 699 Abs. 1 eine GV einzuberufen.'
@@ -183,7 +210,13 @@ aussagen:
     9 (massgebend) begrenzt die Pflicht (ser-2022__9-t3: «Die diesbezügliche Anzeigepflicht beschränkt sich auf die Benachrichtigung des Richters, wenn dies der Verwaltungsrat trotz
     offensichtlicher Überschuldung unterlässt.»). Nach HWP ER III.4.2.9.1 Rz 422, S. 279 ist dies die einzige direkte gesetzliche Anzeigepflicht der eingeschränkt prüfenden Revisionsstelle;
     Anzeigepflichten bei Gesetzes-, Statuten- oder Reglementsverstössen bestehen nicht (hwp-er-2026__rz-0422-s279-t1: «Im Gegensatz zur ordentlichen Revision hat bei der eingeschränkten
-    Revision die Revisionsstelle lediglich eine einzige direkte gesetzliche Anzeigepflicht»).'
+    Revision die Revisionsstelle lediglich eine einzige direkte gesetzliche Anzeigepflicht»). Vorbehalt Spezialgesetz: Solange eine Solidarbürgschaft nach Covid-19-SBüG läuft (höchstens
+    acht Jahre, bei Verlängerung höchstens zehn Jahre, Art. 3 Abs. 1 und 3: «Eine Solidarbürgschaft dauert höchstens acht Jahre», «jedoch höchstens auf zehn Jahre verlängern» ^[covid-sbueg__art-3]),
+    sind Dividenden, Tantiemen, die Rückerstattung von Kapitaleinlagen sowie die Gewährung von Darlehen und die Rückzahlung von Darlehen von Gesellschaftern oder Nahestehenden ausgeschlossen
+    (Art. 2 Abs. 2 lit. a/b: «Während der Dauer der Solidarbürgschaft ausgeschlossen sind» ^[covid-sbueg__art-2-t1]; Ausnahme: vorbestehende Verpflichtungen gegenüber einer Gruppengesellschaft
+    mit Sitz in der Schweiz). Stellt die Revisionsstelle im Rahmen der eingeschränkten Revision eine Verletzung fest, setzt sie eine angemessene Frist, informiert danach die GV und zuletzt
+    die Bürgschaftsorganisation (Art. 23 Abs. 1: «im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung einer Vorgabe nach Artikel
+    2 Absätze 2–4 fest» ^[covid-sbueg__art-23]).'
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
 - text: 'Erinnerung und ersatzweise Meldung (SER Ziff. 9; HWP ER I.5.7 Rz 439–440, S. 129): Erhält die Revisionsstelle klare und stichhaltige Informationen von kompetenter Stelle über
@@ -210,18 +243,30 @@ aussagen:
   quelle: ser-2022__8-3-2-t1
   zitat: Bleibt der Verwaltungsrat untätig, beachtet die Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR.
 agent:
-- 'Rechnen nie im Kopf: `python3 tools/revision.py kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … --rangruecktritt …` und Ergebnis
-  im Textfeld P1-313 «Beurteilung Eigenkapital in Bezug auf OR 725» dokumentieren. Ergebnis einordnen: Eigenkapital ≥ 0, aber kleiner als die Bezugsgrösse = Kapitalverlust (hwp-er-2026__rz-0372-s112);
-  Eigenkapital < 0 = buchmässige Überschuldung, also jedenfalls begründete Besorgnis (hwp-er-2026__rz-0385-s115).'
-- 'WERKZEUGLÜCKE (getestet): `kapitalverlust` summiert die eingegebenen Reserven ungekappt. Beispiel: AK 100''000, Kapitalreserve 80''000, Gewinnreserve 10''000 ergibt im Werkzeug die
-  Summe 190''000; nach hwp-er-2026__rz-0370-s112 zählen gesetzliche Kapitalreserve und gesetzliche Gewinnreserve i.e.S. zusammen höchstens 50 % (Holding 20 %) des eingetragenen Kapitals,
-  also 150''000. Deshalb gekappte Werte eingeben und die Kappung im Textfeld begründen. Reserven für eigene Kapitalanteile im Konzern und die Aufwertungsreserve zählen voll. An die Wiki-Pflege
-  melden.'
+- 'Rechnen nie im Kopf: `python3 tools/revision.py kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … --rangruecktritt … [--reserve-voll
+  …] [--covid-kredit …] [--holding]` und Ergebnis im Textfeld P1-313 «Beurteilung Eigenkapital in Bezug auf OR 725» dokumentieren. Ergebnis einordnen: Eigenkapital ≥ 0, aber kleiner
+  als die Bezugsgrösse = Kapitalverlust (hwp-er-2026__rz-0372-s112); Eigenkapital < 0 = buchmässige Überschuldung, also jedenfalls begründete Besorgnis (hwp-er-2026__rz-0385-s115).'
+- 'Abstand zur Schwelle mit der Wesentlichkeit aus 3.3 vergleichen (Ableitung des Agenten aus SER 5.2, im Rapport so kennzeichnen): Abstand = EK − Schwelle OR 725a (kein Kapitalverlust)
+  bzw. EK − 0 (Kapitalverlust, EK noch ≥ 0); Werkzeugzeile «Abstand …» übernehmen oder `rechne "<EK> - <Schwelle>"`. Ist der Abstand kleiner als die GW: Pendenz «Wesentlichkeit überprüfen»
+  an den WP («in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein» ^[ser-2022__5-2-t1]). Massstab ist die GW: Nicht korrigierte Fehler
+  unter der GW führen aggregiert in der Regel zu keiner Modifizierung ^[hwp-er-2026__rz-0056-s189], können hier aber das Ergebnis kippen (analog SER 5.2: «Selbst ein geringer Fehler,
+  der den ausgewiesenen Gewinn zu einem Verlust werden lässt, kann wesentlich sein.» ^[ser-2022__5-2-t1]). Alle Differenzen über der NAG, die das EK mindern, laufend mit `rechne` aufsummieren;
+  erreicht die Summe den Abstand, kippt das Ergebnis → sofort im Rapport an den WP. Ist der Faktor in 3.3 erfasst, auch kleinere Abweichungen melden ^[konzept-ki-revisionsagent-2026__c014-1].
+  Weiter: `thema wesentlichkeit`.'
+- 'Reserven im Werkzeug `kapitalverlust`: Das Werkzeug kappt gesetzliche Kapitalreserve (`--kapitalreserve`) + gesetzliche Gewinnreserve i.e.S. (`--gewinnreserve`) selbst auf zusammen
+  höchstens 50 % (mit `--holding` 20 %) des Grundkapitals (Zeile «davon anrechenbar»; ^[hwp-er-2026__rz-0370-s112]). Nicht von Hand vorkappen. In `--kapitalreserve` und `--gewinnreserve`
+  nur gesetzliche Reserven eingeben, keine freiwilligen Gewinnreserven; PS-Kapital zu `--aktienkapital` addieren. Aufwertungsreserve (OR 725c) und gesetzliche Gewinnreserve für eigene
+  Kapitalanteile im Konzern (OR 659b Abs. 2) zählen voll («der volle Betrag der gesetzlichen Reserven für eigene Kapitalanteile im Konzern» ^[hwp-er-2026__rz-0370-s112]; Aufwertung:
+  «dass der Aufwertungsbetrag via Aufwertungsreserve in die Bemessungsgrundlage für den Kapitalverlust einfliesst» ^[hwp-bur-2023__rz-0894-s361-t1]). Diese Reserven nie in `--gewinnreserve`,
+  sondern in `--reserve-voll` eingeben.'
 - 'WERKZEUGGRENZE (getestet): Die Werkzeugmeldung, der Rangrücktritt decke den Fehlbetrag (OR 725b Abs. 4 Ziff. 1), vergleicht nur mit der buchmässigen Überschuldung der Jahresrechnung
   und ist deshalb nur eine Vorindikation auf Basis der Buchwerte. Massgebend ist der geprüfte aktuelle Zwischenabschluss (qa-kapitalverlust-2023__2-2-2-t1: «Massgebend für die Beurteilung,
   ob eine Überschuldung vorliegt, ist der aktuelle Zwischenabschluss.») inkl. Sicherheitspolster, wenn weitere Verluste absehbar sind (hwp-er-2026__rz-0421-s125). Die Würdigung macht
-  der WP. Zusammen mit der Kappungslücke an die Wiki-Pflege melden.'
-- 'Eingaben bereinigen: Covid-19-Kredite und Härtefall-Darlehen aus den Verbindlichkeiten herausnehmen (hwp-er-2026__rz-0373-s113). Stille Reserven nicht berücksichtigen (hwp-er-2026__rz-0369-s112).
+  der WP. An die Wiki-Pflege melden.'
+- 'Eingaben bereinigen: Nur den nach Art. 3 Covid-19-SBüV verbürgten Kreditbetrag (Kreditvereinbarung in M-Files) mit `--covid-kredit` eingeben; `--verbindlichkeiten` bzw. `--eigenkapital`
+  unverändert aus der Bilanz übernehmen, das Werkzeug rechnet den Betrag selbst heraus (nicht zusätzlich von Hand abziehen) ^[covid-sbueg__art-24]. Darlehen/Kredite nach Art. 21 HFMV
+  20 ebenfalls in `--covid-kredit` eingeben (Summe mit `rechne`, im Textfeld aufschlüsseln) ^[hwp-er-2026__rz-0373-s113]. Kredite nach Art. 4 Covid-19-SBüV und unverbürgte Teile bleiben
+  Fremdkapital. Ist der Anteil unklar: Pendenz. Bereinigung im Textfeld P1-313 offenlegen. Stille Reserven nicht berücksichtigen (hwp-er-2026__rz-0369-s112).
   Eigene Kapitalanteile ändern die Bezugsgrösse nicht (qa-kapitalverlust-2023__1-1-t1). Massgebend ist immer der Einzelabschluss, nicht die Konzernrechnung (hwp-er-2026__rz-0358-s110).'
 - 'Indikatoren analytisch erkennen (A1, Kennzahlen revio 1.2): negatives oder stark gesunkenes Eigenkapital, nachhaltige Verluste, Cash Drain, verschlechterte Liquidität, vergrösserter
   Rückstellungs- oder Wertberichtigungsbedarf (hwp-er-2026__rz-0385-s115); wesentliche Betriebsverluste, drohende Zahlungsunfähigkeit, ungünstige Kennzahlen (ser-2022__anh-g-s138-2);
@@ -240,8 +285,11 @@ agent:
 - 'Rangrücktritt ohne ausdrücklichen Einschluss der Zinsen (die Frist zur Anpassung lief bis 31.12.2024 ab, qa-kapitalverlust-2023__5-t1: «Verträge innerhalb von 2 Jahren (also bis 31.12.2024)
   angepasst werden»): genügt OR 725b Abs. 4 Ziff. 1 nicht (or__art-725b-t1: «sofern der Rangrücktritt den geschuldeten Betrag und die Zinsforderungen während der Dauer der Überschuldung
   umfasst»). Als Notiz «Wesentliche Feststellungen» erfassen und sofort an den WP melden (gebotene Eile). Den fehlenden Nachtrag bzw. die neue Vereinbarung zusätzlich als «Pendenz» erfassen.'
-- Darlehenskonten mit Rangrücktritt auf Tilgungen oder Verrechnungen im Geschäftsjahr durchsehen. Eine Tilgung trotz andauernder Überschuldung als Notiz «Wesentliche Feststellungen»
-  erfassen (Hinweis bzw. OR 729c zu erwägen, Rangrücktritt reicht evtl. nicht mehr; hwp-er-2026__rz-0434-s128).
+- 'Darlehenskonten mit Rangrücktritt auf Tilgungen oder Verrechnungen im Geschäftsjahr durchsehen. Eine Tilgung trotz andauernder Überschuldung als Notiz «Wesentliche Feststellungen»
+  erfassen (Hinweis bzw. OR 729c zu erwägen, Rangrücktritt reicht evtl. nicht mehr; hwp-er-2026__rz-0434-s128). Besteht ein Covid-19-Kredit mit laufender Solidarbürgschaft: jede Gewährung
+  von Darlehen, jede Tilgung oder Verrechnung von Darlehen der Gesellschafter oder Nahestehenden und jede Ausschüttung im Geschäftsjahr als Notiz «Wesentliche Feststellungen» erfassen
+  (Covid-19-SBüG Art. 2 Abs. 2 ^[covid-sbueg__art-2-t1]). Ob die Ausnahme für vorbestehende Verpflichtungen gegenüber einer Schweizer Gruppengesellschaft greift, beurteilt der WP. Fristansetzung
+  und Information von GV und Bürgschaftsorganisation (Art. 23 ^[covid-sbueg__art-23]): nur WP.'
 - 'Aufwertung 725c (G2/H3/P1-311/T1): Zulässig nur für Grundstücke und Beteiligungen bei Kapitalverlust oder buchmässiger Überschuldung, höchstens bis zum wirklichen Wert bzw. – falls
   restriktiver – bis zur Behebung des Kapitalverlusts oder der buchmässigen Überschuldung (hwp-bur-2023__rz-0883-s358). Die schriftliche Bestätigung nach OR 725c Abs. 2 ist an den VR
   adressiert (korrigendum-hwp-2026__s016-1). Anhangangaben gemäss hwp-bur-2023__rz-0906-s365 prüfen. Im Textfeld zu P1-311 festhalten: Der revio-Schritt lautet noch «Richtiger Ausweis
@@ -249,6 +297,14 @@ agent:
   Gewinn zugerechnet (Art. 58 Abs. 1 lit. c DBG); Abschreibungen auf aufgewerteten Aktiven werden nur nach Art. 62 Abs. 3 DBG anerkannt; kein Beteiligungsabzug (Art. 70 Abs. 2 lit. c
   DBG) (hwp-bur-2023__rz-0909-s366: «werden auf Bundesebene als nicht der Erfolgsrechnung gutgeschriebene Erträge dem steuerbaren Gewinn»). Kantonale Folgen separat, Fachperson Steuern;
   Steuerrückstellung in S1 prüfen.'
+- 'Steuerfolgen von Sanierungsmassnahmen (ESTV-Steuerpraxis KS 32a, keine handelsrechtliche Bewertungsregel; Würdigung durch die Fachperson Steuern): Ein Forderungsverzicht von Anteilsinhabern
+  über Erfolgsrechnung oder Sanierungskonto wird grundsätzlich wie ein Verzicht Dritter behandelt, also als Ertrag ^[estv-ks-32a-2025__4-1-1-1-t1]. Ausnahme bei Darlehen, die vorher als
+  verdecktes Eigenkapital behandelt oder wegen schlechten Geschäftsgangs gewährt wurden: Der Ertrag bleibt, aber Verlustausbuchungen, Abschreibungen und Rückstellungen zulasten dieses
+  Ertrags gelten als steuerlich nicht erfolgt und können später steuerwirksam nachgeholt werden ^[estv-ks-32a-2025__4-1-1-1-t1]. Direkt ins Eigenkapital gebuchte Verzichte sind gewinnsteuerneutral
+  und gelten als Kapitaleinlagen ^[estv-ks-32a-2025__4-1-1-1-t2]. Bei einer Sanierung sind Vorjahresverluste ohne zeitliche Beschränkung verrechenbar (Art. 67 Abs. 2 DBG); Aufwertung,
+  Rangrücktritt und Kapitalherabsetzung ohne gleichzeitige Erhöhung sind keine steuerlich relevante Sanierung ^[estv-ks-32a-2025__27-t1]. Zuschüsse unterliegen der Emissionsabgabe,
+  vorbehältlich Freibetrag (`wert emissionsabgabe sanierung`) ^[estv-ks-32a-2025__4-2-4-t1]. Agent: den Buchungsweg des Verzichts (Erfolgsrechnung oder direkt Eigenkapital) im Textfeld
+  festhalten; Steuerrückstellung (S1), KER-Ausweis (P1) und Emissionsabgabe als Pendenz an die Fachperson Steuern bzw. den WP; nicht selbst berechnen.'
 - 'Rolle im Opting-out klären und als Pendenz an den WP geben: (a) eingeschränkte Revision im Auftrag nach OR 725a Abs. 2 (Bericht an den VR, Überschrift «zugelassener Revisor», Antrag
   zur Gewinnverwendung entfällt; qa-kapitalverlust-2023__2-t1, qa-kapitalverlust-2023__2-t2) oder (b) Prüfung der Zwischenabschlüsse nach OR 725b Abs. 2 (Anzeigepflichten nach OR 725b
   Abs. 5; or__art-725b-t2, hwp-er-2026__rz-0422-s279-t1). Ob im Fall (a) eine Anzeigepflicht nach OR 729c besteht, ist offen/strittig: Q&A Frage 6 verneint sie (qa-kapitalverlust-2023__1-2-t4),

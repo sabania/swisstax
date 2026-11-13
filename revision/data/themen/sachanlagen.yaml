@@ -21,6 +21,8 @@ stichworte:
 - Abschreibungssätze
 - ESTV-Merkblatt A 1995
 - steuerliche Abschreibungssätze
+- Abschreibungssätze ESTV
+- ESTV Abschreibungssätze
 - Nutzungsdauer
 - linear
 - degressiv
@@ -79,8 +81,8 @@ stichworte:
 - G2
 - I1
 kurz: 'Sachanlagen und immaterielle Werte: aktivieren nach OR 959 Abs. 2, höchstens zu Anschaffungs- oder Herstellungskosten bewerten, planmässig abschreiben, bei Werteinbussen wertberichtigen
-  (OR 960a); zusätzliche Abschreibungen sind als stille Reserven zulässig. Aufwerten dürfen nur Grundstücke und Beteiligungen (OR 725c). ESTV-Sätze sind steuerliche Praxis. SER: Befragungen,
-  Vorjahresvergleich, Abstimmung der Inventarliste (SER Anhang D h) bzw. des Anlagespiegels (G1/G2/I1-301; HWP ER Rz 266).'
+  (OR 960a); zusätzliche Abschreibungen sind als stille Reserven zulässig. Aufwerten dürfen nur Grundstücke und Beteiligungen (OR 725c). ESTV-Sätze (Merkblatt A 1995) sind steuerliche
+  Praxis. SER: Befragungen, Vorjahresvergleich, Abstimmung der Inventarliste (SER Anhang D h) bzw. des Anlagespiegels (G1/G2/I1-301; HWP ER Rz 266).'
 aussagen:
 - text: 'Aktivierungsfähigkeit (OR 959 Abs. 2): Ein Vermögenswert muss aktiviert werden, wenn das Unternehmen aufgrund vergangener Ereignisse darüber verfügen kann, ein Mittelzufluss
     wahrscheinlich ist und sein Wert verlässlich geschätzt werden kann. Andere Vermögenswerte dürfen nicht bilanziert werden.'
@@ -108,7 +110,8 @@ aussagen:
   zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
 - text: 'Aufwertung (OR 725c): Zur Behebung eines Kapitalverlusts (OR 725a) oder einer Überschuldung (OR 725b) dürfen Grundstücke und Beteiligungen, deren wirklicher Wert über die Anschaffungs-
     oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden. Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve
-    auszuweisen (Abs. 1). Die Aufwertung ist nur zulässig, wenn die Revisionsstelle schriftlich bestätigt, dass die gesetzlichen Bestimmungen eingehalten sind (Abs. 2).'
+    auszuweisen (Abs. 1). Die Aufwertung ist nur zulässig, wenn die Revisionsstelle schriftlich bestätigt, dass die gesetzlichen Bestimmungen eingehalten sind (Abs. 2). Die Aufwertungsreserve
+    kann nur durch Umwandlung in Aktien- oder Partizipationskapital sowie durch Wertberichtigung oder Veräusserung der aufgewerteten Aktiven aufgelöst werden (Abs. 3).'
   quelle: or__art-725c
   zitat: Die Aufwertung ist nur zulässig, wenn die Revisionsstelle oder, wenn eine solche fehlt, ein zugelassener Revisor schriftlich bestätigt, dass die gesetzlichen Bestimmungen eingehalten
     sind.
@@ -132,16 +135,21 @@ aussagen:
     verrechnet werden (HWP BuR Rz 329).'
   quelle: hwp-bur-2023__rz-0329-s228-t1
   zitat: Buchgewinne oder -verluste aus der Veräusserung von Anlagevermögen sind in der Erfolgsrechnung zu erfassen.
-- text: 'Steuerliche Praxis der ESTV, nicht Handelsrecht: Abschreibungssätze für geschäftliche Betriebe nach ESTV-Merkblatt A 1995 (Stand 10.10.2023), wiedergegeben im Treuhand-Almanach
-    2026. Das ist eine Sekundärquelle; das Original ist nicht im Wiki, für verbindliche steuerliche Aussagen ist es zu prüfen. Sätze auf dem Buchwert für mobile Sachanlagen: Geschäftsmobiliar
-    und Einrichtungen 25 %, Apparate und Maschinen zur Produktion 30 %, Motorfahrzeuge aller Art 40 %, Büromaschinen 40 %, Datenverarbeitungsanlagen 40 %. Bei Abschreibung auf dem Anschaffungswert
-    sind die Sätze zu halbieren.'
-  quelle: treuhand-almanach-2026__s061-1
-  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
-- text: 'ESTV-Sätze auf dem Buchwert (steuerliche Praxis, Merkblatt A 1995, gleiche Sekundärquelle) für Gebäude, jeweils ohne/mit Anteil Boden: Wohnhäuser 2 %/1,5 %, Geschäftshäuser
-    4 %/3 %, Gastwirtschaft und Hotellerie 6 %/4 %, Fabrikgebäude und Lager 8 %/7 %. Mit Anteil Boden ist die Abschreibung nur bis zum Wert des Landes erlaubt.'
-  quelle: treuhand-almanach-2026__s061-1
-  zitat: Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7% * Abschreibung nur bis zum Wert des Landes erlaubt.
+- text: 'Steuerliche Praxis der ESTV, nicht Handelsrecht (ESTV-Merkblatt A 1995, direkte Bundessteuer): Normalsätze in Prozenten des Buchwerts, u.a. Geschäftsmobiliar, Werkstatt- und
+    Lagereinrichtungen mit Mobiliarcharakter 25 %, Apparate und Maschinen zu Produktionszwecken 30 %, Transportmittel aller Art ohne Motorfahrzeuge, insbesondere Anhänger 30 %, Motorfahrzeuge
+    aller Art 40 % ^[estv-mb-a-1995__s001-2], Büromaschinen 40 %, Datenverarbeitungsanlagen (Hardware und Software) 40 %, immaterielle Werte, die der Erwerbstätigkeit dienen (Patent-,
+    Firmen-, Verlags-, Konzessions-, Lizenz- und andere Nutzungsrechte; Goodwill) 40 %, Werkzeuge, Werkgeschirr, Maschinenwerkzeuge, Geräte u.a. 45 % ^[estv-mb-a-1995__s001-3]. Bei Abschreibung
+    auf dem Anschaffungswert sind die Sätze zu halbieren; das Merkblatt gilt ausschliesslich für Abschreibungen nach OR 960a Abs. 3 ^[estv-mb-a-1995__s001-5]. Vollständige Liste: `zeige
+    estv-mb-a-1995__s001-2` und `zeige estv-mb-a-1995__s001-3`; Einzelwerte: `wert abschreibung`.'
+  quelle: estv-mb-a-1995__s001-2
+  zitat: Motorfahrzeuge aller Art......................................................... 40 %
+- text: 'ESTV-Normalsätze für Gebäude (steuerliche Praxis, Merkblatt A 1995), Buchwert, «auf Gebäuden allein» / «auf Gebäude und Land zusammen»: Wohnhäuser von Immobiliengesellschaften
+    und Personalwohnhäuser 2 % / 1,5 %; Geschäftshäuser, Büro- und Bankgebäude, Warenhäuser, Kinogebäude 4 % / 3 %; Gebäude des Gastwirtschaftsgewerbes und der Hotellerie 6 % / 4 % ^[estv-mb-a-1995__s001-1];
+    Fabrikgebäude, Lagergebäude und gewerbliche Bauten 8 % / 7 % ^[estv-mb-a-1995__s001-2]. Bei gemischter Nutzung sind die Sätze angemessen zu berücksichtigen ^[estv-mb-a-1995__s001-2].
+    Der höhere Satz für Gebäude allein gilt nur, wenn das Gebäude separat aktiviert ist. Der Satz für Gebäude und Land zusammen gilt, wenn beide in einer einzigen Bilanzposition stehen,
+    und dann nur bis auf den Wert des Landes. Auf dem Land werden grundsätzlich keine Abschreibungen gewährt.'
+  quelle: estv-mb-a-1995__s001-5
+  zitat: Der höhere Abschreibungssatz für Gebäude allein kann nur angewendet werden, wenn der restliche Buchwert bzw. die Gestehungskosten der Gebäude separat aktiviert sind.
 - text: 'Leasing beim Leasingnehmer: Die Behandlung von Leasingverträgen verlangt vom bilanzierenden Unternehmen einen Ermessensentscheid. Zulässig sind die formaljuristische Auslegung
     (keine Bilanzierung) und die wirtschaftliche Auslegung (Nutzungsrecht und Leasingverbindlichkeit bilanzieren, vgl. HWP BuR Rz 396 und 399). Der Entscheid fällt je Gruppe gleichartiger
     Verträge, eine Anlehnung an FER 13 oder IFRS 16 ist zulässig. Die gewählte Bilanzierungspraxis ist im Anhang zu erläutern (HWP BuR Rz 397).'
@@ -190,12 +198,14 @@ agent:
   eigenen Schritt zur Abstimmung der Inventarliste; I1-302 ist ein WP-Schritt (siehe Grenzen).'
 - 'G1/G2/I1-201 vorbereiten: Bestände, Zugänge, Abgänge, Abschreibungsaufwand und implizite Abschreibungssätze mit dem Vorjahr vergleichen. Satzsprünge oder einen Methodenwechsel als
   Befragungspunkt zur Stetigkeit erfassen (G1-107, G2-102, I1-102); die Antwort des Kunden auswerten, nicht selbst befragen.'
-- ESTV-Sätze nur als Vergleichsgrösse nennen und immer als «steuerliche Praxis ESTV» bezeichnen. Fundstelle ist die Wiedergabe von Merkblatt A 1995 im Treuhand-Almanach (treuhand-almanach-2026__s061-1),
-  also eine Sekundärquelle; das Original ist nicht im Wiki und für verbindliche steuerliche Aussagen zu prüfen. Die Sätze gelten auf dem Buchwert («Für Abschreibungen auf dem Anschaffungswert
-  sind die genannten Sätze um die Hälfte zu reduzieren.»). Für immaterielle Werte nennt die Tabelle «Immaterielle Werte Lizenzen, Patente, Goodwill 40 %». Handelsrechtlich massgebend
-  ist OR 960a. Höhere Abschreibungen sind als stille Reserven zulässig (OR 960a Abs. 4) und gehören in die Aufstellung der stillen Reserven (G1-321, G2-321, I1-321). KMU wenden oft den
-  maximal möglichen steuerlichen Satz und degressive Methoden an (ef-2026-08-buchungslogik__s002-3). Steuerliche Folgen beurteilt der Agent nicht, er notiert sie höchstens als Punkt
-  für die Schlussbesprechung.
+- 'ESTV-Sätze nur als Vergleichsgrösse nennen und immer als «steuerliche Praxis ESTV, Merkblatt A 1995» bezeichnen (Original im Wiki: estv-mb-a-1995__s001-1 bis estv-mb-a-1995__s001-5;
+  Einzelwerte mit `wert abschreibung`). Es sind Normalsätze in Prozenten des Buchwerts; «Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.»
+  (estv-mb-a-1995__s001-5). Umrechnung nur mit `rechne`. Immaterielle Werte (Patent-, Lizenz- und andere Nutzungsrechte; Goodwill) 40 % (estv-mb-a-1995__s001-3). Handelsrechtlich massgebend
+  ist OR 960a. KMU wenden oft den maximal möglichen steuerlichen Satz und degressive Methoden an (ef-2026-08-buchungslogik__s002-3). Liegt der implizite Satz aus G1/G2/I1-201 über dem
+  Normalsatz, ist das keine Feststellung. Als Befragungspunkt für G1-101, G2-101 und I1-101 erfassen, ob eine kürzere Nutzungsdauer oder stille Reserven (OR 960a Abs. 4) dahinterstehen;
+  stille Reserven mit der Aufstellung G1-321, G2-321, I1-321 abgleichen. Die steuerlichen Sonderregeln des Merkblatts beurteilt der Agent nicht: Ziff. 2 Sonderfälle bis 50 % im ersten
+  und zweiten Jahr (estv-mb-a-1995__s001-3, estv-mb-a-1995__s001-4), Ziff. 3 Nachholung nur nach schlechtem Geschäftsgang (estv-mb-a-1995__s001-4), Ziff. 4 besondere kantonale Verfahren
+  wie die Sofortabschreibung (estv-mb-a-1995__s001-4). Er notiert sie höchstens als Punkt für die Schlussbesprechung.'
 - 'Weniger oder keine Abschreibungen gegenüber dem Vorjahr: Werden Abschreibungen wegen höherer Abschreibungen in Vorperioden unterlassen, ist das eine Auflösung stiller Reserven (hwp-bur-2023__rz-0341-s230).
   Planmässige Abschreibungen mit Verweis auf einen höheren Nutz- oder Verkehrswert zu unterlassen, ist unzulässig, «ausser es wurden vorgängig höhere Abschreibungen im Sinne der Bildung
   von stillen Reserven erfasst» (hwp-bur-2023__rz-0345-s231). In diesem Fall keine Feststellung, sondern Abgleich mit der Aufstellung der stillen Reserven (G1-321, G2-321, I1-321) und
@@ -223,7 +233,8 @@ agent:
 - 'Aufwertung (OR 725c): Eine Aufwertungsreserve unter der gesetzlichen Gewinnreserve oder einen Hinweis im Anhang erkennen und als Pendenz oder Punkt für die Schlussbesprechung melden.
   Aufwerten dürfen nur Grundstücke und Beteiligungen: «Nicht möglich ist eine Aufwertung damit z.B. bei Vorräten, mobilen Sachanlagen oder immateriellen Werten.» (hwp-bur-2023__rz-0886-s359).
   Angaben über Gegenstand und Betrag im Anhang in T1-319 vorbereiten (ser-2022__anh-d-s098-3), den Ausweis der Aufwertungsreserve in P1-311. Die schriftliche Bestätigung nach OR 725c
-  Abs. 2 erteilt allein der WP.'
+  Abs. 2 erteilt allein der WP. Steuerlich sind Abschreibungen auf aufgewerteten Aktiven nur zulässig, wenn die Aufwertung handelsrechtlich zulässig war und die Verluste im Zeitpunkt
+  der Abschreibung verrechenbar gewesen wären (dbg__art-62 Abs. 3; estv-mb-a-1995__s001-5); nur als Punkt für die Schlussbesprechung.'
 - 'Immaterielle Werte: Prüfen, ob sie im Anlagevermögen gesondert ausgewiesen sind (hwp-bur-2023__rz-0432-s247-t1). Die Aktivierung selbst erarbeiteter Werte als Befragungspunkt erfassen
   (I1-101, I1-103); ein Verzicht auf die Aktivierung ist vertretbar (hwp-bur-2023__rz-0413-s243). Die Beurteilung der Aktivierungsfähigkeit (I1-402) nur auf Anweisung. Originärer Goodwill
   ist nicht bilanzierungsfähig (hwp-bur-2023__rz-0427-s246). Prüfen, ob derivativer Goodwill aus einem Asset Deal planmässig abgeschrieben wird: «Ein solcher Goodwill ist innert einer

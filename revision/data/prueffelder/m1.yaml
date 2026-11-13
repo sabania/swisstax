@@ -149,7 +149,7 @@ unterlagen:
   quelle: ser-2022__anh-d-s086-1
   zitat: Abstimmung des Gesamtbetrags mit dem Einzelnachweis
 - dokument: 'Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung'
-  zweck: Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-406), BVG-Ausstände (M1-408)
+  zweck: Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-301, Detail M1-406), BVG-Ausstände (M1-408)
   quelle: hwp-bur-2023__rz-0158-s192
   zitat: Der Bestand wird zweckmässigerweise mit Bestandsmeldungen oder Abrechnungen
 - dokument: Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal und Personalliste (Bruttolöhne)
@@ -212,6 +212,13 @@ bewertung:
 - regel: Verbindlichkeiten zum Nennwert
   quelle: hwp-bur-2023__rz-0159-s192
   zitat: Verbindlichkeiten müssen zum Nennwert eingesetzt werden (Art. 960e OR).
+- regel: Saldierung von Forderungen und Verbindlichkeiten nur bei gegenseitiger Verrechenbarkeit
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig, es sei denn, die Posten seien gegenseitig verrechenbar
+- regel: Verrechnung geboten, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird (z.B. Unterkonten derselben Ausgleichskasse); auszugliedern sind nur Netto-Sollsaldi
+    je Gegenpartei
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: Nicht nur zulässig, sondern geboten ist eine Verrechnung dann, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird.
 - regel: Erhaltene Anzahlungen zum Nennwert
   quelle: hwp-bur-2023__rz-0457-s252
   zitat: Passive Anzahlungen werden – wie die Verbindlichkeiten im Allgemeinen – zu ihrem Nennwert bilanziert
@@ -227,13 +234,6 @@ bewertung:
 - regel: 'Nettodarstellung je Projekt: Überfinanzierung (Anzahlungen über Projektkosten) unter übrigen Verbindlichkeiten'
   quelle: hwp-bur-2023__rz-0254-s214
   zitat: im umgekehrten Fall einer Überfinanzierung wird der Buchwert unter den übrigen Verbindlichkeiten bilanziert
-- regel: Saldierung von Forderungen und Verbindlichkeiten nur bei gegenseitiger Verrechenbarkeit
-  quelle: hwp-bur-2023__rz-0163-s193
-  zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig, es sei denn, die Posten seien gegenseitig verrechenbar
-- regel: Verrechnung geboten, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird (z.B. Unterkonten derselben Ausgleichskasse); auszugliedern sind nur Netto-Sollsaldi
-    je Gegenpartei
-  quelle: hwp-bur-2023__rz-0163-s193
-  zitat: Nicht nur zulässig, sondern geboten ist eine Verrechnung dann, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird.
 - regel: 'MWST: Saldo Umsatzsteuer abzüglich Vorsteuer als eine Forderung bzw. Verbindlichkeit (Verrechnung geboten)'
   quelle: hwp-bur-2023__rz-0163-s193
   zitat: aus der Mehrwertsteuerpflicht eine Forderung oder Verbindlichkeit, die dem Saldo
@@ -271,10 +271,13 @@ bewertung:
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
 fallstricke:
-- text: 'Drittbestätigungen (AHV, SUVA, BVG/PK) und Kreditorenbestätigungen holt die Revisionsstelle in der eingeschränkten Revision nicht selbst ein (SER Anh. D q) und k): nicht Bestandteil);
-    Nachweis über intern vorhandene Abrechnungen.'
+- text: 'Drittbestätigungen (AHV, SUVA, BVG/PK) holt die Revisionsstelle in der eingeschränkten Revision nicht selbst ein (SER Anh. D q: nicht Bestandteil); Nachweis über intern vorhandene
+    Abrechnungen.'
   quelle: ser-2022__anh-d-s093-2
   zitat: Einholen von Drittbestätigungen wie AHV, SUVA, BVG/PK usw.
+- text: 'Kreditorenbestätigungen holt die Revisionsstelle in der eingeschränkten Revision nicht ein (SER Anh. D k: nicht Bestandteil); Nachweis über intern vorhandene Abrechnungen.'
+  quelle: ser-2022__anh-d-s086-2
+  zitat: Einholen von Kreditorenbestätigungen
 - text: Vom Unternehmen selbst eingeholte Bestätigungen (z.B. Kontoauszug Pensionskasse, Richtigbefundsanzeige) dürfen als Nachweis verwendet werden.
   quelle: hwp-er-2026__rz-0137-s203
   zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
@@ -305,11 +308,12 @@ fallstricke:
     Rückerstattung nach Art. 678 OR, allenfalls Hinweis im Bericht; Entscheid ausschliesslich beim WP, kein Kundenkontakt durch den Agenten.'
   quelle: hwp-er-2026__rz-0164-s212-t1
   zitat: Wenn der Abschlussprüfer eine offensichtliche und wesentliche verdeckte Gewinnausschüttung feststellt, kann er wie folgt vorgehen
-- text: Agent befragt nicht selbst (1xx nur über schriftliche Antworten, sonst Pendenz); WP-Schritt M1-302 nur vorbereiten, vorbehältlich Entscheid consis; 4xx-Schritte nur auf Anweisung
-    des Wirtschaftsprüfers.
+- text: Agent befragt nicht selbst (1xx nur über schriftliche Antworten, sonst Pendenz); WP-Schritt M1-302 nur auf ausdrückliche Anweisung des WP; 4xx-Schritte nur auf Anweisung des
+    Wirtschaftsprüfers.
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
-- text: Ob der Agent WP-Schritte (hier M1-302) vorbereiten darf, ist ein offener Entscheid von consis; bis zum Entscheid nur vorbereiten, Beurteilung beim WP.
+- text: Ob der Agent WP-Schritte (hier M1-302) vorbereiten darf, ist ein offener Entscheid von consis; bis zum Entscheid ohne ausdrückliche Anweisung kein Eintrag im Textfeld (nur Notiz);
+    Beurteilung beim WP.
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
 - text: Fragen an den Kunden (fragen_kunde, fehlende Unterlagen) nur als Pendenz erfassen; der Agent versendet nichts an Kunden.
@@ -348,24 +352,24 @@ fragen_kunde:
   zweck: M1-402 bis M1-405 Anzahlungen
 - frage: Weshalb weisen einzelne Abrechnungskonten (Sozialversicherungen, Quellensteuer) Sollsaldi auf (Vorauszahlung, Rückforderung, Fehlbuchung)? Rechnen Sie mit derselben Gegenpartei
     über mehrere Konten nur über einen Saldo ab (z.B. Unterkonten derselben Ausgleichskasse, UVG/UVGZ oder KTG beim selben Versicherer)?
-  zweck: M1-406 Ausgliedern von Sollsaldi bzw. gebotene Verrechnung je Gegenpartei
+  zweck: M1-301 (Detail M1-406) Ausgliedern von Sollsaldi bzw. gebotene Verrechnung je Gegenpartei
 - frage: 'Sind alle BVG-Beiträge des Geschäftsjahres bezahlt bzw. spätestens Ende des ersten Monats nach dem Kalender- bzw. Versicherungsjahr überwiesen worden (bei Versicherungsjahr
     = Kalenderjahr: 31.1. des Folgejahres)? Bestehen per 31.12. Beitragsausstände, Zahlungsvereinbarungen oder Arbeitgeberbeitragsreserven?'
   zweck: M1-408 vollständige Passivierung der Schuld gegenüber der VE, M1-320 Anhang, M1-321 AGBR
 - frage: Haben Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) oder Kontrollen der Quellensteuer stattgefunden, und sind Nachforderungen hängig?
   zweck: M1-103 Vollständigkeit, M1-302 Nachweis
 - frage: Enthält die Quellensteuer-Abrechnung Dezember Korrekturen, Nachbelastungen oder Tarifwechsel, die hohe Abzüge im Verhältnis zum Bruttolohn erklären?
-  zweck: M1-201/M1-302e Plausibilisierung QST-Abzug je Person
+  zweck: M1-201 Plausibilisierung QST-Abzug je Person
 - frage: Werden Kontokorrente von Aktionären, Organen oder Konzerngesellschaften verzinst, und unter welcher Bilanzposition werden sie ausgewiesen?
   zweck: M1-301/M1-407 Klassierung (verzinsliche Verbindlichkeiten, Prüffeld L1)
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
   bezug: Konten der Gruppe Übrige kurzfristige Verbindlichkeiten (1175p, 2010, 2209, 2270–2274, 2030, 2200, 2279) mit Vorjahr – M1-201, M1-301; Sollsaldi 2271 UVG −40'000, 2272 UVGZ
-    −3'000, 2273 KTG −30'000, 2274 BVG −400 (M1-406, je Gegenpartei netto beurteilen); 2010 Kreditoren (interim) Klassierung prüfen (LuL bzw. passive Rechnungsabgrenzung, Prüffelder
-    K1/M3) – M1-301 Fehlklassierung; Aufwandkonten 5700–5740 (Kennzahl M1-201)
+    −3'000, 2273 KTG −30'000, 2274 BVG −400 (M1-301, Detail M1-406; je Gegenpartei netto beurteilen); 2010 Kreditoren (interim) Klassierung prüfen (LuL bzw. passive Rechnungsabgrenzung,
+    Prüffelder K1/M3) – M1-301 Fehlklassierung; Aufwandkonten 5700–5740 (Kennzahl M1-201)
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
   bezug: Kontoblätter 1175P, 2010, 2209, 2270–2274, 2030, 2200, 2279 – M1-401 (Buchungsdurchsicht, u.a. AB-39 Ausbuchung Saldo AHV 85'000 per 31.12. gegen 5700), M1-402/M1-403 (Konto
-    2030), M1-406 (Sollsaldi)
+    2030), M1-301/M1-406 (Sollsaldi)
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: Bilanzausweis der Position (Sollsaldi innerhalb der Passivposition mit Minus ausgewiesen) und Anhang (Ziff. 2 nahestehende Parteien, keine Angabe Vorsorgeverbindlichkeiten),
     Aufwand BVG (Konto 5720) – M1-301, M1-304, M1-320, M1-406, M1-408
@@ -381,7 +385,7 @@ testakte_2025:
   bezug: Zahllast Q4 (Konto 1175p) – Bestandsabstimmung M1-301; materielle Prüfung in M2
 - datei: L_Personal/Quellensteuer_Dezember_2025.md
   bezug: 'QST-Abrechnung Dezember (Konto 2279) – M1-301, M1-302e; QST-Abzug total 20''000 auf Bruttolohn 37''308.34 (rund 54 %) auffällig: je Person plausibilisieren, Ausreisser als
-    Pendenz bzw. Notiz an den WP (M1-201)'
+    Pendenz und Hinweis im Rapport (M1-201)'
 - datei: L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md
   bezug: Gemeldete AHV-Löhne – Plausibilisierung Beiträge und Schlussabrechnung (M1-201, M1-302b, M1-401)
 - datei: L_Personal/Personalliste_Loehne_2025.md
@@ -416,8 +420,8 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: M1-102
-  vorgehen: Veränderung je Konto gegenüber Vorjahr und Erwartung (Lohnsumme, Projektvolumen, Abrechnungsrhythmus) berechnen. Wesentliche Abweichungen als schriftliche Frage an die Geschäftsleitung
-    (Pendenz) formulieren bzw. vorliegende Antworten kritisch auf Plausibilität würdigen und mit Konto und Betrag im Textfeld dokumentieren.
+  vorgehen: 'Erst nach M1-201 bearbeiten: Veränderung je Konto gegenüber Vorjahr und Erwartung (Lohnsumme, Projektvolumen, Abrechnungsrhythmus) berechnen. Wesentliche Abweichungen als
+    schriftliche Frage an die Geschäftsleitung (Pendenz) formulieren bzw. vorliegende Antworten kritisch auf Plausibilität würdigen und mit Konto und Betrag im Textfeld dokumentieren.'
   nachweise:
   - Saldoliste mit Vorjahr
   - Antwort Geschäftsleitung
@@ -453,20 +457,24 @@ schritte:
   - quelle: ser-2022__anh-d-s093-1
     zitat: Einsichtnahme in Berichte von anderen Prüfern (AHV, SUVA, MWST usw.)
 - id: M1-201
-  vorgehen: 'Konten mit Vorjahr vergleichen: neue/weggefallene Konten, Vorzeichenwechsel, Anzahlungen zum Auftragsbestand. Bestand mit Erwartung vergleichen (Saldo Ausgleichskasse aus
-    Lohnmeldung, Sätzen gemäss Abrechnung und Akonto). Kennzahl Sozialversicherungsaufwand/AHV-Lohnsumme mit Vorjahr (nicht den Stichtagssaldo). QST-Abzug je Person zum Bruttolohn plausibilisieren.
+  vorgehen: 'Konten mit Vorjahr vergleichen: neue/weggefallene Konten, Vorzeichenwechsel, Anzahlungen zum Auftragsbestand. Bestand mit Erwartung vergleichen (Saldo Ausgleichskasse =
+    Lohn + Bonus gemäss Lohnjournal × Satz gemäss Schlussabrechnung − Akonto). Kennzahl SV-Aufwand/(Lohn + Bonus) aus R1-201 übernehmen. QST-Abzug je Person zum Bruttolohn plausibilisieren.
     Auffälliges an M1-102, Ergebnis ins Textfeld.'
   nachweise:
   - Saldoliste 31.12./Vorjahr
   - Vorjahresakte
   - AHV-Lohnmeldung (Lohnsumme)
+  - Lohnjournal (Lohn + Bonus)
   - Schlussabrechnung Ausgleichskasse (Sätze, Akonto)
   - Projektliste
   - QST-Abrechnung, Personalliste
-  rechnen: Veränderung je Konto = Saldo 31.12. – Saldo Vorjahr; Summe Konten = Bilanzposition; Kennzahl Sozialversicherungsaufwand / AHV-Lohnsumme (Vorjahresvergleich); erwarteter Saldo
-    Ausgleichskasse = Beiträge gemäss Lohnmeldung × Beitragssätze gemäss Abrechnung − geleistete Akonto; QST-Quote je Person = QST-Abzug / Bruttolohn
-  feststellung_wenn: Wesentliche unerklärte Veränderung, Saldo weicht wesentlich von der Erwartung ab, erwartete Verbindlichkeit fehlt oder QST-Quote auffällig (Pendenz bzw. Notiz an
-    den WP).
+  rechnen: 'Veränderung je Konto = Saldo 31.12. – Saldo Vorjahr; Summe Konten = Bilanzposition; Satz_AK = Beiträge total gemäss Schlussabrechnung / gemeldete AHV-Lohnsumme; erwarteter
+    Saldo AK = (Lohn + Bonus gemäss Lohnjournal) × Satz_AK − Akonto gemäss Schlussabrechnung; Differenz zum Kontosaldo = möglicherweise nicht abgegrenzte Beiträge. Weichen die gebuchten
+    Akonto von der Abrechnung ab → Pendenz (M1-301). QST-Quote je Person = QST-Abzug / Bruttolohn × 100. Beispiel: `rechne "Satz = 150''000 / 1''200''000 * 100; Erwartung = 1''270''000
+    * 150''000 / 1''200''000 - 140''000"`'
+  feststellung_wenn: Wesentliche unerklärte Veränderung, Saldo weicht wesentlich von der Erwartung ab oder erwartete Verbindlichkeit fehlt → Pendenz bzw. Hinweis im Rapport. QST-Quote
+    einer Person über der maximalen Grenzsteuerbelastung des Wohnkantons 2025 (Treuhand-Almanach Ziff. 10.1, S. 52, ohne Kirchensteuer; z.B. SG höchstens 32,7 %) → Pendenz (Korrektur,
+    Nachbelastung, Tarif erfragen) und Hinweis im Rapport; der Grenzsteuersatz ist nur ein Richtwert (Überschreitung = Frage, kein Beweis).
   fundstellen:
   - quelle: ser-2022__anh-d-s086-1
     zitat: Vergleich des Bestands der Verbindlichkeiten mit dem Vorjahr
@@ -476,17 +484,32 @@ schritte:
     zitat: Vergleich der Relation zwischen Salären und Sozialleistungen mit dem Vorjahr
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: wesentliche Bilanzpositionen in der Regel nicht nur mit analytischen Prüfungshandlungen zu prüfen
+  - quelle: treuhand-almanach-2026__s052-1
+    zitat: Die nachfolgenden Berechnungen stellen die maximale Steuerbelastung (Grenzsteuersatz) in % des steuerbaren Einkommens ordentlich veranlagter natürlicher Personen, inklusive
+      Bundessteuer
+  - quelle: treuhand-almanach-2026__s052-1
+    zitat: jedoch ohne Kirchen-, Vermögen-, Kopf-, Personal-, Feuerwehrsteuer
+  - quelle: treuhand-almanach-2026__s052-1
+    zitat: für die Steuerperiode 2025
+  - quelle: treuhand-almanach-2026__s052-2
+    zitat: SG 32,2 (verschiedene) 32,7
 - id: M1-301
   vorgehen: 'Einzelnachweise je Konto beschaffen (Abrechnungen Sozialversicherungen, QST, MWST Q4, Projektliste Anzahlungen, Lohnsammelkonto mit Lohnjournal Dezember und Auszahlungen
-    Januar) und mit Hauptbuch und Bilanz abstimmen. Klassierung prüfen: verzinsliche Schulden (L1), LuL bzw. Interimskreditoren (K1), Abgrenzungen (M3) gehören nicht in M1. Differenzen
-    mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz.'
+    Januar) und mit Hauptbuch und Bilanz abstimmen. Klassierung prüfen: verzinsliche Schulden (L1), LuL bzw. Interimskreditoren (K1), Abgrenzungen (M3) gehören nicht in M1. Vorzeichen
+    je Konto prüfen: Sollsaldi (negativer Saldo auf Passivkonto) je Gegenpartei netto summieren (Saldoabrechnung derselben Gegenpartei: Verrechnung geboten). Netto-Sollsaldi gehören
+    zu den übrigen kurzfristigen Forderungen (Verrechnungsverbot). Bestand bzw. Rückforderbarkeit mit Schlussabrechnung/Kontoauszug belegen, sonst Pendenz (nicht belegter Teil = möglicher
+    Aufwand). Feststellung mit Umgliederungsvorschlag ohne Buchung; Detail M1-406 nur auf Anweisung. QST: Total der Dezember-Abrechnung mit der Dezember-Gutschrift (Abzüge) auf dem Kontoblatt
+    QST vergleichen; Saldo aus EB + Abzüge − Zahlungen herleiten. Differenzen mit Konto und Betrag dokumentieren, fehlende Nachweise als Pendenz.'
   nachweise:
   - Einzelnachweise/Abrechnungen je Konto
   - Lohnjournal Dezember, Auszahlungsbelege Januar
   - Saldoliste/Hauptbuch
   - Bilanz
-  rechnen: Summe Einzelnachweise je Konto = Saldo Konto; Summe Konten = Bilanzposition Übrige kurzfristige Verbindlichkeiten
-  feststellung_wenn: Differenz zwischen Einzelnachweis und Saldo über Toleranz, Saldo ohne Nachweis oder Fehlklassierung (verzinsliche, langfristige oder LuL-Schuld).
+  - Kontoblätter (Sollsaldi, QST-Abzüge Dezember)
+  rechnen: 'Summe Einzelnachweise je Konto = Saldo Konto; Summe Konten = Bilanzposition Übrige kurzfristige Verbindlichkeiten; Umgliederung = Σ Netto-Sollsaldi je Gegenpartei (`rechne
+    "Umgliederung = 12''000 + 800"`); QST: Abzüge Dezember gemäss Kontoblatt = Total QST-Abrechnung Dezember; Saldo QST = EB + Σ Gutschriften (Abzüge) − Σ Belastungen (Zahlungen)'
+  feststellung_wenn: Differenz zwischen Einzelnachweis und Saldo über Toleranz, Saldo ohne Nachweis, Fehlklassierung (verzinsliche, langfristige oder LuL-Schuld), Netto-Sollsaldo einer
+    Gegenpartei innerhalb der Passivposition (mit Habensaldi anderer Gegenparteien verrechnet) oder QST-Abzüge Dezember auf dem Kontoblatt weichen vom Total der Dezember-Abrechnung ab.
   fundstellen:
   - quelle: ser-2022__anh-d-s086-1
     zitat: Abstimmung des Gesamtbetrags mit dem Einzelnachweis
@@ -498,10 +521,19 @@ schritte:
     zitat: nicht verzinsliche Verbindlichkeiten, die nicht aus Lieferungen und Leistungen stammen
   - quelle: hwp-bur-2023__rz-0158-s192
     zitat: beispielsweise Zahlungen nach dem Bilanzstichtag
+  - quelle: or__art-958c
+    zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+  - quelle: hwp-bur-2023__rz-0163-s193
+    zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig, es sei denn, die Posten seien gegenseitig verrechenbar
+  - quelle: hwp-bur-2023__rz-0163-s193
+    zitat: Nicht nur zulässig, sondern geboten ist eine Verrechnung dann, wenn mit der Gegenpartei nur über eine Saldogrösse abgerechnet wird.
+  - quelle: hwp-bur-2023__rz-0158-s192
+    zitat: Der Bestand wird zweckmässigerweise mit Bestandsmeldungen oder Abrechnungen
 - id: M1-302
-  vorgehen: 'WP-Schritt, vorbehältlich Entscheid consis nur vorbereiten: Nachweise abgleichen: a) vom Kunden selbst eingeholte Bestätigungen (Kreditoren-/Drittbestätigungen holt die
-    Revisionsstelle nicht ein: SER Anh. D, nicht Bestandteil), b) Schlussabrechnungen AHV/UVG/KTG/BVG, c) Verträge, Zinsabrechnungen, d) Vorauszahlungen: Aufträge, Fakturen neue Rechnung,
-    Zahlungen, e) QST, Lohnjournal; QST-Abzug je Person plausibilisieren. Lücken als Pendenz.'
+  vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld. Punkte für den WP (z.B. Ergebnisse aus M1-301) als Notiz «Schlussbesprechung» bzw. «Pendenz»; im
+    Rapport Status «nicht bearbeitet – WP-Schritt». Mit Anweisung (Textfeld als «Vorbereitung für WP» kennzeichnen): a) vom Unternehmen selbst eingeholte Bestätigungen (Kreditoren- und
+    Drittbestätigungen holt die Revisionsstelle nicht ein: SER Anh. D k und q, nicht Bestandteil), b) Schlussabrechnungen AHV/UVG/KTG/BVG, c) Verträge, Zinsabrechnungen, d) Vorauszahlungen:
+    Aufträge, Fakturen neue Rechnung, Zahlungen, e) QST, Lohnjournal. Lücken als Pendenz.'
   nachweise:
   - Saldobestätigungen (vom Kunden eingeholt)
   - Abrechnungen Sozialversicherungen
@@ -521,6 +553,12 @@ schritte:
     zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen
   - quelle: konzept-ki-revisionsagent-2026__c015-2
     zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: ser-2022__anh-d-s086-2
+    zitat: Einholen von Kreditorenbestätigungen
+  - quelle: ser-2022__anh-d-s093-2
+    zitat: Einholen von Drittbestätigungen wie AHV, SUVA, BVG/PK usw.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: M1-303
   vorgehen: Fremdwährungssalden der Position identifizieren (Konto- bzw. Gläubigerwährung). Angewandte Umrechnungskurse mit den Jahresendkursen gemäss Bankunterlagen vergleichen und
     Umrechnung nachrechnen. Ohne Fremdwährungspositionen im Textfeld «nicht anwendbar» mit Begründung vermerken.
@@ -719,7 +757,7 @@ schritte:
 - id: M1-407
   vorgehen: 'Nur auf Anweisung des WP, koordiniert mit L1/N1/SCH4: Verzinste Kontokorrente gehören zu kurzfristigen verzinslichen Verbindlichkeiten; Ausweis in M1 ist Fehlklassierung
     (Feststellung in M1-301). KK Nahestehender/Konzern mit Vertrag und Zinsabrechnung abgleichen, Zins nachrechnen, Satz mit Drittvergleich bzw. ESTV-Rundschreiben des Geschäftsjahres
-    vergleichen; fehlen die ESTV-Sätze 2025, im Textfeld vermerken.'
+    (CHF bzw. Fremdwährung; die Fassungen 2026 gelten erst ab 1.1.2026) vergleichen; fehlen die ESTV-Sätze 2025, im Textfeld vermerken.'
   nachweise:
   - KK-Verträge/Vereinbarungen
   - Zinsabrechnungen
@@ -740,6 +778,10 @@ schritte:
     zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
   - quelle: estv-zinsen-2026__s002-1
     zitat: Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+  - quelle: vstv__art-20
+    zitat: jede geldwerte Leistung der Gesellschaft oder Genossenschaft an die Inhaber gesellschaftlicher Beteiligungsrechte oder an ihnen nahestehende Dritte
+  - quelle: estv-rs-2-219-2026__s001-1
+    zitat: Steuerlich anerkannte Zinssätze 2026 für Vorschüsse oder Darlehen in
 - id: M1-408
   vorgehen: 'Nur auf Anweisung des WP: Kontoauszug/Beitragsrechnung der Vorsorgeeinrichtung per 31.12. mit BVG-Konto abstimmen; Schuld gegenüber der VE vollständig passiviert und im
     Anhang (Art. 959c Abs. 2 Ziff. 7 OR) angegeben? Einhaltung von Art. 331 Abs. 3 OR (Beitragshöhe, Frist) ist weitergehend (SER Anh. D: nicht Bestandteil): nur auf ausdrückliche Anweisung;

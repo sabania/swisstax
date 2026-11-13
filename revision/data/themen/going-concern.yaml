@@ -5,7 +5,7 @@ status: agent-geprueft
 nachpruefung:
   urteil: korrigieren
   befunde: 13
-  korrigiert: false
+  korrigiert: true
 stichworte:
 - Going Concern
 - Fortführung der Unternehmenstätigkeit
@@ -47,9 +47,11 @@ stichworte:
 - revio 6.3
 - A1-205
 - T1-318
-kurz: Die Rechnungslegung beruht auf der Fortführungsannahme (OR 958a Abs. 1); die Unternehmensleitung schätzt die Fortführungsfähigkeit für mindestens zwölf Monate ab Bilanzstichtag
+kurz: 'Die Rechnungslegung beruht auf der Fortführungsannahme (OR 958a Abs. 1); die Unternehmensleitung schätzt die Fortführungsfähigkeit für mindestens zwölf Monate ab Bilanzstichtag
   ein. Die Revisionsstelle beurteilt in Planung und Abschluss, ob die Annahme vertretbar ist (SER Anhang G, HWP ER III.2.4.3). Ist die Fortführung nicht gegeben, gelten Veräusserungswerte;
-  wesentliche Unsicherheiten gehören in den Anhang und führen zu Zusatz, Einschränkung, verneinender Aussage oder Unmöglichkeit.
+  wesentliche Unsicherheiten gehören in den Anhang. Berichtsfolgen (Vorschlag Agent, Entscheid WP): Unsicherheit im Anhang angemessen offengelegt → Zusatz, Prüfungsaussage nicht modifiziert;
+  Anhangangabe ungenügend → in der Regel eingeschränkt; Anhangangabe fehlt → in der Regel verneinend (SER lässt in beiden Fällen eingeschränkt oder verneinend zu); Fortführung zu verneinen,
+  Jahresrechnung aber zu Fortführungswerten → verneinend; Einschätzung verweigert oder Zeitraum unter zwölf Monaten → eingeschränkt oder Unmöglichkeit.'
 aussagen:
 - text: 'Grundsatz (Art. 958a Abs. 1 OR): Die Rechnungslegung beruht auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern).'
   quelle: or__art-958a
@@ -72,9 +74,10 @@ aussagen:
   zitat: negatives Nettoumlaufvermögen, drohende Zahlungsunfähigkeit, Kapitalverlust oder Überschuldung
 - text: 'Weitere Indikatoren (SER Anhang G):
 
-    - Finanziell: Lieferanten ändern ihre Zahlungsbedingungen; Covenants werden verletzt.
+    - Finanziell: Lieferanten ändern ihre Zahlungsbedingungen; Covenants werden verletzt; Schwierigkeiten, Finanzmittel für wichtige Produktentwicklungen oder andere Investitionen zu
+    beschaffen.
 
-    - Betrieblich: Schlüsselpersonen gehen ohne adäquaten Ersatz; ein Absatzmarkt, ein wichtiger Abnehmer oder ein Lizenznehmer geht verloren; Rohstoffengpässe.
+    - Betrieblich: Schlüsselpersonen gehen ohne adäquaten Ersatz; ein Absatzmarkt, ein wichtiger Abnehmer oder ein Lizenznehmer geht verloren; Rohstoffengpässe; technische Fehler.
 
     - Allgemein: Verstösse gegen Eigenkapitalvorschriften; hängige Verfahren mit möglicherweise nicht erfüllbaren Ansprüchen; nachteilige Änderungen des rechtlichen Umfelds.'
   quelle: ser-2022__anh-g-s139-1
@@ -84,7 +87,8 @@ aussagen:
   quelle: ser-2022__anh-g-s139-2
   zitat: Der Abschlussprüfer muss sich im Rahmen der Prüfungsplanung sowie am Ende der Revision (Beurteilung der Jahresrechnung als Ganzen) überlegen
 - text: 'Beurteilungszeitraum (HWP ER Rz 194): Der Prüfer legt denselben Zeitraum zugrunde wie die Unternehmensleitung. Ist er kürzer als zwölf Monate ab Bilanzstichtag, verlangt der
-    Prüfer eine Ausdehnung. Für Ereignisse nach diesem Zeitraum ist nur eine Befragung der Unternehmensleitung vorgesehen.'
+    Prüfer eine Ausdehnung. Für Ereignisse nach diesem Zeitraum ist der Prüfer zu keinen anderen Prüfungshandlungen als zur Befragung der Unternehmensleitung verpflichtet (SER Anhang
+    G, ser-2022__anh-g-s140-1).'
   quelle: hwp-er-2026__rz-0194-s225
   zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
 - text: 'Nachweis (SER Anhang G Ziff. 2): Fehlt eine Einschätzung, bespricht der Prüfer mit der Unternehmensleitung die Gründe für die Fortführungsannahme. Ohne Zweifel genügt die Erklärung
@@ -130,7 +134,9 @@ aussagen:
   quelle: hwp-bur-2023__rz-0975-s383
   zitat: Dieser Veräusserungswert kann stark vom bisherigen Buchwert abweichen.
 - text: 'Zahlungsunfähigkeit (HWP ER Rz 364): Bei Zahlungsunfähigkeit ist die Fortführungsfähigkeit nach Art. 958a OR nicht mehr gegeben. Die Umstellung von Fortführungs- auf Veräusserungswerte
-    begründet dann oft eine Besorgnis der Überschuldung oder führt zu einer ausgewiesenen Überschuldung (Schnittstelle zu Art. 725–725b OR).'
+    begründet dann oft eine Besorgnis der Überschuldung oder führt zu einer ausgewiesenen Überschuldung (Schnittstelle zu Art. 725–725b OR). Für die Revisionsstelle bestehen weder bei
+    drohender noch bei tatsächlicher Zahlungsunfähigkeit direkte Handlungspflichten (SER Anhang G Ziff. 1, ser-2022__anh-g-s138-1). Ein bei der Prüfung festgestellter Verstoss des VR
+    gegen seine Handlungspflichten nach Art. 725 OR ist aber im Bericht zuhanden der nächsten ordentlichen GV anzuzeigen (hwp-er-2026__rz-0364-s111).'
   quelle: hwp-er-2026__rz-0364-s111
   zitat: Die Zahlungsunfähigkeit führt dazu, dass die Fortführungsfähigkeit nach Art. 958a OR nicht mehr gegeben ist
 - text: 'Offenlegung (HWP ER Rz 199): Bestehen erhebliche Zweifel an der Fortführungsfähigkeit, müssen sie in der Jahresrechnung klar offengelegt werden. Das geschieht in aller Regel
@@ -138,8 +144,11 @@ aussagen:
   quelle: hwp-er-2026__rz-0199-s226
   zitat: Eine solche Offenlegung erfolgt in aller Regel im Anhang der Jahresrechnung und liegt in der Verantwortung der Unternehmensleitung.
 - text: 'Bericht, Fall «Annahme vertretbar, Unsicherheit ausreichend offengelegt» (SER Anhang G Ziff. 3): Die Prüfungsaussage bleibt nicht modifiziert. Im Revisionsbericht steht ein
-    Zusatz, der die wesentlichen Unsicherheiten kurz beschreibt und auf den Anhang verweist (SER Anhang F Beispiel 10). Bestehen keine Unsicherheiten, gibt es keinen Zusatz, und die
-    Anhangangabe kann unterbleiben.'
+    Zusatz, der die wesentlichen Unsicherheiten kurz beschreibt und auf den Anhang verweist (SER Anhang F Beispiel 10). Unter Umständen braucht es einen zweiten Zusatz wegen möglicher
+    Rechtsfolgen nach Art. 725b OR (begründete Besorgnis einer Überschuldung, falls auf Veräusserungswerte umzustellen wäre); Entscheid WP (ser-2022__anh-f-s128-1). Dasselbe sieht das
+    Muster der verneinenden Aussage wegen fehlender Offenlegung vor (muster-hwp-er-2026__c033-2). Prüfkriterien für die Anhangangabe: Die Unsicherheiten sind hinreichend umschrieben,
+    und der Adressat wird ausdrücklich darauf hingewiesen, dass das Unternehmen möglicherweise nicht in der Lage ist, seine Tätigkeit fortzuführen. Bestehen keine Unsicherheiten, gibt
+    es keinen Zusatz, und die Anhangangabe kann unterbleiben.'
   quelle: ser-2022__anh-g-s141-1
   zitat: In diesem Fall ist ein Zusatz im Revisionsbericht anzubringen, in dem die wesentlichen Unsicherheiten kurz beschrieben werden und auf den Anhang der Jahresrechnung verwiesen
     wird
@@ -150,9 +159,10 @@ aussagen:
     oder eine Prüfungsaussage ist unmöglich (SER Anhang F Beispiel 7: Fortführung kann wegen fehlender Unterlagen nicht beurteilt werden).'
   quelle: ser-2022__anh-g-s141-2
   zitat: In diesem Fall modifiziert der Abschlussprüfer die Prüfungsaussage (eingeschränkte oder Unmöglichkeit der Prüfungsaussage).
-- text: 'Bericht, Fall «Fortführung zu verneinen, Jahresrechnung aber zu Fortführungswerten erstellt»: Eine verneinende Prüfungsaussage ist vor allem dann angebracht, wenn die Behebung
-    des Mangels unmittelbare Rechtsfolgen hätte. HWP ER Rz 409 nennt dafür ausdrücklich die Umstellung der Wertbasis bei Gefährdung der Fortführungsfähigkeit. Die Formulierung zeigt
-    Muster HWP ER «Fortführung und Wertbasis» (muster-hwp-er-2026__c032-2). Gegebenenfalls kommt ein Eventualzusatz zu Art. 725b OR hinzu (SER Anhang F).'
+- text: 'Bericht, Fall «Fortführung zu verneinen, Jahresrechnung aber zu Fortführungswerten erstellt»: Gemäss HWP ER Abbildung 33 führt eine zu verneinende Fortführung zu einer verneinenden
+    Prüfungsaussage (hwp-er-2026__rz-0200-s226-t1, hwp-er-2026__rz-0200-s226-t2; Abbildung im Original raw/hwp-er-2026.pdf PDF-Seite 227 prüfen, im Chunk-Text nur als Liste). Eine verneinende
+    Prüfungsaussage ist vor allem dann angebracht, wenn die Behebung des Mangels unmittelbare Rechtsfolgen hätte. HWP ER Rz 409 nennt dafür ausdrücklich die Umstellung der Wertbasis
+    bei Gefährdung der Fortführungsfähigkeit. Die Formulierung zeigt Muster HWP ER «Fortführung und Wertbasis» (muster-hwp-er-2026__c032-2).'
   quelle: hwp-er-2026__rz-0409-s276
   zitat: Umstellung der Wertbasis bei Gefährdung der Fortführungsfähigkeit
 agent:
@@ -161,10 +171,14 @@ agent:
   (Vollständigkeitserklärung), A1-304 (Protokolle), P1-313 (Eigenkapital/OR 725).'
 - 'Diese Unterlagen in M-Files suchen, sonst als Pendenz bzw. PBC-Vorschlag erfassen: Einschätzung des VR zur Fortführung (mindestens zwölf Monate ab Bilanzstichtag), Budget und Liquiditätsplan
   des Folgejahres, je nach Lage Zwischenabschluss oder Mehrjahresfinanzplanung, Kreditverträge mit Covenants, Bankzusagen, Finanzierungs- und Unterstützungszusagen, Rangrücktritte, GV-
-  und VR-Protokolle, Buchungen der Folgeperiode, Vollständigkeitserklärung mit der Going-Concern-Klausel (hwp-bur-2023__rz-0045-s066; ser-2022__anh-e-s104-1).'
-- 'Kennzahlen immer im Rechenmodul (rechne) ermitteln, nie im Kopf: Nettoumlaufvermögen, Jahres- und Vorjahresverlust, Eigenkapital, Kapitalverlust-Test nach OR 725a, Deckung der Verbindlichkeiten
-  durch die Aktiven zu Fortführungswerten. Das Ergebnis mit der Indikatorenliste aus SER Anhang G bzw. HWP ER Rz 191–193 abgleichen (Cash Drain, Rückstände bei Löhnen, Sozialversicherungen
-  oder Lieferanten: hwp-er-2026__rz-0191-s224). Die Liste ist nicht abschliessend, und ein Anzeichen allein ist keine wesentliche Unsicherheit (ser-2022__anh-g-s138-2).'
+  und VR-Protokolle, Buchungen der Folgeperiode, Vollständigkeitserklärung mit der Going-Concern-Klausel (hwp-bur-2023__rz-0045-s066; ser-2022__anh-e-s104-1), bei erheblichen Zweifeln
+  zusätzlich eine schriftliche Erklärung der Unternehmensleitung über die Pläne für künftige Aktivitäten (hwp-er-2026__rz-0195-s225).'
+- 'Kennzahlen immer im Rechenmodul (rechne) ermitteln, nie im Kopf: Nettoumlaufvermögen, Jahres- und Vorjahresverlust, Eigenkapital. Kapitalverlust und Überschuldung mit `kapitalverlust
+  --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--rangruecktritt …] [--covid-kredit …]` (nie von Hand). Verbürgte Covid-19-Kredite nach Art.
+  3 Covid-19-SBüV zählen dabei nicht als Fremdkapital (covid-sbueg__art-24; Gesetz gilt bis 31.12.2032, covid-sbueg__art-31): in --verbindlichkeiten wie in der Bilanz belassen und den
+  Kreditbetrag mit --covid-kredit angeben; das Werkzeug rechnet ihn heraus (nicht zusätzlich von --verbindlichkeiten abziehen). Die Ausnahme gilt nur für diese Berechnung; in Bilanz
+  und Liquiditätsplan bleiben die Kredite Verbindlichkeiten. Das Ergebnis mit der Indikatorenliste aus SER Anhang G bzw. HWP ER Rz 191–193 abgleichen (Cash Drain, Rückstände bei Löhnen,
+  Sozialversicherungen oder Lieferanten: hwp-er-2026__rz-0191-s224). Die Liste ist nicht abschliessend, und ein Anzeichen allein ist keine wesentliche Unsicherheit (ser-2022__anh-g-s138-2).'
 - Die Befragung der Unternehmensleitung (Einschätzung, Pläne, Finanzierung, Ereignisse nach den zwölf Monaten) führt der Agent nicht selbst. Er erfasst die Fragen als Pendenz bzw. in
   10.11 und wertet nur schriftliche Antworten aus (konzept-ki-revisionsagent-2026__c012-1). Der Status ist dann höchstens «teilweise bearbeitet».
 - 'Ist die Einschätzung kürzer als zwölf Monate ab Bilanzstichtag oder fehlt sie trotz Indikatoren: Pendenz erfassen mit der Bitte um eine erweiterte bzw. detaillierte, schriftlich dokumentierte
@@ -173,12 +187,19 @@ agent:
 - 'Bewertung bei Umstellung auf Veräusserungswerte: Ausser bei der Überschuldungsbeurteilung nach OR 725b und bei der Liquidation des ganzen Unternehmens gelten die gesetzlichen Höchstbewertungsvorschriften
   weiter (hwp-bur-2023__rz-0045-s066). Rückstellungen für Einstellungsaufwand prüfen (O1/M3; hwp-er-2026__rz-0188-s223).'
 - 'Schnittstelle Kapitalschutz: Ist die Fortführung nicht gegeben, genügt ein Zwischenabschluss zu Veräusserungswerten (OR 725b Abs. 1; or__art-725b-t1). Die Zwischenabschlüsse prüft
-  die Revisionsstelle (OR 725b Abs. 2). Dazu die Themen Kapitalverlust und Überschuldung beiziehen; ein Hinweis bei Untätigkeit des VR ist zwingend (ser-2022__8-3-2-t1).'
-- Fehlt die Anhangangabe zur Unsicherheit oder ist sie ungenügend, erfasst der Agent eine Notiz «Wesentliche Feststellungen». Zweifel an der Fortführung kommen in die Notiz «Schlussbesprechung»,
-  weil sie gegenüber dem VR zu kommunizieren sind (hwp-er-2026__rz-0298-s250).
-- 'Die Berichtsfolge entscheidet ausschliesslich der WP: nicht modifiziert, Zusatz, eingeschränkte oder verneinende Prüfungsaussage, Unmöglichkeit, Eventualzusatz zu OR 725b. Der Agent
-  bereitet höchstens einen Textvorschlag als Notiz vor, gestützt auf SER Anhang F Beispiele 7 und 10 sowie Muster HWP ER (muster-hwp-er-2026__c026-2, __c032-2, __c033-2). Kein Visum,
-  keine Unterzeichnung oder Datierung des Berichts.'
+  die Revisionsstelle (OR 725b Abs. 2). Dazu die Themen Kapitalverlust und Überschuldung beiziehen; ein Hinweis bei Untätigkeit des VR ist zwingend (ser-2022__8-3-2-t1). Drohende Zahlungsunfähigkeit
+  (OR 725): keine eigene Handlungspflicht der Revisionsstelle und keine eigenen Schritte gegenüber dem VR. Stellt der Agent bei der Prüfung Hinweise fest, dass der VR untätig bleibt,
+  erfasst er eine Notiz «Wesentliche Feststellungen» (möglicher Hinweis im Bericht nach HWP ER Rz 364, hwp-er-2026__rz-0364-s111; Kriterien SER 8.3.2.1, ser-2022__8-3-2-t1: wesentlich,
+  direkter Bezug zur Jahresrechnung, aus Prüfungshandlungen festgestellt) und nimmt den Punkt zusätzlich in die Notiz «Schlussbesprechung» auf. Entscheid WP.'
+- 'Die Prüfkriterien für die Anhangangabe in T1-318 je mit ja/nein dokumentieren: (1) Unsicherheit hinreichend umschrieben, (2) ausdrücklicher Hinweis auf eine mögliche Nicht-Fortführung
+  (ser-2022__anh-g-s141-1). Fehlt die Anhangangabe oder ist eines der Kriterien mit nein beantwortet → Notiz «Wesentliche Feststellungen». Zweifel an der Fortführung kommen in die Notiz
+  «Schlussbesprechung», weil sie gegenüber dem VR zu kommunizieren sind (hwp-er-2026__rz-0298-s250).'
+- 'Berichtsfolge: Der Agent schlägt sie nur vor; entscheiden tut ausschliesslich der WP. Fall bestimmen und passende Vorlage nennen: (a) keine wesentliche Unsicherheit → kein Zusatz,
+  Prüfungsaussage nicht modifiziert (ser-2022__anh-g-s141-1); (b) Unsicherheit im Anhang angemessen offengelegt → Zusatz, Prüfungsaussage nicht modifiziert (SER Anhang F Beispiel 10,
+  ser-2022__anh-f-s127-2; ggf. zweiter Zusatz zu OR 725b, ser-2022__anh-f-s128-1); (c) Anhangangabe ungenügend → in der Regel eingeschränkt (muster-hwp-er-2026__c026-2); (d) Anhangangabe
+  fehlt → in der Regel verneinend (muster-hwp-er-2026__c033-2); (e) Fortführung zu verneinen, Jahresrechnung aber zu Fortführungswerten → verneinend (muster-hwp-er-2026__c032-2); (f)
+  Einschätzung verweigert oder Zeitraum unter zwölf Monaten → eingeschränkt oder Unmöglichkeit (SER Anhang F Beispiel 7, ser-2022__anh-f-s124-2). Bei (c)/(d) lässt SER beides zu (eingeschränkt
+  oder verneinend; ser-2022__anh-g-s141-2). Den Vorschlag als Notiz erfassen. Kein Visum, keine Unterzeichnung oder Datierung des Berichts.'
 - Der Zusatz steht nach der Prüfungsaussage, verweist auf den Anhang und hält fest, dass die Prüfungsaussage nicht eingeschränkt ist (hwp-er-2026__rz-0432-s283; ser-2022__8-3-2-t3).
 - 'Erscheint der Fortführungswille zweifelhaft, etwa durch Verkauf wesentlicher Betriebsteile ohne Liquidationsbeschluss, kann eine stille Liquidation bzw. Statutenverletzung vorliegen.
   Quelle ist eine Sekundärquelle (camponovo-2026-hinweispflichten__s080-1): Notiz an den WP, kein eigener Schluss.'

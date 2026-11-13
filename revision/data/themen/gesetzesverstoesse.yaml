@@ -5,7 +5,7 @@ status: agent-geprueft
 nachpruefung:
   urteil: korrigieren
   befunde: 16
-  korrigiert: false
+  korrigiert: true
 stichworte:
 - Gesetzesverstoss
 - Statutenverstoss
@@ -51,20 +51,43 @@ stichworte:
 - Strafanzeige
 - RAB Meldepflicht
 - Wiederholung Hinweis Folgejahr
-kurz: 'Bei der eingeschränkten Revision gibt es nur eine direkte Anzeigepflicht: Benachrichtigung des Gerichts bei offensichtlicher Überschuldung, wenn der VR untätig bleibt (Art. 729c
-  OR); Art. 728c OR gilt für die ordentliche Revision. Hinweise im Bericht sind zwingend bei Untätigkeit des VR nach Art. 725a/725b OR, sonst nur bei wesentlichen, festgestellten Verstössen
-  mit direktem Bezug zur Jahresrechnung (z.B. Art. 680, 678, 699, 717 OR). Im Übrigen gilt die Schweigepflicht (Art. 730b OR).'
+- Covid-19-Kredit Revisionsstelle
+- Covid-19-Kredit Dividende
+- Art. 23 Covid-19-SBüG
+- Bürgschaftsorganisation
+- Solidarbürgschaft Ausschüttungsverbot
+- Art. 321 StGB
+- Strafbarkeit Berufsgeheimnis
+- Verletzung des Berufsgeheimnisses
+kurz: 'Bei der eingeschränkten Revision gibt es nach OR nur eine direkte Anzeigepflicht: Benachrichtigung des Gerichts bei offensichtlicher Überschuldung, wenn der VR untätig bleibt
+  (Art. 729c OR); Art. 728c OR gilt für die ordentliche Revision. Spezialgesetz: Stellt die Revisionsstelle bei einem Covid-19-Kredit mit Solidarbürgschaft eine verbotene Mittelverwendung
+  fest (Art. 2 Abs. 2–4 Covid-19-SBüG), setzt sie eine Frist; wird der Zustand nicht hergestellt, informiert sie die GV und, wenn der VR auch dann nicht unverzüglich handelt, die Bürgschaftsorganisation
+  (Art. 23 Covid-19-SBüG) – nur der WP. Hinweise im Bericht sind zwingend bei Untätigkeit des VR nach Art. 725a/725b OR, sonst nur bei wesentlichen, festgestellten Verstössen mit direktem
+  Bezug zur Jahresrechnung (z.B. Art. 680, 678, 699, 717 OR). Im Übrigen gilt die Schweigepflicht (Art. 730b OR).'
 aussagen:
 - text: 'Art. 728c OR (Anzeigepflichten): Stellt die Revisionsstelle Verstösse gegen Gesetz, Statuten oder Organisationsreglement fest, meldet sie dies schriftlich dem VR (Abs. 1); die
     GV informiert sie bei wesentlichen Verstössen oder wenn der VR auf die schriftliche Meldung keine angemessenen Massnahmen ergreift (Abs. 2); Abs. 3 regelt die Gerichtsbenachrichtigung
     bei offensichtlicher Überschuldung. Diese Melde- und Informationspflichten nach Abs. 1 und 2 gelten nur bei der ordentlichen Revision (siehe nächste Aussage).'
   quelle: or__art-728c
   zitat: Stellt die Revisionsstelle Verstösse gegen das Gesetz, die Statuten oder das Organisationsreglement fest, so meldet sie dies schriftlich dem Verwaltungsrat.
-- text: 'Eingeschränkte Revision: Die Revisionsstelle hat nur eine einzige direkte gesetzliche Anzeigepflicht – Benachrichtigung des Gerichts, wenn die Gesellschaft offensichtlich überschuldet
-    ist und der VR die Anzeige unterlässt (Art. 725b i.V.m. Art. 729c OR). Ohne Revisionsstelle trifft diese Pflicht den vom VR für die Prüfung der Zwischenabschlüsse ernannten zugelassenen
-    Revisor (Art. 725b Abs. 5 OR). Weitere Anzeigepflichten, z.B. bei Verstössen gegen Gesetz, Statuten oder Organisationsreglement, bestehen bei der SER nicht.'
+- text: 'Eingeschränkte Revision: Nach OR hat die Revisionsstelle nur eine einzige direkte gesetzliche Anzeigepflicht – Benachrichtigung des Gerichts, wenn die Gesellschaft offensichtlich
+    überschuldet ist und der VR die Anzeige unterlässt (Art. 725b i.V.m. Art. 729c OR). Ohne Revisionsstelle trifft diese Pflicht den vom VR für die Prüfung der Zwischenabschlüsse ernannten
+    zugelassenen Revisor (Art. 725b Abs. 5 OR). Weitere Anzeigepflichten, z.B. bei Verstössen gegen Gesetz, Statuten oder Organisationsreglement, bestehen bei der SER nicht. Vorbehalt
+    Spezialgesetz: Art. 23 Covid-19-SBüG verpflichtet ausdrücklich auch die eingeschränkt prüfende Revisionsstelle (Frist, Information der GV, dann der Bürgschaftsorganisation; siehe
+    Aussage «Covid-19-Kredite mit Solidarbürgschaft»).'
   quelle: hwp-er-2026__rz-0422-s279-t1
   zitat: bei der eingeschränkten Revision die Revisionsstelle lediglich eine einzige direkte gesetzliche Anzeigepflicht
+- text: 'Covid-19-Kredite mit Solidarbürgschaft (Spezialgesetz, geht vor): Während der Dauer der Solidarbürgschaft sind u. a. ausgeschlossen: Dividenden und Tantiemen sowie die Rückerstattung
+    von Kapitaleinlagen; die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschaftern oder Nahestehenden (zulässig bleiben vorbestehende Verpflichtungen gegenüber
+    einer Gruppengesellschaft mit Sitz in der Schweiz) (Art. 2 Abs. 2 Bst. a/b, covid-sbueg__art-2-t1); ausserdem Art. 2 Abs. 2 Bst. c/d: Rückführung von Gruppendarlehen mit Kreditmitteln
+    und Übertragung von Kreditmitteln an Gruppengesellschaften ohne Sitz in der Schweiz. Die Kreditmittel dürfen nicht zur Umschuldung vorbestehender Kredite verwendet werden (Art. 2
+    Abs. 3, covid-sbueg__art-2-t2). Stellt die Revisionsstelle im Rahmen der eingeschränkten oder ordentlichen Revision eine Verletzung von Art. 2 Abs. 2–4 fest, setzt sie eine angemessene
+    Frist zur Herstellung des ordnungsgemässen Zustandes; wird er nicht innert Frist hergestellt, muss sie die GV informieren; stellt der VR ihn auch dann nicht unverzüglich her, informiert
+    sie die zuständige Bürgschaftsorganisation (Art. 23 Abs. 1 Covid-19-SBüG). Das Gesetz gilt bis 31.12.2032 (Art. 31 Abs. 2, covid-sbueg__art-31). Die Bürgschaft dauert höchstens acht
+    Jahre ab Unterzeichnung der Kreditvereinbarung bzw. des Bürgschaftsvertrags; bei Härte kann die Frist auf höchstens zehn Jahre verlängert werden, und die Bürgschaft gilt dann weiter
+    (Art. 3 Abs. 1 und 3, covid-sbueg__art-3). Die Pflichten entfallen nach Ablauf der Bürgschaft oder früher bei vollständiger Rückzahlung (Q&A Rechnungslegung Frage 10, qa-or-rechnungslegung-2026__10-t4).'
+  quelle: covid-sbueg__art-23
+  zitat: im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung einer Vorgabe nach Artikel 2 Absätze 2–4 fest
 - text: Erhält die Revisionsstelle klare und stichhaltige Informationen von kompetenter Stelle (VR, Geschäftsleitung) über eine offensichtliche Überschuldung oder stellt sie diese bei
     der Revision fest, muss sie den VR an seine Pflichten erinnern (namentlich Zwischenabschluss zu Fortführungs- und Veräusserungswerten erstellen und zur Prüfung vorlegen). Die Anzeigepflicht
     beschränkt sich auf die Benachrichtigung des Richters, wenn der VR dies trotz offensichtlicher Überschuldung unterlässt (SER Ziff. 9, Details Anhang H).
@@ -72,7 +95,9 @@ aussagen:
   zitat: Die diesbezügliche Anzeigepflicht beschränkt sich auf die Benachrichtigung des Richters, wenn dies der Verwaltungsrat trotz offensichtlicher Überschuldung unterlässt.
 - text: 'Keine Suchpflicht: Der Abschlussprüfer muss das Risiko deliktischer Handlungen bei der eingeschränkten Revision nicht in seine Risikobeurteilung einbeziehen, und auch das Gesetz
     verlangt nicht, aktiv nach weiteren Gesetzesverstössen zu suchen. Anders als bei der ordentlichen Revision (Art. 728c OR) besteht keine gesetzliche Anzeigepflicht bei Verstössen
-    gegen Gesetz, Statuten oder Organisationsreglement und mangels Prüfungsauftrag auch keine Berichterstattungspflicht für sonstige Gesetzesverstösse.'
+    gegen Gesetz, Statuten oder Organisationsreglement und mangels Prüfungsauftrag auch keine Berichterstattungspflicht für sonstige Gesetzesverstösse. Ausnahme Spezialgesetz: Bei Covid-19-Krediten
+    mit Solidarbürgschaft können weitere Prüfpflichten bestehen (HWP ER Rz 221, hwp-er-2026__rz-0221-s235); stellt die Revisionsstelle eine Verletzung von Art. 2 Abs. 2–4 Covid-19-SBüG
+    fest, gilt Art. 23 Covid-19-SBüG (siehe Aussage «Covid-19-Kredite mit Solidarbürgschaft»).'
   quelle: hwp-er-2026__rz-0268-s086
   zitat: Auch im Gesetz findet sich keine Verpflichtung, wonach im Rahmen der eingeschränkten Revision aktiv auf allfällige weitere Gesetzesverstösse zu achten oder nach diesen zu suchen
     wäre.
@@ -82,21 +107,26 @@ aussagen:
   quelle: ser-2022__1-6-t2
   zitat: besteht ein direkter Bezug zur Jahresrechnung, so ist ein Hinweis im Revisionsbericht in Erwägung zu ziehen
 - text: 'Statuten und Organisationsreglement: Auf Statutenverstösse ist nur hinzuweisen, wenn sie im Zusammenhang mit dem Prüfungsgegenstand stehen; für Verstösse gegen das Organisationsreglement
-    besteht keine Hinweispflicht.'
+    besteht keine Hinweispflicht. HWP ER Rz 422 ist enger (Statuten- und Organisationsreglementsverstösse sind weder Prüfungsgegenstand noch hinweispflichtig); massgebend ist SER Ziff.
+    8.3.2.1. Stellt die Revisionsstelle solche Verstösse fest, kann unter Umständen ein Hinweis im Bericht an die GV bzw. das oberste Organ oder zumindest gegenüber den für die Jahresrechnung
+    Verantwortlichen angezeigt sein (Rz 422, hwp-er-2026__rz-0422-s279-t2). Agent: Notiz «Schlussbesprechung», Entscheid WP.'
   quelle: ser-2022__8-3-2-t2
   zitat: Für Verstösse gegen die Statuten besteht eine Hinweispflicht nur dann, wenn diese im Zusammenhang mit dem Prüfungsgegenstand stehen.
 - text: 'Zwingende Hinweise (SER Ziff. 8.3.2.1): Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands im Zusammenhang mit der Untätigkeit des VR bei hälftigem Kapitalverlust
     (Art. 725a OR) oder Überschuldung (Art. 725b OR) sind in jedem Fall im Revisionsbericht anzubringen; bleibt der VR bei Überschuldung untätig, ist zusätzlich die Anzeigepflicht nach
     Art. 729c OR zu beachten. Übrige Hinweise nur, wenn wesentlich, mit direktem Bezug zur Jahresrechnung und aufgrund der durchgeführten Prüfungshandlungen (z.B. Befragung) festgestellt.
-    Hinweise beeinflussen die Prüfungsaussage nicht und stehen im Berichtstext nach der Prüfungsaussage bzw. nach einem Zusatz.'
+    Hinweise beeinflussen die Prüfungsaussage nicht und stehen im Berichtstext nach der Prüfungsaussage bzw. nach einem Zusatz. Zwingend ist der Hinweis auch, wenn die Liquidatoren die
+    Überschuldungsanzeige unterlassen (Hinweis auf Art. 743 Abs. 2 OR; SER Ziff. 8.3.2.1 Fussnote 3).'
   quelle: ser-2022__8-3-2-t1
   zitat: oder einer Überschuldung (Art. 725b OR) sind in jedem Fall im Revisionsbericht anzubringen
 - text: 'HWP ER Abbildung 49 (Hinweis zwingend notwendig): Kapitalverlust (Art. 725a OR) und Überschuldung (Art. 725b OR) – Pflichtverletzungen des VR, wenn er die notwendigen Massnahmen
     nicht ergreift: keine Sanierungsmassnahmen, Zwischenabschlüsse nicht erstellt, Anzeigepflicht nicht erfüllt.'
   quelle: hwp-er-2026__rz-0423-s280
   zitat: Massnahmen nicht ergreift (keine Sanierungsmassnahmen; Zwischenabschlüsse nicht erstellt; Anzeigepflicht nicht erfüllt)
-- text: Ein Hinweis im Zusammenhang mit Art. 725a Abs. 1 OR ist angebracht, wenn der VR keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift und die Aktionäre nicht
-    informiert sind und davon auszugehen ist, dass eine Information durch die Revisionsstelle den Sanierungswillen der Aktionäre beeinflussen würde.
+- text: 'Ein Hinweis im Zusammenhang mit Art. 725a Abs. 1 OR ist angebracht, wenn der VR keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift und die Aktionäre nicht
+    informiert sind und davon auszugehen ist, dass eine Information durch die Revisionsstelle den Sanierungswillen der Aktionäre beeinflussen würde. Verhältnis zum SER: Massgebend ist
+    SER Ziff. 8.3.2.1 (ser-2022__8-3-2-t1: Hinweis bei Untätigkeit des VR «in jedem Fall»). Rz 424 hilft nur bei der Würdigung, ob Untätigkeit vorliegt; es ist keine Ausnahme von der
+    zwingenden Pflicht. Entscheid WP.'
   quelle: hwp-er-2026__rz-0424-s280
   zitat: der Verwaltungsrat keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift
 - text: 'Verspätete/fehlende Massnahmen bei Kapitalverlust – Musterbericht (nicht modifizierte Prüfungsaussage): Zusatz «Wir machen darauf aufmerksam, dass die Hälfte … nicht mehr gedeckt
@@ -107,8 +137,9 @@ aussagen:
 - text: 'Empfohlene Hinweise (HWP ER Abbildung 50), sofern für die Meinungsbildung der Berichtsempfänger von Bedeutung: Erwerb eigener Aktien trotz fehlender freier Reserven bzw. Überschreitung
     der 10 %-Grenze (20 % bei Vinkulierung); Ungleichbehandlung der Aktionäre bei Verteilung von Bilanzgewinn/Liquidationsergebnis; gesetzeswidrige oder ungerechtfertigte Leistungen
     an Aktionäre, VR oder Nahestehende; gesetzeswidriges Aktionärsdarlehen oder unzulässige Rückzahlung des Aktienkapitals; Nichteinhaltung der GV-Einberufungsfrist; Dividende mit erheblichem
-    Liquiditätsentzug; Anzeigepflicht der Liquidatoren nicht erfüllt; Vorlagepflicht Geschäftsbericht bzw. Genehmigung Zwischenabschluss nicht eingehalten (gleiche Beispielliste in SER
-    Ziff. 8.3.2.1 mit Art. 659, 660, 678, 680, 699, 717, 958 Abs. 3 bzw. 960f Abs. 3 OR).'
+    Liquiditätsentzug; Vorlagepflicht Geschäftsbericht bzw. Genehmigung Zwischenabschluss nicht eingehalten. (SER Ziff. 8.3.2.1 nennt als Beispiele Art. 659, 660, 678, 680, 699, 717,
+    958 Abs. 3 bzw. 960f Abs. 3 OR.) Unterlassen die Liquidatoren die Überschuldungsanzeige, ist der Hinweis nach SER zwingend (Fussnote 3, Hinweis auf Art. 743 Abs. 2 OR); HWP ER Abb.
+    50 führt ihn nur als empfohlen; massgebend ist SER.'
   quelle: hwp-er-2026__rz-0425-s280-t1
   zitat: wird ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision empfohlen, sofern die Gesetzesverstösse für die Meinungsbildung des Berichtsempfängers von Bedeutung
     sind
@@ -153,6 +184,11 @@ aussagen:
     die gesetzlichen Anzeigepflichten (HWP ER Rz 10).'
   quelle: or__art-730b
   zitat: Die Revisionsstelle wahrt das Geheimnis über ihre Feststellungen, soweit sie nicht von Gesetzes wegen zur Bekanntgabe verpflichtet ist.
+- text: 'Strafbarkeit (Art. 321 StGB): Nach OR zur Verschwiegenheit verpflichtete Revisoren und ihre Hilfspersonen, die ein Berufsgeheimnis offenbaren, werden auf Antrag mit Freiheitsstrafe
+    bis zu drei Jahren oder Geldstrafe bestraft. Straflos nur mit Einwilligung des Berechtigten oder mit schriftlicher Bewilligung der vorgesetzten Behörde oder Aufsichtsbehörde. Vorbehalten
+    bleiben Bestimmungen über Melde- und Mitwirkungsrechte, Zeugnispflicht und Auskunftspflicht gegenüber einer Behörde (Ziff. 3).'
+  quelle: stgb__art-321
+  zitat: nach Obligationenrecht zur Verschwiegenheit verpflichtete Revisoren
 - text: 'Keine Anzeige an Behörden: Gegenüber der RAB besteht keine Meldepflicht für Verstösse der geprüften Unternehmen gegen Gesetz, Statuten oder Organisationsreglement; die Verschwiegenheitspflicht
     schliesst eine Anzeige an Strafverfolgungsbehörden aus. Der Auftraggeber kann die Revisionsstelle vom Revisionsgeheimnis entbinden (schriftlich festhalten; bei geschützten Geheimbereichen
     Dritter auch deren Zustimmung).'
@@ -161,6 +197,11 @@ aussagen:
 agent:
 - 'Grenze: Der Agent erstattet nie selbst eine Anzeige (Gericht, Behörden), setzt dem VR keine Frist und mahnt nicht. Ob ein Hinweis, ein Zusatz oder eine Modifizierung in den Bericht
   kommt und wie er lautet, entscheidet der WP. Den GVB-Bericht nie unterzeichnen oder datieren. Wie bei Hinweisen im Bericht vorzugehen ist, ist bei consis noch offen (konzept-ki-revisionsagent-2026__c015-2).'
+- 'Covid-19-Kredit (P1, H2, L1, N1): Klären, ob ein Covid-19-Kredit mit Solidarbürgschaft besteht und die Bürgschaft im Geschäftsjahr noch lief (Kreditvereinbarung bzw. Bürgschaftsvertrag,
+  Amortisationsplan, allfällige Verlängerung aus M-Files). Falls ja: Dividenden, Tantiemen, Rückerstattungen von Kapitaleinlagen, Darlehen an Gesellschafter oder Nahestehende, Rückzahlungen
+  ihrer Darlehen und Mittelübertragungen an Gruppengesellschaften im Ausland auflisten (covid-sbueg__art-2-t1, covid-sbueg__art-2-t2). Hinweis auf eine Verletzung: Notiz «Wesentliche
+  Feststellungen» und Pendenz an den WP. Fristansetzung, Information der GV und der Bürgschaftsorganisation (Art. 23 Covid-19-SBüG) entscheidet und vollzieht nur der WP; der Agent setzt
+  keine Frist und informiert niemanden. Für den Bericht: `aufgabe gvb-bericht` (Checklistenpunkt Covid).'
 - 'Offensichtliche Überschuldung: Den Begriff nach SER Anhang H prüfen (ser-2022__anh-h-s142-1: «jeder verständige Bilanzleser … sofort sieht»; Rangrücktritte und Aussicht auf Sanierung
   innert 90 Tagen berücksichtigen). Bei Verdacht sofort eine Notiz «Wesentliche Feststellungen» und eine Pendenz an den WP erfassen: Es gilt die gebotene Eile. Eine Frist der Revisionsstelle
   an den VR beträgt nach HWP ER Rz 439 (hwp-er-2026__rz-0439-s129) nur wenige Tage.'
@@ -179,9 +220,11 @@ agent:
 - 'Aktionärsdarlehen (P1-305, H2-201, H2-404, D1): Alle Forderungen gegenüber Aktionären und Nahestehenden mit Darlehenscharakter auflisten (up stream und cross stream). Das freie Eigenkapital
   mit `rechne` ermitteln. Unterlagen zum Drittvergleich aus M-Files beschaffen: Vertrag, Zins, Rückzahlung, Sicherheiten, Bonität (hwp-er-2026__rz-0168-s215, hwp-er-2026__rz-0176-s217).
   Fehlen sie, eine Pendenz erfassen. Die Fallmatrix für den Bericht steht in HWP ER Abbildung 32 (hwp-er-2026__rz-0184-s219-t1/-t2).'
-- 'Zins auf Aktionärsdarlehen: Den steuerlichen Safe-Haven-Satz als steuerliche Praxis kennzeichnen (ESTV-Rundschreiben 2026: mindestens ¾ % bei Finanzierung aus Eigenkapital, estv-zinsen-2026__s002-1).
-  Ein zu tiefer Zins ist eine geldwerte Leistung, für die Verrechnungssteuer gilt (estv-zinsen-2026__s001-1). Handelsrechtlich ist auch ein steuerlich akzeptierter Satz am Drittvergleich
-  zu messen (hwp-er-2026__rz-0176-s217).'
+- 'Zins auf Aktionärsdarlehen: Den steuerlichen Safe-Haven-Satz als steuerliche Praxis kennzeichnen. Nur das Rundschreiben des betreffenden Kalenderjahres verwenden (bei abweichendem
+  Geschäftsjahr je Zeitabschnitt). CHF ab 1.1.2026: mindestens ¾ % bei Finanzierung aus Eigenkapital (ESTV-Rundschreiben 2026, estv-zinsen-2026__s002-1, estv-zinsen-2026__s001-2). Fremdwährungen
+  2026: eigenes ESTV-Rundschreiben (estv-rs-2-219-2026__s001-1). Für Zeitabschnitte 2025: Pendenz «ESTV-Rundschreiben 2025 anfordern» (nicht im Wiki; Treuhand-Almanach-Tabelle nicht
+  verwenden). Ein zu tiefer Zins ist eine geldwerte Leistung, für die Verrechnungssteuer gilt (estv-zinsen-2026__s001-1). Handelsrechtlich ist auch ein steuerlich akzeptierter Satz am
+  Drittvergleich zu messen (hwp-er-2026__rz-0176-s217).'
 - 'Verdeckte Gewinnausschüttungen (R1, SCH, S1): Leistungen ohne angemessene Gegenleistung an Aktionäre oder Nahestehende als Notiz festhalten. Will der VR nicht zurückfordern, folgt
   ein Hinweis nach Art. 678 Abs. 1 OR. Fehlten ausschüttbare Mittel, ist zusätzlich ein Hinweis nach Art. 680 Abs. 2 OR möglich (Entscheidungsbaum hwp-er-2026__rz-0164-s212-t1/-t2, hwp-er-2026__rz-0165-s213-t1).
   Mögliche Folgen für die Verrechnungssteuer in einer Pendenz an den WP melden.'
@@ -195,13 +238,15 @@ agent:
   auf das Berichtsjahr (Sekundärquelle camponovo-2026-hinweispflichten__s090-1). Die Vorjahresoriginale bleiben unverändert.'
 - 'Divergenzen offenlegen: Camponovo (Sekundärquelle) hält die Hinweise nach Art. 699 und 958 Abs. 3 OR nur für einen Zusatz (camponovo-2026-hinweispflichten__s067-1, __s071-1). Er kritisiert
   auch, dass Statuten- und Gesetzesverletzungen unterschiedlich behandelt werden (__s078-1). Massgebend sind SER und HWP ER. Im Zweifel eine Notiz «Schlussbesprechung» an den WP erfassen.'
-- 'Schweigepflicht im Agentenablauf: Keine Informationen an Dritte oder Behörden. E-Mails nur als Entwurf oder an die fixe WP-Adresse. Keine Mandantendaten im Wiki. Die Ausnahmen von
-  der Geheimhaltung stehen abschliessend in HWP ER Rz 10 (hwp-er-2026__rz-0010-s150-t1).'
+- 'Schweigepflicht im Agentenablauf: Keine Informationen an Dritte oder Behörden; gesetzliche Anzeigen und Informationen (Gericht nach Art. 729c OR, GV und Bürgschaftsorganisation nach
+  Art. 23 Covid-19-SBüG) erstattet nur der WP. E-Mails nur als Entwurf oder an die fixe WP-Adresse. Keine Mandantendaten im Wiki. Die Ausnahmen von der Geheimhaltung stehen abschliessend
+  in HWP ER Rz 10 (hwp-er-2026__rz-0010-s150-t1). Die Verletzung des Berufsgeheimnisses ist strafbar (Art. 321 StGB, stgb__art-321); im Zweifel nichts weitergeben und den WP fragen.'
 prueffelder:
 - A1
 - P1
 - H2
 - D1
+- L1
 - N1
 - R1
 - S1
