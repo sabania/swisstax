@@ -2,6 +2,7 @@
 """Revisions-Wiki: deterministische Prüfung → reports/lint.md (Exit 1 bei Fehlern).
 
   python3 revision/tools/lint.py
+  python3 revision/tools/lint.py --datei data/prueffelder/c1.yaml   # nur Zitate einer Datei
 
 Prüft: Zitate in data/ (wörtlich im Chunk), Schritt-Ids gegen Katalog, Prüffeld-Codes, revio-Werkzeugnamen gegen die
 Werkzeugliste, Links in quick/ und wiki/, Dateinamen (kebab-case, ASCII, kein Datumspräfix), Hash der Originale (raw/).
@@ -31,8 +32,11 @@ def walk(o, path=""):
             yield from walk(v, f"{path}[{i}]")
 
 
+DATEI = None
+
+
 def zitate():
-    files = list((R / "data").rglob("*.yaml")) + list((R / "eval").glob("*/*.yaml"))
+    files = [R / DATEI] if DATEI else list((R / "data").rglob("*.yaml")) + list((R / "eval").glob("*/*.yaml"))
     for p in files:
         d = yaml.safe_load(p.read_text(encoding="utf-8"))
         for path, cid, z in walk(d):
@@ -130,6 +134,14 @@ def hashes():
 
 
 def main():
+    global DATEI
+    if len(sys.argv) > 2 and sys.argv[1] == "--datei":   # nur Zitate einer Datei prüfen (für Korrektur-Agenten)
+        DATEI = sys.argv[2].removeprefix("revision/")
+        zitate()
+        print(f"{DATEI}: {N['zitate']} Zitate, {len(ERR)} Fehler")
+        for e in ERR:
+            print("  ", e)
+        sys.exit(1 if ERR else 0)
     zitate()
     katalog()
     werkzeuge()
