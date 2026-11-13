@@ -689,14 +689,15 @@ schritte:
   - quelle: hwp-or-2024__rz-0960-s369
     zitat: Abgleich der Steuerrechnungen mit den Steuererklärungen und -einschätzungen
 - id: S1-151
-  vorgehen: 'Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an den WP: Inhalt festlegen oder Schritt
-    als nicht anwendbar markieren. Hinweis: Die SER-Abstimmung Steuererklärung–Jahresrechnung ist teilweise in S1-302 (Vergleich mit Selbstdeklaration) enthalten; den Inhalt von S1-151
-    legt der WP fest.'
+  vorgehen: 'Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Schritttext zuerst in revio nachlesen; fehlt er auch dort: Inhalt durch WP/consis zu bestätigen
+    (Inhalt festlegen oder Schritt als nicht anwendbar markieren) – Katalogpflege einmalig an WP/consis melden, keine Pendenz je Mandat (Praxis/intern, wie T1-173). Der Agent bearbeitet
+    nichts eigenständig (WP-Schritt; im Rapport «nicht bearbeitet – WP-Schritt»). Hinweis: Die SER-Abstimmung Steuererklärung–Jahresrechnung ist teilweise in S1-302 (Vergleich mit
+    Selbstdeklaration) enthalten; den Inhalt von S1-151 legt der WP fest.'
   nachweise:
   - Katalog revio 4.0 (Anhang H)
   - Vorgabe des Wirtschaftsprüfers
   rechnen: ''
-  feststellung_wenn: Keine Feststellung; solange kein Katalogtext bzw. keine WP-Vorgabe vorliegt, Pendenz «Inhalt S1-151 festlegen» offen lassen.
+  feststellung_wenn: Keine Feststellung; fehlt der Schritttext auch in revio → einmalige Meldung zur Katalogpflege an WP/consis (keine Pendenz je Mandat).
   fundstellen:
   - quelle: katalog-revio4__c003-57
     zitat: S1-151 | Detail | WP | RV VO BE RI

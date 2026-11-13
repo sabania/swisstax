@@ -57,10 +57,16 @@ TOOLS = [
                     "Mehrere Ids in einem Aufruf (z.B. «C1-401 C1-402 C1-403») = Sammelaufruf: 4xx- und WP-Schritte als kurze Karten "
                     "(so steht es im Bündel von `aufgabe`).",
      "inputSchema": obj({"id": {**S, "description": "Schritt-Id, z.B. C1-302, A1-101, SCH4-201; mehrere mit Leerzeichen/Komma getrennt"}}, ["id"])},
-    {"name": "prueffeld", "fn": lambda a: rv.prueffeld(a["prueffeld"], ja(a.get("voll"))),
+    {"name": "prueffeld", "fn": lambda a: rv.prueffeld(" ".join(str(x) for x in (a["prueffeld"], a.get("abschnitt")) if x not in (None, "")),
+                                                     ja(a.get("voll"))),
      "description": "Überblick eines Prüffelds (A1 … T1 oder Stichwort wie «Vorräte», «MWST», «Eigenkapital»): Risiken, Bewertungsregeln, "
-                    "Unterlagen (PBC), Fragen an den Kunden, Fallstricke, alle Prüfschritte mit Rolle des Agenten, revio-Werkzeuge.",
-     "inputSchema": obj({"prueffeld": S, "voll": {"type": "boolean", "description": "Schritttexte ungekürzt"}}, ["prueffeld"])},
+                    "Unterlagen (PBC), Fragen an den Kunden, Fallstricke, alle Prüfschritte mit Rolle des Agenten, revio-Werkzeuge. Lange Listen "
+                    "gekürzt mit «+n weitere» → abschnitt = gesetz | risiken | bewertung | unterlagen | fragen | fallstricke | schritte | revio "
+                    "gibt einen Abschnitt ganz.",
+     "inputSchema": obj({"prueffeld": S,
+                         "abschnitt": {**S, "description": "gesetz | risiken | bewertung | unterlagen | fragen | fallstricke | schritte | revio"},
+                         "voll": {"type": "boolean", "description": "Katalogtext der Prüfschritte ungekürzt (Listen bleiben im Budget)"}},
+                        ["prueffeld"])},
     {"name": "prozess", "fn": lambda a: rv.prozess(" ".join(str(x) for x in (a.get("phase"), a.get("abschnitt")) if x not in (None, "")) or None,
                                                    ja(a.get("voll"))),
      "description": "Prozess der eingeschränkten Revision (kein starrer Ablauf): ohne Phase Übersicht p1–p8 inkl. Agent-Prozesse 1–6; mit Phase "
@@ -68,10 +74,11 @@ TOOLS = [
                     "p6 Kapitalverlust/Überschuldung, p7 Qualität/Dokumentation/Datenschutz, p8 Agent-Ablauf) KOMPAKT: Ziel, alle Schritte "
                     "gekürzt mit Prüfschritt-Kennzeichnung (EP/WP/4xx) und Aufruf, Zahl der WP-Entscheide, Rechtsgrundlagen, nächste Aufrufe. "
                     "Ein Abschnitt ganz: abschnitt = schritte | entscheide | fallstricke | fragen | unterlagen | doku | muster | gesetz "
-                    "(gross: «ab 19» anhängen). voll=true: alle Abschnitte (lang). Eine Ziffer 1–6 = Agent-Prozess des Konzepts → `aufgabe`.",
+                    "(gross: «ab 19» anhängen). voll=true: alle Abschnitte in Teilen ≤ 24 KB (weiter mit phase «pN ab 2» + voll). Eine Ziffer "
+                    "1–6 = Agent-Prozess des Konzepts → `aufgabe`.",
      "inputSchema": obj({"phase": {**S, "description": "z.B. p2 oder Stichwort (bericht, rangrücktritt); auch «p4 fallstricke»"},
                          "abschnitt": {**S, "description": "schritte | entscheide | fallstricke | fragen | unterlagen | doku | muster | gesetz"},
-                         "voll": {"type": "boolean", "description": "true = alle Abschnitte ungekürzt (lang)"}}, [])},
+                         "voll": {"type": "boolean", "description": "true = alle Abschnitte ungekürzt, in Teilen (Teil 2: phase «pN ab 2»)"}}, [])},
     {"name": "regeln", "fn": lambda a: rv.regeln(a.get("bereich") or None),
      "description": "Verbindliche Arbeitsregeln des Agenten mit Fundstelle (Grenzen gehen vor). Ohne Bereich: alle Arbeitsregeln ohne gesetz. "
                     "Bereiche: grenze (nie Visum/Abschluss/Freigabe/Versand/Buchung; Vorjahr nur lesen; Mandatsdaten nur in freigegebenen "
@@ -109,7 +116,7 @@ TOOLS = [
                          "toleranz": {**N, "description": "Wert aus 3.3 in % (z.B. 75) oder CHF (z.B. 37500)"},
                          "nichtaufgriff": {**N, "description": "Wert aus 3.3 in % (z.B. 5) oder CHF (z.B. 2500)"}, "bezeichnung": S}, [])},
     {"name": "kapitalverlust", "fn": lambda a: rv.kapitalverlust(a["aktienkapital"], a.get("eigenkapital"), a.get("aktiven"), a.get("verbindlichkeiten"),
-                                                                 a.get("kapitalreserve", 0), a.get("gewinnreserve", 0), ja(a.get("holding", False)),
+                                                                 a.get("kapitalreserve"), a.get("gewinnreserve"), ja(a.get("holding", False)),
                                                                  a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert"),
                                                                  a.get("freiwillige_reserven"), a.get("vortrag"), a.get("jahresergebnis"), a.get("eigene_aktien"),
                                                                  a.get("reserve_voll", 0), a.get("covid_kredit", 0), a.get("rr_polster")),
@@ -119,7 +126,7 @@ TOOLS = [
                     "ODER aktiven + verbindlichkeiten. reserve_voll = Gewinnreserven für eigene Kapitalanteile im Konzern/Aufwertungsreserve (zählen "
                     "voll zum geschützten Kapital); covid_kredit = Kredite nach Art. 3 Covid-19-SBüV (nicht Art. 4) und HFMV-20-Darlehen (kein "
                     "Fremdkapital; verbindlichkeiten trotzdem wie in der Bilanz). rangruecktritt = Σ laut unterzeichneten Vereinbarungen inkl. "
-                    "Zinsen; rr_polster = Sicherheitspolster für erwartete Verluste 12 Monate (HWP ER Rz 421, Höhe vom WP) → Deckungsrechnung. "
+                    "Zinsen; rr_polster = Sicherheitspolster für die erwarteten Verluste der nächsten 12 Monate nach Unterzeichnung, mindestens bis zum nächsten Prüfungszeitpunkt (HWP ER Rz 421, Höhe vom WP) → Deckungsrechnung. kapitalreserve/gewinnreserve immer aus der Bilanz angeben (keine → 0). "
                     "Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. Beurteilung: WP.",
      "inputSchema": obj({"aktienkapital": {**N, "description": "nominelles Aktien- und PS-Kapital laut Handelsregister in CHF"},
                          "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
@@ -132,7 +139,7 @@ TOOLS = [
                          "jahresergebnis": {**N, "description": "Jahresgewinn/-verlust (Verlust negativ)"}, "eigene_aktien": {**N, "description": "Betrag eigene Aktien (wird abgezogen)"},
                          "holding": {"type": "boolean"},
                          "rangruecktritt": {**N, "description": "Σ Rangrücktritte laut unterzeichneten Vereinbarungen inkl. Zinsen (nicht laut Anhang)"},
-                         "rr_polster": {**N, "description": "Sicherheitspolster: in den nächsten 12 Monaten erwartete Verluste (HWP ER Rz 421; Höhe legt der WP fest)"},
+                         "rr_polster": {**N, "description": "Sicherheitspolster: erwartete Verluste der nächsten 12 Monate nach Unterzeichnung des Rangrücktritts, mindestens bis zum nächsten Prüfungszeitpunkt (HWP ER Rz 421; Höhe beurteilt der WP im Einzelfall)"},
                          "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
                          "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"},
                          "reserve_voll": {**N, "description": "gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und Aufwertungsreserve "

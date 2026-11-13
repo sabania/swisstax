@@ -466,7 +466,7 @@ fallstricke:
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: 'Katalog unvollständig: P1-141 ohne Text (Position zwischen P1-308 und P1-310 und Typ deuten auf P1-309), P1-308 mit Kennzeichnung «?» – Inhalt bzw. Zuständigkeit vom WP klären
-    lassen (Pendenz).'
+    lassen (P1-141: einmalige Meldung zur Katalogpflege an WP/consis, keine Pendenz je Mandat; P1-308: Kennzeichnung in revio nachlesen, Abweichung als Pendenz).'
   quelle: katalog-revio4__c003-52
   zitat: '| P1 | Eigenkapital | 141 | P1-141 | Detail | WP | RV VO BE DO RI | | |'
 - text: 'SER ordnet steuerliche Behandlung (P1-308), Käufe/Verkäufe eigener Anteile, Änderungen im Grundkapital und Art. 680 Abs. 2 OR als weiter gehende Prüfungshandlungen ein: Durchführung
@@ -905,14 +905,16 @@ schritte:
     zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
       ausgenommen.
 - id: P1-141
-  vorgehen: 'Katalogtext in revio leer (WP-Schritt, Prüfziele RV VO BE DO RI). Agent bearbeitet den Schritt nicht inhaltlich, sondern erfasst eine Pendenz an den WP zur Festlegung des
-    Inhalts mit Hinweis: Position zwischen P1-308 und P1-310 und Typ «Detail» deuten auf einen Nummerierungsfehler (vermutlich P1-309). Die SER-Schritte Reservezuweisung (Art. 672 OR)
-    und Verlustverrechnung (Art. 674 OR) bearbeitet der Agent unabhängig davon in P1-303; Visum offen.'
+  vorgehen: 'Katalogtext leer (WP-Schritt, Prüfziele RV VO BE DO RI). Schritttext zuerst in revio nachlesen; fehlt er auch dort: Inhalt durch WP/consis zu bestätigen – Katalogpflege
+    einmalig an WP/consis melden mit Hinweis: Position zwischen P1-308 und P1-310 und Typ «Detail» deuten auf einen Nummerierungsfehler (vermutlich P1-309); keine Pendenz je Mandat
+    (Praxis/intern, wie T1-173). Der Agent bearbeitet den Schritt nicht inhaltlich (WP-Schritt; im Rapport «nicht bearbeitet – WP-Schritt»). Die SER-Schritte Reservezuweisung
+    (Art. 672 OR) und Verlustverrechnung (Art. 674 OR) bearbeitet der Agent unabhängig davon in P1-303; Visum offen.'
   nachweise:
   - revio-Katalog Zeile P1-141
   - Ergebnis P1-303 (Reservezuweisung, Verlustverrechnung)
   rechnen: keine eigene Rechnung; Reservezuweisung (5 % des Jahresgewinns bis 50 % AK, Holding 20 %) und Reihenfolge der Verlustverrechnung nach Art. 674 OR werden in P1-303 gerechnet
-  feststellung_wenn: Immer Pendenz an WP (Inhalt festlegen; Hinweis vermutlich P1-309); Feststellungen zu Reservezuweisung/Verlustverrechnung werden in P1-303 erfasst.
+  feststellung_wenn: Keine eigene Feststellung; fehlt der Schritttext auch in revio → einmalige Meldung zur Katalogpflege an WP/consis (Hinweis vermutlich P1-309; keine Pendenz je
+    Mandat). Feststellungen zu Reservezuweisung/Verlustverrechnung werden in P1-303 erfasst.
   fundstellen:
   - quelle: katalog-revio4__c003-52
     zitat: '| P1 | Eigenkapital | 141 | P1-141 | Detail | WP | RV VO BE DO RI | | |'

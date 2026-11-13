@@ -3,9 +3,10 @@
 # Fertig-wenn, nächste Aufgabe. Ziel: der Agent hat nach EINEM Aufruf alles, was er für die Aufgabe braucht.
 # Grundlage: Konzept KI-Revisionsagent (consis) – Fundstelle je Aufgabe. Status: agent-geprueft (Review offen).
 # Checklistenpunkte mit eigener fachlicher Aussage tragen `fundstellen` (quelle + zitat, von lint.py geprüft).
-# Hauptkette (naechste): auftrag → mandat-start → import → planung → wesentlichkeit → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss
-# → rapport → gvb-bericht (Ende; pdf-akte nur auf Anweisung). Hilfsaufgaben (notiz, kapitalschutz, Playbooks) haben naechste: [] –
-# danach zurück zur aufrufenden Checkliste.
+# Hauptkette (erster Eintrag von naechste = Hauptnachfolger, weitere = danach): auftrag → mandat-start (darin wesentlichkeit, Punkt 10) →
+# import → planung → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss → rapport → gvb-bericht (Ende; pdf-akte nur auf Anweisung).
+# Hilfsaufgaben (notiz, kapitalschutz, Playbooks) haben naechste: [] – danach zurück zur aufrufenden Checkliste; ebenso Aufgaben, die eine
+# Checkliste mit `aufgabe <id>` aufruft (wesentlichkeit aus mandat-start).
 # Synonyme je Prüffeld (für «Vorräte prüfen», «MWST», «Debitoren» …)
 prueffeld_synonyme:
   A1: [allgemeine pruefungshandlungen, gesamtanalytik, jahresrechnung als ganzes]
@@ -96,7 +97,7 @@ aufgaben:
       zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
     aufruf: revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen … --vj-bilanzsumme … --vj-umsatz … --vj-vollzeitstellen …
   fertig_wenn: Kontext-Schlüssel und Betriebsart (Lesetest/Schreibtest) stehen, Protokoll läuft, Dossier offen, Akte und Vorjahresakte erschlossen (Hinweise «im Folgejahr» übernommen), Wahl der Revisionsstelle geprüft, Wesentlichkeit plausibilisiert, markierte Prüffelder (revio-Codes) bekannt.
-  naechste: [import, prueffeld]
+  naechste: [import]
 - id: import
   titel: Prozess 1 – Jahresrechnung importieren und abstimmen
   stichworte: [import, jahresrechnung, bilanz, erfolgsrechnung, saldenbilanz, kontenzuordnung, prozess 1, einlesen, vorzeichen]
@@ -144,7 +145,7 @@ aufgaben:
     - quelle: konzept-ki-revisionsagent-2026__c009-3
       zitat: Menschliche Kontrollpunkte. In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
   fertig_wenn: Simulation stimmt mit der definitiven Jahresrechnung überein (Differenz 0) oder Differenzen als Pendenz; Halt, WP informiert.
-  naechste: [planung, wesentlichkeit, prueffeld]
+  naechste: [planung]
 - id: planung
   titel: Planung vorbereiten – Verständnis, Abschlussanalyse, Planungsnotiz, Tor vor Agent-Prozess 2
   stichworte: [planung, pruefplanung, pruefprogramm, pruefplan, strategische planung, planung vorbereiten, risikobeurteilung, abschlussanalyse]
@@ -180,14 +181,19 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c006-1
       zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
-  - text: 'Planungsnotiz an den WP: Revisionspflicht mit Zahlen GJ/VJ, Unabhängigkeit/Mitwirkung (Angabe WP), Verständnis, Ergebnisse der Analytik, Befund Fortführung und Kapital (`kapitalverlust` aus `aufgabe mandat-start`), angewiesene Entwürfe – je mit Quelle (M-Files-ID); offene Punkte als Notiz «Pendenz», Themen für den Kunden als «Schlussbesprechung». Kein Visum.'
+  - text: 'Fortführung und Kapital: Kapitalverlust (Art. 725a OR) und Überschuldung (Art. 725b OR) bei jedem Mandat nach dem Import mit dem Rechner nachrechnen – Werte aus der Bilanz, Verbindlichkeiten unverändert, Covid-Kredit nur mit `--covid-kredit`; Rechnung schon in `aufgabe mandat-start` (Auslöser) erledigt → übernehmen. Befund an den WP (Planungsnotiz), bei Kapitalverlust oder Überschuldung zusätzlich `aufgabe kapitalschutz`.'
+    aufruf: kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …]
+    fundstellen:
+    - quelle: or__art-725a
+      zitat: Zeigt die letzte Jahresrechnung, dass die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
+  - text: 'Planungsnotiz an den WP – als Entwurf in der Antwort bzw. im Rapport und im Agenten-Protokoll (Praxis/intern), nicht als revio-Notiz und nie in revio 3.x: Revisionspflicht mit Zahlen GJ/VJ, Unabhängigkeit/Mitwirkung (Angabe WP), Verständnis, Ergebnisse der Analytik, Befund Fortführung und Kapital (Punkt davor), angewiesene Entwürfe – je mit Quelle (M-Files-ID). Nur offene Punkte als revio-Notiz «Pendenz» bzw. Themen für den Kunden als «Schlussbesprechung» im Bereich 4 des betroffenen Prüffelds bzw. in 10.x (`revio K7`). Kein Visum.'
     aufruf: revio K7
     fundstellen:
     - quelle: ser-2022__7-1
       zitat: Zu dokumentieren sind insbesondere die Planung und die Durchführung der Prüfungsarbeiten.
     - quelle: ser-2022__7-2
       zitat: das inhärente Risiko sowie der darauf basierende Prüfungsplan;
-  - text: 'Tor vor Agent-Prozess 2 (Ergebnis ins Agenten-Protokoll): (1) Testphase: Importkontrolle durch den WP erfolgt? Sonst Halt und Pendenz. (2) Wesentlichkeit 3.3 erfasst und gelesen (`aufgabe wesentlichkeit`)? Sonst Pendenz und keine Prüffelder beginnen. (3) 3.1/3.5 gelesen? Fehlen Leserecht oder Eintrag: Pendenz, keine Annahme zu Risiko oder Strategie, nur die vom WP markierten bzw. angewiesenen Prüfschritte bearbeiten.'
+  - text: 'Tor vor Agent-Prozess 2 (Ergebnis ins Agenten-Protokoll): (1) Testphase: Importkontrolle durch den WP erfolgt? Sonst Halt und Pendenz. (2) Wesentlichkeit 3.3 erfasst und gelesen? Ergebnis aus `aufgabe mandat-start` (Punkt Wesentlichkeit) übernehmen – nur falls dort nicht gelesen: `aufgabe wesentlichkeit`; fehlt 3.3: Pendenz und keine Prüffelder beginnen. (3) 3.1/3.5 gelesen? Fehlen Leserecht oder Eintrag: Pendenz, keine Annahme zu Risiko oder Strategie, nur die vom WP markierten bzw. angewiesenen Prüfschritte bearbeiten.'
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c009-3
       zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
@@ -196,7 +202,7 @@ aufgaben:
     - quelle: konzept-ki-revisionsagent-2026__c012-1
       zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
   fertig_wenn: Planungsnotiz (Verständnis, Analytik, Fortführung/Kapital; Entwürfe nur auf Anweisung) beim WP, offene Punkte als Notiz «Pendenz», Tor-Ergebnis im Agenten-Protokoll.
-  naechste: [wesentlichkeit, prueffeld]
+  naechste: [prueffeld]
 - id: prueffeld
   titel: Prozess 2 – Prüffeld bearbeiten (markierte Abschlussprüfung)
   stichworte: [prueffeld, abschlusspruefung, prozess 2, bilanzposition, pruefschritte, markierte pruefung]
@@ -251,7 +257,7 @@ aufgaben:
       zitat: Grund für den Rapport
   - text: Textfeld-Entwurf je Schritt (Prüfziel, Quellen mit M-Files-ID, Auswahl/Umfang mit Begründung, Ergebnis mit Zahlen, Feststellungen, Pendenzen, Status).
     aufruf: revio K6
-  - text: Nachweis aus M-Files als Beleg hochladen.
+  - text: 'Nachweis referenzieren: M-Files-ID und Version im Textfeld bzw. in der Notiz nennen; Upload als Beleg über K15 erst nach Entscheid consis (bis dahin keine Datei hochladen).'
     aufruf: revio K15
   - text: Feststellungen und Pendenzen als Notiz erfassen (Buchungsvorschlag ohne Verbuchung).
     aufruf: revio K7
@@ -579,10 +585,10 @@ aufgaben:
   naechste: []
 - id: abschluss
   titel: Beendigung – Ereignisse nach dem Stichtag, Vollständigkeitserklärung, nicht korrigierte Fehler
-  stichworte: [beendigung, abschluss, ereignisse nach dem bilanzstichtag, vollstaendigkeitserklaerung, ve, going concern, nicht korrigierte fehler, 6.1, schlussbesprechung, folgejahr]
+  stichworte: [beendigung, abschluss, abschlussarbeiten, ereignisse nach dem bilanzstichtag, vollstaendigkeitserklaerung, ve, going concern, nicht korrigierte fehler, 6.1, schlussbesprechung, folgejahr]
   prozess: "2"
   phase: p4-abschluss
-  ziel: Für den WP vorbereiten – Ereignisse nach dem Stichtag (Folgejahresbuchungen, Protokolle), Vollständigkeitserklärung (Muster, Datum), Liste nicht korrigierter Fehler (6.1, Beurteilung WP), Punkte für die Schlussbesprechung.
+  ziel: Für den WP vorbereiten – Ereignisse nach dem Stichtag (Befragung vorbereiten, Protokolle; Durchsicht von Folgejahresbuchungen nur auf Anweisung des WP), Vollständigkeitserklärung (Muster, Datum), Liste nicht korrigierter Fehler (6.1, Beurteilung WP), Punkte für die Schlussbesprechung.
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
   regeln: [gesamt, schlussbesprechung, visum]

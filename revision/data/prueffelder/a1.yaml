@@ -804,7 +804,7 @@ schritte:
   vorgehen: '1) revio 3.4 und 6.3 lesen (nur lesen). 2) Going Concern: Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan)
     und Anhangsangaben prüfen; fehlt sie: Pendenz. 3) Kapitalverlust und Überschuldung mit `kapitalverlust` rechnen (Rechner dieses Wikis, kein revio-Werkzeug; siehe rechnen). Immer
     rechnen: Ein Kapitalverlust (Art. 725a OR) kann auch bei positivem Eigenkapital vorliegen. Bei negativem Eigenkapital (Anzeichen einer Überschuldung zu Fortführungswerten; Fremdkapital
-    ohne Covid-19-Kredite, `--covid-kredit`) zusätzlich die Überschuldung prüfen; weist `kapitalverlust` eine Überschuldung aus, ist Schritt 4 zwingend. Kapitalverlust oder Überschuldung
+    laut Bilanz, Covid-19-Kredite nur über `--covid-kredit`) zusätzlich die Überschuldung prüfen; weist `kapitalverlust` eine Überschuldung aus, ist Schritt 4 zwingend. Kapitalverlust oder Überschuldung
     festgestellt → `aufgabe kapitalschutz` (WP sofort informieren). VR-Beschluss über Massnahmen (Art. 725a OR) in den Protokollen suchen; fehlt er → Notiz «Wesentliche Feststellungen».
     Den Hinweis im Bericht (SER 8.3.2.1) formuliert und entscheidet der WP. 4) Bei Überschuldung: Rangrücktritte nur mit dem Betrag der unterzeichneten Vereinbarung anrechnen (nicht
     laut Anhang, Bilanztext oder Kundenauskunft), Σ laut Vereinbarungen mit der Anhangsangabe vergleichen (Abweichung → T1-315) und mit Darlehensverträgen/Saldoliste abgleichen (Betrag
@@ -822,17 +822,18 @@ schritte:
   - Zwischenabschluss zu Veräusserungswerten (falls überschuldet)
   - Protokolle VR/GV (Sanierungsmassnahmen)
   - Vollständigkeitserklärung
-  rechnen: 'Fremdkapital = Verbindlichkeiten + Rückstellungen + passive Rechnungsabgrenzungen (inkl. rangrücktrittsbelasteter Darlehen und Zinsen); Covid-19-Kredite nach Art. 3 SBüV
-    und Härtefall-Darlehen (HFMV 20) gelten nicht als Fremdkapital. Kapitalverlust und Überschuldung nie von Hand rechnen, sondern: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten
-    <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt
+  rechnen: 'Fremdkapital laut Bilanz = Verbindlichkeiten + Rückstellungen + passive Rechnungsabgrenzungen (inkl. rangrücktrittsbelasteter Darlehen und Zinsen und inkl. Covid-Kredit);
+    Covid-19-Kredite nach Art. 3 SBüV und Härtefall-Darlehen (HFMV 20) gelten für OR 725a/725b nicht als Fremdkapital – das rechnet der Rechner über --covid-kredit, sie also nicht vorher
+    abziehen. Kapitalverlust und Überschuldung nie von Hand rechnen, sondern: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten
+    <Fremdkapital laut Bilanz, unverändert, inkl. Covid-Kredit, Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt
     …] [--rr-polster …] [--holding]`. Gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals anrechenbar; gleiche Rechnung wie P1-313. Deckung = Σ Rangrücktritte
     (Kapital + aufgelaufene Zinsen) − Überschuldung − Sicherheitspolster (Höhe WP, `--rr-polster`) ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); EK-Quote =
-    Eigenkapital / Bilanzsumme; Überschuldung = Fremdkapital (ohne Covid-19-Kredite) − Aktiven (> 0 = überschuldet); Σ Rangrücktritte nur aus unterzeichneten Vereinbarungen; Differenz
+    Eigenkapital / Bilanzsumme; Überschuldung, wenn Fremdkapital laut Bilanz − Covid-Kredit > Aktiven (Rechner: --covid-kredit, nicht vorher abziehen); Σ Rangrücktritte nur aus unterzeichneten Vereinbarungen; Differenz
     Σ Vereinbarungen − Anhangsangabe = 0?'
   feststellung_wenn: Erhebliche Zweifel an der Fortführung ohne Anhangsangabe, Einschätzung fehlt/< 12 Monate, Kapitalverlust, Überschuldung ohne genügende Rangrücktritte inkl. Zinsen,
     Reduktion/Tilgung trotz Überschuldung.
   aufrufe:
-  - kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt …] [--rr-polster …] [--holding]
+  - kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten <Fremdkapital laut Bilanz, unverändert, inkl. Covid-Kredit, Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt …] [--rr-polster …] [--holding]
   - aufgabe kapitalschutz
   - thema going concern
   - thema rangrücktritt

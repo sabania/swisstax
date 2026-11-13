@@ -444,11 +444,12 @@ schritte:
   - quelle: ser-2022__anh-e-s101-1
     zitat: Eine schriftliche Vollständigkeitserklärung und ein unterzeichnetes Exemplar der Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) bestätigen
 - was: 'Eingegangene VE kontrollieren: adressiert, datiert, unterzeichnet (VR-Präsident und Verantwortliche/r Rechnungslegung), Inhalt unverändert gegenüber Entwurf bzw. Abweichungen
-    markieren; Datum mit vorgesehenem Berichtsdatum abgleichen; in 10.4 ablegen, Status offen lassen. Liegt die VE vor der vorgesehenen Berichtsabgabe nicht vor: Pendenz an den WP (Vorgehen
+    markieren; Datum mit vorgesehenem Berichtsdatum abgleichen; Ablage in 10.4 erst nach Freigabe des Uploads K15 (deny bis Entscheid consis) – bis dahin Vorliegen mit M-Files-ID
+    im Textfeld A1-103 festhalten bzw. Pendenz-Notiz «PBC-Vorschlag»; Status offen lassen. Liegt die VE vor der vorgesehenen Berichtsabgabe nicht vor: Pendenz an den WP (Vorgehen
     entscheidet der WP).'
   wer: Agent
-  revio: '10.4 Jahresrechnung und Vollständigkeitserklärung ablegen wie `revio K17` (Schritte 7 und 9, mit Freigabe; rv_post_workpapers_StoreContainerDocuments_by_areaId nie – deny
-    bis Entscheid consis); A1-103 Textfeld'
+  revio: '10.4 Jahresrechnung und Vollständigkeitserklärung ablegen wie `revio K17` (Schritte 7 und 9) erst nach Freigabe des Uploads K15 (deny bis Entscheid consis; rv_post_workpapers_StoreContainerDocuments_by_areaId
+    nie); bis dahin Vorliegen im Textfeld A1-103 festhalten bzw. Pendenz-Notiz «PBC-Vorschlag»'
   mfiles: Unterzeichnete VE und JR mit M-Files-ID/Version referenzieren
   fundstellen:
   - quelle: ser-2022__anh-e-s102-2

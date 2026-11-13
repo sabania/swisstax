@@ -151,8 +151,8 @@ regeln:
   zitat: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden
 - bereich: grenze
   key: kunde
-  regel: 'Kunden nie selbst kontaktieren und keine Unterlagen beim Kunden anfordern: fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10) bzw. Pendenz; der Status in 10.9 bleibt offen; die Anforderung
-    macht der Mensch.'
+  regel: 'Kunden nie selbst kontaktieren und keine Unterlagen beim Kunden anfordern: fehlende Unterlagen als Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen, nie direkt in 10.10; bis Entscheid consis);
+    der Status in 10.9 bleibt offen; die Anforderung macht der Mensch.'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Status bleibt offen; Anforderung beim Kunden durch den Menschen
 - bereich: grenze

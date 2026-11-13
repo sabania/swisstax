@@ -786,7 +786,7 @@ schritte:
   - Aktennotizen/Einschätzungen
   rechnen: 'Schätzdifferenz = bestmögliche Schätzung − gebuchte Rückstellung (Einzelrisiko wie Rechtsfall: wahrscheinlichster Betrag inkl. Prozesskosten, Praxis/intern; grosse Grundgesamtheit
     wie Garantien: Erwartungswert); Differenz zum oberen Ende der Bandbreite separat als Spanne ausweisen; Summe über alle Rückstellungen; Wesentlichkeit aus revio 3.3 lesen.'
-  feststellung_wenn: 'Differenz unter Nichtaufgriffsgrenze (3.3): nur im Textfeld protokollieren. Differenz über Nichtaufgriffsgrenze: Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
+  feststellung_wenn: 'Mit Anweisung (4xx): Differenz unter Nichtaufgriffsgrenze (3.3) nur im Textfeld protokollieren; ohne Anweisung kein Textfeld, nur im Rapport erwähnen. Differenz über Nichtaufgriffsgrenze: Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
     (ohne Verbuchung; wird in A1 kumuliert). Ob einzeln oder kumuliert wesentlich, beurteilt der WP (6.1).'
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1

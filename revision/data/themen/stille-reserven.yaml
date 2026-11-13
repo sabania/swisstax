@@ -166,7 +166,7 @@ agent:
   abgleichen (Aufruf `revio 10.3`, Lesewerkzeug rv_get_financialStatement_LoadHiddenReserves; in 10.3 nichts erfassen oder ändern). Die Kontrolle führt das Unternehmen (hwp-bur-2023__rz-0667-s296
   «über den Bestand und die Veränderung stiller Reserven ausserhalb der Buchhaltung eine Kontrolle zu führen»). Zusätzlich die schriftlichen Bewertungsregeln des Unternehmens beschaffen
   (hwp-bur-2023__rz-0668-s296 «Dazu müssen Bewertungsregeln aufgestellt werden, die zweckmässigerweise schriftlich festgehalten werden.»). Sie dienen als Grundlage für T1-111 (Methode
-  und Stetigkeit). Fehlt die Aufstellung, das Vorjahr oder die Bewertungsregeln: Notiz «Pendenz» und Vorschlag für die PBC-Liste (10.10). Gestützt auf ser-2022__anh-d-s073-1 und hwp-bur-2023__rz-0671-s297.'
+  und Stetigkeit). Fehlt die Aufstellung, das Vorjahr oder die Bewertungsregeln: Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen, nie direkt in 10.10). Gestützt auf ser-2022__anh-d-s073-1 und hwp-bur-2023__rz-0671-s297.'
 - 'HB I / HB II: Führt das Mandat in revio Bereich 1 eine HB I / HB II (konzept-ki-revisionsagent-2026__c006-2 «1.1 Bilanz, Erfolgsrechnung, Anhang, Antrag VR; 1.2 Kennzahlen und Dashboard;
   1.3 Spezialauswertungen; HB I / HB II»), die Differenzen Buchwert HB II − Buchwert HB I je Aktivposition lesen und mit der Aufstellung 10.3 abgleichen (hwp-bur-2023__rz-0905-s365 «Die
   handelsrechtlichen stillen Reserven auf Aktiven werden als Differenz zwischen dem Buchwert HB II und dem Buchwert HB I ermittelt»). Rz 905 betrifft nur die Aktiven; Reserven auf Passiven

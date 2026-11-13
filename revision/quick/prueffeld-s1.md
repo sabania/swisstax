@@ -19,7 +19,7 @@ quellen:
 - treuhand-almanach-2026
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 8099685eb8383f058c444096fe03d30351aa832bb7dde045fda867bc553e5a89
+quelle_sha: faa86627cc60245b31bbac4cbd706d88c60c7817f43bedfa98c3b9990588d16e
 ---
 
 
@@ -150,7 +150,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | S1-201 | Analytisch | EP | VO BE PA | vorbereiten | Beurteilung des Steueraufwandes im Vergleich zum Periodenergebnis und zum Vorjahr | Aus Saldoliste/Jahresrechnung Ergebnis vor Steuern und direkte Steuern (laufend/Vorjahr) entnehmen, Steuerquote und Veränderung im Rechenmodul berechnen.… |
 | S1-301 | Detail | EP | VO BE PA RI | vorbereiten | Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden) | Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen (z.B. Bussen, Art. 59 Abs. 2… |
 | S1-302 | Detail | ? |  | nur_mensch | Vergleich der gebuchten Steuern mit Steuerrechnungen, Selbstdeklaration und Veranlagungsverfügungen | Kennzeichnung offen («?», keine Prüfziele) → vom WP bestätigen lassen. SER: Abstimmung Steuererklärung–Jahresrechnung ist weiter gehend; Umfang erst nach… |
-| S1-151 | Detail | WP | RV VO BE RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Agent bearbeitet nichts eigenständig, sondern erfasst Pendenz an den WP: Inhalt festlegen… |
+| S1-151 | Detail | WP | RV VO BE RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalog (Anhang H) enthält keinen Text (Detail, WP, RV VO BE RI). Schritttext zuerst in revio nachlesen; fehlt er auch dort: Inhalt durch WP/consis zu… |
 | S1-303 | Detail | WP | EN VO BE PA RI | nur_mensch | Abstimmung der Entwicklung der Steuerabgrenzung mit der Steuererklärung und den Zahlungen | WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende… |
 | S1-304 | Detail |  | RV VO BE PA RI | vorbereiten | Prüfung der Steuerrückstellungen, insbesondere auf dem laufenden Gewinn | Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte Vorperioden; Risiken aus S1-101 bis S1-303… |
 | S1-321 | Detail |  | BE | vorbereiten | Bestand und Veränderung stiller Reserven | Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung berechnen. Steuerbezug: übersetzte… |

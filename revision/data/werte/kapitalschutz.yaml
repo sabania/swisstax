@@ -54,7 +54,7 @@ werte:
   gilt: Covid-19-SBüG, Fassung Stand 31.03.2026; in Kraft 19.12.2020 bis 31.12.2032 (Art. 31 Abs. 2)
   kategorie: kapitalschutz
   bemerkung: 'Art. 24 Abs. 1 Covid-19-SBüG für OR 725a Abs. 1 und 725b Abs. 1. Abs. 2: gilt sinngemäss für alle Rechtsformen mit Anzeigepflicht nach OR 725a/725b (z.B. GmbH). Kredite
-    nach Art. 4 Covid-19-SBüV (vgl. Art. 3 Abs. 1 Bst. b SBüG) nennt Art. 24 nicht. Im Rechner nur Kredite nach Art. 3 SBüV abziehen; bei Zweifeln Pendenz an den WP. Entfällt dadurch
+    nach Art. 4 Covid-19-SBüV (vgl. Art. 3 Abs. 1 Bst. b SBüG) nennt Art. 24 nicht – sie bleiben Fremdkapital. Im Rechner Kredite nach Art. 3 SBüV sowie Darlehen/Kredite nach Art. 21 HFMV 20 (qa_kv_hfmv20_bis; hwp-er-2026__rz-0373-s113) nur mit --covid-kredit eingeben; --verbindlichkeiten bzw. --eigenkapital unverändert aus der Bilanz (Kredit nicht zusätzlich abziehen); bei Zweifeln Pendenz an den WP. Entfällt dadurch
     der Kapitalverlust, entfällt auch die Prüfpflicht nach Art. 725a Abs. 2 OR (Q&A Frage 2, qa-kapitalverlust-2023__1-1-t1). Nächster Aufruf: kapitalverlust … --covid-kredit <Betrag>.'
   quelle: covid-sbueg__art-24
   zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt

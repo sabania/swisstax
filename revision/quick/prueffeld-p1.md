@@ -23,7 +23,7 @@ quellen:
 - vstg
 status: entwurf
 generiert: tools/build_quick.py, 2026-11-13
-quelle_sha: 5acf91f587c5a51e7625de4a77cc5c5076453218ab558d514cddc11a69570341
+quelle_sha: e4ac8e5507a4f8dada3c0a132d29cb9a72dc1e82d19f3ac9bb400f0f4ae43bcb
 ---
 
 
@@ -137,7 +137,7 @@ Eigenkapital (Art. 959a Abs. 2 Ziff. 3 OR). ER: Abstimmung mit Statuten/HR, Akti
 - Emissionsabgabe: Freibetrag CHF 1 Mio. nur einmalig und nicht für reine Zuschüsse; Ausnahmen u.a. bei Sanierungen (Art. 6 StG). Sanierung: bis CHF 10 Mio., nur mit Verlustverrechnung (KS 32a Ziff. 3.3.2). — [Treuhand-Almanach](../chunks/treuhand-almanach-2026/treuhand-almanach-2026__s067-1.md)
 - Eingeschränkte Revision: keine Drittbestätigungen; der Agent arbeitet mit beim Kunden verfügbaren Unterlagen (HR-Einträge und Statuten sind öffentlich zugänglich). — [SER](../chunks/ser-2022/ser-2022__1-5.md)
 - WP-Schritte (P1-306, P1-307, P1-308 «?», P1-141): ohne ausdrückliche Anweisung kein Textfeld, nur Notiz (offener Entscheid consis); Beurteilung und Visum immer beim WP. — [Konzept KI-Revisionsagent](../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c012-1.md)
-- Katalog unvollständig: P1-141 ohne Text (Position zwischen P1-308 und P1-310 und Typ deuten auf P1-309), P1-308 mit Kennzeichnung «?» – Inhalt bzw. Zuständigkeit vom WP klären lassen (Pendenz). — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-52.md)
+- Katalog unvollständig: P1-141 ohne Text (Position zwischen P1-308 und P1-310 und Typ deuten auf P1-309), P1-308 mit Kennzeichnung «?» – Inhalt bzw. Zuständigkeit vom WP klären lassen (P1-141: einmalige Meldung zur Katalogpflege an WP/consis, keine Pendenz je Mandat; P1-308: Kennzeichnung in revio nachlesen, Abweichung als Pendenz). — [Prüfschritt-Katalog revio 4.0](../chunks/katalog-revio4/katalog-revio4__c003-52.md)
 - SER ordnet steuerliche Behandlung (P1-308), Käufe/Verkäufe eigener Anteile, Änderungen im Grundkapital und Art. 680 Abs. 2 OR als weiter gehende Prüfungshandlungen ein: Durchführung bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko (Entscheid WP). — [SER S. 91](../chunks/ser-2022/ser-2022__anh-d-s091-1.md)
 - Verzeichnis der wirtschaftlich berechtigten Personen: Art. 697j OR ist per 1.10.2026 durch das Transparenzgesetz aufgehoben – für GJ 2025 die damals geltende Fassung beachten. — [OR 697J](../chunks/or/or__art-697j.md)
 - Ohne Revisionsbericht gefasste GV-Beschlüsse zu Jahresrechnung und Gewinnverwendung sind nichtig – bei P1-302/P1-312 Datum Revisionsbericht Vorjahr vs. GV-Datum beachten. — [OR 731](../chunks/or/or__art-731.md)
@@ -157,7 +157,7 @@ Rolle Agent: vorbereiten · teilweise (Befragung) · auf_anweisung (4xx) · nur_
 | P1-306 | Detail | WP | DO | nur_mensch | Analyse von Käufen oder Verkäufen eigener Anteile und deren Bilanzierung als Minusposten im Eigenkapital | WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz… |
 | P1-307 | Detail | WP | EX RV BE PA DO | nur_mensch | Bei Änderungen im Grundkapital und Ausgabe von Optionen: kritische Durchsicht | WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz… |
 | P1-308 | Detail | ? |  | nur_mensch | Prüfung der richtigen steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und - herabsetzungen sowie Gewinnausschüttungen… | Kennzeichnung «?» – bis Klärung wie WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – Kennzeichnung «?» (wie… |
-| P1-141 | Detail | WP | RV VO BE DO RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalogtext in revio leer (WP-Schritt, Prüfziele RV VO BE DO RI). Agent bearbeitet den Schritt nicht inhaltlich, sondern erfasst eine Pendenz an den WP zur… |
+| P1-141 | Detail | WP | RV VO BE DO RI | nur_mensch | (kein Katalogtext – Inhalt durch WP/consis zu bestätigen) | Katalogtext leer (WP-Schritt, Prüfziele RV VO BE DO RI). Schritttext zuerst in revio nachlesen; fehlt er auch dort: Inhalt durch WP/consis zu bestätigen… |
 | P1-310 | Detail |  | VO DO | vorbereiten | Prüfung korrekte Gliederung | EK in der Bilanz mit Mindestgliederung Art. 959a Abs. 2 Ziff. 3 OR vergleichen: AK, gesetzliche Kapitalreserve (unterteilt in KER und übrige), gesetzliche… |
 | P1-311 | Detail |  | DO | vorbereiten | Richtiger Ausweis Aufwertungsreserve (OR 670) | Katalogverweis «OR 670» ist überholt; massgebend ist Art. 725c OR. Konten und VR-Beschlüsse auf Aufwertungen von Grundstücken/Beteiligungen durchsehen. Falls… |
 | P1-312 | Detail |  | RV EN PA RI | vorbereiten | Vollzug Gewinnverwendungsbeschluss des Vorjahres | GV-Beschluss über die Verwendung des Bilanzergebnisses des Vorjahres (Protokoll oGV) mit den Buchungen im Prüfjahr abgleichen: Vortrag Jahresergebnis… |
