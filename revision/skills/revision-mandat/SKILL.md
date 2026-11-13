@@ -13,10 +13,12 @@ nur auf Anweisung des WP ^[konzept-ki-revisionsagent-2026__c010-1]; Testphase: H
 |---|---|
 | Neues/fortgeführtes Mandat (Kontext fixieren) | `aufgabe mandat-start` |
 | Akte und Vorjahresakte erschliessen (Mandantenordner) | `akte <pfad> --vj <vj-pfad>` · `--pf <code>` · `--suche "…"` |
+| Belege eines Prüffelds (vor jeder Prüffeld-Arbeit) | `arbeitspaket <pfad> --pf <code> --vj <vj-pfad>` (alle Teile `--teil N`) |
+| Auftrag für ein schwaches Modell in Turns zerlegen (Orchestrator) | `plan "<Auftrag>"` → JSON; je Turn eine Anweisung in derselben Session |
 | Auftrag, Unabhängigkeit, Revisionsart | `aufgabe auftrag` · `prozess p1` · `revisionspflicht …` · `wert revisionspflicht` |
 | Import Jahresrechnung (Prozess 1) | `aufgabe import` |
 | Planung, Risiken, Wesentlichkeit | `aufgabe wesentlichkeit` · `prozess p2` · `wesentlichkeit …` |
-| Prüffelder bearbeiten (Prozess 2) | `aufgabe <code>` (z.B. `aufgabe C1`) · Skill `revision-pruefschritt` |
+| Prüffelder bearbeiten (Prozess 2) | `aufgabe "<code>"` (z.B. `aufgabe "Prüffeld C1 vorbereiten"`) → `arbeitspaket … --pf <code>` · Skill `revision-pruefschritt` |
 | Unterlagen 10.9, PBC (Prozess 3) | `aufgabe unterlagen` · `unterlagen <code>` (nie die Vollausgabe aller Prüffelder) |
 | Abschluss: VE, Ereignisse nach Stichtag, Going Concern, Schlussbesprechung | `aufgabe abschluss` · `prozess p4` |
 | Bericht an die GV (Prozess 5), Modifikationen, Hinweise, Gewinnverwendung | `aufgabe gvb-bericht` · `prozess p5` · `thema hinweispflichten` |
@@ -48,6 +50,13 @@ nur auf Anweisung des WP ^[konzept-ki-revisionsagent-2026__c010-1]; Testphase: H
   nie an Kunden oder Dritte senden ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche
   ^[seminar-ki-datenschutz-2026__s006-1] (Regel `geheimnis_ki`); E-Mail an den WP nur als Entwurf in der Antwort – die Übermittlung an die
   freigegebene WP-Adresse macht der Mensch (Praxis/intern, Testphase; Regel `email`). Rapport und Notizen nur als Entwurf.
+
+## Schwache Modelle: Orchestrator
+Der Orchestrator ruft `plan "<Auftrag>" --akte <pfad> --vj <vj-pfad>` auf und gibt dem Agenten je Turn eine Anweisung in derselben Session
+(Turn 1 mit Mandatskontext und Auftrag; Prüffeld: Belege und Konten → je 3–4 Schritte → 4xx/WP → Abschluss mit Statustabelle). Der Agent
+bearbeitet je Turn nur dessen Anweisung und beginnt jede Prüffeld-Arbeit mit `arbeitspaket` (Praxis/intern; Orchestrator laut Konzept
+^[konzept-ki-revisionsagent-2026__c004-1]). Wird der Kontext zu gross, beginnt der Orchestrator eine neue Sitzung mit «Übergabe» der
+bisherigen Ergebnisse; Belege dann mit `arbeitspaket … --teil N` neu lesen. Aufrufe `aufgabe "…"` = Tool aufgabe mit diesem Text.
 
 ## Agent-Prozesse (Konzept consis)
 1 Import Jahresrechnung (M-Files → revio 1.1; Bilanzgleichheit/Totale mit `rechne`; Testphase: Halt zur Kontrolle) ·

@@ -4,6 +4,7 @@ Phasenwahl von `prozess`, Tor in der Kompaktansicht, Budgets, Schritt-Ids, Notiz
 
   python3 revision/eval/werkzeug_test.py
 """
+import re
 import sys
 from pathlib import Path
 
@@ -200,6 +201,111 @@ def _plan():
                 f.append(f"{auftrag!r}: Schritte {len(ids)}/{len(soll)}")
             if not any(c.startswith("arbeitspaket ") for c in p["turns"][0]["aufrufe"]) or not p["turns"][0]["aufrufe"][0].startswith("aufgabe"):
                 f.append(f"{auftrag!r}: Turn 1 ohne aufgabe/arbeitspaket")
+    return f
+
+
+# Kleine fiktive Akte mit abweichender Struktur (Namen und Beträge erfunden): Saldoliste als Kompositum ohne Gruppenspalte, mit Gruppen-
+# zeilen und Kontonummern ausserhalb des Kontenrahmens KMU; Journal mit Kontoblatt-Überschrift «Bezeichnung (Nummer)» und Spalten
+# Belastung/Gutschrift; Jahresrechnung als «Finanzbericht» im OR-Format (Positionszeilen ohne Konten) und Anhang mit Zession
+SYNTH = {
+    "Abschluss/Kontensaldenliste_2030.md": """# Abschluss/Kontensaldenliste_2030.xlsx
+
+| Kto-Nr. | Kontobezeichnung | 31.12.2030 | 31.12.2029 |
+|---|---|---|---|
+| 100 | Flüssige Mittel | 14'691.37 | 11'802.64 |
+| 1000 | Kasse | 4'213.58 | 1'907.23 |
+| 1020 | Bank A Kontokorrent | 10'477.79 | 9'895.41 |
+| 1400 | Forderungen Kunden Inland | 71'356.17 | 61'283.92 |
+| 1401 | Forderungen Kunden Ausland | 29'771.46 | 19'624.31 |
+| 2000 | Verbindlichkeiten Lieferanten | -41'238.66 | -34'919.08 |
+| 2800 | Aktienkapital | -97'531.13 | -97'531.13 |
+| 3400 | Dienstleistungsertrag | -307'418.59 | -281'366.47 |
+| 6900 | Zinsaufwand Bank | 1'137.29 | 913.18 |
+""",
+    "Abschluss/Buchungsjournal_2030.md": """# Abschluss/Buchungsjournal_2030.pdf
+
+## Forderungen Kunden Inland (1400)
+
+| Datum | Beleg | Text | Gegenkonto | Belastung | Gutschrift | Saldo |
+|---|---|---|---|---|---|---|
+| 01.01.2030 | EB | Eröffnung | 9100 |  |  | 61'283.92 |
+| 15.06.2030 | RE-2030-0007 | Faktura Kunde | 3400 | 24'567.11 |  | 85'851.03 |
+| 30.09.2030 | ZE-2030-0003 | Zahlung Kunde | 1020 |  | 14'494.86 | 71'356.17 |
+""",
+    "Abschluss/Finanzbericht_2030.md": """# Abschluss/Finanzbericht_2030.pdf
+
+## Bilanz per 31.12.2030
+
+| Aktiven | Anhang | 31.12.2030 | 31.12.2029 |
+|---|---|---|---|
+| Flüssige Mittel |  | 14'691.37 | 11'802.64 |
+| Forderungen aus Lieferungen und Leistungen | 2 | 101'127.63 | 80'908.23 |
+| Total Aktiven |  | 115'819.00 | 92'710.87 |
+
+## Anhang
+
+### 1. Grundsätze
+Nach den Vorschriften des Obligationenrechts.
+
+### 2. Zur Sicherung eigener Verbindlichkeiten verwendete Aktiven
+Forderungen von CHF 48'765 sind an Bank A zediert (Globalzession).
+""",
+}
+
+
+@fall("arbeitspaket generisch: Saldoliste-Kompositum, Gruppenzeilen, Teiltreffer, Bilanzseite, Journal «(Nr)», Belastung/Gutschrift, "
+      "Finanzbericht im OR-Format, Anhang-Begriffsgruppe")
+def _arbeitspaket_generisch():
+    import tempfile
+    f = []
+    with tempfile.TemporaryDirectory() as d:
+        for rel, txt in SYNTH.items():
+            (Path(d) / rel).parent.mkdir(parents=True, exist_ok=True)
+            (Path(d) / rel).write_text(txt, encoding="utf-8")
+        c1, b1 = rv.arbeitspaket(d, "C1"), rv.arbeitspaket(d, "B1")
+    soll = {"C1: Konto 1400 (Teiltreffer «b»)": ("| 1400 | Forderungen Kunden Inland |" in c1 and "| b |" in c1),
+            "C1: Kontoblatt «(1400)» aus dem Buchungsjournal": "### Konto 1400 · Abschluss/Buchungsjournal_2030.md" in c1,
+            "C1: Gegenkonten aus Belastung/Gutschrift": "Gegenkonten der Buchungen" in c1,
+            "C1: Positionszeile der Bilanz (OR-Format)": re.search(r"\|Forderungen aus Lieferungen und Leistungen\|2\|101'127.63", c1) is not None,
+            "C1: Anhang «Zur Sicherung …» (Zession)": "Anhang «### 2. Zur Sicherung eigener Verbindlichkeiten" in c1,
+            "B1: Gruppenzeile «100» als Gruppe, nicht als Konto": ("| 1020 | Bank A Kontokorrent | Flüssige Mittel |" in b1
+                                                                  and not re.search(r"^\| 100 \|", b1, re.M) and "Gruppe 100 Flüssige Mittel" in b1),
+            "B1: «Zinsaufwand» nicht bei den flüssigen Mitteln": "| 6900 | Zinsaufwand Bank" not in b1.split("Gegenkonten der Buchungen")[0]}
+    f += [k for k, ok in soll.items() if not ok]
+    namen = {"Kontensaldenliste_2030": rv._ist_saldoliste, "Hauptbuchsaldi_2030": rv._ist_saldoliste, "Finanzbericht_2030": rv._ist_jahresrechnung,
+             "Abschluss_2030": rv._ist_jahresrechnung, "Buchungsjournal_2030": rv._ist_hauptbuch}
+    f += [f"Name {n} nicht erkannt" for n, fn in namen.items() if not fn(n)]
+    f += [f"Name {n} fälschlich erkannt" for n, fn in {"Saldobestaetigung_Bank_2030": rv._ist_saldoliste, "Abschlussbuchungen_2030":
+                                                       rv._ist_jahresrechnung, "Anhang_Mietvertrag": rv._ist_jahresrechnung}.items() if fn(n)]
+    if rv._pf_zu_namen("Offene_Posten_Kunden_31.12.2030")[0][:1] != ["C1"] or "B1" in rv._pf_zu_namen("Offene_Posten_Lieferanten")[0]:
+        f.append("«Offene Posten» → B1 statt C1/K1")
+    return f
+
+
+@fall("plan generisch: Schrägstrich im Prüffeldnamen, ohne VJ keine Platzhalter, `aufgabe \"…\"` eindeutig, Code-Spans ausgeglichen")
+def _plan_generisch():
+    import json
+    f = []
+    p = json.loads(rv.plan("Prozess 2 – Bereite das Prüffeld Vorräte/Angefangene Arbeiten vor."))
+    if p["prueffelder"] != ["F1", "F2"]:
+        f.append(f"Vorräte/Angefangene Arbeiten → {p['prueffelder']}")
+    if "(GV und VR)" not in rv._plan_route("Welche Protokolle (GV/VR) liegen vor? Akte: a/b-2030", "a/b-2030", None):
+        f.append("(GV/VR) im Routing-Text entstellt")
+    for auftrag in ("Starte das Mandat.", "Prüffeld C1 vorbereiten", "Prozess 3 – Welche \"Protokolle\" liegen vor?"):
+        p = json.loads(rv.plan(auftrag, str(AKTE_GJ)) if AKTE_GJ.is_dir() else rv.plan(auftrag))
+        for t in p["turns"]:
+            txt = t["anweisung"] + json.dumps(t["aufrufe"], ensure_ascii=False)
+            if re.search(r"<(?:vj-)?pfad>", txt):
+                f.append(f"{auftrag!r} Turn {t['nr']}: Platzhalter")
+            if t["anweisung"].count("`") % 2:
+                f.append(f"{auftrag!r} Turn {t['nr']}: Backticks ungerade")
+            if re.search(r"`aufgabe (?!\")", t["anweisung"]) or any(re.match(r"aufgabe (?!\")", c) for c in t["aufrufe"]):
+                f.append(f"{auftrag!r} Turn {t['nr']}: aufgabe ohne Anführungszeichen")
+            for c in t["aufrufe"]:
+                if c.startswith("aufgabe ") and c.count('"') != 2:
+                    f.append(f"{auftrag!r} Turn {t['nr']}: Aufruf mit Anführungszeichen im Text: {c[:60]}")
+    if rv.cut_code("Rechne `a + b` und dann `rechne \"x = 1\"` weiter", 30).count("`") % 2:
+        f.append("cut_code lässt einen Code-Span offen")
     return f
 
 

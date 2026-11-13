@@ -11,7 +11,7 @@
 prueffeld_synonyme:
   A1: [allgemeine pruefungshandlungen, gesamtanalytik, jahresrechnung als ganzes]
   B1: [fluessige mittel, bank, banken, kasse, post, liquiditaet, bankkonto, bankkonten, bankguthaben, wertschriften]
-  C1: [debitoren, forderungen lul, forderungen aus lieferungen, kundenforderungen, op-liste debitoren]
+  C1: [debitoren, forderungen lul, forderungen aus lieferungen, kundenforderungen, op-liste debitoren, kundenguthaben, offene posten kunden]
   D1: [uebrige forderungen, uebrige kurzfristige forderungen, verrechnungssteuer guthaben, kautionen]
   E1: [aktive rechnungsabgrenzung, transitorische aktiven, ara]
   F1: [vorraete, lager, inventar, inventur, warenlager]
@@ -22,7 +22,7 @@ prueffeld_synonyme:
   H2: [aktivdarlehen, darlehen an aktionaer, darlehen an nahestehende, darlehensforderung]
   H3: [beteiligungen, tochtergesellschaft, beteiligung]
   I1: [immaterielle anlagen, immaterielle werte, goodwill, software, lizenzen]
-  K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen, lieferanten, lieferant]
+  K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen, lieferanten, lieferant, offene posten lieferanten]
   L1: [kurzfristige verzinsliche verbindlichkeiten, bankschulden kurzfristig, kontokorrent, bankschulden, kontokorrentkredit, festvorschuss, festkredit]
   M1: [uebrige kurzfristige verbindlichkeiten, sozialversicherungen, ahv, quellensteuer verbindlichkeit]
   M2: [mwst, mehrwertsteuer, vorsteuer, umsatzsteuer]
@@ -146,7 +146,7 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c009-3
       zitat: Menschliche Kontrollpunkte. In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
-  fertig_wenn: Simulation stimmt mit der definitiven Jahresrechnung überein (Differenz 0) oder Differenzen als Pendenz; Halt, WP informiert.
+  fertig_wenn: Simulation stimmt mit der definitiven Jahresrechnung überein (Differenz 0) oder Differenzen als Pendenz; danach Halt (Testphase) – Hinweis für den WP als Notiz-Entwurf (nichts senden).
   naechste: [planung]
 - id: planung
   titel: Planung vorbereiten – Verständnis, Abschlussanalyse, Planungsnotiz, Tor vor Agent-Prozess 2

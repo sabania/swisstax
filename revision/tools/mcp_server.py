@@ -202,8 +202,9 @@ TOOLS = [
                     "Folgejahr) · Zeilen der Jahresrechnung mit Zwischentotalen und passende Anhang-Abschnitte · Dateien des Prüffelds "
                     "(klein ganz, gross als Auszug) · weitere Fundstellen in anderen Ordnern · Vorjahresakte (Folgejahr-Hinweise, Pendenzen, "
                     "Feststellungen) · Schritte mit «was rechnen». Teile ≤ 24 KB: der Kopf nennt die Anzahl – ALLE Teile lesen (teil = 2, 3 …). "
-                    "pf = Code (C1) oder mehrere (L1,N1); schritt = Id (C1-302) für das Paket eines Schritts (Nachweise → Fundorte zuerst). "
-                    "Pfade wie bei `akte` (wie im Auftrag genannt).",
+                    "pf = Code (C1) oder mehrere (L1,N1); schritt = Id (C1-302) für das Paket eines Schritts (Teil 1: Schrittkarte mit "
+                    "Fundorten der Nachweise; mit pf zusätzlich weitere Prüffelder). Saldoliste, Hauptbuch/Journal und Jahresrechnung "
+                    "(auch getrennte Bilanz/Anhang-Dateien) werden am Namen bzw. am Inhalt erkannt. Pfade wie bei `akte` (wie im Auftrag genannt).",
      "inputSchema": obj({"pfad": {**S, "description": "Ordner der Akte (Geschäftsjahr), Pfad wie im Auftrag genannt"},
                          "pf": {**S, "description": "Prüffeld-Code, z.B. C1; mehrere mit Komma: L1,N1"},
                          "vj": {**S, "description": "Ordner der Vorjahresakte (Saldo VJ-Akte, Hinweise Folgejahr, Pendenzen, Feststellungen)"},
@@ -215,8 +216,11 @@ TOOLS = [
                     "Turn «Belege und Konten» (aufgabe + arbeitspaket, alle Teile) → je 3–4 vorbereitbare Schritte ein Turn (Reihenfolge der "
                     "Checkliste) → 4xx/WP gesammelt → Abschluss-Turn mit Statustabelle aller Ids, Notizen, Pendenzen. Andere Aufgaben "
                     "(mandat-start, import, unterlagen, rapport …): Checklistenpunkte je 3–4 → Abschluss mit «Fertig, wenn». Jede "
-                    "anweisung ist vollständig (was aufrufen, rechnen, ausgeben; Statuswörter; kein ✓, nichts senden). Der Orchestrator "
-                    "sendet Turn 1 mit Vorspann und Auftrag, danach je Turn nur die anweisung in derselben Session.",
+                    "anweisung ist vollständig (was aufrufen, rechnen, ausgeben; Statuswörter mit Kriterien; kein ✓, Abstimmung als "
+                    "«Differenz 0 (rechne)»; nichts senden); Aufrufe von `aufgabe` stehen in Anführungszeichen (`aufgabe \"Prüffeld C1 "
+                    "vorbereiten\"` = Tool aufgabe, nicht Tool prueffeld); ohne Vorjahresakte bzw. Akte keine Platzhalter, sondern Hinweis "
+                    "«→ Pendenz». Der Orchestrator sendet Turn 1 mit Vorspann und Auftrag, danach je Turn nur die anweisung in derselben "
+                    "Session (bei vollem Kontext neue Sitzung mit Übergabe).",
      "inputSchema": obj({"auftrag": {**S, "description": "Auftrag (auch mit Vorspann; geroutet wird der Text nach dem letzten «Auftrag:»)"},
                          "akte": {**S, "description": "Ordner der Akte (sonst aus dem Auftrag)"},
                          "vj": {**S, "description": "Ordner der Vorjahresakte (sonst aus dem Auftrag)"}}, ["auftrag"])},

@@ -19,6 +19,7 @@ Nur Python-Standardbibliothek (läuft im Plugin). Daten: index/lookup.json (tool
 """
 from __future__ import annotations
 import argparse, calendar, hashlib, json, os, re, sqlite3, sys, time, unicodedata
+from collections import Counter
 from datetime import date, timedelta
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from functools import lru_cache, wraps
@@ -2975,7 +2976,7 @@ def aufgabe(text: str | None = None) -> str:
         fsl = next((f"^[{f['quelle']}]" for f in c.get("fundstellen") or [] if f.get("quelle")), "")   # erste Fundstelle des Punkts
         je = f" (je Prüffeld: {', '.join(codes)})" if len(codes) > 1 and "<code>" in call else ""
         txt = pfade(c["text"]).replace("<code>", codes[0]) if len(codes) == 1 else pfade(c["text"])
-        out.append(f"{i}. {txt}" + (f" {fsl}" if fsl else "") + (f"  → `{call}`{je}" if call else ""))
+        out.append(_aufrufe_eindeutig(f"{i}. {txt}" + (f" {fsl}" if fsl else "") + (f"  → `{call}`{je}" if call else "")))
         if call.startswith("revio K"):
             out += _kette_kurz(call.split()[1], ketten, c["text"])
     if a.get("tabelle"):
@@ -3131,7 +3132,8 @@ AKTE_MAX_DATEIEN = 2000
 DOKWORT = {key(w) for w in ("liste listen abstimmung abstimmungen auszug auszuege kontoauszug kontoauszuege bestaetigung bestaetigungen "
                              "protokoll protokolle vertrag vertraege scan kopie entwurf zusammenzug aktennotiz notiz rechnung rechnungen "
                              "abrechnung abrechnungen meldung uebersicht aufstellung nachweis beleg belege januar februar dezember per stand "
-                             "unterzeichnet ausgefuellt tabelle teil fassung version original").split()}
+                             "unterzeichnet ausgefuellt tabelle teil fassung version original berechnung berechnungen zusammenstellung "
+                             "posten").split()}
 # Dokumente für alle Prüffelder (Saldoliste, Hauptbuch, Jahresrechnung …) – «allgemein»
 ALLG_WORT = tuple(key(w) for w in ("allgemein", "saldoliste", "saldenliste", "saldobilanz", "saldenbilanz", "hauptbuch", "kontoblatt",
                                      "jahresrechnung", "belegverzeichnis", "inhaltsverzeichnis", "erfolgsrechnung", "dauerakte"))
@@ -3142,13 +3144,29 @@ GLIED_RX = re.compile(r"^(?:(Bilanz|Erfolgsrechnung|Anhang|Geldflussrechnung|Ant
 AKTE_BAUM_MAX = 300             # mehr Dateien: Übersicht nur je Ordner (sonst > 90 KB)
 
 
+def _openclaw_profil() -> Path | None:
+    """OpenClaw-Statusordner, zu dem dieses Werkzeug gehört: $OPENCLAW_STATE_DIR bzw. der Ordner ~/.openclaw[-<profil>], in dessen
+    extensions/ das Plugin installiert ist (z.B. ~/.openclaw-<profil>/extensions/revisionswiki/tools/revision.py); sonst None (Repository)."""
+    if os.environ.get("OPENCLAW_STATE_DIR"):
+        return Path(os.environ["OPENCLAW_STATE_DIR"]).expanduser()
+    try:
+        home = Path.home().resolve()
+        return next((q for q in Path(__file__).resolve().parents if q.name.startswith(".openclaw") and q.parent == home), None)
+    except (OSError, RuntimeError):
+        return None
+
+
 def _akte_basen() -> list[Path]:
+    """Basisordner für relative Aktenpfade: $REVISION_AKTE_BASIS, $OPENCLAW_WORKSPACE(_DIR), $PWD, dann die Workspaces des eigenen OpenClaw-
+    Profils (Plugin im Profil installiert) – sonst aller Profile (~/.openclaw*/workspace*). So lösen Plan (Orchestrator) und Agent dieselbe Akte
+    auf, auch wenn ein anderes Profil einen gleichnamigen Ordner hat."""
     out = []
-    for v in ("REVISION_AKTE_BASIS", "OPENCLAW_WORKSPACE", "PWD"):
+    for v in ("REVISION_AKTE_BASIS", "OPENCLAW_WORKSPACE", "OPENCLAW_WORKSPACE_DIR", "PWD"):
         if os.environ.get(v):
             out.append(Path(os.environ[v]).expanduser())
+    profil = _openclaw_profil()
     try:
-        out += sorted(p for p in Path.home().glob(".openclaw*/workspace*") if p.is_dir())
+        out += sorted(p for p in (profil.glob("workspace*") if profil else Path.home().glob(".openclaw*/workspace*")) if p.is_dir())
     except OSError:
         pass
     return list(dict.fromkeys(out))
@@ -3171,7 +3189,7 @@ def _akte_wurzel(pfad: str) -> Path:
             raise ValueError(f"«{pfad}» ist eine Datei. Ordner der Akte angeben und die Datei mit `--datei` lesen: "
                              f"`akte {q.parent} --datei {q.name}`.")
     such = ", ".join(["absolut"] if p.is_absolute() else ["aktueller Ordner", "$REVISION_AKTE_BASIS", "$OPENCLAW_WORKSPACE", "$PWD",
-                                                         "~/.openclaw*/workspace*"])
+                                                         f"{_openclaw_profil() or '~/.openclaw*'}/workspace*"])
     raise ValueError(f"Akte «{pfad}» nicht gefunden (gesucht: {such}). Pfad wie im Auftrag genannt angeben: `akte <ordner-der-akte>`; "
                      "ohne Akte: «nicht gefunden» als Pendenz, nichts erfinden.")
 
@@ -3352,7 +3370,7 @@ def _name_passt(t: str, n: str) -> float:
     for k, l in ((t, n), (n, t)):
         if len(k) >= 5 and l.startswith(k) and l[len(k):] in PLURAL:
             return 1.0
-    if len(t) >= 4 and n.startswith(t):
+    if len(t) >= 4 and n.startswith(t) and not (len(t) <= 4 and n[len(t):].startswith("en")):   # Kurzsynonym: Post ≠ Posten(liste)
         return 0.8
     if len(t) >= 6 and n.endswith(t) and not any(n.endswith(d) and len(d) >= len(t) for d in DOKWORT):
         return 0.8
@@ -3364,14 +3382,15 @@ def _name_passt(t: str, n: str) -> float:
     return 0.8 if cp >= 6 and cp >= min(len(t), len(n)) - 1 else 0.0
 
 
-def _pf_zu_namen(name: str, mit_staerke: bool = False):
+def _pf_zu_namen(name: str, mit_staerke: bool = False, werte: bool = False):
     """Vermutete Prüffelder für einen Datei-/Ordnernamen (höchstens 3) und ob die Zuordnung sicher ist (Bezeichnung/Synonym ganz enthalten).
     Mehrwort-Phrasen brauchen mehr als die Hälfte ihrer Wörter (sonst «Rangrücktritt Aktionär» = «Darlehen an Aktionär»).
-    mit_staerke: zusätzlich die Codes mit starkem Signal (exakt oder Mehrwort-Phrase, z.B. «Darlehen an Aktionär»)."""
+    mit_staerke: zusätzlich die Codes mit starkem Signal (exakt oder Mehrwort-Phrase, z.B. «Darlehen an Aktionär»); werte (nur mit
+    mit_staerke): zusätzlich je Code die beste Abdeckung (0.5–1)."""
     roh = set(re.split(r"[^a-z0-9]+", key(name)))
     nt = [t for t in _ntok(name) if t not in DOKWORT]
     if not nt:
-        return ([], False, []) if mit_staerke else ([], False)
+        return (([], False, [], {}) if werte else ([], False, [])) if mit_staerke else ([], False)
     ph, w = _pf_phrasen()
     kand, st_ = {}, {}
     for c, lst in ph.items():
@@ -3405,7 +3424,20 @@ def _pf_zu_namen(name: str, mit_staerke: bool = False):
     rest = sorted(((-(b + 0.01 * sum(len(t) for t in m)), c) for c, (b, m, e) in kand.items() if c not in weg))
     codes = [c for _, c in rest[:3]]
     sicher = bool(codes) and all(kand[c][2] for c in codes[:1])
-    return (codes, sicher, [c for c in codes if st_.get(c)]) if mit_staerke else (codes, sicher)
+    if mit_staerke:
+        stark = [c for c in codes if st_.get(c)]
+        return (codes, sicher, stark, {c: kand[c][0] for c in codes}) if werte else (codes, sicher, stark)
+    return codes, sicher
+
+
+@lru_cache(maxsize=8192)
+def _pf_erstes(name: str) -> tuple:
+    """Erstes vermutetes Prüffeld eines Namens-Tokens (_pf_zu_namen) – zwischengespeichert, weil die Fundort-Suche je Unterlage alle
+    Dateinamen prüft."""
+    return tuple(_pf_zu_namen(name)[0][:1])
+
+
+_L_ABH.append(_pf_erstes)
 
 
 def _allgemein(name: str) -> bool:
@@ -3848,6 +3880,12 @@ def _unterlage_fundorte(dok: str, wurzeln, code: str | None = None) -> list[str]
     Wörter des Hauptteils zählen voll, Klammer-Details schwach; Dokumentart-Gruppen (Konto-/Bank-/Postauszug …) gelten als gleich;
     reine Dokumentart-Wörter (Protokoll, Rechnung …) halb. Eine Datei, deren Name ein anderes Prüffeld nennt (Saldobestätigung «Lieferant»
     bei Darlehensnehmern), passt nur, wenn mehr als die Dokumentart übereinstimmt."""
+    return [k["ref"] for k in _unterlage_kandidaten(dok, wurzeln, code)[:3]]
+
+
+def _unterlage_kandidaten(dok: str, wurzeln, code: str | None = None) -> list[dict]:
+    """Alle Fundort-Kandidaten einer Unterlage (Logik von _unterlage_fundorte), beste zuerst: {ref, lab, e, sc (Punkte), art (nur die
+    Dokumentart passt, z.B. «Kontoauszug»), treffer (passende Wörter der Unterlage), xs (Wörter des Dateinamens), kt (Protokoll)}."""
     haupt, neben = _dok_teile(dok)
     if not haupt and not neben:
         return []
@@ -3859,7 +3897,7 @@ def _unterlage_fundorte(dok: str, wurzeln, code: str | None = None) -> list[str]
             if not e["text"]:
                 continue
             xs = [x for x in dict.fromkeys(_ntok(Path(e["rel"]).stem)) if x not in FUNDORT_GEN]
-            sc, fach, nur_art, frei = 0.0, False, True, []
+            sc, fach, nur_art, frei, treffer = 0.0, False, True, [], set()
             for x in xs:
                 m, t, gew = max([(_fund_passt(t, x), t, 1.0) for t in haupt] + [(_fund_passt(t, x) * 0.4, t, 0.4) for t in neben],
                                 default=(0, "", 0))
@@ -3870,15 +3908,18 @@ def _unterlage_fundorte(dok: str, wurzeln, code: str | None = None) -> list[str]
                     if gew == 1.0:
                         fach = fach or grp or x not in DOKWORT or bool(kopf and _tok_passt(kopf, x, suffix=False))
                         nur_art = nur_art and art
+                        treffer.add(t)
                 else:
                     frei.append(x)
-            if code and nur_art and any(c != code for x in frei if len(x) >= 5 for c in _pf_zu_namen(x)[0][:1]):
+            if code and nur_art and any(c != code for x in frei if len(x) >= 5 for c in _pf_erstes(x)):
                 continue   # nur die Dokumentart passt, der Name nennt aber ein anderes Prüffeld (z.B. Lieferant ≠ Darlehensnehmer)
             kt = bool(kopf) and any(_tok_passt(kopf, x, suffix=False) for x in xs)
             if fach and (sc >= 9 or (kt and sc >= 4)):
                 rang = (1 - o) if vj_zuerst else o
-                res.append((not kt, rang, -sc, f"{lab}{e['rel']}"))   # Protokoll-Dateien zuerst, wenn die Unterlage ein Protokoll ist
-    return [r for *_, r in sorted(res)[:3]]
+                # Protokoll-Dateien zuerst, wenn die Unterlage ein Protokoll ist
+                res.append(((not kt, rang, -sc, f"{lab}{e['rel']}"),
+                            {"ref": f"{lab}{e['rel']}", "lab": lab, "e": e, "sc": sc, "art": nur_art, "treffer": treffer, "xs": xs, "kt": kt}))
+    return [k for _, k in sorted(res, key=lambda x: x[0])]
 
 
 def _such_vorschlag(dok: str) -> str:
@@ -3945,40 +3986,86 @@ def _akte_pf(root: Path, vjr: Path | None, idx: list[dict], vidx: list[dict], re
 
 
 # ------------------------------------------------------------------ Arbeitspaket (Belegpaket je Prüffeld/Schritt) – nur lesen, nichts speichern
-# Stellt die Belegstellen eines Prüffelds deterministisch zusammen (Konten der Saldoliste, Kontoblätter, Jahresrechnung, Dateien des Prüffelds,
-# weitere Fundstellen, Vorjahresakte, Schritte), damit ein schwaches Modell nicht selbst wählen muss, was es liest. Generisch für jede Akte:
-# erkannt wird nur über Datei-/Blattnamen, Kopfzeilen von Tabellen und die Prüffeld-Namenslogik von `akte` (_pf_zu_namen) – keine Ordner-,
-# Datei-, Firmen- oder Kontonamen einer bestimmten Akte. Wie `akte`: Inhalte nur zur Laufzeit lesen, nichts zwischenspeichern.
+# Stellt die Belegstellen eines Prüffelds deterministisch zusammen (Konten der Saldoliste, Kontoblätter und Gegenbuchungen, Jahresrechnung mit
+# Eckwerten und Anhang, Dateien des Prüffelds und Unterlagen laut Prüfprogramm aus anderen Ordnern, Querverweise und weitere Fundstellen,
+# Vorjahresakte mit Zusammenfassung, Prüfprogramm und Unterlagen, Schritte), damit ein schwaches Modell nicht selbst wählen muss, was es liest.
+# Generisch für jede Akte: erkannt wird nur über Datei-/Blattnamen, Kopfzeilen von Tabellen (Saldoliste, Buchungen mit Gegenkonto),
+# Überschriften, Belegnummern-/Betragsmuster, die Prüffeld-Namenslogik von `akte` (_pf_zu_namen) und das Prüfprogramm des Wikis (PBC-Unterlagen,
+# Nachweise der Schritte, Anhangangaben) – keine Ordner-, Datei-, Firmen- oder Kontonamen einer bestimmten Akte. Wie `akte`: Inhalte nur zur
+# Laufzeit lesen, nichts zwischenspeichern. Ablauf: kleinste Kürzungsstufe mit ≤ 3 Teilen wählen, danach freien Platz gruppenweise auffüllen.
 AP_MAX = 24 * 1024           # Bytes je Teil (unter der read-Kappung von OpenClaw)
 AP_TEILE_ZIEL = 3            # Ziel: höchstens so viele Teile – sonst stufenweise kürzen (niedrigste Priorität zuerst), dann mehr Teile
-# Kürzungsstufen (Reihenfolge der Abschnitte = Priorität): vj = Treffer Vorjahresakte (7), weitere/je = Fundstellen gesamt/je Datei (6),
-# ganz/anfang = Datei bis Bytes ganz bzw. erste Zeilen grösserer Dateien (5), jr/anhang = Zeilen je Block der Jahresrechnung (4), kb = Zeilen je
-# Kontoblatt (3). Stufe 0 = Vorgabe (je Konto ≤ 60 Zeilen, Datei ≤ 6 KB ganz, erste 25 Zeilen, ≤ 5 je Datei / ≤ 30 gesamt, ≤ 25 VJ-Zeilen).
-AP_STUFEN = (
-    {"kb": 60, "ganz": 6 * 1024, "anfang": 25, "weitere": 30, "je": 5, "vj": 25, "jr": 45, "anhang": 25},
-    {"kb": 60, "ganz": 6 * 1024, "anfang": 25, "weitere": 20, "je": 4, "vj": 15, "jr": 45, "anhang": 25},
-    {"kb": 60, "ganz": 4 * 1024, "anfang": 15, "weitere": 20, "je": 4, "vj": 15, "jr": 45, "anhang": 25},
-    {"kb": 40, "ganz": 4 * 1024, "anfang": 15, "weitere": 20, "je": 4, "vj": 15, "jr": 35, "anhang": 15},
-    {"kb": 25, "ganz": 3 * 1024, "anfang": 10, "weitere": 15, "je": 3, "vj": 12, "jr": 30, "anhang": 12},
-    {"kb": 15, "ganz": 2 * 1024, "anfang": 10, "weitere": 12, "je": 3, "vj": 10, "jr": 25, "anhang": 10},
-)
+# Kürzungsstufen: zuerst die Randabschnitte (Vorjahresakte, Fundstellen, Querverweise, Gegenbuchungen, Unterlagen aus anderen Ordnern,
+# übrige Bilanzkonten; Stufen 1–3 bis auf ein Minimum; ab Stufe 1 zudem Sammelbuchungen zusammengefasst), erst dann die Kernbelege (Dateien
+# des Prüffelds, Jahresrechnung, Kontoblätter; Stufen 4–7). Danach füllt AP_FUELLEN den freien Platz. Schlüssel (Abschnitt):
+#   2: gk = Gegenkonten der eigenen Buchungen mit Saldolisten-Zeile · bil = übrige Bilanzkonten (nur P1, Art. 725a/725b OR)
+#   3: kb = Zeilen je Kontoblatt · sammel = Sammelbuchungen vor dem letzten Monat ab so vielen Zeilen zusammengefasst (ab Stufe 1) ·
+#      gegen = Gegenbuchungen in anderen Konten · ab = Abschluss-/Umbuchungen aller Konten (nur A1)
+#   4: jr/anhang = Zeilen je Block der Jahresrechnung bzw. je Anhang-Abschnitt
+#   5: ganz/anfang = Datei bis Bytes ganz bzw. erste Zeilen grösserer Dateien · unt/untganz/untanf = Unterlagen laut Prüfprogramm aus
+#      anderen Ordnern gesamt/ganz/erste Zeilen
+#   6: weitere/je = Fundstellen gesamt/je Datei · quer/quer_je = Querverweise (gleiche Belegnummer/gleicher Betrag) gesamt/je Datei ·
+#      abschn = Abschnitte unter Überschriften mit Stichwort
+#   7: vjzus = Zeilen der Zusammenfassung des Vorjahres (Hinweise Folgejahr, Feststellungen) · vjpp = Zeilen des Vorjahres-Prüfprogramms ·
+#      vj = Treffer Vorjahresakte · vjdat/vjganz/vjanfang = Inhalt der VJ-Dateien des Prüffelds gesamt/ganz/erste Zeilen · vjunt = Unterlagen
+#      laut Prüfprogramm aus anderen Ordnern der Vorjahresakte gesamt
+# Stufe 0 = Vorgabe (je Konto ≤ 60 Zeilen, Datei ≤ 6 KB ganz, erste 25 Zeilen, Fundstellen ≤ 5 je Datei / ≤ 30 gesamt, ≤ 25 VJ-Zeilen).
+_AP_KERN = (   # kb, ganz, anfang, jr, anhang – Stufen 0–3 unverändert, dann stufenweise gekürzt
+    (60, 6 * 1024, 25, 45, 25), (60, 6 * 1024, 25, 45, 25), (60, 6 * 1024, 25, 45, 25), (60, 6 * 1024, 25, 45, 25),
+    (60, 4 * 1024, 15, 45, 25), (40, 4 * 1024, 15, 35, 15), (25, 3 * 1024, 10, 30, 12), (15, 2 * 1024, 10, 25, 10))
+_AP_RAND = (   # weitere, je, vj, gegen, quer, quer_je, vjpp, vjdat, vjganz, vjanfang, ab, vjzus, abschn, gk, unt, untganz, untanf, vjunt –
+    #             Stufen 0–3 bis auf ein Minimum
+    (30, 5, 25, 40, 30, 5, 30, 8 * 1024, 3 * 1024, 10, 60, 20, 4, 15, 14 * 1024, 4 * 1024, 15, 6 * 1024),
+    (20, 4, 15, 30, 25, 4, 25, 5 * 1024, 2 * 1024, 8, 50, 15, 3, 12, 9 * 1024, 3 * 1024, 12, 4 * 1024),
+    (15, 3, 12, 20, 20, 3, 20, 3 * 1024, 1536, 6, 40, 12, 2, 10, 5 * 1024, 2 * 1024, 8, 2 * 1024),
+    (6, 2, 6, 10, 10, 2, 10, 1024, 1024, 3, 30, 6, 1, 5, 2 * 1024, 1536, 6, 1024),
+    (6, 2, 6, 10, 10, 2, 10, 1024, 1024, 3, 30, 6, 1, 5, 2 * 1024, 1536, 6, 1024),
+    (6, 2, 6, 10, 10, 2, 10, 1024, 1024, 3, 25, 6, 1, 5, 2 * 1024, 1536, 6, 1024),
+    (6, 2, 6, 8, 8, 2, 8, 1024, 1024, 3, 20, 5, 1, 5, 1024, 1024, 4, 1024),
+    (6, 2, 6, 6, 6, 2, 6, 1024, 1024, 3, 15, 4, 0, 4, 1024, 1024, 3, 1024))
+_AP_BIL = (200, 120, 60, 30, 30, 30, 20, 20)   # P1 (AP_BILANZ_GANZ): übrige Bilanzkonten der Saldoliste in Abschnitt 2 (Zeilen)
+AP_NIE = 10 ** 9
+_AP_SAMMEL = (AP_NIE, 4, 4, 4, 4, 4, 4, 4)   # Sammelbuchungen je Kontoblatt ab so vielen Zeilen zusammenfassen (Stufe 0: nie)
+AP_STUFEN = tuple({"sammel": sm, "bil": bi, **dict(zip(("kb", "ganz", "anfang", "jr", "anhang"), k)),
+                   **dict(zip(("weitere", "je", "vj", "gegen", "quer", "quer_je", "vjpp", "vjdat", "vjganz", "vjanfang", "ab", "vjzus",
+                               "abschn", "gk", "unt", "untganz", "untanf", "vjunt"), r))}
+                  for k, r, sm, bi in zip(_AP_KERN, _AP_RAND, _AP_SAMMEL, _AP_BIL))
 AP_REST_KLEIN = 4 * 1024     # letzter Teil kleiner: eine Kürzungsstufe weiter, wenn das einen Teil spart
+# Auffüllen nach der Wahl der Kürzungsstufe (Priorität = Reihenfolge): Gruppen von Grenzen werden einzeln auf die Werte einer kleineren Stufe
+# gesetzt, solange die Zahl der Teile gleich bleibt – Unterlagen aus anderen Ordnern und Gegenbuchungen vor Querverweisen und Vorjahr
+AP_FUELLEN = (("unt", "untganz", "untanf"), ("gegen", "gk"), ("ganz", "anfang"), ("kb",), ("jr", "anhang"), ("bil",), ("quer", "quer_je"),
+              ("vjzus", "vjpp"), ("vjdat", "vjganz", "vjanfang"), ("weitere", "je", "abschn"), ("vj",), ("vjunt",), ("ab",))
 AP_KONTEN_KOMPAKT = 80       # mehr Konten (A1 = alle): Tabelle ohne Gruppe/Zuordnung, Bezeichnung kürzer
-# Dateinamen (key-Form, Wortanfang): Saldoliste/Saldenbilanz · Hauptbuch/Kontoblätter · Jahresrechnung
-SALDO_WORT = ("saldoliste", "saldenliste", "saldobilanz", "saldenbilanz", "saldiliste", "kontensaldi", "probebilanz", "summenbilanz")
+# Dateinamen (key-Form, Wortanfang): Saldoliste/Saldenbilanz · Hauptbuch/Kontoblätter/Journal · Jahresrechnung. Saldoliste auch als Kompositum
+# mit «saldo/salden/saldi» und einem Listen-/Kontenwort (Kontensaldenliste, Hauptbuchsaldi) – nicht «Saldobestätigung»; ohne passenden Namen
+# am Inhalt (_ap_saldoliste_inhalt: Tabelle mit Konto- und Saldo-/Jahresspalte und ≥ AP_SL_MIN_KONTEN verschiedenen Konten)
+SALDO_WORT = ("saldoliste", "saldenliste", "saldobilanz", "saldenbilanz", "saldiliste", "kontensaldi", "kontensalden", "probebilanz",
+              "summenbilanz")
 SALDO_TOKEN = {"saldi", "salden"}
-HB_WORT = ("hauptbuch", "kontobl", "kontenbl", "einzelkont")
+SALDO_TEIL = ("saldo", "salden", "saldi")
+SALDO_KONTEXT = ("liste", "bilanz", "konten", "hauptbuch", "ubersicht")
+AP_SL_MIN_KONTEN = 10
+HB_WORT = ("hauptbuch", "kontobl", "kontenbl", "einzelkont", "buchungsjournal", "journal")
 HB_TOKEN = {"konto", "konten"}
-JR_WORT = ("jahresrechnung", "jahresabschluss", "erfolgsrechnung", "geschaftsbericht")
+# Jahresrechnung: Bilanz/Erfolgsrechnung/Anhang als eine Datei oder getrennt; «Abschluss» nur als ganzes Wort neben einer Jahreszahl
+# (Abschluss_2025, nicht «Abschlussbuchungen» oder der Ordner «0_Abschluss»)
+JR_WORT = ("jahresrechnung", "jahresabschluss", "erfolgsrechnung", "geschaftsbericht", "finanzbericht", "jahresbericht", "rechnungsabschluss")
 JR_TOKEN = {"bilanz"}
+JR_JAHR_TOKEN = {"abschluss", "anhang"}   # nur zusammen mit einer Jahreszahl (Abschluss_2025, Anhang_2025 – nicht «Anhang zum Mietvertrag»)
 FOLGE_TOKEN = {"folgejahr", "folgejahres", "januar", "februar", "marz", "jan", "feb"}
 KONTO_RX = re.compile(r"^(\d{3,5}[A-Za-z]?)(?:\s*\([^)]{1,20}\))?$")                 # Zelle mit Kontonummer (3–5 Ziffern, ggf. Suffix)
 KONTO_BEZ_RX = re.compile(r"^(\d{3,5}[A-Za-z]?)\s+(?:[-–:]\s*)?([A-Za-zÄÖÜäöü].*)$")   # Kontonummer und Bezeichnung in einer Zelle
+# In einer Spalte mit Kopf «Konto/Kto…» auch längere Kontonummern (grössere Kontenpläne, z.B. sechsstellig) – ausserhalb einer solchen Spalte
+# wären 6–8 Ziffern meist Beträge ohne Trennzeichen
+KONTO_LANG_RX = re.compile(r"^(\d{3,8}[A-Za-z]?)(?:\s*\([^)]{1,20}\))?$")
+KONTO_BEZ_LANG_RX = re.compile(r"^(\d{3,8}[A-Za-z]?)\s+(?:[-–:]\s*)?([A-Za-zÄÖÜäöü].*)$")
 BETRAG_TOK_RX = re.compile(r"^\(?[-−–]?(?:\d{1,3}(?:['’]\d{3})+|\d+)(?:[.,]\d{2})\)?-?$|^0$")    # Betrag im Fliesstext (2 Dezimalen)
 JAHR_RX = re.compile(r"(?<!\d)((?:19|20)\d\d)(?!\d)")
-HB_KOPF_RX = re.compile(r"^(?:blatt\s*[«\"'“]?\s*|konto(?:blatt)?\s*(?:nr\.?\s*)?[:#]?\s*|kto\.?\s*(?:nr\.?\s*)?)?(\d{3,5}[A-Za-z]?)(?![\w'’]|[.,]\d)",
+HB_KOPF_RX = re.compile(r"^(?:blatt\s*[«\"'“]?\s*|konto(?:blatt)?\s*(?:nr\.?\s*)?[:#]?\s*|kto\.?\s*(?:nr\.?\s*)?)?(\d{3,8}[A-Za-z]?)(?![\w'’]|[.,]\d)",
                         re.I)
-HB_ZEILE_RX = re.compile(r"^[\s|#*]*(?:Konto(?:blatt)?|Kto\.?)\s*(?:Nr\.?\s*)?[:#]?\s*(\d{3,5}[A-Za-z]?)(?![\w'’]|[.,]\d)", re.I)
+# Kontonummer am Ende einer Kontoblatt-Überschrift: «Bezeichnung (4711)», «Bezeichnung – 4711», «Bezeichnung, Konto 4711»
+HB_KOPF_ENDE_RX = re.compile(r"(?:\(\s*|[-–:,]\s*|(?<![\w])(?=k))(?:(?:konto|kto\.?)\s*(?:nr\.?\s*)?)?(\d{3,8}[A-Za-z]?)\s*\)?\s*$", re.I)
+HB_ZEILE_RX = re.compile(r"^[\s|#*]*(?:Konto(?:blatt)?|Kto\.?)\s*(?:Nr\.?\s*)?[:#]?\s*(\d{3,8}[A-Za-z]?)(?![\w'’]|[.,]\d)", re.I)
 WICHTIG_RX = re.compile(r"(?i:abschluss|umbuchung|31\.12\.|storno|korrektur)|(?<![A-Za-z])AB(?![A-Za-z])")
 TOTAL_RX = re.compile(r"(?i)\b(?:total|summe|saldo|differenz)\b")
 ERGEBNIS_RX = re.compile(r"(?i)\b(?:total|summe|bilanzsumme|jahres(?:gewinn|verlust|ergebnis)|unternehmensergebnis|betriebsergebnis)\b")
@@ -3996,20 +4083,137 @@ KONTENRAHMEN_KMU = (
     ("3", ("SCH1",)), ("4", ("SCH2",)), ("5", ("R1",)), ("6", ("SCH3",)), ("7", ("SCH5",)), ("8", ("SCH5",)),
 )
 ER_PF = ("R1", "S1", "SCH1", "SCH2", "SCH3", "SCH4", "SCH5")   # Prüffelder der Erfolgsrechnung
+# Bilanzseite der Prüffelder (Aktiven/Passiven); ohne Eintrag: beide Seiten bzw. Erfolgsrechnung (M2: Vorsteuer und geschuldete MWST)
+PF_SEITE = {**{c: "A" for c in ("B1", "C1", "D1", "E1", "F1", "F2", "G1", "G2", "H1", "H2", "H3", "I1")},
+            **{c: "P" for c in ("K1", "L1", "M1", "M3", "N1", "O1", "P1")}}
 ERFOLG_RX = re.compile(r"abschreib|wertberichtig|zins|ertrag|aufwand|verlust|gewinn|dividend")   # Erfolgswort (key-Form)
-ZUO_TXT = {"G": "Gruppe", "B": "Bezeichnung", "K": "Kontenklasse KMU – prüfen", "A": "alle Konten (A1)"}
+ZUO_TXT = {"G": "Gruppe", "B": "Bezeichnung", "b": "Bezeichnung (Teiltreffer) – prüfen", "K": "Kontenklasse KMU – prüfen",
+           "A": "alle Konten (A1)"}
+# Buchungen und Querbezüge: Gegenkonto-Spalte eines Kontoblatts/Journals, Kontonummern in einer Gegenkonto-Zelle («6xxx/1020» → 1020),
+# Abschluss-/Umbuchungen (ohne «31.12.», sonst jede Dezember-Buchung), Beträge und Belegnummern im Fliesstext
+GEGEN_KOPF_RX = re.compile(r"^(?:gegen\s*-?\s*(?:konto|kto|kt|buchung)|gegenkto|gk(?:to)?)\b")
+GK_TOKEN_RX = re.compile(r"(?<![\w'’.,-])\d{3,8}[A-Za-z]?(?![\w'’]|[.,]\d)")
+ABSCHLUSS_RX = re.compile(r"(?i:abschluss|umbuchung|umgliederung|storno|korrektur|ausbuchung|nachtrag)|(?<![A-Za-z])AB(?![A-Za-z])")
+# Beträge im Text: mit Tausender-Apostroph oder 2 Dezimalen (auch negativ), ohne Trennzeichen erst ab 5 Ziffern – vierstellige Zahlen sind
+# meist Kontonummern, Jahre oder Postleitzahlen; Datumsangaben (31.12.2030), Belegnummern (RE-2030-0001) und Kurse (1.2345) fallen weg
+BETRAG_TEXT_RX = re.compile(r"(?<![\w.,'’/])(?:\d{1,3}(?:['’]\d{3})+(?:[.,]\d{1,2})?|\d+[.,]\d{2})(?![\w'’/]|[.,]\d)"
+                            r"|(?<![\w.,'’/-])\d{5,}(?![\w'’/-]|[.,]\d)")
+# Belegnummern: Grossbuchstaben-Präfix mit Bindestrich-Teilen (RE-2030-0001, AB-12) oder Ziffern-Bindestrich-Ziffern (2030-0042), mit Ziffer
+BELEGNR_RX = re.compile(r"(?<![\w.\-/])(?:[A-Z][A-Z0-9]{0,5}(?:-[A-Z0-9]{1,8}){1,3}|\d{2,4}-\d{3,6})(?![\w\-/]|\.\d)")
+QUER_MIN = Decimal(1000)     # Querverweise: Beträge ab CHF 1'000
+QUER_DF_MAX = 6              # Belegnummer/Betrag in höchstens so vielen Zeilen ausserhalb des Prüffelds – sonst zu allgemein (Sammelbuchung)
+QUER_DF_RUND = 2             # runde Tausender (häufig zufällig gleich): höchstens so viele Zeilen ausserhalb des Prüffelds
+# Eckwerte der Jahresrechnung (für jedes Prüffeld: Wesentlichkeit, Kapitalverlust/Überschuldung, Grössenvergleich)
+ECKWERT_RX = re.compile(r"\b(?:total|summe)\s+(?:der\s+)?(?:aktiven|passiven|umlaufvermogen|anlagevermogen|(?:kurzfristiges\s+|langfristiges\s+)?"
+                        r"fremdkapital|eigenkapital)\b|\bbilanzsumme\b|\bjahres(?:gewinn|verlust|ergebnis)\b|\bunternehmensergebnis\b|"
+                        r"\b(?:bilanz|rein)(?:gewinn|verlust)\b")
+UNTERSCHRIFT_RX = re.compile(r"(?i)\b(?:verwaltungsrat|geschäftsführung|geschaeftsfuehrung|unterzeichnet|genehmigt)\b")
+DATUM_TEXT_RX = re.compile(r"\b\d{1,2}\.\s*(?:\d{1,2}\.|[A-ZÄÖÜa-zäöü]{3,9})\s*\d{4}\b")
+# Vorjahres-Prüfprogramm: Abschnitt ab einer Zeile «<Prüffeld-Code> <Titel>» (Textfassung einer Prüfakte) bzw. Tabelle mit Spalte «Prüffeld»
+PP_KOPF_RX = re.compile(r"^\s*(?:#{1,6}\s*)?(?:Pr(?:ü|ue)ffeld\s+)?([A-Z]{1,3}\d{1,2})\b[\s:.–-]+[A-ZÄÖÜa-zäöü]")
+PP_SCHLUSS_RX = re.compile(r"(?i)^\s*(?:#{1,6}\s*)?(?:abschliessende|abschließende|gesamt)?\s*beurteilung\b|^\s*fazit\b")
+WESENTLICH_RX = re.compile(r"(?i)wesentlichkeit|nichtaufgriffsgrenze|toleranzwesentlichkeit")
+# Zusammenfassende Abschnitte einer Vorjahres-Prüfakte (für jedes Prüffeld lesen): Hinweise für das Folgejahr, wesentliche Feststellungen,
+# nicht korrigierte Fehler, Pendenzen, Punkte der Schlussbesprechung – Rang = Reihenfolge der Muster
+VJ_ZUSAMMEN_RX = (
+    re.compile(r"(?i)\bhinweise?\s+(?:f(?:ü|ue)r\s+(?:das\s+)?)?folgejahr|\bfolgejahr\b.*\bhinweis"),
+    re.compile(r"(?i)\bwesentliche\s+feststellungen\b"),
+    re.compile(r"(?i)\bnicht\s+(?:nach)?(?:gebuchte|korrigierte)\s+fehler\b"),
+    re.compile(r"(?i)\bpendenz(?:en|liste)\b"),
+    re.compile(r"(?i)\bpunkte\s+f(?:ü|ue)r\s+(?:die\s+)?schlussbesprechung\b"),
+)
+# Querschnitts-Prüffelder: ihre Belege liegen naturgemäss in fremden Ordnern – zusätzliche Suchbegriffe aus dem Gesetz für Fundstellen
+# (Abschnitt 6) und Vorjahrestreffer. T1 = Anhangangaben nach Art. 959c OR (Garantien, Bürgschaften, Pfandbestellungen, verpfändete Aktiven,
+# Eventualverbindlichkeiten, Leasing, Vorsorgeeinrichtungen, eigene Anteile, Ereignisse nach dem Bilanzstichtag); P1 = Kapitalverlust und
+# Überschuldung nach Art. 725a/725b OR (Rangrücktritt) sowie Einlagerückgewähr (Art. 680 OR) und Gewinnverwendung.
+# Anhangangaben als Begriffsgruppen (gesetzlicher Wortlaut und übliche Formulierungen): nennt das Prüfprogramm eines Prüffelds einen Begriff
+# einer Gruppe, gilt die ganze Gruppe (_ap_anhang_begriffe) – z.B. «Zession» im Prüfprogramm der Forderungen trifft auch den Abschnitt «Zur
+# Sicherung eigener Verbindlichkeiten verwendete Aktiven» (Art. 959c Abs. 2 Ziff. 9 OR) und «… zediert (Globalzession)».
+ANHANG_GRUPPEN = (
+    ("sicherung eigener verbindlichkeiten", "verpfändet", "verpfändung", "pfandbestellung", "zession", "zediert", "abgetreten", "abtretung",
+     "sicherungsübereignung", "eigentumsvorbehalt"),
+    ("garantie", "bürgschaft", "eventualverbindlichkeit", "eventualverpflichtung"),
+    ("leasing", "nicht bilanzierte"),
+    ("vorsorgeeinrichtung",),
+    ("rangrücktritt",),
+    ("ereignisse nach dem bilanzstichtag",),
+    ("eigene aktien", "eigene anteile"),
+    ("nettoauflösung", "stille reserven"),
+)
+ANHANG_TEILWORT = {"zession", "abtretung"}   # auch mitten im Wort (Globalzession, Zessionskredit, Sicherungsabtretung)
+AP_FACHBEGRIFFE = {
+    "T1": tuple(t for g in ANHANG_GRUPPEN for t in g),
+    "P1": ("rangrücktritt", "überschuldung", "kapitalverlust", "einlagerückgewähr", "emissionsabgabe", "dividende",
+           "verwendung des bilanzgewinns"),
+}
+AP_BILANZ_GANZ = ("P1",)   # Kapitalverlust/Überschuldung (Art. 725a/725b OR): alle Totale der Bilanz in Abschnitt 4
+# Unterlage für die Folgeperiode (Bankauszüge, Kreditorenjournal, Kontoblätter nach dem Stichtag) – Text in key-Form
+FOLGE_DOK_RX = re.compile(r"folge(?:periode|jahr|monat)|\bneu[enrs]{0,2} (?:rechnung|periode|geschaftsjahr|jahr)\b|nach (?:dem )?(?:bilanz)?stichtag|"
+                          r"\bjanuar\b|\bfebruar\b|prufungszeitpunkt|revisionsdatum|nachfolgend")
 
 
 _AP_MEMO: dict | None = None   # Zeilen je Datei während EINES arbeitspaket-Aufrufs (danach verworfen)
+# Grössenbremse: Textdateien über AP_DATEI_MAX (bzw. Saldoliste/Hauptbuch/Jahresrechnung über AP_DATEI_GROSS) liest das Arbeitspaket nicht –
+# Hinweis in Abschnitt 5/7, gezielt mit `akte … --suche`/`--datei --von` lesen (Laufzeit und Speicher bleiben klein)
+AP_DATEI_MAX = 5 * 1024 * 1024
+AP_DATEI_GROSS = 40 * 1024 * 1024
+AP_UNLESBAR_ANTEIL = 0.05     # Anteil Steuer-/Ersatzzeichen, ab dem eine Textdatei als nicht lesbar gilt (Binärdatei mit Textendung)
+
+
+def _ap_grenze(p: Path) -> int:
+    st = Path(p).stem
+    return AP_DATEI_GROSS if _ist_saldoliste(st) or _ist_hauptbuch(st) or _ist_jahresrechnung(st) else AP_DATEI_MAX
+
+
+UNLESBAR_RX = re.compile("[\x00-\x08\x0b\x0e-\x1f\x7f-\x9f\ufffd]")   # Steuerzeichen (ohne Tab, Zeilenumbruch, Seitenvorschub), Ersatzzeichen
+
+
+def _unlesbar(zeilen: list[str]) -> bool:
+    """Text mit vielen Steuer- oder Ersatzzeichen (NUL, U+FFFD …; Binärdatei bzw. kaputte Kodierung) – nicht als Text verwendbar
+    (geprüft an den ersten 64 000 Zeichen)."""
+    t = "\n".join(zeilen[:2000])[:64_000]
+    return bool(t) and len(UNLESBAR_RX.findall(t)) / len(t) > AP_UNLESBAR_ANTEIL
 
 
 def _ap_text(p: Path) -> list[str]:
-    """Wie _akte_text; innerhalb eines arbeitspaket-Aufrufs je Datei nur einmal gelesen (mehrere Kürzungsstufen)."""
+    """Wie _akte_text; innerhalb eines arbeitspaket-Aufrufs je Datei nur einmal gelesen (mehrere Kürzungsstufen). Zu grosse Dateien
+    (_ap_grenze) und nicht lesbare (_unlesbar) liefern keine Zeilen – _ap_datei meldet sie (_ap_nicht_gelesen)."""
     if _AP_MEMO is None:
         return _akte_text(p)
     if p not in _AP_MEMO:
-        _AP_MEMO[p] = _akte_text(p)
+        try:
+            gr = Path(p).stat().st_size
+        except OSError:
+            gr = 0
+        if gr > _ap_grenze(p):
+            _AP_MEMO.setdefault("nicht_gelesen", {})[p] = f"{gr / 1024 / 1024:.1f} MB – zu gross für das Arbeitspaket"
+            _AP_MEMO[p] = []
+        else:
+            z = _akte_text(p)
+            if _unlesbar(z):
+                _AP_MEMO.setdefault("nicht_gelesen", {})[p] = "nicht als Text lesbar (Steuer-/Binärzeichen)"
+                z = []
+            _AP_MEMO[p] = z
     return _AP_MEMO[p]
+
+
+def _ap_nicht_gelesen(p: Path) -> str | None:
+    """Grund, warum _ap_text eine Datei nicht gelesen hat (zu gross, nicht lesbar), sonst None."""
+    if _AP_MEMO is None:
+        return None
+    _ap_text(p)
+    return (_AP_MEMO.get("nicht_gelesen") or {}).get(p)
+
+
+def _ap_cache(schluessel: tuple, fn):
+    """Aus einer Datei abgeleitete Daten (Kontoblatt-Abschnitte, Buchungen, Tabellen) während EINES arbeitspaket-Aufrufs nur einmal
+    berechnen – das Paket wird für mehrere Kürzungsstufen gebaut; ausserhalb eines Aufrufs ohne Zwischenspeicher."""
+    if _AP_MEMO is None:
+        return fn()
+    k = ("abgeleitet",) + schluessel
+    if k not in _AP_MEMO:
+        _AP_MEMO[k] = fn()
+    return _AP_MEMO[k]
 
 
 def _ap_tokens(name: str) -> list[str]:
@@ -4017,7 +4221,8 @@ def _ap_tokens(name: str) -> list[str]:
 
 
 def _ist_saldoliste(name: str) -> bool:
-    return any(t in SALDO_TOKEN or t.startswith(SALDO_WORT) for t in _ap_tokens(name))
+    return any(t in SALDO_TOKEN or t.startswith(SALDO_WORT) or (any(s in t for s in SALDO_TEIL) and any(k in t for k in SALDO_KONTEXT))
+               for t in _ap_tokens(name))
 
 
 def _ist_hauptbuch(name: str) -> bool:
@@ -4025,16 +4230,27 @@ def _ist_hauptbuch(name: str) -> bool:
 
 
 def _ist_jahresrechnung(name: str) -> bool:
-    return any(t in JR_TOKEN or t.startswith(JR_WORT) for t in _ap_tokens(name))
+    ts = _ap_tokens(name)
+    return any(t in JR_TOKEN or t.startswith(JR_WORT) for t in ts) or (
+        bool(set(ts) & JR_JAHR_TOKEN) and any(JAHR_RX.fullmatch(t) for t in ts))
+
+
+def _ist_anhang(name: str) -> bool:
+    """Eigene Datei für den Anhang der Jahresrechnung (Anhang_2025): ganze Datei = Anhang (Abschnitte ab Zeile 1, wenn keine Zeile
+    «Anhang» den Beginn markiert). Nicht, wenn der Name auch Bilanz/Erfolgsrechnung/Jahresrechnung nennt (Jahresrechnung mit Anhang)."""
+    ts = _ap_tokens(name)
+    return "anhang" in ts and not any(t in ("bilanz", "erfolgsrechnung") or t.startswith(("jahresrechnung", "jahresabschluss", "finanzbericht",
+                                                                                        "geschaftsbericht", "jahresbericht")) for t in ts)
 
 
 def _ist_folgejahr(name: str, gj: int | None) -> bool:
-    ts = set(_ap_tokens(name))
-    return bool(ts & FOLGE_TOKEN) or "neue rechnung" in key(name) or bool(gj and str(gj + 1) in name)
+    """Name einer Datei des Folgejahres: «Folgejahr», «Januar»/«Februar» …, «neue Rechnung» oder das Jahr nach dem Geschäftsjahr."""
+    ts = _ap_tokens(name)
+    return bool(set(ts) & FOLGE_TOKEN) or "neu rechnung" in " ".join(ts) or bool(gj and str(gj + 1) in name)
 
 
 def _betrag(s) -> Decimal | None:
-    """Betrag aus einer Zelle: 1'150'000.00 · 1’150’000 · -5'449.10 · (1'000) · 1'000- · 1.234.567,89 · CHF 12.50; sonst None."""
+    """Betrag aus einer Zelle: 12'345.67 · 1’234’567 · -4'711.00 · (1'000) · 1'000- · 1.234.567,89 · CHF 12.50; sonst None."""
     t = str(s or "").replace(" ", " ").replace("\xa0", " ").strip()
     t = re.sub(r"(?i)^(?:chf|eur|usd|fr\.)\s*|\s*(?:chf|eur|usd)$", "", t).strip()
     if not t:
@@ -4094,8 +4310,9 @@ def _csv_sep(rel: str, zeilen: list[str]) -> str | None:
 
 
 def _spalten(kopf: list[str]) -> dict:
-    """Spaltenrollen aus einer Kopfzeile: konto, bez, gruppe, werte (je Spalte Jahre, Art wert/delta/umb/soll/haben, Vorjahr-Wort)."""
-    r = {"konto": None, "bez": None, "gruppe": None, "werte": []}
+    """Spaltenrollen aus einer Kopfzeile: konto (konto_lang: Kopf nennt «Konto/Kto» – dann auch lange Kontonummern), bez, gruppe, seite
+    (Bilanzseite A/P), werte (je Spalte Jahre, Art wert/delta/umb/soll/haben, Vorjahr-Wort)."""
+    r = {"konto": None, "konto_lang": False, "bez": None, "gruppe": None, "seite": None, "werte": []}
     for i, c in enumerate(kopf):
         k = key(c).strip(" .:*")
         if not k:
@@ -4103,9 +4320,11 @@ def _spalten(kopf: list[str]) -> dict:
         if r["bez"] is None and re.search(r"bezeichnung|beschreibung|kontoname|kontotext|^name$|^text$|^titel$", k):
             r["bez"] = i
         elif r["konto"] is None and re.match(r"(?:konto|kto)(?:\b|nr|nummer|-)|^(?:nr|nummer)\.?$", k):
-            r["konto"] = i
+            r["konto"], r["konto_lang"] = i, bool(re.match(r"konto|kto", k))
         elif r["gruppe"] is None and re.search(r"gruppe|^position|bilanzposition|^posten|kategorie|^ausweis|^zuordnung|^klasse", k):
             r["gruppe"] = i
+        elif r["seite"] is None and re.fullmatch(r"(?:bilanz)?seite|a ?/ ?p|aktiv ?/ ?passiv|soll ?/ ?haben-seite", k):
+            r["seite"] = i
         else:
             jahre = {int(y) for y in JAHR_RX.findall(c)}
             if re.search(r"budget|plan|prognose|forecast", k):
@@ -4114,9 +4333,9 @@ def _spalten(kopf: list[str]) -> dict:
                 art = "delta"
             elif re.search(r"umbuchung|korrektur|anpassung", k):
                 art = "umb"
-            elif re.fullmatch(r"soll(?: chf)?", k):
+            elif re.fullmatch(r"(?:soll|belastung|debit|debet)(?: chf)?", k):
                 art = "soll"
-            elif re.fullmatch(r"haben(?: chf)?", k):
+            elif re.fullmatch(r"(?:haben|gutschrift|kredit|credit)(?: chf)?", k):
                 art = "haben"
             elif jahre or re.search(r"saldo|betrag|^hb|vorjahr|geschaftsjahr|aktuell|^chf|^gj$|^vj$|bestand|eroffnung|schluss", k):
                 art = "wert"
@@ -4140,13 +4359,20 @@ def _wert_spalte(werte: list[dict], jahr: int | None, vorjahr: bool = False) -> 
     return k[0] if k else None
 
 
-def _konto_zelle(x: str) -> tuple[str, str] | None:
-    """(Kontonummer, Bezeichnung) einer Zelle «4711» bzw. «4711 Bezeichnung»; sonst None."""
-    m = KONTO_RX.match(x or "")
+def _konto_zelle(x: str, lang: bool = False) -> tuple[str, str] | None:
+    """(Kontonummer, Bezeichnung) einer Zelle «4711» bzw. «4711 Bezeichnung»; sonst None. lang: Zelle einer Spalte «Konto/Kto» –
+    auch 6–8 Ziffern (grössere Kontenpläne)."""
+    m = (KONTO_LANG_RX if lang else KONTO_RX).match(x or "")
     if m:
         return m.group(1), ""
-    m = KONTO_BEZ_RX.match(x or "")
+    m = (KONTO_BEZ_LANG_RX if lang else KONTO_BEZ_RX).match(x or "")
     return (m.group(1), m.group(2).strip()) if m else None
+
+
+def _seite_wert(x: str) -> str | None:
+    """Bilanzseite aus einer Zelle der Spalte «Seite»: A/Aktiv(en) → «A», P/Passiv(en) → «P», sonst None."""
+    k = key(x or "").strip(" .*")
+    return "A" if re.fullmatch(r"a|aktiv(?:en|a)?", k) else "P" if re.fullmatch(r"p|passiv(?:en|a)?", k) else None
 
 
 def _sl_text(zeilen: list[str]) -> list[dict]:
@@ -4183,29 +4409,56 @@ def _sl_text(zeilen: list[str]) -> list[dict]:
     return [{"blatt": "", "kopf": kopf, "rollen": {"konto": 0, "bez": 1, "gruppe": None, "werte": werte}, "konten": konten, "totale": []}]
 
 
+def _sl_kontonr(c: list[str], rollen: dict | None) -> tuple[int, str, str] | None:
+    """(Spalte, Kontonummer, Rest der Zelle) einer Tabellenzeile: Konto-Spalte der Kopfzeile (Kopf «Konto/Kto»: auch lange Nummern);
+    ohne Konto-Spalte die erste Zelle mit Kontonummer, nur in den ersten zwei Zellen (nie ein Betrag weiter rechts)."""
+    if rollen and rollen.get("konto") is not None:
+        j = rollen["konto"]
+        kz = _konto_zelle(c[j], rollen.get("konto_lang", False)) if j < len(c) else None
+        return (j,) + kz if kz else None
+    j = next((j for j, x in enumerate(c[:2]) if _konto_zelle(x)), None)
+    return (j,) + _konto_zelle(c[j]) if j is not None else None
+
+
+TITELZEILE_RX = re.compile(r"^\*{0,2}\s*([A-Za-zÄÖÜäöü][^|\d]{1,60}?)\s*\*{0,2}:?$")   # Zwischentitel einer Tabelle («**Flüssige Mittel**»)
+
+
 def _sl_tabellen(rel: str, zeilen: list[str]) -> list[dict]:
-    """Tabellen mit Kontozeilen einer Saldoliste: Blatt, Spaltenrollen, Kontozeilen (Zeile, Zellen) und Totalzeilen."""
+    """Tabellen mit Kontozeilen einer Saldoliste: Blatt, Spaltenrollen, Kontozeilen (Zeile, Zellen), Totalzeilen, Gruppenzeilen und
+    Zwischentitel. Gruppenzeile = Zeile, deren Kontonummer Anfang weiterer Kontonummern derselben Tabelle ist (Kontengruppe mit
+    Zwischentotal, z.B. «100 Flüssige Mittel» vor 1000/1020) – kein Konto. Zwischentitel = Zeile mit nur einem Text ohne Ziffer
+    («**Flüssige Mittel**») – (Zeile, Text), gilt für die Konten darunter bis zum nächsten Titel."""
     sep = _csv_sep(rel, zeilen)
     out, blatt, tab = [], "", []
 
     def fertig(tab):
         if not tab:
             return
-        kopf, rollen, konten, totale = None, None, [], []
+        kopf, rollen, konten, totale, titel = None, None, [], [], []
         for i, c in tab:
-            kz = next((j for j, x in enumerate(c) if _konto_zelle(x)), None)
-            # Kontozeile: Kontonummer in der Konto-Spalte der Kopfzeile, ohne Kopfzeile in den ersten zwei Zellen (nie ein Betrag weiter rechts)
-            if kz is not None and ((rollen and rollen["konto"] == kz) or ((not rollen or rollen["konto"] is None) and kz <= 1)):
+            if _sl_kontonr(c, rollen):
                 konten.append((i, c))
                 continue
             if not konten:
                 r = _spalten(c)
                 if r["konto"] is not None or (r["bez"] is not None and r["werte"]):
                     kopf, rollen = (i, c), r
+                    continue
             if any(re.search(r"(?i)\b(?:total|summe)\b", x) for x in c):
                 totale.append((i, c))
-        if konten:
-            out.append({"blatt": blatt, "kopf": kopf, "rollen": rollen or _spalten([]), "konten": konten, "totale": totale})
+                continue
+            voll = [x for x in c if x.strip()]
+            m = TITELZEILE_RX.match(voll[0].strip()) if len(voll) == 1 else None
+            if m and (kopf or konten):
+                titel.append((i, m.group(1).strip(" *")))
+        if not konten:
+            return
+        nr = {i: _sl_kontonr(c, rollen)[1] for i, c in konten}
+        alle = set(nr.values())
+        gruppen = [(i, c) for i, c in konten if nr[i].isdigit() and any(x != nr[i] and x.startswith(nr[i]) for x in alle)]
+        gi = {i for i, _ in gruppen}
+        out.append({"blatt": blatt, "kopf": kopf, "rollen": rollen or _spalten([]), "konten": [x for x in konten if x[0] not in gi],
+                    "totale": totale, "gruppen": gruppen, "titel": titel})
 
     for i, z in enumerate(zeilen, 1):
         m = re.match(r"^#{1,6}\s+(.*)$", z)
@@ -4229,51 +4482,102 @@ def _ap_name(s: str) -> str:
     return re.sub(r"(?i)\bL\s*[+&]\s*L\b|\bL\.?\s*u\.?\s*L\b\.?", "Lieferungen und Leistungen", str(s or ""))
 
 
+@lru_cache(maxsize=16384)
+def _name_treffer(n: str) -> tuple:
+    """_pf_zu_namen mit Stärke und Abdeckung – zwischengespeichert (Bezeichnungen der Saldoliste und Zeilen der Jahresrechnung werden je
+    Aufruf vielfach geprüft); Rückgabe: (Codes, starke Codes, {Code: Abdeckung})."""
+    codes, _, stark, wert = _pf_zu_namen(n, True, werte=True)
+    return tuple(codes), tuple(stark), wert
+
+
+_L_ABH.append(_name_treffer)
+
+
 def _name_codes(name: str, nur_stark: bool) -> list[str]:
     """Prüffelder zu einer Gruppe (stark, sonst bestes) bzw. Bezeichnung (nur starke Treffer: exakt oder Mehrwort-Phrase)."""
     n = _ap_name(name).strip()
     if not n:
         return []
-    codes, _, stark = _pf_zu_namen(n, True)
-    return stark or ([] if nur_stark else codes[:1])
+    codes, stark, _ = _name_treffer(n)
+    return list(stark) or ([] if nur_stark else list(codes[:1]))
 
 
 def _kontenklasse(konto: str) -> tuple:
-    """Prüffelder nach Kontenrahmen KMU (nur vierstellige Kontonummern, ggf. mit Buchstaben-Suffix)."""
-    m = re.fullmatch(r"(\d{4})[A-Za-z]?", konto or "")
+    """Prüffelder nach Kontenrahmen KMU (4–6 Ziffern, ggf. mit Buchstaben-Suffix; längere Nummern als Unterkonten, z.B. 102000 ~ 1020)."""
+    m = re.fullmatch(r"(\d{4,6})[A-Za-z]?", konto or "")
     if not m:
         return ()
     return next((c for p, c in KONTENRAHMEN_KMU if m.group(1).startswith(p)), ())
 
 
-def _konto_codes(konto: str, bez: str, gruppe: str, er: bool = False) -> dict:
-    """Prüffelder eines Kontos → Herkunft: G (Gruppe der Saldoliste), B (Bezeichnung, nur starke Treffer, ohne Klammerzusatz),
-    K (Kontenklasse KMU, nur wenn keine Gruppe ein Prüffeld nennt). Erfolgskonto (er) ohne Gruppe: das Prüffeld der Erfolgsrechnung
-    bestimmt die Kontenklasse; über die Bezeichnung nur Bilanz-Prüffelder und nur mit Erfolgswort («Abschreibungen Fahrzeuge» → G1,
-    «Ertrag Finanzanlagen» → H1, nicht «Beteiligungen an Weiterbildungen» → H3)."""
+def _kontenseite(konto: str, seite: str | None = None) -> str | None:
+    """Bilanzseite eines Kontos: Spalte «Seite» der Saldoliste (A/P), sonst Kontenklasse nach Kontenrahmen KMU (1 = Aktiven, 2 = Passiven;
+    4–6 Ziffern); sonst None."""
+    if seite in ("A", "P"):
+        return seite
+    m = re.fullmatch(r"([12])\d{3,5}[A-Za-z]?", konto or "")
+    return {"1": "A", "2": "P"}[m.group(1)] if m else None
+
+
+def _zins_seite(bez: str) -> str | None:
+    """Zinskonto der Erfolgsrechnung: Zinsaufwand entsteht auf Schulden (Passiven), Zinsertrag auf Guthaben (Aktiven) – sonst None."""
+    k = key(bez or "")
+    if not re.search(r"zins", k):
+        return None
+    return "P" if re.search(r"aufwand|schuldzins|passivzins|sollzins", k) else "A" if re.search(r"ertrag|habenzins|aktivzins", k) else None
+
+
+def _konto_codes(konto: str, bez: str, gruppe: str, er: bool = False, seite: str | None = None) -> dict:
+    """Prüffelder eines Kontos → Herkunft: G (Gruppe der Saldoliste), B (Bezeichnung, starker Treffer: exakt oder Mehrwort-Phrase, ohne
+    Klammerzusatz), b (Bezeichnung, mittlerer Treffer: einziger bzw. klar bester Kandidat, z.B. «Forderungen Kunden Inland» → C1; nur
+    Bilanzkonten ohne Gruppe und ohne starken Treffer – so findet das Prüffeld seine Konten auch bei einem vom Kontenrahmen KMU
+    abweichenden Kontenplan), K (Kontenklasse KMU – nur ohne Gruppe, «prüfen»). Treffer der Bezeichnung auf der anderen Bilanzseite
+    (Spalte «Seite» bzw. Kontenklasse 1/2: «Kontokorrent» eines Bankguthabens ≠ Kontokorrentkredit) fallen weg. Erfolgskonto (er) ohne
+    Gruppe: das Prüffeld der Erfolgsrechnung bestimmt die Kontenklasse; über die Bezeichnung nur Bilanz-Prüffelder und nur mit Erfolgswort
+    («Abschreibungen Fahrzeuge» → G1, «Ertrag Finanzanlagen» → H1, nicht «Beteiligungen an Weiterbildungen» → H3); Zinsaufwand nur zu
+    Passiven, Zinsertrag nur zu Aktiven («Zinsaufwand Bank» ≠ flüssige Mittel)."""
     out = {}
     if gruppe:
         for c in _name_codes(gruppe, False):
             out[c] = "G"
-    b = _name_codes(re.sub(r"\([^)]*\)", " ", bez or ""), True)
-    k = _kontenklasse(konto) if "G" not in out.values() else ()
-    if er and "G" not in out.values():
+    hat_g = "G" in out.values()
+    n = _ap_name(re.sub(r"\([^)]*\)", " ", bez or "")).strip()
+    codes, stark, wert = _name_treffer(n) if n else ((), (), {})
+    b, mittel = list(stark), []
+    if not b and not hat_g and not er and codes:
+        v0 = wert[codes[0]]
+        v1 = max((wert[c] for c in codes[1:]), default=0.0)
+        if v0 >= 0.6 and v0 - v1 >= 0.15:
+            mittel = list(codes[:1])
+    gegen = _zins_seite(bez) if er else _kontenseite(konto, seite)
+    if gegen:
+        b = [c for c in b if PF_SEITE.get(c) in (None, gegen)]
+        mittel = [c for c in mittel if PF_SEITE.get(c) in (None, gegen)]
+    k = _kontenklasse(konto) if not hat_g else ()
+    if er and not hat_g:
         erfolg = bool(ERFOLG_RX.search(key(bez or "")))
         b = [c for c in b if (c not in ER_PF and erfolg) or (c in ER_PF and not any(x in ER_PF for x in k))]
     for c in b:
         out.setdefault(c, "B")
+    for c in mittel:
+        out.setdefault(c, "b")
     for c in k:
         out.setdefault(c, "K")
     return out
 
 
+def _zeile_codes(r: dict) -> dict:
+    """Prüffelder einer Kontozeile der Saldoliste (_konto_codes mit Gruppe, Erfolgskonto und Bilanzseite der Zeile)."""
+    return _konto_codes(r["konto"], r["bez"], r["gruppe"], r["er"], r.get("seite"))
+
+
 def _ist_erfolgskonto(konto: str, blatt: str) -> bool:
-    """Konto der Erfolgsrechnung: Blatt/Tabelle «Erfolgsrechnung» bzw. vierstellige Nummer der Klassen 3–8 (Kontenrahmen KMU)."""
-    return "erfolgsrechnung" in key(blatt or "") or bool(re.fullmatch(r"[3-8]\d{3}[A-Za-z]?", konto or ""))
+    """Konto der Erfolgsrechnung: Blatt/Tabelle «Erfolgsrechnung» bzw. Nummer (4–6 Ziffern) der Klassen 3–8 (Kontenrahmen KMU)."""
+    return "erfolgsrechnung" in key(blatt or "") or bool(re.fullmatch(r"[3-8]\d{3,5}[A-Za-z]?", konto or ""))
 
 
 def _konto_gleich(a: str, b: str) -> bool:
-    """Kontonummern gleich (gross/klein egal); Suffix-Buchstabe als Variante desselben Kontos (2170 ~ 2170k)."""
+    """Kontonummern gleich (gross/klein egal); Suffix-Buchstabe als Variante desselben Kontos (4711 ~ 4711a)."""
     a, b = (a or "").lower(), (b or "").lower()
     if a == b:
         return True
@@ -4290,32 +4594,44 @@ def _konto_rx(konten) -> re.Pattern | None:
 
 
 def _zeile_fmt(i: int, z: str, n: int = 600) -> str:
-    """Zeile mit Nummer wie `akte --datei`; lange Leerraum-Folgen (PDF-Layout) gekürzt, überlange Zeilen gekappt."""
+    """Zeile mit Nummer wie `akte --datei`; lange Leerraum-Folgen (PDF-Layout) gekürzt, überlange Zeilen gekappt. Tabellenzeilen kompakt:
+    leere Zellen am Zeilenende (Excel-Export) weg, Leerraum um die Trennstriche weg («|31.12.2030|AB-12|Text|»)."""
     t = re.sub(r"\s{3,}", "  ", z.rstrip())
-    t = re.sub(r"(?:\|\s*)+\|$", "|", t) if t.startswith("|") else t   # leere Zellen am Zeilenende (Excel-Export) weg
+    if t.lstrip().startswith("|"):
+        t = re.sub(r"(?:\|\s*)+\|$", "|", t.strip())
+        t = re.sub(r"\s*\|\s*", "|", t)
     return f"{i:>5}| " + (t if len(t) <= n else t[:n] + " …")
 
 
-def _luecken(zeilen: list[str], nrs: list[int], rel: str, aufruf: str) -> list[str]:
-    """Ausgewählte Zeilennummern mit Lückenhinweis «… Z. a–b ausgelassen» und am Ende einmal der Aufruf für ausgelassene Zeilen."""
+def _luecken(zeilen: list[str], nrs: list[int], rel: str, aufruf: str, still: set | None = None, ersatz: dict | None = None) -> list[str]:
+    """Ausgewählte Zeilennummern mit Lückenhinweis «… Z. a–b ausgelassen» und am Ende einmal der Aufruf für ausgelassene Zeilen. still:
+    Zeilen, die ohne Hinweis wegfallen dürfen (Vorspann, der schon einmal gezeigt wurde; zusammengefasste Zeilen); Layoutreste zählen nie
+    als ausgelassen. ersatz: Zeile → Text statt der Zeile (Zusammenfassung)."""
     out, vor, luecke = [], None, False
     for i in nrs:
         if vor is not None and i > vor + 1:
-            leer = [j for j in range(vor + 1, i) if zeilen[j - 1].strip() and not TRENN_RX.fullmatch(zeilen[j - 1].strip())]
+            leer = [j for j in range(vor + 1, i) if zeilen[j - 1].strip() and not TRENN_RX.fullmatch(zeilen[j - 1].strip())
+                    and not _layoutrest(zeilen[j - 1]) and not (still and j in still)]
             if leer:
                 out.append(f"      … Z. {vor + 1}–{i - 1} ausgelassen ({len(leer)} Zeilen)")
                 luecke = True
-        out.append(_zeile_fmt(i, zeilen[i - 1]))
+        out.append(ersatz[i] if ersatz and i in ersatz else _zeile_fmt(i, zeilen[i - 1]))
         vor = i
     if luecke:
         out.append(f"      (Ausgelassenes lesen: `{aufruf} --datei {_q(rel)} --von N --bis M`)")
     return out
 
 
+def _layoutrest(z: str) -> bool:
+    """Layoutrest einer PDF-Textfassung (verstreute Einzelbuchstaben eines Wasserzeichens, Striche): keine Ziffer, kein Wort ab 3 Buchstaben."""
+    s = z.strip()
+    return bool(s) and not re.search(r"\d", s) and not re.search(r"[A-Za-zÄÖÜäöüß]{3,}", s)
+
+
 def _inhalt_zeilen(zeilen: list[str], a: int = 1, b: int | None = None) -> list[int]:
-    """Nichtleere Zeilen a–b ohne Tabellen-Trennzeilen."""
+    """Nichtleere Zeilen a–b ohne Tabellen-Trennzeilen und ohne Layoutreste."""
     b = len(zeilen) if b is None else b
-    return [i for i in range(a, b + 1) if zeilen[i - 1].strip() and not TRENN_RX.fullmatch(zeilen[i - 1].strip())]
+    return [i for i in range(a, b + 1) if zeilen[i - 1].strip() and not TRENN_RX.fullmatch(zeilen[i - 1].strip()) and not _layoutrest(zeilen[i - 1])]
 
 
 def _zwert(c: list[str], w: dict | None) -> Decimal | None:
@@ -4329,10 +4645,62 @@ def _ap_allgemein(idx: list[dict], art) -> list[dict]:
     return [e for e in alle if not e["codes"]] or alle
 
 
-def _ap_saldolisten(idx: list[dict], jahr: int | None, label: str) -> tuple[list[dict], list[str], int | None]:
-    """Kontozeilen aller Saldolisten einer Akte. Datei- oder Blattname mit «Saldoliste/Saldenbilanz/Saldi …». Jahr der Saldospalte:
-    `jahr` (VJ-Akte: GJ − 1) bzw. höchstes Jahr der Kopfzeilen (GJ). Rückgabe: Zeilen, Spaltenhinweise, erkanntes Jahr."""
-    tabs = []
+def _ap_sl_inhalt(idx: list[dict]) -> list[tuple[dict, dict]]:
+    """Saldoliste am Inhalt (keine Datei/kein Blatt heisst so, z.B. «Kontenliste_2025»): Tabellen allgemeiner Dateien (ohne Prüffeld-
+    Zuordnung) mit Konto-Spalte und Saldo-/Jahres- bzw. Soll/Haben-Spalte in der Kopfzeile und ≥ AP_SL_MIN_KONTEN verschiedenen Konten
+    (je Konto eine Zeile – ein Journal wiederholt die Konten). Mehrere Kandidaten: die mit den meisten Konten zuerst, weitere nur mit
+    anderen Konten (z.B. Bilanz und Erfolgsrechnung in getrennten Dateien)."""
+    kand = []
+    for e in idx:
+        if not e["text"] or e["codes"] or _ohne_text(e):
+            continue
+        zeilen = _ap_text(e["p"])
+        for t in _ap_cache(("sl_tabellen", str(e["p"])), lambda: _sl_tabellen(e["rel"], zeilen)):
+            r = t["rollen"]
+            if r["konto"] is None or not any(w["art"] in ("wert", "soll", "haben") for w in r["werte"]):
+                continue
+            nrs = [_sl_kontonr(c, r)[1].lower() for _, c in t["konten"]]
+            ks = set(nrs)
+            if len(ks) >= AP_SL_MIN_KONTEN and len(ks) >= 0.9 * len(nrs):
+                kand.append((len(ks), e, t, ks))
+    out, gesehen = [], set()
+    for _, e, t, ks in sorted(kand, key=lambda x: (-x[0], x[1]["rel"].lower())):
+        if len(ks & gesehen) <= 0.2 * len(ks):
+            out.append((e, t))
+            gesehen |= ks
+    return out
+
+
+def _gruppe_von(konto: str, gruppen) -> str | None:
+    """Gruppenzeile (Kontengruppe der Saldoliste, z.B. «100 Flüssige Mittel», «110 Forderungen …») eines Kontos: Bereich ab der
+    Gruppennummer (aufgefüllt auf die Stellen des Kontos) bis zur nächsten Gruppe gleicher Stellenzahl bzw. bis zur nächsten übergeordneten
+    Nummer (100 → 1000–1099 bzw. bis 1059, wenn es die Gruppe 106 gibt); die genaueste (längste) Gruppe gilt. Ohne Treffer None."""
+    m = re.match(r"\d+", konto or "")
+    if not m:
+        return None
+    a, la = int(m.group(0)), len(m.group(0))
+    best = None
+    for g in gruppen:
+        lg = len(g)
+        if not g.isdigit() or lg >= la:
+            continue
+        f = 10 ** (la - lg)
+        lo = int(g) * f
+        hi = (int(g[:-1]) + 1) * f * 10 if lg > 1 else 10 ** la
+        hi = min([hi] + [int(g2) * f for g2 in gruppen if len(g2) == lg and g2.isdigit() and int(g2) > int(g)])
+        if lo <= a < hi and (best is None or lg > len(best)):
+            best = g
+    return best
+
+
+def _ap_saldolisten(idx: list[dict], jahr: int | None, label: str) -> tuple[list[dict], list[str], int | None, list[str]]:
+    """Kontozeilen aller Saldolisten einer Akte. Datei- oder Blattname mit «Saldoliste/Saldenbilanz/Saldi/Kontensalden …» (_ist_saldoliste),
+    sonst am Inhalt (_ap_sl_inhalt). Jahr der Saldospalte: `jahr` (VJ-Akte: GJ − 1) bzw. höchstes Jahr der Kopfzeilen (GJ). Gruppe eines
+    Kontos: Spalte «Gruppe/Position …», sonst die Gruppenzeile (Kontengruppe mit Zwischentotal, deren Nummer Anfang der Kontonummer ist),
+    sonst ein Zwischentitel, der ein Prüffeld eindeutig nennt («**Flüssige Mittel**»; nicht «Aktiven»). Gruppenzeilen selbst sind keine
+    Konten (Feld total + gruppe_zeile). Rückgabe: Zeilen, Spaltenhinweise, erkanntes Jahr, Saldolisten nach Namen ohne Kontozeilen
+    (rel, Grund: zu gross/nicht lesbar bzw. None)."""
+    tabs, leer = [], []
     sl = {e["rel"] for e in _ap_allgemein(idx, _ist_saldoliste)}
     for e in idx:
         if not e["text"] or (e["codes"] and e["rel"] not in sl):
@@ -4345,13 +4713,19 @@ def _ap_saldolisten(idx: list[dict], jahr: int | None, label: str) -> tuple[list
                 continue
         else:
             zeilen = _ap_text(e["p"])
-        ts = _sl_tabellen(e["rel"], zeilen)
+        ts = _ap_cache(("sl_tabellen", str(e["p"])), lambda: _sl_tabellen(e["rel"], zeilen))
         if not ts and datei_sl:   # Saldoliste ohne Tabelle (Textfassung eines PDF-Exports)
             ts = _sl_text(zeilen)
+        n0 = len(tabs)
         for t in ts:
             if not datei_sl and not _ist_saldoliste(t["blatt"]) and not _ist_saldoliste(e["rel"]):
                 continue
             tabs.append((e, t))
+        if datei_sl and len(tabs) == n0:
+            leer.append((e["rel"], _ap_nicht_gelesen(e["p"])))
+    inhalt = not tabs
+    if inhalt:
+        tabs = _ap_sl_inhalt(idx)
     if jahr is None:
         js = [y for _, t in tabs for w in t["rollen"]["werte"] if w["art"] == "wert" for y in w["jahre"]]
         jahr = max(js) if js else None
@@ -4364,25 +4738,45 @@ def _ap_saldolisten(idx: list[dict], jahr: int | None, label: str) -> tuple[list
         soll = next((w for w in r["werte"] if w["art"] == "soll"), None)
         haben = next((w for w in r["werte"] if w["art"] == "haben"), None)
         wo = f"{label}{e['rel']}" + (f" · {t['blatt']}" if t["blatt"] and "/" not in t["blatt"] else "")
-        hinweise.append(f"{wo}: Saldo = «{gj['kopf'] if gj else ('Soll − Haben' if soll and haben else 'nicht erkannt')}»"
+        hinweise.append(f"{wo}{' (am Inhalt erkannt: Konto- und Saldospalte)' if inhalt else ''}: Saldo = "
+                        f"«{gj['kopf'] if gj else ('Soll − Haben' if soll and haben else 'nicht erkannt')}»"
                         + (f", Vorjahr = «{vj['kopf']}»" if vj else "") + (f", Veränderung = «{de['kopf']}»" if de else ""))
-        for i, c in t["konten"]:
-            kz = r["konto"] if r["konto"] is not None and r["konto"] < len(c) and _konto_zelle(c[r["konto"]]) else \
-                next(j for j, x in enumerate(c) if _konto_zelle(x))
-            konto, rest = _konto_zelle(c[kz])
-            bi = r["bez"] if r["bez"] is not None and r["bez"] < len(c) and r["bez"] != kz else None if rest else next(
-                (j for j, x in enumerate(c) if j != kz and x and _betrag(x) is None and not KONTO_RX.match(x)), None)
-            gi = r["gruppe"] if r["gruppe"] is not None and r["gruppe"] < len(c) else None
+
+        def saldo(c):
             g = _zwert(c, gj)
             if g is None and soll and haben and _zwert(c, soll) is not None and _zwert(c, haben) is not None:
                 g = _zwert(c, soll) - _zwert(c, haben)
-            rows.append({"rel": e["rel"], "lab": label, "z": i, "konto": konto, "bez": c[bi] if bi is not None else rest,
-                         "gruppe": c[gi] if gi is not None else "", "gj": g, "vj": _zwert(c, vj), "delta": _zwert(c, de),
-                         "erkannt": bool(gj or (soll and haben)), "zellen": c, "er": _ist_erfolgskonto(konto, t["blatt"])})
+            return g
+
+        def bezeichnung(c, kz, rest):
+            bi = r["bez"] if r["bez"] is not None and r["bez"] < len(c) and r["bez"] != kz else None if rest else next(
+                (j for j, x in enumerate(c) if j != kz and x and _betrag(x) is None and not KONTO_RX.match(x)), None)
+            return (c[bi] if bi is not None else rest).strip(" *")
+
+        grp = {}   # Gruppenzeilen: Nummer → Bezeichnung
+        for i, c in t.get("gruppen") or []:
+            kz, nr, rest = _sl_kontonr(c, r)
+            grp[nr] = bezeichnung(c, kz, rest)
+            rows.append({"rel": e["rel"], "lab": label, "z": i, "konto": nr, "bez": grp[nr], "gruppe": "", "gj": saldo(c), "vj": _zwert(c, vj),
+                         "delta": None, "erkannt": bool(gj or (soll and haben)), "zellen": c, "total": True, "gruppe_zeile": True})
+        titel = t.get("titel") or []
+        for i, c in t["konten"]:
+            kz, konto, rest = _sl_kontonr(c, r)
+            gi = r["gruppe"] if r["gruppe"] is not None and r["gruppe"] < len(c) else None
+            gruppe = c[gi].strip(" *") if gi is not None else ""
+            if not gruppe:
+                gruppe = grp.get(_gruppe_von(konto, grp), "")
+            if not gruppe:
+                tt = next((x for z, x in reversed(titel) if z < i), "")
+                gruppe = tt if tt and _name_codes(tt, True) else ""
+            si = r.get("seite")
+            rows.append({"rel": e["rel"], "lab": label, "z": i, "konto": konto, "bez": bezeichnung(c, kz, rest), "gruppe": gruppe,
+                         "gj": saldo(c), "vj": _zwert(c, vj), "delta": _zwert(c, de), "erkannt": bool(gj or (soll and haben)), "zellen": c,
+                         "er": _ist_erfolgskonto(konto, t["blatt"]), "seite": _seite_wert(c[si]) if si is not None and si < len(c) else None})
         for i, c in t["totale"]:
             rows.append({"rel": e["rel"], "lab": label, "z": i, "konto": "", "bez": next((x for x in c if re.search(r"(?i)\b(?:total|summe)\b", x)), ""),
                          "gruppe": "", "gj": _zwert(c, gj), "vj": _zwert(c, vj), "delta": None, "erkannt": bool(gj), "zellen": c, "total": True})
-    return rows, hinweise, jahr
+    return rows, hinweise, jahr, leer
 
 
 def _ap_konten(codes: list[str], gj_rows: list[dict], vj_rows: list[dict]) -> tuple[list[dict], list[dict]]:
@@ -4393,7 +4787,7 @@ def _ap_konten(codes: list[str], gj_rows: list[dict], vj_rows: list[dict]) -> tu
         if r.get("total"):
             continue
         zuo = {"A1": "A"} if "A1" in codes else {}
-        zuo.update({c: h for c, h in _konto_codes(r["konto"], r["bez"], r["gruppe"], r["er"]).items() if c in codes})
+        zuo.update({c: h for c, h in _zeile_codes(r).items() if c in codes})
         if zuo:
             sel.append({**r, "zuo": zuo, "nur_vj": False})
     for r in sel:
@@ -4407,14 +4801,15 @@ def _ap_konten(codes: list[str], gj_rows: list[dict], vj_rows: list[dict]) -> tu
         if v.get("total") or any(_konto_gleich(v["konto"], k) for k in gj_k):
             continue
         zuo = {"A1": "A"} if "A1" in codes else {}
-        zuo.update({c: h for c, h in _konto_codes(v["konto"], v["bez"], v["gruppe"], v["er"]).items() if c in codes})
+        zuo.update({c: h for c, h in _zeile_codes(v).items() if c in codes})
         if zuo:
             nur_vj.append({**v, "zuo": zuo, "nur_vj": True, "vja": v})
     return sel, nur_vj
 
 
-def _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, hinweise, gj, vjr, ak_such) -> tuple[list[str], list[str], list[list[str]]]:
-    """Abschnitt 2: Tabelle Konto | Bezeichnung | Saldo GJ | Saldo VJ | Δ | VJ-Akte (+ Gruppe, Zuordnung, Zeile) und Summen je Gruppe."""
+def _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, hinweise, gj, vjr, ak_such, leer=()) -> tuple[list[str], list[str], list[list[str]]]:
+    """Abschnitt 2: Tabelle Konto | Bezeichnung | Saldo GJ | Saldo VJ | Δ | VJ-Akte (+ Gruppe, Zuordnung, Zeile) und Summen je Gruppe
+    (gerechnet und Gruppenzeilen der Saldoliste). leer: Saldolisten nach Namen ohne erkannte Kontozeilen (Meldung)."""
     kompakt = len(sel) > AP_KONTEN_KOMPAKT
     mehr = len(codes) > 1 and "A1" not in codes
     vjsp = bool(vjr)
@@ -4422,9 +4817,14 @@ def _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, hinweise, gj, vjr, ak_
              + ("" if kompakt else " | Zuo.") + (" | PF" if mehr else "") + " | Z. | Hinweis |"]
     kopfz.append("|" + "---|" * (kopfz[0].count("|") - 1))
     bl = []
+    if not gj_rows and leer:
+        return [f"Saldoliste gefunden ({', '.join(rel + (f' – {g}' if g else '') for rel, g in leer[:3])}), aber keine Kontozeilen erkannt "
+                f"(erwartet: Tabelle mit Kontonummer in einer eigenen Spalte bzw. am Zeilenanfang). Datei lesen: `{ak_such} --datei "
+                f"{_q(leer[0][0])}`; nicht lesbar → Original prüfen bzw. Pendenz; Konten nicht erkannt – nichts schätzen."], [], []
     if not gj_rows:
-        return [f"Keine Saldoliste erkannt (Datei-/Blattname mit «Saldoliste», «Saldenbilanz», «Saldi»). Konten nicht erkannt – "
-                f"`{ak_such} --suche \"Saldo\"` bzw. `--suche \"<Kontonummer>\"`; nichts schätzen."], [], []
+        return [f"Keine Saldoliste erkannt (Datei-/Blattname mit «Saldoliste», «Saldenliste», «Saldenbilanz», «Saldi», «Kontensalden» bzw. "
+                f"Tabelle mit Konto- und Saldospalte und ≥ {AP_SL_MIN_KONTEN} Konten). Konten nicht erkannt – `{ak_such} --suche \"Saldo\"` "
+                "bzw. `--suche \"<Kontonummer>\"`; nichts schätzen."], [], []
     intro = ["Spalten: " + " · ".join(hinweise[:6]) + ". Δ = GJ − VJ (gerechnet; Kontrolle mit `rechne`)"
              + (". VJ-Akte = Saldo der Vorjahresakte (Vorjahresabstimmung)" if vjsp else ". VJ-Akte: ohne `--vj` nicht gelesen")
              + ". Zuordnung: " + ", ".join(f"{k} = {v}" for k, v in ZUO_TXT.items() if k in {h for r in sel + nur_vj for h in r['zuo'].values()}) + "."]
@@ -4471,22 +4871,41 @@ def _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, hinweise, gj, vjr, ak_
             sa = sum((r["vja"]["gj"] for r in rs if r.get("vja") and r["vja"]["gj"] is not None), Decimal(0))
             summen.append(f"- Σ {c} Gruppe «{cut(g_, 50)}» ({len(rs)} Konten): GJ {_bfmt(sg)} · VJ {_bfmt(sv)} · Δ {_bfmt(sg - sv)}"
                           + (f" · VJ-Akte {_bfmt(sa)}" if vjsp else ""))
-    tot = [r for r in gj_rows if r.get("total")] if "A1" in codes else []
+    # Gruppenzeilen der Saldoliste (Kontengruppe mit Zwischentotal) zu den Konten des Prüffelds bzw. alle Totale (A1)
+    eig = [r["konto"] for r in sel]
+    tot = [r for r in gj_rows if r.get("total")] if "A1" in codes else [
+        r for r in gj_rows if r.get("gruppe_zeile") and any(k.startswith(r["konto"]) for k in eig)]
     if summen or tot:
         bl.append(["", "Summen (gerechnet; mit dem Total der Jahresrechnung vergleichen, Kontrolle mit `rechne`):"] + summen[:40]
-                  + [f"- Saldoliste Z. {r['z']}: {cut(r['bez'], 50)} · GJ {_bfmt(r['gj'])} · VJ {_bfmt(r['vj'])}" for r in tot[:20]])
+                  + [f"- Saldoliste Z. {r['z']}: {('Gruppe ' + r['konto'] + ' ') if r.get('gruppe_zeile') else ''}{cut(r['bez'], 50)} · "
+                     f"GJ {_bfmt(r['gj'])} · VJ {_bfmt(r['vj'])}" for r in tot[:20]])
     return intro, kopfz, bl
 
 
+def _hb_kopf_konto(t: str) -> str | None:
+    """Kontonummer einer Kontoblatt-Überschrift: am Anfang («Blatt «4711»», «Konto 4711 …», «4711 <Bezeichnung>») oder am Ende
+    («<Bezeichnung> (4711)», «<Bezeichnung> – 4711», «<Bezeichnung>, Konto 4711»). Eine Jahreszahl allein oder im Titel des Hauptbuchs
+    («## 2025», «Hauptbuch (2025)», «Periode – 2025») ist kein Konto."""
+    t = t.strip().strip("*").strip()
+    m = HB_KOPF_RX.match(t) or HB_KOPF_ENDE_RX.search(t)
+    if not m:
+        return None
+    nr = m.group(1)
+    if JAHR_RX.fullmatch(nr) and (not re.search(r"[A-Za-zÄÖÜäöü]{3,}", t.replace(nr, "")) or re.search(
+            r"(?i)hauptbuch|kontobl|kontenbl|journal|jahr|periode|bilanz|rechnung|abschluss|stand|per\b", t)):
+        return None
+    return nr
+
+
 def _hb_abschnitte(zeilen: list[str]) -> list[tuple[str, int, int, str]]:
-    """Kontoblätter einer Hauptbuch-/Kontoblatt-Datei: (Konto, erste Zeile, letzte Zeile, Überschrift). Überschriften, die mit der Kontonummer
-    beginnen («Blatt «4711»», «Konto 4711 …», «4711 <Bezeichnung>»), sonst Zeilen «Konto/Kontoblatt <Nr>» als Abschnittsbeginn."""
+    """Kontoblätter einer Hauptbuch-/Kontoblatt-Datei: (Konto, erste Zeile, letzte Zeile, Überschrift). Markdown-Überschriften mit der
+    Kontonummer am Anfang oder am Ende (_hb_kopf_konto); sonst Zeilen «Konto/Kontoblatt <Nr> …» bzw. ganz fette Zeilen mit Kontonummer
+    («**<Bezeichnung> (4711)**») als Abschnittsbeginn."""
     kopf = []
     for i, z in enumerate(zeilen, 1):
         m = re.match(r"^(#{1,6})\s+(.*)$", z)
         if m:
-            k = HB_KOPF_RX.match(m.group(2).strip())
-            kopf.append((i, len(m.group(1)), k.group(1) if k else None, m.group(2).strip()))
+            kopf.append((i, len(m.group(1)), _hb_kopf_konto(m.group(2)), m.group(2).strip()))
     out = []
     if sum(1 for x in kopf if x[2]) >= 1:
         for j, (i, lev, k, t) in enumerate(kopf):
@@ -4494,16 +4913,25 @@ def _hb_abschnitte(zeilen: list[str]) -> list[tuple[str, int, int, str]]:
                 ende = next((i2 - 1 for i2, lev2, _, _ in kopf[j + 1:] if lev2 <= lev), len(zeilen))
                 out.append((k, i, ende, t))
         return out
-    starts = [(i, m.group(1), z.strip()) for i, z in enumerate(zeilen, 1) for m in [HB_ZEILE_RX.match(z)] if m]
+    starts = []
+    for i, z in enumerate(zeilen, 1):
+        m = HB_ZEILE_RX.match(z)
+        if m:
+            starts.append((i, m.group(1), z.strip()))
+        elif re.fullmatch(r"\s*\*\*[^*|]{3,120}\*\*\s*", z):
+            k = _hb_kopf_konto(z)
+            if k:
+                starts.append((i, k, z.strip()))
     for j, (i, k, t) in enumerate(starts):
         out.append((k, i, starts[j + 1][0] - 1 if j + 1 < len(starts) else len(zeilen), t))
     return out
 
 
-def _kb_auswahl(zeilen: list[str], a: int, b: int, cap: int) -> list[int]:
+def _kb_auswahl(zeilen: list[str], a: int, b: int, cap: int, ohne: set | frozenset = frozenset()) -> list[int]:
     """Zeilen eines Kontoblatts: alle, wenn ≤ cap; sonst Kopf (bis Spaltenzeile + erste Buchung), alle Abschluss-/Umbuchungen (AB, Abschluss,
-    Umbuchung, 31.12.) und die letzten Buchungen bis cap."""
-    nrs = _inhalt_zeilen(zeilen, a, b)
+    Umbuchung, 31.12.) und die letzten Buchungen bis cap. ohne: Zeilen, die nicht zählen und nie gewählt werden (zusammengefasste
+    Sammelbuchungen)."""
+    nrs = [i for i in _inhalt_zeilen(zeilen, a, b) if i not in ohne]
     if len(nrs) <= cap:
         return nrs
     kz = next((j for j, i in enumerate(nrs[:12]) if re.search(r"(?i)datum", zeilen[i - 1]) and
@@ -4515,37 +4943,236 @@ def _kb_auswahl(zeilen: list[str], a: int, b: int, cap: int) -> list[int]:
     return sorted(set(kopf) | set(wichtig) | set(schluss))
 
 
+def _hb_inhalt(zeilen: list[str]) -> bool:
+    """Datei mit Kontoblättern (Buchungstabelle im Abschnitt eines Kontos, _hb_abschnitte) oder Journal (Buchungstabelle mit Spalte Konto) –
+    eine Buchungstabelle allein (Bankauszug, Kassenbuch) genügt nicht."""
+    abschn = _hb_abschnitte(zeilen)
+    for i, z in enumerate(zeilen, 1):
+        c = _zellen(z)
+        r = _kb_rollen(c) if c else None
+        if r and ("konto" in r or any(a <= i <= b for _, a, b, _ in abschn)):
+            return True
+    return False
+
+
+def _ap_hb_dateien(idx) -> list[dict]:
+    """Hauptbuch-/Kontoblatt-/Journal-Dateien der Akte (ohne Saldolisten): Dateiname bzw. Ordner «Hauptbuch/Kontoblätter/Journal …» –
+    auch in Prüffeld-Ordnern (z.B. das Kontoblatt eines Bankkontos im Ordner der flüssigen Mittel), dort nur mit Kontoblatt-/Journal-Inhalt
+    (_hb_inhalt; «Konto_…_Auszug» der Bank ist kein Kontoblatt). Ohne solchen Namen: allgemeine Dateien mit Kontoblatt-/Journal-Inhalt.
+    Allgemeine Dateien zuerst – dasselbe Konto in einer späteren Datei gilt als Doppel (_ap_kontoblaetter, _ap_buchungen)."""
+    hb = []
+    for e in idx:
+        st = Path(e["rel"]).stem
+        if not e["text"] or _ist_saldoliste(st):
+            continue
+        name = _ist_hauptbuch(st)
+        ordner = "/" in e["rel"] and _ist_hauptbuch(e["rel"].rsplit("/", 1)[0]) and not e["codes"]
+        if not (name or ordner):
+            continue
+        if e["codes"] and not _ap_cache(("hb_inhalt", str(e["p"])), lambda: _hb_inhalt(_ap_text(e["p"]))):
+            continue
+        hb.append(e)
+    if not hb:
+        hb = [e for e in idx if e["text"] and not e["codes"] and not _ohne_text(e) and not _ist_saldoliste(Path(e["rel"]).stem)
+              and not _ist_jahresrechnung(Path(e["rel"]).stem) and _ap_cache(("hb_inhalt", str(e["p"])), lambda: _hb_inhalt(_ap_text(e["p"])))]
+    return sorted(hb, key=lambda e: (bool(e["codes"]), e["rel"].lower()))
+
+
+def _kb_rollen(c: list[str]) -> dict | None:
+    """Spalten einer Buchungs-Kopfzeile (Kontoblatt/Journal): datum, beleg, text, gegen, konto, soll, haben, betrag, saldo – None, wenn die
+    Zeile keine Buchungs-Kopfzeile ist (Datum und Soll/Haben/Betrag nötig)."""
+    r = {}
+    for i, x in enumerate(c):
+        k = key(x).strip(" .:*")
+        if not k:
+            continue
+        if "datum" not in r and re.fullmatch(r"(?:buchungs|beleg|valuta)?\s*datum|date", k):
+            r["datum"] = i
+        elif "gegen" not in r and GEGEN_KOPF_RX.match(k):
+            r["gegen"] = i
+        elif "beleg" not in r and re.fullmatch(r"beleg(?:\s*-?\s*(?:nr\.?|nummer))?|bel\.?\s*-?\s*nr\.?|dok(?:ument)?(?:\s*-?\s*nr\.?)?|"
+                                               r"ref(?:erenz)?\.?|buchungs?\s*-?\s*nr\.?", k):
+            r["beleg"] = i
+        elif "konto" not in r and re.fullmatch(r"(?:konto|kto)(?:\s*-?\s*(?:nr\.?|nummer))?", k):
+            r["konto"] = i
+        elif "soll" not in r and re.fullmatch(r"(?:soll|belastung|debit|debet)(?:\s+chf)?", k):
+            r["soll"] = i
+        elif "haben" not in r and re.fullmatch(r"(?:haben|gutschrift|kredit|credit)(?:\s+chf)?", k):
+            r["haben"] = i
+        elif "saldo" not in r and k.startswith("saldo"):
+            r["saldo"] = i
+        elif "betrag" not in r and re.fullmatch(r"betrag(?:\s+chf)?|chf", k):
+            r["betrag"] = i
+        elif "text" not in r and re.fullmatch(r"(?:buchungs)?text|beschreibung", k):
+            r["text"] = i
+    return r if "datum" in r and ("soll" in r or "haben" in r or "betrag" in r) else None
+
+
+def _hb_buchungen(zeilen: list[str], abschn=None) -> list[dict]:
+    """Buchungszeilen einer Hauptbuch-/Kontoblatt-Datei: Tabellen mit Buchungs-Kopfzeile (Datum, Soll/Haben/Betrag). Konto = Kontoblatt
+    (Abschnitt aus _hb_abschnitte) bzw. Spalte «Konto» (Journal). Je Buchung: z (Zeile), roh (Zeile), kopf (Zeile der Kopfzeile), konto,
+    titel (Kontoblatt), beleg, text, gk (Kontonummern der Spalte Gegenkonto), betr (Beträge aus Soll/Haben/Betrag ≠ 0, ohne Vorzeichen),
+    datum (Jahr, Monat, Tag; unbekannt = 0, 0, 0)."""
+    abschn = _hb_abschnitte(zeilen) if abschn is None else abschn
+    blatt = [None] * (len(zeilen) + 2)
+    for k, a, b, t in abschn:   # spätere (innere) Abschnitte überschreiben äussere
+        for i in range(a, min(b, len(zeilen)) + 1):
+            blatt[i] = (k, t)
+    out, rollen, kopf = [], None, None
+    for i, z in enumerate(zeilen, 1):
+        c = _zellen(z)
+        if c is None:
+            if not z.strip() or not TRENN_RX.fullmatch(z.strip()):
+                rollen = None   # Tabelle zu Ende (Leerzeile, Überschrift, Text)
+            continue
+        r = _kb_rollen(c)
+        if r:
+            rollen, kopf = r, i
+            continue
+        if not rollen:
+            continue
+
+        def zelle(rolle: str) -> str:
+            j = rollen.get(rolle)
+            return c[j].strip() if j is not None and j < len(c) else ""
+
+        if not zelle("datum") and not zelle("beleg"):
+            continue
+        konto, titel = blatt[i] if blatt[i] else (None, "")
+        if konto is None:
+            kz = _konto_zelle(zelle("konto"))
+            if not kz:
+                continue
+            konto = kz[0]
+        betr = []
+        for rolle in ("soll", "haben", "betrag"):
+            d = _betrag(zelle(rolle))
+            if d:
+                betr.append(abs(d).quantize(Decimal("0.01")))
+        m = re.search(r"(\d{1,2})\.(\d{1,2})\.(\d{4})|(\d{4})-(\d{2})-(\d{2})", zelle("datum"))
+        datum = ((int(m.group(3)), int(m.group(2)), int(m.group(1))) if m.group(1) else (int(m.group(4)), int(m.group(5)), int(m.group(6)))) if m \
+            else (0, 0, 0)
+        out.append({"z": i, "roh": z, "kopf": kopf, "konto": konto, "titel": titel, "beleg": zelle("beleg"), "text": zelle("text"),
+                    "gk": GK_TOKEN_RX.findall(zelle("gegen")), "betr": betr, "datum": datum})
+    return out
+
+
+def _ap_buchungen(hb: list[dict], gj: int | None) -> list[tuple]:
+    """Alle Buchungen der Hauptbuch-/Kontoblatt-Dateien: (Datei-Eintrag, Folgejahr?, Buchung) – einmal je Aufruf. Steht dasselbe Konto
+    (gleiches Jahr bzw. Folgejahr) in mehreren Dateien (Hauptbuch und Kopie des Kontoblatts im Prüffeld-Ordner), zählen nur die Buchungen
+    der ersten Datei (Reihenfolge _ap_hb_dateien) – sonst wären Gegenbuchungen und Summen doppelt."""
+    out, vorher = [], set()
+    for e in hb:
+        fj_datei = _ist_folgejahr(Path(e["rel"]).stem, gj)
+        hier = set()
+        for b in _ap_cache(("hb_buchungen", str(e["p"])), lambda: _hb_buchungen(_ap_text(e["p"]))):
+            fj = fj_datei or _ist_folgejahr(b["titel"], gj)
+            k = (b["konto"].lower(), fj)
+            if k in vorher:
+                continue
+            hier.add(k)
+            out.append((e, fj, b))
+        vorher |= hier
+    return out
+
+
+def _hb_vorspann(zeilen: list[str], abschn) -> dict:
+    """Vorspann der Kontoblätter einer Datei (Zeilen zwischen Überschrift und Buchungs-Kopfzeile), der in mindestens 3 Kontoblättern gleich
+    lautet (Firma, Zeitraum, Vermerke): erste Zeile des Kontoblatts → diese Zeilennummern."""
+    je, zaehl = {}, Counter()
+    for _, a, b, _ in abschn:
+        v = []
+        for i in range(a + 1, min(b, len(zeilen)) + 1):
+            c = _zellen(zeilen[i - 1])
+            if c and _kb_rollen(c):
+                break
+            if zeilen[i - 1].strip() and not TRENN_RX.fullmatch(zeilen[i - 1].strip()):
+                v.append(i)
+        je[a] = v
+        zaehl.update({zeilen[i - 1].strip() for i in v})
+    return {a: {i for i in v if zaehl[zeilen[i - 1].strip()] >= 3} for a, v in je.items()}
+
+
+SAMMEL_RX = re.compile(r"sammel")   # Sammelbuchung/Sammelauftrag (Text in key-Form)
+
+
+def _kb_sammel(zeilen: list[str], buch: list[dict], nrs: list[int], gj: int | None, rel: str, ak: str, ab: int = 4) -> tuple[set, dict]:
+    """Sammelbuchungen eines Kontoblatts vor dem letzten Monat des Geschäftsjahres (Text «Sammel…», keine Abschluss-/Umbuchung; ab ab Zeilen)
+    → eine Zusammenfassung an der Stelle der ersten: Anzahl, Belege, Gegenkonten, Σ Soll/Haben bzw. Betrag, Saldo nach der letzten
+    Buchung je Monat und der Aufruf für die Einzelzeilen. Buchungen des letzten Monats (Stichtag) bleiben einzeln. Rückgabe: zusammen-
+    gefasste Zeilen (ohne die erste), Ersatztext der ersten."""
+    jbuch = {b["z"]: b for b in buch}
+    monate = [jbuch[i]["datum"][:2] for i in nrs if i in jbuch and jbuch[i]["datum"][0]]
+    letzter = (gj, 12) if gj else (max(monate) if monate else None)
+    if not letzter:
+        return set(), {}
+    sam = [i for i in nrs if i in jbuch and SAMMEL_RX.search(key(jbuch[i]["text"])) and jbuch[i]["datum"][0]
+           and jbuch[i]["datum"][:2] < letzter and not ABSCHLUSS_RX.search(f"{jbuch[i]['beleg']} {jbuch[i]['text']}")]
+    if len(sam) < max(ab, 2):
+        return set(), {}
+    rollen = _kb_rollen(_zellen(zeilen[jbuch[sam[0]]["kopf"] - 1]) or []) or {}
+    summe, saldo = {}, {}
+    for i in sam:
+        c = _zellen(zeilen[i - 1]) or []
+        for rolle in ("soll", "haben", "betrag"):
+            j = rollen.get(rolle)
+            d = _betrag(c[j]) if j is not None and j < len(c) else None
+            if d is not None:
+                summe[rolle] = summe.get(rolle, Decimal(0)) + d
+        j = rollen.get("saldo")
+        if j is not None and j < len(c) and _betrag(c[j]) is not None:
+            saldo[jbuch[i]["datum"][:2]] = _betrag(c[j])
+    belege = [jbuch[i]["beleg"] for i in sam if jbuch[i]["beleg"]]
+    gk = sorted({g for i in sam for g in jbuch[i]["gk"]}) or sorted({(_zellen(zeilen[i - 1]) or [""])[rollen["gegen"]].strip()
+                                                                    for i in sam if rollen.get("gegen") is not None} - {""})
+    m0, m1 = jbuch[sam[0]]["datum"], jbuch[sam[-1]]["datum"]
+    t = (f"{sam[0]:>5}| Sammelbuchungen {m0[1]:02d}.{m0[0]}–{m1[1]:02d}.{m1[0]} zusammengefasst ({len(sam)} Zeilen, Z. {sam[0]}–{sam[-1]}"
+         + (f", Belege {belege[0]} … {belege[-1]}" if belege else "") + (f", Gegenkonto {'/'.join(gk[:4])}" if gk else "") + "): "
+         + " · ".join(f"Σ {r.capitalize()} {_bfmt(v)}" for r, v in summe.items())
+         + ("; Saldo je Monatsende: " + " · ".join(f"{m:02d}/{y % 100:02d} {_bfmt(v)}" for (y, m), v in sorted(saldo.items())) if saldo else "")
+         + f" (Σ gerechnet; Einzelzeilen: `{ak} --datei {_q(rel)} --von {sam[0]} --bis {sam[-1]}`)")
+    return set(sam[1:]), {sam[0]: t}
+
+
 def _ap_kontoblaetter(idx, konten: list[str], gj: int | None, st: dict, ak: str) -> list[list[str]]:
     """Abschnitt 3: je Konto des Prüffelds das Kontoblatt (Hauptbuch/Kontoblätter, auch Folgejahr) und die Übersichtszeilen ausserhalb der
-    Kontoblätter (z.B. Inhaltsblatt mit Eröffnung/Schlusssaldo)."""
-    bl, gefunden = [], set()
-    hb = _ap_allgemein(idx, _ist_hauptbuch) + [e for e in idx if e["text"] and not e["codes"] and "/" in e["rel"]
-                                              and _ist_hauptbuch(e["rel"].rsplit("/", 1)[0]) and not _ist_hauptbuch(Path(e["rel"]).stem)]
-    for e in hb:
-        if _ist_saldoliste(Path(e["rel"]).stem):
-            continue
+    Kontoblätter (z.B. Inhaltsblatt mit Eröffnung/Schlusssaldo). Vorspann, der in vielen Kontoblättern gleich lautet, nur beim ersten.
+    Ab Kürzungsstufe 1 werden Sammelbuchungen vor dem letzten Monat je Kontoblatt zusammengefasst (_kb_sammel, ab st['sammel'] Zeilen)."""
+    bl, gefunden, gezeigt = [], set(), {}
+    for e in _ap_hb_dateien(idx):
         zeilen = _ap_text(e["p"])
         fj_datei = _ist_folgejahr(Path(e["rel"]).stem, gj)
-        abschn = _hb_abschnitte(zeilen)
-        drin = set()
+        abschn = _ap_cache(("hb_abschnitte", str(e["p"])), lambda: _hb_abschnitte(zeilen))
+        buch = _ap_cache(("hb_buchungen", str(e["p"])), lambda: _hb_buchungen(zeilen, abschn)) if st.get("sammel", AP_NIE) < AP_NIE else []
+        vorspann, erster = _ap_cache(("hb_vorspann", str(e["p"])), lambda: _hb_vorspann(zeilen, abschn)), True
+        drin, hier = set(), {}
         for k, a, b, t in abschn:
             drin.update(range(a, b + 1))
             if not any(_konto_gleich(k, x) for x in konten):
                 continue
             gefunden.update(x.lower() for x in konten if _konto_gleich(k, x))
             fj = fj_datei or _ist_folgejahr(t, gj)
-            nrs = _kb_auswahl(zeilen, a, b, st["kb"])
-            bl.append([f"### Konto {k}{' · ⏭ FOLGEJAHR' if fj else ''} · {e['rel']} Z. {a}–{b}"] + _luecken(zeilen, nrs, e["rel"], ak))
+            if (k.lower(), fj) in gezeigt:   # dasselbe Konto schon aus einer früheren Datei (z.B. Kopie im Prüffeld-Ordner): nur Verweis
+                bl.append([f"### Konto {k}{' · ⏭ FOLGEJAHR' if fj else ''} · {e['rel']} Z. {a}–{b} – auch in {gezeigt[(k.lower(), fj)]} (oben); "
+                           f"Abweichungen prüfen: `{ak} --datei {_q(e['rel'])} --von {a} --bis {b}`"])
+                continue
+            hier[(k.lower(), fj)] = e["rel"]
+            weg = set() if erster else vorspann.get(a, set())
+            erster = False
+            sam, ersatz = _kb_sammel(zeilen, buch, _inhalt_zeilen(zeilen, a, b), gj, e["rel"], ak, st["sammel"]) if buch and not fj else (set(), {})
+            # Sammelbuchungen: die Zusammenfassung (an der Stelle der ersten) immer zeigen, die übrigen zählen nicht für die Auswahl
+            nrs = sorted({i for i in _kb_auswahl(zeilen, a, b, st["kb"], sam | set(ersatz)) if i not in weg} | set(ersatz))
+            bl.append([f"### Konto {k}{' · ⏭ FOLGEJAHR' if fj else ''} · {e['rel']} Z. {a}–{b}"]
+                      + _luecken(zeilen, nrs, e["rel"], ak, weg | sam, ersatz))
+        gezeigt.update(hier)
         # Ausserhalb der Kontoblätter: Tabellenzeilen mit der Kontonummer in der Konto-Spalte – wenige je Konto = Übersicht (Inhaltsblatt mit
         # Eröffnung/Schlusssaldo), viele = Journal (alle Buchungen in einer Tabelle): dann Auswahl wie beim Kontoblatt
         ueb, journal = [], []
-        for t in _sl_tabellen(e["rel"], zeilen):
+        for t in _ap_cache(("sl_tabellen", str(e["p"])), lambda: _sl_tabellen(e["rel"], zeilen)):
             r = t["rollen"]
             je = {}
             for i, c in t["konten"]:
-                kz = r["konto"] if r["konto"] is not None and r["konto"] < len(c) and _konto_zelle(c[r["konto"]]) else \
-                    next(j for j, x in enumerate(c) if _konto_zelle(x))
-                k = next((x for x in konten if _konto_gleich(_konto_zelle(c[kz])[0], x)), None)
+                k = next((x for x in konten if _konto_gleich(_sl_kontonr(c, r)[1], x)), None)
                 if k and i not in drin:
                     je.setdefault(k, []).append(i)
             for k, nrs in je.items():
@@ -4573,9 +5200,12 @@ def _nur_zahlen(z: str) -> bool:
     return bool(re.search(r"\d", z)) and all(len(t) <= 2 for t in s.split())
 
 
-def _anhang_abschnitte(zeilen: list[str]) -> list[tuple[int, int, str]]:
-    """Anhang der Jahresrechnung: (erste Zeile, letzte Zeile, Überschrift) je Ziffer «1. …» bzw. Markdown-Überschrift nach «Anhang»."""
+def _anhang_abschnitte(zeilen: list[str], ganz: bool = False) -> list[tuple[int, int, str]]:
+    """Anhang der Jahresrechnung: (erste Zeile, letzte Zeile, Überschrift) je Ziffer «1. …» bzw. Markdown-Überschrift nach «Anhang».
+    ganz: eigene Anhang-Datei (_ist_anhang) – ohne Zeile «Anhang» beginnt der Anhang mit der ersten Zeile."""
     a0 = next((i for i, z in enumerate(zeilen, 1) if re.match(r"^\s*(?:#+\s*)?(?:\d+\.?\s*)?Anhang\b", z)), None)
+    if not a0 and ganz and zeilen:
+        a0 = 1
     if not a0:
         return []
     kopf = [i for i in range(a0 + 1, len(zeilen) + 1)
@@ -4590,23 +5220,104 @@ def _anhang_abschnitte(zeilen: list[str]) -> list[tuple[int, int, str]]:
     return out
 
 
-def _ap_jahresrechnung(idx, label: str, sel: list[dict], codes: list[str], kw_alts, st: dict, ak: str, vj: bool = False) -> list[list[str]]:
+JR_REF_RX = re.compile(r"(?:\d{1,2}(?:\.\d{1,2})?|[IVX]{1,4})\.?")   # Anhang-Ziffer in einer Bilanzzeile
+JR_BETRAG_RX = re.compile(r"\(?[-−–]?(?:\d{1,3}(?:['’]\d{3})+(?:[.,]\d{1,2})?|\d+[.,]\d{2}|\d{3,})\)?-?|0|[-–—]")
+
+
+def _jr_position(z: str) -> str | None:
+    """Positionszeile der Bilanz/Erfolgsrechnung im üblichen OR-Format: Bezeichnung, danach nur Beträge, leere Zellen oder eine Anhang-
+    Ziffer («| Flüssige Mittel |  | 125'562.95 | 153'025.30 |», «Forderungen aus Lieferungen und Leistungen 2 261'610.00 199'900.00») –
+    Rückgabe: die Bezeichnung; sonst None."""
+    c = _zellen(z)
+    if c is not None:
+        voll = [x.strip().strip("*").strip() for x in c if x.strip().strip("*").strip()]
+        lab, rest = (voll[0], voll[1:]) if voll else ("", [])
+    else:
+        toks = z.strip().strip("*#").strip().split()
+        rest = []
+        while toks and (JR_BETRAG_RX.fullmatch(toks[-1]) or JR_REF_RX.fullmatch(toks[-1])):
+            rest.insert(0, toks.pop())
+        lab = " ".join(toks)
+    lab = lab.strip(" *:")
+    if not rest or len(lab) > 90 or not re.search(r"[A-Za-zÄÖÜäöü]{3}", lab) or _betraege_text(lab):
+        return None
+    if not all(JR_BETRAG_RX.fullmatch(x) or JR_REF_RX.fullmatch(x) for x in rest):
+        return None
+    return lab if any(JR_BETRAG_RX.fullmatch(x) and not JR_REF_RX.fullmatch(x) and re.search(r"\d", x) for x in rest) else None
+
+
+def _ap_jr_dateien(idx: list[dict]) -> list[dict]:
+    """Dateien der Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang – eine Datei oder getrennt; _ist_jahresrechnung), ohne Saldolisten.
+    Allgemeine Dateien (ohne Prüffeld-Zuordnung; eine eigene Anhang-Datei gilt trotz der Zuordnung zu T1 als allgemein) gehen vor – die
+    Jahresrechnung einer Beteiligung im Ordner der Beteiligungen zählt dann nicht."""
+    alle = [e for e in idx if e["text"] and _ist_jahresrechnung(Path(e["rel"]).stem) and not _ist_saldoliste(Path(e["rel"]).stem)]
+    allg = [e for e in alle if not e["codes"] or (_ist_anhang(Path(e["rel"]).stem) and set(e["codes"]) <= {"T1"})]
+    return allg or alle
+
+
+def _begriff_muster(terme) -> list:
+    """Suchmuster (_such_muster, Wortanfang) für Fachbegriffe; Begriffe aus ANHANG_TEILWORT auch mitten im Wort."""
+    alts = _such_muster("|".join(t for t in terme if key(t) not in ANHANG_TEILWORT), wortanfang=True)
+    return alts + [[("text", re.compile(re.escape(key(t))))] for t in terme if key(t) in ANHANG_TEILWORT]
+
+
+def _ap_anhang_begriffe(codes: list[str]):
+    """Suchmuster der Anhangangaben (Art. 959c OR, ANHANG_GRUPPEN: verpfändete/zedierte Aktiven, Garantien und Eventualverbindlichkeiten,
+    Leasing …), die das Prüfprogramm der Prüffelder selbst nennt (Kurzbeschrieb, Risiken, Unterlagen, Schritte – z.B. Zession bei den
+    Forderungen, Verpfändung und Garantien bei den flüssigen Mitteln): je genannte Gruppe alle ihre Begriffe → Anhang-Abschnitte in
+    Abschnitt 4 (GJ und VJ); None, wenn keine."""
+    text = key(json.dumps([L().get("pf", {}).get(c, {}) for c in codes], ensure_ascii=False))
+    terme = [t for g in ANHANG_GRUPPEN if any(key(x) in text for x in g) for t in g]
+    return _begriff_muster(terme) if terme else None
+
+
+def _ap_jahresrechnung(idx, label: str, sel: list[dict], codes: list[str], kw_alts, st: dict, ak: str, vj: bool = False,
+                       anh_alts=None, gk_konten: list[str] | None = None) -> list[list[str]]:
     """Abschnitt 4: Zeilen der Jahresrechnung mit Konten/Bezeichnungen/Gruppen des Prüffelds (Gruppenblock bis «Total <Gruppe>» samt
-    nachfolgender Zahlenzeilen – zerstückeltes PDF-Layout), Total-/Ergebniszeilen (A1) und Anhang-Abschnitte mit Prüffeld-Stichworten (T1: ganz)."""
+    nachfolgender Zahlenzeilen – zerstückeltes PDF-Layout), Zeilen mit einem Saldo der Prüffeld-Konten (auch wenn Konto und Betrag im
+    PDF-Layout getrennt stehen), Eckwerte (Total Aktiven/Fremdkapital/Eigenkapital, Jahresergebnis; alle Prüffelder), Total-/Ergebniszeilen
+    (A1), Datum der Unterzeichnung, Anhang-Gliederung und Anhang-Abschnitte mit Prüffeld-Stichworten, Anhangangaben aus dem Prüfprogramm
+    (anh_alts, _ap_anhang_begriffe), Konten oder Salden (T1: ganz). gk_konten: Gegenkonten der Buchungen des Prüffelds (Abschnitt 2) –
+    ihre Zeilen in Bilanz/Erfolgsrechnung (z.B. Zinsaufwand/-ertrag zu Bank und Darlehen). P1: Totale der Bilanz samt Zahlenzeilen darunter."""
     bl = []
     konten = [r["konto"] for r in sel]
     krx = _konto_rx(konten) if "A1" not in codes else None
+    gkrx = _konto_rx(gk_konten) if gk_konten and not vj else None
     bez = {key(r["bez"]).strip() for r in sel if len(key(r["bez"]).strip()) >= 6} if "A1" not in codes else set()
     gruppen = {key(r["gruppe"]).strip() for r in sel if any(h == "G" for h in r["zuo"].values()) and len(key(r["gruppe"]).strip()) >= 4}
-    for e in _ap_allgemein(idx, _ist_jahresrechnung):
-        if _ist_saldoliste(Path(e["rel"]).stem):
-            continue
+    betr = set()   # Salden der Prüffeld-Konten (GJ-Akte: GJ und VJ; Vorjahresakte: VJ und Saldo der VJ-Akte)
+    summe = set()  # Summen je Gruppe/Prüffeld – nur in Positions- oder Totalzeilen (sonst zufällig gleiche Einzelbeträge anderer Konten)
+    if "A1" not in codes:
+        werte = lambda r: ((r["vj"], (r.get("vja") or {}).get("gj"), (r.get("vja") or {}).get("vj")) if vj else (r["gj"], r["vj"]))  # noqa: E731
+        summen = [[r for r in sel if c in r["zuo"]] for c in codes]
+        summen += [[r for r in sel if key(r["gruppe"]).strip() == g] for g in gruppen]
+        for r in sel:
+            for x in werte(r):
+                if x is not None and abs(x) >= QUER_MIN:
+                    betr.add(abs(x).quantize(Decimal("0.01")))
+        for rs in summen:   # Position der Bilanz = Summe der Konten (Gruppe bzw. Prüffeld), auch ohne Gruppenspalte
+            for j in range(3 if vj else 2):
+                xs = [werte(r)[j] for r in rs if werte(r)[j] is not None]
+                if len(xs) > 1 and abs(sum(xs)) >= QUER_MIN:
+                    summe.add(abs(sum(xs)).quantize(Decimal("0.01")))
+    pos_codes = {}   # Bezeichnung einer Positionszeile → Prüffelder (starke Namenstreffer)
+    for e in _ap_jr_dateien(idx):
         zeilen = _ap_text(e["p"])
         kz = [re.sub(r"\s+", " ", key(z)).strip(" |#*") for z in zeilen]
         n = len(zeilen)
-        anh = _anhang_abschnitte(zeilen)
+        anh = _anhang_abschnitte(zeilen, _ist_anhang(Path(e["rel"]).stem))
         a0 = anh[0][0] if anh else n + 1
         nrs = set()
+        if betr or summe:   # Salden nur, wenn eindeutig: in höchstens 2 Zeilen dieser Jahresrechnung (runde Beträge stehen oft mehrfach)
+            def treffer(i, z):
+                w = _betraege_text(z)
+                pos = _jr_position(z)
+                return (w & betr) | ((w & summe) if (pos and not re.match(r"\d", pos)) or re.search(r"(?i)\b(?:total|summe)\b", z) else set())
+            zb = [treffer(i, z) for i, z in enumerate(zeilen, 1)]
+            hf = Counter(x for w in zb for x in w)
+            eind = {x for x in betr | summe if hf[x] <= 2}
+        else:
+            zb, eind = [set()] * n, set()
         for g in gruppen:
             rx = re.compile(r"(?<![a-z0-9])" + re.escape(g) + r"(?![a-z0-9])")
             for i in range(1, min(a0, n + 1)):
@@ -4628,8 +5339,25 @@ def _ap_jahresrechnung(idx, label: str, sel: list[dict], codes: list[str], kw_al
                     while j < n and j - ende < 12 and (_nur_zahlen(zeilen[j]) or not zeilen[j].strip()):
                         j += 1
                     nrs.update(range(i, min(j, i + st["jr"] - 1) + 1))
+        er0 = next((i for i in range(2, min(a0, n + 1)) if re.match(r"erfolgsrechnung\b", kz[i - 1])), a0)   # Beginn der Erfolgsrechnung
         for i in range(1, min(a0, n + 1)):
             z, s = zeilen[i - 1], kz[i - 1]
+            pos = _jr_position(z) if "A1" not in codes else None
+            if pos:   # Positionszeile (OR-Format, ohne Konten): Gruppe des Prüffelds bzw. Bezeichnung nennt das Prüffeld
+                lk = re.sub(r"\s+", " ", key(pos)).strip()
+                if lk not in pos_codes:
+                    pos_codes[lk] = set(_name_codes(pos, True)) if "T1" not in codes else set()
+                if any(lk.startswith(g) for g in gruppen) or pos_codes[lk] & set(codes):
+                    nrs.add(i)
+            if i < er0 and any(c in AP_BILANZ_GANZ for c in codes) and re.search(r"\b(?:total|summe)\b", s):
+                nrs.add(i)
+                if not _betraege_text(z):   # Total ohne Betrag (zerstückeltes PDF-Layout): die Zahlenzeilen darunter
+                    j = i
+                    while j < n and j - i < 12 and (_nur_zahlen(zeilen[j]) or not zeilen[j].strip()):
+                        j += 1
+                    nrs.update(range(i + 1, j + 1))
+            if gkrx and re.match(r"^\s*\d", z) and gkrx.search(z):   # Zeile eines Gegenkontos (Kontonummer am Zeilenanfang)
+                nrs.add(i)
             if not vj and krx and krx.search(z):
                 nrs.add(i)
             elif not vj and any(b in s for b in bez):
@@ -4638,24 +5366,41 @@ def _ap_jahresrechnung(idx, label: str, sel: list[dict], codes: list[str], kw_al
                 nrs.add(i)
             elif "A1" in codes and ERGEBNIS_RX.search(z):
                 nrs.add(i)
+            elif zb[i - 1] & eind:
+                nrs.add(i)
+            if ECKWERT_RX.search(s):   # Eckwerte; ohne Betrag in der Zeile: die nächsten Zahlenzeilen (zerstückeltes PDF-Layout)
+                nrs.add(i)
+                if not _betraege_text(z):
+                    nz = [j for j in range(i + 1, min(n, i + 6) + 1) if _nur_zahlen(zeilen[j - 1])][:2]
+                    nrs.update(nz)
         nrs = sorted(i for i in nrs if zeilen[i - 1].strip() and not TRENN_RX.fullmatch(zeilen[i - 1].strip()))
         teil = []
         if nrs:
             teil += [f"### {label}{e['rel']} – Bilanz/Erfolgsrechnung ({len(nrs)} Zeilen)"] + _luecken(zeilen, nrs, e["rel"], ak)
+        anh_nrs = set()
         if anh:
             if "A1" in codes:
                 teil += [f"### {label}{e['rel']} – Anhang (Gliederung; Abschnitt lesen: `{ak} --abschnitt {_q(e['rel'])} \"<Ziffer>\"`)"]
                 teil += [_zeile_fmt(a, zeilen[a - 1], 140) for a, _, _ in anh[:40]]
+            else:
+                teil.append(f"Anhang {label}{e['rel']} (Gliederung; lesen: `{ak} --abschnitt {_q(e['rel'])} \"<Ziffer>\"`): "
+                            + " · ".join(f"Z. {a} {cut(t, 45)}" for a, _, t in anh[:20]))
             for a, b, t in anh[1:]:
                 text = zeilen[a - 1: b]
-                if "T1" in codes or any((kw_alts and _such_zeile(kw_alts, z)) or (krx and krx.search(z)) or any(x in key(z) for x in bez | gruppen)
-                                        for z in text):
+                if "T1" in codes or any((kw_alts and _such_zeile(kw_alts, z)) or (anh_alts and _such_zeile(anh_alts, z)) or (krx and krx.search(z))
+                                        or any(x in key(z) for x in bez | gruppen) for z in text) or any(zb[i - 1] & eind for i in range(a, b + 1)):
                     cap = st["anhang"] * (2 if "T1" in codes else 1) // (2 if vj else 1)
                     sel_nrs = _inhalt_zeilen(zeilen, a, b)
                     rest = len(sel_nrs) - cap
                     teil += [f"### {label}{e['rel']} – Anhang «{cut(t, 70)}» Z. {a}–{b}"] + [_zeile_fmt(i, zeilen[i - 1]) for i in sel_nrs[:cap]]
+                    anh_nrs.update(sel_nrs[:cap])
                     if rest > 0:
                         teil.append(f"      … +{rest} Zeilen: `{ak} --datei {_q(e['rel'])} --von {sel_nrs[cap]} --bis {b}`")
+        # Datum der Unterzeichnung/Genehmigung (Ereignisse nach dem Bilanzstichtag bis zu diesem Datum)
+        datum = [i for i in range(a0 if anh else max(1, n - 80), n + 1) if i not in anh_nrs and len(zeilen[i - 1].strip()) <= 200
+                 and UNTERSCHRIFT_RX.search(zeilen[i - 1]) and DATUM_TEXT_RX.search(zeilen[i - 1])][:2]
+        if datum:
+            teil += [f"### {label}{e['rel']} – Datum/Unterzeichnung"] + [_zeile_fmt(i, zeilen[i - 1]) for i in datum]
         if teil:
             bl.append(teil)
     if not bl:
@@ -4664,41 +5409,226 @@ def _ap_jahresrechnung(idx, label: str, sel: list[dict], codes: list[str], kw_al
     return bl
 
 
-def _ap_datei(e: dict, st: dict, ak: str, label: str = "") -> list[str]:
-    """Abschnitt 5: eine Datei des Prüffelds – ≤ st['ganz'] Bytes ganz; grösser: Inhaltsverzeichnis, erste Zeilen, alle Zeilen mit
-    Total/Summe/Saldo/Differenz und der Aufruf für den Rest."""
+def _ap_ohne_originale(es: list[dict]) -> list[dict]:
+    """Dateiliste ohne Originale (.pdf/.xlsx/.docx …), zu denen im selben Ordner eine Textfassung mit gleichem Stamm liegt (wie _akte_datei);
+    die Textfassung bekommt den Vermerk «Original: <name>» (Feld original, Kopie des Eintrags)."""
+    text = {}
+    for e in es:
+        if e["text"]:
+            text.setdefault(str(Path(e["rel"]).with_suffix("")).lower(), e)
+    out, orig = [], {}
+    for e in es:
+        t = None if e["text"] else text.get(str(Path(e["rel"]).with_suffix("")).lower())
+        if t is not None:
+            orig.setdefault(t["rel"], []).append(Path(e["rel"]).name)
+        else:
+            out.append(e)
+    return [{**e, "original": ", ".join(orig[e["rel"]])} if e["rel"] in orig else e for e in out]
+
+
+def _ap_datei(e: dict, st: dict, ak: str, label: str = "", tot_max: int = 40, inh_max: int = 25, gezeigt: set | None = None) -> list[str]:
+    """Abschnitt 5 (und 7 mit label «VJ:»): eine Datei – ≤ st['ganz'] Bytes ganz (Grösse der Ausgabe: Leerraum des PDF-Layouts gekürzt,
+    Leer- und Trennzeilen weg); grösser: Inhaltsverzeichnis (≤ inh_max), erste st['anfang'] Zeilen, Zeilen mit Total/Summe/Saldo/Differenz
+    (≤ tot_max) und der Aufruf für den Rest. gezeigt: nimmt (rel, Zeile) auf."""
     rel = e["rel"]
     if not e["text"]:
         return [f"### {label}{rel} · nicht lesbar ({Path(rel).suffix or 'ohne Endung'}) – Textfassung suchen (`{ak} --suche \"{Path(rel).stem[:30]}\"`) bzw. Original"]
     zeilen = _ap_text(e["p"])
+    grund = _ap_nicht_gelesen(e["p"])
+    if grund:
+        return [f"### {label}{rel} · ⚠ {grund} – gezielt lesen: `{ak} --suche \"<Begriff>\"` bzw. `{ak} --datei {_q(rel)} --von N`; "
+                "nicht lesbar → Original prüfen bzw. Pendenz, Werte nicht aus anderen Listen übernehmen"]
     if _ohne_text(e):
-        return [f"### {label}{rel} · {OHNE_TEXT}"] + [_zeile_fmt(i, zeilen[i - 1]) for i in _inhalt_zeilen(zeilen)[:5]]
+        nrs = _inhalt_zeilen(zeilen)[:5]
+        if gezeigt is not None:
+            gezeigt.update((rel, i) for i in nrs)
+        return [f"### {label}{rel} · {OHNE_TEXT}"] + [_zeile_fmt(i, zeilen[i - 1]) for i in nrs]
     nrs = _inhalt_zeilen(zeilen)
-    kopf = f"### {label}{rel} · {len(zeilen)} Z. · {e['kb']:.1f} KB"
-    if e["kb"] * 1024 <= st["ganz"]:
-        return [kopf + " (ganz)"] + [_zeile_fmt(i, zeilen[i - 1]) for i in nrs]
-    inh = [x for x in _akte_inhalt_liste(zeilen) if x[1] != 99][:25]
+    kopf = f"### {label}{rel} · {len(zeilen)} Z. · {e['kb']:.1f} KB" + (f" · Original: {e['original']}" if e.get("original") else "")
+    voll = [_zeile_fmt(i, zeilen[i - 1]) for i in nrs] if e["kb"] * 1024 <= 4 * st["ganz"] else None
+    if voll is not None and sum(len(x.encode("utf-8")) + 1 for x in voll) <= st["ganz"]:   # Grösse nach dem Kürzen des Leerraums
+        if gezeigt is not None:
+            gezeigt.update((rel, i) for i in nrs)
+        return [kopf + " (ganz)"] + voll
+    inh = [x for x in _akte_inhalt_liste(zeilen) if x[1] != 99][:inh_max]
     anfang = nrs[: st["anfang"]]
-    tot = [i for i in nrs if TOTAL_RX.search(zeilen[i - 1]) and i not in anfang][:40]
+    tot = [i for i in nrs if TOTAL_RX.search(zeilen[i - 1]) and i not in anfang][:tot_max]
     aus = sorted(set(anfang) | set(tot))
+    if gezeigt is not None:
+        gezeigt.update((rel, i) for i in aus)
     out = [kopf + f" (Auszug: erste {len(anfang)} Zeilen + {len(tot)} Zeilen mit Total/Summe/Saldo/Differenz; Rest: `{ak} --datei {_q(rel)} --von {anfang[-1] + 1 if anfang else 1}`)"]
     if inh:
         out.append("Inhalt: " + " · ".join(f"Z. {i} {cut(t, 50)}" for i, _, _, t in inh))
     return out + _luecken(zeilen, aus, rel, ak)
 
 
+# Allgemeine Wörter einer Unterlage («Informationen», «Angaben», «Unterlagen») – wie eine Dokumentart kein Sachbezug; Trennung einer
+# Unterlage in Teile («A, B», «A und B», «A bzw. B») ohne Ergänzungsstrich («Kredit- und Zinsausweise»); «A/B der X» bleibt zusammen –
+# die Angabe dahinter gilt für beide
+UNT_ALLG = {key(w) for w in "information informationen angabe angaben daten dokument dokumente dokumentation unterlage unterlagen auskunft "
+                            "auskünfte".split()}
+UNT_TRENN_RX = re.compile(r"(?<![-\s])\s*(?:,|;|\bund\b|\boder\b|\bbzw\b\.?|\bsowie\b)\s*")
+# Gegensätze (Wortanfang, key-Form): nennt die Unterlage das eine und der Dateiname nur das andere, passt die Datei nicht
+# (Unterlage «passive Abgrenzungen» ≠ Datei «aktive_abgrenzungen», «Kreditorenliste» ≠ «debitorenliste»)
+UNT_GEGENSATZ = (("aktiv", "passiv"), ("kurzfrist", "langfrist"), ("forderung", "verbindlich"), ("debitor", "kreditor"), ("ertrag", "aufwand"))
+
+
+def _unt_passt(dok: str, k: dict) -> bool:
+    """Fundort-Kandidat (_unterlage_kandidaten) einer Unterlage für Abschnitt 5: Passt nur die Dokumentart (Kontoauszug, Bankbestätigung,
+    Protokoll …) oder ein allgemeines Wort (Informationen, Angaben), darf der Teil der Unterlage mit diesem Wort kein weiteres Sachwort
+    nennen, das im Datei- und Ordnernamen fehlt – «Kontoauszug/Saldobestätigung der Vorsorgeeinrichtung» ist kein Bankkontoauszug,
+    «Öffentliche Informationen zum Institut» keine Unternehmensinformation; «Bankauszüge Folgeperiode» passt zum Bankauszug Januar
+    (Zeitangaben zählen nicht). Nennt die Unterlage nur die eine Seite eines Gegensatzes (UNT_GEGENSATZ) und der Dateiname nur die andere,
+    passt die Datei nie."""
+    dw = _ntok(dok)
+    hat = lambda ws, a: any(w.startswith(a) for w in ws)  # noqa: E731
+    for a, b in UNT_GEGENSATZ:
+        for x, y in ((a, b), (b, a)):
+            if hat(dw, x) and not hat(dw, y) and hat(k["xs"], y) and not hat(k["xs"], x):
+                return False
+    if any(t not in DOKWORT and not _dok_kanon(t) and t not in UNT_ALLG for t in k["treffer"]):
+        return True
+    xs = list(k["xs"]) + [x for x in _ntok(k["e"]["ord"]) if x not in FUNDORT_GEN]
+    for teil in UNT_TRENN_RX.split(key(dok)):
+        ws = _dok_teile(teil)[0]
+        if not any(t in ws for t in k["treffer"]):
+            continue
+        rest = [w for w in ws if w not in k["treffer"] and len(w) >= 4 and w not in DOKWORT and not _dok_kanon(w) and w not in UNT_ALLG
+                and not FOLGE_DOK_RX.search(w) and not any(v != w and v.startswith(w) for v in ws)
+                and not any(_fund_passt(w, x) for x in xs)]
+        if not rest:
+            return True
+    return False
+
+
+def _ap_unterlagen(idx: list[dict], codes: list[str], sid: str | None, aus: set, gj: int | None, bezug: set | None = None) -> list[dict]:
+    """Unterlagen laut Prüfprogramm in anderen Ordnern: PBC-Unterlagen der Prüffelder (Feld unterlagen) und Nachweise ihrer Schritte (beim
+    Schritt-Paket nur die Nachweise dieses Schritts) → Dateien nach Namen (_unterlage_kandidaten, geprüft mit _unt_passt; Sammel-Unterlagen
+    «A, B und C» je Teil, je Teil die 3 besten). Ein Teil, der schon eine Datei der Abschnitte 2–5 trifft (aus: Saldoliste, Hauptbuch,
+    Jahresrechnung, Dateien des Prüffelds – unter den gleich guten Kandidaten), braucht keine weitere Datei. Nennt die Unterlage die
+    Folgeperiode (Folgejahr, Januar, neue Rechnung …), zählen nur Dateien des Folgejahres; sonst gehen Dateien bis zum Stichtag vor. Bei
+    gleich guten Kandidaten gehen Dateien vor, deren Name ein Konto des Prüffelds oder ein Gegenkonto seiner Buchungen nennt (bezug; z.B.
+    der Bankauszug des Kontos, über das gezahlt wird). Rückgabe je Datei {e, docs (Unterlagen), quellen (PBC/Schritt-Ids), sc}, von den
+    meisten Unterlagen genannte zuerst."""
+    pf = L().get("pf", {})
+    doks = {}   # Unterlage → (Prüffeld, Quellen)
+    if sid:
+        s = next((x for x in pf.get(codes[0], {}).get("schritte") or [] if isinstance(x, dict) and x.get("id") == sid), {})
+        for n in s.get("nachweise") or []:
+            doks.setdefault(str(n), (codes[0], set()))[1].add(sid)
+    else:
+        for c in codes:
+            d = pf.get(c, {})
+            for u in d.get("unterlagen") or []:
+                if isinstance(u, dict) and u.get("dokument"):
+                    doks.setdefault(str(u["dokument"]), (c, set()))[1].add(f"PBC {c}")
+            for s in d.get("schritte") or []:
+                if isinstance(s, dict):
+                    for n in s.get("nachweise") or []:
+                        doks.setdefault(str(n), (c, set()))[1].add(s.get("id", c))
+    wurzeln = [("", None, idx)]
+    fj = lambda k: _ist_folgejahr(Path(k["e"]["rel"]).stem, gj)  # noqa: E731
+    bez = lambda k: any(_konto_gleich(n, b) for n in re.findall(r"(?<![\d.,'’])\d{3,5}(?![\d.,'’])", Path(k["e"]["rel"]).stem)  # noqa: E731
+                        for b in bezug or ())
+    je = {}
+    for dok, (code, quellen) in doks.items():
+        folge = bool(FOLGE_DOK_RX.search(key(dok)))
+        for seg in UNT_TRENN_RX.split(re.sub(r"\([^)]*\)", " ", dok)):   # Teile einer Sammel-Unterlage einzeln («A, B und C»)
+            kand = [k for k in _unterlage_kandidaten(seg, wurzeln, code) if _unt_passt(seg, k)]
+            if not kand:
+                continue
+            best = max(k["sc"] for k in kand)
+            if any(k["e"]["rel"] in aus and k["sc"] >= 0.9 * best for k in kand):
+                continue   # dieser Teil liegt schon in den Abschnitten 2–5
+            kand = sorted((k for k in kand if k["e"]["rel"] not in aus and k["e"]["text"]), key=lambda k: (not k["kt"], -k["sc"], not bez(k)))
+            gleich = [k for k in kand if fj(k) == folge]
+            for k in (gleich or ([] if folge else kand))[:3]:
+                x = je.setdefault(k["e"]["rel"], {"e": k["e"], "docs": [], "quellen": set(), "sc": 0.0})
+                if dok not in x["docs"]:
+                    x["docs"].append(dok)
+                x["quellen"] |= quellen
+                x["sc"] = max(x["sc"], k["sc"])
+    return sorted(je.values(), key=lambda x: (-len(x["docs"]), -x["sc"], x["e"]["rel"].lower()))
+
+
+def _ap_unterlagen_bloecke(unt: list[dict], st: dict, ak: str, label: str = "") -> tuple[list[list[str]], set]:
+    """Abschnitt 5 (Ende; Vorjahresakte: Abschnitt 7 mit label «VJ:»): Inhalt der Unterlagen laut Prüfprogramm aus anderen Ordnern
+    (_ap_unterlagen) – je Datei ≤ st['untganz'] Bytes ganz, sonst erste st['untanf'] Zeilen + Total-Zeilen; gesamt ≤ st['unt'] Bytes, die
+    übrigen als Liste. Rückgabe: Blöcke, gezeigte Zeilen (rel, Zeile)."""
+    if not unt:
+        return [], set()
+    sv = {"ganz": st["untganz"], "anfang": st["untanf"]}
+    bl = [[f"Unterlagen laut Prüfprogramm aus anderen Ordnern{' der Vorjahresakte' if label else ''} ({len(unt)}; Dateiname passt zu einer "
+           "Unterlage der PBC-Liste bzw. einem Nachweis der Schritte – erst prüfen, ob die Datei die verlangte Unterlage ist):"]]
+    summe, rest, gezeigt = 0, [], set()
+    for u in unt:
+        g = set()
+        b = _ap_datei(u["e"], sv, ak, label, tot_max=st["untanf"], inh_max=8, gezeigt=g)
+        qu = sorted(u["quellen"], key=lambda q: (q.startswith("PBC"), q))
+        mehr = f" (+{len(u['docs']) - 2})" if len(u["docs"]) > 2 else ""
+        b = b[:1] + ["Unterlage: " + " · ".join(f"«{cut(d, 70)}»" for d in u["docs"][:2]) + mehr
+                     + f" – {', '.join(qu[:4])}{' …' if len(qu) > 4 else ''}"] + b[1:]
+        n = sum(len(x.encode("utf-8")) + 1 for x in b)
+        if len(bl) > 1 and summe + n > st["unt"]:
+            rest.append(u)
+            continue
+        bl.append(b)
+        summe += n
+        gezeigt |= g
+    if rest:
+        bl.append([f"Weitere Unterlagen laut Prüfprogramm (lesen: `{ak} --datei <datei>`):"]
+                  + [f"- {label}{u['e']['rel']} · {_zeilen_info(u['e'])} · «{cut(u['docs'][0], 60)}»" for u in rest])
+    return bl, gezeigt
+
+
+KONTO_SPALTE_RX = re.compile(r"konto|kto|gegen|soll|haben|buchung|^gk$|^nr\.?$")   # Spaltenkopf, unter dem eine Zahl eine Kontonummer ist
+
+
+def _konto_treffer(krx, z: str, kopf: list[str] | None) -> bool:
+    """Kontonummer in einer Zeile: im Fliesstext überall; in einer Tabellenzeile nur, wenn die Zelle mehr als die Zahl enthält
+    («4711 Miete», «6xxx/1020») oder ihr Spaltenkopf eine Konto-Spalte ist – eine Zelle «4711» unter «Pensum», «PLZ» oder «Betrag» ist
+    keine Kontonummer."""
+    t = IBAN_RX.sub(" ", z)
+    if not krx or not krx.search(t):
+        return False
+    c = _zellen(z)
+    if c is None:
+        return True
+    for j, x in enumerate(c):
+        if krx.search(x):
+            if not re.fullmatch(r"\s*[\d'’.,]+\s*", x):
+                return True
+            if kopf and j < len(kopf) and KONTO_SPALTE_RX.search(key(kopf[j]).strip(" .:*")):
+                return True
+    return False
+
+
+def _zeilen_mit_kopf(zeilen: list[str]):
+    """(Zeile, Text, Spaltenkopf) – Spaltenkopf = letzte Tabellenzeile ohne Ziffern mit mindestens zwei Zellen (Excel-Exporte haben oft
+    Titelzeilen vor dem eigentlichen Kopf); ausserhalb einer Tabelle None."""
+    kopf = None
+    for i, z in enumerate(zeilen, 1):
+        c = _zellen(z)
+        if c is None:
+            if not TRENN_RX.fullmatch(z.strip()) or not z.strip():
+                kopf = None
+        elif sum(1 for x in c if x) >= 2 and not any(re.search(r"\d", x) for x in c):
+            kopf = c
+        yield i, z, kopf
+
+
 def _ap_fund_treffer(idx, aus: set, konten: list[str], kw_alts) -> list[tuple]:
-    """Volltext-Treffer der Kontonummern und Prüffeld-Stichworte in allen übrigen GJ-Dateien (einmal je Aufruf gesammelt)."""
+    """Volltext-Treffer der Kontonummern (_konto_treffer) und Prüffeld-Stichworte in allen übrigen GJ-Dateien (einmal je Aufruf gesammelt)."""
     krx = _konto_rx(konten)
     je = []
     for e in idx:
         if not e["text"] or e["rel"] in aus:
             continue
         hits = []
-        for i, z in enumerate(_ap_text(e["p"]), 1):
+        for i, z, kopf in _zeilen_mit_kopf(_ap_text(e["p"])):
             if TITEL_RX.match(z):
                 continue
-            k = bool(krx and krx.search(IBAN_RX.sub(" ", z)))
+            k = _konto_treffer(krx, z, kopf)
             if k or (kw_alts and _such_zeile(kw_alts, z)):
                 hits.append((not k, i, z))
         if hits:
@@ -4706,16 +5636,57 @@ def _ap_fund_treffer(idx, aus: set, konten: list[str], kw_alts) -> list[tuple]:
     return sorted(je)
 
 
-def _ap_fundstellen(je: list[tuple], kw_alts, st: dict) -> list[list[str]]:
+UEBERSCHRIFT_AUFZ_RX = re.compile(r"^(?:[A-Z]|\d{1,2}(?:\.\d{1,2})*)\.\s+[A-ZÄÖÜ]")   # «B. Titel …», «3. Titel …», «4.2 …»
+AP_ABSCHNITT_ZEILEN = 20     # Fundstelle in einer Überschrift: höchstens so viele Zeilen des Abschnitts darunter
+
+
+def _abschnitt_nach(zeilen: list[str], i: int, n_max: int = AP_ABSCHNITT_ZEILEN) -> list[int]:
+    """Inhaltszeilen des Abschnitts unter einer Überschrift in Zeile i («## …», «C. Eventualverpflichtungen», «3. Leasing»; kurze Textzeile
+    ohne Betrag) bis zur nächsten Überschrift derselben Art, höchstens n_max – sonst []. Zeigt z.B. die Tabelle unter einer Überschrift
+    mit Prüffeld-Stichwort, auch wenn die Zeilen darunter (zerstückeltes PDF-Layout) selbst kein Stichwort enthalten."""
+    z = zeilen[i - 1].strip() if 0 < i <= len(zeilen) else ""
+    if not z or z.startswith("|") or len(z) > 90 or _betraege_text(z):
+        return []
+    md = re.match(r"^(#{1,6})\s", z)
+    if not md and not UEBERSCHRIFT_AUFZ_RX.match(z):
+        return []
+    out = []
+    for j in range(i + 1, len(zeilen) + 1):
+        t = zeilen[j - 1].strip()
+        m = re.match(r"^(#{1,6})\s", t)
+        if (md and m and len(m.group(1)) <= len(md.group(1))) or (not md and len(t) <= 90 and UEBERSCHRIFT_AUFZ_RX.match(t)):
+            break
+        if t and not TRENN_RX.fullmatch(t) and not _layoutrest(t):
+            out.append(j)
+            if len(out) >= n_max:
+                break
+    return out
+
+
+def _ap_fundstellen(je: list[tuple], kw_alts, st: dict, pfade: dict | None = None) -> list[list[str]]:
     """Abschnitt 6: Treffer aus _ap_fund_treffer, je Datei ≤ st['je'], gesamt ≤ st['weitere']; Dateien mit Kontonummer-Treffern zuerst –
-    so werden Belege in «falschen» Ordnern gefunden."""
-    out, n = [], 0
+    so werden Belege in «falschen» Ordnern gefunden. Ein Stichwort in einer Überschrift (≤ st['abschn'] je Paket) zeigt den Abschnitt
+    darunter mit Zeilennummern (_abschnitt_nach)."""
+    out, n, abschn = [], 0, 0
     for _, _, rel, hits in je:
         if n >= st["weitere"]:
             break
         h = sorted(hits[: st["je"]], key=lambda x: x[1])[: st["weitere"] - n]
         n += len(h)
-        out.append([_treffer_zeile(rel, i, z, kw_alts) for _, i, z in h] + ([f"  (+{len(hits) - len(h)} weitere in {rel})"] if len(hits) > len(h) else []))
+        zeilen = _ap_text(pfade[rel]) if pfade and rel in pfade else []
+        bl, gezeigt = [], set()
+        for kein_konto, i, z in h:
+            if i in gezeigt:   # schon im Abschnitt einer Überschrift darüber
+                continue
+            darunter = _abschnitt_nach(zeilen, i) if zeilen and kein_konto and abschn < st["abschn"] else []
+            gezeigt.update(darunter)
+            if darunter:
+                abschn += 1
+                bl += [f"### {rel} – Abschnitt «{cut(z.strip(), 70)}» (Stichwort in der Überschrift)", _zeile_fmt(i, z)]
+                bl += [_zeile_fmt(j, zeilen[j - 1]) for j in darunter]
+            else:
+                bl.append(_treffer_zeile(rel, i, z, kw_alts))
+        out.append(bl + ([f"  (+{len(hits) - len(h)} weitere in {rel})"] if len(hits) > len(h) else []))
     rest = len(je) - len(out)
     if rest > 0:
         out.append([f"(+{rest} weitere Dateien mit Treffern: " + ", ".join(r for _, _, r, _ in je[len(out):len(out) + 8]) + (" …" if rest > 8 else "") + ")"])
@@ -4723,22 +5694,27 @@ def _ap_fundstellen(je: list[tuple], kw_alts, st: dict) -> list[list[str]]:
 
 
 def _ap_vj_treffer(vidx, codes: list[str], konten: list[str], kw_alts, aus: set) -> list[tuple]:
-    """Zeilen der Vorjahresakte mit Rang: 0 Prüffeld-Begriff + Folgejahr, 1 + Pendenz/Feststellung, 2 Folgejahr/Pendenz in einer Datei des
-    Prüffelds, 3 Prüffeld-Code, 4 Kontonummer, 5 Stichwort (einmal je Aufruf gesammelt)."""
+    """Zeilen der Vorjahresakte mit Rang: −1 Wesentlichkeit mit Betrag (höchstens 3 Zeilen), 0 Prüffeld-Begriff + Folgejahr,
+    1 + Pendenz/Feststellung, 2 Folgejahr/Pendenz in einer Datei des Prüffelds, 3 Prüffeld-Code, 4 Kontonummer, 5 Stichwort (einmal je
+    Aufruf gesammelt)."""
     dateien = [e for e in vidx if any(c in e["codes"] for c in codes)]
     crx = re.compile(r"(?<![A-Za-z0-9])(?:" + "|".join(re.escape(c) for c in codes) + r")(?![0-9])")
     krx = _konto_rx(konten)
     fj_rx = re.compile(r"(?i)folgejahr|neue[nm]? jahr|nachverfolg")
     pe_rx = re.compile(r"(?i)pendenz|wesentliche feststellung|feststellungen?\b|hinweis")
     eig = {e["rel"] for e in dateien}
-    hits = []
+    hits, wes = [], 0
     for o, e in enumerate(vidx):
         if not e["text"] or e["rel"] in aus:
             continue
-        for i, z in enumerate(_ap_text(e["p"]), 1):
+        for i, z, kopf in _zeilen_mit_kopf(_ap_text(e["p"])):
             if TITEL_RX.match(z):
                 continue
-            c_, k_ = bool(crx.search(z)), bool(krx and krx.search(IBAN_RX.sub(" ", z)))
+            if wes < 3 and WESENTLICH_RX.search(z) and _betraege_text(z):   # Wesentlichkeit des Vorjahres (Massstab für jedes Prüffeld)
+                wes += 1
+                hits.append((-1, o, i, e["rel"], z))
+                continue
+            c_, k_ = bool(crx.search(z)), _konto_treffer(krx, z, kopf)
             w_ = bool(kw_alts and _such_zeile(kw_alts, z))
             fj, pe = bool(fj_rx.search(z)), bool(pe_rx.search(z))
             pf = c_ or k_ or w_
@@ -4760,15 +5736,31 @@ def _ap_vj_treffer(vidx, codes: list[str], konten: list[str], kw_alts, aus: set)
     return sorted(hits)
 
 
-def _ap_vorjahr(vidx, codes: list[str], hits: list[tuple], kw_alts, st: dict) -> list[list[str]]:
-    """Abschnitt 7: Vorjahresakte – Dateien mit Prüffeld-Zuordnung und die Treffer aus _ap_vj_treffer (≤ st['vj'], ohne Doppel), zuerst
-    zusammen mit «Folgejahr/Pendenz/Feststellung»."""
-    dateien = [e for e in vidx if any(c in e["codes"] for c in codes)]
-    bl = [[f"- VJ:{e['rel']} · {_zeilen_info(e)}" for e in dateien] or ["(keine Datei der Vorjahresakte nach Namen zugeordnet)"]]
-    sel, gesehen = [], set()
+def _vj_kern(z: str) -> str:
+    """Vergleichsform einer VJ-Zeile für Doppel (gleicher Inhalt in Tabelle und ausgefüllter Fassung): längste Zelle bzw. ganze Zeile."""
+    kern = max((c.strip() for c in z.split("|")), key=len, default="")
+    return key(kern if len(kern) >= 30 else z)
+
+
+def _ap_vorjahr(vidx, codes: list[str], hits: list[tuple], kw_alts, st: dict, pp: list[tuple], zus: list[tuple], akvj: str,
+                vunt: list[dict] | None = None) -> list[list[str]]:
+    """Abschnitt 7: Vorjahresakte – Zusammenfassung des Vorjahres (Hinweise Folgejahr, Feststellungen, Pendenzen; _ap_vj_zusammenfassung),
+    Prüfprogramm des Vorjahres (Schritte des Prüffelds mit Feststellungen, _ap_vj_pruefprogramm), Treffer aus _ap_vj_treffer (≤ st['vj'],
+    ohne Doppel; zuerst Wesentlichkeit, Folgejahr/Pendenz/Feststellung), Inhalt der VJ-Dateien des Prüffelds (_ap_vj_dateien) und der
+    Unterlagen laut Prüfprogramm aus anderen Ordnern der Vorjahresakte (vunt, ≤ st['vjunt'] Bytes)."""
+    bl_z, z_z = _ap_vj_zus_bloecke(vidx, zus, st)
+    bl_pp, z_pp = _ap_vj_pp_bloecke(vidx, pp, st, akvj)
+    z_pp = z_pp | z_z
+    bl_d, z_d = _ap_vj_dateien(vidx, codes, st, akvj)
+    bl_u, z_u = _ap_unterlagen_bloecke(vunt or [], {"unt": st["vjunt"], "untganz": st["vjganz"], "untanf": st["vjanfang"]}, akvj, "VJ:")
+    z_d = z_d | z_u
+    texte = {e["rel"]: e["p"] for e in vidx}
+    gesehen = {_vj_kern(_ap_text(texte[rel])[i - 1]) for rel, i in z_pp}
+    sel = []
     for h in hits:   # gleicher Inhalt in mehreren Dateien (z.B. Tabelle und ausgefüllte Fassung): nur einmal
-        kern = max((c.strip() for c in h[4].split("|")), key=len, default="")
-        kern = key(kern if len(kern) >= 30 else h[4])
+        if (h[3], h[2]) in z_pp or (h[3], h[2]) in z_d:
+            continue
+        kern = _vj_kern(h[4])
         if kern in gesehen:
             continue
         gesehen.add(kern)
@@ -4776,11 +5768,12 @@ def _ap_vorjahr(vidx, codes: list[str], hits: list[tuple], kw_alts, st: dict) ->
         if len(sel) >= st["vj"]:
             break
     if sel:
-        bl.append([f"Treffer ({len(sel)} von {len(hits)}, ohne Doppel; zuerst Folgejahr/Pendenz/Feststellung mit Prüffeld-Bezug):"]
-                  + [_treffer_zeile(f"VJ:{rel}", i, z, kw_alts) for _, _, i, rel, z in sorted(sel, key=lambda x: (x[1], x[2]))])
+        tr = [[f"Treffer ({len(sel)} von {len(hits)}, ohne Doppel; zuerst Wesentlichkeit, Folgejahr/Pendenz/Feststellung mit Prüffeld-Bezug):"]
+              + [_treffer_zeile(f"VJ:{rel}", i, z, kw_alts) for _, _, i, rel, z in sorted(sel, key=lambda x: (x[1], x[2]))]]
     else:
-        bl.append(["(keine Treffer in der Vorjahresakte)"])
-    return bl
+        tr = [["(keine weiteren Treffer in der Vorjahresakte)"]]
+    bl_d[0] = ["Dateien des Prüffelds in der Vorjahresakte:"] + bl_d[0]
+    return bl_z + bl_pp + tr + bl_d + bl_u
 
 
 def _ap_schritte(codes: list[str], nur: str | None = None) -> list[list[str]]:
@@ -4796,8 +5789,8 @@ def _ap_schritte(codes: list[str], nur: str | None = None) -> list[list[str]]:
                 continue
             d = det.get(s["id"]) or {}
             was = d.get("rechnen") or d.get("vorgehen") or ""
-            z.append(f"- {s['id']} ({ROLLE_KURZ[art_of(s)[0]]}) {cut(ktext(s), 70)} – {'rechnen' if d.get('rechnen') else 'vorgehen'}: "
-                     f"{cut(was, 170) if was else '(siehe Karte)'} → `pruefschritt {s['id']}`")
+            z.append(f"- {s['id']} ({ROLLE_KURZ[art_of(s)[0]]}) {cut_code(ktext(s), 70)} – {'rechnen' if d.get('rechnen') else 'vorgehen'}: "
+                     f"{cut_code(was, 170) if was else '(siehe Karte)'} → `pruefschritt {s['id']}`")
         if rest and not nur:
             z.append(f"- 4xx/WP gesammelt (kein Textfeld ohne Anweisung; vorhandene Unterlagen auswerten → Notiz): "
                      f"{_sammel_aufruf([x['id'] for x in rest])}")
@@ -4806,10 +5799,445 @@ def _ap_schritte(codes: list[str], nur: str | None = None) -> list[list[str]]:
     return bl
 
 
+def _betraege_text(z: str) -> set:
+    """Beträge einer Textzeile (ohne Vorzeichen, auf Rappen; Lesart BETRAG_TEXT_RX + _betrag), 0 ausgenommen."""
+    out = set()
+    for m in BETRAG_TEXT_RX.finditer(z or ""):
+        d = _betrag(m.group(0))
+        if d:
+            out.add(abs(d).quantize(Decimal("0.01")))
+    return out
+
+
+def _belegnummern(z: str, pf_codes: set) -> set:
+    """Belegnummern einer Zeile (mit Ziffer, ≥ 4 Zeichen); Prüfschritt-Ids (<Prüffeld>-101) und Jahresbereiche (2029-2030) zählen nicht."""
+    out = set()
+    for t in BELEGNR_RX.findall(z or ""):
+        if len(t) < 4 or not any(ch.isdigit() for ch in t) or re.fullmatch(r"(?:19|20)\d\d-(?:19|20)\d\d", t) or t.split("-", 1)[0] in pf_codes:
+            continue
+        out.add(t)
+    return out
+
+
+def _ap_konto_zeilen(idx: list[dict], konten: list[str], rels: set) -> set:
+    """Tabellenzeilen der Dateien rels (Saldolisten, Hauptbuch/Kontoblätter), deren erste Kontozelle ein Konto des Prüffelds ist
+    (Übersicht/Saldo): (rel, Zeile)."""
+    if not konten:
+        return set()
+    out = set()
+    for e in idx:
+        if not e["text"] or e["rel"] not in rels:
+            continue
+        for i, z in enumerate(_ap_text(e["p"]), 1):
+            c = _zellen(z)
+            kz = next((_konto_zelle(x) for x in (c or [])[:2] if _konto_zelle(x)), None)
+            if kz and any(_konto_gleich(kz[0], k) for k in konten):
+                out.add((e["rel"], i))
+    return out
+
+
+def _ap_bilanzkonten(codes: list[str], sel: list[dict], gj_rows: list[dict], st: dict) -> list[list[str]]:
+    """Abschnitt 2 (Ende) für Kapitalverlust/Überschuldung (AP_BILANZ_GANZ, Art. 725a/725b OR): die übrigen Bilanzkonten der Saldoliste
+    (Aktiven und Fremdkapital samt Rangrücktritts- und Zinskonten) – die Überschuldungs- bzw. Kapitalverlustrechnung braucht die ganze
+    Bilanz; ≤ st['bil'] Zeilen in der Reihenfolge der Saldoliste."""
+    if not any(c in AP_BILANZ_GANZ for c in codes):
+        return []
+    eigen = {(r["rel"], r["z"]) for r in sel}
+    rows = [r for r in gj_rows if not r.get("total") and not r["er"] and (r["rel"], r["z"]) not in eigen]
+    if not rows:
+        return []
+    wahl = rows[: st["bil"]]
+    return [["", "Übrige Bilanzkonten der Saldoliste (Überschuldung/Kapitalverlust, Art. 725a/725b OR: Aktiven und Fremdkapital"
+                 + (f"; gezeigt {len(wahl)} von {len(rows)}" if len(wahl) < len(rows) else "") + "):",
+             "| Konto | Bezeichnung | Gruppe | Saldo GJ | Saldo VJ | Z. |", "|---|---|---|---|---|---|"]
+            + [f"| {r['konto']} | {cut(r['bez'], 40)} | {cut(r['gruppe'], 30)} | {_bfmt(r['gj'])} | {_bfmt(r['vj'])} | {r['z']} |" for r in wahl]]
+
+
+def _ap_gk_liste(buch: list[tuple], konten: list[str], gj_rows: list[dict]) -> list[tuple]:
+    """Gegenkonten der eigenen Buchungen (Spalte Gegenkonto der Kontoblätter des Prüffelds) mit Saldolisten-Zeile, die meistgebuchten
+    zuerst: (Saldolisten-Zeile, Anzahl Buchungen, Summe gebucht)."""
+    if not konten:
+        return []
+    eigen = lambda k: any(_konto_gleich(k, x) for x in konten)  # noqa: E731
+    n, summe = Counter(), {}
+    for _, _, b in buch:
+        if not eigen(b["konto"]):
+            continue
+        for g in set(b["gk"]):
+            if not eigen(g):
+                n[g] += 1
+                summe[g] = summe.get(g, Decimal(0)) + sum(b["betr"], Decimal(0))
+    out = []
+    for g, k in sorted(n.items(), key=lambda x: (-x[1], -summe[x[0]], x[0])):
+        r = next((r for r in gj_rows if not r.get("total") and _konto_gleich(r["konto"], g)), None)
+        if r:
+            out.append((r, k, summe[g]))
+    return out
+
+
+def _ap_gegenkonten(gkl: list[tuple], st: dict) -> list[list[str]]:
+    """Abschnitt 2 (Ende): Gegenkonten der eigenen Buchungen (_ap_gk_liste) mit ihrer Zeile in der Saldoliste – wohin bzw. woher die
+    Beträge fliessen (z.B. Zinsaufwand zum Darlehen, Bank zu den Kreditoren); ≤ st['gk'] Zeilen."""
+    zeilen = [f"| {r['konto']} | {cut(r['bez'], 40)} | {_bfmt(r['gj'])} | {_bfmt(r['vj'])} | {k} | {_bfmt(sm)} | {r['z']} |" for r, k, sm in gkl]
+    if not zeilen:
+        return []
+    wahl = zeilen[: st["gk"]]
+    teil = f", meistgebuchte {len(wahl)} von {len(zeilen)}" if len(wahl) < len(zeilen) else ""
+    return [["", f"Gegenkonten der Buchungen des Prüffelds (Spalte Gegenkonto der Kontoblätter; Saldoliste{teil}):",
+             "| Konto | Bezeichnung | Saldo GJ | Saldo VJ | Buchungen | Summe gebucht | Z. |", "|---|---|---|---|---|---|---|"] + wahl]
+
+
+def _ap_ohne_blatt(buch: list[tuple], konten: list[str]) -> list[str]:
+    """Konten des Prüffelds ohne eigene Buchungen in Hauptbuch/Kontoblättern/Journal (kein Kontoblatt gelesen)."""
+    mit = {b["konto"].lower() for _, _, b in buch}
+    return [k for k in konten if not any(_konto_gleich(k, x) for x in mit)]
+
+
+def _ap_gegen_kand(buch: list[tuple], konten: list[str]) -> tuple[list[tuple], set]:
+    """Gegenbuchungen: Buchungen anderer Konten, deren Gegenkonto ein Konto des Prüffelds ist (Gegenseite der eigenen Buchungen; fehlt sie
+    im eigenen Kontoblatt, ist die Buchung nur einseitig sichtbar). «Einseitig» nur, wenn das Gegenkonto selbst ein Kontoblatt hat – sonst
+    sind die Gegenbuchungen die einzige Buchungsquelle des Kontos (z.B. Erfolgskonten ohne Kontoblatt). Rang 0 = Abschluss-/Umbuchung oder
+    Beleg fehlt im Kontoblatt des Prüffelds, 1 = Folgejahr (Abgrenzung), 2 = übrige; je Rang die jüngsten (nahe am Stichtag), dann grösste
+    Beträge zuerst. Rückgabe: Kandidaten (Rang, Sortierschlüssel, Eintrag, Folgejahr, Buchung, einseitig) und die Zeilen (rel, Zeile) der
+    eigenen Kontoblätter."""
+    eigen = (lambda k: any(_konto_gleich(k, x) for x in konten)) if konten else (lambda k: False)
+    ohne = _ap_ohne_blatt(buch, konten)
+    mit_blatt = lambda g: eigen(g) and not any(_konto_gleich(g, x) for x in ohne)  # noqa: E731
+    eig_bel, eig_z, kand = set(), set(), []
+    for e, _, b in buch:
+        if eigen(b["konto"]):
+            if b["beleg"]:
+                eig_bel.add(key(b["beleg"]))
+            eig_z.add((e["rel"], b["z"]))
+    for e, fj, b in buch:
+        if eigen(b["konto"]) or not any(eigen(g) for g in b["gk"]):
+            continue
+        einseitig = bool(b["beleg"]) and key(b["beleg"]) not in eig_bel and any(mit_blatt(g) for g in b["gk"])
+        wichtig = bool(ABSCHLUSS_RX.search(f"{b['beleg']} {b['text']}"))
+        rang = 0 if einseitig or wichtig else 1 if fj else 2
+        kand.append((rang, (tuple(-x for x in b["datum"]), -max(b["betr"], default=Decimal(0))), e, fj, b, einseitig))
+    kand.sort(key=lambda x: (x[0], x[1], x[2]["rel"], x[4]["z"]))
+    return kand, eig_z
+
+
+def _ap_buchungsbloecke(wahl: list[tuple], titel: str) -> list[list[str]]:
+    """Ausgewählte Buchungen (Eintrag, Folgejahr, Buchung, Hinweis) je Datei und Konto: Überschrift, Kopfzeile der Tabelle, Zeilen."""
+    grp = {}
+    for e, fj, b, hinweis in wahl:
+        grp.setdefault((e["rel"], b["konto"], fj), (e, []))[1].append((b, hinweis))
+    bl, kopf_da = [], set()
+    for (rel, k, fj), (e, bs) in sorted(grp.items(), key=lambda x: (x[0][0], min(b["z"] for b, _ in x[1][1]))):
+        zeilen = _ap_text(e["p"])
+        bs.sort(key=lambda x: x[0]["z"])
+        kopf = bs[0][0]["kopf"]
+        z = [f"### {titel} · Konto {k}{' · ⏭ FOLGEJAHR' if fj else ''} · {rel}"]
+        if kopf and (rel, zeilen[kopf - 1].strip()) not in kopf_da:   # gleiche Spalten-Kopfzeile je Datei nur einmal
+            kopf_da.add((rel, zeilen[kopf - 1].strip()))
+            z.append(_zeile_fmt(kopf, zeilen[kopf - 1]))
+        z += [_zeile_fmt(b["z"], b["roh"]) + (f"  {hinweis}" if hinweis else "") for b, hinweis in bs]
+        bl.append(z)
+    return bl
+
+
+def _ap_gegenbuchungen(kand: list[tuple], st: dict, ak: str, ohne_blatt: list[str] | None = None) -> tuple[list[list[str]], set]:
+    """Abschnitt 3 (Fortsetzung): Gegenbuchungen (≤ st['gegen'], Rang aus _ap_gegen_kand) je Konto; ohne_blatt: Konten des Prüffelds ohne
+    Kontoblatt – ihre Gegenbuchungen sind die einzige Buchungsquelle (Hinweis statt «⚠»). Rückgabe: Blöcke, gezeigte Zeilen."""
+    if not kand:
+        return [], set()
+    wahl = kand[: st["gegen"]]
+    n_eins = sum(1 for x in kand if x[5])
+    ohne = [k for k in ohne_blatt or [] if any(_konto_gleich(k, g) for x in kand for g in x[4]["gk"])]
+    bl = [[f"Gegenbuchungen in anderen Konten (Gegenkonto = Konto des Prüffelds): {len(kand)} Buchungen"
+           + (f", davon {n_eins} mit Beleg, der im Kontoblatt des Prüffelds fehlt (⚠ – beidseitig abstimmen, Summe mit `rechne`)"
+              if n_eins else "")
+           + (f"; gezeigt {len(wahl)} (zuerst ⚠ und Abschluss-/Umbuchungen, dann Folgejahr, dann die jüngsten)" if len(wahl) < len(kand) else "")
+           + "."
+           + (f" Konto {', '.join(ohne[:8])} ohne Kontoblatt – die Gegenbuchungen sind dort die einzige Buchungsquelle: Summe je Konto mit "
+              "`rechne` gegen die Saldoliste (fehlende Buchungen = Pendenz, kein Fehler)." if ohne else "")]]
+    bl += _ap_buchungsbloecke([(e, fj, b, "⚠ Beleg fehlt im Kontoblatt des Prüffelds" if eins else "") for _, _, e, fj, b, eins in wahl],
+                              "Gegenbuchungen")
+    if len(wahl) < len(kand):
+        rest = sorted({x[4]["konto"] for x in kand[len(wahl):]})
+        bl.append([f"(+{len(kand) - len(wahl)} weitere Gegenbuchungen in Konto {', '.join(rest[:12])} – `{ak} --suche \"<Konto>\"`)"])
+    return bl, {(e["rel"], b["z"]) for _, _, e, _, b, _ in wahl}
+
+
+def _ap_abschluss(buch: list[tuple], st: dict, ak: str) -> list[list[str]]:
+    """Abschnitt 3 für A1: Abschluss-/Umbuchungen aller Konten (Beleg/Text mit «AB», «Abschluss», «Umbuchung», «Storno», «Korrektur» …),
+    grösste Beträge zuerst, ≤ st['ab']."""
+    ab = [(e, fj, b, "") for e, fj, b in buch if ABSCHLUSS_RX.search(f"{b['beleg']} {b['text']}")]
+    if not ab:
+        return [["Keine Abschluss-/Umbuchungen in Hauptbuch/Kontoblättern erkannt (Beleg/Text mit «AB», «Abschluss», «Umbuchung») – "
+                 f"`{ak} --suche \"Abschluss|Umbuchung\"`."]]
+    wahl = sorted(ab, key=lambda x: -max(x[2]["betr"], default=Decimal(0)))[: st["ab"]]
+    bl = [[f"Abschluss-/Umbuchungen aller Konten: {len(ab)} Buchungen"
+           + (f" (gezeigt {len(wahl)}, grösste Beträge zuerst)" if len(wahl) < len(ab) else "")
+           + " – je Buchung Gegenkonto, Beleg und Wirkung auf die Jahresrechnung prüfen; Kontoblätter je Konto: `arbeitspaket … --pf <code>`."]]
+    return bl + _ap_buchungsbloecke(wahl, "Abschluss-/Umbuchungen")
+
+
+def _ap_quer_index(idx: list[dict], buch: list[tuple]) -> dict:
+    """Je GJ-Textdatei und Zeile die Beträge und Belegnummern (Buchungszeilen: Beträge aus Soll/Haben/Betrag und dem Text) und je Wert die
+    Zeilen der Akte, in denen er vorkommt – einmal je Aufruf."""
+    pf_codes = {p["code"] for p in L()["katalog"]["prueffelder"]}
+    bz = {(e["rel"], b["z"]): b for e, _, b in buch}
+    zeilen, orte_b, orte_n = {}, {}, {}
+    for e in idx:
+        if not e["text"]:
+            continue
+        info = {}
+        for i, z in enumerate(_ap_text(e["p"]), 1):
+            if TITEL_RX.match(z):
+                continue
+            b = bz.get((e["rel"], i))
+            w = (set(b["betr"]) | _betraege_text(b["text"])) if b else _betraege_text(z)
+            n = _belegnummern(z, pf_codes)
+            if w or n:
+                info[i] = (w, n)
+                for x in w:
+                    orte_b.setdefault(x, set()).add((e["rel"], i))
+                for t in n:
+                    orte_n.setdefault(t, set()).add((e["rel"], i))
+        zeilen[e["rel"]] = info
+    return {"z": zeilen, "b": orte_b, "n": orte_n}
+
+
+def _ap_quer_kand(qi: dict, eig_rel: set, eig_z: set, sel: list[dict], aus_rel: set, uebersicht: set,
+                  fremd: dict | None = None) -> list[tuple]:
+    """Querverweise: Zeilen ausserhalb des Prüffelds (andere Ordner, andere Konten, Saldoliste) mit einer Belegnummer oder einem Betrag
+    ≥ QUER_MIN aus dem Material des Prüffelds (eigene Kontoblätter, Dateien des Prüffelds, Salden der Saldoliste) – nur seltene Werte
+    (ausserhalb des Prüffelds in ≤ QUER_DF_MAX Zeilen, runde Tausender in ≤ 2; Sammelbuchungen und häufige runde Beträge fallen weg).
+    Zum Material des Prüffelds zählen auch die Übersichtszeilen seiner Konten (uebersicht: Inhaltsblatt des Hauptbuchs, Saldoliste) und die
+    Gegenbuchungen in anderen Konten (eig_z) – so führt z.B. die Zahlung im Bankkonto zum Bankauszug in einem anderen Ordner.
+    Punkte: Belegnummer 3, Betrag 2 (runder Hunderter 1). Nur Betrag gleich in einer Datei eines fremden Prüffelds (fremd: rel → True,
+    wenn die Datei weder dem Prüffeld noch einem Gegenkonto zugeordnet ist, z.B. Lohnlisten bei den Debitoren) gilt als vermutlich zufällig
+    und kommt ans Ende. Rückgabe: (Zufall, −Punkte, rel, Zeile, Belegnummern, Beträge), beste zuerst."""
+    sl_z = {(r["rel"], r["z"]) for r in sel} | uebersicht
+    eig = lambda rel, i: rel in eig_rel or (rel, i) in eig_z or (rel, i) in sl_z  # noqa: E731
+    betr, bel = set(), set()
+    for rel, info in qi["z"].items():
+        for i, (w, n) in info.items():
+            if eig(rel, i):
+                betr |= {x for x in w if x >= QUER_MIN}
+                bel |= n
+    betr |= {abs(x).quantize(Decimal("0.01")) for r in sel for x in (r["gj"], r["vj"]) if x is not None and abs(x) >= QUER_MIN}
+    aussen = lambda orte: [o for o in orte if not eig(*o)]  # noqa: E731
+    betr = {x for x in betr if len(aussen(qi["b"].get(x, ()))) <= (QUER_DF_RUND if x % 1000 == 0 else QUER_DF_MAX)}
+    bel = {t for t in bel if len(aussen(qi["n"].get(t, ()))) <= QUER_DF_MAX}
+    kand = []
+    for rel, info in qi["z"].items():
+        if rel in aus_rel:
+            continue
+        for i, (w, n) in info.items():
+            if eig(rel, i):
+                continue
+            tn, tw = sorted(n & bel), sorted(w & betr, reverse=True)
+            if tn or tw:
+                zufall = not tn and bool((fremd or {}).get(rel))
+                kand.append((zufall, -(3 * len(tn) + sum(1 if x % 100 == 0 else 2 for x in tw)), rel, i, tn, tw))
+    kand.sort(key=lambda x: (x[0], x[1], x[2], x[3]))
+    return kand
+
+
+def _ap_querverweise(kand: list[tuple], pfade: dict, st: dict, aus_z: set) -> tuple[list[list[str]], set]:
+    """Abschnitt 6 (Anfang): Querverweise aus _ap_quer_kand, ≤ st['quer'] gesamt, ≤ st['quer_je'] je Datei und ≤ st['quer_je'] vermutlich
+    zufällige (nur Betrag gleich in Dateien fremder Prüffelder), ohne Zeilen, die schon in Abschnitt 3 stehen (Gegenbuchungen). Rückgabe:
+    Blöcke je Datei, gezeigte Zeilen."""
+    je, wahl, n_zufall = Counter(), [], 0
+    for zufall, _, rel, i, tn, tw in kand:
+        if (rel, i) in aus_z or je[rel] >= st["quer_je"] or (zufall and n_zufall >= st["quer_je"]):
+            continue
+        n_zufall += zufall
+        je[rel] += 1
+        wahl.append((rel, i, tn, tw, zufall))
+        if len(wahl) >= st["quer"]:
+            break
+    if not wahl:
+        return [], set()
+    grp = {}
+    for rel, i, tn, tw, zufall in wahl:
+        grp.setdefault(rel, []).append((i, tn, tw, zufall))
+    bl = [[f"Querverweise: {len(wahl)} von {len(kand)} Zeilen anderer Dateien/Konten mit derselben Belegnummer bzw. demselben Betrag "
+           "wie Kontoblatt, Saldoliste oder Dateien des Prüffelds (nur seltene Werte) – Beleg ↔ Buchung ↔ Saldo abgleichen, Differenz mit "
+           "`rechne`; «nur Betrag gleich» in Dateien anderer Prüffelder ist vermutlich Zufall (am Ende; nur prüfen, wenn Datum/Text passen):"]]
+    for rel in grp:   # Dateien in der Reihenfolge ihres besten Treffers
+        zeilen = _ap_text(pfade[rel])
+        bl.append([f"- {rel}:{i}  {cut(re.sub(r'\s+', ' ', zeilen[i - 1]).strip(), 200)}  ⟵ "
+                   + ", ".join([f"Beleg {t}" for t in tn[:2]] + [f"Betrag {_bfmt(x)}" for x in tw[:2]])
+                   + ("  (nur Betrag gleich – vermutlich Zufall)" if zufall else "")
+                   for i, tn, tw, zufall in sorted(grp[rel])])
+    return bl, {(rel, i) for rel, i, _, _, _ in wahl}
+
+
+def _ap_vj_zusammenfassung(vidx: list[dict]) -> list[tuple]:
+    """Zusammenfassende Abschnitte der Vorjahresakte (VJ_ZUSAMMEN_RX: Hinweise Folgejahr, wesentliche Feststellungen, nicht korrigierte
+    Fehler, Pendenzen, Punkte Schlussbesprechung) – für jedes Prüffeld: (a) Überschrift (Textzeile) mit der Tabelle darunter (ohne
+    Kopfzeile, bis zur Leerzeile nach der Tabelle), (b) Tabellenzeilen, deren erste Zellen (kurz, ≤ 60 Zeichen) die Abschnittsbezeichnung
+    nennen (Prüfakte als Tabelle; ein Prüfschritt mit «→ Hinweis Folgejahr» im Text gehört ins Prüfprogramm). Gleicher Inhalt in mehreren
+    Fassungen nur einmal, die kürzere zuerst. Rückgabe: [(Rang, rel, Zeile)] nach Rang, Datei, Zeile."""
+    roh = []
+    for o, e in enumerate(vidx):
+        if not e["text"]:
+            continue
+        zeilen = _ap_text(e["p"])
+        rang, tab = None, False
+        for i, z in enumerate(zeilen, 1):
+            s = z.strip()
+            c = _zellen(z)
+            if c is None:
+                if not s:
+                    if tab:
+                        rang, tab = None, False   # Leerzeile nach der Tabelle: Abschnitt zu Ende
+                    continue
+                if TRENN_RX.fullmatch(s):
+                    continue
+                rang = next((r for r, rx in enumerate(VJ_ZUSAMMEN_RX) if rx.search(s)), None) if len(s) <= 120 else None
+                tab = False
+                if rang is not None:
+                    roh.append((rang, o, i, e["rel"], z))
+                continue
+            if rang is not None:
+                tab = True
+                if not (i < len(zeilen) and TRENN_RX.fullmatch(zeilen[i].strip() or "x")):   # Kopfzeile der Tabelle weglassen
+                    roh.append((rang, o, i, e["rel"], z))
+            else:
+                r2 = next((r for r, rx in enumerate(VJ_ZUSAMMEN_RX) if any(len(x) <= 60 and rx.search(x) for x in c[:3])), None)
+                if r2 is not None:
+                    roh.append((r2, o, i, e["rel"], z))
+    out, gesehen = [], set()
+    for rang, o, i, rel, z in sorted(roh, key=lambda x: (x[0], len(x[4]), x[1], x[2])):
+        k = _vj_kern(z)
+        if k in gesehen:
+            continue
+        gesehen.add(k)
+        out.append((rang, o, i, rel))
+    return [(r, rel, i) for r, o, i, rel in sorted(out, key=lambda x: (x[0], x[1], x[2]))]
+
+
+def _ap_vj_zus_bloecke(vidx: list[dict], zus: list[tuple], st: dict) -> tuple[list[list[str]], set]:
+    """Abschnitt 7 (Anfang): zusammenfassende Abschnitte des Vorjahres (≤ st['vjzus'] Zeilen, Rang aus _ap_vj_zusammenfassung) je Datei."""
+    if not zus:
+        return [], set()
+    pfade = {e["rel"]: e["p"] for e in vidx}
+    wahl = zus[: st["vjzus"]]
+    bl = []
+    for rel in dict.fromkeys(r for _, r, _ in wahl):
+        zeilen = _ap_text(pfade[rel])
+        nrs = sorted(i for _, r, i in wahl if r == rel)
+        bl.append([f"### VJ:{rel} – Zusammenfassung Vorjahr (Hinweise Folgejahr, wesentliche Feststellungen, nicht korrigierte Fehler, "
+                   "Pendenzen) – für jedes Prüffeld prüfen, ob es betroffen ist; Aussagen des Vorjahres nicht als Ergebnis des Geschäftsjahres "
+                   "übernehmen"] + [_zeile_fmt(i, zeilen[i - 1], 320) for i in nrs])
+    if len(wahl) < len(zus):
+        bl.append([f"(+{len(zus) - len(wahl)} weitere Zeilen der Zusammenfassung Vorjahr)"])
+    return bl, {(r, i) for _, r, i in wahl}
+
+
+def _ap_vj_pruefprogramm(vidx: list[dict], codes: list[str]) -> list[tuple]:
+    """Vorjahres-Prüfprogramm/-Prüfakte: Zeilen der Prüfschritte des Prüffelds – (a) Tabelle mit Spalte «Prüffeld» (Zeilen mit dem Code),
+    (b) Abschnitt ab einer Zeile «<Code> <Titel>» bis zum nächsten Prüffeld-Code (Zeilen mit Schritt-Nr. und abschliessende Beurteilung).
+    Derselbe Schritt (Code + Nr.) in mehreren Dateien: nur die kompakteste Fassung. Rückgabe: [(rel, Zeile, Code, Nr.)]; Nr. "" = Kopf,
+    "~" = Beurteilung."""
+    alle = {p["code"] for p in L()["katalog"]["prueffelder"]}
+    je = []
+    for o, e in enumerate(vidx):
+        if not e["text"]:
+            continue
+        zeilen = _ap_text(e["p"])
+        rows, pfsp, cur = [], None, None
+        for i, z in enumerate(zeilen, 1):
+            c = _zellen(z)
+            if c is None:
+                if not z.strip():
+                    pfsp = None
+                elif not TRENN_RX.fullmatch(z.strip()):
+                    pfsp = None
+                    m = PP_KOPF_RX.match(z)
+                    if m and m.group(1) in alle:
+                        cur = m.group(1) if m.group(1) in codes else None
+                        if cur:
+                            rows.append((i, cur, ""))
+                    elif cur and PP_SCHLUSS_RX.match(z):
+                        rows.append((i, cur, "~"))
+                    elif re.match(r"^#{1,6}\s", z):
+                        cur = None
+                continue
+            if pfsp is None:
+                j = next((j for j, x in enumerate(c) if re.fullmatch(r"pruffeld|prufgebiet|pf|code", key(x).strip(" .:*"))), None)
+                if j is not None:
+                    pfsp = j
+                    continue
+            if pfsp is not None:
+                cd = c[pfsp].strip().upper() if pfsp < len(c) else ""
+                if cd in codes:
+                    rows.append((i, cd, next((x.strip() for x in c if re.fullmatch(r"\d{3}", x.strip())), f"z{i}")))
+                continue
+            if cur and c and re.fullmatch(r"\d{3}", c[0].strip()):
+                rows.append((i, cur, c[0].strip()))
+        schritte = [(i, nr) for i, _, nr in rows if nr not in ("", "~")]
+        if schritte:
+            je.append((sum(len(zeilen[i - 1]) for i, _ in schritte) / len(schritte), o, e, rows))
+    out, gesehen = [], set()
+    for _, _, e, rows in sorted(je, key=lambda x: (x[0], x[1])):
+        neu = [(i, cd, nr) for i, cd, nr in rows if nr in ("", "~") or (cd, nr) not in gesehen]
+        if not any(nr not in ("", "~") for _, _, nr in neu):
+            continue
+        gesehen |= {(cd, nr) for _, cd, nr in neu if nr not in ("", "~")}
+        out += [(e["rel"], i, cd, nr) for i, cd, nr in neu]
+    return out
+
+
+def _ap_vj_pp_bloecke(vidx: list[dict], pp: list[tuple], st: dict, akvj: str) -> tuple[list[list[str]], set]:
+    """Abschnitt 7: Zeilen des Vorjahres-Prüfprogramms (≤ st['vjpp']) je Datei. Rückgabe: Blöcke, gezeigte Zeilen (rel, Zeile)."""
+    if not pp:
+        return [], set()
+    pfade = {e["rel"]: e["p"] for e in vidx}
+    wahl = pp[: st["vjpp"]]
+    bl = []
+    for rel in dict.fromkeys(r for r, _, _, _ in wahl):
+        zeilen = _ap_text(pfade[rel])
+        nrs = [i for r, i, _, _ in wahl if r == rel]
+        bl.append([f"### VJ:{rel} – Prüfprogramm Vorjahr (Schritte, Feststellungen, REF; {len(nrs)} Zeilen) – Ergebnisse des VORJAHRES: nur "
+                   "Vergleich/Hinweis, für das Geschäftsjahr nichts übernehmen; jede Aussage mit einem Beleg des Geschäftsjahres neu prüfen"]
+                  + [_zeile_fmt(i, zeilen[i - 1], 320) for i in nrs])
+    if len(wahl) < len(pp):
+        rest = pp[len(wahl):]
+        bl.append([f"(+{len(rest)} weitere Zeilen des Vorjahres-Prüfprogramms: `{akvj} --datei {_q(rest[0][0])} --von {rest[0][1]}`)"])
+    return bl, {(r, i) for r, i, _, _ in wahl}
+
+
+def _ap_vj_dateien(vidx: list[dict], codes: list[str], st: dict, akvj: str) -> tuple[list[list[str]], set]:
+    """Abschnitt 7: Inhalt der VJ-Dateien des Prüffelds (klein ganz, sonst erste Zeilen + Total-Zeilen), gesamt ≤ st['vjdat'] Bytes; kleine
+    und sicher zugeordnete Dateien zuerst, die übrigen als Liste. Rückgabe: Blöcke, gezeigte Zeilen (rel, Zeile)."""
+    dateien = _ap_ohne_originale([e for e in vidx if any(c in e["codes"] for c in codes)])
+    if not dateien:
+        return [["(keine Datei der Vorjahresakte nach Namen zugeordnet)"]], set()
+    dateien.sort(key=lambda e: (not any(c in e["sicher"] for c in codes), e["kb"], e["rel"].lower()))
+    sv = {"ganz": st["vjganz"], "anfang": st["vjanfang"]}
+    bl, summe, rest, gezeigt = [], 0, [], set()
+    for e in dateien:
+        g = set()
+        b = _ap_datei(e, sv, akvj, "VJ:", tot_max=st["vjanfang"], inh_max=8, gezeigt=g)
+        n = sum(len(x.encode("utf-8")) + 1 for x in b)
+        if bl and summe + n > st["vjdat"]:
+            rest.append(e)
+            continue
+        bl.append(b)
+        summe += n
+        gezeigt |= g
+    if rest:
+        bl.append([f"Weitere VJ-Dateien des Prüffelds (lesen: `{akvj} --datei <datei>`):"] + [f"- VJ:{e['rel']} · {_zeilen_info(e)}" for e in rest])
+    return bl, gezeigt
+
+
+AP_TEILBAR = 1536   # Blöcke ab dieser Grösse dürfen am Teilende umbrechen (Rest im nächsten Teil mit wiederholter Überschrift)
+
+
 def _ap_seiten(kopf_fn, abschnitte: list[tuple[str, list[str], list[str], list[list[str]]]], max_b: int = AP_MAX,
                reserve: int = 300) -> list[list[str]]:
-    """Abschnitte (Titel, Einleitung, wiederholte Kopfzeilen, Blöcke) auf Teile ≤ max_b Bytes verteilen (Kopf je Teil eingerechnet). Ein
-    Block bleibt zusammen, ausser er allein ist grösser als ein Teil; im Folgeteil Titel «(Fortsetzung)» und Tabellenkopf wiederholen."""
+    """Abschnitte (Titel, Einleitung, wiederholte Kopfzeilen, Blöcke) auf Teile ≤ max_b Bytes verteilen (Kopf je Teil eingerechnet). Kleine
+    Blöcke bleiben zusammen (passt einer nicht mehr, beginnt ein neuer Teil); grosse Blöcke (≥ AP_TEILBAR) füllen den Teil auf und gehen im
+    nächsten weiter, wenn noch mindestens ein Viertel frei ist – im Folgeteil Abschnittstitel «(Fortsetzung)», Tabellenkopf und die
+    «###»-Überschrift des Blocks mit «(Fortsetzung)» (Quelle der Zeilen bleibt erkennbar)."""
     gr = lambda xs: sum(len(x.encode("utf-8")) + 1 for x in xs)  # noqa: E731
     budget = max_b - gr(kopf_fn(99, 99)) - reserve   # reserve: Fusszeile («Weiter: …» bzw. «Ende …») und Drift-Warnung
     teile, cur, cb = [], [], 0
@@ -4822,29 +6250,31 @@ def _ap_seiten(kopf_fn, abschnitte: list[tuple[str, list[str], list[str], list[l
 
     for titel, intro, wh, bloecke in abschnitte:
         kopf = ["", titel] + intro + wh
+        fort = ["", titel + " (Fortsetzung)"] + wh
         if not bloecke:
             bloecke = [[]]
         erster = True
         for b in bloecke:
             vor = kopf if erster else []
-            if cb + gr(vor + b) > budget and cur:
-                neu()
-                if not erster:
-                    vor = ["", titel + " (Fortsetzung)"] + wh
-                else:
-                    vor = kopf
-            if gr(vor + b) > budget:   # Block grösser als ein Teil: zeilenweise teilen
-                for x in vor + b:
-                    if cb + gr([x]) > budget and cur:
-                        neu()
-                        cur += ["", titel + " (Fortsetzung)"] + wh
-                        cb = gr(cur)
-                    cur.append(x if len(x.encode("utf-8")) < budget else x[: budget // 4] + " …")
-                    cb += gr([cur[-1]])
-            else:
+            erster = False
+            if cb + gr(vor + b) <= budget:
                 cur += vor + b
                 cb += gr(vor + b)
-            erster = False
+                continue
+            frei = budget - cb
+            if cur and (gr(vor + b) < AP_TEILBAR or frei < budget // 4) and gr((vor or fort) + b) <= budget:
+                neu()   # Block passt nicht mehr: ganz in den nächsten Teil
+                cur = (vor or fort) + b
+                cb = gr(cur)
+                continue
+            h = b[0] if b and b[0].startswith("### ") else None   # Block zeilenweise: auffüllen, im nächsten Teil fortsetzen
+            for j, x in enumerate(vor + b):
+                if cb + gr([x]) > budget and cur:
+                    neu()
+                    cur = fort + ([h + " (Fortsetzung)"] if h and j > len(vor) else [])
+                    cb = gr(cur)
+                cur.append(x if len(x.encode("utf-8")) < budget else x[: budget // 4] + " …")
+                cb += gr([cur[-1]])
     neu()
     return teile or [[]]
 
@@ -4873,9 +6303,13 @@ def _ap_codes(pf, schritt) -> tuple[list[str], str | None]:
 
 @_mit_drift
 def arbeitspaket(pfad: str, pf: str | None = None, vj: str | None = None, schritt: str | None = None, teil=None) -> str:
-    """Belegpaket für ein Prüffeld (oder einen Schritt): Konten der Saldoliste GJ/VJ, Kontoblätter, Jahresrechnung, Dateien des Prüffelds,
-    weitere Fundstellen, Vorjahresakte, Schritte – in Teilen ≤ 24 KB (`teil`). Nur lesen, nichts speichern (Dateitexte nur während des
-    Aufrufs im Speicher)."""
+    """Belegpaket für ein Prüffeld (oder einen Schritt): Konten der Saldoliste GJ/VJ mit Gegenkonten (P1: alle Bilanzkonten), Kontoblätter
+    (ab Kürzungsstufe 1 Sammelbuchungen vor dem letzten Monat zusammengefasst) und Gegenbuchungen in anderen Konten (A1: Abschluss-/
+    Umbuchungen aller Konten), Jahresrechnung (Zeilen und Salden des Prüffelds und seiner Gegenkonten, Eckwerte, Anhang samt Anhangangaben
+    aus dem Prüfprogramm, Datum), Dateien des Prüffelds und Unterlagen laut Prüfprogramm aus anderen Ordnern, Querverweise (gleiche
+    Belegnummer/gleicher Betrag in anderen Ordnern) und weitere Fundstellen, Vorjahresakte (Zusammenfassung, Prüfprogramm, Treffer, Dateien,
+    Unterlagen), Schritte – in Teilen ≤ 24 KB (`teil`), höchstens 3 Teile (sonst zuerst die Randabschnitte gekürzt, freier Platz danach
+    aufgefüllt). Nur lesen, nichts speichern (Dateitexte nur während des Aufrufs im Speicher)."""
     global _AP_MEMO
     alt, _AP_MEMO = _AP_MEMO, {}
     try:
@@ -4894,15 +6328,20 @@ def _arbeitspaket(pfad: str, pf: str | None, vj: str | None, schritt: str | None
     akv = ak + (f" --vj {_q(vj)}" if vj else "")
     idx = _akte_index(root)
     vidx = _akte_index(vjr) if vjr else []
-    gj_rows, h_gj, gj = _ap_saldolisten(idx, None, "")
-    vj_rows, h_vj, _ = _ap_saldolisten(vidx, gj - 1 if gj else None, "VJ:") if vjr else ([], [], None)
+    gj_rows, h_gj, gj, sl_leer = _ap_saldolisten(idx, None, "")
+    vj_rows, h_vj, _, _ = _ap_saldolisten(vidx, gj - 1 if gj else None, "VJ:") if vjr else ([], [], None, [])
     sel, nur_vj = _ap_konten(codes, gj_rows, vj_rows)
     konten = list(dict.fromkeys(r["konto"] for r in sel)) if "A1" not in codes else []
-    ph = [p for c in codes for p in [_pfname(c)] + list((L().get("pf_synonyme") or {}).get(c, [])) if len(key(p)) >= 3]
-    kw_alts = _such_muster("|".join(dict.fromkeys(re.sub(r"\s+", " ", p) for p in ph)), wortanfang=True)
-    sonder = [e["rel"] for art in (_ist_saldoliste, _ist_jahresrechnung, _ist_hauptbuch) for e in _ap_allgemein(idx, art)]
-    vsonder = {e["rel"] for art in (_ist_saldoliste, _ist_jahresrechnung) for e in _ap_allgemein(vidx, art)}
-    eigene = [e for e in idx if any(c in e["codes"] for c in codes)]
+    ph = [p for c in codes for p in [_pfname(c)] + list((L().get("pf_synonyme") or {}).get(c, [])) + list(AP_FACHBEGRIFFE.get(c, ()))
+          if len(key(p)) >= 3]
+    kw_alts = _begriff_muster(dict.fromkeys(re.sub(r"\s+", " ", p) for p in ph))
+    anh_alts = _ap_anhang_begriffe(codes) if "T1" not in codes else None
+    # Saldoliste (nach Namen bzw. am Inhalt), Jahresrechnung, Hauptbuch/Kontoblätter – stehen in den Abschnitten 2–4, nicht als Datei
+    hb = _ap_hb_dateien(idx)
+    sonder = list(dict.fromkeys([e["rel"] for e in _ap_allgemein(idx, _ist_saldoliste)] + [r["rel"] for r in gj_rows]
+                                + [e["rel"] for e in _ap_jr_dateien(idx)] + [e["rel"] for e in hb]))
+    vsonder = {e["rel"] for e in _ap_allgemein(vidx, _ist_saldoliste) + _ap_jr_dateien(vidx)} | {r["rel"] for r in vj_rows}
+    eigene = _ap_ohne_originale([e for e in idx if any(c in e["codes"] for c in codes) and e["rel"] not in sonder])
     eigene.sort(key=lambda e: (not any(c in e["sicher"] for c in codes), e["rel"].lower()))
     nachweise = []
     if sid:   # Schritt: Dateien zu den Nachweisen des Schritts zuerst
@@ -4913,12 +6352,13 @@ def _arbeitspaket(pfad: str, pf: str | None, vj: str | None, schritt: str | None
         # Fundorte der Nachweise zuerst; Saldoliste/Hauptbuch/Jahresrechnung stehen schon in den Abschnitten 2–4, Dateien eines anderen
         # Prüffelds nur in der Schrittkarte (Liste «Nachweis → Fundort»)
         vorne = [f for _, fo in nachweise for f in fo if not f.startswith("VJ:") and f not in sonder]
-        zusatz = [e for e in idx if e["rel"] in vorne and e not in eigene and (not e["codes"] or codes[0] in e["codes"])]
+        zusatz = [e for e in idx if e["rel"] in vorne and e["rel"] not in {x["rel"] for x in eigene} and (not e["codes"] or codes[0] in e["codes"])]
         eigene.sort(key=lambda e: (e["rel"] not in vorne, vorne.index(e["rel"]) if e["rel"] in vorne else 0))
         eigene = zusatz + eigene
     titel = " + ".join(f"{c} {_pfname(c)}" for c in codes)
     weiter_vj = f" --vj {_q(vj)}" if vj else ""
-    aufruf = f"arbeitspaket {_q(pfad)} " + (f"--schritt {sid}" if sid else f"--pf {','.join(codes)}") + weiter_vj
+    aufruf = (f"arbeitspaket {_q(pfad)} " + (f"--schritt {sid}" + (f" --pf {','.join(codes[1:])}" if len(codes) > 1 else "") if sid
+                                              else f"--pf {','.join(codes)}") + weiter_vj)
 
     def kopf_fn(i, n):
         z = [f"# Arbeitspaket {('Schritt ' + sid + ' · ') if sid else ''}{titel} – Teil {i}/{n}",
@@ -4944,31 +6384,41 @@ def _arbeitspaket(pfad: str, pf: str | None, vj: str | None, schritt: str | None
                 z.append(f"- Nachweis «{cut(nw, 90)}» → " + (" · ".join(fo) if fo else "kein passender Dateiname – Abschnitte unten, sonst `akte … --suche`"))
             z.append(f"Ganze Karte (Fundstellen, revio): `pruefschritt {sid}`")
             ab.append((f"## 1. Schritt {sid}", [], [], [z]))
-        intro, kopfz, kbl = _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, h_gj + h_vj, gj, vjr, akv)
+        intro, kopfz, kbl = _ap_konten_teil(codes, sel, nur_vj, gj_rows, vj_rows, h_gj + h_vj, gj, vjr, akv, sl_leer)
+        kbl = kbl + _ap_gegenkonten(gkl, st) + _ap_bilanzkonten(codes, sel, gj_rows, st)
         ab.append((f"## 2. Konten {', '.join(codes)} aus der Saldoliste (GJ{' und VJ-Akte' if vjr else ''})", intro, kopfz, kbl))
         if "A1" in codes:
-            ab.append(("## 3. Kontoblätter", [], [], [[f"A1 umfasst alle Konten – Kontoblätter gezielt: `{ak} --suche \"<Kontonummer>\"` bzw. "
-                                                    f"`arbeitspaket {_q(pfad)} --pf <code>{weiter_vj}` des betroffenen Prüffelds."]]))
+            ab.append(("## 3. Kontoblätter (A1: Abschluss-/Umbuchungen aller Konten)", [], [],
+                       [[f"A1 umfasst alle Konten – Kontoblätter gezielt: `{ak} --suche \"<Kontonummer>\"` bzw. "
+                         f"`arbeitspaket {_q(pfad)} --pf <code>{weiter_vj}` des betroffenen Prüffelds."]] + _ap_abschluss(buch, st, ak)))
+            gegen_z = set()
         elif not konten:
             ab.append(("## 3. Kontoblätter", [], [], [["(keine Konten des Prüffelds erkannt – Abschnitt 2)"]]))
+            gegen_z = set()
         else:
-            ab.append(("## 3. Kontoblätter (Hauptbuch/Kontoblätter; Abschluss-/Umbuchungen immer)", [], [],
-                       _ap_kontoblaetter(idx, konten, gj, st, ak) if konten else [["(keine Konten erkannt – oben)"]]))
-        jr = _ap_jahresrechnung(idx, "", sel, codes, kw_alts, st, ak)
+            gbl, gegen_z = _ap_gegenbuchungen(gegen_kand, st, ak, ohne_blatt)
+            ab.append(("## 3. Kontoblätter (Hauptbuch/Kontoblätter; Abschluss-/Umbuchungen immer; Gegenbuchungen in anderen Konten)", [], [],
+                       _ap_kontoblaetter(idx, konten, gj, st, ak) + gbl))
+        jr = _ap_jahresrechnung(idx, "", sel, codes, kw_alts, st, ak, anh_alts=anh_alts, gk_konten=[r["konto"] for r, _, _ in gkl[: st["gk"]]])
         if vjr:
-            jr += _ap_jahresrechnung(vidx, "VJ:", sel, codes, kw_alts, st, f"akte {_q(vj)}", vj=True)
+            jr += _ap_jahresrechnung(vidx, "VJ:", sel, codes, kw_alts, st, f"akte {_q(vj)}", vj=True, anh_alts=anh_alts)
         ab.append(("## 4. Jahresrechnung (Zeilen des Prüffelds, Zwischentotale, Anhang) – zerstückelte Blöcke: Werte aus der Saldoliste, "
                    "unklar → Original/Pendenz", [], [], jr))
+        ubl, unt_z = _ap_unterlagen_bloecke(unt, st, ak)
+        und = f" und Unterlagen laut Prüfprogramm aus anderen Ordnern ({len(unt)})" if unt else ""
         if eigene:
-            ab.append((f"## 5. Dateien des Prüffelds ({len(eigene)}; nach Ordner-/Dateiname wie `akte --pf`)", [], [],
-                       [_ap_datei(e, st, ak) for e in eigene]))
+            ab.append((f"## 5. Dateien des Prüffelds ({len(eigene)}; nach Ordner-/Dateiname wie `akte --pf`){und}", [], [],
+                       [_ap_datei(e, st, ak) for e in eigene] + ubl))
         else:
-            ab.append(("## 5. Dateien des Prüffelds", [], [], [[f"(keine Datei nach Namen zugeordnet – `{akv} --pf {codes[0]}` und Abschnitt 6)"]]))
-        ab.append(("## 6. Weitere Fundstellen in der GJ-Akte (Kontonummern, Stichworte; Belege in anderen Ordnern)", [], [],
-                   _ap_fundstellen(fund, kw_alts, st)))
+            ab.append((f"## 5. Dateien des Prüffelds{und}", [], [],
+                       [[f"(keine Datei nach Namen zugeordnet – `{akv} --pf {codes[0]}` und Abschnitt 6)"]] + ubl))
+        qbl, quer_z = _ap_querverweise(quer_kand, pfade, st, gegen_z | unt_z)
+        fund_rest = [(a, b, rel, [h for h in hs if (rel, h[1]) not in quer_z and (rel, h[1]) not in unt_z]) for a, b, rel, hs in fund]
+        ab.append(("## 6. Weitere Fundstellen in der GJ-Akte (Querverweise: gleiche Belegnummer/gleicher Betrag; Kontonummern, Stichworte; "
+                   "Belege in anderen Ordnern)", [], [], qbl + _ap_fundstellen([x for x in fund_rest if x[3]], kw_alts, st, pfade)))
         if vjr:
-            ab.append(("## 7. Vorjahresakte (Dateien des Prüffelds; Folgejahr, Pendenzen, Feststellungen)", [], [],
-                       _ap_vorjahr(vidx, codes, vj_hits, kw_alts, st)))
+            ab.append(("## 7. Vorjahresakte (Prüfprogramm des Vorjahres; Folgejahr, Pendenzen, Feststellungen; Dateien des Prüffelds)", [], [],
+                       _ap_vorjahr(vidx, codes, vj_hits, kw_alts, st, pp, zus, f"akte {_q(vj)}", vunt)))
         else:
             ab.append(("## 7. Vorjahresakte", [], [], [["(ohne `--vj <vj-pfad>` nicht gelesen – Hinweise «Folgejahr», Pendenzen und Feststellungen des Vorjahres fehlen)"]]))
         if not sid:
@@ -4981,14 +6431,50 @@ def _arbeitspaket(pfad: str, pf: str | None, vj: str | None, schritt: str | None
     reserve = max(len("\n".join(weiter(98, 99)).encode("utf-8")), len("\n".join(ende).encode("utf-8"))) + 250   # + Drift-Warnung
     fund = _ap_fund_treffer(idx, {e["rel"] for e in eigene} | set(sonder), konten, kw_alts)
     vj_hits = _ap_vj_treffer(vidx, codes, konten, kw_alts, vsonder) if vjr else []
+    pp = _ap_vj_pruefprogramm(vidx, codes) if vjr else []
+    zus = _ap_vj_zusammenfassung(vidx) if vjr else []
+    # Buchungen aller Kontoblätter (einmal je Aufruf): Gegenbuchungen (Gegenkonto = Konto des Prüffelds), Abschluss-/Umbuchungen (A1) und
+    # Querverweise (seltene Belegnummern/Beträge des Prüffelds in anderen Dateien und Konten)
+    pfade = {e["rel"]: e["p"] for e in idx}
+    buch = _ap_buchungen(hb, gj)
+    # Unterlagen laut Prüfprogramm (PBC-Liste, Nachweise der Schritte), die nach Namen in anderen Ordnern liegen
+    eigen_k = lambda k: any(_konto_gleich(k, x) for x in konten)  # noqa: E731
+    bezug = set(konten) | {g for _, _, b in buch if eigen_k(b["konto"]) for g in b["gk"]}
+    unt = _ap_unterlagen(idx, codes, sid, {e["rel"] for e in eigene} | set(sonder), gj, bezug)
+    vunt = _ap_unterlagen(vidx, codes, sid, {e["rel"] for e in vidx if any(c in e["codes"] for c in codes)} | vsonder
+                          | {e["rel"] for e in _ap_hb_dateien(vidx)}, gj - 1 if gj else None, bezug) if vjr else []
+    gegen_kand, eig_z = _ap_gegen_kand(buch, konten) if konten else ([], set())
+    ohne_blatt = _ap_ohne_blatt(buch, konten)
+    gkl = _ap_gk_liste(buch, konten, gj_rows)
+    # Prüffelder des Prüffelds und seiner Gegenkonten: Dateien dieser Prüffelder gelten bei Querverweisen nicht als fremd
+    bezug_pf = set(codes) | {c for r, _, _ in gkl for c in _zeile_codes(r)}
+    if "A1" in codes:
+        quer_kand = []
+    else:
+        quer_kand = _ap_quer_kand(_ap_quer_index(idx, buch), {e["rel"] for e in eigene},
+                                  eig_z | {(x[2]["rel"], x[4]["z"]) for x in gegen_kand}, sel,
+                                  {e["rel"] for e in _ap_jr_dateien(idx)},
+                                  _ap_konto_zeilen(idx, konten, {e["rel"] for e in hb} | {r["rel"] for r in gj_rows}),
+                                  {e["rel"]: bool(e["codes"]) and not set(e["codes"]) & bezug_pf for e in idx})
     for k, st in enumerate(AP_STUFEN):
         teile = _ap_seiten(kopf_fn, bau(st), reserve=reserve)
         if len(teile) <= AP_TEILE_ZIEL:
             # sehr kleiner letzter Teil (ein Aufruf mehr für wenig Inhalt): eine Stufe weiter versuchen, nur wenn das einen Teil spart
             if len(teile) > 1 and len("\n".join(teile[-1]).encode("utf-8")) < AP_REST_KLEIN and k + 1 < len(AP_STUFEN):
                 kurz = _ap_seiten(kopf_fn, bau(AP_STUFEN[k + 1]), reserve=reserve)
-                teile = kurz if len(kurz) < len(teile) else teile
+                if len(kurz) < len(teile):
+                    k, st, teile = k + 1, AP_STUFEN[k + 1], kurz
             break
+    # Auffüllen: Platz, den die Kürzungsstufe frei lässt, gruppenweise nach Priorität mit grosszügigeren Grenzen nutzen (ohne mehr Teile)
+    for grp in AP_FUELLEN if k else ():
+        for alt in AP_STUFEN[:k]:   # grosszügigste zuerst
+            if all(alt[x] <= st[x] for x in grp):
+                break
+            versuch = {**st, **{x: max(alt[x], st[x]) for x in grp}}
+            t2 = _ap_seiten(kopf_fn, bau(versuch), reserve=reserve)
+            if len(t2) <= len(teile):
+                st, teile = versuch, t2
+                break
     n = len(teile)
     if not 1 <= teil <= n:
         raise ValueError(f"Teil {teil} gibt es nicht – das Arbeitspaket hat {n} Teil{'e' if n > 1 else ''} (`{aufruf} --teil 1`"
@@ -5006,7 +6492,26 @@ PLAN_PUNKT_MAX = 900      # Zeichen je Checklistenpunkt in einer Anweisung (ganz
 PLAN_ROLLE = {"teilweise": "Befragung", "vorbereiten": "vorbereiten", "auf_anweisung": "4xx, nur auf Anweisung", "nur_mensch": "WP-Schritt"}
 PLAN_GRENZE = ("Nur Entwürfe in deiner Antwort: kein ✓, kein Visum, kein «abgeschlossen»/«in Ordnung», keine Buchung (nur Buchungsvorschlag "
                "als Notiz), nichts senden (E-Mail nur als Entwurf); revio/M-Files nur so nutzen, wie der Auftrag es erlaubt (sonst das "
-               "Werkzeug nennen). Nicht abbrechen – nicht Bearbeitetes: «nicht bearbeitet – Grund».")
+               "Werkzeug nennen). Stimmt eine Abstimmung: «Differenz 0 (rechne)» schreiben – Tabellenspalte «Differenz», nie ein Haken (✓, "
+               "«stimmt», «abgeschlossen»). Nicht wegen Zeit oder Umfang abbrechen – nicht Bearbeitetes: «nicht bearbeitet – Grund»; «Halt» bzw. "
+               "«abbrechen» in einer Anweisung heisst: an dieser Stelle nichts weiter ändern, Pendenz bzw. Hinweis für den WP als Notiz-Entwurf.")
+PLAN_SCHREIBWEISE = ("Schreibweise der Aufrufe: `werkzeug Eingabe --option Wert` = Tool «werkzeug» (revisionswiki__werkzeug) mit diesen "
+                     "Angaben; `aufgabe \"…\"` = Tool «aufgabe» mit dem Text in Anführungszeichen als Eingabe (nicht das Tool, das wie ein "
+                     "Wort im Text heisst).")
+PLAN_STATUS = ("Status je Schritt: «vorbereitet» = alle Nachweise ausgewertet, nichts offen (auch ohne Befund, z.B. «keine … laut "
+               "Bestätigung»); «teilweise bearbeitet» = ein Nachweis oder eine Antwort fehlt (→ Pendenz); «mit Feststellungen» = möglicher "
+               "Fehler als Notiz-Entwurf; «nicht bearbeitet – Grund». Nennt die Karte einen eigenen Status-Text (z.B. Kennzeichnung «?»), "
+               "diesen übernehmen.")
+PLAN_OHNE_KONTEN_RX = re.compile(r"Konten nicht erkannt|hat keine eigenen Konten|Keine Saldoliste erkannt|aber keine Kontozeilen erkannt")
+
+
+def cut_code(s, n) -> str:
+    """Wie cut, aber nie mit offenem Code-Span: bei ungerader Zahl «`» vor dem letzten «`» kürzen (sonst paart sich der Rest mit dem
+    nächsten Aufruf der Anweisung)."""
+    t = cut(s, n)
+    if t.count("`") % 2:
+        t = t[: t.rfind("`")].rstrip(" ,;:–-(") + " …"
+    return t
 
 
 def _plan_teile(xs: list, k: int = PLAN_JE_TURN) -> list[list]:
@@ -5023,6 +6528,29 @@ def _plan_teile(xs: list, k: int = PLAN_JE_TURN) -> list[list]:
     return out
 
 
+PFAD_RX = r"(?:~|\.{1,2})?/?[\w.-]+(?:/[\w.-]+)+/?"
+
+
+def _plan_route(auftrag: str, gj: str | None, vj: str | None) -> str:
+    """Text für das Routing: Pfadangaben («Akte: <pfad>», «Vorjahresakte: <pfad>», die Pfade der Akte) weg – sonst zählt das Wort «Akte» für
+    die Aufgabe pdf-akte. Als Pfad gilt nur, was hinter «Akte:»/«Vorjahresakte:»/«GJ:»/«VJ:» steht, auf die Akte des Plans zeigt, mit
+    ./ ~/ / beginnt oder eine Jahreszahl enthält; Fliesstext mit Schrägstrich bleibt («Vorräte/Angefangene Arbeiten» → «Vorräte und
+    Angefangene Arbeiten», «(GV/VR)» → «(GV und VR)»), Code-Listen wie «L1/N1» unverändert."""
+    pfade = {str(x).rstrip("/") for x in (gj, vj) if x}
+
+    def ersatz(m):
+        label, t = m.group(1), m.group(2)
+        k = t.rstrip("/.,;:)")
+        if re.fullmatch(r"[A-Za-z]{1,4}\d(?:/[A-Za-z]{1,4}\d)+", k):
+            return m.group(0)
+        if label or k in pfade or k.startswith(("./", "../", "~/", "/")) or JAHR_RX.search(k):
+            return " "
+        return t.replace("/", " und ")
+
+    route = re.sub(r"(?i)(\b(?:vorjahres)?akten?\s*:\s*|\b(?:vorjahr|vj|gj)\s*:\s*)?(" + PFAD_RX + ")", ersatz, auftrag)
+    return re.sub(r"\s+", " ", route).strip(" .,;:") or auftrag
+
+
 def _plan_pfade(text: str, akte: str | None, vj: str | None) -> tuple[str | None, str | None, bool]:
     """GJ-/VJ-Pfad: Optionen; sonst existierende Ordner aus dem Auftrag (wie `aufgabe`); sonst Pfadmuster mit Jahreszahl im Text (ungeprüft:
     der Orchestrator ruft dieselben Pfade im Workspace des Agenten auf). Drittes Feld: Pfade hier auflösbar."""
@@ -5037,7 +6565,7 @@ def _plan_pfade(text: str, akte: str | None, vj: str | None) -> tuple[str | None
     if gj_:
         return gj_, vj or vj_, True
     kand = []
-    for m in re.finditer(r"(?:~|\.{1,2})?/?[\w.-]+(?:/[\w.-]+)+/?", text or ""):
+    for m in re.finditer(PFAD_RX, text or ""):
         k = m.group(0).rstrip(".,;:)")
         if re.fullmatch(r"[A-Za-z]{1,4}\d(?:/[A-Za-z]{1,4}\d)+", k) or not JAHR_RX.search(k):
             continue
@@ -5054,48 +6582,113 @@ def _plan_pfade(text: str, akte: str | None, vj: str | None) -> tuple[str | None
 
 
 def _plan_turn(turns: list, titel: str, anweisung: str, aufrufe: list[str], schritte: list[str]) -> None:
-    turns.append({"nr": len(turns) + 1, "titel": titel, "anweisung": anweisung, "aufrufe": list(dict.fromkeys(aufrufe)), "schritte": schritte})
+    turns.append({"nr": len(turns) + 1, "titel": titel, "anweisung": _aufrufe_eindeutig(anweisung),
+                  "aufrufe": list(dict.fromkeys(_plan_aufruf(a) for a in aufrufe if a)), "schritte": schritte})
 
 
-def _plan_ap_teile(gj: str | None, code: str | None, vj: str | None, ok: bool, sid: str | None = None) -> int | None:
-    """Anzahl Teile des Arbeitspakets (nur wenn die Akte hier lesbar ist), sonst None (Kopf des Pakets nennt sie)."""
+def _plan_aufruf(call: str) -> str:
+    """Aufruf eindeutig schreiben: `aufgabe X` → `aufgabe "X"` (Tool aufgabe mit Eingabe X – nicht das Tool X)."""
+    m = re.match(r"^aufgabe\s+(?![\"'])(.+)$", call.strip())
+    return f"aufgabe \"{m.group(1).strip()}\"" if m else call.strip()
+
+
+def _aufrufe_eindeutig(t: str) -> str:
+    """Im Text jeden Aufruf `aufgabe X` als `aufgabe "X"` schreiben – ein schwaches Modell liest `aufgabe prueffeld B1` sonst als Aufruf des
+    Tools «prueffeld» (bzw. «wesentlichkeit», «unterlagen»)."""
+    return re.sub(r"`aufgabe\s+([^`\"']+?)\s*`", lambda m: f"`aufgabe \"{m.group(1)}\"`", t or "")
+
+
+def _plan_ersetze(t: str, gj: str | None, vj: str | None) -> str:
+    """Platzhalter <pfad>/<vj-pfad> in einem Checklisten-Text bzw. -Aufruf durch die Pfade ersetzen – nie ein Platzhalter als Pfad: ohne
+    VJ-Pfad fällt «--vj <vj-pfad>» weg; ein Aufruf (`…`) auf die nicht genannte VJ-Akte bzw. Akte wird zum Hinweis «Vorjahresakte nicht
+    genannt → Pendenz», im übrigen Text steht «(Vorjahresakte nicht genannt)» (ohne Akte entsprechend)."""
+    t = t or ""
+    if not vj:
+        t = re.sub(r"\s*--vj\s+<vj-pfad>", "", t)
+    for ph, wert, txt in (("<vj-pfad>", vj, "Vorjahresakte nicht genannt"), ("<pfad>", gj, "Akte nicht genannt")):
+        if not wert:
+            t = re.sub(r"`[^`]*" + re.escape(ph) + r"[^`]*`", f"«{txt} → Pendenz»", t).replace(ph, f"({txt})")
+    return t.replace("<pfad>", _q(gj or "")).replace("<vj-pfad>", _q(vj or ""))
+
+
+def _plan_checkaufruf(call: str, gj: str | None, vj: str | None) -> tuple[str | None, str]:
+    """Aufruf eines Checklistenpunkts für die Anweisung: Platzhalter ersetzt (_plan_ersetze), `aufgabe` eindeutig (_plan_aufruf). Ein Aufruf
+    auf die nicht genannte VJ-Akte bzw. Akte entfällt – dafür ein Hinweis (Pendenz). Rückgabe: (Aufruf oder None, Hinweis)."""
+    if not call:
+        return None, ""
+    if not vj and re.search(r"(?:^|\s)<vj-pfad>(?:\s|$)", re.sub(r"\s*--vj\s+<vj-pfad>", "", call)):
+        return None, "Vorjahresakte nicht genannt → Pendenz «Vorjahresakte fehlt» (Pfad beim WP erfragen)"
+    if not gj and "<pfad>" in call:
+        return None, "Akte nicht genannt → Pendenz «Akte fehlt» (Pfad beim WP erfragen)"
+    return _plan_aufruf(_plan_ersetze(call, gj, vj)), ""
+
+
+def _plan_ap_info(gj: str | None, code: str | None, vj: str | None, ok: bool, sid: str | None = None) -> tuple[int | None, bool | None]:
+    """Anzahl Teile des Arbeitspakets und ob Abschnitt 2 keine Konten nennt (nur wenn die Akte hier lesbar ist), sonst (None, None)."""
     if not (gj and ok):
-        return None
+        return None, None
     try:
         t = arbeitspaket(gj, pf=code if not sid else None, vj=vj, schritt=sid, teil=1)
     except (ValueError, OSError):
-        return None
+        return None, None
     m = re.search(r"– Teil 1/(\d+)", t)
-    return int(m.group(1)) if m else None
+    a2 = t.split("\n## 2.", 1)[-1].split("\n## 3.", 1)[0]
+    return (int(m.group(1)) if m else None), bool(PLAN_OHNE_KONTEN_RX.search(a2))
 
 
-def _plan_pf(turns: list, code: str, gj: str, vj: str | None, ok: bool, nur: str | None = None) -> list[str]:
-    """Turns eines Prüffelds: Belege/Konten → je 3–4 vorbereitbare Schritte → 4xx/WP gesammelt. Rückgabe: alle Ids (Statustabelle)."""
+def _plan_pf(turns: list, code: str, gj: str | None, vj: str | None, ok: bool, nur: str | None = None) -> list[str]:
+    """Turns eines Prüffelds: Belege/Konten → je 3–4 vorbereitbare Schritte → 4xx/WP gesammelt. Rückgabe: alle Ids (Statustabelle).
+    Turn «Belege und Konten» je nach Paket: Einzelkonten abstimmen; A1 (alle Konten) nur Gruppensummen und Totale; ohne Konten (T1 bzw.
+    Abschnitt 2 «Konten nicht erkannt») keine Kontenübersicht, Anhang/Jahresrechnung/Fundstellen statt Konten."""
     name = _pfname(code)
     vjo = f" --vj {_q(vj)}" if vj else ""
-    akv = f"akte {_q(gj)}{vjo}"
-    ap = f"arbeitspaket {_q(gj)} " + (f"--schritt {nur}" if nur else f"--pf {code}") + vjo
-    n = _plan_ap_teile(gj, code, vj, ok, nur)
-    ap_calls = [ap] + ([f"{ap} --teil {k}" for k in range(2, n + 1)] if n else [])
-    teile_txt = (f"alle {n} Teile: " + " · ".join(f"`{x}`" for x in ap_calls) if n and n > 1 else
-                 f"`{ap}`" + ("" if n == 1 else " und ALLE weiteren Teile (`--teil 2` …, Anzahl im Kopf)"))
+    akv = f"akte {_q(gj)}{vjo}" if gj else "akte <pfad>"
+    ap = (f"arbeitspaket {_q(gj)} " + (f"--schritt {nur}" if nur else f"--pf {code}") + vjo) if gj else None
+    n, ohne_konten = _plan_ap_info(gj, code, vj, ok, nur)
+    ap_calls = ([ap] + ([f"{ap} --teil {k}" for k in range(2, n + 1)] if n else [])) if ap else []
+    if not ap:
+        teile_txt = ("Akte nicht genannt – kein Arbeitspaket: Pfad der Akte beim WP erfragen (Notiz-Entwurf «Pendenz – Akte fehlt»); bis dahin "
+                     "nur Wissen aus `aufgabe`/`pruefschritt`, keine Zahlen erfinden")
+    elif n and n > 1:
+        teile_txt = f"alle {n} Teile: " + " · ".join(f"`{x}`" for x in ap_calls)
+    else:
+        teile_txt = f"`{ap}`" + ("" if n == 1 else " und ALLE weiteren Teile (`--teil 2` …, Anzahl im Kopf)")
     folge, rest = _schritt_folge(code)
     if nur:
         folge, rest = [x for x in folge if x["id"] == nur], [x for x in rest if x["id"] == nur]
     det = {x.get("id"): x for x in (L().get("pf", {}).get(code, {}).get("schritte") or []) if isinstance(x, dict)}
     st = _status_woerter()
-    a_call = f"aufgabe prueffeld {code}"
+    a_call = f"aufgabe \"{'Prüfschritt ' + nur + ' bearbeiten' if nur else 'Prüffeld ' + code + ' vorbereiten'}\""
+    pend = ("Jede Differenz ≠ 0 als Notiz-Entwurf «Pendenz» (Konto bzw. Position, beide Beträge, Differenz, Quellen); stimmt sie: «Differenz 0 "
+            "(rechne)».")
+    ohne_txt = ("keine Kontenübersicht, nie Konten erfinden oder zuordnen – stattdessen die Zeilen der Jahresrechnung und die Anhang-"
+                "Abschnitte (Abschnitt 4) sowie die Fundstellen (Abschnitt 6) des Prüffelds ausgeben: Tabelle Position | Betrag GJ | Betrag VJ | "
+                "Quelle (Datei:Zeile).\n4. Mit `rechne` abstimmen: Beträge des Anhangs bzw. der Fundstellen = Bilanz/Saldoliste der betroffenen "
+                f"Positionen; fehlende Angaben: `{akv} --suche \"<Begriff>\"`. " + pend + "\n")
+    if code == "A1":
+        konten_txt = ("3. Gesamtübersicht statt Einzelkonten: aus Abschnitt 2 nur die Summen je Gruppe und die Total-/Ergebniszeilen der Saldoliste "
+                      "(Tabelle Position | Saldo GJ | Saldo VJ | Δ | Quelle Datei:Zeile) – die Einzelkonten erst in den Schritten (A1-302 ff.).\n"
+                      "4. Mit `rechne` abstimmen: jede Gruppensumme bzw. jedes Total der Saldoliste = Total der Jahresrechnung (Abschnitt 4); "
+                      "Total Aktiven = Total Passiven; Jahresergebnis Saldoliste = Jahresrechnung; Vorjahr = Vorjahresakte. " + pend + "\n")
+    elif code == "T1" or ohne_konten:
+        konten_txt = ("3. Abschnitt 2 nennt keine eigenen Konten (" + ("T1: Anhang" if code == "T1" else "«Konten nicht erkannt»") + "): " + ohne_txt)
+    else:
+        konten_txt = ("3. Kontenübersicht ausgeben: Tabelle Konto | Bezeichnung | Saldo GJ | Saldo VJ | Δ | Quelle (Datei:Zeile) – nur Werte aus "
+                      "dem Arbeitspaket" + ("" if ohne_konten is False else
+                                             "; nennt Abschnitt 2 keine Konten («Konten nicht erkannt»): keine Kontenübersicht, nie Konten "
+                                             "erfinden – dann Zeilen der Jahresrechnung/Anhang (Abschnitt 4) und Fundstellen (Abschnitt 6) "
+                                             "mit Datei:Zeile ausgeben") + ".\n"
+                      "4. Mit `rechne` abstimmen (Grundlage für die Befragungen und die Analytik 2xx): Summe je Gruppe = Total der Jahresrechnung; "
+                      "Schlusssaldo Kontoblatt = Saldoliste; Saldo VJ = Vorjahresakte; Vorjahresvergleich (Δ absolut und in %). " + pend + "\n")
     _plan_turn(turns, f"{code} {cut(name, 50)} – Belege und Konten",
                f"Prüffeld {code} {name}{' (Schritt ' + nur + ')' if nur else ''}. Dieser Turn: Belege lesen und Konten abstimmen – noch keine "
-               f"Prüfschritte bearbeiten.\n1. `{a_call}` aufrufen (Regeln, Rollen, Statustabelle, Risiken).\n"
-               f"2. Arbeitspaket lesen – {teile_txt}. Jeden Teil ganz lesen.\n"
-               "3. Kontenübersicht ausgeben: Tabelle Konto | Bezeichnung | Saldo GJ | Saldo VJ | Δ | Quelle (Datei:Zeile) – nur Werte aus dem Arbeitspaket.\n"
-               "4. Mit `rechne` abstimmen (Grundlage für die Befragungen und die Analytik 2xx): Summe je Gruppe = Total der Jahresrechnung; "
-               "Schlusssaldo Kontoblatt = Saldoliste; Saldo VJ = Vorjahresakte; Vorjahresvergleich (Δ absolut und in %). Jede Differenz ≠ 0 als "
-               "Notiz-Entwurf «Pendenz» (Konto, beide Beträge, Differenz, Quellen).\n"
+               f"Prüfschritte bearbeiten. {PLAN_SCHREIBWEISE}\n1. `{a_call}` aufrufen (Regeln, Rollen, Statustabelle, Risiken).\n"
+               f"2. Arbeitspaket lesen – {teile_txt}. Jeden Teil ganz lesen.\n" + konten_txt +
                "5. Belegliste ausgeben: je Datei aus dem Arbeitspaket wofür sie dient; Hinweise der Vorjahresakte («Folgejahr», Pendenzen, "
-               f"Feststellungen) übernehmen. Fehlt ein Beleg: `{akv} --suche \"<Begriff>\"`, erst dann «nicht gefunden (gesucht: …)».\n"
-               + PLAN_GRENZE, [a_call] + ap_calls + ["rechne"], [])
+               "Feststellungen) als Hinweis übernehmen – Ergebnisse des Vorjahres nie als Ergebnis des Geschäftsjahres. Fehlt ein Beleg: "
+               f"`{akv} --suche \"<Begriff>\"`, erst dann «nicht gefunden (gesucht: …)».\n" + PLAN_GRENZE, [a_call] + ap_calls + ["rechne"], [])
+    nochmal = (f"fehlt dir das Arbeitspaket im Kontext (z.B. nach einer Zusammenfassung der Sitzung): `{ap} --teil N` (N = 1 … "
+               f"{n or 'Anzahl im Kopf'}) erneut lesen; " if ap else "")
     teile = _plan_teile(folge)
     for j, grp in enumerate(teile, 1):
         ids = [s["id"] for s in grp]
@@ -5103,17 +6696,19 @@ def _plan_pf(turns: list, code: str, gj: str, vj: str | None, ok: bool, nur: str
         for s in grp:
             d = det.get(s["id"]) or {}
             was = d.get("rechnen") or ""
-            zeilen.append(f"- {s['id']} ({PLAN_ROLLE[art_of(s)[0]]}) {cut(ktext(s), 90)}" + (f" · rechnen: {cut(was, 160)}" if was else ""))
+            zeilen.append(f"- {s['id']} ({PLAN_ROLLE[art_of(s)[0]]}) {cut_code(ktext(s), 90)}" + (f" · rechnen: {cut_code(was, 160)}" if was else ""))
         befr = [s["id"] for s in grp if art_of(s)[0] == "teilweise"]
         _plan_turn(turns, f"{code} – Schritte {j}/{len(teile)}: {', '.join(ids)}",
                    f"Prüffeld {code} {name}: bearbeite jetzt GENAU diese Schritte, einzeln und in dieser Reihenfolge:\n" + "\n".join(zeilen) +
                    "\nJe Schritt: 1. `pruefschritt <id>` aufrufen und ganz lesen (Vorgehen, Rechnen, Nachweise, Feststellung wenn). "
-                   "2. Belege aus dem Arbeitspaket verwenden, Quelle immer Datei:Zeile; fehlt ein Beleg: "
-                   f"`{akv} --suche \"<Begriff>\"` (GJ und VJ) bzw. Belege nur zu diesem Schritt: `arbeitspaket {_q(gj)} --schritt <id>{vjo}`. "
-                   "3. Jede Zahl und Differenz mit `rechne` (bzw. dem Rechner laut Karte). "
+                   f"2. Belege aus dem Arbeitspaket verwenden, Quelle immer Datei:Zeile; {nochmal}fehlt ein Beleg: "
+                   f"`{akv} --suche \"<Begriff>\"` (GJ und VJ)"
+                   + (f"; Fundorte der Nachweise eines Schritts: `arbeitspaket {_q(gj)} --schritt <id>{vjo}` – nur Teil 1 lesen (Schrittkarte "
+                      "mit Fundorten; die übrigen Abschnitte kennst du schon)" if gj else "") + ". "
+                   "3. Jede Zahl und Differenz mit `rechne` (bzw. dem Rechner laut Karte); stimmt sie: «Differenz 0 (rechne)». "
                    "4. Ausgabe je Schritt: «### <id> – <Titel>», Textfeld-Entwurf (Prüfziel, Quellen, Vorgehen/Umfang, Ergebnis mit Zahlen), "
                    "Notiz-Entwürfe mit Kategorie (möglicher Fehler ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag "
-                   f"Soll/Haben/Betrag; fehlt/ungeklärt → «Pendenz»; Gesprächspunkt → «Schlussbesprechung»), Status: {st}.\n"
+                   f"Soll/Haben/Betrag; fehlt/ungeklärt → «Pendenz»; Gesprächspunkt → «Schlussbesprechung»), Status: {st}.\n{PLAN_STATUS}\n"
                    + (f"Befragung ({', '.join(befr)}): nie selbst fragen – schriftliche Antworten (10.11, Protokolle) auswerten, sonst Pendenz "
                       "«Frage an Kunde»; Status höchstens «teilweise bearbeitet».\n" if befr else "") + PLAN_GRENZE,
                    [f"pruefschritt {i}" for i in ids] + ["rechne"], ids)
@@ -5126,9 +6721,10 @@ def _plan_pf(turns: list, code: str, gj: str, vj: str | None, ok: bool, nur: str
                                                                 f"WP-Schritte (Beurteilung beim WP): {', '.join(wp)}" if wp else "") if x) + ".\n"
                    f"1. Ein Aufruf: {_sammel_aufruf(ids)}.\n"
                    "2. Kein Textfeld ohne ausdrückliche Anweisung des WP; vorhandene Unterlagen aus dem Arbeitspaket trotzdem auswerten → "
-                   "Notiz-Entwürfe (Pendenz / Wesentliche Feststellungen mit Buchungsvorschlag / Schlussbesprechung) mit Datei:Zeile und `rechne`.\n"
-                   "3. Status je Id: 4xx → «nicht bearbeitet – nur auf Anweisung», WP-Schritt → «nicht bearbeitet – WP-Schritt» "
-                   "(plus Verweis auf die Notiz-Entwürfe).\n" + PLAN_GRENZE,
+                   "Notiz-Entwürfe (Pendenz / Wesentliche Feststellungen mit Buchungsvorschlag / Schlussbesprechung) mit Datei:Zeile und `rechne`"
+                   + (f" ({nochmal.rstrip('; ')})" if nochmal else "") + ".\n"
+                   "3. Status je Id: 4xx → «nicht bearbeitet – nur auf Anweisung»; WP-Schritt → den Status-Text der Karte übernehmen (z.B. "
+                   "Kennzeichnung «?»), sonst «nicht bearbeitet – WP-Schritt» (plus Verweis auf die Notiz-Entwürfe).\n" + PLAN_GRENZE,
                    [_sammel_aufruf(ids).strip("`")], ids)
     return [x["id"] for x in folge + rest]
 
@@ -5141,62 +6737,60 @@ def plan(text: str, akte: str | None = None, vj: str | None = None) -> str:
     text = str(text)
     m = list(re.finditer(r"(?i)\bauftrag\s*:", text))
     auftrag = text[m[-1].end():].strip() if m else text.strip()
-    # Routing ohne Pfadangaben («Akte: <pfad>», «Vorjahresakte: <pfad>») – sonst zählt das Wort «Akte» für die Aufgabe pdf-akte
-    pfad_rx = r"(?:~|\.{1,2})?/?[\w.-]+(?:/[\w.-]+)+/?"
-    route = re.sub(r"(?i)\b(?:vorjahres)?akten?\s*:?\s*(?=" + pfad_rx + r")|\b(?:vorjahr|vj|gj)\s*:?\s*(?=" + pfad_rx + r")|" + pfad_rx,
-                   lambda m_: m_.group(0) if re.fullmatch(r"[A-Za-z]{1,4}\d(?:/[A-Za-z]{1,4}\d)+", m_.group(0)) else " ", auftrag)
-    route = re.sub(r"\s+", " ", route).strip(" .,;:") or auftrag
+    gj, vjp, ok = _plan_pfade(text, akte, vj)
+    route = _plan_route(auftrag, gj, vjp)
     a, par = _aufgabe_finden(route)
     if not a:
         a, par = _aufgabe_finden(text)
-    gj, vjp, ok = _plan_pfade(text, akte, vj)
-    gj_txt, vj_txt = (gj or "<pfad>"), (vjp or "<vj-pfad>")
-    pfade = lambda t: t.replace("<pfad>", _q(gj_txt)).replace("<vj-pfad>", _q(vj_txt))  # noqa: E731
     turns, codes, ids, sid = [], [], [], None
     st = _status_woerter()
     if a and a["id"] == "pruefschritt" and par:
         sid = par
         codes = [L()["katalog"]["schritte"][sid]["prueffeld"]]
-        ids = _plan_pf(turns, codes[0], gj_txt, vjp, ok, nur=sid)
+        ids = _plan_pf(turns, codes[0], gj, vjp, ok, nur=sid)
         fw = f"Schritt {sid} hat einen Status und alle Notiz-Entwürfe stehen."
     elif a and a["id"] == "prueffeld":
-        codes = pf_alle_aus_text(route) or ([par] if par else [])
+        codes = pf_alle_aus_text(route) or pf_alle_aus_text(auftrag) or ([par] if par else [])
         if par and par not in codes:
             codes = [par] + codes
         if not codes:
             raise ValueError("Prüffeld im Auftrag nicht erkannt – Code nennen (z.B. «Prüffeld C1 vorbereiten»).")
         for c in codes:
-            ids += _plan_pf(turns, c, gj_txt, vjp, ok)
+            ids += _plan_pf(turns, c, gj, vjp, ok)
         fw = re.split(r"\s*Danach\b", a.get("fertig_wenn", ""))[0]   # nächste Aufgabe steuert der Orchestrator
     elif a and a["id"] != "fachfrage":
         punkte = a.get("checkliste") or []
         grp = _plan_teile(list(enumerate(punkte, 1)))
         frage = bool(FRAGE.search(route)) or route.rstrip().endswith("?")
-        a_call = f"aufgabe \"{cut(route, 300)}\"" if frage else f"aufgabe {a['id']}"   # Frage: `aufgabe` liefert zusätzlich den Fachkontext
+        # Frage: `aufgabe` mit dem ganzen Auftrag (samt Pfad; liefert zusätzlich den Fachkontext), sonst mit der Id der Aufgabe
+        a_call = f"aufgabe \"{cut_code(auftrag, 300).replace(chr(34), chr(39))}\"" if frage else f"aufgabe \"{a['id']}\""
+        such = f"`akte {_q(gj)}{' --vj ' + _q(vjp) if vjp else ''} --suche \"<Begriff>\"`" if gj else None
         for j, g in enumerate(grp, 1):
             zeilen, calls = [], ([a_call] if j == 1 else [])
             for i, p in g:
-                call = pfade(p.get("aufruf", ""))
-                zeilen.append(f"{i}. {cut(pfade(p['text']), PLAN_PUNKT_MAX)}" + (f" → `{call}`" if call else ""))
+                call, hinweis = _plan_checkaufruf(p.get("aufruf", ""), gj, vjp)
+                zeilen.append(f"{i}. {cut_code(_plan_ersetze(p['text'], gj, vjp), PLAN_PUNKT_MAX)}" + (f" → `{call}`" if call else "")
+                              + (f" → {hinweis}" if hinweis else ""))
                 if call:
                     calls.append(call)
             _plan_turn(turns, f"{cut(a['titel'], 60)} – Punkte {g[0][0]}–{g[-1][0]}",
-                       (f"Aufgabe «{a['titel']}». Zuerst `{a_call}` aufrufen (Ziel, Regeln, ganze Checkliste"
+                       (f"Aufgabe «{a['titel']}». {PLAN_SCHREIBWEISE} Zuerst `{a_call}` aufrufen (Ziel, Regeln, ganze Checkliste"
                         + ("; zur Frage: Fachkontext mit Fundstellen" if frage else "") + "). " if j == 1 else
-                        f"Aufgabe «{a['titel']}» – weiter mit den nächsten Punkten der Checkliste (`aufgabe {a['id']}`). ")
-                       + (f"Akte: GJ `{gj_txt}`, VJ `{vj_txt}`. " if gj else "")
+                        f"Aufgabe «{a['titel']}» – weiter mit den nächsten Punkten der Checkliste (`aufgabe \"{a['id']}\"`). ")
+                       + (f"Akte: GJ `{gj}`, " + (f"VJ `{vjp}`. " if vjp else "VJ nicht genannt (Hinweise des Vorjahres → Pendenz). ") if gj else
+                          "Akte nicht genannt → Pfad beim WP erfragen (Pendenz «Akte fehlt»); keine Zahlen erfinden. ")
                        + "Bearbeite jetzt GENAU diese Punkte, der Reihe nach:\n" + "\n".join(zeilen) +
-                       "\nAusgabe je Punkt: «### Punkt <Nr>» – Ergebnis mit Quelle (Datei:Zeile bzw. revio-Werkzeug), jede Zahl mit `rechne`, "
-                       f"offene Punkte als Notiz-Entwurf «Pendenz» (was fehlt, wo gesucht). Fehlt eine Unterlage: `akte {_q(gj_txt)} --vj {_q(vj_txt)} "
-                       "--suche \"<Begriff>\"`, erst dann «nicht gefunden (gesucht: …)».\n" + PLAN_GRENZE,
+                       "\nAusgabe je Punkt: «### Punkt <Nr>» – Ergebnis mit Quelle (Datei:Zeile bzw. revio-Werkzeug), jede Zahl mit `rechne` "
+                       "(stimmt sie: «Differenz 0 (rechne)»), offene Punkte als Notiz-Entwurf «Pendenz» (was fehlt, wo gesucht)."
+                       + (f" Fehlt eine Unterlage: {such}, erst dann «nicht gefunden (gesucht: …)»." if such else "") + "\n" + PLAN_GRENZE,
                        calls, [])
         fw = a.get("fertig_wenn", "")
     else:   # Fachfrage oder nicht zuordenbar: ein Turn mit `aufgabe`, dann Abschluss
-        q = cut(auftrag, 300).replace('"', "'")
+        q = cut_code(auftrag, 300).replace('"', "'")
         _plan_turn(turns, "Frage beantworten",
-                   f"Rufe `aufgabe \"{q}\"` auf und beantworte die Frage danach: Ergebnis zuerst, jede Aussage mit ihrer Fundstelle ^[chunk-id], "
-                   "jede Zahl mit `rechne`, was der WP entscheidet. Mandatsdaten nur aus der Akte (`akte … --suche`).\n" + PLAN_GRENZE,
-                   [f"aufgabe \"{q}\""], [])
+                   f"{PLAN_SCHREIBWEISE} Rufe `aufgabe \"{q}\"` auf und beantworte die Frage danach: Ergebnis zuerst, jede Aussage mit ihrer "
+                   "Fundstelle ^[chunk-id], jede Zahl mit `rechne`, was der WP entscheidet. Mandatsdaten nur aus der Akte (`akte … --suche`).\n"
+                   + PLAN_GRENZE, [f"aufgabe \"{q}\""], [])
         fw = "Frage mit Fundstellen beantwortet; offene Punkte als Pendenz."
     if codes:
         kat = L()["katalog"]["schritte"]
@@ -5209,16 +6803,17 @@ def plan(text: str, akte: str | None = None, vj: str | None = None) -> str:
                    "2. Alle Notiz-Entwürfe nach Kategorie: «Wesentliche Feststellungen» (Schritt, Konto, Betrag, Buchungsvorschlag Soll/Haben/Betrag – "
                    "keine Buchung) · «Pendenz» (fehlende Unterlagen als «PBC-Vorschlag: <Unterlage> (<Schritt>)», Fragen an den Kunden) · "
                    "«Schlussbesprechung».\n3. Offene Punkte und Entscheide für den WP (kurz).\n"
-                   f"Fertig, wenn: {cut(fw, 500)}\n" + PLAN_GRENZE, [], ids)
+                   f"Fertig, wenn: {cut_code(_plan_ersetze(fw, gj, vjp), 500)}\n" + PLAN_GRENZE, [], ids)
     else:
         _plan_turn(turns, "Abschluss – Ergebnis, Pendenzen, Fertig-wenn",
                    "Fasse die Ergebnisse aller bisherigen Turns zusammen – nichts Neues erfinden, neue Zahlen nur mit `rechne`: 1. Ergebnis je "
-                   "Checklisten-Punkt (erledigt / offen – Grund) mit Quelle. 2. Alle Notiz-Entwürfe nach Kategorie (Pendenz, Wesentliche "
-                   "Feststellungen mit Buchungsvorschlag, Schlussbesprechung). 3. Entscheide für den WP.\n"
-                   f"Fertig, wenn: {cut(pfade(fw), 500)} Fehlt etwas davon: jetzt nachholen oder als Pendenz mit Grund.\n" + PLAN_GRENZE, [], [])
+                   "Checklisten-Punkt (bearbeitet / offen – Grund) mit Quelle. 2. Alle Notiz-Entwürfe nach Kategorie (Pendenz, Wesentliche "
+                   "Feststellungen mit Buchungsvorschlag, Schlussbesprechung). 3. Entscheide und Hinweise für den WP (als Notiz-Entwurf, nichts "
+                   f"senden).\nFertig, wenn: {cut_code(_plan_ersetze(fw, gj, vjp), 500)} Fehlt etwas davon: jetzt nachholen oder als Pendenz mit "
+                   "Grund.\n" + PLAN_GRENZE, [], [])
     out = {"warnung": _drift() or None, "aufgabe": a["id"] if a else None, "titel": (a.get("titel") or f"Prüfschritt {sid}") if a else None, "auftrag": cut(auftrag, 500),
            "akte": {"gj": gj, "vj": vjp, "lesbar": ok}, "prueffelder": codes, "turns": turns,
-           "abschluss": {"turn": len(turns), "fertig_wenn": cut(pfade(fw), 600), "schritte": ids},
+           "abschluss": {"turn": len(turns), "fertig_wenn": cut_code(_plan_ersetze(fw, gj, vjp), 600), "schritte": ids},
            "hinweis": "Turn 1 zusammen mit Vorspann und Auftrag senden, danach je Turn nur die Anweisung in derselben Session. "
                       "Fertig erst nach dem Abschluss-Turn (Statustabelle mit allen Ids)."}
     return json.dumps(out, ensure_ascii=False, indent=1)
@@ -5523,10 +7118,14 @@ def main(argv=None):
     x.add_argument("--n", type=int, default=40, help="höchstens n Treffer (Standard 40)")
     x = sub.add_parser("arbeitspaket", help="Belegpaket je Prüffeld oder Schritt (Konten, Kontoblätter, Jahresrechnung, Dateien, Fundstellen, "
                                             "Vorjahr, Schritte) in Teilen ≤ 24 KB – nur lesen",
-                       description="Stellt die Belegstellen eines Prüffelds deterministisch zusammen: 1 Kopf mit Arbeitsregeln, 2 Konten der Saldoliste "
-                                   "(GJ, VJ, Δ, Saldo der Vorjahresakte), 3 Kontoblätter (auch Folgejahr), 4 Jahresrechnung (Zeilen, Zwischentotale, "
-                                   "Anhang), 5 Dateien des Prüffelds, 6 weitere Fundstellen, 7 Vorjahresakte, 8 Schritte. Teile ≤ 24 KB (`--teil N`; "
-                                   "der Kopf nennt die Anzahl). Pfade wie bei `akte`. Speichert nichts.")
+                       description="Stellt die Belegstellen eines Prüffelds deterministisch zusammen: 1 Kopf mit Arbeitsregeln, 2 Konten der "
+                                   "Saldoliste (GJ, VJ, Δ, Saldo der Vorjahresakte) und Gegenkonten (P1: alle Bilanzkonten), 3 Kontoblätter (auch "
+                                   "Folgejahr; Sammelbuchungen bei Platzmangel zusammengefasst) und Gegenbuchungen in anderen Konten (A1: Abschluss-/"
+                                   "Umbuchungen aller Konten), 4 Jahresrechnung (Zeilen, Salden, Gegenkonten, Zwischentotale, Eckwerte, Anhang, "
+                                   "Datum), 5 Dateien des Prüffelds und Unterlagen laut Prüfprogramm aus anderen Ordnern, 6 Querverweise (gleiche "
+                                   "Belegnummer/gleicher Betrag) und weitere Fundstellen, 7 Vorjahresakte (Zusammenfassung, Prüfprogramm, Treffer, "
+                                   "Dateien, Unterlagen), 8 Schritte. Teile ≤ 24 KB, höchstens 3 (`--teil N`; der Kopf nennt die Anzahl). Pfade wie "
+                                   "bei `akte`. Speichert nichts.")
     x.add_argument("pfad", help="Ordner der Akte (Geschäftsjahr), Pfad wie im Auftrag genannt")
     x.add_argument("--pf", nargs="+", help="Prüffeld-Code(s), z.B. C1 oder L1,N1")
     x.add_argument("--vj", help="Ordner der Vorjahresakte (Saldo VJ-Akte, Folgejahr-Hinweise, Pendenzen, Feststellungen)")

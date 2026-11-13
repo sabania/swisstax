@@ -3,7 +3,7 @@
 
   python3 revision/tools/build_plugin.py [--out plugins/revisionswiki] [--version 1.0.0] [--tgz]
 
-Inhalt: Skills (revision, revision-pruefschritt, revision-mandat), MCP-Server mit 15 Tools (tools/revision.py),
+Inhalt: Skills (revision, revision-pruefschritt, revision-mandat), MCP-Server mit 19 Tools (tools/revision.py),
 Wissen (index/lookup.json, index/fts.sqlite mit allen Chunks), quick/ und wiki/ (für `zeige`), Einstieg für AGENTS.md/CLAUDE.md,
 Vorschlag Werkzeugrechte revio-MCP (openclaw/revio-tool-policy.json).
 Nicht enthalten: raw/ (Originale), sources/, chunks/ als Einzeldateien, data/, Testdaten, Pflege-Tools.
@@ -62,8 +62,12 @@ Wissensbasis für den KI-Revisionsagenten (consis): eingeschränkte Revision nac
 538 Prüfschritte); Zuordnung zum revio-MCP. Der Agent **bereitet vor** – Visum, Abschluss, Freigabe, Bericht bleiben beim WP.
 
 - **Skills:** {', '.join(SKILLS)}
-- **Tools** (MCP-Server `revisionswiki`): aufgabe, akte, pruefschritt, prueffeld, prozess, regeln, revio, wert, rechne, wesentlichkeit,
-  kapitalverlust, revisionspflicht, unterlagen, fragen, thema, suche, zeige
+- **Tools** (MCP-Server `revisionswiki`): aufgabe, arbeitspaket, akte, plan, pruefschritt, prueffeld, prozess, regeln, revio, wert, rechne,
+  wesentlichkeit, kapitalverlust, revisionspflicht, unterlagen, fragen, thema, suche, zeige
+- **Schwache Modelle:** Prüffeld-Arbeit beginnt mit `arbeitspaket` (Belegpaket, alle Teile lesen); ein Orchestrator ruft
+  `plan "<Auftrag>"` auf und gibt je Turn eine Anweisung in derselben Session, bei vollem Kontext eine neue Sitzung mit Übergabe
+  (KONZEPT.md Abschnitt 3b; Test: eval/orchestrator_openclaw.py im Repository – bricht ab, wenn tools/ im installierten Plugin vom
+  Repository abweicht). Relative Aktenpfade löst das installierte Werkzeug gegen die Workspaces des eigenen OpenClaw-Profils auf.
 - **Wissen:** index/lookup.json (Katalog, Prüffeld-Wissen, Prozess, Werte, Regeln, revio-Zuordnung), index/fts.sqlite (Volltext
   aller Quellen-Chunks), quick/ und wiki/ (Seiten für `zeige`).
 - **revio-Rechte:** `revio-tool-policy.json` (Vorschlag allow/deny je revio-MCP-Werkzeug; `revio_call` sperren).
