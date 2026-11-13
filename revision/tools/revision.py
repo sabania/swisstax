@@ -2621,6 +2621,9 @@ def _aufgabe_finden(text: str):
     # Allgemeine Wissensfrage («Was heisst …», «Ab welchen Schwellenwerten …», «Wie sind … auszuweisen?», «nach Art. 727 OR») ohne Bezug
     # auf das Mandat («wir», «die Gesellschaft», «dieses Jahr») → Fachfrage, auch wenn ein Aufgaben-Stichwort vorkommt.
     mandat = bool(MANDAT.search(t))
+    # Ausführliche Fall- oder Wissensfrage (Sachverhalt + Frage) → Fachfrage mit Fachkontext; Fragen zu revio-Werkzeugen bleiben bei der
+    # Prozess-Aufgabe (dort stehen die Werkzeugketten mit Namen).
+    lang = frage and len(toks(t)) >= 15 and not re.search(r"\brevio|\bmcp\b|werkzeug|\brv_|\bdossier", key(t))
     wissen = frage and bool(WISSEN.search(t)) and not mandat
     qt = toks(t)
     kt = " " + " ".join(qt) + " "
@@ -2643,8 +2646,8 @@ def _aufgabe_finden(text: str):
                         sc += 1
                     elif len(kx) >= 8 and len(w) > len(kx) and w.endswith(kx):   # Kompositum: Gesamtwesentlichkeit ~ Wesentlichkeit
                         sc += 1
-        if a["id"] == "fachfrage" and frage and not mandat:
-            sc += 1.5 + (3 if wissen else 0)
+        if a["id"] == "fachfrage" and frage and (not mandat or lang):
+            sc += 1.5 + (3 if wissen or lang else 0)
         scores.append((sc, -i, a))
     scores.sort(key=lambda x: (x[0], x[1]), reverse=True)
     bs, _, best = scores[0] if scores else (0, 0, None)
@@ -2772,8 +2775,9 @@ def _kette_kurz(kid: str, gezeigt: set | None = None, text: str = "") -> list[st
                 for i, s in enumerate(sch) if s.get("art") == art and not s.get("optional") and s["werkzeug"] != "revio_call"]
         return list(dict.fromkeys(w for *_, w in sorted(kand)))[:n]
     wl, wv = wahl("lesen", 2), wahl("vorbereiten", 2)
-    namen = (" · lesen " + ", ".join(f"`{w}`" for w in wl) if wl else "") + (" · schreibt " + ", ".join(f"`{w}`" for w in wv) if wv else "")
-    return [f"   = {k['id']}: " + ", ".join(teile) + (f"; ⛔ nicht aufrufen: {' + '.join(sperre)}" if sperre else "") + namen]
+    erlaubt = (("lesen: " + ", ".join(f"`{w}`" for w in wl)) if wl else "") + (("; schreiben (Freigabe): " + ", ".join(f"`{w}`" for w in wv)) if wv else "")
+    return [f"   = {k['id']} – erlaubt {erlaubt or ', '.join(teile)} ({', '.join(teile)})"
+            + (f" · ⛔ gesperrt in dieser Kette: {' + '.join(sperre)} (Namen: `revio {k['id']}`)" if sperre else "")]
 
 
 HILFSAUFGABEN = ("notiz", "kapitalschutz", "vorjahresabstimmung", "delkredere", "sachanlagen")
@@ -3001,6 +3005,10 @@ def aufgabe(text: str | None = None) -> str:
             out.append(f"**Nächste Aufgabe:** `aufgabe {n0}`" + (" (danach: " + ", ".join(f"`aufgabe {n}`" for n in rest) + ")" if rest else ""))
     elif a["id"] in HILFSAUFGABEN:
         out.append("**Danach:** zurück zum nächsten offenen Punkt der Checkliste, aus der du gekommen bist (sonst `aufgabe` ohne Text).")
+    frage = bool(FRAGE.search(text)) or text.rstrip().endswith("?")
+    if frage and a["id"] not in ("prueffeld",) and not (BITTE.search(key(text)) and AUFTRAGSVERB.search(key(text))):
+        # Frage, die bei einer Prozess-Aufgabe gelandet ist: zusätzlich der Fachkontext (Themen, Werte, Regeln, Fundstellen)
+        out += ["", "## Antwort auf die Frage (Fachkontext – Ergebnis zuerst, je Aussage mit ^[chunk-id])", _fachkontext(text)]
     return "\n".join(out)
 
 
@@ -3994,7 +4002,7 @@ def _aussage(a: dict, voll: bool) -> str:
     Zahlenaufzählung); Unterpunkte eingerückt."""
     text = str(a.get("text") or "").strip()
     zeilen = [z.rstrip() for z in text.split("\n") if z.strip()]
-    if voll or (ZAHL_RX.search(text) and len(text) <= 700):
+    if voll or ((ZAHL_RX.search(text) or AUFZ_RX.search(text)) and len(text) <= 900):
         body = "\n  ".join(zeilen)
     elif ZAHL_RX.search(text) and len(zeilen) == 1:   # lange Zahlenregel: erster Satz + alle Sätze mit Zahlen (Rest «…»)
         st = saetze(text)
@@ -4008,6 +4016,8 @@ def _aussage(a: dict, voll: bool) -> str:
     return f"- {body}{_refs(a, body)}"
 
 
+AUFZ_RX = re.compile(r"\(\s*[a-h]\s*\)|\b[a-h]\)\s|kumulativ|folgende[nr]? (bedingungen|voraussetzungen|punkte|angaben)|"
+                     r"(alle|drei|vier|fünf) (bedingungen|voraussetzungen)|\bsowohl\b.*\bals auch\b", re.I)
 THEMA_KOMPAKT_MAX = 11_800   # Bytes: Kompaktform bleibt unter 12 KB (Agent-Teil immer ganz, Fundstellen bis zum Budget)
 AGENT_KURZ = 280             # Zeichen je Agent-Punkt in der Kompaktform (erster Satz; Rest mit --voll)
 
