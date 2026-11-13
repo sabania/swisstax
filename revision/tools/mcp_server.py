@@ -48,7 +48,8 @@ TOOLS = [
                     "(mandat-start, import, prueffeld, unterlagen, rapport, gvb-bericht, pdf-akte, notiz, wesentlichkeit, kapitalschutz, "
                     "vorjahresabstimmung, delkredere, sachanlagen, abschluss, auftrag, fachfrage) oder direkt ein Prüffeld (C1; mehrere: "
                     "«D1 und H3», «L1/N1») bzw. einen Prüfschritt (C1-302). Mehrere Prüffelder: alle Bündel nacheinander + eine Statustabelle. "
-                    "Ohne Eingabe: Liste aller Aufgaben. Bei Prüffeld-Aufträgen danach `akte` (Mandantenordner erschliessen).",
+                    "Ohne Eingabe: Liste aller Aufgaben. Bei Prüffeld-Aufträgen danach `arbeitspaket` (alle Belege des Prüffelds, alle "
+                    "Teile lesen), dann gezielt `akte`.",
      "inputSchema": obj({"aufgabe": {**S, "description": "z.B. «Prüffeld C1 vorbereiten», «Rapport schreiben», «kapitalschutz», «C1-302»"}}, [])},
     {"name": "pruefschritt", "fn": lambda a: rv.pruefschritt(a["id"]),
      "description": "Ein Prüfschritt des revio-4.0-Katalogs (z.B. C1-302): Katalogtext, Typ, EP/WP, Prüfziele, Rolle des Agenten (vorbereiten / "
@@ -193,6 +194,32 @@ TOOLS = [
                          "abschnitt": {**S, "description": "Datei, aus der ein Abschnitt gelesen wird (mit ueberschrift)"},
                          "ueberschrift": {**S, "description": "Überschrift oder Ziffer, z.B. «Anhang», «6», «5.8»"},
                          "n": {"type": "integer", "description": "höchstens n Treffer (Standard 40)"}}, ["pfad"])},
+    {"name": "arbeitspaket", "fn": lambda a: rv.arbeitspaket(a["pfad"], ",".join(a["pf"]) if isinstance(a.get("pf"), list) else a.get("pf"),
+                                                             a.get("vj"), a.get("schritt"), ganz(a.get("teil"), "teil", 1)),
+     "description": "BEI PRÜFFELD-ARBEIT ZUERST (nach `aufgabe`): stellt alle Belegstellen eines Prüffelds aus der Mandantenakte zusammen – "
+                    "NUR LESEN, nichts wird gespeichert. Inhalt: Arbeitsregeln · Konten des Prüffelds aus der Saldoliste (Saldo GJ, VJ, Δ, "
+                    "Saldo der Vorjahresakte, Summen je Gruppe) · Kontoblätter dieser Konten (Abschluss-/Umbuchungen immer, auch "
+                    "Folgejahr) · Zeilen der Jahresrechnung mit Zwischentotalen und passende Anhang-Abschnitte · Dateien des Prüffelds "
+                    "(klein ganz, gross als Auszug) · weitere Fundstellen in anderen Ordnern · Vorjahresakte (Folgejahr-Hinweise, Pendenzen, "
+                    "Feststellungen) · Schritte mit «was rechnen». Teile ≤ 24 KB: der Kopf nennt die Anzahl – ALLE Teile lesen (teil = 2, 3 …). "
+                    "pf = Code (C1) oder mehrere (L1,N1); schritt = Id (C1-302) für das Paket eines Schritts (Nachweise → Fundorte zuerst). "
+                    "Pfade wie bei `akte` (wie im Auftrag genannt).",
+     "inputSchema": obj({"pfad": {**S, "description": "Ordner der Akte (Geschäftsjahr), Pfad wie im Auftrag genannt"},
+                         "pf": {**S, "description": "Prüffeld-Code, z.B. C1; mehrere mit Komma: L1,N1"},
+                         "vj": {**S, "description": "Ordner der Vorjahresakte (Saldo VJ-Akte, Hinweise Folgejahr, Pendenzen, Feststellungen)"},
+                         "schritt": {**S, "description": "Prüfschritt-Id, z.B. C1-302 (statt pf): Paket für diesen Schritt"},
+                         "teil": {"type": ["integer", "string"], "description": "Teil N (Standard 1; Anzahl steht im Kopf)"}}, ["pfad"])},
+    {"name": "plan", "fn": lambda a: rv.plan(a["auftrag"], a.get("akte"), a.get("vj")),
+     "description": "Für einen Orchestrator (schwache Modelle): zerlegt einen Auftrag deterministisch in kleine Turns und gibt JSON zurück: "
+                    "{aufgabe, titel, auftrag, akte, prueffelder, turns: [{nr, titel, anweisung, aufrufe, schritte}], abschluss}. Prüffeld: "
+                    "Turn «Belege und Konten» (aufgabe + arbeitspaket, alle Teile) → je 3–4 vorbereitbare Schritte ein Turn (Reihenfolge der "
+                    "Checkliste) → 4xx/WP gesammelt → Abschluss-Turn mit Statustabelle aller Ids, Notizen, Pendenzen. Andere Aufgaben "
+                    "(mandat-start, import, unterlagen, rapport …): Checklistenpunkte je 3–4 → Abschluss mit «Fertig, wenn». Jede "
+                    "anweisung ist vollständig (was aufrufen, rechnen, ausgeben; Statuswörter; kein ✓, nichts senden). Der Orchestrator "
+                    "sendet Turn 1 mit Vorspann und Auftrag, danach je Turn nur die anweisung in derselben Session.",
+     "inputSchema": obj({"auftrag": {**S, "description": "Auftrag (auch mit Vorspann; geroutet wird der Text nach dem letzten «Auftrag:»)"},
+                         "akte": {**S, "description": "Ordner der Akte (sonst aus dem Auftrag)"},
+                         "vj": {**S, "description": "Ordner der Vorjahresakte (sonst aus dem Auftrag)"}}, ["auftrag"])},
     {"name": "zeige", "fn": lambda a: rv.zeige(a["ref"], a.get("abschnitt")),
      "description": "Wortlaut eines Chunks (Id wie ser-2022__anh-d-s075-1, hwp-er-2026__rz-0113-s060, or__art-725a) oder einer Seite (quick/…md, wiki/…md).",
      "inputSchema": obj({"ref": S, "abschnitt": S}, ["ref"])},
@@ -221,8 +248,9 @@ def main():
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "revisionswiki", "version": "1.0.0"},
                 "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0). IMMER ZUERST `aufgabe` mit der Aufgabe oder Frage in eigenen "
-                                "Worten – die Antwort nennt die nächsten Aufrufe (akte, pruefschritt, revio, rechne …). Mandantenakte mit `akte` "
-                                "erschliessen (grosse Dateien abschnittweise; «fehlt» erst nach `akte … suche`). Agent bereitet nur vor: nie Visum, ✓, "
+                                "Worten – die Antwort nennt die nächsten Aufrufe (arbeitspaket, akte, pruefschritt, revio, rechne …). Prüffeld-Arbeit: "
+                                "zuerst `arbeitspaket` (alle Teile lesen), dann gezielt `akte` (grosse Dateien abschnittweise; «fehlt» erst nach "
+                                "`akte … suche`). Für einen Orchestrator: `plan` (Turns als JSON). Agent bereitet nur vor: nie Visum, ✓, "
                                 "Abschluss/Status, Freigabe, Buchung, Unterzeichnung, Kundenversand; keine Nachrichten-, Mail- oder Web-Werkzeuge. "
                                 "revio-Werkzeuge mit ⛔ (deny) nie aufrufen, auch nicht über revio_call."}})
         elif meth == "tools/list":

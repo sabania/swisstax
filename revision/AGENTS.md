@@ -32,14 +32,17 @@ revio ist proprietär – nicht weitergeben. Diese Datei ist das Regelwerk für 
 | Daten | `data/katalog.yaml` (538 Schritte), `data/prueffelder/<code>.yaml`, `data/prozess/<p>.yaml`, `data/werte.yaml`, `data/regeln.yaml`, `data/themen.yaml`, `data/revio/` | Agent (Workflow mit Zweitprüfung) + WP |
 | Quick | `quick/` | Index, Prüffelder, Prozess, Regeln, Werte, revio, PBC, Kundenfragen | `tools/build_quick.py` |
 | Detail | `wiki/prueffelder/`, `wiki/prozess/`, `wiki/themen/`, `wiki/revio/`, `wiki/quellen.md` | generiert (mit allen Zitaten) | `tools/build_quick.py` |
-| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (17 Tools, u.a. `aufgabe`, `akte`), `skills/`, `openclaw/` (`revio-tool-policy.json` aus der OpenClaw-Liste, `openclaw-tools-empfehlung.json`) | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
+| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (19 Tools, u.a. `aufgabe`, `arbeitspaket`, `akte`, `plan`), `skills/`, `openclaw/` (`revio-tool-policy.json` aus der OpenClaw-Liste, `openclaw-tools-empfehlung.json`) | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
 | Test | `eval/` | Testakte (fiktiv), Referenzlösung, Fragen, Messungen | Agent |
 
 ## 3. Anfragen beantworten (Routing)
 1. **Werkzeug zuerst:** `python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"` (Übersicht: `hilfe`) bzw. Tools `revisionswiki__…`.
    Mehrere Prüffelder im Auftrag → alle Bündel + eine Statustabelle; Block «Arbeitsregeln Akte» gilt für jede Aufgabe.
-1a. **Mandantenakte:** `akte <pfad> --vj <vj-pfad>` (Übersicht) → `--pf <code>` → `--suche "a|b"` · grosse Dateien `--inhalt` /
+1a. **Mandantenakte:** Prüffeld-Arbeit zuerst `arbeitspaket <pfad> --pf <code> --vj <vj-pfad>` (Belegpaket: Konten GJ/VJ/Vorjahresakte,
+   Kontoblätter, Jahresrechnung, Dateien, Fundstellen, Vorjahr, Schritte – alle Teile lesen). Sonst bzw. danach gezielt
+   `akte <pfad> --vj <vj-pfad>` (Übersicht) → `--pf <code>` → `--suche "a|b"` · grosse Dateien `--inhalt` /
    `--abschnitt` / `--datei --von` (nur lesen, nichts speichern). «Fehlt» erst nach `--suche` über GJ- und VJ-Akte.
+   Orchestrator (schwache Modelle): `plan "<Auftrag>"` → Turns als JSON, je Turn eine Anweisung.
 2. Prüfschritt → `pruefschritt <id>`; Prüffeld → `prueffeld <code|stichwort>`; Ablauf/WP-Entscheid → `prozess [p1…p8]`, `regeln`;
    revio → `revio <bereich|code|id|stichwort|werkzeug|ketten|nur-mensch>`; Zahl → `wert`; Rechnen → `rechne`, `wesentlichkeit`,
    `kapitalverlust`, `revisionspflicht`; Thema → `thema`; sonst `suche` → `zeige`.

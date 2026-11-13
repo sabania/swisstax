@@ -126,6 +126,83 @@ def _rechner():
     return f
 
 
+AKTE_GJ = R / "eval" / "testdaten" / "fiktive-zahlen-ag-2025" / "text"   # Entwicklungs-Testakte (fiktiv); nur Struktur prüfen
+AKTE_VJ = R / "eval" / "testdaten" / "fiktive-zahlen-ag-2024" / "text"
+
+
+def _teile(pf=None, schritt=None, vj=True) -> list[str]:
+    """Alle Teile eines Arbeitspakets (Anzahl aus dem Kopf von Teil 1)."""
+    import re
+    t1 = rv.arbeitspaket(str(AKTE_GJ), pf, str(AKTE_VJ) if vj else None, schritt)
+    n = int(re.search(r"– Teil 1/(\d+)", t1).group(1))
+    return [t1] + [rv.arbeitspaket(str(AKTE_GJ), pf, str(AKTE_VJ) if vj else None, schritt, k) for k in range(2, n + 1)]
+
+
+@fall("arbeitspaket: Teile ≤ 24 KB mit Kopf und Regeln, Abschnitte 2–8, Konten erkannt (Bilanz- und ER-Prüffeld), Schritt-/Mehrfach-Paket, Fehler")
+def _arbeitspaket():
+    import re
+    if not AKTE_GJ.is_dir():
+        return []
+    f = []
+    for pf, schritt, konten in (("B1", None, True), ("C1", None, True), ("R1", None, True), ("A1", None, True), ("T1", None, False),
+                                ("L1,N1", None, True), (None, "C1-302", True)):
+        teile = _teile(pf, schritt)
+        alles = "\n".join(teile)
+        for i, t in enumerate(teile, 1):
+            if len(t.encode("utf-8")) > rv.AP_MAX:
+                f.append(f"{pf or schritt} Teil {i}: {len(t.encode('utf-8'))} Bytes > {rv.AP_MAX}")
+            if not re.search(rf"– Teil {i}/{len(teile)}\n", t) or "Regel 1:" not in t or "Regel 3:" not in t:
+                f.append(f"{pf or schritt} Teil {i}: Kopf/Regeln fehlen")
+        for nr in ("## 2.", "## 3.", "## 4.", "## 5.", "## 6.", "## 7."):
+            if nr not in alles:
+                f.append(f"{pf or schritt}: Abschnitt {nr} fehlt")
+        if not schritt and "## 8." not in alles:
+            f.append(f"{pf}: Abschnitt 8 (Schritte) fehlt")
+        if schritt and "## 1. Schritt" not in alles:
+            f.append(f"{schritt}: Schrittkarte fehlt")
+        if konten and not re.search(r"^\| \d{3,5}[A-Za-z]? \|", alles, re.M):
+            f.append(f"{pf or schritt}: keine Kontozeile erkannt")
+        if "**Ende des Arbeitspakets.**" not in teile[-1]:
+            f.append(f"{pf or schritt}: letzter Teil ohne Ende-Zeile")
+    if "nicht gelesen" not in _teile("B1", vj=False)[-1]:
+        f.append("ohne --vj: Hinweis «nicht gelesen» fehlt")
+    for args, msg in (((str(AKTE_GJ), "XY9"), "unbekannt"), ((str(AKTE_GJ), "C1", None, None, 0), "gibt es nicht"),
+                      ((str(AKTE_GJ), None, None, "C1-999"), "unbekannt"), ((str(AKTE_GJ),), "Prüffeld fehlt")):
+        try:
+            rv.arbeitspaket(*args)
+            f.append(f"kein Fehler für {args[1:]}")
+        except ValueError as e:
+            if msg not in str(e):
+                f.append(f"Fehlertext für {args[1:]}: {e}")
+    return f
+
+
+@fall("plan: gültiges JSON, Turn 1 mit aufgabe + arbeitspaket, jede Id genau einmal + Abschluss mit allen Ids, Grenze in jeder Anweisung")
+def _plan():
+    import json
+    if not AKTE_GJ.is_dir():
+        return []
+    f = []
+    for auftrag, a_id, codes in (("Prozess 2 – Bereite die Prüffelder L1/N1 und H2 vor.", "prueffeld", ["L1", "N1", "H2"]),
+                                 ("Prüffeld C1-302 bearbeiten", "pruefschritt", ["C1"]), ("Starte das Mandat.", "mandat-start", []),
+                                 ("Prozess 1 – Jahresrechnung mit Saldoliste abstimmen", "import", [])):
+        p = json.loads(rv.plan(auftrag, str(AKTE_GJ), str(AKTE_VJ)))
+        if p["aufgabe"] != a_id or p["prueffelder"] != codes:
+            f.append(f"{auftrag!r}: {p['aufgabe']} {p['prueffelder']} (erwartet {a_id} {codes})")
+        if [t["nr"] for t in p["turns"]] != list(range(1, len(p["turns"]) + 1)) or len(p["turns"]) < 2:
+            f.append(f"{auftrag!r}: Turns nicht fortlaufend")
+        if any("kein ✓" not in t["anweisung"] or "nichts senden" not in t["anweisung"] for t in p["turns"]):
+            f.append(f"{auftrag!r}: Anweisung ohne Grenze")
+        if codes:
+            ids = [s for t in p["turns"][:-1] for s in t["schritte"]]
+            soll = [x["id"] for c in codes for x in sum(rv._schritt_folge(c), [])] if a_id == "prueffeld" else ["C1-302"]
+            if sorted(ids) != sorted(soll) or sorted(p["abschluss"]["schritte"]) != sorted(soll):
+                f.append(f"{auftrag!r}: Schritte {len(ids)}/{len(soll)}")
+            if not any(c.startswith("arbeitspaket ") for c in p["turns"][0]["aufrufe"]) or not p["turns"][0]["aufrufe"][0].startswith("aufgabe"):
+                f.append(f"{auftrag!r}: Turn 1 ohne aufgabe/arbeitspaket")
+    return f
+
+
 def main():
     fehler = 0
     for name, fn in FAELLE:

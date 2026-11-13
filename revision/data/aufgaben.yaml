@@ -64,7 +64,7 @@ aufgaben:
       zitat: Jede Aktion, Quelle und Berechnung wird protokolliert
   - text: Kunde und Dossier (Jahresakte) in revio finden und öffnen.
     aufruf: revio K1
-  - text: 'Akte erschliessen (GJ und VJ): Ordner und Dateien mit vermutetem Prüffeld. Prüffelder immer mit revio-Code (A1 … T1) nennen, nie mit den Ordnerbuchstaben der Akte (Praxis/intern).'
+  - text: 'Akte erschliessen (GJ und VJ): Ordner und Dateien mit vermutetem Prüffeld. Prüffelder immer mit revio-Code (A1 … T1) nennen, nie mit den Ordnerbuchstaben der Akte (Praxis/intern). Belege eines Prüffelds später mit `arbeitspaket <pfad> --pf <code> --vj <vj-pfad>`; Kontenliste mit Vorjahr und Vorjahresakte für den Überblick: `arbeitspaket <pfad> --pf A1 --vj <vj-pfad>`.'
     aufruf: akte <pfad> --vj <vj-pfad>
   - text: Risikobeurteilung 3.1 und strategische Planung 3.5 lesen – welche Prüffelder sind markiert, Prüfungstiefe, Priorität.
     aufruf: revio K4
@@ -111,6 +111,8 @@ aufgaben:
   - text: Definitive Bilanz und ER des Geschäftsjahres in M-Files suchen (Kunde, Geschäftsjahr, Klasse) – nur «definitiv», nicht Entwürfe.
   - text: 'Jahresrechnung ganz lesen – Bilanz, Erfolgsrechnung, Anhang, Antrag über die Verwendung des Bilanzergebnisses, Unterzeichnung/Datum; grosse Dateien abschnittweise (Praxis/intern).'
     aufruf: akte <pfad> --inhalt <Jahresrechnung>
+  - text: 'Saldoliste aller Konten bereitlegen: Arbeitspaket A1 (alle Teile) – je Konto Saldo GJ, Saldo VJ und Saldo der Vorjahresakte (Hinweis «VJ ≠ VJ-Akte»), Summen je Gruppe, Total-/Ergebniszeilen der Jahresrechnung; Grundlage für die Abstimmungen unten (Werte daraus, jede Rechnung mit `rechne`; Praxis/intern).'
+    aufruf: arbeitspaket <pfad> --pf A1 --vj <vj-pfad>
   - text: 'Formelle Grobprüfung: Mindestgliederung der Bilanz (OR 959a) und der Erfolgsrechnung (OR 959b) – Positionen einzeln und in der vorgegebenen Reihenfolge; jedes Zwischentotal und Total der Jahresrechnung mit `rechne` nachrechnen.'
     aufruf: pruefschritt A1-306
     fundstellen:
@@ -214,8 +216,8 @@ aufgaben:
   regeln: [je_schritt, ergebnis, pruefziele, befragung, analytisch, detail, sonstige, wp, rechenmodul, prozess2]
   checkliste:
   - text: Prüffeld-Bündel lesen (unten) – Risiken, Bewertungsregeln, Unterlagen, Fragen an den Kunden, Schritte mit Rolle.
-  - text: 'Akte erschliessen: Dateien des Prüffelds in GJ- und VJ-Akte (VJ: Feststellungen, Hinweise fürs Folgejahr), Treffer in Saldoliste/Hauptbuch/Jahresrechnung und in Ordnern anderer Prüffelder, Unterlagen → Fundort; alle gefundenen Dateien ganz lesen.'
-    aufruf: akte <pfad> --vj <vj-pfad> --pf <code>
+  - text: 'Akte erschliessen: zuerst das Arbeitspaket des Prüffelds lesen – alle Teile (der Kopf nennt die Anzahl): Konten der Saldoliste mit Vorjahr und Saldo der Vorjahresakte, Kontoblätter (auch Folgejahr), Zeilen der Jahresrechnung und Anhang, Dateien des Prüffelds, Fundstellen in Ordnern anderer Prüffelder, Vorjahresakte (Feststellungen, Pendenzen, Hinweise fürs Folgejahr), Schritte. Danach gezielt `akte <pfad> --vj <vj-pfad> --suche "<Begriff>"` bzw. `--datei`; Unterlagen → Fundort: `akte <pfad> --vj <vj-pfad> --pf <code>`.'
+    aufruf: arbeitspaket <pfad> --pf <code> --vj <vj-pfad>
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c012-1
       zitat: Nachweise in M-Files beschaffen
