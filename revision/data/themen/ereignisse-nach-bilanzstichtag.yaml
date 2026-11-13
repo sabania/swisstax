@@ -1,0 +1,190 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: ereignisse-nach-bilanzstichtag
+titel: Ereignisse nach dem Bilanzstichtag
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 12
+  korrigiert: false
+stichworte:
+- Ereignisse nach dem Bilanzstichtag
+- Ereignisse nach dem Abschlussstichtag
+- nachträgliche Ereignisse
+- subsequent events
+- Stichtagsprinzip
+- werterhellend
+- wertbegründend
+- buchungspflichtig
+- offenlegungspflichtig
+- ausweispflichtig
+- berücksichtigungspflichtige Ereignisse
+- Art. 959c Abs. 2 Ziff. 13 OR
+- Anhang Ereignisse nach Stichtag
+- schwebende Geschäfte
+- Verlustrisiko
+- neue Rechnung
+- Folgeperiode
+- Folgejahresbuchungen
+- Kreditorenrechnungen neues Jahr
+- kritische Durchsicht
+- Buchungsjournale
+- Protokolle VR GV
+- Vollständigkeitserklärung
+- Berichtsdatum
+- keine Rückdatierung
+- Herausgabe des Abschlusses
+- Tatsachen nach dem Berichtsdatum
+- Elementarschaden
+- Konkurs Schuldner
+- Prozess Rückstellung
+- Preisrückgang nach Stichtag
+- Zwischendividende Folgejahr
+- Fortführungsfähigkeit
+- A1-102
+- T1-109
+kurz: Wesentliche Ereignisse nach dem Bilanzstichtag sind buchungspflichtig, wenn die Ursache am Stichtag schon bestand; trat sie erst danach ein, sind sie im Anhang mit Art und geschätzter
+  Auswirkung offenzulegen (Art. 959c Abs. 2 Ziff. 13 OR). Bei der eingeschränkten Revision stützt sich die Prüfung bis zum Berichtsdatum auf Befragung, kritische Durchsicht (Folgeperiode,
+  Protokolle) und Vollständigkeitserklärung. Nach dem Berichtsdatum besteht keine Prüfpflicht; neue Tatsachen beurteilt der WP.
+aussagen:
+- text: 'Gesetzliche Grundlage: Der Anhang der Jahresrechnung enthält die wesentlichen Ereignisse nach dem Bilanzstichtag (Art. 959c Abs. 2 Ziff. 13 OR).'
+  quelle: or__art-959c-t2
+  zitat: wesentliche Ereignisse nach dem Bilanzstichtag;
+- text: 'HWP ER unterscheidet zwei Arten: berücksichtigungspflichtige Ereignisse (sie liefern Nachweise für Umstände, die am Bilanzstichtag bereits vorlagen) und nicht zu berücksichtigende
+    Ereignisse (Umstände, die erst nach dem Stichtag entstanden sind). Für die Berücksichtigung im Abschluss ist die Unternehmensleitung verantwortlich. Der Abschlussprüfer beurteilt,
+    ob sich ein Ereignis auf den Abschluss und den Revisionsbericht auswirkt oder erst auf die folgende Periode.'
+  quelle: hwp-er-2026__rz-0317-s254
+  zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
+- text: 'Buchungspflichtig oder offenlegungspflichtig: Bestand die Ursache bereits am Bilanzstichtag und erhält das Unternehmen danach zusätzliche Informationen, ist das Ereignis in
+    der Jahresrechnung des abgelaufenen Jahres zu buchen. Tritt die auslösende Ursache erst nach dem Stichtag ein, wird das Ereignis nicht gebucht, ist aber im Anhang auszuweisen. Die
+    Bilanz ist eine Stichtagsrechnung.'
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: Tritt die auslösende Ursache erst nach dem Bilanzstichtag ein, wird das Ereignis grundsätzlich nicht in der Jahresrechnung erfasst, ist aber im Anhang ausweispflichtig.
+- text: 'Inhalt der Offenlegung: Gemäss Botschaft ist über positive und negative Ereignisse zu informieren, die zwischen dem Bilanzstichtag und der Freigabe der Jahresrechnung durch
+    das zuständige Organ eintreten. Anzugeben sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen. Ist keine Schätzung möglich, muss dies ausdrücklich angegeben
+    werden.'
+  quelle: hwp-bur-2023__rz-0860-s353
+  zitat: Es sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen offenzulegen.
+- text: 'Ausnahme vom Stichtagsprinzip: Führt ein Ereignis nach dem Bilanzstichtag dazu, dass die Fortführungsfähigkeit nicht mehr gegeben ist, darf die Jahresrechnung nicht mehr zu
+    Fortführungswerten erstellt werden.'
+  quelle: hwp-bur-2023__rz-0861-s353
+  zitat: In solchen Fällen darf die Jahresrechnung nicht mehr auf Basis von Fortführungswerten erstellt werden.
+- text: 'Beispiele aus HWP BuR: (1) Ein Schuldner geht nach dem Stichtag in Konkurs oder wird zahlungsunfähig: Wertberichtigung bilden. (2) Ein Prozess wird nach dem Stichtag eingeleitet,
+    das auslösende Ereignis lag aber vor dem Stichtag: Rückstellung bilden. (3) Negative Entscheide in Verfahren, die vor dem Stichtag begonnen haben: bei der Bilanzierung berücksichtigen.
+    (4) Ein grösserer Elementarschaden an einer bedeutenden Produktionsanlage nach dem Stichtag ist nur offenlegungspflichtig, nicht buchungspflichtig.'
+  quelle: hwp-bur-2023__rz-0864-s354
+  zitat: ein offenlegungs-, aber kein buchungspflichtiges Ereignis dar
+- text: Negative Preisentwicklungen nach dem Stichtag bei Devisen, Wertschriften oder Warenvorräten (bei Vorräten unter Vorbehalt der verlustfreien Bewertung) werden nach dem Stichtagsprinzip
+    nicht im alten Abschluss erfasst. Ihre Auswirkungen sind gegebenenfalls im Anhang offenzulegen. Werden trotzdem schon im alten Abschluss Wertberichtigungen gebildet, entstehen stille
+    Reserven; eine Falschbilanzierung liegt nicht vor.
+  quelle: hwp-bur-2023__rz-0865-s354
+  zitat: im alten Abschluss nicht zu erfassen, sondern deren finanzielle Auswirkungen ggf. im Anhang offenzulegen
+- text: 'SER zum Prüfungsziel Vollständigkeit: Befragungen von Personen ausserhalb der Abschlusserstellung, analytische Prüfungshandlungen und die Prüfung von Ereignissen nach dem Bilanzstichtag
+    geben die vom Gesetz vorgesehene begrenzte Prüfungssicherheit.'
+  quelle: ser-2022__4-3-4
+  zitat: analytische Prüfungshandlungen sowie die Prüfung von Ereignissen nach dem Bilanzstichtag vermögen die vom Gesetz vorgesehene begrenzte Prüfungssicherheit zu vermitteln
+- text: 'Empfohlene Prüfungshandlungen nach SER Anhang D Bst. v: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen vor dem Bilanzstichtag, die ein Verlustrisiko enthalten,
+    und Prüfung, ob die Ereignisse in der Jahresrechnung oder im Anhang entsprechend offengelegt sind.'
+  quelle: ser-2022__anh-d-s100-1
+  zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlustrisiko beinhalten
+- text: 'Ziel: genügend geeignete Nachweise, dass alle wesentlichen Ereignisse bis zum Datum des Revisionsberichts erkannt sind. Bei der eingeschränkten Revision beschränkt sich der
+    Abschlussprüfer auf die Befragung zu bedeutenden schwebenden Geschäften und Sachverhalten vor dem Stichtag mit Verlustrisiko. Bereits zufriedenstellend geprüfte Sachverhalte prüft
+    er nicht erneut.'
+  quelle: hwp-er-2026__rz-0318-s254
+  zitat: Dabei wird sich der Abschlussprüfer bei der eingeschränkten Revision auf die Befragung zu bedeutenden schwebenden Geschäften und anderen Sachverhalten
+- text: 'Die Unternehmensleitung wird möglichst nahe am Berichtsdatum befragt. Mögliche Themen: Abschlussposten mit erhöhtem Bewertungsermessen; neue Verpflichtungen, Kredite, Garantien
+    oder Bürgschaften; Käufe oder Verkäufe von Vermögenswerten; Kapitalerhöhungen oder neue Fremdkapitaltitel; Zusammenschluss oder Auflösung; Enteignung; Zerstörung durch Feuer oder
+    Überschwemmung; Entwicklung der Eventualverbindlichkeiten; ungewöhnliche Anpassungen in der Rechnungslegung.'
+  quelle: hwp-er-2026__rz-0321-s255-t1
+  zitat: werden üblicherweise so nahe wie praktisch möglich am Datum des Revisionsberichts
+- text: 'Kritische Durchsicht als Detailprüfung: Hauptbuch und Buchungsjournale, Geldkonten (auf ungewöhnliche Buchungen), bestimmte Aufwands- oder Ertragskonten sowie Sitzungsprotokolle
+    der Unternehmensorgane können Hinweise auf Ereignisse nach dem Bilanzstichtag geben.'
+  quelle: hwp-er-2026__rz-0124-s202
+  zitat: Hinweise zu den Ereignissen nach dem Bilanzstichtag zu erhalten
+- text: 'Buchungen im Folgejahr, Beispiel Verbindlichkeiten LuL: SER Anhang D nennt die Durchsicht der im neuen Jahr verbuchten oder noch nicht verbuchten Kreditorenrechnungen sowie
+    der Kreditoren- und Aufwandskonten. Gesucht sind Rechnungen für Lieferungen und Leistungen, die das Unternehmen im geprüften Geschäftsjahr erhalten hat. SER führt dies als weiter
+    gehende Prüfungshandlung auf, also vor allem bei vermuteten wesentlichen Fehlaussagen oder erhöhtem inhärentem Risiko.'
+  quelle: ser-2022__anh-d-s084-2
+  zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen
+- text: 'Vollständigkeitserklärung (Muster SER Anhang E): Die Unternehmensleitung bestätigt, dass alle wesentlichen Ereignisse nach dem Bilanzstichtag in der Jahresrechnung erfasst oder
+    offengelegt sind. Sie verpflichtet sich, Ereignisse, die bis zur Generalversammlung bekannt werden, unverzüglich mitzuteilen.'
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Wir werden Ihnen alle bis zum Zeitpunkt der Generalversammlung bekannt werdenden Ereignisse, die sich auf die Jahresrechnung wesentlich auswirken könnten, unverzüglich mitteilen.
+- text: Die Vollständigkeitserklärung ist an die Revisionsstelle adressiert, datiert und unterzeichnet. Ihr Datum entspricht in der Regel dem Datum der Unterzeichnung des Revisionsberichts.
+    Die rechtsgültig unterzeichnete Erklärung sollte vor Abgabe des Berichts bei der Revisionsstelle sein.
+  quelle: ser-2022__anh-e-s102-1
+  zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+- text: 'Berichtsdatum: Der Revisionsbericht trägt das Datum, an dem die eingeschränkte Revision beendet wurde. Das schliesst Prüfungshandlungen zu Ereignissen bis zum Berichtsdatum
+    ein. Der Bericht darf frühestens auf den Tag datiert werden, an dem die Unternehmensleitung die Jahresrechnung unterzeichnet oder formell genehmigt hat.'
+  quelle: ser-2022__8-6
+  zitat: Dies schliesst Prüfungshandlungen bezüglich Ereignissen ein, die bis zum Berichtsdatum eingetreten sind.
+- text: Das Berichtsdatum zeigt, bis wann die Ereignisse nach dem Bilanzstichtag geprüft wurden. Liegt zwischen dem Ende der Revision und der Berichtsabgabe eine Zeitspanne, trägt der
+    Bericht das Datum der Abgabe. Eine Rückdatierung ist nicht zulässig.
+  quelle: hwp-er-2026__rz-0322-s256
+  zitat: Besteht zwischen Beendigung der eingeschränkten Revision und Berichtsabgabe ein gewisser zeitlicher Abstand, trägt der Bericht das Datum der Berichtsabgabe (keine Rückdatierung).
+- text: 'Folgen für den Bericht: Wesentliche Verstösse gegen Offenlegungspflichten im Anhang führen zu einer modifizierten Prüfungsaussage. Das gilt auch für die Angabe nach Art. 959c
+    Abs. 2 Ziff. 13 OR. Ob eine Modifizierung nötig ist, entscheidet der WP.'
+  quelle: hwp-er-2026__rz-0386-s270-t2
+  zitat: Wesentliche Verstösse gegen Gliederungsvorschriften oder Offenlegungspflichten im Anhang führen zu einer modifizierten Prüfungsaussage.
+- text: 'Ereignisse nach dem Berichtsdatum: Für die Zeit nach Abschluss der Revision besteht keine Pflicht zu weiteren Prüfungshandlungen. Erfährt der Prüfer vor der Herausgabe des Abschlusses
+    eine Tatsache, die zu einem anderen Bericht geführt hätte, bespricht er sie mit der Unternehmensleitung. Er legt fest, ob der Abschluss geändert werden muss, und fragt nach, wie
+    die Unternehmensleitung damit umgehen will.'
+  quelle: hwp-er-2026__rz-0324-s256
+  zitat: Falls ihm aber nach dem Datum des Revisionsberichts, jedoch vor dem Datum der Herausgabe des Abschlusses eine Tatsache bekannt wird
+- text: Ist der Abschlussprüfer überzeugt, dass der Abschluss geändert werden muss, und ändert ihn die Unternehmensleitung nicht, modifiziert er seine Prüfungsaussage, sofern der Bericht
+    dem Unternehmen noch nicht zugestellt ist.
+  quelle: hwp-er-2026__rz-0326-s256
+  zitat: modifiziert der Abschlussprüfer seine Prüfungsaussage (sofern dem Unternehmen noch nicht zugestellt)
+agent:
+- 'Mandatskontext zuerst festhalten: Bilanzstichtag, Datum der Genehmigung der Jahresrechnung durch den VR und voraussichtliches Berichtsdatum. Der zu prüfende Zeitraum reicht vom Bilanzstichtag
+  bis zum Berichtsdatum (^[ser-2022__8-6], ^[hwp-er-2026__rz-0450-s288]).'
+- Befragungsschritte (A1-102, T1-109, R1-101; C1-404 nur auf Anweisung) nicht selbst führen. Der Agent wertet schriftliche Antworten aus (revio 10.11, Vollständigkeitserklärung, Protokolle).
+  Fehlt eine Antwort, erfasst er die Fragen aus HWP ER Rz 321 als Pendenz «Frage an Kunde». Dazu gehören auch Fortführung, Schätzungen und Rückstellungen sowie Werthaltigkeit (^[hwp-er-2026__rz-0321-s255-t2]).
+  Status höchstens «teilweise bearbeitet».
+- 'Unterlagen in M-Files beschaffen: Kontoblätter und Journale der Folgeperiode bis zum Prüfungsdatum, Bankauszüge des neuen Jahres, OP-Listen Debitoren und Kreditoren mit Zahlungen
+  im neuen Jahr, GV- und VR-Protokolle sowie Zirkularbeschlüsse nach dem Stichtag, Verträge und Korrespondenz zu Krediten und Rechtsfällen, Anhang-Entwurf, Vollständigkeitserklärung.
+  Fehlende Unterlagen als Pendenz erfassen, mit Konto, Datum und Betrag.'
+- Kritische Durchsicht vorbereiten (A1-304 Protokolle; HWP ER Rz 124). Gesucht sind grosse oder ungewöhnliche Buchungen im neuen Jahr mit Bezug zum alten Jahr, zum Beispiel Gutschriften,
+  Debitorenverluste, Nachbelastungen, Prozess- und Vergleichskosten, Prämien, Kreditaufnahmen sowie Kapital- oder Ausschüttungsbeschlüsse. Die Auswahl im Textfeld begründen (Toleranzwesentlichkeit
+  aus 3.3, Risiko 3.1). Beträge immer mit `rechne` berechnen.
+- 'Die revio-Schritte «Durchsicht … in neuer Rechnung» sind als WP-Schritte bzw. «nur_mensch» gekennzeichnet: C1-304, C1-306, C1-307, D1-308, E1-305, G1-304, G2-304, K1-302, K1-303,
+  M3-305, O1-303, R1-306, SCH3-302. In SER Anhang D stehen sie unter den weiter gehenden Prüfungshandlungen. Diese Schritte nur auf ausdrückliche Anweisung des WP vorbereiten, nie visieren.'
+- 'Jedes gefundene Ereignis als Vorschlag einordnen; den Entscheid trifft der WP. Ursache bestand am Stichtag: buchungspflichtig, Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
+  ohne Verbuchung. Ursache trat nach dem Stichtag ein und ist wesentlich: in T1 prüfen, ob der Anhang Art und geschätzte Auswirkung nennt oder ausdrücklich festhält, dass keine Schätzung
+  möglich ist. Ist die Fortführung gefährdet: Verbindung zu A1-205 und SER Anhang G herstellen (^[ser-2022__anh-g-s141-1]) und den WP sofort informieren.'
+- Buchungspflichtige Ereignisse nicht zusätzlich unter Ziff. 13 offenlegen lassen (^[hwp-bur-2023__rz-0862-s353]). Das Datum der Freigabe der Jahresrechnung im Anhang als Empfehlung
+  vorschlagen (^[hwp-bur-2023__rz-0863-s353]). Beides gehört in die Notiz «Schlussbesprechung».
+- 'Sonderfälle gezielt prüfen: Zwischendividende im Folgejahr (Angabe im Anhang und im Gewinnverwendungsantrag, keine Verbindlichkeit im alten Jahr; ^[hwp-er-2026__rz-0242-s239]). Covenant-Verletzung
+  mit Waiver (^[hwp-bur-2023__rz-0493-s257]). Rangrücktritt, der erst nach dem Stichtag erteilt wurde (^[hwp-bur-2023__rz-0721-s307]). Kapitalerhöhung oder -herabsetzung mit HR-Eintrag
+  erst nach dem Stichtag (^[hwp-bur-2023__rz-0866-s354]). Für Verluste mit Ursache nach dem Stichtag besteht keine Rückstellungspflicht (^[hwp-bur-2023__rz-0531-s264]).'
+- 'Vollständigkeitserklärung (A1-103): Entwurf nach SER Anhang E mit dem Punkt «Ereignisse nach dem Bilanzstichtag» vorbereiten und als Pendenz zur Besprechung erfassen. Die unterzeichnete
+  Erklärung prüfen: Datum gleich Berichtsdatum, Unterzeichner wie bei der Jahresrechnung. Die Erklärung ersetzt keine Prüfungsnachweise (^[hwp-er-2026__rz-0338-s259]). Verweigert die
+  Unternehmensleitung eine Erklärung, ist der Prüfungsumfang beschränkt (^[hwp-er-2026__rz-0341-s260]); den WP darüber informieren.'
+- 'Liegt zwischen dem Ende der Agentenarbeit und dem geplanten Berichtsdatum eine längere Zeit, eine Pendenz an den WP erfassen: Ereignisse bis zum Berichtsdatum nachführen. Den Bericht
+  nie datieren, unterzeichnen oder freigeben. Der Hinweis «Die Prüfungsarbeiten wurden am … beendet» (^[ser-2022__anh-f-s136-2]) ist Sache des WP.'
+- Nach dem Berichtsdatum oder nach der Herausgabe (HWP ER Rz 324–328, Herausgabe = Zustellung an Dritte, ^[hwp-er-2026__rz-0319-s254]) führt der Agent keine eigenen Prüfungshandlungen
+  durch. Neu bekannt gewordene Tatsachen meldet er sofort als Notiz «Schlussbesprechung» oder Pendenz an den WP. Über Änderung des Abschlusses, neuen Bericht ohne Rückdatierung (^[hwp-er-2026__rz-0325-s256]),
+  Modifikation und Mitteilung an die Organe (^[hwp-er-2026__rz-0327-s257], ^[hwp-er-2026__rz-0328-s257-t1]) entscheidet allein der WP.
+- Die Auswirkung auf die Prüfungsaussage (Modifizierung wegen fehlender Offenlegung, Zusatz zur Fortführung) nur als Hinweis an den WP geben, Beurteilung in 6.1. Kein Visum, kein ✓,
+  keine abschliessende Beurteilung.
+prueffelder:
+- A1
+- T1
+- C1
+- D1
+- E1
+- F1
+- H1
+- K1
+- L1
+- M3
+- N1
+- O1
+- P1
+- R1
+- SCH3
+phasen:
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht
+- p6-kapitalschutz
+- p8-agentablauf

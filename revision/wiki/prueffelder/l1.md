@@ -11,7 +11,7 @@ quellen:
 - or
 - ser-2022
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-12
+generiert: tools/build_quick.py, 2026-11-13
 ---
 
 

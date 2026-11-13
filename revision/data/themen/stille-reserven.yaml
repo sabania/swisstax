@@ -1,0 +1,183 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: stille-reserven
+titel: Stille Reserven
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 9
+  korrigiert: false
+stichworte:
+- stille Reserven
+- Willkürreserven
+- Zwangsreserven
+- Wiederbeschaffungsreserven
+- Bewertungsreserven
+- Bildung stiller Reserven
+- Auflösung stiller Reserven
+- Nettoauflösung
+- Offenlegung Anhang
+- Art. 960a Abs. 4 OR
+- Art. 960e Abs. 3 Ziff. 4 OR
+- Art. 959c Abs. 1 Ziff. 3 OR
+- zusätzliche Abschreibungen
+- Sicherung des dauernden Gedeihens
+- Aufstellung stille Reserven
+- Detailnachweis stille Reserven
+- revio 10.3
+- HB I HB II
+- Warendrittel
+- Pauschaldelkredere
+- Arbeitgeberbeitragsreserven
+- latente Steuern
+- Kapitalverlust
+- Art. 725a OR
+- Aufwertung 725c
+- Vollständigkeitserklärung stille Reserven
+- bereinigtes Jahresergebnis
+- xx-321
+kurz: Stille Reserven entstehen durch zusätzliche Abschreibungen, Wertberichtigungen und Rückstellungen zu Wiederbeschaffungszwecken oder zur Sicherung des dauernden Gedeihens (OR 960a
+  Abs. 4, 960e). Eine Nettoauflösung ist im Anhang offenzulegen, wenn sie das Ergebnis wesentlich günstiger darstellt (OR 959c Abs. 1 Ziff. 3). Die Revisionsstelle plausibilisiert Bestand
+  und Veränderung am Detailnachweis (revio 10.3); für den Kapitalverlust (OR 725a) bleiben sie grundsätzlich unberücksichtigt.
+aussagen:
+- text: 'Bildung (OR 960a Abs. 4): Zu Wiederbeschaffungszwecken und zur Sicherung des dauernden Gedeihens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden;
+    zu den gleichen Zwecken darf die Auflösung nicht mehr begründeter Abschreibungen/Wertberichtigungen unterbleiben.'
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+- text: Rückstellungen dürfen auch zur Sicherung des dauernden Gedeihens gebildet werden (OR 960e Abs. 3 Ziff. 4); nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden
+    (OR 960e Abs. 4).
+  quelle: or__art-960e
+  zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+- text: 'Begriff: Stille Reserven im Sinne des OR (Gegenstand der Offenlegung bei Nettoauflösung) sind die Differenz zwischen Buchwerten und den rechnungslegungsrechtlich zulässigen
+    Höchstwerten (Aktiven) bzw. erforderlichen Beträgen (Verbindlichkeiten) – nicht die Differenz zum Verkehrswert.'
+  quelle: hwp-bur-2023__rz-0652-s293
+  zitat: die Differenz zwischen den Buchwerten und den unter Obligationenrecht rechnungslegungsrechtlich zulässigen Höchstwerten (Vermögenswerte) bzw. erforderlichen Beträgen (Verbindlichkeiten)
+    verstanden
+- text: Zwangsreserven (Wertzuwachs über die gesetzlichen Höchstwerte hinaus, Begriff vgl. HWP BuR Rz 654) zählen bei der Offenlegung nicht; werden sie über eine Aufwertung nach OR 725c
+    erfasst, ist der Betrag als Aufwertungsreserve im Eigenkapital auszuweisen und im Anhang offenzulegen.
+  quelle: hwp-bur-2023__rz-0660-s295
+  zitat: Die Veränderung der Zwangsreserven ist bei der Offenlegung von Reservenauflösungen im Anhang (Art. 959c Abs. 1 Ziff. 3 OR) nicht zu berücksichtigen.
+- text: Wiederbeschaffungsreserven (Substanz-/Eigenkapitalerhaltung) dürfen voraussetzungslos gebildet werden, ihr Umfang ist aber durch die Wiederbeschaffungszwecke begrenzt; Bemessungskriterien
+    lässt das Gesetz offen.
+  quelle: hwp-bur-2023__rz-0662-s295
+  zitat: Wiederbeschaffungsreserven dürfen voraussetzungslos gebildet werden; ihr gesamter Umfang ist aber durch die Wiederbeschaffungszwecke beschränkt.
+- text: 'Auflösung entsteht auch ohne Auflösungsbuchung: Werden in Folgeperioden tiefere oder keine Abschreibungen erfasst, werden stille Reserven aufgelöst; der Buchwert darf dabei
+    nicht über die fortgeschriebenen Anschaffungskosten gemäss Abschreibungsplan steigen.'
+  quelle: hwp-bur-2023__rz-0796-s329
+  zitat: Werden in Folgeperioden verminderte Abschreibungen erfasst oder wird ganz auf solche verzichtet, ergibt sich eine Auflösung von stillen Reserven.
+- text: 'Bestandsermittlung: Eine laufende Kontrolle verlangt das Gesetz nicht; wegen der Offenlegungspflicht ist aber jährlich per Bilanzstichtag der Bestand (Buchwert vs. gesetzlich
+    zulässiger Höchstwert) je Bilanzposition nach stetigen Methoden zu ermitteln und mit dem Vorjahr zu vergleichen.'
+  quelle: hwp-bur-2023__rz-0671-s297
+  zitat: jährlich zum Bilanzstichtag der Bestand an stillen Reserven aufgrund der Differenz zwischen Buchwert und gesetzlich zulässigem Höchstwert zu ermitteln
+- text: 'Offenlegung (OR 959c Abs. 1 Ziff. 3): Der Anhang enthält den Gesamtbetrag der aufgelösten Wiederbeschaffungs- und darüber hinausgehenden stillen Reserven, soweit er die Neubildung
+    übersteigt (Nettoauflösung), wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird.'
+  quelle: or__art-959c-t1
+  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven, soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven
+    übersteigt
+- text: Offenzulegen ist nur der Nettobetrag, als Gesamtbetrag über alle Bilanzpositionen; betroffene Bilanz- oder Erfolgspositionen müssen nicht genannt werden, die Unterscheidung Wiederbeschaffungs-/übrige
+    stille Reserven ist für die Ausweispflicht ohne Belang.
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
+- text: 'Wesentlichkeit der Auflösung: Eine Abnahme ist mit dem tatsächlichen (bereinigten) Jahresergebnis zu vergleichen und im Einzelfall zu beurteilen; die relative Höhe genügt nicht,
+    wenn die Auflösung einen Gewinn statt eines Verlusts bewirkt.'
+  quelle: hwp-bur-2023__rz-0675-s298
+  zitat: ist insbesondere dann nicht allein ausschlaggebend, wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
+- text: 'Wesentlichkeit der Prüfung: Ist das Ergebnis durch Bildung/Auflösung stiller Reserven gesteuert, ist für die Bestimmung der Wesentlichkeit vom effektiven Ergebnis auszugehen
+    (HWP ER Rz 42: bereinigter Jahresgewinn vor Steuern).'
+  quelle: ser-2022__5-2-t1
+  zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+- text: 'SER, allgemeine Prüfungen: Bestand und Veränderungen der stillen Reserven werden auf Basis der Erkenntnisse aus den einzelnen Bilanzpositionen plausibilisiert; ggf. ist die
+    Offenlegung einer wesentlichen Nettoauflösung zu verlangen (revio A1-207).'
+  quelle: ser-2022__anh-d-s072-2
+  zitat: Plausibilisierung von Bestand und Veränderungen der stillen Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Bilanzpositionen; ggf. Offenlegung
+    einer wesentlichen Nettoauflösung im Anhang
+- text: 'SER, Detailprüfung: Bestand und Veränderung der stillen Reserven werden mit dem Detailnachweis des Unternehmens abgestimmt (revio A1-308; je Prüffeld Schritt xx-321).'
+  quelle: ser-2022__anh-d-s073-1
+  zitat: Abstimmen von Bestand und Veränderung der stillen Reserven mit dem entsprechenden Detailnachweis
+- text: 'SER, Anhang: Zu prüfen ist, ob der Anhang die Nettoauflösung stiller Reserven enthält, wenn dadurch das Ergebnis wesentlich günstiger dargestellt wird (revio T1-305); ergänzend
+    Befragung nach der Berechnungsmethode im Vergleich zum Vorjahr (T1-111).'
+  quelle: ser-2022__anh-d-s098-2
+  zitat: Enthält der Anhang Angaben über die Nettoauflösung von stillen Reserven (wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird)?
+- text: Die Muster-Vollständigkeitserklärung des SER enthält die Bestätigung, dass Bildung, Auflösung und Bestand der stillen Reserven im Einzelnen mitgeteilt wurden.
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt (Art. 959c Abs. 1 Ziff. 3 OR).
+- text: 'revio 4.0 (intern, Konzept KI-Revisionsagent): Die stillen Reserven sind eine eigene Unterlage 10.3 im Bereich 10 «Unterlagen zum Abschluss» (neben 10.1 Saldenbilanz, 10.2 Umbuchungsliste,
+    10.4 Jahresrechnung/VE); im Bereich 10 darf der Agent arbeiten (Vorschläge PBC-Liste, Auswertung 10.11).'
+  quelle: konzept-ki-revisionsagent-2026__c006-2
+  zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
+- text: 'Bericht: Ist eine wesentliche Nettoauflösung entgegen OR 959c Abs. 1 Ziff. 3 nicht offengelegt, sieht das Muster HWP ER eine eingeschränkte Prüfungsaussage aufgrund eines festgestellten
+    Sachverhalts vor; bei grundlegender Auswirkung Muster verneinende Prüfungsaussage (muster-hwp-er-2026__c036-2). Entscheid beim WP.'
+  quelle: muster-hwp-er-2026__c025-2
+  zitat: Obwohl dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird, ist diese Auflösung entgegen der Bestimmung von Art. 959c Abs. 1 Ziff. 3 OR im Anhang nicht
+    offengelegt.
+- text: 'Kapitalverlust (OR 725a Abs. 1): In der Vergleichsrechnung bleiben allfällige stille Reserven grundsätzlich unberücksichtigt; massgebend ist das bilanzielle Eigenkapital der
+    letzten Jahresrechnung (vgl. HWP ER Rz 371).'
+  quelle: hwp-er-2026__rz-0369-s112
+  zitat: wobei allfällige stille Reserven bei der Berechnung grundsätzlich keine Berücksichtigung
+- text: Zu den bilanziellen Sanierungsmassnahmen zur Beseitigung eines Kapitalverlusts gehört die Auflösung stiller Reserven – unter Beachtung der Offenlegungspflicht nach OR 959c Abs.
+    1 Ziff. 3.
+  quelle: hwp-er-2026__rz-0375-s113-t1
+  zitat: Auﬂösung stiller Reserven unter Berücksichtigung der Oﬀenlegungspﬂichten von Art. 959c Abs. 1 Ziﬀ. 3 OR
+- text: Für Kapitalverlust/buchmässige Überschuldung zählt der OR-Einzelabschluss ohne stille Reserven; vor einer Aufwertung nach OR 725c empfiehlt das HWP, zuerst stille Reserven so
+    weit wie möglich aufzulösen.
+  quelle: hwp-bur-2023__rz-0891-s359-t1
+  zitat: ist es daher empfehlenswert und im Sinne der gesetzlichen Regelung, zuerst stille Reserven so weit wie möglich aufzulösen.
+agent:
+- 'Detailnachweis beschaffen: Die Aufstellung «Bestand und Veränderung stiller Reserven» (je Bilanzposition, Stichtag und Vorjahr) in M-Files suchen und mit revio 10.3 abgleichen. Fehlt
+  sie oder fehlt das Vorjahr: Notiz «Pendenz» und Vorschlag für die PBC-Liste (10.10). Gestützt auf ser-2022__anh-d-s073-1 und hwp-bur-2023__rz-0671-s297.'
+- 'Prüffeld-Schritte xx-321 (C1, D1, F1, F2, G1, G2, H1, H2, H3, I1, K1, M1, M3, O1, R1, S1; bei E1 ist es E1-320): Das Prüffeld-Ergebnis mit der entsprechenden Zeile der Aufstellung
+  abstimmen, also Buchwert gegen betriebswirtschaftlich notwendigen Wert bzw. OR-Höchstwert. Typische Positionen nach hwp-bur-2023__rz-0669-s296: Vorräte, Sachanlagen, Beteiligungen,
+  Wertschriften, Wertberichtigungen/Rückstellungen und Arbeitgeberbeitragsreserven. Abweichungen im Textfeld festhalten.'
+- 'Rechnen nur im Rechenmodul (`rechne`), nie im Kopf: Veränderung = Summe Bestand GJ − Summe Bestand VJ. Bei einer Abnahme die Nettoauflösung dem bereinigten Jahresergebnis gegenüberstellen
+  und prüfen, ob die Auflösung einen Verlust in einen Gewinn dreht (hwp-bur-2023__rz-0675-s298). Nicht einrechnen: Zwangsreserven (hwp-bur-2023__rz-0660-s295), Schwankungsreserve (hwp-bur-2023__rz-0817-s341-t2)
+  und Aufwertungsreserve (hwp-bur-2023__rz-0905-s365).'
+- 'Auflösungen ohne Auflösungsbuchung erkennen und als Hinweis erfassen: tiefere oder weggelassene Abschreibungen bei gleichem Anlagebestand (hwp-bur-2023__rz-0796-s329, hwp-bur-2023__rz-0341-s230),
+  anteilige Reduktion des Warendrittels beim Lagerabbau (hwp-bur-2023__rz-0759-s320) sowie Auflösung von Arbeitgeberbeitragsreserven ohne Verwendungsverzicht (hwp-bur-2023__rz-0666-s296).
+  Arbeitgeberbeitragsreserven mit Verwendungsverzicht sind keine stillen Reserven.'
+- 'Steuerliche Praxis als solche kennzeichnen: Warendrittel und Pauschaldelkredere sind steuerlich begünstigte Pauschalwertberichtigungen (hwp-bur-2023__rz-0759-s320, treuhand-almanach-2026__s029-1).
+  Soweit sie über den betriebswirtschaftlichen Bedarf hinausgehen, gehören sie als stille Reserve in die Aufstellung. Delkredere C1: Der Umgang mit stillen Reserven (C1-303, C1-321)
+  ist bei consis noch offen (konzept-ki-revisionsagent-2026__c015-2). Bis zum Entscheid nur dokumentieren, nicht beurteilen.'
+- 'Die Offenlegung latenter Steuern betrifft die Betragsbasis: Nach verbreiteter Praxis wird die Nettoauflösung vor latenten Steuern offengelegt (hwp-bur-2023__rz-0817-s341-t2). Der
+  Ausweis eines Gesamtbetrags genügt (hwp-bur-2023__rz-0817-s341-t1).'
+- 'T1-305 (Anhang): Bei einer rechnerischen Nettoauflösung prüfen, ob der Anhang einen Gesamtbetrag nennt. Fehlt die Angabe oder ist sie falsch: Notiz «Wesentliche Feststellungen» mit
+  Betrag sowie Notiz «Schlussbesprechung». Ob die Auflösung wesentlich ist und welche Prüfungsaussage folgt (eingeschränkt: muster-hwp-er-2026__c025-2; verneinend: muster-hwp-er-2026__c036-2),
+  entscheidet der WP.'
+- 'T1-111 (Befragung zur Berechnungsmethode im Vergleich zum Vorjahr, ser-2022__anh-d-s097-2): Der Agent befragt nicht selbst. Er wertet die schriftliche Antwort aus 10.11 aus, sonst
+  erfasst er die Frage als Pendenz. Status höchstens «teilweise bearbeitet». Ein Methodenwechsel ohne Begründung gehört in die Notiz «Schlussbesprechung».'
+- 'Vollständigkeitserklärung (10.4): Prüfen, ob die unterzeichnete Vollständigkeitserklärung den Satz zu Bildung, Auflösung und Bestand der stillen Reserven enthält (ser-2022__anh-e-s104-1).
+  Fehlt er: Pendenz.'
+- 'Planung/Analytik: Die Wesentlichkeit wird aus revio 3.3 nur gelesen, nie geändert. Wurde die Bezugsgrösse nicht um die Veränderung stiller Reserven bereinigt (ser-2022__5-2-t1, hwp-er-2026__rz-0042-s185-t1):
+  Pendenz. Für Vorjahresvergleiche (1.2) die Zahlen um die Veränderung stiller Reserven bereinigen (hwp-er-2026__rz-0110-s199).'
+- 'Kapitalschutz (P1-313, OR 725a): Den Kapitalverlust immer auf dem bilanziellen Eigenkapital ohne stille Reserven rechnen (hwp-er-2026__rz-0369-s112, hwp-er-2026__rz-0371-s112). Den
+  Bestand an stillen Reserven nur als Information für den WP angeben, als mögliche Sanierungsmassnahme mit Offenlegungsfolge (hwp-er-2026__rz-0375-s113-t1, qa-kapitalverlust-2023__2-2-2-t4).'
+- 'Einlagerückgewähr (P1-305): Bei der Ermittlung des freien Eigenkapitals dürfen stille Reserven netto nach latenten Steuern berücksichtigt werden (hwp-er-2026__rz-0167-s215). Für die
+  Zulässigkeit einer Ausschüttung gelten nur die offenen Reserven (hwp-er-2026__rz-0172-s216). Die Beurteilung trifft der WP.'
+- 'Grenzen: Keine Buchung und keine Korrektur der Aufstellung, Buchungsvorschläge nur als Notiz. Kein Urteil über die Wesentlichkeit der Nettoauflösung oder über die Prüfungsaussage.
+  Visum und ✓ bleiben offen.'
+prueffelder:
+- A1
+- T1
+- P1
+- C1
+- D1
+- E1
+- F1
+- F2
+- G1
+- G2
+- H1
+- H2
+- H3
+- I1
+- K1
+- M1
+- M3
+- O1
+- R1
+- S1
+phasen:
+- p2-planung
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht
+- p6-kapitalschutz
+- p8-agentablauf

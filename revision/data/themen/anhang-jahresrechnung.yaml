@@ -1,0 +1,210 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: anhang-jahresrechnung
+titel: Anhang der Jahresrechnung (OR 959c) und Prüfung
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 15
+  korrigiert: false
+stichworte:
+- Anhang
+- Anhangsangaben
+- Art. 959c OR
+- OR 959c
+- Pflichtangaben Anhang
+- Mindestangaben
+- angewandte Grundsätze
+- Bewertungsgrundsätze
+- Accounting policies
+- Vollzeitstellen
+- Jahresdurchschnitt 10 50 250
+- Beteiligungen Anhang
+- eigene Anteile
+- eigene Kapitalanteile
+- Leasingverbindlichkeiten
+- langfristige Mietverträge
+- Vorsorgeeinrichtungen
+- BVG-Verbindlichkeiten
+- Bürgschaften
+- Garantien
+- Sicherheiten für Dritte
+- verpfändete Aktiven
+- Eigentumsvorbehalt
+- Eventualverbindlichkeiten
+- Beteiligungsrechte Optionen
+- ausserordentliche einmalige periodenfremde Positionen
+- Ereignisse nach dem Bilanzstichtag
+- Rücktritt Revisionsstelle
+- Kapitalband
+- Nettoauflösung stille Reserven
+- stille Reserven Anhang
+- Aufwertung 725c
+- Anleihensobligationen
+- Honorar Revisionsstelle
+- Art. 961a OR
+- grössere Unternehmen
+- Verzicht Anhang Einzelunternehmen
+- Negativangaben
+- Offenlegung
+- Darstellung und Offenlegung
+- Prüffeld T1
+- SER Anhang D u
+- modifizierte Prüfungsaussage Offenlegung
+kurz: Der Anhang (Art. 959c OR) ergänzt und erläutert Bilanz und Erfolgsrechnung. Er enthält die angewandten Grundsätze, Erläuterungen zu Positionen, eine wesentliche Nettoauflösung
+  stiller Reserven und die Angaben nach Abs. 2 (u.a. Vollzeitstellen, Beteiligungen, eigene Anteile, Leasing, Vorsorge, Sicherheiten, Eventualverbindlichkeiten, Ereignisse nach dem Bilanzstichtag).
+  Anzugeben ist nur, was zutrifft. Das Revisionshonorar ist nur bei grösseren Unternehmen Pflicht (Art. 961a OR). Prüfung T1 nach SER Anhang D u.
+aussagen:
+- text: 'Grundlage (Art. 959c Abs. 1 OR): Der Anhang ergänzt und erläutert die übrigen Bestandteile der Jahresrechnung. Er enthält (1) die angewandten Grundsätze, soweit sie nicht vom
+    Gesetz vorgeschrieben sind, (2) Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung, (3) den Gesamtbetrag der Nettoauflösung stiller Reserven,
+    wenn dadurch das Ergebnis wesentlich günstiger dargestellt wird, und (4) weitere vom Gesetz verlangte Angaben.'
+  quelle: or__art-959c-t1
+  zitat: Der Anhang der Jahresrechnung ergänzt und erläutert die anderen Bestandteile der Jahresrechnung.
+- text: 'Art. 959c Abs. 2 Ziff. 1–5 OR (nur soweit nicht schon aus Bilanz oder Erfolgsrechnung ersichtlich): Firma oder Name, Rechtsform und Sitz; eine Erklärung, ob die Vollzeitstellen
+    im Jahresdurchschnitt nicht über 10, über 50 bzw. über 250 liegen; direkte und wesentliche indirekte Beteiligungen mit Kapital- und Stimmenanteil; die Anzahl eigener Anteile beim
+    Unternehmen und bei den von ihm kontrollierten Unternehmen (Art. 963 OR); Erwerb und Veräusserung eigener Anteile mit den Bedingungen. Die genaue Anzahl Vollzeitstellen muss nicht
+    angegeben werden ^[hwp-bur-2023__rz-0821-s343].'
+  quelle: or__art-959c-t1
+  zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
+- text: 'Art. 959c Abs. 2 Ziff. 6–15 OR: (6) Restbetrag der Leasingverbindlichkeiten, die nicht innert 12 Monaten auslaufen oder gekündigt werden können; (7) Verbindlichkeiten gegenüber
+    Vorsorgeeinrichtungen; (8) Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten; (9) Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven
+    und der Aktiven unter Eigentumsvorbehalt; (10) Eventualverbindlichkeiten; (11) Beteiligungsrechte und Optionen für Organe und Mitarbeitende; (12) Erläuterungen zu ausserordentlichen,
+    einmaligen oder periodenfremden Positionen; (13) wesentliche Ereignisse nach dem Bilanzstichtag; (14) Gründe für einen vorzeitigen Rücktritt oder eine Abberufung der Revisionsstelle;
+    (15) Kapitalerhöhungen und -herabsetzungen des VR innerhalb eines Kapitalbands.'
+  quelle: or__art-959c-t2
+  zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint oder in der Höhe nicht verlässlich geschätzt werden kann (Eventualverbindlichkeit)
+- text: 'Erleichterung (Art. 959c Abs. 3 OR): Nur Einzelunternehmen und Personengesellschaften dürfen auf den Anhang verzichten, und nur wenn sie nicht nach den Vorschriften für grössere
+    Unternehmen Rechnung legen müssen. Verlangt die Mindestgliederung Zusatzangaben, gehören diese dann direkt in die Bilanz oder Erfolgsrechnung. Für alle übrigen Unternehmen ist der
+    Anhang Pflicht ^[hwp-bur-2023__rz-0042-s065]. Nach Abs. 4 sind bei ausstehenden Anleihensobligationen Beträge, Zinssätze, Fälligkeiten und Konditionen anzugeben.'
+  quelle: or__art-959c-t3
+  zitat: Einzelunternehmen und Personengesellschaften können auf die Erstellung des Anhangs verzichten, wenn sie nicht zur Rechnungslegung nach den Vorschriften für grössere Unternehmen
+    verpflichtet sind.
+- text: 'Honorar der Revisionsstelle: Art. 961a OR verlangt zusätzlich (a) die langfristigen verzinslichen Verbindlichkeiten nach Fälligkeit (1–5 Jahre, über 5 Jahre) und (b) das Revisionshonorar,
+    getrennt nach Revisions- und anderen Dienstleistungen. Das gilt nur für Unternehmen, die von Gesetzes wegen ordentlich zu revidieren sind (Art. 961 Ziff. 1 OR ^[or__art-961]). Bei
+    einem SER-Mandat ist das Honorar deshalb keine gesetzliche Pflichtangabe. Erstellt das Unternehmen oder eine kontrollierende juristische Person eine Konzernrechnung nach anerkanntem
+    Standard, kann darauf verzichtet werden (Art. 961d OR ^[or__art-961d]).'
+  quelle: or__art-961a
+  zitat: zum Honorar der Revisionsstelle je gesondert für Revisionsdienstleistungen und andere Dienstleistungen
+- text: 'Darstellung (HWP BuR Rz 810): Die Grundsätze ordnungsmässiger Rechnungslegung (Art. 958c OR) gelten auch für den Anhang, also mit Angaben zum Geschäfts- und zum Vorjahr. Auszuweisen
+    sind nur die zutreffenden Positionen; Negativangaben gibt es nicht.'
+  quelle: hwp-bur-2023__rz-0810-s337
+  zitat: Es sind jedoch nur die zutreffenden Positionen auszuweisen (keine Negativangaben).
+- text: 'Angewandte Grundsätze (Ziff. 1, HWP BuR Rz 814) sind die Wahlmöglichkeiten bei Erfassung, Darstellung und Bewertung. Sofern anwendbar, sind mindestens offenzulegen: Bewertung
+    von Vorräten und angefangenen Arbeiten, Umsatzerfassung bei komplexen Geschäftsmodellen, Kryptowährungen, Marktpreisbewertung und Schwankungsreserven, Gewinne und Verluste aus eigenen
+    Kapitalanteilen, Fremdwährungsumrechnung, Leasing, Hedge Accounting, aktienbasierte Vergütungen und Änderungen der Grundsätze. Schätzparameter offenzulegen kann wegen der zulässigen
+    stillen Reserven irreführend sein.'
+  quelle: hwp-bur-2023__rz-0814-s338
+  zitat: Darunter sind die Wahlmöglichkeiten in der Erfassung, Darstellung und Bewertung zu verstehen (Accounting policies).
+- text: 'Nettoauflösung stiller Reserven (Ziff. 3, HWP BuR Rz 817): Offenzulegen ist nur der Nettobetrag als Gesamtbetrag, ohne Angabe der betroffenen Positionen, und nur wenn die Ergebnisverbesserung
+    wesentlich ist. Die stillen Reserven werden pro Bilanzposition nach stetig angewandten Methoden ermittelt und zusammengezählt. Zwangsreserven und Schwankungsreserven fallen nicht
+    unter diese Ausweispflicht ^[hwp-bur-2023__rz-0817-s341-t2].'
+  quelle: hwp-bur-2023__rz-0817-s341-t1
+  zitat: Offenzulegen ist nur der Nettobetrag der aufgelösten stillen Reserven.
+- text: 'Beteiligungen (Ziff. 3, HWP BuR Rz 826): Mindestens Firma, Rechtsform, Sitz, Kapital- und Stimmrechtsanteil sowie direkte oder indirekte Haltung. Ab 20 % der Stimmrechte wird
+    ein massgeblicher Einfluss vermutet. Kleinere Anteile können trotzdem Beteiligungen sein ^[hwp-bur-2023__rz-0825-s344].'
+  quelle: hwp-bur-2023__rz-0826-s344
+  zitat: zumindest Firma, Rechtsform, Sitz, Kapital- und Stimmrechtsanteil anzugeben, sowie ob sie direkt oder indirekt gehalten werden
+- text: 'Eigene Anteile (Ziff. 4/5): Das Korrigendum HWP vom 21.9.2026 ersetzt in HWP BuR III.5.8 (Rz 831) den Begriff «an dem das Unternehmen beteiligt ist» durch «kontrolliertes Unternehmen».
+    Im Anhang der Muttergesellschaft sind deshalb auch Transaktionen mit ihren Aktien durch kontrollierte Unternehmen offenzulegen. Zu Erwerb und Veräusserung sind mindestens Datum,
+    Anzahl, Art, bezahlter Preis und weitere Bedingungen anzugeben ^[hwp-bur-2023__rz-0829-s345].'
+  quelle: korrigendum-hwp-2026__s011-1
+  zitat: Entsprechend sind im Anhang der Muttergesellschaft auch Transaktionen mit ihren Aktien durch ein kontrolliertes Unternehmen (Erwerb, Veräusserung und Bedingungen) offenzulegen
+- text: 'Leasing (Ziff. 6, HWP BuR Rz 836): Auszuweisen sind alle per Stichtag noch zu leistenden Beträge einschliesslich Zinsen und Kosten, in voller Höhe und zum Nominalwert. Auch
+    langfristige Mietverträge, die nicht innert 12 Monaten auslaufen oder gekündigt werden können, gehören dazu (Restmietzins bis Vertragsende bzw. Ablauf der Kündigungsfrist) ^[hwp-bur-2023__rz-0835-s346].
+    Sind die Leasingverbindlichkeiten gesondert bilanziert, braucht es keine separate Anhangangabe ^[hwp-bur-2023__rz-0833-s345].'
+  quelle: hwp-bur-2023__rz-0836-s346
+  zitat: in voller Höhe und nicht bloss der Teil, der erst nach zwölf Monaten fällig ist. Der Ausweis des Restbetrags hat hierbei zum Nominalwert zu erfolgen.
+- text: 'Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Ziff. 7, HWP BuR Rz 838): Üblicherweise genügt ein Gesamtbetrag. Die Pflicht gilt unabhängig von der Form der Vorsorge, also
+    auch beim Anschluss an eine Sammel- oder Gemeinschaftseinrichtung.'
+  quelle: hwp-bur-2023__rz-0838-s346
+  zitat: Die Ausweispflicht ist unabhängig von der Form der Vorsorge zu verstehen
+- text: 'Sicherheiten für Dritte (Ziff. 8, HWP BuR Rz 839–841): Dazu gehören u.a. Bürgschaften, Garantien, Pfandbestellungen, Sicherungszessionen und -übereignungen sowie klagbare Patronatserklärungen.
+    Auszuweisen ist die volle Haftungssumme (Maximalbetrag), auch wenn der beanspruchte Kredit am Stichtag tiefer ist. Regressansprüche werden nicht abgezogen.'
+  quelle: hwp-bur-2023__rz-0841-s347
+  zitat: Ausweispflichtig ist grundsätzlich die volle Haftungssumme. Es ist deshalb der Maximalbetrag der eingegangenen Verpflichtung einzusetzen.
+- text: Aktiven zur Sicherung eigener Verbindlichkeiten und Aktiven unter Eigentumsvorbehalt (Ziff. 9, HWP BuR Rz 846) werden zu Buchwerten angegeben. Ein Pfandrecht der Bank aus ihren
+    AGB ist ausweispflichtig, wenn bei dieser Bank ein nicht vollständig gesichertes Kreditverhältnis besteht. Besteht kein Kredit oder sind die Limiten nicht beansprucht, entfällt der
+    Ausweis ^[hwp-bur-2023__rz-0847-s349-t2].
+  quelle: hwp-bur-2023__rz-0846-s349
+  zitat: Die Angabe des Betrags der belasteten Aktiven im Anhang erfolgt zu den gleichen Ansätzen wie in der Bilanz, also zu Buchwerten.
+- text: 'Eventualverbindlichkeiten (Ziff. 10, HWP BuR Rz 853/854): Abzugrenzen ist zur Rückstellung. Muss das Unternehmen von einer Verpflichtung ausgehen, ist nach bestmöglicher Schätzung
+    zurückzustellen; eine grosse Spannbreite rechtfertigt keinen blossen Anhangausweis. Die Offenlegung umschreibt die Verpflichtung und ihren möglichen Umfang am Bilanzstichtag ^[hwp-bur-2023__rz-0854-s350].'
+  quelle: hwp-bur-2023__rz-0853-s350
+  zitat: Eine grosse Spannbreite möglicher Mittelabflüsse ist kein Grund, auf die Bildung einer Rückstellung zu verzichten
+- text: 'Ereignisse nach dem Bilanzstichtag (Ziff. 13, HWP BuR Rz 860): Anzugeben sind positive und negative Ereignisse bis zur Freigabe der Jahresrechnung, mit Art des Ereignisses und
+    geschätzter finanzieller Auswirkung; ist keine Schätzung möglich, ist das anzugeben. Bestand die Ursache schon am Stichtag, wird gebucht. Tritt die Ursache erst danach ein, gehört
+    das Ereignis nur in den Anhang ^[hwp-bur-2023__rz-0861-s353].'
+  quelle: hwp-bur-2023__rz-0860-s353
+  zitat: Es sind die Art des Ereignisses und eine Schätzung der finanziellen Auswirkungen offenzulegen. Ist eine Schätzung nicht möglich, ist dies anzugeben.
+- text: 'Prüfung T1, Befragungen (SER Anhang D u): Gefragt wird nach Beteiligungen, eigenen Anteilen, nicht bilanzierten Leasing- und Mietverpflichtungen, Vorsorgeverbindlichkeiten,
+    Sicherheiten für Dritte, verpfändeten Aktiven und Eigentumsvorbehalt, ebenso nach Eventualverbindlichkeiten, Beteiligungsrechten und Optionen, schwebenden Geschäften und Ereignissen
+    nach dem Bilanzstichtag, der Berechnungsmethode der stillen Reserven, dem Rücktritt der Revisionsstelle und dem Kapitalband ^[ser-2022__anh-d-s097-2].'
+  quelle: ser-2022__anh-d-s097-1
+  zitat: Befragung nach nicht bilanzierten Leasing- und Mietverpflichtungen, welche nicht innert zwölf Monaten ab Bilanzstichtag auslaufen oder gekündigt werden können
+- text: 'Prüfung T1, Detailprüfungen (SER Anhang D u): Der Anhang wird auf vollständige Offenlegung nach Art. 959c OR durchgesehen. Geprüft werden Grundsätze, Erläuterungen inkl. ausserordentlicher
+    Positionen, Nettoauflösung stiller Reserven und Firma/Rechtsform/Sitz; die Vollzeitstellen werden plausibilisiert. Weiter: Zusatzpositionen (Art. 959a Abs. 3/959b Abs. 5 OR), Absatzerfolgsrechnung
+    (Art. 959b Abs. 4), Forderungen und Verbindlichkeiten gegenüber Beteiligten und Organen (Art. 959a Abs. 4), Marktpreisbewertung und Schwankungsreserve (Art. 960b), Umrechnungskurse
+    (Art. 958d Abs. 3), Abweichung von der Fortführung (Art. 958a Abs. 3) und Aufwertungen ^[ser-2022__anh-d-s098-3]. Darstellung und Offenlegung beurteilt der Prüfer aus seiner Kenntnis
+    des Unternehmens ^[ser-2022__4-3-7].'
+  quelle: ser-2022__anh-d-s098-2
+  zitat: Durchsicht des Anhangs auf vollständige Offenlegung der aufgrund der Befragungen zutreffenden Positionen gemäss Art. 959c OR sowie der weiteren vom Gesetz verlangten Angaben
+- text: 'Stille Reserven (SER Anhang D a, allgemeine Prüfungen): Bestand und Veränderung der stillen Reserven werden auf Basis der Ergebnisse in den einzelnen Bilanzpositionen plausibilisiert;
+    eine wesentliche Nettoauflösung muss im Anhang offengelegt sein. Die Unternehmensleitung bestätigt in der Vollständigkeitserklärung Bildung, Auflösung und Bestand der stillen Reserven
+    ^[ser-2022__anh-e-s104-1].'
+  quelle: ser-2022__anh-d-s072-2
+  zitat: Plausibilisierung von Bestand und Veränderungen der stillen Reserven auf Basis der Erkenntnisse aus den Prüfungsarbeiten bei den einzelnen Bilanzpositionen
+- text: 'Folgen für den Bericht: Eine nicht modifizierte Prüfungsaussage ist nur möglich, wenn der Prüfer nicht auf einen unvollständigen oder unrichtigen Anhang gestossen ist (HWP ER
+    Rz 377 ^[hwp-er-2026__rz-0377-s269]). Wesentliche Verstösse gegen Offenlegungspflichten im Anhang führen zu einer modifizierten Prüfungsaussage. Für eine nicht offengelegte Nettoauflösung
+    stiller Reserven gibt es eine Musterformulierung ^[muster-hwp-er-2026__c025-2]. Ob und wie modifiziert wird, entscheidet der WP.'
+  quelle: hwp-er-2026__rz-0386-s270-t2
+  zitat: Wesentliche Verstösse gegen Gliederungsvorschriften oder Offenlegungspflichten im Anhang führen zu einer modifizierten Prüfungsaussage.
+agent:
+- 'Rolle in T1 (32 Schritte: 12 Befragungen, 16 Detail, 4 Sonstige): Befragungen T1-101 bis T1-112 kann der Agent nicht selbst führen. Er wertet schriftliche Antworten aus (revio 10.11
+  Kundenbefragung), sonst erfasst er eine Pendenz; Status höchstens «teilweise» ^[konzept-ki-revisionsagent-2026__c012-1]. Detailschritte 3xx bereitet er vor. T1-308 (Abstimmung mit
+  Belegen) ist ein WP-Schritt und bleibt beim Menschen. 4xx-Schritte (T1-401 bis T1-404) nur auf Anweisung. Visum, ✓ und Abschliessende Beurteilung bleiben offen.'
+- 'Prüfung früh beginnen, nicht erst am Ende (HWP ER Rz 77 ^[hwp-er-2026__rz-0077-s193]): den Anhangentwurf (revio 1.1) laufend mit den Erkenntnissen aus den Prüffeldern abgleichen (321
+  stille Reserven, 320 Anhang).'
+- 'Unterlagen aus M-Files: Anhang des Entwurfs und Vorjahresanhang; Handelsregisterauszug (Firma, Rechtsform, Sitz, Kapitalband); Beteiligungsübersicht; Aktienbuch und Belege zu eigenen
+  Anteilen; Leasing- und langfristige Mietverträge; BVG-Kontoauszug per Stichtag (T1-309); Kredit-, Pfand- und Zessionsverträge, Bank-AGB; Bürgschafts-, Garantie- und Patronatsurkunden;
+  VR- und GV-Protokolle des neuen Jahres; Lohnunterlagen für die Vollzeitstellen; unterzeichnete Vollständigkeitserklärung. Fehlt etwas: Notiz «Pendenz» mit Dokument und Konto.'
+- 'Checkliste OR 959c → Prüfschritt: Abs. 1 Ziff. 1 Grundsätze → T1-301/T1-302 · Ziff. 2 Erläuterungen → T1-303, ausserordentliche Positionen T1-310 · Ziff. 3 stille Reserven → T1-111/T1-305
+  · Abs. 2 Ziff. 1 Firma/Sitz → T1-301 · Ziff. 2 Vollzeitstellen → T1-304 · Ziff. 3 Beteiligungen → T1-101 · Ziff. 4/5 eigene Anteile → T1-102/T1-317 · Ziff. 6 Leasing/Miete → T1-103
+  · Ziff. 7 Vorsorge → T1-104/T1-309 · Ziff. 8 Sicherheiten Dritte → T1-105 · Ziff. 9 verpfändete Aktiven/Eigentumsvorbehalt → T1-106 · Ziff. 10 Eventualverbindlichkeiten → T1-107 ·
+  Ziff. 11 Beteiligungsrechte/Optionen → T1-108 · Ziff. 13 Ereignisse nach Stichtag → T1-109 · Ziff. 14 Rücktritt Revisionsstelle → T1-112 (Wortlaut: T1-402 auf Anweisung) · Ziff. 15
+  Kapitalband → T1-110 · weitere Angaben (Fortführung, Fremdwährung, Art. 960b, Aufwertung, Spezialgesetze) → T1-306/T1-318/T1-319 · Art. 959a Abs. 4 → T1-315 · Art. 959b Abs. 4 → T1-316
+  · Art. 959a Abs. 3/959b Abs. 5 → T1-307 · Anleihen Abs. 4 → T1-401 · Art. 961a (nur grössere Unternehmen) → T1-403/T1-404.'
+- 'Zahlen abstimmen: jede Betragsangabe im Anhang mit Saldenliste, Bilanz und Vorjahresanhang vergleichen. Totale und Differenzen nur im Rechenmodul (`rechne`), nie im Kopf. Leasing-
+  und Mietrestbeträge nominal inkl. Zinsen bis Vertragsende bzw. Ablauf der Kündigungsfrist nachrechnen ^[hwp-bur-2023__rz-0836-s346]. Sicherheiten für Dritte mit der vollen Haftungssumme,
+  nicht mit dem beanspruchten Betrag ^[hwp-bur-2023__rz-0841-s347].'
+- 'Vollzeitstellen (T1-304): die Angabe mit Personalaufwand bzw. Lohnunterlagen plausibilisieren. Bedeutung der Schwellen: 10 = Opting-out (Art. 727a Abs. 2 OR), 250 = Kriterium für
+  die ordentliche Revision ^[hwp-bur-2023__rz-0820-s343]. Liegt die Angabe über 10 und besteht ein Opting-out, oder passen Angabe und Revisionsart nicht zusammen: Notiz «Wesentliche
+  Feststellungen» oder «Schlussbesprechung». Die Konsequenz beurteilt der WP.'
+- 'Stille Reserven (T1-111/T1-305): Bestand und Veränderung pro Position aus den 321-Schritten der Prüffelder sammeln und die Nettoauflösung mit `rechne` ermitteln. Methode mit dem Vorjahr
+  vergleichen. Die Wesentlichkeit aus revio 3.3 nur lesen. Ob die Nettoauflösung wesentlich und damit offenlegungspflichtig ist, entscheidet der WP. Die Bestätigung in der Vollständigkeitserklärung
+  prüfen ^[ser-2022__anh-e-s104-1].'
+- 'Eventualverbindlichkeiten und Ereignisse nach dem Stichtag: Rückstellungen (O1) und Anhang gemeinsam beurteilen; eine reine Anhangangabe bei wahrscheinlichem Mittelabfluss ist ein
+  Warnsignal ^[hwp-bur-2023__rz-0853-s350]. Ereignisse nach dem Stichtag über VR-Protokolle, Kontenbewegungen im neuen Jahr und Vollständigkeitserklärung erheben ^[hwp-er-2026__rz-0323-s256].
+  Buchungspflichtige Ereignisse (Ursache vor dem Stichtag) gehören als Buchungsvorschlag in die Notiz, nicht in den Anhang ^[hwp-bur-2023__rz-0861-s353].'
+- 'Eigene Anteile: HWP BuR Rz 831 nur zusammen mit dem Korrigendum vom 21.9.2026 zitieren; massgebend ist «kontrolliertes Unternehmen» ^[korrigendum-hwp-2026__s011-1].'
+- 'Revisionshonorar und Art. 961a: Bei SER-Mandaten keine Pflichtangabe; fehlt die Angabe, ist das keine Feststellung ^[or__art-961]. Ist ein Honorar freiwillig angegeben, nur dessen
+  Richtigkeit plausibilisieren. Bei Einzelunternehmen und Personengesellschaften ohne Anhang (Art. 959c Abs. 3 OR) prüfen, ob die von der Mindestgliederung verlangten Zusatzangaben in
+  Bilanz oder Erfolgsrechnung stehen ^[or__art-959c-t3].'
+- 'Feststellungen: Fehlt eine Angabe oder ist sie falsch, Notiz «Wesentliche Feststellungen» mit Ziffer OR 959c, Sachverhalt, Betrag (aus `rechne`) und Textvorschlag für den Anhang.
+  Das Kundendokument nicht ändern. Besprechungspunkte in die Notiz «Schlussbesprechung». Ob eine modifizierte Prüfungsaussage nötig ist und wie sie lautet (Muster: muster-hwp-er-2026__c025-2),
+  entscheidet und formuliert der WP. Der Agent unterzeichnet und datiert keinen Bericht.'
+- 'Quellenrang: OR > SER > HWP ER > HWP BuR und übrige. HWP OR und SA-CH nur ergänzend (ordentliche Revision), z.B. für Prüfungshandlungen zu stillen Reserven (hwp-or-2024 III.4.9.5.3).
+  Die Q&A Rechnungslegungsrecht enthält zum Anhang noch keine Q&As (qa-or-rechnungslegung-2026__4-2).'
+prueffelder:
+- T1
+- A1
+- H3
+- P1
+- L1
+- N1
+- M1
+- O1
+- R1
+- SCH5
+phasen:
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht

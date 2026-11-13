@@ -1,0 +1,288 @@
+# Werte Kategorie steuern_bewertung – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: estv_delkredere_inland
+  bezeichnung: Steuerlich zugelassenes pauschales Delkredere auf inländischen Forderungen (ESTV)
+  wert: '5'
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
+  kategorie: steuern_bewertung
+  bemerkung: Gilt für das allgemeine Kreditrisiko nach Einzelwertberichtigungen. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen.
+    Handelsrechtlich allenfalls stille Reserve. Ob betriebswirtschaftlich hergeleitet oder ESTV-Pauschale, ist bei consis ein offener Entscheid (Konzept, Prüffeld C1). Der WP entscheidet.
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+  status: agent-geprueft
+- key: estv_delkredere_ausland
+  bezeichnung: Steuerlich zugelassenes pauschales Delkredere auf ausländischen Forderungen (ESTV)
+  wert: '10'
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
+  kategorie: steuern_bewertung
+  bemerkung: 'Wie Inland: erst Einzelwertberichtigungen, dann Pauschale auf dem Rest. Einige Kantone lassen abweichende Pauschalen zu (kt_zh_delkredere).'
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+  status: agent-geprueft
+- key: kt_zh_delkredere
+  bezeichnung: Kantonal abweichendes Pauschaldelkredere, Beispiel Kanton Zürich (inländisch / ausländisch)
+  wert: 10 / 20
+  einheit: '%'
+  gilt: HWP BuR, Ausgabe 2023
+  kategorie: steuern_bewertung
+  bemerkung: Gilt für Staats- und Gemeindesteuer ZH (Stand HWP 2023). Aktuelle kantonale Praxis vor Anwendung prüfen. Der höhere Teil gegenüber dem betriebswirtschaftlichen Bedarf ist
+    eine stille Reserve.
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: beispielsweise Kanton Zürich 10 % auf inländischen und 20 % auf ausländischen Guthaben
+  status: agent-geprueft
+- key: warendrittel
+  bezeichnung: Steuerlich zugelassener pauschaler Bewertungsabzug auf Warenlager (Warendrittel / Warenreserve)
+  wert: 1/3
+  einheit: Anteil
+  gilt: HWP BuR, Ausgabe 2023 (Praxis Steuerbehörden)
+  kategorie: steuern_bewertung
+  bemerkung: Basis ist der gesetzliche Höchstwert (AK/HK nach Wertberichtigungen für Unkurantes bzw. tieferer Netto-Veräusserungswert). Nach allen handelsrechtlich nötigen Korrekturen
+    hat der Abzug Reservecharakter. Baut sich das Lager ab, werden stille Reserven aufgelöst, ggf. offenlegungspflichtig (Art. 959c Abs. 1 Ziff. 3 OR).
+  quelle: hwp-bur-2023__rz-0253-s214
+  zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
+  status: agent-geprueft
+- key: agbr_steuerliche_obergrenze
+  bezeichnung: Steuerliche Obergrenze der Arbeitgeberbeitragsreserve (AGBR)
+  wert: '5'
+  einheit: Vielfaches der ordentlichen AG-Jahresbeiträge
+  gilt: Treuhand-Almanach 2026 (Verwaltungspraxis kantonale Steuerbehörden)
+  kategorie: steuern_bewertung
+  bemerkung: Jahresbeiträge inkl. Risikobeiträge und Verwaltungskosten. Handelsrechtlich gibt es keine Obergrenze. Darüber hinausgehende Einlagen werden steuerlich aufgerechnet.
+  quelle: treuhand-almanach-2026__s062-1
+  zitat: wird die Höhe der AGBR auf das Fünffache der ordentlichen Arbeitgeber-Jahresbeiträge
+  status: agent-geprueft
+- key: estv_abschreibung_faktor_anschaffungswert
+  bezeichnung: Umrechnung der ESTV-Abschreibungssätze bei Abschreibung vom Anschaffungswert
+  wert: '0.5'
+  einheit: Faktor auf Buchwert-Satz
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026 Tab. 26
+  kategorie: steuern_bewertung
+  bemerkung: Die Sätze gelten vom Buchwert (degressiv). Linear vom Anschaffungswert gilt die Hälfte. Sekundärquelle, das Merkblatt selbst ist nicht im Wiki.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftsmobiliar
+  bezeichnung: ESTV-Abschreibungssatz Geschäftsmobiliar und Einrichtungen (vom Buchwert)
+  wert: '25'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: 'Werte in Reihenfolge der Bezeichnungen, Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf S. 61). Anwendung: Plausibilisierung Abschreibungen und stille Reserven
+    im Anlagevermögen.'
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_maschinen_produktion
+  bezeichnung: ESTV-Abschreibungssatz Apparate und Maschinen zur Produktion (vom Buchwert)
+  wert: '30'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Zweiter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_motorfahrzeuge
+  bezeichnung: ESTV-Abschreibungssatz Motorfahrzeuge aller Art (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Dritter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_bueromaschinen
+  bezeichnung: ESTV-Abschreibungssatz Büromaschinen (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Vierter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_edv
+  bezeichnung: ESTV-Abschreibungssatz Datenverarbeitungsanlagen (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Fünfter Wert der Folge. Zuordnung im Original geprüft (S. 61).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftsmobiliar und Einrichtungen Apparate und Maschinen zur Produktion Motorfahrzeuge aller Art Büromaschinen Datenverarbeitungsanlagen 25 % 30 % 40 % 40 % 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_wohnhaeuser_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Wohnhäuser, Gebäude ohne Anteil Boden (vom Buchwert)
+  wert: '2'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Wohnhäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 2% 1,5 %
+  status: agent-geprueft
+- key: estv_abschreibung_wohnhaeuser_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Wohnhäuser, Gebäude mit Anteil Boden (vom Buchwert)
+  wert: '1.5'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: 'Fussnote *: Abschreibung nur bis zum Wert des Landes erlaubt.'
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Wohnhäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 2% 1,5 %
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftshaeuser_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Geschäftshäuser, Gebäude ohne Anteil Boden (vom Buchwert)
+  wert: '4'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftshäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 4% 3%
+  status: agent-geprueft
+- key: estv_abschreibung_geschaeftshaeuser_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Geschäftshäuser, Gebäude mit Anteil Boden (vom Buchwert)
+  wert: '3'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Geschäftshäuser • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 4% 3%
+  status: agent-geprueft
+- key: estv_abschreibung_gastwirtschaft_hotel_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Gebäude Gastwirtschaft und Hotellerie, ohne Anteil Boden (vom Buchwert)
+  wert: '6'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Gebäude Gastwirtschaft und Hotellerie • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 6% 4%
+  status: agent-geprueft
+- key: estv_abschreibung_gastwirtschaft_hotel_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Gebäude Gastwirtschaft und Hotellerie, mit Anteil Boden (vom Buchwert)
+  wert: '4'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Gebäude Gastwirtschaft und Hotellerie • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 6% 4%
+  status: agent-geprueft
+- key: estv_abschreibung_fabrik_lager_ohne_boden
+  bezeichnung: ESTV-Abschreibungssatz Fabrikgebäude und Lager, ohne Anteil Boden (vom Buchwert)
+  wert: '8'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert ohne Boden, zweiter mit Boden.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%
+  status: agent-geprueft
+- key: estv_abschreibung_fabrik_lager_mit_boden
+  bezeichnung: ESTV-Abschreibungssatz Fabrikgebäude und Lager, mit Anteil Boden (vom Buchwert)
+  wert: '7'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Abschreibung nur bis zum Wert des Landes erlaubt.
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%
+  status: agent-geprueft
+- key: estv_abschreibung_immaterielle
+  bezeichnung: 'ESTV-Abschreibungssatz immaterielle Werte: Lizenzen, Patente, Goodwill (vom Buchwert)'
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A 1995 (Stand 10.10.2023), gem. Treuhand-Almanach 2026
+  kategorie: steuern_bewertung
+  bemerkung: Vom Anschaffungswert gilt die Hälfte (estv_abschreibung_faktor_anschaffungswert).
+  quelle: treuhand-almanach-2026__s061-1
+  zitat: Lizenzen, Patente, Goodwill 40 %
+  status: agent-geprueft
+- key: estv_kurs_eur_stichtag_2025
+  bezeichnung: ESTV-Stichtagskurs EUR per 31.12.2025
+  wert: '0.9305'
+  einheit: CHF je EUR 1
+  gilt: Stichtag 31.12.2025
+  kategorie: steuern_bewertung
+  bemerkung: 'Zweiter Wert ist der Stichtagskurs 31.12.2025, erster der Durchschnittskurs 2025 (Tab. 28, ESTV-Kursliste). Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf
+    S. 62). Anwendung: Umrechnung von Fremdwährungspositionen im Abschluss 2025 plausibilisieren.'
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: 0.9370347 EU EUR 1 0.930500
+  status: agent-geprueft
+- key: estv_kurs_eur_durchschnitt_2025
+  bezeichnung: ESTV-Durchschnittskurs EUR 2025
+  wert: '0.9370347'
+  einheit: CHF je EUR 1
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert (Durchschnittskurs 2025). Anwendung: Umrechnung von Erfolgspositionen in Fremdwährung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: 0.9370347 EU EUR 1 0.930500
+  status: agent-geprueft
+- key: estv_kurs_usd_stichtag_2025
+  bezeichnung: ESTV-Stichtagskurs USD per 31.12.2025
+  wert: '0.79225'
+  einheit: CHF je USD 1
+  gilt: Stichtag 31.12.2025
+  kategorie: steuern_bewertung
+  bemerkung: Zweiter Wert ist der Stichtagskurs 31.12.2025, erster der Durchschnittskurs 2025. Zuordnung im Original geprüft (S. 62).
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: USD 1 0.83065179 USA USD 1 0.792250
+  status: agent-geprueft
+- key: estv_kurs_usd_durchschnitt_2025
+  bezeichnung: ESTV-Durchschnittskurs USD 2025
+  wert: '0.83065179'
+  einheit: CHF je USD 1
+  gilt: Kalenderjahr 2025
+  kategorie: steuern_bewertung
+  bemerkung: Erster Wert (Durchschnittskurs 2025).
+  quelle: treuhand-almanach-2026__s062-2
+  zitat: USD 1 0.83065179 USA USD 1 0.792250
+  status: agent-geprueft
+- key: gewinnsteuer_ar_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort AR (inkl. direkte Bundessteuer), effektiv
+  wert: '13.04'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (15,00), zweiter effektiv. Kantonaler Einheitssatz. Anwendung: Steuerrückstellung und Steueraufwand plausibilisieren. Sekundärquelle.'
+  quelle: treuhand-almanach-2026__s056-1
+  zitat: AR 15,00 13,04
+  status: agent-geprueft
+- key: gewinnsteuer_sg_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort SG (inkl. direkte Bundessteuer), effektiv
+  wert: '14.29'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (16,68), zweiter effektiv. Kantonaler Einheitssatz. Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: SG 2 16,68 14,29
+  status: agent-geprueft
+- key: gewinnsteuer_tg_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort TG (inkl. direkte Bundessteuer), effektiv
+  wert: '13.21'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (15,23), zweiter effektiv. Gemeinden: höchste 13,99 (Arbon Stachen), tiefste 12,19 (Bottighofen). Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: TG 15,23 13,21
+  status: agent-geprueft
+- key: gewinnsteuer_zh_hauptort_2025
+  bezeichnung: Maximale Gewinnsteuerbelastung juristische Personen, Hauptort ZH (inkl. direkte Bundessteuer), effektiv
+  wert: '19.61'
+  einheit: '% des Gewinns'
+  gilt: Steuerperiode 2025 (Stand Dezember 2025)
+  kategorie: steuern_bewertung
+  bemerkung: 'Erster Wert statutarisch (24,39), zweiter effektiv. Fussnote 16: ab 2026 Staatssteuerfuss 95 % statt bisher 98 % (treuhand-almanach-2026__s057-2), für 2026 daher tiefer.
+    Anwendung: Steuerrückstellung plausibilisieren.'
+  quelle: treuhand-almanach-2026__s056-2
+  zitat: ZH16 24,39 19,61
+  status: agent-geprueft

@@ -1,0 +1,114 @@
+# Werte Kategorie mwst – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: mwst_normalsatz
+  bezeichnung: MWST-Normalsatz
+  wert: '8.1'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: 'Tab. 17, gültig seit 1. Januar 2024. Anwendung: analytische Prüfung der MWST-Abrechnungen (Umsatzaufteilung nach Steuersätzen).'
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_reduzierter_satz
+  bezeichnung: MWST reduzierter Satz
+  wert: '2.6'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: Tab. 17.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_sondersatz_beherbergung
+  bezeichnung: MWST-Sondersatz für Beherbergung
+  wert: '3.8'
+  einheit: '%'
+  gilt: seit 01.01.2024 (Art. 25 MWSTG)
+  kategorie: mwst
+  bemerkung: Tab. 17.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: Reduzierter Satz 2,60 % Sondersatz für Beherbergung 3,80 % Normalsatz 8,10 %
+  status: agent-geprueft
+- key: mwst_steuerpflicht_umsatzgrenze
+  bezeichnung: Umsatzgrenze Befreiung von der MWST-Pflicht (Unternehmen)
+  wert: '100000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Art. 10 MWSTG)
+  kategorie: mwst
+  bemerkung: 'Gezählt werden Umsätze aus nicht ausgenommenen Leistungen, nach vereinbarten Entgelten ohne Steuer. Revision: bei Umsatz über der Grenze ohne MWST-Registrierung PH 20 Eingangsfrage
+    1a (plausible Erklärung?).'
+  quelle: treuhand-almanach-2026__s042-1
+  zitat: innerhalb eines Jahres im In- und Ausland weniger als CHF 100 000 Umsatz aus Leistungen erzielt
+  status: agent-geprueft
+- key: mwst_sss_umsatzgrenze
+  bezeichnung: 'Saldosteuersatzmethode: maximaler steuerbarer Jahresumsatz (inkl. Steuer)'
+  wert: '5024000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt kumulativ mit der Steuerschuld von höchstens CHF 108 000 pro Jahr. Zusätzlich die Restriktionen von Art. 77 Abs. 2 MWSTV prüfen.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: der steuerbare Jahresumsatz (inkl. Steuer) beträgt nicht mehr als CHF 5,024 Mio.;
+  status: agent-geprueft
+- key: mwst_sss_steuerschuld_max
+  bezeichnung: 'Saldosteuersatzmethode: maximale geschuldete Steuer pro Jahr'
+  wert: '108000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt kumulativ mit der Umsatzgrenze CHF 5,024 Mio.
+  quelle: treuhand-almanach-2026__s047-1
+  zitat: die geschuldete Steuer beträgt nicht mehr als CHF 108 000 pro Jahr.
+  status: agent-geprueft
+- key: mwst_sss_umsatzgrenzen_je_satz
+  bezeichnung: Umsatzgrenzen je Saldosteuersatz
+  wert: '0.1/0.6/1.3/2.1 %: max. 5.024 Mio.; 3.0 %: 3.60 Mio.; 3.7 %: 2.92 Mio.; 4.5 %: 2.40 Mio.; 5.3 %: 2.04 Mio.; 6.2 %: 1.74 Mio.; 6.8 %: 1.59 Mio.'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Tab. 18)
+  kategorie: mwst
+  bemerkung: 'Die Saldosteuersätze setzt die ESTV je Branche/Tätigkeit fest (SR 641.202.62, Stand 01.01.2025). Anwendung: geschuldete MWST mit SSS-Methode plausibilisieren.'
+  quelle: treuhand-almanach-2026__s048-1
+  zitat: 0,1% / 0,6 % / 1,3 % / 2,1% max. CHF 5,024 Mio. 3,0 % max. CHF 3,60 Mio. 3,7 % max. CHF 2,92 Mio. 4,5 % max. CHF 2,40 Mio. 5,3 % max. CHF 2,04 Mio. 6,2 % max. CHF 1,74 Mio.
+    6,8 % max. CHF 1,59 Mio.
+  status: agent-geprueft
+- key: mwst_sss_mehrere_saetze_umsatzanteil
+  bezeichnung: Mindestumsatzanteil für zusätzlichen bewilligten Saldosteuersatz
+  wert: '10'
+  einheit: '% des Umsatzes'
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Keine Obergrenze der Anzahl bewilligter Saldosteuersätze. Früher waren höchstens zwei zulässig.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: sofern der Umsatzanteil 10 % übersteigt
+  status: agent-geprueft
+- key: mwst_sss_mindestdauer
+  bezeichnung: Mindestdauer der Saldosteuersatzmethode nach Bewilligung
+  wert: '1'
+  einheit: Steuerperiode
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Die Methode ist bei der ESTV schriftlich zu beantragen.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: muss während mindestens einer Steuerperiode beibehalten werden
+  status: agent-geprueft
+- key: mwst_wechsel_effektiv_zu_sss
+  bezeichnung: Frühester Wechsel von der effektiven Methode zur Saldosteuersatzmethode
+  wert: '3'
+  einheit: ganze Steuerperioden
+  gilt: Treuhand-Almanach 2026
+  kategorie: mwst
+  bemerkung: Gilt nach Wahl der effektiven Abrechnungsmethode.
+  quelle: treuhand-almanach-2026__s047-2
+  zitat: so kann frühestens nach drei ganzen Steuerperioden zur Saldosteuersatzmethode gewechselt werden
+  status: agent-geprueft
+- key: mwst_bezugsteuer_grenzbetrag
+  bezeichnung: Grenzbetrag Bezugsteuer für nicht steuerpflichtige Unternehmen (Leistungen aus dem Ausland pro Kalenderjahr)
+  wert: '10000'
+  einheit: CHF
+  gilt: 'PH 20 (EXPERTsuisse, 02-2016): «derzeit»'
+  kategorie: mwst
+  bemerkung: 'Stand PH 20 von 2016, gegen die aktuelle MWSTG-Fassung prüfen. Revision: PH 20 Eingangsfrage 2 (Bezugsteuer bei Befreiung beachtet?).'
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: Grenzbetrag pro Kalenderjahr (von derzeit CHF 10'000) für solche Leistungen überschritten wird
+  status: agent-geprueft

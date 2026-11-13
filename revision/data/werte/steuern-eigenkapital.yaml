@@ -1,0 +1,205 @@
+# Werte Kategorie steuern_eigenkapital – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: ks6a_bewertungsstichtag
+  bezeichnung: Massgebender Wert für die Ermittlung des verdeckten Eigenkapitals
+  wert: Verkehrswert am Ende der Steuerperiode
+  einheit: Stichtag
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a, ersetzt KS Nr. 6 vom 06.06.1997)
+  kategorie: steuern_eigenkapital
+  bemerkung: Ohne Nachweis höherer Verkehrswerte gelten die Buch- bzw. Gewinnsteuerwerte. Ermittlung in Funktionalwährung.
+  quelle: estv-ks-6a-2024__einleitung-t2
+  zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
+  status: agent-geprueft
+- key: ks6a_belehnung_fluessige_mittel
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Flüssige Mittel'
+  wert: '100'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Zeile 1 von 16. Im Chunk sind Bezeichnungen und Ansätze getrennt. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2). Übersteigen Schulden gegenüber Beteiligten/Nahestehenden
+    das zulässige Fremdkapital, liegt verdecktes Eigenkapital vor: Zinsen werden aufgerechnet und unterliegen der VSt.'
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_forderungen_lul
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Forderungen aus Lieferungen und Leistungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 2 von 16. Zuordnung im Original geprüft (raw/estv-ks-6a-2024.pdf S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_kurzfristige_forderungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige kurzfristige Forderungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 3 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_vorraete
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Vorräte und nicht fakturierte Dienstleistungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 4 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_aktive_rechnungsabgrenzungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Aktive Rechnungsabgrenzungen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 5 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_obligationen_chf
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: In- und ausländische Obligationen in CHF'
+  wert: '90'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 6 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_obligationen_fremdwaehrung
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Ausländische Obligationen in Fremdwährung'
+  wert: '80'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 7 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_kotierte_aktien
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Kotierte in- und ausländische Aktien'
+  wert: '60'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 8 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_aktien_gmbh
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige Aktien und GmbH-Anteile'
+  wert: '50'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 9 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_darlehen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Darlehen'
+  wert: '85'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 10 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_beteiligungen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Beteiligungen'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 11 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_mobile_sachanlagen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Mobile Sachanlagen'
+  wert: '50'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 12 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_fabrikliegenschaften
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Fabrikliegenschaften'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 13 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_villen_etw_ferienhaeuser_bauland
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Villen, Eigentumswohnungen, Ferienhäuser und Bauland'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 14 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_uebrige_liegenschaften
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Übrige Liegenschaften'
+  wert: '80'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 15 von 16. Zuordnung im Original geprüft (S. 2).
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_belehnung_andere_immaterielle_anlagen
+  bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Andere immaterielle Anlagen'
+  wert: '70'
+  einheit: '% vom Verkehrswert'
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Zeile 16 von 16 (letzter Wert). Zuordnung im Original geprüft (S. 2). Der Treuhand-Almanach (Tab. 29, treuhand-almanach-2026__s063-1) nennt zusätzlich Gründungs-, Kapitalerhöhungs-
+    und Organisationskosten mit 0 %. Dieser Ansatz steht nicht im KS 6a vom 10.10.2024.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
+  status: agent-geprueft
+- key: ks6a_finanzgesellschaften_max_fremdkapital
+  bezeichnung: Maximal zulässiges Fremdkapital bei Finanzgesellschaften
+  wert: 6/7
+  einheit: Anteil der Bilanzsumme
+  gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
+  kategorie: steuern_eigenkapital
+  bemerkung: Der Nachweis, dass die konkrete Finanzierung dem Drittvergleich standhält, bleibt vorbehalten.
+  quelle: estv-ks-6a-2024__einleitung-t3
+  zitat: Für Finanzgesellschaften beträgt das maximal zulässige Fremdkapital in der Regel 6/7 der Bilanzsumme.
+  status: agent-geprueft
+- key: emissionsabgabe_satz
+  bezeichnung: Emissionsabgabe auf Beteiligungsrechten (inkl. Zuschüsse)
+  wert: '1'
+  einheit: '%'
+  gilt: Treuhand-Almanach 2026 (StG)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Gilt auch für Zuschüsse ohne Nennwerterhöhung (Art. 5 Abs. 2 StG). Abgabepflichtig ist die inländische Gesellschaft. Revision: bei Gründung, Kapitalerhöhung oder Zuschuss
+    Abgabe bzw. Abgrenzung prüfen.'
+  quelle: treuhand-almanach-2026__s067-1
+  zitat: Die Emissionsabgabe beträgt grundsätzlich 1 % vom Wert dessen, was der Gesellschaft zufliesst.
+  status: agent-geprueft
+- key: emissionsabgabe_freibetrag
+  bezeichnung: Freibetrag Emissionsabgabe bei Gründung/formeller Kapitalerhöhung
+  wert: '1000000'
+  einheit: CHF
+  gilt: Treuhand-Almanach 2026 (Art. 6 Abs. 1 Bst. b und h StG)
+  kategorie: steuern_eigenkapital
+  bemerkung: Einmalig, nicht pro Ereignis. Für reine Zuschüsse nicht anwendbar.
+  quelle: treuhand-almanach-2026__s067-1
+  zitat: gilt gegenwärtig für entgeltlich ausgegebene Beteiligungsrechte ein Freibetrag von CHF 1 Mio.
+  status: agent-geprueft

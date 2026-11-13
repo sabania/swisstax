@@ -1,0 +1,166 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: vollstaendigkeitserklaerung
+titel: Vollständigkeitserklärung (eingeschränkte Revision)
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 13
+  korrigiert: false
+stichworte:
+- Vollständigkeitserklärung
+- VE
+- Erklärung der Unternehmensleitung
+- schriftliche Erklärung
+- Management Representation Letter
+- Representation Letter
+- Auskunftspflicht
+- Art. 730b OR
+- SER Anhang E
+- Unterzeichnung Vollständigkeitserklärung
+- Datum Vollständigkeitserklärung
+- Berichtsdatum
+- Weigerung Erklärung
+- Beschränkung des Prüfungsumfangs
+- eingeschränkte Prüfungsaussage
+- Unmöglichkeit einer Prüfungsaussage
+- Prüfungsbeendigung
+- Jahresakten
+- A1-103
+- revio 10.4
+- Muster Vollständigkeitserklärung
+- MWST-Ergänzung
+- Zwischendividende
+- Art. 725a Abs. 2 OR
+kurz: Die Vollständigkeitserklärung (VE) ist die schriftliche Bestätigung der Unternehmensleitung an die Revisionsstelle, gestützt auf die Auskunftspflicht nach Art. 730b Abs. 1 OR (SER
+  Anhang E). Sie ist für jede Prüfung einzufordern, an die Revisionsstelle adressiert, i. d. R. vom VR-Präsidenten und der für die Rechnungslegung zuständigen Person unterzeichnet und
+  auf das Datum des Revisionsberichts datiert. Sie ersetzt keine Prüfungsnachweise; eine Weigerung ist eine Beschränkung des Prüfungsumfangs.
+aussagen:
+- text: 'Gesetzliche Grundlage: Der Verwaltungsrat übergibt der Revisionsstelle alle Unterlagen und erteilt ihr die Auskünfte, die sie für ihre Aufgaben benötigt, auf Verlangen auch
+    schriftlich (Art. 730b Abs. 1 OR).'
+  quelle: or__art-730b
+  zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
+- text: Die VE ist nach SER die übliche Form periodisch einzuholender Erklärungen der Unternehmensleitung und eine Konsequenz dieser gesetzlichen Auskunftspflicht bei der eingeschränkten
+    Revision (SER Anhang E, S. 101).
+  quelle: ser-2022__anh-e-s101-1
+  zitat: Eine Vollständigkeitserklärung der Unternehmensleitung gegenüber dem Abschlussprüfer (die übliche Form periodisch zu erlangender Erklärungen) ist eine Konsequenz dieser Auskunftspflicht.
+- text: 'Zweck (1) Anerkennung der Verantwortung: Die schriftliche VE und ein unterzeichnetes Exemplar der Jahresrechnung (Bilanz, Erfolgsrechnung, Anhang) bestätigen, dass die Unternehmensleitung
+    ihre Verantwortung für die Jahresrechnung anerkennt und diese formell gutgeheissen hat (SER Anhang E Ziff. 1).'
+  quelle: ser-2022__anh-e-s101-1
+  zitat: bestätigen, dass die Unternehmensleitung ihre Verantwortung für die Jahresrechnung anerkennt und die Jahresrechnung formell gutgeheissen hat
+- text: 'Zweck (2) Abgrenzung der Verantwortlichkeiten und Durchsetzung des Auskunftsrechts: Die VE stellt klar, dass das verantwortliche Organ bzw. die Unternehmensleitung die Verantwortung
+    für Vollständigkeit und Richtigkeit der Auskünfte und für den Abschluss trägt; sie ist zugleich Hilfsmittel des Abschlussprüfers zur Durchsetzung seines Auskunftsrechts (HWP ER Rz
+    337).'
+  quelle: hwp-er-2026__rz-0337-s258
+  zitat: Die Vollständigkeitserklärung ist auch ein Hilfsmittel des Abschlussprüfers zur Durchsetzung seines Auskunftsrechts.
+- text: 'Kerninhalt: Die Unternehmensleitung bestätigt dem Abschlussprüfer schriftlich die Vollständigkeit der Jahresrechnung sowie die Richtigkeit und Vollständigkeit der erteilten
+    Auskünfte und der zur Verfügung gestellten Unterlagen (SER Ziff. 6.2.5).'
+  quelle: ser-2022__6-2-5
+  zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung sowie die Richtigkeit und Vollständigkeit der erteilten Auskünfte
+- text: 'Pflicht: Eine VE ist für jede Abschlussprüfung einzufordern (HWP ER Rz 340).'
+  quelle: hwp-er-2026__rz-0340-s259
+  zitat: Eine Vollständigkeitserklärung ist für jede Abschlussprüfung einzufordern.
+- text: 'Form: Der Abschlussprüfer ersucht die Unternehmensleitung, die VE ausdrücklich an ihn zu adressieren, die zu umschreibenden Informationen aufzunehmen und die VE zu datieren
+    und zu unterzeichnen (SER Anhang E Ziff. 4).'
+  quelle: ser-2022__anh-e-s102-1
+  zitat: Der Abschlussprüfer ersucht die Unternehmensleitung, die Vollständigkeitserklärung ausdrücklich an ihn zu adressieren
+- text: 'Inhalt gemäss Beispiel 1 (Auszug): Jahresrechnung entspricht Gesetz und Statuten und ist frei von wesentlichen Fehlaussagen; alle Informationen, Aufzeichnungen der Buchhaltung,
+    Belege, Geschäftskorrespondenzen und Protokolle (GV/VR) wurden zur Verfügung gestellt und uneingeschränkter Zugang zu Personen gewährt; Grundsätze im Anhang korrekt; vertragliche
+    und gesetzliche Vorschriften (z. B. direkte Steuern, MWST, Sozialversicherungen, Umweltschutz) eingehalten; Angaben zu nahestehenden Personen vollständig (SER Anhang E, S. 103).'
+  quelle: ser-2022__anh-e-s103-2
+  zitat: Wir haben Ihnen alle Informationen sowie sämtliche Aufzeichnungen der Buchhaltung, Belege und Geschäftskorrespondenzen [7] sowie die Protokolle aller Generalversammlungen
+- text: 'Weitere Standardbestätigungen in Beispiel 1: keine Pläne oder Ereignisse mit erheblichen Zweifeln an der Fortführung; Bildung, Auflösung und Bestand stiller Reserven im Einzelnen
+    mitgeteilt; Verfügungsberechtigung und Belastungen der Aktiven; alle Verbindlichkeiten und Eventualverbindlichkeiten erfasst bzw. offengelegt; wesentliche Ereignisse nach dem Bilanzstichtag
+    erfasst bzw. offengelegt, mit Mitteilungszusage bis zur Generalversammlung (SER Anhang E, S. 104).'
+  quelle: ser-2022__anh-e-s104-1
+  zitat: Bildung, Auflösung und Bestand stiller Reserven haben wir Ihnen im Einzelnen mitgeteilt (Art. 959c Abs. 1 Ziff. 3 OR).
+- text: 'Mandatsspezifische Ergänzungen: Aufzunehmen sind Erklärungen zu jedem für die Jahresrechnung wesentlichen Sachverhalt, für den keine anderen ausreichenden geeigneten Prüfungsnachweise
+    vorliegen; mögliche weitere Erklärungen betreffen z. B. Derivate, Umrechnungskurse, Absatzerfolgsrechnung oder Bewertung zu Marktpreisen (SER Anhang E, redaktionelle Erläuterung
+    [12]).'
+  quelle: ser-2022__anh-e-s105-2
+  zitat: In die Vollständigkeitserklärung aufzunehmen sind Erklärungen zu jedem Sachverhalt, der für die Jahresrechnung wesentlich ist und für den andere ausreichende geeignete Prüfungsnachweise
+    nicht vorliegen.
+- text: 'Optionale Textbausteine im SER: Ergänzung zur MWST [13], Einhaltung des FinfraG beim Derivatehandel [14] sowie Offenlegungs- und Transparenzvorschriften bzw. Meldepflichten
+    nach Art. 697j ff. OR (GAFI) [15] (SER Anhang E, S. 106).'
+  quelle: ser-2022__anh-e-s106-1
+  zitat: Ggf. Ergänzung der Vollständigkeitserklärung im Zusammenhang mit der MWST.
+- text: 'Datum: Das Datum der VE entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts; die rechtsgültig unterzeichnete VE sollte sich in der Regel vor Abgabe des
+    Revisionsberichts bei der Revisionsstelle befinden (SER Anhang E Ziff. 4).'
+  quelle: ser-2022__anh-e-s102-1
+  zitat: Das Datum der Vollständigkeitserklärung entspricht im Regelfall dem Datum der Unterzeichnung des Revisionsberichts.
+- text: Der Revisionsbericht wird frühestens auf den Zeitpunkt datiert, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat; auch die VE ist auf
+    dieses Datum hin zusammen mit der Jahresrechnung rechtsgültig zu unterzeichnen (HWP ER Rz 448).
+  quelle: hwp-er-2026__rz-0448-s287
+  zitat: Auch die Vollständigkeitserklärung ist auf dieses Datum hin zusammen mit der Jahresrechnung rechtsgültig zu unterzeichnen.
+- text: 'Unterzeichnende: Die VE wird nach bestem Wissen von jenen Mitgliedern der Unternehmensleitung unterzeichnet, die für das Unternehmen und seine finanziellen Angelegenheiten in
+    erster Linie verantwortlich sind, üblicherweise vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und von der für die Rechnungslegung zuständigen Person (SER Anhang
+    E Ziff. 4).'
+  quelle: ser-2022__anh-e-s102-2
+  zitat: üblicherweise vom Vorsitzenden des obersten Leitungs- oder Verwaltungsorgans und der innerhalb des Unternehmens für die Rechnungslegung zuständigen Person
+- text: 'Muster HWP ER: Die Mustervorlagensammlung zum HWP ER (2026) verweist für die VE bei der eingeschränkten Revision einer Jahresrechnung auf SER Anhang E, Beispiel 1, S. 103.'
+  quelle: muster-hwp-er-2026__c011-1
+  zitat: Siehe Beispiel im Schweizer Standard zur Eingeschränkten Revision (Ausgabe 2022), Anhang E, Beispiel 1, Seite 103.
+- text: 'Das SER-Muster ist nur ein Beispiel: Der Abschlussprüfer beurteilt im Einzelfall, welche Ergänzungen oder Streichungen angebracht bzw. notwendig sind (SER Anhang E, Beispiel
+    1).'
+  quelle: ser-2022__anh-e-s103-1
+  zitat: Der Abschlussprüfer beurteilt im Einzelfall, welche Ergänzungen oder Streichungen angebracht bzw. notwendig sind
+- text: 'Verhältnis zu Prüfungsnachweisen: Das Einholen von Erklärungen gilt als Prüfungshandlung zur Erlangung von Prüfungsnachweisen; die VE ist aber kein Ersatz für die bei der eingeschränkten
+    Revision üblicherweise erlangten Nachweise, und bei wesentlichen Positionen darf sich der Prüfer nicht ausschliesslich auf Erklärungen der Unternehmensleitung stützen. Fehlen andere
+    Nachweise (Beispiel: keine Liquidationsabsicht), stützt er sich auf die Erklärung, ausser bei begründeten Zweifeln (HWP ER Rz 338).'
+  quelle: hwp-er-2026__rz-0338-s259
+  zitat: Zu beachten ist, dass die Vollständigkeitserklärung kein Ersatz für Prüfungsnachweise ist, die üblicherweise vom Abschlussprüfer bei der eingeschränkten Revision erlangt werden.
+- text: Erklärungen zu wesentlichen Sachverhalten darf der Prüfer nicht unbesehen übernehmen, sondern muss sie kritisch hinterfragen. Ist über die Erklärung hinaus kein genügender Nachweis
+    erhältlich, obwohl er im Rahmen der eingeschränkten Revision erhältlich wäre, liegt eine Beschränkung des Prüfungsumfangs vor und die Prüfungsaussage wird modifiziert (SER Anhang
+    E Ziff. 2).
+  quelle: ser-2022__anh-e-s101-2
+  zitat: darf der Abschlussprüfer diese nicht unbesehen übernehmen, sondern muss sie kritisch hinterfragen
+- text: 'Folgen bei Verweigerung: Verweigert die Unternehmensleitung eine nach Auffassung des Prüfers erforderliche Erklärung, liegt eine Beschränkung des Prüfungsumfangs vor; die Prüfungsaussage
+    wird modifiziert, und der Prüfer beurteilt, inwieweit er noch auf andere Erklärungen der Unternehmensleitung abstellen kann und welche Auswirkungen dies auf den Revisionsbericht
+    hat (SER Anhang E Ziff. 5).'
+  quelle: ser-2022__anh-e-s102-2
+  zitat: Weigert sich die Unternehmensleitung, eine Erklärung abzugeben, die nach Auffassung des Abschlussprüfers erforderlich ist, liegt eine Beschränkung des Prüfungsumfangs vor.
+- text: 'HWP ER präzisiert: Bei Weigerung ist die Prüfungsaussage einzuschränken, sofern überhaupt eine Prüfungsaussage abgegeben werden kann (HWP ER Rz 341).'
+  quelle: hwp-er-2026__rz-0341-s260
+  zitat: Der Abschlussprüfer muss die Prüfungsaussage somit einschränken, sofern eine Prüfungsaussage überhaupt abgegeben werden kann.
+agent:
+- 'revio: Prüfschritt A1-103 «Vollständigkeitserklärung besprechen und unterzeichnen lassen» ist ein Befragungsschritt. Der Agent bespricht nichts mit dem Kunden und holt keine Unterschrift
+  ein. Er bereitet nur vor, setzt den Status höchstens auf «teilweise bearbeitet» und lässt das Visum offen.'
+- 'Ablage: Unterzeichnete VE und unterzeichnete Jahresrechnung gehören in revio 10.4 «Jahresrechnung und Vollständigkeitserklärung» (konzept-ki-revisionsagent-2026__c006-2). Nach SER
+  sind je eine unterzeichnete Jahresrechnung und VE Bestandteil der Jahresakten (ser-2022__7-2, hwp-er-2026__rz-0339-s259).'
+- 'Entwurf vorbereiten (nur auf Anweisung, als Vorschlag an den WP): Grundlage ist SER Anhang E Beispiel 1, S. 103 (Muster HWP ER Nr. 7). Für einen Zwischenabschluss zur Zwischendividende
+  gilt Beispiel 2, S. 107 (muster-hwp-er-2026__c012-1), für Art. 725a Abs. 2 OR Beispiel 3, S. 110 (muster-hwp-er-2026__c013-1). Platzhalter [1]–[15] nach den redaktionellen Erläuterungen
+  füllen: Firma, Revisionsstelle, Bilanzstichtag, verantwortliches Organ (ser-2022__anh-e-s105-1). Firma, Stichtag und Geschäftsjahr gegen den Mandatskontext prüfen. Den Entwurf nie
+  an den Kunden senden, sondern nur als Entwurf oder an die fixe WP-Adresse.'
+- 'Ergänzungen aus den Prüffeldern sammeln und als Vorschlag in der Notiz «Schlussbesprechung» erfassen: wesentliche Sachverhalte ohne andere ausreichende Nachweise ([12]), MWST-Baustein
+  [13] bei MWST-Risiken (M2), FinfraG bei Derivaten, Meldepflicht Inhaberaktien/GAFI, Rechtsstreitigkeiten als Beilage [9] (O1), Eventualverbindlichkeiten und Kreditvereinbarungen/Covenants
+  (L1/N1), nicht frei verwendbares Eigenkapital [11] (P1), Hinweis auf verdeckte Gewinnausschüttung oder Privatauslagen [8] (S1). Was aufgenommen wird, entscheidet der WP.'
+- 'Formelle Prüfung der eingegangenen VE: Ist sie an die Revisionsstelle adressiert, datiert, rechtsgültig unterzeichnet und von denselben Personen wie die Jahresrechnung unterschrieben
+  (VR-Präsident und für die Rechnungslegung zuständige Person, Art. 958 Abs. 3 OR; ser-2022__anh-e-s101-1)? Liegt die unterzeichnete Jahresrechnung bei? Ist der Text gegenüber dem Entwurf
+  unverändert, also ohne gestrichene Bestätigungen? Jede Abweichung als Pendenz erfassen. Gestrichene oder geänderte Bestätigungen zusätzlich als «Wesentliche Feststellung» erfassen.'
+- 'Datum: Das VE-Datum soll dem geplanten Berichtsdatum entsprechen und darf nicht vor der Unterzeichnung bzw. Genehmigung der Jahresrechnung liegen (ser-2022__8-6, hwp-er-2026__rz-0448-s287).
+  Der Agent datiert und unterzeichnet weder den Bericht noch die VE. Fehlt die VE vor der Berichtsabgabe, eine Pendenz und einen Punkt für die Schlussbesprechung erfassen.'
+- 'Prüfungsnachweise: Die VE in keinem Prüffeld als alleinigen Nachweis für wesentliche Positionen verwenden. Im Textfeld den eigentlichen Nachweis (M-Files-ID) nennen. Ausnahmen nach
+  SER bzw. HWP ER: Bestehen keine Zweifel an der Fortführung, genügt die Erklärung in der VE als Nachweis der Einschätzung (ser-2022__anh-g-s140-1). Für die Gesetzeskonformität bei Drittvergleich
+  genügt die VE allein nicht (hwp-er-2026__rz-0182-s218). Ereignisse nach dem Stichtag lässt man sich in der VE bestätigen (hwp-er-2026__rz-0323-s256), gleicht sie aber zusätzlich mit
+  Protokollen und Folgebuchungen ab.'
+- 'Rechtliche Bedeutung nicht überschätzen: Nach BGE 2005 ist eine wahrheitswidrige VE keine strafrechtliche Falschbeurkundung (hwp-er-2026__rz-0340-s259). Bei Hinweisen auf verschwiegene
+  Sachverhalte trotz VE (Seminarfall: camponovo-2026-hinweispflichten__s211-1) sofort eine «Wesentliche Feststellung» erfassen und an den WP eskalieren.'
+- 'Weigerung oder fehlende Erklärung: Nur als Feststellung und Pendenz melden. Ob eine Beschränkung des Prüfungsumfangs vorliegt und ob eine eingeschränkte Prüfungsaussage oder die Unmöglichkeit
+  einer Prüfungsaussage folgt (ser-2022__8-3-1-t4, Anhang F Beispiele 6/7), entscheidet allein der WP. Nur ergänzend (ordentliche Revision): Nach HWP OR liegt bei einer Weigerung ein
+  hinweispflichtiger Gesetzesverstoss gegen Art. 730b Abs. 1 OR vor (hwp-or-2024__rz-1389-s469). Ob das bei der SER gilt, entscheidet der WP.'
+- 'Auftragsphase: Die Auftragsbestätigung nach SER Anhang C kündigt die schriftliche Bestätigung der Auskünfte an (ser-2022__anh-c-s057-1). Fehlt dieser Passus in revio 2.2, als Hinweis
+  für den WP notieren (nur lesen, nicht ändern).'
+prueffelder:
+- A1
+- T1
+- M2
+- S1
+- O1
+- P1
+- L1
+- N1
+phasen:
+- p1-auftrag
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht
+- p8-agentablauf

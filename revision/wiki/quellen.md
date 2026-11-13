@@ -44,7 +44,7 @@ quellen:
 - rab-faq-revisionsunternehmen
 - rab-qualitaetssicherung
 status: entwurf
-generiert: tools/build_quick.py, 2026-11-12
+generiert: tools/build_quick.py, 2026-11-13
 ---
 
 

@@ -27,9 +27,9 @@ SCH = {s["id"]: s for s in KAT.get("schritte", [])}
 PFK = {p["code"]: p for p in KAT.get("prueffelder", [])}
 PF = {d["code"]: d for d in (y(p) for p in sorted((R / "data" / "prueffelder").glob("*.yaml")))}
 PH = sorted((y(p) for p in (R / "data" / "prozess").glob("*.yaml")), key=lambda d: d["id"])
-WE = (y(R / "data" / "werte.yaml", {}) or {}).get("werte", [])
+WE = [w for p in sorted((R / "data" / "werte").glob("*.yaml")) for w in (y(p, {}) or {}).get("werte", [])]
 RG = (y(R / "data" / "regeln.yaml", {}) or {}).get("regeln", [])
-TH = (y(R / "data" / "themen.yaml", {}) or {}).get("themen", [])
+TH = [y(p) for p in sorted((R / "data" / "themen").glob("*.yaml"))]
 RVZ = y(R / "data" / "revio" / "zuordnung.yaml", {}) or {}
 RVK = (y(R / "data" / "revio" / "ketten.yaml", {}) or {}).get("ketten", [])
 WZ = list(csv.DictReader((R / "data" / "revio" / "werkzeuge.csv").open(encoding="utf-8-sig"), delimiter=";")) if (R / "data" / "revio" / "werkzeuge.csv").exists() else []

@@ -1,0 +1,66 @@
+# Werte Kategorie uebrige – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or730a_amtsdauer
+  bezeichnung: Amtsdauer der Revisionsstelle
+  wert: 1–3
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 730a Abs. 1 OR: Amt endet mit der Abnahme der letzten Jahresrechnung; Wiederwahl möglich (beliebig oft, HWP ER Rz 164). Gründe eines Rücktritts im Anhang (Art. 959c
+    Abs. 2 Ziff. 14 OR).'
+  quelle: or__art-730a
+  zitat: Die Revisionsstelle wird für ein bis drei Geschäftsjahre gewählt.
+  status: agent-geprueft
+- key: or730a_rotation_ordentlich
+  bezeichnung: Rotation leitender Revisor (nur ordentliche Revision)
+  wert: 7 Jahre / 3 Jahre Unterbruch
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: 'Art. 730a Abs. 2 OR: gilt nur für die ordentliche Revision, nicht für die eingeschränkte Revision; Wiederaufnahme nach drei Jahren Unterbruch.'
+  quelle: or__art-730a
+  zitat: Bei der ordentlichen Revision darf die Person, die die Revision leitet, das Mandat längstens während sieben Jahren ausführen.
+  status: agent-geprueft
+- key: or729_mitwirken_buchfuehrung
+  bezeichnung: 'Unabhängigkeit eingeschränkte Revision: Mitwirken bei der Buchführung'
+  wert: zulässig, bei Selbstprüfungsrisiko mit organisatorischen und personellen Massnahmen
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: uebrige
+  bemerkung: Art. 729 Abs. 2 OR; Unabhängigkeit tatsächlich und dem Anschein nach (Abs. 1). Personen, die bei der Buchführung mitwirken, dürfen nicht an der Revision beteiligt sein (SER
+    1.3.1, ser-2022__1-3-1). Keine Zahlenwerte; Beurteilung WP.
+  quelle: or__art-729
+  zitat: Das Mitwirken bei der Buchführung und das Erbringen anderer Dienstleistungen für die zu prüfende Gesellschaft sind zulässig.
+  status: agent-geprueft
+- key: hwp_er_honorar_10_grenze
+  bezeichnung: 'Unabhängigkeit: 10%-Honorargrenze RAG'
+  wert: 10 % (gilt nicht bei eingeschränkter Revision)
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: uebrige
+  bemerkung: 'HWP ER Rz 36: Die für Gesellschaften des öffentlichen Interesses geltende gesetzliche 10%-Grenze (Art. 11 Abs. 1 Bst. a RAG) findet keine Anwendung bei der eingeschränkten
+    Revision; wirtschaftliche Abhängigkeit im Einzelfall prüfen; Erfolgshonorare unzulässig.'
+  quelle: hwp-er-2026__rz-0036-s156-t3
+  zitat: «10%-Grenze» (Honorare aus Revisions- und anderen Dienstleistungen für einen Kunden im Verhältnis zur gesamten Honorarsumme
+  status: agent-geprueft
+- key: vst_satz_kapitalertraege
+  bezeichnung: Verrechnungssteuersatz auf Kapitalerträgen (z.B. Dividenden) und Lotteriegewinnen
+  wert: '35'
+  einheit: '%'
+  gilt: Treuhand-Almanach 2026 (Art. 13 VStG)
+  kategorie: uebrige
+  bemerkung: 'Anwendung: Gewinnverwendung und Dividende, VSt-Verbindlichkeit plausibilisieren. Sekundärquelle.'
+  quelle: treuhand-almanach-2026__s068-1
+  zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  status: agent-geprueft
+- key: or104_verzugszins
+  bezeichnung: Gesetzlicher Verzugszins bei Geldschulden (Art. 104 Abs. 1 OR)
+  wert: '5'
+  einheit: '% pro Jahr'
+  gilt: OR, geltende Fassung
+  kategorie: uebrige
+  bemerkung: 'Gilt auch, wenn der vertragliche Zins tiefer ist. Vertraglich höhere Zinsen können auch während des Verzugs gefordert werden (Abs. 2). Anwendung: Verzugszinsen und Rückstellungen
+    für Verzugsfolgen plausibilisieren.'
+  quelle: or__art-104
+  zitat: Verzugszinse zu fünf vom Hundert für das Jahr zu bezahlen
+  status: agent-geprueft

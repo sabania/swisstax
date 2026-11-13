@@ -1,0 +1,176 @@
+# Werte Kategorie rechnungslegung – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or957_buchfuehrungspflicht
+  bezeichnung: 'Pflicht zur Buchführung und Rechnungslegung: Umsatzerlös Einzelunternehmen/Personengesellschaften'
+  wert: '500000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 957 Abs. 1 Ziff. 1 OR; juristische Personen immer (Ziff. 2). Darunter nur Einnahmen/Ausgaben und Vermögenslage (Abs. 2).
+  quelle: or__art-957
+  zitat: einen Umsatzerlös von mindestens 500 000 Franken im letzten Geschäftsjahr erzielt haben
+  status: agent-geprueft
+- key: or958b_verzicht_abgrenzung
+  bezeichnung: Verzicht auf zeitliche Abgrenzung
+  wert: '100000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958b Abs. 2 OR: dann Abstellen auf Ausgaben und Einnahmen zulässig; Fremdwährung Jahresdurchschnittskurs (Abs. 3).'
+  quelle: or__art-958b
+  zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten
+  status: agent-geprueft
+- key: or958a_fortfuehrung_12_monate
+  bezeichnung: 'Fortführung: Zeithorizont für Veräusserungswerte'
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 958a Abs. 2 OR: dann Veräusserungswerte und Rückstellungen für Einstellungsaufwand; Abweichung im Anhang (Abs. 3).'
+  quelle: or__art-958a
+  zitat: in den nächsten zwölf Monaten ab Bilanzstichtag beabsichtigt oder voraussichtlich nicht abwendbar
+  status: agent-geprueft
+- key: hwp_er_fortfuehrung_beurteilungszeitraum
+  bezeichnung: 'Fortführung: Mindestzeitraum der Einschätzung der Unternehmensleitung'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: rechnungslegung
+  bemerkung: 'HWP ER Rz 194: Zeitraum beginnt mit dem Bilanzstichtag; zudem Befragung zu Ereignissen jenseits der zwölf Monate.'
+  quelle: hwp-er-2026__rz-0194-s225
+  zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
+  status: agent-geprueft
+- key: or959_kurzfristig
+  bezeichnung: Abgrenzung kurzfristig/Umlaufvermögen
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 959 Abs. 6 OR (oder innerhalb des normalen Geschäftszyklus); gleiches Kriterium für das Umlaufvermögen (Abs. 3).
+  quelle: or__art-959
+  zitat: Als kurzfristig müssen die Verbindlichkeiten bilanziert werden, die voraussichtlich innerhalb eines Jahres ab Bilanzstichtag
+  status: agent-geprueft
+- key: or960d_langfristig
+  bezeichnung: 'Anlagevermögen: langfristig'
+  wert: '> 12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960d Abs. 2 OR.
+  quelle: or__art-960d
+  zitat: Als langfristig gilt ein Zeitraum von mehr als zwölf Monaten.
+  status: agent-geprueft
+- key: or960d_beteiligung_20
+  bezeichnung: 'Beteiligung: Vermutung massgeblicher Einfluss'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960d Abs. 3 OR: langfristig gehaltene Anteile mit massgeblichem Einfluss → Position Beteiligungen; Anhangangabe Art. 959c Abs. 2 Ziff. 3 OR.'
+  quelle: or__art-960d
+  zitat: wenn die Anteile mindestens 20 Prozent der Stimmrechte gewähren
+  status: agent-geprueft
+- key: or959c_vollzeitstellen_anhang
+  bezeichnung: 'Anhang: Erklärung zu den Vollzeitstellen'
+  wert: 10 / 50 / 250
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 2 Ziff. 2 OR: Pflichtangabe im Anhang; Abgleich mit Opting-out (10) und Revisionspflicht (250).'
+  quelle: or__art-959c-t1
+  zitat: ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
+  status: agent-geprueft
+- key: or959c_leasing_12
+  bezeichnung: 'Anhang: Leasingverbindlichkeiten'
+  wert: '12'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 2 Ziff. 6 OR: Restbetrag der Leasingverpflichtungen offenlegen.'
+  quelle: or__art-959c-t2
+  zitat: sofern diese nicht innert zwölf Monaten ab Bilanzstichtag auslaufen oder gekündigt werden können
+  status: agent-geprueft
+- key: or959c_aufloesung_stille_reserven
+  bezeichnung: 'Anhang: Nettoauflösung stiller Reserven'
+  wert: Auflösung > Neubildung und Ergebnis wesentlich günstiger
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 959c Abs. 1 Ziff. 3 OR: Gesamtbetrag der aufgelösten Wiederbeschaffungs- und stillen Reserven angeben. Verbindung zur Wesentlichkeit (effektives Ergebnis, SER 5.2).'
+  quelle: or__art-959c-t1
+  zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  status: agent-geprueft
+- key: or960a_hoechstwert
+  bezeichnung: 'Bewertung Aktiven: Höchstwert in der Folgebewertung'
+  wert: Anschaffungs- oder Herstellungskosten
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960a Abs. 2 OR; Ausnahmen für Aktiven mit Börsenkurs (Art. 960b). Zusätzliche Abschreibungen zu Wiederbeschaffungszwecken/dauerndes Gedeihen zulässig (Abs. 4, stille
+    Reserven).
+  quelle: or__art-960a
+  zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
+  status: agent-geprueft
+- key: or960a_zusaetzliche_abschreibungen
+  bezeichnung: 'Stille Reserven: zusätzliche Abschreibungen und Wertberichtigungen'
+  wert: zulässig (Wiederbeschaffung, dauerndes Gedeihen)
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960a Abs. 4 OR; nicht mehr begründete Abschreibungen müssen nicht aufgelöst werden. Für die Wesentlichkeit ist vom effektiven Ergebnis auszugehen (SER 5.2).
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+  status: agent-geprueft
+- key: or960b_schwankungsreserve
+  bezeichnung: 'Wertschwankungsreserve bei Bewertung zum Kurs: Untergrenze'
+  wert: nicht unter dem tieferen von Anschaffungswert und Kurswert
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960b Abs. 2 OR: Schwankungsreserven insgesamt in Bilanz oder Anhang gesondert ausweisen; Bewertung zum Kurs nur einheitlich für die ganze Position, Hinweis im Anhang
+    (Abs. 1).'
+  quelle: or__art-960b
+  zitat: Solche Wertberichtigungen sind jedoch nicht zulässig, wenn dadurch sowohl der Anschaffungswert als auch der allenfalls tiefere Kurswert unterschritten würden.
+  status: agent-geprueft
+- key: or960c_vorraete_niederstwert
+  bezeichnung: 'Vorräte: Niederstwertprinzip'
+  wert: tieferer Veräusserungswert abzüglich noch anfallender Kosten
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 960c Abs. 1 OR: Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag.'
+  quelle: or__art-960c
+  zitat: unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+  status: agent-geprueft
+- key: or960e_rueckstellungen
+  bezeichnung: 'Rückstellungen: nicht mehr begründete'
+  wert: müssen nicht aufgelöst werden
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: Art. 960e Abs. 4 OR; Pflichtrückstellungen bei erwartetem Mittelabfluss (Abs. 2), zulässig u.a. zur Sicherung des dauernden Gedeihens (Abs. 3 Ziff. 4).
+  quelle: or__art-960e
+  zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+  status: agent-geprueft
+- key: or961_groessere_unternehmen
+  bezeichnung: 'Grössere Unternehmen: Zusatzvorschriften'
+  wert: gilt bei gesetzlicher ordentlicher Revisionspflicht
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 961 OR: zusätzliche Anhangangaben (Art. 961a), Geldflussrechnung, Lagebericht. Gilt nur bei gesetzlicher ordentlicher Revisionspflicht (Art. 727 OR); bei eingeschränkter
+    Revision nicht verlangt.'
+  quelle: or__art-961
+  zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
+  status: agent-geprueft
+- key: or963a_konzern_befreiung
+  bezeichnung: 'Konzernrechnung: Befreiung nach Grösse'
+  wert: 20000000 / 40000000 / 250
+  einheit: CHF / CHF / Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 963a Abs. 1 Ziff. 1 OR: befreit, wenn zusammen mit den kontrollierten Unternehmen zwei der Grössen in zwei aufeinander folgenden Geschäftsjahren nicht überschritten
+    werden. Dennoch Pflicht u.a. auf Verlangen von 20 % des Grundkapitals (Abs. 2). Konzernrechnungspflicht → ordentliche Revision (Art. 727 Abs. 1 Ziff. 3).'
+  quelle: or__art-963a
+  zitat: a. Bilanzsumme von 20 Millionen Franken, - b. Umsatzerlös von 40 Millionen Franken, - c. 250 Vollzeitstellen im Jahresdurchschnitt
+  status: agent-geprueft

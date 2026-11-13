@@ -1,0 +1,134 @@
+# Werte Kategorie sozialversicherung – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: sv_ahv_beitragssatz_2026
+  bezeichnung: AHV-Beitragssatz (Unselbständigerwerbende)
+  wert: '8.70'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalten 2021 bis 2026, die letzte gilt ab 1.1.2026. Unverändert gegenüber dem Vorjahr. Die Aufteilung auf AG/AN nennt die Quelle nicht. Anwendung: Lohnabstimmung, Sozialversicherungsaufwand
+    plausibilisieren.'
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: AHV 8,70 8,70 8,70 8,70 8,70 8,70
+  status: agent-geprueft
+- key: sv_iv_beitragssatz_2026
+  bezeichnung: IV-Beitragssatz
+  wert: '1.40'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzte Spalte gilt ab 1.1.2026 (Tab. 35).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: IV 1,40 1,40 1,40 1,40 1,40 1,40
+  status: agent-geprueft
+- key: sv_eo_beitragssatz_2026
+  bezeichnung: EO-Beitragssatz
+  wert: '0.50'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzte Spalte gilt ab 1.1.2026 (Tab. 35).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: EO 0,50 0,50 0,50 0,50 0,50 0,50
+  status: agent-geprueft
+- key: sv_alv_beitragssatz_2026
+  bezeichnung: ALV-Beitragssatz bis Höchstgrenze CHF 148 200
+  wert: '2.20'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Fussnote *: Selbständigerwerbende sind nicht ALV-versichert (0 %).'
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV bis CHF 148 200 2,20 2,20 2,20 2,20 2,20 2,20*
+  status: agent-geprueft
+- key: sv_alv_hoechstgrenze_lohn_2026
+  bezeichnung: ALV-Höchstgrenze beitragspflichtiger Lohn pro Jahr
+  wert: '148200'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Über der Grenze ist seit 2023 kein Beitrag geschuldet (sv_alv_solidaritaetsbeitrag_2026).
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV bis CHF 148 200 2,20 2,20 2,20 2,20 2,20 2,20*
+  status: agent-geprueft
+- key: sv_alv_solidaritaetsbeitrag_2026
+  bezeichnung: ALV-Beitrag auf Lohnteilen über CHF 148 200 (Solidaritätsbeitrag)
+  wert: '0.00'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalten 2021 bis 2026. Kein Sonderbeitrag seit 1.1.2023.
+  quelle: treuhand-almanach-2026__s075-1
+  zitat: ALV ab CHF 148 200 1,00 bis unbegrenzt 1,00 0,00 0,00 0,00 0,00
+  status: agent-geprueft
+- key: sv_bvg_mindestjahreslohn_2026
+  bezeichnung: BVG-Mindestjahreslohn (Eintrittsschwelle)
+  wert: '22680'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalte 1.1.2026 mit Anmerkung, danach der maximal versicherte Lohn 2026. Im Chunk sind die Spalten vermischt. Zuordnung im Original geprüft (raw/treuhand-almanach-2026.pdf
+    S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: '22 680.00 Beitragspflicht: ab 1.1. nach Vollendung des 17. Altersjahrs 90 720.00'
+  status: agent-geprueft
+- key: sv_bvg_max_versicherter_lohn_2026
+  bezeichnung: BVG maximal versicherter Lohn
+  wert: '90720'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Letzter Wert im Zitat (Spalte 1.1.2026). Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: '22 680.00 Beitragspflicht: ab 1.1. nach Vollendung des 17. Altersjahrs 90 720.00'
+  status: agent-geprueft
+- key: sv_bvg_koordinationsabzug_2026
+  bezeichnung: BVG-Koordinationsabzug
+  wert: '26460'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalte 1.1.2026: Koordinationsabzug 26 460, maximal koordinierter Lohn 64 260, minimal koordinierter Lohn 3 780. Zuordnung im Original geprüft (S. 77).'
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_max_koordinierter_lohn_2026
+  bezeichnung: BVG maximal koordinierter Lohn
+  wert: '64260'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Zweiter Betrag im Zitat. Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_min_koordinierter_lohn_2026
+  bezeichnung: BVG minimal koordinierter Lohn
+  wert: '3780'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Dritter Betrag im Zitat. Zuordnung im Original geprüft (S. 77).
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 26 460.00 Ab 1.1. nach Vollendung des 64 260.00 24. Altersjahrs zusätzlich auch Alterssparen 3 780.00
+  status: agent-geprueft
+- key: sv_bvg_mindestzinssatz_2026
+  bezeichnung: BVG gesetzlicher Mindestzinssatz
+  wert: '1.25'
+  einheit: '%'
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: Spalten 2023 | 2024 | 2025 | 2026. Zuordnung im Original geprüft (S. 77). Für 2025 ebenfalls 1,25 %.
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 1,00 1,25 1,25 1,25
+  status: agent-geprueft
+- key: sv_uvg_hoechstgrenze_2026
+  bezeichnung: UVG-Höchstgrenze versicherter Verdienst pro Jahr
+  wert: '148200'
+  einheit: CHF
+  gilt: ab 01.01.2026
+  kategorie: sozialversicherung
+  bemerkung: 'Spalten 2023 bis 2026: pro Monat CHF 12 350, pro Jahr CHF 148 200. Zuordnung im Original geprüft (S. 77). Anwendung: UVG-Prämien und Lohndeklaration plausibilisieren.'
+  quelle: treuhand-almanach-2026__s077-1
+  zitat: 12 350.00 12 350.00 12 350.00 12 350.00 148 200.00 148 200.00 148 200.00 148 200.00
+  status: agent-geprueft

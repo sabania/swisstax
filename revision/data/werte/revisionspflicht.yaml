@@ -1,0 +1,192 @@
+# Werte Kategorie revisionspflicht – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or727_bilanzsumme
+  bezeichnung: 'Ordentliche Revision: Schwelle Bilanzsumme'
+  wert: '20000000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. a OR. Ordentliche Revision, wenn zwei der drei Grössen (Bilanzsumme, Umsatzerlös, Vollzeitstellen) in zwei aufeinander folgenden Geschäftsjahren
+    überschritten werden; sonst eingeschränkte Revision (Art. 727a Abs. 1). Massgebend ist die handelsrechtliche Jahresrechnung, kein interner Abschluss ohne stille Reserven (HWP ER
+    Rz 305, hwp-er-2026__rz-0305-s097). Fremdwährung: Stichtagskurs (Abs. 1bis). Beurteilung der Revisionsart: WP.'
+  quelle: or__art-727
+  zitat: Bilanzsumme von 20 Millionen Franken
+  status: agent-geprueft
+- key: or727_umsatzerloes
+  bezeichnung: 'Ordentliche Revision: Schwelle Umsatzerlös'
+  wert: '40000000'
+  einheit: CHF
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. b OR; zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Umsatzerlös weit ausgelegt: grundsätzlich alle Erträge der Erfolgsrechnung
+    (HWP ER Rz 306). Fremdwährung: Jahresdurchschnittskurs (Abs. 1bis). Kurz-/Langjahr annualisieren (HWP ER Rz 311).'
+  quelle: or__art-727
+  zitat: Umsatzerlös von 40 Millionen Franken
+  status: agent-geprueft
+- key: or727_vollzeitstellen
+  bezeichnung: 'Ordentliche Revision: Schwelle Vollzeitstellen'
+  wert: '250'
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1 Ziff. 2 lit. c OR; Jahresdurchschnitt, zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Ermittlung als Vollzeitäquivalente (HWP ER Rz
+    307–308).
+  quelle: or__art-727
+  zitat: 250 Vollzeitstellen im Jahresdurchschnitt
+  status: agent-geprueft
+- key: or727_zwei_von_drei
+  bezeichnung: 'Ordentliche Revision: Regel zwei von drei Grössen in zwei Jahren'
+  wert: 2 von 3 Grössen in 2 aufeinander folgenden Geschäftsjahren
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Berichts- und Vorjahr beiziehen (HWP ER Rz 304). Die überschrittenen Grössen dürfen von Jahr zu Jahr wechseln (HWP ER Rz 309). Weitere Gründe für ordentliche Revision:
+    Publikumsgesellschaft (Ziff. 1), Konzernrechnungspflicht (Ziff. 3), Verlangen von 10 % des Aktienkapitals (Abs. 2), Statuten/GV (Abs. 3).'
+  quelle: or__art-727
+  zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
+  status: agent-geprueft
+- key: hwp_er_schwellen_kombination_wechselnd
+  bezeichnung: 'Schwellenwerte: Kombination der Grössen darf wechseln'
+  wert: gleiche zwei Grössen nicht erforderlich
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 309: z.B. Berichtsjahr Umsatz + Bilanzsumme, Vorjahr Bilanzsumme + Vollzeitstellen → ordentliche Revisionspflicht.'
+  quelle: hwp-er-2026__rz-0309-s098
+  zitat: ist es nicht erforderlich, dass im Berichts- und im Vorjahr die gleichen beiden Referenzgrössen die massgeblichen Schwellenwerte überschreiten
+  status: agent-geprueft
+- key: hwp_er_erstmalige_ueberschreitung
+  bezeichnung: 'Schwellenwerte: erstmalige Überschreitung (zeitlicher Aufschub)'
+  wert: ordentliche Revision erst ab 2. Jahr der Überschreitung
+  einheit: Jahre
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 310: Aufschub nur bei Art. 727 Abs. 1 Ziff. 2 OR; die übrigen Kriterien von Art. 727 OR wirken sofort.'
+  quelle: hwp-er-2026__rz-0310-s098
+  zitat: Gesellschaften, welche die Schwellenwerte erstmals in einem Geschäftsjahr überschreiten, müssen die entsprechende Jahresrechnung noch nicht ordentlich revidieren lassen.
+  status: agent-geprueft
+- key: hwp_er_unterschreitung_sofort
+  bezeichnung: 'Schwellenwerte: erstmalige Unterschreitung'
+  wert: Pflicht zur ordentlichen Revision erlischt sofort (gleiches Geschäftsjahr)
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 347: werden im Geschäftsjahr erstmals zwei von drei Schwellenwerten unterschritten, gilt bereits für dieses Jahr die eingeschränkte Revision.'
+  quelle: hwp-er-2026__rz-0347-s107
+  zitat: erlischt die Pflicht zur ordentlichen Revision der Jahresrechnung sofort
+  status: agent-geprueft
+- key: hwp_er_vollzeitstellen_vze
+  bezeichnung: 'Vollzeitstellen: Ermittlung (Vollzeitäquivalente)'
+  wert: Teilzeit und Lernende anteilig nach Pensum
+  einheit: Vollzeitstellen
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 308: Durchschnitt in stabilen Verhältnissen aus Jahresanfangs- und -endbestand; bei Schwankungen mindestens Quartals-, besser Monatsstände. Zurechnung beim rechtlichen
+    Arbeitgeber (Rz 307).'
+  quelle: hwp-er-2026__rz-0308-s097
+  zitat: Lernende und Teilzeitbeschäftigte sind in die Ermittlung der Vollzeitstellen einzubeziehen.
+  status: agent-geprueft
+- key: hwp_er_umsatzerloes_auslegung
+  bezeichnung: 'Umsatzerlös i.S.v. Art. 727 OR: Auslegung'
+  wert: grundsätzlich alle Erträge der Erfolgsrechnung
+  einheit: CHF
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 306: inkl. betriebsfremde, ausserordentliche und Finanzerträge; Erlöse nach Erlösminderungen. Einmalige ausserordentliche Erträge ausnahmsweise differenziert
+    betrachten.'
+  quelle: hwp-er-2026__rz-0306-s097
+  zitat: grundsätzlich alle Erträge der Erfolgsrechnung zu berücksichtigen sind
+  status: agent-geprueft
+- key: hwp_er_kurzjahr_annualisierung
+  bezeichnung: 'Umsatzerlös bei Kurz-/Langjahr: Annualisierung'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 311: z.B. bei Gründung oder Liquidation; saisonale Schwankungen berücksichtigen.'
+  quelle: hwp-er-2026__rz-0311-s098
+  zitat: der realisierte Umsatzerlös auf ein «Volljahr» (zwölf Monate) hoch- bzw. heruntergerechnet
+  status: agent-geprueft
+- key: or727_publikumsgesellschaft_20
+  bezeichnung: 'Publikumsgesellschaft: Beitrag zur Konzernrechnung'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 1 lit. c OR: Beitrag zur Konzernrechnung einer kotierten Gesellschaft oder einer Gesellschaft mit Anleihen → ordentliche Revision (sofort, kein Aufschub).'
+  quelle: or__art-727
+  zitat: mindestens 20 Prozent der Aktiven oder des Umsatzes zur Konzernrechnung
+  status: agent-geprueft
+- key: or727_konzernrechnungspflicht
+  bezeichnung: Ordentliche Revision bei Konzernrechnungspflicht
+  wert: Konzernrechnungspflicht → ordentliche Revision
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1 Ziff. 3 OR. Bei Mandanten mit Tochtergesellschaften Befreiung nach Art. 963a OR prüfen (Grössen 20 Mio./40 Mio./250 inkl. kontrollierte Unternehmen).
+  quelle: or__art-727
+  zitat: Gesellschaften, die zur Erstellung einer Konzernrechnung verpflichtet sind.
+  status: agent-geprueft
+- key: or727_abs2_minderheit_10
+  bezeichnung: Opting-up auf Verlangen von Aktionären
+  wert: '10'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727 Abs. 2 OR: ordentliche Revision unabhängig von den Schwellenwerten (HWP ER Rz 312).'
+  quelle: or__art-727
+  zitat: Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
+  status: agent-geprueft
+- key: or727_abs1bis_umrechnung
+  bezeichnung: 'Schwellenwerte bei Fremdwährung: Umrechnungskurse'
+  wert: 'Bilanzsumme: Stichtagskurs; Umsatzerlös: Jahresdurchschnittskurs'
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: Art. 727 Abs. 1bis OR; gleich Art. 963a Abs. 3 OR für die Konzernrechnungspflicht.
+  quelle: or__art-727
+  zitat: für die Bilanzsumme der Umrechnungskurs zum Bilanzstichtag und für den Umsatzerlös der Jahresdurchschnittskurs massgebend
+  status: agent-geprueft
+- key: or818_gmbh_revisionsstelle
+  bezeichnung: 'GmbH: Revisionsstelle nach Aktienrecht'
+  wert: Aktienrecht entsprechend anwendbar
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 818 Abs. 1 OR: Schwellenwerte Art. 727/727a gelten auch für die GmbH. Abs. 2: Gesellschafter mit Nachschusspflicht kann ordentliche Revision verlangen. Kapitalverlust/Überschuldung:
+    Art. 820 OR.'
+  quelle: or__art-818
+  zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
+  status: agent-geprueft
+- key: hwp_er_verein_schwellen
+  bezeichnung: 'Verein (Art. 69b ZGB): Schwellen ordentliche Revision'
+  wert: 10000000 / 20000000 / 50
+  einheit: CHF / CHF / Vollzeitstellen
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 314: zwei der drei Grössen in zwei aufeinander folgenden Geschäftsjahren überschritten. Swiss GAAP FER: gleiche Schwellen «10-20-50» für Kern-FER (Rz 317). ZGB
+    nicht als Chunk im Wiki.'
+  quelle: hwp-er-2026__rz-0314-s098
+  zitat: 1. Bilanzsumme von 10 Mio. CHF, 2. Umsatzerlös von 20 Mio. CHF, 3. 50 Vollzeitstellen im Jahresdurchschnitt.
+  status: agent-geprueft
+- key: or727a_opting_out_vollzeitstellen
+  bezeichnung: 'Opting-out: höchstens Vollzeitstellen'
+  wert: '10'
+  einheit: Vollzeitstellen
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 727a Abs. 2 OR: Verzicht nur mit Zustimmung sämtlicher Aktionäre, nur für künftige Geschäftsjahre, Anmeldung beim Handelsregister vor Beginn des Geschäftsjahres; Jahresrechnung
+    des letzten Geschäftsjahres beilegen (Abs. 2bis). Massgebend sind die Tatsachen im betreffenden Geschäftsjahr, nicht der Zweijahresdurchschnitt (HWP ER Rz 313).'
+  quelle: or__art-727a
+  zitat: nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat
+  status: agent-geprueft
+- key: hwp_er_opting_out_massgebendes_jahr
+  bezeichnung: 'Opting-out: massgebendes Jahr für die zehn Vollzeitstellen'
+  wert: Tatsachen im betreffenden Geschäftsjahr
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: revisionspflicht
+  bemerkung: 'HWP ER Rz 313: Unterschied zur Bestimmung der Revisionsart (Berichts- und Vorjahr).'
+  quelle: hwp-er-2026__rz-0313-s098
+  zitat: die Tatsachen im betreffenden Geschäftsjahr massgebend, nicht der Durchschnitt in zwei aufeinander folgenden Geschäftsjahren
+  status: agent-geprueft

@@ -1,0 +1,207 @@
+# Werte Kategorie wesentlichkeit – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: ser_wesentlichkeit_bezugsgroesse_gewinn
+  bezeichnung: 'Wesentlichkeit: übliche Bezugsgrösse'
+  wert: Gewinn vor Steuern
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2: quantitative und qualitative Kriterien; Anhaltspunkte auch Umsatz, Bilanzsumme oder Ergebnis. Prozentsätze nennt erst HWP ER Rz 42. revio 3.3 (Konzept consis).'
+  quelle: ser-2022__5-2-t1
+  zitat: Oft wird die quantitative Wesentlichkeit in Bezug auf den Gewinn vor Steuern als eine Bezugsgrösse der wirtschaftlichen Tätigkeit
+  status: agent-geprueft
+- key: ser_wesentlichkeit_effektives_ergebnis
+  bezeichnung: 'Wesentlichkeit: gesteuerte Ergebnisse'
+  wert: effektives Ergebnis (nach stillen Reserven)
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2; HWP ER Rz 42: bereinigter Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven, Durchschnittswerte möglich.'
+  quelle: ser-2022__5-2-t1
+  zitat: Sind die Ergebnisse gesteuert – z. B. durch Bildung oder Auflösung von stillen Reserven – ist vom effektiven Ergebnis auszugehen.
+  status: agent-geprueft
+- key: ser_wesentlichkeit_alternative_bezugsgroessen
+  bezeichnung: 'Wesentlichkeit: alternative Bezugsgrössen'
+  wert: Eigenkapital, Umsatz, Aufwendungen
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2. Richtwerte je Bezugsgrösse: HWP ER Rz 42 (hwp-er-2026__rz-0042-s185-t1/-t2).'
+  quelle: ser-2022__5-2-t1
+  zitat: können auch andere Bezugsgrössen, wie beispielsweise «Eigenkapital», «Umsatz» oder «Aufwendungen», herangezogen werden (z. B. in Verlustsituationen)
+  status: agent-geprueft
+- key: ser_wesentlichkeit_qualitativ_tiefer
+  bezeichnung: 'Wesentlichkeit: tiefer bei drohender Illiquidität/Überschuldung'
+  wert: tiefere Wesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2: auch ein geringer Fehler, der Gewinn in Verlust dreht, kann wesentlich sein. HWP ER Rz 44: dann häufig Eigenkapital als Bezugsgrösse.'
+  quelle: ser-2022__5-2-t1
+  zitat: So kann beispielsweise in Situationen drohender Illiquidität oder Überschuldung eine tiefere Wesentlichkeit angezeigt sein.
+  status: agent-geprueft
+- key: ser_toleranzwesentlichkeit
+  bezeichnung: Toleranzwesentlichkeit (Aggregationsrisiko)
+  wert: tiefer als Gesamtwesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: SER 5.2 nennt keinen Prozentsatz; Richtwert 50–75 % in HWP ER Rz 50.
+  quelle: ser-2022__5-2-t2
+  zitat: Um diesem sogenannten Aggregationsrisiko Rechnung zu tragen, legt der Abschlussprüfer eine entsprechend tiefere Toleranzwesentlichkeit fest.
+  status: agent-geprueft
+- key: ser_spezifische_wesentlichkeit
+  bezeichnung: Spezifische Wesentlichkeitsgrenzen
+  wert: tiefer als Gesamtwesentlichkeit
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.2 / HWP ER Rz 48: für Geschäftsvorfälle, Kontensalden oder Abschlussangaben, die die Entscheide der Berichtsempfänger beeinflussen könnten.'
+  quelle: ser-2022__5-2-t2
+  zitat: eine oder mehrere spezifische Wesentlichkeitsgrenzen fest, welche tiefer als die Gesamtwesentlichkeit anzusetzen sind
+  status: agent-geprueft
+- key: ser_nichtaufgriffsgrenze
+  bezeichnung: 'Nichtaufgriffsgrenze: Begriff'
+  wert: Fehlaussagen, deren Summe voraussichtlich unwesentlich bleibt
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: wesentlichkeit
+  bemerkung: 'SER 5.3: übrige Fehlaussagen laufend in einer Zusammenstellung nachführen; Korrekturvorschlag an die Unternehmensleitung; bei Verweigerung beurteilen, ob modifizierte Prüfungsaussage
+    (Entscheid WP). Prozentsatz: HWP ER Rz 51.'
+  quelle: ser-2022__5-3
+  zitat: mit Ausnahme jener, die derart gering sind, dass auch ihre Summe voraussichtlich unwesentlich sein wird (Nichtaufgriffsgrenze)
+  status: agent-geprueft
+- key: hwp_er_gw_gewinn_vor_steuern
+  bezeichnung: 'Gesamtwesentlichkeit: profitables Unternehmen mit stabilen Ergebnissen'
+  wert: 3–10
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42 (Abbildung 20): Jahresgewinn vor Steuern nach Berücksichtigung allfälliger stiller Reserven; Durchschnittswerte möglich. Richtwert, Ermessen WP (Rz 43).'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 3 % – 10 % des bereinigten Jahresgewinns vor Steuern
+  status: agent-geprueft
+- key: hwp_er_gw_eigenkapital
+  bezeichnung: 'Gesamtwesentlichkeit: gewinnorientiertes Unternehmen in Verlustsituation'
+  wert: 3–5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Eigenkapital.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 3 % – 5 % des Eigenkapitals
+  status: agent-geprueft
+- key: hwp_er_gw_bilanzsumme
+  bezeichnung: 'Gesamtwesentlichkeit: anlageintensives Unternehmen/Holding mit Verlusten in Vorperioden'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: z.B. Holdinggesellschaft mit überwiegend Beteiligungen und Finanzanlagen.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 1 % – 3 % der Bilanzsumme
+  status: agent-geprueft
+- key: hwp_er_gw_umsatz
+  bezeichnung: 'Gesamtwesentlichkeit: Unternehmen mit volatilen Jahresergebnissen'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Nettoerlöse; Durchschnittswerte können angemessen sein.'
+  quelle: hwp-er-2026__rz-0042-s185-t1
+  zitat: 1 % – 3 % der Nettoerlöse aus Lieferungen und Leistungen (Umsätze)
+  status: agent-geprueft
+- key: hwp_er_gw_gesamtaufwendungen
+  bezeichnung: 'Gesamtwesentlichkeit: nicht gewinnorientiertes Unternehmen'
+  wert: 1–3
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse Gesamtaufwendungen (Zeile «Nicht gewinnorientiertes Unternehmen» am Ende von hwp-er-2026__rz-0042-s185-t1).'
+  quelle: hwp-er-2026__rz-0042-s185-t2
+  zitat: 1 % – 3 % der Gesamtaufwendungen
+  status: agent-geprueft
+- key: hwp_er_gw_startup
+  bezeichnung: 'Gesamtwesentlichkeit: Start-up mit geringen/keinen Umsätzen'
+  wert: 2–5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 42: Bezugsgrösse operative Aufwendungen (in erster Linie Entwicklungskosten).'
+  quelle: hwp-er-2026__rz-0042-s185-t2
+  zitat: 2 % – 5 % der operativen Aufwendungen
+  status: agent-geprueft
+- key: hwp_er_gw_richtwerte
+  bezeichnung: 'Gesamtwesentlichkeit: Charakter der Prozentsätze'
+  wert: Richtwerte; oberes Ende bei wenigen langfristigen Eigentümern, geringer Fremdverschuldung, stabilen Erträgen
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 43: Abweichungen zulässig; Festlegung im professionellen Ermessen des WP. Rz 47: bei neuen Erkenntnissen Wesentlichkeit neu beurteilen und ggf. anpassen.'
+  quelle: hwp-er-2026__rz-0043-s186
+  zitat: Bei den angegebenen Prozentsätzen handelt es sich um Richtwerte.
+  status: agent-geprueft
+- key: hwp_er_toleranzwesentlichkeit
+  bezeichnung: 'Toleranzwesentlichkeit: Richtwert'
+  wert: 50–75
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 50: in % der Gesamtwesentlichkeit, abhängig von Risikobeurteilung, Kenntnissen, Vorjahresfehlern und Schätzunsicherheiten; steuert Art, Zeitpunkt und Umfang der
+    Prüfungshandlungen. consis-Standard 75 % (Konzept).'
+  quelle: hwp-er-2026__rz-0050-s187
+  zitat: beträgt die Toleranzwesentlichkeit in der Regel zwischen 50 % und 75 % der Gesamtwesentlichkeit
+  status: agent-geprueft
+- key: hwp_er_nichtaufgriffsgrenze
+  bezeichnung: 'Nichtaufgriffsgrenze (NAG): Richtwert'
+  wert: bis 5
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 51: in % der Gesamtwesentlichkeit; darunter keine Erfassung in der Zusammenstellung der Fehlaussagen. Fehlaussagen über der NAG kumulieren und laufend beurteilen
+    (Rz 53).'
+  quelle: hwp-er-2026__rz-0051-s187
+  zitat: Sie kann bis zu 5 % der Gesamtwesentlichkeit betragen.
+  status: agent-geprueft
+- key: hwp_er_wesentlichkeit_beispiel
+  bezeichnung: 'Wesentlichkeit: illustratives Beispiel HWP ER (Abbildung 21)'
+  wert: GW 7 % · TW 60 % · NAG 5 %
+  einheit: '%'
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: wesentlichkeit
+  bemerkung: 'HWP ER Rz 52: nur Illustration, im Einzelfall anzupassen (bereinigter Gewinn vor Steuern, Sicherheitsabschlag 5 % bei Hochrechnung; TW 60 % und NAG 5 % in hwp-er-2026__rz-0052-s188-t2).
+    Kein Standardwert.'
+  quelle: hwp-er-2026__rz-0052-s188-t1
+  zitat: die Gesamtwesentlichkeit hier bei 7 %
+  status: agent-geprueft
+- key: konzept_wesentlichkeit_revio33
+  bezeichnung: Wesentlichkeit in revio 4.0 (Bereich 3.3)
+  wert: Bezugsgrösse × Prozentsatz + Begründung; Agent ändert nie
+  einheit: Text
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: 'Konzept consis: der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie; passen Bezugsgrösse, Prozentsatz und Begründung nicht zusammen → Pendenz. Gesamtwesentlichkeit
+    = Massstab für wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1).'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: revio 4.0 berechnet sie aus einer gewählten Bezugsgrösse, einem Prozentsatz und einer Begründung.
+  status: agent-geprueft
+- key: konzept_toleranzwesentlichkeit_75
+  bezeichnung: Toleranzwesentlichkeit consis (revio 3.3)
+  wert: '75'
+  einheit: '%'
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: Interne Festlegung consis, liegt am oberen Ende der Bandbreite HWP ER Rz 50 (50–75 % der Gesamtwesentlichkeit).
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+  status: agent-geprueft
+- key: konzept_nichtaufgriffsgrenze_5
+  bezeichnung: Nichtaufgriffsgrenze consis (revio 3.3)
+  wert: '5'
+  einheit: '%'
+  gilt: Konzept consis 26.10.2026 (Testphase 1)
+  kategorie: wesentlichkeit
+  bemerkung: Interne Festlegung consis, entspricht dem Höchstwert nach HWP ER Rz 51 (bis 5 % der Gesamtwesentlichkeit).
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  status: agent-geprueft

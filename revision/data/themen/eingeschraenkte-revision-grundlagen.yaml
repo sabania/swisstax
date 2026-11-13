@@ -1,0 +1,292 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: eingeschraenkte-revision-grundlagen
+titel: 'Eingeschränkte Revision: Gegenstand, Umfang, Prüfungsaussage'
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 11
+  korrigiert: true
+stichworte:
+- eingeschränkte Revision
+- SER
+- Art. 729a OR
+- Art. 727a OR
+- Anwendungsbereich
+- Opting-up
+- Review
+- prüferische Durchsicht
+- Gegenstand der eingeschränkten Revision
+- Prüfungsgegenstand
+- Zwischenabschluss
+- Kern-FER
+- Swiss GAAP FER
+- Prüfungsumfang
+- Umfang einer eingeschränkten Revision
+- Befragung
+- analytische Prüfungshandlungen
+- angemessene Detailprüfungen
+- Bestand und Bewertung
+- empfohlene Prüfungshandlungen
+- weitergehende Prüfungshandlungen
+- weiter gehende Prüfungshandlungen
+- nicht Bestandteil der eingeschränkten Revision
+- IKS-Prüfung
+- internes Kontrollsystem
+- Inventurbeobachtung
+- Inventurteilnahme
+- Drittbestätigung
+- Bankbestätigung
+- Debitorenbestätigung
+- Anwaltsbestätigung
+- Saldobestätigung
+- Herstellkosten
+- deliktische Handlungen
+- Geschäftsführung
+- Nachhaltigkeit
+- Vollständigkeitserklärung
+- negative Zusicherung
+- negative assurance
+- limited assurance
+- begrenzte Prüfungssicherheit
+- Prüfungsaussage
+- Normalwortlaut
+- nicht modifizierte Prüfungsaussage
+- eingeschränkte Prüfungsaussage
+- verneinende Prüfungsaussage
+- keine Prüfungsaussage
+- Beschränkung des Prüfungsumfangs
+- Annahme
+- angenommener Sachverhalt
+- festgestellter Sachverhalt
+- Hinweis Gesetzesverstoss
+- Kapitalverlust
+- Überschuldung
+- Anzeigepflicht
+- Art. 729c OR
+- ordentliche Revision
+- Abgrenzung
+- Empfehlung Genehmigung Jahresrechnung
+- Art. 729b OR
+- Arbeitspapiere
+- Jahresakten
+- Dauerakten
+- Dokumentation
+- Art. 730c OR
+- Stichprobenverfahren
+- Treu und Glauben
+- kritische Grundhaltung
+- Erstprüfung
+kurz: Die eingeschränkte Revision (Art. 727a, 729a OR; SER massgebend) gilt, wenn keine ordentliche Revision vorgeschrieben ist. Sie prüft einzig, ob Sachverhalte vorliegen, aus denen
+  zu schliessen ist, dass Jahresrechnung oder Gewinnverwendungsantrag nicht Gesetz und Statuten entsprechen – mit Befragungen, Analytik und angemessenen Detailprüfungen intern verfügbarer
+  Unterlagen (ohne IKS-Prüfung, Inventurbeobachtung, Drittbestätigungen) – und endet in einer negativen Zusicherung.
+aussagen:
+- text: 'Anwendungsbereich und Abgrenzung (SER 1.1): Die eingeschränkte Revision kommt zur Anwendung, wenn die Voraussetzungen der ordentlichen Revision (Art. 727 OR) nicht gegeben sind
+    (Art. 727a Abs. 1 OR). Ein freiwilliges Opting-up zur ordentlichen Revision ist möglich ^[ser-2022__1-1-t1] «Ein solches Opting-up zieht sämtliche Rechtsfolgen für die Revisionsstelle
+    nach sich.»; konzernrechnungspflichtige Gesellschaften (Art. 963 OR) sind ordentlich zu prüfen ^[ser-2022__1-1-t2] «müssen ihre Jahresrechnung und ihre Konzernrechnung ordentlich
+    prüfen lassen». Abgrenzung zur Review: Die eingeschränkte Revision ist eine schweizerische Eigenheit, basiert auf der Review und umfasst zusätzlich angemessene Detailprüfungen; die
+    Review-Standards gelten für sie nicht ^[ser-2022__1-1-t1] «umfasst zusätzlich die vom Gesetz geforderten angemessenen Detailprüfungen», «Die Standards zur Review sind für die eingeschränkte
+    Revision nicht massgebend.».'
+  quelle: ser-2022__1-1-t1
+  zitat: Die eingeschränkte Revision kommt gemäss Art. 727a Abs. 1 OR dann zur Anwendung, wenn die Voraussetzungen für eine ordentliche Revision (vgl. Art. 727 OR) nicht gegeben sind.
+- text: 'Gegenstand (Art. 729a Abs. 1 und 3 OR): Die Revisionsstelle prüft, ob Sachverhalte vorliegen, aus denen zu schliessen ist, dass die Jahresrechnung oder der Antrag des Verwaltungsrats
+    über die Verwendung des Bilanzgewinns nicht den gesetzlichen Vorschriften und den Statuten entspricht. Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung ^[or__art-729a]
+    «Die Geschäftsführung des Verwaltungsrats ist nicht Gegenstand der Prüfung durch die Revisionsstelle.»; ebenso wenig die gesetzlichen Bestimmungen zur Nachhaltigkeit (nichtfinanzielle
+    Belange, Konfliktmineralien, Kinderarbeit; HWP ER Rz 256 ^[hwp-er-2026__rz-0256-s084] «sind nicht Gegenstand einer eingeschränkten Revision»).'
+  quelle: or__art-729a
+  zitat: Die Revisionsstelle prüft, ob Sachverhalte vorliegen, aus denen zu schliessen ist, dass
+- text: 'Prüfungsgegenstände (SER 1.6): Zu prüfen sind einzig die Gesetzes- und Statutenkonformität der Jahresrechnung bzw. eines allfälligen Zwischenabschlusses (Bilanz, Erfolgsrechnung,
+    Anhang) und des Antrags über die Verwendung des Bilanzgewinns – nicht jedoch gesetzlich besonders geregelte Prüfungen (z. B. Zwischenabschluss nach Art. 725b Abs. 2 OR, Kapitalerhöhung,
+    Kapitalherabsetzung, Fusion), für die weder eine eingeschränkte Revision noch ein Opting-out zulässig ist ^[ser-2022__1-1-t2] «ist weder eine eingeschränkte Revision noch ein Opting-out
+    zulässig». Die Einhaltung integraler Regelwerke (Swiss GAAP FER, IFRS) und die Existenz eines IKS sind keine gesetzlich vorgeschriebenen Prüfungsgegenstände ^[ser-2022__1-6-t1] «keine
+    gesetzlich vorgeschriebenen Prüfungsgegenstände dar» (ordentliche Revision: Regelwerk Art. 728a Abs. 1 Ziff. 1 OR, IKS-Existenz Ziff. 3 ^[or__art-728a] «den gesetzlichen Vorschriften,
+    den Statuten und dem gewählten Regelwerk entsprechen», «ein internes Kontrollsystem existiert»). Entspricht die OR-Jahresrechnung zugleich einem anerkannten Standard (z. B. Kern-FER),
+    kann auch eine negative Zusicherung zum Regelwerk erfolgen ^[ser-2022__1-6-t1] «kann im Rahmen der eingeschränkten Revision auch eine negative Zusicherung betreffend die Konformität
+    des Abschlusses mit dem gewählten Regelwerk erfolgen»; besteht eine gesetzliche Pflicht nach Art. 962 OR, ist eine ordentliche Revision durchzuführen ^[ser-2022__1-6-t1] «Es ist
+    in diesem Fall eine ordentliche Revision durchzuführen (Art. 962a Abs. 3 OR).».'
+  quelle: ser-2022__1-6-t1
+  zitat: Zu prüfen sind einzig die Gesetzes- und Statutenkonformität der Jahresrechnung oder eines allfälligen Zwischenabschlusses (Bilanz, Erfolgsrechnung und Anhang)
+- text: 'Ziel und Sicherheitsgrad (SER 1.2): Die eingeschränkte Revision liefert nur begrenzte Urteilssicherheit («limited assurance»), ausgedrückt in einer negativ formulierten Zusicherung;
+    die ordentliche Revision liefert angemessene Urteilssicherheit in einer positiv formulierten Zusicherung. Die Prüfungshandlungen liefern weniger weitgehende Nachweise als bei einer
+    ordentlichen Revision ^[ser-2022__1-2-t1] «welche weniger weitgehende Nachweise liefern, als im Rahmen einer ordentlichen Revision verlangt würden».'
+  quelle: ser-2022__1-2-t1
+  zitat: Eine eingeschränkte Revision hingegen liefert nur eine begrenzte Urteilssicherheit («limited assurance»). Diese kommt in der negativ formulierten Zusicherung
+- text: 'Kritische Grundhaltung und Treu und Glauben (SER 1.2): Die eingeschränkte Revision ist mit kritischer Grundhaltung zu planen und durchzuführen – während des gesamten Prüfungsprozesses
+    ^[ser-2022__1-2-t2] «Dieser Grundhaltung bedarf es während des gesamten Prüfungsprozesses.»; der Prüfer hinterfragt die Stichhaltigkeit erlangter Informationen und Unterlagen ^[ser-2022__1-2-t2]
+    «die Stichhaltigkeit erlangter Informationen und Unterlagen hinterfragt». Zugleich darf er sich auf plausible Ergebnisse abstützen und mangels gegenteiliger Hinweise von der Richtigkeit
+    erhaltener Auskünfte und Unterlagen ausgehen ^[ser-2022__1-2-t2] «Er kann mangels gegenteiliger Hinweise von der Richtigkeit erhaltener Auskünfte und Unterlagen ausgehen (Grundsatz
+    von Treu und Glauben).».'
+  quelle: ser-2022__1-2-t2
+  zitat: Der Abschlussprüfer muss die eingeschränkte Revision mit einer kritischen Grundhaltung planen und durchführen.
+- text: 'Arten und Kombination: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen (Art. 729a Abs. 2 OR). In vielen Fällen erbringt
+    nur eine effiziente Kombination von mindestens zwei Arten die vorgesehene Prüfungssicherheit ^[ser-2022__6-2-1] «In vielen Fällen wird nur eine effiziente Kombination von mindestens
+    zwei Arten von Prüfungshandlungen die vom Gesetzgeber vorgesehene eingeschränkte Prüfungssicherheit erbringen.»; der Prüfer entscheidet situativ über die Reihenfolge (Befragung →
+    Analytik oder umgekehrt); gerade bei Unsicherheiten oder wesentlichen Bilanzpositionen sind gewisse angemessene Detailprüfungen durchzuführen ^[ser-2022__6-2-1] «sind sodann gewisse
+    angemessene Detailprüfungen durchzuführen» (SER 6.2.1).'
+  quelle: or__art-729a
+  zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- text: 'Befragungen (SER 6.1.1): gezielt vorbereiten ^[ser-2022__6-1-1-t1] «Der Abschlussprüfer muss sich genau überlegen, welche Aussagen der Jahresrechnung er mit der Befragung prüfen
+    will.», wesentliche Fragen und Antworten dokumentieren ^[ser-2022__6-1-1-t1] «Die wesentlichen Fragen und Antworten sind zu dokumentieren.», Kernaussagen allenfalls schriftlich bestätigen
+    lassen, Antworten kritisch würdigen ^[ser-2022__6-1-1-t2] «Die erhaltenen Antworten sind kritisch zu würdigen.». Bei wesentlichen Jahresabschlussposten darf sich der Prüfer nicht
+    ausschliesslich auf Befragungen stützen; die Nachweise sind mit analytischen Prüfungshandlungen und/oder angemessenen Detailprüfungen zu ergänzen.'
+  quelle: ser-2022__6-1-1-t1
+  zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: Analytische Prüfungshandlungen (SER 6.1.2) beinhalten Schlussfolgerungen aus Vergleichen mit Vorperioden, Budgets/Prognosen und Branchendaten sowie aus Relationen ^[ser-2022__6-1-2-t1]
+    «Analytische Prüfungshandlungen beinhalten Schlussfolgerungen aus Vergleichen der Finanzinformationen des Unternehmens». Sie liefern bei der Prüfung der Erfolgsrechnung wertvolle
+    Nachweise ^[ser-2022__6-1-2-t3] «Analytische Prüfungshandlungen liefern bei der Prüfung der Erfolgsrechnung wertvolle Prüfungsnachweise.»; bei wesentlichen Bilanzpositionen sind
+    sie in der Regel um angemessene Detailprüfungen zu ergänzen, insbesondere bei nicht plausiblen Relationen oder Entwicklungen. Die bei der Abweichungsanalyse erhaltenen Aussagen sind
+    zu plausibilisieren ^[ser-2022__6-1-2-t3] «die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren».
+  quelle: ser-2022__6-1-2-t3
+  zitat: Bei wesentlichen Bilanzpositionen sind die analytischen Prüfungshandlungen in der Regel um angemessene Detailprüfungen zu ergänzen
+- text: Angemessene Detailprüfungen richten sich namentlich auf Bestand (Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer
+    Rechnung) und Bewertung (Belegprüfung, Abstimmung mit Preislisten); repräsentative Stichprobenverfahren werden nicht angewendet (SER 6.1.3).
+  quelle: ser-2022__6-1-3
+  zitat: Bei einer eingeschränkten Revision sind angemessene Detailprüfungen – namentlich von Bestand und Bewertung – vorgesehen. Auf die Anwendung repräsentativer Stichprobenverfahren
+    ist zu verzichten.
+- text: 'Empfohlene und weitergehende Prüfungshandlungen (SER 6.2.2/6.2.3, Anhang D): Die Liste in Anhang D ist beispielhaft ^[ser-2022__6-2-1] «Die aufgezeigten Prüfungshandlungen sind
+    weder abschliessend noch sollen sämtliche bei jeder eingeschränkten Revision Anwendung finden.». Empfohlene Prüfungshandlungen sind in der Regel und sofern anwendbar für die wesentlichen
+    Positionen und/oder die Jahresrechnung als Ganzes durchzuführen ^[ser-2022__6-2-2] «für die wesentlichen Positionen der Jahresrechnung und/oder für die Jahresrechnung als Ganzes
+    durchzuführen». Weitergehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn z. B. nach den empfohlenen Handlungen wesentliche Fehlaussagen angenommen werden
+    müssen oder ein erhöhtes inhärentes Risiko besteht; ohne erhöhtes inhärentes Risiko und bei ausreichenden Nachweisen sind keine weitergehenden vorzunehmen (HWP ER Rz 133 ^[hwp-er-2026__rz-0133-s203]
+    «sind keine weitergehenden Prüfungshandlungen vorzunehmen»).'
+  quelle: ser-2022__6-2-3
+  zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn z. B. aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen
+    werden müssen
+- text: 'Vollständigkeitserklärung (SER 6.2.5, Anhang E): Teil der Prüfungshandlungen – die Unternehmensleitung bestätigt dem Prüfer schriftlich die Vollständigkeit der Jahresrechnung
+    sowie die Richtigkeit und Vollständigkeit der erteilten Auskünfte und Unterlagen. Die unterzeichnete Vollständigkeitserklärung ist Bestandteil der Jahresakten ^[ser-2022__7-2] «Zudem
+    sind je eine unterzeichnete Jahresrechnung und Vollständigkeitserklärung Bestandteil der Jahresakten.».'
+  quelle: ser-2022__6-2-5
+  zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung
+- text: 'Nicht Bestandteil des Umfangs (SER 1.5): keine Prüfung des IKS und der verwendeten IT-Systeme – der Prüfer muss nicht abklären, ob Rechnungswesen und IKS geeignet und wirksam
+    sind ^[ser-2022__1-5] «ob und inwieweit das Rechnungswesensystem sowie das IKS geeignet und wirksam sind»; keine Inventurbeobachtung und keine Drittbestätigungsanfragen – die Prüfung
+    stützt sich grundsätzlich auf intern verfügbare Informationen ^[ser-2022__1-5] «keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt – die Prüfung beschränkt sich
+    grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen»; keine Prüfungen zur Aufdeckung deliktischer Handlungen und weiterer Gesetzesverstösse, ausgenommen
+    die Bestimmungen zur Rechnungslegung und Gewinnverwendung ^[ser-2022__1-5] «keine Prüfungen zur Aufdeckung von deliktischen Handlungen und keine Prüfungen zur Aufdeckung von weiteren
+    Gesetzesverstössen», «mit Ausnahme der Bestimmungen zur Rechnungslegung und zur Gewinnverwendung».'
+  quelle: ser-2022__1-5
+  zitat: keine Prüfung des internen Kontrollsystems und der verwendeten IT-Systeme durchgeführt
+- text: 'Das HWP ER konkretisiert die nach SER Anhang D nicht vorgesehenen Handlungen, auf die zu verzichten ist (Rz 134): Inventurteilnahme, Bestätigungen Dritter (Bank-, Debitoren-,
+    Kreditoren-, Anwaltsbestätigungen, Experten-/Bewertungsgutachten, Saldobestätigungen von MWST, AHV, SUVA, BVG/PK und Steuerämtern), vertiefte Prüfung der Herstellkostenkalkulation
+    – eine Plausibilisierung nimmt der Prüfer bei entsprechender Risikolage gegebenenfalls vor ^[hwp-er-2026__rz-0134-s203] «lediglich vertiefte Prüfungen sind ausgeschlossen; hingegen
+    nimmt der Abschlussprüfer bei entsprechender Risikolage ggf.» – sowie die Prüfung arbeits- und verwaltungsrechtlicher Vorgaben. Diese Handlungen sind nicht Bestandteil der eingeschränkten
+    Revision; ihr Weglassen muss nicht begründet werden (SER 6.2.6 ^[ser-2022__6-2-6] «Der Abschlussprüfer muss deshalb nicht begründen, weshalb er diese Prüfungshandlungen nicht durchführt.»;
+    HWP ER Rz 135 ^[hwp-er-2026__rz-0135-s203] «Der Abschlussprüfer kann ohne weitere Begründung auf diese Prüfungshandlungen verzichten»).'
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen, Anwaltsbestätigungen, Experten- und Bewertungsgutachten, Saldobestätigungen von MWST,
+    AHV, SUVA , BVG/PK und Steuerämtern)
+- text: 'Annahme bei Beschränkung durch den SER (HWP ER Rz 138/139): Kann sich der Prüfer wegen der nicht vorgesehenen Handlungen kein abschliessendes Bild machen, trifft er – erst nach
+    Ausschöpfen aller verfügbaren Prüfungshandlungen ^[hwp-er-2026__rz-0139-s204-t1] «sämtliche ihm zur Verfügung stehenden Prüfungshandlungen durchführt, bevor er eine Annahme trifft»
+    – eine Annahme und macht gegebenenfalls eine eingeschränkte Prüfungsaussage. Verändert der angenommene Sachverhalt das Gesamtbild grundlegend, ist unter Umständen auf eine Prüfungsaussage
+    zu verzichten ^[hwp-er-2026__rz-0138-s204] «ist unter Umständen eine eingeschränkte Prüfungsaussage nicht angemessen und stattdessen auf eine Aussage zu verzichten» (SER 8.3.1 lit.
+    b(iii) ^[ser-2022__8-3-1-t3] «gar keine Prüfungsaussage zu machen, falls die mögliche Auswirkung des angenommenen Sachverhalts das von der Jahresrechnung vermittelte Gesamtbild grundlegend
+    verändert»). Entscheid beim WP (intern).'
+  quelle: hwp-er-2026__rz-0138-s204
+  zitat: In solchen Situationen muss der Abschlussprüfer eine Annahme treffen und, basierend auf dieser Annahme, möglicherweise eine eingeschränkte Prüfungsaussage machen.
+- text: 'Nicht modifizierte Prüfungsaussage (SER 8.3.1 lit. a, Anhang F Beispiel 1): negative Zusicherung ^[ser-2022__8-3-1-t1] «macht der Abschlussprüfer eine nicht modifizierte Prüfungsaussage
+    (negative Zusicherung)». Normalwortlaut: «Bei unserer Revision sind wir nicht auf Sachverhalte gestossen, aus denen wir schliessen müssten, dass die Jahresrechnung sowie der Antrag
+    über die Verwendung des Bilanzgewinns nicht dem schweizerischen Gesetz und den Statuten entsprechen.»'
+  quelle: ser-2022__anh-f-s118-2
+  zitat: sind wir nicht auf Sachverhalte gestossen, aus denen wir schliessen müssten, dass die Jahresrechnung sowie der Antrag über die Verwendung des Bilanzgewinns nicht dem schweizerischen
+    Gesetz und den Statuten entsprechen
+- text: 'Modifizierte Prüfungsaussage (SER 8.3.1 lit. b und c): Festgestellte oder angenommene wesentliche Fehlaussagen sind im Revisionsbericht darzulegen, sofern der Kunde sie nicht
+    korrigiert, und – sofern praktikabel – zu quantifizieren ^[ser-2022__8-3-1-t2] «so sind diese Sachverhalte im Revisionsbericht darzulegen, sofern der Prüfungskunde die Fehlaussagen
+    nicht korrigiert». Festgestellter Sachverhalt → eingeschränkte oder (bei grundlegender Veränderung des Gesamtbilds) verneinende Prüfungsaussage; verneinend auch, wenn der Gewinnverwendungsantrag
+    in wesentlichem Ausmass nicht Gesetz/Statuten entspricht ^[ser-2022__8-3-1-t3] «der Antrag über die Verwendung des Bilanzgewinns entspricht in einem wesentlichen Ausmass nicht den
+    gesetzlichen und/oder statutarischen Bestimmungen». Angenommener Sachverhalt → eingeschränkte oder keine Prüfungsaussage ^[ser-2022__8-3-1-t3] «gar keine Prüfungsaussage zu machen,
+    falls die mögliche Auswirkung des angenommenen Sachverhalts das von der Jahresrechnung vermittelte Gesamtbild grundlegend verändert». Wesentliche Umfangsbeschränkung → umschreiben
+    und eingeschränkte oder keine Prüfungsaussage ^[ser-2022__8-3-1-t4] «Wenn eine wesentliche Beschränkung des Prüfungsumfangs der eingeschränkten Revision vorliegt, ist diese zu umschreiben».
+    Der Entscheid liegt beim WP (intern).'
+  quelle: ser-2022__8-3-1-t3
+  zitat: Die verneinende Prüfungsaussage ist angebracht, wenn der festgestellte Sachverhalt das von der Jahresrechnung vermittelte Gesamtbild so grundlegend verändert
+- text: 'Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands (SER 8.3.2.1): Bei Untätigkeit des VR trotz hälftigem Kapitalverlust (Art. 725a OR) oder Überschuldung (Art.
+    725b OR) ist der Hinweis in jedem Fall im Revisionsbericht anzubringen; bei Überschuldung gilt zusätzlich die Anzeigepflicht nach Art. 729c OR ^[ser-2022__8-3-2-t1] «beachtet die
+    Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR» ^[or__art-729c] «Ist die Gesellschaft offensichtlich überschuldet
+    und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.». Übrige Gesetzesverstösse sind ggf. nur anzubringen, wenn sie wesentlich sind,
+    einen direkten Bezug zur Jahresrechnung aufweisen und aus den Prüfungshandlungen festgestellt wurden ^[ser-2022__8-3-2-t1] «wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung
+    aufweisen und aufgrund der durchgeführten Prüfungshandlungen (z. B. aus der Befragung) festgestellt wurden». Solche Hinweise beeinflussen die Prüfungsaussage nicht und folgen im
+    Bericht nach der Prüfungsaussage ^[ser-2022__8-3-2-t1] «haben keinen Einfluss auf die Prüfungsaussage im Revisionsbericht».'
+  quelle: ser-2022__8-3-2-t1
+  zitat: im Zusammenhang mit der Untätigkeit des Verwaltungsrates bei Vorliegen eines hälftigen Kapitalverlusts (Art. 725a OR) oder einer Überschuldung (Art. 725b OR) sind in jedem Fall
+    im Revisionsbericht anzubringen
+- text: 'Bericht – Abgrenzung zur ordentlichen Revision: Der Revisionsbericht zur eingeschränkten Revision enthält keine Empfehlung zur Genehmigung oder Rückweisung der Jahresrechnung
+    (SER 1.2; HWP ER Rz 255 ^[hwp-er-2026__rz-0255-s084] «Ferner hat die Revisionsstelle keine Empfehlung zur Abnahme oder Rückweisung der Jahresrechnung abzugeben.»); bei der ordentlichen
+    Revision ist sie vorgeschrieben (Art. 728b Abs. 2 Ziff. 4 OR ^[or__art-728b] «eine Empfehlung, ob die Jahresrechnung und die Konzernrechnung mit oder ohne Einschränkung zu genehmigen
+    oder zurückzuweisen ist»). Der Bericht enthält einen Hinweis auf die eingeschränkte Natur der Revision (Art. 729b Abs. 1 Ziff. 1 OR ^[or__art-729b] «einen Hinweis auf die eingeschränkte
+    Natur der Revision») und ist von der Person zu unterzeichnen, welche die Revision geleitet hat (Art. 729b Abs. 2 OR ^[or__art-729b] «Der Bericht muss von der Person unterzeichnet
+    werden, die die Revision geleitet hat.»).'
+  quelle: ser-2022__1-2-t1
+  zitat: auch keine Empfehlung, ob die Jahresrechnung mit oder ohne Einschränkung zu genehmigen oder zurückzuweisen sei
+- text: 'Dokumentation (Art. 730c Abs. 1 OR; SER 7.1, 7.3): Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren und Revisionsberichte sowie alle wesentlichen Unterlagen
+    mindestens zehn Jahre aufbewahren ^[or__art-730c] «Die Revisionsstelle muss sämtliche Revisionsdienstleistungen dokumentieren», «Revisionsberichte sowie alle wesentlichen Unterlagen
+    mindestens während zehn Jahren aufbewahren». Wichtige Sachverhalte sind als Nachweis zu dokumentieren, dass die Prüfungsaussage gestützt und der SER eingehalten ist – insbesondere
+    Planung und Durchführung; die wichtigsten Dokumente sind zu datieren und mit dem Vermerk des Autors bzw. der mandatsleitenden Person zu versehen. Dauerakten enthalten über mehrere
+    Jahre gültige Unterlagen ^[ser-2022__7-3] «Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.».'
+  quelle: ser-2022__7-1
+  zitat: Zu dokumentieren sind insbesondere die Planung und die Durchführung der Prüfungsarbeiten. Die wichtigsten Dokumente sind zu datieren und mit einem Vermerk des Autors
+- text: 'Inhalt der Jahresakten (SER 7.2): Überlegungen zur Unabhängigkeit, Verständnis des Unternehmens, Wesentlichkeit, Analytik aus der Planung, inhärentes Risiko und Prüfungsplan,
+    Prüfungsprogramm, Fehlaussagen aus festgestellten/angenommenen Sachverhalten und ihre Behandlung sowie erlangte Prüfungsnachweise mit Beurteilung; dazu je eine unterzeichnete Jahresrechnung
+    und Vollständigkeitserklärung. Ein Memorandum zur abschliessenden Durchsicht durch den leitenden Prüfer wird empfohlen ^[ser-2022__7-2] «Ein Memorandum, das die abschliessende Durchsicht
+    der Prüfungsdokumentation».'
+  quelle: ser-2022__7-2
+  zitat: erlangte Prüfungsnachweise und ihre Beurteilung durch den Abschlussprüfer
+agent:
+- Prüfziel jedes Prüfschritts auf Art. 729a Abs. 1 OR ausrichten (Gesetzes-/Statutenkonformität von Bilanz, Erfolgsrechnung, Anhang und Gewinnverwendungsantrag) und im Textfeld festhalten,
+  welche Prüfziele der Nachweis abdeckt ^[konzept-ki-revisionsagent-2026__c008-1]. Geschäftsführung, IKS-Existenz/-Wirksamkeit, Swiss GAAP FER/IFRS-Konformität und Nachhaltigkeitsbestimmungen
+  nicht prüfen (Art. 729a Abs. 3 OR ^[or__art-729a]; SER 1.6 ^[ser-2022__1-6-t1]; HWP ER Rz 256 ^[hwp-er-2026__rz-0256-s084]). Ob bei freiwillig eingehaltenem Standard (z. B. Kern-FER)
+  eine negative Zusicherung zum Regelwerk erfolgt, entscheidet der WP ^[ser-2022__1-6-t1].
+- 'Befragungen kann der Agent nicht selbst führen: schriftliche Antworten (z.B. revio 10.11 Kundenbefragung) auswerten und kritisch würdigen ^[ser-2022__6-1-1-t2], sonst die Frage als
+  Pendenz erfassen; Schritt höchstens «teilweise bearbeitet» ^[konzept-ki-revisionsagent-2026__c012-1]. Bei Posten über der Toleranzwesentlichkeit (aus revio 3.3 lesen) nie nur auf Befragung
+  abstützen, sondern Analytik/Detailprüfung ergänzen (SER 6.1.1 ^[ser-2022__6-1-1-t1]; HWP ER Rz 105 ^[hwp-er-2026__rz-0105-s198]).'
+- Analytik, Abstimmungen und Vorjahresdifferenzen im Rechenmodul (rechne), nie im Kopf ^[konzept-ki-revisionsagent-2026__c009-2]; nicht plausible Abweichungen als Frage/Pendenz an den
+  Kunden, erhaltene Erklärungen plausibilisieren ^[ser-2022__6-1-2-t3]; Einfluss stiller Reserven auf Vergleiche beachten ^[ser-2022__6-1-2-t2].
+- Detailprüfungen auf Bestand und Bewertung mit Unterlagen aus M-Files (Listen, Bank-/Kontoauszüge, Belege, Zahlungen in neuer Rechnung); keine statistischen Stichprobenverfahren (SER
+  6.1.3 ^[ser-2022__6-1-3]; HWP ER Rz 267 ^[hwp-er-2026__rz-0267-s086]); Auswahl und Umfang im Textfeld begründen.
+- 'Weitergehende Prüfungshandlungen im Sinne von SER 6.2.3/Anhang D (je Position als Beispiele aufgeführt ^[ser-2022__anh-d-s075-2]) nur, wenn die empfohlenen Handlungen eine wesentliche
+  Fehlaussage nahelegen oder revio 3.1 ein erhöhtes inhärentes Risiko ausweist – Begründung im Textfeld; ohne erhöhtes Risiko und bei ausreichenden Nachweisen keine weitergehenden Handlungen
+  ^[hwp-er-2026__rz-0133-s203]. Nicht verwechseln mit revio 4xx «Sonstige Prüfungshandlungen», die das Konzept ebenfalls «weitergehende Handlungen» nennt (Bestätigungen, Inventur, Gutachten,
+  Journal Entry Testing) ^[konzept-ki-revisionsagent-2026__c012-1]: Bestätigungen, Inventur und Gutachten sind nach SER 6.2.6/HWP ER Rz 134 nicht Bestandteil der eingeschränkten Revision
+  und nur auf WP-Anweisung (nächster Hinweis).'
+- Inventurteilnahme sowie Bestätigungsanfragen an Banken, Debitoren, Kreditoren, Anwälte, Gutachter, MWST/AHV/SUVA/BVG/Steuerämter nie selbst anstossen; revio-Schritte 4xx nur auf ausdrückliche
+  Anweisung des WP, physische Tätigkeiten nie ^[konzept-ki-revisionsagent-2026__c012-1]. Das Weglassen dieser Handlungen muss nicht begründet werden (SER 6.2.6 ^[ser-2022__6-2-6]; HWP
+  ER Rz 135 ^[hwp-er-2026__rz-0135-s203]).
+- Vom Kunden selbst eingeholte Bestätigungen (z.B. Bankbestätigung, Anwaltsschreiben in M-Files) dürfen als Prüfungsnachweis verwendet werden, auch wenn sie nicht direkt an die Revisionsstelle
+  gesandt wurden ^[hwp-er-2026__rz-0137-s203].
+- 'Lässt sich ein Sachverhalt mit den verfügbaren Handlungen nicht klären: zuerst alle verfügbaren Prüfungshandlungen ausschöpfen ^[hwp-er-2026__rz-0139-s204-t1], dann Notiz «Wesentliche
+  Feststellungen» mit möglicher Auswirkung (Konto, Betrag) bzw. Pendenz erfassen ^[konzept-ki-revisionsagent-2026__c007-1]. Annahme und Art der Prüfungsaussage (nicht modifiziert, eingeschränkt,
+  verneinend, keine) entscheidet der WP ^[hwp-er-2026__rz-0138-s204] ^[ser-2022__8-3-1-t3].'
+- Auskünfte und Unterlagen des Kunden mangels gegenteiliger Hinweise als richtig annehmen (Grundsatz von Treu und Glauben), aber mit kritischer Grundhaltung hinterfragen; Widersprüche
+  als Pendenz erfassen ^[ser-2022__1-2-t2].
+- Hinweise auf hälftigen Kapitalverlust (Art. 725a OR) oder Überschuldung (Art. 725b OR) bei Untätigkeit des VR sofort als Notiz «Wesentliche Feststellungen» erfassen und an den WP melden
+  (Berechnung mit `kapitalverlust`). Gemäss SER sind sie in jedem Fall im Revisionsbericht anzubringen; bei Überschuldung gilt die Anzeigepflicht nach Art. 729c OR ^[ser-2022__8-3-2-t1]
+  ^[or__art-729c]. Übrige Gesetzesverstösse nur, wenn wesentlich, mit direktem Bezug zur Jahresrechnung und aus den Prüfungshandlungen festgestellt. Solche Hinweise beeinflussen die
+  Prüfungsaussage nicht. Formulierung, Bericht und Anzeige entscheidet bzw. vollzieht der WP.
+- Prüfungsaussage, Revisionsbericht, Datierung und Unterschrift (Art. 729b Abs. 2 OR ^[or__art-729b]) sowie Visum, ✓ und Abschlussstatus bleiben beim Menschen ^[konzept-ki-revisionsagent-2026__c008-1];
+  der Agent bereitet höchstens Entwürfe vor und unterzeichnet/datiert nie ^[konzept-ki-revisionsagent-2026__c011-2].
+- 'Dokumentation je Prüfschritt im Textfeld: Prüfziel, Quellen (M-Files-ID/Version), Auswahl und Umfang mit Begründung, Ergebnis, Feststellungen, Pendenzen, Status ^[konzept-ki-revisionsagent-2026__c009-3]
+  – so, dass ein nicht beteiligter, erfahrener Prüfer Planung, Durchführung und Ergebnis nachvollziehen kann ^[hwp-er-2026__rz-0276-s246]. Fehlende unterzeichnete Jahresrechnung oder
+  Vollständigkeitserklärung (SER 6.2.5 ^[ser-2022__6-2-5], 7.2 ^[ser-2022__7-2]) sowie fehlende Dauerakten (Verträge, Registerauszüge, Statuten ^[ser-2022__7-3]; revio 322 ^[konzept-ki-revisionsagent-2026__c012-1])
+  als Pendenz erfassen.'
+- Hinweise auf Pflicht zur ordentlichen Revision (Konzernrechnungspflicht Art. 963 OR, Pflicht zu anerkanntem Standard nach Art. 962 OR, Überschreiten der Schwellenwerte nach Art. 727
+  OR – Berechnung mit `revisionspflicht`), auf ein Opting-up ^[ser-2022__1-1-t1] oder auf eine gesetzlich besonders geregelte Prüfung (Kapitalerhöhung/-herabsetzung, Fusion, Zwischenabschluss
+  nach Art. 725b Abs. 2 OR) sofort als Pendenz an den WP melden; solche Prüfungen richten sich nicht nach dem SER ^[ser-2022__1-1-t2].
+- 'Erstprüfung (Vorjahr nicht oder von anderem Prüfer geprüft): Vorjahreswerte besonders beachten; der Umstand ist im Revisionsbericht anzumerken → Pendenz/Schlussbesprechung für den
+  WP ^[ser-2022__6-2-7].'
+- 'Abweichung in den Quellen beachten: SER 6.2.1 ^[ser-2022__6-2-1] spricht von einer Kombination von «mindestens zwei Arten» von Prüfungshandlungen, HWP ER Rz 260 ^[hwp-er-2026__rz-0260-s085]
+  von «aller drei Arten» – massgebend ist der SER.'
+prueffelder:
+- A1
+- B1
+- C1
+- F1
+- F2
+- M2
+- O1
+- P1
+- R1
+- T1
+phasen:
+- p1-auftrag
+- p2-planung
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht
+- p8-agentablauf

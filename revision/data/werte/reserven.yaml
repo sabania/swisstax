@@ -1,0 +1,64 @@
+# Werte Kategorie reserven – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or672_zuweisung_gewinnreserve
+  bezeichnung: 'Gesetzliche Gewinnreserve: Zuweisung'
+  wert: '5'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 1 OR: ein Verlustvortrag ist vor der Zuweisung zu beseitigen. Prüfen beim Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR). Dividenden
+    erst nach den Zuweisungen (Art. 675 Abs. 3 OR). GmbH: Art. 801 OR.'
+  quelle: or__art-672
+  zitat: Der gesetzlichen Gewinnreserve sind 5 Prozent des Jahresgewinns zuzuweisen.
+  status: agent-geprueft
+- key: or672_grenze_50
+  bezeichnung: 'Gesetzliche Gewinnreserve: Äufnung bis'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 2 OR: gesetzliche Gewinn- und Kapitalreserve zusammen 50 % des im HR eingetragenen Aktienkapitals.'
+  quelle: or__art-672
+  zitat: bis sie zusammen mit der gesetzlichen Kapitalreserve die Hälfte des im Handelsregister eingetragenen Aktienkapitals erreicht
+  status: agent-geprueft
+- key: or672_grenze_holding_20
+  bezeichnung: 'Gesetzliche Gewinnreserve Holdinggesellschaft: Äufnung bis'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 672 Abs. 2 OR: 20 % des im Handelsregister eingetragenen Aktienkapitals.'
+  quelle: or__art-672
+  zitat: Holdinggesellschaften müssen die gesetzliche Gewinnreserve äufnen, bis diese zusammen mit der gesetzlichen Kapitalreserve 20 Prozent
+  status: agent-geprueft
+- key: or671_rueckzahlung_50
+  bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve: Schwelle'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 671 Abs. 2 OR: gesetzliche Kapital- und Gewinnreserven abzüglich Verluste müssen 50 % des AK übersteigen. Nicht mitgerechnet: Reserve für eigene Aktien im Konzern
+    und Aufwertungsreserve (Abs. 4). Gilt entsprechend für die gesetzliche Gewinnreserve (Art. 672 Abs. 3).'
+  quelle: or__art-671
+  zitat: die Hälfte des im Handelsregister eingetragenen Aktienkapitals übersteigen
+  status: agent-geprueft
+- key: or671_rueckzahlung_holding_20
+  bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve Holdinggesellschaft: Schwelle'
+  wert: '20'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: Art. 671 Abs. 3 OR (Holdinggesellschaften); Abs. 4 gilt ebenfalls.
+  quelle: or__art-671
+  zitat: wenn die gesetzlichen Kapital- und Gewinnreserven 20 Prozent des im Handelsregister eingetragenen Aktienkapitals überschreiten
+  status: agent-geprueft
+- key: or673_freiwillige_gewinnreserven
+  bezeichnung: 'Freiwillige Gewinnreserven: Voraussetzung'
+  wert: nur wenn das dauernde Gedeihen dies rechtfertigt
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 673 OR: Bildung durch Statuten oder GV-Beschluss (Abs. 1); Verwendung beschliesst die GV (Abs. 3). Keine Zahlenwerte.'
+  quelle: or__art-673
+  zitat: Freiwillige Gewinnreserven dürfen nur gebildet werden, wenn das dauernde Gedeihen des Unternehmens unter Berücksichtigung der Interessen aller Aktionäre dies rechtfertigt.
+  status: agent-geprueft

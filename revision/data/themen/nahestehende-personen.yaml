@@ -1,0 +1,206 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: nahestehende-personen
+titel: Nahestehende Personen und Aktionärsdarlehen
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 11
+  korrigiert: false
+stichworte:
+- nahestehende Personen
+- Nahestehende
+- related parties
+- Transaktionen mit Nahestehenden
+- Aktionärsdarlehen
+- Darlehen an Aktionäre
+- Gesellschafterdarlehen
+- Kontokorrent Aktionär
+- Beteiligte und Organe
+- Art. 959a Abs. 4 OR
+- gesonderter Ausweis
+- Drittvergleich
+- arm's length
+- Marktkonditionen
+- ESTV Zinssätze 2026
+- safe haven
+- Mindestzins Vorschüsse an Beteiligte
+- Höchstzins Darlehen von Beteiligten
+- geldwerte Leistung
+- verdeckte Gewinnausschüttung
+- vGA
+- Gewinnvorwegnahme
+- Art. 678 OR Rückerstattung
+- Einlagenrückgewähr
+- Art. 680 Abs. 2 OR
+- verbotene Kapitalrückzahlung
+- freies Eigenkapital
+- ausschüttbares Eigenkapital
+- Cash Pool
+- up-stream cross-stream
+- Verrechnungssteuer 35 %
+- Formular 102
+- verdecktes Eigenkapital
+- Vollständigkeitserklärung
+kurz: Forderungen und Verbindlichkeiten gegenüber Beteiligten, Organen und Beteiligungsunternehmen sind gesondert in Bilanz oder Anhang auszuweisen (Art. 959a Abs. 4 OR). Der Prüfer
+  identifiziert Nahestehende und prüft Ausweis und Konditionen im Drittvergleich; ESTV-Zinssätze 2026 sind steuerliche Praxis (safe haven). Nicht marktkonforme Leistungen sind verdeckte
+  Gewinnausschüttungen (Art. 678 OR); ungedeckte Aktionärsdarlehen ohne Drittvergleich verletzen Art. 680 Abs. 2 OR.
+aussagen:
+- text: 'Begriff (HWP ER): Wer als nahestehende Person gilt, richtet sich primär nach den massgeblichen Rechnungslegungsgrundsätzen. Sind diese minimal oder nicht definiert, gelten in
+    der Regel als nahestehend: (a) wer unmittelbar oder mittelbar Beherrschung oder massgeblichen Einfluss auf die Einheit ausübt (z.B. Konzernobergesellschaft, Eigentümer, Mehrheitsaktionär),
+    (b) Einheiten, die die Einheit beherrscht oder massgeblich beeinflusst (Tochter, Beteiligung, Joint Venture), (c) Einheiten unter gemeinsamer Beherrschung (z.B. Schwestergesellschaft).'
+  quelle: hwp-er-2026__rz-0155-s210
+  zitat: Wer als nahestehende Person gilt, richtet sich primär nach den massgeblichen Rechnungslegungsgrundsätzen.
+- text: 'Kreis der «Beteiligten» für den OR-Ausweis (HWP BuR): Der gesonderte Ausweis umfasst mindestens die Inhaber einer Beteiligung im Sinne von Art. 960d Abs. 3 OR; massgeblicher
+    Einfluss wird ab 20 % der Stimmrechte vermutet. Ein weitergehender Ausweis ist im Sinne der Transparenz empfehlenswert.'
+  quelle: hwp-bur-2023__rz-0166-s193
+  zitat: Dieser wird vermutet, wenn die Anteile mindestens 20 % der Stimmrechte gewähren (Art. 960d Abs. 3 OR). Der gesonderte Ausweis von Forderungen und Verbindlichkeiten gegenüber
+    Beteiligten umfasst mindestens
+- text: 'Offenlegung (Gesetz): Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine
+    Beteiligung besteht, müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden (Art. 959a Abs. 4 OR). Der Anhang enthält zudem Angaben, Aufschlüsselungen und Erläuterungen
+    zu Bilanzpositionen (Art. 959c Abs. 1 Ziff. 2 OR, or__art-959c-t1).'
+  quelle: or__art-959a-t2
+  zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht,
+    müssen jeweils gesondert
+- text: 'Risiko (HWP ER): Der Abschlussprüfer richtet ein spezielles Augenmerk auf Geschäftsvorfälle mit Nahestehenden, weil eine unterlassene Offenlegung (in der Regel Art. 959a Abs.
+    4 OR) oder eine Verfälschung der Jahresrechnung durch nicht angemessene (Transfer-)Preise auftreten kann. Risikobehaftet sind insbesondere geldwerte Leistungen (verdeckte Gewinnausschüttungen
+    und Gewinnvorwegnahmen) mit steuerlichen und handelsrechtlichen Folgen (Gewinnausweis, Gewinnverwendung).'
+  quelle: hwp-er-2026__rz-0158-s211
+  zitat: Risiken wie eine unterlassene Offenlegung (in der Regel Art. 959a Abs. 4 OR) oder eine Verfälschung der Jahresrechnung durch nicht angemessene (Transfer-)Preise auftreten können
+- text: 'Prüfungshandlungen (HWP ER, im Einzelfall): Bestimmung der Nahestehenden durch Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls
+    VR-Protokolle (Vollständigkeit); Feststellung von Transaktionen durch Befragung (Vorhandensein); Beurteilung des wirtschaftlichen Hintergrunds und der sachgerechten Erfassung, z.B.
+    durch Vertragseinsicht; Feststellung der korrekten Offenlegung (Darstellung und Offenlegung); Beurteilung der (Transfer-)Preise mittels Drittvergleich (Bewertung).'
+  quelle: hwp-er-2026__rz-0161-s212
+  zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
+- text: 'SER Anhang D (empfohlene Prüfungshandlung, übrige Forderungen): Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Beteiligungsunternehmen.
+    Gleichlautende Feststellungen sind für Verbindlichkeiten aus LuL (ser-2022__anh-d-s084-1) und übrige Verbindlichkeiten (ser-2022__anh-d-s086-1) vorgesehen, bei verzinslichen Verbindlichkeiten
+    die Befragung zu Darlehen gegenüber Beteiligten und Organen (ser-2022__anh-d-s085-1).'
+  quelle: ser-2022__anh-d-s077-1
+  zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
+- text: 'Vollständigkeitserklärung (SER Anhang E): Das Muster enthält die Bestätigung der Unternehmensleitung, dass die Informationen zur Identifizierung nahestehender Personen vollständig
+    sind und der Ausweis von Guthaben und Verbindlichkeiten gegenüber Nahestehenden (Art. 959a Abs. 4 OR) vollständig und richtig ist.'
+  quelle: ser-2022__anh-e-s111-1
+  zitat: Die Ihnen gegebenen Informationen zur Identifizierung nahestehender Personen sind vollständig, und der Ausweis von Guthaben und Verbindlichkeiten gegenüber nahestehenden Personen
+- text: 'Konditionen / Drittvergleich (HWP ER): Zu beurteilen ist u.a., ob der Zinssatz den Marktkonditionen für den Darlehensnehmer entspricht (Währung/Leitzins, Risikozu- oder -abschläge
+    für Bonität, besondere Bedingungen), ob Laufzeit, Kündigungsmöglichkeit, Rückzahlungspflichten und Sicherheiten marktüblich sind. Auch steuerlich akzeptierte Zinssätze sind nach
+    diesen Kriterien zu beurteilen, d.h. ein ESTV-konformer Satz ist am Markt zu messen.'
+  quelle: hwp-er-2026__rz-0176-s217
+  zitat: Auch steuerlich akzeptierte Zinssätze sind nach diesen Kriterien zu beurteilen.
+- text: 'Steuerliche Praxis (ESTV-Rundschreiben vom 29.01.2026): Unverzinsliche oder ungenügend verzinste Vorschüsse/Darlehen an Beteiligte oder ihnen nahestehende Dritte sowie übersetzte
+    Zinsen auf Verpflichtungen gegenüber diesen sind geldwerte Leistungen. Sie unterliegen der Verrechnungssteuer von 35 % und sind mit Formular 102 unaufgefordert innert 30 Tagen nach
+    Fälligkeit zu deklarieren; dieselben Kriterien gelten für die direkte Bundessteuer (Art. 58 Abs. 1 Bst. b DBG).'
+  quelle: estv-zinsen-2026__s001-1
+  zitat: Die Gewährung unverzinslicher oder ungenügend verzinster Vorschüsse oder Darlehen an Beteiligte oder an ihnen nahestehende Dritte stellt eine geldwerte Leistung dar.
+- text: 'Steuerliche Praxis 2026 – Mindestzins für Vorschüsse AN Beteiligte oder nahestehende Dritte (in CHF, ab 1.1.2026 gemäss estv-zinsen-2026__s001-2): ¾ %, wenn aus Eigenkapital
+    finanziert und kein Fremdkapital verzinst werden muss; aus Fremdkapital finanziert: Selbstkosten zuzüglich ¼–½ %, mindestens ¾ % (Zuschlag gemäss Fussnote: ½ % bis und mit CHF 10
+    Mio., ¼ % über CHF 10 Mio., estv-zinsen-2026__s002-2). Tabelle im Chunk durch PDF-Layout zerrissen; Zuordnung gegen raw/estv-zinsen-2026.pdf S. 2 geprüft.'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss ¾%
+- text: 'Steuerliche Praxis 2026 – Höchstzins für Vorschüsse VON Beteiligten oder nahestehenden Dritten (in CHF): Liegenschaftskredite bis zur Höhe der ersten Hypothek (2/3 des Verkehrswerts)
+    1¼ % (Wohnbau/Landwirtschaft) bzw. 1¾ % (Industrie/Gewerbe), Rest 2 % bzw. 2½ % (Fremdfinanzierung höchstens 70 % bzw. 80 % des Verkehrswerts); Betriebskredite bis CHF 1 Mio. 3½
+    % (Handels-/Fabrikationsunternehmen) bzw. 3 % (Holding-/Vermögensverwaltungsgesellschaften), ab CHF 1 Mio. 1½ % bzw. 1¼ %. Kredite aller Beteiligten und Nahestehenden sind zusammenzuzählen;
+    die Sätze gelten als «safe haven», höhere Sätze im Drittvergleich bleiben vorbehalten; verdecktes Eigenkapital gemäss KS Nr. 6a ist zu beachten (estv-zinsen-2026__s002-2). Spaltenzuordnung
+    gegen raw/estv-zinsen-2026.pdf S. 2 geprüft; übereinstimmend Treuhand-Almanach Spalte 2026 (treuhand-almanach-2026__s065-1, sekundär).'
+  quelle: estv-zinsen-2026__s002-1
+  zitat: Diese Zinssätze gelten als „safe haven“. Der Nachweis höherer Zinssätze im Drittvergleich bleibt vorbehalten.
+- text: 'Verdeckte Gewinnausschüttung (HWP ER): Sie liegt vor, wenn die Gesellschaft Leistungen ohne (angemessene) Gegenleistung erbringt – eine geldwerte Leistung an Gesellschafter
+    oder ihnen Nahestehende, die einem unbeteiligten Dritten nicht erbracht würde («Arm’s-length»-Prinzip). Die Erfolgsrechnung enthält zu hohe Aufwendungen und/oder zu geringe Erträge
+    (Gewinnvorwegnahme); bei der Beurteilung besteht in der Praxis ein erheblicher Ermessensspielraum.'
+  quelle: hwp-er-2026__rz-0163-s212
+  zitat: Es handelt sich um eine geldwerte Leistung, die eine Gesellschaft ihren Gesellschaftern oder diesen nahestehenden Personen erbringt, einem unbeteiligten Dritten unter gleichen
+    Umständen aber nicht erbringen würde
+- text: 'Vorgehen bei offensichtlicher und wesentlicher vGA (HWP ER): schriftliche Mitteilung der Revisionsstelle an den VR; Beurteilung der Rückerstattung nach Art. 678 OR (Wille des
+    VR zur Rückforderung, Wille und Fähigkeit des Empfängers → Forderung verbuchen bzw. wertberichtigen). Ist der VR nicht willens, die Forderung einzutreiben, folgt ein Hinweis auf
+    Verstoss gegen Art. 678 Abs. 1 OR im Bericht. Fehlten frei verfügbare und ausschüttbare Mittel, liegt zudem eine verdeckte Kapitalrückzahlung vor (Hinweis Art. 680 Abs. 2 OR, hwp-er-2026__rz-0164-s212-t2).'
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Ist der Verwaltungsrat nicht willens, die Forderung einzutreiben, erfolgt im Bericht der Revisionsstelle an die Generalversammlung ein Hinweis auf einen Verstoss gemäss Art.
+    678 Abs. 1 OR
+- text: 'Kapitalrückzahlung (Gesetz): Art. 680 Abs. 2 OR schliesst ein Recht des Aktionärs auf Rückforderung des eingezahlten Betrags aus (Verbot der Einlagenrückgewähr). Darlehen an
+    Aktionäre und ihnen Nahestehende sind grundsätzlich zulässig, sofern der Gesellschaftszweck die Kreditgewährung nicht ausschliesst und die Kapitalschutzbestimmungen eingehalten sind
+    (hwp-er-2026__rz-0166-s215).'
+  quelle: or__art-680
+  zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
+- text: 'Beurteilung Einlagenrückgewähr (HWP ER; GmbH: Art. 793 Abs. 2 OR): Das freie Eigenkapital (gesamtes Eigenkapital abzüglich einbezahltes Aktienkapital; stille Reserven netto
+    unter Berücksichtigung latenter Steuern anrechenbar) ist mit dem Total der Forderungen mit Darlehenscharakter gegenüber Aktionären (up-stream und cross-stream) zu vergleichen. Operative
+    LuL-Forderungen mit üblichen Zahlungszielen zählen nicht; Verbindlichkeiten gegenüber Aktionären dürfen nur bei Verrechenbarkeit (Art. 120 OR oder Vertrag) abgezogen werden.'
+  quelle: hwp-er-2026__rz-0167-s215
+  zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
+- text: Übersteigen die Forderungen das freie Eigenkapital, ist zu analysieren, ob sie einem Drittvergleich standhalten (dann kein Verstoss gegen Art. 680 Abs. 2 OR). Fehlt ein schriftlicher
+    Vertrag mit Zins, Rückzahlungskonditionen und allfälligen Sicherheiten, ist dies ein Indiz gegen den Drittvergleich; die Gesellschaft muss den Drittvergleich bei Gewährung und periodisch
+    (z.B. bei der Abschlusserstellung) beurteilen und dokumentieren.
+  quelle: hwp-er-2026__rz-0168-s215
+  zitat: Das Fehlen eines schriftlichen Vertrags mit Zins und Rückzahlungskonditionen sowie allfällig notwendigen Sicherheiten kann ein Indiz dafür sein, dass eine Forderung die Bedingungen
+    des Drittvergleichs nicht erfüllt.
+- text: 'Nachweis (HWP ER): Die Revisionsstelle nimmt Einsicht in die Analyse von VR/GL und hinterfragt deren Schlussfolgerung kritisch. Liegen keine Unterlagen zum Drittvergleich vor
+    oder äussert der VR Zweifel, darf sie davon ausgehen, dass er nicht gegeben ist; eine Bestätigung der Gesetzeskonformität ausschliesslich in der Vollständigkeitserklärung gilt nicht
+    als ausreichende Dokumentation.'
+  quelle: hwp-er-2026__rz-0182-s218
+  zitat: Liegen keine Unterlagen zum Drittvergleich vor oder äussert der Verwaltungsrat (oder von ihm beauftragte Experten) Zweifel daran, darf die Revisionsstelle davon ausgehen, dass
+    dieser nicht gegeben ist.
+- text: 'Gewinnverwendung (HWP ER): Aktionärs- bzw. Konzerndarlehen, die einem Drittvergleich nicht standhalten (nicht durchgeführt oder nicht bestanden), sperren frei verfügbares Eigenkapital
+    im gesamten Umfang dieser Darlehen; sie sind bei der rechnerischen Ermittlung des ausschüttbaren Eigenkapitals abzuziehen (Abbildung 31). Massgebend sind die offenen Reserven (hwp-er-2026__rz-0172-s216).'
+  quelle: hwp-er-2026__rz-0170-s216
+  zitat: Bestehen Aktionärs- bzw. Konzerndarlehen, die einem Drittvergleich nicht standhalten, führt dies zu einer Sperrung von frei verfügbarem Eigenkapital im gesamten Umfang dieser
+    Darlehen.
+- text: 'Folgen für die Prüfungsaussage (HWP ER): Werden wesentliche Transaktionen mit Nahestehenden nicht korrekt erfasst, bewertet und/oder offengelegt und von der Unternehmensleitung
+    nicht korrigiert, folgt eine eingeschränkte oder – bei grundlegendem Einfluss auf das Gesamtbild – eine verneinende Prüfungsaussage (Musterberichte bei nicht gesondert ausgewiesenen
+    Guthaben gegenüber Nahestehenden: muster-hwp-er-2026__c027-2, muster-hwp-er-2026__c037-2).'
+  quelle: hwp-er-2026__rz-0162-s212
+  zitat: hat dies eine eingeschränkte oder – bei grundlegendem Einfluss auf das Gesamtbild – gar eine verneinende Prüfungsaussage zur Folge
+- text: 'Hinweis im Bericht (SER 8.3.2): Als Beispiele für Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands nennt der SER – sofern wesentlich und aufgrund der Prüfungshandlungen
+    festgestellt – ungerechtfertigte Leistungen an Aktionäre, VR oder Nahestehende (Art. 678 OR) und die gesetzeswidrige Gewährung eines Aktionärsdarlehens bzw. unzulässige Rückzahlung
+    des Aktienkapitals (Art. 680 OR). Formulierungsbeispiel: SER Anhang F Nr. 14 (ser-2022__anh-f-s132-2); ein Eventualhinweis ist nicht angemessen (hwp-er-2026__rz-0180-s218).'
+  quelle: ser-2022__8-3-2-t2
+  zitat: gesetzeswidrige Gewährung eines Aktionärsdarlehens oder nicht zulässige Rückzahlung des Aktienkapitals (Art. 680 OR)
+agent:
+- 'Mandatskontext fixieren und Liste der Nahestehenden anlegen: Aktienbuch, Handelsregisterauszug, GV- und VR-Protokolle aus M-Files (hwp-er-2026__rz-0161-s212). Als Organe gelten VR
+  und Geschäftsleitung (AG), die Geschäftsführung (GmbH) (hwp-bur-2023__rz-0167-s193). Für Beteiligte gilt mindestens eine Beteiligung ab 20 % der Stimmrechte; Schwestergesellschaften
+  sollten ebenfalls gesondert ausgewiesen werden (hwp-bur-2023__rz-0169-s194). Befragungen kann der Agent nicht selbst durchführen: Er wertet schriftliche Antworten aus (revio 10.11
+  Kundenbefragung), sonst erfasst er eine Pendenz.'
+- 'Konten mit Nahestehenden je Prüffeld aus der Kontenübersicht ziehen und als ungewöhnliche Posten in die Stichprobe aufnehmen (Vorschlag Konzept, bei consis noch offen: konzept-ki-revisionsagent-2026__c015-2).
+  Betroffene Schritte: C1-204, D1-201, E1-203, H2-201, K1-203, M1-304, Befragung L1-104/N1-104. Salden mit Darlehensvertrag, Saldobestätigung oder Zinsquittung abstimmen.'
+- 'Ausweis prüfen (T1-315): Die Forderungen und Verbindlichkeiten gegenüber Nahestehenden müssen in der Bilanz oder im Anhang je Position gesondert erscheinen, unterteilt in Beteiligte/Organe
+  einerseits und Beteiligungsunternehmen andererseits (hwp-bur-2023__rz-0174-s195). Fehlt der Ausweis oder steckt ein Saldo z.B. in den LuL-Forderungen, erfasst der Agent eine Notiz
+  «Wesentliche Feststellungen» mit Konto, Betrag und Fundstelle. Über eine Einschränkung oder eine verneinende Prüfungsaussage entscheidet der WP.'
+- 'Konditionen (D1-304, M1-407, SCH4-202): Den effektiven Zinssatz rechnet der Agent im Rechenmodul (`rechne`), nie im Kopf: Zins geteilt durch den durchschnittlichen Saldo. Er vergleicht
+  ihn mit dem ESTV-Rundschreiben 2026 und bezeichnet diesen Vergleich ausdrücklich als steuerliche Praxis (safe haven). Massstab ist handelsrechtlich der Drittvergleich. Liegt der Satz
+  bei Darlehen an Beteiligte unter ¾ % oder bei Darlehen von Beteiligten über dem Höchstsatz, erfasst er eine Notiz «Schlussbesprechung» oder «Wesentliche Feststellungen». Darin nennt
+  er die mögliche geldwerte Leistung (Verrechnungssteuer 35 %, Formular 102), ohne steuerlich abschliessend zu beurteilen.'
+- 'Zeitbezug der ESTV-Sätze: Das Rundschreiben gilt seit dem 1.1.2026 und nur für Darlehen in CHF. Für Geschäftsjahre oder Zeitabschnitte in 2025 liegt das ESTV-Rundschreiben 2025 nicht
+  im Wiki vor. Der Treuhand-Almanach (treuhand-almanach-2026__s065-1) ist nur eine Sekundärquelle, die Werte sind als «nicht primär bestätigt» zu kennzeichnen. Für Fremdwährungsdarlehen
+  sind keine Sätze im Wiki: Pendenz erfassen. Verdecktes Eigenkapital (N1-304) beurteilt der Agent nach ESTV-KS 6a (estv-ks-6a-2024__3-1), ebenfalls als steuerliche Praxis.'
+- 'Einlagenrückgewähr (D1-404, H2-404, P1-305): Das freie Eigenkapital (Eigenkapital minus einbezahltes Aktienkapital) und das Total der Forderungen mit Darlehenscharakter gegenüber
+  Aktionären (up-/cross-stream, inkl. Cash-Pool) rechnet der Agent im Rechenmodul. Verbindlichkeiten zieht er nur bei Verrechenbarkeit nach Art. 120 OR ab. Übersteigen die Forderungen
+  das freie Eigenkapital, fordert er die Drittvergleichs-Analyse des VR als Pendenz an. Fehlt sie, gilt der Drittvergleich als nicht gegeben (hwp-er-2026__rz-0182-s218); die Vollständigkeitserklärung
+  allein genügt nicht. Ob der Drittvergleich besteht, ist eine Ermessensfrage (hwp-er-2026__rz-0179-s218) und bleibt beim WP.'
+- 'Gewinnverwendung: Das ausschüttbare Eigenkapital rechnet der Agent nach Abbildung 31 (hwp-er-2026__rz-0170-s216) und vergleicht es mit dem Dividendenantrag. Wesentliche Ereignisse
+  nach dem Bilanzstichtag (Forderungen, Eigenkapital, Liquidität) bezieht er ein (hwp-er-2026__rz-0185-s223). Das Ergebnis hält er als Notiz für den WP fest; die Berichtsfolgen nach
+  Abbildung 32 (hwp-er-2026__rz-0184-s219-t1 bis -t6) entscheidet der WP.'
+- 'Verdeckte Gewinnausschüttung: Bezüge Nahestehender hält der Agent mit Vorjahresvergleich fest (R1-405), geldwerte Leistungen ebenso (S1-401). Anzeichen sind z.B. Privataufwand, übersetzte
+  Löhne, Honorare oder Mieten und Ertragsverzicht. Er erfasst sie als Notiz mit Beleg (M-Files-ID). Die schriftliche Mitteilung an den VR, die Beurteilung der Rückerstattung nach Art.
+  678 OR und Hinweise im Bericht sind Sache des WP.'
+- 'Vollständigkeitserklärung prüfen: Sie muss den Passus zu nahestehenden Personen und zu Art. 959a Abs. 4 OR enthalten (ser-2022__anh-e-s111-1). Eine verdeckte Gewinnausschüttung kann
+  eigens erwähnt werden (ser-2022__anh-e-s105-1). Fehlt der Passus, erfasst der Agent eine Pendenz.'
+- 'Grenzen: Den Wortlaut eines Hinweises nach SER Anhang F Nr. 14 entwirft der Agent höchstens als Notiz «Schlussbesprechung». Er setzt kein Visum und kein ✓, gibt keine abschliessende
+  Beurteilung ab und unterzeichnet oder datiert keinen Bericht. Ob ein Hinweis oder eine Modifizierung nötig ist, entscheidet der WP.'
+prueffelder:
+- A1
+- C1
+- D1
+- E1
+- H2
+- K1
+- L1
+- M1
+- N1
+- P1
+- R1
+- S1
+- SCH4
+- T1
+phasen:
+- p2-planung
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht
+- p6-kapitalschutz
+- p8-agentablauf

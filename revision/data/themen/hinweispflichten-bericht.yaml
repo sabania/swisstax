@@ -1,0 +1,265 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: hinweispflichten-bericht
+titel: Bericht, Modifikationen, Hinweise und Zusätze
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 8
+  korrigiert: true
+stichworte:
+- Revisionsbericht
+- zusammenfassender Bericht
+- Art. 729b OR
+- Bericht der Revisionsstelle zur eingeschränkten Revision
+- Elemente des Revisionsberichts
+- SER Ziff. 8
+- Umfang des Auftrags
+- keine ordentliche Revision
+- Normalwortlaut
+- negative Zusicherung
+- nicht modifizierte Prüfungsaussage
+- Modifizierung der Prüfungsaussage
+- eingeschränkte Prüfungsaussage
+- Einschränkung
+- verneinende Prüfungsaussage
+- Unmöglichkeit einer Prüfungsaussage
+- Beschränkung des Prüfungsumfangs
+- Meinungsverschiedenheit
+- festgestellter Sachverhalt
+- angenommener Sachverhalt
+- Gesamtbild grundlegend verändert
+- Abgrenzung Hinweis Modifizierung
+- Hinweis auf Gesetzesverstoss
+- Hinweispflicht
+- beschränkte Hinweispflicht
+- zwingender Hinweis
+- Statutenverstoss
+- Organisationsreglement
+- Zusatz mit weiteren Informationen
+- Eventualzusatz
+- Fortführung
+- Going Concern
+- wesentliche Unsicherheit
+- Verweigerung Fortführungseinschätzung
+- Kapitalverlust
+- hälftiger Kapitalverlust
+- Art. 725a OR
+- Überschuldung
+- Art. 725b OR
+- Art. 729c OR
+- Anzeigepflicht
+- Benachrichtigung Gericht
+- Zwischenbilanz
+- Rangrücktritt
+- Untätigkeit Verwaltungsrat
+- Sanierungsmassnahmen
+- Zwischenabschluss
+- verbotene Einlagenrückgewähr Art. 680
+- Aktionärsdarlehen
+- Berichtsdatum
+- Rückdatierung
+- Unterzeichnung
+- leitender Revisor
+- Zulassungsart
+- Zulassungsbestätigung
+- Unabhängigkeit
+- Mitwirken Buchführung
+- GVB-Bericht
+- Berichtsstrategie 7.1
+- Berichtskritik 7.5
+- SER Anhang F
+- SER Anhang G
+- Mustervorlagen HWP ER
+- Muster 40
+- Muster 41
+- Camponovo Hinweispflichten
+kurz: 'Die Revisionsstelle erstattet der GV einen schriftlichen zusammenfassenden Bericht (OR 729b); Pflichtelemente, Normalwortlaut (negative Zusicherung) und Modifizierungen regelt
+  SER Ziff. 8 mit Anhang F. Festgestellte Fehlaussagen führen zu eingeschränkter oder verneinender, angenommene und Umfangsbeschränkungen zu eingeschränkter oder keiner Prüfungsaussage.
+  Hinweise (zwingend bei Untätigkeit des VR nach OR 725a/725b) und Zusätze lassen die Aussage unberührt. Datum und Unterschrift: nur WP.'
+aussagen:
+- text: 'Gesetzliche Grundlage (OR 729b): Die Revisionsstelle erstattet der Generalversammlung einen schriftlichen zusammenfassenden Bericht über das Ergebnis der Revision. Pflichtinhalt
+    nach Abs. 1: Hinweis auf die eingeschränkte Natur der Revision, Stellungnahme zum Prüfungsergebnis, Angaben zur Unabhängigkeit (ggf. zum Mitwirken bei der Buchführung und zu anderen
+    Dienstleistungen) sowie Angaben zur leitenden Person und zu deren fachlicher Befähigung. Nach Abs. 2 unterzeichnet die Person, die die Revision geleitet hat.'
+  quelle: or__art-729b
+  zitat: Die Revisionsstelle erstattet der Generalversammlung schriftlich einen zusammenfassenden Bericht über das Ergebnis der Revision.
+- text: 'Elemente nach SER Ziff. 8.1 (massgebend): Hinweis, dass eine eingeschränkte (nicht z. B. eine ordentliche) Revision durchgeführt wurde; Stellungnahme zum Ergebnis der Prüfung;
+    Angaben zur Unabhängigkeit, wobei Mitwirken bei der Buchführung oder andere Dienstleistungen mit Selbstprüfungsrisiko offenzulegen sind (Ziff. 8.4); Angaben zur leitenden Person
+    und ihrer Zulassung; deren Unterschrift; Berichtsdatum. Nach SER Ziff. 8.2 umschreibt der Bericht den Umfang des Auftrags, damit der Leser erkennt, dass keine ordentliche Revision
+    stattgefunden hat (ser-2022__8-2: «dass keine ordentliche Revision stattgefunden hat und somit auch kein Prüfungsurteil im Sinne einer ordentlichen Revision abgegeben wird»).'
+  quelle: ser-2022__8-1
+  zitat: Der Revisionsbericht muss folgende Elemente enthalten
+- text: 'Prüfungsaussage (SER Ziff. 8.3.1 a): Sie ergeht bei der eingeschränkten Revision als negative Zusicherung. Ist der Prüfer nicht auf Sachverhalte gestossen, aus denen er schliessen
+    müsste, dass die Jahresrechnung und/oder der Antrag über die Verwendung des Bilanzgewinns nicht Gesetz und Statuten entsprechen, macht er eine nicht modifizierte Prüfungsaussage.
+    Normalwortlaut: SER Anhang F Beispiel 1 (ser-2022__anh-f-s118-2: «Bei unserer Revision sind wir nicht auf Sachverhalte gestossen, aus denen wir schliessen müssten, dass die Jahresrechnung
+    sowie der Antrag über die Verwendung des Bilanzgewinns»); danach folgen Ort/Datum, Name der Revisionsstelle, Unterschrift mit Angabe des leitenden Revisors und Zulassungsart sowie
+    die Beilagen.'
+  quelle: ser-2022__8-3-1-t1
+  zitat: macht der Abschlussprüfer eine nicht modifizierte Prüfungsaussage (negative Zusicherung)
+- text: 'Modifizierung wegen Meinungsverschiedenheit (SER Ziff. 8.3.1 b): Hat der Prüfer nach ausreichenden geeigneten Nachweisen wesentliche Fehlaussagen festgestellt (festgestellter
+    Sachverhalt) oder muss er sie annehmen, weil er mangels im SER vorgesehener Prüfungshandlungen keine ausreichenden Nachweise erlangen kann (angenommener Sachverhalt), sind diese
+    Sachverhalte im Bericht darzulegen, sofern der Kunde nicht korrigiert; die (mögliche) Auswirkung auf Jahresrechnung und/oder Gewinnverwendungsantrag ist – sofern praktikabel – zu
+    quantifizieren. Form nach HWP ER Rz 418: eigener, der Prüfungsaussage vorangestellter Abschnitt (hwp-er-2026__rz-0418-s278: «Die Umstände, welche zu einer Modifizierung der Prüfungsaussage
+    führen, werden in einem der Prüfungsaussage vorangestellten Abschnitt beschrieben»).'
+  quelle: ser-2022__8-3-1-t2
+  zitat: so sind diese Sachverhalte im Revisionsbericht darzulegen, sofern der Prüfungskunde die Fehlaussagen nicht korrigiert
+- text: 'Art der Modifizierung bei Meinungsverschiedenheit: eingeschränkte Prüfungsaussage zu einem festgestellten (Beispiel 2) oder angenommenen (Beispiel 4) Sachverhalt, wenn die Jahresrechnung
+    als Ganzes trotzdem Gesetz und Statuten entsprechen kann; verneinende Prüfungsaussage nur bei einem festgestellten Sachverhalt, der das Gesamtbild grundlegend verändert, oder wenn
+    der Gewinnverwendungsantrag in wesentlichem Ausmass nicht gesetzes-/statutenkonform ist (Beispiele 3 und 8); gar keine Prüfungsaussage, wenn die mögliche Auswirkung eines angenommenen
+    Sachverhalts das Gesamtbild grundlegend verändert (Beispiel 5).'
+  quelle: ser-2022__8-3-1-t3
+  zitat: Die verneinende Prüfungsaussage ist angebracht, wenn der festgestellte Sachverhalt das von der Jahresrechnung vermittelte Gesamtbild so grundlegend verändert
+- text: 'Beschränkung des Prüfungsumfangs (SER Ziff. 8.3.1 c): Eine wesentliche Beschränkung ist im Bericht zu umschreiben; je nach möglicher Auswirkung folgt eine eingeschränkte Prüfungsaussage
+    (Beispiel 6) oder – wenn die mögliche Auswirkung das Gesamtbild grundlegend verändert und überhaupt keine Zusicherung möglich ist – gar keine Prüfungsaussage (Unmöglichkeit, Beispiel
+    7). Eine verneinende Prüfungsaussage sieht das SER für diesen Fall nicht vor.'
+  quelle: ser-2022__8-3-1-t4
+  zitat: Wenn eine wesentliche Beschränkung des Prüfungsumfangs der eingeschränkten Revision vorliegt, ist diese zu umschreiben
+- text: 'Abgrenzung Modifizierung – Hinweis (HWP ER Rz 426): Die Modifizierung spricht stets einen festgestellten oder angenommenen Verstoss gegen die Rechnungslegungsvorschriften oder
+    eine Beschränkung des Prüfungsumfangs an; Hinweise zeigen festgestellte Verstösse gegen gesetzliche Bestimmungen ausserhalb der Rechnungslegungsvorschriften an.'
+  quelle: hwp-er-2026__rz-0426-s282
+  zitat: Mittels Hinweisen werden bei der eingeschränkten Revision festgestellte Verstösse gegen gesetzliche Bestimmungen ausserhalb der Rechnungslegungsvorschriften zur Jahresrechnung
+    angezeigt.
+- text: 'Grundlage der Hinweise: Gesetzlich hat die eingeschränkt prüfende Revisionsstelle nur eine einzige direkte Anzeigepflicht (Gericht bei offensichtlicher Überschuldung und unterlassener
+    Anzeige durch den VR, OR 725b i.V.m. OR 729c). Die «beschränkte Hinweispflicht» beruht auf der Auslegung von OR 729b Abs. 1 Ziff. 2 durch Berufsstand und Juristen: Hinweis nur auf
+    Gesetzesverstösse mit direktem Bezug zur Jahresrechnung, die aufgrund der durchgeführten Prüfungshandlungen (z.B. Befragung) festgestellt wurden.'
+  quelle: hwp-er-2026__rz-0422-s279-t1
+  zitat: lediglich eine einzige direkte gesetzliche Anzeigepflicht
+- text: 'Zwingender Hinweis (SER Ziff. 8.3.2.1): Hinweise auf Gesetzesverstösse wegen Untätigkeit des Verwaltungsrats bei hälftigem Kapitalverlust (OR 725a) oder Überschuldung (OR 725b)
+    sind in jedem Fall im Revisionsbericht anzubringen; bleibt der VR bei Überschuldung untätig, beachtet die Revisionsstelle zusätzlich die Anzeigepflicht nach OR 729c (bei Liquidatoren
+    Hinweis auf OR 743 Abs. 2). HWP ER Rz 423 (Abb. 49) nennt als zwingende Fälle die Pflichtverletzungen des VR, wenn er die notwendigen Massnahmen nicht ergreift (hwp-er-2026__rz-0423-s280:
+    «keine Sanierungsmassnahmen; Zwischenabschlüsse nicht erstellt; Anzeigepflicht nicht erfüllt»).'
+  quelle: ser-2022__8-3-2-t1
+  zitat: Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands im Zusammenhang mit der Untätigkeit des Verwaltungsrates bei Vorliegen eines hälftigen Kapitalverlusts
+- text: 'Hinweis zu OR 725a Abs. 1 (HWP ER Rz 424): angebracht, wenn der VR keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift und die Aktionäre nicht informiert sind,
+    wobei davon auszugehen ist, dass eine Information durch die Revisionsstelle Auswirkungen auf den Sanierungswillen der Aktionäre hätte. Verhältnis zum SER: Massgebend ist SER Ziff.
+    8.3.2.1 (Hinweis bei Untätigkeit «in jedem Fall»); Rz 424 dient als Anhaltspunkt für die Würdigung, ob Untätigkeit vorliegt, nicht als Ausnahme von der zwingenden Pflicht. Liegt
+    Untätigkeit vor, ist der Hinweis zwingend; die Würdigung liegt beim WP.'
+  quelle: hwp-er-2026__rz-0424-s280
+  zitat: der Verwaltungsrat keine oder offensichtlich unzureichende Sanierungsmassnahmen ergreift
+- text: 'Übrige Gesetzesverstösse (ohne Bezug zur Untätigkeit nach OR 725a/725b) sind im Bericht nur anzubringen, wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung aufweisen
+    und aufgrund der durchgeführten Prüfungshandlungen festgestellt wurden. Hinweise beeinflussen die Prüfungsaussage nicht und stehen nach der Prüfungsaussage und ggf. nach einem Zusatz
+    (ser-2022__8-3-2-t1: «sie werden daher im Berichtstext nach der Prüfungsaussage und ggf. nach einem Zusatz mit weiteren Informationen angebracht»).'
+  quelle: ser-2022__8-3-2-t1
+  zitat: wenn sie wesentlich sind, einen direkten Bezug zur Jahresrechnung aufweisen und aufgrund der durchgeführten Prüfungshandlungen (z. B. aus der Befragung) festgestellt wurden
+- text: 'Statuten und Organisationsreglement (SER Ziff. 8.3.2.1): Für Statutenverstösse besteht eine Hinweispflicht nur, wenn sie mit dem Prüfungsgegenstand zusammenhängen; für Verstösse
+    gegen das Organisationsreglement besteht keine Hinweispflicht (ser-2022__8-3-2-t2: «Für Verstösse gegen das Organisationsreglement besteht keine Hinweispflicht.»). Das HWP ER hält
+    fest, dass Statuten und Organisationsreglement weder Prüfungsgegenstand sind noch eine Hinweispflicht begründen, ein Hinweis aber unter Umständen angezeigt sein kann (hwp-er-2026__rz-0422-s279-t2:
+    «Statuten oder das Organisationsreglement sind weder Prüfungsgegenstand noch besteht hierfür eine Hinweispflicht.»). SER-Beispiele für mögliche Hinweise: eigene Aktien (OR 659),
+    Ungleichbehandlung der Aktionäre (OR 660), Leistungen an Aktionäre, VR oder Nahestehende (OR 678), Aktionärsdarlehen bzw. Kapitalrückzahlung (OR 680), Einberufungsfrist (OR 699),
+    Dividende mit erheblichem Liquiditätsentzug (OR 717), Vorlagepflicht Geschäftsbericht/Zwischenabschluss (OR 958 Abs. 3 bzw. 960f Abs. 3).'
+  quelle: ser-2022__8-3-2-t2
+  zitat: Für Verstösse gegen die Statuten besteht eine Hinweispflicht nur dann, wenn diese im Zusammenhang mit dem Prüfungsgegenstand stehen.
+- text: 'Zusätze mit weiteren Informationen (SER Ziff. 8.3.2.2) heben Sachverhalte hervor und bewahren vor Fehlinterpretationen; sie müssen wesentlich sein, dürfen keine Geheimhaltungspflichten
+    verletzen, beeinflussen die Prüfungsaussage nicht und stehen nach der Prüfungsaussage und vor allfälligen Hinweisen. Beispiele: wesentliche Unsicherheit zur Fortführung, andere wesentliche
+    Unsicherheiten (Ausgang völlig offen), unternehmensspezifische Besonderheiten, Einschränkungen im Vorjahresbericht, Kapitalverlust oder Überschuldung, Rangrücktritt bei Überschuldung.'
+  quelle: ser-2022__8-3-2-t3
+  zitat: sie werden daher im Berichtstext nach der Prüfungsaussage und ggf. vor einem Hinweis auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands angebracht
+- text: 'Fortführung und andere wesentliche Unsicherheiten (SER Ziff. 8.3.2.2): Eine angemessene Offenlegung im Anhang ist erforderlich; fehlt sie oder ist sie nicht angemessen, ist
+    eine eingeschränkte oder verneinende Prüfungsaussage erforderlich. Wesentliche Unsicherheiten sind von Sachverhalten, die in der eingeschränkten Revision nicht geprüft werden können,
+    und von Umfangsbeschränkungen abzugrenzen. Je nach Sachverhalt folgt ein weiterer Absatz zu möglichen Rechtsfolgen im Hinblick auf OR 725 (Eventualzusatz; Formulierungsbeispiel HWP
+    ER Abb. 54). Das HWP ER ergänzt: Nur echte Unsicherheiten (Ausgang unmöglich vorherzusehen) rechtfertigen einen Zusatz, und ein Zusatz ersetzt nie eine Einschränkung (hwp-er-2026__rz-0433-s283:
+    «In keinem Fall kann ein Zusatz infolge einer wesentlichen Unsicherheit eine Einschränkung ersetzen.»).'
+  quelle: ser-2022__8-3-2-t4
+  zitat: ist eine angemessene Offenlegung im Anhang der Jahresrechnung erforderlich, da sonst eine eingeschränkte oder verneinende Prüfungsaussage erforderlich wird
+- text: 'Fortführung nach SER Anhang G: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang trotz bestehender Unsicherheiten erfordern eine eingeschränkte oder
+    verneinende Prüfungsaussage. Verweigert die Unternehmensleitung eine Einschätzung der Fortführungsfähigkeit oder legt sie einen kürzeren Einschätzungszeitraum als nach OR 958a Abs.
+    2 zugrunde, modifiziert der Prüfer die Prüfungsaussage (eingeschränkte Prüfungsaussage oder Unmöglichkeit der Prüfungsaussage).'
+  quelle: ser-2022__anh-g-s141-2
+  zitat: In diesem Fall modifiziert der Abschlussprüfer die Prüfungsaussage (eingeschränkte oder Unmöglichkeit der Prüfungsaussage).
+- text: 'Kapitalverlust – Zusatz statt Hinweis: Das SER-Beispiel 11 (nur Zusatz wegen Kapitalverlust) setzt voraus, dass der VR vom Zeitablauf her noch keine Gelegenheit hatte, seine
+    Pflichten nach OR 725a zu erfüllen, und deshalb noch kein Gesetzesverstoss vorliegt, auf den hingewiesen werden müsste. Der Zusatzwortlaut von Beispiel 11 («die Hälfte des Aktienkapitals
+    und der gesetzlichen Reserven nicht mehr gedeckt ist») entspricht nicht dem geltenden OR 725a Abs. 1; HWP ER Abb. 53 verwendet die geltende Fassung (hwp-er-2026__rz-0430-s282-t2:
+    «dass die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve»).'
+  quelle: ser-2022__anh-f-s129-2
+  zitat: Annahme ist, dass der Verwaltungsrat vom Zeitablauf her noch keine Gelegenheit hatte, seinen Pflichten nach Art. 725a OR nachzukommen
+- text: 'Überschuldung und Anzeigepflicht: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der VR die Anzeige, benachrichtigt die Revisionsstelle das Gericht (OR 729c).
+    Ergibt die eingeschränkte Revision eine Überschuldung, wird sie im Bericht festgehalten und die Organe werden auf ihre gesetzlichen Pflichten aufmerksam gemacht (SER Ziff. 9, ser-2022__9-t2:
+    «Ergibt sich aus der eingeschränkten Revision eine Überschuldung, so wird diese im Revisionsbericht festgehalten»); die Prüfung der Zwischenabschlüsse nach OR 725b ist weder eingeschränkte
+    noch ordentliche Revision (Vorgaben PS-CH 290). Berichtsbeispiel für Zusatz und Hinweis bei Untätigkeit: SER Anhang F Beispiel 13 bzw. Muster 41 (ser-2022__anh-f-s131-2: «Ferner
+    weisen wir darauf hin, dass es der Verwaltungsrat unterlassen hat, eine Zwischenbilanz gemäss Art. 725b OR zu erstellen.»); bleibt der VR weiterhin untätig, gilt die Anzeigepflicht
+    nach OR 729c.'
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- text: 'Camponovo (Fachliteratur, eSeminar 2026, nachrangig zu SER/HWP ER): Der Zustand des hälftigen Kapitalverlusts bzw. der Überschuldung ist kein Gesetzesverstoss; wer OR 725a erwähnt,
+    macht einen Zusatz, Gegenstand eines Hinweises kann nur die Unterlassung von «Massnahmen» sein (camponovo-2026-hinweispflichten__s117-1: «Will die Revisionsstelle 725a erwähnen,
+    ist das ein Zusatz, kein Hinweis»). Einen Hinweis zum 2. Teil von OR 725a Abs. 1 (weitere Sanierungsmassnahmen «soweit erforderlich») hält er für unzulässig, weil dies das Geschäftsführungsermessen
+    des VR betrifft. Zudem will er Hinweistexte – ausdrücklich entgegen EXPERTsuisse – im Konjunktiv formulieren (camponovo-2026-hinweispflichten__s034-1: «ein Hinweistext (entgegen
+    ExpertSuisse) immer im Konjunktiv zu formulieren ist»). Beides sind Literaturmeinungen, die von HWP ER Abb. 53 bzw. Muster 40 abweichen; Entscheid beim WP.'
+  quelle: camponovo-2026-hinweispflichten__s119-1
+  zitat: Bezüglich Teil 2 ist ein Hinweis m.E. nicht erlaubt
+- text: 'Berichtsdatum (SER Ziff. 8.6): Der Bericht trägt das Datum, an dem die eingeschränkte Revision beendet wurde (inkl. Ereignisse bis zu diesem Datum), frühestens aber den Tag,
+    an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat. Liegt zwischen Beendigung und Berichtsabgabe ein zeitlicher Abstand, trägt der Bericht das
+    Datum der Berichtsabgabe (hwp-er-2026__rz-0450-s288: «trägt der Bericht das Datum der Berichtsabgabe (keine Rückdatierung)»).'
+  quelle: ser-2022__8-6
+  zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+- text: 'Leitung, Zulassung und Unterschrift (SER Ziff. 8.5): Der Bericht nennt die Person, welche die eingeschränkte Revision geleitet hat, mit den Angaben zu ihrer Zulassung und trägt
+    ihre Unterschrift (OR 729b Abs. 2). Anzugeben sind: die Bestätigung «Wir bestätigen, dass wir die gesetzlichen Anforderungen hinsichtlich Zulassung (und Unabhängigkeit) erfüllen.»,
+    Name und Vorname, Art der Zulassung und Unterschrift des leitenden Revisors. Das HWP ER verlangt neben der Zulassungsart (zugelassener Revisor bzw. zugelassener Revisionsexperte)
+    die Bezeichnung «Leitender Revisor» (hwp-er-2026__rz-0452-s288: «Der Bericht der Revisionsstelle wird von der Person, die die Revision geleitet hat, rechtsgültig unterzeichnet.»).
+    Intern (consis, Prozess 5 GVB-Revisionsbericht): Der Agent unterzeichnet und datiert nie (konzept-ki-revisionsagent-2026__c011-2: «Keine Unterzeichnung, keine Datierung; Vorjahresoriginale
+    unverändert»).'
+  quelle: ser-2022__8-5
+  zitat: Zudem muss der Revisionsbericht die Unterschrift derjenigen Person tragen, welche die eingeschränkte Revision geleitet hat
+agent:
+- 'Grenze: Der Agent entscheidet nie über Art der Prüfungsaussage, Hinweise oder Zusätze, setzt kein Berichtsdatum und unterzeichnet nicht (OR 729b Abs. 2; SER Ziff. 8.5; konzept-ki-revisionsagent-2026__c011-2).
+  Er liefert Sachverhalt, Betrag (Rechenmodul `rechne`), Fundstelle (M-Files-ID) und einen Formulierungsvorschlag aus SER Anhang F bzw. Muster HWP ER als Notiz «Wesentliche Feststellungen»
+  oder «Schlussbesprechung»; Entscheid beim WP.'
+- 'GVB-Entwurf (Prozess 5): Vorjahres-Deckblatt und -Berichtstext in M-Files kopieren, Jahreszahlen, Stichtage und Jahresergebnis aktualisieren und gegen revio 7.1 Berichtsstrategie
+  und 7.5 Berichtskritik prüfen (konzept-ki-revisionsagent-2026__c011-2: «Vorjahres-Deckblatt und -Berichtstext kopieren, Jahreszahlen, Stichtage und Jahresergebnis aktualisieren, gegen
+  7.1 Berichtsstrategie und 7.5 Berichtskritik prüfen»); Vorjahresoriginale bleiben unverändert. Entwurf gegen die Pflichtelemente nach SER Ziff. 8.1 abgleichen (ser-2022__8-1: «Der
+  Revisionsbericht muss folgende Elemente enthalten»): Umfangsabschnitt mit Abgrenzung zur ordentlichen Revision (8.2), Prüfungsaussage, Zulassungs- und Unabhängigkeitsbestätigung inkl.
+  allfälligem Mitwirken (8.4), Name, Vorname und Zulassungsart des leitenden Revisors (8.5); Unterschrift und Datum leer lassen. Weicht die Lage vom Vorjahr ab (neuer oder weggefallener
+  Kapitalverlust, Überschuldung, Rangrücktritt, Fortführungsunsicherheit, Modifizierung, Mitwirken bei der Buchführung), Vorjahrestext nicht unverändert übernehmen, sondern Pendenz bzw.
+  Notiz «Schlussbesprechung» erfassen.'
+- 'Gewinnverwendungsantrag: Die Bestätigung zum Antrag entfällt, wenn kein Bilanzgewinn vorliegt, das zuständige Organ keinen Antrag stellen muss und keine Ausschüttungen aus anderen
+  Reserven beantragt werden; dann den Wortlaut anpassen (muster-hwp-er-2026__c017-2, Anmerkung [C]: «Die Bestätigung zum Antrag über die Verwendung des Bilanzgewinns entfällt, wenn kein
+  Bilanzgewinn vorliegt»).'
+- 'Kapitalverlust/Überschuldung (P1-313 «Beurteilung Eigenkapital in Bezug auf OR 725»): Prüfgrösse nach OR 725a Abs. 1 im Rechenmodul ermitteln (Aktiven abzüglich Verbindlichkeiten
+  vs. Hälfte der Summe aus Aktienkapital, nicht zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve). Zusätzlich dokumentieren: Datum der Jahresrechnung, Massnahmen
+  des VR (Protokolle revio 10.9), Information der Aktionäre, Zwischenabschlüsse nach OR 725b, Rangrücktritte mit Betrag. Zusatz oder Hinweis entscheidet der WP.'
+- 'Zusatz oder Hinweis beim Kapitalverlust: Nur Zusatz, wenn der VR vom Zeitablauf her noch keine Gelegenheit hatte (ser-2022__anh-f-s129-2). Hatte er Gelegenheit und blieb untätig,
+  kommt der Hinweis gemäss Muster 40 in Betracht (muster-hwp-er-2026__c050-2: «Annahme ist, dass der Verwaltungsrat vom Zeitablauf her bereits Gelegenheit hatte, seinen Pflichten nach
+  Art. 725a Abs. 1 OR nachzukommen, und deshalb ein Gesetzesverstoss vorliegt»), sofern die Voraussetzungen von HWP ER Rz 424 erfüllt sind (hwp-er-2026__rz-0424-s280: «die Aktionäre
+  nicht informiert sind und davon ausgegangen werden muss, dass eine Information der Aktionäre durch die Revisionsstelle Auswirkungen auf den Sanierungswillen der Aktionäre hätte»);
+  Entscheid WP. Wortlaut des Zusatzes nach geltendem OR 725a Abs. 1: HWP ER Abb. 53, erster Absatz (hwp-er-2026__rz-0430-s282-t2) bzw. Muster 40, erster Absatz. Die Q&A Kapitalverlust
+  (qa-kapitalverlust-2023__2-t1) betrifft den Bericht des zugelassenen Revisors nach OR 725a Abs. 2 bei Opting-out («Der Adressat des Berichts ist als Auftraggeber der Verwaltungsrat.»)
+  und dient nur als Kontext. HWP-Muster 37 (Zusatz wegen Kapitalverlust) verweist nur auf SER-Beispiel 11 mit dem alten Wortlaut (muster-hwp-er-2026__c046-1: «Siehe Beispiel im Schweizer
+  Standard zur Eingeschränkten Revision (Ausgabe 2022), Anhang F, Beispiel 11, Seite 129.»); die Abweichung zum geltenden OR 725a Abs. 1 dem WP melden.'
+- 'Rangrücktritt: Er beseitigt die Überschuldung nicht und ist keine Sanierungsmassnahme nach OR 725a (qa-kapitalverlust-2023__2-2-2-t5: «Ein Rangrücktritt an sich beseitigt die Überschuldung
+  nicht und stellt auch keine Sanierungsmassnahme nach Art. 725a OR dar.»). Ob er im Einzelfall als hinreichende Massnahme genügt, beurteilt der WP. Vorschlag für den Zusatz: SER Anhang
+  F Beispiel 9.'
+- 'Überschuldung bei untätigem VR: Hat der VR keine Zwischenabschlüsse nach OR 725b erstellt, Formulierungsvorschlag SER Anhang F Beispiel 13 bzw. Muster 41 (muster-hwp-er-2026__c051-1).
+  Offensichtliche Überschuldung bei untätigem VR sofort als wesentliche Feststellung an die WP-Adresse melden (OR 729c, gebotene Eile nach OR 725b Abs. 6). Nie selbst Gericht oder Kunde
+  kontaktieren; E-Mail nur als Entwurf oder an die fixe WP-Adresse.'
+- 'Fortführung (A1, T1): Prüfen und dokumentieren, ob die wesentliche Unsicherheit im Anhang angemessen offengelegt ist. Fehlt die Offenlegung oder ist sie unzureichend, ist nach SER
+  eine eingeschränkte oder verneinende Prüfungsaussage nötig (ser-2022__8-3-2-t4; ser-2022__anh-g-s141-2). Verweigert die Unternehmensleitung die Einschätzung der Fortführungsfähigkeit
+  oder deckt sie weniger als den Zeitraum nach OR 958a Abs. 2 ab, als wesentliche Feststellung melden (ser-2022__anh-g-s141-2: «Die Unternehmensleitung verweigert eine Einschätzung der
+  Fortführungsfähigkeit»). Vorschläge: Zusatz nach SER Anhang F Beispiel 10, Eventualzusatz nach HWP ER Abb. 54 (hwp-er-2026__rz-0434-s283: «könnte ein Kapitalverlust oder eine Überschuldung
+  im Sinne von Art. 725 a OR oder Art. 725 b OR eintreten»).'
+- Vor einer modifizierten Aussage soll die Unternehmensleitung informiert werden (hwp-er-2026__rz-0404-s274) → Punkt für die Notiz «Schlussbesprechung» mit quantifizierter Auswirkung.
+  Beschränkt die Unternehmensleitung den Prüfungsumfang, erwägt der Prüfer die Mandatsniederlegung (hwp-er-2026__rz-0416-s278); das ist ausschliesslich WP-Sache.
+- 'Hinweis-Kandidaten aus den Prüffeldern als Feststellung melden (SER Ziff. 8.3.2.1, ser-2022__8-3-2-t2): Darlehen an Aktionäre mangels frei verwendbarer Reserven bzw. mangels freien
+  Eigenkapitals (OR 680 Abs. 2, H2; Wortlaut SER Anhang F Beispiel 14 = Muster 42, ser-2022__anh-f-s132-2: «mangels frei verwendbarer Reserven eine nach Art. 680 Abs. 2 OR verbotene
+  Kapitalrückzahlung darstellt»; HWP ER Abb. 51, hwp-er-2026__rz-0425-s280-t2: «mangels freien Eigenkapitals nach unserer Beurteilung eine nach Art. 680 Abs. 2 OR verbotene Kapitalrückzahlung
+  darstellt»), Leistungen an Nahestehende (OR 678, R1), eigene Aktien (OR 659, P1), Dividende mit erheblichem Liquiditätsentzug (OR 717, P1), Frist für Vorlage des Geschäftsberichts
+  (OR 958 Abs. 3, A1). Statutenverstösse nur bei Zusammenhang mit dem Prüfungsgegenstand melden; Verstösse gegen das Organisationsreglement nicht als Hinweis-Kandidat führen (ser-2022__8-3-2-t2:
+  «Für Verstösse gegen das Organisationsreglement besteht keine Hinweispflicht.»).'
+- 'Camponovo-Ansichten (Rang Fachliteratur) nur als Diskussionspunkt für den WP kennzeichnen. Dazu gehören: Hinweise im Konjunktiv entgegen EXPERTsuisse (camponovo-2026-hinweispflichten__s034-1),
+  Erwähnung von OR 725a nur als Zusatz (s117-1), kein Hinweis zum 2. Teil von OR 725a Abs. 1 (s119-1), Wiederholung prominent sichtbarer Verletzungen in Folgejahren (s105-1) und der
+  Zeitpunkt nach Bedeutung, nicht zwingend mit dem Bericht (s040-1). Standard bleiben die Formulierungen aus SER und HWP ER; das HWP-ER-Beispiel nennt beide Teile (hwp-er-2026__rz-0430-s282-t2:
+  «weitere Massnahmen zur Sanierung der Gesellschaft zu treffen oder der Generalversammlung solche zu beantragen»).'
+- 'Berichtsdatum vorbereiten, nicht setzen: Datum der Unterzeichnung bzw. Genehmigung der Jahresrechnung durch den VR und der Vollständigkeitserklärung (revio 10.4) für den WP notieren.
+  Keine Rückdatierung (hwp-er-2026__rz-0450-s288). Ein neuer Bericht über eine geänderte Jahresrechnung darf nicht vor deren Genehmigung datiert sein (hwp-er-2026__rz-0325-s256).'
+- 'Unabhängigkeit: Hat das Revisionsunternehmen bei der Buchführung mitgewirkt, den Einschub nach SER Ziff. 8.4 bzw. Anhang F Beispiel 15 (Muster 44) vorschlagen (ser-2022__8-4: «Ein
+  Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt.»); das Faktum aus revio 2.4 nur lesen.'
+prueffelder:
+- A1
+- P1
+- T1
+- H2
+- N1
+- R1
+phasen:
+- p5-bericht
+- p6-kapitalschutz
+- p4-abschluss
+- p8-agentablauf

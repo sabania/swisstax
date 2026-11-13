@@ -1,0 +1,191 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: mwst-sozialversicherungen
+titel: MWST und Sozialversicherungen in der Revision
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 10
+  korrigiert: false
+stichworte:
+- MWST
+- Mehrwertsteuer
+- Umsatzabstimmung
+- Vorsteuerabstimmung
+- Art. 128 MWSTV
+- Finalisierung
+- Selbstveranlagung
+- Vorsteuer
+- Umsatzsteuer
+- MWST-Abrechnung
+- MWST-Forderungen
+- MWST-Verbindlichkeiten
+- Saldosteuersatz
+- vereinnahmtes Entgelt
+- vereinbartes Entgelt
+- Privatanteil
+- Dienstleistungsbezug Ausland
+- Bezugsteuer
+- Steuerrevision
+- MWST-Kontrolle ESTV
+- Festsetzungsverjährung
+- MWST-Gruppe
+- PH 20
+- Prüfungshinweis 20
+- AHV
+- Sozialversicherungen
+- Sozialleistungen
+- Lohnsumme
+- Lohnabstimmung
+- Lohnbuchhaltung
+- massgebender Lohn
+- BVG
+- SUVA
+- UVG
+- KTG
+- Schlussabrechnung Sozialversicherungen
+- Quellensteuer
+- QSt
+- Ferienguthaben
+- Überzeitguthaben
+- Ferienabgrenzung
+- Überstunden
+- passive Rechnungsabgrenzung
+- Personalaufwand
+- Drittbestätigung
+- Saldobestätigung
+- Vorsorgeeinrichtung
+kurz: 'In der SER stützt sich die Prüfung von MWST und Personalaufwand auf SER Anhang D n) und q): Abstimmung der MWST-Forderungen/-Verbindlichkeiten mit den Abrechnungen, Vorhandensein
+  der Umsatzabstimmung (Art. 128 MWSTV), Lohnbuchhaltung gegen Hauptbuch und Relation Saläre/Sozialleistungen. PH 20 ergänzt als nicht verpflichtende Arbeitshilfe. Ferien-/Überzeitguthaben
+  sind zwingend abzugrenzen; Drittbestätigungen (AHV, SUVA, BVG) gehören nicht zur SER.'
+aussagen:
+- text: 'Grundlage MWST-Risiko (PH 20 Tz 1): Die MWST betrifft praktisch alle Unternehmen. Je nach Tätigkeit kann sie den Abschluss erheblich beeinflussen. Daraus entsteht ein Risiko
+    wesentlicher falscher Darstellungen bei den Steuerforderungen/-verbindlichkeiten und bei den Rückstellungen für MWST-Risiken.'
+  quelle: ph-20-mwst-2016__c002-1
+  zitat: kann die Auswirkung der MWST auf den Abschluss erheblich sein, womit ein Risiko wesentlicher falscher Darstellungen im Abschluss besteht
+- text: 'Selbstveranlagung (PH 20 Tz 7): Für die korrekte Umsetzung des MWST-Rechts ist allein das steuerpflichtige Unternehmen verantwortlich, spätestens im Zeitpunkt der Finalisierung.
+    Bei den direkten Steuern veranlagt dagegen die Behörde. Die Revisionsstelle übernimmt diese Verantwortung nicht.'
+  quelle: ph-20-mwst-2016__c003-1
+  zitat: liegt die volle und alleinige Verantwortung für die korrekte Umsetzung der relevanten Rechtsvorschriften beim steuerpflichtigen Unternehmen selbst
+- text: Jede mehrwertsteuerpflichtige Person muss mindestens einmal jährlich eine Umsatz- und Vorsteuerabstimmung erstellen (Art. 128 MWSTV) und fristgerecht finalisieren (Art. 72 Abs.
+    1 MWSTG). Das Rechnungswesen muss darauf ausgerichtet sein (HWP BuR Rz 365).
+  quelle: hwp-bur-2023__rz-0365-s150
+  zitat: mindestens einmal jährlich eine Umsatz- und Vorsteuerabstimmung (Art. 128 MWSTV) und eine Finalisierung innert der vorgesehenen Frist (Art. 72 Abs. 1 MWSTG) vorzunehmen
+- text: 'SER Anhang D n), empfohlene Detailprüfung: Die MWST-Forderungen und -Verbindlichkeiten werden mit den MWST-Abrechnungen abgestimmt (revio M2-301, EP).'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der MWST-Forderungen und -Verbindlichkeiten mit den Abrechnungen
+- text: 'SER Anhang D n), empfohlene Detailprüfung: Es wird festgestellt, ob eine MWST-Umsatzabstimmung vorhanden ist. In der SER gehört also nur ihr Vorhandensein zum empfohlenen Umfang.
+    Der inhaltliche Nachvollzug ist eine weiter gehende Handlung.'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Vorhandensein der MWST-Umsatzabstimmung
+- text: 'PH 20 Anhang 2 B 1 (Arbeitshilfe, nicht verpflichtend): Geprüft wird, ob für das der Prüfungsperiode vorangegangene Geschäftsjahr eine plausible Umsatzabstimmung nach Art. 128
+    Abs. 2 MWSTV vorliegt. Das Unternehmen muss sie innert 180 Tagen erstellen und Abweichungen begründen.'
+  quelle: ph-20-mwst-2016__c011-5
+  zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen, und allfällige Abweichungen sind zu begründen.
+- text: 'PH 20 Anhang 2 B 2, analytische Prüfung der MWST-Deklarationen: Vorgeschlagen werden der Vorjahresvergleich und die Umsatzaufteilung nach steuerbar, steuerbefreit, ausgenommen,
+    Nichtentgelt und Steuersatz. Bei wesentlichen ausgenommenen Umsätzen wird auch die Vorsteuerkorrektur geprüft.'
+  quelle: ph-20-mwst-2016__c011-5
+  zitat: Umsatzaufteilung (steuerbar / steuerbefreit / ausgenommen / Nichtentgelte / Steuersätze) / Vorsteuerkorrektur bei wesentlichen ausgenommenen Umsätzen
+- text: 'SER Anhang D n), weiter gehende Detailprüfungen (nur bei angenommener wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko): Die MWST-Umsatzabstimmung wird nachvollzogen.
+    Die MWST-Abrechnungen werden mit den Konten und/oder der Umsatzabstimmung abgestimmt (revio M2-302/M2-303, WP).'
+  quelle: ser-2022__anh-d-s089-1
+  zitat: Abstimmung der MWST-Abrechnungen mit den Konti und/oder der Umsatzabstimmung
+- text: 'SER Anhang D n), weiter gehende Befragungen: Erfragt werden die Abrechnungsart (vereinnahmtes oder vereinbartes Entgelt) und Sonderfälle wie ausgenommene Umsätze oder Saldosätze.
+    Weiter wird gefragt, ob Privatanteile und Dienstleistungsbezüge aus dem Ausland mit MWST abgerechnet sind, sowie nach branchenspezifischen Vereinbarungen mit der Steuerverwaltung
+    (revio M2-102 bis M2-104, WP).'
+  quelle: ser-2022__anh-d-s090-1
+  zitat: Befragung der Unternehmensleitung, ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist
+- text: 'Kontrolle durch die Steuerbehörde (SER Anhang D n), weiter gehend): Erfragt wird, ob eine Steuerrevision, Nachforschungen oder Rückfragen stattgefunden haben oder ob Einsprachen
+    und Rekurse hängig sind. Anschliessend folgt die Einsicht in die Korrespondenz, um Nachforderungen und rückstellungspflichtige Risiken festzustellen.'
+  quelle: ser-2022__anh-d-s089-2
+  zitat: Befragung, ob eine Steuerrevision, andere Nachforschungen oder Rückfragen seitens der Steuerbehörden stattgefunden haben oder Einsprachen und Rekurse hängig sind.
+- text: 'Ausweis (PH 20 Anhang 2 B 3): Geprüft wird, ob die MWST in der Jahresrechnung korrekt und vollständig ausgewiesen ist. Dazu gehören die Steuerforderungen/-verbindlichkeiten,
+    die Rückstellungen für MWST-Risiken und die Offenlegung einer aktuellen oder früheren MWST-Gruppenzugehörigkeit im Anhang. Den Nachweis erbringt das Unternehmen.'
+  quelle: ph-20-mwst-2016__c011-5
+  zitat: Offenlegung allfällige aktuelle oder frühere Zugehörigkeit / zu einer MWST-Gruppe im Anhang
+- text: 'Analytik Personal (HWP ER Rz 109): Der Vergleich mit den Erwartungen des Abschlussprüfers eignet sich besonders für die Sozialversicherungsbeiträge im Verhältnis zur Lohnsumme.
+    Das ist die analytische Plausibilisierung von AHV/Lohnsumme.'
+  quelle: hwp-er-2026__rz-0109-s199
+  zitat: Vergleich mit den Erwartungen des Abschlussprüfers → in bestimmten Prüfungsgebieten gut anwendbar (z.B. Sozialversicherungsbeiträge im Verhältnis zur Lohnsumme
+- text: 'SER Anhang D q) Personalaufwand, empfohlene analytische Prüfungshandlung: Die Relation zwischen Salären und Sozialleistungen wird mit dem Vorjahr verglichen (revio R1-201, EP).'
+  quelle: ser-2022__anh-d-s093-1
+  zitat: Vergleich der Relation zwischen Salären und Sozialleistungen mit dem Vorjahr
+- text: 'SER Anhang D q), empfohlene Detailprüfung: Die Totale der Lohnbuchhaltung werden mit den Hauptbuchkonten abgestimmt (revio R1-301, EP).'
+  quelle: ser-2022__anh-d-s093-1
+  zitat: Abstimmen der Totale der Lohnbuchhaltung mit den Hauptbuchkonten
+- text: 'SER Anhang D q), weiter gehende Detailprüfungen: Der ausgewiesene Aufwand wird mit Jahresaufstellungen und Jahresabrechnungen wie AHV- und BVG-Abrechnungen abgestimmt. Dazu
+    kommen die Einsicht in Berichte anderer Prüfer (AHV, SUVA, MWST) und die Durchsicht auf ungewöhnliche Posten mit Personalbezug (revio R1-303 bis R1-306, WP).'
+  quelle: ser-2022__anh-d-s093-1
+  zitat: Abstimmen des ausgewiesenen Aufwands mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
+- text: 'AHV-Lohnsumme gegen Lohnaufwand (Sekundärquelle Treuhand-Almanach 2026, S. 83): Massgebend für AHV/IV/EO ist der Bruttolohn ohne Familien- und Kinderzulagen und ohne Lohnmaximierung.
+    Bei der Abstimmung des Lohnaufwands mit der AHV-Abrechnung sind solche Unterschiede zu erklären.'
+  quelle: treuhand-almanach-2026__s083-1
+  zitat: Bruttolohn ohne Familien- und Kinderzulagen; keine Lohnmaximierung
+- text: 'Quellensteuer (Sekundärquelle Treuhand-Almanach 2026, S. 50): Nicht die steuerpflichtige Person liefert die Quellensteuer ab, sondern der Schuldner der steuerbaren Leistung,
+    oft der Arbeitgeber. Beim Arbeitgeber entsteht daraus eine Abrechnungs- und Ablieferungsschuld. Der revio-Katalog nennt die QSt bei den abzugrenzenden Schlussabrechnungen (R1-302,
+    WP).'
+  quelle: treuhand-almanach-2026__s050-1
+  zitat: Die Quellensteuern werden nicht vom Steuerpflichtigen selbst abgeliefert, sondern vom Schuldner der steuerbaren Leistung (oft der Arbeitgeber).
+- text: 'Ferien- und Überzeitguthaben (Q&A Rechnungslegungsrecht 2.2, gestützt auf Art. 959 Abs. 5 OR): Am Bilanzstichtag nicht bezogene Ansprüche müssen handelsrechtlich abgegrenzt
+    werden. Bemessen wird je Mitarbeiter: Stunden mal Stundensatz inkl. Sozialleistungen. Pauschalbeträge sind nicht angemessen. Ausgewiesen wird die Abgrenzung als passive Rechnungsabgrenzung
+    (Art. 958b OR). Ob die Steuerbehörden sie anerkennen (BGer 9C_192/2024), ist eine steuerliche Frage und ändert die handelsrechtliche Pflicht nicht.'
+  quelle: qa-or-rechnungslegung-2026__2-2-t1
+  zitat: Am Bilanzstichtag noch nicht bezogene Ferien- oder Überzeitansprüche sind handelsrechtlich also zwingend abzugrenzen.
+- text: 'Grenze der SER (SER Anhang D q), ebenso HWP ER Rz 134): Drittbestätigungen von AHV, SUVA und BVG/PK, Anwaltsbestätigungen und die Prüfung der arbeits- und verwaltungsrechtlichen
+    Vorgaben gehören nicht zur eingeschränkten Revision. Saldobestätigungen der MWST sind gemäss HWP ER Rz 134 ebenfalls ausgeschlossen (revio R1-402, nur auf Anweisung).'
+  quelle: ser-2022__anh-d-s093-2
+  zitat: Einholen von Drittbestätigungen wie AHV, SUVA, BVG/PK usw.
+- text: 'Folgen und Bericht (SER Anhang C, Auftragsbestätigung): In der SER werden keine Prüfungen zur Aufdeckung von Gesetzesverstössen durchgeführt, auch nicht bei MWST oder Sozialversicherungen.
+    Erkennt die Revisionsstelle dennoch Verstösse mit direktem Bezug zur Jahresrechnung, sieht sie einen Hinweis im Revisionsbericht vor, wenn diese für die Berichtsempfänger von Bedeutung
+    sind.'
+  quelle: ser-2022__anh-c-s057-1
+  zitat: keine Befragungen oder weiteren Prüfungen zur Aufdeckung von deliktischen Handlungen und weiteren Gesetzesverstössen (z. B. betreffend direkte Steuern, Mehrwertsteuer, Sozialversicherungen,
+    Umweltschutz) durchgeführt
+agent:
+- 'Rangfolge beachten: In der SER ist SER Anhang D n) und q) massgebend (empfohlen bzw. weiter gehend). PH 20 ist für die Abschlussprüfung mit hinreichender Sicherheit geschrieben (Tz
+  3, ph-20-mwst-2016__c002-1). Seine Arbeitshilfe in Anhang 2 ist ausdrücklich nicht verpflichtend (ph-20-mwst-2016__c011-1) und dient nur ergänzend als Checkliste für Risiko- und Organisationsfragen.'
+- 'M2 vorbereiten: Aus M-Files beschaffen: alle MWST-Abrechnungen der Periode, die Umsatz- und Vorsteuerabstimmung (Art. 128 MWSTV) des Vorjahres und, falls vorhanden, des Prüfjahrs,
+  die Kontoauszüge Umsatzsteuer/Vorsteuer/Abrechnungskonto sowie die ESTV-Korrespondenz. Den Saldo per Stichtag mit der letzten Abrechnung im Rechenmodul (`rechne`) abstimmen, nie im
+  Kopf rechnen.'
+- 'Fehlt die Umsatzabstimmung oder ist sie nicht begründet: Notiz «Pendenz» mit Konto, Periode und Betrag erfassen. Erstellt das Unternehmen sie erst innert 180 Tagen nach Abschluss,
+  ist das kein Fehler, aber zu dokumentieren (PH 20 B 1). Differenzen über der Nichtaufgriffsgrenze als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag erfassen,
+  ohne Verbuchung.'
+- 'Katalogschritt M2-302 verweist auf «RZ 958 MWStG». Dieser Verweis ist im Wiki nicht belegt. Für die Umsatzabstimmung gilt Art. 128 MWSTV (PH 20 B 1, HWP BuR Rz 365). M2-302 und M2-303
+  sind WP-Schritte: nur auf Anweisung vorbereiten.'
+- 'Befragungsschritte (M2-101 bis M2-104, R1-101/R1-102): Der Agent befragt nicht selbst. Er wertet schriftliche Antworten aus (revio 10.11). Fehlen sie, erfasst er die Frage als Pendenz.
+  Status höchstens «teilweise bearbeitet».'
+- 'Kontrolle ESTV und Risiken: Nach Einschätzungsmitteilungen, Kontrollberichten oder hängigen Verfahren suchen (PH 20 A 9/A 9c, ph-20-mwst-2016__c011-4; SER n), ser-2022__anh-d-s089-2).
+  Mögliche Nachbelastungen erfordern je nach Wahrscheinlichkeit eine Rückstellung (HWP BuR Rz 547, hwp-bur-2023__rz-0547-s269); Hinweis an den WP als Notiz. Für die Wesentlichkeit zählen
+  auch noch nicht rechtskräftig festgesetzte Perioden; die Festsetzungsverjährung beträgt fünf Jahre (PH 20 Tz 28, ph-20-mwst-2016__c006-2).'
+- MWST-Gruppe (aktuell oder früher) für T1 (Anhang) festhalten (PH 20 B 3). Bei Saldosteuersatz-Abrechnern enthalten die Ertragskonten den pauschalen Vorsteueranspruch (HWP BuR Rz 361,
+  hwp-bur-2023__rz-0361-s149). Das bei der Analytik berücksichtigen.
+- 'R1 vorbereiten: Das Jahrestotal des Lohnjournals mit den Hauptbuchkonten abstimmen (R1-301) und die Quote Sozialleistungen/Saläre mit dem Vorjahr vergleichen (R1-201/R1-203), beides
+  im Rechenmodul. Die AHV-Jahresabrechnung (Lohnsumme) mit dem Lohnaufwand abstimmen und Differenzen erklären, z.B. Familien- und Kinderzulagen. Der Almanach ist Sekundärquelle, Sätze
+  nur mit Fundstelle nennen.'
+- Schlussabrechnungen der Sozialversicherungen (AHV, UVG, KTG, BVG, QSt) und ihre Abgrenzung (R1-302, M1-302 b) sind WP-Schritte. Der Agent stellt Unterlagen und Saldenvergleiche bereit
+  (Kontokorrent Sozialversicherungen/QSt per Stichtag gegen Schlussabrechnung in neuer Rechnung). Die Beurteilung macht der WP.
+- 'Quellensteuer: Im Wiki gibt es keine Fundstelle in SER oder HWP ER, nur den Treuhand-Almanach (Verfahren) und den revio-Katalog R1-302. Das als Lücke offenlegen. QSt-Abrechnungen
+  mit dem QSt-Verbindlichkeitskonto vergleichen; Fehlendes als Pendenz erfassen.'
+- 'Ferien-/Überzeitguthaben (M3/R1-409): Eine Liste je Mitarbeiter verlangen (Stunden mal Stundensatz inkl. Sozialleistungen); Pauschalen sind nicht angemessen (qa-or-rechnungslegung-2026__2-2-t1).
+  Fehlt die Abgrenzung oder ist sie pauschal bemessen: Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag. Eine steuerliche Aufrechnung ist in der Steuerabgrenzung zu berücksichtigen
+  (qa-or-rechnungslegung-2026__2-2-t2). BGer 9C_192/2024 als steuerliche Praxis bezeichnen; über den Ausweis entscheidet der WP.'
+- Verbindlichkeiten gegenüber Vorsorgeeinrichtungen sind im Anhang offenzulegen (Art. 959c Abs. 2 Ziff. 7 OR, or__art-959c-t2) und für T1 festzuhalten. Die Einhaltung der Bestimmungen
+  zu Arbeitgeberschulden bei PVE (M1-408) nur auf Anweisung prüfen.
+- 'Fortführung: Kann das Unternehmen Löhne und Sozialversicherungsbeiträge nicht begleichen, ist das ein Indikator gegen die Fortführung (HWP ER Rz 191, hwp-er-2026__rz-0191-s224). Notiz
+  «Schlussbesprechung» bzw. «Wesentliche Feststellungen» an den WP erfassen, nicht selbst beurteilen.'
+- Saldobestätigungen von AHV, SUVA, BVG oder MWST (R1-402) sind nicht Teil der SER (HWP ER Rz 134). Nur auf ausdrückliche Anweisung des WP vorbereiten, dann als «über die SER hinausgehend»
+  kennzeichnen.
+- 'Vollständigkeitserklärung: Die SER-Vorlage enthält die Einhaltung der Vorschriften zu MWST und Sozialversicherungen (ser-2022__anh-e-s103-2). Ob der MWST-Zusatzbaustein aus PH 20
+  Anhang 1 aufgenommen wird, entscheidet der WP. Erkennt der Agent einen Gesetzesverstoss, meldet er ihn nur. Über einen Hinweis im Bericht entscheidet der WP; kein Visum, kein Abschluss.'
+prueffelder:
+- M2
+- R1
+- M1
+- M3
+- D1
+- S1
+- T1
+phasen:
+- p2-planung
+- p3-durchfuehrung
+- p4-abschluss
+- p5-bericht

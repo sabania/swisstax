@@ -1,0 +1,217 @@
+# Werte Kategorie fristen – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or727a_anmeldung_vor_gj
+  bezeichnung: 'Opting-out: Anmeldung beim Handelsregister'
+  wert: vor Beginn des Geschäftsjahres
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 727a Abs. 2 OR; Verzicht gilt nur für künftige Geschäftsjahre.
+  quelle: or__art-727a
+  zitat: muss vor Beginn des Geschäftsjahres beim Handelsregisteramt angemeldet werden
+  status: agent-geprueft
+- key: or727a_frist_zustimmung
+  bezeichnung: 'Opting-out: Antwortfrist bei schriftlicher Zustimmung'
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 727a Abs. 3 OR: Ausbleiben einer Antwort kann als Zustimmung gelten, wenn der VR darauf hinweist.'
+  quelle: or__art-727a
+  zitat: eine Frist von mindestens 20 Tagen ansetzen
+  status: agent-geprueft
+- key: or727a_opting_in_10_tage
+  bezeichnung: 'Opting-in: Verlangen einer eingeschränkten Revision durch Aktionär'
+  wert: '10'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 727a Abs. 4 OR: Opting-out gilt auch für Folgejahre; jeder Aktionär kann jährlich eine eingeschränkte Revision verlangen (HWP ER Rz 68); die GV muss dann die Revisionsstelle
+    wählen.'
+  quelle: or__art-727a
+  zitat: spätestens zehn Tage vor der Generalversammlung eine eingeschränkte Revision zu verlangen
+  status: agent-geprueft
+- key: or725b_sanierungsfrist_90
+  bezeichnung: 'Überschuldung: maximale Sanierungsfrist ohne Benachrichtigung des Gerichts'
+  wert: '90'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 725b Abs. 4 Ziff. 2 OR: nur solange begründete Aussicht auf Behebung besteht und Gläubiger nicht zusätzlich gefährdet werden. Zeichnet sich ab, dass 90 Tage nicht
+    reichen, darf von der Anzeige nicht mehr abgesehen werden (HWP ER Rz 435).'
+  quelle: or__art-725b-t1
+  zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
+  status: agent-geprueft
+- key: or699_ordentliche_gv
+  bezeichnung: 'Ordentliche Generalversammlung: Frist'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 699 Abs. 2 OR. SER 8.3.2 nennt die Nichteinhaltung der gesetzlichen Einberufungsfrist (Art. 699 OR) als Beispiel für einen möglichen Hinweis auf Gesetzesverstösse,
+    sofern wesentlich (ser-2022__8-3-2-t2); Entscheid WP. GmbH: Art. 805 Abs. 2 OR.'
+  quelle: or__art-699
+  zitat: innerhalb von sechs Monaten nach Abschluss des Geschäftsjahres statt
+  status: agent-geprueft
+- key: or958_geschaeftsbericht_frist
+  bezeichnung: 'Geschäftsbericht: Erstellung und Vorlage zur Genehmigung'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 958 Abs. 3 OR; Unterzeichnung durch Vorsitzenden des VR und die für die Rechnungslegung zuständige Person. Nichteinhaltung der Vorlagepflicht als Hinweisbeispiel in
+    SER 8.3.2.
+  quelle: or__art-958
+  zitat: innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt und dem zuständigen Organ
+  status: agent-geprueft
+- key: or700_einberufung_gv
+  bezeichnung: Einberufung der Generalversammlung
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 700 Abs. 1 OR.
+  quelle: or__art-700
+  zitat: teilt den Aktionären die Einberufung der Generalversammlung mindestens 20 Tage vor dem Versammlungstag mit
+  status: agent-geprueft
+- key: or699a_unterlagen_20_tage
+  bezeichnung: Geschäftsbericht und Revisionsbericht zugänglich vor GV
+  wert: '20'
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 699a Abs. 1 OR: für die Terminplanung des Revisionsberichts relevant (Bericht muss zu diesem Zeitpunkt vorliegen).'
+  quelle: or__art-699a
+  zitat: Mindestens 20 Tage vor der Generalversammlung sind den Aktionären der Geschäftsbericht und die Revisionsberichte zugänglich zu machen.
+  status: agent-geprueft
+- key: or731_bericht_vor_genehmigung
+  bezeichnung: Revisionsbericht vor Genehmigung der Jahresrechnung
+  wert: Revisionsbericht muss vor GV-Beschluss vorliegen
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 731 Abs. 1 OR; ohne Revisionsbericht sind Genehmigungs- und Gewinnverwendungsbeschlüsse nichtig (Abs. 3).
+  quelle: or__art-731
+  zitat: muss der Revisionsbericht vorliegen, bevor die Generalversammlung die Jahresrechnung und die Konzernrechnung genehmigt
+  status: agent-geprueft
+- key: or805_gmbh_gv_frist
+  bezeichnung: 'GmbH: ordentliche Gesellschafterversammlung'
+  wert: '6'
+  einheit: Monate
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 805 Abs. 2 OR.
+  quelle: or__art-805
+  zitat: Die ordentliche Versammlung findet alljährlich innerhalb von sechs Monaten nach Schluss des Geschäftsjahres statt.
+  status: agent-geprueft
+- key: or805_gmbh_einberufung
+  bezeichnung: 'GmbH: Einberufung der Gesellschafterversammlung'
+  wert: 20 (statutarisch verkürzbar bis 10)
+  einheit: Tage
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 805 Abs. 3 OR: Statuten können die Frist verlängern oder bis auf zehn Tage verkürzen; Universalversammlung vorbehalten.'
+  quelle: or__art-805
+  zitat: Die Gesellschafterversammlung ist spätestens 20 Tage vor dem Versammlungstag einzuberufen.
+  status: agent-geprueft
+- key: ser_berichtsdatum
+  bezeichnung: 'Berichtsdatum: frühestens'
+  wert: frühestens Datum der Unterzeichnung/Genehmigung der Jahresrechnung
+  einheit: Text
+  gilt: SER, Ausgabe 2022
+  kategorie: fristen
+  bemerkung: SER 8.6; Vollständigkeitserklärung auf dieses Datum zusammen mit der Jahresrechnung unterzeichnen (HWP ER Rz 448). Der Agent datiert und unterzeichnet nie (Konzept consis).
+  quelle: ser-2022__8-6
+  zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
+  status: agent-geprueft
+- key: or958f_aufbewahrung
+  bezeichnung: Aufbewahrung Geschäftsbücher, Belege, Geschäfts- und Revisionsbericht
+  wert: '10'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: 'Art. 958f Abs. 1 OR: Frist beginnt mit Ablauf des Geschäftsjahres; Geschäfts- und Revisionsbericht schriftlich und unterzeichnet (Abs. 2).'
+  quelle: or__art-958f
+  zitat: sowie der Geschäftsbericht und der Revisionsbericht sind während zehn Jahren aufzubewahren
+  status: agent-geprueft
+- key: or730c_aufbewahrung_revision
+  bezeichnung: Aufbewahrung Revisionsdokumentation (Revisionsstelle)
+  wert: '10'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: fristen
+  bemerkung: Art. 730c Abs. 1 OR; elektronische Daten während gleicher Zeit lesbar. SER 7.1 (ser-2022__7-1) übernimmt die Pflicht.
+  quelle: or__art-730c
+  zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
+  status: agent-geprueft
+- key: hwp_er_arbeitspapiere_fristbeginn
+  bezeichnung: 'Aufbewahrung Arbeitspapiere: Fristbeginn'
+  wert: 10 Jahre ab Berichtsdatum
+  einheit: Jahre
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: fristen
+  bemerkung: 'HWP ER Rz 288: elektronische Aufbewahrung zulässig, wenn nachträgliche Änderungen feststellbar und Daten lesbar bleiben.'
+  quelle: hwp-er-2026__rz-0288-s248
+  zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
+  status: agent-geprueft
+- key: vst_frist_formular_102
+  bezeichnung: Frist für Deklaration und Entrichtung der VSt auf geldwerten Leistungen (Formular 102)
+  wert: '30'
+  einheit: Tage nach Fälligkeit
+  gilt: ESTV-Rundschreiben vom 29.01.2026
+  kategorie: fristen
+  bemerkung: Die geschuldete VSt ist innert derselben Frist zu entrichten.
+  quelle: estv-zinsen-2026__s001-1
+  zitat: mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren
+  status: agent-geprueft
+- key: mwst_aufbewahrung_immobilien
+  bezeichnung: MWST-Aufbewahrungsfrist für Belege zu Immobilien
+  wert: '25'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Mindestfrist. Stand PH 20 (2016), gegen die aktuelle MWSTG-Fassung prüfen.
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  status: agent-geprueft
+- key: mwst_aufbewahrung_uebrige
+  bezeichnung: MWST-Aufbewahrungsfrist für übrige Belege
+  wert: '10'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Mindestfrist. Stand PH 20 (2016).
+  quelle: ph-20-mwst-2016__c004-2
+  zitat: für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren, für übrige Belege von mindestens 10 Jahren
+  status: agent-geprueft
+- key: mwst_festsetzungsverjaehrung
+  bezeichnung: Festsetzungsverjährung MWST (Schweiz)
+  wert: '5'
+  einheit: Jahre
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: Für die Wesentlichkeit die noch nicht rechtskräftig festgesetzten Steuerforderungen und -verbindlichkeiten der abgeschlossenen Perioden heranziehen. Für ausländische MWST
+    gelten ggf. andere Fristen. Stand PH 20 (2016).
+  quelle: ph-20-mwst-2016__c006-2
+  zitat: in der Schweiz beträgt die Festsetzungsverjährung fünf Jahre
+  status: agent-geprueft
+- key: mwst_finalisierung_180_tage
+  bezeichnung: 'MWST-Finalisierung: Korrekturfrist nach Geschäftsabschluss'
+  wert: '180'
+  einheit: Tage nach Geschäftsabschluss
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: 'Selbstveranlagung: Spätestens bei der Finalisierung muss die Umsetzung korrekt sein.'
+  quelle: ph-20-mwst-2016__c003-1
+  zitat: Die Frist endet mit der ordentlichen Deklarationsfrist der Abrechnungsperiode, in welche der 180. Tag nach dem letzten Geschäftsabschluss fällt.
+  status: agent-geprueft
+- key: mwst_umsatzabstimmung_frist
+  bezeichnung: Frist für die Umsatzabstimmung (Art. 128 Abs. 2 MWSTV)
+  wert: '180'
+  einheit: Tage
+  gilt: PH 20 (02-2016)
+  kategorie: fristen
+  bemerkung: 'PH 20 Anhang 2, B 1: Liegt für das Vorjahr eine plausible und nachvollziehbare Umsatzabstimmung vor? Abweichungen sind zu begründen. Unterlage beim Kunden anfordern.'
+  quelle: ph-20-mwst-2016__c011-5
+  zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen
+  status: agent-geprueft

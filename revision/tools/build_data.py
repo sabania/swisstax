@@ -175,8 +175,11 @@ def werte(res: dict, heute: str):
             seen.add(w["key"])
             w["quelle"], w["zitat"], w["status"] = c2, z2, "agent-geprueft"
             alle.append(w)
-    if alle:
-        dump(R / "data" / "werte.yaml", {"werte": alle}, f"# Schwellenwerte, Sätze, Fristen – je Wert Fundstelle (quelle/zitat). Erfasst {heute} (Workflow, nachgeprüft).\n")
+    by = collections.defaultdict(list)
+    for w in alle:
+        by[w.get("kategorie", "uebrige")].append(w)
+    for k, v in by.items():
+        dump(R / "data" / "werte" / f"{k.replace('_', '-')}.yaml", {"werte": v}, f"# Werte Kategorie {k} – je Wert Fundstelle (quelle/zitat). Erfasst {heute}.\n")
     return len(alle)
 
 
@@ -236,8 +239,8 @@ def themen(res: dict, heute: str):
                      "aussagen": norm_items(d.get("aussagen"), f"thema {tid}", keep_without=False),
                      "agent": d.get("agent") or [], "prueffelder": [c for c in d.get("prueffelder") or [] if c in codes],
                      "phasen": [x for x in d.get("phasen") or [] if re.match(r"p\d-", x)]})
-    if alle:
-        dump(R / "data" / "themen.yaml", {"themen": alle}, f"# Themenseiten (Querschnitt) – jede Aussage mit Fundstelle. Erfasst {heute} (Workflow, nachgeprüft).\n")
+    for t in alle:
+        dump(R / "data" / "themen" / f"{t['id']}.yaml", t, f"# Themenseite – jede Aussage mit Fundstelle. Erfasst {heute} (Workflow, nachgeprüft).\n")
     return len(alle)
 
 

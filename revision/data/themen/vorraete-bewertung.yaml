@@ -1,0 +1,277 @@
+# Themenseite – jede Aussage mit Fundstelle (quelle/zitat). Quelle der Erfassung: Workflow revision-themen (nachgeprüft).
+id: vorraete-bewertung
+titel: 'Vorräte: Bestand und Bewertung'
+status: agent-geprueft
+nachpruefung:
+  urteil: korrigieren
+  befunde: 10
+  korrigiert: true
+stichworte:
+- Vorräte
+- Warenlager
+- Lager
+- Inventar
+- Inventur
+- Inventurbeobachtung
+- Inventurteilnahme
+- Stichtagsinventur
+- permanente Inventur
+- Lagerbuchhaltung
+- Bestandsnachweis
+- Niederstwertprinzip
+- Niederstwert
+- verlustfreie Bewertung
+- Veräusserungswert
+- netto realisierbarer Wert
+- Rückrechnung
+- Liquidationswert
+- Beschaffungsmarkt
+- Absatzmarkt
+- Anschaffungskosten
+- Einstandspreis
+- Bezugskosten
+- Herstellkosten
+- Herstellungskosten
+- Fertigungsgemeinkosten
+- Materialgemeinkosten
+- Normalbeschäftigung
+- Unterbeschäftigung
+- Eigenkapitalzins
+- Fremdkapitalkosten
+- Gruppenbewertung
+- Inkurranz
+- unkurant
+- Gängigkeit
+- Ladenhüter
+- Lagerumschlag
+- Warendrittel
+- Warenreserve
+- Bewertungsabzug ein Drittel
+- stille Reserven
+- Auflösung stiller Reserven
+- Härtefallhilfen
+- angefangene Arbeiten
+- Aufträge in Arbeit
+- Erzeugnisse in Arbeit
+- nicht fakturierte Dienstleistungen
+- nicht fakturierte Leistungen
+- POC
+- POCM
+- Percentage of Completion
+- Completed Contract
+- Gewinnrealisierung
+- Gewinnanteil
+- Anzahlungen
+- erhaltene Anzahlungen
+- geleistete Anzahlungen
+- Vorauszahlungen
+- Bruttoprinzip
+- Konsignation
+- Konsignationsware
+- Kommissionsware
+- eingeschränkte Prüfungsaussage
+- Unmöglichkeit einer Prüfungsaussage
+- Schätzunsicherheit
+- OR 958c
+- OR 959a
+- OR 959c
+- OR 960a
+- OR 960c
+kurz: Vorräte und nicht fakturierte Dienstleistungen sind per Inventar oder anders nachzuweisen (OR 958c Abs. 2) und höchstens zu AK/HK, bei tieferem Netto-Veräusserungswert zu diesem
+  zu bewerten (OR 960c). Die eingeschränkte Revision kennt keine Inventurbeobachtung; geprüft wird mit Befragungen, Analytik und Abstimmung Inventar–Hauptbuch (SER Anhang D). Der Warendrittel
+  ist steuerliche Praxis mit Reservecharakter; Gewinn auf angefangenen Arbeiten (POCM) nur unter kumulativen Voraussetzungen.
+aussagen:
+- text: 'Grundlage Bestand: Wie jede Bilanzposition ist der Bestand der Vorräte durch ein Inventar oder auf andere Art nachzuweisen (OR 958c Abs. 2). Eine jährliche physische Aufnahme
+    sämtlicher Vorräte verlangt das Gesetz nicht (hwp-bur-2023__rz-0204-s205: «Eine Pflicht zur jährlichen physischen Bestandsaufnahme sämtlicher Vorräte geht aus dem Gesetzestext nicht
+    hervor.»). Ohne Lagerbuchhaltung ist ein verlässlicher Nachweis ohne Inventur auf den Bilanzstichtag aber kaum möglich; mit Lagerbuchhaltung ist eine permanente Inventur zulässig.
+    Inventurdifferenzen sind abzuklären, und bei vor- oder nachverlegter Inventur braucht es eine einwandfreie Fortschreibung oder Rückrechnung auf den Bilanzstichtag (HWP BuR Rz 204).'
+  quelle: or__art-958c
+  zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+- text: 'Konsignation: Eigene, in Kommission gegebene Ware gehört separat unter die Vorräte und nicht unter die Forderungen (HWP BuR Rz 213). Umgekehrt darf Ware Dritter, die das Unternehmen
+    in Konsignation besitzt, nicht ins Inventar gelangen. Das SER sieht dazu als weitergehende Handlung eine Befragung vor, wie dies sichergestellt wird (ser-2022__anh-d-s079-2; revio
+    F1-110, WP-Schritt).'
+  quelle: hwp-bur-2023__rz-0213-s207
+  zitat: In Kommission gegebene Waren (Konsignationsware) sind separat unter Vorräten, nicht als Forderungen auszuweisen.
+- text: 'Anschaffungs- und Herstellungskosten: Anschaffungskosten (Einstandspreise) umfassen alle Kosten bis zur Einlagerung, einschliesslich Bezugskosten wie Fracht, Zoll und Versicherungsprämien,
+    gekürzt um Rabatte (hwp-bur-2023__rz-0218-s207). Zu den Herstellungskosten gehören neben dem Material die Materialgemeinkosten, die Fertigungslöhne und die Fertigungsgemeinkosten
+    (HWP BuR Rz 220). Nicht dazu gehören die allgemeinen Verwaltungs- und Vertriebskosten (hwp-bur-2023__rz-0221-s207). Feste Kosten sind auf Basis der Normalbeschäftigung zuzurechnen;
+    Mehrkosten aus Unterbeschäftigung nicht. Fremdkapitalzinsen nur in speziellen Fällen, etwa bei langfristigen Fertigungsaufträgen, und «Ein Eigenkapitalzinsanteil ist in keinem Fall
+    aktivierungsfähig.» (hwp-bur-2023__rz-0222-s208). Bezug zur Prüfung: SER-Befragung, ob die Bewertungsgrundsätze unter Berücksichtigung von Material, Salären und Gemeinkosten stetig
+    angewandt wurden (ser-2022__anh-d-s078-2; revio F1-105).'
+  quelle: hwp-bur-2023__rz-0220-s207
+  zitat: Zu den Herstellungskosten gehören, neben den Anschaffungskosten für Rohmaterial, Hilfs- und Betriebsstoffe sowie für zugekaufte Teile, die Materialgemeinkosten, die Fertigungslöhne
+    und die Fertigungsgemeinkosten.
+- text: 'Niederstwertprinzip (OR 960c Abs. 1): Liegt in der Folgebewertung der Veräusserungswert abzüglich noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten,
+    ist dieser tiefere Wert einzusetzen. Als Vorräte gelten Rohmaterial, Erzeugnisse in Arbeit, fertige Erzeugnisse und Handelswaren (Abs. 2). Obergrenze bleiben die Anschaffungs- oder
+    Herstellungskosten (or__art-960a Abs. 1–2). Massgebender Markt: Für Rohmaterial, Hilfs- und Betriebsstoffe, fremdbezogene oder fremdbeziehbare Halbfabrikate und Halbfabrikate mit
+    hohem Materialanteil gilt in der Regel der Beschaffungsmarkt, für alle anderen Vorräte der Absatzmarkt. Liegt der zurückgerechnete Wert unter dem Beschaffungspreis (vor allem bei
+    Überbeständen), ist der zurückgerechnete Wert, mindestens aber der Liquidationswert einzusetzen (hwp-bur-2023__rz-0247-s213). Erzeugnisse in Arbeit richten sich in der Anfangsphase
+    nach dem Beschaffungs-, in der Endphase nach dem Verkaufsmarkt (hwp-bur-2023__rz-0248-s213).'
+  quelle: or__art-960c
+  zitat: Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
+- text: 'Verlustfreie Bewertung: Der Vergleichswert entsteht durch Rückrechnung. Vom voraussichtlichen Verkaufserlös werden die mutmasslichen Erlösschmälerungen und die noch anfallenden
+    Kosten abgezogen: Vertriebs- und Verwaltungskosten, bei Produkten mit erheblicher Lagerdauer auch die Fremdkapitalkosten, bei unfertigen Erzeugnissen zusätzlich die noch anfallenden
+    Herstellungskosten (hwp-bur-2023__rz-0245-s212). Liegen die Anschaffungs- oder Herstellungskosten über diesem Vergleichswert, ist eine Wertberichtigung vorzunehmen; unter den Liquidationswert
+    muss nicht korrigiert werden (HWP BuR Rz 246). Ein absehbarer, nicht abwendbarer Verlust auf einem Gesamtauftrag ist schon bei der Bewertung der einzelnen Teile oder Leistungsstufen
+    zu berücksichtigen (hwp-bur-2023__rz-0248-s213).'
+  quelle: hwp-bur-2023__rz-0246-s212
+  zitat: Sind die Anschaffungs- oder Herstellungskosten höher als dieser Vergleichswert, ist eine entsprechende Wertberichtigung vorzunehmen (verlustfreie Bewertung).
+- text: Gleichartige Vorratskategorien dürfen als Gruppe bewertet werden (OR 960 Abs. 1). Dabei dürfen Zwangsreserven nicht gedanklich verrechnet werden. Eine Bewertung zum Marktpreis
+    über den Anschaffungs- oder Herstellungskosten (OR 960b) kommt nur in wenigen Fällen in Frage, etwa im Rohstoffhandel (HWP BuR Rz 231).
+  quelle: hwp-bur-2023__rz-0231-s209
+  zitat: Gleichartige Vorratskategorien können dabei als Gruppen zu zweckmässigen Bewertungseinheiten (im Sinne von Art. 960 OR) zusammengefasst werden.
+- text: 'Gängigkeit und Inkurranz: Unkurante Artikel müssen wertberichtigt werden, im Extremfall auf den Liquidationswert und nötigenfalls mit einer zusätzlichen Rückstellung für künftige
+    Entsorgungskosten. Bei umfangreichen Lagern sind pauschale Abschläge üblich. Deren Höhe richtet sich im Allgemeinen nach der Umschlagshäufigkeit; die Berechnung kann auch den Zeitpunkt
+    der letzten Bestellung einbeziehen (HWP BuR Rz 249).'
+  quelle: hwp-bur-2023__rz-0249-s213
+  zitat: Für unkurante Artikel ist eine Bewertungskorrektur unerlässlich, wobei im Extremfall der Liquidationswert einzusetzen
+- text: 'Warendrittel, steuerliche Praxis und kein OR-Recht: Vom gesetzlichen Höchstwert lassen die Steuerbehörden einen pauschalen Bewertungsabzug von einem Drittel zu. Höchstwert sind
+    die Anschaffungs- oder Herstellungskosten nach allen Wertberichtigungen für unkurante Ware oder der tiefere Netto-Veräusserungswert (HWP BuR Rz 253). Eine ESTV- oder kantonale Primärquelle
+    zu Satz und Voraussetzungen ist im Wiki nicht erfasst. Handelsrechtlich würdigt ein Fachartikel (Sekundärquelle) den Abzug kritisch: «Diese Wertanpassung entspricht der handelsrechtlichen
+    Vorgabe, wonach eine zuverlässige Beurteilung möglich sein soll, in der Tendenz eher nicht.» (ef-2026-08-buchungslogik__s002-2). Bei erhaltenen Härtefallhilfen kann die erstmalige
+    Bildung eines Warendrittels als Indiz für eine missbräuchliche Gewinnschmälerung mit Rückerstattungsfolge gelten (qa-or-rechnungslegung-2026__5-t1-2). Ist die Bildung steuerlich
+    nicht klar akzeptiert, kann daraus eine Rückerstattungspflicht mit Abgrenzung in der Jahresrechnung resultieren (qa-or-rechnungslegung-2026__4-5).'
+  quelle: hwp-bur-2023__rz-0253-s214
+  zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
+- text: 'Handelsrechtlich ist die Unterbewertung (oft «Warenreserve» genannt) eine Wertberichtigung auf dem Aktivum, gestützt auf OR 960a Abs. 4 (zusätzliche Wertberichtigungen), und
+    keine Rückstellung (ef-2026-08-buchungslogik__s003-4: «Eine Rückstellung kann dazu handelsrechtlich nicht gebildet werden, auch wenn steuerlich zuweilen davon die Rede sein sollte.»).
+    Sind alle handelsrechtlich nötigen Wertkorrekturen gemacht, hat der Warendrittel Reservecharakter (hwp-bur-2023__rz-0253-s214). Wird er beim Abbau des Warenlagers anteilig reduziert,
+    werden stille Reserven aufgelöst, und der Betrag fliesst in den Gesamtbetrag der aufgelösten stillen Reserven ein (HWP BuR Rz 759). Im Anhang anzugeben ist dieser Gesamtbetrag nur,
+    soweit er die neu gebildeten Reserven übersteigt und «wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird» (OR 959c Abs. 1 Ziff. 3, or__art-959c-t1).'
+  quelle: hwp-bur-2023__rz-0759-s320
+  zitat: Der Auflösungsbetrag ist in die Ermittlung des ggf. offenlegungspflichtigen Gesamtbetrags aufgelöster stiller Reserven einzubeziehen
+- text: 'Nicht fakturierte Dienstleistungen entsprechen bei Dienstleistungsunternehmen den Erzeugnissen in Arbeit. Ihre aufgelaufenen Kosten sind Vorräte und zu aktivieren (HWP BuR Rz
+    197). OR 959a Abs. 1 Ziff. 1 lit. d verlangt den Ausweis «Vorräte und nicht fakturierte Dienstleistungen» (or__art-959a-t1); ergänzend (Sekundärquelle): «Das Rechnungslegungsrecht
+    geht klar und zwingend von einer Aktivierung von noch nicht fakturierten Dienstleistungen aus.» (treuhand-almanach-2026__s029-1). Bewertet wird sinngemäss wie bei den übrigen Vorräten:
+    eigene Leistungen wie Herstellungskosten, Leistungen Dritter wie Anschaffungskosten (hwp-bur-2023__rz-0230-s209). Der Bestand wird über eine auftragsweise Erfassung des geleisteten
+    Arbeitseinsatzes und der bezogenen Fremdleistungen nachgewiesen (hwp-bur-2023__rz-0208-s206).'
+  quelle: hwp-bur-2023__rz-0197-s204
+  zitat: Die aufgelaufenen Kosten noch nicht fakturierter Dienstleistungen stellen also Vorräte dar und sind buchhalterisch entsprechend zu behandeln.
+- text: 'Gewinnrealisierung bei längerfristigen kundenspezifischen Aufträgen: In der Schweizer Praxis besteht ein Wahlrecht zwischen POCM (anteiliger Gewinn nach Projektfortschritt),
+    modifizierter POCM (Umsatz in Höhe der Kosten, ohne Gewinn) und Completed-Contract-Methode (Gewinn erst bei Abschluss). Ein sich abzeichnender Verlust ist bei Vertragsunterzeichnung
+    vollumfänglich zurückzustellen; danach folgen die Wertberichtigung und gegebenenfalls eine Rückstellung (HWP BuR Rz 747). Die POCM setzt kumulativ voraus: eine vertragliche Grundlage
+    mit Entschädigungsanspruch, eine hohe Wahrscheinlichkeit der Vertragserfüllung, eine geeignete Auftragsorganisation und eine zuverlässige Ermittlung von Erlösen, Kosten und Fertigstellungsgrad
+    (hwp-bur-2023__rz-0748-s316-t2: «Eine zuverlässige Ermittlung aller mit dem Auftrag im Zusammenhang stehenden Auftragserlöse, Auftragsaufwendungen sowie des Fertigstellungsgrads
+    ist möglich.»). Der Gewinn ist zurückhaltend zu ermitteln, bei Pauschal- oder Festpreisen mit grösserer Vorsicht (Rz 748). Im Chunk hwp-bur-2023__rz-0748-s316-t1 ist der Einleitungssatz
+    wegen des PDF-Layouts verstümmelt; das Original S. 316 prüfen.'
+  quelle: hwp-bur-2023__rz-0747-s315
+  zitat: 'Percentage-of-Completion-Methode (POCM): Umsatzerfassung über den Zeitraum der Vertragserfüllung mit anteiliger Gewinnrealisierung nach Projektfortschritt'
+- text: 'Anzahlungen: Erhaltene Anzahlungen für Vorräte oder Aufträge werden brutto (passiviert) oder netto (Abzug beim Auftrag in Arbeit) ausgewiesen. Bei der Nettodarstellung wird
+    je Projekt ein Nettobuchwert ermittelt. Er ist als Auftrag in Arbeit zu aktivieren oder, bei Überfinanzierung, unter den übrigen Verbindlichkeiten auszuweisen. Eine Aufgliederung
+    im Anhang wird empfohlen (HWP BuR Rz 254). Aufträge mit positivem und negativem Saldo zu verrechnen widerspricht dem Bruttoprinzip (hwp-bur-2023__rz-0748-s316-t1, im Zusammenhang
+    mit der POCM). Geleistete Anzahlungen sind nach Verwendungszweck im Umlauf- (Waren) oder Anlagevermögen auszuweisen (hwp-bur-2023__rz-0192-s203). Bei ihrer Bewertung sind Bonität
+    und Leistungsfähigkeit des Empfängers sowie allfällige Sicherheiten zu beurteilen (hwp-bur-2023__rz-0191-s202).'
+  quelle: hwp-bur-2023__rz-0254-s214
+  zitat: die Anzahlungen können passiviert (Bruttodarstellung) oder beim entsprechenden Aktivposten (beispielsweise Aufträge in Arbeit) in Abzug gebracht werden (Nettodarstellung)
+- text: 'Prüfung: Bei der eingeschränkten Revision gibt es keine Inventurbeobachtung und keine Drittbestätigungen. Die Prüfung stützt sich grundsätzlich auf intern verfügbare Informationen
+    (SER 1.5). Auch nach HWP ER ist die Beobachtung der Inventur bei der eingeschränkten Revision nicht vorgesehen (hwp-er-2026__rz-0094-s196), und SER Anhang D Bst. e führt die Inventurteilnahme
+    ausdrücklich bei den Handlungen auf, die nicht Bestandteil der eingeschränkten Revision sind (ser-2022__anh-d-s079-2). Abgrenzung, nur ergänzend: Bei der ordentlichen Revision ist
+    die Anwesenheit des Abschlussprüfers an der Inventur grundsätzlich erforderlich, sofern das Vorratsvermögen wesentlich und die Teilnahme praktisch durchführbar ist (HWP OR Rz 1052,
+    hwp-or-2024__rz-1052-s392). Dieses Vorgehen ist nicht auf die eingeschränkte Revision zu übertragen.'
+  quelle: ser-2022__1-5
+  zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt – die Prüfung beschränkt sich grundsätzlich auf beim geprüften Unternehmen intern verfügbare Informationen
+- text: 'Auf die Teilnahme an der Inventur und auf vertiefte Prüfungen der Herstellkostenkalkulation von Vorräten und angefangenen Arbeiten ist zu verzichten. Ausgeschlossen sind aber
+    nur vertiefte Prüfungen: Bei entsprechender Risikolage plausibilisiert der Abschlussprüfer die Herstellkostenkalkulation (HWP ER Rz 134).'
+  quelle: hwp-er-2026__rz-0134-s203
+  zitat: lediglich vertiefte Prüfungen sind ausgeschlossen; hingegen nimmt der Abschlussprüfer bei entsprechender Risikolage ggf. eine Plausibilisierung der Herstellkostenkalkulation
+    vor
+- text: 'Empfohlene Befragungen (SER Anhang D Bst. e) betreffen: Methode der Bestandsermittlung, Korrekturen aus der letzten physischen Aufnahme, bei fehlender Stichtagsaufnahme die
+    permanente Inventur mit periodischem Mengenabgleich, die zeitliche Abgrenzung, die Bewertungsgrundlagen und deren stetige Anwendung, die Gängigkeit sowie die verlustfreie Bewertung
+    von Produktkategorien mit geringer Marge. Bei Vorräten mit geringem Umschlag und überalterten Vorräten ist festzustellen, ob sie mit dem netto realisierbaren Wert bewertet sind.
+    Das ist eine Prüfungshandlung und keine eigene Bewertungsregel; massgebend bleibt der tiefere Wert aus AK/HK und Netto-Veräusserungswert (OR 960c Abs. 1). Analytisch und im Detail
+    folgen der Vergleich von Lagerbestand, Lagerumschlag und Margen mit Vorperioden sowie die Abstimmung des Totals der Inventarlisten mit dem Hauptbuch (ser-2022__anh-d-s078-3).'
+  quelle: ser-2022__anh-d-s078-2
+  zitat: Befragung über die angewandte Methode zur Feststellung von Vorräten mit geringem Lagerumschlag und überalterten Vorräten; Feststellung, ob diese Vorräte mit dem netto realisierbaren
+    Wert bewertet sind
+- text: 'Bei nicht fakturierten Dienstleistungen ist nach SER festzustellen, ob das Niederstwertprinzip befolgt oder alternativ zu den erwarteten Honoraransätzen bewertet wurde (revio
+    F2-103). Zudem ist zu erfragen, wie die verlustfreie Bewertung sichergestellt ist (ser-2022__anh-d-s078-3: «Befragung, wie die verlustfreie Bewertung von nicht fakturierten Dienstleistungen
+    sichergestellt ist»; revio F2-105). Als empfohlene Detailprüfung folgt die Prüfung angefangener Arbeiten und nicht fakturierter Dienstleistungen anhand des Arbeitsfortschritts und/oder
+    der Abrechnungen in der neuen Periode (ser-2022__anh-d-s079-1; revio F2-302).'
+  quelle: ser-2022__anh-d-s078-2
+  zitat: Feststellung, ob das Niederstwertprinzip befolgt worden ist oder ob alternativ die nicht fakturierten Dienstleistungen zu den zu erwartenden Honoraransätzen bewertet wurden
+- text: 'Angefangene Arbeiten haben ein vergleichsweise höheres inhärentes Risiko für Bestand und Bewertung (hwp-er-2026__rz-0018-s181). Von den 15 empfohlenen SER-Handlungen für Vorräte
+    und nicht fakturierte Dienstleistungen sind nur jene nötig, die den angestrebten Prüfungsnachweis liefern (hwp-er-2026__rz-0140-s206-t1). Ohne erhöhtes Risiko und bei schlüssigen
+    Ergebnissen kann die Position praktisch mit Befragungen und Analytik geprüft werden. Bei wesentlicher Position bleibt aber auch ohne erhöhtes Risiko die Detailprüfung durchzuführen:
+    «die eine Detailprüfung (Abstimmung des Totals der Inventarlisten und des Nachweises der nicht fakturierten Dienstleistungen mit dem Hauptbuch) durchzuführen» (HWP ER Rz 140). Bei
+    erhöhtem Risiko, häufig im Projektgeschäft, sind weitergehende Prüfungen nötig, etwa eine stichprobenweise Bewertungsprüfung anhand von Auswertungen der Betriebsbuchhaltung. Weitergehende
+    Prüfungshandlungen gelten in der Regel nur bei angenommenen wesentlichen Fehlaussagen oder erhöhtem inhärentem Risiko (SER 6.2.3, ser-2022__6-2-3).'
+  quelle: hwp-er-2026__rz-0140-s206-t2
+  zitat: kann diese Position praktisch ausschliesslich und im Einklang mit dem SER mittels Befragungen und analytischer Prüfungen geprüft werden
+- text: 'Weitergehende SER-Handlungen (Anhang D Bst. e) sind u. a. der Vergleich mengenmässiger Bestände mit Vorperioden, die analytische Prüfung, ob die angefangenen Arbeiten keinen
+    Gewinnanteil enthalten, sowie Befragungen zu Konsignationsware und zu verpfändeten oder bei Dritten eingelagerten Vorräten. Einordnung (Wiki, keine Quellenaussage): Die Gewinnanteil-Prüfung
+    (revio F2-203, WP-Schritt) knüpft an die Obergrenze der Herstellungskosten an (OR 960a Abs. 2). Das HWP BuR lässt mit der POCM aber eine anteilige Gewinnrealisierung zu (hwp-bur-2023__rz-0747-s315),
+    sofern die kumulativen Voraussetzungen nach Rz 748 erfüllt sind (hwp-bur-2023__rz-0748-s316-t2). Ein Gewinnanteil ist deshalb nicht ohne Weiteres ein Fehler. Ob die Voraussetzungen
+    erfüllt sind, beurteilt der WP.'
+  quelle: ser-2022__anh-d-s079-2
+  zitat: Analytische Prüfung, ob in den angefangenen Arbeiten kein Gewinnanteil enthalten ist
+- text: 'Bericht, Auslöser: Das OR legt bei den Bewertungsvorschriften grundsätzlich Obergrenzen fest (Kostenwertprinzip, OR 960a). Ein Verstoss gegen eine Bewertungsvorschrift führt
+    zu einer modifizierten Prüfungsaussage (HWP ER Rz 386). Die Überalterung von Vorräten nennt das HWP ER als Beispiel für Unsicherheiten aufgrund geschätzter Werte, im Abschnitt über
+    die fehlende Möglichkeit, ausreichende geeignete Prüfungsnachweise zu erlangen (hwp-er-2026__rz-0394-s272).'
+  quelle: hwp-er-2026__rz-0386-s270-t2
+  zitat: Ein Verstoss gegen eine Bewertungsvorschrift führt zu einer modifizierten Prüfungsaussage.
+- text: 'Formulierungsbeispiele: Für nicht wertberichtigte unkurante Handelswaren enthält das HWP ER ein Beispiel für eine eingeschränkte Prüfungsaussage bei festgestelltem Sachverhalt.
+    Darin wird die Überbewertung beziffert, und Ergebnis und Eigenkapital gelten als zu günstig ausgewiesen (HWP ER Rz 407). SER Anhang F zeigt dieselbe Konstellation bei angenommenem
+    Sachverhalt: «Aufgrund unserer Revision müssen wir annehmen, dass die Vorräte unkurante Handelswaren enthalten» (ser-2022__anh-f-s121-2). Wären Ergebnis und Eigenkapital «in erheblichem
+    Ausmass zu günstig ausgewiesen», zeigt das HWP ER ein Beispiel für die Unmöglichkeit einer Prüfungsaussage, ebenfalls bei angenommenem Sachverhalt (hwp-er-2026__rz-0415-s278: «Aufgrund
+    unserer Revision müssen wir annehmen, dass die Vorräte unkurante Handelswaren enthalten, die nicht wertberichtigt worden sind.»). Den Bericht unterzeichnet die Person, die die Revision
+    geleitet hat (OR 729b Abs. 2, or__art-729b).'
+  quelle: hwp-er-2026__rz-0407-s276
+  zitat: Unsere Revision hat ergeben, dass die Vorräte unkurante Handelswaren enthalten, die nicht wertberichtigt worden sind.
+agent:
+- 'Inventur: Inventurbeobachtung, Bestandesnachweise bei permanenter Inventur, Beurteilung der Inventur und Bestätigungen von Konsignationslagern (F1-401–F1-404) nur auf ausdrückliche
+  Anweisung des WP; physische Tätigkeiten nie (konzept-ki-revisionsagent-2026__c012-1). Die Inventurteilnahme ist nicht Bestandteil der SER (ser-2022__anh-d-s079-2, hwp-er-2026__rz-0094-s196,
+  hwp-er-2026__rz-0134-s203). Das Vorgehen der ordentlichen Revision (Anwesenheit an der Inventur, hwp-or-2024__rz-1052-s392, nur ergänzend) nicht übernehmen. Ist der Schritt in revio
+  aktiv, im Textfeld vermerken: «nicht durchgeführt – nicht Bestandteil der eingeschränkten Revision». Über das Auslassen entscheidet der WP.'
+- 'Unterlagen in M-Files beschaffen: Inventarliste per Bilanzstichtag (Mengen, Preise, Wertberichtigungen, Warendrittel separat), Inventurinstruktion und -protokoll bzw. Auszug der Lagerbuchhaltung
+  mit Inventurdifferenzen, Kalkulation der Herstellkosten (Gemeinkostenzuschläge), Projekt- oder Auftragsliste der angefangenen Arbeiten mit Stunden, Fortschritt und Anzahlungen je Projekt
+  sowie Fakturen der neuen Periode. Fehlt etwas: Pendenz mit Konto, Datum und Betrag.'
+- 'F1-301 / F2-301: Total der Inventar- bzw. Projektliste mit dem Hauptbuch im Rechenmodul abstimmen (`rechne`). Differenzen über der Nichtaufgriffsgrenze als «Wesentliche Feststellung»
+  mit Buchungsvorschlag erfassen, ohne Verbuchung. Bei wesentlicher Position verlangt das HWP ER diese Detailprüfung auch ohne erhöhtes Risiko (hwp-er-2026__rz-0140-s206-t2).'
+- 'F1-201/202/203: Lagerbestand, -umschlag und Margen je Kategorie gegenüber dem Vorjahr im Rechenmodul berechnen. Fällt ein über Jahre nahezu unveränderter Lagerwert ohne inventurgestützte
+  Grundlage auf (ef-2026-08-buchungslogik__s002-2), Pendenz und Punkt «Schlussbesprechung» erfassen.'
+- 'Gängigkeit: F1-106 (Befragung) – die Frage nach der Methode zur Erkennung von Ladenhütern (Umschlag, letzte Bewegung) in die Kundenbefragung (revio 10.11) übernehmen oder als Pendenz
+  erfassen; Status höchstens «teilweise bearbeitet». F1-201 (Analytik): Umschlag je Kategorie im Rechenmodul berechnen und Positionen ohne Bewegung auflisten. F1-304 ist ein WP-Schritt
+  (nur Mensch): Der Agent bereitet ihn nur auf ausdrückliche Anweisung vor (Aufstellung der Pauschalabschläge je Kategorie mit Umschlagskennzahl, vgl. hwp-bur-2023__rz-0249-s213) und
+  beurteilt die Angemessenheit nicht selbst (konzept-ki-revisionsagent-2026__c012-1). Zeigen die Unterlagen bei erkennbar unkuranter Ware gar keine Wertberichtigung, eine «Wesentliche
+  Feststellung» mit beziffertem Buchungsvorschlag erfassen (ohne Verbuchung). Über eine Modifikation des Berichts entscheidet der WP.'
+- 'Bewertungsgrundlagen (F1-104, F1-105, F1-107): Fragen zur Zusammensetzung der Anschaffungskosten (Bezugskosten, Rabatte) und der Herstellungskosten (Gemeinkosten auf Normalbeschäftigung,
+  keine Verwaltungs- und Vertriebskosten, kein Eigenkapitalzins) in die Kundenbefragung übernehmen (hwp-bur-2023__rz-0218-s207, hwp-bur-2023__rz-0220-s207, hwp-bur-2023__rz-0221-s207,
+  hwp-bur-2023__rz-0222-s208). F1-302 (Einstandspreise) und F1-303 (Herstellkosten gegen Kalkulation) sind WP-Schritte (nur Mensch); eine vertiefte Prüfung der Herstellkostenkalkulation
+  ist nicht Bestandteil der SER (hwp-er-2026__rz-0134-s203).'
+- 'Warendrittel: Im Rechenmodul nachrechnen, dass der Drittel vom Höchstwert erst nach den handelsrechtlichen Wertberichtigungen für Inkurranz berechnet ist (hwp-bur-2023__rz-0253-s214).
+  Bestand und Veränderung als stille Reserve in F1-321 festhalten. Nimmt der Warendrittel ab, die Nettoauflösung stiller Reserven für F1-320/T1 aufbereiten. Die Anhangangabe nach OR
+  959c Abs. 1 Ziff. 3 ist nur nötig, «wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird» (or__art-959c-t1); ob das zutrifft, beurteilt der WP. Den Warendrittel
+  als steuerliche Praxis kennzeichnen; im Wiki gibt es dazu keine ESTV-Primärquelle. Fragen zur steuerlichen Anerkennung, auch zur erstmaligen Bildung bei erhaltenen Härtefallhilfen
+  (qa-or-rechnungslegung-2026__5-t1-2), als Pendenz an den WP.'
+- 'Angefangene Arbeiten / nicht fakturierte Leistungen (F2): Methode erfragen (POCM, modifizierte POCM, Completed Contract) und schriftliche Antworten auswerten. Wird ein Gewinnanteil
+  aktiviert oder zu Honoraransätzen bewertet (SER, revio F2-103), das Verhältnis zur Obergrenze Herstellkosten (OR 960a) und zu den POCM-Voraussetzungen (hwp-bur-2023__rz-0748-s316-t2)
+  nicht selbst beurteilen und nicht automatisch als Fehler werten: als Punkt für den WP erfassen. F2-203 (Gewinnanteil) und F2-303 sind WP-Schritte (nur Mensch).'
+- 'F2-302: Angefangene Arbeiten stichprobenweise mit den Fakturen der neuen Periode bzw. dem Arbeitsfortschritt abgleichen (ser-2022__anh-d-s079-1). Liegt eine Faktura unter den aktivierten
+  Kosten, ist das ein Hinweis auf einen möglichen Verlust: Wesentliche Feststellung zur verlustfreien Bewertung (vgl. hwp-bur-2023__rz-0747-s315), ohne Verbuchung.'
+- 'Anzahlungen: F2-202 (vorbereiten) – angefangene Arbeiten und erhaltene Anzahlungen je Projekt im Rechenmodul gegenüberstellen. Nettodarstellung nur projektweise; Projekte mit positivem
+  und negativem Saldo nicht verrechnen (hwp-bur-2023__rz-0748-s316-t1). Überfinanzierte Projekte gehören unter die übrigen Verbindlichkeiten (hwp-bur-2023__rz-0254-s214). Die M1-Schritte
+  zu Anzahlungen (M1-402 bis M1-405) und die D1-Schritte zu geleisteten Anzahlungen (D1-402, D1-403) nur auf Anweisung des WP. Geleistete Anzahlungen für Vorräte nach Verwendungszweck
+  im Umlaufvermögen ausweisen (hwp-bur-2023__rz-0192-s203). Hinweise zu Bonität und Sicherheiten des Lieferanten (hwp-bur-2023__rz-0191-s202) als Punkt für den WP erfassen, nicht selbst
+  beurteilen.'
+- 'Befragungsschritte (1xx, u. a. F1-101–F1-109, F2-101–F2-105): Der Agent befragt nicht selbst. Die SER-Fragen (ser-2022__anh-d-s078-2, ser-2022__anh-d-s078-3) in die Kundenbefragung
+  (revio 10.11) übernehmen oder als Pendenz erfassen; Status höchstens «teilweise bearbeitet». Konsignation, Verpfändung und Drittlager (F1-110/111) sind nur für den Menschen: Hinweise
+  aus den Unterlagen als Punkt «Schlussbesprechung» notieren. Ist eigene, in Kommission gegebene Ware unter den Forderungen statt unter den Vorräten ausgewiesen (hwp-bur-2023__rz-0213-s207),
+  eine Wesentliche Feststellung mit Umgliederungsvorschlag erfassen, ohne Verbuchung.'
+- 'Grenzen und Bericht: Keine Wesentlichkeit ändern (revio 3.3 nur lesen). Kein Visum, kein Abschluss, keine Berichtsformulierung freigeben. Formulierungsbeispiele (festgestellter Sachverhalt:
+  hwp-er-2026__rz-0407-s276; angenommener Sachverhalt: ser-2022__anh-f-s121-2; Unmöglichkeit: hwp-er-2026__rz-0415-s278) nur als Hinweis an den WP. Ob und wie die Prüfungsaussage modifiziert
+  wird, entscheidet der WP; den Bericht unterzeichnet die Person, die die Revision geleitet hat (or__art-729b). Fehlen Unterlagen zur Beurteilung der Inkurranz (Schätzunsicherheit, hwp-er-2026__rz-0394-s272),
+  eine Pendenz mit Konto, Datum und Betrag erfassen.'
+prueffelder:
+- F1
+- F2
+- M1
+- D1
+- SCH1
+- SCH2
+- T1
+phasen:
+- p1-auftrag
+- p2-planung
+- p3-durchfuehrung
+- p5-bericht
+- p8-agentablauf

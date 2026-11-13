@@ -1,0 +1,150 @@
+# Werte Kategorie kapitalschutz – je Wert Fundstelle (quelle/zitat).
+werte:
+- key: or725a_kapitalverlust_haelfte
+  bezeichnung: 'Kapitalverlust: Schwelle'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725a Abs. 1 OR, massgebend ist die letzte Jahresrechnung: Aktiven abzüglich Verbindlichkeiten < 50 % von (Aktienkapital + nicht zurückzahlbare gesetzliche Kapitalreserve
+    + gesetzliche Gewinnreserve). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2); gebotene Eile (Abs. 4). Rechner: revision.py kapitalverlust. GmbH:
+    Art. 820 OR.'
+  quelle: or__art-725a
+  zitat: die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
+  status: agent-geprueft
+- key: hwp_er_kapitalverlust_feststellung
+  bezeichnung: 'Kapitalverlust: Feststellung'
+  wert: 0 ≤ bilanzielles Eigenkapital < Hälfte des geschützten Eigenkapitals
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 371–372: Bezugsgrösse = Hälfte des geschützten Eigenkapitals; Vergleich mit dem bilanziellen Eigenkapital (Aktiven ./. Verbindlichkeiten) der letzten Jahresrechnung.
+    Eigenkapital < 0 → Überschuldung prüfen (Art. 725b OR).'
+  quelle: hwp-er-2026__rz-0372-s112
+  zitat: Ist das bilanzielle Eigenkapital grösser oder gleich null, aber kleiner als die Bezugsgrösse des geschützten Eigenkapitals
+  status: agent-geprueft
+- key: qa_kv_eigene_anteile
+  bezeichnung: 'Kapitalverlust: Einfluss eigener Kapitalanteile'
+  wert: geschütztes Eigenkapital bleibt unverändert
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: Eigene Kapitalanteile vermindern nur das frei verfügbare Eigenkapital (Q&A Frage 1).
+  quelle: qa-kapitalverlust-2023__1-1-t1
+  zitat: Das geschützte Eigenkapital und damit die Bezugsgrösse nach Art. 725a OR resp. PS-CH 290 bleiben unverändert.
+  status: agent-geprueft
+- key: qa_kv_covid_sbueg_bis
+  bezeichnung: 'Kapitalverlust/Überschuldung: Covid-19-Kredite nicht als Fremdkapital (SBüG) bis'
+  wert: 31.12.2032
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: 'Q&A Frage 2 (qa-kapitalverlust-2023__1-1-t1): Covid-19-Kredite zählen für Art. 725a und 725b OR nicht als Fremdkapital; die Bestimmungen gelten auch unter dem revidierten
+    Recht.'
+  quelle: qa-kapitalverlust-2023__1-1-t2
+  zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
+  status: agent-geprueft
+- key: qa_kv_hfmv20_bis
+  bezeichnung: 'Kapitalverlust/Überschuldung: Härtefall-Darlehen (HFMV 20) nicht als Fremdkapital bis'
+  wert: 31.12.2031
+  einheit: Text
+  gilt: Q&A EXPERTsuisse 06-2023
+  kategorie: kapitalschutz
+  bemerkung: 'Q&A Frage 2: Darlehen bzw. verbürgte/garantierte Kredite nach HFMV 20 zählen für Kapitalverlust und Überschuldung nicht als Fremdkapital.'
+  quelle: qa-kapitalverlust-2023__1-1-t2
+  zitat: Jene der HFMV 20 sind gültig bis 31. Dezember 2031
+  status: agent-geprueft
+- key: or725b_ueberschuldung
+  bezeichnung: 'Überschuldung: Auslöser'
+  wert: 'begründete Besorgnis: Verbindlichkeiten nicht mehr durch Aktiven gedeckt'
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725b Abs. 1–3 OR: VR erstellt unverzüglich Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, lässt sie durch die Revisionsstelle prüfen und benachrichtigt
+    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1).'
+  quelle: or__art-725b-t1
+  zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+  status: agent-geprueft
+- key: hwp_er_zwischenabschluss_immer
+  bezeichnung: 'Überschuldung: Zwischenabschluss auch kurz nach Bilanzstichtag'
+  wert: keine Erleichterung innert sechs Monaten ab Bilanzstichtag
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 402 (ebenso Q&A Frage 10): Zwischenabschluss in jedem Fall einverlangen; er startet die 90-Tage-Frist und dient der Bemessung des Rangrücktritts.'
+  quelle: hwp-er-2026__rz-0402-s120-t2
+  zitat: Art. 725 b OR sieht eine solche Erleichterung nicht vor.
+  status: agent-geprueft
+- key: hwp_er_rangruecktritt_polster
+  bezeichnung: 'Rangrücktritt: Sicherheitspolster für erwartete Verluste'
+  wert: '12'
+  einheit: Monate
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 421: Rangrücktritt nicht nur in Höhe des aktuellen Fremdkapitalüberhangs, sondern inkl. der in den nächsten 12 Monaten nach Unterzeichnung, mindestens bis zum
+    nächsten Prüfungszeitpunkt erwarteten Verluste.'
+  quelle: hwp-er-2026__rz-0421-s125
+  zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten
+  status: agent-geprueft
+- key: or729c_anzeigepflicht
+  bezeichnung: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung
+  wert: offensichtliche Überschuldung und Untätigkeit des VR
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 729c OR. Der Agent bereitet nur vor; Beurteilung und Anzeige entscheidet ausschliesslich der WP.
+  quelle: or__art-729c
+  zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+  status: agent-geprueft
+- key: or725c_aufwertung
+  bezeichnung: Aufwertung zur Behebung von Kapitalverlust/Überschuldung
+  wert: höchstens bis zum wirklichen Wert (Grundstücke, Beteiligungen)
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2).'
+  quelle: or__art-725c
+  zitat: deren wirklicher Wert über die Anschaffungs- oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden
+  status: agent-geprueft
+- key: or659_eigene_aktien_10
+  bezeichnung: 'Eigene Aktien: Höchstgrenze'
+  wert: '10'
+  einheit: '%'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 659 Abs. 2 OR; Erwerb nur mit frei verwendbarem Eigenkapital in Höhe des Anschaffungswerts (Abs. 1). Überschreiten kann einen Hinweis im Bericht auslösen (SER 8.3.2,
+    ser-2022__8-3-2-t2).
+  quelle: or__art-659
+  zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
+  status: agent-geprueft
+- key: or659_eigene_aktien_20_vinkulierung
+  bezeichnung: 'Eigene Aktien bei Vinkulierung/Auflösungsklage: Höchstgrenze und Veräusserungsfrist'
+  wert: 20 % / 2 Jahre
+  einheit: '% / Jahre'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 659 Abs. 3 OR: über 10 % hinaus erworbene Aktien innert zweier Jahre veräussern oder durch Kapitalherabsetzung vernichten.'
+  quelle: or__art-659
+  zitat: so beträgt die Höchstgrenze 20 Prozent. Die über 10 Prozent hinaus erworbenen Aktien sind innert zweier Jahre zu veräussern
+  status: agent-geprueft
+- key: or653s_kapitalband_bandbreite
+  bezeichnung: 'Kapitalband: Bandbreite'
+  wert: '0.5'
+  einheit: Anteil
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 653s Abs. 2 OR: untere Grenze höchstens um die Hälfte unterschreiten. Ermächtigung zur Herabsetzung nur ohne Opting-out (Abs. 4). Anhangangabe Art. 959c Abs. 2 Ziff.
+    15 OR.'
+  quelle: or__art-653s
+  zitat: Die obere Grenze des Kapitalbands darf das im Handelsregister eingetragene Aktienkapital höchstens um die Hälfte übersteigen.
+  status: agent-geprueft
+- key: or653s_kapitalband_dauer
+  bezeichnung: 'Kapitalband: maximale Dauer'
+  wert: '5'
+  einheit: Jahre
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: kapitalschutz
+  bemerkung: Art. 653s Abs. 1 OR.
+  quelle: or__art-653s
+  zitat: während einer Dauer von längstens fünf Jahren das Aktienkapital innerhalb einer Bandbreite (Kapitalband) zu verändern
+  status: agent-geprueft
