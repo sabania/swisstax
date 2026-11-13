@@ -38,7 +38,7 @@ from run_openclaw import load_questions   # gleiche Fallformate: E2E (vorspann +
 R = Path(__file__).resolve().parents[1]
 WERKZEUG_REPO = R / "tools" / "revision.py"
 LAUF = time.strftime("%Y%m%d%H%M%S")   # eindeutig je Aufruf: neue Fälle nie in alte Sitzungen schreiben
-BUSY_VERSUCHE = 5
+BUSY_WARTEN_S = 15   # Abstand der Versuche, wenn ein anderer Lauf im selben Profil den State hält («busy»)
 FEHLER_STOP = {"timeout", "aborted", "abort", "cancelled", "canceled", "error"}   # completion.stopReason eines nicht beendeten Turns
 KONTEXT_MAX = 150_000   # Tokens: ab hier beginnt der nächste Turn eine neue Sitzung mit Übergabe (Haiku 4.5: Fenster 200k)
 UEBERGABE_JE_TURN = 6000      # Zeichen je früherem Turn in der Übergabe (Status-, Notiz- und Überschriftszeilen zuerst)
@@ -170,12 +170,14 @@ def turn_fehler(d: dict, rc: int | None) -> str | None:
 
 
 def agent_turn(a, sid: str, msg: str) -> dict:
-    """Ein Turn in der Session sid; Wiederholung bei «busy» (--local sperrt den State) wie run_openclaw.py. Ein Turn, den OpenClaw selbst
+    """Ein Turn in der Session sid; Bei «busy» (--local sperrt den State des Profils für den ganzen Turn) wird gewartet, höchstens --busy-max Sekunden. Ein Turn, den OpenClaw selbst
     abbricht (Timeout, Abbruch, Fehler-Payload, rc ≠ 0), bekommt «error» – der Fall endet dort, die Wiederaufnahme wiederholt genau diesen Turn."""
     cmd = oc(a) + ["agent", "--local", "--agent", a.agent, "--session-id", sid, "--json", "--timeout", str(a.timeout), "--message", msg]
     t0 = time.time()
     d: dict = {}
-    for versuch in range(BUSY_VERSUCHE):
+    # --local hält den State des Profils während des ganzen Turns: ein zweiter Lauf im selben Profil wartet, bis er frei ist
+    # (höchstens --busy-max Sekunden), statt nach wenigen Versuchen mit Fehler abzubrechen.
+    while True:
         try:
             rc, out, err = prozess_lauf(cmd, a.timeout + 120)
         except FileNotFoundError:
@@ -190,8 +192,8 @@ def agent_turn(a, sid: str, msg: str) -> dict:
                 d = {"error": f"unerwartete Ausgabe: {str(d)[:500]}"}
         except (json.JSONDecodeError, ValueError):
             d = {"error": (err or out)[-2000:] or f"keine Ausgabe (rc={rc})"}
-        if "busy" in json.dumps(d.get("error", "")):
-            time.sleep(10 * (versuch + 1))
+        if "busy" in json.dumps(d.get("error", "")) and time.time() - t0 < a.busy_max:
+            time.sleep(BUSY_WARTEN_S)
             continue
         if "error" not in d:
             f = turn_fehler(d, rc)
@@ -523,6 +525,8 @@ def main():
     ap.add_argument("--ids", help="nur diese Fälle (Komma-Liste)")
     ap.add_argument("-j", type=int, default=1, help="parallele Fälle (Turns eines Falls immer nacheinander; --local sperrt den State)")
     ap.add_argument("--timeout", type=int, default=900, help="Sekunden je Turn (Standard 900)")
+    ap.add_argument("--busy-max", type=int, default=3600,
+                    help="Sekunden: so lange wartet ein Turn, wenn ein anderer Lauf im selben Profil den State hält (Standard 3600)")
     ap.add_argument("--max-turns", type=int, help="höchstens so viele Turns je Fall (Probelauf); später mit grösserem Wert fortsetzbar")
     ap.add_argument("--openclaw", default="openclaw")
     ap.add_argument("--profile", help="OpenClaw-Profil (eigener State je Modell, z.B. revh45b)")
