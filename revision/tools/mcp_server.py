@@ -69,13 +69,17 @@ TOOLS = [
                          "nichtaufgriff": {**N, "description": "gewählte Nichtaufgriffsgrenze in % (Standard 5)"}, "bezeichnung": S}, [])},
     {"name": "kapitalverlust", "fn": lambda a: rv.kapitalverlust(a["aktienkapital"], a.get("eigenkapital"), a.get("aktiven"), a.get("verbindlichkeiten"),
                                                                  a.get("kapitalreserve", 0), a.get("gewinnreserve", 0), a.get("holding", False),
-                                                                 a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert")),
+                                                                 a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert"),
+                                                                 a.get("freiwillige_reserven"), a.get("vortrag"), a.get("jahresergebnis"), a.get("eigene_aktien")),
      "description": "Rechenhilfe Kapitalschutz OR 725a/725b/725c: geschütztes Kapital (gesetzliche Reserven höchstens 50 % bzw. Holding 20 % des "
                     "Aktienkapitals), Kapitalverlust (Hälfte-Test), Überschuldung, Rangrücktritt, zulässige Aufwertung (mit buchwert + verkehrswert). "
-                    "Eigenkapital direkt ODER aktiven + verbindlichkeiten. Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. Beurteilung: WP.",
+                    "Eigenkapital direkt ODER aus Bestandteilen (freiwillige_reserven, vortrag, jahresergebnis – Verluste negativ –, eigene_aktien) "
+                    "ODER aktiven + verbindlichkeiten. Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. Beurteilung: WP.",
      "inputSchema": obj({"aktienkapital": {**N, "description": "Aktien- und PS-Kapital in CHF"}, "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
                          "aktiven": N, "verbindlichkeiten": {**N, "description": "Fremdkapital inkl. Rückstellungen"},
                          "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (z.B. Agio)"}, "gewinnreserve": {**N, "description": "gesetzliche Gewinnreserve"},
+                         "freiwillige_reserven": N, "vortrag": {**N, "description": "Gewinn-/Verlustvortrag (Verlust negativ)"},
+                         "jahresergebnis": {**N, "description": "Jahresgewinn/-verlust (Verlust negativ)"}, "eigene_aktien": {**N, "description": "Betrag eigene Aktien (wird abgezogen)"},
                          "holding": {"type": "boolean"}, "rangruecktritt": N, "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
                          "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"}}, ["aktienkapital"])},
     {"name": "revisionspflicht", "fn": lambda a: rv.revisionspflicht(a["bilanzsumme"], a["umsatz"], a["vollzeitstellen"], a.get("vj_bilanzsumme"), a.get("vj_umsatz"), a.get("vj_vollzeitstellen")),

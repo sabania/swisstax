@@ -1,0 +1,674 @@
+{
+ "lauf": "B1-h45-fragen",
+ "total": 40,
+ "richtig": 6,
+ "teilweise": 30,
+ "falsch": 4,
+ "bewertungen": [
+  {
+   "id": "f01",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Die Schwellen CHF 20 Mio. Bilanzsumme und CHF 40 Mio. Umsatz werden nicht ausdrücklich beziffert, nur über Häkchen angezeigt; die 250 VZS werden genannt. Das ist eine Darstellungslücke, keine Falschaussage.",
+    "Nicht erwähnt (keine Kernpunkte): HWP ER Rz 310 (zweites Jahr ordentlich prüfen), SER 1.4.1 (Prüfung bei Mandatsannahme), Art. 727 Abs. 2 OR (10 %-Begehren).",
+    "Sprachfehler «Das Umsatzrückgang»."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "",
+   "begruendung": "Beide Prüfer urteilen gleich, Endurteil übernommen. Die Regel «zwei von drei in zwei aufeinander folgenden GJ» ist richtig angewendet: 2024 Bilanzsumme und Umsatz, 2025 Bilanzsumme und VZS. Dass eine wechselnde Kombination genügt, belegt hwp-er-2026__rz-0309-s098. Ergebnis: ordentliche Revision der Jahresrechnung 2025. Die typischen Fehler (Aufschub auf 2026, gleiche Grössen nötig, Umsatzrückgang) sind vermieden. or__art-727 und Rz 309 existieren und tragen die Aussagen. Ein einziger Aufruf revisionspflicht."
+  },
+  {
+   "id": "f02",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Falsch angewendet: Der Anmeldung vor dem 1.1.2027 sei die Jahresrechnung «2026» beizulegen. Das GJ 2026 ist dann noch nicht abgelaufen; beizulegen ist die JR 2025 (Art. 727a Abs. 2bis OR).",
+    "Falsch und ohne Fundstelle: Droht ein Kapitalverlust nach OR 725a, «muss die Revisionsbefreiung aufgehoben werden». Richtig: Liegt ein Kapitalverlust vor, prüft ein zugelassener Revisor die letzte JR eingeschränkt (Art. 725a Abs. 2 OR, HWP ER Rz 38). Das Opting-out bleibt bestehen.",
+    "Falsch bzw. unpräzise: «Mit 8 Vollzeitstellen liegt sie unter der Grenze für die Revisionspflicht». Ohne Opting-out besteht die eingeschränkte Revisionspflicht unabhängig von der VZS-Zahl (Art. 727a Abs. 1 OR); gemeint ist die 10-VZS-Grenze für das Opting-out.",
+    "Unbelegt: Das Opting-in-Recht sei «nicht abbedingbar … ständiges Schutzrecht».",
+    "Widersprüchlich formuliert: «kein Konsens erforderlich, aber 100 %».",
+    "Fundstelle ungenau: Die Frist «vor Beginn des GJ» wird Abs. 2bis zugeordnet, steht aber in Abs. 2. Abs. 5 ist als «kann» statt als Pflicht wiedergegeben.",
+    "Nebenpunkte fehlen: HWP ER Rz 313 (VZS im betreffenden GJ, kein Zweijahresdurchschnitt)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "umwegig",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt: das Jahr der Beilage falsch abgeleitet und die Kapitalverlust-Folge ohne Quelle falsch ergänzt. Das Wiki enthält die richtige Regel (HWP ER Rz 38).",
+   "begruendung": "Im Urteil teilweise (3/3) sind sich beide Prüfer einig. Abweichend war nur die Fundstellen-Bewertung, entschieden: teilweise. or__art-727 und or__art-727a existieren und tragen die Kernaussagen (geprüft). Der Abs.-Bezug für die Anmeldefrist ist aber falsch (Abs. 2 statt 2bis), und mehrere Aussagen sind ohne Beleg oder falsch: Kapitalverlust, Nicht-Abbedingbarkeit, «Grenze für die Revisionspflicht». Inhaltlich sind alle drei Kernpunkte getroffen: max. 10 VZS, Zustimmung aller mit 20 Tagen und Schweigen als Zustimmung, nur künftige GJ, Anmeldung vor Beginn mit letzter JR, Opting-in 10 Tage vor der GV, GV wählt die RS. Die falsche Beilage «2026» trifft gerade die gefragten Formalitäten, die Kapitalverlust-Aussage widerspricht dem HWP. Deshalb nicht richtig. 6 Aufrufe für eine Gesetzesfrage sind umwegig."
+  },
+  {
+   "id": "f03",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Kernpunkt 3 unvollständig: Die kumulative Bedingung «Risiken dem Prüfungskunden kommuniziert» (SER Anhang B (c)) fehlt, obwohl sie im zitierten Chunk ser-2022__anh-b-s050-2 steht. Die «interne Kommunikation» zu Kapitalverlust ist etwas anderes.",
+    "Die Überschrift «Warnung: Höheres Haftungsrisiko» ist mit hwp-er-2026__rz-0040-s158 belegt. Rz 40 spricht nur vom zunehmenden Risiko einer Verletzung der Unabhängigkeitsvorschriften, nicht von Haftung; den Haftungsbezug trägt erst Rz 388.",
+    "Art. 729b Abs. 1 Ziff. 3 OR nicht ausdrücklich genannt; die Offenlegung ist über Rz 47 und SER 8.4 belegt.",
+    "Nebenpunkt fehlt: separate Auftragsbestätigung für die Buchführung (SER 1.7).",
+    "Sprachfehler «discipline»."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe unvollständig genutzt: Bedingung (c) stand im selbst zitierten Chunk, Rz 40 wurde überdehnt.",
+   "begruendung": "Im Urteil (teilweise, 3/4) sind sich beide Prüfer einig. Abweichend war nur die Fundstellen-Bewertung, entschieden: teilweise. Geprüft: Rz 40 spricht nur vom Risiko einer Verletzung der Unabhängigkeitsvorschriften und trägt die ihr zugeordnete Haftungs-Überschrift nicht. Ein zitierter Chunk trägt also seine Aussage nicht. Übrige Kernpunkte: zulässig nach Art. 729 Abs. 2 OR, personelle Trennung und Weisungsunabhängigkeit (Rz 44), Offenlegung im Bericht mit SER-8.4-Mustertext (Rz 47), Verantwortung beim Kunden und keine Management-/Organfunktion. Es fehlt die Risikokommunikation an den Kunden. Der Hinweis auf die Wissenszurechnung (Rz 388) ist ein korrekt belegter Zusatz. 3 Aufrufe."
+  },
+  {
+   "id": "f04",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Kernpunkt 3 fehlt: Detailprüfungen namentlich zu Bestand und Bewertung, keine repräsentativen Stichproben (SER 6.1.3).",
+    "Kernpunkt 4 fehlt: Wesentliche Posten nicht ausschliesslich mit Befragungen prüfen, sondern mit Analytik oder Detailprüfungen ergänzen (SER 6.1.1).",
+    "«Befragungen der Geschäftsleitung» ist verengt; SER 6.1.1 nennt Mitarbeitende und Unternehmensleitung.",
+    "Die Auswahl der Detailprüfungen «nach Risiken und Wesentlichkeit» ist ohne Fundstelle; die Stichprobenfrage bleibt offen.",
+    "Nebenpunkte fehlen: keine Prüfung auf deliktische Handlungen (SER 1.5), Geschäftsführung des VR nicht Prüfungsgegenstand (Art. 729a Abs. 3 OR)."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Navigation zu früh abgebrochen: SER 6.1.1/6.1.3 bzw. das Thema eingeschraenkte-revision-grundlagen wurden nicht abgerufen, das Wissen ist im Wiki vorhanden.",
+   "begruendung": "Beide Prüfer urteilen gleich, Endurteil übernommen. Die direkte Frage ist richtig beantwortet: keine Saldobestätigungen, keine Inventurbeobachtung, keine IKS-/IT-Prüfung. ser-2022__anh-c-s056-3 enthält diese Aufzählung. Die vorgesehenen Handlungen (Befragungen, Analytik, angemessene Detailprüfungen, or__art-729a Abs. 2) sind genannt, damit sind Kernpunkte 1 und 2 erfüllt. Die Ausgestaltung fehlt ganz: Bestand/Bewertung, keine repräsentativen Stichproben, bei wesentlichen Posten nicht nur Befragung. Keine falschen Aussagen, Fundstellen tragen. 2 Aufrufe, zielgerichtet, aber zu knapp."
+  },
+  {
+   "id": "f05",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Kernpunkt 1 unvollständig: Die negative Zusicherung umfasst auch den Antrag über die Verwendung des Bilanzgewinns. Das fehlt, obwohl die thema-Ausgabe und ser-2022__8-3-1-t1 es enthalten.",
+    "Überdehnt und ohne Quelle: «Nur der leitende Revisor unterzeichnet» (OR 729b Abs. 2). Das Gesetz verlangt seine Unterschrift, schliesst weitere aber nicht aus. Vermutlich ist die Werkzeugzeile «nur WP» (Agentengrenze) fehlgedeutet.",
+    "Fundstelle trägt die Aussage nicht: «keine Rückdatierung / Datum der Berichtsabgabe» ist mit ser-2022__8-6 belegt; der Chunk enthält das nicht (geprüft), es steht in HWP ER Rz 322/450.",
+    "Falsche Chunk-Id: Zusätze (Fortführung, Kapitalverlust, Überschuldung) sind mit ser-2022__8-3-2-t2 belegt. t2 enthält Beispiele für Hinweise auf Gesetzesverstösse (geprüft), die Zusätze stehen in 8-3-2-t3.",
+    "Nebenpunkt fehlt: keine Empfehlung zur Genehmigung der Jahresrechnung (SER 1.2)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe ungenau übernommen: Gewinnverwendung weggelassen, «nur WP» umgedeutet, Belegstellen dem falschen Chunk zugeordnet.",
+   "begruendung": "Beide Prüfer urteilen gleich, Endurteil übernommen. Getroffen sind: Hinweis auf die eingeschränkte Natur (8-2), negative Zusicherung (8-3-1-t1), Unabhängigkeit und Mitwirkung (8-1), leitender Revisor mit Name, Zulassungsart und Unterschrift (8-5), Datum = Beendigung, frühestens Unterzeichnung oder Gutheissung durch die Unternehmensleitung, keine Rückdatierung. Kernpunkt 1 ist ohne Gewinnverwendungsantrag unvollständig. Die Chunk-Prüfung bestätigt: 8-6 enthält nur Beendigung und frühestes Datum, keine Rückdatierungsregel, und 8-3-2-t2 behandelt Gesetzesverstösse, nicht Zusätze. Ein thema-Aufruf, zielgerichtet."
+  },
+  {
+   "id": "f06",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Den Berichtswortlaut der verneinenden Prüfungsaussage hat der Agent erfunden: «In der oben beschriebenen Angelegenheit können wir die Jahresrechnung ... nicht bestätigen.» Er ist als Zitat mit ^[ser-2022__8-3-1-t3] belegt, pruefe-zitat meldet NICHT GEFUNDEN. Nach SER Anhang F Beispiel 3 heisst es «… entspricht die Jahresrechnung nicht dem schweizerischen Gesetz und den Statuten».",
+    "KP3 ist nur teilweise erfüllt. Der angenommene Sachverhalt mit grundlegender möglicher Auswirkung ist genannt. Die Beschränkung des Prüfungsumfangs fehlt als eigener Fall mit derselben Bedingung (SER 8.3.1 (c)(ii), ser-2022__8-3-1-t4); sie wird nur vage erwähnt («betrifft eher Umfangsbeschränkungen»).",
+    "Fachlich unscharf: Der angenommene Sachverhalt sei «nicht Meinungsverschiedenheiten». Dabei vermischt die Antwort den angenommenen Sachverhalt mit der Umfangsbeschränkung.",
+    "Die Einschränkung heisst «Zusatz zu besagtem Sachverhalt». «Zusatz» ist im SER aber ein eigener Begriff ohne Modifikation, und der Musterwortlaut «mit Ausnahme der … dargelegten Einschränkung» fehlt.",
+    "«Das entscheidet der WP» ist mit ser-2022__8-3-1-t2 belegt, obwohl der Chunk das nicht trägt. Im Ergebnis stehen interne Meta-Bemerkungen («Das war die falsche Aufgabe …»)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt: Das Thema trennt alle drei Fälle sauber, auch die Umfangsbeschränkung (ser-2022__8-3-1-t4). Den Berichtswortlaut hat der Agent ergänzt, statt Anhang F (ser-2022__anh-f-s120-2) zu öffnen. Das ist eine Halluzination.",
+   "begruendung": "Beide Prüfer urteilen teilweise. Sie weichen nur bei der Zahl der Kernpunkte ab (2 bzw. 3 von 3). Entscheid: 2 von 3. KP1 ist erfüllt: Meinungsverschiedenheit, Sachverhalt mit Betrag und Auswirkung darlegen, eingeschränkte Prüfungsaussage. KP2 ist erfüllt: verneinende Prüfungsaussage bei grundlegender Veränderung. KP3 trifft laut SER-Chunks nur den angenommenen Sachverhalt sauber. Die Umfangsbeschränkung als zweiter Fall der Unmöglichkeit fehlt mit ihrer Bedingung, also gilt KP3 bei strenger Bewertung als nicht erfüllt. Schwer wiegt der erfundene, als Zitat formatierte Berichtswortlaut mit falscher Chunk-Zuordnung, der nicht SER-konform ist. Der Kern stimmt, deshalb teilweise. Navigation: 3 Aufrufe (aufgabe traf daneben, dann thema und suche), im Ergebnis vertretbar."
+  },
+  {
+   "id": "f07",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "KP1 fehlt: Die Revisionsstelle erinnert den VR nicht an seine Pflichten (Zwischenabschlüsse, ser-2022__9-t3) und mahnt ihn nicht unter Fristansetzung mit Hinweis auf die subsidiäre Anzeigepflicht (HWP ER Rz 433). Die Revisionsstelle geht direkt ans Gericht, nahe am typischen Fehler «sofort, ohne Mahnung».",
+    "KP3 fehlt: Die Mandatsniederlegung befreit nicht von der Anzeigepflicht (HWP ER Rz 445).",
+    "KP4 ist schief abgegrenzt. Genannt werden MWST-Behörden, Sozialversicherungen und Kantonsbehörden. Massgebend wäre: keine Anzeigepflicht bei Verstössen gegen Gesetz, Statuten oder Organisationsreglement, anders als nach Art. 728c OR (HWP ER Rz 351/422).",
+    "Der Hinweis im Bericht (SER 8.3.2.1) wird als «Anzeigepflicht» gezählt. Das vermischt Hinweis und Anzeige.",
+    "Unbelegte Zusätze: «Gericht am Sitz der Gesellschaft» und ein Dokumentationsablauf ohne Fundstelle."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe unvollständig genutzt: Die thema-Ausgabe enthielt ser-2022__9-t3 (VR erinnern). Mahnung mit Frist (Rz 433/439), Mandatsniederlegung (Rz 445) und «keine weiteren Anzeigepflichten» (Rz 422) standen im Wiki, wurden aber nicht übernommen.",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 2 von 4); das Urteil wird übernommen. KP2 ist erfüllt: Gerichtsanzeige nach Art. 729c OR, wörtlich und geprüft zitiert. KP4 ist sinngemäss erfüllt (keine weiteren Anzeigepflichten), aber falsch abgegrenzt. Der zusätzliche Hinweis nach SER 8.3.2.1 ist korrekt belegt (ser-2022__8-3-2-t1). Es fehlen das gestufte Vorgehen (erinnern, mahnen mit Frist) und die Unbeachtlichkeit der Mandatsniederlegung, also der Kern von «Was muss die Revisionsstelle tun». Die Antwort liegt damit an der unteren Grenze von teilweise. Die zitierten Chunks existieren und tragen ihre Aussagen. 4 Aufrufe, zielgerichtet."
+  },
+  {
+   "id": "f08",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "KP3 fehlt: Die Prozentsätze sind Richtwerte zur Unterstützung des professionellen Ermessens (Rz 43), und bei drohender Illiquidität oder Überschuldung kann eine tiefere Wesentlichkeit angezeigt sein (SER 5.2). Beides wird nicht gesagt, obwohl das Werkzeug «wert» es lieferte und ser-2022__5-2-t1 sogar zitiert wird.",
+    "Erfundene Begründung mit Scheinbeleg: «Die tiefere Spanne (3–5 % statt 3–10 %) reflektiert das höhere Risiko in der Verlustsituation». Der Satz ist mit hwp-er-2026__rz-0042-s185-t1 und ser-2022__5-2-t1 belegt, die das nicht enthalten. Methodisch ist der Vergleich falsch, weil sich die Spannen auf verschiedene Bezugsgrössen beziehen (Eigenkapital vs. Gewinn).",
+    "«Eigenkapital als stabilere Bezugsgrösse» ist nicht belegt.",
+    "Im Ergebnis steht eine interne Meta-Bemerkung («Das war zu breit»)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt: Die Zeile «tiefer bei drohender Illiquidität/Überschuldung» (ser-2022__5-2-t1) und der Richtwertcharakter (Rz 43) lagen vor. Stattdessen hat der Agent eine eigene Risikobegründung erfunden.",
+   "begruendung": "Beide Prüfer urteilen teilweise mit 2 von 3. Bei den Fundstellen weichen sie ab (korrekt bzw. teilweise). Entscheid: teilweise. Die erfundene Risikobegründung steht im Absatz, der mit beiden Chunk-Ids belegt ist; das ist ein Scheinbeleg. Die Zahlen von KP1 und KP2 stimmen und sind durch hwp-er-2026__rz-0042-s185-t1 gedeckt: Eigenkapital 3–5 %, also CHF 36'000–60'000; profitabel 3–10 % des bereinigten Gewinns vor Steuern. KP3 fehlt, und dazu kommt eine falsche Nebenaussage. 4 Aufrufe (aufgabe zu breit, dann wert und zeige), zielgerichtet."
+  },
+  {
+   "id": "f09",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Das Aggregationsrisiko ist mit Rz 50 belegt. Tragend wären Rz 49 bzw. ser-2022__5-2-t2. Die Aussage selbst ist richtig.",
+    "«Posten über diesem Betrag werden detailliert geprüft» und die Festlegung auf 75 % stehen als feste Regel ohne Fundstelle in der Antwort.",
+    "Leichte Zuspitzung: «Fehlaussagen darunter werden nicht erfasst». Laut Rz 51 müssen sie nicht erfasst werden. Unbelegt ist auch «bereits in revio 3.3 hinterlegt»."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "",
+   "begruendung": "Beide Prüfer stimmen überein (richtig, 3 von 3); das Urteil wird übernommen. Toleranzwesentlichkeit 50–75 %, also CHF 40'000–60'000 (Rz 50). Nichtaufgriffsgrenze bis 5 %, also höchstens CHF 4'000 (Rz 51). Das Aggregationsrisiko ist genannt. Fehlaussagen über der Nichtaufgriffsgrenze werden kumuliert und laufend beurteilt (Rz 53). Keiner der typischen Fehler kommt vor. Die Nebenmängel haben kein fachliches Gewicht. Ein einziger Aufruf (wesentlichkeit), optimal."
+  },
+  {
+   "id": "f10",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Ein Teil von KP2 fehlt: Die Vollständigkeitserklärung ist für jede Abschlussprüfung einzufordern (HWP ER Rz 340). Die thema-Ausgabe enthielt den Punkt («Sie ist für jede Prüfung einzufordern»).",
+    "Fehlzuordnung: «darf nicht vor der Unterzeichnung bzw. Genehmigung der Jahresrechnung liegen» ist mit ser-2022__anh-e-s102-1 belegt, pruefe-zitat meldet NICHT GEFUNDEN. Inhaltlich stützt es HWP ER Rz 448 (Unterzeichnung bzw. formelle Gutheissung durch den VR).",
+    "«Die Weigerung ist eine Verletzung der Auskunftspflicht nach Art. 730b Abs. 1 OR» steht als Tatsache für die eingeschränkte Revision da. or__art-730b trägt nur die Auskunftspflicht. Das Wiki (themen/vollstaendigkeitserklaerung.md) kennzeichnet diese Einstufung als Auffassung des HWP OR zur ordentlichen Revision und hält fest: «Ob das bei der SER gilt, entscheidet der WP.»",
+    "Nicht erwähnt (Nebenpunkte): dieselben Personen wie bei der Jahresrechnung (Art. 958 Abs. 3 OR), Ablage in den Jahresakten (SER 7.2)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe unvollständig bzw. falsch genutzt: Die thema-Ausgabe enthielt «für jede Prüfung einzufordern» und den Vorbehalt zu Art. 730b (HWP OR, der WP entscheidet). Den ersten Punkt hat der Agent ausgelassen, den zweiten zur feststehenden Aussage umgedeutet.",
+   "begruendung": "Die Prüfer weichen ab (richtig bzw. teilweise). Entscheid: teilweise. Nach den Bewertungsregeln ist eine Antwort nur richtig, wenn alle Kernpunkte vollständig getroffen sind. KP2 nennt ausdrücklich «für jede Prüfung einzufordern», und dieser Teil fehlt, obwohl ihn das Werkzeug lieferte. Zudem ist die Datumsregel einem Chunk zugeschrieben, der sie nicht enthält. Die Art.-730b-Folgerung widerspricht dem ausdrücklichen Vorbehalt im Wiki, dass der WP entscheidet; der Agent setzt sich damit über eine im Wiki markierte WP-Entscheidung hinweg. KP1 ist erfüllt: VR-Präsident bzw. Vorsitz und die für die Rechnungslegung zuständige Person (ser-2022__anh-e-s102-2). KP3 ist erfüllt: Beschränkung des Prüfungsumfangs, eingeschränkte oder gar keine Prüfungsaussage (ser-2022__anh-e-s102-2, hwp-er-2026__rz-0341-s260). Keiner der typischen Fehler kommt vor, der Kern stimmt. 2 Aufrufe (aufgabe, thema), effizient."
+  },
+  {
+   "id": "f11",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "KP2 fehlt ganz: Es fehlen die Befragung der Unternehmensleitung (beschränkt auf bedeutende schwebende Geschäfte mit Verlustrisiko, möglichst nahe am Berichtsdatum, HWP ER Rz 318/321) und die Vollständigkeitserklärung (Rz 323), obwohl die einzige thema-Ausgabe beides enthielt",
+    "Fälle nach dem Berichtsdatum vermischt: Die Neudatierung («5. April, keine Rückdatierung») hängt die Antwort an die Modifikation, wenn die UL den Abschluss nicht ändert. Nach Rz 325 gilt sie für den neuen Bericht zum geänderten Abschluss, der nicht vor dessen Genehmigung datiert sein darf. Der Fall «UL ändert → neuer Bericht» fehlt",
+    "Schwelle für die Modifikation falsch: «Herausgabe (= Zustellung an Dritte)» statt Zustellung an das Unternehmen (Rz 326)",
+    "^[hwp-er-2026__rz-0327-s257] verfälscht: Der Chunk verlangt die Mitteilung an UL/Aufsicht, dass der Abschluss nicht an Dritte gehen darf, und Massnahmen gegen das Abstützen Dritter. «WP entscheidet / Notiz Schlussbesprechung» steht dort nicht",
+    "«Nicht zusätzlich unter Art. 959c Ziff. 13 OR offenlegen» ist mit ^[hwp-bur-2023__rz-0864-s354] belegt, der Chunk trägt diese Aussage nicht",
+    "Rollenvermischung: Der Nutzer (Revisionsstelle) wird als Agent angesprochen, und der Prüfer soll den Anhang-Entwurf vorbereiten, obwohl das Sache der Unternehmensleitung ist"
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe falsch bzw. unvollständig genutzt: Der eine thema-Aufruf lieferte Rz 318/321/323 und Rz 324–327 korrekt. Die Antwort liess die Prüfungshandlungen weg und vermischte die Fälle nach dem Berichtsdatum",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 2/3), das Urteil wird übernommen. Nachgeprüft: Rz 864 trägt Konkurs = Wertberichtigung und Elementarschaden = nur offenlegungspflichtig, KP1 ist also erfüllt. KP3 ist im Kern getroffen (keine Prüfpflicht nach dem Berichtsdatum, erörtern, Modifikation, keine Rückdatierung), aber ungenau. KP2 fehlt vollständig. Der Chunk Rz 327 sagt nachweislich etwas anderes als behauptet. Ein einziger Aufruf war effizient."
+  },
+  {
+   "id": "f12",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Kernantwort «Ein Hinweis – zwingend» statt «Zusatz und Hinweis»: Der Zusatz erscheint nur als Alternativfall («Nur Zusatz» bei fehlender Gelegenheit). Er wird nicht als zweites Pflichtelement erkannt, obwohl der erste Absatz des zitierten Musters genau dieser Zusatz ist",
+    "Es fehlt, dass der Zustand des hälftigen Kapitalverlusts selbst kein Gesetzesverstoss ist (SER 8.3.2.2, Camponovo S. 117)",
+    "Reihenfolge Prüfungsaussage → Zusatz → Hinweis und «beide ohne Einfluss auf die Prüfungsaussage» nicht ausdrücklich genannt, nur implizit über die Absatzfolge des Musters",
+    "^[hwp-er-2026__rz-0424-s280] verkürzt: Der Chunk verlangt zusätzlich kumulativ, dass die Aktionäre nicht informiert sind und eine Information den Sanierungswillen beeinflussen würde. Das Spannungsverhältnis zu SER «in jedem Fall» wird nicht offengelegt"
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe falsch genutzt: Zusatz und Hinweis wurden als Entweder-oder statt als Zusatz plus Hinweis gelesen. Die Referenz ist im Beleg teilweise fraglich: KP2 nennt HWP ER Rz 447 als Fundstelle, hwp-er-2026__rz-0447-s287 betrifft aber die GmbH-Berichterstattung zum Gewinnverwendungsantrag. Inhaltlich ist KP2 durch ser-2022__8-3-2-t3, camponovo-2026-hinweispflichten__s117-1 und muster-hwp-er-2026__c050-2 gedeckt, das Urteil ändert sich dadurch nicht",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 2/4), das Urteil wird übernommen. KP1 (keine Einschränkung) und KP3 (Hinweis in jedem Fall, SER 8.3.2.1, ser-2022__8-3-2-t1) sind erfüllt. Der Musterwortlaut ist korrekt zitiert. Die eigentliche Frage «Zusatz, Hinweis oder Einschränkung?» beantwortet die Antwort aber nur mit «Hinweis». KP2 fehlt deshalb konzeptionell, KP4 ist nur implizit. Alle Chunk-Ids existieren, die Angaben sind nicht erfunden. 5 Aufrufe, beginnend mit aufgabe/thema, sind angemessen."
+  },
+  {
+   "id": "f13",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "KP3 fehlt: Der Mindestinhalt der Jahresakten nach SER 7.2 wird nicht genannt (Unabhängigkeit, Verständnis, Wesentlichkeit, Analytik der Planung, inhärentes Risiko/Prüfungsplan, Programm, Fehlaussagen, Nachweise, unterzeichnete JR und Vollständigkeitserklärung). Stattdessen kommen allgemeine Anforderungen aus Rz 277/283",
+    "Es fehlt, dass die Aufbewahrungspflicht über das Mandatsende hinaus gilt (HWP ER Rz 186), KP2 ist also nur halb erfüllt",
+    "Falsche Rechtsquellenbezeichnung: «Bundesgesetz über Rechnungslegung: Art. 730c OR». Art. 730c gehört zum Revisionsrecht im OR",
+    "SER falsch aufgelöst als «Swiss Auditing Standards», richtig ist der Schweizer Standard zur Eingeschränkten Revision",
+    "Zitierformat nicht eingehalten: nur Rz/Seite-Fussnoten, keine Chunk-Ids"
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "umwegig",
+   "ursache": "Navigation: 7 Aufrufe mit suche, wert und zeige, ohne thema oder aufgabe. SER 7.2 (ser-2022__7-2) und Rz 186 sind im Wiki vorhanden, wurden aber nicht gefunden",
+   "begruendung": "Beim Urteil (teilweise, 1/3) stimmen beide Prüfer überein, es wird übernommen. Abweichung nur bei den Fundstellen (korrekt vs. teilweise), entschieden für teilweise: Nachgeprüft existieren Rz 288, 277 und 283 und tragen die zugeordneten Aussagen (10 Jahre ab Berichtsdatum, Änderungen feststellbar, Lesbarkeit, Art. 730c Abs. 2, Vermerk wer/wann). Es gibt aber keine Chunk-Ids, und die Rechtsgrundlage ist falsch bezeichnet («Bundesgesetz über Rechnungslegung»). Damit ist der Beleg nicht durchgehend korrekt. Inhaltlich ist KP1 erfüllt, KP2 halb, KP3 nicht: Die ausdrücklich gestellte Teilfrage zum Mindestinhalt bleibt unbeantwortet."
+  },
+  {
+   "id": "f14",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Vortrag auf neue Rechnung CHF 21'650 nicht ausgewiesen, nur «38'650 ausschüttbar, Dividende rechnerisch möglich». Die Gewinnverwendungsrechnung ist unvollständig (KP2 nur teilweise)",
+    "«Zusatz (bedingt vertretbar)» bei Liquiditätsentzug ist mit ^[hwp-er-2026__rz-0441-s285] belegt. Der Chunk nennt ausschliesslich den Hinweis (Art. 717 Abs. 1 OR), die Variante «Zusatz» ist dort nicht belegt",
+    "«Textbaustein … mit dem Standard SER oder HWP ER zu dokumentieren» ist inhaltsleer, ^[textbausteine-gewinnverwendung-2022__s001-2] trägt das nicht",
+    "Nicht ausdrücklich gesagt, dass die Stellungnahme zusammen mit der Prüfungsaussage im vierten Abschnitt erfolgt (Rz 440). Ohne Standardwortlaut, zudem «Prüfbericht» statt Bericht der Revisionsstelle",
+    "Kapitalschutz Art. 680 Abs. 2 OR nur indirekt über Rz 170 angesprochen"
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe unvollständig genutzt bzw. ergänzt: Die Rechnung endet ohne Vortrag, und eine nicht belegte Zusatz-Variante wurde hinzugefügt. Das Wissen ist vorhanden (Rz 215, 440, P1-303)",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 3/4), das Urteil wird übernommen. KP1 ist korrekt (CHF 350 = 5 % des Jahresgewinns, Schwelle 50 %/20 %, or__art-672), ebenso die Reservezuweisung vor der Dividende (or__art-675). Die Prüfung von Gesetzes-/Statutenkonformität, Reservezuweisung, Liquidität und ausschüttbarem EK ist gut belegt (KP3). Stellungnahme im Bericht, verneinende Aussage bei fehlender Zuweisung (SER Bsp. 8) und Hinweis nach Art. 717 sind im Kern richtig (KP4). Keine typische Fehlaussage (1'950, 10 % der Dividende). Rz 441 trägt nachgeprüft nur den Hinweis. Der fehlende Vortrag und zwei Zitate, die ihre Aussage nicht tragen, verhindern «richtig». 5 gezielte Aufrufe."
+  },
+  {
+   "id": "f15",
+   "urteil": "falsch",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 5,
+   "fehler": [
+    "Variante Jahresverlust 110'000 falsch gerechnet: EK −30'000 statt 70'000 (100'000 + 120'000 + 10'000 − 20'000 − 30'000 − 110'000 = 70'000). Daraus folgt «Kapitalverlust UND Überschuldung» mit Fehlbetrag 105'000 statt Kapitalverlust mit Unterdeckung 5'000 ohne Überschuldung",
+    "Typischer Fehler der Referenz: Kapitalverlust mit Überschuldung verwechselt. Daraus werden Zwischenabschlüsse (725b), Rangrücktritt mind. 30'000, die 90-Tage-Frist und eine Gerichtsanzeige verlangt",
+    "«Kapitalverlust anzeigen» ist keine Pflicht nach Art. 725a OR. Die Hauptpflicht (Massnahmen zur Beseitigung bzw. Sanierung, ggf. Antrag an die GV) wird nicht so benannt",
+    "«Die Anzeige an das Gericht entscheidet dein WP ^[or__art-729c]»: Bei Opting-out gibt es keine Revisionsstelle, und 729c setzt eine offensichtliche Überschuldung voraus",
+    "Opting-out-Folge unvollständig: Es fehlen eingeschränkte Revision, vom VR ernannter zugelassener Revisor, die Ausnahme Nachlassstundung und die Nichtigkeit der GV-Beschlüsse",
+    "Es fehlt, dass eigene Aktien die Bezugsgrösse nicht verändern (KP4)"
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe falsch genutzt bzw. falsch eingegeben: Er rechnete das EK der Variante im Kopf falsch (−30'000) und übergab es so an kapitalverlust, ohne rechne zu nutzen. Mit EK 70'000 liefert das Werkzeug korrekt Kapitalverlust mit Unterdeckung 5'000",
+   "begruendung": "Beide Prüfer stimmen überein (falsch, 2/5), das Urteil wird übernommen. Nachgerechnet ist das EK der Variante 70'000. Szenario 1 ist korrekt (EK 80'000, geschütztes Kapital 150'000, Schwelle 75'000, kein Kapitalverlust), damit sind KP1 und KP2 erfüllt. Die Variante mit der Frage nach den VR-Pflichten ist der Kern der Frage und gravierend falsch: Statt eines Kapitalverlusts ohne Überschuldung werden eine Überschuldung und 725b-Pflichten samt Gerichtsanzeige behauptet. Das ist genau der in der Referenz genannte typische Fehler. KP3 und KP4 fehlen, KP5 ist nur rudimentär erfüllt. Die zitierten Chunks existieren, werden aber auf einen nicht vorliegenden Sachverhalt angewandt. 3 Aufrufe auf dem richtigen Weg, aber mit falscher Eingabe."
+  },
+  {
+   "id": "f16",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 6,
+   "kernpunkte_total": 6,
+   "fehler": [
+    "Abs. 4 Ziff. 1 OR 725b ungenau wiedergegeben («Zinsen während der Dauer der Überschuldung stunden»). Nach Gesetz stunden die Gläubiger ihre Forderungen, und der Rangrücktritt umfasst Betrag und Zinsen. In Abschnitt 3 steht es richtig.",
+    "Sicherheitspolster verzerrt wiedergegeben: «mindestens für die nächsten 12 Monate». Rz 421 sagt: erwartete Verluste der nächsten 12 Monate, «mindestens aber bis zum nächsten Prüfungszeitpunkt».",
+    "Fundstellen falsch zugeordnet: «schriftlich» steht in Rz 410, zitiert sind Rz 412/414; «von beiden Parteien unterzeichnet» ist so nicht belegt. «Dispensiert nur von der Gerichtsanzeige» steht in Rz 405, zitiert ist Rz 423. «Weder ordentliche noch eingeschränkte Revision» steht in Rz 400, zitiert ist Rz 401.",
+    "Offenlegung in der Jahresrechnung nur mit Berichts-Chunks belegt (SER Anh. F, HWP ER Rz 447). Der Chunk zum gesonderten Ausweis (HWP BuR Rz 494) fehlt.",
+    "90-Tage-Frist ohne die Bedingungen «nach Vorliegen der geprüften Zwischenabschlüsse» und «ohne zusätzliche Gefährdung der Gläubiger».",
+    "Bei gefährdeter Fortführung nur «ideales Ziel 330'000» statt erforderlicher Höhe. Nebenaussage, im Sachverhalt ohne Belang.",
+    "Opting-out als Bedingung formuliert, obwohl der Sachverhalt «ohne Revisionsstelle» vorgibt. Art. 725b Abs. 5 OR (Anzeigepflichten) fehlt (kein Kernpunkt)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe ungenau genutzt (Fehlwiedergaben und falsch zugeordnete Randziffern); das Thema kapitalverlust gibt Rz 410 und Rz 421 korrekt wieder. Keine Kernabweichung.",
+   "begruendung": "Beim Urteil sind sich beide Prüfer einig (richtig, 6/6), es wird übernommen. Alle Kernpunkte sind getroffen. (1) Überschuldet zu 150'000 FW bzw. 330'000 VW. (2) Vom VR ernannter zugelassener Revisor; keine eingeschränkte und keine ordentliche Revision; PS-CH 290. (3) Grundsätzlich Gericht, ausser Rangrücktritt oder Sanierungsaussicht innert 90 Tagen. (4) Mindestens 150'000 inkl. Zinsen, Sicherheitspolster. (5) Der Rangrücktritt beseitigt die Überschuldung nicht; eingeschränkte Revision bleibt Pflicht (Rz 454), Sanierungspflichten bleiben (Rz 437). (6) Offenlegung in der Jahresrechnung. Keines der typischen Fehlerbilder tritt auf. Bei den Fundstellen weichen die Prüfer ab: Ich entscheide «teilweise». Geprüft mit zeige: Alle Chunks existieren und tragen die Hauptaussagen. Mehrere Teilaussagen sind aber falschen Randziffern zugeordnet (Rz 412/414 statt 410, Rz 423 statt 405, Rz 401 statt 400), und Rz 421 ist verzerrt wiedergegeben. Erfundene Zahlen oder Artikel gibt es nicht. 5 Aufrufe (aufgabe, thema, zeige, rechne), zielgerichtet."
+  },
+  {
+   "id": "f17",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 4,
+   "kernpunkte_total": 7,
+   "fehler": [
+    "Auflösung der Aufwertungsreserve fehlt (nur durch Umwandlung in AK/PS, Wertberichtigung oder Veräusserung, Art. 725c Abs. 3 OR), obwohl sie im zitierten or__art-725c steht.",
+    "Steuerfolgen fehlen ganz (Bund Art. 58 Abs. 1 lit. c DBG; Kanton monistisch/dualistisch).",
+    "Bestätigung nur «durch einen zugelassenen Revisor». Das Gesetz nennt primär die Revisionsstelle und nur ersatzweise einen zugelassenen Revisor.",
+    "Anhangangaben nur pauschal (ohne Position, Höhe der Reserve, Datum Prüfungsbericht). Nicht gesagt, dass die Reserve gleichzeitig mit der Aufwertung gebildet wird.",
+    "Sinnloser bzw. erfundener Satz zum «Revisionsrat» (ein solches Organ gibt es nicht)."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Navigation: Der Agent brach nach einem einzigen Aufruf (kapitalverlust) ab. Auflösung und Steuerfolgen stehen im Thema kapitalverlust bzw. in or__art-725c und hwp-bur-2023__rz-0909-s366, das Wissen ist im Wiki also vorhanden.",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 4/7), das Urteil wird übernommen. Der Rechenkern ist richtig: Kapitalverlust 150'000 > 100'000; aktivseitig 350'000; passivseitig (150'000 − 100'000) × 2 = 100'000; zulässig ist der tiefere Wert 100'000. Die Buchung «Grundstück an Aufwertungsreserve» ist erfolgsneutral, der Ausweis gesondert unter der gesetzlichen Gewinnreserve. Die Fehlerbilder 350'000, 50'000 und Buchung über die Erfolgsrechnung werden vermieden. Es fehlen die Kernpunkte Auflösung und Steuerfolgen. Prüfbestätigung und Anhangangaben sind nur verkürzt genannt. Dazu kommt ein sinnloser Satz. Die Fundstellen hwp-bur-2023__rz-0891-s359-t1 und or__art-725c existieren und tragen die Aussagen. Nur 1 Aufruf: zielgerichtet, aber zu früh beendet."
+  },
+  {
+   "id": "f18",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Holding: 20-%-Grenze nur mit der gesetzlichen Gewinnreserve (25'000) verglichen statt mit Gewinn- und Kapitalreserve zusammen (35'000). Das ist das gelistete Fehlerbild; das Ergebnis 0 stimmt nur zufällig.",
+    "«Keine Zuweisung zulässig» bzw. «Obergrenze überschritten» ist überzeichnet. Richtig ist «keine Pflichtzuweisung»: Es handelt sich um eine Mindestzuweisung, und freiwillige Zuweisungen sind möglich (HWP BuR Rz 585).",
+    "Falsche Schlussaussage: Der Verlustvortrag müsse aus der Gewinnreserve oder freiwilligen Reserven verrechnet werden. Er wird mit dem Jahresgewinn beseitigt (80'000 − 20'000); die Aussage ist unbelegt."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt: Den Wortlaut von Art. 672 Abs. 2 («zusammen mit der gesetzlichen Kapitalreserve») wendet er bei der normalen AG richtig an, im Holding-Fall nicht.",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 3/4), das Urteil wird übernommen. Die normale AG ist korrekt: Basis 60'000 nach Abzug des Verlustvortrags, 5 % = 3'000, Grenze 50'000 aus Gewinn- und Kapitalreserve, mit 35'000 noch nicht erreicht. Bei der Holding stimmen Grenze 20'000 und Ergebnis 0. Die Herleitung begeht aber das ausdrücklich gelistete Fehlerbild (nur die Gewinnreserve). Dazu kommen die Überzeichnung «keine Zuweisung zulässig» und eine falsche Nebenaussage zur Verrechnung des Verlustvortrags. Kernpunkt 4 ist daher nicht sauber erfüllt. or__art-672 existiert und trägt die Gesetzesaussagen. 4 Aufrufe, zielgerichtet."
+  },
+  {
+   "id": "f19",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 4,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Zwischenüberschrift «Inland CHF 400'000 (nach Einzelwertberichtigungen und Ausnahmen)» ist missverständlich; die Rechnung selbst ist korrekt.",
+    "Eigene Fundstellen für «zuerst Einzelwertberichtigung» (Rz 120) und «keine Rückstellung» (Rz 113) fehlen. Hinweise auf abweichende kantonale Pauschalen und auf die Kreditversicherung fehlen (keine Kernpunkte). «Befragungsergebnisse» ist unklar."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "keine (richtig)",
+   "begruendung": "Beide Prüfer stimmen überein (richtig, 4/4), das Urteil wird übernommen. Einzelwertberichtigung 30'000 auf die Konkursforderung; 5 % auf 320'000 (ohne Gemeinden und Konkursforderung) = 16'000; Ausland 10 % = 10'000; total 56'000. Ausweis als Wertberichtigung bei den Forderungen, nicht unter den Passiven (Art. 960a Abs. 3 OR). Kein Fehlerbild: keine Pauschale auf Gemeinden oder auf die Konkursforderung, keine Rückstellung, keine ZH-Sätze. or__art-960a und hwp-bur-2023__rz-0437-s248 existieren und tragen die Aussagen. 5 Aufrufe (aufgabe, wert, rechne, thema), zielgerichtet."
+  },
+  {
+   "id": "f20",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 4,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Wertberichtigung 10'000 nicht ausdrücklich beziffert und nicht als zwingend bezeichnet; sie ergibt sich nur implizit aus Höchstwert 110'000 < AK 120'000. Der Satz «Die Ware ist nicht handelsrechtlich zu tiefen Werten korrigiert» ist missverständlich.",
+    "«Netto-Marktw.» statt Netto-Veräusserungswert.",
+    "Unbelegt: «steuerliche Akzeptanz hängt von der kantonalen Praxis ab». HWP BuR Rz 253 sagt allgemein, die Steuerbehörden lassen den Drittelabzug zu.",
+    "Hinweis zu Härtefallhilfen bzw. Rückerstattungsrisiko (qa-or-rechnungslegung-2026__5-t1-2) ist belegt, aber sachfremd. Die Zeile «Liquidationswert [nicht beziffert]» ist überflüssig."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "keine (richtig); nur Formulierungsunschärfen",
+   "begruendung": "Beide Prüfer stimmen überein (richtig, 4/4), das Urteil wird übernommen. Netto-Veräusserungswert 130'000 − 5'000 − 15'000 = 110'000 < AK; Höchstwert nach Niederstwertprinzip 110'000 (Art. 960c OR), damit ist die Wertberichtigung implizit erfasst. Drittel vom Höchstwert = 36'667, Mindestwert 73'333. Das Warendrittel hat Reservecharakter, ein Abbau löst stille Reserven auf (Rz 253, Rz 759). Kein Fehlerbild: nicht zu AK, Drittel nicht von den AK, das Drittel nicht als handelsrechtliche Pflicht bezeichnet. Die zitierten Chunks existieren und tragen die Aussagen (geprüft: Rz 253 und qa-or-rechnungslegung-2026__5-t1-2). Nebenbemerkung zur kantonalen Praxis unbelegt, ohne Einfluss auf die Zahlen. 6 Aufrufe, zielgerichtet."
+  },
+  {
+   "id": "f21",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "KP4 fehlt: Nicht gesagt wird, dass eine Eventualverbindlichkeit nur bei unwahrscheinlichem Abfluss oder ausnahmsweise nicht schätzbarer Höhe genügt. Das Zitat aus rz-0516 bricht mit […] genau vor diesem Satz ab.",
+    "Keine gesetzliche Grundlage: Art. 960e Abs. 2 OR und Art. 959c Abs. 2 Ziff. 10 OR fehlen, ebenso Art. 960e Abs. 4 OR (keine Auflösungspflicht).",
+    "Im Zitat aus rz-0515 fehlt der Vorbehalt «bei einer grossen Grundgesamtheit beispielsweise». Der Erwartungswert wird dadurch als allgemeine Regel auf einen Einzelprozess übertragen.",
+    "Der erste Vorschlag (Erwartungswert 40'000) liegt unter der Mindestzahlung von 50'000. Der Grundsatz «eher oberes Ende der Bandbreite» fehlt ausdrücklich und wird nur mit der Variante 60'000 angedeutet."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe unvollständig genutzt: Das Kriterium für die Eventualverbindlichkeit steht im gezeigten Chunk rz-0516 und fiel durch die Kürzung des Zitats weg.",
+   "begruendung": "Beide Prüfer kommen übereinstimmend auf teilweise mit 3/4, das wird übernommen. Die Kernaussage «Nein» stimmt. Die drei Voraussetzungen werden mit rz-0496 genannt. Unter 50 % heisst nicht automatisch unwahrscheinlich, eine anteilige Rückstellung ist zu prüfen (rz-0515). Die grosse Bandbreite ist kein Grund für eine blosse Anhangangabe (rz-0516). Damit sind KP1 bis KP3 erfüllt, das «obere Ende» allerdings nur angedeutet. KP4 fehlt, ebenso die OR-Grundlage. Der Bemessungsvorschlag 40'000 ist zu tief. Keiner der typischen Fehler kommt vor. Die HWP-Chunks existieren und tragen die Aussagen, nur die Zitate sind gekürzt. 4 Aufrufe (aufgabe, zeige), zielgerichtet."
+  },
+  {
+   "id": "f22",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Das bereinigte Ergebnis ist falsch: 60'000 − 70'000 = −10'000, als «verdeckter Verlust» bezeichnet. Die Neubildung von 15'000 fehlt in der Rechnung. Richtig ist 60'000 − 55'000 = 5'000. Die Rechnung widerspricht auch der eigenen Nettoauflösung von 55'000, und rz-0675 trägt die Zahl nicht.",
+    "Der Sonderfall ist sinnverkehrt: Bei einem steuerlich begünstigten Warendrittel würden nach der Antwort nur die 50'000 zählen. rz-0759 sagt das Gegenteil: Der Auflösungsbetrag ist einzubeziehen. Das ist der typische Fehler «Warendrittel nicht berücksichtigen».",
+    "KP3 unvollständig: Die Offenlegung vor latenten Steuern (rz-0817-t2) fehlt.",
+    "KP4 unvollständig: Dass Zwangs- und Schwankungsreserven nicht unter die Ausweispflicht fallen, fehlt, obwohl die thema-Ausgabe es enthält.",
+    "Rechnung im Kopf statt mit rechne. Zwischentext aus dem Arbeitsablauf und ein Tippfehler («Informationsplicht»)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe falsch genutzt: Er rechnete das bereinigte Ergebnis falsch, gab rz-0759 sinnverkehrt wieder und übernahm die Hinweise zu latenten Steuern sowie Zwangs- und Schwankungsreserven aus thema nicht.",
+   "begruendung": "Die Prüfer stimmen beim Urteil teilweise überein und weichen nur bei den Kernpunkten ab (2 gegen 1). Ich entscheide auf 1. Voll erfüllt ist nur KP1: Nettoauflösung 55'000 = 70'000 − 15'000. KP2 ist nur in der Rechtsfolge getroffen (Offenlegung nach Art. 959c Abs. 1 Ziff. 3 OR). Der Vergleichswert, den der Kernpunkt ausdrücklich nennt (5'000 statt 60'000), ist falsch. Daraus wird mit Nachdruck ein «verdeckter Verlust» abgeleitet, eine falsche Aussage von Gewicht. KP3 ist nur zur Hälfte erfüllt (Gesamtbetrag ohne Aufteilung ja, vor latenten Steuern nein). KP4 ebenfalls nur zur Hälfte: Das Warendrittel wird im Hauptfall einbezogen, im Sonderfall aber falsch ausgeschlossen, und Zwangs- und Schwankungsreserven fehlen. Teilweise statt falsch, weil der verlangte Betrag (55'000) und die Offenlegungspflicht stimmen. Die Prüfung von rz-0759 bestätigt: «Der Auflösungsbetrag ist … einzubeziehen». rz-0675 trägt nur den Grundsatz Gewinn statt Verlust, nicht die Zahl. 2 Aufrufe (aufgabe, thema), zielgerichtet."
+  },
+  {
+   "id": "f23",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 5,
+   "fehler": [
+    "KP1 fehlt: Firma, Rechtsform und Sitz sowie die Erklärung «Vollzeitstellen im Jahresdurchschnitt nicht über 10» (Art. 959c Abs. 2 Ziff. 1–2 OR), obwohl der Sachverhalt 8 Stellen nennt.",
+    "KP2 fehlt: Beteiligung XY GmbH mit Firma, Rechtsform, Sitz sowie Kapital- und Stimmenanteil 100 % (Ziff. 3).",
+    "Richtung verwechselt: Das Darlehen VOM Aktionär (Verbindlichkeit) wird mit Prüfung auf Einlagenrückgewähr (Art. 680 Abs. 2 OR) und «Bonitätsprüfung» behandelt. rz-0176 betrifft Forderungen AN Aktionäre. Der Satz «darf das freie Eigenkapital nicht unterschreiten» ist zudem sinnverkehrt.",
+    "Beim Grundpfand wird die Ausweispflicht fälschlich an ein ungesichertes Bankkreditverhältnis geknüpft. rz-0847-t2 betrifft das allgemeine Bank-Pfandrecht an Depots und Guthaben.",
+    "Zwischentext aus dem Arbeitsablauf in der Antwort."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "ineffizient",
+   "ursache": "Agent hat die Werkzeugausgabe falsch genutzt: Die Ausgabe von thema anhang listet Art. 959c Abs. 2 Ziff. 1–3 vollständig (geprüft), sie wurde übergangen. rz-0176 und rz-0847-t2 wurden auf den falschen Sachverhalt angewendet. Dazu eine ineffiziente Navigation mit 13 Aufrufen.",
+   "begruendung": "Die Prüfer stimmen beim Urteil (teilweise, 3/5) überein, das wird übernommen. Bei der Navigation (umwegig gegen ineffizient) entscheide ich auf ineffizient. 13 Aufrufe mit mehreren suche lieferten ein unvollständiges Ergebnis. Die Ausgabe von thema anhang enthält Ziff. 1–3 mit Vollzeitstellen und Beteiligung bereits vollständig, ein Aufruf hätte genügt. Richtig sind Leasing 36'000 (Ziff. 6), Sicherheiten für Dritte 200'000 (Ziff. 8), verpfändete Aktiven 900'000 (Ziff. 9) und der gesonderte Ausweis des Aktionärsdarlehens (Art. 959a Abs. 4 OR), also KP3 bis KP5. KP1 und KP2 fehlen, obwohl der Sachverhalt bewusst Angaben dazu enthält. Zwei falsche Nebenaussagen beruhen auf sachfremd eingesetzten Chunks (rz-0176-t1, rz-0847-t2). Der Kern, die Abs.-2-Angaben zu den Sachverhalten, stimmt, deshalb teilweise als Grenzfall zu falsch. rz-0407, rz-0405, rz-0839 und rz-0490 tragen ihre Aussagen."
+  },
+  {
+   "id": "f24",
+   "urteil": "falsch",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Variante b falsch: «2,25 % – 2,5 %», die AG wähle die Quote nach ihrer Risikoprämie. Nach Fussnote 1 (estv-zinsen-2026__s002-2: «bis und mit CHF 10 Mio. ½ %») gilt zwingend 2 % + ½ % = 2,5 % = 6'250. Das ist der typische Fehler «Zuschlag ¼ % statt ½ %».",
+    "Die Beträge 1'875 (a) und 6'250 (b) sind nicht berechnet.",
+    "Falsche Fundstellen: estv-ks-6a-2024__3-2 und __3-1 (verdecktes Eigenkapital) enthalten weder 35 % noch Formular 102 noch die 30-Tage-Frist. Richtig wäre estv-zinsen-2026__s001-1.",
+    "«Aufrechnung bei der Gewinnsteuer des Aktionärs» ist falsch: Aufgerechnet wird beim Gewinn der AG (Art. 58 Abs. 1 Bst. b DBG). Ausserdem steht «Darlehen VON Beteiligten» statt «an Beteiligte» und «Geldleistung» statt «geldwerte Leistung»."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe falsch genutzt: Die wert-Ausgabe verwies auf den Zuschlag ½ % bis CHF 10 Mio. (s002-2) und auf s001-1 als Quelle für die VSt-Folge. Beides wurde ignoriert.",
+   "begruendung": "Beide Prüfer kommen übereinstimmend auf falsch mit 3/4, das wird übernommen. Variante a (¾ %), die Sätze 2026 und die Folgen bei Zinsverzicht (geldwerte Leistung, VSt 35 %, Formular 102, 30 Tage) stimmen inhaltlich, also KP1, KP3 und KP4, mit Abstrichen bei den Beträgen. Variante b ist eine zentrale Teilfrage. Sie wird mit einer frei wählbaren Spanne und einem zu tiefen Mindestsatz beantwortet. Ein falscher Satz in einer Kernaussage ist nach den Bewertungsregeln gravierend. Hinzu kommen das falsche Steuersubjekt (Aktionär statt AG), die verwechselte Darlehensrichtung und KS-6a-Fundstellen, die die Aussagen nicht tragen. 4 Aufrufe (aufgabe, wert, thema, suche), zielgerichtet."
+  },
+  {
+   "id": "f25",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Nicht beziffert: Höchstzins 28'000 (3½ % × 800'000) und übersetzter Teil 4'000. Die Antwort nennt den ganzen 4%-Zins «potenzielle geldwerte Leistung», geldwerte Leistung ist aber nur der Überschuss.",
+    "Die Gewinnaufrechnung bei der AG fehlt.",
+    "Der Hinweis auf verdecktes Eigenkapital (Fussnote 2, s002-2, KS 6a) fehlt, obwohl die wert-Ausgabe darauf hinweist.",
+    "Die Zusammenrechnung der Kredite von Aktionär und Ehefrau wird nur stillschweigend angewendet (800'000) und weder begründet noch belegt.",
+    "Das Zitat «höhere Sätze im Drittvergleich bleiben vorbehalten» ist nicht wörtlich. Art. 680 Abs. 2 OR passt nicht zu einem Darlehen VOM Aktionär, Art. 678/680 OR stehen ohne Fundstelle."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat die Werkzeugausgabe unvollständig genutzt: Die wert-Ausgabe enthielt die Aggregationsregel und den Hinweis auf verdecktes Eigenkapital. Die Beträge wurden nicht mit rechne berechnet.",
+   "begruendung": "Beide Prüfer kommen übereinstimmend auf teilweise mit 2/4, das wird übernommen. Richtig sind die Kategorie bis CHF 1 Mio. bei 800'000, der Höchstsatz 2026 von 3½ % für Handelsunternehmen, die Einstufung von 4 % als übersetzt mit VSt 35 % und Formular 102 und der Vorbehalt des Drittvergleichs. Damit sind KP1 und der Satz aus KP2 erfüllt. Keiner der typischen Fehler kommt vor (kein Holding-Satz, keine Einzelbeurteilung). Es fehlen die Quantifizierung (28'000 und 4'000), die Gewinnaufrechnung und das verdeckte Eigenkapital, KP3 und KP4 sind daher nur zur Hälfte erfüllt. estv-zinsen-2026__s002-1 existiert und trägt 3½ % sowie den Drittvergleich, der Status ☑️ wird genannt. 2 Aufrufe (wert, thema), zielgerichtet."
+  },
+  {
+   "id": "f26",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Aufgerechneter Zins mit «~3'660» falsch beziffert. Richtig ist 105'000 × 3½ % = 3'675; rechne liefert genau diesen Wert, der Agent hat ihn nicht übernommen. Gefragt war ausdrücklich dieser Betrag.",
+    "Der abzugsfähige Rest von 10'325 fehlt.",
+    "Der Satz von ¾ % ist falsch zugeordnet. estv-zinsen-2026__s002-1 Ziff. 1.1 regelt den Mindestzins für Vorschüsse AN Beteiligte, nicht für Darlehen VON Beteiligten. Der Vergleich «liegt über dem Mindestzins» ist daher sachfremd; massgebend wäre der Höchstzins (Ziff. 2).",
+    "VSt-Satz 35 % mit estv-ks-6a-2024__3-2 belegt; der Chunk begründet nur die VSt-Pflicht als geldwerte Leistung, den Satz enthält er nicht.",
+    "Nebenpunkt: Hinweis fehlt, dass die Rückzahlung von verdecktem EK steuerneutral ist (Ziff. 3.3)."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt (rechne-Ergebnis 3'675 nicht übernommen; Zinssatz für Vorschüsse an Beteiligte mit Darlehen von Beteiligten verwechselt)",
+   "begruendung": "Beide Prüfer stimmen überein, das Urteil wird übernommen. KP1 erfüllt: Belehnung 100/85/85/50 %, zulässiges FK 795'000. KP2 erfüllt: verdecktes EK 105'000, nur aus dem Aktionärsdarlehen; Bankkredit ohne Aktionärssicherheit und Lieferanten sind ausgeschlossen. KP4 erfüllt: Aufrechnung zum Reingewinn, VSt als geldwerte Leistung (3-1 und 3-2 tragen das). KP3 verfehlt: 3'660 statt 3'675, und 10'325 fehlt. Nachgeprüft: revision.py rechne ergibt 3'675, s002-1 betrifft Vorschüsse an Beteiligte. Methode und Ergebnis zum verdeckten EK stimmen, die Schlusszahl und eine Nebenaussage sind falsch. Daher teilweise, an der Grenze zu falsch. Drei Aufrufe (thema, wert, rechne): zielgerichtet."
+  },
+  {
+   "id": "f27",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Das tragende Bewertungsargument fehlt: Es gibt keine AK/HK, deshalb ist der Höchstwert der Ersterfassung null (Art. 960a OR, ef-…__s003-1). Die Antwort begründet nur mit Art. 959 Abs. 2 OR und erweckt den Eindruck, eine Aktivierung wäre möglich, wenn diese Voraussetzungen erfüllt sind. Das widerspricht s003-5.",
+    "Die Schwelle «50,1 % genügt nicht» fehlt; die Antwort sagt nur «überwiegend deutlich».",
+    "Die grundsätzlich mögliche Aktivierung in der OR-Konzernrechnung (hwp-bur-2023__rz-0233-s485) wird nicht erwähnt.",
+    "Nebenpunkt: Das Wahlrecht für latente Steuern auf temporären Differenzen wird nicht genannt."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe unvollständig genutzt (AK/HK-Argument aus s003-5 und Konzernrechnung nicht übernommen); Wissen im Wiki vorhanden",
+   "begruendung": "Beide Prüfer stimmen überein, das Urteil wird übernommen. Die Kernaussage «Nein, nicht akzeptieren» ist richtig, und keiner der typischen Fehler kommt vor. KP3 erfüllt: Eine Umgehung des Kapitalschutzes nach Art. 725 OR ist unzulässig (s003-6). KP2 sinngemäss erfüllt: Die Antwort verlangt eine deutlich überwiegende Wahrscheinlichkeit und verneint sie bei drohendem Kapitalverlust; die 50,1 % fehlen. KP1 nur im Ergebnis erfüllt, die tragende Begründung über AK/HK und den Höchstwert null fehlt. KP4 nur zur Hälfte: Die laufende Steuerabgrenzung ist genannt, die Konzernrechnung fehlt. Die zitierten Chunks rz-0551-s270, s003-5 und s003-6 existieren und tragen die Aussagen. Drei Aufrufe (aufgabe, suche, thema): zielgerichtet."
+  },
+  {
+   "id": "f28",
+   "urteil": "falsch",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 5,
+   "fehler": [
+    "Die Teilfrage nach den Perioden ist im Kern falsch beantwortet. Die Antwort nennt Perioden, die «noch nicht finalisiert oder unter ESTV-Prüfung» sind, und als Vorjahre «2023–2024». Richtig sind alle noch nicht rechtskräftig festgesetzten abgeschlossenen Perioden; in der Schweiz gilt eine Festsetzungsverjährung von 5 Jahren (PH 20 Tz. 28, c006-2; Art. 42 MWSTG). Beides stand im M2-Output.",
+    "M2-302 (Nachvollzug der Umsatzabstimmung) wird als «vorbereitet/empfohlen» und als Kernschritt dargestellt. Laut Prüffeld ist das ein WP-Schritt und nach SER Anh. D n) weiter gehend, also nur auf Anweisung. Die Unterscheidung zwischen empfohlenen und weiter gehenden Handlungen fehlt.",
+    "Die 180-Tage-Regel ist verdreht («liegt oft erst nach 180 Tagen vor»). Ausserdem schlägt die Antwort eine «eigene Überleitung» vor, obwohl der Fallstrick im Prüffeld das ausdrücklich ausschliesst. Art. 128 Abs. 2 MWSTV und die Begründungspflicht für Abweichungen fehlen.",
+    "Die Wesentlichkeit wird mit Ausweisfragen vermischt (Rückstellung, Anhang, MWST-Gruppe). Die PH-20-Struktur fehlt: B2 mit analytischer Prüfung der Deklarationen (Vorjahresvergleich, Umsatzaufteilung, Vorsteuerkorrektur) fehlt, ebenso der Hinweis, dass die Arbeitshilfe nicht verpflichtend ist.",
+    "KP5 fehlt: kein Hinweis, dass keine Zusicherung der korrekten MWST-Handhabung gegeben wird und die eingeschränkte Revision nicht auf MWST-Gesetzesverstösse prüft. Der Fallstrick im M2-Output nannte das ausdrücklich.",
+    "Fundstellen falsch zugeordnet: ph-20-mwst-2016__c002-1 (Einleitung Tz. 1–5) trägt «mehrere Steuerperioden kumulieren das Risiko» nicht; richtig wäre c006-2. hwp-bur-2023__rz-0366-s150 behandelt das Bruttoprinzip, nicht Nachforderungen für 2023–2024. hwp-bur-2023__rz-0365-s150 belegt die Pflicht zur Umsatzabstimmung, nicht die Saldenabstimmung."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt. Das Prüffeld M2 enthielt SER Anh. D n) (empfohlen vs. weiter gehend), M2-302 als WP-Schritt, Art. 42 MWSTG mit 5 Jahren, c006-2 «noch nicht rechtskräftig festgesetzt», «keine Zusicherung», PH 20 «nicht verpflichtend» und das Verbot der eigenen Überleitung.",
+   "begruendung": "Die Prüfer weichen ab (falsch vs. teilweise); entschieden wird falsch. Nachgeprüft: Der M2-Output (revision.py prueffeld M2) enthält alle fehlenden bzw. verfälschten Punkte wörtlich. c002-1 und rz-0366 tragen die zitierten Aussagen nicht, c006-2 enthält die gesuchte Tz. 28. Nur KP1 ist im Wesentlichen erfüllt: Saldenabstimmung M2-301, Vorhandensein der Umsatzabstimmung M2-101, Befragung M2-104. Auch dort wird der weiter gehende WP-Schritt M2-302 als Kernschritt eingestuft. KP2 und KP3 sind nur bruchstückhaft und teils verdreht erfüllt (180 Tage, eigene Überleitung). KP4 ist falsch: Die ausdrücklich gestellte zweite Teilfrage wird auf «2023–2024» bzw. «nicht finalisiert» verengt, statt fünf Jahre bzw. nicht rechtskräftig festgesetzte Perioden zu nennen. Das ist das Fehlerbild «nur geprüftes Jahr» in abgeschwächter Form. KP5 fehlt ganz. Eine von zwei Teilfragen ist im Kern falsch, nur 1 von 5 Kernpunkten ist erfüllt, und es gibt mehrere falsche Aussagen und Fehlzuordnungen von Fundstellen, obwohl die richtige Information vorlag. Daher nach der strengen Regel falsch. Navigation: drei Aufrufe (aufgabe, prueffeld A1, prueffeld M2). A1 war ein kleiner Umweg, aber M2 lieferte alles Nötige; ein thema-Aufruf war nicht erforderlich. Daher zielgerichtet, das Versagen liegt in der Verwertung."
+  },
+  {
+   "id": "r01",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Bereich 9 Qualitätssicherung wird als «nur lesen» bezeichnet. Laut Bereichstabelle (konzept-ki-revisionsagent-2026__c006-2) hat der Agent dort keine Rolle. Die Frage nennt Bereich 9 ausdrücklich, KP3 ist verfehlt.",
+    "Der Inhalt von Bereich 10 ist ohne Quelle erfunden («Revisionsrapport, GVB-Bericht, PDF-Akte»). Laut c006-2 gehören dorthin das Protokoll 10.9, Vorschläge für die PBC-Liste 10.10 und die Auswertung der Antworten aus 10.11.",
+    "Bereich 1 wird pauschal als nur lesend eingestuft. Der Import der Jahresrechnung in 1.1 (Prozess 1) fehlt.",
+    "Die Antwort führt die nicht existierenden Bereiche 5 und 8 auf («1, 2, 5–8»).",
+    "Wesentlichkeit 3.3: lesen und anwenden, nie ändern, wird nicht ausdrücklich genannt."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "Navigation zu knapp: Nur regeln wurde aufgerufen, ohne Bereichstabelle (revio bzw. c006-2). Die Angaben zu Bereich 9 und 10 hat der Agent ohne Quelle ergänzt.",
+   "begruendung": "Beide Prüfer stimmen überein, das Urteil wird übernommen. Nachgeprüft: c006-2 nennt für Bereich 9 «keine» Rolle und für Bereich 10 Protokoll, PBC und 10.11; für 1.1 «Import (Prozess 1)». KP2 erfüllt: übrige Bereiche höchstens lesen, Bereich 3 nur lesen (3.3 nicht ausdrücklich). KP4 erfüllt: Visum, ✓, Abschliessende Beurteilung und Status bleiben beim Menschen, eigener Dienstbenutzer ohne diese Rechte. KP1 nur teilweise: Die Schreibbereiche 4 und 10 sind richtig, aber der Inhalt von Bereich 10 ist falsch und der Import in 1.1 fehlt. KP3 verfehlt. Die zitierten Chunks (c006-1, c011-2, c007-1, c015-1, c010-1, c009-3) existieren und tragen das Zitierte; die Fehler stecken in den unbelegten Zusätzen. Die Grundregel stimmt, und es wird kein schreibender Grenzverstoss behauptet. Daher teilweise. Die Referenz ist nicht fraglich: Ihr Hinweis auf den Widerspruch zwischen c006-1 und Prozess 1 ist in KP1 bereits berücksichtigt. Ein Aufruf: direkt, aber zu flach."
+  },
+  {
+   "id": "r02",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Die Pendenz ist ohne Konto, Datum und Betrag beschrieben; stattdessen nennt die Antwort selbst gewählte Pflichtangaben («von wem angefordert, bis wann»). Das ist genau der in der Referenz gelistete typische Fehler, obwohl aufgabe die richtigen Angaben lieferte.",
+    "Die einzige Fundstelle ist falsch: konzept-ki-revisionsagent-2026__c012-1 regelt den Ablauf je Prüfschritt und enthält kein Verbuchungsverbot. Richtig wären c007-1 bzw. c015-1. Auch das Zitierformat [^…] ist falsch.",
+    "Das Buchungsbeispiel ist unsinnig und erfunden («Delkredere 100 / Erlösminderung 100 / CHF 1.500»): gleiche Kontonummer, und Delkredere ist eine Bewertungsfrage, keine Periodenabgrenzung. «Bill-and-hold» und «Rückgaberecht» sind frei ergänzt.",
+    "Nebenpunkt: Der Hinweis fehlt, dass Nachweise als Beilage an die Notiz gehören."
+   ],
+   "fundstellen": "falsch_oder_erfunden",
+   "navigation": "zielgerichtet",
+   "ursache": "Agent hat Werkzeugausgabe falsch genutzt (aufgabe lieferte «Pendenz … mit Konto, Datum und Betrag» sowie c007-1/c015-1; Agent setzte eigene Angaben und falsche Chunk-Id ein)",
+   "begruendung": "Beide Prüfer stimmen überein, das Urteil wird übernommen. KP2 erfüllt: Der mögliche Abgrenzungsfehler mit Buchungsvorschlag gehört in «Wesentliche Feststellungen». KP3 erfüllt: Der Agent verbucht nicht, AppendLedgerAdjustement ist gesperrt, der WP entscheidet. KP1 nur teilweise: Die Kategorie «Pendenz» ist richtig, die geforderten Angaben (Konto, Datum, Betrag) fehlen und sind durch eigene ersetzt. Nachgeprüft: c012-1 behandelt die Bearbeitung der Prüfschritte und trägt die Aussage «keine Verbuchung» nicht. Die Kernaussagen stimmen, darum teilweise; die Fundstellenqualität ist jedoch mangelhaft. Zwei Aufrufe (aufgabe, revio): zielgerichtet."
+  },
+  {
+   "id": "r03",
+   "urteil": "richtig",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Der Schlusssatz ist unbelegt: «dokumentiert der Agent das Ergebnis im Textfeld des Prüfschritts; die Notiz … wird vom Wirtschaftsprüfer verwaltet» steht als feste Regel da, ohne Fundstelle. Laut Referenz ist das naheliegend, im Konzept aber nicht ausdrücklich geregelt. Die regeln-Ausgabe enthält diesen Satz ebenfalls nicht.",
+    "Kein Kernpunkt, fehlt aber: die technische Absicherung (kein DeleteNote, isClosed nie true, Dienstbenutzer mit eingeschränkten Löschrechten gemäss c009-3) und die Aufzählung der vier Notizkategorien."
+   ],
+   "fundstellen": "korrekt",
+   "navigation": "zielgerichtet",
+   "ursache": "– (inhaltlich richtig). Die unbelegte Zusatzaussage zum Textfeld hat der Agent selbst ergänzt.",
+   "begruendung": "Die Prüfer stimmen überein, das Urteil wird übernommen. Alle drei Kernpunkte sind erfüllt. KP1: «Schlussbesprechung» für Punkte, die der WP mit dem Kunden besprechen soll. KP2: keine Review-Notizen, diese Kategorie ist für Rückmeldungen des WP. KP3: Notizen nie löschen oder erledigen, ausdrücklich auch nicht nach einer Nachreichung. konzept-ki-revisionsagent-2026__c007-1 existiert und trägt alle drei Aussagen wörtlich («Notizen löscht oder erledigt er nie.»). Es gibt keine falsche Aussage von Gewicht. Der Textfeld-Satz ist überzeichnet, aber nicht falsch. Ein Aufruf (regeln), direkt das passende Werkzeug."
+  },
+  {
+   "id": "r04",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Der Höchststatus ist widersprüchlich: Zuerst steht «Teilweise bearbeitet (oder „vorbereitet“, wenn die schriftliche Befragung vollständig beantwortet ist)» mit ^[c012-1], danach «erreicht nie „vorbereitet“». c012-1 sagt nur «höchstens «teilweise bearbeitet»». Ab wann ein Schritt «vorbereitet» gilt, ist ein offener Entscheid (c015-2). Das liegt nahe am typischen Fehler «Schritt als vorbereitet melden».",
+    "Die Altersgrenze «Ausstand > 12 Monate» ist erfunden. Ab welchem Alter eine Forderung «alt» ist, ist offen (c015-2, Delkredere C1). Das Werkzeug wies ausdrücklich darauf hin: «Altersgrenze (offener Entscheid; bis dahin Vorgabe WP …)».",
+    "KP1 ist unvollständig: Markieren alter und hoher Posten sowie der Habensalden wird genannt. Es fehlen die Beschaffung der OP-Liste per Stichtag aus M-Files, die Altersstruktur im Rechenmodul (rechne) und die Dokumentation im Textfeld.",
+    "KP4 ist unvollständig: Dass das Visum offen bleibt, wird nicht genannt.",
+    "Die Fundstelle c012-1 steht direkt neben dem Zusatz «oder vorbereitet» und trägt ihn nicht.",
+    "Kein Kernpunkt: Die Einordnung EP und die Prüfziele EX VO BE fehlen."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Das Werkzeug lieferte widersprüchlich: Die Textfeld-Vorlage in «pruefschritt C1-101» enthält «Status «teilweise bearbeitet» (bzw. «vorbereitet», wenn schriftlich vollständig beantwortet)». Das widerspricht c012-1 und dem offenen Entscheid in c015-2, und die Vorlage sollte korrigiert werden. Zusätzlich hat der Agent die Werkzeugausgabe falsch genutzt: Er liess M-Files, rechne und Visum weg und setzte eine Altersgrenze, obwohl das Werkzeug sie als offen markierte.",
+   "begruendung": "Die Prüfer stimmen überein (teilweise, 2/4), das Urteil wird übernommen. KP2 (kann nicht selbst befragen) und KP3 (schriftliche Antworten aus 10.11, VE und Protokollen auswerten, sonst Pendenz) sind erfüllt und durch c012-1 gedeckt. KP1 ist nur in Umrissen erfüllt. KP4 ist durch die Relativierung «oder vorbereitet» und das fehlende Visum nicht sauber getroffen, obwohl die Frage gerade nach dem Höchststatus fragt. Die dominierende Aussage «teilweise bearbeitet, nie vorbereitet» stimmt, deshalb nicht «falsch». Die 12-Monats-Grenze ist eine erfundene Angabe. ser-2022__anh-d-s075-1 existiert. Ein Aufruf (pruefschritt C1-101), zielgerichtet."
+  },
+  {
+   "id": "r05",
+   "urteil": "falsch",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Die Kernaussage ist falsch: Ein kategorisches «Nein – WP-Schritte nur auf ausdrückliche Anweisung vorbereiten» steht da als «Die Regel lautet …», die «das Konzept … definiert». Laut c012-1 und c015-2 ist das der wichtigste offene Entscheid, zuständig consis. Weder «offen» noch «consis» wird erwähnt.",
+    "Die Fundstelle ist falsch: «Rolle Agent: nur Mensch (WP) – Agent höchstens auf Anweisung vorbereiten.» wird als Zitat aus ^[konzept-ki-revisionsagent-2026__c012-1] ausgewiesen. pruefe-zitat ergibt NICHT GEFUNDEN. Der Satz ist eine Werkzeug-Zusammenfassung, der Chunk sagt das Gegenteil, nämlich dass die Frage offen ist.",
+    "KP4 fehlt: Dass Visum und Abschluss beim Menschen bleiben, wird nicht genannt.",
+    "KP3 ist nur halb erfüllt: «nur Mensch (WP)» wird genannt, aber als endgültige Regel. Der Vorbehalt «bis zum Entscheid nicht raten» fehlt.",
+    "«Im Textfeld Status «nicht bearbeitet – WP-Schritt» erfassen» wird als Konzeptregel dargestellt. Die Werkzeugausgabe ist hier selbst widersprüchlich: einmal «bis zum Entscheid … kein Eintrag im Textfeld», einmal «Im Textfeld/Rapport: Status …». Das Konzept regelt es nicht."
+   ],
+   "fundstellen": "falsch_oder_erfunden",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe falsch genutzt: Die Ausgabe sagte ausdrücklich «ob der Agent vorbereiten darf, ist offener Entscheid» und «Bis zum Entscheid von consis (wichtigster offener Entscheid, Beispiel G1-305)». Der Agent liess beides weg. Mitursache ist das Werkzeug: Es setzt seine Übergangsregel fett als «Rolle Agent» an den Anfang und hängt ^[c012-1] an, obwohl der Chunk sie nicht enthält. Zu den Textfeld-Anweisungen widerspricht sich das Werkzeug selbst.",
+   "begruendung": "Beide Prüfer urteilen «falsch», das Urteil wird übernommen. Bei den Kernpunkten weichen sie ab (2 bzw. 1), ich setze streng 1. KP2 ist erfüllt: EP-Schritte bereitet der Agent routinemässig vor, G1-301/302 EP sind durch c013-1 belegt. KP3 ist nur halb erfüllt, weil der vorläufige Charakter fehlt. KP1 als Kern der Soll-Antwort fehlt, KP4 fehlt ebenfalls. Ein offenes Governance-Thema wird als entschiedene Konzeptregel dargestellt und mit einem Zitat belegt, das im genannten Chunk nicht vorkommt. Das ist ein gravierender Fehler in Kernaussage und Fundstelle. G1-305 ist korrekt als WP bezeichnet. Ein Aufruf (aufgabe), zielgerichtet; der Fehler liegt in der Verwertung."
+  },
+  {
+   "id": "r06",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "KP3 fehlt: Die Gesamtwesentlichkeit als Massstab für Wesentliche Feststellungen und die Beurteilung der Summe nicht korrigierter Fehler durch den Menschen in 6.1 werden nicht genannt. CHF 80'000 erscheint nur in der Aufzählung «4'000 / 60'000 / 80'000».",
+    "Die Stichprobenauswahl «standardmässig alle Posten über CHF 60'000 …» wird als geltender Standard dargestellt. In c015-2 steht sie nur als «Vorschlag» unter «Offene Entscheide» (consis), und die regeln-Ausgabe markierte sie als «Vorschlag, offen bei consis».",
+    "Die Fundstelle ist unscharf: «Differenzen darunter nur protokollieren» wird mit hwp-er-2026__rz-0051-s187 belegt. Die Rz 51 sagt «bis zu 5 %», die Konzeptregel «nur protokolliert» und die festen 5 % stehen in c014-1.",
+    "Formal: 75 % bzw. 5 % von 80'000 wurden im Kopf statt mit rechne berechnet. Die Ergebnisse stimmen."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe falsch genutzt: regeln lieferte sowohl «gesamt: Massstab für Wesentliche Feststellungen; Summe nicht korrigierter Fehler beurteilt der Mensch (6.1)» als auch «stichprobe_vorschlag (Vorschlag, offen bei consis)». Den ersten Punkt liess er weg, den zweiten stellte er als feste Regel dar.",
+   "begruendung": "Die Prüfer stimmen überein (teilweise, 3/4), das Urteil wird übernommen. KP1 ist erfüllt: TW 75 % = CHF 60'000 für Umfang und Stichprobe. KP2 ist erfüllt: NAG 5 % = CHF 4'000, darunter nur protokollieren. KP4 ist erfüllt: 3.3 nie ändern, bei Unplausibilität Pendenz. Alles ist durch c014-1 gedeckt. Die typischen Fehler (HWP-Bandbreite, NAG auf TW bezogen) sind vermieden, die Beträge korrekt. KP3 fehlt. Eine Nebenaussage ist überzeichnet, weil die Stichprobe offen ist. ser-2022__5-2-t2 sowie hwp Rz 51 und Rz 53 existieren und tragen ihre Teilaussagen. Zwei Aufrufe (aufgabe, regeln), zielgerichtet."
+  },
+  {
+   "id": "r07",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 3,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Eine Nur-Mensch-Aktion wird als Agentenhandlung dargestellt: Die K8-Kette wird mit «… Inhalt speichern» beschrieben, also rv_post_workpapers_StoreProtocolContent. Diesen Schritt markiert die aufgabe-Ausgabe mit ⛔, und «revio 10.9» führt ihn unter «nur Mensch». Er ist der Protokollgenerator, keine Ablage eines fertigen Protokolls. Geprüft: bestätigt.",
+    "KP3 ist nur halb erfüllt: Die Zugehörigkeit (Gesellschaft, Datum, Geschäftsjahr, Unterschriften) wird geprüft. Es fehlt die Folge bei Abweichung gegenüber dem fixierten Mandatskontext, nämlich Abbruch und Pendenz gemäss c009-1, obwohl die aufgabe-Ausgabe diese Regel enthielt.",
+    "«Datum – Berichtigung und zeitliche Einordnung»: Das Wort «Berichtigung» ist sachfremd.",
+    "10.9 heisst in der Antwort «Unterlagen zum Abschluss» statt Register «Protokolle». Das ist unscharf, nicht falsch.",
+    "Die einzige Fundstelle c011-2 hängt an einem Satz über die K8-Kette und das Visum, die sie nicht trägt. Die Details zu GV/VR, Unterschriften und «PBC-Vorschlag» stammen aus dem Werkzeug und haben keine Fundstelle."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe falsch genutzt: Er übersah die ⛔-Markierung bei StoreProtocolContent und liess die Regel «bei Abweichung abbrechen und Pendenz erfassen» (c009-1) aus den Aufgabenregeln weg.",
+   "begruendung": "Die Prüfer stimmen überein (teilweise, 3/4), das Urteil wird übernommen. Den vom Prüfer Belege gefundenen Fehler «Inhalt speichern» habe ich am Werkzeug verifiziert und aufgenommen. KP1 (Beschaffung aus M-Files) und KP2 (Ablage in revio 10.9) sind erfüllt. KP4 ist sinngemäss erfüllt: Den Status in Bereich 10 setzt der WP. KP3 ist nur halb erfüllt. Die Nur-Mensch-Aktion steht als Nebenaussage in einer Klammer zur Werkzeugkette. Die Kernaussagen zu Ort, Quelle und Status stimmen, deshalb «teilweise» und knapp nicht «falsch». Für den Betrieb ist die Stelle aber kritisch, weil ein Agent StoreProtocolContent aufrufen könnte. Keine falsche Ablage (nicht 10.5/10.6), PBC-Vorschlag für 10.10 korrekt. c011-2 existiert und trägt Prozess 3. Ein Aufruf (aufgabe), zielgerichtet."
+  },
+  {
+   "id": "r08",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Die Meldung im Revisionsrapport fehlt (c010-1: «erfasst er als Pendenz und meldet es im Rapport»).",
+    "«Status bleibt offen» fehlt, obwohl die aufgabe-Ausgabe und K8 es nennen (c011-2).",
+    "Die Pendenz wird «im Textfeld» statt als Notiz «PBC-Vorschlag:» über UpdateNote erfasst (K8 Schritt 12). Der Betrag als Pflichtangabe fehlt (c007-1: Konto, Datum und Betrag).",
+    "«in revio 10.10 (PBC-Liste) ablegen» ist leicht überzogen. K8 sieht bis zum Entscheid consis nur die Pendenz-Notiz vor (areaId 10.10 als Kandidat), StorePbcWorkspace ist deny.",
+    "Keine Chunk-Id, obwohl die aufgabe-Ausgabe c011-2 und c007-1 liefert."
+   ],
+   "fundstellen": "keine",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe unvollständig genutzt. Status offen, Rapportmeldung und Chunk-Ids standen in aufgabe/K8 und wurden nicht übernommen.",
+   "begruendung": "Die Prüfer weichen nur bei der Zahl erfüllter Kernpunkte ab (3 bzw. 2). Bei strenger Zählung gilt 2. KP1 ist voll erfüllt (Vorschlag PBC-Liste 10.10), ebenso KP4: Keine E-Mail an Kunden, gedeckt durch das AGENTS-Workspace-Snippet «NIE: … Kunden kontaktieren (keine E-Mail …)». KP2 ist nur halb erfüllt: Die Pendenz ist genannt, der Rapport fehlt. KP3 ebenfalls nur halb: Die Anforderung durch den Menschen ist genannt, «Status bleibt offen» fehlt. Halbe Kernpunkte zähle ich nicht als erfüllt. Den Einwand des Fachprüfers, das Zitat «Anforderung beim Kunden macht der Mensch» sei nur eine Paraphrase, verwerfe ich: Der Wortlaut steht so in K8 und im Workspace-Snippet. Kein typischer Fehler: Der Agent fordert nicht selbst an, setzt keinen Status und schätzt nichts. Ein gezielter aufgabe-Aufruf."
+  },
+  {
+   "id": "r09",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Parameter fehlen: client_id bei revio_list_dossiers, client_id und dossier_id bei revio_open_dossier.",
+    "«Was hält er unmittelbar danach fest» ist mit Planungsschritten beantwortet (Wesentlichkeit 3.3, Risiko 3.1/3.5, Vorjahr, Revisionsart) statt mit dem Kontext-Schlüssel.",
+    "Der Kontext-Schlüssel erscheint nur als Schlussbedingung und unvollständig: revio-Mandat fehlt, «M-Files-IDs» statt M-Files-Kunde. Es fehlt auch, dass jeder Zugriff dagegen geprüft wird und der Agent bei Abweichung abbricht und eine Pendenz erfasst.",
+    "c009-1 ist auch für «Dossier offen, Wesentlichkeit und markierte Prüffelder bekannt» zitiert. Das trägt der Chunk nicht; 75 %/5 % stehen ohne Fundstelle."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe unvollständig genutzt. K1 und aufgabe nennen die Parameter und die Prüfung der Zugriffe gegen den Kontext-Schlüssel.",
+   "begruendung": "Die Prüfer weichen bei den Kernpunkten (2 bzw. 1) und bei den Fundstellen (korrekt bzw. teilweise) ab. KP1 ist voll erfüllt (revio_find_clients → revio_list_dossiers → revio_open_dossier, keine erfundenen Namen, kein revio_create_client oder revio_call). KP2 und KP3 sind nur halb erfüllt, weil die Werkzeuge ohne Parameter genannt sind. KP4 ist ebenfalls halb erfüllt: Der Kontext-Schlüssel ist unvollständig, und die Prüfung jedes Zugriffs fehlt. Strenge Zählung ergibt 1. Fundstellen: c009-1 existiert und trägt den Kontext-Schlüssel (gesehen mit zeige). Die Antwort gibt den Inhalt aber falsch wieder (M-Files-IDs, revio-Mandat fehlt) und hängt Aussagen an, die der Chunk nicht enthält. Deshalb «teilweise», nicht «korrekt». Ein Aufruf."
+  },
+  {
+   "id": "r10",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Vorjahr falsch: rv_get_workpapers_LoadStrategicalPlanning «inkl. Vorjahreshandlungen» ist eine erfundene Funktion (K5 Schritt 6: strategische Planung 3.5). Richtig wären LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId bzw. GetActivityItemFromPreviousPeriod_…_by_activityId (K10).",
+    "containerId ist als «ID des Prüffelds» beschrieben. Es fehlen die Herkunft aus dem geöffneten Dossier (K1), die Übergabe als path_params_json und der Hinweis, dass C1-302 keine revio-Id ist.",
+    "Die K5-Kette wird samt LoadAuditActivityTemplate und LoadAuditProcedureCatalog als Ladewerkzeuge dargestellt, ohne ihre Rolle bei der Zuordnung zu erklären. Der Hinweis auf «Werkzeuge mit ⛔» ist ohne Bezug, keines ist markiert.",
+    "Kein Vorbehalt «Kandidat, zu bestätigen» und keine Fundstellen."
+   ],
+   "fundstellen": "keine",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe falsch genutzt: Er deutete LoadStrategicalPlanning aus der K5-Kette als Vorjahreswerkzeug, ohne K10 aufzurufen. Begünstigt wurde das durch das Routing: aufgabe-Checklistenpunkt 2 verweist für das Vorjahr auf K5.",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 1/3); ich übernehme das. KP1 ist erfüllt (Hauptwerkzeug korrekt). KP2 nur halb: Die Parameternamen stimmen, Herkunft, Übergabe und Abgrenzung zur Katalognummer fehlen. KP3 ist falsch und beruht auf einer erfundenen Werkzeugfunktion. Das liegt an der Grenze zu «falsch»; der Kern, das Ladewerkzeug, stimmt aber. Ein Aufruf, die nötige Vertiefung fehlte."
+  },
+  {
+   "id": "r11",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 1,
+   "kernpunkte_total": 3,
+   "fehler": [
+    "Falsches Lesewerkzeug: rv_get_checklistDefinitions_LoadContainerQuestionnaire_by_containerId statt rv_get_checklists_LoadChecklist (areaId, checklistId). LoadChecklist steht in den revio-Treffern zu «Checkliste».",
+    "Als Hauptweg zum Speichern steht rv_post_checklistDefinitions_StoreContainerQuestionnaire (Definitionsmodul, gesperrt), StoreChecklistData nur als «alt.».",
+    "StoreChecklistData ist als nur_mensch («WP speichert») eingestuft. Das deckt sich mit dem aktuellen Wiki (revio: nur_mensch/deny bis zur Klärung der Visumzellen), widerspricht aber der Referenz (vorbereiten, freigabepflichtig).",
+    "Erfundenes Zitat: «AGENTS.md: NIE … Fragebogen auf «geschlossen» setzen» steht nicht im Workspace-Snippet. Dort steht nur «NIE: … Abschluss/Siegel/Freigabe», also sinngemäss, nicht wörtlich gedeckt.",
+    "Keine Chunk-Ids, keine Erwähnung der Visumsfelder."
+   ],
+   "fundstellen": "falsch_oder_erfunden",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe falsch genutzt: LoadChecklist übersehen, AGENTS.md-Zitat erfunden. Bei KP2 ist die Referenz fraglich, weil das Wiki StoreChecklistData heute strenger als nur_mensch/deny führt als die Referenz (freigabepflichtig gemäss IDEE).",
+   "begruendung": "Urteil und Kernpunkte sind bei beiden Prüfern gleich. KP3 ist erfüllt (SetContainerQuestionnaireClosedState nur Mensch). KP1 ist verfehlt (falsches Objekt gelesen). KP2 ist halb erfüllt (richtiges Werkzeug, aber hinter dem falschen und mit einer Einstufung, die dem Wiki statt der Referenz folgt). Abweichung 1, Fundstellen: Die einzige Belegangabe ist ein wörtlich ausgegebenes AGENTS.md-Zitat, das es so nicht gibt (im Workspace-Snippet geprüft). Darum «falsch_oder_erfunden». Abweichung 2, Navigation: Der Fachprüfer stützt «umwegig» auf die Annahme, die toolSummary zeige nur aufgabe. Tatsächlich zeigt sie 2 Aufrufe (aufgabe, revio). Der Weg war direkt, der Fehler liegt in der Auswertung der Ausgabe. Darum «zielgerichtet»."
+  },
+  {
+   "id": "r12",
+   "urteil": "teilweise",
+   "kernpunkte_erfuellt": 2,
+   "kernpunkte_total": 4,
+   "fehler": [
+    "Die Visum-Werkzeuge sind nicht benannt (nur «Alle Visum-Werkzeuge»), obwohl revio nur-mensch SetDeliveryVisa_by_componentId und StoreDynamicFormPanelVisaState liefert.",
+    "Die Archivierung fehlt ganz (ArchiveDossier/ArchiveDossiers). Die Freigabe ist nur pauschal genannt, ApproveGlobalDossierReview_by_dossierId fehlt.",
+    "Die Begründung zu revio_call nennt den Kern nicht: keine Sperre im MCP-Code, nur OpenClaw allow/deny je Werkzeug plus JWT. Das Visumsfeld-Risiko über UpdateDossierActivity fehlt, «technisch unmöglich» ist überzogen.",
+    "c008-1 ist zweimal falsch zugeordnet (Siegel-Liste, revio_call). Der Chunk behandelt den Aufbau eines Prüfschritts (pruefe-zitat «revio_call»: NICHT GEFUNDEN).",
+    "«✗ Löschrechte» ist überzeichnet. c009-3 sagt «Löschrechte eingeschränkt»."
+   ],
+   "fundstellen": "teilweise",
+   "navigation": "zielgerichtet",
+   "ursache": "Der Agent hat die Werkzeugausgabe unvollständig genutzt: revio nur-mensch listet Visum, Archivierung und Freigabe mit Namen. Dazu kommt eine falsche Zuordnung der Chunk-Id c008-1.",
+   "begruendung": "Beide Prüfer stimmen überein (teilweise, 2/4); ich übernehme das. KP1 ist erfüllt (8 korrekte Siegel-Werkzeuge, keine erfundenen Namen). KP4 ist im Kern erfüllt: revio_call kann als generischer Aufruf die Einzelsperren umgehen und wird nicht freigegeben. KP2 und KP3 sind verfehlt, obwohl die Namen in der Werkzeugausgabe standen. c009-3 trägt die Dienstbenutzer-Aussage, c008-1 trägt die zugeordneten Aussagen nicht. 3 Aufrufe (revio, regeln) auf direktem Weg."
+  }
+ ]
+}

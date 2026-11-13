@@ -1,4 +1,7 @@
-hinweis: Entwicklungsset (selbst formuliert). Holdout-Sets unabhängig erstellen und getrennt messen.
+hinweis: 'Entwicklungsset (selbst formuliert). Holdout-Sets unabhängig erstellen und getrennt messen. Ergänzt 2026-11-13: vier Fälle aus routing-holdout.yaml
+  (Bankkonten, überschuldet, ordentliche Revision, Lohnabstimmung AHV), mit denen die Stichworte nachgebessert wurden – das Holdout-Set ist damit verbraucht;
+  für die nächste Messung ein neues, unabhängiges Holdout erstellen. Dazu Regressionsfälle Notiz mit Prüffeld und Präfixregel; die drei Notiz-Fälle
+  setzen die Code-Korrektur in _aufgabe_finden (notiz trotz Prüffeld-Synonym) voraus.'
 faelle:
 - text: Bitte starte die Revision für die Fiktive Zahlen AG 2025
   aufgabe: mandat-start
@@ -97,3 +100,30 @@ faelle:
 - text: Bank abstimmen
   aufgabe: prueffeld
   param: B1
+- text: Bankkonten per 31.12. abstimmen
+  aufgabe: prueffeld
+  param: B1
+- text: Ist die Gesellschaft überschuldet?
+  aufgabe: kapitalschutz
+- text: Brauchen wir dieses Jahr eine ordentliche Revision?
+  aufgabe: auftrag
+- text: Lohnabstimmung mit der AHV-Abrechnung
+  aufgabe: prueffeld
+  param: R1
+- text: Revisionsstelle Wahl prüfen
+  aufgabe: auftrag
+- text: Vorräte prüfen, Inventurliste fehlt
+  aufgabe: prueffeld
+  param: F1
+- text: Debitoren bearbeiten, OP-Liste fehlt noch
+  aufgabe: prueffeld
+  param: C1
+- text: Differenz in der Kasse als Pendenz erfassen
+  aufgabe: notiz
+  param: B1
+- text: Feststellung zu den Debitoren notieren
+  aufgabe: notiz
+  param: C1
+- text: 'Pendenz: Inventarliste Lager fehlt'
+  aufgabe: notiz
+  param: F1

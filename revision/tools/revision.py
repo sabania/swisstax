@@ -308,7 +308,11 @@ def pruefschritt(ref: str) -> str:
     e = next((x for x in (L().get("pf", {}).get(s["prueffeld"], {}).get("schritte") or []) if x.get("id") == sid), {})
     art, art_regel, ar = art_of(s)
     ziele = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", []))
-    out = [f"# {sid} · {pf.get('bezeichnung', s['prueffeld'])} · {s['typ']} ({s['nr'][0]}xx)" +
+    banner = {"nur_mensch": "⛔ WP-SCHRITT: nicht bearbeiten ohne ausdrückliche Anweisung des WP (offener Entscheid consis). Ohne Anweisung: Status «nicht bearbeitet – WP-Schritt».",
+              "auf_anweisung": "⛔ SONSTIGE (4xx): nur auf ausdrückliche Anweisung des WP; physische Tätigkeiten nie. Ohne Anweisung: Status «nicht bearbeitet – nur auf Anweisung».",
+              "teilweise": "ℹ️ BEFRAGUNG: nicht selbst befragen – schriftliche Antwort (10.11, Protokolle, VE) auswerten, sonst Notiz «Pendenz». Status höchstens «teilweise bearbeitet».",
+              "vorbereiten": ""}[art]
+    out = ([banner, ""] if banner else []) + [f"# {sid} · {pf.get('bezeichnung', s['prueffeld'])} · {s['typ']} ({s['nr'][0]}xx)" +
            (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else ""),
            f"Prüfziele: {ziele or '–'}",
            f"Katalog (revio 4.0, Anhang H): «{s['text']}»"]
@@ -336,7 +340,7 @@ def pruefschritt(ref: str) -> str:
     zt = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", [])) or "–"
     if art == "teilweise":
         vorlage = ["## Vorlage (Befragung)", f"Textfeld: Prüfziel(e) {zt} · Quelle der schriftlichen Antwort (10.11 / Protokoll / VE, Datum) · "
-                   "Antwort zusammengefasst · Würdigung · Status «teilweise bearbeitet» (bzw. «vorbereitet», wenn schriftlich vollständig beantwortet).",
+                   "Antwort zusammengefasst · Würdigung · Status höchstens «teilweise bearbeitet» (Befragung kann der Agent nie abschliessen).",
                    "Fehlt die Antwort → Notiz «Pendenz»: «Frage an Kunde (" + sid + "): <Frage> – benötigt bis <Datum>»."]
     elif art in ("nur_mensch", "auf_anweisung"):
         vorlage = ["## Vorgehen ohne Anweisung", "Nicht bearbeiten. Im Textfeld/Rapport: Status «nicht bearbeitet – " +
@@ -698,13 +702,20 @@ def _r(key):
 
 
 def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichkeiten=None, kapitalreserve=0, gewinnreserve=0,
-                   holding=False, rangruecktritt=0, buchwert=None, verkehrswert=None) -> str:
+                   holding=False, rangruecktritt=0, buchwert=None, verkehrswert=None, freiwillige_reserven=None, vortrag=None,
+                   jahresergebnis=None, eigene_aktien=None) -> str:
     """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals), Kapitalverlust, Überschuldung,
     Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell) oder aus Aktiven − Verbindlichkeiten."""
     AK, KR, GR, RR = num(aktienkapital), num(kapitalreserve), num(gewinnreserve), num(rangruecktritt)
+    teile = [x for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien) if x not in (None, "")]
     if eigenkapital not in (None, ""):
         EK = num(eigenkapital)
         quelle_ek = "bilanzielles Eigenkapital (Eingabe)"
+    elif teile:   # Eigenkapital aus Bestandteilen (Verluste und eigene Aktien als negative Posten) – nie im Kopf rechnen
+        FR, VT, JE, EA = (num(x) for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien))
+        EK = AK + KR + GR + FR + VT + JE - abs(EA)
+        quelle_ek = (f"AK {chf(AK)} + gesetzl. Kapitalreserve {chf(KR)} + gesetzl. Gewinnreserve {chf(GR)} + freiwillige Reserven {chf(FR)} "
+                     f"+ Vortrag {chf(VT)} + Jahresergebnis {chf(JE)} − eigene Aktien {chf(abs(EA))}")
     else:
         EK = num(aktiven) - num(verbindlichkeiten)
         quelle_ek = f"Aktiven {chf(num(aktiven))} − Verbindlichkeiten {chf(num(verbindlichkeiten))}"
@@ -992,8 +1003,9 @@ def aufgabe(text: str | None = None) -> str:
         return pruefschritt(par)
     if a["id"] == "fachfrage" and key(text) not in ("fachfrage", "fachfrage beantworten"):
         return "\n".join([f"# Fachfrage: {cut(text, 160)}",
-                          "Antwort: Ergebnis zuerst · Rechnung mit `rechne`/Rechner · jede Aussage mit Fundstelle ^[chunk-id] aus diesem Kontext · "
-                          "Quellenrang OR > SER > HWP ER > übrige · was der WP entscheidet. Für Prozess-Aufgaben: `aufgabe` ohne Text (Liste).", "",
+                          "**So antworten:** 1. Ergebnis zuerst. 2. ALLE Punkte unten, die die Frage betreffen, übernehmen – je mit ihrer ^[chunk-id] "
+                          "(nicht kürzen, nichts ohne Fundstelle ergänzen). 3. Jede Zahl mit `rechne` bzw. Rechner, nie im Kopf. "
+                          "4. Fehlt etwas: passendste Stelle mit `zeige <chunk-id>` öffnen. 5. Sagen, was der WP entscheidet.", "",
                           _fachkontext(text), "",
                           "Rechner: `kapitalverlust` (OR 725a/b/c) · `revisionspflicht` (OR 727) · `wesentlichkeit` · `rechne`."])
     out = [f"# Aufgabe: {a['titel']}" + (f" – {par} {_pfname(par)}" if par and a['id'] == 'prueffeld' else ""),
@@ -1139,6 +1151,7 @@ def main(argv=None):
     x = sub.add_parser("kapitalverlust"); x.add_argument("--aktienkapital", required=True); x.add_argument("--eigenkapital"); x.add_argument("--aktiven"); x.add_argument("--verbindlichkeiten")
     x.add_argument("--kapitalreserve", default=0); x.add_argument("--gewinnreserve", default=0); x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
     x.add_argument("--buchwert"); x.add_argument("--verkehrswert")
+    x.add_argument("--freiwillige-reserven"); x.add_argument("--vortrag"); x.add_argument("--jahresergebnis"); x.add_argument("--eigene-aktien")
     x = sub.add_parser("revisionspflicht"); x.add_argument("--bilanzsumme", required=True); x.add_argument("--umsatz", required=True); x.add_argument("--vollzeitstellen", required=True)
     x.add_argument("--vj-bilanzsumme"); x.add_argument("--vj-umsatz"); x.add_argument("--vj-vollzeitstellen")
     a = ap.parse_args(argv)
@@ -1162,7 +1175,8 @@ def main(argv=None):
         "rechne": lambda: rechne(j(a.ausdruck)),
         "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse, a.satz, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
         "kapitalverlust": lambda: kapitalverlust(a.aktienkapital, a.eigenkapital, a.aktiven, a.verbindlichkeiten, a.kapitalreserve, a.gewinnreserve,
-                                                 a.holding, a.rangruecktritt, a.buchwert, a.verkehrswert),
+                                                 a.holding, a.rangruecktritt, a.buchwert, a.verkehrswert, a.freiwillige_reserven, a.vortrag,
+                                                 a.jahresergebnis, a.eigene_aktien),
         "revisionspflicht": lambda: revisionspflicht(a.bilanzsumme, a.umsatz, a.vollzeitstellen, a.vj_bilanzsumme, a.vj_umsatz, a.vj_vollzeitstellen),
     }[c]()
     print(res)

@@ -8,24 +8,24 @@ ketten:
   prozess: allgemein
   schritte:
   - werkzeug: revio_server_version
-    zweck: Verbindung und Backend-Version prüfen (Werkzeugliste Stand revio 4.0.373); andere Version → Werkzeugliste/Klassifikation zuerst nachführen. Komfortwerkzeug, steht nur in revio-mcp-werkzeuge.md
-      (nicht in der CSV)
+    zweck: Verbindung und Backend-Version prüfen (Werkzeugliste Stand revio 4.0.373); andere Version → Werkzeugliste/Klassifikation zuerst nachführen. Komfortwerkzeug; revio_* sind in
+      data/revio/werkzeuge.csv eingestuft (revio_call, revio_create_client gesperrt; übrige lesen), die Roh-CSV raw/revio/revio-mcp-werkzeuge.csv hat nur die 840 rv_*
     parameter: keine Parameter
     art: lesen
   - werkzeug: revio_find_clients
     zweck: Kunde suchen (intern LoadClients); Treffer gegen den Auftrag des WP prüfen. 0 oder mehr als 1 Treffer → abbrechen, Rückfrage WP (nie Kunde anlegen). Die Liste aller Mandate
-      nur zum Abgleich verwenden, nicht speichern oder weitergeben (Berufsgeheimnis). Nur in MD
+      nur zum Abgleich verwenden, nicht speichern oder weitergeben (Berufsgeheimnis).
     parameter: 'keine Parameter. Ergebnis ClientDto: clientId = id; Abgleich über number, name, uid, legalForm, canton'
     art: lesen
   - werkzeug: revio_list_dossiers
-    zweck: Jahresakten des Kunden lesen und die Akte zum Stichtag des Auftrags wählen; versiegelte oder zur Siegelung beantragte Akte → nur lesen. Nur in MD
+    zweck: Jahresakten des Kunden lesen und die Akte zum Stichtag des Auftrags wählen; versiegelte oder zur Siegelung beantragte Akte → nur lesen.
     parameter: 'client_id = clientId aus Schritt 2. Aus AnualFileDto: dossierId = id (balancingDate = Stichtag, isInterimFile = false), clientId, containerId, subContainerId, previousDossierId,
       openingDate, balancingDate, anualFileTitle, state, sealRequestedDate, lastSealActionDate. Gleichwertiger Endpunkt: rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId
       mit path_params_json {"clientId": <Schritt 2>}'
     art: lesen
   - werkzeug: revio_open_dossier
     zweck: Dossier öffnen und Mandatskontext fixieren (Kunde, revio-Mandat, Geschäftsjahr, Stichtag; M-Files-Kunde ergänzt der Agent ausserhalb revio). Jeder spätere Aufruf wird dagegen
-      geprüft; Schreibwerkzeuge gibt der Agenten-Code nur frei, solange der geöffnete Kontext dieser Akte entspricht (siehe K10). Nur in MD
+      geprüft; Schreibwerkzeuge gibt der Agenten-Code nur frei, solange der geöffnete Kontext dieser Akte entspricht (siehe K10).
     parameter: 'client_id = Schritt 2, dossier_id = Schritt 3. Kandidat: entspricht rv_get_clientsManagement_LoginDossier_by_clientId_by_dossierId mit path_params_json {"clientId": …,
       "dossierId": …}'
     art: lesen
@@ -54,7 +54,7 @@ ketten:
     art: lesen
   - werkzeug: rv_post_clientsManagement_RollForwardAnualFile
     zweck: 'NICHT durch den Agenten: Fehlt die Jahresakte, legt der Mensch sie an bzw. schreibt sie fort (ebenso rv_put_clientsManagement_CreateOrUpdateAnualFile). revio_create_client
-      (nur in MD) ist gesperrt (OpenClaw deny, auch nicht auf Wunsch über den Agenten)'
+      ist gesperrt (OpenClaw deny, auch nicht auf Wunsch über den Agenten)'
     parameter: body_json RollForwardAnnualFileRequest {dossierId, containerId, title, balanceSheetDate} – nur Mensch
     art: nur_mensch
   menschliche_freigabe: 'Keine Schreibaktion. Der WP gibt Kunde, Geschäftsjahr und Stichtag vor; bei mehrdeutigem Treffer, fehlender Akte oder versiegelter/zur Siegelung beantragter
@@ -62,7 +62,6 @@ ketten:
     Solange der geöffnete Kontext nicht der Akte des Auftrags entspricht, sperrt der Agenten-Code alle Schreibwerkzeuge. Kunden/Akten anlegen oder fortschreiben: nur Mensch; revio_create_client
     gesperrt.'
   offene_fragen:
-  - Die 9 revio_*-Komfortwerkzeuge stehen nur in revio-mcp-werkzeuge.md, nicht in der CSV (840 Zeilen rv_*) – Namen aus der MD übernommen; CSV ergänzen oder in OpenClaw getrennt freigeben?
   - Setzt revio_open_dossier (bzw. LoginDossier) den Dossierkontext serverseitig für alle folgenden rv_*-Aufrufe ohne dossierId (Sitzung/JWT)? Sperrt das Öffnen die Akte für andere Benutzer?
     Prüft rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId nur oder meldet es ebenfalls an (wichtig für den Kontextcheck K10 Schritt 10)?
   - Ist AnualFileDto.containerId die Containerdefinition (Vorlage, = containerDefinitionId) oder eine Instanz je Dossier? Davon hängen containerId/containerDefinitionId in K2–K17 ab.
@@ -126,7 +125,7 @@ ketten:
     art: lesen
   - werkzeug: rv_get_financialStatement_GetImportSimulation
     zweck: 'Import simulieren (Kandidat: ohne Speichern): Zuordnung, Vorzeichen der Passiven, Bilanzgleichheit und Totale prüfen. Bis zum Entscheid consis zu Prozess 1 endet die Kette
-      hier (Ergebnis und unklare Zuordnungen als Pendenz K7, Audit Trail Schritt 17)'
+      hier (Ergebnis und unklare Zuordnungen als Pendenz K7; den Protokolleintrag schreibt der Agenten-Code ^[konzept-ki-revisionsagent-2026__c009-3])'
     parameter: 'query_json/body_json SimulateImportRequest {"accountSystemId": Schritt 11, "financialStatementTemplateId": Kandidat aus rv_get_financialStatementTemplates_LoadAvailableFinancialStatementTemplatesByContainer_by_containerId,
       "balanceSheetDate": balancingDate (K1), "balances": [{"number", "title", "balance", "assignment"}] aus definitiver Bilanz/ER in M-Files (PDF vom Agenten ausserhalb revio gelesen,
       Totale im Rechenmodul geprüft), "options": ImportOptions {changeAssetSign, changeLiabilitySign, changeEarningSign, changeExpenseSign, isDeleteMode: false}}'
@@ -137,22 +136,24 @@ ketten:
     parameter: 'body_json CreateAccountItemsFromImportRequest {"importRequestId": neue Id (Kandidat; im Kontext als «eigene» Import-Anfrage merken), "numberField", "titleField", "balanceFields":
       [], "numberOptions": [{"field", "decimalSeparator", "period": PeriodDto aus K1 Schritt 6}], "importOptions": wie Schritt 13 (isDeleteMode false), "mappingId": Schritt 12, "data":
       Zeilen aus M-Files, "assignmentField"}'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_get_financialStatement_LoadImportPreview_by_importRequestId
     zweck: Vorschau der Import-Anfrage kontrollieren (Bilanzgleichheit, Totale, Vorzeichen Passiven, nicht zugeordnete Konten); Abweichungen und unklare Zuordnungen → Pendenz (K7)
     parameter: 'path_params_json {"importRequestId": Schritt 14}; Request-DTO AccountItemsView (Enum-Wert)'
     art: lesen
+    optional: true
+    bedingung: nur nach Schritt 14 (Import-Anfrage = Kandidat, erst nach Entscheid consis)
   - werkzeug: rv_post_financialStatement_RejectImport
     zweck: 'Kandidat (Prozess 1, Entscheid consis): die eigene, in Schritt 14 dieses Laufs angelegte Import-Anfrage verwerfen, wenn die Vorschau (Schritt 15) Fehler zeigt. Nur für diese
       importRequestId und nur, wenn consis Prozess 1 schreibend erlaubt; sonst nur_mensch (OpenClaw deny). Fremde Import-Anfragen nie'
     parameter: 'body_json RejectImportRequest {"importRequestId": Schritt 14} – Abgleich der Id im Agenten-Code vor dem Aufruf'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Verlauf lesen (Kandidat: areaId 1.1, falls Bereich 1 einen Verlauf führt) und ins M-Files-Protokoll pro Mandat und Jahr übernehmen: Zeitstempel, Werkzeug, importRequestId,
-      Quelle (M-Files-ID und Version der Jahresrechnung), Simulations-/Vorschauergebnis, Fehler und Abbrüche ^[konzept-ki-revisionsagent-2026__c009-3]. Danach HALT zur Kontrolle (Testphase).
-      Das M-Files-Werkzeug ist nicht Teil des revio-MCP'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr, M-Files-Werkzeug ausserhalb des revio-MCP): Zeitstempel, Werkzeug, importRequestId, Quelle (M-Files-ID und Version der Jahresrechnung),
+      Simulations-/Vorschauergebnis, Fehler und Abbrüche. Nach Schritt 14/16 HALT zur Kontrolle (Testphase).'
     parameter: 'path_params_json {"areaId": areaId 1.1 (K1, Kandidat)}; ohne Verlauf nur M-Files-Protokoll'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_post_financialStatement_AcceptImport
     zweck: 'NICHT durch den Agenten: Übernahme der Import-Anfrage in 1.1 nach Kontrolle. Verwerfen fremder bzw. nicht vom Agenten angelegter Import-Anfragen ebenfalls nur Mensch (eigene
       Anfrage: Schritt 16)'
@@ -348,21 +349,22 @@ ketten:
     zweck: 'Kandidat: Textfeld des Schritts mit dem Entwurf füllen. Inhalt: «Entwurf KI-Agent <Datum>» · Prüfziel(e) (z. B. BE) · Quellen (M-Files-ID + Version) · Auswahl und Umfang
       mit Begründung (Toleranzwesentlichkeit K3, Risiko K4) · Ergebnis · Feststellungen · Verweis auf Notiz · Status (vorbereitet / teilweise bearbeitet)'
     parameter: 'body_json UpdateAuditActivityDossierFielddDto {"containerId": K1, "activity": TemplatedRow aus Schritt 2 unverändert, "cell": Textzelle aus Schritt 2 (canEdit = true,
-      nicht isIdCell) mit nur geändertem "content"}; Feldregel: isVised, visaUserId, visaDate, visaText bleiben unverändert leer. Alternative (Kandidat): rv_put_auditActivities_UpdateDossierActivityItemTemplateField
+      nicht isIdCell) mit nur geändertem "content"}; Feldregel: isVised, visaUserId, visaDate, visaText bleiben unverändert leer. Alternative nur nach Test: rv_put_auditActivities_UpdateDossierActivityItemTemplateField
       body_json {"containerId", "navigationId": areaId, "activityItemId": activityId, "changedFields": [{"cellId", "content", "isIdField": false}]}'
     art: vorbereiten
   - werkzeug: rv_get_auditActivities_ClaudeImportAuditActivities
     zweck: Kandidat, Alternative zu Schritt 3 und 6 als Sammelimport mehrerer Schritte (schreibt trotz GET); Verhalten bei vorhandenem Text und visierten Schritten vor Einsatz klären
     parameter: 'body_json ClaudeImportAuditActivitiesRequest {"prueffelder": [{"navigationId": areaId (K1), "templateId": K5, "code": "C1", "eintraege": [{"nr": 302, "ergebnis": Text
       wie Schritt 3, "referenceText": Fundstellen, "attachments": [{"fileName", "attachmentId"}]}]}]}. Antwort {success, updatedCount, skippedCount, message}'
-    art: vorbereiten
+    art: kandidat
+    bedingung: nur statt Schritten 3+6, nach Entscheid consis
   - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
     zweck: 'Nach Upload (K15): attachementId des Belegs in den losen Beilagen des Prüffelds bestimmen'
     parameter: 'path_params_json {"areaId": areaId des Prüffelds (K1)}'
     art: lesen
   - werkzeug: rv_post_auditActivities_AddAttachementsToAuditActivity
-    zweck: Beleg an den Prüfschritt hängen. Name einer eigenen Beilage korrigieren nur über rv_post_auditActivities_RenameAuditActivityAttachment (Kandidat), nie über rv_put_attachements_UpdateAttachementsMetadata
-      (K15)
+    zweck: Beleg an den Prüfschritt hängen. Name einer eigenen Beilage korrigieren nur über rv_post_auditActivities_RenameAuditActivityAttachment (mit Freigabe; vorher mit Schritt 7
+      prüfen, dass es eine eigene Beilage ist), nie über rv_put_attachements_UpdateAttachementsMetadata (K15)
     parameter: 'body_json AppendAuditActivityAttachementsRequest {"containerId": K1, "activityId": K5, "attachementInfo": [{"attachementId": Schritt 5, "name": "<M-Files-ID>_v<Version>_<Titel>.pdf",
       "isTemporary": false}]}. Alternative (Kandidat): rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea {"attachmentIds", "areaId", "entityId": activityId, "targetSource": EntitySource-Wert
       (K16)}'
@@ -398,10 +400,10 @@ ketten:
     parameter: wie Schritt 2
     art: lesen
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Änderungsverlauf des Prüffelds lesen und mit Zeitstempel, Werkzeug, Prüfschritt, Quelle (M-Files-ID und Version), Ergebnis und Fehlern ins M-Files-Protokoll
-      pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3] (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr, M-Files-Werkzeug ausserhalb des revio-MCP): Zeitstempel, Werkzeug, Prüfschritt, Quelle (M-Files-ID und Version), Ergebnis und Fehler.'
     parameter: 'path_params_json {"areaId": areaId des Prüffelds (K1)}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_post_workpapers_StoreDynamicFormPanelVisaState
     zweck: 'NICHT durch den Agenten: Visum setzen (Kandidat für Formular-Panels, z. B. Abschliessende Beurteilung); das Visum je Prüfschritt setzt der WP in revio'
     parameter: nur Mensch
@@ -410,7 +412,7 @@ ketten:
     zweck: 'NICHT durch den Agenten (OpenClaw deny): bereichsneutral (areaId im Body), Checklisten tragen Visum-Zellen (Cell.isVised, visaUserId, visaDate, visaText); Abschliessende
       Beurteilung, 2.x, 3.4, 6.x, 7.x und 9.0 sind vermutlich Checklisten oder Formulare. Ebenso rv_post_workpapers_StoreDynamicFormDataItem und rv_post_workpapers_StoreDynamicFormPanelAttachment.
       Erst wenn (a) die Komponente der Abschliessenden Beurteilung und die Register in 4/10 am Testmandat bestimmt sind und (b) das JWT des Dienstbenutzers Schreibrechte je Register
-      und kein Visumsrecht hat, höchstens vorbereiten (Kandidat) mit Auflage areaId ∈ {Bereich 4, Bereich 10}'
+      und kein Visumsrecht hat, höchstens vorbereiten mit Auflage areaId ∈ {Bereich 4, Bereich 10} (bis dahin Kandidat = deny)'
     parameter: nur Mensch
     art: nur_mensch
   - werkzeug: rv_put_workpapers_UpdateCheckCardState
@@ -427,11 +429,12 @@ ketten:
       löschen oder verfälschen. Kommentare des Agenten nur über Schritt 9 bzw. 12'
     parameter: body_json UpdateAreaCommentsRequest {areaId, comments} – nur Mensch
     art: nur_mensch
-  menschliche_freigabe: 'Schritte 3, 4, 6, 9, 11 und 12 (und der Upload K15) schreiben → in OpenClaw freigabepflichtig (Testphase). Visum (Kürzel/Datum) je Schritt, ✓ je Prüffeld, Konto
+  menschliche_freigabe: 'Schritte 3, 6, 9, 11 und 12 schreiben → Freigabe (Testphase); Schritt 4 und Upload K15 Kandidat (deny). Visum (Kürzel/Datum) je Schritt, ✓ je Prüffeld, Konto
     oder Beleg, «Abgeschlossen»/«Review» und Abschliessende Beurteilung setzt nur der Mensch ^[konzept-ki-revisionsagent-2026__c008-1] ^[konzept-ki-revisionsagent-2026__c011-2]. Achtung:
     UpdateDossierActivity transportiert die Visumsfelder der Zelle (isVised, visaUserId, visaDate), AddFilesToDocumentation das Feld state – OpenClaw sperrt nur je Werkzeug; Visum und
     ✓ müssen serverseitig über das JWT des Dienstbenutzers (kein Visumsrecht) ^[konzept-ki-revisionsagent-2026__c009-3] und durch eine Feldprüfung im Agenten-Code vor dem Aufruf (Feldregeln
-    K16) verhindert werden; der MCP-Code bleibt ohne Fachlogik. Jede Aktion ins M-Files-Protokoll (Schritt 14).'
+    K16) verhindert werden; der MCP-Code bleibt ohne Fachlogik. Jede Aktion schreibt der Agenten-Code ins M-Files-Protokoll ^[konzept-ki-revisionsagent-2026__c009-3] (Schritt 14 nur
+    optionale Kontrolle, Kandidat).'
   offene_fragen:
   - 'Welcher Endpunkt schreibt das Textfeld eines Prüfschritts im Dossier: UpdateDossierActivity, UpdateDossierActivityItemTemplateField oder ClaudeImportAuditActivities? Überschreibt
     UpdateDossierActivity die ganze Zeile?'
@@ -463,7 +466,7 @@ ketten:
       Buchungstext / Begründung, Vermerk «Vorschlag – nicht verbucht»; PBC-Vorschlag = Pendenz mit Titelpräfix «PBC-Vorschlag:» (K8)'
     parameter: 'body_json UpdateNoteRequest {"areaId": Bereich wie Schritt 2, "note": NoteDto {"id": leer (neu, Kandidat), "areaId", "title": "C1-302 · Pendenz: …", "text", "type": Id
       aus Schritt 1, "priority", "isClosed": false, "hasAppointment": false, "showOutsideDossier": false, "assignments": [], "feedbacks": []}}. Feldregeln: id nur leer (neu) oder Id
-      einer eigenen Notiz (createdBy = Dienstbenutzer); fremde Notizen nie ändern; isClosed immer false; type nie Review'
+      einer eigenen Notiz (createdBy = Dienstbenutzer); fremde Notizen nie ändern; isClosed immer false; type nie Review; areaId und note.areaId nur Register in Bereich 4 oder 10 ^[konzept-ki-revisionsagent-2026__c006-1]'
     art: vorbereiten
   - werkzeug: rv_get_workpapers_LoadNotesForArea_by_areaId
     zweck: noteId der neuen Notiz bestimmen und Inhalt kontrollieren
@@ -478,10 +481,10 @@ ketten:
     parameter: 'body_json MoveAttachmentsToNoteRequest {"noteId": Schritt 4, "attachements": [attachementId aus Schritt 5]}'
     art: vorbereiten
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Verlauf des Bereichs lesen und Notiz (noteId, Kategorie, Bezug, Beilage, Zeitstempel, Fehler) ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]
-      (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr, M-Files-Werkzeug ausserhalb des revio-MCP): noteId, Kategorie, Bezug, Beilage, Zeitstempel, Fehler.'
     parameter: 'path_params_json {"areaId": Bereich wie Schritt 2}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_post_financialStatement_AppendLedgerAdjustement
     zweck: 'NICHT durch den Agenten: Verbuchung in der Umbuchungsliste 10.2 (ebenso rv_put_financialStatement_UpdateLedgerAdjustement, rv_put_financialStatement_UpdateLedgerAdjustementActiveState)'
     parameter: nur Mensch
@@ -498,12 +501,14 @@ ketten:
     art: nur_mensch
   menschliche_freigabe: Schritte 3 und 6 schreiben → OpenClaw-Freigabe. Notizen löscht oder erledigt der Agent nie, fremde Notizen ändert er nicht ^[konzept-ki-revisionsagent-2026__c007-1];
     Buchungsvorschläge nur als Notiz, ohne Verbuchung ^[konzept-ki-revisionsagent-2026__c015-1]. Der WP entscheidet über Buchung, Schlussbesprechung mit dem Kunden und Erledigung; Review-Notizen
-    und Rückmeldungen schreibt nur der WP ^[konzept-ki-revisionsagent-2026__c007-1]. Jede Notiz ins M-Files-Protokoll (Schritt 7).
+    und Rückmeldungen schreibt nur der WP ^[konzept-ki-revisionsagent-2026__c007-1]. Jede Notiz schreibt der Agenten-Code ins M-Files-Protokoll ^[konzept-ki-revisionsagent-2026__c009-3]
+    (Schritt 7 nur optionale Kontrolle, Kandidat).
   offene_fragen:
   - Legt UpdateNote mit leerer id eine neue Notiz an (es gibt keinen CreateNote-Endpunkt)? Wer vergibt die id? Lässt sich «nur eigene Notizen» (createdBy) im JWT erzwingen?
   - Note-Type-Ids der vier Kategorien und ob isDeterminationNote = «Wesentliche Feststellungen» bedeutet.
   - NoteChanged ändert Text, transportiert aber isClosed – für den Agenten gesperrt (Text nur über UpdateNote).
-  - Dürfen Notizen an Bereichen ausserhalb 4/10 hängen (z. B. 3.3)? Skala von priority; Bedeutung von showOutsideDossier.
+  - 'Entschieden: Notizen nur an Registern in Bereich 4 oder 10 ^[konzept-ki-revisionsagent-2026__c006-1]; Ausnahme (z. B. 3.3 gemäss Pflichtenheft ^[konzept-ki-revisionsagent-2026__c006-2])
+    nur nach Entscheid consis. Offen: Skala von priority; Bedeutung von showOutsideDossier.'
 - id: K8
   aufgabe: 'Unterlagen zum Abschluss: Protokoll in 10.9 ablegen, fehlende Unterlagen als Pendenz «PBC-Vorschlag» (PBC-Liste 10.10 erst nach Entscheid consis)'
   wann: 'Prozess 3, nach K1: Protokoll Vorjahr (GV/VR) aus M-Files beschaffen und Zugehörigkeit prüfen; fehlende Unterlagen aus allen Prüffeldern sammeln'
@@ -545,11 +550,6 @@ ketten:
     zweck: 'Kontrolle der Ablage in 10.9: neues Dokument vorhanden, bisherige Dokumente unverändert (Vergleich mit Schritt 1)'
     parameter: 'path_params_json {"areaId": 10.9}'
     art: lesen
-  - werkzeug: rv_post_workpapers_StoreProtocolContent
-    zweck: 'NICHT durch den Agenten: erstellt mit dem Protokollgenerator ein Organprotokoll des Kunden (ProtocolGeneratorDto: presentMembers, chairmanship, minuteKeeper, voteCounter,
-      items) – keine Ablage eines fertigen GV-/VR-Protokolls; ebenso rv_delete_workpapers_DeleteProtocolContent_by_protocolId. Kein Ablageweg für Prozess 3'
-    parameter: body_json ProtocolGeneratorDto – nur Mensch
-    art: nur_mensch
   - werkzeug: rv_get_workpapers_LoadLocalPbcWorkspace
     zweck: PBC-Liste 10.10 lesen (angeforderte, erhaltene, bestätigte Unterlagen; Uploads des Kunden), damit keine bereits angeforderte Unterlage vorgeschlagen wird
     parameter: keine Parameter. Ergebnis WorkspaceStateDto {id, isPublished, reportSections[] {code, title, status, requestedDate, receivedDate, confirmedDate, requestItems[] {id, title,
@@ -566,13 +566,19 @@ ketten:
   - werkzeug: rv_put_workpapers_UpdateNote
     zweck: Fehlende Unterlage als Pendenz mit Titelpräfix «PBC-Vorschlag:» erfassen (Ablauf und Feldregeln K7 Schritt 3); einziger Weg für PBC-Vorschläge bis zum Entscheid consis
     parameter: 'body_json UpdateNoteRequest {"areaId": areaId 10.10 (Kandidat; falls dort keine Notizen möglich: Prüffeld des auslösenden Schritts), "note": {"id": leer, "type": Pendenz-Id
-      (K1), "title": "PBC-Vorschlag: <Unterlage> (<Prüfschritt>)", "text": Bezeichnung gemäss PBC-Vorlage (Schritt 11), Grund, Prüfschritt, gewünschtes Datum, "isClosed": false}}'
+      (K1), "title": "PBC-Vorschlag: <Unterlage> (<Prüfschritt>)", "text": Bezeichnung gemäss PBC-Vorlage (Schritt 10), Grund, Prüfschritt, gewünschtes Datum, "isClosed": false}}'
     art: vorbereiten
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Verlauf von 10.9 (und 10.10) lesen und Ablage bzw. Pendenzen mit Zeitstempel, Quelle (M-Files-ID und Version), Ergebnis und Fehlern ins M-Files-Protokoll pro
-      Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3] (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr, M-Files-Werkzeug ausserhalb des revio-MCP): Ablage in 10.9 bzw. Pendenzen in 10.10 mit Zeitstempel, Quelle (M-Files-ID und Version), Ergebnis
+      und Fehlern.'
     parameter: 'path_params_json {"areaId": 10.9 bzw. 10.10}'
-    art: lesen
+    art: kandidat
+  - werkzeug: rv_post_workpapers_StoreProtocolContent
+    zweck: 'NICHT durch den Agenten: erstellt mit dem Protokollgenerator ein Organprotokoll des Kunden (ProtocolGeneratorDto: presentMembers, chairmanship, minuteKeeper, voteCounter,
+      items) – keine Ablage eines fertigen GV-/VR-Protokolls; ebenso rv_delete_workpapers_DeleteProtocolContent_by_protocolId. Kein Ablageweg für Prozess 3'
+    parameter: body_json ProtocolGeneratorDto – nur Mensch
+    art: nur_mensch
   - werkzeug: rv_post_workpapers_StorePbcWorkspace
     zweck: 'NICHT durch den Agenten (OpenClaw deny), Kandidat erst nach Entscheid consis: überschreibt den ganzen Arbeitsbereich inkl. publishAfter, isPublished, validUsers (Kundenzugänge),
       notificationRecipients, emailBody sowie status und confirmed* je Abschnitt – Weg zur Veröffentlichung beim Kunden bzw. zum Kundenversand und Änderung von Zugriffsrechten; publishAfter
@@ -583,7 +589,7 @@ ketten:
     zweck: 'NICHT durch den Agenten: Anforderung/Einladung an den Kunden'
     parameter: nur Mensch
     art: nur_mensch
-  menschliche_freigabe: Ablage in 10.9 (Schritte 4 und 7) und Pendenz «PBC-Vorschlag» (Schritt 13) schreiben → OpenClaw-Freigabe. StorePbcWorkspace, StoreContainerDocuments_by_areaId
+  menschliche_freigabe: Ablage in 10.9 (Schritte 4 und 7) und Pendenz «PBC-Vorschlag» (Schritt 12) schreiben → OpenClaw-Freigabe. StorePbcWorkspace, StoreContainerDocuments_by_areaId
     (bis zur Klärung) und StoreProtocolContent sind deny. Status in 10.9 bleibt offen; die Anforderung beim Kunden macht der Mensch ^[konzept-ki-revisionsagent-2026__c011-2]; Status
     in Bereich 10 setzt der Mensch ^[konzept-ki-revisionsagent-2026__c008-1]. Übernahme der Vorschläge in die PBC-Liste, Veröffentlichen und Versand nur durch den Menschen.
   offene_fragen:
@@ -611,12 +617,12 @@ ketten:
   - werkzeug: rv_get_checklistDefinitions_LoadContainerQuestionnaire_by_containerId
     zweck: 'Kandidat, nur Information: Akte-Fragebogen mit Bedingungen (welche Register deaktiviert sind) – nicht die Kundenbefragung'
     parameter: 'path_params_json {"containerId": K1}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_post_workpapers_CreateQuestionnairePDF
-    zweck: 'Einstufung «vorbereiten (Kandidat, Report-Job)», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob das PDF mit areaId in der Akte (10.11) abgelegt wird. Optional:
-      Antworten als PDF erzeugen, um sie als Nachweis an Befragungsschritte zu hängen'
+    zweck: 'Einstufung «Kandidat, Report-Job – deny bis Entscheid consis», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob das PDF mit areaId in der Akte (10.11) abgelegt
+      wird. Optional: Antworten als PDF erzeugen, um sie als Nachweis an Befragungsschritte zu hängen'
     parameter: 'body_json CreateQuestionnairePDFRequest {"reportJobId": neue Id, "areaId": areaId 10.11 (K1), "questionnaireId": QuestionnaireDto.id, "asExcel": false}'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_put_auditActivities_UpdateDossierActivity
     zweck: 'Auswertung je Befragungsschritt (1xx) ins Textfeld (Ablauf K6): Frage, Antwort wörtlich, Einreicher/Datum, Würdigung; Status höchstens «teilweise bearbeitet». Fehlende/unklare
       Antwort → Pendenz (K7)'
@@ -630,8 +636,8 @@ ketten:
     zweck: 'NICHT durch den Agenten: Fragebogen schliessen'
     parameter: nur Mensch
     art: nur_mensch
-  menschliche_freigabe: Lesen frei; Textfeld/Notiz/PDF-Report-Job mit OpenClaw-Freigabe. Der Agent befragt nicht selbst, er wertet nur schriftliche Antworten aus ^[konzept-ki-revisionsagent-2026__c012-1].
-    Versand, Veröffentlichung und Schliessen des Fragebogens nur durch den Menschen.
+  menschliche_freigabe: Lesen frei; Textfeld/Notiz mit OpenClaw-Freigabe; Schritt 3 und PDF-Report-Job (Schritt 4) Kandidat – deny bis Entscheid consis. Der Agent befragt nicht selbst,
+    er wertet nur schriftliche Antworten aus ^[konzept-ki-revisionsagent-2026__c012-1]. Versand, Veröffentlichung und Schliessen des Fragebogens nur durch den Menschen.
   offene_fragen:
   - Ist «LocalQuestionnaire» die Kundenbefragung 10.11 (Kandidat)?
   - Zuordnung Frage → Prüfschritt (1xx) fehlt im Katalog – erst mit Datenkopie erstellen.
@@ -642,7 +648,7 @@ ketten:
   prozess: '2'
   schritte:
   - werkzeug: revio_list_dossiers
-    zweck: Vorjahresakte bestimmen (id = previousDossierId der aktuellen Akte; Stichtag Vorjahr) und ihren Zustand prüfen (state, lastSealActionDate, Archiv). Nur in MD
+    zweck: Vorjahresakte bestimmen (id = previousDossierId der aktuellen Akte; Stichtag Vorjahr) und ihren Zustand prüfen (state, lastSealActionDate, Archiv).
     parameter: client_id = K1
     art: lesen
   - werkzeug: rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId
@@ -665,35 +671,43 @@ ketten:
     zweck: Liste der archivierten Fassungen der Vorjahresakte lesen (Quelle «geprüfte Jahresrechnung Vorjahr» für A1-302). Archivinhalt nicht öffnen (rv_post_clientsManagement_LogArchiveAccess
       gesperrt); Bedarf als Pendenz an den WP
     parameter: 'path_params_json {"dossierId": previousDossierId}'
-    art: lesen
+    art: kandidat
   - werkzeug: revio_open_dossier
-    zweck: 'Nur als letzte Option, wenn Schritte 2–6 nicht genügen (v. a. Vorjahresnotizen) und die Vorjahresakte nicht archiviert ist: Vorjahresakte lesend öffnen. Vorher sperrt der
+    zweck: 'Nur als letzte Option, wenn Schritte 2–5 nicht genügen (v. a. Vorjahresnotizen) und die Vorjahresakte nicht archiviert ist: Vorjahresakte lesend öffnen. Vorher sperrt der
       Agenten-Code alle Schreibwerkzeuge, solange der Kontext nicht der aktuellen Akte entspricht (UpdateNote, UpdateDossierActivity u. a. ohne dossierId würden sonst auf das Vorjahr
-      wirken). Archiviert oder versiegelt mit Sperr-/Protokollwirkung → nicht öffnen, Pendenz. Nur in MD'
+      wirken). Archiviert oder versiegelt mit Sperr-/Protokollwirkung → nicht öffnen, Pendenz.'
     parameter: client_id = K1, dossier_id = previousDossierId
     art: lesen
+    optional: true
+    bedingung: nur wenn Schritte 2–5 nicht genügen; Schreibsperre im Agenten-Code
   - werkzeug: rv_get_workpapers_LoadDossierNotes
     zweck: Vorjahresnotizen lesen (Wesentliche Feststellungen, Schlussbesprechung, offene Pendenzen Vorjahr)
     parameter: keine Parameter (Kontext = Vorjahresakte, Schreibsperre aktiv)
     art: lesen
+    optional: true
+    bedingung: nur wenn Schritte 2–5 nicht genügen; Schreibsperre im Agenten-Code
   - werkzeug: revio_open_dossier
-    zweck: Zurück zur aktuellen Akte (Schreibsperre bleibt bis Schritt 10 aktiv). Nur in MD
+    zweck: Zurück zur aktuellen Akte (Schreibsperre bleibt bis Schritt 10 aktiv).
     parameter: client_id = K1, dossier_id = dossierId aktuell (K1)
     art: lesen
+    optional: true
+    bedingung: nur wenn Schritte 2–5 nicht genügen; Schreibsperre im Agenten-Code
   - werkzeug: rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId
     zweck: 'Kandidat: Kontext prüfen – Ergebnis bzw. AnualFileDto der geöffneten Akte (id, clientId, balancingDate; mit revio_list_dossiers abgleichen) muss dem Kontext-Schlüssel aus
       K1 entsprechen; erst dann hebt der Agenten-Code die Schreibsperre auf. Abweichung → Abbruch und Pendenz ^[konzept-ki-revisionsagent-2026__c009-1]'
     parameter: 'path_params_json {"clientId": K1, "dossierId": dossierId aktuell (K1)}; Wirkung (nur prüfen oder anmelden) offen, K1'
     art: lesen
+    optional: true
+    bedingung: nur wenn Schritte 2–5 nicht genügen; Schreibsperre im Agenten-Code
   - werkzeug: rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult
     zweck: 'NICHT durch den Agenten: Vorjahrestexte in die aktuelle Akte übernehmen – schreibt trotz GET (overtakenActivitiesCount, transferredAttachmentsCount; Massenänderung). Ebenso
       rv_post_clientsManagement_LogArchiveAccess (Archivzugriff protokollieren, gesperrt)'
     parameter: OvertakePreviousPeriodAuditActivitiesRequest {navigationId, templateId, attachmentTransferMode} – nur Mensch
     art: nur_mensch
-  menschliche_freigabe: 'Nur lesen; Vorjahresoriginale bleiben unverändert ^[konzept-ki-revisionsagent-2026__c011-2]. Zuerst die Wege ohne Kontextwechsel (Schritte 2–6). Der Kontextwechsel
-    ins Vorjahr ist die letzte Option: nur lesend, nicht bei archivierter Akte, mit technischer Schreibsperre im Agenten-Code, solange der Kontext nicht der aktuellen Akte entspricht,
-    und mit Kontextprüfung nach der Rückkehr (Schritt 10) ^[konzept-ki-revisionsagent-2026__c009-1]. Übernahme von Vorjahrestexten, Archivzugriff und jede Änderung an der Vorjahresakte
-    nur durch den Menschen.'
+  menschliche_freigabe: 'Nur lesen; Vorjahresoriginale bleiben unverändert ^[konzept-ki-revisionsagent-2026__c011-2]. Zuerst die Wege ohne Kontextwechsel (Schritte 2–5; Schritt 6 Kandidat,
+    deny). Der Kontextwechsel ins Vorjahr ist die letzte Option: nur lesend, nicht bei archivierter Akte, mit technischer Schreibsperre im Agenten-Code, solange der Kontext nicht der
+    aktuellen Akte entspricht, und mit Kontextprüfung nach der Rückkehr (Schritt 10) ^[konzept-ki-revisionsagent-2026__c009-1]. Übernahme von Vorjahrestexten, Archivzugriff und jede
+    Änderung an der Vorjahresakte nur durch den Menschen.'
   offene_fragen:
   - Ist das Öffnen der Vorjahresakte mit dem harten Mandatskontext vereinbar (gleicher Kunde, anderes Geschäftsjahr) – als zulässige Ausnahme festlegen?
   - Löst das Öffnen einer versiegelten oder archivierten Vorjahresakte Sperren oder Archiv-Zugriffsprotokolle aus? Wie wird der Inhalt einer Archivversion ohne LogArchiveAccess gelesen?
@@ -726,19 +740,20 @@ ketten:
     parameter: path_params_json {"areaId"}
     art: lesen
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Änderungsverlauf je Prüffeld lesen (Audit Trail: was der Agent geschrieben hat) und mit dem M-Files-Protokoll abgleichen'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Abgleich
+      mit dem M-Files-Protokoll (was der Agent geschrieben hat).'
     parameter: path_params_json {"areaId"}
-    art: lesen
+    art: kandidat
   - werkzeug: rv_get_workpapers_LoadMaterialityOfDossier
     zweck: Wesentlichkeit seit der Bearbeitung unverändert? Sonst betroffene Schritte im Rapport kennzeichnen
     parameter: query_json {"clientId", "dossierId"} (K1); Vergleich mit Stand aus K3
     art: lesen
   - werkzeug: rv_post_workpapers_CreateNotesReport
-    zweck: 'Einstufung «vorbereiten (Kandidat, Report-Job)», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob der Report in der Akte abgelegt wird. Optional: Notizenliste
-      als Bericht (Beilage zum Rapport); ebenso rv_post_workpapers_CreateAuditActivityReport'
+    zweck: 'Einstufung «Kandidat, Report-Job – deny bis Entscheid consis», einheitlich in Zuordnung, Ketten und klass, bis geklärt ist, ob der Report in der Akte abgelegt wird. Optional:
+      Notizenliste als Bericht (Beilage zum Rapport); ebenso rv_post_workpapers_CreateAuditActivityReport'
     parameter: 'body_json CreateNotesReportRequest {"reportJobId": neue Id, "areaId", "filter": {"isDossierView": true, "noteTypes": NoteTypeDto aus K1}}; CreateAuditActivityReportRequest
       {"reportJobId", "areaId", "templateId", "reportType", "classifications"}'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_post_workpapers_ProcessAreaState
     zweck: 'NICHT durch den Agenten: Bereichsstatus setzen («Abgeschlossen», «Review»); ebenso rv_put_workpapers_UpdateAreaComments (K6)'
     parameter: body_json ProcessAreaStateRequest {areaId, item} – nur Mensch
@@ -747,9 +762,9 @@ ketten:
     zweck: 'NICHT durch den Agenten: Review der Akte anfordern (ebenso rv_post_clientsManagement_ApproveGlobalDossierReview_by_dossierId, rv_post_clientsManagement_RejectGlobalDossierReview_by_dossierId)'
     parameter: nur Mensch
     art: nur_mensch
-  menschliche_freigabe: 'Nur lesen in revio (Report-Job Schritt 8 mit OpenClaw-Freigabe). Der Rapport ist eine E-Mail an die freigegebene WP-Adresse (Testphase: Entwurf oder fixe Adresse,
-    nie an Kunden) ^[konzept-ki-revisionsagent-2026__c009-2] ^[konzept-ki-revisionsagent-2026__c011-2]; der Versand läuft nicht über das revio-MCP. Bereichsstatus, Review und Abschluss
-    setzt der Mensch.'
+  menschliche_freigabe: 'Nur lesen in revio (Report-Job Schritt 8 Kandidat – deny bis Entscheid consis). Der Rapport ist eine E-Mail an die freigegebene WP-Adresse (Testphase: Entwurf
+    oder fixe Adresse, nie an Kunden) ^[konzept-ki-revisionsagent-2026__c009-2] ^[konzept-ki-revisionsagent-2026__c011-2]; der Versand läuft nicht über das revio-MCP. Bereichsstatus,
+    Review und Abschluss setzt der Mensch.'
   offene_fragen:
   - 'Statusdefinitionen: ab wann «vorbereitet» statt «teilweise bearbeitet» ^[konzept-ki-revisionsagent-2026__c015-2]?'
   - Wie liefern CreateNotesReport/CreateAuditActivityReport das Ergebnis (reportJobId → Datei), und legen sie mit areaId etwas in der Akte ab?
@@ -761,7 +776,7 @@ ketten:
   prozess: '5'
   schritte:
   - werkzeug: revio_list_dossiers
-    zweck: Titel, Stichtage (openingDate, balancingDate) und Vorjahresakte für Deckblatt und Berichtstext. Nur in MD
+    zweck: Titel, Stichtage (openingDate, balancingDate) und Vorjahresakte für Deckblatt und Berichtstext.
     parameter: client_id = K1
     art: lesen
   - werkzeug: rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
@@ -814,7 +829,7 @@ ketten:
   prozess: '6'
   schritte:
   - werkzeug: revio_list_dossiers
-    zweck: Kontext und Zustand der Akte prüfen (Kunde/Jahr der Anweisung = Mandatskontext). Nur in MD
+    zweck: Kontext und Zustand der Akte prüfen (Kunde/Jahr der Anweisung = Mandatskontext).
     parameter: client_id = K1
     art: lesen
   - werkzeug: rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId
@@ -831,11 +846,14 @@ ketten:
     parameter: 'body_json PdfGenerationSettingsDto {"jobId": neue Id, "clientId", "dossierId", "containerId", "subContainerId", "balancingDate", "openingDate" (K1), "reportTitle": "AP
       revio", "reportSubTitle": Kunde/Geschäftsjahr, "usesCoversheetItem", "attachementBehaviour": gemäss Vorgabe WP, "isArchiveJob": false, "printRegistersWithoutState", "showPageNumbers":
       true, "groups": aus Schritt 2 unverändert}; Feldregel isArchiveJob = false im Agenten-Code vor dem Aufruf prüfen'
-    art: vorbereiten
+    art: kandidat
+    bedingung: nur nach befristeter Freigabe je Auftrag (Prozess 6)
   - werkzeug: rv_post_containerDefinitions_MergePdfReport
     zweck: 'Kandidat, optional: Teil-PDF zusammenführen; wie Schritt 4 nur je Auftrag befristet freigegeben'
     parameter: 'body_json DocumentMergingPackageDto {"packageId", "packageName", "items": [{"referenceId", "displayName", "type"}]}'
-    art: vorbereiten
+    art: kandidat
+    optional: true
+    bedingung: nur nach befristeter Freigabe je Auftrag (Prozess 6)
   - werkzeug: rv_post_clientsManagement_ArchiveDossier
     zweck: 'NICHT durch den Agenten: Akte archivieren (ebenso rv_post_clientsManagement_ArchiveDossiers); Einstellungen der PDF-Akte ändern (rv_post_containerDefinitions_StorePdfGenerationSettings)
       ebenfalls nicht'
@@ -882,7 +900,7 @@ ketten:
   - werkzeug: rv_get_financialStatement_LoadCommonDocumentParameter
     zweck: 'Kandidat: Dokumentparameter lesen (z. B. Angabe Vollzeitstellen für T1-304)'
     parameter: 'query_json {"parameterId": Wert offen}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId
     zweck: T1-Schritte laden und activityIds bestimmen (Ablauf K5)
     parameter: 'path_params_json {"containerId": K1, "templateId": T1 (K1/K5)}'
@@ -916,7 +934,7 @@ ketten:
   - werkzeug: rv_post_workpapers_AddFilesToDocumentInbox_by_folderId
     zweck: 'Kandidat: Datei hochladen (Name «<M-Files-ID>_v<Version>_<Titel>.pdf»)'
     parameter: 'path_params_json {"folderId": Schritt 1}; kein body_schema in der Liste – Upload-Format (Datei/multipart) über das MCP offen'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_get_workpapers_LoadInboxDocuments
     zweck: attachmentId der hochgeladenen Datei bestimmen; referenceDossierId = Akte aus K1 prüfen
     parameter: 'query_json {"folderId": Schritt 1, "withLinkedFolders": false}'
@@ -924,7 +942,7 @@ ketten:
   - werkzeug: rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems
     zweck: 'Kandidat: Datei aus dem Eingang in die losen Beilagen des Zielbereichs verschieben (schreibt trotz GET)'
     parameter: 'RemoveInboxDocumentsAndAssignToAreaRequest {"areaId": Ziel-Prüffeld bzw. 10.x (K1), "documentIds": [attachmentId aus Schritt 3]}'
-    art: vorbereiten
+    art: kandidat
   - werkzeug: rv_get_workpapers_LoadDetachedAttachements_by_areaId
     zweck: attachementId in den losen Beilagen bestätigen (weiter in K6, K7, K8 oder K17)
     parameter: path_params_json {"areaId"}
@@ -934,22 +952,23 @@ ketten:
     parameter: 'path_params_json {"attachementId": Schritt 5}'
     art: lesen
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Upload und Verschiebung mit Zeitstempel, Quelle (M-Files-ID und Version), Ziel und Fehlern ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]
-      (M-Files-Werkzeug ausserhalb des revio-MCP)'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr, M-Files-Werkzeug ausserhalb des revio-MCP): Upload und Verschiebung mit Zeitstempel, Quelle (M-Files-ID und Version), Ziel und Fehlern.'
     parameter: 'path_params_json {"areaId": Zielbereich}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_delete_workpapers_DeleteDetachedAttachement_by_attachementId
     zweck: 'NICHT durch den Agenten: Fehlablage löschen (ebenso rv_delete_workpapers_RemoveFilesFromDocumentInbox_by_folderId, rv_delete_workpapers_DeleteDetachedAttachements)'
     parameter: nur Mensch
     art: nur_mensch
   - werkzeug: rv_put_attachements_UpdateAttachementsMetadata
     zweck: 'NICHT durch den Agenten, gesperrt: AttachementDto enthält dossierId, clientId und source – eine Beilage könnte einem anderen Mandat oder einer anderen Akte zugeordnet werden.
-      Umbenennen nur über rv_post_auditActivities_RenameAuditActivityAttachment (Prüfschritt) bzw. rv_post_workpapers_ChangeAttachmentTitle (Kontendokumentation), beide Kandidat und
-      nur für eigene Beilagen'
+      Umbenennen nur über rv_post_auditActivities_RenameAuditActivityAttachment (Prüfschritt) bzw. rv_post_workpapers_ChangeAttachmentTitle (Kontendokumentation), beide mit OpenClaw-Freigabe
+      und nur für eigene Beilagen (Feldregel Zuordnung)'
     parameter: body_json AttachementDto – nur Mensch
     art: nur_mensch
-  menschliche_freigabe: Schritte 2 und 4 schreiben → OpenClaw-Freigabe. Nur Dateien hochladen, deren Zugehörigkeit gegen den Mandatskontext geprüft ist ^[konzept-ki-revisionsagent-2026__c009-1].
-    Löschen, Entfernen und Ändern von Beilagen-Metadaten nur Mensch. Jede Aktion ins M-Files-Protokoll (Schritt 7).
+  menschliche_freigabe: Upload (Schritte 2, 4) Kandidat – deny bis Entscheid consis; bis dahin keine Datei hochladen, im Textfeld bzw. in der Notiz M-Files-ID und Version nennen (K6/K7).
+    Nur Dateien hochladen, deren Zugehörigkeit gegen den Mandatskontext geprüft ist ^[konzept-ki-revisionsagent-2026__c009-1]. Löschen, Entfernen und Ändern von Beilagen-Metadaten nur
+    Mensch. Jede Aktion schreibt der Agenten-Code ins M-Files-Protokoll ^[konzept-ki-revisionsagent-2026__c009-3] (Schritt 7 nur optionale Kontrolle, Kandidat).
   offene_fragen:
   - Kann das MCP Binärdateien senden? Alle rv_* nehmen nur JSON-Strings; AddFilesToDocumentInbox_by_folderId und StoreContainerDocuments_by_areaId haben kein body_schema. Ohne Upload
     kann der Agent nur auf die M-Files-ID im Textfeld verweisen.
@@ -962,40 +981,39 @@ ketten:
   prozess: allgemein
   schritte:
   - werkzeug: revio_search_endpoints
-    zweck: Katalog nach Endpunkten durchsuchen (nennt rv_*-Namen). Nur in MD
+    zweck: Katalog nach Endpunkten durchsuchen (nennt rv_*-Namen).
     parameter: query (z. B. "Note", "AuditActivities"), tag, method, limit
     art: lesen
   - werkzeug: revio_describe_endpoint
     zweck: 'Parameter und Body-Schema eines Endpunkts lesen: gehören DTO-Felder bei GET in query_json oder body_json, welche sind Pflicht, was kommt zurück (u. a. StoreContainerDocuments_by_areaId,
-      AddFilesToDocumentInbox_by_folderId). Nur in MD'
+      AddFilesToDocumentInbox_by_folderId).'
     parameter: method, path (aus der CSV, z. B. GET /api/workpapers/LoadMaterialityOfDossier)
     art: lesen
   - werkzeug: revio_describe_schema
     zweck: Feldliste bzw. Werte eines DTO lesen – v. a. Enums ohne Werte in schemas.json (AccountItemsView, FinancialValuesOrigin, EntitySource, ContainerDocumentKind, PreviousPeriodAttachmentTransferMode).
-      Nur in MD
     parameter: name = DTO-Name
     art: lesen
   - werkzeug: revio_call
     zweck: 'GESPERRT (OpenClaw deny), analog revio_create_client: der generische Aufruf umgeht jede Sperre je Werkzeug und wird auch von Menschen über den Agenten nicht gebraucht. Das
-      Schema kennt keine Art «gesperrt», daher hier als nur_mensch geführt. Nur in MD'
+      Schema kennt keine Art «gesperrt», daher hier als nur_mensch geführt.'
     parameter: method, path, path_params_json, query_json, body_json – gesperrt
     art: nur_mensch
   menschliche_freigabe: 'Keine Schreibaktion. Für die OpenClaw-Konfiguration gilt eine einzige Liste (Werkzeug → allow / allow mit Freigabe / deny), die Zuordnung, Ketten und klass zusammenführt;
-    ein Werkzeug hat genau eine Einstufung. «unklar» = deny in OpenClaw bis Entscheid Fachperson. Lesen: nur die Lesewerkzeuge aus der Zuordnung (ca. 100) allow; übrige Lesewerkzeuge
-    (alle Mandate, Archive, Firmen-QS, Personendaten, Konzern, Definitionen, Settings) deny. Methode GET heisst nicht «nur lesen» – z. B. rv_get_auditActivities_ClaudeImportAuditActivities,
-    rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult, rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems, rv_get_workpapers_StoreAccountingEstimate
-    und rv_get_workpapers_CommitIcsAreaAssessment schreiben; rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId ist Kandidat «evtl. schreibend» (Sperre); rv_get_workpapers_LoadAreaState
-    nur mit trackUser = false. Report-Jobs (Create*Report, CreateQuestionnairePDF) einheitlich «vorbereiten (Kandidat, Report-Job)»; GeneratePdfReport deny, je Auftrag befristet frei
-    (K13). Feldregeln, die OpenClaw je Werkzeug nicht erzwingt (Prüfung im Agenten-Code vor jedem Schreibaufruf bzw. JWT-Rechte des Dienstbenutzers ^[konzept-ki-revisionsagent-2026__c009-3]):
-    Cell.isVised/visaUserId/visaDate/visaText unverändert leer (UpdateDossierActivity); NoteDto.id nur leer oder eigene Notiz, isClosed = false, type ≠ Review (UpdateNote); DocumentationItemDto.state
-    = false, currentStatus nicht setzen (AddFilesToDocumentation); ImportOptions.isDeleteMode = false (Import); RejectImport nur eigene importRequestId; PdfGenerationSettingsDto.isArchiveJob
-    = false; trackUser = false. Werkzeuge, deren Felder nicht sicher begrenzbar sind, bleiben deny: PermanentFileDto.deletedAt (UpdatePermanentFile u. a.), ReApplyDetachedItems.deleteFinal,
-    publishAfter (StorePbcWorkspace, StoreQuestionnaire), AttachementDto.clientId/dossierId (UpdateAttachementsMetadata).'
+    ein Werkzeug hat genau eine Einstufung. «unklar» = deny in OpenClaw bis Entscheid Fachperson. Lesen: nur die Liste OpenClaw.werkzeuge_lesen der Zuordnung (104 rv_*-Werkzeuge) und
+    die 7 revio_*-Lesewerkzeuge allow; übrige Lesewerkzeuge (alle Mandate, Archive, Firmen-QS, Personendaten, Konzern, Definitionen, Settings) deny. Methode GET heisst nicht «nur lesen»
+    – z. B. rv_get_auditActivities_ClaudeImportAuditActivities, rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult, rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems,
+    rv_get_workpapers_StoreAccountingEstimate und rv_get_workpapers_CommitIcsAreaAssessment schreiben; rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId ist Kandidat
+    «evtl. schreibend» (Sperre); rv_get_workpapers_LoadAreaState nur mit trackUser = false. Report-Jobs (Create*Report, CreateQuestionnairePDF) einheitlich «Kandidat, Report-Job – deny
+    bis Entscheid consis»; GeneratePdfReport und MergePdfReport deny, je Auftrag befristet frei (K13). Feldregeln, die OpenClaw je Werkzeug nicht erzwingt (Prüfung im Agenten-Code vor
+    jedem Schreibaufruf bzw. JWT-Rechte des Dienstbenutzers ^[konzept-ki-revisionsagent-2026__c009-3]): Cell.isVised/visaUserId/visaDate/visaText unverändert leer (UpdateDossierActivity);
+    NoteDto.id nur leer oder eigene Notiz, isClosed = false, type ≠ Review (UpdateNote); DocumentationItemDto.state = false, currentStatus nicht setzen (AddFilesToDocumentation); ImportOptions.isDeleteMode
+    = false (Import); RejectImport nur eigene importRequestId; PdfGenerationSettingsDto.isArchiveJob = false; trackUser = false. Werkzeuge, deren Felder nicht sicher begrenzbar sind,
+    bleiben deny: PermanentFileDto.deletedAt (UpdatePermanentFile u. a.), ReApplyDetachedItems.deleteFinal, publishAfter (StorePbcWorkspace, StoreQuestionnaire), AttachementDto.clientId/dossierId
+    (UpdateAttachementsMetadata).'
   offene_fragen:
   - 'GET mit Request-DTO (über 100 rv_get_*): Bindung der Felder als Query oder Body?'
   - 'Feldregeln, die OpenClaw je Werkzeug nicht erzwingen kann: Welche Rechte bietet revio je Register für den Dienstbenutzer (Schreiben ohne Visum, nur eigene Notizen)? Was davon setzt
     das JWT durch, was der Agenten-Code (Werkzeugschicht ^[konzept-ki-revisionsagent-2026__c009-1]); der MCP-Code bleibt ohne Fachlogik.'
-  - 'Die 9 revio_*-Komfortwerkzeuge stehen nur in revio-mcp-werkzeuge.md: CSV um die 9 Zeilen ergänzen oder in OpenClaw getrennt freigeben?'
 - id: K17
   aufgabe: Unterlagen 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven und 10.4 Jahresrechnung/Vollständigkeitserklärung ablegen und mit Bereich 1 abgleichen (A1-103, A1-303,
     A1-307, A1-308)
@@ -1059,9 +1077,10 @@ ketten:
     parameter: wie K7 Schritt 3, areaId = 10.x bzw. A1
     art: vorbereiten
   - werkzeug: rv_get_workpapers_LoadAreaHistory_by_areaId
-    zweck: 'Audit Trail: Ablage, Abgleich und Notizen mit Zeitstempel, Quelle (M-Files-ID und Version), Berechnung und Fehlern ins M-Files-Protokoll pro Mandat und Jahr übernehmen ^[konzept-ki-revisionsagent-2026__c009-3]'
+    zweck: 'optional (Kandidat, deny): Kontrolle; den Protokolleintrag schreibt der Agenten-Code aus den eigenen Aufrufen und Antworten ^[konzept-ki-revisionsagent-2026__c009-3]. Inhalt
+      (M-Files-Protokoll pro Mandat und Jahr): Ablage, Abgleich und Notizen mit Zeitstempel, Quelle (M-Files-ID und Version), Berechnung und Fehlern.'
     parameter: 'path_params_json {"areaId": 10.x bzw. A1}'
-    art: lesen
+    art: kandidat
   - werkzeug: rv_post_financialStatement_ApplyHiddenReserveItem
     zweck: 'NICHT durch den Agenten bis Entscheid consis (unklar = deny): stille Reserven erfassen; wirkt vermutlich auf HB II bzw. die ER-Klassifikation in Bereich 1. Ebenso rv_post_financialStatement_ApplyIncomeClassificationItem,
       rv_post_financialStatement_ReorderHiddenReserveItems, rv_post_financialStatement_ApplyLegacyHiddenReserves, rv_delete_financialStatement_DeleteHiddenReserveItems. Bis dahin: abstimmen,
@@ -1079,9 +1098,9 @@ ketten:
     parameter: nur Mensch
     art: nur_mensch
   menschliche_freigabe: Lesen frei; Ablage (Schritte 7 und 9), Textfeld (Schritt 11) und Notiz (Schritt 12) mit OpenClaw-Freigabe, nur in Bereich 10 und 4 ^[konzept-ki-revisionsagent-2026__c006-1].
-    Stille Reserven und Umbuchungen erfasst und verbucht nur der Mensch; Buchungsvorschläge nur als Notiz ^[konzept-ki-revisionsagent-2026__c015-1]. Status in Bereich 10 setzt der Mensch
-    ^[konzept-ki-revisionsagent-2026__c008-1]. Die VE bespricht der WP mit dem Kunden und lässt sie unterzeichnen (A1-103); der Agent prüft nur das Vorliegen. Jede Aktion ins M-Files-Protokoll
-    ^[konzept-ki-revisionsagent-2026__c009-3].
+    Stille Reserven erfasst bis zum Entscheid consis nur der Mensch (ApplyHiddenReserveItem u. a. unklar = deny). Umbuchungen erfasst und verbucht nur der Mensch ^[flussdiagramm-revisionsagent-2026__s001-5];
+    Buchungsvorschläge nur als Notiz, ohne Verbuchung ^[konzept-ki-revisionsagent-2026__c015-1]. Status in Bereich 10 setzt der Mensch ^[konzept-ki-revisionsagent-2026__c008-1]. Die
+    VE bespricht der WP mit dem Kunden und lässt sie unterzeichnen (A1-103); der Agent prüft nur das Vorliegen. Jede Aktion ins M-Files-Protokoll ^[konzept-ki-revisionsagent-2026__c009-3].
   offene_fragen:
   - Ist 10.1 Saldenbilanz eine eigene Ablage (Dokument) oder dieselbe Kontenansicht wie in Bereich 1?
   - Sind 10.1–10.4 Dokumentcontainer (ContainerDocumentKind) wie 10.9? Welche entityId und welcher targetSource gelten für MoveDetachedAttachmentsToWorkingArea?

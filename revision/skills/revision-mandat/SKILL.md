@@ -5,16 +5,23 @@ description: Übersicht über eine ganze eingeschränkte Revision (Mandat) – P
 
 # Mandat: Revision im Überblick
 
-Kein starrer Ablauf – je Situation prüfen, was nötig ist. Einstieg `prozess` (Phasen p1–p8 + Agent-Prozesse 1–6), dann die Phase.
+Phasen p1–p8 der Revision: kein starrer Ablauf, je Situation prüfen (`prozess`). Agent-Prozesse: 1–5 der Reihe nach, 6 (PDF-Akte)
+nur auf Anweisung des WP ^[konzept-ki-revisionsagent-2026__c010-1]; Testphase: Halt nach dem Import
+^[konzept-ki-revisionsagent-2026__c009-3]. Start: `aufgabe mandat-start`.
 
 | Situation | Aufruf |
 |---|---|
-| Neues/fortgeführtes Mandat, Unabhängigkeit, Revisionsart | `prozess p1` · `revisionspflicht …` · `wert revisionspflicht` |
-| Planung, Risiken, Wesentlichkeit, Prüfprogramm, PBC | `prozess p2` · `wesentlichkeit …` · `unterlagen alle` |
-| Prüffelder bearbeiten | Skill `revision-pruefschritt` · `prueffeld <code>` |
-| Abschluss: VE, Ereignisse nach Stichtag, Going Concern, Schlussbesprechung | `prozess p4` |
-| Bericht, Modifikationen, Hinweise, Gewinnverwendung | `prozess p5` · `thema hinweispflichten` |
-| Kapitalverlust, Überschuldung, Rangrücktritt | `prozess p6` · `kapitalverlust …` |
+| Neues/fortgeführtes Mandat (Kontext fixieren) | `aufgabe mandat-start` |
+| Auftrag, Unabhängigkeit, Revisionsart | `aufgabe auftrag` · `prozess p1` · `revisionspflicht …` · `wert revisionspflicht` |
+| Import Jahresrechnung (Prozess 1) | `aufgabe import` |
+| Planung, Risiken, Wesentlichkeit | `aufgabe wesentlichkeit` · `prozess p2` · `wesentlichkeit …` |
+| Prüffelder bearbeiten (Prozess 2) | `aufgabe <code>` (z.B. `aufgabe C1`) · Skill `revision-pruefschritt` |
+| Unterlagen 10.9, PBC (Prozess 3) | `aufgabe unterlagen` · `unterlagen alle` |
+| Abschluss: VE, Ereignisse nach Stichtag, Going Concern, Schlussbesprechung | `aufgabe abschluss` · `prozess p4` |
+| Bericht an die GV (Prozess 5), Modifikationen, Hinweise, Gewinnverwendung | `aufgabe gvb-bericht` · `prozess p5` · `thema hinweispflichten` |
+| Kapitalverlust, Überschuldung, Rangrücktritt | `aufgabe kapitalschutz` · `prozess p6` · `kapitalverlust …` |
+| Revisionsrapport (Prozess 4) | `aufgabe rapport` |
+| PDF-Akte (Prozess 6, nur auf Anweisung) | `aufgabe pdf-akte` |
 | Dokumentation, Aufbewahrung, Datenschutz/KI | `prozess p7` · `regeln grenze` |
 | Agent-Prozesse, revio-Ketten | `prozess p8` · `revio ketten` |
 
@@ -25,12 +32,15 @@ Kein starrer Ablauf – je Situation prüfen, was nötig ist. Einstieg `prozess`
 gegen 7.1/7.5 prüfen; keine Unterzeichnung, keine Datierung) · 6 PDF-Akte (nur auf Anweisung).
 
 ## Revisionsrapport (Prozess 4) – Aufbau
-1. Wesentliche Feststellungen und offene Punkte zuerst (mit Schritt-Id, Notiz, Betrag).
-2. Status je Prüffeld/Schritt: vorbereitet · mit Feststellungen · teilweise · nicht bearbeitet (mit Grund).
-3. Pendenzen (fehlende Unterlagen, Fragen an Kunden) und PBC-Vorschläge.
-4. Entscheide für den WP (z.B. Kapitalverlust/Überschuldung, Hinweise im Bericht, WP-Schritte).
+Offene und wesentliche Punkte zuerst, mit Verweis auf Schritt und Notiz ^[konzept-ki-revisionsagent-2026__c011-2]. Checkliste: `aufgabe rapport`.
+1. Wesentliche Feststellungen (Schritt-Id, Notiz, Betrag, Buchungsvorschlag).
+2. Offene Pendenzen und PBC-Vorschläge.
+3. Status je Prüffeld (vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet + Grund).
+4. Entscheide für den WP (z.B. Kapitalverlust/Überschuldung, Hinweise im Bericht, WP-Schritte, Verstoss gegen Covid-Kredit-Auflagen
+   nach Covid-19-SBüG Art. 23 ^[covid-sbueg__art-23]).
 Keine Prüfungsaussage, kein Urteil über die Jahresrechnung – das ist Sache des WP.
 
 ## Grenzen
 Kein Visum, kein Abschluss, keine Freigabe, keine Unterzeichnung/Datierung, kein Versand an Kunden, keine Buchung, keine Änderung
-der Wesentlichkeit/Planung. Berufsgeheimnis (OR 730b) und Datenschutz: Mandantendaten nur im vorgesehenen System.
+der Wesentlichkeit/Planung. Geheimhaltung der Revisionsstelle (OR 730b Abs. 2) ^[or__art-730b] und Berufsgeheimnis für Revisoren
+und ihre Hilfspersonen (StGB 321) ^[stgb__art-321] sowie Datenschutz: Mandantendaten nur im vorgesehenen System.

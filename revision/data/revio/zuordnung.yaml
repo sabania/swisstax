@@ -47,21 +47,24 @@ bereiche:
   - rv_get_containerDefinitions_LoadConditionAttributeStatus
   - rv_get_workpapers_LoadAreaHistory_by_areaId
   - rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId
-  hinweise: 'Alle Zuordnungen sind aus Werkzeugname, Pfad und Body-DTO (revio-schemas.json) abgeleitet; die Spalte «beschreibung» der CSV ist bei allen 840 rv_*-Werkzeugen leer. Vor
-    jeder Schreibfreigabe in OpenClaw am Testmandat bestätigen. Die Komfortwerkzeuge revio_find_clients, revio_list_dossiers und revio_open_dossier entsprechen LoadClients, LoadAnualFilesForClient_by_clientId
-    und LoginDossier_by_clientId_by_dossierId; sie stehen nur in revio-mcp-werkzeuge.md, nicht in der CSV (CSV = 840 rv_*-Zeilen, nicht 849). LoginDossier ist GET, setzt aber den Dossier-Kontext
-    auf dem Server: die meisten Workpapers-/FinancialStatement-Werkzeuge haben keinen dossierId-Parameter und arbeiten vermutlich auf dem angemeldeten Dossier (Kandidat, testen). Vor
-    jedem Schreibaufruf Kontext gegen AnualFileDto (clientId, id, balancingDate) prüfen; bei Abweichung abbrechen und Pendenz. revio_call (generischer Aufruf mit method/path) umgeht
-    die Sperre je Werkzeug in OpenClaw und ist gesperrt (deny, auch nicht für Menschen über den Agenten); ebenso revio_create_client. LoadActiveAreaUsers_by_areaId vor dem Schreiben
-    nutzen, um gleichzeitige Bearbeitung durch Menschen zu erkennen (Zweck Kandidat). ALLGEMEINE REGELN (gelten für alle Bereiche): (1) Eine Einstufung je Werkzeug: OpenClaw kennt je
-    Werkzeug nur allow oder deny. Steht ein Werkzeug in mehreren Bereichen verschieden, gilt die strengste Einstufung (nur_mensch > Kandidat > vorbereiten > lesen); die harmonisierte
-    Liste steht im Abschnitt «OpenClaw». (2) «Kandidat» bzw. «unklar» heisst bei schreibenden Werkzeugen: deny in OpenClaw bis Entscheid der Fachperson (consis) und Bestätigung am Testmandat;
-    danach höchstens vorbereiten mit Auflagen. Bei reinen Lesewerkzeugen heisst «Kandidat» nur «Eignung unbestätigt». (3) Allow-Liste lesen = nur die Lesewerkzeuge dieser Zuordnung (Abschnitt
-    «OpenClaw»); alle übrigen Lesewerkzeuge deny, weil sie über die Akte hinausreichen (alle Mandate und Archive, Firmen-QS, Personendaten, z.B. rv_get_clientsManagement_LoadAllAnualFiles,
-    rv_get_clientsManagement_LoadArchiveForYear_by_year, rv_get_clientsManagement_LoadMandateRotationOverview, rv_get_clientsManagement_LoadFilesReadyForArchive_by_userId) oder trotz
-    GET schreiben. (4) rv_get_workpapers_LoadAreaState nur mit trackUser=false aufrufen (LoadAreaStateRequest {areaId, trackUser}; trackUser=true registriert vermutlich Präsenz). rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId
-    könnte eine Sperre setzen → Kandidat «evtl. schreibend», deny. (5) rv_get_clientsManagement_LoadClients liefert alle Kunden: Ergebnis sofort auf den beauftragten Kunden einschränken,
-    nichts davon speichern oder weitergeben. (6) Vorjahr ohne Kontextwechsel lesen: zuerst rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId,
+  hinweise: 'Alle Zuordnungen sind aus Werkzeugname, Pfad und Body-DTO (revio-schemas.json) abgeleitet; die Spalte «beschreibung» der Roh-CSV raw/revio/revio-mcp-werkzeuge.csv ist bei
+    allen 840 rv_*-Werkzeugen leer. Vor jeder Schreibfreigabe in OpenClaw am Testmandat bestätigen. Die Komfortwerkzeuge revio_find_clients, revio_list_dossiers und revio_open_dossier
+    entsprechen LoadClients, LoadAnualFilesForClient_by_clientId und LoginDossier_by_clientId_by_dossierId; revio_* sind in data/revio/werkzeuge.csv eingestuft (revio_call, revio_create_client
+    gesperrt; übrige lesen), die Roh-CSV raw/revio/revio-mcp-werkzeuge.csv hat nur die 840 rv_*. LoginDossier ist GET, setzt aber den Dossier-Kontext auf dem Server: die meisten Workpapers-/FinancialStatement-Werkzeuge
+    haben keinen dossierId-Parameter und arbeiten vermutlich auf dem angemeldeten Dossier (Kandidat, testen). Vor jedem Schreibaufruf Kontext gegen AnualFileDto (clientId, id, balancingDate)
+    prüfen; bei Abweichung abbrechen und Pendenz. revio_call (generischer Aufruf mit method/path) umgeht die Sperre je Werkzeug in OpenClaw und ist gesperrt (deny, auch nicht für Menschen
+    über den Agenten); ebenso revio_create_client. LoadActiveAreaUsers_by_areaId vor dem Schreiben nutzen, um gleichzeitige Bearbeitung durch Menschen zu erkennen (Zweck Kandidat). ALLGEMEINE
+    REGELN (gelten für alle Bereiche): (1) Eine Einstufung je Werkzeug: OpenClaw kennt je Werkzeug nur allow oder deny. Steht ein Werkzeug in mehreren Bereichen verschieden, gilt die
+    strengste Einstufung (nur_mensch > Kandidat > vorbereiten > lesen); die harmonisierte Liste steht im Abschnitt «OpenClaw». (2) «Kandidat» bzw. «unklar» heisst bei schreibenden Werkzeugen:
+    deny in OpenClaw bis Entscheid der Fachperson (consis) und Bestätigung am Testmandat; danach höchstens vorbereiten mit Auflagen. Bei reinen Lesewerkzeugen heisst «Kandidat» nur «Eignung
+    unbestätigt». (3) Allow-Liste lesen = nur die Lesewerkzeuge dieser Zuordnung (Abschnitt «OpenClaw»); alle übrigen Lesewerkzeuge deny, weil sie über die Akte hinausreichen (alle Mandate
+    und Archive, Firmen-QS, Personendaten, z.B. rv_get_clientsManagement_LoadAllAnualFiles, rv_get_clientsManagement_LoadArchiveForYear_by_year, rv_get_clientsManagement_LoadMandateRotationOverview,
+    rv_get_clientsManagement_LoadFilesReadyForArchive_by_userId; in werkzeuge.csv gesperrt) oder trotz GET schreiben. Grundlage dieser Sperre: harter Mandatskontext und Werkzeugschicht
+    mit eng begrenzten Rechten ^[konzept-ki-revisionsagent-2026__c009-1]; Personendaten nur verhältnismässig und zweckgebunden bearbeiten ^[dsg__art-6]. Hintergrund: Die Revisionsstelle
+    wahrt das Geheimnis über ihre Feststellungen ^[or__art-730b], Revisoren unterstehen dem Berufsgeheimnis ^[stgb__art-321] – keine Vermischung von Mandatsdaten in Rapport, Notizen
+    oder Bericht eines anderen Mandats. (4) rv_get_workpapers_LoadAreaState nur mit trackUser=false aufrufen (LoadAreaStateRequest {areaId, trackUser}; trackUser=true registriert vermutlich
+    Präsenz). rv_get_containerDefinitions_GetContainerTaxonomyLock_by_containerId könnte eine Sperre setzen → Kandidat «evtl. schreibend», deny. (5) rv_get_clientsManagement_LoadClients
+    liefert alle Kunden: Ergebnis sofort auf den beauftragten Kunden einschränken, nichts davon speichern oder weitergeben. (6) Vorjahr ohne Kontextwechsel lesen: zuerst rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId,
     rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId, rv_get_attachements_GetPreviousPeriodAttachementMetadata_by_attachementId, rv_get_workpapers_LoadMaterialityOfDossier
     mit dossierId = previousDossierId und die Vorjahreswerte in LoadAccountView/LoadCoverSheet. Ein Kontextwechsel (LoginDossier auf previousDossierId) nur als letzte Option: Solange
     der angemeldete Kontext nicht der aktuellen Akte entspricht, sperrt der Agenten-Code alle Schreibwerkzeuge; nach der Rückkehr den Kontext mit TryLoginDossier_by_clientId_by_dossierId
@@ -72,9 +75,9 @@ bereiche:
     (x-320/321/322 und Prüffeld).'
 - nr: '1'
   name: Jahresrechnung und Finanzcockpit (1.1 Bilanz/ER/Anhang/Antrag VR, 1.2 Kennzahlen, 1.3 Spezialauswertungen, HB I/HB II)
-  rolle_agent: 'Lesen für Analytik und Abstimmungen (Kontenübersicht, Kennzahlen, Vorjahr) sowie Import-Simulation und Import-Vorschau. Prozess 1 (Import definitive Bilanz/ER) ist bis
-    zum Entscheid von consis nur Kandidat: höchstens eine eigene Vorschau anlegen (CreateAccountItemsFromImport) und diese verwerfen (RejectImport). Übernahme, Kontenstruktur und -zuordnung,
-    Werte, Anhang, Antrag VR, Buchungen und Periodensiegel bleiben beim Menschen.'
+  rolle_agent: Lesen für Analytik und Abstimmungen (Kontenübersicht, Kennzahlen, Vorjahr) sowie Import-Simulation und Import-Vorschau. Prozess 1 (Import definitive Bilanz/ER) ist bis
+    zum Entscheid von consis nur Kandidat (deny); danach höchstens eine eigene Vorschau anlegen (CreateAccountItemsFromImport) und diese verwerfen (RejectImport). Übernahme, Kontenstruktur
+    und -zuordnung, Werte, Anhang, Antrag VR, Buchungen und Periodensiegel bleiben beim Menschen.
   werkzeuge_lesen:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadAccountViewForSmartPanelOfDossier
@@ -160,8 +163,8 @@ bereiche:
     Ob ein Geschäftsjahr versiegelt ist, steht in FinancialYearDto.isSealed; LoadSealHistory nur ergänzend. «ForFinancialPeriod»-Werkzeuge nehmen from/to. HB I/HB II: vermutlich Enum
     FinancialValuesOrigin (in schemas.json ohne Werte); Kennzahlen 1.2 = LoadKeyFigureView/LoadKeyFigureItems; 1.3 Spezialauswertungen Kandidat LoadSpecialAccountView/LoadCashflowDetail.
     Antrag VR (Gewinnverwendung) vermutlich benutzerdefinierte Einheit (LoadUserDefinedUnitForFinancialPeriod) – Kandidat. CreateSnapshot (unklar) wäre eine Sicherung vor einem Import
-    – deny bis Entscheid; RestoreSnapshot und DeleteSnapshot nur Mensch. CreatePreviewReport und GenerateFinancialStatementReport = Report-Job, einheitlich «vorbereiten (Kandidat, Report-Job)»,
-    bis geklärt ist, ob der Bericht in der Akte abgelegt wird.'
+    – deny bis Entscheid; RestoreSnapshot und DeleteSnapshot nur Mensch. CreatePreviewReport und GenerateFinancialStatementReport = Report-Job, einheitlich «Kandidat, Report-Job – deny
+    bis Entscheid consis», bis geklärt ist, ob der Bericht in der Akte abgelegt wird.'
 - nr: '2'
   name: Vorbereitung (2.1 Tätigkeit und Umfeld, 2.2 Auftragsannahme und Weiterführung, 2.4 Auftragsvoraussetzungen und Unabhängigkeit)
   rolle_agent: Nur lesen (Empfehlung; Leserechte 2.1/2.4 noch zu entscheiden) – Verständnis von Tätigkeit und Umfeld für die risikoorientierte Prüfung. Keine Einträge, kein Visum, kein
@@ -199,9 +202,9 @@ bereiche:
     aktiv sind – lesen ja, schliessen (SetContainerQuestionnaireClosedState) nie. Bereichsneutrale Schreibwerkzeuge rv_post_checklists_StoreChecklistData, rv_post_workpapers_StoreDynamicFormDataItem
     und rv_post_workpapers_StoreDynamicFormPanelAttachment: die areaId steht im Body, Checklisten-Zellen tragen Visumsfelder (Cell.isVised, visaUserId, visaDate, visaText). Einstufung
     in OpenClaw: deny, bis (a) die Komponente der Abschliessenden Beurteilung und der Register in 4/10 am Testmandat bestimmt ist und (b) das JWT des Dienstbenutzers Schreibrechte nur
-    je Register in 4/10 und kein Visumsrecht hat. Danach höchstens vorbereiten (Kandidat) mit Auflage areaId ∈ {Register in Bereich 4 und 10}; in 2, 3, 6, 7 und 9 bleiben sie nur Mensch.
-    LoadMandateRotationOverview (Übersicht über alle Mandate) wird nicht freigegeben. LoadShareRegister_by_asOf (Aktienbuch per Stichtag) wird auch für P1, D1, H1, H2, M1, N1 gelesen.
-    Report-Jobs (CreateDynamicFormReport, CreateChecklistReport): «vorbereiten (Kandidat, Report-Job)».'
+    je Register in 4/10 und kein Visumsrecht hat. Danach höchstens vorbereiten mit Auflage areaId ∈ {Register in Bereich 4 und 10} (bis dahin Kandidat = deny); in 2, 3, 6, 7 und 9 bleiben
+    sie nur Mensch. LoadMandateRotationOverview (Übersicht über alle Mandate) wird nicht freigegeben (werkzeuge.csv: gesperrt). LoadShareRegister_by_asOf (Aktienbuch per Stichtag) wird
+    auch für P1, D1, H1, H2, M1, N1 gelesen. Report-Jobs (CreateDynamicFormReport, CreateChecklistReport): «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '3'
   name: Planung (3.1 Risikobeurteilung, 3.2 Abschlussanalyse, 3.4 Going concern, 3.5 Strategische Planung, 3.6 Auftragsteam)
   rolle_agent: 'Nur lesen: Risiken und Prüfziele je Prüffeld (3.1), Abschlussanalyse (3.2), Going concern (3.4), Prüfungstiefe/Priorität/zugewiesene Mitarbeiter je Prüffeld (3.5) und
@@ -241,7 +244,7 @@ bereiche:
     assignedWorkers, assignedAuditProcedures); je Prüffeld direkt LoadAuditFieldStrategy (LoadAuditFieldStrategyRequest: areaCode, areaId). 3.2: LoadAnalyticalAuditProcedure (AnalyticalAuditDto:
     isSealed, years, significanceThreshold, balanceSheet, incomeStatement, keyFigures) ist Kandidat für 3.2 und/oder 6.2 – Zuordnung am Testmandat prüfen. 3.4 Going concern: Komponente
     (Checkliste/Formular) offen; StoreChecklistData und StoreDynamicFormDataItem sind hier nur Mensch (siehe Bereich 2). Ob der Agent in 3.5 als «zugewiesener Mitarbeiter» geführt wird
-    (AssignDossierUser/assignedWorkers), entscheidet der Mensch. Report-Jobs: «vorbereiten (Kandidat, Report-Job)».'
+    (AssignDossierUser/assignedWorkers), entscheidet der Mensch. Report-Jobs: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '3.3'
   name: Wesentlichkeit
   rolle_agent: 'Nur lesen, nie ändern: Gesamtwesentlichkeit, Toleranzwesentlichkeit (Umfang/Stichprobe) und Nicht-Aufgriffsgrenze anwenden; unplausible Festlegung (Bezugsgrösse, Prozentsatz,
@@ -259,7 +262,7 @@ bereiche:
     value, percentage, classifications], selectedReferenceSize, justificationOfMaterialityDetermination, specialCircumstances, specificMaterialityItems, maximumValues, toleranceValues,
     pickUpValues (je MaterialityValueDto: value, previousValue, percentage). Zuordnung maximumValues ≈ Gesamtwesentlichkeit, toleranceValues ≈ Toleranzwesentlichkeit, pickUpValues ≈
     Nicht-Aufgriffsgrenze ist Kandidat (Feldnamen, nicht dokumentiert). isSealed=false heisst: Werte können sich noch ändern → betroffene Schritte im Rapport kennzeichnen. Die Kontenübersicht
-    kennzeichnet Konten unter der Aufgriffsgrenze (CoverPageBalanceItemDto.isBelowPickupValue). CreateMaterialityReport: «vorbereiten (Kandidat, Report-Job)».'
+    kennzeichnet Konten unter der Aufgriffsgrenze (CoverPageBalanceItemDto.isBelowPickupValue). CreateMaterialityReport: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '4'
   name: Abschlussprüfung – 29 Prüffelder A1–T1 (Kontenübersicht, Prüfschritte, Abschliessende Beurteilung)
   rolle_agent: 'Kernarbeit (Prozess 2): Prüfschritte lesen, Nachweise beschaffen, Ergebnis je Schritt im Textfeld dokumentieren, Beilagen anhängen, Konten kommentieren, Notizen erfassen.
@@ -376,7 +379,7 @@ bereiche:
     Prüffeld: Komponente nicht eindeutig (Kandidat dynamisches Formular/ICS-Beurteilung, Hinweis MigrateLegacyFinalAssessment); StoreDynamicFormDataItem deshalb im Prüffeld nur Kandidat
     (deny bis (a) Komponente bestimmt und (b) JWT ohne Visumsrecht, danach Auflage areaId ∈ {Register in 4, 10}, siehe Bereich 2) und nie für die Abschliessende Beurteilung. Dauerakten
     (AppendPermanentFiles, UpdatePermanentFile): unklar, deny bis Entscheid, siehe x-322. Schätzungen (StoreAccountingEstimate, StoreAccountingEstimateAttachment): unklar, deny bis Entscheid
-    «Delkredere». CreateAuditActivityReport und CreateAccountDocumentationReport: «vorbereiten (Kandidat, Report-Job)».'
+    «Delkredere». CreateAuditActivityReport und CreateAccountDocumentationReport: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '6'
   name: Beendigung (6.1 nicht nachgebuchte Fehler, 6.2 abschliessende Analytik, 6.3 Ereignisse nach Bilanzstichtag/Going concern, 6.4 Risiko-Dashboard)
   rolle_agent: 'Nur lesen: 6.2 als Leitfaden für die Plausibilisierung, 6.4 als Risikoüberblick. Die Summe der nicht korrigierten Fehler (6.1) beurteilt der Mensch; der Agent liefert
@@ -408,7 +411,7 @@ bereiche:
   - rv_post_financialStatement_CreateLedgerAdjustmentsReport
   hinweise: 'Ort von 6.1 offen: Kandidat Umbuchungen mit isActive=false/profitChangeState (LedgerAdjustementDto) oder eigene Checkliste. 6.3 und 6.4: Komponente (Checkliste/Formular/Risiko-Modul)
     am Testmandat bestimmen. LoadAnalyticalAuditProcedure ist Kandidat für 3.2 und 6.2. StoreChecklistData und StoreDynamicFormDataItem sind hier nur Mensch (bereichsneutral, siehe Bereich
-    2). Report-Jobs: «vorbereiten (Kandidat, Report-Job)».'
+    2). Report-Jobs: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '7'
   name: Berichterstattung (7.1 Berichtsstrategie, 7.4 Versandfiche, 7.5 Berichtskritik)
   rolle_agent: 'Nur lesen: Vorgabe für den GVB-Entwurf (Prozess 5, Word in M-Files – nicht in revio). Berichte erzeugen, unterzeichnen, datieren oder versenden nur der Mensch.'
@@ -439,7 +442,7 @@ bereiche:
   hinweise: 'Erzeugte Berichte in revio sind GeneratedDocumentDto mit signingDetails (DocumentSigningDetailsDto: providerName, state, signingUsers) und leftUserId/rightUserId → Unterzeichnungsweg,
     nie Agent. Textbausteine/Rechtsform-Parameter (LoadRevio3TextModuleList_by_textmoduleTag, LoadRevio3LegalFormParameterList, LoadReportParameters) können den GVB-Normalwortlaut liefern
     (Kandidat). 7.4 Versandfiche: Versand ist immer menschlich. StoreChecklistData und StoreDynamicFormDataItem sind hier nur Mensch (bereichsneutral, siehe Bereich 2). Report-Jobs:
-    «vorbereiten (Kandidat, Report-Job)».'
+    «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '9'
   name: Qualitätssicherung (9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk)
   rolle_agent: Keine Rolle; höchstens Status lesen für den Rapport. Review, Siegel, Archivierung und Freigabe sind ausschliesslich menschlich.
@@ -472,8 +475,8 @@ bereiche:
   - rv_get_clientsManagement_LoadArchiveVersions_by_dossierId
   - rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId
   hinweise: 'Die Firmen-QS (ISQM: LoadQualityAssuranceModel_by_year, Trainings, Bestätigungen, QS-Dokumente) gehört nicht zur Akte und ist für den Agenten nicht freigegeben. LoadFilesReadyForArchive_by_userId
-    (mandatsübergreifend) wird nicht freigegeben. Der Gesamtstatus der Akte steht in AnualFileDto (state, progress, sealRequestedDate, lastSealActionDate) aus LoadAnualFilesForClient_by_clientId.
-    StoreChecklistData und StoreDynamicFormDataItem sind hier nur Mensch (9.0 Abschliessende Beurteilung).'
+    (mandatsübergreifend) wird nicht freigegeben (werkzeuge.csv: gesperrt). Der Gesamtstatus der Akte steht in AnualFileDto (state, progress, sealRequestedDate, lastSealActionDate) aus
+    LoadAnualFilesForClient_by_clientId. StoreChecklistData und StoreDynamicFormDataItem sind hier nur Mensch (9.0 Abschliessende Beurteilung).'
 - nr: '10'
   name: Unterlagen zum Abschluss – allgemein (Dokumenteneingang, 10.5 Berichtsablage, 10.6 Korrespondenz)
   rolle_agent: 'Prozess 3: Unterlagen aus M-Files bzw. Dokumenteneingang dem richtigen Register zuordnen und ablegen; fehlende Unterlagen als Pendenz und PBC-Vorschlag (Pendenz-Notiz).
@@ -531,7 +534,7 @@ bereiche:
     kann Bereich 4/10 nicht von 2/3/6/7 unterscheiden; Sperre je Register nur über JWT. StoreChecklistData bleibt Kandidat (deny bis Komponente und JWT geklärt, danach Auflage areaId
     ∈ {Register in 4, 10}, siehe Bereich 2). UpdateDocumentationItems (state = ✓) nur Mensch; UpdateAttachementsMetadata (dossierId/clientId im Body) gesperrt – Umbenennen nur mit ChangeAttachmentTitle.
     InitializeSnapshareTransfer_by_transferId und ProcessSnapshareDownloads: gesperrt (Systemfunktion), auch nicht für Menschen über den Agenten. Report-Jobs (CreateDocumentContainerReport,
-    CreateAttachementsReport): «vorbereiten (Kandidat, Report-Job)».'
+    CreateAttachementsReport): «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '10.1'
   name: Saldenbilanz
   rolle_agent: Saldenbilanz bzw. definitive Bilanz/ER als Beleg ablegen und mit den Werten in Bereich 1 abstimmen; Differenzen als Pendenz. Der Datenimport (Prozess 1) schreibt in Bereich
@@ -590,7 +593,7 @@ bereiche:
   - rv_post_financialStatement_ExportLedgerAdjustments
   hinweise: 'LedgerAdjustementDto: period, debitAccount, creditAccount, text, comment, version, versionGroup, date, value, result, profitChangeState, cumulatedResult, isActive. Ob diese
     «Ledger Adjustments» die Umbuchungsliste 10.2 oder Nachbuchungen im Finanzcockpit sind, am Testmandat prüfen. ImportLedgerAdjustments ist GET, schreibt aber Umbuchungen → nur Mensch.
-    CreateLedgerAdjustmentsReport: «vorbereiten (Kandidat, Report-Job)»; ExportLedgerAdjustments Kandidat (Wirkung offen).'
+    CreateLedgerAdjustmentsReport: «Kandidat, Report-Job – deny bis Entscheid consis»; ExportLedgerAdjustments Kandidat (Wirkung offen).'
 - nr: '10.3'
   name: Stille Reserven
   rolle_agent: Aufstellung der stillen Reserven lesen, mit der unterzeichneten Kundenaufstellung abstimmen, Veränderung/Nettoauflösung beurteilen (x-321, T1-305, P1-313); Kundenaufstellung
@@ -621,7 +624,7 @@ bereiche:
     isAssetAccount, hiddenReserverTitle, values], taxPercent, taxBalanceAccount, taxIncomeAccount, hiddenReserveTotalValues, netValues, taxValues, lossOffsetValues; HiddenReserveItemValuesDto
     mit hiddenReserveValue, previousHiddenReserveValue, deviationValue (= Veränderung). Schreib-Body UpdateHiddenReserveRequest: period (PeriodDto aus LoadFinancialYears), item (HiddenReserveItemDto).
     Die Kontenübersicht der Prüffelder enthält hiddenReservesClassificationItems/hiddenReserveTotalItem (CoverSheetDto) – Brücke zu den Schritten x-321. Steuersatz/Verlustverrechnung
-    (UpdateTaxConfiguration, UpdateLossOffsetValue) sind Bewertungsentscheide → Mensch. CreateHiddenReserveReport: «vorbereiten (Kandidat, Report-Job)».'
+    (UpdateTaxConfiguration, UpdateLossOffsetValue) sind Bewertungsentscheide → Mensch. CreateHiddenReserveReport: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: '10.4'
   name: Jahresrechnung und Vollständigkeitserklärung
   rolle_agent: Unterzeichnete Jahresrechnung und Vollständigkeitserklärung (A1-103) auf Vorhandensein prüfen, ablegen und mit den Werten in Bereich 1 abgleichen; fehlt etwas → Pendenz
@@ -646,9 +649,9 @@ bereiche:
   - rv_post_checklists_StoreChecklistData
   - rv_post_financialStatement_GenerateFinancialStatementReport
   - rv_post_financialStatement_CreatePreviewReport
-  hinweise: 'GenerateFinancialStatementReport/CreatePreviewReport erzeugen einen Bericht der Jahresrechnung aus revio (zum Abgleich mit der unterzeichneten Fassung) – «vorbereiten (Kandidat,
-    Report-Job)»; wie das Ergebnis abgeholt wird (reportId/previewId) und ob es in der Akte abgelegt wird, ist offen. StoreChecklistData: Kandidat mit Auflage (siehe Bereich 2). StoreContainerDocuments_by_areaId:
-    unklar (deny), nur Alternative (siehe Bereich 10).'
+  hinweise: 'GenerateFinancialStatementReport/CreatePreviewReport erzeugen einen Bericht der Jahresrechnung aus revio (zum Abgleich mit der unterzeichneten Fassung) – «Kandidat, Report-Job
+    – deny bis Entscheid consis»; wie das Ergebnis abgeholt wird (reportId/previewId) und ob es in der Akte abgelegt wird, ist offen. StoreChecklistData: Kandidat mit Auflage (siehe
+    Bereich 2). StoreContainerDocuments_by_areaId: unklar (deny), nur Alternative (siehe Bereich 10).'
 - nr: '10.9'
   name: Protokolle
   rolle_agent: 'Prozess 3: GV-/VR-Protokolle (v.a. Vorjahres-GV mit Genehmigung und Gewinnverwendung) aus M-Files beschaffen, Zugehörigkeit prüfen (Kunde, Datum, Geschäftsjahr) und als
@@ -723,8 +726,8 @@ bereiche:
   hinweise: 'QuestionnaireDto: id, title, isPublished, userSubmitted, userSubmittedEmail, openingDate, questionnaireSections[QuestionnaireSectionDto: title, isCompleted, questions[QuestionnaireQuestionDto:
     id, text, type, value, dependentQuestion, dependentOn]]. Antworten nur verwerten, wenn userSubmitted=true; sonst «teilweise bearbeitet» und Pendenz. Zuordnung Frage → Prüfschritt
     über Text (z.B. T1-101 bis T1-112, S1-101 bis S1-104); Quelle im Textfeld nennen (Fragebogen, Frage-Id, Einreichedatum). CreateQuestionnairePDF (CreateQuestionnairePDFRequest: reportJobId,
-    areaId, questionnaireId, asExcel): «vorbereiten (Kandidat, Report-Job)»; offen, ob es mit areaId das PDF in der Akte ablegt. StoreQuestionnaire (questionnaire, publishAfter) kann
-    veröffentlichen bzw. versenden → nur Mensch.'
+    areaId, questionnaireId, asExcel): «Kandidat, Report-Job – deny bis Entscheid consis»; offen, ob es mit areaId das PDF in der Akte ablegt. StoreQuestionnaire (questionnaire, publishAfter)
+    kann veröffentlichen bzw. versenden → nur Mensch.'
 - nr: Notizen
   name: Notizen-Übersicht (Pendenz, Schlussbesprechung, Review, Wesentliche Feststellungen)
   rolle_agent: Erfassen (neue Notizen mit Beilagen) in den Kategorien Pendenz, Wesentliche Feststellungen, Schlussbesprechung; Review nur lesen. Nie löschen, nie erledigen/schliessen,
@@ -757,7 +760,7 @@ bereiche:
   hinweise: 'Details siehe notizen. Es gibt keinen eigenen Create-Endpunkt: UpdateNote ist vermutlich Upsert (neue Notiz = NoteDto ohne bestehende id) – am Testmandat prüfen. CreateNoteFeedback
     ist die Antwort auf eine Notiz (Review-Antwort); die Kategorie Review ist für Rückmeldungen des WP reserviert (Konzept c007-1) → nur Mensch, Kandidat erst nach Entscheid consis.
     MoveNoteAttachments (MoveNoteAtttachmentsRequest {noteId, attachements, insertPosition}) ordnet Beilagen innerhalb einer Notiz um, MoveNotes ordnet Notizen um – beide nicht benötigt,
-    deny. CreateNotesReport: «vorbereiten (Kandidat, Report-Job)».'
+    deny. CreateNotesReport: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - nr: P4/P6
   name: Revisionsrapport (Prozess 4) und PDF-Akte (Prozess 6) – Exporte
   rolle_agent: 'Prozess 4: Rapport aus eigenen Ergebnissen, Status und Notizen; der Versand an die freigegebene WP-Adresse läuft ausserhalb von revio (E-Mail-Modul). Prozess 6 nur auf
@@ -783,11 +786,12 @@ bereiche:
   - rv_post_containerDefinitions_MergePdfReport
   - rv_post_workpapers_CreateAttachementsReport
   - rv_post_workpapers_CreateAccountDocumentationReport
-  hinweise: 'Alle Create*Report-Werkzeuge und CreateQuestionnairePDF einheitlich «vorbereiten (Kandidat, Report-Job)», bis geklärt ist, ob der Bericht in der Akte abgelegt wird (dann
-    Schreibvorgang) und wie er heruntergeladen wird. GeneratePdfReport nimmt PdfGenerationSettingsDto (jobId, clientId, dossierId, containerId, subContainerId, isArchiveJob, printRegistersWithoutState,
-    showPageNumbers, groups); Feldregel isArchiveJob=false (true = Archivierung, Mensch). Weil OpenClaw das Feld nicht prüfen kann: standardmässig deny, nur je Auftrag (Prozess 6) befristet
-    freigeben. RegisterLastUserReportForChangeNotification (GET mit Wirkung) und ReleaseReportWatcher_by_watcherId: gesperrt (Systemfunktion), auch nicht für Menschen über den Agenten.
-    Der Rapport ist kein revio-Schreibvorgang. Wie ein erzeugter Bericht/PDF (reportJobId, jobId) heruntergeladen wird, ist offen – kein Download-Endpunkt in der Liste.'
+  hinweise: 'Alle Create*Report-Werkzeuge und CreateQuestionnairePDF einheitlich «Kandidat, Report-Job – deny bis Entscheid consis», bis geklärt ist, ob der Bericht in der Akte abgelegt
+    wird (dann Schreibvorgang) und wie er heruntergeladen wird. GeneratePdfReport nimmt PdfGenerationSettingsDto (jobId, clientId, dossierId, containerId, subContainerId, isArchiveJob,
+    printRegistersWithoutState, showPageNumbers, groups); Feldregel isArchiveJob=false (true = Archivierung, Mensch). Weil OpenClaw das Feld nicht prüfen kann: standardmässig deny, nur
+    je Auftrag (Prozess 6) befristet freigeben. RegisterLastUserReportForChangeNotification (GET mit Wirkung) und ReleaseReportWatcher_by_watcherId: gesperrt (Systemfunktion), auch nicht
+    für Menschen über den Agenten. Der Rapport ist kein revio-Schreibvorgang. Wie ein erzeugter Bericht/PDF (reportJobId, jobId) heruntergeladen wird, ist offen – kein Download-Endpunkt
+    in der Liste.'
 - nr: Admin
   name: Administration, Vorlagen, Lizenzen, Benutzer, KI-Funktionen von revio (systemweit)
   rolle_agent: Keine. Diese Werkzeuge ändern Vorlagen, Prüfprogramme, Benutzer, Rechte oder Lizenzen für alle Mandate oder rufen revio-eigene KI auf; für den Agenten in OpenClaw vollständig
@@ -881,6 +885,7 @@ bereiche:
   - rv_get_containerDefinitions_LoadContainerSectionsWithRegisterState_by_containerId_by_subContainerId
   - rv_get_containerDefinitions_LoadContainerSections_by_containerId_by_subContainerId
   - rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId
+  - rv_get_financialStatementTemplates_LoadAvailableFinancialStatementTemplatesByContainer_by_containerId
   - rv_get_financialStatement_GetImportSimulation
   - rv_get_financialStatement_LoadAccountSystemItems_by_accountSystemId
   - rv_get_financialStatement_LoadAccountSystems
@@ -1064,16 +1069,20 @@ bereiche:
   - rv_put_workpapers_UpdatePermanentFile
   hinweise: 'Ableitung: strengste Einstufung über alle Abschnitte (nur_mensch > Kandidat > vorbereiten > lesen); StoreChecklistData und StoreDynamicFormDataItem sind in 4/10 Kandidat,
     in 2/3/6/7/9 nur Mensch → deny. Deny gilt zusätzlich für alle übrigen nur_mensch-Einträge der Bereiche, für die Komfortwerkzeuge revio_call und revio_create_client (gesperrt, umgehen
-    die Sperre je Werkzeug bzw. legen Kunden an; nur in revio-mcp-werkzeuge.md) und für jedes nicht genannte rv_*-Werkzeug. revio_find_clients, revio_list_dossiers, revio_open_dossier,
-    revio_describe_endpoint, revio_describe_schema, revio_search_endpoints und revio_server_version sind lesend und getrennt freizugeben (nicht in der CSV). Gesperrt (Systemfunktion
-    bzw. löschend/mandatsfremd, auch nicht für Menschen über den Agenten): ReApplyDetachedItems (deleteFinal), UpdateAttachementsMetadata (dossierId/clientId), InitializeSnapshareTransfer_by_transferId,
-    ProcessSnapshareDownloads, RegisterLastUserReportForChangeNotification, ReleaseReportWatcher_by_watcherId, LogArchiveAccess. Befristete Freigabe nur je Auftrag: GeneratePdfReport
-    (Prozess 6, isArchiveJob=false); nach Entscheid consis evtl. CreateAccountItemsFromImport und RejectImport (Prozess 1, nur eigene importRequestId). Lese-Kandidaten (z.B. LoadContainerTemplateSections,
-    LoadAreaHistory_by_areaId, LoadXbrlInstance) dürfen nach Bestätigung des Zwecks am Testmandat auf allow; GetContainerTaxonomyLock_by_containerId erst, wenn feststeht, dass es keine
-    Sperre setzt. FELDREGELN je Schreibwerkzeug (für Agenten-Code bzw. JWT-Rechte; OpenClaw prüft keine Felder): UpdateDossierActivity/UpdateDossierActivityItemTemplateField – nur Textzelle,
-    nie Cell.isVised, visaUserId, visaDate, visaText; nur Schritte mit canEdit=true, isVised=false, isDisabled=false. AddAttachementsToAuditActivity – gleiche Schrittbedingung. AddFilesToDocumentation
-    – items[].state=false, currentStatus nicht setzen. SetCoversheetBalanceItemComment, UpdateDocumentationComment – bestehenden Kommentar übernehmen, nur ergänzen. UpdateNote – isClosed=false,
-    showOutsideDossier=false, bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer). MoveAttachmentsToNote – nur an eigene Notizen. AddDetachedAttachement, MoveDetachedAttachmentsToWorkingArea
+    die Sperre je Werkzeug bzw. legen Kunden an; in werkzeuge.csv gesperrt) und für jedes nicht genannte rv_*-Werkzeug. revio_find_clients, revio_list_dossiers, revio_open_dossier, revio_describe_endpoint,
+    revio_describe_schema, revio_search_endpoints und revio_server_version sind lesend und getrennt freizugeben; revio_* sind in data/revio/werkzeuge.csv eingestuft (revio_call, revio_create_client
+    gesperrt; übrige lesen), die Roh-CSV raw/revio/revio-mcp-werkzeuge.csv hat nur die 840 rv_*. Gesperrt (Systemfunktion bzw. löschend/mandatsfremd, auch nicht für Menschen über den
+    Agenten): ReApplyDetachedItems (deleteFinal), UpdateAttachementsMetadata (dossierId/clientId), InitializeSnapshareTransfer_by_transferId, ProcessSnapshareDownloads, RegisterLastUserReportForChangeNotification,
+    ReleaseReportWatcher_by_watcherId, LogArchiveAccess. Befristete Freigabe nur je Auftrag: GeneratePdfReport und MergePdfReport (Prozess 6, K13; isArchiveJob=false); nach Entscheid
+    consis evtl. CreateAccountItemsFromImport und RejectImport (Prozess 1, nur eigene importRequestId). Lese-Kandidaten (z.B. LoadContainerTemplateSections, LoadAreaHistory_by_areaId,
+    LoadXbrlInstance; in werkzeuge.csv unklar = deny) dürfen nach Bestätigung des Zwecks am Testmandat auf allow; GetContainerTaxonomyLock_by_containerId erst, wenn feststeht, dass es
+    keine Sperre setzt. FELDREGELN je Schreibwerkzeug (für Agenten-Code bzw. JWT-Rechte; OpenClaw prüft keine Felder): UpdateDossierActivity/UpdateDossierActivityItemTemplateField –
+    nur Textzelle, nie Cell.isVised, visaUserId, visaDate, visaText; nur Schritte mit canEdit=true, isVised=false, isDisabled=false. AddAttachementsToAuditActivity – gleiche Schrittbedingung.
+    AddFilesToDocumentation – items[].state=false, currentStatus nicht setzen. SetCoversheetBalanceItemComment, UpdateDocumentationComment – bestehenden Kommentar übernehmen, nur ergänzen.
+    UpdateNote – isClosed=false, showOutsideDossier=false, bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer); areaId und note.areaId nur Register in Bereich 4 oder 10
+    ^[konzept-ki-revisionsagent-2026__c006-1], Notizen zu 3.3/1.x am Prüffeld A1 bzw. am auslösenden Prüffeld. MoveAttachmentsToNote – nur an eigene Notizen (dadurch ebenfalls 4/10).
+    RenameAuditActivityAttachment, ChangeAttachmentTitle – nur eigene Beilagen bzw. Einträge (vom Dienstbenutzer hochgeladen; vor dem Aufruf über GetAttachementMetadata bzw. DocumentationItemDto.userId
+    = Dienstbenutzer prüfen); fremde Beilagen nie umbenennen, Abweichung als Pendenz; ob revio den Urheber der Beilage liefert, am Testmandat bestätigen. AddDetachedAttachement, MoveDetachedAttachmentsToWorkingArea
     – areaId nur Register in Bereich 4 oder 10. LoadAreaState – trackUser=false. Nach Freigabe: GeneratePdfReport isArchiveJob=false; CreateAccountItemsFromImport ImportOptions.isDeleteMode=false;
     AppendPermanentFiles/UpdatePermanentFile PermanentFileDto.deletedAt nie setzen. In gesperrten Werkzeugen (zur Begründung): StorePbcWorkspace/StoreQuestionnaire publishAfter, validUsers,
     notificationRecipients; ReApplyDetachedItems deleteFinal; UpdateAttachementsMetadata clientId/dossierId; NoteChanged isClosed; StoreChecklistData Cell.isVised/visa*; UpdateDocumentationItems
@@ -1099,7 +1108,6 @@ prueffeld_standard:
   - rv_get_workpapers_LoadActiveAreaUsers_by_areaId
   werkzeuge_vorbereiten:
   - rv_put_auditActivities_UpdateDossierActivity
-  - rv_put_auditActivities_UpdateDossierActivityItemTemplateField
   - rv_post_auditActivities_AddAttachementsToAuditActivity
   - rv_post_workpapers_AddDetachedAttachement
   - rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea
@@ -1108,6 +1116,7 @@ prueffeld_standard:
   - rv_put_workpapers_UpdateDocumentationComment
   - rv_put_workpapers_UpdateNote
   - rv_post_workpapers_MoveAttachmentsToNote
+  - rv_put_auditActivities_UpdateDossierActivityItemTemplateField
   nur_mensch:
   - rv_post_auditActivities_SetAuditActivitySelectionState
   - rv_post_auditActivities_InsertDossierAuditActivityItem
@@ -1128,8 +1137,8 @@ prueffeld_standard:
   - rv_delete_auditActivities_DeleteDossierActivityItem
   - rv_delete_auditActivities_DeleteLastActivityComment
   parameter: 'Kette (Ids existieren erst im echten Dossier): (1) clientId: rv_get_clientsManagement_LoadClients (liefert alle Kunden – sofort auf den beauftragten Kunden einschränken;
-    Komfort: revio_find_clients, nur in .md). (2) dossierId und containerId: rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId (Pfad clientId) → AnualFileDto: id (= dossierId),
-    containerId, subContainerId, previousDossierId (Vorjahresakte), balancingDate, openingDate, state; Komfort revio_list_dossiers. (3) Kontext: rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId,
+    Komfort: revio_find_clients). (2) dossierId und containerId: rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId (Pfad clientId) → AnualFileDto: id (= dossierId), containerId,
+    subContainerId, previousDossierId (Vorjahresakte), balancingDate, openingDate, state; Komfort revio_list_dossiers. (3) Kontext: rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId,
     dann rv_get_clientsManagement_LoginDossier_by_clientId_by_dossierId (Komfort revio_open_dossier); Workpapers-/FinancialStatement-Werkzeuge ohne dossierId wirken vermutlich auf dieses
     Dossier. (4) navigationId/areaId/templateId je Prüffeld: rv_get_containerDefinitions_LoadContainerSections_by_containerId_by_subContainerId → ContainerNavigationItemDto: id (Kandidat
     navigationId = areaId), title, navigationDetail.code/prefix (A1…T1, 10.9 …), itemConfiguration.referenceId (Kandidat templateId), navigationComponentId, defaultClassifications (Kontenklassen
@@ -1164,17 +1173,24 @@ prueffeld_standard:
     sind die JWT-Rechte des Dienstbenutzers): UpdateDossierActivity/UpdateDossierActivityItemTemplateField nur die Textzelle senden, nie Cell.isVised, visaUserId, visaDate, visaText;
     AddAttachementsToAuditActivity nur an Schritte mit canEdit=true, isVised=false, isDisabled=false; AddFilesToDocumentation items[].state=false, currentStatus nicht setzen – ✓ je Beleg
     nur Mensch; SetCoversheetBalanceItemComment und UpdateDocumentationComment ersetzen den bestehenden Kommentar → frisch lesen, bestehenden Text übernehmen und ergänzen; UpdateNote
-    isClosed=false, showOutsideDossier=false, bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer); LoadAreaState trackUser=false; AddDetachedAttachement/MoveDetachedAttachmentsToWorkingArea
-    nur mit areaId eines Registers in Bereich 4 oder 10. Kontenübersicht: LoadCoverSheet_by_containerId (CoverSheetDto: sections, accountClassificationItems[accountclassification, balanceItems[CoverPageBalanceItemDto:
+    isClosed=false, showOutsideDossier=false, bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer), areaId und note.areaId nur Register in Bereich 4 oder 10 ^[konzept-ki-revisionsagent-2026__c006-1]
+    (Notizen zu 3.3/1.x am Prüffeld A1 bzw. am auslösenden Prüffeld); MoveAttachmentsToNote nur an eigene Notizen (dadurch ebenfalls 4/10); RenameAuditActivityAttachment und ChangeAttachmentTitle
+    nur eigene Beilagen bzw. Einträge (vom Dienstbenutzer hochgeladen; vorher GetAttachementMetadata bzw. DocumentationItemDto.userId = Dienstbenutzer prüfen; ob revio den Urheber liefert,
+    am Testmandat bestätigen), fremde Beilagen nie umbenennen, Abweichung als Pendenz; LoadAreaState trackUser=false; AddDetachedAttachement/MoveDetachedAttachmentsToWorkingArea nur
+    mit areaId eines Registers in Bereich 4 oder 10. Kontenübersicht: LoadCoverSheet_by_containerId (CoverSheetDto: sections, accountClassificationItems[accountclassification, balanceItems[CoverPageBalanceItemDto:
     accountId, number, title, workingValues{currentValue, previousValue, changeValue}, state, comment, isBelowPickupValue]], hiddenReservesClassificationItems) – Filter auf die Klassen
     des Prüffelds; state je Konto ist vermutlich das Häkchen → nur Mensch (SetCoversheetBalanceItemState), comment → Agent über SetCoversheetBalanceItemComment. Kommentarlisten eines
     Bereichs (UpdateAreaComments) ersetzen alle Kommentare, auch fremde → nur Mensch. Neue Prüfschritte einfügen (InsertDossierAuditActivityItem) oder abwählen/deaktivieren = Umfangsentscheid
     WP → nur Mensch. Grenze technisch: OpenClaw sperrt je Werkzeug; Visum (Cell.isVised), Abschluss und Freigabe sind teils Felder in erlaubten Bodies → serverseitige Rechte des Dienstbenutzers
     (JWT) sind die eigentliche Sperre. UpdateDossierActivity vs. UpdateDossierActivityItemTemplateField vs. ClaudeImportAuditActivities: welches Werkzeug das Textfeld eines Katalogschritts
-    korrekt füllt, am Testmandat bestimmen; bis dahin UpdateDossierActivity als Hauptweg (Kandidat). Alle wiederkehrenden Schritte: x-320 Anhang, x-321 stille Reserven, x-322 Dauerakten
-    siehe prueffeld_besonderheiten.'
+    korrekt füllt, am Testmandat bestimmen; bis dahin UpdateDossierActivity als Hauptweg (Kandidat); UpdateDossierActivityItemTemplateField (letzter Eintrag in werkzeuge_vorbereiten)
+    nur Alternative nach Test; ClaudeImportAuditActivities Kandidat (deny). Alle wiederkehrenden Schritte: x-320 Anhang, x-321 stille Reserven, x-322 Dauerakten siehe prueffeld_besonderheiten.'
 prueffeld_besonderheiten:
 - code: alle (x-320 «Auswirkungen auf Anhang»)
+  schritt_nr:
+  - '320'
+  ausser:
+  - E1-320
   werkzeuge:
   - rv_get_appendix_LoadAppendixForFinancialPeriod
   - rv_get_appendix_LoadUserDefinedUnitForFinancialPeriod
@@ -1182,14 +1198,26 @@ prueffeld_besonderheiten:
   zweck: Anhangangaben zum Prüffeld lesen und mit den Feststellungen abgleichen; AccountDto.appendixReferences verknüpft Konten mit Anhangpositionen. LoadAppendixRequest {from, to, financialValuesOrigin,
     reportDesign, parmameters, languageIndex, displayDivider}. Anhang nie ändern (StoreAppendixForFinancialPeriod = Mensch); Korrekturbedarf als Notiz «Wesentliche Feststellungen».
 - code: alle (x-321 «stille Reserven», inkl. E1-320, R1-321 AGBR, S1-321)
+  schritt_nr:
+  - '321'
+  schritte:
+  - E1-320
+  - R1-321
+  - S1-321
+  ausser:
+  - P1-321
   werkzeuge:
   - rv_get_financialStatement_LoadHiddenReserves
   - rv_get_auditActivities_LoadCoverSheet_by_containerId
   - rv_post_financialStatement_CreateHiddenReserveReport
   zweck: 'Bestand und Veränderung der stillen Reserven je Prüffeld aus der Aufstellung 10.3 lesen (hiddenReserveValue, previousHiddenReserveValue, deviationValue) und über CoverSheetDto.hiddenReservesClassificationItems
     dem Prüffeld zuordnen; Abstimmung mit unterzeichneter Kundenaufstellung, Differenzen als Pendenz. Erfassen in revio (ApplyHiddenReserveItem) bis Entscheid consis nicht (deny, siehe
-    10.3). CreateHiddenReserveReport: «vorbereiten (Kandidat, Report-Job)».'
+    10.3). CreateHiddenReserveReport: «Kandidat, Report-Job – deny bis Entscheid consis».'
 - code: 'alle (x-322 «Aktualisieren Dauerakten», bei P1: P1-321)'
+  schritt_nr:
+  - '322'
+  schritte:
+  - P1-321
   werkzeuge:
   - rv_get_workpapers_LoadPermanentFilesForArea_by_areaId
   - rv_get_workpapers_LoadPermanentFilesForDossier
@@ -1200,6 +1228,8 @@ prueffeld_besonderheiten:
     in Folgejahre übergehen; bis dahin Aktualisierungsbedarf als Pendenz. Feldregel nach Freigabe: PermanentFileDto.deletedAt nie setzen (Soft-Delete). Löschen (DeletePermanentFile_by_permanentFileId)
     nie.'
 - code: A1 Allgemeine Prüfungshandlungen (A1-302/303 Vorjahresabstimmung, A1-103 VE)
+  prueffelder:
+  - A1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadBalanceAccounts
@@ -1212,6 +1242,8 @@ prueffeld_besonderheiten:
     Kandidat – Archivzugriff wird evtl. protokolliert) nur lesend und nur als letzte Option, Regel 6 in Bereich 0), Saldi Hauptbuch gegen Saldenbilanz 10.1; Vorhandensein der Vollständigkeitserklärung
     in 10.4 (A1-103 «unterzeichnen lassen» = Mensch). Playbook «Vorjahresabstimmung» zuerst.
 - code: B1 Flüssige Mittel und kurzfristig gehaltene Aktiven mit Börsenkurs
+  prueffelder:
+  - B1
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1227,6 +1259,8 @@ prueffeld_besonderheiten:
     lesen und verwerten. Die Confirmation-Werkzeuge in ClientsManagement (UpdateConfirmationItem, Confirmation-Reports) betreffen die Firmen-QS, nicht Bankbestätigungen → nicht verwenden.
     WP-Schritte: B1-102, B1-201, B1-202, B1-309, B1-310.'
 - code: C1 Forderungen LuL (Delkredere C1-302, stille Reserven C1-303/321)
+  prueffelder:
+  - C1
   werkzeuge:
   - rv_get_workpapers_LoadAccountingEstimates
   - rv_get_workpapers_LoadAccountingEstimatesOverview
@@ -1238,6 +1272,8 @@ prueffeld_besonderheiten:
     visedAt) lesen; StoreAccountingEstimate (GET, schreibt; enthält Visumsfelder und Schlussfolgerung) = unklar → deny bis Entscheid «Delkredere». OP-Liste/Altersstruktur aus M-Files
     im Rechenmodul; Kennzahl Debitorenfrist (C1-207) aus LoadKeyFigureView.'
 - code: D1 Übrige kurzfristige Forderungen
+  prueffelder:
+  - D1
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1251,6 +1287,8 @@ prueffeld_besonderheiten:
     Verdacht auf Einlagenrückgewähr (D1-404) nur als Notiz «Wesentliche Feststellungen», Urteil WP. Wertberichtigung (D1-307) aus Zahlungseingängen in neuer Rechnung (M-Files) im Rechenmodul;
     Schätzungen nur lesen. Stille Reserven D1-321 (x-321). WP-Schritte: D1-302, D1-308.'
 - code: E1 Aktive Rechnungsabgrenzung
+  prueffelder:
+  - E1
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1261,12 +1299,19 @@ prueffeld_besonderheiten:
     dem Finanzcockpit; Abgrenzungen gegenüber Beteiligten/Nahestehenden (E1-203) wie D1. Achtung Nummerierung: E1-320 ist hier «stille Reserven» (nicht Anhang) → Besonderheit x-321.
     WP-Schritte: E1-303, E1-304, E1-305.'
 - code: F1/F2 Vorräte und nicht fakturierte Leistungen
+  prueffelder:
+  - F1
+  - F2
   werkzeuge:
   - rv_get_financialStatement_LoadHiddenReserves
   - rv_get_workpapers_LoadDocumentationItems
   - rv_get_workpapers_LoadDetachedAttachements_by_areaId
   zweck: Warenreserve/stille Reserven (F1-321, F2-321) und Inventar-/Projektlisten als Belege; Inventurbeobachtung (4xx) ist physisch → nie Agent.
 - code: G1/G2/I1 Sachanlagen und immaterielle Anlagen
+  prueffelder:
+  - G1
+  - G2
+  - I1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadHiddenReserves
@@ -1275,6 +1320,8 @@ prueffeld_besonderheiten:
   zweck: 'revio hat kein Anlagenbuchhaltungsmodul: Anlagespiegel/Inventarliste aus M-Files als Beleg ablegen (AddFilesToDocumentation mit items[].state=false) und gegen Kontensaldi abstimmen
     (G1-301/302); G1-305 ist WP-Schritt (Entscheid offen).'
 - code: H1 Finanzanlagen (inkl. Krypto-Assets)
+  prueffelder:
+  - H1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_workpapers_LoadDocumentationItems
@@ -1287,6 +1334,8 @@ prueffeld_besonderheiten:
     Grundkapital (H1-302) mit Aktienbuch per Stichtag abgleichen (Kandidat). Offenlegung (H1-315) und Anhang (H1-320) über x-320; stille Reserven H1-321 (x-321). Befragungen H1-101 bis
     H1-105 aus 10.11 oder Pendenz. WP-Schritte: H1-305, H1-306, H1-307, H1-310, H1-311.'
 - code: H2 Aktivdarlehen
+  prueffelder:
+  - H2
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_workpapers_LoadDocumentationItems
@@ -1298,6 +1347,8 @@ prueffeld_besonderheiten:
     und Organisationen identifizieren (Kandidat) → Anhang (x-320); Verdacht auf Einlagenrückgewähr (H2-404) nur als Notiz «Wesentliche Feststellungen», Urteil WP; Zinsabgrenzung (H2-402)
     im Rechenmodul. Stille Reserven H2-321 (x-321). WP-Schritte: H2-302, H2-303, H2-304.'
 - code: H3 Beteiligungen
+  prueffelder:
+  - H3
   werkzeuge:
   - rv_get_clientsManagement_LoadClientOrganizations_by_clientId
   - rv_get_clientsManagement_QueryZefixResult
@@ -1306,6 +1357,8 @@ prueffeld_besonderheiten:
   zweck: 'Kandidaten: Organisationen/Gruppenstruktur des Kunden und Handelsregister (Zefix, GetZefixResultsRequest {companyName}; QueryZefixResult Kandidat) für Bestand und Anhangangabe
     (T1-101); Bewertung und stille Reserven (H3-321).'
 - code: K1 Verbindlichkeiten aus Lieferungen und Leistungen
+  prueffelder:
+  - K1
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1318,6 +1371,8 @@ prueffeld_besonderheiten:
     (K1-401) = externe Handlung → nur Mensch. Stille Reserven K1-321 (x-321). K1-402 hat Kennzeichnung «?»; der Katalogeintrag K1-114 («a) mit Gegenbuchhaltung(en) b) mit Saldobestätigung(en)»)
     ist vermutlich die Fortsetzung von K1-402 (PDF-Lesefehler) – im Dossier klären. WP-Schritte: K1-302, K1-303 (Cut-off-Durchsicht neue Rechnung).'
 - code: L1 Kurzfristige verzinsliche Verbindlichkeiten
+  prueffelder:
+  - L1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadKeyFigureView
@@ -1328,6 +1383,8 @@ prueffeld_besonderheiten:
     im Rechenmodul aus Zinsaufwand und Darlehenssalden. Covenants (L1-101) und Sicherheiten (L1-102) aus Verträgen bzw. 10.11, Sicherheiten → Anhang (x-320); Gliederung kurz-/langfristig
     (L1-103) mit N1 abstimmen. Rangrücktritte (L1-105, L1-304) sind WP-Schritte (Bezug P1-313). Bankenbestätigungen (L1-401) einholen = externe Handlung → nur Mensch.
 - code: M1 übrige kurzfristige Verbindlichkeiten
+  prueffelder:
+  - M1
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1340,6 +1397,8 @@ prueffeld_besonderheiten:
     Fremdwährungskurse (M1-303) aus Bankunterlagen; Verbindlichkeiten gegenüber Beteiligten/Nahestehenden (M1-304) wie D1 → Anhang (x-320). Verbindlichkeiten gegenüber Vorsorgeeinrichtungen
     (M1-408) mit Abrechnungen der Vorsorgeeinrichtung abgleichen, Anhangangabe über x-320. Stille Reserven M1-321 (x-321). MWST-Konten siehe M2.'
 - code: M2 Mehrwertsteuer
+  prueffelder:
+  - M2
   werkzeuge:
   - rv_get_financialStatement_LoadBalanceAccountsForClassifications
   - rv_get_financialStatement_LoadAccountView
@@ -1349,6 +1408,8 @@ prueffeld_besonderheiten:
   zweck: 'Kein MWST-Modul und keine ESTV-Schnittstelle in revio: MWST-Konten (Vorsteuer/Umsatzsteuer) über die Kontenklassen des Prüffelds lesen, Umsatzabstimmung (M2-301/302) mit Abrechnungen
     aus M-Files im Rechenmodul; Spezialitätenliste M2-305 Kandidat als Checkliste (nur lesen). M2-102 bis M2-104 und M2-302 bis M2-304 sind WP-Schritte.'
 - code: N1 Langfristige Verbindlichkeiten
+  prueffelder:
+  - N1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadKeyFigureView
@@ -1361,6 +1422,9 @@ prueffeld_besonderheiten:
     identifizieren (Kandidat); verdecktes Eigenkapital (N1-304) mit Daten aus M-Files im Rechenmodul beurteilen, Ergebnis als Feststellung, Urteil WP. Rangrücktritt (N1-105 WP, N1-401)
     mit P1-313 verknüpfen.
 - code: O1/M3 Rückstellungen und passive Rechnungsabgrenzungen
+  prueffelder:
+  - O1
+  - M3
   werkzeuge:
   - rv_get_workpapers_LoadAccountingEstimates
   - rv_get_financialStatement_LoadHiddenReserves
@@ -1368,6 +1432,8 @@ prueffeld_besonderheiten:
   zweck: Rückstellungen als Schätzungen (nur lesen; Erfassen über StoreAccountingEstimate unklar → deny) und stille Reserven in Rückstellungen (O1-321, M3-321) lesen; Bewertungsurteil
     bleibt beim Menschen.
 - code: P1 Eigenkapital
+  prueffelder:
+  - P1
   werkzeuge:
   - rv_get_clientsManagement_LoadShareRegister_by_asOf
   - rv_post_clientsManagement_CreateShareRegisterReport
@@ -1380,15 +1446,19 @@ prueffeld_besonderheiten:
   - rv_get_financialStatement_LoadAccountView
   zweck: 'Aktienbuch per Stichtag (P1-317, eigene Anteile P1-304) aus LoadShareRegister_by_asOf; Dividenden/Verrechnungssteuer (P1-312, P1-315) aus LoadDividends; Grundkapital/Statuten
     (P1-301, P1-314) über Handelsregister (Zefix, Kandidat); GV-Protokoll 10.9 für Reserven/Gewinnverwendung (P1-302, P1-303, P1-312); Antrag VR Kandidat aus benutzerdefinierter Einheit;
-    Art. 725 OR (P1-313) mit Kennzahlen und stillen Reserven im Rechenmodul. CreateShareRegisterReport: «vorbereiten (Kandidat, Report-Job)». Schreibwerkzeuge für Aktienbuch und Dividenden
-    (UpsertShareholder, UpsertDividend, SettleDividend_by_dividendId usw.) nie.'
+    Art. 725 OR (P1-313) mit Kennzahlen und stillen Reserven im Rechenmodul. CreateShareRegisterReport: «Kandidat, Report-Job – deny bis Entscheid consis». Schreibwerkzeuge für Aktienbuch
+    und Dividenden (UpsertShareholder, UpsertDividend, SettleDividend_by_dividendId usw.) nie.'
 - code: R1 Personalaufwand
+  prueffelder:
+  - R1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadKeyFigureView
   - rv_get_financialStatement_LoadHiddenReserves
   zweck: Lohnabstimmung AHV/Personalaufwand analytisch und gegen Belege aus M-Files; Arbeitgeberbeitragsreserven als stille Reserven (R1-321).
 - code: S1 Steuern
+  prueffelder:
+  - S1
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadKeyFigureView
@@ -1399,6 +1469,12 @@ prueffeld_besonderheiten:
     und Zahlungen aus M-Files; latente Steuern auf stillen Reserven aus HiddenReservePeriodSummaryDto (taxPercent, taxValues) – UpdateTaxConfiguration nur Mensch; Befragungen S1-101
     bis S1-104 aus 10.11 oder Pendenz (S1-102 bis S1-104 WP).
 - code: SCH1–SCH5 Erfolgsrechnung (Ertrag, direkter/übriger Aufwand, Finanz, Nebenbetrieb/ausserordentlich)
+  prueffelder:
+  - SCH1
+  - SCH2
+  - SCH3
+  - SCH4
+  - SCH5
   werkzeuge:
   - rv_get_financialStatement_LoadAccountView
   - rv_get_financialStatement_LoadKeyFigureView
@@ -1408,6 +1484,8 @@ prueffeld_besonderheiten:
   zweck: 'Überwiegend analytisch: Vorjahres- und Budgetvergleich, Margen und Kennzahlen aus dem Finanzcockpit; Leitfaden aus 3.2/6.2 (AnalyticalAuditDto.significanceThreshold). Berechnung
     im Rechenmodul, Ergebnis im Textfeld.'
 - code: T1 Anhang zur Jahresrechnung
+  prueffelder:
+  - T1
   werkzeuge:
   - rv_get_appendix_LoadAppendixForFinancialPeriod
   - rv_get_appendix_LoadUserDefinedUnitForFinancialPeriod
@@ -1514,8 +1592,10 @@ schritt_typen:
   werkzeuge_lesen:
   - rv_get_workpapers_LoadDocumentationItems
   werkzeuge_vorbereiten: []
-  vorgehen: Nie durch den Agenten (z.B. B1-401, L1-401 Bankenbestätigungen, K1-401 Saldobestätigungen); er darf eingegangene Bestätigungen/Inventurprotokolle als Belege lesen und, falls
-    angewiesen, in einem anderen Schritt verwerten. Versand an Dritte nie.
+  vorgehen: 'Nie durch den Agenten: Inventurteilnahme/Nachzählen, Einholen oder Versenden von Bestätigungen, Gutachten in Auftrag geben (Versand an Dritte nie; physische Tätigkeiten
+    nie ^[konzept-ki-revisionsagent-2026__c012-1]). Die Schritte B1-401, L1-401 und K1-401 selbst sind «Sonstige auf Anweisung»: nur auf Anweisung des WP beim Unternehmen vorhandene
+    Bestätigungen/Auszüge mit dem Hauptbuch abgleichen; ohne Anweisung «nicht bearbeitet». In der eingeschränkten Revision werden keine Inventurbeobachtung und keine Drittbestätigungsanfragen
+    durchgeführt, die Prüfung beschränkt sich grundsätzlich auf die beim Unternehmen intern verfügbaren Informationen ^[ser-2022__anh-c-s056-3].'
 - typ: WP-Schritte (Kennzeichnung WP, alle Typen; 87 Schritte)
   art: nur_mensch
   werkzeuge_lesen:
@@ -1523,8 +1603,9 @@ schritt_typen:
   - rv_get_auditActivities_LoadPreviousPeriodAuditActivitiesReview_by_containerId_by_templateId
   - rv_get_workpapers_LoadNotesForArea_by_areaId
   werkzeuge_vorbereiten: []
-  vorgehen: 'Bis zum Entscheid von consis (wichtigster offener Entscheid, Beispiel G1-305) kein Eintrag im Textfeld: Schritt lesen, Bezug zu eigenen EP-Ergebnissen im Rapport nennen,
-    relevante Punkte als Notiz «Schlussbesprechung» bzw. Pendenz. Wird Vorbereitung erlaubt, gilt das Vorgehen des Schritttyps, aber ausdrücklich als «Vorbereitung für WP» gekennzeichnet.'
+  vorgehen: 'Nur Mensch (WP) – bis Entscheid consis (wichtigster offener Entscheid ^[konzept-ki-revisionsagent-2026__c012-1] ^[konzept-ki-revisionsagent-2026__c015-2], Beispiel G1-305)
+    ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld: Schritt lesen, Punkte als Notiz (Schlussbesprechung/Pendenz), Bezug zu eigenen EP-Ergebnissen im Rapport nennen; mit
+    ausdrücklicher Anweisung des WP gilt das Vorgehen des Schritttyps, als «Vorbereitung für WP» gekennzeichnet.'
 - typ: Schritte mit unlesbarer Kennzeichnung «?» (K1-402, P1-308, S1-302, SCH1-401, T1-319)
   art: lesen
   werkzeuge_lesen:
@@ -1569,15 +1650,16 @@ notizen:
     über name (isDeterminationNote vermutlich «Wesentliche Feststellungen», Kandidat). Lesen je Kategorie: LoadDossierNotesByTypeRequest {noteType, onlyOpenNotes}. Erfassen: UpdateNoteRequest
     {areaId (Prüffeld/Register), note: NoteDto {id, areaId, title, text, type (noteType-Id), priority, isClosed, hasAppointment, appointment, assignments[user, externUserText], attachements[attachementId,
     fileName, fileSize], showOutsideDossier, originNoteId, createdBy}}. Kein Create-Endpunkt → UpdateNote ist vermutlich Upsert (am Testmandat prüfen). Feldregeln: immer isClosed=false,
-    showOutsideDossier=false; bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer), fremde nie ändern. Inhalt: Pendenz = fehlende Unterlage/ungeklärter Sachverhalt/«Frage
-    an Kunde» mit Konto, Datum, Betrag, Schritt-Id; PBC-Vorschläge (10.10) als Pendenz mit Titel-Präfix «PBC-Vorschlag»; Wesentliche Feststellungen = möglicher Fehler mit Betrag und
-    begründetem Buchungsvorschlag (Soll/Haben/Betrag, keine Verbuchung); Schlussbesprechung = Punkte für das Gespräch WP–Kunde; Review = nur lesen (Rückmeldungen des WP, Konzept c007-1,
-    vom Agenten im Rapport aufgreifen). Beilage an Notiz: Datei zuerst ins Register (AddDetachedAttachement), dann MoveAttachmentsToNote {noteId, attachements[ids]} – nur an eigene Notizen
-    und nur, wenn der Nachweis nicht direkt am Prüfschritt liegt. Kandidat: rv_post_workpapers_CreateNotesReport (Notizenbericht für Rapport, «vorbereiten (Kandidat, Report-Job)»). Nie:
-    Löschen jeder Art; NoteChanged (enthält isClosed = Erledigen); CreateNoteFeedback {noteId, feedback, updateIndex} (Review-Antwort; Kategorie Review ist dem WP vorbehalten – Kandidat
-    erst nach Entscheid consis, nie als Erledigung); MoveNoteAttachments (MoveNoteAtttachmentsRequest {noteId, attachements, insertPosition}: Umordnen von Beilagen, auch fremder Notizen
-    – nicht benötigt); MoveNotes (Reihenfolge – nicht benötigt); persönliche Aufgaben/Notizen ausserhalb des Dossiers. Da UpdateNote das Feld isClosed trägt, kann OpenClaw das Erledigen
-    nicht je Werkzeug sperren → JWT-Rechte oder Prüfung im Agenten-Code.'
+    showOutsideDossier=false; bestehende id nur bei eigenen Notizen (createdBy = Dienstbenutzer), fremde nie ändern; areaId (Request und NoteDto) nur Register in Bereich 4 oder 10 ^[konzept-ki-revisionsagent-2026__c006-1],
+    Notizen zu 3.3/1.x am Prüffeld A1 bzw. am auslösenden Prüffeld; Ausnahme (z.B. 3.3 gemäss Pflichtenheft ^[konzept-ki-revisionsagent-2026__c006-2]) nur nach Entscheid consis. Inhalt:
+    Pendenz = fehlende Unterlage/ungeklärter Sachverhalt/«Frage an Kunde» mit Konto, Datum, Betrag, Schritt-Id; PBC-Vorschläge (10.10) als Pendenz mit Titel-Präfix «PBC-Vorschlag»; Wesentliche
+    Feststellungen = möglicher Fehler mit Betrag und begründetem Buchungsvorschlag (Soll/Haben/Betrag, keine Verbuchung); Schlussbesprechung = Punkte für das Gespräch WP–Kunde; Review
+    = nur lesen (Rückmeldungen des WP, Konzept c007-1, vom Agenten im Rapport aufgreifen). Beilage an Notiz: Datei zuerst ins Register (AddDetachedAttachement), dann MoveAttachmentsToNote
+    {noteId, attachements[ids]} – nur an eigene Notizen und nur, wenn der Nachweis nicht direkt am Prüfschritt liegt. Kandidat: rv_post_workpapers_CreateNotesReport (Notizenbericht für
+    Rapport, «Kandidat, Report-Job – deny bis Entscheid consis»). Nie: Löschen jeder Art; NoteChanged (enthält isClosed = Erledigen); CreateNoteFeedback {noteId, feedback, updateIndex}
+    (Review-Antwort; Kategorie Review ist dem WP vorbehalten – Kandidat erst nach Entscheid consis, nie als Erledigung); MoveNoteAttachments (MoveNoteAtttachmentsRequest {noteId, attachements,
+    insertPosition}: Umordnen von Beilagen, auch fremder Notizen – nicht benötigt); MoveNotes (Reihenfolge – nicht benötigt); persönliche Aufgaben/Notizen ausserhalb des Dossiers. Da
+    UpdateNote das Feld isClosed trägt, kann OpenClaw das Erledigen nicht je Werkzeug sperren → JWT-Rechte oder Prüfung im Agenten-Code.'
 offene_fragen:
 - 'WP-Schritte (87): Darf der Agent sie vorbereiten oder lässt er sie aus? Welche Schritte gelten als «markiert» im Sinne des Pflichtenhefts (Beispiel G1-305)? (consis)'
 - 'Schritte ohne Kennzeichnung (266 von 538, v.a. 4xx und Teil der 3xx): wie EP behandeln oder nur auf Anweisung? Dazu 5 unlesbare Kennzeichnungen «?» (K1-402, P1-308, S1-302, SCH1-401,
@@ -1599,7 +1681,7 @@ offene_fragen:
   Multipart) und keiner für das Herunterladen von Beilagen oder erzeugten Berichten (reportJobId/jobId/previewId). Wie entsteht die attachementId einer M-Files-Datei, und wie liest der
   Agent Belege aus revio?'
 - 'Report-Jobs (alle Create*Report, CreatePreviewReport, GenerateFinancialStatementReport, CreateQuestionnairePDF mit areaId): Wird der erzeugte Bericht in der Akte abgelegt (dann Schreibvorgang)
-  und wie wird er abgeholt? Bis dahin einheitlich «vorbereiten (Kandidat, Report-Job)», in OpenClaw deny.'
+  und wie wird er abgeholt? Bis dahin einheitlich «Kandidat, Report-Job – deny bis Entscheid consis», in OpenClaw deny.'
 - 'Leere Enums in schemas.json: FinancialValuesOrigin (HB I/HB II?), AccountItemsView, CellTypes, AreaStates/AreaStateActions, EntitySource, PreviousPeriodAttachmentTransferMode, DocumenationItemType
   – Werte über revio_describe_schema oder Hersteller.'
 - 'Abschliessende Beurteilung je Prüffeld: In welcher Komponente liegt sie (dynamisches Formular, ICS-Beurteilung, migriert via MigrateLegacyFinalAssessment)? Nötig, damit der Agent
@@ -1629,7 +1711,6 @@ offene_fragen:
   ImportOptions.isDeleteMode, LoadAreaStateRequest.trackUser, AccountingEstimateDto.visedAt; in gesperrten Werkzeugen zudem publishAfter, ReApplyDetachedItemsRequest.deleteFinal, AttachementDto.clientId/dossierId):
   Sperre über Rechte des Dienstbenutzers (JWT) oder schlanke Feldprüfung in der Werkzeugschicht (Feldregeln im Abschnitt «OpenClaw»)? Widerspricht Letzteres «keine Fachlogik im MCP-Code»?
   (consis/enco)'
-- 'Komfortwerkzeuge revio_* (9) stehen nur in revio-mcp-werkzeuge.md, nicht in der CSV (840 Zeilen statt 849): CSV ergänzen oder Komfortwerkzeuge getrennt freigeben?'
 - Leserechte zusätzlich für 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2 (Entscheid) und ob der Agent in 3.5 als «zugewiesener Mitarbeiter» geführt wird (AssignDossierUser – Mensch).
 - Welche revio-Komponente steckt hinter 3.2, 3.4, 6.1, 6.2, 6.3, 6.4, 7.1, 7.4, 7.5 und 10.4 (Checkliste, dynamisches Formular, Analytik-, Risiko- oder Dokumentenmodul)? Bestimmt, welches
   Lesewerkzeug gilt.

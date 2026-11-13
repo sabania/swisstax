@@ -10,8 +10,8 @@ description: Prüfschritte und Prüffelder einer eingeschränkten Revision in re
 kontaktieren. Gesperrte revio-Werkzeuge nie aufrufen, auch nicht über `revio_call` (`revio nur-mensch`).
 
 ## Ablauf je Prüfschritt
-1. `pruefschritt <id>` – Katalogtext, Typ, EP/WP, Prüfziele, **Rolle des Agenten**, Vorgehen, Nachweise, Rechenregel, Fundstellen, revio.
-   Für den Überblick zuerst `prueffeld <code>` (Risiken, Bewertung, PBC, Fragen, alle Schritte).
+1. Zuerst `aufgabe <code>` (z.B. `aufgabe C1`: Checkliste, Prüffeld-Bündel, alle Schritte mit Rolle). Dann je Schritt genau einmal
+   `pruefschritt <id>` – Katalogtext, Typ, EP/WP, Prüfziele, **Rolle des Agenten**, Vorgehen, Nachweise, Rechenregel, Fundstellen, revio.
 2. Mandatskontext prüfen (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag) – Abweichung → abbrechen, Pendenz.
 3. Risiko/Strategie (revio 3.1/3.5) und Wesentlichkeit (3.3, nur lesen) berücksichtigen: Toleranzwesentlichkeit steuert den Umfang,
    Differenzen unter der Nichtaufgriffsgrenze nur protokollieren (`wesentlichkeit`, `regeln wesentlichkeit`).
@@ -21,9 +21,12 @@ kontaktieren. Gesperrte revio-Werkzeuge nie aufrufen, auch nicht über `revio_ca
    - **Befragung (1xx):** nicht selbst befragen – schriftliche Antwort (10.11 Kundenbefragung, Protokolle) auswerten, sonst Frage als
      Pendenz (`fragen <code>`); Status höchstens «teilweise bearbeitet».
    - **Analytisch (2xx):** Vorjahresvergleich, Kennzahlen, Erwartungswerte – jede Zahl mit `rechne`.
-   - **Detail (3xx):** Abstimmung Saldo ↔ Detailliste ↔ Beleg/Bestätigung; Auswahl begründen (über Toleranzwesentlichkeit,
-     ungewöhnliche Posten, Stichtagsnähe, Nahestehende).
-   - **Sonstige (4xx):** nur auf Anweisung des WP; physische Tätigkeiten (Inventur) nie.
+   - **Detail (3xx):** Abstimmung Saldo ↔ Detailliste ↔ Beleg aus den Unterlagen des Kunden; keine Bestätigungen bei Dritten
+     einholen ^[ser-2022__1-5] – vom Kunden selbst eingeholte Bestätigungen dürfen verwendet werden ^[hwp-er-2026__rz-0137-s203];
+     Auswahl begründen (über Toleranzwesentlichkeit, ungewöhnliche Posten, Stichtagsnähe, Nahestehende).
+   - **Sonstige (4xx: Bestätigungen, Inventur, Gutachten, Journal Entry Testing):** nur auf Anweisung des WP; physische Tätigkeiten
+     (z.B. Anwesenheit an der Inventur) nie ^[konzept-ki-revisionsagent-2026__c012-1]; ohne Anweisung Status «nicht bearbeitet –
+     nur auf Anweisung».
    - **WP-Schritte:** Beurteilung beim WP; nur auf ausdrückliche Anweisung vorbereiten (offener Entscheid consis).
 6. **Textfeld** (Entwurf): Prüfziel(e) · Quellen (M-Files-ID/Version, Datei) · Auswahl und Umfang mit Begründung · Ergebnis mit
    Zahlen · Feststellungen · Pendenzen · Status (vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet).
