@@ -10,15 +10,15 @@ generiert: tools/build_quick.py, 2026-11-13
 
 # revio-MCP – alle Werkzeuge (INTERN)
 
-gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
+gesperrt: 505 · lesen: 111 · nur_mensch: 154 · unklar: 67 · vorbereiten: 12
 
 | Werkzeug | Methode | Modul | Art | Bereich | Zweck |
 |---|---|---|---|---|---|
 | `rv_delete_appendix_DeleteAppendixSectionTemplate` | DELETE | Appendix | gesperrt |  | Löscht Anhang Abschnitt Vorlage |
-| `rv_get_appendix_GetTranslationForCell` | GET | Appendix | lesen | 1.1 | Liefert Übersetzung für Zelle |
+| `rv_get_appendix_GetTranslationForCell` | GET | Appendix | unklar | 1.1 | Liefert Übersetzung für Zelle |
 | `rv_get_appendix_LoadAppendixForFinancialPeriod` | GET | Appendix | lesen | 1.1 | Lädt den Anhang der Jahresrechnung für eine Periode |
-| `rv_get_appendix_LoadAppendixSectionTemplates` | GET | Appendix | lesen | 1.1 | Lädt Anhang Abschnitt Vorlagen |
-| `rv_get_appendix_LoadFinancialStatementUserUnitTemplate_by_templateId` | GET | Appendix | lesen | 1.1 | Lädt Jahresrechnung Benutzer Einheit Vorlage (templateId) |
+| `rv_get_appendix_LoadAppendixSectionTemplates` | GET | Appendix | unklar | 1.1 | Lädt Anhang Abschnitt Vorlagen |
+| `rv_get_appendix_LoadFinancialStatementUserUnitTemplate_by_templateId` | GET | Appendix | unklar | 1.1 | Lädt Jahresrechnung Benutzer Einheit Vorlage (templateId) |
 | `rv_get_appendix_LoadUserDefinedUnitForFinancialPeriod` | GET | Appendix | lesen | 1.1 | Lädt benutzerdefinierte Einheit für Financial Periode |
 | `rv_post_appendix_CreateAppendixSectionTemplate` | POST | Appendix | gesperrt |  | Erstellt Anhang Abschnitt Vorlage |
 | `rv_post_appendix_ForceRetranslateAll` | POST | Appendix | gesperrt |  | Erzwingt Retranslate alle |
@@ -35,7 +35,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_delete_auditActivities_DeleteLastActivityComment` | DELETE | AuditActivities | gesperrt | 4 | Löscht letzte Activity Kommentar |
 | `rv_delete_auditActivities_DeleteTemplateActivityItem` | DELETE | AuditActivities | gesperrt |  | Löscht Vorlage Handlungseintrag |
 | `rv_delete_auditActivities_RemoveAuditActivityAttachement` | DELETE | AuditActivities | gesperrt | 4 | Entfernt Prüfungshandlung Beilage |
-| `rv_get_auditActivities_ClaudeImportAuditActivities` | GET | AuditActivities | vorbereiten | 4 | Sammelimport von Ergebnis, Referenztext und Beilagen je Prüfschritt (Prüffeld-Code, Nr.) |
+| `rv_get_auditActivities_ClaudeImportAuditActivities` | GET | AuditActivities | unklar | 4 | Sammelimport von Ergebnis, Referenztext und Beilagen je Prüfschritt (Prüffeld-Code, Nr.) |
 | `rv_get_auditActivities_GetActivityItemFromPreviousPeriod_by_containerId_by_templateId_by_activityId` | GET | AuditActivities | lesen | 4 | Liefert einen Prüfschritt aus dem Vorjahr (containerId, templateId, activityId) |
 | `rv_get_auditActivities_GetOvertakePreviousPeriodAuditActivitiesResult` | GET | AuditActivities | nur_mensch | 4 | Übernimmt Prüfungshandlungen (und Beilagen) aus dem Vorjahr ins Prüffeld |
 | `rv_get_auditActivities_LoadActivityItemConditions` | GET | AuditActivities | lesen | 4 | Lädt Anzeigebedingungen der Prüfschritte |
@@ -47,10 +47,10 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_auditActivities_AddAttachementsToAuditActivity` | POST | AuditActivities | vorbereiten | 4 | Hängt Beilagen (Belege) an einen Prüfschritt |
 | `rv_post_auditActivities_AppendCommentToSignedActivity` | POST | AuditActivities | nur_mensch | 4 | Hängt Kommentar an eine visierte Prüfungshandlung an |
 | `rv_post_auditActivities_ApplyLegacyRevioAuditActivitiesData` | POST | AuditActivities | gesperrt | 4 | Übernimmt/wendet an: Legacy Revio Prüfungshandlungen Daten |
-| `rv_post_auditActivities_DetachExaminsationAttachements` | POST | AuditActivities | vorbereiten | 4 | Löst Beilagen aus einer Prüfung und legt sie als lose Beilagen in einem Zielbereich ab |
+| `rv_post_auditActivities_DetachExaminsationAttachements` | POST | AuditActivities | unklar | 4 | Löst Beilagen aus einer Prüfung und legt sie als lose Beilagen in einem Zielbereich ab |
 | `rv_post_auditActivities_InsertDossierAuditActivityItem` | POST | AuditActivities | nur_mensch | 4 | Fügt im Dossier einen zusätzlichen Prüfschritt ein |
 | `rv_post_auditActivities_InsertTemplateAuditActivity` | POST | AuditActivities | gesperrt |  | Fügt ein: Vorlage Prüfungshandlung |
-| `rv_post_auditActivities_MoveAuditAcitivtyAttachements` | POST | AuditActivities | vorbereiten | 4 | Verschiebt/ordnet Beilagen eines Prüfschritts |
+| `rv_post_auditActivities_MoveAuditAcitivtyAttachements` | POST | AuditActivities | unklar | 4 | Verschiebt/ordnet Beilagen eines Prüfschritts |
 | `rv_post_auditActivities_MoveTemplateActivityItemToGroup` | POST | AuditActivities | gesperrt |  | Verschiebt Vorlage Handlungseintrag zu Gruppe |
 | `rv_post_auditActivities_MoveTemplateActivityItemUp` | POST | AuditActivities | gesperrt |  | Verschiebt Vorlage Handlungseintrag nach oben |
 | `rv_post_auditActivities_RemapTemplateActivityGroups` | POST | AuditActivities | gesperrt |  | Ordnet neu zu: Vorlage Activity Gruppen |
@@ -95,12 +95,12 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_checklistDefinitions_LoadAssignableDynamicFormDefinitions_by_containerId` | GET | ChecklistDefinitions | gesperrt |  | Lädt zuweisbare Formular Definitionen (containerId) |
 | `rv_get_checklistDefinitions_LoadChecklistCellStyles` | GET | ChecklistDefinitions | gesperrt |  | Lädt Checkliste Zelle Formate |
 | `rv_get_checklistDefinitions_LoadChecklistDefinitions` | GET | ChecklistDefinitions | gesperrt |  | Lädt Checkliste Definitionen |
-| `rv_get_checklistDefinitions_LoadContainerQuestionnaire_by_containerId` | GET | ChecklistDefinitions | lesen |  | Lädt Akte-Container Fragebogen (containerId) |
+| `rv_get_checklistDefinitions_LoadContainerQuestionnaire_by_containerId` | GET | ChecklistDefinitions | unklar |  | Lädt Akte-Container Fragebogen (containerId) |
 | `rv_get_checklistDefinitions_LoadDynamicFormDefinition_by_id` | GET | ChecklistDefinitions | gesperrt |  | Lädt Formular Definition (id) |
 | `rv_get_checklistDefinitions_LoadDynamicFormDefinitions` | GET | ChecklistDefinitions | gesperrt |  | Lädt Formular Definitionen |
-| `rv_get_checklistDefinitions_LoadFinancialStatementUserUnits` | GET | ChecklistDefinitions | lesen |  | Lädt Jahresrechnung Benutzer Einheiten |
+| `rv_get_checklistDefinitions_LoadFinancialStatementUserUnits` | GET | ChecklistDefinitions | unklar |  | Lädt Jahresrechnung Benutzer Einheiten |
 | `rv_get_checklistDefinitions_LoadFunctionalTestsDefinitions` | GET | ChecklistDefinitions | gesperrt |  | Lädt Funktionsprüfungen Definitionen |
-| `rv_get_checklistDefinitions_LoadSmartPanelAccountMap_by_assignmentId` | GET | ChecklistDefinitions | lesen |  | Lädt Smart-Panel Kontenzuordnung (assignmentId) |
+| `rv_get_checklistDefinitions_LoadSmartPanelAccountMap_by_assignmentId` | GET | ChecklistDefinitions | unklar |  | Lädt Smart-Panel Kontenzuordnung (assignmentId) |
 | `rv_get_checklistDefinitions_LoadSmartPanelDataDefinition_by_id` | GET | ChecklistDefinitions | gesperrt |  | Lädt Smart-Panel Daten Definition (id) |
 | `rv_get_checklistDefinitions_LoadSmartPanelDefinitions` | GET | ChecklistDefinitions | gesperrt |  | Lädt Smart-Panel Definitionen |
 | `rv_get_checklistDefinitions_LoadSmartPanelInstructions_by_id` | GET | ChecklistDefinitions | gesperrt |  | Lädt Smart-Panel Instruktionen (id) |
@@ -142,7 +142,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_checklists_LoadWorkpaperHeaderFooterChecklist_by_templateId` | GET | Checklists | gesperrt |  | Lädt Workpaper Kopf-/Fusszeile Checkliste (templateId) |
 | `rv_post_auditDefinitons_CopyAuditActivityDefinition_by_definitionId` | POST | Checklists | gesperrt |  | Kopiert Prüfungshandlung Definition (definitionId) |
 | `rv_post_checklists_CopyWorkpaperHeaderFooterChecklist` | POST | Checklists | gesperrt |  | Kopiert Workpaper Kopf-/Fusszeile Checkliste |
-| `rv_post_checklists_CreateChecklistReport` | POST | Checklists | vorbereiten |  | Erstellt Checkliste Bericht |
+| `rv_post_checklists_CreateChecklistReport` | POST | Checklists | unklar |  | Erstellt Checkliste Bericht |
 | `rv_post_checklists_CreateChecklistSectionTemplate` | POST | Checklists | gesperrt |  | Erstellt Checkliste Abschnitt Vorlage |
 | `rv_post_checklists_StoreChecklistData` | POST | Checklists | nur_mensch |  | Speichert ausgefüllte Checklistendaten eines Bereichs |
 | `rv_put_auditDefinitons_UpdateAuditActivityDefinition` | PUT | Checklists | gesperrt |  | Aktualisiert Prüfungshandlung Definition |
@@ -182,7 +182,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_clientsManagement_LoadAnualFilesForClient_by_clientId` | GET | ClientsManagement | lesen |  | Lädt Jahresakten (Dossiers) eines Kunden (clientId) |
 | `rv_get_clientsManagement_LoadArchiveAuditLog_by_dossierId` | GET | ClientsManagement | gesperrt | 9.0 | Lädt Archiv Zugriffsprotokoll (dossierId) |
 | `rv_get_clientsManagement_LoadArchiveForYear_by_year` | GET | ClientsManagement | gesperrt | 9.0 | Lädt Archiv für Jahr (year) |
-| `rv_get_clientsManagement_LoadArchiveVersions_by_dossierId` | GET | ClientsManagement | lesen | 9.0 | Lädt Archiv Versionen (dossierId) |
+| `rv_get_clientsManagement_LoadArchiveVersions_by_dossierId` | GET | ClientsManagement | unklar | 9.0 | Lädt Archiv Versionen (dossierId) |
 | `rv_get_clientsManagement_LoadClientHistory_by_clientId` | GET | ClientsManagement | lesen |  | Lädt Kunde Verlauf (clientId) |
 | `rv_get_clientsManagement_LoadClientImages` | GET | ClientsManagement | gesperrt |  | Lädt Kunde Bilder |
 | `rv_get_clientsManagement_LoadClientOrganizations_by_clientId` | GET | ClientsManagement | lesen |  | Lädt Kunde Organisationen (clientId) |
@@ -195,11 +195,11 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_clientsManagement_LoadDefaultReportParameters` | GET | ClientsManagement | lesen |  | Lädt Standard Bericht Parameter |
 | `rv_get_clientsManagement_LoadDossierRestoreJob_by_jobId` | GET | ClientsManagement | gesperrt |  | Lädt Dossier Wiederherstellung Auftrag (jobId) |
 | `rv_get_clientsManagement_LoadDossierUsers` | GET | ClientsManagement | lesen | 3.6 | Lädt Benutzer des Dossiers (Auftragsteam) |
-| `rv_get_clientsManagement_LoadFilesReadyForArchive_by_userId` | GET | ClientsManagement | lesen | 9.0 | Lädt Dateien bereit für Archiv (userId) |
+| `rv_get_clientsManagement_LoadFilesReadyForArchive_by_userId` | GET | ClientsManagement | gesperrt | 9.0 | Lädt Dateien bereit für Archiv (userId) |
 | `rv_get_clientsManagement_LoadForeignPersons` | GET | ClientsManagement | gesperrt |  | Lädt externe Personen |
 | `rv_get_clientsManagement_LoadLCurrentLegalForm` | GET | ClientsManagement | gesperrt |  | Lädt L Current Rechtsform |
 | `rv_get_clientsManagement_LoadLegalForms` | GET | ClientsManagement | gesperrt |  | Lädt Rechtsformen |
-| `rv_get_clientsManagement_LoadMandateRotationOverview` | GET | ClientsManagement | lesen | 2.4 | Lädt Mandat Rotation Übersicht |
+| `rv_get_clientsManagement_LoadMandateRotationOverview` | GET | ClientsManagement | gesperrt | 2.4 | Lädt Mandat Rotation Übersicht |
 | `rv_get_clientsManagement_LoadMandateRotationStatus` | GET | ClientsManagement | lesen | 2.4 | Lädt Status der Mandatsrotation |
 | `rv_get_clientsManagement_LoadOrganizationSettings` | GET | ClientsManagement | gesperrt |  | Lädt Organisation Einstellungen |
 | `rv_get_clientsManagement_LoadOrganizations` | GET | ClientsManagement | gesperrt |  | Lädt Organisationen |
@@ -224,10 +224,10 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_clientsManagement_LoadUserStartView` | GET | ClientsManagement | gesperrt |  | Lädt Benutzer Startansicht |
 | `rv_get_clientsManagement_LoadUsers` | GET | ClientsManagement | gesperrt |  | Lädt Benutzer (inkl. sensibler Felder) |
 | `rv_get_clientsManagement_LoginDossier_by_clientId_by_dossierId` | GET | ClientsManagement | lesen |  | Öffnet ein Dossier (Mandatskontext) (clientId, dossierId) |
-| `rv_get_clientsManagement_QueryZefixResult` | GET | ClientsManagement | lesen |  | Fragt ab: Zefix (Handelsregister) Ergebnis |
+| `rv_get_clientsManagement_QueryZefixResult` | GET | ClientsManagement | unklar |  | Fragt ab: Zefix (Handelsregister) Ergebnis |
 | `rv_get_clientsManagement_TryLoginDossier_by_clientId_by_dossierId` | GET | ClientsManagement | lesen |  | Prüft Anmeldung an Dossier (clientId, dossierId) |
 | `rv_get_clientsManagement_UpdateOutsideDossierNote` | GET | ClientsManagement | nur_mensch | Notizen | Rückmeldung/Erledigung einer Notiz ausserhalb des Dossiers |
-| `rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId` | GET | ClientsManagement | lesen | 9.0 | Verifiziert Archiv Integrität (dossierId) |
+| `rv_get_clientsManagement_VerifyArchiveIntegrity_by_dossierId` | GET | ClientsManagement | unklar | 9.0 | Verifiziert Archiv Integrität (dossierId) |
 | `rv_post_clientsManagement_AcknowledgeDossierBackup` | POST | ClientsManagement | gesperrt |  | Bestätigt Dossier Sicherung |
 | `rv_post_clientsManagement_AddCustomPdfEditorStamp` | POST | ClientsManagement | gesperrt |  | Fügt hinzu: eigene PDF Editor Stempel |
 | `rv_post_clientsManagement_AddCustomPdfEditorTickmark` | POST | ClientsManagement | gesperrt |  | Fügt hinzu: eigene PDF Editor Prüfzeichen |
@@ -243,11 +243,11 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_clientsManagement_ChangeUserPassword` | POST | ClientsManagement | gesperrt |  | Ändert Benutzer Passwort |
 | `rv_post_clientsManagement_CreateAllUserTrainingsReport` | POST | ClientsManagement | gesperrt |  | Erstellt alle Benutzer Weiterbildungen Bericht |
 | `rv_post_clientsManagement_CreateAnualFileForInterimFinancialStatement` | POST | ClientsManagement | gesperrt |  | Erstellt Jahresakte für Zwischen- Jahresrechnung |
-| `rv_post_clientsManagement_CreateAuditTeamReport` | POST | ClientsManagement | vorbereiten | 3.6 | Erstellt Prüfung Team Bericht |
+| `rv_post_clientsManagement_CreateAuditTeamReport` | POST | ClientsManagement | unklar | 3.6 | Erstellt Prüfung Team Bericht |
 | `rv_post_clientsManagement_CreateClient` | POST | ClientsManagement | gesperrt |  | Erstellt Kunde |
 | `rv_post_clientsManagement_CreateConfirmationItemMasterViewReport` | POST | ClientsManagement | gesperrt |  | Erstellt Bestätigungs- Eintrag Master Ansicht Bericht |
 | `rv_post_clientsManagement_CreateConfirmationsItemReport` | POST | ClientsManagement | gesperrt |  | Erstellt Bestätigungs- Eintrag Bericht |
-| `rv_post_clientsManagement_CreateShareRegisterReport` | POST | ClientsManagement | vorbereiten |  | Erstellt Aktienbuch Bericht |
+| `rv_post_clientsManagement_CreateShareRegisterReport` | POST | ClientsManagement | unklar |  | Erstellt Aktienbuch Bericht |
 | `rv_post_clientsManagement_CreateTrainingsReport` | POST | ClientsManagement | gesperrt |  | Erstellt Weiterbildungen Bericht |
 | `rv_post_clientsManagement_CreateUser` | POST | ClientsManagement | gesperrt |  | Erstellt Benutzer |
 | `rv_post_clientsManagement_DelegatePersonalTask` | POST | ClientsManagement | nur_mensch |  | Delegiert eine Aufgabe an einen anderen Benutzer |
@@ -332,24 +332,24 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_containerDefinitions_GetTaxonomyComparison` | GET | ContainerDefinitions | gesperrt |  | Liefert Taxonomie Comparison |
 | `rv_get_containerDefinitions_LoadAccountClassificationDefinitions` | GET | ContainerDefinitions | gesperrt |  | Lädt Konto Klassifikation Definitionen |
 | `rv_get_containerDefinitions_LoadComponentDefinitions` | GET | ContainerDefinitions | lesen |  | Lädt Komponente Definitionen |
-| `rv_get_containerDefinitions_LoadConditionAttributeStatus` | GET | ContainerDefinitions | lesen |  | Lädt Bedingung Attribute Status |
+| `rv_get_containerDefinitions_LoadConditionAttributeStatus` | GET | ContainerDefinitions | unklar |  | Lädt Bedingung Attribute Status |
 | `rv_get_containerDefinitions_LoadConfigurationNavigationItems` | GET | ContainerDefinitions | gesperrt |  | Lädt Konfiguration Navigationseinträge |
 | `rv_get_containerDefinitions_LoadContainerDefinitions` | GET | ContainerDefinitions | lesen |  | Lädt Akte-Container Definitionen |
 | `rv_get_containerDefinitions_LoadContainerDocuments_by_containerId` | GET | ContainerDefinitions | gesperrt |  | Lädt Akte-Container Dokumente (containerId) |
 | `rv_get_containerDefinitions_LoadContainerSectionsWithRegisterState_by_containerId_by_subContainerId` | GET | ContainerDefinitions | lesen |  | Lädt Akte-Container Abschnitte mit Register Status (containerId, subContainerId) |
 | `rv_get_containerDefinitions_LoadContainerSections_by_containerId_by_subContainerId` | GET | ContainerDefinitions | lesen |  | Lädt Abschnitte/Navigation der Akte (Bereiche, Prüffelder) (containerId, subContainerId) |
-| `rv_get_containerDefinitions_LoadContainerTemplateSections_by_containerId_by_subContainerId` | GET | ContainerDefinitions | lesen |  | Lädt Akte-Container Vorlage Abschnitte (containerId, subContainerId) |
+| `rv_get_containerDefinitions_LoadContainerTemplateSections_by_containerId_by_subContainerId` | GET | ContainerDefinitions | unklar |  | Lädt Akte-Container Vorlage Abschnitte (containerId, subContainerId) |
 | `rv_get_containerDefinitions_LoadContainerTypeExtensionCarryOptions` | GET | ContainerDefinitions | gesperrt |  | Lädt Akte-Container Type Erweiterung Carry Options |
-| `rv_get_containerDefinitions_LoadCustomerDynamicForm` | GET | ContainerDefinitions | lesen |  | Lädt Kunden- Formular |
+| `rv_get_containerDefinitions_LoadCustomerDynamicForm` | GET | ContainerDefinitions | unklar |  | Lädt Kunden- Formular |
 | `rv_get_containerDefinitions_LoadDossierIndependentSections` | GET | ContainerDefinitions | gesperrt |  | Lädt Dossier unabhängige Abschnitte |
 | `rv_get_containerDefinitions_LoadFrozenNavigationExtension` | GET | ContainerDefinitions | gesperrt |  | Lädt eingefrorene Navigation Erweiterung |
 | `rv_get_containerDefinitions_LoadLibrariesItems` | GET | ContainerDefinitions | gesperrt |  | Lädt Bibliothek Einträge |
 | `rv_get_containerDefinitions_LoadNavigationExtensionSlotUsage_by_containerId` | GET | ContainerDefinitions | gesperrt |  | Lädt Navigation Erweiterung Slot Usage (containerId) |
-| `rv_get_containerDefinitions_LoadNavigationExtensionsInSubContainer_by_containerId_by_subContainerId` | GET | ContainerDefinitions | lesen |  | Lädt Navigation Erweiterungen in Sub Akte-Container (containerId, subContainerId) |
+| `rv_get_containerDefinitions_LoadNavigationExtensionsInSubContainer_by_containerId_by_subContainerId` | GET | ContainerDefinitions | unklar |  | Lädt Navigation Erweiterungen in Sub Akte-Container (containerId, subContainerId) |
 | `rv_get_containerDefinitions_LoadNavigationExtensions_by_containerId` | GET | ContainerDefinitions | gesperrt |  | Lädt Navigation Erweiterungen (containerId) |
 | `rv_get_containerDefinitions_LoadPdfGenerationSettings_by_containerId` | GET | ContainerDefinitions | lesen |  | Lädt PDF Erzeugung Einstellungen (containerId) |
 | `rv_get_containerDefinitions_LoadTemplateItemUserData` | GET | ContainerDefinitions | gesperrt |  | Lädt Vorlage Eintrag Benutzer Daten |
-| `rv_get_containerDefinitions_LoadValidCommonNavigationItems_by_containerId` | GET | ContainerDefinitions | lesen |  | Lädt gültige gemeinsame Navigationseinträge (containerId) |
+| `rv_get_containerDefinitions_LoadValidCommonNavigationItems_by_containerId` | GET | ContainerDefinitions | unklar |  | Lädt gültige gemeinsame Navigationseinträge (containerId) |
 | `rv_get_containerDefinitions_MergeContainerVariants` | GET | ContainerDefinitions | gesperrt |  | Führt zusammen: Akte-Container Varianten |
 | `rv_get_containerDefinitions_PreviewContainerVisibility` | GET | ContainerDefinitions | gesperrt |  | Vorschau: Akte-Container Sichtbarkeit |
 | `rv_get_containerDefinitions_PromoteNavigationExtension` | GET | ContainerDefinitions | gesperrt |  | Übernimmt in Standard: Navigation Erweiterung |
@@ -376,9 +376,9 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_containerDefinitions_DeepCopyContainerBundle` | POST | ContainerDefinitions | gesperrt |  | Kopiert (tief) Akte-Container Bündel |
 | `rv_post_containerDefinitions_DeepCopyContainerToBundle` | POST | ContainerDefinitions | gesperrt |  | Kopiert (tief) Akte-Container zu Bündel |
 | `rv_post_containerDefinitions_EditContainerBundle` | POST | ContainerDefinitions | gesperrt |  | Bearbeitet Akte-Container Bündel |
-| `rv_post_containerDefinitions_GeneratePdfReport` | POST | ContainerDefinitions | vorbereiten | 10.5 | Erzeugt die PDF-Akte (Druck der Akte, optional Archiv-Job) |
+| `rv_post_containerDefinitions_GeneratePdfReport` | POST | ContainerDefinitions | unklar | 10.5 | Erzeugt die PDF-Akte (Druck der Akte, optional Archiv-Job) |
 | `rv_post_containerDefinitions_ImportClassificationsFromFile` | POST | ContainerDefinitions | gesperrt |  | Importiert Klassifikationen aus File |
-| `rv_post_containerDefinitions_MergePdfReport` | POST | ContainerDefinitions | vorbereiten | 10.5 | Führt PDF-Dokumente zu einem Paket zusammen |
+| `rv_post_containerDefinitions_MergePdfReport` | POST | ContainerDefinitions | unklar | 10.5 | Führt PDF-Dokumente zu einem Paket zusammen |
 | `rv_post_containerDefinitions_MoveClassification` | POST | ContainerDefinitions | gesperrt |  | Verschiebt Klassifikation |
 | `rv_post_containerDefinitions_MoveContainerNavigationItem` | POST | ContainerDefinitions | gesperrt |  | Verschiebt Akte-Container Navigationseintrag |
 | `rv_post_containerDefinitions_MoveContainersToBundle` | POST | ContainerDefinitions | gesperrt |  | Verschiebt Akte-Container zu Bündel |
@@ -422,7 +422,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_financialStatement_LoadBalanceAccounts` | GET | FinancialStatement | lesen | 10.1 | Lädt Saldenbilanz (Konten mit Salden) |
 | `rv_get_financialStatement_LoadBalanceAccountsForClassifications` | GET | FinancialStatement | lesen | 4 | Lädt Konten mit Salden je Klassifikation (Konten eines Prüffelds) |
 | `rv_get_financialStatement_LoadCashflowDetail` | GET | FinancialStatement | lesen | 1.3 | Lädt Geldfluss Detail |
-| `rv_get_financialStatement_LoadCommonDocumentParameter` | GET | FinancialStatement | lesen |  | Lädt gemeinsame Dokument Parameter |
+| `rv_get_financialStatement_LoadCommonDocumentParameter` | GET | FinancialStatement | unklar |  | Lädt gemeinsame Dokument Parameter |
 | `rv_get_financialStatement_LoadCoverPageDesign_by_coverPageId` | GET | FinancialStatement | gesperrt |  | Lädt Deckblatt Design (coverPageId) |
 | `rv_get_financialStatement_LoadCoverPagesDefinitions` | GET | FinancialStatement | gesperrt |  | Lädt Deckblätter Definitionen |
 | `rv_get_financialStatement_LoadDossierChart` | GET | FinancialStatement | lesen | 1.2 | Lädt Dossier Grafik |
@@ -450,7 +450,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_financialStatement_LoadViewConfiguration` | GET | FinancialStatement | lesen |  | Lädt Ansicht Konfiguration |
 | `rv_get_financialStatement_LoadXbrlAllocationStructure` | GET | FinancialStatement | gesperrt |  | Lädt XBRL Zuordnung Struktur |
 | `rv_get_financialStatement_LoadXbrlExportConfiguration` | GET | FinancialStatement | gesperrt |  | Lädt XBRL Export Konfiguration |
-| `rv_get_financialStatement_LoadXbrlInstance` | GET | FinancialStatement | lesen |  | Lädt XBRL Instanz |
+| `rv_get_financialStatement_LoadXbrlInstance` | GET | FinancialStatement | unklar |  | Lädt XBRL Instanz |
 | `rv_get_financialStatement_RegisterLastUserReportForChangeNotification` | GET | FinancialStatement | gesperrt |  | Registriert letzte Benutzer Bericht für Change Notification |
 | `rv_get_financialStatement_StoreAiCanvas` | GET | FinancialStatement | nur_mensch | 1.3 | Speichert einen KI-Canvas (HTML-Auswertung) |
 | `rv_post_financialStatement_AcceptImport` | POST | FinancialStatement | nur_mensch | 10.1 | Übernimmt einen Import-Entwurf in die Jahresrechnung |
@@ -475,22 +475,22 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_financialStatement_ClearValuesForPeriod` | POST | FinancialStatement | gesperrt | 1.1 | Leert Werte für Periode |
 | `rv_post_financialStatement_CopyAccountSystem_by_accountSystemid` | POST | FinancialStatement | gesperrt |  | Kopiert Kontenrahmen (accountSystemid) |
 | `rv_post_financialStatement_CopyCoverPageDefinition` | POST | FinancialStatement | gesperrt |  | Kopiert Deckblatt Definition |
-| `rv_post_financialStatement_CreateAccountItemsFromAbacusFile` | POST | FinancialStatement | vorbereiten | 1.1 | Legt Konten/Salden aus einer Abacus-Datei an (Import-Entwurf) |
-| `rv_post_financialStatement_CreateAccountItemsFromImport` | POST | FinancialStatement | vorbereiten | 1.1 | Legt Konten/Salden aus einer Import-Datei an (Import-Entwurf) |
+| `rv_post_financialStatement_CreateAccountItemsFromAbacusFile` | POST | FinancialStatement | nur_mensch | 1.1 | Legt Konten/Salden aus einer Abacus-Datei an (Import-Entwurf) |
+| `rv_post_financialStatement_CreateAccountItemsFromImport` | POST | FinancialStatement | unklar | 1.1 | Legt Konten/Salden aus einer Import-Datei an (Import-Entwurf) |
 | `rv_post_financialStatement_CreateCoverPageDefinition` | POST | FinancialStatement | gesperrt |  | Erstellt Deckblatt Definition |
 | `rv_post_financialStatement_CreateCoverPagePreview` | POST | FinancialStatement | gesperrt |  | Erstellt Deckblatt Vorschau |
 | `rv_post_financialStatement_CreateFinancialTemplate` | POST | FinancialStatement | gesperrt |  | Erstellt Financial Vorlage |
-| `rv_post_financialStatement_CreateHiddenReserveReport` | POST | FinancialStatement | vorbereiten | 10.3 | Erstellt Stille Reserve Bericht |
+| `rv_post_financialStatement_CreateHiddenReserveReport` | POST | FinancialStatement | unklar | 10.3 | Erstellt Stille Reserve Bericht |
 | `rv_post_financialStatement_CreateImportTemplate` | POST | FinancialStatement | gesperrt |  | Erstellt Import Vorlage |
 | `rv_post_financialStatement_CreateInterimFinancialStatement` | POST | FinancialStatement | gesperrt |  | Erstellt Zwischen- Jahresrechnung |
-| `rv_post_financialStatement_CreateLedgerAdjustmentsReport` | POST | FinancialStatement | vorbereiten | 10.2 | Erstellt Umbuchungen Bericht |
+| `rv_post_financialStatement_CreateLedgerAdjustmentsReport` | POST | FinancialStatement | unklar | 10.2 | Erstellt Umbuchungen Bericht |
 | `rv_post_financialStatement_CreateNewFiscalYear` | POST | FinancialStatement | gesperrt |  | Erstellt neu Geschäftsjahr |
 | `rv_post_financialStatement_CreateNewLedgerAdjustementVersion` | POST | FinancialStatement | nur_mensch | 10.2 | Erstellt neue Version der Umbuchungsliste |
-| `rv_post_financialStatement_CreatePreviewReport` | POST | FinancialStatement | vorbereiten |  | Erstellt Vorschau Bericht |
+| `rv_post_financialStatement_CreatePreviewReport` | POST | FinancialStatement | unklar |  | Erstellt Vorschau Bericht |
 | `rv_post_financialStatement_CreateSnapshot` | POST | FinancialStatement | unklar |  | Erstellt einen Snapshot (Zwischenstand) der Jahresrechnung (title, isNewBase) |
 | `rv_post_financialStatement_DetachAccountItemFromStructure` | POST | FinancialStatement | nur_mensch | 1.1 | Löst Konten aus der Struktur der Jahresrechnung |
-| `rv_post_financialStatement_ExportLedgerAdjustments` | POST | FinancialStatement | lesen | 10.2 | Exportiert die Umbuchungsliste (Datei) |
-| `rv_post_financialStatement_GenerateFinancialStatementReport` | POST | FinancialStatement | vorbereiten |  | Generiert Jahresrechnung Bericht |
+| `rv_post_financialStatement_ExportLedgerAdjustments` | POST | FinancialStatement | unklar | 10.2 | Exportiert die Umbuchungsliste (Datei) |
+| `rv_post_financialStatement_GenerateFinancialStatementReport` | POST | FinancialStatement | unklar |  | Generiert Jahresrechnung Bericht |
 | `rv_post_financialStatement_InitializeDefaultStructureItems` | POST | FinancialStatement | gesperrt |  | Initialisiert Standard Struktur Einträge |
 | `rv_post_financialStatement_InitializeFinancialYears` | POST | FinancialStatement | gesperrt |  | Initialisiert Geschäftsjahre |
 | `rv_post_financialStatement_InsertCapitalItems` | POST | FinancialStatement | nur_mensch | 1.1 | Fügt Eigenkapital-Positionen in die Struktur ein |
@@ -501,7 +501,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_financialStatement_MoveAccountItems` | POST | FinancialStatement | nur_mensch | 1.1 | Verschiebt mehrere Konten in der Struktur |
 | `rv_post_financialStatement_MoveKeyFigureItem` | POST | FinancialStatement | gesperrt | 1.2 | Verschiebt Kennzahl Eintrag |
 | `rv_post_financialStatement_ReApplyDetachedItems` | POST | FinancialStatement | nur_mensch | 1.1 | Ordnet gelöste Import-Positionen erneut zu (deleteFinal, invertValues) |
-| `rv_post_financialStatement_RejectImport` | POST | FinancialStatement | vorbereiten | 1.1 | Verwirft einen Import-Entwurf |
+| `rv_post_financialStatement_RejectImport` | POST | FinancialStatement | unklar | 1.1 | Verwirft einen Import-Entwurf |
 | `rv_post_financialStatement_ReleaseReportWatcher_by_watcherId` | POST | FinancialStatement | gesperrt |  | Gibt frei: Bericht Watcher (watcherId) |
 | `rv_post_financialStatement_RenameAiCanvas` | POST | FinancialStatement | nur_mensch | 1.3 | Benennt um: KI-Canvas |
 | `rv_post_financialStatement_RenameFinancialPeriodTitle` | POST | FinancialStatement | gesperrt |  | Benennt um: Financial Periode Titel |
@@ -619,7 +619,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_workpapers_CreateInstructionCatalog` | GET | Workpapers | gesperrt |  | Erstellt Instruktion Katalog |
 | `rv_get_workpapers_GeneratePlanningFromScoping` | GET | Workpapers | nur_mensch |  | Generiert Planung aus Scoping |
 | `rv_get_workpapers_GetGroupRiskTemplates` | GET | Workpapers | gesperrt |  | Liefert Konzernrisiko Vorlagen |
-| `rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems` | GET | Workpapers | vorbereiten | 10 | Nimmt Dokumente aus dem Dokumenteneingang und legt sie als lose Beilagen in einem Bereich ab |
+| `rv_get_workpapers_GetRemoveFromDocumentInboxAndAppendToDetachedItems` | GET | Workpapers | unklar | 10 | Nimmt Dokumente aus dem Dokumenteneingang und legt sie als lose Beilagen in einem Bereich ab |
 | `rv_get_workpapers_GetReportExists_by_workspaceId` | GET | Workpapers | lesen | 10.10 | Liefert Bericht vorhanden (workspaceId) |
 | `rv_get_workpapers_InitializeSnapshareTransfer_by_transferId` | GET | Workpapers | gesperrt |  | Initialisiert Snapshare Übertragung (transferId) |
 | `rv_get_workpapers_LoadAccountingEstimates` | GET | Workpapers | lesen |  | Lädt Schätzungen |
@@ -629,7 +629,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_get_workpapers_LoadAllGeneratedDocuments` | GET | Workpapers | lesen | 10.5 | Lädt alle generierte Dokumente |
 | `rv_get_workpapers_LoadAnalyticalAuditProcedure` | GET | Workpapers | lesen | 3.2 | Lädt Abschlussanalyse/analytische Prüfung (3.2) |
 | `rv_get_workpapers_LoadAnnualFileState` | GET | Workpapers | lesen |  | Lädt Status der Jahresakte (Abschnitte) |
-| `rv_get_workpapers_LoadAreaHistory_by_areaId` | GET | Workpapers | lesen |  | Lädt Bereich Verlauf (areaId) |
+| `rv_get_workpapers_LoadAreaHistory_by_areaId` | GET | Workpapers | unklar |  | Lädt Bereich Verlauf (areaId) |
 | `rv_get_workpapers_LoadAreaReferencesModel` | GET | Workpapers | lesen |  | Lädt Bereich References Model |
 | `rv_get_workpapers_LoadAreaState` | GET | Workpapers | lesen |  | Lädt Status eines Bereichs (areaId, trackUser) |
 | `rv_get_workpapers_LoadAreaStates` | GET | Workpapers | lesen |  | Lädt Status mehrerer Bereiche |
@@ -686,10 +686,10 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_workpapers_AddComponentAuditor` | POST | Workpapers | nur_mensch |  | Fügt hinzu: Komponente Prüfer |
 | `rv_post_workpapers_AddDeliveryAttachment_by_componentId` | POST | Workpapers | nur_mensch |  | Fügt hinzu: Lieferobjekt Beilage (componentId) |
 | `rv_post_workpapers_AddDetachedAttachement` | POST | Workpapers | vorbereiten |  | Fügt eine Datei (attachementId) als lose Beilage zu einem Bereich hinzu |
-| `rv_post_workpapers_AddFilesToDocumentInbox_by_folderId` | POST | Workpapers | vorbereiten | 10 | Lädt Dateien in den Dokumenteneingang (folderId) |
+| `rv_post_workpapers_AddFilesToDocumentInbox_by_folderId` | POST | Workpapers | unklar | 10 | Lädt Dateien in den Dokumenteneingang (folderId) |
 | `rv_post_workpapers_AddFilesToDocumentation` | POST | Workpapers | vorbereiten | 4 | Fügt Belege/Dateien zur Kontendokumentation hinzu |
 | `rv_post_workpapers_AddFinding_by_componentId` | POST | Workpapers | nur_mensch |  | Fügt hinzu: Feststellung (componentId) |
-| `rv_post_workpapers_AddFolderToDocumentInbox_by_insertIndex_by_foldername` | POST | Workpapers | vorbereiten | 10 | Legt Ordner im Dokumenteneingang an (insertIndex, foldername) |
+| `rv_post_workpapers_AddFolderToDocumentInbox_by_insertIndex_by_foldername` | POST | Workpapers | unklar | 10 | Legt Ordner im Dokumenteneingang an (insertIndex, foldername) |
 | `rv_post_workpapers_AddGroupRisk` | POST | Workpapers | nur_mensch |  | Fügt hinzu: Konzernrisiko |
 | `rv_post_workpapers_AddInstruction_by_componentId` | POST | Workpapers | nur_mensch |  | Fügt hinzu: Instruktion (componentId) |
 | `rv_post_workpapers_AddMaterialLineItem` | POST | Workpapers | nur_mensch |  | Fügt hinzu: wesentliche Position |
@@ -701,18 +701,18 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_workpapers_CalculateScopingSignificance` | POST | Workpapers | nur_mensch |  | Berechnet Scoping Signifikanz |
 | `rv_post_workpapers_CancelDividend_by_dividendId` | POST | Workpapers | nur_mensch |  | Storniert/bricht ab: Dividende (dividendId) |
 | `rv_post_workpapers_ChangeAttachmentTitle` | POST | Workpapers | vorbereiten | 4 | Ändert Titel einer Beilage in der Dokumentation |
-| `rv_post_workpapers_CheckLooseAttachments` | POST | Workpapers | lesen | 4 | Prüft lose Beilagen |
-| `rv_post_workpapers_CreateAccountDocumentationReport` | POST | Workpapers | vorbereiten | 4 | Erstellt Konto Dokumentation Bericht |
+| `rv_post_workpapers_CheckLooseAttachments` | POST | Workpapers | unklar | 4 | Prüft lose Beilagen |
+| `rv_post_workpapers_CreateAccountDocumentationReport` | POST | Workpapers | unklar | 4 | Erstellt Konto Dokumentation Bericht |
 | `rv_post_workpapers_CreateAccountingEstimatesReport` | POST | Workpapers | gesperrt |  | Erstellt Schätzungen Bericht |
-| `rv_post_workpapers_CreateAnalyticalAuditProcedureReport` | POST | Workpapers | vorbereiten | 3.2 | Erstellt Analytische Prüfung/Abschlussanalyse Bericht |
-| `rv_post_workpapers_CreateAttachementsReport` | POST | Workpapers | vorbereiten |  | Erstellt Beilagen Bericht |
-| `rv_post_workpapers_CreateAuditActivityReport` | POST | Workpapers | vorbereiten | 4 | Erstellt Prüfungshandlung Bericht |
+| `rv_post_workpapers_CreateAnalyticalAuditProcedureReport` | POST | Workpapers | unklar | 3.2 | Erstellt Analytische Prüfung/Abschlussanalyse Bericht |
+| `rv_post_workpapers_CreateAttachementsReport` | POST | Workpapers | unklar |  | Erstellt Beilagen Bericht |
+| `rv_post_workpapers_CreateAuditActivityReport` | POST | Workpapers | unklar | 4 | Erstellt Prüfungshandlung Bericht |
 | `rv_post_workpapers_CreateComponentAuditorInstructionsReport` | POST | Workpapers | nur_mensch |  | Erstellt Komponente Prüfer Instruktionen Bericht |
 | `rv_post_workpapers_CreateComponentAuditorsReport` | POST | Workpapers | gesperrt |  | Erstellt Komponente Prüfer Bericht |
 | `rv_post_workpapers_CreateComponentWorkspaceDocumentationReport_by_componentId` | POST | Workpapers | gesperrt |  | Erstellt Komponente Arbeitsbereich Dokumentation Bericht (componentId) |
-| `rv_post_workpapers_CreateDocumentContainerReport` | POST | Workpapers | vorbereiten | 10 | Erstellt Dokument Akte-Container Bericht |
-| `rv_post_workpapers_CreateDossierRiskReport` | POST | Workpapers | vorbereiten |  | Erstellt Dossier Risiko Bericht |
-| `rv_post_workpapers_CreateDynamicFormReport` | POST | Workpapers | vorbereiten |  | Erstellt Formular Bericht |
+| `rv_post_workpapers_CreateDocumentContainerReport` | POST | Workpapers | unklar | 10 | Erstellt Dokument Akte-Container Bericht |
+| `rv_post_workpapers_CreateDossierRiskReport` | POST | Workpapers | unklar |  | Erstellt Dossier Risiko Bericht |
+| `rv_post_workpapers_CreateDynamicFormReport` | POST | Workpapers | unklar |  | Erstellt Formular Bericht |
 | `rv_post_workpapers_CreateFunctionalTestPlanningReport` | POST | Workpapers | gesperrt |  | Erstellt Funktionsprüfung Planung Bericht |
 | `rv_post_workpapers_CreateFunctionalTestReport` | POST | Workpapers | gesperrt |  | Erstellt Funktionsprüfung Bericht |
 | `rv_post_workpapers_CreateGlobalPbcTemplate` | POST | Workpapers | gesperrt |  | Erstellt Gesamt- PBC Vorlage |
@@ -727,22 +727,22 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_post_workpapers_CreateIcsResultsOverviewReport` | POST | Workpapers | gesperrt |  | Erstellt IKS Ergebnisse Übersicht Bericht |
 | `rv_post_workpapers_CreateLocalPbcTemplate` | POST | Workpapers | gesperrt |  | Erstellt Local PBC Vorlage |
 | `rv_post_workpapers_CreateLocalQuestionnaireTemplate` | POST | Workpapers | gesperrt |  | Erstellt Local Fragebogen Vorlage |
-| `rv_post_workpapers_CreateMaterialityReport` | POST | Workpapers | vorbereiten | 3.3 | Erstellt Wesentlichkeit Bericht |
+| `rv_post_workpapers_CreateMaterialityReport` | POST | Workpapers | unklar | 3.3 | Erstellt Wesentlichkeit Bericht |
 | `rv_post_workpapers_CreateNoteFeedback` | POST | Workpapers | nur_mensch | Notizen | Erfasst Rückmeldung zu einer Notiz |
-| `rv_post_workpapers_CreateNotesReport` | POST | Workpapers | vorbereiten | Notizen | Erstellt Notizen Bericht |
+| `rv_post_workpapers_CreateNotesReport` | POST | Workpapers | unklar | Notizen | Erstellt Notizen Bericht |
 | `rv_post_workpapers_CreatePermanentFilesReport` | POST | Workpapers | gesperrt |  | Erstellt Dauerakte-Dokumente Bericht |
-| `rv_post_workpapers_CreateQuestionnairePDF` | POST | Workpapers | vorbereiten | 10.11 | Erstellt Fragebogen PDF |
-| `rv_post_workpapers_CreateReferenceLink` | POST | Workpapers | vorbereiten |  | Setzt Querverweis-Link zwischen Arbeitspapieren |
-| `rv_post_workpapers_CreateReferencePoint` | POST | Workpapers | vorbereiten |  | Setzt Referenzpunkt in einem Arbeitspapier |
-| `rv_post_workpapers_CreateRiskAssessmentReport` | POST | Workpapers | vorbereiten | 3.1 | Erstellt Risikobeurteilung Bericht |
-| `rv_post_workpapers_CreateStrategicalPlanningReport` | POST | Workpapers | vorbereiten | 3.5 | Erstellt Strategische Planung Bericht |
+| `rv_post_workpapers_CreateQuestionnairePDF` | POST | Workpapers | unklar | 10.11 | Erstellt Fragebogen PDF |
+| `rv_post_workpapers_CreateReferenceLink` | POST | Workpapers | unklar |  | Setzt Querverweis-Link zwischen Arbeitspapieren |
+| `rv_post_workpapers_CreateReferencePoint` | POST | Workpapers | unklar |  | Setzt Referenzpunkt in einem Arbeitspapier |
+| `rv_post_workpapers_CreateRiskAssessmentReport` | POST | Workpapers | unklar | 3.1 | Erstellt Risikobeurteilung Bericht |
+| `rv_post_workpapers_CreateStrategicalPlanningReport` | POST | Workpapers | unklar | 3.5 | Erstellt Strategische Planung Bericht |
 | `rv_post_workpapers_CreateVerticalComponentScopingReport` | POST | Workpapers | gesperrt |  | Erstellt Vertical Komponente Scoping Bericht |
 | `rv_post_workpapers_ImportInstructionCatalog_by_componentId` | POST | Workpapers | nur_mensch |  | Importiert Instruktion Katalog (componentId) |
 | `rv_post_workpapers_MoveAttachmentsToNote` | POST | Workpapers | vorbereiten | Notizen | Hängt Beilagen an eine Notiz |
-| `rv_post_workpapers_MoveDetachedAttachmentsToDocumentation` | POST | Workpapers | vorbereiten | 4 | Ordnet lose Beilagen der Kontendokumentation zu |
+| `rv_post_workpapers_MoveDetachedAttachmentsToDocumentation` | POST | Workpapers | unklar | 4 | Ordnet lose Beilagen der Kontendokumentation zu |
 | `rv_post_workpapers_MoveDetachedAttachmentsToWorkingArea` | POST | Workpapers | vorbereiten |  | Ordnet lose Beilagen einem Arbeitsbereich/Eintrag zu |
-| `rv_post_workpapers_MoveDocumentationItem` | POST | Workpapers | vorbereiten | 4 | Verschiebt einen Eintrag der Kontendokumentation |
-| `rv_post_workpapers_MoveDocumentationItemToDetachedAttachements` | POST | Workpapers | vorbereiten | 4 | Verschiebt Dokumentationseinträge zu den losen Beilagen |
+| `rv_post_workpapers_MoveDocumentationItem` | POST | Workpapers | unklar | 4 | Verschiebt einen Eintrag der Kontendokumentation |
+| `rv_post_workpapers_MoveDocumentationItemToDetachedAttachements` | POST | Workpapers | unklar | 4 | Verschiebt Dokumentationseinträge zu den losen Beilagen |
 | `rv_post_workpapers_MoveNoteAttachments` | POST | Workpapers | nur_mensch | Notizen | Verschiebt Beilagen innerhalb einer Notiz |
 | `rv_post_workpapers_MoveNotes` | POST | Workpapers | nur_mensch | Notizen | Ordnet Notizen neu |
 | `rv_post_workpapers_MovePermanentFilesBelow` | POST | Workpapers | unklar |  | Verschiebt Dauerakte-Dokumente |
@@ -824,7 +824,7 @@ gesperrt: 503 · lesen: 132 · nur_mensch: 153 · unklar: 14 · vorbereiten: 47
 | `rv_put_workpapers_UpdateScopingThresholdLogic` | PUT | Workpapers | nur_mensch |  | Aktualisiert Scoping Schwelle Logik |
 | `rv_put_workpapers_UpdateTz45Communication_by_componentId` | PUT | Workpapers | nur_mensch |  | Aktualisiert Tz45 Kommunikation (componentId) |
 | `rv_put_workpapers_UpdateWorkAssignment_by_componentId` | PUT | Workpapers | nur_mensch |  | Aktualisiert Work Zuweisung (componentId) |
-| `revio_call` |  | revio (kuratiert) | gesperrt |  | Generischer Aufruf eines beliebigen Endpunkts (method, path, path_params_json, query_json, body_jso… |
+| `revio_call` |  | revio (kuratiert) | gesperrt |  | Generischer Aufruf eines beliebigen Endpunkts (method, path, path_params_json, query_json… |
 | `revio_create_client` |  | revio (kuratiert) | gesperrt |  | Kunden anlegen (name, number, canton, legal_form) |
 | `revio_describe_endpoint` |  | revio (kuratiert) | lesen |  | Beschreibt Parameter und Body-Schema eines Endpunkts (method, path) |
 | `revio_describe_schema` |  | revio (kuratiert) | lesen |  | Liefert Feldliste eines DTO (name) |

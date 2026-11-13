@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Revisions-Wiki – Werkzeug für den KI-Revisionsagenten (eingeschränkte Revision, revio 4.0, M-Files).
 
-Einstieg:   python3 revision/tools/revision.py hilfe
+Einstieg:   python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"   (Liste: aufgabe · Übersicht: hilfe)
 Prüfen:     pruefschritt C1-302 · prueffeld C1 (oder Stichwort «Vorräte») · unterlagen C1 · fragen C1
 Vorgehen:   prozess [p1…p8] · regeln [bereich] · revio <Bereich 10.9 | Prüffeld | Schritt | Werkzeug | Aufgabe | nur-mensch>
 Zahlen:     wert <begriff> · rechne "<ausdruck>" · wesentlichkeit <bezugsgrösse> <satz%> · kapitalverlust … · revisionspflicht …
@@ -29,8 +29,29 @@ STATUS = "☑️ agent-geprüft (Fundstellen maschinell geprüft, fachliche Abna
 
 # ------------------------------------------------------------------ Grundlagen
 def cut(s, n):
+    """Kürzen an der Wortgrenze (nie mitten im Wort)."""
     s = re.sub(r"\s+", " ", str(s or "")).strip()
-    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+    if len(s) <= n:
+        return s
+    t = s[: n - 1]
+    w = t.rsplit(" ", 1)[0] if " " in t else t
+    return (w if len(w) >= n // 2 else t).rstrip(" ,;:–-") + "…"
+
+
+ABK = set("bzw z.b u.a ca abs art ziff nr vgl evtl inkl d.h rz lit bst max min sog usw etc ggf allf insb resp spez gem mio chf".split())
+
+
+def satz(s, n=400):
+    """Kürzen am Satzende: letztes «. » vor n Zeichen (nicht nach Abkürzungen wie «bzw.»), sonst an der Wortgrenze."""
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    if len(s) <= n:
+        return s
+    i = -1
+    for m in re.finditer(r"\. ", s[:n]):
+        w = (re.findall(r"[\w.]+$", s[: m.start()]) or [""])[0].lower()
+        if w not in ABK and not w.isdigit() and len(w) > 1:
+            i = m.start()
+    return s[: i + 1] if i >= n // 3 else cut(s, n)
 
 
 def norm(s: str) -> str:
@@ -84,10 +105,11 @@ def terms_of(q: str) -> list[str]:
 
 
 # ------------------------------------------------------------------ Volltext
-def suche(query: str, quelle: str | None = None, typ: str | None = None, n: int = 8) -> str:
+def _suche_rows(query: str, quelle: str | None = None, typ: str | None = None, n: int = 8):
+    """Volltexttreffer als Liste (chunk-id, kurz, titel, seiten, rang, ausschnitt, bm25); None bei leerer Anfrage, str bei Fehler."""
     terms = terms_of(query)
     if not terms:
-        return "Leere Suchanfrage."
+        return None, False
     match = " OR ".join(f'"{t}"*' if len(t) >= 5 else f'"{t}"' for t in terms)
     sql = ("select c.id, c.kurz, c.titel, c.seiten, c.rang, c.text, bm25(chunks, 4.0, 1.5, 1.0) as r "
            "from chunks join chunk c on c.rowid = chunks.rowid where chunks match ?")
@@ -109,19 +131,31 @@ def suche(query: str, quelle: str | None = None, typ: str | None = None, n: int 
     try:
         rows = [(cid, kurz, titel, seiten, rang, ausschnitt(text, terms), r) for cid, kurz, titel, seiten, rang, text, r in db().execute(sql, par).fetchall()]
     except sqlite3.OperationalError as e:
-        return f"Suchfehler: {e}"
+        return f"Suchfehler: {e}", ordentlich
 
     def score(r):
         txt = norm(re.sub(r"\s+", "", f"{r[2]} {r[5]}"))
         cover = sum(1 for t in terms if t[:5] in txt)
         return r[6] - 2.0 * cover + 0.4 * (r[4] or 5)
-    rows = sorted(rows, key=score)[:n]
+    return sorted(rows, key=score)[:n], ordentlich
+
+
+def _treffer(i, row) -> list[str]:
+    cid, kurz, titel, seiten, rang, snip, _ = row
+    return [f"{i}. **{cid}** · {kurz} · {cut(titel, 80)}" + (f" · S. {seiten}" if seiten else ""), f"   {cut(snip, 260)}"]
+
+
+def suche(query: str, quelle: str | None = None, typ: str | None = None, n: int = 8) -> str:
+    rows, ordentlich = _suche_rows(query, quelle, typ, n)
+    if rows is None:
+        return "Leere Suchanfrage."
+    if isinstance(rows, str):
+        return rows
     if not rows:
         return f"Keine Treffer für «{query}»" + (f" in {quelle}" if quelle else "") + ". Andere Begriffe oder ohne --quelle versuchen."
     out = [f"## Suche «{query}»" + (f" · Quelle {quelle}" if quelle else "") + (f" · Typ {typ}" if typ else ""), ""]
-    for i, (cid, kurz, titel, seiten, rang, snip, _) in enumerate(rows, 1):
-        out.append(f"{i}. **{cid}** · {kurz} · {cut(titel, 80)}" + (f" · S. {seiten}" if seiten else ""))
-        out.append(f"   {cut(snip, 260)}")
+    for i, row in enumerate(rows, 1):
+        out += _treffer(i, row)
     out.append("\nVolltext: `zeige <chunk-id>`. Rang: OR (Gesetz) > SER > HWP ER > übrige." +
                ("" if ordentlich else " SA-CH/HWP OR (ordentliche Revision) ausgeblendet – nur bei Bedarf `--quelle sa-ch` bzw. `--quelle hwp-or`."))
     return "\n".join(out)
@@ -255,11 +289,19 @@ def regel(key: str) -> dict:
     return {}
 
 
+WP_TXT = ("nur Mensch (WP) – bis Entscheid consis ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld: Schritt lesen, "
+          "Punkte als Notiz (Schlussbesprechung/Pendenz); mit ausdrücklicher Anweisung als «Vorbereitung für WP» kennzeichnen")
+NIE = ("Nie: Visum, ✓, Abschliessende Beurteilung, Abschluss/Status, Siegel, Freigabe, Archiv, Löschen, Buchung (nur Buchungsvorschlag "
+       "als Notiz), Kundenversand, Notiz erledigen/löschen")
+
+
 def art_of(s: dict) -> tuple[str, str, dict]:
-    """Rolle des Agenten je Schritt – deterministisch aus Kennzeichnung und Typ (Konzept)."""
-    if s.get("kennzeichnung") == "WP":
+    """Rolle des Agenten je Schritt – deterministisch aus Kennzeichnung und Typ (Konzept). Kennzeichnung «?» = wie WP."""
+    if s.get("kennzeichnung") in ("WP", "?"):
         r = regel("wp")
-        return "nur_mensch", "WP-Schritt: Beurteilung beim Wirtschaftsprüfer; ob der Agent vorbereiten darf, ist offener Entscheid → nur auf ausdrückliche Anweisung vorbereiten.", r
+        if s.get("kennzeichnung") == "?":
+            return "nur_mensch", "Kennzeichnung unlesbar – bis Klärung wie WP (zuordnung schritt_typen[7]).", r
+        return "nur_mensch", "Beurteilung immer beim Wirtschaftsprüfer.", r
     key = {"Befragung": "befragung", "Analytisch": "analytisch", "Detail": "detail", "Sonstige": "sonstige"}.get(s.get("typ"), "detail")
     art = {"befragung": "teilweise", "analytisch": "vorbereiten", "detail": "vorbereiten", "sonstige": "auf_anweisung"}[key]
     r = regel(key)
@@ -269,30 +311,94 @@ def art_of(s: dict) -> tuple[str, str, dict]:
 ART_TXT = {"vorbereiten": "vorbereiten (Textfeld, Beilagen, Notizen; Visum bleibt offen)",
            "teilweise": "teilweise – Befragung nur schriftlich auswerten, sonst Frage als Pendenz",
            "auf_anweisung": "nur auf Anweisung des WP",
-           "nur_mensch": "nur Mensch (WP) – Agent höchstens auf Anweisung vorbereiten"}
+           "nur_mensch": WP_TXT}
+
+# Pflicht-Lesewerkzeuge je Prüfschritt (Reihenfolge = Ablauf); LoadAreaState immer mit trackUser=false
+PFLICHT_LESEN = [("rv_get_workpapers_LoadAreaState", " (trackUser=false)"),
+                 ("rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId", ""),
+                 ("rv_get_auditActivities_LoadCoverSheet_by_containerId", ""),
+                 ("rv_get_workpapers_LoadMaterialityOfDossier", ""),
+                 ("rv_get_workpapers_LoadNotesForArea_by_areaId", "")]
+NOTIZ_SCHREIBEN = ["rv_put_workpapers_UpdateNote", "rv_post_workpapers_MoveAttachmentsToNote"]
 
 
-def _revio_fuer(s: dict) -> list[str]:
+def _oc() -> tuple[set, set]:
+    """OpenClaw-Liste (zuordnung bereiche[nr=OpenClaw]): allow (lesen), allow mit Freigabe (vorbereiten); alles übrige = deny."""
+    b = next((b for b in L().get("revio", {}).get("bereiche", []) if b.get("nr") == "OpenClaw"), {})
+    return set(b.get("werkzeuge_lesen", [])), set(b.get("werkzeuge_vorbereiten", []))
+
+
+def _bt(ws) -> str:
+    return ", ".join(f"`{w}`" for w in ws)
+
+
+def _schritt_typ(s: dict) -> tuple[str, dict]:
+    """Eintrag aus zuordnung.schritt_typen für den Schritt (WP, «?», Typ; 4xx = «auf Anweisung»)."""
+    if not (s.get("typ") or s.get("kennzeichnung")):
+        return "", {}
+    if s.get("kennzeichnung") == "WP":
+        such, typ = "WP-Schritte", "WP-Schritt"
+    elif s.get("kennzeichnung") == "?":
+        such, typ = "Schritte mit unlesbarer", "Kennzeichnung «?»"
+    elif s.get("typ") == "Sonstige":
+        such, typ = "Sonstige (4xx) – auf Anweisung", "Sonstige (4xx) auf Anweisung"
+    else:
+        such = typ = s.get("typ", "")
+    for t in L().get("revio", {}).get("schritt_typen", []):
+        if norm(t.get("typ", "")).startswith(norm(such)):
+            return typ, t
+    return typ, {}
+
+
+def _besonderheiten(s: dict) -> list[dict]:
+    """Besonderheiten je Prüffeld bzw. Schritt (x-320/321/322 über schritt_nr, Ausnahmen über ausser)."""
+    sid = str(s.get("id", ""))
+    out = []
+    for b in L().get("revio", {}).get("prueffeld_besonderheiten", []):
+        hit = (s.get("prueffeld") in (b.get("prueffelder") or []) or (sid and sid in (b.get("schritte") or []))
+               or (sid and sid.split("-")[-1] in (b.get("schritt_nr") or [])))
+        if hit and sid not in (b.get("ausser") or []):
+            out.append(b)
+    return out
+
+
+def _revio_fuer(s: dict, alle_lesen: bool = False) -> list[str]:
+    """revio-Werkzeuge für einen Prüfschritt (bzw. ein Prüffeld, wenn s nur «prueffeld» hat) – getrennt nach OpenClaw allow/Freigabe/deny."""
     rv = L().get("revio", {})
     std = rv.get("prueffeld_standard") or {}
+    oc_l, oc_v = _oc()
+    art = art_of(s)[0] if (s.get("typ") or s.get("kennzeichnung")) else "vorbereiten"
+    pf = s.get("prueffeld", "")
     out = []
-    if std:
-        out.append("- lesen: " + ", ".join(f"`{w}`" for w in std.get("werkzeuge_lesen", [])[:6]))
-        out.append("- vorbereiten (OpenClaw: mit Freigabe): " + ", ".join(f"`{w}`" for w in std.get("werkzeuge_vorbereiten", [])[:6]))
-    typ = "WP-Schritt" if s.get("kennzeichnung") == "WP" else s.get("typ", "")
-    for t in rv.get("schritt_typen", []):
-        if norm(t.get("typ", "")).startswith(norm(typ)[:5]):
-            extra = [w for w in t.get("werkzeuge_lesen", []) + t.get("werkzeuge_vorbereiten", []) if w not in str(out)]
-            if extra:
-                out.append(f"- für {typ}: " + ", ".join(f"`{w}`" for w in extra[:6]))
-            if t.get("vorgehen"):
-                out.append(f"- Vorgehen {typ}: {cut(t['vorgehen'], 260)}")
-            break
-    for b in rv.get("prueffeld_besonderheiten", []):
-        if b.get("code") == s.get("prueffeld"):
-            out.append(f"- Besonderheit {b['code']}: " + ", ".join(f"`{w}`" for w in b.get("werkzeuge", [])[:5]) + f" – {cut(b.get('zweck'), 160)}")
-    if out:
-        out.append("- nie (nur Mensch): Visum, ✓ Prüffeld, Abschliessende Beurteilung, Abschluss/Siegel → `revio nur-mensch`")
+    if alle_lesen:
+        gezeigt = list(std.get("werkzeuge_lesen", []))
+        out.append("- lesen: " + _bt(gezeigt))
+    else:
+        gezeigt = [w for w, _ in PFLICHT_LESEN]
+        out.append("- lesen (immer): " + ", ".join(f"`{w}`{x}" for w, x in PFLICHT_LESEN) + f" · weitere: `revio prueffeld {pf}`")
+    schreiben = std.get("werkzeuge_vorbereiten", []) if art in ("vorbereiten", "teilweise", "auf_anweisung") else NOTIZ_SCHREIBEN
+    out.append("- schreiben (OpenClaw: mit Freigabe" + (", nur nach Anweisung des WP" if art == "auf_anweisung" else "") + "): " + _bt(schreiben))
+    if art == "nur_mensch":
+        out.append("- Textfeld/Beilage nur mit ausdrücklicher Anweisung des WP.")
+    gezeigt += schreiben
+    typ, t = _schritt_typ(s)
+    if t:
+        el = [w for w in t.get("werkzeuge_lesen", []) if w not in gezeigt and w in oc_l]
+        ev = [w for w in t.get("werkzeuge_vorbereiten", []) if w not in gezeigt and w in oc_v] if art != "nur_mensch" else []
+        if el or ev:
+            out.append(f"- für {typ}: " + " · ".join(x for x in ((f"lesen {_bt(el)}" if el else ""), (f"schreiben (Freigabe) {_bt(ev)}" if ev else "")) if x))
+        gezeigt += el + ev
+        if t.get("vorgehen") and s.get("kennzeichnung") != "WP":   # WP: Vorgehen = Rolle (WP_TXT), nicht doppelt
+            out.append(f"- Vorgehen {typ}: {satz(t['vorgehen'], 400)}")
+    for b in _besonderheiten(s):
+        ws = b.get("werkzeuge", [])
+        bl = [w for w in ws if w in oc_l and w not in gezeigt]
+        bv = [w for w in ws if w in oc_v and w not in gezeigt] if art != "nur_mensch" else []
+        bk = [w for w in ws if w not in oc_l and w not in oc_v]
+        out.append(f"- Besonderheit {cut(b.get('code'), 70)}: {cut(b.get('zweck'), 160)}")
+        out += [f"  - {lab}: {_bt(ws)}" for lab, ws in (("lesen", bl), ("schreiben (Freigabe)", bv), ("⛔ Kandidat – nicht aufrufen", bk)) if ws]
+    out.append(f"- {NIE} → `revio nur-mensch`")
+    out.append("- Ablauf: `revio K6` (Textfeld, Beilage) · `revio K7` (Pendenz/Feststellung) · Ids: `revio K5`")
     return out
 
 
@@ -308,7 +414,10 @@ def pruefschritt(ref: str) -> str:
     e = next((x for x in (L().get("pf", {}).get(s["prueffeld"], {}).get("schritte") or []) if x.get("id") == sid), {})
     art, art_regel, ar = art_of(s)
     ziele = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", []))
-    banner = {"nur_mensch": "⛔ WP-SCHRITT: nicht bearbeiten ohne ausdrückliche Anweisung des WP (offener Entscheid consis). Ohne Anweisung: Status «nicht bearbeitet – WP-Schritt».",
+    unl = s.get("kennzeichnung") == "?"
+    st_nm = "nicht bearbeitet – Kennzeichnung «?» (wie WP)" if unl else "nicht bearbeitet – WP-Schritt"
+    banner = {"nur_mensch": ("⛔ KENNZEICHNUNG UNLESBAR («?») – bis Klärung wie WP-Schritt: " if unl else "⛔ WP-SCHRITT: ") +
+              f"ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld (offener Entscheid consis). Ohne Anweisung: Status «{st_nm}».",
               "auf_anweisung": "⛔ SONSTIGE (4xx): nur auf ausdrückliche Anweisung des WP; physische Tätigkeiten nie. Ohne Anweisung: Status «nicht bearbeitet – nur auf Anweisung».",
               "teilweise": "ℹ️ BEFRAGUNG: nicht selbst befragen – schriftliche Antwort (10.11, Protokolle, VE) auswerten, sonst Notiz «Pendenz». Status höchstens «teilweise bearbeitet».",
               "vorbereiten": ""}[art]
@@ -319,7 +428,7 @@ def pruefschritt(ref: str) -> str:
     if s.get("beispiel_pflichtenheft"):
         out.append(f"Beispiel Pflichtenheft: {s['beispiel_pflichtenheft']}")
     if s.get("kennzeichnung") == "?":
-        out.append("⚠️ Kennzeichnung im Katalog-PDF unlesbar – in revio prüfen.")
+        out.append("⚠️ Kennzeichnung im Katalog-PDF unlesbar – in revio nachlesen und Abweichung als Pendenz melden.")
     out += ["", f"**Rolle Agent: {ART_TXT[art]}.** {art_regel}" + (f" ^[{ar['quelle']}]" if ar.get("quelle") else "")]
     if e:
         out += ["", "## Vorgehen", e.get("vorgehen", "")]
@@ -340,11 +449,15 @@ def pruefschritt(ref: str) -> str:
     zt = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", [])) or "–"
     if art == "teilweise":
         vorlage = ["## Vorlage (Befragung)", f"Textfeld: Prüfziel(e) {zt} · Quelle der schriftlichen Antwort (10.11 / Protokoll / VE, Datum) · "
-                   "Antwort zusammengefasst · Würdigung · Status höchstens «teilweise bearbeitet» (Befragung kann der Agent nie abschliessen).",
+                   "Antwort zusammengefasst · Würdigung · Status höchstens «teilweise bearbeitet».",
                    "Fehlt die Antwort → Notiz «Pendenz»: «Frage an Kunde (" + sid + "): <Frage> – benötigt bis <Datum>»."]
-    elif art in ("nur_mensch", "auf_anweisung"):
-        vorlage = ["## Vorgehen ohne Anweisung", "Nicht bearbeiten. Im Textfeld/Rapport: Status «nicht bearbeitet – " +
-                   ("WP-Schritt" if art == "nur_mensch" else "nur auf Anweisung") + "». Hinweise für den WP dürfen notiert werden."]
+    elif art == "nur_mensch":
+        vorlage = ["## Vorgehen ohne Anweisung", "Kein Eintrag im Textfeld. Schritt lesen, Punkte für den WP als Notiz «Schlussbesprechung» bzw. "
+                   f"«Pendenz» (`revio K7`); im Rapport Status «{st_nm}».",
+                   "Mit ausdrücklicher Anweisung des WP: Vorgehen des Schritttyps, Textfeld als «Vorbereitung für WP» kennzeichnen."]
+    elif art == "auf_anweisung":
+        vorlage = ["## Vorgehen ohne Anweisung", "Kein Eintrag im Textfeld. Schritt lesen, im Rapport Status «nicht bearbeitet – nur auf Anweisung». "
+                   "Physische Tätigkeiten (Inventur, Bestätigungen einholen/versenden) nie."]
     else:
         vorlage = ["## Textfeld-Vorlage (ausfüllen)", f"- Prüfziel(e): {zt}", "- Quellen: <Datei / M-Files-ID, Version>",
                    "- Auswahl und Umfang: <welche Posten; Begründung: über Toleranzwesentlichkeit / ungewöhnlich / Risiko 3.1>",
@@ -354,8 +467,19 @@ def pruefschritt(ref: str) -> str:
     je = regel("je_schritt")
     out += ["", f"{je.get('regel', '')}" + (f" ^[{je['quelle']}]" if je.get("quelle") else ""),
             f"Status Wissen: {STATUS if e else 'Katalog (Quelle: Anhang H)'}",
-            f"**Nächster Aufruf:** nächster Schritt `pruefschritt <id>` (Liste: `aufgabe {s['prueffeld']}`) · Notiz erfassen: `revio K7` · Rechnen: `rechne`"]
+            _naechster(s)]
     return "\n".join(out)
+
+
+def _naechster(s: dict) -> str:
+    """Nächster vorbereitbarer Schritt desselben Prüffelds (nach Nummer; nur vorbereiten/teilweise)."""
+    nr = lambda x: int(re.sub(r"\D", "", str(x.get("nr", ""))) or 0)  # noqa: E731
+    st = sorted((x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == s["prueffeld"]), key=nr)
+    nx = next((x for x in st if nr(x) > nr(s) and art_of(x)[0] in ("vorbereiten", "teilweise")), None)
+    if nx:
+        return f"**Nächster Aufruf:** `pruefschritt {nx['id']}` (falls markiert) · Notiz: `revio K7` · Rechnen: `rechne`"
+    return (f"**Prüffeld {s['prueffeld']} fertig** (kein weiterer vorbereitbarer Schritt) → nächstes markiertes Prüffeld `aufgabe prueffeld <Code>`, "
+            "sonst `aufgabe unterlagen`. Notiz: `revio K7`.")
 
 
 def prueffeld(ref: str, voll: bool = False) -> str:
@@ -386,9 +510,7 @@ def prueffeld(ref: str, voll: bool = False) -> str:
     for s in [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]:
         art = art_of(s)[0]
         out.append(f"| {s['id']} | {s['typ']} | {s.get('kennzeichnung') or ''} | {' '.join(s.get('pruefziele') or [])} | {art} | {cut(s['text'], 110 if not voll else 400)} |")
-    rv = _revio_fuer({"prueffeld": code, "typ": ""})
-    if rv:
-        out += ["", "## revio (MCP)"] + rv[:2] + [x for x in rv if x.startswith("- Besonderheit")] + [rv[-1]]
+    out += ["", "## revio (MCP)"] + _revio_fuer({"prueffeld": code})
     out += ["", f"Detail mit Zitaten: wiki/prueffelder/{code.lower()}.md · Status: {STATUS if e else 'nur Katalog'}"]
     return "\n".join(out)
 
@@ -401,25 +523,44 @@ def _sammle(code_ref: str | None, feld: str):
     return [(c, d.get(feld) or []) for c, d in sorted(pfs.items())]
 
 
+ALLE = ("", "alle", "all", "*", "übersicht", "uebersicht")
+
+
+def _uebersicht(feld: str, titel: str, befehl: str) -> str:
+    rows = [(c, i) for c, i in _sammle("alle", feld) if i]
+    return "\n".join([f"# {titel} – Übersicht (je Prüffeld einzeln aufrufen, z.B. `{befehl} C1`)", ""] +
+                     [f"- {c} {_pfname(c)}: {len(i)} → `{befehl} {c}`" for c, i in rows])
+
+
 def unterlagen(ref: str | None = None) -> str:
-    rows = _sammle(ref, "unterlagen")
+    if (ref or "").strip().lower() in ALLE:
+        return _uebersicht("unterlagen", "Unterlagen (PBC)", "unterlagen")
+    rows = [] if "<" in ref else _sammle(ref, "unterlagen")
     if not rows:
-        return "Prüffeld nicht erkannt."
-    out = ["# Unterlagen (PBC) – in M-Files suchen; Fehlendes als Vorschlag für PBC-Liste 10.10 bzw. Pendenz (Anforderung beim Kunden macht der Mensch)"]
+        return "Prüffeld nicht erkannt – Code angeben, z. B. `unterlagen C1`. Übersicht: `unterlagen`."
+    out = ["# Unterlagen (PBC) – in M-Files suchen. Fehlt etwas → Notiz «Pendenz» mit Titel «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)» "
+           "(`revio K7`), nie direkt in 10.10; die Anforderung beim Kunden macht der Mensch."]
     for c, items in rows:
         if items:
             out += ["", f"## {c} {_pfname(c)}"] + [f"- {u['dokument']} – {u.get('zweck', '')}" + (f" ^[{u.get('quelle') or u.get('chunk')}]" if (u.get('quelle') or u.get('chunk')) else "") for u in items]
+        else:
+            out += ["", f"## {c} {_pfname(c)}", "(keine Unterlagen erfasst – `prueffeld " + c + "`)"]
     return "\n".join(out)
 
 
 def fragen(ref: str | None = None) -> str:
-    rows = _sammle(ref, "fragen_kunde")
+    if (ref or "").strip().lower() in ALLE:
+        return _uebersicht("fragen_kunde", "Fragen an den Kunden", "fragen")
+    rows = [] if "<" in ref else _sammle(ref, "fragen_kunde")
     if not rows:
-        return "Prüffeld nicht erkannt."
-    out = ["# Fragen an den Kunden – der Agent befragt nicht selbst: Antwort aus 10.11 Kundenbefragung/Protokollen auswerten, sonst als Pendenz erfassen"]
+        return "Prüffeld nicht erkannt – Code angeben, z. B. `fragen C1`. Übersicht: `fragen`."
+    out = ["# Fragen an den Kunden – der Agent befragt nie selbst: Antwort aus 10.11 Kundenbefragung/Protokollen auswerten, "
+           "sonst Frage als Notiz «Pendenz» (`revio K7`)"]
     for c, items in rows:
         if items:
             out += ["", f"## {c} {_pfname(c)}"] + [f"- {f['frage']}" + (f" ({f['zweck']})" if f.get("zweck") else "") for f in items]
+        else:
+            out += ["", f"## {c} {_pfname(c)}", "(keine Fragen erfasst – `prueffeld " + c + "`)"]
     return "\n".join(out)
 
 
@@ -474,38 +615,86 @@ def prozess(ref: str | None = None) -> str:
 
 
 def regeln(bereich: str | None = None) -> str:
-    rs = L().get("regeln", [])
+    alle = L().get("regeln", [])
+    rs = alle
     if bereich:
-        b = norm(bereich)
-        rs = [r for r in rs if norm(r["bereich"]).startswith(b) or b in norm(r["key"]) or b in norm(r["regel"])]
+        b = norm(bereich).strip()
+        if b in {norm(r["bereich"]) for r in alle}:   # genauer Bereich zuerst (sonst trifft «grenze» auch «Nichtaufgriffsgrenze»)
+            rs = [r for r in alle if norm(r["bereich"]) == b]
+        else:
+            rs = [r for r in alle if norm(r["bereich"]).startswith(b) or b in norm(r["key"]) or b in norm(r["regel"])]
     if not rs:
-        return "Keine Regel gefunden. Bereiche: schritttyp, ablauf, notizen, grenze, wesentlichkeit, gesetz."
-    out = ["# Regeln des Revisionsagenten" + (f" · {bereich}" if bereich else ""), ""]
+        return "Keine Regel gefunden. Bereiche: " + ", ".join(dict.fromkeys(r["bereich"] for r in alle)) + "."
+    order = {b: i for i, b in enumerate(dict.fromkeys(r["bereich"] for r in alle))}
+    rs = sorted(rs, key=lambda r: order[r["bereich"]])   # je Bereich eine Überschrift
+    out = ["# Regeln des Revisionsagenten" + (f" · {bereich}" if bereich else "")]
     cur = None
     for r in rs:
         if r["bereich"] != cur:
             cur = r["bereich"]
-            out.append(f"\n## {cur}")
+            out += ["", f"## {cur}"]
         out.append(f"- **{r['key']}**: {r['regel']} — {fs(r['quelle'], r['zitat'], 110)}")
     return "\n".join(out)
 
 
 # ------------------------------------------------------------------ revio
+GESPERRT = ("nur_mensch", "gesperrt", "unklar")
+ART_KURZ = {"lesen": "lesen", "vorbereiten": "schreibt, Freigabe", "kandidat": "Kandidat ⛔", "nur_mensch": "nur Mensch ⛔"}
+
+
 def _wz(name: str) -> str:
     w = L().get("revio", {}).get("werkzeuge", {}).get(name)
     if not w:
-        return f"Werkzeug `{name}` existiert nicht im revio-MCP."
-    out = [f"# `{name}`", f"{w.get('m', '')} {w.get('p', '')} · Modul {w.get('mod', '')}" + (f" · Bereich {w['ber']}" if w.get("ber") else ""),
-           f"Art: **{w.get('art') or 'nicht klassifiziert'}**" + (f" – {w['g']}" if w.get("g") else "")]
+        return f"Werkzeug `{name}` existiert nicht im revio-MCP. Stichwortsuche: `revio <stichwort>`."
+    art = w.get("art") or ""
+    out = [f"# `{name}`"]
+    if art in GESPERRT or not art:
+        out.append("⛔ deny (OpenClaw) – nicht aufrufen" + (" bis Entscheid consis" if art in ("unklar", "") else "") +
+                   ". Nicht über `revio_call` umgehen. Braucht es die Funktion: Notiz «Pendenz» an den WP (`revio K7`).")
+    elif art == "vorbereiten":
+        out.append("✍️ allow mit Freigabe (schreibt) – nur in Bereich 4/10, Feldregeln beachten (nie Visum/Status setzen).")
+    else:
+        out.append("✅ allow (lesen).")
+    out += [f"Einstufung: **{art or 'nicht klassifiziert'}**" + (f" – {w['g']}" if w.get("g") else ""),
+            f"{w.get('m', '')} {w.get('p', '')} · Modul {w.get('mod', '')}" + (f" · Bereich {w['ber']}" if w.get("ber") else "")]
     if w.get("z"):
         out.append(f"Zweck: {w['z']}")
-    if w.get("pp"):
-        out.append(f"path_params_json: {{{', '.join(repr(x) + ': …' for x in w['pp'].split(','))}}}")
-    if w.get("b"):
-        fl = L().get("revio", {}).get("felder", {}).get(w["b"], [])
-        out.append(f"body_json ({w['b']}): {', '.join(fl[:25])}" + (" …" if len(fl) > 25 else ""))
-    if w.get("art") in ("nur_mensch", "gesperrt"):
-        out.append("⛔ Für den Agenten gesperrt (OpenClaw deny). Nicht über `revio_call` umgehen.")
+    if art in ("lesen", "vorbereiten"):   # Parameter nur für erlaubte Werkzeuge
+        if w.get("pp"):
+            out.append(f"path_params_json: {{{', '.join(repr(x) + ': …' for x in w['pp'].split(','))}}}")
+        if w.get("b"):
+            fl = L().get("revio", {}).get("felder", {}).get(w["b"], [])
+            out.append(f"body_json ({w['b']}): {', '.join(fl[:25])}" + (" …" if len(fl) > 25 else ""))
+    return "\n".join(out)
+
+
+def _kette(k: dict) -> str:
+    """Werkzeugkette: Kurzablauf (erlaubt) → nur falls nötig → Kandidat (nicht aufrufen) → nie; Nummern wie in den Daten."""
+    st = list(enumerate(k.get("schritte", []), 1))
+    erl = [(i, s) for i, s in st if s.get("art") in ("lesen", "vorbereiten") and not s.get("optional")]
+    opt = [(i, s) for i, s in st if s.get("art") in ("lesen", "vorbereiten") and s.get("optional")]
+    kand = [(i, s) for i, s in st if s.get("art") == "kandidat"]
+    nie = [(i, s) for i, s in st if s.get("art") == "nur_mensch"]
+    bed = lambda s: f" ({s['bedingung']})" if s.get("bedingung") else ""  # noqa: E731
+    out = [f"# {k['id']} · {k['aufgabe']}",
+           "**Kurzablauf:** " + " → ".join(f"{i} `{s['werkzeug']}`" + (" (schreibt, Freigabe)" if s.get("art") == "vorbereiten" else "") for i, s in erl)]
+    if opt:
+        out.append("**Nur falls nötig:** " + "; ".join(f"{i} `{s['werkzeug']}`{bed(s)}" for i, s in opt))
+    if kand:
+        out.append("**Kandidat – nicht aufrufen (deny bis Entscheid consis):** " + "; ".join(f"{i} `{s['werkzeug']}`{bed(s)}" for i, s in kand))
+    if nie:
+        out.append("**Nie (nur Mensch):** " + ", ".join(f"{i} `{s['werkzeug']}`" for i, s in nie))
+    out += [f"Wann: {cut(k.get('wann', ''), 300)} · Prozess: {k.get('prozess', '')}", "",
+            "## Schritte (feste Nummern – «Schritt N» unten und in anderen Ketten verweist hierauf)"]
+    for i, s in st:
+        a = s.get("art", "")
+        ok = a in ("lesen", "vorbereiten")
+        out.append(f"{i}. `{s['werkzeug']}` [{ART_KURZ.get(a, a)}" + (", optional" if s.get("optional") else "") + f"] – {cut(s.get('zweck', ''), 220 if ok else 110)}" +
+                   (f"\n   Parameter: {cut(s['parameter'], 300)}" if ok and s.get("parameter") else ""))
+    if k.get("menschliche_freigabe"):
+        out += ["", f"Mensch: {k['menschliche_freigabe']}"]
+    if k.get("offene_fragen"):
+        out += ["", "Offene Fragen (nicht selbst entscheiden → Pendenz an den WP): " + cut("; ".join(k["offene_fragen"]), 400)]
     return "\n".join(out)
 
 
@@ -515,28 +704,32 @@ def revio(ref: str | None = None) -> str:
     r = (ref or "").strip()
     if not r:
         out = ["# revio 4.0 ↔ revio-MCP – Übersicht",
-               "Massgebend für Werkzeugfragen ist die revio-MCP-Werkzeugliste (849 Werkzeuge, Stand 11.11.2026); das Konzept (26.10.2026) ging noch von Oberflächenautomation ohne API aus.",
-               "Der Agent schreibt nur in Bereich 4 (Prüffelder) und 10 (Unterlagen zum Abschluss); alles andere lesen. "
-               "Visum, ✓, Abschliessende Beurteilung, Siegel, Abschluss, Freigabe, Archiv, Löschen: nie.", "",
-               "| Bereich | Rolle Agent | lesen | vorbereiten |", "|---|---|---|---|"]
+               f"Der Agent schreibt nur in Bereich 4 (Prüffelder) und 10 (Unterlagen zum Abschluss); alles andere lesen. {NIE}.",
+               "Erlaubt sind nur die Werkzeuge der OpenClaw-Liste (`revio OpenClaw`); alle anderen = deny (`revio nur-mensch`).",
+               f"Massgebend ist die revio-MCP-Werkzeugliste ({len(wz)} Werkzeuge, Stand 11.11.2026); das Konzept (26.10.2026) ging noch von Oberflächenautomation ohne API aus.", "",
+               "| Bereich | Rolle Agent | lesen | schreiben (Freigabe) |", "|---|---|---|---|"]
         for b in rv.get("bereiche", []):
             out.append(f"| {b['nr']} {b['name']} | {cut(b.get('rolle_agent'), 70)} | {len(b.get('werkzeuge_lesen', []))} | {len(b.get('werkzeuge_vorbereiten', []))} |")
-        out += ["", "Befehle: `revio 10.9` (Bereich) · `revio C1` (Prüffeld) · `revio C1-302` (Schritt) · `revio ketten` · `revio <Aufgabe>` (z.B. notiz, beilage, "
+        out += ["", "Befehle: `revio 10.9` (Bereich) · `revio prueffeld C1` (Prüffeld) · `revio C1-302` (Schritt) · `revio ketten` · `revio <Aufgabe>` (z.B. notiz, beilage, "
                 "wesentlichkeit) · `revio <werkzeugname>` · `revio nur-mensch`"]
         return "\n".join(out)
     if r in wz:
         return _wz(r)
     nr = norm(r)
-    if nr in ("nur-mensch", "nur_mensch", "gesperrt", "deny", "sperren", "verboten", "gesperrte werkzeuge", "sperrliste"):
-        nm = sorted(n for n, w in wz.items() if w.get("art") in ("nur_mensch", "gesperrt"))
+    if nr in ("nur-mensch", "nur_mensch", "nur mensch", "gesperrt", "deny", "sperren", "verboten", "gesperrte werkzeuge", "sperrliste"):
+        nm = sorted(n for n, w in wz.items() if w.get("art") in GESPERRT)
+        cnt = {a: sum(1 for w in wz.values() if w.get("art") == a) for a in GESPERRT}
         grp = [("Generischer Aufruf (umgeht jede Sperre)", r"^revio_call$"), ("Siegel / Versiegelung", r"(?i)seal"), ("Visum", r"(?i)visa|vise"),
-               ("Archivierung", r"(?i)archiv"), ("Freigabe / Review / Genehmigung", r"(?i)approve|release|review|accept"),
-               ("Abschluss / Status / Sperre", r"(?i)close|closed|lock|complete|commit|finali|state"), ("Löschen / Entfernen", r"(?i)^rv_delete|remove|delete"),
+               ("Archivierung", r"(?i)archiv"), ("Löschen / Entfernen", r"(?i)^rv_delete|remove|delete"),
+               ("Buchung / Umbuchung", r"(?i)ledgeradjust"),
+               ("Kundenversand / Kundenzugang", r"(?i)invitemail|pbcworkspace|storequestionnaire|publish|send"),
+               ("Freigabe / Review / Genehmigung", r"(?i)approve|release|(?<!p)review|accept"),
+               ("Abschluss / Status / Sperre", r"(?i)close|lock|complete|commit|finali|state(?!ment)"),
                ("Mandant/Dossier anlegen, Import/Export", r"(?i)create_client|createclient|createdossier|import|export|copy|move"),
                ("Benutzer, Rechte, Einstellungen, Definitionen, Vorlagen", r"(?i)user|right|permission|setting|license|definition|template|catalog")]
-        out = ["# Für den Agenten gesperrte revio-Werkzeuge (OpenClaw deny) – " + f"{len(nm)} von {len(wz)}",
-               "Grund: Visum, Siegel, Abschluss, Freigabe, Archiv und Löschen bleiben beim Menschen; Rechte/Einstellungen sind nicht Aufgabe des Agenten. "
-               "Der Agent ruft diese Werkzeuge nie auf, auch nicht über `revio_call`.", ""]
+        out = [f"# ⛔ Gesperrte revio-Werkzeuge (OpenClaw deny): {len(nm)} von {len(wz)} – nie aufrufen, auch nicht über `revio_call`",
+               f"({cnt['nur_mensch']} nur_mensch + {cnt['gesperrt']} gesperrt + {cnt['unklar']} unklar; unklar = deny bis Entscheid consis)",
+               f"{NIE}. Rechte, Einstellungen und Vorlagen sind nicht Aufgabe des Agenten. Braucht es eine Funktion: Notiz «Pendenz» an den WP.", ""]
         rest = set(nm)
         for titel, rx in grp:
             g = [n for n in sorted(rest) if re.search(rx, n)]
@@ -544,34 +737,32 @@ def revio(ref: str | None = None) -> str:
                 rest -= set(g)
                 out.append(f"**{titel}** ({len(g)}): " + ", ".join(f"`{n}`" for n in g[:8]) + (f" … (+{len(g) - 8})" if len(g) > 8 else ""))
         if rest:
-            out.append(f"**Übrige** ({len(rest)}): " + ", ".join(f"`{n}`" for n in sorted(rest)[:8]) + (" …" if len(rest) > 8 else ""))
-        out += ["", "Vollständige Liste mit Begründung: wiki/revio/werkzeuge-nur-mensch.md · Vorschlag OpenClaw-Rechte: revio-tool-policy.json"]
+            out.append(f"**Übrige** ({len(rest)}): " + ", ".join(f"`{n}`" for n in sorted(rest)[:8]) + (f" … (+{len(rest) - 8})" if len(rest) > 8 else ""))
+        out += ["", "Einzelnes Werkzeug prüfen: `revio <werkzeugname>` · Liste mit Begründung: wiki/revio/werkzeuge-nur-mensch.md · OpenClaw: openclaw/revio-tool-policy.json"]
         return "\n".join(out)
     if nr in ("ketten", "ablauf", "aufgaben"):
-        out = ["# Werkzeugketten (typische Aufgaben)"]
+        out = ["# Werkzeugketten (typische Aufgaben) – Detail: `revio <id>`, z.B. `revio K6`"]
         for k in rv.get("ketten", []):
-            out.append(f"- `{k['id']}` {k['aufgabe']} ({k.get('prozess', '')}) – {len(k.get('schritte', []))} Aufrufe")
-        out.append("\nDetail: `revio <id>` z.B. `revio K5`.")
+            sch = k.get("schritte", [])
+            n = sum(1 for s in sch if s.get("art") in ("lesen", "vorbereiten") and not s.get("optional"))
+            zus = [f"+{c} {lab}" for c, lab in ((sum(1 for s in sch if s.get("art") in ("lesen", "vorbereiten") and s.get("optional")), "optional"),
+                                               (sum(1 for s in sch if s.get("art") == "kandidat"), "Kandidat"),
+                                               (sum(1 for s in sch if s.get("art") == "nur_mensch"), "nie")) if c]
+            pz = str(k.get("prozess", ""))
+            out.append(f"- `{k['id']}` {k['aufgabe']} ({'Prozess ' + pz if pz.isdigit() else pz}) – {n} Aufrufe" + (f" ({', '.join(zus)})" if zus else ""))
         return "\n".join(out)
-    k = next((k for k in rv.get("ketten", []) if norm(k["id"]) == nr), None)
-    if k:
-        erl = [s for s in k.get("schritte", []) if s.get("art") != "nur_mensch"]
-        nie = [s for s in k.get("schritte", []) if s.get("art") == "nur_mensch"]
-        out = [f"# {k['id']} · {k['aufgabe']}",
-               "**Kurzablauf:** " + " → ".join(f"`{s['werkzeug']}`" + (" (schreibt, Freigabe)" if s.get("art") == "vorbereiten" else "") for s in erl),
-               ("**Nie (nur Mensch):** " + ", ".join(f"`{s['werkzeug']}`" for s in nie)) if nie else "",
-               f"Wann: {cut(k.get('wann', ''), 300)} · Prozess: {k.get('prozess', '')}", ""]
-        for i, s in enumerate(erl, 1):
-            out.append(f"{i}. `{s['werkzeug']}` [{s.get('art', '')}] – {cut(s.get('zweck', ''), 260)}" + (f"\n   Parameter: {cut(s['parameter'], 300)}" if s.get("parameter") else ""))
-        if k.get("menschliche_freigabe"):
-            out += ["", f"Mensch: {k['menschliche_freigabe']}"]
-        if k.get("offene_fragen"):
-            out += ["", "Offen: " + "; ".join(k["offene_fragen"])]
-        return "\n".join(out)
+    m = re.match(r"(?i)^(?:pr(?:ü|ue|u)ffeld|pf)\s+(\S+)$", r)   # «revio prueffeld K1» – eindeutig (K1 ist auch eine Kette)
+    if m and pf_code(m.group(1)):
+        r = nr = pf_code(m.group(1))
+    else:
+        k = next((k for k in rv.get("ketten", []) if norm(k["id"]) == nr), None)
+        if k:
+            return _kette(k) + (f"\n\n(Prüffeld {k['id']} {_pfname(k['id'])}: `revio prueffeld {k['id']}`)" if _pfname(k["id"]) else "")
     b = next((b for b in rv.get("bereiche", []) if norm(b["nr"]) == nr or norm(b["nr"]).split()[0] == nr), None)
     if b:
         out = [f"# revio Bereich {b['nr']} · {b['name']}", f"Rolle Agent: {b.get('rolle_agent', '')}"]
-        for t, feld in (("lesen", "werkzeuge_lesen"), ("vorbereiten (OpenClaw mit Freigabe)", "werkzeuge_vorbereiten"), ("nur Mensch", "nur_mensch"), ("Kandidaten (unsicher)", "kandidaten")):
+        for t, feld in (("lesen", "werkzeuge_lesen"), ("schreiben (OpenClaw: mit Freigabe)", "werkzeuge_vorbereiten"), ("nie (nur Mensch)", "nur_mensch"),
+                        ("Kandidaten (deny bis Entscheid consis – nicht aufrufen)", "kandidaten")):
             if b.get(feld):
                 out.append(f"- {t}: " + ", ".join(f"`{w}`" for w in b[feld]))
         if b.get("hinweise"):
@@ -581,13 +772,12 @@ def revio(ref: str | None = None) -> str:
     if sid and sid in L().get("katalog", {}).get("schritte", {}):
         s = L()["katalog"]["schritte"][sid]
         art = art_of(s)
-        return "\n".join([f"# revio für {sid} ({s['typ']}, {s.get('kennzeichnung') or '–'}) · Rolle Agent: {ART_TXT[art[0]]}", *_revio_fuer(s),
-                          "", "revio-Ids (templateId/activityId) des Schritts: erst aus der echten Datenkopie (Kette K5: per Nummer/Text zuordnen)."])
+        return "\n".join([f"# revio für {sid} ({s['typ']}, {s.get('kennzeichnung') or '–'}) · Rolle Agent: {ART_TXT[art[0]]}", *_revio_fuer(s)])
     code = pf_code(r) if re.match(r"^[A-Za-z]{1,3}\d$", r) else None
     if code:
-        std = rv.get("prueffeld_standard", {})
-        return "\n".join([f"# revio für Prüffeld {code} {_pfname(code)} (Bereich 4)", *_revio_fuer({"prueffeld": code, "typ": ""}),
-                          f"\nParameter: {std.get('parameter', '')}" if std.get("parameter") else ""])
+        z = _revio_fuer({"prueffeld": code}, alle_lesen=True)
+        z[-1] = "- Ids/Parameter: `revio K1` (Akte) · `revio K5` (Schritte) · `revio K6` (Textfeld, Beilage) · `revio K7` (Notiz)"
+        return "\n".join([f"# revio für Prüffeld {code} {_pfname(code)} (Bereich 4) – je Schritt: `revio {code}-<Nr>`", *z])
     # Stichwortsuche über Ketten, Bereiche, Werkzeugnamen (deutsche Begriffe → englische Namensteile)
     ts = terms_of(r)
     SYN = {"checkliste": "checklist", "checklisten": "checklist", "notiz": "note", "notizen": "note", "pendenz": "note", "beilage": "attach",
@@ -613,11 +803,11 @@ def revio(ref: str | None = None) -> str:
         sc = sum(1 for t in ts if t[:5] in norm(n + " " + (w.get("z") or ""))) + sum(2 for e in en if e and e in nl)
         if sc:
             sc += 0.5 if w.get("art") in ("lesen", "vorbereiten") else 0
-            hits.append((sc * 0.8, f"`{n}` [{w.get('art') or '?'}] {cut(w.get('z'), 70)}"))
+            hits.append((sc * 0.8, f"`{n}` [{w.get('art') or 'unklar'}{' ⛔ nicht aufrufen' if (w.get('art') or 'unklar') in GESPERRT else ''}] {cut(w.get('z'), 70)}"))
     if not hits:
         return f"Nichts zu «{r}» gefunden. Übersicht: `revio`."
     hits.sort(key=lambda x: -x[0])
-    return "\n".join([f"# revio – Treffer zu «{r}»", *[f"- {h[1]}" for h in hits[:15]], "", "Detail: `revio <name|id|bereich>`."])
+    return "\n".join([f"# revio – Treffer zu «{r}»", *[f"- {h[1]}" for h in hits[:15]], "", "Detail: `revio <name|id|bereich>`. ⛔ = deny, nie aufrufen."])
 
 
 # ------------------------------------------------------------------ Werte und Rechnen
@@ -693,7 +883,10 @@ def num(x) -> float:
     mult = 1
     if s.lower().endswith(("mio", "mio.")):
         s, mult = re.sub(r"(?i)mio\.?$", "", s), 1_000_000
-    return float(s) * mult
+    try:
+        return float(s) * mult
+    except ValueError:
+        raise ValueError(f"Zahl erwartet, z.B. 80000 (erhalten: {x!r})") from None
 
 
 def _r(key):
@@ -703,40 +896,50 @@ def _r(key):
 
 def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichkeiten=None, kapitalreserve=0, gewinnreserve=0,
                    holding=False, rangruecktritt=0, buchwert=None, verkehrswert=None, freiwillige_reserven=None, vortrag=None,
-                   jahresergebnis=None, eigene_aktien=None) -> str:
-    """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals), Kapitalverlust, Überschuldung,
-    Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell) oder aus Aktiven − Verbindlichkeiten."""
+                   jahresergebnis=None, eigene_aktien=None, reserve_voll=0, covid_kredit=0) -> str:
+    """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals, reserve_voll ohne Kappung), Kapitalverlust,
+    Überschuldung, Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell), aus Bestandteilen oder aus Aktiven − Verbindlichkeiten.
+    covid_kredit (Art. 3 Covid-19-SBüV) zählt nicht als Fremdkapital (Art. 24 Covid-19-SBüG)."""
     AK, KR, GR, RR = num(aktienkapital), num(kapitalreserve), num(gewinnreserve), num(rangruecktritt)
+    RV, CK = num(reserve_voll), num(covid_kredit)
     teile = [x for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien) if x not in (None, "")]
     if eigenkapital not in (None, ""):
         EK = num(eigenkapital)
-        quelle_ek = "bilanzielles Eigenkapital (Eingabe)"
+        quelle_ek = "bilanziell, Eingabe"
     elif teile:   # Eigenkapital aus Bestandteilen (Verluste und eigene Aktien als negative Posten) – nie im Kopf rechnen
         FR, VT, JE, EA = (num(x) for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien))
-        EK = AK + KR + GR + FR + VT + JE - abs(EA)
-        quelle_ek = (f"AK {chf(AK)} + gesetzl. Kapitalreserve {chf(KR)} + gesetzl. Gewinnreserve {chf(GR)} + freiwillige Reserven {chf(FR)} "
+        EK = AK + KR + GR + RV + FR + VT + JE - abs(EA)
+        quelle_ek = (f"AK {chf(AK)} + gesetzl. Kapitalreserve {chf(KR)} + gesetzl. Gewinnreserve {chf(GR)}" +
+                     (f" + Reserven voll {chf(RV)}" if RV else "") + f" + freiwillige Reserven {chf(FR)} "
                      f"+ Vortrag {chf(VT)} + Jahresergebnis {chf(JE)} − eigene Aktien {chf(abs(EA))}")
     else:
         EK = num(aktiven) - num(verbindlichkeiten)
         quelle_ek = f"Aktiven {chf(num(aktiven))} − Verbindlichkeiten {chf(num(verbindlichkeiten))}"
+    EK_bil = EK
+    EK = EK_bil + CK   # Covid-19-Kredit nicht als Fremdkapital: bei Eigenkapital dazuzählen bzw. von den Verbindlichkeiten abziehen
     hold = str(holding).lower() in ("1", "true", "ja", "yes", "holding")
     satz = 0.2 if hold else 0.5
     res_anr = min(KR + GR, satz * AK)
-    gesch = AK + res_anr
+    gesch = AK + res_anr + RV
     haelfte = gesch / 2
     kv = EK < haelfte
     ueber = EK < 0
     out = ["# Kapitalverlust / Überschuldung – Rechenhilfe (Beurteilung und Bericht: WP)", "",
            f"**Ergebnis: {'KAPITALVERLUST' if kv else 'kein Kapitalverlust'}" + (f" und ÜBERSCHULDUNG (Fehlbetrag {chf(-EK)})" if ueber else "") +
-           f"** – Eigenkapital {chf(EK)} {'<' if kv else '≥'} Hälfte des geschützten Kapitals {chf(haelfte)}" +
+           f"** – Eigenkapital{' inkl. Covid-19-Kredit' if CK else ''} {chf(EK)} {'<' if kv else '≥'} Hälfte des geschützten Kapitals {chf(haelfte)}" +
            (f" (Unterdeckung {chf(haelfte - EK)})" if kv else ""), "",
            "| Rechnung | CHF |", "|---|---|",
-           f"| Eigenkapital ({quelle_ek}) | **{chf(EK)}** |",
-           f"| Grundkapital (Aktien- + PS-Kapital) | {chf(AK)} |",
-           f"| gesetzliche Kapital- + Gewinnreserve | {chf(KR + GR)} |",
-           f"| davon anrechenbar: höchstens {int(satz * 100)} % des Grundkapitals{' (Holding)' if hold else ''} | {chf(res_anr)} |",
-           f"| geschütztes Kapital | {chf(gesch)} |",
-           f"| Hälfte = Schwelle OR 725a | **{chf(haelfte)}** |"]
+           (f"| Eigenkapital ({quelle_ek}) | {chf(EK_bil)} |" if CK else f"| Eigenkapital ({quelle_ek}) | **{chf(EK)}** |")]
+    if CK:
+        out += [f"| + Covid-19-Kredit (Art. 3 Covid-19-SBüV) nicht als Fremdkapital (Art. 24 Covid-19-SBüG) | {chf(CK)} |",
+                f"| Eigenkapital für OR 725a/725b | **{chf(EK)}** |"]
+    out += [f"| Grundkapital (Aktien- + PS-Kapital) | {chf(AK)} |",
+            f"| gesetzliche Kapital- + Gewinnreserve | {chf(KR + GR)} |",
+            f"| davon anrechenbar: höchstens {int(satz * 100)} % des Grundkapitals{' (Holding)' if hold else ''} | {chf(res_anr)} |"]
+    if RV:
+        out.append(f"| + Gewinnreserven voll (eigene Kapitalanteile im Konzern OR 659b Abs. 2, Aufwertung OR 725c Abs. 1) | {chf(RV)} |")
+    out += [f"| geschütztes Kapital | {chf(gesch)} |",
+            f"| Hälfte = Schwelle OR 725a | **{chf(haelfte)}** |"]
     if ueber:
         need = -EK
         out += ["", f"Rangrücktritt erfasst {chf(RR)} → " + ("deckt den Fehlbetrag zu Buchwerten" if RR >= need else f"deckt den Fehlbetrag NICHT (fehlen {chf(need - RR)})") +
@@ -751,10 +954,15 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
                 f"| **zulässig (tieferer Wert)** | **{chf(zul)}** |",
                 "Buchung erfolgsneutral: Grundstück/Beteiligung an Aufwertungsreserve (gesondert unter der gesetzlichen Gewinnreserve); "
                 "schriftliche Bestätigung der Revisionsstelle bzw. eines zugelassenen Revisors nötig; Anhangangaben."]
+    if not (RV or CK):
+        out += ["", "ℹ️ Nicht erfasst: Gewinnreserven für eigene Kapitalanteile im Konzern/aus Aufwertung (zählen voll → `reserve_voll` bzw. "
+                "`--reserve-voll`), Covid-19-Kredit (kein Fremdkapital → `covid_kredit` bzw. `--covid-kredit`) – falls vorhanden, neu rechnen."]
     out += ["", "## Regeln (mit Fundstelle)"]
-    for k in ("geschuetztes_kapital", "geschuetztes_kapital_reserven", "or725a_kapitalverlust", "eigene_aktien_bezugsgroesse", "or725a_optingout",
-              "or725b_zwischenabschluss", "or725b_pruefung", "or725b_rangruecktritt", "rangruecktritt_umfang", "rangruecktritt_keine_sanierung",
-              "or725b_90tage", "or729c_anzeige"):
+    for k in ("geschuetztes_kapital", "geschuetztes_kapital_reserven", "geschuetztes_kapital_voll", "or725a_kapitalverlust", "eigene_aktien_bezugsgroesse",
+              "covid_kredit", "or725a_optingout", "or725b_zwischenabschluss", "or725b_pruefung", "or725b_rangruecktritt", "rangruecktritt_umfang",
+              "rangruecktritt_keine_sanierung", "or725b_90tage", "or729c_anzeige"):
+        if (k == "geschuetztes_kapital_voll" and not RV) or (k == "covid_kredit" and not CK):
+            continue
         r = regel(k)
         if r:
             out.append(f"- {r['regel']} ^[{r['quelle']}]")
@@ -925,7 +1133,9 @@ def _aufgabe_finden(text: str):
                 for w in qt:
                     if w == kx:
                         sc += 2
-                    elif len(kx) >= 5 and len(w) >= 5 and (w.startswith(kx) or (len(w) >= 7 and kx.startswith(w)) or w[:7] == kx[:7]):
+                    # Präfixregel: gemeinsamer Anfang ab 10 Zeichen (vorher 7: «revisionsakte» ~ «revisionsart»). Restkollision
+                    # revisionsakte/revisionsagent ~ revisionsart bleibt (fragen-alle r01 → auftrag); falls störend, revisionsart ausnehmen.
+                    elif len(kx) >= 5 and len(w) >= 5 and (w.startswith(kx) or (len(w) >= 7 and kx.startswith(w)) or w[:10] == kx[:10]):
                         sc += 1
         if a["id"] == "fachfrage" and frage:
             sc += 1.5
@@ -933,7 +1143,9 @@ def _aufgabe_finden(text: str):
     scores.sort(key=lambda x: (x[0], x[1]), reverse=True)
     bs, _, best = scores[0] if scores else (0, 0, None)
     if code:
-        if best and bs >= 2 and best["id"] not in ("prueffeld", "fachfrage", "notiz"):
+        # Notiz mit Prüffeld-Synonym («Pendenz Debitoren») bleibt Notiz – ausser der Text verlangt Prüfen/Bearbeiten des Prüffelds
+        if best and bs >= 2 and best["id"] not in ("prueffeld", "fachfrage") and not (
+                best["id"] == "notiz" and re.search(r"\b(pruf|bearbeit|vorbereit|abstimm|mach)", key(t))):
             return best, code
         return by.get("prueffeld"), code
     if best and bs >= 1:
@@ -942,8 +1154,9 @@ def _aufgabe_finden(text: str):
 
 
 def _fachkontext(text: str) -> str:
-    """Für Fachfragen in einem Aufruf: passende Themen, Werte, Regeln und die besten Fundstellen (eingeschränkte Revision zuerst)."""
+    """Für Fachfragen in einem Aufruf: passende Themen, Werte, Regeln und die besten Fundstellen (SER und HWP ER zuerst)."""
     qt = [t for t in toks(text) if len(t) > 2]
+    rel = lambda s: sum(key(s).count(w[:6]) for w in qt)  # noqa: E731  Relevanz eines Texts für die Frage
     out = ["## Kontext zur Frage (zuerst lesen; die passendsten Stellen mit `zeige <chunk-id>` im Wortlaut öffnen)"]
     th = []
     for t in L().get("themen", []):
@@ -951,9 +1164,13 @@ def _fachkontext(text: str) -> str:
         sc = sum(2 if f" {w} " in f" {hay} " else (1 if w[:6] in hay else 0) for w in qt)
         if sc:
             th.append((sc, t))
-    for sc, t in sorted(th, key=lambda x: -x[0])[:2]:
+    th = sorted(th, key=lambda x: -x[0])[:2]
+    for sc, t in [x for x in th if x[0] >= 0.6 * th[0][0]] if th else []:
         out += [f"### Thema «{t['titel']}» (`thema {t['id']}`)", cut(t.get("kurz"), 400)]
-        out += [f"- {cut(a['text'], 220)} ^[{a.get('quelle')}]" for a in (t.get("aussagen") or [])[:6]]
+        out += [f"- {cut(a['text'], 220)} ^[{a.get('quelle')}]" for a in sorted(t.get("aussagen") or [], key=lambda a: -rel(a["text"]))[:5]]
+        ag = max(t.get("agent") or [], key=rel, default="")
+        if ag and rel(ag) > 0:
+            out.append(f"- Für den Agenten: {cut(ag, 400)}")
     ws = []
     for w in L().get("werte", []):
         hay = key(" ".join(str(w.get(k, "")) for k in ("key", "bezeichnung", "kategorie")))
@@ -967,34 +1184,65 @@ def _fachkontext(text: str) -> str:
     for r in L().get("regeln", []):
         hay = key(r["regel"])
         sc = sum(1 for x in qt if x[:6] in hay)
-        if sc >= 2:
+        if sc >= 2 or (sc and len(qt) <= 2):
             rg.append((sc, r))
     if rg:
         out.append("### Regeln")
         out += [f"- {r['regel']} ^[{r['quelle']}]" for sc, r in sorted(rg, key=lambda x: -x[0])[:4]]
-    hits = suche(text, n=6).split("\n")
-    out += ["### Beste Fundstellen (Volltext)"] + [h for h in hits[2:] if h.strip() and not h.startswith("Volltext")]
+    # Volltext: zuerst SER und HWP ER (massgebend für die eingeschränkte Revision), allgemein nur ergänzend
+    rows, seen = [], set()
+    for q, n in (("ser-2022", 2), ("hwp-er-2026", 2), (None, 3)):
+        if q is None and len(rows) >= 3:
+            break
+        r, _ = _suche_rows(text, q, None, n)
+        for row in r if isinstance(r, list) else []:
+            if row[0] not in seen:
+                seen.add(row[0])
+                rows.append(row)
+    if rows:
+        out.append("### Beste Fundstellen (Volltext; SER und HWP ER zuerst)")
+        for i, row in enumerate(rows, 1):
+            out += _treffer(i, row)
     return "\n".join(out)
 
 
-def _kette_kurz(kid: str) -> list[str]:
+def _kette_kurz(kid: str, gezeigt: set | None = None) -> list[str]:
+    """Kurzform einer Werkzeugkette für die Checkliste: Anzahl erlaubter Aufrufe und ⛔-Schritte; Werkzeuge mit Nummern über `revio Kx`."""
     k = next((k for k in L().get("revio", {}).get("ketten", []) if norm(k["id"]) == norm(kid)), None)
     if not k:
         return [f"   revio-Kette {kid}: (noch nicht erfasst – `revio {kid}`)"]
-    out = [f"   revio {k['id']} «{k['aufgabe']}»: " + " → ".join(f"`{s['werkzeug']}`" + ("⛔" if s.get("art") == "nur_mensch" else "") for s in k.get("schritte", []))]
-    if k.get("menschliche_freigabe"):
-        out.append(f"   Mensch: {cut(k['menschliche_freigabe'], 160)}")
-    return out
+    if gezeigt is not None:
+        if k["id"] in gezeigt:
+            return []
+        gezeigt.add(k["id"])
+    sch = k.get("schritte", [])
+    z = lambda f: sum(1 for s in sch if f(s))  # noqa: E731
+    nl = z(lambda s: s.get("art") == "lesen" and not s.get("optional"))
+    nv = z(lambda s: s.get("art") == "vorbereiten" and not s.get("optional"))
+    no = z(lambda s: s.get("art") in ("lesen", "vorbereiten") and s.get("optional"))
+    nk, nm = z(lambda s: s.get("art") == "kandidat"), z(lambda s: s.get("art") == "nur_mensch")
+    teile = [f"{nl} lesen"] + ([f"{nv} schreiben (Freigabe)"] if nv else []) + ([f"{no} nur falls nötig"] if no else [])
+    sperre = ([f"{nk} Kandidat"] if nk else []) + ([f"{nm} nur Mensch"] if nm else [])
+    return [f"   = {k['id']}: " + ", ".join(teile) + (f"; ⛔ nicht aufrufen: {' + '.join(sperre)}" if sperre else "")]
+
+
+HILFSAUFGABEN = ("notiz", "kapitalschutz", "vorjahresabstimmung", "delkredere", "sachanlagen")
+GRENZE_AUFGABE = ("Grenze: vorbereiten ja, abschliessen nie – kein Visum/✓/«Abgeschlossen»/«Review», kein Status in Bereich 10, keine Buchung "
+                  "(Buchungsvorschlag nur als Notiz), keine Freigabe, keine Unterzeichnung/Datierung, kein Kundenversand; Unklares als Pendenz. "
+                  "Jede Aktion, Quelle, Berechnung und jeden Fehler protokollieren (Audit Trail). ^[flussdiagramm-revisionsagent-2026__s001-5] "
+                  "^[konzept-ki-revisionsagent-2026__c011-2] ^[konzept-ki-revisionsagent-2026__c009-3]")
 
 
 def aufgabe(text: str | None = None) -> str:
     """Einstieg: zu einer Prozess-Aufgabe (oder Prüffeld/Prüfschritt) alles in einem Aufruf – Ziel, Checkliste mit Aufrufen, Regeln, revio, Fertig-wenn."""
     ag = L().get("aufgaben", [])
     if not text:
-        out = ["# Aufgaben des Revisionsagenten – wähle eine und rufe `aufgabe <id>` auf", "", "| Aufgabe | id | wann |", "|---|---|---|"]
+        out = ["# Aufgaben des Revisionsagenten – wähle eine und rufe `aufgabe <id>` auf", "", "| Aufgabe | id | Ziel |", "|---|---|---|"]
         for a in ag:
             out.append(f"| {a['titel']} | `{a['id']}` | {cut(a.get('ziel'), 90)} |")
-        out += ["", "Prüffeld direkt: `aufgabe C1` · Prüfschritt direkt: `aufgabe C1-302` (= `pruefschritt C1-302`)."]
+        out += ["", "Reihenfolge: auftrag (WP) → mandat-start → import → wesentlichkeit → prueffeld (je markiertes Prüffeld) → unterlagen → abschluss → "
+                "rapport → gvb-bericht → pdf-akte nur auf Anweisung. Hilfsaufgaben (" + ", ".join(HILFSAUFGABEN) + ") nur aus einer Checkliste aufrufen.",
+                "Prüffeld direkt: `aufgabe C1` · Prüfschritt direkt: `aufgabe C1-302` (= `pruefschritt C1-302`) · Fachfrage: `aufgabe \"<Frage>\"`."]
         return "\n".join(out)
     a, par = _aufgabe_finden(text)
     if not a:
@@ -1008,29 +1256,34 @@ def aufgabe(text: str | None = None) -> str:
                           "4. Fehlt etwas: passendste Stelle mit `zeige <chunk-id>` öffnen. 5. Sagen, was der WP entscheidet.", "",
                           _fachkontext(text), "",
                           "Rechner: `kapitalverlust` (OR 725a/b/c) · `revisionspflicht` (OR 727) · `wesentlichkeit` · `rechne`."])
-    out = [f"# Aufgabe: {a['titel']}" + (f" – {par} {_pfname(par)}" if par and a['id'] == 'prueffeld' else ""),
-           f"Ziel: {a['ziel']}" + (f" ^[{a['quelle']}]" if a.get("quelle") else "")]
-    nie = regel("visum").get("regel", "")
-    out += [f"Grenze: vorbereiten ja, abschliessen nie – {cut(nie, 160)}", "", "## Regeln für diese Aufgabe"]
+    mit_pf = bool(par) and a["id"] in ("prueffeld", "notiz")
+    out = [f"# Aufgabe: {a['titel']}" + (f" – {par} {_pfname(par)}" if mit_pf else ""),
+           f"Ziel: {a['ziel']}" + (f" ^[{a['quelle']}]" if a.get("quelle") else ""),
+           GRENZE_AUFGABE, "", "## Regeln für diese Aufgabe"]
     for k in a.get("regeln", []):
         r = regel(k)
-        if r:
+        if r and not (r["bereich"] == "grenze" and f"^[{r['quelle']}]" in GRENZE_AUFGABE):   # schon in der Grenze-Zeile
             out.append(f"- {r['regel']} ^[{r['quelle']}]")
     out += ["", "## Checkliste (der Reihe nach; Aufrufe genau so verwenden)"]
+    ketten = set()
     for i, c in enumerate(a.get("checkliste", []), 1):
         call = c.get("aufruf", "")
         if par and a["id"] == "prueffeld":
             call = call.replace("<code>", par)
-        out.append(f"{i}. {c['text']}" + (f"  → `{call}`" if call else ""))
+        fsl = next((f"^[{f['quelle']}]" for f in c.get("fundstellen") or [] if f.get("quelle")), "")   # erste Fundstelle des Punkts
+        out.append(f"{i}. {c['text']}" + (f" {fsl}" if fsl else "") + (f"  → `{call}`" if call else ""))
         if call.startswith("revio K"):
-            out += _kette_kurz(call.split()[1])
+            out += _kette_kurz(call.split()[1], ketten)
     if a["id"] == "prueffeld" and par:
         out += ["", _prueffeld_kompakt(par)]
     elif a["id"] == "prueffeld":
         out += ["", "Prüffeld fehlt: `aufgabe prueffeld C1` (Codes: " + ", ".join(p["code"] for p in L()["katalog"]["prueffelder"]) + ")."]
     out += ["", f"**Fertig, wenn:** {a.get('fertig_wenn', '')}"]
     if a.get("naechste"):
-        out.append("**Nächste Aufgabe:** " + ", ".join(f"`aufgabe {n}`" for n in a["naechste"]))
+        if not all(f"`aufgabe {n}" in (a.get("fertig_wenn") or "") for n in a["naechste"]):   # sonst schon im Fertig-wenn genannt
+            out.append("**Nächste Aufgabe:** " + ", ".join(f"`aufgabe {n}`" for n in a["naechste"]))
+    elif a["id"] in HILFSAUFGABEN:
+        out.append("**Danach:** zurück zum nächsten offenen Punkt der Checkliste, aus der du gekommen bist (sonst `aufgabe` ohne Text).")
     return "\n".join(out)
 
 
@@ -1040,23 +1293,28 @@ def _prueffeld_kompakt(code: str) -> str:
     st = [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]
     out = [f"## Prüffeld {code} {p['bezeichnung']} – Bündel"]
     if e.get("kurzbeschrieb"):
-        out.append(cut(e["kurzbeschrieb"], 400))
+        out.append(cut(e["kurzbeschrieb"], 300))
     if e.get("risiken"):
-        out.append("Risiken: " + " · ".join(cut(r["text"], 110) + (f" [{','.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") for r in e["risiken"][:6]))
+        out.append("Risiken: " + " · ".join(cut(r["text"], 100) + (f" [{','.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") for r in e["risiken"][:6]))
     if e.get("unterlagen"):
-        out.append("Unterlagen (M-Files/PBC): " + "; ".join(u["dokument"] for u in e["unterlagen"]))
+        u = e["unterlagen"]
+        out.append("Unterlagen (M-Files/PBC): " + "; ".join(cut(x["dokument"], 80) for x in u[:6]) + (f"; … alle {len(u)}: `unterlagen {code}`" if len(u) > 6 else ""))
     if e.get("fragen_kunde"):
-        out.append("Fragen an Kunden (10.11 auswerten, sonst Pendenz): " + " | ".join(cut(f["frage"], 120) for f in e["fragen_kunde"][:6]))
+        fk = e["fragen_kunde"]
+        out.append("Fragen an Kunden (10.11 auswerten, sonst Pendenz): " + " | ".join(cut(f["frage"], 100) for f in fk[:3]) +
+                   (f" | … alle {len(fk)}: `fragen {code}`" if len(fk) > 3 else ""))
     if e.get("bewertung"):
-        out.append("Bewertung: " + " · ".join(f"{cut(b['regel'], 110)} ^[{b.get('quelle')}]" for b in e["bewertung"][:4]))
-    groups = {"vorbereiten": [], "teilweise": [], "auf_anweisung": [], "nur_mensch": []}
+        out.append("Bewertung: " + " · ".join(f"{cut(b['regel'], 110)} ^[{b.get('quelle')}]" for b in e["bewertung"][:3]))
+    groups = {"teilweise": [], "vorbereiten": [], "auf_anweisung": [], "nur_mensch": []}
     for s in st:
         groups[art_of(s)[0]].append(s)
     out.append("Schritte → je Schritt `pruefschritt <id>`:")
-    lab = {"vorbereiten": "vorbereiten", "teilweise": "Befragung (schriftlich auswerten / Pendenz)", "auf_anweisung": "nur auf Anweisung (4xx)", "nur_mensch": "WP-Schritte (nur auf Anweisung)"}
+    lab = {"teilweise": "1xx Befragung (schriftlich auswerten / Pendenz)", "vorbereiten": "2xx/3xx vorbereiten",
+           "auf_anweisung": "4xx nur auf Anweisung des WP (sonst «nicht bearbeitet»)", "nur_mensch": "WP-Schritte (ohne Anweisung kein Textfeld)"}
     for k, v in groups.items():
         if v:
-            out.append(f"- {lab[k]}: " + ", ".join(f"{s['id']} {cut(s['text'], 48)}" for s in v))
+            kurz = k in ("auf_anweisung", "nur_mensch")
+            out.append(f"- {lab[k]}: " + ", ".join(s["id"] if kurz else f"{s['id']} {cut(s['text'], 34)}" for s in v))
     pb = {"A1": "vorjahresabstimmung", "P1": "vorjahresabstimmung", "C1": "delkredere", "G1": "sachanlagen"}.get(code)
     if pb:
         out.append(f"Playbook: `aufgabe {pb}`")
@@ -1111,17 +1369,17 @@ def hilfe() -> str:
     kat = L().get("katalog", {}).get("prueffelder", [])
     return "\n".join([
         "# Revisions-Wiki – Einstieg (eingeschränkte Revision, revio 4.0)",
-        "Grundsatz: Der Agent BEREITET VOR (Textfeld, Beilagen, Notizen, Ablage 10.9, PBC-Vorschläge). Visum, ✓, Abschliessende Beurteilung, "
-        "Abschluss, Freigabe, Bericht unterzeichnen, Kundenversand: nie (`regeln grenze`).", "",
+        "Grundsatz: Der Agent BEREITET VOR (Textfeld, Beilagen, Notizen, Ablage 10.9, PBC-Vorschläge). " + NIE + "; Bericht nie unterzeichnen (`regeln grenze`).", "",
         "| Frage | Befehl |", "|---|---|",
+        "| **Immer zuerst:** Was ist zu tun? Aufgabe oder Frage in eigenen Worten | `aufgabe \"<in eigenen Worten>\"` · z.B. `aufgabe \"Prüffeld C1 vorbereiten\"` · `aufgabe rapport` · Liste: `aufgabe` |",
         "| Was ist bei Prüfschritt X zu tun? | `pruefschritt C1-302` |",
         "| Überblick Prüffeld (Risiken, PBC, Fragen, Schritte) | `prueffeld C1` oder `prueffeld Vorräte` |",
-        "| Welche Unterlagen / Kundenfragen? | `unterlagen C1` · `fragen C1` (oder `alle`) |",
+        "| Welche Unterlagen / Kundenfragen? | `unterlagen C1` · `fragen C1` (Übersicht: ohne Code) |",
         "| Wie läuft die Revision ab, was entscheidet der WP? | `prozess` · `prozess p6` |",
         "| Was darf der Agent, Notizen, Ablauf je Schritt? | `regeln` · `regeln notizen` · `regeln grenze` |",
         "| Welches revio-Werkzeug? | `revio 10.9` · `revio C1-302` · `revio notiz` · `revio ketten` · `revio nur-mensch` |",
         "| Schwellenwert, Satz, Frist | `wert zinssatz darlehen` · `wert revisionspflicht` |",
-        "| Rechnen | `rechne \"…\"` · `wesentlichkeit 5000000 1` · `kapitalverlust …` · `revisionspflicht …` |",
+        "| Rechnen | `rechne \"…\"` · `wesentlichkeit --gesamt 80000` · `kapitalverlust --aktienkapital … [--reserve-voll … --covid-kredit …]` · `revisionspflicht …` |",
         "| Fachfrage mit Quelle | `thema rangrücktritt` · `suche \"…\" --quelle ser-2022` → `zeige <chunk-id>` |", "",
         "Prüffelder: " + " · ".join(f"{p['code']} {p['bezeichnung']}" for p in kat),
         "", "Quellenrang: OR > SER (massgebend) > HWP ER > HWP BuR/Q&A/Muster > Fachliteratur > intern. Antworten immer mit Fundstelle ^[chunk-id].",
@@ -1129,6 +1387,29 @@ def hilfe() -> str:
 
 
 # ------------------------------------------------------------------ CLI
+RECHNER = ("wesentlichkeit", "kapitalverlust", "revisionspflicht")
+
+
+def _kv_args(argv: list[str], sub) -> list[str]:
+    """Nur für die Rechner: «vj_umsatz=43» → «--vj-umsatz=43» (nur bekannte Optionsnamen; `rechne "summe=100+200"` bleibt unverändert)."""
+    if not argv or argv[0] not in RECHNER:
+        return argv
+    opts = {o for act in sub.choices[argv[0]]._actions for o in act.option_strings if o.startswith("--")}
+    out = [argv[0]]
+    for x in argv[1:]:
+        m = re.match(r"^([A-Za-z][\w-]*)=(.*)$", x)
+        o = "--" + m.group(1).lower().replace("_", "-") if m else ""
+        if m and o in opts:
+            if o == "--holding":   # Schalter ohne Wert
+                if m.group(2).strip().lower() in ("1", "true", "ja", "yes", "holding"):
+                    out.append(o)
+                continue
+            out.append(f"{o}={m.group(2)}")
+        else:
+            out.append(x)
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="revision", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1148,16 +1429,19 @@ def main(argv=None):
     x = sub.add_parser("thema"); x.add_argument("begriff", nargs="+")
     x = sub.add_parser("rechne"); x.add_argument("ausdruck", nargs="+")
     x = sub.add_parser("wesentlichkeit"); x.add_argument("bezugsgroesse", nargs="?"); x.add_argument("satz", nargs="?"); x.add_argument("--gesamt"); x.add_argument("--toleranz"); x.add_argument("--nichtaufgriff"); x.add_argument("--bezeichnung", default="Bezugsgrösse")
+    x.add_argument("--bezugsgroesse", dest="bezugsgroesse_opt"); x.add_argument("--satz", dest="satz_opt")
     x = sub.add_parser("kapitalverlust"); x.add_argument("--aktienkapital", required=True); x.add_argument("--eigenkapital"); x.add_argument("--aktiven"); x.add_argument("--verbindlichkeiten")
     x.add_argument("--kapitalreserve", default=0); x.add_argument("--gewinnreserve", default=0); x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
     x.add_argument("--buchwert"); x.add_argument("--verkehrswert")
     x.add_argument("--freiwillige-reserven"); x.add_argument("--vortrag"); x.add_argument("--jahresergebnis"); x.add_argument("--eigene-aktien")
+    x.add_argument("--reserve-voll", default=0, help="gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b) und Aufwertungsreserve (OR 725c) – zählen voll")
+    x.add_argument("--covid-kredit", default=0, help="Covid-19-Kredit (Art. 3 Covid-19-SBüV) – kein Fremdkapital für OR 725a/725b")
     x = sub.add_parser("revisionspflicht"); x.add_argument("--bilanzsumme", required=True); x.add_argument("--umsatz", required=True); x.add_argument("--vollzeitstellen", required=True)
     x.add_argument("--vj-bilanzsumme"); x.add_argument("--vj-umsatz"); x.add_argument("--vj-vollzeitstellen")
-    a = ap.parse_args(argv)
+    a = ap.parse_args(_kv_args(list(sys.argv[1:] if argv is None else argv), sub))
     j = lambda v: " ".join(v) if isinstance(v, list) else v  # noqa: E731
     c = a.cmd
-    res = {
+    fn = {
         "hilfe": lambda: hilfe(),
         "aufgabe": lambda: aufgabe(j(a.text) or None),
         "suche": lambda: suche(a.query, a.quelle, a.typ, a.n),
@@ -1173,13 +1457,17 @@ def main(argv=None):
         "wert": lambda: wert(j(a.begriff)),
         "thema": lambda: thema(j(a.begriff)),
         "rechne": lambda: rechne(j(a.ausdruck)),
-        "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse, a.satz, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
+        "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse or a.bezugsgroesse_opt, a.satz or a.satz_opt, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
         "kapitalverlust": lambda: kapitalverlust(a.aktienkapital, a.eigenkapital, a.aktiven, a.verbindlichkeiten, a.kapitalreserve, a.gewinnreserve,
                                                  a.holding, a.rangruecktritt, a.buchwert, a.verkehrswert, a.freiwillige_reserven, a.vortrag,
-                                                 a.jahresergebnis, a.eigene_aktien),
+                                                 a.jahresergebnis, a.eigene_aktien, a.reserve_voll, a.covid_kredit),
         "revisionspflicht": lambda: revisionspflicht(a.bilanzsumme, a.umsatz, a.vollzeitstellen, a.vj_bilanzsumme, a.vj_umsatz, a.vj_vollzeitstellen),
-    }[c]()
-    print(res)
+    }[c]
+    try:
+        print(fn())
+    except ValueError as e:
+        print(f"Fehler: {e}")
+        sys.exit(2)
 
 
 if __name__ == "__main__":

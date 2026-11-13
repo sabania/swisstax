@@ -38,14 +38,13 @@ verwenden; nur bei Fragen zur ordentlichen Revision zitieren und dann ausdrückl
 - Kapitalverlust (OR 725a: Hälfte von AK + nicht zurückzahlbarer gesetzl. Kapitalreserve + gesetzl. Gewinnreserve ^[or__art-725a];
   Reserven zusammen höchstens 50 %, Holding 20 % des Grundkapitals ^[hwp-bur-2023__rz-0889-s359] – nie von Hand, immer
   `kapitalverlust`; Gewinnreserven für eigene Kapitalanteile im Konzern und aus Aufwertung (OR 725c) zählen voll (gleiche Rz) –
-  kennt der Rechner nicht, vorhanden → Notiz «Pendenz» an den WP) ≠ Überschuldung (OR 725b: Verbindlichkeiten nicht mehr durch Aktiven gedeckt → Zwischenabschlüsse, Prüfung
+  Parameter `reserve_voll`) ≠ Überschuldung (OR 725b: Verbindlichkeiten nicht mehr durch Aktiven gedeckt → Zwischenabschlüsse, Prüfung
   durch die Revisionsstelle ^[or__art-725b-t1]).
 - Rangrücktritt beseitigt die Überschuldung nicht ^[qa-kapitalverlust-2023__2-2-2-t5], erlaubt nur, die Benachrichtigung des
   Gerichts zu unterlassen (Betrag + Zinsforderungen während der Überschuldung) ^[or__art-725b-t1].
 - Anzeigepflicht der Revisionsstelle (OR 729c) nur bei offensichtlicher Überschuldung und Untätigkeit des VR ^[or__art-729c].
 - Covid-19-Kredit (Art. 3 Covid-19-SBüV): zählt bei OR 725a/725b nicht als Fremdkapital ^[covid-sbueg__art-24] (Rechner
-  `kapitalverlust`: Kredit nicht in `--verbindlichkeiten` erfassen; bei Eingabe `--eigenkapital` den Kredit mit `rechne`
-  dazuzählen). Während der Solidarbürgschaft u.a. keine Dividenden, Tantiemen, Rückerstattung von Kapitaleinlagen, keine
+  `kapitalverlust`: Parameter `covid_kredit`). Während der Solidarbürgschaft u.a. keine Dividenden, Tantiemen, Rückerstattung von Kapitaleinlagen, keine
   Darlehen an oder Darlehensrückzahlungen von Gesellschaftern/Nahestehenden ^[covid-sbueg__art-2-t1]. Verstoss → Revisionsstelle
   setzt Frist, sonst informiert sie die GV, danach die Bürgschaftsorganisation ^[covid-sbueg__art-23] – Agent: Notiz «Wesentliche
   Feststellungen» bzw. «Schlussbesprechung»; Entscheid und Massnahmen beim WP.

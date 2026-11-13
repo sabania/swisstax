@@ -21,8 +21,9 @@ def obj(props: dict, req: list) -> dict:
 
 TOOLS = [
     {"name": "aufgabe", "fn": lambda a: rv.aufgabe(a.get("aufgabe") or None),
-     "description": "IMMER ZUERST AUFRUFEN. Liefert zu einer Aufgabe in EINEM Aufruf alles Nötige: Ziel, Regeln, Checkliste mit den genauen "
-                    "nächsten Aufrufen, revio-Werkzeugkette, Fertig-wenn, nächste Aufgabe. Eingabe: Aufgabe in eigenen Worten oder id "
+     "description": "IMMER ZUERST AUFRUFEN. Liefert zu einer Aufgabe oder Frage in EINEM Aufruf alles Nötige: Ziel, Grenze, Regeln, Checkliste mit den "
+                    "genauen nächsten Aufrufen, revio-Werkzeugketten, Fertig-wenn, nächste Aufgabe; bei Fachfragen Themen, Regeln und Fundstellen. "
+                    "Eingabe: Aufgabe/Frage in eigenen Worten oder id "
                     "(mandat-start, import, prueffeld, unterlagen, rapport, gvb-bericht, pdf-akte, notiz, wesentlichkeit, kapitalschutz, "
                     "vorjahresabstimmung, delkredere, sachanlagen, abschluss, auftrag, fachfrage) oder direkt ein Prüffeld (C1) bzw. "
                     "einen Prüfschritt (C1-302). Ohne Eingabe: Liste aller Aufgaben.",
@@ -48,9 +49,9 @@ TOOLS = [
                     "(nie Visum/Abschluss/Freigabe/Versand), wesentlichkeit, gesetz (OR-Kernregeln).",
      "inputSchema": obj({"bereich": S}, [])},
     {"name": "revio", "fn": lambda a: rv.revio(a.get("frage") or None),
-     "description": "Welches revio-MCP-Werkzeug wann: Bereich (z.B. 10.9, 3.3, 4), Prüffeld (C1), Prüfschritt (C1-302), Aufgabe/Stichwort "
+     "description": "Welches revio-MCP-Werkzeug wann: Bereich (z.B. 10.9, 3.3, 4), Prüffeld (prueffeld C1), Prüfschritt (C1-302), Aufgabe/Stichwort "
                     "(notiz, beilage, wesentlichkeit, saldenbilanz), Werkzeugketten (ketten, K1…), ein Werkzeugname (Art, Pfad, Parameter, "
-                    "Body-Felder) oder nur-mensch (gesperrte Werkzeuge). Nie gesperrte Werkzeuge aufrufen.",
+                    "Body-Felder) oder nur-mensch (gesperrte Werkzeuge). ⛔ = deny: nie aufrufen, auch nicht über revio_call.",
      "inputSchema": obj({"frage": S}, [])},
     {"name": "wert", "fn": lambda a: rv.wert(a["begriff"]),
      "description": "Schwellenwerte, Sätze, Fristen mit Fundstelle (z.B. revisionspflicht, kapitalverlust, reserven, aufbewahrung, "
@@ -70,28 +71,36 @@ TOOLS = [
     {"name": "kapitalverlust", "fn": lambda a: rv.kapitalverlust(a["aktienkapital"], a.get("eigenkapital"), a.get("aktiven"), a.get("verbindlichkeiten"),
                                                                  a.get("kapitalreserve", 0), a.get("gewinnreserve", 0), a.get("holding", False),
                                                                  a.get("rangruecktritt", 0), a.get("buchwert"), a.get("verkehrswert"),
-                                                                 a.get("freiwillige_reserven"), a.get("vortrag"), a.get("jahresergebnis"), a.get("eigene_aktien")),
+                                                                 a.get("freiwillige_reserven"), a.get("vortrag"), a.get("jahresergebnis"), a.get("eigene_aktien"),
+                                                                 a.get("reserve_voll", 0), a.get("covid_kredit", 0)),
      "description": "Rechenhilfe Kapitalschutz OR 725a/725b/725c: geschütztes Kapital (gesetzliche Reserven höchstens 50 % bzw. Holding 20 % des "
                     "Aktienkapitals), Kapitalverlust (Hälfte-Test), Überschuldung, Rangrücktritt, zulässige Aufwertung (mit buchwert + verkehrswert). "
                     "Eigenkapital direkt ODER aus Bestandteilen (freiwillige_reserven, vortrag, jahresergebnis – Verluste negativ –, eigene_aktien) "
-                    "ODER aktiven + verbindlichkeiten. Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. Beurteilung: WP.",
+                    "ODER aktiven + verbindlichkeiten. reserve_voll = Gewinnreserven für eigene Kapitalanteile im Konzern/Aufwertungsreserve (zählen "
+                    "voll zum geschützten Kapital); covid_kredit = Covid-19-Kredit (kein Fremdkapital). Alle Beträge in CHF. Mit Gesetzes-/HWP-Zitaten. "
+                    "Beurteilung: WP.",
      "inputSchema": obj({"aktienkapital": {**N, "description": "Aktien- und PS-Kapital in CHF"}, "eigenkapital": {**N, "description": "bilanzielles Eigenkapital in CHF (inkl. Verluste, eigene Aktien)"},
                          "aktiven": N, "verbindlichkeiten": {**N, "description": "Fremdkapital inkl. Rückstellungen"},
                          "kapitalreserve": {**N, "description": "gesetzliche Kapitalreserve (z.B. Agio)"}, "gewinnreserve": {**N, "description": "gesetzliche Gewinnreserve"},
                          "freiwillige_reserven": N, "vortrag": {**N, "description": "Gewinn-/Verlustvortrag (Verlust negativ)"},
                          "jahresergebnis": {**N, "description": "Jahresgewinn/-verlust (Verlust negativ)"}, "eigene_aktien": {**N, "description": "Betrag eigene Aktien (wird abgezogen)"},
                          "holding": {"type": "boolean"}, "rangruecktritt": N, "buchwert": {**N, "description": "Buchwert Grundstück/Beteiligung (für Aufwertung)"},
-                         "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"}}, ["aktienkapital"])},
+                         "verkehrswert": {**N, "description": "wirklicher Wert/Netto-Marktwert (für Aufwertung)"},
+                         "reserve_voll": {**N, "description": "gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und Aufwertungsreserve "
+                                                             "(OR 725c) – ohne 50-%-Grenze; nicht zusätzlich in gewinnreserve"},
+                         "covid_kredit": {**N, "description": "Covid-19-Kredit (Art. 3 Covid-19-SBüV): zählt nicht als Fremdkapital (Art. 24 Covid-19-SBüG)"}},
+                        ["aktienkapital"])},
     {"name": "revisionspflicht", "fn": lambda a: rv.revisionspflicht(a["bilanzsumme"], a["umsatz"], a["vollzeitstellen"], a.get("vj_bilanzsumme"), a.get("vj_umsatz"), a.get("vj_vollzeitstellen")),
      "description": "Rechenhilfe OR 727/727a: ordentliche oder eingeschränkte Revision nach Grössen (Bilanzsumme, Umsatz in CHF, Vollzeitstellen; "
                     "Berichts- und Vorjahr), Opting-out. NUR für die Revisionsart – nicht für Kapitalverlust (dafür kapitalverlust).",
      "inputSchema": obj({"bilanzsumme": {**N, "description": "in CHF, z.B. 22000000"}, "umsatz": {**N, "description": "Umsatzerlös in CHF"}, "vollzeitstellen": N,
                          "vj_bilanzsumme": N, "vj_umsatz": N, "vj_vollzeitstellen": N}, ["bilanzsumme", "umsatz", "vollzeitstellen"])},
     {"name": "unterlagen", "fn": lambda a: rv.unterlagen(a.get("prueffeld") or None),
-     "description": "PBC-Unterlagen je Prüffeld (oder alle): was der Agent in M-Files sucht bzw. als PBC-Vorschlag (10.10)/Pendenz erfasst.",
+     "description": "PBC-Unterlagen eines Prüffelds (z.B. C1): was der Agent in M-Files sucht; Fehlendes als Pendenz «PBC-Vorschlag». Ohne Prüffeld: Übersicht.",
      "inputSchema": obj({"prueffeld": S}, [])},
     {"name": "fragen", "fn": lambda a: rv.fragen(a.get("prueffeld") or None),
-     "description": "Fragen an den Kunden je Prüffeld (oder alle) – der Agent befragt nie selbst: Antwort aus 10.11/Protokollen auswerten, sonst Pendenz.",
+     "description": "Fragen an den Kunden eines Prüffelds (z.B. C1) – der Agent befragt nie selbst: Antwort aus 10.11/Protokollen auswerten, sonst Pendenz. "
+                    "Ohne Prüffeld: Übersicht.",
      "inputSchema": obj({"prueffeld": S}, [])},
     {"name": "thema", "fn": lambda a: rv.thema(a["begriff"]),
      "description": "Themenseite mit Zitaten (z.B. Rangrücktritt, Hinweispflichten, Unabhängigkeit, Vollständigkeitserklärung, nahestehende "
@@ -99,7 +108,9 @@ TOOLS = [
      "inputSchema": obj({"begriff": S}, ["begriff"])},
     {"name": "suche", "fn": lambda a: rv.suche(a["query"], a.get("quelle"), a.get("typ"), int(a.get("n") or 8)),
      "description": "Volltextsuche in allen Quellen (OR, SER, HWP ER, HWP BuR, Q&A, Muster, ESTV, Fachliteratur, Konzept). quelle = Präfix "
-                    "(or, ser-2022, ser-2022__anh-d, hwp-er-2026, hwp-bur-2023, qa-kapitalverlust, muster-hwp-er-2026, estv, konzept). "
+                    "(or, ser-2022, ser-2022__anh-d, hwp-er-2026, hwp-bur-2023, qa-kapitalverlust, muster-hwp-er-2026, estv, konzept, "
+                    "rab (Unabhängigkeit, Aufsicht), rag/rav (Zulassung), hregv (Opting-out), gebuev (Aufbewahrung), mwstg/mwstv, vstg/vstv, "
+                    "dsg/edoeb (Datenschutz/KI), stgb (Berufsgeheimnis), covid-sbueg, zgb, fusg). "
                     "Für Fragen, die die anderen Tools nicht beantworten; danach zeige.",
      "inputSchema": obj({"query": S, "quelle": S, "typ": S, "n": {"type": "integer"}}, ["query"])},
     {"name": "zeige", "fn": lambda a: rv.zeige(a["ref"], a.get("abschnitt")),
@@ -129,9 +140,10 @@ def main():
                 "protocolVersion": par.get("protocolVersion") or "2025-06-18",
                 "capabilities": {"tools": {"listChanged": False}},
                 "serverInfo": {"name": "revisionswiki", "version": "1.0.0"},
-                "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0). IMMER ZUERST `aufgabe` mit der Aufgabe in eigenen Worten – "
-                                "die Antwort nennt die nächsten Aufrufe (pruefschritt, revio, rechne …). Fachfrage: thema/wert/suche → zeige. "
-                                "Agent bereitet nur vor (nie Visum/Abschluss/Freigabe/Versand)."}})
+                "instructions": "Revisions-Wiki (eingeschränkte Revision CH, revio 4.0). IMMER ZUERST `aufgabe` mit der Aufgabe oder Frage in eigenen "
+                                "Worten – die Antwort nennt die nächsten Aufrufe (pruefschritt, revio, rechne …). Agent bereitet nur vor: nie Visum, ✓, "
+                                "Abschluss/Status, Freigabe, Buchung, Unterzeichnung, Kundenversand. revio-Werkzeuge mit ⛔ (deny) nie aufrufen, "
+                                "auch nicht über revio_call."}})
         elif meth == "tools/list":
             send({"jsonrpc": "2.0", "id": i, "result": {"tools": [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]}})
         elif meth == "tools/call":
@@ -142,6 +154,9 @@ def main():
             try:
                 txt = t["fn"](par.get("arguments") or {})
                 send({"jsonrpc": "2.0", "id": i, "result": {"content": [{"type": "text", "text": txt}], "isError": False}})
+            except (ValueError, KeyError) as e:   # Eingabefehler: kurze Meldung ohne Traceback
+                msg = f"Fehler: Pflichtangabe fehlt: {e}" if isinstance(e, KeyError) else f"Fehler: {e}"
+                send({"jsonrpc": "2.0", "id": i, "result": {"content": [{"type": "text", "text": msg}], "isError": True}})
             except Exception as e:
                 send({"jsonrpc": "2.0", "id": i, "result": {"content": [{"type": "text", "text": f"Fehler: {e}\n{traceback.format_exc(limit=2)}"}],
                                                             "isError": True}})

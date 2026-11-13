@@ -3,6 +3,7 @@ typ: pbc
 titel: Unterlagen (PBC) je Prüffeld
 jur: ch
 quellen:
+- bsv-beitraege-ueberblick
 - estv-ks-32a-2025
 - estv-ks-6a-2024
 - estv-zinsen-2026
@@ -208,15 +209,20 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Cash-Pool-Vertrag und Bonitätsüberwachung der Pool-Teilnehmer (falls Cash Pooling) – Qualifikation als Aktionärsdarlehen, Haftung, Bonität, Anhang (H2-201/H2-302/H2-320)
 
 ## H3 Beteiligungen
-- Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Buchwert, Wertberichtigungen, Aufbewahrungsort, Einzahlungs-/Nachschusspflichten) – H3-301 Abstimmung Bestand, H3-320 Anhang, H3-402 Verpflichtungen
+- Beteiligungsverzeichnis per 31.12. (Firma, Rechtsform, Sitz, Anzahl/Nominal, Kapital- und Stimmenanteil, Anschaffungswert, Steuerwert, Buchwert, Aufwertungen Art. 725c OR, Wertberichtigungen, Aufbewahrungsort, Einzahlungs-/Nachschusspflichten) – H3-301 Abstimmung Bestand, H3-302 Steuerwert/Aufwertungen, H3-320 Anhang, H3-402 Verpflichtungen
 - Kauf-/Verkaufsverträge, Zahlungsbelege, VR-Beschlüsse zu Zu- und Abgängen, Kapitalerhöhungen und Zuschüssen – H3-301 Bestand, H3-303 Anschaffungskosten und Gegenbuchungen
 - Depotauszug bzw. Titel per 31.12.; bei GmbH-Anteilen HR-Auszug, Statuten, Gesellschafter-/Aktienregister der Beteiligung – H3-301 Bestands- und Eigentumsnachweis, Quote/Stimmrechte
+- Schriftlicher Abtretungsvertrag über GmbH-Stammanteile und – falls statutarisch erforderlich – Zustimmungsbeschluss der Gesellschafterversammlung der Beteiligung; HR-Auszug der Beteiligung – H3-301 Eigentumsübergang bei GmbH-Stammanteilen
 - Letzte verfügbare Jahresrechnungen (ggf. Revisionsberichte) der Beteiligungsgesellschaften – H3-302 innerer Wert, H3-403 Bonität, H3-102 Werthaltigkeit
 - Jahresendkurse kotierter Titel (Depotauszug, Kursliste) – H3-302 Bewertung kotierter Beteiligungen/Wertschriften
 - Werthaltigkeitsbeurteilung der Geschäftsleitung (Substanz-/Ertragswert, Planungsrechnung, Budget) – H3-102/H3-302 Nachvollzug der Bewertung
-- GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen, Dividendenabrechnungen mit VSt-Ausweis, VSt-Rückerstattungsanträge – H3-304 Erfassung Erträge, H3-405 VSt-Guthaben
+- Bewertungsgutachten bzw. Unternehmensbewertung zur Beteiligung, nur soweit vom Kunden vorhanden und beigebracht (kein Einholen bei Dritten) – H3-302 Nachvollzug der Bewertung
+- Konzernrechnung (falls erstellt) bzw. Begründung der Befreiung nach Art. 963a OR – H3-320 Konzernrechnungspflicht; H3-302 Plausibilisierung der Beteiligungsbewertung
+- GV-Protokolle/Ausschüttungsbeschlüsse der Beteiligungen (inkl. Angabe der Reserven, aus denen ausgeschüttet wird), Dividendenabrechnungen mit VSt-Ausweis – H3-304 Erfassung Erträge (Periode, brutto, KER), H3-405 VSt-Guthaben
+- VSt-Rückerstattungsanträge und Gutschriften der ESTV (laufendes Jahr und Vorjahre, je offener Posten mit Fälligkeitsjahr) – H3-405 Abbau und Verjährung älterer VSt-Guthaben
 - Aktienbuch/Anteilbuch, Verträge über Erwerb und Veräusserung eigener Anteile – H3-401 Bestand eigene Anteile
-- Garantie-, Bürgschafts-, Patronats- und Pfandverträge zugunsten/zulasten von Beteiligungen; Kreditverträge mit Verpfändung von Beteiligungstiteln – H3-402 Verpfändungen und Eventualverbindlichkeiten
+- Garantie-, Bürgschafts- und Patronatserklärungen sowie Pfandbestellungen zugunsten von Beteiligungsgesellschaften – H3-402 c) Eventualverbindlichkeiten, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 8 und 10 OR)
+- Kredit- und Pfandverträge, Bankbestätigung (Abschnitt Sicherheiten) mit Verpfändung von Beteiligungstiteln für eigene Verbindlichkeiten – H3-402 b) Verpfändungen, H3-320 Anhang (Art. 959c Abs. 2 Ziff. 9 OR)
 - Aufstellung Bestand und Veränderung der stillen Reserven (Kunde) – H3-321 stille Reserven
 - Unterzeichnete Vollständigkeitserklärung – H3-320/H3-402 Belastungen, Eventualverbindlichkeiten, stille Reserven
 
@@ -270,17 +276,19 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 ## M1 übrige kurzfristige Verbindlichkeiten
 - Einzelnachweis/Aufstellung der übrigen kurzfristigen Verbindlichkeiten per 31.12. je Konto (Gläubiger, Grund, Betrag, Fälligkeit, Währung) – Abstimmung mit Hauptbuch und Bilanz (M1-301), Vorjahresvergleich (M1-201), Fremdwährung (M1-303)
 - Schluss-/Jahresabrechnungen 2025 der Sozialversicherungen: Ausgleichskasse (AHV/IV/EO/ALV/FAK), UVG/UVGZ, KTG, BVG/Pensionskasse; Jahreslohnmeldung – Bestandesnachweis (M1-302b), Abstimmung Aufwand (M1-401), Sollsaldi (M1-406), BVG-Ausstände (M1-408)
-- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal – Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e)
+- Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) mit Lohnjournal und Personalliste (Bruttolöhne) – Bestandesnachweis Konto Quellensteuer (M1-301, M1-302e), Plausibilisierung QST-Abzug je Person zum Bruttolohn (M1-201)
+- Lohnjournal und Lohnabrechnung Dezember, Auszahlungsbelege (Bank) Januar Folgejahr, Bonus-/Spesenabrechnungen der Geschäftsleitung – Nachweis Lohnsammelkonto (M1-301, M1-302e), Organguthaben im Lohnsammelkonto (M1-304), Boni (M1-103)
 - Kontoblätter der Bestandeskonten und zugehörigen Aufwandkonten 2025 sowie Buchungen/Zahlungen Januar–Februar Folgejahr – Buchungsdurchsicht (M1-401), Periodenabgrenzung und Zahlungen nach Stichtag (M1-103, M1-403, M1-408)
 - Projekt-/Auftragsliste mit erhaltenen Anzahlungen je Auftrag, Auftragsbestätigungen/Werkverträge, Anzahlungsrechnungen, Zahlungsbelege, Abnahmeprotokolle, Schlussrechnungen – Anzahlungen: Zugänge, Ausgleich, Abstimmung, Abgrenzung zu angefangenen Arbeiten (M1-402 bis M1-405, M1-302d)
 - Aktienbuch, Handelsregisterauszug, GV-/VR-Protokolle (u.a. Bonusbeschlüsse) – Identifikation nahestehender Personen (M1-304), Vollständigkeit Personalverbindlichkeiten (M1-103)
 - Kontokorrent-/Darlehensvereinbarungen mit Aktionären, Organen und Konzerngesellschaften inkl. Zinsabrechnungen – Bestandesnachweis (M1-302c), Verzinsung (M1-407), Ausweis (M1-304)
-- Beitragsrechnung/Kontoauszug der Vorsorgeeinrichtung per 31.12., Anschlussvertrag und Vorsorgereglement – BVG-Arbeitgeberschulden und Anhangangabe (M1-408, M1-320), Dauerakte (M1-322)
-- Vom Kunden selbst eingeholte Saldobestätigungen/Richtigbefundsanzeigen (z.B. Sozialversicherungen, Nahestehende) – Bestandesnachweis (M1-302a)
+- Beitragsrechnung/Kontoauszug der Vorsorgeeinrichtung per 31.12., Anschlussvertrag und Vorsorgereglement – Passivierung der Schuld gegenüber der VE und Anhangangabe (M1-408, M1-320), AGBR (M1-321), Dauerakte (M1-322)
+- Vom Kunden selbst eingeholte Saldobestätigungen/Richtigbefundsanzeigen (z.B. Sozialversicherungen, Nahestehende) – Bestandesnachweis (M1-302a); die Revisionsstelle holt keine Drittbestätigungen ein, Fragen/Anforderungen nur als Pendenz
 - Devisenkurse per 31.12. (Bankunterlagen) – Fremdwährungsumrechnung (M1-303)
 - Aufstellung Bestand und Veränderung stille Reserven (Berichtsjahr und Vorjahr) – M1-321, Anhang Art. 959c Abs. 1 Ziff. 3 OR
 - MWST-Abrechnung 4. Quartal bzw. Abrechnungskonto MWST – Nur Bestandsabstimmung in M1-301; materielle MWST-Prüfung in Prüffeld M2
 - Unterzeichnete Vollständigkeitserklärung – Bestätigung Vollständigkeit der Verbindlichkeiten und der Angaben zu Nahestehenden (M1-103, M1-304)
+- Berichte über Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) bzw. Quellensteuer-Revisionen, sofern vorhanden – Nachforderungen und Vollständigkeit (M1-103), Nachweis (M1-302); Einsichtnahme ist weitergehende Prüfungshandlung (nur auf Anweisung WP)
 
 ## M2 Mehrwertsteuer
 - MWST-Abrechnungen aller Perioden des Geschäftsjahres (inkl. letzte Periode) mit Zahlungsnachweisen – Abstimmung der MWST-Salden mit den Abrechnungen (M2-301, empfohlen); Abstimmung je Periode mit den Konten (M2-303) nur auf Anweisung des WP
@@ -373,10 +381,11 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 
 ## R1 Personalaufwand
 - Jahreslohnjournal / Lohnartenjournal mit Jahrestotalen (Brutto, Bonus, Zulagen, AN-/AG-Beiträge, QSt) – R1-301 Abstimmung Lohnbuchhaltung–Hauptbuch; R1-203a Monatswerte
-- Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ) – R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende
+- Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ; VJ ggf. aus Vorjahresakte in M-Files) – R1-202 Erwartung, R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende
 - AHV-Jahreslohnmeldung und Schlussabrechnung der Ausgleichskasse (inkl. FAK, Verwaltungskosten) – R1-302, R1-303, R1-410
-- BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Angaben zum Deckungsgrad per 31.12. – R1-302, R1-303, R1-321, R1-406, R1-407
+- BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Mitteilung/Jahresbericht zum Deckungsgrad per 31.12. – nur beim Unternehmen vorhandene Exemplare (keine Anfrage bei VE/Sammelstiftung) – R1-302, R1-303, R1-321, R1-406, R1-407
 - UVG/UVGZ- und KTG-Prämienabrechnungen bzw. definitive Lohnsummendeklarationen – R1-302, R1-303, R1-410
+- Verträge und Abrechnungen mit den Beitrags-/Prämiensätzen des Unternehmens (BVG-Reglement/Beitragsübersicht, UVG/UVGZ, KTG, FAK-Satz Ausgleichskasse) – R1-201, R1-408, R1-410 (Sätze BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen; BSV-Werte dazu sind Durchschnitte)
 - Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) und Belege Bezugsprovision – R1-302 Abgrenzung Konto Quellensteuer, R1-408
 - Ferien- und Überzeitsaldi pro Person per 31.12. mit Bewertungsgrundlage – R1-409b Nachrechnung Abgrenzung
 - Bonus-/Gratifikations- und Provisionsreglement, Zielvereinbarungen, VR-/GL-Beschlüsse zu Boni (auch nach Stichtag) – R1-101, R1-409a
@@ -422,27 +431,29 @@ In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vo
 - Allfällige beim Kunden bereits vorhandene Abrechnungen/Bestätigungen Dritter (z.B. Plattform-, Netzbetreiber-, Kommissionsabrechnungen) – Interne Abstimmung statt Drittbestätigung (SCH1-402)
 
 ## SCH2 Direkter Aufwand
-- Saldoliste/Erfolgsrechnung Berichtsjahr mit Vorjahr (Kontenebene 4xxx, inkl. Nettoerlöse) – Saldovergleich und Abweichungsanalyse (SCH2-102, SCH2-202 a)
-- Hauptbuch-Kontoblätter aller Konten des direkten Aufwands (4xxx) für das ganze Jahr – Durchsicht auf hohe/ungewöhnliche Beträge, Stichprobenauswahl, kritische Durchsicht (SCH2-202 b, SCH2-301, SCH2-302)
+- Saldoliste/Erfolgsrechnung Berichtsjahr mit Vorjahr (Kontenebene 3xxx/4xxx: Nettoerlöse, Erlösminderungen, Bestandesänderungen angefangene Arbeiten, direkter Aufwand) – Saldovergleich, Abweichungsanalyse und Gesamtleistung als Bezugsgrösse (SCH2-102, SCH2-201, SCH2-202 a)
+- Hauptbuch-Kontoblätter aller Konten des direkten Aufwands (4xxx) für das ganze Jahr – Kritische Durchsicht auf hohe/ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH2-202 b, SCH2-301, SCH2-302); SER Anh. D r) nur als Analogie (dort weiter gehend)
 - Umsatz-, Wareneinsatz- bzw. Deckungsbeitragsstatistik je Produktkategorie/Geschäftsbereich (Berichts- und Vorjahr) – Margenvergleich (SCH2-201, SCH2-202 d)
 - Budget bzw. Forecast des Berichtsjahres (Erfolgsrechnung) – Budgetvergleich (SCH2-202 c); Verlässlichkeit des Budgets beurteilen
-- Projektliste/Nachkalkulation (Einzelkosten Material und Fremdleistungen je Auftrag) bei Projektgeschäft – Marge je Projekt, sachliche Abgrenzung zu Bestandesänderungen/angefangenen Arbeiten (SCH2-201, SCH2-302)
-- Lieferantenrechnungen und Gutschriften der Stichprobe, zugehörige Verträge (Rahmen-, Liefer-, Montageverträge), Zahlungsbelege – Belegabstimmung (SCH2-301)
-- Lieferscheine/Wareneingangsbelege und Leistungs-/Montagerapporte kurz vor und nach dem Bilanzstichtag – Cut-off-Prüfung (SCH2-303)
-- Kreditorenjournal bzw. Kontoblätter Kreditoren und Aufwand der neuen Rechnung (erste Monate Folgejahr) sowie Liste noch nicht verbuchter Eingangsrechnungen – Suche nach Aufwand des Berichtsjahres in neuer Rechnung (SCH2-303, SCH2-302)
-- Kreditoren-OP-Liste und Detailliste passive Rechnungsabgrenzungen per 31.12. – Gegenprobe, ob Leistungen des Berichtsjahres als Kreditor oder Abgrenzung erfasst sind (SCH2-303)
+- Projektliste/Nachkalkulation (Einzelkosten Material und Fremdleistungen, Fertigstellungsgrad, erwartete Restkosten inkl. Garantie je Auftrag) bei Projektgeschäft – Marge je Projekt, sachliche Abgrenzung zu Bestandesänderungen/angefangenen Arbeiten (SCH2-201, SCH2-302)
+- Lieferantenrechnungen und Gutschriften der Auswahl, zugehörige Verträge (Rahmen-, Liefer-, Montageverträge), Zahlungsbelege – Belegabstimmung (SCH2-301)
+- Lieferscheine/Wareneingangsbelege und Leistungs-/Montagerapporte kurz vor und nach dem Bilanzstichtag – Cut-off-Prüfung (SCH2-303; weiter gehend, nur bei Anordnung WP)
+- Kreditorenjournal bzw. Kontoblätter Kreditoren und Aufwand der neuen Rechnung (erste Monate Folgejahr) sowie Liste noch nicht verbuchter Eingangsrechnungen – Suche nach Aufwand des Berichtsjahres in neuer Rechnung (SCH2-302; SCH2-303 nur bei Anordnung WP)
+- Kreditoren-OP-Liste und Detailliste passive Rechnungsabgrenzungen per 31.12. – Gegenprobe, ob Leistungen des Berichtsjahres als Kreditor oder Abgrenzung erfasst sind (SCH2-303); Schnittstelle Prüffelder Kreditoren/PRA (SER Anh. D l), dort weiter gehend)
 - Inventarlisten Handelswaren/Material per 31.12. Berichts- und Vorjahr – Plausibilisierung der Bestandesänderungen im Materialaufwand (SCH2-202 e, SCH2-302)
 - Schriftliche Antworten der Gesellschaft (revio 10.11 Kundenbefragung) bzw. Kontierungs- und Abgrenzungsrichtlinien – Auswertung der Befragungen (SCH2-101, SCH2-102)
+- Vollständigkeitserklärung bzw. Liste der nahestehenden Personen/Gesellschaften – Basis für die Auswahl «Nahestehende» (SCH2-301) und das Risiko Einkäufe von Nahestehenden
 
 ## SCH3 Übriger betrieblicher Aufwand
 - Saldoliste Erfolgsrechnung mit Vorjahreszahlen auf Kontenebene – Grundlage für Vorjahresvergleich und Abstimmung mit der Jahresrechnung (SCH3-101, -201, -202)
-- Hauptbuch-Kontoblätter aller Aufwandkonten des übrigen betrieblichen Aufwands (Einzelbuchungen, inkl. Abschlussbuchungen) – Durchsicht auf hohe oder ungewöhnliche Beträge und Belegauswahl (SCH3-202b, -301, -303)
+- Hauptbuch-Kontoblätter aller Aufwandkonten des übrigen betrieblichen Aufwands (Einzelbuchungen, inkl. Abschlussbuchungen) – Analytische Durchsicht auf Konten-/Monatsebene (SCH3-202b); Einzelbuchungsdurchsicht und Belegauswahl nur weitergehend (SCH3-303, -301); fehlen sie, PBC-Pendenz
 - Budget bzw. Forecast des Berichtsjahres (Kontenebene) – Budgetvergleich (SCH3-202c)
 - Eingangsrechnungen, Abrechnungen und Spesenbelege zu ausgewählten Posten – Belegabstimmung (SCH3-301)
 - Miet-, Leasing-, Versicherungs-, Wartungs- und Lizenzverträge (inkl. Nebenkostenabrechnungen, Prämienrechnungen) – Erwartungswerte (SCH3-202d), Belegabstimmung, Periodenabgrenzung und Anhangangabe Miet-/Leasingverpflichtungen
 - Detaillisten aktive und passive Rechnungsabgrenzungen per 31.12. mit Vorjahr und Belegen – Periodenabgrenzung des Aufwands (SCH3-302)
 - Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate des Folgejahres – Durchsicht in neuer Rechnung auf Aufwand des Berichtsjahres (SCH3-302)
-- Kreditoren-OP-Liste per 31.12. – Abgleich der Folgejahresrechnungen mit erfassten Verbindlichkeiten (SCH3-302)
+- Kreditoren-OP-Liste per 31.12. – Abgleich der Folgejahresrechnungen mit den erfassten Verbindlichkeiten (SCH3-302)
+- Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (Pendenzenmappe, Rechnungen nach Erfassungsschluss) – Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt die Unterlage: PBC-Pendenz
 - Liste der Nahestehenden (Aktionäre, VR, GL) und Vereinbarungen zu VR-Honoraren, Spesen, Fahrzeug- und Mietüberlassungen – Beurteilung geschäftsmässiger Aufwand und Drittvergleich (SCH3-301, -303)
 - Schriftliche Erläuterungen der Unternehmensleitung zu wesentlichen Abweichungen (Abweichungsanalyse) – Auswertung der Befragung (SCH3-101, -201)
 - Arbeitspapiere und Abschlusskorrekturen der Vorjahresprüfung – Erwartungen und Risikoschwerpunkte für die Analytik (SCH3-202)

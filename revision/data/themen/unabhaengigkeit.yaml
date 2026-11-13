@@ -77,9 +77,23 @@ stichworte:
 - gesetzliche Spezialprüfungen
 - Zwischenabschluss Art. 725b OR
 - Leitfaden QM
-kurz: Die Revisionsstelle muss tatsächlich und dem Anschein nach unabhängig sein (OR 729 Abs. 1). Bei eingeschränkter Revision sind Mitwirken bei der Buchführung und andere Dienstleistungen
-  mit Selbstprüfungsrisiko zulässig, wenn organisatorische und personelle Massnahmen eine verlässliche Prüfung sichern (nicht dieselbe Person/Personengruppe) und der Bericht dies offenlegt
-  (OR 729b Abs. 1 Ziff. 3). Keine gesetzliche Rotationspflicht (nur ordentliche Revision, OR 730a Abs. 2). Beurteilung beim WP.
+- Art. 728 OR
+- Mitwirkung
+- Mitwirken
+- Buchhaltung führen
+- Buchhaltung revidieren
+- Buchhaltung und Revision
+- revidieren
+- Treuhand
+- Outsourcing
+- Outsourcing Buchführung
+- geistiger Vater
+- Steuerberatung
+- Einpersonen-Revisionsunternehmen
+kurz: 'Unabhängig tatsächlich und dem Anschein nach (OR 729 Abs. 1). Buchhaltung führen und eingeschränkt revidieren ist zulässig (OR 729 Abs. 2), wenn nicht dieselbe Person/Personengruppe
+  bucht und prüft und der Bericht die Mitwirkung offenlegt (OR 729b Abs. 1 Ziff. 3). Der Kunde bleibt verantwortlich für die Jahresrechnung. RAB zusätzlich: kein umfassendes Outsourcing,
+  Kunde bleibt Urheber, separate Auftragsbestätigung. In der ordentlichen Revision ist die Mitwirkung unzulässig (OR 728 Abs. 2 Ziff. 4). Keine Rotationspflicht (OR 730a Abs. 2). Der
+  Agent stellt fest und meldet; Beurteilung beim WP.'
 aussagen:
 - text: 'OR 729 Abs. 1: Die Revisionsstelle muss unabhängig sein und sich ihr Prüfungsurteil objektiv bilden. Die Unabhängigkeit darf weder tatsächlich noch dem Anschein nach beeinträchtigt
     sein. Abs. 2: Das Mitwirken bei der Buchführung und andere Dienstleistungen für die geprüfte Gesellschaft sind zulässig. Entsteht dabei das Risiko, eigene Arbeiten zu überprüfen
@@ -91,7 +105,8 @@ aussagen:
     appearance»). Können diese Anforderungen nicht erfüllt werden, darf das Mandat weder angenommen noch weitergeführt werden. Vor der Auftragsannahme bzw. vor Wahl oder Wiederwahl klärt
     der Abschlussprüfer deshalb die Voraussetzungen ab: Wählbarkeit, Zulassung und Unabhängigkeit sowie Voraussetzungen beim Unternehmen (z. B. Prüfungsrisiken, Integrität der Unternehmensleitung).
     «Sind diese Voraussetzungen nicht gegeben, ist der Auftrag abzulehnen.» ^[hwp-er-2026__rz-0002-s179]. Festzustellen ist, «ob der Prüfer über die notwendige Zulassung (Art. 727b und
-    727c OR) und die erforderliche Unabhängigkeit (Art. 728 und 729 OR) verfügt» ^[hwp-er-2026__rz-0150-s066].'
+    727c OR) und die erforderliche Unabhängigkeit (Art. 728 und 729 OR) verfügt» ^[hwp-er-2026__rz-0150-s066]. Das Handelsregisteramt trägt eine Revisionsstelle nicht ein, wenn Umstände
+    den Anschein der Abhängigkeit erwecken (HRegV 61 Abs. 3) ^[hregv__art-61].'
   quelle: ser-2022__anh-b-s048-1
   zitat: Können diese Anforderungen nicht erfüllt werden, ist die Annahme oder Weiterführung eines Revisionsmandats nicht möglich.
 - text: 'Art. 729 OR enthält keinen Katalog unvereinbarer Sachverhalte. Gemäss Botschaft gilt Art. 728 Abs. 2 OR (ordentliche Revision) aber als Leitlinie für die eingeschränkt prüfende
@@ -101,6 +116,16 @@ aussagen:
     mit Bezug auf die Unabhängigkeit zwischen den beiden Revisionsarten dar» ^[hwp-er-2026__rz-0037-s158].'
   quelle: hwp-er-2026__rz-0036-s156-t1
   zitat: Die Vorgaben in Art. 728 Abs. 2 OR verstehen sich gemäss Botschaft jedoch auch als eine Leitlinie für die eingeschränkt prüfende Revisionsstelle
+- text: 'OR 728 Abs. 2 Ziff. 4 (ordentliche Revision): Mit der Unabhängigkeit nicht vereinbar ist «das Mitwirken bei der Buchführung sowie das Erbringen anderer Dienstleistungen, durch
+    die das Risiko entsteht, als Revisionsstelle eigene Arbeiten überprüfen zu müssen» ^[or__art-728-t1]. Nach RAB gelten die Unvereinbarkeiten der ordentlichen Revision gemäss Lehre
+    und Rechtsprechung weitgehend auch für die eingeschränkte Revision. «Der Gesetzgeber macht lediglich für die eingeschränkte Revision zwei abschliessende Ausnahmen»: die Mitwirkung
+    und andere Dienstleistungen unter Voraussetzungen (OR 729 Abs. 2) und keine Rotationspflicht (OR 730a Abs. 2). «Weitere Ausnahmen sind nicht vorgesehen.» ^[rab-unabhaengigkeit__c003-1].
+    Verlangen Aktionäre eine ordentliche Revision (Opting-up, OR 727 Abs. 2): «Hier gelten die gesetzlichen Anforderungen an die fachliche Qualifikation und die Unabhängigkeit der Revisionsstelle
+    uneingeschränkt.» ^[rab-faq-revisionsunternehmen__c002-8]. Bei gesetzlich vorgeschriebenen punktuellen Prüfungen mit positiver Zusicherung lässt sich das Selbstprüfungsrisiko nach
+    RAB nicht durch getrennte Teams mitigieren ^[rab-unabhaengigkeit__c005-2]. Für den Zwischenabschluss nach OR 725b Abs. 2 sehen HWP ER und Art. 165 RzU das anders ^[hwp-er-2026__rz-0054-s162];
+    der WP entscheidet (siehe Agent «Doppelmandat und Kapitalverlust»).'
+  quelle: or__art-728-t1
+  zitat: das Mitwirken bei der Buchführung sowie das Erbringen anderer Dienstleistungen, durch die das Risiko entsteht, als Revisionsstelle eigene Arbeiten überprüfen zu müssen
 - text: 'SER Anhang B (a) unterscheidet: (i) unterstützende Tätigkeiten im Rahmen der Abschlussprüfung, (ii) Nicht-Prüfungsdienstleistungen ohne Selbstprüfungsgefahr, (iii) das Mitwirken
     bei der Buchführung und (iv) Nicht-Prüfungsdienstleistungen mit Selbstprüfungsgefahr. Zu (i): Der Abschlussprüfer darf im Rahmen der Prüfung unterstützend (beratend) auf den Abschluss
     einwirken, solange die Entscheidung über die Handlungsalternativen beim Prüfungskunden verbleibt und dieser die Argumente fachlich mindestens in den Grundzügen nachvollziehen kann.
@@ -112,7 +137,8 @@ aussagen:
 - text: 'Zu (ii): Nicht-Prüfungsdienstleistungen ohne Selbstprüfungsgefahr, insbesondere im Steuer-, Abgabe- und Sozialversicherungsrecht, sind normalerweise mit der Unabhängigkeit vereinbar.
     Sie sind zulässig, solange die Entscheidung über die Handlungsalternativen beim Prüfungskunden verbleibt und der Prüfungskunde die Argumente fachlich mindestens in den Grundzügen
     nachvollziehen kann. Dann brauchen sie keine besonderen personellen oder organisatorischen Massnahmen und keine Offenlegung im Revisionsbericht. Ebenso HWP ER: «Übrige Dienstleistungen,
-    bei welchen keine Gefahr der Selbstprüfung besteht, sind bei der eingeschränkten Revision grundsätzlich zulässig und bedürfen keiner Offenlegung im Revisionsbericht.» ^[hwp-er-2026__rz-0051-s161]'
+    bei welchen keine Gefahr der Selbstprüfung besteht, sind bei der eingeschränkten Revision grundsätzlich zulässig und bedürfen keiner Offenlegung im Revisionsbericht.» ^[hwp-er-2026__rz-0051-s161]
+    Quellenabweichung: Die RAB (Aufsichtspraxis) sieht dagegen ein Selbstprüfungsrisiko, sobald die Dienstleistung über die reine Deklaration ohne Ermessen hinausgeht ^[rab-unabhaengigkeit__c004-5].'
   quelle: ser-2022__anh-b-s049-2
   zitat: bedarf keiner besonderen personellen oder organisatorischen Massnahmen und auch keiner Offenlegung im Revisionsbericht
 - text: 'Zu (iii): Das Mitwirken bei der Buchführung birgt per se ein Selbstprüfungsrisiko, weil die Buchführung die Basis der Abschlussprüfung ist. Das Selbstprüfungsverbot wird deshalb
@@ -134,6 +160,16 @@ aussagen:
     Nach HWP ER ist die Mitwirkung dem Kunden eingehend zu erläutern, und «Die Verantwortung für die Jahresrechnung muss in jedem Fall nachweislich beim Kunden verbleiben.» ^[hwp-er-2026__rz-0043-s159]'
   quelle: ser-2022__anh-b-s050-2
   zitat: erfüllt, wenn nicht dieselbe Person oder Personengruppe Arbeiten in der Buchführung und in der eingeschränkten Revision des gleichen Kunden durchführt.
+- text: 'Nach RAB (Aufsichtspraxis; SER/HWP ER verlangen, dass die Verantwortung nachweislich beim Kunden bleibt ^[hwp-er-2026__rz-0043-s159]): Für die kritischen Ansätze der Jahresrechnung
+    (z. B. Abschreibungen, Wertberichtigungen, Rückstellungen) «ist zwingend der Verwaltungsrat des geprüften Unternehmens verantwortlich» ^[rab-unabhaengigkeit__c004-1]. Ein umfassendes
+    Outsourcing von Buchführung und Rechnungslegung an die Revisionsstelle geht über die erlaubte Mitwirkung hinaus und ist nicht zulässig ^[rab-unabhaengigkeit__c004-1]. Das Ermessen
+    übt das Unternehmen selbst aus; die Revisionsstelle «darf höchstens die Grenzen dieses Ermessens aufzeigen» ^[rab-unabhaengigkeit__c004-3]. «Das geprüfte Unternehmen muss Urheber
+    («geistiger Vater») der Jahresrechnung bleiben.» Erstellen Mitarbeitende der Revisionsstelle die Jahresrechnung vollständig oder in wesentlichen Teilen (auch ohne Beteiligung an
+    der Revision), «wird die Revisionsstelle faktisch zum Urheber» ^[rab-unabhaengigkeit__c004-4]. «Die Mitwirkung und andere relevante Dienstleistungen brauchen zudem eine separate
+    Auftragsbestätigung.» ^[rab-unabhaengigkeit__c004-4] ^[rab-unabhaengigkeit__c004-8]. Quellenabweichung: Das SER-Muster sieht die Mitwirkung «bei der Buchführung sowie der darauf
+    basierenden Erstellung der Jahresrechnung» vor ^[ser-2022__anh-c-s060-1]. Wo die Grenze im Einzelfall liegt, beurteilt der WP.'
+  quelle: rab-unabhaengigkeit__c004-1
+  zitat: Wird Buchführung und Rechnungslegung umfassend an die Revisionsstelle «ausgelagert» (Outsourcing), geht das über die gesetzlich erlaubte Mitwirkung hinaus und ist nicht zulässig.
 - text: 'Bei der Mitwirkung bei der Buchführung und bei anderen Dienstleistungen mit Selbstprüfungsrisiko muss nicht das Revisionsunternehmen als Ganzes unabhängig sein. Die Anforderungen
     zielen hier auf die handelnden Personen: Das Revisionsunternehmen darf solche Leistungen bei personeller und organisatorischer Trennung erbringen, der an der eingeschränkten Revision
     beteiligte Prüfer aber keine Dienstleistungen mit persönlichem Selbstprüfungsrisiko. Unvereinbar ist auch «Die Mitunterzeichnung des Revisionsberichts durch eine Person, die in der
@@ -181,7 +217,9 @@ aussagen:
     Partner, leitender Mitarbeitender oder ein Mitglied des Prüfungsteams ein Arbeitsverhältnis mit dem Prüfungskunden ein oder beabsichtigt dies, darf diese Person keine Prüfungsdienstleistungen
     mehr für ihn erbringen. (i) «Mit der Unabhängigkeit unvereinbar ist auch die Übernahme eines Auftrags, der zu einer wirtschaftlichen Abhängigkeit führt.» ^[ser-2022__anh-b-s052-1].
     Ob sie vorliegt, ist im Einzelfall zu prüfen. Die gesetzliche 10%-Grenze des RAG für Revisionsstellen von Gesellschaften des öffentlichen Interesses «findet keine Anwendung bei der
-    eingeschränkten Revision» ^[hwp-er-2026__rz-0036-s156-t3].'
+    eingeschränkten Revision» ^[hwp-er-2026__rz-0036-s156-t3]. Die RAB (Aufsichtspraxis, kein gesetzlicher Grenzwert) nennt als Beispiel einer problematischen Abhängigkeit einen Honoraranteil
+    eines Kunden inkl. konsolidierter Unternehmen von über 10 % der durchschnittlichen Honorareinnahmen der letzten fünf Jahre; «Spätestens ab 20% dürfte die wirtschaftliche Unabhängigkeit
+    nicht mehr gegeben sein.» ^[rab-unabhaengigkeit__c004-7]. Massgebend bleibt die Prüfung im Einzelfall ^[hwp-er-2026__rz-0036-s156-t3].'
   quelle: ser-2022__anh-b-s052-1
   zitat: ein Arbeitsverhältnis mit einem Prüfungskunden eingeht oder dies beabsichtigt, darf diese Person keine Prüfungsdienstleistungen mehr für diesen Kunden erbringen
 - text: '(j) Honorargestaltung: Revisionsunternehmen vermeiden eine tatsächliche oder scheinbare Beeinträchtigung ihrer Objektivität und Unabhängigkeit durch Höhe oder Art der Honorare.
@@ -209,9 +247,10 @@ aussagen:
 - text: 'Bericht: Nach OR 729b Abs. 1 Ziff. 3 enthält der zusammenfassende Revisionsbericht «Angaben zur Unabhängigkeit und gegebenenfalls zum Mitwirken bei der Buchführung und zu anderen
     Dienstleistungen, die für die zu prüfende Gesellschaft erbracht wurden» ^[or__art-729b]. SER 8.4: Hat die Revisionsstelle in der Berichtsperiode weder bei der Buchführung mitgewirkt
     noch andere Dienstleistungen mit Selbstprüfungsrisiko erbracht und hält sie die Unabhängigkeitsbestimmungen ein, weist der Bericht einzig darauf hin, dass die gesetzlichen Unabhängigkeitsanforderungen
-    erfüllt sind. Dienstleistungen ohne Selbstprüfungsrisiko (z. B. Steuerberatung) werden nicht offengelegt ^[hwp-er-2026__rz-0051-s161]. Andernfalls ist der Sachverhalt offenzulegen,
-    z. B. nach der Bestätigung von Zulassung und Unabhängigkeit mit dem Satz «Ein Mitarbeitender unserer Gesellschaft hat im Berichtsjahr bei der Buchführung mitgewirkt. An der eingeschränkten
-    Revision war er nicht beteiligt.» ^[ser-2022__8-4]'
+    erfüllt sind. Dienstleistungen ohne Selbstprüfungsrisiko (nach SER/HWP ER z. B. Steuerberatung; RAB abweichend bei Ermessen, siehe Dienstleistungen einordnen) werden nicht offengelegt
+    ^[hwp-er-2026__rz-0051-s161]. Andernfalls ist der Sachverhalt offenzulegen, z. B. nach der Bestätigung von Zulassung und Unabhängigkeit mit dem Satz «Ein Mitarbeitender unserer Gesellschaft
+    hat im Berichtsjahr bei der Buchführung mitgewirkt. An der eingeschränkten Revision war er nicht beteiligt.» ^[ser-2022__8-4] Nach RAB ist zudem anzugeben, welche personellen und
+    organisatorischen Schutzmassnahmen ergriffen wurden ^[rab-unabhaengigkeit__c004-8].'
   quelle: ser-2022__8-4
   zitat: so weist der Revisionsbericht einzig darauf hin, dass die gesetzlichen Anforderungen der Unabhängigkeit erfüllt sind
 - text: Im Bericht bestätigt die Revisionsstelle, dass sie die Anforderungen an die Zulassung (RAG) und an die Unabhängigkeit (OR) erfüllt. Diese Unabhängigkeitsbestätigung ist eine
@@ -224,11 +263,17 @@ aussagen:
 agent:
 - 'Rolle: revio 2.2 (Auftragsannahme und Weiterführung) und 2.4 (Auftragsvoraussetzungen und Unabhängigkeit) nur lesen. Der Agent beurteilt die Unabhängigkeit nicht, gibt keine Unabhängigkeitsbestätigung
   ab und setzt kein Visum. Entscheid und Unterschrift liegen beim WP bzw. leitenden Revisor (OR 729b Abs. 2) ^[konzept-ki-revisionsagent-2026__c006-2] ^[or__art-729b].'
-- 'Doppelmandat feststellen: In M-Files und in der Korrespondenz (10.6) nach einem Buchführungs- oder Abschlussauftrag der eigenen Firma für denselben Kunden suchen, z. B. einer Auftragsbestätigung
-  nach SER Anhang C Beispiel 2 mit Feststellung der personellen und organisatorischen Trennung ^[ser-2022__anh-c-s059-1] ^[ser-2022__anh-c-s060-2]. Befund im Textfeld A1 festhalten;
-  ein Doppelmandat ist in jedem Fall kritisch zu prüfen ^[hwp-er-2026__rz-0040-s158]. Bei Mitwirkung ist die Offenlegung im Bericht zwingend ^[hwp-er-2026__rz-0047-s160]. Den Offenlegungssatz
-  im GVB-Entwurf setzt der Agent nur als Vorschlag ein ^[ser-2022__anh-f-s136-2]. Ob eine offenlegungspflichtige Mitwirkung oder Dienstleistung vorliegt und wie formuliert wird, entscheidet
-  der WP.'
+- 'Doppelmandat feststellen: In M-Files und in der Korrespondenz (10.6) nach einem Buchführungs- oder Abschlussauftrag der eigenen Firma oder einer Konzerngesellschaft (Mutter, Tochter
+  oder Schwester unter einheitlicher Leitung, z. B. Treuhand AG der gleichen Gruppe) für denselben Kunden suchen, z. B. einer Auftragsbestätigung nach SER Anhang C Beispiel 2 mit Feststellung
+  der personellen und organisatorischen Trennung ^[ser-2022__anh-c-s059-1] ^[ser-2022__anh-c-s060-2]. Die Regeln dürfen nicht durch Verlagerung auf Konzerngesellschaften umgangen werden
+  ^[rab-unabhaengigkeit__c004-7] ^[rab-faq-revisionsunternehmen__c002-4] ^[or__art-728-t2]. Ein solcher Auftrag gilt wie eine eigene Mitwirkung (Trennung, Offenlegung) → im Textfeld
+  A1 festhalten, Pendenz an den WP. Ein Doppelmandat ist in jedem Fall kritisch zu prüfen ^[hwp-er-2026__rz-0040-s158]. Zusätzlich feststellen (RAB): (a) Liegt für die Mitwirkung eine
+  separate Auftragsbestätigung vor ^[rab-unabhaengigkeit__c004-4]? (b) Gibt es Hinweise, dass Mitarbeitende der Revisionsstelle die Jahresrechnung vollständig oder in wesentlichen Teilen
+  erstellt ^[rab-unabhaengigkeit__c004-4] oder Ermessensentscheide (Abschreibungen, Wertberichtigungen, Rückstellungen) selbst getroffen haben ^[rab-unabhaengigkeit__c004-3]? Fehlt (a)
+  oder trifft (b) zu → Pendenz an den WP. Bei Mitwirkung ist die Offenlegung im Bericht zwingend ^[hwp-er-2026__rz-0047-s160]. Den Offenlegungssatz im GVB-Entwurf setzt der Agent nur
+  als Vorschlag ein ^[ser-2022__anh-f-s136-2]. Ob eine offenlegungspflichtige Mitwirkung oder Dienstleistung vorliegt und wie formuliert wird, entscheidet der WP. Die Überlegungen zur
+  Unabhängigkeit bei Mandatsannahme und -weiterführung müssen in den Arbeitspapieren dokumentiert sein (OR 730c; SER 7.2) ^[rab-unabhaengigkeit__c004-8] ^[ser-2022__7-2]. Der Agent hält
+  im Textfeld A1 nur Fakten fest: Doppelmandat ja/nein, beteiligte Personen, Auftragsbestätigung, Reglement. Überlegungen und Würdigung ergänzt der WP.'
 - 'Personelle Trennung: Das Auftragsteam (revio 3.6, nur lesen) mit den Personen vergleichen, die die Buchhaltung oder Jahresrechnung erstellt haben (Ersteller in M-Files, Umbuchungsliste
   10.2). Bei Personenidentität oder Weisungsabhängigkeit eine Pendenz an den WP erfassen und nie selbst beurteilen ^[hwp-er-2026__rz-0044-s159]. Eine Person, die bei der Buchführung
   mitgewirkt hat, darf den Bericht nicht mitunterzeichnen ^[hwp-er-2026__rz-0041-s159].'
@@ -236,35 +281,49 @@ agent:
   solange der Kunde entscheidet und die Argumente mindestens in den Grundzügen nachvollziehen kann ^[hwp-er-2026__rz-0048-s160] ^[hwp-er-2026__rz-0049-s160] ^[ser-2022__anh-b-s049-1].
   Grenze: Weder Mitarbeitende der Revisionsstelle noch der Agent treffen Entscheidungen, die in der alleinigen Verantwortung des Kunden liegen ^[hwp-er-2026__rz-0049-s160]. Buchungsvorschläge
   des Agenten deshalb nur als Notiz «Wesentliche Feststellungen», ohne Verbuchung.'
-- 'Dienstleistungen einordnen: Steuererklärung, Steuer-, MWST- und Sozialversicherungsberatung bergen normalerweise kein Selbstprüfungsrisiko, solange der Kunde entscheidet und die Argumente
-  mindestens in den Grundzügen nachvollziehen kann ^[ser-2022__anh-b-s049-2] ^[hwp-er-2026__rz-0050-s160]. Dann braucht es keine Trennung und keine Offenlegung im Bericht ^[hwp-er-2026__rz-0051-s161].
-  Buchführung, Mithilfe bei den Buchführungs- und Abschlussarbeiten ^[ser-2022__anh-c-s060-2] und Bewertungsgutachten zu Bilanzpositionen ^[ser-2022__anh-b-s050-1] bergen ein Selbstprüfungsrisiko
-  und verlangen Trennung und Offenlegung ^[hwp-er-2026__rz-0047-s160] ^[hwp-er-2026__rz-0051-s161]. Unterstützung im Prüfungsprozess ist keine Mitwirkung (siehe Abgrenzung) ^[ser-2022__anh-b-s049-1].
-  Unklare Fälle als Pendenz an den WP erfassen.'
+- 'Dienstleistungen einordnen: Nach SER/HWP ER bergen Steuer-, Abgabe- und Sozialversicherungsdienstleistungen normalerweise kein Selbstprüfungsrisiko. Dazu gehören Deklarationen, Beratung
+  bei Veranlagungen, allgemeine Steuerplanung, Steuerstrategien und MWST-Beratung, solange der Kunde entscheidet. Dann braucht es keine Trennung und keine Offenlegung ^[ser-2022__anh-b-s049-2]
+  ^[hwp-er-2026__rz-0050-s160] ^[hwp-er-2026__rz-0051-s161]. Quellenabweichung RAB (Aufsichtspraxis): Sie sieht ein Selbstprüfungsrisiko bei Steuer-, Abgabe- und Sozialversicherungsdienstleistungen,
+  «zumindest wenn dies über die reine Deklaration ohne Ermessensausübung hinausgeht». Ebenso bei Bewertungen, Corporate Finance, Rechtsdienstleistungen, interner Revision, IT-Buchführungssystemen
+  und Personalvermittlung ^[rab-unabhaengigkeit__c004-5]. Buchführung, Mithilfe bei den Buchführungs- und Abschlussarbeiten ^[ser-2022__anh-c-s060-2] und Bewertungsgutachten zu Bilanzpositionen
+  ^[ser-2022__anh-b-s050-1] bergen ein Selbstprüfungsrisiko und verlangen Trennung und Offenlegung ^[hwp-er-2026__rz-0047-s160] ^[hwp-er-2026__rz-0051-s161]. Unterstützung im Prüfungsprozess
+  ist keine Mitwirkung (siehe Abgrenzung) ^[ser-2022__anh-b-s049-1]. Steuerberatung mit Ermessen oder Wirkung auf die Jahresrechnung (z. B. Bemessung der Steuerrückstellung) sowie unklare
+  Fälle: Pendenz an den WP, der entscheidet.'
 - 'Signale aus den Prüffeldern melden, nicht werten (I): K1/M1/M3 – offene Honorare der Revisionsstelle, besonders aus dem Vorjahr ^[ser-2022__anh-b-s053-1]. H2/L1/N1 – Darlehen, Garantien
   oder Sicherheiten zwischen dem Kunden und dem Revisionsunternehmen oder dessen Mitarbeitenden ^[ser-2022__anh-b-s051-1]. H3/P1 (Beteiligungen, Aktienbuch) – Beteiligungen des Revisionsunternehmens
   oder seiner Mitarbeitenden am Kunden ^[ser-2022__anh-b-s051-1]; gemeinsame Investitionen oder Joint Ventures mit dem Revisionsunternehmen ^[ser-2022__anh-b-s051-2]. Verträge zwischen
-  Kunde und Revisionsunternehmen zu nicht marktkonformen Bedingungen ^[ser-2022__anh-b-s051-1]. Jeweils eine Notiz «Wesentliche Feststellungen» oder eine Pendenz an den WP erfassen.'
+  Kunde und Revisionsunternehmen zu nicht marktkonformen Bedingungen ^[ser-2022__anh-b-s051-1]. Jeweils eine Pendenz an den WP erfassen (nur melden, nicht werten).'
 - 'Signale melden, nicht werten (II): A1 (Protokolle, HR-Auszug) – VR- oder Geschäftsführungsfunktion von Mitarbeitenden der Revisionsstelle oder ihrer unmittelbaren Familienangehörigen
   ^[ser-2022__anh-b-s050-2]; erkennbare Familienbeziehungen zwischen dem leitenden Revisor und VR-Mitgliedern, Personen mit Entscheidfunktion oder bedeutenden Aktionären ^[ser-2022__anh-b-s051-2].
   Auftragsteam 3.6 mit früheren Zeichnungsberechtigten und Buchhaltungsverantwortlichen des Kunden abgleichen (Übertritte ins Revisionsunternehmen); Hinweise in der Korrespondenz 10.6
   auf einen Wechsel eines Teammitglieds zum Kunden ^[ser-2022__anh-b-s052-1]. O1/T1 und Korrespondenz 10.6 – Rechtsstreit oder drohendes Verfahren zwischen Kunde und Revisionsunternehmen
   ^[ser-2022__anh-b-s053-2]. Hinweise auf Geschenke über den üblichen Rahmen ^[ser-2022__anh-b-s053-1]. Eine wirtschaftliche Abhängigkeit kann der Agent mangels firmeninterner Honorardaten
-  nicht beurteilen; sie ist im Einzelfall durch den WP zu prüfen ^[hwp-er-2026__rz-0036-s156-t3]. Nur melden: Pendenz an den WP.'
-- 'Doppelmandat und Kapitalverlust oder Überschuldung (P1, revio 3.4 Going concern): Das Wissen der Treuhandabteilung gilt als Wissen der Revisionsstelle. Hinweise deshalb sofort als
-  Notiz an den WP ^[hwp-er-2026__rz-0388-s116]. Prüfung eines Zwischenabschlusses nach OR 725b Abs. 2 bei Doppelmandat: nach HWP ER und Art. 165 RzU vereinbar, die RAB ist anderer Auffassung.
-  Der WP entscheidet ^[hwp-er-2026__rz-0053-s161] ^[hwp-er-2026__rz-0054-s162]. Andere gesetzliche Spezialprüfungen sind bei Doppelmandat nur zulässig, wenn eine Überprüfung eigener
-  Arbeiten im konkreten Fall ausgeschlossen ist; gelten dafür die Unabhängigkeitsanforderungen der ordentlichen Revision, ist das Doppelmandat unzulässig ^[hwp-er-2026__rz-0053-s161].
-  Pendenz an den WP.'
+  nicht beurteilen; sie ist im Einzelfall durch den WP zu prüfen ^[hwp-er-2026__rz-0036-s156-t3]. Im Rapport an den WP auf den RAB-Richtwert hinweisen (über 10 % problematisch, ab 20
+  % kaum mehr unabhängig) ^[rab-unabhaengigkeit__c004-7]. Nur melden: Pendenz an den WP.'
+- 'Doppelmandat und Kapitalverlust/Überschuldung (P1, revio 3.4): Wissen der Treuhandabteilung gilt als Wissen der Revisionsstelle → Hinweise sofort als Notiz «Wesentliche Feststellungen»
+  und Pendenz an den WP ^[hwp-er-2026__rz-0388-s116]. Zwischenabschluss nach OR 725b Abs. 2 bei Doppelmandat: Nach HWP ER/Art. 165 RzU vereinbar, der Berufsangehörige kann sich darauf
+  berufen ^[hwp-er-2026__rz-0053-s161] ^[hwp-er-2026__rz-0054-s162]. Nach RAB nicht vereinbar, weil die Prüfung «sowohl im Prüfziel als auch in der Prüfungsmethodik der ordentlichen
+  Revision» entspricht; dann teilt die Revisionsstelle die Unvereinbarkeit dem VR mit, der einen Drittprüfer beauftragt ^[rab-unabhaengigkeit__c005-7] ^[rab-unabhaengigkeit__c005-8].
+  Die RAB hält fest, dass die Rechtsfrage nicht abschliessend geklärt ist ^[rab-unabhaengigkeit__c005-8]. Andere gesetzliche Spezialprüfungen nur, wenn eine Überprüfung eigener Arbeiten
+  ausgeschlossen ist ^[hwp-er-2026__rz-0053-s161]. Nach RAB bei Mitwirkung unzulässig: Kapitalherabsetzung ^[rab-unabhaengigkeit__c005-10], Aufwertung nach OR 725c Abs. 2 und Aufhebung
+  eines Rangrücktritts ^[rab-unabhaengigkeit__c005-9], qualifizierte Gründung durch Umwandlung ^[rab-unabhaengigkeit__c005-4]. Zulässig bleibt der Liquidations-Zwischenabschluss ^[rab-unabhaengigkeit__c005-11].
+  Der Agent stellt nur fest: Pendenz an den WP, der entscheidet.'
 - 'Konzern: Der Konzernabschlussprüfer wirkt bei der Buchführung einer nicht konsolidierungspflichtigen Tochter mit. Das HWP ER hält dies bei Trennung für zulässig, die RAB für unzulässig.
-  Pendenz an den WP ^[hwp-er-2026__rz-0046-s160].'
+  Pendenz an den WP ^[hwp-er-2026__rz-0046-s160]. Nach RAB-FAQ gelten die Unabhängigkeitsvorschriften auch für Gesellschaften unter einheitlicher Leitung (Konzern; die FAQ verweist auf
+  OR 728 Abs. 6). Unzulässig ist danach auch die Mitwirkung an der Buchführung einer Tochtergesellschaft einer von der Revisionsstelle ordentlich geprüften Konzernmutter, unabhängig
+  davon, ob die Tochter ordentlich, eingeschränkt oder nicht (Opting-out) geprüft wird ^[rab-faq-revisionsunternehmen__c002-4].'
 - 'Rotation: OR 730a Abs. 2 (höchstens 7 Jahre, dann 3 Jahre Unterbruch) gilt nur für die ordentliche Revision ^[or__art-730a]. Wechselt das Unternehmen in die ordentliche Revision,
   werden Jahre der eingeschränkten Revision regelmässig nicht mitgezählt ^[hwp-er-2026__rz-0059-s164-t1] ^[hwp-er-2026__rz-0059-s164-t2]. Eine langjährige Mandatsleitung höchstens als
   Hinweis zur Vertrautheit an den WP melden; mögliche Folge ist eine interne Übergabe der Mandatsleitung ^[hwp-er-2026__rz-0167-s069].'
 - 'Organisation: Zulässig ist z. B., dass der Inhaber den Treuhandbereich leitet und ein Mitarbeitender, der laut Organisationsreglement allein und unabhängig entscheidet, das Revisionsmandat
   leitet ^[hwp-er-2026__rz-0045-s159]. Einzelpraxis nach Leitfaden QM (Praxishilfe, im Rang unter SER/HWP ER): Mit weiterem Fachpersonal ohne Zulassung ist die Mitwirkung denkbar, wenn
   organisatorische und personelle Massnahmen eine verlässliche Prüfung sichern und die buchführende Person mandatsbezogen weisungsungebunden agieren kann; ohne weitere Fachmitarbeitende
-  ist sie nicht möglich ^[leitfaden-qm-2025__4-2-t3]. Organisation nur feststellen, nicht beurteilen.'
+  ist sie nicht möglich ^[leitfaden-qm-2025__4-2-t3]. Organisation nur feststellen, nicht beurteilen. RAB: Personen der Buchführung und der Revision dürfen im konkreten Mandat gegenseitig
+  nicht weisungsbefugt sein. Das ist verbindlich festzulegen und zu dokumentieren (z. B. Reglement) ^[rab-unabhaengigkeit__c004-6]. HR-Funktionen und Zeichnungsrechte dürfen keinen gegenteiligen
+  Anschein erwecken. Jede Abteilung muss sich ohne Mitwirkung der Verantwortlichen der anderen Abteilung verpflichten können ^[rab-unabhaengigkeit__c004-6]. «Einpersonen-Revisionsunternehmen
+  dürfen daher neben der Revision nicht bei der Buchführung mitwirken und auch keine anderen relevanten Dienstleistungen erbringen.» ^[rab-unabhaengigkeit__c004-3]. Nur bei Doppelmandat
+  feststellen (HR-Auszug der eigenen Firma; Reglement, soweit zugänglich). Pendenz an den WP, wenn eine der folgenden Bedingungen zutrifft: Einpersonenbetrieb; eine Abteilung kann nur
+  zusammen mit der Leitung der anderen Abteilung zeichnen; kein Reglement auffindbar. Nicht beurteilen.'
 - 'Auftragsannahme: Vor der Mandatsübernahme abklären, ob Zulassung (OR 727b/727c) und Unabhängigkeit (OR 728/729) gegeben sind ^[hwp-er-2026__rz-0150-s066]. Der Leitfaden QM (Praxishilfe)
   fasst die Prüfung als «Kann ich? Darf ich? Will ich?»; «Darf ich?» betrifft Unabhängigkeitsrisiken ^[leitfaden-qm-2025__5-1-t1]. Fehlt die Unabhängigkeit, wird das Mandat abgelehnt
   oder nicht weitergeführt. Das entscheidet der WP ^[hwp-er-2026__rz-0002-s179] ^[ser-2022__anh-b-s048-1].'

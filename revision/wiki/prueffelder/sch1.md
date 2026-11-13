@@ -277,7 +277,7 @@ Prüfziele: VO Vollständigkeit, DO Darstellung/Offenlegung
 - «Kundenskonti – sofern nicht im Finanzaufwand erfasst –» — [HWP BuR S. 317](../../chunks/hwp-bur-2023/hwp-bur-2023__rz-0750-s317-t1.md)
 - «im Zweifelsfall als Teil des ordentlichen bzw. betrieblichen Ergebnisses zu klassifizieren sein wird» — [HWP BuR S. 330](../../chunks/hwp-bur-2023/hwp-bur-2023__rz-0800-s330-t1.md)
 
-### SCH1-401 · Sonstige · ? · Agent: auf_anweisung
+### SCH1-401 · Sonstige · ? · Agent: nur_mensch
 Prüfziele: –
 
 > JET: Journal entry testing a) Manuelle Buchungen auf sonst nur maschinell bebuchbaren Konten b) Buchungen zu ungewöhnlichen Zeitpunkten c) Buchungen mit runden Beträgen d) Buchungen von Personen, die normalerweise nicht buchen e) Buchungen, die über oder unter dem durchschnittlichen Buchungsbetrag für ein Konto liegen f) Buchungen mit Buchungstexten, die Hinweise auf ungewöhnliche Sachverhalte geben g) Buchungen ausserhalb der erwarteten Perioden h) Buchungen, bei denen Erfassungsdatum und Beleg weit auseinander liegen i) Wiederholte Buchungen mit gleichen Beträgen j) Buchungen mit unplausibler Währungsumrechnung

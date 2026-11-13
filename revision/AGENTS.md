@@ -9,7 +9,8 @@ revio ist proprietär – nicht weitergeben. Diese Datei ist das Regelwerk für 
 1. **Jede fachliche Aussage mit Fundstelle** (Chunk-Id + wörtliches Zitat). Nichts aus dem Gedächtnis ergänzen; Praxis ohne Quelle
    als «Praxis/intern» kennzeichnen.
 2. **Quellenrang:** OR (Gesetz) > SER (massgebend für die eingeschränkte Revision) > HWP ER > HWP BuR, Q&A, Muster, ESTV-Praxis >
-   Fachliteratur > intern (Konzept consis). SA-CH und HWP OR betreffen die **ordentliche** Revision → nur ergänzend, so kennzeichnen.
+   Fachliteratur > intern (Konzept consis). SA-CH und HWP OR gelten nur für die **ordentliche** Revision: für die eingeschränkte Revision
+   nicht als Grundlage verwenden; nur bei Fragen zur ordentlichen Revision zitieren und dann ausdrücklich so kennzeichnen.
 3. **Grenzen des Agenten** (Konzept consis, `data/regeln.yaml`): nie Visum, ✓, Abschliessende Beurteilung, Abschluss/Siegel/Freigabe,
    Unterzeichnung/Datierung, Kundenversand, Buchung, Notiz löschen/erledigen, Wesentlichkeit/Planung ändern. Gesperrte revio-Werkzeuge
    (`wiki/revio/werkzeuge-nur-mensch.md`) nie aufrufen, auch nicht über `revio_call`.
@@ -17,7 +18,8 @@ revio ist proprietär – nicht weitergeben. Diese Datei ist das Regelwerk für 
    Nur Menschen setzen `verifiziert`.
 5. **Unveränderlich:** `raw/`, `sources/`, `chunks/` nur durch `tools/ingest.py`, `tools/chunk.py` erzeugen. Wissen wird in `data/`
    gepflegt; `quick/` und `wiki/` (ausser Handseiten) erzeugt `tools/build_quick.py`.
-6. **Keine Mandantendaten** im Wiki (Berufsgeheimnis OR 730b). Testdaten unter `eval/testdaten/` sind fiktiv.
+6. **Keine Mandantendaten** im Wiki (Geheimhaltung der Revisionsstelle OR 730b Abs. 2 ^[or__art-730b], Berufsgeheimnis StGB 321
+   ^[stgb__art-321]). Testdaten unter `eval/testdaten/` sind fiktiv.
 7. **Steuerliche Werte** (ESTV-Zinssätze, Pauschalen, KS 6a) sind Praxis der Steuerbehörden, keine handelsrechtlichen Bewertungsregeln.
 
 ## 2. Aufbau
@@ -30,11 +32,11 @@ revio ist proprietär – nicht weitergeben. Diese Datei ist das Regelwerk für 
 | Daten | `data/katalog.yaml` (538 Schritte), `data/prueffelder/<code>.yaml`, `data/prozess/<p>.yaml`, `data/werte.yaml`, `data/regeln.yaml`, `data/themen.yaml`, `data/revio/` | Agent (Workflow mit Zweitprüfung) + WP |
 | Quick | `quick/` | Index, Prüffelder, Prozess, Regeln, Werte, revio, PBC, Kundenfragen | `tools/build_quick.py` |
 | Detail | `wiki/prueffelder/`, `wiki/prozess/`, `wiki/themen/`, `wiki/revio/`, `wiki/quellen.md` | generiert (mit allen Zitaten) | `tools/build_quick.py` |
-| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (15 Tools), `skills/`, `openclaw/` | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
+| Werkzeug | `tools/revision.py` (CLI), `tools/mcp_server.py` (16 Tools), `skills/`, `openclaw/` (`revio-tool-policy.json` aus der OpenClaw-Liste) | Plugin `plugins/revisionswiki` | `tools/build_plugin.py` |
 | Test | `eval/` | Testakte (fiktiv), Referenzlösung, Fragen, Messungen | Agent |
 
 ## 3. Anfragen beantworten (Routing)
-1. **Werkzeug zuerst:** `python3 revision/tools/revision.py hilfe` bzw. Tools `revisionswiki__…`.
+1. **Werkzeug zuerst:** `python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"` (Übersicht: `hilfe`) bzw. Tools `revisionswiki__…`.
 2. Prüfschritt → `pruefschritt <id>`; Prüffeld → `prueffeld <code|stichwort>`; Ablauf/WP-Entscheid → `prozess [p1…p8]`, `regeln`;
    revio → `revio <bereich|code|id|stichwort|werkzeug|ketten|nur-mensch>`; Zahl → `wert`; Rechnen → `rechne`, `wesentlichkeit`,
    `kapitalverlust`, `revisionspflicht`; Thema → `thema`; sonst `suche` → `zeige`.

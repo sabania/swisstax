@@ -78,14 +78,39 @@ def qs(*lists):
 
 
 def art_of(s):
-    if s.get("kennzeichnung") == "WP":
+    if s.get("kennzeichnung") in ("WP", "?"):   # «?» (unlesbar) bis zur Klärung wie WP (zuordnung schritt_typen[7])
         return "nur_mensch"
     return {"Befragung": "teilweise", "Analytisch": "vorbereiten", "Detail": "vorbereiten", "Sonstige": "auf_anweisung"}.get(s["typ"], "vorbereiten")
 
 
 def cut(s, n):
+    """Kürzen an der Wortgrenze."""
     s = re.sub(r"\s+", " ", str(s or "")).strip()
-    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+    if len(s) <= n:
+        return s
+    t = s[: n - 1]
+    w = t.rsplit(" ", 1)[0] if " " in t else t
+    return (w if len(w) >= n // 2 else t).rstrip(" ,;:–-") + "…"
+
+
+OC = next((b for b in RVZ.get("bereiche", []) if b.get("nr") == "OpenClaw"), {})   # harmonisierte OpenClaw-Liste
+OC_L, OC_V = set(OC.get("werkzeuge_lesen", [])), set(OC.get("werkzeuge_vorbereiten", []))
+NOTIZ_SCHREIBEN = ["rv_put_workpapers_UpdateNote", "rv_post_workpapers_MoveAttachmentsToNote"]
+
+
+def besonderheiten(s):
+    """Besonderheiten je Prüffeld bzw. Schritt (x-320/321/322 über schritt_nr, Ausnahmen über ausser) – wie tools/revision.py."""
+    sid = str(s.get("id", ""))
+    return [b for b in RVZ.get("prueffeld_besonderheiten", [])
+            if (s.get("prueffeld") in (b.get("prueffelder") or []) or (sid and sid in (b.get("schritte") or []))
+                or (sid and sid.split("-")[-1] in (b.get("schritt_nr") or []))) and sid not in (b.get("ausser") or [])]
+
+
+def schritt_typ(s):
+    """zuordnung.schritt_typen für den Schritt: WP, «?», 4xx = «auf Anweisung» (nicht der letzte «Sonstige»-Eintrag)."""
+    such = ("WP-Schritte" if s.get("kennzeichnung") == "WP" else "Schritte mit unlesbarer" if s.get("kennzeichnung") == "?"
+            else "Sonstige (4xx) – auf Anweisung" if s.get("typ") == "Sonstige" else s.get("typ", ""))
+    return next((t for t in RVZ.get("schritt_typen", []) if t.get("typ", "").lower().startswith(such.lower())), {})
 
 
 def write(rel, txt):
@@ -282,17 +307,35 @@ def revio_seiten():
         q += ["", "## Notizen", f"- lesen: {', '.join(f'`{w}`' for w in n.get('lesen', []))}", f"- erfassen: {', '.join(f'`{w}`' for w in n.get('erfassen', []))}",
               f"- nie: {', '.join(f'`{w}`' for w in n.get('nie', []))}", f"- {n.get('hinweise', '')}"]
     if RVK:
-        q += ["", "## Werkzeugketten (Detail: [wiki/revio/ketten.md](../wiki/revio/ketten.md))"] + [f"- **{k['id']}** {k['aufgabe']} ({k.get('prozess', '')}): " +
-                                                                                                 " → ".join(f"`{s['werkzeug']}`" for s in k.get("schritte", [])) for k in RVK]
+        q += ["", "## Werkzeugketten (Detail: [wiki/revio/ketten.md](../wiki/revio/ketten.md); ⛔ = Kandidat/nur Mensch, nicht aufrufen)"] + [
+            f"- **{k['id']}** {k['aufgabe']} ({k.get('prozess', '')}): " +
+            " → ".join(f"{i} `{s['werkzeug']}`" + ("⛔" if s.get("art") in ("kandidat", "nur_mensch") else "") for i, s in enumerate(k.get("schritte", []), 1)) for k in RVK]
     if RVZ.get("offene_fragen"):
         q += ["", "## Offene Fragen"] + [f"- {x}" for x in RVZ["offene_fragen"]]
     write("quick/revio.md", "\n".join(q) + "\n")
     if RVK:
         w = [fm("revio-ketten", "revio-MCP Werkzeugketten (INTERN)", []), "# Werkzeugketten je Aufgabe (INTERN)", ""]
         for k in RVK:
-            w += [f"## {k['id']} · {k['aufgabe']}", f"Wann: {k.get('wann', '')} · Prozess: {k.get('prozess', '')}", ""]
-            for i, s in enumerate(k.get("schritte", []), 1):
-                w.append(f"{i}. `{s['werkzeug']}` [{s.get('art', '')}] – {s.get('zweck', '')}" + (f"  \n   Parameter: {s['parameter']}" if s.get("parameter") else ""))
+            st = list(enumerate(k.get("schritte", []), 1))   # Nummern wie in den Daten (Querverweise «Schritt N»)
+            erl = [(i, s) for i, s in st if s.get("art") in ("lesen", "vorbereiten") and not s.get("optional")]
+            opt = [(i, s) for i, s in st if s.get("art") in ("lesen", "vorbereiten") and s.get("optional")]
+            kand = [(i, s) for i, s in st if s.get("art") == "kandidat"]
+            nie = [(i, s) for i, s in st if s.get("art") == "nur_mensch"]
+            bed = lambda s: f" ({s['bedingung']})" if s.get("bedingung") else ""  # noqa: E731
+            w += [f"## {k['id']} · {k['aufgabe']}", f"Wann: {k.get('wann', '')} · Prozess: {k.get('prozess', '')}", "",
+                  "**Kurzablauf:** " + " → ".join(f"{i} `{s['werkzeug']}`" + (" (schreibt, Freigabe)" if s.get("art") == "vorbereiten" else "") for i, s in erl)]
+            if opt:
+                w.append("**Nur falls nötig:** " + "; ".join(f"{i} `{s['werkzeug']}`{bed(s)}" for i, s in opt))
+            if kand:
+                w.append("**Kandidat – nicht aufrufen (deny bis Entscheid consis):** " + "; ".join(f"{i} `{s['werkzeug']}`{bed(s)}" for i, s in kand))
+            if nie:
+                w.append("**Nie (nur Mensch):** " + ", ".join(f"{i} `{s['werkzeug']}`" for i, s in nie))
+            w.append("")
+            for i, s in st:
+                w.append(f"{i}. `{s['werkzeug']}` [{s.get('art', '')}" + (", optional" if s.get("optional") else "") + "]" +
+                         ("⛔" if s.get("art") in ("kandidat", "nur_mensch") else "") + f" – {s.get('zweck', '')}" +
+                         (f"  \n   Bedingung: {s['bedingung']}" if s.get("bedingung") else "") +
+                         (f"  \n   Parameter: {s['parameter']}" if s.get("parameter") else ""))
             if k.get("menschliche_freigabe"):
                 w += ["", f"**Mensch:** {k['menschliche_freigabe']}"]
             if k.get("offene_fragen"):
@@ -313,40 +356,49 @@ def revio_seiten():
              "Grundlage: Der Agent setzt nie Visum, schliesst nichts ab, gibt nichts frei; Notizen löscht oder erledigt er nie; Dienstbenutzer ohne Recht für Visum, "
              "Abschlussstatus, Freigabe und Kundenversand ([Konzept c009-3](../../chunks/konzept-ki-revisionsagent-2026/konzept-ki-revisionsagent-2026__c009-3.md)).",
              "**`revio_call` (generischer Aufruf) umgeht jede Sperre je Werkzeug → für den Agenten sperren** (oder nur mit serverseitiger Pfad-Allowlist zulassen).", "",
-             "OpenClaw-Konfiguration (Ausschnitt): `tools.deny: [\"revio__<werkzeug>\", …]` bzw. allow nur für die Listen «lesen»/«vorbereiten» (vorbereiten mit Freigabe).", ""]
+             "OpenClaw-Konfiguration: allow nur für die OpenClaw-Liste (zuordnung «OpenClaw»: lesen = allow, vorbereiten = allow mit Freigabe), "
+             "alles übrige deny – Vorlage [openclaw/revio-tool-policy.json](../../openclaw/revio-tool-policy.json). «unklar» = deny bis Entscheid consis.", ""]
         for k in ("nur_mensch", "gesperrt", "unklar"):
             if by.get(k):
                 g += [f"## {k} ({len(by[k])})", "", "| Werkzeug | Methode | Pfad | Begründung |", "|---|---|---|---|"]
                 g += [f"| `{r['werkzeug']}` | {r.get('methode', '')} | {r.get('pfad', '')} | {cut(r.get('begruendung'), 120).replace('|', '/')} |" for r in sorted(by[k], key=lambda r: r["werkzeug"])]
                 g.append("")
         write("wiki/revio/werkzeuge-nur-mensch.md", "\n".join(g) + "\n")
-        al = {k: sorted(r["werkzeug"] for r in by.get(k, [])) for k in ("lesen", "vorbereiten", "nur_mensch", "gesperrt", "unklar")}
+        # Policy aus der harmonisierten OpenClaw-Liste (zuordnung bereiche[nr=OpenClaw]) + revio_*-Komfortwerkzeuge mit CSV-art lesen
+        art = {r["werkzeug"]: r.get("art", "") for r in WZ}
+        allow = sorted(set(OC_L) | {n for n, a in art.items() if n.startswith("revio_") and a == "lesen"})
+        approval = sorted(OC_V)
+        deny = sorted(n for n in art if n not in set(allow) | set(approval))
         write("openclaw/revio-tool-policy.json", json.dumps({
-            "hinweis": "Vorschlag Werkzeugrechte revio-MCP für den Revisionsagenten (OpenClaw). lesen = allow; vorbereiten = allow mit Freigabe (approval); "
-                       "nur_mensch/gesperrt/unklar = deny. Werkzeugnamen ggf. mit Server-Präfix (z.B. revio__) versehen. INTERN.",
-            **al}, ensure_ascii=False, indent=1))
+            "hinweis": "Vorschlag Werkzeugrechte revio-MCP für den Revisionsagenten (OpenClaw), INTERN. Quelle: data/revio/zuordnung.yaml, Bereich «OpenClaw» "
+                       "(harmonisierte Einstufung). allow = OpenClaw-werkzeuge_lesen + lesende revio_*-Komfortwerkzeuge; approval = OpenClaw-werkzeuge_vorbereiten "
+                       "(allow mit Freigabe je Aufruf, Feldregeln im Agenten-Code); deny = alle übrigen, insbesondere revio_call und revio_create_client "
+                       "sowie alle nur_mensch/gesperrt/unklar-Werkzeuge und jedes neue Werkzeug. Werkzeugnamen ggf. mit Server-Präfix (z.B. revio__) versehen.",
+            "allow": allow, "approval": approval, "deny": deny}, ensure_ascii=False, indent=1))
 
 
 def revio_pruefschritte():
-    """Vorlage je Prüfschritt (Auftrag enco: zuordnung_pruefschritte.csv) + Übersicht je Prüffeld; revio-Ids erst aus echtem Dossier."""
+    """Vorlage je Prüfschritt (Auftrag enco: zuordnung_pruefschritte.csv) + Übersicht je Prüffeld; revio-Ids erst aus echtem Dossier.
+    Werkzeuge nach OpenClaw getrennt: werkzeug_lesen nur OpenClaw-lesen, werkzeug_vorbereiten nur OpenClaw-vorbereiten, übrige als Kandidat (deny)."""
     std = RVZ.get("prueffeld_standard") or {}
-    typ = {t["typ"].split()[0].lower()[:5]: t for t in RVZ.get("schritt_typen", [])}
-    bes = collections.defaultdict(list)
-    for b in RVZ.get("prueffeld_besonderheiten", []):
-        bes[b["code"]] += b.get("werkzeuge", [])
     rows = []
     for s in SCH.values():
         a = art_of(s)
-        t = typ.get("wp-sc") if s.get("kennzeichnung") == "WP" else typ.get(s["typ"].lower()[:5])
-        t = t or {}
-        lesen = list(dict.fromkeys(std.get("werkzeuge_lesen", []) + t.get("werkzeuge_lesen", []) + bes.get(s["prueffeld"], [])))
-        vorb = [] if a == "nur_mensch" else list(dict.fromkeys(std.get("werkzeuge_vorbereiten", []) + t.get("werkzeuge_vorbereiten", [])))
+        t = schritt_typ(s)
+        bes = [w for b in besonderheiten(s) for w in b.get("werkzeuge", [])]
+        alle_l = list(dict.fromkeys(std.get("werkzeuge_lesen", []) + t.get("werkzeuge_lesen", []) + bes))
+        lesen = [w for w in alle_l if w in OC_L]
+        vorb = NOTIZ_SCHREIBEN if a == "nur_mensch" else list(dict.fromkeys(std.get("werkzeuge_vorbereiten", []) + t.get("werkzeuge_vorbereiten", []) +
+                                                                            [w for w in bes if w in OC_V]))
+        kand = [w for w in bes if w not in OC_L and w not in OC_V]
         bem = {"teilweise": "Befragung: schriftliche Antwort (10.11) auswerten, sonst Pendenz; höchstens teilweise bearbeitet",
                "auf_anweisung": "Sonstige (4xx): nur auf Anweisung des WP; physische Tätigkeiten nie",
-               "nur_mensch": "WP-Schritt: Beurteilung WP; Agent nur auf ausdrückliche Anweisung (offener Entscheid)",
+               "nur_mensch": "WP-Schritt: ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld (nur Notiz); mit Anweisung «Vorbereitung für WP»",
                "vorbereiten": ""}[a]
         if s.get("kennzeichnung") == "?":
-            bem = (bem + "; " if bem else "") + "Kennzeichnung im Katalog unlesbar – in revio prüfen"
+            bem = "Kennzeichnung im Katalog unlesbar – bis Klärung wie WP (in revio nachlesen); " + bem
+        if kand:
+            bem = (bem + "; " if bem else "") + "Kandidat – nicht aufrufen: " + ", ".join(kand)
         rows.append([s["id"], s["prueffeld"], s["typ"], s.get("kennzeichnung") or "", "4", "", "", ",".join(lesen), ",".join(vorb),
                      "nur_mensch" if a == "nur_mensch" else "vorbereiten", bem])
     out = R / "data" / "revio" / "zuordnung_pruefschritte.csv"
@@ -358,12 +410,14 @@ def revio_pruefschritte():
     q = [fm("revio-prueffelder", "revio-Zuordnung je Prüffeld (INTERN)", ["katalog-revio4", "konzept-ki-revisionsagent-2026"]),
          "# revio-Zuordnung je Prüffeld (INTERN)", "",
          "Akte-Bereich 4 (Prüffelder); Ids der Prüfungshandlungen (templateId/activityId) erst aus dem echten Dossier (Kette K5). "
-         "Je Schritt: [data/revio/zuordnung_pruefschritte.csv](../../data/revio/zuordnung_pruefschritte.csv).", "",
-         "| Prüffeld | lesen | vorbereiten | Menschen-Schritte (WP) | Besonderheiten |", "|---|---|---|---|---|"]
+         "Je Schritt: [data/revio/zuordnung_pruefschritte.csv](../../data/revio/zuordnung_pruefschritte.csv). Besonderheiten x-320/321/322 gelten je Schritt-Nummer "
+         "(Ausnahmen: E1-320 = stille Reserven, P1-321 = Dauerakten). ⛔ = Kandidat, deny bis Entscheid consis.", "",
+         "| Prüffeld | lesen | vorbereiten | Menschen-Schritte (WP/«?») | Besonderheiten |", "|---|---|---|---|---|"]
     for code, p in PFK.items():
-        wp = [x for x in SCH.values() if x["prueffeld"] == code and x.get("kennzeichnung") == "WP"]
+        wp = [x for x in SCH.values() if x["prueffeld"] == code and x.get("kennzeichnung") in ("WP", "?")]
+        bw = [w for b in besonderheiten({"prueffeld": code}) for w in b.get("werkzeuge", [])]
         q.append(f"| **{code}** {p['bezeichnung']} | Standard | Standard | {len(wp)}: {', '.join(x['id'] for x in wp)} | "
-                 f"{', '.join(f'`{w}`' for w in bes.get(code, []))} |")
+                 f"{', '.join(f'`{w}`' + ('' if w in OC_L or w in OC_V else '⛔') for w in dict.fromkeys(bw))} |")
     q += ["", f"Standard lesen: {', '.join(f'`{w}`' for w in std.get('werkzeuge_lesen', []))}",
           "", f"Standard vorbereiten: {', '.join(f'`{w}`' for w in std.get('werkzeuge_vorbereiten', []))}",
           "", "Immer Mensch: Visum je Schritt, ✓ je Prüffeld, Abschliessende Beurteilung, Abschluss/Review, Status Bereich 10."]

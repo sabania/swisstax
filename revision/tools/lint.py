@@ -5,10 +5,11 @@
   python3 revision/tools/lint.py --datei data/prueffelder/c1.yaml   # nur Zitate einer Datei
 
 Prüft: Zitate in data/ (wörtlich im Chunk), Schritt-Ids gegen Katalog, Prüffeld-Codes, revio-Werkzeugnamen gegen die
-Werkzeugliste, Links in quick/ und wiki/, Dateinamen (kebab-case, ASCII, kein Datumspräfix), Hash der Originale (raw/).
+Werkzeugliste, OpenClaw-Liste ↔ Klassifikation (werkzeuge.csv) ↔ Ketten ↔ Policy, Besonderheiten (Codes/Schritte), ^[chunk-id] in
+Code/Skills/OpenClaw, Links in quick/ und wiki/, Dateinamen (kebab-case, ASCII, kein Datumspräfix), Hash der Originale (raw/).
 """
 from __future__ import annotations
-import csv, hashlib, re, sys
+import csv, hashlib, json, re, sys
 from pathlib import Path
 import yaml
 
@@ -18,7 +19,7 @@ import revision as rv  # noqa: E402
 
 ERR: list[str] = []
 WARN: list[str] = []
-N = {"zitate": 0, "links": 0, "dateien": 0}
+N = {"zitate": 0, "links": 0, "dateien": 0, "verweise": 0}
 
 
 def walk(o, path=""):
@@ -102,6 +103,95 @@ def werkzeuge():
                 WARN.append(f"werkzeuge.csv: {n} als {a} – Sperre prüfen")
         if art.get("revio_call") not in ("gesperrt", "nur_mensch"):
             ERR.append("werkzeuge.csv: revio_call (generischer Aufruf) muss gesperrt sein – umgeht die Sperre je Werkzeug")
+        openclaw(art)
+
+
+ARTEN_KETTE = {"lesen", "vorbereiten", "kandidat", "nur_mensch"}
+
+
+def openclaw(art: dict):
+    """OpenClaw-Liste (zuordnung bereiche[nr=OpenClaw]) ↔ werkzeuge.csv ↔ Ketten ↔ openclaw/revio-tool-policy.json."""
+    z = yaml.safe_load((R / "data" / "revio" / "zuordnung.yaml").read_text(encoding="utf-8")) or {}
+    oc = next((b for b in z.get("bereiche", []) if b.get("nr") == "OpenClaw"), None)
+    if not oc:
+        ERR.append("zuordnung.yaml: Bereich «OpenClaw» (harmonisierte allow/deny-Liste) fehlt")
+        return
+    L, V = set(oc.get("werkzeuge_lesen", [])), set(oc.get("werkzeuge_vorbereiten", []))
+    deny = set(oc.get("nur_mensch", [])) | set(oc.get("kandidaten", []))
+    for n in sorted(L & V):
+        ERR.append(f"OpenClaw: {n} zugleich lesen und vorbereiten")
+    for n in sorted((L | V) & deny):
+        ERR.append(f"OpenClaw: {n} zugleich allow und deny (nur_mensch/kandidaten)")
+    for n, a in sorted(art.items()):
+        soll = "lesen" if n in L else "vorbereiten" if n in V else None
+        if a in ("lesen", "vorbereiten") and a != soll and not n.startswith("revio_"):
+            ERR.append(f"werkzeuge.csv: {n} art={a}, OpenClaw={soll or 'deny'}")
+        if n in deny and a in ("lesen", "vorbereiten"):
+            ERR.append(f"werkzeuge.csv: {n} art={a}, in OpenClaw aber nur_mensch/Kandidat (deny)")
+        if n in (L | V) and a not in ("lesen", "vorbereiten"):
+            ERR.append(f"werkzeuge.csv: {n} art={a or 'leer'}, in OpenClaw aber allow")
+    for n in sorted((L | V) - set(art)):
+        ERR.append(f"OpenClaw: {n} fehlt in werkzeuge.csv")
+    # Ketten: Art je Schritt, Werkzeug passend zur OpenClaw-Liste, nur_mensch nur am Ende
+    kt = yaml.safe_load((R / "data" / "revio" / "ketten.yaml").read_text(encoding="utf-8")) or {}
+    for k in kt.get("ketten", []):
+        sch = k.get("schritte", [])
+        for i, s in enumerate(sch, 1):
+            w, a = s.get("werkzeug", ""), s.get("art", "")
+            ort = f"ketten.yaml {k['id']} Schritt {i} `{w}`"
+            if a not in ARTEN_KETTE:
+                ERR.append(f"{ort}: art={a!r} (erlaubt: {', '.join(sorted(ARTEN_KETTE))})")
+            elif w.startswith("revio_"):
+                if a in ("lesen", "vorbereiten") and art.get(w) != "lesen":
+                    ERR.append(f"{ort}: art={a}, werkzeuge.csv={art.get(w) or 'fehlt'} (revio_* nur mit art lesen erlaubt)")
+            elif a == "lesen" and w not in L:
+                ERR.append(f"{ort}: art=lesen, aber nicht in OpenClaw werkzeuge_lesen ({'vorbereiten' if w in V else 'deny'})")
+            elif a == "vorbereiten" and w not in V:
+                ERR.append(f"{ort}: art=vorbereiten, aber nicht in OpenClaw werkzeuge_vorbereiten ({'lesen' if w in L else 'deny'})")
+            elif a == "kandidat" and w in (L | V):
+                ERR.append(f"{ort}: art=kandidat, aber in OpenClaw allow")
+            elif a == "nur_mensch" and w in (L | V):
+                ERR.append(f"{ort}: art=nur_mensch, aber in OpenClaw allow")
+            if s.get("optional") and a not in ("lesen", "vorbereiten", "kandidat"):
+                WARN.append(f"{ort}: optional bei art={a}")
+        arts = [s.get("art") for s in sch]
+        if "nur_mensch" in arts and any(a != "nur_mensch" for a in arts[arts.index("nur_mensch"):]):
+            ERR.append(f"ketten.yaml {k['id']}: nur_mensch-Schritte nur am Kettenende (Nummern/Querverweise)")
+    # Policy (generiert von build_quick.py) aktuell?
+    pol = R / "openclaw" / "revio-tool-policy.json"
+    if pol.exists():
+        d = json.loads(pol.read_text(encoding="utf-8"))
+        allow = L | {n for n, a in art.items() if n.startswith("revio_") and a == "lesen"}
+        if set(d.get("allow", [])) != allow or set(d.get("approval", [])) != V:
+            ERR.append("openclaw/revio-tool-policy.json veraltet (allow/approval ≠ OpenClaw-Liste) → python3 revision/tools/build_quick.py")
+        for n in ("revio_call", "revio_create_client"):
+            if n in set(d.get("allow", [])) | set(d.get("approval", [])):
+                ERR.append(f"openclaw/revio-tool-policy.json: {n} muss deny sein")
+    # Besonderheiten: Prüffeld-Codes und Schritt-Ids gegen den Katalog
+    kat = yaml.safe_load((R / "data" / "katalog.yaml").read_text(encoding="utf-8"))
+    ids, codes = {s["id"] for s in kat["schritte"]}, {p["code"] for p in kat["prueffelder"]}
+    for b in z.get("prueffeld_besonderheiten", []):
+        for c in b.get("prueffelder") or []:
+            if c not in codes:
+                ERR.append(f"zuordnung.yaml Besonderheit «{b.get('code', '')[:40]}»: unbekanntes Prüffeld {c}")
+        for sid in (b.get("schritte") or []) + (b.get("ausser") or []):
+            if sid not in ids:
+                ERR.append(f"zuordnung.yaml Besonderheit «{b.get('code', '')[:40]}»: unbekannter Schritt {sid}")
+        if not (b.get("prueffelder") or b.get("schritte") or b.get("schritt_nr")):
+            ERR.append(f"zuordnung.yaml Besonderheit «{b.get('code', '')[:40]}»: weder prueffelder noch schritte/schritt_nr – trifft nie")
+
+
+def verweise():
+    """^[chunk-id] in Werkzeug-Code, Aufgaben, revio-Daten, Skills und OpenClaw-Snippet müssen existieren."""
+    files = [R / "tools" / "revision.py", R / "tools" / "mcp_server.py", R / "data" / "aufgaben.yaml", *(R / "data" / "revio").glob("*.yaml"),
+             *(R / "openclaw").glob("*.md"), *(R / "skills").rglob("*.md")]
+    for p in files:
+        if not p.exists():
+            continue
+        for cid in sorted(set(re.findall(r"\^\[([a-z0-9][\w.-]*__[\w.-]+)\]", p.read_text(encoding="utf-8")))):
+            N["verweise"] += 1
+            if rv.chunk_text(cid) is None:
+                ERR.append(f"{p.relative_to(R)}: Verweis auf fehlenden Chunk ^[{cid}]")
 
 
 def links():
@@ -145,9 +235,10 @@ def main():
     zitate()
     katalog()
     werkzeuge()
+    verweise()
     links()
     hashes()
-    rep = ["# Lint Revisions-Wiki", "", f"Zitate geprüft: {N['zitate']} · Links: {N['links']} · Seiten: {N['dateien']}",
+    rep = ["# Lint Revisions-Wiki", "", f"Zitate geprüft: {N['zitate']} · Verweise ^[…]: {N['verweise']} · Links: {N['links']} · Seiten: {N['dateien']}",
            f"**Fehler: {len(ERR)} · Warnungen: {len(WARN)}**", ""]
     if ERR:
         rep += ["## Fehler"] + [f"- {e}" for e in ERR] + [""]

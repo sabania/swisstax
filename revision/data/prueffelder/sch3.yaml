@@ -60,6 +60,25 @@ gesetz:
 - thema: Prüfungshandlungen der eingeschränkten Revision (Art. 729a Abs. 2 OR)
   quelle: or__art-729a
   zitat: Die Prüfung beschränkt sich auf Befragungen, analytische Prüfungshandlungen und angemessene Detailprüfungen.
+- thema: 'Rückerstattungspflicht von Aktionären, VR, Geschäftsführung und ihnen Nahestehenden bei ungerechtfertigt bezogenen Leistungen bzw. offensichtlichem Missverhältnis von Leistung
+    und Gegenleistung (Art. 678 Abs. 1 und 2 OR; GmbH: Art. 800 OR)'
+  quelle: or__art-678
+  zitat: soweit ein offensichtliches Missverhältnis zwischen Leistung und Gegenleistung besteht
+- thema: 'GmbH: Rückerstattung von Leistungen an Gesellschafter, Geschäftsführer und ihnen Nahestehende nach den Vorschriften des Aktienrechts (Art. 800 OR)'
+  quelle: or__art-800
+  zitat: Für die Rückerstattung von Leistungen der Gesellschaft an Gesellschafter, Geschäftsführer sowie diesen nahe stehende Personen sind die Vorschriften des Aktienrechts entsprechend
+    anwendbar.
+- thema: Bezugsteuer auf Dienstleistungen von Unternehmen mit Sitz im Ausland, die nicht im MWST-Register eingetragen sind (Art. 45 Abs. 1 Bst. a MWSTG) – Schnittstelle M2
+  quelle: mwstg__art-45-t1
+  zitat: Dienstleistungen, deren Ort sich nach Artikel 8 Absatz 1 im Inland befindet und die erbracht werden durch Unternehmen mit Sitz im Ausland, die nicht im Register der steuerpflichtigen
+    Personen eingetragen sind
+- thema: 'Bezugsteuerpflicht des Empfängers: steuerpflichtig oder Bezüge über CHF 10''000 im Kalenderjahr (Art. 45 Abs. 2 MWSTG) – Schnittstelle M2'
+  quelle: mwstg__art-45-t2
+  zitat: im Kalenderjahr solche Leistungen für mehr als 10 000 Franken bezieht
+- thema: 'Steuerrecht (Schnittstelle S1, keine handelsrechtliche Bewertungsregel): verdeckte Gewinnausschüttungen und geschäftsmässig nicht begründete Zuwendungen gehören zum steuerbaren
+    Reingewinn (Art. 58 Abs. 1 Bst. b DBG)'
+  quelle: dbg__art-58
+  zitat: offene und verdeckte Gewinnausschüttungen und geschäftsmässig nicht begründete Zuwendungen an Dritte
 risiken:
 - text: Aufwand ohne geschäftlichen Zusammenhang erfasst (Privataufwand von Aktionären/Organen, Leistungen an Nahestehende nicht zu Drittbedingungen, überhöhte Honorare/Spesen).
   pruefziele:
@@ -134,11 +153,19 @@ risiken:
   - VO
   quelle: hwp-bur-2023__rz-0835-s346
   zitat: Langfristige Mietverträge sind wirtschaftlich den Leasingverbindlichkeiten im engeren Sinne gleichzusetzen.
-- text: 'Schnittstelle MWST (Prüffeld M2): Privatanteile an Geschäftsaufwand und Bezugsteuer auf Dienstleistungen aus dem Ausland (z.B. Softwarelizenzen, IT 65xx) nicht abgerechnet.'
+- text: 'Schnittstelle MWST (Prüffeld M2): Privatanteile an Geschäftsaufwand nicht abgerechnet; Bezugsteuer auf Dienstleistungen von Unternehmen mit Sitz im Ausland, die nicht im MWST-Register
+    eingetragen sind (z.B. Softwarelizenzen, IT), nicht abgerechnet (Bezugsteuerpflicht, wenn der Empfänger steuerpflichtig ist oder solche Bezüge im Kalenderjahr CHF 10''000 übersteigen).'
   pruefziele:
   - VO
   quelle: ser-2022__anh-d-s090-1
   zitat: ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist
+- text: 'Schnittstelle Steuern (Prüffeld S1; Steuerrecht, keine handelsrechtliche Bewertungsregel): geschäftsmässig nicht begründeter Aufwand und vGA werden steuerlich aufgerechnet (Art.
+    58 Abs. 1 Bst. b DBG); vGA an Beteiligte oder ihnen Nahestehende sind zudem verrechnungssteuerpflichtige geldwerte Leistungen (Art. 20 VStV) → Rückstellungsbedarf im Prüffeld S1
+    erfragen.'
+  pruefziele:
+  - VO
+  quelle: vstv__art-20
+  zitat: jede geldwerte Leistung der Gesellschaft oder Genossenschaft an die Inhaber gesellschaftlicher Beteiligungsrechte oder an ihnen nahestehende Dritte
 unterlagen:
 - dokument: Saldoliste Erfolgsrechnung mit Vorjahreszahlen auf Kontenebene
   zweck: Grundlage für Vorjahresvergleich und Abstimmung mit der Jahresrechnung (SCH3-101, -201, -202)
@@ -173,7 +200,7 @@ unterlagen:
   quelle: ser-2022__anh-d-s084-2
   zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen
 - dokument: Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (Pendenzenmappe, Rechnungen nach Erfassungsschluss)
-  zweck: Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt in der Testakte, daher PBC-Pendenz
+  zweck: 'Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt die Unterlage: PBC-Pendenz'
   quelle: ser-2022__anh-d-s084-2
   zitat: im zu prüfenden Geschäftsjahr erhaltene Lieferungen und Leistungen betreffen
 - dokument: Liste der Nahestehenden (Aktionäre, VR, GL) und Vereinbarungen zu VR-Honoraren, Spesen, Fahrzeug- und Mietüberlassungen
@@ -232,6 +259,11 @@ bewertung:
     oder Prämienabrechnungen) bleiben in der betreffenden Aufwandart.
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Sporadisch wiederkehrende Geschäftsvorfälle hingegen sind nicht periodenfremd bzw. ausserordentlich, nur weil sie unregelmässig anfallen.
+- regel: 'Im Zweifel betrieblich: Für die Zuordnung ordentlich/ausserordentlich besteht grundsätzlich kein Wahlrecht; im Zweifel gehört ein Posten ins betriebliche Ergebnis. Den ausserordentlichen
+    Ausweis muss das Unternehmen je Posten begründen. Unwesentliche Einzelereignisse nicht als ausserordentlich ausweisen, ausser sie gehen auf dasselbe Ereignis zurück und sind gesamthaft
+    wesentlich (Rückerstattungen/Gutschriften: siehe Aufwandminderung).'
+  quelle: hwp-bur-2023__rz-0800-s330-t1
+  zitat: ein Ereignis mit den entsprechenden Aufwendungen und Erträgen im Zweifelsfall als Teil des ordentlichen bzw. betrieblichen Ergebnisses zu klassifizieren sein wird
 - regel: Periodenfremd ist typischerweise die Korrektur wesentlicher Fehler aus einem Vorjahr; Rückerstattungen früherer Perioden nur bei wesentlicher Periodenfremdheit dort ausweisen,
     sonst als Aufwandminderung.
   quelle: hwp-bur-2023__rz-0800-s330-t2
@@ -265,8 +297,8 @@ fallstricke:
 - text: Erklärungen zu Abweichungen nicht ungeprüft übernehmen, sondern plausibilisieren (z.B. mit Verträgen, Kontoblättern).
   quelle: ser-2022__6-1-2-t3
   zitat: es notwendig, die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren
-- text: 'Schwellen nicht vermischen: Nicht-Aufgriffsgrenze = Erfassungs-/Protokollgrenze; Würdigung der Analytik gegen die tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit
-    3.3); bei qualitativen Faktoren (Nahestehende, Privataufwand) auch kleinere Beträge melden.'
+- text: 'Schwellen nicht vermischen: Nicht-Aufgriffsgrenze = Erfassungs-/Protokollgrenze; Würdigung der Analytik gegen die tolerierbare Abweichung (= Toleranzwesentlichkeit 3.3, sofern
+    der WP keinen tieferen Wert vorgibt; nie selbst festlegen); bei qualitativen Faktoren (Nahestehende, Privataufwand) auch kleinere Beträge melden.'
   quelle: konzept-ki-revisionsagent-2026__c014-1
   zitat: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.
 - text: Stille Reserven (z.B. im Aufwand erfasste wertvermehrende Investitionen, Rückstellungen) verzerren den Vorjahresvergleich; Zahlen vor dem Vergleich bereinigen. Expensierte Investitionen
@@ -296,10 +328,16 @@ fallstricke:
 - text: Elektronisch vorliegende Belege (PDF, Scans) auf Echtheit, Empfänger und Leistungsperiode prüfen.
   quelle: hwp-er-2026__rz-0116-s201
   zitat: Echtheit des Belegs (insbesondere bei nur in elektronischer Form vorliegenden Belegen)
-- text: 'Vorzeichen beachten: In Saldolisten werden Aufwände oft negativ dargestellt; positive Salden oder Haben-Buchungen auf Aufwandkonten (Gutschriften, Abgrenzungsauflösungen) gezielt
-    hinterfragen.'
-- text: Kontenbereiche des übrigen betrieblichen Aufwands sind mandatsabhängig; Zuordnung der Konten zu SCH3 (ohne Abschreibungen, Finanz-, betriebsfremden und ausserordentlichen Erfolg)
-    vor der Analytik prüfen.
+- text: 'Praxis/intern: Vorzeichen beachten: In Saldolisten werden Aufwände oft negativ dargestellt; positive Salden oder Haben-Buchungen auf Aufwandkonten (Gutschriften, Abgrenzungsauflösungen)
+    gezielt hinterfragen.'
+- text: 'Praxis/intern: Kontenbereiche des übrigen betrieblichen Aufwands sind mandatsabhängig; Zuordnung der Konten zu SCH3 (ohne Abschreibungen, Finanzerfolg, Nebenbetrieb, betriebsfremden
+    und ausserordentlichen Erfolg) vor der Analytik prüfen.'
+- text: 'Offensichtliche und wesentliche verdeckte Gewinnausschüttung: als Notiz «Wesentliche Feststellungen» (Konto, Betrag, Empfänger) an den WP. Die schriftliche Mitteilung an den
+    VR, die Beurteilung der Rückerstattung (Art. 678 OR) und ein allfälliger Hinweis im Bericht sind Sache des WP; der Agent bereitet nur den Sachverhalt auf und versendet nichts.'
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+- text: 'Praxis/intern: Schnittstellen – Abgrenzungen → E1/M3; ausserordentlich/betriebsfremd → SCH5; Miet-/Leasingverpflichtungen im Anhang → T1; aktivierter Unterhalt/GWG → G1/G2;
+    Steuerfolgen → S1; MWST → M2. Feststellung einmal im SCH3-Schritt als Notiz erfassen und im anderen Prüffeld darauf verweisen (nicht doppelt erfassen).'
 fragen_kunde:
 - frage: Bitte erläutern Sie schriftlich die Gründe für die wesentlichen Abweichungen der aufgeführten Aufwandkonten gegenüber Vorjahr bzw. Budget (Liste beigelegt), inkl. Einmaleffekte
     und Umgliederungen.
@@ -319,7 +357,8 @@ fragen_kunde:
   zweck: 'Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-303 (EN, VO): aktivierter Unterhalt, Stetigkeit der Aktivierungspraxis; Investitionen im Aufwand als
     stille Reserve festhalten'
 - frage: Nach welchen Kriterien werden Aufwände als ausserordentlich, einmalig, periodenfremd oder betriebsfremd statt im betrieblichen Aufwand ausgewiesen?
-  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Ausweis (DO), Abgrenzung zum Prüffeld ausserordentlicher/betriebsfremder Erfolg
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Ausweis (DO), Abgrenzung zum Prüffeld ausserordentlicher/betriebsfremder Erfolg; Begründung je a.o. Posten
+    verlangen (Ausweis im Zweifel betrieblich)
 - frage: Werden Erträge (z.B. Untermiete, Weiterverrechnungen) mit Aufwandkonten verrechnet? Wie werden Rückerstattungen und Gutschriften (z.B. Nebenkostenabrechnung Vorjahr, Lieferantengutschriften)
     verbucht?
   zweck: 'Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Ausweis (DO): Verrechnungsverbot bzw. zulässige Aufwandminderung'
@@ -362,16 +401,17 @@ testakte_2025:
   bezug: Ansprechpersonen für Befragungen (SCH3-101); Organe/Nahestehende für Durchsicht Konto 6540 und Leistungen an Nahestehende (SCH3-303)
 schritte:
 - id: SCH3-101
-  vorgehen: Aufwandkonten mit Abweichungen > NAG gegenüber Vorjahr bzw. Erwartung bestimmen und eine schriftliche Frage an die Leitung Finanzen als Pendenz-Entwurf erfassen (Grund, Einmaleffekt,
-    Abgrenzung, Umgliederung; Versand durch Mensch). Vorliegende Antworten (z.B. 10.11) auswerten, mit Kontoblättern/Verträgen plausibilisieren; Frage, Antwort, Datum, Würdigung im Textfeld.
-    Katalogtext = Befragung SER Anhang D q)/t); in r) Teil des Vorjahresvergleichs.
+  vorgehen: Abweichungstabelle (Konto, X, X-1, Δ, Δ%) einmal mit `rechne` erstellen – dieselbe Tabelle gilt für SCH3-201/-202 – und daraus Konten mit Abweichungen > NAG bestimmen. Dazu
+    eine schriftliche Frage an die Leitung Finanzen als Pendenz-Entwurf erfassen (Grund, Einmaleffekt, Abgrenzung, Umgliederung; Versand durch Mensch). Vorliegende Antworten (z.B. 10.11)
+    auswerten, mit Kontoblättern/Verträgen plausibilisieren; Frage, Antwort, Datum, Würdigung im Textfeld. Katalogtext = Befragung SER Anhang D q)/t); in r) Teil des Vorjahresvergleichs.
   nachweise:
   - Saldoliste Erfolgsrechnung X/X-1
   - Schriftliche Antwort der Unternehmensleitung
   - Kontoblätter der betroffenen Aufwandkonten
   - Verträge zu wesentlichen Aufwandarten
   rechnen: 'Je Konto: Abweichung = Saldo X – Saldo X-1 (absolut und %); in die Frageliste, wenn |Abweichung| > Nicht-Aufgriffsgrenze (3.3) oder qualitativer Faktor (Nahestehende, Privataufwand);
-    Würdigung gegen tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit)'
+    Würdigung gegen tolerierbare Abweichung (= Toleranzwesentlichkeit aus 3.3 bzw. in revio erfasste Signifikanzschwelle, lesen mit `revio K3`; einen tieferen Wert nur auf Vorgabe des
+    WP; nie selbst festlegen; verwendeten Wert im Textfeld nennen)'
   feststellung_wenn: Antwort fehlt (Pendenz), ist unplausibel oder widerspricht Buchhaltung/Verträgen, oder deutet auf fehlende Abgrenzung, Fehlbuchung oder nicht geschäftsmässigen Aufwand
     über der tolerierbaren Abweichung.
   fundstellen:
@@ -385,16 +425,23 @@ schritte:
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
   - quelle: konzept-ki-revisionsagent-2026__c009-3
     zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der diesbezüglich verwendete Begriff der Wesentlichkeit bezieht sich auf die Toleranzwesentlichkeit
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
 - id: SCH3-201
-  vorgehen: 'Salden der SCH3 zugeordneten Konten X und X-1 aus der Saldoliste im Rechenmodul vergleichen (je Konto und Total, absolut und %) und das Total mit der Position der Jahresrechnung
-    abstimmen. Abweichungen > NAG markieren und Gründe aus SCH3-101 übernehmen bzw. als Frage erfassen. Im Textfeld: Tabelle Konto, X, X-1, Differenz, %, Erklärung, Würdigung gegen die
-    tolerierbare Abweichung.'
+  vorgehen: 'Abweichungstabelle aus SCH3-101 verwenden (fehlt sie, hier einmal erstellen: Salden der SCH3 zugeordneten Konten X und X-1 aus der Saldoliste je Konto und Total, absolut
+    und %, mit `rechne`) und das Total mit der Position der Jahresrechnung abstimmen. Abweichungen > NAG markieren und Gründe aus SCH3-101 übernehmen bzw. als Frage erfassen. Im Textfeld:
+    Tabelle Konto, X, X-1, Differenz, %, Erklärung, Würdigung gegen die tolerierbare Abweichung. Fehlen schriftliche Erklärungen zu Abweichungen > NAG: Status «teilweise bearbeitet»,
+    Frage aus SCH3-101 als Pendenz.'
   nachweise:
   - Saldoliste Erfolgsrechnung X/X-1
   - Jahresrechnung (Erfolgsrechnung)
   - Schriftliche Erläuterungen zu Abweichungen
-  rechnen: 'Δ = Saldo X – Saldo X-1 und Δ% je Konto; Summe der Konten gemäss Zuordnung SCH3 (Testakte: 6000–6790; Abschreibungen 68xx und Finanzerfolg 69xx gehören nicht dazu) = Position
-    «Übriger betrieblicher Aufwand» der Jahresrechnung (X und X-1); markieren, wenn |Δ| > Nicht-Aufgriffsgrenze; Würdigung gegen tolerierbare Abweichung'
+  rechnen: Δ = Saldo X – Saldo X-1 und Δ% je Konto; Summe der SCH3 zugeordneten Konten gemäss Kontenplan des Mandats (ohne Abschreibungen, Finanzerfolg, Nebenbetrieb, betriebsfremden
+    und ausserordentlichen Erfolg; vgl. Fallstrick Kontenbereiche) = Position «Übriger betrieblicher Aufwand» der Jahresrechnung (X und X-1); markieren, wenn |Δ| > Nicht-Aufgriffsgrenze;
+    Würdigung gegen tolerierbare Abweichung (= Toleranzwesentlichkeit aus 3.3 bzw. in revio erfasste Signifikanzschwelle, lesen mit `revio K3`; einen tieferen Wert nur auf Vorgabe des
+    WP; nie selbst festlegen; verwendeten Wert im Textfeld nennen)
   feststellung_wenn: Kontensumme ≠ Ausweis in der Jahresrechnung oder Abweichung über der tolerierbaren Abweichung ohne plausible Erklärung bzw. mit Hinweis auf Fehlaussage (Abgrenzung,
     Fehlklassierung); bei qualitativen Faktoren kleiner.
   fundstellen:
@@ -408,10 +455,19 @@ schritte:
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: aufgrund der an anderer Stelle definierten Toleranzwesentlichkeit und aufgrund der Erfahrung des Abschlussprüfers
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der diesbezüglich verwendete Begriff der Wesentlichkeit bezieht sich auf die Toleranzwesentlichkeit
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: höchstens «teilweise bearbeitet»
 - id: SCH3-202
-  vorgehen: 'a) Saldovergleich aus SCH3-201 übernehmen; b) Konten analytisch auf Saldo- und Verlaufsauffälligkeiten durchsehen (Konten-/Monatsebene: Sprünge, Vorzeichenwechsel, neue/weggefallene
-    Konten), fehlende Kontoblätter als Pendenz; c) Budgetvergleich, falls vorhanden, Verlässlichkeit würdigen; d) Erwartungswerte aus Verträgen (Miete, Prämien, Lizenzen). Ursache je
-    signifikanter Änderung im Textfeld umschreiben; Einzelbuchungen erst in 303/301 (WP).'
+  vorgehen: 'a) Saldovergleich aus SCH3-101/-201 übernehmen; b) Konten analytisch auf Saldo- und Verlaufsauffälligkeiten durchsehen (Konten-/Monatsebene: Sprünge, Vorzeichenwechsel,
+    neue/weggefallene Konten), fehlende Kontoblätter als Pendenz; Konten mit Bezug zu Nahestehenden (VR-Honorare, Beratung durch Organe, Spesen, Fahrzeuge, Mieten von Aktionären/Organen)
+    unabhängig von der NAG aufführen und die Kundenfrage zu Leistungen an Nahestehende als Pendenz-Entwurf erfassen; Sprünge auf Unterhalt/Reparaturen/GWG/Software als Hinweis auf expensierte
+    Investitionen (stille Reserve, nur festhalten) bzw. aktivierten Unterhalt melden; c) Budgetvergleich, falls vorhanden, Verlässlichkeit würdigen; d) Erwartungswerte aus Verträgen
+    (Miete, Prämien, Lizenzen); e) Quote übriger betrieblicher Aufwand / Nettoerlöse X und X-1 mit `rechne`, Veränderung erläutern. Ursache je signifikanter Änderung im Textfeld umschreiben;
+    Einzelbuchungen erst in 303/301 (nur auf Anweisung des WP).'
   nachweise:
   - Saldoliste X/X-1
   - Kontoblätter Aufwandkonten (Monatsverkehrszahlen)
@@ -419,7 +475,8 @@ schritte:
   - Miet-, Versicherungs-, Leasing- und Lizenzverträge
   - Listen aktive/passive Rechnungsabgrenzungen
   rechnen: Δ Budget = Ist – Budget je Konto; Erwartungswert z.B. Raumaufwand = (Nettomiete + Nebenkosten-Akonto) mtl. × 12 ± Abgrenzungen; Δ bzw. Ist – Erwartung > Nicht-Aufgriffsgrenze
-    erfassen; Würdigung gegen tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit 3.3)
+    erfassen; Würdigung gegen tolerierbare Abweichung (= Toleranzwesentlichkeit aus 3.3 bzw. in revio erfasste Signifikanzschwelle, lesen mit `revio K3`; einen tieferen Wert nur auf
+    Vorgabe des WP; nie selbst festlegen; verwendeten Wert im Textfeld nennen); Quote = übriger betrieblicher Aufwand / Nettoerlöse (X, X-1)
   feststellung_wenn: Ursache einer signifikanten Änderung nicht feststellbar oder Differenz Ist – Erwartung über der tolerierbaren Abweichung ohne plausible Erklärung (qualitative Faktoren
     auch kleiner); fehlendes Budget nur dokumentieren.
   fundstellen:
@@ -437,10 +494,21 @@ schritte:
     zitat: Zudem können analytische Prüfungshandlungen bei der Identifikation ungewöhnlicher Geschäftsvorfälle, Buchungen, Beträge oder Trends hilfreich sein.
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: Der diesbezüglich verwendete Begriff der Wesentlichkeit bezieht sich auf die Toleranzwesentlichkeit
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  - quelle: hwp-bur-2023__rz-0680-s299
+    zitat: überhöhte Saläre, Honorare, Spesenvergütungen oder Provisionen
+  - quelle: hwp-er-2026__rz-0159-s211
+    zitat: ob und in welchem Ausmass Transaktionen mit nahestehenden Personen stattgefunden haben
+  - quelle: ser-2022__6-1-2-t1
+    zitat: zwischen einzelnen Finanzinformationen, von denen erwartet wird, dass sie Erfahrungsgrössen entsprechen
 - id: SCH3-301
-  vorgehen: 'Weitergehend, nur bei Hinweisen aus 101–202 oder erhöhtem Risiko (WP-Entscheid): wesentliche bzw. auffällige Posten bewusst auswählen und mit Eingangsrechnung, Vertrag oder
-    Abrechnung in M-Files abstimmen (Betrag, Leistungsperiode, Empfänger, Kontierung, geschäftlicher Zusammenhang, Doppelerfassung); Visierung des Kunden nur als Einzelnachweis. Im Textfeld:
-    Auswahlbegründung und Liste Beleg, Betrag, Ergebnis.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP. Der WP ordnet diese weitergehende Prüfung an, wenn 101–202 auf wesentliche Fehlaussagen hinweisen oder das inhärente Risiko erhöht
+    ist. Ohne Anweisung: kein Textfeld; Hinweise aus 101–202 als Notiz «Schlussbesprechung» bzw. «Pendenz» an den WP. Mit Anweisung: wesentliche bzw. auffällige Posten bewusst auswählen
+    und mit Eingangsrechnung, Vertrag oder Abrechnung in M-Files abstimmen (Betrag, Leistungsperiode, Empfänger, Kontierung, geschäftlicher Zusammenhang, Doppelerfassung); Visierung
+    des Kunden nur als Einzelnachweis. Im Textfeld (als «Vorbereitung für WP» gekennzeichnet): Auswahlbegründung und Liste Beleg, Betrag, Ergebnis.'
   nachweise:
   - Kontoblätter Aufwandkonten
   - Eingangsrechnungen und Abrechnungen
@@ -463,14 +531,18 @@ schritte:
     zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: SCH3-302
-  vorgehen: 'Weitergehend (WP): Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate X+1 sowie noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum auf Leistungen
-    des Berichtsjahres durchsehen und mit Kreditoren-OP-Liste und passiven Abgrenzungen per 31.12. abgleichen; umgekehrt im Jahr X gebuchte Aufwände für X+1 mit den aktiven Abgrenzungen.
-    Im Textfeld: Beleg, Leistungsperiode, erfasst ja/nein, Betrag.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP. Der WP ordnet diese weitergehende Prüfung an, wenn 101–202 auf wesentliche Fehlaussagen hinweisen oder das inhärente Risiko erhöht
+    ist. Ohne Anweisung: kein Textfeld; Hinweise aus 101–202 als Notiz «Schlussbesprechung» bzw. «Pendenz» an den WP. Mit Anweisung: Kreditorenjournal, Kontoblätter und Eingangsrechnungen
+    der ersten Monate X+1 sowie noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum auf Leistungen des Berichtsjahres durchsehen und mit Kreditoren-OP-Liste und passiven Abgrenzungen
+    per 31.12. abgleichen; umgekehrt im Jahr X gebuchte Aufwände für X+1 mit den aktiven Abgrenzungen. Im Textfeld (als «Vorbereitung für WP» gekennzeichnet): Beleg, Leistungsperiode,
+    erfasst ja/nein, Betrag.'
   nachweise:
   - Kreditorenjournal und Kontoblätter Folgejahr
   - Eingangsrechnungen Folgejahr
-  - 'Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (fehlt in Testakte: Pendenz)'
+  - 'Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (fehlen sie: PBC-Pendenz)'
   - Kreditoren-OP-Liste 31.12.
   - Listen aktive/passive Rechnungsabgrenzungen 31.12.
   rechnen: Summe Folgejahresrechnungen (verbucht und noch nicht verbucht) mit Leistung im Jahr X, weder in OP-Liste noch in passiven Abgrenzungen = nicht erfasster Aufwand; Summe im
@@ -490,10 +562,16 @@ schritte:
     zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
   - quelle: hwp-bur-2023__rz-0256-s215
     zitat: 'Transitorische Aktiven: Ausgaben im alten Jahr, die als Aufwand dem neuen Rech nungsjahr zu belasten sind.'
+  - quelle: ser-2022__anh-d-s094-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: SCH3-303
-  vorgehen: 'Weitergehend (WP-Entscheid): Kontoblätter der Aufwandkonten nach Einzelbuchungen filtern (hohe, runde, Haben-, Abschluss- und manuelle Buchungen, Zahlungen an Nahestehende,
-    Unterhalt/GWG mit Investitionscharakter); fehlen Aufwand-Kontoblätter, Gegenkontenanalyse über Geld- und Kreditorenkonten. Treffer an SCH3-301 oder als Frage. Investitionen im Aufwand
-    als stille Reserve festhalten. Im Textfeld: Kriterien, Treffer, Erklärung.'
+  vorgehen: 'Nur auf ausdrückliche Anweisung des WP. Der WP ordnet diese weitergehende Prüfung an, wenn 101–202 auf wesentliche Fehlaussagen hinweisen oder das inhärente Risiko erhöht
+    ist. Ohne Anweisung: kein Textfeld; Hinweise aus 101–202 als Notiz «Schlussbesprechung» bzw. «Pendenz» an den WP. Mit Anweisung: Kontoblätter der Aufwandkonten nach Einzelbuchungen
+    filtern (hohe, runde, Haben-, Abschluss- und manuelle Buchungen, Zahlungen an Nahestehende, Unterhalt/GWG mit Investitionscharakter); fehlen Aufwand-Kontoblätter, Gegenkontenanalyse
+    über Geld- und Kreditorenkonten. Treffer an SCH3-301 oder als Frage. Investitionen im Aufwand als stille Reserve festhalten. Im Textfeld (als «Vorbereitung für WP» gekennzeichnet):
+    Kriterien, Treffer, Erklärung.'
   nachweise:
   - Kontoblätter Aufwandkonten
   - Hauptbuch Gegenkonten (Geld, Kreditoren, Abgrenzungen)
@@ -522,3 +600,7 @@ schritte:
     zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
   - quelle: or__art-958c
     zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+  - quelle: ser-2022__anh-d-s094-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.

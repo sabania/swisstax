@@ -23,7 +23,8 @@ regeln:
   zitat: nur auf Anweisung, physische Tätigkeiten nie
 - bereich: schritttyp
   key: wp
-  regel: 'WP-Schritt (Kennzeichnung WP): Ob der Agent WP-Schritte vorbereitet oder auslässt, ist offen (consis) – bis zum Entscheid nur auf ausdrückliche Anweisung vorbereiten, Beurteilung immer beim Wirtschaftsprüfer.'
+  regel: 'WP-Schritt (Kennzeichnung WP, ebenso «?» bis zur Klärung): Beurteilung beim WP. Bis Entscheid consis ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld: Schritt lesen, Punkte als
+    Notiz (Schlussbesprechung/Pendenz); mit Anweisung als «Vorbereitung für WP» kennzeichnen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - bereich: ablauf
@@ -57,6 +58,16 @@ regeln:
   regel: Was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
   quelle: konzept-ki-revisionsagent-2026__c010-1
   zitat: Alles, was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
+- bereich: ablauf
+  key: lesetest
+  regel: 'Lesetest zuerst: Testmandat bearbeiten, Rapport schreiben, nichts in revio oder M-Files ablegen; schreibend erst danach.'
+  quelle: konzept-ki-revisionsagent-2026__c023-1
+  zitat: Der Agent bearbeitet ein Testmandat, schreibt den Rapport, legt aber nichts in revio oder M-Files ab.
+- bereich: ablauf
+  key: audit_trail
+  regel: 'Protokoll (Audit Trail): jede Aktion, Quelle, Berechnung und jeden Fehler mit Zeitstempel festhalten; Ablage pro Mandat und Jahr in M-Files (im Lesetest nicht ablegen).'
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: Protokoll (Audit Trail). Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
 - bereich: notizen
   key: pendenz
   regel: 'Notiz «Pendenz»: fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege – mit Konto, Datum und Betrag.'
@@ -204,6 +215,12 @@ regeln:
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
 - bereich: gesetz
+  key: ser_hinweis_725
+  regel: 'Untätigkeit des VR bei hälftigem Kapitalverlust (OR 725a) oder Überschuldung (OR 725b): Hinweis im Revisionsbericht in jedem Fall (SER 8.3.2.1); bei Überschuldung zusätzlich Anzeigepflicht OR 729c.'
+  quelle: ser-2022__8-3-2-t1
+  zitat: Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands im Zusammenhang mit der Untätigkeit des Verwaltungsrates bei Vorliegen eines hälftigen Kapitalverlusts (Art. 725a OR) oder einer
+    Überschuldung (Art. 725b OR) sind in jedem Fall im
+- bereich: gesetz
   key: or725_zahlungsfaehigkeit
   regel: 'Drohende Zahlungsunfähigkeit (OR 725): VR überwacht die Zahlungsfähigkeit und ergreift Massnahmen.'
   quelle: or__art-725
@@ -244,6 +261,11 @@ regeln:
   regel: Sonst eingeschränkte Revision (OR 727a Abs. 1); Opting-out mit Zustimmung sämtlicher Aktionäre bei höchstens zehn Vollzeitstellen (Abs. 2).
   quelle: or__art-727a
   zitat: Mit der Zustimmung sämtlicher Aktionäre kann auf die eingeschränkte Revision verzichtet werden, wenn die Gesellschaft nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat.
+- bereich: gesetz
+  key: or729_mitwirkung
+  regel: 'Mitwirken bei der Buchführung und andere Dienstleistungen zulässig; bei Risiko der Selbstprüfung organisatorische und personelle Massnahmen (OR 729 Abs. 2).'
+  quelle: or__art-729
+  zitat: Sofern das Risiko der Überprüfung eigener Arbeiten entsteht, muss durch geeignete organisatorische und personelle Massnahmen eine verlässliche Prüfung sichergestellt werden.
 - bereich: wesentlichkeit
   key: hwp_toleranz
   regel: Toleranzwesentlichkeit in der Regel 50–75 % der Gesamtwesentlichkeit (HWP ER Rz 50); dient zur Beurteilung der Risiken auf Aussagenebene und für Art, Zeitpunkt und Umfang der Prüfungshandlungen.
@@ -285,10 +307,20 @@ regeln:
   quelle: hwp-bur-2023__rz-0889-s359
   zitat: im Betrag von zusammen maximal 50 % – resp. bei Holdinggesellschaften 20 % – des Grundkapitals
 - bereich: gesetz
+  key: geschuetztes_kapital_voll
+  regel: 'Zum geschützten Kapital zählen ohne 50-/20-%-Grenze voll: gesetzliche Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und aus Aufwertungen (OR 725c Abs. 1) – Rechner: Parameter reserve_voll (HWP BuR Rz 889).'
+  quelle: hwp-bur-2023__rz-0889-s359
+  zitat: der volle Betrag der gesetzlichen Gewinnreserven für eigene Kapitalanteile im Konzern (Art. 659b Abs. 2 OR) und aus Aufwertungen (Art. 725c Abs. 1 OR)
+- bereich: gesetz
   key: eigene_aktien_bezugsgroesse
   regel: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital, die Bezugsgrösse nach Art. 725a OR bleibt unverändert (Q&A Kapitalverlust).
   quelle: qa-kapitalverlust-2023__1-1-t1
   zitat: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital.
+- bereich: gesetz
+  key: covid_kredit
+  regel: 'Covid-19-Kredite (Art. 3 Covid-19-SBüV) zählen bei Kapitalverlust (OR 725a) und Überschuldung (OR 725b) nicht als Fremdkapital – Rechner: Parameter covid_kredit (Art. 24 Covid-19-SBüG).'
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 - bereich: gesetz
   key: or725a_optingout
   regel: Ohne Revisionsstelle (Opting-out) muss die Jahresrechnung bei Kapitalverlust vor der GV-Genehmigung eingeschränkt durch einen vom VR ernannten zugelassenen Revisor geprüft werden (OR 725a Abs.

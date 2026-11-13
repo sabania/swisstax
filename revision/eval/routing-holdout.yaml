@@ -1,4 +1,5 @@
-hinweis: Holdout-Set (unabhängig vom Entwicklungsset formuliert, Review «Prozess-Aufgaben und Routing», 2026-11-13). Nicht zum Tunen der Stichworte verwenden; getrennt messen.
+hinweis: "VERBRAUCHT (13.11.2026): im Review zur Messung verwendet und vier Fälle ins Entwicklungsset übernommen – für die Endmessung ein neues, unabhängiges Holdout verwenden." 
+hinweis_alt: Holdout-Set (unabhängig vom Entwicklungsset formuliert, Review «Prozess-Aufgaben und Routing», 2026-11-13). Nicht zum Tunen der Stichworte verwenden; getrennt messen.
 faelle:
 - text: Neues Mandat Muster GmbH, Geschäftsjahr 2025 – bitte anfangen
   aufgabe: mandat-start

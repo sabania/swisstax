@@ -158,11 +158,15 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Welche Bilanzierungs- und Bewertungsgrundsätze wenden Sie für Beteiligungen an (Anschaffungskosten inkl. Nebenkosten, Einzel- oder Gruppenbewertung, Wertberichtigungen, Erfassung Dividenden)? Gab es Änderungen gegenüber dem Vorjahr?
 - Bestehen Anzeichen für tiefere Werte einzelner Beteiligungen (Verluste, rückläufige Aufträge, Verkaufsabsicht oder -angebote, Wegfall der Betriebsnotwendigkeit)? Wie haben Sie die Werthaltigkeit per 31.12. beurteilt (bitte Unterlagen beilegen)?
 - Welche Beteiligungen wurden im Geschäftsjahr erworben, veräussert, aufgestockt, saniert oder mit Zuschüssen versehen, und auf welchen Konten wurden diese Vorgänge gebucht?
+- Von wem wurden Beteiligungen im Geschäftsjahr erworben? Steht der Verkäufer der Gesellschaft, ihren Organen, Aktionären oder Mitarbeitenden nahe (z. B. familiäre Beziehung)? Wie wurde der Kaufpreis festgelegt (Bewertung, Ertragsaussichten)?
+- Ist für die Abtretung erworbener GmbH-Stammanteile die Zustimmung der Gesellschafterversammlung erforderlich, liegt sie vor, und ist die Gesellschaft als Gesellschafterin eingetragen?
 - Werden die Anteile langfristig gehalten, und vermitteln sie einen massgeblichen Einfluss (Kapital- und Stimmenanteil)?
 - Bestehen nicht voll einbezahlte Titel, statutarische Nachschusspflichten, Garantien, Bürgschaften, Patronatserklärungen oder Verpfändungen im Zusammenhang mit Beteiligungen?
 - Hält die Gesellschaft oder eine von ihr kontrollierte Gesellschaft eigene Anteile; wurden im Geschäftsjahr eigene Anteile erworben oder veräussert (Anzahl, Preis, Bedingungen)?
-- Haben Beteiligungsgesellschaften für das Geschäftsjahr oder das Vorjahr Ausschüttungen beschlossen, und wurde die Verrechnungssteuer zurückgefordert bzw. das Meldeverfahren angewandt?
+- Haben Beteiligungsgesellschaften für das Geschäftsjahr oder das Vorjahr Ausschüttungen beschlossen (aus welchen Reserven, z. B. Kapitaleinlagereserven), wurde die Verrechnungssteuer zurückgefordert bzw. das Meldeverfahren angewandt, und bestehen ältere, noch nicht zurückerstattete VSt-Guthaben?
 - Wie hoch sind Bestand und Veränderung der stillen Reserven auf Beteiligungen, und nach welcher Methode werden sie ermittelt?
+- Kontrolliert die Gesellschaft andere Unternehmen (Stimmenmehrheit), und wird eine Konzernrechnung erstellt oder die Befreiung nach Art. 963a OR beansprucht (Grössen der letzten zwei Jahre)?
+- Wurden Beteiligungen zur Behebung eines Kapitalverlusts oder einer Überschuldung aufgewertet (Art. 725c OR), und liegt dazu die schriftliche Bestätigung eines zugelassenen Revisors vor?
 
 ## I1 Immaterielle Anlagen
 - Welche Aktivierungs- und Bewertungsgrundsätze wenden Sie für immaterielle Werte an (Kategorien, Ersterfassung, Abschreibungsmethode linear/degressiv, direkt/indirekt, Nutzungsdauern bzw. Sätze je Kategorie)?
@@ -207,9 +211,11 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Bestehen Verbindlichkeiten oder Kontokorrente gegenüber Aktionären, Verwaltungsrat, Geschäftsleitung, ihnen nahestehenden Personen oder Konzerngesellschaften? Zu welchem Zinssatz und auf welcher vertraglichen Grundlage?
 - Bestehen Verbindlichkeiten in Fremdwährung, und mit welchen Kursen wurden sie per 31.12. umgerechnet?
 - Wie werden Kundenanzahlungen erfasst (bei Rechnungsstellung oder bei Zahlungseingang), wann werden Anzahlungskonten nach Schlussrechnung ausgeglichen, und werden Anzahlungen mit angefangenen Arbeiten verrechnet (Netto- oder Bruttodarstellung)?
-- Weshalb weisen einzelne Abrechnungskonten (Sozialversicherungen, Quellensteuer) Sollsaldi auf (Vorauszahlung, Rückforderung, Fehlbuchung)?
-- Sind alle BVG-Beiträge des Geschäftsjahres bezahlt bzw. bis Ende Januar des Folgejahres überwiesen worden? Bestehen Beitragsausstände, Zahlungsvereinbarungen oder Arbeitgeberbeitragsreserven?
+- Weshalb weisen einzelne Abrechnungskonten (Sozialversicherungen, Quellensteuer) Sollsaldi auf (Vorauszahlung, Rückforderung, Fehlbuchung)? Rechnen Sie mit derselben Gegenpartei über mehrere Konten nur über einen Saldo ab (z.B. Unterkonten derselben Ausgleichskasse, UVG/UVGZ oder KTG beim selben Versicherer)?
+- Sind alle BVG-Beiträge des Geschäftsjahres bezahlt bzw. spätestens Ende des ersten Monats nach dem Kalender- bzw. Versicherungsjahr überwiesen worden (bei Versicherungsjahr = Kalenderjahr: 31.1. des Folgejahres)? Bestehen per 31.12. Beitragsausstände, Zahlungsvereinbarungen oder Arbeitgeberbeitragsreserven?
 - Haben Arbeitgeberkontrollen der Sozialversicherungen (AHV, SUVA) oder Kontrollen der Quellensteuer stattgefunden, und sind Nachforderungen hängig?
+- Enthält die Quellensteuer-Abrechnung Dezember Korrekturen, Nachbelastungen oder Tarifwechsel, die hohe Abzüge im Verhältnis zum Bruttolohn erklären?
+- Werden Kontokorrente von Aktionären, Organen oder Konzerngesellschaften verzinst, und unter welcher Bilanzposition werden sie ausgewiesen?
 
 ## M2 Mehrwertsteuer
 - Liegt die Umsatzabstimmung (Finanzbuchhaltung ↔ deklarierte MWST-Abrechnungen) und die Vorsteuerabstimmung für das Geschäftsjahr bzw. das Vorjahr vor? Wer hat sie erstellt, wie wurden Differenzen begründet und wurde eine Korrekturabrechnung eingereicht?
@@ -277,11 +283,11 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Fanden in den letzten Jahren AHV-Arbeitgeberkontrollen, SUVA-Lohnbuchrevisionen oder andere Kontrollen statt? Gab es Nachbelastungen oder offene Feststellungen?
 - Bestehen arbeitsrechtliche Streitigkeiten, Lohnforderungen, Kündigungsanfechtungen, Sozialplan- oder Abgangsentschädigungsverpflichtungen? Liegt dazu eine Beurteilung eines Anwalts vor?
 - Welche Vergütungen (Lohn, Bonus, Spesen, Fahrzeug, Fringe Benefits, VR-Honorare) erhielten VR, GL, Aktionäre und ihnen nahestehende Personen im Geschäftsjahr und Vorjahr, und auf welcher Grundlage (Vertrag, Beschluss)?
-- Bestehen Arbeitgeberbeitragsreserven (mit/ohne Verwendungsverzicht)? Wurden im Geschäftsjahr Einlagen getätigt oder Beiträge aus AGBR bezahlt? Wie hoch ist der Deckungsgrad der Vorsorgeeinrichtung per 31.12., und sind Sanierungsmassnahmen beschlossen?
+- Bestehen Arbeitgeberbeitragsreserven (mit/ohne Verwendungsverzicht)? Wurden im Geschäftsjahr Einlagen getätigt oder Beiträge aus AGBR bezahlt? Wie hoch ist der Deckungsgrad der Vorsorgeeinrichtung per 31.12., und sind Sanierungsmassnahmen beschlossen? Bitte Kontoauszug AGBR und Mitteilung/Jahresbericht der Vorsorgeeinrichtung beilegen.
 - Wie wurde die Abgrenzung für Ferien- und Überzeitguthaben ermittelt (Saldi je Person, Lohnbasis, Zuschlag, Sozialleistungen)?
 - Wurden Familienzulagen, EO-/Mutterschafts-/Vaterschaftsentschädigungen sowie Kranken- und Unfalltaggelder vollständig geltend gemacht und erfasst? Bestehen per 31.12. offene Ansprüche?
 - Wer legt Löhne und Lohnänderungen fest und genehmigt sie (Lohnrunde 2025)? Gab es Lohnzahlungen ausserhalb der Lohnbuchhaltung?
-- Wie viele Vollzeitstellen beschäftigte das Unternehmen im Jahresdurchschnitt (Berechnungsbasis Monats-/Quartalsenden, Behandlung Lernende/Temporäre)?
+- Wie viele Vollzeitstellen beschäftigte das Unternehmen im Jahresdurchschnitt des Geschäftsjahres und des Vorjahres (Berechnungsbasis Monats-/Quartalsenden, Behandlung Lernende, Temporäre und ausgeliehene Mitarbeitende)?
 
 ## S1 Steuern
 - Sind alle direkten Steuern früherer Perioden (Bund, Kanton/Gemeinde) bezahlt oder abgegrenzt? Bitte Liste je Steuerperiode mit Status (bezahlt/offen, Betrag).
@@ -315,6 +321,7 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 - Zu welchem Zeitpunkt erfassen Sie Material-, Waren- und Fremdleistungsaufwand (Lieferung/Leistungserbringung oder Rechnungseingang), und wie behandeln Sie Bestandesänderungen, Rabatte, Skonti, Rückvergütungen und Fremdwährungseinkäufe? Gab es Änderungen gegenüber dem Vorjahr?
 - Wie stellen Sie sicher, dass bis 31.12. erhaltene Lieferungen und Leistungen, deren Rechnung erst im Folgejahr eintrifft, als Kreditor oder passive Abgrenzung erfasst werden? Wer kontrolliert das?
 - Wie erfassen Sie Umsätze (Zeitpunkt Lieferung/Abnahme bzw. Leistungsfortschritt), und wie wird der zugehörige Material- und Fremdleistungsaufwand denselben Projekten bzw. derselben Periode zugeordnet?
+- Wie ermitteln Sie bei POC-Projekten den Fertigstellungsgrad, die erwarteten Gesamtkosten und die nachlaufenden Kosten (Gewährleistung, Garantiearbeiten)?
 - Welche Gründe haben die wesentlichen Veränderungen der einzelnen Konten des direkten Aufwands gegenüber Vorjahr und Budget (beiliegende Abweichungsliste)?
 - Wie haben sich die Bruttomargen je Produktkategorie bzw. Projekt entwickelt (Einkaufs- und Verkaufspreise, Produktmix, Verlustprojekte, Garantiearbeiten)?
 - Wurden nach dem Bilanzstichtag Lieferantenrabatte, Boni, Gutschriften oder Nachbelastungen gewährt bzw. erhalten, die das Berichtsjahr betreffen? Gibt es im direkten Aufwand Rechnungen, die frühere Jahre betreffen?
@@ -323,14 +330,16 @@ Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Pro
 
 ## SCH3 Übriger betrieblicher Aufwand
 - Bitte erläutern Sie schriftlich die Gründe für die wesentlichen Abweichungen der aufgeführten Aufwandkonten gegenüber Vorjahr bzw. Budget (Liste beigelegt), inkl. Einmaleffekte und Umgliederungen.
-- Wurden sämtliche Leistungen des Berichtsjahres (z.B. Strom, Telefon, Treuhand, Revisionshonorar, Nebenkostenabrechnung) bis 31.12. verbucht oder passiv abgegrenzt? Wie stellen Sie die Vollständigkeit sicher?
+- Wurden sämtliche Leistungen des Berichtsjahres (z.B. Strom, Telefon, Treuhand, Revisionshonorar, Nebenkostenabrechnung) bis 31.12. verbucht oder passiv abgegrenzt? Wie stellen Sie die Vollständigkeit sicher? Bitte noch nicht verbuchte Eingangsrechnungen einreichen.
 - Wurden im Berichtsjahr bezahlte Aufwände für das Folgejahr (Miete, Versicherungen, Lizenzen, Abonnemente) aktiv abgegrenzt? Bitte Liste mit Belegen.
 - Enthält der übrige betriebliche Aufwand Leistungen an oder von Aktionären, Verwaltungsräten, Geschäftsleitung oder ihnen nahestehenden Personen (Honorare, Spesen, Fahrzeuge, Mieten)? Zu welchen Konditionen?
 - Wurden Kontenplan oder Kontenzuordnung zur Jahresrechnung gegenüber dem Vorjahr geändert (Umgliederungen zwischen Material-, Personal- und übrigem Aufwand)?
-- Enthalten Unterhalt, Reparaturen oder GWG-Konten wertvermehrende Investitionen? Welche Aktivierungsgrenze wenden Sie an?
-- Nach welchen Kriterien werden Aufwände und Rückerstattungen als ausserordentlich, einmalig, periodenfremd oder betriebsfremd statt im betrieblichen Aufwand ausgewiesen?
+- Wurden Unterhalts- oder Reparaturkosten aktiviert, oder enthalten Unterhalts-, Reparatur- und GWG-Konten wertvermehrende Investitionen? Welche Aktivierungsgrenze wenden Sie an, und wurde sie gegenüber dem Vorjahr geändert?
+- Nach welchen Kriterien werden Aufwände als ausserordentlich, einmalig, periodenfremd oder betriebsfremd statt im betrieblichen Aufwand ausgewiesen?
+- Werden Erträge (z.B. Untermiete, Weiterverrechnungen) mit Aufwandkonten verrechnet? Wie werden Rückerstattungen und Gutschriften (z.B. Nebenkostenabrechnung Vorjahr, Lieferantengutschriften) verbucht?
 - Besteht ein Budget oder Forecast für das Berichtsjahr? Bitte einreichen und angeben, wie es erstellt wurde.
 - Welche Miet-, Leasing- und anderen langfristigen Verträge bestehen (Laufzeit, Kündigungsfrist, Restverpflichtung per 31.12.)?
+- Werden Privatanteile an Geschäftsaufwendungen und Bezüge von Dienstleistungen aus dem Ausland (z.B. Software, IT-Dienstleistungen) mit der MWST abgerechnet?
 
 ## SCH4 Finanzaufwand und Finanzertrag
 - Welches sind die Gründe für die wesentlichen Veränderungen der Konten Finanzaufwand und Finanzertrag gegenüber dem Vorjahr (Zinsaufwand, Bankkommissionen/Garantien, Kursdifferenzen, Erträge Finanzanlagen)?
