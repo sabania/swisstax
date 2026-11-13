@@ -1,7 +1,7 @@
 # Prüffeld D1 – Detailwissen je Prüfschritt (Katalogtext: data/katalog.yaml). Jede Fundstelle: quelle = Chunk-Id, zitat = wörtlich.
 code: D1
 bezeichnung: Übrige kurzfristige Forderungen
-status: agent-geprueft
+status: extrahiert
 erfasst:
   agent: workflow revision-prueffelder-wissen
   datum: '2026-11-12'
@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 15
     korrigiert: false
-kurzbeschrieb: 'Kurzfristige Forderungen, die nicht aus Lieferungen und Leistungen stammen (MWST/VSt-Guthaben, Sozialversicherungen, Personal, Depots/Kautionen, geleistete Anzahlungen,
-  Darlehen/Kontokorrente an Nahestehende). Eingeschränkte Revision: Bestand und Bewertung via Befragung, Analytik, Detailprüfungen; Ausweis Nahestehender (Art. 959a Abs. 4 OR), Fristigkeit,
-  Einlagenrückgewähr (Art. 680 OR).'
+kurzbeschrieb: 'Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte D1-302/308 und 4xx nur auf Anweisung; keine Bestätigungen bei Dritten; Einlagenrückgewähr in P1-305. Inhalt:
+  MWST-/VSt-Guthaben, Sozialversicherungen, Personal, Kautionen, Anzahlungen, Darlehen an Nahestehende; Ausweis, Fristigkeit.'
 gesetz:
 - thema: 'Mindestgliederung: Position «übrige kurzfristige Forderungen» im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. c OR)'
   quelle: or__art-959a-t1
@@ -56,15 +55,29 @@ gesetz:
 - thema: 'Anhang: zur Sicherung eigener Verbindlichkeiten verwendete Aktiven (Art. 959c Abs. 2 Ziff. 9 OR)'
   quelle: or__art-959c-t2
   zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
-- thema: 'Fremdwährung: Umrechnungskurse im Anhang (Art. 958d Abs. 3 OR)'
+- thema: Umrechnungskurse im Anhang nur, wenn die Rechnungslegung nicht in Landeswährung erfolgt (Art. 958d Abs. 3 OR)
   quelle: or__art-958d
   zitat: Die verwendeten Umrechnungskurse sind im Anhang offenzulegen und gegebenenfalls zu erläutern.
+- thema: 'Rechnungslegung nicht in Landeswährung: Werte zusätzlich in Landeswährung angeben (Art. 958d Abs. 3 OR)'
+  quelle: or__art-958d
+  zitat: Wird nicht die Landeswährung verwendet, so müssen die Werte zusätzlich in der Landeswährung angegeben werden.
 - thema: 'Verbot der Einlagenrückgewähr (Art. 680 Abs. 2 OR; GmbH: Art. 793 Abs. 2 OR gemäss HWP ER)'
   quelle: or__art-680
   zitat: Ein Recht, den eingezahlten Betrag zurückzufordern, steht dem Aktionär nicht zu.
 - thema: Rückerstattungspflicht bei Missverhältnis von Leistung und Gegenleistung mit Nahestehenden (Art. 678 Abs. 2 OR)
   quelle: or__art-678
   zitat: soweit ein offensichtliches Missverhältnis zwischen Leistung und Gegenleistung besteht
+- thema: 'Covid-19-Kredit: während der Dauer der Solidarbürgschaft ausgeschlossen: Gewährung/Rückzahlung von Darlehen von Gesellschaftern und Nahestehenden; Ausnahme vorbestehende Verpflichtungen
+    ggü. Schweizer Gruppengesellschaften (Art. 2 Abs. 2 lit. b Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+- thema: 'Covid-19-Kredit: zulässig bleibt die Erfüllung vorbestehender Verpflichtungen ggü. verbundenen Gruppengesellschaften mit Sitz in der Schweiz (Art. 2 Abs. 2 lit. b Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: zulässig ist jedoch die Erfüllung von Verpflichtungen gegenüber einer mit der Kreditnehmerin oder dem Kreditnehmer direkt oder indirekt verbundenen Gruppengesellschaft mit Sitz
+    in der Schweiz, die vor Entstehung der Solidarbürgschaft bestanden haben
+- thema: 'Pflicht der Revisionsstelle bei Verletzung: Frist setzen, sonst GV informieren (Art. 23 Abs. 1 Covid-19-SBüG)'
+  quelle: covid-sbueg__art-23
+  zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
 risiken:
 - text: Ausgewiesene Forderungen bestehen nicht (mehr) oder sind nicht belegt (z.B. bereits verrechnete MWST/VSt, erledigte Anzahlungen).
   pruefziele:
@@ -131,8 +144,8 @@ risiken:
   pruefziele:
   - EX
   - BE
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
 - text: Verjährte Forderungen weiterhin bilanziert.
   pruefziele:
   - EX
@@ -153,9 +166,9 @@ unterlagen:
   quelle: ser-2022__anh-d-s089-1
   zitat: Abstimmung der MWST-Forderungen und -Verbindlichkeiten mit den Abrechnungen
 - dokument: Bank-Zinsabrechnungen mit Verrechnungssteuerabzug und Rückerstattungsantrag VSt
-  zweck: Nachweis VSt-Guthaben (D1-302 c)
-  quelle: treuhand-almanach-2026__s068-2
-  zitat: Der Antrag auf Rückerstattung der Verrechnungssteuer muss bei der zuständigen Behörde schriftlich beantragt werden.
+  zweck: Nachweis VSt-Guthaben (D1-301; D1-302 c nur auf Anweisung)
+  quelle: vstg__art-29
+  zitat: Wer Rückerstattung der Verrechnungssteuer beansprucht, hat sie bei der zuständigen Behörde schriftlich zu beantragen.
 - dokument: Schlussabrechnungen Sozialversicherungen (AHV/FAK, UVG, KTG, BVG)
   zweck: Nachweis allfälliger Guthaben gegenüber Sozialversicherungen (D1-302 b)
   quelle: hwp-bur-2023__rz-0154-s192
@@ -165,7 +178,7 @@ unterlagen:
   quelle: hwp-bur-2023__rz-0172-s195
   zitat: Die Bestandsermittlung erfolgt in der Regel durch Abstimmung mit Saldomeldungen oder Verträgen.
 - dokument: Analyse/Dokumentation des Verwaltungsrats zum Drittvergleich von Aktionärs-/Konzerndarlehen
-  zweck: Beurteilung Einlagenrückgewähr (D1-404)
+  zweck: Beurteilung Einlagenrückgewähr (P1-305; D1-404 nur auf Anweisung)
   quelle: hwp-er-2026__rz-0181-s218
   zitat: Die Revisionsstelle nimmt Einsicht in die Analyse, die der Verwaltungsrat oder die Geschäftsleitung erarbeitet hat.
 - dokument: Jahresrechnungen der Schuldner (nahestehende Personen, Beteiligungsgesellschaften)
@@ -270,6 +283,13 @@ bewertung:
 - regel: 'ESTV-Praxis: unverzinste oder ungenügend verzinste Darlehen an Beteiligte sind geldwerte Leistungen; ESTV-Zinssätze gelten als safe haven (Rundschreiben je Jahr).'
   quelle: estv-zinsen-2026__s002-1
   zitat: Diese Zinssätze gelten als „safe haven“.
+- regel: 'VSt-Guthaben: Der Anspruch erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Fälligkeitsjahres gestellt wird; ältere Guthaben ohne Antrag sind nicht werthaltig.'
+  quelle: vstg__art-32
+  zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
+    wird.
+- regel: 'VSt-Guthaben nur plausibel bei VSt-pflichtigem Ertrag: Zinsen von Kundenguthaben bis CHF 200 pro Kalenderjahr sind von der Steuer ausgenommen.'
+  quelle: vstg__art-5-t1
+  zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
 fallstricke:
 - text: Langfristig gesperrte Guthaben (z.B. Mietkaution mit Freigabe erst nach Ende eines mehrjährigen Mietverhältnisses) erfüllen das Kriterium Umlaufvermögen nicht; Klassierung prüfen
     und Umgliederungsvorschlag erfassen.
@@ -295,7 +315,8 @@ fallstricke:
 - text: Für Art. 680 OR zählen nur Forderungen mit Darlehenscharakter; konzerninterne LuL-Forderungen mit üblichen Zahlungszielen nicht.
   quelle: hwp-er-2026__rz-0167-s215
   zitat: Konzerninterne Forderungen aus Lieferungen und Leistungen, die aus einem operativen Leistungsaustausch mit üblichen Zahlungszielen entstanden sind
-- text: Im Wiki ist nur das ESTV-Rundschreiben Zinssätze 2026 (ab 1.1.2026) erfasst; für das Geschäftsjahr 2025 die Sätze des Rundschreibens 2025 beiziehen (nicht im Wiki, nicht übertragen).
+- text: 'Zinssätze Nahestehende je Kalenderjahr, nie übertragen: Zinsen 2026 nach ESTV-RS 2026 CHF (estv-zinsen-2026) bzw. Fremdwährung (estv-rs-2-219-2026); Zinsen 2025 nur aus Sekundärquelle
+    Treuhand-Almanach (`wert estv_zins_2025_vorschuss_an_beteiligte_fk` bzw. `wert estv_zins_2025_vorschuss_an_beteiligte_ek`), das Rundschreiben 2025 selbst fehlt im Wiki.'
   quelle: estv-zinsen-2026__s001-2
   zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
 - text: 'MWST: Vorsteuer und Umsatzsteuer werden gegenüber der ESTV über einen Saldo abgerechnet; Vorsteuerkonten mit Saldo 0 können korrekt sein, wenn auf ein Abrechnungskonto umgebucht
@@ -312,8 +333,15 @@ fallstricke:
 - text: Bei wesentlichen Positionen genügt die Befragung allein nicht; Antworten mit Analytik oder Detailprüfung ergänzen.
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
-- text: Unterjährig negative Saldi auf Forderungs-/Anzahlungskonten (Sammelbuchungen) können auf Fehlbuchungen oder Vermischung mit Kreditorenvorgängen hindeuten (Praxishinweis).
-- text: Der Agent schlägt Umgliederungen, Wertberichtigungen oder Anhangergänzungen nur vor (Pendenz/Feststellung); er bucht nicht und setzt kein Visum (Praxis gemäss Agentenrolle).
+- text: Unterjährig negative Saldi auf Forderungs-/Anzahlungskonten (Sammelbuchungen) können auf Fehlbuchungen oder Vermischung mit Kreditorenvorgängen hindeuten (Praxis/intern).
+- text: Der Agent schlägt Umgliederungen, Wertberichtigungen oder Anhangergänzungen nur vor (Pendenz/Feststellung); er bucht nicht und setzt kein Visum.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- text: Besteht ein Covid-19-Kredit (Prüffelder L1/N1), ist ein in D1-201 gefundenes Darlehen an Gesellschafter/Nahestehende, das während der Dauer der Solidarbürgschaft gewährt oder
+    erhöht wurde, eine mögliche Verletzung von Art. 2 Abs. 2 lit. b Covid-19-SBüG. Dann Notiz «Wesentliche Feststellungen» an den WP. Fristsetzung und Information der GV (Art. 23) entscheidet
+    der WP.
+  quelle: covid-sbueg__art-2-t1
+  zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
 fragen_kunde:
 - frage: Welche Geschäftsvorfälle liegen den wesentlichen übrigen Forderungen zugrunde (Gegenpartei, Entstehung, Fälligkeit, Sicherheiten)?
   zweck: 'D1-100: Hintergrund, Bestand und Werthaltigkeit; Klassierung kurz-/langfristig'
@@ -327,7 +355,7 @@ fragen_kunde:
   zweck: 'D1-201/D1-320: Vollständigkeit und gesonderter Ausweis nach Art. 959a Abs. 4 OR'
 - frage: Hat der Verwaltungsrat für Darlehen an Aktionäre/Nahestehende einen Drittvergleich (Vertrag, Zins, Rückzahlung, Sicherheiten, Bonität) vorgenommen und dokumentiert? Bitte Unterlagen
     zustellen.
-  zweck: 'D1-404: Beurteilung Einlagenrückgewähr; D1-306 Bonität'
+  zweck: 'P1-305 (D1-404 nur auf Anweisung): Beurteilung Einlagenrückgewähr; D1-306 Bonität'
 - frage: Wie werden Darlehen/Kontokorrente mit Nahestehenden verzinst, wann wird abgerechnet und ist der Zins per Stichtag abgegrenzt?
   zweck: 'D1-304: Verzinsung und Periodenabgrenzung'
 - frage: Welche geleisteten Anzahlungen betreffen bis zum Bilanzstichtag bereits erfolgte Lieferungen/Leistungen, und wann wurden bzw. werden die übrigen Geschäfte abgewickelt?
@@ -340,6 +368,8 @@ fragen_kunde:
   zweck: 'D1-321: Bestand und Veränderung stiller Reserven'
 - frage: Wurde der Antrag auf Rückerstattung der Verrechnungssteuer gestellt bzw. wann wird er gestellt?
   zweck: 'D1-302 c: Nachweis VSt-Guthaben'
+- frage: Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Betrag, Datum, Rückzahlungsstand)?
+  zweck: 'D1-201: Darlehen an Gesellschafter/Nahestehende während der Solidarbürgschaft (Art. 2 Abs. 2 lit. b Covid-19-SBüG)'
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
   bezug: 'D1-202, D1-301, D1-303: Konten der Gruppe «Übrige kurzfristige Forderungen» (1050, 1193, 1170, 1171, 1176, 1192) mit Saldo 31.12.2025 und Vorjahr'
@@ -385,13 +415,13 @@ testakte_2025:
   bezug: D1-201 (Protokolle zur Bestimmung Nahestehender)
 schritte:
 - id: D1-100
-  vorgehen: Aus Saldoliste/Hauptbuch alle Konten der Gruppe «Übrige kurzfristige Forderungen» mit Saldo erfassen und wesentliche Posten (Toleranzwesentlichkeit, Auffälligkeit) bestimmen.
-    Je Posten Frage an Kunde als Pendenz erfassen (Art, Gegenpartei, Entstehung, Fälligkeit, Sicherheit). Schriftliche Antwort im Textfeld zusammenfassen; bei wesentlichen Posten mit
-    Analytik/Belegen ergänzen.
+  vorgehen: 'Aus Saldoliste/Hauptbuch alle Konten der Gruppe «Übrige kurzfristige Forderungen» mit Saldo erfassen und wesentliche Posten (≥ Toleranzwesentlichkeit, Auffälligkeit) bestimmen.
+    Nicht selbst befragen: vorhandene schriftliche Antworten (10.11, Vollständigkeitserklärung, Protokolle) auswerten. Fehlt eine Antwort, je Posten Frage (Art, Gegenpartei, Entstehung,
+    Fälligkeit, Sicherheit) als Notiz «Pendenz» (Versand durch WP). Wesentliche Posten mit Belegen (D1-301) erhärten. Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Saldoliste 31.12.
   - Kontoblätter der Forderungskonten
-  - Schriftliche Antwort des Kunden (Pendenz)
+  - Schriftliche Antworten (10.11, Vollständigkeitserklärung, Protokolle)
   rechnen: Saldo je Konto ≥ Toleranzwesentlichkeit → wesentlich (Befragung allein nicht ausreichend)
   feststellung_wenn: Hintergrund einer wesentlichen Forderung unklar oder unplausibel, Antwort fehlt oder Posten gehört nicht in die Position (LuL, Anlagevermögen, Beteiligung).
   fundstellen:
@@ -401,9 +431,12 @@ schritte:
     zitat: Die wesentlichen Fragen und Antworten sind zu dokumentieren.
   - quelle: hwp-er-2026__rz-0105-s198
     zitat: stützt sich der Abschlussprüfer bei wesentlichen Jahresabschlussposten nicht nur auf Befragungen ab
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: D1-101
-  vorgehen: 'Frage an Kunde als Pendenz: Sind Forderungen/Guthaben verpfändet, abgetreten, zum Inkasso gegeben oder gesperrt? Antwort mit Bankbestätigungen, Kautions-/Depotbestätigungen
-    und Verträgen abgleichen. Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven im Textfeld festhalten und an D1-320 übergeben.'
+  vorgehen: 'Nicht selbst befragen: schriftliche Antworten (10.11, Vollständigkeitserklärung) auswerten, sonst Frage als Notiz «Pendenz» (Versand durch WP): Sind Forderungen/Guthaben
+    verpfändet, abgetreten, zum Inkasso gegeben oder gesperrt? Antwort mit beim Unternehmen vorhandenen Bank-, Kautions-/Depotbestätigungen und Verträgen abgleichen. Gesamtbetrag der
+    zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven im Textfeld festhalten und an D1-320 übergeben. Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Schriftliche Antwort des Kunden
   - Bank-/Kautionsbestätigungen
@@ -416,9 +449,12 @@ schritte:
     zitat: Befragung, ob Forderungen verpfändet, abgetreten oder zum Inkasso gegeben worden sind
   - quelle: or__art-959c-t2
     zitat: je der Gesamtbetrag der zur Sicherung eigener Verbindlichkeiten verwendeten Aktiven sowie der Aktiven unter Eigentumsvorbehalt
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: D1-102
-  vorgehen: 'Ergebnisse aus D1-202 auswerten: wesentliche Abweichungen je Konto gegenüber Vorjahr oder Erwartung (neue/aufgelöste Konten, starke Veränderungen, Vorzeichenwechsel) als
-    Fragen an Kunde erfassen. Schriftliche Erklärungen kritisch würdigen, mit Hauptbuch/Belegen plausibilisieren und je Abweichung Ursache und Beurteilung im Textfeld festhalten.'
+  vorgehen: 'Ergebnisse aus D1-202 auswerten: wesentliche Abweichungen je Konto gegenüber Vorjahr oder Erwartung (neue/aufgelöste Konten, starke Veränderungen, Vorzeichenwechsel): vorhandene
+    schriftliche Erklärungen (10.11, Protokolle) auswerten, fehlende als Notiz «Pendenz» (Versand durch WP). Schriftliche Erklärungen kritisch würdigen, mit Hauptbuch/Belegen plausibilisieren
+    und je Abweichung Ursache und Beurteilung im Textfeld festhalten. Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Vorjahresvergleich (D1-202)
   - Schriftliche Erklärungen des Kunden
@@ -430,10 +466,12 @@ schritte:
     zitat: Besprechung wesentlicher Abweichungen einzelner Forderungen gegenüber früheren Perioden oder gegenüber den Erwartungen
   - quelle: ser-2022__6-1-1-t2
     zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: D1-201
-  vorgehen: Kreis der Beteiligten, Organe und Beteiligungsgesellschaften aus Aktienbuch, HR-Auszug, Unternehmensinformationen und GV-/VR-Protokollen bestimmen. Alle Forderungskonten,
-    Debitoren-OP-Liste und Buchungstexte nach diesen Namen durchsuchen (auch ausserhalb D1). Treffer mit Betrag, Grundlage und Ausweis (Bilanz/Anhang) auflisten und an D1-304, D1-320,
-    D1-404 übergeben.
+  vorgehen: 'Kreis der Beteiligten, Organe und Beteiligungsgesellschaften aus Aktienbuch, HR-Auszug, Unternehmensinformationen und GV-/VR-Protokollen bestimmen. Alle Forderungskonten,
+    Debitoren-OP-Liste und Buchungstexte nach diesen Namen durchsuchen (auch ausserhalb D1). Treffer mit Betrag, Grundlage und Ausweis (Bilanz/Anhang) auflisten und an D1-304, D1-320
+    und P1-305 (Einlagenrückgewähr, EP: `pruefschritt P1-305`) übergeben.'
   nachweise:
   - Aktienbuch
   - Handelsregisterauszug
@@ -443,7 +481,8 @@ schritte:
   - Kontoblätter
   - Darlehensverträge
   rechnen: Σ Forderungen ggü. Beteiligten/Organen bzw. Beteiligungsgesellschaften = gesonderter Ausweis Bilanz/Anhang
-  feststellung_wenn: Forderung gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften nicht gesondert ausgewiesen oder unter falscher Position (z.B. LuL) bilanziert.
+  feststellung_wenn: Forderung gegenüber Beteiligten, Organen oder Beteiligungsgesellschaften nicht gesondert ausgewiesen oder unter falscher Position (z.B. LuL) bilanziert; oder Darlehen
+    an Gesellschafter/Nahestehende, gewährt während eines bestehenden Covid-19-Kredits.
   fundstellen:
   - quelle: ser-2022__anh-d-s077-1
     zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
@@ -451,6 +490,10 @@ schritte:
     zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
   - quelle: or__art-959a-t2
     zitat: an denen direkt oder indirekt eine Beteiligung besteht, müssen jeweils gesondert in der Bilanz oder im Anhang ausgewiesen werden.
+  - quelle: hwp-er-2026__rz-0180-s218
+    zitat: Bei Anzeichen auf einen Verstoss gegen das Verbot der Einlagenrückgewähr sind die notwendigen Prüfungshandlungen vorzunehmen
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
 - id: D1-202
   vorgehen: Saldoliste Geschäftsjahr und Vorjahr je Konto gegenüberstellen (Betrag, Veränderung absolut/%). Neue, aufgelöste, stark veränderte Konten und Saldo 0 bzw. Vorzeichenwechsel
     markieren; Erwartung formulieren (z.B. MWST-Periode, VSt auf Zinsen, Anzahlungen gemäss Bestellungen). Vorjahreszahlen mit Vorjahresabschluss abstimmen; Abweichungen an D1-102 übergeben.
@@ -468,8 +511,9 @@ schritte:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen
 - id: D1-301
-  vorgehen: Bilanzposition gemäss Jahresrechnung mit Summe der Hauptbuchkonten (Saldoliste) abstimmen, danach jeden Kontosaldo mit dem Einzelnachweis (Abrechnung, Bestätigung, Vertrag,
-    Abstimmungsblatt) vergleichen. Differenzen und fehlende Einzelnachweise je Konto im Textfeld dokumentieren bzw. als PBC-Pendenz erfassen.
+  vorgehen: 'Bilanzposition gemäss Jahresrechnung mit Summe der Hauptbuchkonten (Saldoliste) abstimmen, danach jeden Kontosaldo mit dem Einzelnachweis (Abrechnung, Bestätigung, Vertrag,
+    Abstimmungsblatt) vergleichen. Differenzen und fehlende Einzelnachweise je Konto im Textfeld dokumentieren bzw. als PBC-Pendenz erfassen. Konto VSt: Einzelnachweis = Zins-/Dividendenabrechnung
+    mit VSt-Abzug; prüfen, ob der Ertrag brutto verbucht ist und der Antrag innert drei Jahren nach Ablauf des Fälligkeitsjahres gestellt ist bzw. noch möglich ist.'
   nachweise:
   - Jahresrechnung
   - Saldoliste
@@ -484,10 +528,17 @@ schritte:
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
+  - quelle: vstg__art-25
+    zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
+  - quelle: vstg__art-32
+    zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
+      wird.
 - id: D1-302
-  vorgehen: 'Je Konto Nachweis in M-Files suchen: a) vom Kunden vorgelegte Saldobestätigung, b) SV-Abrechnung, c) VSt-Antrag/Zinsabrechnung, d) Vertrag/Zinsabrechnung, e) Anzahlung:
-    Bestellung, Kaufvertrag, Rechnung, Zahlung, Lieferantenrechnung n.R., f) andere (MWST-Abrechnung, Depotbestätigung). Betrag, Datum, Gegenpartei vergleichen; Fehlendes als PBC-Pendenz.
-    Umfang legt WP risikobasiert fest.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Ohne Anweisung läuft
+    der Bestandesnachweis wesentlicher Konten über D1-301. Mit Anweisung: Je Konto Nachweis in M-Files suchen: a) vom Kunden vorgelegte Saldobestätigung, b) SV-Abrechnung, c) VSt-Antrag/Zinsabrechnung,
+    d) Vertrag/Zinsabrechnung, e) Anzahlung: Bestellung, Kaufvertrag, Rechnung, Zahlung, Lieferantenrechnung n.R., f) andere (MWST-Abrechnung, Depotbestätigung). Betrag, Datum, Gegenpartei
+    vergleichen; Fehlendes als PBC-Pendenz. Keine Bestätigungen bei Dritten (Bank, Sozialversicherungen, ESTV, Steueramt) anfordern; nur beim Unternehmen vorhandene Abrechnungen/Bestätigungen
+    verwenden.'
   nachweise:
   - Saldo-/Richtigbefundsanzeigen
   - Abrechnungen Sozialversicherungen
@@ -498,6 +549,8 @@ schritte:
   rechnen: Saldo Konto − bestätigter bzw. abgerechneter Betrag gemäss Nachweis = Differenz je Konto
   feststellung_wenn: Kein geeigneter Nachweis für wesentlichen Saldo, Betrag weicht ab oder Nachweis zeigt andere Gegenpartei/Art des Geschäfts (Fehlklassierung).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: hwp-bur-2023__rz-0158-s192
     zitat: Der Bestand anderer Guthaben bzw. Verbindlichkeiten kann auch anhand von Abrechnungen und anderen geeigneten Unterlagen
   - quelle: ser-2022__anh-d-s077-2
@@ -505,16 +558,22 @@ schritte:
   - quelle: ser-2022__anh-d-s089-1
     zitat: Abstimmung der MWST-Forderungen und -Verbindlichkeiten mit den Abrechnungen
   - quelle: hwp-er-2026__rz-0134-s203
-    zitat: das Einholen von Bestätigungen von Dritten (Bank-, Debitoren- oder Kreditorenbestätigungen
+    zitat: Prüfungshandlungen genannt, welche nicht Gegenstand der eingeschränkten Revision sind und auf die daher zu verzichten ist
+  - quelle: hwp-er-2026__rz-0134-s203
+    zitat: Saldobestätigungen von MWST, AHV, SUVA , BVG/PK und Steuerämtern
 - id: D1-303
-  vorgehen: Alle Forderungskonten und Personenkonten/OP-Listen auf Habensaldi per Stichtag prüfen; unterjährige Habensaldi als Hinweis auf Fehlbuchungen vermerken. Habensaldi, die Verbindlichkeiten
-    darstellen, zur Umgliederung in übrige kurzfristige Verbindlichkeiten vorschlagen (Sollsalden aus Kreditoren umgekehrt). Zulässige Saldoverrechnung (z.B. MWST) separat begründen.
+  vorgehen: '(1) Forderungskonten und Debitoren-/Personenkonten auf Habensaldi per Stichtag prüfen → Umgliederung in übrige kurzfristige Verbindlichkeiten vorschlagen. (2) Saldoliste
+    der Verbindlichkeitskonten (Kreditoren, Sozialversicherungen, MWST/Steuern, Personal) auf Sollsaldi durchsehen. Netto-Sollsaldi je Gegenpartei (Verrechnung geboten, wenn nur über
+    einen Saldo abgerechnet wird) festhalten: Ist das Guthaben durch eine Abrechnung belegt, Umgliederung in übrige kurzfristige Forderungen als Notiz vorschlagen, sonst Notiz «Pendenz».
+    Hinweis an M1/K1 (M1-406/K1-406 sind 4xx). (3) Zulässige Saldoverrechnung (z. B. MWST gegenüber ESTV) separat begründen. Unterjährige Vorzeichenwechsel als Hinweis vermerken.'
   nachweise:
   - Saldoliste
   - Kontoblätter
   - Debitoren-/Kreditoren-OP-Listen
-  rechnen: Σ Habensaldi je Konto/Personenkonto per 31.12. = Umgliederungsbetrag
-  feststellung_wenn: Wesentliche Habensaldi mit Forderungen verrechnet (Verstoss Verrechnungsverbot) oder Ursache negativer Saldi ungeklärt.
+  - Saldoliste Passiven (Kreditoren, SV, MWST, Personal)
+  rechnen: Σ Habensaldi Forderungskonten = Umgliederung an Verbindlichkeiten; Σ Netto-Sollsaldi je Gegenpartei in Verbindlichkeitskonten = mögliche Umgliederung an Forderungen
+  feststellung_wenn: Wesentliche Habensaldi mit Forderungen verrechnet (Verstoss Verrechnungsverbot) oder Ursache negativer Saldi ungeklärt; oder wesentliche Netto-Sollsaldi in Verbindlichkeitskonten
+    nicht als übrige kurzfristige Forderungen ausgewiesen.
   fundstellen:
   - quelle: or__art-958c
     zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
@@ -522,10 +581,15 @@ schritte:
     zitat: Eine Saldierung von Forderungen und Verbindlichkeiten in der Bilanz ist unzulässig
   - quelle: hwp-bur-2023__rz-0155-s192
     zitat: Sollsalden aus den Verbindlichkeiten aus Lieferungen und Leistungen sind als übrige kurzfristige Forderungen
+  - quelle: hwp-bur-2023__rz-0154-s192
+    zitat: Forderungen und Verbindlichkeiten gegenüber Sozialversicherungen
+  - quelle: hwp-bur-2023__rz-0163-s193
+    zitat: geboten ist eine Verrechnung dann, wenn mit der Gegenpartei nur über eine Saldo
 - id: D1-304
-  vorgehen: Für verzinsliche Kontokorrente/Darlehen (v.a. Konzern, Aktionäre, Organe) Vertrag, Zinssatz und Zinsperiode erheben; Zins nachrechnen und mit Zinsertrag bzw. Marchzinsabgrenzung
-    abstimmen. Satz mit ESTV-Rundschreiben Zinssätze des Geschäftsjahres vergleichen; Unterschreitung oder fehlender Vertrag als Hinweis auf geldwerte Leistung/Steuerrisiko im Textfeld
-    vermerken.
+  vorgehen: 'Für verzinsliche Kontokorrente/Darlehen (v.a. Konzern, Aktionäre, Organe) Vertrag, Zinssatz und Zinsperiode erheben; Zins nachrechnen und mit Zinsertrag bzw. Marchzinsabgrenzung
+    abstimmen. Mindestsatz mit `wert zinssatz darlehen` (2026) bzw. `wert estv_zins_2025_vorschuss_an_beteiligte_fk` (2025) bestimmen: Hat die Gesellschaft verzinsliches Fremdkapital,
+    gelten Selbstkosten + Zuschlag (mindestens Tabellensatz), sonst der EK-Satz. FW-Darlehen: RS 2-219, mindestens der CHF-Satz. Satz nur als Steuerpraxis (safe haven) verwenden. Unterschreitung
+    oder fehlender Vertrag als Hinweis auf geldwerte Leistung/Steuerrisiko im Textfeld vermerken.'
   nachweise:
   - Darlehens-/Kontokorrentverträge
   - Zinsabrechnungen
@@ -540,6 +604,16 @@ schritte:
     zitat: Transaktionen mit nahestehenden Personen möglicherweise nicht zu marktüblichen Bedingungen abgewickelt werden und dies steuerliche Risiken implizieren kann
   - quelle: or__art-958b
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: estv-zinsen-2026__s002-1
+    zitat: aus Eigenkapital finanziert und wenn kein Fremdkapital verzinst werden muss
+  - quelle: estv-zinsen-2026__s002-1
+    zitat: aus Fremdkapital finanziert
+  - quelle: estv-rs-2-219-2026__s002-1
+    zitat: Ist die Kapitalgesellschaft oder Genossenschaft verzinsliche Verpflichtungen eingegangen
+  - quelle: estv-rs-2-219-2026__s002-1
+    zitat: so ist mindestens der entsprechende Zinssatz für Schweizer Franken zu berücksichtigen
+  - quelle: treuhand-almanach-2026__s065-1
+    zitat: 2024 2025 2026 mindestens mindestens mindestens 1,50 % 1,00 % 0,75 %
 - id: D1-305
   vorgehen: Forderungskonten und Einzelposten in Fremdwährung identifizieren. Verwendete Stichtagskurse mit Jahresendkursen gemäss Bankunterlagen vergleichen und Umrechnung nachrechnen;
     bei langfristigen Posten prüfen, dass keine unrealisierten Kursgewinne erfasst sind. Ohne Fremdwährungsposten «nicht anwendbar» im Textfeld vermerken.
@@ -590,14 +664,17 @@ schritte:
   - quelle: or__art-960
     zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
 - id: D1-308
-  vorgehen: 'Weitergehende Prüfungshandlung, nur bei Hinweisen oder erhöhtem Risiko auf Entscheid des WP: Kontoblätter der übrigen Forderungskonten in neuer Rechnung bis zum Prüfungsdatum
-    auf Ausbuchungen, Gutschriften, Storni und Umbuchungen gegen Aufwand durchsehen, die Bestände per Stichtag betreffen. Fehlen Kontoblätter neue Rechnung, PBC-Pendenz erfassen.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP vorbereiten; ohne Anweisung Status «nicht bearbeitet – WP-Schritt», Hinweise für den WP als Notiz. Mit Anweisung: Kontoblätter
+    der übrigen Forderungskonten in neuer Rechnung bis zum Prüfungsdatum auf Ausbuchungen, Gutschriften, Storni und Umbuchungen gegen Aufwand durchsehen, die Bestände per Stichtag betreffen.
+    Fehlen Kontoblätter neue Rechnung, PBC-Pendenz erfassen.'
   nachweise:
   - Kontoblätter neue Rechnung der D1-Konten
   - Belege zu Ausbuchungen/Gutschriften
   rechnen: Σ Ausbuchungen/Gutschriften n.R. zu Beständen per 31.12. − gebuchte Wertberichtigung = ungedeckter Betrag
   feststellung_wenn: Wesentliche Ausbuchung oder Gutschrift in neuer Rechnung zu einer Forderung per Stichtag ohne entsprechende Wertberichtigung oder Korrektur.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s077-2
     zitat: Durchsicht der Konten in neuer Rechnung auf auffällige Beträge, die darauf hindeuten, dass Forderungen des Vorjahres ausgebucht wurden
   - quelle: hwp-er-2026__rz-0132-s203
@@ -605,7 +682,8 @@ schritte:
       anzunehmen sind
 - id: D1-320
   vorgehen: 'Anhang auf Angaben zu übrigen Forderungen prüfen: gesonderter Ausweis gegenüber Beteiligten/Organen und Beteiligungsgesellschaften (aus D1-201), Gesamtbetrag verpfändeter/gesperrter
-    Aktiven (aus D1-101), Erläuterungen zu wesentlichen Positionen, ggf. Umrechnungskurse. Fehlende oder abweichende Angaben mit Betrag im Textfeld festhalten.'
+    Aktiven (aus D1-101), Erläuterungen zu wesentlichen Positionen, Umrechnungskurse nur bei Rechnungslegung in Fremdwährung (Art. 958d Abs. 3 OR). Fehlende oder abweichende Angaben
+    mit Betrag im Textfeld festhalten.'
   nachweise:
   - Anhang der Jahresrechnung
   - Ergebnisse D1-101 und D1-201
@@ -647,9 +725,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben, wie beispielsweise wichtige Verträge
 - id: D1-401
-  vorgehen: 'Kontoblätter der übrigen Forderungskonten auf ungewöhnliche Buchungen durchsehen: Gegenkonten Erfolgsrechnung, Sammel- und Korrekturbuchungen, untypische Buchungstexte (z.B.
-    Beteiligungskauf auf Anzahlungskonto), runde Beträge, Jahresendbuchungen. Ausgewählte Buchungen mit Beleg abgleichen (Inhalt, Betrag, Datum, Kontierung) und Ergebnis im Textfeld
-    festhalten.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung: Kontoblätter der übrigen
+    Forderungskonten auf ungewöhnliche Buchungen durchsehen: Gegenkonten Erfolgsrechnung, Sammel- und Korrekturbuchungen, untypische Buchungstexte (z.B. Beteiligungskauf auf Anzahlungskonto),
+    runde Beträge, Jahresendbuchungen. Ausgewählte Buchungen mit Beleg abgleichen (Inhalt, Betrag, Datum, Kontierung) und Ergebnis im Textfeld festhalten.'
   nachweise:
   - Kontoblätter
   - Buchungsbelege
@@ -657,6 +735,8 @@ schritte:
   rechnen: Σ Buchungen mit Gegenkonto Erfolgsrechnung je Konto; Betrag Buchung = Betrag Beleg
   feststellung_wenn: Buchung ohne Beleg, falsch kontiert (Fehlklassierung Bilanz/Erfolgsrechnung) oder Geschäftsvorfall gehört nicht in die Position.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0116-s201
@@ -664,9 +744,9 @@ schritte:
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
 - id: D1-402
-  vorgehen: Für wesentliche Zugänge auf Anzahlungskonten Bestellung/Auftragsbestätigung bzw. Vertrag, Anzahlungsrechnung und Zahlungsbeleg beiziehen. Prüfen, ob die Anzahlung vereinbart
-    ist, Betrag und Gegenpartei übereinstimmen und eine Vorleistung für Waren/Leistungen vorliegt (nicht Beteiligungskauf, Aufwand o.ä.). Abweichungen und Fehlklassierungen im Textfeld
-    dokumentieren.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung: Für wesentliche Zugänge
+    auf Anzahlungskonten Bestellung/Auftragsbestätigung bzw. Vertrag, Anzahlungsrechnung und Zahlungsbeleg beiziehen. Prüfen, ob die Anzahlung vereinbart ist, Betrag und Gegenpartei
+    übereinstimmen und eine Vorleistung für Waren/Leistungen vorliegt (nicht Beteiligungskauf, Aufwand o.ä.). Abweichungen und Fehlklassierungen im Textfeld dokumentieren.'
   nachweise:
   - Bestellungen/Auftragsbestätigungen
   - Kaufverträge
@@ -675,6 +755,8 @@ schritte:
   rechnen: Anzahlung = vereinbarter %-Satz × Bestellwert; Betrag Konto = Betrag Rechnung/Zahlung
   feststellung_wenn: Anzahlung ohne Bestellung/Vertrag, Betrag oder Gegenpartei weicht ab oder Geschäftsvorfall ist keine Anzahlung (Fehlklassierung).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-bur-2023__rz-0190-s202
     zitat: Die Bestandsermittlung erfolgt aufgrund von Verträgen, Korrespondenzen, Zahlungs
   - quelle: hwp-bur-2023__rz-0188-s202
@@ -682,8 +764,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0192-s203
     zitat: Die geleisteten Anzahlungen sind nach Verwendungszweck im Umlauf- (Waren) oder Anlagevermögen (Immobilien, Maschinen) auszuweisen.
 - id: D1-403
-  vorgehen: 'Anzahlungskonto objektweise auflösen: welche Anzahlungen per Stichtag sind durch Lieferung/Schlussrechnung bereits erfüllt? Lieferscheine und Schlussrechnungen bis Stichtag
-    und in neuer Rechnung prüfen; erfüllte, nicht ausgebuchte Anzahlungen (Doppelerfassung mit Kreditor/Vorrat/Anlage) sowie alte Posten ohne Bewegung auflisten.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung», Hinweise für den WP als Notiz. Mit Anweisung: Anzahlungskonto objektweise
+    auflösen: welche Anzahlungen per Stichtag sind durch Lieferung/Schlussrechnung bereits erfüllt? Lieferscheine und Schlussrechnungen bis Stichtag und in neuer Rechnung prüfen; erfüllte,
+    nicht ausgebuchte Anzahlungen (Doppelerfassung mit Kreditor/Vorrat/Anlage) sowie alte Posten ohne Bewegung auflisten.'
   nachweise:
   - Objektweise Aufstellung Anzahlungen
   - Schlussrechnungen/Lieferscheine
@@ -691,14 +774,17 @@ schritte:
   rechnen: Offene Anzahlung je Objekt = Σ Anzahlungen − Σ verrechnete Schlussrechnungen; Σ offene Posten = Saldo Konto
   feststellung_wenn: Anzahlung nach erfolgter Lieferung nicht ausgeglichen, Saldo nicht objektweise nachweisbar oder alter Posten ohne Abwicklung.
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
   - quelle: hwp-bur-2023__rz-0189-s202
     zitat: Bei Erfüllung der vorausbezahlten Lieferungen und Leistungen ist das Anzahlungs
   - quelle: hwp-bur-2023__rz-0189-s202
     zitat: für Anzahlungen im Hauptbuch oder in einem Neben
 - id: D1-404
-  vorgehen: 'Forderungen mit Darlehenscharakter an Aktionäre und Nahestehende (up-/cross-stream, aus D1-201) summieren und dem freien Eigenkapital gegenüberstellen. Übersteigen sie es:
-    Drittvergleich anhand der VR-Analyse prüfen (Vertrag, Zins, Rückzahlung, Sicherheiten, Bonität); fehlt diese, Pendenz. Ergebnis und Auswirkung auf Gewinnverwendungsantrag/Bericht
-    dem WP vorlegen.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung des WP; ohne Anweisung Status «nicht bearbeitet – nur auf Anweisung» und Ergebnis aus D1-201 (Forderungen mit Darlehenscharakter an Beteiligte/Nahestehende:
+    Betrag, Vertrag, Zins) als Notiz an den WP und an P1-305 übergeben (`pruefschritt P1-305`, dort wird die Einlagenrückgewähr beurteilt). Mit Anweisung: Forderungen mit Darlehenscharakter
+    an Aktionäre und Nahestehende (up-/cross-stream, aus D1-201) summieren und dem freien Eigenkapital gegenüberstellen. Übersteigen sie es: Drittvergleich anhand der VR-Analyse prüfen
+    (Vertrag, Zins, Rückzahlung, Sicherheiten, Bonität); fehlt diese, Pendenz. Ergebnis und Auswirkung auf Gewinnverwendungsantrag/Bericht dem WP vorlegen.'
   nachweise:
   - Aufstellung Aktionärsforderungen
   - Darlehensverträge
@@ -709,6 +795,10 @@ schritte:
   feststellung_wenn: Aktionärsforderungen übersteigen freies Eigenkapital und Drittvergleich nicht bestanden oder nicht dokumentiert (möglicher Verstoss Art. 680 Abs. 2 OR; Entscheid
     WP).
   fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0180-s218
+    zitat: Bei Anzeichen auf einen Verstoss gegen das Verbot der Einlagenrückgewähr sind die notwendigen Prüfungshandlungen vorzunehmen
   - quelle: hwp-er-2026__rz-0167-s215
     zitat: ist das freie Eigenkapital mit dem Total der Forderungen gegenüber Aktionären zu vergleichen
   - quelle: hwp-er-2026__rz-0168-s215

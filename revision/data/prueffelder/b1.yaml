@@ -127,8 +127,8 @@ risiken:
   pruefziele:
   - VO
   - PA
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
 - text: Offene Devisentermingeschäfte ohne Absicherungszweck mit negativem Marktwert nicht als Verbindlichkeit/Rückstellung erfasst.
   pruefziele:
   - BE
@@ -175,6 +175,8 @@ unterlagen:
   zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
 - dokument: Zins- und Kapitalausweise der Banken mit Verrechnungssteuerabzug
   zweck: Prüfung Bruttoverbuchung Zinsen und VSt-Guthaben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
 - dokument: Kredit-, Rahmen- und Kontokorrentverträge inkl. Limiten; Bankkorrespondenz
   zweck: Kreditlimiten, Sicherheiten, Bedingungen
   quelle: ser-2022__anh-d-s085-1
@@ -249,9 +251,10 @@ bewertung:
 - regel: 'Ohne Ausübung des Wahlrechts: Folgebewertung höchstens zu Anschaffungskosten (Niederstwertprinzip).'
   quelle: or__art-960a
   zitat: In der Folgebewertung dürfen Aktiven nicht höher bewertet werden als zu den Anschaffungs- oder Herstellungskosten.
-- regel: Nach HWP setzt der Ausweis unter dieser Position die Bewertung zum Kurs am Bilanzstichtag voraus; Kursgewinne/-verluste gelten als realisiert.
-  quelle: hwp-bur-2023__rz-0015-s158
-  zitat: Kurzfristig gehaltene Aktiven mit Börsenkurs oder beobachtbarem Marktpreis sind zum Börsenkurs oder zum beobachtbaren Marktpreis am Bilanzstichtag zu bewerten
+- regel: 'Unter B1 nur Aktiven, die liquid gehandelt UND zum Kurs am Stichtag bewertet werden (HWP). Werden Wertschriften unter B1 zu Anschaffungs- oder Niederstwert geführt: Ausweis
+    und Bewertung als Hinweis an den WP, keine eigene Umgliederung.'
+  quelle: hwp-bur-2023__rz-0011-s157
+  zitat: sofern diese an einer Börse oder einem aktiven Markt liquid gehandelt und entsprechend bewertet werden
 - regel: Bei Kursbewertung Schwankungsreserve zulässig (zulasten Erfolgsrechnung), gesamthaft in Bilanz oder Anhang gesondert auszuweisen.
   quelle: or__art-960b
   zitat: so darf eine Wertberichtigung zulasten der Erfolgsrechnung gebildet werden, um Schwankungen im Kursverlauf Rechnung zu tragen
@@ -291,24 +294,29 @@ bewertung:
   quelle: hwp-bur-2023__rz-0016-s159
   zitat: empfiehlt sich aus Gründen der Klarheit ein getrennter Ausweis in der Bilanz oder im Anhang
 - regel: 'Verrechnungssteuer: Satz 35 % auf Kapitalerträgen (Art. 13 VStG).'
-  quelle: treuhand-almanach-2026__s068-1
-  zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-- regel: 'Verrechnungssteuer: Ausnahmen von der Steuerpflicht nach Art. 5 VStG beachten; nicht jeder Zins unterliegt der VSt.'
-  quelle: treuhand-almanach-2026__s068-1
-  zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
+  quelle: vstg__art-13
+  zitat: 35 Prozent der steuerbaren Leistung
+- regel: VSt nur auf Zinsen von Kundenguthaben bei inländischen Banken/Sparkassen; keine VSt, wenn der Zins eines Kundenguthabens CHF 200 je Kalenderjahr nicht übersteigt und nur einmal
+    pro Kalenderjahr vergütet wird (Art. 4 Abs. 1 lit. d, Art. 5 Abs. 1 lit. c VStG, Art. 16 VStV).
+  quelle: vstg__art-5-t1
+  zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
 - regel: 'Verrechnungssteuer: Rückerstattung an juristische Personen nur bei ordnungsgemässer Verbuchung der belasteten Erträge als Ertrag.'
-  quelle: treuhand-almanach-2026__s069-2
-  zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  quelle: vstg__art-25
+  zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
+- regel: 'Verrechnungssteuer: Rückerstattungsantrag innert 3 Jahren nach Ablauf des Fälligkeitsjahres, sonst erloschen (Art. 32 VStG).'
+  quelle: vstg__art-32
+  zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
+    wird.
 fallstricke:
 - text: Bankbestätigungen selbst einholen ist nicht Teil der eingeschränkten Revision; der Agent fordert keine Bestätigungen bei Banken an und verwendet nur beim Unternehmen vorhandene
     Bestätigungen.
   quelle: hwp-er-2026__rz-0095-s196
   zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
-- text: Weitergehende Handlungen (Durchsicht Geldkonti, Belegprüfung Wertschriften, Eigentumsrechte, Befragung zu aussergewöhnlichen Transaktionen) nur bei Hinweisen auf Fehlaussagen
-    oder erhöhtem inhärentem Risiko; Begründung dokumentieren.
-  quelle: hwp-er-2026__rz-0132-s203
-  zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
-    anzunehmen sind
+- text: 'SER: weitergehende Handlungen (Durchsicht Geldkonti, Belegprüfung Wertschriften, Eigentumsrechte, Befragung zu aussergewöhnlichen Transaktionen) bei Hinweisen auf Fehlaussagen
+    oder erhöhtem inhärentem Risiko. Ob sie durchgeführt werden, entscheidet der WP (Auswahl im Prüfprogramm bzw. Anweisung); der Agent meldet solche Hinweise als Notiz.'
+  quelle: ser-2022__anh-d-s074-1
+  zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen oder ein erhöhtes inhärentes Risiko für eine Fehlaussage
+    in einer Position der Jahresrechnung besteht
 - text: 'WP-Schritte (Katalog: B1-102, 201, 202, 309, 310) bereitet der Agent nur vor, wenn der WP dies vorsieht; Entscheid ist offen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
@@ -351,8 +359,8 @@ fallstricke:
   zitat: Wer von diesem Recht Gebrauch macht, muss alle Aktiven der entsprechenden Positionen der Bilanz, die einen beobachtbaren Marktpreis aufweisen, zum Kurs oder Marktpreis am Bilanzstichtag
     bewerten.
 - text: VSt-Hochrechnung (Netto / 0.65) nicht pauschal auf alle Zinsen anwenden; nur bei Zinsen mit VSt-Abzug gemäss Ausweis (Ausnahmen Art. 5 VStG).
-  quelle: treuhand-almanach-2026__s068-1
-  zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
+  quelle: vstg__art-5-t1
+  zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
 - text: Der Agent kann keine Kassenaufnahme durchführen; er stützt sich auf das Protokoll des Kunden und erfasst bei Fehlen eine Pendenz.
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: nur auf Anweisung, physische Tätigkeiten nie
@@ -447,9 +455,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: höchstens «teilweise bearbeitet»
 - id: B1-102
-  vorgehen: 'Weitergehend (WP): nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko bzw. auf Anweisung des WP; Begründung dokumentieren. Vorhandene schriftliche
-    Antworten (z. B. 10.11) zu aussergewöhnlichen Geldtransaktionen auswerten, sonst Frage als Pendenz; Status höchstens «teilweise bearbeitet». Antwort mit Auffälligkeiten aus B1-305
-    abgleichen; Frage und Antwort dokumentieren.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»; Auffälligkeiten aus
+    anderen Schritten (z.B. B1-301, B1-305) nur als Notiz für den WP. Mit Anweisung: vorhandene schriftliche Antworten (z. B. 10.11) zu aussergewöhnlichen Geldtransaktionen auswerten,
+    sonst Frage als Pendenz; Status höchstens «teilweise bearbeitet». Antwort mit Auffälligkeiten aus B1-305 abgleichen; Frage und Antwort dokumentieren.'
   nachweise:
   - Schriftliche Antwort der Unternehmensleitung
   - Hauptbuch Geldkonten
@@ -469,9 +477,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: B1-201
-  vorgehen: 'WP-Schritt (Katalog): nur auf Anweisung des WP oder bei Hinweisen auf wesentliche Fehlaussagen bzw. erhöhtem inhärentem Risiko; Begründung dokumentieren. Kasse X/X-1 und
-    Monatsverlauf (Hauptbuch) vergleichen, Höhe gegenüber Geschäftstätigkeit beurteilen; negative Zwischensalden, hohe Bestände, Sprünge und unverbuchte Belege per Stichtag als Frage
-    erfassen. Im Textfeld: Bestände, Veränderung, Erwartung, Ergebnis.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»; Auffälligkeiten aus
+    anderen Schritten (z.B. B1-301, B1-305) nur als Notiz für den WP. Mit Anweisung: Kasse X/X-1 und Monatsverlauf (Hauptbuch) vergleichen, Höhe gegenüber Geschäftstätigkeit beurteilen;
+    negative Zwischensalden, hohe Bestände, Sprünge und unverbuchte Belege per Stichtag als Frage erfassen. Im Textfeld: Bestände, Veränderung, Erwartung, Ergebnis.'
   nachweise:
   - Saldoliste Vorjahr/aktuell
   - Kontoblatt Kasse
@@ -485,15 +493,12 @@ schritte:
     zitat: Physische Bestandsaufnahmen und Abstimmung mit den Kassenbüchern.
   - quelle: hwp-bur-2023__rz-0014-s158
     zitat: Auf den Bilanzstichtag sind alle unverbuchten Belege (Spesenvorschüsse etc.) aufzuarbeiten
-  - quelle: hwp-er-2026__rz-0132-s203
-    zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
-      anzunehmen sind
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: B1-202
-  vorgehen: 'WP-Schritt (Katalog): nur auf Anweisung des WP oder bei Hinweisen auf wesentliche Fehlaussagen bzw. erhöhtem inhärentem Risiko; Begründung dokumentieren. Überträge zwischen
-    Geldkonten um den Stichtag aus Hauptbuch und Auszügen Dez./Jan. auflisten, Belastung und Gutschrift paaren, Valuta-Datum vergleichen; Geld unterwegs, Doppel- und Nichterfassungen
-    erkennen. Im Textfeld: Überträge, Paarung, offene Posten.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»; Auffälligkeiten aus
+    anderen Schritten (z.B. B1-301, B1-305) nur als Notiz für den WP. Mit Anweisung: Überträge zwischen Geldkonten um den Stichtag aus Hauptbuch und Auszügen Dez./Jan. auflisten, Belastung
+    und Gutschrift paaren, Valuta-Datum vergleichen; Geld unterwegs, Doppel- und Nichterfassungen erkennen. Im Textfeld: Überträge, Paarung, offene Posten.'
   nachweise:
   - Hauptbuch Geldkonten Dezember
   - Bankauszüge Dezember und Januar Folgejahr
@@ -505,24 +510,25 @@ schritte:
     zitat: Flüssige Mittel unterwegs (in Transit) sind in der Regel unter den flüssigen Mitteln zu erfassen.
   - quelle: hwp-bur-2023__rz-0014-s158
     zitat: Hierbei ist auf das Valuta-Datum abzustellen.
-  - quelle: hwp-er-2026__rz-0132-s203
-    zitat: Die weitergehenden Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn entweder nach Durchführung von empfohlenen Prüfungshandlungen wesentliche Fehlaussagen
-      anzunehmen sind
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: B1-301
   vorgehen: 'Je Geldkonto Saldo Hauptbuch 31.12. mit Nachweis per Stichtag abstimmen: Kassabuch/Kassenaufnahmeprotokoll, PC-/Bankauszug, Festgeldkorrespondenz, Depotauszug; bei Differenzen
     Kunden-Überleitung einsehen. Auszug auf anderen Stichtag oder unverbuchte Belege als Pendenz. Vollständigkeit der Konti mit Bankenliste abgleichen. Im Textfeld: Konto, Buchsaldo,
-    Nachweissaldo, Differenz, Dokument (M-Files-ID).'
+    Nachweissaldo, Differenz, Dokument (M-Files-ID). Je Konto die Einstufung festhalten: Kasse, Sichtguthaben und Festgeld mit Fälligkeit bis 31.03. des Folgejahres = B1. Festgeld mit
+    späterer Fälligkeit, Kautions-/Sperrkonten mit eingeschränkter Verfügbarkeit, WIR-Verrechnung und Anbieter ohne Banklizenz → Hinweis auf Ausweis unter übrigen kurzfristigen Forderungen
+    (Entscheid WP). Verpfändete Konten bleiben B1 (nur Anhang, B1-101/B1-320).'
   nachweise:
   - Saldoliste/Hauptbuch
   - Kassabuch und Kassenaufnahmeprotokoll
   - Bank-/PC-Auszüge per 31.12.
   - Festgeldbestätigungen
   - Depotauszug per 31.12.
-  rechnen: 'Je Konto: Saldo Hauptbuch 31.12. = Saldo Nachweis ± Überleitungsposten; Summe Konten flüssige Mittel = Bilanzposition'
-  feststellung_wenn: Differenz Buch-/Nachweissaldo ohne Überleitung, kein Stichtagsnachweis (Pendenz), ungebuchtes Konto oder Guthaben ohne Qualifikation als flüssige Mittel (z. B. ohne
-    Banklizenz, WIR) unter B1.
+  rechnen: 'Je Konto: Saldo Hauptbuch 31.12. = Saldo Nachweis ± Überleitungsposten; Summe Konten flüssige Mittel = Bilanzposition; Festgeld: Fälligkeitsdatum ≤ 31.03. des Folgejahres
+    (Restlaufzeit ≤ 3 Monate ab 31.12.)'
+  feststellung_wenn: 'Differenz Buch-/Nachweissaldo ohne Überleitung: unter der Nichtaufgriffsgrenze (revio 3.3) nur im Textfeld protokollieren, ab NAG Notiz «Wesentliche Feststellungen»
+    mit Buchungsvorschlag; kein Stichtagsnachweis → Pendenz; ungebuchtes Konto; Guthaben ohne Einstufung als flüssige Mittel (Festgeld > 3 Monate, Kaution, WIR, ohne Banklizenz) unter
+    B1.'
   fundstellen:
   - quelle: ser-2022__anh-d-s074-1
     zitat: Abstimmung der Bestände mit Kassenbüchern, Bank- und PC-Auszügen oder Wertschriftenverzeichnissen (ggf. Einsichtnahme in die vom Kunden erstellten Abstimmungen)
@@ -534,6 +540,18 @@ schritte:
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
   - quelle: hwp-bur-2023__rz-0005-s156
     zitat: Forderungen gegenüber Organisationen ohne Banklizenz
+  - quelle: hwp-bur-2023__rz-0003-s156
+    zitat: die eine Restlaufzeit von höchstens drei Monaten ab Bilanzstichtag aufweisen
+  - quelle: hwp-bur-2023__rz-0009-s157
+    zitat: sind nicht unter den flüssigen Mitteln, sondern unter den übrigen kurzfristigen Forderungen auszuweisen
+  - quelle: hwp-bur-2023__rz-0008-s157
+    zitat: Konten mit eingeschränkter Verfügbarkeit (z.B. Kautionskonten) sind ggf. unter den Forderungen auszuweisen.
+  - quelle: hwp-bur-2023__rz-0008-s157
+    zitat: Verpfändete Konten oder Konten, auf welchen die Bank ein Verrechnungsrecht im Rahmen einer Cash-Pool-Rahmenvereinbarung hat, qualifizieren hingegen als flüssige Mittel.
+  - quelle: hwp-bur-2023__rz-0006-s156
+    zitat: Nicht zu den flüssigen Mitteln gehören Verrechnungsforderungen gegenüber der WIR-Bank
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
 - id: B1-302
   vorgehen: 'Für alle Fremdwährungskonten (Kasse, Bank) Währungssaldo und angewandten Kurs aus der Buchhaltung mit dem Jahresendkurs gemäss Bankauszug oder Kursliste per 31.12. vergleichen
     und den CHF-Wert nachrechnen. Kursdifferenzen mit den Konten Kursgewinn/-verlust plausibilisieren. Im Textfeld: Konto, FW-Saldo, Kurs Buchhaltung, Kurs Quelle, CHF-Differenz.'
@@ -555,29 +573,38 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: B1-303
-  vorgehen: 'Zins-/Kapitalausweise mit Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zins brutto erfasst, VSt als Forderung gebucht, Periode korrekt. VSt-Rechnung nur
-    für Zinsen mit VSt-Abzug gemäss Ausweis (Ausnahmen Art. 5 VStG); im Zweifel Frage an den WP. Erwarteten Zins aus Ø Guthaben × Zinssatz plausibilisieren. Im Textfeld: Konto, Bruttozins,
-    VSt, Buchung, Differenz.'
+  vorgehen: 'Zins-/Kapitalausweise mit Buchungen auf Zinsertrag/-aufwand und VSt-Guthaben abgleichen: Zins brutto erfasst, VSt als Forderung gebucht, Periode korrekt. VSt nur für Zinsen
+    mit VSt-Abzug gemäss Ausweis rechnen. Kein Abzug zu erwarten bei Zinsen ≤ CHF 200 je Kundenguthaben und Kalenderjahr (einmalige Vergütung) sowie bei ausländischen Banken. VSt-Guthaben
+    aus Fälligkeitsjahren mit abgelaufener Frist: Hinweis (Rückerstattung erloschen, Werthaltigkeit in D1 prüfen). Im Zweifel Frage an den WP. Erwarteten Zins aus Ø Guthaben × Zinssatz
+    plausibilisieren. Im Textfeld: Konto, Bruttozins, VSt, Buchung, Differenz.'
   nachweise:
   - Zins-/Kapitalausweise der Banken
   - Kontoblätter Zinsertrag/-aufwand
   - Kontoblatt Verrechnungssteuerguthaben
   rechnen: 'Nur Zinsen mit VSt-Abzug gemäss Ausweis: VSt = Bruttozins × 35 %; Bruttozins = Nettogutschrift / 0.65; Summe VSt lt. Ausweisen = Saldo VSt-Konto. Alle Zinsen: erwarteter
-    Zins = Ø Guthaben × Zinssatz'
+    Zins = Ø Guthaben × Zinssatz. Anspruch erloschen, wenn Antragsjahr > Fälligkeitsjahr + 3.'
   feststellung_wenn: 'Bei Zinsen mit VSt-Abzug: netto gebucht oder VSt-Guthaben fehlt/nicht abgestimmt; ferner Zins in falscher Periode oder unplausible Abweichung zum Erwartungswert.'
   fundstellen:
   - quelle: ser-2022__anh-d-s095-1
     zitat: Vergleich des Finanzaufwands und -ertrags mit den erwarteten Werten aufgrund der verzinslichen Aktiven und Passiven
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: in Art. 5 VStG die entsprechenden Ausnahmen aufgeführt
-  - quelle: treuhand-almanach-2026__s069-2
-    zitat: juristischen Personen mit Sitz in der Schweiz, sofern sie die mit der Verrechnungssteuer belasteten Einkünfte ordnungsgemäss als Ertrag verbucht haben
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: vstg__art-4
+    zitat: der Kundenguthaben bei inländischen Banken und Sparkassen
+  - quelle: vstg__art-5-t1
+    zitat: die Zinsen von Kundenguthaben, wenn der Zinsbetrag für ein Kalenderjahr 200 Franken nicht übersteigt
+  - quelle: vstv__art-16
+    zitat: Die Freigrenze nach Artikel 5 Absatz 1 Buchstabe c VStG gilt für Zinsbeträge, die für das Kundenguthaben einmal pro Kalenderjahr vergütet werden.
+  - quelle: vstg__art-25
+    zitat: welche die mit der Verrechnungssteuer belasteten Einkünfte nicht ordnungsgemäss als Ertrag verbuchen, verwirken den Anspruch auf Rückerstattung
+  - quelle: vstg__art-32
+    zitat: Der Anspruch auf Rückerstattung erlischt, wenn der Antrag nicht innert drei Jahren nach Ablauf des Kalenderjahres, in dem die steuerbare Leistung fällig geworden ist, gestellt
+      wird.
 - id: B1-304
   vorgehen: Entwicklung flüssige Mittel und Bankkredite (X/X-1, Monatsverlauf) analysieren; Kreditlimiten aus Verträgen/Auszügen mit Beanspruchung per Stichtag vergleichen; Kontokorrentkredite
     müssen kurzfristig ausgewiesen sein. Hinweise auf Liquiditätsengpass oder verletzte Kreditbedingungen festhalten und an die Fortführungsbeurteilung melden; Einhaltung der Kreditbedingungen
-    als Frage (Pendenz) erfassen.
+    als Frage (Pendenz) erfassen. Monatsverlauf und Kennzahlen aus revio 1.2 lesen (rv_get_financialStatement_LoadCashflowDetail, rv_get_financialStatement_LoadKeyFigureView). Befund
+    als Hinweis zu A1-205 (Going Concern) notieren.
   nachweise:
   - Saldoliste/Hauptbuch Geldkonten und Bankkredite
   - Kredit-/Kontokorrentverträge mit Limiten
@@ -595,15 +622,18 @@ schritte:
     zitat: Kontokorrentkredite sind stets als kurzfristig auszuweisen.
   - quelle: ser-2022__anh-d-s085-1
     zitat: Befragung, ob die Unternehmensleitung Bestimmungen von Darlehensverträgen (z. B. Kennzahlen in Kreditverträgen) nicht eingehalten hat
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 1.2 Kennzahlen und Dashboard
 - id: B1-305
-  vorgehen: 'Gemäss SER weitergehend: nur bei Hinweisen auf Fehlaussagen oder erhöhtem inhärentem Risiko bzw. auf Anweisung des WP; Begründung dokumentieren. Geldkonti durchsehen: Buchungen
-    über Toleranzwesentlichkeit, runde Beträge, unübliche Gegenkonten, Nahestehende, Storni, Stichtagsbuchungen. Hintergrund mit Belegen/Verträgen klären, offene Punkte als Frage erfassen;
-    Auswahlkriterien und Ergebnis dokumentieren.'
+  vorgehen: 'Vorbereiten, falls im Prüfprogramm markiert (3xx, keine WP-Kennzeichnung). SER führt die Durchsicht als weitergehende Handlung; den Umfang nach Risiko 3.1 und Strategie
+    3.5 festlegen, Vorgaben des WP übernehmen und die Auswahl im Textfeld begründen. Geldkonti durchsehen: Buchungen über Toleranzwesentlichkeit, runde Beträge, unübliche Gegenkonten,
+    Nahestehende, Storni, Stichtagsbuchungen. Hintergrund mit Belegen/Verträgen klären, offene Punkte als Frage erfassen; Auswahlkriterien und Ergebnis dokumentieren.'
   nachweise:
   - Hauptbuch Geldkonten
   - Belege und Verträge zu ausgewählten Buchungen
   - Antworten der Unternehmensleitung
-  rechnen: 'Auswahl: Buchungen ≥ Toleranzwesentlichkeit oder ungewöhnlich; Summe ausgewählter Buchungen / Total Bewegungen = Abdeckung'
+  rechnen: 'Auswahl (Vorschlag Konzept, offener Entscheid consis): alle Buchungen ≥ Toleranzwesentlichkeit (revio 3.3) + ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe,
+    Nahestehende) + weitere nach Risiko 3.1; Abdeckung = Summe Auswahl / Total Bewegungen (mit `rechne`).'
   feststellung_wenn: Buchung ohne geschäftlichen Grund, ohne Beleg, zugunsten Nahestehender ohne Grundlage oder in falscher Periode.
   fundstellen:
   - quelle: ser-2022__anh-d-s074-1
@@ -614,6 +644,14 @@ schritte:
     zitat: Unterlagen im Bereich der flüssigen Mittel (Durchsicht der Geldkonten auf ungewöhnliche Buchungen)
   - quelle: hwp-er-2026__rz-0161-s212
     zitat: Beurteilung des wirtschaftlichen Hintergrunds vorhandener wesentlicher Transaktionen mit nahestehenden Personen
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: übernimmt Vorgaben des Wirtschaftsprüfers pro Mandat oder Prüffeld
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Ablauf je Schritt: Ziel und Prüfziele lesen → Risiko und Strategie aus 3.1 und 3.5 berücksichtigen'
 - id: B1-306
   vorgehen: 'Bankkorrespondenz und Bankverträge (Kontokorrent-, Kredit-, Pfand-, Garantie-, Depotverträge) in M-Files einsehen: Konten, Limiten, Sicherheiten, Garantien zugunsten Dritter,
     Kündigungen. Erkenntnisse mit Buchhaltung und Anhang abgleichen. Im Textfeld: Vertrag, Datum, relevante Bestimmungen, Auswirkung.'
@@ -631,9 +669,10 @@ schritte:
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung über Bestand und Veränderungen von Bürgschaften, Garantieverpflichtungen und Pfandbestellungen zugunsten Dritter
 - id: B1-307
-  vorgehen: 'Frage nach offenen Devisenkontrakten und Absicherungszweck als Pendenz erfassen; vorhandene Kontraktübersicht/Bankbewertung per 31.12. in M-Files auswerten (kein Kundenkontakt).
-    Methode feststellen: Niederstwert oder Marktwert, einheitlich je Position; mit Absicherungszweck wahlweise Hedge Accounting. Negativer Marktwert ohne Absicherungszweck als Verbindlichkeit/Rückstellung;
-    bei Marktwertbewertung Anhanghinweis.'
+  vorgehen: 'Zuerst Saldoliste, Bankauszüge, vorhandene Bankbestätigungen sowie schriftliche Antworten (10.11, VE) auf Devisentermingeschäfte/Derivate durchsehen. Keine Hinweise: Status
+    «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (keine offenen Kontrakte gemäss <Quelle, M-Files-ID>)», Entscheid WP. Nur wenn die Information fehlt: Frage als Pendenz
+    (mit B1-101 zusammenfassen). Vorhandene Kontraktübersicht/Bankbewertung per 31.12. in M-Files auswerten (kein Kundenkontakt). Methode feststellen: Niederstwert oder Marktwert, einheitlich
+    je Position; mit Absicherungszweck wahlweise Hedge Accounting. Negativer Marktwert ohne Absicherungszweck als Verbindlichkeit/Rückstellung; bei Marktwertbewertung Anhanghinweis.'
   nachweise:
   - Kontraktübersicht/Bankbewertung per 31.12. (in M-Files)
   - Kontrakte/Abrechnungen
@@ -658,17 +697,21 @@ schritte:
     zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
   - quelle: hwp-er-2026__rz-0137-s203
     zitat: Die eingeschränkte Revision beschränkt sich auf die im Unternehmen intern vorhandenen Unterlagen.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: B1-308
-  vorgehen: 'Für kurzfristig gehaltene Wertschriften Anzahl und Kurs der Buchhaltung mit Depotauszug bzw. Jahresendkursen per 31.12. vergleichen und Wert nachrechnen. Grundsatz feststellen
-    (Art. 960b OR einheitlich je Position oder höchstens Anschaffungswert), Schwankungsreserve samt Obergrenze prüfen, eigene Aktien im Bestand feststellen. Im Textfeld: Titel, Anzahl,
-    Kurs Buchhaltung, Kurs Quelle, Differenz.'
+  vorgehen: 'Keine Wertschriften bzw. Aktiven mit Börsenkurs in Saldoliste und Depotauszügen: Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar», Entscheid WP. Sonst:
+    Für kurzfristig gehaltene Wertschriften Anzahl und Kurs der Buchhaltung mit Depotauszug bzw. Jahresendkursen per 31.12. vergleichen und Wert nachrechnen. Grundsatz feststellen (Art.
+    960b OR einheitlich je Position oder höchstens Anschaffungswert), Schwankungsreserve samt Obergrenze prüfen, eigene Aktien im Bestand feststellen. Im Textfeld: Titel, Anzahl, Kurs
+    Buchhaltung, Kurs Quelle, Differenz.'
   nachweise:
   - Depotauszug per 31.12.
   - Kursliste Jahresendkurse
   - Wertschriftenverzeichnis der Buchhaltung (Anschaffungswerte)
   rechnen: 'Anzahl × Jahresendkurs (× Devisenkurs) = Soll-Bilanzwert; Differenz = Buchwert – Soll-Bilanzwert; ohne Art. 960b: Buchwert ≤ Anschaffungswert; Schwankungsreserve ≤ Kurswert
-    – min(Anschaffungswert; Kurswert)'
-  feststellung_wenn: Abweichung über Nicht-Aufgriffsgrenze, uneinheitliche Bewertung, Schwankungsreserve über Obergrenze, eigene Aktien unter B1 oder Kursbewertung ohne Anhanghinweis.
+    – min(Anschaffungswert; Kurswert); Wertschriften unter B1 zu Anschaffungswert → Hinweis Ausweis (HWP Rz 11)'
+  feststellung_wenn: Abweichung über Nicht-Aufgriffsgrenze, uneinheitliche Bewertung, Schwankungsreserve über Obergrenze, eigene Aktien unter B1 oder Kursbewertung ohne Anhanghinweis,
+    oder Wertschriften unter B1 nicht zum Kurs bewertet (Hinweis Ausweis, Entscheid WP).
   fundstellen:
   - quelle: ser-2022__anh-d-s074-1
     zitat: Vergleich der für die Bewertung angewandten Börsenkurse mit den entsprechenden Jahresendkursen von Banken, Börsen oder anderen Quellen
@@ -684,9 +727,14 @@ schritte:
     zitat: Eigene Kapitalanteile, die das bilanzierende Unternehmen selbst hält, sind als Minusposten im Eigenkapital auszuweisen
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung nach Bestand, Erwerb und Veräusserung eigener Anteile
+  - quelle: hwp-bur-2023__rz-0011-s157
+    zitat: sofern diese an einer Börse oder einem aktiven Markt liquid gehandelt und entsprechend bewertet werden
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: B1-309
-  vorgehen: 'Weitergehend (WP): wesentliche Käufe/Verkäufe von Wertschriften aus Hauptbuch auswählen und mit Börsenabrechnung abgleichen (Titel, Anzahl, Kurs, Spesen, Datum, Gegenbuchung);
-    realisierte Gewinne/Verluste nachvollziehen. Auswahlkriterium und Ergebnis dokumentieren.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»; Auffälligkeiten aus
+    anderen Schritten (z.B. B1-301, B1-305) nur als Notiz für den WP. Mit Anweisung: wesentliche Käufe/Verkäufe von Wertschriften aus Hauptbuch auswählen und mit Börsenabrechnung abgleichen
+    (Titel, Anzahl, Kurs, Spesen, Datum, Gegenbuchung); realisierte Gewinne/Verluste nachvollziehen. Auswahlkriterium und Ergebnis dokumentieren.'
   nachweise:
   - Börsenabrechnungen
   - Hauptbuch Wertschriften und Finanzerfolg
@@ -699,8 +747,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
 - id: B1-310
-  vorgehen: 'Weitergehend (WP): auf Depot-/Kontoauszügen und Verträgen Inhaber der Konten und Wertschriften prüfen (lautet auf das Unternehmen, nicht auf Aktionäre/Dritte); Treuhand-,
-    Sammel- oder Drittdepots und Sicherungsübereignungen klären. Ergebnis je Konto/Depot dokumentieren.'
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP bearbeiten. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt»; Auffälligkeiten aus
+    anderen Schritten (z.B. B1-301, B1-305) nur als Notiz für den WP. Mit Anweisung: auf Depot-/Kontoauszügen und Verträgen Inhaber der Konten und Wertschriften prüfen (lautet auf das
+    Unternehmen, nicht auf Aktionäre/Dritte); Treuhand-, Sammel- oder Drittdepots und Sicherungsübereignungen klären. Ergebnis je Konto/Depot dokumentieren.'
   nachweise:
   - Depot-/Kontoauszüge mit Inhaberangabe
   - Kontoeröffnungs-/Depotverträge
@@ -714,7 +763,9 @@ schritte:
     zitat: Nachweis durch Wertschriftenverzeichnis einer Bank oder Inventar.
 - id: B1-320
   vorgehen: 'Anhang auf Angaben aus diesem Prüffeld prüfen: verpfändete/abgetretene Aktiven (Art. 959c Abs. 2 Ziff. 9 OR), Sicherheiten für Dritte (Ziff. 8), bei Kursbewertung Hinweis,
-    Gesamtwert je Wertschriften/übrige Aktiven gesondert und Schwankungsreserve (Art. 960b OR), Umrechnungskurse bei Fremdwährungsabschluss. Beträge mit B1-101/306/308 abgleichen.'
+    Gesamtwert je Wertschriften/übrige Aktiven gesondert und Schwankungsreserve (Art. 960b OR), Umrechnungskurse bei Fremdwährungsabschluss. Beträge mit B1-101/306/308 abgleichen. Bilanzbezeichnung
+    prüfen: Enthält die Position nur flüssige Mittel, muss sie «Flüssige Mittel» heissen; bei Wertschriften ist ein getrennter Ausweis in Bilanz oder Anhang empfohlen (Hinweis, keine
+    Feststellung).'
   nachweise:
   - Anhang der Jahresrechnung
   - Ergebnisse B1-101, B1-306, B1-308
@@ -729,23 +780,28 @@ schritte:
     zitat: Der Gesamtwert der entsprechenden Aktiven muss für Wertschriften und übrige Aktiven mit beobachtbarem Marktpreis je gesondert offengelegt werden.
   - quelle: or__art-959c-t2
     zitat: der Gesamtbetrag der für Verbindlichkeiten Dritter bestellten Sicherheiten
+  - quelle: hwp-bur-2023__rz-0016-s159
+    zitat: ist die Position aus Gründen der Klarheit mit «Flüssige Mittel» zu bezeichnen
 - id: B1-322
-  vorgehen: 'Dauerakte nachführen: Liste der Bankbeziehungen und Konten (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträge, Zeichnungsberechtigungen, Bewertungsgrundsatz Wertschriften.
-    Neue/geänderte Dokumente in M-Files verknüpfen; Änderungen gegenüber Vorjahr im Textfeld nennen.'
+  vorgehen: Dauerakten lesen (revio Dauerakten, M-Files) und mit aktuellen Bankverträgen, Kontenliste (inkl. Online-Konten), Kredit-, Pfand- und Garantieverträgen, Zeichnungsberechtigungen
+    und dem Bewertungsgrundsatz Wertschriften vergleichen. Dauerakten nicht ändern und nichts verknüpfen (offener Entscheid consis). Änderungen gegenüber dem Vorjahr im Textfeld auflisten
+    (Dokument, M-Files-ID); Aktualisierungsbedarf als Notiz «Pendenz».
   nachweise:
   - Dauerakte Vorjahr
   - Aktuelle Bankverträge und Kontenliste
   rechnen: ''
-  feststellung_wenn: Keine Feststellung; fehlende Verträge oder ungeklärte Änderungen als Pendenz erfassen.
+  feststellung_wenn: Keine Feststellung; Aktualisierungsbedarf und fehlende Verträge als Pendenz.
   fundstellen:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen
   - quelle: ser-2022__7-3
     zitat: Diese enthalten insbesondere über mehrere Jahre gültige wichtige Verträge, Registerauszüge, Statuten usw.
+  - quelle: konzept-ki-revisionsagent-2026__c006-1
+    zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
 - id: B1-401
-  vorgehen: 'Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Keine eigenen Bankbestätigungen anfordern. Vom Unternehmen eingeholte Bestätigungen:
-    Herkunft dokumentieren, je Bank Konten, Salden, Kredite, Garantien, Sicherheiten mit Hauptbuch und Anhang abgleichen. Fehlen sie: als nicht anwendbar vorschlagen (Entscheid WP);
-    Vollständigkeit über Auszüge/Antworten belegen.'
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Keine eigenen Bankbestätigungen anfordern.
+    Vom Unternehmen eingeholte Bestätigungen: Herkunft dokumentieren, je Bank Konten, Salden, Kredite, Garantien, Sicherheiten mit Hauptbuch und Anhang abgleichen. Fehlen sie: als nicht
+    anwendbar vorschlagen (Entscheid WP); Vollständigkeit über Auszüge/Antworten belegen.'
   nachweise:
   - Vom Unternehmen eingeholte Bankbestätigungen
   - Hauptbuch/Saldoliste
@@ -764,9 +820,12 @@ schritte:
     zitat: Prüfungshandlungen, die nicht Bestandteil einer eingeschränkten Revision darstellen
   - quelle: ser-2022__anh-d-s074-2
     zitat: Einholen von Bestätigungen zu Salden und Wertschriftenbeständen von Banken oder anderen Dritten
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: B1-402
-  vorgehen: Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Je Bank bzw. Kontoanbieter beurteilen, ob Hinweise auf Zahlungsschwierigkeiten, fehlende
-    Banklizenz oder Transferrestriktionen bestehen (öffentliche Informationen, Korrespondenz). Ergebnis je Institut knapp dokumentieren; Zweifel als Frage an den WP erfassen.
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Je Bank bzw. Kontoanbieter beurteilen,
+    ob Hinweise auf Zahlungsschwierigkeiten, fehlende Banklizenz oder Transferrestriktionen bestehen (öffentliche Informationen, Korrespondenz). Ergebnis je Institut knapp dokumentieren;
+    Zweifel als Frage an den WP erfassen.'
   nachweise:
   - Liste der Banken/Kontoanbieter
   - Bankkorrespondenz
@@ -782,9 +841,12 @@ schritte:
     zitat: Forderungen gegenüber Organisationen ohne Banklizenz
   - quelle: or__art-960
     zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: B1-404
-  vorgehen: 'Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Stichprobe von Ein- und Ausgängen auf den Geldkonten (risikoorientiert, über Toleranzwesentlichkeit)
-    mit Bankauszug und Grundbeleg abgleichen: Betrag, Datum, Gegenpartei, Kontierung, Echtheit. Auswahl, Stichprobengrösse und Ergebnis dokumentieren.'
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Stichprobe von Ein- und Ausgängen auf
+    den Geldkonten (risikoorientiert, über Toleranzwesentlichkeit) mit Bankauszug und Grundbeleg abgleichen: Betrag, Datum, Gegenpartei, Kontierung, Echtheit. Auswahl, Stichprobengrösse
+    und Ergebnis dokumentieren.'
   nachweise:
   - Hauptbuch Geldkonten
   - Bankauszüge
@@ -800,9 +862,11 @@ schritte:
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0116-s201
     zitat: Echtheit des Belegs (insbesondere bei nur in elektronischer Form vorliegenden Belegen)
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: B1-405
-  vorgehen: 'Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Für ausgewählte Zahlungen die zugrunde liegenden Unterlagen einsehen (Vertrag, Bestellung,
-    Rechnung, Beschluss): Verpflichtung des Unternehmens, wirtschaftlicher Grund, richtige Periode. Ergebnis je Zahlung dokumentieren.'
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Für ausgewählte Zahlungen die zugrunde
+    liegenden Unterlagen einsehen (Vertrag, Bestellung, Rechnung, Beschluss): Verpflichtung des Unternehmens, wirtschaftlicher Grund, richtige Periode. Ergebnis je Zahlung dokumentieren.'
   nachweise:
   - Verträge, Bestellungen, Rechnungen
   - VR-/GV-Beschlüsse bei Zahlungen an Organe/Aktionäre
@@ -816,9 +880,13 @@ schritte:
     zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
   - quelle: or__art-957a
     zitat: Als Buchungsbeleg gelten alle schriftlichen Aufzeichnungen auf Papier oder in elektronischer oder vergleichbarer Form
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: B1-406
-  vorgehen: 'Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Eröffnungssalden 01.01. der Geldkonten mit Schlusssalden der Vorjahresrechnung (geprüft,
-    falls vorhanden) und Schlusssalden 31.12. mit Saldoliste und Bilanz abstimmen. Im Textfeld: Konto, Vorjahr, Eröffnung, Schlusssaldo, Bilanzwert, Differenz.'
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Mit Anweisung: Eröffnungs- und Schlusssalden
+    aller Konten werden in A1-302/A1-303 abgestimmt; Ergebnis für die Geldkonten von dort übernehmen statt doppelt rechnen. Nur falls dort kein Ergebnis vorliegt: Eröffnungssalden 01.01.
+    der Geldkonten mit Schlusssalden der Vorjahresrechnung (geprüft, falls vorhanden) und Schlusssalden 31.12. mit Saldoliste und Bilanz abstimmen. Im Textfeld: Konto, Vorjahr, Eröffnung,
+    Schlusssaldo, Bilanzwert, Differenz.'
   nachweise:
   - Jahresrechnung Vorjahr
   - Saldoliste/Hauptbuch
@@ -834,9 +902,12 @@ schritte:
     zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: B1-407
-  vorgehen: Nur auf Anweisung des WP; ohne Anweisung Schritt offen lassen (Hinweis als Pendenz). Interne Überträge Kasse/Post/Banken im Jahresverlauf aus dem Hauptbuch filtern, Abgang
-    und Zugang paaren; Transfer-/Geldtransitkonto per 31.12. auf Nullsaldo bzw. erklärte Restposten prüfen. Nicht gepaarte Überträge als Frage erfassen.
+  vorgehen: 'Nur auf Anweisung des WP. Ohne Anweisung: kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – nur auf Anweisung», keine Pendenz. Interne Überträge Kasse/Post/Banken
+    im Jahresverlauf aus dem Hauptbuch filtern, Abgang und Zugang paaren; Transfer-/Geldtransitkonto per 31.12. auf Nullsaldo bzw. erklärte Restposten prüfen. Nicht gepaarte Überträge
+    als Frage erfassen.'
   nachweise:
   - Hauptbuch Geldkonten
   - Bankauszüge
@@ -852,3 +923,5 @@ schritte:
     zitat: periodische Abstimmung der Buchsalden mit den Ist-Beständen
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs-  und Übertragungsprüfungen zu verstehen.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag

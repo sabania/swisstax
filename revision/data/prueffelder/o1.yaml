@@ -351,6 +351,10 @@ fallstricke:
 - text: Weiter gehende Prüfungshandlungen (WP-Schritte O1-302/O1-303) löst der Agent nicht selbst aus; ob sie angezeigt sind, entscheidet der WP.
   quelle: ser-2022__6-2-3
   zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
+- text: 'Nicht mehr begründete Rückstellungen: handelsrechtlich keine Auflösungspflicht (Art. 960e Abs. 4 OR, stille Reserve → O1-321); steuerlich Zurechnung zum Gewinn (Art. 63 Abs.
+    2 DBG). Steuerfolgen nur als Hinweis an Prüffeld S1, keine handelsrechtliche Feststellung.'
+  quelle: dbg__art-63
+  zitat: Bisherige Rückstellungen werden dem steuerbaren Gewinn zugerechnet, soweit sie nicht mehr begründet sind.
 fragen_kunde:
 - frage: 'Bestehen per 31.12. oder seither hängige oder angedrohte Rechtsfälle, Mängelrügen, Schadenersatz- oder andere Ansprüche gegen die Gesellschaft? Bitte je Fall: Gegenpartei,
     Streitgegenstand, Streitwert, Verfahrensstand bzw. Stand im Instanzenzug, Einschätzung des Ausgangs, beauftragter Rechtsvertreter, allfällige Versicherungsdeckungen und Gegenklagen.'
@@ -436,16 +440,18 @@ schritte:
 - id: O1-102
   vorgehen: 'Besprechung führt der WP. Agent bereitet vor: Schätzung der Unternehmensleitung je Risiko (Methode, Bandbreite, wahrscheinlichster Betrag, Prozesskosten) aus Aktennotizen/Antworten
     zusammenstellen, mit dem gebuchten Betrag vergleichen und Vertretbarkeit beurteilen (Methode geeignet und stetig; Rückblick Vorjahresrückstellung gegenüber Verwendung/Auflösung).
-    Nicht vertretbar: Hinweis an WP; die Korrektur verlangt nur der WP.'
+    Nicht vertretbar: Hinweis an WP; die Korrektur verlangt nur der WP. Fehlt bei einem wesentlichen Prozess eine schriftliche Stellungnahme des Rechtsvertreters: Notiz «Pendenz» «Stellungnahme
+    Rechtsvertreter, vom Unternehmen einzuholen (Empfehlung HWP BuR Rz 526)».'
   nachweise:
   - Aktennotiz/Einschätzung Unternehmensleitung bzw. Rechtsvertreter
   - schriftliche Antwort zur Schätzung
   - Rückstellungsspiegel Berichtsjahr und Vorjahr
   - Kontoblätter (Verwendung/Auflösung Vorjahresrückstellungen)
-  rechnen: 'Je Risiko: bestmögliche Schätzung = wahrscheinlichster Betrag + erwartete Anwalts-/Gerichtskosten; Differenz = bestmögliche Schätzung − gebuchte Rückstellung; Lage in der
-    Bandbreite (unter/innerhalb/über); Rückblick: Rückstellung VJ − (Verwendung + Auflösung) Berichtsjahr.'
-  feststellung_wenn: Gebuchter Betrag unter Schätzung bzw. Bandbreite von Unternehmensleitung/Rechtsvertretung, Schätzung nicht dokumentiert oder Methode ungeeignet/nicht stetig (nicht
-    vertretbar) → Hinweis an WP.
+  rechnen: 'Je Risiko mit `rechne`: A = wahrscheinlichster Betrag + Anwalts-/Gerichtskosten (Praxis; Mindestwert); B = oberes Ende der Bandbreite + Kosten, sofern nicht schon in der
+    Bandbreite enthalten (Vorsicht, HWP BuR Rz 515); Differenzen A − gebucht und B − gebucht beide ausweisen; Lage des gebuchten Betrags in der Bandbreite (unter/innerhalb/über); welcher
+    Wert massgebend ist, entscheidet der WP. Rückblick: Rückstellung VJ − (Verwendung + Auflösung) Berichtsjahr.'
+  feststellung_wenn: Gebuchter Betrag unter A oder unter der Bandbreite von Unternehmensleitung/Rechtsvertretung, Schätzung nicht dokumentiert oder Methode ungeeignet/nicht stetig (nicht
+    vertretbar) → Hinweis an WP (Differenz A und B angeben).
   fundstellen:
   - quelle: ser-2022__anh-d-s088-1
     zitat: Besprechung der Einschätzung des finanziellen Ausmasses solcher Risiken durch die Unternehmensleitung
@@ -468,10 +474,18 @@ schritte:
     zitat: geschätzte Werte im Zusammenhang mit dem Ausgang von Rechtsstreitigkeiten
   - quelle: hwp-bur-2023__rz-0526-s263
     zitat: die Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
+  - quelle: hwp-bur-2023__rz-0526-s263
+    zitat: Es empfiehlt sich, bei laufenden Prozessen von den beauftragten Anwältinnen und Anwälten Stellungnahmen über den mutmasslichen Prozessausgang
+  - quelle: hwp-er-2026__rz-0139-s204-t3
+    zitat: Möglicherweise wird das Unternehmen bei der Erstellung und in Verantwortung der Aussagen in der Jahresrechnung von sich aus eine Anwaltsbestätigung einholen.
+  - quelle: hwp-er-2026__rz-0139-s204-t2
+    zitat: Dieses Vorgehen, im SER als «Einholen von Anwaltsbestätigungen» bezeichnet, ist bei der eingeschränkten Revision nicht vorgesehen.
 - id: O1-103
-  vorgehen: Schriftliche Antworten und Vollständigkeitserklärung zu nicht erfassten Verbindlichkeiten/Eventualverbindlichkeiten auswerten; Hinweise aus Bankbestätigungen (Garantien,
-    Sicherheiten), Verträgen und Protokollen sammeln. Je Sachverhalt Einordnung nach Ungewissheit (Verbindlichkeit/Rückstellung/Eventualverbindlichkeit/kein Ausweis) vorschlagen und
-    mit Bilanz/Anhang abgleichen; offene Punkte als Pendenz bzw. Schlussbesprechung.
+  vorgehen: 'Schriftliche Antworten und Vollständigkeitserklärung zu nicht erfassten Verbindlichkeiten/Eventualverbindlichkeiten auswerten; Hinweise aus Bankbestätigungen (Garantien,
+    Sicherheiten), Verträgen und Protokollen sammeln. Typische Eventualverbindlichkeiten gezielt durchsehen (HWP BuR Rz 855): Patronatserklärungen, Konventionalstrafen, Unterdeckung
+    der Vorsorgeeinrichtung, Solidarschulden (einfache Gesellschaft/ARGE; MWST-Gruppe, Art. 15 Abs. 1 Bst. c MWSTG). Garantien des Unternehmens für Dritte → Anhang Art. 959c Abs. 2 Ziff.
+    8 OR (HWP BuR Rz 705). Je Sachverhalt Einordnung nach Ungewissheit (Verbindlichkeit/Rückstellung/Eventualverbindlichkeit/kein Ausweis) vorschlagen und mit Bilanz/Anhang abgleichen;
+    offene Punkte als Pendenz bzw. Schlussbesprechung.'
   nachweise:
   - schriftliche Antwort Unternehmensleitung
   - Vollständigkeitserklärung
@@ -493,6 +507,19 @@ schritte:
   - quelle: ser-2022__anh-e-s104-1
     zitat: Wir haben alle gegenwärtigen Verbindlichkeiten sowie Eventualverbindlichkeiten (Garantien, Bürgschaften und vergleichbare Erklärungen gegenüber Dritten) in der Jahresrechnung
       ordnungsgemäss erfasst
+  - quelle: hwp-bur-2023__rz-0855-s351-t2
+    zitat: Aus einer Patronatserklärung zugunsten einer Beteiligung ergibt sich ggf. als auszuweisende Eventualverbindlichkeit der Betrag
+  - quelle: hwp-bur-2023__rz-0855-s351-t2
+    zitat: Hat sich ein Unternehmen zur Leistung von Konventionalstrafen verpflichtet
+  - quelle: hwp-bur-2023__rz-0855-s351-t2
+    zitat: Ergibt sich aus einer Unterdeckung bei einer Vorsorgeeinrichtung eine Eventualverbindlichkeit
+  - quelle: hwp-bur-2023__rz-0855-s351-t3
+    zitat: Häufig treten Solidarschulden im Zusammenhang mit der gruppenweisen Abrechnung der Mehrwertsteuer auf.
+  - quelle: mwstg__art-15-t1
+    zitat: jede zu einer Mehrwertsteuergruppe (Art. 13) gehörende Person oder Personengesellschaft, mit Ausnahme von Vorsorgeeinrichtungen, für sämtliche von der Gruppe geschuldeten
+      Steuern
+  - quelle: hwp-bur-2023__rz-0705-s302
+    zitat: Garantieverpflichtung im Anhang der Jahresrechnung als Teil des
 - id: O1-201
   vorgehen: 'Rückstellungskonten aus der Saldoliste (31.12. Berichtsjahr vs. Vorjahr) je Konto vergleichen; Anfangsbestände des Rückstellungsspiegels mit den Vorjahressaldi abstimmen;
     Garantierückstellung mit Umsatz und Garantieaufwand plausibilisieren. Erklärungen aus vorhandenen schriftlichen Antworten/Unterlagen entnehmen; fehlt eine Erklärung → Frage als Pendenz
@@ -649,9 +676,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
 - id: O1-401
-  vorgehen: '4xx/nicht Bestandteil der eingeschränkten Revision: Agent holt keine Anwalts-/Expertenbestätigungen ein und schlägt dies nicht vor. Auf Anweisung des WP sucht er in M-Files
-    nur vom Unternehmen selbst eingeholte Stellungnahmen/Gutachten und wertet sie aus (Ausgang, Betrag, Kosten). Ist das Risiko ohne Bestätigung nicht reduzierbar: Hinweis an WP. Im
-    Textfeld «nicht anwendbar» oder Auswertung.'
+  vorgehen: '4xx, nicht Bestandteil der eingeschränkten Revision: Der Agent holt keine Anwalts-/Expertenbestätigung ein, kontaktiert keinen Anwalt und verlangt sie nicht als Prüfungshandlung
+    der Revisionsstelle. Ohne Anweisung: Status «nicht bearbeitet – nur auf Anweisung» (gleiche Bezeichnung wie Werkzeugausgabe). Auf Anweisung des WP: in M-Files nur vom Unternehmen
+    selbst eingeholte Stellungnahmen/Gutachten suchen und auswerten (Ausgang, Betrag, Kosten). Ist das Risiko ohne Bestätigung nicht reduzierbar: Hinweis an WP.'
   nachweise:
   - vom Unternehmen eingeholte Stellungnahme Rechtsvertreter/Gutachten (falls vorhanden)
   - Aktennotizen mit Einschätzung Rechtsvertreter
@@ -669,6 +696,10 @@ schritte:
     zitat: Liegt eine Bestätigung im Zeitpunkt der Abschlusserstellung vor, wird der Abschlussprüfer diese als Prüfungsnachweis betrachten
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-bur-2023__rz-0526-s263
+    zitat: Es empfiehlt sich, bei laufenden Prozessen von den beauftragten Anwältinnen und Anwälten Stellungnahmen über den mutmasslichen Prozessausgang
+  - quelle: hwp-er-2026__rz-0139-s204-t3
+    zitat: Möglicherweise wird das Unternehmen bei der Erstellung und in Verantwortung der Aussagen in der Jahresrechnung von sich aus eine Anwaltsbestätigung einholen.
 - id: O1-402
   vorgehen: '4xx: nur auf Anweisung des WP; Analogie zu SER Anhang D r) (dort weiter gehende Handlung). Rechts-/Beratungsaufwand und Rechtsschutz im Berichtsjahr sowie Buchungen/Kreditorenjournal
     der neuen Rechnung auf Anwalts-, Gerichts- und Gutachterrechnungen durchsehen; je Mandat/Gegenpartei prüfen, ob der Sachverhalt im Rückstellungsspiegel oder Anhang berücksichtigt
@@ -700,8 +731,8 @@ schritte:
   - Aktennotizen/Einschätzungen
   rechnen: Schätzdifferenz = bestmögliche Schätzung (wahrscheinlichster Betrag inkl. Prozesskosten) − gebuchte Rückstellung; Differenz zum oberen Ende der Bandbreite separat als Spanne
     ausweisen; Summe über alle Rückstellungen; Wesentlichkeit aus revio 3.3 lesen.
-  feststellung_wenn: Differenz unter Nichtaufgriffsgrenze nur protokollieren; einzeln oder kumuliert wesentlich gemessen an der Gesamtwesentlichkeit → «Wesentliche Feststellungen» mit
-    Buchungsvorschlag; Summe beurteilt der WP (6.1).
+  feststellung_wenn: 'Differenz unter Nichtaufgriffsgrenze (3.3): nur im Textfeld protokollieren. Differenz über Nichtaufgriffsgrenze: Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
+    (ohne Verbuchung; wird in A1 kumuliert). Ob einzeln oder kumuliert wesentlich, beurteilt der WP (6.1).'
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
@@ -724,6 +755,10 @@ schritte:
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
   - quelle: or__art-725a
     zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die Beurteilung, ob eine Feststellung wesentlich ist, liegt im professionellen Ermessen des Abschlussprüfers.
 - id: O1-404
   vorgehen: '4xx: nur auf Anweisung des WP. Bewegungen auf den Rückstellungskonten (Bildung im Haben, Verwendung/Auflösung im Soll) anhand Buchungsbelegen und Grundlagen prüfen: Betrag,
     Datum, Gegenkonto, Begründung; Verwendung nur für artgleiche Posten, Auflösung nicht benötigter Beträge über die Erfolgsrechnung. Ergebnis je Buchung im Textfeld; fehlende Belege

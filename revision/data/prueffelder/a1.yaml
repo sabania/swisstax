@@ -110,9 +110,10 @@ gesetz:
 - thema: Auskunftspflicht VR (Grundlage Vollständigkeitserklärung)
   quelle: or__art-730b
   zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
-- thema: Kapitalverlust
+- thema: 'Kapitalverlust: Definition (Art. 725a Abs. 1 OR)'
   quelle: or__art-725a
-  zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
+  zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
+    nicht mehr decken
 - thema: 'Überschuldung: begründete Besorgnis, Zwischenabschlüsse (Art. 725b Abs. 1 OR)'
   quelle: or__art-725b-t1
   zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
@@ -135,6 +136,25 @@ gesetz:
 - thema: Anzeigepflicht der Revisionsstelle bei offensichtlicher Überschuldung (Art. 729c OR)
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: Nur nach Art. 3 Covid-19-SBüV verbürgte Kredite zählen bei Kapitalverlust (Art. 725a) und Überschuldung (Art. 725b) nicht als Fremdkapital (Art. 24 Covid-19-SBüG); Kredite nach
+    Art. 4 SBüV (Covid-Plus) und unverbürgte Teile bleiben Fremdkapital; gilt bis 31.12.2032 (Art. 31)
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+- thema: Geltungsdauer Covid-19-SBüG
+  quelle: covid-sbueg__art-31
+  zitat: gilt bis zum 31. Dezember 2032
+- thema: 'Ausschüttungsverbot während der Solidarbürgschaft (Kredit nach Art. 3 oder 4 Covid-19-SBüV): keine Dividenden, Tantiemen oder Rückerstattung von Kapitaleinlagen (Art. 2 Abs.
+    2 lit. a Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen
+- thema: 'Darlehensverbot während der Solidarbürgschaft: keine Darlehen an Gesellschafter oder Nahestehende gewähren und deren Darlehen nicht zurückzahlen (Art. 2 Abs. 2 lit. b Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+- thema: 'Pflicht der Revisionsstelle bei Verstoss gegen Art. 2 Abs. 2–4 Covid-19-SBüG: Frist setzen, sonst GV und Bürgschaftsorganisation informieren (Art. 23 Covid-19-SBüG; Entscheid
+    und Ausführung WP)'
+  quelle: covid-sbueg__art-23
+  zitat: Stellt die Revisionsstelle der Kreditnehmerin oder des Kreditnehmers im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung
+    einer Vorgabe nach Artikel 2 Absätze 2–4 fest
 risiken:
 - text: Jahresrechnung unvollständig oder Mindestgliederung (Art. 959a/959b OR) nicht eingehalten.
   pruefziele:
@@ -285,6 +305,10 @@ unterlagen:
   zweck: A1-401, A1-402
   quelle: hwp-bur-2023__rz-0802-s333
   zitat: 'Bei grösseren Unternehmen besteht die Jahresrechnung somit aus vier Teilen: Bilanz, Erfolgsrechnung, Geldflussrechnung und Anhang.'
+- dokument: Covid-19-Kreditvereinbarung bzw. Bürgschaftsvertrag und Saldo per 31.12. (falls vorhanden)
+  zweck: A1-205, A1-307
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 bewertung:
 - regel: Grundsätze ordnungsmässiger Rechnungslegung gelten für alle Teile der Jahresrechnung; Stetigkeit in Darstellung und Bewertung.
   quelle: or__art-958c
@@ -350,10 +374,18 @@ bewertung:
 - regel: Rangrücktrittsbelastete Darlehen bleiben Verbindlichkeiten (kein Ausbuchen); der Rangrücktritt ist in Bilanz oder Anhang auszuweisen und zu erläutern.
   quelle: hwp-er-2026__rz-0430-s127
   zitat: muss deshalb in der Jahresrechnung des Schuldners (in der Bilanz oder im Anhang) ausgewiesen und erläutert werden
-- regel: 'Rangrücktritt darf grundsätzlich nicht reduziert werden (Ausnahmen: geprüfter Abschluss zeigt entsprechend reduzierte Überschuldung, begründete VR-Darlegung ohne absehbare
-    Verluste in 12 Monaten, keine Benachteiligung anderer Rangrücktrittsgläubiger).'
+- regel: 'Rangrücktritt darf grundsätzlich nicht reduziert werden. Ausnahme nur, wenn ALLE drei Bedingungen erfüllt sind: (a) ein nach SA-CH geprüfter (Zwischen-)Abschluss zeigt eine
+    mindestens entsprechend reduzierte Überschuldung (SA-CH = ordentliche Prüfung; die eingeschränkte Revision der JR genügt nicht, nötig ist ein separater Prüfungsbericht nach SA-CH;
+    im Zweifel Frage an den WP), UND (b) der VR hat schriftlich und begründet dargelegt, dass in den nächsten 12 Monaten keine weiteren Verluste absehbar sind, UND (c) keine anderen
+    Rangrücktrittsgläubiger werden benachteiligt (oder sie haben zugestimmt). Danach alle Anforderungen an den Rangrücktritt erneut prüfen.'
   quelle: hwp-er-2026__rz-0425-s126
-  zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden.
+  zitat: Die Höhe des Rangrücktritts darf dabei jedoch grundsätzlich nicht reduziert werden. Ausgenommen sind Fälle, bei denen (a) sich aus einem in Übereinstimmung mit den SA- CH geprüften
+    (Zwischen-)Abschluss ergibt, dass sich auch die Überschuldung mindestens im entsprechenden Umfang reduziert hat und (b) der Verwaltungsrat der Gesellschaft schriftlich und begründet
+    dargelegt hat, dass während der nächsten zwölf Monate keine weiteren Verluste absehbar sind, und (c) durch die Reduktion keine anderen Rangrücktrittsgläubiger benachteiligt werden
+- regel: 'Reduktion oder Aufhebung des Rangrücktritts auf Basis eines Zwischenabschlusses: separater Prüfungsbericht nach SA-CH nötig; ohne separaten Bericht genügt nur eine ordentlich
+    geprüfte JR mit Veränderung zum Jahresende.'
+  quelle: hwp-er-2026__rz-0426-s126
+  zitat: Sollen die Rangrücktritte auf Basis eines Zwischenabschlusses reduziert oder aufgehoben werden, bedarf es eines separaten Prüfungsberichts nach den SA- CH.
 - regel: Weist die JR zu Fortführungswerten eine Überschuldung aus, ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen.
   quelle: hwp-er-2026__rz-0402-s120-t3
   zitat: In diesem Fall ist zusätzlich ein Abschluss zu Veräusserungswerten zu erstellen, wenn die Jahresrechnung zu Fortführungswerten eine Überschuldung ausweist
@@ -387,7 +419,7 @@ fallstricke:
 - text: Ereignisse nach dem Stichtag nicht nur auf Buchung/Offenlegung, sondern auch auf Risiken für die Fortführung beurteilen (A1-102 mit A1-205 verknüpfen).
   quelle: ser-2022__anh-g-s141-1
   zitat: Beurteilung der Ereignisse nach dem Bilanzstichtag, um Risiken zu identifizieren
-- text: 'Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten und im Bericht anmerken.'
+- text: 'Vorjahr nicht oder von anderem Prüfer geprüft (Erstprüfung/Opting-out): Vorjahreswerte besonders beachten; Anmerkung im Bericht: Entscheid WP (Agent liefert nur den Hinweis).'
   quelle: ser-2022__6-2-7
   zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
 - text: Analytik in kleinen Verhältnissen ist durch Bildung/Auflösung stiller Reserven verzerrt; Zahlen vor Vergleich bereinigen.
@@ -445,6 +477,9 @@ fallstricke:
 - text: Gesamtbeurteilung, Wesentlichkeitsurteil und Auswirkung auf die Prüfungsaussage (A1-2xx) sind Ermessensentscheide des WP; der Agent liefert nur Analysen und Hinweise.
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Kein Visum, kein ✓, keine Abschliessende Beurteilung
+- text: 'Verstoss gegen das Covid-19-SBüG: Der Agent meldet nur (Notiz, Rapport). Frist setzen sowie GV und Bürgschaftsorganisation informieren ist Sache des WP.'
+  quelle: covid-sbueg__art-23
+  zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
 fragen_kunde:
 - frage: 'Wurden gegenüber dem Vorjahr die Darstellung (Gliederung, Bezeichnungen, Kontenzuordnung) oder Bewertungsgrundsätze/-methoden (z.B. Abschreibungsmethode, Vorrats- oder Auftragsbewertung)
     geändert? Falls ja: warum, und wo im Anhang dargelegt?'
@@ -477,6 +512,9 @@ fragen_kunde:
   zweck: A1-208
 - frage: Wird eine Geldflussrechnung erstellt (gesetzlich, statutarisch, auf Verlangen von Kreditgebern oder freiwillig) und welcher Fonds wird verwendet?
   zweck: A1-305, A1-401, A1-402 Anwendbarkeit
+- frage: Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Art. 3 oder Art. 4 Covid-19-SBüV) oder ein Härtefall-Darlehen? Art des Kredits, Saldo per 31.12., Kreditvereinbarung und Amortisationsplan
+    beilegen.
+  zweck: A1-205 (Fremdkapital ohne Kredit nach Art. 3 SBüV), A1-307 (Ausschüttungsverbot)
 testakte_2025:
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: Prüfgegenstand für A1-101 (Anhang Ziff. 1 Grundsätze, Ziff. 4 Bewertung), A1-102 (Anhang Ziff. 6 Ereignisse nach dem Bilanzstichtag), A1-201/202/206/207, A1-204 (Anhang Ziff.
@@ -529,9 +567,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - id: A1-102
-  vorgehen: 'Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten; fehlende Antwort als Pendenz. Prüfen: Ereignisse mit
-    Ursache vor Stichtag gebucht, übrige wesentliche im Anhang mit Art und geschätzter Auswirkung. Ereignisse auf Auswirkung auf die Fortführung prüfen (Verknüpfung A1-205). Status höchstens
-    «teilweise bearbeitet».'
+  vorgehen: 'revio 3.4 und 6.3 lesen (nur lesen). Schriftliche Antworten (VE, Kundenbefragung), Kontoblätter der Folgeperiode und Protokolle nach Stichtag auswerten; fehlende Antwort
+    als Pendenz. Prüfen: Ereignisse mit Ursache vor Stichtag gebucht, übrige wesentliche im Anhang mit Art und geschätzter Auswirkung. Ereignisse auf Auswirkung auf die Fortführung prüfen
+    (Verknüpfung A1-205). Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Anhang (Ereignisse nach dem Bilanzstichtag)
   - Kontoblätter/Journale Folgeperiode
@@ -556,15 +594,21 @@ schritte:
     zitat: Beurteilung der Ereignisse nach dem Bilanzstichtag, um Risiken zu identifizieren
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: höchstens «teilweise bearbeitet»
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 3.4 Going concern
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 6.1 Nicht nachgebuchte Fehler, 6.2 Abschliessende analytische Prüfungen, 6.3 Ereignisse nach dem Bilanzstichtag und Going concern
 - id: A1-103
-  vorgehen: 'VE-Entwurf nach SER Anhang E vorbereiten (an Revisionsstelle adressiert; mandatsspezifische Punkte z.B. Fortführung, Rangrücktritte, Ereignisse nach Stichtag, Nahestehende)
-    und als Pendenz erfassen. Unterzeichnete VE in M-Files suchen; prüfen: datiert auf Berichtsdatum, von denselben Personen wie die JR unterzeichnet. Besprechung führt der WP; Status
-    höchstens «teilweise bearbeitet».'
+  vorgehen: 'Unterzeichnete VE in revio 10.4 bzw. M-Files suchen (`revio K17`). Im Textfeld mit M-Files-ID festhalten: an die Revisionsstelle adressiert, datiert, von denselben Personen
+    wie die JR unterzeichnet; Datum notieren (Abgleich mit dem Berichtsdatum macht der WP). Fehlt die VE oder ist sie nicht unterzeichnet: Notiz «Pendenz» mit «PBC-Vorschlag: Vollständigkeitserklärung
+    nach SER Anhang E; mandatsspezifisch ergänzen: Fortführung, Rangrücktritte, Ereignisse nach Stichtag, Nahestehende». Besprechen und unterzeichnen lassen: WP. Status höchstens «teilweise
+    bearbeitet».'
   nachweise:
   - Vollständigkeitserklärung (unterzeichnet, datiert)
   - unterzeichnete Jahresrechnung
   rechnen: ''
-  feststellung_wenn: VE fehlt, ist nicht unterzeichnet/datiert, Datum weicht vom Berichtsdatum ab oder die Unternehmensleitung verweigert eine notwendige Erklärung.
+  feststellung_wenn: VE fehlt oder ist nicht unterzeichnet/datiert (Pendenz); Unternehmensleitung verweigert eine notwendige Erklärung (Notiz «Wesentliche Feststellungen», Beschränkung
+    des Prüfungsumfangs, Entscheid WP).
   fundstellen:
   - quelle: ser-2022__6-2-5
     zitat: Die Unternehmensleitung bestätigt dem Abschlussprüfer die Vollständigkeit der Jahresrechnung sowie die Richtigkeit und Vollständigkeit der erteilten Auskünfte
@@ -576,10 +620,15 @@ schritte:
     zitat: erteilt ihr die Auskünfte, die sie für die Erfüllung ihrer Aufgaben benötigt, auf Verlangen auch schriftlich
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: höchstens «teilweise bearbeitet»
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 10.4 Jahresrechnung und Vollständigkeitserklärung
+  - quelle: hwp-er-2026__rz-0339-s259
+    zitat: Die Jahresrechnung und die Vollständigkeitserklärung werden in der Regel von denselben Personen unterzeichnet.
 - id: A1-201
   vorgehen: Saldoliste Bilanz/ER mit Vorjahr vergleichen (absolute und relative Veränderungen, Kennzahlen wie Bruttomarge, Personalaufwand/Ertrag, Eigenkapitalquote, Liquidität) und
-    mit den Kenntnissen zu Tätigkeit und Umfeld (Dauerakten, Planung) abgleichen. Unerklärte wesentliche Abweichungen im Textfeld auflisten und als Frage/Pendenz erfassen; Gesamturteil
-    beim WP.
+    mit den Kenntnissen zu Tätigkeit und Umfeld (Dauerakten, Planung) abgleichen. Kennzahlen aus revio 1.2 lesen, Veränderungen mit `rechne` berechnen. Jede Position mit |Veränderung|
+    ≥ Toleranzwesentlichkeit (revio 3.3) mit Tätigkeit und Umfeld erklären; ohne Erklärung → Frage als Pendenz. Sind qualitative Faktoren erfasst, auch kleinere Veränderungen melden.
+    Gesamturteil beim WP.
   nachweise:
   - Saldoliste Bilanz und ER (Geschäftsjahr/Vorjahr)
   - Jahresrechnung
@@ -592,9 +641,17 @@ schritte:
     zitat: Entspricht die Jahresrechnung dem Verständnis des Abschlussprüfers von der Tätigkeit und dem Umfeld des Unternehmens?
   - quelle: ser-2022__6-2-4
     zitat: ob die Jahresrechnung als Ganzes seinen Kenntnissen über Tätigkeit und Umfeld des Unternehmens entspricht
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Gut automatisierbar über Kontenübersicht, Kennzahlen 1.2 und Rechenmodul
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 1.2 Kennzahlen und Dashboard
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
 - id: A1-202
-  vorgehen: Ergebnisse, Wesentliche Feststellungen und Pendenzen aller Prüffelder zusammentragen und der Gesamtanalytik (A1-201) gegenüberstellen. Widersprüche (Position unauffällig
-    geprüft, Gesamtbild auffällig) markieren; Hinweise auf bisher unerkannte Risiken als Pendenz für zusätzliche Prüfungshandlungen festhalten.
+  vorgehen: revio 6.2 als Leitfaden lesen (nur lesen). Ergebnisse, Wesentliche Feststellungen und Pendenzen aller Prüffelder zusammentragen und der Gesamtanalytik (A1-201) gegenüberstellen.
+    Widersprüche (Position unauffällig geprüft, Gesamtbild auffällig) markieren; Hinweise auf bisher unerkannte Risiken als Pendenz für zusätzliche Prüfungshandlungen festhalten.
   nachweise:
   - Ergebnisse der Prüffelder in revio
   - Notizen (Pendenzen, Wesentliche Feststellungen)
@@ -608,10 +665,13 @@ schritte:
     zitat: Die Schlussfolgerungen sollen jene Prüfungsfeststellungen erhärten, die zuvor aus der Prüfung einzelner Teile der Jahresrechnung gezogen wurden.
   - quelle: hwp-er-2026__rz-0269-s245
     zitat: Die analytischen Prüfungshandlungen können in der Phase der abschliessenden Durchsicht der Jahresrechnung ein vorher unerkanntes Risiko einer wesentlichen Fehlaussage aufzeigen.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: nur lesen; 6.2 als Leitfaden für die Plausibilisierung
 - id: A1-203
   vorgehen: Alle Fehlaussagen über der Nichtaufgriffsgrenze aus den Prüffeldern (Wesentliche Feststellungen) in einer Zusammenstellung mit Wirkung auf Ergebnis, Eigenkapital und Bilanzsumme
     kumulieren und mit der Gesamtwesentlichkeit vergleichen. Korrekturvorschläge als Schlussbesprechungs-Notiz vorbereiten; die Information der Unternehmensleitung und die Beurteilung
-    der Auswirkung auf den Bericht macht der WP.
+    der Auswirkung auf den Bericht macht der WP. revio 6.1 lesen, nicht ändern; die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1. Sind qualitative Faktoren erfasst,
+    auch kleinere Abweichungen melden.
   nachweise:
   - Zusammenstellung der Fehlaussagen
   - Wesentlichkeitsberechnung aus der Planung
@@ -632,6 +692,12 @@ schritte:
     zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
   - quelle: hwp-er-2026__rz-0054-s189
     zitat: Werden keine Korrekturen vorgenommen, beurteilt der Abschlussprüfer, ob die Jahresrechnung dadurch wesentlich falsch dargestellt ist.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 6.1 Nicht nachgebuchte Fehler, 6.2 Abschliessende analytische Prüfungen, 6.3 Ereignisse nach dem Bilanzstichtag und Going concern
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Qualitative Faktoren und besondere Umstände: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.'
 - id: A1-204
   vorgehen: 'Checkliste Art. 958a–958d OR anhand JR, Anhang und Saldoliste: Fortführung, Abgrenzung, Klarheit, Vollständigkeit, Verlässlichkeit, Wesentlichkeit, Vorsicht, Stetigkeit,
     Verrechnungsverbot, Besonderheiten von Unternehmen und Branche (Art. 958c Abs. 3 OR, z.B. Auftragsbewertung), Vorjahreszahlen, Währung, Sprache. Je Grundsatz Ergebnis mit Fundstelle
@@ -655,9 +721,15 @@ schritte:
   - quelle: hwp-er-2026__rz-0386-s270-t1
     zitat: Verstösse gegen diese Rechnungslegungsvorschriften mit wesentlichem Einfluss auf die Jahresrechnung führen zu einer modifizierten Prüfungsaussage.
 - id: A1-205
-  vorgehen: 'Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan) und Anhangsangaben prüfen, fehlt sie: Pendenz. Bei
-    Aktiven < Verbindlichkeiten: Rangrücktritte mit Darlehensverträgen/Saldoliste abgleichen (Betrag inkl. Zinsen, Stundung, keine Tilgung/Reduktion, Bonität), Zwischenabschluss zu Veräusserungswerten
-    suchen, sonst Pendenz. Ergebnis als Notiz; Bericht/Anzeige entscheidet der WP.'
+  vorgehen: '1) revio 3.4 und 6.3 lesen (nur lesen). 2) Going Concern: Indikatoren (SER Anh. G) aus JR/Saldoliste auswerten, Einschätzung der Leitung für ≥ 12 Monate (Budget, Liquiditätsplan)
+    und Anhangsangaben prüfen; fehlt sie: Pendenz. 3) Kapitalverlust und Überschuldung mit `kapitalverlust` rechnen (siehe rechnen). Kapitalverlust oder Überschuldung festgestellt →
+    `aufgabe kapitalschutz` (WP sofort informieren). VR-Beschluss über Massnahmen (Art. 725a OR) in den Protokollen suchen; fehlt er → Notiz «Wesentliche Feststellungen». Den Hinweis
+    im Bericht (SER 8.3.2.1) formuliert und entscheidet der WP. 4) Bei Überschuldung: Rangrücktritte mit Darlehensverträgen/Saldoliste abgleichen (Betrag inkl. Zinsen, Stundung, keine
+    Tilgung/Reduktion, Bonität; `thema rangrücktritt`), Zwischenabschluss zu Veräusserungswerten suchen, sonst Pendenz. Ersetzter oder reduzierter Rangrücktritt: Bedingungen (a), (b)
+    und (c) nach HWP ER Rz 425 einzeln mit Beleg (M-Files-ID) im Textfeld festhalten. Fehlt eine Bedingung → Notiz «Wesentliche Feststellungen», Entscheid WP. 5) Covid-19-Kredit mit
+    Solidarbürgschaft: Wurden während der Solidarbürgschaft Darlehen an Aktionäre/Nahestehende gewährt oder deren Darlehen (auch rangrücktrittsbelastete) zurückbezahlt: Hinweis an den
+    WP (Art. 2 Abs. 2 lit. b Covid-19-SBüG). Ausnahmen für vorbestehende Pflichten gegenüber Schweizer Gruppengesellschaften beurteilt der WP. Querverweis H2/N1. 6) Ergebnis als Notiz;
+    Bericht/Anzeige entscheidet der WP.'
   nachweise:
   - Jahresrechnung inkl. Anhang
   - Saldoliste
@@ -667,9 +739,12 @@ schritte:
   - Zwischenabschluss zu Veräusserungswerten (falls überschuldet)
   - Protokolle VR/GV (Sanierungsmassnahmen)
   - Vollständigkeitserklärung
-  rechnen: 'Überschuldung = Verbindlichkeiten (inkl. rangrücktrittsbelasteter Darlehen und Zinsen) − Aktiven zu Fortführungswerten; Deckung = Σ Rangrücktritte (Kapital + aufgelaufene
-    Zinsen) − Überschuldung ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); Kapitalverlust: (Aktiven − Verbindlichkeiten)
-    < 50 % × (Aktienkapital + nicht rückzahlbare gesetzliche Kapitalreserve + gesetzliche Gewinnreserve); EK-Quote = Eigenkapital / Bilanzsumme'
+  rechnen: 'Fremdkapital = Verbindlichkeiten + Rückstellungen + passive Rechnungsabgrenzungen (inkl. rangrücktrittsbelasteter Darlehen und Zinsen); Covid-19-Kredite nach Art. 3 SBüV
+    und Härtefall-Darlehen (HFMV 20) gelten nicht als Fremdkapital. Kapitalverlust und Überschuldung nie von Hand rechnen, sondern: `kapitalverlust --aktienkapital … --aktiven … --verbindlichkeiten
+    <Fremdkapital inkl. Rückstellungen und PRA> --kapitalreserve … --gewinnreserve … [--covid-kredit <Kredit nach Art. 3 Covid-19-SBüV bzw. Härtefall-Darlehen>] [--reserve-voll …] [--rangruecktritt
+    …] [--holding]`. Gesetzliche Kapital- und Gewinnreserve zusammen höchstens 50 % (Holding 20 %) des Grundkapitals anrechenbar; gleiche Rechnung wie P1-313. Deckung = Σ Rangrücktritte
+    (Kapital + aufgelaufene Zinsen) − Überschuldung ≥ 0; je Gläubiger: Darlehenssaldo + Zinsen ≤ Rangrücktrittsbetrag, Δ Darlehen/Rangrücktritt VJ→GJ (Tilgung/Reduktion); EK-Quote =
+    Eigenkapital / Bilanzsumme'
   feststellung_wenn: Erhebliche Zweifel an der Fortführung ohne Anhangsangabe, Einschätzung fehlt/< 12 Monate, Kapitalverlust, Überschuldung ohne genügende Rangrücktritte inkl. Zinsen,
     Reduktion/Tilgung trotz Überschuldung.
   fundstellen:
@@ -709,6 +784,48 @@ schritte:
     zitat: In diesem Fall ist ein Zusatz im Revisionsbericht anzubringen, in dem die wesentlichen Unsicherheiten kurz beschrieben werden
   - quelle: ser-2022__anh-g-s141-2
     zitat: Unzureichende oder fehlende Angaben zur Fortführungsproblematik im Anhang der Jahresrechnung trotz bestehenden Unsicherheiten erfordern eine Modifizierung der Prüfungsaussage
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 3.4 Going concern
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 6.1 Nicht nachgebuchte Fehler, 6.2 Abschliessende analytische Prüfungen, 6.3 Ereignisse nach dem Bilanzstichtag und Going concern
+  - quelle: hwp-er-2026__rz-0381-s115
+    zitat: Für die Berechnung sind Covid-19-Kredite nicht als Fremdkapital zu berücksichtigen
+  - quelle: hwp-er-2026__rz-0381-s115
+    zitat: wenn die (ordnungsgemäss bewerteten) Aktiven geringer sind als das Fremdkapital, bestehend aus Verbindlichkeiten, Rückstellungen und passiven Rechnungsabgrenzungsposten
+  - quelle: hwp-er-2026__rz-0381-s115
+    zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19- Härtefallverordnung 2020 (Art. 21 HFMV 20).
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  - quelle: hwp-bur-2023__rz-0889-s359
+    zitat: Ein Kapitalverlust liegt also vor, wenn das bilanzielle Eigenkapital kleiner ist als die Hälfte des geschützten Kapitals.
+  - quelle: hwp-bur-2023__rz-0889-s359
+    zitat: im Betrag von zusammen maximal 50 % – resp. bei Holdinggesellschaften 20 % – des Grundkapitals
+  - quelle: hwp-bur-2023__rz-0889-s359
+    zitat: der volle Betrag der gesetzlichen Gewinnreserven für eigene Kapitalanteile im Konzern
+  - quelle: or__art-725a
+    zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
+      nicht mehr decken
+  - quelle: or__art-725a
+    zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
+  - quelle: ser-2022__8-3-2-t1
+    zitat: Hinweise auf Gesetzesverstösse ausserhalb des Prüfungsgegenstands im Zusammenhang mit der Untätigkeit des Verwaltungsrates bei Vorliegen eines hälftigen Kapitalverlusts (Art.
+      725a OR) oder einer Überschuldung (Art. 725b OR) sind in jedem Fall im Revisionsbericht anzubringen
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: sich aus einem in Übereinstimmung mit den SA- CH geprüften (Zwischen-)Abschluss ergibt
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: und (c) durch die Reduktion keine anderen Rangrücktrittsgläubiger benachteiligt werden
+  - quelle: hwp-er-2026__rz-0425-s126
+    zitat: Die Revisionsstelle prüft erneut sämtliche Anforderungen an einen gültigen Rangrücktritt.
+  - quelle: hwp-er-2026__rz-0426-s126
+    zitat: Sollen die Rangrücktritte auf Basis eines Zwischenabschlusses reduziert oder aufgehoben werden, bedarf es eines separaten Prüfungsberichts nach den SA- CH.
+  - quelle: hwp-er-2026__rz-0426-s126
+    zitat: Wird die Gesellschaft mittels einer ordentlichen Revision geprüft und werden die betraglichen Veränderungen der Rangrücktritte zum Jahresende vorgenommen, bedarf es keines
+      separaten Prüfungsberichts.
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+  - quelle: covid-sbueg__art-2-t1
+    zitat: zulässig ist jedoch die Erfüllung von Verpflichtungen gegenüber einer mit der Kreditnehmerin oder dem Kreditnehmer direkt oder indirekt verbundenen Gruppengesellschaft mit
+      Sitz in der Schweiz
 - id: A1-206
   vorgehen: Saldoliste auf wesentliche Konten prüfen, die in Sammelpositionen aufgehen, und Bilanz/ER/Anhang auf gesondert auszuweisende Positionen (u.a. Forderungen/Verbindlichkeiten
     gegenüber Beteiligten und Organen, ausserordentliche/periodenfremde Posten, branchenübliche Positionen, Rangrücktritte). Fehlende Ausweise mit Konto und Betrag im Textfeld.
@@ -771,7 +888,8 @@ schritte:
     zitat: Status aller Schritte (vorbereitet, mit Feststellungen, teilweise, nicht bearbeitet)
 - id: A1-301
   vorgehen: 'Unterzeichnete JR in M-Files suchen; prüfen, ob der Vorsitzende des VR und die für die Rechnungslegung zuständige Person (gemäss HR-Auszug/Unternehmensinfo) mit Datum unterzeichnet
-    haben. Fehlt die Unterzeichnung: Pendenz. Unterzeichnungsdatum als frühestes Berichtsdatum im Textfeld festhalten.'
+    haben. Fehlt die Unterzeichnung: Pendenz. Unterzeichnungsdatum als frühestes Berichtsdatum im Textfeld festhalten. revio: `revio K17` (10.4 JR/VE, 10.1 Saldenbilanz, 10.2 Umbuchungen,
+    10.3 stille Reserven).'
   nachweise:
   - unterzeichnete Jahresrechnung
   - Handelsregisterauszug / Organe
@@ -784,9 +902,13 @@ schritte:
     zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
   - quelle: hwp-er-2026__rz-0339-s259
     zitat: Die Jahresrechnung und die Vollständigkeitserklärung werden in der Regel von denselben Personen unterzeichnet.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
 - id: A1-302
   vorgehen: 'Eröffnungssalden aller Bilanzkonten (Hauptbuch) und Vorjahresspalte der JR mit der geprüften Vorjahres-JR abgleichen; Differenzen je Konto auflisten. Verwendung des Vorjahresergebnisses
-    gemäss GV-Beschluss im Eigenkapital nachvollziehen. Vorjahr ungeprüft/anderer Prüfer: im Textfeld vermerken, Vorjahreswerte besonders beachten.'
+    gemäss GV-Beschluss im Eigenkapital nachvollziehen. Vorjahr ungeprüft (Opting-out) oder von anderem Prüfer geprüft: im Textfeld vermerken. Anderer Prüfer: Revisionsbericht des Vorjahres
+    lesen (modifiziert? gleiche Rechnungslegungsgrundsätze?). Bei Opting-out oder Zweifeln am früheren Prüfer: wesentliche Vorjahreswerte (≥ Toleranzwesentlichkeit) analytisch prüfen,
+    Fragen dazu als Pendenz. In beiden Fällen Hinweis «Anmerkung im Revisionsbericht» als Notiz «Schlussbesprechung» (Entscheid WP).'
   nachweise:
   - Hauptbuch (Eröffnungssalden)
   - Saldoliste (Spalte Vorjahr)
@@ -794,7 +916,8 @@ schritte:
   - GV-Protokoll Gewinnverwendung Vorjahr
   rechnen: 'Je Bilanzkonto: Eröffnungssaldo GJ − Schlusssaldo VJ (geprüfte JR) = 0; Vorjahresspalte JR GJ = JR VJ; Gewinn-/Verlustvortrag 01.01. = Vortrag VJ + Jahresergebnis VJ − Ausschüttungen/Zuweisungen
     gemäss GV'
-  feststellung_wenn: Eröffnungssaldo oder Vorjahresspalte weicht von der geprüften Vorjahres-JR ab, ohne Erläuterung im Anhang.
+  feststellung_wenn: Eröffnungssaldo oder Vorjahresspalte weicht von der geprüften Vorjahres-JR ab, ohne Erläuterung im Anhang. Jede Differenz ≠ 0 im Textfeld (Konto, Betrag); unter
+    der Nichtaufgriffsgrenze (revio 3.3) nur protokollieren, ab NAG Notiz «Wesentliche Feststellungen» (wird in A1-203 kumuliert).
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung des Vortrags der Vorjahresbestände auf neue Rechnung mit Unterlagen des Vorjahres (geprüfte Jahresrechnung, falls vorhanden)
@@ -802,21 +925,38 @@ schritte:
     zitat: Diese Übereinstimmung von Schluss- und Eröffnungsbilanzwerten verifiziert der Abschlussprüfer.
   - quelle: ser-2022__6-2-7
     zitat: Der Tatbestand, dass die Vorjahresrechnung nicht oder von einem anderen Abschlussprüfer geprüft wurde, ist im Revisionsbericht anzumerken.
+  - quelle: ser-2022__6-2-7
+    zitat: bei einem aufgrund eines früheren Opting-out erstmals geprüften Abschluss sind Befragungen und analytische Prüfungshandlungen zu den wesentlichen Vorjahreswerten vorzunehmen
+  - quelle: ser-2022__6-2-7
+    zitat: Sofern keine Zweifel an der fachlichen Kompetenz und Unabhängigkeit des früheren Abschlussprüfers bestehen, wird der Umfang der vorzunehmenden Prüfungshandlungen vergleichsweise
+      gering sein.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
 - id: A1-303
-  vorgehen: Schlusssalden aus Saldoliste/Hauptbuch je Konto den JR-Positionen zuordnen (Mapping Konto → Position) und Summen je Position, Total Aktiven/Passiven sowie Jahresergebnis
-    abstimmen. Differenzen mit Konto und Betrag im Textfeld; Umgliederungen ausserhalb der Buchhaltung belegen lassen (Pendenz).
+  vorgehen: 'Schlusssalden aus Saldoliste/Hauptbuch je Konto den JR-Positionen zuordnen (Mapping Konto → Position) und Summen je Position, Total Aktiven/Passiven sowie Jahresergebnis
+    abstimmen. Differenzen mit Konto und Betrag im Textfeld; Umgliederungen ausserhalb der Buchhaltung belegen lassen (Pendenz). revio: `revio K17` (10.4 JR/VE, 10.1 Saldenbilanz, 10.2
+    Umbuchungen, 10.3 stille Reserven).'
   nachweise:
   - Saldoliste
   - Hauptbuch
   - Jahresrechnung
   rechnen: Σ Saldi der Konten je Position = Betrag Position JR; Total Aktiven = Total Passiven; Total Aktiven Saldoliste = Total Aktiven JR; Jahresergebnis Saldoliste ER = Jahresergebnis
     JR
-  feststellung_wenn: Differenz zwischen Hauptbuch/Saldoliste und JR-Position oder Totale Aktiven/Passiven ungleich, ohne belegte Umgliederung.
+  feststellung_wenn: Differenz zwischen Hauptbuch/Saldoliste und JR-Position oder Totale Aktiven/Passiven ungleich, ohne belegte Umgliederung. Jede Differenz ≠ 0 im Textfeld (Konto,
+    Betrag); unter der Nichtaufgriffsgrenze (revio 3.3) nur protokollieren, ab NAG Notiz «Wesentliche Feststellungen» (wird in A1-203 kumuliert).
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung der Saldi der Hauptbuchkonten mit der geprüften Jahresrechnung
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung der Totale von Aktiven und Passiven
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: hwp-er-2026__rz-0053-s189
+    zitat: Die während der eingeschränkten Revision festgestellten Fehlaussagen, die über der Nichtaufgriffsgrenze liegen, werden kumuliert
 - id: A1-304
   vorgehen: 'GV- und VR-Protokolle des Geschäftsjahres und bis zum Prüfungszeitpunkt in M-Files suchen und lesen; Sachverhalte mit JR-Wirkung (Kapitalmassnahmen, Darlehen, Rangrücktritte,
     Rechtsfälle, Investitionen, Ausschüttungen) mit Verweis auf das Prüffeld auflisten. Prüfen: Genehmigung letzte JR innert 6 Monaten, Wahl Revisionsstelle, Beschluss Verwendung Bilanzgewinn/-verlust,
@@ -876,14 +1016,18 @@ schritte:
   - quelle: hwp-er-2026__rz-0377-s269
     zitat: die Bestimmungen über die Mindestgliederung nicht eingehalten sind (Art. 959a und 959b OR)
 - id: A1-307
-  vorgehen: Jahresgewinn/-verlust in Erfolgsrechnung, Eigenkapital und im Antrag des VR über die Verwendung des Bilanzgewinns abstimmen; Bilanzgewinn/-verlust = Vortrag + Jahresergebnis
-    nachrechnen. Gesetzeskonformität des Antrags (Reservenzuweisung, Ausschüttbarkeit; Art. 729a Abs. 1 Ziff. 2 OR) als Hinweis an den WP bzw. Prüffeld Eigenkapital.
+  vorgehen: 'Jahresgewinn/-verlust in Erfolgsrechnung, Eigenkapital und im Antrag des VR über die Verwendung des Bilanzgewinns abstimmen; Bilanzgewinn/-verlust = Vortrag + Jahresergebnis
+    nachrechnen. Gesetzeskonformität des Antrags (Reservenzuweisung, Ausschüttbarkeit; Art. 729a Abs. 1 Ziff. 2 OR) als Hinweis an den WP bzw. Prüffeld Eigenkapital. Covid-19-Kredit
+    mit Solidarbürgschaft (Art. 3 oder 4 Covid-19-SBüV) per 31.12. oder bei Antragstellung nicht vollständig zurückbezahlt, und der Antrag enthält eine Dividende, Tantieme oder Kapitalrückzahlung:
+    Antrag nicht gesetzeskonform (Art. 2 Abs. 2 lit. a Covid-19-SBüG) → Notiz «Wesentliche Feststellungen» und Rapport. Frist setzen und GV bzw. Bürgschaftsorganisation informieren (Art.
+    23): Entscheid und Ausführung durch den WP. revio: `revio K17` (10.4 JR/VE, 10.1 Saldenbilanz, 10.2 Umbuchungen, 10.3 stille Reserven).'
   nachweise:
   - Jahresrechnung
   - Antrag VR Verwendung Bilanzgewinn
   - Saldoliste
   rechnen: Jahresergebnis ER = Position Jahresergebnis im EK = Jahresergebnis im Antrag; Bilanzgewinn/-verlust = Gewinn-/Verlustvortrag + Jahresergebnis
-  feststellung_wenn: Jahresergebnis stimmt zwischen ER, Eigenkapital und Antrag nicht überein oder Antrag ist rechnerisch bzw. gesetzlich nicht konform.
+  feststellung_wenn: Jahresergebnis stimmt zwischen ER, Eigenkapital und Antrag nicht überein oder Antrag ist rechnerisch bzw. gesetzlich nicht konform, oder Ausschüttung beantragt,
+    obwohl die Solidarbürgschaft noch läuft.
   fundstellen:
   - quelle: ser-2022__anh-d-s073-1
     zitat: Abstimmung des ausgewiesenen Jahresgewinns (oder Jahresverlusts) im Eigenkapital und in der Erfolgsrechnung
@@ -891,9 +1035,23 @@ schritte:
     zitat: prüft die Revisionsstelle den Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinns
   - quelle: or__art-729a
     zitat: der Antrag des Verwaltungsrats an die Generalversammlung über die Verwendung des Bilanzgewinnes nicht den gesetzlichen Vorschriften und den Statuten entspricht
+  - quelle: covid-sbueg__art-2-t1
+    zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
+  - quelle: covid-sbueg__art-2-t1
+    zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen
+  - quelle: covid-sbueg__art-3
+    zitat: Eine Solidarbürgschaft dauert höchstens acht Jahre
+  - quelle: covid-sbueg__art-23
+    zitat: Stellt die Revisionsstelle der Kreditnehmerin oder des Kreditnehmers im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung
+      einer Vorgabe nach Artikel 2 Absätze 2–4 fest
+  - quelle: covid-sbueg__art-23
+    zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
 - id: A1-308
   vorgehen: 'Detailnachweis stille Reserven (Bestand je Bilanzposition per Stichtag und Vorjahr) in M-Files suchen, rechnerisch nachvollziehen und mit den Prüffeld-Ergebnissen (Vorräte,
-    Anlagen, Rückstellungen, Wertberichtigungen) abstimmen; Veränderung ermitteln. Bei wesentlicher Nettoauflösung Offenlegung im Anhang prüfen. Fehlender Nachweis: Pendenz.'
+    Anlagen, Rückstellungen, Wertberichtigungen) abstimmen; Veränderung ermitteln. Bei wesentlicher Nettoauflösung Offenlegung im Anhang prüfen. Fehlender Nachweis: Pendenz. revio: `revio
+    K17` (10.4 JR/VE, 10.1 Saldenbilanz, 10.2 Umbuchungen, 10.3 stille Reserven).'
   nachweise:
   - Nachweis stille Reserven GJ und VJ
   - Anhang
@@ -908,6 +1066,8 @@ schritte:
     zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
   - quelle: or__art-959c-t1
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  - quelle: konzept-ki-revisionsagent-2026__c006-2
+    zitat: 10.1 Saldenbilanz, 10.2 Umbuchungsliste, 10.3 Stille Reserven, 10.4 Jahresrechnung und Vollständigkeitserklärung
 - id: A1-401
   vorgehen: '4xx: nur auf Anweisung des WP. Ist keine GFR vorgeschrieben (Art. 961 OR, Statuten, Standard): Status «nicht bearbeitet», Begründung «Vorschlag: nicht anwendbar (eingeschränkte
     Revision, Art. 961 OR)», Entscheid WP. Sonst prüfen, ob Geldfluss aus Geschäfts-, Investitions- und Finanzierungstätigkeit je gesondert dargestellt und auf die Fondsveränderung übergeleitet

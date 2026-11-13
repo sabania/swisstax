@@ -9,9 +9,8 @@ erfasst:
     urteil: korrigieren
     befunde: 15
     korrigiert: true
-kurzbeschrieb: 'Debitoren inkl. Delkredere, Erlöse und Erlösminderungen: Vorhandensein, Vollständigkeit, Bewertung (Einzel- vor Pauschal-WB, Fremdwährung), Abgrenzung (Akonto, Bill-and-hold,
-  Rückgaberecht, Gutschriften), Ausweis (Nahestehende, Habensalden, Zession/Factoring). SER: Befragung (Agent nur schriftlich), Analytik, Detailprüfungen; keine Debitorenbestätigungen;
-  WP-/4xx-Schritte nur auf Anweisung.'
+kurzbeschrieb: 'Agent: Befragung nur schriftlich (sonst Pendenz); WP-Schritte (106, 208, 304–308) und 4xx nur auf Anweisung; keine Debitoren-/Bankbestätigungen einholen. Inhalt: Debitoren
+  inkl. Delkredere (Einzel- vor Pauschal-WB), Erlöse, Abgrenzung, Fremdwährung, Nahestehende, Habensalden, Zession.'
 gesetz:
 - thema: 'Mindestgliederung: Forderungen aus L+L als eigene Position im Umlaufvermögen (Art. 959a Abs. 1 Ziff. 1 lit. b OR)'
   quelle: or__art-959a-t1
@@ -204,7 +203,7 @@ unterlagen:
   zweck: Identifikation Forderungen gegenüber Nahestehenden (C1-204)
   quelle: ser-2022__anh-d-s075-1
   zitat: Feststellung von Forderungen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
-- dokument: Bankbestätigungen per Bilanzstichtag (Abschnitt Sicherheiten zugunsten der Bank, z. B. Globalzession)
+- dokument: Bankbestätigungen per Bilanzstichtag, sofern beim Unternehmen vorhanden (Abschnitt Sicherheiten, z. B. Globalzession)
   zweck: Abgleich Verpfändung/Zession und Anhangsangabe (C1-102, C1-320)
   quelle: hwp-bur-2023__rz-0112-s185
   zitat: Solche Forderungen sind im Anhang offenzulegen.
@@ -241,6 +240,19 @@ unterlagen:
   quelle: ser-2022__anh-e-s104-1
   zitat: Sämtliche wesentlichen Ereignisse nach dem Bilanzstichtag sind in der Jahresrechnung erfasst bzw. offengelegt.
 bewertung:
+- regel: 'Delkredere: zuerst Einzelwertberichtigungen gefährdeter Forderungen, danach Pauschalwertberichtigung auf dem Rest.'
+  quelle: hwp-bur-2023__rz-0120-s186
+  zitat: Die Wertberichtigungen für gefährdete Forderungen sind zunächst einzeln zu ermitteln; danach sind Pauschalwertberichtigungen auf den restlichen Guthaben zu bilden.
+- regel: 'Nur Steuerpraxis, keine handelsrechtliche Bewertungsregel: Die ESTV-Pauschale deckt nur das allgemeine Kreditrisiko, d. h. die nach Einzelwertberichtigungen verbleibenden Ausfallrisiken;
+    sie ersetzt keine Einzelwertberichtigung.'
+  quelle: hwp-bur-2023__rz-0437-s248
+  zitat: für die nach Vornahme von Wertberichtigungen für erkennbare Einzelrisiken verbleibenden Risiken von Forderungsausfällen
+- regel: Konkurs/Zahlungsunfähigkeit eines Schuldners nach dem Stichtag erfordert eine Wertberichtigung im abzuschliessenden Jahr.
+  quelle: hwp-bur-2023__rz-0864-s354
+  zitat: wird seine oder ihre Zahlungsunfähigkeit bekannt, muss für die Forderungen eine Wertberichtigung gebildet werden.
+- regel: 'SER: Monetäre Aktiven zum Nominalwert abzüglich angemessener Wertberichtigungen (Delkredere).'
+  quelle: ser-2022__4-3-5
+  zitat: Bei der Bewertung der monetären Aktiven kann von einem Nominalwert, allenfalls abzüglich angemessener Wertberichtigungen (z. B. Delkredere) ausgegangen werden.
 - regel: Forderungen aus L+L umfassen Ansprüche aus erbrachten und fakturierten betriebstypischen Lieferungen und Leistungen.
   quelle: hwp-bur-2023__rz-0108-s185
   zitat: Zu Forderungen aus Lieferungen und Leistungen gehören alle Ansprüche gegenüber Dritten aus Lieferungen und Leistungen, die erbracht und fakturiert worden sind.
@@ -259,12 +271,6 @@ bewertung:
 - regel: Bewertung grundsätzlich zum Nominalwert.
   quelle: hwp-bur-2023__rz-0117-s186
   zitat: Forderungen aus Lieferungen und Leistungen sind im Normalfall mit ihrem Nominal betrag in die Bilanz einzusetzen.
-- regel: 'SER: Monetäre Aktiven zum Nominalwert abzüglich angemessener Wertberichtigungen (Delkredere).'
-  quelle: ser-2022__4-3-5
-  zitat: Bei der Bewertung der monetären Aktiven kann von einem Nominalwert, allenfalls abzüglich angemessener Wertberichtigungen (z. B. Delkredere) ausgegangen werden.
-- regel: 'Delkredere: zuerst Einzelwertberichtigungen gefährdeter Forderungen, danach Pauschalwertberichtigung auf dem Rest.'
-  quelle: hwp-bur-2023__rz-0120-s186
-  zitat: Die Wertberichtigungen für gefährdete Forderungen sind zunächst einzeln zu ermitteln; danach sind Pauschalwertberichtigungen auf den restlichen Guthaben zu bilden.
 - regel: 'Ausnahme: Bei einer Vielzahl geringer Forderungsbeträge darf direkt pauschal wertberichtigt werden.'
   quelle: hwp-bur-2023__rz-0120-s186
   zitat: Bei einer Vielzahl geringer Forderungsbeträge kann auch direkt eine Methode der Pauschalwertberichtigung angewandt werden.
@@ -274,13 +280,10 @@ bewertung:
 - regel: Pauschalwertberichtigung aufgrund Erfahrungswerten und erwarteter Entwicklung quantifizieren.
   quelle: hwp-bur-2023__rz-0120-s186
   zitat: Die pauschale Wertberichtigung ist aufgrund von Erfahrungen aus der Vergangenheit und unter Berücksichtigung der erwarteten Entwicklung zu quantifizieren.
-- regel: 'Steuerliche Pauschale ESTV gemäss HWP BuR (Stand 2023, nicht für Steuerjahr bestätigt): 5 % auf inländischen, 10 % auf ausländischen Guthaben, ausgenommen Forderungen gegen
-    öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen; Kantone teils abweichend.'
+- regel: 'Nur Steuerpraxis, keine handelsrechtliche Bewertungsregel: Steuerliche Pauschale ESTV gemäss HWP BuR (Stand 2023, nicht für Steuerjahr bestätigt): 5 % auf inländischen, 10
+    % auf ausländischen Guthaben, ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen; Kantone teils abweichend.'
   quelle: hwp-bur-2023__rz-0437-s248
   zitat: eine pau schale Wertberichtigung von 5 % und auf ausländischen von 10 % zu
-- regel: Die ESTV-Pauschale deckt nur das allgemeine Kreditrisiko, d. h. die nach Einzelwertberichtigungen verbleibenden Ausfallrisiken; sie ersetzt keine Einzelwertberichtigung.
-  quelle: hwp-bur-2023__rz-0437-s248
-  zitat: für die nach Vornahme von Wertberichtigungen für erkennbare Einzelrisiken verbleibenden Risiken von Forderungsausfällen
 - regel: Sicherheiten und Kreditversicherung reduzieren das Delkredere auf den ungedeckten Teil.
   quelle: hwp-bur-2023__rz-0438-s248
   zitat: Sofern eine Exportrisikoversicherung oder eine Kreditversicherung besteht, hat das Delkredere nur den unversicherten Teil betrag zu decken.
@@ -290,6 +293,10 @@ bewertung:
 - regel: Erwartete Erlösminderungen (Rabatte, Skonto, Umsatzprämien) als Wertberichtigung; nicht von der Rechnung abgezogene Umsatzrückvergütungen abgrenzen.
   quelle: hwp-bur-2023__rz-0119-s186
   zitat: Umsatzrückvergütungen, die nicht direkt von der Rechnung abgezogen werden, sind ab zugrenzen
+- regel: 'Gutschriften, Rabatte und Ausbuchungen (Korrektur des Entgelts): Anpassung der Umsatzsteuerschuld im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt
+    wird; im Buchungsvorschlag MWST-Anteil getrennt ausweisen. Eine blosse Wertberichtigung (Delkredere) ändert die MWST nicht (Praxis/intern). MWST-Folgen Prüffeld M2.'
+  quelle: mwstg__art-41
+  zitat: so ist im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt wird, eine Anpassung der Umsatzsteuerschuld vorzunehmen
 - regel: Delkredere ist Korrekturposten auf der Aktivseite, keine Rückstellung; Ausweis unter den Passiven unzulässig.
   quelle: hwp-bur-2023__rz-0440-s248
   zitat: Ein Ausweis unter den Passiven ist nicht zu lässig (Art. 960a Abs. 3 OR).
@@ -325,9 +332,6 @@ bewertung:
 - regel: Regressrisiken aus zedierten Forderungen mit Rückstellungen berücksichtigen.
   quelle: hwp-bur-2023__rz-0122-s187
   zitat: Allfälligen Regressrisiken aus zedierten Forderungen oder aus weitergegebenen Wech seln und Checks ist mit Rückstellungen Rechnung zu tragen.
-- regel: Konkurs/Zahlungsunfähigkeit eines Schuldners nach dem Stichtag erfordert eine Wertberichtigung im abzuschliessenden Jahr.
-  quelle: hwp-bur-2023__rz-0864-s354
-  zitat: wird seine oder ihre Zahlungsunfähigkeit bekannt, muss für die Forderungen eine Wertberichtigung gebildet werden.
 - regel: Konsignationsware ist Vorrat, keine Forderung.
   quelle: hwp-bur-2023__rz-0213-s207
   zitat: In Kommission gegebene Waren (Konsignationsware) sind separat unter Vorräten, nicht als Forderungen auszuweisen.
@@ -385,7 +389,8 @@ fallstricke:
     Einlagenrückgewähr – Hinweis an das Eigenkapital-Prüffeld.
   quelle: hwp-er-2026__rz-0167-s215
   zitat: Als Forderungen ihnen gegenüber gelten hierbei alle direkten (up stream) und indirekten (cross stream) Forderungen mit Darlehenscharakter.
-- text: Stille Zession (z. B. Globalzession an eine Bank) ist aus OP-Liste und Kontoblättern nicht erkennbar – Abschnitt Sicherheiten der Bankbestätigungen durchsehen.
+- text: Stille Zession (z. B. Globalzession an eine Bank) ist aus OP-Liste und Kontoblättern nicht erkennbar – Abschnitt Sicherheiten der beim Unternehmen vorhandenen Bankbestätigungen
+    durchsehen (Praxis/intern).
 - text: Akonto-/Anzahlungsrechnungen für noch nicht erbrachte Leistungen (oft mit Rechnungsdatum im Folgejahr) nicht als Forderung/Ertrag akzeptieren.
   quelle: hwp-bur-2023__rz-0109-s185
   zitat: Solche Anzahlungen von Kunden werden erst bilanziert, wenn die Zahlung erfolgt ist
@@ -415,7 +420,8 @@ fallstricke:
   quelle: ser-2022__1-5
   zitat: keine Prüfung des internen Kontrollsystems und der verwendeten IT-Systeme durchgeführt
 - text: 'Offene interne Entscheide (consis) zu C1: Delkredere betriebswirtschaftlich oder ESTV-Pauschale, Umgang mit stillen Reserven, Altersgrenze «alt». Bis zum Entscheid Vorgabe des
-    WP anwenden; fehlt sie, gewählte Annahme im Textfeld begründen und beide Delkredere-Varianten ausweisen.'
+    WP anwenden. Fehlt sie: keine eigene Altersgrenze oder Methode festlegen, Pendenz erfassen und beide Delkredere-Varianten ausweisen (a betriebswirtschaftlich, b ESTV-Pauschale nur
+    als Steuerpraxis).'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Betriebswirtschaftliche Herleitung oder steuerlich akzeptierte ESTV-Pauschale?
 - text: Weiter gehende Prüfungshandlungen (WP-Schritte) nur bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko.
@@ -495,15 +501,16 @@ testakte_2025:
   bezug: 'Identifikation Beteiligter: C1-204'
 schritte:
 - id: C1-101
-  vorgehen: 'OP-Liste per Stichtag laden und alte (über Altersgrenze), im Verhältnis zum Total ungewöhnlich hohe Posten und Habensalden markieren. Nicht selbst befragen: vorhandene schriftliche
-    Antworten (10.11, Vollständigkeitserklärung, Protokolle) auswerten und würdigen; sonst je Posten Frage (Grund, Einbringlichkeit, Ausweis Habensaldo) als Notiz «Pendenz» (Versand
-    durch WP). Status höchstens «teilweise bearbeitet».'
+  vorgehen: 'OP-Liste per Stichtag laden und alte (Altersgrenze nur nach Vorgabe WP, siehe Rechnen), im Verhältnis zum Total ungewöhnlich hohe Posten und Habensalden markieren. Nicht
+    selbst befragen: vorhandene schriftliche Antworten (10.11, Vollständigkeitserklärung, Protokolle) auswerten und würdigen; sonst je Posten Frage (Grund, Einbringlichkeit, Ausweis
+    Habensaldo) als Notiz «Pendenz» (Versand durch WP). Status höchstens «teilweise bearbeitet».'
   nachweise:
   - Debitoren-OP-Liste per 31.12.
   - schriftliche Antworten (revio 10.11, Vollständigkeitserklärung, Protokolle)
   - Korrespondenz/Mahnungen zu markierten Posten
-  rechnen: 'Markieren: Tage überfällig > Altersgrenze (offener Entscheid; bis dahin Vorgabe WP, fehlt sie, verwendete Grenze im Textfeld begründen); Betrag > Toleranzwesentlichkeit bzw.
-    > festgelegter %-Anteil am OP-Total; Saldo < 0'
+  rechnen: 'Markieren: (1) Tage überfällig je Posten mit `rechne`. Altersgrenze «alt» nur nach Vorgabe des WP. Fehlt sie: alle überfälligen Posten absteigend nach Tagen auflisten, keine
+    eigene Grenze festlegen, Notiz «Pendenz: Altersgrenze «alt» festlegen (WP)». (2) Betrag > Toleranzwesentlichkeit (revio 3.3) oder im Vergleich zu den übrigen Posten auffällig hoch
+    (Auswahl im Textfeld begründen). (3) Saldo < 0 (Habensaldo).'
   feststellung_wenn: Alte/hohe Ausstände ohne plausible schriftliche Begründung oder ohne Wertberichtigung; wesentliche Habensalden nicht als Verbindlichkeit ausgewiesen; Antwort fehlt
     (Pendenz).
   fundstellen:
@@ -516,11 +523,11 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c015-2
     zitat: Ab welchem Alter gilt eine Forderung als «alt»?
 - id: C1-102
-  vorgehen: 'Bankbestätigungen (Abschnitt Sicherheiten) sowie Kredit-, Zessions- und Factoringverträge in M-Files auf Verpfändung, Zession, Factoring oder Inkasso durchsehen; schriftliche
-    Antworten (10.11, Vollständigkeitserklärung) auswerten, sonst Frage als Notiz «Pendenz». Zessionskredit: bleibt bilanziert, Anhangsangabe; echtes Factoring: Ausbuchung. Ergebnis
-    an C1-320. Status höchstens «teilweise bearbeitet».'
+  vorgehen: 'Beim Unternehmen vorhandene Bankbestätigungen (Abschnitt Sicherheiten; keine eigenen anfordern) sowie Kredit-, Zessions- und Factoringverträge in M-Files auf Verpfändung,
+    Zession, Factoring oder Inkasso durchsehen; schriftliche Antworten (10.11, Vollständigkeitserklärung) auswerten, sonst Frage als Notiz «Pendenz». Zessionskredit: bleibt bilanziert,
+    Anhangsangabe; echtes Factoring: Ausbuchung. Ergebnis an C1-320. Status höchstens «teilweise bearbeitet».'
   nachweise:
-  - Bankbestätigungen per 31.12. (Sicherheiten zugunsten der Bank)
+  - Bankbestätigungen per 31.12. (Sicherheiten zugunsten der Bank), sofern beim Unternehmen vorhanden
   - Kredit-, Zessions- oder Factoringverträge (Dauerakte)
   - schriftliche Antwort bzw. Vollständigkeitserklärung
   - Anhang Jahresrechnung
@@ -538,6 +545,8 @@ schritte:
     zitat: Die Übernahme des Delkredererisikos durch den Factor gestattet dem Factoring-Kun den, die abgetretenen Kundenforderungen auszubuchen
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: hwp-er-2026__rz-0262-s085
+    zitat: weder das Einholen von Debitoren- und Kreditorenbestätigungen noch von Bank- oder Anwaltsbestätigungen oder Experten-Gutachten
 - id: C1-103
   vorgehen: Aus Saldoliste aktuell/VJ und ggf. Budget die Veränderungen der Konten Debitoren, Delkredere, Erlöse und Erlösminderungen berechnen. Für wesentliche Abweichungen vorhandene
     schriftliche Erläuterungen (10.11, Protokolle) auswerten und gegen das Unternehmensverständnis würdigen; fehlt eine Erklärung, Frage als Notiz «Pendenz» (Versand durch WP). Status
@@ -657,8 +666,8 @@ schritte:
     zitat: werden ebenfalls zum Kurs am Bilanzstichtag bewertet
 - id: C1-204
   vorgehen: OP-Liste und Kontoblatt mit Aktionären, Organen und Beteiligungen (Aktienbuch, HR-Auszug, Dauerakte) abgleichen und Forderungen gegenüber Nahestehenden identifizieren. Prüfen,
-    ob sie aus betriebstypischen Lieferungen stammen oder Darlehenscharakter haben und ob sie gesondert in Bilanz oder Anhang ausgewiesen sind; Darlehen als Hinweis an übrige Forderungen
-    und Eigenkapital (Einlagenrückgewähr) übergeben.
+    ob sie aus betriebstypischen Lieferungen stammen oder Darlehenscharakter haben und ob sie gesondert in Bilanz oder Anhang ausgewiesen sind; Darlehen als Hinweis an D1-201 (Ausweis
+    übrige Forderungen) und P1-305 (Einlagenrückgewähr) übergeben.
   nachweise:
   - OP-Liste und Kontoblatt Debitoren
   - Aktienbuch/Organliste/HR-Auszug
@@ -675,6 +684,8 @@ schritte:
     zitat: Verkauf der für das einzelne Unternehmen typischen Erzeugnisse, Handelswaren und Dienstleistungen zu verstehen
   - quelle: hwp-er-2026__rz-0167-s215
     zitat: Als Forderungen ihnen gegenüber gelten hierbei alle direkten (up stream) und indirekten (cross stream) Forderungen mit Darlehenscharakter.
+  - quelle: hwp-er-2026__rz-0180-s218
+    zitat: Bei Anzeichen auf einen Verstoss gegen das Verbot der Einlagenrückgewähr sind die notwendigen Prüfungshandlungen vorzunehmen
 - id: C1-205
   vorgehen: Umsatzerlöse aus Saldoliste bzw. Umsatzstatistik nach geographischen Märkten, Kunden- und Artikelgruppen aufteilen und mit VJ und Budget vergleichen. Für wesentliche Veränderungen
     schriftliche Erklärungen auswerten, sonst Frage als Notiz «Pendenz»; fehlt eine Umsatzstatistik, Notiz «Pendenz» und PBC-Vorschlag (10.10).
@@ -752,18 +763,20 @@ schritte:
   - quelle: hwp-er-2026__rz-0266-s244
     zitat: IT-gestützte Auswertungen werden abgestimmt mit Werten aus der Finanzbuchhaltung oder den Nebenbüchern und auf die rechnerische Richtigkeit hin geprüft
 - id: C1-302
-  vorgehen: 'Delkredereberechnung nachvollziehen: zuerst Einzel-WB gefährdeter Posten (Konkurs, Betreibung, Bestreitung, stark überfällig), dann Pauschal-WB auf dem Rest. Ergebnisse
-    aus C1-101/104/202/207/309/310 einbeziehen (WP-Schritte 208/304 nur, wenn auf Anweisung vorbereitet); Soll-Delkredere herleiten, mit Buchwert vergleichen, Überschuss als stille Reserve
-    an C1-303. Unterdeckung als Notiz «Wesentliche Feststellungen».'
+  vorgehen: 'Delkredereberechnung nachvollziehen: zuerst Einzel-WB gefährdeter Posten (Konkurs, Betreibung, Bestreitung, stark überfällig), dann Pauschal-WB auf dem Rest. Einzel-WB für
+    die Posten aus C1-310 (Vorauswahl C1-101/C1-202) und für die in neuer Rechnung gutgeschriebenen/ausgebuchten Posten mit Ursache am Stichtag (C1-309); Methode aus C1-104 und Verlustquote
+    aus C1-207 für die Pauschal-WB (WP-Schritte 208/304 nur, wenn auf Anweisung vorbereitet); Soll-Delkredere herleiten, mit Buchwert vergleichen, Überschuss als stille Reserve an C1-303.
+    Unterdeckung als Notiz «Wesentliche Feststellungen».'
   nachweise:
   - Delkredereberechnung des Kunden
   - Altersgliederung
   - Aktennotizen/Korrespondenz zu Problemdebitoren
   - Zahlungseingänge neue Rechnung (C1-309)
   - Debitorenverluste Vorjahre
-  rechnen: 'Soll-Delkredere = Σ Einzel-WB gefährdeter Posten (abzüglich werthaltiger Sicherheiten/Versicherung) + Pauschalsatz × (OP-Total − einzelwertberichtigte − risikolose Posten).
-    Pauschalsatz gemäss Vorgabe WP (offener Entscheid konzept-ki-revisionsagent-2026__c015-2); beide Varianten ausweisen: (a) Erfahrungswerte (hwp-bur-2023__rz-0120-s186), (b) ESTV-Pauschale
-    (hwp-bur-2023__rz-0437-s248). Differenz = gebuchtes Delkredere − Soll (a); Überschuss = stille Reserve'
+  rechnen: 'Soll-Delkredere = Σ Einzel-WB (je Posten aus C1-310/C1-309, nur ungedeckter bzw. unversicherter Teil) + Pauschal-WB auf dem Rest. Rest = OP-Total − einzelwertberichtigte
+    Posten. (a) Betriebswirtschaftlich: Satz gemäss Methode des Kunden (C1-104), plausibilisiert mit Erfahrungswerten (Verlustquote C1-207) × Rest. (b) Nur Steuerpraxis, keine handelsrechtliche
+    Regel: 5 % × Rest Inland + 10 % × Rest Ausland, je ohne Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen. Differenz = gebuchtes Delkredere − Soll
+    (a). Negativ → mögliche Überbewertung (Notiz «Wesentliche Feststellungen»), positiv → stille Reserve (C1-303). Alles mit `rechne`.'
   feststellung_wenn: Gebuchtes Delkredere unter dem Soll (Überbewertung) oder Einzelrisiken nicht wertberichtigt; mögliche Berichtsfolge beurteilt der WP. Betrag über dem Soll als stille
     Reserve dokumentieren.
   fundstellen:
@@ -782,6 +795,12 @@ schritte:
     zitat: Es liegt im Ermessen des Abschlussprüfers, zu entscheiden, ob das Gesamtbild der Jahresrechnung grundlegend verändert wird oder nicht.
   - quelle: konzept-ki-revisionsagent-2026__c013-1
     zitat: 104 Wertberichtigungen, 202 Altersstruktur (EP), 207 Kennzahlen, 208 Verluste und Rabatte (WP), 304 Zahlungen nach Stichtag (WP), 309, 310, 303 und 321 stille Reserven
+  - quelle: hwp-bur-2023__rz-0437-s248
+    zitat: eine pau schale Wertberichtigung von 5 % und auf ausländischen von 10 % zu
+  - quelle: hwp-bur-2023__rz-0437-s248
+    zitat: ausgenommen Forderungen gegen öffentlich-rechtliche Körperschaften und Forderungen mit voller Deckung
+  - quelle: hwp-bur-2023__rz-0438-s248
+    zitat: Sofern eine Exportrisikoversicherung oder eine Kreditversicherung besteht, hat das Delkredere nur den unversicherten Teil betrag zu decken.
 - id: C1-303
   vorgehen: 'Aufstellung der stillen Reserven in M-Files suchen bzw. aus C1-302 den Teil des Delkredere über dem betriebswirtschaftlich notwendigen Wert ermitteln. Bestand Stichtag und
     VJ sowie Bildung/Auflösung tabellarisch erfassen; fehlt die Aufstellung, Notiz «Pendenz» und PBC-Vorschlag (10.10). Umgang mit stillen Reserven ist offener Entscheid (consis): Vorgabe
@@ -888,23 +907,34 @@ schritte:
   - quelle: hwp-er-2026__rz-0118-s201
     zitat: Feststellung korrekter Autorisierung von Ausbuchungen von Debitorenverlusten
 - id: C1-309
-  vorgehen: Die seit dem Bilanzstichtag eingegangenen Zahlungen auf die Stichtagsposten aus Kontoblatt bzw. Bankauszügen der neuen Rechnung festhalten (Datum, Betrag, Beleg) und den
-    offenen Rest ermitteln. Ergebnis tabellarisch im Textfeld (Posten, OP 31.12., bezahlt, Datum, offen); nicht zuordenbare Sammelbuchungen als Notiz «Pendenz». Ergebnis an C1-302/C1-310.
+  vorgehen: Die seit dem Bilanzstichtag eingegangenen Zahlungen auf die Stichtagsposten aus Kontoblatt Debitoren bzw. Bankauszügen der neuen Rechnung festhalten (Posten, OP 31.12., bezahlt,
+    Datum, offen). Posten, die nicht durch Zahlung, sondern durch Gutschrift, Storno oder Ausbuchung erledigt wurden, separat auflisten (Beleg, Datum, Betrag, Grund). Bestand die Ursache
+    bereits am Stichtag (z. B. Mängelrüge, bestrittene Leistung), Einzel-WB bzw. Erlösminderung per Stichtag als Vorschlag an C1-302 und Notiz für den WP; bei Gutschrift/Erlösminderung
+    Buchungsvorschlag mit getrenntem MWST-Anteil (Art. 41 MWSTG). C1-106/C1-306 sind WP-Schritte und werden nicht selbst bearbeitet. Nicht zuordenbare Sammelbuchungen als Notiz «Pendenz».
+    Ergebnis an C1-302/C1-310.
   nachweise:
   - OP-Liste per Stichtag
   - Kontoblatt Debitoren neue Rechnung
   - Bankauszüge Folgeperiode
+  - Gutschrifts-/Ausbuchungsbelege neue Rechnung
   rechnen: 'Je Posten: offen = OP 31.12. − Zahlungen − Gutschriften neue Rechnung; Σ Zahlungen / OP-Total in %'
-  feststellung_wenn: Sammelbuchungen nicht auf Einzelposten zuordenbar oder wesentliche Posten ohne Zahlungseingang.
+  feststellung_wenn: Sammelbuchungen nicht auf Einzelposten zuordenbar; wesentliche Posten ohne Zahlungseingang; oder Stichtagsposten in neuer Rechnung gutgeschrieben/ausgebucht, Ursache
+    vor dem Stichtag, ohne Wertberichtigung/Erlösminderung im Abschluss.
   fundstellen:
   - quelle: ser-2022__6-1-3
     zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
-  - quelle: ser-2022__anh-d-s076-1
-    zitat: Durchsicht der OP-Liste im Prüfungszeitpunkt und/oder Zahlungen in neuer Rechnung
+  - quelle: hwp-bur-2023__rz-0861-s353
+    zitat: Besteht die Ursache für ein Ereignis bereits am Bilanzstichtag, so ist das Ereignis in der Jahresrechnung des abgelaufenen Geschäftsjahres buchungspflichtig
+  - quelle: hwp-er-2026__rz-0317-s254
+    zitat: Ereignisse, die Nachweise für Umstände bzw. Sachverhalte liefern, die bereits am Bilanzstichtag vorlagen (berücksichtigungspflichtige Ereignisse)
+  - quelle: hwp-er-2026__rz-0397-s273
+    zitat: Durchsicht noch offener Debitoren im Prüfungszeitpunkt
+  - quelle: mwstg__art-41
+    zitat: so ist im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt wird, eine Anpassung der Umsatzsteuerschuld vorzunehmen
 - id: C1-310
   vorgehen: 'Die im Prüfungszeitpunkt noch offenen, überfälligen Guthaben einzeln beurteilen: Mahnstand, Betreibung/Konkurs, Bestreitung, Zahlungsvereinbarung, Sicherheiten. Je Posten
-    einen Bewertungsvorschlag (werthaltig, Einzel-WB, Ausbuchung) dokumentieren, Korrekturbedarf als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag (keine Verbuchung)
-    und an C1-302 übergeben.'
+    einen Bewertungsvorschlag (werthaltig, Einzel-WB, Ausbuchung) dokumentieren, Korrekturbedarf als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag (keine Verbuchung;
+    bei Ausbuchung MWST-Anteil getrennt, Art. 41 MWSTG) und an C1-302 übergeben.'
   nachweise:
   - OP-Liste im Prüfungszeitpunkt
   - Mahn- und Betreibungsunterlagen
@@ -919,6 +949,8 @@ schritte:
     zitat: Bestehen konkrete Anzeichen für eine Überbewertung von Aktiven oder für zu geringe Rückstellungen, so sind die Werte zu überprüfen und gegebenenfalls anzupassen.
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: mwstg__art-41
+    zitat: so ist im Zeitpunkt, in dem die Korrektur verbucht oder das korrigierte Entgelt vereinnahmt wird, eine Anpassung der Umsatzsteuerschuld vorzunehmen
 - id: C1-311
   vorgehen: 'Grossdebitoren (über Toleranzwesentlichkeit bzw. Top-Positionen aus C1-206) einzeln bewerten: Bonität, Zahlungsverhalten, Sicherheiten, Kreditversicherung. Kurzfristige
     FW-Debitoren zum Stichtagskurs nachrechnen (Kursdifferenzen können als realisiert gelten); Niederstwertprinzip v. a. bei langfristigen FW-Forderungen beachten. Ergebnis an C1-302.'
@@ -962,7 +994,7 @@ schritte:
     als Notiz an das Prüffeld Anhang melden.'
   nachweise:
   - Anhang Jahresrechnung
-  - Bankbestätigungen (Sicherheiten)
+  - Bankbestätigungen (Sicherheiten), sofern beim Unternehmen vorhanden
   - Ergebnisse C1-102, C1-204, C1-303/321, C1-106
   rechnen: ''
   feststellung_wenn: Gesetzlich verlangte Anhangsangabe fehlt (z. B. zedierte Forderungen trotz Globalzession) oder stimmt betragsmässig nicht mit den Prüffeldergebnissen überein.

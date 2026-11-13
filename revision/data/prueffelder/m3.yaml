@@ -282,11 +282,14 @@ fallstricke:
   quelle: hwp-bur-2023__rz-0508-s260
   zitat: Eine nicht benötigte Garantierückstellung darf auch nicht durch blosse Änderung der Bezeichnung – also unter Umgehung der Erfolgsrechnung – in eine Prozessrisikorückstellung
     umgewandelt werden.
-- text: Konto heisst «Rückstellung Ferien/Überzeit», ist aber sachlich eine passive Rechnungsabgrenzung; Ausweis und Berechnung (nicht pauschal) prüfen.
-  quelle: qa-or-rechnungslegung-2026__2-2-t1
-  zitat: die als passive Rechnungsabgrenzung auszuweisen ist
-- text: 'Abgrenzung zu anderen Prüffeldern: langfristige Rückstellungen und Rechtsfälle (O1), Steuern (S1), Personal/Ferien (R1), Kreditoren und Rechnungen neue Rechnung (K1), Anhang
-    (T1); Ergebnisse übergeben statt doppelt prüfen.'
+- text: 'Konto heisst «Rückstellung Ferien/Überzeit»: sachlich passive Rechnungsabgrenzung. Ein Ausweis unter Rückstellungen kommt in der Praxis vor und ändert das Periodenergebnis nicht
+    → höchstens Umgliederungshinweis, keine Wesentliche Feststellung (Beurteilung WP). Entscheidend ist die Berechnung (je Mitarbeiter, inkl. Sozialleistungen, nicht pauschal). Rechnet
+    die Steuerbehörde die Abgrenzung auf, ist die Differenz in der Steuerabgrenzung zu berücksichtigen (Schnittstelle S1).'
+  quelle: qa-or-rechnungslegung-2026__2-2-t2
+  zitat: In der Praxis ist auch ein Ausweis unter den Rückstellungen anzutreffen, was jedoch keinen Einfluss auf das Periodenergebnis hat.
+- text: 'Zuständigkeit (Praxis/intern, Entscheid consis): M3 prüft Bestand und Vollständigkeit aller pRA und kurzfristigen Rückstellungen (M3-101 bis M3-301). Bewertung Prozess-/Garantierückstellungen:
+    O1 (auch kurzfristige, z.B. Rechtsfall); Bewertung Ferien/Überzeit: R1 (R1-409b); laufende Steuern: S1; Kreditoren und Rechnungen neue Rechnung: K1; Anhang: T1. Liegt das Ergebnis
+    dort schon vor → in M3 als Verweis übernehmen, nicht neu rechnen; sonst Hinweis an den WP – Nachrechnen in M3-304 nur auf Anweisung (WP-Schritt).'
 - text: 'Der Agent bereitet nur vor: Beurteilung, Visum, Abschluss und Freigabe der Schritte (auch M3-302, M3-304, M3-305) bleiben beim Wirtschaftsprüfer.'
   quelle: konzept-ki-revisionsagent-2026__c004-1
   zitat: Er setzt nie ein Visum, schliesst nichts ab und gibt nichts frei.
@@ -297,17 +300,18 @@ fallstricke:
 - text: Buchungsvorschläge (z.B. Erhöhung der Prozessrückstellung, Korrektur der Ferienabgrenzung) nur als Notiz «Wesentliche Feststellung» mit Begründung, nie verbuchen.
   quelle: konzept-ki-revisionsagent-2026__c015-1
   zitat: 'Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung (Pflichtenheft).'
-- text: Ob der Agent WP-Schritte (M3-302, M3-304, M3-305) überhaupt vorbereitet, ist ein offener Entscheid im Konzept; Mandatsvorgabe beachten.
+- text: Ob der Agent WP-Schritte (M3-302, M3-304, M3-305) überhaupt vorbereitet, ist ein offener Entscheid im Konzept; bis zum Entscheid nur auf ausdrückliche Anweisung des WP, sonst
+    «nicht bearbeitet – WP-Schritt».
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
-- text: Reicht der Nachweis zum Prozessrisiko (Befragung, Belege, Kontendurchsicht) nicht, trifft der WP eine Annahme, ermisst den möglichen Fehlbetrag und entscheidet über die Prüfungsaussage
-    (allenfalls modifiziert). Der Agent beziffert den möglichen Fehlbetrag und dokumentiert nur.
+- text: 'Nur wenn M3-304 auf Anweisung bearbeitet wird: Reicht der Nachweis zum Prozessrisiko (Befragung, Belege, Kontendurchsicht) nicht, trifft der WP eine Annahme, ermisst den möglichen
+    Fehlbetrag und entscheidet über die Prüfungsaussage (allenfalls modifiziert). Der Agent beziffert den möglichen Fehlbetrag und dokumentiert nur.'
   quelle: hwp-er-2026__rz-0139-s204-t3
   zitat: muss er ermessen, wie hoch der Fehlbetrag sein könnte
-- text: Objektive Unüberprüfbarkeit des Ausgangs eines aussergewöhnlichen hängigen Rechtsstreits (Zusatz nach SER Ziff. 8.2, bei angemessener Offenlegung im Anhang) ist von Sachverhalten
-    zu trennen, die in der eingeschränkten Revision nicht geprüft werden können; Entscheid beim WP.
-  quelle: hwp-er-2026__rz-0139-s204-t4
-  zitat: im Anschluss an die Prüfungsaussage einen Zusatz vor
+- text: Objektive Unüberprüfbarkeit des Ausgangs eines aussergewöhnlichen hängigen Rechtsstreits (Zusatz mit weiteren Informationen nach SER Ziff. 8.3.2.2, nur bei völlig offenem Ausgang
+    und angemessener Offenlegung im Anhang; HWP ER Rz 139) ist von Sachverhalten zu trennen, die in der eingeschränkten Revision nicht geprüft werden können; Entscheid beim WP.
+  quelle: ser-2022__8-3-2-t3
+  zitat: dies immer unter der Voraussetzung, dass der Ausgang der hängigen Situation völlig offen ist
 - text: Das Einholen von Bestätigungen (z.B. bei Gläubigern) zu passiven Abgrenzungen und von Experten-Gutachten zu Rückstellungen gehört nicht zur eingeschränkten Revision; nicht einfordern,
     höchstens auf ausdrückliche Anweisung des WP.
   quelle: ser-2022__anh-d-s087-1
@@ -326,11 +330,11 @@ fragen_kunde:
   zweck: 'M3-302/M3-401: Methode feststellen, damit der Periodenaufwand richtig nachgerechnet wird (PA)'
 - frage: Wie wurde die Abgrenzung der Ferien- und Überzeitguthaben ermittelt (Saldi je Mitarbeiter × Lohnansatz inkl. Arbeitgeber-Sozialleistungen oder Pauschale)? Bitte Saldoliste aus
     der Zeiterfassung und den verwendeten Sozialleistungssatz beilegen.
-  zweck: 'M3-304: Bewertung der Ferien-/Überzeitabgrenzung (BE)'
+  zweck: 'M3-301: Grundlage der Position Ferien/Überzeit (pauschal?); Nachrechnen M3-304 nur auf Anweisung (BE)'
 - frage: Wurden die direkten Steuern des Geschäftsjahrs berechnet und abgegrenzt? Bitte Steuerberechnung beilegen.
   zweck: 'M3-301: Vollständigkeit Steuerabgrenzung (VO); Schnittstelle S1'
 - frage: Ist das Revisionshonorar für das geprüfte Geschäftsjahr abgegrenzt?
-  zweck: 'M3-302: Vollständigkeit typischer Abgrenzungen (VO)'
+  zweck: 'M3-301: offensichtlich fehlende Abgrenzung Revisionshonorar (VO); M3-302 nur auf Anweisung'
 - frage: Gab es nach dem Bilanzstichtag Entwicklungen bei zurückgestellten Sachverhalten (Vergleich, Urteil, Gutschriften, Zahlungen) oder neue Ansprüche Dritter?
   zweck: 'M3-305: Entwicklung in neuer Rechnung, Ereignisse nach Bilanzstichtag (EN, VO, PA)'
 - frage: Liegt zu laufenden Rechtsfällen eine Stellungnahme Ihres Rechtsvertreters vor? Falls ja, bitte zur Verfügung stellen.
@@ -450,7 +454,8 @@ schritte:
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: der Verhinderung der mehrfachen Erfassung von Belegen
 - id: M3-302
-  vorgehen: 'WP-Schritt. Weiter gehende Handlung nach SER: vorbereiten, wenn M3-101/201/202/301 oder das Risiko (z.B. Rechtsfall) es nahelegen; Umfang legt der WP fest. Methode für VJ-Abgrenzungen
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; sonst «nicht bearbeitet – WP-Schritt», kein Textfeld-Eintrag. Hinweise aus M3-101/201/202/301 (z.B. fehlende wiederkehrende
+    Abgrenzung, Rechtsfall) nur als Notiz «Schlussbesprechung» bzw. «Pendenz»; ob weiter gehend geprüft wird (SER Anh. D l/m), entscheidet der WP. Auf Anweisung: Methode für VJ-Abgrenzungen
     feststellen (Rückbuchung, Belassen, Auflösung über Zahlung). Kontoblätter typischer Konten (Miete, Energie, Telefon, Honorare, Zinsen) auf Monatsbelastungen und Periode durchsehen,
     Jahresaufwand aus Verträgen rechnen, Lücken im Textfeld auflisten.'
   nachweise:
@@ -459,10 +464,12 @@ schritte:
   - Detailliste passive Abgrenzungen
   rechnen: Erwarteter Aufwand = Monatsbetrag gemäss Vertrag × 12; gebuchter Periodenaufwand nach Berücksichtigung der Rückbuchung bzw. der Auflösung über das Abgrenzungskonto; Differenz
     = mögliche Abgrenzungslücke
-  feststellung_wenn: Fehlende Monatsbelastungen oder Aufwand des Geschäftsjahrs ohne Abgrenzung über der Wesentlichkeitsschwelle.
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Fehlende Monatsbelastungen oder Aufwand des Geschäftsjahrs ohne Abgrenzung über der Wesentlichkeitsschwelle.'
   fundstellen:
   - quelle: ser-2022__anh-d-s087-1
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s087-1
     zitat: Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten
   - quelle: hwp-bur-2023__rz-0262-s216
@@ -476,7 +483,8 @@ schritte:
   - quelle: hwp-bur-2023__rz-0261-s216
     zitat: Die Auflösung der passiven Rechnungsabgrenzungen erfolgt oft auch direkt durch Verbuchung der Zahlung in den Konten der Rechnungsabgrenzung.
 - id: M3-304
-  vorgehen: 'WP-Schritt. Weiter gehende Handlung nach SER: vorbereiten, wenn M3-101/201/202/301 oder das Risiko (z.B. Rechtsfall) es nahelegen; Umfang legt der WP fest. Wesentliche Positionen
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; sonst «nicht bearbeitet – WP-Schritt», kein Textfeld-Eintrag. Hinweise aus M3-101/201/202/301 (z.B. fehlende wiederkehrende
+    Abgrenzung, Rechtsfall) nur als Notiz «Schlussbesprechung» bzw. «Pendenz»; ob weiter gehend geprüft wird (SER Anh. D l/m), entscheidet der WP. Auf Anweisung: Wesentliche Positionen
     mit Verträgen, Rechnungen neue Rechnung, Ferien-/Überzeitsaldi (Lohnansatz inkl. Sozialleistungen), Aktennotizen, Klageschriften, Berechnungen abstimmen; möglichen Fehlbetrag beziffern.
     Anwaltsbestätigung nicht einfordern, vorhandene Stellungnahme verwenden.'
   nachweise:
@@ -486,14 +494,17 @@ schritte:
   - Aktennotizen, Klageschriften, Berechnungen zu Rückstellungen
   - Stellungnahme Rechtsvertreter (falls vorhanden)
   - Wesentlichkeit (revio 3.3)
-  rechnen: Abgrenzung = Vertragsbetrag × Anteil Leistungszeitraum im GJ; Ferien/Überzeit = Σ je MA (Feriensaldo Tage × Tageslohn + Überzeit h × Stundenlohn) × (1 + AG-Sozialleistungssatz)
-    vs. Saldo Ferien-/Überzeitabgrenzung; möglicher Fehlbetrag Rückstellung = bestmögliche Schätzung bzw. oberes Ende der Bandbreite inkl. Prozesskosten – gebuchte Rückstellung (Spanne
-    unteres/oberes Ende zusätzlich ausweisen); Vergleich mit der Wesentlichkeit
-  feststellung_wenn: 'Position nicht belegt, Betrag weicht wesentlich ab (z.B. Ferien ohne Sozialleistungen) oder Rückstellung unter Schätzung/Bandbreite inkl. Prozesskosten: Wesentliche
-    Feststellung mit Buchungsvorschlag (nicht buchen).'
+  rechnen: 'Abgrenzung = Vertragsbetrag × Anteil Leistungszeitraum im GJ; Ferien/Überzeit = Σ je MA (Feriensaldo Tage × Tageslohn + Überzeit h × Stundenlohn) × (1 + AG-Sozialleistungssatz)
+    vs. Saldo Ferien-/Überzeitabgrenzung; möglicher Fehlbetrag Rückstellung = bestmögliche Schätzung (inkl. Prozesskosten) – gebuchte Rückstellung; zusätzlich Spanne ausweisen: (unteres
+    Ende + Prozesskosten – gebucht) bis (oberes Ende + Prozesskosten – gebucht); liegt die gebuchte Rückstellung am oder unter dem unteren Ende: Hinweis Vorsichtsprinzip (eher oberes
+    Ende) an den WP; Vergleich mit der Wesentlichkeit'
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Position nicht belegt, Betrag weicht wesentlich ab (z.B. Ferien ohne Sozialleistungen) oder Rückstellung unter Schätzung/Bandbreite
+    inkl. Prozesskosten: Wesentliche Feststellung mit Buchungsvorschlag (nicht buchen).'
   fundstellen:
   - quelle: ser-2022__anh-d-s088-1
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s087-1
     zitat: Abstimmung der Bestände mit geeigneten Unterlagen (Verträge usw.)
   - quelle: ser-2022__anh-d-s088-1
@@ -506,6 +517,8 @@ schritte:
     zitat: Multiplikation (pro Mitarbeiter) der Ferien- oder Überzeitguthaben in Stunden mit dem Stundensatz für Lohnkosten, Sozialleistungen etc.
   - quelle: hwp-bur-2023__rz-0526-s263
     zitat: Höhe allfälliger Schadenersatzverpflichtungen (einschliesslich Prozesskosten)
+  - quelle: hwp-bur-2023__rz-0516-s261
+    zitat: Die notwendige Höhe der Rückstellung ist aufgrund bestmöglicher Schätzung zu bemessen.
   - quelle: hwp-bur-2023__rz-0515-s261
     zitat: Das Vorsichtsprinzip impliziert, dass bei der Rückstellungsbildung eher das obere Ende der Bandbreite zu erfassen ist.
   - quelle: hwp-er-2026__rz-0139-s204-t2
@@ -517,7 +530,8 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: M3-305
-  vorgehen: 'WP-Schritt. Weiter gehende Handlung nach SER: vorbereiten, wenn M3-101/201/202/301 oder das Risiko es nahelegen; Umfang legt der WP fest. Kontoblätter, Kreditorenjournal,
+  vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung des WP; sonst «nicht bearbeitet – WP-Schritt», kein Textfeld-Eintrag. Hinweise aus M3-101/201/202/301 (z.B. fehlende wiederkehrende
+    Abgrenzung, Rechtsfall) nur als Notiz «Schlussbesprechung» bzw. «Pendenz»; ob weiter gehend geprüft wird (SER Anh. D l/m), entscheidet der WP. Auf Anweisung: Kontoblätter, Kreditorenjournal,
     Zahlungen neue Rechnung bis Prüfungsdatum durchsehen: Abgrenzungen/Rückstellungen mit Rechnungen, Zahlungen, Gutschriften, Vergleichen, Urteilen vergleichen; GJ-Leistungen ohne Abgrenzung/Kreditor
     auflisten; Ereignisse als wertaufhellend/wertbegründend einordnen.'
   nachweise:
@@ -528,11 +542,13 @@ schritte:
   - Kreditoren-OP-Liste 31.12.
   - Vollständigkeitserklärung (Passus Ereignisse nach dem Bilanzstichtag)
   rechnen: Differenz = Abgrenzung bzw. Rückstellung 31.12. – effektive Rechnung/Zahlung in neuer Rechnung; Σ Rechnungen mit Leistungsdatum ≤ 31.12. ohne Abgrenzung/Kreditor
-  feststellung_wenn: Rechnung für Leistung des GJ ohne Abgrenzung, effektiver Betrag deutlich über Rückstellung oder wertaufhellendes Ereignis nicht berücksichtigt; wertbegründendes
-    Ereignis nur Anhang (M3-320).
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Rechnung für Leistung des GJ ohne Abgrenzung, effektiver Betrag deutlich über Rückstellung oder wertaufhellendes Ereignis nicht
+    berücksichtigt; wertbegründendes Ereignis nur Anhang (M3-320).'
   fundstellen:
   - quelle: ser-2022__anh-d-s087-1
     zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
   - quelle: ser-2022__anh-d-s087-1
     zitat: Kontendurchsicht betreffend die weitere Entwicklung in neuer Rechnung
   - quelle: ser-2022__anh-d-s088-1
@@ -550,11 +566,12 @@ schritte:
     zitat: Sämtliche wesentlichen Ereignisse nach dem Bilanzstichtag sind in der Jahresrechnung erfasst bzw. offengelegt.
 - id: M3-320
   vorgehen: 'Anhang auf Angaben mit Bezug zu M3 prüfen: Eventualverbindlichkeiten (z.B. Rechtsstreit ohne oder mit nur teilweiser Rückstellung), Erläuterung ausserordentlicher/periodenfremder
-    Bildungen und Auflösungen, wesentliche Ereignisse nach dem Bilanzstichtag, Grundsätze. Mit Ergebnissen M3-101/304/305/321 abgleichen und Bedarf an Prüffeld T1 übergeben.'
+    Bildungen und Auflösungen, wesentliche Ereignisse nach dem Bilanzstichtag, Grundsätze. Mit Ergebnissen M3-101/301/321 abgleichen (M3-304/305 nur, falls auf Anweisung bearbeitet)
+    und Bedarf an Prüffeld T1 übergeben.'
   nachweise:
   - Anhang zur Jahresrechnung
   - Rückstellungsspiegel
-  - Arbeitspapiere M3-101/304/305/321
+  - Arbeitspapiere M3-101/301/321 (M3-304/305 nur, falls auf Anweisung bearbeitet)
   - Vollständigkeitserklärung mit Beilage Rechtsstreitigkeiten
   rechnen: ''
   feststellung_wenn: Pflichtangabe (Eventualverbindlichkeit, a.o. Position, wesentliches Ereignis nach Stichtag, Nettoauflösung stiller Reserven bei wesentlich günstigerem Ergebnis)

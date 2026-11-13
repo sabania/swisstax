@@ -157,6 +157,10 @@ unterlagen:
   zweck: Durchsicht neue Rechnung (K1-302, weitergehend, nur auf Anweisung WP) und aktuelle OP-Liste (K1-407)
   quelle: ser-2022__anh-d-s084-2
   zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen und/oder der Kreditoren- und Aufwandskonten auf Rechnungen
+- dokument: Liste/Kontoblätter passive Rechnungsabgrenzungen und kurzfristige Rückstellungen per 31.12.
+  zweck: Abgrenzung erhaltener, nicht fakturierter Lieferungen/Leistungen und Zuordnung von Interimskonten (K1-103, K1-302); Prüfung der Position selbst in M3
+  quelle: hwp-bur-2023__rz-0445-s250
+  zitat: Abgrenzungsposten dar und sind dort zu erfassen
 - dokument: Aktuelle OP-Liste Kreditoren (Stand Revisionsdatum) und Bankauszüge Folgejahr
   zweck: Nachweis Zahlung der Stichtagsposten, Hinweise nach dem Bilanzstichtag (K1-407)
   quelle: ser-2022__6-1-3
@@ -173,7 +177,7 @@ unterlagen:
   zweck: Identifikation Kreditoren gegenüber Beteiligten, Organen, Beteiligungsgesellschaften (K1-203, K1-402)
   quelle: hwp-er-2026__rz-0161-s212
   zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
-- dokument: Devisenkurse per 31.12. aus beim Unternehmen vorhandenen Bankunterlagen (Kontoauszug, allenfalls vorhandene Bankbestätigung); keine Bankbestätigung einholen
+- dokument: Devisenkurse per 31.12. aus dem Bankkontoauszug; Bankbestätigung nur mit dokumentierter Herkunft (Verwendung entscheidet WP); keine Bankbestätigung einholen
   zweck: Kursvergleich Fremdwährungskreditoren (K1-202)
   quelle: ser-2022__anh-d-s084-1
   zitat: Vergleich der für die Fremdwährungsumrechnung angewandten Kurse mit den Jahresendkursen gemäss Unterlagen von Banken usw.
@@ -264,6 +268,12 @@ fallstricke:
     verwendet werden nur beim Unternehmen bereits vorhandene Unterlagen.
   quelle: hwp-er-2026__rz-0134-s203
   zitat: Prüfungshandlungen genannt, welche nicht Gegenstand der eingeschränkten Revision sind und auf die daher zu verzichten ist
+- text: 'Vorhandene Lieferanten-/Saldobestätigungen: verwendbar sind Bestätigungen, die das Unternehmen von sich aus bei der Abschlusserstellung eingeholt hat. An die Revisionsstelle
+    adressiert oder «auf Ersuchen des Kunden»: Herkunft (wer hat angefragt, wann, Adressat) festhalten (bei K1-401 ohne Anweisung als Notiz), Pendenz an WP – Verwendung entscheidet WP;
+    nie selbst anfordern, nichts versenden. Praxis/intern: Inhalt trotzdem lesen; Abweichung zur OP-Liste (z. B. nicht passivierte Rechnung) → Hinweis-Notiz an WP, auch ohne Anweisung
+    (neue Information für die Risikobeurteilung, hwp-er-2026__rz-0269-s245); Anlass für K1-302/K1-401 (Entscheid WP).'
+  quelle: hwp-er-2026__rz-0137-s203
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
 - text: 'Lässt sich ein Risiko ohne Bestätigung nicht reduzieren (z. B. weder Rechnung noch Zahlung im neuen Jahr): zuerst alle verfügbaren Handlungen ausschöpfen, dann Pendenz an den
     WP; dieser entscheidet über Annahme bzw. Einschränkung (HWP ER Rz 139, Beispiel Forderungen sinngemäss).'
   quelle: hwp-er-2026__rz-0139-s204-t1
@@ -295,7 +305,10 @@ fallstricke:
     127 OR) oder fünf Jahre (Art. 128 OR, z. B. Handwerksarbeit).'
   quelle: or__art-128
   zitat: aus Handwerksarbeit, Kleinverkauf von Waren
-- text: OP-Liste muss den Stand per Bilanzstichtag zeigen; bei nachträglich gedruckten Listen auf Folgejahresbuchungen achten.
+- text: 'OP-Liste muss den Stand per Bilanzstichtag zeigen (gilt sinngemäss für Kreditoren, hwp-bur-2023__rz-0447-s250); Hinweis auf Folgejahresbuchungen bei nachträglich gedruckten
+    Listen: Praxis/intern.'
+  quelle: hwp-bur-2023__rz-0115-s186
+  zitat: Zumindest per Bilanzstichtag ist eine Saldenliste der Forderungen zu erstellen.
 - text: Geleistete Anzahlungen an Lieferanten (Sollsalden) dürfen nicht mit Kreditoren desselben oder anderer Lieferanten verrechnet werden; wesentliche Sollsalden umgliedern (K1-406).
   quelle: hwp-bur-2023__rz-0450-s251
   zitat: Eine Verrechnung von Soll- und Habensalden innerhalb der Verbindlichkeiten aus Lieferungen und Leistungen ist nicht zulässig.
@@ -347,7 +360,8 @@ testakte_2025:
 - datei: H_Kreditoren/Lieferantenrechnung_Teststein_2025-1187_Scan.md
   bezug: 'Einzelbeleg (Scan mit Eingangsstempel, ohne Transkription – Original prüfen): K1-302, K1-405'
 - datei: H_Kreditoren/Saldobestaetigung_Lieferant_SolarTech_31.12.2025.md
-  bezug: 'Beim Unternehmen vorhandene Lieferantenbestätigung (nicht eingeholt, nichts versenden): K1-401 (nur auf Anweisung, Abgleich mit OP-Liste), K1-406 (Anzahlung), K1-302'
+  bezug: 'An die Revisionsstelle adressierte Lieferantenbestätigung (16.01.2026): Herkunft dokumentieren, Verwendung entscheidet WP; nichts versenden; Abweichungen zur OP-Liste als Hinweis
+    an WP – K1-401 (nur auf Anweisung, Abgleich mit OP-Liste), K1-406 (Anzahlung), K1-302'
 - datei: 00_Allgemein/Saldoliste_2025.md
   bezug: 'Salden Kreditorenkonten 2025/2024 und Einkaufs-/Materialaufwand: K1-102, K1-201, K1-301; Zuordnung Interimskonto Kreditoren; Konto 8510 a.o. Ertrag (K1-409, K1-320)'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
@@ -371,7 +385,8 @@ testakte_2025:
 - datei: C_Uebrige_kurzfristige_Forderungen/Anzahlungsrechnung_SolarTech_AZ-25-0388.md
   bezug: 'Geleistete Anzahlung an Lieferanten: K1-406 (Sollsaldo/Verrechnung), K1-404'
 - datei: A_Fluessige_Mittel/Bankbestaetigung_Testbank_Ostschweiz_31.12.2025.md
-  bezug: 'Beim Unternehmen vorhandene Bankbestätigung (nicht einholen): Bewertungskurs Fremdwährung per 31.12. als Referenz, K1-202'
+  bezug: An die Revisionsstelle adressiert, «Auf Ersuchen unseres Kunden» (Herkunft dokumentieren, Verwendung entscheidet WP); Kurs 31.12. primär aus Kontoauszug 1012; Bewertungskurs
+    der Bestätigung nur als Referenz – K1-202
 - datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1012_EUR_Dezember_2025.md
   bezug: 'Devisenkurs per 31.12. und EUR-Lieferantenzahlungen: K1-202'
 - datei: A_Fluessige_Mittel/Kontoauszug_Testbank_1011_CHF_Januar_2026.md
@@ -424,11 +439,12 @@ schritte:
     zitat: Auch für eine begrenzte Prüfungssicherheit ist es notwendig, die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren.
 - id: K1-103
   vorgehen: Schriftliche Beschreibung des Rechnungseingangs und der Abschlussarbeiten auswerten (Erfassung nach Leistungsdatum, Behandlung erhaltener, nicht fakturierter Lieferungen,
-    Stichtagsregelung, Interimskonten); fehlt sie, Fragen als Pendenz. Aussagen mit Kontoblättern des Folgejahres und passiven Abgrenzungen plausibilisieren. Keine IKS-Prüfung. Ergebnis
-    kann Anlass für weitergehende K1-302/K1-303 sein (Entscheid WP).
+    Stichtagsregelung, Interimskonten); fehlt sie, Fragen als Pendenz. Aussagen nur mit vorhandenen Unterlagen plausibilisieren (bestehen passive Abgrenzungen für erhaltene, nicht fakturierte
+    Leistungen?); keine systematische Durchsicht der Folgejahresrechnungen – das ist K1-302 (nur auf Anweisung). Hinweise auf nicht erfasste Rechnungen als Notiz an den WP (Anlass für
+    K1-302). Keine IKS-Prüfung. Ergebnis kann Anlass für weitergehende K1-302/K1-303 sein (Entscheid WP).
   nachweise:
   - Prozessbeschrieb/Antwort Kunde
-  - Kontoblätter Kreditoren Folgejahr
+  - Kontoblätter Kreditoren Folgejahr (nur lesen, keine Durchsicht)
   - Liste passive Abgrenzungen
   rechnen: ''
   feststellung_wenn: Kein Verfahren zur Stichtagsabgrenzung erkennbar oder Antwort steht im Widerspruch zu Buchungen in neuer Rechnung.
@@ -455,12 +471,12 @@ schritte:
   - quelle: ser-2022__6-1-2-t3
     zitat: Bei wesentlichen Bilanzpositionen sind die analytischen Prüfungshandlungen in der Regel um angemessene Detailprüfungen zu ergänzen
 - id: K1-202
-  vorgehen: 'Fremdwährungskreditoren in OP-Liste und Hauptbuch identifizieren (Währung, FW-Betrag). Angewandten Kurs je Posten mit dem Jahresendkurs aus beim Unternehmen vorhandenen
-    Bankunterlagen (Kontoauszug, allenfalls vorhandene Bankbestätigung; keine einholen) vergleichen, CHF-Wert nachrechnen. Kursgewinne auf kurzfristigen Kreditoren sind zulässig (realisiert).
+  vorgehen: 'Fremdwährungskreditoren in OP-Liste und Hauptbuch identifizieren (Währung, FW-Betrag). Angewandten Kurs je Posten mit dem Jahresendkurs gemäss Bankkontoauszug 31.12. vergleichen
+    (Bankbestätigung nur mit dokumentierter Herkunft, Verwendung entscheidet WP; keine einholen), CHF-Wert nachrechnen. Kursgewinne auf kurzfristigen Kreditoren sind zulässig (realisiert).
     Keine FW-Kreditoren: «nicht anwendbar» mit Begründung im Textfeld.'
   nachweise:
   - OP-Liste mit Währungsangabe
-  - beim Unternehmen vorhandene Bankunterlagen (Kontoauszug, allenfalls vorhandene Bankbestätigung) mit Devisenkurs 31.12.
+  - Kontoauszug mit Devisenkurs 31.12.; Bankbestätigung nur mit dokumentierter Herkunft (Verwendung entscheidet WP)
   - Kontoblätter FW-Konten
   rechnen: CHF-Soll = FW-Betrag × Jahresendkurs (Briefkurs bzw. Durchschnittskurs Stichtag); Differenz = CHF-Buchwert − CHF-Soll; Σ Differenzen je Währung vs. NAG
   feststellung_wenn: 'Verwendeter Kurs weicht wesentlich vom Jahresendkurs ab, Umrechnungsdifferenz über NAG oder Kurs nicht belegt. Kein Fehler: erfasster Kursgewinn auf kurzfristigen
@@ -509,7 +525,9 @@ schritte:
   - Saldoliste
   - Kontoblatt Kreditoren
   - Jahresrechnung (Bilanz)
-  rechnen: Σ Offen CHF (OP-Liste) = Saldo Kreditorenkonto (Hauptbuch/Saldoliste) = Bilanzposition Verbindlichkeiten aus LuL; Differenz = 0
+  rechnen: (1) `rechne "Diff OP-HB = sum(<alle Beträge Spalte Offen>) - <Saldo Kreditorenkonto 2000 lt. Saldoliste>"` – Posten selbst summieren, gedrucktes Total nur vergleichen. (2)
+    `rechne "Diff HB-Bilanz = sum(<Salden aller Konten der Gruppe Verbindlichkeiten aus L+L>) - <Bilanzposition>"`. Jede Formel ist ein vollständiger Ausdruck (Namen gelten nicht im
+    nächsten Teil). 0 = abgestimmt; ≠ 0 → Pendenz; > NAG → Feststellung.
   feststellung_wenn: Nicht erklärte Differenz zwischen OP-Liste, Hauptbuch und Jahresrechnung oder OP-Liste nicht per Stichtag.
   fundstellen:
   - quelle: ser-2022__anh-d-s084-1
@@ -518,16 +536,24 @@ schritte:
     zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
   - quelle: or__art-958c
     zitat: Der Bestand der einzelnen Positionen in der Bilanz und im Anhang ist durch ein Inventar oder auf andere Art nachzuweisen.
+  - quelle: hwp-er-2026__rz-0125-s202
+    zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
 - id: K1-302
   vorgehen: 'WP-Schritt, weitergehende Handlung (SER Anh. D): Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis), v. a. wenn K1-101–K1-301 wesentliche Fehlaussagen
-    vermuten lassen oder erhöhtes inhärentes Risiko (3.1). Dann: Kreditorenjournal, Kontoblätter Folgejahr und unverbuchte Rechnungen durchsehen; Leistung ≤ 31.12. gegen OP-Liste, Abgrenzungen,
-    Rückstellungen abgleichen; Liste mit Summe. Beurteilung, Visum, Abschluss beim WP.'
+    vermuten lassen oder erhöhtes inhärentes Risiko (3.1). Dann: (1) Kreditorenjournal und Kontoblatt Kreditoren Folgejahr bis Revisionsdatum sowie Liste unverbuchter Rechnungen öffnen.
+    (2) Auswahl nach Vorgabe WP; ohne Vorgabe Vorschlag gemäss offenem Entscheid (Praxis/intern): alle Rechnungen ≥ Toleranzwesentlichkeit sowie stichtagsnahe/ungewöhnliche (Rechnungsdatum
+    oder Leistungstext ≤ 31.12.), Auswahl begründen; keine repräsentative Stichprobe, keine Hochrechnung. (3) Massgebend ist das Leistungs-/Lieferdatum (Rechnungstext, Leistungszeitraum,
+    Lieferschein; bei Waren Übergang Nutzen und Gefahr), nicht das Erfassungsdatum. (4) Leistung ≤ 31.12. → Beleg muss in der OP-Liste 31.12. oder in der Liste passive Abgrenzungen stehen
+    (Beleg-Nr. und Betrag abgleichen); bei Leistungszeitraum über den Stichtag nur der Anteil bis 31.12. (5) Nicht erfasst → Tabelle Kreditor/Rechnung/Leistungsdatum/Betrag; Leistungsdatum
+    nicht ersichtlich → Pendenz. (6) Summe mit `rechne`; über NAG → Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag (keine Verbuchung). Beurteilung, Visum, Abschluss beim WP.'
   nachweise:
   - Kreditorenjournal Folgejahr
   - Kontoblätter Folgejahr
+  - Liste unverbuchter Eingangsrechnungen
   - Lieferantenrechnungen
+  - Kreditoren-OP-Liste 31.12.
   - Liste passive Abgrenzungen
-  rechnen: Σ Rechnungen Folgejahr mit Leistung ≤ 31.12.2025, die weder in OP-Liste noch in Abgrenzungen enthalten sind = mögliche Unterbewertung; Vergleich mit NAG/TW
+  rechnen: '`rechne "Nicht erfasst = sum(<Beträge mit Leistung ≤ 31.12. ohne OP-Posten/Abgrenzung>)"`; Ergebnis vs. NAG und TW'
   feststellung_wenn: Rechnungen für im Geschäftsjahr erhaltene Lieferungen/Leistungen weder als Kreditor noch als Abgrenzung erfasst (Summe über NAG).
   fundstellen:
   - quelle: ser-2022__anh-d-s084-2
@@ -543,6 +569,18 @@ schritte:
     zitat: Bereits erhaltene Lieferungen und Leistungen, die noch nicht fakturiert sind, stellen, auch wenn der Rechnungsbetrag bereits bestimmbar ist, Abgrenzungsposten dar
   - quelle: ser-2022__4-3-6
     zitat: Geprüft wird, ob Geschäftsvorfälle oder Ereignisse betragsmässig richtig erfasst sowie zeitlich zutreffend abgegrenzt wurden.
+  - quelle: ser-2022__anh-d-s084-2
+    zitat: auf Rechnungen, die im zu prüfenden Geschäftsjahr erhaltene Lieferungen und Leistungen betreffen
+  - quelle: hwp-bur-2023__rz-0445-s250
+    zitat: Abgrenzungsposten dar und sind dort zu erfassen
+  - quelle: or__art-958b
+    zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: hwp-bur-2023__rz-0210-s206
+    zitat: Der Übergang von Nutzen und Gefahr ist für die Aktivierungsfähigkeit in der Regel ausschlaggebend
+  - quelle: ser-2022__6-1-3
+    zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
 - id: K1-303
   vorgehen: 'WP-Schritt, weitergehende Handlung (SER Anh. D): Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis), v. a. bei vermuteten wesentlichen Fehlaussagen
     oder erhöhtem inhärentem Risiko (3.1). Dann: Wareneingangsbelege/Lieferscheine um den Stichtag (Zeitraum gemäss WP) mit OP-Liste, Kreditorenjournal Folgejahr, Abgrenzungen und Inventar

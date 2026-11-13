@@ -62,6 +62,20 @@ gesetz:
 - thema: Anzeige durch die Revisionsstelle bei offensichtlicher Überschuldung, wenn der VR sie unterlässt (Art. 729c OR) – nur Hinweis an WP, keine Handlung des Agenten
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: Covid-19-Kredite nach Art. 3 Covid-19-SBüV zählen bei Art. 725a Abs. 1 und Art. 725b Abs. 1 OR nicht als Fremdkapital (Art. 24 Covid-19-SBüG; gilt bis 31.12.2032, Art. 31).
+    Nur Kredite nach Art. 3 SBüV (nicht Art. 4); Härtefall-Darlehen Art. 21 HFMV 20 gleich behandelt (hwp-er-2026__rz-0373-s113). Abzug offen ausweisen, Würdigung WP.
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+- thema: 'Während der Solidarbürgschaft ausgeschlossen: Dividenden/Tantiemen, Rückerstattung von Kapitaleinlagen (lit. a), Gewährung von Darlehen an bzw. Rückzahlung von Darlehen von
+    Gesellschaftern/Nahestehenden (lit. b; Ausnahme: vorbestehende Verpflichtungen gegenüber CH-Gruppengesellschaften – Beurteilung WP); keine Umschuldung vorbestehender Kredite mit
+    Covid-Mitteln (Abs. 3)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+- thema: 'Verstoss gegen Art. 2 Abs. 2–4 (gilt auch bei der eingeschränkten Revision): Revisionsstelle setzt Frist, informiert danach die GV, dann die Bürgschaftsorganisation (Art. 23
+    Abs. 1). Agent: nur Notiz «Wesentliche Feststellungen» bzw. Pendenz an den WP; er setzt keine Frist und informiert niemanden.'
+  quelle: covid-sbueg__art-23
+  zitat: im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung einer Vorgabe nach Artikel 2 Absätze 2–4 fest, so setzt sie ihr oder
+    ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
 risiken:
 - text: 'Unvollständigkeit: nicht gebuchte Bankkredite, Festvorschüsse oder Darlehen; Bilanzsaldo nicht durch Aufstellung, Auszug oder Vertrag per 31.12. belegt.'
   pruefziele:
@@ -99,8 +113,8 @@ risiken:
   - RI
   quelle: hwp-bur-2023__rz-0257-s215
   zitat: 'Antizipative Passiven: Aufwand des alten Jahres, der erst im neuen Jahr bezahlt wird'
-- text: Verbindlichkeiten gegenüber Aktionären, Organen oder Nahestehenden nicht gesondert ausgewiesen; übersetzte Zinsen an Beteiligte (geldwerte Leistung, Verrechnungssteuer; Satz
-    des Steuerjahres 2025 fehlt im Wiki).
+- text: 'Verbindlichkeiten gegenüber Aktionären, Organen oder Nahestehenden nicht gesondert ausgewiesen; übersetzte Zinsen an Beteiligte (geldwerte Leistung, Art. 20 Abs. 1 VStV, vstv__art-20;
+    Verrechnungssteuer; Sätze 2025: `wert estv_zins_2025`, Sekundärquelle).'
   pruefziele:
   - DO
   - BE
@@ -157,6 +171,14 @@ risiken:
   - DO
   quelle: or__art-959c-t2
   zitat: rechtliche oder tatsächliche Verpflichtungen, bei denen ein Mittelabfluss entweder als unwahrscheinlich erscheint
+- text: 'Covid-19-Kredit offen: Während der Solidarbürgschaft Dividenden/Tantiemen, Rückerstattung von Kapitaleinlagen, Darlehen an Aktionäre/Nahestehende gewährt bzw. deren Darlehen
+    zurückbezahlt oder vorbestehende Kredite umgeschuldet (Art. 2 Abs. 2/3; vertraglich ausgeschlossen, Abs. 5) → Hinweis an WP (Art. 23). Vertragswidrige Verwendung ist Kündigungsgrund
+    → Ausweis kurzfristig prüfen (hwp-bur-2023__rz-0463-s253).'
+  pruefziele:
+  - RV
+  - DO
+  quelle: covid-sbueg__art-2-t1
+  zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
 unterlagen:
 - dokument: Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten per 31.12. (Gläubiger, Konto, Saldo, Währung, Zinssatz, Fälligkeit/Amortisation, Sicherheiten, Nahestehende
     ja/nein)
@@ -221,6 +243,11 @@ unterlagen:
   zweck: Vollständigkeit, Genehmigung, Nahestehende (L1-303, L1-104, L1-404)
   quelle: ser-2022__anh-d-s073-1
   zitat: GV- und VR-Protokolle lesen und wichtige Sachverhalte mit möglicher Auswirkung auf die Jahresrechnung im Prüfungsplan berücksichtigen
+- dokument: Covid-19-Kreditvereinbarung, Amortisationsplan, aktuelle Zinsanzeige der Bank (nur falls ein Covid-19-Kredit besteht)
+  zweck: 'L1-103, L1-201 (Zinssatz aus der Bankanzeige, nicht 0,0 % aus Art. 4 Abs. 1: der Satz wird jährlich angepasst), L1-105/L1-304 (Abzug Art. 24)'
+  quelle: covid-sbueg__art-4
+  zitat: Der Bundesrat passt auf Antrag des Eidgenössischen Finanzdepartements (EFD) jährlich per 31. März, erstmals per 31. März 2021, die Zinssätze nach Absatz 1 Buchstaben a und b
+    an die Marktentwicklungen an.
 bewertung:
 - regel: Verbindlichkeiten zum Nennwert; keine Bewertung zum tieferen Marktwert
   quelle: hwp-bur-2023__rz-0486-s256
@@ -235,6 +262,10 @@ bewertung:
 - regel: Innert eines Jahres fällige Amortisationsraten langfristiger Darlehen sind kurzfristig auszuweisen
   quelle: hwp-bur-2023__rz-0463-s253
   zitat: Kurzfristige, innert eines Jahres fällige Amortisationsraten sind in den kurzfristigen Verbindlichkeiten auszuweisen.
+- regel: Covid-19-Kredite innert acht Jahren amortisieren (Verlängerung höchstens auf zehn Jahre, Art. 3 Abs. 3); innert 12 Monaten fällige Raten gemäss Amortisationsplan kurzfristig
+    ausweisen (hwp-bur-2023__rz-0463-s253, L1-103)
+  quelle: covid-sbueg__art-3
+  zitat: Die Kredite nach der Covid-19-SBüV sind innerhalb von acht Jahren vollständig zu amortisieren.
 - regel: 'Covenant-Verletzung: Einhaltung bei Abschlusserstellung prüfen; sonst Umgliederung in kurzfristig'
   quelle: hwp-bur-2023__rz-0493-s257
   zitat: muss deshalb überprüft werden, ob die Covenants eingehalten sind
@@ -288,11 +319,12 @@ fallstricke:
 - text: 'Eingeschränkte Revision: Die Revisionsstelle holt keine Bankbestätigungen ein (L1-401 nur mit beim Unternehmen vorhandenen Unterlagen bzw. nur auf Anweisung des WP).'
   quelle: hwp-er-2026__rz-0095-s196
   zitat: Die Einholung von Bankbestätigungen wie auch weiteren externen Bestätigungen ist bei der eingeschränkten Revision nicht vorgesehen
-- text: Vom Unternehmen selbst eingeholte Bankbestätigungen dürfen als Prüfungsnachweis verwendet werden, auch wenn sie nicht direkt an die Revisionsstelle gingen.
+- text: 'Bestätigungen Dritter (Bank, Lieferant): verwendbar sind Bestätigungen, die das Unternehmen von sich aus bei der Abschlusserstellung eingeholt hat. An die Revisionsstelle adressiert
+    oder «auf Ersuchen des Kunden»: Herkunft (wer hat angefragt, wann, Adressat) festhalten (Textfeld bzw. bei 4xx ohne Anweisung Notiz), Pendenz an WP – Verwendung entscheidet WP. Nie
+    selbst anfordern. Praxis/intern: Inhalt trotzdem lesen; Abweichungen zu Hauptbuch/Aufstellung/Anhang immer als Hinweis-Notiz an WP, auch ohne Anweisung für 4xx (neue Information
+    für die Risikobeurteilung, hwp-er-2026__rz-0269-s245).'
   quelle: hwp-er-2026__rz-0137-s203
-  zitat: kann der Abschlussprüfer diese Bestätigungen als Prüfungsnachweise beiziehen, selbst wenn diese nicht direkt an ihn gesandt worden sind
-- text: Liegen an die Revisionsstelle adressierte Bankbestätigungen vor (z.B. «auf Ersuchen des Kunden»), die Herkunft (wer hat angefragt, wann) dokumentieren; über die Verwendung als
-    Nachweis entscheidet der WP.
+  zitat: Für den Fall, dass das Unternehmen von sich aus Bestätigungen von Dritten bei der Abschlusserstellung eingeholt hat
 - text: Befragung allein genügt bei wesentlichen Positionen nicht; Antworten mit analytischen Prüfungen oder Detailprüfungen (Verträge, Auszüge) erhärten.
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
@@ -351,18 +383,21 @@ fallstricke:
     die Überschuldung nicht mehr, lebt die Anzeigepflicht wieder auf.'
   quelle: hwp-er-2026__rz-0434-s128
   zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
-- text: 'Steuerlich anerkannte Zinssätze gelten je Kalenderjahr: Für 2025 ist das ESTV-Rundschreiben 2025 massgebend; es fehlt im Wiki, Werte 2026 nicht übertragen; Hinweis an WP.'
+- text: 'Steuerlich anerkannte Zinssätze gelten je Kalenderjahr: für Zinsen 2025 `wert estv_zins_2025` (Sekundärquelle Treuhand-Almanach; ESTV-Rundschreiben 2025 nicht im Wiki, Status
+    ☑️ nennen); Werte 2026 nicht übertragen; nur Hinweis an WP (Steuerpraxis, keine handelsrechtliche Regel).'
   quelle: estv-zinsen-2026__s001-2
   zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
-- text: 'Steuerlich, nicht handelsrechtlich: Schuldzinsen auf verdecktem Eigenkapital (z.B. Aktionärsdarlehen) werden dem Reingewinn hinzugerechnet – keine Bewertungsregel der Jahresrechnung,
-    nur Hinweis an WP.'
-  quelle: estv-ks-6a-2024__3-1
-  zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
+- text: 'Steuerlich, nicht handelsrechtlich: Schuldzinsen auf verdecktem Eigenkapital (z.B. Aktionärsdarlehen) gehören zum steuerbaren Gewinn (Art. 65 DBG; Aufrechnung/Ermittlung: KS
+    6a, estv-ks-6a-2024__3-1) – keine Bewertungsregel der Jahresrechnung, nur Hinweis an WP.'
+  quelle: dbg__art-65
+  zitat: Zum steuerbaren Gewinn der Kapitalgesellschaften und Genossenschaften gehören auch die Schuldzinsen, die auf jenen Teil des Fremdkapitals entfallen, dem wirtschaftlich die Bedeutung
+    von Eigenkapital zukommt.
 - text: 'Agentengrenze: Befragungen (1xx) kann der Agent nicht selbst führen (schriftliche Antwort auswerten oder Pendenz, höchstens «teilweise bearbeitet»); Sonstige Prüfungshandlungen
     (4xx) nur auf Anweisung; keine Buchung, Visum offen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: nur auf Anweisung, physische Tätigkeiten nie
-- text: 'WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur Unterlagen zusammenstellen, keine Beurteilung.'
+- text: 'WP-gekennzeichnete Schritte (L1-105, L1-304): ob der Agent sie vorbereitet, ist ein offener Entscheid; bis dahin nur auf ausdrückliche Anweisung des WP vorbereiten, sonst kein
+    Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt», Hinweise als Notiz; Beurteilung immer WP.'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
 fragen_kunde:
@@ -394,6 +429,9 @@ fragen_kunde:
   zweck: L1-406 Liquiditätsentwicklung, Kreditlimiten, Kündigungsfristen
 - frage: Waren per 31.12. Devisentermingeschäfte, Währungs-/Zinsswaps oder Optionen offen? Zu welchem Zweck (Absicherung) und mit welcher Bankbewertung?
   zweck: L1-411 Bewertung offener Devisenkontrakte
+- frage: Besteht ein Covid-19-Kredit (Art. 3 oder Art. 4 Covid-19-SBüV; Saldo 31.12., Amortisationsplan, Zinssatz)? Wurden seit der Auszahlung Dividenden/Tantiemen ausgeschüttet, Kapitaleinlagen
+    zurückerstattet, Darlehen an Aktionäre/Nahestehende gewährt, Darlehen von Aktionären/Nahestehenden zurückbezahlt oder bestehende Kredite mit Covid-Mitteln abgelöst?
+  zweck: L1-103/L1-104/L1-404, Art. 2 Abs. 2/3 Covid-19-SBüG (Hinweis an WP)
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
   bezug: Konten 2100 Bankverbindlichkeiten und 2170 Zinsverbindlichkeiten Aktionäre (Gruppe kurzfristige verzinsliche Verbindlichkeiten), 2400 Bankdarlehen (Amortisationen im Folgejahr),
@@ -502,13 +540,14 @@ schritte:
 - id: L1-103
   vorgehen: 'Schriftliche Antwort zu Fälligkeiten und Verlängerungsabsichten auswerten, sonst Pendenz. Je Kredit aus Verträgen/Bankunterlagen Fälligkeitsübersicht erstellen (Festvorschüsse,
     Amortisationen, Kündigungsfristen, Covenant-Folgen); innert 12 Monaten fällige Beträge mit Ausweis kurz-/langfristig und verzinslich/übrige vergleichen (Festhypotheken: Verlängerung
-    beabsichtigt und wahrscheinlich?); Umgliederungsbedarf mit Konto und Betrag dokumentieren.'
+    beabsichtigt und wahrscheinlich?); Umgliederungsbedarf mit Konto und Betrag dokumentieren. Covid-19-Kredit: innert 12 Monaten fällige Amortisationen gemäss Amortisationsplan kurzfristig.'
   nachweise:
   - Antwort Kundenbefragung
   - Kredit-/Darlehensverträge
   - Bankunterlagen
   - Saldoliste
   - Bilanz
+  - Amortisationsplan Covid-19-Kredit (falls vorhanden)
   rechnen: Kurzfristiger Anteil = Summe Fälligkeiten/Amortisationen 01.01.–31.12. Folgejahr je Kredit; Vergleich mit Ausweis kurzfristige vs. langfristige verzinsliche Verbindlichkeiten
   feststellung_wenn: Wesentliche innert 12 Monaten fällige Beträge langfristig ausgewiesen, oder verzinsliche Darlehen unter übrigen Verbindlichkeiten ohne Begründung.
   fundstellen:
@@ -523,10 +562,14 @@ schritte:
     zitat: Im Folgejahr auslaufende Festhypotheken können weiterhin als langfristig bilanziert werden, soweit ihre Verlängerung beabsichtigt und wahrscheinlich ist.
   - quelle: hwp-bur-2023__rz-0489-s257
     zitat: Das Obligationenrecht verlangt eine separate Bilanzierung verzinslicher Verbindlichkeiten
+  - quelle: covid-sbueg__art-3
+    zitat: Die Kredite nach der Covid-19-SBüV sind innerhalb von acht Jahren vollständig zu amortisieren.
 - id: L1-104
-  vorgehen: Schriftliche Antwort zu Darlehen von Beteiligten, Organen und Nahestehenden auswerten, sonst Pendenz. Gläubiger mit Aktienbuch, Organen und Verträgen abgleichen; gesonderten
-    Ausweis prüfen; Zinssätze mit ESTV-Rundschreiben 2025 vergleichen (fehlt im Wiki, Werte 2026 nicht übertragen; Hinweis an WP). Forderungen der Gesellschaft gegenüber Rangrücktrittsgläubigern
-    (Verrechnungslage) als Hinweis an WP.
+  vorgehen: 'Schriftliche Antwort zu Darlehen von Beteiligten, Organen und Nahestehenden auswerten, sonst Pendenz. Gläubiger mit Aktienbuch, Organen und Verträgen abgleichen; gesonderten
+    Ausweis prüfen; Zinssätze der Darlehen von Beteiligten mit `wert estv_zins_2025_betriebskredit_bis_1mio` (zeigt auch ab 1 Mio.) bzw. bei Liegenschaftsfinanzierung `wert estv_zins_2025_liegenschaftskredit`
+    vergleichen; für die Grenze CHF 1 Mio. die Kredite aller Beteiligten/Nahestehenden zusammenzählen; Sekundärquelle; Überschreitung nur als Hinweis an WP. Forderungen der Gesellschaft
+    gegenüber Rangrücktrittsgläubigern (Verrechnungslage) als Hinweis an WP. Besteht ein Covid-19-Kredit: im Geschäftsjahr gewährte Darlehen an Aktionäre/Nahestehende bzw. zurückbezahlte
+    Darlehen von Aktionären/Nahestehenden mit Datum und Betrag auflisten → Notiz an WP (Art. 2 Abs. 2 lit. b; Massnahmen nach Art. 23 nur durch den WP).'
   nachweise:
   - Antwort Kundenbefragung
   - Aktienbuch
@@ -534,10 +577,11 @@ schritte:
   - Darlehensverträge Nahestehende
   - Verträge über Darlehen der Gesellschaft an Beteiligte/Organe
   - Anhang
-  - ESTV-Rundschreiben Zinssätze des Steuerjahres
-  rechnen: Zins je Darlehen = Saldo × Vertragszins × Tage/Zinsbasis; Vertragszins vs. steuerlich anerkannter Satz des Steuerjahres (2025 fehlt im Wiki)
-  feststellung_wenn: Verbindlichkeiten ggü. Beteiligten/Organen/Nahestehenden nicht gesondert ausgewiesen, Zinssatz über steuerlich anerkanntem Satz, oder Gegenforderung ggü. Rangrücktrittsgläubiger
-    (Hinweis an WP).
+  - '`wert estv_zins_2025` (Zinsen 2025)'
+  - Covid-19-Kreditvereinbarung (falls vorhanden)
+  rechnen: 'Zins je Darlehen = Saldo × Vertragszins × Tage/Zinsbasis; Vertragszins vs. steuerlich anerkannter Satz des Steuerjahres (2025: `wert estv_zins_2025_betriebskredit_bis_1mio`)'
+  feststellung_wenn: Verbindlichkeiten ggü. Beteiligten/Organen/Nahestehenden nicht gesondert ausgewiesen, Zinssatz über steuerlich anerkanntem Satz, Gegenforderung ggü. Rangrücktrittsgläubiger,
+    oder Darlehen an/von Aktionären/Nahestehenden während eines laufenden Covid-19-Kredits (Hinweis an WP).
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
     zitat: Befragung zu Darlehen gegenüber direkt oder indirekt Beteiligten und Organen sowie gegenüber Unternehmen, an denen direkt oder indirekt eine Beteiligung besteht
@@ -547,10 +591,17 @@ schritte:
     zitat: Dasselbe gilt für übersetzte Zinsen, die auf Grund von Verpflichtungen gegenüber Beteiligten oder ihnen nahestehenden Dritten vergütet werden.
   - quelle: hwp-er-2026__rz-0415-s123-t2
     zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+  - quelle: treuhand-almanach-2026__s065-1
+    zitat: bis CHF 1 Mio. 3,50 %** 3,00 %**
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+  - quelle: covid-sbueg__art-23
+    zitat: eine Verletzung einer Vorgabe nach Artikel 2 Absätze 2–4 fest, so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
 - id: L1-105
-  vorgehen: WP-Schritt; laut SER weiter gehende Prüfungshandlung, wegen Überschuldung angezeigt (Entscheid WP). Agent bereitet nur vor (offener Entscheid), beurteilt nicht. Schriftliche
-    Antwort zu bestehenden, neuen, ersetzten, reduzierten oder aufgehobenen Rangrücktritten auswerten, sonst Pendenz. Liste (Gläubiger, Konto, Betrag inkl. Zinsen, Datum) der Überschuldung
-    gemäss Zwischenabschluss gegenüberstellen; Übergabe an WP.
+  vorgehen: 'WP-Schritt, laut SER weiter gehend (bei Überschuldung angezeigt, Entscheid WP): Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis). Ohne Anweisung:
+    kein Eintrag im Textfeld, Status «nicht bearbeitet – WP-Schritt»; Hinweise (Überschuldung, Rangrücktritte gemäss Anhang) als Notiz «Schlussbesprechung»/«Pendenz». Nach Anweisung
+    (Textfeld als «Vorbereitung für WP»): schriftliche Antwort zu bestehenden, neuen, ersetzten, reduzierten oder aufgehobenen Rangrücktritten auswerten, sonst Pendenz; Liste (Gläubiger,
+    Konto, Betrag inkl. Zinsen, Datum) der Überschuldung gemäss Zwischenabschluss gegenüberstellen; Beurteilung WP.'
   nachweise:
   - Antwort Kundenbefragung
   - Rangrücktrittsvereinbarungen
@@ -558,7 +609,8 @@ schritte:
   - Zwischenabschlüsse Art. 725b OR mit Prüfbericht
   - Jahresrechnung
   rechnen: Überschuldung gemäss (geprüftem) Zwischenabschluss zu Fortführungs- und ggf. Veräusserungswerten; Jahresrechnung 31.12. (Fremdkapital – Aktiven) nur als Indikator; Σ Rangrücktritte
-    (Kapital + Zinsen) vs. Überschuldung; Bezugsgrösse bestimmt der WP
+    (Kapital + Zinsen) vs. Überschuldung; Bezugsgrösse bestimmt der WP; Überschuldung ohne Covid-19-Kredite nach Art. 3 Covid-19-SBüV herleiten (Art. 24; `kapitalverlust … --covid-kredit
+    <Betrag>`), Abzug offen ausweisen.
   feststellung_wenn: Kein schriftlicher Rangrücktritt trotz Überschuldung, Zinsen nicht erfasst, Σ Rangrücktritte unter Überschuldung, kein (geprüfter) Zwischenabschluss, oder Änderung/Tilgung
     im Jahr (an WP).
   fundstellen:
@@ -576,6 +628,10 @@ schritte:
     zitat: Art. 725 b OR sieht keine solche Erleichterung vor.
   - quelle: konzept-ki-revisionsagent-2026__c015-2
     zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 - id: L1-201
   vorgehen: Erwartungswert Zinsaufwand je Kredit aus Durchschnittssaldo (Anfangs-/Endsaldo bzw. Monatssalden) und Vertragszins ab Auszahlungsdatum berechnen; Summe mit Zinsaufwandkonten
     vergleichen; Abweichung über tolerierbarer Abweichung als Frage/Pendenz und Detailprüfung L1-302; L1-410 dem WP zur Anweisung vorschlagen. Berechnung im Rechenmodul, Ergebnis im
@@ -595,7 +651,7 @@ schritte:
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
-    zitat: nur auf Anweisung, physische Tätigkeiten nie
+    zitat: Gut automatisierbar über Kontenübersicht, Kennzahlen 1.2 und Rechenmodul
 - id: L1-301
   vorgehen: Aufstellung der kurzfristigen verzinslichen Verbindlichkeiten (Gläubiger, Konto, Saldo) übernehmen oder aus Saldoliste erstellen; Summe mit Hauptbuch und Bilanz abstimmen;
     jeden Saldo mit Bank-/Kreditauszug bzw. Vertrag/Darlehensauszug per 31.12. abgleichen. Differenzen und fehlende Nachweise als Pendenz, Ergebnis im Textfeld.
@@ -605,7 +661,9 @@ schritte:
   - Hauptbuch-Kontoblätter
   - Bank-/Kreditauszüge 31.12.
   - Darlehensverträge
-  rechnen: Σ Aufstellung = Σ Hauptbuchkonten kurzfristige verzinsliche Verbindlichkeiten = Bilanzposition; Saldo je Konto = Bank-/Kreditauszug 31.12.
+  rechnen: (1) `rechne "Diff = sum(<Salden aller Konten der Gruppe kurzfristige verzinsliche Verbindlichkeiten>) - <Bilanzposition>"`; (2) `rechne "Diff Aufstellung-HB = sum(<Beträge
+    Aufstellung>) - sum(<Salden dieser Hauptbuchkonten>)"`; (3) je Konto `rechne "Diff <Konto> = <Saldo HB> - <Saldo Auszug 31.12.>"`. Jede Formel ist ein vollständiger Ausdruck (Namen
+    gelten nicht im nächsten Teil). 0 = abgestimmt; ≠ 0 → Pendenz; > NAG → Feststellung.
   feststellung_wenn: Differenz zwischen Aufstellung, Hauptbuch, Bilanz oder Auszug nicht geklärt, oder Bestandesnachweis fehlt.
   fundstellen:
   - quelle: ser-2022__anh-d-s085-1
@@ -652,9 +710,10 @@ schritte:
   - quelle: hwp-bur-2023__rz-0493-s257
     zitat: bei deren Verletzung die Verbindlichkeit sofort fällig gestellt werden kann
 - id: L1-304
-  vorgehen: 'WP-Schritt, laut SER weiter gehend; Agent bereitet nur vor. Checkliste je Rangrücktritt: schriftlich, zweiseitig, Betrag inkl. Zinsen, Stundung, unbefristet, Aufhebung nur
-    bei genügendem Ersatz oder SA-CH-geprüftem (Zwischen-)Abschluss, Tilgungs-/Verrechnungsverbot, keine Neuerung, Sicherheitspolster bei Fremdwährung, Bonität (Unterlagen). Saldo vs.
-    Betrag, Ersatz/Reduktion, Soll-Buchungen, Gegenforderungen auflisten; Beurteilung durch WP.'
+  vorgehen: 'WP-Schritt, laut SER weiter gehend: Vorbereitung nur auf ausdrückliche Anweisung WP (offener Entscheid consis); ohne Anweisung kein Eintrag im Textfeld, Status «nicht bearbeitet
+    – WP-Schritt», Hinweise als Notiz. Nach Anweisung: Checkliste je Rangrücktritt: schriftlich, zweiseitig, Betrag inkl. Zinsen, Stundung, unbefristet, Aufhebung nur bei genügendem
+    Ersatz oder SA-CH-geprüftem (Zwischen-)Abschluss, Tilgungs-/Verrechnungsverbot, keine Neuerung, Sicherheitspolster bei Fremdwährung, Bonität (Unterlagen). Saldo vs. Betrag, Ersatz/Reduktion,
+    Soll-Buchungen, Gegenforderungen auflisten; Beurteilung durch WP.'
   nachweise:
   - Rangrücktrittsvereinbarungen (aktuell und ersetzt)
   - Kontoblätter subordinierte Darlehen/Zinsen
@@ -664,7 +723,8 @@ schritte:
   - Unterlagen zur Bonität der Gläubiger
   - Forderungen der Gesellschaft ggü. Rangrücktrittsgläubigern
   rechnen: Saldo je subordiniertes Konto (Kapital + Zinsen) vs. Rangrücktrittsbetrag; Σ Rangrücktritte vs. Überschuldung gemäss (geprüftem) Zwischenabschluss (Jahresrechnung nur Indikator,
-    Bezugsgrösse bestimmt WP); Σ Soll-Buchungen (Tilgung/Verrechnung) im Jahr; Σ Forderungen der Gesellschaft ggü. Rangrücktrittsgläubigern
+    Bezugsgrösse bestimmt WP); Σ Soll-Buchungen (Tilgung/Verrechnung) im Jahr; Σ Forderungen der Gesellschaft ggü. Rangrücktrittsgläubigern; Überschuldung ohne Covid-19-Kredite nach
+    Art. 3 Covid-19-SBüV herleiten (Art. 24; `kapitalverlust … --covid-kredit <Betrag>`), Abzug offen ausweisen.
   feststellung_wenn: Formmangel (Zinsen, Stundung, Befristung, Aufhebung ohne SA-CH-geprüften Abschluss), Reduktion ohne Voraussetzungen, Tilgung/Verrechnung, Gegenforderung ggü. Gläubiger,
     Deckungslücke (an WP).
   fundstellen:
@@ -704,6 +764,10 @@ schritte:
     zitat: Dies beinhaltet auch die Beurteilung der Bonität des Rangrücktrittgläubigers
   - quelle: hwp-er-2026__rz-0434-s128
     zitat: so sind ein Hinweis im Sinne von Art. 729c OR in Erwägung zu ziehen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 - id: L1-320
   vorgehen: 'Anhang auf L1-bezogene Angaben prüfen: gesonderter Ausweis Nahestehende, Gesamtbetrag belastete Aktiven, Darlehen mit Rangrücktritt (gesondert, erkennbar), Ereignisse nach
     dem Stichtag (Kündigungen, Covenant-Verletzungen), Eventualverbindlichkeiten und Sicherheiten für Dritte gemäss Bankunterlagen (z.B. Garantien); Beträge mit L1-102, L1-104, L1-304
@@ -817,7 +881,7 @@ schritte:
   - Rangrücktrittsvereinbarungen
   rechnen: ''
   feststellung_wenn: Zahlung ohne vertragliche Grundlage oder Genehmigung, falsche Periode, oder Tilgung/Zinszahlung auf subordinierte Forderung bzw. Darlehen an Rangrücktrittsgläubiger
-    während Überschuldung (an WP).
+    während Überschuldung (an WP) oder Zahlung an/von Nahestehenden während eines laufenden Covid-19-Kredits (an WP).
   fundstellen:
   - quelle: hwp-er-2026__rz-0116-s201
     zitat: bei der eingeschränkten Revision sind keine IKS-Prüfungen durchzuführen
@@ -825,6 +889,8 @@ schritte:
     zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
   - quelle: hwp-er-2026__rz-0415-s123-t2
     zitat: Bis zu diesem Zeitpunkt ist keine Tilgung der mit Rangrücktritt ausgestatteten Forderungen (inkl. Zinsen) gestattet, auch nicht eine solche durch Verrechnung.
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
 - id: L1-405
   vorgehen: Sonstige Prüfungshandlung, nur auf Anweisung. Eröffnungssalden 01.01. mit Schlussbilanz Vorjahr (geprüfte Jahresrechnung) abstimmen; je Kredit Saldenentwicklung Anfang →
     Ende mit Zu-/Abgängen, Umbuchungen (z.B. Zinsverbindlichkeiten, Verrechnungen) und Kursdifferenzen herleiten; Schlusssaldo mit Bilanz abstimmen.

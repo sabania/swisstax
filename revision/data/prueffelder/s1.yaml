@@ -148,6 +148,13 @@ risiken:
   - PA
   quelle: estv-ks-32a-2025__3-3-2-t1
   zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
+- text: Erfolgswirksamer Forderungsverzicht von Aktionären als steuerfrei behandelt; Gewinnsteuer nicht abgegrenzt.
+  pruefziele:
+  - VO
+  - BE
+  quelle: estv-ks-32a-2025__4-1-1-1-t1
+  zitat: Forderungsverzichte durch Anteilsinhaber, die im Zuge der Sanierung handelsrechtlich erfolgswirksam über die Erfolgsrechnung oder das Sanierungskonto gebucht werden, sind grundsätzlich
+    gleich zu behandeln wie Forderungsverzichte Dritter.
 - text: Latente Steueraktiven (insbesondere auf steuerlichen Verlustvorträgen) unzulässig aktiviert.
   pruefziele:
   - EX
@@ -212,7 +219,7 @@ unterlagen:
   zweck: 'S1-401: Festhalten geldwerter Leistungen'
   quelle: hwp-er-2026__rz-0161-s212
   zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
-- dokument: ESTV-Rundschreiben «Steuerlich anerkannte Zinssätze 2025» (fehlt im Wiki – Quellenlücke; Rundschreiben 2026 gilt erst ab 1.1.2026, Treuhand-Almanach-Tabelle nicht verwenden)
+- dokument: 'INTERN, nicht beim Kunden anfordern: ESTV-Rundschreiben Zinssätze 2025 (im Wiki nicht vorhanden → Pendenz an WP, kein PBC-Vorschlag)'
   zweck: 'S1-401, S1-402: Vergleich der Zinssätze von Darlehen an und von Beteiligten'
   quelle: estv-zinsen-2026__s001-2
   zitat: seit dem 1. Januar 2026 auf die folgenden Zinssätze ab
@@ -261,6 +268,9 @@ bewertung:
     nach Steuern statutarisch anwenden).
   quelle: hwp-bur-2023__rz-0545-s268
   zitat: Steuern sind als geschäftsmässig begründeter Aufwand bei der Ermittlung des Steueraufwands entsprechend zu berücksichtigen.
+- regel: 'Bund: Die eidgenössischen, kantonalen und kommunalen Steuern gehören zum geschäftsmässig begründeten Aufwand (Art. 59 Abs. 1 lit. a DBG).'
+  quelle: dbg__art-59-t1
+  zitat: die eidgenössischen, kantonalen und kommunalen Steuern
 - regel: 'Mögliche Nachbelastungen (Steuerrevision, Rechtsmittel): Rückstellung nach Wahrscheinlichkeit am Tag der Bilanzerstellung schätzen.'
   quelle: hwp-bur-2023__rz-0547-s269
   zitat: Je nach Wahrscheinlichkeit einer Steuernachforderung ist am Tag der Bilanzerstellung die Höhe der erforderlichen Rückstellung zu schätzen.
@@ -272,7 +282,7 @@ bewertung:
     verrechnen.
   quelle: hwp-bur-2023__rz-0549-s269
   zitat: Steuervorauszahlungen und erwartete Steuerrückvergütungen (beispielsweise Quellensteuern auf Zins- und Dividendenerträgen) können dazu führen, dass Steuern als Aktivposten erscheinen.
-- regel: Für die laufende Steuerabgrenzung ist die Verrechnung von Verlustvorträgen mit dem Gewinn der Periode zulässig.
+- regel: 'Für die laufende Steuerabgrenzung ist die Verrechnung von Verlustvorträgen mit dem Gewinn der Periode zulässig (Bund: höchstens 7 Vorjahre, Art. 67 DBG).'
   quelle: hwp-bur-2023__rz-0551-s270
   zitat: Hingegen ist für die Ermittlung der Abgrenzung der laufenden Steuern eine Verrechnung von Verlustvorträgen mit dem Gewinn der laufenden Steuerperiode zulässig.
 - regel: 'Latente Steuern nach OR: de facto Wahlrecht, stetig und für alle temporären Differenzen gleich; latente Steueraktiven nur bei erfüllten Aktivierungsvoraussetzungen (nicht auf
@@ -332,10 +342,14 @@ bewertung:
 - regel: Freibetrag CHF 1 Mio. bei Gründung/formeller Kapitalerhöhung, einmalig (Sekundärquelle, Stand «gegenwärtig» – für 2025 vom WP bestätigen lassen).
   quelle: treuhand-almanach-2026__s067-1
   zitat: gilt gegenwärtig für entgeltlich ausgegebene Beteiligungsrechte ein Freibetrag von CHF 1 Mio.
-- regel: Sanierungen sind unter kumulativen Voraussetzungen von der Emissionsabgabe ausgenommen (Art. 6 Abs. 1 lit. k StG, KS ESTV 32a Ziff. 3.3.2); u.a. ist die Verrechnung mit bestehenden
-    Verlusten zwingend.
+- regel: 'Offene/stille Sanierung: Leistungen der Anteilsinhaber bis gesamthaft CHF 10 Mio. von der Emissionsabgabe ausgenommen (Art. 6 Abs. 1 lit. k StG, KS 32a Ziff. 3.3.2), Verrechnung
+    mit bestehenden Verlusten zwingend.'
   quelle: estv-ks-32a-2025__3-3-2-t1
   zitat: Nach Artikel 6 Absatz 1 Buchstabe k StG ist eine offene oder stille Sanierung von der Emissionsabgabe ausgenommen
+- regel: 'Sanierungsfreibetrag Emissionsabgabe: Leistungen der Anteilsinhaber bis gesamthaft CHF 10 Mio. (KS 32a Ziff. 3.3.2 lit. c).'
+  quelle: estv-ks-32a-2025__3-3-2-t2
+  zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
+    ausgenommen.
 fallstricke:
 - text: 'Die eingeschränkte Revision ist keine Steuerprüfung: keine Prüfung der Steuerkonformität der Deklaration; beurteilt wird nur die Auswirkung auf die Jahresrechnung.'
   quelle: ser-2022__anh-c-s057-1
@@ -348,7 +362,7 @@ fallstricke:
 - text: Die Frage nach hängigen Einsprachen und Rekursen (S1-104) steht im SER unter den weiter gehenden Befragungen, nicht unter den empfohlenen.
   quelle: ser-2022__anh-d-s089-2
   zitat: oder Einsprachen und Rekurse hängig sind
-- text: 'Ob der Agent WP-Schritte (S1-102 bis S1-104, S1-151, S1-303) vorbereitet, ist noch offen: bis zum Entscheid nur vorbereiten und nie beurteilen.'
+- text: 'Ob der Agent WP-Schritte (S1-102 bis S1-104, S1-151, S1-303) vorbereitet, ist noch offen: bis zum Entscheid ohne ausdrückliche Anweisung kein Textfeld (nur Notiz), nie beurteilen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: S1-401 bis S1-403 (Typ Sonstige) nur auf Anweisung des WP bearbeiten; der Agent hält fest und bereitet vor.
@@ -514,9 +528,10 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: S1-102
-  vorgehen: 'WP-Schritt (SER: weiter gehend; ob der Agent WP-Schritte vorbereitet, ist noch offen). Agent bereitet nur vor: Frage nach Steuerrevisionen, Nachforschungen, Rückfragen als
-    Pendenz; Steuerkorrespondenz in M-Files suchen und je Schreiben Datum, Behörde, Periode, Gegenstand, geforderten Betrag, Status auflisten; mögliche Nachforderungen der gebuchten
-    Rückstellung gegenüberstellen. Beurteilung durch den WP.'
+  vorgehen: 'WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende Antworten/Unterlagen nur als
+    Pendenz-Notiz). Mit Anweisung, gekennzeichnet als «Vorbereitung für WP»: Frage nach Steuerrevisionen, Nachforschungen, Rückfragen als Pendenz; Steuerkorrespondenz in M-Files suchen
+    und je Schreiben Datum, Behörde, Periode, Gegenstand, geforderten Betrag, Status auflisten; mögliche Nachforderungen der gebuchten Rückstellung gegenüberstellen. Beurteilung durch
+    den WP.'
   nachweise:
   - Korrespondenz mit Steuerbehörden
   - Bericht/Verfügung Steuerrevision
@@ -536,8 +551,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: S1-103
-  vorgehen: 'WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent: Frage nach definitiven Veranlagungen als Pendenz, vorhandene Veranlagungsverfügungen sammeln.
-    Tabelle je Periode und Ebene (Bund, Kanton/Gemeinde): Status provisorisch/definitiv, Datum, veranlagter Gewinn/Kapital, Steuer, offener Betrag. Abweichungen zur Deklaration und Nachzahlungen
+  vorgehen: 'WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende Antworten/Unterlagen nur als
+    Pendenz-Notiz). Mit Anweisung, gekennzeichnet als «Vorbereitung für WP»: Frage nach definitiven Veranlagungen als Pendenz, vorhandene Veranlagungsverfügungen sammeln. Tabelle je
+    Periode und Ebene (Bund, Kanton/Gemeinde): Status provisorisch/definitiv, Datum, veranlagter Gewinn/Kapital, Steuer, offener Betrag. Abweichungen zur Deklaration und Nachzahlungen
     markieren; Beurteilung durch den WP.'
   nachweise:
   - Veranlagungsverfügungen Bund und Kanton
@@ -557,8 +573,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: S1-104
-  vorgehen: 'WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent: Frage an die Unternehmensleitung nach hängigen Einsprachen, Rekursen, Beschwerden (Periode,
-    Streitpunkt, Streitbetrag, Einschätzung) als Pendenz. Antwort mit Korrespondenz/Entscheiden abgleichen und der gebuchten Rückstellung bzw. Anhangangabe Eventualverbindlichkeit gegenüberstellen.
+  vorgehen: 'WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende Antworten/Unterlagen nur als
+    Pendenz-Notiz). Mit Anweisung, gekennzeichnet als «Vorbereitung für WP»: Frage an die Unternehmensleitung nach hängigen Einsprachen, Rekursen, Beschwerden (Periode, Streitpunkt,
+    Streitbetrag, Einschätzung) als Pendenz. Antwort mit Korrespondenz/Entscheiden abgleichen und der gebuchten Rückstellung bzw. Anhangangabe Eventualverbindlichkeit gegenüberstellen.
     Risiko beurteilt der WP.'
   nachweise:
   - Einsprachen, Rekurse, Entscheide
@@ -598,20 +615,24 @@ schritte:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - id: S1-301
-  vorgehen: 'Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen; Verlustverrechnung gemäss letzter Veranlagung;
-    steuerbares Kapital = EK JR (+ versteuerte Reserven); Satzart (effektiv/statutarisch) und Sätze von Sitz und Periode 2025; Akonti. Plausibilisierung mit Treuhand-Almanach 2026 (Steuerperiode
-    2025, Maximalbelastung Hauptort). Resultat mit gebuchtem Aufwand/Saldo abstimmen.'
+  vorgehen: 'Steuerberechnung des Kunden beiziehen (sonst Pendenz). Prüfen: Ausgangsgrösse = Ergebnis vor Steuern gemäss JR; Aufrechnungen (z.B. Bussen, Art. 59 Abs. 2 lit. c DBG; geschäftsmässig
+    nicht begründete Abschreibungen/Rückstellungen und verdeckte Gewinnausschüttungen, Art. 58 Abs. 1 lit. b DBG); Verlustverrechnung gemäss letzter Veranlagung; steuerbares Kapital
+    = EK JR (+ versteuerte Reserven); Satzart (effektiv/statutarisch) und am Ende der Steuerperiode 2025 geltende Sätze (Bund: Art. 82 DBG); Bund 8,5 % des Reingewinns (Art. 68 DBG,
+    statutarisch auf den Gewinn nach Steuern); Akonti. Plausibilisierung mit Treuhand-Almanach 2026 (Steuerperiode 2025, Maximalbelastung Hauptort). Resultat mit gebuchtem Aufwand/Saldo
+    abstimmen.'
   nachweise:
   - Steuerberechnung 2025
   - Jahresrechnung/Saldoliste
   - Letzte Veranlagung (Verlustvortrag)
   - Steuerfüsse/-sätze des Steuerjahres 2025
   - Akontorechnungen
-  rechnen: 'Ergebnis vor Steuern (Berechnung) = JR; Gewinnsteuer = max(0; steuerbarer Gewinn vor Steuern − verrechenbare Verluste) × effektiver Satz, bzw. Reingewinn nach Steuern × statutarischer
-    Satz; Kapitalsteuer = steuerbares Kapital × Satz; Abgrenzung = Gewinn- + Kapitalsteuer − Akonti = Saldo Steuerrückstellung/-verbindlichkeit. Plausibilisierung SG 2025 (Hauptort,
+  rechnen: 'Ergebnis vor Steuern (Berechnung) = JR; Gewinnsteuer = max(0; steuerbarer Gewinn vor Steuern − verrechenbare Verluste der 7 vorangegangenen Geschäftsjahre) × effektiver Satz,
+    bzw. Reingewinn nach Steuern × statutarischer Satz; Kapitalsteuer = steuerbares Kapital × Satz; Abgrenzung = Gewinn- + Kapitalsteuer − Akonti = Saldo Steuerrückstellung/-verbindlichkeit.
+    Verlustverrechnung: Bund Art. 67 Abs. 1 DBG; Kanton nach kantonalem Recht – Quelle fehlt im Wiki → Pendenz. Ältere Verluste nur mit Sanierungsleistungen, die keine Kapitaleinlagen
+    sind (Art. 67 Abs. 2 DBG); Kapitalerhöhung/Agio ist gewinnsteuerneutral (Art. 60 lit. a DBG) und erlaubt keine Verrechnung verfallener Verluste. Plausibilisierung SG 2025 (Hauptort,
     inkl. DBG, Maximum): Gewinn statutarisch 16,68 % / effektiv 14,29 %; Kapital 0,058 %'
   feststellung_wenn: Keine Berechnung, Ausgangswert ≠ JR, Satz/Steuerfuss falsch oder Vorjahr, statutarischer Satz auf Gewinn vor Steuern, Verlustvortrag unbelegt, Kapitalsteuer fehlt,
-    oder Resultat ≠ Buchung über Nicht-Aufgriffsgrenze.
+    oder Resultat ≠ Buchung über Nicht-Aufgriffsgrenze; Verlust älter als 7 Jahre ohne Sanierungsgrund verrechnet.
   fundstellen:
   - quelle: ser-2022__anh-d-s089-1
     zitat: Abstimmung der Berechnung der Steuerabgrenzung mit der Jahresrechnung (inkl. der Parameter, die für die Berechnung verwendet wurden)
@@ -627,6 +648,27 @@ schritte:
     zitat: maximale Steuerbelastung in % des Kapitals
   - quelle: treuhand-almanach-2026__s058-2
     zitat: SG 0,058 Kantonaler Einheitssatz 0,058
+  - quelle: dbg__art-67
+    zitat: Vom Reingewinn der Steuerperiode können Verluste aus sieben der Steuerperiode (Art. 79) vorangegangenen Geschäftsjahren abgezogen werden
+  - quelle: dbg__art-67
+    zitat: Mit Leistungen zum Ausgleich einer Unterbilanz im Rahmen einer Sanierung, die nicht Kapitaleinlagen nach Artikel 60 Buchstabe a sind, können auch Verluste verrechnet werden,
+      die in früheren Geschäftsjahren entstanden und noch nicht mit Gewinnen verrechnet werden konnten.
+  - quelle: dbg__art-60
+    zitat: Kapitaleinlagen von Mitgliedern von Kapitalgesellschaften und Genossenschaften, einschliesslich Aufgelder und Leistungen à fonds perdu
+  - quelle: dbg__art-82
+    zitat: Anwendbar sind die am Ende der Steuerperiode geltenden Steuersätze.
+  - quelle: dbg__art-68
+    zitat: Die Gewinnsteuer der Kapitalgesellschaften und Genossenschaften beträgt 8,5 Prozent des Reingewinns.
+  - quelle: dbg__art-59-t1
+    zitat: die eidgenössischen, kantonalen und kommunalen Steuern
+  - quelle: dbg__art-59-t1
+    zitat: Nicht zum geschäftsmässig begründeten Aufwand gehören insbesondere
+  - quelle: dbg__art-59-t1
+    zitat: c. Bussen;
+  - quelle: dbg__art-58
+    zitat: geschäftsmässig nicht begründete Abschreibungen und Rückstellungen
+  - quelle: dbg__art-58
+    zitat: offene und verdeckte Gewinnausschüttungen und geschäftsmässig nicht begründete Zuwendungen an Dritte
 - id: S1-302
   vorgehen: 'Kennzeichnung offen («?», keine Prüfziele) → vom WP bestätigen lassen. SER: Abstimmung Steuererklärung–Jahresrechnung ist weiter gehend; Umfang erst nach WP-Entscheid. Belegprüfung:
     Buchungen der Steuerkonten mit Steuerrechnungen (Akonto, Schluss) und Veranlagungsverfügungen je Periode/Ebene abgleichen; Abweichung Deklaration–Veranlagung festhalten. HWP-OR-Fundstelle
@@ -664,9 +706,10 @@ schritte:
   - quelle: ser-2022__anh-d-s089-1
     zitat: Abstimmung der Steuererklärung mit der zugrunde liegenden Jahresrechnung
 - id: S1-303
-  vorgehen: 'WP-Schritt (SER: weiter gehend; Vorbereitung durch den Agenten noch offen). Agent bereitet den Rückstellungsspiegel Steuern vor, Beurteilung durch den WP: je Periode/Ebene
-    Anfangsbestand (= Vorjahres-JR) + Bildung (S1-301) − Zahlungen (Bank, Steuerkontoauszug) ± Nachzahlung/Auflösung (Veranlagung) = Endbestand; mit Steuererklärung abgleichen, Zahlungen
-    in neuer Rechnung einbeziehen, Auflösungsdifferenzen als periodenfremd markieren.'
+  vorgehen: 'WP-Schritt (SER: weiter gehend): ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; fehlende Antworten/Unterlagen nur als
+    Pendenz-Notiz). Mit Anweisung, gekennzeichnet als «Vorbereitung für WP»: Rückstellungsspiegel Steuern vorbereiten (Beurteilung durch den WP): je Periode/Ebene Anfangsbestand (= Vorjahres-JR)
+    + Bildung (S1-301) − Zahlungen (Bank, Steuerkontoauszug) ± Nachzahlung/Auflösung (Veranlagung) = Endbestand; mit Steuererklärung abgleichen, Zahlungen in neuer Rechnung einbeziehen,
+    Auflösungsdifferenzen als periodenfremd markieren.'
   nachweise:
   - Rückstellungsspiegel
   - Kontoblatt Steuerrückstellung
@@ -687,9 +730,9 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - id: S1-304
-  vorgehen: 'Kennzeichnung leer → vom WP bestätigen lassen. Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte Vorperioden; Risiken
-    aus S1-101 bis S1-303, S1-401/S1-402) und Ist gegenüber und markiert Abweichungen. Steuerguthaben (Vorauszahlungen, VSt) separat auf Bestand und Verjährung, nicht saldieren; Überdeckung
-    an S1-321. Beurteilung von Ausweis und Bewertung durch den WP.'
+  vorgehen: 'Agent stellt Soll (laufende Periode: Gewinn-, Kapital-, ggf. Grundstückgewinnsteuer; nicht veranlagte Vorperioden; Risiken aus S1-101 bis S1-303, S1-401/S1-402) und Ist
+    gegenüber und markiert Abweichungen. Steuerguthaben (Vorauszahlungen, VSt) separat auf Bestand und Verjährung, nicht saldieren; Überdeckung an S1-321. Beurteilung von Ausweis und
+    Bewertung durch den WP.'
   nachweise:
   - Steuerberechnung
   - Kontoblätter Steuerkonten
@@ -713,9 +756,9 @@ schritte:
   - quelle: hwp-bur-2023__rz-0549-s269
     zitat: Dabei gelten zum Teil verkürzte Verjährungsfristen (beispielsweise für die Rückerstattung der Verrechnungssteuer drei Jahre).
 - id: S1-321
-  vorgehen: 'Kennzeichnung leer → vom WP bestätigen lassen. Standardschritt: Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung
-    berechnen. Steuerbezug: übersetzte Steuerrückstellungen und versteuerte stille Reserven festhalten. Nettoauflösung mit Jahresergebnis vergleichen, Anhangangabe nach Art. 959c Abs.
-    1 Ziff. 3 OR prüfen. Fehlt der Nachweis: Pendenz.'
+  vorgehen: 'Detailnachweis stille Reserven (je Position, 31.12. und Vorjahr) beiziehen, mit Saldoliste abstimmen, Veränderung berechnen. Steuerbezug: übersetzte Steuerrückstellungen
+    und versteuerte stille Reserven festhalten; handelsrechtlich nicht aufgelöste, nicht mehr begründete Rückstellungen (Art. 960e Abs. 4 OR) werden steuerlich zugerechnet (Art. 63 Abs.
+    2 DBG) → als versteuerte stille Reserven festhalten. Nettoauflösung mit Jahresergebnis vergleichen, Anhangangabe nach Art. 959c Abs. 1 Ziff. 3 OR prüfen. Fehlt der Nachweis: Pendenz.'
   nachweise:
   - Detailnachweis stille Reserven
   - Saldoliste
@@ -732,18 +775,23 @@ schritte:
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
   - quelle: hwp-bur-2023__rz-0675-s298
     zitat: wenn aufgrund der Auflösung von stillen Reserven ein Jahresgewinn anstelle eines Jahresverlusts entsteht
+  - quelle: or__art-960e
+    zitat: Nicht mehr begründete Rückstellungen müssen nicht aufgelöst werden.
+  - quelle: dbg__art-63
+    zitat: Bisherige Rückstellungen werden dem steuerbaren Gewinn zugerechnet, soweit sie nicht mehr begründet sind.
 - id: S1-401
-  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Agent trägt Transaktionen mit Beteiligten/Nahestehenden zusammen (Darlehen an und von Beteiligten
-    mit Zins, Sicherheit, Zweck; Saläre, Spesen, Privataufwand, Käufe/Verkäufe). Zinssätze mit ESTV-Rundschreiben 2025 vergleichen (fehlt → Pendenz, keine Sätze 2026). Liste mit Betrag
-    und möglichen Steuerfolgen; Beurteilung, Mitteilung an VR und Bericht nur durch WP.'
+  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP. Agent trägt Transaktionen mit Beteiligten/Nahestehenden zusammen (Darlehen an und von Beteiligten mit Zins, Sicherheit, Zweck; Saläre,
+    Spesen, Privataufwand, Käufe/Verkäufe). Zinssätze mit ESTV-Rundschreiben 2025 vergleichen (fehlt → Pendenz, keine Sätze 2026). Liste mit Betrag und möglichen Steuerfolgen; Beurteilung,
+    Mitteilung an VR und Bericht nur durch WP.'
   nachweise:
   - Darlehensverträge an und von Beteiligten
   - Kontoblätter Zinsen, Löhne, Spesen
   - Aktienbuch, GV-/VR-Protokolle
-  - ESTV-Rundschreiben Zinssätze 2025
+  - ESTV-Rundschreiben Zinssätze 2025 (intern, Quellenlücke – kein PBC)
   - VSt-Deklarationen (Formular 102)
   rechnen: 'Darlehen an Beteiligte: (ESTV-Mindestsatz 2025 − Vertragszins) × Betrag × Laufzeitanteil = mögliche geldwerte Leistung; Darlehen von Beteiligten: (Vertragszins − ESTV-Höchstsatz
-    2025) × Betrag × Laufzeitanteil, Zins auf verdecktem EK vollständig (S1-402); VSt = 35 % der geldwerten Leistung bei Überwälzung, sonst 35/65 = 53,8 % (Aufrechnung ins Hundert)'
+    2025) × Betrag × Laufzeitanteil, Zins auf verdecktem EK vollständig (S1-402); VSt = 35 % der geldwerten Leistung bei Überwälzung, sonst 35/65 = 53,8 % (Aufrechnung ins Hundert);
+    geldwerte Leistung = Gewinnaufrechnung (Art. 58 Abs. 1 lit. b DBG)'
   feststellung_wenn: Leistung an Beteiligte/Nahestehende ohne angemessene Gegenleistung, Zinssatz ausserhalb der ESTV-Sätze 2025 ohne Nachweis, Steuer-/VSt-Folge nicht zurückgestellt,
     oder Rundschreiben 2025 fehlt (Pendenz).
   fundstellen:
@@ -761,10 +809,15 @@ schritte:
     zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
   - quelle: hwp-er-2026__rz-0164-s212-t1
     zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+  - quelle: dbg__art-58
+    zitat: offene und verdeckte Gewinnausschüttungen und geschäftsmässig nicht begründete Zuwendungen an Dritte
 - id: S1-402
-  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Festhalten: Grundstückgewinne, Umstrukturierungen, Sanierung/Kapitalerhöhung (Emissionsabgabe,
-    Befreiung), Ausschüttungen (VSt, KER-Bestätigung ESTV), verdecktes EK (Verkehrswerte, Rangrücktritte), Kurz-/Langjahr, Rulings. Je Sachverhalt Abgrenzung/Offenlegung prüfen, Offenes
-    als Frage. Steuerfolgen Kapitalerhöhung/Ausschüttung: SER weiter gehend.'
+  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP. Festhalten: Grundstückgewinne, Umstrukturierungen, Sanierung/Kapitalerhöhung (Emissionsabgabe, Befreiung), Ausschüttungen (VSt, KER-Bestätigung
+    ESTV), verdecktes EK (Verkehrswerte, Rangrücktritte), Kurz-/Langjahr, Rulings. Je Sachverhalt Abgrenzung/Offenlegung prüfen, Offenes als Frage. Steuerfolgen Kapitalerhöhung/Ausschüttung:
+    SER weiter gehend. Sanierung: Art der Leistung festhalten. (a) Kapitalerhöhung/Agio, Verrechnungsliberierung und direkt ins EK gebuchter Forderungsverzicht → gewinnsteuerneutral
+    (Art. 60 lit. a DBG; KS 32a Ziff. 4.1.1.1). (b) Erfolgswirksam (ER/Sanierungskonto) gebuchter Forderungsverzicht von Aktionären → wie Verzicht Dritter (echter Sanierungsertrag).
+    Ausnahmen: Darlehen vorher als verdecktes EK behandelt oder wegen schlechten Geschäftsgangs gewährt, wie es Dritte nicht getan hätten; dann gelten Verlustausbuchungen steuerlich
+    als nicht erfolgt (Beurteilung WP).'
   nachweise:
   - GV-/VR-Protokolle, Antrag Verwendung Bilanzergebnis
   - Verträge (Grundstücke, Umstrukturierungen)
@@ -776,9 +829,12 @@ schritte:
   - ESTV-Bestätigung Kapitaleinlagereserven
   - Abrechnung bzw. Befreiung Emissionsabgabe
   rechnen: Separat besteuerter Gewinn × Satz = abzugrenzende Steuer; zulässiges FK = Σ Verkehrswert Aktiven × Belehnungssatz KS 6a; verdecktes EK = min(FK von Beteiligten/Nahestehenden;
-    FK − zulässiges FK); Zins auf verdecktem EK = Gewinnaufrechnung + VSt-Folge; Emissionsabgabe = 1 % × (Zufluss − nicht beanspruchter Freibetrag), sofern keine Ausnahme
+    FK − zulässiges FK); Zins auf verdecktem EK = Gewinnaufrechnung + VSt-Folge; Emissionsabgabe = 1 % × (Zufluss − nicht beanspruchter Freibetrag); Sanierungsfreibetrag max. CHF 10
+    Mio. nur bei Verlustverrechnung, sonst Freibetrag CHF 1 Mio.; echter Sanierungsertrag − verrechenbare Verluste (auch ältere nach Art. 67 Abs. 2 DBG) = steuerbarer Gewinn → × Satz
+    = abzugrenzende Steuer
   feststellung_wenn: Sachverhalt mit Steuerfolgen (Grundstückgewinn, Umstrukturierung, Emissionsabgabe, VSt auf Zinsen verdecktes EK oder Ausschüttung) nicht abgegrenzt/offengelegt,
-    oder KER-Ausschüttung ohne ESTV-Bestätigung/Anhanghinweis.
+    oder KER-Ausschüttung ohne ESTV-Bestätigung/Anhanghinweis; erfolgswirksamer Forderungsverzicht von Aktionären als steuerfrei behandelt bzw. Gewinnsteuer darauf nicht abgegrenzt;
+    Sanierungsfreibetrag ohne Verlustverrechnung beansprucht.
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
@@ -804,10 +860,27 @@ schritte:
     zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
   - quelle: hwp-bur-2023__rz-0550-s270
     zitat: Art. 79 Abs. 3 DBG schreibt vor, dass in jedem Kalenderjahr ein Geschäftsabschluss zu erstellen ist.
+  - quelle: estv-ks-32a-2025__3-3-2-t2
+    zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
+      ausgenommen.
+  - quelle: estv-ks-32a-2025__4-1-1-1-t1
+    zitat: Forderungsverzichte durch Anteilsinhaber, die im Zuge der Sanierung handelsrechtlich erfolgswirksam über die Erfolgsrechnung oder das Sanierungskonto gebucht werden, sind
+      grundsätzlich gleich zu behandeln wie Forderungsverzichte Dritter.
+  - quelle: estv-ks-32a-2025__4-1-1-1-t1
+    zitat: wenn und soweit Darlehen von Anteilsinhabern vor der Sanierung steuerlich als verdecktes Eigenkapital behandelt wurden
+  - quelle: estv-ks-32a-2025__4-1-1-1-t1
+    zitat: bei Darlehen von Anteilsinhabern, die erstmalig oder zusätzlich wegen schlechten Geschäftsganges gewährt wurden
+  - quelle: estv-ks-32a-2025__4-1-1-1-t2
+    zitat: Forderungsverzichte durch Anteilsinhaber, die direkt in das Eigenkapital der Gesellschaft gebucht werden, sind aufgrund der handelsrechtlichen Verbuchung immer gewinnsteuerneutral.
+  - quelle: dbg__art-60
+    zitat: Kapitaleinlagen von Mitgliedern von Kapitalgesellschaften und Genossenschaften, einschliesslich Aufgelder und Leistungen à fonds perdu
+  - quelle: dbg__art-67
+    zitat: Mit Leistungen zum Ausgleich einer Unterbilanz im Rahmen einer Sanierung, die nicht Kapitaleinlagen nach Artikel 60 Buchstabe a sind, können auch Verluste verrechnet werden,
+      die in früheren Geschäftsjahren entstanden und noch nicht mit Gewinnen verrechnet werden konnten.
 - id: S1-403
-  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP; Kennzeichnung leer → WP bestätigen. Bericht/Verfügung der letzten Steuerrevision aus Dauerakte bzw. M-Files beiziehen (sonst Pendenz).
-    Feststellungen (Aufrechnungen, Auflagen) auflisten und prüfen: Nachforderung gebucht/bezahlt, Auflage im laufenden Abschluss umgesetzt, wiederkehrendes Risiko in der Steuerberechnung
-    berücksichtigt. Dauerakte nachführen.'
+  vorgehen: 'Typ Sonstige: nur auf Anweisung des WP. Bericht/Verfügung der letzten Steuerrevision aus Dauerakte bzw. M-Files beiziehen (sonst Pendenz). Feststellungen (Aufrechnungen,
+    Auflagen) auflisten und prüfen: Nachforderung gebucht/bezahlt, Auflage im laufenden Abschluss umgesetzt, wiederkehrendes Risiko in der Steuerberechnung berücksichtigt. Dauerakte
+    nachführen.'
   nachweise:
   - Bericht/Verfügung der Steuerrevision
   - Nachsteuerrechnungen und Zahlungen

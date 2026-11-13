@@ -46,13 +46,19 @@ gesetz:
 - thema: Ermittlung/Verwendung gesetzliche Gewinnreserve analog Art. 671 Abs. 2–4 (Art. 672 Abs. 3 OR)
   quelle: or__art-672
   zitat: Für die Ermittlung und Verwendung der gesetzlichen Gewinnreserve gilt Artikel 671 Absätze 2, 3 und 4 entsprechend.
-- thema: 'Verlustverrechnung: Reihenfolge und Vortrag (Art. 674 OR)'
+- thema: 'Verlustverrechnung: zwingende Reihenfolge Gewinnvortrag → freiwillige Gewinnreserven → gesetzliche Gewinnreserve → gesetzliche Kapitalreserve (Art. 674 Abs. 1 OR)'
+  quelle: or__art-674
+  zitat: Verluste müssen in folgender Reihenfolge verrechnet werden mit
+- thema: 'Verlustverrechnung: Vortrag anstelle der Verrechnung mit den gesetzlichen Reserven (Art. 674 Abs. 2 OR)'
   quelle: or__art-674
   zitat: Anstelle der Verrechnung mit der gesetzlichen Gewinnreserve oder der gesetzlichen Kapitalreserve dürfen verbleibende Verluste auch teilweise oder ganz auf die neue Jahresrechnung
     vorgetragen werden.
 - thema: Dividenden nur aus Bilanzgewinn und Reserven (Art. 675 Abs. 2 OR)
   quelle: or__art-675
   zitat: Dividenden dürfen nur aus dem Bilanzgewinn und aus hierfür gebildeten Reserven ausgerichtet werden.
+- thema: Dividenden erst nach den Reservezuweisungen (Art. 675 Abs. 3 OR)
+  quelle: or__art-675
+  zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
 - thema: 'Zwischendividende: Prüfung Zwischenabschluss vor GV-Beschluss (Art. 675a Abs. 2 OR)'
   quelle: or__art-675a
   zitat: Die Revisionsstelle muss den Zwischenabschluss vor dem Beschluss der Generalversammlung prüfen.
@@ -80,6 +86,10 @@ gesetz:
 - thema: 'Kapitalerhöhung mit Verrechnungsliberierung: Inhalt GV-Beschluss (Art. 650 Abs. 2 Ziff. 5 OR)'
   quelle: or__art-650-t1
   zitat: 'bei Liberierung durch Verrechnung mit einer Forderung: den Betrag der zur Verrechnung gebrachten Forderung, den Namen des Gläubigers und die ihm zukommenden Aktien'
+- thema: 'Kapitalerhöhung: HR-Anmeldung innert 6 Monaten (Art. 650 Abs. 3 OR, Art. 46 HRegV)'
+  quelle: or__art-650-t2
+  zitat: Die Kapitalerhöhung muss innerhalb von sechs Monaten nach dem Beschluss der Generalversammlung beim Handelsregisteramt zur Eintragung angemeldet werden; sonst fällt der Beschluss
+    dahin.
 - thema: Prüfungsbestätigung zum Kapitalerhöhungsbericht (Art. 652f OR)
   quelle: or__art-652f
   zitat: Ein zugelassener Revisor prüft den Kapitalerhöhungsbericht und bestätigt schriftlich, dass dieser vollständig und richtig ist.
@@ -105,6 +115,15 @@ gesetz:
 - thema: Anzeigepflicht der Revisionsstelle (Art. 729c OR)
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: 'Covid-Kredit: Kredite nach Art. 3 Covid-19-SBüV kein Fremdkapital bei Art. 725a/725b OR (Art. 24 Abs. 1 Covid-19-SBüG)'
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+- thema: 'Covid-Kredit: Ausschüttungs- und Darlehensverbot (Art. 2 Abs. 2 Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
+- thema: Pflichten der Revisionsstelle bei Verstoss (Art. 23 Abs. 1 Covid-19-SBüG)
+  quelle: covid-sbueg__art-23
+  zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
 - thema: Aufwertungsreserve (Art. 725c OR, ersetzt Art. 670 OR)
   quelle: or__art-725c
   zitat: Der Aufwertungsbetrag ist unter der gesetzlichen Gewinnreserve gesondert als Aufwertungsreserve auszuweisen.
@@ -137,6 +156,21 @@ risiken:
   - RI
   quelle: hwp-bur-2023__rz-0572-s277-t1
   zitat: Bildung und Verwendung der gesetzlichen sowie der freiwilligen Reserven sind aufgrund von Generalversammlungsbeschlüssen unter dem betreffenden Datum zu buchen.
+- text: Kapitalverlust oder Überschuldung nicht erkannt bzw. Pflichten des VR nach Art. 725a/725b OR nicht erfüllt (Massnahmen, Zwischenabschlüsse, ungenügende Rangrücktritte).
+  pruefziele:
+  - BE
+  - RV
+  - DO
+  quelle: hwp-er-2026__rz-0447-s130
+  zitat: Eine Verletzung des Gesetzes liegt erst dann vor, wenn der Verwaltungsrat seine entsprechenden Handlungs- und Anzeigepflichten
+- text: Rangrücktritte ungenügend (Betrag inkl. Zinsen), formell mangelhaft (nicht schriftlich/zweiseitig, widerrufen, reduziert, befristet) oder umgangen (Tilgung, Verrechnung, Darlehen
+    an den Gläubiger); offensichtliche Überschuldung mit Anzeigepflicht (Art. 729c OR) nicht erkannt.
+  pruefziele:
+  - BE
+  - RV
+  - DO
+  quelle: ser-2022__anh-h-s142-1
+  zitat: keine oder keine genügenden Rangrücktritte vorhanden sind
 - text: Antrag über die Verwendung des Bilanzgewinns bzw. Rückzahlung aus gesetzlicher Kapitalreserve verstösst gegen Gesetz/Statuten (Reservezuweisung, Art. 671 Abs. 2–4, Art. 674,
     ausschüttbares EK) oder ist mit der Liquidität bzw. der Fortführung nicht vereinbar.
   pruefziele:
@@ -166,21 +200,6 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0572-s277-t1
   zitat: Eine Verrechnung bereits in der Vorperiode wäre eine Verletzung der Mindestgliederungsvorschriften der Bilanz.
-- text: Kapitalverlust oder Überschuldung nicht erkannt bzw. Pflichten des VR nach Art. 725a/725b OR nicht erfüllt (Massnahmen, Zwischenabschlüsse, ungenügende Rangrücktritte).
-  pruefziele:
-  - BE
-  - RV
-  - DO
-  quelle: hwp-er-2026__rz-0447-s130
-  zitat: Eine Verletzung des Gesetzes liegt erst dann vor, wenn der Verwaltungsrat seine entsprechenden Handlungs- und Anzeigepflichten
-- text: Rangrücktritte ungenügend (Betrag inkl. Zinsen), formell mangelhaft (nicht schriftlich/zweiseitig, widerrufen, reduziert, befristet) oder umgangen (Tilgung, Verrechnung, Darlehen
-    an den Gläubiger); offensichtliche Überschuldung mit Anzeigepflicht (Art. 729c OR) nicht erkannt.
-  pruefziele:
-  - BE
-  - RV
-  - DO
-  quelle: ser-2022__anh-h-s142-1
-  zitat: keine oder keine genügenden Rangrücktritte vorhanden sind
 - text: Steuerfolgen von Kapitalerhöhung, Zuschüssen und Ausschüttungen (Emissionsabgabe, Verrechnungssteuer, KER) nicht oder falsch abgerechnet bzw. nicht abgegrenzt.
   pruefziele:
   - VO
@@ -278,6 +297,10 @@ unterlagen:
   zweck: Optionen, Anhangangabe (P1-307, P1-320)
   quelle: ser-2022__anh-d-s097-2
   zitat: Befragung nach im Geschäftsjahr an Leitungs- und Verwaltungsorgane oder Mitarbeitende ausgegebenen Beteiligungsrechten oder Optionen
+- dokument: Covid-19-Kreditvereinbarung/Bürgschaftsvertrag und Amortisationsplan
+  zweck: 'Covid-Kredit (Art. 3 oder 4 Covid-19-SBüV): Ausschüttungs- und Darlehensverbot während der Solidarbürgschaft (P1-303, P1-305), Fremdkapital bei Art. 725a/725b OR (P1-313)'
+  quelle: covid-sbueg__art-3
+  zitat: Eine Solidarbürgschaft dauert höchstens acht Jahre
 bewertung:
 - regel: Grundkapital zum Nennwert; nicht einbezahlter Teil gesondert aktivieren und auf Werthaltigkeit beurteilen
   quelle: hwp-bur-2023__rz-0562-s273
@@ -324,7 +347,14 @@ bewertung:
 - regel: Eigene Kapitalanteile vermindern das frei verfügbare, nicht das geschützte Eigenkapital
   quelle: qa-kapitalverlust-2023__1-1-t1
   zitat: Eigene Kapitalanteile vermindern das frei verfügbare Eigenkapital.
-- regel: Covid-19-Kredite und Härtefall-Darlehen zählen bei Art. 725a/725b OR weiterhin nicht als Fremdkapital
+- regel: Nur Kredite, die nach Art. 3 Covid-19-SBüV verbürgt wurden, zählen bei Art. 725a/725b OR nicht als Fremdkapital (Art. 24 Covid-19-SBüG). Kredite nach Art. 4 Covid-19-SBüV (Covid-19-Kredit
+    Plus) und der unverbürgte Teil bleiben Fremdkapital. Darlehen und Kredite nach Art. 21 HFMV 20 zählen ebenfalls nicht als Fremdkapital (HWP ER Rz 373, Q&A).
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+- regel: Darlehen und verbürgte/garantierte Kredite nach Art. 21 HFMV 20 zählen bei Art. 725a/725b OR ebenfalls nicht als Fremdkapital
+  quelle: hwp-er-2026__rz-0373-s113
+  zitat: Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung 2020 (Art. 21 HFMV 20).
+- regel: Covid-19-Kredit- und HFMV-20-Ausnahme gilt auch unter den neuen Art. 725a/725b OR (Q&A)
   quelle: qa-kapitalverlust-2023__1-1-t1
   zitat: Ja. Die Bestimmungen sind auch unter den (neuen) Art. 725a und 725b OR anwendbar.
 - regel: 'Offensichtliche Überschuldung (Art. 729c OR): für jeden verständigen Bilanzleser erkennbar, ohne genügende Rangrücktritte und ohne begründete Sanierungsaussicht'
@@ -425,13 +455,14 @@ fallstricke:
 - text: 'Zwischendividende: Der Zwischenabschluss wird von der Revisionsstelle nicht nachträglich geprüft; fehlende Voraussetzungen festhalten (Beurteilung WP).'
   quelle: hwp-er-2026__rz-0249-s241
   zitat: Es ist nicht Aufgabe der Revisionsstelle, den Zwischenabschluss im Nachhinein zu prüfen.
-- text: 'Emissionsabgabe: Freibetrag CHF 1 Mio. nur einmalig und nicht für reine Zuschüsse; Ausnahmen u.a. bei Sanierungen (Art. 6 StG).'
+- text: 'Emissionsabgabe: Freibetrag CHF 1 Mio. nur einmalig und nicht für reine Zuschüsse; Ausnahmen u.a. bei Sanierungen (Art. 6 StG). Sanierung: bis CHF 10 Mio., nur mit Verlustverrechnung
+    (KS 32a Ziff. 3.3.2).'
   quelle: treuhand-almanach-2026__s067-1
   zitat: Bei reinen Zuschüssen kann der Freibetrag nicht in Anspruch genommen werden.
 - text: 'Eingeschränkte Revision: keine Drittbestätigungen; der Agent arbeitet mit beim Kunden verfügbaren Unterlagen (HR-Einträge und Statuten sind öffentlich zugänglich).'
   quelle: ser-2022__1-5
   zitat: keine Inventurbeobachtung und Drittbestätigungsanfragen durchgeführt
-- text: WP-Schritte (P1-306, P1-307, P1-141) bereitet der Agent nur vor; Beurteilung und Visum bleiben beim Wirtschaftsprüfer.
+- text: 'WP-Schritte (P1-306, P1-307, P1-308 «?», P1-141): ohne ausdrückliche Anweisung kein Textfeld, nur Notiz (offener Entscheid consis); Beurteilung und Visum immer beim WP.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: 'Katalog unvollständig: P1-141 ohne Text (Position zwischen P1-308 und P1-310 und Typ deuten auf P1-309), P1-308 mit Kennzeichnung «?» – Inhalt bzw. Zuständigkeit vom WP klären
@@ -478,13 +509,17 @@ fragen_kunde:
   zweck: P1-307, P1-320
 - frage: Wurden Grundstücke oder Beteiligungen zur Behebung eines Kapitalverlusts oder einer Überschuldung aufgewertet?
   zweck: P1-311
+- frage: Besteht oder bestand im GJ bzw. bis zur GV ein nach Covid-19-SBüV verbürgter Kredit (Art. 3 oder Art. 4)? Betrag, Kreditvereinbarung bzw. Bürgschaftsvertrag und Amortisationsplan
+    einreichen.
+  zweck: P1-303, P1-305, P1-313
 testakte_2025:
 - datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
   bezug: Aktienbuch per 31.12.2025 (Namenaktien, Aktionäre A–E, letzte Nachführung 20.01.2025) – P1-317, P1-301 (Abgleich Anzahl/Nominal mit Statuten/HR und Konto 2800), P1-304, P1-305
     (Aktionäre als Gegenparteien), P1-321
 - datei: M_Eigenkapital/Protokoll_ao_GV_20.01.2025_Kapitalerhoehung.md
-  bezug: 'ao GV 20.01.2025: Kapitalerhöhung CHF 20''000 auf 100''000, Agio CHF 3''133''333, Verrechnungsliberierung CHF 2.3 Mio. (Konto 2450) ohne Gläubiger und zugeteilte Aktien, Statutenänderung
-    nur Kapitalartikel (Art. 634a Abs. 3, 650 Abs. 2 Ziff. 5 OR) – P1-307, P1-301, P1-314, P1-308, P1-316, P1-401, P1-313'
+  bezug: 'ao GV 20.01.2025: Kapitalerhöhung von CHF 20''000 auf 100''000 (+ nominal CHF 80''000, 800 Namenaktien à CHF 100), Agio CHF 3''133''333, Ausgabebetrag CHF 3''213''333 (Verrechnung
+    CHF 2''300''000, Rest bar), Verrechnungsliberierung CHF 2.3 Mio. (Konto 2450) ohne Gläubiger und zugeteilte Aktien, Statutenänderung nur Kapitalartikel (Art. 634a Abs. 3, 650 Abs.
+    2 Ziff. 5 OR) – P1-307, P1-301, P1-314, P1-308, P1-316, P1-401, P1-313'
 - datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
   bezug: 'oGV 2025: Genehmigung Jahresrechnung 2024, Verwendung Bilanzverlust 2024, Datum Revisionsbericht VJ – P1-302, P1-312, P1-321'
 - datei: M_Eigenkapital/Antrag_VR_Verwendung_Bilanzergebnis_2025.md
@@ -567,7 +602,11 @@ schritte:
 - id: P1-303
   vorgehen: 'Antrag VR inkl. Rückzahlung aus gesetzl. Kapitalreserve (im Bericht separat aufzuführen) beschaffen, nachrechnen, mit Bilanz abstimmen. Prüfen: Reservezuweisung Art. 672,
     Verlustverrechnung Art. 674, Schwelle Art. 671 Abs. 2–4 OR, ausschüttbares EK (HWP ER Abb. 31, Sperre durch Aktionärsforderungen P1-305), Statuten, Liquidität (Budget; bei erheblichem
-    Entzug Fortführung), Ereignisse nach Stichtag. Berechnung dokumentieren; Prüfaussage: WP.'
+    Entzug Fortführung), Ereignisse nach Stichtag. Covid-19-Kredit (Art. 3 oder 4 SBüV) mit laufender Solidarbürgschaft? Dann sind Dividenden, Tantiemen und Rückerstattung von Kapitaleinlagen
+    (auch aus KER) ausgeschlossen (Art. 2 Abs. 2 lit. a Covid-19-SBüG) → Notiz «Wesentliche Feststellungen» an den WP. Fristansetzung und Information von GV und Bürgschaftsorganisation
+    (Art. 23) entscheidet und vollzieht nur der WP; der Agent setzt keine Frist und informiert niemanden. Bei Begründung «KER, verrechnungssteuerfrei»: verbleibenden KER-Bestand nach
+    Verlustverrechnung und ESTV-Bestätigung über P1-315 klären. Zielkonflikt Verlustverrechnung (Sanierungsfreibetrag Emissionsabgabe, P1-308) gegenüber KER-Erhalt als Notiz an den WP.
+    Berechnung dokumentieren; Prüfaussage: WP.'
   nachweise:
   - Antrag VR über Verwendung des Bilanzgewinns
   - Bilanz/Eigenkapital
@@ -577,7 +616,9 @@ schritte:
   - Ergebnis P1-313 (Kapitalverlust/Überschuldung)
   rechnen: Bilanzgewinn/-verlust = Vortrag + Jahresergebnis; Σ Antrag = Bilanzgewinn/-verlust; Zuweisung 5 % Jahresgewinn (nach Beseitigung Verlustvortrag) bis gesetzl. Kapital- + Gewinnreserve
     = 50 % AK, Holding 20 % (Art. 672 Abs. 2, Abs. 3 i.V.m. 671 Abs. 4); Rückzahlung KR nur soweit (gesetzl. Kapital- + Gewinnreserve ohne Aufwertungsreserve und Reserve eigene Aktien
-    im Konzern − Verluste) > 50 % AK (Holding > 20 %); Ausschüttung ≤ ausschüttbares EK (nur offene Reserven − Bilanzverlust − gesperrte Reserven − nicht drittvergleichskonforme Aktionärsforderungen)
+    im Konzern − Verluste) > 50 % AK (Holding > 20 %); Ausschüttung ≤ ausschüttbares EK (nur offene Reserven − Bilanzverlust − gesperrte Reserven − nicht drittvergleichskonforme Aktionärsforderungen);
+    Verlustverrechnung zwingend in der Reihenfolge Gewinnvortrag → freiwillige Gewinnreserven → gesetzliche Gewinnreserve → gesetzliche Kapitalreserve; nur anstelle der Verrechnung mit
+    den gesetzlichen Reserven darf vorgetragen werden (Art. 674 Abs. 1/2 OR); Dividende erst nach den Reservezuweisungen (Art. 675 Abs. 3 OR)
   feststellung_wenn: Antrag rechnerisch falsch/nicht bilanzkonform, Zuweisung oder Verlustverrechnung fehlerhaft, Ausschüttung > ausschüttbares EK bzw. Schwelle Art. 671 OR verletzt,
     Liquidität nicht belegt oder Fortführung gefährdet.
   fundstellen:
@@ -611,6 +652,29 @@ schritte:
     zitat: Stellt die beantragte Gewinnverwendung offensichtlich einen erheblichen Liquiditätsentzug dar, beurteilt der Abschlussprüfer die Fortführungsfähigkeit des Unternehmens
   - quelle: hwp-er-2026__rz-0255-s242
     zitat: auch der «Antrag über die Rückzahlung aus der gesetzlichen Kapitalreserve» separat aufgeführt
+  - quelle: or__art-674
+    zitat: Verluste müssen in folgender Reihenfolge verrechnet werden mit
+  - quelle: or__art-674
+    zitat: Anstelle der Verrechnung mit der gesetzlichen Gewinnreserve oder der gesetzlichen Kapitalreserve dürfen verbleibende Verluste auch teilweise oder ganz auf die neue Jahresrechnung
+      vorgetragen werden.
+  - quelle: or__art-675
+    zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
+  - quelle: covid-sbueg__art-2-t1
+    zitat: Während der Dauer der Solidarbürgschaft ausgeschlossen sind
+  - quelle: covid-sbueg__art-2-t1
+    zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen
+  - quelle: covid-sbueg__art-3
+    zitat: Eine Solidarbürgschaft dauert höchstens acht Jahre
+  - quelle: covid-sbueg__art-23
+    zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
+  - quelle: covid-sbueg__art-23
+    zitat: so muss die Revisionsstelle die Generalversammlung informieren
+  - quelle: covid-sbueg__art-23
+    zitat: Sollte der Verwaltungsrat den ordnungsgemässen Zustand auch dann nicht unverzüglich herstellen, so informiert die Revisionsstelle die zuständige Bürgschaftsorganisation.
+  - quelle: estv-ks-29c-2022__2-2-3-t1
+    zitat: Verluste, die den KER bzw. den Ausland-KER belastet wurden, vermindern diese definitiv.
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
 - id: P1-304
   vorgehen: Saldoliste/Kontoblätter auf eigene Kapitalanteile (Minusposten) durchsehen; Bestand (Anzahl, Anschaffungswert) mit Aufstellung, Aktienbuch bzw. Depotauszug abstimmen. Schriftliche
     Antwort zur Befragung nach Bestand, Erwerb und Veräusserung (auch durch Tochtergesellschaften) auswerten, sonst Frage als Pendenz. Grenzen Art. 659 OR und Anhangangabe der Anzahl
@@ -621,9 +685,13 @@ schritte:
   - Depotauszug/Verträge
   - Kundenbefragung (schriftlich)
   - Anhang
-  rechnen: Minusposten = Σ Anschaffungswerte gehaltener eigener Aktien; Nominal eigene Aktien ≤ 10 % des im HR eingetragenen AK (20 % bei Art. 659 Abs. 3 OR); Anschaffungswert ≤ frei
-    verwendbares EK
-  feststellung_wenn: Eigene Anteile vorhanden, aber nicht als Minusposten zum Anschaffungswert ausgewiesen, Grenze Art. 659 OR überschritten oder Anzahl im Anhang fehlt.
+  - Erwerbsdatum, Erwerbspreis und Zweck (Kapitalherabsetzung ja/nein) je Tranche
+  rechnen: 'Minusposten = Σ Anschaffungswerte gehaltener eigener Aktien; Nominal eigene Aktien ≤ 10 % des im HR eingetragenen AK (20 % bei Art. 659 Abs. 3 OR); Anschaffungswert ≤ frei
+    verwendbares EK; je Tranche (FIFO): Erwerb im Hinblick auf Kapitalherabsetzung oder über dem Rahmen von Art. 659 OR → VSt sofort. Sonst (erste 10 %) Steuerforderung bei Haltedauer
+    > 6 Jahre (Art. 4a Abs. 2, Art. 12 Abs. 1bis VStG). VSt = 35 % × (Erwerbspreis − einbezahlter Nennwert − anteilige KER, sofern der Minusposten unter KER verbucht ist; KS 51 Ziff.
+    3.1.2.12)'
+  feststellung_wenn: Eigene Anteile vorhanden, aber nicht als Minusposten zum Anschaffungswert ausgewiesen, Grenze Art. 659 OR überschritten oder Anzahl im Anhang fehlt; VSt-Folge aus
+    Art. 4a VStG nicht abgerechnet/abgegrenzt (→ P1-308, Beurteilung WP).
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: Feststellen des Bestands an eigenen Kapitalanteilen
@@ -633,6 +701,26 @@ schritte:
     zitat: Anzahl eigener Anteile, die das Unternehmen selbst oder die von ihm kontrollierten Unternehmen (Art. 963) halten
   - quelle: ser-2022__anh-d-s097-1
     zitat: Befragung nach Bestand, Erwerb und Veräusserung eigener Anteile durch das Unternehmen selbst
+  - quelle: vstg__art-4a-t1
+    zitat: so unterliegt die Differenz zwischen dem Erwerbspreis und dem einbezahlten Nennwert dieser Beteiligungsrechte der Verrechnungssteuer
+  - quelle: vstg__art-4a-t1
+    zitat: Dasselbe gilt, soweit der Erwerb eigener Beteiligungsrechte den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) überschreitet.
+  - quelle: vstg__art-4a-t1
+    zitat: wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
+  - quelle: vstg__art-12
+    zitat: Im Falle des Erwerbs eigener Beteiligungsrechte nach Artikel 4a Absatz 2 entsteht die Steuerforderung mit Ablauf der dort geregelten Frist.
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: estv-ks-51-2026__3-1-1-t1
+    zitat: Der Rückkauf eigener Beteiligungsrechte stellt für die Verrechnungssteuer grundsätzlich eine Teilliquidation dar.
+  - quelle: estv-ks-51-2026__3-1-2-3-t1
+    zitat: so unterliegt der Erwerb der ersten 10 Prozent der Regelung gemäss Artikel 4a Absatz 2 VStG.
+  - quelle: estv-ks-51-2026__3-1-2-3-t1
+    zitat: Insoweit erfolgt eine Besteuerung erst nach Ablauf der Sechsjahresfrist. Es gilt das Prinzip «first in, first out».
+  - quelle: estv-ks-51-2026__3-1-2-12
+    zitat: dem einbezahlten Nennwert zuzüglich den allfälligen KER
+  - quelle: estv-ks-51-2026__4
+    zitat: Es ist auf alle dannzumal noch offenen Veranlagungen anzuwenden.
 - id: P1-305
   vorgehen: Gegenparteien lt. Aktienbuch und Organen in Debitoren-/OP-Listen, Kontoblättern aller Forderungskonten (1100 ff., 114x, 119x) und Ergebnissen der Prüffelder B/C suchen; Forderungen
     mit Darlehenscharakter (up-/cross-stream, Cash-Pool; ohne operative L+L) erfassen. Freies EK berechnen, mit dem Total vergleichen; ist das Total höher, Drittvergleichsanalyse des
@@ -647,7 +735,8 @@ schritte:
   rechnen: Freies EK = Total ausgewiesenes EK − einbezahltes Grundkapital (optional + stille Reserven netto, nur für Art. 680 Abs. 2, nicht für das ausschüttbare EK); Σ Forderungen mit
     Darlehenscharakter ggü. Aktionären/Konzern aus allen Forderungskonten (ohne operative L+L; Verrechnung mit Verbindlichkeiten nur nach Art. 120 OR oder Vertrag) ≤ freies EK
   feststellung_wenn: 'Σ Aktionärs-/Konzernforderungen > freies EK ohne dokumentierten Drittvergleich oder Aktionärsdarlehen unter Debitoren/übrigen Forderungen verbucht: möglicher Verstoss
-    Art. 680 Abs. 2 OR, Sperre ausschüttbares EK (WP).'
+    Art. 680 Abs. 2 OR, Sperre ausschüttbares EK (WP); oder Gewährung bzw. Rückzahlung von Darlehen an/von Aktionären oder Nahestehenden während laufender Covid-Solidarbürgschaft (Art.
+    2 Abs. 2 lit. b Covid-19-SBüG; die Ausnahme für vorbestehende Verpflichtungen gegenüber Schweizer Gruppengesellschaften beurteilt der WP).'
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: Prüfung allfälliger Rückzahlungen von Einlagen der Aktionäre im Hinblick auf Art. 680
@@ -665,8 +754,14 @@ schritte:
     zitat: darf die Revisionsstelle davon ausgehen, dass dieser nicht gegeben ist
   - quelle: hwp-er-2026__rz-0170-s216
     zitat: führt dies zu einer Sperrung von frei verfügbarem Eigenkapital im gesamten Umfang dieser Darlehen
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+  - quelle: covid-sbueg__art-2-t1
+    zitat: zulässig ist jedoch die Erfüllung von Verpflichtungen gegenüber einer mit der Kreditnehmerin oder dem Kreditnehmer direkt oder indirekt verbundenen Gruppengesellschaft mit
+      Sitz in der Schweiz
 - id: P1-306
-  vorgehen: 'WP-Schritt, nur vorbereiten: Käufe/Verkäufe eigener Anteile aus Kontoblättern mit Verträgen bzw. Abrechnungen abgleichen; Erfassung zum Anschaffungswert als Minusposten,
+  vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz Schlussbesprechung/Pendenz). Mit Anweisung,
+    gekennzeichnet als «Vorbereitung für WP»: Käufe/Verkäufe eigener Anteile aus Kontoblättern mit Verträgen bzw. Abrechnungen abgleichen; Erfassung zum Anschaffungswert als Minusposten,
     Ausbuchung bei Veräusserung zum Anschaffungswert und Behandlung des Mehr-/Mindererlöses (Stetigkeit) nachvollziehen; Anhangangaben zu Erwerb/Veräusserung und Bedingungen prüfen.
     Ergebnis zur Beurteilung durch den WP dokumentieren.'
   nachweise:
@@ -677,7 +772,8 @@ schritte:
   rechnen: Minusposten Anfang + Zugänge (Anschaffungswert) − Abgänge (Anschaffungswert) = Minusposten Ende; Veräusserungserlös − Anschaffungswert = Mehr-/Mindererlös (Erfassung gemäss
     gewählter Methode)
   feststellung_wenn: Transaktion nicht belegt, nicht zum Anschaffungswert erfasst, Folgebewertung vorgenommen, Methode Mehr-/Mindererlös unstetig oder Anhangangabe Art. 959c Abs. 2 Ziff.
-    5 OR fehlt.
+    5 OR fehlt; VSt-Folge aus Art. 4a VStG (Erwerb im Hinblick auf Kapitalherabsetzung, über dem Rahmen von Art. 659 OR oder Haltedauer > 6 Jahre) nicht abgerechnet/abgegrenzt (→ P1-308,
+    Beurteilung WP).
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: Analyse von Käufen oder Verkäufen eigener Anteile und deren Bilanzierung als Minusposten im Eigenkapital
@@ -687,10 +783,17 @@ schritte:
     zitat: ist als Grundsatz der Rechnungslegung stetig anzuwenden und ggf. im Anhang offenzulegen
   - quelle: or__art-959c-t1
     zitat: Erwerb und Veräusserung eigener Anteile und die Bedingungen, zu denen sie erworben oder veräussert wurden
+  - quelle: vstg__art-4a-t1
+    zitat: so unterliegt die Differenz zwischen dem Erwerbspreis und dem einbezahlten Nennwert dieser Beteiligungsrechte der Verrechnungssteuer
+  - quelle: vstg__art-4a-t1
+    zitat: wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
 - id: P1-307
-  vorgehen: 'WP-Schritt, nur vorbereiten: bei Kapitalerhöhung/-herabsetzung, Kapitalband oder Optionen Urkunden, Statuten, Zeichnungsscheine, Kapitalerhöhungsbericht mit Prüfungsbestätigung
+  vorgehen: 'WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – WP-Schritt»; Hinweise nur als Notiz Schlussbesprechung/Pendenz). Mit Anweisung,
+    gekennzeichnet als «Vorbereitung für WP»: bei Kapitalerhöhung/-herabsetzung, Kapitalband oder Optionen Urkunden, Statuten, Zeichnungsscheine, Kapitalerhöhungsbericht mit Prüfungsbestätigung
     und HR-Eintrag einsehen; bei Verrechnungsliberierung Forderungsbetrag, Gläubiger und zugeteilte Aktien in GV-Beschluss und Statuten prüfen; Buchungen (Nennwert 2800, Agio in gesetzl.
-    Kapitalreserve, Gegenkonten) und Datum mit Belegen, Optionen mit Anhang abgleichen.'
+    Kapitalreserve, Gegenkonten) und Datum mit Belegen, Optionen mit Anhang abgleichen. HR-Anmeldung innert 6 Monaten nach dem GV-Beschluss (sonst ist der Beschluss dahingefallen, Art.
+    650 Abs. 3 OR). Belege nach Art. 46 HRegV: Urkunden GV- und VR-Beschluss (652g), angepasste Statuten, Kapitalerhöhungsbericht (652e), bei Verrechnung vorbehaltlose Prüfungsbestätigung
+    (652f).'
   nachweise:
   - Öffentliche Urkunden GV/VR
   - Statuten (neue Fassung)
@@ -699,10 +802,11 @@ schritte:
   - HR-Auszug
   - Kontoblätter 2800, Kapitalreserve, Gegenkonten
   - Options-/Beteiligungspläne
+  - HR-Anmeldung mit Datum (Belege nach Art. 46 HRegV)
   rechnen: Ausgabebetrag = Anzahl neue Aktien × Nennwert + Agio; Ausgabebetrag = Bareinzahlung + verrechnete Forderung (+ Sacheinlage); Agio lt. Beschluss = Zugang gesetzliche Kapitalreserve;
     Zugang Konto 2800 = Anzahl neue Aktien × Nennwert
   feststellung_wenn: Buchungen weichen von Urkunde/Bericht ab, Agio nicht in gesetzl. Kapitalreserve, Verrechnungsforderung nicht belegt, Statuten/GV-Beschluss ohne Angaben zur Verrechnungsliberierung,
-    HR-Eintrag oder Anhangangabe fehlt.
+    HR-Eintrag oder Anhangangabe fehlt, Anmeldung später als 6 Monate nach dem Beschluss oder Prüfungsbestätigung fehlt bzw. mit Vorbehalt.
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: 'Bei Änderungen im Grundkapital und Ausgabe von Optionen: kritische Durchsicht'
@@ -718,19 +822,38 @@ schritte:
     zitat: Der Bericht ist durch einen zugelassenen Revisor zu prüfen (Art. 652f OR).
   - quelle: or__art-959c-t2
     zitat: Anzahl und Wert von Beteiligungsrechten oder Optionen auf solche Rechte für alle Leitungs- und Verwaltungsorgane sowie für die Mitarbeitenden
+  - quelle: or__art-650-t2
+    zitat: Die Kapitalerhöhung muss innerhalb von sechs Monaten nach dem Beschluss der Generalversammlung beim Handelsregisteramt zur Eintragung angemeldet werden; sonst fällt der Beschluss
+      dahin.
+  - quelle: hregv__art-46-t1
+    zitat: Eine ordentliche Erhöhung des Aktienkapitals muss innerhalb von sechs Monaten nach dem Beschluss der Generalversammlung beim Handelsregisteramt zur Eintragung angemeldet werden.
+  - quelle: hregv__art-46-t1
+    zitat: die öffentliche Urkunde über den Beschluss des Verwaltungsrates (Art. 652g Abs. 2 OR)
+  - quelle: hregv__art-46-t1
+    zitat: die angepassten Statuten
+  - quelle: hregv__art-46-t1
+    zitat: der von einem Mitglied des Verwaltungsrates unterzeichnete Kapitalerhöhungsbericht (Art. 652e OR)
+  - quelle: hregv__art-46-t1
+    zitat: Bestehen Sacheinlagen, Verrechnungstatbestände oder besondere Vorteile
+  - quelle: hregv__art-46-t2
+    zitat: die vorbehaltslose Prüfungsbestätigung eines staatlich beaufsichtigten Revisionsunternehmens
 - id: P1-308
-  vorgehen: 'SER: weiter gehende Prüfungshandlung (bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem inhärentem Risiko); bei Kapitalerhöhung/Ausschüttung im GJ bzw. Antrag Durchführung
-    dem WP vorschlagen. Steuerfolgen anhand ESTV-Abrechnungen nachvollziehen: Emissionsabgabe (Satz, Freibetrag, Ausnahmen z.B. Sanierung), VSt auf Gewinnausschüttungen, KER (separater
-    Ausweis, Meldung/Bestätigung). Katalog «?»: Würdigung WP; fehlende Abrechnungen als Pendenz.'
+  vorgehen: 'Kennzeichnung «?» – bis Klärung wie WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld-Eintrag (Status «nicht bearbeitet – Kennzeichnung «?» (wie WP)»); bei Kapitalerhöhung/Ausschüttung
+    im GJ bzw. Antrag die Durchführung dem WP per Notiz (Schlussbesprechung/Pendenz) vorschlagen (SER: weiter gehende Prüfungshandlung bei Anzeichen wesentlicher Fehlaussagen oder erhöhtem
+    inhärentem Risiko). Mit Anweisung, gekennzeichnet als «Vorbereitung für WP»: Steuerfolgen anhand ESTV-Abrechnungen nachvollziehen: Emissionsabgabe (Satz, Freibetrag, Ausnahmen z.B.
+    Sanierung), VSt auf Gewinnausschüttungen, KER (separater Ausweis, Meldung/Bestätigung); fehlende Abrechnungen als Pendenz. Würdigung WP.'
   nachweise:
   - Abrechnung Emissionsabgabe/ESTV-Verfügung
   - Abrechnung Verrechnungssteuer
   - KER-Bestätigung/Meldung ESTV (Formular 170)
   - Protokolle GV (Ausgabebetrag, Ausschüttung)
   - Kontoblätter Steueraufwand/-verbindlichkeiten
-  rechnen: Emissionsabgabe = 1 % × Mittelzufluss (abzüglich anwendbarer, einmaliger Freibetrag CHF 1 Mio. bei Gründung/Kapitalerhöhung, nicht bei Zuschüssen); VSt = 35 % × steuerbare
-    Gewinnausschüttung
-  feststellung_wenn: Emissionsabgabe oder VSt nicht abgerechnet bzw. nicht abgegrenzt, Freibetrag/Ausnahme nicht belegt oder Ausschüttung aus KER ohne separaten Ausweis bzw. ESTV-Bestätigung.
+  rechnen: 'Emissionsabgabe = 1 % × (Mittelzufluss − Freibetrag). Sanierungsfreibetrag (Art. 6 Abs. 1 lit. k StG, KS 32a Ziff. 3.3.2): Leistungen der Anteilsinhaber bis gesamthaft CHF
+    10 Mio., nur bei offener Sanierung (Herabsetzung mit Wiedererhöhung bis max. zum ursprünglichen Kapital) oder stiller Sanierung (Zuschüsse, Agio-Einlagen zur Verlustabdeckung) und
+    nur, wenn die Sanierungsleistungen mit bestehenden Verlusten verrechnet werden (Beschluss spätestens an der oGV über die Sanierungsperiode). Sonst einmaliger Freibetrag CHF 1 Mio.
+    bei Gründung/Kapitalerhöhung (nicht bei Zuschüssen). Verlust vorgetragen statt verrechnet → Freibetrag fraglich (WP). VSt = 35 % × steuerbare Gewinnausschüttung (Art. 13 VStG)'
+  feststellung_wenn: Emissionsabgabe oder VSt nicht abgerechnet bzw. nicht abgegrenzt, Freibetrag/Ausnahme nicht belegt oder Ausschüttung aus KER ohne separaten Ausweis bzw. ESTV-Bestätigung
+    oder Sanierungsfreibetrag beansprucht, obwohl die Verluste nicht verrechnet sind.
   fundstellen:
   - quelle: ser-2022__anh-d-s091-1
     zitat: Prüfung der korrekten steuerlichen Behandlung von Kapitalerhöhungen (Emissionsabgabe) und -herabsetzungen sowie Gewinnausschüttungen (Verrechnungssteuer)
@@ -742,10 +865,25 @@ schritte:
     zitat: ein Freibetrag von CHF 1 Mio. (Art. 6 Abs. 1 lit. b und lit. h StG, einmalig, d. h. nicht pro Ereignis)
   - quelle: treuhand-almanach-2026__s067-3
     zitat: Diverse Tatbestände (u. a. im Rahmen von Umstrukturierungen und Sanierungen) sind von der Emissionsabgabe ausgenommen.
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
   - quelle: hwp-bur-2023__rz-0565-s275-t2
     zitat: sind bei Erfüllung der steuerlichen Voraussetzungen (beispielsweise offener Ausweis in der Bilanz) steuerfrei
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: Nach Artikel 6 Absatz 1 Buchstabe k StG ist eine offene oder stille Sanierung von der Emissionsabgabe ausgenommen
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: Als offene Sanierungen gelten Herabsetzungen des Grund- oder Stammkapitals einer Kapitalgesellschaft oder Genossenschaft mit anschliessender (in der Regel gleichzeitiger)
+      Wiedererhöhung
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: Als stille Sanierungen gelten Zuschüsse im Sinn von Artikel 5 Absatz 2 Buchstabe a StG sowie Einlagen in das Agio, die zur Abdeckung von Verlusten führen.
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: Die Verrechnung der Verluste muss spätestens anlässlich der ordentlichen Generalversammlung beschlossen werden, welche die Jahresrechnung für die Periode genehmigt, in welcher
+      die Sanierungsleistung erbracht wurde.
+  - quelle: estv-ks-32a-2025__3-3-2-t2
+    zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
+      ausgenommen.
 - id: P1-141
   vorgehen: 'Katalogtext in revio leer (WP-Schritt, Prüfziele RV VO BE DO RI). Agent bearbeitet den Schritt nicht inhaltlich, sondern erfasst eine Pendenz an den WP zur Festlegung des
     Inhalts mit Hinweis: Position zwischen P1-308 und P1-310 und Typ «Detail» deuten auf einen Nummerierungsfehler (vermutlich P1-309). Die SER-Schritte Reservezuweisung (Art. 672 OR)
@@ -775,7 +913,7 @@ schritte:
   - GV-Beschluss Kapitalerhöhung (Agio)
   rechnen: Σ EK-Konten Saldoliste = Total Eigenkapital Bilanz; Total Aktiven − Total Fremdkapital = Total Eigenkapital; Saldo Agio-Konto = Agio lt. GV-Beschluss
   feststellung_wenn: Pflichtposition fehlt oder ist zusammengefasst, Agio/KER nicht als gesetzliche Kapitalreserve bzw. auf Konto freiwilliger Reserven, Saldo ≠ Beschluss oder Verlust
-    bereits in der Abschlussperiode verrechnet.
+    bereits in der Abschlussperiode verrechnet; Kapitaleinlagen nicht gesondert als KER ausgewiesen (steuerlich übrige Reserven, Umqualifikation unzulässig).
   fundstellen:
   - quelle: or__art-959a-t1
     zitat: Grund-, Gesellschafter- oder Stiftungskapital, gegebenenfalls gesondert nach Beteiligungskategorien
@@ -787,10 +925,14 @@ schritte:
     zitat: der Erlös, der bei der Ausgabe von Aktien über den Nennwert und die Ausgabekosten hinaus erzielt wird
   - quelle: hwp-bur-2023__rz-0572-s277-t2
     zitat: Separat als Teil der gesetzlichen Gewinnreserve auszuweisen sind auch die Reserve für eigene Kapitalanteile im Konzern und die Aufwertungsreserve.
+  - quelle: estv-ks-29c-2022__2-2-3-t2
+    zitat: Gleiches gilt für offene Kapitaleinlagen, die in der Handelsbilanz nicht gesondert ausgewiesen wurden.
+  - quelle: estv-ks-29c-2022__2-2-3-t2
+    zitat: Eine Umqualifikation von übrigen Reserven in KER bzw. Ausland-KER ist unzulässig und wird steuerlich nicht anerkannt.
 - id: P1-311
   vorgehen: 'Katalogverweis «OR 670» ist überholt; massgebend ist Art. 725c OR. Konten und VR-Beschlüsse auf Aufwertungen von Grundstücken/Beteiligungen durchsehen. Falls vorhanden:
     Zweck (Behebung Kapitalverlust/Überschuldung), Obergrenze wirklicher Wert, schriftliche Bestätigung des Revisors und gesonderter Ausweis unter der gesetzlichen Gewinnreserve prüfen;
-    sonst «nicht anwendbar» dokumentieren.'
+    sonst «nicht anwendbar» dokumentieren. Grenzen rechnen: `kapitalverlust … --buchwert … --verkehrswert …`.'
   nachweise:
   - VR-Beschluss Aufwertung
   - Bewertungsnachweis (wirklicher Wert)
@@ -825,7 +967,9 @@ schritte:
   - quelle: ser-2022__anh-d-s073-2
     zitat: Beschluss über die Verwendung des Bilanzgewinns (umfasst auch einen allfälligen Bilanzverlust)
 - id: P1-313
-  vorgehen: 'Geschütztes EK berechnen, hälftig mit bilanziellem EK vergleichen. Bei Überschuldung: Vorliegen/Datum der Zwischenabschlüsse feststellen (Prüfung: separater Auftrag PS-CH
+  vorgehen: 'Rechnen mit `kapitalverlust --aktiven … --verbindlichkeiten … --aktienkapital … --kapitalreserve … --gewinnreserve … [--reserve-voll …] [--covid-kredit …] --rangruecktritt
+    …` (`--verbindlichkeiten` unverändert aus der Bilanz; Kredite nach Art. 3 Covid-19-SBüV und HFMV-20-Darlehen nur über `--covid-kredit`), Ausgabe ins Textfeld; Ablauf: `aufgabe kapitalschutz`.
+    Geschütztes EK berechnen, hälftig mit dem EK für OR 725a/725b vergleichen. Bei Überschuldung: Vorliegen/Datum der Zwischenabschlüsse feststellen (Prüfung: separater Auftrag PS-CH
     290); Rangrücktritte prüfen (schriftlich, zweiseitig, Betrag + Zinsen, Stundung, unwiderruflich, unbefristet, Bonität); Zahlungen, Verrechnungen, Darlehen an Rangrücktrittsgläubiger
     im GJ und nach Stichtag suchen; Sanierungsaussicht, Anhang würdigen; für WP dokumentieren.'
   nachweise:
@@ -837,8 +981,9 @@ schritte:
   - Zwischenabschlüsse/Sanierungsplan
   - Anhang (Fortführung, Ereignisse nach Stichtag)
   rechnen: Geschütztes EK = AK + PS-Kapital + min(gesetzl. Kapitalreserve + gesetzl. Gewinnreserve i.e.S.; 50 % von AK + PS, Holding 20 %) + Aufwertungsreserve + Reserve eigene Anteile
-    im Konzern; bilanzielles EK ohne Covid-19-Kredite/Härtefall-Darlehen als FK; Kapitalverlust, wenn bilanzielles EK < 50 % geschütztes EK; Überschuldung, wenn bilanzielles EK < 0;
-    Σ gültige Rangrücktritte (Betrag + Zinsen) ≥ Überschuldung (+ Polster für erwartete Verluste)
+    im Konzern; EK für OR 725a/725b = bilanzielles EK + Kredite nach Art. 3 Covid-19-SBüV + Darlehen nach Art. 21 HFMV 20. Im Rechner nur über `--covid-kredit` eingeben; `--verbindlichkeiten`
+    unverändert aus der Bilanz übernehmen (nicht zusätzlich abziehen). Kredite nach Art. 4 SBüV bleiben FK; Kapitalverlust, wenn EK für OR 725a/725b < 50 % geschütztes EK; Überschuldung,
+    wenn EK für OR 725a/725b < 0; Σ gültige Rangrücktritte (Betrag + Zinsen) ≥ Überschuldung (+ Polster für erwartete Verluste)
   feststellung_wenn: Kapitalverlust/Überschuldung ohne erfüllte VR-Pflichten oder Rangrücktritte ungenügend/mangelhaft/umgangen; bei Anzeichen offensichtlicher Überschuldung sofort Notiz
     «Wesentliche Feststellung» an WP (Art. 729c OR).
   fundstellen:
@@ -848,6 +993,14 @@ schritte:
     zitat: das nominelle Aktien- und ein etwaiges nominelles Partizipationskapital
   - quelle: hwp-er-2026__rz-0372-s112
     zitat: dann liegt ein Kapitalverlust im Sinne von Art. 725a Abs. 1 OR vor
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  - quelle: covid-sbueg__art-3
+    zitat: ab der Unterzeichnung des Bürgschaftsvertrags für einen Kredit nach Artikel 4 Covid-19-SBüV
+  - quelle: qa-or-rechnungslegung-2026__10-t3
+    zitat: gilt der verbürgte COVID-19-Kredit im Umfang von CHF 0.5 Mio. nicht als
+  - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung 2020 (Art. 21 HFMV 20).
   - quelle: qa-kapitalverlust-2023__1-1-t1
     zitat: Ja. Die Bestimmungen sind auch unter den (neuen) Art. 725a und 725b OR anwendbar.
   - quelle: or__art-725b-t1
@@ -887,9 +1040,9 @@ schritte:
   - Öffentliche Urkunden zu Statutenänderungen
   - HR-Auszug/SHAB-Publikation
   - Statuten (neue Fassung)
-  rechnen: ''
+  rechnen: HR-Anmeldedatum − GV-Beschlussdatum ≤ 6 Monate (`rechne`); Buchungsdatum Kapitalerhöhung ≥ HR-Eintragsdatum
   feststellung_wenn: Statutenänderung ohne Beurkundung oder HR-Eintrag, Statuten ohne Angabe der Verrechnungsliberierung, Abweichung Statuten–HR–Buchhaltung oder Kapitaländerung vor
-    HR-Eintrag ohne Erläuterung gebucht.
+    HR-Eintrag ohne Erläuterung gebucht oder Anmeldung nach Ablauf von 6 Monaten.
   fundstellen:
   - quelle: or__art-647
     zitat: ist öffentlich zu beurkunden und ins Handelsregister einzutragen
@@ -901,10 +1054,16 @@ schritte:
     zitat: Aktien, die vor der Eintragung der Kapitalerhöhung ins Handelsregister ausgegeben werden, sind nichtig
   - quelle: or__art-936
     zitat: Die Einträge, Statuten und Stiftungsurkunden werden im Internet gebührenfrei zugänglich gemacht.
+  - quelle: or__art-650-t2
+    zitat: Die Kapitalerhöhung muss innerhalb von sechs Monaten nach dem Beschluss der Generalversammlung beim Handelsregisteramt zur Eintragung angemeldet werden; sonst fällt der Beschluss
+      dahin.
+  - quelle: hregv__art-46-t1
+    zitat: Eine ordentliche Erhöhung des Aktienkapitals muss innerhalb von sechs Monaten nach dem Beschluss der Generalversammlung beim Handelsregisteramt zur Eintragung angemeldet werden.
 - id: P1-315
   vorgehen: Im GJ ausgerichtete und nach Stichtag beschlossene Dividenden/Rückzahlungen ermitteln (GV-Protokoll, Bank, Kontoblätter). Brutto/Netto, VSt-Entrichtung oder Meldeverfahren,
     Abrechnung/Zahlung an die ESTV und Verbuchung (Dividendenverbindlichkeit ab GV-Beschluss) nachvollziehen; bei Rückzahlung aus KER separaten Ausweis, ESTV-Bestätigung und Meldung
-    (Formular 170) prüfen. Fehlende Abrechnung als Pendenz; HWP OR nur ergänzend.
+    (Formular 170) prüfen. VSt fällig 30 Tage nach Fälligkeit der Dividende (Art. 12 Abs. 1, Art. 16 Abs. 1 lit. c VStG); ausstehende Beträge mit Verzugszins. Fehlende Abrechnung als
+    Pendenz.
   nachweise:
   - GV-Protokoll (Dividendenbeschluss)
   - Bankbelege Auszahlung
@@ -912,16 +1071,19 @@ schritte:
   - Kontoblätter Dividende/VSt-Verbindlichkeit
   - KER-Nachweis (Bestätigung, Formular 170)
   rechnen: VSt = 35 % × steuerbare Bruttoausschüttung (nicht bei Meldeverfahren bzw. Rückzahlung aus anerkannten KER); Nettoauszahlung = Brutto − VSt; Brutto = Beschluss je Aktie × Anzahl
-    berechtigte Aktien
+    berechtigte Aktien; Fälligkeit VSt = Fälligkeit Dividende (i.d.R. GV-Datum) + 30 Tage
   feststellung_wenn: VSt nicht oder falsch abgerechnet, abgeführt bzw. gemeldet, Auszahlung weicht vom GV-Beschluss ab, Dividendenverbindlichkeit vor Beschluss erfasst oder KER-Rückzahlung
-    ohne Nachweis/Meldung.
+    ohne Nachweis/Meldung; KER durch Verrechnung mit Verlusten vermindert, Sanierungseinlage durch Verlustausbuchung vernichtet bzw. Einlage nicht gesondert als KER ausgewiesen (KS 29c
+    Ziff. 2.2.3, 3.1, 3.2) → Rückzahlung insoweit nicht VSt-frei (Beurteilung WP).
   fundstellen:
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: Sie entrichten die Steuer und überwälzen diese mit einer Kürzung der Leistung auf die Empfänger.
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: 35 % auf Kapitalerträgen und Lotteriegewinnen
-  - quelle: treuhand-almanach-2026__s068-1
-    zitat: Bei entsprechender Gesetzesgrundlage besteht die Möglichkeit anstelle der Steuerentrichtung die Meldung der steuerbaren Leistung vorzunehmen.
+  - quelle: vstg__art-14
+    zitat: Die steuerbare Leistung ist bei der Auszahlung, Überweisung, Gutschrift oder Verrechnung ohne Rücksicht auf die Person des Gläubigers um den Steuerbetrag zu kürzen.
+  - quelle: vstg__art-13
+    zitat: 35 Prozent der steuerbaren Leistung
+  - quelle: vstg__art-20
+    zitat: ihre Steuerpflicht durch Meldung der steuerbaren Leistung zu erfüllen
+  - quelle: vstg__art-20
+    zitat: Das Meldeverfahren ist insbesondere bei Dividendenausschüttungen und geldwerten Leistungen im inländischen und grenzüberschreitenden Konzernverhältnis zuzulassen.
   - quelle: hwp-bur-2023__rz-0605-s285
     zitat: auf der Basis des Dividendenbeschlusses der Generalversammlung dann auch die Erfassung einer Dividendenverbindlichkeit
   - quelle: hwp-bur-2023__rz-0599-s283
@@ -931,8 +1093,23 @@ schritte:
   - quelle: estv-ks-29c-2022__7-2-5-t5
     zitat: Erfolgen Rückzahlungen von KER bzw. Ausland-KER, sind diese innert 30 Tagen nach der Generalversammlung oder spätestens 30 Tage nach der Rückzahlung mittels Formular 170 unaufgefordert
       zu melden.
-  - quelle: hwp-or-2024__rz-0935-s363
-    zitat: die Gesellschaft jede Veränderung auf diesem Konto der Eidg. Steuerverwaltung meldet
+  - quelle: vstg__art-5-t3
+    zitat: wenn die Reserven aus Kapitaleinlagen von der Kapitalgesellschaft oder Genossenschaft in der Handelsbilanz auf einem gesonderten Konto ausgewiesen werden und die Gesellschaft
+      oder Genossenschaft jede Veränderung auf diesem Konto der Eidgenössischen Steuerverwaltung (ESTV) meldet
+  - quelle: vstg__art-12
+    zitat: entsteht die Steuerforderung im Zeitpunkt, in dem die steuerbare Leistung fällig wird
+  - quelle: vstg__art-16
+    zitat: 30 Tage nach Entstehung der Steuerforderung (Art. 12)
+  - quelle: vstg__art-16
+    zitat: Auf Steuerbeträgen, die nach Ablauf der in Absatz 1 geregelten Fälligkeitstermine ausstehen, ist ohne Mahnung ein Verzugszins geschuldet.
+  - quelle: estv-ks-29c-2022__2-2-3-t1
+    zitat: Verluste, die den KER bzw. den Ausland-KER belastet wurden, vermindern diese definitiv.
+  - quelle: estv-ks-29c-2022__2-2-3-t1
+    zitat: Soweit Kapitaleinlagen nicht durch die Ausbuchung von handelsrechtlichen Verlustvorträgen vernichtet werden
+  - quelle: estv-ks-29c-2022__2-2-3-t2
+    zitat: Gleiches gilt für offene Kapitaleinlagen, die in der Handelsbilanz nicht gesondert ausgewiesen wurden.
+  - quelle: estv-ks-29c-2022__2-2-3-t2
+    zitat: Eine Umqualifikation von übrigen Reserven in KER bzw. Ausland-KER ist unzulässig und wird steuerlich nicht anerkannt.
 - id: P1-316
   vorgehen: Alle Buchungen auf EK-Konten (Kontoblätter 28xx/29xx) auflisten und je Buchung Grundlage (GV-/VR-Beschluss, Urkunde, Abrechnung), Beleg, Datum und Gegenkonto prüfen. Direkt
     im EK erfasste Vorgänge auf Zulässigkeit beurteilen (Transaktionen mit Eigentümern, Aufwertung Art. 725c OR); übrige Vorgänge gehören in die Erfolgsrechnung. Liste mit Beurteilung

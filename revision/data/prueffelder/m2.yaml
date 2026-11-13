@@ -74,9 +74,27 @@ gesetz:
 - thema: Selbstveranlagung (Art. 71/72 MWSTG), zitiert nach PH 20
   quelle: ph-20-mwst-2016__c003-1
   zitat: Infolge des Selbstveranlagungsprinzips (Art. 71 und 72 MWSTG) liegt die volle und alleinige Verantwortung
-- thema: Festsetzungsverjährung fünf Jahre nach Ablauf der Steuerperiode (Art. 42 Abs. 1 MWSTG) – offene Perioden für Rückstellungsbedarf
+- thema: Festsetzungsverjährung fünf Jahre nach Ablauf der Steuerperiode (Art. 42 Abs. 1 MWSTG) – offene Perioden für Rückstellungsbedarf (Unterbrechung Abs. 2, neue Frist Abs. 3, absolut
+    10 Jahre Abs. 6)
   quelle: mwstg__art-42
   zitat: Das Recht, eine Steuerforderung festzusetzen, verjährt fünf Jahre nach Ablauf der Steuerperiode
+- thema: Unterbrechung der Festsetzungsverjährung durch Erklärung, Verfügung, Einspracheentscheid oder Urteil (Art. 42 Abs. 2 MWSTG)
+  quelle: mwstg__art-42
+  zitat: Die Verjährung wird durch eine auf Festsetzung oder Korrektur der Steuerforderung gerichtete empfangsbedürftige schriftliche Erklärung, eine Verfügung, einen Einspracheentscheid
+    oder ein Urteil unterbrochen.
+- thema: Unterbrechung auch durch Ankündigung einer ESTV-Kontrolle bzw. Beginn einer unangekündigten Kontrolle (Art. 42 Abs. 2 MWSTG)
+  quelle: mwstg__art-42
+  zitat: Zu einer entsprechenden Unterbrechung der Verjährung führen auch die Ankündigung einer Kontrolle nach Artikel 78 Absatz 3 oder der Beginn einer unangekündigten Kontrolle.
+- thema: Nach Unterbrechung durch ESTV oder Rechtsmittelinstanz neue Verjährungsfrist von zwei Jahren (Art. 42 Abs. 3 MWSTG)
+  quelle: mwstg__art-42
+  zitat: Wird die Verjährung durch die ESTV oder eine Rechtsmittelinstanz unterbrochen, so beginnt die Verjährungsfrist neu zu laufen. Sie beträgt neu zwei Jahre.
+- thema: 'Absolute Festsetzungsverjährung: zehn Jahre nach Ablauf der Steuerperiode (Art. 42 Abs. 6 MWSTG)'
+  quelle: mwstg__art-42
+  zitat: Das Recht, die Steuerforderung festzusetzen, verjährt in jedem Fall zehn Jahre nach Ablauf der Steuerperiode, in der die Steuerforderung entstanden ist.
+- thema: Korrekturpflicht für erkannte Mängel in nicht rechtskräftigen bzw. nicht verjährten Steuerperioden (Art. 72 Abs. 2 MWSTG)
+  quelle: mwstg__art-72
+  zitat: Die steuerpflichtige Person ist verpflichtet, erkannte Mängel in Abrechnungen über zurückliegende Steuerperioden nachträglich zu korrigieren, soweit die Steuerforderungen dieser
+    Steuerperioden nicht in Rechtskraft erwachsen oder verjährt sind.
 - thema: 'Steuersätze: Normalsatz 8,1 % (Art. 25 Abs. 1 MWSTG)'
   quelle: mwstg__art-25-t1
   zitat: Die Steuer beträgt 8,1 Prozent (Normalsatz)
@@ -119,12 +137,46 @@ gesetz:
 - thema: Gruppenbesteuerung (Art. 13 MWSTG), zitiert nach HWP BuR
   quelle: hwp-bur-2023__rz-0368-s151
   zitat: auf Antrag gemeinsam als eine einzige steuerpflichtige Person – eine Mehrwertsteuergruppe – behandelt zu werden (Art. 13 MWSTG)
-- thema: Mithaftung der Gruppenmitglieder; nach Austritt nur für eigene Steuerforderungen (Art. 15 Abs. 1 lit. c MWSTG)
+- thema: Mithaftung der Gruppenmitglieder (Art. 15 Abs. 1 lit. c MWSTG)
   quelle: mwstg__art-15-t1
   zitat: jede zu einer Mehrwertsteuergruppe (Art. 13) gehörende Person oder Personengesellschaft, mit Ausnahme von Vorsorgeeinrichtungen, für sämtliche von der Gruppe geschuldeten Steuern
+- thema: Nach Austritt Haftung nur für Steuerforderungen aus eigener Tätigkeit (Art. 15 Abs. 1 lit. c MWSTG)
+  quelle: mwstg__art-15-t1
+  zitat: tritt eine Person oder Personengesellschaft aus der Gruppe aus, so haftet sie nur noch für die Steuerforderungen, die sich aus ihren eigenen unternehmerischen Tätigkeiten ergeben
+    haben
+- thema: Mithaftung für alle während der Zugehörigkeit entstandenen Steuer-, Zins- und Kostenforderungen, ausgenommen Bussen (Art. 22 Abs. 1 MWSTV)
+  quelle: mwstv__art-22
+  zitat: Die Mithaftung eines Mitglieds einer Mehrwertsteuergruppe erstreckt sich auf alle Steuer-, Zins- und Kostenforderungen, die während dessen Zugehörigkeit zur Gruppe entstehen,
+    ausgenommen Bussen.
+- thema: Kein Entzug der Mithaftung durch Austritt bei Betreibung, Einschätzungsmitteilung oder angekündigter Kontrolle (Art. 22 Abs. 2 MWSTV)
+  quelle: mwstv__art-22
+  zitat: Wurde gegenüber einem Gruppenmitglied eine Betreibung eingeleitet, bei der Gruppenvertretung eine Steuernachforderung mittels Einschätzungsmitteilung geltend gemacht oder wurde
+    eine Kontrolle angekündigt, so kann sich ein Gruppenmitglied nicht durch Austritt aus der Gruppe der Mithaftung entziehen.
 - thema: Saldo-/Pauschalsteuersatzmethode (Art. 37 MWSTG), zitiert nach HWP BuR
   quelle: hwp-bur-2023__rz-0359-s149
   zitat: haben die Möglichkeit, nach der Saldo- bzw. Pauschalsteuersatzmethode abzurechnen (Art. 37 MWSTG)
+- thema: 'Saldosteuersatzmethode: Steuer = Σ steuerbare Entgelte inkl. Steuer × von der ESTV bewilligter SSS (Art. 37 Abs. 2 MWSTG)'
+  quelle: mwstg__art-37
+  zitat: wird die Steuerforderung durch Multiplikation des Totals aller in einer Abrechnungsperiode erzielten steuerbaren Entgelte, einschliesslich Steuer, mit dem von der ESTV bewilligten
+    Saldosteuersatz ermittelt
+- thema: 'SSS je Branche: Tabelle im Anhang der VO Saldosteuersätze – nur zur Plausibilisierung; massgebend ist der bewilligte Satz (Art. 84 Abs. 1 MWSTV)'
+  quelle: estv-vo-sss__art-1
+  zitat: Die Saldosteuersätze (SSS) nach Branchen und Tätigkeiten richten sich nach der Tabelle im Anhang.
+- thema: VO Saldosteuersätze in Kraft seit 1.1.2025 (Art. 3 VO Saldosteuersätze)
+  quelle: estv-vo-sss__art-3
+  zitat: Diese Verordnung tritt am 1. Januar 2025 in Kraft.
+- thema: Massgebend ist der von der ESTV bewilligte Saldosteuersatz (Art. 84 Abs. 1 MWSTV)
+  quelle: mwstv__art-84
+  zitat: Steuerpflichtige Personen müssen ihre Tätigkeiten zu den von der ESTV bewilligten Saldosteuersätzen abrechnen.
+- thema: 'Mehrere SSS: Erträge je SSS separat verbuchen (Art. 84 Abs. 3 MWSTV)'
+  quelle: mwstv__art-84
+  zitat: Steuerpflichtige Personen, denen mehrere Saldosteuersätze bewilligt wurden, müssen die Erträge für jeden dieser Saldosteuersätze separat verbuchen.
+- thema: SSS ausgeschlossen bei Gruppenbesteuerung (Art. 77 Abs. 2 lit. c MWSTV)
+  quelle: mwstv__art-77
+  zitat: die Gruppenbesteuerung nach Artikel 13 MWSTG anwenden
+- thema: Bezugsteuer bei SSS zum gesetzlichen Steuersatz (Art. 91 MWSTV)
+  quelle: mwstv__art-91
+  zitat: müssen die Bezugsteuer in der entsprechenden Abrechnungsperiode zum hierfür geltenden gesetzlichen Steuersatz entrichten
 risiken:
 - text: MWST-Salden (Vorsteuer, Umsatzsteuer, Abrechnungskonto) stimmen nicht mit den Abrechnungen überein; Restsaldi aus Vorperioden, falscher Bilanzausweis der Forderung/Verbindlichkeit
     gegenüber der ESTV.
@@ -154,8 +206,8 @@ risiken:
   - RI
   quelle: hwp-bur-2023__rz-0358-s148
   zitat: Bei nicht oder nur teilweise abzugsberechtigten Vorsteuern (Vorsteuerkorrekturen und Vorsteuerkürzung) ist am Ende der Abrechnungsperiode eine Rückübertragung in den Aufwand
-- text: Vorsteuer auf Belegen geltend gemacht, die nicht auf die Gesellschaft lauten oder die Rechnungsangaben nach Art. 26 Abs. 2 MWSTG (u.a. MWST-Nr. des Leistungserbringers, Empfänger,
-    Steuersatz/-betrag) nicht enthalten.
+- text: 'Vorsteuer auf Belegen geltend gemacht, die nicht auf die Gesellschaft lauten oder die Rechnungsangaben nach Art. 26 Abs. 2 MWSTG (u.a. MWST-Nr. des Leistungserbringers, Empfänger,
+    Steuersatz/-betrag) nicht enthalten (fehlende Einzelangabe = Formmangel: Hinweis, Beurteilung WP; fehlende Identifikation der Gesellschaft = möglicher Fehler).'
   pruefziele:
   - EX
   - BE
@@ -268,7 +320,7 @@ unterlagen:
   quelle: hwp-bur-2023__rz-0354-s148
   zitat: Als unerlässliche Fälle gelten insbesondere Dokumentationsvorschriften, welche die Geltendmachung von Steuervorteilen bezwecken
 - dokument: Berechnung Privatanteile (Fahrzeug, Spesen, Naturalleistungen), Spesenreglement, Lohnausweise
-  zweck: Abrechnung Privatanteile (M2-103/M2-304, WP-Schritte – nur auf Anweisung)
+  zweck: Abrechnung Privatanteile (M2-103/M2-304, WP-Schritte – nur auf Anweisung); Abgleich mit Lohnausweisen (Schnittstelle R1)
   quelle: ser-2022__anh-d-s090-1
   zitat: Befragung der Unternehmensleitung, ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist
 - dokument: Berechnung Vorsteuerkorrektur/-kürzung (Schlüssel bei gemischter Verwendung, ausgenommene Umsätze, Subventionen)
@@ -315,7 +367,7 @@ bewertung:
   quelle: hwp-bur-2023__rz-0372-s152
   zitat: sind spätestens zum Zeitpunkt der Deklarationspflicht den entsprechenden Bilanzkonten zu belasten bzw. gutzuschreiben
 - regel: 'MWST-Gruppe: Solidarhaftung für die während der Mitgliedschaft entstandenen MWST-Schulden im Anhang offenlegen (Art. 959c Abs. 2 Ziff. 10 OR); nach Austritt Haftung nur noch
-    für Forderungen aus eigener Tätigkeit.'
+    für Forderungen aus eigener Tätigkeit, ausser bei Betreibung, Einschätzungsmitteilung oder angekündigter Kontrolle (Art. 22 Abs. 2 MWSTV).'
   quelle: hwp-bur-2023__rz-0370-s151
   zitat: Dieser Sachverhalt ist im Anhang der Jahresrechnungen der Gruppenmitglieder offenzulegen
 - regel: 'MWST-Gruppe: Offenlegung auch bei früherer Zugehörigkeit (PH 20, Anhang 2 B3).'
@@ -327,22 +379,35 @@ bewertung:
 - regel: 'MWST-Gruppe: gruppeninterne Umsätze buchmässig separat erfassen und in der Umsatzabstimmung des Mitglieds berücksichtigen.'
   quelle: hwp-bur-2023__rz-0369-s151
   zitat: Solche gruppeninternen Umsätze sind buchmässig separat zu erfassen
-- regel: Rückstellungsbedarf für MWST-Nachforderungen aus noch nicht verjährten Steuerperioden (Festsetzungsverjährung fünf Jahre) nach Art. 960e Abs. 2 OR beurteilen.
+- regel: 'Rückstellungsbedarf für MWST-Nachforderungen aus allen noch nicht rechtskräftig festgesetzten bzw. nicht verjährten Steuerperioden beurteilen (Art. 960e Abs. 2 OR): Festsetzungsverjährung
+    grundsätzlich 5 Jahre (Art. 42 Abs. 1 MWSTG); unterbrochen u.a. durch Einschätzungsmitteilung, Verfügung oder Ankündigung einer ESTV-Kontrolle, danach neue Frist von 2 Jahren (Abs.
+    2/3); absolut 10 Jahre (Abs. 6). Erkannte Mängel solcher Perioden muss das Unternehmen korrigieren (Art. 72 Abs. 2 MWSTG).'
   quelle: mwstg__art-42
   zitat: Das Recht, eine Steuerforderung festzusetzen, verjährt fünf Jahre nach Ablauf der Steuerperiode
-- regel: 'MWST-Risiken aus Verfahren: Rückstellung (Art. 960e Abs. 2 OR) oder Offenlegung im Anhang; sonst Zusatz mit weiteren Informationen im Revisionsbericht prüfen (Entscheid WP).'
+- regel: 'MWST-Risiken aus Verfahren: Rückstellung (Art. 960e Abs. 2 OR); Eventualverbindlichkeit im Anhang nur, wenn der Mittelabfluss unwahrscheinlich oder ausnahmsweise nicht verlässlich
+    schätzbar ist (Art. 959c Abs. 2 Ziff. 10 OR).'
+  quelle: hwp-bur-2023__rz-0516-s261
+  zitat: Nur in Ausnahmefällen kann die Verpflichtungshöhe nicht zuverlässig bestimmt werden.
+- regel: Zusatz mit weiteren Informationen (SER Ziff. 8.3.2.2) nur bei völlig offenem Verfahrensausgang UND angemessener Offenlegung im Anhang; ersetzt keine fehlende Rückstellung/Offenlegung
+    (Entscheid WP).
   quelle: ser-2022__8-3-2-t3
-  zitat: Zusätze mit weiteren Informationen dienen dazu, Sachverhalte hervorzuheben
+  zitat: dies immer unter der Voraussetzung, dass der Ausgang der hängigen Situation völlig offen ist
+- regel: 'Voraussetzung des Zusatzes (vorheriger Punkt): angemessene Offenlegung des Sachverhalts im Anhang (HWP ER Rz 139).'
+  quelle: hwp-er-2026__rz-0139-s204-t4
+  zitat: falls eine angemessene Offenlegung des Sachverhalts im Anhang erfolgt (objektive Unüberprüfbarkeit)
+- regel: 'Fehlen Rückstellung bzw. Offenlegung: dem WP als Hinweis vorlegen; der WP ermisst den möglichen Fehlbetrag und entscheidet über die Prüfungsaussage.'
+  quelle: hwp-er-2026__rz-0139-s204-t3
+  zitat: muss er ermessen, wie hoch der Fehlbetrag sein könnte
 - regel: 'Ergänzend (PH 20, Abschlussprüfung nach PS): Auseinandersetzung mit der Steuerbehörde kann wesentliche Unsicherheit begründen; PS-Begriffe «Absatz zur Hervorhebung»/«Vermerk»
     nicht für den SER-Bericht übernehmen.'
   quelle: ph-20-mwst-2016__c008-1
   zitat: Bei einer Auseinandersetzung zwischen Unternehmen und Steuerbehörden kann eine wesentliche Unsicherheit über den Verfahrensausgang bestehen.
 fallstricke:
-- text: 'Rollenverteilung: WP-Schritte (M2-102, -103, -104, -302, -303, -304) nur auf ausdrückliche Anweisung vorbereiten; ohne Anweisung kein Textfeld-Eintrag, Status «nicht bearbeitet
-    – WP-Schritt», Hinweise nur als Notiz oder Pendenz; Beurteilung immer beim WP.'
+- text: 'Rollenverteilung: WP-Schritte (M2-102, M2-103, M2-104, M2-302, M2-303, M2-304) nur auf ausdrückliche Anweisung vorbereiten; ohne Anweisung kein Textfeld-Eintrag, Status «nicht
+    bearbeitet – WP-Schritt», Hinweise nur als Notiz oder Pendenz; Beurteilung immer beim WP.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
-- text: 'Sonstige Schritte (4xx: M2-401 bis M2-408) nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen.'
+- text: 'Sonstige Schritte (4xx: M2-401, M2-402, M2-403, M2-404, M2-405, M2-406, M2-407, M2-408) nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: nur auf Anweisung, physische Tätigkeiten nie
 - text: SER Anhang D n) empfiehlt für die MWST nur die Abstimmung der Salden mit den Abrechnungen und das Vorhandensein der Umsatzabstimmung; Nachvollzug der Umsatzabstimmung, Abstimmung
@@ -372,31 +437,31 @@ fallstricke:
 - text: Die Umsatzabstimmung muss das Unternehmen erstellen; eine eigene Überleitung des Prüfers ersetzt sie nicht und ist höchstens Analytik auf Anweisung des WP (M2-302 ist WP-Schritt).
   quelle: ph-20-mwst-2016__c011-5
   zitat: Die Umsatzabstimmung ist vom Unternehmen innert 180 Tagen zu erstellen, und allfällige Abweichungen sind zu begründen.
-- text: 'Saldo 0 auf Vorsteuer-/Umsatzsteuerkonten per 31.12. ist noch kein Nachweis: Die Zahllast der letzten Periode liegt im Abrechnungskonto und ist mit der Abrechnung abzustimmen
-    (Praxis).'
+- text: 'Saldo 0 auf Vorsteuer-/Umsatzsteuerkonten bzw. auf «Geschuldete MWST» per 31.12. ist weder Nachweis noch Fehler: Die Zahllast der letzten Periode liegt oft im Abrechnungskonto
+    und ist mit der Abrechnung abzustimmen (M2-301).'
+  quelle: hwp-bur-2023__rz-0163-s193
+  zitat: aus der Mehrwertsteuerpflicht eine Forderung oder Verbindlichkeit, die dem Saldo geschuldeter Umsatzsteuern abzüglich erbrachter Vorsteuern entspricht
 - text: 'Bezugsteuer: Verzicht auf buchhalterische Erfassung nur, wenn der Grenzbetrag von CHF 10 000 nicht erreicht und keine Steuerpflicht gegeben ist.'
   quelle: hwp-bur-2023__rz-0362-s149
   zitat: Wird der Grenzbetrag von CHF 10 000 nicht erreicht und ist die Steuerpflicht nicht gegeben (Art. 10 MWSTG), kann auf eine buchhalterische Erfassung verzichtet werden.
 - text: Bei Steuerpflicht die Bezugsteuer fortlaufend erfassen (empfohlen), zwingend spätestens per Ende der Abrechnungsperiode.
   quelle: hwp-bur-2023__rz-0363-s150
   zitat: In allen anderen Fällen empfiehlt es sich, die sich aus den Bezügen von Dienstleistungen ergebenden Umsatzsteuern fortlaufend auf einem Passivkonto Umsatzsteuer zu erfassen.
-- text: 'Saldosteuersatzmethode: Vorsteuerkonten entfallen; Vorsteuerprüfungen (M2-401, M2-403) entfallen, stattdessen Ertragsarten je Saldosteuersatz auf separaten Ertragskonten prüfen.'
+- text: 'Saldosteuersatzmethode: Vorsteuerkonten entfallen; Vorsteuerprüfungen (M2-401, M2-403, M2-406 sowie der Vorsteuerkorrektur-Teil von M2-407) entfallen; Einfuhrsteuer ist Aufwand;
+    stattdessen Ertragsarten je Saldosteuersatz auf separaten Ertragskonten prüfen.'
   quelle: hwp-bur-2023__rz-0360-s149
   zitat: Die Aktivkonten «Vorsteuer» entfallen.
-- text: 'Saldosteuersatzmethode: M2-405 bleibt relevant – Bezugsteuer ist abzurechnen, aber ohne Vorsteuerabzug.'
+- text: 'Saldosteuersatzmethode: M2-405 bleibt relevant – Bezugsteuer ist zum gesetzlichen Steuersatz (Art. 91 MWSTV) abzurechnen, aber ohne Vorsteuerabzug.'
   quelle: hwp-bur-2023__rz-0362-s149
   zitat: sofern nicht mit der Saldosteuersatz- bzw. Pauschalsteuersatzmethode abgerechnet wird
 - text: Befreite Umsätze (Export) führen nicht zu einer Vorsteuerkorrektur, ausgenommene Umsätze schon – nicht verwechseln.
   quelle: treuhand-almanach-2026__s044-2
   zitat: Das Erzielen von befreiten Umsätzen führt zu keiner Vorsteuerkorrektur.
-- text: 'Aufbewahrung Immobilienunterlagen (Einlageentsteuerung/Eigenverbrauch): Art. 70 Abs. 3 MWSTG nennt 20 Jahre.'
+- text: 'Aufbewahrung Immobilienunterlagen (Einlageentsteuerung/Eigenverbrauch): 20 Jahre nach Art. 70 Abs. 3 MWSTG (massgebend); die 25 Jahre in PH 20 (Stand 2016) nicht verwenden.
+    Für die eingeschränkte Revision nur Hinweis, keine Feststellung.'
   quelle: mwstg__art-70
   zitat: Geschäftsunterlagen, die im Zusammenhang mit der Berechnung der Einlageentsteuerung und des Eigenverbrauchs von unbeweglichen Gegenständen benötigt werden, sind während 20 Jahren
     aufzubewahren
-- text: PH 20 (Stand 2016) nennt abweichend 25 Jahre für Immobilienbelege – Widerspruch offenlegen (beide Quellen nennen), nicht selbst auflösen; nach Quellenrang geht das Gesetz vor,
-    Entscheid WP.
-  quelle: ph-20-mwst-2016__c004-2
-  zitat: In der Schweiz gilt für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens 25 Jahren
 - text: 'Steuersätze nicht aus Vorjahren übernehmen: seit 1.1.2024 Normalsatz 8,10 %, reduzierter Satz 2,60 %, Sondersatz Beherbergung 3,80 % (relevant für M2-305 a). Sätze vor 2024:
     im Wiki nicht belegt.'
   quelle: treuhand-almanach-2026__s047-1
@@ -412,6 +477,8 @@ fallstricke:
     ergänzen.'
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
+- text: 'Schnittstellen (Praxis/intern): M2-301 ist die massgebende MWST-Saldenabstimmung; M1-301 (Abrechnungskonto, nur Bestand) und D1-302 f (Vorsteuer-/MWST-Guthaben) übernehmen das
+    Ergebnis als Verweis, keine zweite Feststellung zum selben Sachverhalt; MWST-Zahlungen in neuer Rechnung gehören zu M2 (nicht S1).'
 fragen_kunde:
 - frage: Liegt die Umsatzabstimmung (Finanzbuchhaltung ↔ deklarierte MWST-Abrechnungen) und die Vorsteuerabstimmung für das Geschäftsjahr bzw. das Vorjahr vor? Wer hat sie erstellt,
     wie wurden Differenzen begründet und wurde eine Korrekturabrechnung eingereicht?
@@ -469,17 +536,18 @@ testakte_2025:
   bezug: Lieferanten (In-/Ausland) für M2-305 f, M2-405 und M2-406
 schritte:
 - id: M2-101
-  vorgehen: 'Frage als Pendenz an die für Finanzen/MWST verantwortliche Person: Liegen Umsatz- und Vorsteuerabstimmung (Fibu ↔ deklarierte Abrechnungen) für das Geschäftsjahr bzw. Vorjahr
-    vor, wer hat sie erstellt, sind Differenzen begründet und korrigiert? Schriftliche Antwort auswerten, Abstimmung in M-Files suchen, Vorhandensein im Textfeld festhalten; Status höchstens
-    «teilweise bearbeitet». Nachvollzug (M2-302) nur falls vom WP angewiesen.'
+  vorgehen: '1) Umsatz- und Vorsteuerabstimmung (GJ, sonst Vorjahr) in M-Files suchen; 2) schriftliche Antwort (10.11) auswerten; 3) nur wenn Abstimmung oder Antwort fehlt: Frage als
+    Pendenz (Liegen Umsatz- und Vorsteuerabstimmung vor, wer hat sie erstellt, sind Differenzen begründet und korrigiert?). Vorhandensein im Textfeld festhalten; Status höchstens «teilweise
+    bearbeitet». Fehlt die GJ-Abstimmung, weil die Frist (Deklarationsfrist der Periode mit dem 180. Tag) noch läuft: keine Feststellung, VJ-Abstimmung einsehen, Pendenz für das GJ.
+    Nachvollzug (M2-302) nur falls vom WP angewiesen.'
   nachweise:
   - Schriftliche Antwort des Kunden (Pendenz/Kundenbefragung)
   - Umsatzabstimmung nach Art. 128 Abs. 2 MWSTV (M-Files)
   - Umsatzabstimmung des Vorjahres
   - MWST-Abrechnungen des Geschäftsjahres
   rechnen: ''
-  feststellung_wenn: Keine Umsatzabstimmung vorhanden bzw. Frist (Deklarationsfrist der Periode mit dem 180. Tag) verpasst, Differenzen unbegründet oder nicht korrigiert, oder schriftliche
-    Antwort fehlt (Pendenz).
+  feststellung_wenn: 'Keine Umsatzabstimmung vorhanden bzw. Frist (Deklarationsfrist der Periode mit dem 180. Tag) im Prüfungszeitpunkt bereits abgelaufen (meist nur beim Vorjahr; läuft
+    die GJ-Frist noch: keine Feststellung), Differenzen unbegründet oder nicht korrigiert, oder schriftliche Antwort fehlt (Pendenz).'
   fundstellen:
   - quelle: ser-2022__anh-d-s089-1
     zitat: Vorhandensein der MWST-Umsatzabstimmung
@@ -503,7 +571,7 @@ schritte:
   - Anhang der Jahresrechnung
   rechnen: ''
   feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Angaben widersprechen Abrechnungen/Verbuchung (z.B. Vorsteuerkonten trotz Saldosteuersatz), aktuelle oder frühere MWST-Gruppe
-    ohne Anhangangabe, oder Antwort fehlt.'
+    ohne Anhangangabe, Saldosteuersatz und MWST-Gruppe gleichzeitig angegeben (Art. 77 Abs. 2 lit. c MWSTV), oder Antwort fehlt.'
   fundstellen:
   - quelle: ser-2022__anh-d-s090-1
     zitat: Befragung nach der Art der MWST-Abrechnung (vereinnahmtes oder vereinbartes Entgelt) sowie allfälligen Sonderfällen (ausgenommene Umsätze, Saldosätze usw.)
@@ -519,6 +587,8 @@ schritte:
     zitat: Dieser Sachverhalt ist im Anhang der Jahresrechnungen der Gruppenmitglieder offenzulegen
   - quelle: ph-20-mwst-2016__c011-5
     zitat: Offenlegung allfällige aktuelle oder frühere Zugehörigkeit
+  - quelle: mwstv__art-77
+    zitat: die Gruppenbesteuerung nach Artikel 13 MWSTG anwenden
 - id: M2-103
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Weiter gehend
     (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Antwort zu Privatanteilen und Auslandsbezügen mit Privatanteilsbuchungen
@@ -571,15 +641,19 @@ schritte:
   - quelle: ser-2022__6-2-3
     zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt
 - id: M2-301
-  vorgehen: Salden aller MWST-Konten per Stichtag (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer) aus der Saldoliste erfassen und mit Zahllast/Guthaben der letzten Abrechnung
-    sowie offener Vorperioden abgleichen; Zahlung im Folgejahr prüfen. Abweichungen, Restsaldi und Bilanzausweis (Saldogrösse gegenüber ESTV, übrige kurzfristige Forderungen/Verbindlichkeiten)
-    im Textfeld dokumentieren. Abstimmung je Quartal (M2-303) nur falls vom WP angewiesen.
+  vorgehen: 'Salden aller MWST-Konten per Stichtag (Vorsteuer, Umsatzsteuer, Abrechnungskonto, Einfuhrsteuer) aus der Saldoliste erfassen und mit Zahllast/Guthaben der letzten Abrechnung
+    sowie offener Vorperioden abgleichen; Zahlung im Folgejahr prüfen. Massgebend ist der Nettosaldo gegenüber der ESTV, nicht der Saldo eines einzelnen Kontos. Abweichungen, Restsaldi
+    und Bilanzausweis (Saldogrösse gegenüber ESTV, übrige kurzfristige Forderungen/Verbindlichkeiten) im Textfeld dokumentieren. Abstimmung je Quartal (M2-303) nur falls vom WP angewiesen.
+    Abrechnung nach vereinnahmten Entgelten: MWST auf offenen Debitoren/Kreditoren ist noch nicht deklariert (Art. 40 Abs. 2 MWSTG) → als Überleitungsposten erklären, nicht als Differenz
+    werten. MWST-Gruppenmitglied: mit der internen MWST-Abrechnung (Art. 21 Abs. 2 MWSTV) und dem Kontokorrent Gruppenträger (Praxis/intern) abstimmen.'
   nachweise:
   - Saldoliste 31.12.
   - Kontoblätter MWST-Konten
   - MWST-Abrechnung letzte Periode inkl. Zahlungsbeleg
   rechnen: Σ Salden MWST-Konten (Umsatzsteuer – Vorsteuer ± Abrechnungskonto) = Zahllast bzw. Guthaben gemäss Abrechnung(en) der offenen Perioden; Differenz = 0
-  feststellung_wenn: Saldo weicht von der Abrechnung ab, unerklärte Restsaldi aus Vorperioden, Abrechnung fehlt oder Ausweis in falscher Bilanzposition.
+  feststellung_wenn: Summe aller MWST-Konten (Umsatzsteuer, Vorsteuer, Abrechnungs-, Einfuhrsteuerkonto) weicht von Zahllast/Guthaben der offenen Abrechnung(en) ab, unerklärte Restsaldi
+    aus Vorperioden, Abrechnung fehlt oder Nettosaldo in falscher Bilanzposition. KEINE Feststellung, wenn einzelne MWST-Konten (z.B. «Geschuldete MWST») 0 zeigen und die Zahllast im
+    Abrechnungskonto steht; keine Umbuchung zwischen MWST-Konten derselben Bilanzposition vorschlagen (Praxis/intern).
   fundstellen:
   - quelle: ser-2022__anh-d-s089-1
     zitat: Abstimmung der MWST-Forderungen und -Verbindlichkeiten mit den Abrechnungen
@@ -587,6 +661,11 @@ schritte:
     zitat: aus der Mehrwertsteuerpflicht eine Forderung oder Verbindlichkeit, die dem Saldo geschuldeter Umsatzsteuern abzüglich erbrachter Vorsteuern entspricht
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: mwstg__art-40
+    zitat: Im Falle der Abrechnung nach vereinnahmten Entgelten entsteht der Anspruch auf Vorsteuerabzug im Zeitpunkt der Bezahlung. Die Umsatzsteuerschuld entsteht mit der Vereinnahmung
+      des Entgelts.
+  - quelle: mwstv__art-21
+    zitat: Jedes Mitglied muss eine interne Mehrwertsteuerabrechnung erstellen, die in der Abrechnung der Mehrwertsteuergruppe zu konsolidieren ist.
 - id: M2-302
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Weiter gehend
     (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Umsatzabstimmung mit Ertragskonten (inkl. betriebsfremd/a.o.,
@@ -596,7 +675,8 @@ schritte:
   - Saldoliste Erfolgsrechnung
   - MWST-Abrechnungen aller Perioden
   - Belege zu Überleitungsposten
-  rechnen: Σ Ertragskonten Fibu ± Überleitungsposten = Σ deklarierter Umsatz (Ziff. 200) aller Perioden; Restdifferenz = 0
+  rechnen: 'Σ Ertragskonten Fibu ± Überleitungsposten = Σ deklarierter Umsatz (Ziff. 200) aller Perioden; Restdifferenz = 0; bei SSS: deklarierte Steuer = Σ steuerbare Entgelte inkl.
+    Steuer × bewilligter SSS (Art. 37 Abs. 2 MWSTG)'
   feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: unerklärte Differenz Fibu ↔ deklarierter Umsatz, Umsatzabstimmung fehlt oder steuerbare Umsätze (z.B. Anlageverkäufe) nicht deklariert.'
   fundstellen:
   - quelle: ser-2022__anh-d-s089-1
@@ -613,6 +693,9 @@ schritte:
     zitat: Bei Nichtberücksichtigen dieser Anforderungen besteht die Gefahr, dass die Umsatzabstimmung nicht lückenlos erstellt werden kann, was eine Nachdeklaration erfordern kann.
   - quelle: hwp-bur-2023__rz-0369-s151
     zitat: Solche gruppeninternen Umsätze sind buchmässig separat zu erfassen
+  - quelle: mwstg__art-37
+    zitat: wird die Steuerforderung durch Multiplikation des Totals aller in einer Abrechnungsperiode erzielten steuerbaren Entgelte, einschliesslich Steuer, mit dem von der ESTV bewilligten
+      Saldosteuersatz ermittelt
 - id: M2-303
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Weiter gehend
     (SER Anh. D n): nur bei Hinweisen auf wesentliche Fehlaussagen/erhöhtem inhärentem Risiko; begründen. Auf Anweisung: Kontoblätter Vorsteuer/Umsatzsteuer je Quartal auf Übertrag (Saldo
@@ -622,7 +705,7 @@ schritte:
   - MWST-Abrechnungen je Quartal
   - Zahlungsbelege ESTV
   rechnen: 'Je Quartal: Umsatzsteuer gemäss Konto = Umsatzsteuer gemäss Abrechnung; Σ Vorsteuer gemäss Konten = Vorsteuer gemäss Abrechnung; Saldo Vorsteuer-/Umsatzsteuerkonten per Quartalsende
-    = 0'
+    = 0 (bei vereinnahmten Entgelten: MWST auf offenen Posten als Überleitung, Art. 40 Abs. 2 MWSTG)'
   feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Konten per Periodenende nicht ausgeglichen, Quartalsbeträge weichen von der Abrechnung ab oder Zahllast nicht bezahlt bzw. nicht
     verbucht.'
   fundstellen:
@@ -636,6 +719,9 @@ schritte:
     zitat: spätestens aber auf Ende einer Abrechnungsperiode, auf die Konten Umsatzsteuer bzw. Vorsteuer übertragen
   - quelle: hwp-bur-2023__rz-0367-s151
     zitat: Aus der Vorsteuerabstimmung muss ersichtlich sein, dass die Vorsteuern gemäss Vorsteuerkonten oder sonstigen Aufzeichnungen mit den deklarierten Vorsteuern abgestimmt wurden.
+  - quelle: mwstg__art-40
+    zitat: Im Falle der Abrechnung nach vereinnahmten Entgelten entsteht der Anspruch auf Vorsteuerabzug im Zeitpunkt der Bezahlung. Die Umsatzsteuerschuld entsteht mit der Vereinnahmung
+      des Entgelts.
 - id: M2-304
   vorgehen: 'WP-Schritt: nur auf ausdrückliche Anweisung; sonst «nicht bearbeitet – WP-Schritt», Hinweise aus M2-101/301/305 nur als Notiz «Schlussbesprechung»/Pendenz. Auf Anweisung:
     aus Kontoblättern Fahrzeug, Spesen und Lohn die Privatanteile ermitteln und prüfen, ob darauf MWST abgerechnet bzw. die Vorsteuer korrigiert und deklariert wurde; Berechnung des
@@ -644,8 +730,9 @@ schritte:
   - Kontoblätter Fahrzeug-, Spesen- und Lohnkonten
   - Berechnung Privatanteile / Lohnausweise
   - MWST-Abrechnungen (Deklaration Privatanteile)
-  rechnen: 'Berechnung des Kunden nachrechnen (Praxis, im Wiki ohne Fundstelle): Nettobasis: MWST = Betrag × Satz; Bruttobasis (inkl. MWST): MWST = Betrag × Satz/(100 + Satz); Vergleich
-    mit gebuchtem und deklariertem Betrag'
+  rechnen: 'Bemessungsgrundlage für Leistungen an Personal (auch mitarbeitende Aktionäre), die im Lohnausweis zu deklarieren sind = Betrag, der für die direkten Steuern massgebend ist;
+    Pauschalen der direkten Steuern zulässig (Art. 47 Abs. 2, 4, 5 MWSTV). Steuer: Nettobasis MWST = Betrag × Satz; Betrag inkl. MWST: MWST = Betrag × Satz/(100 + Satz) (Umrechnung:
+    Praxis). Vergleich mit gebuchtem und deklariertem Betrag.'
   feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Privatnutzung oder Privatanteile vorhanden, aber keine MWST bzw. Vorsteuerkorrektur deklariert, oder Berechnung nicht nachvollziehbar.'
   fundstellen:
   - quelle: ser-2022__anh-d-s090-1
@@ -656,10 +743,19 @@ schritte:
     zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Das Nachrechnen bzw. die rechnerische Prüfung ist eine wichtige Prüfungshandlung im Rahmen der Detailprüfungen.
+  - quelle: mwstv__art-47
+    zitat: Leistungen des Arbeitgebers an das Personal, die im Lohnausweis zu deklarieren sind, gelten als entgeltlich erbracht. Die Steuer ist von dem Betrag zu berechnen, der auch
+      für die direkten Steuern massgebend ist.
+  - quelle: mwstv__art-47
+    zitat: Soweit bei den direkten Steuern Pauschalen für die Ermittlung von Lohnanteilen zulässig sind, die auch für die Bemessung der Mehrwertsteuer dienlich sind, können diese für
+      die Mehrwertsteuer ebenfalls angewendet werden.
+  - quelle: mwstv__art-47
+    zitat: Für die Anwendung der Absätze 2–4 ist nicht erheblich, ob es sich dabei um eng verbundene Personen nach Artikel 3 Buchstabe h MWSTG handelt.
 - id: M2-305
   vorgehen: 'Spezialitätenliste a–h anhand Branche, Konten, Verträgen und Kundenantworten durchgehen; je Punkt «zutreffend/nicht zutreffend» begründen. Zutreffende belegen: a) Satz je
-    Ertragsart, b) Ausfuhrnachweis, c) Bruttoverbuchung, d) Konditionen Nahestehender, e) ausgenommene Umsätze (Deklaration, Option, Vorsteuerkorrektur), f) Bezugsteuer, g) Meldeverfahren,
-    h) Nutzungsänderungen. Risiken (Rückstellung, Anhang) dem WP vorlegen; 4xx nur auf Anweisung.'
+    Ertragsart, b) Ausfuhrnachweis, c) Bruttoverbuchung, bei Tausch Marktwert als Entgelt (Art. 24 Abs. 3 MWSTG), d) Entgelt an Nahestehende = Wert unter unabhängigen Dritten (Art. 24
+    Abs. 2 MWSTG), e) ausgenommene Umsätze (Deklaration, Option, Vorsteuerkorrektur), f) Bezugsteuer, g) Meldeverfahren, h) Nutzungsänderungen. Risiken (Rückstellung, Anhang) dem WP
+    vorlegen; 4xx nur auf Anweisung.'
   nachweise:
   - Spezialitätenliste (Arbeitspapier, Textfeld)
   - Ertrags-/Aufwandskonten und Verträge
@@ -680,10 +776,14 @@ schritte:
     zitat: Als unerlässliche Fälle gelten insbesondere Dokumentationsvorschriften, welche die Geltendmachung von Steuervorteilen bezwecken
   - quelle: hwp-bur-2023__rz-0366-s150
     zitat: Aus Sicht der Mehrwertsteuer ist das Bruttoprinzip zwingend einzuhalten.
+  - quelle: mwstg__art-24-t1
+    zitat: Bei Tauschverhältnissen gilt der Marktwert jeder Leistung als Entgelt für die andere Leistung.
+  - quelle: mwstg__art-24-t1
+    zitat: Bei Leistungen an eng verbundene Personen (Art. 3 Bst. h) gilt als Entgelt der Wert, der unter unabhängigen Dritten vereinbart würde.
   - quelle: mwstg__art-22
     zitat: jede von der Steuer ausgenommene Leistung durch offenen Ausweis der Steuer oder durch Deklaration in der Abrechnung versteuern (Option)
-  - quelle: treuhand-almanach-2026__s043-1
-    zitat: Ausgenommene Umsätze führen zu einer Vorsteuerkorrektur.
+  - quelle: mwstg__art-29
+    zitat: die für die Erbringung von Leistungen, die von der Steuer ausgenommen sind und für deren Versteuerung nicht optiert wurde, verwendet werden
   - quelle: mwstg__art-38
     zitat: so hat die steuerpflichtige Person ihre Abrechnungs- und Steuerentrichtungspflicht in den folgenden Fällen durch Meldung zu erfüllen
   - quelle: hwp-bur-2023__rz-0372-s152
@@ -711,15 +811,18 @@ schritte:
     zitat: Vorsteuerkorrektur bei wesentlichen ausgenommenen Umsätzen
 - id: M2-402
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: bewusst ausgewählte Debitorenrechnungen und Vorsteuerbelege auf die Angaben
-    nach Art. 26 Abs. 2 MWSTG durchsehen (Leistungserbringer mit MWST-Nr., Empfänger, Datum, Leistung, Entgelt, Steuersatz/-betrag). Mängel je Beleg im Textfeld, fraglicher Vorsteuerabzug
-    als Pendenz; Beurteilung WP.'
+    nach Art. 26 Abs. 2 MWSTG durchsehen (Leistungserbringer mit MWST-Nr., Empfänger, Datum, Leistung, Entgelt, Steuersatz/-betrag; bei Entgelt inkl. Steuer genügt der Satz). Mängel
+    je Beleg im Textfeld, fraglicher Vorsteuerabzug als Pendenz; Beurteilung WP.'
   nachweise:
   - Ausgewählte Debitorenrechnungen
   - Ausgewählte Kreditoren-/Vorsteuerbelege
   - Kontoblätter Vorsteuer
   rechnen: Steuerbetrag = Nettoentgelt × ausgewiesener Steuersatz (Rundungstoleranz); Brutto = Netto + Steuer
-  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Vorsteuer auf Belegen, die nicht auf die Gesellschaft lauten, ohne MWST-Nr./Steuerangaben oder rechnerisch falsch; Debitorenrechnungen
-    ohne korrekte MWST-Angaben.'
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Vorsteuer auf Belegen, die nicht auf die Gesellschaft lauten oder rechnerisch falsch sind; Debitorenrechnungen ohne korrekte
+    MWST-Angaben. Fehlt nur ein Element nach Art. 26 Abs. 2 lit. a–f MWSTG («in der Regel», z.B. MWST-Nr.): Hinweis bzw. Pendenz, keine Wesentliche Feststellung. Bei erkennbar eingeforderter
+    MWST eines eingetragenen Leistungserbringers ist der Vorsteuerabzug nicht allein wegen eines Formmangels ausgeschlossen (Art. 81 Abs. 3 MWSTG, Art. 59 MWSTV) – Beurteilung WP. Weiterhin
+    als mögliche Feststellung behandeln: Beleg identifiziert die Gesellschaft nicht als Empfängerin, Leistungserbringer nicht eingetragen (Art. 59 Abs. 2 MWSTV) oder Betrag rechnerisch
+    falsch.'
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
@@ -731,10 +834,23 @@ schritte:
     zitat: Belegtext (Umschreibung des Geschäftsvorfalls, Firmenanschrift)
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+  - quelle: mwstg__art-26
+    zitat: und in der Regel folgende Elemente enthalten
+  - quelle: mwstg__art-26
+    zitat: Die Rechnung muss den Leistungserbringer oder die Leistungserbringerin, den Leistungsempfänger oder die Leistungsempfängerin und die Art der Leistung eindeutig identifizieren
+  - quelle: mwstg__art-26
+    zitat: schliesst das Entgelt die Steuer ein, so genügt die Angabe des anwendbaren Steuersatzes
+  - quelle: mwstg__art-81
+    zitat: Es ist unzulässig, Nachweise ausschliesslich vom Vorliegen bestimmter Beweismittel abhängig zu machen.
+  - quelle: mwstv__art-59
+    zitat: Die Inlandsteuer gilt als in Rechnung gestellt, wenn der Leistungserbringer oder die Leistungserbringerin für den Leistungsempfänger oder die Leistungsempfängerin erkennbar
+      von diesem oder dieser die Mehrwertsteuer eingefordert hat.
+  - quelle: mwstv__art-59
+    zitat: Weiss er oder sie aber, dass die Person, die die Mehrwertsteuer überwälzt hat, nicht als steuerpflichtige Person eingetragen ist, so ist der Vorsteuerabzug ausgeschlossen.
 - id: M2-403
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: bewusste Auswahl aus den Vorsteuerkonten (hohe Beträge, Investitionen,
-    Auslandsbezüge, ungewöhnliche Buchungen) begründen; je Posten Beleg einsehen, Vorsteuer nachrechnen, Kontierung, Periode und Abzugsberechtigung prüfen. Ergebnis je Posten tabellarisch
-    im Textfeld; keine Hochrechnung.'
+    Auslandsbezüge, ungewöhnliche Buchungen) begründen; je Posten Beleg einsehen, Vorsteuer nachrechnen, Kontierung, Periode (vereinbarte Entgelte: Empfang der Rechnung; vereinnahmte:
+    Bezahlung, Art. 40 Abs. 1/2 MWSTG) und Abzugsberechtigung prüfen. Ergebnis je Posten tabellarisch im Textfeld; keine Hochrechnung.'
   nachweise:
   - Kontoblätter Vorsteuerkonten
   - Ausgewählte Kreditorenbelege
@@ -755,6 +871,11 @@ schritte:
     zitat: Vorsteuer auf Investitionen und übrigem Betriebsaufwand
   - quelle: mwstg__art-29
     zitat: die für die Erbringung von Leistungen, die von der Steuer ausgenommen sind und für deren Versteuerung nicht optiert wurde, verwendet werden
+  - quelle: mwstg__art-40
+    zitat: Im Falle der Abrechnung nach vereinbarten Entgelten entsteht der Anspruch auf Vorsteuerabzug im Zeitpunkt des Empfangs der Rechnung.
+  - quelle: mwstg__art-40
+    zitat: Im Falle der Abrechnung nach vereinnahmten Entgelten entsteht der Anspruch auf Vorsteuerabzug im Zeitpunkt der Bezahlung. Die Umsatzsteuerschuld entsteht mit der Vereinnahmung
+      des Entgelts.
 - id: M2-404
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: Kontenplan mit MWST-Codes anfordern (Pendenz) und durchsehen: Ertragskonten
     je Steuersatz bzw. befreit/ausgenommen getrennt, Aufwand-/Investitionskonten mit passendem Vorsteuercode, keine Erträge auf Aufwandkonten, Saldosteuersatz-Ertragsarten separat. Auffällige
@@ -773,6 +894,8 @@ schritte:
     zitat: Sämtliche Erträge (Umsätze gemäss Definition der Mehrwertsteuer) sollten auf separaten, dafür vorgesehenen Ertragskonten verbucht werden.
   - quelle: hwp-bur-2023__rz-0354-s148
     zitat: so einzurichten hat, dass sich die für die Abrechnung der Mehrwertsteuer massgebenden Tatsachen zuverlässig ermitteln lassen
+  - quelle: mwstv__art-84
+    zitat: Steuerpflichtige Personen, denen mehrere Saldosteuersätze bewilligt wurden, müssen die Erträge für jeden dieser Saldosteuersätze separat verbuchen.
   - quelle: hwp-bur-2023__rz-0361-s149
     zitat: die Ertragsarten, welche unterschiedlichen Saldosteuersätzen unterliegen, auf jeweils separaten Ertragskonten zu erfassen sind
 - id: M2-405
@@ -783,8 +906,8 @@ schritte:
   - Kreditorenjournal / Liste ausländische Lieferanten
   - Rechnungen ausländischer Dienstleister
   - MWST-Abrechnungen (Bezugsteuer, Vorsteuer)
-  rechnen: Bezugsteuer = Σ Dienstleistungsbezüge Ausland in CHF (ESTV-Kurs) × Steuersatz; Vergleich mit Deklaration; Vorsteuer aus Bezugsteuer ≤ deklarierte Bezugsteuer (bei Saldosteuersatz
-    = 0)
+  rechnen: Bezugsteuer = Σ Dienstleistungsbezüge Ausland in CHF (ESTV-Monatsmittel- oder Tageskurs bzw. Konzernkurs; Methode mind. eine Steuerperiode beibehalten, Art. 45 Abs. 3–5 MWSTV)
+    × gesetzlicher Steuersatz (auch bei SSS, Art. 91 MWSTV); Vergleich mit Deklaration; Vorsteuer aus Bezugsteuer ≤ deklarierte Bezugsteuer (bei Saldosteuersatz = 0)
   feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: Dienstleistungsbezüge aus dem Ausland ohne Bezugsteuerdeklaration oder Vorsteuer ohne entsprechende Bezugsteuer geltend gemacht.'
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
@@ -800,10 +923,19 @@ schritte:
       Steuerschuld erfolgen.
   - quelle: hwp-bur-2023__rz-0364-s150
     zitat: unter Verwendung eines zulässigen, von der Eidgenössischen Steuerverwaltung publizierten Umrechnungskurses zu erfolgen
+  - quelle: mwstv__art-45
+    zitat: Die Umrechnung erfolgt nach dem von der ESTV veröffentlichten Wechselkurs, wobei wahlweise der Monatsmittelkurs oder der Tageskurs für den Verkauf von Devisen verwendet werden
+      kann.
+  - quelle: mwstv__art-45
+    zitat: Steuerpflichtige Personen, die Teil eines Konzerns sind, können für die Umrechnung ihren Konzernumrechnungskurs verwenden.
+  - quelle: mwstv__art-45
+    zitat: Das gewählte Vorgehen (Monatsmittel-, Tages- oder Konzernkurs) ist während mindestens einer Steuerperiode beizubehalten.
+  - quelle: mwstv__art-91
+    zitat: müssen die Bezugsteuer in der entsprechenden Abrechnungsperiode zum hierfür geltenden gesetzlichen Steuersatz entrichten
 - id: M2-406
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: Wareneinfuhren identifizieren (ausländische Lieferanten, Speditionsrechnungen,
     ZAZ-Konto); prüfen, ob die veranlagte Einfuhrsteuer als Vorsteuer (nicht als Aufwand) und nicht doppelt über die Spediteurrechnung gebucht ist und das Konto Einfuhrsteuer per Periodenende
-    ausgeglichen ist. Doppelerfassung: Praxis ohne Fundstelle, Beurteilung WP.'
+    ausgeglichen ist. Doppelerfassung: Praxis ohne Fundstelle, Beurteilung WP. Abzug am Ende der Abrechnungsperiode, in der die Einfuhrsteuer festgesetzt wurde (Art. 40 Abs. 4 MWSTG).'
   nachweise:
   - Veranlagungsverfügungen MWST (Zoll)
   - Rechnungen der Spediteure/Transporteure
@@ -823,6 +955,8 @@ schritte:
     zitat: Kontierung
   - quelle: hwp-bur-2023__rz-0218-s207
     zitat: nicht rückforderbare Mehrwertsteuern
+  - quelle: mwstg__art-40
+    zitat: Der Anspruch auf Vorsteuerabzug aufgrund der Einfuhrsteuer entsteht am Ende der Abrechnungsperiode, in der die Steuer festgesetzt wurde.
 - id: M2-407
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: Ertragskonten auf ausgenommene Umsätze (z.B. Überlassung von Grundstücken,
     Geld- und Kapitalverkehr) durchsehen; prüfen, ob sie als ausgenommen deklariert (bzw. optiert) sind und die Vorsteuer auf zugehörigen Aufwänden korrigiert/gekürzt und in den Aufwand
@@ -832,18 +966,21 @@ schritte:
   - MWST-Abrechnungen (ausgenommene Umsätze, Vorsteuerkorrekturen)
   - Berechnung Vorsteuerkorrektur/-kürzung des Kunden
   rechnen: Vorsteuerkorrektur = Vorsteuer auf gemischt verwendeten Aufwänden × Anteil ausgenommene Verwendung (Schlüssel gemäss Kunde); Vergleich mit Deklaration
-  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: ausgenommene Umsätze vorhanden, aber nicht deklariert oder ohne Vorsteuerkorrektur/-kürzung; Korrekturschlüssel nicht nachvollziehbar.'
+  feststellung_wenn: 'Nur bei Bearbeitung auf Anweisung: ausgenommene Umsätze vorhanden, aber nicht deklariert oder ohne Vorsteuerkorrektur/-kürzung; Korrekturschlüssel nicht nachvollziehbar;
+    bei eigenen Berechnungen nicht umfassend belegt oder nicht plausibilisiert (Art. 67 MWSTV).'
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: nur auf Anweisung, physische Tätigkeiten nie
-  - quelle: treuhand-almanach-2026__s043-1
-    zitat: Ausgenommene Umsätze führen zu einer Vorsteuerkorrektur.
+  - quelle: mwstg__art-29
+    zitat: die für die Erbringung von Leistungen, die von der Steuer ausgenommen sind und für deren Versteuerung nicht optiert wurde, verwendet werden
   - quelle: mwstg__art-30
     zitat: so hat sie den Vorsteuerabzug nach dem Verhältnis der Verwendung zu korrigieren
   - quelle: hwp-bur-2023__rz-0358-s148
     zitat: Bei nicht oder nur teilweise abzugsberechtigten Vorsteuern (Vorsteuerkorrekturen und Vorsteuerkürzung) ist am Ende der Abrechnungsperiode eine Rückübertragung in den Aufwand
   - quelle: ph-20-mwst-2016__c011-5
     zitat: Vorsteuerkorrektur bei wesentlichen ausgenommenen Umsätzen
+  - quelle: mwstv__art-67
+    zitat: so muss sie die Sachverhalte, die ihren Berechnungen zugrunde liegen, umfassend belegen sowie eine Plausibilitätsprüfung durchführen
 - id: M2-408
   vorgehen: 'Sonstige (4xx) – nur auf Anweisung des WP; ohne Anweisung bleibt der Schritt offen. Auf Anweisung: Frage als Pendenz an die MWST-verantwortliche Person (Probleme, Korrekturabrechnungen,
     verspätete Abrechnungen, Verzugszinsen, Rückfragen ESTV); Antwort mit Erkenntnissen aus den bearbeiteten M2-Schritten abgleichen und offene Punkte (Nachforderung, Rückstellung, Anhang,

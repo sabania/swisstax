@@ -90,7 +90,7 @@ risiken:
   - PA
   quelle: hwp-bur-2023__rz-0261-s216
   zitat: Oder die Rechnungsabgrenzungsposten werden belassen und beim nächsten Zwischen- oder Jahresabschluss, falls erforderlich, an die aktuelle Situation angepasst.
-- text: 'Fehlerhafter Ausweis: Saldierung mit passiven Abgrenzungen, Vermischung mit Anzahlungen oder langfristigen Anteilen.'
+- text: 'Fehlerhafter Ausweis: Saldierung mit passiven Abgrenzungen oder falsche Fristigkeit (Anteile, die erst später als 12 Monate nach dem Stichtag realisiert werden, im Umlaufvermögen).'
   pruefziele:
   - DO
   quelle: hwp-bur-2023__rz-0264-s216
@@ -243,8 +243,8 @@ fallstricke:
 - text: 'E1-303 bis E1-305 sind nach SER Anhang D weitergehende Prüfungshandlungen: vor allem bei angenommenen wesentlichen Fehlaussagen oder erhöhtem inhärentem Risiko in der Position.'
   quelle: ser-2022__anh-d-s080-1
   zitat: wesentliche Fehlaussagen angenommen werden müssen oder ein erhöhtes inhärentes Risiko für eine Fehlaussage in einer Position der Jahresrechnung besteht
-- text: 'Agentengrenze: Ob der Agent WP-Schritte vorbereitet, ist offen. Der Agent stellt das erhöhte Risiko nicht selbst fest; WP-Schritte nur auf Anweisung des WP bzw. gemäss Risikobeurteilung
-    des WP (3.1), sonst offen lassen.'
+- text: 'Agentengrenze: Ob der Agent WP-Schritte vorbereitet, ist offen. Der Agent stellt das erhöhte Risiko nicht selbst fest; WP-Schritte nur auf ausdrückliche Anweisung des WP; ein
+    erhöhtes Risiko in 3.1 genügt allein nicht (dann nur Notiz «Pendenz» an den WP).'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: 'Mehrjährige Software-/Lizenzzahlungen: prüfen, ob eine Abgrenzung oder ein immaterieller Wert vorliegt und ob der Nutzen im Folgejahr tatsächlich anfällt (Praxis, keine Quelle).'
@@ -329,9 +329,10 @@ schritte:
   - quelle: hwp-bur-2023__rz-0262-s216
     zitat: durch Vergleich mit den im Vorjahr ausgewiesenen Rechnungsabgrenzungen
 - id: E1-202
-  vorgehen: Zugehörige Aufwands- und Ertragskonten (Versicherungsprämien, Miete, Software/Lizenzen, Wartung, Zins-, Miet- und Provisionsertrag) aus der Saldoliste LJ/VJ vergleichen,
+  vorgehen: 'Zugehörige Aufwands- und Ertragskonten (Versicherungsprämien, Miete, Software/Lizenzen, Wartung, Zins-, Miet- und Provisionsertrag) aus der Saldoliste LJ/VJ vergleichen,
     Erwartung aus Vorjahr und Verträgen bilden und Abgrenzungsbetrag plausibilisieren. Wesentliche Abweichungen auflisten und als Frage zur Besprechung mit der Unternehmensleitung (Pendenz,
-    Besprechung durch WP) erfassen; Einfluss stiller Reserven beachten.
+    Besprechung durch WP) erfassen; Einfluss stiller Reserven beachten. Solange keine schriftliche Erklärung (10.11) zu den wesentlichen Abweichungen vorliegt: Status höchstens «teilweise
+    bearbeitet», Frage als Notiz «Pendenz». Ohne wesentliche Abweichungen entfällt die Besprechung.'
   nachweise:
   - Saldoliste Erfolgsrechnung 2025 mit Vorjahr
   - Verträge zu wiederkehrenden Aufwänden/Erträgen
@@ -343,6 +344,8 @@ schritte:
     zitat: Vergleich der Salden zugehöriger Ertrags- und Aufwandskonten mit denjenigen vorangegangener Perioden; Besprechung wesentlicher Abweichungen mit der Unternehmensleitung
   - quelle: hwp-er-2026__rz-0110-s199
     zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: höchstens «teilweise bearbeitet»
 - id: E1-203
   vorgehen: 'Liste Nahestehender (Aktionäre, VR, GL, Beteiligungen) aus Unternehmensinformationen, HR-Auszug, Aktienbuch, GV-/VR-Protokollen erstellen, mit Gegenparteien der Detailaufstellung
     1300 abgleichen. Bei Treffern wirtschaftlichen Hintergrund (Verpflichtung der Gesellschaft?) und Drittvergleich beurteilen; prüfen, ob in Wirklichkeit eine Forderung (Vorschuss,
@@ -353,8 +356,9 @@ schritte:
   - Belege/Verträge der Positionen ggü. Nahestehenden
   - Vollständigkeitserklärung (nahestehende Personen)
   rechnen: Summe Abgrenzungen ggü. Nahestehenden = Summe Positionen der Detailaufstellung 1300 mit Gegenpartei auf Liste Nahestehender; Anteil am Saldo 1300 in %
-  feststellung_wenn: '(a) Position ggü. Nahestehenden ist eine Forderung (Vorschuss/Darlehen): umgliedern, gesondert ausweisen; (b) wesentliche Vorauszahlung ohne Geschäftsgrund oder
-    nicht drittkonform; (c) Gegenpartei unklar (Pendenz).'
+  feststellung_wenn: '(a) Position ggü. Nahestehenden ist in Wirklichkeit eine Forderung bzw. ein Darlehen (Vorschuss/Darlehen): Umgliederung in die zutreffende Forderungs- bzw. Darlehensposition,
+    bei Beteiligten/Organen/Beteiligungsunternehmen gesondert in Bilanz oder Anhang (Art. 959a Abs. 4 OR) – nur als Buchungsvorschlag in Notiz «Wesentliche Feststellungen», keine Buchung,
+    Entscheid WP; (b) wesentliche Vorauszahlung ohne Geschäftsgrund oder nicht drittkonform; (c) Gegenpartei unklar (Pendenz).'
   fundstellen:
   - quelle: hwp-er-2026__rz-0161-s212
     zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
@@ -363,7 +367,11 @@ schritte:
   - quelle: hwp-er-2026__rz-0161-s212
     zitat: Beurteilung der (Transfer-)Preise der jeweiligen Geschäftsvorfälle mittels Drittvergleichs
   - quelle: hwp-bur-2023__rz-0174-s195
+    zitat: sind jeweils gesondert in der Bilanz oder im Anhang auszuweisen
+  - quelle: hwp-bur-2023__rz-0174-s195
     zitat: Auf eine entsprechende Aufgliederung bei den aktiven und passiven Rechnungsabgrenzungen kann verzichtet werden
+  - quelle: hwp-bur-2023__rz-0174-s195
+    zitat: da diese keine Forderungen und Verbindlichkeiten im Sinne der Mindestgliederungsvorschriften von Art. 959a Abs. 1 und Abs. 2 OR darstellen
   - quelle: or__art-959a-t2
     zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
   - quelle: ser-2022__anh-e-s103-2
@@ -394,7 +402,9 @@ schritte:
   - Zahlungsbelege 2025
   - Zahlungseingänge 2026 (antizipative Aktiven)
   - Detailaufstellung 1300
-  rechnen: Abgrenzung = Rechnungsbetrag × Tage (Monate) Leistungszeitraum nach 31.12.2025 / Tage (Monate) gesamter Leistungszeitraum; Differenz zum gebuchten Betrag
+  rechnen: 'Transitorisch (2025 bezahlt, Leistung 2026): Abgrenzung = Rechnungsbetrag × Tage Leistungszeitraum nach 31.12.2025 / Tage gesamter Leistungszeitraum. Antizipativ (Ertrag
+    2025, Geldeingang 2026, z.B. Marchzins, Miete, Bonus): Abgrenzung = Ertrag der Abrechnungsperiode × Tage der Periode bis 31.12.2025 / Tage gesamte Abrechnungsperiode. Zähler und
+    Nenner in derselben Einheit (Tage; bei Perioden in ganzen Monaten Monate). Differenz zum gebuchten Betrag mit `rechne`'
   feststellung_wenn: Beleg fehlt oder weicht ab; Leistungszeitraum ganz/teilweise 2025; Geldeingang zweifelhaft oder kein künftiger Nutzen; wesentliche Rechendifferenz.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0263-s216
@@ -405,10 +415,15 @@ schritte:
     zitat: Beurteilung der Notwendigkeit einer Wertberichtigung durch Prüfung der Zahlungskonditionen oder dem nachträglichen Eingang der Zahlungen
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Bei der Belegprüfung ist sicherzustellen, dass die Zahlen und die weiteren Angaben bei der erstmaligen Erfassung im System des Rechnungswesens vollständig und richtig sind.
+  - quelle: hwp-bur-2023__rz-0256-s215
+    zitat: 'Antizipative Aktiven: Erträge des alten Jahres, die erst im neuen Jahr zu Einnahmen führen'
+  - quelle: hwp-bur-2023__rz-0262-s216
+    zitat: im Zusammenhang mit der Beurteilung von Aktiv- und Passivposten (beispielsweise Marchzinsen)
 - id: E1-303
-  vorgehen: 'Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. wenn seine Risikobeurteilung (3.1) ein erhöhtes inhärentes Risiko für aRA ausweist;
-    sonst offen lassen. Kontoblätter typischer Konten (Versicherungen, Miete, Leasing, Lizenzen/Wartung; Zins-, Miet-, Provisionsertrag, Boni) durchsehen: Buchungen Okt.–Dez. mit Leistung
-    2026 ohne Abgrenzung, Ertrag 2025 ohne Erfassung auflisten. Fehlen Kontoblätter: PBC-Vorschlag.'
+  vorgehen: 'WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur Notiz «Pendenz»:
+    «Risiko 3.1 erhöht – WP: E1-303 anordnen?». Ohne Anweisung: nicht bearbeiten, kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt». Mit Anweisung: Kontoblätter typischer
+    Konten (Versicherungen, Miete, Leasing, Lizenzen/Wartung; Zins-, Miet-, Provisionsertrag, Boni) durchsehen: Buchungen Okt.–Dez. mit Leistung 2026 ohne Abgrenzung, Ertrag 2025 ohne
+    Erfassung auflisten. Fehlen Kontoblätter: PBC-Vorschlag.'
   nachweise:
   - Kontoblätter Aufwands- und Ertragskonten 2025
   - Rechnungen Okt.–Dez. 2025
@@ -426,10 +441,15 @@ schritte:
     zitat: mittels Durchsicht der einzelnen Aufwands- und Ertragskonten im Hinblick auf die richtige Periodenabgrenzung
   - quelle: hwp-er-2026__rz-0124-s202
     zitat: bestimmte Aufwands- oder Ertragskonten
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: E1-304
-  vorgehen: 'Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. bei erhöhtem inhärentem Risiko gemäss Risikobeurteilung des WP (3.1); sonst offen lassen.
-    Wesentliche Positionen mit Verträgen abstimmen (Police, Lizenz-, Miet-, Leasing-, Wartungsvertrag): Vertragspartei ist die Gesellschaft, Leistungszeitraum, Prämie/Preis, Laufzeit,
-    Kündigung. Ergebnis je Position im Textfeld; fehlende Verträge als Pendenz/PBC-Vorschlag.'
+  vorgehen: 'WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur Notiz «Pendenz»:
+    «Risiko 3.1 erhöht – WP: E1-304 anordnen?». Ohne Anweisung: nicht bearbeiten, kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt». Mit Anweisung: Wesentliche Positionen
+    mit Verträgen abstimmen (Police, Lizenz-, Miet-, Leasing-, Wartungsvertrag): Vertragspartei ist die Gesellschaft, Leistungszeitraum, Prämie/Preis, Laufzeit, Kündigung. Ergebnis je
+    Position im Textfeld; fehlende Verträge als Pendenz/PBC-Vorschlag.'
   nachweise:
   - Verträge/Policen zu den Positionen 1300
   - Detailaufstellung 1300
@@ -444,10 +464,15 @@ schritte:
     zitat: ob es sich um eine Verpflichtung des Unternehmens handelt (und nicht z.B. des Eigentümers
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: E1-305
-  vorgehen: 'Weitergehende Handlung (SER Anh. D), Kennzeichnung WP: nur auf Anweisung des WP bzw. bei erhöhtem inhärentem Risiko gemäss Risikobeurteilung des WP (3.1); sonst offen lassen.
-    Konto 1300 und zugehörige Konten in neuer Rechnung (01.01.2026 bis Prüfungsdatum) durchsehen: Auflösung bzw. Entwicklung des Saldos, Geldeingänge antizipativer Aktiven, Gutschriften,
-    Rückerstattungen, Kündigungen. Fehlen Kontoblätter 2026: PBC-Vorschlag.'
+  vorgehen: 'WP-Schritt (weiter gehend nach SER Anh. D): nur auf ausdrückliche Anweisung des WP vorbereiten. Ein erhöhtes Risiko in 3.1 ist keine Anweisung – dann nur Notiz «Pendenz»:
+    «Risiko 3.1 erhöht – WP: E1-305 anordnen?». Ohne Anweisung: nicht bearbeiten, kein Eintrag im Textfeld, im Rapport «nicht bearbeitet – WP-Schritt». Mit Anweisung: Konto 1300 und
+    zugehörige Konten in neuer Rechnung (01.01.2026 bis Prüfungsdatum) durchsehen: Auflösung bzw. Entwicklung des Saldos, Geldeingänge antizipativer Aktiven, Gutschriften, Rückerstattungen,
+    Kündigungen. Fehlen Kontoblätter 2026: PBC-Vorschlag.'
   nachweise:
   - Kontoblatt 1300 neue Rechnung 2026
   - Kontoblätter zugehörige Aufwands-/Ertragskonten 2026
@@ -465,6 +490,10 @@ schritte:
     zitat: Oder die Rechnungsabgrenzungsposten werden belassen und beim nächsten Zwischen- oder Jahresabschluss, falls erforderlich, an die aktuelle Situation angepasst.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
 - id: E1-306
   vorgehen: 'Kontoblatt 1300 anhand Belegen prüfen: Auflösung der Vorjahresabgrenzung (Rückbuchung Anfang 2025 = Saldo 31.12.2024, in die richtigen Aufwands-/Ertragskonten, nicht als
     periodenfremd/ausserordentlich) und Bildung per 31.12.2025 (= Detailaufstellung, korrektes Gegenkonto, Beleg vorhanden). Bei Belassen-Methode Anpassung an die aktuelle Situation
@@ -473,13 +502,17 @@ schritte:
   - Kontoblatt 1300 2025
   - Buchungsbelege Auflösung und Bildung
   - Detailaufstellungen 1300 per 31.12.2024 und 31.12.2025
-  rechnen: Auflösung VJ (Haben 1300) = Saldo 1300 per 31.12.2024; Bildung (Soll 1300) = Total Detailaufstellung 31.12.2025; Eröffnungssaldo + Soll − Haben = Saldo 31.12.2025
-  feststellung_wenn: Vorjahresabgrenzung nicht oder nur teilweise aufgelöst, Gegenkonto falsch (z.B. ausserordentlicher Ertrag), Buchung ohne Beleg oder Bildung ≠ Detailaufstellung.
+  rechnen: 'Zuerst Methode bestimmen (Kontoblatt 1300). Rückbuchungsmethode: Auflösung VJ (Haben 1300) = Saldo 1300 per 31.12.2024; Bildung (Soll 1300) = Total Detailaufstellung 31.12.2025.
+    Belassen-Methode: keine Auflösung; Saldo 31.12.2024 ± Anpassung (mit Beleg) = Total Detailaufstellung 31.12.2025. Immer: Eröffnungssaldo + Soll − Haben = Saldo 31.12.2025'
+  feststellung_wenn: 'Rückbuchungsmethode: Vorjahresabgrenzung nicht oder nur teilweise aufgelöst; Belassen-Methode: Saldo nicht an die aktuelle Situation angepasst; Gegenkonto falsch
+    (z.B. ausserordentlicher Ertrag), Buchung ohne Beleg oder Bildung ≠ Detailaufstellung.'
   fundstellen:
   - quelle: hwp-bur-2023__rz-0261-s216
     zitat: Nach Eröffnung der Buchhaltung im neuen Geschäftsjahr erfolgt entweder eine Rückbuchung in die betreffenden Aufwands- und Ertragskonten
   - quelle: hwp-bur-2023__rz-0261-s216
     zitat: dabei gilt die Rückbuchung nicht als periodenfremd
+  - quelle: hwp-bur-2023__rz-0261-s216
+    zitat: Oder die Rechnungsabgrenzungsposten werden belassen und beim nächsten Zwischen- oder Jahresabschluss, falls erforderlich, an die aktuelle Situation angepasst.
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: or__art-957a
