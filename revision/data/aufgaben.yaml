@@ -23,7 +23,7 @@ prueffeld_synonyme:
   H3: [beteiligungen, tochtergesellschaft, beteiligung]
   I1: [immaterielle anlagen, immaterielle werte, goodwill, software, lizenzen]
   K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen, lieferanten, lieferant]
-  L1: [kurzfristige verzinsliche verbindlichkeiten, bankschulden kurzfristig, kontokorrent]
+  L1: [kurzfristige verzinsliche verbindlichkeiten, bankschulden kurzfristig, kontokorrent, bankschulden, kontokorrentkredit, festvorschuss, festkredit]
   M1: [uebrige kurzfristige verbindlichkeiten, sozialversicherungen, ahv, quellensteuer verbindlichkeit]
   M2: [mwst, mehrwertsteuer, vorsteuer, umsatzsteuer]
   M3: [passive rechnungsabgrenzung, transitorische passiven, pra, kurzfristige rueckstellungen]
@@ -148,7 +148,7 @@ aufgaben:
   naechste: [planung]
 - id: planung
   titel: Planung vorbereiten – Verständnis, Abschlussanalyse, Planungsnotiz, Tor vor Agent-Prozess 2
-  stichworte: [planung, pruefplanung, pruefprogramm, pruefplan, strategische planung, planung vorbereiten, risikobeurteilung, abschlussanalyse]
+  stichworte: [planung, pruefplanung, pruefprogramm, pruefplan, strategische planung, planung vorbereiten, risikobeurteilung, abschlussanalyse, unternehmen und umfeld, taetigkeit und umfeld, verstaendnis des unternehmens, tor]
   prozess: "0"
   phase: p2-planung
   ziel: 'Planung für den WP vorbereiten: Verständnis von Unternehmen und Umfeld aktualisieren, Abschlussanalyse rechnen, Planungsnotiz an den WP übergeben und das Tor vor Agent-Prozess 2 prüfen. revio 3 Planung (3.1–3.6) nur lesen; Vorschläge zu Risiko, Wesentlichkeit, Prüfungsplan und Prüfprogramm nur auf Anweisung des WP (Praxis/intern).'
@@ -454,6 +454,7 @@ aufgaben:
   fertig_wenn: Drei Werte bekannt und plausibilisiert; Abweichungen als Pendenz.
   naechste: [prueffeld]
 - id: kapitalschutz
+  prueffelder: [P1, N1, L1]   # Playbook gilt für diese Prüffelder (Router: ausdrücklich anderes Prüffeld → prueffeld)
   titel: Kapitalverlust, Überschuldung, Rangrücktritt prüfen
   stichworte: [kapitalverlust, ueberschuldung, ueberschuldet, unterbilanz, rangruecktritt, 725a, 725b, zwischenabschluss, sanierung, eigenkapital negativ, haelftiger, anzeige gericht, 729c, going concern, fortfuehrung]
   prozess: "2"
@@ -508,6 +509,7 @@ aufgaben:
   fertig_wenn: Rechnung dokumentiert (Textfeld P1-313, Querverweis A1-205), Rangrücktritte beurteilt, offene Punkte als Notiz; bei Kapitalverlust oder Überschuldung die Sofortmeldung an den WP als Entwurf ganz oben in der Antwort (nicht gesendet), sonst im Rapport.
   naechste: []
 - id: vorjahresabstimmung
+  prueffelder: [A1]   # Playbook gilt für diese Prüffelder (Router: ausdrücklich anderes Prüffeld → prueffeld)
   titel: Playbook Vorjahresabstimmung (A1-302, A1-303, P1-302)
   stichworte: [vorjahr, eroeffnungsbilanz, eroeffnungssaldi, vorjahresbestaende, abstimmung vorjahr, a1-302, saldovortrag, gewinnverwendung vorjahr]
   prozess: "2"
@@ -531,6 +533,7 @@ aufgaben:
   fertig_wenn: Alle Bilanzkonten abgestimmt, Differenzen dokumentiert.
   naechste: []
 - id: delkredere
+  prueffelder: [C1]   # Playbook gilt für diese Prüffelder (Router: ausdrücklich anderes Prüffeld → prueffeld)
   titel: Playbook C1 Delkredere (C1-302 mit Folgeschritten)
   stichworte: [delkredere, wertberichtigung, wertberichtigungen, altersstruktur, c1-302, zweifelhafte forderung, debitorenverluste]
   prozess: "2"
@@ -564,6 +567,7 @@ aufgaben:
   fertig_wenn: Delkredere nachgerechnet, Differenz und Buchungsvorschlag als Notiz, stille Reserven erfasst.
   naechste: []
 - id: sachanlagen
+  prueffelder: [G1, G2]   # Playbook gilt für diese Prüffelder (Router: ausdrücklich anderes Prüffeld → prueffeld)
   titel: Playbook G1 Sachanlagen (Anlagespiegel, Inventarliste, Einkaufsfakturen)
   stichworte: [sachanlagen, anlagespiegel, inventarliste, aktivierung, einkaufsfakturen, g1-305, abschreibung, anlagen, investitionen, abgang]
   prozess: "2"

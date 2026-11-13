@@ -1,0 +1,121 @@
+messung: "13.11.2026: Stand R2 (Plugin der Messung B2/E1/H1) 43/50 richtig – saubere Holdout-Messung. Danach allgemeine Fehlerklassen behoben (Tokenizer: Satzpunkt am Wort; höfliche Bitte = Auftrag; Mandatsbezug durch Betrag/Firmenname; «vor Prozess N»; Kompositum-Ende; zuerst genanntes Prüffeld; ausdrücklicher Code schlägt Playbook; flexionstolerante Mehrwort-Stichworte; Synonyme L1/planung) → 50/50. Damit VERBRAUCHT."
+hinweis: "Holdout 3 (unabhängig formuliert am 13.11.2026 ohne Kenntnis von Router-Code, Stichworten und bisherigen Testsets). Nur messen."
+faelle:
+- text: "Starte das Mandat Muster AG, Geschäftsjahr 2025, Stichtag 31.12.2025 – Kontext fixieren und Dossier öffnen."
+  aufgabe: mandat-start
+- text: "Bearbeite das Prüffeld D1."
+  aufgabe: prueffeld
+  param: D1
+- text: "Was bedeutet Kapitalverlust nach OR 725a allgemein, und wie wird er berechnet?"
+  aufgabe: fachfrage
+- text: "Importiere die definitive Bilanz und Erfolgsrechnung aus M-Files – nur simulieren – und prüf Vorzeichen und Bilanzgleichheit."
+  aufgabe: import
+- text: "Bearbeite B1-302."
+  aufgabe: pruefschritt
+  param: B1-302
+- text: "Chasch no schnell d'Kreditore duregah? Alli markierte Schritt."
+  aufgabe: prueffeld
+  param: K1
+- text: "Bereite die Planung vor: Abschlussanalyse rechnen und Planungsnotiz an den WP übergeben."
+  aufgabe: planung
+- text: "Hol die GV- und VR-Protokolle des Geschäftsjahres aus M-Files und leg sie in 10.9 ab."
+  aufgabe: unterlagen
+- text: "Ist die Gesamtwesentlichkeit von CHF 40'000 bei der Muster AG nicht zu hoch angesetzt?"
+  aufgabe: wesentlichkeit
+- text: "Bitte den Bereich Vorräte bearbeiten, die Lagerliste per 31.12.2025 liegt in M-Files."
+  aufgabe: prueffeld
+  param: F1
+- text: "Schreib den Revisionsrapport an den WP: Status aller Schritte, offene und wesentliche Punkte zuerst, als E-Mail-Entwurf."
+  aufgabe: rapport
+- text: "Welche Bezugsgrössen und Prozentsätze gelten allgemein für die Wesentlichkeit bei einer eingeschränkten Revision?"
+  aufgabe: fachfrage
+- text: "mach mal die löhne fertig, personalaufwand ist markiert"
+  aufgabe: prueffeld
+  param: R1
+- text: "Prüf rechnerisch, ob ein Kapitalverlust oder eine Überschuldung vorliegt und ob der Rangrücktritt des Aktionärs genügt."
+  aufgabe: kapitalschutz
+- text: "Erstelle den Entwurf des Berichts an die Generalversammlung auf Basis des Vorjahresberichts – Jahreszahlen und Jahresergebnis aktualisieren, nicht unterzeichnen."
+  aufgabe: gvb-bericht
+- text: "kannst du schritt R1-305 vorbereiten? nur diesen einen."
+  aufgabe: pruefschritt
+  param: R1-305
+- text: "Prüffeld Mehrwertsteuer bearbeiten, die Quartalsabrechnungen sind in M-Files abgelegt."
+  aufgabe: prueffeld
+  param: M2
+- text: "Der WP hat die Freigabe gegeben: PDF-Akte erzeugen und in M-Files als «AP revio» ablegen."
+  aufgabe: pdf-akte
+- text: "Notier als Feststellung: Mietaufwand Dezember doppelt verbucht, Konto 6000, CHF 3'200."
+  aufgabe: notiz
+- text: "Wie lange müssen Geschäftsbücher und die übrigen Unterlagen nach OR aufbewahrt werden?"
+  aufgabe: fachfrage
+- text: "Stimm die Eröffnungssaldi gegen die geprüfte Vorjahresrechnung ab und die Reserven gegen den Gewinnverwendungsbeschluss der GV."
+  aufgabe: vorjahresabstimmung
+- text: "Kannst du die transitorischen Aktiven anschauen und die markierten Schritte dokumentieren?"
+  aufgabe: prueffeld
+  param: E1
+- text: "Beurteilen Sie bitte die Angemessenheit des Delkredere anhand der Altersstruktur der OP-Liste und der Zahlungseingänge nach dem Stichtag."
+  aufgabe: delkredere
+- text: "Anlagespiegel und Inventarliste der Sachanlagen abstimmen und die Aktivierungsfähigkeit der Zugänge beurteilen."
+  aufgabe: sachanlagen
+- text: "Isch d'Gsellschaft eigentlich überschuldet? Lueg mal d'Bilanz aa."
+  aufgabe: kapitalschutz
+- text: "Bearbeiten Sie bitte das Prüffeld Beteiligungen (H3). Es handelt sich um eine reine Holding mit drei Tochtergesellschaften; die Jahresrechnungen der Töchter liegen in M-Files, die Bewertung ist der Hauptpunkt."
+  aufgabe: prueffeld
+  param: H3
+- text: "Ab welchen Schwellenwerten (Bilanzsumme, Umsatz, Vollzeitstellen) ist eine ordentliche Revision vorgeschrieben?"
+  aufgabe: fachfrage
+- text: "Brauchen wir bei der Muster AG ab diesem Geschäftsjahr eine ordentliche Revision?"
+  aufgabe: auftrag
+- text: "Bereite die Vollständigkeitserklärung vor (Muster und Datum) und die Befragung zu Ereignissen nach dem Stichtag."
+  aufgabe: abschluss
+- text: "Bitte nur den Prüfschritt T1-104 bearbeiten und das Ergebnis im Textfeld dokumentieren."
+  aufgabe: pruefschritt
+  param: T1-104
+- text: "Bitte zuerst die Hypotheken und langfristigen Darlehen bearbeiten, danach den Finanzaufwand."
+  aufgabe: prueffeld
+  param: N1
+- text: "jahresrechung 2025 ist definitv, bitte einlesen und totale abstimmen"
+  aufgabe: import
+- text: "Lies die Wesentlichkiet aus revio 3.3 und plausibilisier Bezugsgrösse und Prozentsatz."
+  aufgabe: wesentlichkeit
+- text: "Prüf bitte den Anhang zur Jahresrechnung (T1) auf Vollständigkeit der Pflichtangaben."
+  aufgabe: prueffeld
+  param: T1
+- text: "was versteht man unter opting-out?"
+  aufgabe: fachfrage
+- text: "Erfass bitte einen Buchungsvorschlag – Ferienguthaben per Stichtag nicht abgegrenzt, ca. CHF 12'000."
+  aufgabe: notiz
+- text: "Reicht die Wertberichtigung auf den Kundenforderungen bei diesem Mandat aus?"
+  aufgabe: delkredere
+- text: "Bitte I1 und H1 bearbeiten (immaterielle Anlagen, Finanzanlagen)."
+  aufgabe: prueffeld
+  param: I1
+- text: "Wir fangen mit dem Mandat Beispiel GmbH (GJ 2026) an: bitte Überblick verschaffen, Planung lesen und die markierten Prüffelder bestimmen."
+  aufgabe: mandat-start
+- text: "Umsatzerlöse durchprüfen – Prüffeld betrieblicher Ertrag."
+  aufgabe: prueffeld
+  param: SCH1
+- text: "Stell die Grundlagen für den Fortführungsentscheid bereit: Unabhängigkeit, Revisionsart, Auftragsbestätigung."
+  aufgabe: auftrag
+- text: "sch3-301 bitte machen"
+  aufgabe: pruefschritt
+  param: SCH3-301
+- text: "Werten Sie bitte die schriftlichen Antworten der Kundenbefragung aus und schlagen Sie fehlende Unterlagen für die PBC-Liste vor."
+  aufgabe: unterlagen
+- text: "Flüssige Mittel und anschliessend das Aktivdarlehen an den Aktionär prüfen."
+  aufgabe: prueffeld
+  param: B1
+- text: "Wie lange ist die Amtsdauer einer Revisionsstelle grundsätzlich?"
+  aufgabe: fachfrage
+- text: "update bitte das verständnis von unternehmen und umfeld und prüf, ob das tor vor agent-prozess 2 offen ist"
+  aufgabe: planung
+- text: "Bitte die kurzfristigen Bankschulden bearbeiten (Kontokorrentkredit, Festvorschuss)."
+  aufgabe: prueffeld
+  param: L1
+- text: "Stell die Liste der nicht korrigierten Fehler und die Punkte für die Schlussbesprechung zusammen."
+  aufgabe: abschluss
+- text: "Bearbeite S1 Steuern und danach O1 Rückstellungen."
+  aufgabe: prueffeld
+  param: S1
+- text: "Was bedeutet ein Prüfungsurteil in negativer Formulierung bei der eingeschränkten Revision?"
+  aufgabe: fachfrage

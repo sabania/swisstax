@@ -2540,7 +2540,7 @@ GENERISCH = set("prufen prufe bearbeiten bearbeite vorbereiten bereite mach mach
 
 
 def toks(s: str) -> list[str]:
-    return [t for t in re.findall(r"[a-z0-9.]+", key(s)) if t not in STOP and t not in GENERISCH and len(t) > 1]
+    return [t for t in (x.strip(".") for x in re.findall(r"[a-z0-9.]+", key(s))) if t not in STOP and t not in GENERISCH and len(t) > 1]
 
 
 FRAGE = re.compile(r"^\s*(was|wie|wann|wer|welche[rsnm]?|warum|weshalb|darf|muss|ist|sind|gilt|braucht|kann|wo)\b", re.I)
@@ -2549,7 +2549,11 @@ FRAGE = re.compile(r"^\s*(was|wie|wann|wer|welche[rsnm]?|warum|weshalb|darf|muss
 WISSEN = re.compile(r"\b(was (heisst|bedeutet|versteht man)|eigentlich|grundsätzlich|allgemein|ab welche[nrm]? |"
                     r"zu (bilanzieren|bewerten|verbuchen|buchen)|auszuweisen|offenzulegen|welche positionen|"
                     r"art\.\s*\d|\b(or|dbg|mwstg|ser)\s+\d|nach (art|or|ser|hwp)\b)", re.I)
-MANDAT = re.compile(r"\b(wir|unser\w*|uns|die gesellschaft|der kunde|dieses jahr|dieses mandat|im mandat|hier|bei (der|dieser) (firma|ag|gmbh))\b", re.I)
+MANDAT = re.compile(r"\b(wir|unser\w*|uns|die gesellschaft|der kunde|dieses jahr|dieses mandat|im mandat|hier|bei (der|dieser) (firma|ag|gmbh)|"
+                    r"\w+ (ag|gmbh|sa|sarl|genossenschaft))\b|\bchf\s*\d", re.I)
+# Höfliche Bitte («Kannst du … bearbeiten?», «Könnten Sie … prüfen?») ist ein Auftrag, keine Frage
+BITTE = re.compile(r"^\s*(bitte\s+)?(kannst|konntest|konnen sie|konnten sie|wurdest|wurden sie|magst)\b")
+AUFTRAGSVERB = re.compile(r"\b(pruf|bearbeit|vorbereit|bereite|dokumentier|anschau|ansehen|abstimm|erstell|erfass|zusammenstell|mach|ubernehm|ablegen|durchseh|durchgeh)")
 
 
 def pf_aus_text(text: str):
@@ -2559,13 +2563,13 @@ def pf_aus_text(text: str):
     if m and m.group(1).upper() in codes:
         return m.group(1).upper()
     tt = toks(text)
-    best, bl = None, 0
+    best, bk = None, None
     for code, syn in (L().get("pf_synonyme") or {}).items():
         for x in syn:
             xs = toks(x)
-            kx = " ".join(xs)
-            if kx and len(kx) > bl and _phrase_in(xs, tt):
-                best, bl = code, len(kx)
+            pos = _phrase_pos(xs, tt) if xs else None
+            if pos is not None and (bk is None or (pos, -len(" ".join(xs))) < bk):
+                best, bk = code, (pos, -len(" ".join(xs)))
     return best
 
 
@@ -2578,6 +2582,12 @@ def _wort_gleich(a: str, b: str) -> bool:
         return True
     k, l = sorted((a, b), key=len)
     return len(k) >= 4 and l.startswith(k) and l[len(k):] in FLEXION
+
+
+def _phrase_pos(xs: list, tt: list):
+    """Erste Position der Phrase xs in tt (flexionstolerant) oder None."""
+    n = len(xs)
+    return next((i for i in range(len(tt) - n + 1) if all(_wort_gleich(xs[j], tt[i + j]) for j in range(n))), None)
 
 
 def _phrase_in(xs: list, tt: list) -> bool:
@@ -2597,18 +2607,21 @@ def _aufgabe_finden(text: str):
     sid = schritt_id(t)
     if sid and sid in L().get("katalog", {}).get("schritte", {}):
         return {"id": "pruefschritt"}, sid
-    m = re.search(r"prozess\s*([0-6])\b", key(t))
+    m = re.search(r"(?<!vor )(?<!vor dem )(?<!vor agent-)(?<!nach )(?<!nach agent-)prozess\s*([0-6])\b", key(t))
     if m:
         hit = [a for a in ag if str(a.get("prozess")) == m.group(1) and a["id"] in ("mandat-start", "import", "prueffeld", "unterlagen", "rapport", "gvb-bericht", "pdf-akte")]
         if hit:
             return hit[0], pf_aus_text(t)
     frage = bool(FRAGE.search(t)) or t.rstrip().endswith("?")
+    if frage and BITTE.search(key(t)) and AUFTRAGSVERB.search(key(t)):
+        frage = False   # höfliche Bitte = Auftrag
     code = pf_aus_text(t)
     if frage and code and not re.search(r"\b([A-Za-z]{1,3}\d)\b", t):
         code = None   # Fachfrage mit Stichwort (z.B. «Inventur») → kein Prüffeld-Bündel, sondern Fachkontext
     # Allgemeine Wissensfrage («Was heisst …», «Ab welchen Schwellenwerten …», «Wie sind … auszuweisen?», «nach Art. 727 OR») ohne Bezug
     # auf das Mandat («wir», «die Gesellschaft», «dieses Jahr») → Fachfrage, auch wenn ein Aufgaben-Stichwort vorkommt.
-    wissen = frage and bool(WISSEN.search(t)) and not MANDAT.search(t)
+    mandat = bool(MANDAT.search(t))
+    wissen = frage and bool(WISSEN.search(t)) and not mandat
     qt = toks(t)
     kt = " " + " ".join(qt) + " "
     scores = []
@@ -2618,7 +2631,7 @@ def _aufgabe_finden(text: str):
             kx = " ".join(toks(x))
             if not kx:
                 continue
-            if " " in kx and f" {kx} " in kt:
+            if " " in kx and (f" {kx} " in kt or _phrase_in(kx.split(), qt)):
                 sc += 3
             elif " " not in kx:
                 for w in qt:
@@ -2628,7 +2641,9 @@ def _aufgabe_finden(text: str):
                     # revisionsakte/revisionsagent ~ revisionsart bleibt (fragen-alle r01 → auftrag); falls störend, revisionsart ausnehmen.
                     elif len(kx) >= 5 and len(w) >= 5 and (w.startswith(kx) or (len(w) >= 7 and kx.startswith(w)) or w[:10] == kx[:10]):
                         sc += 1
-        if a["id"] == "fachfrage" and frage:
+                    elif len(kx) >= 8 and len(w) > len(kx) and w.endswith(kx):   # Kompositum: Gesamtwesentlichkeit ~ Wesentlichkeit
+                        sc += 1
+        if a["id"] == "fachfrage" and frage and not mandat:
             sc += 1.5 + (3 if wissen else 0)
         scores.append((sc, -i, a))
     scores.sort(key=lambda x: (x[0], x[1]), reverse=True)
@@ -2636,6 +2651,9 @@ def _aufgabe_finden(text: str):
     if code:
         # Notiz mit Prüffeld-Synonym («Pendenz Debitoren») bleibt Notiz – ausser der Text verlangt Prüfen/Bearbeiten des Prüffelds
         pruefauftrag = re.search(r"\b(pruf|bearbeit|vorbereit|bereite|mach)", key(t))
+        literal = re.search(r"\b([A-Za-z]{1,3}\d)\b(?![-./ ]?\d{3})", t)
+        if best and best.get("prueffelder") and literal and code not in best["prueffelder"]:
+            return by.get("prueffeld"), code   # z.B. «I1 und H1 bearbeiten» ≠ Playbook sachanlagen (G1/G2)
         if best and bs >= 2 and best["id"] not in ("prueffeld", "fachfrage") and not (
                 best["id"] == "notiz" and (pruefauftrag or re.search(r"\babstimm", key(t)))) and not (
                 best["id"] == "import" and pruefauftrag and not re.search(r"\b(import|einles|einlese|saldoliste|hauptbuch|abstimm)", key(t))):
