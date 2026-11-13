@@ -6,3 +6,4 @@ index/fts.sqlite
 revision/index/fts.sqlite
 # laufende OpenClaw-Läufe (Rohantworten): nach Abschluss mit git add -f übernehmen
 revision/eval/laeufe/*.md.d/
+revision/eval/laeufe/*.md.turns/
