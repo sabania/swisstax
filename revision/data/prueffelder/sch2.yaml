@@ -4,21 +4,27 @@ bezeichnung: Direkter Aufwand
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 16
-    korrigiert: false
-kurzbeschrieb: 'Direkter Aufwand: Material-/Warenaufwand, Fremd- und Drittleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b Abs. 2 Ziff. 3 bzw. Abs. 3 Ziff. 2 OR).
-  Eingeschränkte Revision: Befragung zu Erfassungs- und Abgrenzungsgrundsätzen, Vorjahres-, Budget- und Margenanalyse, Belegabstimmung und Cut-off (Rechnungen/Lieferpapiere um den Stichtag);
-  Schwerpunkt VO, PA, EN.'
+    korrigiert: true
+kurzbeschrieb: 'Direkter Aufwand: Material-/Warenaufwand, Fremdleistungen, Bezugskosten, Bestandesänderungen Handelswaren (Art. 959b OR). Empfohlen gemäss SER Anh. D p): Befragung zu
+  Grundsätzen und Abgrenzung (101), Margenvergleich je Produktkategorie (201); ergänzend Abweichungs-/Kontenanalyse (102/202). Detailprüfungen (301/302) nach Risiko und Wesentlichkeit.
+  Cut-off (303): weiter gehend, WP-Schritt.'
 gesetz:
 - thema: Wahl Produktions- oder Absatzerfolgsrechnung (Art. 959b Abs. 1 OR)
   quelle: or__art-959b-t1
   zitat: Sie kann als Produktionserfolgsrechnung oder als Absatzerfolgsrechnung dargestellt werden.
 - thema: 'Mindestgliederung Produktionserfolgsrechnung: Materialaufwand als eigene Position (Art. 959b Abs. 2 Ziff. 3 OR)'
   quelle: or__art-959b-t1
+  zitat: 3. Materialaufwand;
+- thema: 'Mindestgliederung Produktionserfolgsrechnung: Positionen je einzeln und in vorgegebener Reihenfolge (Art. 959b Abs. 2 OR)'
+  quelle: or__art-959b-t1
   zitat: In der Produktionserfolgsrechnung (Gesamtkostenverfahren) müssen mindestens folgende Positionen je einzeln und in der vorgegebenen Reihenfolge ausgewiesen werden
+- thema: Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen als eigene Position (Art. 959b Abs. 2 Ziff. 2 OR) – Bezugsgrösse für die Marge
+  quelle: or__art-959b-t1
+  zitat: Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen
 - thema: 'Absatzerfolgsrechnung: Anschaffungs-/Herstellungskosten der verkauften Produkte (Art. 959b Abs. 3 Ziff. 2 OR)'
   quelle: or__art-959b-t1
   zitat: Anschaffungs- oder Herstellungskosten der verkauften Produkte und Leistungen
@@ -88,6 +94,14 @@ risiken:
   - VO
   quelle: hwp-bur-2023__rz-0049-s067
   zitat: alle Aufwendungen, die dazu dienen, bestimmte Erträge zu erzielen, zeitgleich mit dem Ertragsanfall in der Erfolgsrechnung zu berücksichtigen sind
+- text: 'Projektgeschäft nach POC-Methode: Auftragskosten und Fertigstellungsgrad nicht übereinstimmend erfasst oder nachlaufende Kosten (Gewährleistung, Garantiearbeiten) zu tief berücksichtigt;
+    Marge und Bestandesänderung angefangene Arbeiten zu hoch.'
+  pruefziele:
+  - VO
+  - PA
+  - BE
+  quelle: hwp-bur-2023__rz-0748-s316-t2
+  zitat: Negative Ergebnisbeiträge (insbesondere aus nachlaufenden Kosten wie Gewährleistungen u.Ä.) sind ausreichend zu berücksichtigen.
 - text: Gebuchter Aufwand ohne Beleg, ohne Bezug zur Leistungserstellung oder nicht der Gesellschaft zuzuordnen (z.B. Privat- oder Aktionärsaufwand).
   pruefziele:
   - EN
@@ -107,13 +121,14 @@ risiken:
   - RI
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
-- text: Einkäufe von nahestehenden Personen/Gesellschaften nicht zu Drittkonditionen (verdeckte Gewinnausschüttung, Rückerstattungspflicht).
+- text: Einkäufe oder Fremdleistungen von Aktionären, Organen oder nahestehenden Personen/Gesellschaften nicht zu Drittkonditionen («at arm’s length»); Rückerstattungspflicht bei offensichtlichem
+    Missverhältnis (Art. 678 Abs. 2 OR); Offenlegung unterlassen.
   pruefziele:
   - EN
   - BE
   - DO
   quelle: hwp-er-2026__rz-0159-s211
-  zitat: die korrekte Abwicklung und Verbuchung der Geschäftsvorfälle («at arm’s length») in der Bilanz und Erfolgsrechnung
+  zitat: die korrekte Abwicklung und Verbuchung der Geschäftsvorfälle («at arm’s length») in der Bilanz und Erfolgsrechnung sowie die Offenlegungspflicht von Bedeutung
 - text: Bildung oder Auflösung stiller Reserven über Wertberichtigungen auf Vorräten (z.B. Warendrittel) verzerrt Materialaufwand und Marge; offenlegungspflichtige Nettoauflösung wird
     übersehen.
   pruefziele:
@@ -121,21 +136,21 @@ risiken:
   - BE
   quelle: hwp-bur-2023__rz-0759-s320
   zitat: führt dies – falls sie einer Reserve entspricht – zwangsläufig zu einer Auflösung stiller Reserven
-- text: Analytik ohne Befund trotz Fehlern, weil sich Fehlaussagen (z.B. fehlende Abgrenzung und doppelte Buchung) gegenseitig kompensieren.
+- text: Analytik ohne Befund trotz Fehlern, weil sich Fehlaussagen (z.B. fehlende Abgrenzung und doppelte Buchung, nicht erfasster und vorgezogener Aufwand) gegenseitig kompensieren.
   pruefziele:
   - VO
   - PA
   quelle: ser-2022__6-1-2-t3
   zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können und deshalb bei analytischen Prüfungen nicht erkannt werden.
 unterlagen:
-- dokument: Saldoliste/Erfolgsrechnung Berichtsjahr mit Vorjahr (Kontenebene 4xxx, inkl. Nettoerlöse)
-  zweck: Saldovergleich und Abweichungsanalyse (SCH2-102, SCH2-202 a)
-  quelle: ser-2022__anh-d-s094-1
-  zitat: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
+- dokument: 'Saldoliste/Erfolgsrechnung Berichtsjahr mit Vorjahr (Kontenebene 3xxx/4xxx: Nettoerlöse, Erlösminderungen, Bestandesänderungen angefangene Arbeiten, direkter Aufwand)'
+  zweck: Saldovergleich, Abweichungsanalyse und Gesamtleistung als Bezugsgrösse (SCH2-102, SCH2-201, SCH2-202 a)
+  quelle: hwp-er-2026__rz-0109-s199
+  zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - dokument: Hauptbuch-Kontoblätter aller Konten des direkten Aufwands (4xxx) für das ganze Jahr
-  zweck: Durchsicht auf hohe/ungewöhnliche Beträge, Stichprobenauswahl, kritische Durchsicht (SCH2-202 b, SCH2-301, SCH2-302)
-  quelle: ser-2022__anh-d-s094-1
-  zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
+  zweck: Kritische Durchsicht auf hohe/ungewöhnliche Beträge, Auswahl für Belegabstimmung (SCH2-202 b, SCH2-301, SCH2-302); SER Anh. D r) nur als Analogie (dort weiter gehend)
+  quelle: hwp-er-2026__rz-0124-s202
+  zitat: bestimmte Aufwands- oder Ertragskonten
 - dokument: Umsatz-, Wareneinsatz- bzw. Deckungsbeitragsstatistik je Produktkategorie/Geschäftsbereich (Berichts- und Vorjahr)
   zweck: Margenvergleich (SCH2-201, SCH2-202 d)
   quelle: ser-2022__anh-d-s092-1
@@ -144,24 +159,24 @@ unterlagen:
   zweck: Budgetvergleich (SCH2-202 c); Verlässlichkeit des Budgets beurteilen
   quelle: ser-2022__6-1-2-t1
   zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen oder diesbezüglichen Erwartungen des Abschlussprüfers
-- dokument: Projektliste/Nachkalkulation (Einzelkosten Material und Fremdleistungen je Auftrag) bei Projektgeschäft
+- dokument: Projektliste/Nachkalkulation (Einzelkosten Material und Fremdleistungen, Fertigstellungsgrad, erwartete Restkosten inkl. Garantie je Auftrag) bei Projektgeschäft
   zweck: Marge je Projekt, sachliche Abgrenzung zu Bestandesänderungen/angefangenen Arbeiten (SCH2-201, SCH2-302)
   quelle: hwp-bur-2023__rz-0757-s319
   zitat: Diese Position bezweckt einen periodengerechten Ergebnisausweis
-- dokument: Lieferantenrechnungen und Gutschriften der Stichprobe, zugehörige Verträge (Rahmen-, Liefer-, Montageverträge), Zahlungsbelege
+- dokument: Lieferantenrechnungen und Gutschriften der Auswahl, zugehörige Verträge (Rahmen-, Liefer-, Montageverträge), Zahlungsbelege
   zweck: Belegabstimmung (SCH2-301)
-  quelle: ser-2022__anh-d-s096-1
-  zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  quelle: hwp-er-2026__rz-0115-s200
+  zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
 - dokument: Lieferscheine/Wareneingangsbelege und Leistungs-/Montagerapporte kurz vor und nach dem Bilanzstichtag
-  zweck: Cut-off-Prüfung (SCH2-303)
-  quelle: ser-2022__anh-d-s084-2
-  zitat: Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Jahresende
+  zweck: Cut-off-Prüfung (SCH2-303; weiter gehend, nur bei Anordnung WP)
+  quelle: ser-2022__anh-d-s092-1
+  zitat: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
 - dokument: Kreditorenjournal bzw. Kontoblätter Kreditoren und Aufwand der neuen Rechnung (erste Monate Folgejahr) sowie Liste noch nicht verbuchter Eingangsrechnungen
-  zweck: Suche nach Aufwand des Berichtsjahres in neuer Rechnung (SCH2-303, SCH2-302)
-  quelle: ser-2022__anh-d-s094-1
-  zitat: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
+  zweck: Suche nach Aufwand des Berichtsjahres in neuer Rechnung (SCH2-302; SCH2-303 nur bei Anordnung WP)
+  quelle: ser-2022__6-1-3
+  zitat: Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
 - dokument: Kreditoren-OP-Liste und Detailliste passive Rechnungsabgrenzungen per 31.12.
-  zweck: Gegenprobe, ob Leistungen des Berichtsjahres als Kreditor oder Abgrenzung erfasst sind (SCH2-303)
+  zweck: Gegenprobe, ob Leistungen des Berichtsjahres als Kreditor oder Abgrenzung erfasst sind (SCH2-303); Schnittstelle Prüffelder Kreditoren/PRA (SER Anh. D l), dort weiter gehend)
   quelle: ser-2022__anh-d-s087-1
   zitat: Kritische Durchsicht von Aufwands- und Ertragskonten, welche häufig passive Rechnungsabgrenzungen enthalten
 - dokument: Inventarlisten Handelswaren/Material per 31.12. Berichts- und Vorjahr
@@ -172,6 +187,10 @@ unterlagen:
   zweck: Auswertung der Befragungen (SCH2-101, SCH2-102)
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+- dokument: Vollständigkeitserklärung bzw. Liste der nahestehenden Personen/Gesellschaften
+  zweck: Basis für die Auswahl «Nahestehende» (SCH2-301) und das Risiko Einkäufe von Nahestehenden
+  quelle: ser-2022__anh-e-s103-2
+  zitat: Die Ihnen gegebenen Informationen zur Identifizierung nahestehender Personen sind
 bewertung:
 - regel: Materialaufwand umfasst alle mit der Produktion verbundenen Aufwendungen
   quelle: hwp-bur-2023__rz-0756-s319
@@ -188,24 +207,37 @@ bewertung:
 - regel: Einkaufspreisminderungen (Rücksendungen, Rabatte, Preisnachlässe, Lieferantenskonti sofern nicht im Finanzertrag) mindern den Materialaufwand
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Minderungen der Einkaufspreise (Rücksendungen, Rabatte und Preisnachlässe
-- regel: Inventurdifferenzen und Wertberichtigungen auf zugekauften Vorräten im Materialaufwand
+- regel: Inventurdifferenzen auf zugekauften Vorräten gehören zum Materialaufwand
+  quelle: hwp-bur-2023__rz-0756-s319
+  zitat: Inventurdifferenzen auf zugekauften Vorratsbeständen
+- regel: Bildung von Wertberichtigungen auf zugekauften Vorräten im Materialaufwand
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: Bildung von Wertberichtigungen auf zugekauften Vorratsbeständen
 - regel: Kursdifferenzen aus Beschaffung nur bei dokumentiertem Einzelzusammenhang im Materialaufwand, sonst Finanzergebnis
   quelle: hwp-bur-2023__rz-0756-s319
   zitat: soweit dieser Zusammenhang eindeutig für das einzelne Geschäft dokumentiert ist
+- regel: 'Kursdifferenzen aus dem normalen Geschäftszweck: prüfen, ob sie zusammen mit dem Grundgeschäft (z.B. als Warenaufwand) zu erfassen sind (EUR-Einkäufe)'
+  quelle: hwp-bur-2023__rz-0093-s078
+  zitat: Es ist zu prüfen, ob Kursdifferenzen aus eindeutig dem normalen Geschäftszweck zuzuordnenden Geschäftsvorfällen
 - regel: Bestandesänderungen Handelswaren/Rohmaterial dürfen direkt im Material-/Warenaufwand erfasst werden
   quelle: hwp-bur-2023__rz-0232-s114
   zitat: Diese Bestandsänderungen können direkt im Waren- oder Materialaufwand erfasst werden.
 - regel: Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen separat ausweisen
   quelle: hwp-bur-2023__rz-0755-s319
   zitat: sowie an nicht fakturierten Dienstleistungen separat auszuweisen (Art. 959b Abs. 2 Ziff. 2 OR)
+- regel: Gesamtleistung = Nettoerlös ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen; ihr wird der Produktionsaufwand gegenübergestellt
+    (Bezugsgrösse Margenvergleich)
+  quelle: hwp-bur-2023__rz-0235-s115
+  zitat: Gesamtleistung (Nettoerlös zuzüglich oder abzüglich der Bestandsänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen)
 - regel: Bezeichnung «Aufwand für Material, Waren und Dienstleistungen» zulässig und umfassender
   quelle: hwp-bur-2023__rz-0228-s113
   zitat: Umfassender ist die Bezeichnung «Aufwand für Material, Waren und Dienstleistungen».
 - regel: Bei zusammengefasstem Ausweis ggf. Aufschlüsselung im Anhang
   quelle: hwp-bur-2023__rz-0758-s320
-  zitat: Das Gesetz verlangt keine detaillierte Darstellung der einzelnen Teilbestände.
+  zitat: Erläuterung im Anhang (Art. 959c Abs. 1 Ziff. 2 OR) angezeigt sein
+- regel: 'Absatzerfolgsrechnung: Abschreibungen und Wertberichtigungen sind in den Herstellungskosten der verkauften Produkte enthalten (Offenlegung im Anhang)'
+  quelle: hwp-bur-2023__rz-0793-s328
+  zitat: sind die Abschreibungen und Wertberichtigungen in den Herstellungskosten der verkauften Produkte
 - regel: 'Sachliche Abgrenzung (matching): Aufwand zeitgleich mit dem zugehörigen Ertrag'
   quelle: hwp-bur-2023__rz-0049-s067
   zitat: alle Aufwendungen, die dazu dienen, bestimmte Erträge zu erzielen, zeitgleich mit dem Ertragsanfall in der Erfolgsrechnung zu berücksichtigen sind
@@ -215,9 +247,21 @@ bewertung:
 - regel: Aufwand früherer Perioden als periodenfremd buchen, sobald bekannt
   quelle: hwp-bur-2023__rz-0048-s066
   zitat: Aufwand und Ertrag, die frühere Perioden betreffen, sind, sobald sie bekannt werden, als periodenfremd zu verbuchen.
-- regel: Umsatzerfassung in einfachen Verhältnissen nach Zustellung der Ware bzw. Rechnungsstellung (Bezug für Abgrenzung des zugehörigen Aufwands)
+- regel: Umsatzerfassung Handelswaren grundsätzlich mit Übergang von Nutzen und Gefahr (Bezug für die zeitliche Abgrenzung des zugehörigen Aufwands)
+  quelle: hwp-bur-2023__rz-0746-s315
+  zitat: Bei Warenlieferungen von Handelswaren erfolgt die Umsatzerfassung mit dem Übergang von Nutzen und Gefahr
+- regel: 'In einfachen Verhältnissen: Umsatzerfassung nach Zustellung der Ware bzw. Rechnungsstellung'
   quelle: hwp-bur-2023__rz-0746-s315
   zitat: In einfachen Verhältnissen wird auf leicht nachvollziehbare physische Sachverhalte wie die Zustellung der Ware und die Rechnungsstellung abgestellt.
+- regel: 'Projektgeschäft (POCM): anteilige Auftragserlöse und -kosten nach Fertigstellungsgrad in der Erfolgsrechnung erfassen'
+  quelle: hwp-bur-2023__rz-0748-s316-t1
+  zitat: In diesem Umfang werden anteilige Auftragserlöse und -kosten in der Erfolgsrechnung erfasst.
+- regel: 'POCM-Voraussetzung (kumulativ, u.a.): zuverlässige Ermittlung von Auftragserlösen, Auftragsaufwendungen und Fertigstellungsgrad'
+  quelle: hwp-bur-2023__rz-0748-s316-t2
+  zitat: Eine zuverlässige Ermittlung aller mit dem Auftrag im Zusammenhang stehenden Auftragserlöse, Auftragsaufwendungen sowie des Fertigstellungsgrads ist möglich.
+- regel: 'POCM: zurückhaltende Gewinnermittlung, nachlaufende Kosten (Gewährleistung) ausreichend berücksichtigen'
+  quelle: hwp-bur-2023__rz-0748-s316-t2
+  zitat: Negative Ergebnisbeiträge (insbesondere aus nachlaufenden Kosten wie Gewährleistungen u.Ä.) sind ausreichend zu berücksichtigen.
 - regel: Verrechnungsverbot gilt auch für artgleiche und kausal zusammenhängende Aufwendungen und Erträge
   quelle: hwp-bur-2023__rz-0067-s071
   zitat: Das Verbot der Verrechnung von Aufwand und Ertrag bezieht sich auch auf artgleiche Aufwendungen und Erträge und auf solche mit engem kausalem Zusammenhang.
@@ -231,13 +275,23 @@ fallstricke:
 - text: Befragung allein genügt bei wesentlichem direktem Aufwand nicht; Antworten mit Analytik und/oder Detailprüfungen ergänzen.
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
-- text: 'Der Agent kann nicht selbst befragen: Befragungsschritte nur mit schriftlicher Antwort auswerten, sonst Pendenz; Fragen und Antworten dokumentieren, sonst ist die Befragung
-    kein Prüfungsnachweis.'
+- text: 'Der Agent kann nicht selbst befragen: Befragungsschritte nur mit schriftlicher Antwort auswerten, sonst Frage als Pendenz für WP/Mandatsleitung; kein direkter Kundenkontakt.'
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+- text: Wesentliche Fragen und Antworten dokumentieren, sonst ist die Befragung kein Prüfungsnachweis.
   quelle: hwp-er-2026__rz-0103-s197
   zitat: Ansonsten ist die Befragung als Prüfungsnachweis ungeeignet.
+- text: SER Anh. D p) empfiehlt für den Materialaufwand nur Befragung und Margenvergleich; Belegeinsicht/Cut-off sind weiter gehend und setzen einen Auslöser voraus. Anh.-D-Stellen anderer
+    Positionen (i, l, q, r, t) nur als gekennzeichnete Analogie zitieren.
+  quelle: ser-2022__6-2-3
+  zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
 - text: Analytik kann kompensierende Fehler übersehen; Erklärungen aus der Abweichungsanalyse sind zu plausibilisieren.
   quelle: ser-2022__6-1-2-t3
   zitat: die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren
+- text: 'Margenvergleich nicht nur auf Nettoerlöse beziehen: Im Projekt-/POC-Geschäft verzerren Bestandesänderungen an angefangenen Arbeiten (z.B. Vorzeichenwechsel gegenüber Vorjahr)
+    die Bruttomarge; Bezugsgrösse ist die Gesamtleistung.'
+  quelle: hwp-bur-2023__rz-0235-s115
+  zitat: Gesamtleistung (Nettoerlös zuzüglich oder abzüglich der Bestandsänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen)
 - text: In KMU verzerren Bildung/Auflösung stiller Reserven (z.B. Vorratsreserven) Material- und Margenzahlen; vor der Analyse bereinigen.
   quelle: hwp-er-2026__rz-0110-s199
   zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden, und bereinigt die Zahlen entsprechend
@@ -250,9 +304,12 @@ fallstricke:
 - text: Keine repräsentative Stichprobe ziehen; bewusste Auswahl (grosse, ungewöhnliche, stichtagsnahe Posten) begründen.
   quelle: ser-2022__6-1-3
   zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
-- text: SCH2-303 ist im SER eine weiter gehende Prüfungshandlung und im Katalog WP-gekennzeichnet; ob der Agent sie vorbereitet, ist offen (Entscheid consis).
+- text: SCH2-303 ist im SER eine weiter gehende Prüfungshandlung und im Katalog WP-gekennzeichnet; ob der Agent WP-Schritte vorbereitet, ist der wichtigste offene Entscheid (consis).
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+- text: Die Standardauswahl für Detailprüfungen ist nur ein Konzeptvorschlag und noch nicht bestätigt; Vorgaben des WP je Mandat/Prüffeld gehen vor.
   quelle: konzept-ki-revisionsagent-2026__c015-2
-  zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  zitat: 'Zu bestätigen: Standardauswahl und wo der Wirtschaftsprüfer seine Vorgabe erfasst.'
 - text: Lieferantenrabatte, Gutschriften oder nachträgliche Rechnungen werden gerne als ausserordentlich bzw. periodenfremd ausgewiesen, um das Betriebsergebnis zu verbessern; Begriffe
     eng auslegen.
   quelle: hwp-bur-2023__rz-0800-s330-t2
@@ -260,25 +317,31 @@ fallstricke:
 - text: Sporadische oder unüblich grosse Posten aus der normalen Geschäftstätigkeit sind nicht deshalb ausserordentlich.
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Sporadisch wiederkehrende Geschäftsvorfälle hingegen sind nicht periodenfremd bzw. ausserordentlich, nur weil sie unregelmässig anfallen.
-- text: Bei Absatzerfolgsrechnung enthält der direkte Aufwand auch Personal und Abschreibungen der Herstellung; Margenvergleich und Anhangangaben (Personalaufwand, Abschreibungen) entsprechend
-    anpassen.
-  quelle: or__art-959b-t2
-  zitat: Bei der Absatzerfolgsrechnung müssen im Anhang zudem der Personalaufwand sowie in einer Position Abschreibungen und Wertberichtigungen
+- text: 'Bei Absatzerfolgsrechnung umfasst die Position die Anschaffungs- oder Herstellungskosten der verkauften Produkte und Leistungen; Personalaufwand und Abschreibungen sind zusätzlich
+    im Anhang anzugeben (Art. 959b Abs. 4 OR). Schlussfolgerung: Margen sind nicht direkt mit einer Produktionserfolgsrechnung vergleichbar (Abschreibungsanteil: HWP BuR Rz 793; Personalanteil
+    der Herstellung: Praxis, ohne Fundstelle).'
+  quelle: or__art-959b-t1
+  zitat: Anschaffungs- oder Herstellungskosten der verkauften Produkte und Leistungen
 - text: Erleichterung von Art. 958b Abs. 2 OR (Abstellen auf Ausgaben) nur bei Nettoerlösen bzw. Finanzerträgen bis CHF 100'000 – bei grösseren Gesellschaften ist die zeitliche Abgrenzung
     zwingend.
   quelle: or__art-958b
   zitat: Sofern die Nettoerlöse aus Lieferungen und Leistungen oder die Finanzerträge 100 000 Franken nicht überschreiten, kann auf die zeitliche Abgrenzung verzichtet
-- text: Cut-off-Prüfung mit den Prüffeldern Kreditoren und passive Rechnungsabgrenzungen abstimmen (gleiche Belege, keine Doppelarbeit, Feststellungen gegenseitig verweisen).
+- text: Die Vollständigkeit von Kreditoren und passiven Rechnungsabgrenzungen wird in eigenen Prüffeldern befragt (SER Anh. D i) und l)); Cut-off-Arbeiten damit abstimmen – gleiche Belege,
+    keine Doppelarbeit, Feststellungen gegenseitig verweisen (Praxis).
+  quelle: ser-2022__anh-d-s087-1
+  zitat: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rech
 fragen_kunde:
 - frage: Zu welchem Zeitpunkt erfassen Sie Material-, Waren- und Fremdleistungsaufwand (Lieferung/Leistungserbringung oder Rechnungseingang), und wie behandeln Sie Bestandesänderungen,
     Rabatte, Skonti, Rückvergütungen und Fremdwährungseinkäufe? Gab es Änderungen gegenüber dem Vorjahr?
   zweck: SCH2-101 Grundsätze der Verbuchung, Stetigkeit
 - frage: Wie stellen Sie sicher, dass bis 31.12. erhaltene Lieferungen und Leistungen, deren Rechnung erst im Folgejahr eintrifft, als Kreditor oder passive Abgrenzung erfasst werden?
     Wer kontrolliert das?
-  zweck: SCH2-101 zeitliche Abgrenzung, Vorbereitung SCH2-303
+  zweck: 'SCH2-101 zeitliche Abgrenzung (vgl. SER Anh. D i): Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde); Grundlage für Entscheid WP zu SCH2-303'
 - frage: Wie erfassen Sie Umsätze (Zeitpunkt Lieferung/Abnahme bzw. Leistungsfortschritt), und wie wird der zugehörige Material- und Fremdleistungsaufwand denselben Projekten bzw. derselben
     Periode zugeordnet?
   zweck: SCH2-101 Umsatz und Waren-/Materialaufwand, sachliche Abgrenzung
+- frage: Wie ermitteln Sie bei POC-Projekten den Fertigstellungsgrad, die erwarteten Gesamtkosten und die nachlaufenden Kosten (Gewährleistung, Garantiearbeiten)?
+  zweck: SCH2-101, SCH2-201 Marge je Projekt; Risiko POC/Garantie
 - frage: Welche Gründe haben die wesentlichen Veränderungen der einzelnen Konten des direkten Aufwands gegenüber Vorjahr und Budget (beiliegende Abweichungsliste)?
   zweck: SCH2-102, SCH2-202 Ursachen signifikanter Änderungen
 - frage: Wie haben sich die Bruttomargen je Produktkategorie bzw. Projekt entwickelt (Einkaufs- und Verkaufspreise, Produktmix, Verlustprojekte, Garantiearbeiten)?
@@ -287,85 +350,94 @@ fragen_kunde:
     Rechnungen, die frühere Jahre betreffen?
   zweck: SCH2-302/303 Periodenabgrenzung, periodenfremde Posten
 - frage: Bestehen Einkäufe oder Fremdleistungen von Aktionären, Organen oder ihnen nahestehenden Personen/Gesellschaften, und zu welchen Konditionen?
-  zweck: Risiko Nahestehende, Drittvergleich
+  zweck: Risiko Nahestehende, Drittvergleich, Offenlegung
 - frage: Wurden Wertberichtigungen oder pauschale Reserven auf Vorräten gebildet oder aufgelöst, die den Materialaufwand beeinflussen?
   zweck: Stille Reserven, Anhangangabe Nettoauflösung
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'Blatt «Erfolgsrechnung»: Konten des direkten Aufwands (4201–4209, 4300–4305, 4400–4404, 4902) und Nettoerlöse/Bestandesänderung (3200, 3201, 3400, 3900) mit Vorjahr – SCH2-102,
-    SCH2-201, SCH2-202 a/d'
+  bezug: 'Blatt «Erfolgsrechnung» (Vorzeichen: Ertrag positiv, Aufwand negativ): direkter Aufwand 4201–4209, 4300–4305, 4400–4404, 4902; Nettoerlöse 3200, 3201, 3205, 3400, Erlösminderung
+    3800, Bestandesänderung angefangene Arbeiten 3900 (Vorzeichenwechsel ggü. VJ) – SCH2-102, SCH2-201 (Gesamtleistung), SCH2-202 a/d; Blatt «Bilanz» Vorräte 1201–1205/1290 – SCH2-302'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
   bezug: Erfolgsrechnung Block «Direkter Aufwand»; Anhang Ziff. 1 (Grundsätze), Ziff. 3 (ausserordentliche Aufwände/Erträge, u.a. Lieferantenrabatt, nachträgliche Buchungen Vorjahr),
-    Ziff. 4 (POC-Methode, Warenvorräte) – SCH2-101, SCH2-202, SCH2-302
+    Ziff. 4 (POC-Methode, Warenvorräte) – SCH2-101, SCH2-201, SCH2-202, SCH2-302
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
   bezug: Gemäss Belegverzeichnis nur Bilanzkonten und Konto 8510, keine Kontoblätter 4xxx; Gegenbuchungen auf Aufwand und Lieferantenzahlungen in Geld- und Kreditorenkonten – SCH2-202
     b, SCH2-301 (Kontoblätter 4xxx als PBC anfordern)
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
-  bezug: Blatt «2000 Kreditoren 2026» mit Gegenkonten 4201/4400/4401 und Leistungszeiträumen – SCH2-303, SCH2-302
+  bezug: Blatt «2000 Kreditoren 2026» mit Gegenkonten 4201/4400/4401 und Leistungszeiträumen – SCH2-302, SCH2-303
 - datei: 00_Allgemein/Belegverzeichnis.md
-  bezug: Übersicht der gelieferten Unterlagen; Basis für PBC-Pendenzen (Lieferantenrechnungen, Margenstatistik, Budget) – SCH2-201, SCH2-202 c, SCH2-301
+  bezug: Übersicht der gelieferten Unterlagen; Basis für PBC-Pendenzen (Lieferantenrechnungen, Margenstatistik, Budget, Liste Nahestehende) – SCH2-201, SCH2-202 c, SCH2-301
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
-  bezug: Geschäftstätigkeit (PV-Kraftwerke, Handel Solarkomponenten) für Produktkategorien und Erwartungen; Ansprechpersonen für Befragung – SCH2-101, SCH2-102, SCH2-201
+  bezug: Geschäftstätigkeit (PV-Kraftwerke, Handel Solarkomponenten) für Produktkategorien und Erwartungen; Ansprechpersonen für Pendenzen – SCH2-101, SCH2-102, SCH2-201
 - datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
-  bezug: Eingangsrechnungen Januar 2026 mit Rechnungsdatum, Leistungstext und Aufwandkonto – SCH2-303
+  bezug: Eingangsrechnungen Januar 2026 mit Rechnungsdatum, Leistungstext und Aufwandkonto – SCH2-302, SCH2-303
 - datei: H_Kreditoren/Kreditoren_OP_Liste_31.12.2025.md
-  bezug: Offene Lieferantenrechnungen per Stichtag (Rechnungen Dezember) – SCH2-303 Gegenprobe, SCH2-301 Stichprobe
+  bezug: Offene Lieferantenrechnungen per Stichtag (Rechnungen Dezember) – SCH2-303 Gegenprobe, SCH2-301 Auswahl
 - datei: H_Kreditoren/Lieferantenrechnung_Teststein_2025-1187_Scan.md
   bezug: Einzelbeleg Montageleistung (Scan mit Eingangsstempel, ohne Transkription) – SCH2-303, SCH2-301
 - datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
-  bezug: Liste passive Abgrenzungen Konto 2300 – SCH2-303 Abgleich mit nachträglich eingegangenen Rechnungen
+  bezug: Liste passive Abgrenzungen Konto 2300 – SCH2-303 Abgleich mit nachträglich eingegangenen Rechnungen; Garantierückstellungen als Bezug zu Konto 4404
 - datei: D_Vorraete/Inventarliste_31.12.2025.md
-  bezug: Bestände Handelswaren/Material (Konten 1201, 1202, 1205) – SCH2-202 e, SCH2-302 Bestandesänderungen 4207–4209
+  bezug: Bestände Handelswaren/Material (Konten 1201, 1202, 1205) und Wertberichtigung 1290 – SCH2-202 e, SCH2-302 Bestandesänderungen 4207–4209 (Vorzeichen beachten)
 - datei: E_Angefangene_Arbeiten_Anzahlungen/Projektliste_Angefangene_Arbeiten_31.12.2025.md
-  bezug: Einzelkosten je Projekt und Gemeinkostenzuschlag – SCH2-201 Marge je Projekt, SCH2-302 sachliche Abgrenzung
+  bezug: Einzelkosten je Projekt und Gemeinkostenzuschlag – SCH2-201 Marge je Projekt, SCH2-302 sachliche Abgrenzung, Bestandesänderung 3900
 - datei: J_Uebrige_kurzfristige_Verbindlichkeiten/MWST_Abrechnungen_2025_Zusammenzug.md
   bezug: Vorsteuer je Periode als andere Unterlage zur Plausibilisierung des Einkaufsvolumens – SCH2-202 e
 schritte:
 - id: SCH2-101
-  vorgehen: 'Agent befragt nicht: schriftliche Antwort (revio 10.11, Kontierungsrichtlinien) auswerten, sonst Fragen als Pendenz an Finanzen/GF: Erfassungszeitpunkt Material/Fremdleistungen
-    (Lieferung vs. Rechnung), Abgrenzung von Rechnungen nach Stichtag, Umsatzerfassung, Bestandesänderungen, Rabatte/Skonti, Fremdwährung, Änderungen ggü. Vorjahr. Antworten mit Anhang
-    (Grundsätze) und Buchungspraxis abgleichen; Kernaussagen schriftlich bestätigen lassen.'
+  vorgehen: 'Agent befragt nicht: schriftliche Antwort (revio 10.11, Richtlinien) auswerten, sonst Fragen als Pendenz für WP/Mandatsleitung: Erfassungszeitpunkt Aufwand, Abgrenzung nach
+    Stichtag, Umsatzerfassung/POC, Bestandesänderungen, Rabatte/Skonti, Fremdwährung, Änderungen ggü. VJ. Antworten mit Anhang und Buchungspraxis abgleichen. Bedarf an schriftlicher
+    Bestätigung der Kernaussagen (SER: «allenfalls») als Pendenz; kein direkter Kundenkontakt.'
   nachweise:
   - Schriftliche Antwort Kundenbefragung (revio 10.11) bzw. Aktennotiz
   - Kontierungs-/Abgrenzungsrichtlinien, Kontenplan 4xxx
-  - Anhang Jahresrechnung (Grundsätze, Bewertung)
+  - Anhang Jahresrechnung (Grundsätze, Bewertung, POC)
   rechnen: ''
   feststellung_wenn: Antwort fehlt (Pendenz) oder widerspricht Buchungspraxis/Anhang, z.B. Aufwand erst bei Rechnungseingang ohne Abgrenzung oder geänderte Grundsätze ohne Offenlegung.
   fundstellen:
   - quelle: ser-2022__anh-d-s092-1
     zitat: Befragung über die Grundsätze und zeitliche Abgrenzung bei der Verbuchung von Umsätzen und Waren-/Materialaufwand
+  - quelle: ser-2022__anh-d-s084-1
+    zitat: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
   - quelle: ser-2022__anh-d-s072-1
     zitat: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze
   - quelle: ser-2022__6-1-1-t1
     zitat: Um Missverständnisse zu vermeiden, sind die Kernaussagen vom Befragten allenfalls schriftlich bestätigen zu lassen.
   - quelle: hwp-er-2026__rz-0101-s197
     zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: SCH2-102
-  vorgehen: Aus dem Saldovergleich (SCH2-202 a) alle 4xxx-Konten mit Abweichung über der Schwelle (Vorgabe WP, z.B. Anteil Toleranzwesentlichkeit) auflisten; Erklärung je Konto schriftlich
-    einholen (Pendenz) oder vorhandene Antwort auswerten. Erklärungen kritisch mit Umsatz-, Projekt- und Margenentwicklung abgleichen; nicht plausible Antworten nachverfolgen und Frage/Antwort
-    im Textfeld festhalten.
+  vorgehen: Wortlaut wie SER Anh. D q) (Analogie; gleich in i) und t)). Aus Saldovergleich (SCH2-202 a) 4xxx-Konten mit Abweichung über der Schwelle (vertretbare Differenz, Vorgabe WP)
+    auflisten; vorhandene schriftliche Erklärungen auswerten, fehlende als Pendenz für WP/Mandatsleitung. Erklärungen kritisch mit Umsatz-, Projekt- und Margenentwicklung abgleichen;
+    Nachfragen zu nicht plausiblen Antworten als Pendenz; Frage/Antwort im Textfeld.
   nachweise:
   - Saldoliste Erfolgsrechnung Berichts-/Vorjahr
   - Abweichungsliste 4xxx
   - Schriftliche Erklärungen Finanzen/GF
-  rechnen: Abweichung je Konto = Saldo BJ − Saldo VJ (CHF und %); Auswahl Konten mit |Abweichung| > Schwelle
+  rechnen: Abweichung je Konto = Saldo BJ − Saldo VJ (CHF und %); Auswahl Konten mit |Abweichung| > Schwelle (noch vertretbare Differenz, Vorgabe WP)
   feststellung_wenn: Wesentliche Abweichung ohne plausible Erklärung oder Erklärung im Widerspruch zu Umsatz-, Projekt- oder Margenentwicklung.
   fundstellen:
   - quelle: ser-2022__anh-d-s093-1
     zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: die Höhe der Differenzen zwischen den ausgewiesenen Beträgen und den erwarteten Werten, die für den Abschlussprüfer als noch vertretbar gelten können
   - quelle: ser-2022__6-1-1-t2
     zitat: Die erhaltenen Antworten sind kritisch zu würdigen.
   - quelle: hwp-er-2026__rz-0102-s197
     zitat: Diskrepanzen zwischen den erhaltenen Antworten und seinen Kenntnissen über das Unternehmen geht der Abschlussprüfer nach.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
 - id: SCH2-201
-  vorgehen: Nettoerlös, direkten Aufwand (inkl. Bestandesänderungen) und Bruttomarge je Produktkategorie/Geschäftsbereich für Berichts- und Vorjahr berechnen; bei Projektgeschäft Marge
-    je Projekt aus Projektliste/Nachkalkulation. Margenveränderungen in Prozentpunkten analysieren, Erwartung aus Geschäftskenntnis bilden, Ursachen (Preise, Mix, Verlustprojekte, Cut-off)
-    mit Befragung bzw. Pendenz klären und dokumentieren.
+  vorgehen: Je Produktkategorie (BJ, VJ) Gesamtleistung, direkten Aufwand und Bruttomarge berechnen; bei Projektgeschäft Marge je Projekt aus Projektliste/Nachkalkulation. Erlösminderungen
+    und Bestandesänderung angefangene Arbeiten ausdrücklich zuordnen. Margenveränderung in Prozentpunkten mit Erwartung aus Geschäftskenntnis vergleichen; Ursachen (Preise, Mix, Verlustprojekte,
+    Garantie, Cut-off) aus schriftlichen Antworten bzw. als Pendenz dokumentieren.
   nachweise:
   - Saldoliste/Erfolgsrechnung Berichts- und Vorjahr
   - Margen-/Deckungsbeitragsstatistik je Kategorie
   - Projektliste bzw. Nachkalkulation
-  rechnen: Bruttomarge % = (Nettoerlös − direkter Aufwand) / Nettoerlös je Kategorie und Jahr; Δ Marge = Marge BJ − Marge VJ (Prozentpunkte)
+  rechnen: Gesamtleistung = Nettoerlöse (nach Erlösminderungen, z.B. Skonti) ± Bestandesänderungen an unfertigen/fertigen Erzeugnissen und nicht fakturierten Dienstleistungen (Testakte
+    3900); Bruttomarge % = (Gesamtleistung − direkter Aufwand inkl. Bestandesänderung Handelswaren 4207–4209) / Gesamtleistung je Kategorie und Jahr; Δ Marge = Marge BJ − Marge VJ (Prozentpunkte)
   feststellung_wenn: Marge weicht wesentlich von Vorjahr/Erwartung ab ohne plausible Erklärung oder Aufwand und zugehöriger Ertrag fallen zeitlich auseinander (Hinweis auf Cut-off-/Matching-Fehler).
   fundstellen:
   - quelle: ser-2022__anh-d-s092-1
@@ -374,21 +446,30 @@ schritte:
     zitat: z. B. Bruttomarge oder Sozialaufwand in Prozenten der Löhne
   - quelle: hwp-er-2026__rz-0031-s183
     zitat: Vergleiche wichtiger Kennzahlen (Margen, Liquiditätsgrade, Umschlagshäufigkeiten im Umlaufvermögen, Eigenkapitalanteil etc.) sind in der Regel nützlich und effizient.
+  - quelle: or__art-959b-t1
+    zitat: Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen
+  - quelle: hwp-bur-2023__rz-0235-s115
+    zitat: Gesamtleistung (Nettoerlös zuzüglich oder abzüglich der Bestandsänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstleistungen)
+  - quelle: hwp-bur-2023__rz-0757-s319
+    zitat: Diese Position bezweckt einen periodengerechten Ergebnisausweis
 - id: SCH2-202
-  vorgehen: a) Saldovergleich aller 4xxx-Konten mit Vorjahr; b) Kontoblätter auf hohe/ungewöhnliche Beträge durchsehen (Vorzeichen, runde Beträge, Stichtagsnähe, Korrekturen); c) Budgetvergleich,
-    falls verlässliches Budget vorliegt; d) Margenvergleich aus SCH2-201; e) andere Unterlagen (Inventar, Projektliste, Vorsteuer). Ursache je signifikanter Änderung im Textfeld umschreiben,
-    Einfluss stiller Reserven bereinigen.
+  vorgehen: a) Saldovergleich aller 4xxx-Konten mit VJ; b) Kontoblätter kritisch auf hohe/ungewöhnliche Beträge durchsehen (Vorzeichen, runde Beträge, Stichtagsnähe, Korrekturen; SER
+    Anh. D r) nur analog, dort weiter gehend); c) Budgetvergleich, falls Budget verlässlich; d) Margenvergleich aus SCH2-201; e) andere Unterlagen (Inventar, Projektliste, Vorsteuer).
+    Ursache je signifikanter Änderung im Textfeld umschreiben, Einfluss stiller Reserven bereinigen.
   nachweise:
   - Saldoliste Berichts-/Vorjahr
   - Kontoblätter 4xxx
   - Budget/Forecast
   - Inventarlisten, Projektliste, MWST-Abrechnungen
-  rechnen: Δ je Konto = Saldo BJ − Saldo VJ; Aufwandquote = direkter Aufwand / Nettoerlös (BJ, VJ); Budgetabweichung = Ist − Budget
+  rechnen: Δ je Konto = Saldo BJ − Saldo VJ; Aufwandquote = direkter Aufwand (inkl. Bestandesänderung Handelswaren 4207–4209) / Gesamtleistung (Definition wie SCH2-201; BJ, VJ); Budgetabweichung
+    = Ist − Budget; signifikant, wenn |Δ| > Schwelle (Vorgabe WP)
   feststellung_wenn: Signifikante Änderung nicht erklärbar, ungewöhnliche Einzelbuchung ohne Begründung oder Hinweis auf Fehlklassierung (z.B. Rabatte bzw. Vorjahresrechnungen im ausserordentlichen
     Ergebnis).
   fundstellen:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: bestimmte Aufwands- oder Ertragskonten
   - quelle: ser-2022__anh-d-s094-1
     zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
   - quelle: hwp-er-2026__rz-0109-s199
@@ -397,35 +478,47 @@ schritte:
     zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen oder diesbezüglichen Erwartungen des Abschlussprüfers
   - quelle: ser-2022__6-1-2-t2
     zitat: Einfluss der Bildung oder Auflösung stiller Reserven auf die ausgewiesenen Werte in der Jahresrechnung.
+  - quelle: hwp-er-2026__rz-0110-s199
+    zitat: die Höhe der Differenzen zwischen den ausgewiesenen Beträgen und den erwarteten Werten, die für den Abschlussprüfer als noch vertretbar gelten können
 - id: SCH2-301
-  vorgehen: 'Bewusste Auswahl aus den 4xxx-Konten (Posten über Toleranzwesentlichkeit, ungewöhnliche, stichtagsnahe Posten, Nahestehende; Auswahl begründen). Je Posten Lieferantenrechnung/Vertrag
-    in M-Files mit Buchung abgleichen: Betrag, Währung, Datum/Leistungsperiode, Kontierung, Empfänger = Gesellschaft, Geschäftsbezug, keine Doppelerfassung. Fehlende Belege als PBC-Pendenz
-    erfassen.'
+  vorgehen: 'Bewusste Auswahl aus 4xxx-Konten, Umfang nach Wesentlichkeit und Risiko begründen. Standardauswahl gemäss Konzeptvorschlag (noch nicht bestätigt; Vorgabe WP je Mandat/Prüffeld
+    geht vor): Posten über Toleranzwesentlichkeit, ungewöhnliche, stichtagsnahe Posten, Nahestehende. Je Posten Beleg/Vertrag in M-Files mit Buchung abgleichen (Betrag, Währung, Periode,
+    Konto, Empfänger, Geschäftsbezug, Doppelerfassung); fehlende Belege als PBC-Pendenz.'
   nachweise:
   - Kontoblätter 4xxx
   - Lieferantenrechnungen/Gutschriften der Auswahl
   - Verträge, Zahlungsbelege
+  - Liste nahestehender Personen/Vollständigkeitserklärung
   rechnen: Abdeckung = Σ geprüfte Posten / Saldo Konto; Differenz je Posten = Betrag Beleg − Betrag Buchung
   feststellung_wenn: Beleg fehlt, lautet nicht auf die Gesellschaft, ohne Geschäftsbezug, Betrag/Konto/Periode weicht ab oder Doppelerfassung.
   fundstellen:
-  - quelle: ser-2022__anh-d-s096-1
-    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  - quelle: ser-2022__6-1-3
+    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht
+  - quelle: ser-2022__6-1-1-t1
+    zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0116-s201
     zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
+  - quelle: ser-2022__anh-d-s096-1
+    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
   - quelle: konzept-ki-revisionsagent-2026__c015-2
     zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit, ungewöhnliche Posten (Vorzeichen, runde Beträge, Stichtagsnähe, nahestehende Personen)
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: 'Zu bestätigen: Standardauswahl und wo der Wirtschaftsprüfer seine Vorgabe erfasst.'
 - id: SCH2-302
-  vorgehen: 'Kontoblätter 4xxx kritisch durchsehen – sachlich: richtiges Konto, Abgrenzung zu übrigem Aufwand/Investitionen, Rabatte/Skonti als Aufwandminderung, keine Verrechnung mit
-    Ertrag, Fremdwährung; zeitlich: Buchungen Dezember/Januar, Storni, Rechnungen Vorjahr, Bestandesänderungen gemäss Inventar. Auffälligkeiten mit Beleg klären und im Textfeld festhalten.'
+  vorgehen: 'Kontoblätter 4xxx kritisch durchsehen, Umfang nach Wesentlichkeit/Risiko begründen. Sachlich: richtiges Konto, Abgrenzung zu übrigem Aufwand/Investitionen, Rabatte/Skonti
+    als Aufwandminderung, keine Verrechnung mit Ertrag, Fremdwährung. Zeitlich: Buchungen Dez./Jan., Storni, Rechnungen Vorjahr, Bestandesänderungen gemäss Inventar. Auffälligkeiten
+    mit Beleg klären und im Textfeld festhalten.'
   nachweise:
   - Kontoblätter 4xxx
   - Inventarlisten Berichts-/Vorjahr
   - Belege zu auffälligen Buchungen
-  rechnen: Bestandesänderung Handelswaren = Inventarwert 31.12. VJ − Inventarwert 31.12. BJ, Abgleich mit Konten Bestandesänderung
+  rechnen: 'Bestandesänderung Handelswaren = Inventarwert 31.12. VJ − Inventarwert 31.12. BJ (Einstandswerte); positiver Wert = Bestandesabnahme = Mehraufwand, negativer Wert = Bestandeszunahme
+    = Aufwandminderung; Abgleich mit Σ Salden Bestandesänderungskonten (Testakte 4207–4209) unter Beachtung der Buchungsrichtung (Soll/Haben) bzw. Vorzeichenkonvention der Saldoliste
+    (Testakte: Aufwand negativ, Mehraufwand = negativer Saldo); Wertberichtigung 1290 separat abstimmen'
   feststellung_wenn: Fehlkontierung, unzulässige Verrechnung, Aufwand früherer Perioden nicht als periodenfremd erkennbar, Rabatte/Gutschriften falsch klassiert oder Bestandesänderung
     nicht abstimmbar.
   fundstellen:
@@ -437,25 +530,38 @@ schritte:
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
   - quelle: or__art-958c
     zitat: Aktiven und Passiven sowie Aufwand und Ertrag dürfen nicht miteinander verrechnet werden.
+  - quelle: hwp-bur-2023__rz-0232-s114
+    zitat: Diese Bestandsänderungen können direkt im Waren- oder Materialaufwand erfasst werden.
+  - quelle: ser-2022__6-1-3
+    zitat: Einsicht in Belege, Abstimmung mit Auszügen, Durchsicht von Belegen in neuer Rechnung usw.
 - id: SCH2-303
-  vorgehen: 'WP-Schritt: nur vorbereiten, Entscheid beim WP. Rechnungen, Lieferscheine und Leistungsrapporte im Zeitfenster vor und nach 31.12. (Vorgabe WP) aus Kreditorenjournal/Kontoblättern
-    neuer Rechnung, OP-Liste und PRA-Liste auswählen; Liefer-/Leistungsdatum mit Buchungsperiode vergleichen. Leistungen BJ ohne Kreditor/Abgrenzung und Lieferungen Folgejahr im BJ auflisten
-    und summieren.'
+  vorgehen: 'WP-Schritt; gemäss SER weiter gehend. Nur bearbeiten, wenn consis WP-Schritte für den Agenten freigegeben hat und der WP ihn anordnet (Auslöser: Hinweise auf Abgrenzungsfehler
+    aus SCH2-101/201/202 oder erhöhtes inhärentes Risiko). Sonst Textfeld «nicht bearbeitet – Entscheid WP» mit beobachteten Auslösern; Visum offen. Bei Anordnung: Rechnungen/Lieferpapiere
+    im Zeitfenster um 31.12. (Vorgabe WP) mit Buchungsperiode und OP-/PRA-Liste abgleichen.'
   nachweise:
   - Kreditorenjournal/Kontoblätter Folgejahr
   - Eingangsrechnungen mit Leistungsdatum
   - Lieferscheine/Wareneingänge, Montagerapporte
   - Kreditoren-OP-Liste, Liste passive Abgrenzungen 31.12.
-  rechnen: Cut-off-Differenz = Σ Leistungen/Lieferungen ≤ 31.12. erst in neuer Rechnung gebucht und nicht abgegrenzt − Σ Leistungen/Lieferungen > 31.12. im Berichtsjahr gebucht
-  feststellung_wenn: Nicht abgegrenzte Leistungen/Lieferungen einzeln oder kumuliert über Schwelle bzw. Toleranzwesentlichkeit, oder Aufwand des Folgejahres im Berichtsjahr erfasst.
+  rechnen: A = Σ Leistungen/Lieferungen ≤ 31.12., die weder als Kreditor noch als passive Abgrenzung erfasst sind (Aufwand zu tief); B = Σ Leistungen/Lieferungen > 31.12., die im Berichtsjahr
+    gebucht sind (Aufwand zu hoch); A und B je einzeln mit Schwelle/Toleranzwesentlichkeit vergleichen; Nettoeffekt A − B nur ergänzend ausweisen
+  feststellung_wenn: A oder B einzeln über Schwelle bzw. Toleranzwesentlichkeit, oder Aufwand des Folgejahres im Berichtsjahr erfasst.
   fundstellen:
   - quelle: ser-2022__anh-d-s092-1
     zitat: Einsicht in Rechnungen und Lieferpapiere vor und nach dem Periodenende zur Prüfung der richtigen zeitlichen Abgrenzung
+  - quelle: ser-2022__anh-d-s092-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: ser-2022__6-2-3
+    zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
+  - quelle: ser-2022__6-2-3
+    zitat: ein erhöhtes inhärentes Risiko für wesentliche Fehlaussagen in der Jahresrechnung besteht
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
+  - quelle: konzept-ki-revisionsagent-2026__c015-2
+    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
   - quelle: ser-2022__anh-d-s084-2
     zitat: Durchsicht von Wareneingangsbelegen für erhaltene Lieferungen kurz vor oder nach dem Jahresende
   - quelle: ser-2022__anh-d-s094-1
     zitat: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
-  - quelle: ser-2022__6-2-3
-    zitat: Weiter gehende Prüfungshandlungen werden in der Regel nur dann durchgeführt, wenn
-  - quelle: konzept-ki-revisionsagent-2026__c015-2
-    zitat: Darf der Agent WP-Schritte (Wirtschaftsprüfer) vorbereiten, oder lässt er sie aus?
+  - quelle: ser-2022__6-1-2-t3
+    zitat: Zudem besteht das Risiko, dass sich zwei oder mehrere Fehlaussagen teilweise kompensieren können

@@ -86,6 +86,9 @@ def pick(res: dict, key: str):
     return res.get(f"korrigieren:{key}") or res.get(f"erfassen:{key}")
 
 
+CODES = None   # optional: nur diese Prüffelder übernehmen (--codes)
+
+
 def prueffelder(res: dict, heute: str):
     kat = yaml.safe_load((R / "data" / "katalog.yaml").read_text(encoding="utf-8"))
     ids_by = collections.defaultdict(list)
@@ -94,6 +97,8 @@ def prueffelder(res: dict, heute: str):
     n = 0
     for p in kat["prueffelder"]:
         c = p["code"]
+        if CODES and c not in CODES:
+            continue
         d = pick(res, c)
         if not d:
             continue
@@ -266,7 +271,10 @@ def main():
     ap.add_argument("--runs", nargs="+", required=True)
     ap.add_argument("--nur", nargs="*", default=["prueffelder", "prozess", "werte", "revio", "themen", "testfall"])
     ap.add_argument("--revio-out", default=None, help="Ordner mit werkzeuge_klassifiziert.csv")
+    ap.add_argument("--codes", nargs="*", help="nur diese Prüffelder (Daten anderer Prüffelder bleiben unangetastet)")
     a = ap.parse_args()
+    global CODES
+    CODES = set(a.codes) if a.codes else None
     res = {}
     for d in a.runs:
         res.update(journal(Path(d)))

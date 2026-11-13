@@ -4,19 +4,23 @@ bezeichnung: Übriger betrieblicher Aufwand
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 14
-    korrigiert: false
-kurzbeschrieb: 'Position nach Art. 959b Abs. 2 Ziff. 5 OR (u.a. Raum-, Unterhalts-, Fahrzeug-, Versicherungs-, Energie-, Verwaltungs-, IT- und Werbeaufwand). Eingeschränkte Revision:
-  Vorjahres-/Budgetvergleich mit Befragung zu wesentlichen Abweichungen; Detailprüfungen (Belege, ungewöhnliche Beträge, neue Rechnung) nur weitergehend. Fokus: Eintritt, Vollständigkeit,
-  Periodenabgrenzung, Ausweis.'
+    korrigiert: true
+kurzbeschrieb: 'Position nach Art. 959b Abs. 2 Ziff. 5 OR (u.a. Raum-, Unterhalts-, Fahrzeug-, Versicherungs-, Verwaltungs-, IT-, Werbeaufwand). SER Anhang D r): Vorjahresvergleich mit
+  Befragung über Gründe wesentlicher Abweichungen (Befragung ist Teil der Analytik); Belegabstimmung, Durchsicht ungewöhnlicher Beträge und neue Rechnung nur weitergehend (WP). Fokus:
+  EN, VO, PA, RI (EX bei Detail) sowie Ausweis.'
 gesetz:
 - thema: 'Mindestgliederung Produktionserfolgsrechnung: übriger betrieblicher Aufwand als eigene Position (Art. 959b Abs. 2 Ziff. 5 OR)'
   quelle: or__art-959b-t1
   zitat: 5. übriger betrieblicher Aufwand;
-- thema: 'Absatzerfolgsrechnung: Ausweis als Verwaltungs- und Vertriebsaufwand (Art. 959b Abs. 3 Ziff. 3 OR)'
+- thema: 'Absatzerfolgsrechnung: übriger betrieblicher Aufwand funktional verteilt, u.a. auf die Anschaffungs- oder Herstellungskosten der verkauften Produkte und Leistungen (Art. 959b
+    Abs. 3 Ziff. 2 OR)'
+  quelle: or__art-959b-t1
+  zitat: Anschaffungs- oder Herstellungskosten der verkauften Produkte und Leistungen
+- thema: 'Absatzerfolgsrechnung: übrige Anteile als Verwaltungs- und Vertriebsaufwand (Art. 959b Abs. 3 Ziff. 3 OR)'
   quelle: or__art-959b-t1
   zitat: Verwaltungsaufwand und Vertriebsaufwand
 - thema: Weitere Positionen einzeln ausweisen, wenn für Dritte wesentlich oder branchenüblich (Art. 959b Abs. 5 OR)
@@ -37,13 +41,17 @@ gesetz:
 - thema: Stetigkeit von Darstellung und Bewertung (Art. 958c Abs. 1 Ziff. 6 OR)
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
+- thema: Zusätzliche Abschreibungen (stille Reserven) zu Wiederbeschaffungszwecken und zur Sicherung des dauernden Gedeihens zulässig (Art. 960a Abs. 4 OR)
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
 - thema: Belegnachweis für jede Buchung (Art. 957a Abs. 2 Ziff. 2 und Abs. 3 OR)
   quelle: or__art-957a
   zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
 - thema: 'Anhang: Aufschlüsselungen und Erläuterungen zu Positionen der Erfolgsrechnung (Art. 959c Abs. 1 Ziff. 2 OR)'
   quelle: or__art-959c-t1
   zitat: Angaben, Aufschlüsselungen und Erläuterungen zu Positionen der Bilanz und der Erfolgsrechnung
-- thema: 'Anhang: Restbetrag Leasing-/langfristige Mietverpflichtungen, sofern nicht innert zwölf Monaten auslaufend oder kündbar (Art. 959c Abs. 2 Ziff. 6 OR)'
+- thema: 'Anhang: Restbetrag der Leasingverpflichtungen, sofern nicht innert zwölf Monaten auslaufend oder kündbar (Art. 959c Abs. 2 Ziff. 6 OR); Gleichstellung langfristiger Mietverträge
+    erst nach HWP BuR Rz 835 (siehe Risiken)'
   quelle: or__art-959c-t2
   zitat: der Restbetrag der Verbindlichkeiten aus kaufvertragsähnlichen Leasinggeschäften und anderen Leasingverpflichtungen
 - thema: 'Anhang: Erläuterung ausserordentlicher, einmaliger oder periodenfremder Positionen (Art. 959c Abs. 2 Ziff. 12 OR)'
@@ -79,9 +87,10 @@ risiken:
   - EN
   quelle: hwp-bur-2023__rz-0256-s215
   zitat: vorausbezahlte Miet- und Pachtzinsen, Versicherungsprämien, Steuern, Beiträge
-- text: Wertvermehrende Investitionen als Unterhalt, Reparatur oder GWG im Aufwand (bzw. Aufwand aktiviert); Verzerrung von Aufwand und Anlagevermögen.
+- text: Unterhalt, Reparaturen oder GWG aktiviert (Aufwand zu tief, Aktiven zu hoch) oder Aktivierungspraxis ohne Begründung geändert (Stetigkeit). Wertvermehrende Investitionen im Aufwand
+    sind dagegen zulässig (Aktivierungswahlrecht, stille Reserve), aber für Analytik und stille Reserven festzuhalten.
   pruefziele:
-  - RI
+  - VO
   - DO
   quelle: hwp-bur-2023__rz-0370-s236
   zitat: Unterhalt und Reparaturen sind in der Regel der Erfolgsrechnung zu belasten.
@@ -90,7 +99,8 @@ risiken:
   - DO
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Erfahrungsgemäss besteht eine gewisse Versuchung, Aufwendungen möglichst dem ausserordentlichen
-- text: Verrechnung von Aufwand mit Ertrag (z.B. Untermiet- oder Weiterverrechnungserträge, Rückerstattungen) statt Bruttoausweis.
+- text: Verrechnung von Aufwand mit echten Erträgen (z.B. Untermiet- oder Weiterverrechnungserträge) statt Bruttoausweis. Aufwandminderungen im engeren Sinn (Rückerstattungen, Gutschriften
+    zur gleichen Leistung) dürfen dagegen verrechnet werden.
   pruefziele:
   - DO
   quelle: hwp-bur-2023__rz-0067-s071
@@ -124,13 +134,18 @@ risiken:
   - VO
   quelle: hwp-bur-2023__rz-0835-s346
   zitat: Langfristige Mietverträge sind wirtschaftlich den Leasingverbindlichkeiten im engeren Sinne gleichzusetzen.
+- text: 'Schnittstelle MWST (Prüffeld M2): Privatanteile an Geschäftsaufwand und Bezugsteuer auf Dienstleistungen aus dem Ausland (z.B. Softwarelizenzen, IT 65xx) nicht abgerechnet.'
+  pruefziele:
+  - VO
+  quelle: ser-2022__anh-d-s090-1
+  zitat: ob der Privatanteil von Geschäftsaufwendungen und Dienstleistungsbezug aus dem Ausland mit MWST abgerechnet ist
 unterlagen:
 - dokument: Saldoliste Erfolgsrechnung mit Vorjahreszahlen auf Kontenebene
   zweck: Grundlage für Vorjahresvergleich und Abstimmung mit der Jahresrechnung (SCH3-101, -201, -202)
   quelle: hwp-er-2026__rz-0109-s199
   zitat: Vorjahresvergleiche → werden oft gemacht und liefern wichtige Informationen
 - dokument: Hauptbuch-Kontoblätter aller Aufwandkonten des übrigen betrieblichen Aufwands (Einzelbuchungen, inkl. Abschlussbuchungen)
-  zweck: Durchsicht auf hohe oder ungewöhnliche Beträge und Belegauswahl (SCH3-202b, -301, -303)
+  zweck: Analytische Durchsicht auf Konten-/Monatsebene (SCH3-202b); Einzelbuchungsdurchsicht und Belegauswahl nur weitergehend (SCH3-303, -301); fehlen sie, PBC-Pendenz
   quelle: ser-2022__anh-d-s094-1
   zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
 - dokument: Budget bzw. Forecast des Berichtsjahres (Kontenebene)
@@ -154,9 +169,13 @@ unterlagen:
   quelle: ser-2022__anh-d-s094-1
   zitat: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
 - dokument: Kreditoren-OP-Liste per 31.12.
-  zweck: Abgleich der Folgejahresrechnungen mit erfassten Verbindlichkeiten (SCH3-302)
-  quelle: ser-2022__anh-d-s084-1
-  zitat: Befragung, wie die vollständige, periodengerechte Erfassung sichergestellt wurde
+  zweck: Abgleich der Folgejahresrechnungen mit den erfassten Verbindlichkeiten (SCH3-302)
+  quelle: ser-2022__anh-d-s084-2
+  zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen
+- dokument: Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (Pendenzenmappe, Rechnungen nach Erfassungsschluss)
+  zweck: Vollständigkeit/Periodenabgrenzung (SCH3-302); fehlt in der Testakte, daher PBC-Pendenz
+  quelle: ser-2022__anh-d-s084-2
+  zitat: im zu prüfenden Geschäftsjahr erhaltene Lieferungen und Leistungen betreffen
 - dokument: Liste der Nahestehenden (Aktionäre, VR, GL) und Vereinbarungen zu VR-Honoraren, Spesen, Fahrzeug- und Mietüberlassungen
   zweck: Beurteilung geschäftsmässiger Aufwand und Drittvergleich (SCH3-301, -303)
   quelle: hwp-er-2026__rz-0159-s211
@@ -182,62 +201,92 @@ bewertung:
 - regel: Aufwand des Berichtsjahres, der erst im Folgejahr bezahlt wird, ist passiv abzugrenzen; das Revisionshonorar wird in der Praxis vollständig abgegrenzt.
   quelle: hwp-bur-2023__rz-0257-s215
   zitat: Mit Bezug auf das Revisionshonorar ist es gängige Praxis, dieses (nach Berücksichtigung allfälliger Akontozahlungen)
-- regel: Unterhalt und Reparaturen gehen in der Regel in die Erfolgsrechnung; wertvermehrende Investitionen können aktiviert werden.
+- regel: Unterhalt und Reparaturen gehen in der Regel in die Erfolgsrechnung; ihre Aktivierung ist zu hinterfragen.
   quelle: hwp-bur-2023__rz-0370-s236
   zitat: Unterhalt und Reparaturen sind in der Regel der Erfolgsrechnung zu belasten.
+- regel: 'Wertvermehrende Investitionen in bestehende Sachanlagen können aktiviert werden: Wahlrecht, keine Aktivierungspflicht.'
+  quelle: hwp-bur-2023__rz-0370-s236
+  zitat: Wertvermehrende Investitionen in bestehende Sachanlagen, die den Nutzwert bzw. Netto-Marktwert nachhaltig erhöhen oder die Lebensdauer wesentlich verlängern, können aktiviert
+    werden.
+- regel: Zusätzliche Abschreibungen zu Wiederbeschaffungszwecken und zur Sicherung des dauernden Gedeihens sind zulässig; die Erfassung von Investitionen im Aufwand ist als Bildung stiller
+    Reserven zulässig, bei Analytik und Prüfung der stillen Reserven aber zu berücksichtigen.
+  quelle: or__art-960a
+  zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
 - regel: Nicht bilanzierte Leasing-/Mietzahlungen sind nach Fälligkeit und unter Berücksichtigung der zeitlichen Abgrenzung als Aufwand zu erfassen.
   quelle: hwp-bur-2023__rz-0398-s241
   zitat: unter Berücksichtigung der zeitlichen Abgrenzung als Aufwand zu erfassen
 - regel: Langfristige Mietverträge sind wie Leasingverpflichtungen mit dem Restmietzins bis Vertragsende bzw. Kündigungstermin (Nominalwert) im Anhang offenzulegen.
   quelle: hwp-bur-2023__rz-0836-s346
   zitat: Bei den langfristigen Mietverträgen ist ebenfalls der bis zum Vertragsende bzw. zum Ablauf der Kündigungsfrist noch geschuldete Restmietzins (Nominalwert)
-- regel: Verrechnungsverbot gilt auch für artgleiche und kausal verbundene Aufwände und Erträge.
+- regel: Verrechnungsverbot gilt auch für artgleiche und kausal verbundene Aufwände und Erträge (z.B. Untermiet- oder Weiterverrechnungserträge brutto ausweisen).
   quelle: hwp-bur-2023__rz-0067-s071
   zitat: Das Verbot der Verrechnung von Aufwand und Ertrag bezieht sich auch auf artgleiche Aufwendungen und Erträge und auf solche mit engem kausalem Zusammenhang.
+- regel: 'Ausnahme: Posten mit Korrekturcharakter, u.a. Aufwendungen und Aufwandminderungen im engeren Sinn, dürfen bzw. sollen verrechnet werden. Rückerstattungen und Gutschriften zur
+    gleichen Leistung gehören als Aufwandminderung in die betreffende Aufwandart; kein Bruttoausweis verlangen.'
+  quelle: hwp-bur-2023__rz-0068-s071
+  zitat: Eine Verrechnung in der Erfolgsrechnung ist hingegen erlaubt oder sogar angezeigt, wenn es sich um Posten mit Korrekturcharakter handelt
 - regel: Betriebsfremd sind z.B. Aufwendungen für nicht betriebliche Sachanlagen; Ausweis nach dem Finanzerfolg, nicht im übrigen betrieblichen Aufwand.
   quelle: hwp-bur-2023__rz-0799-s329-t1
   zitat: Dazu gehören beispielsweise die Aufwendungen für und Erträge aus nicht betrieblichen Sachanlagen.
-- regel: Ausserordentlich/periodenfremd eng auslegen; sporadische oder unüblich grosse Posten aus der normalen Tätigkeit bleiben betrieblicher Aufwand.
+- regel: Ausserordentlich/periodenfremd eng auslegen; sporadische oder unüblich grosse Posten aus der normalen Tätigkeit (auch wiederkehrende Abrechnungsdifferenzen wie Nebenkosten-
+    oder Prämienabrechnungen) bleiben in der betreffenden Aufwandart.
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Sporadisch wiederkehrende Geschäftsvorfälle hingegen sind nicht periodenfremd bzw. ausserordentlich, nur weil sie unregelmässig anfallen.
+- regel: Periodenfremd ist typischerweise die Korrektur wesentlicher Fehler aus einem Vorjahr; Rückerstattungen früherer Perioden nur bei wesentlicher Periodenfremdheit dort ausweisen,
+    sonst als Aufwandminderung.
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Typischerweise stellt die Korrektur von Fehlern aus einem Vorjahr, sofern wesentlich, einen periodenfremden Vorgang dar.
 - regel: Erfolgswirksame Vorgänge sind über die Erfolgsrechnung zu buchen, nicht direkt auf Bilanzkonten.
   quelle: hwp-bur-2023__rz-0741-s313-t1
   zitat: Sie dürfen nicht unter Umgehung der Erfolgsrechnung direkt auf Bilanzkonten gebucht werden.
 - regel: Leistungen an Gesellschafter/Nahestehende ohne angemessene Gegenleistung sind verdeckte Gewinnausschüttungen (zu hoher Aufwand); Arm's-length-Grundsatz.
   quelle: hwp-er-2026__rz-0163-s212
   zitat: hierbei enthält die Erfolgsrechnung zu hohe Aufwendungen und/oder zu geringe Erträge
-- regel: Stetigkeit der Darstellung (Kontenzuordnung) zwischen den Jahren; Änderungen sind zu erfragen und zu würdigen.
+- regel: Stetigkeit von Darstellung und Bewertung (Kontenzuordnung, Aktivierungspraxis) zwischen den Jahren; Änderungen sind zu erfragen und zu würdigen.
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
 fallstricke:
-- text: 'Die Detailprüfungen zu SER Anhang D r) (SCH3-301 bis -303) sind weitergehende Prüfungshandlungen: nur bei Hinweisen auf wesentliche Fehlaussagen oder erhöhtem inhärentem Risiko;
-    Begründung dokumentieren.'
-  quelle: ser-2022__anh-d-s094-1
-  zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+- text: 'Die Detailprüfungen zu SER Anhang D r) (SCH3-301 bis -303) sind weitergehende Prüfungshandlungen: nur, wenn aus den empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen
+    werden müssen (SER: «vor allem», auch bei erhöhtem inhärentem Risiko); WP-Entscheid, Begründung dokumentieren.'
+  quelle: hwp-er-2026__rz-0140-s206-t1
+  zitat: sind nur dann durchzuführen, wenn aufgrund der «empfohlenen Prüfungshandlungen» wesentliche Fehlaussagen angenommen werden müssen
 - text: 'Der Agent kann nicht selbst befragen: Er wertet schriftliche Antworten aus oder erfasst die Frage als Pendenz; Befragungsschritte höchstens «teilweise bearbeitet».'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+- text: Kundenfragen sind Entwürfe zuhanden WP bzw. Pendenzen; der Agent versendet nichts an den Kunden.
+  quelle: konzept-ki-revisionsagent-2026__c009-3
+  zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
+- text: Jeden Schritt im Textfeld dokumentieren und Notizen erfassen, das revio-Visum aber offen lassen; Abschluss und Freigabe durch den WP.
+  quelle: konzept-ki-revisionsagent-2026__c012-1
+  zitat: im Textfeld dokumentieren → Notizen erfassen → Visum offen lassen
 - text: Bei wesentlichen Posten genügt die Befragung allein nicht; Antworten mit Analytik oder Detailprüfung erhärten.
   quelle: ser-2022__6-1-1-t1
   zitat: Der Abschlussprüfer darf sich bei der Prüfung wesentlicher Jahresabschlussposten nicht ausschliesslich auf Befragungen stützen.
 - text: Erklärungen zu Abweichungen nicht ungeprüft übernehmen, sondern plausibilisieren (z.B. mit Verträgen, Kontoblättern).
   quelle: ser-2022__6-1-2-t3
   zitat: es notwendig, die im Rahmen der Abweichungsanalyse erhaltenen Aussagen zu plausibilisieren
-- text: Stille Reserven (z.B. über Rückstellungen oder Sofortabschreibungen im Aufwand) verzerren den Vorjahresvergleich; Zahlen vor dem Vergleich bereinigen.
+- text: 'Schwellen nicht vermischen: Nicht-Aufgriffsgrenze = Erfassungs-/Protokollgrenze; Würdigung der Analytik gegen die tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit
+    3.3); bei qualitativen Faktoren (Nahestehende, Privataufwand) auch kleinere Beträge melden.'
+  quelle: konzept-ki-revisionsagent-2026__c014-1
+  zitat: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.
+- text: Stille Reserven (z.B. im Aufwand erfasste wertvermehrende Investitionen, Rückstellungen) verzerren den Vorjahresvergleich; Zahlen vor dem Vergleich bereinigen. Expensierte Investitionen
+    sind kein Fehler (Aktivierungswahlrecht), aber festzuhalten.
   quelle: hwp-er-2026__rz-0110-s199
   zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
 - text: Umgliederungen zwischen Konten oder Positionen täuschen Abweichungen vor bzw. verdecken sie; vor dem Vergleich Änderungen der Darstellung erfragen.
   quelle: ser-2022__anh-d-s072-1
   zitat: Befragung über allfällige Änderungen der Darstellung der Jahresrechnung oder der Bewertungsgrundsätze
-- text: Rückerstattungen, Gutschriften und sporadische Aufwände nicht unbesehen als ausserordentlich oder periodenfremd akzeptieren.
-  quelle: hwp-bur-2023__rz-0800-s330-t2
-  zitat: Sporadisch wiederkehrende Geschäftsvorfälle hingegen sind nicht periodenfremd bzw. ausserordentlich, nur weil sie unregelmässig anfallen.
+- text: 'Verrechnungsverbot nicht überdehnen: Rückerstattungen und Gutschriften zur gleichen Leistung sind Aufwandminderungen (kein Bruttoausweis nötig) und nicht unbesehen als ausserordentlich
+    oder periodenfremd zu akzeptieren.'
+  quelle: hwp-bur-2023__rz-0068-s071
+  zitat: Aufwendungen und Aufwandminderungen im engeren Sinn
 - text: 'Keine repräsentativen Stichproben: Posten bewusst nach Höhe und Auffälligkeit auswählen und die Auswahl begründen.'
   quelle: ser-2022__6-1-3
   zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
-- text: Visa auf Belegen dienen nur als Nachweis im Einzelfall; keine IKS-Funktionsprüfung durchführen.
-  quelle: hwp-er-2026__rz-0098-s197
-  zitat: Funktionsprüfungen als Teil der Prüfungshandlungen sind in der eingeschränkten Revision nicht vorgesehen
+- text: Visierung bzw. Freigabevermerke des Kunden auf Belegen nur als Einzelnachweis würdigen (z.B. Prüfungsziel «Verpflichtungen»), keine IKS-Funktionsprüfung; nicht mit dem revio-Visum
+    verwechseln, das der Agent nie setzt.
+  quelle: hwp-er-2026__rz-0116-s201
+  zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
 - text: Alle Detailschritte von SCH3 sind WP-gekennzeichnet; ob der Agent sie vorbereitet oder auslässt, ist offen und richtet sich nach der Anweisung des Wirtschaftsprüfers.
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
@@ -254,66 +303,78 @@ fallstricke:
 fragen_kunde:
 - frage: Bitte erläutern Sie schriftlich die Gründe für die wesentlichen Abweichungen der aufgeführten Aufwandkonten gegenüber Vorjahr bzw. Budget (Liste beigelegt), inkl. Einmaleffekte
     und Umgliederungen.
-  zweck: SCH3-101, SCH3-201, SCH3-202 (EN, VO, PA, RI); Antwort im Textfeld würdigen
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-101, -201, -202 (EN, VO, PA, RI); Antwort im Textfeld würdigen
 - frage: Wurden sämtliche Leistungen des Berichtsjahres (z.B. Strom, Telefon, Treuhand, Revisionshonorar, Nebenkostenabrechnung) bis 31.12. verbucht oder passiv abgegrenzt? Wie stellen
-    Sie die Vollständigkeit sicher?
-  zweck: SCH3-302 (VO, PA)
+    Sie die Vollständigkeit sicher? Bitte noch nicht verbuchte Eingangsrechnungen einreichen.
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-302 (VO, PA)
 - frage: Wurden im Berichtsjahr bezahlte Aufwände für das Folgejahr (Miete, Versicherungen, Lizenzen, Abonnemente) aktiv abgegrenzt? Bitte Liste mit Belegen.
-  zweck: SCH3-302 (PA, EN)
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-302 (PA)
 - frage: Enthält der übrige betriebliche Aufwand Leistungen an oder von Aktionären, Verwaltungsräten, Geschäftsleitung oder ihnen nahestehenden Personen (Honorare, Spesen, Fahrzeuge,
     Mieten)? Zu welchen Konditionen?
-  zweck: SCH3-301, SCH3-303 (EN, RI); verdeckte Gewinnausschüttung
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-301 (RI), SCH3-303 (EN); verdeckte Gewinnausschüttung
 - frage: Wurden Kontenplan oder Kontenzuordnung zur Jahresrechnung gegenüber dem Vorjahr geändert (Umgliederungen zwischen Material-, Personal- und übrigem Aufwand)?
-  zweck: Vergleichbarkeit für SCH3-201/202; Stetigkeit (DO)
-- frage: Enthalten Unterhalt, Reparaturen oder GWG-Konten wertvermehrende Investitionen? Welche Aktivierungsgrenze wenden Sie an?
-  zweck: SCH3-303 (Abgrenzung Aufwand/Aktivierung)
-- frage: Nach welchen Kriterien werden Aufwände und Rückerstattungen als ausserordentlich, einmalig, periodenfremd oder betriebsfremd statt im betrieblichen Aufwand ausgewiesen?
-  zweck: Ausweis (DO), Abgrenzung zum Prüffeld ausserordentlicher/betriebsfremder Erfolg
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Vergleichbarkeit für SCH3-201/-202; Stetigkeit (DO)
+- frage: Wurden Unterhalts- oder Reparaturkosten aktiviert, oder enthalten Unterhalts-, Reparatur- und GWG-Konten wertvermehrende Investitionen? Welche Aktivierungsgrenze wenden Sie
+    an, und wurde sie gegenüber dem Vorjahr geändert?
+  zweck: 'Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-303 (EN, VO): aktivierter Unterhalt, Stetigkeit der Aktivierungspraxis; Investitionen im Aufwand als
+    stille Reserve festhalten'
+- frage: Nach welchen Kriterien werden Aufwände als ausserordentlich, einmalig, periodenfremd oder betriebsfremd statt im betrieblichen Aufwand ausgewiesen?
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Ausweis (DO), Abgrenzung zum Prüffeld ausserordentlicher/betriebsfremder Erfolg
+- frage: Werden Erträge (z.B. Untermiete, Weiterverrechnungen) mit Aufwandkonten verrechnet? Wie werden Rückerstattungen und Gutschriften (z.B. Nebenkostenabrechnung Vorjahr, Lieferantengutschriften)
+    verbucht?
+  zweck: 'Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Ausweis (DO): Verrechnungsverbot bzw. zulässige Aufwandminderung'
 - frage: Besteht ein Budget oder Forecast für das Berichtsjahr? Bitte einreichen und angeben, wie es erstellt wurde.
-  zweck: SCH3-202c; Verlässlichkeit der Vergleichsbasis
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-202c; Verlässlichkeit der Vergleichsbasis
 - frage: Welche Miet-, Leasing- und anderen langfristigen Verträge bestehen (Laufzeit, Kündigungsfrist, Restverpflichtung per 31.12.)?
-  zweck: SCH3-202d Erwartungswerte; Anhangangabe Art. 959c Abs. 2 Ziff. 6 OR
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). SCH3-202d Erwartungswerte; Anhangangabe Art. 959c Abs. 2 Ziff. 6 OR
+- frage: Werden Privatanteile an Geschäftsaufwendungen und Bezüge von Dienstleistungen aus dem Ausland (z.B. Software, IT-Dienstleistungen) mit der MWST abgerechnet?
+  zweck: Entwurf zuhanden WP (als Pendenz erfassen; Versand durch Mensch). Schnittstelle Prüffeld M2 (Bezugsteuer, Privatanteile; VO)
 testakte_2025:
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: 'Blatt Erfolgsrechnung: Konten 6000–6790 mit Salden 2025/2024 als Basis für Vorjahresvergleich, Abweichungsliste und Kontenauswahl (SCH3-101, -201, -202a, -303)'
+  bezug: 'Blatt Erfolgsrechnung: 46 Konten 6000–6790, Summe 2025 −827''040 / 2024 −1''360''062 (nachgerechnet = JR); grosse Sprünge u.a. 6530 −5''000 (VJ −180''000), 6565 −90''000 (VJ
+    −300''000), 6540 −50''000 (VJ −20''000), 6310 −2''500 (VJ −16''000); 7500 Untermiete 0 (VJ 150''000) (SCH3-101, -201, -202)'
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: Position «Total Übriger betrieblicher Aufwand» 2025/2024 zur Abstimmung mit der Saldoliste (SCH3-201); Anhang Ziff. 3 (ausserordentliche Posten) und Ziff. 7 (Mietverbindlichkeiten)
-    für Ausweis/Abgrenzung (SCH3-202d, -303)
+  bezug: 'Total Übriger betrieblicher Aufwand zur Abstimmung (SCH3-201); Anhang Ziff. 3: a.o. Ertrag u.a. Rabatt Lieferanten 17''763, Rückerstattungen/Gutschriften L&L 10''851, Rückerstattung
+    Nebenkosten Büro 10''684; a.o. Aufwand «Betriebshaftpflicht – Differenzzahlung Lohn» −20''499 → Ausweis/Aufwandminderung prüfen (SCH3-202d, -303); Ziff. 7 Mietverbindlichkeiten 2''752''680
+    (= 8 × 344''085)'
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
-  bezug: 'Nur Bilanzkonten und 8510: Gegenbuchungen auf 6xxx in den Geldkonten 1010/1011 (Dezember detailliert) und 1030, Abgrenzungsbuchungen in 1300/2300, Konto 8510 a.o. Ertrag (SCH3-301,
-    -302, -303)'
-- datei: 00_Allgemein/Belegverzeichnis.md
-  bezug: Übersicht der vorhandenen Unterlagen; fehlende Kontoblätter/Belege der Aufwandkonten und fehlendes Budget als PBC-Pendenz erfassen (SCH3-202c, -301, -303)
+  bezug: 'Keine Kontoblätter 6xxx (Pendenz, SCH3-202b/-303); Gegenkontenanalyse: 1011 am 19.12.2025 BA-1213 «Miete 01/2026» 39''129.85 direkt auf 6000 (Periodenabgrenzung, SCH3-302);
+    8510 KR-0930 «Rückerstattung Nebenkosten Büro (Abrechnung 2024)» 10''684 (Ausweis, SCH3-303)'
+- datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
+  bezug: 'Erwartungswert Miete 344''085 + 12 × 2''500 Nebenkosten-Akonto = 374''085 vs. Konto 6000 527''000 (Differenz 152''915 erklären lassen: Indexierung, Vorauszahlung 01/2026, Parkplätze/Untermiete;
+    SCH3-202d); Belegabstimmung (SCH3-301); fest bis 31.12.2033 für Anhangangabe'
+- datei: F_Aktive_Rechnungsabgrenzung/Aktive_Rechnungsabgrenzungen_31.12.2025.md
+  bezug: Konto 1300 nur Versicherung 8'400 und Softwarelizenz 11'600 (Total 20'000); keine Abgrenzung der vorausbezahlten Miete 01/2026 (SCH3-302)
+- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
+  bezug: 'Konto 2300: Strom 3''200, Telefon 1''800, Treuhand 10''000 (Total 15''000); kein Revisionshonorar ersichtlich → Frage (SCH3-302); Rückstellungsspiegel für Fehlklassierung im
+    Aufwand (SCH3-303)'
+- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
+  bezug: Eingangsrechnungen Januar 2026 mit Rechnungsdatum, Leistungstext und Aufwandkonto; für SCH3 nur ITF-26-0004 «Support Januar 2026» (6570, 1'430, betrifft 2026) (SCH3-302)
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
   bezug: Kontoblatt 2000 Kreditoren Januar 2026 (neue Rechnung) für die Durchsicht auf Aufwand des Berichtsjahres (SCH3-302)
-- datei: H_Kreditoren/Kreditorenjournal_Januar_2026.md
-  bezug: Eingangsrechnungen Januar 2026 mit Rechnungsdatum, Leistungstext und Aufwandkonto (u.a. 6570) für die Durchsicht in neuer Rechnung (SCH3-302)
 - datei: H_Kreditoren/Kreditoren_OP_Liste_31.12.2025.md
   bezug: Offene Kreditoren per 31.12.2025 zum Abgleich der Folgejahresrechnungen (Vollständigkeit, SCH3-302)
-- datei: F_Aktive_Rechnungsabgrenzung/Aktive_Rechnungsabgrenzungen_31.12.2025.md
-  bezug: Aktive Abgrenzungen (Versicherung, Softwarelizenz) zur Periodenabgrenzung des Aufwands (SCH3-302) und als Erwartungsgrösse (SCH3-202)
-- datei: K_Passive_Abgrenzungen_Rueckstellungen/Passive_Abgrenzungen_und_Rueckstellungen_31.12.2025.md
-  bezug: Passive Abgrenzungen (Strom, Telefon, Treuhand) zur Vollständigkeit/Periodenabgrenzung (SCH3-302); Rückstellungsspiegel für Fehlklassierung im Aufwand (SCH3-303)
-- datei: C_Uebrige_kurzfristige_Forderungen/Mietvertrag_Gewerbehaus_Auszug.md
-  bezug: Nettomietzins und Nebenkosten-Akonto als Erwartungswert für Konto 6000 (SCH3-202d), Belegabstimmung Miete (SCH3-301), Laufzeit für Anhangangabe
+- datei: 00_Allgemein/Belegverzeichnis.md
+  bezug: Kein Budget, keine Aufwand-Kontoblätter, keine Eingangsrechnungen zu 6xxx und keine noch nicht verbuchten Rechnungen → PBC-Pendenzen (SCH3-202b/c, -301, -302, -303)
+- datei: J_Uebrige_kurzfristige_Verbindlichkeiten/MWST_Abrechnungen_2025_Zusammenzug.md
+  bezug: Zusammenzug ohne Angabe zur Bezugsteuer; Abrechnung Bezugsteuer/Privatanteile (z.B. Software 6565) erfragen, Schnittstelle M2
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
   bezug: Ansprechpersonen für Befragungen (SCH3-101); Organe/Nahestehende für Durchsicht Konto 6540 und Leistungen an Nahestehende (SCH3-303)
 schritte:
 - id: SCH3-101
-  vorgehen: Aus der Kontenübersicht (Rechenmodul) die Aufwandkonten mit wesentlichen Abweichungen gegenüber Vorjahr bzw. Erwartung bestimmen und daraus eine schriftliche Frage an die
-    Leitung Finanzen als Pendenz erfassen (Grund, Einmaleffekt, Abgrenzung, Umgliederung). Vorliegende schriftliche Antworten (z.B. 10.11 Kundenbefragung) auswerten, mit Kontoblättern
-    und Verträgen plausibilisieren und Frage, Antwort, Datum und Würdigung im Textfeld festhalten.
+  vorgehen: Aufwandkonten mit Abweichungen > NAG gegenüber Vorjahr bzw. Erwartung bestimmen und eine schriftliche Frage an die Leitung Finanzen als Pendenz-Entwurf erfassen (Grund, Einmaleffekt,
+    Abgrenzung, Umgliederung; Versand durch Mensch). Vorliegende Antworten (z.B. 10.11) auswerten, mit Kontoblättern/Verträgen plausibilisieren; Frage, Antwort, Datum, Würdigung im Textfeld.
+    Katalogtext = Befragung SER Anhang D q)/t); in r) Teil des Vorjahresvergleichs.
   nachweise:
   - Saldoliste Erfolgsrechnung X/X-1
   - Schriftliche Antwort der Unternehmensleitung
   - Kontoblätter der betroffenen Aufwandkonten
   - Verträge zu wesentlichen Aufwandarten
-  rechnen: 'Je Konto: Abweichung = Saldo X – Saldo X-1 (absolut und %); in die Frageliste, wenn |Abweichung| > Nicht-Aufgriffsgrenze aus 3.3'
-  feststellung_wenn: Antwort fehlt (Pendenz), ist unplausibel oder widerspricht Buchhaltung/Verträgen, oder die Erklärung deutet auf fehlende Abgrenzung, Fehlbuchung oder nicht geschäftsmässigen
-    Aufwand über der Nicht-Aufgriffsgrenze.
+  rechnen: 'Je Konto: Abweichung = Saldo X – Saldo X-1 (absolut und %); in die Frageliste, wenn |Abweichung| > Nicht-Aufgriffsgrenze (3.3) oder qualitativer Faktor (Nahestehende, Privataufwand);
+    Würdigung gegen tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit)'
+  feststellung_wenn: Antwort fehlt (Pendenz), ist unplausibel oder widerspricht Buchhaltung/Verträgen, oder deutet auf fehlende Abgrenzung, Fehlbuchung oder nicht geschäftsmässigen Aufwand
+    über der tolerierbaren Abweichung.
   fundstellen:
-  - quelle: ser-2022__anh-d-s093-1
-    zitat: Besprechung wesentlicher Abweichungen einzelner Kontensalden gegenüber früheren Perioden oder gegenüber den Erwartungen
   - quelle: ser-2022__anh-d-s094-1
     zitat: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
   - quelle: ser-2022__6-1-1-t1
@@ -322,17 +383,20 @@ schritte:
     zitat: Diskrepanzen zwischen den erhaltenen Antworten und seinen Kenntnissen über das Unternehmen geht der Abschlussprüfer nach.
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz'
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
 - id: SCH3-201
   vorgehen: 'Salden der SCH3 zugeordneten Konten X und X-1 aus der Saldoliste im Rechenmodul vergleichen (je Konto und Total, absolut und %) und das Total mit der Position der Jahresrechnung
-    abstimmen. Wesentliche Abweichungen markieren und die Gründe aus SCH3-101 übernehmen bzw. als Frage erfassen. Im Textfeld: Tabelle Konto, X, X-1, Differenz, %, Erklärung, Würdigung.'
+    abstimmen. Abweichungen > NAG markieren und Gründe aus SCH3-101 übernehmen bzw. als Frage erfassen. Im Textfeld: Tabelle Konto, X, X-1, Differenz, %, Erklärung, Würdigung gegen die
+    tolerierbare Abweichung.'
   nachweise:
   - Saldoliste Erfolgsrechnung X/X-1
   - Jahresrechnung (Erfolgsrechnung)
   - Schriftliche Erläuterungen zu Abweichungen
-  rechnen: Δ = Saldo X – Saldo X-1 und Δ% je Konto; Summe der SCH3-Konten (z.B. 6000–6799 ohne 68xx) = Position «Übriger betrieblicher Aufwand» der Jahresrechnung (X und X-1); markieren,
-    wenn |Δ| > Nicht-Aufgriffsgrenze
-  feststellung_wenn: Summe der Konten ≠ Ausweis in der Jahresrechnung, oder wesentliche Abweichung ohne plausible Erklärung bzw. mit Hinweis auf Fehlaussage (Abgrenzung, Fehlklassierung)
-    über der Nicht-Aufgriffsgrenze.
+  rechnen: 'Δ = Saldo X – Saldo X-1 und Δ% je Konto; Summe der Konten gemäss Zuordnung SCH3 (Testakte: 6000–6790; Abschreibungen 68xx und Finanzerfolg 69xx gehören nicht dazu) = Position
+    «Übriger betrieblicher Aufwand» der Jahresrechnung (X und X-1); markieren, wenn |Δ| > Nicht-Aufgriffsgrenze; Würdigung gegen tolerierbare Abweichung'
+  feststellung_wenn: Kontensumme ≠ Ausweis in der Jahresrechnung oder Abweichung über der tolerierbaren Abweichung ohne plausible Erklärung bzw. mit Hinweis auf Fehlaussage (Abgrenzung,
+    Fehlklassierung); bei qualitativen Faktoren kleiner.
   fundstellen:
   - quelle: ser-2022__anh-d-s094-1
     zitat: Vergleich mit dem Vorjahr und Befragung über die Gründe für wesentliche Abweichungen
@@ -342,20 +406,22 @@ schritte:
     zitat: Analytische Prüfungshandlungen liefern bei der Prüfung der Erfolgsrechnung wertvolle Prüfungsnachweise.
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: 'Nicht-Aufgriffsgrenze (5 %): Differenzen darunter werden nur protokolliert.'
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: aufgrund der an anderer Stelle definierten Toleranzwesentlichkeit und aufgrund der Erfahrung des Abschlussprüfers
 - id: SCH3-202
-  vorgehen: a) Saldovergleich aus SCH3-201 übernehmen; b) Kontoblätter auf hohe oder ungewöhnliche Einzelbuchungen durchsehen (runde Beträge, Gutschriften, Storni, Abschlussbuchungen);
-    c) Ist mit Budget/Forecast vergleichen, falls vorhanden, und dessen Verlässlichkeit würdigen; d) Erwartungswerte aus Verträgen bilden (z.B. Miete, Prämien, Lizenzen). Ursache jeder
-    signifikanten Änderung im Textfeld umschreiben.
+  vorgehen: 'a) Saldovergleich aus SCH3-201 übernehmen; b) Konten analytisch auf Saldo- und Verlaufsauffälligkeiten durchsehen (Konten-/Monatsebene: Sprünge, Vorzeichenwechsel, neue/weggefallene
+    Konten), fehlende Kontoblätter als Pendenz; c) Budgetvergleich, falls vorhanden, Verlässlichkeit würdigen; d) Erwartungswerte aus Verträgen (Miete, Prämien, Lizenzen). Ursache je
+    signifikanter Änderung im Textfeld umschreiben; Einzelbuchungen erst in 303/301 (WP).'
   nachweise:
   - Saldoliste X/X-1
-  - Kontoblätter Aufwandkonten
+  - Kontoblätter Aufwandkonten (Monatsverkehrszahlen)
   - Budget/Forecast
   - Miet-, Versicherungs-, Leasing- und Lizenzverträge
   - Listen aktive/passive Rechnungsabgrenzungen
-  rechnen: Δ Budget = Ist – Budget je Konto; Erwartungswert z.B. Raumaufwand = (Nettomiete + Nebenkosten-Akonto) × 12 ± Abgrenzungen; Differenz Ist – Erwartung gegen tolerierbare Abweichung
-    (aus Wesentlichkeit 3.3)
-  feststellung_wenn: Ursache einer signifikanten Änderung nicht feststellbar, Differenz Ist – Erwartung über tolerierbarer Abweichung oder ungewöhnliche Buchung ohne Erklärung; fehlendes
-    Budget nur dokumentieren.
+  rechnen: Δ Budget = Ist – Budget je Konto; Erwartungswert z.B. Raumaufwand = (Nettomiete + Nebenkosten-Akonto) mtl. × 12 ± Abgrenzungen; Δ bzw. Ist – Erwartung > Nicht-Aufgriffsgrenze
+    erfassen; Würdigung gegen tolerierbare Abweichung (Vorgabe WP aus Toleranzwesentlichkeit 3.3)
+  feststellung_wenn: Ursache einer signifikanten Änderung nicht feststellbar oder Differenz Ist – Erwartung über der tolerierbaren Abweichung ohne plausible Erklärung (qualitative Faktoren
+    auch kleiner); fehlendes Budget nur dokumentieren.
   fundstellen:
   - quelle: hwp-er-2026__rz-0109-s199
     zitat: Budgetvergleiche → je nach Betriebsgrösse unterschiedlich häufig anzutreffende Prüfungshandlung
@@ -363,14 +429,18 @@ schritte:
     zitat: voraussichtlichen Ergebnissen des Unternehmens wie etwa Budgets, Prognosen oder diesbezüglichen Erwartungen des Abschlussprüfers
   - quelle: hwp-er-2026__rz-0111-s199-t1
     zitat: Der Abschlussprüfer formuliert zuerst seine Erwartung.
+  - quelle: hwp-er-2026__rz-0111-s199-t1
+    zitat: aufgrund der an anderer Stelle definierten Toleranzwesentlichkeit und aufgrund der Erfahrung des Abschlussprüfers
   - quelle: hwp-er-2026__rz-0110-s199
     zitat: die Höhe der Differenzen zwischen den ausgewiesenen Beträgen und den erwarteten Werten, die für den Abschlussprüfer als noch vertretbar gelten können
   - quelle: hwp-er-2026__rz-0030-s183
     zitat: Zudem können analytische Prüfungshandlungen bei der Identifikation ungewöhnlicher Geschäftsvorfälle, Buchungen, Beträge oder Trends hilfreich sein.
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: Wenn erfasst, meldet der Agent auch kleinere Abweichungen.
 - id: SCH3-301
   vorgehen: 'Weitergehend, nur bei Hinweisen aus 101–202 oder erhöhtem Risiko (WP-Entscheid): wesentliche bzw. auffällige Posten bewusst auswählen und mit Eingangsrechnung, Vertrag oder
-    Abrechnung in M-Files abstimmen (Betrag, Leistungsperiode, Empfänger, Kontierung, geschäftlicher Zusammenhang, Doppelerfassung). Im Textfeld: Auswahlbegründung und Liste Beleg, Betrag,
-    Ergebnis.'
+    Abrechnung in M-Files abstimmen (Betrag, Leistungsperiode, Empfänger, Kontierung, geschäftlicher Zusammenhang, Doppelerfassung); Visierung des Kunden nur als Einzelnachweis. Im Textfeld:
+    Auswahlbegründung und Liste Beleg, Betrag, Ergebnis.'
   nachweise:
   - Kontoblätter Aufwandkonten
   - Eingangsrechnungen und Abrechnungen
@@ -378,35 +448,40 @@ schritte:
   - Spesenabrechnungen
   - Zahlungsbelege
   rechnen: 'Je Posten: Betrag Buchung = Betrag Beleg (netto, MWST beachten); Abdeckung = Summe geprüfte Posten / Saldo Konto'
-  feststellung_wenn: Beleg fehlt (Pendenz), Betrag, Periode oder Kontierung weicht ab, Doppelerfassung, oder Leistung nicht an die Gesellschaft bzw. ohne geschäftlichen Zusammenhang
-    (z.B. Privataufwand Nahestehender).
+  feststellung_wenn: Beleg fehlt (Pendenz), Betrag, Periode oder Kontierung weicht ab, Doppelerfassung oder Leistung ohne geschäftlichen Zusammenhang (z.B. Privataufwand Nahestehender);
+    Fehler > Nicht-Aufgriffsgrenze erfassen.
   fundstellen:
   - quelle: ser-2022__anh-d-s094-1
     zitat: Abstimmung der ausgewiesenen Posten mit Belegen und geeigneten Unterlagen
-  - quelle: ser-2022__anh-d-s096-1
-    zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
+  - quelle: ser-2022__anh-d-s094-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: ob die Grunderfassung dem Beleg entspricht, und zwar hinsichtlich der Übereinstimmung von Beleginhalt und Buchung
   - quelle: hwp-er-2026__rz-0116-s201
     zitat: wirtschaftlicher Grundsachverhalt (Zusammenhang mit der Leistungserstellung des Unternehmens)
+  - quelle: hwp-er-2026__rz-0116-s201
+    zitat: Dennoch kann mit der Prüfung der Visierung ggf. das Prüfungsziel «Verpflichtungen» geprüft werden
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge
 - id: SCH3-302
-  vorgehen: 'Weitergehend (WP): Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate X+1 auf Rechnungen mit Leistung im Berichtsjahr durchsehen (Datum, Text, Aufwandkonto)
-    und mit Kreditoren-OP-Liste und passiven Abgrenzungen per 31.12. abgleichen; umgekehrt im Jahr X bezahlte Aufwände für X+1 mit den aktiven Abgrenzungen. Im Textfeld: Beleg, Leistungsperiode,
-    erfasst ja/nein, Betrag.'
+  vorgehen: 'Weitergehend (WP): Kreditorenjournal, Kontoblätter und Eingangsrechnungen der ersten Monate X+1 sowie noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum auf Leistungen
+    des Berichtsjahres durchsehen und mit Kreditoren-OP-Liste und passiven Abgrenzungen per 31.12. abgleichen; umgekehrt im Jahr X gebuchte Aufwände für X+1 mit den aktiven Abgrenzungen.
+    Im Textfeld: Beleg, Leistungsperiode, erfasst ja/nein, Betrag.'
   nachweise:
   - Kreditorenjournal und Kontoblätter Folgejahr
   - Eingangsrechnungen Folgejahr
+  - 'Noch nicht verbuchte Eingangsrechnungen per Prüfungsdatum (fehlt in Testakte: Pendenz)'
   - Kreditoren-OP-Liste 31.12.
   - Listen aktive/passive Rechnungsabgrenzungen 31.12.
-  rechnen: Summe Folgejahresrechnungen mit Leistung im Jahr X, weder in OP-Liste noch in passiven Abgrenzungen = nicht erfasster Aufwand; Summe im Jahr X gebuchter Aufwände für X+1 ohne
-    aktive Abgrenzung = zu viel erfasster Aufwand
-  feststellung_wenn: Aufwand des Berichtsjahres weder als Kreditor noch als passive Abgrenzung erfasst oder Folgejahresaufwand im Berichtsjahr belastet, in Summe über Nicht-Aufgriffsgrenze;
-    fehlende Folgejahresunterlagen als Pendenz.
+  rechnen: Summe Folgejahresrechnungen (verbucht und noch nicht verbucht) mit Leistung im Jahr X, weder in OP-Liste noch in passiven Abgrenzungen = nicht erfasster Aufwand; Summe im
+    Jahr X gebuchter Aufwände für X+1 ohne aktive Abgrenzung = zu viel erfasster Aufwand
+  feststellung_wenn: Aufwand des Berichtsjahres weder als Kreditor noch passiv abgegrenzt oder Folgejahresaufwand im Berichtsjahr belastet, in Summe über der NAG; fehlende Folgejahresunterlagen
+    bzw. nicht verbuchte Rechnungen als Pendenz.
   fundstellen:
   - quelle: ser-2022__anh-d-s094-1
     zitat: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
+  - quelle: ser-2022__anh-d-s084-2
+    zitat: Durchsicht der in neuer Rechnung verbuchten bzw. noch nicht verbuchten Kreditorenrechnungen
   - quelle: ser-2022__6-1-3
     zitat: Durchsicht von Belegen in neuer Rechnung
   - quelle: or__art-958b
@@ -416,24 +491,34 @@ schritte:
   - quelle: hwp-bur-2023__rz-0256-s215
     zitat: 'Transitorische Aktiven: Ausgaben im alten Jahr, die als Aufwand dem neuen Rech nungsjahr zu belasten sind.'
 - id: SCH3-303
-  vorgehen: 'Weitergehend (WP): Kontoblätter der Aufwandkonten (bei Sammelbuchungen auch Gegenbuchungen in Geld- und Kreditorenkonten) auf hohe, runde oder ungewöhnliche Beträge, Haben-Buchungen,
-    Abschluss- und manuelle Buchungen, Zahlungen an Nahestehende und mögliche Investitionen (Unterhalt, GWG) durchsehen. Treffer an SCH3-301 oder als Frage weiterleiten. Im Textfeld:
-    Kriterien, Treffer, Erklärung.'
+  vorgehen: 'Weitergehend (WP-Entscheid): Kontoblätter der Aufwandkonten nach Einzelbuchungen filtern (hohe, runde, Haben-, Abschluss- und manuelle Buchungen, Zahlungen an Nahestehende,
+    Unterhalt/GWG mit Investitionscharakter); fehlen Aufwand-Kontoblätter, Gegenkontenanalyse über Geld- und Kreditorenkonten. Treffer an SCH3-301 oder als Frage. Investitionen im Aufwand
+    als stille Reserve festhalten. Im Textfeld: Kriterien, Treffer, Erklärung.'
   nachweise:
   - Kontoblätter Aufwandkonten
   - Hauptbuch Gegenkonten (Geld, Kreditoren, Abgrenzungen)
+  - Anlagespiegel/Aktivierungen des Jahres
   - Liste Nahestehende/Organe
   - Belege zu Treffern
-  rechnen: 'Filter: Einzelbuchungen ≥ Nicht-Aufgriffsgrenze; Haben-Buchungen auf Aufwandkonten; runde Beträge; Buchungen der letzten Dezembertage und Abschlussbuchungen; Summe Treffer
-    je Konto'
-  feststellung_wenn: Ungewöhnlicher Posten ohne plausible Erklärung oder Beleg, Hinweis auf nicht geschäftsmässig begründeten Aufwand, aktivierungspflichtige Investition, falsche Periode
-    oder Fehlklassierung über Nicht-Aufgriffsgrenze.
+  rechnen: 'Filter: Einzelbuchungen ≥ Nicht-Aufgriffsgrenze; Haben-Buchungen auf Aufwandkonten; runde Beträge; Buchungen der letzten Dezembertage und Abschlussbuchungen; Gegenbuchungen
+    6xxx in Geldkonten; Summe Treffer je Konto'
+  feststellung_wenn: Ungewöhnlicher Posten ohne Erklärung/Beleg, nicht geschäftsmässiger Aufwand, aktivierter Unterhalt, unbegründet geänderte Aktivierung, falsche Periode oder Fehlklassierung
+    über NAG; Investition im Aufwand nur notieren.
   fundstellen:
   - quelle: ser-2022__anh-d-s094-1
     zitat: Durchsicht der Konten auf hohe oder ungewöhnliche Beträge
   - quelle: hwp-er-2026__rz-0124-s202
     zitat: bestimmte Aufwands- oder Ertragskonten
+  - quelle: hwp-er-2026__rz-0124-s202
+    zitat: Durchsicht der Geldkonten auf ungewöhnliche Buchungen
   - quelle: hwp-bur-2023__rz-0680-s299
     zitat: geschäftsmässig nicht begründete Aufwendungen (Privataufwendungen)
   - quelle: hwp-bur-2023__rz-0370-s236
     zitat: Unterhalt und Reparaturen sind in der Regel der Erfolgsrechnung zu belasten.
+  - quelle: hwp-bur-2023__rz-0370-s236
+    zitat: Wertvermehrende Investitionen in bestehende Sachanlagen, die den Nutzwert bzw. Netto-Marktwert nachhaltig erhöhen oder die Lebensdauer wesentlich verlängern, können aktiviert
+      werden.
+  - quelle: or__art-960a
+    zitat: Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.
+  - quelle: or__art-958c
+    zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.

@@ -4,14 +4,14 @@ bezeichnung: Personalaufwand
 status: agent-geprueft
 erfasst:
   agent: workflow revision-prueffelder-wissen
-  datum: '2026-11-12'
+  datum: '2026-11-13'
   nachpruefung:
     urteil: korrigieren
     befunde: 11
-    korrigiert: false
-kurzbeschrieb: 'Löhne, Boni, Sozialleistungen, Spesen und Personalnebenkosten inkl. Abgrenzungen (Ferien/Überzeit, Boni, Schlussabrechnungen Sozialversicherungen) sowie AGBR/Vorsorge
-  und Anhangangaben. ER: Befragung, Analytik (Vorjahr, Saläre/Sozialleistungen, pro FTE) und Abstimmung Lohnbuchhaltung–Hauptbuch; Detailprüfungen nur bei Risiko; Drittbestätigungen
-  ausgeschlossen.'
+    korrigiert: true
+kurzbeschrieb: 'Löhne, Boni, Sozialleistungen, Spesen, Nebenkosten inkl. Abgrenzungen (Ferien/Überzeit, Boni, SV-Schlussabrechnungen), AGBR/Vorsorge, Anhangangaben. ER: Befragung, Analytik
+  (VJ, Saläre/Sozialleistungen, pro FTE), Detailprüfung Abstimmung Lohnbuchhaltung–Hauptbuch (empfohlen); weiter gehende Detailprüfungen (R1-303 bis R1-306) und 4xx nur bei Risiko bzw.
+  auf Anweisung; keine Drittbestätigungen.'
 gesetz:
 - thema: Personalaufwand als Mindestposition der Produktionserfolgsrechnung (Art. 959b Abs. 2 Ziff. 4 OR)
   quelle: or__art-959b-t1
@@ -42,9 +42,10 @@ gesetz:
 - thema: 'Anhang: Erläuterung ausserordentlicher, einmaliger oder periodenfremder Positionen (Art. 959c Abs. 2 Ziff. 12 OR)'
   quelle: or__art-959c-t2
   zitat: Erläuterungen zu ausserordentlichen, einmaligen oder periodenfremden Positionen der Erfolgsrechnung
-- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR), u.a. nicht aktivierte AGBR'
+- thema: 'Anhang: Nettoauflösung stiller Reserven (Art. 959c Abs. 1 Ziff. 3 OR) – nur soweit Auflösung die Neubildung übersteigt und das Ergebnis wesentlich günstiger darstellt; u.a.
+    nicht aktivierte AGBR'
   quelle: or__art-959c-t1
-  zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
+  zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
 - thema: Gesonderter Ausweis Forderungen/Verbindlichkeiten gegenüber Beteiligten und Organen (Art. 959a Abs. 4 OR)
   quelle: or__art-959a-t2
   zitat: Forderungen und Verbindlichkeiten gegenüber direkt oder indirekt Beteiligten und Organen
@@ -124,13 +125,15 @@ risiken:
   - BE
   quelle: hwp-bur-2023__rz-0666-s296
   zitat: stellen sie stille Reserven dar und unterstehen demnach bei ihrer Auflösung der Offenlegungspflicht
-- text: Leistungen von Sozialversicherungen (Taggelder, EO, Mutterschaft, Kurzarbeit) nicht vollständig geltend gemacht/erfasst oder bei bedeutendem Umfang nicht offengelegt.
+- text: Leistungen von Sozialversicherungen in bedeutendem Umfang ohne erläuternde Offenlegung im Anhang.
   pruefziele:
-  - VO
-  - EN
   - DO
   quelle: hwp-bur-2023__rz-0760-s320
   zitat: Erfolgen Leistungen von Sozialversicherungen in einem bedeutenden Umfang, so ist eine erläuternde Offenlegung diesbezüglich im Anhang angezeigt.
+- text: Leistungen von Sozialversicherungen (Taggelder, EO, Mutterschaft, Kurzarbeit) nicht vollständig geltend gemacht oder offene Ansprüche per Stichtag nicht erfasst (Praxis).
+  pruefziele:
+  - VO
+  - PA
 - text: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen nicht im Anhang angegeben.
   pruefziele:
   - DO
@@ -149,25 +152,36 @@ risiken:
   - PA
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Erfahrungsgemäss besteht eine gewisse Versuchung, Aufwendungen möglichst dem ausserordentlichen, einmaligen oder periodenfremden Bereich zuzuordnen
+- text: Überfällige Lohn-, Sozialversicherungs- oder BVG-Beiträge (Kontokorrente Sozialversicherungen, Lohnsammelkonto) als Hinweis auf gefährdete Fortführungsfähigkeit.
+  pruefziele:
+  - BE
+  - DO
+  quelle: hwp-er-2026__rz-0191-s224
+  zitat: Unfähigkeit, Löhne und Sozialversicherungsbeiträge zu begleichen
 unterlagen:
 - dokument: Jahreslohnjournal / Lohnartenjournal mit Jahrestotalen (Brutto, Bonus, Zulagen, AN-/AG-Beiträge, QSt)
   zweck: R1-301 Abstimmung Lohnbuchhaltung–Hauptbuch; R1-203a Monatswerte
   quelle: ser-2022__anh-d-s093-1
   zitat: Abstimmen der Totale der Lohnbuchhaltung mit den Hauptbuchkonten
-- dokument: Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ)
-  zweck: R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende
+- dokument: Personalliste mit Funktion, Pensum, Ein-/Austritt und Jahreslohn (GJ und VJ; VJ ggf. aus Vorjahresakte in M-Files)
+  zweck: R1-202 Erwartung, R1-203b Aufwand pro FTE, R1-320 Vollzeitstellen, R1-405 Nahestehende
   quelle: ser-2022__6-1-2-t2
   zitat: Saläraufwand im Verhältnis zur Anzahl Mitarbeitender
 - dokument: AHV-Jahreslohnmeldung und Schlussabrechnung der Ausgleichskasse (inkl. FAK, Verwaltungskosten)
   zweck: R1-302, R1-303, R1-410
   quelle: ser-2022__anh-d-s093-1
   zitat: Abstimmen des ausgewiesenen Aufwands mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
-- dokument: 'BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Angaben zum Deckungsgrad per 31.12.'
+- dokument: 'BVG: Jahres-/Beitragsabrechnung der Vorsorgeeinrichtung, Kontoauszug Arbeitgeberbeitragsreserve, Mitteilung/Jahresbericht zum Deckungsgrad per 31.12. – nur beim Unternehmen
+    vorhandene Exemplare (keine Anfrage bei VE/Sammelstiftung)'
   zweck: R1-302, R1-303, R1-321, R1-406, R1-407
-  quelle: hwp-bur-2023__rz-0538-s266
-  zitat: sog. technischer Deckungsgrad gemäss Art. 44 Abs. 1 BVV 2 unter 100 %
+  quelle: hwp-er-2026__rz-0083-s194
+  zitat: beschränkt sich also auf Prüfungsnachweise, welche beim Unternehmen intern vorliegen
 - dokument: UVG/UVGZ- und KTG-Prämienabrechnungen bzw. definitive Lohnsummendeklarationen
   zweck: R1-302, R1-303, R1-410
+- dokument: Verträge und Abrechnungen mit den Beitrags-/Prämiensätzen des Unternehmens (BVG-Reglement/Beitragsübersicht, UVG/UVGZ, KTG, FAK-Satz Ausgleichskasse)
+  zweck: R1-201, R1-408, R1-410 (Sätze BVG/UVG/KTG/FAK nur aus Unternehmensunterlagen; BSV-Werte dazu sind Durchschnitte)
+  quelle: bsv-beitraege-ueberblick__c005-1
+  zitat: Pensionskassenstatistik 2023, durchschnittliche Beitragssätze in % des versicherten Verdienstes
 - dokument: Quellensteuer-Abrechnungen (Dezember bzw. Jahresabrechnung) und Belege Bezugsprovision
   zweck: R1-302 Abgrenzung Konto Quellensteuer, R1-408
 - dokument: Ferien- und Überzeitsaldi pro Person per 31.12. mit Bewertungsgrundlage
@@ -257,6 +271,12 @@ bewertung:
 - regel: Bestand stiller Reserven (u.a. AGBR) jährlich je Position ermitteln und mit Vorjahr vergleichen (Grundlage für Anhangangabe Nettoauflösung).
   quelle: hwp-bur-2023__rz-0671-s297
   zitat: Die Differenzen sind pro Bilanzposition nach stetig angewandten Methoden zu ermitteln und mit dem Vorjahresstand zu vergleichen.
+- regel: 'Vollzeitstellen: Teilzeitmitarbeitende anteilig; Auszubildende üblicherweise als Teilzeitangestellte.'
+  quelle: hwp-bur-2023__rz-0823-s344
+  zitat: werden Auszubildende üblicherweise nicht als Vollzeit-, sondern als Teilzeitangestellte betrachtet
+- regel: 'Vollzeitstellen: Beauftragte und ausgeliehene Mitarbeitende zählen beim rechtlichen Arbeitgeber.'
+  quelle: hwp-er-2026__rz-0307-s097
+  zitat: Beauftragte und ausgeliehene Mitarbeitende sind demnach bei ihrem rechtlichen Arbeitgeber mitzuzählen.
 fallstricke:
 - text: Saldobestätigungen von AHV, SUVA, BVG/PK (R1-402) und Anwaltsbestätigungen (R1-401) sind nicht Bestandteil der eingeschränkten Revision; Agent holt sie nicht ein (nur auf ausdrückliche
     Anweisung WP), sondern nutzt beim Unternehmen vorhandene Unterlagen.
@@ -266,7 +286,8 @@ fallstricke:
     die Jahresrechnung ist relevant.
   quelle: ser-2022__anh-d-s093-2
   zitat: Prüfen, ob arbeitsrechtliche und verwaltungsrechtliche Vorgaben eingehalten werden
-- text: 4xx-Schritte (Sonstige) sind weitergehende Handlungen und werden nur auf Anweisung ausgeführt.
+- text: '4xx-Schritte (Sonstige) sind weitergehende Handlungen: nur auf Anweisung WP bzw. bei dokumentiertem Risiko; jedes 4xx-Vorgehen beginnt mit diesem Vorbehalt. Teile mit ER-Grundlage
+    sind im Schritt ausdrücklich genannt (R1-405, R1-409).'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - text: 'Personalaufwand ist meist wesentlich: Befragung allein genügt nicht, Ergänzung durch Analytik/Abstimmung zwingend.'
@@ -278,9 +299,11 @@ fallstricke:
 - text: Analytik (Quoten, Vorjahr) wird durch Bildung/Auflösung stiller Reserven (z.B. AGBR, pauschale Ferienabgrenzung) verzerrt – Zahlen bereinigen.
   quelle: ser-2022__6-1-2-t2
   zitat: Einfluss der Bildung oder Auflösung stiller Reserven auf die ausgewiesenen Werte in der Jahresrechnung.
-- text: Sozialleistungsquote verzerrt, wenn Leistungen von Sozialversicherungen oder QSt-Bezugsprovisionen mit dem Aufwand verrechnet werden; für Vergleiche brutto rechnen.
+- text: Personal- und Sozialleistungsquoten verzerrt, wenn erhaltene Leistungen von Sozialversicherungen oder Entschädigungen für ausgeliehenes Personal mit dem Personalaufwand verrechnet
+    werden; für Vergleiche brutto rechnen.
   quelle: hwp-bur-2023__rz-0760-s320
-  zitat: erhaltene Leistungen von Sozialversicherungen (beispielsweise Erwerbsausfall- und Kurzarbeitsentschädigungen)
+  zitat: Die beiden letztgenannten Posten werden in der Buchführungspraxis vielfach als Minderung des Personalaufwands dargestellt.
+- text: QSt-Bezugsprovisionen, die den Personalaufwand mindern, für Quoten separat zeigen (Praxis).
 - text: AHV-Lohnsumme ist nicht gleich Bruttolohnaufwand (z.B. Familien- und Kinderzulagen nicht AHV-pflichtig, Bonus-/Austrittszeitpunkte); Differenzen erklären, nicht als Fehler werten.
   quelle: treuhand-almanach-2026__s083-1
   zitat: Bruttolohn ohne Familien- und Kinderzulagen
@@ -296,6 +319,32 @@ fallstricke:
 - text: Lohnbezogene Posten werden gern als ausserordentlich/periodenfremd gezeigt; Klassierung und Anhangerläuterung kritisch prüfen.
   quelle: hwp-bur-2023__rz-0800-s330-t1
   zitat: Somit ist zwar im Einzelnen zu begründen, wenn ein Posten als ausserordentlich erfasst wurde
+- text: Weiter gehende Detailprüfungen (R1-303 bis R1-306) nur bei erhöhtem inhärentem Risiko oder wenn die empfohlenen Handlungen Fehlaussagen vermuten lassen; sonst nicht ausführen.
+  quelle: hwp-er-2026__rz-0133-s203
+  zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+    vorzunehmen.
+- text: 'Befragung in der ER nur innerhalb des Unternehmens: keine Anfragen bei Ausgleichskasse, SUVA, Versicherern oder Vorsorgeeinrichtung/Sammelstiftung; nur beim Unternehmen vorhandene
+    Unterlagen verwenden, fehlende als Pendenz.'
+  quelle: hwp-er-2026__rz-0101-s197
+  zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+- text: Differenzen (z.B. aus R1-101, R1-301, R1-302, R1-409) nur als Notiz «Wesentliche Feststellungen» mit begründetem Buchungsvorschlag; der Agent bucht nicht.
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+- text: 'Verdeckte Gewinnausschüttung: Mitteilung an den VR, Beurteilung der Rückerstattung (Art. 678 OR) und Hinweis im Bericht sind Sache der Revisionsstelle (WP); der Agent erfasst
+    nur eine Notiz «Wesentliche Feststellungen» und nimmt keinen Kontakt mit dem VR auf.'
+  quelle: hwp-er-2026__rz-0164-s212-t1
+  zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+- text: 'Die Vollzeitstellen-Angabe betrifft die Revisionspflicht (10: Opting-out; 250: Kriterium ordentliche Revision); Kategorienwechsel oder Nähe zu einer Schwelle als Hinweis an
+    WP (Prüffeld A1).'
+  quelle: hwp-bur-2023__rz-0820-s343
+  zitat: '10 Vollzeitstellen im Jahresdurchschnitt: Opting-out (Art. 727a Abs. 2 OR)'
+- text: Die Summe der Pensen in einer Personalliste ist ein Stichtagswert, kein Jahresdurchschnitt; Ein-/Austritte pro rata über Monats- oder Quartalsenden berücksichtigen.
+  quelle: hwp-bur-2023__rz-0822-s344
+  zitat: Für die Berechnung des Jahresdurchschnitts der Vollzeitstellen kann je nach Saisonalität vom Stand an den Monats- oder Quartalsenden ausgegangen werden.
+- text: 'Beitragssätze und Höchstbeträge nie aus dem Gedächtnis: AHV/IV/EO/ALV und UVG-Höchstbetrag 2025 nur aus Quellen mit Stand 2025 (BSV-Übersicht «ab 1.1.2025», Almanach Spalte
+    1.1.2025); Tabellen «Stand 1. Januar 2026» (z.B. Almanach S. 80) nicht für 2025 verwenden; BVG/UVG/KTG/FAK-Sätze nur aus Unternehmensunterlagen.'
+  quelle: bsv-beitraege-ueberblick__c005-1
+  zitat: in % des Einkommens, ab 1.1.2025
 fragen_kunde:
 - frage: Wurden nach dem 31.12. Boni, Erfolgsprämien, Gratifikationen oder Provisionen für das Geschäftsjahr beschlossen oder zugesagt (Betrag, Datum, Organ)? Wie und in welchem Konto
     wurden sie per Stichtag erfasst bzw. abgegrenzt?
@@ -315,7 +364,7 @@ fragen_kunde:
     auf welcher Grundlage (Vertrag, Beschluss)?
   zweck: R1-403, R1-405
 - frage: Bestehen Arbeitgeberbeitragsreserven (mit/ohne Verwendungsverzicht)? Wurden im Geschäftsjahr Einlagen getätigt oder Beiträge aus AGBR bezahlt? Wie hoch ist der Deckungsgrad
-    der Vorsorgeeinrichtung per 31.12., und sind Sanierungsmassnahmen beschlossen?
+    der Vorsorgeeinrichtung per 31.12., und sind Sanierungsmassnahmen beschlossen? Bitte Kontoauszug AGBR und Mitteilung/Jahresbericht der Vorsorgeeinrichtung beilegen.
   zweck: R1-321, R1-406, R1-407
 - frage: Wie wurde die Abgrenzung für Ferien- und Überzeitguthaben ermittelt (Saldi je Person, Lohnbasis, Zuschlag, Sozialleistungen)?
   zweck: R1-409b
@@ -324,12 +373,15 @@ fragen_kunde:
   zweck: R1-411
 - frage: Wer legt Löhne und Lohnänderungen fest und genehmigt sie (Lohnrunde 2025)? Gab es Lohnzahlungen ausserhalb der Lohnbuchhaltung?
   zweck: R1-403, R1-301
-- frage: Wie viele Vollzeitstellen beschäftigte das Unternehmen im Jahresdurchschnitt (Berechnungsbasis Monats-/Quartalsenden, Behandlung Lernende/Temporäre)?
-  zweck: R1-320 Anhangangabe Vollzeitstellen
+- frage: Wie viele Vollzeitstellen beschäftigte das Unternehmen im Jahresdurchschnitt des Geschäftsjahres und des Vorjahres (Berechnungsbasis Monats-/Quartalsenden, Behandlung Lernende,
+    Temporäre und ausgeliehene Mitarbeitende)?
+  zweck: R1-320 Anhangangabe Vollzeitstellen; R1-202/R1-203b FTE Vorjahr
 testakte_2025:
 - datei: L_Personal/Personalliste_Loehne_2025.md
-  bezug: R1-301 (Total Bruttolohn/Bonus ↔ Konten 5200/5202), R1-203b und R1-320 (Pensen, Summe Vollzeitstellen, Ein-/Austritte), R1-101/R1-409a (Spalte Bonus 2025), R1-403/R1-412 (Jahreslohn
-    je Person), R1-405 (GF, Leiterin Finanzen), R1-410 (AHV-pflichtiger Lohn je Person), R1-408 (QST-Kennzeichen)
+  bezug: 'R1-301 (Total Bruttolohn/Bonus ↔ Konten 5200/5202), R1-203b und R1-320 (Pensen, Summe Vollzeitstellen, Ein-/Austritte), R1-101/R1-409a (Spalte Bonus 2025), R1-403/R1-412 (Jahreslohn
+    je Person), R1-405 (GF, Leiterin Finanzen), R1-410 (AHV-pflichtiger Lohn je Person), R1-408 (QST-Kennzeichen); enthält nur GJ-Daten: VJ-Personalbestand/FTE nicht in Testakte → in
+    M-Files (Vorjahresakte) suchen, sonst Pendenz; Summe Pensen 46.4 ist Stichtagswert, kein Jahresdurchschnitt (Austritt P133 30.06.2025, Eintritte P140 01.03.2025, P141 01.04.2025)
+    → R1-320 pro rata rechnen'
 - datei: L_Personal/AHV_Jahreslohnmeldung_2025_Zusammenzug.md
   bezug: R1-410 (gemeldete AHV-Lohnsumme total und je Person ↔ Personalliste/Lohnaufwand), R1-303 (Basis Beiträge ↔ Konto 5700)
 - datei: L_Personal/Ferien_Ueberzeit_Saldi_31.12.2025.md
@@ -339,16 +391,18 @@ testakte_2025:
 - datei: J_Uebrige_kurzfristige_Verbindlichkeiten/AHV_Schlussabrechnung_2025_Kopie.md
   bezug: R1-302 (Saldo Schlussabrechnung ↔ Konto 2270), R1-303 (Beiträge total ↔ Konto 5700), R1-410 (Lohnsumme), R1-402 (beim Unternehmen vorhandener Ersatz für Saldobestätigung)
 - datei: 00_Allgemein/Saldoliste_2025.md
-  bezug: R1-102, R1-201, R1-202, R1-203c (Blatt Erfolgsrechnung, Konten 5200–5880 GJ/VJ), R1-302/R1-409 (Blatt Bilanz, Konten 2209, 2270–2274, 2279, 2370)
+  bezug: R1-102, R1-201, R1-202, R1-203c (Blatt Erfolgsrechnung, Konten 5200–5880 GJ/VJ), R1-302/R1-409 (Blatt Bilanz, Konten 2209, 2270–2274, 2279, 2370); Rückgang Lohnaufwand 5200
+    (GJ 3,0 Mio., VJ 5,4 Mio.) als Frage in R1-102 erfassen und in R1-202 mit FTE VJ plausibilisieren
 - datei: 00_Allgemein/Hauptbuch_2025_Kontoblaetter.md
   bezug: R1-203a und R1-301 (Blatt 2209 Lohnsammelkonto, Monats-Sammelbuchungen gegen 5200), R1-302 (Blätter 2270–2274, 2279, 2370), R1-404 (Lohnzahlung Dezember Blatt 1011, AHV-Akonto
     Blatt 1010); Aufwandskonten 5xxx sind nicht als Kontoblatt enthalten
 - datei: 00_Allgemein/Kontoblaetter_Folgejahr_Jan_Feb_2026.md
   bezug: R1-306 (Durchsicht neue Rechnung; enthält nur Konten 1100, 3200, 2000 – Personalkonten Folgejahr in M-Files suchen bzw. als Pendenz)
 - datei: 00_Allgemein/Jahresrechnung_2025_Fiktive_Zahlen_AG_Testfassung.md
-  bezug: R1-320 (Anhang Ziff. 5 Mitarbeiter, Ziff. 3 ausserordentliche Positionen mit Lohnbezug), R1-305 (ao. Aufwand mit Personalbezug), Gliederung Personalaufwand in der ER
+  bezug: 'R1-320 (Anhang Ziff. 5 Mitarbeiter: «nicht über 50 (Vorjahr: nicht über 250)» – Kategorienwechsel, Formulierung mit Gesetzeswortlaut «nicht über 10, über 50 bzw. über 250»
+    vergleichen, Hinweis an WP; Ziff. 3 ausserordentliche Positionen mit Lohnbezug), R1-305 (ao. Aufwand mit Personalbezug), Gliederung Personalaufwand in der ER'
 - datei: 00_Allgemein/Unternehmensinformationen_2025.md
-  bezug: R1-405 (VR und Geschäftsführung als Nahestehende), R1-320 (Angabe Mitarbeitende Jahresdurchschnitt)
+  bezug: R1-405 (VR und Geschäftsführung als Nahestehende), R1-320 (Angabe «rund 50 Personen» Jahresdurchschnitt – Personen ≠ Vollzeitstellen)
 - datei: M_Eigenkapital/Aktienbuch_31.12.2025.md
   bezug: R1-405 (Aktionäre/VR-Mitglieder zur Bestimmung der Nahestehenden)
 - datei: M_Eigenkapital/Protokoll_oGV_20.06.2025.md
@@ -369,7 +423,8 @@ schritte:
   - Personalliste/Lohnjournal (Bonus)
   - Detail passive Rechnungsabgrenzungen 31.12.
   rechnen: Σ beschlossene Boni für GJ − (im GJ gebuchter Bonus + abgegrenzter Bonus inkl. Sozialleistungen) = nicht erfasster Betrag
-  feststellung_wenn: Für das Geschäftsjahr beschlossene oder zugesicherte Boni sind weder gebucht noch abgegrenzt (inkl. AG-Sozialleistungen) oder Abgrenzung ohne Beschluss/Beleg.
+  feststellung_wenn: Für das GJ beschlossene/zugesicherte Boni weder gebucht noch abgegrenzt (inkl. AG-Sozialleistungen) oder Abgrenzung ohne Beschluss/Beleg → Notiz «Wesentliche Feststellungen»
+    mit Buchungsvorschlag (keine Verbuchung).
   fundstellen:
   - quelle: ser-2022__anh-d-s093-1
     zitat: Befragung, ob nach dem Bilanzstichtag Leistungs- oder Erfolgsprämien für das vergangene Jahr beschlossen wurden und wenn ja, ob diese korrekt erfasst sind
@@ -377,6 +432,8 @@ schritte:
     zitat: Ansprüche des Personals (beispielsweise Boni/Gratifikationen, diverse Soziallasten)
   - quelle: or__art-322d
     zitat: so hat der Arbeitnehmer einen Anspruch darauf, wenn es verabredet ist
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: R1-102
   vorgehen: Abweichungen der Personalkonten (Aufwand und Personal-Bilanzkonten) gegenüber Vorjahr und Erwartung aus R1-201/202 berechnen; wesentliche Abweichungen als konkrete Fragen
     an den Kunden (Pendenz) erfassen. Schriftliche Erklärungen kritisch würdigen und mit Personalbestand/Lohnliste plausibilisieren; Fragen, Antworten und Würdigung im Textfeld.
@@ -394,11 +451,13 @@ schritte:
   - quelle: hwp-er-2026__rz-0103-s197
     zitat: Das Festhalten der wesentlichen Fragen und der erhaltenen Antworten gehört zu den zwingenden Inhalten der Dokumentation
 - id: R1-201
-  vorgehen: Sozialleistungen je Versicherung (AHV/IV/EO/ALV/FAK, BVG, UVG, KTG) und total in % der Lohnsumme (Lohn + Bonus) für GJ und VJ berechnen; Leistungen von Sozialversicherungen
-    und QSt-Provisionen separat zeigen (brutto). Quotenveränderungen und Abweichungen von erwarteten Beitragssätzen erklären oder als Frage erfassen; Tabelle im Textfeld.
+  vorgehen: 'Sozialleistungen je Versicherung (AHV/IV/EO/ALV/FAK, BVG, UVG, KTG) und total in % der Lohnsumme (Lohn + Bonus) GJ/VJ berechnen; Leistungen von SV und QSt-Provisionen separat
+    (brutto). Erwartete Sätze 2025: AHV/IV/EO/ALV nur aus BSV-Übersicht ab 1.1.2025 bzw. Almanach Spalte 1.1.2025; BVG/UVG/KTG/FAK nur aus Verträgen/Abrechnungen des Unternehmens, sonst
+    Pendenz. Abweichungen erklären oder als Frage erfassen; Tabelle und Jahr im Textfeld.'
   nachweise:
   - Saldoliste ER GJ/VJ (Lohn-, Bonus- und Sozialversicherungskonten)
-  - Beitrags-/Prämiensätze der Versicherer
+  - Beitragssätze AHV/IV/EO/ALV 2025 (BSV-Übersicht ab 1.1.2025, Almanach Spalte 1.1.2025)
+  - Verträge/Abrechnungen BVG, UVG/UVGZ, KTG, FAK (Sätze des Unternehmens)
   rechnen: Quote_SV = Σ Sozialversicherungsaufwand (AHV, BVG, UVG, KTG) / (Lohnaufwand + Bonus) je Jahr; Quote je Versicherung = Konto / Lohnsumme; Δ = Quote GJ − Quote VJ
   feststellung_wenn: Sozialleistungsquote weicht ohne Erklärung wesentlich vom Vorjahr oder von den Beitragssätzen ab (Hinweis auf fehlende Schlussabrechnung/Abgrenzung oder Fehlbuchung).
   fundstellen:
@@ -408,13 +467,20 @@ schritte:
     zitat: Sozialversicherungsbeiträge im Verhältnis zur Lohnsumme
   - quelle: ser-2022__6-1-2-t1
     zitat: Sozialaufwand in Prozenten der Löhne
+  - quelle: bsv-beitraege-ueberblick__c005-1
+    zitat: in % des Einkommens, ab 1.1.2025
+  - quelle: treuhand-almanach-2026__s075-1
+    zitat: Die Beitragssätze sind gegenüber dem Vorjahr unverändert.
+  - quelle: bsv-beitraege-ueberblick__c005-1
+    zitat: Pensionskassenstatistik 2023, durchschnittliche Beitragssätze in % des versicherten Verdienstes
 - id: R1-202
-  vorgehen: Personalaufwand je Konto GJ vs. VJ und vs. Budget gegenüberstellen; Erwartungswert aus Personalbestand (FTE, Ein-/Austritte), Lohnrunde und Bonusregelung herleiten. Unerwartete
-    oder unübliche Entwicklungen (z.B. Spesen, übriger Personalaufwand, Leistungen Sozialversicherungen) mit Kontoblatt/Belegen klären oder als Frage erfassen; Ergebnis im Textfeld.
+  vorgehen: Personalaufwand je Konto GJ vs. VJ und vs. Budget gegenüberstellen; Erwartungswert aus Personalbestand (FTE GJ/VJ, Ein-/Austritte), Lohnrunde und Bonusregelung herleiten;
+    FTE VJ aus Vorjahresakte in M-Files, sonst Pendenz. Unerwartete oder unübliche Entwicklungen (z.B. Spesen, übriger Personalaufwand, Leistungen SV) mit Kontoblatt/Belegen klären oder
+    als Frage erfassen; Ergebnis im Textfeld.
   nachweise:
   - Saldoliste ER GJ/VJ
   - Budget Personalaufwand
-  - Personalliste mit Ein-/Austritten und Pensen
+  - Personalliste mit Ein-/Austritten und Pensen (GJ und VJ, VJ aus Vorjahresakte)
   rechnen: Abweichung GJ−VJ und GJ−Budget je Konto (absolut, %); Erwartung Lohnaufwand = Lohnaufwand VJ × (FTE GJ / FTE VJ) × (1 + Lohnanpassung %); Differenz Ist − Erwartung
   feststellung_wenn: Unerwartete Entwicklung ohne nachvollziehbare Erklärung oder mit Hinweis auf fehlende, doppelte oder falsch klassierte Erfassung.
   fundstellen:
@@ -426,10 +492,10 @@ schritte:
     zitat: Untersuchungen von festgestellten Schwankungen, Abweichungen, Kennzahlenvergleiche
 - id: R1-203
   vorgehen: a) Monatlichen Personalaufwand aus Lohnjournal bzw. Monatsbuchungen Lohnsammelkonto ermitteln und Ausreisser (13. Lohn, Boni, Austritte, fehlende Monate) erklären; b) Personalaufwand
-    pro FTE GJ vs. VJ; c) Sozialversicherungsaufwand in % des Lohnaufwands. Auffälligkeiten mit Belegen klären oder als Frage erfassen; Tabelle im Textfeld.
+    pro FTE GJ vs. VJ (FTE VJ aus Vorjahresakte, sonst Pendenz); c) SV-Aufwand in % des Lohnaufwands. Auffälligkeiten mit Belegen klären oder als Frage erfassen; Tabelle im Textfeld.
   nachweise:
   - Lohnjournal Monatstotale bzw. Kontoblatt Lohnsammelkonto
-  - Personalliste (Pensen, Ein-/Austritte)
+  - Personalliste (Pensen, Ein-/Austritte) GJ und VJ
   - Saldoliste ER GJ/VJ
   rechnen: a) Monatstotal_m und Abweichung zum Monatsmittel; b) Personalaufwand / Σ Pensen (FTE) GJ vs. VJ; c) Σ Sozialversicherungsaufwand / Lohnaufwand GJ vs. VJ
   feststellung_wenn: Monatswert, Aufwand pro FTE oder SV-Quote unerklärt auffällig (z.B. fehlender/doppelter Monat, Quote ausserhalb der Beitragssätze).
@@ -447,15 +513,19 @@ schritte:
   - Saldoliste bzw. Kontoblätter Personalkonten
   - Kontoblatt Lohnsammelkonto
   rechnen: Σ Bruttolohn + Bonus gemäss Lohnjournal = Saldo Lohnaufwand + Bonus Hauptbuch (± dokumentierte Abgrenzungen); Saldo Lohnsammelkonto 31.12. ≈ 0 bzw. erklärt
-  feststellung_wenn: Unerklärte Differenz Lohnbuchhaltung–Hauptbuch über der Nichtaufgriffsgrenze oder Lohnsammelkonto mit unerklärtem Saldo.
+  feststellung_wenn: Unerklärte Differenz Lohnbuchhaltung–Hauptbuch über der Nichtaufgriffsgrenze oder Lohnsammelkonto mit unerklärtem Saldo → Notiz «Wesentliche Feststellungen» mit
+    Buchungsvorschlag (keine Verbuchung).
   fundstellen:
   - quelle: ser-2022__anh-d-s093-1
     zitat: Abstimmen der Totale der Lohnbuchhaltung mit den Hauptbuchkonten
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: ob die aus Hilfs- oder Nebenbuchhaltungen stammenden Werte korrekt in das Hauptbuch und schliesslich die Jahresrechnung übernommen worden sind
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: R1-302
   vorgehen: 'WP-Schritt; Agent bereitet vor: Je Versicherung (AHV/FAK, UVG/UVGZ, KTG, BVG, QSt) Schlussabrechnung bzw. definitive Lohnsummendeklaration in M-Files suchen und Saldo (Nachzahlung/Guthaben)
-    mit dem Kontokorrent- bzw. Abgrenzungssaldo per 31.12. vergleichen. Fehlende Abrechnungen als Pendenz; Beurteilung durch WP.'
+    mit Kontokorrent- bzw. Abgrenzungssaldo per 31.12. vergleichen. Überfällige SV-/BVG-Saldi (Überweisungsfrist Art. 331 Abs. 3 OR) als Hinweis Fortführung an WP. Fehlende Abrechnungen
+    als Pendenz; Beurteilung durch WP.'
   nachweise:
   - AHV-Schlussabrechnung
   - BVG-Jahresabrechnung
@@ -463,7 +533,8 @@ schritte:
   - Quellensteuer-Abrechnung Dezember/Jahr
   - Kontoblätter Kontokorrente Sozialversicherungen und Quellensteuer
   rechnen: 'Je Versicherung: Saldo Schlussabrechnung (Beiträge total − Akonto) = Bilanzsaldo Kontokorrent/Abgrenzung 31.12.; Differenz = Abgrenzungsfehler'
-  feststellung_wenn: Nachzahlung oder Guthaben aus Schlussabrechnung nicht bzw. falsch abgegrenzt oder Kontokorrent mit unerklärtem Soll-/Habensaldo.
+  feststellung_wenn: Nachzahlung/Guthaben aus Schlussabrechnung nicht bzw. falsch abgegrenzt oder Kontokorrent mit unerklärtem bzw. überfälligem Saldo → Notiz «Wesentliche Feststellungen»
+    mit Buchungsvorschlag (keine Verbuchung).
   fundstellen:
   - quelle: hwp-bur-2023__rz-0048-s066
     zitat: der vollständigen Erfassung aller Verbindlichkeiten, passiven Rechnungsabgrenzungen und Rückstellungen
@@ -471,9 +542,18 @@ schritte:
     zitat: inkl. darauf entfallende Sozialleistungen
   - quelle: or__art-958b
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+  - quelle: or__art-331-t1
+    zitat: spätestens am Ende des ersten Monats nach dem Kalender- oder Versicherungsjahr, für das die Beiträge geschuldet sind, an die Vorsorgeeinrichtung überweisen
+  - quelle: hwp-er-2026__rz-0191-s224
+    zitat: Unfähigkeit, Löhne und Sozialversicherungsbeiträge zu begleichen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
 - id: R1-303
-  vorgehen: 'WP-Schritt, weiter gehend bei Risiko: AG-Anteile gemäss AHV-Schlussabrechnung, BVG-Jahresabrechnung und UVG/KTG-Prämienabrechnungen mit den Aufwandskonten abstimmen (AN-Anteile
-    über Lohnabzüge berücksichtigen); Lohnsumme der Abrechnungen mit Lohnjournal vergleichen. Abstimmungstabelle und Differenzen im Textfeld.'
+  vorgehen: 'WP-Schritt, weiter gehend (SER Anh. D q): nur bei erhöhtem inhärentem Risiko oder Hinweisen auf Fehlaussagen aus R1-101 bis R1-301. AG-Anteile gemäss AHV-Schlussabrechnung,
+    BVG-Jahresabrechnung und UVG/KTG-Prämienabrechnungen mit den Aufwandskonten abstimmen (AN-Anteile über Lohnabzüge); Lohnsumme der Abrechnungen mit Lohnjournal vergleichen. Abstimmungstabelle
+    und Differenzen im Textfeld.'
   nachweise:
   - AHV-Schlussabrechnung
   - BVG-Jahresabrechnung
@@ -488,9 +568,15 @@ schritte:
     zitat: Abstimmen des ausgewiesenen Aufwands mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-304
-  vorgehen: 'WP-Schritt: In M-Files nach Berichten von AHV-Arbeitgeberkontrollen, SUVA-Lohnbuchrevisionen o.ä. suchen; Feststellungen und Nachbelastungen auf Erfassung als Aufwand/Verbindlichkeit/Rückstellung
-    prüfen. Fehlen Berichte, Frage nach durchgeführten Kontrollen als Pendenz. Keine Anfrage bei Behörden (Drittbestätigung).'
+  vorgehen: 'WP-Schritt, weiter gehend (SER Anh. D q): nur bei erhöhtem inhärentem Risiko oder Hinweisen auf Fehlaussagen aus R1-101 bis R1-301. In M-Files nach Berichten von AHV-Arbeitgeberkontrollen,
+    SUVA-Lohnbuchrevisionen o.ä. suchen; Feststellungen/Nachbelastungen auf Erfassung als Aufwand, Verbindlichkeit oder Rückstellung prüfen. Fehlen Berichte, Frage nach Kontrollen als
+    Pendenz; keine Anfrage bei Behörden/Versicherern.'
   nachweise:
   - Berichte AHV-Arbeitgeberkontrolle
   - SUVA-/UVG-Lohnbuchrevision
@@ -502,9 +588,17 @@ schritte:
     zitat: Einsichtnahme in Berichte von anderen Prüfern (AHV, SUVA, MWST usw.)
   - quelle: hwp-er-2026__rz-0083-s194
     zitat: der Abschlussprüfer beschränkt sich also auf Prüfungsnachweise, welche beim Unternehmen intern vorliegen
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
 - id: R1-305
-  vorgehen: 'WP-Schritt, weiter gehend: Kontoblätter Personalaufwand (inkl. Spesen, übriger Personalaufwand, ao. Aufwand) und übrige Aufwandskonten nach Stichworten (Lohn, Bonus, Abfindung,
-    Spesen, Nachzahlung, Namen GL/VR) und grossen/manuellen Buchungen durchsuchen; auffällige Posten mit Belegen prüfen (Grundlage, Periode, Klassierung). Auswahl und Ergebnis im Textfeld.'
+  vorgehen: 'WP-Schritt, weiter gehend (SER Anh. D q): nur bei erhöhtem inhärentem Risiko oder Hinweisen auf Fehlaussagen aus R1-101 bis R1-301. Kontoblätter Personalaufwand (inkl. Spesen,
+    übriger Personalaufwand, ao. Aufwand) und übrige Aufwandskonten nach Stichworten (Lohn, Bonus, Abfindung, Spesen, Namen GL/VR) und grossen/manuellen Buchungen durchsuchen; auffällige
+    Posten mit Belegen prüfen (Grundlage, Periode, Klassierung). Ergebnis im Textfeld.'
   nachweise:
   - Kontoblätter Personalaufwand und übrige Aufwandskonten
   - Belege der ausgewählten Posten
@@ -515,9 +609,15 @@ schritte:
     zitat: Durchsicht von Aufwandskonten im Hauptbuch auf ungewöhnliche Posten mit Personalbezug; Belegprüfung solcher Posten
   - quelle: hwp-er-2026__rz-0124-s202
     zitat: bestimmte Aufwands- oder Ertragskonten
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-306
-  vorgehen: 'WP-Schritt: Kontoblätter Personalaufwand und Personal-Kontokorrente des Folgejahres (bis Prüfungsdatum) auf Buchungen mit Bezug zum Geschäftsjahr durchsehen (Boni, Lohnnachzahlungen,
-    Nachzahlungen aus Schlussabrechnungen, Abfindungen). Treffer mit den Abgrenzungen per 31.12. abgleichen; fehlende Folgejahresdaten als Pendenz.'
+  vorgehen: 'WP-Schritt, weiter gehend (SER Anh. D q): nur bei erhöhtem inhärentem Risiko oder Hinweisen auf Fehlaussagen aus R1-101 bis R1-301. Kontoblätter Personalaufwand und Personal-Kontokorrente
+    des Folgejahres (bis Prüfungsdatum) auf Buchungen mit Bezug zum GJ durchsehen (Boni, Lohn- und SV-Nachzahlungen, Abfindungen); Treffer mit den Abgrenzungen per 31.12. abgleichen;
+    fehlende Folgejahresdaten als Pendenz.'
   nachweise:
   - Kontoblätter Folgejahr (Personalaufwand, Kontokorrente Sozialversicherungen, Lohnsammelkonto)
   - Lohnjournal Januar/Februar Folgejahr
@@ -529,16 +629,23 @@ schritte:
     zitat: Durchsicht der Aufwandskonten in neuer Rechnung auf auffällige Beträge mit Personalbezug, die das Vorjahr betreffen
   - quelle: ser-2022__6-1-3
     zitat: Durchsicht von Belegen in neuer Rechnung
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-320
-  vorgehen: 'Anhang auf personalbezogene Angaben durchsehen: Vollzeitstellen-Kategorie mit Personalliste plausibilisieren, Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (Saldo BVG-Kontokorrent),
-    Beteiligungsrechte/Optionen an Organe/Mitarbeitende, Erläuterung ao./periodenfremder Personalposten, Nettoauflösung stiller Reserven (AGBR), bedeutende Leistungen von Sozialversicherungen.
-    Ergebnis im Textfeld.'
+  vorgehen: 'Anhang durchsehen: Vollzeitstellen-Erklärung mit FTE-Jahresdurchschnitt plausibilisieren; Kategorienwechsel oder Nähe zur Schwelle 10/250 als Hinweis an WP (Revisionspflicht/Opting-out,
+    Prüffeld A1). Ferner: Verbindlichkeiten gegenüber VE, Beteiligungsrechte/Optionen, ao./periodenfremde Personalposten, Nettoauflösung stiller Reserven (AGBR), bedeutende Leistungen
+    von SV, bei Absatzerfolgsrechnung Personalaufwand. Ergebnis im Textfeld.'
   nachweise:
-  - Anhang der Jahresrechnung
-  - Personalliste (Pensen)
+  - Anhang der Jahresrechnung GJ und VJ
+  - Personalliste mit Pensen und Ein-/Austritten (Stand Monats-/Quartalsenden)
   - Saldo BVG-Kontokorrent 31.12.
-  rechnen: FTE-Durchschnitt = Σ Pensen an Monats- oder Quartalsenden / Anzahl Stichtage → Kategorie (nicht über 10 / über 10 / über 50 / über 250)
-  feststellung_wenn: Pflichtangabe fehlt oder ist falsch (z.B. Vollzeitstellen-Kategorie, Verbindlichkeiten gegenüber Vorsorgeeinrichtungen, ao. Personalposten nicht erläutert).
+  rechnen: 'FTE-Durchschnitt = Σ Pensen an Monats- oder Quartalsenden / Anzahl Stichtage (pro rata Ein-/Austritte, Lernende als Teilzeit, ausgeliehene Mitarbeitende beim rechtlichen
+    Arbeitgeber) → Prüfung der Schwellen 10/50/250 nach Art. 959c Abs. 2 Ziff. 2 OR (Wortlaut: nicht über 10, über 50 bzw. über 250)'
+  feststellung_wenn: Pflichtangabe fehlt oder ist falsch (Vollzeitstellen, Verbindlichkeiten gegenüber VE, ao. Personalposten, Personalaufwand bei Absatzerfolgsrechnung); Kategorienwechsel
+    oder Schwellennähe → Hinweis an WP.
   fundstellen:
   - quelle: ser-2022__anh-d-s098-2
     zitat: Plausibilisierung der Angabe der Vollzeitstellen (weniger als 10, über 50 beziehungsweise über 250) im Jahresdurchschnitt
@@ -548,11 +655,21 @@ schritte:
     zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
   - quelle: or__art-959c-t2
     zitat: Verbindlichkeiten gegenüber Vorsorgeeinrichtungen;
+  - quelle: ser-2022__anh-d-s098-2
+    zitat: Enthält der Anhang bei Anwendung der Absatzerfolgsrechnung (Umsatzkostenverfahren) den Personalaufwand
+  - quelle: hwp-bur-2023__rz-0820-s343
+    zitat: '10 Vollzeitstellen im Jahresdurchschnitt: Opting-out (Art. 727a Abs. 2 OR)'
+  - quelle: hwp-bur-2023__rz-0822-s344
+    zitat: Für die Berechnung des Jahresdurchschnitts der Vollzeitstellen kann je nach Saisonalität vom Stand an den Monats- oder Quartalsenden ausgegangen werden.
+  - quelle: hwp-bur-2023__rz-0823-s344
+    zitat: werden Auszubildende üblicherweise nicht als Vollzeit-, sondern als Teilzeitangestellte betrachtet
+  - quelle: hwp-er-2026__rz-0307-s097
+    zitat: Beauftragte und ausgeliehene Mitarbeitende sind demnach bei ihrem rechtlichen Arbeitgeber mitzuzählen.
 - id: R1-321
   vorgehen: Personalbezogene stille Reserven ermitteln (nicht aktivierte AGBR ohne Verwendungsverzicht, überhöhte Ferien-/Überzeit- oder Bonusabgrenzungen, Personalrückstellungen) und
     Bestand/Veränderung mit dem Detailnachweis stiller Reserven abstimmen. Netto-Auflösung (z.B. Verwendung nicht aktivierter AGBR) an Prüffeld Anhang/Allgemein melden; im Textfeld festhalten.
   nachweise:
-  - Kontoauszug AGBR der Vorsorgeeinrichtung 31.12. GJ/VJ
+  - Kontoauszug AGBR 31.12. GJ/VJ (beim Unternehmen vorhanden)
   - Detailnachweis stille Reserven
   - Berechnung Ferien-/Überzeit- und Bonusabgrenzung
   rechnen: Stille Reserve AGBR = AGBR ohne Verwendungsverzicht gemäss Auszug VE − aktivierter Betrag; stille Reserve Abgrenzung = gebuchte − berechnete Abgrenzung; Veränderung = Stand
@@ -578,9 +695,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0279-s247
     zitat: Neben den Jahresakten werden Dauerakten angelegt, die eine systematische Sammlung von Dokumenten umfassen, die über mehrere Jahre der Mandantenbeziehung Gültigkeit haben
 - id: R1-401
-  vorgehen: 'Nicht Bestandteil der ER: Agent holt keine Anwaltsbestätigung ein (nur auf ausdrückliche Anweisung WP). Ersatz: Frage nach arbeitsrechtlichen Streitigkeiten als Pendenz;
-    Aktennotizen, Korrespondenz und vom Unternehmen selbst eingeholte Anwaltsbeurteilungen in M-Files sichten und mit Rückstellungen/Eventualverbindlichkeiten abgleichen. Ergebnis und
-    Grenzen im Textfeld.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Anwaltsbestätigung ist nicht
+    ER (nur auf ausdrückliche Anweisung WP). Ersatz (empfohlene Befragung zu Rechtsfällen, Prüffeld O1): Frage nach arbeitsrechtlichen Streitigkeiten als Pendenz; Korrespondenz, vom
+    Unternehmen eingeholte Anwaltsbeurteilungen mit Rückstellungen/Eventualverbindlichkeiten abgleichen.'
   nachweise:
   - schriftliche Antwort GL zu Rechtsfällen mit Personalbezug
   - Korrespondenz/Klageschriften
@@ -595,9 +712,14 @@ schritte:
     zitat: Dieses Vorgehen, im SER als «Einholen von Anwaltsbestätigungen» bezeichnet, ist bei der eingeschränkten Revision nicht vorgesehen.
   - quelle: hwp-er-2026__rz-0139-s204-t3
     zitat: Liegt eine Bestätigung im Zeitpunkt der Abschlusserstellung vor, wird der Abschlussprüfer diese als Prüfungsnachweis betrachten
+  - quelle: ser-2022__anh-d-s088-1
+    zitat: Befragung über pendente Risiken (Rechtsfälle, angedrohte Schadenersatz- und andere Ansprüche usw.), die eine Rückstellung erfordern
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - id: R1-402
-  vorgehen: 'Nicht Bestandteil der ER: keine Saldobestätigungen bei AHV, UVG/SUVA, KTG oder BVG einholen (nur auf ausdrückliche Anweisung WP). Ersatz: beim Unternehmen vorhandene Kontoauszüge
-    und Schlussabrechnungen der Versicherer (R1-302/303) mit den Kontokorrenten abstimmen; fehlende Unterlagen als Pendenz.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Saldobestätigungen bei AHV,
+    UVG/SUVA, KTG oder BVG sind nicht Bestandteil der ER (nur auf ausdrückliche Anweisung WP). Ersatz: beim Unternehmen vorhandene Kontoauszüge und Schlussabrechnungen der Versicherer
+    (R1-302/303) mit den Kontokorrenten abstimmen; fehlende als Pendenz.'
   nachweise:
   - Kontoauszüge/Schlussabrechnungen der Versicherer (beim Unternehmen vorhanden)
   - Kontoblätter Kontokorrente Sozialversicherungen
@@ -610,9 +732,12 @@ schritte:
     zitat: Saldobestätigungen von MWST, AHV, SUVA, BVG/PK und Steuerämtern
   - quelle: hwp-er-2026__rz-0083-s194
     zitat: ist das Einholen von Drittbestätigungen nicht vorgesehen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - id: R1-403
-  vorgehen: 'Weiter gehend (auf Anweisung, bei Risiko): Für bewusst ausgewählte Mitarbeitende (GL, Nahestehende, Ein-/Austritte, hohe Löhne) Jahreslohn gemäss Lohnkonto mit Arbeitsvertrag,
-    Lohnänderungsmitteilung oder VR-Beschluss vergleichen (Monatslohn × Monate, Pensum, 13. Lohn, Bonus). Auswahl und Abweichungen tabellarisch im Textfeld.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Für bewusst ausgewählte Mitarbeitende
+    (GL, Nahestehende, Ein-/Austritte, hohe Löhne) Jahreslohn gemäss Lohnkonto mit Arbeitsvertrag, Lohnänderungsmitteilung oder VR-Beschluss vergleichen (Monatslohn × Monate, Pensum,
+    13. Lohn, Bonus). Auswahl und Abweichungen tabellarisch im Textfeld.'
   nachweise:
   - Arbeitsverträge, Lohnänderungsmitteilungen, VR-/GL-Beschlüsse
   - Jahreslohnkonten
@@ -622,15 +747,22 @@ schritte:
   fundstellen:
   - quelle: or__art-322
     zitat: Der Arbeitgeber hat dem Arbeitnehmer den Lohn zu entrichten, der verabredet oder üblich
-  - quelle: ser-2022__6-1-3
-    zitat: Bestandsprüfungen sind möglich durch Abstimmung mit detaillierten Listen, Einsicht in Belege
   - quelle: or__art-957a
     zitat: der Belegnachweis für die einzelnen Buchungsvorgänge;
+  - quelle: hwp-er-2026__rz-0161-s212
+    zitat: ob die Transaktion sachgerecht erfasst ist (Feststellung z.B. durch Vertragseinsicht
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-404
-  vorgehen: Kontoblätter aller Personalkonten (Löhne, Boni, Sozialleistungen, Spesen, Personalnebenkosten, Personal-Kontokorrente) auf hohe Einzelbeträge, Stornos, runde Beträge, Jahresendbuchungen
-    und ungewöhnliche Gegenkonten durchsehen; auffällige Posten mit Beleg klären oder als Pendenz erfassen. Kriterien und Treffer im Textfeld.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Inhaltlich weiter gehend wie
+    R1-305 (SER Anh. D q); Aufwandskonten nicht doppelt durchsehen, nur Personal-Bilanzkonten (Lohnsammelkonto, Kontokorrente SV, QSt, Ferien/Überzeit) ergänzend auf hohe Einzelbeträge,
+    Stornos, runde Beträge, Jahresendbuchungen und ungewöhnliche Gegenkonten. Treffer im Textfeld.'
   nachweise:
-  - Kontoblätter Personalkonten
+  - Kontoblätter Personal-Bilanzkonten
+  - Ergebnis R1-305
   - Belege auffälliger Posten
   rechnen: 'Filter: Einzelbetrag ≥ Nichtaufgriffsgrenze oder ≥ 2 × Monatsmittel des Kontos; Anzahl und Summe der Treffer'
   feststellung_wenn: Hoher oder ungewöhnlicher Betrag ohne Beleg/Geschäftsgrund, falsch periodisiert oder falsch klassiert.
@@ -639,16 +771,27 @@ schritte:
     zitat: Hinweise auf besondere Sachverhalte zu erhalten
   - quelle: hwp-er-2026__rz-0030-s183
     zitat: Zudem können analytische Prüfungshandlungen bei der Identifikation ungewöhnlicher Geschäftsvorfälle, Buchungen, Beträge oder Trends hilfreich sein.
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Durchsicht von Aufwandskonten im Hauptbuch auf ungewöhnliche Posten mit Personalbezug; Belegprüfung solcher Posten
+  - quelle: ser-2022__anh-d-s093-1
+    zitat: Vor allem, wenn aufgrund der durchgeführten empfohlenen Prüfungshandlungen wesentliche Fehlaussagen angenommen werden müssen
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-405
-  vorgehen: Nahestehende (VR, GL, Aktionäre und Angehörige) aus Aktienbuch, HR-Auszug, Protokollen und Personalliste bestimmen; deren Bezüge (Lohn, Bonus, Spesen, Fringe Benefits, VR-Honorare)
-    GJ vs. VJ tabellarisch festhalten und mit Vertrag/Beschluss abgleichen. Hinweise auf nicht marktübliche Vergütung (verdeckte Gewinnausschüttung) an WP melden.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. ER-Grundlage auch ohne Anweisung
+    (HWP ER Rz 159/161): Nahestehende aus Aktienbuch, HR-Auszug, Protokollen und Personalliste bestimmen, Bezüge (Lohn, Bonus, Spesen, Fringe Benefits, VR-Honorare) GJ/VJ festhalten
+    und mit Vertrag/Beschluss abgleichen. Hinweis auf vGA nur als Notiz an WP, kein Kontakt mit VR.'
   nachweise:
   - Aktienbuch, HR-Auszug, GV-/VR-Protokolle
   - Lohnkonten Nahestehende GJ/VJ
   - Arbeitsverträge/VR-Beschlüsse zu Vergütungen
   - Spesenabrechnungen Nahestehende
   rechnen: 'Je Person: Bezüge GJ, Bezüge VJ, Veränderung absolut und %'
-  feststellung_wenn: Bezüge ohne Grundlage, ungewöhnliche Zunahme oder Hinweis auf überhöhte, nicht marktübliche Vergütung an Beteiligte/Nahestehende.
+  feststellung_wenn: Bezüge ohne Grundlage, ungewöhnliche Zunahme oder Hinweis auf überhöhte, nicht marktübliche Vergütung (vGA) → Notiz «Wesentliche Feststellungen»; Mitteilung an VR
+    entscheidet WP.
   fundstellen:
   - quelle: hwp-er-2026__rz-0161-s212
     zitat: Bestimmung von nahestehenden Personen mittels Befragung der Unternehmensleitung und Einsicht in Aktienbuch, Handelsregisterauszug, GV- und allenfalls VR-Protokolle
@@ -657,11 +800,20 @@ schritte:
   - quelle: hwp-er-2026__rz-0159-s211
     zitat: Hierbei sind namentlich die korrekte Abwicklung und Verbuchung der Geschäftsvorfälle («at arm’s length») in der Bilanz und Erfolgsrechnung sowie die Offenlegungspflicht von
       Bedeutung
+  - quelle: hwp-er-2026__rz-0159-s211
+    zitat: erkundigt sich der Abschlussprüfer mittels Befragung der Unternehmensleitung, wer die Eigentümer und sonstigen nahestehenden Personen des Unternehmens sind
+  - quelle: hwp-er-2026__rz-0164-s212-t1
+    zitat: Die Revisionsstelle teilt die verdeckte Gewinnausschüttung dem Verwaltungsrat der Gesellschaft schriftlich mit.
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
 - id: R1-406
-  vorgehen: 'Kontoauszug AGBR der Vorsorgeeinrichtung (Anfangs-/Endbestand, Einlagen, Zins, Verwendung) beschaffen. Prüfen: Verwendung für AG-Beiträge korrekt erfasst; aktivierte AGBR
-    um Verwendung reduziert; Verwendung nicht aktivierter AGBR als Auflösung stiller Reserven im ao. Ertrag bzw. Anhang (Nettoauflösung) gezeigt. Ergebnis im Textfeld, Übertrag an R1-321.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Kontoauszug AGBR nur aus M-Files
+    (beim Unternehmen); fehlt er → Pendenz (Frage an Kunde über WP), keine Anfrage bei VE/Sammelstiftung. Prüfen: Verwendung für AG-Beiträge erfasst, aktivierte AGBR reduziert, Verwendung
+    nicht aktivierter AGBR als Auflösung stiller Reserven (ao. Ertrag/Anhang) → R1-321.'
   nachweise:
-  - Kontoauszug AGBR GJ/VJ
+  - Kontoauszug AGBR GJ/VJ (beim Unternehmen vorhanden)
   - BVG-Jahresabrechnung
   - Kontoblatt BVG-Aufwand/ao. Ertrag/Aktivum AGBR
   - Anhang
@@ -674,15 +826,28 @@ schritte:
     zitat: den Gesamtbetrag der aufgelösten Wiederbeschaffungsreserven und der darüber hinausgehenden stillen Reserven
   - quelle: or__art-331-t1
     zitat: er erbringt seine Beiträge aus eigenen Mitteln oder aus Beitragsreserven der Vorsorgeeinrichtung
+  - quelle: hwp-er-2026__rz-0083-s194
+    zitat: beschränkt sich also auf Prüfungsnachweise, welche beim Unternehmen intern vorliegen
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+  - quelle: or__art-959c-t1
+    zitat: soweit dieser den Gesamtbetrag der neugebildeten derartigen Reserven übersteigt, wenn dadurch das erwirtschaftete Ergebnis wesentlich günstiger dargestellt wird
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-407
-  vorgehen: Deckungsgrad der Vorsorgeeinrichtung per Stichtag (Jahresbericht bzw. Mitteilung VE/Sammelstiftung) beschaffen und festhalten. Bei Unterdeckung beschlossene oder wahrscheinliche
-    Sanierungsbeiträge des Arbeitgebers bzw. AGBR mit Verwendungsverzicht ermitteln und mit Rückstellung, Eventualverbindlichkeit und Anhang abgleichen. Fehlende Angaben als Pendenz.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Deckungsgrad 31.12. aus vorhandener
+    Mitteilung der VE (M-Files); fehlt sie → Pendenz (Frage an Kunde über WP), keine Anfrage bei VE/Sammelstiftung. Bei Unterdeckung Sanierungsbeiträge, Einmaleinlagen, AGBR mit Verwendungsverzicht
+    mit Rückstellung, Eventualverbindlichkeit und Anhang abgleichen.'
   nachweise:
-  - Jahresbericht/Mitteilung der Vorsorgeeinrichtung (Deckungsgrad)
+  - Mitteilung/Jahresbericht der Vorsorgeeinrichtung zum Deckungsgrad (beim Unternehmen vorhanden)
   - Beschlüsse zu Sanierungsmassnahmen
   - Rückstellungsspiegel
   - Anhang
-  rechnen: 'Deckungsgrad % gemäss VE; bei < 100 %: beschlossener AG-Sanierungsbeitrag p.a. × Dauer = Rückstellungsbedarf'
+  rechnen: 'Deckungsgrad % gemäss VE festhalten; bei < 100 %: Sanierungsbeitrag/Einmaleinlage gemäss Beschluss VE bzw. Einschätzung GL (Betrag, Dauer, Form) erfassen; Vergleich mit gebuchter
+    Rückstellung bzw. Eventualverbindlichkeit; Bemessung beurteilt WP'
   feststellung_wenn: Unterdeckung mit beschlossener/wahrscheinlicher Arbeitgeberleistung ohne Rückstellung bzw. ohne Offenlegung als Eventualverbindlichkeit.
   fundstellen:
   - quelle: hwp-bur-2023__rz-0538-s266
@@ -691,14 +856,25 @@ schritte:
     zitat: Wurde eine solche Sanierung durch die Vorsorgeeinrichtung beschlossen oder wird sie durch die Arbeitgebenden als wahrscheinlich erachtet
   - quelle: hwp-bur-2023__rz-0542-s268
     zitat: Sind die Voraussetzungen für eine Rückstellungsbildung nicht gegeben, ist eine Offenlegung als Eventualverbindlichkeit (vgl. III.5.13) zu prüfen.
+  - quelle: hwp-bur-2023__rz-0538-s266
+    zitat: Fehlbeträge können durch das Arbeitgeberunternehmen mittels Einmaleinlagen beseitigt werden.
+  - quelle: hwp-er-2026__rz-0083-s194
+    zitat: beschränkt sich also auf Prüfungsnachweise, welche beim Unternehmen intern vorliegen
+  - quelle: hwp-er-2026__rz-0101-s197
+    zitat: Bei der eingeschränkten Revision beschränkt sich diese Prüfungshandlung auf die Befragung von Personen innerhalb des Unternehmens.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-408
-  vorgehen: 'Weiter gehend: Für ausgewählte Lohnabrechnungen AN-Abzüge (AHV/IV/EO, ALV, NBU, KTG, BVG, QSt) und Zulagen mit den Sätzen/Plafonds des Geschäftsjahres nachrechnen; Familienzulagen
-    sind nicht AHV-pflichtig. Abweichungen dokumentieren; die Beurteilung der arbeits-/sozialversicherungsrechtlichen Korrektheit gehört nicht zur ER, relevant ist die Auswirkung auf
-    Aufwand/Verbindlichkeiten.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Ausgewählte Lohnabrechnungen:
+    AN-Abzüge (AHV/IV/EO, ALV, NBU, KTG, BVG, QSt) und Zulagen nachrechnen; Sätze 2025 nur aus BSV-Übersicht ab 1.1.2025 bzw. Almanach Spalte 1.1.2025, NBU/KTG/BVG/QSt aus Unterlagen
+    des Unternehmens (sonst Pendenz). Nur Auswirkung auf Aufwand/Verbindlichkeiten.'
   nachweise:
   - Lohnabrechnungen ausgewählter Mitarbeitender
-  - Beitragssätze und Plafonds des Geschäftsjahres
-  - BVG-Beitragsübersicht
+  - Beitragssätze AHV/IV/EO/ALV und Höchstbetrag 2025 (BSV-Übersicht ab 1.1.2025, Almanach Spalte 1.1.2025)
+  - Verträge/Abrechnungen NBU, KTG, BVG-Beitragsübersicht, QSt-Abrechnung des Unternehmens
   rechnen: Abzug_soll = massgebender Lohn × Satz GJ (bis Plafond); Differenz = Abzug_ist − Abzug_soll je Abrechnung
   feststellung_wenn: Systematische Abweichung der Abzüge/Zulagen mit wesentlicher Auswirkung auf Aufwand oder Verbindlichkeiten (z.B. falscher Satz, falsche Lohnbasis).
   fundstellen:
@@ -708,10 +884,25 @@ schritte:
     zitat: Bruttolohn ohne Familien- und Kinderzulagen
   - quelle: hwp-er-2026__rz-0134-s203
     zitat: das Prüfen, ob arbeitsrechtliche und ggf. verwaltungsrechtliche Vorgaben eingehalten werden
+  - quelle: bsv-beitraege-ueberblick__c005-1
+    zitat: in % des Einkommens, ab 1.1.2025
+  - quelle: treuhand-almanach-2026__s075-1
+    zitat: Die Beitragssätze sind gegenüber dem Vorjahr unverändert.
+  - quelle: treuhand-almanach-2026__s075-1
+    zitat: ALV bis CHF 148 200
+  - quelle: treuhand-almanach-2026__s083-1
+    zitat: 1,10 % des anrechenbaren Lohnes bis CHF 148 200
+  - quelle: bsv-beitraege-ueberblick__c005-1
+    zitat: Maximal versicherter Verdienst = 148 200 Franken pro Jahr
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-409
-  vorgehen: 'a) Löhne/Gratifikationen/Provisionen/Spesen: Dezemberlöhne, 13. Lohn, beschlossene Boni, Provisionen und offene Spesen per 31.12. auf Erfassung/Abgrenzung prüfen. b) Ferien/Überzeit:
-    Saldi je Person × Tages-/Stundenlohn inkl. Sozialleistungen nachrechnen und mit der Abgrenzung vergleichen; pauschale Schätzungen hinterfragen. c) Sozialleistungen: Ergebnis R1-302
-    übernehmen. Differenzen im Textfeld.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. ER-Grundlage ohne Anweisung:
+    Detailaufstellung passive RA mit Jahresrechnung abstimmen, Vollständigkeit als Pendenz erfragen (SER Anh. D l; Prüffeld M3). Auf Anweisung: a) Dezemberlöhne, 13. Lohn, Boni, Provisionen,
+    Spesen; b) Ferien-/Überzeitsaldi × Lohn inkl. SV nachrechnen; c) Ergebnis R1-302.'
   nachweise:
   - Ferien-/Überzeitsaldi je Person 31.12.
   - Bonusbeschlüsse, Provisions- und Spesenabrechnungen
@@ -719,7 +910,8 @@ schritte:
   - Ergebnis R1-302
   rechnen: Ferien = Σ (Feriensaldo Tage × Jahreslohn / Arbeitstage); Überzeit = Σ (Stunden × Stundenlohn × [1,25 falls Zuschlag geschuldet]); Soll = (Ferien + Überzeit) × (1 + AG-Sozialleistungssatz);
     Differenz = Soll − gebuchte Abgrenzung
-  feststellung_wenn: Abgrenzung fehlt, ist nicht nachvollziehbar (pauschal ohne Berechnung) oder weicht wesentlich von der Berechnung ab.
+  feststellung_wenn: Abgrenzung fehlt, ist nicht nachvollziehbar (pauschal ohne Berechnung) oder weicht wesentlich von der Berechnung ab → Notiz «Wesentliche Feststellungen» mit Buchungsvorschlag
+    (keine Verbuchung).
   fundstellen:
   - quelle: hwp-bur-2023__rz-0512-s261
     zitat: Ferien- und Überzeitguthaben des Personals
@@ -729,10 +921,21 @@ schritte:
     zitat: samt einem Zuschlag von mindestens einem Viertel bemisst
   - quelle: or__art-958b
     zitat: Aufwände und Erträge müssen voneinander in zeitlicher und sachlicher Hinsicht abgegrenzt werden.
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Abstimmung einer Detailaufstellung mit der Jahresrechnung
+  - quelle: ser-2022__anh-d-s087-1
+    zitat: Befragung über den Prozess zur Sicherstellung der Vollständigkeit der passiven Rechnungsabgrenzungen
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-410
-  vorgehen: Verbuchte Löhne bzw. Lohnjournal mit den deklarierten Lohnsummen a) AHV-Jahreslohnmeldung, b) UVG/KTG-Lohnsummendeklaration, c) BVG-Lohnmeldung abstimmen; systematische Unterschiede
-    (nicht AHV-pflichtige Bestandteile, UVG-Höchstbetrag, Koordinationsabzug, Ein-/Austritte) erklären. Abweichungen je Person (Lohnliste vs. Meldung) auswerten; Abstimmungstabelle im
-    Textfeld.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Lohnjournal mit deklarierten
+    Lohnsummen (AHV-Jahreslohnmeldung, UVG/KTG-Deklaration, BVG-Lohnmeldung) abstimmen; Unterschiede (nicht AHV-pflichtige Teile, UVG-Höchstbetrag 2025 gemäss BSV-Übersicht, Koordinationsabzug
+    gemäss Reglement, Ein-/Austritte) erklären; Abweichungen je Person im Textfeld.'
   nachweise:
   - AHV-Jahreslohnmeldung
   - UVG/KTG-Lohnsummendeklaration
@@ -747,10 +950,17 @@ schritte:
     zitat: Abstimmen des ausgewiesenen Aufwands mit geeigneten Jahresaufstellungen und -abrechnungen (AHV-, BVG-Abrechnungen usw.)
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: bsv-beitraege-ueberblick__c005-1
+    zitat: Maximal versicherter Verdienst = 148 200 Franken pro Jahr
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-411
-  vorgehen: Leistungen von Sozialversicherungen (Familienzulagen, EO, Mutterschafts-/Vaterschaftsentschädigung, KTG-/UVG-Taggelder) gemäss Abrechnungen der Versicherer mit dem Konto
-    «Leistungen von Sozialversicherungen» und Lohnjournal abstimmen; per Stichtag offene Ansprüche (laufende Krankheits-/Unfallfälle, Militär) abgrenzen. Bei bedeutendem Umfang Anhangangabe
-    prüfen; fehlende Abrechnungen als Pendenz.
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Leistungen von SV (Familienzulagen,
+    EO, Mutterschaft/Vaterschaft, KTG-/UVG-Taggelder) gemäss Abrechnungen mit Konto «Leistungen von Sozialversicherungen» und Lohnjournal abstimmen; offene Ansprüche per Stichtag abgrenzen;
+    bei bedeutendem Umfang Anhangangabe prüfen (R1-320).'
   nachweise:
   - Abrechnungen Ausgleichskasse/FAK, KTG- und UVG-Versicherer
   - Kontoblatt Leistungen von Sozialversicherungen
@@ -762,9 +972,15 @@ schritte:
     zitat: erhaltene Leistungen von Sozialversicherungen (beispielsweise Erwerbsausfall- und Kurzarbeitsentschädigungen)
   - quelle: hwp-bur-2023__rz-0760-s320
     zitat: Erfolgen Leistungen von Sozialversicherungen in einem bedeutenden Umfang, so ist eine erläuternde Offenlegung diesbezüglich im Anhang angezeigt.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
 - id: R1-412
-  vorgehen: 'Weiter gehend: Lohnausweise bewusst ausgewählter Mitarbeitender (GL, Nahestehende, Austritte) mit dem Jahreslohnkonto vergleichen (Bruttolohn, Spesen, Beiträge); Summe aller
-    Lohnausweise mit Lohnjournal abstimmen. Steuerliche Beurteilung nicht Gegenstand der ER; Differenzen als Hinweis an WP im Textfeld.'
+  vorgehen: 'Sonstige (4xx): nur auf Anweisung WP bzw. bei in 3.1/3.5 dokumentiertem Risiko; ohne Anweisung Unterlagen bereitstellen und Pendenz erfassen. Lohnausweise bewusst ausgewählter
+    Mitarbeitender (GL, Nahestehende, Austritte) mit Jahreslohnkonto vergleichen (Bruttolohn, Spesen, Beiträge); Summe Lohnausweise mit Lohnjournal abstimmen. Steuerliche Beurteilung
+    nicht ER; Differenzen als Hinweis an WP im Textfeld.'
   nachweise:
   - Lohnausweise (Kopien)
   - Jahreslohnkonten je Mitarbeiter
@@ -776,3 +992,8 @@ schritte:
     zitat: Prüfung Lohnausweise auf Übereinstimmung mit Jahreslohnkonto je Mitarbeiter
   - quelle: hwp-er-2026__rz-0125-s202
     zitat: Unter dem Begriff Nachrechnen sind auch Abstimmungs- und Übertragungsprüfungen zu verstehen.
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Weitergehende Handlungen (Bestätigungen, Inventur, Gutachten, Journal Entry Testing); nur auf Anweisung, physische Tätigkeiten nie
+  - quelle: hwp-er-2026__rz-0133-s203
+    zitat: Wenn kein erhöhtes inhärentes Risiko vorliegt und die empfohlenen Prüfungshandlungen ausreichende geeignete Prüfungsnachweise liefern, sind keine weitergehenden Prüfungshandlungen
+      vorzunehmen.
