@@ -6,7 +6,8 @@ werte:
   einheit: Stichtag
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a, ersetzt KS Nr. 6 vom 06.06.1997)
   kategorie: steuern_eigenkapital
-  bemerkung: Ohne Nachweis höherer Verkehrswerte gelten die Buch- bzw. Gewinnsteuerwerte. Ermittlung in Funktionalwährung.
+  bemerkung: 'Ohne Nachweis höherer Verkehrswerte gelten die Buch- bzw. Gewinnsteuerwerte. Ermittlung in Funktionalwährung. Ausnahme: estv-ks-6a-2024__einleitung-t2 «Grossen Verkehrswert-
+    oder Bestandesveränderungen innerhalb der Steuerperiode kann angemessen Rechnung getragen werden.» → bei grossen unterjährigen Veränderungen den WP fragen.'
   quelle: estv-ks-6a-2024__einleitung-t2
   zitat: Massgebend sind die Verkehrswerte am Ende der Steuerperiode.
   status: agent-geprueft
@@ -20,7 +21,8 @@ werte:
     Verdeckt ist davon nur der Teil, der von Beteiligten/Nahestehenden stammt: estv-ks-6a-2024__einleitung-t3 «nur derjenige Teil als verdeckt gilt, der direkt oder indirekt von Anteilsinhabern
     oder diesen nahestehenden Personen stammt». Fremdkapital unabhängiger Dritter ohne Sicherstellung durch Beteiligte zählt nicht (ks6a_kein_vek_drittfinanzierung). Drittvergleich bleibt
     vorbehalten. Folgen: Zinsaufrechnung (ks6a_zinsaufrechnung_gewinnsteuer), VSt (ks6a_vst_zinsen_vek), Kapitalsteuer (vek_kapitalsteuer). Der Agent rechnet nur vor (Werkzeug rechne);
-    die Beurteilung macht der WP.'
+    die Beurteilung macht der WP. Rechenbeispiel: rechne "zul = 50000*100% + 200000*85% + 300000*70%; vek = max(0, 600000 - zul); vek_bet = min(vek, <Mittel von Beteiligten/Nahestehenden>)".
+    Verdeckt ist höchstens der Teil von Beteiligten/Nahestehenden.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.
   status: agent-geprueft
@@ -43,20 +45,19 @@ werte:
   einheit: Regel
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a, Ziff. 3.1)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Darlehen von Beteiligten/Nahestehenden unter dem marktüblichen Zins: Als Aufwand anerkannt bleibt der Zins, der gemäss ESTV-Zinsrundschreiben (CHF bzw. Fremdwährung) auf
-    das anerkannte Fremdkapital zulässig wäre; estv-ks-6a-2024__3-1 «Nur der verbleibende Rest wird aufgerechnet.» Anwendung: Steueraufwand und Steuerrückstellung plausibilisieren; Steuerrisiko
-    dem WP melden.'
+  bemerkung: 'Gesetz: dbg__art-65 «die Schuldzinsen, die auf jenen Teil des Fremdkapitals entfallen, dem wirtschaftlich die Bedeutung von Eigenkapital zukommt». Darlehen von Beteiligten/Nahestehenden
+    unter dem marktüblichen Zins: Als Aufwand anerkannt bleibt der Zins, der gemäss ESTV-Zinsrundschreiben (CHF bzw. Fremdwährung) auf das anerkannte Fremdkapital zulässig wäre; estv-ks-6a-2024__3-1
+    «Nur der verbleibende Rest wird aufgerechnet.» Anwendung: Steueraufwand und Steuerrückstellung plausibilisieren; Steuerrisiko dem WP melden.'
   quelle: estv-ks-6a-2024__3-1
   zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen sind daher dem ausgewiesenen Reingewinn hinzuzurechnen
   status: agent-geprueft
 - key: ks6a_vst_zinsen_vek
   bezeichnung: Verrechnungssteuer auf Schuldzinsen, die auf verdecktes Eigenkapital entfallen (geldwerte Leistung)
-  wert: '35'
-  einheit: '%'
+  wert: unterliegt der Verrechnungssteuer (geldwerte Leistung)
+  einheit: Regel
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a, Ziff. 3.2)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Satz: estv-zinsen-2026__s001-1 «der Verrechnungssteuer von 35 %». Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit (vst_frist_formular_102). Revision: mögliche
-    VSt-Schuld dem WP melden.'
+  bemerkung: 'Satz: vst_satz_geldwerte_leistung (35 %). Deklaration mit Formular 102 innert 30 Tagen nach Fälligkeit (vst_frist_formular_102). Revision: mögliche VSt-Schuld dem WP melden.'
   quelle: estv-ks-6a-2024__3-2
   zitat: Die auf das verdeckte Eigenkapital entfallenden Schuldzinsen gemäss Ziffer 3.1 oben unterliegen als geldwerte Leistung
   status: agent-geprueft
@@ -82,18 +83,42 @@ werte:
   quelle: treuhand-almanach-2026__s063-1
   zitat: welches der Kapitalsteuer unterliegt (Art. 29a StHG)
   status: agent-geprueft
+- key: vstg4a_eigene_beteiligungsrechte_vst
+  bezeichnung: 'Eigene Aktien bzw. Beteiligungsrechte: Verrechnungssteuer (Teilliquidation) bei Überschreiten von Art. 659 OR oder Haltedauer über 6 Jahre'
+  wert: '6'
+  einheit: Jahre
+  gilt: VStG, Fassung Stand 01.01.2025 (Art. 4a Abs. 1–3)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Steuerbar ist vstg__art-4a-t1 «die Differenz zwischen dem Erwerbspreis und dem einbezahlten Nennwert dieser Beteiligungsrechte»; Satz vst_satz_geldwerte_leistung (35 %).
+    Sofort steuerbar, vstg__art-4a-t1 «soweit der Erwerb eigener Beteiligungsrechte den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) überschreitet». Ausnahme Wandel-/Optionsanleihe,
+    Mitarbeiterbeteiligung: vstg__art-4a-t1 «steht die Frist zur Wiederveräusserung nach Absatz 2 bis zum Erlöschen der betreffenden Verpflichtungen» still. Praxis: estv-ks-51-2026__3-1-1-t1
+    «Der Rückkauf eigener Beteiligungsrechte stellt für die Verrechnungssteuer grundsätzlich eine Teilliquidation dar.» Revision: Erwerbsdatum und Bestand je Tranche erheben; mögliche
+    VSt dem WP melden. Frist im Detail: vstg4a_eigene_beteiligungsrechte_6_jahre. Handelsrecht: or659_eigene_aktien_10. Ablauf: `thema eigenkapital`.'
+  quelle: vstg__art-4a-t1
+  zitat: wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
+  status: agent-geprueft
+- key: vstg5_ker_gesondertes_konto
+  bezeichnung: 'Reserven aus Kapitaleinlagen (KER): Rückzahlung ohne Verrechnungssteuer nur bei gesondertem Ausweis und Meldung an die ESTV'
+  wert: gesondertes Konto in der Handelsbilanz + Meldung jeder Veränderung an die ESTV
+  einheit: Regel
+  gilt: VStG, Fassung Stand 01.01.2025 (Art. 5 Abs. 1bis)
+  kategorie: steuern_eigenkapital
+  bemerkung: 'Meldung mit Formular 170: estv-ks-29c-2022__7-2-5-t5 «mittels Formular 170 unaufgefordert zu melden» (Frist bei Rückzahlung: ks29c_ker_rueckzahlung_meldung_30_tage). Details
+    KS ESTV 29c Ziff. 9. Revision: Ausweis der KER im Eigenkapital und Nachweis der Meldung prüfen; fehlt er: Pendenz bzw. dem WP melden. Ablauf: `thema eigenkapital`.'
+  pruefnotiz: KS 29c Ziff. 9.3 steht im Chunk estv-ks-29c-2022__7-2-5-t5 (Chunk-Titel 7.2.5 passt nicht); Original raw/estv-ks-29c-2022.pdf S. 25.
+  quelle: vstg__art-5-t3
+  zitat: in der Handelsbilanz auf einem gesonderten Konto ausgewiesen werden und die Gesellschaft oder Genossenschaft jede Veränderung auf diesem Konto der Eidgenössischen Steuerverwaltung
+    (ESTV) meldet
+  status: agent-geprueft
 - key: ks6a_belehnung_fluessige_mittel
   bezeichnung: 'Höchstbelehnung verdecktes Eigenkapital: Flüssige Mittel'
   wert: '100'
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 1 von 16 (Wert 1 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 1/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Flüssige Mittel 100 %». Mechanik: Übersteigen die ausgewiesenen Schulden
-    (gesamtes Fremdkapital) das zulässige Fremdkapital, liegt verdecktes Eigenkapital vor, jedoch nur im Umfang der Mittel von Anteilsinhabern/Nahestehenden (estv-ks-6a-2024__einleitung-t3
-    «Soweit die ausgewiesenen Schulden das zulässige Fremdkapital übersteigen, ist verdecktes Eigenkapital anzunehmen.» und «nur derjenige Teil als verdeckt gilt, der direkt oder indirekt
-    von Anteilsinhabern oder diesen nahestehenden Personen stammt»). Fremdkapital unabhängiger Dritter ohne deren Sicherstellung zählt nicht dazu. Folgen: Zinsaufrechnung Gewinnsteuer
-    (Ziff. 3.1) und VSt (estv-ks-6a-2024__3-2 «unterliegen als geldwerte Leistung»). Siehe ks6a_verdecktes_ek_ermittlung.'
+  bemerkung: 'KS 6a Seite 2, Zeile 1/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 1 von 16 (Wert 1 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 1/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Flüssige Mittel 100 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -103,7 +128,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 2 von 16 (Wert 2 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 2/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 2/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 2 von 16 (Wert 2 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 2/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Forderungen aus Lieferungen und Leistungen 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -114,7 +140,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 3 von 16 (Wert 3 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 3/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 3/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 3 von 16 (Wert 3 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 3/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -125,7 +152,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 4 von 16 (Wert 4 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 4/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 4/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 4 von 16 (Wert 4 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 4/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Vorräte 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -136,7 +164,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 5 von 16 (Wert 5 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 5/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 5/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 5 von 16 (Wert 5 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 5/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -147,7 +176,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 6 von 16 (Wert 6 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 6/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 6/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 6 von 16 (Wert 6 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 6/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «In- und ausländische Obligationen in CHF 90 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -158,7 +188,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 7 von 16 (Wert 7 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 7/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 7/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 7 von 16 (Wert 7 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 7/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Ausländische Obligationen in Fremdwährung 80 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -169,7 +200,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 8 von 16 (Wert 8 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 8/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 8/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 8 von 16 (Wert 8 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 8/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Kotierte in- und ausländische Aktien 60 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -180,7 +212,8 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 9 von 16 (Wert 9 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 9/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
+  bemerkung: 'KS 6a Seite 2, Zeile 9/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 9 von 16 (Wert 9 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 9/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
     Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Übrige Aktien und GmbH-Anteile 50 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
@@ -191,8 +224,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 10 von 16 (Wert 10 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 10/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Darlehen 85 %».'
+  bemerkung: 'KS 6a Seite 2, Zeile 10/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 10 von 16 (Wert 10 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 10/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Darlehen 85 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -202,8 +236,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 11 von 16 (Wert 11 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 11/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Beteiligungen 70 %».'
+  bemerkung: 'KS 6a Seite 2, Zeile 11/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 11 von 16 (Wert 11 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 11/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Beteiligungen 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -213,8 +248,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 12 von 16 (Wert 12 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 12/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
+  bemerkung: 'KS 6a Seite 2, Zeile 12/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 12 von 16 (Wert 12 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 12/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Im Almanach Tab. 29 abweichend bezeichnet, daher keine Gegenprobe.'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -224,8 +260,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 13 von 16 (Wert 13 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 13/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Fabrikliegenschaften 70 %».'
+  bemerkung: 'KS 6a Seite 2, Zeile 13/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 13 von 16 (Wert 13 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 13/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Fabrikliegenschaften 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -235,8 +272,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 14 von 16 (Wert 14 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 14/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Villen, Eigentumswohnungen, Ferienhäuser und Bauland 70 %».'
+  bemerkung: 'KS 6a Seite 2, Zeile 14/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 14 von 16 (Wert 14 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 14/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Villen, Eigentumswohnungen, Ferienhäuser und Bauland 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -246,8 +284,9 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 15 von 16 (Wert 15 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 15/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Übrige Liegenschaften 80 %».'
+  bemerkung: 'KS 6a Seite 2, Zeile 15/16. Ermittlung: ks6a_verdecktes_ek_ermittlung.'
+  pruefnotiz: 'Zeile 15 von 16 (Wert 15 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 15/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Übrige Liegenschaften 80 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft
@@ -257,10 +296,10 @@ werte:
   einheit: '% vom Verkehrswert'
   gilt: ab 10.10.2024 (KS ESTV Nr. 6a)
   kategorie: steuern_eigenkapital
-  bemerkung: 'Zeile 16 von 16 (Wert 16 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 16/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk sind
-    Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Andere immaterielle Anlagen 70 %». Der Almanach (Tab. 29) nennt zusätzlich
-    Gründungs-, Kapitalerhöhungs- und Organisationskosten mit 0 % (treuhand-almanach-2026__s063-1 «Gründungs-, Kapitalerhöhungs- und Organisationskosten 0 %»); dieser Ansatz steht nicht
-    im KS 6a vom 10.10.2024.'
+  bemerkung: 'KS 6a Seite 2, Zeile 16/16. Ermittlung: ks6a_verdecktes_ek_ermittlung. Der Almanach (Tab. 29) nennt zusätzlich Gründungs-, Kapitalerhöhungs- und Organisationskosten mit
+    0 % (treuhand-almanach-2026__s063-1 «Gründungs-, Kapitalerhöhungs- und Organisationskosten 0 %»); dieser Ansatz steht nicht im KS 6a vom 10.10.2024.'
+  pruefnotiz: 'Zeile 16 von 16 (Wert 16 der Folge im Zitat). Original: raw/estv-ks-6a-2024.pdf S. 2, Zeile 16/16 (Layout geprüft: Bezeichnung und Satz auf derselben Zeile). Im Chunk
+    sind Bezeichnungen und Ansätze getrennt. Gegenprobe Almanach Tab. 29 (Sekundär): treuhand-almanach-2026__s063-1 «Andere immaterielle Anlagen 70 %».'
   quelle: estv-ks-6a-2024__einleitung-t3
   zitat: Andere immaterielle Anlagen 100 % 85 % 85 % 85 % 85 % 90 % 80 % 60 % 50 % 85 % 70 % 50 % 70 % 70 % 80 % 70 %
   status: agent-geprueft

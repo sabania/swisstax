@@ -28,6 +28,12 @@ gesetz:
   quelle: or__art-725a
   zitat: die Aktiven abzüglich der Verbindlichkeiten die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve
     nicht mehr decken
+- thema: Nur Kredite nach Art. 3 Covid-19-SBüV zählen für OR 725a Abs. 1/725b Abs. 1 nicht als Fremdkapital (Covid-19-SBüG Art. 24 Abs. 1)
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+- thema: Gilt sinngemäss für alle Rechtsformen mit Anzeigepflicht nach OR 725a/725b (Covid-19-SBüG Art. 24 Abs. 2)
+  quelle: covid-sbueg__art-24
+  zitat: Absatz 1 gilt sinngemäss für alle Rechtsformen, die einer gesetzlichen Anzeigepflicht bei Kapitalverlust und bei Überschuldung nach Artikel 725a und 725b OR unterstehen.
 - thema: 'Kapitalverlust: Massnahmenpflicht des VR'
   quelle: or__art-725a
   zitat: so ergreift der Verwaltungsrat Massnahmen zur Beseitigung des Kapitalverlusts
@@ -111,19 +117,30 @@ gesetz:
 - thema: 'Genossenschaft: Kapitalverlust nur bei Anteilscheinen (OR 903 Abs. 2)'
   quelle: or__art-903
   zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
+- thema: 'Stiftung: Revisionsstelle benachrichtigt bei Zahlungsunfähigkeit oder Überschuldung die Aufsichtsbehörde (ZGB 84a Abs. 2)'
+  quelle: zgb__art-84a
+  zitat: Stellt die Revisionsstelle fest, dass die Stiftung zahlungsunfähig oder überschuldet ist, so benachrichtigt sie die Aufsichtsbehörde.
+- thema: 'Stiftung: Ermittlung der Überschuldung und Aufwertung nach Aktienrecht (ZGB 84a Abs. 4)'
+  quelle: zgb__art-84a
+  zitat: Die Bestimmungen des Aktienrechts zur Ermittlung der Überschuldung sowie zur Aufwertung von Grundstücken und Beteiligungen sind entsprechend anwendbar.
+- thema: 'HR-pflichtiger Verein: drohende Zahlungsunfähigkeit, Überschuldung, Aufwertung nach Aktienrecht (ZGB 69d) – Kapitalverlust nicht genannt'
+  quelle: zgb__art-69d
+  zitat: Für Vereine, die verpflichtet sind, sich ins Handelsregister eintragen zu lassen, sind die Bestimmungen des Aktienrechts zur drohenden Zahlungsunfähigkeit und zur Überschuldung
+    sowie zur Aufwertung von Grundstücken und Beteiligungen entsprechend anwendbar.
 schritte:
 - was: 'Schwellen-Check aus der importierten Jahresrechnung (Einzelabschluss): geschütztes Eigenkapital herleiten = nominelles Aktien- und PS-Kapital + gesetzliche Kapitalreserve (OR
     671 Abs. 1) und gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) zusammen höchstens 50 % (Holding 20 %) des im HR eingetragenen Aktien- und PS-Kapitals + voller Betrag der Reserven
     für eigene Kapitalanteile im Konzern (OR 659b Abs. 2) und der Aufwertungsreserve (OR 725c). Kapitalverlust, wenn 0 ≤ bilanzielles EK < Hälfte davon; Überschuldung, wenn Aktiven <
-    Fremdkapital (Verbindlichkeiten, Rückstellungen, PRA). Stille Reserven nicht einrechnen; Covid-19-Kredite und HFMV-20-Darlehen nicht als Fremdkapital (befristet, Stichtag beachten);
-    direkt gehaltene eigene Anteile ändern die Bezugsgrösse nicht; Rangrücktritte beseitigen nichts; Konzernrechnung unerheblich. Rechtsform beachten: GmbH sinngemäss (OR 820), Genossenschaft
-    Kapitalverlust nur mit Anteilscheinen (OR 903 Abs. 2). Herleitung (Kappung, 659b-Reserve, Aufwertungsreserve, Abzug Covid-/HFMV-Kredite) offen im Textfeld P1-313 ausweisen. Rechnen
-    nur im Code: `revision.py kapitalverlust` kappt gesetzliche Kapital- und Gewinnreserve bei 50 %/20 % von --aktienkapital (PS-Kapital dort einrechnen, --holding setzen), kennt aber
-    weder 659b- noch Aufwertungsreserve noch Covid-Kredite: diese Reserven nicht in --gewinnreserve eingeben (würden mitgekappt), sondern das geschützte EK mit `rechne` herleiten; --verbindlichkeiten
-    bzw. --eigenkapital um Covid-/HFMV-Kredite bereinigen.'
+    Fremdkapital (Verbindlichkeiten, Rückstellungen, PRA). Stille Reserven nicht einrechnen; Kredite nach Art. 3 Covid-19-SBüV (nicht Kredite nach Art. 4 Covid-19-SBüV; Covid-19-SBüG
+    Art. 24, gilt bis 31.12.2032) und HFMV-20-Darlehen (HWP ER Rz 373, bis 31.12.2031) nicht als Fremdkapital; Rechtsgrundlage aus dem Kreditvertrag, unklar → Notiz «Pendenz» an den
+    WP; direkt gehaltene eigene Anteile ändern die Bezugsgrösse nicht; Rangrücktritte beseitigen nichts; Konzernrechnung unerheblich. Rechtsform beachten: GmbH sinngemäss (OR 820), Genossenschaft
+    Kapitalverlust nur mit Anteilscheinen (OR 903 Abs. 2); HR-pflichtiger Verein: Überschuldung ja, Kapitalverlust nicht genannt (ZGB 69d); Stiftung: kein Zwischenabschluss, bei Zahlungsunfähigkeit/Überschuldung
+    Meldung der Revisionsstelle an die Aufsichtsbehörde (ZGB 84a). Herleitung (Kappung, 659b-Reserve, Aufwertungsreserve, Abzug Covid-/HFMV-Kredite) offen im Textfeld P1-313 ausweisen.
+    Rechnen nur im Code: `kapitalverlust --aktienkapital <AK+PS> --kapitalreserve … --gewinnreserve <ohne 659b/Aufwertung> --reserve-voll <659b-Reserve + Aufwertungsreserve> --aktiven
+    … --verbindlichkeiten <Fremdkapital gesamt> --covid-kredit <Kredite Art. 3 SBüV + HFMV 20> [--holding]`; nicht mit `rechne` von Hand herleiten.'
   wer: Agent
   revio: 'Bereich 1.1/1.2 lesen (rv_get_financialStatement_LoadBalanceAccounts, rv_get_financialStatement_LoadKeyFigureItems); Ergebnis mit Herleitung im Textfeld P1-313 «Beurteilung
-    Eigenkapital in Bezug auf OR 725» (rv_put_auditActivities_UpdateDossierActivity), Querverweis A1-205; Rechnen: `revision.py kapitalverlust` bzw. `rechne`'
+    Eigenkapital in Bezug auf OR 725» (rv_put_auditActivities_UpdateDossierActivity), Querverweis A1-205; Rechnen: `kapitalverlust` mit --reserve-voll/--covid-kredit/--holding'
   mfiles: Definitive Bilanz/ER/Anhang, HR-Auszug bzw. Statuten (Aktien-/PS-Kapital), GV-Protokoll Vorjahr (Reserven), Nachweis Reserven nach OR 659b bzw. Aufwertungsreserve, Aufstellung
     Covid-/Härtefallkredite
   fundstellen:
@@ -148,12 +165,29 @@ schritte:
     zitat: Für die Berechnung sind Covid-19-Kredite nicht als Fremdkapital zu berücksichtigen
   - quelle: hwp-er-2026__rz-0373-s113
     zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  - quelle: covid-sbueg__art-3
+    zitat: für einen Kredit nach Artikel 4 Covid-19-SBüV
+  - quelle: covid-sbueg__art-31
+    zitat: gilt bis zum 31. Dezember 2032
+  - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Jene der HFMV 20 sind gültig bis 31. Dezember 2031
   - quelle: hwp-er-2026__rz-0373-s113
     zitat: Ein Rangrücktritt beseitigt den Kapitalverlust nicht
   - quelle: hwp-er-2026__rz-0358-s110
     zitat: Der Konzernrechnung kommt diesbezüglich keine Bedeutung zu.
   - quelle: or__art-903
     zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
+  - quelle: zgb__art-69d
+    zitat: Für Vereine, die verpflichtet sind, sich ins Handelsregister eintragen zu lassen, sind die Bestimmungen des Aktienrechts zur drohenden Zahlungsunfähigkeit und zur Überschuldung
+      sowie zur Aufwertung von Grundstücken und Beteiligungen entsprechend anwendbar.
+  - quelle: zgb__art-84a
+    zitat: Stellt die Revisionsstelle fest, dass die Stiftung zahlungsunfähig oder überschuldet ist, so benachrichtigt sie die Aufsichtsbehörde.
+  - quelle: hwp-er-2026__rz-0359-s110
+    zitat: Für Stiftungen und Vereine bildet Art. 84a ZGB bzw. Art. 69d ZGB die einschlägige gesetzliche Grundlage.
+  - quelle: hwp-bur-2023__rz-0889-s359
+    zitat: der volle Betrag der gesetzlichen Gewinnreserven für eigene Kapitalanteile im Konzern (Art. 659b Abs. 2 OR) und aus Aufwertungen (Art. 725c Abs. 1 OR)
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.
 - was: 'Indikatoren für drohende Zahlungsunfähigkeit und begründete Besorgnis einer Überschuldung sammeln (Verluste, Cash Drain, Liquidität, Fälligkeiten, Verletzung von Kreditbedingungen,
@@ -199,8 +233,13 @@ schritte:
   - quelle: ser-2022__9-t3
     zitat: muss sie den Verwaltungsrat an seine Pflichten – namentlich die Erstellung und Vorlage zur Prüfung eines Zwischenabschlusses zu Fortführungs- und Veräusserungswerten – erinnern
 - was: 'Bei Kapitalverlust: vom VR ergriffene bzw. der GV beantragte Massnahmen erheben (Ursachenanalyse, Sanierungskonzept, Forderungsverzicht, À-fonds-perdu, Auflösung stiller Reserven,
-    Aufwertung 725c, Kapitalschnitt, Kapitalerhöhung) und den Zeitablauf seit Abschlusserstellung festhalten. Ob die Massnahmen genügen und ob eine Pflichtwidrigkeit vorliegt, beurteilt
-    die Revisionsstelle (WP), nicht der Agent; welche Massnahmen nötig sind, entscheidet der VR.'
+    Aufwertung 725c, Kapitalschnitt, Kapitalerhöhung) und den Zeitablauf seit Abschlusserstellung festhalten. Nennt der VR eine Fusion als Massnahme: nur zulässig mit frei verwendbarem
+    Eigenkapital der anderen Gesellschaft bzw. Rangrücktritten im Umfang der Unterdeckung/Überschuldung; Bestätigung einer zugelassenen Revisionsexpertin/eines zugelassenen Revisionsexperten
+    ans Handelsregisteramt (FusG Art. 6) – separater Auftrag, Entscheid WP. Ob die Massnahmen genügen und ob eine Pflichtwidrigkeit vorliegt, beurteilt die Revisionsstelle (WP), nicht
+    der Agent; welche Massnahmen nötig sind, entscheidet der VR. Steuerfolgen der Massnahmen als Hinweis für S1/M3 festhalten (ESTV-Praxis, keine handelsrechtliche Regel): Forderungsverzicht
+    Dritter = echter Sanierungsertrag (Verlustverrechnungsperiode nach Art. 67 Abs. 2 DBG ausdehnbar); Verzicht von Anteilsinhabern über ER/Sanierungskonto grundsätzlich gleich (Ausnahmen
+    KS 32a Ziff. 4.1.1.1 a), direkt ins EK gebucht = gewinnsteuerneutral; Emissionsabgabe: Leistungen der Anteilsinhaber bis gesamthaft 10 Mio. CHF ausgenommen, wenn mit bestehenden
+    Verlusten verrechnet (Beschluss spätestens an der ordentlichen GV). Beurteilung WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: Textfeld P1-313; Befragungsprotokoll A1 (nur schriftliche Antworten auswerten); Notiz «Wesentliche Feststellungen»
   mfiles: VR-Protokolle, GV-Einladung/Traktanden, Sanierungskonzept, Verzichts-/Zuschussvereinbarungen, Kapitalerhöhungsunterlagen
@@ -218,6 +257,31 @@ schritte:
     zitat: obliegt der Beurteilung der Revisionsstelle bzw. des zugelassenen Revisors
   - quelle: hwp-er-2026__rz-0380-s115
     zitat: ob sich der Verwaltungsrat der Überschuldungsgefahr bewusst ist und die allenfalls erforderlichen Massnahmen ergreift
+  - quelle: fusg__art-6
+    zitat: kann mit einer anderen Gesellschaft nur fusionieren, wenn diese über frei verwendbares Eigenkapital im Umfang der Unterdeckung und gegebenenfalls der Überschuldung verfügt
+  - quelle: fusg__art-6
+    zitat: Diese Voraussetzung entfällt, soweit Gläubigerinnen und Gläubiger der an der Fusion beteiligten Gesellschaften im Ausmass der Unterdeckung und gegebenenfalls der Überschuldung
+      im Rang hinter alle anderen Gläubigerinnen und Gläubiger zurücktreten
+  - quelle: fusg__art-6
+    zitat: eine Bestätigung einer zugelassenen Revisionsexpertin oder eines zugelassenen Revisionsexperten einreichen
+  - quelle: estv-ks-32a-2025__4-1-1-1-t3
+    zitat: Forderungsverzichte durch unabhängige Dritte, stellen einen erfolgswirksamen Vorgang dar
+  - quelle: estv-ks-32a-2025__4-1-1-1-t3
+    zitat: Die Verlustverrechnungsperiode kann im Sinn von Artikel 67 Absatz 2 DBG ausgedehnt werden.
+  - quelle: estv-ks-32a-2025__4-1-1-1-t1
+    zitat: Forderungsverzichte durch Anteilsinhaber, die im Zuge der Sanierung handelsrechtlich erfolgswirksam über die Erfolgsrechnung oder das Sanierungskonto gebucht werden, sind
+      grundsätzlich gleich zu behandeln wie Forderungsverzichte Dritter.
+  - quelle: estv-ks-32a-2025__4-1-1-1-t1
+    zitat: wenn und soweit Darlehen von Anteilsinhabern vor der Sanierung steuerlich als verdecktes Eigenkapital behandelt wurden
+  - quelle: estv-ks-32a-2025__4-1-1-1-t2
+    zitat: Forderungsverzichte durch Anteilsinhaber, die direkt in das Eigenkapital der Gesellschaft gebucht werden, sind aufgrund der handelsrechtlichen Verbuchung immer gewinnsteuerneutral.
+  - quelle: estv-ks-32a-2025__3-3-2-t2
+    zitat: Bei offenen oder stillen Sanierungen sind die Leistungen der Anteilsinhaber, welche den Betrag von gesamthaft 10 Millionen Franken nicht übersteigen, von der Emissionsabgabe
+      ausgenommen.
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: die Verrechnung der Sanierungsleistungen mit den bestehenden Verlusten ist zwingend
+  - quelle: estv-ks-32a-2025__3-3-2-t1
+    zitat: Die Verrechnung der Verluste muss spätestens anlässlich der ordentlichen Generalversammlung beschlossen werden
 - was: 'Bei begründeter Besorgnis bzw. buchmässiger Überschuldung: Zwischenabschlüsse einverlangen bzw. Vorliegen, Stichtag, VR-Genehmigung und Bewertungsbasis festhalten. Erforderliche
     ZA nach OR 725b Abs. 1: (a) Fortführung gegeben und ZA zu Fortführungswerten ohne Überschuldung → ZA zu Veräusserungswerten entbehrlich; (b) Fortführung gegeben, ZA zu Fortführungswerten
     zeigt Überschuldung → beide ZA; (c) Fortführung nicht gegeben → ZA zu Veräusserungswerten genügt (inkl. Stilllegungsaufwand). Der ZA ist grundsätzlich in jedem Fall einzuverlangen;
@@ -400,9 +464,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0451-s131
     zitat: keine Formfehler begeht
 - was: 'Berichterstattung im GVB-Entwurf vorbereiten: Zusatz (Kapitalverlust, Überschuldung, Rangrücktritt, wesentliche Unsicherheit Fortführung, ggf. Eventualzusatz) nach der Prüfungsaussage;
-    Hinweis auf Gesetzesverstoss bei Untätigkeit des VR nach OR 725a/725b danach – nach SER 8.3.2.1 «in jedem Fall», nach HWP Rz 423 «zwingend»; HWP Rz 424 knüpft den Hinweis zu OR 725a
-    Abs. 1 zusätzlich kumulativ an (1) keine/offensichtlich unzureichende Sanierungsmassnahmen UND (2) nicht informierte Aktionäre mit Auswirkung auf deren Sanierungswillen (Spannung
-    dem WP vorlegen, SER hat Vorrang). Gesellschaft in Liquidation: unterlassen die Liquidatoren die Überschuldungsanzeige, Hinweis auf OR 743 Abs. 2. Passendes Berichtsbeispiel vorschlagen
+    Hinweis auf Gesetzesverstoss danach. Entwurfsregel: Hat der VR bei hälftigem Kapitalverlust trotz Zeitablauf keine oder offensichtlich unzureichende Massnahmen ergriffen, Hinweis
+    vorschlagen (SER 8.3.2.1 «in jedem Fall», Rang vor HWP ER; ebenso HWP Rz 423 «zwingend»). Sind die Aktionäre informiert (HWP Rz 424), zusätzlich die Variante «nur Zusatz» für den
+    WP markieren. Bei Überschuldung und Untätigkeit: Hinweis und Anzeigepflicht OR 729c (nur WP). Vorschlag nur in der Notiz «Schlussbesprechung»; Text im GVB-Entwurf nur auf Anweisung
+    (`prozess p5`, Schritt «Texte, die vom Normalwortlaut abweichen»). Entscheid WP. Gesellschaft in Liquidation: unterlassen die Liquidatoren die Überschuldungsanzeige, Hinweis auf OR 743 Abs. 2. Passendes Berichtsbeispiel vorschlagen
     (SER Anhang F Bsp. 9/10/11/13, Muster HWP ER; bei fehlender Fortführung Muster mit verneinender/eingeschränkter Prüfungsaussage); für den Zusatz Kapitalverlust die Formulierung nach
     OR 725a Abs. 1 (HWP Rz 430, Abb. 53) statt der alten Formulierung in SER Bsp. 11 vorschlagen. Bei Jahresverlust ohne Bilanzgewinn entfällt der Verwendungsantrag. Wortlaut, Zusatz
     vs. Hinweis und Prüfungsaussage entscheidet der WP (offener Entscheid im Konzept).'
@@ -412,6 +477,8 @@ schritte:
   fundstellen:
   - quelle: ser-2022__8-3-2-t1
     zitat: sind in jedem Fall im Revisionsbericht anzubringen
+  - quelle: ser-2022__8-3-2-t1
+    zitat: Bleibt der Verwaltungsrat untätig, beachtet die Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR.
   - quelle: hwp-er-2026__rz-0423-s280
     zitat: Bei folgenden Verstössen ist ein Hinweis im zusammenfassenden Bericht zur eingeschränkten Revision zwingend notwendig
   - quelle: hwp-er-2026__rz-0424-s280
@@ -442,7 +509,8 @@ schritte:
 - was: 'Sonderfall Opting-out mit Kapitalverlust (OR 725a Abs. 2, Mandat als zugelassener Revisor): Auftragsart aus der Auftragsbestätigung erkennen (SER Anhang C Bsp. 4) und Vollständigkeitserklärung
     nach SER Anhang E Bsp. 3 vorschlagen; Prüfpflicht gilt auch bei Rangrücktritten; Bericht an den VR (Bsp. 17 bzw. Muster HWP ER, Überschrift «zugelassener Revisor», keine Organstellung),
     Gewinnverwendungsteil entfällt; gleiche Unabhängigkeitsregeln wie Revisionsstelle. Zeigt der Abschluss eine Überschuldung, macht der zugelassene Revisor den VR im Bericht auf die
-    Handlungspflichten nach OR 725b aufmerksam; zur Übernahme der ZA-Prüfung ist er nicht verpflichtet (Annahme: WP-Entscheid); Gerichtsanzeige strittig (siehe Fallstricke).'
+    Handlungspflichten nach OR 725b aufmerksam; zur Übernahme der ZA-Prüfung ist er nicht verpflichtet (Annahme: WP-Entscheid); Gerichtsanzeige strittig (HWP Rz 458 und Q&A Antwort
+    6 verneinen, Q&A Antwort 16 bejaht; Konstellation mit eigener ZA-Prüfung abgrenzen – siehe Fallstricke, Entscheid WP).'
   wer: Agent bereitet vor, WP entscheidet
   revio: 2.2 Auftragsannahme und 2.4 Unabhängigkeit nur lesen; Bericht als Entwurf (Prozess 5)
   mfiles: Auftragsbestätigung nach OR 725a Abs. 2, VR-Beschluss zur Ernennung, Vollständigkeitserklärung gegenüber dem zugelassenen Revisor
@@ -465,10 +533,16 @@ schritte:
     zitat: weshalb dieser Teil im Revisionsbericht entfällt
   - quelle: qa-kapitalverlust-2023__2-2-3-t4
     zitat: Es handelt sich dabei um eine gesetzliche Prüfung und es gelten dieselben Bestimmungen wie bei einer eingeschränkten Revision durch die Revisionsstelle.
+  - quelle: qa-kapitalverlust-2023__1-2-t4
+    zitat: keine Pflicht zu einer ersatzweisen Einberufung der Generalversammlung oder Benachrichtigung des Gerichts
+  - quelle: qa-kapitalverlust-2023__2-2-2-t8
+    zitat: Ausserdem obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle (Art. 725b Abs. 5 OR).
 - was: 'Aufwertung nach OR 725c: nur zur Behebung eines Kapitalverlusts oder einer Überschuldung, nur Grundstücke und Beteiligungen, höchstens bis zum wirklichen Wert, Aufwertungsreserve
     gesondert unter der gesetzlichen Gewinnreserve; schriftliche Bestätigung der Revisionsstelle (separater Bericht an den VR) muss vorliegen; Offenlegung im Anhang. In Folgejahren:
     Auflösung der Aufwertungsreserve nur durch Umwandlung in AK/PS-Kapital, Wertberichtigung oder Veräusserung der aufgewerteten Aktiven. Der revio-Katalogtext zu P1-311 verweist noch
-    auf OR 670 (aufgehoben seit 1.1.2023); massgebend ist OR 725c. Bewertungsnachweise beschaffen; Bestätigung erteilt nur der WP.'
+    auf OR 670 (aufgehoben seit 1.1.2023); massgebend ist OR 725c. Bewertungsnachweise beschaffen; Bestätigung erteilt nur der WP. Höchstbetrag = tieferer Wert aus (wirklicher Wert
+    − Buchwert) und passivseitiger Grenze ((Hälfte des geschützten Kapitals vor Aufwertung − Eigenkapital) × 2, weil die Aufwertungsreserve das geschützte Kapital erhöht) → `kapitalverlust
+    … --buchwert <BW> --verkehrswert <wirklicher Wert>`. Steuerfolgen der Aufwertung berücksichtigen und abgrenzen (HWP BuR Rz 893).'
   wer: Agent bereitet vor, WP entscheidet
   revio: P1-311 «Richtiger Ausweis Aufwertungsreserve» (Katalogverweis OR 670 überholt → OR 725c), G2 bzw. H3 (Bewertung), T1 Anhang
   mfiles: Verkehrswertgutachten/Bewertung, VR-Beschluss Aufwertung, Bestätigung nach OR 725c Abs. 2
@@ -487,6 +561,16 @@ schritte:
     zitat: in der Regel mittels entsprechender Anhangsangabe in der Jahresrechnung
   - quelle: hwp-er-2026__rz-0370-s112
     zitat: aus Aufwertungen (Art. 725c Abs. 1 OR)
+  - quelle: hwp-bur-2023__rz-0891-s359-t1
+    zitat: Der maximale Aufwertungsbetrag entspricht hierbei dem tieferen Wert aus dem maximalen aktivseitigen Aufwertungsbetrag und dem maximalen passivseitigen Aufwertungsbetrag
+  - quelle: hwp-bur-2023__rz-0894-s361-t1
+    zitat: Passivseitig ist die Aufwertung auf die Behebung des Kapitalverlusts nach Artikel 725a OR resp. die Behebung der Überschuldung nach Artikel 725b OR begrenzt.
+  - quelle: hwp-bur-2023__rz-0894-s361-t1
+    zitat: Hierbei ist zu berücksichtigen, dass der Aufwertungsbetrag via Aufwertungsreserve in die Bemessungsgrundlage für den Kapitalverlust einfliesst.
+  - quelle: hwp-bur-2023__rz-0894-s361-t1
+    zitat: Der Aufwertungsbetrag entspricht damit dem zweifachen Betrag des Kapitalverlusts.
+  - quelle: hwp-bur-2023__rz-0893-s360-t2
+    zitat: Sofern die Aufwertung zu Steuerfolgen führt, sind diese entsprechend zu berücksichtigen und abzugrenzen
 - was: 'Rapport an den WP: Berechnung mit Herleitung, Indikatoren, Stand Zwischenabschlüsse/Rangrücktritte/Massnahmen, Fristen und offene Entscheide als wesentliche Punkte zuoberst;
     Mandat als Risiko-Mandat kennzeichnen. Visum, Abschliessende Beurteilung und Freigabe bleiben beim WP.'
   wer: Agent
@@ -502,8 +586,7 @@ entscheidungen_wp:
   quelle: qa-kapitalverlust-2023__1-2-t3
   zitat: In der Praxis sind Fälle denkbar, in denen z.B. aufgrund der Art und beabsichtigten Entwicklung der Geschäftstätigkeit die Erlangung von Rangrücktritten eine hinreichende Massnahme
     darstellen kann.
-- text: 'Hinweis nach OR 725a Abs. 1 bei Untätigkeit des VR auch dann, wenn die Aktionäre informiert sind: SER 8.3.2.1 (höherer Rang) und HWP Rz 423 verlangen ihn «in jedem Fall» bzw.
-    «zwingend», HWP Rz 424 knüpft ihn kumulativ an fehlende Information der Aktionäre – Auslegung beim WP.'
+- text: Hinweis bei Untätigkeit des VR nach OR 725a Abs. 1 auch bei informierten Aktionären? SER 8.3.2.1 (höherer Rang) «in jedem Fall» vs. HWP Rz 424 (kumulativ) – Entscheid WP.
   quelle: ser-2022__8-3-2-t1
   zitat: sind in jedem Fall im Revisionsbericht anzubringen
 - text: Ob eine begründete Besorgnis einer Überschuldung besteht (Einzelfallbeurteilung).
@@ -531,7 +614,8 @@ entscheidungen_wp:
     725b Abs. 2 (keine Übernahmepflicht; Unabhängigkeit bei Doppelmandat). Für die gesetzliche Revisionsstelle stellt sich diese Frage nicht – sie ist zuständig.'
   quelle: qa-kapitalverlust-2023__2-2-3-t6
   zitat: Die Annahme solcher Mandate ist von der Prüferin oder dem Prüfer daher in Eigenverantwortung und unter angemessener Dokumentation zu entscheiden.
-- text: 'Zugelassener Revisor (OR 725a Abs. 2): Benachrichtigung des Gerichts bei Untätigkeit des VR – HWP Rz 458 verneint, Q&A Antwort 16 bejaht.'
+- text: 'Zugelassener Revisor ohne Revisionsstelle: Benachrichtigung des Gerichts bei Untätigkeit des VR – HWP Rz 458 und Q&A Antwort 6 verneinen, Q&A Antwort 16 bejaht (OR 725b Abs.
+    5); Konstellation mit eigener ZA-Prüfung abgrenzen.'
   quelle: qa-kapitalverlust-2023__2-2-2-t8
   zitat: Entsprechend muss der zugelassene Revisor das Gericht benachrichtigen, wenn der Verwaltungsrat die Anzeige unterlässt (Art. 729c OR).
 - text: Mahnung des VR mit Fristansetzung und Länge der Frist.
@@ -541,6 +625,9 @@ entscheidungen_wp:
     (Beweislast für das behauptete Eigenkapital liegt beim VR).
   quelle: hwp-er-2026__rz-0444-s129
   zitat: Es liegt beim Verwaltungsrat, gegenüber der Revisionsstelle und ggf. gegenüber dem Gericht das eﬀektive Vorhandensein des von ihm behaupteten Eigenkapitals zu belegen.
+- text: Meldung an die Stiftungsaufsicht (ZGB 84a Abs. 2) – nur WP.
+  quelle: zgb__art-84a
+  zitat: Stellt die Revisionsstelle fest, dass die Stiftung zahlungsunfähig oder überschuldet ist, so benachrichtigt sie die Aufsichtsbehörde.
 - text: 'Berichtswortlaut: Zusatz, Hinweis, Eventualzusatz, Einschränkung; Wahl des Berichtsbeispiels und der Formulierung (SER Bsp. 11 alt vs. OR 725a Abs. 1) (offener Entscheid consis).'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Vorgehen bei Einschränkung, Zusatz (z. B. Überschuldung, Rangrücktritt) oder Hinweis.
@@ -562,10 +649,13 @@ unterlagen:
   zweck: Aktien-/PS-Kapital (Basis der 50 %/20 %) und Reserven für das geschützte Eigenkapital abstimmen
   quelle: ser-2022__anh-d-s091-1
   zitat: Abstimmung des Grundkapitals mit den gültigen Statuten oder dem Handelsregisterauszug
-- dokument: Aufstellung Covid-19-Kredite und HFMV-20-Darlehen per Stichtag
-  zweck: Bereinigung des Fremdkapitals für Kapitalverlust und Überschuldung
-  quelle: hwp-er-2026__rz-0373-s113
-  zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
+- dokument: Aufstellung Covid-19-Kredite (mit Rechtsgrundlage Art. 3/Art. 4 Covid-19-SBüV) und HFMV-20-Darlehen per Stichtag
+  zweck: Bereinigung des Fremdkapitals für Kapitalverlust und Überschuldung (nur Kredite nach Art. 3 Covid-19-SBüV und HFMV-20-Darlehen)
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  weitere_fundstellen:
+  - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
 - dokument: Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten (mit VR-Genehmigung, ggf. Prüfbericht)
   zweck: Massgebende Grundlage für die Beurteilung der Überschuldung
   quelle: qa-kapitalverlust-2023__2-2-2-t1
@@ -590,10 +680,13 @@ unterlagen:
   zweck: Fälligkeiten, Covenants, Rangrücktritte, Fremdkapitalqualifikation
   quelle: ser-2022__anh-d-s085-1
   zitat: Einsicht in Kredit- und Darlehensverträge
-- dokument: Belege zu Sanierungsmassnahmen (Forderungsverzicht, Zuschuss, Kapitalerhöhung)
-  zweck: Wirkung auf den Bilanzstichtag und Vollzug belegen
+- dokument: Belege zu Sanierungsmassnahmen (Forderungsverzicht, Zuschuss, Kapitalerhöhung) inkl. Verbuchung des Verzichts (ER/Sanierungskonto oder direkt EK)
+  zweck: Wirkung auf den Bilanzstichtag und Vollzug belegen; Steuerfolgen als Hinweis für S1/M3 (ESTV-Praxis)
   quelle: hwp-er-2026__rz-0408-s123
   zitat: Im Gegensatz zum Rangrücktritt bewirkt der Forderungsverzicht eine echte Sanierung der Bilanz
+  weitere_fundstellen:
+  - quelle: estv-ks-32a-2025__4-1-1-1-t2
+    zitat: Forderungsverzichte durch Anteilsinhaber, die direkt in das Eigenkapital der Gesellschaft gebucht werden, sind aufgrund der handelsrechtlichen Verbuchung immer gewinnsteuerneutral.
 - dokument: Verkehrswertnachweise und Bestätigung nach OR 725c Abs. 2
   zweck: Zulässigkeit der Aufwertung
   quelle: or__art-725c
@@ -658,8 +751,8 @@ fallstricke:
 - text: Unterbilanz ist nicht gleich Kapitalverlust im Sinne von OR 725a.
   quelle: hwp-er-2026__rz-0367-s112
   zitat: Vom Kapitalverlust im Sinne des Aktienrechts zu unterscheiden ist die «Unterbilanz».
-- text: 'Rechenmodul: Reserven nach OR 659b und Aufwertungsreserve zählen voll und dürfen nicht in --gewinnreserve eingegeben werden (das Werkzeug würde sie mitkappen); Covid-/HFMV-Kredite
-    vor der Eingabe aus den Verbindlichkeiten nehmen.'
+- text: 'Rechenmodul: Reserven nach OR 659b Abs. 2 und Aufwertungsreserve nur in --reserve-voll (nie zusätzlich in --gewinnreserve, sonst gekappt); Covid-/HFMV-Kredite nur in --covid-kredit
+    (nicht zusätzlich von --verbindlichkeiten abziehen).'
   quelle: hwp-er-2026__rz-0370-s112
   zitat: der volle Betrag der gesetzlichen Reserven für eigene Kapitalanteile im Konzern
 - text: 'Konzerngesellschaften: Beurteilung nur auf Ebene Einzelabschluss, solide Gruppe relativiert nichts.'
@@ -684,9 +777,17 @@ fallstricke:
 - text: 'Rangrücktritt mit ausländischem Gläubiger: untersteht grundsätzlich dessen Recht; «Schweizer Recht» ist nur Empfehlung, ausländische Formvorschriften beachten.'
   quelle: hwp-er-2026__rz-0419-s124
   zitat: untersteht der Rangrücktritt dem Recht des Gesellschaftsgläubigers
-- text: Covid-19-Kredite nur befristet nicht als Fremdkapital (SBüG bis 31.12.2032, HFMV 20 bis 31.12.2031) – Stichtag beachten.
+- text: Nur Kredite nach Art. 3 Covid-19-SBüV (nicht Art. 4) und HFMV-20-Darlehen zählen nicht als Fremdkapital, befristet (SBüG bis 31.12.2032, HFMV 20 bis 31.12.2031) – Stichtag
+    beachten.
   quelle: hwp-er-2026__rz-0373-s113
   zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
+  weitere_fundstellen:
+  - quelle: covid-sbueg__art-31
+    zitat: gilt bis zum 31. Dezember 2032
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Jene der HFMV 20 sind gültig bis 31. Dezember 2031
 - text: Realistische kurzfristige Sanierung ist kein Grund, die Prüfungen aufzuschieben.
   quelle: hwp-er-2026__rz-0452-s132
   zitat: ist dies kein Grund, die notwendigen Prüfungen aufzuschieben
@@ -702,21 +803,37 @@ fallstricke:
 - text: Keine Sanierungsberatung durch die Revisionsstelle bzw. den Agenten.
   quelle: hwp-er-2026__rz-0431-s127
   zitat: Es ist nicht Aufgabe der Revisionsstelle, einer notleidenden Gesellschaft Wege zum Fortbestand und zur Sanierung aufzuzeigen.
-- text: 'Strittig – zugelassener Revisor (OR 725a Abs. 2, Opting-out) und Gerichtsanzeige: HWP ER verneint eine Anzeigepflicht …'
+- text: 'Strittig – nur nach OR 725a Abs. 2 beauftragter Revisor (Opting-out) und Gerichtsanzeige: HWP ER Rz 458 und Q&A Antwort 6 verneinen eine Anzeigepflicht …'
   quelle: hwp-er-2026__rz-0458-s134
   zitat: vor allem keine Pflicht zur Benachrichtigung des Gerichts
-- text: … Q&A Antwort 16 bejaht sie unter Verweis auf OR 725b Abs. 5 – Widerspruch dem WP vorlegen.
+  weitere_fundstellen:
+  - quelle: qa-kapitalverlust-2023__1-2-t4
+    zitat: keine Pflicht zu einer ersatzweisen Einberufung der Generalversammlung oder Benachrichtigung des Gerichts
+- text: '… Q&A Antwort 16 bejaht sie unter Verweis auf OR 725b Abs. 5. Abs. 5 überträgt die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle «dem zugelassenen Revisor»,
+    wenn keine Revisionsstelle besteht. Auslegung (in den Quellen nicht entschieden): prüft der Revisor auch die Zwischenabschlüsse nach OR 725b Abs. 2, spricht der Zusammenhang für
+    die Pflicht. Abgrenzung (nur Prüfung nach OR 725a Abs. 2 oder auch ZA-Prüfung) dem WP vorlegen.'
   quelle: qa-kapitalverlust-2023__2-2-2-t8
   zitat: Entsprechend muss der zugelassene Revisor das Gericht benachrichtigen, wenn der Verwaltungsrat die Anzeige unterlässt (Art. 729c OR).
+  weitere_fundstellen:
+  - quelle: or__art-725b-t2
+    zitat: Verfügt die Gesellschaft über keine Revisionsstelle, so obliegen dem zugelassenen Revisor die Anzeigepflichten der eingeschränkt prüfenden Revisionsstelle.
+  - quelle: or__art-725b-t1
+    zitat: durch einen zugelassenen Revisor prüfen
 - text: 'Bei Missachtung der Prüfpflicht nach OR 725a Abs. 2 sind GV-Beschlüsse nichtig – spätere Prüfer: rechtlichen Rat einholen.'
   quelle: hwp-er-2026__rz-0455-s133
   zitat: sind die Beschlüsse der Generalversammlung zur Genehmigung der Jahresrechnung sowie zur Verrechnung des Bilanzverlusts oder anderweitiger Verwendung von Reserven nichtig
 - text: 'Rechtsform: Genossenschaft ohne Anteilscheine – Kapitalverlust-Regeln nicht anwendbar (Überschuldung schon).'
   quelle: or__art-903
   zitat: Bei Genossenschaften mit Anteilscheinen sind überdies die Bestimmungen des Aktienrechts über den Kapitalverlust entsprechend anwendbar.
-- text: Stiftungen erstellen keinen Zwischenabschluss nach OR 725b; Rechtsform beachten.
+- text: 'Stiftung: kein Zwischenabschluss nach OR 725b. Stellt die Revisionsstelle Zahlungsunfähigkeit oder Überschuldung fest, benachrichtigt SIE die Aufsichtsbehörde (ZGB 84a Abs.
+    2) – Sonderregel statt Gerichtsanzeige nach OR 729c. Sofort Notiz «Wesentliche Feststellungen» an den WP.'
   quelle: ser-2022__9-t2
   zitat: Stiftungen haben gemäss Art. 84a ZGB keinen Zwischenabschluss zu erstellen.
+  weitere_fundstellen:
+  - quelle: zgb__art-84a
+    zitat: Stellt die Revisionsstelle fest, dass die Stiftung zahlungsunfähig oder überschuldet ist, so benachrichtigt sie die Aufsichtsbehörde.
+  - quelle: hwp-er-2026__rz-0118-s060
+    zitat: Stellt die Revisionsstelle fest, dass die Stiftung zahlungsunfähig oder überschuldet ist, benachrichtigt sie die Aufsichtsbehörde (Art. 84a Abs. 2 ZGB).
 - text: SER Anhang F Bsp. 11 verwendet die alte Formulierung («Hälfte des Aktienkapitals und der gesetzlichen Reserven»); für den Zusatz den Wortlaut nach OR 725a Abs. 1 vorschlagen,
     Wahl beim WP.
   quelle: ser-2022__anh-f-s129-2
@@ -737,7 +854,7 @@ fragen_kunde:
   zweck: Formelle und materielle Gültigkeit sowie Einhaltung des Rangrücktritts prüfen (OR 725b Abs. 4 Ziff. 1, HWP Rz 412/419).
 - frage: Kann der Rangrücktrittsgläubiger einen Ausfall der Forderung finanziell tragen (z.B. Jahresrechnung des Gläubigers)?
   zweck: Bonität des Gläubigers beurteilen (Anfechtungsrisiko).
-- frage: Bestehen Covid-19-Kredite oder Härtefall-Darlehen und in welcher Höhe per Stichtag? Bestehen Reserven für eigene Kapitalanteile im Konzern oder eine Aufwertungsreserve; ist
+- frage: Bestehen Covid-19-Kredite (nach Art. 3 oder Art. 4 Covid-19-SBüV) oder HFMV-20-Darlehen und in welcher Höhe per Stichtag? Bestehen Reserven für eigene Kapitalanteile im Konzern oder eine Aufwertungsreserve; ist
     die Gesellschaft eine Holding; besteht PS-Kapital?
   zweck: Korrekte Herleitung des geschützten Eigenkapitals und Berechnung von Kapitalverlust und Überschuldung.
 - frage: Sind Sanierungsmassnahmen zugesagt oder vollzogen (Kapitalerhöhung, Forderungsverzicht, À-fonds-perdu-Zuschuss, Aufwertung nach OR 725c) – mit Datum und Belegen?

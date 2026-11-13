@@ -6,10 +6,14 @@ werte:
   einheit: '%'
   gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
   kategorie: steuern_bewertung
-  bemerkung: 'Gilt für das allgemeine Kreditrisiko nach Einzelwertberichtigungen. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll gedeckte Forderungen.
-    Handelsrechtlich allenfalls stille Reserve. Hausregel offen: konzept-ki-revisionsagent-2026__c015-2 «Betriebswirtschaftliche Herleitung oder steuerlich akzeptierte ESTV-Pauschale?»
-    – consis entscheidet (konzept-ki-revisionsagent-2026__c023-1 «consis entscheidet über WP-Schritte, Standardauswahl der Stichprobe, Delkredere und Statusregeln»); im Einzelfall beurteilt
-    der WP. Der Agent rechnet nur vor (Werkzeug rechne).'
+  bemerkung: 'Steuerpraxis, keine handelsrechtliche Bewertungsregel. Steuerliche Grundlage: dbg__art-63 «Verlustrisiken, die mit Aktiven des Umlaufvermögens, insbesondere mit Waren und
+    Debitoren, verbunden sind». Handelsrechtlich massgebend ist der Bedarf: hwp-bur-2023__rz-0120-s186 «Die pauschale Wertberichtigung ist aufgrund von Erfahrungen aus der Vergangenheit
+    und unter Berücksichtigung der erwarteten Entwicklung zu quantifizieren.» Bedarf > Pauschale → mögliche Überbewertung, dem WP melden. Pauschale > Bedarf → stille Reserve (or__art-960a
+    «Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.»). Ablauf:
+    `thema delkredere-forderungen`. Gilt für das allgemeine Kreditrisiko nach Einzelwertberichtigungen. Ausgenommen sind Forderungen gegen öffentlich-rechtliche Körperschaften und voll
+    gedeckte Forderungen. Hausregel offen: konzept-ki-revisionsagent-2026__c015-2 «Betriebswirtschaftliche Herleitung oder steuerlich akzeptierte ESTV-Pauschale?» – consis entscheidet
+    (konzept-ki-revisionsagent-2026__c023-1 «consis entscheidet über WP-Schritte, Standardauswahl der Stichprobe, Delkredere und Statusregeln»); im Einzelfall beurteilt der WP. Der Agent
+    rechnet nur vor (Werkzeug rechne).'
   quelle: hwp-bur-2023__rz-0437-s248
   zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
   status: agent-geprueft
@@ -19,7 +23,12 @@ werte:
   einheit: '%'
   gilt: HWP BuR, Ausgabe 2023 (Praxis ESTV)
   kategorie: steuern_bewertung
-  bemerkung: 'Wie Inland: erst Einzelwertberichtigungen, dann Pauschale auf dem Rest. Einige Kantone lassen abweichende Pauschalen zu (kt_zh_delkredere). Hausregel offen wie bei estv_delkredere_inland.'
+  bemerkung: 'Steuerpraxis, keine handelsrechtliche Bewertungsregel. Steuerliche Grundlage: dbg__art-63 «Verlustrisiken, die mit Aktiven des Umlaufvermögens, insbesondere mit Waren und
+    Debitoren, verbunden sind». Handelsrechtlich massgebend ist der Bedarf: hwp-bur-2023__rz-0120-s186 «Die pauschale Wertberichtigung ist aufgrund von Erfahrungen aus der Vergangenheit
+    und unter Berücksichtigung der erwarteten Entwicklung zu quantifizieren.» Bedarf > Pauschale → mögliche Überbewertung, dem WP melden. Pauschale > Bedarf → stille Reserve (or__art-960a
+    «Zu Wiederbeschaffungszwecken sowie zur Sicherung des dauernden Gedeihens des Unternehmens dürfen zusätzliche Abschreibungen und Wertberichtigungen vorgenommen werden.»). Ablauf:
+    `thema delkredere-forderungen`. Wie Inland: erst Einzelwertberichtigungen, dann Pauschale auf dem Rest. Einige Kantone lassen abweichende Pauschalen zu (kt_zh_delkredere). Hausregel
+    offen wie bei estv_delkredere_inland.'
   quelle: hwp-bur-2023__rz-0437-s248
   zitat: Wertberichtigung von 5 % und auf ausländischen von 10 % zu
   status: agent-geprueft
@@ -40,8 +49,11 @@ werte:
   einheit: Anteil
   gilt: HWP BuR, Ausgabe 2023 (Praxis Steuerbehörden)
   kategorie: steuern_bewertung
-  bemerkung: Basis ist der gesetzliche Höchstwert (AK/HK nach Wertberichtigungen für Unkurantes bzw. tieferer Netto-Veräusserungswert). Nach allen handelsrechtlich nötigen Korrekturen
-    hat der Abzug Reservecharakter. Baut sich das Lager ab, werden stille Reserven aufgelöst, ggf. offenlegungspflichtig (Art. 959c Abs. 1 Ziff. 3 OR).
+  bemerkung: 'Steuerpraxis, keine handelsrechtliche Bewertungsregel; steuerliche Grundlage dbg__art-63 (Waren). Über den handelsrechtlich nötigen Korrekturen = stille Reserve nach Art.
+    960a Abs. 4 OR. Basis ist der gesetzliche Höchstwert (AK/HK nach Wertberichtigungen für Unkurantes bzw. tieferer Netto-Veräusserungswert). Nach allen handelsrechtlich nötigen Korrekturen
+    hat der Abzug Reservecharakter. Baut sich das Lager ab, werden stille Reserven aufgelöst, ggf. offenlegungspflichtig (Art. 959c Abs. 1 Ziff. 3 OR). Covid-19-Härtefallhilfen: qa-or-rechnungslegung-2026__5-t1-2
+    «erstmalige Bildung eines Warendrittels oder einer Arbeitgeberbeitragsreserve), könnte dies indes als Indiz für eine missbräuchliche Gewinnschmälerung mit Rückerstattungsfolge betrachtet
+    werden» → dem WP melden.'
   quelle: hwp-bur-2023__rz-0253-s214
   zitat: lassen die Steuerbehörden einen Bewertungsabzug von einem Drittel zu
   status: agent-geprueft
@@ -61,9 +73,17 @@ werte:
   einheit: Faktor auf Buchwert-Satz
   gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
   kategorie: steuern_bewertung
-  bemerkung: 'Die Normalsätze gelten in Prozenten des Buchwerts (degressiv); vom Anschaffungswert (linear) gilt die Hälfte. Geltungsbereich: estv-mb-a-1995__s001-5 «Dieses Merkblatt
-    gilt ausschliesslich für Abschreibungen gemäss Art. 960a Abs. 3 OR.» Nachholung unterlassener Abschreibungen nur mit Nachweis: estv-mb-a-1995__s001-4 «Wer Abschreibungen nachzuholen
-    begehrt, ist verpflichtet, deren Begründetheit nachzuweisen.» Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft). Sekundär gleichlautend: Treuhand-Almanach 2026 Tab. 26 (treuhand-almanach-2026__s061-1).'
+  bemerkung: 'Steuerpraxis (DBG), keine handelsrechtliche Bewertungsregel. Handelsrechtlich: hwp-bur-2023__rz-0332-s229 «Verteilung der Anschaffungs- oder Herstellungskosten auf die
+    voraussichtliche Nutzungsdauer»; mehr als nötig = stille Reserve (Art. 960a Abs. 4 OR). Steuerlich nur verbuchte Abschreibungen: dbg__art-62 «Geschäftsmässig begründete Abschreibungen
+    von Aktiven sind zulässig, soweit sie buchmässig oder, bei vereinfachter Buchführung nach Artikel 957 Absatz 2 OR, in besonderen Abschreibungstabellen ausgewiesen sind.» Die Normalsätze
+    gelten in Prozenten des Buchwerts (degressiv); vom Anschaffungswert (linear) gilt die Hälfte. Geltungsbereich: estv-mb-a-1995__s001-5 «Dieses Merkblatt gilt ausschliesslich für Abschreibungen
+    gemäss Art. 960a Abs. 3 OR.» Nachholung unterlassener Abschreibungen nur mit Nachweis: estv-mb-a-1995__s001-4 «Wer Abschreibungen nachzuholen begehrt, ist verpflichtet, deren Begründetheit
+    nachzuweisen.» Nachholung nur, wenn das Unternehmen estv-mb-a-1995__s001-4 «wegen schlechten Geschäftsganges keine genügenden Abschreibungen vornehmen konnte». Kantonale Sonderverfahren
+    (z.B. Sofortabschreibung): estv-mb-a-1995__s001-4 «Besondere Abschreibungsverfahren dieser Art können auch für die direkte Bundessteuer angewendet werden, sofern sie über längere
+    Zeit zum gleichen Ergebnis führen.» Aufgewertete Aktiven (Art. 725c OR): dbg__art-62 «Abschreibungen auf Aktiven, die zum Ausgleich von Verlusten höher bewertet wurden, können nur
+    vorgenommen werden, wenn die Aufwertungen handelsrechtlich zulässig waren und die Verluste im Zeitpunkt der Abschreibung nach Artikel 67 Absatz 1 verrechenbar gewesen wären.» (gleichlautend
+    MB A Ziff. 5, estv-mb-a-1995__s001-5) → dem WP melden.'
+  pruefnotiz: 'Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft). Sekundär gleichlautend: Treuhand-Almanach 2026 Tab. 26 (treuhand-almanach-2026__s061-1).'
   quelle: estv-mb-a-1995__s001-5
   zitat: Für Abschreibungen auf dem Anschaffungswert sind die genannten Sätze um die Hälfte zu reduzieren.
   status: agent-geprueft
@@ -86,7 +106,8 @@ werte:
   kategorie: steuern_bewertung
   bemerkung: 'Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft). Vom Anschaffungswert gilt die Hälfte (estv_abschreibung_faktor_anschaffungswert). Maschinen im Schichtbetrieb oder
     unter besonderen Bedingungen 40 % (estv-mb-a-1995__s001-2 «Maschinen, die vorwiegend im Schichtbetrieb eingesetzt sind»; estv-mb-a-1995__s001-3 «schwere Steinbearbeitungsmaschinen,
-    Strassenbaumaschinen. 40 %»). Sekundär gleichlautend: Treuhand-Almanach 2026 Tab. 26 (treuhand-almanach-2026__s061-1).'
+    Strassenbaumaschinen. 40 %»). Maschinen unter chemischer Beanspruchung 40 % (estv-mb-a-1995__s001-3 «Einflüssen ausgesetzt sind........................................................
+    40 %»). Sekundär gleichlautend: Treuhand-Almanach 2026 Tab. 26 (treuhand-almanach-2026__s061-1).'
   quelle: estv-mb-a-1995__s001-2
   zitat: Apparate und Maschinen zu Produktionszwecken.................... 30 %
   status: agent-geprueft
@@ -202,13 +223,13 @@ werte:
   einheit: '%'
   gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
   kategorie: steuern_bewertung
-  bemerkung: 'Bezeichnung im vorangehenden Chunk: estv-mb-a-1995__s001-1 «Fabrikgebäude, Lagergebäude und gewerbliche Bauten» (speziell Werkstatt- und Silogebäude). Der Chunk s001-2
-    beginnt mit der zweiten Zeile; die beiden Werte folgen danach: erster Wert Gebäude allein (8 %), zweiter Gebäude und Land zusammen (7 %). Gegenprobe Almanach (Sekundär): treuhand-almanach-2026__s061-1
-    «Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%». Gebäude allein nur bei separater Aktivierung: estv-mb-a-1995__s001-5 «Der höhere Abschreibungssatz
-    für Gebäude allein kann nur angewendet werden, wenn der restliche Buchwert bzw. die Gestehungskosten der Gebäude separat aktiviert sind.» Auf dem Land grundsätzlich keine Abschreibung.
-    Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft).'
+  bemerkung: 'Bezeichnung: estv-mb-a-1995__s001-1 «Fabrikgebäude, Lagergebäude und gewerbliche Bauten» (speziell Werkstatt- und Silogebäude). Werte in estv-mb-a-1995__s001-2: erster
+    Wert 8 % = Gebäude allein, zweiter 7 % = Gebäude und Land zusammen. Gebäude allein nur bei separater Aktivierung: estv-mb-a-1995__s001-5 «Der höhere Abschreibungssatz für Gebäude
+    allein kann nur angewendet werden, wenn der restliche Buchwert bzw. die Gestehungskosten der Gebäude separat aktiviert sind.» Auf dem Land grundsätzlich keine Abschreibung.'
+  pruefnotiz: 'Der Chunk estv-mb-a-1995__s001-2 beginnt mit der zweiten Zeile; die beiden Werte folgen danach. Gegenprobe Almanach (Sekundär): treuhand-almanach-2026__s061-1 «Fabrikgebäude
+    und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%». Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft).'
   quelle: estv-mb-a-1995__s001-2
-  zitat: ––auf Gebäude und Land zusammen5...................................... 8 % 7%
+  zitat: 8 % 7%
   status: agent-geprueft
 - key: estv_abschreibung_fabrik_lager_mit_boden
   bezeichnung: ESTV-Abschreibungssatz Fabrikgebäude, Lagergebäude und gewerbliche Bauten, auf Gebäude und Land zusammen (vom Buchwert)
@@ -216,12 +237,13 @@ werte:
   einheit: '%'
   gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
   kategorie: steuern_bewertung
-  bemerkung: 'Bezeichnung im vorangehenden Chunk: estv-mb-a-1995__s001-1 «Fabrikgebäude, Lagergebäude und gewerbliche Bauten» (speziell Werkstatt- und Silogebäude). Der Chunk s001-2
-    beginnt mit der zweiten Zeile; die beiden Werte folgen danach: erster Wert Gebäude allein (8 %), zweiter Gebäude und Land zusammen (7 %). Gegenprobe Almanach (Sekundär): treuhand-almanach-2026__s061-1
-    «Fabrikgebäude und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%». Gebäude und Land in einer Bilanzposition: estv-mb-a-1995__s001-5 «In diesem Fall ist die
-    Abschreibung nur bis auf den Wert des Landes zulässig.» Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft).'
+  bemerkung: 'Bezeichnung: estv-mb-a-1995__s001-1 «Fabrikgebäude, Lagergebäude und gewerbliche Bauten» (speziell Werkstatt- und Silogebäude). Werte in estv-mb-a-1995__s001-2: erster
+    Wert 8 % = Gebäude allein, zweiter 7 % = Gebäude und Land zusammen. Gebäude und Land in einer Bilanzposition: estv-mb-a-1995__s001-5 «In diesem Fall ist die Abschreibung nur bis
+    auf den Wert des Landes zulässig.»'
+  pruefnotiz: 'Der Chunk estv-mb-a-1995__s001-2 beginnt mit der zweiten Zeile; die beiden Werte folgen danach. Gegenprobe Almanach (Sekundär): treuhand-almanach-2026__s061-1 «Fabrikgebäude
+    und Lager • Gebäude ohne Anteil Boden • Gebäude mit Anteil Boden* 8% 7%». Original: raw/estv-mb-a-1995.pdf S. 1 (Layout geprüft).'
   quelle: estv-mb-a-1995__s001-2
-  zitat: ––auf Gebäude und Land zusammen5...................................... 8 % 7%
+  zitat: 8 % 7%
   status: agent-geprueft
 - key: estv_abschreibung_immaterielle
   bezeichnung: ESTV-Abschreibungssatz immaterielle Werte, die der Erwerbstätigkeit dienen (Patent-, Firmen-, Verlags-, Konzessions-, Lizenz- und andere Nutzungsrechte; Goodwill; vom
@@ -234,6 +256,92 @@ werte:
     gilt die Hälfte (estv_abschreibung_faktor_anschaffungswert). Sekundär gleichlautend: Treuhand-Almanach 2026 Tab. 26 (treuhand-almanach-2026__s061-1).'
   quelle: estv-mb-a-1995__s001-3
   zitat: Lizenz- und andere Nutzungsrechte; Goodwill........................................................ 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_werkzeuge
+  bezeichnung: ESTV-Abschreibungssatz Werkzeuge, Werkgeschirr, Maschinenwerkzeuge, Geräte, Gebinde, Gerüstmaterial, Paletten (vom Buchwert)
+  wert: '45'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: 'Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert). Bezeichnung: estv-mb-a-1995__s001-3 «Werkzeuge, Werkgeschirr, Maschinenwerkzeuge,
+    Geräte,» … Gebinde, Gerüstmaterial, Paletten.'
+  quelle: estv-mb-a-1995__s001-3
+  zitat: Paletten usw..................................... 45 %
+  status: agent-geprueft
+- key: estv_abschreibung_hotelgeschirr_waesche
+  bezeichnung: ESTV-Abschreibungssatz Hotel- und Gastwirtschaftsgeschirr sowie Hotel- und Gastwirtschaftswäsche (vom Buchwert)
+  wert: '45'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: 'Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert). Bezeichnung: estv-mb-a-1995__s001-3 «Hotel- und Gastwirtschaftsgeschirr
+    sowie Hotel- und Gastwirtschaftswäsche».'
+  quelle: estv-mb-a-1995__s001-3
+  zitat: Gastwirtschaftswäsche.......................................................................... 45 %
+  status: agent-geprueft
+- key: estv_abschreibung_transportmittel_ohne_mfz
+  bezeichnung: ESTV-Abschreibungssatz Transportmittel aller Art ohne Motorfahrzeuge, insbesondere Anhänger (vom Buchwert)
+  wert: '30'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: 'Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert). Bezeichnung: estv-mb-a-1995__s001-2 «Transportmittel aller Art ohne Motorfahrzeuge».
+    Motorfahrzeuge: estv_abschreibung_motorfahrzeuge.'
+  quelle: estv-mb-a-1995__s001-2
+  zitat: Anhänger................................................................................ 30 %
+  status: agent-geprueft
+- key: estv_abschreibung_hochregallager
+  bezeichnung: ESTV-Abschreibungssatz Hochregallager und ähnliche Einrichtungen (vom Buchwert)
+  wert: '15'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert).
+  quelle: estv-mb-a-1995__s001-2
+  zitat: Hochregallager und ähnliche Einrichtungen............................. 15 %
+  status: agent-geprueft
+- key: estv_abschreibung_fahrnisbauten_tanks_leitungen
+  bezeichnung: ESTV-Abschreibungssatz Fahrnisbauten auf fremdem Grund und Boden, Geleiseanschlüsse, Wasserleitungen zu industriellen Zwecken, Tanks und Container (vom Buchwert)
+  wert: '20'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: 'Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert). Gleicher Satz: estv-mb-a-1995__s001-2 «Geleiseanschlüsse....................................................................
+    20 %», «Wasserleitungen zu industriellen Zwecken............................... 20 %», «Tanks (inkl. Zisternenwaggons), Container............................... 20 %».'
+  quelle: estv-mb-a-1995__s001-2
+  zitat: Fahrnisbauten auf fremdem Grund und Boden........................ 20 %
+  status: agent-geprueft
+- key: estv_abschreibung_sicherheit_messgeraete
+  bezeichnung: ESTV-Abschreibungssatz Sicherheitseinrichtungen, elektronische Mess- und Prüfgeräte (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert).
+  quelle: estv-mb-a-1995__s001-3
+  zitat: Sicherheitseinrichtungen, elektronische Mess- und Prüfgeräte.. 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_steuerungssysteme
+  bezeichnung: ESTV-Abschreibungssatz automatische Steuerungssysteme (vom Buchwert)
+  wert: '40'
+  einheit: '%'
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: Steuerpraxis (DBG); vom Anschaffungswert die Hälfte (estv_abschreibung_faktor_anschaffungswert).
+  quelle: estv-mb-a-1995__s001-1
+  zitat: Automatische Steuerungssysteme............................................ 40 %
+  status: agent-geprueft
+- key: estv_abschreibung_energie_umwelt_sonderfall
+  bezeichnung: 'ESTV-Abschreibung Sonderfall energiesparende Einrichtungen und Umweltschutzanlagen: erhöhter Satz im 1. und 2. Jahr (vom Buchwert)'
+  wert: bis 50 % vom Buchwert im 1. und 2. Jahr, danach Normalsatz
+  einheit: Regel
+  gilt: ESTV-Merkblatt A/1995 (Fassung gemäss ESTV-Liste 10.10.2023), direkte Bundessteuer
+  kategorie: steuern_bewertung
+  bemerkung: 'Steuerpraxis (DBG). Energiesparende Einrichtungen: estv-mb-a-1995__s001-3 «Wärmeisolierungen, Anlagen zur Umstellung des Heizungssystems,». Umweltschutzanlagen: estv-mb-a-1995__s001-4
+    «Gewässer- und Lärmschutzanlagen sowie Abluftreinigungsanlagen». Danach: estv-mb-a-1995__s001-3 «in den darauffolgenden Jahren zu den für die betreffenden Anlagen üblichen Sätzen»
+    (Normalsatz der Anlage).'
+  quelle: estv-mb-a-1995__s001-3
+  zitat: und im zweiten Jahr bis zu 50% vom Buchwert
   status: agent-geprueft
 - key: estv_kurs_eur_stichtag_2025
   bezeichnung: ESTV-Stichtagskurs EUR per 31.12.2025

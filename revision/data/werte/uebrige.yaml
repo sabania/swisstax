@@ -114,7 +114,7 @@ werte:
   bezeichnung: Gesetzlicher Verzugszins bei Geldschulden (Art. 104 Abs. 1 OR)
   wert: '5'
   einheit: '% pro Jahr'
-  gilt: OR, geltende Fassung
+  gilt: OR, Fassung Stand 01.10.2026
   kategorie: uebrige
   bemerkung: 'Gilt auch, wenn der vertragliche Zins tiefer ist. Vertraglich höhere Zinsen können auch während des Verzugs gefordert werden (Abs. 2). Unter Kaufleuten kann ein höherer
     Bankdiskonto gelten (Abs. 3): or__art-104 «Unter Kaufleuten können für die Zeit, wo der übliche Bankdiskonto am Zahlungsorte fünf vom Hundert übersteigt». Anwendung: Verzugszinsen

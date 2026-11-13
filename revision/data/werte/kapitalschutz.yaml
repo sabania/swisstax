@@ -2,14 +2,15 @@
 werte:
 - key: or725a_kapitalverlust_haelfte
   bezeichnung: 'Kapitalverlust: Schwelle'
-  wert: '0.5'
-  einheit: Anteil
+  wert: '50'
+  einheit: '% des geschützten Kapitals (Hälfte; Key hwp_er_geschuetztes_kapital)'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: 'Art. 725a Abs. 1 OR, massgebend ist die letzte Jahresrechnung: Aktiven abzüglich Verbindlichkeiten < 50 % von (Aktienkapital + nicht zurückzahlbare gesetzliche Kapitalreserve
-    + gesetzliche Gewinnreserve). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2); gebotene Eile (Abs. 4). Bleibt der VR untätig, ist der Hinweis auf
-    den Gesetzesverstoss ohne Wesentlichkeitsprüfung aufzunehmen: «sind in jedem Fall im Revisionsbericht anzubringen» (SER 8.3.2.1, ser-2022__8-3-2-t1). Agent erfasst Pendenz/Entwurf;
-    ob ein Hinweis erfolgt und wie er lautet, entscheidet ausschliesslich der WP. Rechner: revision.py kapitalverlust. GmbH: Art. 820 OR.'
+  bemerkung: 'Art. 725a Abs. 1 OR, massgebend ist die letzte Jahresrechnung: Aktiven − Verbindlichkeiten < Hälfte des geschützten Kapitals (Reserven zusammen höchstens 50 %, Holding
+    20 %, des AK/PS; Key hwp_er_geschuetztes_kapital). Ohne Revisionsstelle eingeschränkte Revision durch zugelassenen Revisor (Abs. 2). Agent: rechnen, WP sofort informieren (gebotene
+    Eile, Abs. 4) und für den Bericht markieren. Bleibt der VR untätig, ist der Hinweis zwingend, ohne Wesentlichkeitsprüfung («sind in jedem Fall im Revisionsbericht anzubringen», SER
+    8.3.2.1, ser-2022__8-3-2-t1). Ob Untätigkeit vorliegt und wie der Hinweis lautet, bestimmt der WP. Nächster Aufruf: `kapitalverlust --aktienkapital … --eigenkapital … [--kapitalreserve
+    … --gewinnreserve … --holding --reserve-voll … --covid-kredit …]`, dann `aufgabe kapitalschutz`. GmbH: Art. 820 OR.'
   quelle: or__art-725a
   zitat: die Hälfte der Summe aus Aktienkapital, nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve nicht mehr decken
   status: agent-geprueft
@@ -24,6 +25,18 @@ werte:
   quelle: hwp-er-2026__rz-0372-s112
   zitat: Ist das bilanzielle Eigenkapital grösser oder gleich null, aber kleiner als die Bezugsgrösse des geschützten Eigenkapitals
   status: agent-geprueft
+- key: hwp_er_geschuetztes_kapital
+  bezeichnung: 'Kapitalverlust: geschütztes Kapital (Bezugsgrösse)'
+  wert: AK/PS + gesetzliche Kapitalreserve und gesetzliche Gewinnreserve im engeren Sinn (Art. 672 Abs. 1 OR) zusammen höchstens 50 % (Holding 20 %) des im HR eingetragenen AK/PS + voller
+    Betrag der Reserven für eigene Kapitalanteile im Konzern (Art. 659b Abs. 2) und der Aufwertungsreserve (Art. 725c Abs. 1)
+  einheit: Text
+  gilt: HWP ER, Ausgabe 2026
+  kategorie: kapitalschutz
+  bemerkung: 'HWP ER Rz 370. Schwelle = Hälfte davon, Vergleich mit dem bilanziellen Eigenkapital der letzten Jahresrechnung (Rz 371). Rechner: kapitalverlust --aktienkapital … --eigenkapital
+    … --kapitalreserve … --gewinnreserve … [--holding] [--reserve-voll …].'
+  quelle: hwp-er-2026__rz-0370-s112
+  zitat: im Betrag von zusammen maximal 50 % – resp. bei Holdinggesellschaften 20 % –
+  status: agent-geprueft
 - key: qa_kv_eigene_anteile
   bezeichnung: 'Kapitalverlust: Einfluss eigener Kapitalanteile'
   wert: geschütztes Eigenkapital bleibt unverändert
@@ -34,16 +47,32 @@ werte:
   quelle: qa-kapitalverlust-2023__1-1-t1
   zitat: Das geschützte Eigenkapital und damit die Bezugsgrösse nach Art. 725a OR resp. PS-CH 290 bleiben unverändert.
   status: agent-geprueft
-- key: qa_kv_covid_sbueg_bis
-  bezeichnung: 'Kapitalverlust/Überschuldung: Covid-19-Kredite nicht als Fremdkapital (SBüG) bis'
-  wert: 31.12.2032
+- key: covid_sbueg24_kein_fremdkapital
+  bezeichnung: 'Kapitalverlust/Überschuldung: Kredite nach Art. 3 Covid-19-SBüV nicht als Fremdkapital'
+  wert: nur Kredite nach Art. 3 Covid-19-SBüV (bis 31.12.2032)
   einheit: Text
-  gilt: Q&A EXPERTsuisse 06-2023
+  gilt: Covid-19-SBüG, Fassung Stand 31.03.2026; in Kraft 19.12.2020 bis 31.12.2032 (Art. 31 Abs. 2)
   kategorie: kapitalschutz
-  bemerkung: 'Q&A Frage 2 (qa-kapitalverlust-2023__1-1-t1): Covid-19-Kredite zählen für Art. 725a und 725b OR nicht als Fremdkapital; die Bestimmungen gelten auch unter dem revidierten
-    Recht.'
-  quelle: qa-kapitalverlust-2023__1-1-t2
-  zitat: Die diesbezüglichen Bestimmungen des Covid-19-SBüG gelten vom 19. Dezember 2020 bis zum 31. Dezember 2032 (Art. 31).
+  bemerkung: 'Art. 24 Abs. 1 Covid-19-SBüG für OR 725a Abs. 1 und 725b Abs. 1. Abs. 2: gilt sinngemäss für alle Rechtsformen mit Anzeigepflicht nach OR 725a/725b (z.B. GmbH). Kredite
+    nach Art. 4 Covid-19-SBüV (vgl. Art. 3 Abs. 1 Bst. b SBüG) nennt Art. 24 nicht. Im Rechner nur Kredite nach Art. 3 SBüV abziehen; bei Zweifeln Pendenz an den WP. Entfällt dadurch
+    der Kapitalverlust, entfällt auch die Prüfpflicht nach Art. 725a Abs. 2 OR (Q&A Frage 2, qa-kapitalverlust-2023__1-1-t1). Nächster Aufruf: kapitalverlust … --covid-kredit <Betrag>.'
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  status: agent-geprueft
+- key: covid_sbueg2_ausschuettungsverbot
+  bezeichnung: 'Covid-19-Kredit offen: Ausschüttungs- und Darlehensverbot'
+  wert: keine Dividenden, Tantiemen, Rückerstattung von Kapitaleinlagen; keine Darlehen an Gesellschafter oder Nahestehende und keine Rückzahlung ihrer Darlehen
+  einheit: Text
+  gilt: 'Covid-19-SBüG, Fassung Stand 31.03.2026; während der Solidarbürgschaft: höchstens 8 Jahre, bei verlängerter Amortisation (höchstens 10 Jahre) weiter (Art. 3); Gesetz gilt bis
+    31.12.2032 (Art. 31)'
+  kategorie: kapitalschutz
+  bemerkung: 'Art. 2 Abs. 2 Bst. a–b Covid-19-SBüG; Ausnahmen für vorbestehende Pflichten gegenüber Gruppengesellschaften stehen im Wortlaut. Ebenso verboten: Rückführung von Gruppendarlehen
+    mit Kreditmitteln, Übertragung an ausländische Gruppengesellschaften (Bst. c–d) und Umschuldung vorbestehender Kredite (Abs. 3). Prüfen beim Antrag über die Verwendung des Bilanzgewinns
+    (OR 729a Abs. 1 Ziff. 2). Stellt die Revisionsstelle eine Verletzung von Art. 2 Abs. 2–4 fest, setzt sie eine Frist, informiert dann die GV und danach die Bürgschaftsorganisation
+    (Art. 23 Abs. 1, gilt ausdrücklich auch bei der eingeschränkten Revision). Agent: nur Notiz «Wesentliche Feststellungen» und Meldung an den WP (regeln covid_ausschuettung; aufgabe
+    gvb-bericht).'
+  quelle: covid-sbueg__art-2-t1
+  zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen
   status: agent-geprueft
 - key: qa_kv_hfmv20_bis
   bezeichnung: 'Kapitalverlust/Überschuldung: Härtefall-Darlehen (HFMV 20) nicht als Fremdkapital bis'
@@ -51,7 +80,8 @@ werte:
   einheit: Text
   gilt: Q&A EXPERTsuisse 06-2023
   kategorie: kapitalschutz
-  bemerkung: 'Q&A Frage 2: Darlehen bzw. verbürgte/garantierte Kredite nach HFMV 20 zählen für Kapitalverlust und Überschuldung nicht als Fremdkapital.'
+  bemerkung: 'Q&A Frage 2: Darlehen bzw. verbürgte/garantierte Kredite nach HFMV 20 zählen für Kapitalverlust und Überschuldung nicht als Fremdkapital. HFMV 20 nicht als Volltext im
+    Wiki – nur Q&A (Sekundärquelle); Zweifel → WP.'
   quelle: qa-kapitalverlust-2023__1-1-t2
   zitat: Jene der HFMV 20 sind gültig bis 31. Dezember 2031
   status: agent-geprueft
@@ -62,9 +92,9 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
   bemerkung: 'Art. 725b Abs. 1–3 OR: VR erstellt unverzüglich Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten, lässt sie durch die Revisionsstelle prüfen und benachrichtigt
-    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1). Bleibt der VR untätig: Hinweis im Revisionsbericht ohne
-    Wesentlichkeitsprüfung («sind in jedem Fall im Revisionsbericht anzubringen», SER 8.3.2.1, ser-2022__8-3-2-t1) und zusätzlich Anzeigepflicht nach Art. 729c OR. Agent erfasst Pendenz/Entwurf;
-    ob ein Hinweis erfolgt, wie er lautet und ob eine Anzeige nach Art. 729c OR erfolgt, entscheidet ausschliesslich der WP.'
+    bei Überschuldung das Gericht (Ausnahmen Abs. 4: Rangrücktritt, Sanierung innert 90 Tagen). SER Kapitel 9 (ser-2022__9-t1). Agent: WP sofort informieren und markieren. Bleibt der
+    VR untätig: Hinweis zwingend (SER 8.3.2.1, ser-2022__8-3-2-t1) und zusätzlich Anzeigepflicht nach Art. 729c OR. Ob Untätigkeit vorliegt, wie der Hinweis lautet und ob angezeigt wird,
+    entscheidet der WP. Nächster Aufruf: `aufgabe kapitalschutz`.'
   quelle: or__art-725b-t1
   zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
   status: agent-geprueft
@@ -87,8 +117,9 @@ werte:
   einheit: Monate
   gilt: HWP ER, Ausgabe 2026
   kategorie: kapitalschutz
-  bemerkung: 'HWP ER Rz 421: Rangrücktritt nicht nur in Höhe des aktuellen Fremdkapitalüberhangs, sondern inkl. der in den nächsten 12 Monaten nach Unterzeichnung, mindestens bis zum
-    nächsten Prüfungszeitpunkt erwarteten Verluste.'
+  bemerkung: 'HWP ER Rz 421: Sind weitere Verluste absehbar, Rangrücktritt nicht bloss in Höhe des Fremdkapitalüberhangs bei Gewährung, sondern inkl. Polster für die in den nächsten
+    12 Monaten nach Unterzeichnung, mindestens bis zum nächsten Prüfungszeitpunkt erwarteten Verluste. Die Höhe hängt vom erwarteten Geschäftsgang ab und ist im Einzelfall zu beurteilen
+    – Beurteilung WP; Agent markiert nur.'
   quelle: hwp-er-2026__rz-0421-s125
   zitat: Es ist ein angemessenes Sicherheitspolster zur Deckung der in den nächsten 12 Monaten
   status: agent-geprueft
@@ -99,7 +130,8 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
   bemerkung: 'Art. 729c OR. SER 8.3.2.1: Hinweis auf die Untätigkeit des VR bei Überschuldung «sind in jedem Fall im Revisionsbericht anzubringen» (ser-2022__8-3-2-t1); die Anzeigepflicht
-    nach Art. 729c OR kommt zusätzlich hinzu. Agent erfasst Pendenz/Entwurf; ob ein Hinweis erfolgt, wie er lautet und ob eine Anzeige erfolgt, entscheidet ausschliesslich der WP.'
+    nach Art. 729c OR kommt zusätzlich hinzu. Agent: nur markieren und WP sofort informieren. Ob offensichtliche Überschuldung und Untätigkeit vorliegen und ob angezeigt wird, entscheidet
+    der WP; die Anzeige an das Gericht ist Sache des WP.'
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
   status: agent-geprueft
@@ -120,9 +152,9 @@ werte:
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2). Rollen: Agent
-    führt nur einen Entwurf/eine Pendenz; Bestätigung und Unterzeichnung durch den WP; kein Kundenversand, keine Buchungen durch den Agenten (Dienstbenutzer «ohne Recht für Visum, Abschlussstatus,
-    Freigabe und Kundenversand», konzept-ki-revisionsagent-2026__c009-3; «Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung (Pflichtenheft).», konzept-ki-revisionsagent-2026__c015-1).'
+  bemerkung: 'Art. 725c OR: Aufwertungsreserve gesondert unter der gesetzlichen Gewinnreserve; zulässig nur mit schriftlicher Bestätigung der Revisionsstelle (Abs. 2). Agent: nur Pendenz/Entwurf
+    und Rechnung (`kapitalverlust … --buchwert … --verkehrswert …`). Schriftliche Bestätigung und Unterzeichnung nur durch den WP, Buchung nur als Notiz (`regeln grenze`). Auflösung
+    der Aufwertungsreserve nur nach Abs. 3.'
   quelle: or__art-725c
   zitat: deren wirklicher Wert über die Anschaffungs- oder Herstellungskosten gestiegen ist, bis höchstens zu diesem Wert aufgewertet werden
   status: agent-geprueft
@@ -132,8 +164,8 @@ werte:
   einheit: '%'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: Art. 659 Abs. 2 OR; Erwerb nur mit frei verwendbarem Eigenkapital in Höhe des Anschaffungswerts (Abs. 1). Überschreiten kann einen Hinweis im Bericht auslösen (SER 8.3.2,
-    ser-2022__8-3-2-t2).
+  bemerkung: 'Art. 659 Abs. 2 OR; Erwerb nur mit frei verwendbarem Eigenkapital in Höhe des Anschaffungswerts (Abs. 1). Überschreiten kann einen Hinweis im Bericht auslösen (SER 8.3.2,
+    ser-2022__8-3-2-t2). Steuerfolge: VSt nach Art. 4a VStG (Key vstg4a_eigene_aktien_6_jahre) – Steuerrisiko an den WP.'
   quelle: or__art-659
   zitat: Der Erwerb eigener Aktien ist auf 10 Prozent des im Handelsregister eingetragenen Aktienkapitals beschränkt.
   status: agent-geprueft
@@ -143,14 +175,15 @@ werte:
   einheit: '% / Jahre'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
-  bemerkung: 'Art. 659 Abs. 3 OR: über 10 % hinaus erworbene Aktien innert zweier Jahre veräussern oder durch Kapitalherabsetzung vernichten.'
+  bemerkung: 'Art. 659 Abs. 3 OR: über 10 % hinaus erworbene Aktien innert zweier Jahre veräussern oder durch Kapitalherabsetzung vernichten. Steuerfolge: VSt nach Art. 4a VStG (Key
+    vstg4a_eigene_aktien_6_jahre) – Steuerrisiko an den WP.'
   quelle: or__art-659
   zitat: so beträgt die Höchstgrenze 20 Prozent. Die über 10 Prozent hinaus erworbenen Aktien sind innert zweier Jahre zu veräussern
   status: agent-geprueft
 - key: or653s_kapitalband_bandbreite
   bezeichnung: 'Kapitalband: Bandbreite'
-  wert: '0.5'
-  einheit: Anteil
+  wert: ±50
+  einheit: '% des im Handelsregister eingetragenen Aktienkapitals'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: kapitalschutz
   bemerkung: 'Art. 653s Abs. 2 OR: untere Grenze höchstens um die Hälfte unterschreiten. Ermächtigung zur Herabsetzung nur ohne Opting-out (Abs. 4). Anhangangabe Art. 959c Abs. 2 Ziff.

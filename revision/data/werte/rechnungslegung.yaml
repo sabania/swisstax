@@ -154,12 +154,13 @@ werte:
   zitat: Solche Wertberichtigungen sind jedoch nicht zulässig, wenn dadurch sowohl der Anschaffungswert als auch der allenfalls tiefere Kurswert unterschritten würden.
   status: agent-geprueft
 - key: or960c_vorraete_niederstwert
-  bezeichnung: 'Vorräte: Niederstwertprinzip'
+  bezeichnung: 'Vorräte und nicht fakturierte Dienstleistungen: Niederstwertprinzip'
   wert: tieferer Veräusserungswert abzüglich noch anfallender Kosten
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: rechnungslegung
-  bemerkung: 'Art. 960c Abs. 1 OR: Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag.'
+  bemerkung: 'Art. 960c Abs. 1 OR: Veräusserungswert unter Berücksichtigung noch anfallender Kosten am Bilanzstichtag. Gilt auch für nicht fakturierte Dienstleistungen. Vorräte = Rohmaterial,
+    Erzeugnisse in Arbeit, fertige Erzeugnisse, Handelswaren (Abs. 2).'
   quelle: or__art-960c
   zitat: unter den Anschaffungs- oder Herstellungskosten, so muss dieser Wert eingesetzt werden
   status: agent-geprueft
@@ -184,6 +185,19 @@ werte:
     und nicht bei eingeschränkter Revision.'
   quelle: or__art-961
   zitat: Unternehmen, die von Gesetzes wegen zu einer ordentlichen Revision verpflichtet sind, müssen
+  status: agent-geprueft
+- key: or962_standard_minderheit_20
+  bezeichnung: 'Abschluss nach anerkanntem Standard: Verlangen der Minderheit'
+  wert: '20'
+  einheit: '% des Grundkapitals'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: rechnungslegung
+  bemerkung: 'Art. 962 Abs. 2 OR: Gesellschafter mit mindestens 20 % des Grundkapitals; Genossenschaft 10 % der Genossenschafter, Verein 20 % der Mitglieder; ebenso Gesellschafter mit
+    persönlicher Haftung oder Nachschusspflicht. Der Abschluss ist zusätzlich zur Jahresrechnung zu erstellen (Abs. 1). Die Prüfung erfolgt durch einen zugelassenen Revisionsexperten
+    als ordentliche Revision (Art. 962a Abs. 3 OR, HWP ER Rz 381) und liegt ausserhalb der eingeschränkten Revision; Agent markiert für den WP. Die Pflicht entfällt bei einer Konzernrechnung
+    nach anerkanntem Standard (Abs. 3).'
+  quelle: or__art-962
+  zitat: Gesellschafter, die mindestens 20 Prozent des Grundkapitals vertreten
   status: agent-geprueft
 - key: or963a_konzern_befreiung
   bezeichnung: 'Konzernrechnung: Befreiung nach Grösse'

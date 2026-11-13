@@ -10,9 +10,10 @@ erfasst:
     befunde: 17
     korrigiert: true
 ziel: 'Planung vorbereiten, damit der WP in revio 2.x/3.x rasch entscheidet: Revisionspflicht, Unabhängigkeit (Mitwirkung), Verständnis, Abschlussanalyse, Fortführung und Kapital aufbereiten;
-  Vorschläge zu Risiko, Wesentlichkeit, Plan und Programm nur auf Anweisung. Vor Prozess 2 prüfen, ob 3.1, 3.3, 3.5 erfasst sind. Nichts festlegen, nichts visieren.'
+  Vorschläge zu Risiko, Wesentlichkeit, Plan und Programm nur auf Anweisung. Vor Prozess 2 das Tor prüfen (Importkontrolle, 3.3 erfasst; 3.1/3.5 gelesen oder Pendenz). Nichts festlegen,
+  nichts visieren.'
 wann: Nach Wahl bzw. Auftragsbestätigung und nach dem Import der Jahresrechnung (Prozess 1, revio 1.1); in der Testphase erst nach der Importkontrolle durch den WP. Endet mit dem Tor
-  vor Prozess 2 (3.1, 3.3 und 3.5 durch den WP erfasst). Bei neuen Erkenntnissen während der Prüfung laufend nachführen.
+  vor Prozess 2 (Importkontrolle erfolgt, 3.3 gelesen; 3.1/3.5 gelesen oder als Pendenz gemeldet). Bei neuen Erkenntnissen während der Prüfung laufend nachführen.
 gesetz:
 - thema: Umfang der eingeschränkten Revision (Rahmen für Plan und Programm)
   quelle: or__art-729a
@@ -74,10 +75,9 @@ gesetz:
   zitat: Der Geschäftsbericht muss innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt
 schritte:
 - was: 'Planungsgrundlagen sichern. Mandatskontext fixieren und prüfen (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag); bei Abweichung abbrechen und Pendenz erfassen. Bestätigen,
-    dass Wahl, Annahmeerklärung und unterzeichnete Auftragsbestätigung vorliegen. Revisionspflicht nach Art. 727 OR vollständig prüfen: Ziff. 1 Publikumsgesellschaft, Ziff. 2 Schwellenwerte
-    in zwei aufeinander folgenden Jahren (Rechner `revisionspflicht`; Vollzeitstellen beim Kunden erfragen), Ziff. 3 Konzernrechnungspflicht, Abs. 2 Begehren von Aktionären mit mindestens
-    10 % (GmbH: Art. 818 OR, auch Gesellschafter mit Nachschusspflicht). Ferner: gesetzliche Pflicht zu einem anerkannten Standard (Art. 962 OR) führt zur ordentlichen Revision. Trifft
-    ein Kriterium zu: Pendenz an den WP (Neudefinition des Auftrags).'
+    dass Wahl, Annahmeerklärung und unterzeichnete Auftragsbestätigung vorliegen. Revisionsart nach dem Import mit den definitiven Zahlen GJ/VJ erneut abgleichen – Kriterien und Quoren
+    je Rechtsform wie `prozess p1`, Schritt Revisionsart; Aufruf `revisionspflicht --bilanzsumme <CHF> --umsatz <CHF> --vollzeitstellen <n> --vj-bilanzsumme <CHF> --vj-umsatz <CHF> --vj-vollzeitstellen
+    <n>`. Trifft ein Kriterium zu: Pendenz an den WP (Neudefinition des Auftrags).'
   wer: Agent bereitet vor, WP entscheidet
   revio: revio_open_dossier (Mandatskontext); 2.2 Auftragsannahme und Weiterführung (nur lesen); 1.1 Jahresrechnung (Bilanzsumme und Umsatz GJ und VJ)
   mfiles: Auftragsbestätigung (unterzeichnet), Annahmeerklärung, GV-Protokoll zur Wahl der Revisionsstelle, Handelsregisterauszug, Vorjahresrechnung (Werte VJ)
@@ -99,8 +99,8 @@ schritte:
     zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden, so muss der Auftrag neu definiert werden.
 - was: 'Unabhängigkeit und Mitwirkung bei der Buchführung vorbereiten. Feststellen, ob das Revisionsunternehmen (consis) beim Kunden bei der Buchführung mitwirkt oder andere Dienstleistungen
     mit Selbstprüfungsrisiko erbringt und welche Personen daran beteiligt sind. Mit dem Auftragsteam (3.6) abgleichen: Wer bei der Buchführung mitwirkt, darf nicht an der Revision beteiligt
-    sein. Bei Mitwirkung vormerken: Auftragsbestätigung nach SER Anhang C Beispiel 2 und Offenlegung im Revisionsbericht. Ergebnis als Pendenz an den WP; die Beurteilung der Unabhängigkeit
-    und ihre Dokumentation (2.4) liegen beim WP.'
+    sein. Bei Mitwirkung (auch bei Steuer-, Abgabe- oder SV-Dienstleistungen mit Ermessen) vormerken: Auftragsbestätigung nach SER Anhang C Beispiel 2 und Offenlegung im Revisionsbericht.
+    Ergebnis als Pendenz an den WP; die Beurteilung der Unabhängigkeit und ihre Dokumentation (2.4) liegen beim WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 2.4 Auftragsvoraussetzungen und Unabhängigkeit (nur lesen; Leserecht offen, Entscheid consis); 3.6 Auftragsteam (rv_get_clientsManagement_LoadTeamMembersForAnnualFile_by_annualFileId
     lesen); Notiz «Pendenz»
@@ -111,6 +111,8 @@ schritte:
   - quelle: ser-2022__1-3-1
     zitat: Die Person oder Personengruppe, die bei der Buchführung oder anderen Dienstleistungen, bei denen die Gefahr der Selbstprüfung besteht, mitwirkt, darf nicht an der Revision
       beteiligt sein.
+  - quelle: rab-unabhaengigkeit__c004-5
+    zitat: Dienstleistungen im Steuer-, Abgabe- und Sozialversicherungsrecht, zumindest wenn dies über die reine Deklaration ohne Ermessensausübung hinausgeht
   - quelle: ser-2022__anh-c-s059-1
     zitat: Feststellung, dass die Mitwirkung bei der Buchführung personell und organisatorisch getrennt von der Prüfung erfolgt
   - quelle: hwp-er-2026__rz-0047-s160
@@ -137,12 +139,14 @@ schritte:
     zitat: der Wortlaut des Revisionsberichts der Vorperiode
 - was: 'Verständnis von Unternehmen und Umfeld aktualisieren. Zu klären sind: Organisation, Geschäftsmodell, Rechnungswesen, Standorte, Eigentümer und nahestehende Personen, die Arten
     von Vermögenswerten, Verbindlichkeiten, Erträgen und Aufwendungen sowie der anzuwendende Rechnungslegungsrahmen (OR; allenfalls zusätzlich Kern-FER mit negativer Zusicherung; gesetzliche
-    Pflicht zu einem anerkannten Standard → ordentliche Revision, siehe Schritt 1). Dazu VR- und GV-Protokolle, Vorjahres- und Zwischenabschlüsse sowie Website und Presse durchsehen.
-    Änderungen gegenüber dem Vorjahr und offene Fragen zusammenstellen und den Fragebogen 10.11 als Entwurf vorbereiten; Versand an den Kunden, mündliche Befragung und Betriebsbesichtigung
-    nur durch den Menschen. Die Dauerakten auf Aktualität prüfen.'
+    Pflicht zu einem anerkannten Standard → ordentliche Revision, siehe Schritt «Planungsgrundlagen sichern»). Dazu VR- und GV-Protokolle, Vorjahres- und Zwischenabschlüsse sowie Website
+    und Presse durchsehen. Änderungen gegenüber dem Vorjahr und offene Fragen zusammenstellen. Jede Frage als Notiz «Pendenz» mit Titel «Frage an Kunde» erfassen (Wortlaut, Bezug Prüffeld/Schritt).
+    Vorhandene Antworten in 10.11 nur lesen (rv_get_workpapers_LoadLocalQuestionnaire, nur verwerten bei userSubmitted=true). Fragebogen 10.11 anpassen, veröffentlichen oder versenden
+    nur der Mensch (rv_post_workpapers_StoreQuestionnaire nie). Mündliche Befragung und Betriebsbesichtigung nur durch den Menschen. Die Dauerakten auf Aktualität prüfen.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 2.1 Tätigkeit und Umfeld (nur lesen, Eintrag durch WP; Leserecht offen, Entscheid consis); Prüfschritt A1-304; 10.9 Protokolle; 10.11 Kundenbefragung (rv_get_workpapers_LoadLocalQuestionnaire,
-    Vorlagen rv_get_workpapers_LoadQuestionnaireTemplates nur lesen)
+  revio: 2.1 Tätigkeit und Umfeld (nur lesen, Eintrag durch WP; Leserecht offen, Entscheid consis); Prüfschritt A1-304; 10.9 Protokolle; 10.11 Kundenbefragung nur lesen (rv_get_workpapers_LoadLocalQuestionnaire,
+    Vorlagen rv_get_workpapers_LoadQuestionnaireTemplates; rv_post_workpapers_StoreQuestionnaire nie, nur Mensch); Fragen als Notiz «Pendenz» «Frage an Kunde» (rv_put_workpapers_UpdateNote,
+    mit Freigabe)
   mfiles: VR- und GV-Protokolle, Zwischenabschlüsse, Statuten, Handelsregisterauszug, wichtige Verträge (Dauerakten)
   fundstellen:
   - quelle: ser-2022__3-1
@@ -179,12 +183,15 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c009-2
     zitat: 'Rechenmodul: Bilanzgleichheit, Totale, Vorjahresdifferenzen, OP-Altersstruktur, Delkredere und Kennzahlen laufen in Code, nicht im Sprachmodell.'
 - was: 'Hinweise zu Fortführung und Kapital früh erkennen. Kapitalverlust (Art. 725a OR) und Überschuldung (Art. 725b OR) mit dem Rechner `kapitalverlust` nachrechnen; Rangrücktritte
-    gesondert zeigen. Liquidität und Ereignisse nach SER Anhang G sichten. Den Befund mit Zahlen als Notiz «Pendenz» an den WP melden (Planungshinweis für 3.4; wirkt auf qualitative
-    Wesentlichkeit und Gesamtrisiko). Bei Hinweisen auf eine offensichtliche Überschuldung sofort melden: Die Erinnerung des VR an seine Pflichten und eine allfällige Anzeige ans Gericht
-    (Art. 729c OR) beurteilt der WP.'
+    gesondert zeigen. Covid-19-Kredite (verbürgt nach Art. 3 Covid-19-SBüV) gesondert zeigen und im Rechner mit `--covid-kredit <CHF>` erfassen (zählen für Art. 725a/725b OR nicht als
+    Fremdkapital; Amortisation innert acht, höchstens zehn Jahren; Gesetz gilt bis 31.12.2032). Während der Solidarbürgschaft sind Dividenden, Tantiemen, Rückerstattung von Kapitaleinlagen
+    sowie Darlehen an bzw. Rückzahlung von Darlehen von Gesellschaftern oder Nahestehenden ausgeschlossen → Hinweise auf Verstösse als Pendenz an den WP (Fristansetzung und Information
+    von GV bzw. Bürgschaftsorganisation nach Art. 23 Covid-19-SBüG nur WP). Details: `thema kapitalverlust-ueberschuldung`, `prozess p6`. Liquidität und Ereignisse nach SER Anhang G
+    sichten. Den Befund mit Zahlen als Notiz «Pendenz» an den WP melden (Planungshinweis für 3.4; wirkt auf qualitative Wesentlichkeit und Gesamtrisiko). Bei Hinweisen auf eine offensichtliche
+    Überschuldung sofort melden: Die Erinnerung des VR an seine Pflichten und eine allfällige Anzeige ans Gericht (Art. 729c OR) beurteilt der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 3.4 Going concern (nur lesen; Leserecht offen, Entscheid consis); 1.1 Jahresrechnung; Prüfschritt A1-205; Notiz «Pendenz»
-  mfiles: Liquiditätsplanung oder Budget, Rangrücktrittsvereinbarungen, Finanzierungsverträge, Zwischenabschlüsse
+  mfiles: Liquiditätsplanung oder Budget, Rangrücktrittsvereinbarungen, Finanzierungsverträge, Zwischenabschlüsse, Covid-19-Kreditvertrag und Amortisationsplan
   fundstellen:
   - quelle: ser-2022__3-3
     zitat: Gewisse Risiken, z. B. die Fortführungsfähigkeit (Anhang G), beziehen sich nicht auf einzelne Bilanzpositionen
@@ -194,6 +201,20 @@ schritte:
     zitat: das Fehlen eines ausreichenden Betriebskapitals für die Fortführung der Geschäftstätigkeit
   - quelle: or__art-725b-t1
     zitat: Besteht begründete Besorgnis, dass die Verbindlichkeiten der Gesellschaft nicht mehr durch die Aktiven gedeckt sind
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt.
+  - quelle: covid-sbueg__art-3
+    zitat: Die Kredite nach der Covid-19-SBüV sind innerhalb von acht Jahren vollständig zu amortisieren.
+  - quelle: covid-sbueg__art-3
+    zitat: jedoch höchstens auf zehn Jahre verlängern
+  - quelle: covid-sbueg__art-31
+    zitat: gilt bis zum 31. Dezember 2032
+  - quelle: covid-sbueg__art-2-t1
+    zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen;
+  - quelle: covid-sbueg__art-2-t1
+    zitat: die Gewährung von Darlehen oder die Rückzahlung von Darlehen von Gesellschafterinnen und Gesellschaftern oder von nahestehenden Personen
+  - quelle: covid-sbueg__art-23
+    zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
   - quelle: ser-2022__9-t3
     zitat: muss sie den Verwaltungsrat an seine Pflichten
   - quelle: ser-2022__9-t3
@@ -228,13 +249,13 @@ schritte:
     zitat: mangelnde Funktionentrennung oder eine mit ungeeigneten Mitteln geführte Buchhaltung das Risiko wesentlicher Fehlaussagen erhöhen
   - quelle: ser-2022__3-3
     zitat: Einem erhöhten inhärenten Risiko ist mit weiter gehenden Prüfungshandlungen Rechnung zu tragen.
-- was: 'Nur auf Anweisung des WP (Praxis/intern; im Konzept und Flussdiagramm liest der Agent 3.3 nur): Wesentlichkeitsvorschlag vorbereiten (Rechner `wesentlichkeit`). Bezugsgrösse
-    nach dem Unternehmensmerkmal wählen und den Richtwert nach HWP ER Abb. 20 zeigen: profitabel mit stabilen Umsätzen und Ergebnissen → 3–10 % des Jahresgewinns vor Steuern nach Berücksichtigung
-    stiller Reserven; Verlustsituation → 3–5 % des Eigenkapitals; anlageintensiv (z. B. Holding), auch mit Verlusten in Vorperioden → 1–3 % der Bilanzsumme; volatile Ergebnisse → 1–3
-    % der Umsätze; nicht gewinnorientiert → 1–3 % der Gesamtaufwendungen; Start-up → 2–5 % der operativen Aufwendungen. Qualitative Faktoren nennen, die eher eine tiefere Wesentlichkeit
-    verlangen: drohende Illiquidität oder Überschuldung, kleiner Fehler kippt Gewinn in Verlust, Aktionärsbindungsvertrag, Finanzierungsvereinbarungen, geplante Ausschüttung. Faktoren
-    für das obere Ende nennen: wenige, langfristig orientierte Eigentümer, geringe Fremdverschuldung, stabile Erträge. Wo nötig spezifische Wesentlichkeiten, TW und NAG vorschlagen.
-    Nach der Festlegung durch den WP: 3.3 nur lesen und prüfen, ob Bezugsgrösse, Prozentsatz und Begründung zusammenpassen; ein Widerspruch wird als Pendenz erfasst.'
+- was: 'Nur auf Anweisung des WP (Praxis/intern; im Konzept und Flussdiagramm liest der Agent 3.3 nur): Wesentlichkeitsvorschlag vorbereiten (Rechner `wesentlichkeit <Bezugsgrösse CHF>
+    <Satz %>`). Bezugsgrösse nach dem Unternehmensmerkmal wählen und den Richtwert nach HWP ER Abb. 20 zeigen: profitabel mit stabilen Umsätzen und Ergebnissen → 3–10 % des Jahresgewinns
+    vor Steuern nach Berücksichtigung stiller Reserven; Verlustsituation → 3–5 % des Eigenkapitals; anlageintensiv (z. B. Holding), auch mit Verlusten in Vorperioden → 1–3 % der Bilanzsumme;
+    volatile Ergebnisse → 1–3 % der Umsätze; nicht gewinnorientiert → 1–3 % der Gesamtaufwendungen; Start-up → 2–5 % der operativen Aufwendungen. Qualitative Faktoren nennen, die eher
+    eine tiefere Wesentlichkeit verlangen: drohende Illiquidität oder Überschuldung, kleiner Fehler kippt Gewinn in Verlust, Aktionärsbindungsvertrag, Finanzierungsvereinbarungen, geplante
+    Ausschüttung. Faktoren für das obere Ende nennen: wenige, langfristig orientierte Eigentümer, geringe Fremdverschuldung, stabile Erträge. Wo nötig spezifische Wesentlichkeiten, TW
+    und NAG vorschlagen. Nach der Festlegung durch den WP: 3.3 nur lesen und prüfen, ob Bezugsgrösse, Prozentsatz und Begründung zusammenpassen; ein Widerspruch wird als Pendenz erfasst.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 3.3 Wesentlichkeit (rv_get_workpapers_LoadMateriality, rv_get_workpapers_LoadMaterialityOfDossier lesen; rv_put_workpapers_UpdateMateriality und rv_post_workpapers_SetMaterialitySealState
     nur WP); 10.3 Stille Reserven
@@ -309,8 +330,7 @@ schritte:
     Risiko und Wesentlichkeit passen (Typ 1xx Befragung, 2xx Analytik, 3xx Detailprüfung, 4xx Sonstige; Prüfziele; EP/WP): empfohlene Handlungen für wesentliche Positionen, weitergehende
     bei erhöhtem Risiko, wirksame und effiziente Nachweise (z. B. Depotauszug). 4xx-Schritte (Bestätigungen, Inventur, Gutachten) nur auf Anweisung, physische Tätigkeiten nie. Stützt
     sich die Jahresrechnung auf Arbeiten Dritter oder Experten (z. B. Gutachten), dies dem WP melden; er beurteilt deren Eignung. Jede Auswahl begründen. Welche Schritte im Umfang sind
-    und wie WP-Schritte behandelt werden, entscheidet der WP; er nimmt auch die summarische Schlussbeurteilung des Programms vor. Verknüpft sind die Prüffelder mit direktem Planungsbezug
-    (A1 Allgemeines, P1 Eigenkapital/Kapitalverlust, S1 Steuern, T1 Anhang) und die Beispiele dieses Eintrags (C1, G1, H1, M2, M3, O1).'
+    und wie WP-Schritte behandelt werden, entscheidet der WP; er nimmt auch die summarische Schlussbeurteilung des Programms vor.'
   wer: Agent bereitet vor, WP entscheidet
   revio: Bereich 4 Prüffelder A1–T1 (rv_get_auditActivities_LoadAuditActivities_by_containerId_by_templateId, rv_get_auditProcedureCatalog_LoadAuditProcedureCatalog_by_containerDefinitionId,
     rv_get_workpapers_LoadAuditPlanningCatalog lesen)
@@ -356,11 +376,12 @@ schritte:
   - quelle: ser-2022__4-4
     zitat: Bei der Zuteilung der Arbeiten auf die einzelnen Teammitglieder wird auf deren Erfahrung und spezifische Kenntnisse geachtet.
 - was: PBC-Liste vorbereiten. Aus Prüfprogramm (bzw. Vorgabe des WP) und Vorjahr ableiten, welche Unterlagen und Dateien nötig sind; die PBC-Vorlagen in revio nur lesen. In M-Files prüfen,
-    was bereits vorliegt (Metadaten Kunde, Geschäftsjahr, Klasse). Fehlende Unterlagen als Vorschlag in 10.10 erfassen, mit Bezug auf Prüffeld bzw. Schritt und mit Termin. Bei einer
-    Erstprüfung zusätzlich Grundbuchauszüge und Verträge aufnehmen. Versand und Anforderung beim Kunden übernimmt nur der Mensch.
+    was bereits vorliegt (Metadaten Kunde, Geschäftsjahr, Klasse). Fehlende Unterlagen als Pendenz-Notiz «PBC-Vorschlag» erfassen (nicht im PBC-Arbeitsbereich), mit Bezug auf Prüffeld
+    bzw. Schritt und mit Termin. Bei einer Erstprüfung zusätzlich Grundbuchauszüge und Verträge aufnehmen. Versand und Anforderung beim Kunden übernimmt nur der Mensch.
   wer: Agent bereitet vor, WP entscheidet
-  revio: 10.10 PBC-Liste (rv_get_workpapers_LoadLocalPbcWorkspace und rv_get_workpapers_LoadPbcTemplates lesen; rv_post_workpapers_StorePbcWorkspace nur nach Freigabe; rv_post_workpapers_SendPbcInviteMail
-    nie durch den Agenten); Dokumenteneingang (rv_get_workpapers_LoadInboxDocuments)
+  revio: '10.10 PBC-Liste nur lesen (rv_get_workpapers_LoadLocalPbcWorkspace, rv_get_workpapers_LoadPbcTemplates). Vorschläge als Notiz «Pendenz» mit Titel-Präfix «PBC-Vorschlag» (Unterlage,
+    Prüffeld/Schritt-Id, Begründung, Termin) über rv_put_workpapers_UpdateNote (mit Freigabe, isClosed nie setzen). NIE rv_post_workpapers_StorePbcWorkspace und rv_post_workpapers_SendPbcInviteMail
+    (nur Mensch). Dokumenteneingang: rv_get_workpapers_LoadInboxDocuments.'
   mfiles: 'Suche über Metadaten (Kunde, Geschäftsjahr, Klasse): Bilanz/ER Definitiv, OP-Listen, Anlagenbuchhaltung, Protokolle'
   fundstellen:
   - quelle: hwp-er-2026__rz-0008-s179
@@ -371,12 +392,14 @@ schritte:
     zitat: fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10)
   - quelle: konzept-ki-revisionsagent-2026__c011-2
     zitat: Status bleibt offen; Anforderung beim Kunden durch den Menschen
+  - quelle: konzept-ki-revisionsagent-2026__c009-3
+    zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
 - was: 'Planung dokumentieren und an den WP übergeben. Die Planungsnotiz enthält: Prüfung der Revisionspflicht mit Zahlen GJ und VJ, Überlegungen zur Unabhängigkeit und Mitwirkung, Verständnis
     vom Unternehmen, Ergebnisse der Analytik, Befund zu Fortführung und Kapital sowie – falls angewiesen – Entwürfe zu Risiko, Wesentlichkeit, Prüfungsplan und Prüfprogramm, jeweils
     mit Quellen (M-Files-ID und Version). Offene Punkte als Notiz «Pendenz» erfassen, Themen für den Kunden als «Schlussbesprechung». Alles wird im Agenten-Protokoll festgehalten. Kein
     Visum, kein Abschluss.'
   wer: Agent
-  revio: Notizen-Übersicht (Pendenz, Schlussbesprechung; rv_put_workpapers_UpdateNote, Kandidat); Visum bleibt beim WP
+  revio: Notizen-Übersicht (Pendenz, Schlussbesprechung; rv_put_workpapers_UpdateNote, vorbereiten mit Freigabe; isClosed nie setzen); Visum bleibt beim WP
   mfiles: Agenten-Protokoll pro Mandat und Jahr
   fundstellen:
   - quelle: ser-2022__7-2
@@ -391,8 +414,10 @@ schritte:
     zitat: Jede Aktion, Quelle, Berechnung und jeder Fehler mit Zeitstempel, abgelegt pro Mandat und Jahr in M-Files.
   - quelle: konzept-ki-revisionsagent-2026__c008-1
     zitat: alles bleibt beim Menschen
-- was: 'Tor vor Prozess 2. Prüfen, ob die Importkontrolle durch den WP erfolgt ist (Testphase) und ob der WP 3.1 Risikobeurteilung, 3.3 Wesentlichkeit (erfasst, gegebenenfalls versiegelt)
-    und 3.5 Strategische Planung erfasst hat. Fehlt etwas oder fehlt das Leserecht: Pendenz an den WP und Prozess 2 nicht beginnen. Ergebnis im Agenten-Protokoll festhalten.'
+- was: 'Tor vor Prozess 2. (1) Testphase: Hat der WP die Importkontrolle gemacht? Sonst Halt und Pendenz. (2) 3.3 lesen (rv_get_workpapers_LoadMaterialityOfDossier). Ist keine Wesentlichkeit
+    erfasst: Pendenz und Prozess 2 nicht beginnen, weil die Toleranzwesentlichkeit Umfang und Stichprobe steuert. Ist 3.3 nicht versiegelt (isSealed=false): weiterarbeiten und betroffene
+    Schritte im Rapport kennzeichnen. (3) 3.1/3.5 lesen, soweit ein Leserecht besteht. Fehlen Leserecht oder Eintrag: Pendenz, keine Annahme zu Risiko oder Strategie, nur die vom WP
+    markierten bzw. angewiesenen Prüfschritte bearbeiten (wie `prozess p8`). Ergebnis im Agenten-Protokoll.'
   wer: Agent
   revio: 3.1 (rv_get_workpapers_LoadRiskAssessments), 3.3 (rv_get_workpapers_LoadMaterialityOfDossier), 3.5 (rv_get_workpapers_LoadStrategicalPlanning) nur lesen; Notiz «Pendenz»
   mfiles: Agenten-Protokoll pro Mandat und Jahr
@@ -405,6 +430,8 @@ schritte:
     zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: Der Agent liest die Wesentlichkeit aus 3.3 und ändert sie nie
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
   - quelle: flussdiagramm-revisionsagent-2026__s001-2
     zitat: Wesentlichkeit aus 3.3 lesen
   - quelle: konzept-ki-revisionsagent-2026__c017-1
@@ -422,7 +449,8 @@ schritte:
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: Betroffene Prüfschritte werden neu beurteilt und im Rapport gekennzeichnet.
 entscheidungen_wp:
-- text: Revisionspflicht nach Art. 727 OR (Ziff. 1–3, Abs. 2; GmbH Art. 818 OR) beurteilen; sind die Kriterien erfüllt, eingeschränkte Revision ablehnen bzw. Auftrag neu definieren.
+- text: Revisionspflicht nach Art. 727 OR (alle Kriterien und Quoren je Rechtsform wie p1, inkl. Art. 962a Abs. 3 OR) beurteilen; sind die Kriterien erfüllt, eingeschränkte Revision
+    ablehnen bzw. Auftrag neu definieren.
   quelle: ser-2022__anh-c-s057-1
   zitat: Sollten die Kriterien gemäss Art. 727 OR für eine ordentliche Revision erreicht werden, so muss der Auftrag neu definiert werden.
 - text: Unabhängigkeit beurteilen und über Annahme bzw. Weiterführung des Mandats entscheiden (Dokumentation in 2.4).
@@ -462,6 +490,12 @@ entscheidungen_wp:
 - text: 'Offensichtliche Überschuldung: VR an seine Pflichten erinnern und, wenn der VR die Anzeige unterlässt, das Gericht benachrichtigen.'
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- text: 'Covid-19-Kredit: bei Verstoss gegen Art. 2 Abs. 2–4 Covid-19-SBüG Frist ansetzen, danach GV und gegebenenfalls Bürgschaftsorganisation informieren.'
+  quelle: covid-sbueg__art-23
+  zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
+  weitere_fundstellen:
+  - quelle: covid-sbueg__art-23
+    zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
 - text: 'Erstprüfung bzw. Opting-out im Vorjahr oder Zweifel am Vorprüfer: Umfang der Prüfung der Vorjahreswerte (Befragungen und Analytik zu wesentlichen Vorjahreswerten) und Anmerkung
     im Bericht.'
   quelle: ser-2022__6-2-7
@@ -619,9 +653,12 @@ fallstricke:
     nur auf Anweisung des WP.
   quelle: konzept-ki-revisionsagent-2026__c006-1
   zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10). Alle anderen Bereiche liest er höchstens
-- text: 'Prozess 2 nicht beginnen, solange 3.1, 3.3 und 3.5 nicht erfasst sind oder in der Testphase die Importkontrolle aussteht: Eine falsche Kontenzuordnung verfälscht alle Folgeprüfungen.'
+- text: Prozess 2 nicht beginnen, solange in der Testphase die Importkontrolle aussteht oder 3.3 nicht erfasst ist. Fehlen 3.1/3.5 → Pendenz statt Annahme.
   quelle: konzept-ki-revisionsagent-2026__c009-3
   zitat: In der Testphase ein Halt nach dem Import, weil eine falsche Kontenzuordnung alle Folgeprüfungen verfälscht.
+  weitere_fundstellen:
+  - quelle: konzept-ki-revisionsagent-2026__c014-1
+    zitat: 'Toleranzwesentlichkeit (75 %): steuert Prüfumfang und Stichprobe.'
 - text: Keine PBC-Einladung, kein Fragebogen und keine E-Mail an den Kunden; Mails gehen nur als Entwurf oder an die freigegebene WP-Adresse.
   quelle: konzept-ki-revisionsagent-2026__c009-2
   zitat: 'E-Mail: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden.'
@@ -654,8 +691,9 @@ fragen_kunde:
   zweck: Stetigkeit; Prüfschritt A1-101; Vergleichbarkeit mit dem Vorjahr
 - frage: Wurden stille Reserven gebildet oder aufgelöst (Betrag, Positionen)?
   zweck: Bereinigten Gewinn vor Steuern als Bezugsgrösse der Wesentlichkeit bestimmen
-- frage: Gibt es eine Liquiditätsplanung für mindestens zwölf Monate? Bestehen Rangrücktritte, Finanzierungsauflagen, Aktionärsbindungsverträge oder geplante Ausschüttungen?
-  zweck: Going concern, Kapitalverlust und Überschuldung, qualitative Wesentlichkeit, spezifische Wesentlichkeitsgrenzen
+- frage: Gibt es eine Liquiditätsplanung für mindestens zwölf Monate? Bestehen Rangrücktritte, Finanzierungsauflagen, Aktionärsbindungsverträge oder geplante Ausschüttungen? Bestehen
+    Covid-19-Kredite mit Solidarbürgschaft (Restbetrag, Amortisationsplan)?
+  zweck: Going concern, Kapitalverlust und Überschuldung, qualitative Wesentlichkeit, spezifische Wesentlichkeitsgrenzen, Covid-19-Kredite (Art. 24 Covid-19-SBüG)
 - frage: Stützt sich die Jahresrechnung auf Gutachten oder Expertenberichte (z. B. Liegenschaftsbewertung, Rechtsgutachten)?
   zweck: Verwendung von Arbeiten Dritter bzw. Experten planen (SER 4.1)
 - frage: Wurden die Feststellungen, Korrekturvorschläge und Empfehlungen aus der Vorjahresrevision umgesetzt?

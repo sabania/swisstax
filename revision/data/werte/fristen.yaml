@@ -4,16 +4,20 @@ werte:
   bezeichnung: 'Opting-out: Anmeldung beim Handelsregister'
   wert: vor Beginn des Geschäftsjahres
   einheit: Text
-  gilt: OR, Fassung Stand 01.10.2026
+  gilt: OR, Fassung Stand 01.10.2026; HRegV, Fassung Stand 01.10.2026 (Art. 62)
   kategorie: fristen
-  bemerkung: Art. 727a Abs. 2 OR; Verzicht gilt nur für künftige Geschäftsjahre.
+  bemerkung: 'Art. 727a Abs. 2 OR: Verzicht nur für künftige Geschäftsjahre. HRegV Art. 62: Erklärung (keine Pflicht zur ordentlichen Revision; höchstens 10 Vollzeitstellen; Verzicht
+    aller Aktionäre) mit dem Datum des Geschäftsjahresbeginns, ab dem der Verzicht gilt, unterzeichnet von mindestens einem VR-Mitglied. Beilagen u.a. die genehmigte Jahresrechnung
+    des letzten Geschäftsjahres und die Verzichtserklärungen bzw. das GV-Protokoll (Abs. 2, hregv__art-62-t1). Schon bei der Gründung möglich (Abs. 3). Fehlende Jahresrechnung bei
+    der Steuerbehörde oder Anschein fehlender Voraussetzungen → HR-Amt fordert Erneuerung oder Revisionsstelle; sonst Überweisung ans Gericht (Abs. 5/6, hregv__art-62-t2). Agent:
+    Verzichtserklärung bzw. HR-Eintrag mit dem zu prüfenden Geschäftsjahr abgleichen → Rapport; Entscheid WP.'
   quelle: or__art-727a
   zitat: muss vor Beginn des Geschäftsjahres beim Handelsregisteramt angemeldet werden
   status: agent-geprueft
 - key: or727a_frist_zustimmung
   bezeichnung: 'Opting-out: Antwortfrist bei schriftlicher Zustimmung'
   wert: '20'
-  einheit: Tage
+  einheit: Tage Antwortfrist (mindestens)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: 'Art. 727a Abs. 3 OR: Ausbleiben einer Antwort kann als Zustimmung gelten, wenn der VR darauf hinweist.'
@@ -23,11 +27,11 @@ werte:
 - key: or727a_opting_in_10_tage
   bezeichnung: 'Opting-in: Verlangen einer eingeschränkten Revision durch Aktionär'
   wert: '10'
-  einheit: Tage
+  einheit: Tage vor der GV (spätestens)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
-  bemerkung: 'Art. 727a Abs. 4 OR: Opting-out gilt auch für Folgejahre; jeder Aktionär kann jährlich eine eingeschränkte Revision verlangen (HWP ER Rz 68); die GV muss dann die Revisionsstelle
-    wählen.'
+  bemerkung: 'Art. 727a Abs. 4 OR: Opting-out gilt auch für Folgejahre; jeder Aktionär kann jährlich eine eingeschränkte Revision verlangen (HWP ER Rz 68, hwp-er-2026__rz-0068-s052);
+    die GV muss dann die Revisionsstelle wählen.'
   quelle: or__art-727a
   zitat: spätestens zehn Tage vor der Generalversammlung eine eingeschränkte Revision zu verlangen
   status: agent-geprueft
@@ -38,14 +42,14 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: 'Art. 725b Abs. 4 Ziff. 2 OR: nur solange begründete Aussicht auf Behebung besteht und Gläubiger nicht zusätzlich gefährdet werden. Zeichnet sich ab, dass 90 Tage nicht
-    reichen, darf von der Anzeige nicht mehr abgesehen werden (HWP ER Rz 435).'
+    reichen, darf von der Anzeige nicht mehr abgesehen werden (HWP ER Rz 435, hwp-er-2026__rz-0435-s128).'
   quelle: or__art-725b-t1
   zitat: spätestens aber 90 Tage nach Vorliegen der geprüften Zwischenabschlüsse
   status: agent-geprueft
 - key: or699_ordentliche_gv
   bezeichnung: 'Ordentliche Generalversammlung: Frist'
   wert: '6'
-  einheit: Monate
+  einheit: Monate nach Ende des Geschäftsjahres (innerhalb)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: 'Art. 699 Abs. 2 OR. SER 8.3.2 nennt die Nichteinhaltung der gesetzlichen Einberufungsfrist (Art. 699 OR) als Beispiel für einen möglichen Hinweis auf Gesetzesverstösse,
@@ -56,18 +60,18 @@ werte:
 - key: or958_geschaeftsbericht_frist
   bezeichnung: 'Geschäftsbericht: Erstellung und Vorlage zur Genehmigung'
   wert: '6'
-  einheit: Monate
+  einheit: Monate nach Ende des Geschäftsjahres (innerhalb)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: Art. 958 Abs. 3 OR; Unterzeichnung durch Vorsitzenden des VR und die für die Rechnungslegung zuständige Person. Nichteinhaltung der Vorlagepflicht als Hinweisbeispiel in
-    SER 8.3.2.
+    SER 8.3.2 (ser-2022__8-3-2-t2).
   quelle: or__art-958
   zitat: innerhalb von sechs Monaten nach Ablauf des Geschäftsjahres erstellt und dem zuständigen Organ
   status: agent-geprueft
 - key: or700_einberufung_gv
   bezeichnung: Einberufung der Generalversammlung
   wert: '20'
-  einheit: Tage
+  einheit: Tage vor der GV (mindestens)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: Art. 700 Abs. 1 OR.
@@ -77,7 +81,7 @@ werte:
 - key: or699a_unterlagen_20_tage
   bezeichnung: Geschäftsbericht und Revisionsbericht zugänglich vor GV
   wert: '20'
-  einheit: Tage
+  einheit: Tage vor der GV (mindestens)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: 'Art. 699a Abs. 1 OR: für die Terminplanung des Revisionsberichts relevant (Bericht muss zu diesem Zeitpunkt vorliegen).'
@@ -97,7 +101,7 @@ werte:
 - key: or805_gmbh_gv_frist
   bezeichnung: 'GmbH: ordentliche Gesellschafterversammlung'
   wert: '6'
-  einheit: Monate
+  einheit: Monate nach Ende des Geschäftsjahres (innerhalb)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: Art. 805 Abs. 2 OR.
@@ -106,8 +110,8 @@ werte:
   status: agent-geprueft
 - key: or805_gmbh_einberufung
   bezeichnung: 'GmbH: Einberufung der Gesellschafterversammlung'
-  wert: 20 (statutarisch verkürzbar bis 10)
-  einheit: Tage
+  wert: '20'
+  einheit: 'Tage vor der Versammlung (spätestens; Statuten: länger oder bis 10)'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
   bemerkung: 'Art. 805 Abs. 3 OR: Statuten können die Frist verlängern oder bis auf zehn Tage verkürzen; Universalversammlung vorbehalten.'
@@ -116,15 +120,12 @@ werte:
   status: agent-geprueft
 - key: ser_berichtsdatum
   bezeichnung: Berichtsdatum des Revisionsberichts
-  wert: Datum der Beendigung der eingeschränkten Revision; frühestens Unterzeichnung/formelle Gutheissung der Jahresrechnung durch die Unternehmensleitung (VR) – nicht GV-Genehmigung
+  wert: Tag der Beendigung der Revision; frühestens Tag der Unterzeichnung/formellen Gutheissung der Jahresrechnung durch die Unternehmensleitung (z.B. VR)
   einheit: Text
   gilt: SER, Ausgabe 2022
   kategorie: fristen
-  bemerkung: 'SER 8.6, gleicher Chunk: «darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet
-    oder formell gutgeheissen hat». Unternehmensleitung = VR: «Unternehmensleitung (z.B. Verwaltungsrat einer Aktiengesellschaft) den Abschluss unterzeichnet oder formell gutgeheissen
-    hat» (HWP ER Rz 448, hwp-er-2026__rz-0448-s287 – nicht Rz 448 auf S. 131 zum Kapitalverlust); Vollständigkeitserklärung auf dieses Datum zusammen mit der Jahresrechnung unterzeichnen
-    (ebenda). Die GV-Genehmigung folgt erst danach: der Revisionsbericht muss vorliegen, bevor die GV genehmigt (Art. 731 Abs. 1 OR, or__art-731). Der Agent datiert und unterzeichnet
-    nie; Datum setzt der WP (Konzept consis).'
+  bemerkung: 'SER 8.6. Unternehmensleitung z.B. VR einer AG (HWP ER Rz 448, hwp-er-2026__rz-0448-s287); Vollständigkeitserklärung auf dasselbe Datum. Die GV-Genehmigung folgt erst
+    danach (Art. 731 Abs. 1 OR, or__art-731). Der Agent datiert und unterzeichnet nie; das Datum setzt der WP.'
   quelle: ser-2022__8-6
   zitat: Der Revisionsbericht trägt das Datum, an dem die eingeschränkte Revision beendet wurde.
   status: agent-geprueft
@@ -141,32 +142,69 @@ werte:
 - key: or730c_aufbewahrung_revision
   bezeichnung: Aufbewahrung Revisionsdokumentation (Revisionsstelle)
   wert: '10'
-  einheit: Jahre
+  einheit: Jahre (regelmässig ab Berichtsdatum)
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: fristen
-  bemerkung: Art. 730c Abs. 1 OR; elektronische Daten während gleicher Zeit lesbar. SER 7.1 (ser-2022__7-1) übernimmt die Pflicht.
+  bemerkung: 'Art. 730c Abs. 1 OR; elektronische Daten während gleicher Zeit lesbar. SER 7.1 (ser-2022__7-1) übernimmt die Pflicht. Fristbeginn regelmässig ab Berichtsdatum (HWP ER
+    Rz 288, hwp-er-2026__rz-0288-s248). Elektronisch zulässig, wenn nachträgliche Änderungen feststellbar sind und die Daten lesbar bleiben.'
   quelle: or__art-730c
   zitat: Revisionsberichte sowie alle wesentlichen Unterlagen mindestens während zehn Jahren aufbewahren
-  status: agent-geprueft
-- key: hwp_er_arbeitspapiere_fristbeginn
-  bezeichnung: 'Aufbewahrung Arbeitspapiere: Fristbeginn'
-  wert: 10 Jahre ab Berichtsdatum
-  einheit: Jahre
-  gilt: HWP ER, Ausgabe 2026
-  kategorie: fristen
-  bemerkung: 'HWP ER Rz 288: elektronische Aufbewahrung zulässig, wenn nachträgliche Änderungen feststellbar und Daten lesbar bleiben.'
-  quelle: hwp-er-2026__rz-0288-s248
-  zitat: Die Arbeitspapiere sind während mindestens zehn Jahren, regelmässig gerechnet ab Berichtsdatum, aufzubewahren.
   status: agent-geprueft
 - key: vst_frist_formular_102
   bezeichnung: Frist für Deklaration und Entrichtung der VSt auf geldwerten Leistungen (Formular 102)
   wert: '30'
-  einheit: Tage nach Fälligkeit
-  gilt: ESTV-Rundschreiben vom 29.01.2026
+  einheit: Tage nach Fälligkeit des Ertrages
+  gilt: VStV, Fassung Stand 01.01.2025 (Art. 21 Abs. 2/3)
   kategorie: fristen
-  bemerkung: Die geschuldete VSt ist innert derselben Frist zu entrichten (estv-zinsen-2026__s001-1 «Innert der gleichen Frist ist auch die geschuldete Verrechnungssteuer zu entrichten.»).
-  quelle: estv-zinsen-2026__s001-1
-  zitat: mittels Formular 102 unaufgefordert innert 30 Tagen nach ihrer Fälligkeit zu deklarieren
+  bemerkung: 'Gilt u.a. für «geldwerte Leistungen anderer Art» (Art. 21 Abs. 2 VStV). Ohne Fälligkeitstermin läuft die Frist ab dem Beschluss über die Ausrichtung, sonst ab der Ausrichtung
+    (Abs. 3). Verzugszins ohne Mahnung (Art. 16 Abs. 2 VStG, vstg__art-16). Formular 102 und Entrichtung innert gleicher Frist laut ESTV-RS vom 29.01.2026 (estv-zinsen-2026__s001-1).
+    Feststellung → Rapport an WP.'
+  quelle: vstv__art-21-t2
+  zitat: innert 30 Tagen nach der Fälligkeit des Ertrages unaufgefordert der ESTV zu entrichten
+  status: agent-geprueft
+- key: vstv21_dividende_30_tage
+  bezeichnung: 'VSt auf Erträgen aus der Jahresrechnung (Dividenden AG/GmbH): Einreichung und Zahlung'
+  wert: '30'
+  einheit: Tage nach Genehmigung der Jahresrechnung
+  gilt: VStV, Fassung Stand 01.01.2025 (Art. 21 Abs. 1)
+  kategorie: fristen
+  bemerkung: 'Unaufgefordert, wenn eine der Bedingungen von Art. 21 Abs. 1 lit. a–e VStV erfüllt ist, u.a. Bilanzsumme > 5 Mio. CHF (lit. a); bei beschlossener Dividende immer (lit.
+    b, steuerbare Leistung). Sonst Unterlagen auf Verlangen der ESTV (Abs. 1bis). Keine Genehmigung innert 6 Monaten nach Geschäftsjahresende: ESTV vor Ablauf des 7. Monats informieren
+    (Abs. 4, vstv__art-21-t2). Steuerliche Frist, keine handelsrechtliche Bewertungsregel. Feststellung → Rapport an WP.'
+  quelle: vstv__art-21-t1
+  zitat: innert 30 Tagen nach Genehmigung der Jahresrechnung
+  status: agent-geprueft
+- key: vstg4a_eigene_beteiligungsrechte_6_jahre
+  bezeichnung: 'Eigene Beteiligungsrechte (im Rahmen Art. 659/783 OR): Wiederveräusserungsfrist VSt'
+  wert: '6'
+  einheit: Jahre ab Erwerb
+  gilt: VStG, Fassung Stand 01.01.2025 (Art. 4a Abs. 2)
+  kategorie: fristen
+  bemerkung: 'Nicht innert 6 Jahren wieder veräussert → VSt auf der Differenz Erwerbspreis − einbezahlter Nennwert (Art. 4a Abs. 2 i.V.m. Abs. 1 VStG). Fristbeginn = Erwerb (KS 51,
+    estv-ks-51-2026__3-1-2-3-t2). Fristenstillstand bei Wandel-/Optionsanleihen und Mitarbeiterbeteiligung, bei Letzterer längstens 6 Jahre (Abs. 3). Handelsrechtlich: or659_eigene_aktien_20_vinkulierung.
+    Steuerpraxis; Feststellung → Rapport an WP.'
+  quelle: vstg__art-4a-t1
+  zitat: wenn die Gesellschaft oder die Genossenschaft diese Beteiligungsrechte nicht innerhalb von sechs Jahren wieder veräussert
+  status: agent-geprueft
+- key: ks29c_ker_rueckzahlung_meldung_30_tage
+  bezeichnung: 'Rückzahlung von KER: Meldung mit Formular 170'
+  wert: '30'
+  einheit: Tage nach der GV bzw. spätestens nach der Rückzahlung
+  gilt: ESTV KS 29c vom 23.12.2022 (Steuerpraxis)
+  kategorie: fristen
+  bemerkung: 'Steuerliche Praxis, keine handelsrechtliche Regel. Im Thema zitiert als KS 29c Ziff. 9.3 Bst. a; Abschnittstitel im Chunk (7.2.5) passt nicht → Original S. 25 prüfen.'
+  quelle: estv-ks-29c-2022__7-2-5-t5
+  zitat: Erfolgen Rückzahlungen von KER bzw. Ausland-KER, sind diese innert 30 Tagen nach der Generalversammlung oder spätestens 30 Tage nach der Rückzahlung mittels Formular 170
+  status: agent-geprueft
+- key: mwstg71_abrechnung_60_tage
+  bezeichnung: 'MWST-Abrechnung: Frist'
+  wert: '60'
+  einheit: Tage nach Ablauf der Abrechnungsperiode
+  gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 71 Abs. 1)
+  kategorie: fristen
+  bemerkung: Basis für die Abstimmung der MWST-Verbindlichkeit am Stichtag (Prüffeld M2). Endet die Steuerpflicht, läuft die Frist ab diesem Zeitpunkt (Abs. 2).
+  quelle: mwstg__art-71
+  zitat: innert 60 Tagen nach Ablauf der Abrechnungsperiode unaufgefordert in der vorgeschriebenen Form über die Steuerforderung abzurechnen
   status: agent-geprueft
 - key: mwst_aufbewahrung_immobilien
   bezeichnung: MWST-Aufbewahrungsfrist für Geschäftsunterlagen zur Einlageentsteuerung und zum Eigenverbrauch von unbeweglichen Gegenständen
@@ -175,8 +213,7 @@ werte:
   gilt: MWSTG, Fassung Stand 31.03.2025 (Art. 70 Abs. 3)
   kategorie: fristen
   bemerkung: 'Gesetz geht vor. PH 20 vom 02-2016 nennt abweichend mindestens 25 Jahre (ph-20-mwst-2016__c004-2 «für Belege, welche Immobilien betreffen, eine Aufbewahrungsfrist von mindestens
-    25 Jahren») – nicht als gesetzliche Frist verwenden; Abweichung dem WP melden. Eine Frist von 26 Jahren ist im Wiki nicht belegt (MWSTG im Wiki, Fassung 31.03.2025: 20 Jahre). Übrige
-    Unterlagen: mwst_aufbewahrung_uebrige.'
+    25 Jahren») – nicht als gesetzliche Frist verwenden; Abweichung dem WP melden. Übrige Unterlagen: mwst_aufbewahrung_uebrige.'
   quelle: mwstg__art-70
   zitat: sind während 20 Jahren aufzubewahren (Art. 31 Abs. 3 und 32 Abs. 2)
   status: agent-geprueft

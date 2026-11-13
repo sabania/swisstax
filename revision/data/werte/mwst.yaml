@@ -62,7 +62,9 @@ werte:
   kategorie: mwst
   bemerkung: 'Kumulativ mit der Steuerschuld von höchstens CHF 108 000 pro Jahr (mwst_sss_steuerschuld_max). Der Almanach präzisiert inkl. Steuer: treuhand-almanach-2026__s047-1 «der
     steuerbare Jahresumsatz (inkl. Steuer) beträgt nicht mehr als CHF 5,024 Mio.;» Ausschlüsse nach Art. 77 Abs. 2 MWSTV prüfen (mwstv__art-77 «Die Saldosteuersatzmethode kann nicht
-    gewählt werden von steuerpflichtigen Personen»).'
+    gewählt werden von steuerpflichtigen Personen»). Nur Inlandleistungen: mwstv__art-77 «sind die im Inland gegen Entgelt erbrachten steuerbaren Leistungen zu berücksichtigen». Vereine/Stiftungen:
+    mwstg__art-37 «Vereine und Stiftungen können nach der Pauschalsteuersatzmethode abrechnen»; wer das kann, kann die SSS-Methode nicht wählen: mwstv__art-77 «nach Artikel 37 Absatz
+    5 MWSTG nach der Pauschalsteuersatzmethode abrechnen können».'
   quelle: mwstg__art-37
   zitat: jährlich nicht mehr als 5 024 000 Franken Umsatz aus steuerbaren Leistungen erzielt
   status: agent-geprueft
@@ -78,14 +80,31 @@ werte:
   status: agent-geprueft
 - key: mwst_sss_umsatzgrenzen_je_satz
   bezeichnung: Umsatzgrenzen je Saldosteuersatz
-  wert: '0.1/0.6/1.3/2.1 %: max. 5.024 Mio.; 3.0 %: 3.60 Mio.; 3.7 %: 2.92 Mio.; 4.5 %: 2.40 Mio.; 5.3 %: 2.04 Mio.; 6.2 %: 1.74 Mio.; 6.8 %: 1.59 Mio.'
+  wert: 'Umsatz inkl. MWST ≤ 108 000 ÷ SSS, höchstens 5 024 000: 0,1/0,6/1,3/2,1 %: 5 024 000 · 3,0 %: 3 600 000 · 3,7 %: 2 918 918 · 4,5 %: 2 400 000 · 5,3 %: 2 037 735 · 6,2 %: 1 741
+    935 · 6,8 %: 1 588 235'
   einheit: CHF
-  gilt: Treuhand-Almanach 2026 (Tab. 18)
+  gilt: MWSTG Art. 37 Abs. 1/2 (Stand 31.03.2025); Sätze VO SSS, in Kraft 01.01.2025
   kategorie: mwst
-  bemerkung: 'Die Saldosteuersätze setzt die ESTV je Branche/Tätigkeit fest (SR 641.202.62, Stand 01.01.2025). Sekundärquelle. Anwendung: geschuldete MWST mit SSS-Methode plausibilisieren.'
-  quelle: treuhand-almanach-2026__s048-1
-  zitat: 0,1% / 0,6 % / 1,3 % / 2,1% max. CHF 5,024 Mio. 3,0 % max. CHF 3,60 Mio. 3,7 % max. CHF 2,92 Mio. 4,5 % max. CHF 2,40 Mio. 5,3 % max. CHF 2,04 Mio. 6,2 % max. CHF 1,74 Mio.
-    6,8 % max. CHF 1,59 Mio.
+  bemerkung: 'Umsatz inkl. Steuer, weil die Steuer auf den Entgelten einschliesslich Steuer berechnet wird: mwstg__art-37 «erzielten steuerbaren Entgelte, einschliesslich Steuer, mit
+    dem von der ESTV bewilligten Saldosteuersatz ermittelt». Nachrechnen: `rechne "108000/3.7*100"`. Almanach Tab. 18 (treuhand-almanach-2026__s048-1) ist gerundet, nicht für Grenzfälle
+    verwenden. VO SSS in Kraft: estv-vo-sss__art-3 «Diese Verordnung tritt am 1. Januar 2025 in Kraft.»'
+  quelle: mwstg__art-37
+  zitat: nicht mehr als 108 000 Franken Steuern, berechnet nach dem für sie massgebenden Saldosteuersatz
+  status: agent-geprueft
+- key: mwst_sss_satz_branche
+  bezeichnung: Saldosteuersatz je Branche/Tätigkeit
+  wert: Satz laut Anhang VO SSS; massgebend ist der von der ESTV bewilligte Satz des Kunden
+  einheit: Text
+  gilt: VO SSS (SR 641.202.62), in Kraft seit 01.01.2025
+  kategorie: mwst
+  bemerkung: 'Bewilligter Satz massgebend: mwstg__art-37 «mit dem von der ESTV bewilligten Saldosteuersatz ermittelt». Nachschlagen: `suche "<Branche>" --quelle estv-vo-sss` → `zeige
+    <Chunk-Id des Treffers>` (Anhang in 16 Teilen: estv-vo-sss__anhang-t1 bis estv-vo-sss__anhang-t16). Beispiel: estv-vo-sss__anhang-t2 «Architekturbüro, einschliesslich Bauleitung
+    | 6,2 %». Herstellungssätze nur mit Material: estv-vo-sss__art-1 «Die für Herstellungsbranchen und -tätigkeiten geltenden SSS sind nur anwendbar, wenn im Preis für die Leistung auch
+    das Material eingeschlossen ist.» In Kraft: estv-vo-sss__art-3 «Diese Verordnung tritt am 1. Januar 2025 in Kraft.» Für Perioden vor 2025 galt die aufgehobene VO: estv-vo-sss__art-2
+    «Die Verordnung der ESTV vom 6. Dezember 2010 über die Höhe der Saldosteuersätze nach Branchen und Tätigkeiten wird aufgehoben.» Passt der bewilligte Satz nicht zur Branche: Pendenz
+    an den WP (Prüffeld M2).'
+  quelle: estv-vo-sss__art-1
+  zitat: Die Saldosteuersätze (SSS) nach Branchen und Tätigkeiten richten sich nach der Tabelle im Anhang.
   status: agent-geprueft
 - key: mwst_sss_mehrere_saetze_umsatzanteil
   bezeichnung: Umsatzanteil einer Tätigkeit, der für einen zusätzlichen Saldosteuersatz überschritten sein muss (mehr als 10 %)
@@ -95,7 +114,8 @@ werte:
   kategorie: mwst
   bemerkung: 'Genau 10 % genügt nicht. Bestehende Pflichtige: in jeder der drei vorangegangenen Steuerperioden mehr als 10 % (mwstv__art-86 «in jeder dieser Steuerperioden mehr als 10
     Prozent betragen haben muss»); Tätigkeiten mit gleichem Satz zusammenzählen. Keine Obergrenze der Anzahl Sätze: treuhand-almanach-2026__s047-2 «Es gibt keine Obergrenze der bewilligten
-    Saldosteuersätze.» Für Perioden vor dem Stand der Wiki-Fassung die damalige MWSTV prüfen (früher höchstens zwei Sätze).'
+    Saldosteuersätze.» Für Perioden vor dem Stand der Wiki-Fassung die damalige MWSTV prüfen (früher höchstens zwei Sätze). Wegfall: mwstv__art-86 «so fällt die Bewilligung zur Anwendung
+    des betreffenden Saldosteuersatzes auf den Beginn der vierten Steuerperiode dahin».'
   quelle: mwstv__art-86
   zitat: deren Anteil am Gesamtumsatz aus steuerbaren Leistungen mehr als 10 Prozent beträgt
   status: agent-geprueft

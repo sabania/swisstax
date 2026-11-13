@@ -13,8 +13,8 @@ werte:
   status: agent-geprueft
 - key: or672_grenze_50
   bezeichnung: 'Gesetzliche Gewinnreserve: Äufnung bis'
-  wert: '0.5'
-  einheit: Anteil
+  wert: '50'
+  einheit: '% des im HR eingetragenen Aktienkapitals'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: reserven
   bemerkung: 'Art. 672 Abs. 2 OR: gesetzliche Gewinn- und Kapitalreserve zusammen 50 % des im HR eingetragenen Aktienkapitals.'
@@ -24,7 +24,7 @@ werte:
 - key: or672_grenze_holding_20
   bezeichnung: 'Gesetzliche Gewinnreserve Holdinggesellschaft: Äufnung bis'
   wert: '20'
-  einheit: '%'
+  einheit: '% des im HR eingetragenen Aktienkapitals'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: reserven
   bemerkung: 'Art. 672 Abs. 2 OR: 20 % des im Handelsregister eingetragenen Aktienkapitals.'
@@ -33,8 +33,8 @@ werte:
   status: agent-geprueft
 - key: or671_rueckzahlung_50
   bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve: Schwelle'
-  wert: '0.5'
-  einheit: Anteil
+  wert: '50'
+  einheit: '% des im HR eingetragenen Aktienkapitals'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: reserven
   bemerkung: 'Art. 671 Abs. 2 OR: gesetzliche Kapital- und Gewinnreserven abzüglich Verluste müssen 50 % des AK übersteigen. Nicht mitgerechnet: Reserve für eigene Aktien im Konzern
@@ -45,7 +45,7 @@ werte:
 - key: or671_rueckzahlung_holding_20
   bezeichnung: 'Rückzahlung gesetzliche Kapitalreserve Holdinggesellschaft: Schwelle'
   wert: '20'
-  einheit: '%'
+  einheit: '% des im HR eingetragenen Aktienkapitals'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: reserven
   bemerkung: Art. 671 Abs. 3 OR (Holdinggesellschaften); Abs. 4 gilt ebenfalls.
@@ -92,4 +92,39 @@ werte:
   bemerkung: Art. 675 Abs. 3 OR; Zuweisung an die gesetzliche Gewinnreserve 5 % des Jahresgewinns nach Beseitigung eines Verlustvortrags (Art. 672 Abs. 1 OR, Eintrag or672_zuweisung_gewinnreserve).
   quelle: or__art-675
   zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
+  status: agent-geprueft
+- key: or677_tantieme_nach_dividende_5
+  bezeichnung: 'Tantiemen (Gewinnanteile VR): nur nach Reservezuweisung und Dividende von mindestens'
+  wert: '5'
+  einheit: '% Dividende (oder statutarisch höherer Ansatz)'
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 677 OR: nur aus dem Bilanzgewinn. Prüfen beim Antrag über die Verwendung des Bilanzgewinns (Art. 729a Abs. 1 Ziff. 2 OR). Feststellung → Rapport, Beurteilung WP.'
+  quelle: or__art-677
+  zitat: nachdem die Zuweisung an die gesetzliche Reserve gemacht und eine Dividende von 5 Prozent oder von einem durch die Statuten festgesetzten höheren Ansatz an die Aktionäre ausgerichtet
+    worden ist
+  status: agent-geprueft
+- key: covid_sbueg_ausschuettungsverbot
+  bezeichnung: 'Covid-19-Kredit (Solidarbürgschaft): Ausschüttungsverbot'
+  wert: keine Dividenden, Tantiemen oder Rückerstattung von Kapitaleinlagen während der Solidarbürgschaft
+  einheit: Text
+  gilt: Covid-19-SBüG, Fassung Stand 31.03.2026 (gilt bis 31.12.2032)
+  kategorie: reserven
+  bemerkung: 'Art. 2 Abs. 2 lit. a Covid-19-SBüG. Ebenso Darlehen an Gesellschafter/Nahestehende bzw. Rückzahlung ihrer Darlehen (lit. b; Ausnahme: vorbestehende Verpflichtungen gegenüber
+    Gruppengesellschaften mit Sitz in der Schweiz). Bei Verstoss setzt die Revisionsstelle eine Frist, informiert sonst die GV und danach die Bürgschaftsorganisation (Art. 23 Abs. 1,
+    covid-sbueg__art-23; gilt auch bei eingeschränkter Revision). Gesetz gilt bis 31.12.2032 (covid-sbueg__art-31). Agent: offenen Covid-Kredit beim Gewinnverwendungsantrag als Pendenz/Rapport
+    melden; Frist, Information und Beurteilung nur durch den WP. Mehr: `thema hinweispflichten`.'
+  quelle: covid-sbueg__art-2-t1
+  zitat: Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen
+  status: agent-geprueft
+- key: or860_genossenschaft_reservefonds
+  bezeichnung: 'Genossenschaft: Zuweisung an den Reservefonds'
+  wert: 1/20
+  einheit: des Jahresgewinns, soweit nicht zur Äufnung des Genossenschaftsvermögens verwendet
+  gilt: OR, Fassung Stand 01.10.2026
+  kategorie: reserven
+  bemerkung: 'Art. 860 Abs. 1 OR: Zuweisung während mindestens 20 Jahren; bestehen Anteilscheine, in jedem Fall so lange, bis der Reservefonds 1/5 des Genossenschaftskapitals erreicht.
+    Statuten können mehr vorschreiben (Abs. 2); Verwendung beschränkt (Abs. 3). Prüfen beim Gewinnverwendungsantrag; Entscheid WP.'
+  quelle: or__art-860
+  zitat: jährlich ein Zwanzigstel einem Reservefonds zuzuweisen
   status: agent-geprueft

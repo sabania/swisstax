@@ -19,7 +19,7 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
   bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. b OR; zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Umsatzerlös weit ausgelegt: grundsätzlich alle Erträge der Erfolgsrechnung
-    (HWP ER Rz 306). Fremdwährung: Jahresdurchschnittskurs (Abs. 1bis). Kurz-/Langjahr annualisieren (HWP ER Rz 311).'
+    (HWP ER Rz 306, hwp-er-2026__rz-0306-s097). Fremdwährung: Jahresdurchschnittskurs (Abs. 1bis). Kurz-/Langjahr annualisieren (HWP ER Rz 311, hwp-er-2026__rz-0311-s098).'
   quelle: or__art-727
   zitat: Umsatzerlös von 40 Millionen Franken
   status: agent-geprueft
@@ -29,8 +29,8 @@ werte:
   einheit: Vollzeitstellen
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
-  bemerkung: Art. 727 Abs. 1 Ziff. 2 lit. c OR; Jahresdurchschnitt, zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Ermittlung als Vollzeitäquivalente (HWP ER Rz
-    307–308).
+  bemerkung: 'Art. 727 Abs. 1 Ziff. 2 lit. c OR; Jahresdurchschnitt, zwei von drei Grössen in zwei aufeinander folgenden Geschäftsjahren. Ermittlung als Vollzeitäquivalente (HWP ER Rz
+    307, hwp-er-2026__rz-0307-s097; Rz 308, hwp-er-2026__rz-0308-s097).'
   quelle: or__art-727
   zitat: 250 Vollzeitstellen im Jahresdurchschnitt
   status: agent-geprueft
@@ -40,7 +40,8 @@ werte:
   einheit: Text
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
-  bemerkung: 'Berichts- und Vorjahr beiziehen (HWP ER Rz 304). Die überschrittenen Grössen dürfen von Jahr zu Jahr wechseln (HWP ER Rz 309). Weitere Gründe für ordentliche Revision:
+  bemerkung: 'Berichts- und Vorjahr beiziehen (HWP ER Rz 304, hwp-er-2026__rz-0304-s097). Die überschrittenen Grössen dürfen von Jahr zu Jahr wechseln (HWP ER Rz 309,
+    hwp-er-2026__rz-0309-s098). Weitere Gründe für ordentliche Revision:
     Publikumsgesellschaft (Ziff. 1), Konzernrechnungspflicht (Ziff. 3), Verlangen von 10 % des Aktienkapitals (Abs. 2), Statuten/GV (Abs. 3).'
   quelle: or__art-727
   zitat: Gesellschaften, die zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschreiten
@@ -84,8 +85,8 @@ werte:
   einheit: Text
   gilt: HWP ER, Ausgabe 2026
   kategorie: revisionspflicht
-  bemerkung: 'HWP ER Rz 308: Durchschnitt in stabilen Verhältnissen aus Jahresanfangs- und -endbestand; bei Schwankungen mindestens Quartals-, besser Monatsstände. Zurechnung beim rechtlichen
-    Arbeitgeber (Rz 307).'
+  bemerkung: 'HWP ER Rz 308 (hwp-er-2026__rz-0308-s097): Durchschnitt in stabilen Verhältnissen aus Jahresanfangs- und -endbestand; bei Schwankungen mindestens Quartals-, besser Monatsstände.
+    Zurechnung beim rechtlichen Arbeitgeber (Rz 307, hwp-er-2026__rz-0307-s097).'
   quelle: hwp-er-2026__rz-0308-s097
   zitat: Lernende und Teilzeitbeschäftigte sind in die Ermittlung der Vollzeitstellen einzubeziehen.
   status: agent-geprueft
@@ -102,11 +103,12 @@ werte:
   status: agent-geprueft
 - key: hwp_er_kurzjahr_annualisierung
   bezeichnung: 'Umsatzerlös bei Kurz-/Langjahr: Annualisierung'
-  wert: '12'
-  einheit: Monate
+  wert: Umsatzerlös auf 12 Monate hoch- bzw. herunterrechnen (nur Umsatzerlös)
+  einheit: Text
   gilt: HWP ER, Ausgabe 2026
   kategorie: revisionspflicht
-  bemerkung: 'HWP ER Rz 311: z.B. bei Gründung oder Liquidation; saisonale Schwankungen berücksichtigen.'
+  bemerkung: 'HWP ER Rz 311: nur für das Grössenkriterium «Umsatzerlös»; z.B. bei Gründung oder Liquidation; saisonale Schwankungen berücksichtigen. Rechenbeispiel (angenommene Zahlen):
+    8 Monate, Umsatz 30 Mio. → `rechne 30000000/8*12` = 45 Mio. > Schwelle 40 Mio. (or727_umsatzerloes).'
   quelle: hwp-er-2026__rz-0311-s098
   zitat: der realisierte Umsatzerlös auf ein «Volljahr» (zwölf Monate) hoch- bzw. heruntergerechnet
   status: agent-geprueft
@@ -139,7 +141,7 @@ werte:
   einheit: '%'
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
-  bemerkung: 'Art. 727 Abs. 2 OR: ordentliche Revision unabhängig von den Schwellenwerten (HWP ER Rz 312).'
+  bemerkung: 'Art. 727 Abs. 2 OR: ordentliche Revision unabhängig von den Schwellenwerten (HWP ER Rz 312, hwp-er-2026__rz-0312-s098).'
   quelle: or__art-727
   zitat: Aktionäre, die zusammen mindestens 10 Prozent des Aktienkapitals vertreten, dies verlangen
   status: agent-geprueft
@@ -164,16 +166,41 @@ werte:
   quelle: or__art-818
   zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
   status: agent-geprueft
-- key: hwp_er_verein_schwellen
-  bezeichnung: 'Verein (Art. 69b ZGB): Schwellen ordentliche Revision'
-  wert: 10000000 / 20000000 / 50
-  einheit: CHF / CHF / Vollzeitstellen
-  gilt: HWP ER, Ausgabe 2026
+- key: or906_genossenschaft_revisionsstelle
+  bezeichnung: 'Genossenschaft: Revisionsstelle nach Aktienrecht'
+  wert: Aktienrecht entsprechend anwendbar
+  einheit: Text
+  gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
-  bemerkung: 'HWP ER Rz 314: zwei der drei Grössen in zwei aufeinander folgenden Geschäftsjahren überschritten. Swiss GAAP FER: gleiche Schwellen «10-20-50» für Kern-FER (Rz 317). ZGB
-    nicht als Chunk im Wiki.'
-  quelle: hwp-er-2026__rz-0314-s098
-  zitat: 1. Bilanzsumme von 10 Mio. CHF, 2. Umsatzerlös von 20 Mio. CHF, 3. 50 Vollzeitstellen im Jahresdurchschnitt.
+  bemerkung: 'Art. 906 Abs. 1 OR: Aktienrecht entsprechend (Schwellen Art. 727/727a OR). Eine ordentliche Revision können verlangen (Abs. 2): 10 % der Genossenschafter; Genossenschafter
+    mit zusammen mind. 10 % des Anteilscheinkapitals; Genossenschafter mit persönlicher Haftung oder Nachschusspflicht. Entscheid WP.'
+  quelle: or__art-906
+  zitat: Für die Revisionsstelle sind die Vorschriften des Aktienrechts entsprechend anwendbar.
+  status: agent-geprueft
+- key: zgb69b_verein_schwellen
+  bezeichnung: 'Verein: Schwellen ordentliche Revision (2 von 3 in 2 aufeinander folgenden Geschäftsjahren)'
+  wert: Bilanzsumme 10 Mio. CHF; Umsatzerlös 20 Mio. CHF; 50 Vollzeitstellen
+  einheit: Text
+  gilt: ZGB, Fassung Stand 01.07.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 69b Abs. 1 ZGB. Eingeschränkte Revision nur, wenn ein Mitglied mit persönlicher Haftung oder Nachschusspflicht sie verlangt (Abs. 2). Sonst sind Statuten und Vereinsversammlung
+    «in der Ordnung der Revision frei» (Abs. 4) → Statuten prüfen. OR-Aktienrecht zur Revisionsstelle entsprechend anwendbar (Abs. 3). Gleiche Schwellen «10-20-50» für Swiss GAAP
+    FER (HWP ER Rz 317, hwp-er-2026__rz-0317-s099); Querverweis HWP ER Rz 314 (hwp-er-2026__rz-0314-s098). Entscheid WP.'
+  quelle: zgb__art-69b
+  zitat: Der Verein muss seine Buchführung durch eine Revisionsstelle ordentlich prüfen lassen, wenn zwei der nachstehenden Grössen in zwei aufeinander folgenden Geschäftsjahren überschritten
+    werden
+  status: agent-geprueft
+- key: zgb83b_stiftung_revisionsstelle
+  bezeichnung: 'Stiftung: Revisionsstelle'
+  wert: Revisionsstelle Pflicht; Befreiung durch die Aufsichtsbehörde (Familien- und kirchliche Stiftungen befreit)
+  einheit: Text
+  gilt: ZGB, Fassung Stand 01.07.2026
+  kategorie: revisionspflicht
+  bemerkung: 'Art. 83b Abs. 2 ZGB: Befreiung nur durch die Aufsichtsbehörde → Befreiungsentscheid der Aufsicht beiziehen. Ausnahme: Familien- und kirchliche Stiftungen sind von Gesetzes
+    wegen befreit (Art. 87 Abs. 1bis ZGB, zgb__art-87). OR-Aktienrecht entsprechend, soweit keine besonderen Vorschriften bestehen (Art. 83b Abs. 3). Bei eingeschränkter Revision kann
+    die Aufsicht eine ordentliche verlangen (Art. 83b Abs. 4). Entscheid WP.'
+  quelle: zgb__art-83b
+  zitat: Das oberste Stiftungsorgan bezeichnet eine Revisionsstelle.
   status: agent-geprueft
 - key: or727a_opting_out_vollzeitstellen
   bezeichnung: 'Opting-out: höchstens Vollzeitstellen'
@@ -182,7 +209,7 @@ werte:
   gilt: OR, Fassung Stand 01.10.2026
   kategorie: revisionspflicht
   bemerkung: 'Art. 727a Abs. 2 OR: Verzicht nur mit Zustimmung sämtlicher Aktionäre, nur für künftige Geschäftsjahre, Anmeldung beim Handelsregister vor Beginn des Geschäftsjahres; Jahresrechnung
-    des letzten Geschäftsjahres beilegen (Abs. 2bis). Massgebend sind die Tatsachen im betreffenden Geschäftsjahr, nicht der Zweijahresdurchschnitt (HWP ER Rz 313).'
+    des letzten Geschäftsjahres beilegen (Abs. 2bis). Massgebend sind die Tatsachen im betreffenden Geschäftsjahr, nicht der Zweijahresdurchschnitt (HWP ER Rz 313, hwp-er-2026__rz-0313-s098).'
   quelle: or__art-727a
   zitat: nicht mehr als zehn Vollzeitstellen im Jahresdurchschnitt hat
   status: agent-geprueft
@@ -204,7 +231,9 @@ werte:
   kategorie: revisionspflicht
   bemerkung: 'Art. 727c OR. Zum Vergleich ordentliche Revision: «einen zugelassenen Revisionsexperten nach den Vorschriften des Revisionsaufsichtsgesetzes» (Art. 727b Abs. 2 OR, or__art-727b);
     Publikumsgesellschaften: staatlich beaufsichtigtes Revisionsunternehmen (Art. 727b Abs. 1 OR). Angaben zur leitenden Person und deren fachlicher Befähigung gehören in den Bericht
-    (Art. 729b Abs. 1 Ziff. 4 OR).'
+    (Art. 729b Abs. 1 Ziff. 4 OR). Revisionsunternehmen werden «für die Dauer von fünf Jahren zugelassen», natürliche Personen unbefristet (RAG 3 Abs. 2, rag__art-3). Alle Personen,
+    die Revisionsdienstleistungen leiten, brauchen die Zulassung (RAG 6 Abs. 1 lit. c, rag__art-6). Das HR-Amt prüft die Zulassung durch Einsicht ins RAB-Register (HRegV 61 Abs. 2,
+    hregv__art-61). Agent: Gültigkeit der Zulassung (Unternehmen und leitende Person) im RAB-Register als Pendenz festhalten; Entscheid WP.'
   quelle: or__art-727c
   zitat: müssen als Revisionsstelle einen zugelassenen Revisor nach den Vorschriften des Revisionsaufsichtsgesetzes
   status: agent-geprueft
