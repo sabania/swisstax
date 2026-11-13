@@ -1,0 +1,126 @@
+messung: "13.11.2026: vor R2 38/45, nach R2-Code 38/45 (unverändert); danach zwei allgemeine Fehlerklassen behoben (Wissensfrage ohne Mandatsbezug → fachfrage; Prüfauftrag mit Prüffeld schlägt import; flexionstolerante Synonyme) → 43/45 (2 Mundartfälle offen). Damit VERBRAUCHT – für die Endmessung ein neues Holdout verwenden."
+hinweis: "Holdout 2 (unabhängig formuliert am 13.11.2026 ohne Kenntnis von Router-Code und Stichworten). Nicht zum Tunen verwenden; nur messen."
+faelle:
+# --- mandat-start ---
+- text: "Starte das Mandat Muster AG, Geschäftsjahr 2025, Stichtag 31.12.2025 – Dossier öffnen und Planung lesen."
+  aufgabe: mandat-start
+- text: "Neuer Kunde in revio: Beispiel GmbH, GJ 1.7.2025–30.6.2026. Verschaff dir zuerst einen Überblick über Revisionsart, Risiken und Strategie und sag mir, welche Prüffelder markiert sind."
+  aufgabe: mandat-start
+# --- import ---
+- text: "Importieren Sie bitte die definitive Bilanz und Erfolgsrechnung aus M-Files in revio – nur simulieren – und prüfen Sie die Bilanzgleichheit."
+  aufgabe: import
+- text: "jahresrechung einlesen und abstimmen, vorzeichen und totale kontrollieren"
+  aufgabe: import
+# --- prueffeld: ein Prüffeld ---
+- text: "Bearbeite das Prüffeld I1."
+  aufgabe: prueffeld
+  param: I1
+- text: "bitte die kreditoren prüfn, markierte schritte reichen"
+  aufgabe: prueffeld
+  param: K1
+- text: "Chasch du bitte de Lohnufwand prüefe? Nume die markierte Schritt."
+  aufgabe: prueffeld
+  param: R1
+- text: "Könnten Sie Kasse und Bankkonten per Stichtag prüfen? Die Bankauszüge Dezember liegen in M-Files."
+  aufgabe: prueffeld
+  param: B1
+- text: "[Orchestrator] Prozess 2 für Prüffeld O1 (Rückstellungen) ausführen, Ergebnis in die Textfelder, Visum offen lassen."
+  aufgabe: prueffeld
+  param: O1
+- text: "Mach das MWST-Prüffeld: Umsatzabstimmung, Vorsteuern, Abrechnungen."
+  aufgabe: prueffeld
+  param: M2
+- text: "Das Warenlager ist dieses Jahr gross – bitte die Vorräte inkl. Bewertung und Inventurlisten bearbeiten."
+  aufgabe: prueffeld
+  param: F1
+- text: "Prüf den Anhang zur Jahresrechnung auf Vollständigkeit (Art. 959c OR) und dokumentier das Ergebnis."
+  aufgabe: prueffeld
+  param: T1
+# --- prueffeld: zwei Prüffelder (param = erstes genanntes) ---
+- text: "Nimm dir F2 und M1 vor, die sind beide markiert."
+  aufgabe: prueffeld
+  param: F2
+- text: "L1/N1 – Kontokorrentkredit und Hypothek prüfen"
+  aufgabe: prueffeld
+  param: L1
+- text: "Die transitorischen Aktiven und Passiven müssen noch geprüft werden, bitte beide Prüffelder bearbeiten."
+  aufgabe: prueffeld
+  param: E1
+- text: "Beteiligungen und Aktivdarlehen (H3, H2) bearbeiten – Beteiligungsverzeichnis und Darlehensverträge sind in M-Files."
+  aufgabe: prueffeld
+  param: H3
+# --- pruefschritt: einzelner Prüfschritt (Format des Routing-Tests: aufgabe pruefschritt) ---
+- text: "Bearbeite nur Schritt B1-401, die Bankenbestätigungen sind eingetroffen."
+  aufgabe: pruefschritt
+  param: B1-401
+- text: "m2-301 bitte erledigen"
+  aufgabe: pruefschritt
+  param: M2-301
+- text: "Könnten Sie den Prüfschritt R1-301 durchführen – Lohnbuchhaltung gegen Hauptbuch?"
+  aufgabe: pruefschritt
+  param: R1-301
+# --- unterlagen ---
+- text: "Hol das Protokoll der GV vom Vorjahr aus M-Files, prüf ob es zur richtigen Gesellschaft gehört, und leg es in 10.9 ab."
+  aufgabe: unterlagen
+- text: "Werte bitte die schriftlichen Antworten aus der Kundenbefragung aus und schlag vor, was auf die PBC-Liste muss."
+  aufgabe: unterlagen
+# --- rapport ---
+- text: "Schreib dem WP einen Rapport als Mail-Entwurf: welche Schritte sind vorbereitet, wo gibt's Feststellungen, was ist noch offen."
+  aufgabe: rapport
+- text: "Bitte erstellen Sie den Revisionsrapport für den Wirtschaftsprüfer, wesentliche offene Punkte zuerst."
+  aufgabe: rapport
+# --- gvb-bericht ---
+- text: "Erstelle den Entwurf für den Bericht der Revisionsstelle an die Generalversammlung auf Basis des Vorjahresberichts – nicht unterzeichnen."
+  aufgabe: gvb-bericht
+- text: "Chönntsch mer de Revisionsbricht für d GV vorbereite? Eifach vom letschte Johr übernäh und d Zahle und de Stichtag aktualisiere."
+  aufgabe: gvb-bericht
+# --- pdf-akte ---
+- text: "Der WP hat freigegeben: erzeug jetzt die PDF-Akte und leg sie in M-Files unter Arbeitspapiere ab."
+  aufgabe: pdf-akte
+# --- notiz ---
+- text: "Nimm bitte e Feststellig uf: d Rechnig vom Liferant Huber isch doppelt verbuecht, Konto 4000."
+  aufgabe: notiz
+- text: "Mach einen Buchungsvorschlag: Versicherungsprämie 2026 über CHF 4'800 ist voll im Aufwand 2025 – aktiv abgrenzen."
+  aufgabe: notiz
+- text: "Notier eine Pendenz: Abklären, wofür die Zahlung von CHF 12'500 vom 15.11. an die XY Treuhand war."
+  aufgabe: notiz
+# --- wesentlichkeit ---
+- text: "Lies die Wesentlichkiet aus 3.3 und plausibilisier Bezugsgrösse und Prozentsatz."
+  aufgabe: wesentlichkeit
+# --- kapitalschutz ---
+- text: "Das Eigenkapital ist durch den Verlust stark geschrumpft – prüf bitte, ob ein Kapitalverlust nach Art. 725a OR vorliegt."
+  aufgabe: kapitalschutz
+- text: "Die Gesellschaft ist evtl. überschuldet, es gibt einen Rangrücktritt der Aktionärin über CHF 200'000. Bitte die Überschuldung rechnerisch feststellen und für den WP aufbereiten."
+  aufgabe: kapitalschutz
+# --- vorjahresabstimmung ---
+- text: "Stimm die Eröffnungssaldi mit der geprüften Vorjahresrechnung ab und die Reserven mit dem Gewinnverwendungsbeschluss der GV."
+  aufgabe: vorjahresabstimmung
+# --- delkredere ---
+- text: "Beurteile das Delkredere anhand der Altersstruktur der Debitoren und der Verluste im Vorjahr."
+  aufgabe: delkredere
+- text: "sind die wertberichtigungen auf den debitoren genügend? bitte mit OP-liste und zahlungseingängen nach stichtag nachprüfen"
+  aufgabe: delkredere
+# --- sachanlagen ---
+- text: "Gleichen Sie den Anlagespiegel mit der Inventarliste ab und beurteilen Sie, ob die Zugänge aktivierungsfähig sind."
+  aufgabe: sachanlagen
+# --- abschluss ---
+- text: "Bereite die Vollständigkeitserklärung vor und stell die Liste der nicht korrigierten Fehler für den WP zusammen."
+  aufgabe: abschluss
+- text: "Schau bitte die Buchungen im neuen Jahr durch, ob es Ereignisse nach dem Bilanzstichtag gibt, und sammle Punkte für die Schlussbesprechung."
+  aufgabe: abschluss
+# --- auftrag ---
+- text: "Stell für den WP die Grundlagen zur Auftragsfortführung zusammen: Unabhängigkeit, Revisionsart, Auftragsbestätigung."
+  aufgabe: auftrag
+# --- fachfrage (Wissen, kein Auftrag) ---
+- text: "Was heisst eigentlich hälftiger Kapitalverlust nach Art. 725a OR – welche Positionen zählen zum Aktienkapital und den gesetzlichen Reserven?"
+  aufgabe: fachfrage
+- text: "Wie sind eigene Aktien in der Bilanz auszuweisen?"
+  aufgabe: fachfrage
+- text: "Ab welchen Schwellenwerten ist nach Art. 727 OR eine ordentliche Revision vorgeschrieben?"
+  aufgabe: fachfrage
+- text: "Sind Saldobestätigungen bei der eingeschränkten Revision Pflicht, oder reichen Befragung und analytische Prüfungshandlungen?"
+  aufgabe: fachfrage
+- text: "Müssen Arbeitgeberbeitragsreserven im Anhang offengelegt werden, und wie werden sie bewertet?"
+  aufgabe: fachfrage
+- text: "Darf man nach OR eine Rückstellung für künftige Grossreparaturen bilden, auch wenn keine rechtliche Verpflichtung besteht?"
+  aufgabe: fachfrage
