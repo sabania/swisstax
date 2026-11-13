@@ -110,17 +110,44 @@ def fs_wiki(x, depth=2, n=220, sep=" — "):
 
 
 def qs(*lists):
+    """Quellen-Ids für das Frontmatter `quellen`: Haupt-Fundstelle (quelle bzw. chunk bei Mustern) und alle fundstellen/weitere_fundstellen."""
     out = []
     for L in lists:
         for x in L or []:
             if isinstance(x, dict):
-                if x.get("quelle"):
-                    out.append(x["quelle"].split("__")[0])
+                if x.get("quelle") or x.get("chunk"):
+                    out.append(str(x.get("quelle") or x.get("chunk")).split("__")[0])
                 for k in ("fundstellen", "weitere_fundstellen"):
                     for f in x.get(k) or []:
                         if isinstance(f, dict) and f.get("quelle"):
                             out.append(f["quelle"].split("__")[0])
     return out
+
+
+def aufrufe(x, titel="Nächste Aufrufe"):
+    """Optionales Feld `aufrufe` (Prüfschritt, Phase) bzw. `naechste` (Thema): Werkzeugaufrufe als eine Zeile, sonst leer."""
+    nx = x.get("aufrufe") or x.get("naechste") if isinstance(x, dict) else None
+    if not nx:
+        return ""
+    return f"**{titel}:** " + " · ".join(f"`{str(a).strip().strip('`')}`" for a in ([nx] if isinstance(nx, str) else nx))
+
+
+def ktext(s):
+    """Katalogtext eines Prüfschritts; leer bzw. «None» (Import aus XLSX mit leerer Zelle) → Hinweis statt «None»."""
+    t = s.get("text")
+    return t if t not in (None, "", "None") else "(kein Katalogtext – Inhalt durch WP/consis zu bestätigen)"
+
+
+def wfmt(w):
+    """Betrag mit Einheit für Werte-Tabellen: Einheit weglassen bei ''/Text/Regel, bei Textwerten ohne Ziffer und wenn alle Wörter der
+    Einheit schon im Wert stehen («20 % / 2 Jahre» + «% / Jahre»); Ganzzahlen ab 5 Stellen mit Tausender-Apostroph."""
+    v, e = str(w.get("wert", "")), str(w.get("einheit") or "").strip()
+    v = re.sub(r"(?<![\d.,'])\d{5,}(?!\d|[.,]\d)", lambda m: f"{int(m.group()):,}".replace(",", "'"), v)
+    teile = [t for t in re.split(r"[\s/()]+", e) if t]
+    if e in ("", "Text", "Regel", "None") or not re.search(r"\d", v) or (teile and all(
+            re.search(rf"(?<!\w){re.escape(t)}(?!\w)", v) for t in teile)):
+        return v
+    return f"{v} {e}"
 
 
 def art_of(s):
@@ -177,7 +204,8 @@ def pf_seiten():
                     f"{arts['vorbereiten']} · {arts['teilweise']} · {arts['auf_anweisung']} · {arts['nur_mensch']} | {ICON.get(status, '')} {status} | "
                     f"[Detail](../wiki/prueffelder/{code.lower()}.md) |")
         # quick/prueffeld-<code>.md (kompakt)
-        q = [fm("prueffeld", f"Prüffeld {code} {p['bezeichnung']} – Schnellzugriff", qs(d.get("gesetz"), d.get("bewertung"), d.get("schritte")), "entwurf",
+        alle_fs = qs(*(d.get(k) for k in ("gesetz", "risiken", "bewertung", "unterlagen", "fallstricke", "schritte")))
+        q = [fm("prueffeld", f"Prüffeld {code} {p['bezeichnung']} – Schnellzugriff", alle_fs, "entwurf",
                 quelle_sha=PF_SHA.get(code)),
              f"# {code} · {p['bezeichnung']}", "",
              f"revio Bereich 4 · {len(st)} Schritte (Befragung {p['anzahl'].get('befragung', 0)}, Analytisch {p['anzahl'].get('analytisch', 0)}, "
@@ -191,7 +219,7 @@ def pf_seiten():
         if d.get("bewertung"):
             q += ["## Bewertung / Bilanzierung"] + [f"- {b['regel']}" + fs_quick(b) + praxis(b, b.get("regel")) for b in d["bewertung"]] + [""]
         if d.get("unterlagen"):
-            q += ["## Unterlagen (PBC)"] + [f"- {u['dokument']} – {u.get('zweck', '')}" + praxis(u, u.get("dokument"), u.get("zweck"))
+            q += ["## Unterlagen (PBC)"] + [f"- {u['dokument']} – {u.get('zweck', '')}" + fs_quick(u) + praxis(u, u.get("dokument"), u.get("zweck"))
                                             for u in d["unterlagen"]] + [""]
         if d.get("fragen_kunde"):
             q += ["## Fragen an den Kunden (Pendenz / 10.11 – nie selbst befragen)"] + [f"- {f['frage']}" for f in d["fragen_kunde"]] + [""]
@@ -203,11 +231,11 @@ def pf_seiten():
         for s in st:
             e = by.get(s["id"], {})
             q.append(f"| {s['id']} | {s['typ']} | {s.get('kennzeichnung') or ''} | {' '.join(s.get('pruefziele') or [])} | {art_of(s)} | "
-                     f"{cut(s['text'], 140).replace('|', '/')} | {cut(e.get('vorgehen'), 160).replace('|', '/')} |")
+                     f"{cut(ktext(s), 140).replace('|', '/')} | {cut(e.get('vorgehen'), 160).replace('|', '/')} |")
         write(f"quick/prueffeld-{code.lower()}.md", "\n".join(q) + "\n")
         # wiki/prueffelder/<code>.md (Detail mit allen Zitaten)
         if d:
-            w = [fm("prueffeld-detail", f"Prüffeld {code} {p['bezeichnung']} – Detail mit Fundstellen", qs(d.get("gesetz"), d.get("bewertung"), d.get("risiken"), d.get("schritte")), "entwurf",
+            w = [fm("prueffeld-detail", f"Prüffeld {code} {p['bezeichnung']} – Detail mit Fundstellen", alle_fs, "entwurf",
                     quelle_sha=PF_SHA.get(code)),
                  f"# {code} · {p['bezeichnung']} – Detail", "", f"Status {ICON.get(status, '')} {status} · erfasst {d.get('erfasst', {}).get('datum', '')} · "
                  f"Nachprüfung: {d.get('erfasst', {}).get('nachpruefung', {})} · Schnellzugriff: [quick/prueffeld-{code.lower()}.md](../../quick/prueffeld-{code.lower()}.md)", "",
@@ -228,7 +256,7 @@ def pf_seiten():
                 e = by.get(s["id"], {})
                 w += ["", f"### {s['id']} · {s['typ']}" + (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else "") + f" · Agent: {art_of(s)}",
                       f"Prüfziele: {', '.join(f'{z} {ZIELE.get(z, z)}' for z in s.get('pruefziele') or []) or '–'}", "",
-                      f"> {s['text']}", ""]
+                      f"> {ktext(s)}", ""]
                 if s.get("beispiel_pflichtenheft"):
                     w.append(f"Beispiel Pflichtenheft: {s['beispiel_pflichtenheft']}")
                 if e:
@@ -239,8 +267,11 @@ def pf_seiten():
                         w.append(f"**Rechnen:** {e['rechnen']}")
                     if e.get("feststellung_wenn"):
                         w.append(f"**Feststellung, wenn:** {e['feststellung_wenn']}")
-                    if e.get("fundstellen"):
-                        w += ["**Fundstellen:**"] + [f"- {zit(f, 2)}" for f in e["fundstellen"]]
+                    if e.get("aufrufe"):
+                        w.append(aufrufe(e, "Werkzeuge für diesen Schritt"))
+                    fs = (e.get("fundstellen") or []) + (e.get("weitere_fundstellen") or [])
+                    if fs:
+                        w += ["**Fundstellen:**"] + [f"- {zit(f, 2)}" for f in fs if isinstance(f, dict)]
             write(f"wiki/prueffelder/{code.lower()}.md", "\n".join(w) + "\n")
     hdr = [fm("quick-prueffelder", "Prüffelder revio 4.0 – Übersicht", ["katalog-revio4"], "entwurf"), "# Prüffelder (revio 4.0, Bereich 4)", "",
            "Spalte «Agent»: Anzahl Schritte vorbereiten · teilweise (Befragung) · auf Anweisung (4xx) · nur Mensch (WP).", "",
@@ -288,7 +319,8 @@ def testfall_hinweise():
 
 def pbc_fragen():
     u = [fm("pbc", "Unterlagen (PBC) je Prüffeld", qs(*[d.get("unterlagen") for d in PF.values()])), "# Unterlagen (PBC) je Prüffeld", "",
-         "In M-Files suchen; Fehlendes als Notiz «Pendenz» (Konto, Datum, Betrag) und Vorschlag für die PBC-Liste 10.10. Die Anforderung beim Kunden macht der Mensch.", ""]
+         "In M-Files suchen; Fehlendes als Pendenz-Notiz «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)» (Konto, Datum, Betrag) – nie direkt in 10.10 "
+         "(PBC-Liste nur lesen). Die Anforderung beim Kunden macht der Mensch.", ""]
     f = [fm("fragen", "Fragen an den Kunden je Prüffeld", []), "# Fragen an den Kunden je Prüffeld", "",
          "Der Agent befragt nie selbst: schriftliche Antworten (10.11 Kundenbefragung, Protokolle, VE) auswerten, sonst Frage als Pendenz.", ""]
     for code, d in PF.items():
@@ -308,16 +340,19 @@ def prozess_seiten():
     for p in PH:
         q.append(f"| **{p['id']}** {p['titel']} | {cut(p.get('ziel'), 160)} | {cut(p.get('wann'), 90)} | {len(p.get('entscheidungen_wp') or [])} | "
                  f"[Detail](../wiki/prozess/{p['id']}.md) |")
-        w = [fm("prozess-detail", f"{p['id']} {p['titel']}", qs(p.get("gesetz"), p.get("schritte"), p.get("entscheidungen_wp"), p.get("dokumentation"))),
+        w = [fm("prozess-detail", f"{p['id']} {p['titel']}", qs(*(p.get(k) for k in ("gesetz", "schritte", "entscheidungen_wp", "unterlagen", "dokumentation",
+                                                                          "fallstricke", "muster")))),
              f"# {p['id']} · {p['titel']}", "", f"Status {ICON.get(p.get('status'), '')} {p.get('status')} · Ziel: {p.get('ziel', '')}", "", f"**Wann:** {p.get('wann', '')}", ""]
+        if p.get("aufrufe"):
+            w += [aufrufe(p), ""]
         if p.get("gesetz"):
-            w += ["## Gesetz / Standard"] + [f"- **{g.get('thema', '')}**: {zit(g, 2)}" for g in p["gesetz"]] + [""]
+            w += ["## Gesetz / Standard"] + [f"- **{g.get('thema', '')}**:" + (fs_wiki(g, 2, 220, " ") or praxis(g, g.get("thema"))) for g in p["gesetz"]] + [""]
         if p.get("schritte"):
             w += ["## Was nötig ist (Reihenfolge flexibel)", "", "| Wer | Was | revio | M-Files | Fundstelle |", "|---|---|---|---|---|"]
             for s in p["schritte"]:
-                f0 = (s.get("fundstellen") or [{}])
+                f0 = [f for f in (s.get("fundstellen") or []) + (s.get("weitere_fundstellen") or []) if isinstance(f, dict) and f.get("quelle")]
                 w.append(f"| {s.get('wer', '')} | {s['was'].replace('|', '/')} | {s.get('revio', '').replace('|', '/')} | {s.get('mfiles', '').replace('|', '/')} | "
-                         f"{'<br>'.join(link(f.get('quelle'), 2) for f in f0 if f.get('quelle'))} |")
+                         f"{'<br>'.join(link(c, 2) for c in dict.fromkeys(f['quelle'] for f in f0)) or '(Praxis/intern)'} |")
             w.append("")
         for title, key, fn in (("Entscheide des Wirtschaftsprüfers", "entscheidungen_wp", lambda x: f"- {x['text']}" + fs_wiki(x, 2, 160) + praxis(x, x.get("text"))),
                                ("Fragen an den Kunden", "fragen_kunde", lambda x: f"- {x['frage']} ({x.get('zweck', '')})"),
@@ -335,7 +370,7 @@ def prozess_seiten():
           "| Prozess | Ort | Agent | Grenze |", "|---|---|---|---|",
           "| 1 Import Jahresrechnung | M-Files → revio 1.1 | definitive Bilanz/ER suchen, importieren, Vorzeichen Passiven, Konten zuordnen, Bilanzgleichheit/Totale abstimmen | unklare Zuordnung → Pendenz; Testphase: Halt zur Kontrolle |",
           "| 2 Markierte Abschlussprüfungen | revio 4 Prüffelder | Prüfschritte nach Typ, Nachweise aus M-Files, Textfeld, Belege, Notizen | kein Visum, kein ✓, keine Abschliessende Beurteilung |",
-          "| 3 Unterlagen zum Abschluss | revio 10.9 | Protokoll Vorjahr beschaffen, Zugehörigkeit prüfen, ablegen; fehlende Unterlagen → PBC-Vorschlag 10.10 | Status offen; Anforderung beim Kunden durch Mensch |",
+          "| 3 Unterlagen zum Abschluss | revio 10.9 | Protokoll Vorjahr beschaffen, Zugehörigkeit prüfen, ablegen; fehlende Unterlagen → Pendenz-Notiz «PBC-Vorschlag» (10.10 nur lesen) | Status offen; Anforderung beim Kunden durch Mensch |",
           "| 4 Revisionsrapport | E-Mail an WP | Status aller Schritte, offene/wesentliche Punkte zuerst | nur an freigegebene WP-Adresse |",
           "| 5 GVB-Revisionsbericht | M-Files | Vorjahr kopieren, Zahlen/Stichtage/Ergebnis aktualisieren, gegen 7.1/7.5 prüfen | keine Unterzeichnung/Datierung; Vorjahresoriginale unverändert |",
           "| 6 PDF-Akte | revio → M-Files | nur auf Anweisung erzeugen, prüfen, ablegen | nichts überschreiben |",
@@ -365,7 +400,7 @@ def werte_seite():
     for k in sorted(by):
         q += ["", f"## {k}", "", "| Wert | Betrag | gilt | Bemerkung | Fundstelle |", "|---|---|---|---|---|"]
         for w in by[k]:
-            q.append(f"| {w['bezeichnung']} (`{w['key']}`) | **{w['wert']} {w.get('einheit', '')}** | {w.get('gilt', '')} | {cut(w.get('bemerkung'), 120).replace('|', '/')} | "
+            q.append(f"| {w['bezeichnung']} (`{w['key']}`) | **{wfmt(w).replace('|', '/')}** | {w.get('gilt', '')} | {cut(w.get('bemerkung'), 120).replace('|', '/')} | "
                      f"{link(w['quelle'], 1)} |")
     write("quick/werte.md", "\n".join(q) + "\n")
 
@@ -519,12 +554,11 @@ def themen_seiten():
     for t in TH:
         w = [fm("thema", t["titel"], qs(t.get("aussagen"))), f"# {t['titel']}", "", t.get("kurz", ""), ""]
         for a in t.get("aussagen") or []:
-            w.append(f"- {a['text']}" + (f" — {zit(a, 2, 200)}" if a.get("quelle") else ""))
+            w.append(f"- {a['text']}" + fs_wiki(a, 2, 200))
         if t.get("agent"):
             w += ["", "## Für den Agenten"] + [f"- {x}" for x in t["agent"]]
-        nx = t.get("naechste") or t.get("aufrufe")   # optionale Felder (build_data.py reicht sie durch; tools/revision.py thema)
-        if nx:
-            w += ["", "**Nächste Aufrufe:** " + " · ".join(f"`{x}`" for x in ([nx] if isinstance(nx, str) else nx))]
+        if aufrufe(t):   # optionale Felder naechste/aufrufe (build_data.py reicht sie durch; tools/revision.py thema)
+            w += ["", aufrufe(t)]
         if t.get("prueffelder"):
             w += ["", "Prüffelder: " + ", ".join(f"[{c}](../prueffelder/{c.lower()}.md)" for c in t["prueffelder"])]
         if t.get("phasen"):
@@ -549,7 +583,7 @@ def index_seite():
          "| Frage | Seite | Tool |", "|---|---|---|",
          "| Was ist bei Prüfschritt X zu tun? | [prueffeld-<code>.md](prueffelder.md) | `pruefschritt C1-302` |",
          "| Prüffeld: Risiken, Bewertung, PBC, Fragen | [prueffelder.md](prueffelder.md) | `prueffeld C1` |",
-         "| Welche Unterlagen anfordern? | [pbc-liste.md](pbc-liste.md) | `unterlagen C1` |",
+         "| Welche Unterlagen braucht es (PBC; Fehlendes → Pendenz «PBC-Vorschlag»)? | [pbc-liste.md](pbc-liste.md) | `unterlagen C1` |",
          "| Welche Fragen an den Kunden? | [fragen-kunde.md](fragen-kunde.md) | `fragen C1` |",
          "| Ablauf, Phasen, WP-Entscheide | [prozess.md](prozess.md) | `prozess p6` |",
          "| Was darf der Agent? Notizen? Ablauf je Schritt? | [regeln.md](regeln.md) | `regeln grenze` |",

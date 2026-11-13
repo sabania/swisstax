@@ -84,7 +84,9 @@ def main():
     lk = {
         "inputs_sha256": ein,
         "quellen": quellen,
-        "katalog": {"prueffelder": kat.get("prueffelder", []), "schritte": {s["id"]: s for s in kat.get("schritte", [])}},
+        # Katalogtext «None» (leere XLSX-Zelle beim Import, z.B. P1-141/S1-151/T1-173) → "" – sonst zeigt das Werkzeug «None» als Prüfschritt
+        "katalog": {"prueffelder": kat.get("prueffelder", []),
+                    "schritte": {s["id"]: {**s, "text": "" if s.get("text") in (None, "None") else s["text"]} for s in kat.get("schritte", [])}},
         "regeln": (y(R / "data" / "regeln.yaml", {}) or {}).get("regeln", []),
         "pf": pf,
         "prozess": prozess,

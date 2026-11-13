@@ -69,6 +69,8 @@ def fix(cid, zitat, ctx):
 
 
 def norm_items(items, ctx, keep_without=True):
+    """Fundstellen prüfen/reparieren – auch die optionalen Listen fundstellen/weitere_fundstellen je Eintrag (ungültige entfernt, leere
+    Liste weggelassen). keep_without=False: Einträge ohne gültige Haupt-Fundstelle verwerfen."""
     out = []
     for i, x in enumerate(items or []):
         x = dict(x)
@@ -79,6 +81,13 @@ def norm_items(items, ctx, keep_without=True):
             x["quelle"], x["zitat"] = c2, z2
         elif not keep_without:
             continue
+        for k in ("fundstellen", "weitere_fundstellen"):
+            if k in x:
+                fs = norm_items([f for f in (x[k] or []) if isinstance(f, dict)], f"{ctx}[{i}].{k}", keep_without=False)
+                if fs:
+                    x[k] = fs
+                else:
+                    x.pop(k)
         out.append(x)
     return out
 

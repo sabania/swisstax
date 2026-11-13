@@ -6,13 +6,18 @@
 
 Prüft (ERR): Zitate in data/ und eval/ (wörtlich im Chunk, auch `fundstellen`/`weitere_fundstellen`), Schritt-Ids gegen Katalog,
 Prüffeld-Codes und Dateinamen, revio-Werkzeugnamen gegen die Werkzeugliste, OpenClaw-Liste ↔ Klassifikation (werkzeuge.csv) ↔ Ketten
-↔ Policy, Besonderheiten (Codes/Schritte), ^[chunk-id] in Code/Skills/OpenClaw/data/aufgaben.yaml/data/regeln.yaml/data/revio,
-nackte Chunk-Ids im Fliesstext von data/**/*.yaml (z.B. «(dbg__art-67)»), Links in quick/, wiki/ und eval/testfall-2025/hinweise/,
-Dateinamen (kebab-case, ASCII, kein Datumspräfix), «Testakte» ausserhalb des Feldes testakte_2025 (data/prueffelder) und überall in
-quick/ und wiki/, Aktualität (sha256 data/prueffelder/<code>.yaml = lookup pf[code]._sha = quelle_sha der Seiten quick/prueffeld-<code>.md
-und wiki/prueffelder/<code>.md; lookup inputs_sha256 = Eingaben), Hash der Originale (raw/).
+↔ Policy, Besonderheiten (Codes/Schritte), ^[chunk-id] in Code/Skills/OpenClaw und im Fliesstext aller data/**/*.yaml (Prüffelder,
+Prozess, Themen, Werte, Aufgaben, Regeln, revio – inline ^[…] und nackte Ids wie «(dbg__art-67)»), Links in quick/, wiki/ und
+eval/testfall-2025/hinweise/, Dateinamen (kebab-case, ASCII, kein Datumspräfix), «Testakte» ausserhalb des Feldes testakte_2025
+(data/prueffelder) und überall in quick/ und wiki/, Aktualität (sha256 data/prueffelder/<code>.yaml = lookup pf[code]._sha = quelle_sha
+der Seiten quick/prueffeld-<code>.md und wiki/prueffelder/<code>.md; lookup inputs_sha256 = Eingaben), Schema der optionalen Felder
+(fundstellen/weitere_fundstellen = Liste {quelle, zitat}; aufrufe/naechste = Text oder Liste von Texten; naechste der Aufgaben = Aufgaben-Ids),
+Inline-Zitate «…» in bemerkung/pruefnotiz von data/werte (gegen die Chunk-Id davor/danach oder die eigene quelle), Hash der Originale (raw/).
 Warnungen (WARN): Einträge ohne Fundstelle in gesetz/risiken/fallstricke/bewertung/unterlagen ohne «Praxis» im Text, kurzbeschrieb
-> 300 Zeichen (Kompaktbündel kürzt), Kürzel mit Testakte-Bezug in data/**, Schritte ohne Detailwissen/Fundstelle u.a.
+> 300 Zeichen (Kompaktbündel kürzt), Kürzel mit Testakte-Bezug in data/**, Schritte ohne Detailwissen/Fundstelle, deny-Werkzeuge
+(openclaw/revio-tool-policy.json) in data/ (ohne data/revio), Skills oder OpenClaw-Snippet in einem Satz ohne Sperrvermerk (nie, nicht,
+kein, nur WP/Mensch, deny, gesperrt, ⛔, Kandidat), «Prozess N» (mehrdeutig zu den Phasen p1–p8) in data/prozess ausserhalb von Zitaten,
+«Rz N» ohne Chunk-Id in data/werte, aufrufe mit unbekanntem Befehl u.a.
 """
 from __future__ import annotations
 import argparse, collections, csv, hashlib, json, re, sys
@@ -242,8 +247,9 @@ def verweise_dateien():
 
 
 def verweise(files=None):
-    """^[chunk-id] in Werkzeug-Code, Aufgaben, Regeln, revio-Daten, Skills und OpenClaw-Snippet sowie nackte Chunk-Ids im Fliesstext
-    von data/**/*.yaml (ohne die Felder quelle/chunk/zitat, die zitate() prüft) müssen existieren. Je Datei und Id eine Meldung."""
+    """^[chunk-id] in Werkzeug-Code, Aufgaben, Regeln, revio-Daten, Skills und OpenClaw-Snippet sowie Inline-Verweise ^[chunk-id] und
+    nackte Chunk-Ids im Fliesstext aller data/**/*.yaml – auch data/prueffelder, data/prozess, data/themen, data/werte (ohne die Felder
+    quelle/chunk/zitat, die zitate() prüft) – müssen existieren. Je Datei und Id eine Meldung; mit --datei nur diese Dateien."""
     caret = set(verweise_dateien())
     data = set(sorted((R / "data").rglob("*.yaml")))
     if files is not None:
@@ -257,12 +263,163 @@ def verweise(files=None):
                 ids.setdefault(cid, "^[…]")
         if p in data:
             for _, s in texte(laden(p), ohne=("testakte_2025", "quelle", "chunk", "zitat")):
+                for cid in CARET.findall(s):   # Inline-Verweise zuerst (Meldung «^[…]»), übrige Ids im Text als «nackt»
+                    ids.setdefault(cid, "^[…]")
                 for cid in NACKT.findall(s):
                     ids.setdefault(cid, "nackt")
         for cid, art in sorted(ids.items()):
             N["verweise" if art == "^[…]" else "nackt"] += 1
             if rv.chunk_text(cid) is None:
                 ERR.append(f"{rel(p)}: Verweis auf fehlenden Chunk " + (f"^[{cid}]" if art == "^[…]" else f"«{cid}» (Fliesstext)"))
+
+
+WZ_NAME = re.compile(r"(?<![A-Za-z0-9_])(rv_[A-Za-z0-9_]+|revio_[a-z_]+)")
+# Sperrvermerk im selben Satz: nie/nicht/kein, nur WP/Mensch (auch «nur durch den Menschen»), deny, gesperrt, ⛔, Kandidat, verboten
+SPERRVERMERK = re.compile(r"(?i)\bnie\b|\bnicht\b|\bkein\w*|\bnur\s+(?:durch\s+(?:den\s+)?)?(?:WP|Mensch\w*)|\bnur_mensch\b|\bdeny\b|gesperrt|"
+                          r"sperren|⛔|\bkandidat|verboten")
+ABK_ENDE = re.compile(r"(?:^|[\s(])(?:[A-Za-zÄÖÜäöü]{1,2}\.|(?:[A-Za-z]\.){2,}|Abs\.|Art\.|Ziff\.|lit\.|bzw\.|ggf\.|inkl\.|vgl\.|evtl\.|"
+                      r"Bst\.|Tab\.|ca\.|etc\.|Rz\.)$")
+
+
+def saetze(s: str) -> list[str]:
+    """Text in Sätze teilen (Satzende . ! ? oder Zeilenumbruch); nach Abkürzungen (z. B., Art., Abs., Ziff. …) nicht trennen."""
+    out: list[str] = []
+    for x in re.split(r"(?<=[.!?])\s+|\n+", s):
+        if out and ABK_ENDE.search(out[-1]):
+            out[-1] += " " + x
+        elif x.strip():
+            out.append(x)
+    return out
+
+
+def deny_werkzeuge(files=None):
+    """WARN: ein für den Agenten gesperrtes revio-Werkzeug (deny in openclaw/revio-tool-policy.json, d.h. weder allow noch approval)
+    steht in einem Satz ohne Sperrvermerk (nie, nicht, kein, nur WP/Mensch, deny, gesperrt, ⛔, Kandidat) – in data/**/*.yaml ausser
+    data/revio/ (dort Klassifikation mit eigenen Prüfungen), in Skills und im OpenClaw-Snippet. Zitate (Feld zitat) ausgenommen."""
+    pol = R / "openclaw" / "revio-tool-policy.json"
+    if not pol.exists():
+        return
+    d = json.loads(pol.read_text(encoding="utf-8"))
+    deny = set(d.get("deny", [])) - set(d.get("allow", [])) - set(d.get("approval", []))
+    data = [p for p in sorted((R / "data").rglob("*.yaml")) if (R / "data" / "revio") not in p.parents]
+    md = sorted((R / "skills").rglob("*.md")) + sorted((R / "openclaw").glob("*.md"))
+    if files is not None:
+        data, md = [p for p in files if p in set(data)], [p for p in files if p in set(md)]
+    texte_je = [(p, texte(laden(p), ohne=("testakte_2025", "quelle", "chunk", "zitat"))) for p in data] + \
+               [(p, [(f":{i}", z) for i, z in enumerate(p.read_text(encoding="utf-8").splitlines(), 1)]) for p in md]
+    for p, ts in texte_je:
+        for ort, s in ts:
+            for satz in saetze(s):
+                ws = [w for w in dict.fromkeys(WZ_NAME.findall(satz)) if w in deny]
+                N["deny_saetze"] += bool(ws)
+                if ws and not SPERRVERMERK.search(satz):
+                    WARN.append(f"{rel(p)}{ort}: gesperrtes Werkzeug {', '.join(ws)} ohne Sperrvermerk (nie/nur WP/nur Mensch/deny) – "
+                                f"«{rv.cut(satz, 120)}»")
+
+
+PROZESS_N = re.compile(r"(?<!Agent-)\bProzess [1-6]\b")
+
+
+def prozess_nummern(files=None):
+    """WARN je Datei: «Prozess N» (Agent-Prozesse 1–6 des Konzepts) in data/prozess/*.yaml ausserhalb von Zitaten – mehrdeutig zu den
+    Wiki-Phasen p1–p8 (`prozess p2` ≠ Agent-Prozess 2); «Agent-Prozess N» schreiben."""
+    ph = sorted((R / "data" / "prozess").glob("*.yaml"))
+    for p in (ph if files is None else [x for x in files if x in set(ph)]):
+        orte = [ort for ort, s in texte(laden(p), ohne=("testakte_2025", "quelle", "chunk", "zitat")) for _ in PROZESS_N.finditer(s)]
+        if orte:
+            o = list(dict.fromkeys(orte))
+            WARN.append(f"{rel(p)}: {len(orte)}× «Prozess N» ausserhalb von Zitaten (mehrdeutig zu den Phasen p1–p8) – «Agent-Prozess N» "
+                        f"schreiben: {', '.join(o[:6])}{' …' if len(o) > 6 else ''}")
+
+
+def befehle() -> set[str]:
+    """Befehle von tools/revision.py (argparse add_parser) – für die Felder aufrufe/naechste."""
+    return set(re.findall(r"""add_parser\(\s*["']([\w-]+)["']""", (R / "tools" / "revision.py").read_text(encoding="utf-8")))
+
+
+def schema(files=None):
+    """Optionale Felder in data/**/*.yaml: fundstellen/weitere_fundstellen = Liste von {quelle, zitat} (ERR; walk()/zitate() prüft nur
+    Einträge mit zitat); aufrufe/naechste (Prüfschritte, Phasen, Themen) = Text oder Liste nicht leerer Texte (ERR), erstes Wort ein
+    Befehl von tools/revision.py (WARN); naechste der Aufgaben (data/aufgaben.yaml) = vorhandene Aufgaben-Ids (ERR)."""
+    alle = sorted((R / "data").rglob("*.yaml"))
+    cmds = befehle()
+    auf = R / "data" / "aufgaben.yaml"
+
+    def pruef(o, p, path=""):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                ort = f"{rel(p)}{path}.{k}"
+                if k in ("fundstellen", "weitere_fundstellen"):
+                    if not isinstance(v, list):
+                        ERR.append(f"{ort}: muss eine Liste von {{quelle, zitat}} sein")
+                    else:
+                        for i, f in enumerate(v):
+                            if not (isinstance(f, dict) and (f.get("quelle") or f.get("chunk")) and f.get("zitat")):
+                                ERR.append(f"{ort}[{i}]: Fundstelle ohne quelle/zitat – «{rv.cut(str(f), 70)}»")
+                elif k in ("aufrufe", "naechste") and p != auf:
+                    xs = [v] if isinstance(v, str) else v
+                    if not isinstance(xs, list) or not all(isinstance(x, str) and x.strip() for x in xs):
+                        ERR.append(f"{ort}: muss Text oder Liste nicht leerer Texte (Werkzeugaufrufe) sein")
+                    else:
+                        for x in xs:
+                            c = x.strip().strip("`").split()[0]
+                            if c not in cmds:
+                                WARN.append(f"{ort}: «{rv.cut(x, 60)}» – unbekannter Befehl «{c}» (revision.py: {', '.join(sorted(cmds)[:6])} …)")
+                pruef(v, p, f"{path}.{k}")
+        elif isinstance(o, list):
+            for i, v in enumerate(o):
+                pruef(v, p, f"{path}[{i}]")
+
+    for p in (alle if files is None else [x for x in files if x in set(alle)]):
+        d = laden(p)
+        if d is None:
+            continue
+        pruef(d, p)
+        if p == auf and isinstance(d, dict):
+            ids = {a.get("id") for a in d.get("aufgaben") or []}
+            for a in d.get("aufgaben") or []:
+                for n in a.get("naechste") or []:
+                    if n not in ids:
+                        ERR.append(f"data/aufgaben.yaml {a.get('id')}: naechste «{n}» ist keine Aufgabe")
+
+
+CID_TEXT = NACKT
+INLINE_Z = re.compile(r"«([^«»]+)»")
+RZ = re.compile(r"\bRz\.?\s*(\d+)(?:\s*[–-]\s*(\d+))?")   # auch Bereiche «Rz 371–372»
+
+
+def werte_inline(files=None):
+    """data/werte/*.yaml, Felder bemerkung/pruefnotiz: ERR, wenn ein Inline-Zitat «…» (ab 4 Wörtern) mit einer Chunk-Id im selben Text
+    weder im Chunk davor/danach noch in der eigenen quelle steht (rv.zitat_ok); WARN «Rz N» ohne Chunk-Id (keine rz-0N…-Id im Text,
+    keine Chunk-Id direkt danach, nicht die eigene quelle) – sonst kann das Modell die Randziffer nicht mit `zeige` öffnen."""
+    wf = sorted((R / "data" / "werte").glob("*.yaml"))
+    for p in (wf if files is None else [x for x in files if x in set(wf)]):
+        for i, w in enumerate((laden(p) or {}).get("werte") or []):
+            if not isinstance(w, dict):
+                continue
+            for fld in ("bemerkung", "pruefnotiz"):
+                s = str(w.get(fld) or "")
+                ort = f"{rel(p)} {w.get('key', i)}.{fld}"
+                for m in INLINE_Z.finditer(s):
+                    z = m.group(1)
+                    vor = [x.group(1) for x in CID_TEXT.finditer(s[:m.start()])][-1:]
+                    nach = [x.group(1) for x in CID_TEXT.finditer(s[m.end():])][:1]
+                    if len(z.split()) < 4 or not (vor or nach):   # kurze Bezeichnungen («Pendenz») und Text ohne Chunk-Id: kein Zitat
+                        continue
+                    N["inline_zitate"] += 1
+                    kand = [c for c in dict.fromkeys(vor + nach + [w.get("quelle")]) if c]
+                    if not any((t := rv.chunk_text(c)) and rv.zitat_ok(t, z) for c in kand):
+                        ERR.append(f"{ort}: Inline-Zitat nicht im Chunk {' / '.join(kand)}: «{rv.cut(z, 80)}» (Bezeichnung statt Zitat? "
+                                   "dann ohne «» oder kürzer als 4 Wörter)")
+                for m in RZ.finditer(s):
+                    a = int(m.group(1))
+                    b = int(m.group(2)) if m.group(2) and 0 <= int(m.group(2)) - a <= 20 else a
+                    rz = re.compile(rf"rz-0*(?:{'|'.join(str(n) for n in range(a, b + 1))})(?!\d)")
+                    nach = CID_TEXT.search(s[m.end():])
+                    if rz.search(str(w.get("quelle") or "")) or rz.search(s) or (nach and nach.start() < 40):
+                        continue
+                    WARN.append(f"{ort}: «Rz {m.group(1)}» ohne Chunk-Id – Id ergänzen (`suche \"Rz {m.group(1)}\"` → z.B. hwp-er-2026__rz-0…): "
+                                f"«{rv.cut(s[max(0, m.start() - 40):m.end() + 40], 100)}»")
 
 
 def links():
@@ -439,7 +596,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__.split("\n\n", 1)[1],
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--datei", nargs="+", metavar="PFAD",
-                    help="nur diese Datei(en) prüfen, z.B. data/prueffelder/c1.yaml: Zitate, Verweise, Testakte, Praxis-Kennzeichnung, "
+                    help="nur diese Datei(en) prüfen, z.B. data/prueffelder/c1.yaml: Zitate, Verweise (^[…] und nackte Ids), Schema "
+                         "(fundstellen/aufrufe), Inline-Zitate data/werte, deny-Werkzeuge, «Prozess N», Testakte, Praxis-Kennzeichnung, "
                          "kurzbeschrieb, Aktualität (Prüffeld). reports/lint.md bleibt unverändert.")
     a = ap.parse_args()
     if a.datei:   # für Korrektur-Agenten: schnell, nur die eigenen Dateien
@@ -452,6 +610,10 @@ def main():
                 files.append(p)
         zitate(files)
         verweise(files)
+        schema(files)
+        werte_inline(files)
+        deny_werkzeuge(files)
+        prozess_nummern(files)
         testakte(files)
         praxis_kurz(files)
         aktualitaet(files)
@@ -469,6 +631,10 @@ def main():
     katalog()
     werkzeuge()
     verweise()
+    schema()
+    werte_inline()
+    deny_werkzeuge()
+    prozess_nummern()
     links()
     testakte()
     praxis_kurz()
@@ -477,8 +643,9 @@ def main():
     hashes()
     err, warn = list(dict.fromkeys(ERR)), list(dict.fromkeys(WARN))
     rep = ["# Lint Revisions-Wiki", "",
-           f"Zitate geprüft: {N['zitate']} · Verweise ^[…]: {N['verweise']} · nackte Chunk-Ids: {N['nackt']} · Links: {N['links']} · Seiten: {N['dateien']} · "
-           f"Testakte-Prüfung: {N['testakte']} Datendateien + {N['testakte_seiten']} Seiten · Aktualität: {N['aktualitaet']} Prüffelder",
+           f"Zitate geprüft: {N['zitate']} (+ {N['inline_zitate']} Inline-Zitate data/werte) · Verweise ^[…]: {N['verweise']} · nackte Chunk-Ids: {N['nackt']} · "
+           f"Links: {N['links']} · Seiten: {N['dateien']} · Testakte-Prüfung: {N['testakte']} Datendateien + {N['testakte_seiten']} Seiten · "
+           f"Aktualität: {N['aktualitaet']} Prüffelder · Sätze mit deny-Werkzeug: {N['deny_saetze']}",
            f"**Fehler: {len(err)} · Warnungen: {len(warn)}**", ""]
     if err:
         rep += ["## Fehler"] + [f"- {e}" for e in err] + [""]

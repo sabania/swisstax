@@ -31,6 +31,11 @@ NR_TYP = {v: f"{k}xx" for k, v in TYP_NR.items()}   # Befragung → 1xx … (Kat
 ZIELE = {"EX": "Bestand", "VO": "Vollständigkeit", "EN": "Eintritt", "RV": "Rechte/Verpflichtungen", "BE": "Bewertung",
          "PA": "Periodenabgrenzung", "DO": "Darstellung/Offenlegung", "RI": "Richtigkeit (vermutlich, zu bestätigen)"}
 STATUS = "☑️ agent-geprüft (Fundstellen maschinell geprüft, fachliche Abnahme durch den WP steht aus)"
+# Status aus den Daten (Feld status der Prüffeld-/Prozess-/Themen-YAML) statt fester Konstante
+STATUS_TXT = {"verifiziert": "✅ verifiziert (WP)", "agent-geprueft": STATUS,
+              "extrahiert": "⚠️ extrahiert – Zweitprüfung verlangt Korrekturen, noch nicht eingearbeitet (Fundstellen maschinell geprüft): "
+                            "Zitate vor Verwendung mit `zeige` prüfen, Ergebnis im Textfeld/Rapport als vorläufig kennzeichnen",
+              "offen": "⚠️ offen – noch nicht erfasst/geprüft"}
 
 
 # ------------------------------------------------------------------ Grundlagen
@@ -156,8 +161,34 @@ def db():
 
 
 def kurz_of(cid: str) -> str:
+    """Kurzname der Quelle; HWP OR und SA-CH (ordentliche Revision) gekennzeichnet – für die eingeschränkte Revision nur ergänzend."""
     q = (cid or "").split("__")[0]
-    return (L().get("quellen", {}).get(q) or {}).get("kurz") or q
+    kurz = (L().get("quellen", {}).get(q) or {}).get("kurz") or q
+    return kurz + (" (ordentliche Revision, nur ergänzend)" if q.startswith(("hwp-or", "sa-ch")) else "")
+
+
+def ktext(s: dict) -> str:
+    """Katalogtext eines Prüfschritts; leere Zellen im Katalog (None/«None») offenlegen statt «None» anzeigen."""
+    t = s.get("text")
+    return str(t) if t not in (None, "", "None") else "(im Katalog ohne Text – Inhalt in revio nachlesen; unklar → Notiz «Pendenz» an den WP)"
+
+
+def _np(d: dict) -> dict:
+    """Nachprüfung eines Datensatzes (Themen: nachpruefung; Prüffelder/Prozess: erfasst.nachpruefung)."""
+    return d.get("nachpruefung") or (d.get("erfasst") or {}).get("nachpruefung") or {}
+
+
+def status_wissen(d: dict | None, leer: str = "Katalog (Quelle: Anhang H)") -> str:
+    """Statuszeile aus den Daten: status (STATUS_TXT); Nachprüfung «korrigieren» nicht eingearbeitet → vorläufig."""
+    if not d:
+        return leer
+    st = d.get("status")
+    txt = STATUS_TXT.get(st, STATUS)
+    n = _np(d)
+    if st != "extrahiert" and st != "verifiziert" and n.get("urteil") == "korrigieren" and n.get("korrigiert") is not True:
+        txt = (f"⚠️ vorläufig: Nachprüfung mit {n.get('befunde') or 'mehreren'} Befunden noch nicht eingearbeitet (Fundstellen maschinell "
+               "geprüft) – Ergebnis im Textfeld/Rapport als vorläufig kennzeichnen")
+    return txt
 
 
 def fs(cid, zitat=None, n=180) -> str:
@@ -389,7 +420,7 @@ def pf_code(ref: str) -> str | None:
     for p in kat:
         e = L().get("pf", {}).get(p["code"], {})
         head = norm(p["bezeichnung"])
-        body = norm(" ".join([e.get("kurzbeschrieb", "")] + [s["text"] for s in L()["katalog"]["schritte"].values() if s["prueffeld"] == p["code"]]))
+        body = norm(" ".join([e.get("kurzbeschrieb", "")] + [str(s.get("text") or "") for s in L()["katalog"]["schritte"].values() if s["prueffeld"] == p["code"]]))
         sc = sum(3 if t[:6] in head else (0.3 if t[:6] in body else 0) for t in ts)
         if sc > bs:
             best, bs = p["code"], sc
@@ -556,8 +587,23 @@ def _mit_drift(fn):
     return w
 
 
-NOTIZ_STD = ("Notiz «Wesentliche Feststellungen» (möglicher Fehler, mit Buchungsvorschlag ohne Verbuchung) · «Pendenz» (fehlende Unterlage oder "
-             "ungeklärter Sachverhalt: Konto, Datum, Betrag) · «Schlussbesprechung» (Punkt, den der WP mit dem Kunden bespricht)")
+FUNDSTELLEN_MAX = 8    # pruefschritt: Fundstellen je Schritt (Rest über die Detailseite)
+FALLSTRICKE_MAX = 8    # pruefschritt: schrittspezifische Fallstricke zuerst (z.B. SCH4-202 mit 9 zugeordneten)
+
+
+def _notiz_nag() -> str:
+    """Standard-Notizregel je Schritt (ohne eigenes Feld notiz): Betragsdifferenzen nach Nichtaufgriffsgrenze (revio 3.3) getrennt."""
+    return ("Betragsdifferenz unter der Nichtaufgriffsgrenze (revio 3.3): nur im Textfeld protokollieren; ab NAG: Notiz «Wesentliche "
+            "Feststellungen» mit Buchungsvorschlag ohne Verbuchung (wird in A1-203 kumuliert, Massstab Gesamtwesentlichkeit; ob wesentlich, "
+            "beurteilt der WP); sind in 3.3 qualitative Faktoren erfasst, auch kleinere Abweichungen. Fehlende Unterlage oder ungeklärter "
+            "Sachverhalt: Notiz «Pendenz» (Konto, Datum, Betrag); Punkt für das Gespräch WP–Kunde: «Schlussbesprechung»."
+            + _fundstelle_von(["nichtaufgriff", "hwp_kumulieren", "pendenz"]))
+
+
+def _kundenfragen(code: str, sid: str) -> list[str]:
+    """Fragen an den Kunden des Prüffelds, deren Zweck den Schritt nennt (einzeln, Liste wie «SCH5-101/201» oder Bereich)."""
+    return [f["frage"] for f in (L().get("pf", {}).get(code, {}).get("fragen_kunde") or [])
+            if f.get("frage") and sid in _schritt_ids(f"{f.get('zweck') or ''} {f['frage']}", code)]
 
 
 def _status_woerter() -> str:
@@ -568,15 +614,74 @@ def _status_woerter() -> str:
     return " | ".join(w + (" (Grund)" if w == "nicht bearbeitet" else "") for w in ws)
 
 
+def _schritt_ids(text: str, code: str | None = None) -> set:
+    """Schritt-Ids, die ein Text nennt: einzeln (C1-302), als Liste (SCH5-101/201) und als Bereich (I1-401–I1-408, I1-320–322,
+    T1-101 bis T1-108). Ohne code: alle Prüffelder."""
+    t = str(text or "")
+    pf = re.escape(code) if code else r"(?:SCH\d|[A-Z]\d)"
+    out = set()
+    for m in re.finditer(rf"(?<![\w-])({pf})-(\d{{3}})\s*(?:[–-]|bis)\s*(?:\1-)?(\d{{3}})(?!\d)", t):
+        a, b = int(m.group(2)), int(m.group(3))
+        if a < b <= a + 99:   # gleiche Hunderter-Gruppe bzw. kurzer Bereich, nie über das ganze Prüffeld
+            out |= {f"{m.group(1)}-{n:03d}" for n in range(a, b + 1)}
+    for m in re.finditer(rf"(?<![\w-])({pf})-(\d{{3}}(?:/\d{{3}})*)(?!\d)", t):
+        out |= {f"{m.group(1)}-{n}" for n in m.group(2).split("/")}
+    return out
+
+
 def _schritt_fallstricke(code: str, sid: str) -> list[dict]:
-    """Fallstricke des Prüffelds, die den Schritt nennen (Feld schritte oder Id im Text); spezifische (wenige Ids) zuerst."""
-    rx = re.compile(rf"(?<![\w-]){re.escape(sid)}(?!\d)")
+    """Fallstricke des Prüffelds, die den Schritt nennen (Feld schritte oder Id im Text, auch als Liste/Bereich); spezifische (wenige Ids) zuerst."""
     out = []
     for f in L().get("pf", {}).get(code, {}).get("fallstricke") or []:
-        if sid in (f.get("schritte") or []) or rx.search(f.get("text", "")):
-            n = len(set(f.get("schritte") or []) | set(re.findall(r"\b[A-Z]{1,4}\d-\d{3}\b", f.get("text", ""))))
-            out.append((n, f))
+        ids = _schritt_ids(f.get("text", ""))
+        if sid in (f.get("schritte") or []) or sid in ids:
+            out.append((len(set(f.get("schritte") or []) | ids), f))
     return [f for _, f in sorted(out, key=lambda x: x[0])]
+
+
+def _schritt_hinweise(code: str, sid: str) -> list[tuple[str, dict]]:
+    """Bewertungsregeln und Unterlagen des Prüffelds, die den Schritt nennen (Id, Liste oder Bereich im Text/Zweck) – spezifische zuerst."""
+    pfd = L().get("pf", {}).get(code, {})
+    out = []
+    for feld, k in (("bewertung", "regel"), ("unterlagen", "dokument")):
+        for x in pfd.get(feld) or []:
+            ids = _schritt_ids(f"{x.get(k, '')} {x.get('zweck', '')}", code)
+            if sid in ids:
+                txt = x.get(k, "") + (f" – {x['zweck']}" if feld == "unterlagen" and x.get("zweck") else "")
+                out.append((len(ids), feld, txt, x))
+    return [(("Unterlage: " if f == "unterlagen" else "") + t, x) for _, f, t, x in sorted(out, key=lambda y: y[0])]
+
+
+# Werkzeugaufrufe im Text eines Schritts (in Backticks), z.B. `kapitalverlust … --rangruecktritt …`, `wert zinssatz darlehen`
+BEFEHLE = ("aufgabe", "pruefschritt", "prueffeld", "unterlagen", "fragen", "prozess", "regeln", "revio", "wert", "rechne", "wesentlichkeit",
+           "kapitalverlust", "revisionspflicht", "akte", "thema", "suche", "zeige")
+RECHNER_TXT = ("kapitalverlust", "wesentlichkeit", "revisionspflicht")
+
+
+def _aufrufe_in(*texte) -> list[str]:
+    """Werkzeugaufrufe in Backticks (nur bekannte Befehle), ohne Duplikate, Reihenfolge des Texts."""
+    out = []
+    for t in texte:
+        for x in str(t or "").split("`")[1::2]:
+            x = re.sub(r"\s+", " ", x.replace('\\"', '"')).strip()
+            if re.match(rf"(?:{'|'.join(BEFEHLE)})(?:\s|$)", x) and x not in out:
+                out.append(x)
+    return out
+
+
+def _schritt_aufrufe(e: dict) -> list[str]:
+    """Aufrufe für einen Prüfschritt: Datenfeld `aufrufe` (falls erfasst), sonst aus den Backticks von Vorgehen/Rechnen/Feststellung/Notiz.
+    Ein blosses `rechne` (steht ohnehin im Fuss) und kürzere Varianten desselben Befehls entfallen."""
+    roh = list(e.get("aufrufe") or []) + _aufrufe_in(e.get("vorgehen"), e.get("rechnen"), e.get("feststellung_wenn"), e.get("notiz"),
+                                                     " ".join(map(str, e.get("nachweise") or [])))
+    out = []
+    for x in dict.fromkeys(str(a).strip() for a in roh if str(a).strip()):
+        if x.split()[0] == "rechne":   # Rechenbeispiele mit Beispielzahlen nicht als Werkzeug anbieten; `rechne` steht im Fuss
+            continue
+        if any(y != x and y.startswith(x) for y in roh if isinstance(y, str)) and x.split()[0] in RECHNER_TXT + ("revio",):
+            continue   # `kapitalverlust` neben `kapitalverlust --aktiven …`: nur die ausführliche Form
+        out.append(x)
+    return out
 
 
 def _themen_zu(code: str | None = None, sid: str | None = None, n: int = 3) -> list[str]:
@@ -642,7 +747,7 @@ def _schritt_kompakt(s: dict) -> str:
     st = ("nicht bearbeitet – Kennzeichnung «?» (wie WP)" if unl else "nicht bearbeitet – WP-Schritt") if wp else "nicht bearbeitet – nur auf Anweisung"
     out = [f"## {sid} · {s['typ']} ({NR_TYP.get(s['typ'], '')})" + (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else "") +
            (" – WP-Schritt" if wp else " – 4xx auf Anweisung"),
-           f"Katalog: «{cut(s['text'], 300)}»",
+           f"Katalog: «{cut(ktext(s), 300)}»",
            ("Rolle: " + (AUSWERTEN_WP if wp else AUSWERTEN_4XX) + ".")]
     if e.get("vorgehen"):
         out.append("Vorgehen (Auswerten vorhandener Unterlagen): " + _kurz_satz(e["vorgehen"], 300, 500))
@@ -677,69 +782,86 @@ def _pruefschritt1(ref: str) -> str:
            (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else "") +
            (f" – Katalog-Nr. {s['nr']} weicht ab, massgebend ist der Typ" if tnr[0] != str(s["nr"])[:1] else ""),
            f"Prüfziele: {ziele or '–'}",
-           f"Katalog (revio 4.0, Anhang H): «{s['text']}»"]
+           f"Katalog (revio 4.0, Anhang H): «{ktext(s)}»"]
     if s.get("beispiel_pflichtenheft"):
         out.append(f"Beispiel Pflichtenheft: {s['beispiel_pflichtenheft']}")
     if s.get("kennzeichnung") == "?":
         out.append("⚠️ Kennzeichnung im Katalog-PDF unlesbar – in revio nachlesen und Abweichung als Pendenz melden.")
     out += ["", f"**Rolle Agent: {ART_TXT[art]}.** {art_regel}" + (f" ^[{ar['quelle']}]" if ar.get("quelle") else "")]
+    zt = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", [])) or "–"
+    ohne = []   # WP/4xx: «ohne Anweisung» gilt im Normalfall → vor dem Vorgehen
+    if art == "nur_mensch":
+        ohne = ["", "## Vorgehen ohne Anweisung (Normalfall)",
+                "Kein Eintrag im Textfeld. Unterlagen, die schon in der Akte liegen, auswerten (Vorgehen unten, soweit Lesen und Rechnen); "
+                "Auffälligkeiten als Notiz (`revio K7`): «Wesentliche Feststellungen» (möglicher Fehler, Buchungsvorschlag ohne Verbuchung) · "
+                "«Pendenz» (fehlt/unklar: Konto, Datum, Betrag) · «Schlussbesprechung» (Auslegung Praxis/intern – Entscheid consis).",
+                f"Im Rapport Status «{st_nm}» mit Verweis auf die Notizen.",
+                "Mit ausdrücklicher Anweisung des WP zum Textfeld: Vorgehen unten, Textfeld als «Vorbereitung für WP» kennzeichnen."]
+    elif art == "auf_anweisung":
+        rq = ROLLE_HINWEIS["auf_anweisung"][1]
+        ohne = ["", "## Vorgehen ohne Anweisung (Normalfall)",
+                "Nicht einholen oder durchführen (Bestätigungen anfragen/versenden, Inventur, Gutachten – physische Tätigkeiten nie). Unterlagen, "
+                "die schon in der Akte liegen (z.B. vom Kunden eingeholte Bestätigung), trotzdem auswerten; Auffälligkeiten als Notiz "
+                f"({NOTIZ_DREI}; `revio K7`) ^[{rq}].",
+                "Nennt der Auftrag den Inhalt dieses Schritts ausdrücklich, gilt er als angewiesen → Vorgehen unten und Textfeld wie bei 3xx "
+                "(Auslegung Praxis/intern – Entscheid consis). Sonst kein Textfeld; im Rapport Status «nicht bearbeitet – nur auf Anweisung» "
+                "mit Verweis auf die Notizen."]
+    out += ohne
+    aufrufe = _schritt_aufrufe(e) if e else []
     if e:
-        out += ["", "## Vorgehen (Auswerten vorhandener Unterlagen: immer; Einholen/Durchführen bzw. Textfeld erst nach Anweisung – siehe unten)"
+        out += ["", "## Vorgehen (nur mit ausdrücklicher Anweisung des WP – vorhandene Unterlagen auswerten: immer, siehe oben)"
                 if art in ("auf_anweisung", "nur_mensch") else "## Vorgehen",
                 e.get("vorgehen", "")]
         if e.get("nachweise"):
             out += ["", "## Nachweise (M-Files / revio)"] + [f"- {x}" for x in e["nachweise"]]
         if e.get("rechnen"):
-            out += ["", "## Rechnen (mit `rechne`, nie im Kopf)", e["rechnen"]]
+            out += ["", "## Rechnen (Werkzeug laut Text, sonst `rechne`; nie im Kopf)", e["rechnen"]]
         if e.get("feststellung_wenn") or e.get("notiz"):
-            pq = regel("pendenz").get("quelle")
-            nz = (f"→ Notiz: {e['notiz']}" if e.get("notiz") else f"→ {NOTIZ_STD}" + (f" ^[{pq}]" if pq else ""))
-            out += ["", "## Feststellung / Notiz", (f"{e['feststellung_wenn']} " if e.get("feststellung_wenn") else "") + nz]
+            out += ["", "## Feststellung / Notiz", (f"{e['feststellung_wenn']} " if e.get("feststellung_wenn") else "") +
+                    (f"→ Notiz: {e['notiz']}" if e.get("notiz") else f"→ {_notiz_nag()}")]
         if e.get("fundstellen"):
-            out += ["", "## Fundstellen"] + [f"- {fs(f.get('quelle') or f.get('chunk'), f.get('zitat'))}" for f in e["fundstellen"]]
+            fl = e["fundstellen"]
+            out += ["", "## Fundstellen"] + [f"- {fs(f.get('quelle') or f.get('chunk'), f.get('zitat'))}" for f in fl[:FUNDSTELLEN_MAX]]
+            if len(fl) > FUNDSTELLEN_MAX:
+                out.append(f"(+{len(fl) - FUNDSTELLEN_MAX} weitere Fundstellen: `zeige wiki/prueffelder/{s['prueffeld'].lower()}.md --abschnitt {sid}`)")
     else:
         out += ["", "(Für diesen Schritt ist noch kein Detailwissen erfasst – `prueffeld " + s["prueffeld"] + "` und `suche` verwenden.)"]
     fst = _schritt_fallstricke(s["prueffeld"], sid)
     if fst:
-        out += ["", "## Fallstricke (dieser Schritt)"] + [f"- {f['text']}{_refs(f, f['text'])}" for f in fst[:4]]
-        if len(fst) > 4:
-            out.append(f"(+{len(fst) - 4} weitere: `prueffeld {s['prueffeld']}`)")
+        out += ["", "## Achtung – Fallstricke (dieser Schritt)"] + [f"- {f['text']}{_refs(f, f['text'])}" for f in fst[:FALLSTRICKE_MAX]]
+        if len(fst) > FALLSTRICKE_MAX:
+            out.append(f"(+{len(fst) - FALLSTRICKE_MAX} weitere: `prueffeld {s['prueffeld']}`)")
+    hw = _schritt_hinweise(s["prueffeld"], sid)
+    if hw:
+        out += ["", "## Hinweise aus dem Prüffeld (Bewertung, Unterlagen)"] + [f"- {cut(t, 260)}{_refs(x, t)}" for t, x in hw[:4]]
+        if len(hw) > 4:
+            out.append(f"(+{len(hw) - 4} weitere: `prueffeld {s['prueffeld']}`)")
     rv = _revio_fuer(s)
     if rv:
         out += ["", "## revio (MCP)"] + rv
-    zt = ", ".join(f"{z} {ZIELE.get(z, '')}".strip() for z in s.get("pruefziele", [])) or "–"
+    vorlage = []
     if art == "teilweise":
+        fk = _kundenfragen(s["prueffeld"], sid)
         vorlage = ["## Vorlage (Befragung)", f"Textfeld: Prüfziel(e) {zt} · Quelle der schriftlichen Antwort (10.11 / Protokoll / VE, Datum) · "
                    "Antwort zusammengefasst · Würdigung · Status höchstens «teilweise bearbeitet».",
-                   "Fehlt die Antwort → Notiz «Pendenz»: «Frage an Kunde (" + sid + "): <Frage> – benötigt bis <Datum>»."]
-    elif art == "nur_mensch":
-        vorlage = ["## Vorgehen ohne Anweisung",
-                   "Kein Eintrag im Textfeld. Unterlagen, die schon in der Akte liegen, auswerten (Vorgehen oben, soweit Lesen und Rechnen); "
-                   "Auffälligkeiten als Notiz (`revio K7`): «Wesentliche Feststellungen» (möglicher Fehler, Buchungsvorschlag ohne Verbuchung) · "
-                   "«Pendenz» (fehlt/unklar: Konto, Datum, Betrag) · «Schlussbesprechung» (Auslegung Praxis/intern – Entscheid consis).",
-                   f"Im Rapport Status «{st_nm}» mit Verweis auf die Notizen.",
-                   "Mit ausdrücklicher Anweisung des WP zum Textfeld: Vorgehen des Schritttyps, Textfeld als «Vorbereitung für WP» kennzeichnen."]
-    elif art == "auf_anweisung":
-        rq = ROLLE_HINWEIS["auf_anweisung"][1]
-        vorlage = ["## Vorgehen ohne Anweisung",
-                   "Nicht einholen oder durchführen (Bestätigungen anfragen/versenden, Inventur, Gutachten – physische Tätigkeiten nie). Unterlagen, "
-                   "die schon in der Akte liegen (z.B. vom Kunden eingeholte Bestätigung), trotzdem auswerten; Auffälligkeiten als Notiz "
-                   f"({NOTIZ_DREI}; `revio K7`) ^[{rq}].",
-                   "Nennt der Auftrag den Inhalt dieses Schritts ausdrücklich, gilt er als angewiesen → Textfeld wie bei 3xx (Auslegung "
-                   "Praxis/intern – Entscheid consis). Sonst kein Textfeld; im Rapport Status «nicht bearbeitet – nur auf Anweisung» mit Verweis "
-                   "auf die Notizen."]
-    else:
+                   "Fehlt die Antwort → Notiz «Pendenz»: «Frage an Kunde (" + sid + "): " + (fk[0] if fk else "<Frage>") + " – benötigt bis <Datum>»."]
+        vorlage += [f"Weitere Frage (gleiche Form): {f}" for f in fk[1:3]]
+    elif art == "vorbereiten":
         vorlage = ["## Textfeld-Vorlage (ausfüllen)", f"- Prüfziel(e): {zt}", "- Quellen: <Datei / M-Files-ID, Version>",
                    "- Auswahl und Umfang: <welche Posten; Begründung: über Toleranzwesentlichkeit / ungewöhnlich / Risiko 3.1>",
                    "- Ergebnis: <Zahlen, gerechnet mit `rechne`>", "- Feststellungen: <keine | Betrag, Konto, Buchungsvorschlag → Notiz>",
                    "- Pendenzen: <keine | was fehlt → Notiz «Pendenz»>", f"- Status: <{_status_woerter()}>"]
-    out += [""] + vorlage
+    if vorlage:
+        out += [""] + vorlage
     je = regel("je_schritt")
     th = _themen_zu(sid=sid)
     out += ["", f"{je.get('regel', '')}" + (f" ^[{je['quelle']}]" if je.get("quelle") else "")]
     if th:
         out.append("Hintergrund: " + " · ".join(f"`thema {x}`" for x in th))
-    out += [f"Status Wissen: {STATUS if e else 'Katalog (Quelle: Anhang H)'}", _naechster(s)]
+    if aufrufe:
+        out.append("Werkzeuge für diesen Schritt: " + " · ".join(f"`{x}`" for x in aufrufe[:4]))
+    pfd = L().get("pf", {}).get(s["prueffeld"], {})
+    out += [f"Status Wissen: {status_wissen(pfd) if e else 'Katalog (Quelle: Anhang H)'}", _naechster(s, aufrufe)]
     return "\n".join(out)
 
 
@@ -769,15 +891,17 @@ def _sammel_aufruf(ids: list[str]) -> str:
     return f"`pruefschritt \"{' '.join(ids)}\"`"
 
 
-def _naechster(s: dict) -> str:
+def _naechster(s: dict, aufrufe: list[str] | None = None) -> str:
     """Fusszeile: nächster vorbereitbarer Schritt in der Reihenfolge des Bündels; nach dem letzten nie «fertig», sondern die Schritte
-    ohne Status (4xx/WP) mit dem Sammelaufruf und die Statustabelle."""
+    ohne Status (4xx/WP) mit dem Sammelaufruf und die Statustabelle. Rechnen: Rechner laut Schritt (z.B. `kapitalverlust …`), sonst `rechne`."""
     folge, rest = _schritt_folge(s["prueffeld"])
     ids = [x["id"] for x in folge]
     r_ids = [x["id"] for x in rest]
+    rechner = next((a for a in aufrufe or [] if a.split()[0] in RECHNER_TXT), "")
+    rz = f"`{rechner.split()[0]} …` (Aufruf unter «Werkzeuge für diesen Schritt»; sonst `rechne`)" if rechner else "`rechne`"
     if s["id"] in ids and ids.index(s["id"]) + 1 < len(ids):
         nx = ids[ids.index(s["id"]) + 1]
-        return f"**Nächster Aufruf:** `pruefschritt {nx}` · Notiz: `revio K7` · Rechnen: `rechne`"
+        return f"**Nächster Aufruf:** `pruefschritt {nx}` · Notiz: `revio K7` · Rechnen: {rz}"
     if s["id"] not in ids and ids:   # 4xx/WP-Schritt: zurück zur Kette der vorbereitbaren Schritte
         nx = next((x["id"] for x in folge if _nr(x) > _nr(s)), None)
         weiter = f"nächster vorbereitbarer Schritt `pruefschritt {nx}`" if nx else "die vorbereitbaren Schritte gemäss Bündel"
@@ -791,8 +915,8 @@ def _naechster(s: dict) -> str:
 
 def _np_warnung(d: dict) -> str:
     """Warnzeile, wenn die Nachprüfung «korrigieren» verlangt hat und die Korrekturen nicht eingearbeitet sind."""
-    np_ = d.get("nachpruefung") or {}
-    if np_.get("urteil") == "korrigieren" and not np_.get("korrigiert"):
+    np_ = _np(d)
+    if np_.get("urteil") == "korrigieren" and np_.get("korrigiert") is not True:
         n = np_.get("befunde")
         return (f"⚠ Nachprüfung: {n if n not in (None, '') else 'mehrere'} Befunde nicht eingearbeitet – Aussagen vor Verwendung mit "
                 "`zeige <chunk-id>` prüfen; Ergebnis im Rapport als vorläufig kennzeichnen.")
@@ -804,6 +928,12 @@ def _extra(x: dict, text: str = "") -> str:
     main = x.get("quelle") or x.get("chunk")
     ids = [f.get("quelle") or f.get("chunk") for f in (x.get("fundstellen") or []) + (x.get("weitere_fundstellen") or []) if isinstance(f, dict)]
     return "".join(f" ^[{i}]" for i in dict.fromkeys(i for i in ids if i) if i != main and f"^[{i}]" not in text)
+
+
+# Rollen-Labels der Spalte «Agent» (gleiche Aussage wie Banner von pruefschritt / Bündel)
+ROLLE_PF = {"vorbereiten": "vorbereiten", "teilweise": "Befragung: schriftlich auswerten, sonst Pendenz",
+            "auf_anweisung": "4xx: nur auf Anweisung (vorhandene Unterlagen auswerten)",
+            "nur_mensch": "WP: Textfeld nur auf Anweisung (vorhandene Unterlagen auswerten → Notiz)"}
 
 
 def _mehr(liste, k: int, aufruf: str) -> str:
@@ -841,9 +971,9 @@ def prueffeld(ref: str, voll: bool = False) -> str:
     out += ["", "## Prüfschritte (Details: `pruefschritt <id>`)", "| Id | Typ | Kennz. | Ziele | Agent | Prüfschritt |", "|---|---|---|---|---|---|"]
     for s in [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]:
         art = art_of(s)[0]
-        out.append(f"| {s['id']} | {s['typ']} | {s.get('kennzeichnung') or ''} | {' '.join(s.get('pruefziele') or [])} | {art} | {cut(s['text'], 110 if not voll else 400)} |")
+        out.append(f"| {s['id']} | {s['typ']} | {s.get('kennzeichnung') or ''} | {' '.join(s.get('pruefziele') or [])} | {ROLLE_PF[art]} | {cut(ktext(s), 110 if not voll else 400)} |")
     out += ["", "## revio (MCP)"] + _revio_fuer({"prueffeld": code})
-    out += ["", f"Detail mit Zitaten: wiki/prueffelder/{code.lower()}.md · Status: {STATUS if e else 'nur Katalog'}"]
+    out += ["", f"Detail mit Zitaten: wiki/prueffelder/{code.lower()}.md · Status: {status_wissen(e, 'nur Katalog')}"]
     return "\n".join(out)
 
 
@@ -1253,8 +1383,8 @@ def zahl(v) -> str:
     if isinstance(v, date):
         return v.strftime("%d.%m.%Y")
     if isinstance(v, float) and abs(v) < 100 and abs(v - round(v)) > 1e-9:
-        t = f"{v:.4f}".rstrip("0").rstrip(".")
-        return t if t not in ("0", "-0") else f"{v:.6g}"
+        t = f"{v:.6g}"   # 6 gültige Stellen (1/3 → 0.333333; 12.3456789 → 12.3457), ohne Exponentenschreibweise
+        return t if "e" not in t else f"{v:.12f}".rstrip("0").rstrip(".")
     return chf(v)
 
 
@@ -1409,7 +1539,8 @@ def rechne(ausdruck) -> str:
             out.append(f"{name + ' = ' if name else ''}{e.strip()} = **{zahl(v)}**" +
                        (" (als Subtraktion gerechnet – Datum gemeint? als TT.MM.JJJJ schreiben)" if iso else ""))
         except ZeroDivisionError:
-            out.append(f"{teil}: nicht rechenbar – Division durch 0")
+            out.append(f"{teil}: nicht rechenbar – Division durch 0: der Nenner ist 0 (z.B. Vorjahr 0 → Veränderung in % nicht definiert: "
+                       "«Konto neu», nur die Differenz in CHF angeben)")
         except ValueError as x:
             out.append(f"{teil}: nicht rechenbar – {x} ({RECHNE_HILFE})")
         except Exception:
@@ -1439,12 +1570,16 @@ def _r(key):
 
 def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichkeiten=None, kapitalreserve=0, gewinnreserve=0,
                    holding=False, rangruecktritt=0, buchwert=None, verkehrswert=None, freiwillige_reserven=None, vortrag=None,
-                   jahresergebnis=None, eigene_aktien=None, reserve_voll=0, covid_kredit=0) -> str:
+                   jahresergebnis=None, eigene_aktien=None, reserve_voll=0, covid_kredit=0, rr_polster=None) -> str:
     """OR 725a/725b/725c: geschütztes Kapital (Reserven max. 50 % bzw. 20 % des Grundkapitals, reserve_voll ohne Kappung), Kapitalverlust,
     Überschuldung, Rangrücktritt, zulässige Aufwertung. Eigenkapital direkt (bilanziell), aus Bestandteilen oder aus Aktiven − Verbindlichkeiten.
     covid_kredit (Kredit nach Art. 3 Covid-19-SBüV bzw. Darlehen/Kredit nach Art. 21 HFMV 20) zählt nicht als Fremdkapital
-    (Art. 24 Covid-19-SBüG; HWP ER Rz 373)."""
+    (Art. 24 Covid-19-SBüG; HWP ER Rz 373). rr_polster: Sicherheitspolster für die in den nächsten 12 Monaten erwarteten Verluste
+    (HWP ER Rz 421; Höhe legt der WP fest) – wird bei der Deckung durch den Rangrücktritt zusätzlich abgezogen."""
     AK, KR, GR, RR = num(aktienkapital), num(kapitalreserve), num(gewinnreserve), num(rangruecktritt)
+    PO = None if rr_polster in (None, "") else num(rr_polster)
+    if PO is not None and PO < 0:
+        raise ValueError("--rr-polster: Betrag ≥ 0 erwartet (erwartete Verluste der nächsten 12 Monate, Höhe legt der WP fest)")
     RV, CK = num(reserve_voll), num(covid_kredit)
     teile = [x for x in (freiwillige_reserven, vortrag, jahresergebnis, eigene_aktien) if x not in (None, "")]
     if eigenkapital not in (None, ""):
@@ -1458,7 +1593,7 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
                      f"+ Vortrag {chf(VT)} + Jahresergebnis {chf(JE)} − eigene Aktien {chf(abs(EA))}")
     elif aktiven not in (None, "") and verbindlichkeiten not in (None, ""):
         EK = num(aktiven) - num(verbindlichkeiten)
-        quelle_ek = f"Aktiven {chf(num(aktiven))} − Verbindlichkeiten {chf(num(verbindlichkeiten))}"
+        quelle_ek = f"Aktiven {chf(num(aktiven))} − Fremdkapital (Verbindlichkeiten, Rückstellungen, PRA) {chf(num(verbindlichkeiten))}"
     else:   # fehlende Daten nie als 0 annehmen (sonst «Kapitalverlust» bzw. «EK = Aktiven»)
         fehlt = "Verbindlichkeiten" if aktiven not in (None, "") else ("Aktiven" if verbindlichkeiten not in (None, "") else "Eigenkapital")
         raise ValueError(f"{fehlt} fehlt – Eigenkapital nie schätzen. Eine Variante angeben: `--eigenkapital <CHF>` (bilanziell) · "
@@ -1497,13 +1632,28 @@ def kapitalverlust(aktienkapital, eigenkapital=None, aktiven=None, verbindlichke
             f"| Hälfte = Schwelle OR 725a | **{chf(haelfte)}** |"]
     if ueber:
         need = -EK
+        pol = PO or 0.0
+        dk = RR - need - pol
         out += ["", f"Rangrücktritt erfasst {chf(RR)} → " +
-                ("deckt den Fehlbetrag gemäss Eingabe (Jahresrechnung = nur Indikator; massgebend der geprüfte Zwischenabschluss)" if RR >= need
-                 else f"deckt den Fehlbetrag gemäss Eingabe NICHT (fehlen {chf(need - RR)}; massgebend der geprüfte Zwischenabschluss)") +
-                " – muss Betrag UND Zinsen während der Überschuldung umfassen, Forderung gestundet; beseitigt die Überschuldung nicht. "
-                "Ohne Sicherheitspolster für die in den nächsten 12 Monaten erwarteten Verluste ^[hwp-er-2026__rz-0421-s125]; bei gefährdeter "
-                "Fortführung höherer Betrag, bei konkreter Gefahr Deckungslücke zu Liquidationswerten ^[hwp-bur-2023__rz-0720-s307]. "
-                "Massgebendes Ausmass wählt der WP."]
+                ("deckt den Fehlbetrag gemäss Eingabe" + (" inkl. Sicherheitspolster" if pol else "") +
+                 " (Jahresrechnung = nur Indikator; massgebend der geprüfte Zwischenabschluss)" if dk >= 0
+                 else f"deckt den Fehlbetrag gemäss Eingabe{' inkl. Sicherheitspolster' if pol else ''} NICHT (fehlen {chf(-dk)}; massgebend der "
+                      "geprüfte Zwischenabschluss)") +
+                " – muss Betrag UND Zinsen während der Überschuldung umfassen, Forderung gestundet; beseitigt die Überschuldung nicht."]
+        if PO is not None:
+            out += ["", "| Deckung Rangrücktritt | CHF |", "|---|---|", f"| Σ Rangrücktritte inkl. Zinsen (Eingabe) | {chf(RR)} |",
+                    f"| − Überschuldung (Fehlbetrag gemäss Eingabe) | {chf(need)} |",
+                    f"| − Sicherheitspolster erwartete Verluste 12 Monate (Eingabe, Höhe legt der WP fest) ^[hwp-er-2026__rz-0421-s125] | {chf(pol)} |",
+                    f"| **Deckung** ({'≥ 0: gedeckt' if dk >= 0 else '< 0: Deckungslücke'}) | **{chf(dk)}** |"]
+        else:
+            out.append("Sicherheitspolster für die in den nächsten 12 Monaten erwarteten Verluste nicht eingerechnet ^[hwp-er-2026__rz-0421-s125] "
+                       "(Betrag vom WP: `--rr-polster <CHF>`).")
+        out.append("Bei gefährdeter Fortführung höherer Betrag, bei konkreter Gefahr Deckungslücke zu Liquidationswerten "
+                   "^[hwp-bur-2023__rz-0720-s307]: dann Eigenkapital bzw. Aktiven/Fremdkapital zu Liquidationswerten eingeben (eigener Aufruf). "
+                   "Massgebendes Ausmass (Stufe, Polster) wählt der WP.")
+    elif PO is not None or RR:
+        out += ["", "ℹ️ Keine buchmässige Überschuldung gemäss Eingabe – Rangrücktritt und Sicherheitspolster werden erst bei Überschuldung "
+                "gegen den Fehlbetrag gerechnet (OR 725b Abs. 4 Ziff. 1)."]
     if buchwert not in (None, "") and verkehrswert not in (None, ""):
         akt = max(0.0, num(verkehrswert) - num(buchwert))
         pas = max(0.0, (haelfte - EK) * 2)
@@ -1569,7 +1719,8 @@ def wesentlichkeit(bezugsgroesse=None, satz=None, toleranz=None, nichtaufgriff=N
     if leer(gesamt) and (leer(bezugsgroesse) or leer(satz)):
         return ("Aufruf: `wesentlichkeit <Bezugsgrösse CHF> <Satz %> [--toleranz 75 | 37500] [--nichtaufgriff 5 | 2500]` oder "
                 "`wesentlichkeit --gesamt <CHF> [--toleranz …] [--nichtaufgriff …]` (MCP: gesamt bzw. bezugsgroesse + satz). "
-                "Toleranz/NAG in % oder CHF wie in revio 3.3. Massgebend sind die Werte in revio 3.3 (`revio K3`); der Agent legt sie nie selbst fest.")
+                "Toleranz/NAG in % oder CHF wie in revio 3.3. Massgebend sind die Werte in revio 3.3 (`revio K3`); der Agent legt sie nie selbst fest. "
+                "Richtwerte (HWP ER Rz 42, Abb. 20): `wert wesentlichkeit` · Vorgehen: `aufgabe wesentlichkeit`.")
     if not leer(gesamt):
         gw = num(gesamt)
         herk = "Gesamtwesentlichkeit (Eingabe)"
@@ -1636,14 +1787,19 @@ def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, 
     ue = [c > g for c, (_, g, _) in zip(cur, G)]
     uev = [(v > g) if v is not None else None for v, (_, g, _) in zip(vj, G)]
     n_cur, n_vj = sum(ue), (sum(bool(x) for x in uev) if all(x is not None for x in uev) else None)
-    if n_vj is None:
-        res = ("Berichtsjahr: " + ("zwei oder mehr Grössen überschritten – Vorjahr nötig" if n_cur >= 2 else "weniger als zwei Grössen überschritten") +
-               " → Vorjahreswerte angeben.")
-        ordentlich = None if n_cur >= 2 else False
+    sofern = ("sofern nicht Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von 10 % bzw. Opting-up, Pflicht oder Begehren zu einem "
+              "Abschluss nach anerkanntem Standard oder Neugründung mit absehbarem Überschreiten der Schwellenwerte")
+    if n_vj is None and n_cur >= 2:
+        res = ("Berichtsjahr: zwei oder mehr Grössen überschritten – Vorjahreswerte nötig (`--vj-bilanzsumme … --vj-umsatz … "
+               "--vj-vollzeitstellen …`)")
+        ordentlich = None
+    elif n_vj is None:
+        res = (f"EINGESCHRÄNKTE Revision nach Schwellenwerten (Berichtsjahr unter zwei Grössen – Vorjahr ohne Einfluss) – {sofern}")
+        ordentlich = False
     else:
         ordentlich = n_cur >= 2 and n_vj >= 2
         res = ("ORDENTLICHE Revision (in beiden Jahren je mindestens zwei Grössen überschritten – auch verschiedene)" if ordentlich else
-               "EINGESCHRÄNKTE Revision (sofern nicht Publikumsgesellschaft, Konzernrechnungspflicht, 10 %-Begehren oder Opting-up)")
+               f"EINGESCHRÄNKTE Revision ({sofern})")
     out = ["# Revisionsart (OR 727 / 727a) – Rechenhilfe", "", f"**Ergebnis: {res}**", ""]
     if notes:
         out.append("ℹ️ Eingaben umgerechnet: " + "; ".join(notes) + " – Beträge bitte in CHF angeben.")
@@ -1661,6 +1817,12 @@ def revisionspflicht(bilanzsumme, umsatz, vollzeitstellen, vj_bilanzsumme=None, 
     q727 = regel("or727_ordentlich").get("quelle") or "or__art-727"
     out += [f"- Weitere Gründe für ordentliche Revision (unabhängig von den Grössen): Publikumsgesellschaft, Konzernrechnungspflicht, Begehren von "
             f"Aktionären mit 10 % (OR 727 Abs. 1 Ziff. 1/3, Abs. 2); Statuten/GV bzw. Opting-up (OR 727 Abs. 3) ^[{q727}] → Statuten und GV-Protokolle prüfen.",
+            "- Pflicht oder Begehren zu einem Abschluss nach anerkanntem Standard: dieser Abschluss ist ordentlich zu prüfen (OR 962a Abs. 3) "
+            "^[or__art-962a]; nicht bei freiwillig erstelltem Standard-Abschluss ^[hwp-er-2026__rz-0321-s100].",
+            "- Neugründung mit absehbarem Überschreiten der Schwellenwerte: von Beginn weg ordentliche Revision (SER 1.1, nach HWP ER) "
+            "^[hwp-er-2026__rz-0342-s105].",
+            "- Andere Rechtsformen (GmbH, Genossenschaft, Verein, Stiftung) mit eigenen Schwellen/Regeln: `prozess p1 schritte` (Revisionsart) · "
+            "`wert revisionspflicht`.",
             "- Prüfung bei Auftragsannahme/-fortführung (`aufgabe auftrag`); Entscheid WP. Kapitalverlust ohne Revisionsstelle (OR 725a Abs. 2) ist eine andere Frage → `aufgabe kapitalschutz`."]
     return "\n".join(out)
 
@@ -2101,6 +2263,19 @@ def _reihenfolge_1xx(code: str, st: list[dict]) -> str:
     return f"Reihenfolge: übrige 1xx → 2xx → {', '.join(ab)} (Abweichungen besprechen, nach der Analytik) → 3xx (Praxis/intern)."
 
 
+def _schritt_labels(st: list[dict], n: int = 34) -> dict:
+    """Kurzlabel je Schritt (cut auf n Zeichen); gleiche Labels im selben Prüffeld stufenweise länger (60, 110), bis sie sich unterscheiden."""
+    lbl = {x["id"]: cut(ktext(x), n) for x in st}
+    for m in (60, 110, 400):
+        doppelt = {v for v in lbl.values() if list(lbl.values()).count(v) > 1}
+        if not doppelt:
+            break
+        for x in st:
+            if lbl[x["id"]] in doppelt:
+                lbl[x["id"]] = cut(ktext(x), m)
+    return lbl
+
+
 def _prueffeld_kompakt(code: str, kurz: bool | int = False, akte_aufruf: str = "akte <pfad> --vj <vj-pfad>") -> str:
     """Kompaktbündel eines Prüffelds; kurz=1 (zweites Prüffeld eines Auftrags): weniger Risiken/Unterlagen/Fragen; kurz=2 (ab dem dritten bzw.
     wenn die Ausgabe zu gross wird): nur Kopf, Akte-Aufruf, Reihenfolge und alle Schritt-Ids – Rest mit `aufgabe prueffeld <code>`."""
@@ -2116,7 +2291,7 @@ def _prueffeld_kompakt(code: str, kurz: bool | int = False, akte_aufruf: str = "
     e = L().get("pf", {}).get(code, {})
     nr = lambda x: int(re.sub(r"\D", "", str(x.get("nr", ""))) or 0)  # noqa: E731
     st = sorted((x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code), key=nr)
-    kr, ku, kf, kb = (3, 3, 2, 2) if kurz else (6, 6, 3, 3)
+    kr, ku, kf, kb = (3, 3, 2, 2) if kurz else (6, 6, 3, 4)
     out = [f"## Prüffeld {code} {p['bezeichnung']} – Bündel" + (" (gekürzt; Volltext `prueffeld " + code + "`)" if kurz else "")]
     kurz = bool(kurz)
     if _np_warnung(e):
@@ -2148,14 +2323,15 @@ def _prueffeld_kompakt(code: str, kurz: bool | int = False, akte_aufruf: str = "
     lab = {"teilweise": "1xx Befragung (schriftliche Antworten 10.11/Protokolle auswerten, sonst Pendenz)", "vorbereiten": "2xx/3xx vorbereiten",
            "auf_anweisung": "4xx auf Anweisung (vorhandene Unterlagen auswerten – Rolle oben)",
            "nur_mensch": "WP-Schritte (kein Textfeld; vorhandene Unterlagen auswerten → Notiz – Rolle oben)"}
+    lbl = _schritt_labels(st)
     for k, v in groups.items():
         if v:
             ohne_titel = kurz or k in ("auf_anweisung", "nur_mensch")
-            out.append(f"- {lab[k]}: " + ", ".join(s["id"] if ohne_titel else f"{s['id']} {cut(s['text'], 34)}" for s in v))
+            out.append(f"- {lab[k]}: " + ", ".join(s["id"] if ohne_titel else f"{s['id']} {lbl[s['id']]}" for s in v))
     r_ids = [s["id"] for s in groups["auf_anweisung"] + groups["nur_mensch"]]
     if r_ids:
         out.append(f"- 4xx/WP gesammelt mit einem Aufruf (kompakte Karten statt Einzelaufrufen): {_sammel_aufruf(sorted(r_ids, key=lambda i: int(i[-3:])))}")
-    pb = {"A1": ["vorjahresabstimmung"], "P1": ["vorjahresabstimmung", "kapitalschutz"], "C1": ["delkredere"], "G1": ["sachanlagen"],
+    pb = {"A1": ["vorjahresabstimmung", "kapitalschutz"], "P1": ["vorjahresabstimmung", "kapitalschutz"], "C1": ["delkredere"], "G1": ["sachanlagen"],
           "L1": ["kapitalschutz"], "N1": ["kapitalschutz"]}.get(code)
     if pb:
         out.append("Playbook: " + " · ".join(f"`aufgabe {x}`" for x in pb))
@@ -3232,16 +3408,26 @@ def main(argv=None):
     x.add_argument("--toleranz", help="Wert aus 3.3 in %% (z.B. 75) oder CHF (z.B. 37500)")
     x.add_argument("--nichtaufgriff", help="Wert aus 3.3 in %% (z.B. 5) oder CHF (z.B. 2500)"); x.add_argument("--bezeichnung", default="Bezugsgrösse")
     x.add_argument("--bezugsgroesse", dest="bezugsgroesse_opt"); x.add_argument("--satz", dest="satz_opt")
-    x = sub.add_parser("kapitalverlust"); x.add_argument("--aktienkapital", required=True); x.add_argument("--eigenkapital"); x.add_argument("--aktiven"); x.add_argument("--verbindlichkeiten")
-    x.add_argument("--kapitalreserve", default=0, help="gesetzliche Kapitalreserve (OR 671)")
-    x.add_argument("--gewinnreserve", default=0, help="nur gesetzliche Gewinnreserve i.e.S. (OR 672 Abs. 1) – ohne Aufwertungsreserve und Reserve "
-                                                      "für eigene Kapitalanteile (diese in --reserve-voll)")
-    x.add_argument("--rangruecktritt", default=0); x.add_argument("--holding", action="store_true")
-    x.add_argument("--buchwert"); x.add_argument("--verkehrswert")
+    x = sub.add_parser("kapitalverlust", help="Kapitalverlust/Überschuldung OR 725a/725b, Aufwertung OR 725c – Rechenhilfe (Beurteilung: WP)")
+    x.add_argument("--aktienkapital", required=True, help="nominelles Aktien- + PS-Kapital laut Handelsregister")
+    x.add_argument("--eigenkapital", help="bilanzielles Eigenkapital (inkl. Verluste, minus eigene Aktien) – statt --aktiven/--verbindlichkeiten")
+    x.add_argument("--aktiven", help="Total Aktiven (mit --verbindlichkeiten)")
+    x.add_argument("--verbindlichkeiten", help="Fremdkapital gesamt = Verbindlichkeiten + Rückstellungen + PRA, wie in der Bilanz (inkl. "
+                                               "Covid-Kredit; diesen zusätzlich mit --covid-kredit angeben, nicht vorher abziehen)")
+    x.add_argument("--kapitalreserve", default=0, help="gesetzliche Kapitalreserve (Art. 671 Abs. 1 OR)")
+    x.add_argument("--gewinnreserve", default=0, help="nur gesetzliche Gewinnreserve i.e.S. (Art. 672 Abs. 1 OR) – Aufwertungsreserve (OR 725c) und "
+                                                      "Reserve für eigene Kapitalanteile im Konzern (OR 659b) NICHT hier, sondern --reserve-voll")
+    x.add_argument("--rangruecktritt", default=0, help="Σ Rangrücktritte laut unterzeichneten Vereinbarungen inkl. Zinsen (nicht laut Anhang)")
+    x.add_argument("--rr-polster", help="Sicherheitspolster: in den nächsten 12 Monaten erwartete Verluste (HWP ER Rz 421; Höhe legt der WP fest) – "
+                                        "wird von der Deckung durch Rangrücktritte abgezogen")
+    x.add_argument("--holding", action="store_true", help="Holdinggesellschaft: Reserven bis 20 %% statt 50 %% des Grundkapitals anrechenbar")
+    x.add_argument("--buchwert", help="Buchwert Grundstück/Beteiligung (Aufwertung OR 725c)"); x.add_argument("--verkehrswert", help="wirklicher Wert (Aufwertung OR 725c)")
     x.add_argument("--freiwillige-reserven"); x.add_argument("--vortrag"); x.add_argument("--jahresergebnis"); x.add_argument("--eigene-aktien")
-    x.add_argument("--reserve-voll", default=0, help="gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b) und Aufwertungsreserve (OR 725c) – zählen voll")
-    x.add_argument("--covid-kredit", default=0, help="Kredit nach Art. 3 Covid-19-SBüV bzw. Darlehen/Kredit nach Art. 21 HFMV 20 – kein Fremdkapital "
-                                                     "(Art. 24 Covid-19-SBüG; HWP ER Rz 373); --verbindlichkeiten wie in der Bilanz eingeben")
+    x.add_argument("--reserve-voll", default=0, help="gesetzl. Gewinnreserven für eigene Kapitalanteile im Konzern (OR 659b) und Aufwertungsreserve "
+                                                     "(OR 725c) – zählen voll; nicht zusätzlich in --gewinnreserve")
+    x.add_argument("--covid-kredit", default=0, help="Kredite nach Art. 3 Covid-19-SBüV (nicht Art. 4) und Darlehen/Kredite nach Art. 21 HFMV 20 – "
+                                                     "kein Fremdkapital für OR 725a/725b (Art. 24 Covid-19-SBüG; HWP ER Rz 373/381); --verbindlichkeiten "
+                                                     "unverändert lassen; Kredite nach Art. 4 Covid-19-SBüV bleiben Fremdkapital")
     x = sub.add_parser("revisionspflicht"); x.add_argument("--bilanzsumme", required=True); x.add_argument("--umsatz", required=True); x.add_argument("--vollzeitstellen", required=True)
     x.add_argument("--vj-bilanzsumme"); x.add_argument("--vj-umsatz"); x.add_argument("--vj-vollzeitstellen")
     x = sub.add_parser("akte", help="Mandantenakte erschliessen (nur lesen): Übersicht, Dateien je Prüffeld, Suche, Inhalt, Abschnitt, Zeilen",
@@ -3279,7 +3465,7 @@ def main(argv=None):
         "wesentlichkeit": lambda: wesentlichkeit(a.bezugsgroesse or a.bezugsgroesse_opt, a.satz or a.satz_opt, a.toleranz, a.nichtaufgriff, a.bezeichnung, a.gesamt),
         "kapitalverlust": lambda: kapitalverlust(a.aktienkapital, a.eigenkapital, a.aktiven, a.verbindlichkeiten, a.kapitalreserve, a.gewinnreserve,
                                                  a.holding, a.rangruecktritt, a.buchwert, a.verkehrswert, a.freiwillige_reserven, a.vortrag,
-                                                 a.jahresergebnis, a.eigene_aktien, a.reserve_voll, a.covid_kredit),
+                                                 a.jahresergebnis, a.eigene_aktien, a.reserve_voll, a.covid_kredit, a.rr_polster),
         "revisionspflicht": lambda: revisionspflicht(a.bilanzsumme, a.umsatz, a.vollzeitstellen, a.vj_bilanzsumme, a.vj_umsatz, a.vj_vollzeitstellen),
         "akte": lambda: akte(a.pfad, a.vj, a.pf, a.suche, a.datei, a.von, a.bis, a.inhalt, a.abschnitt, None, a.n),
     }[c]
