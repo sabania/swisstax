@@ -11,10 +11,10 @@ erfasst:
     korrigiert: true
 ziel: 'Vor dem Berichtsdatum alles zusammentragen, was der WP für die Gesamtbeurteilung braucht: Ereignisse nach Stichtag, Fortführung, Kapitalverlust/Überschuldung, nicht korrigierte
   Fehler, Antrag über die Verwendung des Bilanzgewinns, VE-Entwurf und Punkte für die Schlussbesprechung – vorbereitet in revio 4/10, entschieden vom WP.'
-wann: 'Nach Bearbeitung der Prüffelder (Prozess 2), möglichst nahe am Datum des Revisionsberichts. Bericht frühestens datierbar, wenn der VR die Jahresrechnung unterzeichnet bzw. formell
-  gutgeheissen hat; rückwärts planen ab GV-Datum: Revisionsbericht muss den Aktionären mindestens 20 Tage vor der GV zugänglich sein (OR 699a). Vor Revisionsrapport (Prozess 4) und GVB-Entwurf
-  (Prozess 5). Neue Tatsachen nach dem Berichtsdatum sofort an den WP. Danach: Abschluss der Auftragsakte innert interner Frist (in der Regel höchstens 60 Tage nach Berichtsdatum), PDF-Akte
-  (Prozess 6) nur auf Anweisung des WP.'
+wann: 'Nach Bearbeitung der Prüffelder (Agent-Prozess 2 Prüffelder, `aufgabe prueffeld`), möglichst nahe am Datum des Revisionsberichts. Bericht frühestens datierbar, wenn der VR die
+  Jahresrechnung unterzeichnet bzw. formell gutgeheissen hat; rückwärts planen ab GV-Datum: Revisionsbericht muss den Aktionären mindestens 20 Tage vor der GV zugänglich sein (OR 699a).
+  Vor Agent-Prozess 4 Revisionsrapport (`aufgabe rapport`) und Agent-Prozess 5 GVB-Entwurf (`aufgabe gvb-bericht`). Neue Tatsachen nach dem Berichtsdatum sofort an den WP. Danach: Abschluss
+  der Auftragsakte innert interner Frist (in der Regel höchstens 60 Tage nach Berichtsdatum), Agent-Prozess 6 PDF-Akte (`aufgabe pdf-akte`) nur auf Anweisung des WP.'
 gesetz:
 - thema: 'Prüfungsgegenstand: Jahresrechnung und Antrag über die Verwendung des Bilanzgewinns (OR 729a Abs. 1)'
   quelle: or__art-729a
@@ -58,6 +58,9 @@ gesetz:
 - thema: Dividenden erst nach Reservezuweisung (OR 675 Abs. 3)
   quelle: or__art-675
   zitat: Dividenden dürfen erst festgesetzt werden, nachdem die Zuweisungen an die gesetzliche Gewinnreserve und an die freiwilligen Gewinnreserven erfolgt sind.
+- thema: 'Covid-19-Kredit: Dividenden, Tantiemen und Rückerstattung von Kapitaleinlagen während der Solidarbürgschaft ausgeschlossen (Art. 2 Abs. 2 Bst. a Covid-19-SBüG)'
+  quelle: covid-sbueg__art-2-t1
+  zitat: a. Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen;
 - thema: Reihenfolge der Verlustverrechnung (OR 674 Abs. 1)
   quelle: or__art-674
   zitat: Verluste müssen in folgender Reihenfolge verrechnet werden mit
@@ -104,6 +107,9 @@ gesetz:
 - thema: Anzeigepflicht der eingeschränkt prüfenden Revisionsstelle (OR 729c)
   quelle: or__art-729c
   zitat: Ist die Gesellschaft offensichtlich überschuldet und unterlässt der Verwaltungsrat die Anzeige, so benachrichtigt die Revisionsstelle das Gericht.
+- thema: Covid-19-Kredite nach Art. 3 Covid-19-SBüV zählen für OR 725a/725b nicht als Fremdkapital (Art. 24 Abs. 1 Covid-19-SBüG)
+  quelle: covid-sbueg__art-24
+  zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
 schritte:
 - was: 'Stand der Prüfung erheben (Pendenzenkontrolle): Status aller Prüfschritte in Bereich 4 und offene Notizen «Pendenz» zusammenstellen; prüfen, ob alle Prüfprogramme bearbeitet
     und Ergebnisse dokumentiert sind; offene Punkte für den WP auflisten.'
@@ -133,13 +139,13 @@ schritte:
     zitat: Genehmigung der letzten Jahresrechnung innerhalb von sechs Monaten
   - quelle: hwp-er-2026__rz-0321-s255-t1
     zitat: so nahe wie praktisch möglich am Datum des Revisionsberichts
-- was: 'Ereignisse nach dem Bilanzstichtag erheben (A1-102, T1-109; Durchsicht neue Rechnung z. B. SCH3-302): Hinweise aus Unterlagen nach dem Stichtag sammeln (Protokolle aus A1-304,
-    Korrespondenz, Verträge, Konten/Belege, Zahlungen in neuer Rechnung) und Fragen zu schwebenden Geschäften, neuen Verpflichtungen, Schäden, Rechtsfällen, Bewertungen sowie anderen
-    wesentlichen positiven oder negativen Ereignissen formulieren. Befragen kann der Agent nicht: schriftliche Antworten (10.11) auswerten, sonst Frage als Pendenz bzw. PBC-Vorschlag.'
+- was: 'Ereignisse nach dem Bilanzstichtag (A1-102, T1-109): Kern ist die Befragung zu bedeutenden schwebenden Geschäften und Sachverhalten vor dem Stichtag mit Verlustrisiko sowie zu
+    anderen wesentlichen Ereignissen. Fragen formulieren, schriftliche Antworten (10.11) auswerten, sonst Pendenz bzw. PBC-Vorschlag. Vorhandene Unterlagen nach dem Stichtag einbeziehen
+    (Protokolle aus A1-304, Erkenntnisse aus Schritten im Umfang). Keine zusätzliche Durchsicht zu Sachverhalten, die bereits zufriedenstellend geprüft sind.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 'Bereich 4: A1-102, T1-109, SCH3-302 (rv_put_auditActivities_UpdateDossierActivity); 10.11 Kundenbefragung lesen (rv_get_workpapers_LoadLocalQuestionnaire); 10.10 PBC nur Vorschlag;
-    6.3 nur lesen'
-  mfiles: VR-/GV-Protokolle nach Stichtag, Korrespondenz (Anwalt, Bank, Versicherung), neue Verträge/Kredite, Bankauszüge und Debitoren-/Kreditorenzahlungen in neuer Rechnung
+  revio: 'Bereich 4: A1-102, T1-109 (Textfeld); SCH3-302 ist WP-Schritt: ohne ausdrückliche Anweisung des WP kein Textfeld, Status «nicht bearbeitet – WP-Schritt»; 10.11 Kundenbefragung
+    lesen; 10.10 PBC nur Vorschlag; 6.3 nur lesen'
+  mfiles: Protokolle nach Stichtag, schriftliche Antworten 10.11
   fundstellen:
   - quelle: ser-2022__anh-d-s100-1
     zitat: Befragung zu bedeutenden schwebenden Geschäften und anderen Ursachen, die vor dem Bilanzstichtag liegen und ein Verlustrisiko beinhalten
@@ -149,10 +155,20 @@ schritte:
     zitat: Der Abschlussprüfer befragt die Unternehmensleitung zu allfälligen eingetretenen Ereignissen, die Anpassungen des Abschlusses oder Angaben im Abschluss erfordern.
   - quelle: hwp-er-2026__rz-0321-s255-t1
     zitat: so nahe wie praktisch möglich am Datum des Revisionsberichts
-  - quelle: katalog-revio4__c003-61
-    zitat: Durchsicht von Konten und/oder Belegen in neuer Rechnung auf Positionen, die das Berichtsjahr betreffen
   - quelle: konzept-ki-revisionsagent-2026__c012-1
     zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
+  - quelle: hwp-er-2026__rz-0318-s254
+    zitat: Dabei wird sich der Abschlussprüfer bei der eingeschränkten Revision auf die Befragung zu bedeutenden schwebenden Geschäften und anderen Sachverhalten, die vor dem Bilanzstichtag
+      liegen und ein Verlustrisiko beinhalten, beschränken.
+  - quelle: hwp-er-2026__rz-0318-s254
+    zitat: Der Abschlussprüfer wird hingegen keine zusätzlichen Prüfungshandlungen zu Sachverhalten vornehmen, bei denen die bereits durchgeführten Prüfungshandlungen zu zufriedenstellenden
+      Schlussfolgerungen geführt haben.
+  - quelle: hwp-er-2026__rz-0321-s255-t1
+    zitat: Vom Abschlussprüfer wird indes nicht erwartet, dass er fortlaufend alle Sachverhalte
+  - quelle: katalog-revio4__c003-61
+    zitat: SCH3-302 | Detail | WP
+  - quelle: konzept-ki-revisionsagent-2026__c012-1
+    zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - was: 'Gefundene Ereignisse einordnen und mit Jahresrechnung/Anhang abgleichen: Vorschlag «berücksichtigungspflichtig» (Umstand lag am Stichtag vor → Anpassung) oder «nicht zu berücksichtigen»
     (neuer Umstand → ggf. Offenlegung im Anhang). Für die Offenlegung prüfen, ob Art des Ereignisses und Schätzung der finanziellen Auswirkungen angegeben sind (ist keine Schätzung möglich,
     muss dies stehen); Betrag im Rechenmodul (`rechne`) schätzen; wesentliche Fälle als Notiz «Wesentliche Feststellungen».'
@@ -175,8 +191,8 @@ schritte:
     von der Fortführung offenlegt. Ohne Zweifel genügt die Erklärung in der VE als Nachweis – dann keine PBC-Vorschläge für Budget/Liquiditätsplanung; bei Indikatoren Meldung an den
     WP.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 'Bereich 4: A1-205, T1-318; Kennzahlen 1.2 (rv_get_financialStatement_LoadKeyFigureView); 6.3 Ereignisse/Going concern nur lesen; 3.4 Going concern: Leserecht noch offen (Entscheid
-    consis)'
+  revio: 'Bereich 4: A1-205, T1-318; Kennzahlen 1.2 (rv_get_financialStatement_LoadKeyFigureView); 6.3 Ereignisse/Going concern nur lesen; 3.4 Going concern nur lesen, sofern das Leserecht
+    erteilt ist (Entscheid consis offen); fehlt es: Notiz «Pendenz» und im Rapport melden'
   mfiles: 'Ohne Indikatoren: nur VE-Erklärung; bei Indikatoren oder auf Anweisung des WP: Budget/Liquiditätsplanung, jüngster Zwischenabschluss, Kreditverträge und Bankkorrespondenz,
     VR-Protokolle'
   fundstellen:
@@ -192,6 +208,8 @@ schritte:
     zitat: Beruht die Rechnungslegung auf der Annahme, dass das Unternehmen auf absehbare Zeit fortgeführt wird (Going Concern)?
   - quelle: konzept-ki-revisionsagent-2026__c017-1
     zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+  - quelle: konzept-ki-revisionsagent-2026__c010-1
+    zitat: Alles, was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
 - was: 'Bei Zweifeln an der Fortführung (nur auf Anweisung des WP): besondere Handlungen vorbereiten – Plan-Cashflows analysieren, jüngsten Zwischenabschluss auswerten, Kreditbedingungen
     auf Verstösse durchsehen, Protokolle auf finanzielle Schwierigkeiten lesen, Finanzierungszusagen/Rangrücktritte beschaffen; schriftliche Erklärung zu den Plänen über den WP einfordern
     lassen.'
@@ -205,14 +223,20 @@ schritte:
     zitat: kritische Durchsicht der Bedingungen von Finanzverbindlichkeiten und Ermittlung von möglichen Verstössen gegen entsprechende Vereinbarungen
   - quelle: hwp-er-2026__rz-0195-s225
     zitat: eine schriftliche Erklärung der Unternehmensleitung über die Pläne für zukünftige Aktivitäten einfordern
-- was: 'Kapitalverlust und Überschuldung prüfen (P1-313): (1) Kapitalverlust mit `kapitalverlust` berechnen: Aktiven abzüglich Verbindlichkeiten < Hälfte von AK + nicht zurückzahlbarer
-    gesetzlicher Kapitalreserve + gesetzlicher Gewinnreserve (OR 725a Abs. 1); festhalten, ob und welche Massnahmen der VR ergriffen hat. Ein Rangrücktritt beseitigt den Kapitalverlust
-    nicht und ist keine Sanierungsmassnahme nach 725a. (2) Bei begründeter Besorgnis einer Überschuldung: vorhandene Zwischenabschlüsse (Fortführungs-/Veräusserungswerte), Rangrücktritte
-    (Umfang, Stundung) und Sanierungsaussicht samt 90-Tage-Frist festhalten. Die Prüfung der Zwischenabschlüsse nach OR 725b Abs. 2 ist ein eigener Auftrag (weder eingeschränkte noch
-    ordentliche Revision) – nicht in der SER-Akte vorbereiten, nur dem WP melden. Ergebnis als Notiz «Wesentliche Feststellungen»; Zusatz, Hinweis und Anzeige entscheidet der WP.'
+- was: 'Kapitalverlust und Überschuldung prüfen (P1-313): (1) Kapitalverlust berechnen mit `kapitalverlust --aktienkapital <AK> --aktiven <A> --verbindlichkeiten <V> --kapitalreserve
+    <gesetzl. KR> --gewinnreserve <gesetzl. GR> [--reserve-voll <659b/Aufwertung>] [--covid-kredit <K>] [--rangruecktritt <RR>] [--holding]` (alternativ `--eigenkapital` statt Aktiven/Verbindlichkeiten):
+    Aktiven abzüglich Verbindlichkeiten < Hälfte von AK + nicht zurückzahlbarer gesetzlicher Kapitalreserve + gesetzlicher Gewinnreserve (OR 725a Abs. 1); festhalten, ob und welche Massnahmen
+    der VR ergriffen hat. Ein Rangrücktritt beseitigt den Kapitalverlust nicht und ist keine Sanierungsmassnahme nach 725a. Covid-19-Kredite nach Art. 3 Covid-19-SBüV (sowie Darlehen/Kredite
+    nach Art. 21 HFMV 20) zählen für OR 725a/725b nicht als Fremdkapital (Art. 24 Covid-19-SBüG; gilt bis 31.12.2032): Betrag mit `--covid-kredit <K>` eingeben, Verbindlichkeiten bzw.
+    Eigenkapital unverändert aus der Bilanz übernehmen, nicht zusätzlich von Hand abziehen; Kredite nach Art. 4 SBüV bleiben Fremdkapital; Bereinigung im Textfeld P1-313 offenlegen.
+    (2) Bei begründeter Besorgnis einer Überschuldung: vorhandene Zwischenabschlüsse (Fortführungs-/Veräusserungswerte), Rangrücktritte (Umfang, Stundung) und Sanierungsaussicht samt
+    90-Tage-Frist festhalten. Weist die Jahresrechnung zu Fortführungswerten eine Überschuldung aus, entspricht sie dem Zwischenabschluss zu Fortführungswerten: in P1-313 vorbereiten
+    (Überschuldung im Bericht festhalten, Organe auf ihre Pflichten hinweisen – Entscheid WP). Die Prüfung der Zwischenabschlüsse nach OR 725b Abs. 2 ist ein separater Prüfungsfall nach
+    PS-CH 290 (weder eingeschränkte noch ordentliche Revision) mit eigenem Bericht, auch bei gleichem Stichtag (zwei Berichte); Durchführung entscheidet der WP. Ergebnis als Notiz «Wesentliche
+    Feststellungen»; Zusatz, Hinweis und Anzeige entscheidet der WP. Ablauf und Zusatz-/Hinweis-Muster: `aufgabe kapitalschutz` bzw. `prozess p6`.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 'Bereich 4: P1-313 (Textfeld mit Rechenweg); Notiz «Wesentliche Feststellungen» (rv_put_workpapers_UpdateNote)'
-  mfiles: Rangrücktrittsvereinbarungen, Zwischenabschlüsse nach OR 725b, VR-Protokolle zu Sanierungsmassnahmen
+  mfiles: Rangrücktrittsvereinbarungen, Zwischenabschlüsse nach OR 725b, VR-Protokolle zu Sanierungsmassnahmen, Kreditvereinbarung bzw. Bürgschaftsvertrag Covid-19-Kredit (Art. 3/4 SBüV)
   fundstellen:
   - quelle: katalog-revio4__c003-52
     zitat: Beurteilung Eigenkapital in Bezug auf OR 725
@@ -232,8 +256,25 @@ schritte:
     zitat: Ergibt sich aus der eingeschränkten Revision eine Überschuldung, so wird diese im Revisionsbericht festgehalten
   - quelle: ser-2022__8-3-2-t1
     zitat: sind in jedem Fall im Revisionsbericht anzubringen
+  - quelle: covid-sbueg__art-24
+    zitat: werden Kredite, die gestützt auf Artikel 3 Covid-19-SBüV verbürgt wurden, nicht als Fremdkapital berücksichtigt
+  - quelle: hwp-er-2026__rz-0373-s113
+    zitat: Dies gilt auch für Darlehen oder verbürgte/garantierte Kredite nach der Covid-19-Härtefallverordnung
+  - quelle: covid-sbueg__art-31
+    zitat: gilt bis zum 31. Dezember 2032
+  - quelle: ser-2022__9-t2
+    zitat: zusätzlich werden die Organe auf ihre gesetzlichen Pflichten aufmerksam gemacht
+  - quelle: ser-2022__9-t2
+    zitat: Die Jahresrechnung entspricht in diesem Fall dem Zwischenabschluss zu Fortführungswerten und ist zu prüfen (Art. 725b OR).
+  - quelle: ser-2022__9-t2
+    zitat: Für diesen speziellen Prüfungsfall, der unabhängig von der Art der Revision der Jahresrechnung zu behandeln ist
+  - quelle: ser-2022__9-t2
+    zitat: Ausser in den Fällen eines Opting-out ist die gesetzliche Revisionsstelle für die Prüfung des Zwischenabschlusses nach Art. 725b OR zuständig.
+  - quelle: qa-kapitalverlust-2023__2-2-2-t2
+    zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen (Bericht zur eingeschränkten Revision und Bericht gemäss PS-CH 290).
 - was: 'Nicht korrigierte Fehler zusammenstellen (A1-203): alle Wesentlichen Feststellungen und Buchungsvorschläge über der Nichtaufgriffsgrenze aus Bereich 4 auflisten, ob verbucht
-    oder nicht, Summe im Rechenmodul bilden und Gesamt-/Toleranzwesentlichkeit aus 3.3 gegenüberstellen. Keine Verbuchung, keine eigene Beurteilung der Summe.'
+    oder nicht. Summe der nicht korrigierten Fehlaussagen der Gesamtwesentlichkeit gegenüberstellen; je betroffene Position die Fehlaussage der Toleranzwesentlichkeit gegenüberstellen
+    (mit `rechne`). Information der Unternehmensleitung (Teil von A1-203) und Beurteilung macht der WP – im Rapport als offen vermerken. Keine Verbuchung.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 'Bereich 4: A1-203 (Textfeld); Wesentlichkeit lesen (rv_get_workpapers_LoadMaterialityOfDossier); 6.1 Nicht nachgebuchte Fehler nur lesen'
   mfiles: ''
@@ -241,18 +282,29 @@ schritte:
   - quelle: ser-2022__5-3
     zitat: Während der Prüfung festgestellte Fehlaussagen werden laufend in einer Zusammenstellung nachgeführt
   - quelle: ser-2022__anh-d-s072-2
-    zitat: Beurteilung der Auswirkung nicht korrigierter Fehler – sowohl einzeln als auch zusammengenommen
+    zitat: Beurteilung der Auswirkung nicht korrigierter Fehler – sowohl einzeln als auch zusammengenommen. Information der Unternehmensleitung über die Fehler
   - quelle: konzept-ki-revisionsagent-2026__c014-1
     zitat: die Summe der nicht korrigierten Fehler beurteilt der Mensch in 6.1
+  - quelle: hwp-er-2026__rz-0056-s189
+    zitat: Sofern sie aggregiert unter 67 000 CHF liegen und nicht korrigiert werden, führt dies in der Regel nicht zu einer Modifizierung
+  - quelle: hwp-er-2026__rz-0056-s189
+    zitat: Ist die Fehlaussage (in Bezug auf die Toleranzwesentlichkeit) materiell, wird der Abschlussprüfer in der Regel seine Prüfungsaussage in Bezug auf diese Position
+  - quelle: hwp-er-2026__rz-0052-s188-t2
+    zitat: Liegt die Summe der einzelnen Fehler über oder nahe bei den im ersten und zweiten Schritt festgelegten Grössen, wird der Abschlussprüfer in der Regel weitergehende Prüfungshandlungen
+      durchführen und das Management zur Korrektur der Fehler auffordern.
 - was: 'Antrag über die Verwendung des Bilanzgewinns prüfen (P1-303, A1-307, P1-302, P1-312, P1-305): mit `rechne` in fester Reihenfolge nachrechnen – (1) Verlustvortrag vom Jahresgewinn
     abziehen (Gewinnvortrag nicht einbeziehen; bleibt ein Bilanzverlust, keine Zuweisung); (2) 5 % an die gesetzliche Gewinnreserve; (3) Obergrenze prüfen: gesetzliche Gewinnreserve
     + gesetzliche Kapitalreserve ≥ 50 % des eingetragenen AK (Holding 20 %) → keine Pflichtzuweisung mehr, keine Feststellung «fehlende Zuweisung»; (4) Dividende nur aus Bilanzgewinn
-    und hierfür gebildeten Reserven, erst nach den Zuweisungen; (5) bei Verlust: Reihenfolge OR 674 Abs. 1, Vortrag statt Verrechnung mit gesetzlichen Reserven zulässig. Danach mit Bilanz/ER
-    abstimmen, Vortrag mit Vorjahres-JR und GV-Protokoll abgleichen, Statuten durchsehen, Einlagenrückgewähr (P1-305, Art. 680 Abs. 2 OR) bei Forderungen gegenüber Beteiligten, verfügbare
-    Liquidität und Ereignisse nach Stichtag beurteilen. Auszahlung und Verrechnungssteuer der beantragten Dividende: P1-315 im Folgejahr.'
+    und hierfür gebildeten Reserven, erst nach den Zuweisungen; dabei allfällige Eigenkapitalminuspositionen (z. B. eigene Kapitalanteile) vom ausschüttbaren Eigenkapital abziehen (HWP
+    Rz 220); (5) bei Verlust: Reihenfolge OR 674 Abs. 1, Vortrag statt Verrechnung mit gesetzlichen Reserven zulässig. Danach mit Bilanz/ER abstimmen, Vortrag mit Vorjahres-JR und GV-Protokoll
+    abgleichen, Statuten durchsehen, Einlagenrückgewähr (P1-305, Art. 680 Abs. 2 OR) bei Forderungen gegenüber Beteiligten, verfügbare Liquidität und Ereignisse nach Stichtag beurteilen.
+    Auszahlung und Verrechnungssteuer der beantragten Dividende: P1-315 im Folgejahr. (6) Covid-19-Kredit mit Solidarbürgschaft per Stichtag offen (Bürgschaft höchstens acht Jahre, Art.
+    3)? Dann sind Dividenden, Tantiemen und Rückerstattung von Kapitaleinlagen ausgeschlossen (Art. 2 Abs. 2 Bst. a Covid-19-SBüG) → beantragte Ausschüttung als Notiz «Wesentliche Feststellungen».
+    Fristansetzung und Information von GV und Bürgschaftsorganisation (Art. 23) entscheidet und vollzieht der WP.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 'Bereich 4: P1-303, A1-307, P1-302, P1-312, P1-305 (Textfeld mit Rechenweg); Forderungen ggü. Beteiligten aus D1/H2 lesen; 1.1 Antrag VR lesen; Dividenden nur lesen (rv_get_workpapers_LoadDividends)'
-  mfiles: Antrag VR, GV-Protokoll Vorjahr (Gewinnverwendungsbeschluss), Statuten, HR-Auszug (eingetragenes AK), aktuelle Bankauszüge, Darlehensverträge mit Aktionären/Nahestehenden
+  mfiles: Antrag VR, GV-Protokoll Vorjahr (Gewinnverwendungsbeschluss), Statuten, HR-Auszug (eingetragenes AK), aktuelle Bankauszüge, Darlehensverträge mit Aktionären/Nahestehenden,
+    Kreditvereinbarung Covid-19-Kredit (falls vorhanden)
   fundstellen:
   - quelle: hwp-er-2026__rz-0220-s235
     zitat: Nachrechnen des Gewinnverwendungs- bzw. Verlustverrechnungsvorschlags
@@ -280,6 +332,20 @@ schritte:
     zitat: Beurteilung des Antrags über die Verwendung des Bilanzgewinns
   - quelle: katalog-revio4__c003-52
     zitat: Dividendenzahlungen / Abrechnung Verrechnungssteuern
+  - quelle: hwp-er-2026__rz-0220-s235
+    zitat: oder allfälliger Eigenkapitalminuspositionen, welche das ausschüttbare Eigenkapital reduzieren
+  - quelle: covid-sbueg__art-2-t1
+    zitat: 'Während der Dauer der Solidarbürgschaft ausgeschlossen sind:'
+  - quelle: covid-sbueg__art-2-t1
+    zitat: a. Dividenden und Tantiemen sowie die Rückerstattung von Kapitaleinlagen;
+  - quelle: covid-sbueg__art-3
+    zitat: dauert höchstens acht Jahre
+  - quelle: covid-sbueg__art-23
+    zitat: im Rahmen der eingeschränkten oder ordentlichen Revision der Jahres- oder Konzernrechnung eine Verletzung einer Vorgabe nach Artikel 2 Absätze 2–4 fest
+  - quelle: covid-sbueg__art-23
+    zitat: so setzt sie ihr oder ihm eine angemessene Frist zur Herstellung des ordnungsgemässen Zustandes
+  - quelle: covid-sbueg__art-23
+    zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
 - was: 'Formelle Prüfung der Jahresrechnung (A1-301, A1-305): JR vollständig (Bilanz, Erfolgsrechnung, Anhang); Antrag als separates Dokument vorhanden (die revio-Liste in A1-305 nennt
     die Gewinnverwendung mit, rechtlich ist der Antrag nicht Bestandteil der JR). JR vom VR-Präsidenten und der für die Rechnungslegung zuständigen Person unterzeichnet oder formell
     gutgeheissen; Datum festhalten (frühestes Berichtsdatum).'
@@ -300,7 +366,8 @@ schritte:
 - was: 'Gesamtbeurteilung vorbereiten (A1-201, A1-202, A1-204, A1-206, A1-207): Jahresrechnung als Ganzes gegen Kenntnisse über Tätigkeit/Umfeld und gegen Ergebnisse der Prüffelder plausibilisieren;
     Widersprüche und Bereiche mit weiterem Prüfbedarf melden.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 'Bereich 4: A1-2xx; 6.2 Abschliessende analytische Prüfungen nur lesen als Leitfaden; Kennzahlen 1.2; stille Reserven (rv_get_financialStatement_LoadHiddenReserves)'
+  revio: 'Bereich 4: A1-2xx; 6.2 Abschliessende analytische Prüfungen als Leitfaden nur lesen, sofern das Leserecht erteilt ist (Entscheid consis offen); fehlt es: Notiz «Pendenz» und
+    im Rapport melden; Kennzahlen 1.2; stille Reserven (rv_get_financialStatement_LoadHiddenReserves)'
   mfiles: ''
   fundstellen:
   - quelle: ser-2022__6-2-4
@@ -309,10 +376,16 @@ schritte:
     zitat: ob und in welchen Bereichen es weiterer Prüfungshandlungen bedarf
   - quelle: konzept-ki-revisionsagent-2026__c006-2
     zitat: 6.2 als Leitfaden für die Plausibilisierung
+  - quelle: konzept-ki-revisionsagent-2026__c017-1
+    zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
+  - quelle: konzept-ki-revisionsagent-2026__c010-1
+    zitat: Alles, was der Agent nicht klären kann, erfasst er als Pendenz und meldet es im Rapport.
 - was: 'Vollständigkeitserklärung vorbereiten (A1-103): Entwurf nach SER Anhang E Beispiel 1, adressiert an die Revisionsstelle. Der Grundtext deckt u. a. Fortführung, stille Reserven,
-    Eventualverbindlichkeiten, Ereignisse nach Stichtag, Rechtsstreitigkeiten (Beilage) und Kreditvereinbarungen bereits ab. Mandatsspezifisch nur die Platzhalter [12]–[15] vorschlagen:
-    wesentliche Sachverhalte ohne andere ausreichende Prüfungsnachweise (ggf. Derivate, Umrechnungskurse/Fremdwährung, Marktpreisbewertung), MWST [13], Meldepflichten/GAFI [14]; Vorschläge
-    begründen, Entscheid beim WP. Entwurf nur an den WP, nie an den Kunden.'
+    Eventualverbindlichkeiten, Ereignisse nach Stichtag, Rechtsstreitigkeiten (Beilage) und Kreditvereinbarungen bereits ab. Platzhalter [1]–[11] ausfüllen bzw. anpassen: [3] Anhang
+    ggf. streichen, [5] anpassen, wenn das Geschäftsjahr nicht zwölf Monate umfasst, [8] nach Bedarf anpassen (z. B. verdeckte Gewinnausschüttung, Privatauslagen als Geschäftsaufwand
+    eigens erwähnen), [9] Beilage Rechtsstreitigkeiten, [10] evtl. Erklärung zu laufenden oder drohenden Verfahren, [11] nur wenn gesetzlich erforderlich. Mandatsspezifische Zusätze:
+    [12] wesentliche Sachverhalte ohne andere ausreichende Prüfungsnachweise (z. B. Derivate, Umrechnungskurse, Marktpreisbewertung), [13] MWST, [14] FinfraG (Derivatehandel), [15] Meldepflicht
+    Inhaberaktien (Art. 697j ff. OR). Vorschläge begründen, Entscheid beim WP. Entwurf nur an den WP, nie an den Kunden.'
   wer: Agent bereitet vor, WP entscheidet
   revio: 'Bereich 4: A1-103 (Textfeld: Entwurf, vorgeschlagene Ergänzungen, offene Punkte); 10.4 Jahresrechnung und Vollständigkeitserklärung'
   mfiles: Vorjahres-VE als Vorlage suchen; Entwurf in M-Files (Mandat/Geschäftsjahr) ablegen
@@ -335,6 +408,24 @@ schritte:
     zitat: Vollständigkeitserklärung besprechen und unterzeichnen lassen.
   - quelle: hwp-er-2026__rz-0340-s259
     zitat: Eine Vollständigkeitserklärung ist für jede Abschlussprüfung einzufordern.
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: Anhang streichen, sofern kein solcher erforderlich ist.
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: Anzupassen, wenn das Geschäftsjahr nicht zwölf Monate umfasst
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: Evtl. bestimmte Tatbestände (z. B. verdeckte Gewinnausschüttung, Verbuchung von Privatauslagen als Geschäftsaufwand) eigens erwähnen.
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: Allfällige Rechtsstreitigkeiten sind in einer Beilage anzuführen.
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: Evtl. Erklärung zu laufenden oder drohenden Prozessen oder anderen Verfahren
+  - quelle: ser-2022__anh-e-s105-1
+    zitat: '[11] Nur, wenn gesetzlich erforderlich.'
+  - quelle: ser-2022__anh-e-s105-2
+    zitat: Derivative Finanzinstrumente aller Art
+  - quelle: ser-2022__anh-e-s106-1
+    zitat: Ergänzung aufgrund der Prüfung nach FinfraG
+  - quelle: ser-2022__anh-e-s106-1
+    zitat: insbes. Meldepflicht von Inhaberaktien gemäss
 - was: Unterzeichnete Jahresrechnung, separaten Antrag VR und Vollständigkeitserklärung liefern; Fragen zu Ereignissen nach Stichtag, zu Kapitalverlust/Überschuldung und zur Fortführung
     schriftlich beantworten.
   wer: Kunde
@@ -374,7 +465,7 @@ schritte:
 - was: 'Schlussbesprechung mit VR/GL (empfohlen, nicht vorgeschrieben; Form bestimmt der WP): wesentliche Prüfungsergebnisse besprechen, Fehlerkorrekturen und Offenlegungen einfordern,
     abweichende Meinungen klären; Kurzprotokoll; fehlt der VR, über zusätzliche schriftliche Kommunikation entscheiden.'
   wer: WP
-  revio: Notiz «Review»/Protokoll durch den WP
+  revio: Protokoll durch den WP (Notiz «Review» nur WP)
   mfiles: Protokoll der Schlussbesprechung ablegen (durch WP oder nach seiner Weisung)
   fundstellen:
   - quelle: hwp-er-2026__rz-0455-s289
@@ -385,10 +476,13 @@ schritte:
     zitat: Es empfiehlt sich, über die Schlussbesprechung ein (Kurz-)Protokoll zu erstellen.
   - quelle: hwp-er-2026__rz-0296-s249
     zitat: Falls in bestimmten Fällen die Schlussbesprechung beispielsweise ohne Verwaltungsrat stattfindet
+  - quelle: konzept-ki-revisionsagent-2026__c007-1
+    zitat: keine; für Rückmeldungen des Wirtschaftsprüfers
 - was: 'Ergebnis übergeben: Revisionsrapport an den WP (Status aller Schritte, offene und wesentliche Punkte zuerst, GV-Datum und 20-Tage-Frist nennen) und GVB-Entwurf im Normalwortlaut
     gemäss 7.1; nötige Zusätze, Hinweise oder Einschränkungen nur markieren mit Verweis auf das passende Muster (Vorgehen offen bei consis) – ohne Datum, ohne Unterschrift.'
   wer: Agent
-  revio: Prozess 4 (E-Mail nur an WP-Adresse) und Prozess 5 (7.1 Berichtsstrategie, 7.5 Berichtskritik nur lesen)
+  revio: Agent-Prozess 4 Revisionsrapport (`aufgabe rapport`; E-Mail nur an WP-Adresse) und Agent-Prozess 5 GVB-Entwurf (`aufgabe gvb-bericht`; 7.1 Berichtsstrategie, 7.5 Berichtskritik
+    nur lesen)
   mfiles: GVB-Entwurf als Kopie der Vorjahresvorlage; Vorjahresoriginale unverändert
   fundstellen:
   - quelle: konzept-ki-revisionsagent-2026__c011-2
@@ -397,6 +491,8 @@ schritte:
     zitat: darf der Abschlussprüfer den Revisionsbericht frühestens auf den Zeitpunkt datieren, an dem die Unternehmensleitung den Abschluss unterzeichnet oder formell gutgeheissen hat
   - quelle: or__art-699a
     zitat: Mindestens 20 Tage vor der Generalversammlung sind den Aktionären der Geschäftsbericht und die Revisionsberichte zugänglich zu machen.
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: 4 Revisionsrapport
 - was: 'Neue Tatsachen nach dem Berichtsdatum (vor oder nach Herausgabe des Abschlusses): sofort als Notiz «Wesentliche Feststellungen» erfassen und dem WP melden; Erörterung mit der
     Unternehmensleitung, Änderung des Abschlusses, neuer Bericht oder Modifizierung bei unterlassener Änderung entscheidet der WP.'
   wer: Agent bereitet vor, WP entscheidet
@@ -410,9 +506,10 @@ schritte:
   - quelle: hwp-er-2026__rz-0326-s256
     zitat: modifiziert der Abschlussprüfer seine Prüfungsaussage (sofern dem Unternehmen noch nicht zugestellt)
 - was: 'Nach dem Berichtsdatum: Abschluss der Auftragsakte vorbereiten (offene Dokumentation nachführen) innert der intern festgelegten Frist (in der Regel höchstens 60 Tage); PDF-Akte
-    (Prozess 6) nur auf Anweisung des WP erzeugen, prüfen und in M-Files ablegen; nichts überschreiben. Archivierungsreife und Schlussvermerk (Bereich 9) bleiben beim Menschen.'
+    (Agent-Prozess 6, `aufgabe pdf-akte`) nur auf Anweisung des WP erzeugen, prüfen und in M-Files ablegen; nichts überschreiben. Archivierungsreife und Schlussvermerk (Bereich 9) bleiben
+    beim Menschen.'
   wer: Agent bereitet vor, WP entscheidet
-  revio: 'Prozess 6: PDF-Akte revio → M-Files nur auf Anweisung; Bereich 9 keine Rolle des Agenten'
+  revio: 'Agent-Prozess 6 PDF-Akte (`aufgabe pdf-akte`): revio → M-Files nur auf Anweisung; Bereich 9 keine Rolle des Agenten'
   mfiles: PDF-Akte ablegen (Klasse «Revision», Kategorie «Arbeitspapiere», Bezeichnung «AP revio»), Speicherort bestätigen
   fundstellen:
   - quelle: hwp-er-2026__rz-0334-s258
@@ -425,6 +522,8 @@ schritte:
     zitat: 'Nur auf Anweisung: PDF-Akte erzeugen, prüfen, in M-Files ablegen'
   - quelle: konzept-ki-revisionsagent-2026__c006-2
     zitat: 9.0 Abschliessende Beurteilung, Archivierungsreife, Schlussvermerk
+  - quelle: konzept-ki-revisionsagent-2026__c011-2
+    zitat: 6 PDF-Akte
 entscheidungen_wp:
 - text: Ob ein Ereignis nach dem Bilanzstichtag den Abschluss (Anpassung/Offenlegung), den Bericht oder erst die Folgeperiode betrifft.
   quelle: hwp-er-2026__rz-0317-s254
@@ -454,6 +553,9 @@ entscheidungen_wp:
 - text: Ob eine verbotene Einlagenrückgewähr (Art. 680 Abs. 2 OR) vorliegt und ein Hinweis anzubringen ist (Muster c052-1, SER F Bsp. 14).
   quelle: muster-hwp-er-2026__c052-1
   zitat: Hinweis auf verbotene Einlagenrückgewähr Art. 680 Abs. 2 OR
+- text: Vorgehen bei Verletzung von Art. 2 Covid-19-SBüG (Frist, Information GV, Bürgschaftsorganisation).
+  quelle: covid-sbueg__art-23
+  zitat: Wird dieser nicht innerhalb der gesetzten Frist hergestellt, so muss die Revisionsstelle die Generalversammlung informieren.
 - text: 'Kapitalverlust: ob eine Pflichtwidrigkeit des VR (auch bei blossem Rangrücktritt) und damit ein Hinweis auf Gesetzesverstoss vorliegt oder nur ein Zusatz (Muster c046-1 bzw.
     SER F Bsp. 11; Hinweis auf Untätigkeit c050-1).'
   quelle: qa-kapitalverlust-2023__1-2-t3
@@ -462,10 +564,11 @@ entscheidungen_wp:
     OR 729c.'
   quelle: ser-2022__8-3-2-t1
   zitat: Bleibt der Verwaltungsrat untätig, beachtet die Revisionsstelle zusätzlich bei Vorliegen einer Überschuldung (Art. 725b OR) die Anzeigepflicht gemäss Art. 729c OR.
-- text: Annahme und Durchführung der Prüfung der Zwischenabschlüsse nach OR 725b Abs. 2 als eigener Auftrag (keine SER-Prüfung).
+- text: Durchführung der Prüfung der Zwischenabschlüsse nach OR 725b Abs. 2 (PS-CH 290, eigener Bericht; zuständig ist ausser bei Opting-out die gesetzliche Revisionsstelle).
   quelle: ser-2022__9-t2
   zitat: Ausser in den Fällen eines Opting-out ist die gesetzliche Revisionsstelle für die Prüfung des Zwischenabschlusses nach Art. 725b OR zuständig.
-- text: Inhalt der Vollständigkeitserklärung (Ergänzungen [12]–[15]/Streichungen) und Vorgehen bei Weigerung der Unternehmensleitung (Beschränkung des Prüfungsumfangs, Muster c029-1).
+- text: Inhalt der Vollständigkeitserklärung (Ergänzungen [8] und [12]–[15]/Streichungen) und Vorgehen bei Weigerung der Unternehmensleitung (Beschränkung des Prüfungsumfangs, Muster
+    c029-1).
   quelle: ser-2022__anh-e-s102-2
   zitat: Weigert sich die Unternehmensleitung, eine Erklärung abzugeben, die nach Auffassung des Abschlussprüfers erforderlich ist, liegt eine Beschränkung des Prüfungsumfangs vor.
 - text: 'Vorgehen, wenn die unterzeichnete VE bei der vorgesehenen Berichtsabgabe nicht vorliegt (SER: «in der Regel» vorher).'
@@ -489,7 +592,7 @@ entscheidungen_wp:
 - text: Visum je Schritt, ✓ je Prüffeld, Abschliessende Beurteilung und Status in Bereich 10.
   quelle: konzept-ki-revisionsagent-2026__c008-1
   zitat: 'Visum (Kürzel und Datum) pro Schritt, ✓ pro Prüffeld, «Abgeschlossen» und «Review» in der Fusszeile, Status in Bereich 10: alles bleibt beim Menschen.'
-- text: 'Abschluss der Auftragsakte und PDF-Akte (Prozess 6): nur auf Anweisung des WP.'
+- text: 'Abschluss der Auftragsakte und PDF-Akte (Agent-Prozess 6, `aufgabe pdf-akte`): nur auf Anweisung des WP.'
   quelle: konzept-ki-revisionsagent-2026__c010-1
   zitat: Die PDF-Akte (Prozess 6) entsteht nur auf seine Anweisung.
 - text: Ob der Agent WP-gekennzeichnete Schritte überhaupt vorbereitet (offener Entscheid consis).
@@ -542,7 +645,7 @@ unterlagen:
   quelle: ser-2022__anh-g-s141-1
   zitat: Bestätigung der Existenz, Gültigkeit und Durchsetzbarkeit von Vereinbarungen mit nahestehenden Personen sowie Dritten
 - dokument: 'Bedingt (bei begründeter Besorgnis einer Überschuldung): Zwischenabschlüsse zu Fortführungs- und Veräusserungswerten und Bericht über deren Prüfung'
-  zweck: P1-313; Pflichten des VR nach OR 725b (Prüfung selbst ist eigener Auftrag)
+  zweck: 'P1-313; Pflichten des VR nach OR 725b (Prüfung selbst: separater Prüfungsfall nach PS-CH 290 mit eigenem Bericht)'
   quelle: or__art-725b-t1
   zitat: Der Verwaltungsrat lässt die Zwischenabschlüsse durch die Revisionsstelle oder, wenn eine solche fehlt, durch einen zugelassenen Revisor prüfen
 - dokument: Aufstellung Rechtsstreitigkeiten / Anwaltskorrespondenz
@@ -580,10 +683,13 @@ dokumentation:
 - text: Memorandum zur abschliessenden Durchsicht durch den leitenden Prüfer ist empfohlen (erstellt der WP; Agent liefert Rapport als Grundlage).
   quelle: ser-2022__7-2
   zitat: Ein Memorandum, das die abschliessende Durchsicht der Prüfungsdokumentation durch den leitenden Abschlussprüfer und die Prüfungsergebnisse
-- text: 'Notizen: Pendenz (fehlende Unterlagen/Antworten), Wesentliche Feststellungen (Fehler, Buchungsvorschläge ohne Verbuchung), Schlussbesprechung (Punkte für den WP); Notizen nie
-    löschen oder erledigen.'
+- text: 'Notizen des Agenten: Pendenz (fehlende Unterlagen/Antworten), Wesentliche Feststellungen (Fehler, Buchungsvorschläge ohne Verbuchung), Schlussbesprechung (Punkte für den WP);
+    «Review» nur WP (siehe nächster Punkt); Notizen nie löschen oder erledigen.'
   quelle: konzept-ki-revisionsagent-2026__c007-1
   zitat: Notizen löscht oder erledigt er nie.
+- text: 'Review: keine Einträge des Agenten (nur Rückmeldungen des WP).'
+  quelle: konzept-ki-revisionsagent-2026__c007-1
+  zitat: keine; für Rückmeldungen des Wirtschaftsprüfers
 - text: Zeitpunkt festhalten, bis zu dem Ereignisse nach dem Bilanzstichtag erhoben wurden (Grundlage für das Berichtsdatum).
   quelle: hwp-er-2026__rz-0322-s256
   zitat: So wird festgelegt, bis zu welchem Zeitpunkt der Abschlussprüfer die Berücksichtigung von Ereignissen nach dem Bilanzstichtag geprüft hat.
@@ -608,7 +714,7 @@ fallstricke:
   quelle: hwp-er-2026__rz-0338-s259
   zitat: Zu beachten ist, dass die Vollständigkeitserklärung kein Ersatz für Prüfungsnachweise ist
 - text: 'VE-Ergänzungen nicht mit dem Grundtext verwechseln: Ereignisse nach Stichtag, Kreditvereinbarungen, Rechtsstreitigkeiten usw. stehen schon in Beispiel 1; mandatsspezifisch sind
-    die Platzhalter [12]–[15].'
+    die Platzhalter [8] und [12]–[15].'
   quelle: ser-2022__anh-e-s104-1
   zitat: Sämtliche wesentlichen Ereignisse nach dem Bilanzstichtag sind in der Jahresrechnung erfasst bzw. offengelegt.
 - text: 'Ohne Zweifel an der Fortführung keine pauschalen PBC-Vorschläge für Budget/Liquiditätsplanung: die Erklärung in der VE genügt.'
@@ -642,15 +748,20 @@ fallstricke:
 - text: Rangrücktritt beseitigt den Kapitalverlust nicht und ist keine Massnahme nach OR 725a; er befreit nur von der Benachrichtigung des Gerichts bei Überschuldung.
   quelle: qa-kapitalverlust-2023__1-2-t3
   zitat: Ein Rangrücktritt an sich beseitigt den Kapitalverlust nicht
-- text: Die Prüfung der Zwischenabschlüsse nach OR 725b ist weder eingeschränkte noch ordentliche Revision – nicht in der SER-Akte vorbereiten, dem WP melden.
-  quelle: ser-2022__9-t2
-  zitat: handelt es sich weder um eine eingeschränkte noch um eine ordentliche Revision
+- text: 'Überschuldung aus der eingeschränkten Revision nicht nur «dem WP melden»: in P1-313 vorbereiten (Überschuldung im Bericht festhalten – Entscheid WP). Die Prüfung der Zwischenabschlüsse
+    nach OR 725b Abs. 2 bleibt ein separater Prüfungsfall nach PS-CH 290 mit eigenem Bericht – auch bei gleichem Stichtag zwei Berichte.'
+  quelle: qa-kapitalverlust-2023__2-2-2-t2
+  zitat: Auch in diesem Fall sind jedoch zwei Berichte zu verfassen (Bericht zur eingeschränkten Revision und Bericht gemäss PS-CH 290).
 - text: VE gegenüber dem zugelassenen Revisor (Muster c013-1) gilt nur bei Opting-out ohne Revisionsstelle (OR 725a Abs. 2), nicht bei bestehender Revisionsstelle.
   quelle: or__art-725a
   zitat: Hat die Gesellschaft keine Revisionsstelle, so muss die letzte Jahresrechnung vor ihrer Genehmigung durch die Generalversammlung überdies einer eingeschränkten Revision
 - text: Fortführungszeitraum der Unternehmensleitung kürzer als 12 Monate ab Stichtag → Ausdehnung verlangen (WP).
   quelle: hwp-er-2026__rz-0194-s225
   zitat: fordert der Abschlussprüfer die Unternehmensleitung auf, den Zeitraum auf mindestens zwölf Monate auszudehnen
+- text: 'Drohende oder tatsächliche Zahlungsunfähigkeit (OR 725): keine direkte Handlungspflicht der Revisionsstelle. Nur in der Fortführungsbeurteilung (A1-205) berücksichtigen und
+    dem WP melden.'
+  quelle: ser-2022__anh-g-s138-1
+  zitat: Art. 725 OR sieht für die Revisionsstelle weder bei der drohenden noch bei der tatsächlichen Zahlungsunfähigkeit direkte Handlungspflichten vor.
 - text: Sachverhalte, die eine Modifizierung erfordern, dürfen nicht nur in einer ergänzenden schriftlichen Mitteilung stehen, sondern müssen in den Bericht.
   quelle: hwp-er-2026__rz-0461-s289
   zitat: nur in der ergänzenden schriftlichen Berichterstattung dargestellt werden, nicht aber im Bericht der Revisionsstelle
@@ -658,7 +769,7 @@ fallstricke:
     nur lesen.'
   quelle: konzept-ki-revisionsagent-2026__c006-1
   zitat: Der Agent arbeitet schreibend nur in den Prüffeldern (Bereich 4) und in den Unterlagen zum Abschluss (Bereich 10).
-- text: Leserecht für 3.4 Going concern und 6.2 ist noch offen (Entscheid consis); 6.2 nur als Leitfaden für die Plausibilisierung.
+- text: '3.1, 3.4, 3.5 und 6.2 nur lesen, sofern das Leserecht erteilt ist (Entscheid consis offen); fehlt es: Notiz «Pendenz» und im Rapport melden. 6.2 nur als Leitfaden für die Plausibilisierung.'
   quelle: konzept-ki-revisionsagent-2026__c017-1
   zitat: 'Entscheid Leserechte: zusätzlich 2.1, 2.4, 3.1, 3.4, 3.5 und 6.2'
 - text: 'Befragungsschritte (A1-102, A1-103, T1-109) kann der Agent nicht abschliessen: nur schriftliche Antworten auswerten, sonst Pendenz; Status höchstens «teilweise bearbeitet».'
@@ -670,8 +781,8 @@ fallstricke:
 - text: Buchungsvorschläge nur als Notiz, nie verbuchen – auch nicht bei offensichtlichen Fehlern in der Schlussphase.
   quelle: konzept-ki-revisionsagent-2026__c015-1
   zitat: 'Buchungsvorschläge sind bereits geregelt: als Notiz, ohne Verbuchung'
-- text: In revio heissen SCH1–SCH5 nicht «Schlussarbeiten», sondern Prüffelder der Erfolgsrechnung (SCH1 Betrieblicher Ertrag …); die Beendigungsschritte liegen vor allem in A1, P1 und
-    T1. SCH3 ist hier nur wegen der Durchsicht in neuer Rechnung (SCH3-302) relevant.
+- text: 'In revio heissen SCH1–SCH5 nicht «Schlussarbeiten», sondern Prüffelder der Erfolgsrechnung (SCH1 Betrieblicher Ertrag …); die Beendigungsschritte liegen vor allem in A1, P1
+    und T1. SCH3 ist hier nur wegen der Durchsicht in neuer Rechnung relevant: SCH3-302 ist WP-Schritt, nur auf ausdrückliche Anweisung.'
   quelle: katalog-revio4__c003-58
   zitat: SCH1 | Betrieblicher Ertrag
 - text: Weicht die GV vom Antrag ab, kann die Revisionsstelle den Beschluss erst im Folgejahr prüfen (P1-312 im Folgejahr).
@@ -706,6 +817,8 @@ fragen_kunde:
   zweck: Einlagenrückgewähr Art. 680 Abs. 2 OR (P1-305)
 - frage: Wann und in welcher Höhe soll die beantragte Dividende ausbezahlt werden, und sind die flüssigen Mittel danach ausreichend?
   zweck: Prüfung Antrag Gewinnverwendung (P1-303); Liquiditätsentzug
+- frage: Besteht ein Covid-19-Kredit mit Solidarbürgschaft (Art. 3 oder 4 SBüV), und wie hoch ist er per Stichtag noch?
+  zweck: P1-303 (Ausschüttungsverbot Art. 2 Covid-19-SBüG), P1-313 (Art.-3-Kredit kein Fremdkapital, Art. 24 Covid-19-SBüG)
 - frage: Wurden die Statuten seit der letzten GV geändert (z. B. Bestimmungen zu Reserven oder Ausschüttungen)? Ist die Gesellschaft eine Holdinggesellschaft?
   zweck: Statutenkonformität des Antrags; Obergrenze der gesetzlichen Gewinnreserve (50 % bzw. 20 % bei Holding, OR 672 Abs. 2)
 - frage: 'Werden die vorgeschlagenen Korrekturbuchungen vorgenommen? Falls nein: aus welchen Gründen?'
@@ -723,7 +836,7 @@ muster:
   chunk: ser-2022__anh-e-s103-1
 - vorlage: 'Verweis Mustervorlagen HWP ER: VE eingeschränkte Revision einer Jahresrechnung'
   chunk: muster-hwp-er-2026__c011-1
-- vorlage: Redaktionelle Erläuterungen zur VE (Platzhalter [1]–[15], mandatsspezifisch [12]–[15])
+- vorlage: Redaktionelle Erläuterungen zur VE (Platzhalter [1]–[15], mandatsspezifisch [8] und [12]–[15])
   chunk: ser-2022__anh-e-s105-1
 - vorlage: 'Sonderfall: VE gegenüber zugelassenem Revisor (Zweck Art. 725a Abs. 2 OR) – SER Anhang E, Beispiel 3 – nur Opting-out / zugelassener Revisor, nicht bei bestehender Revisionsstelle'
   chunk: muster-hwp-er-2026__c013-1

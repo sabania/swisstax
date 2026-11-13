@@ -4,14 +4,17 @@
 Einstieg:   python3 revision/tools/revision.py aufgabe "<Aufgabe/Frage>"   (Liste: aufgabe · Übersicht: hilfe)
 Prüfen:     pruefschritt C1-302 · prueffeld C1 (oder Stichwort «Vorräte») · unterlagen C1 · fragen C1
 Vorgehen:   prozess [p1…p8] · regeln [bereich] · revio <Bereich 10.9 | Prüffeld | Schritt | Werkzeug | Aufgabe | nur-mensch>
-Zahlen:     wert <begriff> · rechne "<ausdruck>" · wesentlichkeit <bezugsgrösse> <satz%> · kapitalverlust … · revisionspflicht …
+Zahlen:     wert <begriff> · rechne "a = 1200; b = 300; a - b" · rechne "tage(31.12.2025, 15.10.2025)" · wesentlichkeit <bezugsgrösse> <satz%>
+            · kapitalverlust … · revisionspflicht …
+Themen:     thema <begriff> [--voll]
 Quellen:    suche "<begriffe>" [--quelle ser-2022] · zeige <chunk-id | quick/…md> · pruefe-zitat <chunk-id> "<zitat>"
 
 Nur Python-Standardbibliothek (läuft im Plugin). Daten: index/lookup.json (tools/build_lookup.py), index/fts.sqlite (tools/build_index.py).
 """
 from __future__ import annotations
-import argparse, json, re, sqlite3, sys
-from functools import lru_cache
+import argparse, calendar, hashlib, json, os, re, sqlite3, sys, unicodedata
+from datetime import date, timedelta
+from functools import lru_cache, wraps
 from pathlib import Path
 
 R = Path(__file__).resolve().parents[1]
@@ -22,6 +25,7 @@ werden zu zum zur was wer wo welche welcher welches wann muss müssen soll solle
 wir ihr man sich bzw z b zb etc ja nein gibt gilt beim vom diese dieser dieses jede jeder jedes alle allen""".split())
 
 TYP_NR = {"1": "Befragung", "2": "Analytisch", "3": "Detail", "4": "Sonstige"}
+NR_TYP = {v: f"{k}xx" for k, v in TYP_NR.items()}   # Befragung → 1xx … (Katalog-Nr. und Typ weichen teils ab, z.B. K1-114 = Sonstige)
 ZIELE = {"EX": "Bestand", "VO": "Vollständigkeit", "EN": "Eintritt", "RV": "Rechte/Verpflichtungen", "BE": "Bewertung",
          "PA": "Periodenabgrenzung", "DO": "Darstellung/Offenlegung", "RI": "Richtigkeit (vermutlich, zu bestätigen)"}
 STATUS = "☑️ agent-geprüft (Fundstellen maschinell geprüft, fachliche Abnahme durch den WP steht aus)"
@@ -38,7 +42,8 @@ def cut(s, n):
     return (w if len(w) >= n // 2 else t).rstrip(" ,;:–-") + "…"
 
 
-ABK = set("bzw z.b u.a ca abs art ziff nr vgl evtl inkl d.h rz lit bst max min sog usw etc ggf allf insb resp spez gem mio chf".split())
+ABK = set("bzw z.b u.a ca abs art ziff nr vgl evtl inkl d.h rz lit bst max min sog usw etc ggf allf insb resp spez gem mio chf "
+          "i.v.m i.e.s i.w.s u.u abb bsp bspw kap tz ebd zzgl abzgl".split())
 
 
 def satz(s, n=400):
@@ -52,6 +57,32 @@ def satz(s, n=400):
         if w not in ABK and not w.isdigit() and len(w) > 1:
             i = m.start()
     return s[: i + 1] if i >= n // 3 else cut(s, n)
+
+
+def erster_satz(s, n=220):
+    """Erster Satz (Satzende nicht nach Abkürzungen wie «Art.», «z.B.»), höchstens n Zeichen; sonst an der Wortgrenze gekürzt."""
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    for m in re.finditer(r"[.!?](?= )", s):
+        if m.start() + 1 > n:
+            break
+        w = (re.findall(r"[\w.]+$", s[: m.start()]) or [""])[0].lower()
+        if s[m.start()] == "." and (w in ABK or w.isdigit() or len(w) <= 1):
+            continue
+        return s[: m.start() + 1]
+    return s if len(s) <= n else cut(s, n)
+
+
+def _refs(x: dict, text: str = "") -> str:
+    """« ^[quelle]» plus weitere Fundstellen (fundstellen/weitere_fundstellen: [{quelle, zitat}]) – ohne Duplikat, wenn schon im Text.
+    Ohne Quelle « (Praxis/intern)», sofern «Praxis» nicht schon im Text steht."""
+    extra = [f for f in (x.get("fundstellen") or []) + (x.get("weitere_fundstellen") or []) if isinstance(f, dict)]
+    ids = [x.get("quelle") or x.get("chunk")] + [f.get("quelle") or f.get("chunk") for f in extra]
+    ids = [i for i in dict.fromkeys(i for i in ids if i) if f"^[{i}]" not in text]
+    if ids:
+        return " " + " ".join(f"^[{i}]" for i in ids)
+    if not (x.get("quelle") or x.get("chunk")) and "praxis" not in norm(text):
+        return " (Praxis/intern)"
+    return ""
 
 
 def norm(s: str) -> str:
@@ -214,12 +245,37 @@ def zeige(ref: str, abschnitt: str | None = None) -> str:
     t = chunk_text(ref)
     if t:
         return f"# {ref}\n\n{t}"
-    pre = ref.split("__")[0]
-    try:
-        near = [x[0] for x in db().execute("select id from chunk where id like ? limit 8", (pre + "__" + ref.split("__")[-1][:5] + "%",))]
-    except sqlite3.OperationalError:
-        near = []
+    parts = _teile(ref)
+    if parts:
+        return (f"({ref} ist in {len(parts)} Teile geteilt: {', '.join(parts)} – mit der Teil-Id zitieren)\n\n" +
+                "\n\n".join(zeige(p) for p in parts))
+    near = []
+    if not re.search(r"[*?\[\]]", ref):   # GLOB statt LIKE («_» ist in LIKE ein Platzhalter)
+        pre, rest = (ref.split("__", 1) + [""])[:2]
+        seg = rest.split("-")
+        pats = [ref + "*"] + [f"{pre}__{'-'.join(seg[:k])}*" for k in range(len(seg) - 1, 1, -1)] + [f"{pre}__{rest[:5]}*"]
+        for pat in pats:
+            try:
+                near = [x[0] for x in db().execute("select id from chunk where id glob ? order by length(id), id limit 8", (pat,))]
+            except sqlite3.OperationalError:
+                near = []
+            if near:
+                break
     return f"Nicht gefunden: {ref}." + (f" Ähnlich: {', '.join(near)}" if near else " Chunk-Id aus `suche` verwenden.")
+
+
+def _teile(ref: str) -> list[str]:
+    """Teile eines geteilten Chunks (<id>-t1, <id>-t2 …), numerisch sortiert; leer, wenn nicht geteilt."""
+    ref = (ref or "").strip()
+    if not ref or "__" not in ref or re.search(r"[*?\[\]]", ref):
+        return []
+    try:
+        ids = [x[0] for x in db().execute("select id from chunk where id glob ?", (ref + "-t[0-9]*",))]
+    except sqlite3.OperationalError:
+        d = R / "chunks" / ref.split("__")[0]
+        ids = [p.stem for p in d.glob(f"{ref}-t*.md")] if d.is_dir() else []
+    ids = [i for i in ids if re.fullmatch(re.escape(ref) + r"-t\d+", i)]
+    return sorted(ids, key=lambda i: int(i.rsplit("-t", 1)[1]))
 
 
 def _flat(t: str) -> str:
@@ -248,6 +304,11 @@ def zitat_ok(text: str, zitat: str) -> bool:
 def pruefe_zitat(cid: str, zitat: str) -> str:
     t = chunk_text(cid)
     if t is None:
+        parts = _teile(cid)
+        if parts:   # geteilter Chunk: nie «OK» – mit der Teil-Id zitieren
+            hit = [p for p in parts if zitat_ok(chunk_text(p) or "", zitat)]
+            return (f"FEHLT: {cid} ist geteilt; Zitat steht in {hit[0]} – so zitieren" if hit else
+                    f"FEHLT: {cid} ist geteilt ({', '.join(parts)}); Zitat in keinem Teil gefunden")
         return f"FEHLT: Chunk {cid} existiert nicht."
     return "OK" if zitat_ok(t, zitat) else f"NICHT GEFUNDEN in {cid}: «{cut(zitat, 120)}»"
 
@@ -402,6 +463,78 @@ def _revio_fuer(s: dict, alle_lesen: bool = False) -> list[str]:
     return out
 
 
+# ------------------------------------------------------------------ Aktualität des lookup (nur im Repo, nicht im Plugin)
+DRIFT_TXT = "⚠ lookup veraltet für"
+
+
+def _drift() -> str:
+    """Eine Warnzeile, wenn data/prueffelder/*.yaml nicht mehr zum lookup passt (sha256 ↔ lookup pf[code]._sha).
+    Ohne data/ (Plugin) oder ohne _sha im lookup (alter Stand): keine Prüfung."""
+    d = R / "data" / "prueffelder"
+    pf = L().get("pf", {})
+    if not d.is_dir() or not any(isinstance(v, dict) and v.get("_sha") for v in pf.values()):
+        return ""
+    alt = []
+    for p in sorted(d.glob("*.yaml")):
+        e = pf.get(p.stem.upper())
+        try:
+            neu = e is None or (e.get("_sha") and e["_sha"] != hashlib.sha256(p.read_bytes()).hexdigest())
+        except OSError:
+            continue
+        if neu:
+            alt.append(p.stem.upper())
+    return f"{DRIFT_TXT} {', '.join(alt)} – python3 revision/tools/build_quick.py" if alt else ""
+
+
+def _mit_drift(fn):
+    """Drift-Warnung vor die Ausgabe setzen (einmal, auch bei verschachtelten Aufrufen wie aufgabe → pruefschritt)."""
+    @wraps(fn)
+    def w(*a, **k):
+        out = fn(*a, **k)
+        d = _drift()
+        return out if not d or str(out).startswith(DRIFT_TXT) else f"{d}\n{out}"
+    return w
+
+
+NOTIZ_STD = ("Notiz «Wesentliche Feststellungen» (möglicher Fehler, mit Buchungsvorschlag ohne Verbuchung) · «Pendenz» (fehlende Unterlage oder "
+             "ungeklärter Sachverhalt: Konto, Datum, Betrag) · «Schlussbesprechung» (Punkt, den der WP mit dem Kunden bespricht)")
+
+
+def _status_woerter() -> str:
+    """Statuswörter je Prüfschritt aus der Regel «ergebnis» (Rückfall: Konzept-Standard)."""
+    ws = re.findall(r"«([^»]+)»", regel("ergebnis").get("regel", ""))
+    if not 3 <= len(ws) <= 5:
+        ws = ["vorbereitet", "mit Feststellungen", "teilweise bearbeitet", "nicht bearbeitet"]
+    return " | ".join(w + (" (Grund)" if w == "nicht bearbeitet" else "") for w in ws)
+
+
+def _schritt_fallstricke(code: str, sid: str) -> list[dict]:
+    """Fallstricke des Prüffelds, die den Schritt nennen (Feld schritte oder Id im Text); spezifische (wenige Ids) zuerst."""
+    rx = re.compile(rf"(?<![\w-]){re.escape(sid)}(?!\d)")
+    out = []
+    for f in L().get("pf", {}).get(code, {}).get("fallstricke") or []:
+        if sid in (f.get("schritte") or []) or rx.search(f.get("text", "")):
+            n = len(set(f.get("schritte") or []) | set(re.findall(r"\b[A-Z]{1,4}\d-\d{3}\b", f.get("text", ""))))
+            out.append((n, f))
+    return [f for _, f in sorted(out, key=lambda x: x[0])]
+
+
+def _themen_zu(code: str | None = None, sid: str | None = None, n: int = 3) -> list[str]:
+    """Themen-Ids: stichworte enthalten den Schritt (bzw. einen Schritt des Prüffelds) oder prueffelder enthält den Code."""
+    hits = []
+    for i, t in enumerate(L().get("themen", [])):
+        sw = [str(x).strip() for x in t.get("stichworte") or []]
+        if sid:
+            sc = 3 if sid in sw else 0
+        else:
+            sc = (2 if any(x.startswith(f"{code}-") for x in sw) else 0) + (1 if code in (t.get("prueffelder") or []) else 0)
+            sc += 0.5 if (t.get("prueffelder") or [None])[0] == code else 0
+        if sc:
+            hits.append((-sc, i, t["id"]))
+    return [x[2] for x in sorted(hits)[:n]]
+
+
+@_mit_drift
 def pruefschritt(ref: str) -> str:
     sid = schritt_id(ref)
     sch = L().get("katalog", {}).get("schritte", {})
@@ -421,8 +554,10 @@ def pruefschritt(ref: str) -> str:
               "auf_anweisung": "⛔ SONSTIGE (4xx): nur auf ausdrückliche Anweisung des WP; physische Tätigkeiten nie. Ohne Anweisung: Status «nicht bearbeitet – nur auf Anweisung».",
               "teilweise": "ℹ️ BEFRAGUNG: nicht selbst befragen – schriftliche Antwort (10.11, Protokolle, VE) auswerten, sonst Notiz «Pendenz». Status höchstens «teilweise bearbeitet».",
               "vorbereiten": ""}[art]
-    out = ([banner, ""] if banner else []) + [f"# {sid} · {pf.get('bezeichnung', s['prueffeld'])} · {s['typ']} ({s['nr'][0]}xx)" +
-           (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else ""),
+    tnr = NR_TYP.get(s["typ"], s["nr"][0] + "xx")
+    out = ([banner, ""] if banner else []) + [f"# {sid} · {pf.get('bezeichnung', s['prueffeld'])} · {s['typ']} ({tnr})" +
+           (f" · {s['kennzeichnung']}" if s.get("kennzeichnung") else "") +
+           (f" – Katalog-Nr. {s['nr']} weicht ab, massgebend ist der Typ" if tnr[0] != str(s["nr"])[:1] else ""),
            f"Prüfziele: {ziele or '–'}",
            f"Katalog (revio 4.0, Anhang H): «{s['text']}»"]
     if s.get("beispiel_pflichtenheft"):
@@ -431,18 +566,25 @@ def pruefschritt(ref: str) -> str:
         out.append("⚠️ Kennzeichnung im Katalog-PDF unlesbar – in revio nachlesen und Abweichung als Pendenz melden.")
     out += ["", f"**Rolle Agent: {ART_TXT[art]}.** {art_regel}" + (f" ^[{ar['quelle']}]" if ar.get("quelle") else "")]
     if e:
-        out += ["", "## Vorgehen", e.get("vorgehen", "")]
+        out += ["", "## Vorgehen (erst nach Anweisung des WP; ohne Anweisung siehe unten)" if art in ("auf_anweisung", "nur_mensch") else "## Vorgehen",
+                e.get("vorgehen", "")]
         if e.get("nachweise"):
             out += ["", "## Nachweise (M-Files / revio)"] + [f"- {x}" for x in e["nachweise"]]
         if e.get("rechnen"):
             out += ["", "## Rechnen (mit `rechne`, nie im Kopf)", e["rechnen"]]
-        if e.get("feststellung_wenn"):
-            out += ["", "## Feststellung / Notiz", e["feststellung_wenn"] +
-                    " → Notiz «Wesentliche Feststellungen» (Buchungsvorschlag ohne Verbuchung) bzw. «Pendenz» (fehlende Unterlagen: Konto, Datum, Betrag)."]
+        if e.get("feststellung_wenn") or e.get("notiz"):
+            pq = regel("pendenz").get("quelle")
+            nz = (f"→ Notiz: {e['notiz']}" if e.get("notiz") else f"→ {NOTIZ_STD}" + (f" ^[{pq}]" if pq else ""))
+            out += ["", "## Feststellung / Notiz", (f"{e['feststellung_wenn']} " if e.get("feststellung_wenn") else "") + nz]
         if e.get("fundstellen"):
             out += ["", "## Fundstellen"] + [f"- {fs(f.get('quelle') or f.get('chunk'), f.get('zitat'))}" for f in e["fundstellen"]]
     else:
         out += ["", "(Für diesen Schritt ist noch kein Detailwissen erfasst – `prueffeld " + s["prueffeld"] + "` und `suche` verwenden.)"]
+    fst = _schritt_fallstricke(s["prueffeld"], sid)
+    if fst:
+        out += ["", "## Fallstricke (dieser Schritt)"] + [f"- {f['text']}{_refs(f, f['text'])}" for f in fst[:4]]
+        if len(fst) > 4:
+            out.append(f"(+{len(fst) - 4} weitere: `prueffeld {s['prueffeld']}`)")
     rv = _revio_fuer(s)
     if rv:
         out += ["", "## revio (MCP)"] + rv
@@ -462,12 +604,14 @@ def pruefschritt(ref: str) -> str:
         vorlage = ["## Textfeld-Vorlage (ausfüllen)", f"- Prüfziel(e): {zt}", "- Quellen: <Datei / M-Files-ID, Version>",
                    "- Auswahl und Umfang: <welche Posten; Begründung: über Toleranzwesentlichkeit / ungewöhnlich / Risiko 3.1>",
                    "- Ergebnis: <Zahlen, gerechnet mit `rechne`>", "- Feststellungen: <keine | Betrag, Konto, Buchungsvorschlag → Notiz>",
-                   "- Pendenzen: <keine | was fehlt → Notiz «Pendenz»>", "- Status: <vorbereitet | mit Feststellungen | teilweise | nicht bearbeitet>"]
+                   "- Pendenzen: <keine | was fehlt → Notiz «Pendenz»>", f"- Status: <{_status_woerter()}>"]
     out += [""] + vorlage
     je = regel("je_schritt")
-    out += ["", f"{je.get('regel', '')}" + (f" ^[{je['quelle']}]" if je.get("quelle") else ""),
-            f"Status Wissen: {STATUS if e else 'Katalog (Quelle: Anhang H)'}",
-            _naechster(s)]
+    th = _themen_zu(sid=sid)
+    out += ["", f"{je.get('regel', '')}" + (f" ^[{je['quelle']}]" if je.get("quelle") else "")]
+    if th:
+        out.append("Hintergrund: " + " · ".join(f"`thema {x}`" for x in th))
+    out += [f"Status Wissen: {STATUS if e else 'Katalog (Quelle: Anhang H)'}", _naechster(s)]
     return "\n".join(out)
 
 
@@ -482,6 +626,28 @@ def _naechster(s: dict) -> str:
             "sonst `aufgabe unterlagen`. Notiz: `revio K7`.")
 
 
+def _np_warnung(d: dict) -> str:
+    """Warnzeile, wenn die Nachprüfung «korrigieren» verlangt hat und die Korrekturen nicht eingearbeitet sind."""
+    np_ = d.get("nachpruefung") or {}
+    if np_.get("urteil") == "korrigieren" and not np_.get("korrigiert"):
+        n = np_.get("befunde")
+        return (f"⚠ Nachprüfung: {n if n not in (None, '') else 'mehrere'} Befunde nicht eingearbeitet – Aussagen vor Verwendung mit "
+                "`zeige <chunk-id>` prüfen; Ergebnis im Rapport als vorläufig kennzeichnen.")
+    return ""
+
+
+def _extra(x: dict, text: str = "") -> str:
+    """Nur die weiteren Fundstellen (fundstellen/weitere_fundstellen) als ^[id] – die Hauptfundstelle zeigt fs()."""
+    main = x.get("quelle") or x.get("chunk")
+    ids = [f.get("quelle") or f.get("chunk") for f in (x.get("fundstellen") or []) + (x.get("weitere_fundstellen") or []) if isinstance(f, dict)]
+    return "".join(f" ^[{i}]" for i in dict.fromkeys(i for i in ids if i) if i != main and f"^[{i}]" not in text)
+
+
+def _mehr(liste, k: int, aufruf: str) -> str:
+    return f" (+{len(liste) - k} weitere: `{aufruf}`)" if len(liste) > k else ""
+
+
+@_mit_drift
 def prueffeld(ref: str, voll: bool = False) -> str:
     code = pf_code(ref)
     if not code:
@@ -490,22 +656,25 @@ def prueffeld(ref: str, voll: bool = False) -> str:
     p = next(x for x in L()["katalog"]["prueffelder"] if x["code"] == code)
     e = L().get("pf", {}).get(code, {})
     a = p.get("anzahl", {})
-    out = [f"# Prüffeld {code} · {p['bezeichnung']}",
+    out = [f"# Prüffeld {code} · {p['bezeichnung']}"] + ([_np_warnung(e)] if _np_warnung(e) else []) + [
            f"{a.get('total', '?')} Schritte: Befragung {a.get('befragung', 0)} · Analytisch {a.get('analytisch', 0)} · Detail {a.get('detail', 0)} · "
            f"Sonstige {a.get('sonstige', 0)} · davon EP {a.get('ep', 0)}, WP {a.get('wp', 0)} · revio Bereich 4"]
     if e.get("kurzbeschrieb"):
         out += ["", e["kurzbeschrieb"]]
+    th = _themen_zu(code=code, n=6)
+    if th:
+        out += ["", "Themen: " + " · ".join(f"`thema {x}`" for x in th)]
 
     def sec(title, items, fmt):
         if items:
             out.extend(["", f"## {title}"] + [fmt(x) for x in items])
-    sec("Gesetz", e.get("gesetz"), lambda g: f"- {g.get('thema', '')}: {fs(g.get('quelle') or g.get('chunk'), g.get('zitat'), 140)}")
+    sec("Gesetz", e.get("gesetz"), lambda g: f"- {g.get('thema', '')}: {fs(g.get('quelle') or g.get('chunk'), g.get('zitat'), 140)}{_extra(g)}")
     sec("Risiken", e.get("risiken"), lambda r: f"- {r['text']}" + (f" [{', '.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") +
-        (f" — ^[{r.get('quelle') or r.get('chunk')}]" if (r.get('quelle') or r.get('chunk')) else ""))
-    sec("Bewertung / Bilanzierung", e.get("bewertung"), lambda b: f"- {b['regel']} — {fs(b.get('quelle') or b.get('chunk'), b.get('zitat'), 120)}")
-    sec("Unterlagen (PBC)", e.get("unterlagen"), lambda u: f"- {u['dokument']} – {u.get('zweck', '')}")
+        _refs(r, r["text"]))
+    sec("Bewertung / Bilanzierung", e.get("bewertung"), lambda b: f"- {b['regel']} — {fs(b.get('quelle') or b.get('chunk'), b.get('zitat'), 120)}{_extra(b, b['regel'])}")
+    sec("Unterlagen (PBC)", e.get("unterlagen"), lambda u: f"- {u['dokument']} – {u.get('zweck', '')}" + _refs(u, f"{u['dokument']} {u.get('zweck', '')}"))
     sec("Fragen an den Kunden (als Pendenz/10.11, nie selbst befragen)", e.get("fragen_kunde"), lambda f: f"- {f['frage']}")
-    sec("Fallstricke", e.get("fallstricke"), lambda f: f"- {f['text']}" + (f" ^[{f.get('quelle') or f.get('chunk')}]" if (f.get('quelle') or f.get('chunk')) else ""))
+    sec("Fallstricke", e.get("fallstricke"), lambda f: f"- {f['text']}{_refs(f, f['text'])}")
     out += ["", "## Prüfschritte (Details: `pruefschritt <id>`)", "| Id | Typ | Kennz. | Ziele | Agent | Prüfschritt |", "|---|---|---|---|---|---|"]
     for s in [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]:
         art = art_of(s)[0]
@@ -1292,19 +1461,27 @@ def _prueffeld_kompakt(code: str) -> str:
     e = L().get("pf", {}).get(code, {})
     st = [x for x in L()["katalog"]["schritte"].values() if x["prueffeld"] == code]
     out = [f"## Prüffeld {code} {p['bezeichnung']} – Bündel"]
+    if _np_warnung(e):
+        out.append(_np_warnung(e))
     if e.get("kurzbeschrieb"):
         out.append(cut(e["kurzbeschrieb"], 300))
+    th = _themen_zu(code=code, n=3)
+    if th:
+        out.append("Themen: " + " · ".join(f"`thema {x}`" for x in th))
+    pi = lambda x, t: "" if (x.get("quelle") or x.get("chunk") or "praxis" in norm(t)) else " (Praxis/intern)"  # noqa: E731
     if e.get("risiken"):
-        out.append("Risiken: " + " · ".join(cut(r["text"], 100) + (f" [{','.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "") for r in e["risiken"][:6]))
+        rs = e["risiken"]
+        out.append("Risiken: " + " · ".join(cut(r["text"], 170) + pi(r, r["text"]) + (f" [{','.join(r.get('pruefziele') or [])}]" if r.get("pruefziele") else "")
+                                           for r in rs[:6]) + _mehr(rs, 6, f"prueffeld {code}"))
     if e.get("unterlagen"):
         u = e["unterlagen"]
-        out.append("Unterlagen (M-Files/PBC): " + "; ".join(cut(x["dokument"], 80) for x in u[:6]) + (f"; … alle {len(u)}: `unterlagen {code}`" if len(u) > 6 else ""))
+        out.append("Unterlagen (M-Files/PBC): " + "; ".join(cut(x["dokument"], 80) for x in u[:6]) + _mehr(u, 6, f"unterlagen {code}"))
     if e.get("fragen_kunde"):
         fk = e["fragen_kunde"]
-        out.append("Fragen an Kunden (10.11 auswerten, sonst Pendenz): " + " | ".join(cut(f["frage"], 100) for f in fk[:3]) +
-                   (f" | … alle {len(fk)}: `fragen {code}`" if len(fk) > 3 else ""))
+        out.append("Fragen an Kunden (10.11 auswerten, sonst Pendenz): " + " | ".join(cut(f["frage"], 120) for f in fk[:3]) + _mehr(fk, 3, f"fragen {code}"))
     if e.get("bewertung"):
-        out.append("Bewertung: " + " · ".join(f"{cut(b['regel'], 110)} ^[{b.get('quelle')}]" for b in e["bewertung"][:3]))
+        bw = e["bewertung"]
+        out.append("Bewertung: " + " · ".join(cut(b["regel"], 150) + _refs(b, b["regel"]) for b in bw[:3]) + _mehr(bw, 3, f"prueffeld {code}"))
     groups = {"teilweise": [], "vorbereiten": [], "auf_anweisung": [], "nur_mensch": []}
     for s in st:
         groups[art_of(s)[0]].append(s)
