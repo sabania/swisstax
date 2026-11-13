@@ -53,19 +53,22 @@ def main():
         if (R / f).exists():
             shutil.copy2(R / f, out / f)
     shutil.copy2(R / "openclaw" / "AGENTS.workspace-snippet.md", out / "AGENTS.workspace-snippet.md")
-    if (R / "openclaw" / "revio-tool-policy.json").exists():
-        shutil.copy2(R / "openclaw" / "revio-tool-policy.json", out / "revio-tool-policy.json")
+    for f in ("revio-tool-policy.json", "openclaw-tools-empfehlung.json"):   # revio-Rechte und Sperre message/Web/Automation in OpenClaw
+        if (R / "openclaw" / f).exists():
+            shutil.copy2(R / "openclaw" / f, out / f)
     (out / "README.md").write_text(f"""# Plugin «revisionswiki» {a.version} – INTERN
 
 Wissensbasis für den KI-Revisionsagenten (consis): eingeschränkte Revision nach SER, HWP ER, OR; revio 4.0 (29 Prüffelder,
 538 Prüfschritte); Zuordnung zum revio-MCP. Der Agent **bereitet vor** – Visum, Abschluss, Freigabe, Bericht bleiben beim WP.
 
 - **Skills:** {', '.join(SKILLS)}
-- **Tools** (MCP-Server `revisionswiki`): pruefschritt, prueffeld, prozess, regeln, revio, wert, rechne, wesentlichkeit,
+- **Tools** (MCP-Server `revisionswiki`): aufgabe, akte, pruefschritt, prueffeld, prozess, regeln, revio, wert, rechne, wesentlichkeit,
   kapitalverlust, revisionspflicht, unterlagen, fragen, thema, suche, zeige
 - **Wissen:** index/lookup.json (Katalog, Prüffeld-Wissen, Prozess, Werte, Regeln, revio-Zuordnung), index/fts.sqlite (Volltext
   aller Quellen-Chunks), quick/ und wiki/ (Seiten für `zeige`).
 - **revio-Rechte:** `revio-tool-policy.json` (Vorschlag allow/deny je revio-MCP-Werkzeug; `revio_call` sperren).
+- **OpenClaw-Werkzeugrechte:** `openclaw-tools-empfehlung.json` (Block `tools` in die Agent-Konfiguration übernehmen: deny für
+  `group:messaging`, `group:web`, `group:automation`, `group:nodes` – kein Versand an Kunden, Mandatsdaten nie ins Web).
 - Voraussetzung: `python3` (nur Standardbibliothek).
 
 **Lizenz/Vertraulichkeit:** EXPERTsuisse-Werke (HWP, SER, SA-CH, Q&A, Muster) sind an consis lizenziert, revio ist proprietär –

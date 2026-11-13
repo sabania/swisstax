@@ -89,3 +89,7 @@ ausgabe:
 - {begriff: kapitalverlust, agent_vor_bytes: 3000, enthaelt: ['**Nächste Aufrufe:**', '## Fundstellen (gekürzt', 'Volltext: `thema kapitalverlust-ueberschuldung --voll`']}
 - {begriff: Rechtsstreit, enthaelt: ['Auch passend: `thema unabhaengigkeit`']}
 - {begriff: rangrücktritt, voll: true, enthaelt: ['## Fundstellen', 'Wortlaut: `zeige <chunk-id>`'], nicht: ['(gekürzt']}
+# Kompaktform: nie mitten in einer Zahlenaufzählung kürzen (Prüfbefund ZAHL_RX)
+- {begriff: anhang-jahresrechnung, enthaelt: ['nicht über 10, über 50 bzw. über 250']}
+# Rückfall über den Dateinamen: volle Themenausgabe (Warnzeile, Agent-Teil, Aufrufe), nicht nur Titel + Kurztext
+- {begriff: Dokumentation, enthaelt: ['## Für den Agenten (zuerst)', '**Nächste Aufrufe:**']}

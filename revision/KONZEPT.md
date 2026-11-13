@@ -29,7 +29,7 @@ Mandat, Risiko und Auftrag des WP. Harte Grenze überall: **vorbereiten ja, absc
   Unterlagen (PBC), Fragen an den Kunden, Fallstricke; **je Schritt** Vorgehen, Nachweise, Rechenregel,
   «Feststellung, wenn …» und Fundstellen. Erfasst je Prüffeld von einem Agenten, **skeptisch nachgeprüft** von einem zweiten,
   bei Befunden korrigiert von einem dritten; Zitate maschinell geprüft (`tools/build_data.py`, `tools/lint.py`). Bezüge zur
-  Testakte stehen nur unter `eval/testfall-2025/hinweise/` (nicht in quick/, wiki/ oder im Plugin).
+  Testakte stehen nur unter `eval/` (nicht in quick/, wiki/ oder im Plugin).
 - **Rolle des Agenten je Schritt** – deterministisch aus Typ und Kennzeichnung (Konzept consis): Befragung (1xx) → «teilweise»
   (schriftliche Antwort auswerten, sonst Pendenz), Analytisch (2xx) und Detail (3xx) → «vorbereiten», Sonstige (4xx) → «nur auf
   Anweisung», WP-Schritte → «nur Mensch» (bis consis entscheidet). Bei 4xx und WP-Schritten betrifft die Sperre das Textfeld und das
@@ -71,8 +71,8 @@ Kundenversand; Mandatsdaten nie ins Web; keine eigenen Abläufe) – Ergänzung 
 ## 5. Qualitätssicherung
 - Jede Aussage mit Fundstelle; `tools/lint.py` prüft Zitate, Schritt-Ids, Codes, Werkzeugnamen, Links, Hashes.
 - Erfassung immer mit Zweitprüfung (adversarial), Status `agent-geprueft`; fachliche Abnahme (`verifiziert`) nur durch den WP.
-- Messung (`eval/`): unabhängig erstellte Fachfragen und revio-Fragen mit Referenz, Prüfschritt-Fälle auf der fiktiven Testakte
-  «Fiktive Zahlen AG 2025» (Referenzlösung durch zwei unabhängige Prüfer + Nachprüfung), Läufe in echtem OpenClaw mit dem Plugin,
+- Messung (`eval/`): unabhängig erstellte Fachfragen und revio-Fragen mit Referenz, Prüfschritt-Fälle auf einer fiktiven Testakte
+  (Referenzlösung durch zwei unabhängige Prüfer + Nachprüfung), Läufe in echtem OpenClaw mit dem Plugin,
   Bewertung durch getrennte Agenten.
 
 ## 6. Offene Entscheide (aus Konzept consis, im Wiki sichtbar)

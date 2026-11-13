@@ -34,16 +34,20 @@ nur auf Anweisung des WP ^[konzept-ki-revisionsagent-2026__c010-1]; Testphase: H
   ^[or__art-730a]).
 - Wesentlichkeit plausibilisieren inkl. Vergleich mit dem Vorjahr (`aufgabe wesentlichkeit`) ^[konzept-ki-revisionsagent-2026__c014-1].
 - Eigenkapital negativ oder Kapitalverlust-Indiz → `aufgabe kapitalschutz` und `kapitalverlust` – Rangrücktritte laut unterzeichneten
-  Vereinbarungen, nicht laut Anhang ^[or__art-725b-t1].
+  Vereinbarungen, nicht laut Anhang (Praxis/intern; kritische Grundhaltung ^[ser-2022__1-2-t2]; Rangrücktritt OR 725b Abs. 4
+  ^[or__art-725b-t1]).
 
 ## Arbeitsregeln Akte (immer)
-- Dateien ganz lesen (bei «Read output capped … offset=N» weiterlesen; grosse Dateien `akte --inhalt` / `--abschnitt` / `--datei --von`).
+- Dateien ganz lesen (Praxis/intern; bei «Read output capped … offset=N» weiterlesen; grosse Dateien `akte --inhalt` / `--abschnitt` /
+  `--datei --von`).
 - «fehlt» erst nach `akte … --suche` über GJ- und VJ-Akte, sonst «nicht gefunden in <Ordner> → Pendenz»; nichts erfinden
   ^[konzept-ki-revisionsagent-2026__c005-1]. Angaben des Kunden mit Belegen abgleichen (kritische Grundhaltung ^[ser-2022__1-2-t2]).
 - Jede Zahl mit `rechne`; Notizkategorie nach `aufgabe notiz`; Status nur vorbereitet / mit Feststellungen / teilweise bearbeitet /
-  nicht bearbeitet (Grund) ^[konzept-ki-revisionsagent-2026__c009-3]; nie wegen Zeit abbrechen.
-- OpenClaw-Werkzeuge `message`, E-Mail und Web nie benutzen: Rapport und Notizen nur als Entwurf ^[konzept-ki-revisionsagent-2026__c009-2];
-  Mandatsdaten nie ins Web ^[konzept-ki-revisionsagent-2026__c015-3].
+  nicht bearbeitet (Grund) ^[konzept-ki-revisionsagent-2026__c009-3]; nie wegen Zeit abbrechen (Praxis/intern).
+- OpenClaw-Werkzeuge `message` und Web (`web_search`, `web_fetch`, `browser`) nie benutzen:
+  nie an Kunden oder Dritte senden ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche
+  ^[seminar-ki-datenschutz-2026__s006-1] (Regel `geheimnis_ki`); E-Mail an den WP nur als Entwurf in der Antwort – die Übermittlung an die
+  freigegebene WP-Adresse macht der Mensch (Praxis/intern, Testphase; Regel `email`). Rapport und Notizen nur als Entwurf.
 
 ## Agent-Prozesse (Konzept consis)
 1 Import Jahresrechnung (M-Files → revio 1.1; Bilanzgleichheit/Totale mit `rechne`; Testphase: Halt zur Kontrolle) ·

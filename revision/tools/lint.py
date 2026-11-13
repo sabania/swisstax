@@ -97,11 +97,17 @@ def zitate(files=None):
 
 
 def katalog():
-    kat = yaml.safe_load((R / "data" / "katalog.yaml").read_text(encoding="utf-8"))
+    kat = laden(R / "data" / "katalog.yaml")
+    if not kat:
+        return
     ids = {s["id"] for s in kat["schritte"]}
     codes = {p["code"] for p in kat["prueffelder"]}
     for p in (R / "data" / "prueffelder").glob("*.yaml"):
-        d = yaml.safe_load(p.read_text(encoding="utf-8"))
+        d = laden(p)   # Syntaxfehler: ERR über laden(), übrige Prüfungen laufen weiter
+        if not isinstance(d, dict) or "code" not in d:
+            if d is not None:
+                ERR.append(f"{p.name}: kein Prüffeld (Feld «code» fehlt)")
+            continue
         if d["code"] not in codes:
             ERR.append(f"{p.name}: unbekannter Code {d['code']}")
         if p.stem != str(d["code"]).lower():   # lookup _sha/quelle_sha und revision.py setzen data/prueffelder/<code klein>.yaml voraus
@@ -116,7 +122,7 @@ def katalog():
             if not s.get("fundstellen"):
                 WARN.append(f"{p.name}: {s['id']} ohne Fundstelle")
     for p in (R / "data" / "prozess").glob("*.yaml"):
-        d = yaml.safe_load(p.read_text(encoding="utf-8"))
+        d = laden(p) or {}
         bad = [c for c in d.get("prueffelder") or [] if c not in codes]
         if bad:
             ERR.append(f"{p.name}: unbekannte Prüffelder {bad}")
@@ -155,7 +161,7 @@ ARTEN_KETTE = {"lesen", "vorbereiten", "kandidat", "nur_mensch"}
 
 def openclaw(art: dict):
     """OpenClaw-Liste (zuordnung bereiche[nr=OpenClaw]) ↔ werkzeuge.csv ↔ Ketten ↔ openclaw/revio-tool-policy.json."""
-    z = yaml.safe_load((R / "data" / "revio" / "zuordnung.yaml").read_text(encoding="utf-8")) or {}
+    z = laden(R / "data" / "revio" / "zuordnung.yaml") or {}
     oc = next((b for b in z.get("bereiche", []) if b.get("nr") == "OpenClaw"), None)
     if not oc:
         ERR.append("zuordnung.yaml: Bereich «OpenClaw» (harmonisierte allow/deny-Liste) fehlt")
@@ -177,7 +183,7 @@ def openclaw(art: dict):
     for n in sorted((L | V) - set(art)):
         ERR.append(f"OpenClaw: {n} fehlt in werkzeuge.csv")
     # Ketten: Art je Schritt, Werkzeug passend zur OpenClaw-Liste, nur_mensch nur am Ende
-    kt = yaml.safe_load((R / "data" / "revio" / "ketten.yaml").read_text(encoding="utf-8")) or {}
+    kt = laden(R / "data" / "revio" / "ketten.yaml") or {}
     for k in kt.get("ketten", []):
         sch = k.get("schritte", [])
         for i, s in enumerate(sch, 1):
@@ -212,7 +218,7 @@ def openclaw(art: dict):
             if n in set(d.get("allow", [])) | set(d.get("approval", [])):
                 ERR.append(f"openclaw/revio-tool-policy.json: {n} muss deny sein")
     # Besonderheiten: Prüffeld-Codes und Schritt-Ids gegen den Katalog
-    kat = yaml.safe_load((R / "data" / "katalog.yaml").read_text(encoding="utf-8"))
+    kat = laden(R / "data" / "katalog.yaml") or {"schritte": [], "prueffelder": []}
     ids, codes = {s["id"] for s in kat["schritte"]}, {p["code"] for p in kat["prueffelder"]}
     for b in z.get("prueffeld_besonderheiten", []):
         for c in b.get("prueffelder") or []:
@@ -303,20 +309,21 @@ def testakte(files=None):
     for p in data:
         N["testakte"] += 1
         treffer = []   # (Ort, Text, ist «Testakte»)
+        such = lambda s: kz.search(s) or TESTAKTE.search(s)  # noqa: E731  (TESTAKTE ohne Wortgrenze: auch «Mustertestakte»)
         if p.suffix in (".yaml", ".yml"):
-            treffer += [(pfad or "/", s, bool(TESTAKTE.search(s))) for pfad, s in texte(laden(p)) if kz.search(s)]
+            treffer += [(pfad or "/", s, bool(TESTAKTE.search(s))) for pfad, s in texte(laden(p)) if such(s)]
             treffer += [(f":{i}", s, bool(TESTAKTE.search(s))) for i, s in enumerate(p.read_text(encoding="utf-8").splitlines(), 1)
-                        if s.lstrip().startswith("#") and kz.search(s)]   # YAML-Kommentare
+                        if s.lstrip().startswith("#") and such(s)]   # YAML-Kommentare
         else:
-            treffer += [(f":{i}", s, bool(TESTAKTE.search(s))) for i, s in enumerate(p.read_text(encoding="utf-8-sig").splitlines(), 1) if kz.search(s)]
+            treffer += [(f":{i}", s, bool(TESTAKTE.search(s))) for i, s in enumerate(p.read_text(encoding="utf-8-sig").splitlines(), 1) if such(s)]
         for ort, s, ist_ta in treffer:
-            m = kz.search(s)
+            m = such(s)
             ctx = rv.cut(s[max(0, m.start() - 40):m.end() + 40], 110)
             if p.parent == pf_dir and ist_ta:
                 ERR.append(f"{rel(p)}{ort}: «Testakte» ausserhalb von testakte_2025 – allgemeingültig formulieren (Testakte-Bezüge nur im Feld "
                            f"testakte_2025): «{ctx}»")
             else:
-                WARN.append(f"{rel(p)}{ort}: Kürzel mit Testakte-Bezug «{m.group(1)}» – allgemeingültig formulieren: «{ctx}»")
+                WARN.append(f"{rel(p)}{ort}: Kürzel mit Testakte-Bezug «{m.group(0).strip('-_ ')}» – allgemeingültig formulieren: «{ctx}»")
     for p in seiten:
         N["testakte_seiten"] += 1
         zeilen = [i for i, s in enumerate(p.read_text(encoding="utf-8").splitlines(), 1) if TESTAKTE.search(s)]
@@ -380,6 +387,33 @@ def aktualitaet(files=None):
                    + (", ohne inputs_sha256" if not lk.get("inputs_sha256") else "") + ") – python3 revision/tools/build_quick.py")
 
 
+def regel_schluessel():
+    """ERR: Regelschlüssel, die tools/revision.py verwendet (regel("…"), _r("…"), Schleifen `for k in (…): regel(k)`, ARBEITSREGELN,
+    ROLLE_HINWEIS, GRENZE_IN_ZEILE) und die «regeln» der Aufgaben, fehlen in data/regeln.yaml – sonst fällt die Regel still weg."""
+    import ast
+    keys = {r.get("key") for r in ((laden(R / "data" / "regeln.yaml") or {}).get("regeln") or [])}
+    if not keys:
+        return
+    src = (R / "tools" / "revision.py").read_text(encoding="utf-8")
+    gebraucht = set()
+    for n in ast.walk(ast.parse(src)):
+        if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in ("regel", "_r") and n.args \
+                and isinstance(n.args[0], ast.Constant) and isinstance(n.args[0].value, str):
+            gebraucht.add(n.args[0].value)
+        if isinstance(n, ast.For) and isinstance(n.target, ast.Name) and isinstance(n.iter, (ast.Tuple, ast.List)) and any(
+                isinstance(c, ast.Call) and isinstance(c.func, ast.Name) and c.func.id == "regel" and c.args
+                and isinstance(c.args[0], ast.Name) and c.args[0].id == n.target.id for c in ast.walk(n)):
+            gebraucht |= {e.value for e in n.iter.elts if isinstance(e, ast.Constant) and isinstance(e.value, str)}
+    gebraucht |= {r for _, refs in rv.ARBEITSREGELN for r in refs if "__" not in r}
+    gebraucht |= {r for _, r in rv.ROLLE_HINWEIS.values() if "__" not in r} | set(rv.GRENZE_IN_ZEILE)
+    for k in sorted(gebraucht - keys):
+        ERR.append(f"tools/revision.py: Regelschlüssel «{k}» fehlt in data/regeln.yaml (Regel fällt still weg)")
+    for a in (laden(R / "data" / "aufgaben.yaml") or {}).get("aufgaben") or []:
+        for k in a.get("regeln") or []:
+            if k not in keys:
+                ERR.append(f"data/aufgaben.yaml {a.get('id')}: Regelschlüssel «{k}» fehlt in data/regeln.yaml")
+
+
 def hashes():
     reg = yaml.safe_load((R / "registry" / "sources.yaml").read_text(encoding="utf-8"))
     for e in reg:
@@ -439,6 +473,7 @@ def main():
     testakte()
     praxis_kurz()
     aktualitaet()
+    regel_schluessel()
     hashes()
     err, warn = list(dict.fromkeys(ERR)), list(dict.fromkeys(WARN))
     rep = ["# Lint Revisions-Wiki", "",

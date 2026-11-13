@@ -12,7 +12,7 @@ quick/, wiki/ und index/lookup.json neu (abschaltbar mit --ohne-build), damit si
 
 Status: agent-geprueft nur mit Nachprüfung, deren Urteil nicht «korrigieren» lautet oder deren Korrektur-Lauf übernommen ist;
 sonst extrahiert. ACHTUNG: Ein erneuter Import überschreibt Handkorrekturen in data/ – nur mit --codes/--thema auf die
-betroffenen Einheiten beschränken.
+betroffenen Einheiten beschränken (ohne --nur gelten dann nur die Teile prueffelder bzw. themen).
 """
 from __future__ import annotations
 import argparse, collections, datetime, json, re, sqlite3, subprocess, sys
@@ -302,13 +302,18 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__.split("\n\n", 1)[1],
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--runs", nargs="+", required=True, help="Workflow-Ordner mit journal.jsonl")
-    ap.add_argument("--nur", nargs="*", default=["prueffelder", "prozess", "werte", "revio", "themen", "testfall"],
-                    help="nur diese Teile (prueffelder prozess werte revio themen testfall)")
+    ap.add_argument("--nur", nargs="*", default=None,
+                    help="nur diese Teile (prueffelder prozess werte revio themen testfall); Standard: alle – mit --codes/--thema "
+                         "ohne --nur nur die betroffenen Teile (prueffelder bzw. themen)")
     ap.add_argument("--revio-out", default=None, help="Ordner mit werkzeuge_klassifiziert.csv")
-    ap.add_argument("--codes", nargs="*", help="nur diese Prüffelder (Daten anderer Prüffelder bleiben unangetastet)")
-    ap.add_argument("--thema", nargs="*", help="nur diese Themen-Ids, z.B. stille-reserven (andere Themen bleiben unangetastet)")
+    ap.add_argument("--codes", nargs="*", help="nur diese Prüffelder (andere Prüffelder und ohne --nur alle übrigen Teile bleiben unangetastet)")
+    ap.add_argument("--thema", nargs="*", help="nur diese Themen-Ids, z.B. stille-reserven (andere Themen und ohne --nur alle übrigen Teile "
+                                               "bleiben unangetastet)")
     ap.add_argument("--ohne-build", action="store_true", help="build_quick.py (quick/, wiki/, lookup) danach nicht aufrufen")
     a = ap.parse_args()
+    if a.nur is None:   # --thema/--codes ohne --nur: nur diese Teile, sonst würden Prozess, Werte, revio … aus dem Lauf überschrieben
+        a.nur = ((["prueffelder"] if a.codes else []) + (["themen"] if a.thema else [])) or \
+            ["prueffelder", "prozess", "werte", "revio", "themen", "testfall"]
     global CODES
     CODES = set(a.codes) if a.codes else None
     res = {}

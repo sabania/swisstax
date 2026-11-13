@@ -21,7 +21,7 @@ prueffeld_synonyme:
   H2: [aktivdarlehen, darlehen an aktionaer, darlehen an nahestehende, darlehensforderung]
   H3: [beteiligungen, tochtergesellschaft, beteiligung]
   I1: [immaterielle anlagen, immaterielle werte, goodwill, software, lizenzen]
-  K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen]
+  K1: [kreditoren, verbindlichkeiten lul, lieferantenschulden, verbindlichkeiten aus lieferungen, lieferanten, lieferant]
   L1: [kurzfristige verzinsliche verbindlichkeiten, bankschulden kurzfristig, kontokorrent]
   M1: [uebrige kurzfristige verbindlichkeiten, sozialversicherungen, ahv, quellensteuer verbindlichkeit]
   M2: [mwst, mehrwertsteuer, vorsteuer, umsatzsteuer]
@@ -90,7 +90,10 @@ aufgaben:
       zitat: wenn Gesellschaftsgläubiger im Ausmass der Überschuldung im Rang hinter alle anderen Gläubiger zurücktreten und ihre Forderungen stunden
     - quelle: ser-2022__1-2-t2
       zitat: Eine kritische Grundhaltung bedeutet, dass der Abschlussprüfer die Stichhaltigkeit erlangter Informationen und Unterlagen hinterfragt
-  - text: Revisionsart plausibilisieren (eingeschränkt? Opting-out?) – nur bei Zweifel, Entscheid WP.
+  - text: 'Revisionsart plausibilisieren (eingeschränkt? Opting-out?) – nur bei Zweifel, Entscheid WP. Vorjahreswerte aus der Vorjahresakte lesen, nie schätzen: Vollzeitstellen im Anhang der Vorjahresrechnung (`akte <vj-pfad> --suche "Vollzeitstellen"`), Bilanzsumme/Umsatz aus der Vorjahresrechnung; Risikoeinstufung des Vorjahres: `akte <vj-pfad> --suche "Risiko"` (Praxis/intern).'
+    fundstellen:
+    - quelle: or__art-959c-t1
+      zitat: eine Erklärung darüber, ob die Anzahl Vollzeitstellen im Jahresdurchschnitt nicht über 10, über 50 beziehungsweise über 250 liegt
     aufruf: revisionspflicht --bilanzsumme … --umsatz … --vollzeitstellen … --vj-bilanzsumme … --vj-umsatz … --vj-vollzeitstellen …
   fertig_wenn: Kontext-Schlüssel und Betriebsart (Lesetest/Schreibtest) stehen, Protokoll läuft, Dossier offen, Akte und Vorjahresakte erschlossen (Hinweise «im Folgejahr» übernommen), Wahl der Revisionsstelle geprüft, Wesentlichkeit plausibilisiert, markierte Prüffelder (revio-Codes) bekannt.
   naechste: [import, prueffeld]
@@ -127,7 +130,7 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c011-2
       zitat: Unklare Zuordnungen als Pendenz; Halt zur Kontrolle (Testphase)
-  - text: 'Bilanzgleichheit (Aktiven = Passiven), Totale, Jahresergebnis und Perioden (Geschäftsjahr/Vorjahr) abstimmen – im Rechenmodul: jede Position der Jahresrechnung mit der Saldoliste, nicht nur die Gesamttotale (ein Gesamttotal kann zufällig stimmen – Praxis/intern); jedes Saldolistenkonto in der Jahresrechnung wiederfinden; beide Werte aus verschiedenen Quellen. Differenz ≠ 0 → Pendenz und Halt bis Klärung.'
+  - text: 'Bilanzgleichheit (Aktiven = Passiven), Totale, Jahresergebnis und Perioden (Geschäftsjahr/Vorjahr) abstimmen – im Rechenmodul: jede Position der Jahresrechnung mit der Saldoliste, nicht nur die Gesamttotale (ein Gesamttotal kann zufällig stimmen – Praxis/intern); jedes Saldolistenkonto in der Jahresrechnung wiederfinden; beide Werte aus verschiedenen Quellen. Alle Positionen abstimmen, jede Differenz ≠ 0 als eigene Pendenz (Position, Konto, beide Beträge, Differenz); erst nach dem vollständigen Abgleich Halt bis Klärung – keine Prüffelder vorher. Ist der Text der Jahresrechnung tabellarisch zerstückelt (Konto, Bezeichnung und Betrag in getrennten Blöcken), positionsweise über die Saldoliste/Kontonummer lesen (`akte <pfad> --suche "<Kontonummer>"`); unklare Zuordnung → Original prüfen bzw. Pendenz (Praxis/intern).'
     aufruf: rechne "aktiven = …; passiven = …; aktiven - passiven"
     fundstellen:
     - quelle: flussdiagramm-revisionsagent-2026__s001-7
@@ -147,7 +150,7 @@ aufgaben:
   stichworte: [prueffeld, abschlusspruefung, prozess 2, bilanzposition, pruefschritte, markierte pruefung]
   prozess: "2"
   phase: p3-durchfuehrung
-  ziel: Die markierten Prüfschritte (Zuweisung 3.5 bzw. Vorgabe WP; Definition «markiert» noch offen, Entscheid consis) nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen, Notizen erfassen – Visum offen lassen.
+  ziel: Die markierten Prüfschritte (Zuweisung 3.5 bzw. Vorgabe WP; Definition «markiert» noch offen, Entscheid consis; ohne revio/3.5 – z.B. im Test – gelten alle Schritte des im Auftrag genannten Prüffelds als markiert, Praxis/intern) nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen, Notizen erfassen – Visum offen lassen.
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Prüfschritte nach Typ bearbeiten, Nachweise aus M-Files beschaffen, Ergebnis im Textfeld dokumentieren, Belege ablegen, Notizen erfassen
   regeln: [je_schritt, ergebnis, pruefziele, befragung, analytisch, detail, sonstige, wp, rechenmodul, prozess2]
@@ -169,6 +172,8 @@ aufgaben:
     fundstellen:
     - quelle: konzept-ki-revisionsagent-2026__c012-1
       zitat: Risiko und Strategie aus 3.1 und 3.5 berücksichtigen
+  - text: 'Vorjahr dieses Prüffelds in revio lesen (Textfelder, Notizen, Feststellungen und Hinweise fürs Folgejahr) als Vergleich (Praxis/intern).'
+    aufruf: revio K10
   - text: Prüfschritte in revio laden, Katalog-Id zuordnen, markierte Schritte bestimmen (Zuweisung 3.5 = revio K5 Schritt 6; Definition «markiert» noch offen, Entscheid consis).
     aufruf: revio K5
     fundstellen:
@@ -185,7 +190,7 @@ aufgaben:
       zitat: wertet schriftliche Antworten aus (z. B. 10.11 Kundenbefragung), sonst Frage als Pendenz
   - text: 'Unterlagen (PBC) in M-Files suchen; Fehlendes → Pendenz mit Titel «PBC-Vorschlag: <Unterlage> (<Prüfschritt>)», nie direkt in 10.10.'
     aufruf: revio K7
-  - text: 'Je markierten Schritt einzeln bearbeiten – für jeden Schritt genau einen Aufruf. Reihenfolge: 1xx → 2xx → Befragung zu Abweichungen («Besprechung wesentlicher Abweichungen …», erst nach der Analytik) → 3xx (Praxis/intern; das Bündel nennt die Ids). 4xx und WP-Schritte: kein Textfeld ohne Anweisung, vorhandene Unterlagen trotzdem auswerten (Rolle unten). Nicht im Umfang → Status «nicht bearbeitet» mit Grund für den Rapport.'
+  - text: 'Je markierten vorbereitbaren Schritt (1xx–3xx) einzeln bearbeiten – je Schritt genau ein Aufruf `pruefschritt <id>`. Reihenfolge: 1xx → 2xx → Befragung zu Abweichungen («Besprechung wesentlicher Abweichungen …», erst nach der Analytik) → 3xx (Praxis/intern; das Bündel nennt die Ids). 4xx und WP-Schritte gesammelt mit einem Aufruf (Zeile «4xx/WP gesammelt» im Bündel): kein Textfeld ohne Anweisung, vorhandene Unterlagen trotzdem auswerten (Rolle unten). Nicht im Umfang → Status «nicht bearbeitet» mit Grund für den Rapport.'
     aufruf: pruefschritt <id>
     fundstellen:
     - quelle: flussdiagramm-revisionsagent-2026__s001-7
@@ -199,14 +204,14 @@ aufgaben:
   - text: Feststellungen und Pendenzen als Notiz erfassen (Buchungsvorschlag ohne Verbuchung).
     aufruf: revio K7
   - text: Visum, ✓ und Abschliessende Beurteilung offen lassen.
-  fertig_wenn: 'Jeder markierte Schritt hat Status (vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet mit Grund), alle Feststellungen und Pendenzen sind als Notiz erfasst. Danach → nächstes markiertes Prüffeld (`aufgabe prueffeld <Code>`); wenn keines mehr: `aufgabe unterlagen`.'
+  fertig_wenn: 'Jeder markierte Schritt hat Status (vorbereitet / mit Feststellungen / teilweise bearbeitet / nicht bearbeitet mit Grund) – ohne revio/3.5 jeder Schritt des Prüffelds; «nicht bearbeitet – nicht markiert» gilt dann nicht als Grund (Praxis/intern) –, alle Feststellungen und Pendenzen sind als Notiz erfasst. Danach → nächstes markiertes Prüffeld (`aufgabe prueffeld <Code>`); wenn keines mehr: `aufgabe unterlagen`.'
   naechste: [prueffeld, unterlagen]
 - id: unterlagen
   titel: Prozess 3 – Unterlagen zum Abschluss (10.9 Protokolle, PBC-Liste, Kundenbefragung)
   stichworte: [unterlagen, protokoll, protokolle, 10.9, pbc, pbc-liste, 10.10, kundenbefragung, 10.11, gv-protokoll, vr-protokoll, prozess 3, fehlende unterlagen, ablegen]
   prozess: "3"
   phase: p8-agentablauf
-  ziel: '«Protokoll Vorjahr» heisst: Protokoll der ordentlichen GV im Geschäftsjahr über die Vorjahresrechnung (Beispiel: Geschäftsjahr 2026 → oGV 2026 über die Jahresrechnung 2025), dazu alle ausserordentlichen GV und VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres – aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.'
+  ziel: '«Protokoll Vorjahr» heisst (Auslegung Praxis/intern; Befugnisse der GV: OR 698 ^[or__art-698]): Protokoll der ordentlichen GV im Geschäftsjahr über die Vorjahresrechnung (Beispiel: Geschäftsjahr 2026 → oGV 2026 über die Jahresrechnung 2025), dazu alle ausserordentlichen GV und VR-Protokolle/Zirkularbeschlüsse des Geschäftsjahres – aus M-Files beschaffen, Zugehörigkeit prüfen und in 10.9 ablegen; fehlende Unterlagen als Vorschlag für die PBC-Liste (10.10); schriftliche Antworten der Kundenbefragung (10.11) auswerten.'
   quelle: konzept-ki-revisionsagent-2026__c011-2
   zitat: Protokoll Vorjahr aus M-Files beschaffen, Zugehörigkeit prüfen, ablegen
   regeln: [schreibbereiche, befragung, pendenz, mandatskontext, nicht_erfinden]
@@ -259,7 +264,7 @@ aufgaben:
   - text: 'Aufbau: 1. Wesentliche Feststellungen (Schritt-Id, Notiz, Betrag, Buchungsvorschlag) · 2. offene Pendenzen und PBC-Vorschläge · 3. Status je Prüffeld (Anzahl vorbereitet / mit Feststellungen / teilweise / nicht bearbeitet + Grund) · 4. Entscheide für den WP (z.B. Kapitalverlust, Hinweise im Bericht, WP-Schritte, Summe nicht korrigierter Fehler für 6.1).'
   - text: Summen der Feststellungen im Rechenmodul bilden und mit der Gesamtwesentlichkeit vergleichen (Beurteilung macht der WP in 6.1).
     aufruf: rechne "…"
-  - text: Nur E-Mail-Entwurf bzw. Versand an die freigegebene WP-Adresse; nie an Kunden; keine Prüfungsaussage.
+  - text: 'Nur E-Mail-Entwurf an die freigegebene WP-Adresse (Regel email); die Übermittlung macht der Mensch (Praxis/intern, Testphase); nie an Kunden; keine Prüfungsaussage.'
   fertig_wenn: Rapport-Entwurf enthält alle Feststellungen und Pendenzen mit Verweis, Status aller markierten Prüffelder, offene Entscheide.
   naechste: [gvb-bericht]
 - id: gvb-bericht
@@ -411,7 +416,7 @@ aufgaben:
       zitat: nicht an die Aktionäre zurückzahlbarer gesetzlicher Kapitalreserve
     - quelle: hwp-er-2026__rz-0369-s112
       zitat: allfällige stille Reserven bei der Berechnung grundsätzlich keine Berücksichtigung
-  - text: Kapitalverlust oder Überschuldung festgestellt → WP sofort informieren (E-Mail-Entwurf an die freigegebene WP-Adresse), nicht erst im Schlussrapport – gebotene Eile.
+  - text: 'Kapitalverlust oder Überschuldung festgestellt → Sofortmeldung an den WP als Entwurf ganz oben in der Antwort bzw. im Rapport (Betreff, Kernaussage, Zahlen aus `kapitalverlust`), nicht erst am Schluss – gebotene Eile. Nicht senden: die Übermittlung an den WP macht der Mensch (Praxis/intern, Testphase; Regel email).' 
     fundstellen:
     - quelle: or__art-725a
       zitat: Der Verwaltungsrat und die Revisionsstelle oder der zugelassene Revisor handeln mit der gebotenen Eile.
@@ -427,7 +432,7 @@ aufgaben:
     aufruf: pruefschritt P1-313
   - text: Für den WP aufbereiten (Notiz Wesentliche Feststellungen/Schlussbesprechung) – Hinweis/Zusatz im Bericht und Anzeige (OR 729c) entscheidet der WP.
     aufruf: revio K7
-  fertig_wenn: Rechnung dokumentiert (Textfeld P1-313, Querverweis A1-205), Rangrücktritte beurteilt, offene Punkte als Notiz; bei Kapitalverlust oder Überschuldung WP sofort informiert, sonst im Rapport.
+  fertig_wenn: Rechnung dokumentiert (Textfeld P1-313, Querverweis A1-205), Rangrücktritte beurteilt, offene Punkte als Notiz; bei Kapitalverlust oder Überschuldung die Sofortmeldung an den WP als Entwurf ganz oben in der Antwort (nicht gesendet), sonst im Rapport.
   naechste: []
 - id: vorjahresabstimmung
   titel: Playbook Vorjahresabstimmung (A1-302, A1-303, P1-302)

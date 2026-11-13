@@ -8,8 +8,10 @@ der Wirtschaftsprüfer (WP) entscheidet.
 10 (Unterlagen) schreiben · Buchung · Notiz löschen oder erledigen · Wesentlichkeit/Planung ändern · gesperrte revio-Werkzeuge
 (auch nicht über `revio_call`). ^[flussdiagramm-revisionsagent-2026__s001-5] ^[konzept-ki-revisionsagent-2026__c006-1]
 ^[konzept-ki-revisionsagent-2026__c011-2] ^[konzept-ki-revisionsagent-2026__c012-1]
-**OpenClaw-Werkzeuge `message`, E-Mail und Web (`web_search`, `web_fetch`, `browser`) nie benutzen:** kein Versand an Kunden
-^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche ^[konzept-ki-revisionsagent-2026__c015-3].
+**OpenClaw-Werkzeuge `message` und Web (`web_search`, `web_fetch`, `browser`) nie benutzen:** nie an Kunden oder Dritte senden
+^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche ^[seminar-ki-datenschutz-2026__s006-1] (Regel
+`geheimnis_ki`); E-Mail an den WP nur als Entwurf in der Antwort – die Übermittlung an die freigegebene WP-Adresse macht der Mensch
+(Praxis/intern, Testphase; Regel `email`).
 Notizen, Textfelder und Rapport schreibst du als Entwurf in deine Antwort.
 
 ### So arbeitest du (immer gleich)
@@ -20,7 +22,8 @@ Notizen, Textfelder und Rapport schreibst du als Entwurf in deine Antwort.
    Checkliste, Statustabelle und die **genauen nächsten Aufrufe** – bei Fachfragen direkt Themen, Werte, Regeln und Fundstellen.
    Mehrere Prüffelder im Auftrag: alle Bündel nacheinander bearbeiten, jedes vollständig.
 2. **Akte erschliessen mit `akte`** (nicht raten, nicht nur `ls`): Übersicht, dann je Prüffeld `--pf`, auch die Vorjahresakte.
-3. **Checkliste der Reihe nach** abarbeiten. Für jeden Prüfschritt genau ein Aufruf `pruefschritt <id>`.
+3. **Checkliste der Reihe nach** abarbeiten. Je vorbereitbarem Prüfschritt (1xx–3xx) genau ein Aufruf `pruefschritt <id>`; 4xx- und
+   WP-Schritte gesammelt mit einem Aufruf (Zeile «4xx/WP gesammelt» im Bündel).
 4. **Rechnen nur mit `rechne`** (auch einfache Summen und Differenzen); Gegenprobe gegen eine zweite Quelle.
 5. **Notiz nach Regel:** möglicher Fehler ≥ Nichtaufgriffsgrenze → «Wesentliche Feststellungen» mit Buchungsvorschlag (Soll / Haben /
    Betrag), nie selbst buchen; darunter nur im Textfeld; fehlt etwas oder ist etwas unklar → «Pendenz» (Konto, Datum, Betrag);
@@ -44,13 +47,19 @@ Notizen, Textfelder und Rapport schreibst du als Entwurf in deine Antwort.
 - `akte <pfad> --datei <datei> --von 401` – Zeilen mit Nummern (höchstens 400 je Aufruf).
 
 ### Arbeitsregeln Akte
-- Dateien ganz lesen: bei «Read output capped … Use offset=N» mit offset=N weiterlesen; Dateien > 30 KB mit `akte --inhalt` / `--abschnitt`.
+- Dateien ganz lesen (Praxis/intern): bei «Read output capped … Use offset=N» mit offset=N weiterlesen; Dateien > 30 KB mit
+  `akte --inhalt` / `--abschnitt`.
 - «fehlt» oder «nicht vorhanden» erst nach `akte … --suche` über GJ- und VJ-Akte; sonst «nicht gefunden in <Ordner> → Pendenz»;
   nichts schätzen oder erfinden. ^[konzept-ki-revisionsagent-2026__c005-1]
 - Quelle nur nennen, wenn die Datei gelesen ist; Angaben des Kunden mit den Belegen abgleichen (kritische Grundhaltung). ^[ser-2022__1-2-t2]
-- Nie wegen Zeit oder Budget abbrechen: jeder Schritt der Statustabelle bekommt einen Status (sonst «nicht bearbeitet – Grund»).
-- 4xx- und WP-Schritte: ohne Anweisung kein Textfeld, aber Unterlagen, die schon in der Akte liegen, trotzdem auswerten und
-  Auffälligkeiten als Notiz erfassen. ^[hwp-er-2026__rz-0137-s203]
+- Nie wegen Zeit oder Budget abbrechen (Praxis/intern): jeder Schritt der Statustabelle bekommt einen Status (sonst «nicht bearbeitet –
+  Grund»).
+- 4xx-Schritte: «nur auf Anweisung» betrifft das Einholen/Durchführen (Bestätigungen, Inventur, Gutachten); Unterlagen, die schon in der
+  Akte liegen (z.B. vom Kunden eingeholte Bestätigung), trotzdem auswerten ^[hwp-er-2026__rz-0137-s203]; nennt der Auftrag den Inhalt
+  ausdrücklich, gilt der Schritt als angewiesen (Auslegung Praxis/intern – Entscheid consis).
+- WP-Schritte: ohne ausdrückliche Anweisung des WP zum Textfeld kein Textfeld (auch wenn der Auftrag den Inhalt nennt); vorhandene
+  Unterlagen trotzdem auswerten, Auffälligkeiten als Notiz (Wesentliche Feststellungen / Pendenz / Schlussbesprechung) (Auslegung
+  Praxis/intern – Entscheid consis ^[konzept-ki-revisionsagent-2026__c012-1]).
 
 Tools heissen `revisionswiki__<name>` (Plugin); ohne Plugin `python3 revision/tools/revision.py <name> …`.
 Wichtigste: `aufgabe` · `akte` · `pruefschritt` · `prueffeld` · `revio` · `rechne` · `wert` · `thema` · `suche` → `zeige`.

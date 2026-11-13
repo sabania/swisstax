@@ -8,7 +8,7 @@ regeln:
   zitat: 'Kann nicht selbst befragen: wertet schriftliche Antworten aus'
 - bereich: schritttyp
   key: analytisch
-  regel: 'Analytisch (2xx): gut automatisierbar über Kontenübersicht, Kennzahlen (revio 1.2) und Rechenmodul (`rechne`).'
+  regel: 'Analytisch (2xx): gut automatisierbar über Kontenübersicht und Kennzahlen (aus revio 1.2 lesen); rechnen mit dem Werkzeug `rechne` (das «Rechenmodul» ist kein revio-Modul).'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Gut automatisierbar über Kontenübersicht, Kennzahlen 1.2 und Rechenmodul
 - bereich: schritttyp
@@ -24,8 +24,9 @@ regeln:
   zitat: nur auf Anweisung, physische Tätigkeiten nie
 - bereich: schritttyp
   key: wp
-  regel: 'WP-Schritt (Kennzeichnung WP, ebenso «?» bis zur Klärung): Beurteilung beim WP. Bis Entscheid consis ohne ausdrückliche Anweisung des WP kein Eintrag im Textfeld und keine Beilage am Schritt:
-    Schritt lesen, Punkte als Notiz (Schlussbesprechung/Pendenz); im Rapport Status «nicht bearbeitet – WP-Schritt» (bei «?»: Wortlaut aus `pruefschritt`), weiter mit dem nächsten Schritt ^[flussdiagramm-revisionsagent-2026__s001-3];
+  regel: 'WP-Schritt (Kennzeichnung WP, ebenso «?» bis zur Klärung): Beurteilung beim WP. Bis Entscheid consis ohne ausdrückliche Anweisung des WP zum Textfeld kein Eintrag im Textfeld und keine Beilage am
+    Schritt (auch wenn der Auftrag den Inhalt nennt): Schritt lesen, Unterlagen, die schon in der Akte liegen, auswerten und Auffälligkeiten als Notiz (Wesentliche Feststellungen / Pendenz / Schlussbesprechung;
+    Auslegung Praxis/intern – Entscheid consis); im Rapport Status «nicht bearbeitet – WP-Schritt» (bei «?»: Wortlaut aus `pruefschritt`), weiter mit dem nächsten Schritt ^[flussdiagramm-revisionsagent-2026__s001-3];
     mit Anweisung als «Vorbereitung für WP» kennzeichnen.'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
@@ -145,7 +146,7 @@ regeln:
   zitat: ohne Recht für Visum, Abschlussstatus, Freigabe und Kundenversand
 - bereich: grenze
   key: email
-  regel: 'E-Mail nur an die freigegebene WP-Adresse ^[konzept-ki-revisionsagent-2026__c011-2], nie an Kunden oder Dritte; in der Testphase nur als Entwurf oder an die fixe WP-Adresse.'
+  regel: 'E-Mail nur an die freigegebene WP-Adresse ^[konzept-ki-revisionsagent-2026__c011-2], nie an Kunden oder Dritte; in der Testphase nur als Entwurf oder an die fixe WP-Adresse. Der Agent erstellt nur den Entwurf (in der Antwort bzw. im Rapport); die Übermittlung macht der Mensch, solange kein freigegebenes Mail-Werkzeug besteht (Praxis/intern).'
   quelle: konzept-ki-revisionsagent-2026__c009-2
   zitat: in der Testphase nur Entwurf oder Versand an eine fixe WP-Adresse, nie an Kunden
 - bereich: grenze
@@ -235,6 +236,12 @@ regeln:
     nach Risiko 3.1; Vorgaben des WP pro Mandat oder Prüffeld gehen vor; Auswahl im Textfeld begründen.'
   quelle: konzept-ki-revisionsagent-2026__c015-2
   zitat: Der Agent wählt standardmässig alle Posten über der Toleranzwesentlichkeit
+- bereich: wesentlichkeit
+  key: keine_repraesentative_stichprobe
+  regel: 'Keine repräsentativen Stichprobenverfahren (eingeschränkte Revision): Auswahl bewusst nach Betrag und Risiko, keine Hochrechnung
+    auf die Grundgesamtheit.'
+  quelle: ser-2022__6-1-3
+  zitat: Auf die Anwendung repräsentativer Stichprobenverfahren ist zu verzichten.
 - bereich: gesetz
   key: or725a_kapitalverlust
   regel: 'Kapitalverlust (OR 725a Abs. 1): Aktiven abzüglich Verbindlichkeiten decken die Hälfte der Summe aus Aktienkapital, nicht zurückzahlbarer gesetzlicher Kapitalreserve und gesetzlicher Gewinnreserve

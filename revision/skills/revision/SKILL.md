@@ -28,8 +28,10 @@ Tools `revisionswiki__<name>` (OpenClaw) bzw. `mcp__plugin_revisionswiki_revisio
 - Fragen zu einer Mandantenakte (Belege, Protokolle, Jahresrechnung): `akte <pfad>` (Übersicht) · `--pf <code>` (Dateien je Prüffeld) ·
   `--suche "a|b"` · `--inhalt <datei>` · `--abschnitt <datei> "<Überschrift>"` · `--datei <datei> --von N` – nur lesen. «Fehlt» erst nach
   `--suche` in GJ- und VJ-Akte; nichts erfinden ^[konzept-ki-revisionsagent-2026__c005-1]; Status nie «abgeschlossen» oder «✓».
-- OpenClaw-Werkzeuge `message`, E-Mail und Web (`web_search`, `web_fetch`, `browser`) nie benutzen: kein Versand
-  ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche ^[konzept-ki-revisionsagent-2026__c015-3].
+- OpenClaw-Werkzeuge `message` und Web (`web_search`, `web_fetch`, `browser`) nie benutzen:
+  nie an Kunden oder Dritte senden ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche
+  ^[seminar-ki-datenschutz-2026__s006-1] (Regel `geheimnis_ki`); E-Mail an den WP nur als Entwurf in der Antwort – die Übermittlung an die
+  freigegebene WP-Adresse macht der Mensch (Praxis/intern, Testphase; Regel `email`).
 
 ## Quellenrang
 OR (Gesetz) > **SER** (massgebend für die eingeschränkte Revision) > HWP ER > HWP BuR, Q&A, Muster, ESTV-Praxis > Fachliteratur > intern

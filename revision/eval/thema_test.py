@@ -3,7 +3,8 @@
 
   python3 revision/eval/thema_test.py [revision/eval/thema-test.yaml ...]
 
-Zusätzlich für alle Themen (kompakt): «Für den Agenten» vor «Fundstellen», keine doppelte ^[chunk-id] in einer Zeile, kompakt nicht länger als --voll.
+Zusätzlich für alle Themen (kompakt): «Für den Agenten» vor «Fundstellen», keine doppelte ^[chunk-id] in einer Zeile, kompakt nicht länger als --voll
+und kleiner als 12 KB.
 """
 import re
 import sys
@@ -55,6 +56,7 @@ def main():
         dup = [z for z in fund if (m := re.search(r"(\^\[[^\]]+\])$", z)) and m.group(1) in z[:m.start()]]
         pruef(not dup, f"{t['id']}: angehängte Fundstelle doppelt in «{dup[0][:100] if dup else ''}»")
         pruef(len(o) <= len(v), f"{t['id']}: kompakt ({len(o)}) länger als --voll ({len(v)})")
+        pruef(len(o.encode("utf-8")) < 12 * 1024, f"{t['id']}: kompakt {len(o.encode('utf-8'))} Bytes (soll < 12 KB)")
     print(f"{ok}/{tot} richtig")
     sys.exit(0 if ok == tot else 1)
 

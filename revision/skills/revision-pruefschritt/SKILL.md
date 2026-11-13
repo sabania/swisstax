@@ -7,9 +7,11 @@ description: Prüfschritte und Prüffelder einer eingeschränkten Revision in re
 
 **Grundsatz:** Der Agent bereitet vor – Textfeld, Beilagen, Notizen, Ablage in Bereich 10, PBC-Vorschläge.
 **Nie:** Visum, ✓ Prüffeld, Abschliessende Beurteilung, Abschluss/Siegel/Freigabe, Notizen löschen/erledigen, buchen, Kunden
-kontaktieren. Gesperrte revio-Werkzeuge nie aufrufen, auch nicht über `revio_call` (`revio nur-mensch`). OpenClaw-Werkzeuge `message`,
-E-Mail und Web (`web_search`, `web_fetch`, `browser`) nie benutzen: kein Versand ^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten
-nie ins Web ^[konzept-ki-revisionsagent-2026__c015-3]; Notizen und Textfelder nur als Entwurf.
+kontaktieren. Gesperrte revio-Werkzeuge nie aufrufen, auch nicht über `revio_call` (`revio nur-mensch`).
+OpenClaw-Werkzeuge `message` und Web (`web_search`, `web_fetch`, `browser`) nie benutzen: nie an Kunden oder Dritte senden
+^[konzept-ki-revisionsagent-2026__c009-2], Mandatsdaten nie in externe KI/Websuche ^[seminar-ki-datenschutz-2026__s006-1] (Regel
+`geheimnis_ki`); E-Mail an den WP nur als Entwurf in der Antwort – die Übermittlung an die freigegebene WP-Adresse macht der Mensch
+(Praxis/intern, Testphase; Regel `email`). Notizen und Textfelder nur als Entwurf.
 
 ## Akte lesen – `akte` (nur lesen, speichert nichts)
 - `akte <pfad> --vj <vj-pfad>` – Übersicht: Dateien mit Zeilen, KB und vermutetem Prüffeld (Prüffeld immer mit revio-Code nennen).
@@ -20,8 +22,8 @@ nie ins Web ^[konzept-ki-revisionsagent-2026__c015-3]; Notizen und Textfelder nu
 - `akte <pfad> --datei <datei> --von 401` – Zeilen mit Nummern (höchstens 400 je Aufruf).
 
 ## Arbeitsregeln (immer)
-1. Akte zuerst erschliessen (GJ und VJ, `akte … --pf <code>`); Dateien ganz lesen – bei «Read output capped … offset=N» weiterlesen
-   oder `akte --abschnitt` / `--datei --von`.
+1. Akte zuerst erschliessen (GJ und VJ, `akte … --pf <code>`); Dateien ganz lesen (Praxis/intern) – bei «Read output capped … offset=N»
+   weiterlesen oder `akte --abschnitt` / `--datei --von`.
 2. «fehlt/nicht vorhanden» erst nach `akte … --suche` über GJ- und VJ-Akte, sonst «nicht gefunden in <Ordner> → Pendenz»; nichts
    erfinden ^[konzept-ki-revisionsagent-2026__c005-1].
 3. Quelle nur nennen, wenn gelesen; Angaben des Kunden mit Belegen abgleichen (kritische Grundhaltung ^[ser-2022__1-2-t2]).
@@ -35,7 +37,8 @@ nie ins Web ^[konzept-ki-revisionsagent-2026__c015-3]; Notizen und Textfelder nu
 
 ## Ablauf je Prüfschritt
 1. Zuerst `aufgabe <code>` (z.B. `aufgabe C1`, mehrere: `aufgabe "D1 und H3"`: Arbeitsregeln, Checkliste, Statustabelle, Bündel je
-   Prüffeld). Dann `akte <pfad> --vj <vj-pfad> --pf <code>` und je Schritt genau einmal `pruefschritt <id>` – Katalogtext, Typ, EP/WP,
+   Prüffeld). Dann `akte <pfad> --vj <vj-pfad> --pf <code>` und je vorbereitbarem Schritt (1xx–3xx) genau einmal `pruefschritt <id>`;
+   4xx/WP gesammelt mit einem Aufruf (Zeile «4xx/WP gesammelt» im Bündel) – Katalogtext, Typ, EP/WP,
    Prüfziele, **Rolle des Agenten**, Vorgehen, Nachweise, Rechenregel, Fundstellen, revio.
 2. Mandatskontext prüfen (Kunde, revio-Mandat, M-Files-Kunde, Geschäftsjahr, Stichtag) – Abweichung → abbrechen, Pendenz.
 3. Risiko/Strategie (revio 3.1/3.5) und Wesentlichkeit (3.3, nur lesen) berücksichtigen: Toleranzwesentlichkeit steuert den Umfang,
@@ -54,8 +57,9 @@ nie ins Web ^[konzept-ki-revisionsagent-2026__c015-3]; Notizen und Textfelder nu
      nur auf Anweisung». «Nur auf Anweisung» betrifft das Einholen/Durchführen: Unterlagen, die schon in der Akte liegen (z.B. vom
      Kunden eingeholte Bestätigung), trotzdem auswerten ^[hwp-er-2026__rz-0137-s203]; nennt der Auftrag den Inhalt ausdrücklich, gilt
      der Schritt als angewiesen (Praxis/intern – Entscheid consis).
-   - **WP-Schritte:** Beurteilung beim WP; ohne ausdrückliche Anweisung kein Textfeld (offener Entscheid consis) – vorhandene Unterlagen
-     trotzdem auswerten, Auffälligkeiten als Notiz (Wesentliche Feststellungen / Pendenz / Schlussbesprechung).
+   - **WP-Schritte:** Beurteilung beim WP; ohne ausdrückliche Anweisung des WP zum Textfeld kein Textfeld (auch wenn der Auftrag den
+     Inhalt nennt; offener Entscheid consis ^[konzept-ki-revisionsagent-2026__c012-1]) – vorhandene Unterlagen trotzdem auswerten,
+     Auffälligkeiten als Notiz (Wesentliche Feststellungen / Pendenz / Schlussbesprechung) (Auslegung Praxis/intern – Entscheid consis).
 6. **Textfeld** (Entwurf): Prüfziel(e) · Quellen (M-Files-ID/Version, Datei) · Auswahl und Umfang mit Begründung · Ergebnis mit
    Zahlen · Feststellungen · Pendenzen · Status (vorbereitet / mit Feststellungen / teilweise bearbeitet / nicht bearbeitet + Grund).
 7. **Notizen:** «Wesentliche Feststellungen» = möglicher Fehler + begründeter Buchungsvorschlag (ohne Verbuchung, Betrag gerechnet);
