@@ -102,8 +102,8 @@ risiken:
   - EX
   quelle: hwp-bur-2023__rz-0329-s228-t1
   zitat: bei indirekter Abschreibung die Anschaffungskosten sowie die kumulierten Abschreibungen und Wertberichtigungen
-- text: 'Anhang unvollständig oder nicht mit der Erfolgsrechnung übereinstimmend: Erläuterung der ausserordentlichen, einmaligen oder periodenfremden Posten fehlt oder weicht betragsmässig
-    ab.'
+- text: 'Anhang unvollständig oder nicht mit der Erfolgsrechnung übereinstimmend: Erläuterung der ausserordentlichen, einmaligen oder periodenfremden Posten fehlt oder ein angegebenes
+    Total weicht betragsmässig ab.'
   pruefziele:
   - DO
   - VO
@@ -206,7 +206,7 @@ bewertung:
   quelle: hwp-bur-2023__rz-0800-s330-t1
   zitat: Als ausserordentliche Aufwendungen und Erträge gelten ungewöhnliche, in der Regel einmalige oder mit dem Geschäftsgang nicht ohne Weiteres zusammenhängende Vorgänge.
 - regel: 'Klassierungsbeispiele ausserordentlich, einmalig oder periodenfremd (HWP BuR Abbildung 22): Korrektur von Fehlern und Effekt aus der erstmaligen Anwendung neuer Rechnungslegungsgrundsätze
-    (kein Zusammenhang mit dem laufenden Geschäftsgang, nicht wiederkehrend).'
+    (kein Zusammenhang mit dem laufenden Geschäftsgang, nicht wiederkehrend). Abgrenzung: Schätzungsänderungen sind betrieblich, nicht periodenfremd; periodenfremd ist die Fehlerkorrektur.'
   quelle: hwp-bur-2023__rz-0800-s330-t3
   zitat: Korrektur von Fehlern
 - regel: Kein Wahlrecht bei der Einordnung; im Zweifel ordentliches/betriebliches Ergebnis; Ausweis als ausserordentlich ist im Einzelnen zu begründen.
@@ -222,12 +222,27 @@ bewertung:
     erfassen und im Anhang erläutern.
   quelle: hwp-bur-2023__rz-0504-s259
   zitat: Rückstellungen für ausserordentliche, einmalige oder periodenfremde Aufwendungen sind als solche in der Erfolgsrechnung zu erfassen und im Anhang zu erläutern
+- regel: 'Auflösung nicht benötigter Rückstellungen: Ausweis analog zur Bildung (betrieblich gebildet → betrieblich aufgelöst, nicht als a.o. Ertrag).'
+  quelle: hwp-bur-2023__rz-0509-s260
+  zitat: Bei der Auflösung nicht benötigter Rückstellungen über die Erfolgsrechnung sind für den Ausweis analoge Überlegungen wie bei der Bildung anzustellen.
+- regel: 'Auflösung nicht mehr erforderlicher Wertberichtigungen: Ausweis nach den gleichen Kriterien wie die Bildung; im Umfang aufgelöster handelsrechtlicher stiller Reserven ist auch
+    die Verrechnung mit der damals verwendeten Aufwandposition zulässig (Nettoauflösung → T1-305).'
+  quelle: hwp-bur-2023__rz-0797-s329
+  zitat: Der Ausweis der Auflösung nicht mehr erforderlicher Wertberichtigungen hat nach den gleichen Kriterien zu erfolgen. Im Umfang von aufgelösten handelsrechtlichen stillen Reserven
+    ist auch eine Verrechnung mit der damals verwendeten Aufwandposition zulässig.
 - regel: 'Fehlerkorrekturen aus Vorjahren: keine Anpassung des Vorjahresergebnisses; Korrektur über die Erfolgsrechnung des laufenden Jahres mit Anhangerläuterung (periodenfremd).'
   quelle: hwp-bur-2023__rz-0071-s072
   zitat: Notwendige Korrekturen sind über die Erfolgsrechnung des laufenden Jahres mit entsprechenden Erläuterungen im Anhang vorzunehmen.
 - regel: Ausserordentliche, einmalige und periodenfremde Posten dürfen in einer Position zusammengefasst werden; Verrechnung von Aufwand und Ertrag nur bei unwesentlichen Grössen.
   quelle: hwp-bur-2023__rz-0233-s114
   zitat: Eine Verrechnung ist nur bei unwesentlichen Grössen statthaft.
+- regel: Nachsteuern, Strafsteuern oder Bussen dürfen dem a.o., einmaligen oder periodenfremden Aufwand zugeordnet werden (Wahlrecht; falls wesentlich im Anhang erläutern, Art. 959c
+    Abs. 2 Ziff. 12 OR).
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Nachsteuern, Strafsteuern oder Bussen können dem ausserordentlichen, einmaligen oder periodenfremden Aufwand zugeordnet werden.
+- regel: Die laufenden direkten Steuern gehören separat in die Position direkte Steuern.
+  quelle: hwp-bur-2023__rz-0801-s331
+  zitat: Direkte Steuern sind in der Erfolgsrechnung separat auszuweisen
 - regel: Verrechnungsverbot gilt ausdrücklich auch für betriebsfremden sowie für ausserordentlichen, einmaligen und periodenfremden Aufwand und Ertrag.
   quelle: hwp-bur-2023__rz-0067-s071
   zitat: betriebsfremder Aufwand und Ertrag; • ausserordentlicher, einmaliger und periodenfremder Aufwand und Ertrag
@@ -273,6 +288,11 @@ fallstricke:
 - text: Unüblich grosse Posten aus der normalen Geschäftstätigkeit (z.B. nachträgliche Lieferantenrabatte, Gutschriften aus Lieferungen) sind nicht schon wegen ihrer Grösse ausserordentlich.
   quelle: hwp-bur-2023__rz-0800-s330-t2
   zitat: Gleiches gilt auch für unüblich grosse Posten, soweit sie aus der normalen Geschäftstätigkeit des Unternehmens stammen.
+- text: Schätzungsänderungen (z.B. Auflösung oder Erhöhung von Abgrenzungen, Rückstellungen oder Wertberichtigungen wegen neuer Schätzung) sind betrieblicher Aufwand bzw. Ertrag, nicht
+    periodenfremd. Periodenfremd ist typischerweise die Korrektur wesentlicher Fehler aus Vorjahren (HWP BuR Abb. 22; Tabelle im Chunk vermischt – Zuordnung im Original raw/hwp-bur-2023.pdf
+    S. 298 (PDF-Seite 331) geprüft).
+  quelle: hwp-bur-2023__rz-0800-s330-t2
+  zitat: Schätzungsänderungen
 - text: 'Im Zweifel ordentlich: Ermessensfälle sind dem betrieblichen Ergebnis zuzuordnen; die Begründungslast liegt beim Ausweis als ausserordentlich.'
   quelle: hwp-bur-2023__rz-0800-s330-t1
   zitat: im Zweifelsfall als Teil des ordentlichen bzw. betrieblichen Ergebnisses zu klassifizieren sein wird
@@ -291,7 +311,9 @@ fallstricke:
   quelle: hwp-bur-2023__rz-0329-s228-t1
   zitat: Eine direkte Verrechnung von realisierten Buchgewinnen mit bestehenden Sachanlagen
 - text: Aufwandkonto mit Habensaldo bzw. Nettoausweis von ausserordentlichem Aufwand und Ertrag (oder von Gewinnen und Verlusten aus Anlagenabgängen in einer Position) deutet auf Verrechnung
-    oder Fehlbuchung hin.
+    oder Fehlbuchung hin. Ausnahme nur bei nachgewiesener Auflösung einer Wertberichtigung bzw. stiller Reserven über die damals belastete Aufwandposition (HWP BuR Rz 797; Betrag für
+    T1-305 melden). Ohne diesen Nachweis bleibt der Habensaldo ein Hinweis auf Verrechnung oder Fehlbuchung (Pendenz bzw. Feststellung). Die Verrechnung von a.o. Aufwand mit a.o. Ertrag
+    bleibt unzulässig (ausser bei unwesentlichen Grössen).
   quelle: hwp-bur-2023__rz-0067-s071
   zitat: Das Verbot der Verrechnung von Aufwand und Ertrag bezieht sich auch auf artgleiche Aufwendungen und Erträge
 - text: 'Fehlende Anhangangabe zur Nettoauflösung stiller Reserven nicht vorschnell als Feststellung erfassen: Buchgewinne aus Zwangsreserven sind nicht offenlegungspflichtig.'
@@ -300,8 +322,8 @@ fallstricke:
 - text: Anhangerläuterung der ausserordentlichen Posten stimmt betragsmässig oder inhaltlich nicht mit den Positionen der Erfolgsrechnung überein – immer abstimmen.
   quelle: ser-2022__anh-d-s098-2
   zitat: insbes. zu wesentlichen ausserordentlichen, einmaligen oder periodenfremden Positionen
-- text: Für dasselbe Erfolgskonto können Saldoliste, Gegenbuchungen in den Bilanz-Kontoblättern und Anhangerläuterung verschiedene Beträge zeigen; alle drei Quellen abstimmen. Fehlt
-    ein Kontoblatt eines Erfolgskontos, Buchungen über die Gegenkonten in den Bilanz-Kontoblättern rekonstruieren.
+- text: 'Praxis/intern: Für dasselbe Erfolgskonto können Saldoliste, Gegenbuchungen in den Bilanz-Kontoblättern und Anhangerläuterung verschiedene Beträge zeigen; alle drei Quellen abstimmen.
+    Fehlt ein Kontoblatt eines Erfolgskontos, Buchungen über die Gegenkonten in den Bilanz-Kontoblättern rekonstruieren.'
 - text: Konten (z.B. Nebenbetrieb, Liegenschafts-/Untermietertrag) wechseln zwischen den Jahren die ER-Position; Kontenzuordnung immer mit dem Vorjahr vergleichen.
   quelle: or__art-958c
   zitat: Es sind bei der Darstellung und der Bewertung stets die gleichen Massstäbe zu verwenden.
@@ -321,8 +343,8 @@ fallstricke:
     bei vermuteter wesentlicher Fehlaussage oder erhöhtem inhärentem Risiko).'
   quelle: konzept-ki-revisionsagent-2026__c008-1
   zitat: 'Kennzeichnung: EP = Einzelfallprüfung, WP = Wirtschaftsprüfer.'
-- text: 'Ob der Agent WP-Schritte vorbereitet, ist offen (Entscheid consis): SCH5-301 nur auf Anweisung des Wirtschaftsprüfers bzw. gemäss Entscheid consis vorbereiten; sonst Status
-    «nicht bearbeitet» mit Grund als Notiz für den Rapport.'
+- text: 'Ohne Anweisung des WP: kein Eintrag im Textfeld; im Rapport «nicht bearbeitet – WP-Schritt» mit Grund; nur konkrete Hinweise für den WP als Notiz «Schlussbesprechung» bzw. «Pendenz».
+    Mit Anweisung: SCH5-301 vorbereiten. Ob der Agent WP-Schritte generell vorbereitet, ist offen (Entscheid consis).'
   quelle: konzept-ki-revisionsagent-2026__c012-1
   zitat: Ob der Agent auch WP-Schritte (Wirtschaftsprüfer) vorbereitet oder auslässt, ist der wichtigste offene Entscheid.
 - text: Kalkulatorische Mieten (z.B. Eigennutzung einer Liegenschaft) dürfen nicht als betriebsfremder Ertrag gebucht werden.
@@ -380,15 +402,17 @@ testakte_2025:
     als Pendenz anfordern'
 schritte:
 - id: SCH5-101
-  vorgehen: 'Aus der Saldoliste ER die Konten Nebenbetrieb, betriebsfremd und ausserordentlich/periodenfremd mit dem Vorjahr gegenüberstellen; Abweichungen ab Toleranzwesentlichkeit
-    (3.3) oder qualitativ auffällige (Vorzeichenwechsel, Konto neu oder auf null) listen. Schriftliche Kundenantwort (10.11) kritisch gegen die Akte würdigen, sonst Frage je Konto als
-    Pendenz. Im Textfeld: Liste, Antworten, Würdigung; höchstens «teilweise bearbeitet».'
+  vorgehen: 'Aus der Saldoliste ER die Konten Nebenbetrieb, betriebsfremd und ausserordentlich/periodenfremd mit dem Vorjahr und, soweit bekannt, mit den Erwartungen (Budget, Verträge,
+    Sondervorgänge) gegenüberstellen; Abweichungen ab Toleranzwesentlichkeit (3.3) oder qualitativ auffällige (Vorzeichenwechsel, Konto neu oder auf null) listen; unerklärte Abweichungen
+    zu den Erwartungswerten aus SCH5-202 nachträglich hier aufnehmen. Schriftliche Kundenantwort (10.11) kritisch gegen die Akte würdigen, sonst Frage je Konto als Pendenz. Im Textfeld:
+    Liste, Antworten, Würdigung; höchstens «teilweise bearbeitet».'
   nachweise:
   - Saldoliste Erfolgsrechnung 2025/2024
   - Jahresrechnung mit Vorjahreszahlen
   - schriftliche Antworten der Unternehmensleitung (Kundenbefragung 10.11)
   - Kontoblätter der betroffenen Konten
-  rechnen: Δ je Konto = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024|; auffällig, wenn |Δ| ≥ Toleranzwesentlichkeit oder Aufwandkonto mit Habensaldo bzw. Ertragskonto mit Sollsaldo
+  rechnen: Δ je Konto = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024| (nur wenn Saldo 2024 ≠ 0; sonst «Konto neu», kein Δ%); auffällig, wenn |Δ| ≥ Toleranzwesentlichkeit oder Aufwandkonto
+    mit Habensaldo bzw. Ertragskonto mit Sollsaldo
   feststellung_wenn: 'Pendenz: keine oder unplausible Antwort zu Abweichung ab Toleranzwesentlichkeit. Wesentliche Feststellung: Antwort zeigt Fehlklassierung, fehlende Abgrenzung oder
     nicht eingetretenen Posten.'
   fundstellen:
@@ -437,7 +461,8 @@ schritte:
   - Saldoliste Erfolgsrechnung 2025/2024
   - Jahresrechnung 2025 mit Vorjahreszahlen und Vorjahres-Jahresrechnung
   - Vorjahresakte (Kriterien, Anhang)
-  rechnen: Summe Konten je ER-Position = Ausweis Jahresrechnung (2025 und 2024); Δ je Position = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024|
+  rechnen: Summe Konten je ER-Position = Ausweis Jahresrechnung (2025 und 2024); Δ je Position = Saldo 2025 − Saldo 2024; Δ% = Δ / |Saldo 2024| (nur wenn Saldo 2024 ≠ 0; sonst «Konto
+    neu» bzw. «Position neu», kein Δ%)
   feststellung_wenn: 'Wesentliche Feststellung: Kontenzuordnung oder Kriterien ggü. Vorjahr geändert ohne Anhangerläuterung, oder ER-Position ≠ Summe Konten. Pendenz: Veränderung ab
     Toleranzwesentlichkeit unerklärt.'
   fundstellen:
@@ -452,7 +477,7 @@ schritte:
 - id: SCH5-202
   vorgehen: Erwartungswerte vor dem Vergleich festhalten (Miet-/Untermietverträge, Kaufvertrag/Anlagespiegel, Rückstellungsspiegel, VR-/GV-Protokolle, Sondervorgänge, Vorjahreskorrekturen)
     und mit den Salden vergleichen. Begründung für Differenzen über der tolerierbaren Abweichung aus schriftlicher Kundenantwort (10.11) bzw. Akte entnehmen, sonst Frage als Pendenz
-    mit Konto, Betrag und Differenz. Bekannte Vorgänge ohne Buchung als Vollständigkeitsthema.
+    mit Konto, Betrag und Differenz. Bekannte Vorgänge ohne Buchung als Vollständigkeitsthema. Unerklärte Differenzen zur Erwartung in SCH5-101 übernehmen.
   nachweise:
   - Miet- und Untermietverträge
   - Kaufverträge Anlagenverkäufe und Anlagespiegel
@@ -482,9 +507,9 @@ schritte:
   - quelle: hwp-er-2026__rz-0110-s199
     zitat: in kleineren Verhältnissen die ausgewiesenen Beträge durch den Bestand und/oder die Veränderung stiller Reserven beeinflusst werden
 - id: SCH5-301
-  vorgehen: revio WP = Wirtschaftsprüfer; im SER weiter gehend. Nur auf Anweisung des Wirtschaftsprüfers bzw. gemäss Entscheid consis vorbereiten, sonst Status «nicht bearbeitet» mit
-    Grund als Notiz. Posten ab Toleranzwesentlichkeit und auffällige (Jahresend-, Sammel-, runde Buchungen) wählen; ohne Kontoblatt Gegenbuchungen auf 7xxx/8xxx in Bilanz-Kontoblättern
-    suchen. Belege in M-Files; Betrag, Periode, Sachverhalt, Klassierung, Verrechnung, Anhang prüfen.
+  vorgehen: 'Ohne Anweisung des WP: kein Eintrag im Textfeld; im Rapport «nicht bearbeitet – WP-Schritt» mit Grund; nur konkrete Hinweise für den WP als Notiz «Schlussbesprechung» bzw.
+    «Pendenz». Mit Anweisung: revio WP = Wirtschaftsprüfer; im SER weiter gehend. Posten ab Toleranzwesentlichkeit und auffällige (Jahresend-, Sammel-, runde Buchungen) wählen; ohne
+    Kontoblatt Gegenbuchungen auf 7xxx/8xxx in Bilanz-Kontoblättern suchen. Belege in M-Files; Betrag, Periode, Sachverhalt, Klassierung, Verrechnung, Anhang prüfen.'
   nachweise:
   - Kontoblätter der Konten Nebenbetrieb, betriebsfremd, ausserordentlich bzw. Bilanz-Kontoblätter mit Gegenbuchungen
   - Belege (Verträge, Gutschriften, Abrechnungen, Aktennotizen)
@@ -492,9 +517,9 @@ schritte:
   - Anhang der Jahresrechnung
   - Anlagespiegel bei Anlagenverkäufen
   rechnen: Summe Einzelbuchungen Kontoblatt (bzw. Gegenbuchungen aus Bilanz-Kontoblättern) = Saldo Saldoliste je Konto; Summe a.o.-Konten = Total a.o. Aufwand bzw. Ertrag in der ER =
-    Anhangangabe; Abdeckung % = geprüfte Posten / Kontosaldo
+    Anhangangabe (nur falls im Anhang ein Total angegeben ist; sonst prüfen, ob die wesentlichen Posten erläutert sind); Abdeckung % = geprüfte Posten / Kontosaldo
   feststellung_wenn: 'Pendenz: Beleg fehlt (Konto, Datum, Betrag). Notiz «Wesentliche Feststellung» mit begründetem Buchungsvorschlag, keine Verbuchung: Beleg ≠ Buchung, falsche Periode/Klassierung,
-    Verrechnung, Anhang ≠ ER.'
+    Verrechnung, angegebenes Anhang-Total ≠ ER oder wesentlicher Posten nicht erläutert.'
   fundstellen:
   - quelle: ser-2022__anh-d-s096-1
     zitat: Abstimmung der ausgewiesenen Posten mit Belegen und anderen geeigneten Unterlagen
@@ -508,6 +533,8 @@ schritte:
     zitat: consis entscheidet über WP-Schritte
   - quelle: flussdiagramm-revisionsagent-2026__s001-3
     zitat: Status «nicht bearbeitet»
+  - quelle: flussdiagramm-revisionsagent-2026__s001-3
+    zitat: Grund für den Rapport
   - quelle: hwp-er-2026__rz-0115-s200
     zitat: Die Prüfung soll zeigen, ob die Grunderfassung dem Beleg entspricht
   - quelle: hwp-er-2026__rz-0116-s201
@@ -520,3 +547,7 @@ schritte:
     zitat: Fehlende Unterlagen, ungeklärte Sachverhalte, nicht verfügbare Belege mit Konto, Datum und Betrag
   - quelle: konzept-ki-revisionsagent-2026__c007-1
     zitat: Hinweise auf mögliche Fehler und begründete Buchungsvorschläge (keine Verbuchung)
+  - quelle: hwp-bur-2023__rz-0859-s353
+    zitat: Wesentliche Posten sind im Anhang zu erläutern, wie beispielsweise Ursachen eines solchen Ereignisses (Schadensfall etc.).
+  - quelle: hwp-bur-2023__rz-0859-s353
+    zitat: Eine Aufteilung der Anhangsangabe in «ausserordentlich», «einmalig» oder «periodenfremd» ist nicht notwendig
